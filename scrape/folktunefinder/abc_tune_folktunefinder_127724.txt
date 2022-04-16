@@ -1,0 +1,24 @@
+X:1
+T:Greensleeves or Kick my a**e 
+R:Jig
+M:6/8
+L:1/8
+K:Em
+c2c cde | d2B G2B | c2A ABc | B2G E2B | 
+c2c cde | d2B G2B | cBA BAG | A3 A3 :|
+|:g2g gfe | d2B G2f | g2g gfe | a2f d2f | 
+g2g gfe | d2B G2B | cBA BAG | A3 A3 :|
+%%newpage
+%%textfont Timesbold 25
+%%centre  JIGS 
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127724
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

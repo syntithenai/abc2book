@@ -1,0 +1,22 @@
+X: 29
+T:Sansonette
+M:4/4
+L:1/8
+R:Schottische
+C:Daniel Forge
+Z:Steve Mansfield
+K:Dm
+A2^GA =G2 F2 | EFGA D4 | DEFG A2 GA | c2 B2 A4 |
+A2^GA =G2 F2 | EFGA D4 | DEFG A2 GF | EDEF D4 ::
+A2 FA BFAB | A2 FA BFAB | E2 EA BEAB | E2 EA BEAB |
+A2 FA BFAB | A2 FA BFAB | ABAG FGFE | DEFE D4 :|
+S:https://www.folktunefinder.com/tunes/100166
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

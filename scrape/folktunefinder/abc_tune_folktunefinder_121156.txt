@@ -1,0 +1,25 @@
+X: 70
+T:Hornpipe,A. WI.070
+M:C
+Q:180
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Hornpipe
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:D
+AG|FAd2 d2ef|gec2 c2((3ABc)|dfdf dfed|cdBc ((3ABA) ((3GFE)|!
+FAd2 d2ef|gec2 c2((3ABc)|dfdf gece|d2d2d2:|!
+|:fg|afdA E2ef|gecA F2ef|gfge dcdf|edcB ((3ABA) ((3GFE)|!
+FAd2 d2ef|gec2 c2((3ABc)|dfdf gece|d2d2d2:|]
+S:https://www.folktunefinder.com/tunes/121156
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

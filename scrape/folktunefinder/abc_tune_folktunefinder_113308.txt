@@ -1,0 +1,36 @@
+X: 220
+T: Jessica's (R-119)
+C: R-119
+C: Mick Hanley
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: A
+"A"e2fe c2e2| f2e2 B2c2| A3B c2A2|1 e2c2 "E"B4 :|2 "D"F2A2 "A"E4 |]
+\
+"D"F3B A2F2| "A"c2B2 A2c2| e2fe c2e2| a2g2 "D"f4|
+"A"e2fe c2e2| f2e2 B2c2| A3B c2A2| "D"F2A2 "A"E4 |]
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%scale .7
+%%staffwidth     15.50cm
+%%textfont       Times-Bold 18.0
+%%text Singing Calls!
+%%textfont       Times-Roman 10.0
+%%scale .8
+S:https://www.folktunefinder.com/tunes/113308
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

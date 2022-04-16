@@ -1,0 +1,34 @@
+X:13717
+T:Quadrill. CJF.066
+M:6/8
+L:1/8
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:To get the tune sounding better, try putting a natural before the last
+N:d in bar 4. Also, try playing the sections ABAC etc. - PJH.
+Z:P J Headford 2000
+K:D
+d2|{e}dcd {e}dcd|f3d2d|{e}dcd {e}dcd|^d3e2d|!
+{e}dcd {e}dcd|f3d2d|b2a gfe|d2fd2||!
+d|ced cBA|d2fa2d|ced cBA|d2fA2d|!
+ced cBA|d2fa2a|^gbg efg|gfb" D.C." age||!
+B|d2cB2^A|Bcde2f|gfe cfe|d2cB2c|!
+d2cB2^A|Bcde2f|ged cf^A|" D.C."B3B2||
+S:https://www.folktunefinder.com/tunes/116762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

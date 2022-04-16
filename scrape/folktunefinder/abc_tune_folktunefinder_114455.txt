@@ -1,0 +1,22 @@
+X:45
+T: Tobin's Favourite
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+A/F/|DFA dcd|ecA cde|fdf gfg|ecA GFE|
+DFA dcd|ecA cde|(3fgaf gec|edc d2 :|
+d|dfa agf|(3efge efg|fdf gfg|ecA GFE|
+DFA dcd|ecA cde|(3fgaf gec|edc d2 :|
+S:https://www.folktunefinder.com/tunes/114455
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

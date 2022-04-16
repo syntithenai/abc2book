@@ -1,0 +1,25 @@
+X:245
+T: The Glen Hornpipe
+M: 4/4
+L: 1/8
+B: O'Neill's 1673
+N: "collected by Fielding"
+K: D
+(3ABc \
+| {e}d>cd>fA>BA>G | F>Ad>fa2g>f | (3gbg e>g (3faf d>f | (3ege c>ed>cB>c |
+| {e}d>cd>fA>BA>G | F>Ad>fa2 g>f | (3gbg e>g (3faf d>f | (3efe (3ABc d2 :|
+|: Bc \
+| d>gf>g b>gf>g | B>dc>d g>dc>d | e>dc>da>dc>d | e>dc>d b>gf>g |
+| d>gf>g b>gf>g | b>dc>dg>dc>d | e>dc>da>dc>d | e>dc>d g2 :|
+S:https://www.folktunefinder.com/tunes/101365
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

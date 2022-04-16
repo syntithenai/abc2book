@@ -1,0 +1,24 @@
+X:41
+T: Graf von Rom
+N: Q0014D
+O: Mitteleuropa, Deutschland (DDR) , Lausitz - Gebiet, wendisch
+N: Dritte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Pilger - Reise, Gefangenschaft, Befreiung, Ehe, Liebe
+M: 4/4
+L: 1/8
+K: G
+d2 | d2GFG2A2 | B2A2B2
+c2 | d2ded2AB | c2BAG2
+D2 | G2AFD2D2 | G2AFD2
+d2 | d2c2B2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/109979
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, pilger - reise, gefangenschaft, befreiung, ehe, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

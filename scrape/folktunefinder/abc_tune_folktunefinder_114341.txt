@@ -1,0 +1,25 @@
+X:5
+T:Sjomansvisa fran Skattungbyn (snoa)
+R:snoa
+Z:2001 Brian Wilson 
+M:4/4
+L:1/8
+K:D
+A
+P:A
+|: "D"d2d2 "G"BdBG | "A"A2Bc "D"d2ef | "G"g2ec "A"Acec | "D"d6 A2
+|  "D"f3d f2a2 | "G"g2f2 "A"e2d2 | "D"f3d dcdf |[1 "A"e6 A2 :|[2 "A"e6 Ac|
+P:B
+|: "A"e3A c2e2 | "A"a3a b2c'2 | "A"a3e g2f2 | "D"d3d f2a2 | "Em"e3d BdBG
+| "A"A2Bc d2ef | "G"g2ec "A"Acec |[1 "D"d6 Ac :|[2 "D"d6 A2 ||
+S:https://www.folktunefinder.com/tunes/114341
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/SjomansvisaFranSkattungbynSnoa.abc
+% Rhythm Snoa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

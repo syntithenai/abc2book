@@ -1,0 +1,27 @@
+X: 64
+T:Liz Carrols
+R:Reel
+Z:Barney
+M:4/4
+L:1/8
+K:A
+||A3 B cBAB| ceef ecBA|F2 dF eFdF|fedf ecBA|
+E3 B cBAB|ceef ecBA|a2 ga fedB|BAGB A2 cB|
+A3 B cBAB|ceef ecBA|Fd (3ddd eFdF|fedf ecBA|
+E3 B cBAB|ceef ecBA|a2 ga fedB|BAGB A2 ce||
+|:a2 ga baga| f2 fe fgaf| e2 ce aecA|B2 BA Bcde|
+a2 ga baga|f2 fe fgaf| e2 ce aecA|1 BA GB A2 ce:|2 BA GB A2 cB||
+S:https://www.folktunefinder.com/tunes/127312
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

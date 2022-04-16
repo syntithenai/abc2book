@@ -1,0 +1,35 @@
+X:40
+T: Dawo ge
+N: C0052
+O: China,Hunan, Changde
+S: I, 514]
+N: neues Volkslied. Vermutlich leichte Variante. Noten schwer
+N: zu verfolgen. Foto der Plattenhuelle: 4'14:20
+N: Das Vorspiel zur ersten Strophe wird auf Fuellwoerter gesungen:
+N: 3_.33_2_1__.6_  1__.6_5__.     Die Pause im letzten Takt des
+N: Liedes ist in der Vorlage als 3_ notiert.
+N: Die sechste Strophe endet statt des letzten Taktes ~
+N: 2___2___  x__x_x_x__x_x_ //
+N: Wenig Verzierungen.
+R: Haozi, Dawo haozi. Zhudi, zaofang shi chang. Tongyi dongzuo]
+M: 2/4
+L: 1/32
+K: Bb
+d3dd2c2b6G2 | b6g2f6
+d2 | f2d2d2c2b2b2b2g2 | b6g2f4
+b2g2 | b2b2g4d2d2c2g2 | b6g2f6
+d2 | f2d2d2b2c2c2d4
+b3bb2c2d2c2d4 | g2b2g4f2d2d4
+c8c6db | d3dd2c2b2z2c4 | b6g2f6
+d2 | b3bb2c2d2c2d2b2 | c8c6z2
+S:https://www.folktunefinder.com/tunes/112467
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, dawo haozi. zhudi, zaofang shi chang. tongyi dongzuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

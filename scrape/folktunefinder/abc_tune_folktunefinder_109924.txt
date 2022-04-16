@@ -1,0 +1,21 @@
+X: 2
+T: The Alston Hornpipe
+T: The Lancaster and Manchester Hornpipe
+M: 4/4 
+L: 1/8
+R: Hornpipe 
+K: F Major
+|: cB |\
+Ac f4 af | eg b4 ga | bgaf gefa | ge c4 cB |
+Ac f4 af | eg B4 dB | AFBG AFGE | F2 f2 F2 :|
+|: cB |\
+Acfc acfA | dBFD B,2 dc | =Bdgd _bdgd | ecGE C2 cB |
+Ac f4 af | eg B4 dB | AFBG AFGE | F2 A2 F2 :|
+S:https://www.folktunefinder.com/tunes/109924
+S:http://www.thesession.org/tunes/display/8165
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

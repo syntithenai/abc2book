@@ -1,0 +1,25 @@
+X: 36
+T:Harrow on the Hill,bass part. JNu.21
+M:2/4
+Q:50
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Country-dance
+O:England
+A:East Lancashire
+Z:vmp.Chris Partington
+K:D
+"secundo,read as bass clef"Bfdf|Bfdf|cfef|FfFf|!
+Bfef|BfBf|cfce|BfB2:|!
+|:cfef|Bfdf|Ec^Ec|FcF2|!
+cfef|Bfdf|FfFf|BfB2:|]
+S:https://www.folktunefinder.com/tunes/126960
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

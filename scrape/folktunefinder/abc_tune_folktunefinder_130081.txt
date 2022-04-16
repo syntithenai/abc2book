@@ -1,0 +1,22 @@
+X: 1
+T: Austens Reel
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+EFAB ~c3A|EFAc dAcA|EFAB ~c3B|Acfc ecBA|
+EFAB ~c3A|EFAc ~d3A|1 cdeg agaf|ecBd cAcA:|2 cdeg afec|ecAd cAdf||
+ec (3ccc ecac|bcac edBd|ec (3ccc ecac|bcac B2cd|
+ec (3ccc ecac|bcac ecBA|EFAB ~B2af|ecBd cAga|
+ec (3ccc ecac|bcac ecBA|[c3e3[ce] c/c/ceg|afec BAG2|
+ec (3ccc ecac|bcac ecBA|EFAB ~B2af|ecBd cAAF||
+S:https://www.folktunefinder.com/tunes/130081
+S:http://www.thesession.org/tunes/display/7322
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

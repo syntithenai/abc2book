@@ -1,0 +1,29 @@
+X:284
+T: Cai mian hua, vgl. Kopie)
+N: C0642
+O: China,Shanxi, Zuoqian
+S: MM, !]
+N: DOUBLETTE VON CUT 3
+N: Kein Grundton angegeben. Vorspiel weggelassen.Doppelt in C0640
+R: Xiaodiao, Cai mianhua. Biao siqing]
+M: 2/4
+L: 1/16
+K: C
+A4E2G2 | D4D2E2 | G4-G3c | A2F2E2D2 | C6D2
+E4G2c2 | A2F2E2D2 | C8
+E2A,2C2CD | E3FE2D2 | C2B,2A,2c2 | A2F2E2D2
+C3B,A,2G,2 | E4G2D2 | C3B,A,2C2 | G,8
+E3EG2c2 | A2F2E2D2
+C3B,A,2G,2 | E4G2D2 | C3B,A,2C2 | G,8
+S:https://www.folktunefinder.com/tunes/112711
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, cai mianhua. biao siqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

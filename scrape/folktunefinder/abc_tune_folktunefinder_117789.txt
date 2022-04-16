@@ -1,0 +1,33 @@
+X: 15
+T:Napoleon Crossing the Rhine
+R:Hornpipe
+M:4/4
+N:As played
+S:Dianna Boullier, Bangor (fiddle)
+Z:Bernie Stocks
+K:Em
+E3E {G}EDB,D | {A}GFGB A2GA | (3Bcd gf edBA | GE~E2 FDD2B,2 | E2GE {G}EDB,D |
+GFGB A2GA | (3Bcd gf edBA |1 GE{G}ED E2B,D :|2 GE{G}ED E2Bd || eged B2{d}BA |
+G3B d2Bd | eged AB{d}BA | GE~E2 FDB,D | E2GE {G}EDB,D |
+GFGB A2GA | (3Bcd gf edBA |1 GE{G}ED E2Bd :|2 GE{G}ED E4 ||
+S:https://www.folktunefinder.com/tunes/117789
+S:http://ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book2.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book2.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://www.firepowr.com/abc/Book2.abc
+S:http://www.firepowr.com/abc/Book2abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book2.abc.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

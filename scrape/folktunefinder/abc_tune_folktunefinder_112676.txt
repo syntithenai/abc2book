@@ -1,0 +1,25 @@
+X:249
+T: Shier yue huaming
+N: C0392
+O: China,Henan, Yongcheng, aber auch Shandong und Anhui)
+S: IV, 145]
+N: aber nicht 12 Monate: die Enden von zwei Saetzen haben jeweils
+N: als Reim das gleiche Wort.
+R: Xiaodiao. Siji huahui]
+M: 2/4
+L: 1/16
+K: F
+c2c2A2c2 | dfA2c4 | c2A2G4 | dfA2c4 | c2A2G4
+c2G2c4 | dfd2c4 | F2A2G4 | F2A2G2F2 | F2D2C4
+S:https://www.folktunefinder.com/tunes/112676
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

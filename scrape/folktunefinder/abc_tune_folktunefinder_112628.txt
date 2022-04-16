@@ -1,0 +1,30 @@
+X:201
+T: Shuzhuang tai
+N: C0326
+O: China,nan Jiangsu, Nantong(Nord)
+S: III, 474]
+N: 1 Phrase = 2 kurze Saetze, re so la so). Das Lied auf Seite 471
+N: hat zwar dieselben Phrasentoene, wird aber nicht in zwei kurze
+N: Saetze eingeteilt. Dass. gilt fuer S. 473
+R: Xiaodiao, Shidiao, Chun diao, Mengjiangn diao. Fun shuzhuang]
+M: 2/4
+L: 1/16
+K: G
+G2GEG2A2 | BAB6 | dBBAGEEG | A8
+A2A2B3d | E2GEDB,D2 | G2B2AG2A | D8
+EGDEG4 | ABGAB4 | dBBAGAB2 | AGE6
+A2A2B2d2 | E2GEDB,D2
+G2GEGABG | A3BAGE2 | D8
+S:https://www.folktunefinder.com/tunes/112628
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, chun diao, mengjiangn diao. fun shuzhuang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

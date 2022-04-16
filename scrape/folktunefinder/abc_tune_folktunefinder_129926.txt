@@ -1,0 +1,20 @@
+X: 10
+T:Mon pre m'a donn un mari
+C:Paroles et musique : tradition languedocienne remontant au XVIIe sicle
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Bb
+"F"z3 FGA |: "Bb"B2F D2F | "Eb"E2G C2E |1 "Bb" D2B, F2D | D2C "F"FGA :|2 "Bb" D2B "F"c2A | "Bb"B3 z3 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129926
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:2
+T:Reinlendar i form etter Thorvald Trondsgrd
+R:Reinlendar
+S:Folldal Spellmannslag
+N: rviser
+N:http://home.no.net/janwes/folldal/
+D:slift (11)
+O:Norge - Norway - Norvge
+A:Hedmark
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+M:C|
+L:1/8
+Q:1/4=120 %tempo  vrifier
+K:C
+ E2 |: A>G AB c2 cB | c>d ef e4 |\
+ [1 e>f ed c>B cd | e>f ed e3 c :|\
+ [2 e>f ed c>B cB | AG A3 e |
+ |: a2 ae g2 ge | f2 fd e2 e2 |\
+ [1 A>G AB c2 cB | c>d ef e3 e :|\
+ [2 A>G AB cB AG | A4 z4 |]
+S:https://www.folktunefinder.com/tunes/112124
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Reinlendar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

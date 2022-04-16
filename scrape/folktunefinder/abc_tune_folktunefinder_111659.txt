@@ -1,0 +1,33 @@
+X:650
+T:Harvest Home
+M:4/4
+Z:Madison
+R:Hornpipe
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000000DVG(John Doherty: The Celebrated Recordings)
+D:asin=B0000002BD(The Revels: Seasons For Singing: A Celebration Of Country Life)
+D:skip=B000001E2E(Big Country: The Best Of Big Country)
+D:skip=B000001F4B(Big Country: The Crossing)
+D:skip=B0000021NQ(Maddy Prior: Year [IMPORT])
+D:skip=B0000059TZ(Various Artists: Harvest Song: Music From Around The World Inspired By Working The Land)
+D:asin=B000005CU8(Nomos: I Won't Be Afraid Anymore)
+D:skip=B000005JW1(Big Country: Crossing [IMPORT] [EXTRA TRACKS])
+D:skip=B000006SWJ(Big Country: Without the Aid of a Safety Net [IMPORT])
+D:skip=B000009G8J(Albion Band: BBC Sessions [IMPORT])
+D:anop=B0000088OE(George Michael: Classic Ceili Bands [IMPORT])
+K:D
+AF|DAFA DAFA|defe dcBA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\
+DAFA DAFA|defedcBA|eAfAgecA|d2 f2 d2::\
+cd|eA ~A2 fA ~A2|gAfA eA ~A2|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|\
+DAFA DAFA|defe dcBA|eAfA gecA|d2 f2 d2:|
+S:https://www.folktunefinder.com/tunes/111659
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

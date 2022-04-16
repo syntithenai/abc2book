@@ -1,0 +1,30 @@
+X:352
+T: Lian cheng bai nian
+N: C1291
+O: China,Shaanxi
+S: MM, ZHONGGUA MINGE XUAN S.193]
+N: Vorspiel, Nachspiel; Verzierungen
+N: Fuer Strophe 3. - 5. Melodievariante fuer einen Takt notiert
+N: Sonderzeichen: v.d. Sprache abgeleitetes Verlassen der Tonhoehe
+N: Pinyin-Text der ersten Strophe vorhanden!
+R: Xiaodiao. Bainian]
+M: 2/4
+L: 1/32
+K: Bb
+f6d2f2d2f4 | d2e2d2c2b6g2 | c4d2a2g2a2g2f2 | d16
+f4f2d2f4f2f2 | d3fd2c2b4b2g2 | d4d2a2g2a2g2f2 | d16
+f2f2f2g2b8 | d4d2f2d8 | c4c2d2f2g2e2d2 | c12
+c2d2 | d2f2f2d2f4f2f2 | d2f2d2c2b8
+c2d2d2f2c2d2a2g2 | f6g2b2g2b2c2 | f16
+S:https://www.folktunefinder.com/tunes/112779
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. bainian]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

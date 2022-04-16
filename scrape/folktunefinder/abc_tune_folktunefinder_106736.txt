@@ -1,0 +1,19 @@
+X: 29
+T:There's Room For Us All in the Dance
+M:4/4
+L:1/8
+R:Song
+K:A
+"chorus"AF|"A" E E2 F A3 B|cccc cBA2|cccc cBAA|"E"B2 BB BG2F|!
+"A"  E2 F2 A3 B|c2 cc cBAA|E2 EE EFGG|"A"A6||!
+"verse"B2|"A"c2 A2 A2 C2|"E7"D3 B, B,3 B,|"A" C2A,2 C2E2|A2c2 B2A2|!
+"A"c2 c2 c2 d2|"E"B3G E2 DD|"A"C2 EE G<A GG|"A"A6||
+S:https://www.folktunefinder.com/tunes/106736
+S:http://home.usit.net/~bhooper/scot4.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

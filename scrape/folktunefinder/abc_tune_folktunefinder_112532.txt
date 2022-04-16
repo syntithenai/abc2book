@@ -1,0 +1,36 @@
+X:105
+T: Lishui chuan gong haozi   3.
+N: C0131C
+O: China,Hunan, Jinshi, Lixian
+S: I, 550, 2)]
+N: I: Yao Meizo hu he; II: di chiang; III: gao chiang
+N: Zu diesen Themen gibt es viele Melodien.
+N: ANGABEN UeBERPRueFEN, AUS VORHERIGEM LIED UNGEPRUEFT UEBERNOMMEN!!!
+N: Angegeben ist die erste Strophe. Auf die Takte 5-17 werden die Strophen
+N: 2 und 3 gesungen. Die letzten beiden Takte: 1_6_x_x_  x_x_0__ //
+N: Zweistimmig!!! Notiert ist die Oberstimme ausser in T.5-12, in denen
+N: die Stimmen abwechseln: 1_6_ wird von der Unterstimme gesungen.
+N: Viele Verzierungen.
+R: Haozi, Chuangong haozi. Jishui xingchuan shi chang]
+M: 2/4
+L: 1/16
+K: Bb
+c4d4 | c4d4 | f4d4 | f4
+dcb2 | b2g2c2z2 | b2g2
+bgbg | b2g2c2z2 | b2g2
+ggbg | b2g2c2z2 | b2g2
+cgbg | b2g2c2z2 | b2g2
+fffd | f4d4 | c4d4 | f4d4 | c4
+dddd | c2d2dcb2 | b2G2z4
+S:https://www.folktunefinder.com/tunes/112532
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, chuangong haozi. jishui xingchuan shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

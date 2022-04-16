@@ -1,0 +1,31 @@
+X:11507
+T:Mueira de Boal (Arrg. D)
+R:mueira
+C:Trad.
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+ABc|:"G"dcB "D"ABA|"Bm"F2D "D"A2A|"D"ABA "Em"GFG|
+"D"A2A "A"ABc|"G"dcB "D"ABA|"Bm"F2D "D"A2A|"D"ABA "Em"GFE|
+[1 "Bm"D3 "A"ABc:|[2 "D"D3 "D"DEF||
+|:"D"DEF "D"DEF|"G"G2G "Em"EFG|"Em"EFG "Em"EFG|
+"D"A2A "D"DEF|"D"DEF "D"DEF|"G"G2G "Em"EFG|
+"D"ABA "Em"GFE|[1 "D"F2D "D"DEF:|[2 "D"D3 "D"DEF|
+|:"G"G3 "G"G2G|"D"FED "D"F2F|"D"FED "A"CDE|
+"D"FED "D"DEF|"G"G2G "G"BAG|"D"FED "D"F2F|
+"D"FED "A"CDE|[1 "D"D3 "D"DEF:|[2 "D"D6-||
+"D"D6-|"G"D z5||
+S:https://www.folktunefinder.com/tunes/99289
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

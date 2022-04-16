@@ -1,0 +1,35 @@
+X:3
+T:H\orksvalsen tune (Mendocino) (missing B part)
+R:vals
+Z:2000 Brian Wilson 
+M:3/4
+L:1/8
+K:G
+Bc \
+|: d3 d d2 \
+| d2 c2 B2 \
+| d3 d d2 \
+| d2 c2 B2 \
+| e3 e e2 \
+| e2 f2 g2 \
+| d3 d d2 \
+| d2 c2 B2 |
+| c3 c c2 \
+| c2 B2 A2 \
+| G3 G G2 \
+| G2 F2 E2 \
+| D3 D D2 \
+| D2 E2 F2 \
+| AG FG BA \
+|[1 G4 Bc \
+:|[2 G4 A2 |
+P:B
+S:https://www.folktunefinder.com/tunes/114303
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

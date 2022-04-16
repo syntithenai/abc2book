@@ -1,0 +1,45 @@
+X:28
+T:Tridal a ra va c'halon
+C:Mor Fawr Wyt Ti!
+M:4/4
+L:1/8
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1
+FFF |D3F FFGG |(E2G3) GGG |F3D FFEE |D4 z:|
+V:2
+DDD |B,3B, CDB,B, |(C2B,3) EEC |D3B, CB,B,A, |B,4 z:|
+w:Ka-na a|rin, ka-na a rin be-|pred,*rag an Ao-|trou en-eus va zan-tel-|let.|
+w:E eo va|nerz, e eo i-vez va|Zad,*e eo va|han, ka-na a rin e|hloar.|
+V:3
+B,B,B, |F,3F, A,B,G,G, |(G,2G,3) B,B,A, |B,3B, A,B,G,F, |F,4 z:|
+V:4
+B,,B,,B,, |B,,3D, C,B,,E,E, |(C,2E,3) E,E,C,|F,3G, F,D,C,F,, |B,,4 z:|
+%
+V:1
+FFB |d3c BABG |F4 zBBA |C4- CEGF |D4 zFFB |
+V:2
+DDD |F3^F GFGE |D4 zB,B,C |A,4- A,CEC |B,4 zDDD |
+w:Tri-dal a|ra va ha-lon e Dou-|e, ha va e-|ne*'zo leun a|joa; krou-a-du-|
+V:3
+B,B,F, |B,3A, G,CB,B, |B,4 zF,F,F, |F,4- F,A,B,F, |F,4 zB,B,F, |
+V:4
+B,,B,,B,, |B,,3D, E,E,E,E, |B,,4 zB,,D,F,|F,,4- F,,F,,G,,A,,|B,,4 zB,,B,,B,,|
+%
+V:1
+d3c BABG |F4 zBAB |c3d e2A2 |B4 z||
+V:2
+F3^F GFGE |D4 zDFF |(G2F)F (AG)(FE)|D4 z||
+w:rien, meu-lit e va-de-|lez Al-le-lu-|ia,*Al-le-*lu*|ia!|
+V:3
+B,3A, G,CB,B, |B,4 zB,CD |(E2A,)B, C2C2 |B,4 z||
+V:4
+B,,3D, E,E,E,E, |B,,4 zB,F,F, |F,3F, F,2F,2 |B,,4 z||
+S:https://www.folktunefinder.com/tunes/118602
+S:http://moinejf.free.fr/kantigou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

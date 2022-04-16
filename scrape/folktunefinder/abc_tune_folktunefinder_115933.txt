@@ -1,0 +1,29 @@
+X:12888
+T:Pasucis d'Uvieu
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Uviu
+A:Asturies
+Z:Llan de Cubel
+M:6/8
+L:1/8
+K:D
+faf|:d2f fef|g2e ege|cBA ede|f2d faf|
+d2f fef|g2e ege|cBA efe|[1 d3 faf:|[2 d3 DFG||
+ABc dcB|A3 dcB|ABA GFG|B2A AFG|
+ABc dcB|A3 dcB|ABA GFE|[1 D3 DFG:|[2 D3 z3||
+S:https://www.folktunefinder.com/tunes/115933
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Pasucis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:145
+T:Carrowcastle Lasses
+T:George White's Favorite
+S:Kincora Ceili Band
+R:Reel
+E:7
+I:speed 350
+M:C|
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000000E8P(John Carty: Last Night's Fun)
+D:asin=B000005ZVS(Kenan, et al: Gaelic Roots)
+D:anop=B000000G9I(Coleman, et al: The Wheels Of The World: Early...Vol. 2)
+K:G
+Bd|eB~B2 eBdB|AGAB GED2|GB~B2 dB~B2|eBdB A2Bd|\
+eB~B2 eBdB|AGAB GED2|GABd gedB|AGAB G2:|\
+de|gede gaba|gfga gedB|dega bgag|eaag a2 ga|\
+bgeg d2ef|gede gaba|~g3d egdB|AGAB G2:|
+S:https://www.folktunefinder.com/tunes/111558
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

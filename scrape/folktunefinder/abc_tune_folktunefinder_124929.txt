@@ -1,0 +1,29 @@
+X:335
+T:Trip To Athlone
+R:Jig
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:'c's are very mobile
+M:6/8
+K:G
+|: ABA D2d | {e}dcA {B}AGE | (3ABcG ABc | dAB cde |
+ABA D3 | (3.d.d.cA {B}AGE | GFG Ade |1 fd^c dcB :|2fd^c d2e ||
+|:{g}fed edc | AdB cde | {g}fed efg| ABc def |
+~g3 age | dcA AGE | GFG Ade |1 fd^c d2e :|2 fd^c dcB ||
+S:https://www.folktunefinder.com/tunes/124929
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book3.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

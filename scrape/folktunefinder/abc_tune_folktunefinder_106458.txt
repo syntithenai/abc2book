@@ -1,0 +1,36 @@
+X: 1
+T: All My Love [Em]
+R: waltz
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS of unknown origin, labelled "19B"
+M: 3/4
+L: 1/8
+K: Em
+"B"\
+|: "Em"B6 | "B7"^D6 | "Em"E6- | E2 G2 B2 \
+|  "E7"e6 | ^G6 | "Am"A6- | A2 B2 c2 |
+|  "B7"B6 |  F6 | "Em"G2 F2 E2 | "Am"A2 B2 c2 \
+|1 "Cdim7"G6 | "F#7"E6 | "B7"F6- | F6 \
+:|2 "A#dim"G6 | "B7"F6 | "Em"E6- | E2 "E7"e2 d2 ||
+"C"\
+[| "Am"c3 B A2 | z2 c2 e2 | "Em"B3 ^A B2 | "Em"z2 B2 c2 \
+|  "B7"A3 G F2 | z2 A2 B2 | "Em"G3  F E2 | z2 "E7"e2 d2 ||
+|| "Am"c3 B A2 | z2 c2 e2 | "Em"B3 ^A B2 | "Cdim7"z2 B2 =c2 \
+|  "B7"^d4  d2 | "F#7"=c2 F2 c2 | "B"B6 | "B7"Bc BA GA |]
+"D"\
+[| "Em"B6 | "B7"^D6 | "Em"E6- | E2 G2 B2 \
+|  "E7"e6 | ^G6 | "Am"A6- | A2 B2 c2 |
+|  "B7"B6 |  F6 | "Em"G2 F2 E2 | "Am"A2 B2 c2 \
+| "A#dim"G6 | "B7"F6 | "Em"E6- | E4 z2 |]
+S:https://www.folktunefinder.com/tunes/106458
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AllMyLove_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AllMyLove_Em.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

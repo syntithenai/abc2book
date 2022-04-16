@@ -1,0 +1,24 @@
+X:70
+T: Hole in the Coat (The)
+S: Larry Reynolds
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A | FDD EDD | FAA BAA | def edB | AdB AFE |
+FDD EDD | FAA BAA | def edB | Adc d2 :|
+e | faa fee | fdd Bdd | faa fdd | faf e2 e |
+faa fee | fdd Bdd | afa ede | fdc d2 :|
+S:https://www.folktunefinder.com/tunes/123158
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:145
+T: Cliffs of Moher
+C: J-67
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Ador
+"Am"a2a bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG ABd|
+"Am"eaa bag| eaf "G"ged| "Am"c2A BAG| "Em"EFG "Am"A3:|
+|:\
+"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBA| GAB ~d3|
+"Am"e=fe dBA| ~e3 dBA|  "G"GAB dBG| "Em"EFG "Am"[E3A3] ||
+"Am"e=fe dBA| e=fe dBA| "G"GAB dBA| GAB ~d3|
+"Am"e=fe dee| cee Bee| EFG BAG| "G"EDB, "Am"A,3 |]
+%%begintext ragged
+%% 10/12/00.  From "The Portland Collection"
+%% - measures B8, B15, B16 revised by Debbie Knight.
+%%endtext
+% ---------- page 76 ----------
+S:https://www.folktunefinder.com/tunes/106900
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

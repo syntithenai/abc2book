@@ -1,0 +1,29 @@
+X:27
+T:La boulangre a des cus
+C:Paroles : Nicolas Gallet
+C:Musique anonyme (env. 1720)
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=90
+L:1/8
+K:G
+V:1
+|: "G"GGG "C"c2c | c2c c2c | "D"d2d A2B | "C"(c2B) "D"A2z :| A2AA2c |
+"C"B2A G2G |: "D"F2E F2G | ABA "G"D2G | "D"F2E F2G | "D7"(B2A) "G"G3 :|
+V:2
+|: EDE G2G | G2G G2G | AGB A2G | G2B A2z :| d2e c2e |
+d2c B2G |: A2B A2B | c2e GAB | A2B A2B | (G2F) G3 :|
+T:Autre
+d2c B2G | A2B A2B |cec d2B  | A2B A2B | (G2F) G3 |]
+%%text A deux violons (par exemple)
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/129988
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

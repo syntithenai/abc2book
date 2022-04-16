@@ -1,0 +1,33 @@
+X: 11
+T:Downfall of Paris. ST.11
+M:2/4
+L:1/16
+Q:80
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:D
+d2(d>e) d2(d>e)|d2(d>e) (gf)ed|e2e>f e2e>f|e2e>f agfe|!
+f2f>g f2f>g|f2fg bagf|e2e>d e2e>d|efge cABc|!
+d2d>e d2d>e|d2d>e gfed|e2e>f e2e>f|e2e>f agfe|!
+f2fd a3g|g4f2fd|a4g4|fefe f2e2|d2d2d4:|!
+|:a8|a2f2b2a2|g2g>f g2g>f|g2gfg4|!
+a8|g2e2a2g2|f2fe f2fe|f2fef4:|!
+|:ABcd cBAF|FGAB AGFE|d2d2e2e2|f2f2d4|!
+GABd AGGF|FGAB AGFE|d2e2f2d2|d2d2d4:|!
+|:.c2.d2.e2.f2|.g2.f2.e2.d2|c2d2e2f2|g2e2e4|!
+(ABcd) cBAG|FGAB AGFE|d2e2f2e2|d2d2:|]
+S:https://www.folktunefinder.com/tunes/104123
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

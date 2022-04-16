@@ -1,0 +1,27 @@
+X:1
+T:IX. Praise blindness eies,
+T: Canto.
+C: John Dowland
+H: From The Second Booke of Songs or Ayres of 2. 4. and 5. parts: 
+H: with Tableture for the Lute or Orpherian, with the Violl de Gamba.
+L:1/2
+M:3/2
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on first line
+N:(1) The underlay is confusing.  The Lenvoy section is printed after the first verse, which has one set of words and a repeat sign.  The verse printed at the bottom  of the canto part is two sets of words for the A music, but the Lenvoy section is specified to be sung only after the second set. The repeat signs occur in the lute part, at the end of the A section in the Canto part, and in Lenvoy for all parts, but not in the A section of any of the other vocal parts.  There are other reasonable interpretations, but I think Dowland probably meant Lenvoy to be sung (and repeated) after all three verses are sung.  I would not repeat any of the A section words, i.e., I would sing the A section 3 times with different words each time.
+N:(2) The Canto part is written with no flats or sharps in the key signature; all other parts are written with a key signature of one flat.
+K:D dor
+|: A d ^c d A c | A G F E3 | 
+A c B A > A B | c d > d ^c3 |
+S:https://www.folktunefinder.com/tunes/110340
+S:http://www.laymusic.org/music/dowland/blindness/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X: 4
+T:Old Spand Hornpipe
+M:9/4
+L:1/4
+S:Marsden
+N:you might like to try G Dorian as K
+Z:ps
+K:C
+GDFECEDB,D|FCFFCFE2F|GDFECEDB,D|GDGGDFE2F||
+GDF ECEDB,D|C3 F2A/B/c2B/A/|dDFECEDB,D|G,3G2A/B/c2B/A/||
+Bd2Ac2GB2|A3F2A/B/c2B/A/|Bd2Ac2GB2|B/A/B/c/dG>ABc>BA||
+B>c d/B/ A>B c/A/ G>A B/G/|A>B c/A/  F>G A/F/  A>B c/A/|B>c d/B/ A>B c/A
+/ G>A 
+B/G/|B>c d/B/ G>A B/G/ A>B c/A/||
+B/A/ B/c/ d e/d/e/f/gf/e/f/g/a|f3F2A/B/c2B/A/|B/A/ B/c/ d e/d/e/f/gf/e/f
+/g/a|g3G2A/B/ c2B/A/||
+Bd2eg2fa2|f3F2A/B/c2B/A/|B/A/ B/c/ d e/d/e/f/gf/e/f/g/a|g3G2A/B/ c2B/A/|
+|
+f>edg>fef>ed|c>B A/G/ F>GA/B/ c>de|f>edg>fe a>gf|g3G2A/B/c2d/e/||
+fdBcAFGDB,|C3F2A/B/c2d/e/|fdBcAFGDB,|D3G2A/B/c2B/c/||
+D2GC2FB,2D|A,2FFCFE2G|D2GC2GB,2D|G,2GGDFE2F||
+G/D/ G/D/ G/D/ ECEDB,D|FCFFCFE2F|G/D/ G/D/ G/D/ ECEDB,D|G/D/ G/D/ G/D/ G
+/D/ G/D/ G/D/E2F||
+G/D/ G/D/ G/D/ ECEDB,D|C3F2A/B/c2B/A/|d2c/B/c2B/A/ G/AB/G|D3G2A/B/c2B/A/
+|
+dBGcAFG/AB/G|cAF2 ABcBA|dBGcAFG/AB/G|B/A/ B/c/ddGdc2B/A/||
+B/A/B/c/dA>Bc B/A/B/c/d|A>BccFd c>BA|d2c/B/c2B/A/GDB,|G,3G2A/B/c2B/A/||
+S:https://www.folktunefinder.com/tunes/110806
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

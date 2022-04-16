@@ -1,0 +1,25 @@
+X:64
+T:Tricotada
+R:Bourree
+C:trad.
+A:Massif Central
+O:France
+M:3/8
+L:1/16
+Q:1/4=105
+K:C
+e2g2f2|e4d2|cdedef|efedc2|e2g2f2|c4d2|cdedef|g6|
+e2g2f2|e4d2|cdedef|efedc2|e2g2f2|c4d2|cde2d2|c4ed|
+|:c2B2c2|d4d2|cdedef|e2d2c2|c2B2c2|d4d2|cde2d2|c6:||
+% Output from ABC2Win  Version 2.1 i on 25/02/2000
+S:https://www.folktunefinder.com/tunes/106474
+S:http://www.tradfrance.com/matf04.txt
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

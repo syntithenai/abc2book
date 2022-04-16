@@ -1,0 +1,31 @@
+X:206
+T: Yueliang wanwan zhao jiuzhou
+N: C0334
+O: China,Jiangsu, Suzhou
+S: III, 511]
+N: Von Leuten, die nach dem Sueden gefluechtet waren. Frueher
+N: vielleicht einmal ein Berglied. Der Text existiert seit der Sung-
+N: Dynastie, die Weise existiert im Ping Tang in Suzhou, Kunst von
+N: Sprache und Musik).
+N: Vor- und Zwischenspiele weggelassen.
+R: Xiaodiao, Shidiao, Yeyeyou]
+M: 2/4
+L: 1/16
+K: C
+A2A2A2G2 | A8 | A2c2A2G2 | G2E4D2 | E8
+E3GA2c2 | G2A2E2G2 | G2C4D2 | E2EGD2C2 | C2A,4z2
+E2E2EDC2 | D8 | E2G2D2C2 | A,2C2G,2A,2 | C2C4D2 | C8
+E2G2A2c2 | G2A2E2G2 | G2C4D2 | E2G2D2C2 | C2A,4G,2 | A,6
+G2 | A2A2z2G2 | c2c2z2G2 | A8
+S:https://www.folktunefinder.com/tunes/112633
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, yeyeyou]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

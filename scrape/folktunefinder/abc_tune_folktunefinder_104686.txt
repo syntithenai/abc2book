@@ -1,0 +1,33 @@
+X: 12
+T:Brest Nots. GS.012
+T:Breast Knots. GS.012
+M:2/4
+L:1/8
+Q:240
+S:George Spencer m/s, Leeds,1831
+R:Misc.
+O:England
+A:Leeds
+N:This is not the tune known as Bonny Breast Knot or Ladies Breast
+N:Knot./cont
+N:The title is written twice in different handwritings, possibly because
+N:the first attempt looks like Brest Wots
+H:1831
+Z:vmp.Cherri Graebe
+K:G major
+G>A  (B<d) | (c>d) (e>g) | d>BG>B | A2d2 | G>A B>d | c>d  e>g | d>BA>d |
+ B2 G2:||:!
+G>FG>E | (DB) G2 | G>FG>E | (DB) G2  | B>BB>B | d>ge>d | ^c>AB>^c | d2"D
+.C"D2 ||
+S:https://www.folktunefinder.com/tunes/104686
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:20
+T:Galopede
+R:---
+% Nottingham Music Database
+P:AABC
+S:Eric Foxley
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+Q:1/2=120
+K:G
+P:A
+d/2c/2|"G"BB/2c/2 "D7"AA/2B/2|"G"GG GA/2B/2|"C"c/2B/2c/2d/2 e/2d/2c/2B/2|\
+"Am"cA "D7"Ad/2c/2|
+"G"BB/2c/2 "D/f"AA/2B/2|"Em"GG "Em7/d"GA/2B/2|\
+"Am/c"c/2B/2A/2G/2 "D7"F/2G/2A/2F/2|"G"GG G:|
+P:B
+d/2c/2|"G"Bg/2f/2 "C"ee/2d/2|"Am"d/2c/2B/2c/2 "D7"Ad/2c/2|\
+"G"Bg/2f/2 "C"e/2d/2c/2B/2|
+"Am"cA "D7"Ad/2c/2|"G"Bg/2f/2 "C"ee/2d/2|"Am"d/2c/2B/2c/2 "D7"Ad/2c/2|\
+"G"B/2d/2c/2B/2 "D7"A/2c/2B/2A/2| "G"GG "D7"G || 
+P:C
+B/2c/2|"G"dd/2d/2 dg|"G"dd/2d/2 dg|"G"dd "C"e/2d/2c/2B/2|\
+"Am"cA "D7"AB/2c/2|
+"G"dd/2d/2 dg|"Em"dd/2d/2 d[P:Intro]g|"Am"e/2d/2c/2B/2 "D7"d/2c/2B/2A/2|"G"GG G|]
+%%begintext
+S:https://www.folktunefinder.com/tunes/129981
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

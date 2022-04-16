@@ -1,0 +1,23 @@
+X:92
+T: Pust' vsegda budet solntse
+T: Let there always be sunshine
+O:russia
+C: A.Ostrovski
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: C
+L: 1/8
+K: Dm
+| "Dm"A2BA d4 | "E7"e2fe "A7"A4 | "Dm"A2ff f2ed | "A7"d2^c6 |
+| "F"=c2dc f4 | "C7"g2ag c4 | c2ef g2fg | "Em"a2 "A7"AA || [K:D]
+|: "D"d4 e2f2 | e2d2 A2A2 | d4 e2f2 | "A7"f2e2 A2A2 |
+| e4f2g2 | a2e2 e2f2 |1 "Gm"g4 "A7"d2e2 | "D"f4 "A7"A2A2 :|2 "Gm"g4 "A7"f2e2 | "D"d4 |]
+%%sep 5 5 5cm
+S:https://www.folktunefinder.com/tunes/102738
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

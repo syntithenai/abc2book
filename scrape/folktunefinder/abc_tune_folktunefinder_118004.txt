@@ -1,0 +1,23 @@
+X:22
+T:Humours of Quarrycross
+R:jig
+B:Cole p.58
+Z:The Bridal Jig
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M:6/8
+L:1/8
+K:G
+|: "D7"D | "G"G2G BGB | "D7"def "G"gfg | "C"ecA "G"dBG | "D7"FAG FED|
+| "G"G2G BGB | "D7"def "G"gfg | "C"ecA "G"dBG | "D7"cAF "G"G2 :|
+|: B | "Em"Bee edB | "D"def "Em"g2a | bag "D"agf | "Em"e2e edB |
+| "Em"Bee edB | "D"def "Em"g2a | bag "D"agf | "Em"e2e e2 :|
+S:https://www.folktunefinder.com/tunes/118004
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

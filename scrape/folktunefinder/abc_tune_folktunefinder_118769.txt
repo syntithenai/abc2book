@@ -1,0 +1,30 @@
+X:39
+T:La valse des belles
+R:Valse
+S:
+N:
+A:Champagne
+G:
+O:France
+Z:3/4
+L:1/4
+Q:1/2=115
+K:G
+DGA | B2G | DGA | B2G | dcB | A2B | cBA | B2G | DGA | B2G | DGA | B2G |
+dcB | A2F | DAF | G2z || edc | B2B | cde | d3 | dcB | c2A | cBA |
+B2 G | edc | B2B | cde | d3 | dcB | c2A | DAF | G2z ||
+W:Belles jeunes filles, sous les chamilles, mains dans la main, le long des chemins
+W:elles s'amusent usent de ruse, en parlant des amours de demain.
+W:
+W:Des yeux qui brillent, et s'quarquillent,  la vie douce qui les entraine,
+W:C'est la beaut, mme la gait, filles ternelles, vous tes belles.
+S:https://www.folktunefinder.com/tunes/118769
+S:http://anamnese.online.fr/abc/champagne.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

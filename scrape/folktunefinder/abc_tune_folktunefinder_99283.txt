@@ -1,0 +1,53 @@
+X:11501
+T:Mueira de Barganaz (MG 50)
+R:Mueira
+C:Tradicional (iges Hevia)
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Barganaz
+A:Asturies
+Z:Mtodu de Gaita 50
+E:Nivel 4
+M:6/8
+L:1/8
+Q:3/8=88
+K:Cm
+CD{F}E|: CD{F}E CD{F}E|{A}G2 G {B}GGG|
+{A}GAG FED|{F}EDC CD{F}E|CD{F}E CD{F}E|
+{A}G2 G {B}GGG|{A}GAG FED|[1 C3 CD{F}E:|
+[2 C3 {F}GGG||: {A}GEG cBA|G3 {B}GGG|
+{A}GAG FED|{F}~E2 C {B}GGG||{A}GEG cBA|
+G3 {B}GGG|{A}GAG FE~D|[1 C3 {B}GGG:|
+[2 C3 D{F}EF||: GFG AGF|GFE GFE|
+FED FEF|G3 D{F}EF|GFG AGF|
+GFE GFE|FED FED|[1 C3 D{F}EF:|
+[2 C3 {G}CD{F}E||: CD{F}E CD{F}E|{A}G2 G {B}GGG|
+{A}GAG F~ED|{F}EDC CD{F}E|CD{F}E CD{F}E|
+{A}G2 G {B}GGG|{A}GAG F~ED|[1 C3 CD{F}E :|
+[2 C3 [K:F]{_B}AAA||: AGA cBA|B2 G {B}GGG|
+{A}GEG BAG|~A2 F AAA||AGA cBA|
+B2 G {B}GGG|{A}GEG BAG|[1 F3 AAA:|
+[2 F2 G CEG||
+K:C
+|:cBA BAG|~AGF GFE|
+DEF GAB|cG~E CEG|cBA BAG|
+~AGF GFE|DGG F~ED|[1 C2 G CEG:|
+[2 C2z [K:Eb] {A}G2E||: C2 G {A}GFE|~D2 D {B}GGG|
+GAG FED|{F}EDC {A}G2 E|C2 G {A}GFE|
+D2 D {B}GGG|{A}GAG FED|[1 C3 {A}G2 E :|
+[2 C2 z CD{F}E||
+S:https://www.folktunefinder.com/tunes/99283
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D-sharp
+% Key C
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

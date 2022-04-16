@@ -1,0 +1,30 @@
+X:10
+T:Catching Rabbits
+R:reel
+C:Ian Powrie
+D:Buddy MacMaster, Cape Breton Tradition
+B:Original Compositions by Ian Powrie Vol. 2
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:D
+AG|FAAB ABde|f2 ef edBA|Beed e2 ef|gefd edBA|
+FAAB ABde|f2 ef edBA|Bdef gefd|eAce d2:|
+|:ag|(3(fgf) ef edBd|ABde Tf2 ed|Beed e2 ef|[1gefd e2 ag|
+(3(fgf) ef edBd|ABde Tf2 ed|Bdef gefd|eAce d2:|
+[2gefd edBA|FAAB ABde|f2 ef edBA|Bdef gefd|eAce d2:|
+W:Copyrights - Deeay Music (MCPS)
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/103122
+S:http://cranfordpub.com/tunes/abcs/buddy.abc
+S:http://www.cranfordpub.com/tunes/abcs/buddy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

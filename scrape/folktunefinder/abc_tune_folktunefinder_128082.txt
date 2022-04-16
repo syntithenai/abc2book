@@ -1,0 +1,26 @@
+X: 84
+T: THE BRINK OF THE WHITE ROCKS
+B: O'Neill's 84
+M: 6/8
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Gaily"
+N: 2nd Setting.
+N: Missing dot in bars 8, 16.
+K:Em
+  B2^d e2f | g2f e2=d | (Bd).B (AFA) | d3 B2A \
+| B2^d e2f | {a}g2f e2=d | (Bd).B (AF)({A}G/F/) | E3 E2 ||
+|| (Bd).B (AFD) | d2e f2z | e2d (BA)(B/^c/) | d3 B2A \
+| B2^d e2f | {a}g2f e2=d | (Bd).B (AF)({A}G/F/) | E3 E2 ||
+S:https://www.folktunefinder.com/tunes/128082
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0051-0100_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0084_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

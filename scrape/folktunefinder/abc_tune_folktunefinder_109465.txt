@@ -1,0 +1,42 @@
+X:27
+T:Sedauny
+T:Dargason
+R:jig
+S:Scarce tunes and lyrics (Bruce Olson) #72
+H:With two titles of Welsh derivation, both of which escape convincing
+H:explanation, this unique progressive dance is paired with a 16th
+H:century double-tonic circular tune of haunting familiarity. The title
+H:of the song also connects the tune to Wales, Shropshire lying in the
+H:foothills on the English side of the border. &quot;The Melody of Cynwyd&quot;
+H:in Jones' 'Relics of the Welshs Bards' is a variant of &quot;Sedany&quot; .
+M:6/8
+L:1/8
+Q:1/2=120
+W:Chappell quotes the first of 16 verses set to
+W:this tune in the 17th century:
+W:The Shrop-shire Wakes, or hey for Christmas, being the
+W:delightful sports of most countries, to the tune of
+W:Dargason.
+W:
+W:Come Robin, Ralph, and little Harry
+W:And merry Thomas to our green
+W:Where we shall meet with Bridget and Sary
+W:And the finest girls that e'er were seen
+W:Then hey for Christmas a once year
+W:When we have cakes, with ale and beer
+W:For at Christmas every day
+W:Young men and maids may dance away
+K:F
+A2F F2F|A2B c>BA|B2G G2G|B2c d>cB|
+A2 F F2F|f2f e>dc|B2G G2G|g2f e>dc:|
+S:https://www.folktunefinder.com/tunes/109465
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

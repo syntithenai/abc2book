@@ -1,0 +1,31 @@
+X: 22
+T:Logie of Buchan. BF12.22
+M:6/8
+Q:80
+C:Browne "C" hand
+S:MS12,c1835,Browne Coll.,Lakes
+R:Air
+O:England
+A:Lakes
+Z:vmp.Chris Partington
+K:D
+(A3/4G/4)|(F>G).A (A<f).e|(dBB) B2 (A3/4G/4)|\
+(F<G).A A<de|fddd2(A3/4G/4)|!
+|(F>G).A (A<f).e|(dBB) B2 (A3/4G/4)|(F<G).A A<de|(fdd)d2A||!
+(A3/4G/4)|(F>G).A (A<f).e|(dBB) B2 (A3/4G/4)|\
+(F<G).A A<de|fddd2(A3/4G/4)|!
+|(F>G).A (A<f).e|(dBB) B2 (A3/4G/4)|(F<G).A A<de|(fdd)d2A||!
+(d3/4e/4)|f3(f>ef) (gfe)|(dBc)d2(d3/4e/4)|\
+(df).d (ed).e|f-d.BB2(d3/4e/4)|!
+f>gf afe|(dB).cd2d/e/|(fg).f ede|fdBB2|]
+S:https://www.folktunefinder.com/tunes/129566
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

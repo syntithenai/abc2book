@@ -1,0 +1,23 @@
+X: 26
+T:Kafoozalum
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:A
+P:A
+cd|"A"e2ed cde2|"E7""G"Bcdc Bcd2|"A"e2ed cde2|"A"ABcA "E7""G"B2:|
+P:B
+AB|"A"cAEA cAc2|"E7"dBGB dBd2|"A"cAEA cAc2|[1"A"ABcA "G"B2:|[2"A"ABcA "E7""G"B2"A"A2|
+S:https://www.folktunefinder.com/tunes/129867
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

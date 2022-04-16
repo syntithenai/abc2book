@@ -1,0 +1,27 @@
+X:24
+T:Springar
+R:Springar
+C:Trad.
+B:Folque p.72
+D:
+O:Norge - Norway - Norvge
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:3/8=80
+K:C
+%%MIDI program 43
+[Ae] (3[Ae][Af]B |: [df]>e e>[ec] [eB]>[^GB] | [Ae]>[Be] [ce]>[de] (3[Ae][Af]B | [df]>e e>[ec] [eB]>[^GB] |
+[A2A2] [A2e2] (3[Ae][Af]B :||: [df]>e e>c e>a | a>^g a>e (3efd |
+[df]>e e>c e>a | [Aa]>[A^g] [Aa]>e (3efd | [df]>e e>[ec] [eB]>[^GB] |
+[Ae]>[Be] [ce]>[de] (3[Ae][Af]B | [df]>e e>[ec] [eB]>[^GB] |1 [A2A2] [A2e2] (3[Ae][Af]B :|2 [A2A3] :|
+S:https://www.folktunefinder.com/tunes/112147
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Springar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

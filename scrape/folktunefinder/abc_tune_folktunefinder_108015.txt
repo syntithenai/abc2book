@@ -1,0 +1,28 @@
+X: 68
+T:The Glendoan Fancy
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:Am
+"Em"e/2^f/2e/2d/2 "D7"^c/2d/2e/2f/2|"G"g/2e/2d/2B/2 "D7"A/2G/2E/2^F/2|\
+"G"GA/2G/2 B/2G/2A/2G/2|"Em"E/2^F/2G/2A/2 "Am"B/2A/2A|
+"Em"e/2^f/2e/2d/2 "D7"^c/2d/2e/2f/2|"G"g/2e/2d/2B/2 "D7"A/2G/2E/2^F/2|\
+"G"GA/2G/2 B/2G/2A/2G/2|"G"D/2E/2G/2A/2 "Am"B/2A/2A::
+"Am"e/2a/2a/2b/2 "D7"a/2g/2e/2^f/2|"G"g/2a/2b/2g/2 "Am"a/2g/2e/2^f/2|\
+"G"g/2a/2g/2e/2 de/2^f/2|"Em"g/2d/2e/2d/2 "A"^c/2d/2e|
+"Am"e/2a/2a/2b/2 "D7"a/2g/2e/2^f/2|"G"g/2a/2b/2g/2 "Am"a/2g/2e/2^f/2|\
+"G"g/2^f/2g/2e/2 "D"de/2^f/2|"Em"g/2^f/2g/2B/2 "Am"B/2A/2A:|
+S:https://www.folktunefinder.com/tunes/108015
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

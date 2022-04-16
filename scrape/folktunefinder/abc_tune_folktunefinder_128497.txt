@@ -1,0 +1,22 @@
+X:30
+T:Cook in the Kitchen
+Z: id:dc-jig-25
+M:6/8
+L:1/8
+K:G Major
+D|G3 GAG|FDE =F3|G3 GFG|Add cAF|!
+G3 GAG|FDE =F2d|cAG FGA|AGF G2:|!
+A|BcB BAG|ABA AGF|G3 GFG|Add cAF|!
+BcB BAG|ABA A2d|cAG FGA|AGF G2:|!
+B|d2e f2g|a2g fed|cAG FGA|BAB cBc|!
+d2e f2g|a2g fed|cAG FGA|AGF G2:|!
+S:https://www.folktunefinder.com/tunes/128497
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

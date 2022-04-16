@@ -1,0 +1,25 @@
+X:36
+T:Miss McCloud's Reel
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:A Dorian
+|:B,A,|\
+"G"G,B,DG "C"(3cdc BG|"G"DGBA BcBG|G,B,DG "Em"(3BcB AG|"D"AFDF AcBA|
+"G"GABG dGEG|"C"cGDG "G"BGdB|"C"(3cdc Bd cddc|"Bm"BddB "Am"A2:|
+|:BA|\
+"G"GBdb (3aba ge|"Em"dBAB "D"(3ded BA|\
+"G"GBdb (3aba ge|"Am"eage "D"(3efe dB|
+"G"GBdb (3aba ge|"Em"dBAB "D"d3d|"C"edcB cdec|"Bm"BddB "Am"A2:|
+S:https://www.folktunefinder.com/tunes/122760
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:131
+T:Ten Year Tested
+C:Colin Hume, 1989
+L:1/8
+M:6/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=117
+%%MIDI chordname dim 0 3 6 9
+H:For Peter Jenkins' band Kafoozalum, first performed at their Tenth Birthday Party Dance.
+K:G
+P:A
+|: "G"d2d "^/"^c2d | "G"edB "^/"A2G | "C"E2G "G"D2G | "C"E2G "G"D2B | "C"cdc "A7"BAG | "D"A2F "D7"D3 |\
+"G"d2d "^/"^c2d | "G"edB "^/"A2G | "C"c2e "G"dBG | "D7"A3 "G"G3 :|
+P:B
+|: "Em"B^AB "^/"E2G | "D"F2D "Em"E3 | "C"E^DEG3 | "D"F^EF "^/"A3 | "G"Bcd "^/"BAG | "Bm"B2B "E7"d3 |\
+"C"e^de "C#dim"gfe | "G"dBA "Em"G2B | "C"c2e "G"dBG | "D7"A3 "G"G3 :|
+S:https://www.folktunefinder.com/tunes/110178
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

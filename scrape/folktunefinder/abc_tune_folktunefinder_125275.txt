@@ -1,0 +1,24 @@
+X:1
+T:Arran Boat Song
+R:waltz
+H:Tempo: 1/4=130
+M:3/4
+L:1/8
+K:D
+"Em" E3 F E2 |     B3 c d2 | "D" A  F3 D2 | A F3     D2 |\
+"Em" E3 F E2 |     B3 c d2 | "D" A  F3 D2 | "Em" E6     :|
+"Em" e3 f e2 | "C" g3 f e2 | "G" d3  B G2 | "D" A3 F D2 |\
+"Em" e3 f e2 | "C" g3 f e2 | "bm" d B3 d2 | "Em" e6     |
+"Em" e3 f e2 | "C" g3 f e2 | "G" d3  B G2 | "D" A3 F D2 |\
+"Em" E3 F E2 |     B3 c d2 | "D" A  F3 D2 | "Em" E6     |]
+S:https://www.folktunefinder.com/tunes/125275
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Waltzes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

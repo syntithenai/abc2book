@@ -1,0 +1,21 @@
+X:17
+T: Die Geburt im Walde
+N: Q0007C
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+R: Ballade, Geburt, Tod, Moral
+M: 3/8
+L: 1/16
+K: G
+GA | _B2d2c2 | d2d2d2 | d2c2_B2 | A4
+_B2 | c2c2dd | _B2B2B2 | A2A2GG | d4
+D2 | G2G2AA | _B2d2c2 | _B2B2AA | G4
+S:https://www.folktunefinder.com/tunes/109955
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

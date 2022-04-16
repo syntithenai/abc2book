@@ -1,0 +1,25 @@
+X:75
+T:Thomas Clancy's (2)
+R:Reel
+S:Thomas Clancy (Mouth organ)
+D:From RTE feature on the Clonmel Fleadh
+H:Played in 'C' but set in 'D' here
+M:4/4
+Z:Bernie Stocks
+K:D
+|: D2FD EFGA | BEGE BEGE | D2FD EFGA |1 BGEG FDED :|2 BGEF D4 ||
+d2dc dfed | BEGE BEGE | d2dc dfed | GFEG FDD2 |
+d2dc dfed | BEGE BEGE | D2FD EFGA | BGEG FDD2 ||
+S:https://www.folktunefinder.com/tunes/117309
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

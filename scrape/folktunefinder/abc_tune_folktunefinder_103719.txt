@@ -1,0 +1,27 @@
+X:145
+T: Dan Rogers' Jig.
+C: F. O'Neill.
+B: O'Neill's Music of Ireland
+N: O'Neill's - 787
+Z: Transcribed by Stephen Foy (shf@access.digex.net)
+Z: abc 1.6
+Z: All ornaments (~) are trills.
+R: Slide
+M: 12/8
+K: Em
+def|gdB ~B2 A ~B2 A Bcd|efe edB dBA ABd|\
+gdB ~B2 A ~B2 A Bc^d|efg fe^d e3:|
+||e2 f|gbg faf gfg edB|edB Bed BAA A2 e/f/|
+gbg faf gfg efg|aga Bc^d e3:|
+S:https://www.folktunefinder.com/tunes/103719
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0759-0810_sf.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

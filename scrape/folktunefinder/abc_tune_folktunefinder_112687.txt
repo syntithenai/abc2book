@@ -1,0 +1,29 @@
+X:260
+T: Ritou chulai shai shangang
+N: C0407
+O: China,Jiangxi, Yongxin
+S: IV, 230, 1)]
+N: Hier wird sogar noch Hunan- Dialekt gesprochen, weil der Ort recht
+N: nah an Hunan liegt.
+N: Vereinzelt Verzierungen.
+R: Shange. Laodong yu aiqing]
+M: 3/4
+L: 1/8
+K: D
+B2A2B2 | e6 | f2efe2 | B6
+d2e2e2 | B6 | d2B2AB | A6
+B2BAB2 | A6 | B2d2A2 | B6
+d2efe2 | B6 | d2B2AB | A6
+S:https://www.folktunefinder.com/tunes/112687
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. laodong yu aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

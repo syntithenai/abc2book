@@ -1,0 +1,224 @@
+X:10
+%%topspace 0
+T:La Jeune Fillette
+C:Bacheler
+L:1/4
+M:none
+K:FM frenchtab
+%%stretchstaff false
+%%staffsep 33pt
+,,d1|[,d,a1][a,d,e] [b,da][d{a}/]b |\
+[a,dca1]{,,a}/>,d ,b/>,a ,,d/,,,,a |\
+[,aba,d/],c[,dda,b1] [,dbc,a],c |\
+[,dda1]{a} ,,,a,,d |\
+[,d,a1][a,dce] [bdda][d{a}/]b |\
+[a,dca/]>b a/,d ,b,a,,d[f,,d] |
+% Takt 7
+[da,f/]>,c [,d,a/]b [a,d],d[acd,a1] |\
+[,dda1]{a}/,,d ,da[b,,a]d |\
+[fgdd/]dfg [fgdd1][dfg,d] |\
+[bdda1]{a}/d [bd,a1][acd,a] |\
+[bd,a1][db,c/],a [f,dd1][bd,a/],b |\
+[da,c/],,d,ab [a,d,a],d[acd3//],d///a |
+% Takt 13
+[b,,a/]db[a,,,d] [,db,c],,,,a,,,,,d,b//,d |\
+[a,,,d/]>b a/[,d,,c] [,b,,a][,a,,,d][,,d,,b],,,d |\
+[,aba,d/],c[,d,a{a}],,,d [,,,ca],,,a[,cdca{,,a}1] |\
+[,dda{a}1],,,a/,,d ,dabd |\
+f/,g[gd]f [df],,gfd |
+% Takt 18
+[bd/],,,adb [a,d],d[ac],d//a |\
+b/,d,fd f,g[gd]f |\
+[df/]fd[bd] [ab],a ,,d//,b,da |\
+[bd/]db[ab] [,df],,d,,,f,,,d |\
+[a,,c/],,,a,,,,d[,d,,c] [,b,,a][,a,,,d][,,d,,b],,,a |
+% Takt 23
+[,ab,,a/]>,c [,d{a}]ab/ [a,,,a],d[acd{,,a}1] |\
+[,dda{a}1],,,a {a},,d/,,b ||\
+[,,,d{a}1],,,c/,,,d ,,,a[,,,cd][,,,db],,b |\
+[,,dca/]>a b/,,,,,d ,,,,,a,a,,b,,,,,b |\
+,,,,,d//,,d,a,c ,d/{a} [,d,,,b],,,,,d[,c,,a3//],a///,c |
+% Takt 28
+[,d,a/]fd[b,d] [a,b][,d,d][,b,c][,,ea] |\
+[,,d,d/][,,b,b][,,,da][,,,c,d] [,,,a,b][,,,,ea] [,,,a{a}//],,,c,,,d,,b |\
+,,d/{,,a},,b,,,d>,,,c,,,a/,,,,e,,,a |\
+[,,,ca{,,a}/],,d,c,d a[bd][a,d],c |\
+[,d,a{a}/]>,,d ,a,c,d,c ,dabd f,ifh |
+i/,,,,igf ,gg[df]f |\
+[bd1][fd/][d,,f] >f[bd/][ac],,d |\
+,d1,,,,d/,,,,b ,,,,a3//,,,,,d///,,,,,b ,,,,d/,,,a |\
+,,,c/,,,,,a[,,cc],d [,cdca]>,d a,c,da |
+% Takt 37
+[c,,a//]dfd ca,d,b [,a,,,d],b,d,b ,a,,d,,b,,,d |\
+,,,c//,,,d,,,f,,,d ,,,c,,,a,,,,d,,,,b ,,,,a,,,,b,,,,d,,,,b ,,,,a,,,,,d,,,,,b,,,,a |\
+,,,,,d//,,,,a,,,,b,,,,d ,,,a,,,c,,,d,,,f [,,,ca/],,,a,,,c1 |
+% Takt 40
+[,,,a,f1]{a}/,,d ,da[b,,a]d |\
+[f,,d1][fg] [df,,d],f/d |\
+[bf,a1],d/b [add1],c/,,d |\
+[,db1][,d,d] [d,,c][b,,a] |\
+[a,d,e1][,dd,f] [,c,ca],,d/,,b |\
+[,,,d{a}/],,,c[,d,a],b [,a,,,d],,d[d,b]b |
+% Takt 46
+[a,,,d/],d,b[a,,,b] [b,,,a][d,,,,d][f,,,,b],,,d |\
+[dde,,d/]f[b,d{a}]d [a,,,a],d[acd{,,a}1] |\
+[,dda{a}1],,,a {a}>,,,a ||\
+,d/,,,a[a,dce3//],d///a b/,,,a[d,,,d],,,,c |\
+,,,,a/f[hf,g3//]f///h [i,,h/],,,,a,f,h |
+% Takt 51
+[hi,f/],f[ff,d],d [dd,c],c//,a ,c,dd,c |\
+[cd/],,,a{a},,,,a ,,,,c,,,,e,,,a,,,c |\
+,,,d/{a},,b,,,,,a ,,,,,b,,d,,,,,d,a |\
+,,,,a/,b,,,,c,d ,,,,da,,,ab |\
+[d,,,,d/],,,,a,,,,b,b [a,,,a],d[acd{,,a}1] |
+% Takt 56
+[,d,a{a}1],,,a/,,d ,da[b,,a]d |\
+[fgdd/]>g i/g [f,,d]g[df,,d]f |\
+[bd,a/]>d f/[d,,c] [b,,d],,b[a,d],,,,a |\
+[bd,a/]a//b [d,,c]abd f/,,,d[,d,a],b |\
+[,a,c/],c//,d a,d,c,a ,,d/,,,,af>d |
+% Takt 61
+[c,,a/]>a ,d/>,b [,a,a,d/]>,,d ,,b3//d///b |\
+[a,,,d/]>,d ,b/>,,e [,,d,,b/]>,,b ,,,d3//,,e///,,d |\
+[,,b,,d/][,,,da][,,,cb],,,a [,,,ca{,,a}3//],,,a///,,,c ,,,d,,,c,,,d,,,c,,,d,,,c,,,a,,,c |\
+,,,a/{a}1,,,c//,,a ,,b,,d,a,b ,dabd |
+% Takt 65
+[f,,d//]dfg fgig [f,,d]dfg [d,,,d],gdf |\
+[b,,a//]abd bdfd b,ddb [a,d],da,c |\
+[,d,a//]abd [a,,c]bda [f,,d]dba [,d,a],b,a,,d |
+% Takt 68
+[,,cc//],,a,,c,,d ,a,,c,,d,a [,c,,a],a,c,d a,c,da |\
+[b,,a//]abd ba,d,b [,d,,c],b,a,b [,d,,,d],a,b,d |\
+[a,,,d//],dab a,d,b,a [,b,,a],d,b,a [,,dd],a,b,,d |
+% Takt 71
+[,a,,,d//],,d,a,b [,d{a}]abd [a,,,a/],d[acd{,,a}1] |\
+[,dda{a}1],,,a {a}>,,d ||\
+[,dda1][,b,c/],a [,,dd3//],a///,b [,d,a/],b |\
+[,a,c/],,d[a,c],d [,bd],a,b,,d |
+% Takt 75
+[,ab/],b[,d,d]a//c [d,,c/],c//,a ,c,dd,c |\
+[cd/],,,a{a},c//,a ,,d,a,b,a ,,d,,b,,,d,,,c |\
+,,,a/,,,,f,,,c,,,,e [,,,df]{a},,,f,,,d |\
+[,,,cd{,,a}/]>,,,,d ,,,,c/[,,,,ac] [,,,,df],,,,c,,,,d[,,,,af] |
+% Takt 79
+[,,,,cd/],,,,d[,,,a,b],,,,e//,,,a [,,,c,a],,,a,,,,e,,,,c ,,,,e,,,a,,,c,,,,e |\
+,,,a/{a}1,,,c//,,a ,,b,,d,a,b ,dabd |\
+[f,,d/]>,,,c ,,,d/>,,,c ,,,d/,,,,,b[d,,,d]{,b} |\
+[,g,,f/]>,,,,e ,,,,f/>,,,,e ,,,,f/{a}[,f,,a]{,,a} |
+% Takt 83
+,,,a/[bd][db,c],a [f,dd3//]h///k [l,,a/]>i |\
+[,k,,h/]f[hf]f//h i/,,,h,,,,,f>g |\
+[f,,,f/]d[fd3//]d///f g/,,,f,,,,,d>f |\
+[d,,,d/]b[db3//]b///d f/,,,d,,,,,b>f |
+% Takt 87
+[dde,,d/]f[bdd{a}]d [add,a],c//,a ,c,d,,d,c |\
+,d/,,,a{a},,,,,a//,,,,,b ,,,,,d,,,,,b,,,,,d,,,,a ,,,,b,,,,d,,,a,,,c |\
+f//,,,d,,,c,,,d ,,,a,,,c,,,d,,,c ,,,d,,b,,d,a [db],a,bd |
+% Takt 90
+b//,,,a,,,a,,,,e ,,,a,,,c,,,d,,b ,,d,,b,,d,a [ac],a,c,,d |\
+b//,,,a,,,,e,,,a d,,,c,,,a,,,c f,,,d,,,c,,,d b,,,a,,,,e,,,a |\
+[d,,c//],,,d,,b,,,d ,,,c,,,a,,,,e,,,,c [a,,,a],,,,,e,,,,a,,,,c ,,,,e,,,a,,,c,,,,a |
+% Takt 93
+[b,,a//],,,,d,,,a,,,c ,,,a,,,,d,,,,c,,,,a [,d,,c],,,,a,,,,,d,,,,,c ,,,,,d,,,,a,,,,c,,,,,d |\
+[a,,,a//],,,,c,,,,d,,,a ,,,,d,,,,b,,,,a,,,,,d [f,,,a],,,,,d,,,,,b,,,,,a ,,,,,b,,,,,d,,,,a,,,,,b |\
+[d,,,,d//],,,,a,,,,b,,,,d [b,,a],,,c,,,d,,b [add/],c//,a ,c,d,a,c |
+% Takt 96
+[,dda{a}/],,d,a[,cd] ,d[,,bc][,,dd][,ab] |\
+[bbdd/]a//,d ,b/,,,c//,,,a [,,,cd/][,,,da//],,,c [,,,ab/][,,,cd] |\
+[,,dd/],,b//,,d ,a,b,da bdf/[acd]d |\
+[bd,a/]f[,i,,h]i [f,,d//]d,gf [b,,a/]a//b |
+% Takt 100
+[d,,c/]b d//ba,d [ab],d,b,a ,,d,,b,,,d,,,c |\
+[b,,a//]abd ba,d,b [,ab],,d,,b,,,d ,,,c,,,a,,,,d,,,,c |\
+[a,,,d//],dab dba,d [,b,,a],a,,d,,b [,,d,,b/],,,a |
+% Takt 103
+[da,,,d/]b//a [,dd{a}/],,,d [,,dca],c//,a ,c/f |\
+[c{a}/]a//c ,d/[a,b] [,dd{a}],,,,d,,,a,,,c |\
+[,,dd/],,,,,b//,,,,,d ,,,,a,,,,b,,,,d,,,a ,,,c,,,,d,,,d/,,b,,,c |\
+[,dda/],b//,,e ,,d,,b,,,d,,,c ,,,a,,,c,,,d,,,a [,,,ce/],,,,a |
+% Takt 107
+,,,d/,,,,f[,,bc],,,,d [,,dd],,,c[,dda]a//b |\
+[a,,c/]d,,,,db [ab],,,,c[abd,a],,b |\
+,,,d/[b,,a][,d,,b]a [,de],,,,a[,def,d],,,d |\
+,,,c/[a,,,d][,b,,a],d [bd],,,,,d[bdd],,,,,b |
+% Takt 111
+[,a,a,d/],,,d[,d,cb],,,a [,,dca],c//,a ,d///,c,d,c,d,c,a,c |\
+[,dda{a}/]f//d ba,d,c ,d,c,a,c ,dabd |\
+[fg1]i/g [fg]g[df]f |
+[bd/],,,a//,,,c ,,,d,,,a,,,d,,b [a,d],d,c,d abda |\
+% Takt 115
+[bd1][dfg] [fg][gf/]f |\
+[df/]fd[bd] [ab],a ,,d//,b,da |\
+[bd/]db[ab] [,df],,d ,,,f//,,f,,g,d |
+% Takt 118
+[,fg/],g,f[,df] [,bd],a,b,,d |\
+[,ab/],c,d,,,a [,c,c][,d,d][a,b][,cd] |\
+[,dda/],b//,a ,,d,,b,,a,,,c ,,,a,,,c,,,d,,b [,,d{a}/],,,,,a |\
+[,,d,,b/],,,,,d,,,,a,,,,c [,,b,d],,,a[,,bc],,,,d |
+% Takt 122
+[,,,df/]{a},,,d,,,,,a ,,,,,b,,,,,d[,,,ca]{,,a} |\
+[,,d{a}/],,,,f[,,bc],,,,d [,,dd],,,,,b,,,,a,,,,c |\
+[,,bcd/]{,b},,d,,b [,,,cd],,,,c,,,,a,,,,,d |\
+[,,,d,b/],,,,,a{a},,,c [,,,a,d],,,,a[,,,ac],,,,,d |
+% Takt 126
+[,,,cd/]{,b},,,c[,,,a{a}] [,,,,da],,,,,b,,,,a{a} |\
+[,,,,cd/],,,,e[,,,a{a}],,,,,a ,,,,,b,,,,,d[,,,,ef]{,,a} |\
+[,dda{a}/],b//,a ,,d,,b,,a,,,c ,,,a/,,d,a[,c,c] |\
+[,dda{a}/]a[b,,a][d,,c] [f,,d],,,f[f,d][d,f//],g |
+% Takt 130
+[,fg/],g,f,,e [,bd],,,,a,,,a,,,,d |\
+[,d,,b/],,,,a[,d,,,d],,,,,b [a,,,,a],,,,e//,,,,c ,,,,e/,,,c |\
+[,dd{a}1],b/,,e ,,d,,b,,,d,,,c |\
+,,,a/,,,,a[,,,ac][,,,ce] [,,,af]{a}[,,,a,b][,,,c,d] |\
+[,,,da/],,,,,d,,,,a[,,,ac] [,,,cd],,,d,,b,,,,c |
+% Takt 135
+[,bdca/],,,,,d[,,d,,b],,,d [,def,d],,d[,def],,,d |\
+[,c,ca/][,d,d][,c,c],a//,c [,dd{a}/],,,c//,,a ,,b,,d,a,c ,d/,,,a[,dd],,,c[,,dd],,,,,b,,,,a,,,,c[,,b,d],,,d,,b,,,c |\
+[,,,d{a}/],,,f//,,,d ,,,c,,,a,,,,d,,,,c ,,,,a,,,,c,,,,e,,,a [,,,ca1] |
+% Takt 138
+,,,d/,,,,f,,b,,,c ,,,d,,,c,,,a,d//,b |\
+[,a,c/],,,,d,,,a,,,c [abd,a],,,,,d,,,,,b,,,,,a |\
+[bdd{a}/],,,,c,,,,d,,,a [,aba,d],,,,,b,,,,,a{a} |\
+[abb,d/],,,,a,,,,b,,,,d [bbd,,b],,,,,d,,,,a,,,,,b |\
+[,aba,d/],c[,d,d],,b [,cdca][,d,,,b],,,,,d[,c,,a] |
+% Takt 143
+[,dda{a}1],,d ,,,a,,d ||\
+[,dda1],g ,b[,d,a] |\
+[,,d,a1]>,,f ,,g1,,,d/,,d |\
+[,,bc/],,d[,,,df],,,f [,,,ca],,,a,,,c1 |\
+[,,,af1]{a}/,,d ,,e,,d,,,d,,b |\
+,,d/{a},,,af gf,gd |\
+% Takt 149
+f/,,,,a,,,hf i[h,f][dfg]f |
+[g,,f/],,,,,d[bd,,b]d [fdd,a1],c/d |\
+[cdda1]{a}/,,d ,da[b,,a]d |\
+[f,,d1] ,,b//,,d,a,b ,dabd [d,,,d3//]b///a |\
+[b,,a/]>,,,c ,,,d,,b,,d,a ,c,dab [a,,,a3//],d///,c |
+% Takt 154
+[,d,a//]ab,d [a,,c]bda f/,,,d,,,ae//c |\
+[e,,c3//]c///e fefefece f/,,,,a,,df//d |\
+c//,d,dc f,d,df [ddb3/]d//b |
+a//,b,ba d,b,bd [bbdd3/]d//b |\
+% Takt 158
+a//,,b,,ba ,d,,,a,,,a,d ,,d3//,c///,a ,d,c,d,c,d,c,a,c |\
+,d/,,,a{a},,d [,dda]abd |
+[fgdd/]>d f/>g [f,,d1][d,,,d] |\
+[bbdd1]{a}/d [b,,a1][acd,a] |\
+[,dda1][,b,c/],a [,,dd1][,a,a/],,d |\
+% Takt 163
+[,,cc/],,a[,,c,,a1] [,,dc{,,a}]f/>d |\
+[c,,a/]>a [,d/]>,b [,a,a,d/]>,,d ,,b/>,,,d |
+,,,c/>,,,a ,,,,d/>,,,,b ,,,,a/>,,,,,d ,,,,,b/>,,d |\
+[,,b,,d/][,,,da][,,,c{,,b}],,,a [,,,ca{,,a}3//],,,a///,,,c ,,,d,,,c,,,d,,,c,,,d,,,c,,,a,,,c |\
+% Takt 167
+,,,a/{a}1,,,c//,,a ,,b,,d,a,c ,dac/ |\
+,,,a/,,dd1 "Fine"[cdda{a}2] |]
+S:https://www.folktunefinder.com/tunes/109571
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

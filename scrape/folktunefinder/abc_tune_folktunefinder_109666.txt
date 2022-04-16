@@ -1,0 +1,39 @@
+X:9
+T:Le temps des cerises
+C:Musique de A. Renard
+C:Paroles de J.-B. Clment
+O:1866
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-19
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+K:Ab
+%%staves {1 2}
+%%continueall 1
+V:1
+E || AAc | e2c | cBG | A2 ||
+E | A A A | A2A | B B B | B B B |
+c c c | c z c | d d d | d z c |
+c c d | c3 | B3 | A z A |
+d d d | d z d | d f d | d c/z/ c |
+c c c | e2 c | c B A | B3 |
+z2 E | A A A | A2A | B B B |  
+B B B | c c c | e2c | c B G |1,2,3 A3 |4 Acc | e2c | cBG | A3 |]
+V:2
+z || EAc | EAc | EBd | EA ||
+c | EAc | EAc | EBd | EBd | 
+EAc | EAc | FBd | FBc |
+EAB | EAc | EBd | EAc |
+FBd | FBd | FBd | FAc |
+EAc | EAc | EBc | EGB |
+EBd | EAc | EAc | EBd |
+EBd | EAc | EAc | EdB |
+Ace || EAc | EAc | EdB | [E3A3c3] |]
+S:https://www.folktunefinder.com/tunes/109666
+S:http://michel.bellon.free.fr/Musique/abc/Intime2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

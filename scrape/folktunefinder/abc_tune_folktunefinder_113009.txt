@@ -1,0 +1,30 @@
+X:21
+T:The Wood Duck
+C:Fried de Metz Herman
+S:Bernie Waugh
+R:Waltz
+M:3/4
+L:1/4
+K:A minor
+E|\
+"Am"A2A|c>BA|"Em"e2e|e2e|\
+"Gm"g>fe|"Bb"ded|"E7"c2B|"Am"A2A/c/|
+"Am"ef^d|"E"e2e|"C"ef^d|"D7"e2e|\
+"Gm"g>fe|"Bb"ded|"E7"c2B|"Am"A2||
+A|\
+"F"a2a|f>ga|"G"f2d|d2G|\
+"C"g2g|"Em"e>fg|"Am"e2c|c2F|
+"F"f2f|d>ef|"Dm"d2B|"E7"B2e|\
+"Dm"f>dB|"E7"cd^G|"Am"A2^g|a2|]
+S:https://www.folktunefinder.com/tunes/113009
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w5.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w5.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

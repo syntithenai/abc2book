@@ -1,0 +1,44 @@
+X: 7
+T:Untitled
+M:3/2
+L:1/4
+S:Marsden
+N:marsden say G as KS but C is surely better
+Z:ps
+K:G
+c>G E/F/G/E/ G/E/D/C/|E/F/ G/E/Gef/e/d/c/|A/F/E/D/ B/c/d/B/ A/F/E/D/|F/G
+/ A/F/AdB/c/d/B/||!
+c/G/ c/d/ e/d/e/d/cC|EGGcBA|c/A/ d/e/fe/d/ed/c/|FADB/c/ d/c/B/A/||!
+G/F/E/D/ C/D/E/F/ G/F/E/D/|E/F/ G/E/GcBA/G/|A/G/F/E/ D/E/F/G/ A/F/E/D/|F
+/G/ A/F/AdAB||!
+c>d e/d/e/d/ c>G|EGGcBA|d>e f/e/f/e/dD|F/G/AB/c/de/d/c/B/||!
+ed/c/dc/B/cC|E/F/ G/E/GcBA|fe/d/ed/c/dD|F/G/AB/c/dB>A||!
+EG2EC2|EG2cBA/G/|FA2FD>E|F>G A/G/ A/B/ cB/A/||!
+EGDFCE|EG2cBA/G/|FAEGAD|FA2B/c/ d/c/B/A/||!
+cCE/F/ G/E/cC|E/F/G/E/GcBc|dDF/G/A/F/eD|F/G/ A/F/AdBA/B/||!
+c/B/ A/G/ c/B/A/G/cC|EG2cBc|d/c/B/A/ d/c/B/A/dD|F/G/A2dAB||!
+cc/d/ed/c/dc/B/|A/B/cGcBA|dd/e/fe/d/ed/c/|B/c/dAdAB||!
+e2d>ec2|EG2cB>A|f>ge>fdD|FA2cBA||!
+gfedcC|eG2cB>A|agfedD|FA2cBA||!
+egdece|EGCcB>A|faegdD|FA2cB>A||!
+c/B/ A/G/ E/F/ G/E/ G/E/D/C/|E/F/ G/E/CcB>e|d/c/B/A/ B/c/d/B/ A/F/E/D/|F
+A2cB>A||!
+EGDFC>E|A,CA,CA,C|FAGBAD|FA2cB>A||!
+c/B/ A/G/ A/G/F/E/ F/E/D/C/|E/F/ G/E/Ged>e|d/c/B/A/ B/A/G/F/ G/F/E/D/|FA
+2cB>A||!
+cecgcC|EGCcB>c|dfdadD|FAFdB>A||!
+f/e/d/c/ B/c/d/B/cC|EG2cBA|fe/d/ ^c/d/e/c/dD|FA2cBA||!
+S:https://www.folktunefinder.com/tunes/110809
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

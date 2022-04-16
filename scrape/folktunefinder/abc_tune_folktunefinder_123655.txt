@@ -1,0 +1,26 @@
+X:4872
+T:Es flog ein kleins Waldvgelein ...
+R:Volkslied
+O:
+S:source
+B:Frau Nachtigall (Straburg - 1928)
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+N:p.40
+M:C
+L:1/4
+Q:1/4=150
+K:G
+"G"G | GdBG | "D"F3/2G/ AD | "C" E G "Am" G "D7" F | "G"G2z :|
+ G | Gd d/c/ B | A2 Ac | BAAB G |
+S:https://www.folktunefinder.com/tunes/123655
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Volkslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

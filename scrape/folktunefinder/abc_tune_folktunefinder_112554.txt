@@ -1,0 +1,33 @@
+X:127
+T: Dao ban jiang
+N: C0207
+O: China,Yunnan, Kunming
+S: II, 65]
+N: Vorspiel weggelassen., QING YUE) B ZHI
+R: Wuge, Huadeng, Kunming huadeng. Chang huahui]
+M: 2/4
+L: 1/16
+K: E
+B3cC2E2 | F8 | B2Bec2G2 | B8
+B2F2B2c2 | F3EC2B,2 | E4E4 | B3FB2c2 | F2F4E2 | F4z4
+F4B2c2 | B2c2G2F2 | G2GBG2F2 | E8
+B2F2B2c2 | F3GF2E2 | C6G2 | F3GE2C2 | B,6C2 | B,8
+B2C4E2 | F8 | B2Bec2BG | B8
+B2F2B2c2 | F3EC2B,2 | G4C2E2
+B,4B,2C2 | B2e2c2G2 | B8
+B2F2B2c2 | F3GC2B,2 | E8 | B3FG2B2 | F2F4E2 | F8
+B2C2C2F2 | C2E2B,2C2 | E6F2 | E8
+C2C4E2 | C2E2B,2C2 | E6F2 | E8
+G4B2d2 | c4B2F2 | G2A2G2F2 | E4z4
+E3CG2B2 | F3GF2E2 | C6G2 | F3GE2C2 | B,6C2 | B,8
+S:https://www.folktunefinder.com/tunes/112554
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, huadeng, kunming huadeng. chang huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

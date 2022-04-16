@@ -1,0 +1,21 @@
+X:305
+T:Tailor's Twist
+Z: id:dc-hornpipe-62
+M:C|
+L:1/8
+K:D Major
+BAF|DA,FD AFdA|Bged cbag|fedc Bged|(3cdc (3BcB (3ABA (3GFE|!
+DA,FD AFdA|Bged cbag|fedc Bgec|d2dc d:|!
+efg|a^gaf defa|bagf eAce|gfge cdef|(3gag (3fgf egfe|!
+dfec dAFA|Bged cbag|fedc Bgec|d2dc d:|!
+S:https://www.folktunefinder.com/tunes/100923
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:1227
+T:Arie
+C:Joh. Siegismund Scholze
+O:Germany
+N:This "air" was first published by Joh. Siegismund Scholze but
+N:it's by no means certain he actually wrote it. He may have just
+N:arranged a populr tune for the harpsichord.
+R:Air, aria, arie
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/scholze-joh-siegismund/schjs-arie01/schjs-arie01-pno1.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:2/4
+L:1/8
+Q:1/4=60
+K:F
+V:1
+AG/F/|ccfc|B/A/B GB|A/F/c BA|AG fc|dF A/G/F/E/|HF2||
+V:2
+F,F,|E,E,D,F,|G,F,E,C,|F,A,G,F,|C,B,,A,,A,,|B,,A,,/B,,/ C,C,|HF,,2||
+%
+V:1
+Ad|^cdeG|FEAd|^cdeG|FEAd|fe/d/ ed/^c/|"^Da Capo"d2|]
+V:2
+F,D,|E,F,^C,A,,|D,A,/G,/ F,D,|E,F,^C,A,,|D,A,/G,/ F,E,|D,F,G,A,|D2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/124483
+S:http://abc.musicaviva.com/tunes/scholze-joh-siegismund/schjs-arie01/schjs-arie01-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scholze-joh-siegismund/schjs-arie01/schjs-arie01-pno1.abc
+% Rhythm Air, aria, arie
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

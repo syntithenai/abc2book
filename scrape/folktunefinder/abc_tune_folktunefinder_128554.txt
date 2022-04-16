@@ -1,0 +1,23 @@
+X:87
+T:Maid at the Spinning Wheel
+Z: id:dc-jig-73
+M:6/8
+L:1/8
+K:G Major
+E|DGA B3|cBA B3|DGA BAG|F3 AFD|!
+DGA B3|cBA B2c|ded cAF|AGF G2:|!
+c|BAG AFD|D3AFD|D3 AFD|EFG ABc|!
+BAG AFD|D3 AFD|ded cAF|AGF G2:|!
+D|GBd gba|gdB ecA|dBG cAG|F3 AFD|!
+GBd gba|gdB ecA|fed cAF|AGF G2:|!
+c|BAG Afd|Bgd Afd|Bgd AFD|EFG ABc|!
+BAG AFD|D3 AFD|ded cAF|AGF G2:|!
+S:https://www.folktunefinder.com/tunes/128554
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+T:At Va'ani
+M:4/4
+L:1/8
+S:Deborah Jones/Vancouver IFD 1982
+Z:Seymour.Shlien@crc.doc.ca
+K:E
+|: "E" B, E2 F EFGA | B8 | "C#m" cGGF G2 "F#m" GB | "G#" G8 |
+"E" B, E2 F EFGA | B8 |1 "D" AFE=D "C" =C2 EF | "E" E8 :|2 "D" AFFA "G#m" G2 GB | "C#m" c8 |
+"C#m" G2 cB c2 G2 |"F#" ^ABGF "G#m" G2 G2 | "D" =ABGF "E" E2 EG | "F#" F8 |
+"C#m" Gc cB c2 "^D" d2 | "G#m" B^A B2-B2 "C7" c2 | "F#7" ^ABGF EFAG | "G#" G8 |
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/129386
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/AtVaAni_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

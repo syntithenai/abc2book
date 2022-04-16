@@ -1,0 +1,29 @@
+X:287
+T: Laodong huan de xinfu lai
+N: C0669
+O: China,Anhui
+S: MM,]
+N: Notenbeilage kopiert. Derzeitige chines. Kinderlieder
+N: Vereinzelt Verzierungen. Vorspiel weggelassen. Die letzte Strophe
+N: endet eine Oktave hoeher.
+R: Xiaodiao, Yangliuqing diao]
+M: 2/4
+L: 1/16
+K: F
+A4A2c2 | d4d2c2 | A4A2c2 | A2G2F2G2 | A8
+A4A2c2 | d4d2c2 | A4c2A2 | G2A2c4 | c4D4 | F4D4
+F3Gc2A2 | G8
+F2F2F2F2 | G4C4 | D2CDF2D2 | C8
+S:https://www.folktunefinder.com/tunes/112714
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, yangliuqing diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

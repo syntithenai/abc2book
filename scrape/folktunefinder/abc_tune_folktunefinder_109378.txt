@@ -1,0 +1,38 @@
+X: 32
+T: Sweet Baby James Waltz
+I: Sweet Baby James WaltzW-21Awaltz
+C: W-21
+C: Aram Hollman
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+%%staffwidth 12.5cm
+K: A
+(3::2e2d| "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| (c2 (3::2c2)B A2| "Bm"B6-| "E"B4 (3::2e2d|
+          "F#m"c2 (F2 (3::2F2)F| F4 (3::2F2E| "D"D2 (A2 (3::2A2)B| A4 f2|
+          "A"e4 c2| "E"(B2(3::2B2)A B2| "D"A6-| "A"A2 c2 e2|]
+\
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| A2 c2 e2|
+       "D"f4 f2| "A"(3::2ec2- c2 e2| "F#m"f6-| f2c2e2|
+       "F#m"f4 (3::2f2e| "D"(f2 (3::2f2)e f2| "A"(3::2ec2- c2B2| (A2 (3::2A2)B c2|
+       "Bm"B4 (3::2B2 c| "C#m"B2 A2 E2| "D"F2 (A2 (3::2A2)A| "E"B4 (3::2e2 d|
+       "F#m"c2 (F2 (3::2F2)E| "D"F2 (A2 (3::2A2)B| "A"A6-| A4|]
+%%text 9/1/98
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text W-22, "Growling Old Man and Grumbling Old Woman", moved to R-127
+%%textfont       Times-Roman 9.0
+% ---------- page 16 ----------
+S:https://www.folktunefinder.com/tunes/109378
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

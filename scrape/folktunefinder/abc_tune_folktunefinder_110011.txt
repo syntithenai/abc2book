@@ -1,0 +1,24 @@
+X:73
+T: Herr von Falkenstein
+N: Q0021A
+O: Mitteleuropa, Deutschland (BRD) , Westfalen, Steinhagen
+R: Ballade, Gefangenschaft, Ehe, Befreiung
+M: 4/4
+L: 1/8
+K: G
+d2 | d2c_BA3d | d2c_BA3
+c | _B2A2G2G2 | F4G3
+G | A2_B2c3A | _B2c2d3
+c | _B2A2G2G2 | F4G2
+S:https://www.folktunefinder.com/tunes/110011
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, ehe, befreiung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

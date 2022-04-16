@@ -1,0 +1,29 @@
+X:335
+T:Doctor O'Neill
+R:jig
+S:Kevin Finucane
+Z:hn-jig-335
+M:6/8
+K:D
+~d3 AFD|E2F G2A|~B3 Bcd|AGF EFA|
+~d3 AFD|E2F G2A|~B3 Bcd|AFD D2A:|
+|:~d3 cBA|dfe dcB|AFA Bcd|AGF EFA|
+~d3 cBA|dfe dcB|AFA Bcd|1 AFD D2A:|2 AFD D2e||
+|:~f3 afd|dcd fed|~g3 ~f3|ged cde|
+~f3 afd|dcd fed|~g3 eag|1 fdc d2e:|2 fdc d2g||
+|:fdf ece|dcB AFd|AFd AFd|AGF E2g|
+fdf ece|dcB AFA|~B3 Bcd|1 AFD D2g:|2 AFD D2E||
+|:~F3 ~G3|~F3 FED|~F3 GFG|AFD E2G|
+~F3 ~G3|~F3 FED|~B3 Bcd|1 AFD D2E:|2 AFD D2A||
+S:https://www.folktunefinder.com/tunes/113763
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

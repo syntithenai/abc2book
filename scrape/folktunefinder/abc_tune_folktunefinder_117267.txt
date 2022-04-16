@@ -1,0 +1,30 @@
+X:65
+T:Paddy O'Rafferty (2)
+R:Jig
+S:Unknown fiddle player (James Cullinane)
+D:Clare FM broadcast. From the Miltown Malbay fiddle recital.
+M:6/8
+Z:Bernie Stocks
+K:D
+d2B cAF | {G}FEF dAF | d2B cBA | (3BcdB AFE | d2B cAF | {G}FEF dAF | daa caa | B2d AFE ||
+c2d ecA | eaf ecA | c2d ecA | BAF AFE | c2d ecA | eaf ef^g | a^gf ecA | B2F AFE ||
+DFA ded | ded dAF | DFA d2A | B2d AFE | DFA ded | ded def | gfe fdA | B2d AFE ||
+~F3 D2A, | (3.D.D.DD D3 | ~F3 DFA | B2d AFE | ~F3 D2A, | (3.D.D.DD def | gfe fdA | B2d AFE ||
+S:https://www.folktunefinder.com/tunes/117267
+S:http://ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book4.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book4.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://www.firepowr.com/abc/Book4abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book4.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

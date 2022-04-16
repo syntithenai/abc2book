@@ -1,0 +1,27 @@
+X: 8
+T:Kalinka
+O:russia
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Am
+|: "Am"He2 \
+| "E7"d2 Bc | d2 Bc | d2 cB | "Am"A2 ee \
+| "E7"d>c Bc | d2 Bc | d2 cB | "Am"A2 :| "cine"Ha4 | "G7"Hg4 ||
+| "C"eg "G7"fe/2d/2 | "C"c2 G2 | eg "G7"fe/2d/2 | "C"c2 G2 \
+| "F"A2 AB | "D7"dc BA | "G"G2 "(Am)"G2 | "G"G2 Hg2 |
+| "C"eg "G7"de | "C"c2 G2 | eg "G7"de | "C"c2 G2 \
+| "F"A2 AB | "D7"dc BA | "G"g2 "Dm"f2 | "E7"He4 |]
+%%sep 5 5 5cm
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102659
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

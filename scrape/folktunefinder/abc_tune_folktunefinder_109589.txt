@@ -1,0 +1,43 @@
+X: 1
+T:Tabulation for the fife or arigot in the third mode
+M:C|
+L:1/8
+B:Thoinot Arbeau : Orchesographie, 1589
+Z:Steve Mansfield February 2001
+K:BLoc
+GG AB cz zz|GG AB cB cd|cd cB/A/ B4|
+BA/B/ c/B/A/G/ A4|AG/A/ B/A/G/F/ G4|GF ED E4|ED EF G4|
+CB,/C/ D/C/B,/C/ DE DE|FE/F/ G/F/E/F/ ED/E/ ED/E/|
+ED/E/ ED/C/ D4|EDEF G4|GEFG A4|AFGA B4|
+BGAB cdcB|cdcB c2 cB/c/|d/c/B/c/ d/c/B/A/ B2 BA/B/|
+c/B/A/B/ c/B/A/G/ A2 AG/A/|B/A/G/A/ B/A/G/F/ G4|GAGF E4|
+ED/E/ F/E/D/C/ D4|z2 z2 z2 z2|z2 z2 z2 z2|C4 D4|
+DC/D/ E/D/C/D/ E4|
+ED/E/ F/E/D/E/ F4|FE/F/ G/F/E/F/ G4|GF/G/ A/G/F/G/ A4|
+AG/A/ B/A/G/A/ B4|BA/B/ c/B/A/B/ cdcd|cdcd cd cB/c/|
+d/c/B/c/ d/c/B/A/ B4|BA/B/ c/B/A/B/ c/B/A/B/ c/B/A/B/|
+c/B/A/B/ c/B/A/G/ A4|ABAB ABAF|GABc dcBA|
+GABc dcBd|c8|e8|dcde dcde|dcde dcde|
+dc/d/ e/d/c/d/ e/d/c/d/ e/d/c/B/|c8|BA BA BA BG|
+A8|AG/A/ B/A/G/A/ BA/B/ cB/c/|G4 E4|E2 DC D4|
+CDEF Gzzz|CDEF GAGA|BGAB cdc2|B4 A4|
+AG/A/ B/A/G/A/ B/A/G/A/ B/A/G/A/|B/A/G/A/ B/A/G/F/ G4|
+z4 z4|z4 z4|E8|
+ED/E/ F/E/D/C/ D4|GAGA BA/B/ c/B/A/B/|cB/c/ d/c/B/c/ dBcd|
+e8|dede dedB|cGAB cGAB|c8|
+cB/c/ d/c/B/c/ d/c/B/c/ d/c/B/c/|A8|A2 GF G4|CDED EDEF|
+GF/G/ A/G/F/G/ A/G/F/G/ A/G/F/G/|ABAB AG/A/ B/A/G/A/|
+B8|d4 dc/d/ e/d/c/d/|eded c4|BABG A4|
+AG/A/ B/A/G/A/ B/A/G/A/ B/A/G/A/|B/A/G/A/ B/A/G/A/ B4|
+B2AG A4|cBAB A4|B8||
+S:https://www.folktunefinder.com/tunes/109589
+S:http://www.lesession.co.uk/music/Orchesography.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

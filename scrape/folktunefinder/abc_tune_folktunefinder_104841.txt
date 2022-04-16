@@ -1,0 +1,24 @@
+X:19
+T:La balance
+A:Normandie
+O:France
+M:2/4
+L:1/8
+Q:1/4=160
+K:G
+D|d3>d ce|dB A/2B/2c|
+B2 GB|AG/2A/2DD|d>d ce|
+dB A/2B/2c|B2 G/2B/2A/2D/2|G2 z|
+|:D|AA/2B/2cA|B/2c/2ddD|AA/2B/2cA|
+B/2c/2dd:||D|AA/2B/2cA|B/2c/2d Ac|
+B/2c/2d Ac|B/2c/2ddD|AA/2B/2cA|G4||
+S:https://www.folktunefinder.com/tunes/104841
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf02.abc
+S:http://www.tradfrance.com/matf02.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

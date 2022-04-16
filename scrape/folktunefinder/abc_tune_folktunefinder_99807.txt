@@ -1,0 +1,27 @@
+X: 1
+T:Aldriges Allemande. WM030
+T:Aldridge's Allemande. WM030
+M:2/4
+L:1/16
+Q:100
+S:Wm.Mittell,1799
+R:Allemande
+O:England
+A:Kent
+Z:C.G.P
+K:D
+f2|egec d2f2|egec d2A2|B2A2B2c2|dcde d2f2|
+egec d2f2|!egec d2A2|B2A2B2c2|d6:|
+|:gc|fafd fafd|gbgegbge|fafd fafd|!edcB A2g2|
+fafd fafd|gbge gbge|fafd egec|d6:|]
+S:https://www.folktunefinder.com/tunes/99807
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/al/Aldriges_Allemande_WM030_1.abc
+% Rhythm Allemande
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

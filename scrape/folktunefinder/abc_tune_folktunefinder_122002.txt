@@ -1,0 +1,27 @@
+X: 340
+T: THE GIRL FROM LOWER IRELAND
+T: Cailin ua iachdar na Eirinn
+B: O'Neill's 340
+M: 3/4
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Gracefully"
+N: "Collected by J.O'Neill"
+N: Irregular phrasing.
+K:D
+A2 \
+| d2 g2 fe | (~dc) (~AG) FG | (AB {d}c.A G)B | (A2 d2) d2 | d4 A2 |
+| d2 g2 fd | c2 (AG) FG | (Ac) d2 FD | (E2 {FE}D2) D2 | D4 ||
+|| (FG) \
+| A2 A2 de | (fa g)(f ed) | d2 (ed cA) | A4 (FG) |
+| A2 A2 (de) | (fa gf ec) | d3 (c AG) | (E2 {FE}D2) D2 | D4 ||
+S:https://www.folktunefinder.com/tunes/122002
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0340_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

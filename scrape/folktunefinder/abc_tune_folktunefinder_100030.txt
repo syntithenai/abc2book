@@ -1,0 +1,30 @@
+X:465
+T:Caledonian Wedding
+C:Wilf Gillis
+S:Wilf Gillis
+M:3/4
+L:1/4
+K:C % transposed from D
+C3/2 E/2G|c2B|AFA|G2A/2B/2|
+c3/2d/2c|cGE|FA,C|B,DG,||
+C3/2 E/2G|c2B|AFA|G2F/2E/2|[1 F3/2 A/2c|
+BAB|c3|c2zG:|[2 F3/2 A/2c|BAB|
+c3|c2e/2f/2||g3/2 e/2c|c2B|
+AfA|G2A/2B/2|c3/2 B/2c|egf|
+edc|d2e/2f/2|g3/2 e/2c|c2B|
+AfA|G2e/2f/2|gec|Bdf|
+ecB|c2e/2f/2|g3/2 e/2c|c2B|
+AfA|G2E/2F/2|Gce|gfe|
+dBG|FED|C>EG|c2B|
+AFA|G2F/2E/2|F3/2 A/2c|BAB|
+c3|c3|]
+S:https://www.folktunefinder.com/tunes/100030
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:130
+T:Ted meets Pachelbel
+%%MIDI gchord c
+C:Colin Hume, 2002
+N:This is an alternative tune if you don't have musicians able and willing to play Pachelbel's Canon.
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:G
+P:A
+|: "G"G4 | "D/F"A4 | "Em"B2AB | "C"c2 E2 | "D"F4 | "Em"G4 | "Cm/Eb"A2Bc | "D"d4 :|
+P:B
+|: "C"e4 | "G"d2 "G/C"cB | "D"c4 | "Em"B4 | "Am"A2c2 | "G/D"B2AG | "D7"A4 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/110177
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

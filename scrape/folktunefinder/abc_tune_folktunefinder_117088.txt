@@ -1,0 +1,26 @@
+X:4
+T:Eighth Of January
+C:Traditional
+M:2/4
+L:1/8
+Q:1/8=220
+K:D
+d/e/|:"D"f/e/f/a/ f/e/d/f/|"G"e/f/e/d/ BB/d/|\
+"A"e/f/e/d/ B/d/e/f/|"D"e/d/B/A/ dd/e/|
+f/e/f/a/ f/e/d/f/|"G"e/f/e/d/ BB/d/|\
+"A"e/f/e/d/ B/A/B/c/|"D"d/B/A/F/ DD/E/:|
+"D"F/AF/ AA/F/|A/F/A/F/ E/D/D/E/|\
+F/AF/ AA/B/|"A"A/F/E/F/ "D"DD/E/|
+"D"F/AF/ A/AF/|A/B/A/F/ E/D/D/F/|
+A/B/A/F/ E/D/B,/D/|1"A"F/E/D/B,/ "D"D2:|2
+"A"F/E/D/B,/ "D"D||
+S:https://www.folktunefinder.com/tunes/117088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

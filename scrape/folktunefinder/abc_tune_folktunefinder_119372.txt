@@ -1,0 +1,40 @@
+X:7
+T:Bringeb\aersl\aatten (Reinl\aender)
+C:av. Richard Eilde (sp)
+N:2. stemme av. Magne Drageset
+R:Reinl\aender
+%O:Norway
+Z:Bob Wyttenbach  8/7/02, from Fiddles & Feet 2002 tunebook, handwritten copy (composer not quite legible)
+M:2/4
+L:1/16
+K:D %clef=bass middle=D
+P:A
+V:1
+fedc d2F2|BAGF G2E2|e2ed c2c(B|A2)AG F2>A2|
+V:2
+"D"dAFE F2D2|GFED "G"E2[E2B,2]|"A"c2cB A2A(G|F2)FE"D"D4|
+V:1
+fedc d2F2|BAGF G2E2|e2ed c2Bc|d2d2 d2>A2:|
+V:2
+"D"dAFE F2D2|GFED "G"E2[E2B,2]|"A"c2cB A2AG|"D"F2F2F4:|
+P:B
+V:1
+A2f2 fedc|B2g2 gfed|c2c2 B2B2|^GABA F2>A2|
+V:2
+F2d2 dcBA|"G"G2B2 BAGB|"A"A2A2 G2G2|"D"F2GF D2>F2|
+V:1
+A2f2 fedc|B2g2 gfed|c2c2 cABc|d2d2d4:|
+V:2
+F2d2 dcBA|"G"G2B2 BAGB|"A"A2A2 AEAG|"D"F2F2F4:|
+% %%%%%%%%%%%% Snoa/Ganglat %%%%%%%%%%%%% %
+S:https://www.folktunefinder.com/tunes/119372
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002.abc
+% Rhythm Reinl%C3%A6nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

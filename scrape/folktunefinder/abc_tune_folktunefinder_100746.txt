@@ -1,0 +1,24 @@
+X: 19
+T:Rights of Man
+R:hornpipe
+C:KCC p27
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:Em
+GA|"Em"BcAB GAFG|EFGA B2ef|gfed "G"edBd|"Am"cBAG "B7"A2GA|
+"Em"BcAB GAFG|EFGA B2ef|"Am"gfed "B7"Bgf<g|"Em"e2E2 E2:|
+ga|b^abg efga|b^abg e2fe|"D"d^cde fefg|afdf a2gf|
+"Em"eBeg "D"fdfa|"G"gfga b2ef|"Am"gfed "B7"Bgf<g|"Em"e2E2 E2:|
+S:https://www.folktunefinder.com/tunes/100746
+S:http://www.alfwarnock.info/alfs/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

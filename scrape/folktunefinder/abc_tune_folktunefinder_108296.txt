@@ -1,0 +1,28 @@
+X:6789
+T:Happy Reel
+R:reel
+S:Alan Kelly
+H:
+N:
+D:Fleadh Concert 1990
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:G
+GBB2 cABA|GA (3Bcd egdB|AD (3DDD ABcA|BdcA (3Bcd cA|\
+G3B AGFA|GdBG ABcA|dgg2 fgag|1 fdcA G3D:|2 fdcA GABc||\
+dgg2 fgaf|gdBG DCB,D|C2(3CCC B,CDG|FGAB cABc|\
+d2gd fgaf|gdBG DCB,D|CDEC B,DGB|cAFA G4:||
+S:https://www.folktunefinder.com/tunes/108296
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

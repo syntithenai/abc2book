@@ -1,0 +1,33 @@
+X:785
+T:Rocky Road to Dublin, The
+M:9/8
+R:SlipJig
+L:1/8
+Z:O'Neill's
+D:anop=B00000B98Z(Dubliners: Dubliners [IMPORT])
+D:asin=B000000EI4(Liam Clancy: Liam Clancy)
+D:asin=B000000U7B(The Young Dubliners: Rocky Road [EP])
+D:asin=B000002AHJ(Clancy Brothers, Tommy Makem: Songs Of Ireland And Beyond)
+D:asin=B0000031WM(Trevor Watts, Moire Music...: A Wider Embrace)
+D:asin=B000003FRH(The Chieftains: The Long Black Veil)
+D:asin=B000003PZU(Dubliners: Complete Dubliners [BOX SET] [IMPORT])
+D:asin=B000005CP9(The House Band: Another Setting)
+D:asin=B000009DEE(Gaelic Storm: Gaelic Storm)
+K:G
+efe d2B A2A|~E3 A2A Bcd|efe d2B A2c|B2A G2A Bcd:|\
+e2a a2f ~g3|e2a a2A Bcd|e2a a2f g2e|d2B ~G3 Bcd|\
+e2a a2f g2d|e2a ~a3 Bcd|efg fga gfe|~d3 G2A Bcd|\
+ecA ecA A2a|ecA ecA Bcd|ecA ecA a2c|~d3 G2A Bcd|\
+ecA ecA A2a|ecA ecA ~B3|efg fga gfe|d2B G2A Bcd||
+S:https://www.folktunefinder.com/tunes/111686
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:33
+T:Bodapolska #11
+R:polska K1
+Z:2000 Brian Wilson 
+Z:Music for Happy Feet #11
+M:3/4
+L:1/8
+K:G
+B- \
+|: (B/c/B/A/) G3/2(B/ d3/2)g/ \
+| (g<f) (f<a) A3/2(B/ \
+| c2) (c/d/c/A/) F3/2(F/ \
+| G3/2) (A/ B/A/B/c/ d3/2 (c/ |
+| B/c/B/A/) G3/2(B/ d3/2)g/ \
+| (g<f) (f<a) A3/2(B/ \
+| c2) (c/d/c/A/) F3/2(F/ \
+| G2) G4 :|
+P:B
+|: (g/a/g/f/) (f<e) e>e- \
+| ed B2- B>d- \
+| d3/2(F/ A3/2)(d/ f3/2)a/ \
+| g2 (g/a/g/e/) d>g |
+| (g/a/g/f/) (f<e) e>e- \
+| ed B2- B>d- \
+| d3/2(F/ A3/2)(d/ f3/2)a/ \
+| ag g4 :|
+S:https://www.folktunefinder.com/tunes/114331
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polska k1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

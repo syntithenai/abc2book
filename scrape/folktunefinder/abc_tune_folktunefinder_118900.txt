@@ -1,0 +1,26 @@
+X:90
+T:The Wizard's Walk
+C:Jay Ungar
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E minor
+"Em"e2dc BAGF|GAFGE2B2|e3f gfef|"B7"gafg "Em"e4|
+"Am"a2gf edcB|cdBc A2E2|A3B cBAB|"E7"cdBc "Am"A4|
+"B7"BBfB BfBB|"C"ccgc cgcc|"B7"BBfB BfBB|"Am"ccgc cgcc|
+"B7"[Bf]BBB "C"[cg]ccc|"G"[Bf]BBB "Am"[cg]ccc|"B7"[Bf]B^cc ^ddee|ffggaabb||
+|:\
+"Em"egbg bgeg|"B"^dfbf bfdf|"D"dfaf afdf|"A"^ceae aece|
+"C"cege gece|"Em"Bege geBe|"E dim"_Bege geBe|"B7"Bege fe^df:|"Em"e2|]
+S:https://www.folktunefinder.com/tunes/118900
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

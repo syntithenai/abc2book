@@ -1,0 +1,22 @@
+X:160
+T:Mike's Fancy
+R:Jig
+C:Jerry Holland
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+c|:Bd^c dBG|Bdg dBG|EA=c cBc|FAd d2c|
+Bd^c dBG|Bdg dBG|EAG FEF|[1 G3 G2=c:|[2 G3 G2C||
+D3 DB,G,|CEG EDC|D3 DGB|=cBc ADC|
+D3 DB,G,|CEG EDC|B,DG FEF|G3 G2z:|]
+S:https://www.folktunefinder.com/tunes/125324
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

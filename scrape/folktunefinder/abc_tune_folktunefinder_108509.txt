@@ -1,0 +1,25 @@
+X:7002
+T:Hessian's Dance,The. BC.43
+M:3/8
+L:1/8
+Q:30
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Misc.
+Z:vmp.John Bagnall
+K:G
+gdB| G>AG | DEF | G/F/G/A/G |gdB | G>AG| DEF | G3 |!
+|def | g2e | f/g/a/g/f/e/ | dDD | def | g2 c | BA/G/A/F/ | G2 g |!
+| d2 e | B2 c | AGF | GDg | d2 e | B2 c AGF | G2 g |]
+S:https://www.folktunefinder.com/tunes/108509
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

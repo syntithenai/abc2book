@@ -1,0 +1,39 @@
+X:13601
+T:Primrose Polka
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:D
+A|"D"F3/4G/4^G3/4A/4 B3/4A/4G3/4A/4|fd fd|"D"F3/4G/4^G3/4A/4 B3/4A/4G3/4A/4|\
+"A7"E4|E3/4F/4G3/4A/4 B3/4A/4^G3/4A/4|
+"A7"fE c3/2B/2|A3/4B/4c3/4B/4 A3/4G/4F3/4E/4|"D"F2 "A7"A2|\
+"D"F3/4G/4^G3/4A/4 B3/4A/4G3/4A/4|fd fd|
+"D"d3/4d/4c3/4d/4 "D7"ed|"G"B4|"G"g3/4f/4e3/4f/4 gg|"D"f3/4e/4d3/4e/4 ff|\
+"Em"e3/4d/4c3/4B/4 "A7"A3/4G/4F3/4E/4|"D"D2 "A7"A2||
+"D"F2 F3/4G/4^G3/4A/4|f3e|"D"d3/4A/4F3/4A/4 d3/4A/4e3/4d/4|"G"cB B2|\
+"A7"E2 E3/4F/4G3/4A/4|"A7"c3B|
+"A7"A3/4B/4c3/4B/4 A3/4G/4F3/4E/4|"D"F2 "A7"A2|"D"F2 F3/4G/4^G3/4A/4|f3e|\
+"D"d3/4A/4F3/4A/4 d3/4A/4e3/4d/4|
+"G"cB B2|"G"g3/4f/4e3/4f/4 gg|"D"f3/4e/4d3/4e/4 ff|\
+"Em"e3/4d/4c3/4B/4 "A7"A3/4G/4F3/4E/4|"D"D2 "D7"D2||
+K:G
+"G"bg3/4f/4 gd|bg3/4f/4 gd|"C"e3/4^d/4e3/4f/4 ge|"G"d4|"C"c3/4B/4c3/4d/4 ec|
+"G"B3/4^A/4B3/4c/4 dB|"A7"^c3/4B/4A3/4c/4 fe|"D7"d4|\
+K:G
+"G"bg3/4f/4 gd|bg3/4f/4 gd|
+"C"e3/4^d/4e3/4f/4 ge|"G"dB G2|"C"E3/2G/2 cG|"G"DG "E7"B2|"A7"AE "D7"FD|"G"G4\
+||
+S:https://www.folktunefinder.com/tunes/116646
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,49 @@
+X:11382
+T:Muieira De  Combarreira
+O:Galicia (Spain)
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+C: Jos\'e J. Presedo jpresedo@arrakis.es
+M: 4/4
+L: 1/8
+Q:1/4=188
+K:C % 0 sharps
+V:1
+z3g z/2e/2g c'z/2d'/2|c'b z/2a/2b f3/2z/2 df|z/2d/2f bc' bc' ba|g3/2z/2 eg z/2e/2g c'z/2d'/2|
+c'e' z/2d'/2c' a3/2z/2 ff|z/2d/2f ba ga gf|ez/2g/2 eg z/2e/2g c'z/2d'/2|c'b z/2a/2b f3/2z/2 df|
+z/2d/2f bc' bc' ba|g3/2z/2 eg z/2e/2g c'z/2d'/2|c'e' z/2d'/2c' a3/2z/2 ff|z/2d/2f ba gg ab|
+c'2- c'/2z/2c' z/2c'/2c' c'z/2b/2|aa z/2g/2f fz/2e/2 dd'|z/2d'/2d' d'z/2c'/2 bd' z/2c'/2b|a3/2z/2 gc' z/2c'/2c' c'z/2b/2|
+aa z/2g/2f fz/2g/2 aa|z/2b/2c' e'z/2d'/2 c'd' z/2c'/2b|c'2- c'/2z/2c' z/2c'/2c' c'z/2b/2|aa z/2g/2f fz/2e/2 dd'|
+z/2d'/2d' d'z/2c'/2 bd' z/2c'/2b|a3/2z/2 gc' z/2c'/2c' c'z/2b/2|aa z/2g/2f fz/2g/2 aa|z/2b/2c' e'z/2d'/2 c'd' z/2c'/2b|
+c'2- c'/2z/2c'3/2g/2g c'3/2g/2|gc'3/2d'/2c' a3/2g/2 fb-|b/2f/2f b3/2f/2 fb3/2c'/2b|a3/2g/2 bc'3/2g/2g c'3/2g/2|
+gc'3/2d'/2c' a3/2g/2 fb-|b/2f/2f b3/2a/2 gb3/2a/2b|c'2- c'/2z/2c'3/2g/2g c'3/2g/2|gc'3/2d'/2c' a3/2g/2 fb-|
+b/2f/2f b3/2f/2 fb3/2c'/2b|a3/2g/2 bc'3/2g/2g c'3/2g/2|gc'3/2d'/2c' a3/2g/2 fb-|b/2f/2f b3/2a/2 gb3/2a/2b|
+c'2- c'/2z/2g z/2e/2g c'z/2d'/2|c'b z/2a/2b f3/2z/2 df|z/2d/2f bc' bc' ba|g3/2z/2 eg z/2e/2g c'z/2d'/2|
+c'e' z/2d'/2c' a3/2z/2 ff|z/2d/2f ba ga gf|ez/2g/2 eg z/2e/2g c'z/2d'/2|c'b z/2a/2b f3/2z/2 df|
+z/2d/2f bc' bc' ba|g3/2z/2 eg z/2e/2g c'z/2d'/2|c'e' z/2d'/2c' a3/2z/2 ff|z/2d/2f ba gg ab|
+c'
+V:2
+z3c z/2e/2c cz/2B/2|cd z/2e/2f d3/2z/2 Bd|z/2B/2d dc de dc|B3/2z/2 cc z/2e/2c cz/2B/2|
+cc' z/2b/2a f3/2z/2 dd|z/2B/2d gf ef ed|c2- c/2z/2c z/2e/2c cz/2B/2|cd z/2e/2f d3/2z/2 Bd|
+z/2B/2d dc de dc|B3/2z/2 cc z/2e/2c cz/2B/2|cc' z/2b/2a f3/2z/2 dd|z/2B/2d gf ee fg|
+c2- c/2z/2e z/2e/2e e3/2z/2|dc3/2z/2d dz/2c/2 Bf|z/2f/2f f3/2z/2 ed3/2z/2e|f3/2z/2 ee z/2e/2e e3/2z/2|
+dc3/2z/2d dz/2e/2 ff|z/2g/2a ez/2d/2 cd z/2c/2B|c2- c/2z/2e z/2e/2e e3/2z/2|dc3/2z/2d dz/2c/2 Bf|
+z/2f/2f f3/2z/2 ed3/2z/2e|f3/2z/2 ee z/2e/2e e3/2z/2|dc3/2z/2d dz/2e/2 ff|z/2g/2a ez/2d/2 cd z/2c/2B|
+c2- c/2z/2c3/2e/2e c3/2e/2|ec3/2e/2g f3/2e/2 dB-|B/2d/2d B3/2d/2 dB3/2d/2g|f3/2e/2 dc3/2e/2e c3/2e/2|
+ec3/2e/2g f3/2e/2 dB-|B/2d/2d g3/2f/2 ef3/2e/2d|c2- c/2z/2c3/2e/2e c3/2e/2|ec3/2e/2g f3/2e/2 dB-|
+B/2d/2d B3/2d/2 dB3/2d/2g|f3/2e/2 dc3/2e/2e c3/2e/2|ec3/2e/2g f3/2e/2 dB-|B/2d/2d g3/2f/2 ef3/2e/2d|
+c2- c/2z/2c z/2e/2c cz/2B/2|cd z/2e/2f d3/2z/2 Bd|z/2B/2d dc de dc|B3/2z/2 cc z/2e/2c cz/2B/2|
+cc' z/2b/2a f3/2z/2 dd|z/2B/2d gf ef ed|c2- c/2z/2c z/2e/2c cz/2B/2|cd z/2e/2f d3/2z/2 Bd|
+z/2B/2d dc de dc|B3/2z/2 cc z/2e/2c cz/2B/2|cc' z/2b/2a f3/2z/2 dd|z/2B/2d gf ee fg|
+c
+S:https://www.folktunefinder.com/tunes/99164
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

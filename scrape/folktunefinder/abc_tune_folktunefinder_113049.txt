@@ -1,0 +1,32 @@
+X: 40
+T: John Howatt
+C: H. Dunlop
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/16
+K: D
+defg\
+|:\
+"D"a2fd "A"g2ec|"D"d2AG FDDF|"Em"E2FG ABcd|"A"eAfA g2fg|
+"D"^gafd "A"=g2ec|"D"d2AG FDDF|"Em"E2FG ABcd|1"A"eABc "D"defg:|2\
+"A"eABc "D"d2dA||
+|:\
+"D"defg afdf|"A"gfed ceAc|"D"defg "Bm"afdf|"E7"aba^g "A"a4|
+"F#m"abaf "G"gfed|"A"eAfA "D"GFED|F2AF "G"G2BG|1"A"ABcA "D"d2dA:|2\
+"A"ABcA "D"defg:|
+S:https://www.folktunefinder.com/tunes/113049
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

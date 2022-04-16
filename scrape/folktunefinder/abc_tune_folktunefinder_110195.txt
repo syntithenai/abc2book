@@ -1,0 +1,41 @@
+X:148
+T:Winter Memories
+%%MIDI gchord c
+%%MIDI program 51
+%%MIDI chordprog 73
+%%MIDI chordvol 50
+%%MIDI bassprog 1
+%%MIDI bassvol 40
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=83
+%%MIDI chordname 7sus 0 5 7 10
+C:Colin Hume, 1996
+K:D
+P:A
+V:1
+|: "D"AFED | "Em"AdAG | "F#m"AFED | "G"B,3C | "D"DA,DA |\
+"Em"GFED |1 "G"BGAB | "A7sus  "A2- "A7"A2 :|2 "A7"G,A,CE | "D"D4 |
+V:2 bass
+I:octave=-2
+%%MIDI program 2
+%%MIDI program 44
+|: D4 | E4 | F4 | GABc | d4 | e3 F |1 GEFG | AGFE :|2 E2A2 | dedc |
+%%vskip 0
+P:B
+V:1
+|: "Bm"dBcd | "F#m"c3F | "G"BGAB | "D"A2DE | "Bm"F2B2 | "F#m"AFED \
+|1 "Em"B2d2 | "A7sus  "e2- "A7"e2 :|2 "A7sus  "E2- "A7"ED | "D"D4 |]
+V:2
+|: B4 | afga | g4 | f2dc | B2de | f2gf |1 e2dB | A3^A :|2 e2A2 | d4 |]
+S:https://www.folktunefinder.com/tunes/110195
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:261
+T:Gold Ring, The
+T:Fainne Oir Ort
+R:jig
+H:Another tune by the same name is #104, #158
+Z:id:hn-jig-261
+M:6/8
+K:D
+DB,A, DFA|~d3 ecA|BdB AFD|~E3 FDB,|
+~A,3 DFA|dfd ecA|~B3 AFA|1 Bdc dAF:|2 Bdc d2B||
+|:AFA dfa|bgb afd|~g3 ~f3|ede fdB|
+AFA dfa|bgb afd|B/c/dB AFA|1 Bdc d2B:|2 Bdc dfe||
+|:dAF AFE|DB,A, DFA|~d3 ede|fdB BAB|
+dAF AFE|DB,A, DFA|~d3 ede|1 fdc dfe:|2 fdc d2B||
+|:AFA ~d3|~B3 dAF|DEF ~E3|FDB, B,dB|
+AFA ~d3|~B3 dAF|DEF ~E3|1 FDC DdB:|2 FDC D2B,||
+S:https://www.folktunefinder.com/tunes/117758
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

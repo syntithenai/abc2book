@@ -1,0 +1,21 @@
+X:10
+T:Ballydesmond
+Z: id:dc-polka-1
+M:2/4
+L:1/8
+K:A Dorian
+EA AB|cd e2|G>F GA|GE ED|!
+EA AB|cd e>f|ge dB|A2 A2:|!
+a>g ab|ag ef|g>f ga|ge ed|!
+ea ab|ag ef|ge dB|A2 A2:|!
+S:https://www.folktunefinder.com/tunes/127430
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Polkas.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

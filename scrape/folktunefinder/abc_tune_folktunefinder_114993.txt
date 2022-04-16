@@ -1,0 +1,22 @@
+X:160
+T:Old French
+M:C
+L:1/8
+K:D Major
+Bc|d2cd BdAF|DFAd f2ed|cdef gfec|defd A2Bc|!
+d2cd BdAF|DFAd f2ed|cdef gfec|d2f2 d2:|!
+K:A Mixolydian
+cd|efed cdcB|AEAc e2dc|BGBd gfed|cAce a2cd|!
+efed cdcB|AEAc e2dc|BGBd gfed|c2A2 A2:|!
+S:https://www.folktunefinder.com/tunes/114993
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Reels.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

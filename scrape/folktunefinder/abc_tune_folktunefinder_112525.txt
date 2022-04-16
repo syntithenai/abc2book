@@ -1,0 +1,27 @@
+X:98
+T: Lo yang qiao
+N: C0122
+O: China,Hunan, Chenxi
+S: I, 536, 1)]
+N: neues Volkslied
+R: Xiaodiao. Qiongfu duibi]
+M: 2/4
+L: 1/16
+K: F
+d2f2dcAc | d2d4c2 | f2dcA2c2 | d2c2A4
+d2Acd2c2 | A2c4A2 | A3cF2G2 | c2A6
+GAGFD2F2 | A2G2z2dd | dfdcc2A2 | c2AGF2G2
+z2A2F2G2 | c2A2c4 | G2AcG2F2 | D8
+S:https://www.folktunefinder.com/tunes/112525
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. qiongfu duibi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:18061
+T:Up in the Air
+Z: id:dc-jig-140
+M:6/8
+L:1/8
+K:B Minor
+A|FBB BAB|cBc AFE|FBB BAB|cBA B2A|!
+FBB BAB|cBc ABc|def edB|FBA B2:|!
+c|d3 e3|fdA BAB|d3 e3|fdA B2c|!
+d3 e3|fgf ede|fgf edB|FBA B2:|!
+S:https://www.folktunefinder.com/tunes/115299
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

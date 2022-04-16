@@ -1,0 +1,27 @@
+X:70
+T:Nancy's Fancy
+M:2/4
+L:1/8
+K:D
+dff2 | gee2 | g/2f/2e/2d/2 cd| e/2d/2e/2f/2 eA|
+dff2 | gee2 | g/2f/2e/2d/2 c/2d/2e/2c/2|ddd2:|
+|:dcBA | GFED | g/2f/2e/2d/2 cd |e/2d/2e/2f/2 eA|
+dcBA | GFED | g/2f/2e/2d/2 c/2d/2e/2c/2|ddd2:|
+L:1/16
+|: fdfd fdfd | gege gege | gfed c2d2 | edcB Aceg |
+fdfd fdfd | gege gege | gfed cdec | d2d2 d4 :|
+%%newpage
+%%vskip 1.5cm
+%%textfont Timesbold 25
+%%centre  4/4  REELS
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127809
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

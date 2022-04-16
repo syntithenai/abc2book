@@ -1,0 +1,27 @@
+X:120
+T:Star of David
+C:Ruth Anne Fraley, 1997
+N:For David Green
+L:1/4
+M:3/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=128
+K:Gm
+P:A
+|: D | "Gm"G2D | "^/"B2D | "Cm"c2B | "A7/C#"A2G | "D"^F2D | "D7/F#"ABc | "Gm"d2c | "^/"B2G |
+"Gm"d2G | "G7/B"g2f | "Cm"e2d | "Am"c2B | "D"A2D | "D7/F#"B2A | "Gm"G3- | "^/"G2 :|
+P:B
+|: G | "Cm"g2f | "F"efg | "Bb"fdc | "Gm"B2B | "Am"c2c | "D7"cBc | "Gm"d3- | "G7/B"d2d |
+"Cm"g2g | "F"gfe | "Bb"d2 "Bb/A"B | "Gm"G3 | "Cm"AEc | "D7/F#"B2A | "Gm"G3- | "^/"G2 :|
+S:https://www.folktunefinder.com/tunes/110167
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

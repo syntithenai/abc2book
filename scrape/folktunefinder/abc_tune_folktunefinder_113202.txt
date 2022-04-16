@@ -1,0 +1,31 @@
+X: 193
+T: Priscilla's Jig
+C: Bob McQuillen
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+D|:\
+"G"GAB ~BAB|GFE DGA|"C"~BAB "D"cde|"G"d3 Bcd|
+"C"{d}e2c "Am"ABc|"G"{c}d2B "Em"GAB|1\
+"Am"cde dcB|"D"~AFD cBA:|2"Am"AFD "D"cBA|"G"G3 G2||
+K: D
+|:A|\
+"D"AFA BAG|"F#m"Ade ~fAA|"Em"gAA fAA|"A"efe dcB|
+"D"AFA BAG|"F#m"Ade ~fAA|"Em"gAA "A"fAA|"D"edc d2:|
+S:https://www.folktunefinder.com/tunes/113202
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:5
+T: Zanmen de hongjun shi li zhong
+N: C0006
+O: China,Shaanxi, Shanbei
+S: I, 42]
+N: neues Volkslied
+N: Eine Verzierung.
+R: Shange, Xintianyou. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: G
+e4E4 | A2GAB4 | e4d2e2 | B8
+e4E4 | A2GAB4 | d2BAGBAG | E8
+S:https://www.folktunefinder.com/tunes/112432
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, xintianyou. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 136
+T: Three Sea Captains, The
+C: J-60
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"c2c "D"ecA| "G"B2B dBG| "Am"A2B c2B| ABG "D"FED|
+   "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"cec "D"A2c| "G"BdB G2F| "C"EcB "D7"AGF| "G"G3- G2 |]
+\
+d| "G"g2g dcB| "D7"ABc def| "G"g2g "Am"efg| "D"fdd d2d|
+   "Am"c2c ecA| "G"B2B dBG| "Am"A2B c2B| ABG "D"FED|
+   "G"G2G BGB| "D"c2A F2A| "G"G2A B2c| d2B G2B|
+   "Am"cec A2c| "G"BdB G2F| "Am"EcB "D"AGF| "G"G3- G2 |]
+%%text 9/1/98.  Formerly R-13
+S:https://www.folktunefinder.com/tunes/106891
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

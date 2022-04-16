@@ -1,0 +1,31 @@
+X:54
+T:OURGOOD- Our Goodman came hame at e'en. &c
+S:Scots Musical Museum, #454
+Q:160
+L:1/8
+M:2/4
+K:A
+"Recit."E A A A|A A .A c|"in time"B2c3/2A/2|F3 "Recit."E|\
+E A A A|A A Az/2"in time"c/2|B3/2A/2 B3/2 c/2|.A2c3/2d/2|\
+e2c f|{f}e2 c3/2 A/2|B3/2A/2 B3/2 c/2|.F3 "Recit."E|\
+E/2A3/2 A A|A2 A3/2 "in time"c/2|B3/2 A/2 B3/2 c/2|.A3
+"Recit."A|\
+A3z/2 A/2|.e3 E/2 E/2|E3z/2 E/2|.A2 "in time"c3/2d/2|\
+e2 c/2f3/2|e e c A|B3/2 A/2 c3/2 A/2|{G}F3 "Recit."E|\
+E A A A|A2 A "in time"c|B/2 A3/2 B3/2 c/2|.A3 "Recit."A|\
+E2 E3/2 E/2|.A2 zA/2 A/2|A2 A3/2 A/2|.e2 "in time"(c3/2d/2)|\
+e2c3/2 f/2|e2c3/2 A/2|B3/2 A/2 B3/2 c/2|.F3 "Recit."E/2 E/2|\
+E A A A|A2 A3/2 "in time"c/2|B3/2 A/2 B3/2  c/2|A4|]
+S:https://www.folktunefinder.com/tunes/127549
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/S2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/S2.ABC
+S:http://www.mudcat.org/olson/S2.ABC
+S:http://www.csufresno.edu/folklore/Olson/S2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/S2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

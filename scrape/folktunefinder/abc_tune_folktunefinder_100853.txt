@@ -1,0 +1,22 @@
+X:57
+T:Stack of Barley
+Z: id:dc-hornpipe-51
+M:C|
+L:1/8
+K:G Major
+gf|e2ed B2dB|A2AG AcBA|GFGA BABd|e2A2 A2Bd|!
+e2ed B2dB|A2AG AcBA|GFGA BdAc|B2G2 G2:|!
+GA|BGBd g2fg|agfg e2d2|g2fg edBd|e2A2 A2fg|!
+agfa g2fe|dBAG AcBA|GFGA BdAc|B2G2 G2:|!
+S:https://www.folktunefinder.com/tunes/100853
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

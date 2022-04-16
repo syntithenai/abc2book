@@ -1,0 +1,36 @@
+X:205
+T:the White Hart
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000302.html
+%%ID:00000302
+K:G
+P:1
+G2 d2 G2 ABcBAG | F2 A4 D2  F2 A2 | G2 d2 G2 ABcBAG | D2 G4 D2 F2 A2 ||
+P:2
+G2 g2 f2 efgfed | f2 A4 D2  F2 A2 | G2 g2 f2 efgfed | B2 G4 D2 F2 A2 ||
+P:3
+GABA GABA GABA  | f2 G4 D2  F2 A2 | GABA GABA GABG  | g2 G4 D2 F2 A2 ||
+P:4
+B4   c4   d4    | G2 ABcBAG F2 A2 | B4   c4   defd  | g2 G4 D2 F2 A2 ||
+P:5
+B4   c4   d4    | G2 ABcBAG F2 A2 | B2 d2 c2 e2 d2 f2|g2 G4 D2 F2 A2 ||
+P:6
+B2 AB c2 Bc defd| f2 A4 D2  F2 A2 | B2 d2 c2 e2 d2 f2|g2 G4 D2 F2 A2 |]
+S:https://www.folktunefinder.com/tunes/110757
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

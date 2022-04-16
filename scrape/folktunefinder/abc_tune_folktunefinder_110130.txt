@@ -1,0 +1,24 @@
+X:83
+T:The Mumping Maid
+C:Maggot Pie, 1932
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=106
+K:Dm
+P:A
+|: D | "Gm"GGBd | "Gm"g2 d3/e/ | "Bb"ff ed | "F"c/d/c/B/ AD |\
+"Gm"GGBd | "Gm"g2 d3/e/ | "Dm"ff "A7"eA | "Dm"d3 :|
+P:B
+|: e | "F"fg/f/FG | "F"ABcd | "Eb"_ef/e/ _EF | "G"G3A |\
+"Bb"BBdf | "Bb"b2f3/g/ | "D7"aag^f | "Gm"g3 :|
+S:https://www.folktunefinder.com/tunes/110130
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

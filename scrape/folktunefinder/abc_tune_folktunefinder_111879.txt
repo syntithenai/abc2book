@@ -1,0 +1,25 @@
+X: 1764
+T: A Prize For The Ladies
+M:C|
+L:1/8
+N:"collected by Casey"
+B:O'Neill's 1764
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+   ((3DEF) | GABG   AGEG  | c2 ce  dcAB | GABG  AGEG |  AGAB A2 ((3DEF) |
+             GABG   AGEG  | c2 ce  dcAB | Ggfe  dcAc | B2 G2 G2        :|
+|: ((3DEF) | GFGB d2 (de) |  fefg fe d2 | edef ed c2 |  Bgfe    dcBA    |
+             GFGB d2 (de) |  fefg  fedc | dgfe  dcAc | B2 G2 G2        :|
+S:https://www.folktunefinder.com/tunes/111879
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1701-1780_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

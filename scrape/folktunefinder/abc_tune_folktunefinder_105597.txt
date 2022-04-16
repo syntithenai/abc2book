@@ -1,0 +1,25 @@
+X:42
+T:Drucken Moll Knox
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:C
+B2 G>A GB (3dcB | c2 A>B cd (3edc |
+B2 G>A GB (3dcB | c>BAg (3fef g2 H ::
+g2 eg f2 dB | c2 Ac B2 G2 | 
+(3gfg eg (3fef dB | ced^c d2 ef | 
+g2 eg f2 dB | c2 Ac B2 G2 |
+(3gfg eg (3fef dB | ced^c d2  "Da Capo" =c2 :|
+S:https://www.folktunefinder.com/tunes/105597
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

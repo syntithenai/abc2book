@@ -1,0 +1,23 @@
+X:155
+T:Crabs in the Skillet
+Z: id:dc-jig-26
+M:6/8
+L:1/8
+K:G Dorian
+D|G3 d2F|G2A B2c|d_ed cBA|dcB AGF|!
+G3 d2F|G2A B2d|c=Bc fed|cAF F2:|!
+d|gag gfe|fgf fed|cde fed|cAG G2d|!
+gag gfe|fgf fed|cde fed|cAF F2:|!
+D|G3 A3|B3 c3|d_ed cBA|dcB AGF|!
+G3 A3|B3 d3|c=Bc fed|cAF F2:|!
+S:https://www.folktunefinder.com/tunes/128667
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

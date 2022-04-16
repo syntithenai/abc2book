@@ -1,0 +1,30 @@
+X:139
+T: Meir aide qinkuai ren
+N: C0230
+O: China,Sichuan, Anxian
+S: II, 246]
+N: Text- aber nicht Melodie- Variante.
+N: Mehrere Fermaten, Glissandi, Verzierungen und Dynamikbezeichnungen.
+R: Shange. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: G
+A4B4 | e3^de=ded | B6AG | E8
+A4B4 | e3^de=ded | B8
+A4E4 | B4A4- | A8 | c'4z4
+A8 | d2B2B2e2 | d6BAG | E4
+A2B2 | A2GE-E2AB | G2A2E4
+z2EEA2A2 | D2EGD2D2
+z2EEE2GE | E2A2E4 | d2B2e4 | d6BAG | E8
+z2GEE2^G=G | D2EGD2B,2 | c'4z4
+S:https://www.folktunefinder.com/tunes/112566
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

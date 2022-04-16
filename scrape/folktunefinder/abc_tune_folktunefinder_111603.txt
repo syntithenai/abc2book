@@ -1,0 +1,28 @@
+X:370
+T:Gravel Walk, The
+T:Gravel Walks, The
+R:Reel
+M:C|
+D:anop=B000001VOR(Dalriada Brothers: Farewell To Ireland)
+D:asin=B000005CQH(Altan: The Best Of Altan)
+D:asin=B000003IX7(Dave Swarbrick, et al: Smiddyburn/Flittin' [IMPORT])
+D:asin=B000005CO9(Rights of Man: The Rights Of Man: Concert For Joe Doherty)
+D:asin=B000005CSE(Matt Molloy: Stony Steps)
+D:asin=B000005CU8(Nomos: I Won't Be Afraid Anymore)
+D:asin=B000007NJ3(Macphee, et al: Heart Of Scotland: A Collection Of Traditional...)
+K:ADor
+A2eA BAeA|A2eA BAGB|A2eA (3Bcd ef|gedc BAGB::\
+A2aA gAfA|A2eA BAGB|1 A2aA gAfa|gedc BAGB:|2 ABcd efga|gedc BAGB\
+|:cAAG ~A3B|cA~A2 dBGB|cAAG A2ef|gedc BAGB::\
+c2gc acgc|c2ec BAGB|c2gc acga|gedc BAGB|\
+c2gc acgc|c2dc BAGB|1 ABcd efga|gedc BAGB:|2 Aa~a2 agef|gedc BAGB||\
+S:https://www.folktunefinder.com/tunes/111603
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

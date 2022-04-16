@@ -1,0 +1,29 @@
+X: 52
+T:Blue Rhine Waltz. GHW.052
+M:3/4
+L:1/4
+Q:60
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Waltz
+O:England
+A:Norfolk
+N:Pause sign at end
+Z:vmp.Taz Tarry
+K:C
+G|(e2e/f/)|(edc)|(G3|G)zG|(e2e/f/)|(edc)|(A3|A)zA|!
+(f2f/g/)|(fed)|(a3|a)z(g/a/)|(gag)|(fAB)|(c3|c)z:|!
+|:G|(g>g)g|(f/e/ed)|(c>c) c|(c/B/AG)|(d>d)d|(d/e/d)G|(c/B/c)d|(e2G
+)|!
+(g>g)g|(f/e/ed)|(c>c) c|(c/B/AG)|(A/B/cd)|(e/f/ga)|(g/a/g/f/
+e/d/)|c2:|
+S:https://www.folktunefinder.com/tunes/101469
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

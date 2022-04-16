@@ -1,0 +1,28 @@
+X:8
+T:Northern Lass
+C:Trad English
+Q:1/4=80
+S: Greg Stephens Collection
+M:6/8
+L:1/8
+K:C
+A2B c2d|e3/2d/2e g3|d2e g2e|d3/2B/2A G3|A2B c2d|
+e3/2f/2g a3/2_b/2a|g e2g/2e/2d/2B/2c|A3-A3:|
+[|g2a _b2a|g e2g3|d2e g2e|d3/2B/2A G3|
+g2a _b2a|g e2g3|e2d ef/2g/2a|g3-g3|
+a3_b2a|g e2g3|d2e g2e|d3/2B/2A G3|A2B c2d|
+e3/2f/2g a3/2_b/2a|g e2g/2e/2d/2B/2c|A3-A3|]
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119426
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

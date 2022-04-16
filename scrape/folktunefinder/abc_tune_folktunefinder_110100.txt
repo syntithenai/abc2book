@@ -1,0 +1,27 @@
+X:53
+T:Holborn March
+C:Johnson, 1740
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=108
+L:1/8
+K:G
+P:A
+|: "G"d4 "D7"d4 | "G"d6 cd | "C"e2d2 c2B2 | "D7"A6 D2 | "G"G2B2- "D7"B2A2 | "G"B2d2- "C"d2c2 | "G"B4 "D7"A4 | "G"G8 :|
+%%vskip 0
+P:B
+"D"a4 "A7"a4 | "D"a6 ga | "G"b2a2 g2f2 | "A7"e6 A2 | "D"d2f2- "A7"f2e2 | "D"f2a2- "G"a2g2 | "D"f4 "A7"e4 | "D"d8 |
+%%vskip 0
+P:C
+"G"d4 "D7"d4 | "G"d6 cd | "C"e2d2 c2B2 | "D7"A6 D2 | "G"G2B2- "D7"B2A2 | "G"B2d2- "C"d2c'2 | "G"b2ag "D7"a2f2 | "G"g8 |]
+S:https://www.folktunefinder.com/tunes/110100
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

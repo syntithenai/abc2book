@@ -1,0 +1,24 @@
+X:90
+T:Bog an Lochan 
+S:Sandy MacIntyre
+A:Cape Breton
+R:Strathspey
+M:C
+L:1/8
+K:Em
+F |: E/E/E E2 E>FB>F |E/E/E E2  {G}F<DA>F | E/E/E E2 E>FB>F|1 B<dA>d {G}F>DA>F:|2B<dA>d F>DD3/2||
+d/| B<EB>A B<EE>e | B<EB>A {G}Fd|B<EB>A {c}d>ef>e |{^c}d/c/B/A/ {c}d>A{G}F<DD3/2 :| 
+f/| e/e/e {f}e2 (e>f)(b>f) |e/e/e {f}e2 f>da>f | e/e/e {f}e2 (e>f)b>f |{f}g<eb>e ({^c}df/g/)a>f |
+{f}(g>e)(b>e) {f}(g<e)(b>e)|{f}(g<e)(b>e) ({^c}df/g/)a<f|{f}(g<e)(b<e) {^c}d>e(f>e) | {^c}d/c/B/A/  {c}d>A{G}F<DD3/2||
+d/| B<EB>A B<EE>e | B<EB>A {G}Fd|B<EB>A {c}d>ef>e |{^c}d/c/B/A/ {c}d>A{G}F<DD3/2 :|
+S:https://www.folktunefinder.com/tunes/122880
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

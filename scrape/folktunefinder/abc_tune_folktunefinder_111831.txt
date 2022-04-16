@@ -1,0 +1,25 @@
+X: 1716
+T: The Jolly Little Boy
+M:2/4
+L:1/16
+N:"collected by Cronin"
+B:O'Neill's 1716
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+   ((3ABc) | dcdA GFED | GEFD EDB,A, | DFEG FAGB | Adce dfeg |
+             fdAF GFED | DEFD EDB,A, | DFEG FAGB | Adce d2  :|
+|: ((3ABc) | dcdf edBA | dfaf  gfge  | dcdf ecAc | BAGA A2((3ABc) |
+             dcdg edBA | dfaf  gfge  | afge fdec | Agfe d2  :|
+S:https://www.folktunefinder.com/tunes/111831
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1701-1780_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

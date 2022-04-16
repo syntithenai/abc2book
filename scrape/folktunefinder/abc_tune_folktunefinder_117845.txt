@@ -1,0 +1,32 @@
+X:71
+T:Gan Ainm
+R:Jig
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+H:Sounds like a Scottish pipe tune turned into a jig.
+Z:Bernie Stocks
+M:6/8
+K:D
+DFA ~B2A | Adf a2g | fef Adf | afd e2f | AFA ~B2A | Adf a2g |
+fga ecA |1 d3 dcB :|2 d3 d2g || fga d2e | fed a2f | efe ABc |
+egf e2g |1 fga d2e | fed a2g | fga ecA | d3 d2e :|2 AFA ~B2A |
+Adf a2g | fga ecA | d3 dcB || Adf fef | Adf a2g | fef Adf | e3 e2g |
+Adf fef | afd B2g | fga ecA  |1 d3 dcB :|2 d3 dfg || afd Adf |
+fed B2d | Adf afd | e3 e2f | Adf fef | afd B2g | fga ecA | d3 dcB :|
+S:https://www.folktunefinder.com/tunes/117845
+S:http://ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book2.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book2.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://www.firepowr.com/abc/Book2.abc
+S:http://www.firepowr.com/abc/Book2abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book2.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

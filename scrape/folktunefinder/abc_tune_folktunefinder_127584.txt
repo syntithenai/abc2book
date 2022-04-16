@@ -1,0 +1,39 @@
+X:1
+T:Asleep At the Switch
+M:3/4
+L:1/4
+K:G
+ D| B A B| G2 G|
+M:2/4
+ B A|
+M:3/4
+ G2 E|
+M:4/4
+ D2 D G|
+M:3/4
+ G2 G| B2 G| A3|
+M:4/4
+ z2 z D|
+M:3/4
+ B2 B| A G G| A G E|
+M:4/4
+ D z z c/2c/2|
+M:3/4
+ B2 G/2G/2| A2 F| G3| z z G| G2 c| c c c| c B B| B2 B| A/2 A/2- A A|\
+ c B A| d3| z z B/2B/2| d d d| B- G G/2G/2| A G E| D2 c| B2 G/2G/2|\
+ A G F| G3| z z G| c c c| c2 c/2c/2| d B3/2 A/2| B2 B/2B/2| B A A|\
+ A2 B/2B/2| c B A| d3| z z B| d B d| B- G G| A G E| D2 D| G G G| G2 G|\
+ B A3/2 G/2| A3| z z B| d d d| B2 G| A G3/2 E/2| D2 D| G G c| B2 G|\
+ A G F| G3| z z G| G c c| c2 c| d B B| B2 B| A2 A/2A/2| c- B A| d3|\
+ z z B| d B d| B A G| A G E| D2 c| B2 G/2G/2| A G F| G3|
+S:https://www.folktunefinder.com/tunes/127584
+S:http://back.numachi.com:8000/dtrad/abc/ASLPSWTC.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ASLPSWTC.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

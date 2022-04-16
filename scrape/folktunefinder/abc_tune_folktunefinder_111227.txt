@@ -1,0 +1,29 @@
+X:5
+%%pageheight 11in
+%%topmargin 1 in
+%%leftmargin 1 in
+%%staffwidth 6.5 in
+%%botmargin 1 in
+%%-g shrink
+T:XIIII. What is our life
+T:BASSUS. 
+T:From The First Set of Madrigals and Mottets of 5.Parts: 
+T:apt for Viols and Voyces. 1612.
+N:Poet, Walter Raleigh 1552-1618
+C:Orlando Gibbons 1583-1625
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -24
+M:C|
+L:1/4
+K:D min bass
+z8 z8 z8 z4 d8 G G f3 e/ d/ e d ^c2 d2 A8 A4
+S:https://www.folktunefinder.com/tunes/111227
+S:http://www.laymusic.org/music/gibbons/life/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

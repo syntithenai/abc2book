@@ -1,0 +1,24 @@
+X:5
+T: Bank of Ireland
+M: 4/4
+L: 1/8
+R: Reel
+K: DMix
+ed|c2 AB cABG|EGDG EGAB|c2 AB cABG|Add^c dfed|
+c2 AB cABG|EGDG EGAB|c2AB cABG|Add^c d2 ||
+K: D
+e2|f2 df e3 c|dfed cAAg|fedf e2 fg|afge d2 cd|
+eaag egfe|dfed cAGB|Addc defg|af (3gfe d2 ||
+S:https://www.folktunefinder.com/tunes/114447
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

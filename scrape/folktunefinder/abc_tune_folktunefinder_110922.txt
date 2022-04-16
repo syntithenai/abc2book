@@ -1,0 +1,24 @@
+X:1
+T:I. See, Myne Owne Sweet Jewell
+O: Canzonets, or Little Short songs to three voyces
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+C: Thomas Morley
+N:Original clef treble
+N:Range E to g
+M:C
+L:1/4 
+K:C
+T: Cantus
+%1
+  B4   B2   d    c2   B     A2   B2 z   d   d    d     e2  d2  z B    c   A\
+S:https://www.folktunefinder.com/tunes/110922
+S:http://www.laymusic.org/music/morley/jewel/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

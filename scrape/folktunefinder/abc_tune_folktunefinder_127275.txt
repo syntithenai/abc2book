@@ -1,0 +1,23 @@
+X: 27
+T:Tarbolton
+N:Simple Version
+M:C
+L:1/8
+K:EMinor
+E2 eB e2 BA| GBAF AGFE| D2 d^c d2 AG| FDAG FDDF|
+EBed efge| fedf edBA| GABG FGAc| BGAF GEED :|
+|: gfef gfbe| gebe gfe^c| d2 fd adfd| BdAG FDDF|
+G2 BG F2 AF| EGef gfed| B2 dB AFAc| BGAF GE E2 :|
+S:https://www.folktunefinder.com/tunes/127275
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

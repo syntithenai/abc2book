@@ -1,0 +1,27 @@
+X:34
+T:Lennox Love to Blantyre
+R:strathspey or reel
+% for strathspey set more dotted rhythms would be added
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 1131 2266
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C|
+K:F
+C|F/F/F F>G TA>GFA|G/G/G GA d>cdf|F/F/F F>G TA>GFA|GAFC D/D/D D:|
+|:f|cdfg agfa|gfga g>fdf|cdfg agfa|gfba Tg2 ff|
+cdfg agfa|gfga g>fdf|c/c/c af gfba|gfba Tg2 f|]
+S:https://www.folktunefinder.com/tunes/129719
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey or reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

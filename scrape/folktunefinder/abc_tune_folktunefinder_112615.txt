@@ -1,0 +1,33 @@
+X:188
+T: Xiu hebao
+N: C0311
+O: China,Shandong, Huangxian
+S: III, 375]
+N: Vereinzelt Verzierungen, Glissandi.
+N: Variante zu I, 57, 1)! Die Xiao ist aber hier typischer, weil
+N: nicht veraendert wurde.
+R: Xiaodiao, Xiuhebao diao. Nann siqing]
+M: 2/4
+L: 1/16
+K: F
+d4d2c2 | d4d2f2 | A4f2d2 | c8
+c2d2f2ge | d2c2A4 | G8- | G8
+A6c2 | d4f4 | c4d4 | G8 | c2d2c2A2 | G4c4 | A6G2 | A8
+G6A2 | c4f4 | G6A2 | F4E4 | D6C2 | D8
+g4e4 | d4c2d2 | f6d2 | c8
+A2G2A2f2 | d2c2A4 | G8
+A6c2 | d4f4 | c4d4 | G8 | c3dc2A2 | G2A2B4 | A6G2 | F8
+G6A2 | c4f4 | G6A2 | F4E4 | D6C2 | D8
+S:https://www.folktunefinder.com/tunes/112615
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, xiuhebao diao. nann siqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

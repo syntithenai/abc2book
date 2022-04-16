@@ -1,0 +1,28 @@
+X:13
+T:The Dougal Creature
+R:jig
+C:James Fraser
+O:19th century Scottish
+D:Allie Bennett, It's About Time
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:288
+K:D
+B|AFD DFG|AFD D2 B|AFD DFA|BGE E2 B|
+AFD DFA|Bcd AGF|GAB ABc|dAF D2:|
+|:f|afd dcd|Bcd Adf|afd fed|cAA A2 f|
+[1afd dcd|Bcd AGF|GAB ABc|dAF D2:|
+[2agf gfe|fed edc|Bcd ABc|dAF D2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/116944
+S:http://cranfordpub.com/tunes/abcs/allie.abc
+S:http://www.cranfordpub.com/tunes/abcs/allie.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

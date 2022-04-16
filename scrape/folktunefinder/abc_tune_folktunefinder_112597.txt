@@ -1,0 +1,30 @@
+X:170
+T: Xiu hongdeng
+N: C0289
+O: China,Liaoning, Geixian
+S: III, 198]
+N: Text neu. Melodie traditionell.
+N: Die beiden letzten Takte der 5. Strophe sind eine Oktave hoeher notiert
+R: Xiaodiao, Shidiao, Xiuyunjian diao, Jiandianhua diao Xin minge]
+M: 2/4
+L: 1/16
+K: D
+d2d2A2B2 | A2A4BA | F2F2EDEF | A8
+d3ef4 | e4d4 | B2A2F2EF | A2A2^GAB2 | A8
+B2B2B2AB | d2d2B2A2 | F2F2F2B2 | A3BA2F2
+E3^DE2E2 | z2A4E2 | F3AF2E2 | D2D4E2 | D8
+B3AB2e2 | d2B2A2F2
+E3^DE2E2 | z2A4E2 | F3AF2E2 | D2D4E2 | D8
+S:https://www.folktunefinder.com/tunes/112597
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, xiuyunjian diao, jiandianhua diao xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,53 @@
+X:6
+T:Joskvarnsleken
+R:vals
+Z:taught by Roger Tallroth at Ramblewood (199)
+M:3/4
+L:1/8
+K:D
+| "D"d3 edc \
+| "D"d2 c2 "A"Ac \
+| "G"c2 B2 G2 \
+| "D"A2 F2 D2 \
+| "D"D6 \
+| "D"D6 \
+| "D"d3 edc \
+| "D"d2 c2 "A"Ac \
+| "G"c2 B2 G2 \
+|[1 "A"A6 \
+| "A"A6 \
+:|[2 "D"A6 \
+| "A"A4 FG ||
+| "D"A3 BAG \
+| "D"F2 D2 FA \
+| "A"E2 C2 EG \
+| "D"F2 DEFG \
+| "D"A3 BAG \
+| "D"F2 D2 FA \
+| "A"E2 C2 C2 \
+|[1 "D"D4 FG \
+:|[2 "D"D6 \
+| D6 ||
+P:B Alternative
+K:Dmix
+| "D"A3 BAG \
+| "D"F2 D2 FA \
+| "C"E2 C2 EG \
+| "D"F2 DEFG \
+| "D"A3 BAG \
+| "D"F2 D2 FA \
+| "C"E2 C2 C2 \
+|[1 "D"D4 FG \
+:|[2 "D"D6 \
+| D6 |]
+% Output from ABC2Win Version 2.1 f on 3/15/98
+S:https://www.folktunefinder.com/tunes/114306
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

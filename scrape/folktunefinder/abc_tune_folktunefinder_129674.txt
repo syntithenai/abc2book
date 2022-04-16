@@ -1,0 +1,28 @@
+X: 1
+P: The Balmoral Strathspey
+Z: John Chambers <jc@trillian.mit.edu>
+N: RSCDS-22
+N: Does this have a different name
+R: strathspey
+M: 4/4
+L: 1/8
+K: A
+|: E \
+| "A"C>A E>A "D"F<A "A"E>c | "Bm"d>B {d}c>{B}A "E7"Gc \
+| "A"C>A E>A "D"F<A d>f | "A"(3ecA "E7"(3EdB "A"c<A A :|
+[| d \
+| "A"c>A a>e "D"f<a "E7"e>g | "A"a>e c>A "E7"Gd \
+| "A"c>A a>e "D"f<a "E7"e>f | "A"(3ecA "E7"(3EdB "A"c<A A>d |
+| "A"c>A a>e "D"f<a "E7"e>g | "A"a>e c>A "E7"Gc \
+| "A"(3AEA (3cAc "F#m"(3ece "D"(3agf | "A"(3ecA "E7"(3EdB "A"c<A A |]
+S:https://www.folktunefinder.com/tunes/129674
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/BalmoralStr.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/BalmoralStr.txt
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

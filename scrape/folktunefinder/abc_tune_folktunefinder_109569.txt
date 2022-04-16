@@ -1,0 +1,87 @@
+X:8
+T:Courante 8
+C:Bacheler
+L:1/4
+M:none
+K:FM frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+d1|[ac1],,d[bd] |\
+[d,,f1]>,,d[d,e1] |\
+[f,d1],,,a{a} |\
+[,dedb2][a,,,a/]b |\
+[d,,a,d2][f,,,,c1] |\
+[dde,,d1][bdda2] |\
+[acd2],,,,a1 |\
+{,,a}2[,dda1] |\
+[a,d,e1],,,,a[bdda] |\
+[d,,a,d1]>,,,,a[d,,,b1] |\
+[f,dca2]{,,a}1 |
+% Takt 12
+[,dedb2][a,,,a/]b |\
+[da,a,d2][acd,a1] |\
+[bdd{a}1][a,dca]>,d |\
+[,dda2],,,a1 |\
+{a}2f1 |\
+[fdda2][d,,c1] |\
+[bd,d1]>,,,c[b,,a1] |\
+[d,,,d1],,,a[d,,,b] |\
+[f,dca2]{,,a}/d |\
+[b,e,b1],d,,,,a |\
+[dde,,d2]{a}1 |
+% Takt 23
+[bdda1][a,dca]>,d |\
+[,dda{a}1]>abd |\
+f/,,,c,,,d,,,a[db],,e |\
+[b,d/],,b,,,d,,,c,,,a,d |\
+[a,,,d/]bda[b,,,b]d |\
+[f,,,a/],,,,c,,,,d,,,,a,,,a,,,,d |\
+[b,,,b/],,,,d,,,a,,,,d[,d,,b],,,,a |\
+[ddeffd2]{a}1 |
+[bdda1][a,dca]>,d |\
+% Takt 32
+[,dda{a}2][,,,af1] |\
+[,,,ce1],,,,a[,,,df] |\
+[,,ba,d1]>,,,,a[,,b,b1] |\
+[,,dca1]{,,a}/,,b,,,d,,,c |\
+[,,,ab/],,,c,,,d,,,a[,,,ca],,,d |\
+[,,ba,d3/],,a//,,b [,,d,,c1] |\
+[,,b,,d1][,,,da{a}3/],,,f//,,,d |
+[,,,ca{,,a}1]>,,,a,,,,e,,,,c |\
+% Takt 40
+,,,,a/,a,c,dab |\
+[ac1],,d[bd] |\
+[d,,f1]i/gf,i |\
+[fcd1]>dba |\
+[,d,,b/]ab,d[a,,,a]b |\
+[d,,,,d1]f/d[b{a}]a |\
+[b,,a1][a,d,a]>,d |\
+[,dd{a}2],,,a1 |
+{a}1f,,,c |\
+[f,,d1],,,a[db] |\
+[b,d1]>,d[bb1] |\
+% Takt 51
+[d,e1],,b[db] |\
+[f,,d1],,,a,,,,d |\
+[b,,,b1][,de],,,,a |\
+[dde,,d2]{a}1 |\
+[bdda1][a,dca]>,d |\
+[,dd{a}2],,d1 |\
+,,d1{a}[,,b,,a] |
+[,,,d,b1]{a}{,b} |\
+% Takt 59
+[,,b{,,b}1],,,,,d[,,b,d] |\
+[,,d,a1],,,a[,,dce] |\
+[,,,df1][,,,ab],,,,a |\
+[ddeffd2]{a}1 |\
+[bdda1][a,dca]>,d |\
+[,dda{a}2],,,a1 |]
+S:https://www.folktunefinder.com/tunes/109569
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

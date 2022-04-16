@@ -1,0 +1,23 @@
+X: 30
+T:Mrs Blair's Jig
+M:6/8
+L:1/8
+R:Jig
+K:G
+B/2c/2|"G"dBG GBG|"D"AFD DFD|"C"EFG "D"ABc|"G"BAG "D"FED|
+"G"dBG "Em"GBG|"D"AFD DFD|"C"EFG "D"AFD|"G"G3-G2::Bc|
+"G"dBd dBd|"C"gfg "G"dBG|"C"cec "G"BdB|"Am"ABG "D"FED|
+"G"dBd dBd|"C"gfg "G"dBG|"C"EFG "D"AFD|"G"G3-G2:|
+S:https://www.folktunefinder.com/tunes/119768
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

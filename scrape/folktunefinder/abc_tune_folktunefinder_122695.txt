@@ -1,0 +1,24 @@
+X:11
+T:Big Swing
+Z:Dave Holland dave@biff.org.uk
+M:4/4
+L:1/8
+K:G
+P:A - figure
+"G"G2BB G2B2|"D"AGFG A2d2|"G"G2BB G2B2|"D"AGFE D2EF|
+"G"G2BB G2B2|"D"AGFG A2d2|"G"BdcB "D"AcBA|1"G"G2B2 GDEF:|2"G"G2B2 G2"B"F2||"last time G"G2B2 G2z2||
+P:B - chorus
+K:Em
+"Em"EFGF E2B2|"Em"EFGF E2B2|"Am"c2Ac "G"B2GB|"D"AGFG A2GF|
+"Em"EFGF E2B2|"Em"EFGF E2B2"*"|"Am"c2Ac "G"B2GB|"D"AGFG "Em"E2"D"F2||
+S:https://www.folktunefinder.com/tunes/122695
+S:http://www.biff.org.uk/dave/molly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:5945
+T:Gan Ainm
+R:hornpipe
+S:Tommy Peoples & Dermot Byrnes
+H:
+N:
+D:Concert, Galway 
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:F
+FcAF EBGE|CAFC A,FCA,|B,DFB A,CFA|GFED C2DE|\
+FcAF EBGE|CAFC A,FCA,|B,DGB ACEG|F2EG F4:||\
+AFcA fcAF|GEcG ecGE|DB,DB dcBA|GFED C2DE|\
+FAcf (3ecG Ee|(3dBF Dd (3cAF C=B,|B,DGB ACEG|F2EG F4:||
+S:https://www.folktunefinder.com/tunes/101843
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

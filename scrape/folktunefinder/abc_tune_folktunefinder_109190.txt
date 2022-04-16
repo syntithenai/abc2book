@@ -1,0 +1,25 @@
+X:50
+T:Cairn on the Moor
+% Nottingham Music Database
+S:CDM
+M:3/4
+L:1/4
+K:G
+G/2A/2|"G"B3/2A/2B|"Em"G3/2F/2G|"D7"A3/2G/2A|"G"B2G|"Em"B3/2A/2B|"G"G3/2F/2G|\
+"C/e"g"d"f"c"e|"G/b"d2"D7/a"c|
+"G"B3/2A/2B|"Em"G3/2F/2G|"D7"A3/2G/2A|"G"B2G|"C"efg|"G"d3/2c/2B|"D7"cBA|\
+"G"G2"D7"D||
+"G"g3/2f/2g|"G/b"gdB|"C"edB|"G"dB"f#"G|"Em"g3/2f/2g|"G"gdB|"C"edB|"D"A3|
+"Em"g3/2f/2g|"G"gdB|"C"edB|"G"dBG|"C"efg|"G"d3/2c/2B|"D7"cBA|"G"G2||
+S:https://www.folktunefinder.com/tunes/109190
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

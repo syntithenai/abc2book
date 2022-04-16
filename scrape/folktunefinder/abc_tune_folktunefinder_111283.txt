@@ -1,0 +1,33 @@
+X:52
+T:Drumul Carutelor
+O:rumania
+C:Roemenie
+M:4/4
+L:1/8
+Q:1/4=76
+K:Am
+V:1
+"Am" cd ee fe ea |aa aa "Dm" ba "E7" aa |"Am" e8 :| |:"C7" ag ga/b/ "F" a4 |
+"A7" gf ed "Dm" d3 f|"E7" e dc B"Am" A2 "Dm" d2 |
+M:3/4
+"F" cd "E7" ed cB |
+M:4/4
+"Am" A8 :|
+V:2          %2e stem
+A2 E,2 A,2 E,2 |A,2 E,2 D,2 E,2 |A,2 E,2 A,2 E,2 :| |:C,2 E,2 F,2 C,2 |
+A,2 ^C,2 D,2 A,2 |E,2 ^F,^G, A,2 D,2 |
+M:3/4
+F,2 E,2 ^G,2 |
+M:4/4
+A,2 E,2 A,2 E,2 :|
+S:https://www.folktunefinder.com/tunes/111283
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

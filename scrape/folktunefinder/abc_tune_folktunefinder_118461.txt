@@ -1,0 +1,28 @@
+X:1
+T:Angeline the Baker 1
+R:reel
+M:C|
+L:1/8
+K:D
+dB |: "D"A2B2 d3A | B2 d4 dB | A2B2 dBA2 | "G"B6 dB |
+      "D"A2B2 d3e | f2e2 d3e | f2e2 "G"d2B2 |\
+   [1 "D"A3B A2dB :|[2 "D"A3B A2fg ||
+|: "D"a2f2 e2de | f2e2 d2fg | a2f2 e2d2 | "G"B3B B2fg |
+   "D"a2f2 e2de | f2e2 d2de | f2e2 "G"d2B2 |\
+   [1 "D"A3B A2fg :|[2 "D"A3B A2z2 |]
+N:Fiddlers Fakebook, pg 22 - abc by Peter Ostapenko.
+N:SDFH CB: Part B - 5th measure D chord added.
+N:Last update - PO 3/14/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/118461
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/AngelineTheBaker1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

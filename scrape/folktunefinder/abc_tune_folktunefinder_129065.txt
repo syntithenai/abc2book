@@ -1,0 +1,19 @@
+X: 1
+T: Atholl Higlanders Balkan Version
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+c/d/ |: &quot;A&quot;e3 ecA  | ecA &quot;Gm&quot;Bcd  |1 &quot;A&quot;e3 e>cA  | &quot;Gm&quot;Bcd cBA :|2 &quot;A&quot;e-<ae &quot;Dm&quot;fed | &quot;Gm&quot;cdB &quot;A&quot;A2 :|
+c/B/ |: &quot;A&quot;A>ce Ace | &quot;Dm&quot;A>df Adf |1 &quot;A&quot;A>ce Ace | &quot;Gm&quot;Bcd c2B :|2 &quot;A&quot;e-<ae &quot;Dm&quot;fed | &quot;Gm&quot;cdB &quot;A&quot;A2 :|
+ e   |: &quot;A&quot;a2e edc  | a2e edc      |1  a2e edc    | &quot;Gm&quot;Bcd cBA :|2 &quot;A&quot;e-<ae &quot;Dm&quot;fed | &quot;Gm&quot;cdB &quot;A&quot;A2 :|
+ B   |: &quot;A&quot;c>Ac cAc | &quot;Gm&quot;d-<Bd dBd |1 &quot;A&quot;c-<Ac cAc | &quot;Gm&quot;B-<GB Bcd :|2 &quot;A&quot;e-<ae &quot;Dm&quot;fed | &quot;Gm&quot;cdB &quot;A&quot;A2 :|
+S:https://www.folktunefinder.com/tunes/129065
+S:http://www.thesession.org/tunes/display/5736
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 26
+T: Ebeneezer
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:Bc|\
+"G"dBdB G2Bc|dBdB G2Bc|"Em"d2gd f g3|"Am"a3ba2AB|
+"D"cBAG FGAB|cBAG FGAd|"G"gedc "D"BGAF|"G"G2~G2G2:|
+|:(3def|\
+"G"g2g2~g4|gb2ab2 (3def|g2g2~g4|"Em"gb2ab2g2|
+"Am"agbg ageg|agbg agef|"D"gedc BGAF|"G"G2~G2G2:|
+S:https://www.folktunefinder.com/tunes/113035
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

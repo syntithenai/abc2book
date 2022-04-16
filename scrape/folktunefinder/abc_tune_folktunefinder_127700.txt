@@ -1,0 +1,25 @@
+X: 8
+T:Stack's Hornpipe (#313)
+M:4/4
+L:1/8
+S:Patrick Stack, Chicago
+R:Hornpipe
+K:D
+(3ABc|d2 (3cBA BFAF|DFAF G2 (3FED|FAdc Bdgf|(3efe (3dcB A2 (3ABc|
+dBcA BFAF|DFAF GFED|FAdf (3efe ce|dfec d2:|
+|:ec|Acec Acec|Adfd Adfd|Acef gfgf|(3efe (3dcB A2 (3ABc|
+dBcA BFAF|DFAF GFED|FAdf (3efe ce|dfec d2:||
+S:https://www.folktunefinder.com/tunes/127700
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-7.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/StacksHornpipe313.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0313.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

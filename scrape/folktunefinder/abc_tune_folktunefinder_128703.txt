@@ -1,0 +1,19 @@
+X:335
+T:Jackie Small's
+Z: id:dc-jig-58
+M:6/8
+L:1/8
+K:C Major
+EC|D3 BDD|ADD GEC|D3 BcB|AGE GEC|!
+D3 BDD|ADD GAB|cee dcA|AGE G:|!
+cd|ece dBd|dcA GAc|ece dBd|dcB A2c|!
+ece dBd|dcA GAB|cee dcA|AGE G:|!
+S:https://www.folktunefinder.com/tunes/128703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:4835
+T:Enrame de Tinu (CT 143)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin del ramo, transcrita en Cangas de Tinu.
+N:Era cantada por ocho muchachas en la siguiente forma: cuatro, provistas de sendos panderos adornados con cintas, entonaban los dos primeros versos de la cuarteta, que eran contestadas por las otras cuatro, al mismo tiempo que con grandes castauelas marcaban constantemente la medida de la meloda;
+N:cantaban las primeras los restantes versos, y eran contestadas por las segundas, y as todas las dems coplas, las cuales no encerraban un pensamiento comn que las uniera entre s: eran coplas sueltas que muchas veces ni siquiera hacan referencia al ramo.
+O:Cangas de Tinu (Tinu)
+A:Asturies
+Z:Cancioneru de Torner 143
+M:3/8
+L:1/8
+Q:3/8=80
+W:Esti ramu ta enramado,
+W:menaya quien lu enram,
+W:lu enramaron las doncellas,
+W:la Virgen les ayud.
+K:G
+|:Gc2|B2A|GB2|B2B|Gc2|B2A|GF2|G3:|
+S:https://www.folktunefinder.com/tunes/123618
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

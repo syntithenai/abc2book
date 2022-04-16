@@ -1,0 +1,24 @@
+X: 5
+T:L'Autre Bout de la Table
+M:3/4
+L:1/8
+C:Blanchard
+S:French Creek
+K:D
+DE|F3ED2|B2A2d2|c2A3B|A2d2c2|F2B2A2|d2c2A2|B2A3G|A4DE|!
+F3ED2|B2A2d2|c2A3B|A2d2c2|F2B2A2|G3FG2|A3Bc2|d4:||!
+|:ef|g3fe2|B2G2de|f2e2d2|AFD2F2|E3FG2|A4ed|c2A3B|!
+A4ef|g3fe2|B2G2de|f2e2d2|AFD2F2|E3FG2|A4B2|A3Bc2|d4:||
+S:https://www.folktunefinder.com/tunes/130289
+S:http://michel.bellon.free.fr/Musique/abc/frchcrk.abc
+S:http://pineycreekweasels.net/andy/tunes/frchcrk.abc
+S:http://www.pineycreekweasels.net/andy/tunes/frchcrk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

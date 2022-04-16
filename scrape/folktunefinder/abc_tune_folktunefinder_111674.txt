@@ -1,0 +1,26 @@
+X:725
+T:Job of Journeywork, The
+M:C|
+R:SetDance
+Z:O'Neill's
+D:asin=B000001O9O(Traditional(Composer), et al: Following the Moon / Ensemble Galilei)
+D:asin=B00000284K(The Chieftains: The Best Of The Chieftains)
+D:asin=B000002ACX(The Chieftains: Chieftains 8)
+K:D
+fe|dcAG FGAB|(3=cBA BG A2 {fa}fe|d2{e}dc {e}dcAF|GBAF DEFG|\
+(3ABA GA FGEF|DCDE ~F3G|AD {e}(3dcd cdec|d2{e}dcd2::de|\
+(3faf ef gfef|dedc ABde|(3faf ef gfec|dedc A2 fg|\
+agfa gfec|~d3e f2 ec|dcAG FGAB|(3=cBA BG A2 fe|\
+(3ded (3cdc (3BAG AF|DCDE ~F3G|Ad {e}(3dcd cdec|d2{e}dcd2:|
+S:https://www.folktunefinder.com/tunes/111674
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Setdance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

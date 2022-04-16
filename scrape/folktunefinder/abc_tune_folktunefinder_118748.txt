@@ -1,0 +1,29 @@
+X:19
+T:Le quadrille de Neuville
+R:
+S:
+N:variante possible avec | B>B d>d | c>B A2 |  la place de | B>B d>d | c>c A2 | dans la partie "c"
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+P:aaaabbbbcc
+M:2/4
+L:1/8
+Q:1/4=135
+K:C
+P:a
+GB | d2 d/c/B/A/ |1 cB :|2 G2 z :: 
+P:b
+BG/B/ dB | BA AG | BGB dB | BA G2 :|
+P:c
+B>B d>d | c>c A2 | d>c B>A | B2 G2 | B>B d>d | c>c A2 | d>c B>A | G2 G z ||
+S:https://www.folktunefinder.com/tunes/118748
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

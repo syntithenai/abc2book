@@ -1,0 +1,27 @@
+X:5
+T:The Roaring Barmaid
+T:B part harmonies
+R:jig
+D:
+Z:Translated to abc by Debbie Knight
+L:1/8
+M:6/8
+K:G
+P:1st Harmony
+GGB d3|dcd GGB| d3 dcB|GGD GGB |d3 dcd|
+cBB dBB| cBB GAB| GGB cAG:|"go out on"D6 |]
+P:2nd Harmony
+Bcd g3 |geg Bcd |g3 ged |cBG Bcd | g3 geg |
+edd gdd |edd Bcd | Bcd gfd:|"go out on"B6 |]
+%%text 1/25/06
+S:https://www.folktunefinder.com/tunes/107229
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/jig/Roaring_Barmaid.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 36
+T:Redesdale Hornpipe
+M:4/4
+L:1/8
+Q:144
+R:Hornipe
+K:G
+(3def|"G"g>dB>d G2 (3def|"G"g>dB>d G2 A>B|"D"c>AF>A D>FA>c|"D"e>d ^c>d "
+G"B2(3def|!
+"G"g>dB>d G2 (3def|"G"g>dB>d G2 A>B|"D"c>AF>A D>FA>B|"G"A2 G2 G2:|!
+G>A|"G"B>G F<G D>G F<G|"G"B>G F<G D2 A>B|"D"c>AF>A D>FA>c|"D"e>d ^c<d "G
+"B2G>A|!
+"G"B>G F<G D>G F<G|"G"B>G F<G D2 A>B|"D"c>AF>A D>FA>B|"G"A2 G2 G2:||
+S:https://www.folktunefinder.com/tunes/99853
+S:http://home.usit.net/~bhooper/scot2.abc
+% Rhythm Hornipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

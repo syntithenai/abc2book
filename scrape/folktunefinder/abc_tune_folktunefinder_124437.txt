@@ -1,0 +1,43 @@
+X:5 
+T:Variation no. 5 
+C:J.S.Bach 
+M:3/4 
+L:1/16 
+Q:450 
+V:2 bass 
+K:G 
+[V:1] zDEF GFGA BAGB |AGFE DEFG AFED |GFED ^CDEF GBAG | 
+[V:2] G,2z2 [K:treble]B2z2 [K:bass]G,4 |F,2z2 [K:treble]A2z2 [K:bass]F,4 |E,2z2 [K:treble]G2z2 [K:bass]E,4| 
+% 
+[V:1] FED^C DA,DE FDFA |dBAB GBAB DGFG |EGDG CGB,G A,GB,G| 
+[V:2] D,2z2 [K:treble]F2z2 [K:bass]D,2=C,2 |B,,2z2 [K:treble]d2z2 [K:bass]B,,4 |C,2z2 [K:treble]e2z2 [K:bass]C,4| 
+% 
+[V:1] CGB,G CFEF DFCF |B,GFE DCB,A, G,2z2 |b2z2 G2z2 b4| 
+[V:2] D,2z2 [K:treble]A2z2 [K:bass]D,4 |G,,2z2 [K:treble]B4- BAGF |GB^cd efed cBAG| 
+% 
+[V:1] a2z2 F2z2 a4 |gfe^d eg=dg ^cgBg |^cgeg A2g2f2~g2| 
+[V:2] FAB^c dedc BAGF |E2F2G2B2 Me4- |e2d2 ^ceBe AeGe| 
+% 
+[V:1] a2E2F2f2g2a2 |b2F2E2g2a2b2 |e2G2[K:bass]A,2E2^C2A,2|D,2[K:treble]D2F2A2 d4 :| 
+[V:2] Fed^c dADd EdFd |Ged^c dBEd FdGd |Ad^cB ceAc EGFE |FADF [K:bass]A,DF,A, D,4 :| 
+% 
+[V:1] |:f2z2 D2z2 Of4 |g2dg a2da b2g2 |e2c2A2g2 f/e/^de2- |e2^d2 z2 [K:bass]A,2PG,2F,2| 
+[V:2] |:[K:treble]zd=cB AGFE DcBA |BGFE DCB,A, G,GAB |cded cBAG ABcA |BABF B,^C^DE FGAF| 
+% 
+[V:1] E,2z2 [K:treble]e2z2 [K:bass]OD,4 |C,2z2 [K:treble]e2z2 [K:bass]OA,,4 |B,,2z2 [K:treble]g2f2e2^d2 |e2z2 [K:bass]E,4- E,=D,C,B,,| 
+[V:2] GBGE GBGE GBGE |AcAE AcGE FcFE |GBGE B,BAB GBFB |GEGB eBGB E2z2 [K:bass]| 
+% 
+[V:1] C,E,D,E, A,E,D,E, CA,G,A, |FA,G,A, [K:treble]GDCD BGFG |edcd fdcd gdcd |adcB cBAG Fagf| 
+[V:2] E2z2 C,2z2 E4 |D2z2 B,,2z2 D4 |C2B,2A,2G,2F,2E,2|F,2G,A, D,4- D,CB,A,| 
+% 
+[V:1] g2B2 z2[K:bass]=F,2E,2D,2 |C,CB,C [K:treble]DCEC ^FCGC |ACB,A, B,2d2[K:bass]D,2[K:treble]c2 |BGDG BGdB g4 :| 
+[V:2] B,G,F,G, A,G,B,G, CG,DG, |E2G,2 z2B,2A,2G,2 |F,[K:treble]DEF GDB,G, A,CGF |G2[K:bass]G,2D,2B,,2 G,,4 :|
+S:https://www.folktunefinder.com/tunes/124437
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

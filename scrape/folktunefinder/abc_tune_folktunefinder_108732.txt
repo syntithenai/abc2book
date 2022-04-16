@@ -1,0 +1,30 @@
+X:7225
+T:Hornpipe,A. JC.182
+M:C|
+L:1/8
+Q:120
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Hornpipe
+O:England
+A:Northamptonshire
+N:
+N:No TS given: 2/4 adde
+Z:P Headford
+K:D
+f2((3efg) fdAG|FAdf cecA|FAdf gbef|gfed ceA2|!
+f2((3efg) fdAG|FAdf cecA|FAdf gbag|fgecd4:|!
+|:a2fg afdf|gbed dcBA|dggb affa|gfed dcBA|!
+AB/c/ dA BGAF|gfed dcBA|BGFG ABAg|fgecd4:|]
+S:https://www.folktunefinder.com/tunes/108732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

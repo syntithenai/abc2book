@@ -1,0 +1,31 @@
+X:22
+T:Lord Eglinton's Reel
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/5/04
+N:Petrie's Second Collection, page 8
+% Gore's Index gives earliest publication as Robert Bremner's
+% "Collection of Scots Reels or Country Dances..." 1751
+L:1/8
+M:C
+R:Reel
+K:Bb
+B|FB (d/c/B) FBDB|FB (d/c/B) cCCB|FB (d/c/B) FBDF|E(GTF>E) DB,B,:|
+% Petrie shows the last 2 notes in the last measure above
+% as C naturals, but this doesn't match the chords in the bass line -SW
+f|dfBf       dfbf|dfBd       cFFf|dfBf       dfbf|G(eTd>c) dBBf|
+  dfBf       dfbf|dfBd       cFFf|gecg       fdBf|ecAe     dBB|]
+S:https://www.folktunefinder.com/tunes/128285
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Lord_Eglintons_Reel.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/22.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

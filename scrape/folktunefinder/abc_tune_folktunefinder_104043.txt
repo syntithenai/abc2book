@@ -1,0 +1,22 @@
+X:3
+T:Belle qui tiens ma vie
+M:C|
+R:Pavane
+% uses the w: and V: extensions as defined in BarFly
+K:F
+V:1
+"^Battements du tambour" F2 FF | F2 FF | F2 FF | F2 FF | F2 FF | F2 FF | F2
+FF |
+V:2
+"^Superius" G4 | G2 ^F2 | G2 A2 | B4 | B2 d2 | c2 B2 | B2 A2 |
+S:https://www.folktunefinder.com/tunes/104043
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Pavane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Spends a lot of time on the same note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:6
+T: Yi gan hongqi kongzhong piao
+N: C0007
+O: China,Shaanxi, Shanbei
+S: I, 43, 2)]
+N: Eine Verzierung.
+R: Shange, Xintianyou. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: C
+c2d6 | g2d2edc2 | A2c2A2G2 | D8
+c2c4d2 | e2dcA2G2 | c2A2A2G2 | D8
+S:https://www.folktunefinder.com/tunes/112433
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, xintianyou. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

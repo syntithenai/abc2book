@@ -1,0 +1,24 @@
+X:45
+T:Peacocks March
+C:John Peacock
+S:Northumbrian Minstrelsy
+M:C
+L:1/8
+K:G
+(de/f/) | g2 d>d d2 B>A | B2 G>G G2 AB | 
+cBAG edcB | A>GA>G A2 (de/f/)|
+g2 d>d d2 B>A | B2 G>G G2 A2 | Bd de/c/ B2 A2 | 
+G2 G>G G2 :: d>B | A2 A>A AGAB | cB cd/e/ d2 c2 | 
+A/G/A/B/ c/d/e/f/ gdBG | A2 A>A A2 dB | BGBd cAce |
+de/f/ ge d2 c2 | Bdec BdcA | G2 G>G G2 :|
+S:https://www.folktunefinder.com/tunes/105600
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:72
+T:Mon pre avait cinq cents moutons
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n72
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/8
+L:1/8
+Q:1/4=110
+K:G
+G F G |B2 A |(GF) E | D2 z | G F G | A2 F | A2 G | G A B | c2 c |
+B2 G | B B G | B B G | [M:2/4] B d c B | [M:3/8] A2 D | G2 B | d2 c | (B2A|A2) G ||
+S:https://www.folktunefinder.com/tunes/119638
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

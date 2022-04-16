@@ -1,0 +1,35 @@
+X:178
+T: Taiyang chulai man tian hong
+N: C0300B
+O: China,Shandong, Chengwu, Sdwesten, daher hnl. wie Henanan)
+S: III, 323]
+N: Wenig Verzierungen. Vorspiel weggelassen.
+N: Fuellwoerter haben besonderen Charakter. "Baoren" kommt aus den
+N: Fuellwoertern. Die Weise ist aehnlich wie in der Henan- Lokaloper.
+N: Auftakt!! Zhuandiao: D GONG-A ZHI
+R: Xiaodiao, Baolengdiao]
+M: 2/4
+L: 1/16
+K: D
+A2A2d2ed | A2e2d4
+c2ccB2A2 | Aagfe2ed | B2BA^G2BB | A4A2z2
+A2A2d4 | A2e2d4
+A2A4d2 | c2ccB2A2 | A2F2E4
+d2A2A2d2 | dFFED4
+A4A2ff | f2e2e2d2 | d2A2edBB | A6GF | E8
+A2A2d2ed | A2e2ded2 | d4B2A2
+AFFED2D2 | EDEFA2FA | A2d2efed | A2BBAzFF | EzEEDz
+dd | efedA2BB | Aagfe2ed | B2BAA2BB | A6
+GF | EzEEDzEE | D2z2D2z2
+e2a2^g2a2 | e4d2e2 | d6B2 | A8 | A2z6
+S:https://www.folktunefinder.com/tunes/112605
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, baolengdiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

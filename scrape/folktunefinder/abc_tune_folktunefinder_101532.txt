@@ -1,0 +1,34 @@
+X:5634
+T:Galop. GHW.033
+M:2/4
+L:1/8
+Q:250
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Galop
+O:England
+A:Norfolk
+N:'Signo' at start and end, DC at end. Ccnfused notes in second beat of
+N:23. Could be either cg or gc. I've gone for  cg, but it could be
+N:either.
+Z:vmp.Taz Tarry
+K:F
+cc/c/ cd|c3 d|cAcf|e2 z2|cc/c/ cd|c3 a|gfdg|c.c.d.e||!
+f3e|d2 zc|dc cd|d2 B2|f3e|d2 z d|dd cB|(d2c) z|!
+f3e|d2 zc|dc cf|g2 d2|f2ed|c2 zd|ca cg|(f2f2):|!
+K:Bb
+d2c>B|d3 d|ff e>d|f2 zb|a3 g|d3 e|dd c>B|c3 ^c|!
+d3 c>B|d3 f| ff e>d|(g2g2)|=e3 e|f3 g|fe d>c|(B2B2):|
+S:https://www.folktunefinder.com/tunes/101532
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Galop
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

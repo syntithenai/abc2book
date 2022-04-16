@@ -1,0 +1,21 @@
+X:225
+T:Toormore
+Z: id:dc-polka-35
+M:2/4
+L:1/8
+K:D Major
+z|ef/e/ dB|BA B/c/d|ef/e/ dB|BA A2|!
+ef/e/ dB|BA B/c/d|ab/a/ gc|ed d:|!
+e|f>e fA|B/c/d ef|g>f ga|ba f/g/a|!
+f>e fA|B/c/d ef|ab/a/ gc|ed d:|!
+S:https://www.folktunefinder.com/tunes/127473
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Polkas.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:12720
+T:Paddy's Resource
+S:Trad, arr. Paddy O'Brien
+Z:Set: Paddy's Resource/Pipe on the Hob/Blooming Meadows
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:G
+d|GFG DB,D|GBd ~e2d|gdB BAB|cBc ~E2F|\
+GFG DB,D|GBd ~e2d|gdB BAB|cEF G2:|\
+D|GBd GBd|GBd cBA|GBd efg|fd^c def|\
+gfg fdf|ece ~d2B|cBc Adc|BGF G2:|**
+S:https://www.folktunefinder.com/tunes/115765
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

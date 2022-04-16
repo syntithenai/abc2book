@@ -1,0 +1,23 @@
+X: 2
+T:Flowers of Edinburgh
+M:4/4
+L:1/8
+K:G
+|:G2G2B2B2|d2ef g2fe|dcBA GFGA|B2G2E2D2|
+G2G2B2B2|d2ef g2fe|dcBA GFGA|[1B2G2G2D2:|[2B2G2G4
+|:g2g2gbag|f2f2fagf|edef gfed|B2e2e4|
+dBGB d2d2|edef g2fe|dcBA GFGA|B2G2G4:|
+S:https://www.folktunefinder.com/tunes/119726
+S:http://homepage.ntlworld.com/djfoster/ma2.abc
+S:http://homepage.ntlworld.com/djfoster/mad.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/FlowersOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/FlowersOfEdinburgh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

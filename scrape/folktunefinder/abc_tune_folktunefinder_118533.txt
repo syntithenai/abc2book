@@ -1,0 +1,23 @@
+X:1
+T:Rolling Downward
+T:Angel Song, The
+C:Robert Lowry
+%
+%%measurebox true           % measure numbers in a box
+%%measurenb 0               % measure numbers at first measure
+%%barsperstaff 0            % number of measures per staff
+%%gchordfont Times-Bold 14  % for chords
+%
+M:12/8
+L:1/8
+Q:3/8=100
+K:F %Transposed from A
+%
+(CD) E | F3 F6 A2 F | A3 A6 F2 G |
+S:https://www.folktunefinder.com/tunes/118533
+S:http://tomkeays.com/music/xmas/rolling_downward.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

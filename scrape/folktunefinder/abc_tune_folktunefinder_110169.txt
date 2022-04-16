@@ -1,0 +1,30 @@
+X:122
+T:Strawberries and Cream
+C:Colin Hume, 1996
+L:1/8
+M:6/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=114
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: D | "G"G2G "D7/F#"d2c | "G"B2A "^/"G2D | "C"E2E "A7/C#"A2G | "D"F2E "^/"D3 |\
+"Em"BAB "^/"G3 | "Am"cBc "^/"A3 | "D"d2D "D7"DEF | "G"G3- "^/"G2 :|
+%%vskip 0
+P:B1
+[| d | "C"e2z "Am"e2z | "G"d3- "^/"dcB | "D7"cAF "^/"DEF | "G"G2B "G7"d2G |\
+"C"e2z "Am"e2z | "G"d3- "^/"dcB | "D7"cAF "^/"DEF | "G"G3- "^/"G2 d |
+%%vskip 0
+P:B2
+"C"e2z "Am"e2z | "G"d3- "^/"dcB | "D7"cAF "^/"DEF | "G"G2B "G7"d2G |\
+"C"e2z "C#dim"e2z | "G/D"d3- "E7"dcB | "Am"cAF "D7"DEF | "G"G3- "^/"G2 |]
+S:https://www.folktunefinder.com/tunes/110169
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

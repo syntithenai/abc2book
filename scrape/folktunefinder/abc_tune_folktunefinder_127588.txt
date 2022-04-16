@@ -1,0 +1,24 @@
+X:3
+T: liabi liabi muatar gotas
+N: V0001B
+O: Europa, Mitteleuropa, Schweiz, Oberwallis
+R: Brauchtum, Beschwoerung (Nebel)
+M: 3/4
+L: 1/16
+K: G
+_B2B2B2B2B2B2 | _B4G4
+B2B2B2B2B2G4
+B2B2B2B2B2B2 | G4z4
+_B2B2B2c2 | _B4G4
+B2B2B2B2 | _B2B2B2c2_A2A2 | _B3BB2z2
+B2B2B2c2 | G4z4
+S:https://www.folktunefinder.com/tunes/127588
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Brauchtum, beschwoerung (nebel)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,76 @@
+X:1
+T:The drunken sailor
+T:(arranged for two fiddles)
+C:anon., arr.: Frank Nordberg
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 948
+R:Hornpipe
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+S:Frank Nordberg - http://www.musicaviva.com abcusers 2002-11-26
+M:C
+L:1/8
+Q:1/4=188
+K:Gm
+V:1
+(3(DE^F)|TG3(A GA)Bc|dcBA G(FD=E)|TF3G F(GAB)|cAFA d(cBA)|
+V:2
+z2|G8-|G8|F8-|F8|
+%
+V:1
+G2(G^F) GAB(c|d)cBA G(FD=E)|F2f2 d(cBA)|B2G2G2:|
+V:2
+G8-|G8|F8|G2 G2 G2:|
+%
+V:1
+|:(GA)|TB3(c Bc)d=e|f(cAB) cAF(B|AF)cF dFcF|AFcA d(cBA)|
+V:2
+|:G2|FDB,D FGBG|FAFD AFDF|F4- F3D|F4 A2F2|
+%
+V:1
+B2(BA) Bcd=e|f(cAB) cAFA|G2(gf) d(cBA)|B2G2G2:|
+V:2
+FDB,D FGBG|FAFD AFDF|G2d2 A2F2|G2G,2 G,2:|
+%
+V:1
+|:(Bd)|Tg3(a g2)^fg|a(gf=e) Td3e|fcgc acgc|fcgc a(gf=e)|
+V:2
+|:GB|[B4D4] [B2D2][B2D2]|[A4D4] [A2D2][A2D2]|\
+[A4F4] [A2F2][A2F2]|[A4F4] [A2F2][A2F2]|
+%
+V:1
+d2g2 g2(^fg)|a(gf=e) d2c2|df=e(g fd)cA|B2G2G2:|
+V:2
+[B4D4] [B2D2][B2D2]|[A4D4] [A2D2][A2D2]|[A4F4] [A2F2][A2F2]|G2G,2 G,2:|
+%
+V:1
+|:(D=F)|G(BdB) GBdB|F(AcA) FAcA|G(BdB) GBdB|cBA(G FG)AF|
+V:2
+|:z2|[G8G,8]|[F8A,8]|[G8B,8]|[F8A,8]|
+%
+V:1
+G(BdB) GBdB|FAc(A FG)Ac|df=e(g fd)cA|B2G2G2:|
+V:2
+[G8B,8]|[F8A,8]|[F4C4] [A4F4]|G2 G,2 G,2:|
+%
+V:1
+|:(Bd)|g(dgb) gdgb|f(cfa) fcfa|g(dgb) gdgb|fdc(A dB)cA|
+V:2
+|:DF|GBdB GBdB|FAcA FAcA|GBdB GBdB|cBAD FGAF|
+%
+V:1
+BGB(d AF)Ac|BAB(d c=B)ce|df=e(g fd)cA|B2G2G2:|
+V:2
+D/D/D/D/ D/D/D/D/ [F/C/][F/C/][F/C/][F/C/] [F/C/][F/C/][F/C/][F/C/]|\
+[B/D/][B/D/][B/D/][B/D/] [B/D/][B/D/][B/D/][B/D/]
+[c/G/][c/G/][c/G/][c/G/] [c/E/][c/E/][c/E/][c/E/]|\
+[AD]d3 dcAF|G2G,2 G,2:|
+S:https://www.folktunefinder.com/tunes/125285
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/DrunkenSailor_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

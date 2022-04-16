@@ -1,0 +1,27 @@
+X:75
+T:Slainte Righ Pilib
+T:Health to King Phillip
+M:3/4
+L:1/8
+S:Burk Thumoth's Scotch & Irish Airs 1743
+R:Air
+K:Bb
+"Moderato"G4 ^F2|G2 A2 c2|d4 c2|{B}A4 d2|c4 AG|^F2 A3 G|^F3 E F2|D6|!
+G4 ^F2|G2 A2 c2|d4 A2|c4 de|f2 =e2 d2|c2 A2 G^F|G6-|G6:|!
+g4 ^f2|g2 a2 b2|a4 gf|d4 d=e|f3 g fg|f2 d2 f2|c4 {B}A2|^F4 {E}D2|!
+G3 A G^F|G2 A2 c2|d4 A2|c4 d=e|f2 =e2 d2|c2 A2 G^F|G6-|G6:||!
+%
+% Song refers to King Phillip IV of Spain, who died in 1665.
+% This setting and the two that follow illustrate the tendency to
+% create variants of popular compositions.
+S:https://www.folktunefinder.com/tunes/106069
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

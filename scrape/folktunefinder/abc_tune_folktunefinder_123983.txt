@@ -1,0 +1,22 @@
+X:5200
+T:Fiddler's Polka
+C:Andy De Jarlis
+M:2/4
+L:1/8
+K:D
+f/g/|af/a/ g/f/e/g/|fd d/A/d/f/|ec A/c/e/g/|fa af/g/|!
+af/a/ g/f/e/g/|fd d/A/d/f/|ec A/c/e/g/|fd d:|!
+K:A
+A|e2 e3/2d/|c/e/e e2|E/F/^G/A/ B/c/d/B/|A/B/c/d/ ec|!
+e2 e3/2d/|c/e/e e2|E/F/^G/A/ B/c/d/B/|Ac A:|!
+S:https://www.folktunefinder.com/tunes/123983
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

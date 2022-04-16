@@ -1,0 +1,46 @@
+X:75
+T:THE OLD HAILE HORNPIPE
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:G
+P:1
+A3 B c2 BA B2 AG | A2 D4 G2 F2 ED |\
+B3 c d2 cB c2 BA | B2 G4 A2 B2 AG ||
+P:2
+FGAB cdcA GABG | A2 D4 G2 F2 D2 |\
+GABc dedB ABcA | B2 G4 A2 B2 AG ||
+P:3
+c2 e4 dc BcdB | A2 D4 G2 F2 ED |\
+G2 g2 f3 e fgaf | g2 G4 A2 B2 AG ||
+P:4
+cBAG FGAF GABG | A2 D4 G2 F3 A |\
+dcBA GABG cAFA | B2 G4 A2 B2 AG ||
+P:5
+c2 e2 c2 e2 BcdB | A2 f2 A2 f2 ABcA |\
+G2 g2 G2 g2 fgaf | g2 G4 A2 B2 AG ||
+P:6
+cBAG FGAF GABG | AGFE DEFG ABcA |\
+dcBA GABG cAFA | B2 G4 A2 B2 AG||
+P:7
+c2 e2 c2 e2 B2 d2 | A2 f2 A2 f2 ABcA |\
+G2 g2 G2 g2 fgaf | g2 G4 A2 B2 AB ||
+P:8
+cAFA cAFA dBGB | A2 D4 G2 F3 A |\
+dBGB dBGB cAFA | B2 G4 A2 B3 AG ||
+P:9
+c2 e2 c2 e2 B2 d2 | A2 f2 A2 f2 ABcA |\
+G2 g2 G2 g2 fgaf | g2 G4 A2 B2 AG |]
+S:https://www.folktunefinder.com/tunes/110537
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/Cheshire.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

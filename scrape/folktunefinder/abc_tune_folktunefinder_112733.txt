@@ -1,0 +1,50 @@
+X:306
+T: Fanshen daoqing
+N: C0821
+O: China,Shaanxi, Shanbei
+S: I, 52 und Kopie]
+N: Textbeilage kopiert. Reihenfolge der Lieder nicht mehr eindeutig
+N: zuzuordnen: ABHOEREN! VGL. MIT BAND 5 UND 17
+N: Neues Volkslied. 2 Melodie-Modelle: a) lyrisch, b), S. 53 unten)
+N: eher prosaisch. Angeblich A-B-A. - Daoqing sind volkstuemliche
+N: Balladen, die von Bambustrommeln und -klappern begleitet werden.
+N: Vor- und Zwischenspiele weggelassen. Phrasierung pruefen!! 
+N:   z.B.Phrase 1/2) ! Da eine Angabe fehlt, Lied I, 52, 2) eingegeben.
+N: Kopie Variante der im Buch angegebenen Notation.
+R: Xiaodiao, Daoqing. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: Ab
+e4B4- | B4B4 | e4c3B | A4
+B3B | B2e2e2c2 | B2c2B2c2 | B2c2B2c2 | B2c2B2c2 | B2z2B2z2 | B8- | B8
+c2B2e4- | e8 | A2F2e2c2 | B3AA2F2 | E8
+c2e4c2 | e2f2c2B2 | A2F2E4
+c4f4 | e4c2e2 | B2F2A3F | E8
+e2e2B4- | B8- | B4B2B2 | e4f2e2 | c2B2A4
+A2A4A2 | B2c2B4 | A4E4 | A4c4 | B4F2E2 | A4A2F2 | E8
+B4B4e8 | f2e2c2e2B8 | e4e2f2e4A2B2 | e4c2B2A8
+A4F2c2B8 | e4e4e2c2B2A2 | A2E4F2A4e2c2 | B2F2A2F2E8
+B4B4e8 | f2e2c2e2B8 | e4e2f2e4A2B2 | e4c2B2A8
+A4F2A2B8 | e4e4e2c2B2A2 | A2E4F2A4e2c2 | B2F2A3FE8
+e4e4- | e8- | e4e2e2 | e2a2f2e2 | c3BA4
+B2c2B4- | B8 | A2F2c4 | B3FA2F2 | E8
+c2e4c2 | e4c2B2 | A4E4
+c4f4 | e4A4 | B3cA2F2 | E8
+e4B4- | B6B2 | e4f2e2 | c3BA4
+z4-z3A | B2c2B4- | B8 | A2F2e2c2 | B3FA2F2 | E8
+c2e4c2 | e8 | F4z4
+f4e4 | e2c2B2A2 | A3EF4- | F4z4
+B2B4e2 | A2F2E4
+E2F2A2c2 | B2F2A2F2 | e8- | e8
+S:https://www.folktunefinder.com/tunes/112733
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, daoqing. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

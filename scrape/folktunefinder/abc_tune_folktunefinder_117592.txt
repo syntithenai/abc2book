@@ -1,0 +1,30 @@
+X:25
+T:A Waterloo Dance
+C:Shoosmith MS
+Q:1/4=100
+M:2/4
+L:1/16
+Z:abc2nwc
+K:D
+AG|F2dB A2fe|d2d2 d2cd|e2e2 dcBc|defd A2AG|
+F2dB A2fe|d2d2 d2cd|e2e2 dcBc|d6:|
+|:
+K:A
+cd|e2ec a2af|e2ec A2A2|GABc dBed|d4c2cd|
+e2ec a2af|e2ec A2A2|GABc dBAG|A4A2:|
+|:
+K:D
+fg|a6f2|b2a2 g2f2|e2e2 edef|d2e2 f2g2|
+a6f2|b2a2 g2f2|e2e2 edef|d6:|
+S:https://www.folktunefinder.com/tunes/117592
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/WaterlooDance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

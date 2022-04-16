@@ -1,0 +1,22 @@
+X:8
+T:Kelham Island
+M:6/8
+Q:3/8=120
+R:jig
+K:G
+D|"G"G2G GAB|"G"G2G GAB|"Am"c2A "G"B2G|"D"A2G FED|
+"G"G2G GAB|"G"G2G GAB|"A"c2A "G"B2G|"D"FEF "G"G2:|
+|:B/2c/2|"G"d2B BAG|"Am"e2c cBA|"G"d2B BAG|"D"ABG FED|
+"G"d2B BAG|"Am"e2c c2A|"G"d2B BAG|"D"A2F "G"G2:|
+%%newpage
+S:https://www.folktunefinder.com/tunes/129897
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

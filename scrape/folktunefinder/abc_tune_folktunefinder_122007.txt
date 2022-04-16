@@ -1,0 +1,32 @@
+X: 345
+T: THE BOY FROM THE TOP OF THE WORLD
+T: Buacaillua uachdar an domhain
+B: O'Neill's 345
+M: 3/4
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: "Collected by F.O'Neill"
+N: Bar 12 doesn't add up.
+K:D
+f>e \
+| .d2 (A2 B2) | .d2 (A2 B2) | =c3 (edc) | B3 (=cdB) \
+| (BAGFEF) | (D2 F2 A2) | (B2 d2) .f2 | He4 (f>e) |
+| d2 (A2 B2) | .d2 (A2 B2) | T=c3 (edc) | B3 c2 ({e}d/c/d/B/) \
+| (BAGFEF) | (D2 F2 A2) | {G}B3 (gec) | d4 ||
+|| ((3def) \
+| g2 g2 (a/g/f/e/) | f2 f2 (g/f/e/>d/) | (e>d) ef de | B3 (cdB) \
+| (BAGFEF) | (D2 F2) .A2 | (B2 d2) .d2 | d4 (ef) |
+| Tg>f gb ag | Tf>e fa gf | (e>d) ef (g/e/f/d/) | B3 (cdB) \
+| (BAGFEF) | (D2 F2 A2) | (B3 d) d2 | d4 ||
+S:https://www.folktunefinder.com/tunes/122007
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0345_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

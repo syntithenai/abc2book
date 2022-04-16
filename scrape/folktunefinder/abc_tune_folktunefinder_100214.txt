@@ -1,0 +1,33 @@
+X: 77
+T: Amazing Grace
+Z: John Chambers
+N:
+N: This tune originated in the 1800's as an American gospel song, and has
+N:en adopted in many
+N: parts of the world for many purposes.  It is one of the tunes that all
+N:ottish pipers play.
+N:Posted to the woodenflute mailing list August 2001
+M: 9/8
+L: 1/8
+F:http://trillian.mit.edu/~jc/music/abc/air/AmazingGrace.abc     2001-08-2
+F:18:47:50 UT
+K: G
+D3 \
+| "G"G6 BAG | B6 A3  | "C"G6  E3  | "G"D6 "(D)"D3 \
+| "G"G6 BAG | B6 A2B | "D"d6- d3- |    d6      B3 |
+| "G"d6 BAG | B6 A3  | "C"G6  E3  | "G"D6 "(D)"D3 \
+| "G"G6 BAG | "D"B6 A3 | "C"G6- G3- | "G"G6  |]
+S:https://www.folktunefinder.com/tunes/100214
+S:http://trillian.mit.edu/~jc/music/abc/air/AmazingGrace.abc
+S:http://trillian.mit.edu/~jc/music/abc/air/AmazingGrace.abc
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Link Link to
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

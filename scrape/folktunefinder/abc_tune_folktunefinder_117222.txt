@@ -1,0 +1,32 @@
+X:20
+T:Gan Ainm
+R:Jig
+S:Jim McKillop, Antrim (fiddle)
+D:From RTE 'The Pure Drop'
+N:As played
+M:6/8
+Z:Bernie Stocks
+K:G
+FDD ADD | BDD cBA | Bcd ecA | ABG FED | FDD ADD | BDD cBA | Bcd ecA | AGF G2A | 
+FDD ADD | BDD cBA | Bcd ecA | ABG FED |GFG AGA | B^AB c-^c2 | d^cd ecA | AGF G2B || 
+def gdB | gdB {d}cBA | Bcd ecA | ABG FED | def gdB | gdB {d}cBA | Bcd ecA | AGF G2B |
+def gdB | gdB {d}cBA | Bcd ecA | ABG FED |GFG AGA | BAB cBc | d^cd ecA | AGF G2A ||
+S:https://www.folktunefinder.com/tunes/117222
+S:http://ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book4.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book4.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://www.firepowr.com/abc/Book4abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book4.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

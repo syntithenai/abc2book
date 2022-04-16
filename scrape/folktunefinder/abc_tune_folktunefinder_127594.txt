@@ -1,0 +1,22 @@
+X:9
+T: Es geht nix ueber die Gemuetlichkeit, heidi, heida
+N: V0002E
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Zochenreuth
+R: Geselligkeits - Lied, Gemuetlichkeit
+M: 2/4
+L: 1/16
+K: E
+B,2 | E2E2EEFE | D2C2C2A2 | D4z2B,2 | E4z2
+B,B, | E2E2EEFE | D2C2C2A2 | E4z2B,2 | E4z2
+GA | B2GAB2AB | c2F2F2FG | A2FGA2GA | B2E2E2G2 | E4z2B2 | E4z2
+S:https://www.folktunefinder.com/tunes/127594
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/variant0.abc
+% Rhythm Geselligkeits - lied, gemuetlichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

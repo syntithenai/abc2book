@@ -1,0 +1,33 @@
+X:24
+T:Reinlender
+R:Reinlender
+C:Trad.
+H:
+B:Folque p.74
+D:
+O:Norge - Norway - Norvge
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=175
+K:C
+ABcd {d}e2e2 | e^fdf {f}e2 c2 | cBdB {B}c2 Ac | BA^GB A2 z2 :|
+K:A
+{g}a2a2a2 ba | g2 e2 e4 | dcBc defa | g2 e2e2 fg |
+{g}a2a2a2 ba | g2 e2 e4 | dcBc dBGB | A2c2A2 z2 ||
+K:C
+a2a2 g3 f | edef ecAB | c2c2 defd | e2e2 ^f2^g2 | 
+a2a2 g3 f | edef ecAB | c2c2 BdcB | A2 c2 A2 z2 |]
+S:https://www.folktunefinder.com/tunes/112146
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Reinlender
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:5
+T:The Tea Ladies
+R:waltz
+C:Bob Massie
+H:1997
+N:I teach guitar at the Sutherland Feis, in Golspie, and this was written
+N:for the 3 wonderful ladies of indeterminate age who do the catering for
+N:us.
+M:3/4
+L:1/8
+Q:1/4=120     %Tempo
+K:G
+B,3/4D/G3/4 B3 c |BA G G,3 |D2 E G3 |z E D4 |
+B,3/4D/G3/4 B3 c |BA G G,3 |z2 A,^C EG |FE D4 |
+B,3/4D/G3/4 B3 c |BA G G,3 |D2 E G3 |z E D4 |
+z2 E G3 |cA B D3 |c2 B3 D |AF G4 |
+Bc d3 e |dc B D3 |z2 E G3 |cA B4 |
+Bc d3 e |dc B D3 |z2 A^c eg |fe dc BA |
+Bc d3 e |dc B D3 |z2 E G3 |cA B4 |
+z2 E G3 |cA B D3 |c2 B3 F |AF G4 |]
+S:https://www.folktunefinder.com/tunes/99878
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Bobs-Tunes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

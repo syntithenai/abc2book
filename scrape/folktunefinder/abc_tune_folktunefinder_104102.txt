@@ -1,0 +1,61 @@
+X:2
+T:Allemande (suite en La mineur)
+R:Allemande
+C:Robert de Vise
+G:guitare
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+N:une petite imprcision qui aurait ncessit une voix de plus pour l'viter :
+N:  vers la 27me mesure il y a un "mi" aigu sous la trille qui est une blanche et non pas une noire.
+N:De plus les arpges rapides (balayages) n'ont pas t tous marqus
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=95
+K:Am
+K:C treble
+U: I=!arpeggio!
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+I[c3/2e3/2]I[c/e/] |: I[c2e2]I[c2e2][EAce]e ^f[^G^g] | [e2a2][e2a2] !trill![e3a3] ^g | a4 Ac Bd |
+Ie4 e2 [^d2^f2] | [e2^g2] (e=d) !trill!^c2 (a=g) | f3 f !trill!f3 [ce] | [c4e4] [ec'](b a)!trill!g |
+(fe) (dc) d(e f)g | e4 a3 g | (ag) fe !trill!d2 de | !trill!A3 A d3d |
+Id2ed !trill![A3c3]B | B2 zB-B4 |1 I[^G8B8e8] :|2 I[B6e6] ||!
+|: (ba) | !trill!^g^f ge fa gb | ac' c4 z2 | !trill!B2 (Bc) d(c d)[^ce] |
+I[d2f2] f6 | I[c2e2] z e !trill!d3d | d4 e2d2 | !trill!c2 (AB) cd e^f |
+I[d2g2] I[d2g2] !trill![c3g3] ^f | [B4g4] c'2 c'b | a2 bc' !trill!^g3 a | zb e2 (a=g) fe |
+(fe) (dc) (dc B)A | ^G4 c2d2 | I[c2e2] ^f2 ^g2 a2 |
+I!trill![e4^g4] [^fd'](c' b)a | [e2^g2] [c2e2a2] !trill!a3^g | a3 c-c2 A2 | I[c6e6] :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+[E3/2A3/2] [E/A/] |: [E2A2][E2A2]A4 | [A2c2][A2c2]e3z | c2A6 |
+c2 (BA) !trill!=G2 ^F2 | [E6B6] z2 | [D4A4d4] [D3B3] [EG] | [E4G4] [G4c4e4] |
+z4 [F4B4c4] | [G4c4] [F4-c4-f4] | [F4c4] B2 [G2_B2d2] |[E4A4^c4] [F4A4] |
+[E4^G4]A3 [E^G] | [E2^G2] B2E2^G2 |1 (ED) (EF) (ED) (cB) :|2 [E6^G6] ||!
+|: z2 | z8 | z2 (AB c)(D EF) | G4 F3E |
+[D2A2] (DE F)G AB | [E2G2] F2 ^F4 | [G4B4] ^G4 | [A2e2] z2 z4 |
+[G2B2][G2B2] A4 | G2F2 [G4c4e4] | f2 [d2f2] [B2e2] ^F2 | ^G4 A4 |
+D4F4 | ([Ee][Dd]) (cB) zA zB | [E2G2] [Dd]c [B2d2] [A2c2] |
+B4 [A4d4^f4] | d2 Ae e3z | A2A2 E4 | [E6A6] :|
+S:https://www.folktunefinder.com/tunes/104102
+S:http://anamnese.online.fr/abc/visee.abc
+% Rhythm Allemande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

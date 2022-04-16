@@ -1,0 +1,38 @@
+X:8
+T:Swing valse (Valse Musette) - in D
+C:Gus Viseur et Pierre Ferret
+A:France WW2
+I:Rights for public performance
+Q:1/4=150     %Tempo
+M:3/4     %Meter
+K:D %Transposed from F
+FAF |"D"C2 DF AB |c2 BA FD |C2 B,A,F,D, |\
+C,2 z FAF |C2 DFAB |c2 BAFD |"A7"A6 |A2 z GBG |
+"F#7"FE =F^F ^Ac |f=f e^d =dc |"A7"[e4^A4G4] (3cdc |\
+"B"Bc de fd |"E7"[c3^G3D3] [BGD] [B2G2D2] |z c =c^c ec |\
+"A"[B2G2E2] "B"[B2G2E2] "Bb"[=c2G2E2] |\
+"A"[c2G2E2] z F AF |
+"D"C2 DF AB |c2 BAFD |C2 B,A,F,D, |C,2 z F AF |\
+"D"ED FA =cd |"D7"ed=cAFD |"G"B6 |"F#"B6 |
+"E"EF GA ^Ad |"Bb"[f2c2G2] [=f2B2G2] [fcG]f |"A"^d=d =ce FA |\
+"Bb"=c6 |"A7"B^A =A^G =GF |FE ^DE AC |"D"D6 ||
+DF ED CB, |"F#7"^A,6 |"Bb"G^A ce "F#7"fA |"B"c2 (3cdc B2 |\
+z BAGFE |"B7"^D6 |z B,^DFAD |"E"F2 (3FGF E2 |
+E2 z2 z2 |z "G"e ^d=d c=c |"E"B^A =AA BA |"B"[c3F3D3] B F2 |\
+z F =F^F A^G |"G"G6 |=F6 |
+"F#"[F6C6^A,6] |[FC^A,]F, A,C EF |\
+"Bb7"GC ^AE cG |e^A gc ae |"B"c'2 (3bc'b fe |B2 (3BcB ^AB |
+"C7"=c^d eg "A"ac' |"C7"e'b d'=c' (3gec |\
+"B"[B3F3D3] [BFD] [B2F2D2] |\
+z2 (3FGF =F^F |"E"EG [c2G2E2] z2 |"C#"z B "E"^AB GE |"B"DE [c2F2D2] z2 |
+"B"z2 B^A Bc |"Ab"d=F ^GB "G"dc |"F#7"B^A ce "Bb"gf |\
+"B"[B2F2D2] z2 "C"[^A2G2E2] |"C#"[A2G2E2] z |]
+S:https://www.folktunefinder.com/tunes/104640
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

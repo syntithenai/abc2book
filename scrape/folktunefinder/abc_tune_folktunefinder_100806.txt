@@ -1,0 +1,21 @@
+X:10
+T:Charlie Mulvihill's
+Z: id:dc-hornpipe-9
+M:C|
+L:1/8
+K:A Major
+(3EFG|AGAB cBAG|FcdB G2 (3EFG|AGAc efec|BAFA B2 (3Bcd|!
+efed cBAG|FcdB G2 (3EFG|AGAf ecAc|BEGB A2:|!
+(3cde|acgc fced|cAce a2ga|bBaB gBfB|(3efe ^df e2 (3efg|!
+acgc fced|cAce afeA|dcdf ecAc|BEGB A2:|!
+S:https://www.folktunefinder.com/tunes/100806
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

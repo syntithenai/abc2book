@@ -1,0 +1,20 @@
+X:175
+T:Kitty's Wedding
+Z: id:dc-hornpipe-32
+M:C|
+L:1/8
+K:D Major
+fe|d2Bd A2FA|BAFA D2ED|B,DA,D DFBF|AFDF E2fe|!
+d2Bd A2FA|BAFA D2ED|B,DA,D DFBF|AFEF D2:|!
+fg|afed bafd|Adfd edBd|DFAd FAde|faef e2fg|!
+afed bafd|Adfd edBd|DFAd FAdf|eABc d2:|!
+S:https://www.folktunefinder.com/tunes/100897
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

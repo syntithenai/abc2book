@@ -1,0 +1,22 @@
+X: 1688
+T: Larry Lynch's Hornpipe
+M:4/4
+L:1/8
+B:O'Neill's 1688
+N:"collected by J.O'Neill"
+K:A
+E2 \
+| A2c>A E>Ac>A | G>AB>GA2c2 | d>fe>cd>cB>A | G>AB>GE>gd>B |
+| A2c>AE>Ac>A | G>AB>GA2c2 | d>ge>dc>AB>G | A2c2A2 :|
+|: c>de>Ac>ea>gf>e | G>AB>cd>EF>G | A>EA>cd>cB>A | G>AB>GE2c>d |
+| e>Ac>ea>gf>e | f>Bd>fb>ag>fe>ac>fe>dB>G | A2c2A2 :|
+S:https://www.folktunefinder.com/tunes/101304
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:43
+T:Over the water to Charlie
+R:Jig
+O:England
+M:6/8
+N:Versions in all 3 mss. Also with 8 variations in CMTB. vars 5 \& 6 by Andy Hornby
+A:Lancashire
+B:Winder
+K:D
+A2A A>BG | F>GE DFG | A>BA AFA | B3 d3 |\
+D2D D>EF | G>AF E2D | d>cB AFA | B3 d3 :|*
+|:d2e f>gf | e>fd ecA | d2e f>ge | e3 A3 |\
+d2e f>gf | efd ecA | B/2c/2dB AFA | B3 d3 :|*
+|:AFD AFD | BGE BGE | AFD DFA | B3 d3 |\
+AFD dAF | GAF E2D | dcB AFA | B3 d3 :|*
+|:dfd Afd | ecA acA | dfd Afd | e3 A3 |\
+dfd afd | c/2d/2eA ecA | B/2c/2dB AFA | B3 d3:|*
+P:A.H.
+|:DFG AFD| EGA BGE| DFG AFA|B3 d3|\
+DFG AFD| BGE cBA | dcB AFA | B3d3:|*
+P:A.H.
+|:f/2g/2af ege | d/2e/2fd cec | \
+B/2c/2dB Acd | e3 A3 | \
+faf e/2f/2ge | dfd c/2d/2ec | \
+B/2c/2dB AFA | B3 d3 :|**
+S:https://www.folktunefinder.com/tunes/127929
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

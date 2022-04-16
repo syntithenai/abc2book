@@ -1,0 +1,53 @@
+X:12
+T:Chester
+C:Arr. J. Ciaglia
+%%staves [1 2 3 4]
+M:C|
+L:1/4
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+a2 b c'| d'2 a2 | b d' c'b | a4 |a2  a a |
+a b (a/g/) f |(g f) e d | e4 | a2 b b | a2 b c'|
+d'a  b c'| d'4|d'>c' b a |(b/a/)g/f/ e a | d g  f e | d4 |]
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!mp!f2 f g|(f g) a2 |(g2- g/e/)f/g/|(a>g) f2|f2 (g/f/)e/d/-|
+d g (f/e/) d|(e d)c B|c4|f2 d g|f2 (f/g/) a|
+b f g a|a4|f2 f2|(g/f/)e/^d/ e (B/c/)|d B A2|A4|]
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!d2 d e|d2 d2|d4|d4|c3 =c|
+(B/c/)d/e/ d A|(c d) e2|A4|d2 d d|d2 d c| 
+B (c/d/)e/f/ g|f4|A2 B2|B>=c (B/A/) G|F G A G|F4|]
+V:4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!pp!(d c) B A|(D E) F2|G B A G|(F>E) D2|F2 E D|
+(G/A/)B/c/ d (D/F/)|A3-A/^G/|(A.G)(F.E)|D (E/F/) G G|D (d/c/) B A|
+G A G/F/ E|D4|D2 ^D2|(E/F/)G/A/ (G/F/) E|D2 D2|D4|]
+S:https://www.folktunefinder.com/tunes/114078
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

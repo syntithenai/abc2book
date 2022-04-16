@@ -1,0 +1,25 @@
+X:1
+T: Reel in E-minor
+C: Trad.
+Z: From Fiddle Book by M. Thaut.
+M: C|
+L: 1/8
+K:EDor
+"Em"EB, ((3B,A,B,) (EG) FE | "D"DA, ((3A,G,A,) DE FA | ("Em"GE) ED (EF) GA |
+"Em"B2 eB ("Bm"dB) AF | ((3"Em"EDE) B,E (GE) B,E | ((3"D"DED) A,D (FD) A,D |
+((3"Bm"Bcd) "Em7"eB (dB) AF |1 ("D"DE) FA "Bm"B2 AF :|2 "D"DE FA "Em"B2 z2 ||
+T: haha
+|: "Em"eB ((3BAB) (eg) fe | "D"d2 fa (gf) ed | ((3"Bm"Bcd) "Em"ef (gf) ge  |
+("D"fg) ((3agf) "C"gf ed | "Em"eB ((3BAB) ("D"AB) FA | "Em"BE ((3EDE) (Bd) ef|
+"C"g3a "D"f3d |1 ("Em"ef) ed ("Bm"BA) FB :|2 "Em"ef ed B2 z2 |]
+S:https://www.folktunefinder.com/tunes/121236
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/mtunes1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/mtunes1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/mtunes1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

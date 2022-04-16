@@ -1,0 +1,27 @@
+X:13
+T:Catharsis
+C:Amy Cann
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:G minor
+|:\
+"Gm"DGGF DGGF|DGGA BGAF|DGGF DGGF|DEDC "D"B,CB,A,|
+"Gm"[G,D]GGF DGGF|DGGA BABc|dcBA "F"BAGF|1"Gm"DGGF G3F:|2\
+"Gm"DGGF G[DA][DB][Dc]||
+|:\
+"Gm"[Dd]GGc GGBG|GAGG A[DA][DB][Dc]|"F"[Dd]FFc FFBF|FAFF G[DA][DB][Dc]|
+"Eb"[Dd]EEc EEBE|EAEE G[DA][DB][Dc]|"D"dcBA BAGF|1"D"DGGF G[DA][DB][Dc]:|2\
+"D"DEDC B,CB,A,|]
+S:https://www.folktunefinder.com/tunes/118823
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

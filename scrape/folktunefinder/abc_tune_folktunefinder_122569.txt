@@ -1,0 +1,28 @@
+X:20
+T:I Belong to Glasgow
+R:Waltz
+C:Kevin Briggs
+S:Nottingham Music Database
+M:3/4
+L:1/4
+K:G
+d|"G"G2A|B2c|dg2 -|g3|
+"C"g2a|g2e|"G"d3|"D7"cBA|
+"G"GGA|BBc|d2e|f2g|
+"A7"a2^g|a2b|"D7"a3|def|
+"G"gga|bag|"C"a2g|e2d|
+efg|"G"d2B|"Am"A3 -|"D7"Agg|
+"G"ggg|"C"gfe|"G"ded|"E7"Bcd|
+"Am"efg|"D7"a2f|"G"gdB|G2:|
+S:https://www.folktunefinder.com/tunes/122569
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:90
+T: Daban xiaolang yi zhi hua
+N: C0113
+O: China,Hubei, Changyang
+S: I, 449]
+R: Wuge, Dengdiao, Huaguzi. Jiaowang liyi]
+M: 2/4
+L: 1/16
+K: F
+c2cAc2d2 | f8
+g3fd2d2 | c8
+c2cAc2d2 | f8
+A2c2A2d2 | c8
+AcA4f2 | d2c2A4 | AccAd2f2 | c2c2A2c2
+F3GA2c2 | G2A2F4 | G2F2DFCD | F8
+AcA4f2 | d2c2A2GA | c8
+F3GA2c2 | G2A2F4 | G2E2DFCD | F8
+S:https://www.folktunefinder.com/tunes/112517
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, dengdiao, huaguzi. jiaowang liyi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

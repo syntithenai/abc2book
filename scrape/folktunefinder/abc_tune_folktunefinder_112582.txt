@@ -1,0 +1,32 @@
+X:155
+T: Shatian youzi man chuantou
+N: C0259
+O: China,Guangxi, Rongxian
+S: II, 521]
+N: prosaisches Volkslied, schon fast ein Schauspiel. Mit den Noten
+N: in Klammern wird singend der Klang von Instrumenten imitiert.
+R: Wuge, Huachuan diao. Chuanyun shenghuo]
+M: 2/4
+L: 1/32
+K: A
+B2c2B2A2F4A4 | c2B2A2B2c6B2 | c6B2c8
+B2c2B2A2F4A4 | A2FAB2A2F6E2 | F6E2F8
+F2A2F2A2B8 | c4F2B2A8
+F2F2F2B2A8 | F2F2F2B2A8
+B4c4B2c2A4 | B4F4B4A4
+F4E4E2F2A4 | A4F4c4A4 | c2B2A2c2B8
+A2B2c4B2c2B2A2 | F8A2F2B2A2 | F2F4E2F6
+E2 | F6E2F6E2 | F4c4A4B2A2 | F2F4E2F8
+S:https://www.folktunefinder.com/tunes/112582
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, huachuan diao. chuanyun shenghuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

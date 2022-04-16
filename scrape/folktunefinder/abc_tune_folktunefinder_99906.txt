@@ -1,0 +1,20 @@
+X:9
+T:Loch Ruan
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C
+L:1/8
+Q:1/4=128
+K:Hp
+A>B|d2Aa f2ed|e2fg B2e>d|c2BA g2ec|d2 ef A2
+A>B|d2Aa f2ed|e2fg B2e>d|c2BA g2ec|d2-d2 d2:|
+f>g|a2fd Aafd|e2fg B2e>f|g2ec Agec|d2 ef A2
+f>g|a2fd Aafd|e2fg B2e>d|c2BA g2ec|d2-d2 d2:|
+S:https://www.folktunefinder.com/tunes/99906
+S:http://www.campin.me.uk/Music/ScottishSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

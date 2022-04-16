@@ -1,0 +1,30 @@
+X:82
+T: Xiu yifu baihua dou ren ai
+N: C0104
+O: China,Hubei, Yengcheng
+S: I, 377]
+N: neues Volkslied
+N: Notiert ist die 3. Strophe. In den beiden ersten Strophen entspricht
+N: Phrase 7 der 5. Phrase.  Vereinzelt Verzierungen.
+R: Wuge, Dengdiao, Gaoqiao, Xiuhebao diao. Xin minge]
+M: 2/4
+L: 1/16
+K: C
+d4cdge | d3cAcA2
+d4cdge | d3cAcA2
+G2G4A2 | d2d2cdA2 | A3cG2G2 | A8
+d2A2d4 | d2g2A4 | A2A2GAc2 | A3GG2E2
+D2DDG2G2 | A2G2F2E2 | D2D4C2 | D6z2
+A2A4c2 | A2G2G2E2
+D2DDG2G2 | A2G2F2E2 | D2D4C2 | D8
+S:https://www.folktunefinder.com/tunes/112509
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, dengdiao, gaoqiao, xiuhebao diao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

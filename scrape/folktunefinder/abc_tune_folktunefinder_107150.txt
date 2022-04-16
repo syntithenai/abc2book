@@ -1,0 +1,27 @@
+X:1
+T: Reel des Acadiens
+I: Reel des AcadiensR-125Areel
+C: E. Arsenault
+M: C|
+R: reel
+K: A
+af| "A"eece AAce| fece "D"feaf| "A"eece "D"feaf| "A"ecAc "E"B2af|
+    "A"eece AAce| fece "D"feaf| "A"eece "D"feaf |1 "A"ec"E"Bc "A"A2 :|2 "A"ec"E"Bc "A"A3 |]
+|:A| "A"ABcd eeea| "D"feaf "A"ecBc| ABcd eeea| "B7"fecA "E"B2BB|
+   "A"ABcd eeea| "D"feaf "A"ecBc| ABcd eeaf |1 "E"ecBc "A"A3 :|2 "E"ecBc "A"A2 |]
+%%text Roaring Jelly  R-125
+S:https://www.folktunefinder.com/tunes/107150
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/reel/R125_Reel_des_Acadiens.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R125_Reel_des_Acadiens.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R125_Reel_des_Acadiens.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

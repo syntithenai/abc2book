@@ -1,0 +1,31 @@
+X:265
+T: Song liwu
+N: C0413
+O: China,Jiangxi, Fuzhou
+S: IV, 250]
+N: Die 3. Strophe lautet ab Phrase 8:
+N: 3-613  2_21    -5_
+N: 1_  -7_-6_  -5__ //
+N: Einige Verzierungen, Glissandi. Vorspiel weggelassen.
+R: Wuge, Dengge, Bubeida diao. Biaoda aiqing]
+M: 2/4
+L: 1/8
+K: Bb
+f2f2 | d2f2 | B2B2 | G2GB | ffdf | d2dB | c2
+dd | d2d2 | cdcB | BBBd | c2cG | BBcG | F4
+B2fd | dccB | cBGF | F4
+fdfd | d3z
+dGBd | c2cB | cBGF | F2z2
+fdfd | fd2
+d | fGBd | c2cB | F2B2 | A2G2 | F4
+S:https://www.folktunefinder.com/tunes/112692
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, dengge, bubeida diao. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

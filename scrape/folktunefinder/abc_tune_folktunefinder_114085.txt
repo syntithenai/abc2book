@@ -1,0 +1,29 @@
+X:19
+T:Grandfather's Clock
+C:1870 Henry C. Work
+S:CF&D, Vol I, page 9
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|d2cd e2de|f2gf B2 ee|d2d2 c2Bc|defg a2 AA|d2cd e2de|
+ffgf B2 ee|d2d2 c2Bc|d4 z2:|\
+|:df|agfe d2d2|edcB A2 df|a2f2 d2cd|e4 z2AA|
+d2 z2 e2 z2|ffgf B2 ee|d2d2 c2Bc|d4 z2:|\
+|:AA|d2AA B2A2|.F2.A2 .F2.A2|
+ddAA B2A2|.F2.A2 .F2.A2|d2 z2 e2 z2|ffgf B2 ee|d2d2 c2Bc|d4 z2:|
+S:https://www.folktunefinder.com/tunes/114085
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

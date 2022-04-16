@@ -1,0 +1,29 @@
+X: 60
+T: Scotland the Brave
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: march
+C: R-25
+C: Scottish
+K: G
+BA| "G"G4 "C"G3A| "G"B2G2 B2d2| g4 "C"g3f| "G"g2d2 B2G2| \
+    "C"c4 e3c| "G"B2d2 B2G2| "D"A4 d3e| "D7"d2c2 B2A2|
+    "G"G4 "C"G3A| "G"B2G2 B2d2| g4 "C"g3f| "G"g3d B2G2| \
+    "C"c4 e2c2| "G"B3d B2G2| "D7"A4 G2F2| "G"G4 |]
+\
+f2g2| "D"a4 a3a| a2f2 e2d2| "G"g4 b3a| g2d2 B2d2| \
+      "Em"g4 g3g| "Bm"f4 g3f| "A7"e2g2 f2e2| "D7"d2c2 B2A2|
+      "G"G4 "C"G3A| "G"B2G2 B2d2| g4 "C"g3f| "G"g3d B2G2| \
+      "C"c4 e3c| "G"B2d2 B2G2| "D7"A4 G2F2| "G"G4 |]
+%%text 9/1/98.  March.
+S:https://www.folktunefinder.com/tunes/108110
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_1_47.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

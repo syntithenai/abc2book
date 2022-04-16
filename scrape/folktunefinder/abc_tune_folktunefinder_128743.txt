@@ -1,0 +1,21 @@
+X:535
+T:Orphan
+Z: id:dc-jig-93
+M:6/8
+L:1/8
+K:E Dorian
+D|E3 EDB,|GFG A3|BdB ABA|GEF EDB,|!
+A,3 EDB,|GFG AGA|BdB ABA|GED E2:|!
+B|ege dBA|GAB d3|ege dBA|BGE DB,D|!
+EAG EDB,|GFG AGA|BdB ABA|GED E2:|!
+S:https://www.folktunefinder.com/tunes/128743
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

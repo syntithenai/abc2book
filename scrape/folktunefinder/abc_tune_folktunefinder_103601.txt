@@ -1,0 +1,28 @@
+X: 6
+T:Dashing White Sergeant
+R:Reel
+C:Trad, via EF
+S:Nottingham Music Database
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+FE|"D"D2D2 DEFG|A2A2 A2fe|"G"d2B2 "D"A2F2|"Em"B2E2 "A7"EGFE|
+"D"D2D2 DEFG|A2A2 A2f2|"E7"e2d2 c2B2|"A7"A^GAB AGFE|
+"D"D2D2 DEFG|A^GAB A2fe|"G"d2B2 "D"A2F2|"Em"B2E2 "A7"EGFE|
+"D"DCDE DEFG|A^GAB A2f2|"E7"e2d2 c2B2|"A"A6E2|
+A2AB c2cd|e2ec A4|"Bm"B2Bc d2de|f2fd B4|
+"A"c2AA "E7/b"d2AA|"A"e2AA "D"f2AA|"E7"g2f2 e2d2|"A7"c2B2 A2G2|
+"D"F2d2 dc2/2de|d2A2 A4|"Em"B2e2 edef|"A7"e2B2 B4|
+"D"A2d2 dcde|"Bm"f2d2 dcde|"D"f4 "A7"a4|"D"d2cB AG|]
+S:https://www.folktunefinder.com/tunes/103601
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

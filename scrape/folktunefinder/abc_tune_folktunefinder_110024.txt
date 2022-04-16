@@ -1,0 +1,24 @@
+X:86
+T: Schloss in Oesterreich
+N: Q0024E
+O: Mitteleuropa, Deutschland / Niederlande
+N: Eingeklammerte Toene und Pausen kodiert. Geistliche Kontrafaktur
+R: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung; geistlich 
+M: none
+L: 1/8
+K: D
+D2 | D2D2A4A2 | =c4c2=F4z2
+G2 | A2_B4A2A2 | G2A4z2
+B2 | =c2B2A2G2B2 | A4A2D4A2=c4BAB4z2
+A2 | G2E2=F2G2 | E2E2D4z2
+S:https://www.folktunefinder.com/tunes/110024
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung, tod, vergeltung; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

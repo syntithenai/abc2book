@@ -1,0 +1,28 @@
+X:101
+T: Ma mei ge
+N: C0129
+O: China,Hunan, Jiahe
+S: I, 541, 1)]
+N: Wie S. 539. Inhalt: Man schimpft ueber den Heiratsvermittler.
+N:  Der Vermittler im alten China konnte von zwei Seiten das Geld
+N: verdienen. In Volksliedern schimpft man immer auf sie.)
+R: Xiaodiao, Fengsuge, Banjiage. Guniang chujia qian chang]
+M: 1/4
+L: 1/16
+K: A
+A2FF | A4 | B4
+F2AB | c2Bc
+F2BA | F3E | F4
+S:https://www.folktunefinder.com/tunes/112528
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, fengsuge, banjiage. guniang chujia qian chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 1/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

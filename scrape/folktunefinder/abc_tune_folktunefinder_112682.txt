@@ -1,0 +1,31 @@
+X:255
+T: Xinda jiaoche si bu tou
+N: C0401
+O: China,Jiangxi, Jiujiang
+S: IV, 206]
+N: Das Wasser wird hochgetreten. Der Stil hat Aehnlichkeit mit dem
+N: des Nordens. Jiangxi und Hunan haben gleiche Besonderheiten, aber
+N: viele Menschen aus dem Norden sind auch frueher in den Sueden
+N: ausgewandert. Besonders nach Jiangxi.
+N: Wenig Verzierungen, Glissandi. Vor- und Zwischenspiele weggelassen.
+R: Shange, Ge shan diu. Xin minge]
+M: 2/4
+L: 1/16
+K: G
+G2G2AdAG | A2AGG4 | D2G2G4 | A4d6AG
+G4A3d | A2AGG4 | AdGAA3G | G4G8
+D2G2G4 | A4d6AG
+G4AdAG | A3GG4 | A2A2AdAG | G4A8
+AdAGG4 | A4d6AG
+G4A3d | A3GG4 | AdGAA3G | G4G8
+S:https://www.folktunefinder.com/tunes/112682
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, ge shan diu. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

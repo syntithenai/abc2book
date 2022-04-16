@@ -1,0 +1,35 @@
+X:22
+T:Sinclair-visa (fele)
+R:
+C:Edvard Storm / Trad.
+H:
+B:Folque p.39
+D:
+G:Fele / Fiddle / Violon
+O:Norge - Norway - Norvge
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=120
+K:F
+V:1
+%%staves (1 2)
+%%MIDI program 43
+A2 |: A2 A2 A2 DA | AB {AB}AA A2 AA | A2 A2 A2 A2 | 
+AA A2 A2 A2 | [M:6/4] D2 A2 AB {AB}AA A2 AA | [M:C] A3 A A2 A2 | 
+[M:6/4]AA A2 Az A2A3D | [M:C]D2 A2A2A2 | A2 EAD2AA :|
+V:2
+%%MIDI program 43
+D2 |: F2(FE)D2 (A,D)| (DD) (DG) F2 (FG) | A2 A2 G2F2 | 
+EEG2FG/F/ EF/E/ | [M:6/4] A,2 D2 (DD) (DG) F2 FG | [M:C] A3 A G2F2 |
+[M:6/4] EED2 Fz (D2[^C3E3]) C | [M:C]D2D2 DE {E}F2 | {EF}ED ^CED2 (EF) :|
+S:https://www.folktunefinder.com/tunes/112144
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

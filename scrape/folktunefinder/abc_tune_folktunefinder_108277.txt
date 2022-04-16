@@ -1,0 +1,46 @@
+X:6770
+T:Hanter-dro 2
+G:Kazimodal
+R:Hanter-dro
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=95
+P:I5B3
+M:3/4
+S:Tonio Breizh-Izel 1925 (Pleskob)
+K:Gm
+P:I
+%%MIDI gchord fccffz
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 74
+"Gm"(cB/2)A/2 GB (A/2G/2)F | {GA}"Bb"GF/2E/2 DG (G/2A/2)B |\
+"C"(cB/2)A/2 GB (A/2G/2)F | "Dm"(GF/2)E/2 DG "Eb"G2 ||
+%%text 1: tin whistle
+%%text 2: tin whistle  fl\^ute
+%%text 3: tin whistle  fl\^ute  concertina Gm
+%%text 4: tin whistle  fl\^ute  concertina  monte guitare
+%%text 5: tin whistle  fl\^ute  concertina  guitare  monte basse
+P:B
+%%MIDI gchord fcfcfc
+%%MIDI chordprog 25
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 68
+"F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | {GA}"Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
+"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"(GF/2)E/2 DG "Eb"G2 |
+|: "Gm"(GA/2)B/2 "F"cA "Eb"(B/2A/2)G | "Gm"{GA}GA/2B/2 "Bb"cB "C"A2 :|
+"F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | "Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
+"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"{GA}(GF/2)E/2 (DG) "Eb"G2 ||
+S:https://www.folktunefinder.com/tunes/108277
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Hanter-dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

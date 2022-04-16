@@ -1,0 +1,19 @@
+X: 1
+T: Asher Bara #3 (F#m)
+M: 2/4
+L: 1/8
+K: F#m
+|:"F#m"F F2 A | "Bm"cB B2 | cB B2 | cB B2 \
+| "F#m"F F2 A | "Bm"cB B2 | "C#m" AG FE | "F#m"F4 :|
+|:"F#m"F A2 A | A2 A2 | "F#m"A2 B2 | "E"G4 \
+|1 "E"E G2 G | G2 G2 | G2 A2 | "F#m"F4 \
+:|2"E"E G2 F | G2 A2 | "F#m"F4- | F4 :|
+S:https://www.folktunefinder.com/tunes/127122
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AsherBara3_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AsherBara3_Fsm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

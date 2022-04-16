@@ -1,0 +1,28 @@
+X: 37
+T:Schottis frn Idre (D)
+M:2/4
+L:1/16
+Q:70
+C:
+S:
+R:Schottis
+O:Sweden
+A:Dalarna
+N:
+K:D
+D2F>-A d2d2 | D2F>-A d>-ed>-c | e>-fe>-c A2B>-c | d2c>-B A>-GF>-E |\
+D2F>-A d2d2 | D2F>-A d>-ed>-c | e>-fe>-c A2B>-c | d2d2 d2 z2 ::
+a2a2 g2e>g | f2-d2 e4 | =f2a>-g {fg}f2e>-d | c>-de>-d c2A2 |\
+a2a2 g2e>g | f2-d2 e4 | =f2a>-g {fg}f2e>-d | c>-de>-c d4 :||
+S:https://www.folktunefinder.com/tunes/112208
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

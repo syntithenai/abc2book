@@ -1,0 +1,49 @@
+X:37
+T:Folkus Pocus
+C:Colin Hume, 2005
+L:1/8
+M:3/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=120
+%%MIDI chordname dim 0 3 6 9
+H:For Dan and Caroline Hollingshurst
+K:Am
+P:A
+V:1
+[| !accent![CEA] A,/B,/ CA, [B,D]A, | [CE]A, [DF]A, [CE]A, | !accent![CEA] A,/B,/ CA, [B,D]A, | EB, [^D^F]B, [E^G]B, |
+!accent![CEA] A,/B,/ CA, [B,D]A, | [CE]A, [DF]A, [CE]A, | !accent! [B,^D] D/E/ ^FB, DF | [GB][^FA] [EG][^DF] E2 ||
+V:2 bass
+I:octave=-2
+%%MIDI gchordoff
+[| "Am"[Aa]z z2 z2 | "Am"[Ae]z [Ae]z [Ae]z | "Am"[Aa]z z2 z2 | "E7"[Ee]z [Ee]z [Ee]z |
+"Am"[Aa]z z2 z2 | "Am"[Ae]z [Ae]z [Ae]z | "B7"[B,B]z z^f ^dc | "B7"BB BB "Em"!accent! ez ||
+%%vskip 0
+P:B
+V:1
+[ce][c2e2] c/d/ ec | [Bd][B2d2] B/c/ dB | [Ac][A2c2] A/B/ [^Fc]A | [E^G][^FA] [GB][Ac] [Bd][ce] |
+[df][d2f2] d/e/ fd | [ce] [c2e2] c/d/ ec | !accent! B B,/^C/ ^DE ^FG | AB cB ^dB ||
+V:2
+"Am"[A2e2] z2 [e2a2] | "E7"[e2^g2b2] z2 [e2^g2e'2] | "Cdim"[^f2_e'2] z2 [_E2_e2] | "E7"[=E=e]^f ^ga bc' |
+"Dm"[D2d2] z2 [D2d2] | "Am"[A2a2] z2 [A2a2] | "B7"[Bb]z [Bb]z [Bb]z | "B7"[B^d^fa]z [B^d^fa]z [B^d^fa]z ||
+%%vskip 0
+P:C
+V:1
+!accent! [GBe]z !accent! [GBe]z !accent! [GBe]z | !accent! [Ace] A/B/ cB AG |\
+!accent! [Fdf]z !accent! [Fdf]z !accent! [Fdf]z | !accent! [^Gdf] B/c/ dc BA |
+!accent! [Bd^g]z !accent! [Bd^g]z !accent! [Bd^g]z | !accent! [Aca] c/d/ ed cB |\
+[CFA] [F2A2] [EG] [D2F2] | [EBd] [B2d2] [Ac] [^G2B2] |]
+V:2
+"Em"[eb]z [eb]z [eb]z | "Am"[Ae]z z2 z2 | "Dm"[da]z [da]z[da]z | "Bdim"[Bb]z z2 z2 |
+"E7"[ee']z [ee']z [ee']z | "Am"[Aa]z z2 z2 | "F"f f2 e d2 | "E7"[E2e2] [E2e2] [E2e2] |]
+S:https://www.folktunefinder.com/tunes/110084
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

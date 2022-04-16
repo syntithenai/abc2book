@@ -1,0 +1,72 @@
+X:19
+T:Galliard 5 My Lady Mildemays Delight
+C:John Lane
+L:1/4
+M:none
+K:GM frenchtab
+%%stretchstaff false
+%%staffsep 29pt
+[aaXbc1]>c Xd1,,,a [#f,,,d2] |\
+[#haa{,a}3]#f1 [Xda,,,a2] |\
+[ccd,,c1]>e f1{,e} [Xda,,,a2] |\
+[#caabc2] {,a}4 |\
+[#caa,c2] [Xda,c] [#fhaa] |\
+[Xhd,f,d3]h1 [f,,,a]d |\
+#c1a [aaa,c2] ,e1,,d |
+,,,,,a1[aa#c] ,,,c,,d [aa#c,,a2] ||\
+% Takt 9
+[a,,c/],dac Xd1,,,a ,,,,d#f |\
+[haa{,a}1]f/d cdfc [Xda,,,a2] |\
+[c,,,,c/],fce f1{,e} [Xda,,,a2] |\
+[#caa{,a}1]f/d ca,e,c #,a2 |
+[#ca,,c1]a/c [da,c1]c/d [f,,a1]d/f |\
+% Takt 14
+[hd,,,d1],a/,c ,dacd cacd |\
+[f,,,a/]dca [,e,,c],c,ea cac,e |\
+[aa#c,,a1],d/,c ,a,,d,,c,,a ,,,c2 |\
+[#caa{,a}2] ,e [aabc] |
+% Takt 18
+[#caa{,a}3],e1 [aabc]>c |\
+d1,b ,,,a[d,d] #c,b |\
+[dab,,d2] ,,,a ,,,,,d |\
+[#cdda1]>d f2 [da,c] |\
+[#caa{,a}3]c1 [Xda,,,a]f |\
+h2 {e}1h #g2 |\
+% Takt 24
+[haa{,a}2] [haa4] ||
+[#caa{,a}1]a/c ,e1,a ,ea |\
+[#caa{,a}1],a/,c ,eac,e [a,,c],dac |\
+d/cda [c,,a]acd fdfc |\
+,,,,,d1[dab] ,,,a,,,,,d [dab2] |\
+[#cdda1],d/a cdf1 [da,c]a |
+% Takt 30
+[#caa{,a}1],a/,c ,eac,e [a,,,,a],eac |\
+d/fh1 [#g,a]k/h ghkg |\
+[#haa{,a}1]f/d ca,e,c #,a2 ||\
+[#haa{,a}3]Xl1 k#h |\
+[#fhaa3]Xi1 h#f |\
+[#da,,,a3]Xh1 f#d |
+% Takt 36
+[#caa{,a}3]Xf1 d#c |\
+[aXb,,d3]d1 [#c,d,a]a |\
+[,efec3][,ab,,d1] [,,d,a]#,,b |\
+[,,a,d1],,,c [,aa,Xc]>,,,c ,,,b1,,d |\
+[aac,,a2] #,,,c4 ||\
+[#haa{,a}1],i/,l hkl1 kh |\
+[#fh,a1],h/,i fhi1 hf |
+% Takt 43
+[Xda,,,a1]a/c dfh1 fd |\
+[#caa{,a}1],e/a cdf1 dc |\
+[aXb,,d1],b/,d acd1 [#c,d,a]a |\
+[,Xea{,a}1],,,c/,,a ,,b,,d[,a,,,d1] [,,d,a]#,,b |\
+[,,a,d1],,,c [,aacc1],,d/,,b ,,a,,,c#,,,b1 |\
+,,,,,a1[aac] ,,,c/,,d#,,c,,a ,,,c2 |]
+S:https://www.folktunefinder.com/tunes/109580
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

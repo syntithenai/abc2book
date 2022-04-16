@@ -1,0 +1,28 @@
+X:13128
+T:Pilgrim,The. BC.33
+M:6/8
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Jig
+O:England
+A:x
+Z:John Bagnall
+K:D
+A | d2 d e2 e | f d z z2 A | (Bc) d A2 G | F D z z2 c |!
+ "tr"(dc) d "tr"ed e | f3 e2 c | (df) e (dc) B | "cr"A3-A2:|!
+|: A | A2 A (AG) F | G2 B e2 G | G2 G (GF) E | (F2A) d2 F |!
+ (GA) B (AF) D | (B2c)  d3 | egf (gec) | d3 d2 |!
+|daf Bge | Agf gec | dfa |"END"d'2|]
+S:https://www.folktunefinder.com/tunes/116173
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

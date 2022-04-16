@@ -1,0 +1,31 @@
+X:24
+T:Le Sel de Bretagne
+R:reel
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:Set in the lovely landscape of Britanny lies this lovely village home to great musicians, singers and dancers who enjoy and share their musical lives to the full.
+L:1/8
+Q:300
+M:C|
+K:Bmin
+C|B,B({d}B)A FEED|(3(CDE) B,E A,ECE|B,cBA FEEF|ABce cBBc|
+dcBA FEED|(3(CDE) B,E A,ECE|B,cBA FEEF|AFED CB,B,||
+||z|F(B{c}B)A Bcdf|ecBc AFE2|F(B{c}B)A BcdB|AFEC (3A,A,B, CE|
+F(B{c}B)A Bcdf|ecBc AFED|FD ~D2 EC ~C2|DFEC B,3|]
+S:https://www.folktunefinder.com/tunes/130161
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

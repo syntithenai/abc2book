@@ -1,0 +1,28 @@
+X:77
+T:La Dana
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n77
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:F
+C | F2 G A2 A | A A A A2 A | c2 B A2 G | G3 F2 z | A3 G3 | F C F G3 |!
+G A B A3 |G F G A2 F |A3 G3 | F C F G3 | G A B A3 |G F G F2 z ||
+W:L'tait une frgate
+W:Lonla, l'tait une frgate
+W:C'tait la Dana,
+W:A prendre un ris dans les basses voiles
+W:C'tait la Dana,
+W:A prendre un ris dans les huniers. /.../
+S:https://www.folktunefinder.com/tunes/119551
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

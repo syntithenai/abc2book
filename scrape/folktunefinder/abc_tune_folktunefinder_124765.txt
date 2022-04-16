@@ -1,0 +1,28 @@
+X:32
+T: Sadie at the Back Door
+C: Jere Canote
+M: 4/4
+L: 1/8
+R: reel
+P: ABAB
+F:http://jc.tzo.net/~jc/music/abc/OldTimey/reel/SadieAtTheBackDoor_D.abc 2007-05-02 13:31:10 UT
+K: D
+|: "D"agfe d4 | ag f/2e/2d"C"=c2e2 | "D"ag f/2e/2d "C"=c2B2 | "C"=c2(B/2=c/2)BAF "D"D2 :|
+|: "D"FFD2 FFD2 | "C"=cBAF "D"D4 | "D"FFD2 "C"=c2B2 |1 "C"=c2(B/2=c/2)BAF "D"D2 :|2 "C"f2d2 AF "D"D2 |]
+cB| "A"A2AB cABc| "D"dcde fdef| "G"g2gf g2a2| "D"f6 cB|
+    "A"A2AB cABc| "D"dcde f2ef| "G"gfed "A"cABc| "D"d6 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/124765
+S:http://jc.tzo.net/~jc/music/abc/OldTimey/reel/SadieAtTheBackDoor_D.abc
+S:http://jc.tzo.net/~jc/music/abc/OldTimey/reel/SadieAtTheBackDoor_D.abc
+S:http://otmad.net/review/hrc-playlist.abc
+S:http://www.otmad.net/review/hrc-playlist.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

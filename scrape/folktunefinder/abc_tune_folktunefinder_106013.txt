@@ -1,0 +1,25 @@
+X: 8
+T:I Was Roaming in the Gloaming
+M:3/4
+L:1/8
+S:James Whiteside manuscript
+R:Air
+K:G
+"Moderato"(3DEF|G2 G2 AF|GF D2 GA|B2 c2 BG|A4 (3ABc|
+d2 ef e2|dc AG FA|G2 GF D2|D4||
+dc|B2 GB dc|AF D2 dc|B2 GB dc|A4 (3ABc|
+d2 ef e2|dc AG FA|G2 GF D2|D4||
+S:https://www.folktunefinder.com/tunes/106013
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-1.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/IWasRoamingInTheGloaming.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0008.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

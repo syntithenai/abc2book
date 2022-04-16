@@ -1,0 +1,24 @@
+X:1
+T: Miss Thompson
+I: Miss ThompsonR-107Dreel
+M: C|
+R: reel
+K: D
+(3ABc| "D"d2df edcB| "A"A2AB AGFE| "D"DFAF "G"DGBG| "D"DFAF "G"GFED|
+       "D"d2df edcB| "A"A2AB AGFE| "D"DFAd "A7"fedc| "D"d2dc d2:|
+|:cd| "A"ecec Acec| "D"fdfd Adfd| "G"gege "D"fdfd| "E7"edcB "A"A2FA|
+    "G"BGBG DGBd| "D"AFAF DFAd| FAde "A7"fedc| "D"d2dc d2:|
+%%text Roaring Jelly  R-107.
+S:https://www.folktunefinder.com/tunes/107165
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/reel/R107_Miss_Thompson_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

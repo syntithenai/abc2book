@@ -1,0 +1,30 @@
+X: 37
+T:Favourite Italian Dance,The. ST.37
+M:6/8
+L:1/8
+Q:120
+C:See "Quadrille. JMT.002"
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Monferina
+O:England
+A:Staffordshire
+N:See "Quadrille. JMT.002".CGP
+Z:vmp.Tim Willets   
+K:D
+Ade|f2Af2A|(fg)f (ef)e|d2cd2f|e>dc/2B/2 Ade|!
+f2Af2A|(fg)f (ef)e|(dc)B (dc)B|f2zF2G|!
+(AB)c (de)f|a2g efg|(cd)e (AB)c|d2zF2G|!
+(AB)c (de)f|f2e Bed|cBc ABc|d3|]
+S:https://www.folktunefinder.com/tunes/104149
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Monferina
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

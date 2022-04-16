@@ -1,0 +1,35 @@
+X: 47
+T:Lawn Tennis Schottische,The. GHW.047
+M:4/4
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottische
+O:England
+A:Norfolk
+N:Sign at start, Fine at end of A part, DC at end of B part,  Trio at
+N:start of C part. DC and Sign at end of 2 time bar of C part
+Z:vmp.Taz Tarry
+K:G
+D>BA>G (F2d2)|E>cB>A D2 z2|A>BA>^G (A2 d2)|d>^cB>c d2 z2|!
+D>BA>G (F2d2)|E>cB>A D2 z2|B>cB>A d>ed>c|B2A2G4:|!
+|:B>cB>A (B2F2)|A>GF>G E2 z2|d>ed>^c (d2B2)|A2 ^c2 d4|!
+g>ag>f (e2B2)|e>fe>dc2 z2|A>Bc>d c>BA>G|E2F2 G4:|!
+K:D
+"TRIO"(3AAA) B2 (3AAA) E2|(3AAA) B2 (3AAA) F2|A>^GA>B (c2d2)|1 e2f2e2a2:
+|2
+f2e2d4||
+S:https://www.folktunefinder.com/tunes/101464
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

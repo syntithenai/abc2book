@@ -1,0 +1,26 @@
+X: 39
+T:Tripper's Waltz
+M:3/4
+L:1/8
+C:David Pickens
+R:Waltz
+K:D
+"D"F3 E FE|"Bm"D3EF2|"G"G4D2|"A7"C2D2E2|"D"F3 E FE|"Bm"D3EF2|"G"G4D2|"A7
+"C6|!
+"Bm"F4F2|"G"G4 GF|"A7"E2D2E2|"D"F6|"Bm"F4F2|"G"G4 GF|"A7"E6|1"A7" E6||2"
+A7"E2D2C2|"D"D6||!
+"G"B4 4c|"A7"d2c2B2|"D"A4 BA|"Bm"F2D4|"G"B4 Bc|"A7"d2c2B2|"D"A6|"D"A6|!
+"G"B4 4c|"A7"d2c2B2|"D"A4 BA|"Bm"F2D2F2|"A7"E6|"A7"E4D2|"A7"C6|"A7"C2D2E
+2||
+% Output from ABC2Win  Version 2.1 i on 8/26/2003
+S:https://www.folktunefinder.com/tunes/119837
+S:http://home.usit.net/~bhooper/SCOT5.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

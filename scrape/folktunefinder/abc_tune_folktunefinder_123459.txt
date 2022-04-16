@@ -1,0 +1,29 @@
+X:4676
+T:Ecko Dance. GS.046
+M:6/8
+L:1/8
+Q:110
+S:George Spencer m/s, Leeds,1831
+R:Quadrille
+O:England
+A:Leeds
+H:1831
+Z:vmp.Cherri Graebe
+K:F major
+c | c=Bc AFc | cBc= BGc | c=Bc ^c2d | G2A AFc | c=Bc AFB |! c=Bc BFc | c
+=Bc dBG |
+ EFG F2 || c | "qu"f2 f fef | a2ge2c |! "qu"d2e ede | gfe f2c | f2f fef
+|
+a2ge2c | e2e ede | gfe f2 ||
+S:https://www.folktunefinder.com/tunes/123459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

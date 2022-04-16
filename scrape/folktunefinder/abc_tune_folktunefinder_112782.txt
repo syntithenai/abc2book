@@ -1,0 +1,29 @@
+X:355
+T: Qing nian can jun
+N: C1297
+O: China,Dongbei, Diqu
+S: MM, ZHONGGUO MINGE XUAN S.42]
+N: Pinyin-Text der ersten Strophe vorhanden!
+R: Xiaodiao, Xiu Luoqun Diao, Jiandianhua diao. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: E
+e2e2B2c2 | B6c2 | e2e2B2c2 | B8
+G2B2c2Bc | e2e2c2B2 | B2G2F2G2 | B2G2B4
+c2B2c2Bc | e2e2c2B2 | G2G4c2 | B2c2B2G2
+F2E2F2F2 | z2B4G2 | F2B2G2F2 | E2E4F2 | E8
+c2B2c2f2 | e2c2B2G2
+F2E2F2F2 | z2B4G2 | F2B2G2F2 | E2E4F2 | E8
+S:https://www.folktunefinder.com/tunes/112782
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, xiu luoqun diao, jiandianhua diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

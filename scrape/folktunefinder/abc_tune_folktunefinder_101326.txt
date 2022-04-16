@@ -1,0 +1,28 @@
+X:50
+T: Rogers O'Neill
+M: C|
+L: 1/8
+B: O'Neill's 1634
+N: "collected by Cronin"
+N: Fixed staff breaks [jc]
+N: Fixed line wrapping [jc]
+Z: Transcribed by Nick Terhorst, nickte@microsoft.com
+K: A
+cB|AGAB AEFG|Ac (3efg a2 (3 efg|aecA dfgf| (3efe (3dcB eaec|
+|AGAB AEFG|Ac (3efg a2 (3efg| aecA dBGB|A2 A2 A2:|
+|:(3efg|aecd fdBG|AcEc AcEc|BdEd BdEd|ceAe ceAe|
+|aece fdBG|AcEc BABc|dfed cBAG|A2 A2 A2:|
+|:cB|AGAB AEFG|cABc eAce|fdge afdf|(3efe (3dcB AGFG|
+|AGAB cEAc|BABc defg|ag af edcB|A2 A2 A2:|
+|:cd|efec ABcA|BEGB AGAB|cAce dcBA|GABG Edcd|
+|efec ABcA|BABc defg|agaf edcB |A2 A2 A2:|
+S:https://www.folktunefinder.com/tunes/101326
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

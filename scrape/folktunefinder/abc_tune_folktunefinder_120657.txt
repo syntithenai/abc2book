@@ -1,0 +1,22 @@
+X:47
+T:slip jig
+R:slip jig
+D:Matt Molloy: Stony Steps
+Z:id:hn-slipjig-47
+M:9/8
+K:D
+F2A A2B A3|F2A A2A Bcd|F2A A2B A3|e2f e2d B2A:|
+|:f2a a2f d3|e2f e2d B2A|f2d e2c d3|B2=c B2A FED:|
+S:https://www.folktunefinder.com/tunes/120657
+S:http://www.firepowr.com/abc/Norbeck_hnsj0.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnsj0.abc
+S:http://www.norbeck.nu/abc/i/hnsj0.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

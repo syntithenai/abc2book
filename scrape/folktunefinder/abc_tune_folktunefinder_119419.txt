@@ -1,0 +1,23 @@
+X:1
+T:Cumberland Nelly
+Q:1/4=120
+S: Greg Stephens Collection
+M:2/4
+L:1/16
+K:G
+B2|A3G A2BA|G2E2 E2GE|D2G2 G3A|Bcd2 d2ef|
+g2gf efge|d2B2 A2GA|B2e2 BeBA|G2E2 E2:|
+|:ef|g2gf efge|d2B2 B2GA|B2e2 edef|g2e2 e3f|
+g2gf efge|d2B2 A2GA|B2e2 BeBA|G2E2 E2:|
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119419
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

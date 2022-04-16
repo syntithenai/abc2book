@@ -1,0 +1,24 @@
+X:25
+T:Tombigbee Waltz
+R:Waltz
+M:3/4
+L:1/4
+Q:1/4=91
+K:D
+|GBB|d2 B/2A/2|GBB|d2 B|
+BAA|A2 B/2d/2|e2 d|B2 B/2A/2|
+GBB|d2 B/2A/2|GBB|d2 B|
+BAA|A2 d|edF|G2 d|
+g2 d|g2 d3/2|e3/2 d/2|e d2 B|
+BAA|A2 B/2d/2|e2 d|B2 d|
+g2 d|g2 d3/2|e3/2 d/2|e d2 B|
+BAA|A2 B/2d/2|edF|G2 B/2|G3|]
+S:https://www.folktunefinder.com/tunes/122570
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

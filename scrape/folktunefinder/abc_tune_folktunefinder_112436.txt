@@ -1,0 +1,29 @@
+X:9
+T: Wo de gege dangle hongjun
+N: C0010
+O: China,Shaanxi, Suide, Mizhi
+S: I, 45, 2)]
+N: Neues Volkslied
+N: Eine Verzierung auf letzter Note.
+R: Shange, Xintianyou. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: F
+G2FED2DD | G2Aed4- | d8 | c3Ac2AG | F2D6
+GAF4G2 | A4d2c2 | A2F2GAF2 | D8
+d2d2g2dc | AcAGF2D2 | d2d2g2dc | A8
+d2d2g2dc | AcAGF2D2 | G2G2c2AG | FD3-D4
+G2FED2DD | G2Aed4- | d8 | c3Ac2AG | F2D6
+GAF4G2 | A4d2c2 | A2F2GAF2 | D8
+S:https://www.folktunefinder.com/tunes/112436
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, xintianyou. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

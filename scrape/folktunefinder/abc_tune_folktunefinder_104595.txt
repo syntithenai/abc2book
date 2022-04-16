@@ -1,0 +1,33 @@
+X: 49
+T: Reel B&amp;Egrave;atrice
+R: reel
+O: Jos Bouchard
+B: 
+D: La Bottine Souriante "Je Voudrais Changer D'Chapeau"
+Z: John Chambers &amp;lt;jc#eddie.mit.edu&amp;gt; http://eddie.mit.edu/~jc/music/
+N: Well-known in New England, and many variants exist.
+N: (Did Jos Bouchard write this tune)
+M: C|
+L: 1/8
+K: Am
+A,B, \
+|: "Am"CB,A,C E2CE | A2EA EGAB \
+| cBAc e2ce | aeea egab |
+| c'bag fedc | "Dm"BddB d4 \
+| "E7"\^edef e=dcB | "Am"AA,A,A, A,2z2 :|
+|: "Dm"a2^ga bff2 | "Am"f\^ede a4 \
+| "E7"e2^de f2e=d | "Am"cdcB cBA2 |
+| "Dm"a2^ga bff2 | "Am"f\^ede a4 \
+| "E7"\^edef e=dcB |1 "Am"AA,A,A, A,2z2 :|2 "Am"A2z2 "G7"G2AB ||
+|: "C"c2Gc EGce | c2Gc EGce \
+| "G7"d2Bd GBdB |1 "C"c2ba "(G7)"gfed :|2 "C"ce"G7"dB "C"c2z2 :|
+S:https://www.folktunefinder.com/tunes/104595
+S:http://domren.free.fr/ABC.htm
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

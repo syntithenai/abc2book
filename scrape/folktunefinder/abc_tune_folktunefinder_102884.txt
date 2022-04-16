@@ -1,0 +1,30 @@
+X:1
+T:Polska
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 292)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 292
+R:Polska
+C:Alfred Petersson
+M:3/4
+L:1/16
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:G
+v(gf).g.a (gf).e.d (cB).A.G|([D2B,2]G2) (G2B2) (B2d2)|d2 cB c2[E2A,2] [E2A,2]c2|(dc).B.A B2[D2B,2] [D2B,2]B2|
+(cB)AB c2[E2A,2] [E2A,2]c2|(dc).B.A B2[D2B,2] [D2B,2]B2|(BG)AB (cd)ef (gf)ge|(dB)cA (A2G2) G4:|
+|:G4 (G2B2) (B2d2)|(AB)AG (FG)FE D4|(DE).F.G (AB).^c.d (ef).g.e|(fd)e^c c2d2 d4|
+(G2B2) (B2d2) d2g2| b2d2 d2=cB (B2c2)|(AG)FG A2B2 c2a2|a2c2 (dc)BA B2(AB)|
+(cB)AB c2[E2A,2] [E2A,2]c2|(dc)BA B2[D2B,2] [D2B,2]B2|(cB)AB c2[E2A,2] [E2A,2]c2|(dc)BA B2[D2B,2] [D2B,2]B2|
+(BG)AB (cd)ef (gf)ge|(dB)cA (A2G2) G4:|
+S:https://www.folktunefinder.com/tunes/102884
+S:http://www.folkwiki.se/pub/cache/Polska_f1b419.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

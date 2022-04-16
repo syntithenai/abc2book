@@ -1,0 +1,35 @@
+X:6
+T:Vals i form etter Thorvald Trondsgrd 1
+R:Waltz
+S:Folldal Spellmannslag
+N:http://home.no.net/janwes/folldal/
+D:slift (5)  & Chants et danses de Norvge / Auvidis
+O:Norge - Norway - Norvge
+A:Hedmark
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+P:AABB
+M:3/4
+L:1/4
+Q:1/4=150
+K:F
+P:[A]
+Add | c>BG | G/A/BB | A>FD | D/E/FF | E>^CA, | A,/G/FE | D/^C/D/ E/F/G/ |
+Add | c>BG | G/A/BB | A>FD | D/E/FF | E>^CA, | A,/G/FE | D3 ||
+P:[B]
+A,D/ ^C/D/E/ | F/G/A>A | ABA | Gd>c | BAG | FE>D | ^CDD/^C/ | D/E/A,2 |
+A,D/ ^C/D/E/ | F/G/A>A | ABA | Gd>c | BAG | FE>D | ^CD>D | DD2 |]
+%
+%var A,D/^C/D/E/ | F/G/A>A | ABA | Gd>c | BA>G | FE>D | ^CDD/^C/ | D/E/A,2 |
+%var A,D/^C/D/E/ | F/G/A>A | ABA | Gd>c | BA>G | FE>D | ^CD>D| DD2 |]
+S:https://www.folktunefinder.com/tunes/112128
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

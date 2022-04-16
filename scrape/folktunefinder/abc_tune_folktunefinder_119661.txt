@@ -1,0 +1,27 @@
+X:107
+T:Chanson de la marie
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n107
+Z:6/8
+L:1/8
+Q:1/4=135
+K:A
+E | A2 A B2 B | (d3c2) c | c2 c A2 A | c3B2E | 
+    A2 A B2 B | (d3c2) c | c2 c A2 A | c3B2B | 
+    B2 B c2 B | A3-A z c | c2 BHB2 A | A3-Az ||
+W:Nous sommes venus vous noir,
+W:Du fond de notre village,
+W:Pour vous souhaiter ce soir,
+W:Un heureux mariage,
+W:A monsieur votre poux,
+W:Aussi bien comme  vous.
+S:https://www.folktunefinder.com/tunes/119661
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

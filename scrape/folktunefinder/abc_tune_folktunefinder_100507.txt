@@ -1,0 +1,35 @@
+X:215
+T:the Canty Old Man
+R:Jig
+O:Scotland
+M:6/8
+%%ID:00000cf9
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cf9.abc
+K:G
+D|\
+G>AG GAB  | c<ee e2g | \
+d>BG d>BG | F<AA A2D | \
+G>AG G>AB | c<ee e2g |
+d>BG c>AF | G<GG G2  :: \
+A/B/ |\
+c>dc c>AF | d2B d>BG | \
+e2c d>BG  | F<AA A2B |
+c>dc c>AF | d2B d>BG | \
+e>fg B>cA | G<GG G2  :: \
+B/c/ |\
+d>BG D2B  | c>AF D2c  |
+B>GB c>Ac | B>GB A>Bc |\
+d>BG D2B  | c>AF D2c  | \
+B>GB c>Ac | B>cA G2   :|
+S:https://www.folktunefinder.com/tunes/100507
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000cf9.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

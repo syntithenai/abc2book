@@ -1,0 +1,30 @@
+X: 13
+T: Aunt Mary's Canadian Jig (J-36)
+I: Aunt Mary's Canadian JigJ-36Djig
+M: 6/8
+R: jig
+K: D
+z2A| "D"f2f fga| d2d dcB| ABA "B7"AGF| "Em"E2E E2A|
+   "A7"e2e efg| e2d c2B| ABA ABA|1 "D"F3 :|2 "D"d3 |]
+|:\
+z2A| "D"ABA faf| e2d d2z| AFA "B7"BcB| "Em"A2G G2z|
+   "A7"GFG efe| d2c c2B|1 ABA ABA| "D"F3  :|2 "A7"ABA ABc| "D"d3 |]
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%scale .6
+%%staffwidth     15.50cm
+%%textfont       Times-Roman 10.0
+S:https://www.folktunefinder.com/tunes/113257
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

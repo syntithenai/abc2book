@@ -1,0 +1,23 @@
+X:150
+T:Dancing Bear
+R:reel
+Z:Added by Alf Warnock
+M:4/4
+L:1/4
+K:C
+|eA A/2B/2c/2d/2|eA AA/2B/2|cc Bc|d2 cd|
+eA A/2B/2c/2d/2|eA AA/2B/2|c/2B/2A/2c/2 B/2A/2G/2A/2|A2 A2|
+eA A/2B/2c/2d/2|eA AA/2B/2|cc Bc|d2 cd|
+ea ea|eA AA/2B/2|c/2B/2A/2c/2 B/2A/2G/2A/2|A2 AA/2B/2||
+|:ce d/2c/2B|ce d/2c/2B|g/2d/2B/2d/2 g/2d/2B/2d/2|Af e^g|
+a3/2>ecB|A/2G/2A/2B/2 c/2d/2e|f/2e/2d/2c/2 B/2A/2G/2B/2|A2 A2:|
+S:https://www.folktunefinder.com/tunes/99967
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

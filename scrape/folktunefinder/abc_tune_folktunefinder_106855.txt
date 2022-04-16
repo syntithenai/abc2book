@@ -1,0 +1,36 @@
+X: 100
+T: Jig of Slurs
+C: J-40
+C: G. S. MacLellan
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %leftmargin 1.6cm
+% %staffwidth 18.4cm
+P: D, E Dorian
+K: D
+A| "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "D"Add| "Em"Bee "A"edB|
+   "D"Add dcd| "G"Bdd "D"Add| "G"Bdd "A"cde| "D"fdd d2:|
+|:\
+B| "D"Aff fef| aff fed| "Em"Bee ede| "G"fed "A"edB|
+   "D"Aff fef| aff fed| "G"Bdd "A"cde| "D"fdd d2 :| \K:Edor\
+|:\
+B| "G"Ggg gfg| "Em"age "G/D"gdB| "G"Ggg gfg| "D"age "G"g2 B|
+   "G"Ggg gfg| "Em"age "G"ged| "Em"Bee efg| fed e2:|
+|:\
+G| "G"GBB Bdd| dee "Em"edB| "G"GBB Bdd| dee "Em"efg|
+   "G"GBB Bdd| dee edB| "Em"Bee efg| "D"fed "Em"e2:|
+%%text 10/25/99
+%%newpage
+% ---------- page 51 ----------
+S:https://www.folktunefinder.com/tunes/106855
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

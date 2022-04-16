@@ -1,0 +1,24 @@
+X:3
+T:II. Whoever thinks or hopes of love for love
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+%%MIDI nobarlines
+%%MIDI transpose -12
+M:C|
+L:1/4
+K: Gdor -8va
+T:Tenor
+N: Original clef, C on third line
+L:1/4
+%1
+f2 f d d3 f _e d d > c =B4 d f > g e d > e f > g a d
+S:https://www.folktunefinder.com/tunes/111015
+S:http://www.laymusic.org/music/dowland/whoever/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

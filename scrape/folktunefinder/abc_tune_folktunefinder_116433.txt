@@ -1,0 +1,28 @@
+X:13388
+T:Polska
+R:Polska
+O:Sweden
+M:3/4
+C:e. Kristian Oscarsson
+A:J\"amtland
+K:D
+{f}e>f d2 f2|{ef}e>d c2 d2| \
+a>^g a>b a>=g | ef/e/ de/d/ cd | \
+(3edc d2 (e2 |{f}e)>f d2 f2 |
+{ef}e>d c2 d2|a>^g a>b c'>b | a2 a2 z2 :: \
+{c}e>c A2 ce|eg gf {f}d2 | f>e e>c ef|
+ga/g/ (3fed e>c | A>c e2 {cdc}A2 |\
+eg gf fd | e>e e>c ef|\
+(3gag (3fed (3cBc | d2 d4 :|
+S:https://www.folktunefinder.com/tunes/116433
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

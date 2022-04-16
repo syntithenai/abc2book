@@ -1,0 +1,25 @@
+X:12
+T:Dinah's Jig
+C:Bob McQuillen
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:E Dor
+|:E|\
+"Em"B,EE GAB|"D"~ABA DEF|"Em"EGB "A"AGA|"Bm"Bdd d2E|
+"Em"B,EE GAB|"D"~ABA DEF|"C"EGB AGF"Am"|GEE "Em"E2:|
+|:B|\
+"Em"eBe "G"dBd|"A"~cAc "Em"BGE|"Em"eBe "G"dBd|"A"~cAc "Bm"B2B|
+"E"eBe "G"dBd|"A"~cAc "E"BGE|"C"eBA GFE"Am"|B,EE "Em"E2:|
+S:https://www.folktunefinder.com/tunes/125685
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

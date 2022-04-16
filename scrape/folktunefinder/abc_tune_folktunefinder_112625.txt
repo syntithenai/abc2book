@@ -1,0 +1,28 @@
+X:198
+T: Fengshou changtou qian zhi ge
+N: C0322
+O: China,Jiangsu, Jingjiang
+S: III, 450]
+N: um die Arbeit zu koordinieren. Beschreibung der Stadt Wuxi.
+N: Intonation des Sprachrhythmus nicht aufgezeichnet:
+N: x_x_x_x_  x_x_x_x_  x_x_x_x_  x_x_x_x_
+N: x_xxx_x_  x_x_x_x_  x_x_x_x_  x_x_x_x_
+R: Haozi, Lianjia Haozi. Xin minge]
+M: 2/4
+L: 1/16
+K: C
+d3dd2d2 | c2d2dcA2 | d4d2A2 | c2d2dcA2
+d3dd2d2 | deA2G2G2 | G2A2d4 | cdcAG4G2z2
+d2ddd2d2 | c2d2dcA2 | d4d2A2 | c2d2dcA2
+d3dd2d2 | deA2G2G2 | G2A2d4 | cdcAG4G2z2
+S:https://www.folktunefinder.com/tunes/112625
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, lianjia haozi. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

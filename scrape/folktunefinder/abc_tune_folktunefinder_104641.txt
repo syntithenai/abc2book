@@ -1,0 +1,42 @@
+X:9
+T:Le denicheur (Valse musette)
+C:Leo Daniderff
+H:pre WW2
+I:standard musette waltz, from a song by Gibert &amp;amp; Leon Agel
+A:France
+I:Rights for public performance
+Q:1/4=180
+M:3/4 
+P:IABA    
+K:D
+P:I
+zA ^GA Bc |
+P:A
+"D"d2 e2 c2 |B2 c2 z A |F6 |\
+FA ^GA Bc |d2 e2 c2 |B2 c2 z A |"Em"G6 |
+G4 F2 |E2 F2 G2 |A2 B2 d2 |"A7"c6 |\
+c2 e3 c |B4 A2 |A2 c3 B |"D"B6 |
+FF ^EF GA |d2 e2 c2 |B2 c2 z A |F6 |\
+F2 z2 A2 |"B7"A2 A2 A2 |A2 B2 =c2 |"Em"=c2 B4 |
+B4 B2 |e2 d2 c2 |"E7"e2 d2 B2 |"D"A2 d2 g2 |\
+f2 z2 A2 |"A7"A2 A2 A2 |A2 z2 FA |"D"d6 |d2 z2 [A2F2] ||
+P:B
+|:"D"[A2F2] [A2F2] [A2F2] |[A2F2] [A2F2] z [^G^E] |"A7"[G6E6] |\
+[G2E2] z2 [B2G2] |"Em"[B2G2] [B2G2] [B2G2] |"A7"[B2G2] [B2G2] z [_BG]|\
+"D"[A6F6] |
+[A2F2] z2 A2 |[d2A2] [d2A2] [d2A2] |[e2A2] [d3A3] B |"A7"[c6A6]|\
+|1 d2 c2 A2 |"Em"[B6G6] |\
+"A7"c2 B2 F2 |"D"A6 |
+A2 z2 A2 :|2"A7"[c2A2] z2 c2 |"Bm"f2 e2 d2 |"E7"c2 d2 B2 |\
+"A"A6 |A2 z2 A2 ||[e2c2] [e2c2] [e2c2] |"Em"[d2B2] [d2B2] z [dB] |
+"A"[c6A6] |[c4A4] [c2A2] |"Em"[B2G2] [B2G2] [B2G2] |"A7"[B2G2] [c2G2] z A |\
+"D" [d6A6] |[dA]A ^GA Bc||
+S:https://www.folktunefinder.com/tunes/104641
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,51 @@
+X:4
+T: Seige of Ennis Medley
+T:Andy Irvings Polka % 1st half
+T:Banks of Inverness Reel % Key of D
+T:Seige of Ennis % 2nd half
+R:polka
+M:4/4
+L:1/8
+Q:1/4=3D200
+K:G=A0 %1sharp
+z7 |
+|: "G" D>EDB, DEG>A=A0=A0 |=A0 Bd AB/A/ "C" GEcE=A0 |=A0 "G" D>EDB, DEG>A=
+=A0=A0 |1 =A0
+"D" Bd AB/A/ "G" G2 GE=A0 :|2=A0 "D" Bd AB/A/ "G" G2 GA=A0 |=20
+|: "G" Bdd>B=A0 "C" cee>c=A0 |=A0 "G"=A0 Bd AB/A/ "C" GEcE=A0 | "G" Bdd>B=
+=A0 "C"=20
+cee>f=A0 |1=A0=A0 "Em" ge"D"fd "C" e2 eA :|2=A0=A0 "Em" ge"D"fd "C" e2 ef=
+=A0 |
+|:"Em"=A0 ge"D"fd "C" ed"G"B>A=A0 |=A0 "G"=A0 Bd AB/A/ "C" GEcE=A0 |=A0 "G"=
+ D>EDB,=20
+DEG>A=A0=A0 |1=A0 "D" Bd AB/A/ "G" G2 Gf=A0 :|2=A0 "D" Bd AB/A/ "G" G2 GE |
+|: "G" D>EDB, DEG>A=A0=A0 |=A0 Bd AB/A/ "C" GEcE=A0 |=A0 "G" D>EDB, DEG>A=
+=A0=A0 |1 =A0
+"D" Bd AB/A/ "G" G2 GE=A0 :|2=A0 "D" Bd AB/A/ "G" G2 GA=A0 |=20
+|: "G" Bdd>B=A0 "C" cee>c=A0 |=A0 "G"=A0 Bd AB/A/ "C" GEcE=A0 | "G" Bdd>B=
+=A0 "C"=20
+cee>f=A0 |1=A0=A0 "Em" ge"D"fd "C" e2 eA :|2=A0=A0 "Em" ge"D"fd "C" e2 ef=
+=A0 |
+|:"Em"=A0 ge"D"fd "C" ed"G"B>A=A0 |=A0 "G"=A0 Bd AB/A/ "C" GEcE=A0 |=A0 "G"=
+ D>EDB,=20
+DEG>A=A0=A0 |1=A0 "D" Bd AB/A/ "G" G2 Gf=A0 :|2=A0 "D" Bd AB/A/ "G" G2=A0 G=
+A=A0 |
+|: "G" BdBdBddB/d/=A0 |=A0 {ef}edBA "C" BAAG=A0 | "G" BdBdBddB/d/=A0 |"D" =
+=A0
+{ef}ed{Bd}BA "G" AGGG/A/=A0 |=20
+"G" BddB/d/=A0 "C" edd>B=A0 |=A0 "G" dBAG/A/ "C" BA ~A2=A0 |=A0 "G" Bdd>d e=
+ddB/d/ =A0
+|1=A0 edBA "G" BGGA=A0 :|2=A0 edBA "G" BGGE=A0 |=20
+|: "G" D>EDB, DEG>A=A0 |=A0 BdBA "C" GEE>D=A0 |=A0 "G" D>EDB, DEG>A=A0 |1=
+=A0 Bd"D"BA=20
+"G" G2 GE=A0 :|2=A0 Bd"D"BA "G" G2
+G=A0 z=A0 |
+S:https://www.folktunefinder.com/tunes/117394
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Seige_of_Ennis_Medley_2.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

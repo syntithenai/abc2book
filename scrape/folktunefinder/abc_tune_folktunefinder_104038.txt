@@ -1,0 +1,30 @@
+X:42
+T:Menuet
+R:Menuet
+C:anonyme
+H:
+N:2, p 7
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2
+L:1/4
+Q:1/4=110
+K:C
+!!e2f | g/f/e/f/g | agf | !!ed/e/c | g/e/g/e/g/e/ | f/d/f/d/f/d/ |
+e/f/g | f/e/ | !!d3 :||
+S:https://www.folktunefinder.com/tunes/104038
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Rhythm Menuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

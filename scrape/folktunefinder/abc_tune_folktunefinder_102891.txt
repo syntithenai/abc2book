@@ -1,0 +1,31 @@
+X:1
+T:Ryska Polskan
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 299)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 299
+R:Engelska
+C:Alfred Petersson
+M:2/4
+L:1/16
+Q:1/4=100
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:G
+vd2 z2 uc2 z2|B3c B2G2|A3B c2A2|GFGA B2G2|
+d2 z2 c2 z2|B3c B2G2|(GA)Bc d2g2|f2a2 g4:|
+|:d2ef g2d2|(cB)cA B2G2|(AG)AB c2A2|(GF)GA B2G2|
+d2ef f2d2|(cB)cA B2G2|(GA)Bc d2g2|f2a2 g4:|
+|:bbg2 aaf2|gfga g2B2|Aced c2A2|Aced B2G2|
+bbg2 aaf2|gfga g2B2|Aced (cB)cA|A2G2 G2 z2:|
+S:https://www.folktunefinder.com/tunes/102891
+S:http://www.folkwiki.se/pub/cache/Ryska_Polskan_676e7e.abc
+% Rhythm Engelska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

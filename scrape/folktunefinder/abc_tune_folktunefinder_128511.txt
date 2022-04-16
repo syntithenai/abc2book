@@ -1,0 +1,19 @@
+X:44
+T:Gan Ainm
+Z: id:dc-jig-168
+M:6/8
+L:1/8
+K:G Major
+D|DEF G2A|BAG ABc|d2d faf|dfd cAF|!
+DEF G2A|BAG ABc|d2d fed|cAF G2:|!
+D|GBd g3|dgb gdB|GBd g2e|fed cAF|!
+GBd g3|dgb gdB|GBd fed|cAF G2:|!
+S:https://www.folktunefinder.com/tunes/128511
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

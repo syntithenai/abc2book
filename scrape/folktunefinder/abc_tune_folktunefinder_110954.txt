@@ -1,0 +1,21 @@
+X:1
+T:IX. Go crystall teares,
+T: Cantus
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+L:1/4
+M:C
+K:G dor
+G4 G2 _A2 | G4 z2 G2 | G>A B2 c3 d | =B4
+z2 G2 | c2 c2  |"(1)"_e6 d2 c2 =B2 | c3 c d8 | z B G A B2 c2 | B2 G2 
+N:(1)Original has a barline between the note and the dot.
+S:https://www.folktunefinder.com/tunes/110954
+S:http://www.laymusic.org/music/dowland/crystal/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

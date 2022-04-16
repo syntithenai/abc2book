@@ -1,0 +1,18 @@
+X:1
+T:Angel Band - #178
+C:Wm B Bradbury
+M:6/8
+L:1/8
+K:D
+%%staves {1 2}
+V:1
+|A|"D"A2 A A2 A|"G"B2 d d2 B|"A"A2 d f2 e|"D"d3-d2 A/2A/2
+S:https://www.folktunefinder.com/tunes/118451
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/angelband.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/Angel%20Band.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

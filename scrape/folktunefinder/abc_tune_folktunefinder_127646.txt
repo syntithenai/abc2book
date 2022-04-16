@@ -1,0 +1,27 @@
+X: 489
+T: MY OWN SWEETHEART
+B: O'Neill's 489
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: Collected by "J.O'Neill"
+M: C
+L: 1/8
+K:F
+(f>e) \
+| dc AF DEFG | Acde f2(fe) | decA G>AGF | D6 (f>e)|
+| dc AF DEFG | Acde f2(ef) | d>ecA G>AGF | F6 ||
+|| (AG) \
+| FA (cd/e/) f2(ef) | {a}gefd cAF>G | Acdf ecd=B | c6 (f>e) |
+| dc AF DEFG | Acde f2(ef) | d>ecA G>AGF | F6 |]
+S:https://www.folktunefinder.com/tunes/127646
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0487-0500_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0489_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

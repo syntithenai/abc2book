@@ -1,0 +1,35 @@
+X:13
+T:Lady Dorthea Stewart's Wedding March
+R:jig
+C:Aeneas Rose
+O:20th century Scottish pipe tune
+B:The Glen Allan Colllection (1952)
+H:adapted from a 6/8 march
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:A
+a|cBA ABA|cde e3|fdf fga|fec B2 a|
+cBA ABA|cde e3|fga f2 e|[1ceA A2:|[2ceA Acd:|
+|:c e2 efa|fdf f3|ece efa|[1fec Bcd|
+e3 efa|fdf f2 e|fga f2 e|ceA Acd:|
+[2fec B2 d|cBA ABA|cde e3|fga f2 e|ceA A2||
+|:a|ABA A2 e|Ace f2 e|ABA A2 e|fec B2a|
+ABA A2 e|Ace f2 e|fga f2 e|ceA A2:|
+|:d|ceA ceA|fdf fed|ceA cea|fec B2 d|
+[1ceA ceA|fdf f2 e|fga f2 e|ceA A2:|
+[2cBA ABA|cde e3|fga f2 e|ceA A2|]
+S:https://www.folktunefinder.com/tunes/120451
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:48
+T:Fair Jenny's Jig
+R:jig
+C:Peter Barnes \2511977
+M:6/8
+K:D
+A| "D"f3 fgf| "A"ecA ecA| "G"Bcd "A"ecA| "G"Bcd "A"e2A|
+   "D"f3 fed| "A"ecA ecA| "G"Bcd "A"e2A| ABc "D"d2 :|
+|:\
+A| "G"B3 B=cB| GBB B=cB| "D"ADD dDD| ^cDD "D7"=cDD|
+   "G"B3 B=cB| GBB B=cB| "A"AEA "A7"AB^c| "D"dAF D2 :|
+%%newpage
+%%text 18
+S:https://www.folktunefinder.com/tunes/106835
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

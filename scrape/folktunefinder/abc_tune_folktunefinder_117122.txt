@@ -1,0 +1,39 @@
+X:75
+T:Movable Scales
+C:
+M:3/4
+L:1/8
+Q:1/8=406
+K:C
+G,A,B,CDE|^FGABcd|e^fgab2|A,B,^CDE^F|
+^GAB^cde|^f^gab3|_B,CD^DFG|A_Bcd^df|
+ga_b4|CDEFGA|Bcdefg|ab4z|
+DE^FGAB|^cde^fga|b6|E^F^GAB^c|
+^de^f^gab|z6|FGA_Bcd|efga_b2|
+_z6|DE^FGAB|^cde^fga|b6|
+DE^FGAB|^cde^fga|b^c'4^z|DE^FGAB|
+^cde^fga|b^c'd'4|DE^FGAB|^cde^fga|
+b^c'd'e'3|z6|z6|z6|
+CEGceg|ecGEC2|C^DGc^dg|^dcG^DC2|
+CEG_Bce|g_bgec_B|GEC4|CEG_BdB|
+GEC4|z6|z6|CEGcec|
+GE4z|^CF^G^cfc|^GF4z|D^FAd^fa|
+^fd4z|^DG_B^dg_b|g^d4^z|E^GBe^gb|
+^ge4z|FAcfaf|cA4z|FAcfaf|
+cAFCA,C|F6|^F_B^c^f_bf|^c_B^F^C_B,C|
+^F6|GBdgbg|dBGDB,D|G6|
+G,B,DGBd|gbgdBG|DB,G,4|^G,C^D^Gc^d|
+^g^dc^G^DC|^G,6|A,^CEA^ce|ae^cAE^C|
+A,6|_B,DF_Bdf|_bfd_BFD|_B,6|
+B,^D^FB^d^f|b^f^dB^F^D|B,6|B,^CDEFG|
+^G_B=B^cde|fg^g_b3|B,DF^GBd|f^g4^z|
+^z6|G,A,_B,=B,CD|EF^FGA_B|Bcd[ee]f^f|g6|
+S:https://www.folktunefinder.com/tunes/117122
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

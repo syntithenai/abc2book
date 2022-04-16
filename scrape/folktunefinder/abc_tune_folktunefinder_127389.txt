@@ -1,0 +1,22 @@
+X:10
+T:Church Street
+Z: id:dc-polka-9
+M:2/4
+L:1/8
+K:G Major
+BG D>D|Ec cA/B/|cE FE|Dd/c/ d/e/d/c/|!
+BG D>D|Ec cA/B/|c/B/A/G/ F/D/E/F/|GB G2:|!
+g2 f2|c3 d|e>f ed|B3 c|!
+d>e d/c/B|A3 B/A/|[1 GA Bc|d3 e/f/:|[2 Gg fa|g2 g2|]!
+S:https://www.folktunefinder.com/tunes/127389
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

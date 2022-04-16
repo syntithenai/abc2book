@@ -1,0 +1,27 @@
+X:39
+T:Blarney Pilgrim
+R:Jig
+C:Alistair Anderson, via EF
+S:Nottingham Music Database
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+D|:DED DEG|A2G ABc|BAG AGE|GEA GEC|
+DED DEG|A2G ABc|BAG AGE|GED D2:|
+d|:ded dBG|AGA BGE|ded dBG|AGA GBd|
+g2e dBG|AGA BGE|B2G AGE|GAG G2:|
+G|A2D B2D|A2D ABc|BAG AGE|GEA GED|
+A2D B2D|A2D ABc|BAG AGE|GED D2:|
+S:https://www.folktunefinder.com/tunes/118021
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

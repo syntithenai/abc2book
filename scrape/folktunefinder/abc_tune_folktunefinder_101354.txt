@@ -1,0 +1,20 @@
+X:190
+T: Gilmore's Hornpipe
+M: 2/4
+L: 1/16
+B: O'Neill's 1662
+K: G
+B-A \
+| G2G-A BdGB | cdec dgGB | caBgAgGe | Fdfe dcBA |
+| G2G-A BdGB | cdec dgGB | cdef gdec | B2G2G2 :|
+|: B-c \
+| dgBd GBdg | fage dfac' | bgaf gedB | c-eA2 A2B-c |
+| dgBd GBdg | fage dfac' | bgaf gedc | B2G2G :|
+S:https://www.folktunefinder.com/tunes/101354
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

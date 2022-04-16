@@ -1,0 +1,29 @@
+X:36
+T:Sibirski
+O:russia
+M:2/4
+L:1/8
+Q:1/4=120
+K:E
+V:1
+"C#m" g3 a|"F#m" f cg c'|"C#m" g3 a|"F#m" f cg c'|
+"C#m" g2 gb  |b2 a2 |"F#m" c'f ga |b2 f2 |
+"B" bc' b2 |"E" e3 f|e2 B2   |:"E" G2 F2 |
+E2 G2 |"F#m" F2 E2 |F2 C2 |"C#m" [gC4]fe g|
+[fC4)]eg f|[eC4)]gf e|[gC4]fe g|"E" [B3G3][AF]|
+[G2E2][c2A2]|[B2G2][A2F2]|"C#m" [G2E2][c2C2]|[bB4 B,4]ag b|
+[aB4 B,4]gb a|[gB4 B,4]ba g|[bB4 B,4]ag c'|"C#m" G2 A2 |
+"F#m" F2 C2 |"C#m" G2 GA |"F#m" F2 C2 |"C#m" G2 A2 |
+B2 G2 |"F#m" (A4 |A2) F2 |"B" A2 G2 |
+"E" (E4 |"E7" [E2)B2][=d2G2 E2]|"A" [c3A3 E3][AE]|"E7" [A2E2][=d2G2 E2]|
+"A" [c3A3 E3][AE C]|"C#m" [G2E2 C2][B2E2 C2]|"F#m" [B2F4 C4]A2 |"A" [(c4A4 E4]|
+[c2)A4 E4]B2 |"B" [BG2 _E2]c[B2F2 _E2]|"E" E3 F|E4 :|
+S:https://www.folktunefinder.com/tunes/102709
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

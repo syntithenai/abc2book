@@ -62,63 +62,7 @@ function bindCopy(element,val) {
     });
   })
 }
-    
-function removeAbcInnerStrings(abc) {
-  if (abc) {
-        // remove strings from abc
-      abc = abc.trim()
-      var next = abc.indexOf('"')
-      while (next !== -1) {
-        nextClose = abc.indexOf('"', next+1)
-        if ((nextClose !== -1) && (nextClose > next)) {
-          // strip string
-          abc = abc.slice(0,next) + abc.slice(nextClose+1)
-        } else {
-          abc = abc.slice(0,next) + abc.slice(next + 1)
-        }
-        next = abc.indexOf('"')
-      }
-  }
-  return abc
-}
-
-function getInnerStrings(abc) {
-    var s = []
-  if (abc) {
-        // remove strings from abc
-      abc = abc.trim()
-      var next = abc.indexOf('"')
-      while (next !== -1) {
-        nextClose = abc.indexOf('"', next+1)
-        if ((nextClose !== -1) && (nextClose > next)) {
-          // strip string
-          s.push(abc.slice(next+1,nextClose))
-          abc = abc.slice(0,next) + abc.slice(nextClose+1)
-        } else {
-          abc = abc.slice(0,next) + abc.slice(next + 1)
-        }
-        next = abc.indexOf('"')
-      }
-  }
-  return s
-}
-
-
-
-function safeString(text) {
-    if (text) {
-        text = text.replaceAll(" ",'_')
-        text = text.replaceAll(",",'_')
-        text = text.replaceAll(".",'_')
-        text = text.replaceAll("[",'_')
-        text = text.replaceAll("]",'_')
-        text = text.replaceAll("(",'_')
-        text = text.replaceAll(")",'_')
-        text = text.replaceAll("?",'_')
-    }
-    return  text
-}
-
+   
 function test() {
     
     //generateAbcFromTunes();
@@ -213,6 +157,7 @@ function hideTuneControls() {
 
 function showContentSection(contentId) {
     var contentTypes = ['cheatsheet_music_container','indexes','music','help','review','edit','songlistmanager','welcometext','longabcwrapper']
+    $(".overlay").hide()
     if (contentId === 'review') {
       $('#reviewbuttons').show()
     } else {
@@ -269,10 +214,12 @@ function setStopNow(val) {
 
 
 function downloadLongAbc() {
+  generateAbcFromTunes()
   download('tunebook.abc', $("#longabc").val())
 }
 
 function downloadShortAbc() {
+  generateShortAbcFromTunes()
   download('tunebook_cheatsheet.abc', $("#shortabc").val())
 }
 
@@ -338,30 +285,32 @@ function progressDown(songNumber) {
     }
 }
 
-function parseAbc() {
-  var abc = $('#longabc').val()
-  var tuneBook = new ABCJS.TuneBook(abc)
-  var measureArray = ABCJS.extractMeasures(abc);
-  var tunes = []
-  tuneBook.tunes.map(function(tune,k) {
-    tune.measures = measureArray[k].measures
-    tune.hasPickup = measureArray[k].hasPickup
-    tune.meta = extractAbcMeta(tune.abc)
-    tunes.push(tune)
-    return true
-  })
-  //console.log('parsed',tunes)
-  return tunes
-}
 
-/*
-function parseMeasures() {
+function makeEditable(selector) {
+   console.log("make editable",$(selector))
+   
+   $(selector).prop({tabindex: 1, contenteditable: true}).on({
+
+    focusin() {
+      this.__html = $(this).html(); // Store current HTML content
+    },
+    
+    focusout() {
+    
+      const data = {
+        cid: this.dataset.cid,
+        html: this.innerHTML,
+      };
+      
+      if (this.__html === data.html) return;  // Nothing has changed.
+      
+      console.log(data); // Something changed, send data to server.
+    }
+    
+  })
   
 }
 
-
-function isMusicalNote() {
-  case
+function showElement(id) {
+  $('#'+id).show()
 }
-
-*/

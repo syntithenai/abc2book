@@ -1,0 +1,30 @@
+X: 78
+T:Silver Spear, The
+R:reel
+S:Henrik Norbeck, hn-reel 039
+N:Should not be confused with The Silver Spire, #373
+Z:id:hn-reel-39
+M:C|
+L:1/8
+K:D
+FA~A2 BAFA|dfed BcdB|FA~A2 BAFA|dfed B2AG|
+FA~A2 BAFA|dfed Bdef|~g3e ~f3e|dfed B2A2:|
+|:f2af bfaf|gfed Bcde|f2af bfaf|gfed B2A2|
+f2af bfaf|gfed Bdef|~g3e ~f3e|dfed B2A2:|
+S:https://www.folktunefinder.com/tunes/127326
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

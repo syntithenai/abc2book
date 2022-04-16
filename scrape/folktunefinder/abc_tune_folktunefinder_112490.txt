@@ -1,0 +1,27 @@
+X:63
+T: Si bao zhu zhu
+N: C0081
+O: China,Shanxi, Qinyuan
+S: I, 313]
+N: Variante in I, 167
+R: Xiaodiao. Qiongfu duibi]
+M: 2/4
+L: 1/8
+K: G
+Ad2d | dB2A | dB2A | G4
+GA2B | AA2G | AF2E | D4
+B,D2E | GG2E | B,D2E | G4
+GA2d | AG2E | B,D2E | G3A | ED2B, | A,4
+S:https://www.folktunefinder.com/tunes/112490
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. qiongfu duibi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

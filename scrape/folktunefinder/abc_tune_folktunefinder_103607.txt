@@ -1,0 +1,29 @@
+X: 12
+T:Salutation
+M:4/4
+L:1/8
+C:Chris Perry 26/01/02
+S:Fiddle Players Tunebook 2
+R:hornpipe
+K:Dmaj
+(3ABc |\
+"D"d2 de "D"fdef |"A"gfec "D"d2 dB |"Bm"FBdB "G"GBdf |"A"edcB "A"A2 Bc |
+\
+"D"dcde "D"fdef |"A"gfec "D"d2 ag |"D"f2 fd "G"gfed |"A"cdec "D"d2 :|\
+A,2 |\
+"D"D2 FA "D"dAFA |"A"GAFA "A"E4 |"A"e3 f "A"edcd |"A"edcB "D"A2 z2 |\
+"D"D2 FA "D"dAFA |"A"GAFA "A"E4 |\
+|1 "A"e2 ef "A"gecd |"D"e2 dc "D"d2 :|2"A"CDEF "A"GECD |"D"(3EFE DC "D"D
+2 ||
+S:https://www.folktunefinder.com/tunes/103607
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

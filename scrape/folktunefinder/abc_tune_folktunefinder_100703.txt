@@ -1,0 +1,23 @@
+X:85
+T:Fisher's
+R:hornpipe
+C:BSDB, KCC p22
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:D
+(3ABc|"D"dAFA "G"GBAG|"D"FAFA "G"GBAG|"D"FDFD "A7"GEGE|"D"FDFD "A7"EA (3ABc|
+"D"dAFA "G"GBAG|"D"FAFA "G"GBAG|"D"FAdA "A7"fedc|"D"d2f2 d2:|
+cd|"A7"ecAc ecge|"D"fdAd fdaf|"A"ecAc ecgf|"E7"edcB "A"A3A|
+"G"BGDG BGdB|"D"AFDF AFdA|"G"BdcB "A7"AGFE|"D"D2F2 D2:|
+S:https://www.folktunefinder.com/tunes/100703
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

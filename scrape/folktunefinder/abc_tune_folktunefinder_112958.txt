@@ -1,0 +1,34 @@
+X:531
+T: Laba Xiaodiao
+N: C1111
+O: China,Hubei
+S: Zhongguo Minge Xuan, S. 98 (2)]
+N: Ausgabe mit Begleitung. Hier nur die Version der ersten Strophe
+N: aufgeschrieben und Abschlu mit Klammer 3 direkt gespielt.
+N: Vor-, Zwischen- und Nachspiel.
+N:  Mu ggf. nachgebessert werden.
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: D
+A2A2A2B2 | d2e4B2 | d2e2deB2 | A6B2
+e3ed2e2 | A4B4 | e2d2B2B2 | A2A6
+A2A2A2B2 | d2e4B2 | d2e2deB2 | A6B2
+e3ed2e2 | A4B4 | e2d2B2B2 | A8
+BdFAA4 | d2BdB2A2 | B2d2A2A2 | d4B4
+A3AA2AB | d4B4 | A2A2A2B2 | Bde4B2
+d2d2e2d2 | B2BdB2A2 | B3BB2Bd | A4z4
+d4e4 | A4B4 | e2d2B2B2 | A2A6
+A2A2A2B2 | d2e4B2 | d2e2dedB | A6B2
+e2e2d2e2 | A4B4 | e2d2B2B2 | A8
+S:https://www.folktunefinder.com/tunes/112958
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

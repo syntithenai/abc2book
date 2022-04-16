@@ -1,0 +1,39 @@
+X:1
+T:Andro Ogham
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:Andro
+O:Bretagne
+M:4/4
+K:G
+P:A
+"Am"AB/A/ GE|"C"AG/F/ EA|"D"G/A/B/A/ GE|"Em"AG/F/ E2::
+"Am"AB c2|"C"B/A/B/c/ B2|"C"AB c>A|"Bm"AG AE |
+"Am"AB c2|"C"B/A/B/c/ B2|"D"AB c>A | "Em"AG A2:|
+P:B
+K:G
+FF FF|G/F/G/A/ Bc/B/|AG FF|G/F/E/G/ F2 ::
+Bc G>A|B/c/B/A/ G>A|Bc FA|G/F/E/G/ F2 :|
+P:C
+K:D
+aa/f/ ee/c/|dd/B/ cB/A/|aa/f/ ee/c/|dd/B/ c2::
+AB/c/ Be|d/B/c/d/ e/c/e/c/|AB/c/ Be|d/c/B/c/ A2:|
+P:D
+K:G
+Ae c/B/c/d/|ec A/e/A/e/|Ae c/B/c/d/|ec d2::
+Ae c/B/c/d/|ec AF/A/|c/A/F/A/ G>A|1B/A/B/c/ d/c/B:|2B/A/B/G/ A2:|
+P:E
+"Am"AB/A/ GE|"C"AG/F/ EA|"D"G/A/B/A/ GE|"Em"AG/F/ E2::
+"Am"AB c2|"C"B/A/B/c/ B2|"C"AB c>A|"Bm"AG AE |
+"Am"AB c2|"C"B/A/B/c/ B2|"D"AB c>A | "Em"AG A2:|
+S:https://www.folktunefinder.com/tunes/116960
+S:http://termen.free.fr/danses/vannetais/AndroOgham.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

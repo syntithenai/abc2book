@@ -1,0 +1,22 @@
+X:52
+T:Seanbhean Bhocht
+Z: id:dc-hornpipe-47
+M:C|
+L:1/8
+K:A Dorian
+ed|cABG AcBA|GEDE GABd|(3efg fa gedc|B2G2 G2ed|!
+cABG AcBA|GEDE GABd|(3efg fa gedB|c2A2 A2:|!
+(3efg|a^gab a=gef|gedB G2ef|gfga gfef|gedB GBAG|!
+E2A2 AcBA|GEDE GABd|(3efg fa gedB|c2A2 A2:|!
+S:https://www.folktunefinder.com/tunes/100848
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

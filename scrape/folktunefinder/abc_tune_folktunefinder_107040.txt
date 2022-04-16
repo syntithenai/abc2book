@@ -1,0 +1,24 @@
+X: 18
+T: The Hundred Pipers
+I: Hundred Pipers, TheJ-6Ajig
+%%musicspace0.0cm
+M: 6/8
+R: jig
+K: A
+A/B/| "A"c2E EFE| "D"F2A A2f| "A"e2c cBA| "E"B2B B2A/B/|
+      "A"c2E EFE| "D"F2A A2f| "A"e2c "E"BcB| "A"A2A A2 :|
+|:c/d/| "A"e2e ece| "D"f2a a2f| "A"e2c cBA| "E"B2B B2c/d/|
+      "A"efe ece| "D"f2a a2f| "A"e2c "E"BcB| "A"A2A A2 :|
+%%text Roaring Jelly  J-6
+S:https://www.folktunefinder.com/tunes/107040
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

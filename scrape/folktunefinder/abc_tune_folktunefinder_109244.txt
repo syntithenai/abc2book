@@ -1,0 +1,26 @@
+X: 12
+T:Down in the Mines
+% Nottingham Music Database
+S:Kevin Briggs
+M:3/4
+L:1/4
+K:G
+B/2A/2|"G"GGG/2A/2|"G"Bdd|"C"egg|"D7"a2g/2a/2|"G"bb3/2a/2|"G"gdd|"C"egg|
+"D7"ed/2c/2B/2A/2|"G"GGG/2A/2|"G"Bdd|"C"egg|"D7"a2g/2a/2|"G"bb3/2a/2|"G"gdd|\
+"C"eg"D7"f|
+"G"gfg|"D"aa3/2g/2|"D"fdd|"C"gge|"G"d2d|"D"aa3/2g/2|"D"fdd|"C"gge|\
+"D7"d3/2c/2B/2A/2|
+"G"GGG/2A/2|"G"Bdd|"C"egg|"D7"a2g/2a/2|"G"bb3/2a/2|"G"gdd|"C"eg"D7"f|"G"g2||
+S:https://www.folktunefinder.com/tunes/109244
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

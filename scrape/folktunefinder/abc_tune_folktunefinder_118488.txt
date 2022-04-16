@@ -1,0 +1,21 @@
+X: 23
+T:Ragtime Annie
+M:4/4
+L:1/8
+S:AABB form
+R:Key of D
+K:D
+|:FF|A2B2A2B2|A2B2A2FF|A2B2A2B2|!|A2c2c2c2|A2c2B2c2|A2c2B2c2|A2g2f2e2|d8
+:|!|:f2a6g2|f6e2|d2d2c2c2|B6f2|g6e2|!|c6B2|A2B2A2G2|F6f2|a6g2|f6e2|!|d2d
+2e2f2|g8|g2b2b2b2|f2a2a2a2|a2g2f2e2|d6:|
+S:https://www.folktunefinder.com/tunes/118488
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~bcoffman/abconweb.abc
+% Rhythm Key of d
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,76 @@
+X:1761
+T:Arabesque
+C:Friedrich Burgm\"uller
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/burgmuller-friedrich/burgmuller-arabesque/burgmuller-arabesque-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/16
+Q:1/4=132
+K:Am
+V:1 
+"^Allegro scherzando""_p"z8|z8|(ABcB .A2) z2|(ABcd .e2) z2| 
+V:2 
+[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.C4.E4][.A,4.C4.E4]| 
+% 
+V:1 
+"_cresc."(defg .a2) z2|"_f"(abc'd' .e'2) z2|"_mf"z2 .e2 (e2f2|.d2) z2Ld4-| 
+V:2 
+[.A,4.D4.F4][.A,4.D4.F4]|[.A,4.C4.E4][.A,4.C4.E4]|[.G,4.C4.E4][.G,4.C4.E4]|[.G,4.B,4.F4][.G,4.B,4.F4]| 
+% 
+V:1 
+d2(g2d2e2|.c2) z2 "_sfz"e4|"_p"(ABcB .A2) z2|(ABcd .e2) z2| 
+V:2 
+[.G,4.B,4.F4][.G,4.B,4.F4]|[.C2.E2] z2 E4|[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.C4.E4][.A,4.C4.E4]| 
+% 
+V:1 
+"_cresc."(defg .a2) z2|"_f"(abc'd' .e'2) z2|"_mf"z2 .e2 (e2f2|.d2) z2 Ld4-| 
+V:2 
+[.A,4.D4.F4][.A,4.D4.F4]|[.A,4.C4.E4][.A,4.C4.E4]|[.G,4.C4.E4][.G,4.C4.E4]|[.G,4.B,4.F4][.G,4.B,4.F4]| 
+% 
+V:1 
+d2(g2d2e2|c4.c'2) z2|:"_mf"(e6B2|c6)(A2| 
+V:2 
+[.G,4.B,4.F4][.G,4.B,4.F4]|[C6E6] z2|:(^G,A,B,A, .G,2) z2|(A,B,CD .E2) z2| 
+% 
+V:1 
+e6B2|c6)(A2|"_f"a6e2|f6)(e2| 
+V:2 
+(^G,A,B,A, .G,2) z2|(A,B,CD .E2) z2|(^CDED .C2) z2|(DEFG .A2)(G2| 
+% 
+V:1 
+"_dim. e poco rit."d2c2B2A2|^G4e4)|"_p"(ABcB .A2) z2|(ABcd .e2) z2| 
+V:2 
+F2E2D2^D2|E2=D2C2B,2)|[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.C4.E4][.A,4.C4.E4]| 
+% 
+V:1 
+"_cresc."(defg .a2) z2|"_f"(abc'd' .e'2) z2|"_p"z2 .B2 (B2c2|.A2) z2 Le4-| 
+V:2 
+[.A,4.D4.F4][.A,4.D4.F4]|[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.D4.E4][.A,4.D4.E4]|[.A,4.C4.E4][.A,4.C4.E4]| 
+% 
+V:1 
+e2.B2(B2c2|[1A8):|[2(ABcB .A2) z2|"_cresc."(defg .a2) z2| 
+V:2 
+[.A,4.D4.E4][.A,4.D4.E4]|[1[.A,4.C4.E4][.A,4.C4.E4]:|[2[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.D4.F4][.A,4.D4.F4]| 
+% 
+V:1 
+(abc'b .a2) z2|(d'e'f'g' .a'2) z2|"^risoluto""_f"(EDCB, .A,2) z2|"_sfz"H[c8a8]|] 
+V:2 
+[.A,4.C4.E4][.A,4.C4.E4]|[.A,4.D4.F4][.A,4.D4.F4]|(E,D,C,B,, .A,,2) z2|H[A,8E8]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/122671
+S:http://abc.musicaviva.com/tunes/burgmuller-friedrich/burgmuller-arabesque/burgmuller-arabesque-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/burgmuller-friedrich/burgmuller-arabesque/burgmuller-arabesque-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/burgmuller-friedrich/burgmuller-arabesque/burgmuller-arabesque-pno2.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

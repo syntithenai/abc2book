@@ -1,0 +1,19 @@
+X:81
+T:Lark on the Strand
+Z: id:dc-jig-167
+M:6/8
+L:1/8
+K:G Major
+ABA AGA|BGE G3|ABA GBd|egd edB|!
+ABA AGA|BGE G2D|GBA G2B|dBG BdB:|!
+GBd g3|gba gdB|GBd g3|egd edB|!
+GBd g3|gba g3|aba age|egd edB:|!
+S:https://www.folktunefinder.com/tunes/128548
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

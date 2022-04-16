@@ -1,0 +1,22 @@
+X: 31
+T:Mad Robin          %Tune name
+Q:1/4=160     %Tempo
+M:4/4     %Meter
+L:1/8     %
+K:Dm
+"F"c2 A4 "(Bb)"d2 |"F"c2 F4 G2 |A2 BA G2 F2 |"C"GF ED C4 |"F"c2 A4 "(Bb)"d2 |"F"c2 F4 G2 |
+A2 BA "C"G3 F |1"F"F6 z2 :|2"F"F6 c2 ::"Dm"f3 e "(Am)"d2 "^^"c2 |"Dm"d2 A4 =B2 |"Gm"A2 d2 "A"d3 ^c |"Dm"d6 c2 |
+"Bb"c2 B4 A2 |"F"c2 A4 GF |"C"E2 D2 G3 F |1"F"F6 c2 :|2"F"F6 z2 :|
+S:https://www.folktunefinder.com/tunes/119287
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+S:http://www.larkcamp.com/LarkLibrary/English/MickieZekley/MEEnglishDanceTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

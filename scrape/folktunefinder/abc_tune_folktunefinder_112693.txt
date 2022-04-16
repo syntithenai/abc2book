@@ -1,0 +1,38 @@
+X:266
+T: Fang fengzheng
+N: C0414
+O: China,Jiangxi, Pingxiang
+S: IV, 253]
+N: Variante von Jian jian hua diao. Aehnelt der des Nordens.
+N: Atemzeichen, Glissandi.  Kodiert ist der Notentext der 5. Strophe.
+N: Die 1.-4. Strophe ist jeweils dem Text entsprechend um folgendes Motiv
+N: oder um dessen Varianten erweitert: 1_651__35615__, nach Phrase 3 )
+N: Vorspiel weggelassen.
+R: Xiaodiao, Shidiao, Jiandianhua diao, Wuge, Dengge,
+M: 4/4
+L: 1/16
+K: D
+d2BAF2EFA6d2 | B2A2A2F2A8
+A3Bd4e2d2d2eB | B2A2F2EFA8
+d2d2e4d4B2A2 | FAB2A4
+d2BAd2BA | FABdA4
+d3dB2BA | F3AB2d2A2A2d2F2 | E6
+FFE6FF | E3FA2A2B2d4E2 | A2A2F2E2D8
+F2E4FAB2ABdd3 | F3AB2d2A2F2A2
+ff | e2d2e2f2A6f2 | e2d2e2f2A6f2
+e2d2e2f2A6f2 | e2d2e2f2A6f2
+e2d2e2f2e2d2e2f2 | e2d2e2f2e2d2e2f2 | A12z2
+FF | E4z2FFE4z2FF | E3FA2A2B2d4E2 | F2A2F2E2D8
+S:https://www.folktunefinder.com/tunes/112693
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, jiandianhua diao, wuge, dengge,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

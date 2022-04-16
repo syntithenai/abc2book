@@ -1,0 +1,28 @@
+X:66
+T:Dona Nobis Pacem
+M:3/4
+L:1/4
+K:D treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+P:A
+(d/A/) f2|(e/A/) g2|(f e) d|d c2|(b a/g/f/e/)|(a3/ g/) f|(f/e/) (d c)|d3|
+P:B
+a3|a3|(a g) f|f e2|b b2|a a2|(a/g/) (f e)|d3|
+P:C
+d3|c3|(d3 e/) (f/g/)|a A2|g g2|f f2|(c/e/) (a A)|d3|
+%%text For three part harmony, the sequence is as follows:
+%%text Fife 1: ABCABCC
+%%text Fife 2: ABCAABB
+%%text Fife 3: ABCAAAA
+S:https://www.folktunefinder.com/tunes/114132
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

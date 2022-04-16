@@ -1,0 +1,29 @@
+X:53
+T:Nous n'irons plus au bois
+C:Paroles traditionnelles du XVIIIe sicle sur l'air du Kyrie grgorien de la messe "De angelis"
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:F
+V:1
+z>F AB |: "F"c2f2 | c>d cB | "C7"A2G2 |1 "F"F> F AB :|2 F>z F>F || FG F2 |
+"C"C2 "F"F>F | FGF2 | "C"C2 "F"c2 | A2c2 | A2 "C7"G>A | BAGc | "F"Fz z2 |]
+T:Version CDPF
+%%continueall 1
+K:Gmaj
+Z4 | z4 |: [P:A]zG Bc | d2g2 |
+d>e dc | B2A2 | GG Bc | d2g2 |
+d>e dc | B2A2 | G2z2 || [P:B] G>G GA |
+G2D2 | G>G GA | G2D2 | d2B2 |
+d2B2 | A>B cB | A2d2 | G2z2 |]
+%%footer $D   Galouvielle-MBe 2007 \nRonde (France)
+S:https://www.folktunefinder.com/tunes/130042
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

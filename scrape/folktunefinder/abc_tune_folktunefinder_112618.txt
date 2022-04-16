@@ -1,0 +1,54 @@
+X:191
+T: Yu e lang
+N: C0315
+O: China,Shandong, Zibuo
+S: III, 402]
+N: Die Melodie ist aus verschiedenen kleinen Stuecken zusammengesetzt.
+N: Pu Songli war ein beruehmter Schriftsteller, der ueber gute Geister
+N: Geschichten fuer Doerfer geschrieben hat. Ausserdem verfasste er
+N: auch Romane und Liedtexte, meist Xiaodiao.
+N: Einige Verzierungen, Glissandi.   PHRASIERUNG pruefen, ggfs. teilen!
+N: Das Lied ist zu lang. Die letzten beiden Phrasen werden noch einmal
+N: wiederholt.  Teilen! ....    ,  aber: 1. Ton statt 3  5!)
+N: In der 2.-4. Strophe ist die erste Phrase kuerzer: 3__5__-6___(1 Takt!)
+R: Xiaodiao, Liqu. Youzi sixiang]
+M: 4/4
+L: 1/16
+K: G
+B16 | d16 | E16
+B2e2d2B2G6AB | G8
+F2E2D2E2 | G6ABG8
+d3ed2e2g2a2g2e2 | d2g2e2d2B3dB4 | A8
+B2d2B2A2 | G6ABG8
+A2z2B2z2F2E2D2E2 | G6ABG8
+A2z2B2z2F2E2D2E2 | G6ABG8
+B2A2d2A2B6z2 | d4e2g2d4F4
+E4E4e2B2A2E2 | D6EGD8
+E4G2D2E4G4 | d4e4d4F4
+E4E4E2B2A2E2 | G2D4E2D8
+d3ed2e2g3ag2e2 | d3ge2d2BdBdB4
+A8B2d2B2A2 | G6ABG8
+F2E2D2E2G6AB | G8
+A4B2d2 | F2E2D2E2G6AB | G8
+A2z2B4 | F2E2D2E2G6AB | G8
+B4d2A2 | B4B4d3ed2e2 | g2a2g2e2d2g2e2d2
+B8A8 | B3dB2A2G6AB | G8
+F2z2F2z2 | F2E2D2E2G6AB | G8
+A2z2B4 | F2E2D2E2G6AB | G8
+B4d2A2 | B4B4d4e4 | d4F2z2
+E4E2z2 | E2B2A2E2D6EG | D8
+d4d2A2 | B4B4d4e4 | d4F2z2
+E4E2z2 | E2B2A2E2D6EG | D16
+S:https://www.folktunefinder.com/tunes/112618
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, liqu. youzi sixiang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

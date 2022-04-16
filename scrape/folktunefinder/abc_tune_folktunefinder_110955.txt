@@ -1,0 +1,21 @@
+X:2
+T:IX. Go crystall teares,
+T: Altus
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+L:1/4
+M:C
+%%MIDI nobarlines
+N:Original clef C on second line
+K:G min
+E4 E2 F3 E/ D/ E3 D/ C/ D2 E F G3 F/ E/ F2 G4 E4 E2 F2 G6 F2
+S:https://www.folktunefinder.com/tunes/110955
+S:http://www.laymusic.org/music/dowland/crystal/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

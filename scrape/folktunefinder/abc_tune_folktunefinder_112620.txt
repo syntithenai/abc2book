@@ -1,0 +1,35 @@
+X:193
+T: Yuanyang jia laodiao
+N: C0316B
+O: China,Shandong, Huimin
+S: III, 407, unten)]
+R: Wuge, Yangge, Guzi yangge. Minjian gushi]
+M: 2/4
+L: 1/16
+K: G
+B3AB2B2 | z6AB | d3AB4
+B2BAB2a2 | g6e2 | d2e2g4 | B4z2A2 | G8
+B2BAB2A2 | d2A2B4 | d2B2d2z2
+d2a2b4 | b4b4 | b8- | b8- | b4
+b2bd | b3ag4 | a3bd2e2 | g4g4 | g4g4- | g8- | g2
+g2f2g2 | b2e2g4 | d2B2d4 | g2ggd2g2 | d2B2d2
+e2 | d4g4 | B2B2z4 | d4z2A2 | Bz3-z4
+g3eg2g2 | d2e2d4 | g3ge2g2 | e3Bd4
+z2g4g2 | d4g4 | a3ga4
+z2a4a2 | g4a4 | f2f6- | f8- | f2
+f2f2f2 | e4e4- | e6e2 | A4d4 | d2g2B4
+-B2d4A2 | B3AG2A2 | G8
+B2BdB2A2 | B8 | d4B3A | B8
+d2dBd2e2 | f2d2e2z2
+z2BdB2A2 | b2^g2a4 | a4a4 | a2d4e2 | g8
+S:https://www.folktunefinder.com/tunes/112620
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge, guzi yangge. minjian gushi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

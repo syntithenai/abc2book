@@ -1,0 +1,32 @@
+X:5
+T:Green Mountain, The
+M:C|
+R:Reel
+Z:We often play this tune in a set: <ceili:1>, <ceili:2>, <ceili:3>.
+Z:This version was transcribed by Lars Johannesson.
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000002NP7(Battlefield Band: Across The Borders)
+D:anop=B000003ODD(Carroll, et al: Celtic Dances: Jigs And Reels From Ireland)
+D:anop=B000005CMS(Matt Molloy, Sean Keane: Contentment Is Wealth)
+D:asin=B000005CPI(Moving Cloud: Moving Cloud)
+D:asin=B000009DQ1(Madden, et al: Gentle Breeze: Celtic Music For Flute &amp; Whistle)
+D:asin=B00000AGH0(Dervish: Live In Palma [BOX SET])
+D:asin=B000000PWS(Dervish: Harmony Hill)
+K:D
+dB|AF~F2 AFEF|DF~F2 ABde|f3d efeB|Adfd efdB|\
+AF~F2 AFEF|DF~F2 ABde|f3d efdB|1 AFEF D2:|2 AFEF D4|:\
+fa~a2 bafe|fzaf efde|f3d efdB|Adfd efde|\
+fa~a2 bafe|fzaf efde|f3d efdB|AFEF D4:|
+S:https://www.folktunefinder.com/tunes/111530
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

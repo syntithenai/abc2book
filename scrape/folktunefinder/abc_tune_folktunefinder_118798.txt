@@ -1,0 +1,40 @@
+X:3
+T:The Highlander's Farewell to Ireland
+R:strathspey
+D:Natalie MacMaster, LIVE, 2002
+O:18th century Scotland
+N:Natalie's 3rd and 4th turns are 'octave' variations
+N:Traditionally the order is ABEF
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:266
+M:C
+K:Ador
+A,2 A,>B, A,/A,/A, E>F|G>ED<B, G,/G,/G,  D<G|\
+E>DE<G A>BA>G|E<GD<B, A,2 (3A,A,B,|
+A,>A,A,>B, A,2 (3EEF|G>ED<B, G,/G,/G,  D<G|\
+E>DE<G A>BA>G|E<GD<B, A,2 A,||
+|:E|A>BA>E A>BA>E|G>AG>E D/C/B,/A,/ G,>G|\
+E>DE<G A>BA>G|E<GD<B, A,2 A,:|
+B|A2 A,B A2 (3eef|g>ed<B G2 e<g|\
+e>de<g a>ba>g|e<gd<B A2 (3ABB|
+A>AA>B A2 (3eef|g>ed<B G2 e<g|\
+e>de<g a>ba>g|e<gd<B A2 A||
+|:e|a>ba>e a>ba>e|g>ag>e d/c/B/A/ G>g|\
+e>de<g a>ba>g|e<gd<B A2 A:|
+|:D|E>A, A,/A,/A, E>DE<G|B,>G, G,/G,/G, B,>A,B,<D|\
+E>A, A,/A,/A, E<DE<A|G<ED<B, A,2 z:|
+z|e<aa>g a>ba>e|ggB<G|e<aa>g a>ba>e|d<eg>B A/A/A A>B|
+e<aa>g a>ba>e|ggB<G|c<Ad>B e<Ag>e|a>eg<B A2 A|]
+S:https://www.folktunefinder.com/tunes/118798
+S:http://cranfordpub.com/tunes/abcs/natalie.abc
+S:http://www.cranfordpub.com/tunes/abcs/natalie.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

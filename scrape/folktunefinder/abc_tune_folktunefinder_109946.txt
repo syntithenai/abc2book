@@ -1,0 +1,25 @@
+X:8
+T: Der verkleidete Markgrafensohn
+N: Q0006
+O: Mitteleuropa, Deutschland
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+R: Ballade, Braut - Werbung
+M: none
+L: 1/8
+K: F
+F2 | F2G2A2c3 | BABG2G2 | F4z2
+F2c2c2 | d4c2c4B2 | c4
+c4c2c2 | A3cB3A | G4z2
+c2 | B2G2A2F2 | A3Bc2B3 | AGFG4 | F8
+S:https://www.folktunefinder.com/tunes/109946
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, braut - werbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

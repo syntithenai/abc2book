@@ -1,0 +1,25 @@
+X: 42
+T:Lannigan's Ball
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:Em
+B|"Em"EDE G2A|B2A Bcd|"D"DED F2G|ABA AFD|
+"Em"EDE G2A|B2A Bcd|edB "D"cBA|"Em"BEE E2::
+d|"Em"e2f gfe|"D"fag fed|"Em"e2f gfe|"Bm"fBB B3|
+"Em"e2f gfe|"D"fag fed|"Em"edB "D"cBA|"Em"BEE E2:|
+S:https://www.folktunefinder.com/tunes/119780
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

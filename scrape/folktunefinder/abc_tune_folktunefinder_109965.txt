@@ -1,0 +1,33 @@
+X:27
+T: Herzog Ernst
+N: Q0010A
+O: Mitteleuropa, Deutschland
+N: Melodie: Geistliche Kontrafaktur. Kein eigenstaendiger Text gedruckt.
+R: Ballade, geistlich
+M: none
+L: 1/4
+K: E
+EA=GAB=cBA2z
+cccBc=dcB2z
+AGABBEEz3
+EAGABcBA2z
+cccBcdcB2z
+AGABBEEz3
+CDE=FFGAG2z
+GGFEECCz3
+GGGGEABA2z
+ABAGGEEz3
+EEFGAGEC2z
+CGABAcAG2z
+EABGECDE4
+S:https://www.folktunefinder.com/tunes/109965
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

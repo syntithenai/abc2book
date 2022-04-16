@@ -1,0 +1,27 @@
+X:6429
+T:Golden Eagle, The
+R:Hornpipe
+O:England
+O:Scotland
+O:Ireland
+M:4/4
+K:G
+(3cBA|\
+GB,DG BDGB|dGBd gbag|\
+fed^c =cAFD|GBAG (3FED (3cBA|
+GB,DG BdGB|dGBd gbag|\
+fed^c =cAFD|(3GGG GF G2::
+(3bbb|\
+bB^df bagf|e^def gfg^g|aA^ce agfe|e=dd^c d2ab|
+c'afd ^cdef|gfga bgag|fed^c =cAFD|(3GGG GF G2:|
+S:https://www.folktunefinder.com/tunes/102327
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:107
+T: Frau von Weissenburg
+N: Q0030D
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Hottweiler
+N: Entfernte Variante zu Q0030A.
+R: Ballade, Ehebruch, Mord, Moral
+M: 3/4
+L: 1/8
+K: F
+C2 | F2A2F2 | G2A2F2 | G3AB2 | c4
+c2 | d2d2c2 | B2G2c2 | G6
+c6 | B2A2F2 | B2c2A2 | F3GA2 | G6
+G6 | F2D2C2 | G2B2AG | F6
+c6 | B2A2F2 | B2c2A2 | F3GA2 | G6
+G6 | F2D2C2 | G2B2AG | F4
+S:https://www.folktunefinder.com/tunes/110045
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, ehebruch, mord, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

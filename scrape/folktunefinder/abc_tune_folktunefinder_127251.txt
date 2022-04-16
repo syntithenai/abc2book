@@ -1,0 +1,31 @@
+X: 3
+T:Jean`s Reel
+R:Reel
+S:Phil Cunningham
+D:Phil Cunningham: Airs and graces
+M:C
+L:1/8
+K:GMajor
+"A"|:G3 A BGBd| gB (3BBB gBdB| A2 BG AGEG| AcBG AGEF|
+G3 A BGBd| gabg ageg| d2 Bd gedc| AGFA G4 :|
+"B"|| gBdg _B=BgB| dg_B=B gBdg| fd (3ddd adfd|gfga baga|
+bagf gfed| efgf edBc| d2 Bd gedB| AGAB G4|
+gB (3BBB _B=B (3BBB| (3BBB g2 (3BBB g2| fd (3ddd adfd| gfga baga|
+bagf gfed| efgf edBc| d2 Bd gedB| AGAB G4 ||
+"C"|:BDED D2 BD| EDDG BDGB| AD (3DDD ADFA| dD ^cD =cAFA|
+BDDE D2 BD| EDDG BDGB | AD (3DDD dD ^cD| cAFA G4 :
+"B"|:gBdg _B=BgB| dg_B=B gBdg| fd (3ddd adfd| gfga baga|
+bagf gfed| efgf| d2 Bd gedB| AGAB G4 :|
+S:https://www.folktunefinder.com/tunes/127251
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:9
+T:Oppi Fjellet
+T:Ingrids vise
+T:Rven og haren
+C:Trad. / tekst : Bjrnstjerne Bjrnson
+N:
+D:Storm "Nordavind"
+O:Norge - Norway - Norvge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+ B, |: E>F G2 F>E | F>^D B,2 D>B, | E2 E2 ^D>B, |[1 E2 E2 z B, :|[2 E2 E2 z F |!
+ G>F G2 B>B | B>A F3 A | G>F E>F G>E | F>^D B,2 D>B, | E2 E2 ^D>B, | E2 E2 z |]
+W:Og rven laa under bjerkerod  
+W:      Bortved lynget, bortved lynget, 
+W:Og haren hopped paa lette fod,  
+W:      Over lynget, over lynget 
+W:"Det er vel noget til solskinnsdag !  
+W:Det glitrer for, og det glitrer bag, over lynget"  
+W:
+W:Og rven laa under bjerkerod, (...)  
+W:Og haren hopped i vilde mod, (...)  
+W:"Jeg er saa glad over alle ting !"  
+W:Hu-hei, gjr du slike svre spring, over lynget   
+W:
+W:Og rven vented bag bjerkerod, (...)  
+W:Og haren tumled ham midt imod, (...)  
+W:"Aa huttetu da, men er du der ! - "  
+W:- Aa, kjre, hvor tr du danse her over lynget 
+S:https://www.folktunefinder.com/tunes/112131
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

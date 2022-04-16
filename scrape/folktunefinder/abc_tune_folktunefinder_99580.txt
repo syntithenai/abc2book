@@ -1,0 +1,40 @@
+X:44
+T:Je file quand dieu me donne de quoi *
+C:
+B:Gervaise / Matre Gosse
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=195
+K:C
+V:1
+%%MIDI channel 1
+%%MIDI program 70       % General MIDI 
+%%MIDI transpose -12
+%%MIDI control 7 110 %volume
+%%MIDI control 10 100 %pan
+|: DA2 AA2 AA>GF E2 F G2 A F2 G EE2 D2 :|
+|: DA2 Bc2 BA A^G A2 :|  
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI 
+%%MIDI transpose 0
+%%MIDI control 7 110 %volume
+%%MIDI control 10 30 %pan
+|:DE2 EF2 FE E D G2 F D2 EF2 DE2 CD2 :|
+W:Je file quand dieu me donne de quoi
+W:Je file ma quenouille au vois
+W:je vais, je viens, je tourne, je file, je serre, 
+W:je taille, je couds, je raye , je saute, je danse, 
+W:je ris, je chante, je chauffe mon four.
+W:Je garde mes ouialles du loup,
+W:Je file ma quenouille au vois
+S:https://www.folktunefinder.com/tunes/99580
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

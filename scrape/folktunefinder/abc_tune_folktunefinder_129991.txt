@@ -1,0 +1,24 @@
+X:30
+T:La fille du coupeur de paille
+O:France
+R:Enfants
+C:Trad.
+%%continueall 1
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-09-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+(3ecd e2 (3|ecd e2|ee/e/ eg|fe ed|(3dBc d2|(3dBc d2|dd/d/ df|ed c2||\
+w:Sur mon che-min j'ai ren-con-tr la fi-le du cou-peur de pail-le Sur mon che-min j'ai ren-con-tr la fi-le du cou-peur de  bl\
+g2 g2|(3gfe d2|dd/d/ df|ed ec|g2 g2|(3gfe d2|dd/d/ df|edc2|]
+S:https://www.folktunefinder.com/tunes/129991
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm Enfants
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

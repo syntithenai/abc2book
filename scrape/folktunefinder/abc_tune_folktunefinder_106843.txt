@@ -1,0 +1,33 @@
+X:56
+T:Just Because #2
+R:square
+Z: Transcribed to abc by Mary Lou Knack
+P:Intro
+M:C|
+K:G
+% %staffwidth 16.5cm
+%%staffwidth 8cm
+D2^D2| "A7"E8| "D7"F4 B4| "G"G8-| G2 |
+P:
+%%staffwidth 14.5cm
+|:D2E2F2| "G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| G2G2 G2G2| G4 E2D2| "D"F8-| F6 D2|
+"D"F2F2 F2F2| F4 E2D2| F2 F6-| F6 F2| "Am"E4 E2E2| "D7"F4 E4 "G"D8-| D2 D2E2F2|
+"G"G2G2 G2G2| G4 E2D2| G2 G6-| G2 D2E2F2| "G7" G4 G2G2| A4 G2=F2| "C"E8-| E6 E2|
+"C"G4 G2G2| "Amdim"A4 G2A2| "G"B4 G2F2| "E7"E6 D2| "A7"E8| "D7"F4 B4| "G"G8-| G2 |]
+%%textfont       Times-Bold 10.0
+%%text Last time - replace last two lines with
+%%vskip 5pt
+"C"G4 G2G2 |"Amdim"A4 G2A2 |"G"B4 G2F2 |"E7"E6 D2| "A7"E8 |"D7"F4 B4 |"G"G4 F2=F2 |"E7"E6 D2 |
+"A7"E8 |"D7"F4 B4 |"G"G4 F2=F2 |"E7"E6 D2| "A7"E8 |"D7" F4 B4 |"G"G8-|G2|]
+%%textfont       Times-Bold 14.0
+%%newpage
+%%text 22
+S:https://www.folktunefinder.com/tunes/106843
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

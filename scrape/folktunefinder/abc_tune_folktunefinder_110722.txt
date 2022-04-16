@@ -1,0 +1,32 @@
+X:30
+T:the Mole Catcher's Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002df.html
+%%ID:000002df
+K:G
+P:1
+G3 A  BABG  F2 D2|d2 g2 g2 dcB2 A2|G2 b2 b2 G2 F2 a2|
+E2 g2 g2 E2 D2 f2|fgef d2 c2 B2 A2|BdBG  AcAF  G4  :|
+P:2
+|:G2 D2 DEDC B,2 G,2|A,G,A,B, CDED CB,A,G,| B,2 D2 G2 d2 B2 G2 |
+edBc d2 F2 E2  D2 |dcBd     cBAc BAGB   | D2 G2 BAGF G4:|
+P:3
+|:g2 dg e2 dc B2 G2 |g2 bg e2 af d4|gfga bagf  e4 |
+e2 a2 a2 g2 f2 d2 |gbge  fafd  e4|AcBd g2 B2 A2 G2 :|
+S:https://www.folktunefinder.com/tunes/110722
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

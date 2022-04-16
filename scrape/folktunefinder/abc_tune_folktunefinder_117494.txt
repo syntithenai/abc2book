@@ -1,0 +1,26 @@
+X: 97
+T:Concerto in A minor Wq. 
+M:3/2
+L:1/16
+N:Posted to the woodenflute mailing list November 2002
+Q: 280 (Half note=70)
+C:CPE Bach
+Z:
+K:A minor
+dAB^cdefg a_bagafed agfed=c=BA| BAGABcde fdefgabc' d'c'bagfed|
+eGABcdef gagfgedc gfedc_BAG| AGFGA=Bcd ecdefgab c'bagfedc|
+dFGABcde fgfefdcB fgfedcBA| ^G^FEFGABc dBcde^f^ga ba^g^fedcB|
+c2e2A2a2 g2f2e2d2 c2B2d2f2| A16^G4z4|
+S:https://www.folktunefinder.com/tunes/117494
+S:http://www.lesession.co.uk/music/wf_update3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

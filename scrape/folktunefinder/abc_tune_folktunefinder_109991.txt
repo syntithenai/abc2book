@@ -1,0 +1,27 @@
+X:53
+T: Der Abendgang
+N: Q0019
+O: Mitteleuropa, Deutschland
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+R: Ballade, Liebe, Trennung, Tod
+M: none
+L: 1/16
+K: A
+A4 | =c4c4d4d4 | e8e8z4
+e4 | =g4g4=f4f4 | e8d8z4
+d4 | e4e4e4e4 | =f8e8z4
+e4 | d4=c4d2e4dc | B8A8z4
+e4 | d4B4=c4A4 | B4A4=G8z4
+d4 | d4d4d4e4 | =f8e8z4
+e4 | d4=c4d2e4dc | B8A8
+S:https://www.folktunefinder.com/tunes/109991
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

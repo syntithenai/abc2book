@@ -1,0 +1,24 @@
+X:115
+T:TENNESSEE WALTZ
+C:Basic Version
+M:3/4
+L:1/8
+Q:1/8=310
+K:C
+CD|:"C"E2G2CD|"Em"E2G2cd|"C7"e2e2d2|"F"c2A2cd|
+"C"c2G2E2|1 "Am"A2G2E2|"Dm"D6-|"G7"D4CD:|2"G7"F2E2D2|\
+"C"C6-|C4cd|
+|"C"e2g2e2|"E7"d4ed|"F"d2c2A2|"C"G4cd|c2G2E2|\
+"Am"A2G2E2|"Dm"D6|"G7"D4CD|
+"C"E2G2CD|"Em"E2G2cd|"C7"e2e2d2|"F"c2A2cd|\
+"C"c2G2E2|"G7"F2E2D2|"C"C6||
+S:https://www.folktunefinder.com/tunes/117162
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

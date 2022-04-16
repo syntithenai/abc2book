@@ -1,0 +1,20 @@
+X: 1
+T: Alunelul
+M: 2/4
+L: 1/4
+Q:1/4=60
+K:D % 2 sharps
+A/2^G/2A/2B/2 A/2=G/2F/2E/2 DE F3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DC B,3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DE F3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DC B,3/2z/2|
+DF E3/2z/2 DF A3/2z/2|DF E3/2z/2 DC B,3/2z/2|DF EE DF AA|DF EE DC B,F/2G/2|
+A/2^G/2A/2B/2 A/2=G/2F/2E/2 DE F3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DC B,3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DE F3/2z/2|A/2^G/2A/2B/2 A/2=G/2F/2E/2 DC B,3/2z/2|
+DF E3/2z/2 DF A3/2z/2|DF E3/2z/2 DC B,3/2z/2|DF EE DF AA|DF EE DC B,3/2
+S:https://www.folktunefinder.com/tunes/111331
+S:http://www.catswhiskersband.fsnet.co.uk/Cats%20Whiskers%20Barn%20Dance%20Band_files/Alunelul.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

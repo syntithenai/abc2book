@@ -1,0 +1,74 @@
+X:11385
+T:Muieira De Bicos e Cochegas
+O:Galicia (Spain)
+Z:Covertido de Midi a abc por Antonio-Nil
+C:Cesar Concheiro. 
+Z:Sec.por Jose J. Presedo. Pontevedra, 1995.
+N:http://www.arrakis.es/~jpresedo/
+M: 4/4
+L: 1/8
+Q:1/4=179
+K:F % 1 flats
+V:1
+z3c2f ab|ag ab c'4|ba ge gb ag|f6- fz|
+zc eg c'b ag|ag fa gf ed|ce gb ge f2|ac fa c'b ag|
+ag fe fg ab|c'f ag ag f2-|fc fa c'b ag|ag fa gf ed|
+ce gb ge f2|ac fa c'b ag|ag fe fg ab|c'f ag ag f2-|
+f2 ag f2 ga|c'a gf e2 ba|g2 ab c'b ag|f2 ag f2 ga|
+bc' c'2 bg ab|ag fd ef g2-|g2 ag f2 ga|c'a gf e2 ba|
+g2 ab c'b ag|f2 ag f2 ga|bc' c'2 bg ab|ag fd ef ec|
+eg ab af ac'|fa b_a gf ef|g8-|g2 c'=a fa gb|
+ge f2 ag ba|f2 ag ab c'2-|c'2 ab c'a c'b|ge fc fg ab|
+af gc de f2-|f2 c'a fa gb|ge f2 ag ba|f2 ag ab c'2-|
+c'2 ab c'a c'b|ge fc fg ab|af gc de f2-|fc fa c'b ag|
+ag fa gf ed|ce gb ge f2|ac fa c'b ag|ag fe fg ab|
+c'f ag ag f2-|fc fa c'b ag|ag fa gf ed|ce gb ge f2|
+ac fa c'b ag|ag fe fg ab|c'f ag ag f2-|f2 ag f2 ga|
+c'a gf e2 ba|g2 ab c'b ag|f2 ag f2 ga|bc' c'2 bg ab|
+ag fd ef g2-|g2 ag f2 ga|c'a gf e2 ba|g2 ab c'b ag|
+f2 ag f2 ga|bc' c'2 bg ab|ag fd ef ec|eg ab af ac'|
+fa b_a gf ef|g8-|g2 c'=a fa gb|ge f2 ag ba|
+f2 ag ab c'2-|c'2 ab c'a c'b|ge fc fg ab|af gc de f2-|
+f2 c'a fa gb|ge f2 ag ba|f2 ag ab c'2-|c'2 ab c'a c'b|
+ge fc fg ab|af gc de f2-|fa bc' c'a c'b|ge fc fg ag|
+fe fg ab c'2-|c'6- c'a|bc' ac' bg ba|fe fg ab c'2-|
+c'b3 a3b|c'b a6-|a3g ag f2|zc'2z a4-|
+a3
+V:2
+z3c3 f2-|fe fg a4|df ec eg fe|f6- fz|
+zc2f ag fe|dc f2 cc'2b|ag fd ec f2-|fc2f ag fe|
+dc fg ab fd|c2 fe dc f2-|fc2f ag fe|dc f2 cc'2b|
+ag fd ec f2-|fc2f ag fe|dc fg ab fd|c2 fe dc f2-|
+f2 ag2<c2f|af c4 gf|e2 fg ag f2-|ff ag2<c2f|
+ga c2 ge fg|c2 fB cd e2-|e2 ag2<c2f|af c4 gf|
+e2 fg ag f2-|ff ag2<c2f|ga c2 ge fg|c2 f=B cd c2-|
+ce3 c4-|cf gf e2<c2|ec d=B cd e2-|e2 ag c2 eg-|
+gc'2<f2e gf|c2 fe2d c2-|c2 fg cf ag-|gc2<a2e fg|
+fc ea bg f2-|f2 af c2 eg-|gc'2<f2e gf|c2 fe2d c2-|
+c2 fg cf ag-|gc2<a2e fg|fc ea bg f2-|fc2f ag fe|
+dc f2 cc'2b|ag fd ec f2-|fc2f ag fe|dc fg ab fd|
+c2 fe dc f2-|fc2f ag fe|dc f2 cc'2b|ag fd ec f2-|
+fc2f ag fe|dc fg ab fd|c2 fe dc f2-|f2 ag2<c2f|
+af c4 gf|e2 fg ag f2-|ff ag2<c2f|ga c2 ge fg|
+c2 f=B cd e2-|e2 ag2<c2f|af c4 gf|e2 fg ag f2-|
+ff ag2<c2f|ga c2 ge fg|c2 f=B cd c2-|ce3 c4-|
+cf gf e2<c2|ec d=B cd e2-|e2 ag c2 eg-|gc'2<f2e gf|
+c2 fe2d c2-|c2 fg cf ag-|gc2<a2e fg|fc ea bg f2-|
+f2 af c2 eg-|gc'2<f2e gf|c2 fe2d c2-|c2 fg cf ag-|
+gc2<a2e fg|fc ea bg f2-|ff ga af ag|ec2<c2e3|
+c3e fg cd|ef ga2<c2f|ga f2 ge2f|c3=B cd c2-|
+cd3 c3d|ed c6-|c3e ce f2|zc2z f4-|
+f3
+S:https://www.folktunefinder.com/tunes/99167
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

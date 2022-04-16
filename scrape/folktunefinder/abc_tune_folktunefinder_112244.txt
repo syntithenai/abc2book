@@ -1,0 +1,24 @@
+X:704
+T:Storars
+D:Wisk SCD Band
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:A
+ed | c2 A2 AcBA | G2 E2 E4    | ^D2 B2 BcBA  | G2 E2 E2
+ed | c2 A2 AcBA | GABc  defg  |  aece  Bfed  | c2 A2 A2 :|
+ce | fece  agfe | fe c2 c2 ce |  fece  agfe  | d2 B2 B2
+e2 | fece  agfe | fefg  agfe  |  dcBA  B2 ed | c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/112244
+S:http://nigelgatherer.com/tunes/abc/tb15.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb15.abc
+S:http://nigelgatherer.com/tunes/abc/abc9/storr.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc9/storr.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

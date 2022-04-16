@@ -1,0 +1,22 @@
+X:275
+T:Hag with the Money
+Z: id:dc-jig-46
+M:6/8
+L:1/8
+K:D Mixolydian
+Adc ABG|AGE G3|Adc ABA|GEA GED|!
+Adc ABG|AGE G3|A3 cde|dcA GED:|!
+AB^c d^cd|fed e3|AB^c d^cd|eag ed^c|!
+AB^c d^cd|fed efg|age cde|dcA GED:|!
+S:https://www.folktunefinder.com/tunes/128691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:2
+T:Marche des Trois Rivieres (R-160)
+M:C|
+K:D
+A|:"D"A3 f e2 d2|(A4 A)B1/2 cB1/2|A3 f e2 d2|(A4 A)B1/2 cB1/2|
+"Em"A3 B c2 d2|"A"e6 aa|[1"Em"a2 e2 "A7"a2 e2|"D"(f4 "A"f3) A:|2"A"a2 g2 B2 c2|"D"ddAF "F#"D2 FF|]
+|:"Bm"F2 B2 B2 FF|F2 B2 B2 FF|F2 B2 B2 F2|"Em"A2 G2 G2 AA|
+"A"A2 c2 c2 AA|"A"A2 c2 c3 [1E|"A"E3 d "A/G"d2 c2|"F#m/F#m/A"B2 c2 A2 FF:|2B|"A"B2 A2 G2 E2|"D"DDFA d3|]
+%%text Transition -- play this instead of last measure above.  
+%%text Hold this quarter note as long as you will hold the eighth notes in next tune.
+|D2|
+S:https://www.folktunefinder.com/tunes/107257
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

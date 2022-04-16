@@ -1,0 +1,23 @@
+X: 141
+T: Old Favorite
+R: jig
+M: 6/8
+K: G
+"G"B3 BAB| dBA G2B| ded d2B| ded "D"B2A|
+"G"B3 BAB| dBA G2B| ded "D"cBA| "G"G3 G3 :|
+|:"G"g3 "D"f3| "C"efe "G"d2B| ded d2B| ded Bdf| "G"g3 "D"f3|
+"C"efe "G"d2B|1 "D"dge dBA| "G"G3 G3 :|2 "G"dge dge| dge "D"dBA |]
+%%text Roaring Jelly  J-63
+S:https://www.folktunefinder.com/tunes/107163
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

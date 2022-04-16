@@ -1,0 +1,25 @@
+X:289
+T:no name
+R:jig
+S:Kevin Finucane
+Z:id:hn-jig-289
+M:6/8
+K:A
+B|~c3 efa|fec ecB|~A3 FEF|ABc ecA|
+~f3 ~a3|fec ecB|AFE Ace|fec A2:|
+|:E|Ace ~a3|baf ecB|AFE Ace|fec BAF|
+E2E Ace|fdf ecB|AFE Ace|fec A2:|
+S:https://www.folktunefinder.com/tunes/117728
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj2.abc
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

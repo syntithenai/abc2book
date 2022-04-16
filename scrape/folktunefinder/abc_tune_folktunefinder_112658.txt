@@ -1,0 +1,30 @@
+X:231
+T: Yu min haozi
+N: C0368
+O: China,Hebei, Fengnan
+S: IV, 22]
+N: Hier werden insgesamt 5 Lieder zusammengesetzt: 1. Xun zao yu chun;
+N: 2. Yao lu; 3. Chi fan; 4. lao wang; 5. zhuang can, Transport in die
+N: Kantine.
+N: Glissando.
+R: Haozi, Yumin haozi. Xunzhao yuqun shi chang]
+M: 2/4
+L: 1/16
+K: G
+d4B2A2 | G4G4 | A2B2d2e2 | G4G4
+d4D2D2 | G2G2G4 | d2B2A2F2 | G4G4
+A2B2d4 | g2e2d4 | d2A2B3A | G4G4
+d2B2A2G2 | g4A2G2 | A2GAB2A2 | G2G2G4
+A2GAB2A2 | G2G2G4 | A2GAB2A2 | G2G2G4
+S:https://www.folktunefinder.com/tunes/112658
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, yumin haozi. xunzhao yuqun shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

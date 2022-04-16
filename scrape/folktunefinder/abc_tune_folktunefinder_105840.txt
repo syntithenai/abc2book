@@ -1,0 +1,24 @@
+X: 8
+T:Chestnut
+T:or Dove's Figary
+M:C|
+L:1/8
+Q:180
+B:The Round Band Book of Playford
+K:F
+"Dm"d2a2 g2f2 | "Gm"e3d "A"^c2A2 | \
+"Dm"d2e2 f2f2 | "C"g2fg "F"a4 :| \
+"F"a2ab c'2ba | "C"g2ga b2ag | \
+"F"a2a2 "Dm"a2gf | "Gm"g3f "Dm"f4 | \
+"F"a2ba bagf | "C"g2ag agfe | \
+"Dm"f2d2 "Gm"d2g2 | "C"e3d "Dm"d4 :|
+S:https://www.folktunefinder.com/tunes/105840
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:124
+T:Summer Reverie
+%%MIDI gchord cHIg
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=83
+C:Colin Hume, 2000
+N:For Chris Oxtoby
+K:D
+P:A
+%%MIDI program 50
+%%MIDI chordprog 46
+%%MIDI bassprog 46
+[| "D"FGAd | "Em"c2B2 | "F#m"A3C | "Bm"E2D2 | "Em"DEFG | "F#m"A2F2 | "G"EFGA | "A7"B2A2 |
+%%vskip 0
+P:B
+| "D"FGAd | "Em"e2fg | "A7"f3c | "Bm"e2d2 | "Em"defd | "F#m"A2FG | "Am"A2B=c | "B7"B4 |
+%%vskip 0
+P:C
+| "Em"FGfe | "Em/D"BGFE | "Am/C"F2GA | "B7"G2F2 | "Em"G2AB | "Am"A2e2 | "D"dAB=c | "G"B4 |
+%%vskip 0
+P:D
+| "Em"FGfe | "Em"BGFE | "D"FEFA | "Bm"d2D2 | "Em"EFdc | "Em"B2B,C | "A7"E3D | "D"D4 |]
+S:https://www.folktunefinder.com/tunes/110171
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

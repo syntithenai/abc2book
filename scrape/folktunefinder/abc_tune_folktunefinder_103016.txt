@@ -1,0 +1,32 @@
+X: 41
+T:Scotland The Brave/Corn Rigs
+M:C
+L:1/8
+Q:132
+K:G
+P:A
+G2 G>G BG Bd | g2 g>g gd BG | c2 e>c Bd BG | A2 d>d dc BA  |!
+G2 G>G BG Bd | g2 g>g gd BG | c2 e>c Bd BG | A2 G>G G/A/B/c/ d/e/f/g/ |!
+a2 a>a af df | g2 b>a gdBd | e2 e>e d2 g>f | ed cB Ac BA | !
+G2 G>G BG Bd | g2 g>g gd BG | c2 e>c Bd BG |A2 G>G G2 G2||!
+K:D
+P:B
+d>e fe/d/ c/B/c/d/ eA | d>e f/g/f/e/ da aA |\
+dd/e/ fe/d/ c/B/c/d/ eA | A/B/c/d/ e/d/c/B/ Ad dA|!
+d>e fe/d/ c/B/c/d/ eA | d>e f/g/f/e/ da aA |\
+dd/e/ g/f//e/d/ c/B/c/d/ eA | A/B/c/d/ e/d/c/B/ Ad dA|!
+da fa c/B/c/d/ eA | da f/g/f/e/ da aA | da b/a/g/f/ g/f/e/d/ c/d/c/B/|\
+A/B/c/d/ e/d/c/B/ Ad d2|!
+da fa c/B/c/d/ eA | da/g/ f/g/f/e/ da aA |\
+df/a/ b/a/g/f/ g/f/e/d/ c/d/c/B/|\
+A/B/c/d/ e/d/c/B/ Ad d2:||!
+S:https://www.folktunefinder.com/tunes/103016
+S:http://www.kennaquhair.com/tunes/tradtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

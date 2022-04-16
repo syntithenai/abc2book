@@ -1,0 +1,28 @@
+X: 21
+T:Liverpool Hornpipe. FK.21
+M:C
+L:1/8
+Q:160
+C:"MS 42"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:D
+A2 | FDFA dfaf |gefd dcBA | GBGB FAFA | EFGA GFED |!
+ FDFA dfaf | gefd dcBA | afdf gece | d2 dd d2 ||!
+A2 | dfdf cece | BcdB BAGF | GBGB FAFA | EFGA GFED |!
+ FDFA dfaf | gefd dcBA | afdf gece | "*"d2 d2 d2 ||
+%* In MS three B crotchets
+S:https://www.folktunefinder.com/tunes/127170
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

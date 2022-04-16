@@ -1,0 +1,29 @@
+X:23
+T:Ronde du romarin
+R:Branle
+A:Normandie
+O:France
+M:2/4
+L:1/8
+Q:1/4=105
+K:D
+D|A>A AA|BA d2|c/2c/2B/2B/2 A2||
+AA|d>A AG|FE F2|F/2F/2F/2F/2 AG|FE A2|
+d/2d/2d/2d/2 dc|BB AA|EG FE|D2 z2||
+W:
+W:Dans la cour de ma tante
+W:Plantons le romarin
+W:Il y a un coq qui chante
+W:Plantons le romarin, Mesdames
+W:Plantons le romarin, Mesdames
+W:Au beau milieu du jardin
+S:https://www.folktunefinder.com/tunes/104845
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf02.abc
+S:http://www.tradfrance.com/matf02.txt
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

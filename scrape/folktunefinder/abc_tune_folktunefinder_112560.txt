@@ -1,0 +1,25 @@
+X:133
+T: Shuanzhu taiyang hao ganhuo
+N: C0223
+O: China,Sichuan, Pingchang
+S: II, 212, 1)]
+N: sehr kleiner Tonumfang, aehnlich wie in Hunan.
+R: Shange. Nongtian laodong shi chang]
+M: 2/4
+L: 1/16
+K: D
+B3BB2d2 | e2f6 | e2d2f4 | f2e4d2
+BdB4d2 | e2f2f2e2 | d2B2e2d2 | B8
+S:https://www.folktunefinder.com/tunes/112560
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. nongtian laodong shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

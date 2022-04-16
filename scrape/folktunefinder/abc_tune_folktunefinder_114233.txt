@@ -1,0 +1,27 @@
+X: 23
+T:Hopwas Hornpipe
+% Nottingham Music Database
+S:Mick Peat
+M:2/2
+K:G
+B3/2c/2|"G"d2d3/2B/2 G3/2F/2G3/2B/2|d3/2e/2d3/2B/2 G2(3cd^d|\
+"A"e2e3/2^c/2 A3/2^G/2A3/2c/2|e3/2f/2e3/2c/2 A2^c2|
+"D"d3/2e/2d3/2A/2 F3/2D/2F3/2A/2|d3/2e/2f3/2e/2 d3/2c/2B3/2A/2|\
+"G"G3/2B/2d3/2B/2 "D"c3/2A/2F3/2A/2|"G"G2G2 G2:|
+(3BAG|"B7"F3/2B/2^A3/2B/2 ^d3/2B/2A3/2B/2|f3/2B/2A3/2B/2 F3/2B/2A3/2B/2|
+"E7"E3/2B/2^A3/2B/2 d3/2B/2A3/2B/2|e3/2B/2A3/2B/2 E3/2B/2A3/2B/2|\
+"A7"E3/2A/2^G3/2A/2 ^c3/2A/2G3/2A/2|
+e3/2A/2G3/2A/2 E3/2B/2A3/2B/2|"D"c3/2A/2^G3/2c/2 "Am"A3/2G/2c3/2A/2|\
+ [1"D"F3/2D/2E3/2F/2 "G"G2(3BAG:|
+ [2"G"G2z2|
+S:https://www.folktunefinder.com/tunes/114233
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/ashover.txt
+S:http://www.guitarnut.com/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

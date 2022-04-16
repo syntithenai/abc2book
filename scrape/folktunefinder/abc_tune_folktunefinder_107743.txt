@@ -1,0 +1,24 @@
+X:570
+T: Humors of Limerick
+S: "Roche Collection of Traditional Irish Music" [III/35/113]
+L: 1/8
+M: 6/8
+R: jig
+K: D
+D2F A2d | BAF A2F | D2F A2F | EFE FDB, |
+D2F A2d | BAF ABc | d2B A2F | EFE FDB, :|
+d2e f2d | efe fdB | d2e f2d | ded dBA |
+d2e f2d | efe fdB | d2B A2F | EFE FDB, :|
+S:https://www.folktunefinder.com/tunes/107743
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

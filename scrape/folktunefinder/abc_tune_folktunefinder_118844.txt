@@ -1,0 +1,26 @@
+X:34
+T:Give The Fiddler A Dram
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:C
+|:GF|\
+"G"D2~GF GABG|"F"A[A2F2][AF] [A4F4]|"Dm"FGAB cAdc|"G"B[B2G2][GB] GAGF|
+"G"D2~GF GABG|"F"A[A2F2][AF] FGA2|"Dm"^cd2e ded=c|"G"BGAF G2:|
+|:z^A|\
+"G"Bg2^f "G7"gag=f|"C"ec~cB cdcB|"A"Aa2^g "A7"aba=g|"D"^fde^c "D7"ded=c|
+"G"Bg~g^f gag=f|"C"ec~cB cde2|"F"f3g fedc|"G"BGAF G2:|
+S:https://www.folktunefinder.com/tunes/118844
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

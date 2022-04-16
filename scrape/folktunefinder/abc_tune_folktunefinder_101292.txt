@@ -1,0 +1,24 @@
+X: 1676
+T: Early in the Morning
+M:4/4
+L:1/8
+B:O'Neill's 1676
+N:"collected by F.O'Neill"
+K:A
+E2 \
+| E>A(3AAAA-cBA | GABcd2c-d | efgedBAG | EDEFGBAG |
+| E>A(3AAA A-cBA | GABcd2c-d | efgedBGA | B2AAA2 :|
+|: c-d \
+| (3eee edcAce | dcBcd2c-d | (3efg fdedce | dcBAGBAG |
+| E>A(3AAAA-cBA | GABcd2c-d | efgedBGA | B2AAA2 :|
+S:https://www.folktunefinder.com/tunes/101292
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

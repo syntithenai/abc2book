@@ -1,0 +1,24 @@
+X:38
+T:For Colin - A Dance with a Difference
+C:Eileen Muscroft, 2004: "First Attempt"
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=100
+K:G
+P:A
+|: "G"GBd dBG | "G7"gdB "D"d3 | "Am"edc "D"BAG | "Am"A2B "C"c3 |\
+"G"B2B "C"cde | "C"eef "G"g3 | "G"b2g "D"gfe | "G"dBA G3 :|
+P:B
+|: "C"c3 cde | "D"dde f3 | "C"ggg gfe | "D"dde d3 |\
+"C"c2c cBA | "G"GFE "D"D3 | "G"G2B dBG | "D"DEF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/110085
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:18
+T:Promenade
+Z: id:dc-slipjig-17
+M:9/8
+L:1/8
+K:D Dorian
+A2D D2C A,2G,|A,2D D2E F2G|A2D D2C A,2G,|A,2C C2B, C3:|!
+A2d d2c d3|A2d d3 cBA|G2c c2B c3|d2c c2A G3:|!
+S:https://www.folktunefinder.com/tunes/120544
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slipjigs.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

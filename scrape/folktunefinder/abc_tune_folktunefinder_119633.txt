@@ -1,0 +1,28 @@
+X:64
+T:Mon pre m'a marie  un vieillard
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n64
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=110
+K:G
+B A/ B/ | FGAF | G2 B A/ B/ | FGAF |GGGd | ddcc | BBBG | AB (c/B/) (A/G/) |
+A2 BA/B/ | GF G/ A/ B/ G/ | AAB A/ B/ | FGAF | G2 ||
+W:Mon pre m'a marie
+W:J'entends le moulin tique taque.
+W:A un vieillard il m'a donne, il n'a ni maille ni denier.
+W:J'entends le moulin tique tique taque.
+W:J'entends le moulin taqueter.
+W: /.../
+S:https://www.folktunefinder.com/tunes/119633
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

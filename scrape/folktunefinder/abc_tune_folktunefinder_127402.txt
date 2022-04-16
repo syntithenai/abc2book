@@ -1,0 +1,23 @@
+X:23
+T:Jessica's
+Z: id:dc-polka-18
+M:2/4
+L:1/8
+K:A Major
+ef/e/ ce|fe Bc|A>B cA|ec B2|!
+ef/e/ ce|fe Bc|A>B cA|FA E2:|!
+F>B AF|cB A2|ef/e/ ce|ag f2|!
+ef/e/ ce|fe Bc|A>B cA|FA E2:|!
+S:https://www.folktunefinder.com/tunes/127402
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

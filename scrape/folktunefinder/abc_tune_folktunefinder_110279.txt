@@ -1,0 +1,25 @@
+X: 37
+T: Lech lamidbar
+O: Israel
+M: 4/4
+L: 1/8
+S: Deborah Jones/Vancouver IFD 1982
+Z: Seymour.Shlien:crc.doc.ca, modified by John Chambers <jc:trillian.mit.edu>
+K: Dm
+"Dm" A2 Ad- de d2 |"C" cd cF "F" A2 A2 | "Gm" G2 G B2 A G2 | "A7" AB AG FE "Dm" D2 |
+"Dm" A2 Ad- de d2 |"C" cd cF "F" A2 A2 | "Gm" G2 GA BG "C" c2 | z c2 B "A7" AG FE |
+|: "Dm" F2 F2 "G" D4 | "A7" E G2 E "Dm" D2 D2 | D2 D2 "Gm" EF G2 | "A7" E F2 E "Dm" D2 D2 :|
+"F" A2 A2 FG A2 |"C7" G B2 G "F" A2 AG | "Dm" A2 A2 DE F2 | "Gm"z G2 E "A7"G2 FE |
+|: "Dm" F2 F2 "G" D4 | "A7" E G2 E "Dm" D2 D2 | D2 D2 "Gm" EF G2 | "A7" E F2 E "Dm" D2 D2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110279
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

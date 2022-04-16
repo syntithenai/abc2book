@@ -1,0 +1,33 @@
+X:12734
+T:Paddy('s) Wedding. BF13.027
+M:6/8
+L:1/8
+Q:120
+C:In hand "B"
+S:MS13,c1850,Lakes,Browne Coll.
+R:Jig
+O:England
+A:Lakes
+N:No key signature is given.  It follows directly after Farewell to
+N:Whisky, which is in A major, though it is in a different handwriting.
+Z:vmp.Cherri Graebe.
+K:DMajor
+"NB"(Bc)|ddd AFA|GBA ABc|ddd efg|"NB"f2e e2f|!
+g2ef2d|e2dc2A|Bcd AFA|B2A A:|!
+|:fg|aba fdf|aba fdf|aba fdf|g2 e efg|!
+a2fg2e|f2dc2A|Bcd AFA|B2A A:||
+W:Lead-in notes (A/B/C/) in ms..Bar 4 missing from ms.CGP|]
+S:https://www.folktunefinder.com/tunes/115779
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:3
+T:Heure d'ete
+C: C. Declerck (1996)
+S: declerck.christian#wanadoo.fr
+Q:1/4=180
+R:jig
+M:6/8
+L:1/8
+K:G Major
+FAB AFD|F{G}F{E}F AFE|DFB AFD|E{F}E{D}E FDB,|!
+DFB AFE|F{G}F{E}F Ade|f{a}ed edA|[1B{d}B{A}B dAG:|[2B{d}B{A}B dAF:|!
+def fef|afa b(3afe|def fef|edB B2A|!
+def fef|afa b2f|gfe fed|[1BAB dAF:|[2BAB dAG|]!
+S:https://www.folktunefinder.com/tunes/104619
+S:http://domren.free.fr/ABC.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

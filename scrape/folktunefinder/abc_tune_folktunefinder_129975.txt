@@ -1,0 +1,26 @@
+X:13
+T:Le Chibeurli
+C:Trad.
+O:France
+A:Morvan
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+%%D'aprs la version note par Lucie Augias (Saulieu - 1936)
+%%continueall 1
+e/f/ |: g3 e/f/ | g3g | ag fe | f2 dd/e/ | f3d/e/ | f3f | gf ed |1 e2 ce/f/ :|2
+c3 e/f/ |: gg gg | a/g/f/e/ dd/e/ |1 ff ff | g/f/e/d/ ce/f/ :|2 ff ed | g/f/e/d/ c2 |]
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129975
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 11
+T:The High Hill
+M:4/4
+L:1/8
+C:Ed Reavy
+S:The Collected Compositions of Ed Reavy
+R:Reel
+N:It's the hill that almost 
+N:disappears in the mist, 
+N:where the hill people reside. 
+N:Stories have been told about it and about
+N:those who live there. Their music is 
+N:the music of a lost art and their 
+N:stories are the tales of a forgotten time. 
+Z:Joe Reavy
+K:D
+FG|:AD (3FED A,DDE|FGAc dcAG|AD (3FED A,EFA|GE=CE G2FG|
+AD (3FED A,DDE|FGAB cBce|dcAG FGAF|GE=CE D2 FG:|
+Addc d2 cd|ed (3dcd edd=c|AGAB =cBcd|e=c (3cBc ecdc|
+Add^c d2 cd | ed (3dcd edd=c|AGAB =cded|1=cAGE DEFG:|
+[2=cAGE D2||
+S:https://www.folktunefinder.com/tunes/120319
+S:http://www.reavy.us/Reavycom.abc
+S:http://www2.redhawk.org:8080/irish/Reavy/Reavycom.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

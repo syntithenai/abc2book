@@ -1,0 +1,36 @@
+X:166
+T: Tugai bachu xi
+N: C0275
+O: China,Heilongjiang, Hailun
+S: III, 24]
+N: 1. Takt: rhythmische Form ist im Sueden selten zu finden, aber oft
+N: im Norden. Wird auftaktig aufgefasst. Nach einer Textfrage wird die
+N: Melodie erweitert- Im Nordosten ist diese Melodie sehr bekannt und
+N: wird auch zum Tanz gesungen. Das Lied wird als "prosaisch" bezeichnet,
+N: weil es wie die deutschen Volkslieder sich durch Syllabik und
+N: kleinen Tonvorrat auszeichnet. Das Modell wird in der Kunst von
+N: Gesang und Sprache mit Kuaiban begleitet.
+R: Xiaodiao, Bazhuxi diao. Geming lishi minge]
+M: 4/4
+L: 1/16
+K: G
+z2BdB2B2dBAFEDB,2 | BdegedB2ABG2F2E2
+z2E2B2B2A4F2E2 | z2d2d2B2ABG2AFE2
+z2B2B2B2G2B2A4 | z2B2B2d2B,DB,DE4
+B2B2d2BAG2B2A4
+B3AB2A2BAB2A4
+G2G4A2G2D2E4
+d3BABd2BdBAF2E2 | D2D4EGD8
+S:https://www.folktunefinder.com/tunes/112593
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, bazhuxi diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

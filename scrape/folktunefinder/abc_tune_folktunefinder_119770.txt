@@ -1,0 +1,33 @@
+X: 32
+T:Coppers and Brass
+M:6/8
+L:1/8
+Q:120
+C:F. Doran
+R:Jig
+K:G
+d/2c/2|"G"BGB BGB|"D"AFA AFA|"G"BGB BGB|"D"def "G"ged|
+B2{c}{B}{A}B BAG|"D"ABA DFA|ded "D7"cAF|"D"AGF "G"G2::
+A||"G"BGB BGB|"D"AFA AFA|
+"G"B2{c}{B}{A}B "D"A2{B}{A}{G}A|"G"G.B/2.c/2.d ged|
+B2{c}{B}{A}B B{c}{B}AG| "D"A2{B}{A}{G}A ABc|
+ded "D7"cAF|"D"AGF "G"G2::
+d|"D"f2{g}{f}{e}f fed|"Am"cAG "D"FGA|"G"gzg gfg|"D"agf d2e
+.f/2.g/2.ad .e/2.f/2.ed|"Am"cAG "D"FGA|
+"G"BGB "D7"cAF|"G"AGG G2::
+e|"D"fdd fdd|"Am"cAG "D"FGA|"G"g2g gfg|"D"agf dde|
+f2d .e/2.f/2.ed|"Am"cAG "D"FGA|
+"G"BGB "D7"cAF|"G"AGG G2:|
+S:https://www.folktunefinder.com/tunes/119770
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:88
+T:Huntingtone Castle
+S:Sandy MacIntyre
+R:March
+A:Cape Breton
+M:6/8
+Q:200
+L:1/8
+K:G
+uB,2|"Em"(E>FE) "C"({F}G2A) | "Em"(B2A) "D"(F>ED) | "Em"(E>FE) "C"({F}G2A) | "Em"(B>AB) "Bm"(d2e) |
+"Bm"(f>ed)"G"(B>dB) | "D"(ABA) "Bm"(F>ED) | "C"(E>FE) "Em"({F}GAB) | "A"({B}A>G)"Bm"uF"Em"vE2 :|
+ud| "Em"(e>fe) "G"(d>cB) | "D"(A>BA) "Bm"(F>ED) |"Em"Eee "C"(e>fg)| "Bm"(fe)u^d "Em"ve2 uf|
+"Em"(g>af) "C"(e>fd)| "G"(B>dA) "D"(F>ED) | "C"(E>FE) "Em"({F}GAB) | "A"({B}AG)"G"uF "Em"vE2 :|
+S:https://www.folktunefinder.com/tunes/122878
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

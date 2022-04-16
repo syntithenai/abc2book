@@ -1,0 +1,27 @@
+X:10
+T:The Green Mountain
+R:reel
+S:Neillidh Boyle 78 rpm recording
+Z:Transcribed by Larry Sanger
+M:2/4
+K:D
+dB|:AF~F2 AF[EA,2]F|[DG,2]F~F2 [AF]Bde|fd~d2 edBd|[eA]d[fd]d edBd|
+AF[~F2G,2] EF~F2|EDFB [eA]Bde|f[fd]~d2 efdB|A[AF][AE]F {DF}D2cd|
+AF~F2 [AE]DFE|[DA,2]F[AE]F [eA]Bde|f[fd]~d2 edBd|Adfd edBd|
+AF~F2 [.EA]z~F2|[DA,2]F[AE]F [eA]Bde|fd~d2 efdB|A[AF][AE][AF] [D2G,4] .g/g/g||
+fgab afdf|~g2gb afe[fd]|fB~B2 [AD2]Bde|~f2fe dB{d}BB|
+Aa{b}aa ^gbaf|defd {f}e2de|fd~d2 efdB|AFEF [D2G,4]~g2
+fa~a2 ba(3a^ga|^gaba fdde|fB~B2 {d}B2de|~f2fe dB{d}BB|
+Aa{b}aa ^gbaf|defd {f}e2de|fd~d2 efdB|AFEF {DF}D2cd||
+S:https://www.folktunefinder.com/tunes/100771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

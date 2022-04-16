@@ -1,0 +1,36 @@
+X: 15
+T: Cherokee Shuffle
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:(3A,B,C|\
+"D"D2FD EDB,C|DA,B,G,A,2 (3A,B,C|D2DE FGAF|"Bm"B6AB-|
+"G"BABc dcdB|"D"ABAG FDFG|ABAG FDEC|D3ED2:|
+|:"D7"dc|\
+"G"BGBcd2 (3dcB|"D"ABAFD2dc|"G"BGBc "Em"d2e2|"F#m"f3e fedc|"G"BGBc dedB|
+"D"ABAG FDEC|D2DE "F#m"FGAF|"Bm"B6 (3BcB|"A"ABAG FDEC|"D"D6:|
+K: A
+|:(3EFG|\
+"A"A2cA BAFG|AEFD E2 (3EFG|A2AB cdec|"F#m"f6ef-|
+"D"fefg agaf|"A"efed cAcd|"E"efed cABG|"A"A3BA2:|
+|:"A7"ag|\
+"D"fdfga2 (3agf|"A"efec A2ag|"D"fdfg "Bm"a2b2|"C#m"c'3b c'bag|"D"fdfg abaf|
+"A"efed cABG|A2AB "C#m"cdec|"F#m"f6 (3fgf|"E"efed cABG|"A"A6:|
+S:https://www.folktunefinder.com/tunes/113024
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

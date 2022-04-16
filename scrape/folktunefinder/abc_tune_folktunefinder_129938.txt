@@ -1,0 +1,30 @@
+X:22
+T:La mist'en laire
+T:Chanson mime  rcapitulation
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Em
+V:1
+E | "Em"B2 BA | (BA) G2 | "B7"A>G AB | "Em"(GF) E2 | EB G2 |
+"B7" A2B2 | c>B AB | (GF) "Em"E2 |: "Rcapitulation" "G"G>F EF | G2D2 |
+"G"G>F EF | G2D2 :| "G"G2 "D7"A2 | "G"B3z | c>B "B7"AB | (GF) "Em"E2 |]
+V:2
+E | [B2G2] [BG][AF] | ([BG][AF]) [G2E2] | [A3/2B,4F4]G/ AB | [GB,][FA,] [E2G,2] | E[BG] [G2E2] |
+[A2F2][B2G2] | [c3/2E3/2]B/ [AE][B^D] | ([GE]F) E2 |: G>F EF | [G2B,2]D2 |
+G>F EF | [G2B,2]D2 :| [G2D2B,2] [C2D2F2A2] | [B,3D3B3] z | c>B AB | [GE]F E2 |]
+V:3
+z | [E,4B,,4E,,4] | [E,4B,,4E,,4] | [B,,4^D,4] | [E,4B,,4E,,4] | [E,4B,,4E,,4] |
+[E,4B,,4E,,4] | A,>B, CB, | [B,E,]A, G,2 |: [G,4G,,4] | [G,4G,,4] |
+[G,4G,,4] | [G,4G,,4] :| [G,2G,,2][D,2D,,2] | [G,3G,,3]z| A,>B, CB, | [B,G,]B,, E,2 |]
+S:https://www.folktunefinder.com/tunes/129938
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

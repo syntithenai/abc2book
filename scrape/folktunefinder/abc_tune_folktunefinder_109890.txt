@@ -1,0 +1,22 @@
+X:1 % 2
+T:Alperer
+C:traditionell
+R:Jodler
+B:"(1.) Spielheft fuer Okarina", Zusammenstellung: V. Derschmidt, Herausgeber: Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+N: ueberstimme,  unterstimme
+M:3/4
+L:1/8
+K:C
+E4GC | E6 | E4GC | E6 |\
+F3EHD2 | F3EHD2 :| E6 ||
+S:https://www.folktunefinder.com/tunes/109890
+S:http://simonwascher.info/TradArchiv_iodler/alperer.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

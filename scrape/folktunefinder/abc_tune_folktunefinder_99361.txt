@@ -1,0 +1,26 @@
+X:11579
+T:My Mother says I manna
+M:6/8
+R:Jig
+K:D
+"Allegretto"D|\
+FGA "tr"B2A| d2c "tr"B2A| \
+GAF "tr"E2D| Dd2 z2D|\
+FGA "tr"B2A| d2c "tr"B2A| 
+GAF "tr"E2D| Dd2 z2::\
+d|\
+c2d edc| d2c B2A| \
+"tr"c2d e2E| E/F/GF "tr"E2D|
+c2d edc| d2c B2d| AGF "tr"E2D| DdD DdB| AGF E2D| Dd2 z2:|
+S:https://www.folktunefinder.com/tunes/99361
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

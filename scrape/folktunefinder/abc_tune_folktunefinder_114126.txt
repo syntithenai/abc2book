@@ -1,0 +1,38 @@
+X:60
+T:The Wild Blue Yonder
+C:R. Crawford
+C:Arr. C. French, C. Myers
+M:6/8
+L:1/8
+Q:1/8=300
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F2A A3-|A2z GFE|F3 G3|^G3 A3|B2d d3-|d2z edB|A6-|A6|
+F2A A3-|A2z GFE|F3 G3|^G3 A3|c2e e3-|e2z dcB|A6-|A6|
+F2A A3-|A2z GFE|F3 G3|^G3 A3|B2d d3-|d2z Bcd|c6-|c2z F2F|
+d3-d2d|^d3-d2d|e3-e2e|^e2z e3|fed f2d|f2d e3|d6-|dz2 z3||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!D2F F3-|F2z EDC|D3 E3|=F3 ^F3|G2B B3-|B2z BAG|F6-|F6|
+D2F F3-|F2z EDC|D3 E3|=F3 ^F3|A2A A3-|A2z EFG|A3 G3|F3 E3|
+D2F F3-|F2z EDC|D3 E3|=F3 ^F3|G2B B3-|B2z BBB|^A6-|^A2z F2F|
+B3-B2B|A3-A2A|G3-G2G|^G2z G3|A3 A2A|B3 A3|F6-|Fz2 z3||
+S:https://www.folktunefinder.com/tunes/114126
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

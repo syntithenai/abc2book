@@ -1,0 +1,26 @@
+X:68
+T:Little Rabbit
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=470
+K:A
+ef|[a2A2][aA][fA] [e2A2][eA][fA]|[a2A2][a2A2] [b2A2][eA]f|[a2A2][aA][fA] [eA][fA][aA][fA]|
+[eA]B[e2c2] [e2c2][eA][fA]|[a2A2][aA][fA] [e2A2][eA][fA]|[a2A2][a2A2]
+[b2A2][eA][fA]|[a2A2][aA][fA] [eA][fA][aA][fA]|
+[eA]B[e2c2] [e2c2]ef|:e2[ec][eA] [eB][ec]ef|e[ec][eA][eB]
+[e2c2]ef|e2[ec]A [eB][ec]ef|1 ecBc A2ef:|2 ecBc A2E/F/G
+|:[e2A2][e2A2] [eB][eA]A,/B,/C|[eA][eA][eB][eA] [eA][ec]E/F/G|[e2A2][eA]
+[eB] [ec]def|1 ecB/c/B A2E/F/G:|2 ecB/c/B A2cd |
+|:e2[e2A2] [eA][f2A2][fA]|[e2A2][e4c4]cd|[e2A2][e2A2] [aA][a2A2][fA]|[e2A2][e4c4]cd|
+e2[e2A2] [eA][f2A2][fA]|[e2A2][e4c4]cd|[e2A2][A2F2] [A2E2][AE][AE]|1 [A2F2][e2A2A2] [e2A2]cd:|2 [A2F2][e2A2] [e2A2][ec][eB]
+|:[e2A2][A2F2] [AE][AE][AE][eA]|[e2e2][ec][ec] [ec][ec][ec][eB]|
+[e2A2][A2F2] [AE][AE][AE][AE]|1 [A2F2][AA][AA] [AA][AA][ec][eB]:|2 [A2F2][A2A2][A4A4]|
+S:https://www.folktunefinder.com/tunes/117115
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

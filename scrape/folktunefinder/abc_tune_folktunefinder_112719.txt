@@ -1,0 +1,47 @@
+X:292
+T: Dui hua mi
+N: C0684
+O: China,Anhui
+S: MM,]
+N: Kopie der Noten.
+N: Diese Sammlung enthaelt mit Stand 1987 wenigstens 32 Aufnahmen
+N: mit dem Titel "Dui hua"
+N: Wenig Verzierungen. Angegeben ist der Notentext der ersten beiden
+N: Strophen., Probleme, Form, auch Notation) zu erkennen! Druckfehler in
+N: T.1,2,4,5 und entsprechenden(): z.B. T.1: 5__.35_3_5_3_^__.  etc.
+R: Xiaodiao. Duichang. Chang huahui]
+M: 2/4
+L: 1/32
+K: G
+d3Bd2B2d2B6 | G3EG2E2G4E4
+G4E2G2E4z4 | G3ee2G2E4z4
+A4E2G2E3GG2E2 | E2G2E2G2E4z4
+d6B2d4B2B2 | G4A2G2E8
+B6d2B4d4 | B4d4d4B2B2
+G8E8 | G8E8
+E4E2E2G4G4 | B4B2d2B4B4
+G2E2G2E2G8E4z4 | G2E2G2E2G8E4z2
+E2 | G4B4A4A2E2 | G8E8
+G4E2G2E4z4 | G3EE2G2E4z4
+A4E2G2E3GG2E2 | E2G2E2G2E4z4
+d6B2d4B4 | B4d4d4B2B2
+d6B2d4B2B2 | G4A2G2E8
+B6d2B4d4 | B4d4d4B2B2
+G8E8 | G8E8
+E4E2E2G4G4 | B4B2d2B4B4
+G2E2G2E2G8E4z4 | G2E2G2E2G8E4z2
+E2 | G4B4A4A2E2 | G8E8
+d2B2B2B2d2B2B4 | d2B2B2B2d2B2B4 | B2E2E2E2G4E4
+G4E2E2E4E2E2 | G4B4A6G2 | G8E8
+S:https://www.folktunefinder.com/tunes/112719
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. duichang. chang huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

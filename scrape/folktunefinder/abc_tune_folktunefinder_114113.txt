@@ -1,0 +1,35 @@
+X:47
+T:Give Me the Girl that is Ripe for Joy
+C:Arr. by John J. Benoit, 1994
+M:C
+L:1/8
+Q:1/4=90
+%%staves [1 2]
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dc|:B2 B>B BdcB|A2 A>A A2 Bc|ddcB (Ac)BA|1 .G2 G>G G2 dc:|2 .G2 G>G G2 gf|
+|:e2 dd d2 (3(GBd)|c2 BB B2 gf|e2 d>d d2 cB|(AG)FE D2 dc|
+B2 B>B BgdB|A2 A>A ABcd|(eg)dB (Ac)BA|1 .G2 G>G G2 gf:|2 .G2 G>G G2|
+V:2
+K:treble
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!F2|:G2 G>G GBAG|F2 F>F F2 GA|BBAG (FE)DC|1 .B,2 B,>B, B,2 F2:|2 .B,2 B,>B, B,2 Bd|
+|:c2 BB B2 (3(DGB)|A2 GG G2 Bd|c2 B>B B2 AG|(FE)DA, F,2 F2|
+G2 G>G GdBG|F2 F>F FGAB|(cB)AG (FE)DC|1 .B,2 B,>B, B,2 Bd:|2 .B,2 B,>B, B,2 ||
+S:https://www.folktunefinder.com/tunes/114113
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:100
+T:Merrily Dance the Quaker (#96)
+M:6/8
+L:1/8
+S:Bremner's Coll. of Scots Reels or Country Dances 1760
+K:G
+GAB D2 B|A2 G "tr"E2 D|GAB D2 D|E3 F3:||
+dcB edc|dcB ABc|dcB efg|"tr"B3 d3|
+dcB gfe|dcB A2 A|GAB D2 D|E3 G3||
+%
+% For over a century the name "Merrily Kissed the Quaker" has been
+% associated with a tune or Special Dance in Ireland, but no song or
+% verse relating thereto has been traced. In "O'Farrell's Pocket
+% Companion for the Irish or Union Pipes 1804-10", we find the tune
+% with name annotated "New Sett Irish". Continuing the investigation
+% we discover that "Merrily Dance the Quaker" (probably the original
+% tune) was printed in No. 7 of "Bremer's Collections of Scots Reels,
+% or  Country Dances" issued in 1760. The traditional version in North
+% Kerry taken from the Rice-Wlash manuscript serves to illustrate how
+% far a tune may deviate from the original in a few generations.
+S:https://www.folktunefinder.com/tunes/106204
+S:http://music.gordfisch.net/oregans/assets/abc/oneillswaifs.abc
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:315
+T: Wandering Minstrel [The]
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+B|ADD BAF|Ade fdB|ADD BAG|F/G/AF GFE|
+ADD BAF|Ade fdB|AdB AFE|FDD D2 :|
+g|fef ede|fdB AFA|BdB AFd|AGF E2g|
+~f3 ede|fdB AFA|BdB AFE|FDD D2 :|
+e|fef afd|gbe gbe|~f3 afd|ceA ceA|
+fef afd|gbe gbe|~f3 ede|fdc d2 :|
+S:https://www.folktunefinder.com/tunes/114509
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

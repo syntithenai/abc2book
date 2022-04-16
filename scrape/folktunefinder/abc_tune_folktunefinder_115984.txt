@@ -1,0 +1,36 @@
+X:12939
+T:Paxarn parleru (CT 097)
+R:Tonada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita en Cangas d'Ons.
+O:Cangas d'Ons
+A:Asturies
+Z:Cancioneru de Torner 097
+M:3/4
+L:1/8
+Q:1/4=76
+W:-Dime, paxarn parleru,
+W:dime paxarn parleru,
+W:qu es lo que que comes
+W:-Como arenines del mar,
+W:como arenines del mar,
+W:del campo flores.
+K:Gm
+|dd dd ed|(c3/2(3B/4c/4B/4) A4|
+dd dd ed|(c3/2(3B/4c/4B/4) AB cA|(B3/2(3A/4B/4A/4) G2 z2 :||
+S:https://www.folktunefinder.com/tunes/115984
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Tonada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

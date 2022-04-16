@@ -1,0 +1,33 @@
+X:6821
+T:Harlequin Hornpipe. GS.053
+M:2/2
+L:1/8
+Q:180
+S:George Spencer m/s, Leeds,1831
+R:Hornpipe
+O:England
+A:Leeds
+N:'George Spencer Book Leeds 1831' written at end
+N: 1 - this note is written as 'D', but by comparison with bar 5 and
+N:because it makes more sense, here shown as 'E'..Cherri.
+H:1831
+Z:vmp.Cherri Graebe
+K:BB major
+FA | B2B2 (Bd)(c"1"e) |  d2d2 (df)(eg) |  fbag fedc | (BA)(cA) ecAF | B2
+B2 (Bd)(ce) | !
+d2d2 dfeg | fbag fddc | B2B2B2 :||: FE | DBFB DBFB | EBGB EBGB |!
+ecAc ecAc | dBEB dBEB |  DBFB DBFB | EBGB EBGB | ecAc ecAF | B2B2 "pause
+"B2 :||
+S:https://www.folktunefinder.com/tunes/108328
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

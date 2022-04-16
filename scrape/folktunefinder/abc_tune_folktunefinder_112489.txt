@@ -1,0 +1,37 @@
+X:62
+T: Wei shenme qiongfu ren xiangge zhe qianli tiaotiao
+N: C0080
+O: China,Shanxi, Qinyuan
+S: I, 312, (2)]
+N: ]
+R: Wuge, Yangge, Hunjanglong diao. Qiongfu duibi]
+M: 2/4
+L: 1/16
+K: A
+B4F2A2 | B8
+e3fe2c2 | B3ec2B2
+A4E2F2 | A8
+B3cB2A2 | B2F4E2 | F8
+B4C2E2 | F8
+A3BA2F2 | E2A2F2E2
+D4A,2B,2 | D8
+E3FE2D2 | E2B,4A,2 | B,8
+B4F2A2 | B8
+f2a2e2c2 | B8
+f2a2e2c2 | B2e2B2A2
+F2A2E2F2 | A8
+B2c2B2A2 | B2F4E2 | F8
+S:https://www.folktunefinder.com/tunes/112489
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge, hunjanglong diao. qiongfu duibi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

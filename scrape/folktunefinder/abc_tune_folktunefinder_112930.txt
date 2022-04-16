@@ -1,0 +1,29 @@
+X:503
+T: Ganniu shan
+N: C1143
+O: China,Shandong, Zibuo
+S: III, 377]
+N: Plattenhuelle kopiert
+N: Vorspiel weggelassen.
+R: Xiaodiao]
+M: 2/4
+L: 1/32
+K: F
+d2f2d2f2c6A2 | d2f2d2f2c6A2 | c2d2f2g2d2f2c4 | c3fA2A2G8
+G6A2c8 | c8f4A4 | G4G4z4c2A2 | G6c2G2A2F4
+G4C4D2C2D4 | F2D2F4z4c2A2 | G6A2G2F2D4 | C16
+c12A4 | c2=B2c2B2c2B2c2B2 | c2=B2c4z4c4 | G4A4G4F4
+G4C4D2C2D4 | F2D2F4z4c4 | G6A2G2F2D4 | C16
+S:https://www.folktunefinder.com/tunes/112930
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

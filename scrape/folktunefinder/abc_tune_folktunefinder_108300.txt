@@ -1,0 +1,31 @@
+X:6793
+T:Harabi Hameraked (Dancing Rabbi)
+O:Israeli 
+M:4/4
+L:1/8
+Q:1/4=240
+K:Em
+| "Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am"c3 z |\
+"Am"c3 B "Am".A2.B2 | "Am".c2.e2 "Am".c3 z|\
+|: "Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2 |\
+"Am"z2 e2 "Dm"=f3 e | "Dm"d2 e2 "Dm"d2 c2 |
+|"Am"z2 e2 "Dm"d2 c2 | "Am"z2 e2 "Dm"d2 c2 |\
+"Am"z2 e2 "Am"a3 g| "Dm"=f2 g2 "Am"e2 z2 |\
+"C"g4 "Em"b4 | "Am"a2 g2 "D"f2 g2 | "Am"e8-|"Am"e4 "Am"z2 g2|
+"C"g4 "Em"b4 | "Am"a2 g2 "D"^f2 g2 | "Am"e8-|"Am"e4 "Am"z4 :|\
+|: "Am"a4 "Am"a4 | "Am"e4 "Am"z2 e2|\
+"C"g2 =f2 "Am"e2 f2| "Dm"d2 e2 "Dm"=f2 g2|\
+"Am"a4 "Am"a4 | "Am"e4 "Am"z2 e2| "C"g2 =f2 "Am"e2 f2|
+"Dm"d4 "Am"z4 | "C"g4 "C"g4 | "Am"c4 "Am"z2 g2| "Dm"=f2 e2 "Dm"d2 c2 |\
+"Dm"d6 =f2 |"Am"e4 "Dm"z2 =f2 |"Am"e4 "Dm"z2 =f2|"Am"e2=f2"Am"e2f2|"Am"e4 "Am"z4 :|
+S:https://www.folktunefinder.com/tunes/108300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

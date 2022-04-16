@@ -1,0 +1,34 @@
+X: 22
+T:Battle of the Ironclads
+R:strathspey
+C:Tony Upton, 1/12/02
+N:This started out as a G minor version of my first composition, "Megan's
+N:vorite." After changing the key and rewriting several parts of the tune,
+N: came up with this one.
+M:4/4
+L:1/8
+Q:1/4=154
+K:Gm
+%%MIDI beat 120 110 90 1
+%%MIDI contol 7 127
+%%MIDI program 110
+A2|:"Gm"G>DB,>D G>dB>G|"Gm"D>B,G,>B, "Dm"D>AF<D|"Gm"G>DB,>D G>gF>f|"Eb"E
+>B,E>e "Dm"d>g"Bb"B>A|
+"Gm"G>DB,>D G>dB>G|"Gm"D>B,G,>B, "Dm"D>A,F<D|"Gm"G/F/E/D/ G>d B>d (3gdB|
+[1 "Dm"A>DB,>F "Cm"G/G/GG2:|[2 "Dm"A>dB<f "Bb"g3a||
+"Gm"g<dB<d G<d"Bb"B<G|"Gm"D>B,G,<B, "Dm"D<AF<D|"Gm"g<dB<d G<dB<G|"Bb"(3F
+EB, "Eb"E>e "Dm"d>g"Bb"b>a|
+"Gm"g<dB<d G<d (3edB|"Gm"D>B, (3G,A,B, "Dm"D<A"F"F<D|"Gm"G<DB,>D B<DA<D|
+[1 "Gm"G<D"Dm"A,<F "Bb"G/G/GGf:|[2 "Gm"G<DA,<F "Bb"G4||
+%%vskip 0.25cm
+%%text This started out as a G minor version of my first composition, "M
+S:https://www.folktunefinder.com/tunes/112421
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Tony.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 4
+P: The Braes of Breadalbane II
+C: McFadyen
+%%staffsep 45
+R: strathspey
+B: RSCDS 21-7(II)
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: C
+|: G \
+| "C"c>d e>d "F"c>A "C"GE | "C"CG cB/c/ "G7"dD DG \
+| "C"c>d e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C :|
+e/f/ \
+| "C"g>a gf/e/ c'g ec | "F"fa/f/ "C"eg/e/ "Dm"d>c "G7"de \
+| "C"g>a gf/e/ c'g ec | "Dm"f>d "G7"e>B "C"[c2E2]- ce |
+| "C"g>a gf/e/ c'g ec | "F"f/a/g/f/ "C"e/g/f/e/ "Dm"d>c "G7"de \
+| "C"G>c e>d "F"c>A "C"GE | "G7"G,<G, A,>B, "C"C2- C |]
+%%textfont Times-Roman 10
+%%text Arranged by Vince O'Donnell
+S:https://www.folktunefinder.com/tunes/129680
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/BraesOfBreadalbane1.abc
+S:http://trillian.mit.edu/~jc/music/abc/program/20060325/BraesOfBreadalbane1.txt
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

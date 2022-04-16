@@ -1,0 +1,34 @@
+X:93
+T:La bergre aux champs
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n93
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+E | E B B B | (AG) A2 | B A G F | E2 z B |
+ c B A G | F F A2 | A F G B | E2 zG | 
+ E F A G | F E G2 | E F A G | F2 zE | 
+ F G A B | A G A2 | A B G A | B z (B>c) | B A G F | E4 ||
+W:Y a rien de si charmant que la bergre aux champs ;
+W:Elle voit venir la pluie, dsire le beau temps :
+W:Voil comme la bergre aime  passer son temps (2x)
+W:                            aime  passer son temps
+W:
+W:Son berger va la voir le matin et le soir :
+W:"Oh ! Levez-vous, bergre, bergre, levez-vous :
+W:Les moutons sont en plaine, le soleil luit partout."
+W:
+S:https://www.folktunefinder.com/tunes/119650
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

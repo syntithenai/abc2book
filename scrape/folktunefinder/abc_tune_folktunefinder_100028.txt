@@ -1,0 +1,23 @@
+X:455
+T:Hobo's Jig
+Z:Added by alf.warnock@nrc.ca
+M:6/8
+L:1/8
+K:A
+e3A3|ecee e2e|{g}fec ef/2g/2a|geg efg|aga fed|
+ecee e2e|{g}fec ef/2g/2a|gag efg|[1 {g}a3A3 a2e c||[2 aAA =gAA|
+K:D
+:|faf edc|dAF {c}BAF|GAFG AEFG|{c}BAF Ade|
+faf edc|"To Coda"dAF AB/2c/2d|cec ABc|[1 edc d2A:|[2 edc d2eA||
+"Coda"dAF A2 de|ceBA GAFE|D3 D3A3|]
+S:https://www.folktunefinder.com/tunes/100028
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:97
+T:Cunla
+T:Frieze Britches
+R:jig
+M:6/8
+L:1/8
+Q:3/8=115
+K:Dmix
+|:FED EFG|AdB cAG|~A3 BAG|F/G/AF GED|
+FED EFG|AdB cAG|~F3 GEA|~D3 D3:|
+|:d2e fed|efd cAG|~A3 BAG|F/G/AF GED|
+d2e fed|efd cAG|~F3 GEA|~D3 D3:|
+|:~D3 c3|AdB cAG|AB^c dfd|ded cAF|
+~D3 c3|(4BcdB cAG|~F3 GEA|~D3 D3:|
+|:d2e fdd|Add fdd|^c2d eAA|fed eAA|
+d2e fdd|add fed|faf gfe|dfe d3:|
+|fed ed^c|ded ^cAG|~A3 BAG|F/G/AF GED|
+fed ed^c|ded ^cAG|~F3 GEA|~D3 D2e||
+fed ed^c|ded ^cAG|~A3 BAG|F/G/AF GED|
+fef gfg|afd ^cAG|EFF GEA|~D3 D3|]
+S:https://www.folktunefinder.com/tunes/118079
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

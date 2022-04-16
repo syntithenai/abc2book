@@ -1,0 +1,44 @@
+X:450
+T:Legacy, The
+T:Tailor's Wedding, The
+M:6/8
+R:Jig
+S:O'Neill's
+D:skip=B00000045L(Michael Rose: In Dub: Big Sound Frontline)
+D:skip=B000000QU4(Buddy Greco: Movin' On)
+D:skip=B00000182M(David Roth: Rising In Love)
+D:skip=B000001JQ0(Psychic TV, Leather Strip: The Industrial Revolution: 2nd Edition)
+D:skip=B000001NX0(Art Of Noise: The Best Of The Art Of Noise)
+D:skip=B0000027W6(Various Artists: The Comden &amp; Green Songbook)
+D:skip=B000002IPZ(Testament: Souls Of Black)
+D:skip=B000002N0Q(Bob James: 12)
+D:skip=B00000319P(First Call: Early Years)
+D:skip=B000003H3Q(Testament: Signs of Chaos-Best of Testame)
+D:asin=B000003JLU(Ceoltoiri: Celtic Lace)
+D:skip=B000003MU8(Art of Noise: Best of Art of Noise)
+D:skip=B000003QLV(The Gone Jackals: Bone To Pick)
+D:skip=B000004ATV(Dash Rip Rock: Ace Of Clubs)
+D:skip=B000004B5L(Test Department: Pax Britannica: An Oratorio In Five...)
+D:skip=B0000058IZ(The New York Jazz Collective: I Don't Know This World Without Don Cherry)
+D:skip=B000006033(Various Artists, et al: C-Style Presents: 19th Street LBC Compilation [EXPLICIT LYRICS])
+D:skip=B00000612K(Synergy: Electronic Realizations For Rock Orchestra)
+D:skip=B000006END(Phil Keaggy: Acoustic Sketches)
+D:skip=B000009EJW(Jonn Serrie: Spirit Keepers)
+D:skip=B000009HCL(Wu-Tang Killa Bees: Wu-Tang Killa Bees: The Swarm Volume 1)
+K:G
+D|~G3 ~B3|~g3 gab|~G3 BAB|dBA A3|\
+~G3 ~B3|~g3 gab|age edB|dBA A2::\
+D|efe edB|~d3 dBd|efe edB|dBA ABd|\
+efe edB|~d3 def|gfe edB|dBA A2:|
+S:https://www.folktunefinder.com/tunes/111619
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

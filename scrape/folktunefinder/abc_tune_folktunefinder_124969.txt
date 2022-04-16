@@ -1,0 +1,27 @@
+X:1
+T:Aroplane d'Erce B
+E:12
+Z:Roger Ngaret (94-95)
+R:aeroplane
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=100
+"C"EEEG "G"A2G2 | "C"EEEG "G"A2G2 | "C"EEEG "G"A2G2 | \
+F2E2 D4 | "C"EEEG "G"A2G2 | "C"EEEG "G"A2G2 | dddd BBBB |\
+A2B2 "C"c4 | E2G2 c3B | c2B2 "G"A4 | "C"EEEG "G"A2G2 |\
+"C"EEEG "G"A2G2 | "C"E2G2 c3B | c2B2 "G"A4 | \
+"C"cccc "G"BBBB | A2B2 "C"c4 |]
+S:https://www.folktunefinder.com/tunes/124969
+S:http://termen.free.fr/danses/rennais/AeroplanedErceeB.abc
+% Rhythm Aeroplane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

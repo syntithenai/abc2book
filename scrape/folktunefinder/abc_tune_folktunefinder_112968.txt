@@ -1,0 +1,26 @@
+X:541
+T: Dou ge
+N: C0251
+O: China,Guangdong, Haifeng
+S: II, 413]
+R: Yu ge, Fischerlied; Kinderlied zum Fischen. Dui chang Frage-Antwort Lied]
+M: 3/4
+L: 1/16
+K: G
+d2BdBAG2 | G2A2B4
+B2ABAGE2 | G2AGA4
+B2ABd2B2 | D2DEF2FED4
+B2ABA2G2 | GAB2FGFEDB,DE | G8
+S:https://www.folktunefinder.com/tunes/112968
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Yu ge, fischerlied; kinderlied zum fischen. dui chang frage-antwort lied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

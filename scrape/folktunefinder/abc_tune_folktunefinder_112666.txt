@@ -1,0 +1,34 @@
+X:239
+T: San hua
+N: C0376
+O: China,Hebei, Zhangjiakou, Nhe v. Shanxi)
+S: IV, 63]
+N: typisch fuer Nordchina
+N: Vereinzelt Verzierungen, Glissandi.
+R: Xiaodiao. Siji huahui]
+M: 2/4
+L: 1/16
+K: F
+c3df4 | e2d2c4 | f2edcdcA | G2AcG4
+c3df4 | egedc4 | f2edcdcA | G2AcG4
+cc2Ac4 | FGAcG4
+cc2Ac4 | FGAcGGGG | F8
+c3fd2c2 | A2A2A2A2
+G3Ac4 | AcAGF4 | c2cAGAGD | C8
+F2F2D2C2 | F2F2D2C2
+G3Ac4 | AcAGF4 | c2cAGAGD | C8
+D3FD3F | G2D2C4
+D3FD3F | G2D2c4
+G2c2AcAG | F4F2D2 | c2cAGAGD | C8
+S:https://www.folktunefinder.com/tunes/112666
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

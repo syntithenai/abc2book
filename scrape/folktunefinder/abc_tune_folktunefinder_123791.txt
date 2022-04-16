@@ -1,0 +1,38 @@
+X:5008
+T:Fandangu Punteu (MQ 072)
+T:Fandangu Asturianu (MQ 072)
+R:Fandangu
+C:Tradicional. Antonio Menndez de Pumarn
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Versin del "Fandangu Puntiau", pieza tpica del repertorio de los gaiteros asturianos.
+N:La recog del gaitero Antonio Menndez de Pumarn.
+O:Cangas del Narcea
+A:Asturies
+Z:Manolo Quirs 072
+M:3/4
+L:1/8
+Q:1/4=110
+K:C
+|F/E/D/E/ F/E/D/E/ CC|F/E/D/E/ F/E/D/E/ CC|F/E/D/E/ F/E/D/E/ C/D/E/C/|
+F/E/D/E/ F/E/D/E/ C/D/E/C/|F/E/D/E/ F/E/D/E/ C/D/E/C/|
+|: G>E GE/G/ FF|A>F AG/F/ E/D/E/F/ :|
+|: G>E GF/E/ DD|F>D FE/D/ C2|EC EG/F/ DD|DB, DF/D/ C2 :|
+c/B/A/B/ c/B/A/B/ GG|c/B/A/B/ c/B/A/B/ GG|
+c/B/A/B/ c/B/A/B/ G/A/B/G/|c/B/A/B/ c/B/A/B/ G/A/B/G/|
+c/B/A/B/ c/B/A/B/ GG|cG cG/A/ FF|A>F AG/F/ E/D/E/F/|GA Bc de|
+f>e dc BA|GG c>G cG/A/|FF A>F AG/F/|E/D/E/F/ G>E GF/E/|
+DD F>E FE/D/|CC EC EG/F/|DD DB, DE/D/|C3-C3|
+S:https://www.folktunefinder.com/tunes/123791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

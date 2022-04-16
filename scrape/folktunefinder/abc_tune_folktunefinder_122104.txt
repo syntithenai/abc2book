@@ -1,0 +1,24 @@
+X:24
+T:Monaghan jig
+R:jig
+N:pl
+Q:3/8=120
+I:abc2nwc
+M:6/8
+L:1/8
+K:Edor
+|:BGE F2E|BGE FGA|BGE F2E|AFD FGA|
+BGE F2E|BGE FGA|dcB ABG|FDF[1AFD:|[2AGF
+|:EGB efg|fed edB|DFA dAG|FDF AGF|EGB efg|fed edc|dcB ABG|FDF AGF:|
+|:g2e eBe|g2a bge|g2e efg|fdf afd|g2e eBe|geg bge|dcB ABG|FDF AGF:|
+|:EGB eBG|BGE FAF|EGB eBG|FDF AGF|EGB GBe|Beg egb|fed ABG|FDF AGF:|
+S:https://www.folktunefinder.com/tunes/122104
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

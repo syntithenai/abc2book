@@ -1,0 +1,35 @@
+X: 207
+T: Amelia
+C: Bob McQuillen
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/8
+K: D
+(3A,B,C|:\
+"D"D4D>E|"D7"D2{E}F3~E|"D6"DF3B2|"D"A3FG>A|
+"G"B2G3B|"D"AGF2~E2|"Bm"DB,3B,>A,|"G"B,4(3A,B,C|
+"D"D4D>E|"D7"D2{E}F3~E|"D6"DF3B2|"D"A3FG>A|
+"G"B3cd2|"D"d3ef>d|"A"ec3B2|1\
+AG3E2:|2\
+A2a3g||
+|:\
+"D"f2a3b|a2f2d2|"A"ec3~B2|A2f3e|
+"Bm"d3dB>d|fd3B2|"F#m"c3BA>G|F3FE>F|
+"G"G2BGBA|"D"FA3d2|"A"e3c (3ABc|"Bm"d2e2f2|
+"G"g3fe>f|"D"a2f2d2|"A"de2Ac2|1\
+"D"d2a2g2:|2\
+"D"d4|]
+S:https://www.folktunefinder.com/tunes/113216
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

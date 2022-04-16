@@ -1,0 +1,33 @@
+X: 25
+T:A Hornpipe by C. Smith
+M:3/2
+L:1/4
+S:Marsden
+Z:ps
+K:G
+F/G/AB/c/de2|dA2dBA/G/|F/G/AB/c/dfe/d/|BG2dBA/G/||
+afdad2|aA2dBA/G/|afdafe/d/|Bg2dBA/G/||
+G/F/ G/A/ B/A/B/c/ e/d/e/f/|a/b/a/f/aABA/G/|G/F/G/A/ B/A/ B/c/ e/d/e/f/|
+gg
+2dBA/G/||
+a/f/dzaa/f/d|aA2dBA/G/|a/f/ddafd|BG2dBA/G/||
+F/G/AB/c/dF/G/A|FAB/c/dBA/G/|FABdFA|dBGdBA/G/||
+AFDAFD|AA,2DB,A,/G,/|AFDAFE/D/|B,G,2DB,A,/G,/||
+AFDAFD|AFDABG|AFDAFD|dBGdBG||
+A/G/F/E/ D/E/F/G/ A/B/A/F/|AA,2DB,A,/G,/|A/G/F/E/ D/E/F/G/ A/B/A/F/|GG,2
+DB
+,A,/G,/||
+A/G/F/E/ D/E/F/G/ A/B/A/F/|A/B/A/F/ D/E/F/D/ B/c/d/B/|A/G/F/E/ D/E/F/G/
+A/
+B/A/F/|dBGdBA/G/||
+% Output from ABC2Win  Version 2.1 f on 06/05/2004
+S:https://www.folktunefinder.com/tunes/110827
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

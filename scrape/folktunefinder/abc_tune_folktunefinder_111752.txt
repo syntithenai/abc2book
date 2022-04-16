@@ -1,0 +1,25 @@
+X:90
+T: The Fairies' Hornpipe
+M: 2/4
+L: 1/16
+N: "collected by F. O'Neill"
+B: O'Neill's 1718
+R: Hornpipe
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+K: G
+D2  | GFGA BdcB | AGAB G2Bc | dgfg edcB | cedB A2Bc |
+dgfa g2fe | dedc B2AG | ABcA dcAF | G2GG G2  :|
+|: (Bc) | eggf g2fe | dedc B2AG | ABcA edcB | A2dd d2Bc |
+dggf g2fe | dedc B2AG | ABcA dcAF | G2GG G2  :|
+S:https://www.folktunefinder.com/tunes/111752
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1701-1780_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

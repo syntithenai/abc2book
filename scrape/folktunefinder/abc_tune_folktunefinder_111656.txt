@@ -1,0 +1,29 @@
+X:635
+T:Arthur Darley's Jig
+T:Swedish Jig, The
+R:Jig
+C:Arthur Darley
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Arty McGlynn: McGlynn's Fancy
+Z:Transcribed by Henrik Norbeck: hn-jig-68
+M:6/8 % But second bar is 9/8!
+D:asin=B000000E8Y(Graham, et al: Music Of Ireland: Airs, Jigs, Reels....)
+D:asin=B000001JFV(The Cantrells: A New Language)
+D:asin=B000005CP4(James Keane: That's The Spirit)
+D:asin=B000005CU1(Aly Bain, Phil Cunningham: The Pearl)
+K:D
+~A3 AGF|EDC D3 d2e|fgf edc|d3 d2e|fgf edc|dAA BAG|FED EDC|DA,B, CDE|Ddd Aee|\
+Aff Agg|fed edc|d2d dcB::A=ff fef|A=ff fef|A=ff Agg|Aaa A_bb|A=ff fef|\
+A=ff f2g|=fed ed^c|1 d2d d=c_B:|2 d2d d2e|:fgf edc|dAA BAG|\
+FED EDC|DA,B, CDE|Ddd Aee|Aff Agg|fed edc|1 d2d d2e:|2 d2d dcB||
+% === Hornpipes ===
+S:https://www.folktunefinder.com/tunes/111656
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

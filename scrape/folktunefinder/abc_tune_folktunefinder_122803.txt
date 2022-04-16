@@ -1,0 +1,22 @@
+X:13
+T:The Frog in the Well
+R:Jig
+A:Ireland
+M:6/8
+L:1/8
+K:G
+"Em"~E3 GFE | BGE GFD | "D"D3 {G}FED | FAD {G}FED | 
+"Em"~E3 GFE | BGE {G}FED | "G"BGB "A"AFA |1 "G"GBG "Em"EB,D :|2 "G"GBG "Em"EGB || 
+"Em"ege ~B3 | eBe (5fgage | "D"fdd Add| faa {b}agf| 
+"Em"efe ~B3 | eBe "G"{f}gag | "Bm"fdB "A"AGF | "Em"GEE E3 :|
+S:https://www.folktunefinder.com/tunes/122803
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

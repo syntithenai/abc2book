@@ -1,0 +1,28 @@
+X:36
+T:The Armigerous Goose
+C:Michael Stoddard and D. Glenn Arthur Jr.
+%%abc-version 2.0
+%%abc-edited-by D. Glenn Arthur Jr.
+O:Pennsic War
+N:Sixteenthdotted-eighth should, of course, be played as a Scottish snap
+N:instead of as notated.
+M:C
+Q:1/4=180
+L:1/8
+K:C
+|: GGGG c2 d2 | ed c2 d2 g2 | GGGG c2 d2 | ed c2 d4 | 
+   g2 gg e2 d2 | ed c2 d2 G2 | cd e2 d2 g2 | ed c2 c4 :|
+|: d<e d<e de g2 | d<e d<e d2 G2 | d<e d<e de g2 | aged cd c2 | 
+   G<A G<A cd e2 | g2 eg a2 ga | c'a g2 ge d2 | ed G2 c4 :|
+S:https://www.folktunefinder.com/tunes/124954
+S:http://www.panix.com/~dglenn/music/ArmigerousGoose.abc
+S:http://www.panix.com/~dglenn/music/ArmigerousGoose.abc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:36
+T:Newmarket
+Z: id:dc-polka-29
+M:2/4
+L:1/8
+K:D Major
+fd Ad|fd Ad|fd/B/ AF|E2 E2|!
+fd Ad|fd Ad|fd/B/ AF|D2 D2:|!
+FD FA|de f/g/f/e/|dB AF|E2 E2|!
+FD FA|de f/g/f/e/|dB AF|D2 D2:|!
+S:https://www.folktunefinder.com/tunes/127415
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

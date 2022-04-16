@@ -1,0 +1,27 @@
+X:440
+T: Harry the Rabbit
+S: B.Breathnach:"Ceol Rince na hEireann" IV/224 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+AF|GFED FAAF|GFED BABc|dcBA BAGF|B2 E2 E2 AF|
+GFED FAAF|GFED BABf|gfed cdeg|f2 d2 d2 :|
+(3ABc|dfdB cecA|Bcdc BAGF|GABc dcBA|B2 E2 E2 (3ABc|
+dfdB cecA|BcdB A2 f2|gfed cdeg|f2 d2 d2 (3ABc|
+dfdB cecA|Bcdc BAGF|GABc dcBA|B2 E2 E2 g2|
+f2 fd e2 ec|dcdB A2 f2|gfed cdeg|f2 d2 d2 ||
+S:https://www.folktunefinder.com/tunes/123232
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

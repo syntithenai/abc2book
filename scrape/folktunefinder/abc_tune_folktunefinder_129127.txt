@@ -1,0 +1,28 @@
+X: 43
+T: The Bright Love of My Heart
+M: 3/4
+L: 1/4
+B: "O'Neill's 43"
+N: "Gracefully" "collected by J. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K:Gm
+d3/4c/4 | (BAG) | (FD>C) | (B,>CD/2E/2) | (FGA) |\
+(BAG) | (d>cB/2A/2) | (GAG) | F D d3/4-c/4 |
+(BAG) | (FD>C) | (B,>CD/2E/2) | (FGA) |\
+B> (c d/4=e/4^f/2) | g2 d/2-c/2 | B-G .G | G2 ||
+G3/4-A/4 | (B> cd/2=e/2) | f d f | (g> ab/2a/2) | g f g/2-a/2 |\
+(bag) | (fdc) | d g {b}a | g2 b3/4-a/4 |
+.g/2.b/2.a/2.g/2.f/2.e/2 | d2 d/2-c/2 | (BAG) | F D G/2-A/2 |\
+B> (c d/4=e/4^f/2) | g2 d/2c/2 | (BGG) | G2 |:|
+S:https://www.folktunefinder.com/tunes/129127
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0001-0050_np.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0043_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

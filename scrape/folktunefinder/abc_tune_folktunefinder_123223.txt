@@ -1,0 +1,27 @@
+X:395
+T: Hag at the Churn
+S: B.Breathnach: "Ceol Rince na hEireann" II/43 (gan ainm)
+Z: B.Black
+N: Parts not repeated
+L: 1/8
+M: 6/8
+R: jig
+K: Dmix
+ABG ADD|AB/A/G AdB|AB/A/G ADD|EFG EFG|
+AB/A/G ADD|A2G AdB|AB/A/G ADD|EFG EFG||
+AdB cBc|Add efg|AdB cBc|EDE GED|
+AdB cBc|Add efg|fge dcA|GEF GED||
+S:https://www.folktunefinder.com/tunes/123223
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

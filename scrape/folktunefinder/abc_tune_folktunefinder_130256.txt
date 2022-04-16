@@ -1,0 +1,25 @@
+X:13
+T:Le long de la rivire
+O:France
+A:Bourbonnais
+R:Bourre  2 temps
+M:2/4
+L:1/8
+Q:220
+K:G
+D|GA Bc|d2A2|dcAB|GGGD|GABc|d2A2|
+dcAB|G2 zB|AGFG|A2A2|BcBA|GGGB|AGFG|A2A2|BcAB|G2||
+W:Le long de la rivire, j'ai perdu mes gants, maman!
+W:Le long de la rivire, j'ai perdu mes gants
+W:Mes gants et mes jarretires, mon p'tit panier blanc, maman !
+W:Mes gants et mes jarretires, mon p'tit panier blanc.
+S:https://www.folktunefinder.com/tunes/130256
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/bourrees.txt
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

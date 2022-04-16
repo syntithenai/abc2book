@@ -1,0 +1,19 @@
+X:3
+T:Aridan
+T:Tabulation of the mixed branle called Aridan
+N: Original clef, G on first line
+M:none
+L:1/2
+K:C
+|: B c d d e e d c B z A  z G z :|
+|: A2 B2 G c c B A2 G G A F G A B2 G2 |
+B c d d e e d2 e z d z c c B B A A G2 | A B G3/2 d/ c/ B/ A/ A/ G z :|
+S:https://www.folktunefinder.com/tunes/124469
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,46 @@
+X:7
+T:Qui veut chasser une migraine
+T:Chanson  boire
+C:Gabriel Bataille (~1575 - 1630)
+B:
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:transcription paroles tires de http://perso.infonie.fr/xrouchon/
+M:4/4
+L:1/8
+Q:1/4=135
+K:G
+V:1
+%%staves [1 2 3]
+G2 G>G A2-A>B | B2 (A>B) A2G2 | G2 A>B E2G2 | F2-F>E E2 z2 ::
+B2A>G F2-F>G | A>G F>E ^D4 | E>E E>E E2 ^D2 |
+E>F G>A F2 z2 | G>G G>G A2B2 | F>G F>E E2 z2 :|
+V:2
+B2 B>c d2-d>e | e2 ^c2d2B2 | c2d>eA2c2 | B2-B>A B2 z2 ::
+e2e2 d2d>B | d2A>A B2A2 | G2A2c2B2 |
+G>B e>d B2 z2 | B2-B>d e2e2 | B>c B>A B2 z2 :|
+V:3
+K:G bass
+%%MIDI transpose -24
+e'2e'>e' d'2-d'>b | e'2a2 d'2g2 | c'2 a>g a2e2 | b2 b>b e2 z2 ::
+e'2c'2b2 b>g | d'2d'>c'b2b2 | e'2a2e2b2 |
+ e'>d' e'>ab2z2 | e'2-e'>d' c'2b2 | b>b e'>e' e2 z2 :|
+W:Qui veut chasser une migraine
+W:N'a qu' boire toujours du bon
+W:Et maintenir la table pleine
+W:De cervelas et de jambon
+W:
+W:   L'eau ne fait rien que pourrir le poumon
+W:   Boute, boute, boute, boute compagnon,
+W:   Vide-nous ce verr' et nous le remplirons
+W:   L'eau ne fait rien que pourrir le poumon
+W:   Gote, gote, gote, gote compagnon
+W:   Vide-nous ce verr' et nous le remplirons
+S:https://www.folktunefinder.com/tunes/104003
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

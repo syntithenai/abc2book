@@ -1,0 +1,32 @@
+X: 24
+T: Done Gone
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: C
+|:cd|\
+"C"(3edc GE "(C7)"CDEG|"F"ABce "(Fm)"ag2c'-|\
+"C"c'gc'g "(Am)"agea|"D"~gecd "G"edcd|
+"C"(3edc GE CDEG|"F"ABce ag2c'-|\
+"C"c'gc'g agea|1"G"~ged2"C"c2:|2"G"~ged2"C"c4||
+|:\
+"F"ea2c' ageg|"(F7)"agag ac'3|\
+"C"ea2c' agea|1"(C7)"gede dc3:|2"G"~gede "C"dccB||
+"Am"A2AB AGEG|ABcde2 (3efg|"E7"aged e2g2|efed edcB|
+"Am"AGAB AGEG|"(D)"ABcde3^D|"E7"EDEF EDEF|EDC2"Am"A,2|]
+S:https://www.folktunefinder.com/tunes/113033
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:46
+T:L'escloupeto
+R:---
+O:France
+A:Auvergne
+C:Trad.
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-11-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/8
+Q:3/4=80
+K:C
+c2 Bc de|f2 d2 g2|f2 g4|d6|c2 Bc de|
+f2 d2 g2|f2 g4|d4g2|ag f2 e2|d3 e f2|
+ed c2 d2|e2 d2 g2|ag f2 e2|d3 e f2|ed c2 B2|c6|]
+%%footer $D   Galouvielle-MBe 2007 \nDanse trad. (France)
+S:https://www.folktunefinder.com/tunes/130007
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

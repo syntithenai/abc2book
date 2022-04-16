@@ -1,0 +1,55 @@
+X:61
+T:Les transformations
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n61
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:G
+d | G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |\
+    G2 A B2 c | d3 d3 | e3 c2 e | d3-d z d |!
+d2 d g2 d |\
+M:9/8
+d2-c B3 B2-d |\
+M:6/8
+d3-c2 B | A3-A z c | c2 d e2 c |!
+M:9/8
+B3 B2 B A2 A |\ 
+M:6/8
+G3-G zz ||
+W:J'ai fait une matresse, y'a pas longtemps (2x)
+W:J'irai la voir dimanche sans plus tarder
+W:Je prendrai sur sa bouche un doux baiser.
+W:
+W:- Si tu prends sur ma bouche un doux baiser,
+W:Je me ferai biche courant les champs
+W:et tu n'auras de moi aucun agrment.
+W:
+W:- Si tu te fais biche courant les champs
+W:Je me ferai chaseur pour y chasser :
+W:Je chasserai la biche par amiti.
+W:
+W:- Si tu te fais chasseur pour me chasser,
+W:Je me ferai carpe dans un vivier,
+W:Et tu n'auras de moi aucune amiti.
+W:
+W:- Si tu te fais carpe dans un vivier,
+W:Je me ferai pcheur pour y pcher :
+W:Je pcherai la carpe par amiti.
+W:
+W:- Si tu te fais pcheur pour me pcher,
+W:Je me ferai la rose du rosier blanc,
+W:Et tu n'auras de moi aucun agrment.
+W:/.../
+S:https://www.folktunefinder.com/tunes/119631
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

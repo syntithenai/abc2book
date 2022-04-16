@@ -1,0 +1,21 @@
+X:16
+T:the Peasant
+R:Jig
+M:6/8
+L:1/8
+K:D
+f2f efg | afd c2A | FAd GBd | efg e2A |
+f2f efg | afd c2A | FAd Bgf | edc d3 :|]
+|:afd ecA | afd ecA | afd Bgf | efd cBA | 
+afd ecA | afd ecA | dcd Bgf | edc d3 :|]
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127740
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

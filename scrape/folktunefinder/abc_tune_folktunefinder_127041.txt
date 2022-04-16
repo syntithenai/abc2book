@@ -1,0 +1,26 @@
+X: 9
+T:Ghost Gulls Of Picton
+M:3/4
+L:1/4
+Q:60
+C:Martin Curtis
+K:D
+"D"dd>e|f<df|"G"e<dd|"D"A3|
+"D"dd>e|fda|aaf|"A"e3-|e2z|
+"D"d<de|!
+fdf|"G"ed>d|"D"A2d|
+"G"d>ed|"A"c2d/c/|"Bm"B3-|Bza|
+"D"afd|"A"e<fe|"D"d3-|d3||
+S:https://www.folktunefinder.com/tunes/127041
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

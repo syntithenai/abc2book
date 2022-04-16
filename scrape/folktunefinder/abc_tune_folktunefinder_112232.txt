@@ -1,0 +1,29 @@
+X:1
+T: Amazing Grace
+C:Trad. Ecosse, fichier abc : Bernard Loffet
+L:1/8
+Q:240
+M:9/8
+K:G
+ z6 D2G | [G3G,3] G,3 [BG,]AG | [B3G,3] G,3 [B2G,2]A | [G3C,3] C,3 [E3C,3] | [D3D,3] D,3 [D2D,2]G | \
+ [G3G,3] G,3 [BG,]AG | [B3G,3] G,3 [A2G,2]B | [d3D,3] D,3 [d3D,3] | [d3D,3] D,3 [B2D,2]d | \
+ [d3G,3] G,3 [BG,]AG | [B3G,3] G,3 [B2G,2]A | [G3C,3] C,3 [E3C,3] | [D3D,3] D,3 [D2D,2]G | \
+ [G3G,3] G,3 [BG,]AG | [B3D,3] D,3 [A3D,3] | [G3C,3] C,3 [G3C,3] | [G3G,3] G,3 G,3 | \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/112232
+S:http://diato.ifrance.com/diato/tablat/109.abc
+S:http://diato.ifrance.com/tablat/109.abc
+S:http://diato.org/tablat/109.abc
+S:http://perso.orange.fr/diato/tablat/109.abc
+S:http://perso.wanadoo.fr/diato/tablat/109.abc
+S:http://pro.wanadoo.fr/diato/tablat/109.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/109.abc
+S:http://www.diatonique.net/tablat/109.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

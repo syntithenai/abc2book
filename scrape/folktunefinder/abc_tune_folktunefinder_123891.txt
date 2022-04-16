@@ -1,0 +1,32 @@
+X:5108
+T:Father John MacMillan of Barra
+M:2/4
+L:1/16
+Q:1/4=80
+R:march
+K:AMix
+% lydian/major/mixolydian pentatonic, A-final DG-gap
+   A>B|c2B<A  A2c<e |f2e<c e3f|e2c<A  A2f>e |c2B<A  B2
+   A>B|c2B<A  A2c<e |f2e<c e3f|e2c<A  B2c>B |A4     A2:|
+   c<e|f2e<e  e2f<a |f2e<c e3f|e2c<A  A2f>e |c2B<A  B2
+[1 c<e|f2e<e  e2f<a |f2e<c e3f|e2c<A  B2c>B |A4     A2:|
+[2 A>B|c2B<A  c<ec<A|f2e<c e3f|e2c<A  B2c>B |A4     A2||
+   A>B|c<Ac<e c2A>c |f2e<c e3f|a>fe<f c2f>e |c2B<A  B2
+   A>B|c<Ac<e c2A>c |f2e<c e3f|e2c<A  B2c>B |A4     A2:|
+% major/mixolydian hexatonic, A-final G-gap
+   c<e|f2e>f  a>fe<f|f2A>c e3f|f2e>f  a>fe<f|c2B<A  B2
+   c<e|f2e>f  a>fe<f|f2e<c e3f|e2c<A  B2c>B |A4     A2
+   c<e|f2e>f  a>fe<f|f2A>c e3f|f2e>f  e>fa>e|c>de>c B2
+   A>B|c2B<A  c<ec<A|f2e<c e3f|e2c<A  B2c>B |A4     A2|]
+S:https://www.folktunefinder.com/tunes/123891
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

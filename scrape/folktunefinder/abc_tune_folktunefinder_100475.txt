@@ -1,0 +1,28 @@
+X:183
+T:Shakin's o' the pocky, The
+O:scotland
+R:Strathspey
+M:4/4
+C:Peter Milne \& Scott Skinner
+K:Bb
+~B,>D F>G F<D B,A|~B>A G/A/B/c/ (d2 d3/2)z|1\
+[eG]>c [dF]>B [cE]>A BG|F<D B>D C2 C<D :|2\
+[eG]>c [dF]>B [cE]>A {A}[BD]>G|\
+G/F/E/D/ F/E/D/C/ B,3 ::\
+a|\
+{a}b>f da|{a}b>f e/d/c/B/ {A}f3g/a/|\
+b>f dA|[AF]>B c<f ([B2D2] [BD])>a|\
+{a}b>f da|{a}b>f e/d/c/B/ {A}(f2 f)>e|\
+d>B e>c d/c/B/A/ {A}B>G|\
+G/F/E/D/ F/E/D/C/ B,3:|
+S:https://www.folktunefinder.com/tunes/100475
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

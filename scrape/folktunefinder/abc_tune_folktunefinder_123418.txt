@@ -1,0 +1,35 @@
+X:4635
+T:Earl's Chair, The
+R:reel
+H:The story of the tune is told in the introduction to Gearoid O'hAllmhurain
+H:and Patrick Ourceau's new CD "Tracin'," a gorgeous album if I need to say
+H:that once more. The tune was supposedly composed by an East Galway flute
+H:player and an uncle of Mike Rafferty named Pakie Moloney. He composed the
+H:tune while sitting on a big rock in the Derrycrag Wood, and first called
+H:it "Down between the two Derryoobers"--as he was sitting between the two
+H:townlands of Derryoober East and Derryoober West. He later thought better
+H:of it and changed the name to a shorter one, "The Earl's Chair," which was
+H:the name of the big rock--named after the Earl of Clanrickard who
+H:reportedly rested there during his hunts.
+D:Patrick Street 1.
+D:Mary MacNamara.
+Z:id:hn-reel-25
+M:C|
+K:Bm
+B2~B2 BAFA|B2dB BAFB|AF~F2 DF~F2|AFdB ADFA|
+B2dB BAFA|B2dB BAFB|AFAB defd|1 edef d3A:|2 edef d3f||
+|:~e3f d2df|edef dBA2|~e3f dcde|fedB ADFA|
+~e3f eB~B2|gB~B2 defg|afbf afeg|fedB ADFA:|
+S:https://www.folktunefinder.com/tunes/123418
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

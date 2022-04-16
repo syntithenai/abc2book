@@ -1,0 +1,20 @@
+X:10
+T:Seneca Square Dance
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=460
+K:G
+ga|:[b4d4] [b2d2]ab|d'2b2 bag2|bgbc' d'3b|abag e2d2|
+[b4d4] [b2d2]ab|d'2b2 bag2|abag e2f2|1 [g4G4] [g2G2]ga:|2 [g4G4] [g2G2]e'f'|
+g'4 g'3e'|d'2b4bd'|g'4 g'f'g'a'|b'e'2e' e'3f'|
+g'a'b'a' g'3e'|d'g'e'd' bag2|abag e2f2:|[g4G4] [g4G4]|
+S:https://www.folktunefinder.com/tunes/117148
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

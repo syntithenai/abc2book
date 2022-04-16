@@ -1,0 +1,25 @@
+X:2
+T:VII. Whither away so fast,
+O: Canzonets, or Little Short songs to three voyces, 
+H: transcribed from the Performers' Facsimiles print of the London, 1593 edition
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+N: original clef: C on first line
+K:C
+T: Altus
+M:C
+L:1/8
+%1
+c4 B c d B c2 G2 A2 A2 G8 z2 G2 ^F G A F \
+S:https://www.folktunefinder.com/tunes/111201
+S:http://www.laymusic.org/music/morley/whether/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

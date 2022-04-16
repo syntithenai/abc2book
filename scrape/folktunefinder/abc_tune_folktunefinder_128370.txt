@@ -1,0 +1,24 @@
+X: 25
+T:Atholle Highlanders
+M:6/8
+L:1/8
+R:Jig
+K:A
+"A"e3 e>cA|e>cA B>cd|e3 e>cA|"E"B>cd c>BA|!
+"A"e3 e>cA|e>cA B>cd|"A"e<ae f>ed|"E"c>dB "A"A3:||!
+"A"A>ce A>ce|"D"A>df A>df|"A"A>ce A>ce|"E"B>cd c>BA|!
+"A"A>ce A>ce|"D"A>df A>df|"A"e<ae f>ed|"E"c>dB "A"A3:||!
+"A"a>ee e>dc|a>ee e>dc|a>ee e>dc|"E"B>cd c>BA|!
+"A"a>ee e>dc|a>ee e>dc|a>ee f>ed|"E"c>dB "A"A2:||!
+c|"A"c>Ac c>Ac|"D"d>Bd d>Bd|"A"c>Ac c>Ac|"G"B>=GB B>=GB|!
+"A"c>Ac c>Ac|"D"d>Bd d>Bd|"A"e<ae f>ed|"E"c>dB "A"A2:||!
+% Output from ABC2Win  Version 2.1 f on 25/03/2001
+S:https://www.folktunefinder.com/tunes/128370
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/easter_2001.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

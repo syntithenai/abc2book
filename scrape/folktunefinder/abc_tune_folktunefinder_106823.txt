@@ -1,0 +1,28 @@
+X:35
+T:Reel St. Antoinne
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:\
+"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+%%newpage
+%%text 14
+% %musicspace 0
+% %staffsep       40.0pt
+% %botmargin0.70cm
+% %topmargin0.60cm
+S:https://www.folktunefinder.com/tunes/106823
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

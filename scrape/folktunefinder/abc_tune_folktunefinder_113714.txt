@@ -1,0 +1,34 @@
+X: 29
+T:Rubacher Tnze
+M:3/4
+L:1/8
+C:trad
+R:Schleuniger
+S:Sonnleithnersammlung 1819
+B:Pichler/Fritz: "Wer tanzt nach meiner Pfeife "
+N:"da capo" und "Coda" habe ich hinzugefgt,
+N:das entspricht aber der mir bekannten jetzigen Spielpraxis.
+K:D
+A2 FAFA|B2 GBGB|e2 cece|f2 dfdf|
+A2 FAFA|B2 GBGB|e2 cece|d6   :|
+|:(Adf)dfd|Adfdfd|Adfdfa|ag [A4e4]  |
+Acecec|Acecec|Aceceg|1gf d4  :|2gf d2||
+K:dm
+|:df|aA^gAaA|dfaAgA|e2 ^cAf^c|d2  defg|
+aA^gAaA|dfaAgA|e2^cAfA|d4  :|
+|:fg|e2 AgfA|d2 defg|e2 AgfA|d2 defg|
+aA^gAaA|dfaAgA|e2 cefA|"da capo"d4  :|
+K:D
+"Coda"|:A2|FAdcdf|gecAcA|d4  A2 |dfa^gaf|=gbgfge|f4  A2 |
+dfagaf|gbgfge|cegfge|fafefd|FAdcdf|gecAcA|d4  :|
+S:https://www.folktunefinder.com/tunes/113714
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Schleuniger
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

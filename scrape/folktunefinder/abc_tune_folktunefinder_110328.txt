@@ -1,0 +1,25 @@
+X:2
+T:XXII. Humor say what mak'st thou heere
+T:ALTO.
+C:John Dowland
+H: From The Second Booke of Songs or Ayres of 2. 4. and 5. parts: 
+H: with Tableture for the Lute or Orpherian, with the Violl de Gamba.
+M:3/2
+L:1/4
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%LY voices \property Voice.Slur \set #'dashed = #1
+%%LY voices \property Staff.automaticMelismata = ##f
+N:Original clef C on third line
+K:G mix 
+G4 G2 ^F4 G2 E4 D > E F4 F F G3 F E D D2 E2 G2 F4 G G G4 E4 E3 D ^C4 D D D G2 F E D
+S:https://www.folktunefinder.com/tunes/110328
+S:http://www.laymusic.org/music/dowland/humor/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

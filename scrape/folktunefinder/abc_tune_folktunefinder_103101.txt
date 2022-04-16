@@ -1,0 +1,33 @@
+X:1
+T:Sonny Brogan's Jig
+C:Traditional
+N:Play last 8 bars as intro, 
+N:then three times through
+N:The Armagh Set, figure 1, tune 1 of 1
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+M:6/8
+L:1/8
+K:AAeol
+AGA cAc | dcd ~e3 | AGA cde | dcA AGE |
+AGA cAc | dcd ~e3 | ~a3 ged | cAG A3 :||
+K:Ador
+e2 a ~a3 | gef ~g3 | eaa ~a3 | ged cAG |
+eaa eaa | gef ~g3 | ~a3 ged | cAG A3 :||
+S:https://www.folktunefinder.com/tunes/103101
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

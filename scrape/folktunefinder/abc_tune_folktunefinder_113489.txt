@@ -1,0 +1,26 @@
+X: 391
+T: Whistle and I'll Wait For You
+M:6/8
+L:1/8
+B:O'Neill's 391
+N:"With spirit."
+N:Segno above first and last bar lines.
+N:H is a fermata.
+N:"collected by J. O'Neill"
+Z:Transcribed by Chris Falt, cfalt@trytel.com
+K:D
+(d/2e/2) \
+| f>dB A>GF | E>ee e2d/2e/2 | f>dB AFA | B>dd d2 :|
+| (f/2e/2) \
+| d>fa d>fa | d>fa a>(gf/2e/2) | d>fa d>fa \
+| bge e2(f/2e/2) | dfa dfa | dd'b Ha2(a/2g/2) |]
+S:https://www.folktunefinder.com/tunes/113489
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

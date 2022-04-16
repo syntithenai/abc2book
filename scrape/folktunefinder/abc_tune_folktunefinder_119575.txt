@@ -1,0 +1,27 @@
+X:7
+T:Renaud le tueur de femmes
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n7
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:D
+D D F | A2 A B2 B | A3 d c d | e2 d c-d B | A2 z A d d |
+F3 A G F | E3 A A A | B3 A G E | D2 z A G F | F3 A G F |
+ E3 A A A | B3 A G E | D3-D z2 ||
+W:Renaud a de si grands appas
+W:Qu'il a charm la fille au roi.
+W:L'a bien emmene  sept lieues
+W:Sans qu'il lui dit un mot ou deux.
+S:https://www.folktunefinder.com/tunes/119575
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

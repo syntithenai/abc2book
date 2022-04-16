@@ -1,0 +1,31 @@
+X:190
+T: Humors of Ballyloughlin
+S: "Sully's Irish Banjo Book" (T.Sullivan)
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Dmix
+B | A>AA AGE | GED DED | c2 A ded | cAG FED |
+A>AA AGE | GFG cGE | DE/D/D DEA | DE/D/D D2 :|
+B | cd/c/c cAB | cAG AB^c | d>ed d>ed | cAG DEG |
+cd/c/c dcB | cAG EF/G/A | DE/D/D DEA | DE/D/D D2 :|
+K: D
+e | fdd gdd | fdd ged | Bc/d/e ged | Bc/d/e gfg |
+fdd gdd | fdd ged | Bc/d/e fag | edc d2 :|
+K: Dmix
+c | Ac/A/A A2 G | FDF GED | EF/E/E EFD | EF/E/E EFG |
+A2 A cAG | FG/F/F GEA | DE/D/D DEA | DE/D/D D2 :|
+S:https://www.folktunefinder.com/tunes/123182
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

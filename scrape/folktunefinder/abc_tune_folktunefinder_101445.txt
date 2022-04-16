@@ -1,0 +1,35 @@
+X: 28
+T:Lilian Polka. GHW.028
+M:2/4
+L:1/8
+Q:200
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+O:England
+A:Norfolk
+N:PlayQabc didn't like the original slurred triplet quavers.CGP11
+Z:vmp.Taz Tarry
+K:F
+(3A/c/d/)|af cA|dG G/^F/G/A/|cB GE|dc c (3A/c/d/)|!
+af cA|dG G/^F/G/A/|cB GE|Fff:|!
+K:C
+|:GA/B/ c/d/e/f/|gg e2|ff d2|ee c2|!
+GA/B/ c/d/e/f/|gg e2|ff d2|c3:|!
+K:Bb
+|:B/c/|dF Bc|(3B/c/B/) AA c/d/|eF c>d|(3c/d/c/) BB B/c/|!
+dF B>c|(3B/c/B/) AA e/f/|gc/d/ eG/A/|cBB:|
+W:All triplets slurred quavers in MS|
+S:https://www.folktunefinder.com/tunes/101445
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

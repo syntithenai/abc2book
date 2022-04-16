@@ -1,0 +1,26 @@
+X: 31
+T:Jack O'Neill's Fancy (#335)
+M:4/4
+L:1/8
+S:John E. O'Neill, Chicago
+R:Hornpipe
+K:G
+(3DEF|GFGA BAGF|E2 e2 (3efe dc|BGdB AB (3cBA|(3GFG BG DCB,D|
+GFGA BAGF|E2 e2 (3efe dc|BGdB AB (3cBA|GB (3AGF G2:|
+|:ba|gafg egba|(3gag (3fgf e2 ag|fgef dfag|(3fgf (3efe d2 ba|
+gafg egba|(3gag (3fgf e2 (3Bcd|1edef gfga|b2 e2 e2:|2edef gfga|bagf edBA
+||
+S:https://www.folktunefinder.com/tunes/127721
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-7.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/JackONeillsFancy335.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0335.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:331
+T: Shier yue hua
+N: C1025
+O: China,Hubei, Yngshan
+S: I, 450]
+N: Plattenhuelle kopiert.
+N: Zwischen Phrase 4 und 5 rhythmisch gesprochenen Text weggelassen.
+R: Xiaodiao, Caicha. Siji huahui]
+M: 2/4
+L: 1/32
+K: F
+F2F2D2F2D4c4 | c2A2A2G2F2G2F4
+F4F8D2C2 | c4A2c2G8
+c12A2c2 | d12A2G2 | F4C2D2F8
+F4F2D2c8 | A3cA2G2F2G2F2D2 | C16
+F2C4D2F4F4
+c12A2c2 | d12A2G2 | F4C2D2F8
+F4F2D2C8 | A3cA2G2F2G2F2D2 | C16
+S:https://www.folktunefinder.com/tunes/112758
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, caicha. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

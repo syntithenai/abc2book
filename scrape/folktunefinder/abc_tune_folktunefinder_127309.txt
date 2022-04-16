@@ -1,0 +1,25 @@
+X: 61
+T:Morning Star
+R:Reel
+B:O'Neills Music of Ireland
+D:Bothy Ban
+M:C
+L:1/8
+K:EMinor
+GA| B2 {c}BA BGEF| GABd efed| B2 {c}BA BGEG| FGAF G2 :||
+GA| Bdef g2 eg| ~f2 df edBA| Bdef g2 fg| agfg e2 z2|
+Bdef g2 eg| ~f2 df edBA| Bdd^c d2 ef| geaf {a}gfed ||
+S:https://www.folktunefinder.com/tunes/127309
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

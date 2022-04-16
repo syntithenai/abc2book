@@ -1,0 +1,28 @@
+X:4
+T:I. Lacrimae Antiquae.
+C: John Dowland
+%%MIDI nobarlines
+%%MIDI transpose -12
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, 
+%with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+T:Tenor
+N: Original clef, C on third line
+L:1/4
+M:C
+K:C -8va
+%1
+A6 A2 A4 B4 c2 c3 c e2 d c B A B4 A2 e2 g G B2 A4 B2 e2 d c2 "(1)"B/ A/ B4 A4-A4 || e4 c4 d4 G c B G
+N:(1) original has B and A quarter notes
+%2
+A c B2 A2 z A F D A2 z A c2 z c2 e > f g2 d > c B A2 z A2 c > d e c e > d c2 B/ A/ B4-B4 || z4 ^G3 A B2 c2 B4
+%3
+A/ B/ c/ d/ e > f g G A2 B e2 B c2 B3 A A4 ^G2 A2 z e2 B c A B2 e2 d c B A B4 HA4-A4 |]
+S:https://www.folktunefinder.com/tunes/110881
+S:http://www.laymusic.org/music/dowland/antiquae/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

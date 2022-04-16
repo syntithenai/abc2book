@@ -1,0 +1,25 @@
+X:11
+T:The Stone Frigate
+R:reel
+C:Pipe Major Donald Kerrigan
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:D
+B|AddA d2 Ad|AddG B2dB|AddA dABd|feef e2 ef|
+AddA d2 Ad|AddG B2dB|AddA BeeB|caac d2 d:|
+|:g|faaf a2fa|aAAG B2 dB|AddA dABd|[1feef e2 eg|
+faaf a2fa|aAAG B2 dB|AddA GeeB|caac d2 d:|
+[2feef e2 ef|AddA d2 Ad|AddG B2dB|AddA BGed|cAac d2 d|]
+S:https://www.folktunefinder.com/tunes/120449
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

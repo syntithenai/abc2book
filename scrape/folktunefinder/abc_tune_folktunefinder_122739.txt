@@ -1,0 +1,29 @@
+X:15
+T:Cooley's Reel
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E minor
+|:\
+"Em"EB~BAB2EB|~B2AB dBAG|"D"(3FED AD BDAD|FDFA dAFD|
+"Em"EB~BAB2EB|"C"~B2AB defg|\
+"Am"(3agf (3gfe dBAF|1"D"DEFD "Em"EGFD:|2\
+"D"DEFD "Em"Egfg||
+|:\
+"Em"eB (3BBB eBgB|eB (3BBB gedB|"D"~A2 FA BAFB|ADFA B^cdf|
+"Em"eB (3BBB efgf|"C"eB (3BBB defg|\
+"Am"(3agf (3gfe dBAF|1"D"DEFD "Em"Egfg:|2\
+"D"DEFD "Em"EGFD|]
+S:https://www.folktunefinder.com/tunes/122739
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

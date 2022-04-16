@@ -1,0 +1,29 @@
+X:75
+T: The Loughrea Lasses
+N: "Slow" "collected by J.O'Neill"
+N: Irish title: na cailini.de ua lo.c-ria.ba.c
+B: O'Neill's 415
+Z: Transcribed by henrik.norbeck@mailbox.swipnet.se
+M: 2/4
+L: 1/8
+Q: 80
+K: Dm
+(F/G/) | A>(B A/G/F/A/) | G>(A G/F/D/C/) | (F3/2G/4F/4E/F/) (G3/4A/4G/4^F/G/) | A2 (cd/e/) |
+f>e dc | e>(d c/B/A/G/) | AB/c/ dd | d2 f>e |
+d>c AG | d>(c A/G/F/D/) | (F3/2G/4F/4E/F/) (G3/2A/4G/4^F/G/) | A2 f>e |
+d>c AG | A2 (A/G/^F/A/) | (~G>F) DD | D2 z ||
+(D/E/) | F>(E F/G/A/B/) | c>(d c/B/A/G/) | Af ef | d2 f>e |
+d>c AG | F>E FG | AB cc | c3 (D/E/) |
+F>(E F/G/A/B/) | c>(d c/B/A/G/) | Af ef | d2 f>e |
+d>c AG | d>(c A/G/^F/G/) | (~G>F) DD | D3 ||
+S:https://www.folktunefinder.com/tunes/122480
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0401-0486_hn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

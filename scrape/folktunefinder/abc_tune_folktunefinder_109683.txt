@@ -1,0 +1,26 @@
+X:6
+T:www.polka.vl
+T:Voor Ief
+C:Bert Van Vreckem, juli 2002
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+R:Polka
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+P:A
+|:."G"G2 !tenuto!"D7"A2|"G"Bd G/A/B/G/|"D7"A/B/c/A/ F/D/F/A/|"G"G/A/B/G/ ED|
+."G"G2 !tenuto!"D7"A2|"G"Bd G/A/B/G/|"D7"A/B/c/A/ F/D/F/A/|[1"G"GD EF:|[2"G"GG Bd||
+P:B
+|:"G"gg f/e/d|"C"ee/f/ g2|"D"aa gf|"G"g/a/g/f/ e/d/e/f/|
+"G"gg f/e/d|"C"ee/f/ g2|"D"ab g/d/e/f/|[1"G"gf ~ed:|[2"G"gd B~A||
+S:https://www.folktunefinder.com/tunes/109683
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/bert.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

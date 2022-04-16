@@ -1,0 +1,26 @@
+X:150
+T:Over the water to Charlie
+R:Jig
+O:Scotland
+M:6/8
+%%ID:00000bb6
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bb6.abc
+K:D
+DFA AFA| Bcd AFA| DFA AFA| B2c d3|\
+DFA AFA| Bcd AFA| fed edc| B2c d3:|
+|:fed edc| Bcd AFA| fed edc| B2e e3|\
+fed edc| Bcd AFA| DFA AFA| B2c d3:|
+S:https://www.folktunefinder.com/tunes/100442
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000bb6.abc
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

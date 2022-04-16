@@ -1,0 +1,45 @@
+X:11312
+T:Mrs A. MacPherson of Inveran
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=88
+N:according to George MacPherson (Angus's grandson), co-authored with Angus
+N:MacPherson one night when GS was staying with the MacPhersons at Inveran
+K:Hp
+g/|{afg}f3       a/f/      {g}df{g}Ad   |{gfg}f3      a/f/      {g}f2{eA}e>f |\
+   {gef}e3    {a}g/f/      {g}ce{g}A{d}c|
+                                         {gef}e3      f/g/    {afg}f2{dc}d3/:|\
+A/|{Gdc}d3    {e}A/d/      {g}df{g}Ad   |{gdc}d2{e}Ad         {gde}d2{cG}c>d |
+[1 {gcd}c2   {f}A{d}c      {g}ce{g}A{d}c|{gcd}c2{e}A{d}c      {gef}e2{dc}d3/:|\
+[2   {g}c2{GdGe}Ac         {g}cd{g}ef   |
+                                           {a}gf{g}ea          {fg}f2{dc}d3/||\
+g/|{afg}f3    {a}g/f/         a2{fe}f>g |     a2{fe}fg        {afg}f2{eA}e>f |
+   {gef}e3    {g}f/e/      {a}g2{eA}e>f |  {a}g2{eA}e>f       {gef}e2{dc}d3/:|\
+A/|{Gdc}d3    {e}A/c/      {g}faef      |
+                                           {g}df{g}ed         {gde}d2{cG}c>d |\
+[1 {gcd}c3    {e}A/{d}c/   {g}eg{a}df   |  {g}ce{g}B{d}c      {gef}e2{dc}d3/:|
+[2 {gcd}c3    {e}B/{d}c/   {g}A{d}c{g}eg|  {a}face            {gef}e2{dc}d3/||\
+g/|{afg}f3    {g}e/d/         a2{fe}f>g |
+                                          {ag}a3      g/{a}f/ {gfg}f2{eA}e>f |\
+   {gef}e3  {gde}d/c/      {a}g2{eA}e>f | {gf}g3 {afg}f/e/    {gef}e2{dc}d3/:|
+A/|{Gdc}d3    {e}A/d/    {gfg}f3 {g}d/f/|  {a}gf{gef}ed       {gde}d2{eG}c>d |\
+[1 {gcd}c3    {e}A/{d}c/ {gef}e3 {g}c/e/|
+                                           {a}ge{gde}dc       {gef}e2{dc}d3/:|\
+[2   {g}c{d}A{gde}dB     {gef}ec{g}fd   |  {a}ge{gde}dc       {gef}e2{dc}d3/|]
+S:https://www.folktunefinder.com/tunes/99094
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

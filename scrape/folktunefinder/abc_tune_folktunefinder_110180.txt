@@ -1,0 +1,35 @@
+X:133
+T:A Time to Dance
+M:2/2
+L:1/4
+C:Colin Hume, 2002
+N:Fourth time through play A1, A2, B with the last three notes of C, finish with A2.
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:D
+P:A1
+[| "D"d2 "D/F#"d3/2 d/2 | "A"e e2 e | "Bm"f2 "G"g3/2f/2 | "A"ec A2 |\
+"Bm"d d2 d | "F#m"c c2 c | "E7"BBe3/2d/2 | "A"cABc |
+%%vskip 0
+P:A2
+"D"d2 "D/F#"d3/2 d/2 | "A"e e2 e | "Bm"f2 "G"g3/2f/2 | "A"ec A2 |\
+"Bm"d d2 d | "A"e e2 f | "G"gg "A7"f3/2e/2 | "D"d4 |
+%%vskip 0
+P:B
+"D"f e/2f/2 ed | "G"BA "D"AD/2E/2 | "Bm"FFBF | "Em"GGdB |\
+"A7"ccfe | "Bm"d3/2c/2 B/2c/2d/2B/2 | "D"Ad F/2G/2A/2F/2 | "A"E3 C/2D/2 |
+%%vskip 0
+P:C
+"A"EEAE | "Bm"F3/2E/2 D E/2F/2 | "Em"GGeB | "A"c3/2B/2 "A7"A B/2c/2 |\
+"D"dA "A/C#"eA | "Bm"f/2g/2f/2e/2 "Bm/A"dc | "G"Be "A7"c3/2d/2 | "D"dABc |]
+S:https://www.folktunefinder.com/tunes/110180
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

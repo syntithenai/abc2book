@@ -1,0 +1,36 @@
+X:20
+T:Gaillarde - Mille ducas
+R:
+C:Tielman Susato
+H:
+N:13
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/2
+L:1/4
+Q:1/4=120
+K:C
+V:1
+zddd e2 | e fff g2 | e e>f g/e/ f2 | e dc/B/ ^c d2  ::
+zeee f>g | a/g/ fed c2 | d eee f2 | ee2de2 ::
+V:2
+zAAAc2 | cdddB2 | cccBdc | cAA2 A2 ::
+V:3
+%%MIDI transpose -12
+zFFF G2 | AAAB G2 | AAAGA2 | GFE2D2 ::
+V:4
+K:C bass
+%%MIDI transpose -12
+zDDDC2 | A,DDDE2 | A,A,/B,/ (C/D/) EDA, | CDA,2D2 ::
+S:https://www.folktunefinder.com/tunes/104016
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

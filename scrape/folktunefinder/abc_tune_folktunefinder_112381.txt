@@ -1,0 +1,25 @@
+X:190
+T:Josefin's Waltz
+M:3/4
+L:1/4
+S:Roger Tallroth
+D:Dervish, "At the End of the Day"
+N:From Gary Chapin
+K:G
+DGA|Bdc|BAG|D2E|[GC]>[GC][GC]|EGF|E3|D3|
+DGA|Bdc|BAG|D2E|[GC]>[GC][GC]|CEG|A3|1 A3:|2ABc||
+dBd|g2f|e3|d3|ced|cGA|B>cB|ABc|
+dBd|g2f|e3|d3|ced|cBA|B>cB|ABc|
+BAG|F2G|G3|[EC]D[EC]|[FB,]DG|FEF|(G3|1 G)Bc:|2 G3||
+S:https://www.folktunefinder.com/tunes/112381
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

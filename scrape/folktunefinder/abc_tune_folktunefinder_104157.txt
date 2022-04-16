@@ -1,0 +1,25 @@
+X:4
+T:Allen a Roon
+B:Bremner: Instructions for the Guitar, London, c.1765, NLS MH.s.252(1)
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+N:C6 held through bar 17; 4- and 6-note chords arpeggiated
+N:last chord printed as minims in the book
+M:3/4
+L:1/8
+K:C
+ G2           A2B2|Tc3  d e2   | G2     A2     B2   |([C6E6G6c6]) |\
+ G2           AGAc| d3  c c/d/e| G2     A2     B2   |([C6E6G6c6]):|\
+ f>ef>gf>g        | f2 A2 A2   |Te>defed            |  c2 A2 G2   |\
+ f>efg          f2|Te>def e2   | d>cdfed            |  c2 A2 G2   |\
+[C3E3G3c3e3g3] fed|Tc3  d e2   |[E2G2] [F2A2] [G2B2]|[C6E6G6c6]  :|
+S:https://www.folktunefinder.com/tunes/104157
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

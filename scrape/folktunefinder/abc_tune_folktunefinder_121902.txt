@@ -1,0 +1,25 @@
+X:31
+T:Paddy on the Turnpike
+N:(descended from "The Waukin of the Faulds") 
+N:from The Scottish Music List, Vol2 No 99
+Z:Bruce Olson
+S:Cari Fuchs' collection (internet)
+L:1/8
+M:C|
+K:GDor
+F|DGG^F G2GA|BGdG _eGdG|DFFE F2FG|AFcF dFcF|\
+DGG^F ~G2GA|BAGA Bcde|fefd cAFA|BGAF G3::c|\
+dgg^f g2ga|baga bgaf|dffe ~f3g|agfg afgf|\
+dgg^f gfga|bagf dcde|fefd cAFA|BGAF G3:|
+% Output from ABC2Win  Version 2.1 f on 25/02/98
+S:https://www.folktunefinder.com/tunes/121902
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Vol02.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

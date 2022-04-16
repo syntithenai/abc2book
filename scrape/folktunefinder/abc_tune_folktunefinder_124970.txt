@@ -1,0 +1,31 @@
+X:1
+T:Aroplane d'Erquy
+%%scale 0.75
+Z:Roger Ngaret (98)
+R:aeroplane
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=100
+M:2/4
+L:1/16
+K:C
+"G"d2d2 "D"e2d2 | "G"d2GA B4 | BdcB "D"A2Bc |1
+"G"dcBA B2G2 :|2 dcBA G4 |:
+B2B2 "D"c2A2 | A2GA "G"B4 | BdcB "D"A2Bc |1
+"G"dcBA B2G2 :|2 dcBA G4 |:
+d4 "D"e4 | "G"dcBc d4 | d2A2 d2A2 |1
+BcBA B2G2 :|2 BcBA G4 |:
+B2B2 "D"c2A2 | A2GA "G"B4 | BdcB "D"A2Bc |1
+"G"dcBA B2G2 :|2 dcBA G4 |]
+S:https://www.folktunefinder.com/tunes/124970
+S:http://termen.free.fr/danses/penthievre/AeroplanedErquy.abc
+% Rhythm Aeroplane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

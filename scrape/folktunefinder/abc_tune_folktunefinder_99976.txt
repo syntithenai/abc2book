@@ -1,0 +1,28 @@
+X:195
+T:Ragtime Annie
+R:Rag
+B:Fiddler's Fakebook
+Z:Added by Alf Warnock
+M:4/4
+L:1/8
+K:D
+"[A]"FE|"D"DFBF AFBF|DFBF A2FE|DEFG ABAF|"A7"A2c2 c2cB|
+ABcA B2cB|ABcA BAcB|ABcd egfe|"D"d2dc d2:|
+"[B]"fg|"D"a2ab afd2|A6fg|a2ab agf2|"G"g6ef|
+"Em"gfef gfef|"A7"gagf e2ef|gagf edcB|"D"A6fg|
+a2ab afd2|A2AB A2A2|F4d4 "C"E4=c4|"G"[G6B6]A2|
+B2b2 b2ag|"D"f2a2 a2gf|"A7"A2ef gfec|"D"d2=c2 "D7 [C]"B2A2|
+K:G
+|"G"G6B6AB|E6c6cB|A2f2 f2ef|gfga gedc|
+D2B2 B2AB|E2c2 c2cB|A2f2 f2ef|[1 gfga g2dc:|[2 g6|]
+S:https://www.folktunefinder.com/tunes/99976
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

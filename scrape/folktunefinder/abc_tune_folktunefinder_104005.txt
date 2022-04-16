@@ -1,0 +1,42 @@
+X:9
+T:Bransle gay III*
+C:Gervaise
+B:Troisime livre de danceries (1557)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=195
+K:C
+V:1
+GGd2 | e2dc B A | G2G G d2 | e2 d/e/ f/e/d/c/B/A/ | G2 :|
+K:F
+GG d2 | B2 B c>A B/c/ | d2 GG d2 |
+B2 B c>ABc | d2 GGd2 | B2 d
+V:2
+%%MIDI transpose -12
+K:C
+dd g2| g2 gg f2 | d2 dd g2 | g2 ggf2 | d2 :|
+K:F
+bb a2 | g2 gf e2 | d2 bb a2 |
+V:3
+%%MIDI transpose -12
+K:C
+BBB2 | c2Bed2| B2BBB2 | c2Bed2 | B2 :|
+K:F
+ddd2 | d2 d c2 c | f2 dd d2 |
+V:4
+K:C
+%%MIDI transpose -12
+G,G,G,2 | C,2G,C,D,2 | G,,2G,G,G,2 | C,2G,C,D,2 | G,,2 :|
+K:F
+S:https://www.folktunefinder.com/tunes/104005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

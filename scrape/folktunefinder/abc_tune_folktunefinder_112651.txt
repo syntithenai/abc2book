@@ -1,0 +1,30 @@
+X:224
+T: Ba Huangshan bianchen fu cunzhuang
+N: C0357
+O: China,Zhejiang, Ningbo
+S: III, 609]
+N: Ein Mann steht in einem Papierpferd. In Shanghai, Zhejiang und
+N: Vor- und Zwischenspiel weggelassen.
+R: Xiaodiao, Madeng diao, Wuge, Zhuma. Xin minge]
+M: 2/4
+L: 1/16
+K: D
+B4f2e2 | e2d2B2A2 | B2d2e2B2 | d8
+A2B2d4 | B2d2F2A2 | B4A2F2 | A8
+A2B2d4 | e4d2B2 | A2B2d2c2 | B8
+d3BA2d2 | B2A2A2B2 | F8
+f3ed2e2 | B8
+d3BA2d2 | B2A2A2B2 | F8
+S:https://www.folktunefinder.com/tunes/112651
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, madeng diao, wuge, zhuma. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

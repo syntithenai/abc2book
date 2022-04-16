@@ -1,0 +1,30 @@
+X:39
+T:Downfall of Paris, The
+R:hornpipe
+N:"Collected by Cronin"
+B:O'Neill's 1562
+Z:Transcribed by Michael Hogan
+M:2/4
+L:1/16
+K:G
+P:A
+D2 | "G"G2GA G2GA | G2GB cBAG | "D"A2AB A2AB | A2AB "Am"cBAG |
+"G"B2Bc B2Bc | Bdgf edcB | "D"A2AB A2d2 | agfe "G"dcBA ||
+P:B
+"G"G2GA G2GA | G2AB cBAG | "D"A2AB A2AB | A2AB "Am"cBAG |
+"G"BABc dedc | BABc dedc | (3Bcd BG "D" (3ABc AF | "G"G2GG G2 d2|
+P:C
+|:"G"b2ba g2ga | b2ba gabg | "D"abag f2fg | a2ag fgaf | "Em"efge dcBd |
+"C"cdec "G"BcdB | "Am"cBAG "D"FDEF |1 "G"G2B2 "D"A2d2 :|2 "G"G2GA G2 ||
+S:https://www.folktunefinder.com/tunes/117086
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

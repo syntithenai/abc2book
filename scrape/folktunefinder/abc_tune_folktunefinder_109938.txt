@@ -1,0 +1,36 @@
+X:1
+T:Alter Hopfavogl
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Kopiertes Notenmaterial von Michael Kellner, Regensburg
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 4/4
+L:1/4
+K:G
+D |\
+BB/B/B/B/ | BAG | FEE2 | FEE2 |
+AA/A/A/A/ | AGF | EDD2 | EDD2 |
+BB/B/B/B/ | BAG | F>GA2 |1 cc/c/c/c/ | cBA | G>AB2 :|\
+                        [2  d/d/dF | G2 ||
+|: d |\
+e/d/d/e/d/B/ | cfcf | e/d/d/e/d/c/ | BgBg |
+e/d/d/e/d/B/ | cfcf |1 e/d/d/e/d/c/ | B2 :|\
+                    [2  e/d/^c/d/e/f/ | g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/109938
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/alter_hopfavogl.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

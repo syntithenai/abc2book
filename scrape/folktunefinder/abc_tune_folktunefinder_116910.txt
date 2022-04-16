@@ -1,0 +1,38 @@
+X: 8
+T:Boo's Reel
+M:4/4
+L:1/8
+Q:120
+C:Matthew Richards
+K:D
+|:&quot;D&quot;ddfd &quot;G&quot;BABd|&quot;D&quot;ddfd &quot;Bm&quot;
+JB2 &quot;A&quot; A2|&quot;D&quot;ddfd &quot;G&quot; BABd|
+|&quot;A&quot; ef &quot;G&quot;dc &quot;D&quot; Jd2 d2|&quot;D&quot;ddfd
+&quot;G&quot;ad&quot;D&quot;fd|
+|&quot;D&quot; ddfd &quot;Bm&quot; Bc/2/B/2 &quot;A&quot; JA2|&quot;D&quot;
+ddfd &quot;A&quot; ag &quot;Bm&quot;fe|
+|&quot;G&quot; df &quot;A&quot;ec &quot;D&quot; Jd2 d2|&quot;D&quot;
+ddfd &quot;G&quot; BABd|&quot;D&quot; ddfd &quot;Bm&quot; JB2
+&quot;A&quot; A2|
+|&quot;D&quot; defd &quot;G&quot;BABd|&quot;A&quot; ef &quot;G&quot;dc
+&quot;D&quot; Jd2 d2|&quot;D&quot; ddfd &quot;G&quot; ad &quot;D&quot;
+fd|
+|&quot;D&quot; ddfd &quot;Bb&quot;J_B2 &quot;A&quot; A2|&quot;D&quot;
+ddfd &quot;A&quot; ag&quot;Bm&quot; fe|
+|&quot;G&quot; df &quot;A&quot;ec &quot;D&quot; Jd2 d2:|:&quot;D&quot;
+defa &quot;G&quot; ba &quot;A&quot; fe|
+|&quot;D&quot; defa &quot;Bm&quot; Jb2 &quot;A&quot; a2|&quot;D&quot;defa
+&quot;G&quot;bafe|
+|&quot;D&quot; df &quot;A&quot; ec &quot;D&quot; Jd2 d2:|:&quot;D&quot;
+dded &quot;Bm&quot; Bd &quot;A&quot; Ad|
+|&quot;D&quot; dded &quot;Bm&quot; JB2 &quot;A&quot; A2|&quot;D&quot;
+dded &quot;Bm&quot; fg &quot;A&quot; ef|
+|&quot;G&quot; dd &quot;A&quot; ec &quot;D&quot; Jd2 d2:|
+S:https://www.folktunefinder.com/tunes/116910
+S:http://www.mudcat.org/alanofoz/mbo.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

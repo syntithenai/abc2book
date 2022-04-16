@@ -64,6 +64,8 @@ self.addEventListener('install', (event) => {
       '/abc2book/abc2book.audio.js',
       '/abc2book/abc2book.converters.js',
       '/abc2book/abc2book.indexes.js',
+      '/abc2book/abc2book.parser.js',
+      '/abc2book/abc2book.dom.js',
       '/abc2book/abc2book.js',
       '/abc2book/abc2book.persist.js',
       '/abc2book/abc2book.review.js',

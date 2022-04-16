@@ -1,0 +1,27 @@
+X:37
+T: Graf von Rom
+N: Q0014
+O: Mitteleuropa, Deutschland / Niederlande
+N: Orginalquelle in Choralnotation; geistliche Kontrafaktur
+R: Ballade, Pilger - Reise, Gefangenschaft, Befreiung, Ehe, Liebe;
+M: none
+L: 1/4
+K: F
+F | F2FA2B | c2c2z
+d | eeed | c2z
+c | ddff | c2A2z
+d | cBAG | F2z
+F | c2cdcB | A2G2z
+F | EGFD | C2z
+C | FFFF | A2c2z2
+d | BBAG | F2z
+S:https://www.folktunefinder.com/tunes/109975
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, pilger - reise, gefangenschaft, befreiung, ehe, liebe;
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

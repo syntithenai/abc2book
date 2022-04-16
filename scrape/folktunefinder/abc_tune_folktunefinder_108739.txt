@@ -1,0 +1,30 @@
+X:7232
+T:Hornpipe. JC.181
+M:C|
+L:1/8
+Q:120
+S:John Clare,Poet,Helpstone (1793-1864)
+O:England
+A:Northamptonshire
+N:Bar six should probably be omitted, and although PH. has put a slow
+N:speed on it,possibly to suit a dotted rythm,, I think I would go for
+N:180 . CGP.
+N:No TS given: 2/4 adde
+Z:P Headford
+K:G
+"Key D in MS"(d3c e)dcB|(dgfg) edcB|AGBG AGBG|DGBd cBAG|!
+d3e edcB|(dgfg) edcB|"Here,have this spare bar!"(dgfg) edcB|(gfgd) ecAF|
+G2G2G2z2:|!|:d3e edcB|e2e2e2z2|c3d cAFA|dgfa agfe|!
+dBdg eceg|fdfa gfgd|egfg ecAF|G2G2G2z2:|]
+S:https://www.folktunefinder.com/tunes/108739
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

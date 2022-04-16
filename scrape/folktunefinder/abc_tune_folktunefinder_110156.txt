@@ -1,0 +1,26 @@
+X:109
+T:Ruth
+M:6/8
+L:1/8
+C:Colin Hume, 2006
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+N:For Ruth Allmayer
+K:Dm
+%%MIDI program 72
+de | "Dm"f2f zGA | "Gm"B2B zfe | "Bb7"d2ef2d | "G7"{g}_a2g zfd | "A7"e2f g2e | "A7"bag ^deg | "Dm"f2d fdf | "D7"^f2d fdf |
+"Gm"gdc Bcd | "Bb7"c2B zF^F | "G7"G=Bd g2d | "Cm"f2_e zc=B | "C7"_Bcd GAB | "C7"EFG CcB | "Bb7"_ABc "C7"G2F | "F"F3-F2c |
+"F"f2f-f2c | "Bbm"g2g-g2^c | "G7"{^g}a=gf d=BA | "C7"G2A _B2=B | "F"c2c-c2F | "G7"d2d-d3 | "C"{=B}ccc c=Bc | "C7"_d3c3 |
+"Dm"fed fed | "Bb"fed def | "A7"gfe gfe | "F7"agf fga | "Bb"{a}b2B Bcd | "C7"c2B zG^G | "G7"A^GA "C7"cA=G | "F"F3 z3 |]
+S:https://www.folktunefinder.com/tunes/110156
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

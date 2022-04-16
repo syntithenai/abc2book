@@ -1,0 +1,25 @@
+X:60
+T: Die Koenigskinder
+N: Q0020C
+O: Mitteleuropa, Schweiz, Zuerich
+N: Unklares Wiederholungszeichen nicht beachtet.
+R: Ballade, Liebe, Trennung, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2_B3AB2 | G4_B2A4
+B2 | G3FG2A2G2D2 | G6-G4
+GA | _B3BB2d2c2B2 | A3_Bc2B4
+A2 | G3FG2A2G2F2 | G6-G4
+S:https://www.folktunefinder.com/tunes/109998
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

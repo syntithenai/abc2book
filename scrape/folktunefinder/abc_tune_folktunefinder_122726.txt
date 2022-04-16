@@ -1,0 +1,26 @@
+X:2
+T:The Banshee
+T:McMahon's Hornpipe
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:G
+|:\
+"G"G3D "Em"~E3G|"C"AGAB "D"d2Bd|"Em"(3efged BAGA|"C"BAGE "D"~EDD2|
+"G"G3D "Em"~E3G|"C"AGAB "D"d2Bd|"Em"(3efged BAGA|"C"BAGE "D"~EDD2:|
+|:\
+"Am"ea~a2 efge|"Bm"dB~BA B2Bd|"Em"ec~B2 eBgB|eB~B2 "C"dBAB|
+"Am"ea~a2 efge|"Bm"dB~BA B2Bd|"Em(A)"(3efged BAGA|"C"BAGE "D"~EDD2:|
+S:https://www.folktunefinder.com/tunes/122726
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,50 @@
+X:1088
+T:Allemande
+C:Johann Sebastian Bach
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+R:Allemande, almain
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0836/bwv0836-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass up %Harpsichord
+V:3 Program 1 6 bass merge down %Harpsichord
+M:C
+L:1/8
+K:Gdor
+V:1
+d|_e>Bcd BA/B/ Gg|f_e/d/ ef dc/d/ Bb|ba/g/ aa adgg|
+g/a/f/g/ e>d d2 A>G|AG/F/ E>D D3a|a/g/^f/e/ dc' c'b/a/ bb|
+a/c'/=b/_b/ a/^g/=g/a/ ^fd zg|_ed/e/ fe dB b2-|ba/g/
+ a2-adg2-|g/b/a/^g/ =g/^f/=f/e/ f2e2|
+d2z2z/B/A/^G/ =G/^F/=F/E/|F2E2D3A|A/G/^F/E/ Dc cB/A/ Bc|
+d/c/=B/A/ Gf f_e/d/ eg|g/f/e/d/ cb b_a/g/ a2-|ag/^f/ g2-ga/b/ ag|
+^fd z z/d/ _e>B c>d| BA/B/ Gg/f/ _e/d/c/B/ A>G|G/d/c/d/ B/c/A/B/
+ G/B/A/B/ G/A/F/G/|_E/D/C/B,/ A,>G,G,3z|]
+V:2
+x|x8|x4B2x2|x3cc2Bd|
+^cd dc d2z2|d2x6|x8|]
+V:3
+G|G2A^FG2z[GB]|[A2c2]z[FA]B2z[Bd]|[F2c2]z^FG3B|
+ADA2D2z2|FG AA, D2D,z|[D2d2][^F2d2][G2d2]zB|
+c2^c2dd/=c/
+ BG|c2A2B2z[Bd]|[F2c2]z[^Fc][G2B2]zB|[A2^c2]z2[G2d2][A2c2]|
+D/d/^c/d/ D/d/c/d/ F2zG|A2A,2D3z|D2z[^Fd][G2d2]zA|
+=B2zGc2zd|e2z[eg]f3_e/d/|_e3d/c/B2c2|
+d2zz/G/G2A^F|G2B2c2dD|G2z2[B,2G2]z2|[C2G2]DD,G,3z|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/103983
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0836/bwv0836-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0836/bwv0836-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0836/bwv0836-pno2.abc
+% Rhythm Allemande, almain
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 37
+T:Sailors Hornpipe
+R:hornpipe
+C:Trad
+M:4/4
+L:1/4
+K:G
+g/2f/2| gGG d/2c/2| B/2d/2 g g/2b/2a/2g/2| aAA A/2G/2| F/2A/2d de/2f/2|
+g/2f/2e/2d/2  e/2d/2c/2B/2| c/2B/2A/2G/2  G/2F/2E/2D/2| E/2G/2F/2A/2 G/2
+B/2A/2c/2| BG G:|
+d/2c/2| B/2d/2g/2d/2 B/2d/2g/2d/2| ec ce/2d/2| ^c/2e/2a/2e/2 c/2e/2a/2
+e/2| fd dB|ce e/2d/2c/2B/2| c/2B/2A/2G/2  G/2F/2E/2D/2| E/2G/2F/2A/2 G/2
+B/2 A/2c/2| BG G:|
+S:https://www.folktunefinder.com/tunes/101062
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

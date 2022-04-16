@@ -1,0 +1,26 @@
+X:81
+T:Staten Island
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:D
+|:AB|\
+"D"AFDF A2 AA|dfed dcBA|"G"B2 GB "D" A2 FA|"Em"G2 E2 "A"E2 FG|
+"D"AFDF A2 AA|dfed dcBA|[d2f2][d2f2] "A"efge|"D"f2d2d2:|
+|:fg|\
+"D"a2af "G"g2 ge|"D"f2fd edBA|\
+"C (or other random chord)"=c2c2efge|=c2 c2 efge|
+"D"agfa "G"gfeg|"D"fedd "A" edBA|"D"d2 d2 "A" efge|"G"f2d2d2:|
+S:https://www.folktunefinder.com/tunes/118891
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

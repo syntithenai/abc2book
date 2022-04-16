@@ -1,0 +1,23 @@
+X:28
+T:Knocknaboul
+Z: id:dc-polka-23
+M:2/4
+L:1/8
+K:G Major
+GB B/c/B/A/|GB B/c/B/A/|FA D>A|FA D>A|!
+GB B/c/B/A/|GB g>e|fd cA|G2 G2:|!
+g2 g>f|ga ag|fd dd/e/|fg af|!
+g2 g>f|gb ag|fd cA|G2 G2:|!
+B2 B>c|dB AG|F>E FG|AB c/B/A|!
+B2 B>c|dB Bg|fd cA|G2 G2:|!
+S:https://www.folktunefinder.com/tunes/127407
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:60
+T: Duidin
+S: Tony De Marco
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+dcBA FEFA | dcde fgfe | dcBA FEFA | BdcA B2 Bc |
+dcBA FEFA | dcde fgfe | dcBA FEFA | BdcA Bcde ||
+fdBc dcde | fabf afea | fdBc dcde | fbaf e2 de |
+fdBc dcde | fabf afea | bf (3fef af (3fef | bfaf e2 ||
+S:https://www.folktunefinder.com/tunes/121250
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,71 @@
+X:10617
+T:Alle mann hadde fota
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Pols
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/alle-mann-hadde-dm/alle-mann-hadde-dm-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:3/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+d>ef2e>d|a2a4|d>ef2(3(fe)d|f2e4|
+V:2
+[D,6D6A6]|[D,4D4A4]A2|[D,6D6A6]|[D2A2]A2A2|
+%
+V:1
+d>e{e}f2e>d|(^ga)a3a|d>e (ef) de|d2d4|f2e4|
+V:2
+[D,6D6A6]|[D,4D4A4]A2|[D,4D4A4]^c2|[D,6D6A6]|A4A2|
+%
+V:1
+f>fe4|f>fe2e2|f>fe4|d>ef2e>^c|d>dd4|]
+V:2
+A4A2|A3A2A|A4A2|[D,4D4A4]^c2|[D,6D6A6]|]
+W:
+W:Alle mann hadde fota,
+W:min mann hadde ingen,
+W:tok eg meg bj\orkerota
+W:gjorde min mann fota.
+W:  Min mann dansa fram,
+W:  fot i hose hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde fota.
+W:
+W:Alle mann hadde arma',
+W:min mann hadde ingen,
+W:tok eg meg eit par tarma',
+W:gjorde min mann arma'.
+W:  Min mann dansa fram,
+W:  tarme-arma' hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde arma'.
+W:
+W:Alle mann hadde aua,
+W:min mann hadde ingen,
+W:tok eg meg eit par saua',
+W:gjorde min mann aua.
+W:  Min mann dansa fram,
+W:  saue-aua hadde han
+W:  likso vel som ein annan mann.
+W:  Alle mann hadde aua.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/104112
+S:http://abc.musicaviva.com/tunes/norway/alle-mann-hadde-dm/alle-mann-hadde-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/alle-mann-hadde-dm/alle-mann-hadde-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/alle-mann-hadde-dm/alle-mann-hadde-dm-ddad1.abc
+% Rhythm Pols
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

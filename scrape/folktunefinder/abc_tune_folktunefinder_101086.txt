@@ -1,0 +1,19 @@
+X: 63
+T:Fasten the Legging
+R:Jig
+M:6/8
+L:1/8
+K:G
+c|B2 BBAB|GBd gdB|ABAAGA|Bee dBA|B2BBAB|GBd gfg|efg eag|fdd d2:|
+f|gag fgf| ege dBA|GFG AGA|
+% Output from ABC2Win  Version 2.1 f on 21/01/2001
+S:https://www.folktunefinder.com/tunes/101086
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

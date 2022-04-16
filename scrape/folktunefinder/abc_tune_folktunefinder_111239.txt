@@ -1,0 +1,47 @@
+X:7
+T: Hora din Maurodin
+O:rumania
+C: Trad.
+Z: http://swissnet.ai.mit.edu/~jaffer/CFO.html
+P: AABCDECD
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 100 60 2
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+M: 2/4
+L: 1/16
+Q: 1/4=110
+K: D
+P: A
+|:"D"(^ga)(fd) (Ad)(fd) |"A"(fg)(ec) (Ac)(ec) | (AB)(c^d) (ef)(ge) \
+|1 (fg)(ec) "D"(df)(aA) :|2"D"d2z2z4 ||
+P: B
+L: 1/8
+"G"{^ac'}b4 | {^ac'}b4 |"Gdim"{^ac'}b4 | {^ac'}b4 |\
+"D"b>a d'/2=c'/2b/2a/2 | b>a gg/2f/2 |"A"f/2g/2(ee2 | e3) A |
+P: C
+|:"D"d/2e/2f/2g/2 ag |"A" f>e dc |"D"cd/2c/2 d/2e/2f/2c/2 |  d2 a2 |\
+d/2e/2f/2g/2 ag |"F#"f>e dc |"Bm"BB/2^A/2 B/2c/2d/2c/2 |1 B2 BA :|2 B3z ||
+P: D
+L: 1/16
+|:"Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd) |"Bm"Bcde f2B2 |
+"Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd)\
+|[1"Bm"BF^G^A B2z2 :|[2 B2
+P: E
+L: 1/8
+f g^g |"D"{^g}a4 | {^g}a4 |{^g}a4 | {^g}a2 z A |
+S:https://www.folktunefinder.com/tunes/111239
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

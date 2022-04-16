@@ -1,0 +1,23 @@
+X: 50
+T:Merrily Kiss the Quaker's Wife
+T:Merrily Dance the Quaker
+R:slide
+M:12/8
+L:1/8
+K:G
+%%text Play whole tune at end in G
+|:D|GAB D2B c2A BGE|GAB DEG ~A3 A2D|\
+GAB D2B c2A BGE|GAB D2E G3 G2:|
+|:c|BGG AGG BGG AGE|GAB DEG A3 AGA|\
+BGG AGG BGG AGE|GAB D2E G3 G2:|
+|:d|~g3 aga bge dBd|~g3 gab ~a3 aba|\
+gbg faf ege dBA|GAB D2E G3 G2:|
+S:https://www.folktunefinder.com/tunes/105104
+S:http://www.alfwarnock.info/alfs/abc/AlfSongs.abc
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

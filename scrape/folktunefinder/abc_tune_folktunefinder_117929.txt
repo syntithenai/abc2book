@@ -1,0 +1,27 @@
+X:255
+T:The Road to Cashel
+R:Reel
+S:Paul O'Shaughnessy, Dublin (fiddle)
+D:Television broadcast
+C:Charlie Lennon
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D %i.e. Em modal
+FE{F}ED E3B,3E | FE~E2 BdAB | FE~E2 EdBA | FD(3.D.D.D BdAB |
+FE~E2 ~E3G | FE~E2 BdAB | FE~E2 EdBA | FD(3.D.D.D BdAd ||
+~B3g (3fgfef | defa {b}afed | Bzge {afe}f2ed | {e}dBAd BEFA |
+{dBA}B2 Bg (3.f.g.fef | defa {b}afef | bf(3.f.f.f af~f2 | bfaf edBA ||
+S:https://www.folktunefinder.com/tunes/117929
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book2.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

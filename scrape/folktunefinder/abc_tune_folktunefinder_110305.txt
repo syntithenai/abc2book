@@ -1,0 +1,30 @@
+X:3
+T:In Nomine
+T:Tenor
+C:Orlando Gibbons 1583-1625
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on fourth line
+M:C|
+% the time values are doubled, so change this to 1/2 once proofreading is done.
+L:1/2
+K:D min -8va
+z8 z2 G2 B2 F D G2 F > G A A c2 F > G A2
+G2 z G B2 A A c3 =B A > G F > G E F E2 D2 z A c2 F > G A3/2 G// F// A G
+%P. 43
+F2 z A c F3/4 G// A/ B/ c G3/4 A// B/ c/ d3/2 c// B// A2 d f2 e d2 c3 =B A A/ d ^c// "f"=B// "f"^c d2 z A
+c2 F > G A c3/2 B// A// G/ A/ B2 A2 z A c2 F > G A/ G/ F/ E/ G/ F/ F2 E F > E D/ C/ D2 C z f
+e2 A d2 c/ =B/ c "f"=B A d c A c =B G2 z _B A2 G4 z f e2 d f e d > ^c 
+d c =B d3 A z c B2 A2 D2 A2 z B A F2 D F > G A2 z c B3
+A F > G A2 G E/ F/ G F D2 z F E2 D4 z B A G > A ^F G B HA4 |]
+S:https://www.folktunefinder.com/tunes/110305
+S:http://www.laymusic.org/music/gibbons/nomine/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

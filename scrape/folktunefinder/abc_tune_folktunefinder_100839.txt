@@ -1,0 +1,22 @@
+X:43
+T:New Century
+Z: id:dc-hornpipe-39
+M:C|
+L:1/8
+K:G Major
+Bc|dGGF GBdB|cA=FE FGAc|BGGF GBdf|gbaf g2 (3gfe|!
+dedB G2AB|cecA =F2GA|BGgd ecAF|AGGF G2:|!
+GA|Bcde =fdcA|dDEF GFGA|Bcde =fdge|afd^c d2 (3def|!
+gdBG ecAF|GFGB AGFE|DFAB cedF|AGGF G2:|!
+S:https://www.folktunefinder.com/tunes/100839
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

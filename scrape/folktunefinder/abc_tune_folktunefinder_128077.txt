@@ -1,0 +1,28 @@
+X: 79
+T: THE BOLD SOLDIER BOY
+B: O'Neill's 79
+M: 2/4
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: "Collected by F.ONeill"
+K:D
+de \
+| fA AB | d2 cd | e2de | f2de \
+| fA AB | de fd | e2 d>d | d2 :| ef |
+| gf ga | b2 af | af ed | e2 ef \
+| gf ga | b2 af | f2 e2 | e2 ef |
+| gf ga | b2 af | af ed | e2 de \
+| fA AB | de fd | e2 d>d | d2 ||
+S:https://www.folktunefinder.com/tunes/128077
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0051-0100_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0079_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

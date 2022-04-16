@@ -1,0 +1,26 @@
+X:85
+T: Schloss in Oesterreich
+N: Q1024D
+O: Mitteleuropa, Deutschland
+N: Taktart in "FREI" geaendert - unklar. Melodievergleich zu Q0024A,
+N: anderes Lied. Refrainartige Schlusszeile.
+R: Ballade, 
+M: none
+L: 1/8
+K: F
+F2G2G2A4B2c4A2F8z6
+f4f2f2f2e2c2d4c12z12z4
+F2c4f2e2c2d2c4c2A2
+d2c3BA2G2F2E2D4C2
+C2F3GABc4BAG4F8
+S:https://www.folktunefinder.com/tunes/110023
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

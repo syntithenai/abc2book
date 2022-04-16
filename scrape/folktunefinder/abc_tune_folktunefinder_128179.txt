@@ -1,0 +1,37 @@
+X:775
+T:Dill Pickle Rag
+C:Charles L. Johnson
+S:Amalgam of a couple of versions: 
+S:Fiddler's Fakebook, Dave Swarbrick
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:G
+B2 c2 ^c2 
+|: degd egde | gdeg -ge d2 | GABG ABGA | BGAB -BA G2 | 
+   DEFD EFDE | FDEF -FE D2 | [1 GFGE  -EFG^G | A^GAd -dBc^c :| 
+                             [2 A^GAd -dB A2 | G4    -GGFE  ||
+   D2 _E2 =E2 F2 | G2 ed -de d2 | F2 ed -de d2 | G2 ed -de d2 | 
+   DAEA   =FA^FA | G2 ed -de d2 | [1 AB^cA B c3 | d4 -dGFE :| 
+                                  [2 defd  e f3 | g8 ||
+K:C
+   cAGc AGEF | GEGA -AG E2 | D^CDG -GE D2 | C4- CGAB | 
+   cAGc AGEF | GEGA -AG E2 | A^GAd -dB A2 | G4- GGAB | 
+   cAGc AGEF | GEGA -AG E2 | D^CDG -GE D2 | (3CCC B2 _B4 | 
+   A,2 A,B, CB,CD | EDEA- AG E2 | DE-EG GE D22 | [1 C4- CGAB :| 
+                                                 [2 c4  c4   |]
+S:https://www.folktunefinder.com/tunes/128179
+S:http://nigelgatherer.com/tunes/abc/tb16.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb16.abc
+S:http://nigelgatherer.com/tunes/abc/abc10/dillp.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc10/dillp.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:27
+T:Polska e. P\aal-Karl (\"Alvdalen) [check A]
+R:polska
+Z:2000 Brian Wilson 
+M:3/4
+L:1/8
+K:Am
+|: A2 dB c>c \
+| d2 {e}^fe/d/ e>c \
+| A2 dB c>c \
+| d2 (e/^f/)e/d/ e>e \
+| {e}g2 a2 a>g \
+| fe/d/ e4 :|
+P:B
+|: A2 ag a>e \
+| f2 fe/d/ e>c \
+| A2 ag a>e \
+| f2 fe/d/ e>d \
+| d>c A<c B>A \
+| G>B c A3 :|
+S:https://www.folktunefinder.com/tunes/114325
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

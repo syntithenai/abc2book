@@ -1,0 +1,37 @@
+X: 79
+T:La Lodoiska. GS.079
+M:2/4
+L:1/16
+Q:70
+C:Rodolphe Kreutzer
+S:George Spencer m/s, Leeds,1831
+R:Misc.
+O:tEngland
+A:Leeds
+N:Part of 'The Lancers Quadrille'/ cont..  '1831' written on the stave
+N:after the last double bar.. Grace note 'E's' in the C music are
+N:naturals.
+H:1831
+Z:vmp.Cherri Graebe
+K:BB major
+"p"F2  | "See note" B>BB>B B2B2 | B3F G>AB>c | "cres"d>dd>d d2d2 | d3A B
+>cd>e | "f"f
+>ff>f f2b2 | f>ed>e f2b2 |
+ f2de gfed | d4c2 || "p"F2 | B2B2 {B}AGAF | B2B2 {B} AGAF | B2BA edcB |
+A>Bc>d c>FG>A | B2B2 {B} A>GA>F |
+B2B2 {B} A>GA>F | B2Bd ceAc | B6 || B2 | A2{=e}f2{e}f2{e}f2 | f>ed>c B>c
+d>B | A>BG>A F>GA>F |
+ B>AB>c d>cd>B | A>FA>c {=e} f2f2 | fedc B2{a}b2 | B2{a}b2 f>ed>c | B4b4
+ ||
+S:https://www.folktunefinder.com/tunes/104753
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 53
+T:Cameron Highlanders, The
+M:2/4
+L:1/16
+C:J. Scott Skinner
+R:March
+K:A
+ec|"A"A2ec A2eA|f2e2 e2a2|"A"A2ec A2eA|"E"c2B2 B2c2|
+"A"A2ec A2eA|!
+f2e2 e2a2|"E"faea caBa|"A"c2A2 A2:||:Ac|"A"f2ea c2Aa|c2A2 A2a2|
+f2ea c2Aa|!"E"c2B2 B2a2|"A"f2 ea c2Aa|ecac e2a2|"E"faea caBa|
+"A"c2A2 A2:|! "Var. 1"|: ec|"A"A2ec AecA|"D"f2e2 "A"e2a2|"A"A2ec AecA|
+"E"c2B2 B2c2|"A"A2ec AecA|"D"f2e2 "A"e2a2|!"E"faea caBa|
+"A"c2A2 A2:||:a|"A"faea caAa|c2A2 A2a2|"A"faea caAa|"E"c2B2 B2a2|!
+"A"faea caAa|ecac efga|"E"faea caBa|"A"c2A2 A2a2|"A"faea caBa|"A"AaBa ca
+Aa|!
+"A"faea caAa|"E"c2B2 B2ec|"A"A2ec AecA|eAfA gAaA|"A"faea caBa|"A"c2A2 A2
+||
+% Output from ABC2Win  Version 2.0  on 9/10/2000
+S:https://www.folktunefinder.com/tunes/99870
+S:http://home.usit.net/~bhooper/scot2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

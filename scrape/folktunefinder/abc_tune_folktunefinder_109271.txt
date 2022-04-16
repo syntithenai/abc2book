@@ -1,0 +1,27 @@
+X: 39
+T:Rope Waltz
+% Nottingham Music Database
+S:Orkney
+M:3/4
+L:1/4
+K:D
+A/2G/2|"D"F3/2G/2^G/2A/2|"D"D2d|"A7"c3/2d/2^d/2e/2|"A7"A2G|"D"F3/2G/2^G/2A/2|\
+"Bm"D2F|"Em"E3-|
+"A7"EAG|"D"F3/2G/2^G/2A/2|"D"D2d|"A7"c3/2d/2^d/2e/2|"A7"A2G|"D"F3/2G/2F|\
+"A7"E3/2F/2E|
+"D"DFA|"D"dde|"D"f2e|"D"d2c|"G"dcB|"D"A3|"Em"g2f|"E7"e2d|"A7"c/2e/2-e2|
+"A7"ede|"D"f2e|"D"d2c|"G"dcB|"D"A2G|"Bm"F3/2G/2F|"A7"E3/2F/2E|"D"D3-|"D"D2||
+S:https://www.folktunefinder.com/tunes/109271
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

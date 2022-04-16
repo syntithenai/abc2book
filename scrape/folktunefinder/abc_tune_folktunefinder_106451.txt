@@ -1,0 +1,23 @@
+X:4
+P:Libes shmertsn
+C:Joseph Rumshinsky 1923
+C:From Pete Sokolow, Klez Kamp 2001
+R:Waltz
+M:3/4
+K:Dm
+L: 1/4
+| "Dm" D3 | A3 | "Ddim"^G3| d3|"Dm" D3 | A3 | "Ddim"^G3| d3| "Dm" d e f| e d > B|"Gm"G3-| G3|
+"Gm6"E F G| "G#dim"F E D| "A7" A B A| G F E|"Dm" D3 | A3 | "Ddim"^G3| d3|"Dm" D3 | \
+  A3 | "Ddim"^G3| d3|
+"Dm" d e f| "Gm"g f e| "C7"d c B| "F" A E F| "Gm6"G2 B| "A7"A/G/ F E| "Dm"D3-|D3|]
+S:https://www.folktunefinder.com/tunes/106451
+S:http://terrytraub.org/abc/KlezmerWaltzesW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:36
+T:Nr 17
+R:Polska
+C:Olof Jonsson-From (fdt 1796)
+H:
+N:Trad. /folk
+N:Nr 17 i K.P. Lefflers "Om Nyckelharpospelet p Skansen"
+B:http://old.ljusdal.se/from/
+O:Sverige - Sweden - Sude
+A:Boda (Jrvs)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=130
+K:C
+G2 (c>B) c>d | (d>e) e2 [G,2G2]-|[G,2G2] (f>e) d>c | 
+Bc/B/ AB/A/ [G,2G2]-|[G,2G2] (g>^f) g>a | (a>b) b2
+S:https://www.folktunefinder.com/tunes/112159
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

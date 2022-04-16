@@ -1,0 +1,23 @@
+X:69
+T:Mad Moll
+M:9/4
+L:1/4
+%%MIDI gchord c2c
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/4=120
+C:Henry Playford, Dancing Master 1695
+K:C
+P:A
+|: "Am"c>decAAcAA | "Am"c>decAA "G"B2G | "Am"c>decAAcAA | "G"B>cdd>edB2G:|
+P:B
+|:"C"c>degeegee | "C"c>degee "G"g2d | "C"c>degeegee | "G"B>cdd>edB2G:|
+S:https://www.folktunefinder.com/tunes/110116
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

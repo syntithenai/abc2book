@@ -1,0 +1,20 @@
+X: 49
+T: Yesh Lanu Tayish
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: "G7".[G2DB,] | .[G2DB,] | .[GDB,] .[GDB,] | .[G2DB,] :|\
+| "G7"G4- | G4 || "C"G2 G>G | "G7"AG2F | "C"EE DC | "G7"G3z ||
+|| "C"GG GG | "G7"AG2F | "C"EE "G7"DD | "C"C3z || "C"EG C2 | EG C2 | "F"A>A AA | "C"G3z ||
+|| "C"cG G2 | "Dm"FE D2 | "G7"CF ED | "C"G3z | "C"cG G2 | "Dm"FE D2 | "G7"CF ED | "C"C3z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110291
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

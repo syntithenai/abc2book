@@ -1,0 +1,28 @@
+X:1
+T:Allons au bois
+C:traditionell
+A:Haute Vienne 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d2d2 e2d2 | c2d2 B2G2 | ABcA B2G2 | ABcA B2B2 |
+d2d2 e2d2 | c2d2 B2G2 | ABcA B2AG | FGAFG4 :|
+|:\
+G2FE D2D2 | GFGA B2B2 | cdcA B2AG | AGAd B2G2 |
+G2FE D2D2 | GFGA B2B2 | cdcA B2AG | FGAFG4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/106472
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/allons_au_bois.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:33
+T: Heimkehr des Ehemannes
+N: Q1011D
+O: Mitteleuropa, Deutschland (BRD) , Nieder - Hessen
+N: Melodievergleich mit Q0012C : anderes Lied "Edelmann im Habersack" .
+N: 2. und 4. Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Schwank
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2A2 | G2E2D4
+G4A4 | B4z2
+GA | B2B2B2d2 | d2cBA4
+A2AAd3c | BABcd2
+GA | B2B2B2d2 | d2cBA4
+A2AAd3c | B4z2
+S:https://www.folktunefinder.com/tunes/109971
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, schwank
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

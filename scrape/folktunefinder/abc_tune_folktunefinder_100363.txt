@@ -1,0 +1,29 @@
+X:71
+T:Hasberry Howard
+O:scotland
+R:Hornpipe
+M:4/4
+C:J. Scott Skinner
+K:G
+(3def|\
+g>d B>G D/E/F/G/ (3ABc|\
+B>G D>B, G,/A,/B,/C/ (3DE=F|
+|1 E>C B,>C A,>A B>A|F>G E>F D>d e>f :|2\
+E>C B,>C A,>A D>F|G2G,2 G,2::
+d>c|\
+B>d g>f g>d B>c|d>b a>f {f}g2 d>B|\
+c>A a>g f>d e>f|g>f g>a b2d>c|
+B>d g>f g>d B>c|d>b a>f {f}g2 d>B|\
+c>A a>g f>d e>f|a2g2 g2:|
+S:https://www.folktunefinder.com/tunes/100363
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

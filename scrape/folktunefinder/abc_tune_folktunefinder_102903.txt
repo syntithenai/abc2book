@@ -1,0 +1,30 @@
+X:1
+T:Engelska
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 310)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 310
+R:Engelska
+C:Alfred Petersson
+M:2/4
+L:1/16
+Q:1/4=80
+Z: Lten benmndes \'Positivengelskan\'
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:A
+(3(efg)|aece Acea|fdBG E2FG|(Ac)fe dcBA|GBAF E2(3(efg)|
+aece Acea|fdBG E2FG|(Af)ed cBAG|B2A2 A2:|
+|:(ed)|cecA cecA|dfdB dfdB|cecA cecA|BAGF EGBd|
+cecA cecA|dfdB dfdB|cecA BdBG|Aagf edcB|A2A2 A2:|
+S:https://www.folktunefinder.com/tunes/102903
+S:http://www.folkwiki.se/pub/cache/Engelska_2f10a2.latin.abc
+S:http://www.folkwiki.se/pub/cache/Engelska_2f10a2.abc
+% Rhythm Engelska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:235
+T:Mrs. Parker's
+R:Waltz
+O:England
+M:3/4
+A:Lancashire
+B:Winder
+K:G
+D2| G2 GA BG | c2 cB Ac | B2 BA GB | AG FE FD |\
+G2 GA BG | c2 cB AG | FE DE FD |1 G4 D2:|2 G4 Bc ||
+|: d2 dc Bd | c2 cB Ac | B2 BA GB | AG FE D2 |\
+d2 Bc de | c2 AB cd | BA GB AF |1 G4 Bc:|2 G4 D2 ||
+S:https://www.folktunefinder.com/tunes/112390
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/waltzes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

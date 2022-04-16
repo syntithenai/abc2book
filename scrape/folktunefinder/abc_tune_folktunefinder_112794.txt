@@ -1,0 +1,26 @@
+X:367
+T: Changgong diao
+N: C1402
+O: China,Shaanxi Ankang
+S: I, 67]
+R: Xiaodiao. Changgong shenghuo]
+M: 2/4
+L: 1/16
+K: C
+G2GGA2A2 | d2^c2d4
+d2d=cA2G2G4 | A2A4^F2G4
+G2GGA2A2 | c2d2d2A2 | c2A2G4
+E2G4A2 | A2d2c2d2 | c3AG4
+A4G2A2 | d2dcA2A2 | G8
+S:https://www.folktunefinder.com/tunes/112794
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. changgong shenghuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

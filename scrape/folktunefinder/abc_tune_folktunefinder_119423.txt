@@ -1,0 +1,22 @@
+X:5
+T:Kendal Waltz
+S:Greg Stephens Collection
+M:3/4
+L:1/8
+K:A
+E2|A4c2|e4c2|e2d2B2|AG FE FG|A4c2|e4c2|Bc de fg|a4:|
+|:e2|E3F G E|AG AE cE|B^A BE dB|cB cd ^de|
+E3F G E|AG AB cA|af ^dB cd|e4:|
+[2|]
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119423
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

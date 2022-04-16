@@ -1,0 +1,26 @@
+X:2
+T:Bluegrass Stomp
+C:Bill Monroe - Arr.  Mike Compton
+M:4/4
+L:1/8
+Q:1/8=420
+K:D
+|"D"[dD][dD][cD][dD] [AD]D2D|[d2D2][cD][dD] AD2A|\
+[dD][dD][cD][dD] ADAA|"D7"=c2cc B/c/BA2|
+"G"G,B,D=F- =FDD D|DA-AA =FED[DB,]|"D"[A2D2A,2][ADA,][ADA,] [A/D/B,/][A/D/B,/][A
+DB,][A/D/^A,/][A/D/A,/][ADA,]|[A2D2A,2][A2D2A,2] [A2D2A,2][ADA,][ADA,]|
+"A"=cB Ac BA zA|Ad-dd A=F (3EFE|"D"[A2D2][A2D2] [A/D/B,/][A/D/B,/][ADB,][A/D/^A,/]
+[A/D/A,/][ADA,]|[A2D2A,2][A2D2A,2] [A2D2A,2][A2D2A,2]|
+[dA][dA][dA][dA] [dA][dA][dA][dA]|[d4A4] A,B,D2|[d2A2][d2A2] [d2A2]AF| "D7"[F2=C2][F2C2] [F2C2][FC]G,|
+"G"G,G,B,D =FFED|DAzA =FEDB,|"D"[A2D2A,2][ADA,][ADA,] [A/D/B,/][A/D/B,/][ADB,]
+[A/D/^A,/][A/D/A,/][ADA,]|[A2D2A,2][A2D2A,2] [A2D2A,2][A2D2A,2]|
+"A"=cBAc BAzA|Ad-dd A=F(3EFE|"D"[A2D2][A2D2] [A/D/B,/][A/D/B,/][ADB,][A/D/^A,/]
+[A/D/A,/][ADA,]|[A8D8A,8]|
+S:https://www.folktunefinder.com/tunes/117068
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

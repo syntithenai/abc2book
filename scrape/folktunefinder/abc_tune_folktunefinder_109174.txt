@@ -1,0 +1,24 @@
+X: 1
+T: All This Wasted Time
+M: 3/4
+L: 1/8
+R: waltz
+K: Fmaj
+fg|&quot;F&quot;a3gf2|&quot;Bb&quot;d3c&quot;Dm&quot;A2|&quot;CM7&quot;c3 dc2|c4fg|
+&quot;F&quot;a3gf2|&quot;Dm&quot;d3cA2|&quot;Gm9&quot;G3 AG2|G4fg|
+&quot;F&quot;a3gf2|&quot;Bb&quot;d3c&quot;Dm&quot;A2|&quot;C&quot;c3 dc2|c4fg|
+&quot;F&quot;a3gf2|&quot;Dm&quot;d3cA2|&quot;Dm7&quot;c2&quot;Gm9&quot;f2&quot;C&quot;e2|&quot;F&quot;f4:|
+fe|&quot;F&quot;f3ga2|&quot;Gm&quot;g3f&quot;C&quot;e2|&quot;Dm&quot;d3cA2|&quot;C&quot;c4 d2|
+&quot;F&quot;f3ga2|&quot;Gm&quot;g3f&quot;C&quot;e2|&quot;F&quot;f3g&quot;Bb&quot;b2|&quot;Dm&quot;a4f2|
+&quot;F&quot;f3ga2|&quot;Gm&quot;g3f&quot;C&quot;e2|&quot;Dm&quot;d3cA2|&quot;C&quot;c4 d2|
+&quot;F&quot;f3ga2|&quot;Gm&quot;g3f&quot;C&quot;e2|&quot;Dm7&quot;c2&quot;Gm9&quot;f2&quot;C&quot;e2|&quot;F&quot;f4:|
+S:https://www.folktunefinder.com/tunes/109174
+S:http://www.thesession.org/tunes/display/7212
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

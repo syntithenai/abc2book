@@ -1,0 +1,21 @@
+X: 3
+T:Nous n'irons plus au bois
+C:Paroles traditionnelles du XVIIIe sicle sur l'air du Kyrie grgorien de la messe "De angelis"
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:D
+z>D FG |: "D"A2d2 | A>B AG | "A7"F2E2 |1 "D"D> D FG :|2 D>z D>D || DE D2 |
+"A"A,2 "D"D>D | DED2 | "A"A,2 "D"A2 | F2A2 | F2 "A7"E>F | GFEA | "D"Dz z2 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129919
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

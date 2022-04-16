@@ -1,0 +1,30 @@
+X: 33
+T:Gaelic Club (#143), The
+M:6/8
+L:1/8
+S:Capt. F. O'Neill
+K:C
+A|cBA AGE|ABA ABc|BAG GAG|dcd GAB|
+cBA AGE|AGA c2 d|efe dcB|cAA A2 :|
+|:d|eaa efg|eaa ged|eaa gdc|BGG G2 A/2B/2|
+1cBA AGE|AGA c2 d|efe dcB|cAA A2:|
+2cBc dcd|edB c2 d|efe dcB|cAA A2||
+%
+% This setting of the "Gaelic Club" differs materially from the "Glasgow
+% Club" of the Highlanders, and the "Gaelic Club Jig" in former O'Neill
+% collections, the second part being new and original.
+S:https://www.folktunefinder.com/tunes/121449
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-4.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/GaelicClub143The.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0143.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/T/GaelicClub143The.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/X/0143.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

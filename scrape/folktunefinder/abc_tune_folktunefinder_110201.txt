@@ -1,0 +1,31 @@
+X:1
+T:Alter Schweizermarsch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Muelirad", Nr 1022, Quelle:Pfeifer-Ordonanz (No 4) Durch Sammlung Huspeka 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:G
+G/B/ |\
+d2B BAB | dcA A2z | GBd gdB | dcA A2G/B/ |\
+d2B BAB | dcA A2z | GBd cA^F | G3-G2 :|
+|: G/A/ |\
+BAB GAB | cBc Adc | BAB GAB | A2A A2G/B/ |\
+d2B BAB | dcA A2A | GBd cAF | G3-G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/110201
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/alter_schweizermarsch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

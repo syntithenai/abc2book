@@ -1,0 +1,21 @@
+X: 3
+T:Winster Gallop
+R:polka
+M:4/4
+L:1/8
+K:G
+G2B2 G2B2 | G2B2 d4 | A3c B2A2 | G2B2 d2B2 | c2e2 g2e2 | d2B2 d4 | A2Bc
+B2A2 | G4G4 :|
+g2f2 e2d2 | g2f2 e2d2 | g2f2 e2d2 | c2B2 A4 | (=f^f)e2 d4 |(=f^f)e2 d4|
+d4 A3c | B2A2 G4 :|
+S:https://www.folktunefinder.com/tunes/100985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_english.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

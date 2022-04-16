@@ -1,0 +1,26 @@
+X:4744
+T:El Chnguere (XA 13)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 13
+M:3/8
+L:1/8
+Q:3/8=54
+K:C
+~G
+|: CCD|E2 F|D3-|D2 ~G|DDE|F2 G|~E C2-|[1 C2 ~G :|[2 C2 C|
+|: FFG|A2 B|~GEF|G2 ~A|FDE|F2 G|[1 ~A G2-|G2 C :|[2 ~E C2-|C2 ~G|
+|CCD|~EEF|G~EC|D2 ~G|B,B,C|~DDE|[1 F~DB,|C2 ~G :|[2 F ~E/D/C/B,/|C2 C|!
+S:https://www.folktunefinder.com/tunes/123527
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

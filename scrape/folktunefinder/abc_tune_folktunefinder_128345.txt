@@ -1,0 +1,26 @@
+X:13
+T:Atholl Brose
+R:Strathspey
+M:4/4
+K:Hp
+{gcd}c<{e}A {gAGAG}A2 {gef}e>A {gAGAG}Ad|\
+{gcd}c<{e}A {gAGAG}A>e {ag}a>f {gef}e>d|
+{gcd}c<{e}A {gAGAG}A2 {gef}e>A {gAGAG}Ad|\
+{g}c/d/e {g}G3/{d}B/ {gf}gG {dc}d>B:|
+{g}c<e {gf}g>e {ag}a>e {gf}g>e|\
+{g}c<e {gf}g>e {ag}a2 {GdG}a>d|
+{g}c<e {gf}g>e {ag}a>e {gf}g>f|\
+{gef}e>d {gf}g>d {gBd}B/{e}G3/ {dc}d>B|
+{g}c<e {gf}g>e {ag}a>e {gf}g>e|\
+{g}c<e {gf}g>e {ag}a2 {GdG}ad|
+{g}c/{GdG}e3/ {gf}ga {f}g>e {g}f>d|\
+{g}e/f/g {Gdc}d>c {gBd}B/{e}G3/ {dc}d2||
+S:https://www.folktunefinder.com/tunes/128345
+S:http://www.barfly.dial.pipex.com/bfpicsnsounds.html
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

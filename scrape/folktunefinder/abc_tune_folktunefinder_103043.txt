@@ -1,0 +1,25 @@
+X:68
+T:Le Talencourt
+N:Quebecois 'crooked' tune from 1930's recording. 38bar
+A:Quebec
+D:'Airs Tordus' Les Tetes de violon
+O:Canada
+Z:Neil Brookes
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+A3B|A2.d2.d2f2|edcBABcd|efedcdef|.g4.f2ed|cdecd2fd|cdecd2fd|cde^ga2ed|
+c2AcB2^G2|A4:|
+|:a3g|f2e2defd|e4edeg|fgfedefd|e4edeg|f2efg2fg|a4abag|fafdegec|d4:|
+S:https://www.folktunefinder.com/tunes/103043
+S:http://www.kennaquhair.com/tunes/tradtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

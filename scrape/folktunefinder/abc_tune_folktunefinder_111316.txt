@@ -1,0 +1,21 @@
+X:87
+T:C{\^\i}nd eram pe ialomita
+O:rumania
+A:Roemeni\"e
+M:2/4
+L:1/8
+K:G
+"G" GG AB| "D7" c A3| "G" B G3| G4| "D" dd ef| "A7" g e3| "D" f d3-| d4|:
+"G" gg "D" aa| "G" gg d2| "C" ee ce| "D" dc "G" B2|
+"D" AA dc| "G" B2 AG| "D" d4-| d4|
+"G" gg "D" aa| "G" gg d2| "C" ee ce| "D" dc "G" B2|
+"D7" AA dc| B2 AG| "G" G4-| G4:|
+S:https://www.folktunefinder.com/tunes/111316
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

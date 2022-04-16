@@ -1,0 +1,25 @@
+X: 42
+T:Horses Branle
+M:4/4
+L:1/4
+R:Branle
+B:Thoinot Arbeau : Orchesographie, 1589
+Z:Steve Mansfield March 2001
+K:GMix
+GA BB | cB Ac | BA GF | E2 D2 |
+GA BB | cB Ac | BG AA | G2 |
+d c/B/ A A/B/ | c B/A/ GB | AG FG | A2 A2 |
+d c/B/ A A/B/ | c B/A/ GB | AG GF | G2 G2 ||
+_B A/G/ _B A/G/ | FG A2 | DE FG | AB AG |
+_B A/G/ _B A/G/ | FG A2 | DE FG | G^F G2 ||
+S:https://www.folktunefinder.com/tunes/109630
+S:http://www.lesession.co.uk/music/Orchesography.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:2
+T:College Hornpipe
+T:to the tune of "The Sportsman's Hornpipe"
+M:2/2
+L:1/8
+K:G
+P:A
+"Am"c2cc "G"B2BA|GABc dBAG|"Am"c2cc "G"B2BA|"Am"E2A2 A4|
+"Am"c2cc "G"B2BA|GABc dBAG"*"|"Em"gfge "G"dBAG|"Am"E2A2 A4:|
+P:B
+"Am"ABcd efge|"D"afdf "E"edcB|"Am"ABcd efge|"D"afdf "Em"e3e|
+"D"a2af "Em"g2ge|"C"c2ce "G"dBG2|"Am"cBcA "G"BABG|"Am"E2A2 A4:|
+S:https://www.folktunefinder.com/tunes/122684
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

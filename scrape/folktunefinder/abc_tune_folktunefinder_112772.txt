@@ -1,0 +1,42 @@
+X:345
+T: Ha you gua
+N: C1265
+O: China,Heilongjiang
+S: MM, Seite 6, 2,  und III, 80]
+N: Die Stuecke sind meist uebersteuert, also verzerrt.
+N: Zweistimmig notiert, aber keine echte Zweistimmigkeit. Daher sind beide
+N: Stimmen notiert: jeder 2. T. wird von der zweiten Stimme gesungen,
+N: also meist 5__ , waehrend die andere pausiert. In den T.15/25/51 ist
+N: die uebergebundene 5, Wert 16) weggelassen, weil ansonsten nur die
+N: Oberstimme kodiert ist.
+N: Zahlreiche Verzierungen. Grundton nicht angegeben., 04=68-78)
+N: Fehlen Oktavierungspunkte, z.B. Phr.11)
+R: Haozi, Taimu haozi. Tongyi bufa, Tiaojie jingli]
+M: 2/4
+L: 1/16
+K: D
+d2d2B4 | A4 | e4B4 | A4
+BAB2A4 | A4 | E2A2BAB2 | A4
+B2BAg2B2 | A4 | B2^GFE2E2 | e4
+B4d4 | A2A2 | A2FABAB2 | A4 | B2ABd2Bz | A4
+B2GFe2e2 | e3c | e3cB4 | A4 | B4A4 | A2A2
+A2FABAB2 | A4 | B2ABd2GA | A4 | B2BA^G2B2 | A4
+e4B4 | A4 | d4A4 | A4
+E2AABAB2 | A4 | B2ABD2AB | A4
+e3cB4 | A4 | BzBzA4 | A4
+c2FABAB2 | A4 | B2ABd2Bz | A4
+c2e2c2e2 | e3c | B4d4 | A2A2
+c2FABBAB | A4 | e4B4 | A4 | BAB2A4 | A4
+d2AdB2AA | A4 | d2d2B2AF | A4
+S:https://www.folktunefinder.com/tunes/112772
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, taimu haozi. tongyi bufa, tiaojie jingli]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

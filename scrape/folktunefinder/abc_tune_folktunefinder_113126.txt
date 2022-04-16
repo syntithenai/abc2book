@@ -1,0 +1,32 @@
+X: 117
+T: The Green Mountain
+S: Bernie Waugh (a la Liz Carroll)
+R: Reel
+M: 4/4
+L: 1/8
+K: C
+|:\
+"C(Cmaj7)"DEE/E/E cAGE|"(Am)"~EDCD (3EFGcd|\
+"(F)"ecdc AGAc|"F(G)"dcec "G(F)"dcAG|
+"C(Cmaj7)"DEE/E/E cAGE|"Am"~EDCD "G"(3EFG cd|\
+"F"ecdc ABcA|"G"GEDF "C"EDCD:|
+|:\
+"C"eg~g2 ec~c2|"Cmaj7"egag ecdc|\
+"Dm"Addc defg|"G"afgefedf|
+"C"ecc/c/c "C7"AcGc|"F"AFF/F/F Add/d/d|\
+"Dm"ecdc "F"ABcA|"G"GEDF "C"ECC2:|
+S:https://www.folktunefinder.com/tunes/113126
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

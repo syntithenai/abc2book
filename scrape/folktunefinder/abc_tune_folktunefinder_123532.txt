@@ -1,0 +1,28 @@
+X:4749
+T:El Cura y la Molinera (CT 299) (Arrg.)
+R:mueira
+S:Cancioneru de Torner 299
+M:6/8
+L:1/8
+Q:1/4=140
+K:G
+"G"B2 c|"D"def "G"gfg|"Em"e2 e"C"gf e|"D7"dcB "D7"cBA|"G"G3 "G"GGB|
+"D"ddd "Em"e2 e|"D"d2 d"C"cA G|"D7"FFA "C"c2 B|"D7"A2 G"G"GG B|
+"D"ddd "Em"e2 e|"D"d2 d"C"cA G|"D7"FFA"C"ccB|"D7"A2 G"G"GF G|
+"G"AGG "C"c2 B|"D7"A2 G"G"GF G|"G"AGG "C"ccB|"D7"A2 G"G"GF G|
+"G"AGG "C"c2 B|"D7"A2 G"G"GF G|"D7"A2 G"C"c2 B|"D7"A2 G"G"GF G|
+"D7"AAB "D7"cBA|"G"G3 "G"GFG|"D7"ABc "D"ddd|"G"G3"Bm"B2 c|
+"D"def "G"gfg|"Em"e3 "C"gfe|"D7"dcB "D7"cBA|"G"G3
+S:https://www.folktunefinder.com/tunes/123532
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

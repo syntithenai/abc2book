@@ -1,0 +1,37 @@
+X: 50
+T:Nos Galan
+T:New Year's Eve
+M:C|
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Welsh Hornpipe
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:F
+c3BA2G2|F2F2A2F2|GABG (A3G)|F2E2F4|
+c3BA2G2|F2F2A2F2|GABG (A3G)|F2E2F4||]!
+G3AB2G2|A3Bc2G2|(A/B/)c3(B/c/d3)|e2d2c4|
+c3BA2G2|F2F2A2F2|GdBG (A3G)|F2C2 F4:||
+S:https://www.folktunefinder.com/tunes/109519
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/NewYearsEve_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/NosGalan.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/NosGalan.abc
+% Rhythm Welsh hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

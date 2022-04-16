@@ -1,0 +1,24 @@
+X:7
+T:Battle Hymn of the Republic
+% Four-part piano arrangement for standard notation.
+C:Julia Ward Howe/Air: "John Brown's Body"
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/8=168
+%%staves [(1 2) (3 4)]
+%%staffsep 30pt
+K:Bb
+V:1 clef=treble
+"^Allegretto"F/- F/ | F > F F > E D > F B > c | d > d d > c B2 B > A |
+%%vocalfont Times-Roman 13.0
+S:https://www.folktunefinder.com/tunes/113423
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

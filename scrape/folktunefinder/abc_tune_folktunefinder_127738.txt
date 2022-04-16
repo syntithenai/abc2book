@@ -1,0 +1,20 @@
+X:14
+T:the Celebrated Quadrille
+R:Jig
+M:6/8
+L:1/8
+K:G
+d | g2d d^cd | B2d G2B | c2e A2G | F2A DEF | 
+G2G B2d | g2b d2B | cBA d2F | G3 G2 :| 
+|:d |gfg d2g | b2g d2B | cBc A2f | a2f d2f |gfg d2g|
+|1 b2g d2g | f2f ea^c | d3 d3 :|2 b2g d2B | cBA d2F | G3 G2 |]
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127738
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

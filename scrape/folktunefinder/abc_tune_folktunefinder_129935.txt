@@ -1,0 +1,28 @@
+X:19
+T:Derrire chez nous y'a un tang
+T:Vl'a l'bon vent - En passant par les pinettes
+C:Paroles et musique traditionnelle
+C:Harmonisation : Edouard-Gabriel Midon
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Am
+V:1
+z2 EA |: "Am"A2 "Em"EA/A/ | "Am"A2 "Em"EA | "Am"AB"C"cB |1 "Em"B>B EA :|2 "Am"A2 z>E |
+"Am"Ac"Em"BA | GB "Am"A>E | Ac"Em"BA | GB "Am"A>E | Ac"Em"BA | GF "E7"E2- | E2z2 |]
+V:2
+z4 |: zE/E/ E2 | zE/E/ E2 | zA EE |1 E>E z2 :|2 E2 z>E |
+AEGE | GE A>E | AEGE | GF E>E | FAGF | CDE2- | E2 z2 |]
+V:3
+z4 |: zc/c/ c2 | zA/A/ A2 | zB AG |1 G>G z2 :|2 A2 z>c |
+c2B2- | B2 A2- | A2 G2- | G2 A2- | A2 dc | BA ^G2- | G2 z2 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

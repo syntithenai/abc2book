@@ -1,0 +1,39 @@
+X: 9
+T: Armenina Miserlou
+T: Eench Eemanaee
+C: Armenia
+S: Tom Bozigian, vol. 2
+M: 4/4
+L: 1/8
+Q: 1/4=120
+%%MIDI program 71
+%%MIDI gchord fzfz
+K: Am
+P:A
+|:"f" z2 e>f edd^c  |d^cde f4 |"c" -f2 d>e dccB    |cBcd e4  |\
+  -e2 c>d edcB      |
+  "f"d2 zc  BA^GF   |B>c BAA^G|[1(3A^GA (3BAB c2d2 :|[2 A6 z2|
+P:B
+M: 7/8
+%%MIDI gchord fzzzzzz
+  "f"E2c B2A2       |B2A^G2F2 |"c"E2F ^G2A2        |"f"B2c2B3|
+  "c"zEEE2c2        |-c2BAc3  |BAB2c2              |e6z      |
+P:C
+M: 4/4
+%%MIDI gchord fzfz
+|:"f" e<fe2e2       |d2c2B4   |B2c2d4              |-d4      |
+  d<ed2d2           |c2B2A4   |B2c2c4              |-c4 z2 cd|
+  e2c2B3A           |^GFE2z2Bc|[1BAA^GA2B2         |c4d4     :|\
+[2 BAA^G A4-|A4z4|
+S:https://www.folktunefinder.com/tunes/124952
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Armenina_Miserlou.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Armenina_Miserlou.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

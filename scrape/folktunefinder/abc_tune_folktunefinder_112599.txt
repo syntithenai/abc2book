@@ -1,0 +1,46 @@
+X:172
+T: Zhuang xie haozi
+N: C0292
+O: China,Liaoning, Dalian
+S: III, 241]
+N: sehr bekannt, d.h. im ganzen Land verbreitet. Nur nach jedem
+N: dritten Satz kann die Arbeit unterbrochen werden. Eine Periode
+N:  Strophe) hat drei Saetze, = haeufig bei Arbeitsliedern).
+N: Bis Phr. 16 teilen sich zwei Saenger taktweise das Singen. Ab Phr.16
+N: ist nur noch die Oberstimme kodiert, die 2. Stimme ist unbedeutend.
+N: Einige Verzierungen und Glissandi.
+R: Haozi, Zhuangyie haozi. Matou zhangxie shi chang]
+M: 4/4
+L: 1/32
+K: G
+e16d8d6e2 | g8e4B4d8d8
+e8e6B2d8e4d2e2 | d8B8A8A8
+e3ee2e2d4c2B2B8d8 | e8e4g4G8G4E4
+A4A2^G2A4B4d8d4e4 | g8e4B4d8d8
+e4e2e2^c4d4e8e8 | d8B8A8A8
+e6e2^d4e4B8=d8 | e8e4g4G8G4E4
+d4B4A4B4d8d4e4 | g8e4B4d8d8
+e8a4f4e8e8 | d8B8A8A8
+e3ee2e2d4d2c2B8d8 | e8e4g4G8G4E4
+F2G2F4A4B4d8d4e4 | g8e4B4d8d8
+^c8c4d4e8e8 | d8B8A8A8
+e4e4d4d4B8d8 | e4g4e4g4G8G4E4
+^c4d2B2A4B4d8d4e4 | g8e6B2d8d8
+^c8c4d4e8e8 | d8B8A8A8
+e2d2d4-d24 | f4a12e8e8- | e16e16
+d8^c8d4c4z8 | e2e2e2a2-a24 | e32
+d8^c8d4c4z8 | e4a4-a24
+d8^c8d4c4z8 | e4e4a24 | e32
+d8^c8d4c4z8 | G32 | e8g8c'8z8
+S:https://www.folktunefinder.com/tunes/112599
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, zhuangyie haozi. matou zhangxie shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

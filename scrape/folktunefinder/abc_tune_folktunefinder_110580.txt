@@ -1,0 +1,36 @@
+X:32
+T:NEW STEPNEY
+B:John of the Greeny Cheshire Way
+N:\251 John Offord, Reproduced with permission
+M:9/4
+L:1/8
+K:Bb
+P:1
+F4 g2 f3 e d2 f6 | c2 A2 F2 F4 A2 c2 A2 F2 |\
+G4 b2 a3 g ^f2 g6 | d2 B2 G2 G4 B2 d2 B2 G2 ||
+P:2
+g4 d2 =e4 c2 =f6 | c2 A2 F2 F4 A2 c2 A2 F2 |\
+G4 b2 a3 g ^f2 g6 | d2 B2 G2 G4 B2 d2 B2 G2 ||
+P:3
+a3 g =f2 a3 g f2 a3 g f2 | c2 A2 F2 F4 A2 c2 A2 F2 |\
+b3 a g2 b3 a g2 b6 | d2 B2 G2 G4 B2 d2 B2 G2 ||
+P:4
+d4 c2 B4 A2 G4 AB | c2 A2 F2 F4 A2 c2 A2 F2 |\
+d2 _edcB c2 dcBA B2 cBAG | d2 B2 G2 G4 B2 d2 B2 G2 ||
+P:5
+f3 e f2 g3 f g2 a3 g a2 | b2 B2 F2 F4 A2 c2 A2 F2 |\
+a2 g2 f2 b2 a2 g2 a2 g2 ^f2 | g2 G2 G2 G4 A2 B2 A2 G2 ||
+P:6
+d2 B2 d2 c2 A2 c2 B2 G2 B2 | A2 =F2 F2 F4 A2 c2 A2 F2 |\
+d2 Bc d2 c2 AB c2 B2 GA B2 | D2 G2 G2 G4 A2 B2 A2 G2 |]
+S:https://www.folktunefinder.com/tunes/110580
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/Cheshire.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/NEW_STEPNEY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 9/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

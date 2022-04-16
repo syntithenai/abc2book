@@ -1,0 +1,33 @@
+X:16
+T:Sliding
+R:slide
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:Having enjoyed playing for Sets Ceilis all over the North with fiddle player, Charlie Woods, I composed these slides with rather zany titles. One particular Set Dance, The Ballyvourney Jig Set consists of five individual figures, and when danced non-stop consists of 552 bars of music. For any beginner, brave enough to undertake such a challenge it generally ended in disaster, like a stray sheep throwing the rest of the flock into disarray.
+L:1/8
+Q:399
+M:12/8
+K:A
+ A3 (4(ABcd) e3 edc|d3 dcB c3 c2 B|
+A3 (4(ABcd) efe edc|[1ded c2 B A3 a2 z:|[2ded c2 B A3 z||
+||((3efg)|a3 aba g3 gag|f3 agf e3 e2 z|
+f2 d d2 fe2 c c3|efe dcB Acd efg|
+a3 aba g3 gag|f3 agf e3 e2 z|
+fdf agf ece agf|efe dcB A3 A2 z|]
+S:https://www.folktunefinder.com/tunes/130153
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 12/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

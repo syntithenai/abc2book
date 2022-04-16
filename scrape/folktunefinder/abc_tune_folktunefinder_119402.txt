@@ -1,0 +1,24 @@
+X:146
+T:Old Lancaster Hornpipe
+R:Triple Hornpipe
+M:3/2
+S: Greg Stephens collection
+L:1/4
+K:D
+BAG | F>E Df ed | e E2 B AG | F>E Df ed/c/ | d3 :|
+|:BAG | FA GB A/B/c/d/|e E2B AG |FA GB AB/c/ |d3:|
+|:fga | f>e df ed | c e2 f ga | f>e df ed/c/ | d3 :|
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119402
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

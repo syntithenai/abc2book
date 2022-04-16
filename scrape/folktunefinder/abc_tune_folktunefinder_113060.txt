@@ -1,0 +1,29 @@
+X: 51
+T: Old French
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:(3ABc|\
+"D"d2cd BdAF|DFAd "Bm"f2ed|"Em"cdef "F#m"gece|"G"defd "A"A2(3ABc|
+"D"d2cd BdAF|DFAd "Bm"f2ed|"Em"cdef "A"gece|"D"d2f2 "(E7)"d2:|
+K: A
+|:cd|\
+"A"efed c2A2|AEAce2dc|"G"B=GBd =gfed|"A"cAcea2cd|
+"A"efedc2A2|AEAc e2dc|"G"B=GBd =gfed|"A"c2A2"(A7)"A2:|
+S:https://www.folktunefinder.com/tunes/113060
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

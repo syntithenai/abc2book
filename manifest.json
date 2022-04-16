@@ -3,12 +3,12 @@
   "name": "ABC Tune Book?",
   "icons": [
     {
-        "src": "home-small.png",
+        "src": "/abc2book/home-small.png",
         "sizes": "48x48",
         "type": "image/png"
     },
     {
-        "src": "home-appicon.png",
+        "src": "/abc2book/home-appicon.png",
         "sizes": "144x144",
         "type": "image/png",
         "purpose": "any"

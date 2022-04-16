@@ -1,0 +1,26 @@
+X:57
+T:Scully's Reel
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E minor
+B,2|:\
+"Em"E3F G2A2|BcBA GFGA|B2E2 E2G2|"Bm"FGAF D2B,2|
+"Em"E3F G2A2|"C"BcBA GFGA|"Bm"B2Bc BAGF|"Em"G2E2 E4:|
+|:\
+"G"efge B4|g2g2 B4|"Am"~c2BA G2G2|"Bm"FGAF DGFD|
+"C"E3F G2A2|"A"BABd e2d2|"C"B2Bc "D"BAGF|"Em"G2E2 E4:|
+S:https://www.folktunefinder.com/tunes/122781
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

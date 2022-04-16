@@ -1,0 +1,23 @@
+X:3
+T: Braut - Werbung (Hildesage)
+N: Q0003
+O: Suedosteuropa, Jugoslawien, Gottschee, Buehel
+N: Letzte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Braut - Werbung
+M: 2/4
+L: 1/16
+K: G
+GA | B2B2B2A2 | B2A2G2
+c2 | B2A2G2E2 | F2E2D4
+G2D2G2A2 | B4BGc2 | B4z2
+S:https://www.folktunefinder.com/tunes/109941
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, braut - werbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

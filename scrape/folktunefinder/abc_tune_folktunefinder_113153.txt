@@ -1,0 +1,26 @@
+X: 144
+T: Richard Dwyer's Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A Dorian.
+|:\
+"Am"~A2EA cdeg|"Em"dABE ADGF|"Am"EAcA "G"(3Bcd gf|"F"ea2f "D"a2ag|
+"Am"eaed cA~A2|"G"Bgdc "Em"BdcB|"Am"AEcE dEcd|"Em"ecBG "Am"EAA2:|
+|:\
+"Am"~a2ea c'aea|"G"~g2dg bagb|"F"aged cded|"Em"cABG "Am"DAA2|
+"Am"~a2ea eaea|"G"~g2ge dBGB|"D"A2(3Bcd eaaf|"Em"gedg "Am"eA A2:|
+S:https://www.folktunefinder.com/tunes/113153
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

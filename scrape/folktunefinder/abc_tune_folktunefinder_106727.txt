@@ -1,0 +1,23 @@
+X: 20
+T:Auld Lang Syne
+M:4/4
+L:1/4
+C:Robert Burns
+S:Original Tune
+R:Song
+K:G
+D|"G"G>GAB|"G"D>ED>D|"G"GBAG|"C"E3 G/E/|"G"D>B,A,G,|"Bm"A,>B, B,D|"C"E2
+E<F|"D7"D3 ||!
+D|"G"G>GAB|"G"D>ED>D|"G"GBAG|"C"E3 G/E/|"G"D>B,A,G,|"Bm"A,>B, B,D|"C"E2
+"D7"D2|"G"D/G/ G2||
+S:https://www.folktunefinder.com/tunes/106727
+S:http://home.usit.net/~bhooper/scot4.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

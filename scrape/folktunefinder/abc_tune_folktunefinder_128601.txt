@@ -1,0 +1,18 @@
+X:134
+T:Shandon Bells
+Z: id:dc-jig-116
+M:6/8
+L:1/8
+K:D Major
+B|AFD DFA|ded cBA|BGE EFA|B2A Bcd|!
+AFD DFA|ded cBA|Bcd ecA|dfe d2:|!
+g|fdd Add|faa afd|cAA EAA|cAc efg|!
+fdd Add|faa afd|Bcd ecA|dfe d2:|!
+S:https://www.folktunefinder.com/tunes/128601
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

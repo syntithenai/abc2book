@@ -1,0 +1,27 @@
+X:255
+T: Denis Murphy's Polka
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 2/4
+R: polka
+K: D
+A>BAG EF GE|A>BAG Ad d/e/d/c/|
+A>BAG EF GE|AB=cE ED D2 :|
+ed d2 ed=c2|ed^cd ea a/b/a/g/|
+ed d2 ed=cB|ABcd efg>f|
+ed d2 ed =c2|ed cd ea a/b/a/g/|
+ef g2 ed c/e/d/c/ | AB=cE ED D2 ||
+S:https://www.folktunefinder.com/tunes/121289
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T: Another Jig Will Do
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|: ABA A2G F2G | ABA AGF ~G3 | ABA A2G F2G | A2d d2c d3 :|
+|: A2g f2d e2c | A2B =c2d c2c | A2g f2d e2c | A2d d2c d3 | 
+A2g f2d e2c | A2B =c2d c2^c | d2A A2G F2G | A2d d2c d3 :|
+S:https://www.folktunefinder.com/tunes/120525
+S:http://www.thesession.org/tunes/display/276
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

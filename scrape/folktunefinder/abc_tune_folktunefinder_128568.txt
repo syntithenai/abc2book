@@ -1,0 +1,20 @@
+X:101
+T:Old Flail
+Z: id:dc-jig-87
+M:6/8
+L:1/8
+K:G Major
+DEG GAB|deg gab|age ege|dBG AGE|!
+DEG GAB|deg gab|age ege|dBG A3:|!
+a3 a^ga|ega ega|d2g ged|ged BGE|!
+DEG GAB|deg gab|age ege|dBG A3:|!
+S:https://www.folktunefinder.com/tunes/128568
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

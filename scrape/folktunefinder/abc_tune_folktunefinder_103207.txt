@@ -1,0 +1,31 @@
+X:5
+T:Bourre
+C:Georg Friedrich Hndel
+O:1685 - 1759
+M:C|
+L:1/4
+Q:
+K:G                           % key
+%%staves 1 {(2 3) 4}
+V:1
+D | GBAG | d2B2 | edcB | cB2 :: d | ecAB/c/ | dBGA/B/ | 
+cBAG | A/G/A/B/ AB/c/ | dB/c/ dc/B/ | cA/B/ cB/A/ | BG A>G | G3 :|
+V:2
+B, | DGFG | D2G2 | cBAB | AB2 :: B | cAFG/A/ | B3A/G/ | 
+FGDG | F/E/F/G/ FG/A/ | BG/A/ BA/G/ | AF/G/ AG/F/ | GGGF | G3 :|
+V:3
+G, | B,DDB, | G,2G,2 | E2F[GD] | [FD][G2D2] :: G | EED2 | DGGE | 
+CDA,B, | D2DD | D2GE | EA,FD | [DB,]B,DA, | B,3 :|
+V:4
+G,, | G,,G,D,E, | B,,2E,2 | C,G,,D,G,, | D,,G,,2 :: G, | C,2D,C, | B,,C,/D,/E,C, | 
+A,,B,,F,,G,, | D,,2D,C, | B,,2E,2 | A,,2D,2 | G,G,,D,D,, | G,,3 :|
+S:https://www.folktunefinder.com/tunes/103207
+S:http://michel.bellon.free.fr/Musique/abc/watermusic3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

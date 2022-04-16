@@ -1,0 +1,26 @@
+X:3
+T:XX. Tosse not my soule
+T:Tenor.
+C:John Dowland
+H: From The Second Booke of Songs or Ayres of 2. 4. and 5. parts: 
+H: with Tableture for the Lute or Orpherian, with the Violl de Gamba.
+M:C
+L:1/2
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on third line
+K:G dor -8va
+%%MIDI transpose -12
+d2 G3/4 A// B/ c/ d2 z d/ c/ B F G > G d/ e/ "(1)"^f/ e// f// g
+N:Dotted quarter in original.  Another possible reading is to leave this a dotted quarter and change the two eighth notes to 16 notes.
+S:https://www.folktunefinder.com/tunes/110321
+S:http://www.laymusic.org/music/dowland/tosse/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

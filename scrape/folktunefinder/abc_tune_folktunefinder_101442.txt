@@ -1,0 +1,39 @@
+X: 25
+T:Polka. GHW.025
+M:2/4
+L:1/8
+Q:200
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+O:England
+A:Norfolk
+N:First bar of B in MS is 'fe>d a/' I've transcribed this as 'fed3/
+N:a/' to make it fit time signature and reflect other occurences of this
+N:pattern, especially 9th. bar of B. 14th. bar of B is split over a line
+N:- seond half is 'dfba' in MS. I've transcribed this as 'f/d/b/a/'
+N:to fit time signature and established patter
+Z:vmp.Taz Tarry
+K:G
+d|gg f/a/g/f/|eed>B|cc B/d/c/B/|A/B/A/G/ F/E/D|!
+gg f/a/g/2f/|eed>B|c/e/d/c/ B/d/c/B/|Afg:|!
+K:D
+|:a|"NB"fed3/a/|cBA3/A/|aea>g|f3 f|!
+fgf>c|ded>f|fed>B|e3 a|!
+fed3/A/|cBA>A|aea>g|f3 f|!
+fe e/g/c'/b/|ed "qus"d/f/b/a/|e/^d/e/f/ g/a/b/c'/|d'/d'/d'/:|!
+|:[dD]|Bdg>e|g3 d|Bdg>d|f3 d|!
+cdf>d|[a3A3] _b|gfe>d|cBA3/d/|!
+Bdg>d|g3 d|Bdg>d|f3 d|!
+cdf>d|a3 _b|gfe>f|g3:||
+S:https://www.folktunefinder.com/tunes/101442
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

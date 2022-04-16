@@ -1,0 +1,106 @@
+X:1
+%%MIDI chordname 7(#9) 0 4 7 10 15
+T:All Blues
+M:6/8
+L:1/8
+Q: "Med. Blues" 1/8=160
+C:Miles Davis
+Z:Luis Pablo Gasparotto
+K:C
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+%
+[V:1] z6                  | z6              | z6              | z6              | 
+[V:2] !pp!D2 .E F2 .E     | D2 .E F2 .E     | D2 .E F2 .E     | D2 .E F2 .E     |
+[V:3] !pp!B,2 .C D2 .C    | B,2 .C D2 .C    | B,2 .C D2 .C    | B,2 .C D2 .C    |
+[V:4] !pp!G,2 .A, B,2 .A, | G,2 .A, B,2 .A, | G,2 .A, B,2 .A, | G,2 .A, B,2 .A, |
+[V:5] "G7"z6              | "G7"z6          | "G7"z6          | "G7"z6          | 
+%
+[V:1] z6               | z6               | z6             | z3 z2 z/ D/    |: 
+[V:2] D2 .E F2 .E      | D2 .E F2 .E      | D2 .E F2 .E    | D2 .E F2 .E    |:
+[V:3] _B,2 .C D2 .C    | _B,2 .C D2 .C    | B,2 .C D2 .C   | B,2 .C D2 .C   |:
+[V:4] G,2 .A, _B,2 .A, | G,2 .A, _B,2 .A, | G,2 .A, B,2 .A,| G,2 .A, B,2 .A,|:
+[V:5] "C7/G"z6         | "C7/G"z6         | "G7"z6         | "G7"z6         |:
+%
+[V:1] !mf!B3- B2- B/D/ | B3- B2- B/D/    | B/c/ B2- B2- B/D/ | B3- B2 z        |  
+[V:2] D2 .E F2 .E      | D2 .E F2 .E     | D2 .E F2 .E       | D2 .E F2 .E     |
+[V:3] B,2 .C D2 .C     | B,2 .C D2 .C    | B,2 .C D2 .C      | B,2 .C D2 .C    |
+[V:4] G,2 .A, B,2 .A,  | G,2 .A, B,2 .A, | G,2 .A, B,2 .A,   | G,2 .A, B,2 .A, |
+[V:5] "G7"z6           | "G7"z6          | "G7"z6            | "G7"z6          |
+%
+[V:1] A2 _B c2 d       | c2 _B A2- A/D/   | =B6-           | B3 z2 z/ ^G/   |  
+[V:2] D2 .E F2 .E      | D2 .E F2 .E      | D2 .E F2 .E    | D2 .E F2 .E    |
+[V:3] _B,2 .C D2 .C    | _B,2 .C D2 .C    | B,2 .C D2 .C   | B,2 .C D2 .C   |
+[V:4] G,2 .A, _B,2 .A, | G,2 .A, _B,2 .A, | G,2 .A, B,2 .A,| G,2 .A, B,2 .A,|
+[V:5] "C7/G"z6         | "C7/G"z6         | "G7"z6         | "G7"z6         |
+%
+[V:1] A6         | _B6                    | A3 =B3  | A3 G3   ||
+[V:2] z3 F3      | ^F3 F3                 | =F3 G3  | F3 E3   ||
+[V:3] z3 C3      | ^C3 =C3                | C3 D3   | C3 B,3  ||
+[V:4] z3 A,3     | ^A,3 =A,3              | A,3 B,3 | A,3 G,3 ||
+[V:5] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  ||
+%
+[V:1] !segno!B3-     B2- B/D/     | B3-    B2-  B/D/   | B/c/  B2-  B2-  B/D/   | B3-  B2 z   | 
+[V:2] !segno!!mf!F3- F2- F/B,/    | F3-    F2-  F/B,/  | F/G/  F2-  F2-  F/B,/  | F3-  F2 z   |
+[V:3] !segno!!mf!D3- D2- D/F,/    | D3-    D2-  D/F,/  | D/E/  D2-  D2-  D/F,/  | D3-  D2  z  |
+[V:4] !segno!!mf!B,3- B,2- B,/D,/ | B,3-   B,2- B,/D,/ | B,/C/ B,2- B,2- B,/D,/ | B,3- B,2 z  | 
+[V:5] !segno!"G7"z6               | "G7"z6             | "G7"z6                 | "G7"z6      |
+%
+[V:1] A2 _B c2 d     | c2 _B A2- A/D/ | =B6-         | B3 z2 z/ ^G/ |  
+[V:2] D2 E F2 E      | D2 E F2 E      | D2 E F2 E    | D2 E F2 E    |
+[V:3] _B,2 C D2 C    | _B,2 C D2 C    | B,2 C D2 C   | B,2 C D2 C   |
+[V:4] G,2 A, _B,2 A, | G,2 A, _B,2 A, | G,2 A, B,2 A,| G,2 A, B,2 A,|
+[V:5] "C7/G"z6       | "C7/G"z6       | "G7"z6       | "G7"z6       |
+%
+[V:1] A6         | _B6                    | A3 =B3  !coda!| A3 G3   |:
+[V:2] z3 F3      | ^F3 F3                 | =F3 G3  !coda!| F3 E3   |:
+[V:3] z3 C3      | ^C3 =C3                | C3 D3   !coda!| C3 B,3  |:
+[V:4] z3 A,3     | ^A,3 =A,3              | A,3 B,3 !coda!| A,3 G,3 |:
+[V:5] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  !coda!| "G7"z6  |:
+%
+[V:1] "G7"z6   | "G7"z6             | "G7"z6  | "G7"z6  |
+[V:2] "G7"z6   | "G7"z6             | "G7"z6  | "G7"z6  |
+[V:3] "G7"z6   | "G7"z6             | "G7"z6  | "G7"z6  |
+[V:4] "G7"z6   | "G7"z6             | "G7"z6  | "G7"z6  |
+[V:5] "G7"z6   | "G7"z6             | "G7"z6  | "G7"z6  |
+%
+[V:1] "C7/G"z6 | "C7/G"z6           | "G7"z6  | "G7"z6  |
+[V:2] "C7/G"z6 | "C7/G"z6           | "G7"z6  | "G7"z6  |
+[V:3] "C7/G"z6 | "C7/G"z6           | "G7"z6  | "G7"z6  |
+[V:4] "C7/G"z6 | "C7/G"z6           | "G7"z6  | "G7"z6  |
+[V:5] "C7/G"z6 | "C7/G"z6           | "G7"z6  | "G7"z6  |
+%
+[V:1] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  !D.S.!:|
+%% text
+[V:2] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  !D.S.!:|
+%% text
+[V:3] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  !D.S.!:|
+%% text
+[V:4] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  !D.S.!:|
+%% text
+[V:5] "D7(#9)"z6 | "Eb7(#9)"z3 "D7(#9)"z3 | "G7"z6  | "G7"z6  !D.S.!:|
+%% text
+[V:1] !coda!A3 G3   | Hd6    |]
+[V:2] !coda!F3 E3   | HB6    |]
+[V:3] !coda!C3 B,3  | HF6    |]
+[V:4] !coda!A,3 G,3 | HB,6   |]
+[V:5] !coda!"G7"z6  | "G7"z6 |]
+%
+S:https://www.folktunefinder.com/tunes/103635
+S:http://abcmr.sourceforge.net/allblues.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

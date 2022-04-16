@@ -1,0 +1,31 @@
+X:58
+T:Farewell to Erin
+T:Farewell to Ireland
+R:Reel
+A:Ireland
+H:Originally a Scottish tune: "The Scotsman's Farewell to Ireland".
+N:Bars 1-6 are played one octave up by flutes, whistles and pipes.
+Z:id:hn-reel-50
+M:C|
+K:ADor
+A,2A,C E2EF|GEDB, G,A,B,G,|A,2A,C E2EF|GEDB, EA,A,G,|
+A,2A,C E2EF|GEDB, G,2g2|edeg ~a3f|gedB BA~A2:|
+|:~a3b agef|~g3a gede|~a3b agef|gedB BA~A2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BA~A2:|
+|:eA (3cBA eA (3cBA|~d3B GB~B2|eA (3cBA ~e3a|gedB BA~A2|
+eA (3cBA eA (3cBA|dedB GABd|cBAB cdea|gedB BA~A2:|
+|:ae^ce aece|gdBd gdBd|ae^ce ~a3f|gedB BA~A2|
+agef ~g3e|dedB GABd|cBAB cdea|gedB BA~A2:|
+S:https://www.folktunefinder.com/tunes/122848
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

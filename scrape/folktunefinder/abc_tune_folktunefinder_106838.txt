@@ -1,0 +1,32 @@
+X:51
+T:Blue Jig, The
+R:jig
+C:Joel Mabus
+Z: Transcribed to abc by Mary Lou Knack
+M:6/8
+K:Am
+%C: J-61
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc|
+"A7"A3 cBA| cBA a3| age "D7"cAG| "E7"_EDC "A"A,3:|
+|:\
+"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe| ^ce^f gfe|
+"D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+\
+%%textfont Times-Bold 10.0
+%%text B Harmony
+Acd ^d=dc |Acd ^d=dc |ega ^a=ag |ega ^a=ag |
+Acd ^d=dc |Acd ^d=dc | age cAG| _EDC A,3 :|
+%%textfont       Times-Bold 14.0
+%%newpage
+%%text 20
+S:https://www.folktunefinder.com/tunes/106838
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

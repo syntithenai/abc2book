@@ -1,0 +1,29 @@
+X: 219
+T: November Afternoon
+C: Bernie Waugh with apologies to Ralph Vaughan Williams
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/4
+Q: 160
+K: Em
+|:\
+"Em"BAB|E2B|"Bm"dBA|B3|\
+"Em"BEG|"A"A3|"C"GD"D"F|"Em"E3:|
+"E"B>BB|"G"BAB|"C"e2"D"d|"E"B3|\
+"D"A>AA|"Am7"AGA|"F"a2"G"g|"A"e3|
+"Dm7"d>dd|"G"d2d|"Bb"=fdc|"Fm7"d2c|\
+"G"B>BB|"Bm7"BAB|"C"c2"D"d|"E"e3|]
+S:https://www.folktunefinder.com/tunes/113228
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

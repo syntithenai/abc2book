@@ -1,0 +1,28 @@
+X: 12
+T: The Bunch of Rushes
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/16
+K: D Mix
+|:de|\
+"D"~f2ef "Am7"gfef|"D"~d2dc AGAB|"F"cBcd "Em"ecdB|"Am7"~B2A2A2 de|
+"D"~f2ef "Am7"gfef|"D"d2c2 AGAB|"F"cBcd "Am7"dcAG|"D"~F2D2D2:|
+|:GA|\
+"G"~B2AB "C"~c2Bc|"D"~A2AG FGAB|"F"cBcd "Em"ecdB|"Am7"~B2A2A2 de|
+"D"~f2ef "Am7"gfef|"D"~d2dc AGAB|"F"cBcd "Am7"dcAG|"D"~F2D2D2:|
+S:https://www.folktunefinder.com/tunes/113021
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

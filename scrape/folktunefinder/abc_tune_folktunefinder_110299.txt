@@ -1,0 +1,23 @@
+X: 1
+T: 'Al Tiruni
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F#m
+|: "F#m"zA2G "D"AG "E7"FE | "F#m"zF2E "D"FG "E7"AB \
+|  "F#m"zA2B cB cA | "B"B3 A/G/ "F#m"F4 :|
+|| "E"zE2E EE FE | zE2E F2 "A"C2 \
+|  "E"zE2E EE FE | "A"zA2A "E"B2 "A"A2 |
+|  "A"zc2c cc BA | "A"zc2c cc BA \
+| "F#m"zA2A A2 "(E)"E2  | "D"AG "E7"FE "F#m"F2 F2 |]
+S:https://www.folktunefinder.com/tunes/110299
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/AlTiruni_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/AlTiruni_Fsm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

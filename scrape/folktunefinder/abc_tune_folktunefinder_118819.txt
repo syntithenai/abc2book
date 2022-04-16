@@ -1,0 +1,26 @@
+X:9
+T:Billy In The Low Ground
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:C
+|:\
+(3G,A,B,|"C"C2CD EGAB|~c2cd "G"cAGE|"Am"~A2AG ABcd|edce "G"d2 (3G,A,B,|
+"C"C2CD EGAB|~c2cd "G"cAGE|"Am"A2AG ABcA|"G"GED2 "C"C2:|
+|:\
+cd|"C"eg2^f g2ag|eBcd cGcd|"Am"ea2e abag|egab a2ed|
+"Em"eg2^f g2ag|eBcd "G"cAGE|"F7"A2AG AB~cA|"G7"GED2 "C"C2:|
+S:https://www.folktunefinder.com/tunes/118819
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

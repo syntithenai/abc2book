@@ -1,0 +1,29 @@
+X:4
+T: Liu zhi dan
+N: C0005
+O: China,Shaanxi, Shanbei
+S: I, 40, 2)]
+N: neues Volkslied; sehr bekannt. Total verkratzte Schallplatte.
+N: Arrangiert f. Klv. und Oboe. Text mit Mao Zidong.
+R: Xiaodiao, Da ningxia diao. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: Ab
+e3cB2A2 | B2E2F4
+e3cB2AA | B2E2F4
+e3fe2f2 | e2c2B4
+A2A4F2 | E2C2B,4
+e2ecB2e2 | B4A2F2 | E2F2E2C2 | B,8
+S:https://www.folktunefinder.com/tunes/112431
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, da ningxia diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

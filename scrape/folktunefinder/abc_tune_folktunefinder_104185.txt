@@ -1,0 +1,29 @@
+X:21
+T:Tune for Frankie
+C:Mairead Ni Mhaonaigh
+N:For Frankie Kennedy
+S:Altan:Blackwater
+Z:robin.beech@mcgill.ca
+R:slipjig
+L:1/8
+M:9/8
+K:Dmin
+d2g fdc A>GA | f>gf A>GA c>dc | A2A GAG G A/B/ c |
+d2g fdc A>GA | f>gf A>GA c>dc | A2A GAG G A/B/ c ::
+M:6/8
+DGA Bdc | =BGE FED | F>EF G>FG | Add d3|
+DGA Bdc | =BGE FED | fdc fcA | G>AG G3 :|
+S:https://www.folktunefinder.com/tunes/104185
+S:http://music.gordfisch.net/oregans/assets/abc/slipjigs.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

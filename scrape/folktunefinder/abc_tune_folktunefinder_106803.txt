@@ -1,0 +1,23 @@
+X:15
+T:John Howett
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+%%textfont       Times-Roman 9.0
+%%text Repeat part A 4 times
+fg| "D"a2fd "A"g2ec| "D"d2AG FDDF| "Em"E2FG ABcd|1 "A"eAfA g2fg :|2 "A"eABc "D"d2 :|
+|:\
+"D"defg aAfA| "G"gfed "A"ceAe| "D"defg aAfA| "G"gba^g "A"a4|
+"D"abaf "G"gfed| "Em"efgA "A"GFED| "D"F2AF "G"G2BG| "A"Addc "D"d4 :|
+%%vskip 8pt
+S:https://www.folktunefinder.com/tunes/106803
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

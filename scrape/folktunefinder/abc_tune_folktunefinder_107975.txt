@@ -1,0 +1,24 @@
+X: 27
+T:East Hill Breakdown
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:C
+G|"C"c/2c/2c/2c/2 cd|e/2e/2e/2e/2 ef|"C"ag ef|"Dm"d3G|
+"G"B/2B/2B/2B/2 Bc|d/2d/2d/2d/2 de| [1"G"gf "G7"d^d|"C"e3:|
+ [2"G7"gf dB|"C"c2 eg||"C"c'3/2c'/2 c'c'|c'3g|ag fe|"Dm"d3g|"G"b3/2b/2 bb|b3g|\
+"G"ag "G7"fd|
+"C"e3g|"C"c'3/2c'/2 c'c'|"Am"c'3g|"Dm"ag fe|"G"d3g|"G"b3/2b/2 bb|b3g|\
+"G"ag "G7"fd|"C"c3||
+S:https://www.folktunefinder.com/tunes/107975
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

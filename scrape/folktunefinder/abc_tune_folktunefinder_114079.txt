@@ -1,0 +1,45 @@
+X:13
+T:Chain Cotillion ~ Rigaudon
+C:Arr. by John J. Benoit, 1994
+%%staves [1 2]
+M:C|
+Q:1/2=80
+L:1/8
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:G4 d4|B2 AB G2 AB|c2 B2 A2 G2|F2 EF D3 D|E4 F4|GFGA .G2 d2|
+(cB)AG (BA)GF|1 G6 z2:|2 G6 d2|:dedc .B2 d2|dedc .B2 d2|e2 d2 e2 f2|
+g4 d2 ef|g2 fe d2 cB|e2 dc B2 AB|c2 B2 A2 G2|F2 EF D3 D|E4 F4|GFGA G2 d2|
+(cB)AG (BA)GF|[1 G6 d2:|[2 G6 d2\
+|:gfga g2 d2|g6 d2|Bc .d2 Bc .d2|BcBA G2 d2|
+gfga g2 d2|g6 d2|Bc .d2 Bc .d2|[1 B6 d2:|[2 B6 B2|:B2 .A2 A2 Bc|d6 g2|
+.d2 .d2 d2 cB|AGAB A2 GA|BcBA GABc|dcde d2 g2|B2 g2 GABA|1 G6 B2:|2 G6 z2|]
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+|:!p!B,4 B4|G2 D2 B,2 FG|A2 G2 F2 E2|D2 A,2 (F,G,)A,B,|C4 A,3C|B,A,B,C .B,2 B2|
+(AG)FE (DC)B,A,|1 B,6 z2:|2 B,6 B2|:BcBA .G2 B2|BcBA .G2 B2|c2 B2 c2 A2|
+B6 cd|e2 dc B2 AG|c2 BA G2 FG|A2 G2 F2 E2|D2 A,2 (F,G,)A,B,|C4 A,3C|B,A,B,C B,2 B2|
+(AG)FE (DC)B,A,|[1 B,6 B2:|[2 B,6 A2\
+|:BABc B2 G2|B3c B2 A2|GA .B2 GA .B2|GAGD B,2 A2|
+BABc B2 G2|B3c B2 A2|GA .B2 GA .B2|1 G6 A2:|2 G6 G2|:G2 .F2 F2 GA|B3c B2 d2|
+.B2 .B2 B2 AG|FEFG F2 EF|G2 D2 B,DGA|BABc B2 A2|G2 D2 B,CDC|1 B,6 G2:|2 B,6 z2|]
+S:https://www.folktunefinder.com/tunes/114079
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

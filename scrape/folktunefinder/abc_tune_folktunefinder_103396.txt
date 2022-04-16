@@ -1,0 +1,28 @@
+X:1
+T:Allans Schottis
+C:Lennart Thrn
+R:Schottis
+Z:Patrik Mnsson, 2008-07-24
+O:Skne
+M:2/4
+L:1/16
+K:D
+Q:1/4=100
+|: DEFG A2AG | (FA)de f4 | (Ag)ge c2(cB) | (AB)AG F2D2 |
+(DE)FG A2AG | (FA)de f4 | (Ag)ge (cA)Bc | d2d2 d4 :|
+|: d2B2 (Bd)dd | d2A2 A3d | c2cB (AG)FG | B2A2 A4 | d2B2 (Bd)dd |
+d2A2 A3d | c2cB (AG)FE | D2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/103396
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_68d1a5.latin.abc
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_2e51be.latin.abc
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_68d1a5.abc
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_2e51be.abc
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_68d1a5.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Allans_Schottis_2e51be.abcm.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:13734
+T:Quadrille. CJF.083a
+M:6/8
+L:1/8
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:P J Headford 2000
+K:G
+B/c/"$"|(d3g2)f|(fe).e {f/}e/d/c/B/A/G/|(FG).A Ded|\
+{d/}cBc B (G/A/B/c/)|!d3{G/}g2f|(fe).e e/d/c/B/A/G/|
+F>GA DEF|G3G2h||!d|(BG) d (BG) d|c (AF) D2d|\
+(BG) d (BG) d|cd/c/B/c/A2d|!BG d BG g|
+ecc cde|dBG D>EF|G2BG2"$"||!(B/A/)|^GEE AEE|\
+cAd cBA|(FD).D (GD).D|(AD)cB2D|!(EG)c FGA|
+(GBd) gdB|(ABc) edc|c^c" D Capo"d A2||
+S:https://www.folktunefinder.com/tunes/116779
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

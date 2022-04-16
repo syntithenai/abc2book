@@ -1,0 +1,23 @@
+X:5
+T: Kolomeyke (R-165)
+M: C|
+L:1/8
+K: Am % transposed from Dm
+|:"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|cBAB cBcd|"E"e4 e4|
+"Am"a2 e4 e2|"Dm"d2 d2 "Am"e3 d|"E" cedc BdcB|"Am"AEcB A4:|
+|:"E"B2 E2 e3B|"Am"dcBc dcBA|"E"^G2 AB E2 ^F^G|[1,3"Am"A^GAB cBcA:|[2,4"Am"AEcB A4:|]
+S:https://www.folktunefinder.com/tunes/107269
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/reel/R165_Kolomeyke.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R165_Kolomeyke.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R165_Kolomeyke.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 14
+T:Wee Cooper o' Fife, The
+M:6/8
+L:1/8
+Q:100
+K:G
+T:Intro / Interlude
+"D"d>dd cBA|"G"GBe gz|
+T:Verse/Chorus
+D|"G"B,DDDDD|"C"E2G "G"D2z|DEF GAB|"D"c2B A2D|
+"G"B,2D DB,D|"C"E2G "G"D2z|BBB "D"dBA|"G"G2G GAB|
+"D"D2D DB,D|E2F G2z||
+S:https://www.folktunefinder.com/tunes/120512
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 15
+T: Tommy Bhetty's Waltz
+M:3/4
+R:waltz
+D:Altan  "Red Crow"
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:G
+D|:"G"G2 GB dB|"Gmaj7"G2 GB dB|"G6"d2 b3a|"Gmaj7"g2 fg ef|
+"G"G2 GB dB|"G6"G2 GB dB|"D7"D2 F2 A2| c2 B2 A2|
+ "G"G2 GB dB|"Gmaj7"G2 GB dB|"G6"d2 b3a|"Gmaj7"g2 fg ef|
+"G"dg3 Bc|"D7"cd dc AF|"G"G2 B2 "D7"BA|[1"G"G4zD:|[2 "G"G3g fg||
+|:"D7"a2 f2 d2| A2 F2 D2| "G"C2 b3a|"Gmaj7"g2 fg ef|
+"G"d3e d2| "Em"B3A B2| "D"D2 F2 A2| "D7"c2 B2 A2|
+ "G"d2 Bc dB|"Gmaj7"db3 af|"G6"gb3 af|"Gmaj7"ga fg ef|
+"G"dg3 Bc|"D7"cd dc AF|"G"G2 B2 "D7"BA|[1"G"G3g fg:|[2"G"G6|]
+S:https://www.folktunefinder.com/tunes/122626
+S:http://www.alfwarnock.info/alfs/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

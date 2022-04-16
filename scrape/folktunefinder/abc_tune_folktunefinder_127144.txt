@@ -1,0 +1,27 @@
+X: 1
+T:Ashgrove, The
+M:3/4
+L:1/8
+Q:100
+C:Traditional
+S:RWW 15
+R:Waltz
+K:G
+D2|:"G"G2 B2 dc|"Em"B2 G2 G2|"Am"A2 cB AG|"D"F2 D2 D2|
+"G"G2 BA GF|"C"E2 C2 E2|"D"D2 G2 F2|1"G"G4 D2:|2"G"G4 Bc|!
+|:"G"d2 Bc de|"G"d2 c2 B2|"D"c2 AB cd|"D"c2 B2 A2|
+"Em"B2 GA Bc|"Em"B2 A2 G2|"A"A2 d2 d2|"D"d4  D2|!
+"G"G2 B2 dc|"Em"B2 G2 G2|"Am"A2 cB AG|"D"F2 D2 D2|
+"G"G2 BA GF|"C"E2 C2 E2|"D"D2 G2 F2|1"G"G4 Bc|2"G"G4 D2||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/127144
+S:http://www.blackflute.com/music/tunes/waltzes/ashgrov.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

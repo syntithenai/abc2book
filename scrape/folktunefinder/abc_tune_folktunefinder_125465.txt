@@ -1,0 +1,24 @@
+X:1
+T:Arthur Darley's Jig
+T:Bruckless Shore
+C:Arthur Darley
+R:jig
+M:6/8 % But second bar is 9/8!
+L:1/8
+K:D
+~A3 AGF|[M:9/8] EDC D3 d2e|[M:6/8] fgf edc|d3 d2e|
+fgf edc|dAA BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d2d dcB:|
+A=ff fef|A=ff fef|A=ff Agg|Aaa A_bb|
+A=ff fef|A=ff f2g|=fed ed^c|1 d2d d=c_B:|2 d2d d2e|]
+fgf edc|dAA BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|1 d2d d2e:|2 d2d dcB|]
+S:https://www.folktunefinder.com/tunes/125465
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_arthur_darley_s_jig.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

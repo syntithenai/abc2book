@@ -1,0 +1,19 @@
+X: 43
+T:Brose and Butter
+M:9/8
+L:1/8
+R:Slip Jig
+K:Bm
+"Bm"def BdB BBB|"Bm"def BdB "A"ecA|"Bm"def BdB Bcd|"A"cBA Aaf ecA:|
+|:"D"def a2f a2f|"D"def a2f "A"ecA|"D"def a2f "A"ecA|"A"cBA Aaf ecA:||
+% Output from ABC2Win  Version 2.0  on 6/1/2002
+S:https://www.folktunefinder.com/tunes/128261
+S:http://home.usit.net/~bhooper/scot1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

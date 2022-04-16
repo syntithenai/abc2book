@@ -1,0 +1,34 @@
+X: 4
+%%musicspace 0
+T: Morrison's Jig
+I: Morrison's JigJ-26E Dorjig
+%%staffsep       39.5pt
+M: 6/8
+R: jig
+K: Edor
+"Em"E3 BEB| EBE "D"AFD| "Em"E3 BEB| "D"dcB AGF|
+"Em"E3 BEB| EBE "D"AFD| "G"G2G FGA| "D"dAG FED :|
+\
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"fag fed|
+"Em"Bee fee| bee "D"fed| edc d2A| "B7"BAG F3|
+"Em"Bee fee| aee "D"fed| "Em"Bee fee| "D"faf def|
+"G"g2g gfe| def g2d| "D"edc d2A| "B7"BAG F3|] "Em - go out on"HE4|]
+%%text Roaring Jelly  J-26
+%%text 10/27/99
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%scale .65
+%%staffwidth     15.50cm
+%%textfont       Times-Roman 10.0
+S:https://www.folktunefinder.com/tunes/113248
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

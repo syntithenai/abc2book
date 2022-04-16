@@ -1,0 +1,25 @@
+X:18
+T: Die Geburt im Walde
+N: Q2007D
+O: Nordeuropa, Daenemark
+N: Anhaengsel in der dritten Zeile. Daenische Fassung der Ballade.
+R: Ballade, Geburt, Tod, Moral
+M: 3/4
+L: 1/16
+K: G
+G3G | G4_B4G4 | d8d4 | c4A4_B4 | G4F4
+G3G | G4_B4G4 | d8d4 | c4A4_B4 | G4F4
+_B3c | d6c2_B4 | A6_B2c4 | c6d2c4 | c8z4 | _B8G4 | F8
+G4 | _B6c2d4 | d6c2A4 | _B6A2B4 | G8
+S:https://www.folktunefinder.com/tunes/109956
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

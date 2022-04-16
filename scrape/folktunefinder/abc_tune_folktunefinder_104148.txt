@@ -1,0 +1,32 @@
+X: 36
+T:Smile Again My Bonnie Lassie. ST.36
+M:2/4
+L:1/8
+Q:150
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+N:"Andante"
+Z:vmp.Tim Willets    
+K:C
+"Andante"c>de>d|(c<G)(A<G)|(A<d) f>e|(e2{fe}dz)|\
+c>de>d|(c<A) (A<G)|c>a g>B|c2z2|!
+d>B gf/2e/2|d>c .c.B|A>A d>c|(c2{dc}B)z|\
+d>Bg2(3f/2g/2e/2|d>c .c.c|A>A d>^F|(G3A/2B/2)|!
+c>ded|(c<G)(A<G)|(A<D)F>e|e2{fe}d G|\
+A>B c>A|(G<E) (G<c)|c<a g2z|!
+{agfedcBAG}d2{ed}c g|a>bc'>a (g<e) g<c'|\
+c<a g {GBGdB}B|c2z2|]
+S:https://www.folktunefinder.com/tunes/104148
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

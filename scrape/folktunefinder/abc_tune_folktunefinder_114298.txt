@@ -1,0 +1,28 @@
+X: 46
+T:Washtap Reel
+% Nottingham Music Database
+S:Mick Peat
+M:4/4
+L:1/4
+P:ABCB
+K:G
+P:A
+DE \
+P:B
+|:"G"G2 AG|ED EG|B3/2d/2 gB|"D"BA Bd|
+"C"e3/2f/2 ge|"G"dB "D"cA|[1"G"G3/2A/2 BG|"D7"=F2DE:|[2"G"G3/2B/2 "D"dD|\
+"G"G3z|
+P:C
+|:"Bm"d^c "C#"Bd|"F#"^cg fe|"Bm"d3/2^c/2 "E"Bd|"A"^cA A2|\
+"Am"c3/2B/2 "D"Ad|"G"Bd "Em"eg|"A"ag fe|"D" d2 DE:|
+S:https://www.folktunefinder.com/tunes/114298
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

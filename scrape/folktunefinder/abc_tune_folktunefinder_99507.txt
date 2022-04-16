@@ -1,0 +1,23 @@
+X:7
+T:Ton double gavotte
+C:Padrig Sicard
+D:Portland
+P:K4
+M:12/8
+Q:C3=156
+K:Em
+%T:TD3
+P:K
+|: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A "C"G3 "Em"E3 :|
+|: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A B2 c "D"B2 A |\
+"C"GAG E2 E F2 G "D"A3|B2 d "G"B2 A "C"G3 "Em"E3 :|
+S:https://www.folktunefinder.com/tunes/99507
+S:http://anamnese.online.fr/abc/favoris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

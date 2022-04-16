@@ -1,0 +1,26 @@
+X: 6
+T:Da Auld Resting Chair
+M:4/4
+L:1/4
+C:Tom Anderson
+S:Shetland
+R:Slow Air
+K:G
+D|"G"B>c "D"A>B|"G"GDB,G,|"C"CA "G"B,G|"A"^C/E/A/<G/ "D"FD|"G"B>c "D"A>B
+|"G"GDB,G,|!
+ "Am"CA "D"DF|1 "G"G3D:|2 "G"G3 d||"D"c/B/A/G/ "G"g>d|"C"eg "G"dB|
+"C"c>d "G"BG|"A"E A/G/ "D"FD|!
+c/B/A/G/ "G"g>d|"C"eg "G"dB|"C"c d/e/ "D"dF|"G"G3 d|c/B/A/G/ "G"g>d|
+"C"eg "G"dB|!"C"c>d "G"BG|"A"^C/E/A/<G/ "D"FD|"G"B>c "D"A>B|"G"GDB,G,|
+"Am"CA,"D"DF|"G"G3||
+S:https://www.folktunefinder.com/tunes/106713
+S:http://home.usit.net/~bhooper/scot4.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

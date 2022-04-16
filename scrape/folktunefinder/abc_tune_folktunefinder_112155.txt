@@ -1,0 +1,31 @@
+X:32
+T:Knuss-Olles livstycke
+R:Polska
+C:Olof Jonsson-From (fdt 1796)
+H:
+N:Trad. /folk
+B:http://old.ljusdal.se/from/polska22.htm
+D:Elements
+O:Sverige - Sweden - Sude
+A:Boda (Jrvs)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/16
+Q:1/4=100
+K:C
+(AB)cB A2E2 C2A,2 | c2Bc (dc)BA e2E2 | (ED)FD E2C2 B,2A,2 | E2DE F2D2 B,2G,2 |
+(G,C)EC (DE)FD (EF)GE | (AB)cA (Bc)dB c2C2 | (G,C)EC (DE)FD (EF)GE | (AB)cA (Bc)dB (cB)A^G |
+A2 a^g a2AB c2ec | (BA)^GA B4 [A4A4] :: G2ce g4g4 | G2ce g2eg f2d2 | G2Bd f4f4 | G2Bd f2df e2c2 |
+(Gc)(ec) (Gc)(ec) (Gc)(ec) | (^GB)(eB) (^GB)(eB) (^GB)(eB) | (=Gc)(ec) (=Gc)(ec) (=Gc)(ec) |
+(^GB)(eB) (^GB)(eB) e2E2 | (ED)FD E2C2 B,2A,2 | a2gf e2d2 c2B2 | (A^G)BG A2E2 c2A,2 | G,2fe f2d2 B2G2 |
+(Gc)(ec) (de)fd [e4e4] | (AB)cA (Bc)dB (cB)A^G | A2 a^g a2AB c2ec | (BA)^GA B4 [A4A4] :|
+S:https://www.folktunefinder.com/tunes/112155
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

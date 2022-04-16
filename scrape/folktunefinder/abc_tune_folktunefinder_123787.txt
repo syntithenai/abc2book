@@ -1,0 +1,46 @@
+X:5004
+T:Fandangu (CT 332)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita (fandangu), transcrito en Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 332
+M:3/8
+L:1/8
+Q:3/8=72
+K:G
+[L:1/8]
+[M:2/4]|
+d>B G2-|G2-G>A|B>A G>A|F>A B>A|G>F G2|
+[L:1/8]
+[M:3/8]|
+|:(3B/c/B/ G/B/G/B/|c d/c/B/A/|(3A/B/A/ F/A/F/A/|c d/c/B/A/|
+(3B/c/B/ G/B/G/B/|{cd}c d/c/B/A/|(3A/B/A/ F/A/F/A/|{cd}c d/c/B/A/|
+(3B/c/B/ G/B/G/B/|d/B/d/B/G/B/|d/B/G/B/G/B/|d/B/d/B/G/B/|
+e/A/F/A/F/A/|c/A/c/A/F/A/|e/A/F/A/F/A/|c/A/c/A/F/A/|G2 g|
+|(3f/g/f/ d/f/d/f/|(3e/f/e/ c/e/c/e/|(3d/e/d/ B/d/B/d/|
+c/B/A/B/c/A/|B/A/G/A/B/G/|A/G/F/G/A/F/|G2 d|
+c/B/A/B/c/A/|B/A/G/A/B/G/|A/G/F/G/A/F/|G2 d|
+gc'>b|agf|efg|d B/d/B/d/|
+gc'>b|agf|efg|e c/e/c/e/|
+gc'>b|agf|efg|d>BG|
+B B/c/d/e/|A>FA|d d/B/{c}B/A/|G2 A|
+B B/B/c/e/|{B}A>FA|d d/B/{c}B/A/|[1 G3:|[2 G d2|-f3||
+S:https://www.folktunefinder.com/tunes/123787
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

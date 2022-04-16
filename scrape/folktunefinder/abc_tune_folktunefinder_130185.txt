@@ -1,0 +1,36 @@
+X:4
+T:Ce fut en mai
+C:trad
+H:XV eme siecle
+O:France
+Z:S. Piron
+M:3/4
+L:1/4
+Q:1/4=190
+K:D
+D|E-FG|A2d|c-Bc|A2A|G-FE|1E-GA|F3|F2:|2F-EC|D3|D2||
+F|A-GF|E2F|G-FE|D2E|1F-ED|C2D|E3|E2:|2F2E|F-EC|D3|D2||
+W:
+W:Ce fut en mai
+W:Au doux temps gai
+W:Que la saison est belle
+W:Matin me levai
+W:Jouer m'allai
+W:Lez une fontenele.
+W:En un verger
+W:Clos d'glantier
+W:Oue une viele
+W:La vit dancer
+W:Un chevalier
+W:Et une demoiselle.
+S:https://www.folktunefinder.com/tunes/130185
+S:http://www.tradfrance.com/matf11.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

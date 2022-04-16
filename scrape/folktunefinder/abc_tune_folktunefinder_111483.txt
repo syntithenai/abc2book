@@ -1,0 +1,24 @@
+X:210
+T:King of the Fairies
+R:Hornpipe
+M:4/4
+L:1/8
+K:Em
+B,2 |: EDEF GFGA | B2 B2 G3 A | B2 E2 EFGE | FGFE D2 B,2||\
+EDEF GFGA | BAGB d3 c | B2 E2 GFED |1 E4 E2 B,2 :|2 E4 E4\
+|| e2 e2 Bdef | gagf e3 f | e2 B2 BABc | dedc BcdB||\
+e2 B2 Bdef | gagf efed | Bdeg fedf | e4 e3 f ||\
+g3 e f3 d | edBc d3 e | dBAF GABc | dBAF GFEE ||\
+B,2 E2 EFGA | B2 e2 edef | e2 B2 BAGF| E8 ||
+% === Polkas ===
+S:https://www.folktunefinder.com/tunes/111483
+S:http://www.firepowr.com/abc/ceili.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

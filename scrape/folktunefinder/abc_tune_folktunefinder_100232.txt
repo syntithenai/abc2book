@@ -1,0 +1,30 @@
+X: 95
+T:Caprice in D
+M:3/4
+L:1/8
+Q:1/4=96
+C:Quantz
+R:Caprice
+N:transcribed back down to D from recorder version in F
+N:'T' in the melody is the symbol (not implemented in all
+N:commonly used abc packages) for a trill
+N:Posted to the woodenflute mailing list October 2001
+Z:Clive Catterall
+K:D
+f|Bdcfec|dfeage|fdcdBb|T^a2 Ff^ga|bfdfBa|geBGEe|
+aeceAg|fdAFDf|ecBc^Af|dBABGe|cAGAFd|BGFGEc|
+^AFecdB|^AfedTcB|^AFecdB|(^AB/2c/2) F2 z::c|c3 dTcB|^Afefce|
+dbabfa|gedeBd|cagadf|(Aa)(cg)(df)|Gbabeg|Fagadf|
+Egfgce|DfefBd|GfTedAc|dDFDFG|AecAcd|eEGEGA|
+BfdBde|fF(^Ae)(Bd)|(Ff)(^Ae)(Bd)|EgedT=cB|EgedT=cB|^AFEFDB|
+EcBcFd|GedeFd|EcBcDB|^Afedce|dBAGFE|DBcdF^A|B4 z:|
+S:https://www.folktunefinder.com/tunes/100232
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Rhythm Caprice
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

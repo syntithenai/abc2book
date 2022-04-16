@@ -1,0 +1,33 @@
+X:177
+T: Qiao qing jia
+N: C0298
+O: China,Liaoning, Gaixian
+S: III, 291]
+N: Antike Melodie. Ende der Ming und Qin-Dynastie. Leicht prosaisch:
+N: Zwei Schwiegermuetter streiten miteinander am Ende des Liedes, ob
+N: nun der Sohn oder die Tochter nichts tauge. Diese Melodie wurde
+N: haeufig den Europaeern vorgetragen.
+N: Vereinzelt Verzierungen.
+R: Xiaodiao, Yinniusi diao]
+M: 2/4
+L: 1/16
+K: C
+e2ege2d2 | c2cdc4 | A2AGE2B2 | A8
+c3Ac2d2 | e2g2e2d2 | c3de2d2 | c8
+c2AGE2B2 | A6z2
+AcAGE2B2 | A6z2
+c3Ac2d2 | e2g2e2d2 | c3de2d2 | c6d2 | B6d2 | A8
+G3Ac4 | A3cA2G2 | G2E2D2E2 | G3AE2D2 | C8
+S:https://www.folktunefinder.com/tunes/112604
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, yinniusi diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

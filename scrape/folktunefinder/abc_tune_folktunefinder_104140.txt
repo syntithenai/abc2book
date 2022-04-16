@@ -1,0 +1,27 @@
+X: 28
+T:Orange Waltz,The. ST.28
+M:3/8
+L:1/8
+Q:35
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Waltz
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets    
+K:F
+.c|.f(f/2e/2).f|.g(g/2^f/2).g|.e(e/2d/2).e|fac'|.f(f/2e/2).f|\
+.g(g/2^f/2).g|.e(e/2d/2).e|f2:|!
+|:e/2f/2|cag|fef|gec|cc/2d/2c|cag|fef|gec|f2||!
+e/2f/2|g(g/2e/2)c|a(a/2f/2)c|(b/2a/2).g/2.f/2(e/2d/2)|\
+ceg|gg/2e/2c|aa/2f/2c|dd/2f/2e/2g/2|f2:|!
+c|cag|fef|gec|cc/2d/2c|cag|fef|gec|f2|]
+S:https://www.folktunefinder.com/tunes/104140
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

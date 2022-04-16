@@ -1,0 +1,41 @@
+X:5002
+T:Fandangu (CT 325)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita (Fandangu), dictado por Pedro Menndez "El Manjoyu", de treinta y nueve aos, de San Esteban de las Cruces, ayuntamiento de Uviu, quien dice que a este Fandangu se le llama Punteu, "porque hay que marcar bien todos los puntos y tocarlos despacio, pues es el que se emplea cuando bailan las personas viejas".
+O:San Esteban de las Cruces (Uviu)
+A:Asturies
+Z:Cancioneru de Torner 325
+M:3/8
+L:1/8
+Q:3/8=60
+K:G
+|d/>B/ G2-|GzG|
+|:BdG|G F/G/F/G/|c c/B/c/A/|BGG|
+BdG|G F/G/F/G/|c c/B/c/A/|G2 G|
+BdG|G F/G/F/G/|c {d}c/B/c/A/|BGG|
+BdG|G F/G/F/G/|c {d}c/B/c/A/|G2 c|
+g f/g/f/g/|deB|cde|d2 d|
+g f/g/f/g/|deB|c A/B/A/B/|G2 G|
+c2 A|BBG|c2 A|BBG|
+AAF|G2 d|d c/B/c/A/|d G/B/ d|
+d c/B/c/A/|e G/B/ e|e d/B/c/A/|
+e G/B/ e|e d/B/c/A/|G>Bd|d c/B/A/A/|
+A F/A/ e|e d/c/B/A/|B G/B/ d|
+d c/B/A/G/|G F/A/ e|e d/B/c/A/|G2 G|
+BdG|G F/G/F/G/|c c/B/c/A/|BGG|
+BdG|G F/G/F/G/|c c/B/c/A/|[1 G2 G:|[2 G d2-|d3||
+S:https://www.folktunefinder.com/tunes/123785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

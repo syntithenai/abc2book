@@ -1,0 +1,26 @@
+X:63
+T:Road to California
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:D
+|:\
+"D"D2 DE FE D2|FAAB A D3|dcBA GFED|"A"CDEF E4|
+"D"D2 DE FE D2|FAAB A D3|dcBA GFED|"A"CDEC "D"D4:|
+|:\
+"G"G,2 B2 B3 A|BABc dcdA|"D"FAAB A2 A2|"F#m"FAAB A D3|
+"G"G,2 B2 B3 A|"Em"BABc dcde|"Bm"fedB AFDF|"A"E3F/E/ "D"D4:|
+S:https://www.folktunefinder.com/tunes/118873
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:529
+T: Niu li ge
+N: C0444
+O: China,Taiwan
+S: IV, 623 (2)]
+N: Auch im Sueden von Fujian verbreitet.
+N: Glissando. Vorspiel weggelassen.
+R: Che gu diao, Arbeitslied]
+M: 2/4
+L: 1/8
+K: D
+B,2DB, | D2ED | B,4
+FAFE | DB,F2 | E3F
+B,2DB, | D2ED | B,4
+B,DB,E | DB,A,F, | B,4
+B,EDB, | D2ED | B,4
+FAFE | DB,F2 | E3F
+B,2DB, | D2ED | B,4
+B,DB,E | DB,A,F, | B,4
+B,2F2 | EFEB, | D2ED | B,4
+B,DB,E | DB,A,F, | B,DB,A,
+F,2F,2 | B,2F,A, | B,2A,D | B,4- | B,4
+S:https://www.folktunefinder.com/tunes/112956
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Che gu diao, arbeitslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

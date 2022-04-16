@@ -1,0 +1,37 @@
+X: 45
+T:Ysgin Aur
+T:The Golden Robe
+M:2/4
+L:1/8
+Q:360
+C:Trad
+S:51 Welsh Airs
+R:Welsh reel
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:Bb
+B2B>c|BFGA|BFGE|FDEG|F2FG|FEDC|B,2B,A,|B,4:||!
+d2d2|c3c|(G>B)AG|^FDFA|zGGA|BGA^F|(G>BA)^F|G4:||!
+f2f2|f2f2|(d>e)dc|Bcde|d/e/f/g/ fe/d/|c/d/e/f/ ed/c/|dBBA|B4:||!
+B/c/d/e/ dc/B/|A/B/c/d/ cB/A/|G>ABc|d2D2|B/A/G/^F/ GA|BABG|A2A>c|B4:||
+S:https://www.folktunefinder.com/tunes/109514
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/GoldenRobe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/YsginAur.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/YsginAur.abc
+% Rhythm Welsh reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

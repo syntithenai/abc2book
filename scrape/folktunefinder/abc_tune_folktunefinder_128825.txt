@@ -1,0 +1,27 @@
+X:40
+T:Campbell's Farewell to Redcastle
+R:march
+N:C part not always used
+Z:John Chambers <jc@eddie.mit.edu>
+M:2/4
+L:1/8
+K:AMix
+e|:"A"A>B cd|ea e>d|cA AB/c/|"G"dd/B/ G>B|
+"A"A>B cd|ea e>d|"G"cB/A/ GB|"A"A4:|
+g/f/||"A"ea ag/f/|ea e>d|cA AB/c/|"G"dd/B/ Gg/f/|
+"A"ea ag/f/|ea e>d|"G"cB/A/ GB|"A"A3 g/f/|
+"A"ea ag/f/|ea e>d|cA AB/c/|"G"dd/B/ G>B|
+"A"A>B cd|ea e>d|"G"cB/A/ GB|"A"A4|
+|:"A"ee ef|g2 fe|"G"dB GB|dB dg/f/|
+"A"ee ef|g2 fe|"G"dB gB|"A"BA A2:|
+S:https://www.folktunefinder.com/tunes/128825
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

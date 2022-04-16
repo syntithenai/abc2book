@@ -1,0 +1,31 @@
+X:6940
+T:Hearts of Oak. JC.039
+M:C|
+L:1/8
+Q:120
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Air
+O:England
+A:Northamptonshire
+N:MR> bar 8 an unnecessary Fsharp accidental omitted. bar 9, bottom note
+N:of chord unclear,here given as C.
+Z:P Headford
+K:D
+"Crot"A|d2d dd2f e|d2c BA2zA|B2B cd2d e|f2g ef2zA|d2F GA2B c|!
+d2F GA2ze|f2e da2c d|e2e EA2z/A/G/F/|EDCB,[C2c2]e3/2 e/|e2c de2f3/2 f/|!
+f2d3/2 e/f2zf|(ed) c f d Bz2|d d3/4A2F/4 D3/2zA|(Bc) d e f2 e d|a2A c d2
+z||
+W:Song text exists. See Deacon.
+S:https://www.folktunefinder.com/tunes/108447
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

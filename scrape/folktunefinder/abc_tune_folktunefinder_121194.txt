@@ -1,0 +1,31 @@
+X: 108
+T:Manchester Hornpipe. WI.108
+M:C|
+L:1/8
+Q:180
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Hornipe
+O:England
+A:Lake District
+N:"simili" in part 3 means treat the crotchets as triplet runs.
+Z:vmp.Chris Partington.2005
+K:C
+gf|egce GcEG|CEGe fedc|fadf GAGF|EFGE D2gf|!
+egce GcEG|CEGe fedc|Bagf edcB|d2c2 c2:|!
+|:e2|fefg agab|g2e'2 e'ge'g|f2d'2 d'fd'f|e2c'2 c'ec'e|!
+fefg agab|g2e'2 e'ge'g|f2d'c' bgab|d'2c'2 c'2:|!
+|:gf|(3efe "simili"d2 c2B2|A2G2 F2ag|f2e2 d2c2|B2A2 G2gf|!
+e2d2 c2B2|A2G2 F2E2|D2dc BGAB|d2c2 c2:|]
+% Output from ABC2Win  Version 2.1 k on 09/11/2005
+S:https://www.folktunefinder.com/tunes/121194
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Hornipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

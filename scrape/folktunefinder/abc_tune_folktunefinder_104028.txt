@@ -1,0 +1,30 @@
+X:32
+T:Menuett (2)
+R:Menuet
+C:J.P. Krieger
+H:1652-1732
+N:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+"Am" ecA | "Dm" f3 | "G" dBG | "C" e3 |\
+"F" A>c "Dm"B/A/ | "E7"^G E "Am"e | "Dm"d/c/ "E7"B>A | "Am"A3 :|! %% Fine%
+"Am"c d>e | "Dm" A3 | "G"Bc>d | "C" G3 |\
+"Am"ABc | "G" BG g | f/e/ d>c | "C" c3 | !
+|: "Am" A3 | "Dm"de>f | "G" g3 | "C" cd>e |\
+"F" fc"Dm"d | "E7"e2 "Am"c | "Dm"d"E7"eE |"Am"A3|!
+a2g | "Dm"fed | "G"g2f | "C"edc |\
+"Am"fga|"G"g>fe|fgG |[1 "C"c>d cB :|[2 "C" c3 |] %% Da Capo al Fine
+S:https://www.folktunefinder.com/tunes/104028
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Rhythm Menuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

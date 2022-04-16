@@ -1,0 +1,29 @@
+X: 192
+T: Princess Nancy
+C: Liz Carroll
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+|:A|\
+"G"~B2A BGE|~EDE G2A|"Em"~BAB deg|"Am"abg eag|
+"Am"ede "Em"~g2a|ged "C"e2d|"D"dBA "C"B/A/GE|"D"EDE "G"G2:|
+A|\
+"G"B2g edB|"Bm"~BAB d2B|"Am"AGA "D"Add|"Am"AGA "Em"BGE|
+"G"~B2g edB|"Bm"~BAB d2""A|"C"AGA BGE|"D"~EDE "G"G2A|
+"G"B2g edB|"Bm"~BAB d2B|"Am"ABA ABd|"C"e2d "D7"ega|
+"G7"bag agd|"Em"egd "C"e2g|"D"dBA "C"B/A/GE|"D7"EDE "G"G2|]
+S:https://www.folktunefinder.com/tunes/113201
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

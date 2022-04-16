@@ -1,0 +1,29 @@
+X:332
+T: Yigen zhugan rongyi wan
+N: C1135
+O: China,Hunan
+S: MM, Seite 23, 2]
+N: Die Stuecke sind meist uebersteuert, also verzerrt.
+N: Wenig Verzierungen, Glissandi. Grundtonangabe: 3=C .
+R: Xiaodiao. Shenghuo zheli]
+M: 4/4
+L: 1/16
+K: C
+A2G2A2c2E3GE4 | A2G2A2e2C3Ac4
+c2A2e4d2e2A4 | c3AG2A2E8
+e2e2g4e2egA4 | e2e2g3edec2d4
+e2cde4d2e2A4 | c4A2E2G8
+A3cA2G2GE2AG4 | A2G2A2e2c2A2c4
+e3ee2e2g2ege2A2 | c3cc2c2e2c2A4
+A2G2A2c2e2e4A2 | A3cA2G2E8
+S:https://www.folktunefinder.com/tunes/112759
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. shenghuo zheli]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

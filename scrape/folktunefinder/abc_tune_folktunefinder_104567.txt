@@ -1,0 +1,29 @@
+X:17    
+T:Lyndhurst
+C:Jack Smith
+I:Scots Jig
+Q:1/4=160
+M:6/8    
+L:1/8  
+K:A
+f |BBB BcA |Bce fec |AAA Ace |
+aga fec |BBB BcA |
+Bce fec |Ace fec |BcA B2  :|
+c//e3/4 |f a2 fea |fga fec |
+AAA Ace |aga fec |1f a2 fea |fga fec |
+Ace fec |BcA B2  :|2BBB BcA |Bce fec |
+Ace fec |BcA B2  ||
+f |BcA cBB |fea fec |AAA Ace |aga fec |BcA cBB |
+fea fec |Ace fec |BcA B2  :|
+c//e3/4 |fea f2 e |afe fec |AAA Ace 
+|aga fec |1fea f2 e |afe fec |
+Ace fec |BcA B2 :|2BcA cBB |fea fec |Ace fec |BcA B2  ||]
+S:https://www.folktunefinder.com/tunes/104567
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

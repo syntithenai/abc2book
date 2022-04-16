@@ -1,0 +1,27 @@
+X:30
+T:Kate and Rose's
+C:Maire Bhreathnach
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:D minor
+|:E|\
+"Dm"FDD/D/D ADD/D/D|dd2~d- dcAG|"Bb7"FDD/D/D ADFD|"C"EDCD EFGE|
+"Dm"FDD/D/D ADD/D/D|dd2~d- dcAG|"F"F2cF dFcF|"C"^DE2~E- E=DC:|
+K:D
+|:e|\
+"D"fdd/d/d fdad|^ef2~f- f=ede|fdd/d/d fdaB|"C"=cBAB cBA2|
+"D"fdd/d/d fdad|^ef2~f- f=edB|"C"=c2gc acgc|"G"AB2~B- BAG:|
+S:https://www.folktunefinder.com/tunes/122754
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

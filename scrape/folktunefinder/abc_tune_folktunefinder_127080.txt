@@ -1,0 +1,29 @@
+X: 16
+T:Okaihau Express, The
+M:6/8
+L:1/8
+Q:80
+C:Peter Cape
+K:D
+&quot;A&quot;A3|&quot;D&quot;d2de2f|dd A-A2A|d2de2f|d6|
+f2ef2e|f2f-f2d|&quot;A&quot;c6-|c3-czA|!
+c2cd2e|c2A- A AA|cc2d2e|c3-c2z|
+a2aa2^g|=g2e-e2c|&quot;D&quot;d6-|d2z:||
+T:Bridge:
+M:4/4
+Q:140
+|&quot;Quickly&quot;d2d2|&quot;G&quot;ggg>g|g2GG|&quot;C&quot;c2c>c|eg2e|
+&quot;G&quot;dg2g|a2g2|&quot;D&quot;f4-|f2dd|!
+&quot;G&quot;g2g2|g2G>G|&quot;C&quot;ccc>c|egfe|
+&quot;D&quot;ddde|B2AB|&quot;G&quot;G4|
+M:6/8
+&quot;A&quot;A6:||
+S:https://www.folktunefinder.com/tunes/127080
+S:http://folksong.org.nz/abc_files.html
+S:http://www.folksong.org.nz/abc_files.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

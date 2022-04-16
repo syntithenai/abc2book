@@ -1,0 +1,24 @@
+X:8
+T:Tatterjack
+M:6/8
+Q:1/8=300
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F|F>BB B2c|dcd fed|cAA eAA|ced cBA|
+FBB B2c|def b2a|fed cde|f^ef B2::
+f/g/|afg a2b|afg a2A|ABA cBA|ced cBA|
+F>BB B2c|def b2a|fed cde|f^ef B2|
+S:https://www.folktunefinder.com/tunes/114074
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

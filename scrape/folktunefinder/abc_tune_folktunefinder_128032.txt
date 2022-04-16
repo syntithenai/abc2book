@@ -1,0 +1,28 @@
+X:146
+T:Lancaster Hornpipe
+R:Hornpipe
+O:England
+M:C
+A:Lancashire
+B:Winder
+K:D
+AG | FA d2 d2 cB | cdef e2 dc | \
+defd gfed | ec A2ABAG |\
+FA d2 d2 cB | cdef e2 de | \
+fdec dBAG | F2 D2 D2:: (3ABc |\
+dAFA DFAf | edcB A2 gf |\
+ecAG FAdf | edcB A2AA |\
+BG G/F/G gfed | edcB A2AA |\
+BGAF GEAG | F2 D2 D2 :|**
+S:https://www.folktunefinder.com/tunes/128032
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

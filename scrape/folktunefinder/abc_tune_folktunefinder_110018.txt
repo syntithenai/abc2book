@@ -1,0 +1,27 @@
+X:80
+T: Herr von Braunschweig
+N: Q0023A
+O: Mitteleuropa, Niederlande
+N: Melodie = geistliche Kontrafaktur.
+R: Ballade, Hinrichtung, Tod, Vergeltung; geistlich
+M: 3/4
+L: 1/4
+K: F
+FFE | D2C | FGA2
+ccB | A2G | FGA2
+AAG | F2A | c2B | A2
+G | FFGA | G2F2
+AAG | F2A | c2B | A2
+G | FFGA | G2F2
+S:https://www.folktunefinder.com/tunes/110018
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, hinrichtung, tod, vergeltung; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

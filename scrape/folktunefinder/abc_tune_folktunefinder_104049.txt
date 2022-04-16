@@ -1,0 +1,24 @@
+X:9
+T:Baisons nous belle
+M:3/4
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:gaillarde
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+F2 F2 F2 D2 z2 D2 | G2 G2 G2 A2 z2 A2 | F2 G2 A2 B2 z2 G2 | F2 F2 E2 F2 z2 F2 ||
+S:https://www.folktunefinder.com/tunes/104049
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Gaillarde
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

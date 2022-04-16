@@ -1,0 +1,37 @@
+X: 27
+T:Penrhaw
+T:The Spade's Head
+M:C
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Welsh Hornpipe
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:F
+F3G AGAF|B3A BABG|(F3G) AGAB|cCEG cBAG|!
+F3G AGAF|B2 B>B BcdB|c3d cBAG|F2E2F4:||!
+f3g f_edc|(B3c) dcBA|(g3a) gfed|c3=B cdec|!
+f3g f_edc|B2B>c (B/c/d2)z/B/|(c2d)B (A2B)G|F2 (E3/2F/4G/4)F4:||
+S:https://www.folktunefinder.com/tunes/109497
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/Penrhaw.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/SpadesHead.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/Penrhaw.abc
+% Rhythm Welsh hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

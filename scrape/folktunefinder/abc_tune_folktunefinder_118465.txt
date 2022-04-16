@@ -1,0 +1,23 @@
+X: 1
+T:Angeline the Baker
+M:4/4
+L:1/8
+R:Reel
+K:D
+dB | "D" A2 B2 d3 A | "D" B2 d4 dB | "D" A2 B2 dB A2 | "G" B6 dB |! 
+"D" A2 B2 d3 e | "D" f2 e2 d3 e | "D" f2 e2 "G" d2 B2 |1 "D (A)" A3 B A2
+ dB :||2 "D" A3 B Aw fg ||!
+ "D" a2 f2 e2 de | "D" f2 e2 d2 fg | "D" a2 f2 e2 d2 | "G" B3 B B2 fg |!
+ "D" a2 f2 e2 de | "D" f2 e2 d2 de | "G" f2 e2 d2 B2 |1 "D" A3 B A2 fg :
+||2 "D" A3 B A2 z2 ||
+S:https://www.folktunefinder.com/tunes/118465
+S:http://internet.cybermesa.com/~keating/music_abc/ANGEFORK.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

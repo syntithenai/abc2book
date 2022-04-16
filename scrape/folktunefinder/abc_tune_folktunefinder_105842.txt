@@ -1,0 +1,24 @@
+X: 10
+T:Confesse
+M:6/8
+L:1/8
+Q:105
+B:The Round Band Book of Playford
+K:Bb
+"Gm"G2A B2c | "Gm"d2d d2d | \
+"Cm"e3 d2d | "Eb"g3 "D"^f3 :: \
+"F"a2f "Gm"b2g | "Dm"af2 "Gm"d2e | \
+"Bb"fd2 "Cm"c2d | "F7"dc2 "Bb"d3 | \
+"Gm"B2c "Dm"d>ed | "Cm"ed2 "F"c3 | \
+"Gm"d2g "Cm"^f2g | "D7"a^f2 "Gm"g3 :|
+S:https://www.folktunefinder.com/tunes/105842
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

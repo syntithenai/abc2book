@@ -1,0 +1,31 @@
+X: 126
+T: Ruddy Turnstone, The
+C: J-54
+C: J. M. Graetz
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 13cm
+K: D
+AG|: "D"FGA A2A| "Em"B3- BAG| "D"FDF GAB| "A7"E3- EAG|
+     "D"FDD D2A| "G"BGG "(Em)"EFG|1 "D"ABA AGF| "A7"E3- EAG :| \
+                                 [2 "A7"ABA GFE| "D"D2E "E7"F2|] \K: A\
+|:\
+^G| "A"A3 Bcd| e3- edc| "E"BGB dcB| "A"cBA "E"Bcd|
+    "A"ecc c2e| "Bm"fdd B2A| "E7"GEG dcB|1 "A"A2E "E7"F2 :|\
+                                        [2 "A"A2z "A7"=G3|]
+%%text 9/1/98.  Also known as "Noel Stone's Jig".
+% ---------- page 65 ----------
+S:https://www.folktunefinder.com/tunes/106881
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

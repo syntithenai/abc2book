@@ -1,0 +1,31 @@
+X: 2
+T:Polska efter Per Jonas Lng, Haver
+S:E 568
+A:Haver, Medelpad
+B:Einar vergrd nr 568
+O:Sweden
+M:3/4
+L:1/8
+Q:1/4=150
+K:G
+G>(B A>)(c B>)G|(3A(Bc) d>c B>A|G>(B A>)(c B>)G|(3A(Bc) d>c B>d|\
+g>d (3B(dB) G>B|(3AFA [G,4G4]::\
+G>g (3e(ge) c2-|c>B GB d2-|d>g fg af|g>(b a)(g f)e|\
+(3d(ef) gf ed|(3c(Bc) ed cB|(3G(AB) (3c(Ac) BG|(3AFA [G,4G4]:|
+T:oktavstmma
+G,>(B, A,>)(C B,>)G,|(3A,(B,C) D>C B,>A,|G,>(B, A,>)(C B,>)G,|\
+(3A,(B,C) D>C B,>D|\
+G>D (3B,(DB,) G,>B,|A,2 G,4::\
+G,>G (3E(GE) C2-|C>B, G,B, D2-|D>G FG AF|G>(B A)(G F)E|\
+(3D(EF) GF ED|(3C(B,C) ED CB,|(3G,(A,B,) (3C(A,C) B,G,|A,2 G,4:|
+S:https://www.folktunefinder.com/tunes/115146
+S:http://homepage.calypso.net/~ci-18034/medel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/medel.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:90
+T:Chanson  grand vent
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n90
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:F
+C | F3 G {AG}F/ G/ | A3-A z A | Hc Hd (5c/4d/4c/4B/4A/4 F2 G | A3-A z C |
+    F3 G {AG}F/ G/ | A3 A z A | Hc Hd (5c/4d/4c/4B/4A/4 F2 G | A3-A z B |
+ c2 c c2 c | Hc (3B/c/B/ A2 c | c2 c {Bc}B2 A | {A}G3-G z C |
+    F3 G {AG}F/ G/ | A3 A z G | {AB}A2 G {GAB}A2 (3G/A/G/ |
+F3-F z (3G/A/B/ | {AB}A2 G {GAB}A2 (3G/A/G/ | F3-F z ||
+W:
+S:https://www.folktunefinder.com/tunes/119558
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

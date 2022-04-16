@@ -1,0 +1,22 @@
+X: 57
+T:Rufty tufty
+M:C|
+L:1/4
+Q:180
+B:The Round Band Book of Playford
+K:G
+d | "D"d2 de | "D"f2 ef | "G"gg "A7"f>e | d4 :: \
+"G"gf ed | "D7"dc "G"B>c | "G"dd "Am"cB | "D7"A2 "G"G2 :: \
+"G"B>c dd | "C"ec "G"d2 | "G"B>c dd | "C"ecd "G"B/2c/2 | \
+"G"dd cB | "D"A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/105889
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

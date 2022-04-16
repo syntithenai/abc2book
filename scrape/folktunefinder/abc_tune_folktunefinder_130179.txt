@@ -1,0 +1,38 @@
+X:4
+T:La calha
+R:Bourre  3 temps
+C:Trad.
+O:France
+A:Auvergne
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-05
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/16
+K:C
+G2 | cc c2d2 | e2d2 g2 |f2g4 | d4G2 | cc c2d2 | e2d2g2 | f2g4 | !breath!d4 ||
+f2 | ed e2c2 |B2G2 d2 | e2c4 | d4f2 | ed e2c2 | B2G2 d2 | e2d4 | c4 :|
+T:Variante
+G2|:cB c2 d2|e2 d2 g2|f2 g4|[1d4G2:|[2d4f2|:
+ed e2 c2|B2 G2 d2|[1e2 c4|d4f2:|[2e2 d4|c4G2 |]
+T:Variante (Canteloube) Al bsc de las fulhadas
+K:Cm
+G2 | c=B c2d2 | e2d2g2 | g2 (fg) (fe) | d2 ::
+f2 | ff e2 d2 | cd c2B2 | c2 !breath!d2 f2 | ff e2d2 | cd c2B2 | c4 :|
+T:Variante (l'Aubrac)
+K:C
+g2 | cd e2f2 | g2f2g2 | a2f4 | g4g2 | cd e2f2 | g2f2g2 | a2f4 | g4 ||
+g2 | fg a2g2 | f2d2f2 | e2c4 | d4g2 | fg a2g2 | f2d2f2 | e2d4 | c4 |]
+T:Variante (Cayla)
+G2 | cB c2d2 | _e2 d2 g2 | ^f2g4 | d4G2 | cB c2d2 | _e2 d2 g2 | ^f2g4 | d4 || 
+f2 | ed e2c2 | B2G2 d2 | e2c4 | d4f2 | ed e2c2 | B2G2 d2 | e2d4 | c4 |]
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (France)
+S:https://www.folktunefinder.com/tunes/130179
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat02.abc
+% Rhythm Bourre  3 temps
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

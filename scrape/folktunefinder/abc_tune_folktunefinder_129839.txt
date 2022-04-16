@@ -1,0 +1,27 @@
+X: 47
+T:Navvie on the Line
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+Bc|"G"dgfe dcBA|"G"GBDG B2(3BAG|"D7"FADF A2(3AGF|"G"GBDG "D7"B2Bc|
+"G"dgfe (3ded(3cBA|"G"GBDG B2AG|"D7"FGAB cdef|"G"g2G2 G2:|
+P:B
+AG|"D7"FADF A2(3AGF|"G"GBDG B2(3BAG|"D7"FADF A2(3AGF|"G"GDEF "D7"GABc|
+"G"dgfe (3ded(3cBA|"G"GBDG B2AG|"D7"FGAB cdef|"G"g2G2 G2:|
+S:https://www.folktunefinder.com/tunes/129839
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

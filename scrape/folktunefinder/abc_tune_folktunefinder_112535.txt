@@ -1,0 +1,28 @@
+X:108
+T: Liu liu ge
+N: C0135
+O: China,Hunan, Xinning
+S: I, 562, 2)]
+N: sehr typisch. Voellig freier Rhythmus. Saengerin: Huang Bai
+N: Einige Akzente, Fermaten und Verzierungen.
+N: VARIANTE. Die Ecktoene stimmen mit der gesungenen Fassung ueberein.
+N: Der Text auf "liu liu" besteht aus Fuellwoertern.
+R: Shange. Datian laodong shi chang]
+M: 2/4
+L: 1/16
+K: C
+AAcAe4 | eAcAG4
+AcAceAAc | eAcAG4
+cAGGgeee | AecAcG2A
+AeAceAAc | eAcAG4
+S:https://www.folktunefinder.com/tunes/112535
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. datian laodong shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

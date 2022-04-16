@@ -1,0 +1,33 @@
+X:100
+T:Gan Ainm
+M:4/4
+L:1/8
+S:Des Donelly (fiddle)
+R:Reel
+D:From an ancient tape
+N:As played
+H:Played with 17 and 18 as a set
+H:Alternate bar 4 'dcBA BAGF'
+H:The 'B3' in bar 2 is a big slide.
+H:The third part is a variation of the first part.
+Z:Bernie Stocks
+K:G
+DEGB A2GA | B3A BE~E2 | DEGB ABGB | dBAc BG~G2 | DEGB ABGA BdcA BE~E2 |
+DEGB A2GB | dBAc BGGf || ~g3e d2d2 | (3BcdAc BEEf | g2ge dgBd | ea{b}ag agef |
+gfge dBgd (3BcdAc BE~E2 | DEGB A2GB | dBAc BGG2 || DEGB A2GA | B2BA BE~E2 |
+DEGB cBAG | FEDC B,CA,B, | G,2BA (3ABA GA | B2BA BEEE | DEGB A2GB | dBAc BGGf ||
+S:https://www.folktunefinder.com/tunes/124882
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book3.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

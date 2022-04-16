@@ -1,0 +1,21 @@
+X:25
+T:Berwick Jockey
+M:3/2
+L:1/16
+K:F
+P:1
+c4 dcBA dcBA c4 dcBA A2f2| c4 dcBA dcBA B2G2 G2A2 B2d2 :|
+P:2
+|:c2F2 F2c2 dcBA c2F2 F2c2 d2f2 | f2F2 F2c2 dcBA B2G2 G2A2 B2d2 :|
+P:3
+|:f6 g2 f4 c4 A4 c4 | f6 g2 f4 d4 e4 f4 |f6 g2 f4 F4 A4 c4 |g4 G4 G4 A4 B4 d4:|
+S:https://www.folktunefinder.com/tunes/110381
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/Greeny.abc
+S:http://www2.redhawk.org:8080/irish/other/Greeny.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

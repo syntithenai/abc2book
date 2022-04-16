@@ -1,0 +1,23 @@
+X:70
+T: The Siege of Troy
+M: 6/8
+L: 1/8
+B: "O'Neill's 14"
+N: "Slow" "collected by J. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K: Gm
+B/2-c/2 | d>dd cA^F | G>GG (G2A/2B/2) | cAB cAG | FDE (D2 B/2c/2) |
+d=Bc dBc | d=e^f ~(g2 d/2=e/2) | fdB {d}cA^F | G>GG G2 ||
+B/2d/2 | g^fg gag | {g}f=ef (d2 d/2e/2) | f=ed cdc | BAG (F2 G/2A/2) |
+BAB c=Bc | d=e^f ~(g2 d/2e/2) | fdB {d}cAF | G>GG G2 ||
+S:https://www.folktunefinder.com/tunes/129148
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0001-0050_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

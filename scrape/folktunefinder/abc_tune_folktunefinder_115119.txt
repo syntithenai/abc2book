@@ -1,0 +1,32 @@
+X: 1
+T:Polska i tre repriser efter John-Erik Mattson, Digerberget
+M:3/4
+L:1/8
+Q:150
+K:D
+D>F A>d f>a|(3agf e z (E2|A,>)C E>A ce|(3gec (dA) (3F(AF)|\
+D>F A>d f>a|(3gbg e z (E2|A,>)C E>A ce|(3gec d4::\
+D>(F A>)(d f)a|A>(c e>)(f g)b|(3a(fa) (3g(eg) (3f(df)|\
+(3e(ce) d>A (3F(AF)|\
+D>(F A>)(d f)a|A>(c e>)(f g)b|(3a(fa) (3g(eg) (3f(df)|(3ece d4::\
+K:A
+{f}e2 (^de) fe|(ec') ae c2|{d}c>B Bg Bg|{ga}ge ca ca|\
+{f}e2 (^de)fe|(ec') ae c2|{d}c>B Bg Bg|(ga) a4:|
+T:Andrastmma
+K:D
+A,>D F>A df|(3fed c2 A,2-|A,>C C>E Ac|(3ecA (AF) (3D(FD)|\
+A,>D F>A df|(3ege c2 (A,2|C)>E A>c ec|(3AGE [F4A4]::\
+A,>(D F>)(A d)f|E>(A c>)(d e)g|(3f(df) (3e(ce) (3A(FA)|(3G(EG) [FA]F (3D
+(FD)|\
+A,>(D F>)(A d)f|E>(A c>)(d e)g|(3f(df) (3e(ce) (3A(FA)|(3GEG [F4A4]::
+K:A
+{d}c2 (Bc) dc|(ca) ec A2|E>G GB GB|EG A[ce] A[ce]|\
+{d}c2 (Bc) dc|(ca) ec A2|E>G GB GB|(Bc) [c4e4]:|
+S:https://www.folktunefinder.com/tunes/115119
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_i_tre_repriser_efter_John_Erik_Mattson_Digerberget_1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

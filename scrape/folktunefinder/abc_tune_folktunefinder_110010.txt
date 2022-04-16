@@ -1,0 +1,25 @@
+X:72
+T: Herr von Falkenstein
+N: Q0021
+O: Mitteleuropa, Deutschland / Niederlande
+N: Geistliche Kontrafaktur. Original in Choralnotation.
+R: Ballade, Gefangenschaft, Ehe, Befreiung; geistlich
+M: none
+L: 1/8
+K: D
+D2 | A2A2=F2D2 | E2=F2G2
+A2 | B2=c2dcc2 | B4A2
+A2 | B2=c2d2D2 | =F2_B2A2
+A2 | =F2GA_B2A2 | G2=FED2
+S:https://www.folktunefinder.com/tunes/110010
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, ehe, befreiung; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:81
+T:Vrvindar friska (Dagens Gryr !)
+R:Hambo-polska
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M:3/4
+L:1/8
+K:Dm
+|: "Dm"D2 D>-E D>E | "Bb"F2 F>-G F>G | "A7"A2 A>-G E>F |1 "Dm"D2 D>^C A,2 :|2 "Dm".D2 D4 :|
+|: "F"A2 A>-B c>A | "C7"G2 G>F "A7"E2 | "Dm"F2 F>-G A>F | "A7"E2 E>^C A,2 \
+|  "Dm"D2 D>-E D>E | "Bb"F2 F>-G F>G | "A7"A2 A>-G E>F | "Dm".D2 D4 :|
+%%vskip 0.5cm
+%%sep
+%%text Ancienne :
+S:https://www.folktunefinder.com/tunes/99526
+S:http://anamnese.online.fr/abc/favoris.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

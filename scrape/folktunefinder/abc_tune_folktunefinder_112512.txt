@@ -1,0 +1,37 @@
+X:85
+T: Xing fu ge
+N: C0107
+O: China,Hubei, Tianmeng
+S: I, 391]
+N: neues Volkslied. Beim Singen wird ein Teller mit 2 Ess-Staebchen
+N: geschlagen, FOTO!). Die eine Hand haelt sowohl den Teller als auch
+N: ein Staebchen. Hier demonstriert die Saengerin dies vorab.
+N: Saengerin: Huang Bai
+N: Vor- und Zwischenspiel weggelassen. Vereinzelt Verzierungen.
+N: DIE SAENGERIN TRAEGT NUR DIE ERSTEN 10 ZEILEN IN LEICHT VER-
+N: AENDERTER FORM VOR, DIE NAECHSTEN 10 SIND WIEDERHOLUNG, ES
+N: FOLGEN 2 ABSCHLIESSENDE PHRASEN. MI, SO, DO, SO sollen die
+N: betonten Toene sein.
+R: Xiaodiao. Xin minge]
+M: 2/4
+L: 1/16
+K: C
+d3cd4 | c2dcG4 | c2G4c2 | c4d4
+c2G4c2 | c4d4
+GAF2GAG2 | G2D4E2 | G4c4
+G2D4E2 | G4c4
+cdGGc2e2 | d6c2 | c2G4c2 | G3EC4
+c3Gcdc2 | E4G4 | G3cG4
+E2G2c2G2 | E2G2c2G2 | E2G2GAGE | C8
+d3cc2d2 | c2G4c2 | c4d4 | G3cd2c2 | G8
+S:https://www.folktunefinder.com/tunes/112512
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

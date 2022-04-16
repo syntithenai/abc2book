@@ -1,0 +1,23 @@
+X: 370
+T: The Fair Hills of Eire O!
+M:C
+L:1/8
+B:O'Neill's 370
+N:"Lively."
+N:H is a fermata, ">" is an accent.
+Z:Transcribed by Chris Falt, cfalt@trytel.com
+K:G
+(GA/2B/2)|cded cBAG|GABd efge|dBAG EDEG|G6:|
+(de)|=fefg ">"e2 dB|">"d2 eg ">"g2 de|=fefg e2 dB|B2 A(B/2A/2) E2 de|
+=fefg e2 dB|d2 eg Hg2 (=f/2e/2d/2B/2)|A2 AB EDEG|HG6||
+S:https://www.folktunefinder.com/tunes/113468
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

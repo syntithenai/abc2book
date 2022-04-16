@@ -1,0 +1,28 @@
+X: 17
+T:Welch Air. ST.17
+M:2/4
+L:1/16
+Q:70
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:D
+d2(fa gfed)|(cdef) g2(fe)|d2f2e2d2|{d}(cBcd) e2 "P"(dc)|.d2(fa gfed)|!
+(cdef) g2 (ag)|f2(gf) e2(fe)|d2d'2d2 "F"a2|(gfed) c2d2|(e3fe2d2)|!
+(c2a2)(e3d)|c2a2 (e2fg)|f3gf3e|(defg) a2(gf)|g2b2a2f2|!
+(efga bc'd'b)|a2f2 (gfed)|(cdef) g2(ag)|.f(agf) .e(gfe)|d2d'2d2z2|]
+S:https://www.folktunefinder.com/tunes/104129
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

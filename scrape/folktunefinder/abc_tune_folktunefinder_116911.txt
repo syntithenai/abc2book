@@ -1,0 +1,52 @@
+X: 9
+T:The First Thing
+M:4/4
+L:1/8
+Q:80
+C:Matthew Richards
+K:G
+|:&quot;G&quot;de/2/d/2/ &quot;Bm&quot; BG/2/B/2/ &quot;G&quot;
+de/2/d/2/ &quot;Em7&quot; B2|
+|&quot;G&quot; de/2/d/2/ &quot;Em7&quot;B2 &quot;G&quot; de/2/d/2/
+&quot;D&quot; A2|
+|&quot;G&quot; de/2/d/2 &quot;Bm&quot; BG/2/B/2/ &quot;G&quot; de/2/d/2/
+&quot;Em7&quot; g2|
+|&quot;G&quot; de/2/d/2/ &quot;Bm&quot; B2 &quot;D&quot; Ad/2/A/2/
+&quot;G&quot; G2 :|
+|&quot;G&quot; dB/2/A/2/ &quot;Em7&quot;G/2/A/2/B &quot;G&quot; d2
+&quot;G&quot; d2|
+|&quot;G&quot; ge/2/d/2/ &quot;Bm&quot; Bd/2/e/2/ &quot;Em7&quot;
+g2 &quot;Em7&quot; g2|
+|&quot;G&quot; dB/2/A/2/ &quot;Em7&quot; G/2/A/2/B &quot;Bm&quot;
+e2 &quot;D&quot; d2|
+|&quot;G&quot; dB/2/G/2/ &quot;D&quot; AB/2/A/2 &quot;G&quot;
+G2 &quot;G&quot; G2|
+|:&quot;G&quot; BA/2/G/2/ &quot;Em7&quot; EG/2/A/2/ &quot;G&quot;
+Bd/2/e/2/ &quot;D&quot; d>d|
+|&quot;G&quot; BA/2/G/2/ &quot;Em7&quot; EG/2/A/2/ &quot;G&quot;
+Bd/2/B/2/ &quot;D&quot; A>A|
+|&quot;Em7&quot; e>g &quot;Am7&quot; e>d &quot;D&quot; B>A
+&quot;G&quot; G>G|
+|&quot;Am7&quot; A>A &quot;Am7&quot; BA/2/G/2/ &quot;D&quot;
+AB/2/A/2/ &quot;G&quot; G>G:|
+|:&quot;Am7&quot; a/2/a/2/g &quot;Em7&quot; e/2/e/2/d &quot;Am7&quot;
+ee/2/d/2 &quot;G&quot; e<g|
+|&quot;Am7&quot; a>g &quot;Em7&quot; e>d &quot;G&quot; B/2/A/2/B
+&quot;D&quot; A>A|
+|&quot;G&quot; G>E &quot;C&quot; D>C &quot;G&quot; D>E
+&quot;D&quot; G<A|
+|&quot;Bm&quot; B>A &quot;G&quot; G>A &quot;Bm&quot; Bd/2/B/2
+&quot;D&quot; A>B|
+|1 &quot;D&quot; d>B &quot;D&quot; AG/2/E/2/ &quot;G&quot; G2
+&quot;G&quot; g2:|
+|2 &quot;D&quot; d>B &quot;D&quot; AG/2/E/2/ &quot;G&quot; G2
+&quot;G&quot; g2|&quot;C&quot; g2 &quot;G&quot; g2 &quot;G&quot;
+G4|
+S:https://www.folktunefinder.com/tunes/116911
+S:http://www.mudcat.org/alanofoz/mbo.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

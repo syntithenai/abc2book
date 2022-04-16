@@ -1,0 +1,30 @@
+X:113
+T: Jian jian shan
+N: C0148
+O: China,Sichuan, Chuanbei
+S: II, 236]
+N: Saengerin: Huang Bai
+N: Vereinzelt Verzierungen.
+N: Die Phraseneinteilung und eine WDH am Ende wurden nachtraeglich
+N: quasi transkribiert. Leichte Variante
+R: Shange. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: E
+c6c2 | e2c6 | c6B2 | G8
+c6B2 | G2c6 | c6B2 | G8
+F2G4EF | G8 | E2G4E2 | C8
+C2E4C2 | G8 | c6B2 | G8
+c2c2c2e2c2 | ec3-c4
+c6B2 | G8 | E2G4E2 | C8
+S:https://www.folktunefinder.com/tunes/112540
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

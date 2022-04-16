@@ -1,0 +1,16 @@
+X: 9
+T: El Harahat [Am]
+M: 4/4
+L: 1/8
+K: Am
+|: "G"d2d2 | BA AG | BA AG | "Am"A3 z :: "G"dd dc/c/ | ed d2 | BA BG | "Am"A3 z :|
+%%sep 2 1 500
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110251
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

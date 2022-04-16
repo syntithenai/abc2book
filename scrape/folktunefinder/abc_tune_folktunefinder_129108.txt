@@ -1,0 +1,24 @@
+X: 23
+T: Mary's Return
+M: 6/8
+L: 1/8
+B: "O'Neill's 23"
+N: "Cheerful" "collected by J. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K:C
+c/2-d/2 | efe dcB | cde GcB | Aag fed | c2 d/2-c/2 Bzc/2-d/2 |
+efe ded | cde Gzc/2-B/2 | Aag fdB | d3 {ed}c2 ||
+c/2-d/2 | efg dgf | efg ccB | ABc edc | B3 dzg/2-f/2 |
+efg dgf | efg ccB | Aag fdB | d3 {ed}c2 ||
+S:https://www.folktunefinder.com/tunes/129108
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0001-0050_np.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0023_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

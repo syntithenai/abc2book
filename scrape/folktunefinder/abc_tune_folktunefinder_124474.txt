@@ -1,0 +1,25 @@
+X:8
+T: Maltese Branle
+M:C|
+L:1/4
+K:F
+V:1
+|: B A B c d2 d2 c2 B2 A2 G F G2 G2 F4 :|
+|: B A B c d2 e2 c2 d2 e4 | c d e2 d4 c d e2 d2 |
+c B A G B A B4 :|
+V:2
+K:F bass
+L:1/2
+%%MIDI transpose -24
+|: g2 G2 F2 f2 c2 f2 :|
+|: g2 G2 c2 c'2 c2 g2 c2 g2 f2 _B2 :|
+S:https://www.folktunefinder.com/tunes/124474
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:12
+T:Canary
+M:C|
+L:1/4
+%%MIDI gchordoff
+K:C
+V:1
+|:"G"G2 "D"A B "G"G2 "D"AB "C"c2 "G"d B "D7"A2 "G"B G :: "G"G2 "D"dc "G"B2 "Dm"c d "C"c2 c B "D"A2 A G :|
+V:2
+K:C Bass
+L:1/2
+%%MIDI transpose -24
+|: G d g d e g d G :: G d g f c > G A > G :|
+S:https://www.folktunefinder.com/tunes/124478
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

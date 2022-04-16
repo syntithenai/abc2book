@@ -1,0 +1,21 @@
+X:180
+T:Scottish Caddie
+% Nottingham Music Database
+S:Mick Peat
+P:/f2AABA last time through/fP
+M:6/8
+K:C
+B|"Am"ABc cBA|aAA ABc|"Am"ABc "D"cBA|"G"gGG GAB|
+"Am"ABc cBA|aAA ABc|"Am"ABc "G"cBA|1"Am"A3 "E"B3:|2"Am"A3 "G"B3:|
+"C"cde edc|c'cc cde|"C"cde edc|"Bb"_bfd dfb|
+"C"cde edc|c'cc cde|"C"cde "Bb"edc|1"C"c3 c3:|2"C"c3 "E"B3:|
+S:https://www.folktunefinder.com/tunes/114200
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/ashover.abc
+S:http://www2.redhawk.org:8080/irish/nmd/ashover.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

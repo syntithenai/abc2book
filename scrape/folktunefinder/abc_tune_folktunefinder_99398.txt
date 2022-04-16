@@ -1,0 +1,32 @@
+X:8562
+T:Alcyone
+T:Menuet pour les bergers et les bergeres
+C:Marin Marais
+N:18th Century
+Z:Transcribed by Eric Forgeot- http://anamnese.fr.st
+F:http://abc.musicaviva.com/tunes/marais-marin/marais-alcyone.abc
+%Posted at abcusers July 11th 2002 by Eric Forgeot.
+M:3/4
+L:1/4
+Q:C4=60
+K:C
+a f g | a2 d | g/f/ e d/^c/ | d2 A |
+a f g | a>_b a | g f>e | e3 :|
+|: f>g f | c>d c | A>_B A | A F G |
+A f A | B B>^c | d ^c>d | d3 :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/99398
+S:http://abc.musicaviva.com/tunes/marais-marin/marais-alcyone.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/marais-marin/marais-alcyone.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/marais-marin/marais-alcyone.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

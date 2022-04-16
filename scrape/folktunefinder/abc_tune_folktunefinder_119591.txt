@@ -1,0 +1,37 @@
+X:22
+T:Le retour du marin
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n22
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:Il doit y avoir une erreur dans la partition, 
+N: l'avant dernire mesure, que j'ai essay de corriger.
+N:la mesure  l'origine tait ainsi :
+N:%    |G2 D E-D C2|
+M:6/8
+L:1/8
+Q:1/4=100
+K:F
+C D E | F3 G A F | G2-F E2 G |F3 z2 F | B2 B A2 A |!
+c2 A G z A-|B2 G-A2 F-|G2 D E-D C | F3-F2 z ||
+W:Brave marin revient de guerre
+W:Tout doux
+W:Tout mal chauss tout mal vtu :
+W:"Brave marin d'o reviens-tu 
+W:Tout doux
+W:
+W:- Madame je reviens de guerre ;
+W:Qu'on m'apporte ici du vin blanc,
+W:Que le marin boive en passant." /.../
+S:https://www.folktunefinder.com/tunes/119591
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

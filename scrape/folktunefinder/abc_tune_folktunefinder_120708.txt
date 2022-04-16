@@ -1,0 +1,21 @@
+X: 17
+T:Miss McLeod's Reel
+R:Reel
+L:1/8
+M:4/4
+K:G
+BA |: "G"G2 g2 edeg | B2 BA BcBA | G2 g2 edeg | "D"A2 AG AcBA |
+ "G"G2 g2 edeg | B2 BA B2 d2 | "C"e2 ef edef | "D"gedB "G"AcBA :|
+  |:"G"GA Bc dBGA | B2 BA BcBA | GABc dBGB | "D"A2 AG AcBA |
+   "G"GABc dBGA | B2 BA B2 d2 | "C"e2 ef edef | "D"gedB "G"AcBA :| G8 |
+S:https://www.folktunefinder.com/tunes/120708
+S:http://homepage.ntlworld.com/djfoster/mad.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:7023
+T:High
+Z: id:dc-reel-131
+M:C
+L:1/8
+K:A Mixolydian
+a2fa ecA2|cAeA fAeA|a2fa ecA2|Bcdc BGG2|!
+a2fa ecA2|cdef g2fg|afge fdec|Bcdc BGG2:|!
+cAeA fAeA|cAaf ecA2|cAeA fAec|Bcdc BGG2|!
+cAeA fAed|cdef g2fg|afge fdec|Bcdc BGG2:|!
+S:https://www.folktunefinder.com/tunes/108530
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

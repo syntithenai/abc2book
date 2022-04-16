@@ -1,0 +1,25 @@
+X:3
+T:The Flowers of Edinburgh, variation
+B:Flowers of Scottish Melody, 1935
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+Q:1/2=120
+K:G
+GE|DCB,A, G,B,DG|BGdB cBAG|FGAF DEFG|AFdF EFGE|
+DB,DE GFGA|BGdB eCge|dcBA GFGA|B2 G2 G2:|]
+(3def|gGBd gbag|fFAd fagf|egfa gfed|cBecd efge|
+dBGB dgfg|ecef agfe|dcBA GFGA|BGDB, G,:|]
+S:https://www.folktunefinder.com/tunes/128210
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/FlowersOfEdinburgh.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/FlowersOfEdinburgh.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/FlowersOfEdinburgh.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/tunes/Reel/FlowersOfEdinburgh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

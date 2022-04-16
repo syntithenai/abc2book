@@ -1,0 +1,22 @@
+X:6802
+T:Hardman's Jig
+S:Treoir, 1993 (from Jimmy McHugh)
+M:6/8
+I:speed 250
+K:D
+|: F | BcB {d}BAF | AFE EFE |  DFA def | afe dBA | 
+BcB {d}BAF | AFE EFE | DFA def | edB B2:|
+|: d | efe edB | AFF dFF Adf afa | bc'b afa |
+baf {b}afa | baf edB | def afe | fdB B2:|
+S:https://www.folktunefinder.com/tunes/108309
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

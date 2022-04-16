@@ -1,0 +1,29 @@
+X:18144
+T:Valse a Cadet- Valse/Walzer/Waltz
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+K:G
+GDB|G3|GDB|A3|
+cBA|GFE|DEF|E2D|
+GDB|G3|GDB|A3|
+cBA|GFE|DEF|1G3:|2G2F/G/||
+|:AA/c/B/A/|BB/d/c/B/|AA/c/B/A/|BGF/G/|
+AA/c/B/A/|BB/d/c/B/|AA/c/B/A/|G3:|
+|:B2c|ded|A2B|cdB|
+G2A|BcB|A2^G|A2D|
+B2c|ded|A2B|cdB|
+G2A|BcB|AFA|G3:|
+S:https://www.folktunefinder.com/tunes/115382
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

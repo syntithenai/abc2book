@@ -1,0 +1,28 @@
+X:11
+T:Slow Drag Rag Reel
+M:4/4
+L:1/8
+Q:1/4=130
+C:Matthew Richards
+K:F
+|:&quot;F&quot;A<c-cA c2 d2|&quot;Dm&quot;f2 a2 g2 f2|&quot;F&quot;A<c-cA
+c2 d2|&quot;Bb&quot; f2 d2 c2 A2|
+|&quot;F&quot;A<c-cA c2 d2|&quot;Gm&quot;f2 g2 a3 a|&quot;F&quot;
+ag fd &quot;Dm&quot;fd cA|
+|1 &quot;Bb&quot;G2 F2-&quot;F&quot;-F2 FA:|2 &quot;F&quot;G2 F2-&quot;Bb&quot;-F2
+cB|
+|:&quot;F&quot;A2 c2 &quot;C9&quot;d2 c2|&quot;Bb&quot;B2 d2
+&quot;F&quot;f2 B2|&quot;F&quot;A2 c2 &quot;C9&quot;d2 c2|
+|&quot;F&quot;A2 G2 &quot;G&quot;G2 FG|&quot;F&quot;A2 c2 &quot;C9&quot;d2
+c2|
+|&quot;FM7&quot;fe fg &quot;Bb&quot;ag fd|&quot;C&quot;c2 A2
+&quot;F&quot; F2 G2|1 &quot;F&quot; F6 cB:|2 &quot;F&quot;F8|
+% Output from ABC2Win Version 2.1 i on 12/22/99
+S:https://www.folktunefinder.com/tunes/116912
+S:http://www.mudcat.org/alanofoz/mbo.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

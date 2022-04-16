@@ -1,0 +1,34 @@
+X:140
+T: Shichai shaohuao yanzi duo
+N: C0231
+O: China,Sichuan, Zigong
+S: II, 248]
+N: Im Kreis Zigong gibt es viele Salzbrunnen, die stark salzhaltiges
+N: Wasser enthalten. Mit einer Tretvorrichtung wurden die Toepfe
+N: hochgeseilt. Eine nicht sehr schwere Arbeit, fuer die man schon
+N: in der Qing-Dynastie 24 Stunden lang, !) ausgenutzt wurde. Das
+N: Lied sang man, um nicht einzuschlafen. Folglich dauert ein Satz
+N: auch relativ lange.  Vereinzelt Verzierungen.  Die Original-
+N: Taktvorzeichnung war: 2/4 3/4 4/4 5/4. Wurde in FREI gendert. 
+R: Haozi, Yangong haozi, Wanzige. Dajing laodong zhong chang]
+M: none
+L: 1/16
+K: A
+b2e2c8 | b2ceb6fe^de6z2
+c2cba2b2c2a2f4
+b8 | c2a2fce2 | f2c2B4
+b8 | e2b2cec2 | b8
+b2e2c8 | b2ceb6fe^de8
+c2cba2b2c2a2f4 | b2b4z2
+b2b4z2 | b4e4b2ceb8 | f8
+S:https://www.folktunefinder.com/tunes/112567
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, yangong haozi, wanzige. dajing laodong zhong chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

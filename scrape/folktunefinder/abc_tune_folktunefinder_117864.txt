@@ -1,0 +1,34 @@
+X:90
+T:Gan Ainm
+R:Hornpipe
+S:Feeley Kearny, Tyrone (fiddle)
+D:Session tape - Buncrana 1979
+Z:Bernie Stocks
+M:4/4
+K:G
+Bc || d2^cd gdBA | G2FG D2EF | G2e2 edcB | (3ABA (3GFE D2Bc |
+d2^cd g2fe | d2BG D2EF | G2Be dDEF | G2BA G4 ::
+K:D\
+A2^GA fAGA | FAEA D2FG | A2cd e2Ac | eAce d2de |
+(3fedce d2FG | A2ce d3e | (3fedec dAFE | D2FA d4 :|
+S:https://www.folktunefinder.com/tunes/117864
+S:http://ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book2.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book2.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://www.firepowr.com/abc/Book2.abc
+S:http://www.firepowr.com/abc/Book2abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book2.abc.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

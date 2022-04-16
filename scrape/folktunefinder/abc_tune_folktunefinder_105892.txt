@@ -1,0 +1,22 @@
+X: 60
+T:Sion House
+M:3/2
+L:1/4
+B:The Round Band Book of Playford
+K:F
+"F"Fc "C7"AG/2F/2 "F"c2 | "Gm7"f>edg "C"ed/2c/2 | \
+"F"fc "Gm"dc/2B/2 "Dm"AD | "Gm"Be "Gm7"d2 "C7"c2 :: \
+"Gm"g>a gf/2e/2 "C7"de | "F"fc2d "Bb"BA | \
+"Bb"B>A Bc dA | "F"A3G "C"G2 | \
+"F"cA2"Gm"d "F"cf | "Gm"dg2d "C7"ed/2c/2 | \
+"F"fc2"Gm"b "Bb"ag | "C7"g3f "F"f2 :|
+S:https://www.folktunefinder.com/tunes/105892
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

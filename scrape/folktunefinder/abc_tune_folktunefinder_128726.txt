@@ -1,0 +1,19 @@
+X:450
+T:Millpond
+Z: id:dc-jig-76
+M:6/8
+L:1/8
+K:G Major
+E|DGG BGG|dGG BGG|DFA DFA|DFA cBA|!
+DGG BGG|dGG BGG|DFA cBA|AGF G2:|!
+B|dgg bgg|aff gee|A^ce aba|gag fed|!
+dgg bgg|aff gee|ABc dcA|AGF G2:|!
+S:https://www.folktunefinder.com/tunes/128726
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:11399
+T:Mulieira de Batribn (Arrg. D)
+R:mueira
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=80
+K:D
+"D"DFF|
+|:"D"D2 F "D"DEF|"A7"G2 E CEE|"A7"C2 E "A7"CEE|"Bm"B2 A "D"DFF|
+"D"D2 F "D"DEF|"A7"GFE "A7"DCE|"Bm"B2 A "G"GFG|"Bm"B2 A "G"dcB|
+"A"ABA "A7"GFE|[1 "D"D3 "D"DFF:|[2 "D"D3 "D"d3||:"A"cBA "Bm"B3|
+"A7"AGF "A".A2 A|
+"A"ABA "G"GFG|"Bm"B2 A "D"d3|"A"cBA "Bm"B3|"A7"AGF "A".A2 A|
+"A"ABA "A7"GFE|[1 "D"D3 "D"d3:|
+[2 "D"D3 "D"DEF||:"G"G.GG "A7"GAG|"D"FED "G"DEG|"D"FED "A7"CDE|
+"Bm"B2 A "D"DEF|"G".G.GG "A7"GAG|"D"FED "G"DEG|"D"FED "A7"CDE|
+[1 "D"D3 "D"DEF:|[2 "D"D6|"D"D6|"D"D2 z4||
+S:https://www.folktunefinder.com/tunes/99181
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

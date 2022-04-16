@@ -1,0 +1,27 @@
+X:506
+T: Wang daniang ding gang
+N: C0394
+O: China,Henan, Dengxian
+S: IV, 151]
+N: Verbreitet in ganz Nordchina. Kaum arrangiert.
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+c3cc2c2 | d2A2c4
+c3AG2c2 | AGF2G4
+G2c2G2c2 | AGF2G4
+A3AA2A2 | A2D2F4
+F3DF4 | GFD2C4
+CDF2CDF2 | DCDFC4
+S:https://www.folktunefinder.com/tunes/112933
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

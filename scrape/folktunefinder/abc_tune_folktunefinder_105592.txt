@@ -1,0 +1,23 @@
+X:37
+T:We'll All Away to Sunniside
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:C
+f | eccf | ecgc | ecgc | A2 ff | edcf |
+ecgc | BddB | G2 Bg | eccf | 
+ecgc | ecgc | A2 f2 | edcf | ecgc | 
+BddB | G2 B :: B | AcBd | cedf |
+ecgc | A2 c2 | AcBd | cedc | BGdB | 
+G2 B2 | AcBd | cedf | ecgc | A2 c2 | 
+AcBd | cedc | BGdB | G2 B2 :|
+S:https://www.folktunefinder.com/tunes/105592
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

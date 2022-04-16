@@ -1,0 +1,32 @@
+X:4857
+T:Entroito (XA 37)
+R:Entroito
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 37
+M:3/8
+L:1/8
+Q:3/8=50
+K:C
+c
+|: G A/B/A/B/|~GGc|G A/B/A/B/|G A/~G/F/~E/|D/E/F/G/F/D/|[1 .E~Ec :|[2 .E~E E/D/|
+|: CE G/F/|.D~D D/C/|B,D G/E/|CC ~E/D/ :|
+|CE G/F/|D~D D/C/|B,D G/E/|C2 G/F/|
+|: ~EG A/~G/|F2 ~F/E/|D/E/F/G/F/D/|[1 .E~E G/F/ :|[2 .E~E E/D/|
+|CE G/F/|.D~D D/C/|B,/C/D/E/F/G/|
+|: CC ~E/D/|C/D/E/F/G/F/|.D~D D/C/|B,/C/D/E/F/G/ :|C2 z|
+S:https://www.folktunefinder.com/tunes/123640
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Entroito
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

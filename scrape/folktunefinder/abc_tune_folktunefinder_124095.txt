@@ -1,0 +1,23 @@
+X:5312
+T:Flat Cap
+B:Walsh
+M:3/2
+L:1/8
+N:
+K:F
+DEFG A2 D2 FG A2| c2 G4 C2 EFGE| DEFG A2 D2 FG A2| c2 A4 GF EFGE::\
+DEFG ABAG ABAG |c4 C4 C2 EFGE|DEFG ABAG ABAF| d2 A4 GF EFGE::\
+f2 d2 g2 e2 f2 d2 | g2 e4 c2 efge|f2 d2 g2 e2 f3 d |d2 A4 GF EFGE::\
+defd efge fgaf | g2 e4 c2 efge|defd efge agfe |d2 A4 GF EFGE::\
+F2 A2 G2 B2 F2 A2| c2 A4 C2 EFGE|F2 A2 G2 B2 F2 A2| e2 A4 GF EFGE:|
+S:https://www.folktunefinder.com/tunes/124095
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:220
+T:Fair Jenny's Jig
+M:6/8
+L:1/8
+K:D
+A|f3 fg(f|e)c(A e)c(A|B)c(d e)cA|Bc(d e2) A|\
+f3 fe(d|e)c(A e)c(A|B)cd e2 A|AB(c d2) A:|
+|:B3 B=cB|GBB B=cB|AD(D d)(DD|c)D(D A)DD|\
+B3 (B=cB)|GBB B=cB|(AEA) AB^c|dA(F D2) A :|
+S:https://www.folktunefinder.com/tunes/120978
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:316
+T:Jackson's Jig
+R:jig
+S:Live recording of Matt Molloy from Miltown -82
+D:Matt Molloy: Stony Steps (1987)
+Z:hn-jig-316
+M:6/8
+K:G
+{c}BG{F}G Bcd|ecc efg|dcB {f}gdB|A{c}BG ABc|
+.B2G Bcd|ecc efg|dcB {f}gdB|{c}BAF ~G3|
+.B2G Bcd|ecc efg|dcB {f}gdB|~A3 ABc|
+.B2G Bcd|ecc efg|dcB {f}gdB|{c}BAF .G3||
+~g3 {c'}bag|{fa}fed ^cde|dcB {f}gdB|A{c}BG AB/c/d|
+.g2g {c'}bag|{fa}fed ^cde|dcB {f}gdB|{c}BAF .G3|
+~g3 {c'}bag|{fa}fed ^cde|dcB gdB|ABG ABc|
+.B2G Bcd|ecc efg|dcB {f}gdB|{c}BAF .G3||
+S:https://www.folktunefinder.com/tunes/117192
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X: 54
+T:All on the Tongo Island. GS.054
+T:King of the Cannnibal Islands,aka. GS.054
+T:Nottingham Swing,aka. GS.054
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig,See Notes
+O:England
+A:Leeds
+N:CGP.I have difficulty quite often in assigning a "Rhythm" to a tune,
+N:and they end up as "miscellaneous" as in this case. The problem here is
+N:that the tune is not used for a jig or a quadrille dance nowadays (if
+N:ever) but is very strongly associated with the dance "Nottingham
+N:Swing",a hop-step dance usually done to Schottisches or Spotty
+N:Hornpipes eg Keel Row, Nae guid Luck(!a 6/8 tune).
+H:1831
+Z:vmp.Cherri Graebe
+K:C major
+G | e2d c2 B | "qu"c2 A G2 E | (FE) F D2 F | E2FG2c | A2Fc2A | A2Fc2c |
+(Bc)d G2B | c3 "pause" c2||
+d | e2ee2d | e2ee2d | e2ef2e | d2dd2B | c2cc2B | c2cc2B | c2 A d2 c | B2
+A G2 B ||!
+ ccc (BA)G | A2Bc2B |  ccc BAG | A2Bc2^c  | d2^cd2c | d2d (de
+) ^f | g2G GAB | c3 c2 ||
+S:https://www.folktunefinder.com/tunes/104728
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Jig,see notes
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

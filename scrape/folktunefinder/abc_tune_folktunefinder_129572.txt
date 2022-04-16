@@ -1,0 +1,33 @@
+X: 28
+T:Hurra For The Bonnets of Blue. BF12.28
+M:6/8
+L:1/8
+C:Browne "C" hand
+S:MS12,c1835,Browne Coll.,Lakes
+R:Jig
+O:England
+A:Lakes
+N:Key signature is given as D flat on second line down, A flat in 3rd
+N:space down. *.Lower part of bottom stave is missing, so note lengths
+N:in
+N:last  5 bars and last 4 notes are guesswork.
+Z:vmp.Cherri Graebe.
+K:Bb major
+D|BcB (def)|FGF FGA|B2g fdB|(c3c2)F|!
+BcB (def)|FGF F2g|fed cBc|(B3B2):|!
+|:B|(ABc) (cdc)|(F3F2)B|(ABc) cd=e)|f3f2e|!
+dcd BGA|B2cd2g|(gec) (BcA)|(G3G2)F|!
+BcB"*" dfd|(B3B2)F|B2g gdB|(c3c2)e|!
+dcd Bcd|(efg)f2g|fed c2c|(B3B2)|]
+S:https://www.folktunefinder.com/tunes/129572
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

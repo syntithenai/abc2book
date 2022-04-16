@@ -1,0 +1,20 @@
+X: 246
+T:Cooley's Hornpipe
+C:Paddy O'Brien of Tipperary
+D:Inishkeeragh by Brenda McCann
+M:4/4
+L:1/8
+K:G
+(3def |:g2~G2  (3EFG DC|B,G,B,D GBdg|~e2ce ~d2Bd|(3cBA BG A2 (3def |
+g2~G2  (3EFG DC|B,G,B,D GBdg|ecAG FAdc|[1 B2G2 G2 (3def :|[2 B2G2 G3A|
+|:BGBd edBd|~g2bg eg d^c |dege dBGB|(3cBA BG Ad^c=c|
+BGDC  B,DG=F|EG,CE DGBD|gfge dB (3cBA|[1 B2G2 G3A:|[2 B2G2 G4:|
+S:https://www.folktunefinder.com/tunes/112064
+S:http://www.alfwarnock.info/alfs/abc/accw03.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

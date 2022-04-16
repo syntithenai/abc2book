@@ -1,0 +1,25 @@
+X:6
+T:Columbia, the Gem of the Ocean
+% Four-part piano arrangement for standard notation.
+%%titlespace 30pt
+%%LineSep 20pt
+C:David T. Shaw/David T. Shaw
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 12.0
+K:G
+V:1 clef=treble
+"^Spirited"D3/2- D/2 | G2 G > G A2 d > c | B G2 z z2 D- D | E2 e d cB A G | (G4 F2) z
+S:https://www.folktunefinder.com/tunes/113422
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

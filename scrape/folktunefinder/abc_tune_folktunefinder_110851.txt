@@ -1,0 +1,34 @@
+X:4
+T:Dont vient cela
+T:(Basse dansse 1)
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+M:3/2
+L:1/2
+T:Bassus
+K:C bass
+d2d|d2d|G2G|A2A|Adc/2_B/2|AG/2A/2 _B/2c/2|dc2|F2z|
+%
+ddd|d2G|c2c|A2G|F>G A/2_B/2|c2d|_BA2|d2z:|
+%
+|:ddd|d>fe|Ae2|A2z|ddd|AcG|dc2|F2z|
+%
+ddd|d>fe|Ae2|A2z|ddd|dcd|_BA2|d2z:|
+%
+ddf|cGc|dA2|d2z|ddd|c2c|d_B2|A2z|
+%
+F>G A/2B/2|cGc|dA2|d2z|Adc|F/2G/2A/2B/2c|dA2|d2z|
+%
+c>d c/2F/2|c2z|c>de|d2z|d2d|d>c A/2B/2|cd_B|A2z|
+%
+c>d c/2F/2|c2z|c>de|d2z|d2d|dcd|_BA2|d3|]
+S:https://www.folktunefinder.com/tunes/110851
+S:http://www.laymusic.org/music/susato/1/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

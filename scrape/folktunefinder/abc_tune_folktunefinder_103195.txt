@@ -1,0 +1,31 @@
+X:3
+T:Menuet
+C:Georg Friedrich Hndel
+O:1685 - 1759
+M:3/4                           % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:D                           % key
+%%continueall 1
+%%staves 1 {2 3}
+V:1                          % voice 1
+fff | ff/g/f/g/ | aaa | (a3/g//a//)b | ggg | (g3/f//g//)a | ff/f/f/f/ | f3 ::
+aaa | abc' | d'd'/d'/d'/d'/ | d'2a | bag | fed | eA/A/A/A/ | A3 | f/g/ag/f/ |
+e/f/gf/e/ | f/g/ag/f/ | e/f/gf/e/ | f/g/ag | fg/f/e/f/ | dd/d/d/d/ | d3 :|
+V:2
+ddd&[AF][AF][AF] | dd/e/d/e/&[AF]cd | fff&ddd | f3/e//f//g&d3 | eee&[BG]B[BG] | e3/d//e//f&cA2 |
+dd/d/d/d/&[AF][A/F/][A/F/][A/F/][A/F/] | d3&[A3F3]::
+FFF&x3 | EEA&xxE | FF/F/F/G/&D3 | A2f&D2d | gfe&Bde | dcd&FAB | cA/A/A/A/&EC/C/C/C/ | A2c&CEA |
+d/e/fe/d/&A2A | c/d/ed/c/&Ac2 | d/e/fe/d/&A2A | c/d/ed/c/&Ac2 | d/e/fe&AFc | dAA&ADE | AA/A/A/A/&FF/F/F/F/ | A3&F3 :|
+V:3
+D,DC | DA,B, | F,F,F, | B,3 | E,G,E, | A,C,A,, | D,D,/D,/D,/D,/ | D,F,A, ::
+DD,D | CC,C | B,B,B, | F,2D, | G,B,,C, | D,F,B, | A,A,/A,/A,/A,/ | A,CA, |
+DD,F, | A,A,,2 | DD,F, | A,A,,2 | DD,A, | DF,A, | D,D,/D,/D,/D,/ | D,3 :|
+S:https://www.folktunefinder.com/tunes/103195
+S:http://michel.bellon.free.fr/Musique/abc/watermusic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

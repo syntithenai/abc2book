@@ -1,0 +1,26 @@
+X:19
+T:Colored Aristocracy
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:A
+|:EF|\
+"A"A2AA "E"FEFE|"A"A2AB cBAB|c2c2"E"~B2A2|"F#m"F3F F2de|
+"D"f2fe fdfe|"A"ecec2BA2|1"B7"B2f^d fdfd|"E"B2g2g2:|2\
+"A"ABc"E"e2cB2|"A"A4A2||
+|:(3efg|\
+"A"agab "E"afec|"F#m"fefc2BAe|ecfc ecFc|"C#m"EcFcEcFc|
+"D"Af2f f3f|"A"ecec2BA2|1"B7"B2f^d fdfd|"E"B2g2g2:|2\
+"A"ABc"E"e2cB2|"A"A4A2|]
+S:https://www.folktunefinder.com/tunes/118829
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

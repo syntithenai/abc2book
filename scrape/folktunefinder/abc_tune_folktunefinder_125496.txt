@@ -1,0 +1,22 @@
+X: 27
+T:Garrett Barry's Jig
+M:6/8
+L:1/8
+R:Double Jig
+K:DMix
+DEF ~G3|AGE ~c3|dcA d2e|fed cAG|!
+~F3 GFG|AGA cde|dcA GEA|DED D3:|!
+|:dcA d2e|fed ege|dcA c2d|efd ecA|!
+dcA d2e|fed ege|dcA GEA|DED D3:|]!
+S:https://www.folktunefinder.com/tunes/125496
+S:http://www.geocities.com/novairishsession/bw/bwdjigs.txt
+S:http://www.novasession.com/bw/bwdjigs.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

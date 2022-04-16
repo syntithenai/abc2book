@@ -1,0 +1,23 @@
+X: 2
+T:The Sylph
+M:2/4
+L:1/16
+S:AABB x 2
+R:Polka or 2/4 Reel
+K:G
+||:"D"d2|"G"BcBA G2D2|"G"GABc d2g2|BcBA G2AB|"D"c2A2A2d2|!
+"G"BcBA G2D2|"G"GABc "D"defg|"C"edcB "D"ABcd|"G"B2G2 G2:||!
+d2|"Em"g3a b2ag|"D"a2f2d2f2|"Em"g3a b2ag|"D"a2d2d2f2|!
+"G"gfga bagf|"C"edef gfed|"Am"e3c "D"ABcd|"G"B2G2 G2:||
+S:https://www.folktunefinder.com/tunes/125231
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm Polka or 2/4 reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

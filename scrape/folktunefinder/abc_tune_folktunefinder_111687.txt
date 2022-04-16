@@ -1,0 +1,35 @@
+X:790
+T:Kid on the Mountain, The
+M:9/8
+R:SlipJig
+L:1/8
+Z:O'Neill's
+D:asin=B000000DV4(Tommy Peoples: High Part Of The Road)
+D:anop=B00000249N(Barnes, Hampton: Celtic [BOX SET])
+D:asin=B000005CU6(The Bothy Band: BBC Radio One: The Bothy Band Live In Concert)
+D:asin=B000002NNX(Alison Kinnaird: The Harp Key)
+D:asin=B000005CRW(The Bothy Band: Old Hag You Have Killed Me)
+D:asin=B000005CS2(The Bothy Band: After Hours (Recorded Live In Paris))
+D:asin=B000009DEE(Gaelic Storm: Gaelic Storm)
+D:anop=B000000DV3(Tony MacMahon: Traditional Irish Accordion)
+D:anop=B000000E65(Tannahill Weavers: The Well Below The Valley)
+D:anop=B000008A3X(Emerald Girls Pipe Band: Irish Fiddles &amp; Pipes [IMPORT])
+K:G
+~E3 ~F3 G2F|~E3 BcA BGE|~E3 ~F3 G2A|BAG FAG FED::\
+BGB AGF G2D|GAB dgf dBG|~B3 AGF G2A|BAG FAG FED::\
+gfg ede e2f|~g3 efg afe|1 gfg efe e2g/2a/2|bag fag fed:|2\
+~g3 agf g2a|bag f/2g/2ag fed|:\
+eBe e2f ~g3|eBe efg afd|eBe e2f g2a|bag f/2g/2ag fed::\
+edB dBA G2D|GAB dge dBA|edB dBA G2A|BAG FAG FED:|
+S:https://www.folktunefinder.com/tunes/111687
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

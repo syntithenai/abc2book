@@ -1,0 +1,35 @@
+X: 139
+T: Blue Jig, The
+C: J-61
+C: Joel Mabus
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Am
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc|
+"A7"A3 cBA| cBA a3| age "D7"cAG| "E7"_EDC "A"A,3:|
+|:\
+"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe| ^ce^f gfe|
+"D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+%%textfont Times-Bold 10.0
+%%text Alternate B:
+%%textfont Times-Roman 9.0
+|:\
+^FAB cBA| ^FAB cBA| ^ce^f [Af][Ag][Ag]| [A^f][Ag][Ag] [Ag][Af][Ae]|
+^FAB cBA| ^FAB cBA| age cAG| _EDC A,3 :|
+%%text 9/1/98. From 'Rum and Onions' band by way of Aline Pepper
+% ---------- page 73 ----------
+S:https://www.folktunefinder.com/tunes/106894
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

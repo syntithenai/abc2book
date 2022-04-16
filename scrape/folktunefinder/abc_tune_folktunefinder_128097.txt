@@ -1,0 +1,32 @@
+X: 99
+T: THE FAIR AT DUNGARVAN
+B: O'Neill's 99
+M: 3/4
+L: 1/4
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: "Collected by F.O'Neill"
+K:G
+(B/A/) \
+| GED | GBd | e2e | dBA \
+| GBA | G2G | G3- | G2 ||
+|| B \
+| (d2B) | def | g2g | fed \
+| efe | edB | d3- | d2B |
+| (d2B) | def | g2a | age \
+| edB | BAG | A3- | A2(B/A/) |
+| GED | GBd | e2e | dBA \
+| GBA | G2G | G3- | G2 ||
+S:https://www.folktunefinder.com/tunes/128097
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0051-0100_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0099_jc.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/0099_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

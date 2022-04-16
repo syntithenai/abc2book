@@ -1,0 +1,31 @@
+X: 37
+T:The King of the Fairies
+% Nottingham Music Database
+S:Fiddler's Fakebook, via PR
+M:4/4
+L:1/4
+K:Em
+B,|"Em"E/2D/2E/2F/2 G/2F/2G/2A/2|B/2c/2B/2A/2 G/2F/2G/2A/2|\
+B/2E/2E E/2F/2G/2E/2|"D"F/2G/2F/2E/2 DB,|
+"Em"E/2D/2E/2F/2 G/2F/2G/2A/2|"Em"B/2A/2G/2B/2 "D"d/2e/2d/2c/2|\
+"Em"BE "D"G/2F/2E/2D/2|"Em"E3:|
+d|(3"Em"e/2g/2e/2B B/2d/2e/2f/2|g/2a/2g/2f/2 e/2d/2e/2f/2|"Em"eB BB/2^c/2|\
+"D"d/2e/2d/2=c/2 B/2c/2d/2B/2|
+"Em"eB B/2d/2e/2f/2|g/2a/2g/2f/2 e/2f/2e/2d/2|\
+"Em"B/2d/2(3e/2f/2g/2 "D"f/2e/2(3d/2e/2f/2|"Em"e3e/2f/2||
+"G"gg "D"ff|"G"e/2d/2B/2c/2 "D"dd/2e/2|"D"d/2B/2A/2F/2 "G"G/2A/2B/2c/2|\
+"D"d/2B/2A/2F/2 G/2F/2E/2D/2|
+"Em"B,E E/2F/2G/2A/2|Be/2f/2 e/2d/2e/2f/2|"Em"eB "D"B/2A/2G/2F/2|"Em"E3||
+S:https://www.folktunefinder.com/tunes/107985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

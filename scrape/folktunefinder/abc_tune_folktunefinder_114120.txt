@@ -1,0 +1,40 @@
+X:54
+T:Here's to the Maiden of Bashful Fifteen
+C:Arr. John Ciaglia, 1988
+%%staves [1 2]
+M:6/4
+L:1/4
+Q:1/4=160
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D>E D d>c d|B>A B A3|D>E D d>c d|B3 A3|D>E D d>c d|B>A B A2 F|
+G>B G F>A F|E3 D3||D>E D d>c d|B>A B A3|D>E D d>c d|B3 A3|D>E D d>c d|
+B>A B A2 F|G>B G F>A F|E3 D3||F>G A A3|A>G F E2 D|F>G A A>B A|G>F E D3|
+F>G A A3|A>G F E2 D|F>G A B>c d|F G E D3||F>G A A3|A>G F E2 D|F>G A A>B A|
+G>F E D3|F>G A A3|A>G F E2 D|F>G A B>c d|F G E D3||D>E D d>c d|B>A B A3|
+D>E D d>c d|B3 A3|D>E D d>c d|B>A B A G F|G>B G F>A F|E3 D3||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI ratio 3 1
+!p!F>G F f>e f|g>f g f3|F>G F f>e f|g3 f3|F>G F f>e f|g>f g f2 d|
+e3 d3|c3 d3||d>A F D>E F|G>d g f>e d|d>A F D>E F|G>A B c>d e|d>A F D>E F|
+G>d g f2 d|e>d c d2 A|G>F E D3||d>e f f3|f>e d A3|d>e f f>g f|e>d c d3|
+d>e f f3|f>e d A3|d>e f f>e f|A B c d3||d3 f>e d|d3 c>B A-|A>G F F>D F|
+A>B c d>e f|d3 f>e d|d3 c>B A-|A>G F F>D F|A B c d3||(d c) B A G F|G g2 f>e d|
+(d c) B A G F|G>B d c>(de)|d c>(Bc)A>(F|G) g2 f>e ^d|e B c d F G|A B c d A D||
+S:https://www.folktunefinder.com/tunes/114120
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 11
+T:Cuckoo's Nest
+% Nottingham Music Database
+S:Song
+M:4/4
+L:1/8
+R:Hornpipe
+K:Dm
+"Dm"D2DE DCA,C|"Dm"DCDE F2"C7"FA|"F"c2cd A2GF|"C"ECCC C2"A7"FE|
+"Dm"D2DE DCA,C|"Dm"DCDE F2"C7"FG|"F"ABcA "A7"GFEF|"Dm"E2"Gm"D2 "Dm"D2||
+S:https://www.folktunefinder.com/tunes/129803
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+S:http://ifdo.ca/~seymour/runabc/abcmatch_html/loch.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/abcmatch_html/loch.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

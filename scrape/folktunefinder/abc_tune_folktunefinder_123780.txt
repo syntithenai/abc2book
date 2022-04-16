@@ -1,0 +1,39 @@
+X:4997
+T:Fandangu (CT 131)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita (Fandangu), transcrito en Uviu.
+N:A ste y a todos los bailes de gaita que tienen una medida yuna distribucin rtmicas anlogas, se les designa con el nombre de "fandangu".
+N:Es tal vez el baile ms usado en Asturies, y su ejecucin vara muy poco en los distintos pueblos de la provincia, dependiendo solamente de la agilidad que el bailador tenga para hacer con los pies figuras complicadas.
+N:La colocacin de los bailadores y de los instrumentistas -gaitero y tamborilero- se hace del mismo modo que en los bailes de pandero.
+N:Se repite la meloda cuatro, cinco o ms veces, y a cada repeticin, los bailadores complican los movimientos de los pies, multiplicando los cruces, los saltos, etc.
+N:Mientras la gaita y el tambor ejecutan la primera parte de la meloda, los bailadores hacen el "paseo", explicado ya en los bailes de pandero, comenzando el baile con la segunda parte, una vez hecho "el patageyu", especie de saludo que consiste en aproximarse la pareja y dar una vuelta girando sobre los pies.
+N:Al final de cada baile se maquila, o sea, se da una vuelta como la anterior, terminndola el hombre rodeando con un brazo la cintura de la mujer.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 131
+M:3/8
+L:1/8
+Q:3/8=80
+K:G
+d3|:BB/G/ B|Bc/c/ B/G/|A/B/A/G/ A|Ac A|
+BB/G/ B|Bc d|BB/G/ B|Bc d|AA/G/ A|
+Ad/e/ d/B/|G3|BB/B/ B|cd e|B/c/B/A/ B|
+cd e|A/B/A/G/ A|Ad/e/ d/B/|G3||dd/B/ d|
+dg/g/ f/g/|d/e/d/B/ d|dg/g/ f/g/|e/f/e/c/ e|dg/g/ f/g/|
+d/e/d/B/ G|Gc/c/ c/d/|AA/G/ A|Ac d|BB/A/ B|
+Bc d|BB/A/ B|Bc d|AA/G/ A|Ad/e/ d/B/|[1 G3:|[2 Gd2-|d3||
+S:https://www.folktunefinder.com/tunes/123780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

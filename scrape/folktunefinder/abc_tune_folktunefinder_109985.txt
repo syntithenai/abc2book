@@ -1,0 +1,25 @@
+X:47
+T: Der Tannhaeuser
+N: Q0015E
+O: Mitteleuropa, Deutschland
+N: "umgesungene" Fassung von Q0015B aus dem Zupfgeigenhansel.
+R: Ballade, Wallfahrt, religioes
+M: 4/4
+L: 1/8
+K: E
+B,2 | E2D2E2F2 | E2C2B,2
+B,2 | A3BA2B,2 | G2B2G2
+B2 | G3AB2E2 | F2G2A2
+F2 | G2E2C2GE | D4E2
+S:https://www.folktunefinder.com/tunes/109985
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, wallfahrt, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

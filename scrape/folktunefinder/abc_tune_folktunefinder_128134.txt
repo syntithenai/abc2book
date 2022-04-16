@@ -1,0 +1,25 @@
+X:180
+T: THE STORMY VOYAGE
+B: O'Neill's 86
+M: C
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "With spirit"
+K: Dm
+((3A=B^c) \
+| (d3e) f2e2 | (d3c) A2(GE) | (D3E) F2G2 | A6 A2 |
+| (d3e) f2e2 | d3c A2(GE) | A2(GE) D2D2 | D6 ||
+|| (AG) \
+| F2F2 F2(ED) | E2E2 E2(D^C) | (D3E) F2G2 | A6 A2 |
+| (d3e) f2e2 | d3c A2(GE) | A2(GE) D2D2 | D6 ||
+S:https://www.folktunefinder.com/tunes/128134
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0051-0100_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

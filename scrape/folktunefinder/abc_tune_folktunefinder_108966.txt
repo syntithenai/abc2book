@@ -1,0 +1,35 @@
+X:16
+T:Blow the Wind Southerly
+S:Digital Tradition, blwsouth
+D:Recorded by Jo Stafford.
+M:6/8
+L:1/8
+Q:3/8=80
+W:  Chorus:
+W:  Blow the wind southerly, southerly, southerly
+W:  Blow the wind south o'er the bonnie blue sea;
+W:  Blow the wind southerly, southerly, southerly
+W:  Blow, bonnie breeze, my lover to me.
+W:
+W:They told me last night there were ships in the offing
+W:And I hurried down to the deep rolling sea;
+W:But my eye could not see it wherever might be it
+W:The bark that is bearing my lover to me.
+W:
+W:  So,
+W:  Chorus
+K:G
+B3/2A/G DB,D|ECE DB,D|B3/2A/G DB,D|EAF G3|
+B3/2A/G DB,D|ECE DB,D|B3/2A/G D-B,D|EAF G2B|
+BBd AAd|GAG FED|BBd AAd|^cBc d2d/d/|
+eee ddd|ccc BAG|B3/2A/G EcB|AGF G3||
+S:https://www.folktunefinder.com/tunes/108966
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/dt-songs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

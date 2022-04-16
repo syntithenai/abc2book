@@ -1,0 +1,30 @@
+X:90
+T:the New White Hart Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002eb.html
+%%ID:000002eb
+K:D
+P:1
+d2 Bc dBAG  FGAF | G2 E2 efed  c2 A2| BcdB  ABAG  FGAG  | F2 D2 D2 c2 d4 ||
+P:2
+d2 de fefg  fgad | c2 a2 B2^g2 a2 ed| cdec  d2 cB ABA=G | FGAF  D2 c2 d4 ||
+P:3
+dA F2 BG E2 AF D2| cdef  e2 E2 FGAF | d2 A2 B2 G2 A2 F2 | gfed  cdec  d4 |]
+S:https://www.folktunefinder.com/tunes/110734
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

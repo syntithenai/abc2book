@@ -1,0 +1,28 @@
+X: 32
+T: Gaspe Reel
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/16
+K: D
+|:\
+"D"f2ef e2d2|DFAF ~B2A2|"G"g2fg f2e2|"A"BABc ~B2A2|
+"D"f2ef e2d2|DFAF ~B2A2|"G"g2fg "A"feBA|B2c2 "D"d4:|
+|:\
+"A"e2f2 gfe2|"D"f2g2 a4|"Em"e2f2 gfe2|"G"BABc "A"~B2A2|
+"A"e2f2 gfe2|"D"f2g2 a4|"Em"e2f2 "G"gfeA|"A"B2c2 "D"d4:|
+S:https://www.folktunefinder.com/tunes/113041
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:1 
+T:Australian Waters #1
+R:jig
+Z:C. McGrew from M.Bogner's transcription of Altan
+M:6/8
+Q:3/8=120
+K:D
+e |dDD FED| =ccc ed^c| dAF GFE| FED fge|
+dDD FED| =cBc ed^c| dAF GFE| FDC DF :| 
+A | dcd efg| fed cBA| dcd efg| fdc def|
+gbg faf| ecA ABc| dAF AFD| FDC DFA :|
+S:https://www.folktunefinder.com/tunes/130098
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/AustralianWatersNo1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

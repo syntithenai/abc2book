@@ -1,0 +1,25 @@
+X: 4
+T:Cornbeef and Cabbage
+M:6/8
+L:1/8
+Q:160
+C:Charles Jemmett
+R:Jig
+K:D
+D/2E/2|"D"F3 DEF|"G"GAB "D"AGF|"G"B,CD "D"DEF|"Em"AGF "A"E3|
+"D"F3 DEF|"G"GAB "A"ABc|"D"dAF "A"AGE|"D"FDD D2::
+ (3 A/2B/2c/2 |"D"d3     dcB|AdA FED|"Bm"ded dcd|
+"Em"ecB "A"A2  (3 A/2B/2c/2 | "D"d3 dcB|ABA FED|
+dAF "A"AGE|"D"FDD D2:|
+S:https://www.folktunefinder.com/tunes/119742
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

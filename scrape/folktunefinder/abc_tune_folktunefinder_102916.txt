@@ -1,0 +1,29 @@
+X:1
+T:Polska
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 318)
+N:Svenska Ltar, Band 18 nr 318
+O:Petersson, Nttraby
+C:Alfred Petersson
+S:Svenska Ltar
+R:Polska
+M:3/4
+L:1/16
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:F
+A4 (FG).A.B (AB).c.d|c2cd B2Bc A2c2|f4 (fe).f.g a2f2|
+(ga).g.f (ef).e.d (cd).c.B|A4 (FG).A.B (AB).c.d|c2cd B2Bc A2c2|
+f4 (fe).f.g a2f2|(gb)eg g4 f2 z2::c4 (cd).e.f (ge).c.e|
+(af).c.f (af).c.f (af).c.f|(bg).e.g (bg).e.g (bg).e.g|(af).c.f (af).c.f (af).c.f|
+A4 (FG).A.B (AB).c.d|c2cd B2Bc A2c2|f4 (fe).f.g a2f2|(gb)eg g4 f2 z2:|
+S:https://www.folktunefinder.com/tunes/102916
+S:http://www.folkwiki.se/pub/cache/Polska_484d64.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

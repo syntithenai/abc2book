@@ -1,0 +1,28 @@
+X: 54
+T:Puddlegum's Misery
+% Nottingham Music Database
+S:John Kirkpatrick
+M:4/4
+L:1/8
+R:Hornpipe
+K:Am
+P:A
+(3G_GF|"E7"E2e2 _e2d2|"Am"cBAB c2BA|"E7"^GEGB eBGE|"Am"AEAc ecAc|
+"E7"E2e2 _e2d2|"Am"cBAB "F"c2BA|"E7"^GEGB edcB|"Am"A2A2 A2:|
+P:B
+(3B_BA|"G7"G2g2 _g2f2|"C"edcd e2dc|"G7"BGBd gdBd|"C"cBcd edcA|
+"G7"G2g2 _g2f2|"C"edcd e4|(3"E7"EFE^DE edcB|"Am"A2A2 A2:|
+S:https://www.folktunefinder.com/tunes/129846
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

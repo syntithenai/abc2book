@@ -1,0 +1,29 @@
+X:56
+T:Hora doua de la goicea
+O:rumania
+C:Roemeni\^a
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+"D" c/d/ d/A/c/d/ d/A/|d f"A" e3/2 c/|"D" c/d/d/ A/c/d/d/ A/|df "A" e3/2 c/|
+"D" c/d/d/ A/c/d/d/ A/|df "A" e3/2 c/|"D" d(A A)B/c/ |1 d2 d2 :|2
+d2 d/e/f/g/ || |:"D" ab ag |df/d/ "A" e2 |d"D" f/d/ df/d/ |
+{c/}"A" e2 {c/}a2 |"D" ab ag |fe/d/ "A" e2 |d(A A)B/c/ |
+|1 "D" d2 d/e/f/g/ :|2 d2 d2 ||
+V:2          %2e stem
+dd dd |df e3/2 z/|dd dd |df e3/2 z/|
+dd dd |df e3/2 z/|d(A A)B/c/ |1 d2 d2 :|2
+d2 z2 || |:ab ag |df e2 |df df |
+e2 a2 |ab ag |fe e2 |d(A A)B/c/ |
+|1 d2 z2 :|2 d2 d2 ||
+S:https://www.folktunefinder.com/tunes/111287
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

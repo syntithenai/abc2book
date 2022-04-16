@@ -1,0 +1,33 @@
+X:141
+T:Val
+%%MIDI gchord c2cc
+%%MIDI program 72
+%%MIDI chordprog 54
+C:Colin Hume, 2002
+N:For Val McFarlane
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=75
+%%MIDI chordname 7sus 0 5 7 10
+K:Gm
+P:A
+|: "Cm"e d/2c/2 "Gm/Bb"dB | "D/A"cA "Gm"BG | "Cm"A G/2B/2 "D"A2 | "Cm/Eb"c A/2e/2 "D/F#"d2 |\
+"Gm"d c/2d/2 "Cm"ed | "F/A"cf "Bb"d2 | "Gm"B A/2B/2 "Cm"cB | "D7sus"A- "D7"A "Gm"G2 :|
+K:G
+P:B
+|: "G"B B/2c/2 "^/"dg | "D"f3/2e/2 "^/"d2 | "Am"A G/2B/2 "D"A2 | "Am"c A/2e/2 "D"d2 |\
+"C"e e/2f/2 "G/B"gg | "Am"ag/2a/2 "E/G#"b2 | "Am"c'e "C"ef/2g/2 | "D7"a2 "G"g2 :|
+S:https://www.folktunefinder.com/tunes/110188
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

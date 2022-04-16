@@ -1,0 +1,22 @@
+X:185
+T:Plodder Seam
+% Nottingham Music Database
+S:Eric Foxley
+M:3/4
+L:1/4
+K:C
+e/2d/2|"C"c2d|"C"egg|"F"f2a|"G7"g2f|"C"ecc|"G7"B2d|"C"c3-|"C"cga|
+"Bb"_b3/2b/2b|"Bb"ga_b|"C"c'2c'|"C"e3/2d/2e|"F"f2f|"F"a2a|"C"g3-|"Cm"gga|
+"Bb"_b3/2b/2b|"Bb"ga_b|"C"c'2c'|"C"e3/2d/2e|"F"f2f|"Dm"a2a|"G7"g3/2a/2g|
+"G7"fed|"C"c2d|"C"egg|"F"f2a|"G7"g2f|"C"ecc|"Bb"_B2d|"C"c3-|"C"c2||
+S:https://www.folktunefinder.com/tunes/109217
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T:Are Ye Sleepin' Maggie
+M:4/4
+L:1/4
+Q:120
+C:Robert Tannahill
+K:G
+z|"Em"B,>E E> G|"Bm"F> E D> F|G E ("Em"G/2F/2) (E/2D/2)|B,< G F< E|!
+"Em"B,<E E> G|"Bm"F> E D> F|("Em"G< E) (G/2F/2) (E/2D/2)|B,< G F< E|!
+"[Ch.]"B2 ("Em"E/2F/2) (G/2A/2)|B< B (B/2A/2) G|"D"A2 ("Bm"D/2E/2) (F/2G
+/2)|"D"A< d ("Em"B/2A/2) (G/2F/2)|!
+"Em"E> F G A|B> A G A|B E (G/2F/2) (E/2D/2)|B,< G "Bm"F> E|!
+% Output from ABC2Win  Version 2.1 i on 10/4/2000
+S:https://www.folktunefinder.com/tunes/124383
+S:http://chivalry.com/cantaria/music/maggie.abc
+S:http://www.chivalry.com/cantaria/music/maggie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

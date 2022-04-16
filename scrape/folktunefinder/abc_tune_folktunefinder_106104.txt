@@ -1,0 +1,48 @@
+X:250
+T:Valley Near Sliavnamon, The
+M:2/4
+L:1/8
+S:M. Flanagan, Dublin
+R:Air
+K:G
+"Andantino Calamato" d|d2 ed|G2 DG|B2 cd|E2 AG|F2 DE|
+F B2 A|G3 d|d2 ed|G2 DG|B2 cd|E2 AG|F2 DE|
+F B2 A|G2-G||G|A2 AB|c3 c|BGGA|B2 BB|^c2 AB|^c f2 e|
+d3 d/2d/2|ed ^cd|G2 EG|B2 cd|E2 AG|F2 DE|F B2 A|G2-G||
+%
+% This fine air which runs to the unusual number of 14 bars in each part
+% was sent me by a Dublin friend, Mr. M. Flanagan, a distinguished
+% linguist and scholar. In his leisure moments, he enjoys the music of
+% his  fiddle, and  union pipes, being a skillful perfomer on both
+% instruments.  A brief sketch of his eventful life appears in Irish
+% Minstrels and Musicians.
+% Whether suitable to the meter of the melody or not, Mr. Flanagan's
+% charming verses will be no less appreciated than his music:
+%     Alone, all alone by the wave-washed strand,
+%     All alone in the crowded hall;
+%     The Hall is gay and the waves are grand
+%     But my heart is not here at all;
+%     It flies far away, by night and by day,
+%     To the times and the joys that are gone;
+%     And I ne'er can forget the sweet maiden I met
+%     in the valley near Sliavnamon.
+%
+%     It was not the grace of her queenly air,
+%     Nor her cheek of the roses glow,
+%     Nor her soft black eyes, nor her flowing hair,
+%     Nor was it her lily-white brow;
+%     'Twas the soul of truth, and melting ruth,
+%     And the smile like a summer dawn
+%     That stole my heart away, one mild autumn day
+%     In the valley near Sliavnamon.
+% Output from ABC2Win  Version 2.1 k pre2 on 9/7/2000
+S:https://www.folktunefinder.com/tunes/106104
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

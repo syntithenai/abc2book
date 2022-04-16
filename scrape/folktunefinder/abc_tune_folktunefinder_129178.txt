@@ -1,0 +1,26 @@
+X:220
+T: She's A Daughter of Daniel O'Connell
+M: 3/4
+L: 1/4
+B: "O'Neill's 44"
+N: "Slow" "collected by J. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K: G
+B/2-c/2 | (dcA) | (GDE) | F (G2 | G)zG/2A/2 |\
+B B B | c A G | (F3 | F2) B/2c/2 |
+(dcA) | (GDE) | F (G2 | G)zA |\
+(Bcd) | A G G | (G3 | G2) ||
+G/2A/2 | B c d | e c c | f (d2 | d)zd/2c/2 |\
+B B B | c A G | (F3 | F)zB/2-c/2 |
+d c A | G D E | F (G2 | G)zA |\
+(Bcd) | A G G | (G3 | G2) |:|
+S:https://www.folktunefinder.com/tunes/129178
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0001-0050_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

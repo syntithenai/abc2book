@@ -1,0 +1,22 @@
+X:400
+T:Honest John
+R:jig
+M:6/8
+L:1/8
+K:G
+d|b3 a3|gfg B3|cBc ABc|ed^c d3|
+b3 a3|gfg B3|cBc DEF|G3 G2:|
+K:D
+E|DFA DFA|DFA a3|gfg ABc|ecB AFD|
+DFA DFA|DFA a3|gfg ABc|d3 d2:|
+S:https://www.folktunefinder.com/tunes/105708
+S:http://www2.redhawk.org:8080/irish/warnock/abc/messer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

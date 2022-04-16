@@ -1,0 +1,41 @@
+X:62
+T:Fisher's Hornpipe
+C:Harmony, J. Ciaglia
+%%staves [1 2]
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:(3(ABc)|dAFA GBAG|FAFA GBAG|FDFD GEGE|FDFD E2 (3(ABc)|
+dAFA GBAG|FAFA GBAG|FGAB cAcA|d2d2d2::cd|
+ecAc ecge|fdAd fdgf|ecAc ecgf|edcB A2GA|
+BGDG BGdB|AFDF AFdA|BdcB AGFE|D2d2d2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble-8
+|:!mp!(3(ABc)|AFzc dGzB|DFzA GBAG|DFzG EGBe|dczB A2 (3(ABc)|
+AFzc dGzB|DFzA GBAG|ABcd eazg|f2A2d2::z2|
+K:treble
+%%MIDI transpose 8
+L:1/8
+EA EG|FA FG|EA EG|A,/B,/C/D/ Ez|
+GB DB,|DA FD|E2 A,2|F,3 :|
+S:https://www.folktunefinder.com/tunes/114128
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

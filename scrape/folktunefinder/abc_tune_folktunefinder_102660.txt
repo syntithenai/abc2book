@@ -1,0 +1,35 @@
+X: 9
+T:Kamaryns'ka
+O:russia
+S:A. Humenyuk
+Q:1/4=72
+N:Russian Folk Dance collected in Ukraine
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+A:Dykan'ka, Poltava region, Ukraine
+K:Cmaj
+(g2eg) .f2.d2 | cBce dcBA | BGAB c2c2 :: \
+cBce fefg | fgfe dcBA
+|1 BGAB gfed :|2 BGAB c2{defgab}c'2 |.g2.c'2 ">"f4 | \
+ege2 dcd2 | dcd2 ede2 | ede2 fef2 | ede2 dcd2 |
+dcd2 ede2 | ede2 fef2 | e2g2 fedc | BGAB c2c2 ||\
+|: g2(eg) .f2.d2 | cBce dcBA | BGAB c2c2 :|
+g2{ab}c'2 f4 | g2{ab}c'2 g2{abc'}d'2| \
+z2 d2 ">"c4 | c'2c'c' a2aa | \
+g2gg {a}-g2gg | {a}-g2g2 {a}-g4 | \
+g2{ab}c'2 ">"f4 | e2g2 fedc | BGAB c2 |]
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102660
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

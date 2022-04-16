@@ -1,0 +1,22 @@
+X:1
+T:Walter Bulwers #1
+M:4/4
+R:Polka
+K:G
+Bc| dcBd g3 f | e2 A2 A3 B | cBAc f3 e| d2 B2B2 Bc |
+dcBd g3 f | e2 A2 A2 AG | FGAB cdef | g2 g2 g2:|
+K:D
+a2 fg a2 fg | agfg e4 | e2 a2 gf e2 | dcde f4 |
+a2 fg a2 fg | agfg e4 | e2 a2 agfe | d2 f2 d2 z2:|
+S:https://www.folktunefinder.com/tunes/119714
+S:http://homepage.ntlworld.com/djfoster/ma2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

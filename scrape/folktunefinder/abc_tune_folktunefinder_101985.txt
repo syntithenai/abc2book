@@ -1,0 +1,23 @@
+X:6087
+T:Garry Owen
+% Nottingham Music Database
+S:EF
+M:6/8
+K:A
+P:A
+a/2g/2|"A"fed cBA|"A"cdc "E7"cag|"A"fed cBA|"Bm"BcB "E7"Bag|
+"A"fed cBA|"A"cdc c2e|"D"efg "A"aec|"Bm"BcB "E7"B2:|
+P:B
+c/2d/2|"A"e2c e2c|"A"e2c eag|"D"f2d f2d|"D"f2d f2g|
+"A"a2b c'2b|"A"agf e2c|"D"efg "A"aec|"Bm"BcB "E7"B2:|
+S:https://www.folktunefinder.com/tunes/101985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

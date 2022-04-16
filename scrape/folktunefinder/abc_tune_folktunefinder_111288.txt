@@ -1,0 +1,24 @@
+X:57
+T:Hora la Patru
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"E" ^g/b/e f(^g |^g/)f/a/^g/ f/e/f/d/ |^g/b/e f(^g |^g/)f/a/^g/ f/e/f/d/ |
+^g/b/e f(^g |^g/)f/a/^g/ f/e/d/^c/ |"Dm" d/e/f/^g/ a/b/(^g |1 ^g/)e/f/d/ "E" e/^g/b :|2
+"Dm" ^g/e/f/d/ "E" ez || |:"Am" e/aa/ aa |(a2 a/)^g/a/b/ |c'/b/a/^g/ a/b/c'/b/ |
+"E" a/b/(^g ^g/)f/e/d/ |"Dm" e/ff/ ff |(f2 f/)e/f/^g/ |b/a/a/^g/ f/e/f/d/ |
+|1 "E" e/f/^g/a/ be :|2 "E" e/f/"Dm" d/f/ "E" ez ||
+S:https://www.folktunefinder.com/tunes/111288
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

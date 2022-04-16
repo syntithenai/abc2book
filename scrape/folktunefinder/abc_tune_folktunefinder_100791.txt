@@ -1,0 +1,24 @@
+X:110
+T:The Nova Scotia
+R:jig
+S:James Byrne and Roisin McRory
+M:6/8
+K:G
+BA|:GDB, DGB|d^ce dBG|~c3 AB^c|ded B2A|
+GDB, DGB|d^ce dBG|~c3 AB^c|1 dAF GBA:|2 dAF GBd||
+~g3 Bdg|bag fed|~c3 AB^c|ded B2d|
+~g3 Bdg|bag fed|~c3 ABc|1 dAF GBd:|2 dAF GBA||
+S:https://www.folktunefinder.com/tunes/100791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 9
+T:Never Love Thee More
+% Nottingham Music Database
+S:Playford
+M:6/8
+K:G
+P:A
+"G"DED G2A|"G"BcB A2G|"G7"dB2 A2G|"C"E3 -E3|"G"DED G2A|
+"G"BcB A2G|"G"dB2 c2d|"C"e3 -e2e|"G"dB2 A2G|"C"c2d edc|"G"dBc "C"A2G|
+"Am"E3 "D7"G2E|"G"DED G2A|"G"Bcd "C"edc|"Am"dBc "D7"A2G|"G"G3 -G2||
+S:https://www.folktunefinder.com/tunes/99740
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_redhawk_nmd.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/playford.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_redhawk_nmd.abc
+S:http://www.guitarnut.com/nmd/playford.txt
+S:http://abc.sourceforge.net/NMD/nmd/playford.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/NeverLoveTheeMore.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/NeverLoveTheeMore_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/NeverLoveTheeMore.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/NeverLoveTheeMore_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

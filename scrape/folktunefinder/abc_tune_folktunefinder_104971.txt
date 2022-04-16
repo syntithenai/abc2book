@@ -1,0 +1,26 @@
+X:15
+T: Liverpool Lou
+M:3/4
+R:waltz
+L:1/8
+Z:added by Alf Warnock - alf0@rogers.com - http://members.rogers.com/alf0
+K:D
+%%text Chorus
+f2|f2 e2 d2|A6|A4 B2|"G"B2 G2 B2|"D"A6-|A4 f2|
+f2 e2 f2|"F#m"a6|"Bm"d4 f2|"Em"fe3 d2|"A7"e6-|e6|f2 e2 d2|
+"D"A6|A4 B2|"G"B2 G2 B2|"D"A6-|A6|
+f2 e2 f2|"F#m"a6|"Bm"A4 A2|"A7"Af3 e2|"D"d6|]
+%%text Verses
+d2|"D"d2 e2 d2|"Em9"d6|"A7"c6-|c6|e2 f2 g2|"D"f4 e2|d6-|d6|
+a2 b2 a2|"Em"a6|g6-|g4 g2|g2 a2 g2|"G"g6|"D"f6-|f4 d2|
+"D"de3 d2|"Em"d6|"A7"c6-|c4 e2|e2 f2 g2|"D"f6|d6-|d4 a2|
+a2 b2 a2|"Em"a6|g6-|g4 d2|c2 f2 e2|"D"d4|
+S:https://www.folktunefinder.com/tunes/104971
+S:http://www2.redhawk.org:8080/irish/warnock/abc/AlfSongs.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

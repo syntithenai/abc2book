@@ -1,0 +1,26 @@
+X:445
+T:Reel Beatrice
+R:Reel
+C:Trad.
+N:Modified slightly from version on the web.  Added some more accidentals
+N:and transposed to Gminor. alf.warnock@nrc.ca
+M:2/4
+L:1/16
+Q:100
+K:Gm
+G,3A,|:B,2G,B, DG,B,D|GDDB, D2GA|BBGB dGBd|gd (3ddd gdga|
+bagf edcB|Acc=B c4|d^cde d=cBA|[1 G3G, G,3A,:|[2 G3G, G,2z2||
+|:g2eg ae (3eee|ed^cd gd (3ddd|d^cde d=ccA|BcBA G2g2|
+ggeg ae (3eee|ed^cd gd (3ddd|d^cde d=cBA|[1 G2zG, G,3z:|[2 G2z2 F>A||
+|:BF (3FFF DFBd|BF (3FFF DFBd|cA (3AAA FAcA|Bbag fedc|
+BF (3FFF DFBd|BF (3FFF DFBd|cA (3AAA FAcA|[1 BABc B2FA:|[2 BABc B2z2|]
+S:https://www.folktunefinder.com/tunes/100026
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

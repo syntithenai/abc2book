@@ -1,0 +1,29 @@
+X:106
+T:Richmond Cotillion
+%%titlefont Times-Roman 24
+%%partsfont Times-Roman 20 box
+%%staffsep 20pt
+M:4/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=115
+%%MIDI program 41
+K:D
+P:A
+|:"D"[D2A2] f2 fgfe | d2F2A3d | "A"c2B2A2B2 | "D"ABAG "A"FGFE |\
+"D"[D2A2] f2 fgfe | d2F2A3d | "A"c2A2BAcA | "D"d8:|
+K:A
+P:B
+|:"A"efed cdef | a2c2e4 | "E"B2c2d2B2 | "A"cdcB ABcd |\
+"A"efed cdef | a2c2e3a | "E"g2e2fege | "A"a8:|
+S:https://www.folktunefinder.com/tunes/110153
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

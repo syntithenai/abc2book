@@ -1,0 +1,32 @@
+X: 49
+T:Pretty Martha Schottische. GHW.049
+M:4/4
+L:1/8
+Q:120
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottische
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+F>G|A>d f2 e>d B2|A>^GB>A FA D2|D>EG>A A>dg>c|e>dc>B A>GF>G|!
+A>d f2 e>d B2|A>^GB>A FA D2|C>EG>A c>eg>c|d2f2d2:|!
+K:A
+|:c>d|e2A2c2E2|A>GG>A B>cd>e|f2B2d2G2|B>Ac>f e2 (3(cd^d)|!
+e2A2c2E2|A>GG>A B>cd>e|(3(fed) (3(cBA) G>F c>B| A2 c2 A2:|!
+K:G
+|:d>c|d2g2B2d2|e>dd>c B>c d2|d>cc>B AB c2|c>BB>A G>AB>c|!
+d2g2B2d2|e>dd>c B>c d2|d>cc>B(3(ABc) (3(def)|g2g2g2:|
+S:https://www.folktunefinder.com/tunes/101466
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

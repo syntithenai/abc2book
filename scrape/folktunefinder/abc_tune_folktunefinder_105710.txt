@@ -1,0 +1,22 @@
+X:410
+T:The Poppy Jig
+R:jig
+M:6/8
+L:1/8
+K:C
+A/B/|c2G E2A|G2E C3|B,CD G,A,B,|C2A G2A/B/|
+c2G E2A|G2E C3|B,CD G,A,B,|C3 C2:|
+K:G
+B,/C/|D2G B2G|E2G c2A|F2d d^cd|edB G2B,/C/|
+D2G B2G|E2G c2A|F2A DEF|G3 G2:|
+S:https://www.folktunefinder.com/tunes/105710
+S:http://www2.redhawk.org:8080/irish/warnock/abc/messer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

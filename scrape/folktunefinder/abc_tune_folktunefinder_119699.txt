@@ -1,0 +1,23 @@
+X: 36
+T: Ragtime Annie
+R:Reel
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+"D"DFAF B2AF | DFAF B2AF | DFDF B2AF | "A"Ac2A c2B2 |
+"A"ABcA BcBA | AB2A BcBA | ABcd egfe | [1 "D"d6 AF:| [2 "D"d6 ef |
+"D"a2ab afdB | A2A2 A2fg | a2a2 g2f2 | "G"B6 ef |
+"A"gfef gfed | c2A2 c2A2 | B2B2 A2G2 | "D"F6 fg |
+"D"a2ab afdB | A2A2 A2fg | a2a2 g2f2 | "G"B6 ga |
+"G"b2b2 bafg | "D"a2ab afdB | "A"ABcd egfe | "D"d2 dd d4 ||
+S:https://www.folktunefinder.com/tunes/119699
+S:http://homepage.ntlworld.com/djfoster/ma2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

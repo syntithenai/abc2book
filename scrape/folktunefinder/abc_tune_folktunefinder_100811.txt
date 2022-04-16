@@ -1,0 +1,24 @@
+X:15
+T:Cuckoo's Nest
+Z: id:dc-hornpipe-14
+M:C|
+L:1/8
+K:G Major
+dc|BABA GBdg|fdcB cedc|BABG FGAB|c2A2 A2dc|!
+BABA GBdg|fdcB cedc|BABG FGAc|B2G2 G2:|!
+Bc|dBGB dBGB|dcBA G2AB|cAFA cAFA|cBAG F2D2|!
+GABc d2g2|fdcB cedc|BABG FGAc|B2G2 G2:|!
+Bc|dggf gabg|afd^c d2de|=fede ^fgaf|gfdB cedc|!
+BABA GBdg|fdcB cedc|BABG FGAc|B2G2 G2:|!
+S:https://www.folktunefinder.com/tunes/100811
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

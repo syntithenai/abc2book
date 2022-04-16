@@ -1,0 +1,28 @@
+X: 63
+T:Tom Howard's
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:A
+P:A
+e2|"A"ABcd ecae|"D"fgaf "A"ecae|"D"fgaf "A"ecAc|"B7"BAGF "E7"E2(3EFG|
+"A"ABcd ecae|"D"fgaf "A"ecae|"D"fagf "E7"edcB|"A"A2c2 A2:|
+P:B
+B2|"E7"Bcde dBGB|"A"Aceg a2eg|"D"afdf "A"ecAc|"B7"BAGF "E7"E4|
+"E7"Bcde dBGB|"A"Aceg a2ba|"E"gbge "B7"faf^d|"E"e2e2 e2:|
+S:https://www.folktunefinder.com/tunes/129855
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

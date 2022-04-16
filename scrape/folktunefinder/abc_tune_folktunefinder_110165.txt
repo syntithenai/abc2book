@@ -1,0 +1,58 @@
+X:118
+T:Spring Blossom
+C:Colin Hume, 2008
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=82
+K:Am
+V:1
+P:A
+%%MIDI gchordoff
+%%MIDI program 50
+[| E | "Am"c3 E | "Em/G"B3 E | "F"AGFA | "Gsus"G2-"G"GE | "Am"e3 A | "Dm"d2ed | "B7/D#"cBAc | "E"B2-"E7"BE |
+V:2 treble
+%%MIDI program 32
+[| z | z [E,A,C] [E,A,C] [E,A,C] | z [G,B,E] [G,B,E] [G,B,E] | z [A,CF] [A,CF] [A,CF] | [C2D2-G2-] [B,2D2G2] |\
+z [A,CE] [A,CE] [A,CE] | z [A,DF] [A,DF] [A,DF] | z [A,B,^F] [A,B,F] [A,B,F] | z [B,E^G] z [B,DG] |
+V:3 bass
+%%MIDI program 4
+[| z | A,,3 z | G,,3 z | F,,3 z | G,,3 z | A,,3 z | D,,3 z | ^D,,3 z | E,,2 ^G,,2 |
+%%vskip 0
+P:B
+V:1
+"Am"c3 E | "Em/G"B3 E | "F"edce | "D/F#"d3c | "G"BcdD | "C"E2^FG | "Am"ABcE | "Dsus"^F2-"D7"F2 |
+V:2
+z [E,A,C] [E,A,C] [E,A,C] | z [G,B,E] [G,B,E] [G,B,E] | [C2F2A2] [C2E2A2] | [C2D2A2] [D2^F2A2] |\
+z [G,B,D] [G,B,D] [G,B,D] | z [E,G,C] [E,G,C] [E,G,C] | z [A,CE] [A,CE] [A,CE] | [A,2-E2] [A,-D][A,C] |
+V:3
+I:octave=-2
+A3 z | G3 z | F2 F2 | ^F2 D2 | G2 B2 | c2 B2 | A3 z | D3 z |
+%%vskip 0
+P:C
+V:1
+"Em"G^FGB | "Bm"d2B2 | "Am"A3G | "D7"E2^F2 | "Em"G^FGB | "Bm"d2B2 | "C"e2 "(A7/C#)"g2 | "D"^f2-"(B7/D#)"f2 |
+V:2
+[E,G,B,][E,2G,2B,2][E,G,B,] | [B,D^F][B,2D2^F2][B,D^F] | [A,CE][A,2C2E2][A,CE] | z [A,CE] z [^F,A,C] |\
+[G,B,E][G,2B,2E2][G,B,E] | [B,D^F][B,2D2^F2][B,D^F] | [C2E2G2] [A,2E2G2] | [D2^F2A2] [B,2F2A2] |
+V:3
+E3 z | B3 z | c3 z | d2 D2 | E3 z | B3 z | c2 ^c2 | d2 ^d2 |
+%%vskip 0
+P:D
+V:1
+"Em"g^feB | "Am"c3e | "Dm"=fedA | "E7"B4 | "Am"cBce | "Dm"dcBA | "E7"B3A | "Am"A3 |]
+V:2
+[E3G3] [EG] | [Ac][GB][^FA][EG] | [D3=F3] [DF] | [^GB][^FA][EG][D=F] |\
+[C3E3] [CA] | [D4F4A4] | [B,2-D2-E2A2][B,2D2E2^G2] | [A,3C3E3A3] |]
+V:3
+e3 e | a2 A2 | d3 d | e2 E2 | A3 A | d2 f2 | e2 E2 | A2 A, |]
+S:https://www.folktunefinder.com/tunes/110165
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:19
+T: Die Geburt im Walde
+N: Q1007E
+O: Mitteleuropa, Deutschland
+N: Vergleichsmelodie fuer die folgenden drei Varianten. Andere Melodie.
+R: Studenten -, Trink - Lied
+M: 3/4
+L: 1/8
+K: G
+D2 | G3FG2 | A3GA2 | B3GdB | A2z2
+GB | d3dd2 | d3cB2 | c3cc2 | c3B
+A2 | B3cd2 | d3cB2 | A3GA2 | G4
+S:https://www.folktunefinder.com/tunes/109957
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Studenten -, trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

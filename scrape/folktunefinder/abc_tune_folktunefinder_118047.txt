@@ -1,0 +1,27 @@
+X:65
+T:Banish Misfortune
+R:Jig
+C:Trad.
+Z:Added by Alf Warnock
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|:fed =cAG|Add cAG|F2D DED|FEF GFG|
+A2A cAG|AGA cde|fed cAG|Ad^c d2z:|
+|:f2d d^cd|f2g agf|e2=c cBc|ede gec|
+f2g agf|e2f gfe|fed cAG|Ad^c d2e:||
+f2g e2f|ded =c2d|A3 AGA|F2A GFD|
+cdc cAG|AGA cde|fed cAG|Add d3:|
+S:https://www.folktunefinder.com/tunes/118047
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gregdahms.ca/BanishMisfortune.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

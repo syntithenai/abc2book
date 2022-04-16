@@ -1,0 +1,30 @@
+X:88
+T:The Night Crossing
+%%MIDI gchord czfb
+M:2/2
+L:1/4
+C:John New, 2006
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=80
+K:Em
+P:A
+|: "Em"e B-B G | "Am"ABc2 | "Em"e B-B e | "D"f/2g/2a/2g/2 f2 |\
+"C"e B-B G | "F"ABcz | "Bm"BE-ED | "Em"E4 :|
+%%vskip 0
+P:B
+| "Em"Be-eg | "D"f g/2a/2 gf | "C"e f/2g/2 a/2g/2f/2e/2 | "G"d "D"c "G"B/2z/2 c/2d/2 |\
+"C"e z/2c/2 "G/B"d z/2B/2 | "Am"cA "Em"BG | "B"FB "F#"[dB] [^c^A] | "B"B4 |
+%%vskip 0
+P:C
+| "Em"Be-eg | "D"[fA] g/2a/2 gf | "G"[bd]gdg | "D"a/2g/2f/2e/2 "B"[f2^d2] |\
+"C"[ge][ec]-[ec] d/2e/2 | "F"[=fc][cA]-[cA]A | "Bm"BE-ED | "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/110135
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

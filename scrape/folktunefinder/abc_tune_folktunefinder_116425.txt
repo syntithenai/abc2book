@@ -1,0 +1,33 @@
+X:13380
+T:Polsdans efter Lars Nerhagen
+S:(E \"Overg\aa{}rd nr 836)
+N:Elverum Pols
+R:Pols
+Q:160
+M:3/4
+L:1/8
+O:Norway
+A:\"Osterdal
+K:D
+FG EF D2 | fg ef df | \
+(3.a.f.a (3.g.e.g f>c | (3.d.e.f (c<d) Bd |\
+c2 {^G}[A4A4] | FG EF D2 | 
+fg ef df | (3.a.f.a (3.g.e.g f>c | (3.d.e.f d4 ::\
+A2 (c<d) ((3fgf) | eg {ga}(gf) d>f | \
+(3.a.f.a (3.g.e.g f>c |
+(3.d.e.f (c<d) Bd | c2 {^G}[A4A4] | \
+A2 (c<d) ((3fgf) | eg {ga}(gf) d>f | \
+(3.a.f.a (3.g.e.g f>c | (3.d.e.f d4 :|
+S:https://www.folktunefinder.com/tunes/116425
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

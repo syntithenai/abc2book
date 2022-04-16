@@ -1,0 +1,36 @@
+X:16
+T:Les septs sauts
+R:---
+C:Alsace
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+V:1
+cdef g2g2|f2d2 e2c2|cdef g2g2|f2d2 c4:|
+|:d2dd d2d2|e2g2 c4|d2dd d2d2|e2g2 c2
+|:g2||e6:|g2 |]
+T:Version CDPF
+L:1/8
+P:Intro
+eg ec | d/e/f/d/ ec | eg ec | d/e/f/d/ c2 |:
+P:Promenade 1
+c/G/c/e/ gg | fd ec | c/G/c/e/ gg | fd c2 :|
+P:Ritournelle
+dd/d/ dd | eg c2 | dd/d/ dd | eg c |: g | [P:Comptes] e3 :| [P: Sauts] g4 |:
+P:Promenade 2
+c/d/e/f/ gg | fd ec | c/d/e/f/ gg | fd c2 ::
+P:Promenade 3
+eg ec | d/e/f/d/ ec | eg ec | d/e/f/d/ c2 :|
+V:2
+S:https://www.folktunefinder.com/tunes/129955
+S:http://michel.bellon.free.fr/Musique/abc/BalTraverse92.abc
+% Rhythm ---
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

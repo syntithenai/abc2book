@@ -1,0 +1,31 @@
+X:18
+T:Black and White Rag
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=480
+K:G
+d2d2 ^c2|:cdfc dfcd|fcdf zcdc|^ABeA BeAB|e^ABe zdBG|
+c/d/cBc zBc2|A^GAB cAFD|Gfag Bc^cd|BGEG z2d^c|
+cdfc dfcd|fcdf zcdc|^ABeA BeAB|e^ABe zdBG|
+E2GB edcB|A^GAc edcA|BDGB zGA2:|1 G2d2 d2^c2:|2 G4 E2=F2|
+K:C
+|:G2^FG zFG2|e2^de zde2|d2^cd zcd2|A6^G2|
+FGBF GBFG|BFGB zAGF|^DEAD EADE|A^DEA zcAE|
+G2^FG zFG2|e2^de zde2|d2^cd zcd2|A6^G2|
+GABc defg|agfe dcBA|G^FGe zce2|1 c4 E2F2:|2 c2d2 d2^c2|
+|:[B4G4] G2A2|
+K:G
+BdgG BdDG|BB,DG zBdA|[A2F2]FC F/G/FC2|FG^GA zGA2|
+cdfA ceFA|dFAc cdfd|B2DG B/c/BG2|Bc^cd zcBA|
+^GBeB =GEB,E|^GB,EG B,4|A^ceE Ac^CE|AG,^CE C4|
+BdgG BdDG|BB,DG zBdB|FGAd zABB|[B8G8]|
+S:https://www.folktunefinder.com/tunes/117065
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

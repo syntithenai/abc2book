@@ -1,0 +1,25 @@
+X: 1636
+T: The Night We Made The Match
+M:C|
+L:1/8
+B:O'Neill's 1636
+N:"collected by Croninl"
+Z:Transcribed by Nick Terhorst, nickte@microsoft.com
+N: Fixed staff breaks [jc]
+N: Fixed line wrapping [jc]
+K:A
+a2|a2 AB cBAB|cdec A2 ef|g2GA BAGA|BcdB GBdg|
+|a2AB cBcd|edef gedB|cdeg aefd|cABG A2:|
+|:AB|ceef edcA|ceefe2 dc|Bdde dBGA|Bcde dcBd|
+|ceec BeeB|cABG ABcB|Aceg aefd|cABG A2:|
+S:https://www.folktunefinder.com/tunes/101252
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:270
+T: Smash the Windows
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: A | "D"DED F2A | d2f "A"ecA | "G"G2B "D"F2A | "Em"E2F "A7"GFE |
+"D"DED F2A | d2f "A"ecA | "G"Bgf "A7"edc | "D"d3 d2 :|
+| f/g/ | "D"a2f f2d | Adf agf | "A7"g2e e2c | Ace gfe |
+| "D"a2f f2d | Adf agf | "Em"gfe "A7"cde | "D"fdd d2e/f/ ||
+| "D"a2f f2d | Adf agf | "A7"g2e e2c | Ace gfe |
+| "D"fed "Em"gfe | "D"agf "G"bag | "D"fed "A7"cde | "D"fdd d2 |]
+S:https://www.folktunefinder.com/tunes/125346
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

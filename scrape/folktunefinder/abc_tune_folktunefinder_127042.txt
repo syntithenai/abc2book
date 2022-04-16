@@ -1,0 +1,32 @@
+X: 10
+T:Gutboard Blues
+M:12/8
+L:1/8
+Q:120
+C:Dave Jordan
+K:C
+z3g2e|"C"g3 g2e g3 g2e|"F"g2f g2g- g2g f3|
+"C"g2g e2g- g2g a2g|a2g edc- "C7"c2e- e2c|!
+"F"d2c d2c "Fm"d2c c2e-|"C"e2g- g3 "A7"b2a-- a2a|
+"D"a2a a2a aga- a2a|"G"g2a- a2g- g2g e3|!
+"C"g3 g2e g3 g2e|"F"g2f- f2g- g2g g2f|
+"C"g2g g2g g2g a2g|a2g-g2e- "C7"e2e e3|!
+"F"d2c d3 "Fm"d2c d2c|"C"e2g-g2b- "A7"b2b b3|
+"D"a2a a2a a2a a2a|"G"g2e d2c- "C"c2g- g3|!
+"F"z2g f2g-g3 g3|"Fm"z2g f2g-g3 g3|"C"g3 g3 g2g a2g|
+"C7"a2g- g2e- e2e- e3|!
+"F"d2c c2d- "Fm"d2c c2c|"C"e2g- g3 "A7"b2b -b3|
+"D"a2a a2a a2a a2a|"G"g2e d2c- "C"c3 z3||
+S:https://www.folktunefinder.com/tunes/127042
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

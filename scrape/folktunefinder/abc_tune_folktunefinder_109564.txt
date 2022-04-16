@@ -1,0 +1,67 @@
+X:3
+%%topspace 0
+T:Galliard 3
+C:D.Bacheler
+L:1/4
+M:none
+K:GM frenchtab
+%%stretchstaff false
+%%staffsep 18pt
+[da,c1]>,,a ,,b1[c,d/]a [,ef1],,,,c |\
+[a,,cd1]>,,,a ,,,c1[,d,e/],b [,a,f1],,,,,d |\
+[,,da{,d}1]>{,b} [,aa{,a}1],,,,c/,,d [,,bcd1],b |\
+[,,aa1][,ab] [,,dff],,,e [,,ba,d2] |\
+[hd,f1]>,,,h ,,f1[fc/]d [cd1],,,a |
+% Takt 6
+[da,c1]>,,a ,,b1[c,d/]a [,ef1][cd,,c] |\
+[ab,,d1][fc,,a] [,e,,c][df] [cff{,a}],e/,,d |\
+[aac,,a2] ,,,c4 ||\
+[d,,c/]ca,e a,,a,,b,,d ,,f,c,e,,,,c |\
+[a,,,d/],,,a,,,c,,a ,,b,,d,a,b [,a,a,d3/],,d//,,b |
+% Takt 11
+[,,da{a}1],d {,a}/,b,a,,d [,,bcd],,d,a,b |\
+,,,a/,d,a,b ,,d,,b,,d1 [,,ba,d2] |\
+[h,,f/],,,e,,,f,,d ,,fh[fc]d [cd],c,d,,,a |\
+[da,c/],,,b,,,c,,a ,,bd[c,d]a [,ef]a[cd,,c]d |
+% Takt 15
+[ab,,d1][fc,,a] [,e,,c][df] [cff{,a}],e/,,d |\
+[aacc,a1]>,,a ,,c,,d,a,b ,a1,,,,,a |\
+[caa,c2] [caa1][caa,c] {a}[da,c,a] |\
+[caa,c2] ,,,,a1[,a,,,d] [,c,,a][,e,,c] |\
+[aa,c,a1]>,d ac[d,,,d]a [c,,a1][ed,,c] |
+% Takt 20
+[ffh,a1]>h i,,,f,,,h,,f ,,gcdf |\
+h1,,,f>,,,e[h,,f1] [f,,e],,,,f |\
+[da,c,a1]>,,a ,,b,,d,a,,b ,b,,,c,,,a,,,,d |\
+[ca,a/],c,d,a [a,,,d1],,,c ,,b,,d |
+% Takt 24
+[,efec2] {,a}4 ||\
+[ddfffd1]>f h1[hd,f,d] [dd,f]h |\
+[fdaa3]c/d f1,d/a |\
+[cd,a1]{a} [a,d,a][,da,c/],,b [,,dca1],c |\
+[,ddef3][,,da,c1] [,a,,,d],,,c |\
+[,c,,a1],,a [,e,,c],,f {,a}/,,d[a,b1] |
+% Takt 30
+[caa,c2] {,a}/,,d[a,b1] [,ea][a,,c] |\
+[ca,bc1][da,c] [c,a][a,b] [aaa{,a}],e/,,d |\
+[aac,,a2] ,,,c4 ||\
+[dd,f,d1]>f h,,,f,,,,,df [d,,f]fh1 |
+% Takt 34
+[fdaa1]>f cdf,,d ,a,c,da |\
+[cd,a1]{a} [a,d,a][,da,c/],,b [,,dca1],c |\
+[,dda{a}1]>,,,c ,,a,,b,,d,,,,,c [,a,,,d],,,c,,,a,,,c |\
+[,c,,a/],,a,,,c,,a [,e,,c],,f,,d,,f {,a},,d[aab1] |
+% Takt 38
+[caa{,a}1]h/,a f,cd,a c,,da,,b |\
+[,ea{,a}1][da,c] [c,d][a,b] [aaa{,a}],e/,,d |\
+[aac,,a3],/,c//,e ,f,e,f,e ,f,e,c,e |\
+[aac,,a2] ,,,c4 |]
+S:https://www.folktunefinder.com/tunes/109564
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

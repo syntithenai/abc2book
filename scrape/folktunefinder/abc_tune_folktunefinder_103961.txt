@@ -1,0 +1,26 @@
+X:5
+T:Tridal a ra va c'halon
+T:(Mor Fawr Wyt Ti!)
+M:4/4
+L:1/8
+%%staves [(1 2) (3 4)]
+K:A
+% Breton words on a Wales choral
+V:1
+EEE  |C3E   EEFF        |D2F2-    FFFF  |E3C   EEDD  |C4   z:|
+V:2
+CCC  |A,3A,   B,CA,A,     |B,2A,2-  DDDB,    |C3A,  B,A,A,G,  |A,4  z:|
+w:Ka-na a |rin, ka-na a rin be-|pred_,  rag an Ao-|trou en-eus va zan-tel-|let.
+w:E eo va|nerz, e eo i-vez va|Zad_,     e eo va|han, ka-na a rin e     |hloar.
+V:3
+A,A,A,  |E,3E,   G,A,F,F,    |F,2F,2-  F,A,A,G, |A,3A, G,A,F,E,  |E,4  z:|
+V:4
+A,,A,,A,, |A,,3C,  B,,A,,D,D,  |B,,2D,2- D,D,D,B,,|E,3F, E,C,B,,E,,  |A,,4 z:|
+% --- organ ---
+S:https://www.folktunefinder.com/tunes/103961
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/voices.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:15
+T:Tamony's Hornpipe (#308)
+M:4/4
+L:1/8
+S:Joseph P. Tamony, San Francisco
+R:Hornpipe
+K:A
+cB|(3AcA EG Acec|dfBa gebg|aece fecA|GABc dBGB|
+(3AcA EG Acec|dcBa gebg|aecA GBed|(3cdc (3BcB A2:|
+|:cd|(3efe ce Acea|(3faf df Bgfg|ae^de fecA|GABc =3Ddcdf|
+(3efe ce Acea|(3faf df Bgfg|aecA GBed|(3cdc (3BcB A2:||
+%
+% Tamony's Hornpipe is a variant of Smith's Hornpipe, No. 384
+% O'Neill's Irish Music for Piano or Violin.
+S:https://www.folktunefinder.com/tunes/127665
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-7.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

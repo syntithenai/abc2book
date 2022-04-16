@@ -1,0 +1,22 @@
+X:28
+T:Galway Bay
+Z: id:dc-hornpipe-66
+M:C|
+L:1/8
+K:G Dorian
+A|BABc dcd^f|g^fdf gabg|fdbg fdcd|BGA^F G=FDF|!
+G2GA BABG|FcFG AGFD|GABG dBGA|B2G2 G3:|!
+f|gfdf gabg|gfdf dBGA|BABc dcde|fcdB AGFA|!
+BFdB AFcA|BFdB AF_ec|dfga bag^f|d2g2 g3:|!
+S:https://www.folktunefinder.com/tunes/100824
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

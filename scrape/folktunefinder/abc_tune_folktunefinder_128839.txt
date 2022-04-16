@@ -1,0 +1,26 @@
+X:110
+T:Scotland the Brave
+R:march
+C:Kevin Briggs, via EF
+S:Nottingham Music Database
+M:4/4
+L:1/4
+K:G
+D|"G"G2 "C"G>A|"G"BG Bd|"G"g2 "C"g>f|"G/b"gd BG|
+"C"c2 e>c|"G"Bd BG|"Am"A2 d>e|"D7"dc BA|
+"G"G2 "C"G>A|"G"BG Bd|"G"g2 "C"g>f|"G/b"gd BG|
+"C"c2 e>c|"G"Bd "Em"BG|"Am"A2 "D7"G>F|"G"G2 fg|
+"D7"a2 a>a|af d2|"G"g2 b>a|gd BG|
+"Em"g2 gg|"B7"f2 gf|"Em"eg fe|"D7"dc BA|
+"G"G2 "C"G>A|"G"BG Bd|"G/b"g2 "C"g>f|"G/b"gd BG|
+"C"c2 e>c|"G"Bd "Em"BG|"Am"A2 "D7"G>F|"G"G2 G:|
+S:https://www.folktunefinder.com/tunes/128839
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

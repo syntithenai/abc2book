@@ -1,0 +1,27 @@
+X:55
+T:Le dpart pour l'arme
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n55
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=90
+K:C
+B2 c d | e2 e2 d c | d4 B2-|B z B2 c d | e2 e2 d c | B4-B z |!
+E2 A2 c2 | B2 d2 B c | A2 G2 z2 | E2 A2 c2 | B2 d2 B c | A6 ||
+W:Oh ! que je suis donc  mon aise, quand j'ai ma mie auprs de moi ;
+W:De temps en temps je la regarde : "Ma mie, mon coeur, embrasse-moi ! /.../
+W:
+W:
+S:https://www.folktunefinder.com/tunes/119536
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

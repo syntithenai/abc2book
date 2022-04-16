@@ -1,0 +1,31 @@
+X: 12
+T:Irish Washerwoman. BF12.12
+M:6/8
+L:1/8
+S:MS12,J.Wilson,1833,Browne Coll.,Lakes
+R:Jig
+O:England
+A:Lakes
+N:It can be difficult to tell the difference between notes and  bar
+N:lines. Cherri.
+N:drawn with a blodgy pen.  Those two marks on the paper which have been
+N:interpreted as the last two bar lines in the A music look like a
+N:crochet 'D' and crochet 'C'.  Also the photocopy is a  little patchy,
+N:particularly round the last two bars
+Z:vmp.Cherri Graebe.
+K:G major
+c2|BGG DGG|BGB dcB|"Missing in ms"cAA EAA|cAc edc|!
+BGG DGG|BGB dcB|(5dcBcd Adc|BGGG2:|!
+|:ga|bgg dgg|bgb bag|afd Adg|fdf agf|!
+egg dgg|Bgg Bgg| (5dcBcd Adc|BGG G2:|]
+S:https://www.folktunefinder.com/tunes/129556
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

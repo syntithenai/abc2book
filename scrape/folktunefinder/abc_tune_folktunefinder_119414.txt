@@ -1,0 +1,23 @@
+X: 142
+T:Rakes of Kirby. 
+M:2/2
+L:1/8
+Q:160
+S:c1825,Browne Coll. Ambleside
+K:A major
+cd|efec ABcA|fgfd BcdB|cAce fedc|d2cdB2cd|
+efec ABcA|fgfd BcdB|cAce aecA|EAGBA2:|
+|:z2|A2cA eAcA|EAcA dcBA|cAce fedc|d2cdB2E2|
+A2cA cecA|B2dB "!"dfdB|ceae fdcA|EAGBA2:|
+W:Bar 14 (B2dB d/f/d/B) in ms. CGP |
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119414
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

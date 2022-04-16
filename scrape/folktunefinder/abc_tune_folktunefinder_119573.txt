@@ -1,0 +1,26 @@
+X:5
+T:L'escrivto
+T:La femme aux sarrazins
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n5
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:G
+D | G>A B B | A2 B B | G>A B B | [M:3/8] A2 B B G A |
+[M:2/4] B2 d2 | A A G A | A2 B2 | G4 ||
+W:Jean-Pierre de Provence se marie aujourd'hui (2x)
+W:Il prend femme si jeune qu'il ne peut s'en servir.
+W:Il est parti en guerre sept ans sans revenir.
+W:Au bout de la huitime il revient au pays /.../
+S:https://www.folktunefinder.com/tunes/119573
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

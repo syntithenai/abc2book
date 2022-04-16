@@ -1,0 +1,37 @@
+X:536
+T: Shang Sichuan
+N: C0123
+O: China,Hunan, Sangzhi (Westen Nhe v. Sichuan und Guizhou)
+S: I, 538]
+N: Neues Volkslied, 12-Monatslied. Waehrend die Maenner Salz nach
+N: Sichuan transportieren, singen die Frauen das Lied zu Hause. Der
+N: Name eines beruehmten Volkssaengers, der dieses Lied aufgeschrieben
+N: hat, ist am Ende angegeben. *) Saengerin singt 1.,4. Strophe
+N: dann 4. nochmals. Frau Huang hat dieses Lied von jenem Saenger
+N: gelernt, singt es aber anders!! VARIANTE
+N: Saengerin: Huang Bai.  *) Dai Fuxiang
+N: Vereinzelt Verzierungen. In Phrase 4 und 6 eine Punktierung
+N: hinzugefuegt.
+R: Xiaodiao; Hausarbeit, Salz reinigen; Abschiedslied]
+M: 2/4
+L: 1/16
+K: G
+G2GGE2G2 | DEG4A2
+A2d2BdB2 | A3BG4
+B2B2A4 | A2GEE4
+G2B2AGE2 | DEG4A2
+B2AGGGE2 | D8
+G2B2AGE2 | DEG4A2
+B2AGGGE2 | D8
+S:https://www.folktunefinder.com/tunes/112963
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao; hausarbeit, salz reinigen; abschiedslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

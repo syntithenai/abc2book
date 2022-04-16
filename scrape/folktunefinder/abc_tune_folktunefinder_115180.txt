@@ -1,0 +1,28 @@
+X:6
+T:Polska i G efter John-Erik Mattson, Rtan
+R:Polska
+A:Digerberget, Rtan, s. Jmtland
+Z:L.Sohlman, lta, Sweden
+M:3/4
+L:1/8
+Q:150
+K:G
+B>c de dc|(B{cB}A) B3 z|(3.B.c.B (Ad) AF|G2 (BG) DB,|
+B>c de dc|(B{cB}A) B3 z|(3.B.c.B (Ad) AF|(F<G) G3 z::\
+Bc dg (3.f.g.a|g2 fe d2|(A>B) (3.c.B.c (dB)|GB (3.d.B.d g2|
+Bc dg (3.f.g.a|g2 fe d2|(A>B) (3 c(ec) (3B(dB)|Az/F/ G4:|\
+T:Andrastmma/komp
+G,>B, [B,2D2] [B,2D2]|(G,C) [B,3D3]z|G,>B, C2 A,2|G,>B,[B,2D2][B,2G2]|\
+G,>B, [B,2D2] [B,2D2]|(DC) [B,3D3]z|G,>B, C2 A,2|(A,<B,)[B,3D3]::\
+B,>C D2 [A,2F2]|G2 FE D2|A,>B, C2 (DB,)|G,>B, D2 [D2B2]|\
+B,>C D2 [A,2F2]|G2 FE D2|A,>B, C2 B,2|A,2 [B,4D4]:|
+S:https://www.folktunefinder.com/tunes/115180
+S:http://homepage.calypso.net/~ci-18034/jamt.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jamt.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

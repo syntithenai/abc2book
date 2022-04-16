@@ -1,0 +1,31 @@
+X: 9
+T:Regent Park. GS.009
+M:2/4
+L:1/16
+Q:80
+S:George Spencer m/s, Leeds,1831
+R:Hornpipe
+O:England
+A:Leeds
+H:1831
+Z:vmp.Cherri Graebe
+K:D major
+AG | A2dc d2de | fgef d2cd | B2ba gfed | dcec A2A^G |
+ A2dc d2de |! fgef e2cd | 
+Bbag fedc | e4d2 :|| cd | efec A2ag | fgef d2ef |! gfga bagf | efec A2c
+d |"NB" fgef d2ef | 
+gfga bagf | edcB"D.C." A4 ||
+W:NB.Possible bar missing.Try Bar 1 of B.music
+S:https://www.folktunefinder.com/tunes/104683
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

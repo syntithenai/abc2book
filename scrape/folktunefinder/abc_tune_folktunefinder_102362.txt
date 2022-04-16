@@ -1,0 +1,23 @@
+X:6464
+T:Gooseberry Bush
+Z: id:dc-reel-117
+M:C
+L:1/8
+K:D Mixolydian
+A,|DEFD EFGB|AGAB c2AG|ABcA dcAG|FDEF GBAF|!
+DEFD EFGB|ABcA d^cde|f2ef dfed|cAGE D3:|!
+A|Add2 fded|cded cAGc|ABcA GEED|EGAB c2AG|!
+Add2 fded|cded cAGc|ABcA dcAG|ABcA d3:|!
+B|Add2 fdd2|efge aged|^cdef g2ef|g3e d^cAB|!
+d2AB GBAG|FGAB c2AG|ABcA dcAG|ABcA d3:|!
+S:https://www.folktunefinder.com/tunes/102362
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

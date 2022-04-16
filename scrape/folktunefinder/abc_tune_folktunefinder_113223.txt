@@ -1,0 +1,31 @@
+X: 214
+T: Flatbush Waltz
+C: Andy Statman
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/8
+K: Gm
+"Gm"d3gdc|B2{F}G2G2|d3gdB|"Cm"c3edc|
+"Gm"GABcdB|"Cm"{d}cGc2c2|"Gm"B3"Ab"c_AB|"Gm"GG,B,DGB|
+"Gm"d3gdc|B2{F}G2G2|d3gdB|"Cm"c3fe/d/c|
+"Bb"Bcdef/e/d|"Cm"{d}cGc2c2|"Gm"B3"Ab"c_AB|"Gm"GG,B,DGB||
+"Gm"[d4b4][ca][Bg]|"D"[ca]D^FAdf|"Eb"[B2g2][A3f3]"F"[Ge]|"Bb"[F6d6]|
+"Cm"[G2e2][F2d2][E2c2]|"Gm"[F2d2][B2g2][c2a2]|\
+[d3b3][ca][Bb][dc']|"D"[c6a6]|
+"Gm"[d4b4][ca][Bg]|"D"[ca]D^FAdf|"Eb"[B2g2][A3f3]"F"[Ge]|"Bb"[F6d6]|
+"Ab"[_A2e2][A2d2][E2c2]|"Gm"[F2d2][B,2G2]"Cm"[E2c2]|\
+"Gm"[D3B3][Ec]"Ab"[C_A][DB]|"Gm"[B,6G6]|]
+S:https://www.folktunefinder.com/tunes/113223
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

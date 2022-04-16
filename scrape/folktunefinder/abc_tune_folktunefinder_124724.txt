@@ -1,0 +1,28 @@
+X: 107
+T:Hopetown House (#303)
+M:4/4
+L:1/8
+S:Caledonian Muse, London 1785
+R:Reel
+K:G
+d2|:(3EEE BE dEEe|dBAF DEFA|(3EEE BE dEEe|dBAF BE E2:|
+|:Eeef gefd|BdAF DEFD|Eeef gefd|BdFA BE E2|
+|1Eeef gefd|BdAF DEFD:|2gfge fde^c|dBAF BE E2||
+%
+% "Hoptown House" as it was then named was first printed in the=20
+% 9th Number of Robert Bremner's A Collection of Scots Reels, and=20
+% Country Dances, Edinburgh 1760. The editor has taken the liberty
+% of supplying it with a second finish.
+% [THE B PART IS PRINTED WITH 6 BARS REPEATED IN THE BOOK]
+S:https://www.folktunefinder.com/tunes/124724
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/HopetownHouse303.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0303.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

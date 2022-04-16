@@ -1,0 +1,25 @@
+X:95
+T:Ore Boggy
+C:Neal, 1726
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=115
+K:Am
+P:A
+|: "C"c2 "^/"eg | "C"c2 "^/"eg | "C"cc "^/"d/c/B/A/ | "G"BG "^/"GB |\
+"Dm"Ad "A7"d^c | "Dm"d3/^c/ "^/"de | "F"fe "^/"f/e/d/c/ | "Am"A2 "^/"A2 :|
+P:B
+|: "C"cc "^/"d/c/B/A/ | "G"BG "^/"GA/B/ | "C"cc "^/"d/c/B/A/ | "G"G2 "^/"G2 |\
+"Dm"Ad "A7"d^c | "Dm"de "^/"fg | "F"fe "^/"f/e/d/c/ | "Am"A2 "^/"A2 :|
+S:https://www.folktunefinder.com/tunes/110142
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

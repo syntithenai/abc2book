@@ -1,0 +1,30 @@
+X:116
+T:Southwind
+C:Traditional
+O:Irish
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=130
+R:Waltz
+L:1/4
+M:3/4
+K:G
+P:A
+|: c | "G"B3/A/ G | "G"B3/c/ d | "D7"A2 A | "D7"A2 c | "G"B3/A/ G | "C"E3/D/ E | "G"G2 G | "G"G2 :|
+%%vskip 0
+P:B
+d | "G"g2 g | "C"g3/f/ e | "G"d2 d | "D"d2 c | "Em"B3/A/ G | "G"B3/c/ d | "D"A2 A | "D7"A2 d |
+%%vskip 0
+P:C
+"Em"g2 g | "C"g3/f/ e | "G"d2 d | "D"d2 c | "Em"B3/A/ G | "D7"A/c3/ F | "G"G3- | G2 |]
+S:https://www.folktunefinder.com/tunes/110163
+S:http://www.colinhume.com/ABC.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

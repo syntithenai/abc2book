@@ -1,0 +1,23 @@
+X:132
+T:the Melbourne Waltz
+R:Waltz
+M:3/4
+L:1/8
+K:D
+A2 |d2 d2 ce | df A2 Bc | dc BA Bc | de A2 GF |
+E2 E2 E2 | e4 d2 | dc BA Bc | d4 :|
+|:FA |G4 EG | F4 Ac | dc dA FD | A4 FA |
+G4 EG | F3 d cB | A3 E cB | A4 :|
+|:A2 |g3A BA | f3A BA | ed cB Ac | df A2 A2 |
+g3A BA | f3A BA | ed cB Ac | d4 :|
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127850
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

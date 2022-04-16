@@ -1,0 +1,47 @@
+X:8 
+T:Variation no. 8 
+C:J.S.Bach 
+M:3/4 
+L:1/16 
+Q:400 
+V:2 bass 
+K:G 
+[V:1] DGBA GBdc Bdgz |DFAG FAcB Adfz |B,DGF EGBA G^cez | 
+[V:2] G,2D,2B,,2G,,2 zG,F,E, |F,2D,2A,,2F,,2 zF,E,D, |E,2B,,2G,,2E,,2 zE,D,^C, | 
+% 
+[V:1] A,DFE DFAG FAd2- |dBGA BGDE =FDB,z |ecAB cAE^F GECz | 
+[V:2] D,2A,,2F,,2D,,2 z=C,B,,A,, |B,,2D,2G,2B,2 zG,=F,G, |C,2E,2A,2C2 zA,G,A, | 
+% 
+[V:1] afde fdAB cAFc |BGDF GDB,C DB,G,A, |B,2ba gfed ^cede | 
+[V:2] D,2^F,2A,2D2 zD,C,D, |G,,2G,2B,,2D,2 G,,2 z2 |G,B,DC B,DGF EGBz | 
+% 
+[V:1]  A2ag fed^c Bdcd |G2gf ed^cB AcBd |^ceAB cAEF GE^CE | 
+[V:2] F,A,^CB, [K:treble]A,CFE DFAz [K:bass]|E,G,B,A, [K:treble]G,B,ED ^CEGF |EG^cB Aced ceag | 
+% 
+[V:1] D2F2A2d2 z=cAF |G2B2d2g2 zgfg |A2^c2e2g2 zgac |dfa^c' d'c'/2b/2a/2g/2f/2e/2 d4 :| 
+[V:2] fade fdAB =cAFA |BdGA BGEF GEB,D [K:bass]|^CEA,B, CA,E,F, G,E,^C,E, |F,A,D,E, F,D,F,A,D4:| 
+% 
+[V:1] Adfe dfag fac'z |DGBA GBdc Bd=fz |ecAB cA^FG AF^DE | 
+[V:2] D2A,2F,2D,2 z=CB,A, |G,2D,2B,,2G,,2 z=F,E,D, |C,E,A,G, ^F,A,CB, A,=C^DC [K:treble]| 
+% 
+[V:1] F^DB,^C [K:bass]DB,F,G, A,F,^D,F, |G,B,E^D [K:treble]EGBA GBez |EAcB Aced ceaz | 
+[V:2] B,^DFE DFAG FAcA |BGEF GEB,^D [K:bass]EB,G,B, |CA,E,^G, A,E,C,D, E,C,A,,C, | 
+% 
+[V:1] zcBf g^deG Feda |Pgfe2 zAGF F2E2- |E2ed cBAG F^A^ce | 
+[V:2] ^D,,2^D,2E,2C,2A,,2B,,2 |E,,2G,,2B,,2E,2 z=D,C,B,, |C,E,G,=F, E,G,CB, ^A,^CEz | 
+% 
+[V:1] dFd=c B=A^GF EGBd |cEcB Aced cea=g |fac'b agfe dfac' | 
+[V:2] B,,D,F,E, D,F,B,A, ^G,B,Ez |A,,C,E,D, C,A,,C,E, A,CF,=G, |A,F,D,E, F,D,A,,B,, C,A,,F,,D,, | 
+% 
+[V:1] bd'ga bgde =fdBd |egcd ecAB cAEG |FADE FDA,B, [K:bass]CA,F,A, |B,DG,A, B,G,B,D [K:treble]G4 :| 
+[V:2] G,,2B,,2D,2=F,2 zF,E,D, |C,2E,2G,2C2 zCB,C |D,2F,2A,2C2 zCDF, |G,B,DF GF/2E/2D/2C/2B,/2A,/2 G,4 :|
+S:https://www.folktunefinder.com/tunes/124440
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

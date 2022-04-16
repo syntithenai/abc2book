@@ -1,0 +1,29 @@
+X:5525
+T:French Minuet,A. BC.08
+M:3/4
+L:1/4
+Q:60
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+Z:vmp.John Bagnall
+K:D
+d2 f | f "tr"e/d/ e | A2 g | g "tr"f/e/ f | d2 f | e a e | f/4e/4d/ "tr"
+B2 | A3 |!|
+f2 a | a "tr"g/f/ g | e2 g | g "tr" f/e/ f | d2 f | e d/c/B/A/ | d/e/f/d
+/g/f/ | "tr"e3|! f2 a | a "tr"g/f/ g | e2 g | g f/e/ f | d2 f | e d/c/B/
+A
+/ | d/e/f/d/e/c/ | d3 |]
+S:https://www.folktunefinder.com/tunes/124308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 26
+T:Dancing with Mrs. White
+S:Form: ABABACDCD
+O:Patrick's Newfie Singles Set
+R:Newfoundland singles
+M:2/4
+L:1/16
+K:D
+A2|"D"d2e2 f2dA|"G"B3c B2A2|"D"d2e2 f2d2|"A"a2f2 e2c2|\
+"D"d2e2 f2dA|"G"B3c B2A2|"A"d2F2 E2G2|"D"F2D2 D2:|
+|:DE|"D"A3F3BG A2F2D2|F2A2 A2FA|"G"B3c B2A2|"A"d2F2 E2B2|\
+"D"A3F3BG A2F2D2|F2A2 A2FA|"G"B3c B2A2|"D"F2E2 D2:|z2
+K:EDor
+|:"Em"G3E G2A2|B2A2 B2c2|"D"d2A2 F2A2|d2c2 B2A2|\
+"Em"G3E G2A2|B2A2 B2c2|"D"d2A2 F2D2|"Em"E4 E4:|
+|:"Em"e2e2 Bcd2|e2d2 B3c|"D"d2A2 F2A2|d2c2 B2A2|\
+"Em"e2e2 Bcd2|e2d2 B3c|"D"d2A2 F2D2|"Em"E4 E4:|
+S:https://www.folktunefinder.com/tunes/125002
+S:http://trillian.mit.edu/~jc/music/abc/mirror/squeezebox.ncf.ca/o%2527connell%2527s.abc
+% Rhythm Newfoundland singles
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

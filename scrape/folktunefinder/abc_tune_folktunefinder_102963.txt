@@ -1,0 +1,23 @@
+X:14
+T:Alice
+T:Siciliano from Concerto for Oboe d'Amore in A TWV51
+C:Georg Philipp Telemann
+M:3/4
+K:A
+L:1/4
+|:A/B/|"A"c>d e|"D"d>c "E"B|"A"c2 A|A2:|
+"D"f|"A"(e3|e) "D"f/g/ a/f/|"A"(e3|e) "D"f/g/ a/A/|"Bm"d>e d|d2 d|
+"E"b2 g|e2 "Edim7"d|"A"c>B "D"d|"A"c>d "E"B|"A"(A3|A2)||
+W:Duple Minor Longways, by Philippe Callens
+S:https://www.folktunefinder.com/tunes/102963
+S:http://web.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/~ijs/abc/countrydance.abc
+S:http://www.mit.edu/%7Eijs/abc/countrydance.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

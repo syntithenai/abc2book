@@ -1,0 +1,29 @@
+X: 60
+T:I'll Go No More to Yon Town (#256)
+M:4/4
+L:1/8
+S:Sergt. James O'Neill manuscripts
+R:Reel
+K:A
+(3efg||a2 ae c2 A2|ceAc d2 BB|ceae c2 A2|dfed cA (3efg|
+a2 ae c2 A2|ceAc d2 BB|ceae c2 A2|dfed cA A2||
+(3cBA eA fAed|(3cBA ec dBBd|(3cBA eA fded|ceBd c2 AA|
+(3cBA eA fAed|(3cBA ec dBBd|cABc defg|afed cA A2||
+%
+% Popular since its first publication in Bremner's Collection of Scots
+% Reels or Country Dances 1767, "I'll gae nae mair to yon town" has
+% been a fruitful source of variants which circulated under various
+% titles. The variant herewith presented, was found without a name
+% in Sergt. O'Neill's manuscripts.
+S:https://www.folktunefinder.com/tunes/124677
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/IllGoNoMoreToYonTown256.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0256.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

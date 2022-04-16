@@ -1,0 +1,28 @@
+X: 169
+T: Cowboy Jig
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"GDE G2A|Bgf gdB|"Am"ABc BGA|"C"BcA "D"BGF|
+"G"GDE G2A|Bgf gdB|"C"ABc "D"BGA|1"G"BGF G3:|2"G"BGF GBd||
+|:\
+"Em"e2e e3|egf edB|"Bm"d2d d3|dge dBG|
+"C"c2d e2f|"G"gdB "Am"A2c|"C"BGA "D"BcA|1"G"BGF GBd:|2"G"BGF G3|]
+S:https://www.folktunefinder.com/tunes/113178
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

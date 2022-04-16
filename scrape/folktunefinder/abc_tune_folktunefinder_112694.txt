@@ -1,0 +1,27 @@
+X:267
+T: Guo yichong shan lai you yichong tian:
+N: C0415
+O: China,Jiangxi, Yongxin
+S: IV, 267]
+R: Haozi, Chuanfu haozi]
+M: 2/4
+L: 1/32
+K: E
+f16
+e2e2c2f2e6c2 | B12c4
+B4c4e4f4 | e2f2e2f2c4z4
+e2e2c2f2e6c2 | f16
+e2f2fc2fe6c2 | B12c4 | B2c2e2f2e4z4
+S:https://www.folktunefinder.com/tunes/112694
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, chuanfu haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

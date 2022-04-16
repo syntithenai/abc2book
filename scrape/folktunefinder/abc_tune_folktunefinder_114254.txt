@@ -1,0 +1,23 @@
+X: 44
+T:Via Gellia
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:G
+D|"G"Gz2"D"Az2|"G"B3 -B2d|"G"BAG "D"A2d|"G"BAG "D"A2D|"G"Gz2"D"Az2|\
+"G"B3 -"Em"B2d|"Am"BAG "D"A2F|
+P:Fine
+"G"G3 ||z2D :|"D"Fz2"A"Gz2|"D"A3 -A2d|"A"c2e "E"B2d|"A"cde A2e|"D"Fz2"A"Gz2|\
+"D"A3 -A2d|"Em"Beg "A"a2A|"D"d3
+P:DC
+D3||
+S:https://www.folktunefinder.com/tunes/114254
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

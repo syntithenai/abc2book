@@ -1,0 +1,27 @@
+X:101
+T: Raumensattel (Bentzenawer - Ton)
+N: Q0027
+O: Mitteleuropa, Deutschland
+N: Kleinere Melodievariante aus anderer Quelle abgedruckt.
+R: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung
+M: none
+L: 1/8
+K: F
+F2 | c2c2d2e2 | f4f4
+f4 | c2f4e2d4 | c4z6
+F2 | c2c2d2e2 | f4f4
+f4 | c2f4e2d4 | c4z4
+f4 | f3ed2c2 | A4F4z2
+F2 | c3de2f2d4 | c4z4
+f4 | f3ed2c2 | A4F4
+c4 | d2c3AB2G4 | F4z6
+S:https://www.folktunefinder.com/tunes/110039
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung, tod, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

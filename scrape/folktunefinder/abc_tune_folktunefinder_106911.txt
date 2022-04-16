@@ -1,0 +1,30 @@
+X:3
+T:Indian Point
+R:jig
+C:J-77
+C:Rick Mohr  4/89
+D:
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:Emin
+"Em"B,EF G2A  |BAG FED |"C"CEF G2A |BAG BAG |
+"D"FED A,2D |FEF AGF |1"Em"EFG BAG |"B" F3 FED :|\
+[2 "Em"GFE "D"FED | "Em"E3 E2 ||
+|: A| \
+"Em"Bef gfe |"C"cef gfe  |"D"dfg agf |"Em"gfe "D"fed |
+"Em"Bef gfe |"C"ceg a2a |"B"bag fgf|"Em"e3 e2 :|
+%%text 4/12/03
+S:https://www.folktunefinder.com/tunes/106911
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

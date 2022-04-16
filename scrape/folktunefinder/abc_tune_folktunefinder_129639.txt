@@ -1,0 +1,32 @@
+X:910
+T:Father John MacMillan of Barra
+C:Norman MacDonald
+S:Rebecca Knorr, Edinburgh
+N:Originally in 2/4
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Amix
+A>B   | c2 B<A A2 c<e | f2 e<c e3f | e2 c<A A2 f>e | c2 B<A  B2 
+A>B   | c2 B<A A2 c<e | f2 e<c e3f | e2 c<A B2 c>B | A4      A2 :| 
+c<e   | f2 e<e e2 f<a | f2 e<c e3f | e2 c<A A2 f>e | c2 B<A  B2
+[1c<e | f2 e<e e2 f<a | f2 e<c e3f | e2 c<A B2 c>B | A4     A2 :| 
+[2A>B | c2 B<A c<ec<A | f2 e<c e3f | e2 c<A B2 c>B | A4     A2 || 
+A>B   | c<Ac<e c2 A>c | f2 e<c e3f | a>fe<f c2 f>e | c2 B<A B2
+A>B   | c<Ac<e c2 A>c | f2 e<c e3f | e2 c<A B2 c>B | A4     A2 :| 
+c<e   | f2 e>f a>fe<f | f2 A>c e3f | f2 e>f a>fe<f | c2 B<A B2
+c<e   | f2 e>f a>fe<f | f2 e<c e3f | e2 c<A B2 c>B | A4     A2
+c<e   | f2 e>f a>fe<f | f2 A>c e3f | f2 e>f e>fa>e | c>de>c B2
+A>B   | c2 B<A c<ec<A | f2 e<c e3f | e2 c<A B2 c>B | A4     A2 |]
+S:https://www.folktunefinder.com/tunes/129639
+S:http://www.nigelgatherer.com/tunes/abc/tb19.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

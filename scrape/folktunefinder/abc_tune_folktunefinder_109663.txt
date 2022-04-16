@@ -1,0 +1,28 @@
+X: 6
+T:Pavane d'Angleterre
+R:Pavane
+C:Claude Gervaise
+H:XV eme siecle
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+Q:1/4=120
+K:Cmaj
+e2ee|e2eg|fedd|e4:|
+|:g2ff|e>dee|dcBB|A4:|
+|:e2cd|B3e|decd|B3e|dcBB|A3e|dcBB|A4:|
+%%footer $D   Galouvielle-MBe 2007 \n-- (from the Dover Book edition)
+S:https://www.folktunefinder.com/tunes/109663
+S:http://michel.bellon.free.fr/Musique/abc/Intime2007.abc
+% Rhythm Pavane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

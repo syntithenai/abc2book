@@ -1,0 +1,31 @@
+X:33
+T:Gigue de Roland
+T:Gigue a deux
+R:
+C:Feuillet
+H:
+N:/musdi/073/10
+B:
+O:France
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/4
+L:1/4
+Q:1/4=110
+K:C
+A/d | ^c>B A f>e d | a3 g2 a | f2 ed>e f | ^c3d2 A | _B2 A A>_BG |
+A>B c d>e f | e>f g f>e f | e>f g f>e f | e3-e3/2 |
+A/ d | c>BA f>e d | a3 g2 a | f2 ed>e f | ^c3d2 A | _B2 A A>_BG |
+A>B c d>e f | e>f g f>e f | e>f g f>e f | e3-e3/2 |
+a/g | f>ed _b>a _b | g3 c>_ba | g>a ff>g e | f3-f A/B | c3 c>d c | 
+B3 B>c d | e3e>d e | ^ca a>g f | _b>ag e>f d | ^c>d e A>B c | d>efe>d ^c | d2 d3/2 |
+S:https://www.folktunefinder.com/tunes/99564
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

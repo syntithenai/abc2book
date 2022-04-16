@@ -1,0 +1,39 @@
+X:7 
+T:Variation no. 7 
+C:J.S.Bach 
+M:6/8 
+L:1/16 
+Q:470 
+V:2 bass 
+K:G 
+[V:1] B3AB2 D3GB2 |MA3GA2 d6 |Pg3fg2 A3eg2 |Mf3ef2 d6- |d4 e/f/g/a/ b3gd2| 
+[V:2] PG,4G,,2 PG,6- |G,6 MF,3E,D,2 |E,4D2 ^C4A,2 |D6- D3E=C2 |B,3CA,2 G,3A,B,2| 
+% 
+[V:1] e4f/g/a/b/ c'3ae2 |f3dg2 A3Bc2 |c2B4- B3AGF |G4d2 Mg6- |g2agfe Mf6| 
+[V:2] C3DB,2 A,3B,C2 |D3CB,2 C4D2 |G,3F,G,2 D,3A,C2 |MB,3A,B,2 E,3B,D2 |^C3B,A,2 D3CD2| 
+% 
+[V:1] f3gf2 e3^cd2 |^c3de2 A6- |A4 B/^c/d/e/ f3dA2 |B4^c/d/e/f/ g3eB2| 
+[V:2] G,3B,D2 [K:treble]G6- |G2AGFE F3GA2 [K:bass]|D3A,F,2 D,3E,F,2 |G,3A,F,2 E,3F,G,2| 
+% 
+[V:1] B^c2Aa2 d3ec2 |^c2 d4-d6:|f3ef2 A3df2 |g3fg2 b6 |e4f/g/a/b/ c'bagfe| 
+[V:2] A,3G,F,2 B,3G,A,2 |D,3F,A,2 D6 :|D4D,2 D4=C2 |MB,3A,B,2 G,3A,B,2 |C3DB,2 A,3B,C2| 
+% 
+[V:1] ^d3^cd2 B6- |B3bf2 g3^de2 |=c3e^g2 a4b/a/=g/=f/ |g3ab2 e3f^d2| 
+[V:2] B,4B,,2 B,3A,B,2 |G,4A,/B,/^C/^D/ E3B,G,2|A,4B,/=C/=D/=E/ =F3E^D2 |E4G,2 C3A,B,2| 
+% 
+[V:1] e3BG2 E4B2 |B3^GA2 d2edcB |c3ed2 e3=gf2 |g2agfe a3bg2| 
+[V:2] E,6- E,3E=D2 |MC3B,C2 ^G,3B,E,2 |A,3CB,2 C3B,A,2 |B,3ED2 ^C3B,C2| 
+% 
+[V:1] Mf3ef2 d6- |d4e/f/g/a/ b3gd2 |e4f/g/a/b/ c'3ae2 |f3dd'2 g3af2 |g12 :| 
+[V:2] D6- D3E=C2 |B,3CA,2 G,3A,B,2 |C3DB,2 A,3B,C2 |D3CB,2 E3CD2 |G,3D,B,,2 G,,6 :|
+S:https://www.folktunefinder.com/tunes/124439
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

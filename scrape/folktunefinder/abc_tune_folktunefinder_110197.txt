@@ -1,0 +1,30 @@
+X:150
+T:The Young Widow
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=108
+K:G
+P:A
+|: "G"B2B "^/"BAB | "D7"cdc "G"BAG | "G"BAG "^/"BAG | "Em"BAG "D7"d3 | \
+"G"B2B "^/"BAB | "D7"cdc "G"BAG | "Em"Bcd "C"efg | "D7"BcA "G"G3 :|
+%%vskip 0
+P:B
+| "D"AFD "^/"AFD | "G"dcB "D"AFD | "D"AFD "^/"AFD | "G"dcB "D"A3 |\
+"D"AFD "^/"AFD | "G"dcB "D"AFD | "D"AFD "^/"AFD | "G"dcB "A7"A3 | [K:D]
+%%vskip 0
+P:C
+K:D
+| "D"f2f "^/"fef | "A7"gag "D"fed | "D"fed "^/"fed | "Bm"fed "A7"a3 |\
+"D"f2f "^/"fef | "A7"gag "D"fed | "Bm"def "G"efg | "A7"a2A "D"d3 |]
+S:https://www.folktunefinder.com/tunes/110197
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

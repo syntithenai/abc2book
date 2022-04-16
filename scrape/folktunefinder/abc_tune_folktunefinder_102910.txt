@@ -1,0 +1,29 @@
+X:1
+T:Vals
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 314)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 314
+R:Vals
+C:Alfred Petersson
+M:3/4
+L:1/8
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:F
+(AB)|c2 (Ac) fg|a2 (Ac) fa|g2 (Gc) eg|(fe) (fc) AB|
+c2 (Ac) fg|a2 (Ac) fa|g2 (Gc) eg|f2 z2:|
+|:c2|(Bd) dd cB|(Ac) f(A c)f|(Gc) eg be|(fe) (fc) Ac|
+(Bd) dd cB|(Ac) f(A c)f|(Gc) eg be|f2 z2:|
+|:c2|(fa) aa gf|(eg) b(e g)f|(df) ff ed|(cf) a(c f)c|
+(Bd) dd cB|(Ac) f(A c)f|(Gc) eg be|f2 z2:|
+S:https://www.folktunefinder.com/tunes/102910
+S:http://www.folkwiki.se/pub/cache/Vals_83d41b.abc
+% Rhythm Vals
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

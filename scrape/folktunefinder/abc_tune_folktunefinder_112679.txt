@@ -1,0 +1,41 @@
+X:252
+T: Huanghe chuangong haozi
+N: C0398
+O: China,Henan, Fengqiu
+S: IV, 175]
+M: 2/4
+L: 1/16
+K: E
+f2g2f2g2 | f4f4- | f8- | f8
+gfg2gfg2 | gfg2gfg2 | f8
+e2f4ef | f2g4fe | c8
+f2g4fe | cef2f4- | f8
+e2f2f4 | g4f2g2
+e2f2f4 | g2fgf4
+f2f4Bc | e2cBB4
+F2F4Bc | e2cBB4
+g2f4Bc | e2cBB4
+e2f4c2 | B4B4
+e2f2g2ge | f8
+e4f4 | g2gef4
+e4f4 | g2gfe4
+e2f4f2 | g3fe4
+g2e2f2f2 | g2gef4
+e4f4 | g2gef4
+e2f2f2f2 | g2gfe4
+e2f4f2 | g3fe4
+e2eee2f2 | g2gef4
+f4f4 | B3ce4
+f2f4Bc | e2cBB4
+f2f4Bc | e2cBB4
+S:https://www.folktunefinder.com/tunes/112679
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

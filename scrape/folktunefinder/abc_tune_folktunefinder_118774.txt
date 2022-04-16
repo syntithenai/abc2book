@@ -1,0 +1,31 @@
+X:43
+T:La fille du coupeur de paille
+R:
+S:
+N:p. 126
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/4
+Q:1/4=135
+K:G
+G G/>B/ G2 | G G/>B/ G2 | c c/>c/ BB | AABG |
+G G/>B/ G2 | G G/>B/ G2 | c c/>c/ BB | AAG2 |
+c c/>c/ BB | AABG | c c/>c/ BB | AAG2 |]
+W:Sur mon chemin j'ai rencontr la fille du coupeur de paille
+W:Sur mon chemin j'ai rencontr la fille du coupeur de bl
+W:la fille du coupeur de paille, la fille du coupeur de bl.
+%%vskip 0.5cm
+%%sep
+%%text autres morceaux
+S:https://www.folktunefinder.com/tunes/118774
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

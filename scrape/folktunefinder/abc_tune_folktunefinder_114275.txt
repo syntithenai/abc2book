@@ -1,0 +1,25 @@
+X: 18
+T:The Five Wells
+% Nottingham Music Database
+S:Mick Peat
+N:Taken from A Train's song
+M:6/8
+P: ABA
+K:F
+P:A
+|:"F"F2A c2A|"Bb"Bcd "F"c2A|"Bb"Bcd "F"c2A|"G"AGF "C"G3|"F"F2A c2A|\
+"Bb"Bcd "F"c2A|"Bb"def "F"c2A|"C"BAG "F" F3:|
+P:B
+"C  drone"G2G c2B|ABG GFE|G2G c2B|ABF G3|G2G c2B|ABG GFE|G2G c2B|ABF "C7"G3|
+S:https://www.folktunefinder.com/tunes/114275
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

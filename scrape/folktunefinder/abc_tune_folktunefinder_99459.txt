@@ -1,0 +1,38 @@
+X:23
+T:Forked Deer
+Z:Converted from Nottingham Database format by Philip Rowe
+M:4/4
+L:1/4
+K:D
+%http://www.musicaviva.com/abc/abcusers/abcusers99.abc
+d-|\
+"D"d/2e/2f/2g/2aa/2f/2|\
+"G"g/2a/2g/2e/2"A7"f/2d/2e|
+"D"d/2e/2f/2g/2a/2b/2a|\
+"A7"e/2f/2e/2d/2c/2B/2A/2B/2|
+"D"d/2e/2f/2g/2aa/2f/2|\
+"G"g/2a/2g/2e/2"A7"f/2d/2e|
+"D"d/2A/2c/2A/2B/2c/2A/2G/2|\
+"A7"F/2D/2E/2F/2"D"D::\
+F|
+"A7"A3/2c/2B/2A/2c/2B/2|\
+A/2c/2B/2A/2E/2D/2E|
+"A7"AA/2c/2B/2c/2B/2A/2|\
+"D"F/2D/2E/2F/2D/2E/2D/2F/2|
+"A7"A3/2A/2B/2A/2c/2A/2|\
+"D"d/2A/2B/2A/2FF/2E/2|
+"D"DE/2D/2"G"F/2D/2G/2D/2|\
+"A7"F/2D/2E/2F/2"D"D:|
+%
+%and posted Oct 16th 1999 at ABC-users in reply to a request
+%from Rod Smith for "old time tunes"
+%See "Done Gone" (above) for more information
+S:https://www.folktunefinder.com/tunes/99459
+S:http://anamnese.online.fr/abc/favoris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

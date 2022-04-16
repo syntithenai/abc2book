@@ -1,0 +1,34 @@
+X:25
+T:Quadrille de Romilly [ou Rumilly]
+R:
+S:
+N:
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+P:(1)ABABA (2)CCACCA (3)DEEDE :| (4)FFCCFF (5)CCGC
+M:2/4
+L:1/8
+Q:1/4=135
+K:G
+P:A
+GD EF | G2 FG | A2 GA | B2 G2 | GD EF | G2 EF | A2d2 ||
+[P:B] Gc cc | cB/c/ d2 | ce dB | cd ec | Gc cc | cB/c/ d2 | ce dB | c2c2 ||
+[P:C] B d>B | B d>B | A2 B>c | BG | B d>B | B d>B | A2 c>B | G2G2 ||
+[P:D] DG GG | G4 | DB BB | B4 | Gd dd | dB GB | c2B2 | A4 |
+      DG GG | G4 | DB BB | B4 | Gd dd | de dc | B2A2 | G4 ||
+[P:E] BB/c/d2 | BB/c/d2 | AB Ad | B2G2 | BB/c/d2 | BB/c/d2 | DD EF | G2G2 ||
+[P:F] (3BGB (3BGB | (3cAc (3cAc | (3BGB (3BGB | AD D2 | (3BGB (3BGB |
+      (3cAc (3cAc | (3ded (3cBA | G2G2 ||
+[P:G] G/B/d G/B/d | F/A/c F/A/c | AB [AA][Fd] | B2 G2 | G/B/d G/B/d | 
+      F/A/c F/A/c | AB [AA][Fd] | G4 ||
+S:https://www.folktunefinder.com/tunes/118755
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

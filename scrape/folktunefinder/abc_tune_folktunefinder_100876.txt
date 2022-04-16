@@ -1,0 +1,21 @@
+X:70
+T:Cuckoo
+Z: id:dc-hornpipe-13
+M:C|
+L:1/8
+K:G Major
+dc|BGBd cAFA|d^cde dBGF|EGcB AGFG|(3ABA (3GFE D2B,D|!
+BGBd cAFA|d^cde dBGF|EGcB AGFG|ADFA GB:|!
+dg|bgfg dgBg|bgfg dgBg|=c'a^ga eaca|=c'a^ga eaca|!
+bgfg dgBg|bgfg dgBg|(3aba (3gag (3fgf (3efe|defa g2:|!
+S:https://www.folktunefinder.com/tunes/100876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

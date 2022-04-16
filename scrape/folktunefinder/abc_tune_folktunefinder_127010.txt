@@ -1,0 +1,28 @@
+X: 86
+T:Lancashire Quadrilles,#1. JNu.46
+M:6/8
+L:1/8
+Q:110
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:East Lancashire
+Z:vmp.Manchester Morris Men
+K:A
+"segno"c/B/|AEA cAc|edc B2e/d/|cBc edc|BAG E2F/G/|!
+AEA cAc|edc d2f|eag fed|cdB A2:|!
+|:F|CEA cAc|edc d2f|ecA dcB|edc B2E|!
+CEA cAc|edc d2f|ecA dcB|cdc"segno" B2:|!
+|:c/d/|"Flute"e3 efg|a3 agf|e3 ecA|B3 B2c/d/|!
+e3 efg|a3 agf|efe dcB|A3"DC" A2:|]
+S:https://www.folktunefinder.com/tunes/127010
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

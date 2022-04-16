@@ -1,0 +1,28 @@
+X:8
+T:Opera Reel
+R:reel
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+P:A
+|:"D" .D2.D2 FDFA|D2D2 "A7"EDEF|
+"D"D2D2 FDFA|"G"BdAF "A7"E4:|
+P:B
+|:"D"d2d2 dAFA|d2d2 "A7"efge|
+"D"d2d2 dAFA|"G"BdAF "A7"E4:|
+P:C
+|:"D"a2af "A7"g2ge|"D"faed "A7"cBA2|
+"D"a2af "G"g2ge|"A7"faec "D"d4:|
+P:D
+|:"D"d2fd "A7"efge|"D"d2fd "A7"edcA|
+"D"d2fd "Bm"efge|"A7"faec "D"d4:|
+S:https://www.folktunefinder.com/tunes/117128
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

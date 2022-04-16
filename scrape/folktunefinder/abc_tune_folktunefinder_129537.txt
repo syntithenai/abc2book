@@ -1,0 +1,24 @@
+X:29
+T:Portsmouth
+S:Playford
+A:English
+O:Manuscript
+M:4/4
+L:1/8
+K:G
+D2|G3 A BAGD|E4 e4|d2 B2 cBAG|A6 
+D2|G2 F BAGF|E4 e4|d2 B2 cBAB| G6::\
+d2|g3 a bagf|g2 d4 B2|g2 B2 cBAG| A6 
+D2|G3 A BAGF|E4 e4|d2 B2 cBAB| G6:|
+S:https://www.folktunefinder.com/tunes/129537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/personales.alcavia.net/~jmoreno/tw/repertor.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

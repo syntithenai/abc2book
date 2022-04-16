@@ -1,0 +1,27 @@
+X: 43
+T:Verdi's Waltz
+% Nottingham Music Database
+S:Mick Peat
+M:3/4
+L:1/4
+P:AABA
+K:C
+P:A
+"C"[C2E2][DF]|[E3G3]|"F"[F2A2][GB]|[A3c3]|"G"[B2d2][ce]|[d3f3]|"C"[c2e2][df]|\
+[e3g3]|
+"C"[e2g2][fa]|"c d"[e2g2]"e"[df]|"F"[c2e2][Bd]|[A2c2][GB]|"G"[F2A2][EG]|\
+[D2F2][CE]|"C"[C3E3]|[C3E2]:|
+P:B
+"E"[^G2e2][Af]|[^G2e2][Fd]|[E2c2][Fd]|[E2c2][DB]|
+[C2A2][DB]|[E2c2][DB]|"Am"[C3A3]|[C3G3A3]|"Dm"[F2d2][Ge]|[F2d2][Ec]|
+[D2B2][Ec]|[D2B2][CA]|[B,2G2][CA]|[B,2G2][A,F]|[G,2E2][G,D]|"G" [G,3D3]||
+S:https://www.folktunefinder.com/tunes/114295
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

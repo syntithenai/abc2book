@@ -1,0 +1,24 @@
+X:2
+T:Maclotte
+B:Suite d'Habiemont
+O:Wallonie
+M:2/4
+L:1/8
+Q:C4=60
+K:G
+G3/A/ BB/A/ | GA BB/c/ | dB GB | A/G/A/B/ AA |
+G3/A/ BB/A/ | GA BB/c/ | dB GB | A2 G z :|
+de/f/ gf/e/ | de ed | de/f/ gf/e/ | dc B2 |
+dd ed | cB AB/c/ | dB GB | A2 G z :|
+S:https://www.folktunefinder.com/tunes/103985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/habiemont.txt
+S:http://users.skynet.be/infants/musiques/abc/habiemont.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/habiemont.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

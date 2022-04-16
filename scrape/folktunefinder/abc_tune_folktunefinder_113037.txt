@@ -1,0 +1,28 @@
+X: 28
+T: Flying Through the Gap
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A minor
+|:AB|\
+"C"cE~E2 cedc|"G"BG~G2 GABc|"F"AF~F2 CFAF|"Am"(3EFE CE A,2A,C|
+"G"B,G,B,D "Am"EA,CE|"G7"DFDF "C"EGAc|"G"AG~G2 GABc|"F" AFGA "G"G2:|
+|:GF|\
+"Am"E2[A,2E2] [B,2E2][C2E2]|"G"~EDEG AcBG|\
+"F"AAaA gA2a-|"Em"aAgA ecBG|
+"Am" E2[C2E2] [B,2E2][A,2E2]|\
+"G"~EDEG ABcA|"F"aAgA edcd|"G"~cABG "Am"A2:|
+S:https://www.folktunefinder.com/tunes/113037
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

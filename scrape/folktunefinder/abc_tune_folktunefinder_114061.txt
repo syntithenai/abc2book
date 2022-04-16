@@ -1,0 +1,20 @@
+X:1
+T:Analization
+M:6/8
+L:1/8
+K:C
+ c2 c2 c3| c c2 C2 z2| G2 E2 F3/2 G/2| G C2 d d2| d3/2 d/2 d G2 d|\
+ d2 d3/2 d/2 d G2| d d2 ddG| z f3/2 e/2 d3/2- e/2 c3/2-| d/2 B2 B3/2- A/2 G3/2|\
+ A/2 F3/2- G/2 E2 z G| G3 ^F F2| GA A2 G4| z2|
+M:6/8
+e-e e edc| B2- A G2 z|e-e e dcB| B2- AG z G| EGGA-G G| EGGA-G-G|E-G c cce|\
+d-B G GG z| ccc Bdc| BBA G2 z| cc c/2c/2 Bdc|B-B A G2 z| EGG G2 G|\
+ B2- A G2 z| ccc cde| e2- d c2 z|
+S:https://www.folktunefinder.com/tunes/114061
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ANLZTION.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

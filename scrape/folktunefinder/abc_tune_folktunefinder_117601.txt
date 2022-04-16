@@ -1,0 +1,22 @@
+X:15
+T:Rub-a-Dub
+T:Stop The Cavalry
+M:4/4
+L:1/8
+Q:1/2=120
+K:G
+%P:A
+B2>c2|"G"d2d2 dcB2 |"D7" c2c2 cBA2 |"G" B2B2 BAG2|"D7" AGFE D2B>c|
+"G"d2d2 dcB2 |"D7" c2c2 cBA2 |"G" BAG2 "D7"A2F2|[1 "G"G4 :|[2 ("G"G4 G4) |
+%P:B
+|:"D7"AGFE D2D2| AGFE D2EF|"G"G2G2 "D7"A2A2|"G" BcBA B4|
+"D7"AGFE D2D2|"D7" AGFE D2EF|"G"G2G2 "D7"A2F2|[1 ("G"G4 G4) :|[2 "G"G4 |
+S:https://www.folktunefinder.com/tunes/117601
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

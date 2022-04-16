@@ -1,0 +1,30 @@
+X: 184
+T: In the Misty Mountains
+C: Bob Pasquarello
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: D minor
+|:\
+"Dm"[D2d2]e fed|"A"e2^c A3|"Cm"c2d _edc|"G"d2=B G3|
+"Bbm"B2c _dcB|"F"A2B cBA|"E"^G2 G G^FG|1"A"ABA GFE:|2\
+"A"ABA A=B^c||
+|:\
+"Dm"[D3d3] "F"f3|"A"e2A B2A|"Dm"d3 "F"f3|"A"e2a ^g2a|
+"Dm"d3 "F"f3|"A"e2A B2A|ABA ABA|1ABA GFE:|2ABA A=B^c|]
+S:https://www.folktunefinder.com/tunes/113193
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

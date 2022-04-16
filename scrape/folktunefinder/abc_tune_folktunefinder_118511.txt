@@ -1,0 +1,23 @@
+X:15
+T:Mississippi Sawyer
+C: Traditional
+R:Reel
+M:4/4
+L:1/8
+K:D
+fg|:"D"a2 af a2 af |af a2 b2 a2|"G"g2 ef g2 ef|gf g2 a2 g2||
+"D"f2 fg fedc|defg a2 ef|"A"gfed cABc|1 "D"d2 f2 d2 fg:|2"D"d2 de d2 fe|]
+|:"D"d2 fe d2 fe|defg a4|"A"e2 c2 A2 c2|ABcd efec|"D"d2 fe d2 fe|
+defg a2 ef|"A"gfed cABc|1"D"d2 f2 b2 fe:|2"D"d2 f2 d2|]
+S:https://www.folktunefinder.com/tunes/118511
+S:http://trillian.mit.edu/~jc/music/abc/mirror/fiddle-nd.org/bonanzavillejam.abc
+S:http://bonanzaville.fiddle-nd.org/Jam.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

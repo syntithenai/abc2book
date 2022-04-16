@@ -1,0 +1,149 @@
+X:24
+T:Appendix   Carman's Whistle 
+C:M. Johnsonnen
+L:1/4
+M:none
+K:C frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+[fcd,a2][fcd,a1] |\
+[ea,c2][aa,c1] |\
+[ccde2][cef,c1] |\
+[aac,,a2],1 |\
+[fcd,a1],,d/,a[fc],e |\
+[ef,c1],,f/,,d[aac1] |\
+[ccd1],,,e/,f[cef,c],,d |\
+[aac,,a1],,,c,,,,,a |\
+[,dda1]c,,,a |\
+[,cd,a1]a,c |
+% Takt 11
+[,aa,c1],d,,c |\
+[,cd,a1]>,,,,c[,,dce1] |\
+[,ddef1]c/,,,c,,,e,,c |\
+[,cd1]a/,,,,a,,,,c,,,,e |\
+[,dda1],,,,c/,c[,acc1] |\
+[,,dca1],,,c2 |\
+[,dda1]c,c/,a |\
+[,cd,a1]a,a/,,d |\
+[,ac,c1],d,,,c/,,,a |\
+[,cd,a1],,,c[,,d,a/],,,,e |\
+[,da,c/]a[c,,a],,,c,,,e,,c |
+% Takt 22
+[,cd,a/],da,,,,a,,,,c,,,,e |\
+[,dda/],,,c,,,e,c[,ac1] |\
+[,,dca/],,a//,,c ,,d,,c,,d///,,c,,a,,c ,,d1 |\
+[ffhh1],f[fh] |\
+[ef,c1],,,e[aac] |\
+[c,de1],c[cef,c] |\
+[aac1],,,c,,,a |\
+[f,d,e1][,d,,c][fc,,a] |
+% Takt 30
+[e,fc1],,d[aac] |\
+[ccde1],,,c[ca,b] |\
+[aacc1],,,,,a/,,d,a,c |\
+[,da,c1]c,,,,,c/,,,,,e |\
+[,cd,a1]a,,,,,e/,,,,a |\
+[,aa,c1],d,,a/,,c |\
+[,cd,,f1],,,,e[,,da/],,,c |\
+[,ddef1]c/,,,c,,,a1 |\
+[,cd,a1]a/,,,,f,,,,e1 |\
+[,da,c1],,,a/,c[,acc1] |\
+[,,dca1],,,c,,,,a |\
+[,daa1]c[,ac] |
+% Takt 42
+[,cd1]a[,,dce] |\
+[,aaac1],d[,,cc] |\
+[,cde,c1],,,,,e[,,dcef] |\
+[,daac1]c/,,,,e,,,a[,,cc] |\
+[,cd,e1]a/,,,a[,a,c],c |\
+[,df,c1],,,,e/,c[,a,a],,,c |\
+[,,dca1],,,c2 |\
+[f,d1]>,a,c,e |\
+[ef1],a[aac] |\
+[ccd1],,,e/a[cef1] |\
+[aac1],,,ca |
+% Takt 53
+f/,,d,c,d[fc],,d |\
+[ea/],,,c,,c,,d[aac],,,c |\
+[c,d/],,c,,a,,,c[ca,b1] |\
+[aa,c/],,d,,c,,a,,,c1 |\
+[,df/]ac1,,a/,,c |\
+[,cd/],da1,,,,e/,,,a |\
+[,acc/],c,d1,,,,,c/,,,,,e |\
+[,cd,a/],,,,c,,,,e1[,,da/],,c |
+% Takt 61
+[,dfec/]ac,,,c,,a,,c |\
+[,cd/],da,,,,e,,,a,,,c |\
+[,da/],,c,,d,c[,acc1] |\
+[,,dca/],a,c,,b,,a,,,c |\
+[cdda/]>a c/,,,,f,,,,e,,,,c |\
+[,cd,a/]>,d a/,,,c,,,a,,,,e |\
+[,aa,c/]>,c ,d/,,,,c,,,,b,,,,,e |
+% Takt 68
+[,cee,c1]>,,,c[,,def],,,,e |\
+[,da,c/]ac,c[,da],,c |\
+[,cd/],da,,,,a,,,,c,,,,e |\
+[,ddef1]>,c[,acc1] |\
+[,,dca1]>,,,,c[,,dce1] |\
+[fhia1]>,,,c[fd,e1] |\
+[ef,c1]>,,,e[aac1] |\
+[cef,c1]>,,,,e[ca,b1] |\
+[aacc1]>[,,de][aac1] |
+% Takt 77
+[fcd,a1]f/,,,,c[f,,,e],,,b |\
+[ef,c/],,,e,,c,,d[aac][,cd] |\
+[cef,c/],,,,e,,,b,,,c[ccde][,,ab] |\
+[aac/],,,c,,,,,a,,d,,c1 |\
+[,da,c1]c/,,,c,,,e1 |\
+[,cdca1]a/,,,a,,,c1 |\
+[,aa,c1],d/,,a,,c1 |\
+[,cd,a1],,d/,,,,c[,,dce1] |\
+[,d,a/],,ac,,d,,a,,,a |
+% Takt 86
+[,cd/],,,c[a,,,e],,,a,c,,d |\
+[,da/],,,a,,,e,c[,ac],,,c |\
+[,,dca/],,,,,a[,,,ac][,,,,ce][,,d,e1] |\
+[,da,c/]a[c,a][,,cc][,,de][,ac] |\
+[,cd,a/],d[a,,c][,,de][,ac][,cd] |\
+[,aa,c/],c,d[,,,ce][,,aa][,,cc] |\
+[,cd,a/],,,,e,,,a,,,c[,,de],,,c |
+% Takt 93
+[,d,a/],,,,e[cd,,c],,,,e[,a,a][,,c,c] |\
+[,cd/],,,,a[a,,,e],,,a[,c,c][,,d,e] |\
+[,dfa/],,,,e,,,,c[,cd][,acc],,,a |\
+[,,dce/],,,a,,,c,,,,e[,,dca1] |\
+[fcd,a1]>[,,,cc][fc,,e],,,a |\
+[ea,c1]>,,,e[aac1] |\
+[ccde1]>,,,c[ca,b],,,,c |\
+[aacc1]>,,,a[a,d,e],,,,c |
+% Takt 101
+[fcd,a1]>,,,,,e[fc,e,c1] |\
+[ea,c,a1]>,,,,,c[aa,c,e1] |\
+[ccd,,c1]>,f[cef,c1] |\
+[aac1],,,c,,,,,a |\
+[,da,c/]>a c1,,,a |\
+[,cd,a/]>,d a1,,,,e |\
+[,aa,c/]>,c ,d1[,,cc] |\
+[,cee/]>,,,c [,,def1],,,,e |\
+[,da,c/]ac1,,a/,,c |
+% Takt 110
+[,cd,a/]>,d a1,,,,c/,,,,e |\
+[,ddef1]>,c[,acc1] |\
+[,,dca2],,,c1 |\
+[,dda1]c,,,,e/,,,,c |\
+[,cdca1]a,,,a/,,,,e |\
+[,aa,c1],d,,,,b/,,,,,e |\
+[,cee,c2][,,def1] |\
+[,daac1]c/,,,c,,,e,,c |\
+[,cdca1]a/cef |\
+[h,ia1][f,h][ef,c] |\
+[ffh,a3] |]
+S:https://www.folktunefinder.com/tunes/109585
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

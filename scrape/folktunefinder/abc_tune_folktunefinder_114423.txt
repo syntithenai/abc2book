@@ -1,0 +1,40 @@
+X:002
+T:Mountain Road
+C:Michael Gorman
+R:reel
+Z:John Donovan. Additions by Philippe Varlet (philvar@EROLS.COM)
+M:C|
+K:D
+F2AF BFAF|(3FFFAF EFDE|F2AF BFAF|(3GAGFG EDB,D|
+F2AF BFAF|(3FFFAF EFDE|FA(3AAA BAFB|ABde f~d3||
+dcdB ADFA|~d3e fgfe|~d3B ADFA|(3GFEFD EDB,D|
+~d3B ADFA|dcde ~f3e|~d3B ADFA|(3GAGFG EDB,D||
+dcde fgfe|d2fd eB(3BBB|d2fd ABdB|(3GFE (3FED EB,B,A|
+~d3e fgfe|d2fd e~B3|(3gagfg efdB|ABde fdd2||
+DFAF BFAF|DFAF EA,A,2|D3A BAFB|ABde f~d3|
+DFAF BFAF|DFAF E~A,3|DA(3AAA BAFB|ABde fdd2||
+dcBA BAFB|AFEG FDDE|F2AF BFA2|ABde f~d3|
+dcBA BAFB|AF(3FFF EFDE|F2AF BFA2|ABde fdd2||
+%5th part repeated slightly differently:
+dcBA BAFE|DFEG FDDE|F2AF BFA2|ABde f~d3|
+dcBA BAFB|AF(3FFF EFDE|F2AF BFA2|ABde fdd2||
+|:fa(3aaa abaf|g2fg edBd|f~a3 afdB|ABde fdd2|
+f~a3 abaf|g2fg edBd|F2AF G2BG|ABde fdd2:|
+S:https://www.folktunefinder.com/tunes/114423
+S:http://nigelgatherer.com/books/mfi/mfabc/mfiall.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/mfabc/mfiall.abc
+S:http://www.nigelgatherer.com/books/mfi/mfabc/mfiall.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/mfabc/mfiall.abc
+S:http://nigelgatherer.com/books/mfi/mfabc/mtnr.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/mfabc/mtnr.abc
+S:http://www.nigelgatherer.com/books/mfi/mfabc/mtnr.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/mfabc/mtnr.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

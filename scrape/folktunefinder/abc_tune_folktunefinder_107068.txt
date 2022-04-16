@@ -1,0 +1,26 @@
+X: 13
+T: Bouchard's Hornpipe
+I: Bouchard's HornpipeR-88Dhornpipe
+C: Mike Springer
+M: C|
+R: hornpipe
+K: D
+FE| "D"DFAd "G"BcdB| "A"cdec "D"d2ef| "Em"gfga gfed| "A"edcB A2dc|
+    "G"B2BA BcdB| "D"AGFG A2(3ABc| "G"dcdf "A"edc2| "D"d4 d2 :|
+|:fg| "D"a2ab agfa| "Em"gfef g2ag| "Bm"f2fd gfed| "F#m"cdec A2dc|
+    "G"B2BA "Em"BcdB| "D"AGFG A2(3ABc| "G"dcdf "A"edc2| "D"d4 d2 :|
+%%text Roaring Jelly  R-88
+%%vskip 6pt
+S:https://www.folktunefinder.com/tunes/107068
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

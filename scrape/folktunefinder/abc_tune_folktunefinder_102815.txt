@@ -1,0 +1,33 @@
+X:21
+T:My Mind Will Never be Aisy
+R:single jig
+C:traditional
+S:http://www.cranfordpub.com
+D:Some Tasty Tunes, 1999; Fiddler's Choice, Jerry Holland, In Jig Time, He Didn't Dance, Cucanandy,1999
+B:O'Neill's
+Z:psc, (re-formatted,updated 9/19/04)
+N:http://www.cranfordpub.com/stubbert
+H:                                   
+L:1/8
+Q:333
+M:12/8
+K:G
+g2 f|:e2 d B3 BAB G2 A|B2 d deB d3 dgf|\
+e2 d B3 BAB G2 A|[1B2 e efd e3 (3(efg)f:|[2B2 e efd e3 g3||
+def gaf g3 d2 c|B2 d deB d3 d2 f|\
+efg agf e2 d B2 A|B2 e efd e3 g3|
+def gaf g3 d2 c|B2 d deB d3 dfg|\
+agf gfe edB B2 A|B2 e efd e3|]
+S:https://www.folktunefinder.com/tunes/102815
+S:http://cranfordpub.com/tunes/abcs/stubbertarchive.abc
+S:http://www.cranfordpub.com/tunes/abcs/stubbertarchive.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

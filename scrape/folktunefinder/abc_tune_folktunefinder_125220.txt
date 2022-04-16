@@ -1,0 +1,21 @@
+X:3
+T:Scales of C
+M:4/4
+L:1/4
+K:C
+"1"C "2"D "3"E "1"F| "2"G "3"A "4"B "1"c|\
+"2"d "3"e "1"f "2"g| "3"a "4"b "5"c'2|\
+"5"c' "4"b "3"a "2"g| "1"f "3"e "2"d "1"c|\
+"4"B "3"A "2"G "1"F| "3"E "2"D "1"C "2"B,|"1"C4||
+S:https://www.folktunefinder.com/tunes/125220
+S:http://accordionlinks.com/other/examples.abc
+S:http://www.accordionlinks.com/other/examples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

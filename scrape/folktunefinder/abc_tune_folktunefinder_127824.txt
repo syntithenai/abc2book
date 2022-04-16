@@ -1,0 +1,23 @@
+X:104
+T:Rowland Hornpipe
+R:Triple Hornpipe
+M:3/2
+L:1/8
+K:D
+AFDF EDCE D2EF | GFED C2E2 DEFD | AFDF EDCE D2d2 | AGFE D2F2 EFGE :|
+|:ABcA BcdB c2BA | GFED C2E2 DEFD |ABcA fedc d2cB | AGFE D2F2 EFGE :|
+|:fgaf efge d2df | efge c2ce defd |fgaf efge d2cB | AGFE D2F2 EFGE :|
+|:AFAF BGBG AcBA | GFED C2E2 DEFD |AFAF BGBG BdcB | AGFE D2F2 EFGE :|
+%%newpage
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127824
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:18
+T:An Fhidil ina Thost
+T:The Silent Fiddle
+R:slide
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+N:with expression (rubato passages - listen to MP3 at URL above)
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:A composition in honour of one of the greatest fiddle players in the North, the late John Joe Gordon from Belleek who died in 2002. I still remember first hearing him play a lovely version of " The Harvest Home" in Ballyshannon years ago. Always a quiet genius.
+L:1/8
+Q:244
+M:3/4
+K:Edor
+E2|B4 ({cB}A2)|B e3 d({ed}B)|AF E<G F<D-|D4 A>F|
+E B2 ({cB}A) Be|d>c B3 ({cB}A)|B2 cd e2-|e4 Bc/d/|
+e d3 B2|A F2 G2 B|AF E<G F<D-|D4 (3(B,CD)|
+E B2 ({cB}A) Be|d4 ({ed}B2)|AF ({A}D2) E2-|E3||
+||d2 ({ed}c)|:B e2 z d/e/d/c/|B E3 FG/A/|B  e3 de/f/|e B3 ({c/B/}A)(B/c/)|
+d4-d e|({e}d)c/B/ A<d F2|[1G>B ({c/B/}A)F EF|({A}D6)-|D3 (3dc=c:|
+[2G>B ({c/B/}A2) F>({A/F/}D)|E6-|E4|]
+S:https://www.folktunefinder.com/tunes/130155
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

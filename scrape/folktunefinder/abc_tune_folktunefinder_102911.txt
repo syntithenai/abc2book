@@ -1,0 +1,28 @@
+X:1
+T:Anglais
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 315)
+O:Petersson, Nttraby
+C:Alfred Petersson
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 315
+R:Anglais
+M:2/4
+L:1/16
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:C
+A^GAB  c2BA|(^GB)e^g (gb)eg|a2AB c2BA|(^GB)e^g a4:|
+|:c2=G2 e2dc|(Bd)ag gfdB|c2G2 e2dc|(Bd)ag c4:|
+S:https://www.folktunefinder.com/tunes/102911
+S:http://www.folkwiki.se/pub/cache/Anglais_781877.latin.abc
+S:http://www.folkwiki.se/pub/cache/Anglais_781877.abc
+S:http://www.folkwiki.se/pub/cache/Anglais_781877.abcm.abc
+% Rhythm Anglais
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

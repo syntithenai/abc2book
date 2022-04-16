@@ -1,0 +1,26 @@
+X:5021
+T:Fantocini,The. ASH.05
+M:6/8
+L:1/8
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Quadrille
+O:England
+A:Derbyshire
+Z:vmp.Chris Partington
+K:F
+fcc ~c3 | dAA ~A3 | GBA GAF | EFG C3 |
+fcc ~c3 |! dAA A2f | edc GA=B | c3 c3:||
+:gcc ~c3 | acc ~c3 | dcB AGF |! EFG C3 | 
+fcc ~c3 | dAA ~A3 | GBA GFE | F3 F3 :||
+S:https://www.folktunefinder.com/tunes/123804
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

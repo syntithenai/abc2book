@@ -1,0 +1,27 @@
+X:85
+T: A MAID WITHOUT A GOWN
+T: Cailin gan gunnadh
+B: O'Neill's 317
+M: 3/4
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: "Collected by J.O'Neill"
+N: 6-bar phrases
+K: G
+(G>A) \
+| (B2 c2) .B2 | ({G}B2 A2) (AG) | (F2 G2)  ({F}G>A) \
+| (B2 d2) ((3{d}cAG) | A2 G2 G2 | G4 Hx ||
+|| (G>F) \
+| (G2 B2) .d2 | d2 e2 (cB) | (c2 A2) .A2 \
+| (G2 B2) .c2 | (d2 B2) (~cd/e/) | d4 "D.C."x ||
+S:https://www.folktunefinder.com/tunes/121930
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0301-0350_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

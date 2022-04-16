@@ -1,0 +1,24 @@
+X: 3
+T:Les claquettes de Vendeuvre (b)  [ok]
+R:
+S:
+N:
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=135
+K:D
+A2 | B>A G>E | ED D2 | Ad/2d/2 d2 | Ac/2c/2 c>A | c>B A/2G/2F/2E/2 | B2 A>A ||
+ D3 A, | D>E FG | A>B AF | G>A GE | F2 DA, | D>E FG | A>B AF | G>A GE | D3 :|
+S:https://www.folktunefinder.com/tunes/118731
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

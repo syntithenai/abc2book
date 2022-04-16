@@ -1,0 +1,29 @@
+X:365
+T: Siji hua'r kai, Dui chang)
+N: C1394
+O: China,Hunan, Sangzhi
+S: I, 574]
+N: Doublette zu  C0136. Saengerin: Huang Bai
+N: Wenig Verzierungen. Die Rhythm-notation enthaelt Zungenschnalzen.
+N: VARIANTE. Kleinere glissandi.
+R: Xiaodiao, Mengjiangn diao. Chang hua niao]
+M: 4/4
+L: 1/16
+K: F
+F2G2F2D2c8 | f2dcAGcAG8
+G2GAd2ddc2AGGFDC | AAFAGFD2CC2DC2
+c'c' | c2cDc'2c'c'c2cDc'2c'c'
+F2GAGFD2AcGAc4 | ffdcAGcAGAFAG4
+c2cDz4c2cDz2
+GF | cdAGcdAGFGAcG3A | F3AGFD2C8
+S:https://www.folktunefinder.com/tunes/112792
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, mengjiangn diao. chang hua niao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

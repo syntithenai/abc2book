@@ -1,0 +1,26 @@
+X:27
+T:Rory O'Moore
+M:6/8
+L:1/8
+Q:1/8=300
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+e|:dGG BAG|dBG G2e|dBB BAG|FAA A2B/c/|
+dGG BAG|Bcd edc|Bcd def|1 gGG G2 e:|2 gGG G2g|
+gfe edB|cBA G2F|EFG GAB|Bed d2e/f/|
+gfe edB|cBA G2F|EFG GAB|edd dz e|
+dGG BAG|dBG G2e|dBB BAG|FAA A2B/c/|
+dGG BAG|Bcd edc|Bcd def|gGG G2||
+S:https://www.folktunefinder.com/tunes/114093
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

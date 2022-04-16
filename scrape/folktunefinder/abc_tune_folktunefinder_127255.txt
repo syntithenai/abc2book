@@ -1,0 +1,24 @@
+X: 7
+T:Within a mile of Dublin
+R:Reel
+B:O'Neills Music of Ireland, Miles Krassen
+D:Dubliner
+M:4/4
+L:1/8
+K:G
+dB |: AD (3DDD ~F3 G| AD (3DDD c2 BG| ADDE FEFG| AdcA G2 FG:|
+Ad (3d^cd AGFG| Ad{e}(3d^cd fdec| Ad (3d^cd AGFG|
+AB{cd}cA (3GAG FG| Ad (3d^cd AGFG| Adde ~f3 g| af (3gfe fde^c| dcAF G2 dc||
+S:https://www.folktunefinder.com/tunes/127255
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

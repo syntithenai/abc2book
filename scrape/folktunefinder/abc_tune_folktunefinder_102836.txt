@@ -1,0 +1,30 @@
+X:42
+T:Mr. Murray
+C:Wm. Martin
+B:Skye Collection
+D:Angus Chisholm 78; Brenda Stubbert, Music All Around, 2003
+O:19th Scottish
+S:Cape Breton setting, Brenda Stubbert
+R:slow strathspey
+Q:222
+M:C
+L:1/8
+K:A
+F|E<A,C<E A,>e d/c/B/A/|F<DA>F E>dc<e|\
+E<A,C<E A,>e d/c/B/A/|[1F<AE>G A2 A:|[2F<AE>G A2 ||
+(3(efg)|a>a g/a/b/g/ a>ec>e|fe {fg}a>ec<e|\
+{fg}a>a g/a/b/g/ a>ec>g|f/B z/ (3agf Te2 (3(efg)|
+a>a g/a/b/g/ a>ec>e|fe {fg}a>ec<e|\
+(3agf (3edc (3fed (3cBA|F<AE>G A2 A|]
+S:https://www.folktunefinder.com/tunes/102836
+S:http://cranfordpub.com/tunes/abcs/stubbertarchive.abc
+S:http://www.cranfordpub.com/tunes/abcs/stubbertarchive.abc
+% Rhythm Slow strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

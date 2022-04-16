@@ -1,0 +1,30 @@
+X:3
+T:Ashokan Farewell
+C:Jay Unger
+S:Bernie Waugh
+R:Waltz
+M:3/4
+L:1/8
+K:D
+|:Ac|\
+"D"{c}d3 cBA|"D7"F3 G/F/ EF|"G"{F}G3 FED|"Em"B,2 D3B,|
+"D"A,2D2F2|"Bm"A2d2f2|1\
+"Em"f3gf2|"A"e4:|2\
+"A"A2c2e2|"D"d4 FG||
+"D"[D3A3]FD2|"D7"{c}d4A2|"G"B3cd2|"D"AF3-~FE|
+"D"~F3ED2|"Bm"~B,4G,2|"A"A,4-A,A|"A7"A4FE|
+"D"D2F2A2|"C"=c6|"A"B3cd2|"D"AF3-FD|
+"D"A,2D2F2|"Bm"Ad3F2|"A"~E3DC2|"D"D4|]
+S:https://www.folktunefinder.com/tunes/112991
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w5.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w5.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

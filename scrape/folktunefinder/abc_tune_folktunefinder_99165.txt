@@ -1,0 +1,44 @@
+X:11383
+T:Muieira De Albixoi
+O:Galicia (Spain)
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+C:Eduardo Go\'mez Torreiro
+M: 4/4
+L: 1/8
+Q:1/4=200
+K:C % 0 sharps
+c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|d/2e/2f g3/2a/2 ba3/2g/2e|c3/2e/2 gc'3/2b/2a g3/2f/2|
+ee3/2d/2c c3/2B/2 cd-|d/2e/2f d3/2B/2 d2<c2|c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|
+d/2e/2f g3/2a/2 ba3/2g/2e|c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|d/2e/2f d3/2B/2 d2<c2|
+e3/2d/2 c2<e2 e3/2d/2|c2<e2 e3/2d/2 cd-|d/2e/2f d3/2B/2 fd3/2B/2f|d3/2B/2 d2<e2 e3/2d/2|
+c2<e2 e3/2d/2 ce-|e2 e3/2d/2 cd3/2e/2f|d3/2B/2 d2<c2 e3/2d/2|c2<e2 e3/2d/2 ce-|
+e2 e3/2d/2 cd3/2e/2f|d3/2B/2 fd3/2B/2f d3/2B/2|d2<e2 e3/2d/2 ce-|e2 e3/2d/2 c2<e2|
+e3/2d/2 cd3/2e/2f d3/2B/2|dc4-c/2^d/2 fg-|g/2^g/2=g f3/2^d/2 =dg3-|g3/2^d/2 fg3/2^g/2=g f3/2^d/2|
+gf4-f/2=d/2 ^df-|f/2g/2f ^d3/2=d/2 ^df3/2g/2f|^d3/2=d/2 ^df3/2g/2f ^d3/2=d/2|f^d4-^d/2^d/2 fg-|
+g/2^g/2=g f3/2^d/2 =dg3-|g3/2^d/2 fg3/2^g/2=g f3/2^d/2|gf4-f/2=d/2 ^df-|f/2g/2f ^d3/2=d/2 ^df3/2g/2f|
+^d3/2=d/2 ^df3/2g/2f ^d3/2=d/2|f2<e2 c3/2e/2 gc'-|c'/2b/2a g3/2f/2 ee3/2d/2c|c3/2B/2 cd3/2e/2f g3/2a/2|
+ba3/2g/2e c3/2e/2 gc'-|c'/2b/2a g3/2f/2 ee3/2d/2c|c3/2B/2 cd3/2e/2f d3/2B/2|d2<c2 c3/2e/2 gc'-|
+c'/2b/2a g3/2f/2 ee3/2d/2c|c3/2B/2 cd3/2e/2f g3/2a/2|ba3/2g/2e c3/2e/2 gc'-|c'/2b/2a g3/2f/2 ee3/2d/2c|
+c3/2B/2 cd3/2e/2f d3/2B/2|d2<c2 e3/2d/2 ce-|e2 e3/2d/2 c2<e2|e3/2d/2 cd3/2e/2f d3/2B/2|
+fd3/2B/2f d3/2B/2 de-|e2 e3/2d/2 c2<e2|e3/2d/2 c2<e2 e3/2d/2|cd3/2e/2f d3/2B/2 dc-|
+c2 e3/2d/2 c2<e2|e3/2d/2 c2<e2 e3/2d/2|cd3/2e/2f d3/2B/2 fd-|d/2B/2f d3/2B/2 d2<e2|
+e3/2d/2 c2<e2 e3/2d/2|c2<e2 e3/2d/2 cd-|d/2e/2f d3/2B/2 dc3-|c3/2^d/2 fg3/2^g/2=g f3/2^d/2|
+=dg4-g/2^d/2 fg-|g/2^g/2=g f3/2^d/2 gf3-|f3/2=d/2 ^df3/2g/2f ^d3/2=d/2|^df3/2g/2f ^d3/2=d/2 ^df-|
+f/2g/2f ^d3/2=d/2 f^d3-|^d3/2^d/2 fg3/2^g/2=g f3/2^d/2|=dg4-g/2^d/2 fg-|g/2^g/2=g f3/2^d/2 gf3-|
+f3/2=d/2 ^df3/2g/2f ^d3/2=d/2|^df3/2g/2f ^d3/2=d/2 ^df-|f/2g/2f ^d3/2=d/2 f2<e2|c3/2e/2 gc'3/2b/2a g3/2f/2|
+ee3/2d/2c c3/2B/2 cd-|d/2e/2f g3/2a/2 ba3/2g/2e|c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|
+d/2e/2f d3/2B/2 d2<c2|c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|d/2e/2f g3/2a/2 ba3/2g/2e|
+c3/2e/2 gc'3/2b/2a g3/2f/2|ee3/2d/2c c3/2B/2 cd-|d/2e/2f d3/2B/2 dc
+S:https://www.folktunefinder.com/tunes/99165
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:7
+T:Bill Hart's Jig
+R:jig
+Z:Played in Ador or Ddor. Both versions included.
+Z:id:hn-jig-7
+M:6/8
+K:Ador
+~A3 ~e3|fed efe|~A3 ~e3|fed BdB|~A3 ~e3|fed efg|aba g2e|1 fed BdB:|2 fed B2A||
+~a3 gag|fed efg|aba g2e|fed B2A|agf gfe|fed efg|aba g2e|fed B2A|
+a2f g2e|fed efg|aba g2e|fed B2A|agf gfe|fed efg|aba g2e|fed BdB||
+K:Ddor
+~D3 ~A3|BAG ABA|~D3 ~A3|BAG EGE|~D3 ~A3|BAG ABc|d2B cBA|1 BAG EGE:|2 BAG E2D||
+|:d2B c2A|BAG ABc|d2B c2A|BAG E2D|d2B c2A|BAG ABc|ded c2A|1 BAG E2D:|2 BAG EGE||
+S:https://www.folktunefinder.com/tunes/125536
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj0.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

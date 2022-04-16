@@ -1,0 +1,20 @@
+X:47
+T:Up and Away
+Z: id:dc-polka-38
+M:2/4
+L:1/8
+K:G Major
+G/A/B/c/|d2 B2|B/A/B/c/ B2|A>B A/F/D/F/|AG G/A/B/c/|!
+d2 B2|B/A/B/c/ B2|A>B A/F/D/F/|AG:|!
+G/B/d/g/|b/a/g/f/ a/g/f/e/|dB B/A/B/c/|dA A/F/D/F/|AG G/B/d/g/|!
+b/a/g/f/ a/g/f/e/|dB B/A/B/c/|dA A/F/D/F/|AG:|!
+S:https://www.folktunefinder.com/tunes/127426
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

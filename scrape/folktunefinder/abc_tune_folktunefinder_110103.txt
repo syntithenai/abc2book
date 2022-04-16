@@ -1,0 +1,31 @@
+X:56
+T:Janet Murphy's Delight
+C:Jenny Jones, 1989
+L:1/4
+M:3/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+K:Gm
+%%MIDI gchord GIcIHI
+%%MIDI beat 100 95 80
+P:A
+|: "Gm"D2 "^/"G2- "^/"GA | "Gm/D"BA/G/ "D7"A^F "Gm"GD |\
+"Bb"F2 "^/"B2- "^/"Bc | "Bb/F"dc/B/ "F"cA "Bb"B2 | "Gm"d2 "^/"B2- "^/"Bd |
+"F/C"cB/A/ "C7"BG "F"F2 | "Cm"e2 "^/"c2- "^/"ce | "Gm"d/c/B "^/"dg "D"^f2 |\
+"Gm"g2 "Bb"fe/d/ "Cm/Eb"ec | "Bb/F"Bc "F7"FA "Bb"B2 :|
+P:B
+|: "Bb"FB- "^/"BB "F"A/G/F | "Bb"B2- "^/"Bd "F"c2 | "Cm"Gc- "^/"cc "Bb"B/A/G |\
+"Gm/D"dg- "D7"g^f "Gm"g2 | "Eb"g2 "^/"e2- "^/"eg |
+"Bb"fe/d/ "F/A"ef "Gm"B2 | "Cm"e2 "^/"c2- "^/"ce | "Gm"dc/B/ "Cm"AG "D"^F2 |\
+"Gm"G2 "F"AG/A/ "Bb"Bd | "Cm"c/B/A/G/- "D7"G^F "Gm"G2 :|
+S:https://www.folktunefinder.com/tunes/110103
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

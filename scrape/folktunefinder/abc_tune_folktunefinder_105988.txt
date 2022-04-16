@@ -1,0 +1,35 @@
+X: 84
+T:Count Brown's March(secundo). JBi.83
+T:Bodmin Riding March(secundo),aka. JBi.83
+T:Capt. Brown's March(secundo),aka. JBi.83
+M:C
+Q:160
+C:aka.Capt.Brown's,Bodmin Riding.
+S:James Biggins MS,Leeds,1779
+R:March
+O:England
+A:Yorkshire
+N:There is enough here for you to reconstruct if necessary, however, you
+N:will have to look elsewhere for the Primo part (eg,B.Cooke,Jos Barnes
+N:MSs) as Mr Biggins has omitted it..CGP,...
+Z:vmp.Chris Partington
+K:D
+"As Written, no key sig in ms"AB/c/|d2d2d2d2|dcde dede|!
+f2f2f2g-f|e2e2e2f-e|d2f>d|A4::!
+ABc2ccd2cBAG A4|def2f2f2g2|fedcd2|!
+fe ((3ded) ((3AdA) F2|f-ed2A2F2|fed2A2F2Dfed|A6::!
+z|zAB/c/|dAFA dAFA|dcde dAFA|!
+fFFff2f2|eDDee2e2|fed2d2cdA4:|!
+cd|cBAG cBAG|edcBA2|de fFFf eFFe|!
+d2A2F4|fed2A2F2|cBA2BA GAGD|fed2AF DfedA4||
+% Output from ABC2Win  Version 2.1 k pre2 on 05/10/2003
+S:https://www.folktunefinder.com/tunes/105988
+S:http://www.village-music-project.org.uk/abc/biggins.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

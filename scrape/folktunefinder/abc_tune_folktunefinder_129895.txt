@@ -1,0 +1,24 @@
+X: 6
+T:Rory O'More
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+Q:3/8=120
+R:jig
+K:A
+"A"eAA cAA|"A"eAA "D"f3|"A"edc cBA|"E"G2B Bcd|
+"A"eAA cAA|"A"ece "D"fed|"E"cee efg|"A"aec A3::
+"F#m"agf f2c|"Bm"dcB "F#m"A2G|"F#m"FGA ABc|"E"cfe efg|
+"F#m"agf f2c|"Bm"dcB "F#m"A2G|"F#m"FGA ABc|"E"cfe e3:|
+%%newpage
+S:https://www.folktunefinder.com/tunes/129895
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

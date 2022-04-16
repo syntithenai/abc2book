@@ -1,0 +1,27 @@
+X:36
+T:Veux-tu te marier
+R:Branle
+C:trad
+A:Gascogne
+O:France
+M:6/8
+L:1/8
+Q:1/4=150
+K:G
+B2 A|G3 DEF|G2G:||:G2A |B2BB2B|c3:|
+|BcB|A2A FGA|B2 G BcB|A2A ABA|G3||
+W:
+W:Te veux-tu te marirer Rosette
+W:Rosette veux-tu te marier
+W:Digodon dondon la deridto
+W:Digodon don lala derida
+S:https://www.folktunefinder.com/tunes/104912
+S:http://www.tradfrance.com/matf06.txt
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 29
+T:Off She Goes (In the North)
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:D
+A|"D"FzA "G"GzB|"A"ABc "D"d3|FzA "G"GzB|"D"AFD "A"E3|
+"D"FzA "G"GzB|"A"ABc "D"d2e|fzd "Em"g2f|"A"edc "D"d2::
+g|"D"faf dzf|"A"ege czg|"D"faf dzf|"A"edc "D"dzg|
+faf dzf|"A"ege cze|"D"dzf "Em"a2f|"A"gec "D"dz:|
+S:https://www.folktunefinder.com/tunes/119767
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

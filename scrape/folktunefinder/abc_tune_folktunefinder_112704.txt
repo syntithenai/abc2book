@@ -1,0 +1,31 @@
+X:277
+T: Hebao diao
+N: C0458
+O: China,Shaanxi, Weinan
+S: I, 80]
+N: Notation aus Nord Shanxi. Um die Tonart, ein Sonderfall der
+N: Heptatonik, streitet man in China. Hier ist Zhi angenommen.
+N: Das Tonmodell, 10 Toene) ist auf getrenntem Zettel notiert.
+N: In Takt 4 und 13 ist fuer die beiden Achtel -7_1_ in Klammern
+N: auch -7-5 notiert.
+R: Wuge, Yangge. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: G
+d2ded2cA | d3edcd2
+A2d2c2d2 | d2AG=F2G2 | AcBAAG=FE | D4D4
+d2A2AG=FD | G2G4A2
+A2g2d2dd | d2AG=F2Ad | AG=FGD4G2
+GA | d4d2cA | c2AG=F2G2 | AcBAAG=FE | D4D4
+S:https://www.folktunefinder.com/tunes/112704
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

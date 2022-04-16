@@ -1,0 +1,32 @@
+X:29
+T:le rondo du tambour
+R:Rondo
+C:trad
+A:Aquitaine
+O:France
+M:6/8
+L:1/8
+Q:1/4=170
+K:D
+D2D|A2A Bcd|A3G2G|FFF E2E|D3:|
+|:AA|DDDD2 F|E2DE2:||:d |dcB A2 G|F3 d3|ABA GFE|D3||
+W:
+W:L'autre jour m'en tais all
+W:Un fltiau j'avais achet (bis)
+W:Et le flt et le flt de mon fltiau (bis)
+W:Et le rapataplan de mon tambour (bis)
+W:
+W:L'autre jour m'en tais all
+W:Un violon j'avais achet (bis)
+W:Et le jig et le jag de mon violon (bis)
+W:Et le flt et le flt de mon fltiau (bis)
+W:Et le rapataplan de mon tambour (bis)
+S:https://www.folktunefinder.com/tunes/104905
+S:http://www.tradfrance.com/matf06.txt
+% Rhythm Rondo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

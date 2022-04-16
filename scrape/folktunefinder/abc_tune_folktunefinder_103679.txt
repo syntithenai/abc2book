@@ -1,0 +1,27 @@
+X: 799
+T: The Merry Old Woman. 1st Setting.
+C:J. O'Neill
+B:O'Neill's Music of Ireland
+N:O'Neill's - 799
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+Z:All ornaments are turns.
+R:Jig
+M:6/8
+K:G
+G/A/|BcB ABA|GAG GFG|~B3 c2 c|def gdc|\
+BcB ABA|GAG GFG|BdB cAF|AGG G2:|
+||G/A/|~B3 ~c3|def gde|~f3 ~g3|def gfg|\
+bbg aaf|def gdB|BdB cAF|AGG G2:|
+S:https://www.folktunefinder.com/tunes/103679
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0759-0810_sf.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

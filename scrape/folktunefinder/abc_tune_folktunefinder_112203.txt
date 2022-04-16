@@ -1,0 +1,28 @@
+X: 32
+T:Schottis e. Johan Bjrkander
+M:2/4
+L:1/16
+Q:75
+C:e. Johan Bjrkander i Roma
+S:
+R:Schottis
+O:Sweden
+A:Gotland
+N:
+K:D
+ag | f2fg e2ef | d2df A3d | c2ce A3c | d2df a3g |\
+f2fg e2ef | d2df A3d | c3B cgfe | d2d2 d2 ::
+K:A
+ed | c2ce B2Bd | cABc defg | acfe dcBA | G2E2 E2ed |\
+c2ce B2Bd | cABc defg | acfe dcBc | A2a2 a2 :||
+S:https://www.folktunefinder.com/tunes/112203
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

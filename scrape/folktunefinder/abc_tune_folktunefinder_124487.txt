@@ -1,0 +1,23 @@
+X: 2
+T: Ariel, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Amaj
+|: (3AAA |\
+A,>CE>A c2 B>A | B>EG>B d2 c>B | (3cBA c>e a>ec>A | B>cd>B A>GF>E |
+A,>CE>A c2 B>A | B>EG>B d2 c>B | c>eA>c B<EG>B | (3ABA G>B A2 :|
+(3aaa |:\
+a>Ac>e a2 a>g | f>Ad>e (3fgf e>d | (3cBA c>e a>ec>A | B>cd>B A>GF>E |
+[1 a>ec>e a2 a>g | f>Ad>e (3fgf e>d | c>ea>e c>ed>B | (3cdc A2 A2 (3efg :|
+[2 A,>CE>A c2 B>A | B>EG>B d2 c>B | c>eA>c B<EG>B | (3ABA G>B A2 |]
+S:https://www.folktunefinder.com/tunes/124487
+S:http://www.thesession.org/tunes/display/6034
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

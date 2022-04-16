@@ -1,0 +1,24 @@
+X:75
+T:Mulhaire's
+B:Music from Ireland, Bulmer & Sharpley, Vol. 4, no. 7
+Z:Paul de Grae
+R:reel
+M:4/4
+L:1/8
+K:D
+AG|F2 AF DFAF|G2 BG DGBG|cAec AecA|dcde fdAG|
+F2 AF DFAF|GB ~B2 dB ~B2|Ae ~e2 gece|d2 ce d2:||:fg|
+a2 fd adfd|adfd edBd|edef gfga|be ~e2 begb|
+a2 fd adfd|adfd edBG|FA ~A2 GBdB|AFGE D2:||
+S:https://www.folktunefinder.com/tunes/114409
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mfiall.abc
+S:http://www2.redhawk.org:8080/irish/other/mfiall.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

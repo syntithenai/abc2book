@@ -1,0 +1,26 @@
+X:29
+T:Morski da' pojkar (Boda in C)
+R:polska K1
+Z:2001 Brian Wilson 
+M:3/4
+L:1/8
+K:C
+P:A
+|: c2 GE C>E | G2 c/B/c/d/ e>g
+| f2 d>B c>A | AG G>F EG
+| c2 GE C>E | G2 c/B/c/d/ e>g
+| f2 d>B c>A | ^F2 G4 :|
+P:B
+|: c2 ec A2 | f2 fe/d/ e2- | e2 d>B GB | d2 d4
+|  c2 ec A2 | f2 fe/d/ e2- | e2 d>B GB | dB c4 :|
+S:https://www.folktunefinder.com/tunes/114366
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/MorskiDaPojkarBodaInC.abc
+% Rhythm Polska k1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

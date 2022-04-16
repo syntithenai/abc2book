@@ -1,0 +1,43 @@
+X:228
+T: Zhaobao shan wai yuge
+N: C0362
+O: China,Zhejiang, Zhenhai
+S: III, 635]
+N: prosaisch.  Grundton wechselt von B nach F!! 
+N: 3/4 in der Vorlage nicht angegeben. Vereinzelt Verzierungen.
+R: Xiaodiao, Yge. Buyu laodong shi chang]
+M: 2/4
+L: 1/16
+K: Bb
+d2dgf2z2 | b2bdf2z2 | d2c2b2cc | b2bdf2z2
+d2dgf2z2 | bcbdf2z2 | d2dcb2d2 | cccfb2z2
+d2dgf2z2 | b2bdf2z2 | d2dcb2c2 | bcbdf2z2
+d2dgf2z2 | b2bdf2z2 | d2dcb2d2 | cc2df2g2 | b8
+aaaaa2aa | a2a2d2a2 | g2c2f4
+g2f2b2c2 | d3fb3g | c8- | c6f2
+c2c2c3c | ccccc2c2 | a2d2c2z2
+f3dc3c | ccccc2c2 | a2d2c2z2
+c2cdc2b2 | a3dg3c | f8
+f2f2f2z2 | f2fff2f2 | d2g2f2z2
+f2f2f2z2 | f2fff2f2 | d2dgf4
+f6d2 | c2c2z4
+c2c2c3c | c2ccc2c2 | a2ddc2z2
+f2d2c3c | c2ccc2c2 | a2ddc2z2
+c3dc2b2 | a3dg3c | f8
+f2f2f2z2 | d2fff2f2 | d3gf2z2
+f2f2f2z2 | f2ffd2f2 | d3gf2z2
+f8- | f6d2 | c2c2c2c2 | c2c2c2z2
+c2c2c2c2 | =b2d2c2ccc2c2 | c4b4 | a8
+g6g2 | f4f4 | b6c2 | d8
+c4c4 | d4a4 | g4c4 | f8
+S:https://www.folktunefinder.com/tunes/112655
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, yge. buyu laodong shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

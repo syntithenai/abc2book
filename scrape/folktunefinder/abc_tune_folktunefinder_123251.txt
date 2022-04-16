@@ -1,0 +1,27 @@
+X:5
+T:King of the Pipers
+R:jig
+D:Tommy Peoples's - Waiting for a Call, Shanachie 2003
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:6/8
+K:D
+A2 D B2 D|ABG FED|A2 B =cBA|G=cG GFE|
+{d}A/{B}A/AD B2 D|ABG FDB,|=CEG =cBA|G=cG GFE:|
+|:dfa afd|dfd ({c/d/})cAG|({F/G/})F2 A =cAF|~G3 GFE|
+dfa afa|geg fdf|e=cA FGA|~G3 GFE:|
+|:dfd dfd|dfd ({c/d/})cAF|~d3 {e}dAF|GEF GFE|
+d2 f cde|Bcd AFD|=CEG =cBA|G=cG GFE:|
+|:dDD cDD|BDD ADD|dDD cDD|~G3 GFE|
+dDD cDD|({B/c/})B2 d AFD|=CEG =cBA|G=cG GFE:|
+S:https://www.folktunefinder.com/tunes/123251
+S:http://cranfordpub.com/tunes/abcs/peoples.abc
+S:http://www.cranfordpub.com/tunes/abcs/peoples.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

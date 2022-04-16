@@ -1,0 +1,33 @@
+X: 1
+T: \"Algen
+C: Hans Sandin
+N: Hans Sandin is a member of NorrL\aatar
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+|: DE FG \
+| "Dm"AA DF BB AA | "E7"^G2 F2 "A7"E=G FE \
+| "Dm"DE FG A2 d2 | "A7"^c4- c4 \
+| "Bb"d3 =c "C7"BA GF | "F"A2 B2 "Gm"F3 G |
+| "Dm"A2 BA "Bb"^GF ED | "A7"E4 DE FG \
+| "Dm"AA DF BB AA | "E7"^G2 F2 "A7"E=G FE \
+| "Dm"DE FG A2 d2 | "A7"^c4- c4 |
+| "Bb"d3 e "C7"d2 cB | "F"AA cc "C7"GG BB \
+| "Dm"FF AA "A7"EG FE |1 "Dm"D2 A,2 :|2 "Dm"D2 D2 D4 \
+|: "A7"EE FE "Dm"DE FA | "Gm"BB cB "F"A4 |
+| "Bb"dd ed "C"cc dc | "C7"Bd cB "F"Ac BA \
+| "Gm"GB AG "Dm"FE FG | "A7"A6 GF \
+| "A7"ED EG F2 E2 |1 "Dm"D2 A,2 D4 :|2 "Dm"D4 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/102920
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

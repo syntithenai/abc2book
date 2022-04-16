@@ -1,0 +1,22 @@
+X: 78
+T:Gravel Walk, The
+M:C|
+L:1/8
+R:reel
+K:ADor
+A2 eA ^cAeA|A2 eA BAGB|A2 eA Bdef|gedc BAGB :|
+|A2 aA gAfA|A2 eA BAGB|A2 aA gAef|gfge dBGB
+|A2 aA gAfA|A2 eA BAGB|ABcd efga|gedc BAGB ||
+|:cAAG A2 AB|cAAA BGBd|cAAG A2 ef|gfge dBGB :|
+|:c2 gc acgc|c2 gc BAGB|c2 gc acga|gedc BAGB|c2 gc acgc|c2 gc BAGB|ABcd
+efga|gedc BAGB :|
+% Output from ABC2Win  Version 2.1 f on 09.12.99
+S:https://www.folktunefinder.com/tunes/129042
+S:http://www.unet.univie.ac.at/~a8702257/abc/sessionbook.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:115
+T:Jenny's Bawbee
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+fg|"D"abag f/2d3/2(3def|"G"gBed "A7"c/2A3/2A2|"D"abag f/2d3/2df|\
+"G"B/2d3/2"A7"c/2e3/2 "D"d2:|
+P:B
+de|"D"fd"G"ge "D"f/2d3/2(3def|"G"gBed "A7"c/2A3/2A2|"D"fd"G"ge "D"f/2d3/2df|\
+"G"B/2d3/2"A7"c/2e3/2 "D"d2:|
+S:https://www.folktunefinder.com/tunes/129750
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 23
+T:Early Rose (#223), The
+M:4/4
+L:1/8
+S:Rice-Walsh manuscript
+R:Reel
+K:G
+G2 BG FGAc|Bdef g2 dg|ecAG FGAc|BGAF GFED|
+DGBG FGAc|Bdef g2 dg|ecAG FGAc|BGAF G2||
+Bd|g2 gg a2 aa|bgaf g2 dg|egfa g2 dg|ecAF GFED|
+gbag fagf|egfa g2 dg|egfa g2 ga|bgaf gedB||
+S:https://www.folktunefinder.com/tunes/124641
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/EarlyRose223The.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0223.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/T/EarlyRose223The.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/X/0223.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

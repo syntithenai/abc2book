@@ -1,0 +1,36 @@
+X:12
+T:Solveigs sang
+R:Folkevise
+C:tekst : Ibsen / melodi : Grieg
+N:
+D:Storm : Oppunder Skrenk og Villmark
+O:Norge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=85
+K:C treble
+V:1
+(E2 | A2 Bc d2 ef | fe ec A2) (Ac | cB B^G E4)-|E6 
+ E2 | A2 Bc d2 ef | fe ec A2 Ac | cB BG E4-|E6
+ zE | (E^G Bc A2 e^d | B2 d^c A3) (A | cB BA e3) E |
+     E^G Bc A2 e^d | BB d^c A3 A | [F3c3] B[D3B3] A | [C8A8] |]
+V:2
+K:C bass
+z2 | A,2 [E2c2] A,2 [E2d2] | A,2 [E2c2] A,2 [E2c2] | A,2 [E2d2] A,2 [E2c2] |
+[K:C treble] [c6a6] z2 | A,4 G,4 | C4 [K:C bass] f4 | e4-[A4e4][K:C treble]|
+[c6a6] z2 [K:C bass]| d4 c4 | =B2_B2 A4 | [^D4A4f4] [E4^G4e4] |
+ d4 c4 | B2_B2 A4 | [D4A4f4] [E4^G4e4] | [A,8E8] |]
+W:Kanske vil der gaa baade Vinter og Vaar, baade Vinter og Vaar,  
+W:og nste Sommer med, og det hele Aar og det hele Aar  
+W:men engang vil du komme, det ved jeg vist, det ved jeg vist  
+W:og jeg skal nok vente, for det lovte jeg sidst, det lovte jeg sidst.
+S:https://www.folktunefinder.com/tunes/112134
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Folkevise
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

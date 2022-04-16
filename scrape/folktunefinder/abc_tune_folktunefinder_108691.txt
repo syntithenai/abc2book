@@ -1,0 +1,32 @@
+X:7184
+T:Hopkins's Fancy. WM117
+M:6/8
+L:1/8
+C:*
+S:Wm.Mittell,1799
+R:Jig
+O:England
+A:Kent
+N:Strains A,B are the high part of the tune,strains C,D are the low
+N:part.Presumably they sound better together than they do apart
+D:
+H:
+Z:C.G.P
+W:
+K:A
+"top part"cGe cGe|dGf dGf|edc ABc|d2dd3|cGe cGe|dGf dGf|eca =fdf|g2gg3:|
+|:G2gG2B|AcB ABc|G2gB2d|ced cde|f2fe3|a2ag3|fed cdB|c3c3:|]!
+"2nd part"AEc AEc|BEd BEd|cBA AGA|B2BB3|AEc AEc|BEd BEd|cAf =cAc|e2ee3:|
+|:E2eE2G|FAG FGA|E2eG2B|AcB ABc|d2dc3|f2fe3|dcB ABG|A3A3:|]
+S:https://www.folktunefinder.com/tunes/108691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

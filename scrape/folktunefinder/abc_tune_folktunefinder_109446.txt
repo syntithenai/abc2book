@@ -1,0 +1,17 @@
+X:8
+T:Deio y Dywyn
+O:Wales
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M:4/4
+L:1/8
+K:Am
+|: A2 A2 F2 A2 | G2 E2 C2 E2 | D^C DE FE FG | A2 C2 &quot;Dm fine&quot;D4 :|
+|| A2 A2 c2 B2 | A2 d2 A4 | A^G AB c2 cA | A2 d2 &quot;Am daCapo&quot; A4 |]
+S:https://www.folktunefinder.com/tunes/109446
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

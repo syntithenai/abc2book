@@ -1,0 +1,23 @@
+X:105
+T:Belle of the Mohawk Vale
+T:From KG, Then and Now (2006 Stand piece)
+S:CFD Vol. 1
+M:4/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(B>c)|(d2 B)d g2 f>e|(de) GA B2 B>c|d2 ed G2 (FG)|
+S:https://www.folktunefinder.com/tunes/114137
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

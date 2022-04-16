@@ -1,0 +1,25 @@
+X:120
+T: THE POOR OLD WOMAN
+T: An sean bhean bhochd
+B: O'Neill's 324
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Animated"
+N: "Collected by J.O'Neill"
+N: "1st Setting"
+K: F
+F>G \
+| A>GFD F2DC | G2G2 G2(F>G) | A>GFD F2DC | F2 F2 F2 ||
+|| GA \
+| B>ABc d2cA | cAG^F G2=FG | A>GFD F2DC | F2 F2 F2 ||
+S:https://www.folktunefinder.com/tunes/121937
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0301-0350_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 17
+T:Green Grow the Rushes
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+D2|"G"G2BA B/2G3/2GB|"Am"A/2e3/2ed "D"e/2A3/2AB|"C"cdec "G"BcdB|\
+"Am"AcBA "Em"G/2E3/2E2:|
+P:B
+D2|"G"G2gf g/2d3/2dg|"C"e/2a3/2ag "D"a/2e3/2ef|"C"gage "G"dBGB|\
+"Am"AcBA "Em"G/2E3/2E2:|
+S:https://www.folktunefinder.com/tunes/129809
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

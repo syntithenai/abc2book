@@ -1,0 +1,29 @@
+X:29
+T:Sonderhoning
+R:sonderhoning
+Z:from RealPlayer audio. Original was more improvised -- this is one version
+M:2/4
+L:1/8
+Q:90
+K:D
+|: d>f fd \
+| ef/g/ ge \
+| dd/d/ ef \
+| f3 A \
+:: (3 def (3 def \
+| (3 def (3 fed |
+| (3 cde (3 cde \
+| df/f/ fd \
+| BB/B/ Bg \
+| g3 e \
+| ff/f/ ee \
+| d3 A :|
+S:https://www.folktunefinder.com/tunes/114327
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Sonderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

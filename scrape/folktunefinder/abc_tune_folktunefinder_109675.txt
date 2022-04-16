@@ -1,0 +1,20 @@
+X: 1
+T: Babylon
+T: Al naharot Bavel
+O: Psalm 137:6
+M: 4/4
+L: 1/8
+K: Bm
+"1"[| "Bm"B2 AG F2 G2 | "A"A2 GF E2 F2 | "Em"G2 FE D2 E2 | "F#7"F2 F2 "Bm"B,4 |]
+"2"[| d3-d- d2 d2 | d2 c4 =c2 | =c2 B4 B2 | B2 ^A2 B4 |]
+"3"[| F3 G A2 B2 | E3 F G2 A2 | D3 E F2 G2 | F2 F2 B,4 |]
+S:https://www.folktunefinder.com/tunes/109675
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Bb/Babylon_Round_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/Babylon_Round_Bm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Babylon_Round_Bm.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

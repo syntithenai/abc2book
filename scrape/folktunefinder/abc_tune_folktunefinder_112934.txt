@@ -1,0 +1,53 @@
+X:507
+T: Lan poniang ma ji
+N: C0397A
+O: China,Henan, Chengping
+S: IV, 172]
+N: sehr prosaisch und typisch fuer diese Provinz. Urspruenglich
+N: fuer ein volkstuemliches Kleintheater: Eine Frau mit vielen
+N: Huehnern bemerkt, dass eins fehlt. Waehrend sie noch ueber den
+N: vermeintlichen Diebstahl schimpft, kommt es angelaufen.
+N: Einige Glissandi, Verzierungen. Zwischenspiele weggelassen.
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+G2G2GAGF | F2F2z2F2 | FBBFz2
+G2 | G2GGG2GF | F3Gf2c2 | c2cGF4-F2
+cc | c2FGF4 | c2FGF4
+c2cAGAGF | GFFGF4
+G2G2G2GF | F2f4dc | c2cGF4
+G2G2G2GF | F3Gf2c2 | c2cGF8
+c2ccGAGF | GFFGF2z
+c | c2cAGAGF | c2D2F4
+B2F2B2BG | B2FGF2z
+c | c2cAGAGF | G2FGF4
+B2B2GAGF | G2FGF2z
+G | G2G2GAGF | c2D2F2z2
+ccc2GBGF | c2FGF2z
+c | c2cAGAGF | F2cDF8
+B2BBGAGF | G2FGF2z
+F | F2F2B2FF | c2FGF4
+c2cAGAGF | GFFGF4
+c2cAGAGF | c2FGF4
+c2cAGAGF | G2FGF4
+c2cAGAGF | c3FF2z
+c | c2cAGAGF | F2c2F2z
+C | C2C2BBBG | F2c2F2z
+F | F2F2BBBG | DFcDF2z
+F | F2F2BBBG | F2c2F2z
+C | C2C2BBBG | FGcDF2z
+c | c2cAGAGF | FGcDF2z2
+G2G2G2GG | F2f4dc | c2cGF2z2
+G2GGG2GG | F3Gf2c2 | c2cGF8
+S:https://www.folktunefinder.com/tunes/112934
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

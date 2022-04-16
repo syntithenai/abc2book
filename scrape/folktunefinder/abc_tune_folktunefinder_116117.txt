@@ -1,0 +1,20 @@
+X:13072
+T:Phoenix
+M:2/2
+K:F
+P:AABB
+P:A
+c|:"F"f2 c2 A2 F2|"C7"cdef g2 e2|"F"fg a2 "Gm"(g2 f2)|"C7"(e3 d/e/) "F"f4:|
+P:B
+"F"f2 c2 A2 F2|FGAB c2 A2|"Gm"dBcA BGAF|"C7"E3 D/E/ "F"F4:|
+S:https://www.folktunefinder.com/tunes/116117
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

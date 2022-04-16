@@ -1,0 +1,33 @@
+X:145
+T:Niel Gows Lament for his Second Wife
+O:scotland
+R:Slow air
+M:6/8
+C:Niel Gow
+K:D
+D/B,/|\
+A,>B,D {DC}D>ED|EFA B2d|\
+A>FD {EF}E>DE|{DE}FDB, B,2D/B,/|\
+A,>B,D {DE}D>ED|EFA d2c/B/|
+A>FD {=C}B,2 A,|B,D>D D2:|\
+(3A/B/c/|\
+d>fd {cd}ecA|{Bc}B/A/B/c/{Bc}d B/A/G/F/E/D/|
+{EF}E>DE {DE}F>ED|{D}FDB, B,2 (3A/B/c/|\
+d>fd {cd}ecA|B/A/B/c/{Bc}d B/A/G/F/E/D/|
+{EF}E>DE {DE}FDB,|A,<DD [D2A,2] (3A/B/c/|\
+{e}d>fd ecA|B/A/B/c/{Bc}d B/A/G/F/E/D/|\
+F/D/A/F/d/A/ B/A/G/F/E/D/|{DE}FEE E2D/B,/|\
+A,B,D D>ED|EFA d2c/B/|\
+A>FD {=C}B,2A,|B,<DD [D2A,2]|]
+S:https://www.folktunefinder.com/tunes/100437
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

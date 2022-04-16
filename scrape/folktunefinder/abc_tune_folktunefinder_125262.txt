@@ -1,0 +1,21 @@
+X: 33
+T:Craighall
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:A % 3 sharps
+%Track 1
+% Time signature=6/8  MIDI-clocks/click=24  32nd-notes/24-MIDI-clocks=8
+z4 ze z/2fe/2-|e/2cA2ABAFD/2-|D3/2FE2ecBA/2-|A/2GBBB2efe/2-|
+e/2cA2ABAFd/2-|d3/2FEFABcB/2-|B/2A2->A/2A2-A/2eag/2-|g/2aAcef2ef/2-|
+f/2gae2AcBA/2-|A/2GBBB2eag/2-|g/2aecABAFd/2-|d3/2FEFABcB/2-|
+B/2A3A3
+S:https://www.folktunefinder.com/tunes/125262
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

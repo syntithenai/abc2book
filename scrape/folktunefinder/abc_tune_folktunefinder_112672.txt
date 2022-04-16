@@ -1,0 +1,29 @@
+X:245
+T: Mengjiangnu ku changcheng
+N: C0384
+O: China,bei Hebei, Jinxian
+S: IV, 77]
+N: Hier wird 13 Monate erzaehlt, weil die Geschichte fuer 12 zu
+N: lang ist. Variante 
+N: Vereinzelt Verzierungen.
+R: Xiaodiao, Shi diao, Mengjiangn diao. Mengjiangn de chuanshuo]
+M: 2/4
+L: 1/32
+K: F
+F2D2F8F2G2 | A2c2A2G2A2G2A4 | c4d2f2d2c2A2G2 | A2c2G12
+c4d2f2d2c2A2G2 | F2D2F2G2A4c2d2 | c3AG2F2G2C2D2F2 | D2F2C12
+D2F2C2D2F6G2 | A2c2A2G2A4c2d2 | c2A2G2A2E2D2C2C2 | D2E2D2C2D8
+E4A2c2A2G2E2D2 | C2A,2C2D2F6G2 | c2A2G2F2G2C2D2F2 | D2F2C12
+S:https://www.folktunefinder.com/tunes/112672
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shi diao, mengjiangn diao. mengjiangn de chuanshuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

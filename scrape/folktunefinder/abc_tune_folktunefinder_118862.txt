@@ -1,0 +1,28 @@
+X:52
+T:On The Train
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:G
+|:Bc|\
+"D7"d2d2 edBA|"G"G2G2D2G2|"D"F2FD EDEF|"G"GEDB, G,2Bc|
+"D"d2d2 edBA|"G"G2G2D2G2|"D"F2FD EDEF|"G"G2B2G2:|
+K:D
+|:FG|\
+"A"A3AA2 Bc|"D"dcde fefd|"A"edec BABc|"D"dcde fafd|
+"A"A3AA2 Bc|"D"dcde fefd|"A"edec BABc|"D"d2f2d2:|
+S:https://www.folktunefinder.com/tunes/118862
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 24
+T:Opera Hat,The. ST.24
+M:6/8
+L:1/8
+Q:120
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Jig
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:D
+A2|d2d def|A2AA2A|B2dc2e|d2f ecA|!
+d2d def|A2AA2A|B2dc2e|(d3d2)||!
+f|e2e efg|f2ed2f|e2e efg|(f3d2)f|!
+e2e efg|f2ed2f|{f}e2d {d}c2B|A2GF2E|!
+F3 GFG|A2A A2A|B2dc2e|d2f ecA|!
+F3GFG|A2AA2A|B2dc2e|(d3d2)|]
+S:https://www.folktunefinder.com/tunes/104136
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

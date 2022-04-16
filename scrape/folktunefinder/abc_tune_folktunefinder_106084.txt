@@ -1,0 +1,27 @@
+X:150
+T:Lamentation of Aughrim, The
+M:3/4
+L:1/8
+S:McCullough's Collection of Irish Airs, Dublin 1821
+R:Air
+K:D
+"Andantino"DE|F2 A2 B>A|d2 d2 (3def|e2 d2 f>d|c>B B2 AF|A2 A2 FA|B4 AF|
+D3 D ED|D4 D>E|F2 d3 c|B2 A2 F>E|E2 D2 E>D|D4||
+fg|f2 e2 ga|g2 f2 ba|gf ed cd|d2 c2 A2|
+Bc de fg|a2 f2 g2|f2 d'2 c'2|d'4||
+%
+% At the battle of Aughrim, July 12th 1691, fought near Ballinasloe,
+% County Galway, General St. Ruth in command of the Irish forces,
+% and 7,000 of his troops were killed.
+S:https://www.folktunefinder.com/tunes/106084
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

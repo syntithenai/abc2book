@@ -1,0 +1,35 @@
+X:6715
+T:Handel's Clarinet. Primo. TLY.016
+M:4/4
+L:1/8
+Q:120
+C:Handeljust guessing!
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Air
+O:England.
+A:Lancashire.
+N:Sorry - can't decipher title - possibly should be Handel's .
+N:something.T.T.. Ed.Handes Clavriet in MS I Have taken to mean Handel's
+N:Clarinet. CGP.
+H:1860.
+Z:Taz Tarry.
+K:D
+a2f/2g/2a/2b/2 {f}~e2dA|(3ded) (3efe ~f3 g/2a/2|bbba/2g/2 aaag/2f/2|!
+gggf/2e/2 fffe|d/2e/2f/2g/2 ag/2f/2 b z g z|a z A z d4:|!
+|:a2|fAdf e/2d/2e/2f/2 ea|fAdf e3 a|~a8|a6 a2|!
+b-aa-g g-ffg|a-gg-f f-e e2|
+d/2e/2f/2g/2 ag/2f/2 b z g z| a z Az d2:|]!
+S:https://www.folktunefinder.com/tunes/108222
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

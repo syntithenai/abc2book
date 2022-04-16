@@ -1,0 +1,36 @@
+X:195
+T: Renmin gongshe zhenzheng hao
+N: C0319
+O: China,Jiangsu, Rugao
+S: III, 440]
+N: Leicht arrangiert, d.h. das Lied ist nicht mehr so schlicht wie
+N: das urspruengliche und verschiedene Lieder wurden hier
+N: aneinander gereiht.
+N: Vereinzelt Verzierungen. Vor- und Zwischenspiele weggelassen.
+R: Haozi, Tiaodan Haozi. Xin minge]
+M: 2/4
+L: 1/16
+K: G
+B2BAG2A2 | B2d2B2B2 | B3AA3G | G6
+GA | B2BAG2A2 | G2A2G2A2 | AGE2D2D2 | G6
+GA | G2A2G2A2 | B3AA3G | G8
+d2d2e2e2 | d2e2d2e2 | e3dB3A | d6
+de | d2e2d2e2 | d2e2d2e2 | e3dB2A2 | d6
+ge | d2egB2BA | G2A2G2A2 | AGE2D2D2 | G8
+B2BAG2A2 | B2BdB2B2 | B3AA2G2 | G6
+GA | B2BAG2A2 | G2A2G2A2 | AGE2D2D2 | G6
+GA | G2A2G2AA | G2A2G2A2 | AGE2D2D2 | G6
+GA | G2A2G2AA | G2A2G2A2 | AGE2D2D2 | G6
+GA | G2A2G2A2 | G2A2G2A2 | AGE2D2D2 | G8- | G8
+S:https://www.folktunefinder.com/tunes/112622
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, tiaodan haozi. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

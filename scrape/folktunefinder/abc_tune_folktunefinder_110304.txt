@@ -1,0 +1,28 @@
+X:2
+T:In Nomine
+T:Alto
+C:Orlando Gibbons 1583-1625
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on first line
+M:C|
+L:1/2
+K:D min
+D4 F4 D4 D4 D4 C4 F4 
+z G B2 F4 G4 A4 A8 A4 c4
+%p. 43
+A4 A4 G4 F4 G4 G4 A8
+A4 c4 d4 c4 A4 B4 A4 A4
+A4 G4 A4 G4 F4 G4 A4 F4
+G4 z B A2 G4 F4 F4 F4 F4 G4
+F4 E4 D4 C4 D4 D4 D4 HD4 |]
+S:https://www.folktunefinder.com/tunes/110304
+S:http://www.laymusic.org/music/gibbons/nomine/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -4,19 +4,19 @@
  * for rendering complete tunes
  * @return multiline abc string starting with \nX:<tuneid>\n suitable for tune book 
  */
-function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, type, aliases) {
+function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, type, aliases) {
   
   if (tune) {
-    var abc = null
+    var abc = ''
     var setting = {}
     if (tune.settings && tune.settings.length > tune.useSetting) {
-      abc = tune.settings[tune.useSetting].abc
+      abc = getNotesFromAbc(tune.settings[tune.useSetting].abc)
       setting = tune.settings[tune.useSetting]
     }
-    //console.log('tweakabc',abc, tune, songNumber)
-    if (!abc) {
-      return emptyABC(songNumber,tune.name)
-    }
+    console.log('tweakabc',abc, tune, songNumber)
+    //if (!abc) {
+      //abc = ''
+    //}
     //var titleText = getTextFromSongline(tune.forceTitle)
     const capitalize = (str, lower = false) =>
     (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
@@ -25,10 +25,10 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
     var titleText = useName
     //titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
     var aliasText = ''
-    if (tune.forceTitle && tune.forceTitle.trim().length > 0) {
-      aliasText += 'N: Primary name on thesession.org : ' + tune.name +"\n"
-    }
-    if (setting.key) aliasText = 'N: Key ' +setting.key.slice(0,1) + " " + setting.key.slice(1) + "\n"
+    //if (tune.forceTitle && tune.forceTitle.trim().length > 0) {
+      //aliasText += 'N: Primary name on thesession.org : ' + tune.name +"\n"
+    //}
+    //if (setting.key) aliasText = 'N: Key ' +setting.key.slice(0,1) + " " + setting.key.slice(1) + "\n"
        
     if (Array.isArray(tune.aliases) && tune.aliases.length > 0) {
        var aliasChunks = sliceIntoChunks(tune.aliases,5)
@@ -40,12 +40,13 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
     // TODO
     var boost = tune.boost > 0 ? tune.boost : 0
     var tweaked = "\nX: "+songNumber + "\n" 
-                + "K:"+setting.key+ "\n"+ 
-                "M:"+meter+ "\n" + aliasText + abc  + " \n" + 
-                "T: " + songNumberForDisplay(songNumber) + ". "  + useName + 
-                "\nL:" + ((tune.noteLength && tune.noteLength.trim().length > 0) ? tune.noteLength : "1/8") + "\n" + 
-                "S:" + (tune.source ? tune.source : '')  +
-                " \nR: "+  tune.type + "\n" 
+                + "K:"+setting.key+ "\n" 
+                + "M:"+meter+ "\n" 
+                + "L:" + ((tune.noteLength && tune.noteLength.trim().length > 0) ? tune.noteLength : "1/8") + "\n" 
+                + aliasText + abc  + " \n" + 
+                "T: " + songNumberForDisplay(songNumber) + ". "  + useName + "\n" + 
+                "S:" + (tune.source ? tune.source : '')  + "\n" +
+                "R: "+  tune.type + "\n" 
                 +
                 "% abc-sessionorg_id " + tune.id + "\n" + 
                 "% abc-sessionorg_setting " + tune.useSetting + "\n" + 
@@ -54,7 +55,7 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
                 "% abc-boost " +  boost + "\n" 
     
     
-    //console.log('tweakabc D',abc, tune, songNumber, tweaked)
+    console.log('tweakabc D',abc, tune, songNumber, tweaked)
     return tweaked
   } else {
     return ''
@@ -62,7 +63,7 @@ function tweakABC(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
 }
 
 
-function tweakShortABC(songNumber, tune) { //abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
+function json2shortabc(songNumber, tune) { //abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
   if (tune) {
     var abc = null
     var setting = {}
@@ -132,98 +133,6 @@ function tweakShortABC(songNumber, tune) { //abc, songTitle, forceTitle, keySig,
 }
 
 
-function abc2Tunebook(abc) {
-  var parts = abc.split('X:')
-  //console.log('2book',parts)
-  var final = []
-  var tuneBook = parts.forEach(function(v,k) {
-    if (v && v.trim().length > 0) {
-      final.push(abc2Tune('X:'+v))
-    } 
-  })
-  //console.log('tuneBook',parts)
-  return final
-}
-
-//window.abc2Tunebook = abc2Tunebook
-
-function abc2Tune(abc) {
-  if (abc && abc.trim().length > 0) {
-    var id = getCommentFromAbc('sessionorg_id',abc)
-    var setting = getCommentFromAbc('sessionorg_setting',abc)
-    var settingId = getCommentFromAbc('sessionorg_setting_id',abc)
-    var forceTitle = getCommentFromAbc('force_title',abc)
-    var boost = getCommentFromAbc('boost',abc)
-    var title = getMetaValueFromTune("T",abc)
-    var meter = getMetaValueFromTune("M",abc)
-    var noteLength = getMetaValueFromTune("L",abc)
-    var source = getMetaValueFromTune("S",abc)
-    var tParts = title.split(".")
-    var name = tParts.length > 1 ? tParts[1].trim() : title
-    var key = getMetaValueFromTune("K",abc) !== null ? getMetaValueFromTune("K",abc).trim() : ''
-    var type = getMetaValueFromTune("R",abc) !== null ? getMetaValueFromTune("R",abc).trim() : ''
-    var aliases = getAliasesFromAbc("abc")
-    var tuneBook = new window.ABCJS.TuneBook(abc.trim())
-    
-    // TODO what do i need to do to tunebook object to make like below
-    if (tuneBook.tunes && tuneBook.tunes.length > 0 && tuneBook.tunes[0]) { 
-      var tunebookTune = tuneBook.tunes[0]
-      var tune = {
-          "format": "json",
-          "perpage": "50",
-          "name": name,
-          "type": type,
-          "aliases": aliases,
-          "comments": [],
-          "settings": [
-              {
-                  "key": key,
-                  "abc": extractAbcMeta(tunebookTune.abc).cleanAbc,
-                  "member": {
-                  },
-                  
-              }
-            ]
-          }
-      if (id) {
-        tune.id = id
-        tune.url = "https://thesession.org/tunes/"+id
-        if (settingId) {
-          tune.settings[0].id = settingId
-          tune.settings[0].url = "https://thesession.org/tunes/"+id+"#setting"+settingId
-        }
-      }
-      tune.meter =meter
-      tune.noteLength = noteLength
-      tune.source = source
-      tune.id = id
-      tune.useSetting = 0
-      tune.forceTitle = forceTitle
-      tune.boost = boost
-      console.log('ABC2TUNE',tunebookTune,abc, tune)
-      return tune
-    }
-  }
-  return {}
-}
-
-
-function extractAbcMeta(abc) {
-  var parts = abc.split("\n")
-  var meta = {}
-  var tune = []
-  parts.map(function(part) {
-    if (part[1] === ":" && part[0] !== "|" ) {
-       meta[part[0]] = part.slice(2)
-    } else {
-      tune.push(part)
-    }
-  })
-  meta.cleanAbc = tune.join("\n")
-  return meta
-  
-}
-
 
 function getTextFromSongline(songline) {
     if (!songline) return
@@ -233,46 +142,6 @@ function getTextFromSongline(songline) {
     } else {
         return songline
     }
-}
-
-function getMetaValueFromTune(key,abc) {
-    try {
-        var parts = abc.split("\n"+key+":")
-        var isFirst = abc.indexOf(key + ":") === 0
-        if (isFirst || parts.length > 1) {
-            return parts[1].split("\n")[0]
-        } else {
-            return ''
-        }
-    } catch (e) {
-        return ''
-    }
-}
-
-function getCommentFromAbc(key,abc) {
-    if (!abc) return
-    var first = abc.indexOf('\n% abc-'+key)
-    if (first !== -1) {
-        var parts = abc.slice(first + 8 + key.length).split("\n")
-        return parts[0]
-    } else {
-        return null
-    }
-}
-
-function getAliasesFromAbc(abc) {
-    if (!abc) return
-    var aliases=[]
-    var first = abc.indexOf('N: AKA:')
-    while (first !== -1) {
-        var parts = abc.slice(first + 7).split("\n")
-        var aliasParts = parts[0].split(",")
-        aliasParts.forEach(function(aliasPart) {
-          aliases.push(aliasPart)
-        })
-        first = abc.indexOf('N: AKA:', first + 1)
-    } 
-    return aliases
 }
 
 function timeSignatureFromTuneType(type) {

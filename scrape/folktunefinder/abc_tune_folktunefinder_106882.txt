@@ -1,0 +1,37 @@
+X: 127
+T: Medway Jig #3
+C: J-54
+C: Paul Milde  1997
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"G3 "D"FGA| "G"G3 D2G| B2d dcB| "D"AGA "G"B2d|
+      d2c B2A| GAB "D"A2D| "G"G2G "D"F2G| AGF "G"G2 :|
+\
+d| "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|
+   "C"e3 efg| age "G"d2B| "C"cde "G"dcB| "D"FGA "G"G2d|
+   "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|
+%%text All but the last time
+   "C"e3 gfe| "G"ded B2G| "D"A2c "G"BAG| "D"FGA "G"G2 |]
+%%text Last time
+   "C"e3 gfe| "G"d3  B2d| "D"A2c "G"BAG| "D"FGA "G"G3|]
+%%text 5/5/99
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text J-55, "Solomon Levi", moved to S-S
+%%textfont       Times-Roman 9.0
+% ---------- page 66 ----------
+S:https://www.folktunefinder.com/tunes/106882
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

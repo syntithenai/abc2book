@@ -1,0 +1,26 @@
+X:135
+T:Keel Row
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:A
+P:A
+ed|"A"c2Ac "D"d2Bd|"A"c2Ac "E7"BGEd|"A"c2Ac "D"d2Bd|\
+"A"c/2A3/2"E7"B/2G3/2 "A"A2:|
+P:B
+AB|"A"c/2e3/2ea "D"f2ed|"A"c2Ac "E7"BGEd|"A"c/2e3/2ea "D"f2ed|\
+"A"c/2A3/2"E7"B/2G3/2 "A"A2:|
+S:https://www.folktunefinder.com/tunes/129754
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

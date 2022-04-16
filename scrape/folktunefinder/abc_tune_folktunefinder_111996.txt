@@ -1,0 +1,36 @@
+X:100
+T:Stone Hen
+R:jig
+C:Paul S. Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:currently unrecorded
+B:currently unpublished in book form
+Z:psc, (re-formatted,updated 9/17/04)
+N:
+H:                                                        copyrights Cranford Publications, SOCAN
+L:1/8
+Q:300
+M:6/8
+K:G
+D|~G3 BdG|EGe d2 g|fAA e2 A|ded cAF|
+~G3 BdG|EGe d2 g|fAg e^cA|d3 d2 D|
+~G3 BdG|EGe d2 g|fAA eAA|dB/c/d cAF|
+~G3 BdG|EGe d2 g|faf ge^c| d3 dBc||
+||dFd ded|cEc cBc|dDD cDD|B/c/dB ABc|
+dFd ded|cEc cBc|ded cAc|d3 dBc|
+dFd ded|cEc cBc|d{A/F/}D/D/D c{A/F/}D/D/D|B{A/F/}D/D/D ABc|
+dFd ded|cEc ceg|f/g/af ge^c|d3 d2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/111996
+S:http://cranfordpub.com/tunes/abcs/cranford_tunes1-100.abc
+S:http://www.cranfordpub.com/tunes/abcs/cranford_tunes1-100.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

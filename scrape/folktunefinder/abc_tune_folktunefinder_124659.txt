@@ -1,0 +1,31 @@
+X: 42
+T:Queen's Shilling (#238-C), The
+M:4/4
+L:1/8
+S:O'Neill's Dance Music of Ireland 1907
+R:Reel
+K:G
+D2|G2 sG>Bs dBGB|dBeB dBAB|G2 sGBs d2 sBds|(3efg sdBs AcBA|
+G2 sGBs dBGB|dBeB dBAB|G2 sGBs dBGB|(3efg dB A2||
+ga|b2 gb a2 fa|g2 segs sfds B2|b2 gb a2 fa|gfef d2 ga|
+bagb agfa|gfef dega|bgaf gfed|(3efg dB AcBA||
+%
+% A study of another fine old reel, No. 752 of O'Neill's Dance Music=20
+% of Ireland, named "The Queen's Shilling", but known in Scotland
+% as "Lady Mary Ramsay" fosters the idea that perhaps there was=20
+% nothing so very remarkable after all in the Traveler's completing
+% the tune for the pioneer Paganini.
+% [SEE NOTES TO TUNE # 238, ARKANSAS TRAVELER]
+S:https://www.folktunefinder.com/tunes/124659
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/QueensShilling238CThe.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0238-C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

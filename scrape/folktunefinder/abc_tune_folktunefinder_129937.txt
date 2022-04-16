@@ -1,0 +1,31 @@
+X: 21
+T:Auprs de ma blonde
+C:Paroles et musique du XVIIe sicle
+C:Harmonisation : Edouard-Gabriel Midon
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:D
+V:1
+z3 z2F |: "D"F2G F2E | D3 Dz D | A2A "G"B2B |1 "A7"A3 z2F :|2 "A7"A3 z2A || "B7"B2B B2F | "Em" G3 GzG |
+"A7"A2A A2E | "D"F3- Fz2 |: "D" D3 EFG | F3 A2z |1 "A7" E2G F2E | "D"D2B, A,3 :|2 "A7" E2G F2E | "D"D3 z3 |]
+V:2
+z3 z2D |: D2E D2A, | F,3 F,z F, | F,2F, G,2G, | [1 A,3 z2D :| [2 A,3 z2A, || D6 | (^D3E3) |
+C6 | A,3-A,z2 |: A,3 CB,A, | D3 A,2z |1 C2B, C2C | D2B, A,3 :|2 C2B, A,2G, | F,3 z3 |]
+V:3
+z3 z2F |: F2G F2E | F3 Fz A | F2F D2D |1 E3 z2F :|2 E3 z2A || B6 | G6 |
+E6 | A3- Az2 |: D3 EFG | (FDE) F2z |1 (GA)G (FD)E | F2G A3 :|2 A2B A2G | F3 z2z |]
+V:4
+z3 z2D, |: D,2E, D,2A,, | A,,3 A,, zA,, | F,,2F,, G,,2G,, |1 A,,3 z2D, :|2 A,,3 z2A,, || B,,6 | B,,6 |
+C,6 | A,,3- A,,z2 |: D,3 C,B,,A,, | D,3 A,,2z |1 C,2B,, A,,2C, | D,2B,, A,,3 :|2 A,,2B,, A,,2G,, | F,,3 z3 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129937
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

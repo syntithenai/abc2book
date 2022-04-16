@@ -1,0 +1,42 @@
+X:21
+T:Sinclair-visa
+R:
+C:Edvard Storm / Trad.
+H:
+B:Folque p.38
+D:
+O:Norge - Norway - Norvge
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=120
+K:F
+F2 | "Dm"F2 (FE)D2 DA | "F"A2 (AG) "Dm"F3G | "F"AA A2 "Gm"G2 FF |
+"C"EE G2 "Bb"F2"A"E2 | [M:6/4] "Dm"D2 AA "F"A2 (AG) "Dm"F3G | [M:C] "F"AAA2 "Gm"GGF2 |
+ [M:6/4] "C"EED2 "Bb"Fz D2 "A"^C3D | [M:C]"Dm" DA A2 "F"AGF2 | "A7"E4 "Dm"D2 :|
+W:Herr Sinclar drog over salten Hav,
+W:Til Norrig hans Cours monne stande ;
+W:Blandt Gudbrands Klipper han fandt sin Grav,
+W:Der vanked s blodig en Pande.
+W:- Vel op fr Dag
+W:De kommer vel over den Hede -
+W:
+W:Herr Sinclar drog over Blgen bl,
+W:For svenske Penge at stride ;
+W:Hjlp dig Gud ! du visselig m
+W:I Grsset for Nordmanden bide.
+W:
+W:Mnen skinner om Natten bleg,
+W:De Vover s sagtelig trille ;
+W:En Havfru op af Vandet steg,
+W:Hun spede Herr Siclar ilde.
+S:https://www.folktunefinder.com/tunes/112143
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

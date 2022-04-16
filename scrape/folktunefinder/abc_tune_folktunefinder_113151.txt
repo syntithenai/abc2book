@@ -1,0 +1,31 @@
+X: 142
+T: Reel of Mullinavat
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: E minor
+|:\
+"Em"g2fg ed~BA|GBAG ~EDB,A,|"C"B,~E2D E/F/GAB|"Bm"F~B2A B/c/def|
+"Em"g2fg ed~BA|GBAG ~EDB,D|"C7"G~E2D EFGA|"B7"Bgfg "Em"e3f:|
+|:\
+"Em"geBe gabg|"D"afde fgaf|"Em"geBe "G"gabg|"A"afdf e3f|
+"Em"geBe gabg|"D"afde fgaf|"C7"bgaf gfed|"B7"Bgfg "Em"e3f|
+"Em"geBe gece|"D"afdf afdf|"Em"geBe gece|"D"afdf "A"e3f|
+"Em"geBe gece|"D"afdf afdf|"C7"bgaf gfed|"B7"Bgfg "Em"e3f|]
+S:https://www.folktunefinder.com/tunes/113151
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

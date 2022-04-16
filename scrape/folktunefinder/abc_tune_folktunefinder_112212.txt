@@ -1,0 +1,28 @@
+X: 41
+T:Holidia
+M:2/4
+L:1/16
+Q:75
+C:e. Johan Nilsson i Lderup
+S:
+R:Schottis
+O:Sweden
+A:Skne
+N:
+K:D
+(3ABc | d2f2 g3f | feed Bd=cB | =c2ce B2B^c | d2df AABc |\
+d2f2 g3f | feed Bd=cB | =c2ce B2B^c |1 d2f2 d2 :|2 d2f2 d2 z2 ||
+f2ef g2fe | d2A2 z2 A2 | cAce agfe | f2d2 z4 |\
+f2ef g2fe | d2A2 z2 A2 | cAce agfe |1 d2f2 d4 :|2 d2f2 d2 ||
+(3cde | f2fe dAA_B | B2BB gfed | cAce agfe | dAdf aee=f |\
+f2fe dAA_B | B2BB gfed | cAce agfe |1 d2d2 d2 :|2 d2d2 d2 z2 ||
+S:https://www.folktunefinder.com/tunes/112212
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

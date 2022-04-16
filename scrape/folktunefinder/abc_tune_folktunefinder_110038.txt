@@ -1,0 +1,23 @@
+X:100
+T: Peter Unverdorben
+N: Q0026A
+O: Mitteleuropa, Deutschland
+N: Original in Mensuralnotation. Anderer Uebertragungsversuch als Q0026.
+R: Ballade, Gefangenschaft, Hinrichtung
+M: none
+L: 1/8
+K: D
+D2D2G2 | A4G2E2=F4 | D4z2
+E2=F2G2 | D2D2=C2C2G2 | A2A2=F2
+F2 | G2G2=F2E4F2 | G2=F4z4
+S:https://www.folktunefinder.com/tunes/110038
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

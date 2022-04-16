@@ -1,0 +1,25 @@
+X:5
+T:Tourdion
+M:3/4
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+B2 A2 G2 c3B A2 | G2 F2 E2 F3E D2 | B2 A2 G2 c3B AG | G4 F2 G4 z2 ::
+G2 G2 G2 FG AB c2 | B3A AG/A/ B4 z2 | B2 B2 B2 AB cB AG | G4 F2 G4 z2 ::
+S:https://www.folktunefinder.com/tunes/104045
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

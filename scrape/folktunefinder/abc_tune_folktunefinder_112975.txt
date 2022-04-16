@@ -1,0 +1,28 @@
+X:548
+T: Wo zai Guizhou guiyang fu
+N: C0216
+O: China,Guizhou, Jinpin
+S: II, 153]
+N: Text schon in der Qing-Dynastie bekannt. Viele Dichter benutzten
+N: das sehr bekannte Gedicht.
+N: Vereinzelt Verzierungen und Glissandi.
+R: Shange]
+M: 2/4
+L: 1/16
+K: G
+G2B2ABA2 | ABG2B2AB | d8- | d8
+B2BdG2A2 | G2AGD2EG | D8
+ABG2B2A2 | ABd4B2 | B2B2A2G2 | EGD2E4
+EGD2z4 | B2BdE4 | G2AGD4 | EDEGD4
+S:https://www.folktunefinder.com/tunes/112975
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

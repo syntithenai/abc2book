@@ -1,0 +1,47 @@
+X:1118
+T:Andro
+C:anon.
+S:Ar Re Youank
+N:Jou\'ee normalement en Sib (Sol mineur)
+F:http://abc.musicaviva.com/tunes/anon/andro.abc
+%Posted May 25th 2000 at abcusers by Ren\'e Quinou as an example of
+%accordion tablature.
+%Note: This tune does not work properly on any generally available ABC programs. Ren\'e made a special version of abcm2ps to be able to
+%display the tablature.
+M:4/4
+L:1/8
+K:C
+|: AGAB c3 B | A2 c2 B3 B | BAGB A3 A | A2 ed c3 A |
+w:  * 6 * 7 | * * 7\- 7 |7 * 6 7  | |
+w: 7 * 7 * 8\- 6' | 7 8 |* 7 * * 7\- 7| 7 9 7' 8\- 7 |
+w: A* a * ~~F~\-~f |A a ~~G~\-~g |G * g * ~~A~\-~a |A a * ~~A~\-~a |
+AGAB c2 cc- | cAdc B3 B | BAGB A2 AB | cABc A4 :|
+w:  * 6 * 7 | * * * * 7\- 7 |7 * 6 7  | |
+w: 7 * 7 * 8 8 8\--|8 7 7' 8 | * 7 * * 7 7 6' |8 7 6' 8 7\- |
+w: A * a A a *|A * a * ~~G~\-~g |G * g * A a |A * a *~~A~\-~a |
+|: ABAG e3 e | c2 Bc d3 B | AGGf e3 e | c2 Ac B3 B |
+w: * 7 * 6 7'\- 7'|6' 7 6' 8\- 7 |* 6 6  |* * * 7\- 7 |
+w: 7 * 7 | |7 * * 8' 9\- 9 |8 7 8  |
+w: A * a * ~~C~\-~c | C c * ~~E~\-~e |A * g * ~~A~\-~a |A a * ~~G~\-~g |
+AGfd e3 e | cdec d3 e | dcBc A2 AB | cABc A4 :|
+w: * 6|* * * * 8\- 7' | 8 * 7 * * * 7 | |
+w: 7 * 8' 7' 9\- 9| 8 7' 9 8 |* 8 * 8 7 7  |8 7 6' 8 7\- |
+w: A * a * ~~A~\-~a |A * a * ~~G~\-~ g  |G * g * A a * | A * a *  ~~A~\-~a |
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/116956
+S:http://abc.musicaviva.com/tunes/anon/andro.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/andro01/andro01-acc2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/andro01/andro01-acc2.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

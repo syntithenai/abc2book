@@ -1,0 +1,27 @@
+X:1
+T:Polska
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 285)
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 285
+O:Nttraby, Blekinge
+R:Polska
+C:Alfred Petersson
+M:3/4
+L:1/16
+Q:1/4=100
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:F
+c2({d}c)=B c2({d}c)B c2({d}c)B|c2ba agfg a2f2|c2c=B c2cB c2cB|
+c2ba agfg a2f2|F2GA Bcde f2d2|cABG G4 F4:|
+|:F2Ac f2fc A2A2|B2B2 BdcB B2A2|F2Ac f2fc A2A2|
+B2B2 BdcB B2A2|c2c2 d2d2 e2fd|cABG G4 F4:|
+S:https://www.folktunefinder.com/tunes/102876
+S:http://www.folkwiki.se/pub/cache/Polska_be6b71.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

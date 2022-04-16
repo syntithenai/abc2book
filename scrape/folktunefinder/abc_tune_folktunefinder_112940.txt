@@ -1,0 +1,33 @@
+X:513
+T: Zizhu diao
+N: C0330
+O: China,Jiangsu, Suzhou(Sden)
+S: III, 484]
+N: cf. Manuskript Lian Bo. cf. Band 21, 8 = Variante. Dies hier ist
+N: eine qualitativ schlechte Aufnahme. cf. Fotokopie der Shanghai-
+N: Oper.
+N: Wenig Verzierungen. Vorspiel weggelassen.
+R: Xiaodiao]
+M: 2/4
+L: 1/32
+K: C
+G6A2c4d4 | A4G4E8 | G4D4E4G4 | G4C12
+E4G4E4G4 | D2E2D2C2C8 | C4G,12
+d4d2c2A2G2E4 | G16 | E3GE2G2A2G2A2c2 | G16
+G6A2c4d4 | A4G4G2E2D4 | G4D4E4G4 | G4C12
+C6A,2G4G2E2 | D2E2D2C2D8
+E4E2G2G4A,4 | C6D2B,2A,2G,4 | A,16
+C6A,2G4G2E2 | D2E2D2C2D8
+A4c4A2c6 | d8c4c2G2 | A4d4d2c2A4 | G16
+S:https://www.folktunefinder.com/tunes/112940
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:755
+T:Rose of Mooncoin, The
+M:3/4
+R:Waltz
+D:asin=B000000E14(Wolfe Tones: Belt Of The Celts)
+D:asin=B000000E1X(Phil Coulter: Peace And Tranquility)
+D:asin=B000000S1C(Phil Coulter: Celtic Collections: Phil Coulter)
+K:G
+B,C|"G"D4Bc|A2G2B,2|"D"C2F3E|"G"D4DE|\
+"D"D2A,2B,2|C2A3B|"C"A2G2B,2|"G"D4B,C|\
+D4Bc|A2G2B,2|"D"C2F3E|"G"D4DE|\
+"D"D4A,B,|C2D2E2|F2B3A|"G"G4z2||
+S:https://www.folktunefinder.com/tunes/111680
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

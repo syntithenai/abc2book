@@ -1,0 +1,25 @@
+X: 31
+T:Gumboots
+M:6/8
+L:1/8
+Q:120
+C:John Clarke, alias Fred Dagg
+K:D
+"D"f2f2ff|"A"eee- e3|"G"d2d2dd|"D"d3-d2d|"G"B2BB2B|"D"Ad2-d2f|!
+"Em"g2g f2g|"A"e3-e2A|"D"A2A AG2|F2A A3|"G"B2c d2B|"D"A3-A2F|!
+AAA B2F|A2A d2f|"A"e6|"D"d3 "Chorus"d2e|"D"f3 f2d|"A"e3e3|"G"d3 d2d|!
+"D"d6|"G"B2BB2B|"D"A2A d2f|"Em"g3 f2g|"A"e3-e2A|"D"A2A A2G|FAA A2A|!
+"G"B2c d2B|"D"A3 F2G|AA2 B2F|A3 d2f|"A"e6|"D"d3-d2z||
+S:https://www.folktunefinder.com/tunes/127063
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,61 @@
+X:1
+T:1.
+C:Georg Friedrich Hndel
+O:1685 - 1759
+M:C
+L:1/8
+Q:1/4=120
+K:G
+%%staves 1 {2 4}
+%%continueall 1
+V:1
+z2 zD G2G2 | G2zG B2B2 | B2 zB d2d2 | d3c/B/ A/G/A/B/ AA | A2zD G2G2 |
+G2zG B2B2 | B2 zB d2d2 | d3c/B/ A/G/A/B/ AA | A2z2 d2B2 | z4 d2B2 |
+z4 dB B/c/d | cA A/B/c BG G/A/B/G/ | A2z2 DB, B,/C/D | CA, A,/B,/C B,G, G,/A,/B,/G,/ |
+A,2z2 A>BA>B | c>dc>d B>cB>c | d3e d3e | d3c/B/ AB/c/ A>G | G2z2 A,>B,A,>B, |
+C>DC>D B,>CB,>C | D3E D3E | D3C/B,/  A,B,/C/ A,>G, | G,2 zA BAGA | BA/G/ AA BAGA |
+BA/G/ Ad d4- | d4 -de ^c>d | d2 zD D4- | D4- DE ^C>E | D2 zd A/B/A/B/ A/B/A/B/ |
+c/d/c/d/ c/d/c/d/ B/c/B/c/ B/c/B/c/ | d4- dddd | d3c/B/ AB/c/ A>G | G2 zD A,/B,/A,/B,/ A,/B,/A,/B,/ |
+C/D/C/D/ C/D/C/D/ B,/C/B,/C/ B,/C/B,/C/ | D4- DDDD | D3C/B,/ A,B,/C/ A,>G, | G,2 zB d2d2 | d3e c2c2 |
+c3d B2B2 | B3c dc/B/ A>G | G2- G/A/B/c/ dddd | d3e cccc | c3d BBBB |
+B3c dc/B/ A>G | G2z2 A2z2 | B2z2 f2z2 | g2z2 z4 | [Q:"Adagio"]Z3 |]
+V:2 clef=treble
+G2z2 z4&[D2B,2]x6 | GF/E/ D/[I:staff 3]C/B,/A,/ [I:staff 2]x4&x2zD G2GD |
+GF/E/ D/[I:staff 3]C/B,/A,/ [I:staff 2]x4 &x2 zG B2B2  | B3A/G/ FFFF&x4xDDD |
+F2zG, B,2B,2&D2x6 | B,2zD G2G2 | G2zG B2B2 | B3A/G/ FDDD&x4xF,F,F, |
+D2z2 A2B2&F,2x2F2G2 | d2B2A2B2&[A2F2]G2F2G2 | d2B2 BGGB&[A2F2]G2x4 | AGFA GDDG | F2z2 B,G,G,B, | A,G,F,A, G,D,D,G, |
+F,2z2 F2D>G | A>BA>B G>AG>A | B2>c2 B2>c2 | B2>G2 DG F>G&x6D2 | G2z2 F,2D,>G,&B,2x6 |
+A,>B,A,>B, G,>A,G,>A, | B,2>C2 B,2>C2 | B,2>G,2 D,G,TF,>G, | G,2zF GFGF | GB, DD GDB,D |
+GB, dA BA/G/ A2 | BA/G/A2 B>B^c>A | F2zA, B,A,/G,/A,2 | B,A,/G,/A,2 B,>B,^C>A, |
+A,2zA FDDG&F,2x2D2x2 | A/B/A/B/ A/B/A/B/  G/A/G/A/ G/A/G/A/ | B4- BBBB | B3G FGF>G |
+G2x6&B,2zA, A,2D,G, | A,/B,/A,/B,/ A,/B,/A,/B,/ G,/A,/G,/A,/ G,/A,/G,/A,/ | B,4- B,B,B,B, | B,3G, F,G,F,>G, |
+G,2zD GF/E/ D/C/B,/A,/&x3B,B,2x2 | D3EC2C2&B,3C A,2A,2 | C3DB,2B,2&A,3B,G,2G,2 | B,3A, B,A,/G,/A,2&G,3xx2F,2 |
+B,DB,D GF/E/ D/C/B,/A,/&G,2x2B,2x2 | D3E CCCC&B,3C A,A,A,A, | C3D B,B,B,B,&A,3B, G,G,G,G, | B,3A, B,A,/G,/A,2&G,3xx2F,2 |
+B,2z2A2z2&G,2x2[F2D2]x2 | B2z2A2z2&[G2D2]x2[F2D2]x2 | G2z2z4&[D2B,2]x6 | _E2z2=E2z2&[A,2F,2]x2[B,2G,2]x2 | _A2z2=A2z2&[E2B,2]x2E2x2 | BA2B B4&E3_EE4 |]
+V:4
+G,,2zG,B,2B,2 | B,2x2 G,2z2 | z2x2 G,2zD | GG,B,D DA,F,D, | D2z2 z4 | G,F,/E,/ D,/C,/B,,/A,,/ G,,2zD,, |
+G,,F,,/E,,/ D,,/C,,/B,,,/A,,,/ G,,,2 zD, | G,G,,B,,C, D,A,,F,,D,, |
+D,2z2 D,2G,2 | D,,2G,,2D,2G,2 | D,,2G,,2 GG,B,G, | A,DDD GG,B,G, |
+D2z2 G,G,,B,,G,, | A,,D,D,D, G,G,,B,,G,, | D,,2z2 D,DCB, | A,B,CA, EEDC |
+B,G,B,D GG,B,D | GG,B,C DG,DD, | G,G,,B,,G,, D,,D,C,B,, | A,,B,,C,A,, E,,E,D,C, |
+B,,G,,B,,D, G,G,,B,,D, | G,G,,B,,C, D,G,,D,D,, | B,,2x6&G,,2 zD GDB,D |  GG, zF, G,F,G,F, |
+G,G,, D, F GF/E/ FD | GF/E/ FD GEAA, | D2 zF, G,F,/E,/ F,D, | G,F,/E,/ F,D, G,E,A,A,, |
+D,A,,F,,D,, z2 CB, | A,B,CA, EEDC | B,G,B,D GG,B,D | GG,B,C DGDD, |
+G,G,, G,F,/E,/ F,D,C,B,, | A,,B,,C,A,, E,E,D,C, | B,,G,,B,,D, G,G,,B,,D, | x6D,2&G,G,,B,,C, D,G,,D,D,, |
+B,,2x6&G,,2z G,, G,G,,B,,D, | G,D,B,,G,, A,G,/F,/ E,/D,/C,/B,,/ | A,,A,F,D, G,F,/E,/ D,/C,/B,,/A,,/ | G,,F,,/E,,/ D,,/C,,/B,,,/A,,,/ G,,,C,,D,,D,, |
+G,,,2zG,, G,G,,B,,D, | G,D,B,,G,, A,G,/F,/ E,/D,/C,/B,,/ | A,,A,F,D, G,F,/E,/ D,/C,/B,,/A,,/ | G,,F,,/E,,/ D,,/C,,/B,,,/A,,,/ G,,,C,,D,,D,, |
+G,,2z2D,2z2 | G,2z2D,2z2 | G,,2z2 z4 | F,,2z2E,,2z2 | D,,2z2C,,2z2 | C,3B,, B,,4&x6F,2 |]
+V:2
+[G2D2B,2]z2z4 | GF/E/ D/C/B,/A,/ G,2 zD | GF/E/ D/C/B,/A,/ G,2 zD | GG,B,C DFFF,| F2z[DG,][B,2G2][B,2G2] |
+[G2B,2]z [DG] [GB2]F/E/ [D/B2G2]C/B,/A,/ | [B2G2]z [BG][d2B2][d2B2]|
+V:3
+G,,2z2 z4 | G,F,/E,/ D,/C,/B,,/A,,/ G,,2z2 | z8 | z4zD,D,D, | D,2z2 G,F,/E,/ D,/C,/B,,/A,,/ |
+S:https://www.folktunefinder.com/tunes/103203
+S:http://michel.bellon.free.fr/Musique/abc/watermusic3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

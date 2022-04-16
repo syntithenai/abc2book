@@ -1,0 +1,26 @@
+X:142
+T:Minuet 3
+R:Minuet
+O:England
+M:3/4
+A:Lancashire
+B:Winder
+K:G
+e2 f2 ^d2 | e2 g2 f2 | e2 ^d2 e2 | fefg f2 |\
+B4 A2 | G2 e2 G2 | F2 e2 ^d2 | e6 :|*
+|:B2Bc Bc | d3 c B2 | AB cB AG | F3 E D2 |\
+d2 dc B2 | e^d ef g2 | B2 cB AB | G6 :|*
+|:g2 g2 b2 | f2 f2 a2 | e^d eg fe | ^d3 ^c B2 | \
+e4 B2 | A3 G F2 | E2 e2 ^d2 | e6 :|**
+S:https://www.folktunefinder.com/tunes/128028
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

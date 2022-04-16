@@ -1,0 +1,25 @@
+X:32
+T:Temperance Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:G
+(3DEF|:\
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA| "D"BGAF GFED|
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA|1 "D"BdAF "G"G2(3DEF :|2 "D"BdAF "G"G2|]
+|:\
+B2| "Em"Beed e3f| geaf gfed| "D"Bdde d3e| geaf gfed|
+    "Em"Beed e3f| geaf gfed| BEED EFGA |1 "D"BdAF "G"G2 :|2"D"BGAF "G"GFED|]
+%%newpage
+%%text 13
+S:https://www.folktunefinder.com/tunes/106820
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:260
+T:Dunse Dings All (#248)
+M:4/4
+L:1/8
+S:Aird's Selections 1782-97
+R:Reel
+K:A
+ce ef/2g/2 aecA|ceeg a3 e|ce ef/2g/2 aecA|B=3DGGB g2 g2:||
+cB/2A/2 ec fcec|cB/2A/2 ec a2 ae|cB/2A/2 ec fdec|B=3DGGB g2 gB|
+cB/2A/2 ec fcec|cB/2A/2 ec a2 ae|afge fde=3Dc|B=3DGGB g2 "tr"gB||
+%
+% From Glen's Analytical Table we learn that a tune named "Dunse=20
+% Dings A' " was printed in Neil Stewart's A Collection of the Newest
+% and the Best Reels, or Country Dances, Adapted for the Violin or
+% German Flute, Edinburgh 1761-62. Dunse is a town in the Lowlands,
+% a few miles from the English border gave name to several tunes.
+% "Dunse Dings A' " signifies in plain English "Dunse surpasses or
+% excels all, an exaggerated yet pardonable expression of local pride.
+S:https://www.folktunefinder.com/tunes/124561
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

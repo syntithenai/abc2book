@@ -1,0 +1,25 @@
+X:12
+T:Wild Morris
+R:Morris
+O:England
+M:6/8
+K:D
+A|\
+def B2B|cde A2A|dcB AGF|Edc d2A|\
+def Bcd|cde A2d|dcB EA^G|A3 A2:|
+a|\
+agf fed|gfe e2=f|^fed dcB|_B=Bc =F2a|\
+agf fed|gfe d2=f|^fed d2c|B3 B2A|
+d2d dcB|e2e edc|f2f fed|g2g g2a|\
+bag fed|cde A2d|dcB Adc|d3 d2||
+S:https://www.folktunefinder.com/tunes/122042
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+% Rhythm Morris
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

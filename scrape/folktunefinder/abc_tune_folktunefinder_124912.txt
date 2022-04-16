@@ -1,0 +1,26 @@
+X:250
+T:Toss The Feathers
+R:Reel
+S:Paddy Canny and Peter O'Loughlin, Clare (fiddles)
+N:As played (P O'L much the louder)
+Z:Bernie Stocks
+H:Played with 49
+M:4/4
+K:G
+|: D2AD {F}EDAD | D2AD EDCE | D2AD {F}EDEG |1 AddA cAGE :|2 AcGE {F}EDD2 ||
+Ad~d2 ~d3f | ed^cd edcd | ea{b}ag ed^cd | ed(3.d.d.d Add2 |
+ea{b}ag efge | dfed cAGE | D2AD (3.E.F.GAB | ~c3d cAGE ||
+S:https://www.folktunefinder.com/tunes/124912
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book3.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

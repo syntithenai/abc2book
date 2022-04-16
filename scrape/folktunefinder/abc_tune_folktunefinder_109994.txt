@@ -1,0 +1,26 @@
+X:56
+T: Der Abendgang
+N: Q0019C
+O: Mitteleuropa, Deutschland
+N: Melodie: geistliche Kontrafaktur.
+R: Ballade, Liebe, Trennung, Tod; geistlich
+M: none
+L: 1/8
+K: G
+G2 | _B2B2c2c2 | d4d4z2
+d2 | =f4f2e4dc | d2d2c4z2
+=f2 | d4d2d4c2 | =f4d4z2
+d2 | c2_B2d2B2 | A4G4z2
+d2 | d4d2c4A2 | _B2G2=F4z2
+c2 | c2c2d2e2 | =f4_B4z2
+d2 | c2_B2d2B4AG | A4G4
+S:https://www.folktunefinder.com/tunes/109994
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

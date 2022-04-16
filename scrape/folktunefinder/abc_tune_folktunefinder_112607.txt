@@ -1,0 +1,43 @@
+X:180
+T: Chang yang ge
+N: C0302
+O: China,Shandong, Wucheng
+S: III, 328]
+N: Tanzform. Anfangs sehr freier Rhythmus, dann relativ schnell.
+N: Dreiteiliges Lied. Strophen 1,2 werden auf Phrasen 1-4, Str. 3-7 auf
+N: Phr. 5-8 und Schlusswort - nicht als Strophe ausgezeichnet - auf ver-
+N: bleibende Phrasen. Die letzten 2 Takte der ersten beiden Teile werden
+N: jeweils bei den Uebergaengen zum naechsten Teil veraendert, in der Kodie-
+N: rung angegeben!). Die 1. Strophe endet:6__1_1_3_2_1_7  6___6__3__
+N: Strophe 3,5, !): 6__.1_3_2_1_7_  6___6__3__
+N: Einige Verzierungen, Glissandi, Fermaten, Atemzeichen.
+N: Vor- und Zwischenspiele weggelassen.
+R: Wuge, Yangge. Xin minge]
+M: 2/4
+L: 1/32
+K: Bb
+c4c4d8d4d4
+d4c2a2g4d4 | g4b4d2c2b4 | g8g4d4
+c4c4d4d2c2 | c4c2a2g4d4
+g2g2g2b2d4d2c2 | c4d2f2g8
+g4d2f2g3cg2g2 | d4d2f2d2c2b2c2
+d4d4d2c2b2c2 | d3fa2g2g4d4
+c4c4d4d2c2 | c4c2a2g4
+g2d2 | g4b4d4d2c2 | c4d2f2g8
+c4c4d8d4d4
+d4c2a2g4d4 | g4b4d2c2b4 | g8g4d4
+c4c4d4d2c2 | c4c2a2g4
+g2d2 | g4b4d4d2c2 | c4d2f2g8
+c4c4d4d2c2 | c4c2a2g4
+g2d2 | g4b4d4d2c2 | c4d2f2g8
+S:https://www.folktunefinder.com/tunes/112607
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

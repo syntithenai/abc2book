@@ -1,0 +1,28 @@
+X: 13
+T:Manchester Hornpipe. FK.13
+M:4/4
+L:1/8
+Q:160
+C:"MS no.40 p.41"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:F
+AB | c2 c2 cfdB | AfdB A2 cB | Acde f2 ga | bagf fedc |!
+ c2 cA cfdB | AfdB A2 cB | Afef dBGE | F2 F2 F2 :|:!
+ce | g2 g2 gfga | bgaf d2 ga | bgaf gefd | cfdB A2 FA |!
+ c2 cB cfdB | AfdB A2 cB | Afef dBGE | F2 F2 F2:|]
+S:https://www.folktunefinder.com/tunes/127162
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

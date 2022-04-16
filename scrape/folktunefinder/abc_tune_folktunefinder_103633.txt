@@ -1,0 +1,29 @@
+X: 38
+T:Waltz Vienna
+R:Waltz
+C:Traditional
+S:Albion Band
+D:Battle of the Field Albion Ban
+M:3/4
+L:1/8
+Q:140
+K:C
+ef | "C"ge c2 e2 | "F"d4 de | fd B2 c2| "C"g4 ef |
+     "C"ge c2 g2 | "F"a4 cd | ef e2 "G"d2 | "C"c4 ef |
+     "C"ge c2 e2 | "F"d4 de | fd B2 c2| "C"g4 ef |
+     "C"ge c2 g2 | "F"a4 cd | ef e2 "G"d2 | "C"c2 e2 g2 :||:
+     "F"aa a2 a2 | "C"gg g2 g2| "G"f2 fa gf | "Am"e4 cd |
+     ""e^d e^d e^d | e2 c2 de| "F"f2 e2 "G"d2 | "C"c2 e2 g2 |
+     "F"aa a2 a2 | "C"gg g2 g2| "G"f2 fa gf | "Am"e4 cd |
+     ""e^d e^d e^d | e2 c2 de| "F"f2 e2 "G"d2 | "C"(c4c2) ||
+S:https://www.folktunefinder.com/tunes/103633
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

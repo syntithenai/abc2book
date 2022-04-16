@@ -1,0 +1,27 @@
+X:150
+T:Mist on the Marsh
+% Nottingham Music Database
+S:Bryon Bonnett
+M:3/4
+L:1/4
+K:G
+D|"G"BB/2d/2c/2B/2|"D"AA2|"Em"GG/2B/2A/2G/2|"B7"F3|"C"EE/2G/2F/2E/2|"G"DG2|\
+"A"GG/2B/2A/2G/2|"D"A2"Daug"^A|
+"G"BB/2d/2c/2B/2|"D"AA2|"Em"GG/2B/2A/2G/2|"B7"F3|"C"EE/2G/2F/2E/2|\
+"G"D/2G/2B/2d/2c/2B/2|"D7"B2A|"G"G2"G7"G||
+"C"ee/2d/2c/2e/2|"G"dB3/2B/2|"Am"cc/2e/2d/2c/2|"G"B2G|"C"ee/2d/2c/2e/2|\
+"G"dB3/2B/2|"A7"A/2^c/2e/2g/2f/2e/2|
+"D7"d^c=c|"G"BB/2d/2c/2B/2|"D"AA2|"Em"GG/2B/2A/2G/2|"B7"F3|"C"EE/2G/2F/2E/2|\
+D/2G/2B/2c/2d| [1"D7"B2A|"G"G2||
+[2"D7"B_BA|"G"G2||
+S:https://www.folktunefinder.com/tunes/109210
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

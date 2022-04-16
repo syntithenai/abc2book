@@ -1,0 +1,29 @@
+X:58
+T:The Chase
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/11/04
+N:Petrie's Second Collection, page 20
+% Gore's Index gives earliest publication as John Hamilton's
+% "A Choice Coll. of Scots Reels, or C.D. & Str..." N.D.; 
+% it also appears in several other collections around the time of Petrie's book
+L:1/8
+M:C
+R:Reel
+K:G
+d|g2 (bg) dgBd   |g2 bg   d(BAG) |g2  bg  f2 af  |e(gfe) d3 :|d|
+  d2 (gd) b(dcB) |c2 (fc) a(cTBA)|B2 (dB) g(BTAG)|DGFA   GABc|
+  d2 (gd) b(dTcB)|c2 (fc) a(cTBA)|B2 (dB) g(BTAG)|DGFA   G3 |]
+S:https://www.folktunefinder.com/tunes/128321
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/58.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

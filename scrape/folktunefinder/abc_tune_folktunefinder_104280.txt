@@ -1,0 +1,37 @@
+X:55
+T:Valse  Jessie
+C:Marcel Messervier
+O:Qubec
+D:Trian 1
+Q:1/4=170
+P:IABACDABACE
+K:D
+M:3/4
+P:I
+A AG
+P:A
+|:F2 DF AF|G2 EG BG|AD FA de|
+fd Ad FA |GF Gg ed|1 c3 A Ac|ed ce dB|
+A2 AB AG :|2 c3 B BA|ag fg Bc||
+P:B
+d3 A AG
+P:C
+|:dA de fg|af df Ad|FA df (3agf|g2 e3 e|
+e4 ef|g2 e2 c2|A2 c2 e2|b2 a3 g|
+f2 fe fg|af df Ad|FA df (3agf|g2 e3 e|
+e4 ef|1 g2 e2 d2 |c2 B2 (3ABc |ag fg Bc:|2
+g2 e2 d2|c2 B2 (3ABc|dB AG FE||
+P:D
+D2 A3 G|
+P:E
+D6|
+S:https://www.folktunefinder.com/tunes/104280
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ChrisRickersCanadianSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

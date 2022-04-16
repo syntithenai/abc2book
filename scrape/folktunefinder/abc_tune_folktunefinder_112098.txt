@@ -1,0 +1,31 @@
+X: 280
+T:Shetland Two Step
+M:6/8
+L:1/8
+K:A
+|:A3 E2A|c3 A3|e2e fec|e3 edc|B3 F2B|d3 B3|
+b2a g2f|efe dcB|A3 E2A|c3 A3|e2e fec|e3 edc|
+B2c d2e|f2a g2f|efe dcB|[1 A3 E3:|[2 A3 F3|
+K:D
+|:DFA d2e|f2d A2F|DFA def|g2e2<B2|c2c c2d|e2e e2f|
+gfe dcB|ABA GFE|DFA d2e|f2d A2F|DFA def|g2e2<B2|
+ccc c2d|eee e2f|gec ABc|[1d3 F3:|[2d3 d3|
+K:G
+|:B3 G3|D3 B,3|G,B,D GAB|c2A2<E2|c3 A3|E3 C3|
+A,CE A2G|F2E2<D2|B3 G3|D3 B,3|G,B,D GAB|c2A2<E2|
+FFF F2G|AAA A2B|cAF DEF|[1 G3 G3:|[2 G3 E3|
+K:A
+A3 E2A|c3 A3|e2e fec|e3 edc|B3 F2B|d3 B3|
+b2a g2f|efe dcB|A3 E2A|c3 A3|e2e fec|e3 edc|
+B2c d2e|f2a g2f|efe d[fc][gB]|[a3A3] z3|[a3c3A3]z3||
+S:https://www.folktunefinder.com/tunes/112098
+S:http://www.alfwarnock.info/alfs/abc/accw03.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

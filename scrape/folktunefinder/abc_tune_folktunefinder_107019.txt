@@ -1,0 +1,23 @@
+X:109
+T:Wild One
+M:6/8
+L:1/8
+R:jig
+C:Mer Pantaleoni Boel 
+K:Dmin
+"Dm"DEF DGD|"(F)"ADc AGF|"(Gm)"DEF DGD|"Am"ADF EDC |
+"Dm"DEF DGD|"(F)"ADc AGF|"Gm"dcA GAF|1 "Am"EDC "Dm"D2A,:|[2 "Am"EDC "Dm"D2A ||
+|: "Dm"d2c A2c|"(F)"dcA cdc|"(Gm)"d2c A2G|"Am"FGE FED |
+"Dm"d2c A2c|"(F)"dcA cdc|"Gm(Bb)"dcA cdF| "Am"EDC "Dm"D3:|
+S:https://www.folktunefinder.com/tunes/107019
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/alljigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

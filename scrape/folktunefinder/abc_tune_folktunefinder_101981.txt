@@ -1,0 +1,33 @@
+X:6083
+T:Garrucha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Cerredo (Degaa)
+A:Asturies
+Z:ByD IDEA
+P:ABBC
+M:3/4
+L:1/4
+Q:1/4=192
+K:C
+P:A
+|G c e|g f/e/ d-|d d e|f g/f/ e-|e c d|e f/e/ d-|d e/f/ e/d/|c3|
+P:B
+|: G c d|e f/e/ d-|d d e|f g/f/ e-|e c d|e f/e/ d-|d e/f/ e/d/|[1 c3 :|[2 c z c||c G G|
+|: c e f|g a/g/ f-|f f g|a b/a/ g-|g e f|g a/g/ f-|f g/f/ e/d/|[1 e3 :|[2 c3|
+|G c d|e f/e/ d-|d g/f/ e/d/|c2 c|c2 c|c c c|
+P:C
+|c3|
+S:https://www.folktunefinder.com/tunes/101981
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

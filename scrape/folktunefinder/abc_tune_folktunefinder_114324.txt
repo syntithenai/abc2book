@@ -1,0 +1,36 @@
+X:25
+T:Orsapolska e. Bengt Jonsson
+R:polska
+Z:2000 Brian Wilson 
+Z:from Bengt 2/90
+M:3/4
+L:1/8
+K:G
+|: GB/d/ vg2 d>g \
+| b2 v(g/a/)g/f/ g>f \
+| e2 v(ce) g>f \
+| e2 (d/e/)d/c/ B>A \
+| (3GBd vg2 d>g \
+| b2 v(g/a/)g/f/ g>f \
+| e2 v(ce) g>f \
+| ed/^c/ vd4- \
+| d2 ud4 :|
+|: g2 (Bc) d>e \
+| (d/e/)d/B/ (G>A) B>B \
+| (3BAB v(c>A) F>A \
+| G2 (GB) d>d \
+| g2 (Bc) d>e \
+| (d/e/)d/B/ (G>A) B>B \
+| (3BAB v(c>A) F>A \
+| AG/F/ G4 :|
+S:https://www.folktunefinder.com/tunes/114324
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/OrsaPolskaEBengtJonsson.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

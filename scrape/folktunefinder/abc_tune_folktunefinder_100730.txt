@@ -1,0 +1,24 @@
+X: 3
+T:High Level Bridge
+R:Hornpipe
+Z:added by Alf Warnock
+M:4/4
+L:1/8
+K:G
+BA|"G"(3GAB DG B,DGB|dgBd GBAG|"D7"(3ABc FA DFAc|ed^cd ed (3=cBA|
+"G"(3GAB DG B,DGB dgBd GBAG|"C"EFGA Bc^cd|"D7"(3fed (3cBA "G"G2:|
+K:D
+AG|"D"FdAd FdAd|(3FED FA dAFA|"G"BdGd BdGd|(3BAG Bd gdBd|
+"A7"ceAe ceAe|(3cBA ce gece|"D"(3dcd fd "A7"gece|dcde d2:|
+S:https://www.folktunefinder.com/tunes/100730
+S:http://www.alfwarnock.info/alfs/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

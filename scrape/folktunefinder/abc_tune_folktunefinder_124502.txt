@@ -1,0 +1,30 @@
+X: 1
+T:Arkan
+O: Ukraine
+R:
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Am
+|: "Am"e2e2 ^dcBA | e2e2 ^dcBA | AEAB c2"E7"B2 | "Am"AEAB c2"E7"B2 | "Am"AEAB c2"E7"e2 | ^dcBc "Am"A2z :|
+P:
+K: Em
+|: "Em"b2b2 ^agfe | b2b2 ^agfe | eBef g2"B7"f2 | "Em"eBef g2"B7"f2 | "Em"eBef g2"B7"b2 | ^agfg "Em"e2z :|
+P:
+K: Gm
+|: "Gm"d2d2 ^cBAG | d2d2 ^cBAG | GDGA B2"D7"A2 | "Gm"GDGA B2"D7"A2 | "Gm"GDGA B2"D7"d2 | ^cBAB "Gm"G2z :|
+P:
+K: Dm
+|: "Dm"a2a2 ^gfed | a2a2 ^gfed | dAde f2"A7"e2 | "Dm"dAde f2"A7"e2 | "Dm"dAde f2"A7"a2 | ^gfef "Dm"d2z :|
+S:https://www.folktunefinder.com/tunes/124502
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ar/Arkan_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key E
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

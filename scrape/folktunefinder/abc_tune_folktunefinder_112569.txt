@@ -1,0 +1,38 @@
+X:142
+T: Gonglao zuigao gongchan dang
+N: C0239
+O: China,Guangdong, Zhongshan
+S: II, 345]
+N: Die Tonart ist typisch. Das Lied moduliert in die Quinte, ist
+N: aber streng pentatonisch, Jiang Min Dun).
+N: Vereinzelt Fermaten, mehrere Verzierungen und Glissandi.
+R: Shange, Fengsuge, Gaotangge. Xin minge]
+M: 2/4
+L: 1/16
+K: A
+G2c2c2c2 | e2c2c2B2- | B6c2
+A2c2B2A2 | BAF2E4 | E8
+BcA2B2Bc | B2E2BcA2- | A6Bc
+B2B2B2Bc | BAF2E4 | E8
+e2G2B2B2 | G2G2e2B2- | B6c2
+A2ABE2E2 | BAF2E4 | E8
+cBA2A2A2 | B2B2E2A4Bc
+A2E2B2Bc | E4B4 | BAF2E8
+e2e2e2G2 | e2e2c2B2- | B6c2
+B2BAE2B2 | BAF2E4 | E8
+B2B2E2E2 | ABc2B4 | BAF2E8
+c2G2B2Bc | G2G2e2B2- | B6c2
+E2E2A2B2 | E4B4BAF2 | E8
+B2B2A2Bc | B2B2e2A4Bc
+B2BcABBA | E2B6 | BAF2E8
+S:https://www.folktunefinder.com/tunes/112569
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, fengsuge, gaotangge. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

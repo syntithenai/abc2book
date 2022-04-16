@@ -1,0 +1,41 @@
+X:2
+T:Le Fifre ou Arigot en mesure ternaire.
+M:3/4
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:C
+z4 z2 G2 A2 B2 | c4 c2 G2 A2 B2 | c3d c2 G2 A2 B2 | c4 c2 Bc dc BA |
+B6 AB cB AG | A6 GA BA GF | G6 F2 E2 D2 | E6 E2 D2 F2 |
+E6 E2 D2 F2 | E6 DE FE DC | D6 CD ED CD | E6 D2 E2 F2 |
+G6 FG AG FG | A6 GA BA GA | B2 AB cB AB cB AB | c6 A2 B2 c2 |
+d2 e2 d2 e2 d2 B2 | c2 d2 c2 d2 c2 d2 | c6 Bc dc BA | B6 A2 B2 c2 |
+B2 AB B2 AB cB AG | A8 A2 GA | B8 A2 B2 | c8 c2 B2 | d6 cd ed cd |
+e12 | d6 c2 B2 A2 | B12 | z8 z4 | z8 z4 | E12 | F12 |
+E2 DE FE DE FE DE | FE DE FE DE FE DC | D12 | D4 D2 C2 D4 |
+C12 | C2 D2 E2 D2 E2 F2 | G2 A2 G2 A2 G2 A2 | B2 c2 B2 c2 A2 B2 |
+c12 | c2 Bc dc Bc dc Bd | dc Bc dc Bc dc BA | B6 AB cB AB |
+cB AB cB AB cB AG | A8 G2 A2 | G2 FG AG FG AG FG |
+AG FG AG FG AG FE | F6 EF GF ED | E2 F2 E2 DE FE DC | D12 | E12 |
+c4 A2 B2 c2 d2 | c6 c2 B2 A2 | B2 A2 B2 A2 B2 G2 | A6 GA BA GA |
+G12 | C12 | D12 | E12 | E2 DE E2 DE E2 DE | F6 D2 E2 F2 |
+G2 A2 G2 E2 F2 G2 | A2 B2 A2 B2 A2 F2 | G2 A2 B2 c2 d2 B2 |
+c4 A2 B2 c2 A2 | B2 c2 B2 A2 B2 G2 | A12 | A2 GA BA GA BA GF | G12 |
+E6 D2 E2 F2 | E6 D2 C4 | c6 B2 A2 G2 | A12 | B4 A2 G2 A4 | B16 ||
+S:https://www.folktunefinder.com/tunes/104042
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

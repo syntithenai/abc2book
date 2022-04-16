@@ -1,0 +1,25 @@
+X:15
+T: Die Geburt im Walde
+N: Q0007A
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Bornich u.a.
+N: Melodiewiederholung = Textwiederholung
+R: Ballade, Geburt, Tod, Moral
+M: 3/4
+L: 1/8
+K: Ab
+E2 | A3GA2 | B2A2B2 | c3dcc | B2z2
+E2 | A3GA2 | B2A2B2 | c3dcc | B2z2
+ce | edd2Bd | c2cBAB | c2e2B2 | A2z2
+ce | edd2Bd | c2cBAB | c2e2B2 | A2z2
+S:https://www.folktunefinder.com/tunes/109953
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

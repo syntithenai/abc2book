@@ -1,0 +1,26 @@
+X:2
+T:Valse  Cadet
+R:Valse
+A:Morvan
+O:France
+M:3/4
+L:1/4
+Q:1/4=180
+K:C
+cGe|c3|cGe|d2 d/2e/2|fed|cBA|GAB|A2 G|
+cGe|c3|cGe|d2 d/2e/2|fed|cBA|GAB|1 c3:|2 c2 B/2c/2|
+|:d d/2f/2 e/2d/2|e e/2g/2 f/2e/2|d d/2f/2 e/2d/2|1 ec B/2c/2:|2
+c3|
+e2f|gag|d2e|fgf|c2d|efe|d2c|d3|
+e2f|gag|d2e|fgf|c2d|efe|d2B|c3:||
+S:https://www.folktunefinder.com/tunes/130053
+S:http://www.tradfrance.com/matf10.txt
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

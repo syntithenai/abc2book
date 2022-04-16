@@ -1,0 +1,26 @@
+X:440
+T: Lang zai gaoshan han yi sheng
+N: C1475
+O: China,Hunan, Changning
+S: I, 560]
+R: Shange. Nann qing]
+M: 4/4
+L: 1/16
+K: A
+b2e2e2b2e4e4 | ecb2a2b2a8- | a12b2z2
+b2e2e2b2a4b4 | f3e^d2e2-e8- | e16
+b2e2b4a4e4 | a12z4
+a4b4e4e2e2 | b2e2b4ecb2a4- | a12b2z2
+a4b4e4e2b2 | f3e^d2e2-e8- | e16
+b2e2b4a4e4 | a16
+S:https://www.folktunefinder.com/tunes/112867
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. nann qing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:49     %Music
+T:Nonesuch     %Tune name
+Q:1/4=217     %Tempo
+M:4/4     %Meter
+L:1/8     %
+K:Dm
+a2 | "Dm"a2 f2 g2 a2 | "Dm"f2 ef d2 a2 | "Dm"a2 f2 g2 a2 | f6 a2 |
+"Dm"a2 f2 g2 a2 | "Dm"f2 ef d2 a2 | "Dm"a2 f2 g2 a2 | "Dm"f4 d2 e2 | "Am"e2 c2 d2 e2 |
+"Dm"f2 ef d2 e2 | "Am"e2 c2 d2 e2 | "Dm"f4 d2 e2 | "Am"e2 c2 d2 e2 | "Dm"f2 ef d2 e2 |
+"Am"e2 c2 d2 e2 | "Dm"f4 d2 |]
+S:https://www.folktunefinder.com/tunes/119305
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+S:http://www.larkcamp.com/LarkLibrary/English/MickieZekley/MEEnglishDanceTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

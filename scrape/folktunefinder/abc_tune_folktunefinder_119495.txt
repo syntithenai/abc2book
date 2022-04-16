@@ -1,0 +1,38 @@
+X:13
+T:Le mariage anglais
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n13
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+D2 F E | D2 C2 F2 G2 | A2-A z (A>G) A B |A3 D E2 G2 |
+  E2-E z A>G A B | A2 D2 E2 G2 | F2 E2 F2 A2 |
+E2-E z (A>G) A B | A2 D2 E2 G2 | F D F E D2-D z ||
+W:C'tait la fille au roi Franois
+W:Que l'on marie  un Anglois
+W:"O mes chers frres, empchez de m'emmener !
+W:J'aimerais mieux soldat franois que roi anglois."
+W:
+W:Et quand ce vint pour l'pouser,
+W:Dedans Paris fallut passer :
+W:Il n'y a dame de Paris que ne pleurit,
+W:De voir partir la fille au roi a un Anglois.
+W:
+W:Et quand ce vint pour embarquer,
+W:Les yeux lui a voulu bander,
+W:"Bande les tiens et laisse-moi, maudis Anglois !
+W:Puisque la mer me faut passer, je la verrai." /.../
+S:https://www.folktunefinder.com/tunes/119495
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

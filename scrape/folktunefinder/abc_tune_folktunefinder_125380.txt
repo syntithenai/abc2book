@@ -1,0 +1,27 @@
+X:440
+T:Johnny O'Leary's #2
+R:Jig
+Z:Added by alf.warnock@nrc.ca, after Vince Milne workshop in Ottawa, Feb 1
+Z:8
+M:6/8
+L:1/8
+Q:3/8=120
+K:Em
+|:dcA G2A|BA^G ABc|dcA GBA|GEE E2c|
+dcA G2A|BA^G ABc|dcA GBA|GEE E2z:|
+gfg e2f|gfg e2f|gfg eag|fdc def|
+gfg aba|gef g2e|dBA GBA|GEE E2z:|
+% ------------------------------------
+% end of jig sets
+%------------------------------------
+S:https://www.folktunefinder.com/tunes/125380
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

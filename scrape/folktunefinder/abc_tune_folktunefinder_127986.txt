@@ -1,0 +1,29 @@
+X:100
+T:Ross Castle
+R:Hornpipe
+O:England
+M:3/2
+A:Lancashire
+B:Winder
+K:G
+dc|\
+B4 A4 G2G2 | cBAG FGAB A2dc | \
+B4 A4 G2G2 | ABcA B2G2 G2:|*
+|:dc|\
+B2G2 A2D2 G2G2 | cBAG FGAB A2dc|\
+B2G2 A2D2 G2G2 | ABcA B2G2 G2 :|*
+|:dc|\
+BcdB ABcA G2G2 | cBAG FGAB A2dc |\
+BcdB ABcA G2G2 | ABcA B2G2 G2 :|**
+S:https://www.folktunefinder.com/tunes/127986
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

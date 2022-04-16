@@ -1,0 +1,42 @@
+X:34
+T:Getingen e. Hans Dalfors (Ore)
+R:polska J
+Z:2000 Brian Wilson 
+Z:Ola Backstrom, Track 1;
+Z:based on Linda's transcription in Nothafte
+M:3/4
+L:1/16
+K:A
+=f \
+|: e3d (cd)ef g2a2 \
+| b2=c'2 a4 =g3(g \
+| =f2)ed (cd)ef =g2ag \
+| =f2ed (f2e2) e3f |
+| e3d (cd)ef g2a2 \
+| b2=c'2 a4 =g3(g \
+| =f2)ed (cd)ef =g2ag \
+|[1 =f2ed (f2e2) e3f \
+:|[2 =f2ed (f2e2) e3d |
+P:B
+|: c3c d2d2 c2e2 \
+| e3d (Bd)BG (B2A2) \
+| c3c d2d2 c2e2 \
+| (dc)df e6 d2 \
+| c3c d2d2 c2e2 \
+| e3d (Bd)BG (B2A2) |
+| c3c d2d2 c2e2 \
+| (dc)df e4 a3(a \
+| g2)eg f2(ed) c2(BA) \
+|[1 (GA)Bc (B2A2) A3d \
+:|[2 (GA)Bc (B2A2) A2 z2 |]
+S:https://www.folktunefinder.com/tunes/114332
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

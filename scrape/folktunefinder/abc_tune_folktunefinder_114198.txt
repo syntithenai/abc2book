@@ -1,0 +1,22 @@
+X:170
+T:Sallylun Jig
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:D
+"D"d3 DFA|"Em"e3 EGB|ede gfe|"Em"dcB "A"ABc|
+"D"d3 DCD|"Em"e3 E^DE|ede ged|"A"Ace "D"d3:|
+"A"cde "Bm"def|"Av1"efg "D"afd|"G"bag "Dv1"adf|"Em"agf "A"e3|
+"D"d3 DCD|"Em"e3 E^DE|ede ged|"A"Ace "D"d3|
+S:https://www.folktunefinder.com/tunes/114198
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/ashover.abc
+S:http://www2.redhawk.org:8080/irish/nmd/ashover.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

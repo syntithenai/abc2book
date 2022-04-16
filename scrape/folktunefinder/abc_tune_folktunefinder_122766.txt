@@ -1,0 +1,26 @@
+X:42
+T:Oyster Cove
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:D Dorian
+|:\
+"F"ABAG "G"EGAB|"Am"c2c2 BGG2|"F"ABAG "Em"EDEG|"D"Ad2c d2cB|
+"F"ABAG "G"EGAB|"Am"c2c2 BGG2|"F"ABAG "Em"EDEG|"D"Ad2c d3d:|
+|:\
+"Am"cdef "Bm"gagf|"C"ecgc ecgc|cdef "Em"gage|"Bm"fdad fdad|
+"Am"cdef "Bm"gagf|"C"ecgc ecgc|"Bm"afge "C"fdec|"D"Ad2c d4:|
+S:https://www.folktunefinder.com/tunes/122766
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

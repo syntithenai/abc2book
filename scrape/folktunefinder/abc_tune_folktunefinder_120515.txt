@@ -1,0 +1,20 @@
+X: 17
+T:Johnnie Lad
+M:2/4
+L:1/8
+Q:240
+K:D
+B|"G"BG GG|DG GG|"Am"FE E2|E2zA|"D"A>B cA|FF FE|DE DC|"G"B,2 B,C|
+D2GA|B2AG|"Am"AE E<E|E2zA|"D"A>B c<A|FF FE|DD EF|"G"G2z||
+% Output from ABC2Win  Version 2.1 h on 12/29/98
+S:https://www.folktunefinder.com/tunes/120515
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

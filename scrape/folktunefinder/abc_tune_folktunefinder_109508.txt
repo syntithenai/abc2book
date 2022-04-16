@@ -1,0 +1,46 @@
+X: 39
+T:Y Gadlys
+T:The Camp
+T:"Of noble race was Shenkin"
+M:C
+L:1/8
+Q:130
+C:Trad
+S:51 Welsh Airs
+R:
+A:Wales
+N:I'm not quite sure how Mr Jones thought this was "adapted for  the
+N:violin or flute".  Part A is in the treble clef; Part B is in the
+N:bass clef and should be played an octave lower than written. BM.
+N:             .
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:Cm
+P:A
+d2|e2dc =BcdB|c2C2C2z2|z8|z6d2|e2 dc =BcdB|c2C2C2z2|z8|z6:||!
+ed|e2e2B2B2|e2e4z2|z8|z6gf|e2efd2de|cedc=B3G|A2GFG2=B2|c4z2gf|!
+(eg)fe (df)ed|cdef{G=Bd}g3G|A2GFG2=B2|c6:||!
+P:B
+z2|c2C2G2G,2|C4z2CD|ECFD G2G,2|C2G,2C,2z2|
+c2C2G2G,2|C6CD|EDEFG2G,2|C6:||!
+z2|E4D4|E2E,4z2|E,2E2D,2D2|C,2C2=B,2G,2|c4_B4|!
+A4G4|F2D2G2G,2|C2G,2C,2z2|C4_B,4|A,4G,4|F2D2G2G,2|C6:||
+S:https://www.folktunefinder.com/tunes/109508
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/Camp.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/OfNobleRaceWasShenkin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/YGadlys.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/YGadlys.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

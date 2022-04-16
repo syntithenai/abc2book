@@ -1,0 +1,28 @@
+X: 3
+T: Mount Cashel's Brigade
+I: Mount Cashel's BrigadeR-12AmarchSet 48
+M: C
+R: march
+K: A
+E2| "A"A2c>B ABAF| E>FED C2E2| A2c>B ABcd| "E"B2e>f edcB|
+    "A"A2c>B ABAF| E>FED C2E2| "E"edcB cBAG| "A"A2A>B A2 (3Bcd|
+    "A"e>fed c>dcB| A2AB cABc| "E"d>edc B>cBA| G2E>F GEFG|
+    "A"A2A2 "E"GBGE| "D"F>EFG A2f2| "A"e>fec "E"dBGE| "A"A2A>B A2 |]
+%%text Roaring Jelly R-12
+%%text 09/13/98
+S:https://www.folktunefinder.com/tunes/107155
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/Set48.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set48.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set48.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

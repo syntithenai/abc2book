@@ -1,0 +1,25 @@
+X:89
+T: Schloss in Oesterreich
+N: Q2024H
+O: Nordeuropa, Norwegen
+N: Norwegische Fassung der Ballade.
+R: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung
+M: 6/4
+L: 1/8
+K: D
+A2 | A3AG2A4d2 | d4=c2A3A
+c2 | _B4A2G4=F2 | G2A4-A4
+d2 | d4=c2A4_B2 | A4G2E3=F
+A2 | =c4_B2A3G=F2 | E2D4-D4
+S:https://www.folktunefinder.com/tunes/110027
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung, tod, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

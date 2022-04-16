@@ -1,0 +1,25 @@
+X:52
+T:Major Harrison's Fedora
+D:Donal Lunny
+M:C
+L:1/8
+K:BMinor
+GBEG B2 AF|GFGA B2 AG|FADF ADFA|dcdB ADFA|
+GBEG B2 AF|GFGA BABc| d2 dB AFDF| G(E{F}ED) E4:|
+|:(3Bcd ed e3 f| g2 fg edBA| FABc d2 BA| dfaf gfed|
+(3Bcd ed e3 f| g2 fg edBc|~d3 B AFDF|G(E{F}ED) E4:|
+|: G2 GF GABc| dAAG FD D2|Be (3eee efge| gedB edBc|
+~d3 B ~A3 F| GFEF GABc| ~d3 B AFDF| G(E{F}ED) E4:|
+S:https://www.folktunefinder.com/tunes/127300
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

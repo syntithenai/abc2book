@@ -1,0 +1,25 @@
+X: 381
+T: Love For Love
+M:C
+L:1/16
+B:O'Neill's 381
+N:"Slow with expression."
+N:"collected by J. O'Neill"
+N:The first ornament (~) is a turn, the second a mordent.
+N:Bar 6 has an extra 1/32, the first 1/8 has a double dot.
+Z:Transcribed by Chris Falt, cfalt@trytel.com
+K:G
+d2|(g3d)(d3B) (~c3de3g)|(dB3) AB({d}c)A G6A2|(Bd3)(gb3) (a^c3)(d3e)|(f3g) (~edef) d6e2|
+e4 (agfe) (dg3)(dB3)|(c7/2d/2e/2) d2c2 (c4B2).c2|(dB3) (AG3) g4(G3A)|(B3c) (BABd) G6^G2|
+A2c2 (e2db agfg) e2c2|B3c (AG)(AB) .G4-.G2||
+S:https://www.folktunefinder.com/tunes/113479
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

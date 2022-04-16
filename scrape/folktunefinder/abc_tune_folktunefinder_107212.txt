@@ -1,0 +1,27 @@
+X: 3
+T: Blue Jig, The (J-61)
+%C: J-61
+C: Joel Mabus
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: Am
+"A7"A3 cBA| cBA a3| age _edc| "D7"d^de d=dc| "A7"A3 cBA| cBA a3|! age "D7"cAG| "E7"_EDC "A"A,3:| |:"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe|! ^ce^f gfe| "D7"^FAB cBA| ^FAB cBA| "A7"age "D7"cAG| "E7"_EDC "A"A,3 :|
+%%text B Harmony
+|:Acd ^d=dc |Acd ^d=dc |ega ^a=ag |ega ^a=ag |
+Acd ^d=dc |Acd ^d=dc | age cAG| _EDC A,3 :|
+%%text 1/24/06
+S:https://www.folktunefinder.com/tunes/107212
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

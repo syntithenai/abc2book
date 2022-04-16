@@ -1,0 +1,30 @@
+X:25
+T:Colin's Tambourine
+C:Colin Hume, 2001
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:G
+P:A
+|: "G"Bd "^/"BG | "C"eg "^/"ec | "G"Bd "^/"BG | "D"AD "^/"D2 \
+| "Am"cc- "^/"cB/2A/2 | "Em"BB- "^/"B A/2G/2 |1 "D"ADAD/2B/2- | B/2D/2 AFD :|\
+|2 "D"AD "^/"AD | "G"Gz "-"G/2A/2B/2c/2 |
+%%vskip 0
+P:B
+|: "G".dz "E7".e z/2B/2 | "Am"cA "D"dz/c/2 | "Em"BG "Am"cB | "D"A/2G/2F/2E/2 "^/"D3/2D/2 \
+| "C"EG "D"FA | "Em"GB "D7/F#"A B/2c/2 | "G"dG "C"c/2B/2A/2G/2 |1 "D"A2- "^/"AB/2c/2 :|2 "D"A2- "^/"AF/2G/2 |
+%%vskip 0
+P:C
+| "D/F#"AA "^/"AA | "G7/F"BB "^/"BB | "C/E"cc "^/"cc | "G7/D"dd "^/"dd \
+| "C"e3/2f/2 "^/"g f/2e/2 | "G"dc "^/"BG | "D7"A2 "^/"d2 | "G"G4 |]
+S:https://www.folktunefinder.com/tunes/110072
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

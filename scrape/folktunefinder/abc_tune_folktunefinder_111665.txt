@@ -1,0 +1,24 @@
+X:680
+T:Lakes of Sligo
+M:2/4
+L:1/8
+R:Polka
+Z:As played by the CHB
+D:anop=B000006AKA(Kilfenora Ceili Band: Set On Stone)
+K:D
+A|FA AB/2c/2|d2 dc|B>A B/2c/2d|e2 ef|\
+FA AB/2c/2|de f>e|dB Af|ef/2e/2 d3/2::e/2|\
+fa d>e|fa ag/2f/2|gb ef|gb ba|\
+fa ef/2e/2|de f>e|dB Af|ef/2e/2 d3/2:|
+S:https://www.folktunefinder.com/tunes/111665
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

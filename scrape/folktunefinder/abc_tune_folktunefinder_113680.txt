@@ -1,0 +1,28 @@
+X:1
+T:Amerikaturen
+R:polska O
+C:av Sven Nyhus
+M:3/4
+L:1/16
+Q:1/4=130
+K:D
+P:A
+|: f2- |"D" a3(a (3f2a2f2) d3d|"G" g3(g (3a2g2a2) ({a2}b3)b\
+| "A" a4 ((3a2^g2a2) c3[Ae]|"D" d4 ((3e2d2d2) f3f\
+| ({f2}a3)(a (3f2a2f2) d3d|"G" g3(g (3a2g2a2) {a2}b3b\
+| "A" a4 (3a2^g2a2) c3[Ae] |1"D" ({[A2e2]}d4) d6 :|2 "D" ({[A2e2]}d4) d8|
+P:B
+|: "D" A4 (f2e2) d3c |"G" B4 (g2f2) e3d|"A" (c2e2) (cA3) [E3B3][Ec]\
+| "D" ({[Ec]}[D4d4]) (3e2d2e2) f3A| A4 (f2e2) d3c \
+| "G" B4 (g2f2) e3d| "A" (c2e2) (cA3) [E3B3][Ec] \
+| "D" ({c}d4)d8:||
+S:https://www.folktunefinder.com/tunes/113680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/amerikat.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/amerikat.abc
+% Rhythm Polska o
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:440
+T:The Devil Among the Taylors
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:A
+CB,| A,CA, CA,C| ECE AEA| FAF DFD| EAE CEC|\
+DFD B,DB,| CEC A,CA,| B,DB, G,B,G,| A,2A, A,:|
+CD| EFE EFE| DED DED| CDC CDC| B,CB, B,CD|\
+EFE EFE| CDC CDC| EFE EFE| B,3 B,2E|
+A,CA, CA,C| ECE AEA| FAF DFD| EAE CEC|\
+DFD B,DB,| CEC A,CA,| B,DB, G,B,G,| A,3 A,:|
+S:https://www.folktunefinder.com/tunes/121022
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

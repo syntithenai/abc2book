@@ -1,0 +1,26 @@
+X:1
+T:Reprise - Cest une dure despartie
+T:Superius
+C:Tielman Susato
+S:Tielman Susato: Danserye (1551)
+R:Basse dance
+M:C|
+M:3/2
+L:1/1
+N:Original clef, C on second line
+K:Gmix
+|:GGG|AcB/A/|A2^G|A2z|EE/D/E/F/|GA>G|G2^F|G2z:|
+|:ccB|cB>A|A2^G|Ac/B/ A/G/|F/E/F2|E>F G/A/|B/c/dB|c2z|
+ccB|AGG/F/|E/D/EE|D/C/D/E/F/D/|GEF|GA>G|G2^F|G2z:|
+S:https://www.folktunefinder.com/tunes/110832
+S:http://www.laymusic.org/music/susato/3/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

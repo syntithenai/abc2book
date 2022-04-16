@@ -1,0 +1,31 @@
+X:64
+T:Joc \oan Patru
+O:rumania
+C:Roemeni\^a
+C:Maramures
+M:6/8
+L:1/8
+Q:1/4=78
+K:D
+V:1
+"D" D3/2 E/D/E/F F2 |{F/}GG2 "Dm" G/=F/E D|1 "D" F F2 F3/2 E/F/G/|{^G/} A3 "A" A,2 B,/C/:|2
+"D" F F2 {E/}"A" F3/2 E/F/E/|"D" D D2 D3 || |]"D" A3/2 A/G/F/"A" E/ F/G2 |"D" FF2 ED2 |
+A3/2 {B/}A/G/F/ "A" E/F/G2 |"D" AA2 "A" A,3 |"D" D3/2 E/D/E/F F2 |GG2 {^G/}"Dm" G/=F/E D|
+"D" F F2 "A" F3/2 E/F/E/|{E/} "D" DD2 D3  |:"D" D3/2 E/D/E/F F2 |{F/}GG2 "Dm" G/=F/E D|
+|1 "D" F F2 F3/2 E/F/G/|{^G/} A3 "A" A,2 B,/C/:|2 "D" F F2 {E/}"A" F3/2 E/F/E/|"D" D D2 D3 ||
+V:2          %2e stem
+F2 GA A2 |B3 _B3 |1 AA2 AA2 |DD2 E3 :|2
+AA2 AG2 |F3 F3 || |]F3 E3 |D3 A,3 |
+F3 E3 |F3 E3 |F2 GA A2 |B3 _B3 |
+AA2 A2 G|F F2 FF2  |:F2 GA A2 |B3 _B3 |
+|1 AA2 AA2 |DD2 E3 :|2 AA2 AG2 |F3 F3 ||
+S:https://www.folktunefinder.com/tunes/111295
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

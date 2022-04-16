@@ -1,0 +1,26 @@
+X:1
+T: nebal nebal sir dix sust
+N: V0001
+O: Europa, Mitteleuropa, Schweiz, Oberwallis
+R: Brauchtum, Beschwoerung (Nebel)
+M: 2/4
+L: 1/8
+K: G
+=FFFF | =F2G2
+FFFF | G=FFFF
+FFFF | G2z2
+=FFFF | =F2G2
+FFFF | =FFG2
+FFFF | =FFG2 | z4
+=FFFF | =FFGF
+FFFF | =FFGz
+S:https://www.folktunefinder.com/tunes/127586
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Brauchtum, beschwoerung (nebel)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

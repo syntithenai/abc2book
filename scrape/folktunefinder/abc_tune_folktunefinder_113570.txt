@@ -1,0 +1,20 @@
+X: 4
+T:Chinese Breakdown
+C:Trad
+M:2/4
+L:1/8
+K:D
+A | dd BA | F F2 A | dd BA | E3 A | cc BA | c c2 B | AA BA | F3 A | dd B
+A | F F2 E | D2 EF | G3 d | e e2 f/2e/2 | c c2 B | A>A Bc | d3 :|
+d | f a/2f/2 ed | f f3 | f a/2f/2 ed | c3 e | a a2 a | g g2 e | c2 cB 
+| A2 A2 | f a/2f/2 ed | f f2 e | d>d c=c | B2 B2 |e e2 f/2e/2|c c2 B|
+ A>A Bc | d3 :|
+S:https://www.folktunefinder.com/tunes/113570
+S:http://www.banjolin.co.uk/tunes/pvs_american.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

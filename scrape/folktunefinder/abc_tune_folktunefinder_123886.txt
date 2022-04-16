@@ -1,0 +1,21 @@
+X:5103
+T:Fasten the Leggin'
+Z: id:dc-jig-32
+M:6/8
+L:1/8
+K:G Major
+c|B3 BAB|GBd gdB|A3 AGA|Bee dBA|!
+B3 BAB|GBd g3|efg fag|fd^c d2:|!
+f|g3 f3|ege dBA|GFG AGA|Bee def|!
+g3 f3|ege d^cd|efg fag|fd^c d2:|!
+S:https://www.folktunefinder.com/tunes/123886
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

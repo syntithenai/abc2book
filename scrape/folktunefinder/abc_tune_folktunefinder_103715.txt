@@ -1,0 +1,25 @@
+X:125
+T: The Book of Rights.
+C: Cronin.
+B: O'Neill's Music of Ireland
+N: O'Neill's - 783
+Z: Transcribed by Stephen Foy (shf@access.digex.net)
+Z: abc 1.6
+M: 6/8
+R: Jig
+K: D
+A,|DED D2 F|Add AFA|Bcd AGF|EDE FDB,|\
+DED D2 F|Add AFA|Bcd AGF|EDD D2:|
+||A|dfa a2 a|aba afd|gbg faf|ede fdB|\
+dfa agf|ede fdA|Bcd AGF|EDD D2:|
+S:https://www.folktunefinder.com/tunes/103715
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0759-0810_sf.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

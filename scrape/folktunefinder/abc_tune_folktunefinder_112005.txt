@@ -1,0 +1,27 @@
+X: 04076
+T: ROBIN'S BODHRAN
+C: Bob McQuillen 1977
+B: Bob's Note Book 4 #76
+Z: John Chambers <jc@trillian.mit.edu>
+N: For Robin Morton of the Boys of theLough, with many thanks for his marvelous music.
+M: 6/8
+L: 1/8
+K: Em
+B,D \
+| E2B, E2F | GFG EFG | ABc BGE | FEF DB,D \
+| E2B, E2F | GFG EFG | ABc BGE | DEF E :|
+|: Bd \
+| e3 e3 | ede dBA | GAB AGA | Bde dBd \
+| e3 e3 | efg fed | BcB AGF | GEE E :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/112005
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book03.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

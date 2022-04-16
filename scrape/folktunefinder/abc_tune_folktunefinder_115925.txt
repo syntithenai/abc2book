@@ -1,0 +1,31 @@
+X:12880
+T:Pasucis (CT 328)
+Z:Cancioneru de Torner 328
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+ d3- | d3 BdB | G2G BAB | c3 AcA | F2F AGA | B3 BdB | GGG BAB | c2c AcB 
+| FFF AGA | B2B GBc |
+ | def gfe | d2d gfe | dcB AGA | B2G GBc | def gfe | d2d gfe | dcB AGA |
+ G3 BdB | 
+ | G2G BAB | c3 AcA | F2F AGA | B3 BdB | GGG BAB | c3 AcA | FFF AGA | B3
+ GBc |
+ | def gfe | d2d gfe | dcB AGA | B2G GBc | def gfe | d2d gfe | dcB AGA |
+ G3 BdB | 
+ | G2G BAB | c3 AcA | F2F AGA | B3 BdB | GGG BAB | c3 AcA | FFF AGA | B3
+ GBc |
+ | d3 BdB | G2G BAB | c3 AcA | F2F AGA | B3 BdB | GGG BAB | c2c AcB | FF
+F AGA | B2B GBc |
+ | G2 (3A/B/c/ d3- | d3 ||
+S:https://www.folktunefinder.com/tunes/115925
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

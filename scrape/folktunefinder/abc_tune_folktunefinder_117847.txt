@@ -1,0 +1,34 @@
+X:73
+T:Gan Ainm
+R:Reel
+S:James Kelly, Dublin (fiddle)
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+dc || BE~E2 ~B2AF | DF~F2 DEFA | BE~E2 BdAF | DFAF EBdc | BE~E2 BdAF |
+DF~F2 DEFA | B2~B2 {d}BAFA |1 (3BcdAF EBdc :|2 (3BcdAF EFGA ||
+ef{a}ge Be{a}ge | df~f2 afdf | e2ge Bege | dBAF EFGA |
+ef{a}ge Be{a}ge | df~f2 afdf | gf(3efg gbec | dBAF EFGA ||
+S:https://www.folktunefinder.com/tunes/117847
+S:http://ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book2.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book2.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://www.firepowr.com/abc/Book2.abc
+S:http://www.firepowr.com/abc/Book2abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book2.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

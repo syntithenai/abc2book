@@ -1,0 +1,26 @@
+X:7
+T:Sour Plums
+S:Neil Stewart: A New Collection of Scots & English Tunes Adapted to the Guittar
+B:NLS MH.s.252(3)
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+M:C
+L:1/8
+K:C
+[C3E3G3c3e3]g [c3e3]c'|gedc       [G3d3]e| c3  d              edeg      | a3g    e2   c'2|
+ a>gea         gedg   |e>dce       d3   e| c>def              gec'e     |[G4d4] [C2c2]z2:|
+ a>bc'>d'      c'2c2  |c'2 g/a/_b  a3   g| e2 ga             _b2(a/b/c')|Ta4     g2   z2 |
+ abc'd'        c'2c2  |c'e'd'c'    a3   f| e2 ga             _bd'c'b    |Ta4     g2   z2 |
+ a>bc'>d'      c'2c2  |c'2(g/a/_b) a3   g| ed e2              ge g2     | aga2  _b3    d'|
+ c'ac'2        ag a2  |ge  g2      ed  e2|[C3E3G3c3e3c'3]b/a/ gage      |[G4d4]  c2   z2:|
+S:https://www.folktunefinder.com/tunes/104160
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:5
+T:the Spanish Jig
+R:Jig
+M:6/8
+L:1/8
+K:G
+G3 B3 | dBd g2d | efg dcB | ABG FED |     
+G3 B3 | dBd g2d | efg agf | g3 g3 :|
+|:b3 g3 | abg fed | efg dcB | ABG FED |      
+b3 g3 | abg fed | efg agf | g3g3 :|
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127726
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:81
+T: Schloss in Oesterreich
+N: Q0024
+O: Mitteleuropa, Deutschland
+N: Refrainartiges Anhaengsel an der letzten Zeile.
+R: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung
+M: none
+L: 1/16
+K: F
+F4 | F8A8A8F4 | A8B4c8
+F4 | c8c4c8A4 | B8c4A16
+F4 | B8B4B8c4 | G8G4G8z4
+G4 | c8c8A4F4A8 | c6BAG8G4 | A6G2F6E2E2D2 | F16
+S:https://www.folktunefinder.com/tunes/110019
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung, tod, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

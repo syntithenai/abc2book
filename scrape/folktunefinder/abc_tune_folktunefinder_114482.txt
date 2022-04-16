@@ -1,0 +1,22 @@
+X:180
+T: Jim Ward's Jig
+M: 6/8
+L: 1/8
+R: Jig
+K: G
+D|G3 G2 B|AGE GED|G2 G AGE|GED D2 D|
+G3 G2 B|AGE GAB|c2 A BGE|DED D2 :|
+B|c2 A BAG|ABA AGE|c2 A BGE|DED D2 B|
+c2 A BAG|ABA ABc|dcA AGE|GED D2 :|
+S:https://www.folktunefinder.com/tunes/114482
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 29
+T:House That Jack Bilt,The. GS.029
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Leeds
+N:'George Spencer Book Leeds 1831' writen on stave at end..This tune
+N:rings a bell somewhere.
+H:1831
+Z:vmp.Cherri Graebe
+K:C Major
+G | Ged c2B | ABc G2G | Gcc cBc | ^cdd d2G | Ged c2B | ABc G2G |!
+ Adc BAB | (d3c2) || d | dcB BAG | c2de2g | gfe fAd | (c3B2) d |!
+ dcB BAG | c2de2g| gfe fdB |(d3c2)|| G | e2c cBc | f2d d3 |!
+ ded B2G | e3 c2 G | e2c cBc | f2d d3 | ded B2G | (d3c2) ||
+S:https://www.folktunefinder.com/tunes/104703
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

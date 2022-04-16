@@ -1,0 +1,39 @@
+X:4764
+T:El Quirosanu (CT 322)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita (Fandangu), transcrito en Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 322
+M:3/8
+L:1/8
+Q:3/8=72
+K:G
+[L:1/8]
+[Q:1/4=60]
+[M:7/4]
+|d4 B {cB}A {BA}G {AG}F {GA}G2 {A/2B/2c/2}d4|
+[L:1/8]
+[Q:3/8=72]
+[M:3/8]|
+|:B G/B/G/B/|AFG|A F/A/F/A/|BGG|B G/B/G/B/|AFG|A F/A/F/A/|G2 d|
+g g/g/g/g/|ece|g g/g/g/g/|dBB|e e/d/d/B/|cAA|d d/c/B/A/|BGd|
+ggf|ece|ggf|d2 B|cec|FAF|cBA|G2 d|
+g g/g/g/g/|ecc|g g/g/g/g/|dBB|e e/d/c/B/|cAA|d d/c/B/A/|BGB|
+e e/d/c/B/|cAA|d d/c/B/A/|[1 G3:|[2 G d2-|d3|
+S:https://www.folktunefinder.com/tunes/123547
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Time_signature 7/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

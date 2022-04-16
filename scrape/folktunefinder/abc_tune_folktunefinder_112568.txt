@@ -1,0 +1,28 @@
+X:141
+T: Cai hua
+N: C0233
+O: China,Sichuan, Nanping
+S: II, 255, 1)]
+N: Beruehmt. Da es aus der Naehe von Gansu kommt, kann man noch den
+N: Stil des Nordwestens erkennen.
+N: Vorspiel weggelassen.
+R: Xiaodiao. Siji huahui]
+M: 2/4
+L: 1/16
+K: E
+F2E4EF | G3BG2C2 | F2E4EF | G2EFG2C2
+GBc4e2 | c4B2G2 | c2G4FG | E4
+EFGB | G4F2E2 | C2E4CE | C8
+S:https://www.folktunefinder.com/tunes/112568
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

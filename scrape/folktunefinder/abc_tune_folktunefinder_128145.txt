@@ -1,0 +1,31 @@
+X:235
+T: SLEEP ON MY KATHLEEN DEAR
+B: O'Neill's 97
+M: C
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: Missing dot in bar 8
+K: G
+G2 \
+| c3d (cB)(AG) | G2(B/A/B/d/) {a}g{f}e \
+| (d<B) (AG) (ED)(EG) | G4 z2D2 |
+| c2(cd) (cB)(AG) | G2(B/A/B/d/) e2(ge) \
+| (d<B) (AG) (ED)(EG) | G4 z2 :|
+|: e \
+| (=f>e)(fg) (fe)(dB) | d2(eg) g3=f \
+| (fe)(ge) (ed)(ge) | (dB) (c/B/A/G/) ED ze |
+| (=f>e)(fg) e2g2 | G2Bd e2{a}g{f}e \
+|1 d<B AG (ED)(EG) | G6 z \
+:|2 (d<B) AG ({F}Ec/B/) c/B/A/G/ | G6 z ||
+S:https://www.folktunefinder.com/tunes/128145
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0051-0100_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

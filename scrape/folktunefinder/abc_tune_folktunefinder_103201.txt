@@ -1,0 +1,42 @@
+X:4
+T:Lentement
+C:Georg Friedrich Hndel
+O:1685 - 1759
+M:3/4                           % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:C
+%%staves 1 {(2 3) 4}
+V:1                          % voice 1
+zz/c/d | e>fe | e>cd | e>fe | e2g | c'2g |
+c'>cd | e>fe | edc | d3- | d>de | f>gf | f2a |
+f>gf | fed | ee/f/g | e>dc | c3 :| zz/c/d | e>fe |
+e>cd | e>fe | e2e | fed | cBA | ^G3- | ^G>ae  |
+f>gf | f>ge | f>gf | f2f | efg | f>ed | d3 ||
+V:2
+zz/G/B | c>dc | c>GB | c>dc | c2e | g2e |
+g>cB | c>dc | cBc | B3- | B>Bc | d>ed | d2f |
+d>ed | dcB | cGc | c>Bc | c3 :| zz/A/B  | c>dc |
+c>AB | c>dc | c2c | dcB | A^GA | E3- | E2A |
+d>ed | d>e^c | d>ed | d2A | _BAG | A>^cd | d3 ||
+V:3
+xx/E/G | [G2E2]G | E<EG | [G2E2]G | E2c | e2c |
+e>GG | G2E | G2E | G3- | G2G | [A2F2]A | A2A |
+[A2F2]G | G2G | E2G | G2E | [G3E3] :| x3 | x3 |
+x3 | x3 | x2A | A2E | ED2 | B,3- | B,2A |
+[A2F2]A | F2A | [A2F2]A | F2F | G_D=D | D>EF | [A3F3] ||
+V:4
+zz/C,/G, | C2G, | C,2G,, | C,2G,, | C,,2C, | C,2C, | 
+C,>E,G, | C2C, | E,2A, | G,2D, | G,,2G, | D2A, | D,2A, | 
+D2B, | G,2G,, | C,2E, | G,>G,,C, | C,,3 :| zz/A,/D, | A,2E, | 
+A,,>A,D, | A,2E, | A,,2A, | D,2E, | A,F,2 | E,2B,, | E,,2_D, | 
+D,2A, | D2A, | D2A, | D,2D | G,A,_B, | A,>A,,D, | D,3 ||
+S:https://www.folktunefinder.com/tunes/103201
+S:http://michel.bellon.free.fr/Musique/abc/watermusic2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

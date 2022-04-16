@@ -1,0 +1,26 @@
+X:255
+T: Blow Ye Winds Hi-Ho
+M:4/4
+R:song
+L:1/8
+Z:added by Alf warnock alf0@rogers.com - http://members.rogers.com/alf0
+K:G
+P:Verse
+|"G"G2G2 B2c2|d2g2 g2g2|"Am"a2g2 f2e2|c6cc|
+"D7"ccB2 A2G2|F2A2 c2gg|"Am"ffe2 d2c2|"G"B6dd|
+"G"GGG2 B2c2|d2g2 g3g|"Am"a2g2 f2e2|c6gg|
+"D7"a2g2 f2d2|f2e2 c2e2|e2d2 cBA2|"G"G8||
+P:Chorus
+"G"B2d2 d2d2|d6d2|"Am"c2e2 e2e2|e6g2|
+"D7"a2g2 f2d2|f2e2 c2c2|B2d2 c2B2|A6GA|
+"G"B2B2 B2c2|d6d2|"Am"d2c2 A2c2|e6gg|
+"D7"a2g2 f2d2|f2e2 c2e2|f2e2 c2A2|"G"G8||
+S:https://www.folktunefinder.com/tunes/105019
+S:http://www2.redhawk.org:8080/irish/warnock/abc/AlfSongs.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

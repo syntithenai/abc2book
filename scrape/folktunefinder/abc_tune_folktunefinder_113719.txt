@@ -1,0 +1,25 @@
+X: 34
+T:Appenzeller Schottisch
+M:2/4
+L:1/16
+C:trad
+S:Hermann Fritz
+R:Schottisch
+A:Appenzell, Schweiz
+K:D
+efg |:a2A2 f2A2 |g2A2 cefg |a2A2 g2A2 |f2A2 defg|a2A2 f2A2|g2B2 edcB|A2c
+e agfe|1 d2 d2 d efg:|2 d2 d2 d2||
+K:A
+|:e2|fee2 aee2 |gee2 dee2 |fee2 gee2 |aee2 cee2 |fee2 aee2 |gee2 dee2 |f
+ee2 gefg |1 a2 a2 a2 :|2 a2 a2  "D.C." a ||
+S:https://www.folktunefinder.com/tunes/113719
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

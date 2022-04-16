@@ -1,0 +1,28 @@
+X:690
+T:Return from Fingal
+S:Crieff session
+O:Ireland
+Z:Nigel Gatherer
+M:2/4
+L:1/16
+K:E dor
+BAGF  EFGA  | BAGF  E3 B | ADFA d2 A2 | B3  A BcdA |
+BAGF  EFGA  | BAGF  E3 B | ADFA d2 A2 | F2 E2 E4  :|
+f2 e2 e2 dc | B2 A2 d3 A | B3 A d3  A | B3  A Bcde |
+f2 e2 e2 dc | B2 A2 d3 B | ADFA d2 A2 | F2 E2 E3  :|
+S:https://www.folktunefinder.com/tunes/103454
+S:http://nigelgatherer.com/tunes/abc/tb14.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb14.abc
+S:http://nigelgatherer.com/tunes/abc/abc9/retfi.abc
+S:http://nigelgatherer.com/tunes/abc/abc9/rfing.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc9/retfi.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc9/rfing.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:1
+T:Alt=Kufsteiner Metzgersprung=Marsch
+R:
+C:traditionell
+A:Kufstein, Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Das Deutsche Volkslied 28, s.49
+N:im buch auf seite 49 ganz in D, klavierpartitur, wobei als ausfuehrende instrumente zwei violinen, ein violoncello und ein hackbrett angegeben sind
+S:mit der Angabe: dieser marsch stammt aus dem handschriftlich hinterlassenen tagebuch des pensionierten hauptmannes Franz Wolf, geboren 1779 in Kufstein in Tirol, gestorben in Villach 1846 ...
+D:"dudlsakh" - Zur Geschichte der Sackpfeife in Bayern, Bayerischer Verein fuer Heimatpflege e. V., Muenchen Volksmusiksammlung und Dokumentation Nr. E14
+%%endtext
+F:http://simonwascher.info/
+Z:transcription Simon Wascher
+M:4/4
+L:1/8
+K:D
+%%text Marcia
+z4 z2 (3ABc |\
+d4 d4 | (defg) (afed) | e3e e2e2 | (efga) (bgfe) |
+f3f f2f2 | f2df a2fa | d'2a2 g2f2 | f3e e2e2 |\
+e4 z2g2 ||
+"segno"fgab a2g2 | fgab a2g2 | (gfed) (fedc) | d3d d2d2 |
+d2A2 B2c2 | "fine"d2z2 z4 ||
+e4 e3f | e2c>d c2A2 | f2f>g f2f>g | f2d>e d2A2 |
+g2g>a g2a2 | b2b>c' b2a2 | g2g>a g2a2 | b2b>c' b2ag |
+(fdfa) (d'agf) | f3e e2e2 | "dacapo dal segno"e4 z2g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/110300
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/metzgersprung-marsch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

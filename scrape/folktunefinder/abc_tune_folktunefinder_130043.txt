@@ -1,0 +1,46 @@
+X:59
+T:Ronde de St Veran
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+%%MIDI program 21 %Accordian
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+%%continueall 1
+V:1
+P:Intro
+D | G2A B2c | d3 e3 | d2c B2A | G3- G2 ||
+P:A
+D|:G2 AB2c | d3e3 | c2c e2e |1 d2z z2D :|2 d2z z2B ||
+P:B
+d2d dcB | c3A2A | c2c cBA | B3 G2D | \
+G2A B2c | d3 e3 | d2c B2A |  G2z z3 |]
+V:2
+K:C
+G:Flute
+%%MIDI program 74 %Flute
+z | Z3 | z3 z2 || D |: G2D G2A | B3c3 | A2A d2c |1 B2zz2D :|2 B2zz2G ||
+B2B BAG | A2z ^F2E | D2D DE^F | G2E D2D | G2D G2A | B3c3 | A2Ad2c | B2zz3|]
+V:3
+z | Z3 | z3 z2 || D, |:G,2D,D,2D,| G,2G, D,2D, | D,2D, D,2D, |1 G,2G, G,2G, :|2 G,2G, G,2G, ||
+G,2G, G,2G, | D,2D, D,2D, | D,2D, D,2D, | G,2G, G,2G, | \
+G,2D, G,2D, | G,2G, D,2D, | G,2D, G,2G, | G,2G, G,2G, |]
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/130043
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

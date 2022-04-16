@@ -1,0 +1,49 @@
+X:77
+T:JACK WARREL'S HORNPIPE
+N: John Offord, Reproduced with permission
+M:9/4
+L:1/8
+B:John of the Greeny Cheshire Way
+K:C
+A4 B2 c2 B2 A2 B2 A2 G2 | A2 F2 A2 B2 A2 G2 F4 D2 |\
+B4 c2 d2 c2 B2 c2 B2 A2 | B2 A2 G2 G2 A2 B2 A4 G2 ||
+F3 GAB c2 B2 A2 B2 A2 G2 | A2 F2 A2 B2 cBAG F4 E2 |\
+G3 ABc d2 c2 B2 c2 B2 A2 | B2 A2 G2 G2 A2 B2 A4 G2||
+c2 A2 F2 F2 c2 F2 B2 A2 G2 | A2 F2 A2 B2 A2 G2 F4 D2 |\
+d2 B2 G2 G2 d2 G2 A2 F2 D2 | B2 A2 G2 G2 A2 B2 A4 G2 ||
+f4 f2 f2 c2 f2 e4   d2 | c2 A2 A2 A4 G2 F4 D2 |\
+g4 g2 g2 G2 g2 f3 e f2 | ef g2 G2 G2 A2 B2 A4 G2 ||
+F3 efg a2 g2 f2 e4    d2 | de f2 A2 B2 A2 G2 F4 D2 |\
+G3 fga b2 a2 g2 a2 g2 f2 | ef g2 G2 G2 A2 B2 A4 G2 ||
+cBAG F2 cBAG F2 dcBA G2 | A2 F2 A2 B2 A2 G2 F4 D2 |\
+dcBA G2 dcBA G2 cBAG F2 | dcBA  G2 G2 A2 B2 A4 G2 ||
+F2 c2 F2 c2 G2 c2 B2 A2 G2 | A2 F2 A2 B2 A2 G2 F4 D2 |\
+G2 d2 G2 d2 G2 d2 A2 F2 A2 | B2 A2 G2 G2 A2 B2 A4 G2 ||
+M:3/2
+cBAG FGAF GABG | AFAB cBAG FGAF |\
+dcBA GABG FGAF | GABc dcBA BcdB ||
+cAFA cAFA dBGB | cAFA BAGA F3 D |\
+dBGB dBGB cAFA | dBGB dBGB dBGB ||
+cAFA cAFA dBGB | cAFA BAGB F3 D |\
+B>c d2 dc B2 A4 | BG G2 G3 A A3 G ||
+M:9/4
+f4 f2 f3 g fg  e4   d2 | c2 A2 A2 A4 G2 F4 D2 |\
+g4 g2 g3 a g2 ^f3 e f2 | g4 G2 G3 A B2 A4 G2 ||
+=f3 g a2 a2 g2 f2 e4 d2 | c2 A2 A2 A4 G2 F4 D2 |\
+ B3 c d2 d2 c2 B2 A6    | B2 G2 G2 G4 B2 A4 G2 ||
+c2 A2 F2 A2 B2 c2 G2 B2 d2 | F2 A2 c2 B2 A2 G2 F4 D2 |\
+d2 B2 G2 B3 c  d2 D6       | B2 G2 G2 G4    A2 A4 G2 ||
+c2 A2 F2 F2 A2 c2 G2 B2 d2 | F2 A2 c2 B2 A2 G2 F4 D2 |\
+B3 c  d2 d2 edcB  A6       | B2 G2 G2 G4    A2 A4 G2 |]
+S:https://www.folktunefinder.com/tunes/110708
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Greeny.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Greeny.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 9/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

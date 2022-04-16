@@ -1,0 +1,38 @@
+X:7191
+T:Hora ca din la caval
+O:Romanian
+Z:Transcribed by Henrik Norbeck.
+Z:First the melody without chords, second time with chords.
+M:C|
+K:Ador
+e2^d2 e2^d2|cAc2 ^d3c|e2^d2 cAc2|^deec e4|1
+e2^d2 e2^d2|cAc2 ^d3c|e2^d2 ceec|A4 A4:|2
+ABc^d e2^d2|cAc2 ^d3c|e2^d2 ceec|A4 A4||
+|:ABc^d e2^d2|cAc2 ^d3c|e2^d2 cAc2|^deec e4|
+ABc^d e2^d2|cAc2 ^d3c|e2^d2 ceec|A4 A4:|
+|:efgf aggf|fee^d ^dddc|e2^d2 cAc2|^deec e4|
+a2a4g2|fefe ^dddc|e2^d2 ceec|A4 A4:|
+"Am"e2^d2 "Am/E"e2^d2|"Am"cAc2 "D#dim"^d3c|
+"E"e2^d2 "E/G#"cAc2|"Am"^deec "Am/E"e4|1
+"Am"e2^d2 "Am7/G"e2^d2|"F#m7-5"cAc2 "D#dim"^d3c|
+"E"e2^d2 "E/G#"ceec|"Am"A4 A4:|2
+"Am"ABc^d "Am7/G"e2^d2|"F#m7-5"cAc2 "D#dim"^d3c|
+"E"e2^d2 "E/G#"ceec|"Am"A4 A4||
+|:"Am"ABc^d "Am/E"e2^d2|"Am"cAc2 "D#dim"^d3c|
+"E"e2^d2 "E/G#"cAc2|"Am"^deec "Am/E"e4|
+"Am"ABc^d "Am7/G"e2^d2|"F#m7-5"cAc2 "D#dim"^d3c|
+"E"e2^d2 "E/G#"ceec|"Am"A4 A4:|
+|:"C"efgf "C/G"aggf|"C"fee^d "D#dim"^dddc|
+"E"e2^d2 "E/G#"cAc2|"Am"^deec "Am/E"e4|
+"Am"a2sa2"Am7/G"a2sg2|"F#m7-5"fefe "D#dim"^dddc|
+"E"e2^d2 "E/G#"ceec|"Am"A4 A4:|
+S:https://www.folktunefinder.com/tunes/108698
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

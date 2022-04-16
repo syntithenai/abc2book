@@ -1,0 +1,40 @@
+X:26
+T:Anders Lagger Farfars (Boda)
+R:polska
+Z:1999 Brian Wilson
+P:ABB
+M:3/4
+L:1/8
+K:A
+P:A
+E \
+| "A"A2 AB cd \
+| "A"e2 e/f/e/d/ c>e \
+| "A"a2 ae Ac \
+| "A"e2 e3d \
+| "A"cB AB cd \
+| "A"e2 e/f/e/d/ c>e \
+| "A"a2 ae Ac \
+| "A"e2 e3 e ||
+P:B
+|: "D"f>e f2 d>e \
+| "D"f2 d3 f \
+| "A"a2 e>c A>c \
+| "A"e2 e3 e \
+| "E"f>e dc B2- \
+| "E"B>A Bc d>e \
+| "D"f2 e/f/e/c/ d>B \
+|[1 "E"G<B "A"A3 e \
+:|[2 "E"G<B "A"A3 E |]
+S:https://www.folktunefinder.com/tunes/114300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/AndersLaggerFarfarsBoda.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

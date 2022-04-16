@@ -1,0 +1,19 @@
+X:1
+T:Anchors Aweigh
+M:4/4
+L:1/4
+K:C
+ z4| C2 E G| A3/2 E/2 A2| c2 d G| c4| A2 c A| G A B c| ^F A d c| B- G- F- D|\
+ C2 E G| A3/2 E/2 A2| c2 d G| c4| A3/2- A/2 c A| G A B c| e/2G/2 ^F/2G/2 d/2G/2 F/2G/2|\
+ c4| z4|
+S:https://www.folktunefinder.com/tunes/114066
+S:http://back.numachi.com:8000/dtrad/abc/ANCHRAWA.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ANCHRAWA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

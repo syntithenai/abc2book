@@ -1,0 +1,23 @@
+X:1
+T:Autumn Waltz
+C:David Kaynor
+M:3/4
+K:A
+Ac d ||"A"e3 A cd | e3 A cd | ec ea ed | c4 c2|
+"E7" d4 Bc | d3 B cd | ef ec dB | "A" c4 cd|
+"A"e3 A cd | e3 A cd | ec ea ed | c4 c2|
+"E7" d4 Bc | d3 B cd | ef ec BG | "A" A4 ce||
+"A"a4 a2 | "D" a4 gf | "A" f2 e3 d| c4 c2|
+"E7"B4 GA | B4 dc | (3BcB A2 B2 | "A"c4 (3efg|
+"D"a4 ab | a2g2f2 | "A"e3f ed| c4 A2 | 
+"E" B4 d2 | c4 B2 | "A"A6-|A4 ce|]
+S:https://www.folktunefinder.com/tunes/130169
+S:http://users.rcn.com/ladysmyth/tunes/AutumnWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

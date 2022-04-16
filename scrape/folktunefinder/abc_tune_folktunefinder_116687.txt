@@ -1,0 +1,28 @@
+X:13642
+T:Princess Royal
+R:set dance
+S:Jonas Lindholm
+H:A set dance version of the O'Carolan tune.
+H:Similar to "Rodney's Glory", #7
+Z:id:hn-setdance-11
+M:C|
+K:Ador
+ed|:c2B2 A2e=f|edcB A2 (3e^fg|^f2d2 d2e=f|edcB c2BA|
+B2g2 B2cB|ABAG E2ed|c2 (3ABc BAGB|1 A2AG A2ed:|2 A2AG ABcd||
+|:eaag a3b|aged e3d|(3efg (3fga gfge|dcBA G2AB|
+c2Bc d2cd|efge a3g|f2A2 f2gf|e2 (3ABc d2ed|
+c2 (3BcB ABcd|e2E2 E2ed|c2 (3ABc BAGB|1 A2AG ABcd:|2 A2AG A2||
+S:https://www.folktunefinder.com/tunes/116687
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

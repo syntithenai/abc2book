@@ -1,0 +1,25 @@
+X:33
+T:Branle des Lavandieres
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle morgu
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+G2 G2 G2 G2 F2 F2 B4 c2 B2 A2 G2 G2 F2 G4 :: G2 d2 B2 d2 c2 B2 A2 G2 ::
+G2 G2 F4 G4 A4 | A2 A2 A2 B2 c2 B2 A2 G2 | G2 G2 F4 G4 A4 c2 B2 A2 G2 G2 F2 G4 ||
+S:https://www.folktunefinder.com/tunes/104073
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle morgu
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

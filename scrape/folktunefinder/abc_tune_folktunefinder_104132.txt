@@ -1,0 +1,27 @@
+X: 20
+T:Pray Goody. ST.20
+M:4/4
+L:1/8
+Q:200
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Country-dance
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:G
+d4 cBAG|BAGF GBdf|g2fe dBAG|gdcB (B2A2)|!
+d4 cBAG|BAGF GBdf|{ef}g2fe dBec|BdcAG2z2||!
+g2d2e2d2|gBBB(c2B2)|gddd gddd| gdcB "pa"B2"pa"A2|!
+d4cBAG|BAGF GBdf|g2fe dBAG|gdcB (B2A2)|!
+d4 cBAG|BAGF GBdf|{ef}g2fe dBec|BdcAG4|]
+S:https://www.folktunefinder.com/tunes/104132
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

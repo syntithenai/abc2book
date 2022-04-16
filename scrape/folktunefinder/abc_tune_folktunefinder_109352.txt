@@ -1,0 +1,30 @@
+X: 3
+T: Old Rosin, the Beau
+I: Old Rosin, the BeauW-2Gwaltz
+C: W-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: G
+D2| "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2| \
+    "G"d2 B2 G2| G2 A2 B2| "Em"E6-| E4 D2|
+    "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2| \
+    "G"d2 B2 G2| "D7"A2 B2 A2| "G"G6-| G4|]
+\
+Bc| "G"d2 B2 d2| d2 e2 f2| "C"g4 e2| g4 e2| \
+    "G"d2 B2 G2| G2 A2 B2| "Em"E6-| E4 D2|
+    "G"G2 F2 G2| B2 A2 G2| d6| "C"e2 f2 g2| \
+    "G"d2 B2 G2| "D7"A2 B2 A2| "G"G6-| G4|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/109352
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

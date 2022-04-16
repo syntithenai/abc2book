@@ -1,0 +1,36 @@
+X:4722
+T:Einstein's Reel
+% Nottingham Music Database
+S:Chris Dewhurst, via PR
+M:4/4
+L:1/4
+K:E
+"B7"GA |"E"Be "A"ce|"E"Be/2c/2 -"A"c/2B/2G/2A/2|"E""g#"Be "C#m"cG/2B/2-|\
+"F#m"B2 "B7"B/2G/2A/2^A/2|"E"Be "A"ce|
+"E""g#"Be/2c/2 -"C#m"c/2B/2c/2e/2|"F#7"dc/2d/2 -d/2d/2e|"B7"fd c=c|"E"Be "A"ce\
+|"E"Be/2c/2 -"A"c/2B/2G/2A/2|
+"E"Be fg|"C#7"a3g|"F#""(a)"fe "Edim""(a)"=ge|\
+"E""(b)"ge/2c/2 -"C#m"c/2B/2c/2e/2|"F#7"fe/2=g/2 -"B7"g/2e/2f|"E""(e d d c)"e4||
+K:C
+"C7"ec dc|"C7"ec/2d/2 -d/2c/2d/2^d/2|"E"eB ^c^G/2B/2-|\
+"E""e d d c"B2 B/2c/2d/2^d/2|\
+K:C
+"C7"ec dc|
+"C"ec/2d/2 -d/2c/2d/2^d/2|"F#m"e^c/2^d/2 -d/2d/2e|"B7"^f^d ^c=c|\
+K:E
+"E"Be "A"ce|"E"Be/2c/2 -"A"c/2B/2G/2A/2|
+"E"Be fg|"C#7"a3g|"F#""(a)"fe "Edim""(a)"=ge|\
+"E""(b)"ge/2c/2 -"C#m"c/2B/2c/2e/2|"F#7"fe/2=g/2 -"B7"g/2e/2f|"E"e4||
+S:https://www.folktunefinder.com/tunes/123505
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

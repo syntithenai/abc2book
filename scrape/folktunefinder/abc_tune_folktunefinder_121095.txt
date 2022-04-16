@@ -1,0 +1,31 @@
+X: 9
+T:Keswick Bonny Lasses Hornpipe. WI.009
+M:C|
+Q:180
+S:Wm Irwin, 1838 MS, AGG's Transcription
+R:Hornipe
+O:England
+A:Lake District
+N:A.G.G writes "these altrernatives are my own", presumably meaning that
+N:Irwin has a different conclusion to the B music..CGP.
+Z:vmp.Chris Partington.2005
+K:D
+(3ABc|d2fe dcBA|Bcdc BAGF|\
+G2BA GFED|C2A,2 A,2(3ABc|!
+d2fe dcBA|Bcdc BAGF|GABc dABG|F2D2 D2:|!
+AG|FDFA dAGF|GEGB ecAF|\
+FDFA dAGF|G2E2 E2(3ABc|!
+d2fe dcBA|Bcdc BAGF|GABc dABG|F2D2 D2:|]
+S:https://www.folktunefinder.com/tunes/121095
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Hornipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

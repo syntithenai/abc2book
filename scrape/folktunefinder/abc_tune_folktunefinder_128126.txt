@@ -1,0 +1,28 @@
+X:140
+T: McLEAN'S LAMENTATION
+B: O'Neill's 78
+M: 6/8
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: "Collected by F.O'Neill"
+K: D
+(TAGE) (DEG) | (TAGE) (TGEC) | (TAGE) (DEG) | AB=c (E2{FE}D) |
+| (TAGE) (DE).G | (TAGE) (TGEC) | (TAGE) (TcBA) | (TGED) D2 ||
+|| ((3A/B/c/) \
+| d>ed ded | (T=cBc) (TEDC) | d>ed ded | (TcAc) d2A |
+|  d>ed ded | (T=cBc) (TEDC) | (TAGE) (TcBA) | (TGED) D2 ||
+|| D \
+| (DFA) (DFA) | (CEG) .E.D.C | (DFA) (DFA) | .G.A.B (TBAF) |
+| (DFA) (DFA) | .G.E.c | CDE | (TAGE) (TcBA) | (TGED) D2 ||
+S:https://www.folktunefinder.com/tunes/128126
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0051-0100_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

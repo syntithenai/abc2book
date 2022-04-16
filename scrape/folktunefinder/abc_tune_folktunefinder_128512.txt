@@ -1,0 +1,19 @@
+X:45
+T:Bush on the Hill
+Z: id:dc-jig-169
+M:6/8
+L:1/8
+K:G Major
+G,3 DB,D|G3 Bdg|edc BcA|BGE EDB,|!
+G,A,G, DB,D|G3 Bdg|edc BcA|BGF G3:|!
+GBd g3|ece dBG|c3 dBG|AFA BGF|!
+GBd g3|ece dBG|c3 dBG|AFD G3:|!
+S:https://www.folktunefinder.com/tunes/128512
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

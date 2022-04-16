@@ -1,0 +1,31 @@
+X:11487
+T:Mueira
+T:Muieira
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Danzas y Bailes I
+M:6/8
+L:1/8
+Q:3/8=138
+K:C
+|: G2 G|c2 c c2 d|c2 B G2 A|B2 c B2 A|G3 G3-|G6|G3 z3 :|
+| z3 G2 G|c2 c c2 d|c2 B G2 A|B2 c B2 A|G2 G D2 E|F2 F G2 A|
+|G3 D2 E|F2 F G2 A|G3 G2 A|G2 F E2 D|C3 C3-|C6-|
+|C3 C2 D|E2 F G2 A|G2 G G2 A|G2 F E2 D|C3 C3-|C6-|
+|: C3 CCD|EEF GGA|G6-|G6-|G3 GGG|GAG FED|[1 C6-|C6- :|
+|[2 C3 CDE|F2 F CDE|F2 F CDE|G2 G G2 A|G2 F E2 D|C3 C3-|C6-|
+|C3 C2 D|E2 F G2 A|c2 G G2 A|G2 F E2 D|C3 C3-|C3 z3|
+S:https://www.folktunefinder.com/tunes/99269
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

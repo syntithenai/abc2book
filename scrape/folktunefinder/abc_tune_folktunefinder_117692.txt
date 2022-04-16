@@ -1,0 +1,34 @@
+X:253
+T:Knocknagow
+R:jig
+H:See also #191 (2-part version)
+N:Last part with some variations
+Z:id:hn-jig-253
+M:6/8
+K:Ador
+EAB ~c3|EAF GED|EAB cBc|dcd ecA|
+EAB ~c3|EAF GAB|Aag edB|1 cAA A2G:|2 cAA AB/c/d||
+|:eag aga|ede gfg|eaa age|def gdB|
+eag aga|ede ~g3|age dcB|1 cAA AB/c/d:|2 cAA A^cd||
+K:A
+|:edc dcB|cAF ECE|~A3 cBc|~d3 Bcd|
+e2c dcB|cAF ~E3|Ace aed|cdB Acd:|
+eaf ~=g3|eaf ecA|dfa ecA|dcd Bcd|
+ecA fdB|~a3 ecA|df^g aed|cdB Acd|
+eaf =g2e|a2f ecA|dfa ecA|dcd Bcd|
+ecA fdB|aga ecA|dfg aed|cdB A2=G||
+S:https://www.folktunefinder.com/tunes/117692
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj2.abc
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:157
+T: Zhongren kangshan shan hui dong
+N: C0263
+O: China,Fujian, Quanzhou
+S: II, 569, 2)]
+N: ]
+R: Xiaodiao, Fengsuge, Cailiange. Xin minge]
+M: 2/4
+L: 1/16
+K: G
+B4A4 | d2B4A2 | B3dB2A2 | G4A4 | B3dB2A2 | G4A4
+E4A2B2 | G4E4 | E2G2A2E2 | G4E4
+A4d4 | B2B4A2 | B4E2A2 | G4E4 | B4E2A2 | G4E4
+E2G2G2E2 | A3BA2G2 | E2A2G2A2 | E8
+S:https://www.folktunefinder.com/tunes/112584
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, fengsuge, cailiange. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

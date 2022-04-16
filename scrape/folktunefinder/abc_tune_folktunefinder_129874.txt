@@ -1,0 +1,31 @@
+X: 52
+T:Proudlocks's Variation
+% Nottingham Music Database
+S:Reading
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+D2|(3"G"GED(3GAB "D7"(3AFD(3ABA|(3"G"GBd(3gfg "C"(3agf(3edc|
+(3"G"Bcd(3BAG "D7"(3ABc(3AGF|(3"G"GFG(3AGF "D7"(3GFE(3DEF|
+(3"G"GED(3GAB "D7"(3AFD(3ABA|(3"G"GBd(3gfg "C"(3agf(3edc|
+(3"G"Bcd(3BAG "D7"(3ABc(3AGF|(3"G"GFE(3DEF (3GDB:|
+P:B
+Bc|(3"G"d^cd(3edc "Em"(3Bcd(3GAB|(3"Am"cBc(3dcB "D7"(3AGF(3DBc|
+(3"G"d^cd(3edc "Em"(3Bcd(3GAB|(3"A7"A^ce(3a_ag "D7"(3fed(3cBA|
+(3"G"GED(3GAB "D7"(3AFD(3ABA|(3"G"GBd(3gfg "C"(3agf(3edc|
+(3"G"Bcd(3BAG "D7"(3ABc(3AGF|(3"G"GFE(3DEF (3GDB:|G2
+S:https://www.folktunefinder.com/tunes/129874
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

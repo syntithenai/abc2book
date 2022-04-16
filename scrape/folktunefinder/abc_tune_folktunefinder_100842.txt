@@ -1,0 +1,22 @@
+X:46
+T:Old Torn Petticoat
+Z: id:dc-hornpipe-42
+M:C|
+L:1/8
+K:A Dorian
+ed|cABG AGED|EGAB cded|cABG AGED|EGAB A2ed|!
+cABG AGED|EGAB cded|cABG AGED|EGAB A2:|!
+AB|cdef gedg|eaaf gedB|cdef gedg|eaag a2AB|!
+cdef gedg|eaaf gedB|cABG AGED|EGAB A2:|!
+S:https://www.folktunefinder.com/tunes/100842
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:Andro Sunfolk 1
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:Andro
+O:Bretagne
+M:4/4
+L:1/8
+P:A
+K:Am
+e2 ef e3 d | c2 B2 A4 | d2 d2 B2 AG | ABcd e4|
+e2 ef e3 d | c2 B2 A4 | d2 d2 B2 AG | ABcB A4 :|
+ef g2 A4 | ef g2 B4 | d2 d2 B2 AG |  ABcd e4 |
+ef g2 A4 | ef g2 B4 | d2 d2 B2 AG |  ABcB A4 :|
+P:B
+K:Am
+A2 e2 e2 de | f3 e dcBc | d2 B2 e2 dc | BcAB c3 B |
+A2 e2 e2 de | f3 e dcBc | d2 B2 e2 dc | BAcBA4 :|
+A2 A2 B2 cB | A2 A2 B2 Bc | d2 B2 e2 dc | BcAB c3 B |
+A2 A2 B2 cB | A2 A2 B2 Bc | d2 B2 e2 dc | BAcBA4 :|
+P:C
+K:Am
+"Dm"d2 ed c2 A2 | "F"d2 cB A2 d2 | "G"cded c2 A2 | "Am"d2 cB A4 :|
+"Dm"d2 e2 f4 | "F"edef e4 | "F"d2 e2 f3 d | "Em"d2 c2 d2 A2 |
+"Dm"d2 e2 f4 | "F"edef e4 | "G"d2 e2 f3 d | "Am"d2 c2 d4 [K:Em]:|
+S:https://www.folktunefinder.com/tunes/116963
+S:http://termen.free.fr/danses/vannetais/AndroSunfolk1.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

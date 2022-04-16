@@ -1,0 +1,30 @@
+X: 23
+T:Mary Scott
+N:from The Scottish Music List, Vol2 No 92
+Z:Jack Campin
+S:Agnes Hume's music book, 1704, NLS Adv.MS.5.2.17
+M:6/4
+L:1/4
+Q:200
+K:Amix
+DEG "="A2[Bd]|"="A2[Bd] "="[F3/2A3/2]E/D|\
+EFA "="[B2d2][Ac]|"="[B2d2]A "="[B2d2]A|
+DEG "="A2[Bd]|"="A2[Bd] "="[F3/2A3/2]E/D|GA/G/F/E/ FG/F/E/D/|EFA "="[B2d
+2]A:|
+"="[d3D3] "="d>cB|ABd "="[F3/2A3/2]E/D|"="[e3E3] "="e>de|"="fe"="d "="e>
+dc|
+"="[d3D3] "="d>cB|ABd "="[F3/2A3/2]E/D|GA/G/F/E/ FG/F/E/D/|EFA "="[B2D2]
+A:|
+S:https://www.folktunefinder.com/tunes/121894
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Vol02.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

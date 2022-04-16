@@ -1,0 +1,23 @@
+X:23
+T:Fairy Dance
+C:Nath. Gow
+M:C|
+L:1/8
+Q:1/2=100
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:f2Tfdf2Tfd|f2fd (cd)eg|f2 (fd) gf.e.d|cABc defg :|
+|:{g}a2afb2ba|{f}g2gea2ag|f2fd (gf)ed|1 cABc defg:|2 cABc .d2.d2||
+S:https://www.folktunefinder.com/tunes/114089
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,58 @@
+X:13518
+T:Porque soi de la montaa (CT 496)
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por Leandra Gonzlez Zuazua, de cincuenta os, de Uvi, quien dice que la aprendi de los pastroes de la sierra de Sigencu (Cangas d'Ons)
+O:Sigencu (Cangas d'Ons)
+A:Asturies
+Z:Cancioneru de Torner 496
+M:3/4
+L:1/8
+Q:1/4=116
+W:Porque soi de la montaa, (bis)
+W:de entre cardos y peones, (bis)
+W:falen los de los llugares
+W:que yo ac non siento amores.
+W:
+W:Acull, acull mui lloe, (bis)
+W:vseme el mio pensamientu; (bis)
+W:vseme hacia una cabaa,
+W:tras la que se anocha dientru.
+W:
+W:Yo desque vi la pastora de la cabaa,
+W:aparaderu non topo nin so la paya.
+W:Si rendu del cansanciu ciarro los geyos,
+W:sueo que me la llevaron los llugareos.
+W:Dispiertu fecho una furia, llocu me gelvu:
+W:si esto non son amores, yo ents, qu tengo!
+K:C
+G2
+|: c4 B2|A2 B2 c2|(B2-B3/2c/4B/4 A2)|A2 z2 G2|
+c4 B2|A2 B2 c2|(B2-B3/2c/4B/4 A2)|A2 G2 A2|A6|
+F2 A2 B2|(A2-A3/2B/4A/4 G2)|G6|[1 z4 G2 :|[2 z2 G2 c2|
+(c3/2d/4c/4 B3/2c/4B/4 A2)|c2 c2 B2|(d2 c3/2d/4c/4 B3/2c/4B/4|A2) A4|z2 G2 c2|
+(c3/2d/4c/4 B3/2c/4B/4 A2)|c2 c2 B2|(d2 c3/2d/4c/4 B3/2c/4B/4|A2) A4-|A2 G2 A2|A6|
+F2 A2 B2|(A2-A3/2B/4A/4 G2)|G6|z2 G2 c2|
+(c3/2d/4c/4 B3/2c/4B/4 A2)|c2 c2 B2|(d2 c3/2d/4c/4 B3/2c/4B/4|A2) A4|z2 G2 A2|
+(c3/2d/4c/4 B3/2c/4B/4 A2)|c2 c2 B2|(d2 c3/2d/4c/4 B3/2c/4B/4|A2) A4-|A2 G2 A2|A6|
+F2 A2 B2|(A2-A3/2B/4A/4 G2)|G6-|G2 z2 G2|
+c4 B2|A2 G2 E2|D2 D4|D2 G2 A2|(c2-c3/2d/4c/4 B3/2c/4B/4)|A2 A4-|A2 z2 G2|
+c4 B2|A2 G2 E2|D2 D4|D2 G2 A2|(B2-B3/2c/4B/4 A2|B4-B3/2(3c/4B/4A/4|G2) G4-|G2 z2 G2|
+c4 B2|A2 G2 E2|D2 D4|D2 G2 A2|(c2-c3/2d/4c/4 B3/2c/4B/4)|A2 A4-|A2 z2 G2|
+c4 B2|A2 G2 E2|D2 D4|D2 G2 A2|(B2-B3/2c/4B/4 A2|B4-B3/2(3c/4B/4A/4|G2) G4-|G2 z2 G2|
+c4 B2|A2 B2 c2|(B2-B3/2c/4B/4 A2)|c2 c2 B2|(d2 c3/2d/4c/4 B3/2c/4B/4|A2) A4-|A2 G2 A2|
+B2 B2 c2|A2-A3/2B/4A/4 G2|G6|A2 B2 c2|(B2-B3/2c/4B/4 A2|B4-B3/2(3c/4B/4A/4|G2) G4-|G2 ||
+S:https://www.folktunefinder.com/tunes/116563
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

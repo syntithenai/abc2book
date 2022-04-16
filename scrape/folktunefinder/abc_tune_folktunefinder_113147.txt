@@ -1,0 +1,31 @@
+X: 138
+T: Randy Miller's Tour of Scotland
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+"D"DB,A,B, D2EA|FAEF "Bm"DB,B,/B,/B,|\
+"D"DB,A,B, DFFE|"G"DB,B,D "A"B,A,A,2|
+"Bm"DB,A,B, D2EA|FAEF DB,B,/B,/B,|\
+"G"DB,A,B, DFFE|"A"DB,B,D B,A,A,2|
+"Bm(G)"BAAd BdAd|"G"fdef dBB/B/B|"Bm"BAAd BdAd|"G"faec d3B|
+"Bm(G)"BAAd BdAd|"G"fdef dBB/B/B|"Bm"BAAd BdAd|"G"faec "A"d3e||
+|:\
+"D(maj7)"faa/a/a fbeg|defd BAAe|"F#m"faa/a/a baa/a/a|fbaf efde|
+"G(maj7)"faa/a/a fbeg|defd BAFA|"A(9)"BAFB AFAd|1\
+faef d3e:|2\
+faef d4||
+S:https://www.folktunefinder.com/tunes/113147
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

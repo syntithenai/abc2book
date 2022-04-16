@@ -1,0 +1,25 @@
+X:30
+T:Merry Blacksmith, The
+M:C|
+R:Reel
+Z:This is a reel favorite - a must-know for playing Irish music.
+Z:We play this in a set: <ceili:6>, <ceili:7>, <ceili:8>.
+D:anop=B0000058KV(Various Artists: Piping Hot: Celtic Bagpipe Collection)
+D:anop=B00000G4NO(Tony MacMahon, et al: Music Of Dreams)
+D:asin=B000005MQU(Steeleye Span: Lord Of The Dance &amp; Riverdance (And Other Famous Irish Music &amp; Dances) [BOX SET])
+K:D
+d2dA BAFA|ABdA BAFA|ABde f2ed|Beed dgfe|\
+d2dA BAFA|ABdA BAFA|ABde f2ed|dBAF D4::\
+a2ag f2fe|d2dA BAFA|ABde f2ed|Beed dgfe|\
+a2ag f2fe|d2dA BAFA|ABde f2ed|dBAF D4:|
+S:https://www.folktunefinder.com/tunes/111535
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

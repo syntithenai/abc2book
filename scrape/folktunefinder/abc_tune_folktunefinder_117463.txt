@@ -1,0 +1,31 @@
+X: 66
+T:Trip to Pakistan
+R:Reel
+C:Nial Kenny
+D:Tannahill Weavers' "Capernaum" album.
+S:Sarah Jane Summers - Falkirk Fiddle Workshop
+S:Ted Hastings <ted@hastings.nu> scots-l 2000-11-28
+M:4/4
+L:1/8
+F:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TripToPaki
+N: stanR_Bm.abc 2002-09-05 01:58:09 UT
+N:Posted to the woodenflute mailing list September 2002
+Z:bil
+K:Bm
+(B>d) (f>B) d2 (d>f)|e2 (e>d) c>d e>c|(B>d) (f>B) d2 (d>f)|
+e>d c>d B2 B2:| (B>d) (f>B) g3 e|f3 a (f>e) (f>d)|
+(B>d) (f>B) g3 e|f>e d>f e2 e2:| vc>d f>u(c d>f) c>d|
+B>c d>(B c>d) b>c|A>c e>(A c>e) A>c|e>d c>d B2 B2:|
+S:https://www.folktunefinder.com/tunes/117463
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/TripToPaki
+S:http://www.lesession.co.uk/music/wf_update3.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:190
+T:The Gentle Maiden
+R:waltz
+N:"Slow"
+B:O'Neill's 282
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+M:3/4
+L:1/4
+K:G
+F |G>AG| F>ED|d3| e>fg|d>cB| A2G|E3-| E2F |
+G>AG| F>ED|d3| e>fg|d>cB| A2G|G3- G2d||
+d>ef| g2g|g3| g>fe|d>cB| {B}A2G|E3-| E2F |
+G>AG| F>ED|d3|e>fg|d>cB| A2G|G3- |G2||
+S:https://www.folktunefinder.com/tunes/122603
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

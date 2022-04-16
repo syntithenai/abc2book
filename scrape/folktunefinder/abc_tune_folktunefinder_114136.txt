@@ -1,0 +1,26 @@
+X:104
+T:Mustah Foot 
+T:From The Blarney Fife Medley
+C:Chris Myers (9/2004)
+M:2/4
+L:1/16
+K:G
+V:1
+%%MIDI program 72
+%%MIDI transpose 8
+BA|GDGD BAGD|ADAD cBAD|BDBD dcBd|cBAG FDEF|GDGD BAGD|
+ADAD cBAD|BdBG cAFD|G2G2G2::Bc|dgfe dagf|gfge d2 gf|ecfe dBed|
+cBAG FAGF|GDGD BAGD|ADAD cBAD|BdBG cAFD|GBAF G2:|
+V:2
+%%MIDI program 72
+%%MIDI transpose 8
+BA|G2D2 G2B2|A2F2 D2F2|G2D2 G2B2|AGFE DDEF|G2D2 G2B2|
+A2F2 D2F2|GFGB AFDC|B,2B,2B,2::BA|G2B2 A2c2|d2dc BcBA|G2A2 B2cB|
+AGFE DDEF|G2D2 G2B2|A2F2 D2F2|GFGB AFDF|GEDC B,2:|
+S:https://www.folktunefinder.com/tunes/114136
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:1
+P: Austin White's Jig
+C: Jerry Holland
+C: Jerry Holland Collection, arr. T. Traub 4-17-03
+R: Jig
+M: 6/8
+K: A
+L: 1/8
+c |: "A"EAB c3|"D"d2 f "A"ecA|"A"EAB c2 A|"D"Bdc "E"BAF|"A"EAB c3|"D"d2 f "A"ecA|"E"Edc BAG |1 "A"A3 "D"AGF :| |2 "A"A3 A2|
+|: g|"A"a2 c "D"d2 f|"A"e2 f ecA|"A"aec "D"d2 f|"A"edc "E"B2 g|"A"aec "D"d2 f|"A"e2 f ecA|"D"Edc "E"BAG|"A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/130096
+S:http://terrytraub.org/abc/AustinWhiteJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/AustinWhiteJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

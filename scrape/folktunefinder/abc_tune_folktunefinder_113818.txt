@@ -1,0 +1,25 @@
+X:390
+T:Paddy Fahy's
+R:jig
+C:Paddy Fahy
+H:Also in G, #384
+D:Dervish: Live in Palma
+Z:id:hn-jig-390
+M:6/8
+L:1/8
+K:D
+DFA dfe | dcA ~G3 | AFD =c2d | ed=c B/c/dB |
+DFA dfe | dcA GFG | AdB cAG |1 E2D DFE :|2 E2D DFA ||
+|: d2e fed | c2A A2B | =cB=c ed=c | B2G GAG |
+d2e fed | c2A EFG | AdB cAG |1 E2D DFA :|2 E2D DFE ||
+S:https://www.folktunefinder.com/tunes/113818
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:28
+T:Dernire danse
+R:branle
+C:trad.
+A:Alsace
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=140
+K:G
+B2GA|B2A2|G2Bc|d2e2|d2g2|d3c|B2A2|BG Bc|
+d3c|B2A2|B4|d2 GA|B2A2|G2 Bc|d2e2|d2g2|d3c|B2A2|
+BG Bc|d3c|B2A2|G4||
+S:https://www.folktunefinder.com/tunes/130209
+S:http://www.tradfrance.com/matf11.txt
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

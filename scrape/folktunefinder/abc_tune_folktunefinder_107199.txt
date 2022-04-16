@@ -1,0 +1,26 @@
+X: 3
+T: 'Round the Horn
+C: Jay Ungar
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+(3DEF| "G"G2GA BAGA| Bd2e d4| "C"cdef e2g2| "D"a6 ga|
+       "Em"b2b2 "D"agfa| "C"gfed "G"BAGB| "Am"A2d2 BAG2|1 "Em"E4- "D7"E2 :|2 "Em"E8 |]
+|:"C"e3f e2d2| "G"B6 B2| "Am"A3A G2A2| "Bm"B2 d6|
+"C"g3a g2e2| "G"dedc BAGB| "Am"A2d2 BAG2|1 "Em"E8 :|2 "Em"E4- "D7"E2 |]
+%%text Roaring Jelly  R-25
+%%text 02/07/01
+S:https://www.folktunefinder.com/tunes/107199
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

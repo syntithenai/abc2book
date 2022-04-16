@@ -1,0 +1,17 @@
+X: 21
+T:The Frantocini
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:F
+"F"fcc ~c3|"Dm"dAA ~A3|"Gm"GBA GAF|"C"EFG C3|"F"fcc c3|"Dm"dAA A2f|"C"edc "G"GA=B|"C"c3 c3:|
+"C"gcc ~c3|"F"acc ~c3|"Bb"dcB "Gm"AGF|"C"EFG C3|"F"fcc c3|"Dm"dAA ~A3|"Gm"GBA "C"GFE|"F"F3 F3:|
+S:https://www.folktunefinder.com/tunes/114278
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

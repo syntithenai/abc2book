@@ -1,0 +1,39 @@
+X:7
+T:Branle du Rat
+R:Branle
+C:Trad.
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/16
+Q:1/4=90
+K:G
+B2B2 B2AB|c2B2 A4|A2A2 A2GA|G2A2 B2G2|\
+B2B2 B2AB|c2B2 A4|d2d2 d2cc|B2A2 G4||
+[M:6/8][L:1/8]
+Q:3/8=90
+B2G B2G|DEF E2D|B2G B2G|DEF G3:|
+T:Version Saulieu
+M:2/4
+%%text D'aprs la version note par Lucie Augias (Saulieu - 1936)
+%%continueall 1
+cd ed/c/ | dg g2 | cd ed/c/ | dg c2 :: gg gg | g/a/g/f/ ed/e/ |1
+ff ff | f/g/f/e/ de/f/ :|2 ff ed | g/f/e/d/ c2 |]
+T:Version Haut-Morvan
+%%text D'aprs la version collecte en 1938 auprs de Simon Gunard dit "Le Chaicrot", vielleux  Anots
+%%continueall 1
+M:2/4
+ee ed/e/ | fe d2 | dd dc/d/ |  ed c2 :| [M:6/8] e2c e2c | GAB A2G | e2c e2c | GAB c3 :|
+%%footer $D   Galouvielle-MBe 2007 \nBranle des chevaux (--)
+S:https://www.folktunefinder.com/tunes/129969
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm Branle
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Archie Menzies
+R:Reel
+D:Irish Dancing Tape (P. Acc)
+N:Highland Whisky version
+Z:John Chambers <jc:trillian.mit.edu>
+M:C|
+L:1/8
+K:F
+C \
+| "F"F2CF AFEF | Acde fcAF | "Gm"G2 DG BGDG | Bdef "C7"gdBG | "F"F2CF AFEF |
+| "F"Acde fcAF | "Gm"BdGB "F"AcFA | "C7"GFDE "F"F3 |]| e | "F"f2cf afef | cfag fedc |
+| "Gm"g2dg bg^fg | dgba "C7"g=fed | "F"cfef afef | cfag fedc | "Gm"BdGB "F"AcFA | "C7"GFDE "F"F3 |]
+S:https://www.folktunefinder.com/tunes/122724
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/ArchieMenzies_16F.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

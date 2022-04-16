@@ -1,0 +1,25 @@
+X:4
+T:Passe-pid po l'rawete
+B:Suite d'Habiemont
+O:Wallonie
+M:3/4
+R:passe-pied
+L:1/8
+Q:C4=92
+K:G
+D2 |: B2 BA GB | d2 dc Bd | c2 cB Ac | B2 G z D2 |
+B2 BA GB | d2 dc Bd | c2 AG FA |1 G3 z D2 :|2 G3 z d2 |
+|: c2 Ac Ac | B2 GB GB | A2 FA FA | d2 B2 d2 |
+c2 Ac Ac | B2 GB GB | AG FD FA |1 G3 z d2 :|2 G3 z ||
+S:https://www.folktunefinder.com/tunes/103987
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/habiemont.txt
+S:http://users.skynet.be/infants/musiques/abc/habiemont.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/habiemont.txt
+% Rhythm Passe-pied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

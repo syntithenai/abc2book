@@ -1,0 +1,44 @@
+X:1
+T:J'ai vu le loup
+R:Branle
+C:trad.
+A:Bourgogne
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+GF/2G/2|EFDE|EE:|
+|EF|GG/2F/2GA|F2GF/2G/2|EEFF|DB,EF|GG/2F/2GA|F2GF/2G/2|EFDE|E2||
+W:
+W:J'ai vu le loup, le r'nard, le livre
+W:J'ai vu le loup, le r'nard cheuler
+W:C'est moi-mme qui les ai r'beuills
+W:J'ai vu le loup, le r'nard, le livre
+W:C'est moi-mme qui les ai r'beuills
+W:J'ai vu le loup, le r'nard cheuler
+W:
+W:J'ai ou le loup, le r'nard, le livre
+W:J'ai ou le loup, le r'nard chanter
+W:C'est moi-mme qui les ai r'chins
+W:J'ai ou le loup, le r'nard, le livre
+W:C'est moi-mme qui les ai r'chins
+W:J'ai ou le loup, le r'nard chanter
+W:
+W:J'ai vu le loup, le r'nard, le livre
+W:J'ai vu le loup, le r'nard danser
+W:C'est moi-mme qui les ai r'virs
+W:J'ai vu le loup, le r'nard, le livre
+W:C'est moi-mme qui les ai r'virs
+W:J'ai vu le loup, le r'nard danser
+S:https://www.folktunefinder.com/tunes/130182
+S:http://www.tradfrance.com/matf11.txt
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

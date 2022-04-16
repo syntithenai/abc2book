@@ -1,0 +1,31 @@
+X:4
+T:XIII. If that a sinner's sighes be Angel's foode
+T:BASSUS.
+C: John Dowland
+B: db: -c 4 -b 13
+H: From A Pilgrimes Solace.
+H: Wherein is contained Musicall 
+H: Harmonie of 3. 4. and 5. parts,
+H: To be sung and plaid with the Lute and Viols.
+H: First published in 1612
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+% %%LY voices \property Voice.Slur \set #'dashed = #1
+%%LY voices \property Staff.automaticMelismata = ##f
+N:Original clef, F on third line
+%%MIDI transpose -24
+K:G dor bass
+g4 ^f3 f g3 f/ _e/ d c d d G3 g d6 d2-d2
+S:https://www.folktunefinder.com/tunes/111080
+S:http://www.laymusic.org/music/dowland/sighs/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

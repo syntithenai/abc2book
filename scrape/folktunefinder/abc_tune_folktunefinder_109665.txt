@@ -1,0 +1,36 @@
+X:8
+%%maxsysstaffsep 25pt
+T:Almande I
+R:Allemande
+C:Tielman Susato
+O:1551
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-01-16
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+K:C
+%%staves [1 2 3 4]
+%%continueall 0
+V:1
+G2 G/A/B/c/ | d3d | ABcA |B2B2 | G2G/A/B/c/ | d3d | ABcA |
+B2B2 :: GG/A/BA/G/ | A2A2 :: GG/A/BA/G/ | ^F>GAB | GBA^F |  G2G2 :|
+V:2
+d2dd |f3f | fded | B2B2 | d2dd | f3f | fded | 
+B2B2 :: d2gg | ^f2f2 :: d2dd |d3d | ed/c/dd | B2B2 :|
+V:3
+G>ABA/G/ | A3d | cBAA | G2G2 | G>ABA/G/ |A3d | cBAA |
+G2G2 :: B/A/B/c/ dd | d2d2 :: B/A/B/c/ dc/B/ | A3d | cBAA |G2G2 :|
+V:4
+G,2G,G, | D,3D, | F,G,C,D, | G,,2G,,2 | G,2G,G, | D,3D, | F,G,C,D, |
+G,,2G,,2 :: G,2G,G, | D,2D,2 :: G,,2G,,G,, | D,3G,, | C,G,, D,D, | G,,2G,,2 :|
+%%footer $D   Galouvielle-MBe 2007 \n-- (1866)
+S:https://www.folktunefinder.com/tunes/109665
+S:http://michel.bellon.free.fr/Musique/abc/Intime2007.abc
+% Rhythm Allemande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

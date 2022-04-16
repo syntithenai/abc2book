@@ -1,0 +1,21 @@
+X:285
+T:Hare in the Corn
+Z: id:dc-jig-162
+M:6/8
+L:1/8
+K:D Major
+A|F2A AFA|BdB AFE|F3 EDE|F2D D2E|!
+F2A AFA|BdB AFA|Bcd ecA|ded d2:|!
+e|f3 fed|g2e ede|f3 fed|a3 bag|!
+f3 fed|g2e edB|ABd ecA|ded d2:|!
+S:https://www.folktunefinder.com/tunes/128693
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

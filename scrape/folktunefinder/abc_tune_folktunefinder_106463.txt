@@ -1,0 +1,25 @@
+X: 2
+P: Norwegian Wood
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: Gmix
+"A"|: "G"d2d edc | B3 AcB | G3 "F"Fc"C"E | "G"HD6 \
+"B"::[K:Gm] "Gm"[dB][dB][dB] [dB][cA][cA] | [cA][BG][BG] [BG][cA][BG] \
+    |1 "C"[c3-=E3] [c3-F3] | [c3-^F3] [c3G3] \
+   :|2"Am"[c3-A3]  [c3-G3] | "D7"[c6^F6] |]
+S:https://www.folktunefinder.com/tunes/106463
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/BeatlesP1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

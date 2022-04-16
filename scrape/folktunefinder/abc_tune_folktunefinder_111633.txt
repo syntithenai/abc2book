@@ -1,0 +1,23 @@
+X:520
+T:Tobin's
+R:Jig
+O:Ireland
+M:6/8
+D:anop=B000001UYZ(Innisheer: Rainbands)
+K:D
+DFA dcd|ecA efg|fef gfg|ecA GFE|\
+DFA dcd|ecA efg|faf gec|edc d3::\
+f3 gfg|ecA Ace|fef gfg|ecA GFE|\
+DFA dcd|ecA efg|fdf gfg|edc d3:|
+S:https://www.folktunefinder.com/tunes/111633
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

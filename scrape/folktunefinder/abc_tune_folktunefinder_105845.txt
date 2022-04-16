@@ -1,0 +1,20 @@
+X: 13
+T:The Doldrum
+M:6/8
+L:1/8
+Q:C3=120
+B:The Round Band Book of Playford
+K:C
+G | c2 c cBc | d2 d def | gec BAG | c2 c c2 G | \
+c2 c cBc | d2 d def | gec BAG | c2 c c2 :: \
+e/2f/2 | g2 g ece | d2 d BGB | g2 g ece | \
+d3-d2 e/2f/2 | g2 g ece | d2 d BGB | gec BAG | c3-c2 :|
+S:https://www.folktunefinder.com/tunes/105845
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:79
+T:Highway to Edinurgh
+O:scotland
+R:Jig
+N:"For the German flute"
+M:6/8
+K:Bm
+A|\
+FBB B2A| Bde f2b| afe (d/e/f).e| dBA A3|\
+FBB B2A| Bde fba| fd'b afe| dBB B2::
+f/a/|\
+"tr"b2d' afd| efa b2d'| afe (d/e/f/).e| (dB).A A2A|\
+(Bd).A (Bd).A| (Bd).e (fb).a| fd'b (af).e| dBB B2:|
+S:https://www.folktunefinder.com/tunes/100371
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

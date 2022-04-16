@@ -1,0 +1,29 @@
+X: 1
+T: Tralee Gaol
+M: 2/4
+L: 1/4
+R: polka
+K:EDor
+BE EF/2A/2|B3/2A/2 FA|BE EF/2E/2 |D3/2E/2 FA|
+BE EF/2A/2|B3/2A/2 F A |B A  d F  |E2 E2:|
+B e  e d/2e/2|f3/2e/2 d  B |A F  d F  |A/2G/2F/2E/2 D B, |
+B e  e d/2e/2|f3/2e/2 d B |B A  d F  |E2 E2:|
+T:Buffalo Girls
+M:4/4
+L:1/4
+K:G
+D|"G"GA Bc|"G"ed B3/2B/2|"D7"dc Ac|"C"ed "D7"d/2c/2B/2A/2|"G"GA Bc|
+"G"ed B3/2g/2|"C"fe "D7"cA|"G"G2 "D7"d2|"C"gf ef|"G"ed d3/2e/2|"D7"dc Ac|
+"G"ed de/2f/2|"C"gf ef|"G"ed d3/2e/2|"D7"dc AF|"G"G3:|
+S:https://www.folktunefinder.com/tunes/117613
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

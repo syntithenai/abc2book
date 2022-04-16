@@ -1,0 +1,23 @@
+X:4
+T:Allegro grazioso
+C:Schumann
+M:C
+L:1/8
+%%staves {1 (2 3)}
+K:G
+B2AB  G3A   |Bcd[eG] [A3F3-][B^G]|[c2A2][B^G][cA] AF=GA|[B2G2][A2F2] {G}G3B|
+V:2
+% this voice is not complete, but the measure must be respected
+G,2C2 xD2x  |D2x2x4 |A,2D2  C2x2 |x8   |
+V:3
+G,DCD B,D2F,|G,A,B,C D2CB, |A,EDE  CDB,C|D2[C2D,2] [B,3G,3]D|
+% --- vocal ---
+S:https://www.folktunefinder.com/tunes/103960
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/voices.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

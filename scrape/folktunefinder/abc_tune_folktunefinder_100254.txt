@@ -1,0 +1,30 @@
+X: 117
+T:Silver Spear, The
+S:John B. Walsh
+M:C|
+I:speed 300
+E:7
+Z:Steven Palm
+R:reel
+F:http://colas.org/pub/tunes/abc.tunes/xir
+N:Posted to the woodenflute mailing list January 2002
+K:D
+|:FA ~A2 BAFA|dfed Bcd2|FA ~A2 BAFA|dfed B2 A2|
+FA ~A2 BAFA|dfed Bcdf|~g3 e~f3 e|dfed B2 A2:|
+|:faaf bfaf|gfed Bcde|faaf bfaf|gfed B2 A2|
+faaf bfaf|gfed Bcde|~g3 e~f3 e|dfed B2 A2:|
+S:https://www.folktunefinder.com/tunes/100254
+S:http://colas.org/pub/tunes/abc.tunes/xir
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

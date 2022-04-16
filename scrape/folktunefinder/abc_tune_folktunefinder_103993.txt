@@ -1,0 +1,29 @@
+X:5
+T:Pas de tez
+B:Les p'tites danses d'Erezee
+O:Wallonie
+M:2/4
+R:quadrille (ete)
+L:1/8
+Q:C2=160
+K:C
+|: g>a f>g | e>f d>e | c>e d>B | c>G E>G |
+g>a f>g | e>f d>e | c>e d>B | c2 G z :|
+|: G>B d>B | f>e d>d | G>c e>c | g>f e>e |
+c>e g>e | c'>b a>g | a>c' b>d' | c'2 c' z :|
+K:Eb
+g>^f g>g | e'>d' e'>e' | f>=e f>f | d'>c' d'>d'|
+e>d e>g | f>e f>a | g>f e>d | c2 c z :|
+S:https://www.folktunefinder.com/tunes/103993
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/erezee.txt
+% Rhythm Quadrille (ete)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

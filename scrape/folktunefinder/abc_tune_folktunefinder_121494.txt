@@ -1,0 +1,21 @@
+X:5
+T:Gavotte 5
+C:Michael Praetorius
+M:C|
+L:1/4
+K:G
+g |: g f e d | c2 A g/f/ | e d d ^c |1 d3 g :|2 d3 _B/c/ |
+|: d c d e | =f>e d d | c A B/A/ B/c/ |
+d g f/g/ a/f/ |1 g3 _B/c/ :|2 g3 ||
+S:https://www.folktunefinder.com/tunes/121494
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/renaissance.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

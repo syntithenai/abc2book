@@ -1,0 +1,25 @@
+X:365
+T: Riding on a Load of Hay
+S: "Roche Collection of Traditional Irish Music" [II/61/343]
+L: 1/8
+M: 2/4
+R: polka
+K: Edor
+z | EF GA | Be e2 | dB AG | FD DF |
+EF GA | Be ef | ge ^dB | e2 e :|
+f | ge f^d | eB B^c | dB AG | FD Df |
+ge f^d | eB B^c | dB AF | E2 ef |
+ge f^d | eB B^c | dB Ad | FD AF |
+EG FA | GB eg | fd af | e2 e |]
+S:https://www.folktunefinder.com/tunes/107702
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

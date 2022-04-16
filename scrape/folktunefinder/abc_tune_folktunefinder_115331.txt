@@ -1,0 +1,29 @@
+X:18093
+T:Utpick Waltz
+R:Waltz
+S:The Waltz Book
+Z:Added by alf.warnock@nrc.ca
+M:3/4
+L:1/8
+K:G
+(3DEF|:G3ABd|AF2DED|EG2DC2|B,3ABd|
+e4-ef|ed3BA|Bd4e|d2g2f2|
+e4ef|ed3dA|B3d(3BAG|E4ED|
+C3DEG|DF2DED|EG2DC2|1 B,4(3DEF:|2 "Fine" B,3ABd||
+eB4A|B4Be|dB4^A|B4B^A|
+=A4AB|AG3ED|EG3GF|G2A2Bd|
+e4B2|B4Be|dB4c|B2B2^A2|
+A4-AB|AG3ED|EG4G|"DC al fine" FEDEFD|]
+S:https://www.folktunefinder.com/tunes/115331
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

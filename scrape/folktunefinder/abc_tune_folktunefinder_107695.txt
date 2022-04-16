@@ -1,0 +1,24 @@
+X:330
+T: Up in the Garret I Am
+S: "Roche Collection of Traditional Irish Music" [II/27/262]
+L: 1/8
+M: 9/8
+R: slip jig
+K: D
+c | d2B AFA AFA | d2B AGF E2c |
+d2B AFA AFA | d2B AFD D2 :|
+g | fed faf g2e | fed faf e2g |
+fed faf g2e | d2B AFD D2 :|
+S:https://www.folktunefinder.com/tunes/107695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 62
+T:Stack of Wheat
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+|:BA|GEDE GABG|(3ABA GA Bdef|gedB GABG|dBAG E2 BA|
+|GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEFG2:|
+|:(3Bcd|edBd edgd|edBde2 (3def|gedB GABG|1dBAG E2(3Bcd|
+|edBd edgd|edBd e2(3def|gedB GABG|AGEFG2:|
+|2dBAGE2BA|GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEFG2||
+S:https://www.folktunefinder.com/tunes/128941
+S:http://abc2win.com/milwsun1.abc
+S:http://www.abc2win.com/milwsun1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

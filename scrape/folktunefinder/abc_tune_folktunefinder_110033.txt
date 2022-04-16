@@ -1,0 +1,27 @@
+X:95
+T: Schloss in Oesterreich
+N: Q0024N
+O: Suedosteuropa, Rumaenien, Siebenbuergen
+N: Vgl. Q0024L und M
+R: Ballade, Gefangenschaft, Hinrichtung, Tod, Vergeltung
+M: 3/4
+L: 1/8
+K: D
+FFA | A2GFEG | G2F
+AAA | B2GF | F2E
+ABc | d3FGE | e3
+d | cBAF | G2F
+ABc | d3FGE | e3
+d | cBAF | G2F
+S:https://www.folktunefinder.com/tunes/110033
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, hinrichtung, tod, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X:12 
+T:Variation no. 12 
+C:J.S.Bach 
+M:3/4 
+L:1/16 
+Q:400 
+V:3 bass 
+K:G 
+[V:1] z2GF G2AB cBAG |dAB^c defg a2z2 |z2gf ed^cB AGFG | 
+[V:2] z6 z6 |z2DE D2=CB, A,B,CD |G,CB,A, G,F,E,D, ^C,2 z2| 
+[V:3] G,4 G,4 G,4 |F,4 F,4 F,4 |E,4 E,4 E,4 | 
+% 
+[V:1] G2FE D2z2 z4 |zd3- dBAG =FEDF |EGcd e2A4 A2-| 
+[V:2] z2D,E, F,G,A,B, CDED |D2EF G2z2 z4 |zG,3- G,B,CD E^FGE | 
+[V:3] D,D,,D,2 z2=C,B,, A,,2C,2 |B,,4 B,,4 B,,4 |C,4 C,4 C,4 | 
+% 
+[V:1] ABFG AGFe dcBA |G4 z4 z4 |zFGA B^cdf edcB |AGFE D2z2 z4 | 
+[V:2] FDA,G, F,2C4 C2- |CB,ED CDEF, G,A,B,C |D4 z4 z4 |zED^C B,A,G,E, F,G,A,B, | 
+[V:3] D,4 D,4 D,4 |G,3B,, E,D,C,E, D,C,B,,A,, |B,,2G,,2 z2G,F, G,2E,2 |F,2B,2 z2B,,^C, D,2B,,2 | 
+% 
+[V:1] z2^c2- cBAB cdef |g2GF G4- GBAG |FEFG FAGF E4- | 
+[V:2] ^CDEF G2z2 z4 |z2A,2-A,B,^CB, A,G,F,E, |D,2DE D4- DB,^CD | 
+[V:3] E,F,G,F, E,2F,2E,2D,2 |^C,D,E,D, C,2E,2C,2A,,2 |D,4 zD,E,F, G,A,G,F, | 
+% 
+[V:1] E2d2^c2B2A2f2 |G6 F2 EAG2- |G2FE Fd2^c d2z2 :| 
+[V:2] EFED E^CDE F4- |F2G,2A,2B,2^C2E,2 |D6E2 F^CD2 :| 
+[V:3] G,2G,,2 zE,F,G, A,F,E,D, |B,B,,E,D, ^C,A,,D,G, A,E,C,A,, |D,E,D,^C, D,2A,,2 D,,2z2 :| 
+% 
+[V:1] z12 |z2GF G2AB cBAG |g4-g^fag fge2 | 
+[V:2] z2DE D2=CB, A,B,CD |D,4- D,E,C,D, E,D,=F,2 |=F,E,-E,/F,/E,/^D,/ E,2C2 z2E,2| 
+[V:3] D,4D,4=C,4|B,,2C,2B,,2\A,,2 G,,2A,,B,, |C,2B,,2C,2E,2A,,2C,2| 
+% 
+[V:1] ef-f/^e/f/=g/ f2A2 z2f2|gfga gf=e=d =cBAG|F12-| 
+[V:2] ^D,E,D,^C, D,E,F,G, A,B,^C^D |E12-|E2E^D E2E2 E2D^C| 
+[V:3] B,,4 z8|z2E,2F,2G,2A,2B,2|=CDCB, CB,A,G, A,F,G,A,| 
+% 
+[V:1] F2FG F2F2 F2GA |G4z4E4-|EFGE FG^GA Bcde| 
+[V:2] ^D4z4F4-|FE^DF E=D^C=C B,A,G,F, |G,2z2 z4z4| 
+[V:3] B,CB,A, B,F,^D,F, B,,D,^C,B,, |E,=C,B,,A,, G,,B,,E,^D, E,2=D,2|C,2C2 zE,D,C, D,C,B,,A,,| 
+% 
+[V:1] d2z2 z4z4|zCDE D_E^F=G FGAB |A12-| 
+[V:2] zA^GF G=FED EDCB,|C12-|C2G2F2E2 DB,CA,| 
+[V:3] B,,2B,2 zD,C,B,, C,B,,A,,^G,, |A,,2A,2 zB,A,=G, A,G,F,=E,|F,E,D,^C, D,=C,B,,A,, B,,A,,G,,F,,| 
+% 
+[V:1] A2D2E2F2 GBAc|B2A2B2c2 Pd3e|d4- dBcd efga|bgdB G2z2 z4 :| 
+[V:2] B,2C2B,2A,2 MG,3F,|G,4- G,B,A,G, F,E,D,C,|B,,D,G,B, D2G,2- G,A,F,2|G,4 z4z4 :| 
+[V:3] G,,A,G,F, G,F,E,^D, E,4-|E,=D,C,E, D,6C,2|B,,2z2 z2E,2C,2D,2|G,,4-G,,B,,D,F, G,4 :|
+S:https://www.folktunefinder.com/tunes/124444
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

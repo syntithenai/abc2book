@@ -1,0 +1,21 @@
+X:5
+T:Walske
+C:Bert Van Vreckem, december 1997
+R:Wals
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:3/4
+L:1/4
+K:C
+"C"c2 c|"Em"B2 B|"F"A A/c/ B/A/|"C"G E E|"F"F F/A/ G/F/|"C"E E/G/ F/E/|[1 "G"D D/C/ D/E/|D2 G:|[2 "G"D E D|"C"C2 C/D/|
+E2 "D"F|"Em"G2 c/B/|"F"A2 c/A/|"C"G2 G|"F"A>G F/A/|"C"G E E|"F"F F/G/ F/E/|"G"D2 G|
+"C"c2 c|"Em"B2 B|"F"A A/c/ B/A/|"C"G E E|"F"F F/A/ G/F/|"C"E E/G/ F/E/|"G"D E D|"C"C3|]
+S:https://www.folktunefinder.com/tunes/109682
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/bert.abc
+% Rhythm Wals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

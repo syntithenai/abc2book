@@ -1,0 +1,26 @@
+X:7386
+T:Hunsup,A.(Hunt's up). HA11
+T:Hunsup Thro' The Wood. HA11
+M:6/4
+L:1/4
+Q:160
+S:Henry Atkinson MS,Hartburn,Northumberland,94/95 transcribed John Stokoe 1883
+N:Clef and key signature missing; key assumed to be G major but G minor
+N:possible.  1st two notes of bars 5, 12 missing, also 1st note of bar
+N:9.  2nd note of bar 12 is dotted, as dot is visible
+Z:vmp.Cherri Graebe
+K:G major
+G2dB>cd|G2dB>cd|c>dcB>cB|A>BAF>ED|G2dB>cd|G2dB>cd|!
+cgcBgB|A3A2A|c>deedc|B>cddcB|(AB)GAF2|GA3G2|]
+S:https://www.folktunefinder.com/tunes/108893
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

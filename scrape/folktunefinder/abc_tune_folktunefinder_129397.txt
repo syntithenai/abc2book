@@ -1,0 +1,50 @@
+X:1
+T:Auerhahn Laendler
+C:traditionell
+R:
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:im buch in C, 4. teil in F, einstimmig mit harmonie-buchstaben, Seite 226
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+GAB |\
+c6 | e6 | g3 B B2 | c2 z2 ||
+|: G2 |\
+Gg g3 e | e3 c c2 | Ge eg ce | f2 B2 B2 |\
+Gg g3 f | f3 B B2 | Gf fg df | e2 c2c2 |
+Gg g3 e | e3 c c2 | cC C3 A | A3 F F2 |\
+FGBFGB | EGce gc' | bagfed |1 c2 z2:|\
+                           [2 c2 z ||
+|: G^FG |\
+.A.G.E.A.G.E | .A.G.E.A.G.E | F2 zG B2 | F2 zG B2 |\
+.A.G.F.A.G.F | .A.G.F.A.G.F | E2 zG c2 | E2 zG c2 |
+.A.G.E.A.G.E | .A.G.E.A.G.E | F2 zG B2 | F2 zG B2 |\
+.A.G.F.A.G.F | .A.G.F.A.G.B, | C2 B,CEG | c2z :|
+|: cBA |\
+GBdfed | cedcBA | (GB) (BG) (BG) | (Gc) (cG) (cG) |\
+GBdfed | cedcBA | (GB) (BG) (BG) | c2 z :|
+K:F
+CC |\
+F3 Acf | c4 CC | F2 E2 D2 | E4 CC |\
+E3 GBe | c4 CC | E2 D2 E2 | F4 :|
+c2 | f2 z ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/129397
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/auerhahn_laendler.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

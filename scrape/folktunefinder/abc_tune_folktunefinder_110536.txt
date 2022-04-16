@@ -1,0 +1,27 @@
+X:74
+T:WRIGHT'S HORNPIPE
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:D
+P:1
+D2 d4 cB AGFE | efge fgaf c2 A2 |\
+D2 d2 edcB FAc F| efge fgaf d2 D2 ||
+P:2
+F2 D2 A2 E2 C2 A,2 | DEFD CDEB, C2 A,2 |\
+DEFG A2 d2 F2 A2 | BAGF EFGE F2 D2 ||
+P:3
+f2 ef gfed cdec | Bede BeBe c2 A2 |\
+d2 A2 B2 G2 A2 F2| f2 ef gfec d2 D2 |]
+S:https://www.folktunefinder.com/tunes/110536
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/Cheshire.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

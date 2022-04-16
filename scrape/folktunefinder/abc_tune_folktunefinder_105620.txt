@@ -1,0 +1,26 @@
+X:65
+T:Ower the Border
+S:Northumbrian Minstrelsy
+M:9/8
+L:1/8
+K:G
+"tr"B2G B/A/B/c/d/e/ gdB | dgf dgB de/f/g |
+"tr"B2G B/A/B/c/d/e/ gdB | c>dc gec "tr"e2g ::
+fdB de/f/g/f/ g/f/e/d/f | dgf dgB de/f/g |
+fdB de/f/g/f/ g/f/e/d/B | c>dc g/f/e/d/c "tr"e2g ::
+G>AB/c/ dgf dgB | dgf dgB de/f/g |
+G>AB/c/ dgf dgB | c>dc g/f/e/d/c "tr"e2g ::
+"tr"f2d dB/c/d dB/c/d | gB/c/d gB/c/d fdg |
+"tr"f2d dB/c/d gdB | c>dc g/f/e/d/c "tr"e2g :|
+S:https://www.folktunefinder.com/tunes/105620
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Ower_the_Border.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

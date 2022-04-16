@@ -1,0 +1,29 @@
+X: 32
+T:La Fougre
+R:---
+C:Bretagne
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:Gmaj
+%%staves [1 2]
+V:1
+GA B2G2AA|GA B2G2A2| GA B2G2A2 ||
+"aoubl ou tripl"B2BA Bc d2|B2BA Bc breathd2||[P:Intro]B2Bd cB A2|AB cB A2G2|B2Bd cB A2|AB cB A2G2|]
+V:2
+GD G2E2DD | GD G2E2D2 | GD G2E2D2 ||
+G2GD GAB2 | G2GD GAB2 || G2GB AG D2 | DE FG FD G2 | G2GB AG D2 | DE FG FD G2 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/130038
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

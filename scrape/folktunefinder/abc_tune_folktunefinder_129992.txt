@@ -1,0 +1,31 @@
+X:31
+T:La Fougre
+R:---
+C:Bretagne
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+K:C
+%%staves [1 2]
+V:1
+cd e2c2dd|cd e2c2d2| cd e2c2d2 ||
+"doubl ou tripl"e2ed ef g2|e2ed ef !breath!g2||[P:Intro]e2eg fe d2|de fe d2c2|e2eg fe d2|de fe d2c2H|]
+V:2
+cG c2A2GG | cG c2A2G2 | cG c2A2G2 ||
+c2cG cde2 | c2cG cde2 || c2ce dc G2 | GA Bc BG c2 | c2ce dc G2 | GA Bc BG c2 |]
+%%text Galoubet en la
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/129992
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

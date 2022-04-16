@@ -1,0 +1,28 @@
+X: 45
+T: Rickett's Hornpipe
+C: R-21
+C: American
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+(3ABc| "D"dcdA FAdf| "A"edcB A2g2| "D"fgaf "G"gfed| "A"edcB Agfe|
+       "D"dcdA FAdf| "A"edcB A2g2| "D"fafd "A"egec| "D"d2f2 d2:|
+|:\
+fg| "D"afaf d2ga| "G"bgbg "A"e2fg| "D"afba "G"gfed| "A"edcB Agfe|
+    "D"dcdA FAdf| "A"edcB A2g2| "D"fafd "A"egec| "D"d2f2 d2:|
+%%text 9/1/98.  Also known as "Manchester Hornpipe".  Note: this is a reel, not a hornpipe.
+S:https://www.folktunefinder.com/tunes/108096
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_1_47.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

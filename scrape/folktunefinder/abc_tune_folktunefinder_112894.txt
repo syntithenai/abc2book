@@ -1,0 +1,32 @@
+X:467
+T: Dawo ge
+N: C1302
+O: China, .........
+S: Jiang Mindun, .............. S. 55]
+N: Das Original enthlt ein 1/32 in Takt 10, und in der Rhythmus-
+N: Notation (beide letzten Takte), die hier bergangen werden.
+N: Takt 3 bis Ende wird wiederholt. Die Klammer 1-6, 7 am Ende wurde
+N: gespart. Die Notation geht gleich in Nr. 7 ber!!  Die Phrasen-
+N: einteilung erfolgte nach musikalischen Kriterien, nach funktionalen
+R: Haozi]
+M: 2/4
+L: 1/16
+K: C
+eeedcc2A | c3AG2e2
+geedccA2 | c3AG2cA
+ccA2eedA | c3AG2ed
+geedAcA2 | cccdedee
+AcA2ged2 | d4dec2
+eeedc2d2 | c3AG2e2
+cccdedec | d4c'c'c'2 | c'c'c'6
+S:https://www.folktunefinder.com/tunes/112894
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

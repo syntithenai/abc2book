@@ -1,0 +1,28 @@
+X: 9
+T:The Chaco Waltz
+% Nottingham Music Database
+S:Mick Peat
+M:3/4
+L:1/4
+K:Bb
+|"Gm"[G2B2][Ac]|[Bd][Ac][GB]|"D"[A/2c/2][A/2c/2][Ac][Bd]|[c3e3]|[^F2A2][GB]|
+[Ac][GB][FA]|"Gm"[G/2B/2][G/2B/2][GB][Ac]|[B3d3]|"Gm"[G2B2][Ac]|\
+[Bd][G/2B/2][A/2c/2][Bd]|
+"Cm"[c2e2][df]|[e3g3]|"D"[e/2g/2][d/2f/2][df][df]|[cf][ce][cf]|"Gm"[B3g3]|\
+[B3g3]|
+"Cm"[c2e2][df]|[eg][df][ce]|"Gm"[B2d2][ce]|[df][ce][Bd]|"D"[A2c2][Bd]|
+[ce][Bd][Ac]|"Gm"[G2B2][Ac]|"G7"[=B3d3]|\
+K:G
+"C"[c2e2][df]|[eg][df][ce']|
+"G"[B2d2][ce]|"E"[df][ce][Bd]|"Am"[A2c2][Bd]|"D"[c2e2][cf]|"G"[B3g3]|[B3g3]:|
+S:https://www.folktunefinder.com/tunes/114267
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

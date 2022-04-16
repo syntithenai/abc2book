@@ -1,0 +1,20 @@
+X: 22
+T: Dusty Bob's Jig
+M: 6/8
+R: jig
+K: G
+D| "G"G2G GAB| "D7"A2A ABc| "G"d2B "C"c2A| "G"B2G "D7"AFE|
+   "G(Em)"G2G GAB| "D"A2A ABc| "G"dBG "D7"cAF| "G"G3 G2:|
+|:d| "G"g2g gag| "B7 (Bm)"f2f fgf| "C"e2d efg| "D7 (C)"a2g "D7"fed|
+|1"G"g2g gag| "B7"f2f fgf| "C"efg "D7"fga| "G"g3 g2:|
+|2"G"g3 "Em"Bcd| "Am"f3 ABc| "G"dcB "D7"AGF| "G"G3 G2|]
+S:https://www.folktunefinder.com/tunes/106932
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/alljigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

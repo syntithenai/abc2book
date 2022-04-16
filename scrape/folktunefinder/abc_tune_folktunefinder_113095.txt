@@ -1,0 +1,27 @@
+X: 86
+T: Walker Street Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:(3DEF|\
+"G"G2BG dGBG|"Am"ABcd "D"~cBAG|"G"Bdgd "Em"egdB|"Am"~cBAG "D"FA (3DEF|
+"G"G2BG dGBG|"Am"ABcd ~cBAG|"Em"Bdgd "C"egdB|"D"(3cBA FA "G"G2:|
+|:ef|\
+"G"~g2dg Bgdg|"C"gabg "D"~agef|"G"~g2dg "Em"BgdB|"Am"~cBAG "D"FAef|
+"G"~g2dg Bgdg|"Em"gabg ~agef|"C"gfga ~gfed|"D"egfa "G"g2:|
+S:https://www.folktunefinder.com/tunes/113095
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

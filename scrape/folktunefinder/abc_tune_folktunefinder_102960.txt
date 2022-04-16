@@ -1,0 +1,29 @@
+X: 10
+T: Miss Sayer's Allemande
+C: Thos. Budd. 1781
+N: performance edition, checked and verified
+Z: Ishmael the Fiddler, 2002.xi.24
+M:2/4
+L:1/8
+Q:1/4=120
+S:Playford
+O:Manuscript
+A:English
+K:F
+c|[ac][ac][ac][ac]|[a3c3] b|agfe |f/2e/2f/2g/2 f>c|\
+[ac][ac][ac][ac]|[a3c3] b|agfe|[f3A3]:|
+|:(A2 F)C|(B2 G)C|(cB/2c/2 d)g| f2 e2| (A2 F)C|(B2 G)B|AGFE| F4:|
+S:https://www.folktunefinder.com/tunes/102960
+S:http://web.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/~ijs/abc/countrydance.abc
+S:http://www.mit.edu/%7Eijs/abc/countrydance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

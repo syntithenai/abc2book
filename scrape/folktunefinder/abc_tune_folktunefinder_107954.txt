@@ -1,0 +1,27 @@
+X: 6
+T:Dinah
+% Nottingham Music Database
+S:Oklahoma, via EF
+M:4/4
+L:1/4
+K:A
+P:A
+e|"A"aa "D"a/2b/2a/2f/2|"A/c"ec -"E7/b"ce|"A"aa a/2b/2a/2e/2|\
+"D"fe/2f/2 -"E7"f/2e/2f/2g/2|
+"A"aa a/2b/2a/2f/2|"A"ec c/2B/2A|"B7"B/2A/2B/2A/2 "E7"cB|"A"A3:|
+P:B
+e|"A"Ac A/2B/2c/2d/2|"A"ef/2e/2 c/2B/2A|"A"Ac A/2B/2c/2d/2|"D"AF -"E7"FE|
+"A"Ac A/2B/2c/2d/2|"A"ef/2e/2 c/2B/2A|"B7"B/2A/2B/2A/2 "E7"cB|"A"A3:|
+S:https://www.folktunefinder.com/tunes/107954
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

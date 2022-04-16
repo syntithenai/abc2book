@@ -1,0 +1,29 @@
+X:565
+T:Humours of Ballyloughlin
+R:Jig
+S:Matt Molloy
+Z:Modified by Alf Warnock to agree more with the Black Book
+M:6/8
+L:1/8
+Q:3/8=120
+K:DMix
+~A3 AGE|GED D2B|cBc ded|cAG FED|
+~A3 AGE|~G3 cGE|~D3 DFA|~D3 D3:|
+|:cBc cAB|cAG ABc|~d3 dfd|dAF DFA|
+cBc dcB|cAG FGE|~D3 DFA|~D3 D3:|
+|:fdd gdd|fdd gdd|^cde ged|^cde ~g3|
+fdd gdd|fdd gdd|^cde gag|ed^c d3:|
+|:A2D AAG|~F3 GED|~E3 ~E3|~E3 EFG|
+~A3 dAG|~F3 GEA|~D3 DFA|~D3 D3:|]
+S:https://www.folktunefinder.com/tunes/125405
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 84
+T:Spike Island Lasses
+Z: id:dc-reel-316
+M:C
+L:1/8
+K:D Mixolydian
+d|cAGB ADDE|FDAD FGAd|cAGB AGFG|[1 Adde fde:|[2 Add^c d3|]!
+e|f2df efge|fded cAA2|f2df edcA|Add^c defg|!
+agfa gfe^c|dfed cAAG|Add^c defd|Adde fde|]!
+d|cAGB A3d|BAGB A2dB|cAGB AGFG|Adde fded|!
+cAGB A3d|BAGB A2dB|cAGB ADD2|Add^c d3|]!
+e|fdad fdad|fdaf gee2|fdad fdad|fgfe dcA2|!
+defg a3f|bfaf gfeg|fedf edcA|d^cde fde|]!
+S:https://www.folktunefinder.com/tunes/119231
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BanishMisfortune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

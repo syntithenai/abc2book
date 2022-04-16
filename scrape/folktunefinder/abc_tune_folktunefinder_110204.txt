@@ -1,0 +1,24 @@
+X: 1
+T: Al Tira
+M: 4/4
+L: 1/8
+C: E. Harussi and M. Zeira
+S: V. Pasternak: Great Songs of Israel
+Z: Seymour.Shlien:crc.doc.c
+K: Em
+| "Em" E2 D/2=C/2D EE D/2=C/2D | EG "D" FE/2D/2 "Em" E4 | E2 D/2=C/2D EE D/2C/2D |"Em" EG "D" FE/2D/2 E4 |
+| "G" G B2 B "Am" A/2B/2 c2 c | "G" BG GG/2B/2 "D" A D2 D |"G" G B2 B "Am" A/2B/2 c2 c | "G" BA/2G/2 "B7" AG/2F/2 "Em" E2 E2 |
+| "C" E e2 e "D" d2 c/2B/2 c | "D7" A d2 c "G" B2 B2 | "C" E e2 e "D" d2 c/2B/2c | "D7" A d2 c "B" B2 B2 |
+| "Em" GA BG "Am" AB/2c/2 BA |"Em" G2 "D" A2 "G" B4 | "Em" GA BG "Am" AB/2c/2 BA/2A/2 |"Em" GG "Dm" =F/2E/2F "E" E4 |
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110204
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:475
+T: Cheshui Haozi
+N: C0000
+O: Asien, Ostasien, China, Zhejiang
+S: Haozi - Artikel, Essen 1991]
+N: Die Vorlage enthlt 9 Phrasen. Die letzten beiden werden wiederholt.
+N: Bis auf die letzten drei Phrasen wurde die Einteilung hier nach
+N: musikalischen Kriterien verndert. Die Struktur tritt so deutlicher
+N: und unabhngig von den Taktwechseln hervor. Auerdem lt sich so
+N: eine sptere automatische Textverteilung leichter bewerkstelligen.
+R: Haozi zum Wassersch\^ipfen]
+M: 2/4
+L: 1/16
+K: G
+d2d6 | d2BAG4 | B2d2B2d2 | G4A4 | G8
+G6A2 | B2d2B2d2 | d2B2A2GE
+G6A2B2d2 | G4A4 | G8
+G6A2 | B2d2B2d2 | d2B2A2GE
+G6A2B2d2 | G4A4 | G8
+G6A2 | B2d2B2d2B2d2 | d2B2A2GE
+G6A2B2d2 | G4A4 | G8
+G6A2 | B2d2B2d2 | d2B2A2GE
+G6A2B2d2 | B4A4 | G8
+G6A2 | B3dB2d2B2ee | d2B2A2GE
+G6A2 | B2d2B2d2 | G4A4 | G8
+G6A2 | B2d2B2d2 | B2d2B2d2 | B2d2B2e2 | d2B2A2GE
+G6A2 | B2d2B2d2 | G4A4 | G8
+B2A2B4G2A2 | B2A2G4G2A2 | B2A2B2A2G4
+B2A2B4G4 | G2A2B2A2G4 | G2A2B2A2 | B2A2G4
+B2A2B4G4 | B2A2B4G4 | G2A2B2A2B2A2 | G12
+S:https://www.folktunefinder.com/tunes/112902
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi zum wassersch%C3%AEpfen]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

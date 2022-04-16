@@ -1,0 +1,25 @@
+X:385
+T:Westering Home
+R:jig
+S:version 1 from Marco Pollier and Kevin Ryan
+D:Brian Rooney: The Godfather
+Z:hn-jig-385
+M:6/8
+L:1/8
+K:D
+ABA AFG | Ade f2d | fge fed | fge edB |
+ABA AFG | Ade f2g | afd efe |1 d3 dcB :|2 d3 def ||
+|: ~g3 bag | ~f3 agf | ~e3 ede | fge edB |
+ABA AFG | Ade f2g | afd efe |1 d3 def :|2 d3 dcB ||
+S:https://www.folktunefinder.com/tunes/113813
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

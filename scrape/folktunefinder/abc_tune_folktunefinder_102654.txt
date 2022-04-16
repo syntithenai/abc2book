@@ -1,0 +1,53 @@
+X: 3
+T:Beskidski
+O:russia
+C:- Rusl -
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+%%continueall 1
+M:2/4
+L:1/8
+Q:1/4=130
+K:Cmaj
+V:1
+"C" ce gg |aa gg |"G" ff ee |1 "G" dd g2 :|2
+"G" dd "C" c2 |]"G" d2 d2 |d4 |||:"C" ee eg |
+ee eg |ee eg |ed c2 :||:
+K:Bbmaj
+"Bb" dd df |dd df |dd df |dc B2 :|
+K:Gm
+"Gm" G3/2 A/2BA |cB AG |"D" A2 D2 |"G" GG G2 |]
+"Gm" d2 d2 |"D" dc2 A|"Gm" d2 d2 |"D" dc2 A |:
+"Gm" G3/2 A/2BA |cB AG |"D" A2 D2 |1 "G" GG2 G:|2
+G "G" GG2 |||:"Gm" GA Bd |cB AG |"D" B2 A2 |
+|1 e2 d2 :|2 "Gm" AA G2 |]
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+K:Gmaj
+"D" d2 c2 B2 A2 |||:"D" d2 c2 B2 A2 |"G" Bd cB AG FG |DG FG AG FG |
+DG FG AB cB |Bd cB AG FG :|"D" ed2 e"G" d cB2 |]
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/4
+"D" dd2 c"G" B2 A2 G4 |"D" AA2 GF2 E2 D4 |:
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+"D" DE FG |AB c2 |ed2 e|"G" d2 c2 |
+B4 :|
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102654
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

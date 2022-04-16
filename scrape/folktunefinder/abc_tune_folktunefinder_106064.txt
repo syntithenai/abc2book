@@ -1,0 +1,26 @@
+X:50
+T:Irish Lament for Martyred Soggarth Aroon
+M:4/4
+L:1/8
+S:James Whiteside manuscript
+R:Air
+K:F
+"Adagio con expressione"(3DEF|G2 A>G G2 (6F/2G/2F/2E/2F/2A/2|G2 (3FDC D2 (3D^CD|
+B/2>c/2B/2A/2 B>d c/2d/2c/2=B/2 c>_e|d6 G/2A/2B/2c/2|
+d>=e (3f/2g/2f/2e d>c A>G|G2 A>G F2 G>A|B2 (3AGA G2 (3FDC|
+D6 (3DEF|G2 A>G G2 (6F/2G/2F/2E/2F/2A/2|G2 (3FDC D2 (3D^CD|
+B/2>c/2B/2A/2 Bd c/2d/2c/2=B/2 c_e|d6 (3d=ef|
+g/2a/2g/2f/2 g/2a/2g/2f/2 d>c A>G|G2 A>G F2 d>c|
+B2 (3cAG G/2A/2G/2F/2 (3DE^F|G6||
+S:https://www.folktunefinder.com/tunes/106064
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

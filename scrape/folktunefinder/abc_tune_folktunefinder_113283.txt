@@ -1,0 +1,34 @@
+X: 4
+T:Kansas City  (R-152)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+%%textfont Times-Roman 10
+%%text The first time, play quarter notes instead of the pairs of eighth notes in the first measure.  Make them loud.
+cB|"A"AAcB AAcB | Aceg aega | "E7"bgeg fecd | ecef ecBc|
+"A"A2cB A2cB | Aceg aega |"E7"bgeg fecd |"A"ecB2 A2 :|
+|: cd| \
+"A"e3e e3=g | fecd ecBA | "G"B3c B2=g2- | =gfeg fecA |
+"A"e3f e2e=g | fecd ecBA | "E7"Bege fefg | "A"ga2g a2 :|
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%scale .7
+%%staffwidth     15.50cm
+%%textfont       Times-Roman 10
+S:https://www.folktunefinder.com/tunes/113283
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

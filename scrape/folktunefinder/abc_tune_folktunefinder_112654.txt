@@ -1,0 +1,28 @@
+X:227
+T: Zuo lou ge
+N: C0361
+O: China,Zhejiang, Daishan
+S: III, 634]
+N: Die Fuellwoerter symbolisieren Lastentragen.
+N: Vereinzelt Verzierungen, Glissando.
+R: Haozi, Tiaodan haozi. Tiaoyan shenghuo]
+M: 2/4
+L: 1/16
+K: A
+cccef2ec | e2ecB2zc | B2F2B2F2
+AcBAB2AF | A2E2F3B | A2F2A2F2
+C2CEF3B | AcBAF2F2
+c2B2B2AF | A4E2CE | F4
+z2GG | F2c2F2c2 | A2F2A2F2 | c4BcBA | F8
+S:https://www.folktunefinder.com/tunes/112654
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, tiaodan haozi. tiaoyan shenghuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

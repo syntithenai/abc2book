@@ -1,0 +1,25 @@
+X:102
+T: Der geraechte Bruder
+N: Q0028
+O: Mitteleuropa, Deutschland (BRD) , Niederrhein, Grevenbroich, Wickrath
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+R: Ballade, Mord, Vergeltung
+M: 6/8
+L: 1/16
+K: G
+D2 | G4G2B2G2B2 | d4c2B4
+d2 | e2g2e2d2B2GB | d4c2B4z2
+d3BdBA4GB | d3BdBA4
+GB | d3eddG2B2d2 | d2c2A2G4
+S:https://www.folktunefinder.com/tunes/110040
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, mord, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

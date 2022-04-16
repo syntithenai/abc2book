@@ -1,0 +1,60 @@
+X: 68
+T:Rask p\aa fotom
+C:Egil Storbekken
+O:Norway
+R:Polkatakt
+M:4/4
+L:1/8
+Q:1/4=200
+N:Posted to the woodenflute mailing list September 2002
+Z:Frank Nordberg
+K:F
+V:1
+FA|:"F"c2 Ac|"F"f2 "Bb"ed|"F"dc/c/ cf|"F"A2 Ac|
+V:2
+FF|:A2 FA|A2 B2|BA/A/ AA|F2 FA|
+%
+V:1
+"C7"cB/B/ Bd|"C7"G2 GB|"F"BA/A/ Ac|"F"F2 FA|"F"c2 Ac|
+V:2
+AG/G/ GB|E2 C2|FF/F/ FA|F2 FF|A2 FA|
+%
+V:1
+"F"f2 "Bb"ed|"F"dc/c/ cf|"F"A2 AB|"F"c2 Ac|"C7"Bc/B/ AG|
+V:2
+A2 B2|BA/A/ AA|F2 FG|A2 FA|G2 CE|
+%
+V:1
+"F"FF/F/ FF|[1"F"F2 FA :|[2"F"F2 fe|:"Bb"fd/d/ dd|"Bb"d2 z2|
+V:2
+FF/F/ FF|[1F2 FF:|[2F2 AA|:BB/B/ BB|B2 FE|
+%
+V:1
+"Bb"z4|"Bb"z2 B2|"Bb"F2 B2|"Bb"d2 f2|"F"dc/c/ cc|
+V:2
+FD/D/ DD|D2 D2|D2 D2|F2 D2|FA/A/ AA|
+%
+V:1
+"F"c2 BA|"C7"BG/G/ GG|"C7"G2 z2|"C7"z4|[1"C7"z2 AG|
+V:2
+A2 F2|GE/E/ EE|E2 BA|BG/G/ GG|[1G2 E2|
+%
+V:1
+F3G|"F"AB cd|"F"c4-|"F"c2 fe:|[2"F"z2 B2|
+V:2
+F3E|FG AB|A4-|A2 AA:|[2G2 E2|
+%
+V:1
+"F"A3F|"C7"G3E|"F"FF/F/ FF|"F"F2|]
+V:2
+F3C|E3C|FF/F/ FF|F2|]
+S:https://www.folktunefinder.com/tunes/117465
+S:http://www.lesession.co.uk/music/wf_update3.abc
+% Rhythm Polkatakt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:1
+T:Engelska
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 300)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+N:Svenska Ltar, Band 18 nr 300
+A: Sverige, Blekinge, Nttraby
+R:Engelska
+C:Alfred Petersson
+M:2/4
+L:1/16
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:G
+uBc|d2d2 b4|d2d2 g4|B2B2 (de)dB|c2A2 B2GB|
+d2d2 b4|d2d2 g4|B2B2 dedB|c2A2 G2:|
+K:D
+|:f2|fdAF DFAd|f2ef (gf)ed|(ed)cB A2a2|(ag)eg f2d2|
+fdAF DFAd|f2ef (gf)ed|(ed)cB A2a2|(ag)ec d2:|
+S:https://www.folktunefinder.com/tunes/102893
+S:http://www.folkwiki.se/pub/cache/Engelska_cd6b5e.latin.abc
+S:http://www.folkwiki.se/pub/cache/Engelska_cd6b5e.abc
+% Rhythm Engelska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

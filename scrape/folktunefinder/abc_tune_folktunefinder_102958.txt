@@ -1,0 +1,25 @@
+X: 8
+T:Galopede
+N: Three part version, with chords; ijs 2001.xii.22
+M:4/4
+K:G
+L:1/8
+dc|:"G"B2 Bc "D"A2 AB|"G"G2 G2 G2 AB|"C"cBcd "Am"edcB|"D"A2 A2 A2 dc|
+"G"B2 Bc "D"A2 AB|"Em"G2 G2 "G"G2 AB|"Am"cBAG "D"FGAF|"G"G2 G2 G2 dc:|
+"G"B2 gf "C"e2 ed|"Am7"dcBc "D"A2 dc|"Em"B2 gf "C"edcB|"D"A2 A2 A2 dc|
+"Em"B2gf "C"e2 ed|"Am7"dcBc A2 GA|"G"BdcB "D"AcBA |"G"G2 G2 G2 Bc|
+"G"d2d2d2g2|"G"d2d2d2g2|"G"d2 d2 "C"edcB|"D"A2A2A2 Bc|
+"G"d2d2d2g2|"G"d2d2d2g2|"C"edcB "D"dcBA|"G"G2 G2 G2||
+S:https://www.folktunefinder.com/tunes/102958
+S:http://web.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/~ijs/abc/countrydance.abc
+S:http://www.mit.edu/%7Eijs/abc/countrydance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

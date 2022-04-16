@@ -1,0 +1,27 @@
+X: 93
+T:Hart's Scotch Set,#3. JNu.53
+M:6/8
+L:1/8
+Q:100
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:East Lancashire
+Z:vmp.Manchester Morris Men
+K:F
+F|A2c c2d|c2f gfd|c2A BAF|A3 G2F|!
+A2c c2d|c2f gfd|cfa gfg|f3-f2||!
+c||f2c dcA|ddc d2c|"bar not in MS"f2d e2f|g3-g2e|!
+ffa ddf|ccf A2c|B2A cBG|F3-F2||!
+A|d2A A^GA|f2d d^cd|a2a agg|f3-e2A|!
+eef ^cce|AA^c e2g|fed df^g|a3"DC" a2|]
+S:https://www.folktunefinder.com/tunes/127017
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

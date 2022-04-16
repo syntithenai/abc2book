@@ -1,0 +1,39 @@
+X:105
+T:Renata
+%%MIDI program 50
+%%MIDI gchord cHIg
+%%MIDI chordprog 92
+C:Colin Hume, 1997
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=80
+N:For Renata Hume
+K:Bm
+P:A
+[| "Bm7"D2 EF | "Em"d3c | "F#m"BA F3/2E/2 | "Bm"F4 |\
+"F#m"A2 Bc | "Bm"cB d3/2F/2 | "Em"Gd c3/2B/2 | "F#7"c4 |
+%%vskip 0
+P:B
+"G"B2 cd | "D/F#"AF D2 | "Em"G2 AB | "Bm"FD B,2 |\
+"G"G,2 A,B, | "D"A,2 D2 | "A7"E2 FE | "D"D4 |
+%%vskip 0
+P:C
+"D"d2 ef | "A"ec A2 | "G"B2 cd | "D"AF D2 |\
+"Bm"d2 ef | "G"g3f | "A"e2 de | "F#7/A#"f4 |
+%%vskip 0
+P:D
+"D"f2 ef | "F#m"a3f | "Em"ed B3/2G/2 | "A7"A2 FE |\
+"Bm"D2 EF | "Em"d2 cB | "F#7"^A3B | "Bm"B4 |]
+S:https://www.folktunefinder.com/tunes/110152
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

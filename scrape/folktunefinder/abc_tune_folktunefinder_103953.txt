@@ -1,0 +1,40 @@
+X:7688
+T:Allegretto
+C:Joseph K\"uffner
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/kuffner-joseph/kuffner-algrt01/kuffner-algrt01-gtr1.abc
+V:1 program 1 24 up transpose -12
+V:2 program 1 24 down merge transpose -12
+M:C
+L:1/4
+K:C
+V:1
+zGce|zGce|zfed|cBAG|zGce|zGce|zfdB|c2z2:|
+V:2
+C4|E4|D4-|D4|C4|E4|D4|z2C2:|
+%
+V:1
+|:zf2B|zgec|zf2B|zgec|zAc^f|zGBg|zez^f|zgfd|
+V:2
+|:D2G,2|C3z|D2G,2|C3z|D2G,2|C2D2|G3z|D2G,2|
+%
+V:1
+zGce|zGce|zfed|cBAG|zGce|zGce|zfdB|c3z:|
+V:2
+C4|E4|D4-|D4|C4|E4|D4|E2Cz:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/103953
+S:http://abc.musicaviva.com/tunes/kuffner-joseph/kuffner-algrt01/kuffner-algrt01-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/kuffner-joseph/kuffner-algrt01/kuffner-algrt01-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/kuffner-joseph/kuffner-algrt01/kuffner-algrt01-gtr1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

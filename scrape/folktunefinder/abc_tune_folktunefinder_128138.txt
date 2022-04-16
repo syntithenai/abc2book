@@ -1,0 +1,27 @@
+X:200
+T: THE BURNT OLD MAN
+B: O'Neill's 90
+M: 6/8
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: "Collected by F.o'Neill"
+N: 1st Setting.
+K: D
+D \
+| (">"DEF) (AFE) | (">"DEF) (TF2E) | (">"DEF) (BAF) | AFE (TE2F) \
+| DEF AFE | (~FEF) (~dcd) | (edB) (TBAF) | (AFE) E2 :|
+|| F \
+| .A.F.F .d.F.F | .A.F.F.(~F2G) | AFF dcd | eEE E2F \
+| (DEF) (AFE) | (~FEF) (~dcd) | edB (TBAF) | AFE E2 ||
+S:https://www.folktunefinder.com/tunes/128138
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0051-0100_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

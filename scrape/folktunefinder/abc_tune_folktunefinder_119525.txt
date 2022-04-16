@@ -1,0 +1,29 @@
+X:45
+T:Sur le pont d'Avignon
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n45
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:G
+D | G3/2 A/ B B | A d G D | G3/2 A/ B B | A d G G |!
+M:6/8
+A2 G E2 G | A G A B2 G | A2 G E2 G | A3 G2 z ||
+W:Hier, sur le pont d'Avignon (2x)
+W:J'ai ou chanter la Belle ; (2x) lon l
+W:
+W:Elle chantait d'un ton si doux, comme une demoiselle,
+W:Que le fils du roi l'entendit du logis de son pre.
+S:https://www.folktunefinder.com/tunes/119525
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

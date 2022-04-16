@@ -1,0 +1,26 @@
+X:13
+T:Don Side
+R:strathspey
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 1326L1323  (1326 1323)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C
+K:G
+A|G/G/G B>G TA>GEA|G/G/G B>G TA>GBG|c>AB>G TA>GEe|d>cTB>A B(GG):|
+(e|g)egB TA>GE(e|g>)dg>B g>dg>a|(b/a/g/e/ g>)B TA>GEe|d>cTB>A B(GG):|
+|:a|g/g/g b>a Ta>gea|g/g/g b>g Ta>gb>g|(b/a/g/a/ b>)g Ta>geg|d>cTB>A B(GG):|
+|:(E/F/|G>)DB,>D E(A, A,)(E/F/|G>)DB,>D G,>DB,>D|C>EB,>D E(A,A,)E|(G/F/E/D/) TB,>A, B,(G,G,)|]
+S:https://www.folktunefinder.com/tunes/129698
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:305
+T:Humours of Ballyloughlin
+Z: id:dc-jig-52
+M:6/8
+L:1/8
+K:D Mixolydian
+A|A3 AGE|GED EDE|c3 cAd|dcA AGE|!
+A3 AGE|GEG cGE|DED DFA|DED D2:|!
+B|c3 cAB|cAG ABc|d3 ded|dAF DFA|!
+c2A d2B|cAG FGE|DED DFA|DED D2:|!
+e|f2d ged|f2d ged|cde ged|cde ged|!
+f2d ged|f2d ged|cde gag|ed^c d2:|!
+B|A3 ABG|F3 GED|E3 EFD|EFD EFG|!
+A3 dAG|F3 GEA|DED DFA|DED D2:|!
+S:https://www.folktunefinder.com/tunes/128697
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

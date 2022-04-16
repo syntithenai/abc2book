@@ -1,0 +1,58 @@
+X:4
+T:Sarabande (suite en La mineur)
+R:Sarabande
+G:guitare
+C:Robert de Vise
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:dernire ligne voix 1 : (B>c d)>e [d2f2]  au lieu de B>c d>e [d2f2] 
+M:3/4
+L:1/8
+Q:1/4=95
+K:Am
+K:C
+%%staves (1 2 3)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+e3 e [e2a2] | !trill![d3g3] f !trill!e2 | c'3 b [ea]g | !trill![d2^f2] b>a [e2^g2] |
+=g3 g g>a | !trill!=f3 e [d2f2] | [=c2e2] z e (dc) | !trill!c3 B (Bc) :| 
+|:c'3 c' c'2 | b2>>b2 b2 | [ea](b a)g (^fe) | !trill![B3^d3] e [B2e2] |
+B>c d>e [d2f2] | !trill!^f3 f [e2g2] | g>^g-g [eg] [e2a2] |!trill! [e3a3] ^g a2 :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+[E4A4c4] [A2c2] | B4 c2 | [G4c4e4] ^c2 | A2 z2 B2 |
+[=G4B4e4] [G2c2d2] | [A4^c4] [D2A2] | [E2G2] F4 | G4 c2 :|
+|: [G4c4e4] [d2f2] |[G4d4] [^G2d2e2] | [A6c6e6] | ^F3 z [E2^G2] |
+[E4A4e4] [D2A2]| [D4A4d4] [E2B2] | [E3^B3] [EB] [A2c2] | e3 z A2 :|
+V:3
+%%MIDI program 24
+%%MIDI channel 3
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 65 %pan
+ x6 | x6 | x6 | x6 |
+ x6 | x6 | x6 | x6 :|
+|:x6| (f2e2)x2| x6 | x6 |
+ x6 | x6 | (c2 d) x3 | x6 :|
+S:https://www.folktunefinder.com/tunes/104104
+S:http://anamnese.online.fr/abc/visee.abc
+% Rhythm Sarabande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

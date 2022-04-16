@@ -1,0 +1,27 @@
+X: 2
+%%leftmargin 2.0cm
+%%staffwidth 17.5cm
+T: Tipsy Sailor, The
+I: Tipsy Sailor, TheJ-51Emjig
+H: Scottish jig
+M: 6/8
+R: jig
+K: Em
+D| "Em"E2B- BAB| E2B- BAB| "D"ded d^cB| AFD DEF|    "Em"E2B- BAB| E2B- BAB| "D"AdB AFA| "Em"BGE E2:|
+f| "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|    "Em"eBe gfe| Bef gfe| "D"fdf gfg| "Em"bge e2f|
+   "Em"eBe gfe| Bef gfe| "D"fdA FAd| fdf "B7"agf|    "Em"gba gfe| "D"fag fed| B/c/dB AFA| "Em"BGE E2|]
+%%text Roaring Jelly  J-51
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/107101
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords Has chords

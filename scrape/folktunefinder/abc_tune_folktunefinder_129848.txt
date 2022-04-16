@@ -1,0 +1,28 @@
+X: 56
+T:Rights of Man
+% Nottingham Music Database
+S:KCC p27
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+GA|"Em"BcAB GAFG|"Em"EFGA B2ef|"Em"gfed "G"edBd|"Am"cBAG "B7"A2GA|
+"Em"BcAB GAFG|"Em"EFGA B2ef|"Am"gfed "B7"Bgf/2g3/2|"Em"e4 e2:|
+P:B
+ga|"Em"b^abg efga|"Em"b^abg e2fe|"D"d^cde fefg|"D"afdf a2gf|
+"Em"eBeg "D"fdfa|"G"gfga b2ef|"Am"gfed "B7"Bgf/2g3/2|"Em"e4 e2:|
+S:https://www.folktunefinder.com/tunes/129848
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

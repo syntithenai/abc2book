@@ -1,0 +1,29 @@
+X:44
+T:Medway Jigs II, The
+R:jig
+C:Paul Milde  1994
+M:6/8
+K:G
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|\
+"G"B,CD D2G| D2E G2A| B2d dcB| "D"A3- A2G|
+"G"BAG BAG| BAG d2G| B2G "C"AGE| "D"D3 C3|\
+"G"B,CD D2E| D2E G2 A| "D"B2B AGA| "G"G3- G2 |]
+\
+d| "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|\
+   "G"B2c dcB| "D"A2B c2A| "Em"GAB BAG| "D"A2F "G"G2d|
+   "G"Bcd dcB| "C"c2d g2d| "G"Bcd e2d| "C"c2B "D"A3|\
+   "G"Bcd "D"c2A| "G"B2G "D"ABc| ABc "G"B2G| "D"A2F "G"G3|]
+%%vskip 1cm
+S:https://www.folktunefinder.com/tunes/106831
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

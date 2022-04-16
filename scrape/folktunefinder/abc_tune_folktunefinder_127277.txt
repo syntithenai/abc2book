@@ -1,0 +1,26 @@
+X: 29
+T:Return to Miltown
+S:Session
+M:C
+L:1/8
+K:DMinor
+|:D2 F/E/D ADFD| C2 EC FCEC| DA, ~A,2 DEFD| CDEG cAGE|
+D2 F/E/D ADFD| C2 EC FCEC| F3 D E3 D| CDEG cAGE :||
+K:D
+|: d3 e f2 ed| cdef gece| d3 e f2 ed| cAGE{F} ED D2|
+d3 e f2 ed| cdef g2 ge| ~f3 d efed| cAGE ED D2 :|
+S:https://www.folktunefinder.com/tunes/127277
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

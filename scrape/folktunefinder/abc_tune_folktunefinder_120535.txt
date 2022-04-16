@@ -1,0 +1,20 @@
+X:9
+T:Dusty Miller
+Z: id:dc-slipjig-8
+M:9/8
+L:1/8
+K:A Major
+c2e e2B cBA|F2B B2c dcB|c2e e2B cBA|E2A A2B cBA:|!
+c2e f2g aga|b2B B2c dcB|c2e f2g a2b|a2f e2d cBA:|!
+S:https://www.folktunefinder.com/tunes/120535
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slipjigs.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

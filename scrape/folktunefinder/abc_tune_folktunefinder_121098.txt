@@ -1,0 +1,25 @@
+X: 12
+T:Queen Caroline. WI.012
+M:2/4
+Q:70
+S:Wm Irwin, 1838 MS, AGG's Transcription
+R:Country Dance
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:D
+A>d f2|A>e g2|(fa) (df)|e>d c>B|\
+A>d f2|A>e g2|fdBc|d2D2:|!
+e>^g b2|e>a c'2|d'>b ^g>b|a>c' e'2|\
+e>^g b2|e>a c'2|d'>b ^g>b|"DC"a2A2|]
+S:https://www.folktunefinder.com/tunes/121098
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

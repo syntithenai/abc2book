@@ -1,0 +1,30 @@
+X: 28
+T:Berendans
+M:C
+L:1/4
+O:Flemish
+N:"Danza del oso" is very similar tune from northern Spain
+D:Dervish as "The Dancing Bear" on their first tape, "The Boys of Sligo"
+D:King's Galliard (from Holland), unnamed 1979 recording on the Swedish
+D:la
+D:l Opus3.
+D:Galway Express  (a Stockholm group that plays Irish music)
+D:Metamora on "The Great Road" (late 80's)
+D:Pyewackett on "The Man in the Moon Drinks Claret" (early 80s)
+Z:Juergen Gier <Juergen.Gier@post.rwth-aachen.de> irtrad-l 2000-05-18
+K:Am
+e2A2 ABcd | e2A2 A2AB | c2c2 B2c2 | d2d2 c2d2 | \
+e2A2 ABcd | e2A2 A2AB | c2c2 BAG2 |1 A2AG ABcd :|2 A2AG A2AB ||
+|: \
+c2ee dcB2 | c2ee dcB2 | gdBd g2_B2 | A2f2 e2^g2 | \
+a2e2 cdcB | A2AB c2ee | fedc BAG2 |1 A2AG A2AB :|2 A2AG ABcd |]
+S:https://www.folktunefinder.com/tunes/103004
+S:http://www.kennaquhair.com/tunes/tradtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

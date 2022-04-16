@@ -1,0 +1,21 @@
+X: 5
+T:Tobin's
+M:6/8
+L:1/8
+C:from G. Cotter
+R:Jig
+K:D
+DFA dcd | ecA cde | f3 gfg | ecA GFE | DFA dcd |
+ecA cde | faf gec | edc d3 :: dfa agf | efg efg |
+f3 gfg | ecA GFE | DFA dcd | ecA cde | faf gec | edcd3 :|
+S:https://www.folktunefinder.com/tunes/121516
+S:http://members.iglou.com/mast/rileytun.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

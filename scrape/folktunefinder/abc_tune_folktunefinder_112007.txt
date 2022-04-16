@@ -1,0 +1,19 @@
+X:1
+T:Aly Croaker 1
+M:4/4
+L:1/8
+K:G
+ D| D2 G2 G3 A|G-F G3/2 A/2 G3 G| A3 BA BA G| F3 G| A4| D2 G3/2 G/2 G3 A|\
+ GF G3/2 A/2 G2 GG| B3 c d2d-c| B3 c d3 d| e2 d2 c3 B| c3 B A3 B| c2 Bc d3 G|\
+ F3 G A3 D| G3 ^F E3 D| E2 DC D3 c| B2 cd A2 Bc| F4 G3||
+S:https://www.folktunefinder.com/tunes/112007
+S:http://back.numachi.com:8000/dtrad/abc/ALYCRK1.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ALYCRK1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

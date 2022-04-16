@@ -1,0 +1,24 @@
+X:115
+T:Snowflake Breakdown
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:D
+P:A
+|: (3ABc | "D"d2fa fedf | "G"edBc "D"dBAF | "A"A,2C2 E2A2 | "A"cBAc B2 (3ABc |
+"D"d2fa fedf | "G"edBc "D"dBAF | "A"Acef ge cA | "D"dcde d2 :|
+P:B
+|: (3ABc | "D"d2fd edfd | "D"a^g=gf edcB | "Bb"_B2d2 =f2d2 | "Bb"_bg=fb g2 f2 |
+"D"d2fd edfd | "D"a^g=gf edcB | "A"Acef ge cA | "D"dcde d2 :|
+S:https://www.folktunefinder.com/tunes/110162
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

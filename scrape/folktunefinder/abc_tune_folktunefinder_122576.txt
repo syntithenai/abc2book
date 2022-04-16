@@ -1,0 +1,28 @@
+X:55
+T:New Land
+R:Waltz
+C:Otis Thomas, Cape Breton
+S:Touchstone CD "The New Land"
+M:3/4
+L:1/8
+K:F
+|:"F"F3 E FG|"Am"Ac3cd|"Dm"c3 AG2|"Fmaj7"F3 G (3AGF|
+"Gm"B3 A GA|"GmMaj7"Bd3df|"Gm7"d3 BA2|"C7"G3 A (3BAG|
+"F"A3 F AF|"Am"Ac3 fg|"Dm"a3 g f2|"Bb"d3 e fg|
+"Dm"a3 g f2|"Am"ge3 cA|"Dm"Add2c2|d3 e fg|
+"F"a3 g ab|"Am"a2g2f2|"Gm"B3 A Bc|"GmMaj7"B2c2d2|
+"C7"g3 f ga|g2f2e2|"F"A3 G AB|"Am"A2B2c2|
+"Dm"f3 e fg|f2e2d2|"Gm"G3 F GA|G2F2D2|
+"Dm"c/2A7/2F2|"Am"G/2E7/2C2|"Dm"D3 E FE|D4 DE:|
+S:https://www.folktunefinder.com/tunes/122576
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Merrily we roll along
+M:4/4
+L:1/4
+K:C 1&1
+LC  Mc LC  Mc & E D C  D|\
+LC  Mc LC  Mc & E E E2  |\
+LG, MG LG, MG & D D D2  |\
+LC  Mc LC  Mc & E G G2  |\
+LC  Mc LC  Mc & E D C  D|\
+LC  Mc LC  Mc & E E E2  |\
+LG, MG LG, MG & D D E  D|\
+\mulooseness=1
+LC & C4&& Mc &    && LC &   && Mc &  |
+\interinstrument=5pt
+S:https://www.folktunefinder.com/tunes/125218
+S:http://accordionlinks.com/other/examples.abc
+S:http://www.accordionlinks.com/other/examples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

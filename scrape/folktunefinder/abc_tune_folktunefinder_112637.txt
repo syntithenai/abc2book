@@ -1,0 +1,33 @@
+X:210
+T: Shoutou de zhuangjia yi pian huang
+N: C0338
+O: China,Anhui, Wuhu(Sued)
+S: III, 530]
+N: Vom Xiaodiao,beeinflusst. Vorsaenger  Chor. Aehnlich wie in Nord-Jiangsu.
+N: Weni Verzierungen, Glissandi. Vorspiel weggelassen.
+R: Xiaodiao. Xin minge]
+M: 2/4
+L: 1/16
+K: A
+a2a2f4 | a2b2f4 | a3bc2e2 | a2b2b4
+c2cba2b2 | b2f2f4
+c2cba2b2 | b2f2f4
+a2f2e2f2 | f4f4
+a2b2f2f2 | a3bc2b2 | a3ba2f2 | e2c2c2e2 | f8
+a2a4f2 | f4f2f2 | e6f2 | f8
+a2a4b2 | f4e4 | a2a4b2 | f4e4
+f2fff2e2 | c2e2z4
+f2fff2e2 | c2e2z4
+c2cba2b2 | b2f2f4
+a2f2e2f2 | f4f4
+S:https://www.folktunefinder.com/tunes/112637
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

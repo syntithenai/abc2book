@@ -1,0 +1,24 @@
+X:96
+T:Jolly Ploughboy
+O:scotland
+R:Morris
+M:C|
+K:G
+d3c|\
+Bcd2 G2B2|E2E2 D2G2|FGAB c2B2|B4 A2dc|\
+Bcd2 G2B2|E2E2 D2G2|FGAB c2F2|G4::
+K:D
+d2|\
+c2(c2 c)ABc|d2(d2 d)ded|c2(c2 c)ABc|d2z2 d4|\
+c2(c2 c)ABc|d2A2 B2G2|F2D2 E2C2|D4:|
+S:https://www.folktunefinder.com/tunes/100388
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Morris
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

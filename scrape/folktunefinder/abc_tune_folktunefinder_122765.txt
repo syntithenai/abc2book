@@ -1,0 +1,29 @@
+X:41
+T:The Old Boar
+C:Otis Tomas
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:Bb
+|:AB|\
+"F"cF~FF CFAF|"Eb(maj7)"GE~EE B,EGB|\
+"F"AF~FF CFA,F|"Eb"G,B,EG "Bb"BedB|
+"F"cF~FF CFA,F|"Ebmaj7"GE~EE B,EG,E|\
+"F"A,CFA "Gm"BAGF|"Bb"EedB "C"c2:|
+|:fg|\
+"F"af~ff cfAf|"Eb"eB~BB GBEb|\
+"F(Dm)"af~ff cfAF|"Eb(Cm)"EGBe "Bb(Cm)"bagb|
+"F"af~ff cfAf|"Eb"eB~BB GBEB,|\
+"F"A,CFA "Gm"BAGF|"Bb"EedB "C"c2:|
+S:https://www.folktunefinder.com/tunes/122765
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

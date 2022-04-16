@@ -1,0 +1,27 @@
+X:363
+T: Tong qian ge
+N: C1335
+O: China,Hunan, Jiangshui
+S: MM, Seite 24, 1]
+N: Die Stuecke sind meist uebersteuert, also verzerrt.
+R: Xiaodiao. Yule]
+M: 2/4
+L: 1/16
+K: Bb
+B2c2d2cd | B2GBc4 | cdBGF4
+G3cBcBG | GBD2F3G | BcG2F4
+G3cB2BG | BcGBc4 | BcGBc4
+c3dB2G2 | F3GBcBG | GBD2F4 | GFD2F4
+S:https://www.folktunefinder.com/tunes/112790
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. yule]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

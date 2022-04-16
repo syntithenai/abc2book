@@ -1,0 +1,25 @@
+X:235
+T: Jianjue baoming qu dangbing
+N: C0372
+O: China,Hebei, Shenxian
+S: IV, 44, 1)]
+N: Variante, weil der Rhythmus praktisch alla breve genommen wird.
+N: Vereinzelt Verzierungen.
+R: Xiaodiao, Shidiao, Jiandianhua diao. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: C
+c2cEG4 | c2edc4 | c2e2d2c2 | c3EG4
+d2c2d2c2 | AGAcG2G2 | G2c2c2E2 | E3DC4
+G2E2D2EE | G2E2G4 | G2c2c2E2 | E3DC4
+S:https://www.folktunefinder.com/tunes/112662
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, jiandianhua diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

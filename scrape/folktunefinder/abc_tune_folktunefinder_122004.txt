@@ -1,0 +1,28 @@
+X: 342
+T: WE MET AT THE FAIR
+T: Do theatmhar ag an aonach
+B: O'Neill's 342
+M: 6/8
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Gaily"
+N: "Collected by F.O'Neill"
+K:A
+(c/d/) \
+| e>AB GFE | Tc>Bc dcd | ede cAF | =G3- G3 (c/d/) |
+| e>AB GFE | Tc>Bc eag | fde cAB | A3 A2 ||
+|| (A/B/) \
+| c(cd) e(ef) | {a}=gec d2(c/d/) | eAB {d}cAF | =G3- G3 (c/d/) |
+| eAB GFE | Tc>Bc eag | fde cAB | A3 A2 ||
+S:https://www.folktunefinder.com/tunes/122004
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0342_jc.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/0342_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

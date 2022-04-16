@@ -1,0 +1,18 @@
+X:8046
+T:Jock Wilson's Ball
+M:C|
+L:1/8
+K:AMix
+% mixolydian/dorian hexatonic, A-final G-gap (one inconspicuous g)
+B|d2c2 B2f2 |Bcde  f>BB>c|d2 c2  B2f2 |A2e>A c<AA :|
+B|d2a2 f2e<f|d2f>e f>BB>c|d2 a2  f2e<f|A2e>A c<AA>B|
+  d2a2 f2e<f|d2f>e f>BB>c|d>ef>g a2a>f|e2e>d c<ee |]
+S:https://www.folktunefinder.com/tunes/126425
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

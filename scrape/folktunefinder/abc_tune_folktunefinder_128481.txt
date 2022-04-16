@@ -1,0 +1,21 @@
+X:14
+T:Boys of the Town
+Z: id:dc-jig-13
+M:6/8
+L:1/8
+K:G Major
+D|GFG GBd|edB dBA|GFG GBd|edB AFD|!
+GFG GBd|edB g3|edB AGA|BGF G2:|!
+B|def gfg|afd edB|def gfg|afd e2B|!
+[1 def gfg|afd efg|edB AGA|BGF G2:|!
+[2 def gbb|faa efg|edB AGA|BGF G2|]!
+S:https://www.folktunefinder.com/tunes/128481
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

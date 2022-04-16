@@ -1,0 +1,30 @@
+X:51
+T: Kerenstein
+N: Q0018
+O: Mitteleuropa, Deutschland / Niederlande
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+N: Eingeklammerte Pausen mitgespielt. Melodie: geistliche Kontrafaktur.
+R: Ballade, Liebe; geistlich
+M: none
+L: 1/8
+K: G
+G2 | G2G2A2B2 | c4c4z2
+d2 | e4e2d4d2 | c3decd4z2
+G2 | A2d4c2c2d2 | B3AG4z2
+d2 | c2A2B2d4B2- | B2AGA4z2
+G2 | A2d4c4d2 | B3AG4z4
+c2 | A2A2G2=F4G2 | A4z2
+G2 | G2A2B2c2B2A2- | AG=FGABA4
+d2 | d2B2c2d4c2- | c2BAG4
+S:https://www.folktunefinder.com/tunes/109989
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

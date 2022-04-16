@@ -1,0 +1,35 @@
+X:16
+T:The Royal Albert
+T:Prince of Wales Contre Dance
+R:jig
+S:Tune - Kohler's Violin Respository (sic)
+H:Dance described in "Traditional Dancing in Scotland" J.F. & T.M. Flett
+N:40 bar tune played ABC2D
+A:Orkney
+B:Community Dances manual 7 (tune and dance)
+O:Scottish
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+D|"G"G>AG B>AG|"G"Bdgd2c|"D7"B>cA "G"G2D|
+"G"G>AG B>AG|"G"B>dd d2g|"D"fgf "A7"ed^c|"D"edd d2f/2g/2|
+"D7"a2dc'2b|"D7"agf "G"{a}gfg|"D7"a2dc'2b|"D7"agf "G"g2d|
+"C"ec'c' "G"dbb|"D7"caa "G"Bgg|"Am"cBA "D7"d2F|"G"A<GG G2|
+|:z|"G"B3 "D7"A>GA|"G"A>GG G3|"G"d3 "D7"c>Bc|"G"c>BBB2g|
+"G"g2f f2e|"C"e2d "G"d2c|"G"B>cd d>cB|"D7"B<AA A2:|
+d|"G"ggg gdB|"D7"edd dfa|"D7"c'c'c' c'af|"G"a<gg g2d|
+"C"ec'c' "G"dbb|"D7"caa "G"Bgg|"Am"cBA "D7"d2F|"G"A<GG G2|
+S:https://www.folktunefinder.com/tunes/102965
+S:http://web.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/people/ijs/abc/countrydance.abc
+S:http://www.mit.edu/~ijs/abc/countrydance.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

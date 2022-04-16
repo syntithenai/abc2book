@@ -1,0 +1,26 @@
+X: 66
+T:Bang Up Hornpipe. GHW.066
+M:2/4
+L:1/8
+Q:360
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:D
+dc|d2D2D2 fd|e2E2E2 ef|gfed cdef|ec A2A2 dc|!
+d2D2D2 fd|e2E2E2 ef|gfed cdef|d2d2d2:|!
+|:AG|FAFA dAGF|GBGB ecBA|FAFA dAGF|G2E2E2 AG|!
+FAFA dAGF|GBGB ecBA|FAdB cdef|d2d2d2:|
+S:https://www.folktunefinder.com/tunes/101483
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

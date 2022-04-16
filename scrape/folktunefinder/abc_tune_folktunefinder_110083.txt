@@ -1,0 +1,47 @@
+X:36
+T:The Fifth Dimension
+%%MIDI gchord GcHcGcIcGc
+C:Colin Hume, 1990
+L:1/4
+M:5/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=86
+N:This is a difficult tune to play, but please trust me and play the chords (and preferably
+N:the bass notes) I have written, rather than assuming I didn't really mean them!
+K:G
+P:A
+|: "G"dc/B/ "^/"AG "C"E3/2F/ "^/"GA "D"F2 | "Em"G3/2A/ "^/"BG "Am"AA/B/ "^/"ce "D"d2 |\
+"G"dB/c/ "^/"dG "C"ec/d/ "^/"e/d/c/B/ "D"A2 |
+"Em"BG/A/ "^/"BG "Am"cA/B/ "^/"c/B/A/G/ "D"F2 | "C"E3/2F/ "^/"GA "G/D"Bd "D7"c/B/A "G"G2 :|
+%%vskip 0
+P:B
+"Bm"d2 "Dm/A"B2 "E7/G#"e3/2d/ "^/"cB "Am"c2 |\
+K:F
+"Am"c2 "Cm/G"A2 "D7/F#"d3/2c/2 "^/D"BA "Gm"B2 |
+"Gm"B2 "Bbm/F"G2 "C7/E"c3/2B/ "^/C"AG "F"AB/c/ |\
+"Bb"d3/2c/ "^/A"d/e/f "Gm"dB "F"cA "^/"FC | "Bb"D3/2C/ "^/"D/E/F "F/C"CF "C7"FE "F"F2 |
+%%vskip 0
+P:C
+"Am"c2 "Cm/G"A2 "D7/F#"d3/2c/2 "^/D"BA "Gm"BA/B/ | "F"cA "^/A"f2 "Bb"dB "G7/B"gf "C"ec |\
+"Bb"dB "F"cA "Dm"FE/F/ "C"GC "F"A2 |
+"Gm"B2 "Bbm/F"G2 "C7/E"g3/2f/ "^/"ed "A7"^c=B/c/ |\
+K:G
+"D"dA "Bm"f2 "Em"eB "A7"^cA "D"d2 |
+%%vskip 0
+P:D
+"D"AD- "^/"DE/F/ "Em"GF "^/"ED "A7"E2 | "D"AD- "^/"DE/F/ "Em"GF "D7"GA "G"B2 |\
+"Em"BG- "^/"GA/B/ "A7"^cA "^/"Bc "D7"d2 |
+"G"dc/B/ "^/B"AG "C"E3/2F/ "A7/C#"GA "D"F3/2G/ | "B7/D#"AB "Em"GB "Am"cE "D7"A3/2G/ "G"G2 |]
+S:https://www.folktunefinder.com/tunes/110083
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 5/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:18268
+T:Vent qui vente
+M:3/4
+L:1/4
+R:Bourree-Waltz
+O:A. Millien, 'L'Enfant noy', late C19th
+D:La Chavannee : Bateau Dor : Modal MPJ11100
+Z:Steve Mansfield 12/3/200
+K:G
+B2G/F/|GG/F/G/A/|BdB|AG/F/G/A/|B2G/F/|GG/F/G/A/|BdB|A3::
+ABc|d3|cBA/G/|A2B/A/|G>AG/F/|E>GA/B/|c2B|AG2:|
+% Output from ABC2Win  Version 2.1 i on 12/03/2000
+S:https://www.folktunefinder.com/tunes/115506
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Bourree-waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:205
+T:Greencastle
+R:hornpipe
+C:John Jones
+M:4/4
+L:1/8
+K:G
+dc|"G"BGDG BGDG|(3gag fg "C"e2dc|"G"BGDG BGDG|"Am"dcB<c "D7"A2dc|
+"G"BGDG BGDG|(3gag fg "C"e2dc|"G"Bdfe "D7"dcAF|"G"G2B2 G2:|
+ga|"Em"bagf efga|bagf e2fg|"D"agfe defg|agfe "D7"d2 (3def|
+"G"gfgd "C"e2"G"d2|"Am"cBAB "D7"cdef|"G"gfgd "D7"ecAF|"G"G2B2G2:|
+S:https://www.folktunefinder.com/tunes/100727
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

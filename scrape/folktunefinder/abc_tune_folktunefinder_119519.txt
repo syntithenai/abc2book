@@ -1,0 +1,27 @@
+X:37b
+T:L-haut, sur la montagne. (II)
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n37
+Z:/anamnese@caramail.com
+M:6/8
+L:1/8
+Q:1/4=100
+K:G
+D | G2 A B2 d | B3 A3 | d3 B2 G | A2 G A3|-A2 z G3 |
+M:9/8
+{A/B/}c2 B A2 B G2 A | B3 A3 zz D | G2 B A2 (B/A/) F2 A |
+G6-G2 z ||
+S:https://www.folktunefinder.com/tunes/119519
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

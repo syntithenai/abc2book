@@ -1,0 +1,20 @@
+X:145
+T:Mexican Waltz
+% Nottingham Music Database
+S:
+M:3/4
+L:1/4
+K:G
+"G"G2B|"G"dBG|"D"F2"C"e|"D7"d2D|"D7"F2A|"D7"cAF|"G"G2"C"e|"D7"d2D|
+"G"G2B|"G"dBG|"C"c2"b"d|"Am"c2D|"D7"F2A|"D7"cAF|"G"B2"D7"A|"G7"G3|F"C"e3|
+F"C"e3|"C"efg|"C"age|"G"d3/2e/2d|"D7"cBA|"G"GBd|"G"g2:|
+S:https://www.folktunefinder.com/tunes/109209
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

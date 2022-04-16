@@ -1,0 +1,23 @@
+X:9
+T:Back Up And Push
+C:Jethro Burns solo
+M:4/4
+L:1/8
+Q:1/8=500
+K:C
+z|"F"Ac^dc dcAc|^defd ecA^G|"C"GcAG ^DECA,|G,A,CD EGD^F|
+"G"GABd g^f=f^d|ecA^G =GcAG|"C"^DECG ,CG,B,_B,|_B,6z^d|
+"F" (3c^dc Ad (3cdc Ad|(3c^dc AG ^DCA,G,|"C"CB,DB, CD{E}^FC|^FGAF GABc|
+"G"A_B=Bg agag|age^d =dcAG|"C"c2[a3^d3] [a3d3]|[a4^d4G4]=dcdc|
+"F"c'2c2 ^d2cc-'|c'c^dcd2c2|"C"c'2c2[a2^d2] [a2d2]|[ad]c AGA2c2|
+"G"_B=Bg_B =Bg_B=B|a_B=Bg- ge-ed|"C"egec AGAc|AGE^D =DA-AC-|
+"F"CCD2^D2F2|G2cG (3^F=FE CD|"C"EEGA cd^de|gag^d ecA^F|
+S:https://www.folktunefinder.com/tunes/117056
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

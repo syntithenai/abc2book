@@ -1,0 +1,29 @@
+X:3
+T:Where There's a Fountain Flowing
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+O: Die brnnlin die da fliessen 
+S: Gassenhawerlin, 1535
+C: Balthasar Arthopius
+T: Tenor
+K:C
+M:C
+L:1/8
+%1
+z8 G4 A4 B4 c4 A4 G4 A8 B4 c4 A4 B2 d4 c B c4 "A" A4 z2 d2 e4 f4 g4 e4
+%2
+d4 z2 c2 c4 g3 f e d e3 d c2 B2 A2 G4 A4 B4 c8 B8 "B" z4 z2  A4 e4 e2 e3 f g4 e4 c4
+%3
+c2 d2 e4 f6 e2 d3 c B4 A4 c4 B4 A2 G2 c4 z4 "C" z2 A2 d4 c4 d6 e2 f4 z4 e4 d4 c3 _B
+%4
+ A G c4 =B2 c4 B3 c d6 c2 B4 A4 z2 e2 d2 B2 c6 A2 A2 d3 c B2 A2 B2 A4 HB8 |]
+S:https://www.folktunefinder.com/tunes/110863
+S:http://www.laymusic.org/music/bruenlin/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

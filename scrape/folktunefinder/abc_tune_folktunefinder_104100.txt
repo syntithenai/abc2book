@@ -1,0 +1,46 @@
+X:9
+T:Bourre (suite en La mineur)
+R:Bourre
+G:guitare
+C:Robert de Vise
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=120
+K:C treble
+%%MIDI transpose -12
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+e2 |: a2 ab c'2 (ba) | [e2b2] [e3b3] (b c'd') | [d2^g2] [e2a2] !trill![e3a3] g |1 [A6a6]e2 :|2
+{^g}a4 z2 e^f | g2 [B2d2g2] [E2A2^c2g2] [Ff]e | [d2f2] f3 (g fe) | d2 ed !trill!e3 d |
+!trill!^c4 z (c d)e | [d2f2] ed e2 (dc) | d2 (cB) [A2c2] BA | !trill![^G2B2]AB !trill!B3 A | [A4A4] :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+z2 |: [A4c4e4] [A4c4e4] | [^G2d2] [G3d3] z z2 | e2 [A2c2] e3 z |1 z2 E2A2 z2 :|2
+A2 (AB)c4 | B2 [D2G2] A4 | [D2A2] [D6A6d6] | _B4 G4 |
+[E2A2] AGF4 | [D4A4] =c4 | B4 E4 | D4 E4 | E4 :|
+%%vskip 0.75cm
+%%textfont Times-Roman-Italic 8
+%%text Transcription : <anamnese@caramail.com> -- http://anamnese.fr.st
+%%text Available at Werner Icking Music Archive -- http://icking-music-archive.sunsite.dk/
+S:https://www.folktunefinder.com/tunes/104100
+S:http://www.icking-music-archive.org/scores/visee/visee_suite_Am.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

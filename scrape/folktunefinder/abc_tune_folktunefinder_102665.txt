@@ -1,0 +1,28 @@
+X:14
+T: Lonely Accordion
+T: Odinokaya Garmon'
+O:russia
+C: M.Isakovsky
+N: Words by B.Mokrousov
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M: 3/4
+L: 1/4
+K: Dm
+|: "Dm"DF | AFD | "A7"^CEG | "Dm"BA2- \
+| ADE | "Bb"FDB, | "A7"A,^CE | "Dm"F3- | FGA |
+| "Gm"BBF | "C7"EEG | "F"AA2- | "Bb"ADF \
+| "Gm"GGF | "A7"EDE | "Dm"F3- | FGA |
+| "Gm"BBF | "C7"ccB | "F"AA2- | "Bb"ADA \
+| "Gm"GGF | "A7"ED^C | "Dm"D3- | D |]
+%%sep 5 5 5cm
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102665
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

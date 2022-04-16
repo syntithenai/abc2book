@@ -1,0 +1,20 @@
+X:1
+T:Angels We Have Heard on High
+M:4/4
+L:1/8
+K:G
+ B2 B2 B2B-d| d3 c B4| B2B-A B2B-d| B3 A G4| B2 B2 B2B-d| d3 c B4|\
+ B2B-A B2B-d| B3 A G4| d4-e-d-c-B| c4-d-c-B-A| B4-c-B-A-G| A3 D D4|\
+ G2 A2 B2 c2| B4 A4| d4-e-d-c-B| c4-d-c-B-A| B4-c-B-A-G| A3 D D4| G2 A2 B2 c2|\
+ B4- A4| G8|
+S:https://www.folktunefinder.com/tunes/118563
+S:http://back.numachi.com:8000/dtrad/abc/ANGONHI.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ANGONHI.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

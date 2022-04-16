@@ -1,0 +1,27 @@
+X:86
+T:The New Redowa of Paris
+C:Leaflets of the Ball Room, 1847.  Play AABA as nauseam
+L:1/8
+M:3/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+N:Time signature converted from 3/8 to 3/4.
+%%MIDI beat 100 95 80
+Q:1/4=120
+K:G
+P:A
+|: Bc | "G"d3gfg | "A7/E"agA2B2 | "D7"dcE2F2 | "G"G3/F/GABc | "G"d3gfg | "Am/C"agA2B2 | "D7"dcE2F2 |1 "G"GGB2 :|2"G"G4 |
+%%vskip 0
+P:B
+FG | "D"c3ded | "D"F2GFAG | "A7"BAGE^C2 | "D"D^CDFAD | "D"a3d'e'd' | "D"f2gfag | "A7"bage^cA | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/110133
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

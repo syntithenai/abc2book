@@ -1,0 +1,27 @@
+X:3
+T:Bergeret sans roch, Reprise 1
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+M:3/2
+L:1/2
+T: Tenor
+K:C -8va
+%
+GGG|E2F|G>E F/2G/2|A2F|G>F E/2D/2|EFE|CD2|C2z:|
+GGG|G2F|GA2|G2z|A>G F/2E/2|FGF|DE2|D2z|
+GGG|G2F|GA2|G2z|G>F E/2D/2|EFE|CD2|C2z|
+GGG|E2F|G2G|A2z|G>F E/2D/2|EFE|CD2|C2z|
+GGG|E2F|G2G|A2z|G>F E/2D/2|EFE|CD2|C2z|
+GGG|E2F|G2G|A2z|G>F E/2D/2|EFE|CD2|C3|]
+S:https://www.folktunefinder.com/tunes/110846
+S:http://www.laymusic.org/music/susato/2r1/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

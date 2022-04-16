@@ -1,0 +1,22 @@
+X:7
+T:Bill Hart's Jig
+R:jig
+H:Also played in Ddor, #337
+Z:id:hn-jig-7
+M:6/8
+K:DDor
+~D3 ~A3|BAG ~A2d|~D3 ~A3|BAG EDC|~D3 ~A3|BAG ABc|1dcB c2A| BAG EDC:|2dcB cBA| BAG EDC|
+D~dd c2A|BAG ABc|d2B c2A|BAG EDC|D~dd c2A|BAG ABc|d2B c2A|BAG EDC|
+D~dd c2A|B2G ABc|d2B c2A|BAG EDC|D~dd c2A|BAG ABc|dcB cBA|BAG EDC||
+S:https://www.folktunefinder.com/tunes/122110
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

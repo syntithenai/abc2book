@@ -1,0 +1,24 @@
+X:2
+T:Allemande
+B:Les p'tites danses d'Erezee
+O:Wallonie
+M:6/8
+L:1/8
+Q:C3=108
+K:G
+D |: G2 F G2 B | A2 ^G A2 c | B2 G B2 d | c2 z c3 |
+B2 d c2 B | A2 c B2 A |1 G2 F G2 B | A2 F D3 :|2 G2 B A2 F | G2 z G2 z ||
+|: G2 A B2 G | D2 G B2 d | c2 B A2 G | F2 E D3 |
+D2 E F2 G | A2 ^G A2 c |1 B2 G B2 e | d2 z d3 :|2 B2 G A2 F | G2 z G2 ||
+S:https://www.folktunefinder.com/tunes/103990
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/erezee.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

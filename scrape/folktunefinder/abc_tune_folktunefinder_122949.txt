@@ -1,0 +1,20 @@
+X: 1
+T: Archie's Fancy
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmaj
+|: B c^c | d2 g3 d | B2 g2 d2 | f2 e2 c2 | E4 AB | c2 A2 F2 | D2 F2 A2 | e2 ed ^ce | d3 B c^c | 
+d2 g3 d | B2 g2 d2 | f2 e2 c2 | E4 AB | c2 a3 g | f2 e2 f2 | g2 dg Bg | G3 :|
+|: B c^c | d2 b3 a | g3 d Bd | c2 a3 g | f2 A2 B2 | c2 a3 g | f2 e2 f2 | gz b3 g | d3 B c^c | 
+d2 b3 a | g2 d2 B2 | c2 a3 g | f2 A2 B2 | c2 a3 g | f2 e2 f2 | g2 dg Bg | G3 :|
+S:https://www.folktunefinder.com/tunes/122949
+S:http://www.thesession.org/tunes/display/8131
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

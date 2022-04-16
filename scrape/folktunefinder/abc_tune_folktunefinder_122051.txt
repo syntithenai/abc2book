@@ -1,0 +1,21 @@
+X: 1
+T: Apple Blossom
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+&quot;D&quot; a4 a2 ae|fedf ed- d2|&quot;G&quot; b4 b2 ae|&quot;D&quot; fedf ed f2|
+&quot;D&quot; a4 a2 ae|fedf edBA|d2 (3BcB A2 FE|&quot;A&quot; DFED &quot;D&quot; B,D- D2:|
+|:&quot;D&quot; A,2 A,B, D3 E|FEDE FE D2|A,2 A,B, D2 DE|FE D2 &quot;G&quot; B,2 A,2|
+&quot;D&quot; A,2 A,B, D2 DE|FEGE FA- A2|d2 (3BcB A2 FE|&quot;A&quot; DFED &quot;D&quot; B,D- D2:|
+S:https://www.folktunefinder.com/tunes/122051
+S:http://www.thesession.org/tunes/display/5235
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:10
+T:Blackbird
+R:hornpipe
+D:De Dannan
+Z:B part slightly modified version of Norbeck's
+M:C|
+L:1/8
+K:Dmix
+DE|F2FA GFD2|de (3fed dcAF|G2GF GFDE|FGAF GBAG|
+F2FA GFD2|de (3fed dcAG|AdcA GcAG|F2D2 D2:|
+|:fg|ag (3fed gfe^c|d^cde fdA2|ag (3fed gfeg|fagf e2 (3efg|
+afge fde^c|d2de fdAG|AdcA GcAG|F2D2 D2:|
+S:https://www.folktunefinder.com/tunes/100688
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

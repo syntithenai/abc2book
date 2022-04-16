@@ -1,0 +1,21 @@
+X:4
+T:Ballydesmond
+Z: id:dc-polka-3
+M:2/4
+L:1/8
+K:D Mixolydian
+A>B AG|EF GE|A>B AG|Ad d/e/d/c/|!
+A>B AG|EF G2|AB cE|ED D2:|!
+ed d2|eB c2|ed ^cd|ea a/b/a/g/|!
+[1 ed d2|eB c/d/c/B/|AB cd|ef g2:|!
+[2 e/f/g de|^ce d>=c|AB cE|ED D2|]!
+S:https://www.folktunefinder.com/tunes/127383
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

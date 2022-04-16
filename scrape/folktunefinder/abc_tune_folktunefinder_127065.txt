@@ -1,0 +1,25 @@
+X: 33
+T:Chocolate Song, The
+M:4/4
+L:1/8
+Q:120
+C:Marcus Turner
+K:G
+B,C|"G"DD D>D DD ED|DG3-G2DD|
+DG GB Bd dB|"D"A6Bc|!
+"G"dB "D"Ac "G"BG GA|BG "C"EG "G"ED Bc|
+1 dB "D"Ac "G"BG "C"FE|"D"D6:|
+2 dB "D"Ac "G"BG "D"FA|"G"G6:||
+% Output from ABC2Win  Version 2.1 i on 5/08/2001
+S:https://www.folktunefinder.com/tunes/127065
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:Midsommardansen
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 278)
+O:Nttraby, Blekinge
+N:Svenska Ltar, Band 18 nr 278
+R:Polska
+C:Alfred Petersson
+M:3/4
+L:1/16
+Q:1/4=100
+Z:Polskan kallades \'Midsommardansen\'. Pettersson hade den efter sin lromstare Hans Plsson.
+Z:Jfr Nils Andersson, Sknska Melodier n:r 147 och Fredin, Gotlandstoner n:r 272
+Z:(Konverterad till abc-format av  Olle Paulsson 05-01-03)
+K:Gm
+|:g2bg d2d2 (g^f)ga|(ba)bg (g^f)gf d2d2|=f4 (de)fg (fe)dc|(Bd)cB (Ac)(Ac) B2B2|
+f4 (de)fg (fe)dc|(Bd)cB (Ac)(Ac) (dc)BA|(G^F)GA (BA)Bc d2(Ac)|(BA)G^F (A2G2) G2 z2:|
+|:B2cB (AB)df (bf)dB|(Ac)ec (AF)Ac (ec)AF|B2cB (AB)df (bf)dB|(Ac)ec (AF)Ac (ec)AF|
+B2BG A2AF D2D2|B2AG (FG)AF D2D2|(G^F)GA (BA)Bc d2(Ac)|(BA)G^F A2G2 G4:|
+S:https://www.folktunefinder.com/tunes/102868
+S:http://www.folkwiki.se/pub/cache/Midsommardansen_d548b5.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

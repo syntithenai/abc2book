@@ -1,0 +1,19 @@
+X:1
+T:Auld Lang Syne
+M:4/4
+L:1/4
+K:C
+ G,| C3/2 B,/2 C E| D3/2 C/2 DE/2-D/2| C/2 C3/2 E G| A3| A| G3/2 E/2 E C|\
+ D3/2 C/2 DE/2-D/2| C3/2 A,/2 A, G,| C3| A| G3/2- E/2 E- C| D3/2 C/2 D A|\
+ G3/2- E/2 E- G| A3 A| G3/2 E/2 E C| D3/2 C/2 DE/2-D/2| C3/2- A,/2 A,- G,|\
+ C3||
+S:https://www.folktunefinder.com/tunes/129513
+S:http://back.numachi.com:8000/dtrad/abc/AULDLANG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/AULDLANG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

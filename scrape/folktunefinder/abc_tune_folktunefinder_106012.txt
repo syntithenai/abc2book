@@ -1,0 +1,25 @@
+X: 7
+T:Willow Tree, The
+M:4/4
+L:1/8
+S:Miss Lucy Ray
+R:Air
+K:F
+"Andante"A2|G3 F D2 D2|F3 G A2 A2|G3 F D2 C2|D4-D2 A2|
+G3 F D2 D2|F3 G A2 A2|G2 F2 D2 C2|D4-D2||
+A2|c3 G A2 d2|c3 G A2 d2|c2 A2 G2 F2|G4 z2 A2|
+G3 F D2 D2|F3 G A2 A2|G2 F2 D2 C2|D4-D2||
+S:https://www.folktunefinder.com/tunes/106012
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-1.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0007.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/WillowTreeThe.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

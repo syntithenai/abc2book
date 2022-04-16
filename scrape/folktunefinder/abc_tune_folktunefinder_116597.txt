@@ -1,0 +1,30 @@
+X:13552
+T:PreluderP
+M:C|
+L:1/8
+C:J. S. Bach
+P:Violin 1 (A duet. The 2nd player starts at the end and reads backwards)
+B:Fiddle Sessions for 2,3, and 4 fiddles
+N:Violin II part is the mirror image of Violin I part.
+K:F
+D4 F4|A4 B4|^C4 z2 (A2|A2) ^G4 (=G2|G2) ^F4 (=F2
+F2) .E2 ._E2 .D2|(^C2 A,2) .D2 .G2|F4 E4|D4 F4|(AGAd) (AFEF)
+(GA=B^c d)(FGA|_B)(EFG A)(GFE)|(FGAB c)(BAG)|(ABcd _e)(c_BA)|
+(=B^cde f)(dcB)|(^cdef g)(eAe)|(defg) (fed^c)|.d2 .A2 .F2 .D2|]
+P:Violin 2 - Palindrome
+.D2 .F2 .A2 .d2|(^cdef) (gfed)|(eAe)(g fed^c)|(Bcd)(f ed^c=B)|
+(A_Bc)(_e dcBA)|(GAB)(c BAGF)|(EFG)(A GFE)(_B|AGF)(d ^c=BAG)|
+(FEFA) (dAGA)|F4 D4|E4 F4|.G2 .D2 (A,2 ^C2)|.D2 ._E2 . =E2 (F2|
+=F2) ^F4 (G2|=G2) ^G4 (A2|A2). z2 ^C4|B4 A4|F4 D4|]
+S:https://www.folktunefinder.com/tunes/116597
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

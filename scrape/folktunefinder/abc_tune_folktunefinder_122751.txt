@@ -1,0 +1,28 @@
+X:27
+T:Jack McCann's Reel
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:A Dorian
+|:\
+"Am"A,2(3B,A,G, A,2(3B,A,G,|A,B,CD E2DC|\
+"G"B,DG,B, DGB2-|"Em"BAGE DB,A,G,|
+"Am"A,2(3B,A,G, A,2(3B,A,G,|A,B,CD E2DC|\
+"G"B,DG,B, DGB2-|"Em"BAGE "Am"A4:|
+|:\
+"Am"A2~BA "F"ABce|"Em"gfga gedc|"F"AcBA "G"GFGE|"Dm"DEGA "Em"BGcB|
+"Am"A2~BA "F"ABce|"Em"gfga gedc|"F"AcBA "Em"GFGE|DEGB "Am"A4:|
+S:https://www.folktunefinder.com/tunes/122751
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

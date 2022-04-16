@@ -1,0 +1,27 @@
+X:240
+T:Dublin Reel
+M:C|
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000000E8G(Paddy Glackin, Robbie Hannan: The Whirlwind)
+D:asin=B000002NOB(Pat Kilbride: Rock And More Roses)
+D:asin=B000005ZVS(Kenan, et al: Gaelic Roots)
+D:anop=B000000E67(Planxty: Cold Blow And The Rainy Night)
+D:anop=B00000249N(Barnes, Hampton: Celtic [BOX SET])
+D:anop=B000006N1R(River Reel: River Reel)
+K:D
+dFF2 dedc|dFF2 AFEF|dFF2 dfed|cABF AFEF|\
+dFF2 dedc|dFF2 AFEF|d3c dfed|cABF AFEF||\
+eAA2 eAfA|eAA2 BAFA|eAA2 egfe|dBcA BAFA|\
+eAA2 eAfA|eAA2 BAFA|e3d egfe|dBcA BAFA||\
+d3c dFF2|dedB AFEF|d3c dfed|cABF AFEF|\
+d3c dFF2|dedB AFEF|dcdf egfe|dABc d3z||
+S:https://www.folktunefinder.com/tunes/111577
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

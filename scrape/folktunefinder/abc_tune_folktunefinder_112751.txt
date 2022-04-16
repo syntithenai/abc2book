@@ -1,0 +1,32 @@
+X:324
+T: Ni muo xian wo geng tian lang
+N: C0967
+O: China,Guangdong, Meixian
+S: MM, handschriftlich, Quelle S. Bandprotokoll)]
+N: Die Saengerin Lei Huilan ist Angehoerige der Zhuang Minderheit und
+N: studiert an der Guangzhouer Musikhochschule.
+N: Aufgenommen am 5.5.87
+N: Schwer zu lesen! Grundtonangabe nicht eindeutig lesbar, auch P, ),
+N: Taktangabe fehlt, stattdessen Tempoangabe, 04=104).
+N: Vereinzelt Verzierungen. Vor-, Zwischen- und Nachspiel weggelassen.
+R: Shange, Kejia shange. Xin minge]
+M: 2/4
+L: 1/16
+K: D
+B,2B,2E4 | F2F2E3F | E2EDB,4 | D2E4F2
+EFE4D2 | B,2D2B,4 | E6D2 | B,2D4z2
+B,2B,DE4 | F2FDE3F | E2D2B,4 | B,2D4EF
+E2D2B,4 | D2B,DE3F | E6D2 | B,2B,6
+S:https://www.folktunefinder.com/tunes/112751
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, kejia shange. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

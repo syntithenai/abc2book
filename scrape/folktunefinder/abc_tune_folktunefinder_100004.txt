@@ -1,0 +1,28 @@
+X:335
+T:Newfoundland set tunes
+R:Reel
+S:Ryan's Fancy record
+Z:Added by alf.warnock@nrc.ca
+M:2/4
+L:1/8
+K:D
+|:"1st tune"DF EF/E/|Dd Bd/B/|AF ED/E/|FD B,A,|
+DF EF/E/|Dd Bd/B/|AF ED/E/|FD D2:|
+A|FA d>A|FA d>A|FA dB|c2 c>d|
+e/f/e/d/ cB|A/B/A/G/ EF/G/|AF EF/E/|D2 D:|
+"2nd tune"FA GB|FA f2|fe/f/ g/f/e|ed/e/ f/e/d/A/|
+FA GB|FA f2|fe/f/ g/e/c|ed d2:|
+A/B/|d2 c/d/c/B/|Ad F>G|AG EG|BA FA/B/|
+d2 c/d/c/B/|Ad F>G|AG EF/E/|D2 D:|
+S:https://www.folktunefinder.com/tunes/100004
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw01.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:400
+T:The Boys of Cormacreeva
+R:Reel
+S:Andy Dickson, Belfast (fiddle)
+C:James McMahon
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+~E3B {d}BAFE | (3.D.D.DFD {F}EDAD | EB{d}BA {d}BAFE | DFAF E2{F}ED |
+EB{d}BA {d}BAFE | D2(3FED ADFD | BdBA FBAF |1 EDAF ~E2{F}ED :|2 EDAF E4 ||
+(3Bcdef afef | {baf}a2 bf afef | dB{d}BA FEFA | (3BcdBA FEFA |
+Bdef afef | {baf}a2bf afef | dB{d}BA FBAF | DEFA E4 :|
+S:https://www.folktunefinder.com/tunes/117958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book2.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

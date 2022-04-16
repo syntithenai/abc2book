@@ -1,0 +1,32 @@
+X:215
+T: Bayue guihua biandi kai
+N: C0343
+O: China,Anhui, Jinzhai
+S: III, 552]
+N: BEREITS CODIERT Version aber aus SICHUAN, bitte vergleichen! 
+N: Pinyin-Text der ersten Strophe vorhanden!
+R: Xiaodiao, Shidiao, Baduanjing. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: D
+d3BA4 | B3AB4 | F3EF2A2 | B2A2B4
+A3Bd4 | B3AF4 | F2EFA2FE | D8
+F2FAB2Bd | A3FA4
+F2FAB2Bd | A3FA4
+A3Bd4 | B3AF4 | F2EFA2FE | D8
+A2ABA2F2 | EFEDE4
+A2BdB2AF | EFEDE4
+A2ABd4 | B2BAF4 | F2EFA2FE | D8
+S:https://www.folktunefinder.com/tunes/112642
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, baduanjing. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:4632
+T:Earl's Chair
+Z: id:dc-reel-81
+M:C
+L:1/8
+K:D Major
+FA|B2dA BAFA|B2dA BAFB|AFF2 DFF2|BAdA BAFA|!
+B2dA BAFA|B2dA BAFB|A3B defd|edef d2:|!
+Bd|e3f d2Bd|edef dBA2|e3f d2Bd|edef dBA2|!
+e2df eBB2|aff2 defg|afbf afdf|edef d2:|!
+S:https://www.folktunefinder.com/tunes/123415
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,52 @@
+X:14
+T:Ranveig
+R:Folkedanse
+C:Grieg / Trad.
+N:
+O:Norge
+A:Lom
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=85
+K:C
+%%staves (1 2) (3 4)
+V:1
+K:C treble
+%%MIDI transpose 0
+%%MIDI program 1
+"Allegro"A/>B/ ce | (3d/B/c/ A^G | A/>B/ cB | d/>c/ A^G |
+A/>B/ cA | d/>c/ B2 | (A/>B/ c[B=e] | !crescendo(!e/>^d/ e^G |
+A/>B/ c=A!crescendo)! | d/>c/ !diminuendo(!A^G | A/>B/ !diminuendo)!cA | "rit."A/>^G/ HA2) |]
+V:2
+K:C treble
+%%MIDI transpose 0
+%%MIDI program 1
+A3 | A3 | A3 | A3 |
+A3 | [F2A2] ^G | [F2A2] ^G | [^F2A2] E |
+=F2 E | ADE | F3/2 E ^D/ | =D2 H^C |]
+V:3
+K:C bass
+%%MIDI transpose -12
+%%MIDI program 1
+c'/>d'/ e'c' | (3f'/d'/e'/ c'b | c'/>d'/ e'd' | f'/>e'/ c'b |
+c'/>d'/ e'c' | b/>c'/ d' (e'-|e' _e'd' | c'b[_bd'] | 
+d'2 ^c' | d'b2 | c'/>b/a ^f | d He2) |] 
+V:4
+K:C bass
+%%MIDI transpose -12
+%%MIDI program 1
+a3 | a3 | a3 | a3 |
+a3 | z3 | z3 | z3 |
+a^ag | _f=fe | dcB | _BHA2 |]
+S:https://www.folktunefinder.com/tunes/112136
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Folkedanse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

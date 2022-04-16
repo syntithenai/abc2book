@@ -1,0 +1,36 @@
+X: 5
+T:Mamma's Pet (#205)
+M:4/4
+L:1/8
+S:Capt. F. O'Neill
+R:Reel
+K:G
+(3DEF|G2 FG EG D2|G2 BG dGBG|G2 FG EG D2|Beed BcAB|
+G2 FG EG D2|GABc dBAB|G2 FG EG D2|Beed "tr"B2 A2||
+BAGA Bc d2|Beed Bc d2|BAGA Bc d2|Beed "tr"B2 A2|
+BAGA Bc d2|Beed BcdB|G2 GB A2 Ac|Beed "tr"B2 A2||
+eA (3AAA edBA|GFGA Bc d2|eA (3AAA edBc|d2 ef "tr"g2 fg|
+eA (3AAA edBA|GFGA Bc d2|G2 GB A2 Ac|Beed "tr"B2 A2||
+%
+% In boyhood days I memorized the first part of this reel from the fiddl
+%e
+% playing of Mr. Downing a gentleman farmer who taught me the=20
+% rudiments of music on the flute. Thirty-five years later the second
+% part was supplied by A.S. Beamish, another West Cork musician.
+% Being without a name the tune was called "Timothy Downing" or
+% "Downing's Reel", in the O'Neill Collections. With a third part
+% obtained from the famous fiddler John McFadden of Mayo, this
+% tripartite reel is presented under its presumably true name.
+S:https://www.folktunefinder.com/tunes/124623
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/MammasPet205.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0205.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

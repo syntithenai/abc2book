@@ -1,0 +1,38 @@
+X:435
+T: Cha tian ge
+N: C1470
+O: China,Hunan, Shaoshan
+S: I, 546]
+R: Shange, Tiange. Nongtian laodong chang]
+M: 2/4
+L: 1/32
+K: E
+g4e4 | f8e4g4 | f8f2f6 | g2f2e2c2B16
+e2g2c4e2e2f4- | f4g2f2e16
+e16e2g2f12 | g2f2e2c2B12c4e2cef4- | f6e2e16
+g4e2e2 | f8g4e2e2 | f8
+f2f6 | g2f2e2c2B8- | B4c4e4c4e4f4
+B12c4e16 | z8b6g2 | f12e4f4z12
+B12c4e2cef8e4 | c6B2B16
+e4e4 | f8g4e4 | f8
+f2f6 | g2f2e2c2B12e2c2 | e2e2c4e2e2f4- | f4g2f2e16
+e16e2g2f12 | g2f2e2c2B12c4e2cef4- | f6e2e16
+e4e4 | f8g4e4 | f8f2f6 | G2f2e2c2B12
+e2c2 | e2e2c4e2e2f4- | f4g2f2e16
+e16g2f2f12 | g2f2e2c2B12c4e2cef4- | f6e2e16
+e4e4 | f8e4g4 | f8
+f2f6g2f2e2c2B8- | B4c4e4c4e4f4
+B12c4e16 | z8b6g2 | f12e4f4z12
+B12c4e2cef4-f6e2 | c6B2B16
+S:https://www.folktunefinder.com/tunes/112862
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tiange. nongtian laodong chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

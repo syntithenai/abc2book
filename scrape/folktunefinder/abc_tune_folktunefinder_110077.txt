@@ -1,0 +1,40 @@
+X:30
+T:December Rose
+C:Colin Hume, 2003
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:3/8=100
+N:For Christine Robb
+K:Dm
+P:A
+|: "Dm"d2A "^/"FGA | "Bb"B2F "^/"DEF | "C"G2 G- "^/"GFG | "A7"A2 A- "^/"A=B^c |\
+"Dm"d2A "^/"def | "C"e2c efg | "Bb"fed "^/"f2g | "A"a3- "^/"a2a |
+"Gm"b2B "^/"bag | "Dm"a2f "Bb7"d_ef | "Eb"g2B "^/"gf_e | "Bb"f2d "Bb7"B2f |\
+"C"=e2G "^/"edc | "G"d2g "^/"dc=B | "D7"Ac=B "^/"AG^F | "G"G3- "^/"G2 G |
+"F"A2F "^/"A=Bc | "G"=B2G "^/"Bcd | "Am"c=BA "^/"c2d | "E"e3- "E7"ede |\
+"Dm"f3 "^/"d2f | "Am"e3 "^/"A3 | "E7"=B3 "^/"^G3 |1 "A"A3- "A7"A2A :|2 "A"A3- "A7"A3 |
+M:3/2
+L:1/4
+Q:3/4=70
+%%MIDI gchord czc
+K:D
+P:B
+|: "D"d2 ^f2 "A"e2 | "Bm"d3/2c/2 Bc "G"dB | "D"A2 d2 "F#7"c2 | "Bm"B3 A "Bm/A"Bc |\
+"G"d2 B2 Bc | "D/F#"B2 A3F | "Em"G3E FG | "A7"A2 B2 c2 :|
+"D (last time)"d6 |]
+S:https://www.folktunefinder.com/tunes/110077
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/2
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

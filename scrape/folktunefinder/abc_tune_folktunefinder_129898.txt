@@ -1,0 +1,24 @@
+X: 9
+T:Cleveland Park
+C:Duncan Chisholm (Wolfstone)
+M:6/8
+Q:3/8=120
+R:jig
+K:EAEO
+[L:1/8] "Em"B,EF GFE | "C" CEF GFE | "A7"^CEF GFE | "D" FAF "B7"D2E |
+"Em" B,EF GFE | "C" CEF GFE | "D" FAF DFA|1"B7" AGF "Em"EDC :|
+[2 "B7"AGF "Em"E2 B, || "Em" EGB eBG | "Am" ABc"Em" BGE | "C" CEG "Em/A"B,EG | "Am" GFE "B7"^DEF |
+"Em" EGB eBG | "Am" ABc "Em"BGE | "C" CEG "Em/A"B,EG | "B7"FE^D "Em"E2 B, ||
+"Em" EGB eBG | "Am" ABc"Em" BGE | "C" CEG "Em/A"B,EG | "Am" GFE "B7"^DEF |
+"Em"B,EF GFE | "C" CEF GFE | "D" FAF DFA | "B7"AGF "Em"E3|]
+S:https://www.folktunefinder.com/tunes/129898
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

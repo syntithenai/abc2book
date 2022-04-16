@@ -1,0 +1,20 @@
+X:110
+T:Paddy Clancy's
+Z: id:dc-jig-96
+M:6/8
+L:1/8
+K:D Major
+f|afd edB|dcd AFA|dcd ede|fef efg|!
+afd edB|dcd AFA|dcd efg|fdc d2:|!
+e|f3 g3|f3 fed|f3 g3|afd e2d|!
+f3 g3|f3 fed|faf ede|fdc d2:|!
+S:https://www.folktunefinder.com/tunes/128577
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

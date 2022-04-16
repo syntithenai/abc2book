@@ -1,0 +1,69 @@
+X:2
+T:Alla Hornpipe
+C:Georg Friedrich Hndel
+O:1685 - 1759
+R:Valse
+M:3/2
+L:1/4
+Q:1/4=240
+K:C             %transposed from C
+%%continueall 1
+%%staves 1
+G2c2d2 |  ec2d ec | dg2d  ed/c/ | dg2d ed/c/ | dG2ggg |
+gf/e/ffff | f e/d/ eggg | gf/e/ffff | f3g ed |  efTd3c |
+cG c2d2 |  ec2d ec | dg2d ed/c/ | dg2ddG | !p!G2c2d2 |
+ec2d ec | dg2d ed/c/ | dg2!f!ggg | gf/e/ffff | f e/d/ eggg |
+gf/e/ffff | f e/d/ ec'c'c' | c' b/a/  b b b b |  ba/g/ a/c'/b/c'/ a/c'/b/c'/ |
+d3d g2- | gc' b2ag | g2zggg | fg/f/ egf e |  ed/c/d!p!ggg |
+fg/f/ egf e |  ed/c/d!f!ggg | gf/e/ffff | f3g ed |  efTd3c |
+c2zggg | gf/e/ffff | f3g ed |  efTd3c | c6 !fine! :|
+ecA e e e |  e(d/c/)dddd | d.c/.B/ cccc | c.f/.e/ (d/e/)(c/d/) (B/c/)(A/B/) |
+^G/(B/A/B/) ^G/(B/A/B/)  e/(e/d/e/) | c/(e/d/e/) (c/d/)(B/c/) A/(a/g/a/) | f/g/a/g/ (f/g/)(e/f/) (d/e/)(c/d/) |
+B/c/d/c/ (B/c/)(A/B/) G/(g/f/g/) |  e(a/g/) ^f.a/.g/ (f/g/)(e/f/) | ^d B B/c/  BT( B3/A//B//) |  e B B/c/ BT( B3/A//B//) |
+^f B B/c/  BT( B3/A//B//) | g B B/c/ Bg B | (^fg/a/)AAAA | (^fg/a/)AAAA |
+^d3 Be2- |  e^f B e^dA | ^G/(B/A/B/) ^G/(B/A/B/) [E/e/](e/d/e/) | ^c/(e/d/e/) (^c/d/)(B/^c/) A/(a/g/a/) |
+^f/(g/a/g/) f/a/(g/a/) (d/e/)(c/d/) |  B/c/d G/(g/^f/g/) d/(g/f/g/) |  e/(g/^f/g/) c/(a/g/a/) dd |
+(^ga/b/)dddd | (^ga/b/)dddd | ^g3^f/e/ ag/=f/ | e/f/dc2TB>A |
+AaAaa=g/f/ | ggAggf/e/ | faAaag/f/ | ggAggf/e/ |
+(fe)(ed)(dc) |  (c_B)(BA)(A^G) | ^G3fe2- | efc2BA | !D.C.! A6  ||
+V:2
+E2G2B2&C2G2G2 | cG2BcG&GC2 GGG | Bd2BcG&GG2GGG | Bd2BcG&GG2GGG | B2zBGB&G2x4 |
+c2zAFD | B2zeee&x2G2G2 | ed/c/dddc&A2zAAA | B3Bc2-&G3GG2- | ccc2B2&GAD2G2 |
+c2E2G2&E2x2x2 | cE2GcE | Gd2GcE | Gd2GG2 | C2E2G2 |
+cE2GcE | Gd2GcE | Gd2eee&x3BGB | ed/c/ dddd&c2FAFA | dc/B/ceee&B2Gxx2 |
+ed/c/dddd&x6 | dGceee&x3GcA | ^f2zdgd&A2xGGG | e2zeee&G2c2E2 |
+A3Ad2&^F3FG2 | g2g2^f2&e2d2d2 | g2zeee&B2x4 | de/d/cedc&x6 | cEGeee&x6 |
+de/d/cedc&x6 | cEGeee&x3GB,G | ed/c/dddc&c2D2A2 | B3Bc2-&G3GC2- | cdB3c&CAD2G2 |
+c2zeee&E2xGBG | ed/c/dddc&c2D2A2 | B3Bc2-&G3GC2- | cdB3c&CAD2G2 | c6&E6 :|
+A2zccc&C2xAAA | A2zAAA&A2xDFD | ^G2zAAA&B,2xCEC | Ad/c/BFAd&F2zDDF | d2zdeB&[B2^G2]xABA |
+ceza2e&E2x[e2c2]A | e2dAdf&[A2F2]zf2[dA] | f2zfed&[d2B2]xd2B | e2z^f2e&c2xAcA | _e2zAGF&[A2^F2]xF=E_E |
+G2zBAG&E2xG^FE | _e2zAFF&[A2^F2]xF_EE | e2zGGG&[B2G2]xEEE | A2z^FFF&_E2x=EEE | A2zAAA&_E2x=EEE |
+A3AG2-&^F3_E=E2 | G^FF3E&C2E_D_E2 | E2zBeB&B,2x^GEA | ^cezA2^c&A2x_DEa- | d2zd2A&a^fx^FDF |
+B2zDGB&[G2D2]xB,D2 | G2zedd&E2xGAF | B2zddd&[^G2E2]xABA | d2zddd&B2x^GBA | d2B2e2&B2^G2[A2E2] |
+zAA2[^G2E2]&x[FB,][E2C2]D2 | A2zEEE&[E2C2]xCCC | E2zEEA&_D2xDDD | F2zffe/d/&D2xdd2 | e2zeec&^c2xddE |
+[dF]xx4&(AG)(GF)(FE) | (ED)(DC)(CB,)&x6 | E3^GA2-&[B,3^G,3]B,C2 | AAA2^G2&A,2[E2C2]E2 | A6&[E6C6] ||
+V:3
+C,2E,2G,2 | CE,2G,CE, | G,B,2G,CE, | G,B,2G,CE, | G,2zG,E,G, |
+A,2zF,D,F, | G,2zE,C,E, | F,2zD,F,D, | G,3G,C2- | CF,G,2G,,2 |
+C,6 | Z3 | Z3 |
+z2zG,E,G, | A,2zF,D,F, | G,2C,2z2 |
+Z | z2zC,A,,C, | D,2zB,,G,,B,, | C,2zC,CC |
+C3CB,A, | B,G,D2D,2 | G,,4z2 | Z2 |
+Z | z2zE,G,E, | A,2zD,F,D, | G,3G,A,2- | A,F,G,2G,,2 |2
+C,CG,E,G,E, | A,3D,F,D, | G,3G,A,2 | F,2G,2G,,2 | C,6 :|
+A,,2zA,,C,A,, | F,2zB,,D,B,, | E,2zA,,C,A,, | D,2zD,F,D, |
+E,2zE,^G,E, | A,2zA,,C,A,, | D,2zD,F,D, | G,2zG,,B,,G,, | C,2zC,A,,C, | B,,2zB,,B,B,, |
+B,2zB,,B,B,, | B,2zB,,B,B,, | B,2zB,,B,B,, | C,2zC,CC, | C2zC,CC, | 
+B,,3B,C2 | A,2B,2B,,2 | E,2zE,^G,E, | A,2zA,,_D,A,, | D,2zD,^F,D, | 
+G,2zG,,B,,G,, | C,2zC,F,D, | E,2zB,^G,B, | E,2zB,^G,B, | E,3D,C,2 |
+D,2E,2E,,2 | A,,2zA,,A,A,, | A,2zA,,A,A,, | A,2zA,,A,A,, | A,2zA,,A,A,, | 
+D,2D,2D,2 | D,2D,2D,2 | D,3D,C,2- | C,D,E,2E,,2 | A,,6 ||
+S:https://www.folktunefinder.com/tunes/103199
+S:http://michel.bellon.free.fr/Musique/abc/watermusic2.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 130
+T: Swallow's Nest, The
+C: J-57
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 14cm
+K: D
+A/c/| "D"dcd fdc| dAG FED| FAd "A"cAF| E=CE "A7"GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg| "D"f/f/df "A7"gec| edc "D"d2 :|
+|:\
+f/g/| "D"a>ba fdf| "A7"gag ecA| "D"fef "A7"gfg| ecA GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg |1 "D"f/f/df "A7"gec| edc "D"d2 :|2\
+      "D"f2f "A"gec| edc "D"d2 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/106885
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

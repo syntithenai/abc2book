@@ -1,0 +1,26 @@
+X: 80
+T: THE BRAVE VOLUNTEERS
+B: O'Neill's 80
+M: 2/4
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: "Collected by F.O'Neill"
+K:D
+f>e \
+| (dB A).F | (A>B d).e | f2 (e{fe}d) | (B{cB}HA) (d>e) |
+| (ea) (ab) | (af d>)e | f>f ({g}fe/d/) | He2 de |
+| (fa) (ab) | (Taf) de | Tf2 e{fe}d | BA HzA |
+| Bc dB | AB de | f2 (d/f/)e | d2 ||
+S:https://www.folktunefinder.com/tunes/128078
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0051-0100_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0080_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

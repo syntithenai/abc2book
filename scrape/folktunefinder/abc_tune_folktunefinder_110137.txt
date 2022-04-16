@@ -1,0 +1,26 @@
+X:90
+T:No Clapping!
+C:Colin Hume, 1997
+L:1/8
+M:6/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+K:Am
+P:A
+|: "Am"A,2A, "^/"ECA, | "G"B,2C "^/"DB,G, | "F"A,B,C "^/"A,B,C | "G"B,CD "^/"B,CD |\
+"Am"A,2A, "^/"ECA, | "G"B,2C "^/"DB,G, | "F"A,B,C "^/"A,B,C | "G"B,A,G, "Am"A,3 :|
+K:A
+P:B
+|: "A"A2A "^/"ecA | "D"fdA "A"ecA | "A"A2A "^/"ecA | "G"Bdc "^/"B2d |\
+"A"c2A "^/"Ace | "A"a2e "^/"ecA | "D"def "A"ecA | "E7"dBG "A"A3 :|
+S:https://www.folktunefinder.com/tunes/110137
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

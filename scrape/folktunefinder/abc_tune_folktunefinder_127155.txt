@@ -1,0 +1,32 @@
+X: 6
+T:Whitmonday Hornpipe. FK.06
+M:C|
+L:1/8
+Q:160
+C:"(Either invented or remembered by FK)"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:In left margin by title :'1919'..."by FK" in the margin is further
+N:proof that this is one of Frank Kidson's notebooks, and nothing to do
+N:with George Hudswell.
+Z:vmp.John Bagnall
+K:E_
+GA| BABG E2E2 | cBcA F2 F2 | BABG E2 G2 | FEDC B,2 GA |!
+ BABG  E2 E2 | cBcA F2 GA | BcBA G2 F2 | E2 e2 e2 :|:!
+FE | DEFD B,2 E2 | DEFD B,2 G2 | A2 G2 F2 E2 | DEFD B,2 GA |!
+ BABG E2 E2| cBcA F2 GA | BcBA G2 F2 | E2 e2 e2 :|]
+S:https://www.folktunefinder.com/tunes/127155
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

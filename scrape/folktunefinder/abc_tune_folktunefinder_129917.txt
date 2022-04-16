@@ -1,0 +1,22 @@
+X: 1
+T:Le retour du marin
+T:(Pauvre marin / Brave soldat)
+C:Parole et musique : tradition de l'Ouest de la France, antrieure au XVIIIe sicle
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:F
+"C"z3 CDE |: "F"F3 GAF | "C"(G2F ) E2G |1 "F" F3 z3 | "C"z3 CDE :|2 "F"F3 z2F ||
+"Bb"B2B "F"A2A | "C"c2A GzA | "Bb"B2G "F"A2F | "C"G2E (CD)E | "F"F3-F2z |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

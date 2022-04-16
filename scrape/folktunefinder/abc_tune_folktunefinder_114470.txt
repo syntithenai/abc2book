@@ -1,0 +1,23 @@
+X:120
+T: Queen of the Fair
+M: 6/8
+L: 1/8
+R: Jig
+K: D
+E|FEF D2 A,|DFA dAF|GFG FGA|BGE EAG|
+FEF D2 A,|DFA dAF|GFG EAG|FDD D2 :|
+g|fdf ece|dAG FEF|DFA dAF|GFG E2 g|
+fdf ece|dAG FED|EFG BAG|FDD D2 :|
+B|Add fdd|add fdd|Bef g3|fdf ecA|
+|1 Add fdd|add fdd|EFG BAG|FDD D2 :|
+|2 afa geg|fdf e3|EFG BAG|FDD D2 ||
+S:https://www.folktunefinder.com/tunes/114470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

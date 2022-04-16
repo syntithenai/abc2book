@@ -1,0 +1,28 @@
+X:25
+T:Underjordisk melodi
+R:Halling
+C:Trad
+H:1695
+N:Heinrich Meyer
+O:Norge - Norway - Norvge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=100
+K:A
+A | Be (B/c/d/B/) | c>d cA | Be (B/c/d/B/) | c3/2 :|!
+|: A | Be B/c/d/B/ | cdcA | Be B/c/d/B/ | cd c2 |\
+ .e .e | .e .e |!
+ee/d/ c | dd/c/ B | ee/d/ c | dd/c/ B | cB/A/ BA/G/ | A2 A :|
+S:https://www.folktunefinder.com/tunes/112148
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

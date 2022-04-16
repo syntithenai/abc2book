@@ -1,0 +1,80 @@
+X:5
+T:Pavan 5
+C:Bacheler
+L:1/2
+M:none
+K:D frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+%%scale 0.686
+[,aa,c1]{,a}/,c [,ea,c]a[caf]e |\
+[gca/]c[ha,,g1] ,,,c/f[ef],e//,c |\
+[caf1],,,,c/e [gca]h[kfh],h |\
+[efh/]g[he,g]>,,e [hef/][gh,e1][ef,g/] |\
+[ceab1][,c,c/][aa] [,,ee][,ef][,cfe,c],,e |
+% Takt 6
+[,aa,c/]>,,,c ,,a,,c,,a,,,c [,aa,c/],,,b,,,,c1 ||\
+[,aa,c3//],,e///,a ,c,a,,c,,e,a,c,ea [ca//]>ac////acaca,e,c,a///cace,,c,,a,,c |
+% Takt 8
+[g,a3///]e////ghghghgeg h///,a,e,f,h,f,h,a |\
+f///,c,a,ce,a,,,ce ,a//c///eca,e,c |\
+,a//,c[,ea,c]a [caf/]e [gca]h[kfh3//]h///ge,h,f,e,f,heg[he,g/]>,,e |
+[hef/][gh,e1][ef,g/] |\
+[ceab3//],c///,a [,c,c],ea,,e,a,c,ea |\
+,,a///,c,eac,,aec eca,e,c,a[,ca//] |\
+[,aa,c//]>,,e,a,,a,,c,,e ,a,c,eacace |\
+[ca/],,a,,,,c1 ||
+% Takt 16
+[ccee1][,afg/],f//,,,e ,,,g,,e[hef/],,,e[g,h] |\
+[eac//],,a,,c,,e [c,f/][,ef] [ccd1]a/[aac] |\
+,,,e//,,f[,ef/][,cfe,c],,e [,af,,e//],,,,,c,,,,,e,,,,b[,ea,c/][,ca//],a |\
+,c//,e[aac],,a ,,c,,e[,ef]a [cef1][cce/][cef]>,,e[eac/][g,a][ha,,g] |
+% Takt 20
+[ea,c1][ccd/]a//,,c |\
+[fca/][ec,d]>,a[c,de/] |\
+[b,c,e/][c,a][eh,ge],g |\
+[cca,,c/],,a,,,,,c1 ||\
+[cca//]>aca,e,c [,ac//],c///,ea,,,b,,,c,,a ,,c,,e,a,c[,ef//]h,,,e/[gh] |
+% Takt 25
+[eac//]>,,a,,c,,e,a,c ,e,c,eac,e[c,a//] |\
+[c,d//]>,,c,,d,a,c,e a,eaca,c[aac//] |\
+,,,e//,e///,c,a,c,ea [,ca//],a[,ca,,c/] |\
+[,a,,,e//],,,,,c,,,,,e,,,,b [,ea,c/][,ca//]>,a |
+% Takt 29
+,c///,,e,a,c,,acca c,eac,a,,c,,a,,c a,,a,,c,,e,a,c,eac//[cce][cef/]>,,e[eac/][gca][ha,,g] |\
+[ea,c//]>ceace c,,d,,c,,da,,c,,a,,c |
+[f,a///],,c,,d,a[ec,d3///],a////,c ,a3///,,d////,,c,,d//[c,de] |\
+% Takt 32
+[b,c,e/][c,a][eh,ge],g |\
+[cca/],,a,,,,,c1 ||\
+[caa{,a}1]>a [,e,e{,a}1]{,c}/[,c,c] |\
+[,a,b{b}1]{,a}/,,e//,,c [,,ae,c1][cc,e] |\
+[aa,g/],e//,,,e ,,,c/[,cc] [,ecb],,b[ha,g1] |
+% Takt 37
+,,,,g/[ge],c[e,f] ,,,c,,e//,,c[e,fc/],c |\
+[cc,b/],a,aa//,e [aa,ce/]c//e[c,e/]a |\
+[,ec,c/],,a[,ca,a],,,,,c [,a,,ce],,,,e//,,,b[,,cc,a/],c |\
+[,,,c,c//],a[,aab/][ccfeec],,e//a [,efecc{,a}/],,,e,,,,c1 ||
+% Takt 41
+[caa{,a}3//]a///c ,a//ca,e///,c ,e,a,c,e,a,c,ea,c,,a,,a,,c,,a,,,c,,,b,,,,e |\
+,,,,c///cceca,e,c [,aa{,a}//],,e///,a,c,a,,e,,c |
+[,,ae//],,c///,,e,a,c,ea [c,a3///]a////cecececac |\
+% Takt 44
+[aa,g/],e//,,,e ,,,c/[,cc] [,ecb],,b[ha,g1] |\
+,,,,g//hhg///e g//,e,e,c///,a ,ceece,,c,c,b,c,eacef[e,,c//] |
+[c,,b///],,a,a,,e,a,,a,,c,,e ,a,c,eaca[ca,b//] |\
+% Takt 47
+[a,,,e///],c,a,cc,ae,,c [c,e],,c,,e,a,c,,aca |\
+[,ea{,a}3///],c////,e,f,e,f,e,f,e,c,a [,c,,a//]>,a[,c,,,c],,d,a,c |
+[,a,,,e//],,,,c,,,,c,,,,e///,,,b [,,,c,a],,a,,c,,d,a,,c,c// |\
+[,,,c,c//],a[,aab/][ccfeec],,e//a |\
+[,efecc{,a}/],,,e,,,,c1 |]
+S:https://www.folktunefinder.com/tunes/109566
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

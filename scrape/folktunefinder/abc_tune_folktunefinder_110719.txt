@@ -1,0 +1,32 @@
+X:15
+T:the Weaver's Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002dc.html
+%%ID:000002dc
+K:D
+P:1
+D3 B  ABAF  ABAF| E2 g4 Bc dcBA |D3 B  ABAF  ABAF| D2 d4 Bc dcBA ||
+P:2
+d2 cB FGAF  E4  | E2 g4 Bc dcBA |d2 cB FGAF  E4  | D2 d4 Bc dcBA ||
+P:3
+defg  a2 F2 E4  | E2 g4 Bc dcBA |defg  a2 F2 E4  | D2 d4 Bc dcBA ||
+P:4
+d2 f2 a2 F2 E4  | E2 g4 Bc dcBA |dfaf  cded  EFGE| D2 d4 Bc dcBA |]
+S:https://www.folktunefinder.com/tunes/110719
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:230
+T:The Star of Munster
+R:Reel
+S:Josie Nugent,Clare (fiddle)
+D:Private tape
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:G
+AB || B {dcB}c2A {d}BAGB | (3.A.A.ABA GEDG  | EAAG ABcd | eaaf {a}gedB |
+B {dcB}c2A {d}BAGB | (3.A.A.A BA GEDG | EAAG ABcd | egdB {d}BAAB |
+B {dcB}c2A {dBA}B2 GB | A2BA GEDG | E {GED}E2G ABcd | ea {bag}a2 gedB |
+B {dcB}c2d A {dBA}B2c | A2 {d}BA GEDG |E {GED}E2G ABcd | egdB {d}BAAg ||
+ea {bag}a2 {b}ageg | agbg agef | f {agf}g2a gede | {age}g2ag {a}gedg |
+ea(3.a.a.a ageg | agbg agef | f {agf}g2b a2ga | bgab gedg |
+ea(3.a.a.a {b}ageg | agbg agef | f {agf}g2g {a}gede | {age}g2ag {a}gedg |
+ea(3.a.a.a ageg | agbg agef |{age}g2 eg {bag}a2 ga | bgab gedB | A4 ||
+S:https://www.folktunefinder.com/tunes/117924
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book2.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

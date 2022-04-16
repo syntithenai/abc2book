@@ -1,0 +1,29 @@
+X:6
+T:Doubling Map
+T:to the tune of "The Gypsy Hornpipe"
+% need to check repeats against the dance
+M:4/4
+L:1/8
+Q:1/4=124
+C:Trad
+R:hornpipe
+%F:http://abc.sourceforge.net/abcMIDI/original/coll.txt 2005-02-10 16:52:18 UT
+K:G
+d2|: g>fe>d e>dB>d|e>d (3efg B2 B>A | G>FG>A B>AB>d |e2 A2 A2 d2 |
+g>fe>d e>dB>d|e>d (3efg B2 B>A|G>FG>A B>cB>A|1 G2 E2 E2 d2 \
+:|2 G2 E2 E2 g>f|
+|: e2 B2 B2 g>f|e2 B2 B2 g>f|e>de>f g>fg>a|b2 e2 e2 g>a|
+b>ga>f g2 g>f|e>d (3efg B2 B>A|G>FG>A B>cB>A |1 G2 E2 E2 g>f \
+:|2 G2 E2 E4|]
+S:https://www.folktunefinder.com/tunes/122706
+S:http://abc.sourceforge.net/abcMIDI/original/coll.txt
+S:http://www.biff.org.uk/dave/molly.abc
+% Rhythm Hornpipe
+% Link Link to Webpage
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

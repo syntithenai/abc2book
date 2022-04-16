@@ -1,0 +1,35 @@
+X: 17
+T:Malldraeth
+T:The Soft Sea-shore
+M:3/4
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Waltz
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:G
+dc|B2GBAG|F2DFEC|B,2D2GF|G4dc|B2g2f2|e2A2d2|(^c3d) ec|d4:||!
+d2|edefge|d2B2cd|e2EFGA|G2FEDC|B,2D2GF|E2c2B2|A>cD2GF|G4:||
+S:https://www.folktunefinder.com/tunes/109487
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/Malldraeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/SoftSeaShore.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/Malldraeth.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

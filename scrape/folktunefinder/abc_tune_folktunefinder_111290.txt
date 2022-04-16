@@ -1,0 +1,36 @@
+X:59
+T:Hora Nunului Mare
+O:rumania
+C:Roemeni\^a
+M:4/4
+L:1/8
+Q:1/4=112
+K:Em
+V:1
+"Em"  (3BBB  (3g2fe2 e3 |"D"  (3d2ef2  (3e(d2 d)"C" B |{(B}(c3) B/c/"Am"  (3d2cc  (3B(B|"Em" (B4) B4) :| |:
+"D" GA AA A2  (3zdc |{(_B}"G" B4) "D" A2 "G" G2 |{(^c}"D7" d4)  (3d2cc  (3B2|{(_B}"G" B4) "D7" A2 "G" G2 |
+"D" GA AA A2  (3z"D#" dc |{(_B}"Em" B4) A2  (3G2E|"B7" FG FG AG GE |"Em" E4 "A7" E4 :| |:
+"D"  (3A2FA  (3BcA  (3(A2A2)F | (3A2FA  (3BcA  (3(A2A2) |{(^c}"G" d4) "Em"  (3d2(c"Am" c2)  (3B|{(_B}"G" B4) "D7" A2 "G" G2 |
+"D"  (3A2FA  (3BcA  (3(A2A2)F |"D7"  (3A2FA  (3Bc"Dm" A  (3(A2A2)_B |"B7" BA AG GF FE |"Em" E4 E4 :|
+V:2          %2e stem
+(3ddd  (3b2ag2 g3 | (3f2ga2  (3g(f2 f)d |(e3) d/e/ (3f2ee  (3d(d|(d4) d4) :| |:
+Bc cc c2  (3zfe |{(^c}d4) c2 B2 |{(=f}f4)  (3f2ee  (3d2|{(^c}d4) c2 B2 |
+Bc cc c2  (3zfe |{(_e}e4) c2  (3B2G|AB AB cB BG |G4 G4 :| |:
+(3c2Ac  (3dec  (3(c2c2)A | (3f2df  (3gaf  (3(f2f2) |{(_b}b4)  (3b2(aa2)  (3g|{(f}g4) f2 d2 |
+(3c2Ac  (3dec  (3(c2c2)A | (3f2df  (3ga=f  (3(=f2=f2)e |_ee _ee e_e _eA |G8 :|
+V:3          %3e stem
+B4 g4 |d4 f2 B2 |c4 d4 |z2  (3Bcd  (3efg  (3fdB :| |:
+(D8 |(D8) |(D8) |(D8) |
+D6) _E2 |E4 D2 C2 |B,4 A,2 B,2 |E4 E2 ^C2 :| |:
+z8 |z8 |z8 |z8 |
+z8 |z8 |z8 |z8 :|
+S:https://www.folktunefinder.com/tunes/111290
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

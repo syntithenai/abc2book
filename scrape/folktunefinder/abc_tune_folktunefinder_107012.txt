@@ -1,0 +1,22 @@
+X:102
+T:Tone Rowe
+C:Brendan Tonra
+M:6/8
+R:jig
+K:D
+L:1/8
+"D"~F3 AFE|EDB, A,B,D|~F3 "G"GFG|"A"ABF AFE|
+"D"~F3 AFE|EDB, A,B,D|~F3 "G"GFG|1"A"AFD "D"D3:|2"A"AFD "D"D2||
+e|"D"f2 d dcd |"G"edc Bcd|"D"~f3 "Bm"dcd|"Em"ABF "A"Ade|
+"D"f2d dcd|"G"edc Bcd|"D"faf "G"gec|1"A"dAF "D"D2:|2"A"dAF "D"D3|]
+S:https://www.folktunefinder.com/tunes/107012
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/alljigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:45
+T: Der Tannhaeuser
+N: Q0015C
+O: Mitteleuropa, Schweiz, Kt. Luzern, Escholzmatt, Entlebuch
+N: Eine weitere Variante (S.161), die sich von diesem Lied nur durch die
+N: (angeblich) falsche Takteinteilung unterscheidet, wurde nicht kodiert.
+N: In der zweiten Zeile Triole eingefhrt (in der Notation = Dreiergruppe).
+R: Ballade,  Wallfahrt, religioes
+M: 2/4
+L: 1/16
+K: Bb
+F2 | F3GG3F | F2BBB6
+A2 | B2c2d3de2 | d2c2B4z2
+F2 | F3GG2FF | F3BB6
+A2 | B2B2c2d3de2 | d2c2B4z2
+A2 | B2c2d6c2 | B2AAG4z4
+c6ddccB2 | A2G2F4z2
+A2 | B2ccd6c2 | B2A2G4z2
+c2 | c6ffeec2 | B2A2B4z2
+S:https://www.folktunefinder.com/tunes/109983
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade,  wallfahrt, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

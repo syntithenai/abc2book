@@ -1,0 +1,26 @@
+X:75
+T:the Plymouth Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002e8.html
+%%ID:000002e8
+K:A
+A2 c2 e2 a2 g3 f | g2 B4 e2 dcBA | A2 c2 e2 a2 g3 b | E2 A4 Bc dcBA ||
+agfe  defd  efge | g2 B4 e2 dcBA | dcBA  GABG  ABcA | E2 A4 Bc dcBA |]
+S:https://www.folktunefinder.com/tunes/110731
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:16
+T:Canevas
+R:jig
+C:Yvan Rivierre
+M:6/8
+L:1/8
+Q:3/8=111
+K:G dorian
+|: DFG AGF | GAB c2A | BAG FGA | GFD C2F |
+DFG AGF | GAB cAA | BAG FGA | GAF G2F :|
+GG/G/G BGG | cGG BGG | F2G AFB | cBc AFD |
+G2G BGG | cGG BGG | F2G A2B | cAF G2F :|
+S:https://www.folktunefinder.com/tunes/104632
+S:http://domren.free.fr/ABC.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

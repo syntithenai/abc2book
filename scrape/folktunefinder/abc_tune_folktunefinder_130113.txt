@@ -1,0 +1,30 @@
+X:5
+T:C'est Toi, Seigneur, le pain rompu - D293
+C:G. Kirbye (1560-1634)
+%%staves {1 2 3}
+M:C|
+L:1/2
+K:D
+V:1
+D |F3/F/|E D |G G |F E |F A |A^G |A2 |
+V:2
+F,|A,2 |C B, |B, D |A,C |D E |B,2 |C2 |
+V:3
+D,|D,2 |A,,B,,|G,,B,,|D,A,,|D,C,|E,E,,|A,,2|
+%
+V:1
+zF |B3/A/ |G F |E D |C F |E D |D C |D2 ||
+V:2
+zD |D2 |D2 |C B, |^A,=A,|C F, |B, E, |F,2||
+V:3
+zD,|G,,3/F,,/|B,,D,|A,,B,,|F,,D, |A,,B,,|G,,A,,|D,2||
+S:https://www.folktunefinder.com/tunes/130113
+S:http://moinejf.free.fr/messe/messeC.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

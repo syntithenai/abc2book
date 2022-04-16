@@ -1,0 +1,25 @@
+X:13161
+T:Pipe on the Hob, The
+R:jig
+E:11
+I:speed 335
+M:6/8
+K:ADor
+AB|c3 edc|edc BAG|~A3 ~g3|eaa ged|\
+c3 edc|ed^c deg|age dBe|~A3 A:|*
+ef|~g3 geg|age dBe|~A3 ~g3|eaa gef|\
+g3 geg|age deg|age dBe|~A3 A2:|*
+B|c3 dcd|ecA AGE|c3 dcd|ecA A2B|\
+cBc dcd|ede gab|age dBe|~A3 A2:|**
+S:https://www.folktunefinder.com/tunes/116206
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

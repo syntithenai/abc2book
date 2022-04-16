@@ -1,0 +1,46 @@
+X:1
+T:Ana Lugojana
+R:hategana
+O:Romania
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+M:2/4
+L:1/8
+Q:1/4=140
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+K:Em
+P:A
+%%MIDI program 1 15
+|:"G"b zz c'|"D"a zz b|"G"gf ef|g2 d2|bb c'b|"F#m"ag ag|"B"fe BB |"Em"e zz2 :|
+P:B
+|:"Em"e3f|gb ag|"D"gf ef|"G"g2 d2|"Em"e3f|gb ag|"B"fe BB|1"Em"ezz2:|2"Em"e zz E||
+P:C
+"C"Ee ed|ed cB|"D"d2 B2|"G"cB AG|"C"Ge ed|ed cB|"D"d2 B2|"G"cB AG||
+|:"Em"GA BG|AG FE|e2 B2|cB AG|GA BG|AG FE|"B"FE B,B,|1"Em"Ezz2:|2"Em"E zz D||
+P:D
+|:"G"DG DG|BG d2|"D"cB Ac|"G"Bc/2B/2 AG|DG DG|BG d2|"D"cB AB|"G"Gzz2:|
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/114063
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/AnaLugojana.abc
+S:http://people.csail.mit.edu/jaffer/Music/AnaLugojana.abc
+S:http://voluntocracy.org/Music/AnaLugojana.abc
+S:http://www.voluntocracy.org/Music/AnaLugojana.abc
+% Rhythm Hategana
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

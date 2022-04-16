@@ -1,0 +1,23 @@
+X:225
+T:Crossing the Minch
+% Nottingham Music Database
+S:Trad via Lesley Dolman
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+de|"D"fA(3AAA f2ef|"G"gB(3BBB g2ag|"D"fA(3AAA f2ef|"Em"gBed "A7"dcde|
+"D"fA(3AAA f2ef|"G"gB(3BBB g2ag|"D"fgaf "A7"gecd|e2d2 d2:|
+Ad|"D"fA(3AAA fgaf|"G"gB(3BBB gabg|"D"fA(3AAA fgaf|"Em"gBed "A7"dcde|
+"D"fA(3AAA fgaf|"G"gB(3BBB g2ag|"D"fgaf "A7"gecd|e2d2 d2:|
+S:https://www.folktunefinder.com/tunes/129772
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

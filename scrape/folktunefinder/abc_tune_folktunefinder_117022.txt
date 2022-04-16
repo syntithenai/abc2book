@@ -1,0 +1,25 @@
+X: 26
+T:Uist Tramping Song
+M:4/4
+L:1/8
+C:John R. Bannermann
+R:March
+K:D
+"A7"A,B,|"D"D2 A,B, D2 DF|"D"A>A AF "A7"AA FE|"D"D2 DF "Bm"A2 FA|
+"G"B>B AF "F#m"FE FA|!"G"B>B BA "A7"FEDE|"D"F>E "Bm"DB, "G"B,A, "A7" A,B
+,|
+"D"D>D DD "G"BA "A7"FE|"D"D2 "G"A,B, "D"D2||!
+"A7"A,B,|"D"DA, FE D2 DF|"D"A>A AF "A7"A2 FE|"D"D>D DF "Bm"A2 FA|
+"G"B>B AF "F#m"FE FA|!"G"B>B BA "A7"FEDE|"D"F>E "Bm"DB, "G"B,A, "A7" A,B
+,|
+"D"D>D DD "G"BA "A7"FE|"D"D2 "G"D2 "D"D2||!
+S:https://www.folktunefinder.com/tunes/117022
+S:http://home.usit.net/~bhooper/scot3.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

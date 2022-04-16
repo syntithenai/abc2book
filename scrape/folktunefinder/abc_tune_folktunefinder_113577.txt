@@ -1,0 +1,18 @@
+X: 11
+T:Widwood Flower
+M:4/4
+L:1/8
+K:G
+ EF| G2 Ac E2 FE| D2 FB, C2 EF| G2 Ac E2 FE| D2 FB, C2 G2| e2 ed c
+2 GG|\
+ A2 BA G2 E2| E2 ED E2 GE| D2 FB, C2 |
+% Output from ABC2Win  Version 2.1 i on 29/01/2006
+S:https://www.folktunefinder.com/tunes/113577
+S:http://www.banjolin.co.uk/tunes/pvs_american.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

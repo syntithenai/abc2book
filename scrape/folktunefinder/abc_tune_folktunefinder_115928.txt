@@ -1,0 +1,42 @@
+X:12883
+T:Pasucis (CT 344)
+T:Xiraldilla (CT 344)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, transcrita y comunicada por D. Fernando del Fresno, de Uviu.
+N:Se emplea a veces como xiraldilla y la ejecutan tambin los gaiteros como pasucis.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 344
+M:6/8
+L:1/8
+Q:3/8=88
+W:Cuando cante el cucu en el monte,
+W:en llegando el mes d'abril,
+W:cuando cante el cucu en el monte,
+W:en llegando el mes d'abril,
+W:xuro a tal que me tengo dir, Pepa,
+W:xuro a tal que me tengo dir.
+W:Aire, cundo vendr mi amor!
+W:Aire, cundo le ver yo!
+K:G
+D/D/
+|G2 G G>AB|d3 c>Ac|(B>G)B (A>F)A|G3-G z D/D/|
+G2 G G>AB|d3 c>Ac|(B>G)B (A>F)A|G3-G z D/D/|
+c>cc c>BA|B3 B>cB|A>AA A>GA|B3-B z2|
+c3 B3|A>GA B2 A|G3-G z2|
+c3 B3|A>GA B2 A|G3-G z2||
+S:https://www.folktunefinder.com/tunes/115928
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Pasucis
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

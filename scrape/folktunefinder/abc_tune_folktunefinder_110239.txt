@@ -1,0 +1,20 @@
+X: 36
+T: Tzena, Tzena
+C: Trad
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: D
+|: "D"DD FA | GF ED | "G"G>G GG | GF ED | "A"A4- | AF GE |1 F4- | FA,B,C :|2 D4- | DABc |
+|: "D"d3 c | B3 A | "G"B>B BB | B B3 | "A7"c2 c2 | cA Bc |1 "D"d2 "A"c2 | "G"B2 "A"A2 :|2 "D"d4- | dA Bc |
+|: "D"d2 d2 | "Daug"d2 d2 | "G" z e2 d | c>d cB | "A7"A2 G2 | F2 E2 |1 "D"DE FG | "A7"AB cA :|2 "A7"AB cA | "D"dd z2 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110239
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

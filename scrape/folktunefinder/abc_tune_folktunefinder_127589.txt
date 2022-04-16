@@ -1,0 +1,24 @@
+X:4
+T: Es geht nichts ueber die Gemuetlichkeit, eijo, bleib do
+N: V0002
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Gleismuthhausen
+R: Geselligkeits - Lied, Gemuetlichkeit
+M: 2/4
+L: 1/32
+K: C
+G,4 | C4C4C3CC2D2 | E4E4E4G4 | D8z4G4 | C8z4
+G,4 | C4C4C4C2D2 | E4E4E4G4 | D8z4G4 | C8z4
+G2c2 | B16A8 | G16F8 | E8z4E4E8 | z8
+A8G8 | F8z4E4F8 | z8A8G8 | E8z4^D4E8 | z8
+G8c8 | B16A8 | G16F8 | E8z4^D4E8 | z16
+G4G4 | A12A4A8 | B8A8B8c24- | c8z8
+S:https://www.folktunefinder.com/tunes/127589
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Geselligkeits - lied, gemuetlichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

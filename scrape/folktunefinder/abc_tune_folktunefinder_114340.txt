@@ -1,0 +1,35 @@
+X:13
+T:Skyttarfesten (ringlender)
+R:ringlender
+D:
+Z:Smaaviltlaget, paa Skuddhold, Track 13
+Z:Fel'klang #58, p. 76 ("Pelle")
+M:2/2
+L:1/8
+Q:1/2=75
+K:D
+P:A
+|: "D"A>d fe "D/A"d>c dB | "G"G2 GB "D"~B2 AF |
+   "A"E>D EF "A/E"G2 GB | "A"B>B AG "D"F2 D2 |
+   "D"A>d fe "D/A"d>c dB | "G"G2 GB "D"~B2 AF |
+   "A"E>D EF "A/E"G>A Bc | "D"d2 "A"{e}dc "D"d4 :|
+P:B
+|: "D"a>b af "D/A"d2 d2 | "A/E"c>A ce "A"g2 ~g>f |
+   "A/E"e>f ed "A"c>A Bc | "D"d>e fg "A"a3 f |
+   "D"a>b af "D/A"d2 d2 | "A/E"c>A ce "A"g2 ~g>f |
+   "A/E"e>f ed "A"c>A Bc | "D"d2 "A"{e}dc "D"d4 :|
+P:C
+|: "D"F>G AB "D/A"BA Af | "D"d2 dc "A/E"E3 F |
+   "A"G2 GE "A/E"C2 CE | "D"A>B AF "A"D3 F |
+   "D"F>G AB "D/A"BA Af | "D"d2 fa "Em"g3 f |
+   "A"e>f ed "A/E"c>A Bc | "D"d2 "A"{e}dc "D"d4 :|
+S:https://www.folktunefinder.com/tunes/114340
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+% Rhythm Ringlender
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

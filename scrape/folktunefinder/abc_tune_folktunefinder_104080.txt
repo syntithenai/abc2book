@@ -1,0 +1,28 @@
+X:40
+T:Branle de la Haye
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle morgu
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+z2 G2 c2 c2 c2 d2 G2 G2 G2 A2 B2 B2 G2 B2 A4 |
+z2 A2 c2 c2 c2 d2 G2 G2 G2 B2 A2 G2 A2 F2 G4 |
+z2 G2 c2 B2 c2 d2 e4 e2 f2 e2 dc d2 d2 c4 |
+z2 c2 f2 f2 f2 e2 d4 d2 d2 c2 c2 B2 B2 A4 |
+A2 d2 c2 B2 c2 A2 G4 | A2 d2 c2 B2 c2 A2 G4 ||
+S:https://www.folktunefinder.com/tunes/104080
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle morgu
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

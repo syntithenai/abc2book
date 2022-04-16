@@ -1,0 +1,34 @@
+X:59
+T:Anchors Aweigh
+C:C. Zimmerman
+C:Arr. C. French, C. Myers
+M:2/4
+L:1/4
+Q:1/4=100
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2|F A|B>F|B2|d2|e A|d2-|d2|B2|d B|A B|c d|
+[1 ^G B|e d|c/z/ A|G E:|[2 f/z//A// ^G/A/|e/z//A//^G/A/|d2-|d z||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!p!D2|D F|G>D|G2|F>G|A A/G/|F A|d/d/c/=c/|B G|B G|F E|A F|
+[1 E ^G|A B|A/z/ c|B A:|[2 LA z|LA z|F2-|F z||
+S:https://www.folktunefinder.com/tunes/114125
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

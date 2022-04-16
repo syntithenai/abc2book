@@ -1,0 +1,32 @@
+X:41
+T:Footworks
+R:reel
+C:Jerry Holland
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+Z:psc, (re-formatted,updated 9/19/04)
+N:http://www.jerryholland.com
+H:                                                        copyrights Fiddlesticksmusic, SOCAN
+L:1/8
+Q:333
+M:C|
+K:G
+dc|:BG G/G/G AGEG|DEGB AGAB|cA A/A/A BAGA|EGAB cedA|
+BG G/G/G AGEG|DEGB AGAB|cBcd efge|1fdcA BGGc:|2fdcA BGG||
+|:B|dg g/g/g afgd|efge GABG|Aa a/a/a bgad|eaag efge|
+dg g/g/g afgd|efge GABG|cdec BcdB|FGAc BGG:|
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/102607
+S:http://cranfordpub.com/tunes/abcs/hollandarchive.abc
+S:http://www.cranfordpub.com/tunes/abcs/hollandarchive.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

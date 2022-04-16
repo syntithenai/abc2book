@@ -1,0 +1,32 @@
+X: 206
+T: The Wedding Jig
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: G
+|:\
+"G"G2B, G,A,B,|DED G2E|"Em"EB,E G2A|BGE EEF|
+"G"G2B, G,A,B,|DED G2E|"D"DA,D F2d|AFD DEF:|
+|:\
+"G"GAG GFG|"Am"ABA AGA|"Bm"BAB GBc|"C"def "D"~g3|
+"G"ded dcB|"C"~c3 cAG|"A7"FGA BAG|1"D"FGE DEF:|2"D"FGE DB^c||
+K: D
+|:\
+"Bm"dce dce|dAF G2E|"Em"EB,E G2A|BGE EBc|
+"A7"dce dce|dAF G2E|"D"DA,D F2d|1AFD DBc:|2"D7"AFD DEF|]
+S:https://www.folktunefinder.com/tunes/113215
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Andy's Saltire
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+Ace |: a2a-aec | BcB BGE | EBE cEd- | d2c BAF |
+a2a-aec | BcB BGE | DFA EGB | [1cAG Ace:| [2cAG A2A||
+B2B-BGE | cdc c2A | BfB gBa- | a2g fec |
+BcB BGE | cdc c2A | B^df agf | g2g-gec |
+B2B-BGE | cdc c2A | BfB gBa- | a2g fec |
+a2a-aec | BcB BGE | DFA EGB | cAG Ace||
+S:https://www.folktunefinder.com/tunes/118442
+S:http://www.thesession.org/tunes/display/7063
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

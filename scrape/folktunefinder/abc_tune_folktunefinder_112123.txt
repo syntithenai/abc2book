@@ -1,0 +1,40 @@
+X:1
+T:To halling i form etter Thorvald Trondsgrd
+R:Halling
+S:Folldal Spellmannslag
+N:http://home.no.net/janwes/folldal/
+D:slift (16)
+O:Norge - Norway - Norvge
+A:Hedmark
+Z:transcription (d'oreille) : <anamnese@laposte.net>
+P:[Halling 1]
+M:2/4
+L:1/8
+Q:1/4=188
+K:F
+e |: f2 fa | g2 ga | f2 fa | g2 ec |
+     f2 fa | g2 ga | f2 fa | gf ed |
+     f2 fa | g2 g=b| a4    |1 a3 e :|2 a4|:
+ {e}f2 ed | ^c2 A2 | B2  AG | A2F2 |
+ {e}f2 ed | ^c2 A2 | B2  AG | A4 |
+ {e}f2 ed | ^c2 A2 | B2  AG | A2F2 |
+    F2 EG |  FEDF  | ED^CE  | D4 :||:
+P:[Halling 2]
+K:C
+ {e}f2 fa | g2 g b | a2 ge | f2 d2 |
+ {e}f2 fa | g2 g b | a2 gf | e4 :||:
+     efde | ^c3 A  | ^cBAG| AB^cd |
+     efde | ^c3 A  | ^cBAG| A4 :|
+S:https://www.folktunefinder.com/tunes/112123
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

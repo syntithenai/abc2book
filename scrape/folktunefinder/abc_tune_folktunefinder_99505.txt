@@ -1,0 +1,27 @@
+X:2
+T:Ton simple gavotte
+R:Gavotte des montagnes
+C:Traditionnel
+D:Penno Skoulm
+P:C3D
+M:12/8
+Q:C3=156
+K:C
+%T:TS2
+%%MIDI program 109
+%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "Am"A2 e "C"e2 c "Dm"d2 e "F"f3|"G"eee "Dm"d2 d "F"c3 "Am"c3::\
+"Am"A2 B "C"c2 d "D"e2 c "F"A3|c2 c "G"BAG "D"A3 "Am"A3:|
+S:https://www.folktunefinder.com/tunes/99505
+S:http://anamnese.online.fr/abc/favoris.abc
+% Rhythm Gavotte des montagnes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

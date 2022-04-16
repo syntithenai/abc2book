@@ -1,0 +1,23 @@
+X:45
+T:Brando
+C:Tre Martelli: Omi e Paiz 1b
+M:6/8
+L:1/8
+K:G
+DEF|G2G B2B|G2G B2B|ABc cBA|B2G DEF|\
+G2G B2B|G2G B2B|ABc cBA|G3:|
+|:def|g3  g3|g3  gfe|ded cBA|B2G def|\
+g3  g3|g3  gfe|ded cBA|G3:|
+K:C 
+|:GAB|c2c dcd|e2c efe|d^cd fed|e2c GAB|\
+cBc dcd|e2c efe|d^cd fed|c3:|
+S:https://www.folktunefinder.com/tunes/100631
+S:http://members.yline.com/~zeiler1/abc/czital.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

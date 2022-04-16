@@ -1,0 +1,28 @@
+X:5939
+T:Gan Ainm
+R:jig
+S:Tommy Peoples
+H:
+N:
+D:Concert in Galway
+Z:Adrian Scahill
+M:6/8
+L:1/8
+K:D
+DFA d2g|fdB BAF|ABB BAF|FAd fdA|\
+DFA d2g|fdB BAF|BAF dBA|fdc d3:||
+Adf a3|baf afd|f2g afd|B2d bge|\
+Adf a3|baf afd|b2a afd|Ace d3:||
+fdd ecc|dge fdB|c2B c3|a3 bag|\
+f2a edc|dge fdA|FAD GBD|Aec d3:||
+S:https://www.folktunefinder.com/tunes/101837
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:264
+T:the Spey in Spate
+O:scotland
+R:Reel
+M:4/4
+C:J. Scott Skinner
+K:D
+{A,B,C}D2FD A,DFA|dcBA ^GAFD|\
+E2GE B,EGB|gecA GECA,|\
+{C}D2FD A,DFA|cCBC ACGe|fdec dBcA|GEFD CGAB||\
+c/c/cec AdFA|DFAd fagf|e/e/ege BeGB|CEAc egfe|\
+d/d/dfd AdFA|DFAd fagf|gefd ecdB|AFGE D4|]
+S:https://www.folktunefinder.com/tunes/100556
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

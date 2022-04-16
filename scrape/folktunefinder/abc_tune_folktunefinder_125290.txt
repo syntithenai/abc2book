@@ -1,0 +1,33 @@
+X:1
+T:Arschloch von Leinsiedel
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Kopiertes Notenmaterial von Michael Kellner, Regensburg
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:4 3/4
+L:1/4
+K:G
+D/D/ |\
+G>FG | A>GA | B>cB/A/ | G2G/A/ |
+BAB2 | cBc2 | d3/e/d/c/ | B2 :|
+|: G/B/ |\
+dd/d/d/g/ | B2G/B/ | dc/B/c/e/ | A2G/A/ |
+B/B/B/d/A2 | B/B/B/d/A2 | B/B/B/d/A/c/ | B/B/B/d/A2 |
+d/d/dF | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/125290
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/arschloch_von_leinsiedel.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

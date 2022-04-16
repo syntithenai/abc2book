@@ -1,0 +1,27 @@
+X:9
+T: The Montarde Bransle
+O: Original clef C on first line
+M:C|
+L:1/2
+K:F
+V:1
+G A B G c A B G G G G G F E D C | G A B G c A B G |
+F G/ F/ E D/ C/ C D/ B,/ C z :|
+|: c d/ c/ B A B G F2 :|
+V:2
+K:F bass
+L:1/2
+%%MIDI transpose -24
+g2 G2 c2 c'2 g2 G2 d2 D2 G2 g2 c2 g2
+_b2 c2 c'2 f z :|
+|:a2 c2 c'2 f2 :|
+S:https://www.folktunefinder.com/tunes/124475
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

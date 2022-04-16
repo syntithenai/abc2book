@@ -1,0 +1,26 @@
+X:25
+T:Pinagay
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle coup
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:C
+G2 G2 G2 G2 A2 A2 B2 dc B2 z2 | G2 G2 G2 G2 A2 A2 B2 dc B2 dc B2 dc B2 z2 |
+|: B2 A2 G2 A2 F2 G2 A2 G2 | B2 B2 A2 G2 G2 F2 G4 ::
+S:https://www.folktunefinder.com/tunes/104065
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle coup
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

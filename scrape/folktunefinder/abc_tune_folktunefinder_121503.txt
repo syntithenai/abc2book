@@ -1,0 +1,40 @@
+X:22
+T:Barriera della Nobilta di Dame
+M:4/4
+L:1/4
+Q:256
+K:F
+A2 A A | A2 c B | A3 G | F2 C2 |
+A2 A A | A2 c B | A3 G | F2 c B |
+A F G A | B A G F | E G A B | c A =B c |
+=B2 c2 | c2 =B2 | c B/A/ G/F/E/D/ | E G A B :|
+|: c2 c c | c B A G | A F G A | B A G F |
+E2 F2 | F2 E2 | F4- | F4 :|
+M:6/4
+L:1/4
+|: A2 A A A A | c2 c c c c | A2 A A A A | F4 F2 |
+A2 A A A A | c2 c c c c | A2 A A A A | F4 F2 |
+A2 G F E D | E3 D C2 | E2 D2 D2 | E F E D C2 |
+A2 G F E D | E2 F E D C | =B, A, B, C D B, | C4 :|
+M:4/4
+L:1/4
+|: c2 c c | c B A G | A F G A | B A G F |
+E2 F2 | F2 E2 | F4- | F4 :|
+M:6/4
+L:1/4
+|: c2 B A G2 | A2 G2 F2 | E D C B, A, B, | C A, =B, C D =B, |
+C G A B c2 | B3 A G2 | A3 G F2 | G3 F E2 | F E F G A B |
+c A B A G B | A F G A B A | G F E F G E | F4 F2 :|
+S:https://www.folktunefinder.com/tunes/121503
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://users.skynet.be/infants/musiques/abc/renaissance.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/renaissance.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

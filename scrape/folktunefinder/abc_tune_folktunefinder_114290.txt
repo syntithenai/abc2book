@@ -1,0 +1,32 @@
+X: 37
+T:The Sluggard Tapper
+% Nottingham Music Database
+S:Mick Peat
+N:"From A.Train's song"
+M:3/4
+L:1/4
+P:ABA
+K:D
+P:A
+"D"a2f|d3/2e/2f|"G"B3/2c/2d|"A"A2g|"D"f3/2e/2d|a2A|"E"B3/2c/2d|
+"A"e3|"D"a2f|d3/2e/2f|"G"B3/2c/2d|"A"A2g|"D"f3/2e/2d|a2A|"A"B2c|"D"
+d3:|\
+P:B
+K:A
+"A"e2a|"E"g3/2a/2b|"A"a2e|"D"f3|"A"e2c|"E"d2B|"B"c3/2B/2A|
+"E"B3|\
+"A"e2a|"E"g3/2a/2b|"A"a2e|"D"f3|"A"ece|"B"a2f|"E"e3/2f/2g|"A7"
+a3||
+S:https://www.folktunefinder.com/tunes/114290
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

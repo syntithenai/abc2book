@@ -1,0 +1,48 @@
+X: 127
+T:The Corncrake
+R:Air
+C:Ed Reavy
+M:4/4
+L:1/8
+Z:Joe Reavy
+N:The mournful cry of this
+N:creature can still be heard
+N:in the remote country
+N:places of Ireland.  This
+N:strange air of Ed's takes
+N:us back to an earlier age
+N:when one could wander
+N:through the night fields of
+N:Ireland and hear the dark
+N:sigh of the solitary corncrake.
+K:G
+d>c|B G3 (3GFG BB|c2 (3cBc d g3|
+M:2/4
+g>f d3|
+M:4/4
+cB G F3 d>c|B G3 (3GFG BB|c2 (3cBc d g3|
+M:2/4
+gf d2|
+M:4/4
+cB G2 G4||
+M:3/4
+e=f f2 c3c2 de/2f/2 g2|gf d2 c2|BG/2D/2 =F d>c|
+M:4/4
+B G3 (3GFG BB|c2 (3cBc d g3|
+M:2/4
+gf d2|
+M:4/4
+cB G2 G2||
+S:https://www.folktunefinder.com/tunes/120308
+S:http://trillian.mit.edu/~jc/music/abc/by/EdReavy/Reavycom.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/EdReavy/Reavycom.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

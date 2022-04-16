@@ -1,0 +1,31 @@
+X:132
+T: Zhe shan meiyou na shan gao
+N: C0222
+O: China,Sichuan, Naxi
+S: II, 211]
+N: Die Gattungsbezeichnung laesst das Tragen eines Korbs auf dem
+N: Ruecken erkennen. Dies war nur fuer sehr arme Leute typisch.
+N: Vereinzelt Verzierungen.
+R: Shange. Xin minge]
+M: 3/8
+L: 1/16
+K: C
+d2g2e2 | d3edc | G4Ac | Acd2Ac | d6
+d2g2e2 | dge4 | dec2d2 | dcAG3- | G4
+AG | A2G2d2 | c2z2
+cA | d2e4 | d2d2dc | A6
+Acd2A2 | c4z2
+Acd2d2 | cAG4- | G6
+S:https://www.folktunefinder.com/tunes/112559
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

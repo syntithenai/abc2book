@@ -1,0 +1,21 @@
+X:300
+T:Hughie Travers'
+Z: id:dc-jig-51
+M:6/8
+L:1/8
+K:G Major
+B|dBA B3|dBG ABA|GBd g3|edB Age|!
+dBA B3|dBG ABA|GBd g3|edB G2:|!
+A|Bdd edd|gdf edg|Bde g3|edB AGA|!
+Bdd edd|gdf edg|Bde g3|edB G2:|!
+S:https://www.folktunefinder.com/tunes/128696
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

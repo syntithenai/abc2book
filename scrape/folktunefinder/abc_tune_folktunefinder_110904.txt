@@ -1,0 +1,58 @@
+X:2
+T: James, James, James
+T: Altus
+C:Jean Mouton, 1460-1522
+N: in Odhecaton (Petrucci), 1501
+N: Mensurations: C barr puis proportion 3; rduction 1/2
+N: from transcription by Alain Naigeon 
+N: Original Clef C on third line, so this is an octave lower than writen
+M: 2/2
+% Last note suggests Dorian mode tune
+K:F % 1 flats
+L:1/4
+%1
+|:G2 G2 B2 A2 B2 c2 d6 e2 d g2 f/ e/ d2 e f2
+%2
+g e2 d g2 f d e f2 d2 G2 A4 G2 z2 c3 c 
+%3
+g3 g e2 f2 d3 d d2 d3 d d d d d e f g4 e2 f f 
+%4
+d2 c2 d2 d2 d4 g2 g g z4 d3 d d2 e g2 f > e d
+%5
+c d2 c d4 z4 z4 z4 z4 z4 g3 f
+%6
+f2 d f2 e d c d2 e f > e d/ c/ d2 
+M:3/2
+L:1/4
+d4 z2 G4 G2 g4 f2
+%7
+d2 e4 d6 z6 z6 A4 B2 c4 c2 g4 g2
+%8
+e4 e2 d4 e2 [1 d6 :| [2 d4 d2
+M:2/2
+L:1/4
+d d d d d d e f g4
+%9
+e2 f f d2 c2 d2 d2 
+M:3/2
+L:1/4
+B3 c d2 G3 A B c d4 e2 f4 f2
+%10
+d2 e4 f2 f2 f2 d2 e4 f2 f2 d2 d4 d2 d4 d2 c2 f2 e2
+%11
+d4 e2 f4 f2 e4 d2 f4 f2 d2 e3 d f4 a2 
+M:2/2
+L: 1/4
+g2 f >e
+%12
+d > c d2 e d2 g2 f/ e/ g3 f g/ f/ e d c d2 d4 ||
+S:https://www.folktunefinder.com/tunes/110904
+S:http://www.laymusic.org/music/domouton/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

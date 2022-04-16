@@ -1,0 +1,25 @@
+X:384
+T:Paddy Fahy's
+R:jig
+C:Paddy Fahy
+H:Also in D, #390
+Z:id:hn-jig-384
+M:6/8
+L:1/8
+K:G
+GBd g2a | gfd cBc | dBG =fe=f | ag=f e/f/ge |
+GBd g2a | gfd cBc | dge fdc | ABA G3 :|
+|: ~g3 bag | fd^c d2e | =fe=f ag=f | e2c cBA |
+G2g bag | fd^c d2^c | dge fdc | ABA G3 :|
+S:https://www.folktunefinder.com/tunes/113812
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:25
+T:Dubuque
+S:Bernie Waugh
+R:Reel
+M:2/4
+L:1/16
+K:D
+|:\
+"D"A,B,DE D2DE|"F#m"FABF A3A|"Em"BAdA BAFE|"G"DEFD "A"EDB,G,|
+"D"A,B,DE D2DE|"F#m"FABF A3A|"Em"BAdA "G"BAFE|"A7"DFE2"D"D4:|
+|:\
+"D"FA2F A2BA|"D7"FEDF E2D2|"Em"GB2G B2Bc|"G"d2BG AGFE|
+"D"FA2F A2BA|"Bm7"FEDF EDB,G,|"G"A,B,DE FABF|"A7"AFEF "D"D4:|
+S:https://www.folktunefinder.com/tunes/118835
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

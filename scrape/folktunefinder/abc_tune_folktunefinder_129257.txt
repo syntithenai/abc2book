@@ -1,0 +1,21 @@
+X:13
+T:I Himmelen
+C:Triakel
+M:3/4
+L:1/4
+K:G
+%%continueall 1
+D|G2B|D>F A/G/|ECE|D2c|B2G|A2F|G3-|G2D|\
+G2B|D>F A/G/|ECE|D2c|B>d B/G/|A>G F/A/|
+G3-|G|]FG|A>G F/E/|D2c|BGB|A2 F/G/|\
+A>G F/E/|D2c|BGB|A2D|E2G|F2A|G3-|G2|]
+S:https://www.folktunefinder.com/tunes/129257
+S:http://michel.bellon.free.fr/Musique/abc/czfranz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

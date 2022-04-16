@@ -1,0 +1,36 @@
+X:23
+T:Colin's Back
+C:Colin Hume, 1985
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI chordname dim 0 3 6 9
+H:In memory of my bad back at Sidmouth in 1985.
+K:G
+P:A
+[| D | "G"B/^A/B "^/"=A/^G/A | "Em"GG "^/"AB | "Am7"c3/2c/- "^/"c2 | "Daug"d3/2d/- "^/"dD |\
+"G"B/^A/B "^/"=A/^G/A | "Em"GG "G7"Bd | "C"e3/2e/- "^/"e2 | "B7"f3/2f/- "^/"fB |
+%%vskip 0
+P:B
+"Em"g g/g/- "^/"g/f/e | "Bm"ff/f/- "^/"f/e/d | "Bbdim"e/e/-e/d/ "^/"^c/d/e/d/- | "Bm7"d2- "^/"d "F#7"_d |\
+"Am7"cB/A/- "D7"A/B/c | "Em"BA/B/ "^/"GB | "Am7"c/c/-c/c/- "^/"c/B/A | "Daug"d/d/-d/d/- "^/"dD |
+%%vskip 0
+P:C
+"G"B/^A/B "^/"=A/^G/A | "Em"GG "^/"AB | "Am7"c3/2c/- "^/"c2 | "Daug"d3/2d/- "^/"dD |\
+"G"B/^A/B "^/"=A/^G/A | "Em"GG "G7"Bd | "C"ee/d/- "E7"d/e/d/c/- | "Am"c2- "^/"cA/B/ |
+%%vskip 0
+P:D
+"D7"cA/B/ "^/"c/A/B/c/ | "G"d/e/d/_B/- "C"_B/A/G | "A7"E E/E/- "^/"E/F/g | "D"AB "^/"c^c |\
+"G7"d/d/-d/d/- "^/"d/c/B | "C"e/e/-e/e/- "^/"e/d/c | "D"d/e/d/_B/- "^/"B/G/A | "G"G2- "D7"G |]
+S:https://www.folktunefinder.com/tunes/110070
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

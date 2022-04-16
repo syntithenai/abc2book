@@ -1,0 +1,34 @@
+X:522
+T: Banjiu Xiaodiao
+N: C1158
+O: China,Jiangxi, Anyuan
+S: Zhongguo Minge Xuan, S. 180]
+N: Nachspiel und Glissandi fehlen
+R: Tanzlied, Xiaodiao]
+M: 2/4
+L: 1/16
+K: D
+d2dBABed | B2BAB4
+d2dBABed | B2BAB4
+d2d4de | f2f2e4
+BBBedeBA | F3EFEFB | A8
+dddBABed | B2BAB4
+dddBABed | B2BAB4
+d2d4de | f2f2e4
+d2e2f2a2 | F2A2F2A2
+dddBABed | B2BAB4
+dddBABed | B2BAB4
+d2d4de | f2f2e4
+BBBedeBA | F2E2FEFB | A8
+S:https://www.folktunefinder.com/tunes/112949
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Tanzlied, xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

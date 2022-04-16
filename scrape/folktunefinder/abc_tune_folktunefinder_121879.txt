@@ -1,0 +1,26 @@
+X: 8
+T: King of the Fairies, The
+R: hornpipe
+N:from The Scottish Music List, Vol2 No 35
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:
+M: C|
+K: Edor
+|: EDEF GFGA | B2B2 G2GA | B2E2 EFGE | FGFE D2B,2 | 
+|  EDEF GFGA | BAGB d3=c | B2E2 GFED | E8 :| 
+|| e2e2 Bdef | gagf efed | e2B2 BABc | dedc Bcd{c}B | 
+|  e2B2 Bdef | gagf efed | Bde{f}g fedf | e6 ef | 
+|  g3e f3d | edBc d3e | dBAF GABc | dBAF GFED | 
+|  B,2E2 EFGA | B2e2 edef | e2B2 BAGF | E8 |]
+S:https://www.folktunefinder.com/tunes/121879
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Vol02.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 47
+T:Fiddle Faddle
+M:C|
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Polka
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:G
+(G>A)BG cBcA|(G>A)BG FAFD|G>ABG cBcA|Bd c/B/A/G/ FAFD:||!
+(Ec)(cG) (Ec)(GE)|Fdd>A FdAF|(E/G/)ccG EcGE|Bd c/B/A/G/ FAFD:||
+S:https://www.folktunefinder.com/tunes/109516
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/FiddleFaddle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/FiddleFaddle.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EdwardJones/FiddleFaddle.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/FiddleFaddle.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

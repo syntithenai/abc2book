@@ -1,0 +1,31 @@
+X:102
+T:Cheshire round
+R:Hornpipe
+O:England
+M:3/2
+N:versions in JGCW and MR
+A:Lancashire
+B:Winder
+K:D
+f3g e2d2 fga2 | b2e4 d2c2BA |\
+f2ef gfed fga2 | A2d4 F2E2D2 ::\
+B3c A2G2 FGAF | E2e4 d2c2BA |\
+BABc dcBA FGAF | D2d4 F2E2D2 ::\
+B2d2 G2d2 F2d2 | E2e4 d2c2BA | \
+B2d2 A2B2 F2A2 | D2d4 F2E2D2 ::\
+BABc dcBA FGAF | E2e4 d2c2BA |\
+BABc dcBA FGAF | D2d4 F2E2D2 :|**
+S:https://www.folktunefinder.com/tunes/127988
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

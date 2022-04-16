@@ -1,0 +1,24 @@
+X:72
+T:Rata de la Plopu
+O:rumania
+M:6/8
+L:1/8
+Q:1/4=148
+K:G
+V:1
+"G" g3 d2 e|=f2 ed2 c|B3 A2 G|B2 cd3 |
+g3 d2 e|=f2 ed2 c|B2 G"D7" A2 F|"G" G3 z3 :| |:
+"G" B3 A2 G|"Am" B2 cd2 c|"G" B3 A2 G|B2 cd3 |
+"G" B3 A2 G|"Am" B2 cd2 c|"G" B2 G"D7" A2 F|"G" G3 z3 :|
+S:https://www.folktunefinder.com/tunes/111302
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

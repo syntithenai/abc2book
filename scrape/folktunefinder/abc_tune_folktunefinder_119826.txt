@@ -1,0 +1,23 @@
+X: 28
+T:John Wilmot's Jig
+M:6/8
+L:1/8
+C:J. Wilmot
+R:Jig
+K:G
+g|"G"dBB BAB|"Em"GEE EGE|"G"DB,D GAB|"C"cBc "D"A2g|
+"G"dBB BAB|"Em"GEE EGE|!"G"DB,D GAB|"D"cBA"G"G2:|
+c|"G"Bdg gdB|"C"ceg gec|"G"Bdg gdB|"C"cBc "D"A2c|!
+"G"Bdg gdB|"C"ceg gfe|"G"dcB "D"AGA|"G"BGG G2c|
+"G"Bdg gdB|"C"ceg gec|!"G"Bdg gdB|"C"cBc "D"A2c|
+"G"Bdg Bdg|"C"ceg ceg|"G"dcB "D"AGA|"G"BGG G2||
+S:https://www.folktunefinder.com/tunes/119826
+S:http://home.usit.net/~bhooper/SCOT5.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

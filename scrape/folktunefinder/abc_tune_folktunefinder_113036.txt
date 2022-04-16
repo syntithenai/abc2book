@@ -1,0 +1,30 @@
+X: 27
+T: Elvira
+C: Rodney Miller
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:\
+"G"Bd2d dedB|"D"BA^EF d4|"Em"GFGA~B2AG|"Bm"FEFG ABAG|
+"C"EG2GG2FE|"G"~D2^A,B,G4|"Am"A^GAB- "Bm"BBAB|1"C"c2~c2"D7"ABc^c:|2\
+"C"cBce"D7"d4||
+|:\
+"C"cBAGE2AB|"Cm"cBAG_E4|"G"D2B2ADEG|DBGB- BGAB|
+"C"cBAG E3c-|"Cm"cBAG_E4|"C"CEGC EGDF|1"D"(3AAF FA"G"G4:|2\
+"D"ADFG- "G"G4|]
+S:https://www.folktunefinder.com/tunes/113036
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 12
+T:Dick's Maggot
+M:3/2
+L:1/8
+Q:450
+B:The Round Band Book of Playford
+K:G
+"G"g2 d4 B4 "C"A2 | "G"Bcd2 "D7"ABc2 "G"B4 | \
+"G"g2 d4 B4 "C"A2 | "G"Bcd2 "D7"G2F2 "G"G4 :| \
+"D"f2 a4 f4 "Bm"d2 | "Em"gab2 "A7"efg2 "D"f4 | \
+"D"f2 a4 f4 d2 | "G"def2 "A7"AB^c2 "D"d4 | \
+"G"Bcd2 "G7"Bcd2 "C"e4 | "A7"efg2 efg2 "D" f4 | \
+"G"g2 d4 B4 "C"c2 | "D7"A8 "G"G4 ||
+S:https://www.folktunefinder.com/tunes/105844
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X: 38
+T:Am Familiefscht
+M:3/4
+L:1/8
+C:Alois Gisler
+S:UR-MUSIG 2
+R:Walzer
+N:Original As-Du
+D:Ur-Musig 2, CSR CD 9154
+Z:Stephan Steiner
+K:G
+"Teil A"DEF|GBgGBe|dBDdBG|FAfFAe|dcFdcF|FAfFAe|dcFdcF|GBAGFE|DD^CDEF||
+GBgGBe|dBDdBG|FAfFAe|dcFdcF|dfceFd|EcDdcF|G2 [G3B3d3g3][GBdg]|[G2B2d2g2]
+z DEF||
+G2 gGBd||dBDdBG|FAfFAe|dcFdcF|FAfFAe|dcFdcF|GBAGFE|DD^CDEF||
+GBgGBe|dBDdBG|FAfFAe|dcFdcF|dfceFd|EcDdcF|G2 [G3B3d3g3][GBdg]|[G2B2d2g2]
+z||
+K:D
+"Teil B" FAd||[d3f3]Ad2 |AFAfed|ceAcGA|EFEABA|gggfed|cBAGFE|D2 AFAd|fABA
+FA|
+f3   Ad2 |AFAfed|ceAcGA|1 EFEABA|gggfed|cBAGFE|D2 [F3A3d3] [FAd]|[F2A2d2
+] z FAd:||
+2 EFGABA|gggfed|cBAGFE|D2 [F3A3d3] [FAd]|[F2A2d2]z||
+K:G
+"Teil A (Reprise)" DEF|GBgGBe|dBDdBG|FAfFAe|dcFdcF|FAfFAe|dcFdcF|GBAGFE|
+DD^CDEF||
+GBgGBe|dBDdBG|FAfFAe|dcFdcF|dfceFd|EcDdcF|G2 [G3B3d3g3][GBdg]|[G2B2d2g2]
+z2||
+"Teil C" ee||:edcedc|EDEedc|dBGdBG|D^CDBAG|1 FAfdeA|dDFdcF|GBgBeB|dGBDGB
+ :||2 FAfdeA|dDFfcF|G>ded^cd|g2 z2 ee:|
+3 FAfdeA|dDFdcF|GBgBeB|dGBDGB :||4  FAfdeA|dDFfcF|GdBGDB, |G,2  ||
+S:https://www.folktunefinder.com/tunes/113723
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

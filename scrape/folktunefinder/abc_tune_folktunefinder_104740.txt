@@ -1,0 +1,33 @@
+X: 66
+T:Allexander. GS.066
+M:6/8
+L:1/8
+Q:110
+S:George Spencer m/s, Leeds,1831
+R:March
+O:England
+A:Leeds
+N:Another for the flute.  - The letters G.S.L. are written on the stave
+N:after the final double bar.
+H:1831
+Z:vmp.Cherri Graebe
+K:G major
+c | BcB d2d | cBA B2 A | GFG BAG | BAG F2 D | BcB d2 d | cBA B2 A |! GFG
+ BAG |  "1" AEF G2 :||:
+z|ABA AFd | Afd eaf | gec dAF | AGE E2 A |! ABA AFd | Afd Aaf | ge"2"c d
+AF
+ | GE^C D2 :||:
+B | cdc aca | BcB bBb |! cdc aca | dgf g2 B | cdc aca | BcB bBb | cdc ac
+a | dgf g2 :||
+S:https://www.folktunefinder.com/tunes/104740
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

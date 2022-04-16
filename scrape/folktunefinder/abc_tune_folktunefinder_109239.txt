@@ -1,0 +1,25 @@
+X: 7
+T:Blow the Wind Southerly
+% Nottingham Music Database
+S:Kevin Briggs
+P:AAB
+M:3/4
+L:1/4
+K:D
+P:A
+A|"D"f3/2e/2d|"D"AFA|"G"BGB|"D"AFA|"D"f3/2e/2d|"D"AFA|"Em"Be"A"c|"D"d2:|
+P:B
+"D"f2a|"A"e2a|"Bm"d3/2e/2d|"A7"cBA|"D"f2a|"A"e2a|"E7"^gfg|"A"a2a|
+"G"b2b|"D"a2a|"A"ggg|"D"fed|"D"f3/2e/2d|"Em"Bgf|"A7"edc|"D"d2:|
+S:https://www.folktunefinder.com/tunes/109239
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

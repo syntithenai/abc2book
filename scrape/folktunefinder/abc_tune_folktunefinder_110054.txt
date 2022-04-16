@@ -1,0 +1,27 @@
+X:7
+T:The Balloon
+C:1786
+L:1/8
+M:6/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=114
+H:Also for the dance "Invisible Mending" by Sue Downs
+K:G
+P:A
+|: "G"d2B "D7"c2A | "Em"B2G "D7"A3 | "G"GAB "D7"ABc | "Em"BAG "D7"FED |\
+"G"d2B "D7"c2A | "Em"B2G "D7"A3 | "G"B^cd "Em"efg | "A7"fge "D"d3 :|
+P:B
+|:"G"DED "^/"D2d | "Am"dcB "^/"c3 | "D7"DED "^/"D2c | "G"cBA "G7"B3 |\
+"C"e2c "Am"A2e | "G"d2B "Em"G3 | "G"ded "^/"dBG | "D7"A3 "G"G3 :|
+S:https://www.folktunefinder.com/tunes/110054
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

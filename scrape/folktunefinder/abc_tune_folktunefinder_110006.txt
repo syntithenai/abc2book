@@ -1,0 +1,24 @@
+X:68
+T: Die Koenigskinder
+N: Q0020K
+O: Mitteleuropa, Deutschland
+R: Ballade, Liebe, Trennung, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2_B2A2B2 | G4A2_B4
+A2 | G2A2_B2c2B2A2 | G4F2G4
+GA | _B2B2B2c2c2c2 | d6c4
+c2 | _B2A2G2A4D2 | G6z4
+S:https://www.folktunefinder.com/tunes/110006
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

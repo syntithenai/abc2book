@@ -1,0 +1,43 @@
+X: 98
+T: Reel Spiel No's 1-3
+C: R-45
+C: Jim Guinness 1981
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+%%text Same A, different B's
+"G"GABc dedB| "C"cdef gfge| "G"dgbg "A7"agfg| "D7"agfe dcBA|
+"G"GABc dedB| "C"cdef gfge| "G"dgbg "D7"agfa| "G"g2b2 g2z2 :|
+P: B-1
+"G"g2g2 "D7"fgaf| "G"g2d2 BcdB| "C"edcB cBAG| "D7"FGAB cdef|
+"G"g2g2 "D7"fgaf| "G"gbgd BcdB| "C"edcB "D7"AGFA| "G"G2B2 G2z2 :|
+P: B-2
+"G"Bd2B g2B2| "C"ce2c g2c2| "G"Bded gdbg| "D7"agfe dcBA|
+"G"Bd2B g2B2| "C"ce2c g2c2| "G"Bdgb "D7"agfa| "G"g2d2 G2z2 :|
+P: (alternate third measure)
+%%staffwidth 4.5cm
+"G"Bdef gabg|
+P: B-3
+%%staffwidth     15.0cm
+"G"dedc BcdB| "D7"cdcB ABcA| "G"BGBd "C"cBAG| "D7"AGFE D2Bc|
+"G"dedc BcdB| "C"cdef gfge|1 "G"dedB "D7"cAFA| "G"G2g2 G2z2 :|2
+%%vskip 5pt
+P: Last time only
+%%staffwidth 8cm
+[2 "G"dgbg "D7"agfa| "G"g2b2 g2z2 |]
+%%text 9/1/98
+% ---------- page 51 ----------
+S:https://www.folktunefinder.com/tunes/108147
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_1_47.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

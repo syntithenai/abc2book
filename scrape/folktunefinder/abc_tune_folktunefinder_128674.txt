@@ -1,0 +1,19 @@
+X:190
+T:Father O'Flynn
+Z: id:dc-jig-33
+M:6/8
+L:1/8
+K:D Major
+A|dAF DFA|Bed cBA|dcd efg|fdf ecA|!
+dAF DFA|Bed cBA|dcd eag|fdc d2:|!
+e|fdf fga|ecA ABc|dcd Bed|cAA A2=c|!
+BGB Bcd|AFD DFA|dcd eag|fdc d2:|!
+S:https://www.folktunefinder.com/tunes/128674
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

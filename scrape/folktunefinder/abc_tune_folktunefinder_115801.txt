@@ -1,0 +1,31 @@
+X:12756
+T:Paganini's Manchester Set,#4. JNu.64
+M:6/8
+L:1/8
+Q:90
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Air
+O:England
+A:East Lancashire
+N:The MS continues after this for quite a while, entirely religious vocal
+N:music,beginning with Mozart's 12th Mass, etc. all beautifully written
+N:out in the same exquisite hand as the dance music..CGP
+Z:Chris Partington
+K:F
+A aag|ffe d^cd|e2A BAA|A2d d^cd|e2A aag|!
+ffe d^cd|e2A BAG|Adfe2a|e2::!
+F FFF|F2FG2F/G/|A2F AAA|A2AB2A/B/|c2A ccc|c2cd3|g2ef2d|e2cd2B|c3-c2^c|!
+[D2F2A2d2] dcB|AGA BGB| [C2F2A2c2] cBA|GFGA2A|a2Aa2A|a2Aa2A|agf fed|e2|]
+% Output from ABC2Win  Version 2.1 k pre2 on 07/02/2001
+S:https://www.folktunefinder.com/tunes/115801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

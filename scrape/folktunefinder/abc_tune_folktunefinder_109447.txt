@@ -1,0 +1,25 @@
+X:9
+T:Derwydd, Y [Druid, the]
+R:jig
+O:Wales
+Z: John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+K:D
+AG \
+| FGA AFA | BGB A3 | Bcd efg | fed cBA \
+| FGA AFA | BGB A3 | Bcd efg | ABc d :|
+|: fg \
+| afa afa | geg geg | fag fed | ced cBA \
+| afa afa | geg geg | fed cde | dAF D :|
+S:https://www.folktunefinder.com/tunes/109447
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

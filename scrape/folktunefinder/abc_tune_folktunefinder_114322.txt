@@ -1,0 +1,35 @@
+X:23
+T:Polska e. Petters Erik -- "Bock Jerk" (Bingsj\"o)
+R:polska
+Z:2000 Brian Wilson 
+M:3/4
+L:1/16
+K:D
+P:A
+|: A2d2 d2AF A2d2 \
+| f4 fgfe d2ef \
+| g4 gagf efed \
+| cdcB A2GE F4 |
+| A2d2 d2AF A2d2 \
+| f4 fgfe d2ef \
+| g4 gagf efed \
+| c2Bc a4- a4 :|
+P:B
+|: G,3 g g2b2 b2g2 \
+| gagf d2fg a2f2 \
+| f2ed cdef g2ec \
+| d4 f2df a2fd |
+| d2g2 g2b2 b2g2 \
+| gagf d2fg a2f2 \
+| f2ed cdef g2ec \
+| c2d2 d4- d4 :|
+S:https://www.folktunefinder.com/tunes/114322
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:62
+T: Die Koenigskinder
+N: Q0020E
+O: Mitteleuropa, Deutschland (BRD) , Baden, Schwetzingen, Altlussheim
+N: zweistimmig notiert; Oberstimme = Melodiestimme
+R: Ballade, Liebe, Trennung, Tod
+M: 4/4
+L: 1/8
+K: A
+E2 | c3BA2FF | E3FE2
+E2 | B2E2B2E2 | c4z2
+E2 | c3ce2e2 | d4F2
+F2 | E2EEc2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/110000
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

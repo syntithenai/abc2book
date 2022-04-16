@@ -1,0 +1,25 @@
+X:127
+T:Charming Phyllis
+R:Minuet
+O:England
+M:3/4
+A:Lancashire
+B:Winder
+K:D
+d4 e2 | fg a4 | g2 f2 e2 | fg a4 | \
+g2 f2 e2 | fe de fg | a2 g2 f2 | e6 :|*
+|:a4 b2 | gf e4 | g4 a2 | fe d4 |\
+A2 d2 f2 | B2 e2 g2 | f3g ec | d6 :|**
+S:https://www.folktunefinder.com/tunes/128013
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

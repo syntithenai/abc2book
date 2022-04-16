@@ -1,0 +1,29 @@
+X: 1
+T:Aly's Waltz
+M:3/4
+L:1/8
+S:Jean Zack transcription from Seamus McGuire The Wishing Tree
+R:Waltz
+K:F
+CFG|:"F"A3 d cA|"Gm"G3 d cA|"Bb"F3 G FE|"Bb"D2 E3 F|"F"C2 F2 A2|1"C7"B4
+AG|
+"F"F C3 A2|"C"G3 E FG:!
+|2"C7"B3 A GF|"Bb       C"D F3 E|"F"F6:|"Bb"d2e3f|"Am"c2e3f|"Gm"B3A GF|"
+Dm"A6|"A"A3 =B ^c>A|"Bb"d4=c_B|!
+"F"A<c F2 {F}EF |"C"G3 E FG|"F"A2 d3 c/2A/2|"Gm"G3 d cA|"Bb"F3 G FE|'"Bb
+"D2 E3 F|"F"C2 F
+2 A2|"C7"B3 A GF|"Bb        C"D F3  E|"F"F6|
+% Output from ABC2Win  Version 2.1 i on 11/6/2004
+S:https://www.folktunefinder.com/tunes/112017
+S:http://internet.cybermesa.com/~keating/music_abc/ALYS.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

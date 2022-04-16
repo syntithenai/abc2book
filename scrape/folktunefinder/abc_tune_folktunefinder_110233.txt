@@ -1,0 +1,28 @@
+X: 30
+T: Mayim
+T: Water
+R:
+O: Israel
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: Em
+|: E/F/ \
+|| "Em"EF G/F/E | GA B>A | "G"GB dc | BA "B7"BB/B/ |
+|  "Em"EF G/F/E | GA B2 | "C"ee "G"dd | "Bm"Bd "Em"e2 ||
+|| "Em"ee ee | "C"ee ee | "G"zd dd | "Bm"Bd "Em"e2 |
+|  "Em"ee ee | "C"ee ee | "G"zd dd | BA B2 || "D7"d2 d2 | d2 d2 ||
+|| "G"dd "D7"c/B/A | "G"dd "D7"c/B/A | "G"GA B>B | AG "D7"d2 |
+|  "G"dd "D7"c/B/A | "G"dd "D7"c/B/A | "B7"BB "Em"G/F/E | "B7"GF "Em"E2 :|
+"Coda" \
+|| "Em"e2e2 | ze "D"dd | "Em"e2e2 | ze "D"dd | "Em"e2e2- | e4 |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110233
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_B.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:29
+T:Le ruban bleu
+O:France
+A:Massif central
+R:Bourre  2 temps
+M:2/4
+L:1/8
+Q:200
+K:G
+d2 BG|F>G AB|c2 AF|G>A Bc|d2 BG|F>G AB|c2 AF|G4:|
+|:F>A FA|G>B GB|A>c Ac|B2G2|F>A FA|G>B GB|d>c BA|1d4:|2G4||
+S:https://www.folktunefinder.com/tunes/130272
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/bourrees.txt
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

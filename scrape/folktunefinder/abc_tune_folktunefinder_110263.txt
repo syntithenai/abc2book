@@ -1,0 +1,26 @@
+X: 21
+P: Hinach Yafa
+O: Israel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The rthythm alternates between "syrtos" (3-1-2-2) and "tsamikos" (3-1-2-2-2-2)
+M: 23/2
+L: 1/8
+K: D
+A dAed "Intro"| "D"f3e gfed "A7"cBce | "D"d3e fefg | af-fd "G"bg"D"af | "A7"ge-ef/e/ defg |
+| "Em"e4- e4- | e2ee fefg | "D"a3a a2a2 | "A7"a2gf g2fe | "D"d2z2 "A7"agfe | "D"dz :|
+|: "A7"AA dAeA || "D"f4 "D7"fgfe "G"g3a/g/ | "D"f4- f2e2 ffg2 | "D7"a6 a2 |
+| "G"b3a ggab | "D"a4- a4- | a2f2 f2g2 | a4 a2ab | "Em"g3f e4- | "A7"e2ed eef2 |
+| "A7"g2ag f2g2 | "D"a4- a4- | a2f2 "D7"g2a2 | "G"b3b b2b2 "A7"abag | "Bm"f4- f2fe ffg2 |
+| "Em"a2ba g2f2 | "A7"e4- e4- | e2ed c2A2 | "D"f4- f4 "A7"efed | "D"d4- d4- | dz  :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110263
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 23/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

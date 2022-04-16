@@ -1,0 +1,25 @@
+X:400
+T: Slieve Gallen
+N: "Slow with feeling"
+B: O'Neill's 180
+Z: Transcribed by henrik.norbeck@mailbox.swipnet.se
+M: 3/4
+L: 1/8
+K: Gm
+D>^F|G2 (G/4A/4B3/2) (A>B)|G4 (G/4A/4B3/2)|(F<D) C>B, G,2|B,2 (D/C/B,/C/) D z|
+(.B.c.d.e) T(c>B)|(.A.B.c.d) T(B>A)|(.G.A.B.c) T(A>B)|G2 (G>A) G z||
+(.B.c.d.e) (dc/B/)|(.A.B.c.d) (cB/A/)|(.G.A.B.c) (A>G)|(G>^F) D2 G(G/A/)|
+(.B.A.G.F) {=E}(FD)|.C(B,/A,/) (B,/C/).D (G,/A,/)(B,/C/)|(DG/) z/ (^FA/) z/ (GB/) z/|(A>G) G2- GA|
+B z z2 (e/c/d/B/)|~A z z2 (d/B/c/A/)|"#"~G z z2 (c/A/B/G/)|T(A>^F) D2- D (3=F/G/A/|
+(.B.A.G.F.D.C)|(CB,/A,/) (B,/C/)(D/G,/) A,B,/C/|(DG) (^F/G/A/) z/ (G/A/B/) z/|(A>G) G2- HG||
+S:https://www.folktunefinder.com/tunes/109866
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0101-0200_hn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

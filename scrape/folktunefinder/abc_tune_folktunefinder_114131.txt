@@ -1,0 +1,38 @@
+X:65
+T:London Hornpipe
+C:Arr. J. Ciaglia
+M:2/4
+L:1/16
+Q:1/4=90
+U:M=!tenuto!
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:d(gfe) dcBA|(GB)DG B2AG|(FA)DF A2GF|G(DEF) GABc|
+d(gfe) dcBA|(GB)DG B2AG|FGAB cdef|[1 .g2g2.g2 Bc:|[2 .g2Mg2.g2 AG|
+|:(FA)DF A2GF|(GB)DG B2AG|(FA)DF A2GF|(3(GFE)(3(DEF) GABc|
+d(gfe) dcBA|(GB)DG B2AG|FGAB cdef|[1 .g2Mg2.g2 AG:|[2 Lg4 z4|]
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!p!B2cc BAGD|(B,G)DB, G2FG|DFDD F2D2|B,2z2 zFGA|
+B2cc BAGD|(B,G)DB, G2^C2|DEFG ABcA|[1 .B2MB2.B2 z2:|[2 .B2MB2.B2 z2|
+|:(DF)DD MF2 z2|(B,G)DB, G2z2|(DF)DD MF2MC2|B,2C2 B,DGA|
+B2cc BAGD|(B,G)DB, G2^C2|DEFG ABcA|[1 .B2MB2.B2 z2:|[2 LB4 z4|]
+S:https://www.folktunefinder.com/tunes/114131
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

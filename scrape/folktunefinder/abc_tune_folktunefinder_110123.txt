@@ -1,0 +1,24 @@
+X:76
+T:Millison's Jig
+C:Playford, 1651
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+K:DDor
+P:A
+|:a | "Dm"a>gf e2d | "C"c2d e2a | "Dm"a>gf e2d | "C"c3 "Dm"d2:|
+P:B
+|:A | "Am"AcA AcA | AcA c2c | "Dm"dfd dfd | dfd f2f |
+"C"ege ege | ege g2a | "Dm"a>gf e2d | "A7"^c3 "Dm"d2:|
+S:https://www.folktunefinder.com/tunes/110123
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:10
+T:Bell Brandon
+C:F. Woolcott
+L:1/8
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=95
+N:For the "Belle Brandon Set" quadrille, Elias Howe, 1858.  Slightly cut.
+K:D
+[| AG | "D"F2FA "A"GFGB | "D"A2d2 "^/"z2AG | "D"FFFA "G"G2AB | "A"E4 "^/"z2AG |\
+"D"F2FA "A"GFGB | "D"A2f2- "E"f2ed | "A"ccdc "E"B2cB | "A"A4 "^/"z2Bc |
+"D"eddd "^/"FFGA | "G"c4 "^/"B2EF | "A"AGGG "D"FFAF | "A"E4 z2AG |\
+"D"F2FA "A"GFGB | "D"A2f2- "^/"f2dB | "D/A"A2FD "A7"E2GF | "D"D4 "^/"z4 |]
+S:https://www.folktunefinder.com/tunes/110057
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

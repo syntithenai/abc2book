@@ -1,0 +1,18 @@
+X:705
+T:Phil's Jig
+M:6/8
+L:1/8
+K:DMix
+ADD BAG|ADD DEG|ADD BcA|GEC EFG|\
+ADD BAG|ADD DEG|Acc c/d/BA|GEC EFG :|
+D2 d dAd|dAd dAF|D2 d dAB|c2 A GEC|\
+D2 d dAd|Add dAB|c3 cBA|GEC EFG :|
+S:https://www.folktunefinder.com/tunes/121075
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:101
+T:Billy Budd
+C:Roy Watrous, 1981
+S:The Watrous Book, 1992
+M:2/4
+L:1/16
+Q:1/4=90
+K:A
+%%MIDI program 72
+%%MIDI transpose 8
+ec|A2A2 cecA|defg a2gf|eaec dfdB|cecA B2ec|A2A2 cecA|
+defg a2gf|eaec fdB=G|A2A2A2::cd|ecfc ecfc|ecaf e2cd|eaec dfdB|
+cecA B2cd|ecfc ecfc|ecaf e2cd|eaec fdB=G|A2A2A2:|]
+S:https://www.folktunefinder.com/tunes/114133
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

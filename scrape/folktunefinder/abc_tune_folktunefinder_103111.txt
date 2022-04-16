@@ -1,0 +1,30 @@
+X:1
+T:The Flowing Tide
+C:Traditional
+N:Play second part with repeats as intro
+N:then twice through
+N:The Armagh Set, figure 6, tune 1 of 1
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Hornpipe
+L:1/8
+M:4/4
+Q:280
+K:G
+(3GFG G>B d>GB>d | G>Bd>g b>ga>g | (3efg d>g B>dg>e | d>BA>G e>dB>A |
+(3GFG G>B d>GB>d | G>Bd>g b>ga>g | (3efg d>g B>dg>e | d>BA>B G3 D :||
+G>FG>B A>GE>D | g>fg>e d>BA>B | c>eB>d A>BG>B | (3cBA B>G A>GE>G | 
+D>GB>d B3 d | (3cBA B>G A>GE>G | D>GB>d g>dB>G | (3DEG (3FGA G3-G :||
+S:https://www.folktunefinder.com/tunes/103111
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

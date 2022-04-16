@@ -1,0 +1,27 @@
+X: 7
+T: Big John McNeil
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A
+|:A2|\
+"A"A,2CE FECE|AECE FECE|A,2CE FECE|"D"FAGF "E"EDCB,|
+"A"A,2CE FECE|AECE FECE|A,CB,D "D"CEDF|"E"EGBd "A"cA:|
+|:cd|\
+"A"eAfAeAcd|"A7"eAfAe2 (3agf|"Dmaj7"eAfA eAce|"Bm7"daca "E7"B2cd|
+"Amaj7"eAfA eAcd|"C#m7"eAfAe2 (3efg|"Bm7"agfe fece|"E7"defg "A"a2:|
+S:https://www.folktunefinder.com/tunes/113016
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:12825
+T:Parting of Friends, The (ns abc)
+T:Sgaruint Na gCompanach
+T:Conchubhar Mhac Coireibhe
+M:4/4
+L:1/8
+Q:1/4=80
+R:slow air
+Z:norman sams
+K:Edor
+B2 d | e3 {f/ede/f/} | gzg/ fzf/ | e2 {f/e/d/e/f/g/} b2 {c'b} | a/f3z//
+e2e2{f/e/d/B/}e4ze4  e2 e2{f/ed/B/}| e4e2 e2B4d |{fg}f4e4 | e8||
+B2 B3||{d/} e4e4 {f/e/d/B/A/}| Be3 |  e2f/e/ (3dBA |{B/e/}f4 e2{e/g/} e2
+d2B2| E4  E2 F2| G4 {B/A/G}F2 G4 A2 B2 c2 |  d4z/ d2 c2 d2 | {A//}B4 {c/
+B/}
+A2|F4{G/F/} |E2D2E4{F/E/}D4E2F2 z |E4F2{G/F/}E2D2 |
+D4E2{F/E/}D2E2{FE}|E8||
+S:https://www.folktunefinder.com/tunes/115870
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

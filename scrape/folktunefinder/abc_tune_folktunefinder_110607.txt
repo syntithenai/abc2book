@@ -1,0 +1,30 @@
+X:60
+T:A NORTHERN FRISK
+B:John of the Greeny Cheshire Way
+N:\251 John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:Am
+P:1
+A2 e4 A2 ecBA | GABc d2 G2 B2 AG |\
+A2 e4 A2 ecBA | E2 A4 c2 B2 A2 ||
+P:2
+edcB ABcd ecBA | GABc dcBA BcdB |\
+AecA ceac BA^G^F | E2 A4 c2 B2 A2 ||
+P:3
+e2 a2 d2 g2 c2 f2 | BcdB GABG BcdB |\
+ea^gb edcB ABcA | E2 A4 c2 B2 A2 ||
+P:4
+e2 e2 e2 e2 e4 | dcBA G2 d2 BcdB |\
+eaec AcBA ^GABG | E2 A4 c2 B2 A2 |]
+S:https://www.folktunefinder.com/tunes/110607
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/Cheshire.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/NORTHERN_FRISK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

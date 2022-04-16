@@ -1,0 +1,26 @@
+X: 4
+T: Scotty O'Neil
+I: Scotty O'NeilR-32Dreel
+C: Bob McQuillen 1973
+M: C|
+R: reel
+K: D
+AG| "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 A2F2| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+|:AG| "D"F2A2 f2e2| "G"d2c2 B3c| "D"d2A2 G2F2| "A"F2 E4 AG|
+    "D"F2D2 f3e| "G"dedc BABc| "D"d2A2 "A"ABAG| "D"F2 D4 :|
+%%text Roaring Jelly  R-32
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/107083
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

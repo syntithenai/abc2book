@@ -1,0 +1,28 @@
+X: 39
+T: Tore Retreat
+S: Fitzmaurice Collection
+N: 202209
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=180
+K: D
+d2A ABA | d2A AGE | d2A ABA | def gec |
+d2A AGA | d2A AGE | G2E =c2E | G2G GFE :|
+d2e fed | =c2A cA^c | d2e fef | gfg afd |
+d2e fed | =c2A cAF | G2E =c2E | GAG GFE :|
+FAF FEF | GAG GFG | FAF FEF | GE=c GE=C |
+FAF FEF | GAG GFG | EGE =cBA | GE=c GE=C :|
+%%%%%
+S:https://www.folktunefinder.com/tunes/99801
+S:http://www.qmcorp.net/webabc/collections/fjc_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

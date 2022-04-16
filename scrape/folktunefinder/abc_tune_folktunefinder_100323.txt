@@ -1,0 +1,25 @@
+X:31
+T:Chinese breakdown
+O:scotland
+R:Reel
+M:4/4
+K:D
+A2| ddBA FF2A | ddBA c3A | \
+ce/c/ BA cc2B | A/A/A/A/ BA F3A |\
+ddBA FF2E | D/D/D/D/ EF G3A |\
+ee e/f/e/d/ cc2B | A/A/A/A/ Bc d2 ::\
+A2| fa/f/ ed ff2A | fa/f/ ed c3 e|\
+aa2^g =gg2e | ce/c/ B/c/B A2z=f |\
+^f2af ed ff2e | d/d/d/d ef g4 |\
+ee e/f/e/d/ cc2B | AABc d2:|
+S:https://www.folktunefinder.com/tunes/100323
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

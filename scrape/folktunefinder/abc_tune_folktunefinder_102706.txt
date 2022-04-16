@@ -1,0 +1,41 @@
+X:33
+T:Padmoskownye vjetsjera
+O:russia
+M:2/4
+L:1/8
+Q:1/4=
+K:Em
+V:1
+EG BG |A2 GF |B2 A2 |(E2 E2) |
+GB dd |e2 dc |B4  ||^c2 _e2 |
+fe (B2 |B)G FE |BA (c2 |c2) dc |
+B2 AG |B2 A2 |E2 B2  ||^c2 _e2 |
+fe (B2 |B)G FE |BA (c2 |c2) dc |
+B2 AG |B2 _e2 |1 e2 z2 |z4 :|2
+(e4 |e2) z2 ||
+V:2          %Orgel(r)
+z2 z2 z2 z8 |[EB,2]G[BE2]G|"Am" [A2E2][G^C2]F|"B" [B2F2][A2_E2]|
+[(E2G,2]E2) |"G" [GE][BG][dB][dB]|"C" [e2c2]"D7" [dB][cA]|"G" [B4G4]||
+[^c2_B2][_e2A2]|"Em" [fG4]e(B2 |[B)E2]G[FB,2]E|"Am" [BG][AF][(c2E2]|
+[c2)E2][dG][cA]|"Em" [B2G2][AF][GE]|"B7" [B2G2][A2F2]|"Em" E2 B2 ||
+[^c2_B2][_e2A2]|[fG4]e(B2 |[B)E2]G[FB,2]E|[BG][AF][(c2E2]|
+[c2)E2][dG][cA]|"Em" [B2G2][AF][GE]|[B2_E2][_e2F2]|1 "Em" [E2e2 G2]Bc |
+.B.A .G.F :|2 "Em" [(E4G4 e4]|[E2)G2 e2]z2 ||
+V:3          %orgel(l)
+z2 z2 z2 z2 |e2 g2 |a2 _b2 |b2 _e2 |
+e3  (3d/e/f/ |g2 b2 |C,2 D,F, |G,2 D,E, ||
+[F,2F,4]B,2 |E,3 =F,/F,/|G,3 G,/^G,/|A,3 _B,/B,/|
+C,4 |E,4 |B,2 _E,2 |E,2 [G,2B,2]||
+[_B,2_B,2][B,2B,2]|[E4E,4]|[B,4E,4]|[(A,4A,4]|
+[A,4)C,4]|[E,4G,4]|[B,2F,4]_E,2 |1 [E,2E,2 B,2][B,2B,2]|
+[^C,2^C,2][_E,2_E,2]:|2 [E,4B,4 (E,4]|[E,2B,2 E,2)]z2 ||
+S:https://www.folktunefinder.com/tunes/102706
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

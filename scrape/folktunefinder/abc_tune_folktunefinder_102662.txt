@@ -1,0 +1,28 @@
+X: 11
+T:Katinka
+O:russia
+Z:John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Bm
+| "Bm"F2 Bd | f2 gf | "F#7"f2 ec | ^A4 \
+| F2 ^Ac | e4 | "Bm"F2 Bd | f4 |
+| "Bm"F2 Bd | f2 gf | "F#7"f2 ec | ^A4 \
+| F2 ^Ac | e2 dc | "Bm"B2- "Em"B2- | "B7"Bf ga |
+| "Em"b2 ag | b2 ag | b2 ag | "Bm"f4 \
+| "F#7"g2 fe | g2 fe | "Bm"f>d- dz | "F#7"e>c- cz |
+| "Bm"F2 Bd | f2 gf | "F#7"f2 ec | ^A4 \
+| F2 ^Ac | e2 dc | "Bm"B2- "Em"B2- | "Bm"B2 z2 |]
+%%sep 5 5 5cm
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102662
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

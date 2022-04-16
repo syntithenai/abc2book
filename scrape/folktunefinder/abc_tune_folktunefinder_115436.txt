@@ -1,0 +1,33 @@
+X:18198
+T:Valse  Denis - Valse/Walzer/Waltz
+C:traditionell
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+K:G
+d2^c|d2e|d2B|g3|
+d2^c|deB|d2^c|c3|
+c2B|c2d|c2A|f3|
+d^cd|fee/c/|B3-|B3|
+d2^c|d2e|d2B|g3|
+ecd|e2b|a3|a3|
+gfa|gfe|dbg|d3|
+ecg|fda|g/f/f/^f/b/a/|g3|
+g3:|
+|:de/f/g/a/|ba/g/f/e/|d/e/d/e/d/B/|c3|
+d/e/f/g/a/b/|c'/b/a/g/f/e/|d/e/d/c/A/c/|B2G|
+de/f/g/a/|ba/g/f/e/|d/e/d/e/d/B/|c3|
+d/e/f/g/a/b/|c'/b/a/g/f/e/|dfa|g3:|
+S:https://www.folktunefinder.com/tunes/115436
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

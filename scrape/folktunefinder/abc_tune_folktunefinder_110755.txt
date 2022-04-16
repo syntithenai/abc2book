@@ -1,0 +1,30 @@
+X:195
+T:Shropshire Round (duet)
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/4
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000300.html
+%%ID:00000300
+K:D
+P:Voice 1
+d2 c2 B2 | AE EGFE | d/2e/2d c/2d/2c B/2c/2B | AD DFED ||
+GE FD GE | AE EF GA| dF EecA                  |dD DFED ||
+fg/2f/2 ef/2e/2 cB| ce eB ce |f/2g/2a/2c/2 Be/2d/2 cA| dD D/2E/2F ED|]
+P:Voice 2
+D2 A2 G2 | F2 E4 | D2 A2 G2 | F2 D4 ||
+ge fd ge | ae eg fa | fA G2 A2 | F2 D4 ||
+de/2d/2 cd/2c/2 A2 | Ac c^G Ac | F2 =G2 A2 | D2 D/2E/2F ED|]
+S:https://www.folktunefinder.com/tunes/110755
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

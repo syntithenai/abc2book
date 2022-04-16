@@ -1,0 +1,22 @@
+X:615
+T:The Cowboy's Jig
+R:jig
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+BA| "G"GDE G2A | Bgf gdB | "Am"ABc BcA | BcA "D7"BGE |
+| "G"GDE G2A | Bgf gdB | "Am"ABc "D7"BcA | "G"BGG G :|
+|: Bd| "C"e2e e2e | egf edB | "Bm"d2d d2d | dge dBG |
+| "C"c2d "D7"e2f | "G"gdB "D7"A2d | "G"BGA "D7"BcA | "G"BGG G :|
+S:https://www.folktunefinder.com/tunes/125415
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

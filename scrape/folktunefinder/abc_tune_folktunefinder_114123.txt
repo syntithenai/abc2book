@@ -1,0 +1,37 @@
+X:57
+T:The Army Goes Rolling Along
+C:E.L.Gruber
+C:Arr. C. French, C. Myers
+M:C|
+L:1/4
+Q:1/2=100
+K:G
+%%staves [1 2]
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dB|:d2 dB|d2 dB|d>e dB|d2 Bc|dc2A|dc2A|[1 G4-|Gz dB:|
+[2 G4-|Gz dd|g2 g2|d3 d|e>f ge|d4|gg2f|e>f ge|a4-|az dd|
+g2 g2|f4|e>f ge|d2 Bc|dc2A|dc2A|G4-|Gz z2||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!BG|:B2 BG|B2 BG|B>c BG|B2 GA|FA2F|FA2c|[1 B4-|Bz BG:|
+[2 B4-|Bz BB|B2 B2|B3 B|c>c cc|B4|BB2B|c>c cc|d2 c2|B2 A2|
+G2 B2|d2 B2|cc2c|B2 GA|FA2F|FA2c|B4-|Bz z2||
+S:https://www.folktunefinder.com/tunes/114123
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

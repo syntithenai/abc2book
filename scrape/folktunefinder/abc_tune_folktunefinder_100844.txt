@@ -1,0 +1,21 @@
+X:48
+T:Phil Durkin's Favourite
+Z: id:dc-hornpipe-61
+M:C|
+L:1/8
+K:G Major
+(3DEF|G2BG ABcA|defd gfdc|B2GB A2FA|GBAF DEFD|!
+G2BG ABcA|defd gfdc|B2GB A2FA|G2GF G2:|!
+(3Bcd|gfga gfdf|g2bg gfde|fefg afge|fde^c d=cAF|!
+G2BG ABcA|defd gfdc|B2GB A2FA|G2GF G2:|!
+S:https://www.folktunefinder.com/tunes/100844
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

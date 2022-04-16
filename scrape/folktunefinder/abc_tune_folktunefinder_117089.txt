@@ -1,0 +1,31 @@
+X:42
+T:Faded Love
+C:Bobby Hicks - "Fiddle Patch"
+M:4/4
+L:1/8
+Q:1/8=270
+K:D
+[D2D2][F2D2]|A4 A3B|A2F2 E/F/ED2|d4 d3e|d4 c2B2|
+A4 A3B|A2F2 E/F/ED2|E4 E3F|E3D DFDF|
+A4 A3B|A2F2 E/F/ED2|d4 d3f|edzB dcAB|
+A4 c2d2|e4 B2c2|d4 d3e|d4 c2f2|
+a4 a3b|a2ef a/f/ed2|B3A B2c2|d3c d2ef|
+a4 a3b|a2ef a/f/ed2|[e2e2][e2e2] e/f/e=cB|[e2A2][e2A2] A/B/=c/^c/ef|
+a4 a3b|a2ef a/f/ed2|B3A B2c2|d3d c2B2|
+A4 c2d2|e4 B2c2|d4 d3e|d8|
+z8|[A2F2D2][A2F2D2] [A2F2C2][B2F2]|[A2D2][AF][A=F] [A2E2][A2D2]|[d4G4] [d2F2]e2|
+[B4E4] [c2=F2][B2F2]|[A2F2][A2F2] [A2F2][^A2F2]|[B4F4] [A2F2][BF][E^G,]| [E2A,2][EA,][EB,] z[EC]^DE|
+[AE][AG]z2 DFDF|[A4F4D4] [A2F2C2][B2F2]|[A2F2][AF][A=F] [AE][A^D][A2=D2] |[d4G4] [d2F2]e2|
+[B2E2][B2E2] [c2=F2][B2F2]|[A2D2][A2D2] [c2F2]d2|[e4^G4] [B2=G2][c2G2]|[d4F4] [dG][dF][dE][dG]|
+[d4F4] [d2F2][f2d2]|[a4d4] [^g2c2][b2c2]|[a2A2][f2A2] [e2A2][=c2F2]|[G3B,3][FA,] [GB,][A=C][BD]A|
+[B3G3]F ABf2|[a6d6][^a2d2]|[b4^d4] [a=d][^gc][f2c2]|[e2B2]EF ^GDEF|
+c/d/ezA cdea|[a4d4] [^g2c2][b2c2]|[a2A2][f2A2] [e2A2][=c2F2]|[B3G3][AF] [BG][BA][AF][e=c]|
+[B4F4] [BF][^AF][B2F2]|[A2F2][^A2F2] [B2F2][c2F2]|[d4F4] [dG][dF][dE][dG]|[d8F8]|
+S:https://www.folktunefinder.com/tunes/117089
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

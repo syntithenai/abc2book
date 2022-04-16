@@ -1,0 +1,25 @@
+X: 13
+T:Galopede
+T:Yarmouth Reel
+R:Reel
+M:4/4
+L:1/8
+K:G
+P:A
+dc |"G"B2 Bc "D"A2 AB |"G"G2 "C"G2 "G"G2 AB |"C"cBcd "Am"edcB |"D"A2 A2 A2 dc |
+"G"B2 Bc "D"A2 AB |"Em"G2 G2 "G"G2 AB |"Am"cBAG "D7"FGAF |"G"G2 G2 G2 ::
+P:B
+dc |"G"B2 gf "C"e2 ed |"Am7"dcBc "D"A2 dc |"G"B2 gf "Am"edcB | "D"A2 A2 A2 dc |
+"G"B2 gf "C"e2 ed |"Am7"dcBc "D"A2 dc |"G"BdcB "D7"AcBA |"G"G2 G2 G2 ||
+P:C
+Bc |"G"d2 d2 d2 g2 |"G"d2 d2 d2 g2 |"G"d2 d2 "C"edcB |"D"A2 A2 A2 Bc |
+"G"d2 d2 d2 g2 |"G"d2 d2 d2 g2 |"C"edcB "D7"dcBA | "G"G2 G2 G2 ||
+S:https://www.folktunefinder.com/tunes/120705
+S:http://homepage.ntlworld.com/djfoster/mad.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

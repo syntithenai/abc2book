@@ -1,0 +1,40 @@
+X:116
+T: Fan Dui hua
+N: C0156
+O: China,Liaoning, Shenyang
+S: III, 298]
+N: sehr typisch. Leicht bearbeitet. Frage-Antwort ueber Blumen.
+N: Saengerin: Huang Bai.     4# KLINGT NICHT TEMPERIERT!
+N: Diese Sammlung enthaelt mit Stand 1987 wenigstens 32 Aufnahmen
+N: mit dem Titel "Dui hua"
+N: C0046, C0495, C0136
+R: Xiaodiao. Chang siji huahui]
+M: 2/4
+L: 1/16
+K: E
+B2^A2B2e2 | c2B2^A2F2
+B2A2B2e2 | c2B2^A2F2
+B2A2B2e2 | c2B2^A2F2
+B2A2B2e2 | c2B2^A2F2
+A2=AcB3B | ^A2=A2B4
+G2B2GBGB | e3cB3B
+G2B2GBGB | e2GcB4
+e3cB3B | c2GcB4
+e3ce2c2 | e3cB3B
+c2GBcBGB | c2GcB4
+G3BG2B2 | e2c2B4
+G3BG2B2 | e2c2B4
+F3GB2e2 | G3FE4
+E2E2E2G2 | F2E2E2C2 | B,8
+S:https://www.folktunefinder.com/tunes/112543
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. chang siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

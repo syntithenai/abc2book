@@ -1,0 +1,29 @@
+X:19
+T:Dingle Regatta, The
+M:12/8
+E:12
+Z:Boston
+R:slide
+K:G
+d^cd e2 d BAB d2 B|~A3 AGA B2A G2 z|d^cd e2 d BAB d2B|~A3 B2A G3 z2 z:|
+d2d def ~g3 gfg|~a3 aga b2a gfe|d^cd def ~g3 g2 b|a2g f2e def g3:|
+.g2 z .d2z BdB G3|~A3 DEF G2 B d2 z|.g2 z .d2z BdB G3|~A3 DEF G2 B G2 z:|
+\vskip .5in  Seamus Ennis doesn't play the third part, and plays the second part as follows.
+Bdd def g3 faf|g2e dBd e2 A AGA|Bdd def g3 faf|efe def g3 z2:|
+S:https://www.folktunefinder.com/tunes/104507
+S:http://domren.free.fr/ABC.htm
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunes.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunes.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunes.abc
+S:http://www.firepowr.com/abc/sessionTunes.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunes.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:50
+T:Morpeth Rant
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/11/04
+N:Petrie's Second Collection, page 17
+L:1/8
+M:C
+R:Reel
+K:G
+(D/E/F)|G2DC B,G,B,D|ECEG     FDFA    |BGcA dBAG|FGAB A2 GF   |
+        G2DC B,G,B,D|ECEG     FDFA    |Bedc BAGF|[B,2D2G2][B,2D2G2][B,2D2G2]::ef|
+        gdBG FAce   |dBAG ({G}F2) (ED)|cAcA BGBG|FGAF D2 (D=F)|
+        ECEG cBAG   |FDFA     dcBA    |Bgfe dcBA|[B,2D2G2][B,2D2G2][B,2D2G2]:|
+S:https://www.folktunefinder.com/tunes/128313
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Morpeth_Rant.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/50.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

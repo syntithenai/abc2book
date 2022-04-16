@@ -1,0 +1,26 @@
+X:465
+T:Monaghan Jig
+R:Jig
+C:Trad, arr Phil Rowe
+S:Nottingham Music Database
+M:6/8
+L:1/8
+Q:3/8=120
+K:Em
+c|:"Em"BGE F2E|BGE "D"FGA|"Em"BGE F2E|"D"AFD FGA|
+"Em"BGE F2E|BGE "D"FGA|"G"dcB ABG|"D"FDF AGF:|
+|:"Em"EGB efg|"Bm"fed "Em"edB|EGB "G"dBG|"D"FDF AGF|
+"Em"EGB efg|EGB "G"dBG|dcB ABG|"D"FDF AGF:|
+|:"Em"g2e efe|geg bge|g2e efg|"D"fdf agf|
+"Em"g2e efe|g2e efg|"G"dcB ABG|"D"FDF AGF:|
+S:https://www.folktunefinder.com/tunes/125385
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

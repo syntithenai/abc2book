@@ -1,0 +1,32 @@
+X:6285
+T:Gisburn Processional
+% Nottingham Music Database
+S:Eric Foxley
+P:ABABA
+M:6/8
+K:G
+P:A
+dc|"G"B2B BAB|"G"d2B BAB|"C"c2e g2e|"G"d2B BAB|
+"Am"c2A "D7"AGA|"G"B2G G2B|"Am"A2B A2B|"D7"A2d d2c|
+P:segno
+"G"B2B BAB|"G"d2B BAB|"C"c2e g2e|"G"d2B BAB|"Am"c2A "D7"AGA|"G"B2G G2F|\
+"C"E2e "D7"d2c|"G"B2
+P:Fine
+G G2||\
+P:B
+Bc|"G"d2c Bcd|"C"e2f g2a|"G"b2a gfe|
+"G"d2B Bcd|"C"e2e ecA|"G"d2d dBG|"Am"c2A B2G|"D7"F2A d2
+P:D.S.
+c||
+S:https://www.folktunefinder.com/tunes/102183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

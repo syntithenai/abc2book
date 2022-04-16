@@ -1,0 +1,28 @@
+X:210
+T:Sean Sa Ceo
+R:Reel
+S:Kevin Burke, London (fiddle)
+D:"The Pure Drop"
+M:4/4
+Z:Bernie Stocks
+K:C
+cB | (3AcA Gc ADEG | AcAE Gz{G}ED | EAAG AB{c}BA | Ec{d}cA GECE |
+A2Gc AD~D2 | [A3D3]E G2ED | [E2A2] (3.A.A.A ABcA | EGcA GECE ||
+FDDC [D3A,3]E | FD~D2 GECE | FDDC DEFG | ABcA GECE |
+FDDC [D3A,3]E | FD~D2 GECE | FDDC DEFG | ABcA GABc ||
+K:G
+d2fd edfd | (3.d.d.dfd A2AB | c2ec dcec | ~c2ec ABcA |
+d2fd edfd | ~d2fd A2AB | cBce dcAB | cdcA Gc{d}cB ||
+S:https://www.folktunefinder.com/tunes/117336
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

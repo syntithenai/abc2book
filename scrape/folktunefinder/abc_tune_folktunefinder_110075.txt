@@ -1,0 +1,25 @@
+X:28
+T:Dampier
+C:Walsh, 1718
+L:1/8
+M:4/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=135
+K:C
+P:A
+|: "C"c2 "G/D"B2 "C/E"c2 "F"B>A | "G"G>FE>F "C"G2C2 | "G"D>EF>G "F"A>B ((3cBA) | "G7"G2B2 "C"c2C2 :|
+P:B
+|: "C"c>de2 "C/B"c>de2 | "C/A"c>de>f "G"d>BA>G | "C"c>de2 "C/B"c>de2 | "C/A"c>de>f "G"g2-g>a |
+"C"g>fe>d "Am"c>BA>e | "Dm"f2A>e "^/"f2-f>e | "G"f>ed>c "^/"B>A ((3GFE) | "F"F2 "G"G2 "C"c4 :|
+S:https://www.folktunefinder.com/tunes/110075
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

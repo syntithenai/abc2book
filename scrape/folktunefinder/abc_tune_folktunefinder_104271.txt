@@ -1,0 +1,23 @@
+X: 46
+T: Don Tremain's Reel
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+R: reel
+M: C|
+L: 1/8
+K: D
+|: FG || "D"ABAG FADF | "G"GFGA BcdB | "A7"Aceg fcec | "D"dAFB "A7"A2FG |
+| "D"ABAG FADF | "G"GFGA BcdB | "A7"Aceg fcec | "D"d6 :|
+|: ef || "G"gage "D"fgfd | "A7"efec "D"dAef | "G"gage "D"fgfd | "A7"ea2b a2 ef |
+| "G"gage "D"fgfd | "A7"efec "D"dAFD | "G"G2 EG "D"FEDF | "A7"EDCE "D"D2 :|
+S:https://www.folktunefinder.com/tunes/104271
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ChrisRickersCanadianSessionTunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

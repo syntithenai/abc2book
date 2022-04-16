@@ -1,0 +1,27 @@
+X:55
+T: Dave O Docherty's
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: D
+FA|"Bm"BcBA "D"F2 ED|"G"B,D (3DED "D"FGAB|"Bm"dBBd "Em"e2 gf |"G"eBdB "A"A2 FA |
+"Bm"BcBA "D"(3FEF ED | "G"B,D (3DED "D"FGAB | "Bm"defd "G"g2 ed |\
+"A7"cAGE "D"D2 :|
+FA | "Bm7"BDFA "D"dcde | "Bm"fede "F#m"fa (3a^ga | "Bm"bf (3fef "D"af (3fef |\
+"G"gfed "Bm"B2 FA |
+"Bm7"BDFA "D"dcde | "Bm"fede "F#m"fa (3a^ga | "Bm7"b2 af "Em"edBd |\
+"A7"cAGE "D"D2 :|
+S:https://www.folktunefinder.com/tunes/121249
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

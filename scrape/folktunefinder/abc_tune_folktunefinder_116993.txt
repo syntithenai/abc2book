@@ -1,0 +1,32 @@
+X:2
+T:Andy De Jarlis'
+%C: J-70
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+K:E
+K:E
+"E"EGB EGB| EGB "A"c2B| "E"EGB EGB| "D"=DFA B2A| \
+"E"EGB EGB| EGB "A"c2a| \\ "B"g2f Bcd|1 "E"efe e3 :|2 "E"efe e2a \
+|:\
+"E"gbg efg| "A"aba c2e| "F#m/A"f2g f2e| \\ "B7"dcB c2B| \
+"E"gbg efg| "A"aba  "F#m"c2a| "B"gfe Bcd |1 "E"e3 e2a :|2 "E"e3 e3 |]
+\
+%%textfont Times-Bold 10.0
+%%text Transition
+x8 x8 x8 x8 x8 x8 x8 x8 x8 x8| "E"e_ed "E7#9"c2^c |
+%%textfont Times-Roman 7
+%%text Roaring Jelly J-70
+% %vskip 28pt
+S:https://www.folktunefinder.com/tunes/116993
+S:http://roaringjelly.org/music/sets/Set66.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set66.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set66.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

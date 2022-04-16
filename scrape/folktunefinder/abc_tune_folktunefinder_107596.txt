@@ -1,0 +1,34 @@
+X: 2
+T:Jackie Coleman's
+R:reel
+S:Session in Galway 1992
+D:Music at Matt Molloy's
+Z:id:hn-reel-409
+M:C|
+K:D
+P:Cape Breton style
+|:AF F/F/F EFDE|F2AF BFAF|EBBA B2AB|ABde fedB|
+AF F/F/F EFDE|F2AF BFAF|EBBA B2AB|1 ABde fddB:|2 ABde fdde||
+|:fddc d2de|fddc dfaf|eA A/A/A eAfA|eA A/A/A cdeg|
+fddc d2de|fddc dfaf|g2gf gbag|1 fgeg fdde:|2 fgeg fedB||
+P:Irish variation 1
+AF~F2 EDB,D|F2AF BFAF|E2BE dEBE|ABde fedB|
+AF~F2 EDB,D|F2AF BFAF|E2BE dEBE|1 ABde fddB:|2 ABde fdde||
+|:fddc d2de|fddc dfaf|eA~A2 gAfA|eA~A2 cdeg|
+fddc d2de|fddc dfaf|g2gf gbag|1 fgeg fdde:|2 fgeg fedB||
+P:Irish variation 2
+|:AF~F2 EFDE|F2AF BFAF|E2BE dEBE|ABde fedB|
+AF~F2 EFDE|F2AF BFAF|E2BE dEBE|1 ABde fddB:|2 ABde fdde||
+|:fddc dfag|fdde fgaf|eA~A2 eAfA|eA~A2 efge|
+fddc dfag|fddc dfaf|g2gf gbag|1 fgef d2de:|2 fgef d2dB||
+S:https://www.folktunefinder.com/tunes/107596
+S:http://www.chivalry.com/iband/Iband-feb27-00.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:3
+T:VI. Now, O now, I needs must part,
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+T:Tenor
+M:3/2
+L:1/2
+N: Original clef, C on third line
+K:Gmix -8va
+%%MIDI transpose -12
+%%MIDI nobarlines
+%1
+|:d2 d B2 B G  G > g ^f3 g2 B e2 d d2 d d3 d2 d B2 B G G > g
+S:https://www.folktunefinder.com/tunes/111011
+S:http://www.laymusic.org/music/dowland/nowonow/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

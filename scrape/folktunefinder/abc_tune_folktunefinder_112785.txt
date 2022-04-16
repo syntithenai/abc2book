@@ -1,0 +1,27 @@
+X:358
+T: Bu pa huangshui chong shanglai
+N: C1307
+O: China,Henan, Kaifeng
+S: IV, 116]
+N: In Shandong gibt es viele dieser Arbeitslieder, in Henan weniger.
+N: Sehr typisch fuer dieses Thema: Ueberschwemmung des Huanghe
+N: Vereinzelt Verzierungen.
+R: Haozi, Dawo haozi.
+M: 2/4
+L: 1/8
+K: G
+BGAA | AEG2 | G2dd | G2G2
+GABd | G2G2 | G2dd | G2G2
+GBAG | AAE2 | G2dd | G2G2
+GAdE | G2G2 | G2dd | G2G2
+S:https://www.folktunefinder.com/tunes/112785
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, dawo haozi.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

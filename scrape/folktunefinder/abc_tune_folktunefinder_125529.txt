@@ -1,0 +1,26 @@
+X: 60
+T:Haunted House, The
+M:6/8
+L:1/8
+C:Comp. Vincent Broderick
+R:Double Jig
+K:G
+D[|:G3 AGA|BGE EDE|GBd egd|ege edB|!
+G3 AGA|BGE EDE|GBd ege|dBA G2D:|]!
+GBd egd|ege edB|GBd ded|ded dBA|!
+GBd egd|ege edB|GBd ege|dBA G3||!
+GBd egd|ege edB|GBd ded|ded dBA|!
+G3 AGA|BGE EDE|GBd ege|dBA G2D|]!
+% Output from ABC2Win  Version 2.1 i on 2/4/2004
+S:https://www.folktunefinder.com/tunes/125529
+S:http://www.geocities.com/novairishsession/bw/bwdjigs.txt
+S:http://www.novasession.com/bw/bwdjigs.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

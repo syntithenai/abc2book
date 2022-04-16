@@ -1,0 +1,29 @@
+X: 62
+T: Road to Boston
+T: On the Road to Boston
+S: Bernie Waugh
+R: Reel
+M: 2/4
+L: 1/8
+K: D
+|:\
+"D"f2 fe/f/|"G"gf ed|"A"cd ef/e/|"F#m"dA FA|
+"D"f2 fe/f/|"G"gf ed|"A"cd ef|"D"d2d2:|
+"D"a2ag/a/|"B7"ba gf|"Em"g2gf/g/|"A7"ag fe|
+"D7"f2 fe/f/|"G"gf ed|"A7"cd ef|"D"d2d2|
+"D(Am)"a2ag/a/|"B7(D)"ba gf|"Em(C)"g2gf/g/|"A7(Bmaj)"ag fe|
+"D7(Em)"f2 "(C)"fe/f/|"G(Am)"gf ed|"A7(F#maj)"cd "(A)"ef|"D(Bb)"d2d2|]
+S:https://www.folktunefinder.com/tunes/113071
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

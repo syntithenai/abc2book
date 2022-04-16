@@ -1,0 +1,26 @@
+X: 90
+T:Golden Stream Varsoviana. WI.090
+M:3/4
+Q:140
+C:"Montgomery"
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Waltz
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:F
+c>d|c2A2G2|F4A>B|c2f2^c2|d4d>e|!
+d2B2A2|G4G>F|E2d2c2|1A4:|2F4||!
+f>g|(f>e)d2d2|(e>d)c2c2|(d>c)=B2B2|c4c>^c|!
+d>BG2e>d|c>AF2G>F|E>Gd2c2|F4|]
+S:https://www.folktunefinder.com/tunes/121176
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

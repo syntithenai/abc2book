@@ -1,0 +1,23 @@
+X: 1650
+T: The Green Flag
+M:C|
+L:1/8
+B:O'Neill's 1650
+N:"collected by F. O'Neill"
+K:G
+G2 \
+| D>GB>G d>GB>G | e>fg>e d>BA>B | G>FG>A B>AB>G | A>BA>F G>FE>D |
+| D>GB>G d>GB>G | e>fg>e d>BA>B | G>Bd>g e>cA>F | G2 G2 G2 :|
+|: d2 \
+| g>be>g d>gB>d | d>Bg>ed>BA>B | GBd>B e>dc>B | A>^G A>B A2 D>C |
+| B,>DG>B d2c>B | A>Bc>d e2g>e | d>BG>B A>GF>A | G2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/101266
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

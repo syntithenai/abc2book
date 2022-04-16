@@ -1,0 +1,21 @@
+X: 1
+T: Ard Baithen
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+ADD B2 D|ADD FGA|d2 e fdB|ecA fdB|
+ADD ~F2 G|ABA fec|dcA~G3|ecA ~G3:|
+|:Ade ~f2 g|afd cAF|G=cA ~G3|=cGE =cGE|
+ABA f~g2|g~a2 d=cA|B~=c2 E=cE|DFA d2 z:|
+|:DED DED|dAd cAF|[E3/2A,3/2][E/A,/][EA,] GEC|A,CE GEC|
+(3.D.D.DD DED|dAd cAF|[E3/2A,3/2][E/A,/][EA,] GEC|A,EC D2 z:|
+S:https://www.folktunefinder.com/tunes/123246
+S:http://www.thesession.org/tunes/display/6807
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,51 @@
+X: 48
+T:Spring Blossom Schottische,The. GHW.048
+M:2/4
+L:1/16
+Q:60
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottishe
+O:England
+A:Norfolk
+N:D part marked Trio. F part marked DC with a sign at end. G part marked
+N:Coda. Repeats and double bar lines assumed for first and second time
+N:bars in Coda
+Z:vmp.Taz Tarry
+K:F
+F>Ac>f e2d2|E>GB>e d2c2|(3cdc) =B>c d2_B2|(3BcB) A>B d>cA2|!
+F>Ac>f e2d2|E>GB>e d2c2|(3cdc) =B>c d2_B2|A>Gd>c F2 z2:|!
+K:C
+|:G2e2 F2d2|E2c2 a>^ga>b|a2g2 g>^fg>a|g2e2 c4|!
+G2e2 F2d2|E2c2 a>^ga>b|a2g2 e3d|c2c2 c2 z2:|!
+K:F
+|:F>Ac>f e2d2|E>GB>e d2c2|(3cdc) =B>c d2_B2|(3BcB) A>B d>cA2|!
+F>Ac>f e2d2|E>GB>e d2c2|(3cdc)  =B>c d2_B2|A>Gd>c F2 z2:|!
+K:Bb
+|:"TRIO"B>AB>d c3B|A2G2 e3d|d3c g3f|gfdB F4|
+B>AB>d c3B|A2G2 e3d|d>cg>f e>cG>A|B2[b2B2][b2B2] z2:|!
+K:F
+|:{FAc}f2f2 g>fe>d|(c4c)>cd>c|c2(B2 B)>Be>d|=B4 c2z2|!
+{FAc}f2f2 g>fe>d|c2f2 f2 z2|E4 {GB} d2c2|F2f2f2 z2:|!
+K:Bb
+|:B>AB>d c3B|A2G2 e3d|d2c2 g3f|gfdB F4|!B>AB>d c3B|A2G2 e3d|d>cg>f e>cG>
+A|
+"DC"B2B2B2 z2:|!
+K:F
+|:"CODA"F>Ac>f e2d2|E>GB>e d2c2|(3(cdc)=B>c d3_B|1(3(BcB)A>B d>cA2:|2A>G
+d>cF
+4|!
+c>cd>c c2=B2|B>Bc>B B2A2|f>fe>d d2c2|1c>cd>c A4:|2c>cd>c F3e||!
+f3e f3e|f3f f2f2|f2 z2 a2 z2|F8||
+S:https://www.folktunefinder.com/tunes/101465
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Schottishe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

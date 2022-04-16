@@ -1,0 +1,22 @@
+X: 51
+T:Da Auld Resting Chair (Harmony)
+M:4/4
+L:1/4
+R:Air
+K:D
+D|G2 FD|B,DGB|c2B2|A>G F/D/C/A,/|D2F2|G3D|ECA,D/C/|B,DG||!
+c|d2 c2|BGDB,|E2DB|AEDC|B,/D/G/A/ FD|B,DGB|cA FD/C/|B,3||!
+F|A/G/F/D/ B,/D/G/B/|ceBG|E>FGD|^C/E/E D=C|A/G/D/B,/ B,/D/G/B/|c2BG|E2FD
+/C/|B,3||!
+B|A/G/F/D/ B2|c2 BG|EFGD|E2 D/C/A,/F/|G2F2|G2DB,|C2A,D/C/|B,3||
+% Output from ABC2Win  Version 2.0  on 5/5/2002
+S:https://www.folktunefinder.com/tunes/106757
+S:http://home.usit.net/~bhooper/scot4.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

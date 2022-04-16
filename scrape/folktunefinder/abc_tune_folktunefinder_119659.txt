@@ -1,0 +1,37 @@
+X:105
+T:Voici le mois de mai
+A:Champagne
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n105
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=105
+K:F
+c2 F F  | F F F C  | F G A G/ F/ | G2C2 |!
+c2 c B  | A B d c  | B A G c |   F2 z c |!
+c A d c | (cB) A c | c A d c | (cB) A z ||
+W:Voici le mois de mai,
+W:et lon lan la tire lire,
+W:Voici le mois de mai
+W:Que donnerai-je  ma mie 
+W:Que donnerai-je  ma mie  (2x)
+W:
+W:Nous lui planterons un mai  sa porte jolie.
+W:Quand le mai sera plant, nous demanderons la fille.
+W:Laquelle demanderons-nous, est-ce la vieille ou la jeune 
+W:Nous demanderons la jeune, car c'est la plus jolie.
+W:La vieille monte en haut, en faisant des soupirs
+W:Son pre la suivit : " Que vous faut-il, ma fille 
+W:- Ma soeur a des amants, et moi je resterai fille.
+W:- Oh taisez-vous ma fille, nous vous marierons riche..."
+S:https://www.folktunefinder.com/tunes/119659
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

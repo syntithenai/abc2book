@@ -1,0 +1,19 @@
+X:64
+T:Humours of Glendart
+Z: id:dc-jig-55
+M:6/8
+L:1/8
+K:D Major
+A|BAF ADD|FEF DFA|BAF ADD|FEE EFA|!
+BAF ADD|FEF DFA|dcB AFE|FDD D2:|!
+A|def d2B|ABA AFA|def d2f|ede fdB|!
+def edB|AFA ABc|dcB AFE|FDD D2:|!
+S:https://www.folktunefinder.com/tunes/128531
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

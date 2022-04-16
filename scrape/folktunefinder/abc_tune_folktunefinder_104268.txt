@@ -1,0 +1,23 @@
+X: 43
+T: Frenchie's Reel
+O: Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M: C|
+L: 1/8
+E: lw 400
+K: Bb
+|: FE \
+| "Bb"DFBc d2FE | DFBc d2cB | "F7"AFcF eFcF | AFcF e2FE |
+| "Bb"DFBc d2FE | DFBc d2cB | "F7"AFcF eFcF | "Bb"BABc B2 :|
+|: FE \
+| "Bb"~D2BD FBDF | BDFB- BDFB | "Eb"~E2BE GBEG | "(Cm)"BEGB- BEGB |
+| "F7"~F2cF AcFA | eFAd- dFcF | "Bb"BABd "F7"cBAc | "Bb"BABc B2 :|
+S:https://www.folktunefinder.com/tunes/104268
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ChrisRickersCanadianSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

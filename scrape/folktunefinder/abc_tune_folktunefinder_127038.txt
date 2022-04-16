@@ -1,0 +1,30 @@
+X: 6
+T:Down The Hall On Staurday Night
+M:12/8
+L:1/8
+Q:120
+C:Peter Cape
+K:G
+z2d ded|"G"g3-g3"C"e3-e3|"G"B2dz4d ded|
+"G"g3-g3"C"e2ed3|"D"A3-A3-A2d e2d|!
+"G"g3-g3"C"e3-e2A|"G"B2dz3 z3 z2d|
+"D"ddd d3 c2A F3|"G"G3-G3:||
+T:Verse 6:
+z2d e2d|
+M:3/4
+"G"ggg|"C"edA|"G"Bdz|
+M:12/8
+|z2d ded|"G"g3g2d"C"e2ed3|"D"A3-A3-A2d e2d|!
+S:https://www.folktunefinder.com/tunes/127038
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:6
+T:Oh when the Saints (alternating basses)
+M:4/4
+L:1/4
+K:C 1&1
+z3&CEF|\
+LC  Mc & UG4     && LG, Mc &     |\
+LC  Mc & G   C   && LG, Mc & E  F|\
+LC  Mc & UG4     && LG, Mc &     |\
+LC  Mc & G   C   && LG, Mc & E  F|\
+LC  Mc & G2      && LG, Mc & E2  |\
+LC  Mc & C2      && LG, Mc & E2  |\
+LD  SG & E   UD3 && LG, SG &     |\
+LD  SG & D   E   && LG, SG & E  D|\
+LC  Mc LC & C3      &&  Mc &    C|\
+LG, Sc & E2      && LC  Sc & G  G|\
+LF, MF & G   UF3 && LC  MF &     |\
+LF, KF & F2      && LC, KF & E  F|\ 
+LC  Mc & G2      && LG, Mc & E2  |\
+LC  Mc & C2      && LG, SG & D2  |\
+LC  Mc & UC4     && LG, Mc &     |\
+\mulooseness=2
+[WLCMc] & C||
+S:https://www.folktunefinder.com/tunes/125223
+S:http://accordionlinks.com/other/examples.abc
+S:http://www.accordionlinks.com/other/examples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

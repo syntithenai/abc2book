@@ -1,0 +1,28 @@
+X: 1
+T: Andy Woolf's Reel
+C: Bob McQuillen
+N: 2 Nov 80
+N: Playing music with Andy is a really great experience -
+N: he is a wonderful fiddler from down Boston way.
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+DD \
+| "G"G2FG "D7"A2BA |"G"GDGB d2Bc | dBed BGgf | edcB "D7"A2DD |
+| "G"G2FG "D7"A2BA |"G"GDGB d2Bc | dBdB "D7"GBAG | "G"D2"C"G2 "G"G2 :|
+|: FG \
+| "D7"A2DE FGAc | "G"B2G2 G2Bc | "G"dB"(C)"ce "G"dB"(C)"ce | "G"dBGB "D"A2FG |
+| "D7"A2DE FGAc | "G"B2GA Bc"C"de | "G"dg"(C)"eg "G"dB"(D7)"Ac | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/118449
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/misc/AndyWoolfsReel_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

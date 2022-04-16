@@ -1,0 +1,29 @@
+X: 2
+T: Aly's
+C: Terry Rasmussen
+M: 3/4
+L: 1/8
+R: waltz
+K: G Major
+|: D G>A |\
+B2- B>e- (3edB | A3 e d>B | G3 A G>F | E2 F2 G2 |
+D2 G2 B2 | c4 B>A | GD- D2 B>^A | A3 D G>A | 
+B2- B>e- (3edB | A3 e d>B | G3 A G>F | E2 F2 G2 |
+D2 G2 B2 | c3 B A>G | EG- G2 F2 | G3 :|
+|: A B>d |\
+e2- e>f- f>g | d2- d>f- f>g | c3 B A>G | B6 |
+B3 ^c (3^dcB | e4 d>c | B<d G2 F>G | A3 D G>A |
+B2- B>e- (3edB | A3 e d>B | G3 A G>F | E2 F2 G2 |
+D2 G2 B2 | c3 B A>G | EG- G2 F2 | G3 :|
+S:https://www.folktunefinder.com/tunes/112009
+S:http://www.thesession.org/tunes/display/5983
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

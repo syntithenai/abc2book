@@ -1,0 +1,27 @@
+X:22
+T:Skott-Sara-leken (R\orospols)
+C:Annar Gjelten
+%O:Sweden
+R:R\orospols
+Z:Bob Wyttenbach 8/7/02, from Fiddles & Feet 2002 tunebook "Printed by Karen Myers"
+N:modified slightly to match my memory of the tune
+M:3/4
+L:1/8
+K:D %clef=bass middle=D
+P:A
+A|(3:2:2(d2 c)A2-A>d|(3:2:2(d2c)[e4e4]|(3:2:2d2(e fd) g>f|(3:2:2e2(d cB) TB>A|
+(3:2:2A2(G FE) F>A|(GB) {G}[A4A4]|(3:2:2D2E (3(FDF) (3(ECE)|[1{C}[D2D2][D3D3]:|[2({C}[D2D2])[D3D3]||
+P:B
+e|Tf2d2f>a|(a^g)e2-e>=g|(3:2:2(Tg2f) d2e>f|(dc)A2-A>e|
+Tf2d2f>a|(a^g)e2=gb|(bc)d2e>f|[1(dc)d3:|[2(dc)d4|]
+S:https://www.folktunefinder.com/tunes/119385
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:257
+T: Zhai youcha
+N: C0403
+O: China,Jiangxi, Jingdezhen
+S: IV, 210, 2)]
+N: Aehnlich wie in Jiangsu und Zhejiang; enthaelt aber groessere
+N: Spruenge.
+N: Vereinzelt Verzierungen.
+R: Shange. Zhai youcha qingjing]
+M: 2/4
+L: 1/16
+K: A
+B2c2BcA2 | B8 | c2BcBAF2 | B2A6
+B2c2BcAB | F8 | A2B2BAF2 | EFE6
+B2B2e2e2 | fec6 | B2e6 | F2AF-F4
+c2BcBAF2 | E2F6 | E4F4 | EFE6
+S:https://www.folktunefinder.com/tunes/112684
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. zhai youcha qingjing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:15
+T: Happy Hamster (The)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: D
+D|"D"DEF "Am"Ad=c|"D"AFA "C"GE=C|"D"DFA def|"Am7"agf e=cA|
+"D"DEF "Am"Ad=c|"D"AFA "Am7"GA=c|"D"fdd "A7"^ceg|"D"fdc "D"d2 :|
+A|"D"daa "Bm7"baa|"D"faf dAB|"C"=cgg "Am7"agg|"C"ege "Am"=cAc|
+"D"dfa "Bm"baf|"C"=ceg "Am"age|"D"fdd "A7"^ceg|"D"fdc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/123147
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

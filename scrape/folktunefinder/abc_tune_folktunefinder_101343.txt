@@ -1,0 +1,27 @@
+X:135
+T: The Full of the Bag
+M: C|
+L: 1/8
+B: O'Neill's 1651
+N: "collected by Cronin"
+K: G
+D-F \
+| GDB,D G,B,DG | BGAB cdef | afge dBAB | cABG AGEF |
+| GDB,D G,B,DG | BGAB cdef | afge dgec | BGAF G2 :|
+|: G-A \
+| BcBAGABc | ded^c defg | BcBA GABd | cBAG FGAc |
+| BcBA GABc | ded^c defg | afge dgec | BGAF G2 :|
+|: A2 \
+| Beef e^def | gebe geag | fdd^c defg | afge dcBA |
+| Beef e^def | gebe g2 ag | fe^dfe=dB^c | dBAF E2 :|
+S:https://www.folktunefinder.com/tunes/101343
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

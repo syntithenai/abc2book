@@ -1,0 +1,28 @@
+X:13438
+T:Polska fr Boda
+S:Christina E
+R:Polska
+O:Sweden
+M:3/4
+A:Dalarna
+K:A
+E|\
+A>(A A)>B c>d|e>(e e)>d c>e|\
+a2a2 A>c|e2e3 d|\
+c>B A>B c>d|e>(e e/)f/e/d/ c>e|
+a2a2 A>c|e2 e3e|:\
+f>e f2 d>e|f2 d3f|a>(e e/)f/e/c/ A>c|e2 e3e|
+f>e d>c (B2|B/)c/B/A/ B>c d>e|\
+f>(e e/)f/e/c/ d>B|(3EGB A4:|
+S:https://www.folktunefinder.com/tunes/116483
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

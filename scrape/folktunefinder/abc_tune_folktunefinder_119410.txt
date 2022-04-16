@@ -1,0 +1,22 @@
+X: 57
+T:Northern Frisk. 
+M:2/4
+L:1/8
+S:MS11,c1850.,Browne Coll.,Lakes
+K:D
+d/e/|fd dA |B/c/d  d>A|BA dF|E2 Ed/e/|
+fd dA |B/c/d  d>B|AF dF| D2 D:|
+|:D/E/|FD dD| FD B>D|AF dF|E2 ED/E/|
+FD dD| FD B>D|Bd AF|D2 D:|
+|:d/e/|fd af |ec A>c|dA dF| E2 Ed/e/|
+fd gf |ec A>c|Bd AF| D2 D:|
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119410
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

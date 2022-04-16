@@ -1,0 +1,28 @@
+X:758
+T:Andante
+T:(from "The Magic Flute")
+C:Wolfgang Amadeus Mozart
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-magic-andante/mozart-magic-andante-1.abc
+M:C
+L:1/16
+K:C
+e3f|(g4e2).c2 (^f2g2).e2.c2|.B2.c2.^c2.d2G4=c3B|
+A2Bc defg (^ga)=gf edef|(c6dc .B2) z2 e3f|(^f2g2).e2.c2 fgag =fedc|
+BcBc ^cdcd G4 =c3B|Acfa c'agf egeg fdfd|(d8c4):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/114162
+S:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-magic-andante/mozart-magic-andante-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/mozart-wolfgang-amadeus/mozart-magic-andante/mozart-magic-andante-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-magic-andante/mozart-magic-andante-1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

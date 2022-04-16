@@ -1,0 +1,24 @@
+X:345
+T:Behind the Haystack
+R:Jig
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+A|d2e fdB|d2e fdB|AFE ~E3|AFE ~E3|
+d2e fdB|d2e fdB|AFD ~D3|AFD D2:|
+A|~B3 BAF|ABc d2B|AFE ~E3|AFE ~E3|
+~B3 BAF|ABc d2B|AFD ~D3|AFD D2:|
+f|~g3 faf|ede fdB|AFE ~E3|AFE ~E3|
+~g3 faf|ede fdB|AFD ~D3|AFD D2:|
+S:https://www.folktunefinder.com/tunes/125361
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

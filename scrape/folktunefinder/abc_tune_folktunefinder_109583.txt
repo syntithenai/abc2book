@@ -1,0 +1,44 @@
+X:22
+T:Alman 8
+C:Robert Johnson
+L:1/4
+M:none
+K:C frenchtab
+%%stretchstaff false
+%%staffsep 35pt
+[a#cdca1]>,d #,c1[Xcdda] |\
+[#a,d,e1][c,,,c/]e [#f,,,a]hk,,,,,h |\
+,,,,,k/,,,,a[hk,,h]k [Xlh,k,h1][k,,,,k/]h |\
+[#f,,a/]>h k1 [Xhf,g,a2] |\
+[Xhf,g,a1]>f [#ea,,,a1]>c |\
+[a,,,a/],d#,c,,,,,d [Xfc,,,c1]>,,,,,a |
+% Takt 7
+{a}/d#ca ,d,f[,c,,a],d |\
+[,a,c/],,d[,a#c,,a1] [,,Xdca]{,,a}  :||:\
+[,,#cc/],a,c,,,c [,,de],cX,e,,,e |\
+[,ac/]c#a,d [,#cd1],,,,a/a |\
+[,,c,c/],a,d,,,,c ,,,,e,,da,,,,e |
+% Takt 12
+[,a,a/],c#,a,,d [,,#cc1],,,,,a/a |\
+[,,#cc/]ae,,,a ,,,,eaf,,,,c |\
+,,,,a/e#ca [,ea,c1]#c/,,,,a |\
+[,a,,,e/]h[fc,,a]e [cXf,,c1][,#e{,a}/],,d |\
+[aa#c,,a1],,,c[aac2] :||:\
+Xh1,a/f [#ef1]>,d |
+% Takt 18
+#,c/af,a X,,d1>d |\
+#c1,,a/a [,#df1]>,,d |\
+#,,c/,aa,d [,#cd1]>,a |\
+X,,d1,,,,a/,,b [,,#aa1]>,,,,e |\
+,,,,c/,a,d,,,,a ,,,,,e,aa,,,,,c |\
+,,,,,a/,d[,#cdca1] [,adc,a]#,,c |\
+[,#cdca1]{,,a} [,cdc2] :|
+S:https://www.folktunefinder.com/tunes/109583
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

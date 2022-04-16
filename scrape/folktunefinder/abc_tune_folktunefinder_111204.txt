@@ -1,0 +1,23 @@
+X:2
+T:X. Love stood amazed
+T:ALTUS.
+C:John Dowland
+H: From The Third and Last Booke of Songs or Aires.
+M:C
+L:1/4
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on second line
+K:D min
+G3 D/ G/ ^F G2 A2 G G3 ^F/ E/ ^F2
+S:https://www.folktunefinder.com/tunes/111204
+S:http://www.laymusic.org/music/dowland/stood/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

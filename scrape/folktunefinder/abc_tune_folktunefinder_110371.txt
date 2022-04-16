@@ -1,0 +1,41 @@
+X:6
+T:Alto, Secondo Coro, Canzon septimi toni a 8, from Sacrae Symphoniae (1597)
+C:Giovanni Gabrielli (1557-1612)
+N:original clef unknown, modern score has treble clef
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:4/2
+L:1/2
+K:C
+z2G/G/G/G/ | Gzz2 |z/G/G/G/^F/G/G/F/ |Gz/G/G//G//G//G//G/G/ |
+F2zD |EDA/>G/F/D/ |A2A2 |
+M:3/2
+L:1/2
+ z3 |z3 |z3| BB^c |
+d>d^c |dA2 |A2z |^FFF |E>=FG |FF>A | AA2 |
+[M:4/2] A2z2 |zDDD |E/F/G/E/FA |AAB2- |BB^c2 |
+dd/d/d/>d/^c/>c/ |d2c2 |z2z/E/>E/E/ |EEEz |
+z4 |z2z/^c/>c/c/ |d/d/e/d/B/=c/d/c/ |A/F/F/F/_BA |
+Az/D/D/D/G- |G/E/E/E/AF | zDDD |E3E |
+G2G2 |z4 |zz/E/F/F/G | zz/G/A/A/G |z4 |
+zz/d/B/G/d |Gz/G/E/C/D/E/- |E/D^C/D2 |zGG2 |
+GGA>G |^F//D//GF/G2 | z4 |z4 |z4 |z4 | z2zz/E/ | E/A/AAz |
+z/A/^GAz |z/E/E/A/^G2 |zBB2 |
+M:3/2
+L:1/2
+^G3 |z3 |z3 |ccd |
+B>Bc |A2d | G3/2cA/ |dBB |eee | e3/2d//c//B |[M:4/2]^c2dA/A/ |
+_BAA2 |z4 | z/d/d/>=B/ c2 |Azz/E/G |
+zA>AE |H^F2G/G/G/G/ |Gzz/G/G/G/ |^F/G/G/F/Gz |
+zz/d/B//B//B//B//B/B/ |c>cc//c//c//c//d/>D/ |EFEA |A2AA |
+AGAA |dAB2 |zBc/c/B/B/ |GGG2 |HG4 |]
+S:https://www.folktunefinder.com/tunes/110371
+S:http://www.laymusic.org/music/gabrielli/secondo/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

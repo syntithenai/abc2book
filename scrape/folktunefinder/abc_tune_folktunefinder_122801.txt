@@ -1,0 +1,25 @@
+X:11
+T:Behind the Haystack
+T:The Munster Buttermilk
+R:Jig
+M:6/8
+A:Ireland
+B:Bulmer and Sharpley
+K:D
+A |"D"d2 e fdB | d2e fdB | "A"AFE EFE | AFE EFA  |
+"D"d2e fdB | d2e fdB | AFD DED | AFD D2 :|
+A |"G" ~B3 BAF |"D" ABc ~d2B | "A"AFE EFE | AFE EFE |
+"G"~B3 BAF | "D"ABc d2B | AFD DED | AFD D2 :|
+e| "G"~g3 "D"~f3 | "Em"ede "Bm"fdB | "A"AFE EFE | AFE EFA |
+"G"gbg "D"faf | "Em"ede "Bm"fdB | "D"AFD DED | AFD D2 :|
+S:https://www.folktunefinder.com/tunes/122801
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

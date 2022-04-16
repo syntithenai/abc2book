@@ -1,0 +1,33 @@
+X:16
+T:The Orphan
+R:Jig
+M:6/8
+L:1/8
+K:Em
+B, | EFE {F}EDB, | GFG AGA | BGB AFA | GEF EDB, |
+~A,3 EDB, | GFG AGA | {c}BGB AFA | GEE {F}E2 B,|
+~E3 EDB, | GFG AGA | [B3G3] AFA | GEF EDB, |
+A,GE EDB, | GFG AGA | (3B=cdB AdF | EFE {F}E3 |
+ege edB | ~g3 edB | ede edB | GEF EDB, |
+(A,3 DB,E | GFG AGA | B (3GGG AFA | GEE GAB |
+ege edB |  gde edB | ege edB | GEF EDB, |
+A,CE EDB, | GFG AGA | BGB AFA | GEE {F}E2 |
+ege dBA | GAB ~d3 | edB AGA | BGE DB,A, |
+B,EE {F}EDB, | G2 G AGA | BGB AFA |  GEB, A,CE |
+ege edB | EAB ded | edB AGA | BGE DB,A, |
+~B,3 EDB, | GFG A2A | B (3GGG A (3FFF | EFE {F}E2 d |
+efe ded | cBA BAG | GAB dBA | ~B3 B2 A |
+GEF EDB, | GFG AGA | ~B3 ABA | GEB, GAB |
+ege {e}d2) B | {d}c2 A BAG | GAB eBA | ~B3 B3)|
+B,3 EDB, | GFG AGA | [B3G3] [A3F3] | GEE {F}E3 |
+S:https://www.folktunefinder.com/tunes/118177
+S:http://www.rblakeley.com/music/muscelt/blakeley.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

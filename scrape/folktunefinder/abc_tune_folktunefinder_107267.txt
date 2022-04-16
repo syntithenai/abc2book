@@ -1,0 +1,27 @@
+X: 3
+T: Vladimir's Steamboat in D (R-163; \251Jay Ungar)
+M: C|
+L: 1/8
+R: reel
+K:DMIX %Transposed from AMIX
+|:"D"DFGA GFDF|GAGF DCA,D- |DFGA GF D2|"C/A"CB,CE DC A,2|
+"D"DFGA GFDF|GAcd cAGc|AGFA "C"GF D2|"C/A"CB,CE "D"D4:|
+| "D"dz dz dz dz|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dz dz dz d2-|d2cd edcB|ABAG "C"FGAB|"A"AFGF "D"D4|
+| "D"dd- dd d2d2-|d2cd edcB|ABAG FGAB|"C"cAd^c "A"A4|
+"D"dedc "C"Acde|"D"dAcd edcB|ABAG FGAB|"A"AFGF "D"D4|
+%%vskip .2cm
+S:https://www.folktunefinder.com/tunes/107267
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/Sets_075_086.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

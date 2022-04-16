@@ -1,0 +1,24 @@
+X: 36
+T:Planxty Irwin
+% Nottingham Music Database
+S:O'Neils 1850 p123
+M:3/4
+L:1/4
+K:D
+A|"D"d2c|"G"Bcd|"A7"A2G|"D"FED|"A7"G2E|"D"FGA|"A"C2D|"A7"E2A|
+"D"d2c|"G"Bcd|"A7"A2G|"D"FED|"A7""Em"G2E|"D""Bm"FGA|"A7""Em"D2" ""A7"C|\
+"D"D2"A7"A||
+"D"d2d|"D"dcd|"Em"e2e|"A7"ecA|"D"f2f|"A"e2d|"E7"dcB|"A7"ABc|
+"D"d2c|"G"Bcd|"A7"A2G|"D"FED|"A7""Em"G2E|"D""Bm"FGA|"A7""Em"D2" ""A7"C|\
+"D"D2"A7"A||
+S:https://www.folktunefinder.com/tunes/109290
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

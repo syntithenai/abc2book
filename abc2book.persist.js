@@ -101,10 +101,10 @@ function updateTuneId(songNumber, tuneId) {
 function updateTuneAbc(songNumber, tuneId) {
   var oldTune = getTuneFromCache(songNumber)
   //console.log('updateTussneAbc',songNumber, tuneId, oldTune)
-  //if (oldTune && oldTune.format) {
+  //if (oldTune && oldTune.format) {  
     console.log('PATHsss')
     $('#waiting').show()
-    var p = '/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
+    var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
     console.log('PATH',p)
     $.get(p).then(function(abcText) {
         console.log("RES",abcText)
@@ -234,7 +234,7 @@ function loadIndex(callback) {
   } else {
     // load the index from online
     console.log('load index web')
-      $.getJSON('/textsearch_index.json',function(index) {
+      $.getJSON('/abc2book/textsearch_index.json',function(index) {
              if (callback) callback(index)
       }).catch(function(e) {
         console.log(["ERR",e])
@@ -438,7 +438,7 @@ function submitNewTune() {
   const cb = navigator.clipboard;
   var songNumber = $('#editorsongnumber').val()
   var text = $('#editor').val()
-  var abc = extractAbcMeta(text).cleanAbc
+  var abc = getNotesFromAbc(text)
   var  tune = getTuneFromCache(songNumber)
   if (tune) {
     cb.writeText(abc).then(function() {
@@ -459,7 +459,7 @@ function submitSaveSetting() {
   const cb = navigator.clipboard;
   var songNumber = $('#editorsongnumber').val()
   var text = $('#editor').val()
-  var abc = extractAbcMeta(text).cleanAbc
+  var abc = getNotesFromAbc(text)
   var  tune = getTuneFromCache(songNumber)
   var setting = tune.settings[tune.useSetting]
   //console.log(songNumber,text,abc,tune,setting)
@@ -483,7 +483,7 @@ function submitNewSetting() {
   const cb = navigator.clipboard;
   var songNumber = $('#editorsongnumber').val()
   var text = $('#editor').val()
-  var abc = extractAbcMeta(text).cleanAbc
+  var abc = getNotesFromAbc(text)
   var  tune = getTuneFromCache(songNumber)
   if (tune) {
     cb.writeText(abc).then(function() {

@@ -1,0 +1,24 @@
+X:30
+T: Heimkehr des Ehemannes
+N: Q0011A
+O: Suedosteuropa, Jugoslawien, Gottschee, Lichtenbach
+N: Grundton in der zweigestrichenen Oktave, 2. und 4. Zeile = Refrain
+N: auf sinnfreie Silben.
+R: Ballade, Ehe, Heimkehr
+M: 2/2
+L: 1/8
+K: C
+G,2 | C2C2C2D2 | B,2A,2G,4
+B,4C4 | D6
+C2 | E2E2E2F2 | E2D2C4
+E4D4 | CCB,B,C2
+S:https://www.folktunefinder.com/tunes/109968
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, ehe, heimkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

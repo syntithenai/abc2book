@@ -1,0 +1,26 @@
+X:26
+T:Charlotte
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle coup
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+G2 G2 B2 B2 c2 c2 d4 | g2 z2 d2 z2 | c2 A2 B2 c2 d4 G4 ::
+G2 d2 d2 d2 c2 d2 B4 | d2 z2 c2 z2 | G2 A2 B2 c2 A2 G2 |
+d2 z2 c2 z2 | G2 A2 B2 c2 A2 G2 | d2 z2 e2 z2 | d2 c2 B2 B2 A2 A2 G4 ||
+S:https://www.folktunefinder.com/tunes/104066
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle coup
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

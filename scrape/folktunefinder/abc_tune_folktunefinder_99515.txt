@@ -1,0 +1,27 @@
+X:70
+T:Spring Garden
+S:Country Dance Tunes - Cecil Sharp
+S:The English Dancing Master 1665
+Z:Philip Rowe
+M:6/8
+K:Am
+%http://www.musicaviva.com/abc/abcusers/abcusers00.abc
+"Am"A2Ac2c| "Dm"d3/2e/2da3| "Am"A3"F"c3| "Dm"d3/2e/2d"A"^cA2|
+"F"A2A"C"c2c| "Dm"d3/2e/2da3| "Am"A3"F"c3| "Dm"d3/2e/2d"A"^cA2|:
+"Dm"f2f"C"g3/2f/2e| "F"fa2"C"g2e| "F"f2f"C"g3/2f/2e| "F"fa2"C"g2e|
+"Dm"fga"C"g3/2f/2e| "Dm"dedf3/2g/2a| "F"A3"C"c3| "Dm"d3/2e/2d"A"^cA2||
+"Dm"f2f"C"g3/2f/2e| "F"fa2"C"g2e| "F"f2f"C"g3/2f/2e| "F"fa2"C"g2e|
+"Dm"fga"C"g3/2f/2e| "Dm"dedf3/2g/2a| "F"A3"C"c3| "Dm"d3/2e/2d"A"^cA2:|
+%
+%Posted Apr 19th 2000 at ABC-users by Philip Rowe during a discussion about repeat signs.
+S:https://www.folktunefinder.com/tunes/99515
+S:http://anamnese.online.fr/abc/favoris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

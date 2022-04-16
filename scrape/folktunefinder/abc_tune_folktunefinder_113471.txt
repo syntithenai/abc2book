@@ -1,0 +1,26 @@
+X: 373
+T: By the Brookside
+M:C
+L:1/8
+B:O'Neill's 373
+N:"Moderate."
+N:"collected by J. O'Neill."
+N:H is a fermata, Oranment (~) is a turn.
+Z:Transcribed by Chris Falt, cfalt@trytel.com
+K:C
+d|(e>d).c.A (GE)D>C|(EG)G>c c3d|e>d(eg) (Bc)f>e|e2d2 z2c>d|
+(e>d)cA (GE)D>C|(EG)G>c c3d|e>d(eg) (Bc)(fe)|d2c2 z2||
+e2|d>^cde A3e|d>^cde A3B|=c>dcA (Gc)(fe)|e4 d2d2|
+e>fed ABc2|(f>g)fd Bcd2|g>age cdec|agge d2c2|
+E>DC2 c>de2|F>ED2 d>ef2|G>FE2 He>~fHgf|ecfe d2c2||
+S:https://www.folktunefinder.com/tunes/113471
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

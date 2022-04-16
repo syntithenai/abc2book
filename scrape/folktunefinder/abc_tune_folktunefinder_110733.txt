@@ -1,0 +1,33 @@
+X:85
+T:New York the New Way
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002ea.html
+%%ID:000002ea
+K:Bb
+P:1
+EGFE  DFED  C3 B| ABcd c3 C DEFD | EGFE  DFED  C3 B | FBAc   B3 B,  DEFD ||
+P:2
+E2 G2 _AGFE DEFD| CcBd c3 C DEFD | E2 G2 _AGFE DEFD | B,B=Ac B3 B, DEFD ||
+P:3
+B2 d2 edcB  ABcA| GcBd c3 C DEFD | E2 d2 edcB  ABcA | FBAc   B3 B, DEFD ||
+P:4
+BGEG  FDB,D C3 c| ABcd c3 C DEFD | BGEG  FDB,D C3 e | d2 B2  B3 B, DEFD |]
+S:https://www.folktunefinder.com/tunes/110733
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

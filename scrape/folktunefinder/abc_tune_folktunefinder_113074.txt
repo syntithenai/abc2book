@@ -1,0 +1,31 @@
+X: 65
+T: Rockabilly Reel
+C: Rodney Miller
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A
+|:\
+"A"A,2CE EA,CE|"D"FEDF "G7"ED=FE|"D"D2FA ADFA|"D7"=c2Bc "C"A=GD=C|
+"A"A,2CE EA,CE|"D"FEDF"A"E3A|"E7"B2cd dc B2|1"D7"D2FA ADFA:|2\
+"D7"AFEF A4||
+K: Am
+|:\
+"Am"e2e2efed|"G"^cdde dBG2|"F"c2 c2 cdcA|"E7"B2Bc B^GE2|
+"C"e2e2efed|"G"^cdde dB G2|"F"c2 cd cBAc|"E7"B^GEG "Am"A4:|
+S:https://www.folktunefinder.com/tunes/113074
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

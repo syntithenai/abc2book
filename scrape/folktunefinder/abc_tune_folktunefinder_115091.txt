@@ -1,0 +1,25 @@
+X: 1
+T:Polska i D efter John-Erik Mattson
+R:Polska
+M:3/4
+L:1/8
+Q:144
+K:D
+A>(G F)(A d)f|ed (3.c.A.c [e2e2]|e>f (3.g.e.g (3.f.d.f|e>(c d)(e f)d|\
+A>(G F)(A d)f|ed (3.c.A.c [e2e2]|e>f (3.g.e.g (3.f.d.f|(3.e.c.e d4::\
+(3.d.e.f (.g.b) a2|de/f/ g/e/g f2|de/f/ g/e/g f>e|de (3f(df) e2-|\
+(3e.f.g (.a.b) a2|de/f/ g/e/g f2|de/f/ g/e/g (3f(ed)|(c>e) d4:|\
+T:Andrastmma
+F>(D D)(F F)d|cB (3.A.E.A c2|c>d (3.e.c.e (3.d.B.d|A>(G F)(A d)A|\
+F>(D D)(F F)d|cB (3.A.E.A c2|c>d (3.e.c.e (3.d.B.d|(3.c.A.G [F4A4]::\
+D>F [G2B2] [F2A2]|F>A c2 A2|A>d ec A>G|A>c (3d(Bd) c2-|\
+(3c(de) (.f.g) f2|A>d e2 d2|F>A c2 A2|(E>G) [F4A4]:|
+S:https://www.folktunefinder.com/tunes/115091
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_i_D_efter_John_Erik_Mattson_3.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

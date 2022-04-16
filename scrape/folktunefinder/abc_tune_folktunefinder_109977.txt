@@ -1,0 +1,28 @@
+X:39
+T: Graf von Rom
+N: Q0014B
+O: Mitteleuropa, Deutschland
+N: geistliche Kontrafaktur mit Tonangabe des "Graf von Rom"
+R: Ballade, Pilger - Reise, Gefangenschaft, Befreiung, Ehe, Liebe;
+M: none
+L: 1/8
+K: F
+F2 | F2F2A2B2 | c4c4z2
+c2 | c2c2_e3ec4z2
+c2 | A2A2B2c2 | d4c4z2
+c2 | B2A2BcG2 | F4z2
+c2 | c2d2c2B2 | A4G4z2
+G2 | A2B2c3A | G4z2
+A2 | F3FF2GA | G4F4z2
+c2 | dcB2A3G | F8
+S:https://www.folktunefinder.com/tunes/109977
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, pilger - reise, gefangenschaft, befreiung, ehe, liebe;
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

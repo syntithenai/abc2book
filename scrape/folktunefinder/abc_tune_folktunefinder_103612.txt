@@ -1,0 +1,28 @@
+X: 17
+T:Golden Leaf
+R:jig
+C:Chris Perry Dec 2001
+S:Fiddle Players Tunebook 2
+Z:December 2001
+M:6/8
+L:1/8
+Q:1/4=200
+K:Gmaj
+"Am"c2B"Am"A2B|"Am"c2d"Am"e2a|"Em"g2e "Em"edc |"G"d2B "G"GAB |
+"Am"c2B"Am"A2B|"Am"c2d"Am"e2a|"C"g2e "C"edc |"D"d3"D"e2d:|
+"Dm"d2e "Dm"=fed |"Dm"add "Dm"=fdd |"C"c2d "C"edc |"Am"gcc "Am"ecc |
+"Dm"d2e  "Dm"=fed |"Dm"a2d "Dm"=f2d|"C"c2d "C"edc |A3e"Am""Am"=fe :|
+"Am"eAA "Am"BAA |"Am"eAA "Am"BAA |"G"GAB "G"dBd |"Em"edB "Em"dBA |\
+"Am"eAA "Am"BAA |"Am"eAA "Am"BAG |"Em"EGB "G"dBd |"Em"edB "Am"A3:|
+S:https://www.folktunefinder.com/tunes/103612
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

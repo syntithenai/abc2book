@@ -1,0 +1,32 @@
+X:80
+T:Mrs. Farrell
+C:Turlough O'Carolan (1670 - 1738)
+B:Complete Works Of Turlough O'Carolan
+Z:Translation to ABC by Vince Brennan.  Chorded by Colin Hume.
+N:Transposed probably from Gm
+I:abc2nwc
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=84
+K:Em
+P:A
+|: "Em"BAB GEE | GBA B2d | "G"e/2f/2gg gba | "Em"gee e2g/2a/2 |
+"G"bg/2a/2b "D"af/2g/2a | "Em"bg/2a/2b "D"dBA | "Em"BGe "G"dBd | "Em"e3e3 :|
+%%vskip 0
+%%vskip 0
+P:B
+|: "Em"Bee efe | "Em"efe "G"dBG | "G"bg/2a/2b "D"af/2g/2a | "Em"bge "D"dBA |
+"Em"GEE EG/2A/2B | EG/2A/2B BGE | "D"AFE DE/2F/2d | DE/2F/2d AFD |
+"G"GBg GBg | "D"fAe dBA | "Em"BGe "G"dBd | "Em"e3e3:|
+S:https://www.folktunefinder.com/tunes/110127
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

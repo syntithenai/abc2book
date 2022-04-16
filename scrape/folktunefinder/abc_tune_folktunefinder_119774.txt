@@ -1,0 +1,25 @@
+X: 36
+T:Rory O'More
+M:6/8
+L:1/8
+Q:120
+R:Jig
+P:AABA
+K:G
+e|"G"dGG BAG|dGG G2e|dcB BAG|"D"FAA A2B/2c/2|
+"G"dGG BAG|Bcd "C"e2d|"G"Bcd "D7"def|"G"gGG G2|::
+d|"Em"gfe eBB|"Am"cBA "G"G2F|"C"E2F "G"G2A|Bed "Bm"d2e/2f/2|
+"Em"gfe eBB|"Am"cBA "Em"G2F|"Am"EFG "Em"GAB|"D7"Bed "G"d2:|
+S:https://www.folktunefinder.com/tunes/119774
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:30
+T:The Black Cock o' Whickham
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:G
+Bc | d2dc | BGGB | d2dc | B2 Bg |
+dedc | BGGB | cAFA | c2 :: dg | 
+bgdg | Bgdg | bgfa | g2ga | 
+bgdg | BgdB | cAFA | c2dg |
+bgdg | Bgdg | bgfa | gfga | 
+bgaf | gedB | cAFA | c2 :|
+S:https://www.folktunefinder.com/tunes/105585
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

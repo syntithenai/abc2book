@@ -1,0 +1,27 @@
+X:2
+T:Where There's a Fountain Flowing
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+O: Die brnnlin die da fliessen 
+S: Gassenhawerlin, 1535
+C: Balthasar Arthopius
+H: Freely translated into English by Laura Conrad
+T: Altus
+K:C
+M:C
+L:1/2
+%1
+z2 z C  D       E F      D   C2     D     E     F   G    E - E   "A" D2 Z2 Z C
+S:https://www.folktunefinder.com/tunes/110862
+S:http://www.laymusic.org/music/bruenlin/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

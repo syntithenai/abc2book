@@ -1,0 +1,23 @@
+X: 4
+T:Davy Lowston
+M:4/4
+L:1/8
+Q:70
+K:D
+AA|"D"d>d dd dd "A"ce|"D"d2"A"cB "D"A3A|
+f>f ff ff "G7"eg|"D"f6df|!
+aa aa "Bm"a2 ef|"G"gf ed"A"c2dc|
+"Bm"B4z2dc|"G"B4z2BA|"A"A4z2:||
+S:https://www.folktunefinder.com/tunes/127036
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

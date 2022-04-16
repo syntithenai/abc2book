@@ -1,0 +1,24 @@
+X:74
+T:Trandafirul
+O:rumania
+C:Roemenie
+M:2/4
+L:1/8
+Q:1/4=96
+K:Em
+V:1
+"Em" ee E3/2 D/|"Bm" A/G/F/ G/"Em" E3/2 ^C/|"G" D/F/G/ A/B/A/A/ F/|"Bm" G/A/F/ D/"Em" E/G/B |
+"A" ee E3/2 D/|"Bm" A/G/F/ G/"Em" E3/2 ^C/|"G'" D/F/G/ A/B/A/A/ F/|"Bm" G/A/F/ D/"Em" EB :| |:
+"E" Bc B2 |"Am" A3 B/c/|"Dm" d2 cB |"Am" A4 |
+"E" Bc B2 |"Am" A3 _B|"B" B2 GF |"Em" E4 :| |:
+"G" B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/F/ |"Bm" G/A/F/D/ "Em" E/G/B |
+"G" B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/G/ |B/A/A/G/ B/G/D/F/ |"Bm" G/A/F/D/ "Em" EB :|
+S:https://www.folktunefinder.com/tunes/111303
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 42
+T: Take Me Out to the Ballgame
+I: Take Me Out to the BallgameW-31Fwaltz
+C: W-31
+C: Albert von Tilzer
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: F
+"F"F2 z2 f2| d2 c2 A2| "C"c6| G6| "F"F2 z2 f2| d2 c2 A2| "C"c6-| c6|
+"D7"d2 ^c2 d2| A2 B2 c2| "Gm"d4 B2| G6| "G7"d4 d2| d2 e2 f2| "C"g2 e2 d2| c2 B2 G2|
+"F"F2 z2 f2| d2 c2 A2| "C"c6| G4 A2| "F"F4 G2| "F7"A2 B2 c2| "Bb"d6-| d2 d2 e2|
+"Bb"f2 z4| "Bdim (Bb)"f2 z4| "F"f2 e2 d2| "D7"c2 =B2 c2| "G7"d6| "C"e6| "F"f6-| f2 z4|]
+%%text 9/1/98
+% ---------- page 21 ----------
+S:https://www.folktunefinder.com/tunes/109386
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

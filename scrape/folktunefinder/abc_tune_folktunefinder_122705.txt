@@ -1,0 +1,32 @@
+X:1
+T:Why The River Goes Crunch
+T:to the tune of "The Bloody Snood"
+C:Raymond Greenoaken
+D:"Burn" (Whapweasel)
+M:2/2
+Q:1/2 = 60; Play ABABAB (8 bar break) CDCDCD
+%%MIDI ratio 2 1
+%%MIDI gchord fz2czcfz2czc
+K:Am
+L:1/8
+P:A
+"Am"A2A>B A2A>B|c>BA>G A>GA>B|c>Bc>d (3efee>d|(3cBAA>c "G"(3BAGG>B|
+"Am"A2A>B A2A>B|c>BA>G A>GA>B|c>Bc>d (3efee>d|(3cBA"G"G>B "Am"A4||
+P:B
+"Am"a4 a2e>f|"E"(3^gfee>d "A"^c>de2|"Am"a4 a2(3efe|e>cB>A "G"B>c"Am"A2|
+"Am"a4 a2e>f|"E"(3^gfee>d "A"^c>de2|"G"B>AB>c "Am"A4|"G"B>AB>c "Am"A4||
+P:C
+"Bm"B2B>A B2B>A|B>AB>d "Em"e>dB>A|"Bm"B2B>A B>AB>d|"Em"e>dB>A "Am"B>cA2|
+"Bm"B2B>A B2B>A|B>AB>d "Em"e>dB>A|"G"B>AB>c "Am"A4|"G"B>AB>c "Am"A4||
+P:D
+"A"^c2c>d e2c>d|e>de>f "E"(3^gfee>d|"A"^c2c>d e>de>f|"E"(3^gfee>d "A"^c>de2|
+"A"^c2c>d e2c>d|e>de>f "E"(3^gfee>d|"G"B>AB>c "Am"A4|"G"B>AB>c "Am"A4||
+S:https://www.folktunefinder.com/tunes/122705
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:7
+T:Blair Drummond
+T: aka - Rob and Lugi
+R:strathspey or pipe reel
+% for strathspey set more dotted rhythms could be added
+% 'modern' Cape Bretoner usually play a 4 turn setting, see Dungreen
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 1355 1322
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:288
+L:1/8
+M:C
+K:Amix
+|:A/A/A Tc2 eaec|A/A/A Tc2 BgBG|A/A/A Tc2 eae(f|g)aef gdBG:|
+a2 (e/f/^g) aecA|a2 ef gdBG|a2 eg fae(g|f)aef gdBG:|
+S:https://www.folktunefinder.com/tunes/129692
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey or pipe reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

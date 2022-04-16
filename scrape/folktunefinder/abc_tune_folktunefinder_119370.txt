@@ -1,0 +1,25 @@
+X:5
+T:Schottis fr\aan Porjus
+C:efter G\"oran Lindqvist
+D:J.P. Nystroms; Manifest MAN 4 (12/95)
+M:2/4
+L:1/8
+R:Schottis
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook, "Printed by Karen Myers"
+K:D %clef=bass middle=D
+P:A
+"D"a2ag|f4|"A"e2ce|"D"d4|fd Ad|fd fg|f2e2|"A"e2-e>f|
+g2gf|e2ed|cd cB|A4|A2ce|a2f2|"D"Te2d2|d4:|
+P:B
+"D"fd Ad|fd Ad|f2fe|d2ef|"G"g2BB|B2gg|g2gf|
+"A"e4|"pizz.".e2.A2|.e2.A2|.e2"arco"ed|c2-c>B|A2ce|a2f2|"D"Te2d2|d4:|
+S:https://www.folktunefinder.com/tunes/119370
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

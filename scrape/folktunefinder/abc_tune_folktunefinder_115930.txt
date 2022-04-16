@@ -1,0 +1,33 @@
+X:12885
+T:Pasucis (Gaiteru Veria)
+R:mueira
+C:Trad.
+Z:Mtodu de Gaita
+P:ABCBC
+M:6/8
+L:1/8
+Q:1/4=150
+K:C
+P:A
+G CEF|G2 G GAB|c3 e2 d|c2 B AcA|FED DDD|
+P:B
+|A2 A ABA|FED DEF|G2 G GAA|EDC-CEF|
+|: A2 A ABA|F2 D DEF|G2 G GAG|1 EDC-CEF :|2 EDC-CEG|
+|: E2 E DB,D|G C2-CEG|E2 E DED|1 C3 CEG :|2 C2 C CDE|
+|F2 F FDF|A2 E EDE|F2 D DB,D|E2 C CDE|F2 F FDF|A2 E EDE|F2 D DB,D|C3 CDE|
+|: FAF FFF|AEE EEE|GDD DDD|EDC CDE|FFF FFF|AEE EEE|
+P:C
+|GDD DED|1 C3 CDE :|2 C3 EDC|
+|: B,2 D DFD|EDC EDC|B,2 D DED|1 C3 EDC :|2 C2 G CEF|
+|G2 G GAB|c3 ede|c3 e2 d|c2 B AcA|EDC CDF|FED DDD|G2 G GAB|c3 ede|c3 e2 
+d|c2 B AcA|FED DDD||
+S:https://www.folktunefinder.com/tunes/115930
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

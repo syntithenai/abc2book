@@ -1,0 +1,43 @@
+X: 31
+T:Chrysanthemums Were Blooming
+O:russia
+R:waltz
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+K:Dm
+"Intro"[|]AA \
+| "Dm"[f3d3]- | [fd]BG | "Gm"e3- | eed \
+| "A7"^cBA | GFE | "Dm"D3- | D ||
+|: A^G \
+"D"|"Dm"[BG]>[AF][AF]- | [AF]Ad | "Gm"A>GG- | G^FG \
+| "A7"B>AA- | AAE | "Dm"B>AA- | A^GA |
+| "D7"d>^c=c- | c_ED | "Gm"c>AB- | BAB \
+| "Dm"AAA | "E7"^GED | "A"A3- | A :|
+|: AA \
+"E"| "Dm"[f3d3]- | [fd]BG | "Gm"e3- | eGA \
+| "A7"^c2c- | c=B^c | "Dm"d3- | ddd |
+| "Bb"d3- | ded | "Gm"f2e- | eGA \
+| "A7"^c3- | c=B^c | "Dm"d3- | "bbine"d :| [K:Bbmaj]
+"F7"dc \
+"F1"| "Bb"c2B- | BA>B | "Cm"f2e- | ee=B \
+| "F7"d2c- | c=B>c | "Bb"f3- | "F7"fga |
+| "Bb"[b2d2][ac] | "G7"[g2=B2][dB] | "Cm"[f2d2][ec]- | [ec][ec][bg] \
+| "F7"[a2f2][d=B] | [e2c2][ae] | "Bb"[g2d2][fd]- | "F7"fdc |
+"F2"| "Bb"c2B- | BA>B | "Cm"f2e- | ee=B \
+| "F7"d2c- | c=B>c | "Bb"f3 | "Gm"gab |
+| "C7"[d'2b2][bg] | "A7"[g=e][f^c][=ec] | "Bb"g2f | "Gm"b"D"c'"G7"d' \
+| "Cm7"e'3 | "F7"d'2d' | "Bb"b3- | "g.C."b |]
+%%footer $D   Galouvielle-MBe 2008 \nwaltz (russia)
+S:https://www.folktunefinder.com/tunes/102682
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

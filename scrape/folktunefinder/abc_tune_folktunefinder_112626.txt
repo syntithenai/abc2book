@@ -1,0 +1,37 @@
+X:199
+T: Daqi haozi ba huasheng shai
+N: C0323
+O: China,Jiangsu, Taixing, Nord)
+S: III, 454]
+N: Enthaelt viele Elemente der Xiaodiao. Die Erdnueesse werden
+N: in die Sonne gelegt zum trocknen und saeubern.
+N: Vereinzelt Verzierungen, Fermaten.
+R: Haozi, Shai huasheng haozi. Shai huasheng shi chang]
+M: 2/4
+L: 1/32
+K: G
+A16 | B4d4A2G2E2G2 | A12
+G2E2 | A4d2B2A2B2A2G2 | E16
+A4d2B2A8- | A12GAGE | D16
+E4E2G2A4B4 | A4G2E2A4G2E2
+A2A2A2B2G4A2A2 | d4A4d4A4
+d8B2A2G4 | A16
+B4B2d2A4G2E2 | d2E2G8E4
+B4B2d2A4G2E2 | d2E2G8E4
+B4B2d2A4G2E2 | B2E2G8E4
+B2B2B2d2A4G2E2 | d2E2G12
+G4G4A4A2B2 | d4e2d2B6A2
+G4G2A2B2A2d2B2 | A6B2A2G2E4 | D16
+A4d2B2A4G2E2 | G16
+S:https://www.folktunefinder.com/tunes/112626
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, shai huasheng haozi. shai huasheng shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

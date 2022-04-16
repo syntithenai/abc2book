@@ -1,0 +1,31 @@
+X: 1
+P: The Atholl Highlanders Jig
+O: Trad
+R: jig-time march
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+N: The G chords are often "modernized" to E7, except for the last line, which always has G.
+N: Hebert p.20
+N: Lord Athlone's March on Banff SBS5406
+D: Graham Townsend on the Piper's Broken Finger
+D: Boys of the Lough, cut 4A
+M: 6/8
+L: 1/8
+K: BMix
+d/e/ |: "B"f3 f>dB  | fdB "A"cde  |1 "B"f3 f>dB  | "A"cde "(F)"dcB :|2 "B"f-<bf "E"gfe | "F"dec "B"B2 :|
+d/c/ |: "B"B>df Bdf | "E"B>eg Beg |1 "B"B>df Bdf | "A"cde "(F)"d2c :|2 "B"f-<bf "E"gfe | "F"dec "B"B2 :|
+ f   |: "B"b2f fed  | b2f fed     |1  b2f fed    | "A"cde "(F)"dcB :|2 "B"f-<bf "E"gfe | "F"dec "B"B2 :|
+ c   |: "B"d>Bd dBd | "A"e-<ce ece |1 "B"d-<Bd dBd | "A"c-<Ac cde :|2 "B"f-<bf "E"gfe | "F"dec "B"B2 :| [K:G^d]\
+S:https://www.folktunefinder.com/tunes/128816
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AthollHighlanders_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AthollHighlanders_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AthollHighlanders_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AthollHighlanders_Bb.abc
+% Rhythm Jig-time march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 11
+T:Daisy Daisy
+% Nottingham Music Database
+S:
+M:3/4
+L:1/4
+K:D
+f/2g/2|"D"a3|"D"f3|"D"d3|"D"A3|"G"Bcd|"G"B2d|"D"A3-|"D"Ad|"A7"e3|"A7"a3|"D"f3|\
+"Bm"d3|
+"E7"Bcd|"E7"e2f|"A7"e3-|"A7"eef|"A7"gfe|"A7"a2f|"D"ed2-|"D"dde|"D"f2d|"G"B2d|
+"A7"BA2-|"A7"Ac|"D"d2f|"A7"e2A|"D"d2f|"A7"efg|"D"afd|"A7"e2f|"D"d3-|"D"d2:|
+S:https://www.folktunefinder.com/tunes/109243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

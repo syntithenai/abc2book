@@ -1,0 +1,24 @@
+X:25
+T:Blaenwern
+% Nottingham Music Database
+S:MHB 267 (i)
+M:3/4
+L:1/4
+K:G
+"G"D2D|"C/g"E2E|"G"DGB|"G/d"B2"D"A||"Em"G2"G/b"F|"C"E2"G"D|"D/a"DF"A"E|"D"D3||
+"G"D2D|"C"E2E|"G"DGB|"G/d"B2"D"A||"Em"G2"d"A|"G"B"C"c"C"A|"G/d"G2"D"F|"G"G3||
+"G"B2"D/f"B|"Em"BG"Em/d"B|"C"c"G/d"B"D"A|"G"B2B||"G/b"d2"D/a"d|"G"dB"D/f"d|\
+"Em"e"D/a"d"A"^c|"D"d3||
+"C"e2"Am"c|"G/b"d2"G"B|"D/f"dc"G"B|"G/d"B2"D"A||"G/b"G2"D/a"A|"G"B"C/e"c"C"A|\
+"G/d"G2"D"F|"G"G3||
+S:https://www.folktunefinder.com/tunes/109185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

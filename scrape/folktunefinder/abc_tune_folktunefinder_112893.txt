@@ -1,0 +1,32 @@
+X:466
+T: Rengong Haozi (Renche Haozi)
+N: C1301
+O: China, ........ 
+S: Jiang Mindun, .......... , S. 38]
+N:  Der Titel stimmt nicht mit dem im Buch berein.
+N: Die Phraseneinteilung erfolgt nach musikalischen Kriterien,
+N: nach funktionalen  wre sie 2,3,2,3,2,2,4.
+N: Die letzte Zeile wird wiederholt. Zwei rh. Werte sind original auf
+N: Tonh\^ihen eingetragen.
+R: Haozi]
+M: 2/4
+L: 1/32
+K: G
+ | B4A2A2A8 | A4G2G2E8
+ | G4E4A8 | G4G4E4G4 | E8D8
+ | A3BG2G2A8 | G2A2E2E2E8
+ | G4E4A8 | G4G4E4G4 | E8D8
+ | B4B4B4B4 | A8G8 | D4D4D4E4 | G16
+ | B4B4B4B4 | A8G8 | D4D4D4E4 | G16
+ | c'4A12 | A4d2B2A8- | A16 | D4z4c'4z4
+S:https://www.folktunefinder.com/tunes/112893
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

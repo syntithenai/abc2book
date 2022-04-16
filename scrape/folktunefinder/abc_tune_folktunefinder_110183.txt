@@ -1,0 +1,34 @@
+X:136
+T:A Trip to Morland
+C:Colin Hume, 1986
+L:1/4
+M:3/2
+%%MIDI gchord GcGcGc
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/2=88
+H:Written for the first Morland Folk Dance Week, August 1986
+K:G
+P:A
+|: "G"BA/B/ "C"c2 "G"B2 | "D"A3/2B/ "^/"cd "G"B2 | "Em"GA/B/ "Am"cE "^/G"FG | "D/F#"A2- "Em"AB "D"A2 |\
+"Bm"dB/c/ "^/"dB "Em"GE | "Am"cA/B/ "^/"cA "D"FD | "C"E3/2F/ "^/"GF "Am"GA | "D7"F2- "^/"FG "G"G2 :|
+%%vskip 0
+P:B
+"G"d2 "^/"g2 "D"f2 | "C"e3/2d/ "^/"cd "Am"ec | "D"Ad- "^/"dc "G"B2 | "Em"G2 "C"c2 "G"B2 |\
+"D"A3/2B/ "^/"cd "Em"BG | "C"EA- "A7"AG "D"FD | "C"E3/2F/ "^/"GE "G/B"Dd | "Am"ec/B/ "D7"A3/2G/ "G"G2 |
+%%vskip 0
+P:C
+"G"dc/d/ "C"e/d/c/B/ "Am"c2 | "D7"Ad- "^/"dc "G"BG | "Em"BA/B/ "Am"c/B/A/G/ "^/"A2 | "C"EA- "A7"AG "D"FD |\
+"G"BA/B/ "C"c2 "G"B2 | "D"A3/2B/ "^/"cd "Em"BG | "C"e2 "^/"ef "Am"ga | "D7"f2- "^/"fg "G"g2 |]
+S:https://www.folktunefinder.com/tunes/110183
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

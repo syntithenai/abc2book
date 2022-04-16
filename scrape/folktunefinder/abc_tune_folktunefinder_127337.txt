@@ -1,0 +1,28 @@
+X: 89
+T:Maid behind the barrel
+S:P.McGrattan
+M:4/4
+L:1/8
+K:G
+D ~G3 A ~G3 | DGGB cAFA| D ~G3 AGFG| defd cAFA| 
+D ~G3 A ~G3 | DGGB cAFA| G3 B AGFB| defd cAFA ||
+d ~g3 a ~g3| dggf agfe  d ~f3 a ~f3| defd cAFA
+d g3 agfg| abag f3 g| afge fde^c| d2 eg fdcA ||
+G2 dG BGdG| G2 dB cAFA| G3 A BABc| defd cAFA| 
+G2 dG BGdG| G2 dB cAFA| B3 G AGFB| defd cAFA||
+~B3 G A3 G| B3 e gedc| B3 G AGFG| defd cAFA|
+~B3 G A3 G| B3 e gedc| B3 G AGFG| defd cAFA ||
+S:https://www.folktunefinder.com/tunes/127337
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

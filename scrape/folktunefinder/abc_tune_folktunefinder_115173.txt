@@ -1,0 +1,29 @@
+X: 15
+T:Polska efter Jonk Jonas Persson, verhogdal
+S:E 590
+A:Hrjedalen
+B:Einar vergrd nr 590
+O:Sweden
+M:3/4
+L:1/8
+Q:C2=150
+K:G
+d(e/f/) g2 (b>g)|e>(g f>)(g a>)f|(3d(ef) g2 (b>g)|e>(g f)(g a)f|\
+d>(B G)(B c)d|[1(3ece d3z:|[2(3ece d3(B|:d>)d (3e(ce) dB|\
+(3d(ed) (3c(dc) B>G|(3G(AB) (3c(Ac) BG|(3G(AB) (BA)A2|\
+dd (3e(ce) dB|(3d(ed) (3c(dc) BG|(3G(AB) (3c(Ac) BG|(3AFA G4:|\
+T:Andrastmma
+d(c/A/) B2 d2|c>(B A>)(B c>)d|d(c/A/) B2 d2|c>(B A)(B c)d|\
+B>(G D)(G A)B|[1(3cAc B3z:|[2(3cAE [F3A3] (G|:\
+B>)B (3c(Ac) BG|(3B(cB) (3A(BA) G>D|(3D(FG) (3A(FA) GD|(3D(FG) (GF) F2|\
+B>B (3c(Ac) BG|(3B(cB) (3A(BA) G>D|(3D(FG) (3A(FA) GD|C2 [B,4D4]:|
+S:https://www.folktunefinder.com/tunes/115173
+S:http://homepage.calypso.net/~ci-18034/harje.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/harje.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

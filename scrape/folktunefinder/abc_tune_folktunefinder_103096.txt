@@ -1,0 +1,22 @@
+X: 1
+T: Ali Pasha
+O: trad Turkey
+Z: John Chambers <jc@trillian.mit.edu>
+P: ABB
+M: 5/4
+L: 1/4
+K: C
+"A"\
+|: "C"[Gc][Gc][ce] "C"[c2e2] | [c/e/][B/d/] [B/d/][A/c/] [c/e/][B/d/] "G7"[B2d2] \
+| [Bd] [Ac] [G/B/][A/c/] "F"[A2c2] | [A/c/][G/B/] [G/B/][F/A/] [A/c/-][G/c/] "C"[G2c2] :|
+"B"\
+|: "F"[Fc][Af][Af] "G7"[Af][G/e/][F/d/] | "C"[Ec][Ge][Gd] "A7"[G^c-][F/c/-][E/c/] \
+| "Dm"[DA][Fd][Fd] "C"[E/c/][D/B/][CG] | "G7"[DG] [E/G/][D/A/] [C/G/][B,/F/] "C"[C2E2] :|
+S:https://www.folktunefinder.com/tunes/103096
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/AliPasha_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

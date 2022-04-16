@@ -1,0 +1,24 @@
+X:3
+T:Amy, souffrez que je vous aime
+C:Pierre Moulu, Guillaume Le Heurteur, Heinrich Isaac, or Claudin de Sermisy
+O:Tiers livre de chansons, Printed by Le Roy and Ballard, 1553
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N:Original clef, F on third line
+K:F bass
+%%MIDI transpose -24
+z f f g f > e f/ g/ a g f2 e/ d/ c _e > d B/ c/
+S:https://www.folktunefinder.com/tunes/114033
+S:http://www.laymusic.org/music/tierslivre/amy/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

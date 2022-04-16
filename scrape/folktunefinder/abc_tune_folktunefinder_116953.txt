@@ -1,0 +1,22 @@
+X: 42
+T: andro
+C: trad (fluxus)
+M: 4/4
+L: 1/8
+R: dans en dro
+K: Cmin
+|:cded c2g2|e2c2 d2g2|fgfe d2c2|e2c2 d2z2|
+|cded c2g2|e2c2 d2g2|fgfe d2c2|ecdB c2z2:||
+|:cdef g2g2|f2b2 g2e2|cdeg f3g|fgfe d2z2|
+|cdef g2g2|f2b2 g2e2|cdeg f2d2|ecdB c2z2:||
+S:https://www.folktunefinder.com/tunes/116953
+S:http://www.boombaltunes.be/tunes/abc/an-trad_flxs.abc
+% Rhythm Dans en dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

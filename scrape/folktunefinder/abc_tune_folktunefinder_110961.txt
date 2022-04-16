@@ -1,0 +1,20 @@
+X:1
+T:Cantus
+T:Leave alas this tormenting
+C: Thomas Morley (1595)
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/2
+Q:1/2=90
+K:F
+N: Original clef, treble
+z2 z2 z2 z2 z2 z2 z2 z2 z2 z2 z2 z2 z d2 d _e2 d d d2 d2 z d2 d f d/ d/ c2-c2 =B d
+S:https://www.folktunefinder.com/tunes/110961
+S:http://www.laymusic.org/music/morley/tormenting/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

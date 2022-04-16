@@ -1,0 +1,28 @@
+X:91
+T:Northbourne Hop
+C:Colin Hume, 1998
+L:1/8
+M:4/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=66
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: d/ | "G"g>Bd>G "^/"B>DG>D | "C"[C2E2][B,2E2] "Am"[A,2-E2-][A,3/E3/] e/ |\
+"Am"a>ce>A "^/"c>EA>E | "D7"[D2F2][C2F2] "^/"[B,2F2-][A,3/F3/] d/ |
+"G"g>Bd>G "^/"B>DG>D | "C"[C2E2][B,2E2] "Am"[A,2E2]A>B |\
+"Am"c>BA>G "D7"F>Ad>c | "G"((3BcB) "D7"((3ABA) "G"G2 :|
+P:B
+|: ((3Bc^c) | "G"d>BA>G "^/"F>GA>B | "Am"c2c2- "^/"c2((3A^AB) |\
+"D7"c>AG>F "^/"E>FG>A | "G"B4- "^/"B2((3Bc^c) |
+"G"d>^cd>e "G7/B"d>BA>G | "C"c2e2 "C#dim"g2f>e |\
+"D"d>^cd>e "D7"f>de>f | "G"g>d ((3edB) "^/"G2 :|
+S:https://www.folktunefinder.com/tunes/110138
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

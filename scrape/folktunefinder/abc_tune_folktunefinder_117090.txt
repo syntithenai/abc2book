@@ -1,0 +1,22 @@
+X:43
+T:Fiddler's Dram
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=440
+K:D
+A2B2 c2|:d2A2 d2A2|BcdB AGFG|A2Bc dBAG|FDEC D2A/B/c|
+d2A2 d2A2|BcdB AGFG|A2Bc dBAG|FDEC D4:|
+|:DEF2 DEF2|GFED CA,B,C|D2F2 GBAG|FDEC D2A,/B,/C|
+DEF2 DEF2|GFED CA,B,C|D2F2 GBAG|FDEC D4:|
+S:https://www.folktunefinder.com/tunes/117090
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

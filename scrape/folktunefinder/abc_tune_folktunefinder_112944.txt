@@ -1,0 +1,31 @@
+X:517
+T: Lisanbao
+N: C0358
+O: China,Zhejiang, Changhua
+S: III, 613 (2)]
+N: Witz ueber eine Faulenzer. Fuellwoerter imitieren den Klang der
+N: Suona. Ironisch.
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+dBBAB2B2 | ABAGA4
+dBBAB2B2 | GAGBA4
+A2B2A2B2 | BAGBA4
+A2B2A2B2 | B2e2edB2
+A2B2z2d2 | BAG2A4
+GAGAB4 | BdBGA3B | A4
+FAFD | E8
+S:https://www.folktunefinder.com/tunes/112944
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

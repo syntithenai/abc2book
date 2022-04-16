@@ -1,0 +1,30 @@
+X:521
+T: Da zhi Shange guo heng pai
+N: C0406
+O: China,Jiangxi, Xingguo
+S: IV, 228]
+N: sehr typisch, auch alter Text.
+N: Wenig Verzierungen, Glissandi.  Im letzten Takt der
+N: Phrase 5 ist in der Vorlage noch eine 0_ notiert; 1 nur 8tel
+R: Shange]
+M: 2/4
+L: 1/16
+K: D
+e2eBd4 | e8
+dBB2dede | e2dBB2z2
+ABdee2AA | deAABAAA | A8
+f2e2dBde | e2ABd4
+BdBdA2AB | ABd2d4
+A2BdBdBA | FAA2B2AA | A8
+S:https://www.folktunefinder.com/tunes/112948
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

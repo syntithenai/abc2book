@@ -1,0 +1,22 @@
+X:11456
+T:Music for a Found Harmonium
+Z: id:dc-miscellaneous-2
+M:C
+L:1/8
+K:D Major
+D|FDGD FDDD|FDGD FDDD|FDGD FDDD|EDCD FDD:|!
+D|EDCD EDCD|FD=CD FDCD|GDFD CDGD|FDDD D3:|!
+d|fdgd fddd|fdgd fddd|fdgd fddd|edcd fdd:|!
+d|edcd edcd|fd=cd fdcd|gdfd cdgd|fddd d3:|!
+=F|=c=FEF GFEF|=c=FEF E3F|=c=FEF GFEF|=c=FEF E3:|!
+=F|_B=FDF GFDF|_B=FDF GFDF|_B=FEF GE2G|_B=FEF GE2G|!
+cGEG CG2G|cGEG CG2G|cGEG CG2G|cGEG CG2|]!
+S:https://www.folktunefinder.com/tunes/99238
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

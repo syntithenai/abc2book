@@ -1,0 +1,28 @@
+X:142
+T:Through the wood Laddie
+R:Waltz
+M:3/4
+L:1/8
+K:F
+FE | D2 F2 G2 | A4 fe | d2 fd cA | G4 FG | 
+A3 B AG | A2 D2 FG | AG AB AG | A3 G FE |
+D2 F2 G2 | A4 fg | ag fd cA | G4 Bc | 
+d2 fd cA | B2 cB AG | A2 D2 C2 | D4 |]
+fe |d2 f2 g2 | a4 fg | a2 ba gf | g4 fg | 
+a3 b ag | a2 d2 fg | ag ab ag | a4 fe |
+d2 f2 g2 | a4 fg | ag fd cA | G4 Bc | 
+d2 fd cA | c2 dc AG | A2D2 C2 | D4 |]
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127861
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

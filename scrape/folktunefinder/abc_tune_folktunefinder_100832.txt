@@ -1,0 +1,22 @@
+X:36
+T:Leslie's
+Z: id:dc-hornpipe-68
+M:C|
+L:1/8
+K:D Major
+A|d2d2 d2cd|e2e2 e2fe|dcBA B2c2|defg agfe|!
+d2d2 d2cd|e2e2 e2fe|dcBA B2c2|d4 d3:|!
+e|f2f2 f2ef|g2g2 g2fg|e2e2 e2de|f2f2 fgaf|!
+d2d2 d2cd|e2e2 e2fe|dcBA B2c2|d4 d3:|!
+S:https://www.folktunefinder.com/tunes/100832
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

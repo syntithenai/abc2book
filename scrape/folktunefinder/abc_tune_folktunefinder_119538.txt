@@ -1,0 +1,26 @@
+X:57
+T:Nous n'irons plus au bois
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n57
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=90
+K:F
+z F A B | c2 d2 | c>B A c | B2 A-G | F F A B |\
+c2 d2 | c>B A c | B2 A-G | F2-F z ||
+F F F G | F2 C z | F F F G | F C c | A2 c2 | A B c B | G F E2 | F2 z2 ||
+W:Nous n'irons plus aux bois : les lauriers sont coups.
+W:La belle que voil, ira les ramasser. /.../
+S:https://www.folktunefinder.com/tunes/119538
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

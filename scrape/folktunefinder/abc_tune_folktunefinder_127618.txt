@@ -1,0 +1,23 @@
+X:2
+T:Wheat Sheaf
+T:(as originally written)
+M:6/8
+L:1/8
+C:Chris Ricciotti
+A:Duns Tew
+P:A.(A2B3)4.A
+Q:C3=76
+K:G
+D "A"| "G"G2 G GDB | "D"A2 A ABc | "G"BcB "D"AGA | "G"BAG "C"E2 D |\
+"G"G2 G GDB | "D"A2 A ABc | "G"BcB "D"AGA | "G"GDG BGd "B"|:\
+"G"g2 "D"f "G"gdB | "C"e2 d "D"ecA | "G"d2 "C"e "G"dBG | "C"c2 B "D"A2 c |\
+"G"BcB "D"AGF |[1 "G"G2 "D"A "G"B2 d :| [2 "G"G3 G2 "D"d||
+S:https://www.folktunefinder.com/tunes/127618
+S:http://www.mit.edu/~jcb/Red_Herring/dances/wheat-sheaf.abc
+S:http://www.mit.edu/%7Ejcb/Red_Herring/dances/wheat-sheaf.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

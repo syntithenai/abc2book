@@ -1,0 +1,29 @@
+X:38
+T:Vaudeville
+R:Vaudeville
+C:anonyme
+H:
+N:baroque 1, p 2
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:2
+L:1/4
+Q:1/4=110
+K:C
+Ae | e3 d | cBA^G| A2!!B2 | cBAe | e3d | cBA^G |
+A2!!B2 | c2 :|| Bc | d3c | BeAc | !!B3A | ^GEAe | e3d |
+cBcd | e2 !!B2 | A2 |]
+S:https://www.folktunefinder.com/tunes/104034
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Rhythm Vaudeville
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

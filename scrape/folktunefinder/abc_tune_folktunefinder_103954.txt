@@ -1,0 +1,59 @@
+X:1
+T:Allegro
+C:Fran\ccois Devienne\.i
+R:Gavotte
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-allegro.abc
+M:2/4
+L:1/8
+Q:1/4=144
+K:G
+(b/a/)|gdBd|g3(f/g/)|aaaa|(a>b) ad|bbbb|
+V:2
+z|BBBB|BdBG|FFFF|FAFD|GBd^d|
+%
+V:1
+b(c'/b/ a)(b/a/|g2)(f/g/a/f/|g2) z ||(g/f/)|eefg|a3 (g/f/)|
+V:2
+(e>d) (cd/c/)|BBAc|Bg G|| z |z ^cde|fAf (e/d/)|
+%
+V:1
+eefg|a3 (g/f/)|eefg|a(b/a/ g)(a/g/|f)(g/f/ e)(f/e/|
+V:2
+^ccde|fA/d/ f(e/d/)|^ccde|fFGB|AdA^c|
+%
+V:1
+d3)d|gggg|g3d|gdBG|d2 z/ (d/e/f/|
+V:2
+dDd=c|BdBd|BGBd|gdBG|dDdc|
+%
+V:1
+g)ggg|g3 (f/g/)|(a/g/f/a/) (f/e/d/^c/)|d3||(b/a/)|
+V:2
+BdBd|BdBG|FGAA|FDd||z|
+%
+V:1
+gdBd|g3(f/g/)|aaaa|(a>b) ad|bbbb|
+V:2
+BBBB|BdBG|FFFF|FAFD|GBd^d|
+%
+V:1
+b(c'/b/ a)(b/a/|g2)(f/g/a/f/|g2) z |]
+V:2
+(e>d) (cd/c/)|BBAc|Bg G|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/103954
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-allegro.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-allegro/devienne-allegro.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-allegro/devienne-allegro.abc
+% Rhythm Gavotte
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

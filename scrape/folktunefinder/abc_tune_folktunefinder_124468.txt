@@ -1,0 +1,26 @@
+X:2
+T: Bransle de la Guerre
+R: Mixed Branle
+N: Original clef, C on first line
+M:C|
+L:1/2
+K:C
+V:1
+|: c/ B/ c/ d/ c c A2 F C | B A G F E2 C2 | G2 A B c2 c c d c c B c2 c2 :|
+|: c c c A c c c A B/ G/ A B/ G/ A G F A G A/ F/ G A/ F/ G F F E F A/ F/ G F F E F2 F2 :|
+V:2
+L:1/2
+%%MIDI transpose -24
+K:C bass
+|:c2 c2 f2 f2 | g2 g2 c2 c2 | g2 g2 c2 c2 d2 c2 c2 c2 :|
+|:f2 f2 f2 f2 g f g f d2 f2 f c f c f2 c f f c d2 c f2 f2 :|
+S:https://www.folktunefinder.com/tunes/124468
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Rhythm Mixed branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

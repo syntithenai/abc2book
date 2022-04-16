@@ -1,0 +1,28 @@
+X: 67
+T: Round The Horn
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:(3DEF|\
+"G"G2GA BAGA|"Bm"Bd2Bd2ed|"C"cdef ~g2g2|"A"(~a4 "D"a2)ga|
+"G"b2g2agfa|"C"gfed "Em"BAGB|"A"A2d2 "Bm"BAG2|"Em"E6:|
+|:z2|\
+"C"e3ge2d2|"G"Bd2Bd2cB|"Bm"A2~A2"D"GFGA|"G"Bd2Bd2ef|
+"C"g3a gf e2|"G"dedc BAGB|"A"A2d2"Bm"BAG2|"Em"E6:|]
+S:https://www.folktunefinder.com/tunes/113076
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

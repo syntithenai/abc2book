@@ -1,0 +1,23 @@
+X:8
+T:General Stewart of Garth
+R:strathspey
+C:traditional
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C
+Q:300
+K:A
+a|e<Ac>d e>Ac>A|d<fe>d B/B/B B>a|e<Ac>d e>Ac>A|d<fe>c A/A/A A:|
+||d|c<ee>=g f>ae<c|d>fe>c B/B/B B>d|c<ee>=g f<ae>c|d>fe>c A/A/A A>d|
+c<ee>=g f<ae>c|d>fe<c B/B/B B>d|c<ea>e f>be<c|d>fe>c A/A/A A|]
+S:https://www.folktunefinder.com/tunes/120446
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

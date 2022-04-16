@@ -1,0 +1,35 @@
+X:247
+T: Fan Dui hua
+N: C0387
+O: China,Hebei, Jinxian
+S: IV, 85]
+N: Stil: typischer Nordwest als West.
+N: Diese Sammlung enthaelt mit Stand 1987 wenigstens 32 Aufnahmen
+N: mit dem Titel "Dui hua"
+N: C0046, C0495, C0136
+N: Wenig Verzierungen. Vorspiel weggelassen.
+R: Xiaodiao, Shidiao, Dui hua. Siji huahui]
+M: 2/4
+L: 1/16
+K: E
+c2f2d2f2 | c2B2c4 | G2F2G2B2 | c2B2c4
+c4c2BG | F2E2F2G2 | G2B4D2 | C8
+c2f2d2f2 | c2B2c2f2 | G2F2G2B2 | c2B2c4
+B2c2B2G2 | F2E2F2G2 | G2B4D2 | C8
+E2E2E2F2 | G2F2G4 | B6D2 | C8
+G2F2E2F2 | G2F2G4 | B6D2 | C8
+f2d2c4 | f2d2c4 | c2e2G2B2 | c2B2c4
+B2c2B2G2 | F4G4 | G2B4D2 | C8
+S:https://www.folktunefinder.com/tunes/112674
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, dui hua. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

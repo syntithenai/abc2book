@@ -1,0 +1,28 @@
+X:15
+T:Annie Mae's Reel
+R:reel
+C:Annie Mae MacEachern
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:G
+(3(DEF)|G2 FG EG D2|gfga gdBd|efge dBGB|cBAG FA (3(DEF)|
+G2 FG EG D2|gfga gdBd|efge dBGB|cAFA G2:|
+|:ef|gfga gd B2|gfga gd B2|agab afdf|agab afdf|
+gfga gd B2|gfga gdBd|efge dBGB|cAFA G2:|
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/120453
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,59 @@
+X:1
+T:Angelina Baker
+C:Steven Foster
+L:1/8
+Q:500
+M:4/4
+K:D
+|:"D"[D,2A,2] [D,2B,2] [D,3A,3D3][D,A,] | [D,2B,2] [D,4A,4D4] DB, |\
+[D,2A,2] [D,2B,2] DB, [D,2A,2] | \
+"G"[G,3B,3][G,B,] [G,2B,2] DB, |"D"[D,2A,2] [D,2B,2] [D,3A,3D3]E |\
+[D,2A,2F2] [D,2A,2E2] [D,3A,3D3]E | \
+ [D,2A,2F2] [D,2A,2E2] "G" [D,2A,2D2] [D,2B,2] |1"D"[D,3A,3]B, [D,2A,2] DB,\
+:|2"D"[D,3A,3]B, [D,2A,2] FG |
+|:"D"[D,2A,2A2] [D,2A,2F2] [D,2A,2E2] [D,A,D]E | [D,2A,2F2] [D,2A,2E2]\
+[D,2A,2D2] [D,A,F]G | \
+ [D,2A,2A2] [D,2A,2F2] [D,2A,2E2] [D,2A,2D2] |"G (Bm)" [G,3B,3] [G,B,]\
+[G,2B,2]\
+FG | [D,2A,2A2] [D,2A,2F2] [D,2A,2E2] [D,A,D]E | \
+ [D,2A,2F2] [D,2A,2E2] [D,2A,2D2] [D,A,D]E | [D,2A,2F2] [D,2A,2E2]\
+"G"[D,2A,2D2] [D,2B,2] | \
+|1"D"[E,3A,3]B, [E,2A,2] [D,A,F][D,A,G] :|2"D"[E,3A,3]B, [E,4A,4] |
+W:1
+W:Way down on de old plantation, Dah's where I was born.
+W:I used to beat da whole creation, Hoe'in in da corn. Oh!
+W:Den I work and den I sing, So happy all da day. Til
+W:Angelina Baker came, And stole my heart away.
+W:Chorus
+W:Angelina Baker! Angelina Baker's gone. She
+W:Angelina Baker! Angelina Baker's gone. She
+W:She left me here to weep a tear, And beat on da ol' jawbone.
+W:Left me here to weep a tear, And beat on da ol' jawbone.
+W:2
+W:I've seen my Angelina, In de springtime and de fall,
+W:I've seen her in de corn-field, And I've seen her at de ball;
+W:And ebry time I met her, She was smilin like de sun,
+W:But now I'm left to weep a tear, Cause Angelina's gone.
+W:Chorus
+W:3
+W:Angelina am so tall, She nebber sees de ground.
+W:She hab to take a wellumscope, To look down on de town.
+W:Angelina like de boys, As far as she can see dem,
+W:She used to run ol massa round, To ax him for to free dem.
+W:Chorus
+W:4
+W:Early in de morning, Ob a lubly summer day,
+W:I ax for Angelina, And dey say, "she's gone away."
+W:I don't know wha to find her, Cayce I don't know wha she's gone.
+W:She left me here to weep a tear, And beat on the ol' jawbone.
+W:Chorus
+S:https://www.folktunefinder.com/tunes/118459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/granis.net/~rlwalker/abc/angelinabaker.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/angelinabaker.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

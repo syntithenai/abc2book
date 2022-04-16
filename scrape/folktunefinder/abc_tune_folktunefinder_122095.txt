@@ -1,0 +1,20 @@
+X:17
+T: Kilfenora Jig "2"
+R: Jig
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+F2A ABA|ABA FED|G2B B2A|B2A Bcd|F2A ABA|ABA FED|dcB AGF|1GFE D2E:|2GFE D2c|
+|:d2A F2A|dfe d2c|dcB AGF|EFG ABc|d2A F2A|dfe d2c|dcB AGF|1GFE D2c:|2GFE D2E||
+S:https://www.folktunefinder.com/tunes/122095
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

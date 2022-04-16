@@ -1,0 +1,23 @@
+X:200
+T: Gordon's Tune
+M: C
+L: 1/8
+B: "O'Neill's 40"
+N: "With spirit" "collected by J. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K: Gm
+dc | B2 Bc B2 AG | G>A Bc d2 cA | G2 GF D2 D^F | G4 G2 dc |
+B2 Bc B2 AG | G>A Bc d2 cA | G2 GF D2 D^F | G4 G2 ||
+GA | B2 c2 d3 B | c2 d=e f2 d>g | g>f dc B2 d2 | c3 B G2 dc |
+B2 Bc B2 AG | G>A Bc d2 cA | G2 GF D2 D^F | G4 G2 ||
+S:https://www.folktunefinder.com/tunes/129174
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0001-0050_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

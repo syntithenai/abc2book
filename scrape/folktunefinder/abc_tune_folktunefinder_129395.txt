@@ -1,0 +1,19 @@
+X:1
+T:The Auctioneer
+M:4/4
+L:1/4
+K:Bb
+ F/2| B B/2 d3/2 B| F F/2 B3/2 z/2 F/2| E G B G| E G/2 B3/2 z/2 B/2-|\
+ F F/2 F3/2 F| A A A G| F2 z2| z3 F/2F/2| B B/2 d3/2 B/2B/2| F F/2 B3/2 F/2F/2|\
+ E G B G| E G/2 B3/2 z/2 B/2| F F/2 F3/2 F| A A B c| B2 z2| z3B/2-G/2|\
+ E G B/2 G3/2| E G/2 B3/2 z/2 B/2| F F F F/2F/2| G F D D/2D/2| =E E/2 E3/2 E|\
+ d d c B| c2 z2| z3F/2-F/2| B B/2 d3/2 B| F F/2 B3/2 z/2 F/2| E G/2 B3/2 G|\
+ E G/2 B3/2 B/2B/2| F F F3/2 F/2| A A B c| B2 z2|
+S:https://www.folktunefinder.com/tunes/129395
+S:http://back.numachi.com:8000/dtrad/abc/AUCTIONR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

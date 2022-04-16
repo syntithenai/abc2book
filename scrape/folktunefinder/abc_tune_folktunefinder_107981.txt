@@ -1,0 +1,24 @@
+X: 33
+T:Erlegh March
+% Nottingham Music Database
+S:Pauline Wilson, via PR
+M:4/4
+L:1/4
+K:D
+A|"D"d2 D2|GF ED|FA2B|"A7"A2 Bc|"Bm"d2 e2|"E7"gf ed|"A7"e2 A2|
+A2 Bc|"D"d2 D2|GF ED|"G"GF GB|d2 cB|"D"A2 DF|GF ED|"A7"E4|
+"D"D2 F2|"D"A2 FA|dc BA|"Em"B2 GB|"A7"A2 de|"D"f2 d2|"Bm"a2 gf|"Em"e4-|
+"A7"e2 fg|"D"a2 A2|"D7"=c2 BA|"G"BG Bd|g2 fe|"D"f2 A2|"Em"gf ed|"A7"e4|"D"d3||
+S:https://www.folktunefinder.com/tunes/107981
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X: 27
+T:What You Need In The World
+M:6/8
+L:1/8
+Q:80
+C:Paul Bond
+K:C
+cc|"C"c>cc "Am"ccc|"C"ceg|
+M:9/8
+ag2- gzg|
+M:6/8
+"F"agf "C"edc|!
+M:9/8
+"Dm"Adc "G"BA2- AzG|
+M:6/8
+"F"Adc "G"BAB|"C"ceg "F"agf|"C"edc "Dm"cBc|"G"d3-z:||!
+gg|"F"a>ba "C"g2g|
+M:9/8
+gfe "Am"e3-ezg/g/|
+M:6/8
+"F"agf "C"edc|
+M:9/8
+"Dm"Adc "G"BA2- AzG/G/|!
+M:6/8
+"F"Adc "G"BAB|"C"ceg agg|
+"F"agf "C"edc|"Dm"Adc "G"BAG|
+"F"Adc "G"BAB|"C"c6-|c4||
+S:https://www.folktunefinder.com/tunes/127059
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

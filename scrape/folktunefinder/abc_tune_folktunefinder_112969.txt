@@ -1,0 +1,31 @@
+X:542
+T: Danchui da gu sheng bu xiang
+N: C0246
+O: China,Heinan, Danxian
+S: II, 398 (1)]
+N: Aehnliche Sitten wie bei nationalen Minderheiten. Die Massen singen
+N: und klauen alles - auch Kunstlieder aus dem Rundfunk. Es gibt sehr
+N: viele Frage-Antwort - Gesaenge (Dui hua), die allerdings immer, wenn
+N: entlehnt, mit eigenem Text unterlegt werden.
+N: Einige Glissandi in den beiden letzten Phrasen.
+R: Diao sheng, Qingge]
+M: 2/4
+L: 1/16
+K: Ab
+c2cBA2FA | BcA2B8
+c2cBA2FA | BcA2B2Bc
+E2EEE2E2 | ABceB2ceB2z2
+E2F2FEC2 | B,3CEFA2
+E2F2FEC2 | B,8
+S:https://www.folktunefinder.com/tunes/112969
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Diao sheng, qingge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

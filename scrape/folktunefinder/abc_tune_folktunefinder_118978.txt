@@ -1,0 +1,26 @@
+X:330
+T: Scartaglen
+S: "Johnny O'Leary of Sliabh Luachra" (#85)
+Z: B.Black
+L: 1/8
+M: 12/8
+Q: 350
+R: slide
+K: G
+A|B2d cBA G2E D2G|EFG A2B c3 B2A|
+B2B cBA G2E D2G|EFG AGF G3 G3 :|
+E|D2B BAB d2B BAB|DAG A2B cAA AGA|
+DGA BAB d2B BAB|ABA DFA G3 G3 :|
+S:https://www.folktunefinder.com/tunes/118978
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/jol1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/jol1.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

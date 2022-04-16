@@ -1,0 +1,21 @@
+X: 21
+T:Silver Spire
+M:C
+L:1/8
+K:D
+DF ~F2 DFAc| ~d3 e fdAF| G2 BG FdAF| GFED CEA,C|
+DF ~F2 DFAc| ~d3 e fdAF| G2 BG FdAF| EA,CE D3 E :|
+|:CB,A,B, CDEF| GEED EFGA| BcdB (B{c}BA)c| defe gf e2|
+d2 fd cdec| AcdB A3 F| G2 BG FdAF| EA,CE D3 F:|
+S:https://www.folktunefinder.com/tunes/127269
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

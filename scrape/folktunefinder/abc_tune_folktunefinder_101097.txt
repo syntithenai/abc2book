@@ -1,0 +1,21 @@
+X: 11
+T:Constant Billy
+R:Double Step
+M:6/8
+L:1/8
+K:G
+D|G2B BAB|c2A FGA|BAG E2E|DEF G2 D|
+ |G2B BAB|c2A FGA|BAG E2 E|DEF G2:| 
+G|Bcd e2c|ABc d3|Bcd e2c|ABc def|
+ |g2d BAB|c2A FGA|BAG E2 E| DEF G2:|
+S:https://www.folktunefinder.com/tunes/101097
+S:http://www.banjolin.co.uk/tunes/pvs_english.abc
+% Rhythm Double step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

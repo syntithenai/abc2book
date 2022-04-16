@@ -1,0 +1,26 @@
+X: 1
+T:Vals efter Jonte i Byom
+A:Jmtland
+O:Sweden
+M:3/4
+L:1/8
+K:Am
+E2-|E2 (cB) A^G|(A2 c2) e2|a2 (^gb) (a=g)|e2 d2 B2|\
+c2 A2 (Ac)|B2 (B^G) (BG)|A2 (cB) A^G)|[A4A4]::\
+(AB)|c4 c2|((3cdc B2) c2|e4c2|c4 (Bc)|\
+d4d2|d2 (BG) Bd|f4 f2|e3 d c2|\
+e3 d (Bd)|c2 A2 Ac|B2 (B^G) (BG)|[A4A4]:|\
+T:Andrastmma
+E2|C2 (ED) CB,|(C2 E2) A2|c2 (Bd) (cB)|c2 B2 ^G2|\
+A2 E2 (EA)|^G2 (GE) (DB,)|C2 (ED) CB,|[C4E4]::\
+(A,B,)|vC2 u[C2E2] u[C2E2]|vG,2 u[C2E2] u[C2E2]|\
+C2 [C2E2] [C2E2]|G,2 [C2E2] [C2E2]|\
+B,2 [B,2D2] [B,2D2]|G,2 (B,D) GB|d4 d2|c3 B A2|\
+c3 B (^GB)|A2 E2 E2|D2 [B,2D2] [B,2D2]|[C4E4]:|
+S:https://www.folktunefinder.com/tunes/115089
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/va/Vals_efter_Jonte_i_Byom_1.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

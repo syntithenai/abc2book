@@ -1,0 +1,27 @@
+X:27
+T: Gei Beijing shao feng xin
+N: C0035
+O: China,Gansu, Hezheng
+S: I, 112]
+N: hat verschiedene Varianten, z.B. "jian jian hua"
+R: Xiaodiao, Fang fengzheng. Xin mingge]
+M: 2/4
+L: 1/16
+K: G
+A2d2d2A2 | d6g2 | e2d2c2BA | G6A2
+d4d2g2 | e2d2c2A2 | c2A2G2D2 | G8
+G3Ad2d2 | d3ge2d2 | G3Ac2B2 | A2c2A2G2
+AGF4G2 | A2c2c2E2 | D6G2 | D8
+d2A2d2g2 | d2cBA2G2
+AGF4G2 | A2c2c2E2 | D6G2 | D8
+S:https://www.folktunefinder.com/tunes/112454
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, fang fengzheng. xin mingge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

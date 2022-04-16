@@ -1,0 +1,29 @@
+X:79
+T: Hongri zhaozai dong shan shang
+N: C0101
+O: China,Hubei, Wufeng
+S: I, 360]
+N: 1 Strophe besteht aus fuenf Saetzen. Neues Volkslied
+N: Einige Verzierungen.
+R: Shange, Wujuzi. Xin minge]
+M: 2/4
+L: 1/16
+K: C
+G2G2AcA2 | G6A2 | g2g2ege2 | d8
+deggege2 | d3edeA2 | c2c2AcA2 | G8
+G2G2AcA2 | d2dcd6de | c2d4cA | G8
+d2dcAcA2 | G8 | g2g2c2ge | d6
+ee | deg2ege2 | d3edeA2 | c2c2AcA2 | G8
+S:https://www.folktunefinder.com/tunes/112506
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, wujuzi. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

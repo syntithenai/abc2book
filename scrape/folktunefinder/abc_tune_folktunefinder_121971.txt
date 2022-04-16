@@ -1,0 +1,24 @@
+X: 308
+T: DERMOT
+T: Diarmuid
+B: O'Neill's 308
+M: 3/4
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow with feeling"
+K:F
+  c3 B A2 | f3 e d2 | c2 (BA) (GF) | A3 G G2 \
+| c3 B A2 | f3~g Ha2 | F>G A3 G | F6 ||
+|| (f3 ede) | f3 F F2 | (f3 efg) | a3 f d2 \
+| c3 B A2 | f3~g Ha2 | F>G A3 G | F6 ||
+S:https://www.folktunefinder.com/tunes/121971
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0308_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

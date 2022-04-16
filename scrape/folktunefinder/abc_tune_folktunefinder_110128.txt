@@ -1,0 +1,48 @@
+X:81
+T:Mrs Felton's Maggot
+C:Colin Hume, 2006
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+M:3/2
+L:1/4
+V:1
+N:For Liz Felton
+%%MIDI program 2
+%%MIDI beat 100 95 80
+U:X = "^t"
+K:C
+P:A
+[| c2 xB2 {AB}c2 | A3/2G/2 F/2G/2 AGc | F3/2E/2 D/2E/2 FEc | BA B3/2c/2 d2 |
+c2 TB2 {AB}c2 | A3/2G/2 F/2G/2 AGc | F3/2E/2 D/2E/2 FEc | BA B3/2c/2 c2 |
+V:2 bass
+I:octave=-2
+%%MIDI program 2
+%%MIDI gchord ccc
+K:C
+[| "C"c'2 "G"b2 "Am"ag | "F"f4 "C"e2 \
+| "Dm"d4 "C"ce | "G"g2 "D7"^f2 "G"g G
+| "C"c'2 "G"b2 "Am"ag | "F"f4 "C"e2 \
+| "Dm"d4 "C"ce | "G"g2 "G7"G2 "C"c2 |
+V:1
+%%vskip 0
+P:B
+d3/2c/2 B/2c/2d e B | c3/2B/2 A/2B/2c d2 | c2 Td2 {cd}ec | Ad c3/2B/2 c2 |
+d3/2c/2 B/2c/2d e B | e3/2d/2 c/2d/2e gd \
+| g3/2f/2 e/2f/2g a g/2f/2 | ec/2d/2 B3/2c/2 c2 |]
+V:2
+"G"g4 "E7"^g2 | "Am"ag "D7"^fd "G"g=f \
+| "C"e2 "G"d2 "C"ce | "F"f2 "G7"gG "C"c/2d/2e/2f/2
+| "G"g4 "E7"^g2 | "Am"a4 "G"b2\
+| "C7"c'2 c/d/e "F"f2 | "C"g2 "G7"G2 "C"c2 |]
+S:https://www.folktunefinder.com/tunes/110128
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

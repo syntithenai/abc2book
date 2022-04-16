@@ -1,0 +1,31 @@
+X:65
+T:Lavender's Blue
+C:Traditional
+L:1/4
+M:3/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=120
+H:For the dance by Charles Bolton
+K:G
+P:A
+[| "G"GBc | "^/"d c/B/ A/G/ | "D"ADD | "^/"A3 | "G"GBc | "^/"d c/B/ A/G/ | "D"ADD | "G"G3 |
+P:B
+|: "Em"BGG | "Am"c B/A/ G/F/ | "D"ADD | "^/"A3 | "G"GBc | "^/"d c/B/ A/G/ | "D"ADD | "G"G3 :|
+%%subtitlefont Times-Roman 28
+T:Second tune
+K:F
+P:A
+[| "F"Fcc | "F7"c B/A/ G/F/ | "Bb"Fdd | "^/"d3 | "F"Fcc | "^/"c B/A/ G/F/ | "C7"BA G | "F"F3 |
+P:B
+|: "Dm"AFA | "F"c B/A/ G/F/ | "C"GCG | "C7"G3 | "F"Fcc | "Dm"c B/A/ G/F/ | "Gm"BA "C7"G | "F"F3 :|
+S:https://www.folktunefinder.com/tunes/110112
+S:http://www.colinhume.com/ABC.txt
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

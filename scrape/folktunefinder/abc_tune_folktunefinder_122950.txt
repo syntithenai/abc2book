@@ -1,0 +1,24 @@
+X: 2
+T: Archie's Fancy
+C: Bill Pigg, 1970
+M: 3/4
+L: 1/8
+R: waltz
+K: G Major
+|: (3Bc^c |\ 
+d2 g3 d | B2 g2 d2 | (3fgf e2 c2 | E4 AB | c2 A2 F2 | D2 F2 A2 | e2 d3 c | B/c/B- B2 (3Bc^c | 
+d2 g3 d | B2 g2 d2 | (3fgf e2 c2 | E4 AB | c2 a3 g | f2 e2 f2 | (3gag d/z/g B/z/g | G4 :|
+|: (3Bc^c |\ 
+d2 b3 a | g2 d2 Bd | c2 a3 g | f/g/f- f2 AB | c2 a3 g | f2 e2 f2 | g2 b3 g | d4 (3Bc^c | 
+d2 b3 a | g2 d2 Bd | c2 a3 g | f/g/f- f2 AB | c2 a3 g | f2 e2 f2 | (3gag d/z/g B/z/g | G4 :|
+S:https://www.folktunefinder.com/tunes/122950
+S:http://www.thesession.org/tunes/display/8131
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

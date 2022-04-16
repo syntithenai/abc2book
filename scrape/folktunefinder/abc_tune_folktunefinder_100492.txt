@@ -1,0 +1,21 @@
+X:200
+T:Teviot bridge
+O:scotland
+R:Jig
+M:6/8
+L:1/8
+K:A
+f|ecA E2A|F2A E3|EFE E2c|d2c B2A|
+ecA E2A|F2A E2c|def ecA|B3 A2:|
+|:c|ecA Ace|fgf fga|ecA AcA|BGE E2c|
+ecA Ace|agf edc|dfa ecA|B3 A2:|
+S:https://www.folktunefinder.com/tunes/100492
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

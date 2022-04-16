@@ -1,0 +1,40 @@
+X:144
+T:Wallington Diamond Jubilee
+C:Ellen Taylor, 1993
+L:1/4
+M:4/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord cc
+%%MIDI program 51
+%%MIDI chordprog 73
+%%MIDI chordvol 50
+Q:1/2=104
+H:For the Diamond Jubilee of the Wallington Folk Dance Club
+K:Bb
+P:A
+[| "Bb"fd "^/"ef | "Gm"B2 "^/"A2 | "Eb"G2 "^/"AB | "Bb"F2- "^/"F2 |\
+"Gm"BG "^/"AB | "Cm"c2 "^/"d2 | "Bb"f2 "C7"g=e | "F"f2- "^/"f2 |
+%%vskip 0
+P:B
+"Eb"ge "^/"fg | "Bb"f2 "^/"d2 | "Cm"ec "^/"de | "Gm"d2- "^/"d2 |\
+"F"f2 "^/"ga | "Bb"b2 "^/"f2 | "Eb"gf "F7"ec | "Bb"B2- "^/"B2 |
+%%vskip 0
+P:C
+"F"c2 "^/"ce | "Bb"d2 "^/"f2 | "Eb"e2 "^/"fg | "F"f2- "^/"f2 |\
+"Bb"bf "^/"ga | "Bb"b2 "^/"f2 | "Cm"gf "^/"ed | "F"c2- "^/"c2 |
+%%vskip 0
+P:D
+"Bb"fd "^/"ef | "Gm"B2 "^/"A2 | "Eb"GE "^/"GB | "F"F2- "^/"F2 |\
+"Bb"BF "^/"Bd | "Dm"f2 "^/"ed | "F7"c2 "^/"c2 | "Bb"B2- "^/"B2 |]
+S:https://www.folktunefinder.com/tunes/110191
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

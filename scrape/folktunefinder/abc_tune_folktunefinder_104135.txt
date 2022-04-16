@@ -1,0 +1,27 @@
+X: 23
+T:Copenhagen Waltz. ST.23
+M:3/8
+L:1/16
+Q:40
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Waltz
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:D
+(f<a)|(g<b) f<a e<g|(d<f) A2 (d<f)|(e<g) A2 (c<e)|(d<f) A2 (f<a)|!
+(g<b) (f<a) (e<g)|(d<f) A2 (d<f)|(c<e) A2 (c<e)|"qu"d4||!
+(d<f)|(c<e) A2 (c<e)|(d<f) A2 (d<f)|c<e A2 (c<e)|d4 (f<a)|!
+(g<b) (f<a) (e<g)|(d<f) A2 (d<f)|(c<e) A2 (c<e)|d4||!
+a2|(b2a2f2)|d4 a2|(b2a2f2)|e4 a2|(b2a2f2|dcdfaf|edefgf|d4|]
+S:https://www.folktunefinder.com/tunes/104135
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

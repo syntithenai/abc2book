@@ -1,0 +1,23 @@
+X:7
+T:Fingal's Cave
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:C|
+L:1/8
+Q:1/2=72
+K:A Dorian
+  A4     BAGA|B2A2 A2ed|B2AG e2dB|d2G2 G4  |
+  A4     BAGA|B2A2 A2ed|BBAG e2dB|e2A2 A4 :|
+  e2  de g2fg|a2ea g2eg|e2de g2fg|edBA G4  |
+  e2  de g2fg|a2ea g2eg|gefd gedB|e2A2 A4  |
+(3efe de g2fg|a2ea g2eg|e2de g2fg|edBA GABG|
+   c2 Bc d2cd|e2de g2a2|gefd gedB|e2A2 A4 |]
+S:https://www.folktunefinder.com/tunes/99904
+S:http://www.campin.me.uk/Music/ScottishSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:16
+T: Die Geburt im Walde
+N: Q0007B
+O: Suedosteuropa, Jugoslawien, Gottschee, Verdreng
+N: Grundton in der zweigestrichenen Oktave
+R: Ballade, Geburt, Tod, Moral
+M: 2/2
+L: 1/8
+K: C
+G,2 | C2C2E2EE | C4D4E4z2
+C2 | D2D2E2EE | C4D4C4z2
+S:https://www.folktunefinder.com/tunes/109954
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

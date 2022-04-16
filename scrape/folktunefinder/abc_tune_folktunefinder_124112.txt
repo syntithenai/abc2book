@@ -1,0 +1,22 @@
+X:5329
+T:Flirtation !!!
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:Am
+E|"Am"A2B c2d|ecA ecA|"G"G2A B2c|ded dBG|
+"Am"A2B c2d|"Am"ecA "Bm"Bcd|"E7"efe dcB|"Am"A3 -A2::
+A|"Am"EAA A2B|c2B c2A|"Em"G3 -G2E|G3 -G2A|"Am"EAA A2B|
+c2B c2d|"C"e3 -e2c|e3 -e2c|"Am"eee edc|"G"d2d d2B|
+"F"c2c cBA|"E"B2B Bcd|"Am"e3 "Bm"d3|"Am"c3 "G"B3|"Am"EAA "E7"A2^G|"Am"A3 -A2||
+S:https://www.folktunefinder.com/tunes/124112
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

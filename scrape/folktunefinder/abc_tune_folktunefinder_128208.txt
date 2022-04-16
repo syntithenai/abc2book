@@ -1,0 +1,37 @@
+X: 1
+T: the Flowers of Edinburgh
+T: My Love's Bonny When She Smiles on Me
+C: James Oswald
+R: reel
+Z: John Chambers <jc@trillian.mit.edu> 
+N: Probably the best-known Scottish reel; in all the old collections.
+N: RSCDS 1-1.
+N: Hardie p.32
+N: Skye p.170
+N: Bain p.33
+N: Williamson p.53
+N: BSFC I-10 and  V-9 and  XI-6
+D: Scottish  Traditional Fiddle Music tape
+D: Jimmy MacLellan on "This is Sidney" tape
+M: C|
+L: 1/8
+Q: 1/2=120
+K: G
+|: GE \
+| "G"D2DE G2GA | BGBd cBAG | "D7"FGFE DEFG | AFdF E2GE |
+| "G"D2DE G2GA | BGBd "C"efge | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+|: d2 \
+| "G"g2gd gbag | "D7"f2fd fagf | "Em"~e2ef gfed | B2e2 "(C)"e2ge |
+| "G"dBGB d2d2 | "C"edef g2fe | "G"dcBA "D7"GFGA | "G"B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/128208
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/FlowersOfEdinburgh.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/FlowersOfEdinburgh.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

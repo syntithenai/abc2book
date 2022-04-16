@@ -273,9 +273,9 @@ function initialiseEditor (abc, songNumber) {
         console.log(e.target.value)
         var tunes = loadLocalObject('abc2book_tunes')
         if (tunes[songNumber] && tunes[songNumber].settings && tunes[songNumber].settings.length > tunes[songNumber].useSetting) {   
-          var meta = extractAbcMeta(e.target.value)
+          var notes = getNotesFromAbc(e.target.value)
           console.log('set tune setting abc', meta)
-          tunes[songNumber].settings[tunes[songNumber].useSetting].abc =  meta.cleanAbc
+          tunes[songNumber].settings[tunes[songNumber].useSetting].abc =  notes
         }
         console.log('SAVE TUNES', tunes)
         saveLocalObject('abc2book_tunes',tunes)
@@ -363,7 +363,7 @@ function finishPlaying(songNumber) {
     }
     console.log('FINISH found',found)
     
-    if (found < songlist.length) {
+    if (found != null && found < songlist.length) {
       playSongNumber(parseInt(found) )
       scrollTo('controls_'+found)
     } else {

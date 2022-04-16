@@ -1,0 +1,23 @@
+X:1
+T:Alleluia
+C:William Boyce (1710-1779)
+C:Round for three parts
+G:Vocal
+M:C|
+L:1/4
+Z:Bert Van Vreckem , 30 jan 2001
+Q:160
+K:C
+"1."c4 | B4 | A4 | G4 | A3 B | (c/B/A/G/ A/G/F/E/ | F2 G2) | !fermata!C4 |
+S:https://www.folktunefinder.com/tunes/103974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/boyce.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

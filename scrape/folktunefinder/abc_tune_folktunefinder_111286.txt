@@ -1,0 +1,26 @@
+X:55
+T:Hora din Negotin
+O:rumania
+C:Roemeni\^a
+M:6/8
+L:1/8
+Q:1/4=185
+K:G
+V:1
+"G" DG GG AA |AB BB dB |"D" Az AA GA |"G" G2 AB3 |
+"G" GG F"G7/f" G2 A|"C/e" B Bc "Cm/eb" B2 A|"D" A zG "D/f#" GG F|"G" G2 zG2 z:| |:
+"G" d ^cd eB B|A GG Bz G|"D7" A dA AG A|"G" G2 AB3 |
+"G" d^c d"G/f" e BB |"C/e" AG G"Cm/eb" B zG |"D" Ad A"D/f#" A GA |"G" G2 zG2 z:| |:
+"Am" C3/2 _E3/2 E3/2 F3/2 |G3/2 A3/2 G3/2 E3/2 |"Em" BB AG2 F|E EF G2 z|
+"Am" C3/2 _E3/2 "Am/g" E3/2 F3/2 |"Am/f#" G3/2 A3/2 "Am/f" G3/2 E3/2 |"Em" BB A"Em/g" G2 F|"Em" G2 EE2 z:| |:
+"Em"  (3GGG F (3EEE _E|"Am" E2 CC2 C|"Em/h"  (3GGG F"B7/d#"  (3EEE _E|"Em" E EC E2 z|
+"Em"  (3GGG F"Em/d"  (3EEE _E|"A/c#" E EC "Am/c" C2 C|"Em/h"  (3GGG F"B7/d#" E E_E |"Em" E2 zE2 z:|
+S:https://www.folktunefinder.com/tunes/111286
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

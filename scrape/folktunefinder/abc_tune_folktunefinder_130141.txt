@@ -1,0 +1,33 @@
+X:4
+T:Jitter the Bow
+R:jig
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:An olden phrase used for coaxing youngsters into making a triplet on the fiddle.
+L:1/8
+Q:300
+M:6/8
+K:G
+B|dBG AFD|GBd efg|dgf edc|BAG ABc|
+dBG AFD|GBd efg|dgf edc|BcA GBc|
+dcB cBA|GBd efg|dgf edc|BAG ABc|
+ded cBA|GBd efg|dgf edc|BcA G2||
+|:B|BAB efg|afd cBA|GBd efg|agf gdc|
+bag agf|gdB cde|dBG ABc|def g2:|
+S:https://www.folktunefinder.com/tunes/130141
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:21
+T:Blue Bonnets over the Border
+C:Traditional
+S:http://www.scottish-fiddle.com
+M:6/8
+L:1/8
+Q:1/8=270
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|{c}d3 {c}d3|d<fe dBA|dBB {c}B2g|a>gf {f}e2d|
+{c}d3 {c}d3|d<fe dBA|BcB ABc|def {f}e2::
+%%MIDI ratio 2 1
+d|dfa afd|{g}agf fed|dfa {g}afd|def {fg}e2d|
+dfa afd|agf fed|dcB ABc|1 def e2:|2 dce d3||
+S:https://www.folktunefinder.com/tunes/114087
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

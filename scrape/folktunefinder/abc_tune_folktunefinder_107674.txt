@@ -1,0 +1,23 @@
+X:225
+T: Pattern Day
+S: "Roche Collection of Traditional Irish Music" [I/51/124]
+L: 1/8
+M: 6/8
+R: jig
+K: A
+E | A>BA AFE | FAA Ace | fed c2c | cBA F2G |
+A>BA AFE | FAA Ace | fga ecA | BAA A2 :|
+A | Ace ecA | Ace e2e | fed c2c | cBA F2G |
+A>BA AFE | FAA Ace | fga ecA | BAA A2 :|
+S:https://www.folktunefinder.com/tunes/107674
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

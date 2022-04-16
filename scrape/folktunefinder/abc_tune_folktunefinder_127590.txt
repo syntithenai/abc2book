@@ -1,0 +1,24 @@
+X:5
+T: Es geht nix ueber die Gemuetlichkeit, eijo, eijo
+N: V0002A
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Gleismuthhausen
+R: Geselligkeits - Lied, Gemuetlichkeit
+M: 2/4
+L: 1/32
+K: F
+C4 | F4F4F2E2G2F2 | E4D4D4B4 | E8z4C4 | F8z4
+C4 | F4F4F3EG2F2 | E4D4D4B4 | E8z4C4 | F8z4
+C4 | F12F4F8 | F8E8F8 | G12D4D8 | D8z8
+D8 | E12E4E8 | E8D8E8 | F16G8 | A8z8
+C8 | F12F4F8 | F8E8F8 | G12D4D8 | D8z8
+D8 | E12E4E8 | E8D8E8 | F24- | F8z12
+S:https://www.folktunefinder.com/tunes/127590
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Geselligkeits - lied, gemuetlichkeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

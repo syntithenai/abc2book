@@ -1,0 +1,25 @@
+X: 16
+T:Shanahan's Hornpipe (#322)
+M:4/4
+L:1/8
+S:Prof. P.D. Reidy, manuscript
+R:Hornpipe
+K:G
+D2|GFGA BGBd|gfga bgdB|A^GAB cBce|(3agf (3gfe (3dcB (3cBA|
+GFGA BGBd|gfga bgdB|Aedc BGAF|G2 G2 G2:|
+|:Bc|dcde d2 ef|gfga bgdB|dcde fgaf|(3agf (3gfe (3dcB (3cBA|
+GFGA BGBd|gfga bgdB|Aedc BGAF|G2 G2 G2:||
+S:https://www.folktunefinder.com/tunes/127708
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-7.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/ShanahansHornpipe322.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0322.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

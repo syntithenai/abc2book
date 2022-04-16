@@ -1,0 +1,32 @@
+X:14
+T:New Years Day
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/5/04
+N:Petrie's Second Collection, page 5
+% Gore's Index gives earliest publication as Alexander Reinagle's
+% "A Coll. Of the Most Fav. Scots Tunes" 1782
+L:1/8
+M:6/8
+R:Jig
+K:F
+A|FGF fgf|fFF F2A|FGF f>ga|gGG G2A|
+  FGF fgf|c2b a2g|fed cAf |cAF F2::A|
+  cdc AcA|cdc A2d|cdc fga |gGG G2A|
+%Petrie shows the last note in the last measure above as a 1/4 note -SW
+  cdc AcA|c2b a2g|fed cAf |cAF F2:|
+S:https://www.folktunefinder.com/tunes/128278
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/New_Years_Day.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/14.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

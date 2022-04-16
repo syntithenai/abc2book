@@ -1,0 +1,27 @@
+X:222
+T: Xiao mao diao
+N: C0353
+O: China,Anhui, Tuxian
+S: III, 590]
+N: witzige Fuellwoerter, miauen von Katzen wird z.B. imitiert)
+R: Xiaodiao. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: Bb
+c4c4 | b4c4 | f4c4 | f4d4
+c2b2f2g2 | b8 | c2b2f2g2 | b8
+d2b2c2d2 | c8 | b3cb2g2 | f8
+b3cb2g2 | f4b4 | b4
+b2g2b2c2 | f4f2g2 | b2g2b2c2 | f8
+b2g2f2d2 | c4c2d2 | b4f4 | b4c2d2 | c2b2a2g2 | f8
+S:https://www.folktunefinder.com/tunes/112649
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

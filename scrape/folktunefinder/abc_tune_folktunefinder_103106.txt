@@ -1,0 +1,30 @@
+X:3
+T:The Green Mountain
+C:Traditional
+N:Play 3 times
+N:The Armagh Set, figure 3, tune 3 of 3
+D:Matt Molloy & Sean Keane, Contentment is Wealth
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+M:C
+L:1/8
+Q:350
+K:D
+AF F2 AFEF | DF F2 ABde | fedf efdB | Adfd efdB |
+AF F2 AFEF | DF F2 ABde | fd d2 efdB | [1 AFEF D2 dB :|| [2 AFEF D2 de ||
+fa a2 bfaf | defd e2 de | f2 df efdB | Adfa edBd |
+fa a2 bfaf | defd e2 de | f2 df efdB |[1 AFEF D2 de :|| [2 AFEF D2 dB |]
+S:https://www.folktunefinder.com/tunes/103106
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 128
+T: Mickey Doherty's Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:\
+"D"d2fa gfed|"A"cAA/A/A cdec|"D"d2fa gfed|"A"cABc "D"dAB/B/c|
+"D"d2fa gfed|"A(F#m)"cAA/A/A cdec|"G(Bm)"d2fa gfed|1\
+"A"cABc "D"dAB/B/c:|2\
+"A"cABc "D"d3D||
+K: g
+ |:\
+"Am"EGAB cAGE|"D"D/D/DFD ADFD|E/F/GAB cAGc|"C"BdcA "Bm"GFDD|
+"Am"EGAB cAGE|"D"D/D/DFD ADFD|E/F/GAB "C"cAGc|1\
+"D7"BdcA "G"G3D:|2\
+"C"BdcA "G"G2A/B/^c|]
+S:https://www.folktunefinder.com/tunes/113137
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

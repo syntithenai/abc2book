@@ -1,0 +1,32 @@
+X:112
+T:Save the House!
+%%scale 0.67
+C:Colin Hume, 1986
+L:1/8
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=78
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+|: "G"d2^c>d- "^/"d4 | "Edim"e2^d>e- "^/"e4 | "G"g2 e>d- "Em"d>BA>G | "Am"B2^A>=A- "D7"A4 |\
+"G"d2^c>d- "^/"d4 | "Edim"e2^d>e- "^/"e4 | "G"g2 e>d- "Em"d>BA>G | "D7"A>BA>G- "G"G4 :|
+%%vskip 0
+P:B
+"A"A2^G>A- "^/"A>GA2 | "D"B2^A>B- "^/"B>^AB2 | "A7"^c2-c>c "^/"d2e2 | "D"f2d2 "D7"d4 |\
+"G"g2f>g- "^/"g4 | "D"f2^e>f- "^/"f2d2 | "E7"e2d2 "^/"^c2B2 | "A"A2-A>A "A7"B>^cd>e |
+%%vskip 0
+P:C
+"D"f2g>f- "^/"f>ed2 | "G"g2a>g- "^/"g>fe2 | "A7"a2-a>b "^/"a2g2 | "D"f2d2 "D7"d4 |\
+"G"d2^c>d- "^/"d4 | "Edim"e2^d>e- "^/"e2e2 | "D7"f2d2 "^/"e2f2 | "G"g4- "^/"g4 |]
+S:https://www.folktunefinder.com/tunes/110159
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

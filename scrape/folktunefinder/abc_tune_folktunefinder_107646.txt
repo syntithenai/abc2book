@@ -1,0 +1,25 @@
+X:85
+T: Wild Fire Chase
+S: "The Roche Collection of Traditional Irish Music" [I/60/152]
+N: Version of "Five Mile Chase"
+L: 1/8
+M: 4/4
+R: reel
+K: A
+A2 (3cBA eAcA | GBEB GBEB | A2 (3cBA eAce | fagb afec |
+A2 (3cBA eAcA | GBEB GBEB | A2 (3cBA eAce | fagb az ||
+ag | aece aece | fgaf fece | aece aece | fagb a3a |
+abc'a fgaf | efed cBce | fefg fece | fagb afec |]
+S:https://www.folktunefinder.com/tunes/107646
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 39
+T:Ehrentanz
+M:3/4
+L:1/8
+C:trad
+S:Wer tanzt nach meiner Pfeife
+R:~Menuett
+B:Sepp Pichler: Wer tanzt nach meiner Pfeife, p. 57
+N:Bei S. Pichler in F-Dur
+H:Hallstatt, Goisern, Ischl 1775
+K:C
+CE|G4  (AG,) |(GG,)(FG,)(EG,)|(FG,)(EG,)(DG,)|CB,CDEF|G4  (AG,) |(GG,)(F
+G,)(EG,)|(FG,)(EG,)(DG,)|C4   :|
+|:(EC)|B,4  (CE)|D2 (FG,)(EG,)|DCB,DCA,|G,3  DEF|G4   (AG,)|(GG,)(FG,)(E
+G,)|(FG,)(EG,)(DG,)|C4   :|
+S:https://www.folktunefinder.com/tunes/113724
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm ~menuett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

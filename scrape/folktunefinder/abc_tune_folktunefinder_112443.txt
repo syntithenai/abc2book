@@ -1,0 +1,26 @@
+X:16
+T: Mai wawa , eigene Kinder verkaufen)
+N: C0018
+O: China,Shaanxi, Jingbian
+S: I, 64]
+N: Gehoert zur obigen Weise, obwohl hier anders geschrieben.
+N: Zwei Glissandi und zwei Fermaten.
+R: Xiaodiao. Xushi]
+M: 2/4
+L: 1/16
+K: F
+d2d4d2 | g2c4A2 | G8
+c3cc2d2 | F3G_E2D2 | C8
+B6c2 | d4d4 | G2g2c2d2 | B4A2G2
+G2F4G2 | d6B2 | c2B4G2 | F2G2B2A2 | G8
+S:https://www.folktunefinder.com/tunes/112443
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xushi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

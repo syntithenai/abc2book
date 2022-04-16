@@ -1,0 +1,26 @@
+X:4
+T:The Roaring Barmaid
+R:jig
+C:Tony O'Sullivan
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:G
+"G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB |
+"G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|:"G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg |
+"G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :| "G - go out on"G6 |]
+%%text Roaring Jelly J-76
+S:https://www.folktunefinder.com/tunes/107228
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/jig/J076_The_Roaring_Barmaid.abc
+S:http://roaringjelly.org/music/jig/Roaring_Barmaid.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 30
+T:Garrett Barry's Jig
+R:jig
+Z:id:hn-jig-38
+M:6/8
+K:Dmix
+DEF ~G3|AGE c2A|dcA d2e|fed cAG|~F3 GFG|AGA cde|dcA GEA|1~D3 D2A:|2~D3 D
+2d||
+|:dcA d2e|fed efe|dcA c2d|egc edc|dcA d2e|fed efe|dcA GEA|1~D3 D2d:|2~D3
+ D2A||
+S:https://www.folktunefinder.com/tunes/119177
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BanishMisfortune.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

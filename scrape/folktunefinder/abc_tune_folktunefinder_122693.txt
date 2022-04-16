@@ -1,0 +1,23 @@
+X:9
+T:Ultimate Molly
+T:to the tune of "Roaring Jelly (or Smash the Windows)"
+M:6/8
+L:1/8
+K:D
+P:A
+"D"DED F2A|d2f "A"ecA|"G"G2B "D"F2A|"Em"E2F "A"GFE|
+"D"DED F2A|d2f "A"ecA|"G"Bgf "A"edc|1"D"d3-d3:|2"D"d3-d2||
+P:B
+a|"D"a2f f2d|A2a agf|"A"g2e e2c|A2g gfe|
+"D"f2d "A"g2e|"D"a2f "G"bag|"D"fed "A"Adc|"D"d3-d2:|
+P:C
+a|"D"agf fed|Adf agf|"A"gfe ecB|Ace gfe|
+"D"fed "A"gfe|"D"agf "G"bag|"D"fed "A"Adc|1"D"d3-d2:|2"D"d3-d3:|
+S:https://www.folktunefinder.com/tunes/122693
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

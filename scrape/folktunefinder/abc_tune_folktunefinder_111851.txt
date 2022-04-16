@@ -1,0 +1,25 @@
+X: 1736
+T: Balfe's Hornpipe
+M:C|
+L:1/8
+N:"collected by Early"
+B:O'Neill's 1736
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+((3ABc) | d>ec>d (3BAG (3AGF | G2 (fg | (3fag (3fed (3egf (3edc | (3dfa (3d'c'b (3aba (3gfe |
+d>ec>d   (3BAG (3AGF | G2 (fg | (3fag (3gfe (3egf (3edc | d2 f2 d2 :|
+|: ((3ABc) | d>f (3abc' d'>c'd'>c' | b>ab>c' b>ge>d | c>de>f g>fg>b | a>^ga>b a2 ((3ABc) |
+d>f (3abc' d'>c'd'>c' | b>ab>c' b2 a>g | (3fag (3fed (3egf (3edc | d2 f2 d2 :|
+S:https://www.folktunefinder.com/tunes/111851
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1701-1780_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

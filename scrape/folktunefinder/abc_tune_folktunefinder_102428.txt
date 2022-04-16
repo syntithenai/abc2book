@@ -1,0 +1,34 @@
+X:6530
+T:Greek,Dance,The. CJF.169
+T:Lord Byrons. CJF.169
+M:6/8
+L:1/8
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Misc.
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The comma in the title is in the MS. There is a quaver rest in the MS
+N:after the note marked * .The notes marked @ are given as grace notes in
+N:the  MS. The note marked & is a crochet (e2) in the MS. - PJH.
+Z:P J Headford 2000
+K:C
+g|{a/}(g^f).g ecg|{a/}g^fg =fdg|{a/}g^fga2g|\
+fdg d"*"c:||!G|GEc cBe|
+(d/e/d/c/B/A/) Gce|g3a3|d3ze2|!fef dag|\
+g3gfe|def agB|(d2"@"e/"@"d/)c2||!g|
+g2"&"ec'2b|a2gf2e|def afd|c3{d/c/}B2g|!\
+.g.e.g .g.a.b|(c'b).a (ga).f|(eg).g (dg).g|c3-c2||
+S:https://www.folktunefinder.com/tunes/102428
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

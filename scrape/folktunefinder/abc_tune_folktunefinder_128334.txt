@@ -1,0 +1,37 @@
+X: 1
+T: Athol Highlanders Jig
+C: J-23
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: A
+c/d/| "A"[A3e3] ecA| ecA "E7"Bcd| "A"[A3e3] ecA| "D"Bcd "E7"cBA|
+      "A"[A3e3] ecA| ecA "E7"Bcd| "A"eae "D"fed| "E7"cdB "A"A2:|
+|:\
+e| "A"Ace Ace| "D"Adf Adf| "A"Ace Ace| "E7"Bcd cBA|
+   "A"Ace Ace| "D"Adf Adf| "A"eae "D"fed| "E7"cdB "A"A2:|
+|:\
+e| "A"aee edc| aee edc| aee edc| "D"Bcd "E"c2e|
+   "A"aee edc| aee edc| "D"[A3f3] "A"ecA| "E7"EAG "A"A2 :|
+|:\
+B| "A"cAc cAc| "D"dBd dBd| "A"cAc cAc| "G"B=GB B=GB|
+   "A"cAc cAc| "D"dBd dBd| "A"eae "D"fed|1 "E7"cdB "A"A2:|2\
+   "E7"efg "A".a z|] "go out on"x [E2A2]|]
+%%begintext ragged
+%% 'I first heard this tune as Lord Athlone's March on Banff SBS5406, "Graham
+%% Townsend, Champion Folk Fiddler".   It is also recorded on PH1042, "The Piper's
+%% Broken Finger", by the Boys of the Lough.'
+%%
+%% 9/1/98
+%%endtext
+S:https://www.folktunefinder.com/tunes/128334
+S:http://roaringjelly.org/music/jig/J023_Athol_Highlanders_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J023_Athol_Highlanders_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J023_Athol_Highlanders_Jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

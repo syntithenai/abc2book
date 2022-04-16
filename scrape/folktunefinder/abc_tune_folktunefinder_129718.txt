@@ -1,0 +1,25 @@
+X:33
+T:Tulloch Gorm
+R:strathspey
+% more dotted rhythms could be added
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 1542 3535
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C|
+K:Gmix
+(G/A/B/c/ d)G cF A2|BGdG Bcdg|BGdG cF A2|Ggdc TB2 AB:|
+Ggde fF A2|Ggde f>gag|fedf cF A2|gGde TB2 AB:|
+S:https://www.folktunefinder.com/tunes/129718
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

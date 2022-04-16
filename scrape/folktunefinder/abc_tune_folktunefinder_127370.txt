@@ -1,0 +1,23 @@
+X: 1
+T: (As I Was) Kissed Yestere'en
+B: Kerr's Violin #1
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+|: E | "Am"ABA ABd | "Em"egB "Am"A2c | "G"BAB GAG | BAB GAB \
+     | "Am"cBc "G"dcd | "C"ede "Dm"a2g | "Am"edB "E7"ABd | "Am"e2A A2 :|
+|: ^g | "Am".azA ABA | .azA A2f | "G".gzG GAG BAB GAB \
+     | "Am"cBc "G"dcd | "C"ede "Dm"a2g | "Am"edB "E7"ABd | "Am"e2A A2 :|
+S:https://www.folktunefinder.com/tunes/127370
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/KissedYestereen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/KissedYestereen.abc
+S:http://trillian.mit.edu/~jc/music/book/500/KissedYestereen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

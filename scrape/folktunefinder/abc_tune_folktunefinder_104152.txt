@@ -1,0 +1,27 @@
+X: 40
+T:Mistletoe Bough,The. ST.40
+M:6/8
+L:1/8
+Q:100
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets 
+K:C
+G|GGG GGG|G2G G2G|(AG).A (BA).B|(dc).c c2G|!
+GGG GGG|G2G G2G|AGA BAB| ecc c2||!
+c|cBc dcd|e2cc2E|FEF G2G|(c3c2)c|!
+(cB)c (dc)d|e2c c2E|FEF G2G|c2cc2z|!
+c2c dcd|(e3e2)E|F2A GAB|(c3c2)G|!
+c2c dcd|(e3e2)e|f2a gab|(c'3c'2)|]
+S:https://www.folktunefinder.com/tunes/104152
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

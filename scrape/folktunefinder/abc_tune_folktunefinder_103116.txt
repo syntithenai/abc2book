@@ -1,0 +1,28 @@
+X:4
+T:Miss Smyth of Methven
+R:reel
+D:Buddy MacMaster, Cape Breton Tradition
+B:Niel Gow's 4th Repository
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:A
+B|TA2 EC A,CEC|B,BBc BAFB|A2 EC E/F/G AF|[1ECDB, A,/A,/A, A:|[2ECDB, A,/A,/A, A,||
+d|Tc2 ec Acdf|ecAc BAFd|Tc2 ec Acdf|ecBc A/A/A Ad|
+Tc2 ec Acdf|ecAc BAFB|A2 EC E/F/G AF|ECDB, A,/A,/A, A,||
+B,|C2 EC A,/A,/A, EC|B,BBc BAFB|A2 EC E/F/G AF|ECDB, A,/A,/A, A,B,|
+C2 EC A,/A,/A, EC|B,BBc BAFB|A2 EC Ac/d/ ec|dBec A/A/A A||
+d|(c/d/e) e2 ceaf|ecAc BAFd|(c/d/e) ee ceaf|ecdB A/A/A Ad|
+ceee ceac|dbca BAFB|A2 EC E/F/G AF|ECDB, A,/A,/A, A,|]
+S:https://www.folktunefinder.com/tunes/103116
+S:http://cranfordpub.com/tunes/abcs/buddy.abc
+S:http://www.cranfordpub.com/tunes/abcs/buddy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

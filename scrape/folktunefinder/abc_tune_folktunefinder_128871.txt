@@ -1,0 +1,24 @@
+X:32
+T:Bonaparte's March
+T:Bonaparte Crossing the Rhine
+T:Napoleon Crossing the Rhine
+T:Listowel
+R:hornpipe
+Z:id:hn-hornpipe-25
+M:2/4
+L:1/8
+K:Ador
+EG|A2A>B|AGEG|cd>ec|d2eg|a>ged|cAGE|G2G>A|G2EG|
+A2A>B|AGEG|c>dec|d2eg|a>ged|cABG|A2A>G|A2:|
+|:eg|a>bag|e2ed|c>def|g2eg|a>bag|edcA|G2G>A|G2EG|
+A2A>B|AGEG|c>dec|d2eg|a>ged|cABG|A2A>G|A2:|
+S:https://www.folktunefinder.com/tunes/128871
+S:http://www.alfwarnock.info/alfs/abc/alfmarch.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

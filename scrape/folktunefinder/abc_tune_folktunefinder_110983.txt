@@ -1,0 +1,20 @@
+X:2
+T:XIX. The lowest trees have tops,
+T:ALTUS.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+K:G dor
+G4 G,/ G,/ G, > G, G D2 _E D/ C/ =B,2
+S:https://www.folktunefinder.com/tunes/110983
+S:http://www.laymusic.org/music/dowland/trees/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

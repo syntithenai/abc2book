@@ -1,0 +1,40 @@
+X:71
+T: Katyusha
+O:russia
+R:
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+P:
+K: Am
+[| "Am"A3 B | c3 A | cc BA | "E7"B2 E2 | B3 c | d3 B | dd cB | "Am"A4 ||
+|: "Am"e2 "F"a2 | "C"g2 "A7"ag | "Dm"ff ed | "Am"e2 A2 | "Dm"zf2 d | "Am"e3 c | "E7"BE cB | "Am"A4 :|
+%%sep 5 5 200
+P:
+K: Em
+[| "Em"E3 F | G3 E | GG FE | "B7"F2 B,2 | F3 G | A3 F | AA GF | "Em"E4 ||
+|: "Em"B2 "C"e2 | "G"d2 "E7"ed | "Am"cc BA | "Em"B2 E2 | "Am"zc2 A | "Em"B3 G | "B7"FB, GF | "Em"E4 :|
+%%sep 5 5 200
+P:
+K: Gm
+[| "Gm"G3 A | B3 G | BB AG | "D7"A2 D2 | A3 B | c3 A | cc BA | "Gm"G4 ||
+|: "Gm"d2 "E"g2 | "B"f2 "G7"gf | "Cm"ee dc | "Gm"d2 G2 | "Cm"ze2 c | "Gm"d3 B | "D7"AD BA | "Gm"G4 :|
+%%sep 5 5 200
+P:
+K: Dm
+[| "Dm"D3 E | F3 D | FF ED | "A7"E2 A,2 | E3 F | G3 E | GG FE | "Dm"D4 ||
+|: "Dm"A2 "B"d2 | "F"c2 "D7"dc | "Gm"BB AG | "Dm"A2 D2 | "Gm"zB2 G | "Dm"A3 F | "A7"EA, FE | "Dm"D4 :|
+%%sep 5 5 200
+S:https://www.folktunefinder.com/tunes/102727
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key E
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

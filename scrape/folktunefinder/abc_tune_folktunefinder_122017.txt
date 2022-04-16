@@ -1,0 +1,25 @@
+X:1
+T:\"Appelbo g\aangl\aat
+R:g\aangl\aat
+O:Trad
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/Scand
+M:2/4
+L:1/16
+Q:1/4=105
+K:G
+|: D2 | "G"G3D G2B2 | d6 Bc | d2Bc d2de | "Am"c2cB A2AB | "D7"c2cd e2dc \
+| "G"BcBA G2FG | "D7"ABAF D2EF | "G"G4- G2 :|
+|: Bd | "G"g6 fe | "D7"f6 gf | "C"e2e2 egfe | "G"e2d^c d2ed | "D7"c2cB A2GA \
+| "G"BcBA G2FG | "D7"ABAF D2EF | "G"G4- G2 :|
+S:https://www.folktunefinder.com/tunes/122017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/AppelboG.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/AppelboG.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

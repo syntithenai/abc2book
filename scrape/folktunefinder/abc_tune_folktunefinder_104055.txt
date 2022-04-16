@@ -1,0 +1,28 @@
+X:15
+T:L'ennuy qui me tourmente
+M:none
+% the above M:none is a non-standard extension
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:gaillarde
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:C
+D2 D2 D2 F2 F2 F2 | F2 G2 G2 A2 z2 F2 | A2 A2 A2 A2 A2 G2 |
+F2 F2 E2 F2 z2 F2 | F2 F2 G2 A2 A2 F2 | A2 A2 A2 G2 z2 E2 |
+G2 G2 G2 F2 F2 D2 | A2 G2 F2 E2 z2 E2 | F2 F2 G2 A2 A2 FF |
+AA A2 A2 G2 z2 E2 | G2 A2 G2 F2 F2 EE | DD D2 C2 D2 z2 D2 ||
+S:https://www.folktunefinder.com/tunes/104055
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Gaillarde
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

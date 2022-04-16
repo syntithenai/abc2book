@@ -1,0 +1,26 @@
+X:411
+T: Yao shi laotian bu yia yu
+N: C1446
+O: China,Hubei, Dawu
+S: I, 435]
+R: Shange, Tiange, Cheshuige]
+M: 2/4
+L: 1/16
+K: C
+e2c2d4 | d2edc2A2 | e2ded2cA | c3AG4
+A2Acd4 | c2d2c2A2 | c2d2c2A2 | A3GG4
+A2cdd2d2 | c2d2c2A2 | A2A4A2 | d2d2c4
+A2cdd2d2 | e2d2c2A2 | d2cdc2A2 | A4G4
+S:https://www.folktunefinder.com/tunes/112838
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tiange, cheshuige]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

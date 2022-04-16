@@ -1,0 +1,25 @@
+X: 1
+T: Argosy, The
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+|:&quot;Em&quot;Beed &quot;Em&quot;edBA | &quot;D&quot;FADA &quot;D&quot;FAdA | &quot;Em&quot;Eeed &quot;Em&quot;edBA | &quot;D&quot;DEFA &quot;Em&quot;FEE/2E/2E|
+|&quot;Em&quot;Beed &quot;Em&quot;edBA | &quot;D&quot;FAde &quot;D&quot;fdef | &quot;Em&quot;g/2g/2ggf &quot;Em&quot;edBA | &quot;D&quot;FADE &quot;Em&quot;FEE/2E/2E :|
+|:&quot;Em&quot;e/2e/2eGe &quot;A&quot;Ae^ce | &quot;D&quot;defg &quot;D&quot;adfd | &quot;Em&quot;e/2e/2eGe &quot;Em&quot;BeAe |&quot;D&quot;Fdd^c &quot;D&quot;defd |
+| &quot;Em&quot;e/2e/2eGe &quot;Em&quot;Be^ce| &quot;D&quot;defg &quot;D&quot;adfa |&quot;Em&quot;gBeg &quot;Bm&quot;fedB |&quot;D&quot;ABde &quot;D&quot;fafd ||
+|:&quot;Em&quot;e/2e/2eGe &quot;A&quot;Ae^ce | &quot;D&quot;defg &quot;D&quot;adfd | &quot;Em&quot;e/2e/2eGe &quot;Em&quot;BeAe |&quot;D&quot;Fdd^c &quot;D&quot;defd |
+| &quot;Em&quot;e/2e/2eGe &quot;Em&quot;Be^ce| &quot;D&quot;defg &quot;D&quot;adfa |&quot;Em&quot;gBeg &quot;Bm&quot;fedB |&quot;D&quot;AFDF &quot;Em&quot;EFGA ||
+S:https://www.folktunefinder.com/tunes/124417
+S:http://www.thesession.org/tunes/display/930
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

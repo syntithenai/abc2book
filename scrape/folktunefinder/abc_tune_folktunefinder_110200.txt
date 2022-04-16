@@ -1,0 +1,41 @@
+X:1
+T:(Alter Schottisch )
+R:Schottisch
+A:Grossmehring, Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Dokumente regionaler Musikkultur in Oberbayern", Heft 6, Volksmusikarchiv des Bezirks Oberbayern, Muenchen 1994
+N:dort auf Seite 6 in C (1. 2.Teil)und F(Trio) mit zweiter Stimme und Harmonie-Buchstaben von Wolfi Scheck 1988, in der Quelle einstimmig
+S:mit der Angabe: Handschrift des Alois Sterzl, Grossmehring 1821, S.81
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G %Transposed from C
+Bc |\
+({^c}d4 ) edcd | g4 ed^cd | c2ce B2Bd | A2A2A2 Bc |
+({^c}d4 ) edcd | g2g2 ed^cd | c2c2 d2ef | g4 z2 :|
+g2d2d2 Bd | dcA2 A2A2 | c2A2 B2A2 | d2B2G2 Bc |
+({^c}d4 ) edcd | d2g2B2 Bd | c2c2 d2ef | g4 z2 :|
+K:C
+P:Trio
+G2G2 (3G2A2B2 | c2c2 (3c2d2e2 | d2d2 (3d2e2f2 | g2g2 e4 |
+G2G2 (3G2A2B2 | c2c2 (3c2d2e2 | (3d2e2f2 (3G2A2B2 | c4 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/110200
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/(alter_schottisch).abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

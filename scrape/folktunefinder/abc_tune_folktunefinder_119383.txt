@@ -1,0 +1,27 @@
+X:19
+T:Minnesota Valsen
+R:Waltz
+%O:Scand-American
+Z:John Chambers <jc@trillian.mit.edu>
+N:Modified by Bob Wyttenbach to match Buffalo Gap tunebook
+M:3/4
+L:1/8
+K:G
+P:A
+D2| "G"G2 (BG) Bd | G2 (BG) Bc | d2 (ed)cB | "D7"A4A2 |
+ D2 (FD) FA | D2 (FD) FA | d2 (dc)BA |[1"G"G4 :|[2"G"G3||
+P:B
+(cBA)| "G"G2 (BG) Bd | g4g2 | (3(gag) (fg) ag | "C"e4e2 |
+ "D7"(AF) (AF) Ad | f3 (gfe) | (de d)cBA |[1"G"B3:|[2"G"G4 ||
+% %%%%%%%%%%%% Rorospols %%%%%%%%%%%%% %
+% %%%%%%%%%%%% Sonderhoning %%%%%%%%%%%%% %
+S:https://www.folktunefinder.com/tunes/119383
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

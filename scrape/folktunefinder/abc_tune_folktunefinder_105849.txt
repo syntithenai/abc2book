@@ -1,0 +1,22 @@
+X: 17
+T:Gathering Peascods
+M:C|
+L:1/4
+Q:120
+B:The Round Band Book of Playford
+K:G
+G | "G"d2dd | "G"B>cdd | "C"edcB | "D"A3B | "G"AG "D7"GF | "G"G3 :: \
+G | "D"FDFG | "D"A2BA | "G"G/2A/2B "A7"AG | \
+"G"F3F | "Em"ED "A7"E>D | "G"D3 :: \
+D | "G"BGG A/2B/2 | "C"c3c | "G"BGG A/2B/2 | "C"c3c | \
+"G"BGG A/2B/2 | "C"c>de d/2c/2 | "G"B c/2B/2 "D7"A>G | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/105849
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

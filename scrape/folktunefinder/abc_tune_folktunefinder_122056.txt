@@ -1,0 +1,24 @@
+X:1
+T:Apple Pie Waltz
+C:copyright 1997 Kaubells
+R:Waltz
+E:16
+M:3/4
+K:Amix
+\bigskip
+cd|:"A"e4 a2|"F#m"e3 dc2|(3d"G"ed B2 G2|"A"A2E2cd|
+"A"e4 a2|{ea}"F#m"e3 dc2|(3d"G"ed B2 G2|1"...A"A2z4:|2"...A"A4AB||
+"C"=c3 deg|"D"=c'2e2e2|"E"b2e2d2|"A"c2A2AB|
+"C"=c3 deg|"D"=c'2e2ba|"E"^gab2e2|1"...A"a2z2AB:|2"...A"a4cd|]
+T:Finish at end of A part, as shown below.
+\bigskip
+"A"e4 a2|"F#m"e3 dc2|(3d"G"ed B2 G2|"A"A6|]
+S:https://www.folktunefinder.com/tunes/122056
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/apple-pie-waltz.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

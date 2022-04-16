@@ -1,0 +1,21 @@
+X:210
+T:Scartaglen
+Z: id:dc-polka-34
+M:2/4
+L:1/8
+K:D Major
+AF A2|BG B2|c/B/A/B/ cd|ed B/c/d/B/|!
+AF A2|BG B2|c/B/A/B/ cd|ed d2:|!
+Ad f>g|fe e2|ef ga|ba ag|!
+f>e fg|fe e2|ef g/e/c|ed d2:|!
+S:https://www.folktunefinder.com/tunes/127470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Polkas.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

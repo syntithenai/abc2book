@@ -1,0 +1,26 @@
+X:271
+T: Gao shan diao
+N: C0446
+O: China,Taiwan, Xinzhu
+S: IV, 627]
+N: von Ke ren in Taiwan.
+N: Wenig Verzierungen, Glissandi. Druckfehler: T.2 analog zu T.6 ergaenzt.
+R: Shange, Kejia shange, Dashan ge]
+M: 2/4
+L: 1/16
+K: A
+z4c2c2f2f2c2c2 | f2aba8
+c2^e2 | f2abf2c2c6^e2 | f2a2c2c2a2^e2f8 | c8
+z4c2f2f2a2c2c2c2 | c2a2a8c4
+f2abf2c2-c6^e2 | f2a2c2c2a2^e2f8 | c8
+S:https://www.folktunefinder.com/tunes/112698
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, kejia shange, dashan ge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

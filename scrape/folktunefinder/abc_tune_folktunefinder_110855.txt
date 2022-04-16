@@ -1,0 +1,35 @@
+X:4
+T:Bergeret sans roch
+T:(Basse dansse 2)
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+M:3/2
+L:1/2
+T:Bassus
+K:C bass
+c2c|c2F|c2G|d2G|d2G|c2c|F>GA|G2G|
+%
+c2c|c2F|c2G|d2d|c2c|c_Bc|AG2|c2z:|
+%
+c2c|c2c|Fc2|F2z|F2F|_BGA|_BA2|D2z|
+%
+c2c|c2c|Fc2|F2z|c2c|cFc-|cG2|c2z|
+%
+c2c|c2F|c2G|d2G|d2G|c2c|F>GA|G2G|
+%
+c2c|c2F|c2G|d2d|c2c|c_Bc|AG2|c2z|
+%
+c2c|c2F|c2G|d2G|d2G|c2c|F>GA|G2G|
+%
+c2c|c2F|c2G|d2d|c2c|c_Bc|AG2|c2z|]
+%
+S:https://www.folktunefinder.com/tunes/110855
+S:http://www.laymusic.org/music/susato/2/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

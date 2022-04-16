@@ -1,0 +1,22 @@
+X:8
+T:Breeches Full of Stitches
+Z: id:dc-polka-7
+M:2/4
+L:1/8
+K:C Major
+c>d ec|dc ec|c>d ec|dc A2|!
+c>d ec|dc eg|c>d cA|AG G2:|!
+g>a ge|dc de|g>a ge|dc A2|!
+g>a ge|dc de|c>d cA|AG G2:|!
+S:https://www.folktunefinder.com/tunes/127387
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Polkas.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

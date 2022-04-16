@@ -1,0 +1,28 @@
+X:2
+T:Westmorland
+R:Waltz
+O:England
+M:3/4
+K:G
+dc | \
+B3AG2 | F3ED2 | E3FG2 | F4G2 |\
+A3Bc2 | B3cd2 | e3fg2 | f4 ef |\
+g3gg2 | g2d2B2 | c4 B2 | A3B cd | \
+B2G3B | A2F2D2 | EG3 G2 | G4 ::\
+ga | \
+b3ag2 | a3gf2 | g3fe2 | d4 ef |\
+g3fe2 | d2g2B2 | A6 | d4 c2 |\
+B3AB2 | G2d2B2 | c3Bc2 | A3B cd | \
+B2G3B | A2F2D2 | EG3G2 | G4 :|
+S:https://www.folktunefinder.com/tunes/122032
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

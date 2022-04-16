@@ -1,0 +1,33 @@
+X: 2
+T:Loch Tay boat song
+R:Waltz
+M:3/4
+L:1/4
+K:C
+CD|"C"E2D|C2E|"Em"G3|E2C|\
+"F"c2B|A2F|"C"G3|E2C|
+"F"F2G|AGF|"C"G3|"A"E2F|\
+"D"E2D|D2E|"G"F2E|DzC|
+"C"E2D|C2E|"Em"G3|E2C|\
+"F"c2B|A2F|"C"G3|E2C|
+"F"F2G|AGF|"C"G3|"A"E2F|\
+"D"E2C|"G"D2B,|"C"C3|C2C|
+"F"c2B|A2F|"C"G3|E2C|\
+"F"c2B|A2F|"C"G3 -|"C7"G2C|
+"F"c2B|A2F|"C"G3|"A"E2F|\
+"D"E2D|D2E|"G"F2E|D2C|
+"C"E2D|C2E|"Em"G3|E2C|\
+"F"c2B|A2F|"C"G3|E2C|
+"F"F2G|AGF|"C"G3|"A"E2F|\
+"D"E2C|"G"D>CB,|"C"C2D|C3|]
+S:https://www.folktunefinder.com/tunes/122613
+S:http://www.alfwarnock.info/alfs/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

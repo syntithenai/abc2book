@@ -1,0 +1,26 @@
+X:34
+T: Der Markgraf von Backenweil
+N: Q0013
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kreis
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+R: Ballade, Krieg, Gefangenschaft, Ehe, Heimkehr
+M: none
+L: 1/8
+K: F
+C2 | F2E2F2GA | B2A2G2
+AG | F2C2F2F2GAB2A2G2z2
+c3B | A2G2F2F2G2B2 | A4G4F2z2
+G4 | F2E2D2C3DCC | F2G2AFG2z2
+c3B | A2G2F2F2GB | A4G4F2z2
+S:https://www.folktunefinder.com/tunes/109972
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, krieg, gefangenschaft, ehe, heimkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

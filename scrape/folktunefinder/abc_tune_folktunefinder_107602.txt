@@ -1,0 +1,28 @@
+X: 8
+T:The Woman of the House
+R:reel
+D:Conal O'Grada: The Top of Coom
+Z:id:hn-reel-250
+M:C|
+K:G
+DBBA ~B3A|GB~B2 eBdB|BAGB A2 (3Bcd|eB~B2 eBdB|
+DBBA ~B3A|GA (3Bcd eBdB|GABG A2GA|BGAG EG~G2:|
+|:~f3d eB~B2|eBgB eB~B2|~f3d edBd|eaag ~a3g|
+~f3d ed (3Bcd|~g3e dBBA|GABG A2GA|BGAG EG~G2:|
+P:Variation
+~B3A ~B3A|GA (3Bcd egdB|A2GB ABcd|eB~B2 eBdB|
+GBBA BdBA|GB~B2 egdB|~G3B A2GA|BGAG EG~G2:|
+|:~f3d eB (3Bcd|eBgB eB~B2|~f3d eB~B2|eaag abag|
+~f3d eB~B2|~g3e dBAB|~G3B A2GA|BGAG EG~G2:|
+% Output from ABC2Win  Version 2.1 i on 2/27/2000
+S:https://www.folktunefinder.com/tunes/107602
+S:http://www.chivalry.com/iband/Iband-feb27-00.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

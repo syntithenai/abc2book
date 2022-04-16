@@ -1,0 +1,27 @@
+X:230
+T:Just as the Sun was Setting
+% Nottingham Music Database
+S:John Kirkpatrick
+M:3/4
+L:1/4
+K:Am
+E|"Am"A3/2B/2A|"Am"e2a|"Em"g3/2a/2g|"Em"e2d|"Am"c3/2B/2A|"G"BAG|"F"A3/2B/2A|\
+"E7"E2E|
+"Am"A3/2B/2A|"Am"e2a|"C"g3/2a/2g|"Em"e2d|"Am"c3/2B/2A|"E7"e3/2d/2e|"Am"A2"G"G|\
+"Am"A2e|
+"Am"a3/2b/2"B7"a|"E7"^g2e/2^f/2|"G"g3/2a/2"A7"g|"D"^f2d/2e/2|"F"f3/2g/2"G7"f|\
+"C"e2d|"F"c3/2d/2c|"E7"B2E|
+"Am"A3/2B/2A|"Am"e2a|"C"g3/2a/2g|"Em"e2d|"Am"c3/2B/2A|"E7"e3/2d/2e|"Am"A2"G"G|\
+"Am"A2||
+S:https://www.folktunefinder.com/tunes/109226
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/nmd/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

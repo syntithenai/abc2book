@@ -1,0 +1,24 @@
+X:10
+T:All the Rage
+M:6/8
+L:1/8
+Q:180
+K:A
+Bcc cBA|Bcc c2A|FAA EAA|cBA B2A|Bcc cBA|Bcc c2e|cBA BAG|A3 A2B|
+W: A D A B7 E7 A F#m A E7 A
+Bcc cBA|Bcc c2A|FAA EAA|cBA B2A|Bcc cBA|Bcc c2e|cBA BAG|A3 A2G|
+W: A D A B7 E7 A F#m A E7 A
+FAA EAA|FAA E2A|AFA BAB|cec B2A|FAA EAA|FAA E2e|cBA BAG|A3 A2G|
+W: D A D A D B7 C#m E7 D A D A A E7 A
+FAA EAA|FAA E2A|AFA BAB|cec B2A|FAA EAA|FAA E2e|cBA BAG|A3 b3|
+W: D A D A D B7 C#m E7 D A D A A E7 A B7
+S:https://www.folktunefinder.com/tunes/106680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/tullochgorm/jigs.abc
+S:http://www2.redhawk.org:8080/irish/tullochgorm/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:5206
+T:Fieldtown Processional
+% Nottingham Music Database
+S:Fieldtown
+P:AABAAB
+M:4/4
+L:1/4
+K:G
+P:A
+G/2A/2|\
+P:segno
+"G"BA BG|"Am"AA A2|"D7"cB/2c/2 Ac|"G"BG "D7"G2|"G"B/2c/2d "C"ef|"G"gd "C"ec|\
+"G"BG "D7"AF|"G"G2 G:|
+P:B
+d|"G"g2 gf|"C"fe e2|"A7"a3/2b/2 ag|"D7"fd d2|"G"gf gf|"C"ed eg|"D"fd "A7"e^c|\
+"D7"dc 
+P:D.S.
+BA||
+S:https://www.folktunefinder.com/tunes/123989
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

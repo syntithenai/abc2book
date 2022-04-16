@@ -1,0 +1,29 @@
+X:11485
+T:Mueira
+R:Mueira
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Silvamayor (Valds)
+A:Asturies
+Z:ByD IDEA
+M:3/8
+L:1/8
+Q:3/8=120
+K:C
+|: cBA|GAG|FED|G2 G|cBA|GAG|FED|C3 :|
+|: CDE|F2 F|FED|G2 E|EDE|F2 D|DCD|E2 C :|
+|CDE|F2 F|FED|G2 E|EDE|FED|B,CD|C3|
+S:https://www.folktunefinder.com/tunes/99267
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

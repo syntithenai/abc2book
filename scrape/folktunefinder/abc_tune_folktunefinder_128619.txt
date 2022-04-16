@@ -1,0 +1,19 @@
+X:152
+T:Tom Billy's
+Z: id:dc-jig-132
+M:6/8
+L:1/8
+K:D Mixolydian
+C|DED DEG|AGE C2E|GEE CEE|DEG ABc|!
+DED DEG|AGE C2E|GEE cGE|DED D2:|!
+G|Add dcd|ede dcA|AcA CEG|AGA cAG|!
+Add dcd|ede dcA|AcA GEC|DED D2:|!
+S:https://www.folktunefinder.com/tunes/128619
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

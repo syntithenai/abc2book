@@ -1,0 +1,23 @@
+X:7
+T: Die Meererin (Die schoene Kate)
+N: Q0004B
+O: Suedosteuropa, Jugoslawien, Gottschee, Lichtenbach
+N: Anhaengsel am Ende der zweiten Zeile (Text: Luess she sheinen!)
+R: Ballade, Braut - Werbung, Entfuehrung
+M: 3/4
+L: 1/16
+K: G
+G2B2 | d2^c2d4A2=c2 | B4A4
+G2A2 | B2G2B2d2 | d2cAG2B2 | A4G4
+S:https://www.folktunefinder.com/tunes/109945
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, braut - werbung, entfuehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

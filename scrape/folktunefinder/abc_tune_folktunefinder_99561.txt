@@ -1,0 +1,37 @@
+X:30
+T:Menuet
+R:Menuet
+C:J.S. Bach
+B:Petit livre de musique d'Anna Madgalena Bach
+H:
+N:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=130
+K:F
+V:1
+%%staves {1 2}
+%%MIDI program 6
+!p! A2 (fed^c) | d2 A2 B2 | (^CEGBAG) | F2 (EF D2) |
+!mf! F2 (BA)(dc)| !uppermordent! f2 (edcB) | (AB/c/) F2 E2 |1 F6 :|2 F6 ||:
+!f! a2 (Fagf) | (e/f/g) c4 | !mf!  f2 (Dfed) | (^c/d/e) A4 |
+!p! A=B^cdef | ge^c_bag | (f/e/d) e2 ^c2 |1 d6 :|2 d6 |]
+V:2
+%%MIDI program 6
+D,4 E,2 | F,4 G,2 | A,4 A,,2 | D,2 A,,2 D,,2 |
+D,2 =C,2 B,,2 | A,,4 E,2 | F,2 A,,2 C,2 |1 F,,2 (F,E,D,^C,) :|2 F,2 C,2 F,,2 ||:
+F,2 A,2 B,2 | C3 G,E,C, | D,2C,2B,,2 | A,,=B,,^C,D,E,F, |
+G,2 E,2 ^C,2 | A,,2 A,2 ^C2 | D2 G,2 A,2 |1 D,2 D,,A,,D,E, :|2 D,2 A,,2 D,,2 |]
+S:https://www.folktunefinder.com/tunes/99561
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Rhythm Menuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

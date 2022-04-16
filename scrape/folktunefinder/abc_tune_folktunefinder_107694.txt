@@ -1,0 +1,24 @@
+X:325
+T: Berwick Jockey
+S: "Roche Collection of Traditional Irish Music" [II/26/261]
+L: 1/8
+M: 9/8
+R: slip jig
+K: D
+A2A AGF AGF | A2A AGF Bcd |
+ABA AGF AGF | B2E E2F G2B :|
+A2D D2d AGF | A2D D2E F2B |
+A2D D2d AGF | G2E E2F G2B |
+ABc ded cBA | d2F F2G A2B |
+A2D D2d AGF | B2E E2F G2B |]
+S:https://www.folktunefinder.com/tunes/107694
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

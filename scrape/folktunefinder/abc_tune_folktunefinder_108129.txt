@@ -1,0 +1,33 @@
+X: 80
+T: Colored Aristocracy
+C: R-36
+C: Old-Time
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+D2E2F2 |: "G"G3G- GED2| G6 A2| "Em"B2Bc BAG2| E6 z2|
+          "C"e3f gfe2| "G"d4 B4 |1 "A7"A2B2c2^c2| "D7"d2=c2B2A2:|2 "D7"BABd- dBA2| "G"G6 |]
+\
+d2| "G" g3g- ged2| "Em"e6 d2| "C"e2ef e2d2| "Em"B6 z2|
+    "C"e3f gfe2| "G"d4 B4| "A7"A2B2c2^c2| "D7"d2^d2e2f2 |
+    "G" g3g- ged2| "Em"e6 z2| "C"d2df e2d2| "Em"B6 z2|
+    "C"e3f gfe2| "G"d4 B4| "D7"BABd- dBA2| "G"G6 DE |]
+%%text 9/1/98.  Also known as "Southern Aristocracy".
+%%vskip 1cm
+%%textfont       Times-Roman 13.0
+%%text R-36, "Reel de Montreal" same as R-41.
+%%textfont       Times-Roman 9.0
+S:https://www.folktunefinder.com/tunes/108129
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_1_47.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_1_47.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

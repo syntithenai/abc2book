@@ -1,0 +1,37 @@
+X:13342
+T:Polka, by Jubin. TLY.068
+M:2/4
+L:1/16
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:Polka
+O:England.
+A:Lancashire.
+N:End of B is marked D
+H:1860.
+Z:Taz Tarry.
+K:G
+c2(3cdc A2e2|d2d2 b3g|f2f2 a3f|g>fga b2g2|c2(3cdc A2e2|d2d2 b3g|!
+f2f2 e3f|[g2B2][g2B2][g2B2]:|
+f2(3fgf) a2d2|d2^c2 c4|g2 (3gag) b2c2|e2d2 d4|!
+b2(3bc'b e'2b2|b2 a4 f2|a2 g4 e2|fefg a2A2|
+f2(3fgf) a2e2|d2=c2 c4|!
+g2 (3gag) b2^c2|e2d2 d4|b2(3bc'b d'2b2|b2 a4 f2|a
+2 g4 e2|d2d2d2||!
+G2|.c2.e2.g2 (3cdc)|B2d2=f2 G2|B2d2f2 (3aba|g2 e4 G2|c2e2g2 (3e^fe)|d2 =
+f4 (3ded)|!
+c2e4 (3cdc)|B2 d4 G2|
+c2e2g2 (3cdc)|B2d2f2 G2|B2d2f2 (3aba)| g2c2e2 G2|!
+c2e2g2 (3cdc)|B2d2f2 (3aba|g2B2d2 (3ded)| d2f2d2|]
+S:https://www.folktunefinder.com/tunes/116387
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

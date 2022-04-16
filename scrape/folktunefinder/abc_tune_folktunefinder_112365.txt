@@ -1,0 +1,22 @@
+X:110
+T:Margaret's Waltz
+M:3/4
+K:A
+L:1/8
+c2|<|E3 F AB|c4 c2|BA F2 A2|B4 c2|\
+E3 F AB|c3 d e2|c4 B2|A4 :|
+cd|e3 f ge|a4 a2|fe d2 f2|e4 cB|\
+A3 B cd|e4 c2|BA F2 A2|B4 cd|
+e3 f ge|a3 g f2|e2 d2 c2|B4 c2|\
+E3 F AB|c3 d e2|c4 B2|A4 |>|
+S:https://www.folktunefinder.com/tunes/112365
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

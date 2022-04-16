@@ -1,0 +1,26 @@
+X: 3
+T:Fragment of untitled tune. ST.03
+M:6/8
+L:1/8
+Q:80
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Misc
+O:England
+A:Staffordshire
+N:From p.17,fragment of tune, title unknown.
+N:key is guesswork - no key signature legible on ms.
+Z:vmp.Tim Willets
+K:D
+"No Key Sig. in MS"GEcd2"F"A|(GE)ce2(A/2F/2)|\
+(GE)c (df)A|(Af)e d-FA|GEcd3|]
+S:https://www.folktunefinder.com/tunes/104115
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Misc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:87
+T: Xiao nxu
+N: C0110
+O: China,Hubei, Tianmen
+S: I, 430]
+N: aufgeschrieben im Modus Zhi. Soll aber Gong sein. Endet S. 431
+N: oben 1. Takt.  Handschriftlich in die Noten eingetragene Form:
+N: a-a1-b-a2-a3.
+R: Shange, Tiange, Haocaoge. Fun suku]
+M: 2/4
+L: 1/16
+K: D
+deAAdeA2 | ded2A4
+A2d2deA2 | ded2A4
+FAAAGAA2 | AdGAA2FA | ABAFD4
+FAFAFAAB | AdAFD4
+deAAd2ed | ded2A3
+d | ded2deA2 | ded2A4
+FAAAFAAF | FAFAAAFA | ABAFD3
+d | FA2AF2F2 | ABAFD4
+Bdedd2ed | ded2A4
+A2=cddcAc | ded2A3
+d | FA2AF2A2 | FD2AAGFA | ABAFD4
+F2AdFAFA | ABAFD4
+d2ded2A2 | edd2A4
+e4d2e2d2B12 | B4
+FAA2ABAG | FAFAAAFA | ABAFD3
+d | A3AAdG2 | ABAFD4
+Bdddd2ed | ded2A3
+d | A2dd=cdde | d2=cdA4
+F2AAAdAG | AdFAFFFA | ABAFD4
+FAAAAdF2 | F2AFD4
+S:https://www.folktunefinder.com/tunes/112514
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tiange, haocaoge. fun suku]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

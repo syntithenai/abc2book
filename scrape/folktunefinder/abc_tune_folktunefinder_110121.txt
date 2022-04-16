@@ -1,0 +1,25 @@
+X:74
+T:The Mask
+C:Henry Playford
+S:Dancing Master 7th Edition, 1688.
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+L:1/8
+M:6/8
+Q:3/8=100
+K:C
+P:A
+|: "C"c/d/ec "G"dBG | "Am"A/B/cE "G7"D2C | "C"E/F/GE "G"G2G | "Am"c/d/ec "G7"d3 |\
+"C"c/d/ec "G"dBG | "Am"A/B/cE "G7"D2C | "C"E/F/GG "F"A/B/cc | "G7"e/f/ge "C"c3 :|
+P:B
+|: "C"e/f/ge "C7"gec | "F"f/g/af "Dm"a2a | "C"e/f/ge "^/"gec | "G"dGG "G7"d3 |\
+"C"e/f/ge "C7"gec | "F"f/g/af "Dm"a3/2g/f | "C"e/f/ge "G"dBG | "C"A/B/cE "^/"C3 :|
+S:https://www.folktunefinder.com/tunes/110121
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

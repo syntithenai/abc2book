@@ -1,0 +1,33 @@
+X:4
+T:Another Fast Packet
+%%staffsep 46
+M:4/4
+L:1/8
+C:Colin Hume, 2007
+N:A dotted hornpipe for Bob Lilley's dance "The Fast Packet".
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=140
+K:G
+P:A
+|: (3DEF | "G"G2 G>A "^/"B>^A B>c | "^/"d>g f>e "^/"d>B G>A | "Em"B2 B>e "G"d>B A>G | "A7"A>B A>F "D"D2 (3DEF |
+"G"G2 G>A "^/"B>^A B>c | "^/"d>g f>e "^/"d>B G>A | "Em"B2 B>e "G"d>B A>G | "D7"A2 G2 "G"G2 :|
+%%vskip 0
+P:B
+z>d | "C"e2 e2 "G"g2-g>B | "Am"c2 c2 "D7"e2 B>c | "G"d2 d>e "Em"d>B A>G | "A7"B2 A2 "D"A2 z>d |
+"C"e2 e2 "G"g2-g>B | "Am"c2 c2 "D7"e2 B>c | "G"d2 d>e "Em"d>B A>G | "D7"A2 G2 "G"G2 z>d |
+%%vskip 0
+P:C
+"C"e>d e>f "G"g2 B>B | "Am"c>B c>d "D7"e2 B>c | "G"d>^c d>e "Em"d>B A>G | "A7"B2 A2 "D"A2 "^/"(3DEF |
+"G"G2 G>A "^/"B>^A B>c | "^/"d>g f>e "^/"d>B G>A | "Em"B2 B>e "G"d>B A>G | "D7"A2 G2 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/110051
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

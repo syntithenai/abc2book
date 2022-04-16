@@ -1,0 +1,41 @@
+X:156
+T:Pibroch of Donald Dubh
+O:scotland
+R:Pipe march
+M:6/8
+K:Amix
+{gef}e>d{B}c {g}f>ga|\
+{ef}e>c{G}c {gcd}c>{g}B{d}A|\
+{gef}e>c{G}c {g}f>ga|\
+{ef}e>c{d}A {gBd}B2{G}A|\
+{gef}e>d{B}c {g}f>ga|\
+{ef}e>c{G}c {gcd}c>{g}B{d}A|\
+{gBd}B2c {Gdc}d>ef|{gef}e>c{d}A {gBd}B2{G}A::
+{gef}e>c{G}c {g}f>d{c}d|\
+{gef}e>c{G}c {gcd}c>{g}B{d}A|\
+{gef}e>c{G}c {g}f>d{c}d|\
+{gef}e>c{d}A {gBd}B2{G}A|\
+{gef}e>c{G}c {g}f>d{c}d|\
+{gef}e>c{G}c {gcd}c>{g}B{d}A|\
+{gBd}B2c {Gdc}d>ef|{gef}e>c{d}A {gBd}B2{G}A::
+{GdG}e2{g}A {GdG}f2A|\
+{GdG}e2{g}A {gcd}c>{g}B{d}A|\
+{GdG}e2{g}A {GdG}f2{g}A|\
+{ef}e>c{d}A {gBd}B2{G}A|\
+{GdG}e2{g}A {GdG}f2A|\
+{GdG}e2{g}A {gcd}c>{g}B{d}A|\
+{gBd}B2c {Gdc}d>ef|{gef}e>c{d}A {gBd}B2{G}A::
+a>e{A}e a>f{e}f|a>e{A}e {gcd}c>{g}B{d}A|\
+a>e{A}e a>f{e}f|{ef}e>c{d}A {gBd}B2{G}A|
+a>e{A}e a>f{e}f|a>e{A}e {gcd}c>{g}B{d}A|\
+{gBd}B2c {Gdc}d>ef|{gef}e>c{d}A {gBd}B2{G}A:|
+S:https://www.folktunefinder.com/tunes/100448
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

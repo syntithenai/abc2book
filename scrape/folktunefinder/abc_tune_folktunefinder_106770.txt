@@ -1,0 +1,25 @@
+X: 1
+T:All the Rage
+R:jig
+M:6/8
+L:1/8
+Q:180
+K:A
+Bcc cBA|Bcc c2A|FAA EAA|cBA B2A|!
+Bcc cBA|Bcc c2e|cBA BAG|A3 A2B|!
+Bcc cBA|Bcc c2A|FAA EAA|cBA B2A|!
+Bcc cBA|Bcc c2e|cBA BAG|A3 A2G|!
+FAA EAA|FAA E2A|AFA BAB|cec B2A|!
+FAA EAA|FAA E2e|cBA BAG|A3 A2G|!
+FAA EAA|FAA E2A|AFA BAB|cec B2A|!
+FAA EAA|FAA E2e|cBA BAG|A3 b3|!
+S:https://www.folktunefinder.com/tunes/106770
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/al/All_the_Rage_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

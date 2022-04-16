@@ -1,0 +1,20 @@
+X:13
+T:the Register
+R:Jig
+M:6/8
+L:1/8
+K:G
+D | G2G GAB | c2c c2B | A2A ABc | d2d d2B | 
+g2g gfe | d2d def | gdc BcA | G3 G2 :|
+ |:d | g2g gfe | d2d def | g2g gfe | d2d d2B | 
+c2c edc | B2B dcB | ABc BcA | G3 G2 :|
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127737
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

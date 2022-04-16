@@ -1,0 +1,24 @@
+X: 15
+T:Little Whare
+M:6/8
+L:1/8
+Q:180
+C:Paul Bond
+K:D
+T:Capo 2
+"C"d2B A2B|"Am"dd2f2f|"Dm"e2AA2A|"G"A3-A2A|
+"C"d2B A2B|"Am"dd2f2f|"Dm"e2dc2d|"G"e3- e2f|!
+"F"g2ab2g|"C"fg a-a2f|"Dm"e2dc2d|"G"e3A2A|
+"C"d2B A2B|"Am"dd2f2f|"Dm"e2B "G"c2A|"C"d3-d2A:||
+S:https://www.folktunefinder.com/tunes/127047
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

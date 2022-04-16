@@ -1,0 +1,22 @@
+X:135
+T:Galway
+Z: id:dc-hornpipe-60
+M:C|
+L:1/8
+K:D Major
+FE|D2FA dAFD|CDEF G2FE|D2FA dcdf|(3efe (3dcB (3ABA (3GFE|!
+D2FA dAFD|CDEF G2FG|AdcB AGFE|D2CE D2:|!
+de|fefg fedc|BABc B2cd|edef edcB|(3ABA ^GB A2 (3ABc|!
+dcde fdAF|GFGA BdcB|AdcB AGFE|D2CE D2:|!
+S:https://www.folktunefinder.com/tunes/100889
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

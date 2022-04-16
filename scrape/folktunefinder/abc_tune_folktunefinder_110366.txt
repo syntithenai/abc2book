@@ -1,0 +1,41 @@
+X:1
+T:Canto, Primo Coro, Canzon septimi toni a 8, from Sacrae Symphoniae (1597)
+C:Giovanni Gabrielli (1557-1612)
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:4/2
+L:1/2
+K:C
+d/d/d/c/Bz |z/d/c/>c/ B/>B/A/>A/ |Gzzz/d/ |d//d//d//d//d/d/e>e |
+f//f//f//f//f/f/eA |A>B^c d2^cd2 |
+M:3/2
+L:1/2
+BB^c |d2d |=ccA |B2z |dde |f>fe |d>d^c |d2z |gge |f>ga |aa2 |
+M:4/2
+L:1/2
+^fa2g2 ^fgg |gg=f2 |ea2^g/^f/ |^g/ag/a2 |z4 |
+z2^cc/c/ |d/>d/ B/B/ =c2 |B/e/>e/e/^c/c//d//e/c/ |d/B//=c//d/B/c/A//B//c/A/ |
+B/A^G/A2 |z4 | z2zz/A/ | A/A/d>BB/B/ |e>cc/c/f>edz//d//e//^f//g>=f e>d c2 Bce |
+d/c/>c/B/AG/G/ |A/B/c zz/c/ |c/d/ezz/e/ |f/>f/e/c/d/>d/c/A/ |B/>B/A G2 |z4 |
+z2zd |Bgez/g/ |d>e^f>g |a/d/d z2 |ee/e/=fg |
+az/e/fd/e c/d/>c/B/e/c/A/ |d/B/G/c/B/A^G/ |A/A/B/^c/d/>d/c |
+z2z/e/e/>e/ |^czz/e/B/=c/ |Bzz/B/B/^c/ |^de^f/g/f |
+M:3/2
+L:1/2
+^g2z |aaa |=g>gg |fff |e>ee |ddd |c>cc |B>cd |e>^f^g |a2^g |
+M:4/2
+L:1/2
+a2=ff/f/ |ffe/a/e |z/a/>f/ g/>e/ fe/ |fzz2 |
+z/a/g//f//e//d//^c/c/d |efe/a/a |H^f2z2 |d/d/d/c/Bz |z2z/d/c/>c/ |
+B/>B/A/>A/G>g |g//g//g//g//g/g/aA |A>B^cd |efe2 |
+^fg2f/e/ |^f/gf/gd |e/e/d/d/cz/g/ |e//d//e//=f//g/>f/eg |Hg4 |]
+S:https://www.folktunefinder.com/tunes/110366
+S:http://www.laymusic.org/music/gabrielli/secondo/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 4/2
+% Has_accompaniment_chords No chords

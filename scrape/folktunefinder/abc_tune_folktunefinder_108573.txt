@@ -1,0 +1,26 @@
+X:7066
+T:Highland Laddie
+S:a set of tunebooks for the Boys Brigade before WW1, NLS Acc.9950
+N:not quite like any other version I've
+N:seen but they're all in the same mode
+M:2/4
+L:1/16
+K:BMin
+% minor/phrygian hexatonic, B-mode C-gap
+BA|d2e2 f2a2|gfed f4  |f2e2 e2de|f2e2 e2
+dB|d2e2 f2a2|gfed f2ef|d2B2 B2AB|d2B2 BB:|
+g2|a2gf g2fe|f2ed f4  |f2e2 e2de|f2e2 e2
+g2|a2gf g2fe|f2ed f2ef|d2B2 B2AB|d2B2 BB:|
+S:https://www.folktunefinder.com/tunes/108573
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

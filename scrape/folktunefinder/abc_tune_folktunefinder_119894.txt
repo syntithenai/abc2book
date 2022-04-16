@@ -1,0 +1,40 @@
+X:1
+T:Frau Nachtigall 
+B:Frau Nachtigall (Straburg - 1928)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:p.3
+M:C
+L:1/4
+Q:1/4=150
+K:Eb
+P:1
+ B, | EE/B,/ EG | FE/D/ E 
+P:2
+B, | GG/F/ GB | AG/F/ G 
+P:3 
+B | E/G/ G/B/ Be | (e>B) B 
+P:4
+f | e>d e/B/ G/F/ | (B,F/) E:|
+W:Frau Nachtigall klein Vgelein so lehr uns all das Singen
+W:fein mit frhlichem Gelingen aus ganzem Herzen singen!
+%
+%
+%
+T:Frau Nachtigall (Kanon)
+%%staves 1 [2 3 4]
+V:1
+ B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf | e>d e/B/ G/F/ | (B,F/) E B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf | e>d e/B/ G/F/ | (B,F/) E ||
+V:2
+z | z4 | z3 B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf | e>d e/B/ G/F/ | (B,F/) E B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf ||
+V:3
+z | z4 |  z4 |  z4 | z3 B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf | e>d e/B/ G/F/ | (B,F/) E B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB ||
+V:4
+z | z4 |  z4 |  z4 |   z4 |  z4 | z3  B, | EE/B,/ EG | FE/D/ EB, | GG/F/ GB | AG/F/ GB | E/G/ G/B/ Be | (e>B) Bf | e>d e/B/ G/F/ | (B,F/) E B, | EE/B,/ EG | FE/D/ EB,||
+S:https://www.folktunefinder.com/tunes/119894
+S:http://geographie.ch/index.php/Frau_Nachtigall_%28abc%29
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

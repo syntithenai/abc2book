@@ -1,0 +1,21 @@
+X:1
+T:Rookery, The
+M:4/4
+L:1/8
+R:reel
+K:Dmix
+|:BGAG EGDG|EGDG EGDE|G2 Bd e2 df|e2 dg edBA|
+G2 GA B2 Bd|e2 ed efga|bgag egge|dBAc BG G2:|
+|:b2 gb a2 ga|b2 gb aged|G2 Bd e2 dg|e2 dg edBA|
+G2 GA B2 Bd|e2 ed efga|bgag egge|d2 Ac BG G2:|
+% Output from ABC2Win  Version 2.1 i on 12/24/20
+S:https://www.folktunefinder.com/tunes/119147
+S:http://www.geocities.com/shanaway1/tunesofthemonth
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

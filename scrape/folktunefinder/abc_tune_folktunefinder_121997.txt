@@ -1,0 +1,25 @@
+X: 335
+T: THE FOX'S SLEEP
+T: Codhladh an sionnaigh
+B: O'Neill's 335
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+K:D
+B \
+| d2 d>c (cB) (AF) | A2 Bc d2 d>c | (cB) AF {A}GF TE>D | D4 z2 A2 |
+| d2 d>c (cB) A>F | A2 B>c {c}d2 d>c | {B}A2 F>D GF EE | D2 z2 z2 ||
+|| A2 \
+| d2 c>d (cd e>f A2 zA | ({e}d>c d).e f>e {d}dc | {e}d2z2z2A2 |
+| d3c cB zA | AF AB/c/ {B}Hd2 d>c | BAF>D GFHEA | D4 z2 ||
+S:https://www.folktunefinder.com/tunes/121997
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0335_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

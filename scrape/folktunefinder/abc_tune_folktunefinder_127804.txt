@@ -1,0 +1,21 @@
+X:88
+T:the Lily
+M:2/4
+L:1/8
+K:D
+dc dA |B2 AG |FA FD| E2 E2 |
+dc dA| B2 AG |FDEF |D2D2 :|
+|:FD AD| F2 FA |FD AD| E2 E2 |
+FD AD |F2 AF |ED EF| D2 D2 :|
+|:dc dA| B2 cd |ef ed|e2 ef |
+gf ed| B2 AF |ED EF |D2 D2:|
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127804
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

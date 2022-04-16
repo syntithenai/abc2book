@@ -1,0 +1,33 @@
+X: 13
+T:Cuckoo,The. ST.13
+M:4/4
+L:1/4
+Q:80
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+N:First bar is unclear on ms. but appears to be similar to bar 5 which I
+N:h
+N:e copied to bar 1.
+Z:vmp.Tim Willets
+K:G
+G>ABG|cedz|g>ed>B|(A/2F/2)(A/2B/2)Az|!
+G>ABG|cedz|g>ed>B|{B}(A/2G/2)A/2B/2Az|!
+gag>f|egdz|c>edc|B>cdz|!
+g>agf|egdz|cABG|FAA2|!
+G>ABG|cedz|g>ed>B|(A/2G/2)(A/2B/2)G2|!
+.g/2d/2 z .g/2d/2 z|.g/2d/2 z .g/2d/2 z|\
+G>ed>B|{B}(A/2G/2)(A/2B/2)G2|]
+S:https://www.folktunefinder.com/tunes/104125
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

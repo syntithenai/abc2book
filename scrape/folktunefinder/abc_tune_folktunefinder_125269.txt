@@ -1,0 +1,24 @@
+X: 40
+T:Barley Cakes
+M:6/8
+L:1/8
+Q:224
+C:"Bremner, c. 1757"
+R:Jig
+N:Dance: Barley Bree (Book gives AABBB, I do AABBA
+K:G
+|:  c | B2G  (B/2c/2d)B | A2=F (A/2B/2c)A | B2G  (B/2c/2d)B | d3 g3 | !
+        B2G  (B/2c/2d)B | A2=F ABc | dcB cBA | G3 G,2 :| !
+|:  d | gag fgf | e2d B3 | gfe f2g | a3 d3 | !
+        c2a B2g | ABG FED | GAB AGF | G3 G2 :| !
+S:https://www.folktunefinder.com/tunes/125269
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

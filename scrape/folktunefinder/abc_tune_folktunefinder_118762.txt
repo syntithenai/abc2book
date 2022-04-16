@@ -1,0 +1,25 @@
+X:31
+T:La soyotte de Neuville [ok]
+R:Polka
+S:
+N:le rythme n'est probablement pas exactement ainsi
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=135
+K:C
+A/ |: F2>>A2 | F2>>A2 | ff gf | (e2e)A | e2>>A2 | e2>>A2 | e>e f>e |1 d2 d>A :|2 d2<<z2 ||:
+ff fe/f/ | gf e2 |1 ee ee | de fd :|2 ee ed/e/ | fed2-|d2>>G2 ||
+S:https://www.folktunefinder.com/tunes/118762
+S:http://anamnese.online.fr/abc/champagne.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

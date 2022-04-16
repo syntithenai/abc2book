@@ -1,0 +1,28 @@
+X: 495
+T: THE SEIGE OF ROCHELLE
+B: O'Neill's 495
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Spirited"
+N: Collected by "(Balfe)"
+N: Typo: Bar 6 obviously needs e6 rather than e4.
+M: C
+L: 1/8
+K:C
+((3GAG) \
+| .^F2.G2 .c2.d2 | e6 (fe) | .d2.^c2 .d2.e2 | (d4 g2) ((3GAG) |
+| .^F2.G2 .c2.d2 | e4 (^fg) | .g2Be .d2AB | G6 ||
+|| ((3GAG) \
+| .^F2.G2 =f2e2 | d6 ((3GAG) | ^F2G2 =f2e2 | d6 ((3GAG) |
+| ^F2G2 c2e2 | (a4 gfed) | (fe)(Bc) (ed)(AB) | c6 |]
+S:https://www.folktunefinder.com/tunes/127652
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0487-0500_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0495_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

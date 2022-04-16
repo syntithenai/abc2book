@@ -1,0 +1,26 @@
+X:362
+T: Xiu he bao
+N: C1334
+O: China,Shaanxi, Zhenba
+S: MM, Seite 20, 3]
+N: Die Stuecke sind meist uebersteuert, also verzerrt.
+N: Vereinzelt Verzierungen.
+R: Xiaodiao. Xin minge]
+M: 2/4
+L: 1/32
+K: A
+f4a2b2a4b4 | a4f12 | c4a4b2a2b4 | c16
+e4c4c4b4 | e4c4c2a2bcb2 | a4b4a4f4 | f16
+f4a4c4b4 | a4b4a8
+a4a4b4b4 | e4c4c2a2bcb2 | a4b4a4f4 | f16
+S:https://www.folktunefinder.com/tunes/112789
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

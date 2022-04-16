@@ -1,0 +1,32 @@
+X:1
+T:L'autrier m'en aloie
+C:Anonyme (mdival)
+N:jouer en boucle, avec ornementations
+D:Alla Francesca - Richard Coeur de Lion
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:5/4
+L:1/8
+Q:1/8=130
+K:A
+(3B-Bf (3e-ef (6e/d/c/-c/B/-B/ (3AAB c2 |\
+(3B-Bf (3e-ef (6e/d/c/-c/B/-B/ (3ABc B2 :|
+(3BBB  (3c-cd (6e/d/c/-c/B/-B/ (3AAB c2 |
+M:4/4
+L:1/8
+(3Acd  (3ecB (6A/-A/-A/-A/B/c/ B2 |
+M:5/4
+L:1/8
+(3BBB  (3c-cd (6e/d/c/-c/B/-B/ (3AAB B2 |
+(3BBA  (3B-Bc (6e/d/c/-c/B/-B/ (3ABc B2 |]
+S:https://www.folktunefinder.com/tunes/99529
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 5/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

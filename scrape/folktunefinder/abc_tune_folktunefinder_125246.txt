@@ -1,0 +1,24 @@
+X: 17
+T:Drummond Castle
+M:6/8
+L:1/8
+S:AABB
+R:Jig
+O:James Hunter
+B:The Fiddle Music of Scotland
+K:Am
+E|"Am"A>BA a3|"Am"a>ge "G"g3|"C"c2 c e>dc|"G"B>dg dBG|!
+"Am"A>BA a3|"Am"a>ge "G"g3|"C"e>ge "G"deg|"Em"edB A2 :||!
+B|"C"c2 c c>ec|"G"d2 d d>ed|"Am"c2 c e>dc|"G"B>dg dBG|!
+"C"c2 c e>dc|"G"d>eg "F"a2 g|"C"e>ge "G"deg|"Em"edB "Am"A2:||!
+S:https://www.folktunefinder.com/tunes/125246
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

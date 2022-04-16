@@ -1,0 +1,32 @@
+X:1
+T:The Creel of Turf
+R:Jig
+S:Tommy Peoples, Donegal (fiddle)
+D:Demo tape - 197
+N:As played
+Z:Bernie Stocks
+M:6/8
+K:D
+EBB {d}BAG | FDF AGF | (3.B.B.BB-Bcd | AGF ~E2D | ~B3 {d}BAG | FDF AGF |
+EBB EBd | AGF ~E2D | EBB {d}BAG | (3.F.F.DF AGF | (3.E.E.EB EBd | AGF ~E2D |
+EB(3.B.B.B {d}BAG | FDF AGF | EBB EBd | AGF ~E2A || Bee {f}ede | ~f3 dBA |
+~B2e ede | ~f3 d2A | EB(3.e.e.e ede | ~f3 dBA | ~B3 Bcd | AGF ~E2A :|
+S:https://www.folktunefinder.com/tunes/124786
+S:http://ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book3.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book3.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://www.firepowr.com/abc/Book3.abc
+S:http://www.firepowr.com/abc/Book3abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book3.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book3.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

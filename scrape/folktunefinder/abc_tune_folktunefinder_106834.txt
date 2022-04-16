@@ -1,0 +1,20 @@
+X:47
+T:Squirrel in the Tree
+R:jig
+M:6/8
+K:G
+d2c|: "G"BBB B2B| B2A GAB| "C"ccc c2B| c2d efg|
+      "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bdc:|2 "G"GBd "D"b2a| "G"g3 d2|]
+|:\
+g| "G"bbb b2b| b2a "C"gfe| "G"ddd d2e| d2c Bdg|
+   "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bd:|2 "G"GBd "D"bfa| "G"g3 g2|]
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/106834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1 % 14
+T:Almer
+C:traditionell
+R:Jodler
+A:Salzkammergut
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000, s.22
+N:im buch ganz in G, zweistimmig, erster ton:1.stimme: h', 2.stimme d''
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G 
+P:1
+B2 |\
+cDFA df | Hg3fed | cDFA cB | GBG DBB |\
+cDFA df | Hg3fed | cDFA cB | G2z2 :|
+S:https://www.folktunefinder.com/tunes/109670
+S:http://simonwascher.info/TradArchiv_iodler/almer.cDFAdfHg3fed.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

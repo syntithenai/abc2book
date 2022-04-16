@@ -1,0 +1,31 @@
+X:1
+T:My Darling Asleep
+C:Traditional
+S:Davy Muir, Glasgow
+N:Play two times through
+N:The Armagh Set, figure 2, tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+M:6/8
+L:1/8
+K:D
+fdd cAA | BAB A2 G | FAA def | gfg eag |
+fdd cAA | BAB A2 G | FAA def | gec d3 :||
+FAA BAG | FAA BAG | FAA def | gfg eag |
+fdd cAA | BAB A2 G | FAA def | gec d3 :||
+S:https://www.folktunefinder.com/tunes/103102
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

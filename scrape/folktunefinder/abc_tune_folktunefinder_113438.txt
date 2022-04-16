@@ -1,0 +1,36 @@
+X:68
+T:Sweet Genevieve
+% Four-part piano arrangement for standard notation.
+C:Geo. Cooper/Henry Tucker Arr. by Henry S. Sawyer
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+"@@Andante"F2 | d > ^c d2 e2 | d > ^c =c2 F2 | c > =B c2 d2 | (3cB G F2
+w:1.~O Gen-e-vieve, I'd give the world To live a-gain the love\-* ly past!
+w:2.~Fair Gen-e-vieve, my ear-ly love, The years but make thee dear\-* er far!
+V:2 clef=treble
+D2 | F > =E F2 G2 | F > =E _E2 _E2 | E > D E2 F2 | (3ED E D2
+V:3 clef=bass
+%%MIDI transpose -24 
+%%jsastem=dn
+b2 | b > b b2 b2 | a > a a2 c'2 | a > ^g a2 a2 | (3f-f g b2 
+V:4 clef=bass 
+%%MIDI transpose -24 
+%%jsastem=dn
+B2 | B > B B2 B2 | f > f f2 a2 | f > f f2 f2 | (3B-B B B2  
+V:1
+F2 | d > ^c d2 f2 | f > =e e2 e2 | d > ^c d2 F2 | c > B B2 z
+S:https://www.folktunefinder.com/tunes/113438
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

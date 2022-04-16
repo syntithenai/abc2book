@@ -1,0 +1,21 @@
+X: 26
+T:Vittrad
+M:4/4
+L:1/8
+C:Stefan Brisland-Ferner
+S:Garmarna
+K:D
+|:E3FG2B2|A2GFE4|d2cde2c2|dcBA B4|B2ABc2cA|B2eBG4|F2FGA2AF|G2BGE4:|
+e2ede2B2|c2cAB4|E2GAB2B2|c2BA Bde2|e2ede2B2|c2cAB4|G2BGF2AF
+% output from abc2abc
+S:https://www.folktunefinder.com/tunes/112197
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:108
+T:Rumford Assembly
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=115
+C:Arranged Colin Hume, 2003
+H:The Universal Magazine of Knowledge and Pleasure, December 1754
+K:G
+P:A
+|:"G"G B2 d- | "^/"d g2 b | "D7"dcBA | "G"B/2G/2F/2G/2 "D7"AD |\
+"G"G B2 d- | "^/"d g2 b | "D"f/2g/2 a "Am"cB | "D"B A3 :|
+P:B
+|:"A7"A ^c2 e- | "^/"eg2 b | "D"ag "A7"fe | "D"f/2d/2^c/2d/2 "A7"eA |\
+"A7"A ^c2 e- | "^/"eg2 b | "D"a g/2f/2 "A7"Te2 | "D"d4 :|
+%%vskip 0
+P:C
+| "G"G B2 d- | "^/"d g2 b | "D7"dcBA | "G"B/2G/2F/2G/2 "D7"AD |\
+"G"G B2 d- | "^/"d g2 b | "D7"dc BA | "G"G2 G,2 |]
+S:https://www.folktunefinder.com/tunes/110155
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

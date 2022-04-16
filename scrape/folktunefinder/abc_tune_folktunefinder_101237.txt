@@ -1,0 +1,21 @@
+X:47
+T:Sherlock's
+R:hornpipe
+M:4/4
+L:1/8
+K:Gmaj
+(3DEF|GA (3GFE DG,B,D|GFGA Bdgf|edcB (3ABA GA|BAGF E2 (3DEF|
+GA (3GFE DG,B,D|GFGA Bdgf|edcB (3ABA GA|BGGF G2::
+Bc|d^cde dBGF|GBd^c dgfg|ef (3gfe dBGB|(3cBA BG A2 (3DEF|
+GA (3GFE DG,B,D|GFGA Bdgf|edcB (3ABA GA|BGGF G2:|
+S:https://www.folktunefinder.com/tunes/101237
+S:http://music.gordfisch.net/oregans/assets/abc/hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

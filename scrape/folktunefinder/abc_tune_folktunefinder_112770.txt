@@ -1,0 +1,46 @@
+X:343
+T: Cai Cha
+N: C1235
+O: China,Yunnan
+S: II, 31]
+N: Besonders in Jiangsu verbreitet. Wird in der Lokaloper benutzt.
+N: Unter dem Titel "Cai Cai" findet man ca. 900 Aufnahmen.
+N: Cf. auch Nr. 130.
+N: Wenig Verzierungen.
+R: Wuge, Huadeng. Xin minge]
+M: 2/4
+L: 1/32
+K: C
+c4c4c4A2G2 | c4c2A2c4d4 | e16
+e8g4e4 | d2e2d2c2A4G4 | c12A4
+c4G4e4g4 | d4e4d4c4 | A12G4
+c4A4d4c4 | A4A2B2A4G4 | A16
+c4A4A4G4 | c4c2A2c4d4 | e16
+e4d4e4g2e2 | d2e2d2c2A4G4 | c12A4
+c4G4e4g4 | d4e4d4c4 | A12G4
+G4A2G2A6G2 | d2e2d2c2A4G4 | A16
+c4c4c4A2G2 | c4c2A2c4d4 | e16
+E8e4g2e2 | d2e2d2c2A4G4 | c8c4A4
+c4A4e4g4 | d4e4d4c4 | A12G4
+c4A4d4c4 | d2e2d2c2A4G4 | A16
+c4A4A4G4 | c4c2A2c4d4 | e16
+e8e4g2e2 | d3ed2c2A4G4 | c8c4A4
+c4A4g4A4 | A4e4d4c4 | A12G4
+c4A4d4c4 | d4d2c2A4G4 | A16
+c4A4A4G4 | c4c2A2c4d4 | e16
+e8e4g2e2 | d3ed2c2A4G4 | c8c4A4
+c4A4g4A4 | A4e4d4c4 | A12G4
+G8A4G4 | d2e2d2c2A4G4 | A16
+S:https://www.folktunefinder.com/tunes/112770
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, huadeng. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

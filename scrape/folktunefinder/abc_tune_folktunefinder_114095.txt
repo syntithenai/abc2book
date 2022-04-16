@@ -1,0 +1,25 @@
+X:29
+T:Gary Owen
+M:6/8
+Q:1/8=300
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+g/f/|:edc BAG|B>cB Bgf|edc BAG|A>BA Agf|
+edc BAG|B>cB B2d|def gdB|1 A>BA A2 g/f/:|2 A>BA A Bc|
+|:d2B d2B|d2B dgf|e2c e2c|e2c e2f|
+g2a b2a|gfe dBc|def gdB|1 A>BA A Bc:|2 A>BA G2||
+S:https://www.folktunefinder.com/tunes/114095
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

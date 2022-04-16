@@ -1,0 +1,33 @@
+X:200
+T: Song fu can jun
+N: C0324
+O: China,Jiangsu, Gaoyou(Nord)
+S: III, 461, 2)]
+N: typische Tonart fuer den Norden dieser Provinz. Die Melodie
+N: existiert auch in der Jiangsu-Oper "Huai Ju"
+N: Notiert ist die Melodie fuer die ersten beiden Strophen. Die letzte
+N: Phrase wird in der dritten ersetzt durch:
+N: -6_.-6-6_-6_1__2__  -6_.-6-6_-6_1__2_2_
+N: 2__5_3_5_2__3_  2__5_3_5_2__3_  2_1_-6__5___  ^____ //
+N: Vereinzelt Verzierungen. Vorspiel weggelassen.
+R: Xiaodiao, Shidiao, Jianjianhua diao. Geming lishi minge]
+M: 2/4
+L: 1/32
+K: F
+c3c=B2c2f2d2d2c2 | =B2c2f2d2c8
+c3cB2c2f2d2d2c2 | =B2c2f2d2d2c2c2A2 | c2A2G2F2D8
+D3DD2D2F4G4 | G4c2A2c2G2G2F2 | G3FD2C2C8
+D3CD2F2G6A2 | c3fd2c2G8
+D3DD2D2F4G4 | G4c2A2c2G4F2 | G3FD2C2C8
+S:https://www.folktunefinder.com/tunes/112627
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, jianjianhua diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

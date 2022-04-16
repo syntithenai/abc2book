@@ -1,0 +1,28 @@
+X: 190
+T: Pipe on the Hob
+S: Bernie Waugh
+R: Jig
+M: 6/8
+L: 1/8
+K: D
+|:A|\
+"D"dcd "Am"A2G|"D"FDD D2D|"C"EDE "Am"=cdc|"D"EDD D2A|
+"D"d=cB "C"cBA|"G"BAG "Bm"FED|"C"DCD "Am"=cdc|"D"EDD D2:|
+a/g/|\
+"D"f2d dcd|f2d dcd|"Am"e2=c cBc|e2=c cBc|
+"Bm"f2d dcd|f2d dcd|"C"ede "Am"a2g|"D"fdd d2a/g/|
+"D"fdd dcd|Add fed|"Am"e=cc cBc|G=cc edc|
+"D"fef "Em"gfg|"F#m"aba  gfe|"Em"gfe "G"d=cB|"D"Add d2|]
+S:https://www.folktunefinder.com/tunes/113199
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

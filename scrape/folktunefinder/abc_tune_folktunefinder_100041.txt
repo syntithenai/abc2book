@@ -1,0 +1,22 @@
+X: 4
+T:The Orphan
+R:Jig
+Z:Added by Alf Warnock
+M:6/8
+L:1/8
+K:Em
+|E3 EDB,|GFG A^GA|BGB AFA|GEF EDB,|
+A,3 EDB,|GFG A^GA|[1 BGB AFA|GEE E3:|[2 BdB AdA|GEE E3
+|:ege dBA|GAB d2d|edB AGA|BGE DB,A,|
+B,EE EDB,|GFG A^GA|BGB AFA|GEE E3:|
+S:https://www.folktunefinder.com/tunes/100041
+S:http://www.alfwarnock.info/alfs/abc/accw01.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

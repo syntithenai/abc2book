@@ -1,0 +1,25 @@
+X:8
+T:Anthoinette
+M:3/4
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:gaillarde
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:C
+A2 d2 G2 A4 A2 | d2 d2 c2 B4 A2 :: c2 c2 B2 A3A G2 | G2 F2 F2 E4 z2 ::
+D2 C2 D2 E3F G2 | A2 F2 G2 E4 D2 ||
+S:https://www.folktunefinder.com/tunes/104048
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Gaillarde
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

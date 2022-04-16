@@ -1,0 +1,29 @@
+X:44
+T:Good Humour
+C:Colin Hume, 1990
+L:1/8
+M:6/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=118
+N:There is another tune called "Good Humour": the suggested tune for "Circassian Circle" in CDM1.
+K:D
+P:A
+|: "D"DFA "^/"d2A | "G"B3 "D"A3 | "Bm"DEF "Em"G2F | "A"E3- "A7"EFG |\
+"D"A2F "D7"A3 | "G"B2G "Em"B3 | "A"cde "E7"dcB |1 "A"ABA "A7"GFE :|2 "A"A3- "A7"A2 |
+%%vskip 0
+P:B
+|: G | "D"F^EF "D7"DFA | "G"B3 "D"A3 | "E"B^AB "E7"^G=AB | "A"c3- "A7"c^Bc |\
+"D"dAF "D7"DFA | "G"B3 "D"A3 | "E7"Bed "A7"cBc | "D"d3- "^/"d2 :|
+S:https://www.folktunefinder.com/tunes/110091
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

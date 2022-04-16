@@ -1,0 +1,26 @@
+X: 151
+T: Sheehan's Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+(3DEF|:\
+"G"G2BG DGBG|"D"ABcA "G"~BGGB|"Am"A^GAB cBA=G|"C"EAAG "D"~FDEF|
+"G"G2BG DGBd|"Am"cBAB cdef|"Em"gedB "C"~c2Bc|"D"dBcA "G"BGG2:|
+|:\
+"G"g2bg dgbg|gbag "Bm"fdde|"F"=f2af cfaf|=fagf "D"ede^f|
+"G"g2bg dgbg|gbag "D"fdef|"Em"gedB "C"~c2Bc|"D"dBcA "G"BGG2:|
+S:https://www.folktunefinder.com/tunes/113160
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

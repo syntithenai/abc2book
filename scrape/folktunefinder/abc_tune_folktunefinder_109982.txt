@@ -1,0 +1,24 @@
+X:44
+T: Der Tannhaeuser
+N: Q0015B
+O: Mitteleuropa, Schweiz, Luzern, Entlebuch, Escholzmatt
+N: Grundton in der zweigestrichenen Oktave
+R: Ballade, Wallfahrt, religioes
+M: 3/4
+L: 1/8
+K: C
+G, | CB,C3D | B,^F,G,3
+C | FGFEC2 | C2D2z
+C | EFG3C | DEF3
+C | ECD2C2 | B,2C2z
+S:https://www.folktunefinder.com/tunes/109982
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, wallfahrt, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:174
+T: Song qing lang
+N: C0295
+O: China,bei Liaoning, Haicheng
+S: III, 272, 2)]
+N: Diese Variante ist im Norden haeufiger. Die Mengjiangnu ist
+N: insbesondere durch die 6te Stufe beim dritten Phrasenende
+N: charakterisiert: 2, 1) - 5 - 6 - 5, oder Re-So-La-So).
+N: Andere Weisen enthalten gewoehnlich nur 2-5-5
+R: Xiaodiao, Shidiao, Mengjiangn diao. Nann liqing]
+M: 2/4
+L: 1/16
+K: F
+F2F2FDCD | F8 | c2dfdcA2 | G8
+c2GAc2cA | G3CA4 | GAGFDCFD | C8
+DFCDF2FG | A2GAc3A | G2A4C2 | D2GED4
+AcdAc2cA | AcdAc2cA | GAGFDCFD | C8
+S:https://www.folktunefinder.com/tunes/112601
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, mengjiangn diao. nann liqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

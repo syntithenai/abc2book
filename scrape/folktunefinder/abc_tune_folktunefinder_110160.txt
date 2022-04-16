@@ -1,0 +1,22 @@
+X:113
+T:Simple Gifts
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord fHIg
+Q:1/2=90
+K:G
+DD | "G"G2GA | "G"BG Bc | "Bm"d2dc | "Em"B2AG | "Am"A2A2 | "Am"A2A2 | "D"AB AF | "D7"D2D2 |
+"G"GF GA | "G"B2AA | "Em"B2c2 | "G/D"d3B | "Am/C"A2AB | "Am"A2GG | "D7"A2GF | "G"G4 |
+| "G"d4 | "D7"B3A | "Em"Bc BA | "Em"G3A | "G"B2 Bc | "Bm"d2B2 | "Am"A2AB | "D7"A2D2 |
+"G"G4 | "G"G3A | "Em"B2Bc | "G/D"d2BB | "Am/C"A2A2 | "D7"B2BA | "Em"G2 "C"G2 | "G"G4 |
+S:https://www.folktunefinder.com/tunes/110160
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

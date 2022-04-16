@@ -1,0 +1,26 @@
+X: 19
+T:Humours of California
+% Nottingham Music Database
+S:Lesley Dolman
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+(3DEF|"G"GFGB "D7"AGED|"G"GBdg "C"e2(3"D7"def|"G"gfgd "Em"edBG|\
+"Am"ABAG "D7"E2(3DEF|
+"G"GFGB "D7"AGED|"G"GBdg "C"e2(3"D7"def|"G"gfgd "Em"edBG|(3"D7"ABAGF "G"G2:|
+(3def|"Em"gfeg "D"fedf|"C"edef "G"edBd|"Em"gfgd edBG|"Am"ABAG "D7"E2(3DEF|
+"G"GFGB "D7"AGED|"G"GBdg "C"e2(3"D7"def|"G"gfgd "Em"edBG|(3"D7"ABAGF "G"G2:|
+S:https://www.folktunefinder.com/tunes/129865
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

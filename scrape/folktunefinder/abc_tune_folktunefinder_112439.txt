@@ -1,0 +1,32 @@
+X:12
+T: Qiu shou(Herbsternte)
+N: C0013
+O: China,Shaanxi, Shanbei
+S: I, 52, 1)]
+N: neues Volkslied, wird heute mit neuem Text in fast doppelter
+N: Geschwindigkeit gesungen und froehlich. Frueher traurig. Der
+N: Textdichter hat auch die Oper "Das weisshaarige Maedchen"
+N: geschrieben.- Typ: Hier macht man die Lampe an und am anderen
+N: Berg kann man das Licht sehen. Die urspruengliche Version,
+N: ein Liebeslied, das doppelt so langsam gesungen wird, ist in
+N: Cut 2 enthalten. - Saengerin: Huang Bai.  Singt eine weitere
+N: Verzierung in Takt 3. BEREITS KODIERT
+N: Pinyin-Text der ersten Strophe vorhanden!
+R: Xiaodiao. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: A
+e2e2f2ac | BAB4af | e2ecBcBE | A8
+B2e2d2cB | A2GFE2e2 | A2GFEFEB, | E8
+S:https://www.folktunefinder.com/tunes/112439
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

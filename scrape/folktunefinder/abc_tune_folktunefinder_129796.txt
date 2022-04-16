@@ -1,0 +1,26 @@
+X: 4
+T:The Blackbird
+% Nottingham Music Database
+S:Nan Fleming-Williams
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+(3DFA|"D"B2AF A2Bc|"Bm"dcdF "A7"G2FG|"D"A2fe "A7"dBAG|"D"F2D2 "A7"D2(3DFA|
+"D"B2AF A2Bc|"Bm"dcdF "A7"G2FG|"D"A2fe "A7"dBAG|"D"F2D2 "A7"D4|
+"D"defg a2af|"G"gfga (3"A7"gagfe|"D"defg "A7"abag|
+"D"f2d2 "A7"d2fg|"D"a2fd "G"g2fe|"D"dcdB "G"g2fe|"D"d2A2 "A7"ABAG|"D"F2D2 D2||
+S:https://www.folktunefinder.com/tunes/129796
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

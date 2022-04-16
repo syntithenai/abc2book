@@ -1,0 +1,22 @@
+X:4
+T:Skye Boat Song
+R:waltz
+C:Traditional
+O:Scotland
+M:3/4
+L:1/8
+K:D
+"D"  A3 B A2 | "B7" d4      d2 | "Em" e3 f e2 | "A"  a6 |
+"D"  f3 e f2 | "G" B3 c "G" B2 | "D"       A6 |      A6 :|
+"Bm" f3 d f2 | f3         g f2 | "Em" e3 B e2 | e3 f e2 |
+"Bm" d4   Bc | d4           c2 | "Em"       B6|       B6:|
+S:https://www.folktunefinder.com/tunes/125278
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Waltzes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 19
+T:Flapjack
+% Nottingham Music Database
+S:An idea from Lady Walpole's Reel
+M:4/4
+L:1/4
+K:F
+ac|"C"g3/2B3/2f/2 B/2 eBdB|"F"c3/2A3/2c/2 A/2 gAcA|\
+"C"c3/2B3/2c/2 B/2 gBcB|"F"c3/2A3/2c/2 A/2 fAac|
+"C"g3/2B3/2f/2 B/2 eBdB|"F"c3/2A3/2c/2 A/2 gAcA|\
+"C"c3/2B3/2c/2 B/2 dBeB| [1"F"f2 A2 fA:|
+ [2"F"f2 A2 fAc:|\
+K:F
+"F"A/2d/2c/2A/2 d/2c/2A-|A/2c/2f/2c/2 a/2c/2f/2A/2|\
+K:F
+"F"A/2d/2c/2A/2 d/2c/2A-|A/2c/2f/2c/2 a/2c/2f/2A/2|
+"F"A/2d/2c/2A/2 d/2c/2A|"C"=B/2c/2e/2c/2 g/2c/2_b/2=B/2|\
+"C"=B/2c/2e/2c/2 g/2c/2_b/2=B/2|"C"acg B "F"f2A2:|
+S:https://www.folktunefinder.com/tunes/114229
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/ashover.txt
+S:http://www.guitarnut.com/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

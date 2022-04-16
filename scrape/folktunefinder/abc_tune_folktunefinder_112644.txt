@@ -1,0 +1,45 @@
+X:217
+T: Niu ge
+N: C0347
+O: China,Anhui, Tongling
+S: III, 564, 2)]
+N: Anfangs hat es den Charakter des Bergliedes, aber ab S. 565
+N:  vorletzte Zeile) beginnt eine neue Melodie mit Elementen des
+N: Xiaodiao,und Dui hui. Form: A-B-A
+N:  GRUNDTONWECHSEL in Phr.9-20: 1=F, -6=2) - B - F!! 
+N: Vereinzelt Verzierungen. Zhuandiao: g YU - a JIAO - g YU
+R: Shange, Muniu shange]
+M: 2/4
+L: 1/16
+K: Bb
+B2G2d2cB | G8 | B2G2d2cB | G8
+B2BGB2c2 | d4c2G2 | B2B2c2Bc | G8
+c2d2c2BG | F2F4G2 | B2G2c2cB | G8
+B2G2d2cB | G8 | B2G2d2cB | G8
+B2BGB2c2 | d4c2G2 | B2B2c2Bc | G8
+c2d2c2BG | F2F4G2 | B2G2c2cB | G8
+B2G2B2c2 | d4c2G2 | B2B2c2Bc | G8
+c2d2c2BG | F2F4G2 | B2G2c2cB | G8
+A3AA2c2d3cA4 | d2c2d2f4dfc4
+f2f2c2f2d3cA4 | c3dA2GAc8
+A3AA2c2d3cA4 | d2c2d2f4dfc4
+f2f2c2f2d3cA4 | c3dA2GAc8
+A3AA2c2d3cA4 | d2c2d2f4dfc4
+f3fc2f2d3cA4 | c3dc2A2G4
+G2GA | c4d2dcA4G2GA | c4d2dcA2c2G2F2 | A16
+B2G2d2cB | G8 | B2G2d2cB | G8
+B2BGB2c2 | d4c2G2 | B2B2c2Bc | G8
+c2d2c2BG | F2F4G2 | B2B2c2Bc | G8
+S:https://www.folktunefinder.com/tunes/112644
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, muniu shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

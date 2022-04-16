@@ -1,0 +1,28 @@
+X:250
+T: Yiduo molihua
+N: C0393
+O: China,Henan, Shangcheng
+S: IV, 148]
+N: Variante aus Henan
+N: Wenig Verzierungen.
+R: Xiaodiao, Shidiao, Molihua diao. Guniang chujia]
+M: 2/4
+L: 1/16
+K: G
+B2Bde2ge | d8 | B2BABdBA | G8
+E2G4A2 | B2e2d2B2 | A2A2BdBA | G8
+BAG2A4 | A3Bd2Bd | e2dBA
+BAG | d2E4G2 | A3BAGE2 | D8
+S:https://www.folktunefinder.com/tunes/112677
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, molihua diao. guniang chujia]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

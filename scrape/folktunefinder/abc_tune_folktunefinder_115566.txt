@@ -1,0 +1,27 @@
+X:18328
+T:Vive Henry IV
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n129
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=150
+K:C
+A2 A A | ^G2 G c | B A ^G A | E4 | A2 A A | ^G2 G c | B A ^G A | E4 |
+c2 B A | B2 B B | A A ^G F | E E/ F/ G G | C2 C C | D D E E | [A,2A2] z2 ||
+W:Vive Henry IV, Vive ce roi vaillant ! (2x)
+W:Ce diable  quatre 
+W:A le triple talent
+W:De boire et de se battre 
+W:Et d'tre un vert galant !
+S:https://www.folktunefinder.com/tunes/115566
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

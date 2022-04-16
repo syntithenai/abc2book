@@ -1,0 +1,35 @@
+X: 24
+T: Rapp-Kalle's Waltz
+I: Rapp-Kalle's WaltzW-12Dwaltz
+H: from Matt Fichtenbaum 3/81
+C: W-12
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+D2| "D"DE FG AB| A2 gf ed| "A"cd eA Bc| "D"d2 AG FE|\
+       DE FG AB| A2 gf ed| "A"cd eA Bc| "D"d4:|
+\
+dd| "D"d2 c2 B2| "G"G4 B2| (3BcB A2 D2| "D"F4 A2|\
+       (3ABA G2 A,2| "A"C4 d2| cd eA Bc|
+    "D"d2 c2 B2| "G"G4 B2| (3BcB A2 D2| "D"F4 A2|\
+       (3ABA G2 A,2| "A"C4 d2| cd eA Bc| "D"d4:|
+|:\
+f2| "D"a2 fd fa| a2 fd fa| a2 g2 f2| "A"g4 g2|\
+       g2 ec eg| g2 ec eg| g2 f2 e2| "D"f4 a2|
+    "D"a2 fd fa| a2 fd fa| a2 g2 a2| "G"b4 g2|\
+    "D"f3 g f2| "A"e3 f e2| A2 B2 c2| "D"ed cd fe| d4:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/109372
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

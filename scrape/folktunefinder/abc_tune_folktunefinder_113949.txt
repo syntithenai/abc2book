@@ -1,0 +1,32 @@
+X: 2
+A:Adam de la Halle
+T:Amoures et ma Dame aussi
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=130
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+%
+[V:1 ][K:C] C   (FG) | A   A2  |  G ((3:2:2A/GE)| F2   z  |   C   FG  | A2    (3A/G/F/ |(3G/F/E/ DE  | F3  ||
+[V:2 ][K:C] F    F2  | E  (ED) |(3E/D/C/  (A,B,)| C2   z  |   F   F2  | E (ED) |(3E/D/C/ B,2 | C3  ||
+[V:3 ][K:F] F,   B,2 | A,  A,2 |  B,       A,2  | F,2  z  |   F,  B,2 | A,      A,2 |  G,     G,2 | F,3 ||
+S:https://www.folktunefinder.com/tunes/113949
+S:http://www.blindchicken.com/~ali/music/adam/rondeaux/amours-3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

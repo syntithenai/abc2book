@@ -1,0 +1,22 @@
+X:2
+T:Hybriden (Boda/Rattvik)
+Z:2000 Brian Wilson  http://ma.ultranet.com/~baab
+M:3/4
+L:1/8
+K:D
+P:A
+|: "D"f2 fe/f/ gf | "A"fe ec A>F | "G"G2 GF/G/ B>A
+|[1 "D"AF FD/F/ A>d :|[2 "A"AB/c/ "D"d4 |
+P:B
+|: "D"A/B/A/F/ DF A2 | "D"A/B/A/G/ FA f2 | "D"f>f "G"g/f/e/d/ "A"c>d
+|[1 "A"e/f/e/c/ "D"dA F>G :|[2 "A"e/f/e/c/ "D"d4 |
+S:https://www.folktunefinder.com/tunes/114361
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/HybridenBodaRattvik.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

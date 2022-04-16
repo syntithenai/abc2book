@@ -1,0 +1,27 @@
+X: 15
+T:Brendon shine
+R:jig
+C:Chris Perry Dec 2001
+S:Fiddle Players Tunebook 2
+Z:
+M:6/8
+L:1/8
+Q:1/4=200
+K:Gmaj
+"G"G2DA2D|"G"B2d dcB |"D"c2AF2A|"G"B2GE2D|
+"G"G2DA2D|"G"B2d dcB |"D"c2A DFA |1 "G"G3 DEF :|2"G"G2-G4|:
+"Em"EFE EFG |"Em"BcB BAG |"Bm"F2B,F2B,|"Bm"A2GF2G|
+"Em" EFE EFG|"Em" BcB BAG |"Bm"F2B,F2A|1 "Bm"AGF E2F:|2"Bm"AGF E2F|:
+"G"GAB G2F|"C"ECC C2B,|"Am"A,AA  A2G|"D"FEF D2D|"G"GDG ADA |
+"G"BDB dcE |"D"FGA ded |"D"cAF G3:|
+S:https://www.folktunefinder.com/tunes/103610
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 54
+T:Greencastle, The (Hornpipe)
+M:4/4
+L:1/8
+Q:180
+R:Hornpipe
+K:G
+d>c|"G"B>GD>G B>GD>G|(3gag f>g e2 d>c|
+"G"B>GD>G B>GD>G|"C"d>cB>c "D"A2 d>c|
+"G"B>GD>G B>GD>G|(3gag f>g e2 d>c|
+B>gf>g e>cA>F|G2 B2 G2::
+g>a|b>ag>f e>fg>a|b>ag>f e2 f>g|
+a>gf>e d>ef>g|a>gf>e d2e>f|
+g>fg>d (3efg d>B|c>BA>B c>de>f|
+g>fg>d e>cA>F|G2 B2 G2:|
+S:https://www.folktunefinder.com/tunes/119792
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

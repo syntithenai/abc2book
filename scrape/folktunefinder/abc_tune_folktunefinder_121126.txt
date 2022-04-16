@@ -1,0 +1,31 @@
+X: 40
+T:Old Spedlings Castle's Ghost's Dance. WI.040
+M:6/8
+L:1/8
+Q:120
+S:Wm Irwin, 1838 MS, AGG's Transcription
+R:Air
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:A
+A,2A cBA|B,2B dcB|A,2A cBA|fed cBA|!
+A,2A cBA|B,2B dcB|fed cBA| GFE DCB,|!
+A,2A cBA|B,2B dcB|A,2A cBA|fed cBA|!
+A,2A B,2B|C2c D2d|fed cBA|E2G A3:|!
+"Hold A as drone 4 bars"\
+[A2a2]a -afa|g2g -geg|a2a -afa|g2g -geg|!
+"Hold E as drone 2 bars"\
+[E2d2]d -dBd|c2c -cAc|fed cBA|Bcd efg|!
+"bowed drone, etc"[Aa]aa aaa|[GBg]gg ggg|[Af]ff fff|[eg]gg ggg|!
+[df]ff fff|[Ec]cc ccc|gab efg|aed {d}cBc|]
+S:https://www.folktunefinder.com/tunes/121126
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

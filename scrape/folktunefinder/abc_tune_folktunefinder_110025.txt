@@ -1,0 +1,23 @@
+X:87
+T: Schloss in Oesterreich
+N: Q1024F
+O: Mitteleuropa, Deutschland
+N: Anderes Lied, Melodievergleich zu Q0024 E und ff.
+R: Ballade, 
+M: none
+L: 1/8
+K: D
+D2 | D2D2A2A2 | =c3A=F4z2
+F2 | A2B2=c2d2 | B4A4z2
+D2 | D2E2=F2G2 | A3AD4z2
+A2 | =c2A2G3=F | E4D8
+S:https://www.folktunefinder.com/tunes/110025
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 497
+T: THE PEACE OF THE VALLEY
+B: O'Neill's 497
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: Collected by "(Balfe)"
+N: 14 bars.
+M: C
+L: a/8
+K:C
+zG \
+| G2(A>G) (GEGc) | e6 e2 | (e2d>)c B2(d>G) | c4 z2 ||
+(G>A) \
+| B2(c>B)(B2{d}c>)B | e2g2- (3g^fe (3edc | cB2G cB2A | G4 z2zG |
+| G2(A>G) (GEGc) | (e2d)c Hf2(ga) |  G2(c>d) cB2G | g4- g(f/e/ d/c/B/A/) \
+| _A2HG2 e{fe}dHfe | c4 z2 |]
+S:https://www.folktunefinder.com/tunes/127654
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0487-0500_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0497_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

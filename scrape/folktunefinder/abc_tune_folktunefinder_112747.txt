@@ -1,0 +1,31 @@
+X:320
+T: Yu bu sa hua hua bu hong
+N: C0947
+O: China,Yunnan
+S: MM, S. 10 , Quelle S. Bandprotokoll)]
+N: kleinere Alternativen in der Notation angegeben; Verzierung
+N: Die Saengerin Lei Huilan ist Angehoerige der Zhuang Minderheit und
+N: studiert an der Guangzhouer Musikhochschule.
+N: Aufgenommen am 5.5.87    cf. Nr. 20
+N:  Grundtonwechsel von C nach F!! 
+R: Xiaodiao. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: C
+A3cA2Ac | d3cd4- | d6z2
+g3ed2cA | GA^FGA4- | A6z2
+A3cd2ed | dcA2GED2 | G3cA2GA | G3FD4- | D6z2
+d2d2d2G2 | cdAcG3F | G3cA2GA | G3FD4- | D4z4
+S:https://www.folktunefinder.com/tunes/112747
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

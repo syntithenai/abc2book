@@ -1,0 +1,26 @@
+X:125
+T: Father Quinn
+M: C
+L: 1/8
+B: O'Neill's 375
+N: "Slow with expression."
+N: "collected by J. O'Neill."
+N: All ornaments (~) are trills, ">" is an accent.
+N: Grace notes are slurred to following note (which is then
+N: sometimes slurred to the note after that.)
+Z: Transcribed by Chris Falt, cfalt@trytel.com
+K: G
+G|c2 (~ed) {c}B2 (AG)|(cB) (~AG) {F}E2 (G>A)|(Bd3) (D3E)|(GA/2B/2) {B}(~A>G) G2z:|
+G|(B3d) (e2 =f2)|(e3d) (cB) (~AG)|">"B2 ">"d2 ">"e2 ">"f2|">"g3B {B}A2 zf|
+">"g2 e{fe}d B2 A{BA}G|(cB) A{BA}G {F}E2 (G>A)|(Bd3) (D3E)|(GA/2B/2) {B}(A>G) G2z||
+S:https://www.folktunefinder.com/tunes/113523
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

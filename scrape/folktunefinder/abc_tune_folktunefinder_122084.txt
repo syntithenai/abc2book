@@ -1,0 +1,24 @@
+X:29
+T: Scartaglen Jig
+N: "Johnny O'Leary of Sliabh Luachra" (#131)
+R: slide
+Q:1/8=360
+I:abc2nwc
+M:6/8
+L:1/8
+K:Amix
+A2a a^ga |A2g gfg|A2a a^ga| efg edB|A2a a^ga |A2g gfe|
+f/2g/2af gfe |~d3 dcB|A2a a^ga |A2g gfg|A2a a^ga|efg efg|
+agf gfe |fed edc|BAB gfe |d3 dcB||
+|:cBA cee |dff cee|cBA cec |dBB B2d|cBA cec |dfd cec|BAB gfe |d3 dcB:|
+S:https://www.folktunefinder.com/tunes/122084
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

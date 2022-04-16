@@ -1,0 +1,42 @@
+X: 11
+T:Jota mltiple
+M:6/8
+L:1/8
+Q:1/4=92
+C:Trad.
+S:Miguel Manzano. Cancionero Leone/s
+R:Jota
+K:C
+"Estrofa I"E^F^G ABc|dc-B- A c2|BA/2A/2^G- G A2|GF-E- E3|
+"Dos compases ri/tmicos"BBA AG3/2F/2|(G3/2F/2E)- E^G/2^G/2^G/2A/2|
+E^F^G ABc|dc-B- A c2|BA/2A/2^G- G A2|GF-E "Estribillo I"EEE|G3 A{B}A^G|
+A3 GGE|F2 D DEF|E3 EEE|^G3 ABG|A3 AGG|E2 D DEF|
+E3-E3-|E3 z2 z|
+"Varios compases ri/tmicos"|:BBA AG3/2F/2|(G3/2F/2E)- E^G/2^G/2^G/2A/2-|
+A6:||
+"Estrofa I (texto diferente)"E^F^G ABc|dc-B- A c2|BA/2A/2^G- G A2|GF-E-
+E3|
+"Dos compases ri/tmicos"BBA AG3/2F/2|(G3/2F/2E)- E^G/2^G/2^G/2A/2|
+E^F^G ABc|dc-B- A c2|BA/2A/2^G- G A2|GF-E "Estribillo II"zAA|AB/2c/2d c{
+e}cc|
+AA^G- GBB|BB/2B/2c BBA|GFE- E","^F|
+^GAB- Bdc|BAG- GBB|BB/2B/2B cBA|
+GFE- E3-|E3 z2z|
+|:BBA AG3/2F/2|(G3/2F/2E)- E^G/2^G/2^G/2A/2-|A6:||
+"Estrofa II"z2zz2^G|ABB- BBB|B(A^G E2) F|GAA- AGF|G3/3F/2-E-E2z|
+z2zz2^G|ABB- BBB|B(A^G E2) F|GAA- AGF|
+G3/2F/2-E- "Estribillo III"E^GG|AB/2B/2B A^GG|
+AA^G- GEF|GG/2^F/2G E=FE|DEE z A^G|BBB- AGG|
+GAA z =GF|FE/2F/2G GFE|DEE- E3-|E3-E3-|E2 zz2z|
+|:BBA AG3/2F/2|(G3/2F/2E)- E^G/2^G/2^G/2A/2-|A6:||
+S:https://www.folktunefinder.com/tunes/113945
+S:http://www.geocities.com/titoasturies/leon.txt
+% Rhythm Jota
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:63
+T:Cup of Tea, The
+R:reel
+H:Sometimes played as a two-part-only reel.
+Z:id:hn-reel-63
+M:C|
+K:Edor
+BAGF EDEF|GEBE GBE=c|BAGF EDEG|(3FED AD FAD=c|
+BAGF EDEF|(3GFEBE GBE=c|BAGF GAB^c|1 dBAG FDD=c:|2 dBAG FDD2||
+|:d2 (3efg fdec|dfeg fB~B2|d2 (3efg fdec|dBAG FDD2|
+d2 (3efg fdec|dfaf g2fg|afge fdec|dBAG FDD2:|
+|:FAdA FABA|FAdA FE~E2|~F3A BABc|dBAG FDD2|
+FAdA FABA|FAde fe~e2|fedc dBAF|1 GBAG FDD2:|2 GBAG FDD=c||
+S:https://www.folktunefinder.com/tunes/103582
+S:http://www.norbeck.nu/abc/i/hnr0.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

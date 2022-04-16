@@ -1,0 +1,24 @@
+X:42
+T:Le soleil
+T:Het so
+C:Trad.
+O:France
+A:Arige
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+e | e2e g2f | e2d c2e | e2e g2c | d3 c2 ::
+B | B2B d2c | B2A G2B | B2B d2G | A3 G2 :|
+%%text Changements de tonalit  l'inspiration
+%%text Commenc lentement, puis acclr
+%%footer $D   Galouvielle-MBe 2007 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/130003
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

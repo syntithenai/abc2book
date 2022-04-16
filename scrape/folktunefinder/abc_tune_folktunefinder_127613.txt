@@ -1,0 +1,24 @@
+X:28
+T: Das Madl von der Gmaa hat schoene weisse Baa
+N: V0006B
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Langenreuth
+N: Bemerkung: "wird offenbar mit Schlussbildung wiederholt"
+R: Liebes - Lied
+M: 2/4
+L: 1/16
+K: D
+F2 | B2A2F2A2 | F4z2
+F2 | B3AF2A2 | G4z2
+A2 | A3AA2F2 | G2c2c2
+c2 | A2A2G2E2 | F2d2d2
+S:https://www.folktunefinder.com/tunes/127613
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/variant0.abc
+% Rhythm Liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

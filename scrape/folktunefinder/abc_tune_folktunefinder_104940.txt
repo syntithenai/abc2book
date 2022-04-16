@@ -1,0 +1,54 @@
+X:65
+T:La Bergre et son chat
+R:Branle
+C:trad.
+A:Nivernais
+O:France
+M:2/4
+L:1/8
+Q:1/4=100
+K:C
+A|^GB dc|A2A2|c2de|d3B|^GBGB|d2 (3ccc|
+c2de|d2dB|^GBGB|d2 (3cBA|^G Bdc|A2A||
+W:
+W:C'tait une bergre
+W:Vive l'amour
+W:Qui gardait ses moutons,
+W:Vive l'amour, ma brunette,
+W:Qui gardait ses moutons,
+W:Vive l'amour et ma chanson.
+W:
+W:Son chat qui la regarde
+W:D'un air tout fripon
+W:
+W:Si tu y mets la patte,
+W:T'auras un coup d'bton
+W:
+W:Il n'y mit point la patte
+W:Mais il y mit l'menton
+W:
+W:La bergre en colre
+W:A tu son chaton
+W:
+W:Elle s'en fut en confesse
+W:Vers l'cur du canton
+W:
+W:Mon pre je m'accuse
+W:D'avoir tu mon chaton
+W:
+W:Ma fille pour pnitence
+W:Nous nous embrasserons.
+W:
+W:La pnitence est douce
+W:Nous recommencerons
+S:https://www.folktunefinder.com/tunes/104940
+S:http://www.tradfrance.com/matf06.txt
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

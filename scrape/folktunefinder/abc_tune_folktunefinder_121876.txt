@@ -1,0 +1,26 @@
+X: 5
+T:Hughie Rory MacKinnon
+M:4/4
+L:1/8
+C:Traditional
+S:The Playing of Mary MacDonald
+N:from The Scottish Music List, Vol2 No 16
+Z:Toby A. Rider
+R:Strathspey
+O:Cap Breton, N.S.
+K:D
+f| (ed)(c<A)  e>cA>c| B<dg>e d>BG>f| (ed)(c>A) e>c A<c| B>A B<G A/2A/2AA
+:|!
+g|(fe)(a>f) e>cA>c| B<dg>e d>BG>g| f>e a<f e>c A<c| B>A B<G A (A>g)|!
+(f<e)(a>f) e>cA>c| (B<d)(g>e) d>BG>f| e>dc>A e>c A<c| B>A B<G A2 A||
+S:https://www.folktunefinder.com/tunes/121876
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Vol02.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

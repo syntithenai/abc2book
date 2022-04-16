@@ -1,0 +1,42 @@
+X:26
+T:The Earle of Essex Galiard (12)
+R:Gaillarde
+C:Iohn (John) Dowland
+H:
+N:
+B:
+O:Angleterre - England
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=120
+K:F
+%%staves 1 {(2 3) (4 5)}
+V:1
+G/>A/ B/G/ g | f>_e d | dcB | A3 | fd/_ec/ | d>c B/A/4B/4 |
+c/B/A/G/A | G3 :||: d2d | d3/2 de/ | f>d B/c/ | d>c d/e/ | 
+fd/_ec/ d>f_e | dg2 | ^f3 :||: d2d | d2d | e2e | 
+e2e | d2d | d2d | =B/>c/ d/e/ c/d/ |1 =BHA2 :|2 =BHA2 |]
+V:2
+GG/>A/ B/c/ | d>cB | BAG | z^F-/F/G F | | AB/ c/>B/A/ | B>AG |
+V:3
+K:F treble
+B,
+V:4
+K:F bass
+%%MIDI transpose -12
+V:5
+K:F bass
+%%MIDI transpose -12
+S:https://www.folktunefinder.com/tunes/99555
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

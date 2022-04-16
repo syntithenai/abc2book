@@ -1,0 +1,26 @@
+X: 1
+T: Audrey Hinchliffe
+C: Jimmy Shand
+R: strathspey
+M: 4/4
+L: 1/8
+K: D
+A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"G<E E>F "A7"G<E E>A \
+| "D"d2 c>d "(Bm)"(3Bcd A>F | "Em"(3GAB "A7"A>G "D"F<D D :|
+G \
+| "D"F<D D>G F>D A>F | "Em"G<E E>F "A7"G<E E>G \
+| "D"F<D D>G F>D A>F | "Em"(3EFG F>E "Bm"Dg |
+| "D"f<d d>g f>d a>f | "Em"g<e e>f "A7"g<e e>g \
+| "D"f<d d>g f>d a>f | "A7"(3EFG (3ABc "D"d3 |]
+S:https://www.folktunefinder.com/tunes/129396
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Jimmy_Shand/AudreyHinchliffe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/AudreyHinchliffe.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

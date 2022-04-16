@@ -1,0 +1,28 @@
+X:1
+T:Anna-Greta-polska
+R:Polska
+N:Gammalpolska Delsbo
+Z:Hkan Lidn, 2008-09-27
+O:Hlsingland
+M:3/4
+L:1/8
+K:Am
+A,/C/E/A/ c/B/A/^G/ AB | c/B/A/^G/ A/B/c/d/ e2 | ea ^g/a/g/a/ ed | cB/A/ [B2E2] [B2E2] |
+A,/C/E/A/ c/B/A/^G/ AB | c/B/A/^G/ A/B/c/d/ e2 | ea ^g/a/g/a/ ed | c/B/A/^G/ A4 :|
+|: A>B cB/A/ B2 | B>c dc/B/ c2 | f>e dc BA | ^G/B/e E>F E2 | A>B cB/A/ B2 | B>c dc/B/ c2 |
+f>e dc BA | ^G/B/e A4 :: =Gc/e/ g2 eg | f>e de f2 | GB/d/ g2 df | e>d cd e2 |
+E^G/B/ e2 Bd | c>B AB c2 |1 B>A ^GB ed | c>B A^G A2 :|2 B>A ^GB eG | [C2A2] [C4A4] |]
+S:https://www.folktunefinder.com/tunes/119130
+S:http://www.folkwiki.se/pub/cache/AnnaGretapolska_b1b6e6.latin.abc
+S:http://www.folkwiki.se/pub/cache/AnnaGretapolska_b1b6e6.abc
+S:http://www.folkwiki.se/pub/cache/AnnaGretapolska_b1b6e6.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

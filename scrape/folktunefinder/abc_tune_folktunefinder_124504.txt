@@ -1,0 +1,18 @@
+X: 1
+T: Arkan (Am)
+O: Ukraine
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Am
+|: "Am"e2e2 ^dcBA | e2e2 ^dcBA | AEAB c2"E7"B2 | "Am"AEAB c2"E7"B2 | "Am"AEAB c2"E7"e2 | ^dcBc "Am"A2z :|
+S:https://www.folktunefinder.com/tunes/124504
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Arkan_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ukraine/tune/Arkan_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

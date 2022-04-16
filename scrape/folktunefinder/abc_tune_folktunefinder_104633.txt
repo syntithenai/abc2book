@@ -1,0 +1,43 @@
+X:1 
+T:Germaine (Valse Musette)
+C:J.Colombo
+A:France WW2
+I:Rights for public performance
+Q:1/4=150     %Tempo
+M:3/4     %Meter
+P:IABACA
+K:G
+P:I
+"Em"[b6g6e6B6]-|[b6g6e6B6] |"Am"z e f^g ab |c'e' be' ae' |\
+"Em"be' ae' ge' |"F#7"g_b fb eb |"B"_ef eB F_E |B,B, ^C^D EF ||
+P:A
+"Em"G6 |"B7"A4 A_B |"Em"B6 |"E7"z E F^G AB |\
+"Am"c6 |"E7"d4 d_e |"Am"e6 |z e fg fe |
+"B"_e6 |"B7"c4 dc |"Em"B6 |z E FG FE |\
+"F#7"F6 |z ^c ^de _ec |"B7"f4 (3_efe |BB, ^C^D EF |
+"Em"G6 |"B7"A4 A_B |"Em"B6 |"E7"z E F^G AB |\
+"Am"c6 |"E7"d4 d_e |"Am"e6 |z e fg fe |
+"B"_e6 |"B7"c4 dc |B6 |"Em"z E FG FE |\
+[G6E6_B,6] |"B7"[F6_E6A,6] |"Em"[E6B,6G,6]-|[E2B,2G,2] ||
+P:B
+FGAB |:"D7"c^GABcG |ABcdef |"G"gabfga |bfaegd |"D7"fcdefc |
+defbgf |"G"ed^cdBG |agfgdB |"D7"c^GABcG |ABcdef |"G"gabfga |
+bfaegd |"D7"fcdefc |defagf |"G"gbdgBd |1G2 FGAB :|2GB, ^C^D EF ||
+P:C
+"G"z D EF GA |[B2D2] z2 [B2D2] |"G7dim"z2 [_B2^C2] [_B3/2C3/2][_B/C/] |\
+"G"[B6D6] |z D EF GA |B3 c d2 |"E7"d^d e3 B |"Am"c6 |z E F^G AB |
+[c2E2] z2 [c2E2] |"D7dim"z2 [B2=F2] [B3/2F3/2][B/F/] |"Am"[c6E6] |\
+z E F^G AB |c3 d e2 |"F#7"\^ee f3 ^c |"G"d4 [^c2G2^C2] |"D7"[cGC]D EF GA |
+"G"[B2D2] z2 [B2D2] |"G7dim"z2 [^A2^C2] [^A3/2C3/2][^A/C/] |\
+"G"[B6D6] |z D EF GA |B3 c d2 |"E7"de =f3 f |"Am"e6 |e6 |e6 |
+"C#7dim"g6 |"G"d6 |z2 D3 ^D |"A7"[E6^C6] |\
+(3"D7"FGF D2 B2 |"G"[G6B,6] |[GB,]B, ^C^D EF ||
+S:https://www.folktunefinder.com/tunes/104633
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

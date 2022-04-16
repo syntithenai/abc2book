@@ -1,0 +1,24 @@
+X:101
+T:Queen of the Fair, The
+R:jig
+D:Stockton's Wing
+Z:id:hn-jig-101
+M:6/8
+K:D
+~F3 DA,A,|DFA dAF|~G3 FGA|BAG FGE|
+~F3 DA,A,|DFA dAF|~G3 EAG|1 FDD D2E:|2 FDD D2g||
+|:fdf ece|dAG FEF|~D3 dAF|GFG E2g|
+fdf ece|dAG FED|EFG BAG|1 FDD D2g:|2 FDD D3||
+|:Add fdd|add fdd|Ace ~g3|~f3 ecA|
+[1 Add fdd|add fdd|EFG BAG|FDD D3:|
+[2 ~a3 geg|fdf ecA|EFG BAG|FGE D2E||
+S:https://www.folktunefinder.com/tunes/118692
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

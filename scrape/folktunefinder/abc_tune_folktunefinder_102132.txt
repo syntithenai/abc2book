@@ -1,0 +1,23 @@
+X:6234
+T:Gigouillette
+R:Gigue
+A:Normandie
+O:France
+M:2/4
+L:1/8
+Q:108
+K:Bb
+FB|d>c de| dc FA| c>B cd| B2 FB|d>c de| dc FA|!
+c>B cd|B2 "," FB/2d/2|FB/2d/2 Fd/2e/2|dc "," FA/2c/2| FA/2c/2 FA/2c/2|!
+B2 "," FB/2d/2| FB/2d/2 Fd/2e/2|dc ","FA/2c/2|FB/2d/2 Fd/2e/2|B2 z2||
+S:https://www.folktunefinder.com/tunes/102132
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Gigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

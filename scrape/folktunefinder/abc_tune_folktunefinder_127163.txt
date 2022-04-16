@@ -1,0 +1,29 @@
+X: 14
+T:Nelson's Hornpipe. FK.14
+M:C
+L:1/8
+Q:160
+C:"MS 42 p.31"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:(c2 A2 AA A2 fg) in MS.
+Z:vmp.John Bagnall
+K:D
+AF | D2 d2d2 cd | ecAc d2 ef | gegd fdfd | cdBc AGFE |!
+ D2 d2 d2 cd | edAc d2 d2 | cAdB cAB^G | A2 AA A2 :|:!
+fg | afaf dedc | B2 GG G2 g2 | bgbg egfe | "NB"c2  AA A2 fg |!
+ afaf gege | fgaf gfed | fgaf gfed | d2 dd d2 |]
+S:https://www.folktunefinder.com/tunes/127163
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

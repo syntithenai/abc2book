@@ -1,0 +1,34 @@
+X:28
+T:The Yellow Wattle
+R:Jig
+S:Gerry O'Connor, Louth (fiddle)
+D:From RTE 'The Pure Drop'
+H:A3 in bar 2 a unison
+N:As played (sort of)
+M:6/8
+Z:Bernie Stocks
+K:G
+|: (3.d.d.cA AGE | A3 ABc | dcA ABc | dcA GED | (3.d.d.cA AGE | 
+ABA AGE | (3.D.E.DD cde | dcA GED :: DED cEc | ded ~c3 | ded cde | 
+dcA GED | DED cEc | ded (3.d.e.dc | ABA ABc | dcA GED :|
+S:https://www.folktunefinder.com/tunes/117230
+S:http://ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book4.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book4.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book4.abc
+S:http://www.firepowr.com/abc/Book4abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book4.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book4.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

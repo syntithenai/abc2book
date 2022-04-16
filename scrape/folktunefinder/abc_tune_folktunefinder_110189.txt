@@ -1,0 +1,26 @@
+X:142
+T:Valentine's Day
+C:Playford, 1686
+N:Also the original tune for "Maid in the Moon" (Playford 1670), but not Sharp's version.
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=105
+K:G
+P:A
+|: B/c/ | "G"d>ed "^/"BGB | "Am"c>dB "D7"A2B/c/ | "G"d>ed "Em"BGB | "D7"A>GF "G"G2 :|
+P:B
+|: B/c/ | "G"d>ed "^/"BGG | "G7"G3- "^/"G3/2d/e/f/ | "C"g>ag "^/"ecc | "C"c3-c3/2e/f/g/ | "A"a>ba "A7"eag |\
+"D"f3 "D7"d3/2d/e/f/ |
+"G"gde "^/"dBG | "G"gde "^/"dBG | "C"c>dB "D7"A2G | "G"G3- "^/"G2 :|
+S:https://www.folktunefinder.com/tunes/110189
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

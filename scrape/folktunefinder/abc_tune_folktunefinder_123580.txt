@@ -1,0 +1,35 @@
+X:4797
+T:Emperor of Austria's Waltz. CJF.015
+M:3/8
+L:1/16
+Q:45
+C: 
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Note at * a3/2 in MS, at % d6 in MS..PJH.
+Z:P J Headford 2000
+K:D
+"Allegro"A2|d2D2 (df)|.a4(fd)|.c2.A2 (ce)|g4(ec)|.d2.D2 (df)|\
+.a4(fa)|(ag) .b.g(ec)|d4:|:!
+A2|G2(bg).e2|F2(af)d2|.A2(ge).c2|(ed)(fd).A2|.G2(bg).e2|\
+.F2(af).d2|.E2(ge).c2|d4:|:!A2|(DF)(Ad)(fa)|(d'a)(fd)(fa)|
+(ge)(cA)(GE)|(FA)(df)"*"a2|(DF)(Ad)(fa)|(d'a)(fd)(fa)|!\
+(ge)(cA)(Bc)|"%"d4:|:(fg)|(ba)^(ga)(d'a)|(ba)^(ga)(fd)|(cA)(ce)(gb)|
+(ba)^(ga)(fg)|(ba)^(ga)(d'b)|(ba)^(gb)(fd)|(cA)(ce)(ge)|d4:|:!
+A2|(df)(Ad)(fd)|(fa)(df)(af)|(eg)(Ae)(ge)|(df)(Ad)(fd)|!
+(df)(Ad)(fd)|(fa)(df)(af)|(eg)(Ae)(ge)|d4:|]
+S:https://www.folktunefinder.com/tunes/123580
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

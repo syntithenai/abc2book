@@ -1,0 +1,25 @@
+X:75
+T:Trilisestile
+O:rumania
+C:RO
+M:4/4
+L:1/8
+Q:1/4=145
+K:A
+V:1
+"A" AB cd ef =ge |"D" a=g fe f3 e|"E7" d cB AB cd B|1 "A" A Bc de _ee2 :|2
+"A" AE FG A2 z2 || |:"A" (ga) ae (ga) ae |"E7" dc Bd "A" ~c3 A|(g a)a e"E7" d cB d|
+"A" ~c3 AB AG A|"A" (g a)a e(g a)a e|"E" d cd ef3 e|"D" d cB A"E7" B cd B|
+"A" A EF GA2 z2 :| |:"A" EA GA BA GA |BA GA ~c3 A|"E7" d cB AB cd B|
+|1 "A" A GA Bc de2 :|2 "A" AE FG A2 z2 |].A2 .E2 .A2 ||
+S:https://www.folktunefinder.com/tunes/111304
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

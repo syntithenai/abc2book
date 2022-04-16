@@ -1,0 +1,22 @@
+X: 34
+T:Sallylun Jig
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+L:1/8
+K:D
+"D"d3 DFA|"Em"e3 EGB|ede gfe|"Em"dcB "A"ABc|
+"D"d3 DCD|"Em"e3 E^DE|ede ged|"A"Ace "D"d3:|
+"A"cde "Bm"def|"A"efg "D"afd|"G"bag "D"adf|"Em"agf "A"e3|
+"D"d3 DCD|"Em"e3 E^DE|ede ged|"A"Ace "D"d3|
+S:https://www.folktunefinder.com/tunes/114289
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

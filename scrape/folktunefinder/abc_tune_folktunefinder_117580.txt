@@ -1,0 +1,24 @@
+X:4
+T:Dingle Regatta
+M:6/8
+L:1/8
+Z:abc2nwc
+K:G
+d^cd e2d|B^AB d2B|A3A^GA|B2A G2B|
+d^cd e2d|B^AB d2B|A3ABA|G3G3:|
+|:d3def|g3gfg|a3aga|b2a gfe|
+d3def|g3gfg|a2g f2e|def g3:|
+|:gbg dgd|BdB G3|ABc F2D|G2B d3|
+gbg dgd|BdB G3|ABc F2D|G3G3:|
+S:https://www.folktunefinder.com/tunes/117580
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/DingleRegatta.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/DingleRegatta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

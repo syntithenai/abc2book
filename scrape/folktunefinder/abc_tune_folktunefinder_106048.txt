@@ -1,0 +1,24 @@
+X: 44
+T:Young Ellen of My Heart
+M:4/4
+L:1/8
+S:Rice-Walsh manuscript
+R:Air
+K:G
+"Andante"g|edcB AGFE|G2 AA A3 E|ABcd e2 ec|d2 ed c2 BA|
+ABcd e^fge|d2 ed c2 g^f|edcB AGEF|G2 AA A3 E|
+ABcd e^fge|d2 ed c2 g^f|edcB AGEF|G2 AA A2||
+S:https://www.folktunefinder.com/tunes/106048
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-1.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0044.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/YoungEllenOfMyHeart.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

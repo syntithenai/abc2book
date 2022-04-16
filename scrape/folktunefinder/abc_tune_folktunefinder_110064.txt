@@ -1,0 +1,34 @@
+X:17
+T:Centre of Friends
+%%staffsep 46
+C:Colin Hume, 1997
+L:1/4
+M:3/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI beat 100 95 80
+Q:1/4=120
+N:For Julianne Harden and John Bartholomew
+K:C
+P:A
+[| "C"GcE | "Dm"[EG] [D2F2] | "G7"FGD | "C"E3 | "G7/B"GAB | "Am"ce2 | "Dm"dAc | "G"B2A |
+%%vskip 0
+P:B
+"C"GcE | "Dm"[EG] [D2F2] | "G7"FdB | "Am"c2B | "F"AF2 | "Em"GE2 | "G7"FDB, | "C"C3 |
+%%vskip 0
+P:C
+"Am"ced/2c/2 | "Em"BGE | "F"FAG/2F/2 | "C"E3 | "Am"ced/2c/2 | "E"B^GE | "B7"^FA^G/2F/2 | "E"E3 |
+%%vskip 0
+P:D
+"Am"AcB/2A/2 | "G"Bdc/2B/2 | "F"cfe | "G"d2- "E7/G"d | "Am"cA2 | "Em"GE2 | "G7"FDB, | "C"C3 |]
+S:https://www.folktunefinder.com/tunes/110064
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

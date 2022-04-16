@@ -1,0 +1,20 @@
+X: 11
+T:Cheviners Jig
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:D
+e|:"D"dcd "A"FAB|"D"dcd "G"BAG|"D"FAd "G"GBd|"Em"Ged "A"cBc|
+"D"dcd "A"FAB|"D"dcd "G"B2d|"Em"Bed "A"cag|"D"fdc d2e:|
+|:"D"fdA "G"g3|"C"e=cG "F"=f3|"C"e=cG Gce|"C"=ceg "G"Bdg|
+"D"fdA "G"g3|"A"ecA "D"f3|"Bm"def "Em"ged|"A"cBc "D"d3:|
+S:https://www.folktunefinder.com/tunes/114269
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

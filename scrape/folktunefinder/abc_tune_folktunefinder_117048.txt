@@ -1,0 +1,29 @@
+X:1
+T:Katy Hill
+R:Reel
+C:Trad.
+A:Missouri
+D:As recorded by Cyril Stinnett on his album "Cyril Stinnett Plays His
+D:Favorite Old Time Tunes.'
+Z:B. Shull, trans.; R.P. LaVaque, ABC
+M:2/4
+L:1/16
+Q:122
+K:G
+d2-|:d2g(a bg)a(g|eg)d(g ea)ge|d(eg)(a bg)a(g|e)d-[dg][eg]- [d3g3]e-|
+gdg(a bg)a(g|eg)d(g ef)g(a|ge)d(B A)(GEG)|(DE)GB A([GB][G2B2]):|
+|:[G3B3]G A(GE)(F|G)(AB)d e(fge)|(dB)GB A(GE)(G|DE)GB A[GB][G2B2]|
+[G3B3]G A(GE)(F|G)(AB)d e(fga)|(ge)d(B A)(GE)G|(DE)GB A([GB][G2B2]:|
+[G3B3]G A(GE)(F|G)(AB)d e(fga)|(ge)d(B A)(GE)G|(DE)GB A(FG2:|
+S:https://www.folktunefinder.com/tunes/117048
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

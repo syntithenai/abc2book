@@ -1,0 +1,30 @@
+X:11
+T: Toska po rodina (Mot Barrikaderna)
+O:russia
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+D: Norrlter "Framtidshopp", identified as "Finsk arbetarmarsch"
+D: Andy Statman & David Grisman "Songs of our Fathers", called "Toska" and identified as a Russian march.
+B: Kammen V.1 #40 "Toska Porodina" (Longing for Home), no attribution.
+M: C
+L: 1/8
+K: Em
+|: B^AB \
+| "Em"g2 g3 fe^d | "B7"f>^d B3 B^AB | "(Am)"a2 a3 "(B7)"a gf | "Em"b>g e3 B^AB |
+| "Em"g2 g3 fe^d | "B7"f>^d B3 b^ab | c'b fa ba gf | "Em"ee/e/ ee e :|
+|| z B2 \
+| "Em"e2 d2 "Am"c2 A2 | "B7"B4- B B^AB | "Am"c2 B2 A2 G2 | "B7"B4- B B^AB |
+| "Am"c2 B2 A2 G2 | "B7"B4- B BAG | F2 B2 G2 F2 | "Em"EE/E/ EE E ||
+|| BcB \
+| "Em"B2 e2 f2 e2 | "B7"^d4- d BcB | B2 f2 g2 f2 | "Em"e4- "E7"e BcB |
+| "Am"A2 e2 f2 e2 | "Em"B4- B BAG | "B7"F2 B2 G2 F2 | "Em"EE/E/ EE E |]
+S:https://www.folktunefinder.com/tunes/102687
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

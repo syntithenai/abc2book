@@ -1,0 +1,28 @@
+X: 92
+T:Lal(Little) Schottische,The. WI.092
+M:C|
+Q:140
+C:"by Wm. Irwin"
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Schottische
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:C
+e2e>d c>Bc>A|(G2-GF)  .E.G.c.e|f2f>d B4|e2e>d c4|!
+e2e>d c>Bc>A|(G2-GF)  .E.G.c.e|f2f>d B>AB>c|d2c2 "tr"c4:|!
+|:.f.d.B.G F2{GFE}F2|.E.G.c.e g2{agf}g2|a2A2 a4|g2c>e g4|!
+f.d.B.G F2{GFE}F2|.E.G.c.e g2{agf}g2|a2A2 a>gf>d|c2e2 "tr"c4:|!
+|:G2G>F ((3EGc) e2|G2G>F ((3EGc) e2|f2f>d B>AB>d|e2e>d c>Bc>A|!
+G2G>F ((3EGc) e2|G2G>F ((3EGc) e2|f2f>d B>AB>c|d2c2 "tr"c4:|]
+S:https://www.folktunefinder.com/tunes/121178
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

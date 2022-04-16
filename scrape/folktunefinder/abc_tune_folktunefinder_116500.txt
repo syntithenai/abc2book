@@ -1,0 +1,30 @@
+X:13455
+T:Polska fr Siljan\"as (Leksand)
+R:Polska
+O:Sweden
+M:3/4
+L:1/16
+C:e. Ellika Frisell
+A:Dalarna
+K:ADor
+([e2A2]|\
+[e3A3])e a2{ga}g2 e2gf|Adfd e4 ([e4B4]|\
+[e3A3])e a2{ga}g2 e2gf|Adfd e6 B2|
+cBcd deec A2AB|cBcd deec A2B2|\
+cBcd deec A2cA|E^GBG A6 ::
+([A2D2]|\
+[A2D2])a2 abaf a2a2|b4 {f}gagf gfg2|\
+a4 {e}fgfd efed|cdcB ABAG FEDC|
+D2[A2D2] abaf a2a2|b4 {f}gagf gfg2|\
+a4 {e}fgfd efed|cdec d6:|
+S:https://www.folktunefinder.com/tunes/116500
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

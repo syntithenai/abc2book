@@ -1,0 +1,27 @@
+X:19
+T:Bielo Litza Kruglolitza
+O:russia
+P:ABA
+L:1/8
+M:4/4
+K:Cm
+Q:1/4=96
+P:A
+z6 [B,2G2]|:"Cm"[E2c2] [E2c2] [E2c2] [G2e2]|\
+"G"[Fd][Ge][Fd][Ec] [D2=B2] [D2G2]|\
+"Cm"[G2e2] [G2e2] [G2e2] [B2g2]| "F"[B4f4] "Cm" [Bg][Af][Ge][Fd]|
+[Ge][Af][Ge][Fd] [E2c2] [B,2G2]| "G"[Fd][Ge][Fd][Ec] [D2=B2] [B,2G2]|\
+"Cm"[E2c2] [E2c2] "G"[D2=B2] [B,2G2]|\
+"Cm"[E4c4] z2 [B,2G2] :|
+P:B
+c2 cded ec| "G"dede "Cm"gfed| edef gfge| "Fm"f2 ba"Cm"gf ed|
+efed cdec| "G"dedc "Cm"gfed| cedc "Dm"dfdc| "Cm"c2 ga gfed|
+S:https://www.folktunefinder.com/tunes/102692
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

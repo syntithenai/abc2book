@@ -1,0 +1,29 @@
+X:236
+T: Mama niang hao hutu
+N: C0373
+O: China,Hebei, Xinglong, Nordwesten)
+S: IV, 45]
+N: sehr verbreitet im Norden und Nordosten. Text und Mel. = original.
+N: schon einmal vorhanden 
+R: Xiaodiao, Shidiao, Yinniusi diao. Geming lishi minge]
+M: 2/4
+L: 1/32
+K: F
+d2f2d2c2A6c2 | d2f2d2c2A8
+A4f4d4c4 | A2F4G2A8
+A2G2A2c2d2f2d2c2 | A4c2A2G2A2F4
+F2G2A2c2G2A2E4 | D6C2D8
+F3GF2G2A4A4 | F4A4G2A2E4 | D6C2D8
+S:https://www.folktunefinder.com/tunes/112663
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, yinniusi diao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

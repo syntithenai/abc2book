@@ -1,0 +1,25 @@
+X: 14
+T: Charlie Hunter's Jig
+I: Charlie Hunter's JigJ-36Djig
+C: Bobby MacLeod
+M: 6/8
+R: jig
+K: D
+"D"DFA "G"GBd| "D"Adf a2g| fed "Bm"Bcd| "A7"ecA GFE|
+"D"DFA "G"GBd| "D"Adf a2g| fef "A7"gec| "D"edc d3:|
+|:f/g/| "D"afd dcd| "G"BGG G2F| "E7"E^GB e2d| "A"cBA "A7"A2a/g/|
+      "D"fdA "D7"FDF| "G"GBd g2g| "D"fef "A7"gec| "D"edc d2 :|
+%%text Roaring Jelly  J-36
+%%vskip .3cm
+S:https://www.folktunefinder.com/tunes/107037
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

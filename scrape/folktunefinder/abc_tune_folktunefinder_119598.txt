@@ -1,0 +1,38 @@
+X:29
+T:L'amour de moi
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n29
+N:sur la partition originale il y a une erreur rythmique  la seconde mesure : 
+N: ... | C2 C | ...
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/2=105
+K:C
+P:A
+G2 GG | C3 C | E2 A2 | (G3 F | E D/C/ D2 | C2) z2 | c3 c | d3 c |
+(B A/G/ A) A | G2 z2 | A2 AA | (c>B) AA | (G F/E/ F) F | E2 z2 |
+z2 z E | G3 G | C3 C | E2 A2 | (G3 F | E D/C/ D2 | C4) |
+P:B
+|: c2 cc | d3 c | (BA/G/A) A | G2 z2 | A2 AA | G3 F | (E D/C/D) D | C4 :|
+W:L'amour de moi si est enclose
+W:Dedans un joli jardinet
+W:O crot la rose et le muguet
+W:Et aussi fait la passerose.
+W:
+W:Ce jardin est bel et plaisant :
+W:Il est garni de toutes flours ;
+W:On y prend son battement 
+W:Autant la nuit comme le jour.
+S:https://www.folktunefinder.com/tunes/119598
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

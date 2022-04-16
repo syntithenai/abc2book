@@ -1,0 +1,31 @@
+X:1
+T:Bouncing Bellows
+R:reel
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:This tune was composed with a Cajun feel to it suitable for fiddle and accordion.
+L:1/8
+Q:399
+M:C|
+K:D
+AG|FD D/D/D DEFA|BG{A}GF GFED|CDEC A,CEA|BA A/A/A ABAG|
+FD D/D/D DEFA|BG{A}GF GFED|CDEC A,CEG|[1FAEF D2:|[2FAEF DEFA||
+|:d3 e fedB|c/c/c cd edcA|~B3 c dcBc|[1A2 d2 c2 =c2|
+BG (3(B=c^c) dedB|ABAF DEFD|(3EFE D2 CC B,2|A,4 A,2 (3(ABc):|
+[2A2 F2 F2 FA|BG (3(B=c^c) dedB|ABAF DFAF|GB ~B2 cABc|dBAF D2|]
+S:https://www.folktunefinder.com/tunes/130138
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

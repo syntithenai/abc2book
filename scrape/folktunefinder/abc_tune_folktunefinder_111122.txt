@@ -1,0 +1,19 @@
+X:1
+T:I. Unquiet thoughts, your civil slaughter stint
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+M:C
+L:1/4
+K:Gdor
+%%MIDI nobarlines
+T:Cantus
+d2 dd _e4|z d2 c2 B A>A| G2 z A Bc
+S:https://www.folktunefinder.com/tunes/111122
+S:http://www.laymusic.org/music/dowland/unquiet/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

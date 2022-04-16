@@ -1,0 +1,25 @@
+X:7
+T:Menuet
+B:XVIIIeme
+M:3/4
+L:1/4
+Q:C4=60
+K:Am
+A>G A/B/ | c B c | A G A | B/A/ B/c/ B |
+A>G A/B/ | c B c | A G A | B3 :|
+|: B e B | c A/B/ c | B c/B/ A/G/ | A/G/ A/B/ A |
+B e B | c A/B/ c | B c/B/ A/G/ | A3 :|
+S:https://www.folktunefinder.com/tunes/99405
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/18eme.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

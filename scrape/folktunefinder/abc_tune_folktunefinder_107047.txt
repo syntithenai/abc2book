@@ -1,0 +1,23 @@
+X: 9
+T: Shandon Bells
+I: Shandon BellsJ-25Djig
+M: 6/8
+R: jig
+K: D
+B| "D"AFD DFA| ded cBA| "Em"BGE EFA| "A7"B2 A Bcd|
+   "D"AFD DFA| ded cBA| "G"Bcd "A7"ecA|1 "D"d3 dc :|2 "D"d3 d2|]
+|:g| "D"f2 (d d)ed| faa afd| "A"cAA eAA| "A7"cBc efg|
+   "D"f2 (d d)ed| faa afd| "G"Bcd "A7"ecA| "D"d3 d2:|
+%%text Roaring Jelly  J-25
+%%vskip .2cm
+S:https://www.folktunefinder.com/tunes/107047
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

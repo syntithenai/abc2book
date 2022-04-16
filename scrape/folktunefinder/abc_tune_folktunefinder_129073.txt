@@ -1,0 +1,31 @@
+X:1
+T: kokyouno hitobito.mid
+M: 4/4
+L: 1/8
+Q:1/4=100
+K:C
+V:1
+%%MIDI program 52
+E4 D C E D| C2 c2 A c3| G4 E3 C | D6 z2 |
+E4 D C E D | C2 c2 A c3 | G2 E3/2 C/ D2 D2 | C4-CDEF |
+G6 E2 | F4 A4 | G2 E6 | F2G2A2B2 |
+c6 d2 | c4 A4 |c4 B4 |c6 z2 | B3 c d2 G2 | G3 A G2 c2 |
+c2 A2 F2 A2 |G6 z2 | E4 DCED | C2 c2 A2 c2 |G2 E3/2C/ D2 D2 | C6 z2 |]
+V:2
+%%MIDI program 52
+E4 D C E D | C2 A2 F A3 | E4 C3 C | B,6 z2 |
+E4 D C E D | C2 A2 FA3 | E2 C3/2 C/ B,2 B,2 | C6 z2 |
+E4 D C E D | C2 c2 A2 c2 | G4 E2 C2 | D6 z2 |
+E4 D C E D | C2 c2 A2 c2 | G2 E3/2 C D2 D2 |C6 z2 |
+G3 G G2 F2 |E3 ^D E2 E2 |F2 F2 D2 C2 |B,6 z2 |
+C4 B, C C B, |C2 A2 F2 A_A | G2 E3/2 C/ B,2 B,2 |C6 z2 |]
+S:https://www.folktunefinder.com/tunes/129073
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,166 @@
+X:10
+T:Gypsy Hornpipe
+A:Yorkshire
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+L:1/8
+M:4/4
+N:Dance Music, 1820-1850
+O:England
+R:Hornpipe
+Z:Warren Armstrong
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000034c.html
+%%ID:0000034c
+K:A
+E2|\
+"A"A2 AB Acec|"D"defg agag|"A"ecAc ecAc|"E"dBGB dBGB|
+"A"A2 AB Acec|"D"defg agaf|"A"ea"D"fd "A"cA"E"BG|"A"A2 A2 A2 :|
+|:cd|\
+"A"efed deae|"D"fefg "A"a2 ag|"D"fa"A"ea "D"fa"A"ea|"D"fgaf "E"edcB|
+"A"A2 AB Acec|"D"defg agaf|"A"ea"D"fd "A"cA"E"BG|"A"A2 A2 A2:|
+% T:Untitled Hornpipe (IV)
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Spring Gardens Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:Bb
+% T:Untitled Hornpipe (V)
+% M:4/4
+% R:Hornpipe
+% K:Bb
+% T:Miss Menager's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Miss Grayton's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Milton Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Slayley Bridge Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Hopkins Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:Bb
+% T:Black's Hornpipe
+% M:4/4
+% Q:1/4=200
+% R:Hornpipe
+% K:Bb
+% T:Steam Packet Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Mattraim Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:Bb
+% T:Nelson Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Lincolnshire Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% K:E
+% T:Stanley Ferry Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% K:E
+% T:Borobridge Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Sheffield Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:C
+% T:No Song No Supper
+% M:6/8
+% R:Jig
+% K:D
+% T:Kiss My Lady
+% M:6/8
+% R:Jig
+% K:G
+% T:Quick and Merry
+% M:6/8
+% R:Jig
+% K:D
+% T:Capuchin
+% M:6/8
+% R:Jig
+% K:D
+% T:I Would if I Could
+% M:6/8
+% R:Jig
+% K:D
+% T:the Lancers
+% M:6/8
+% R:Jig
+% K:D
+% T:Molly Malone
+% M:6/8
+% R:Jig
+% K:D
+% T:the Game Chicken
+% M:6/8
+% R:Jig
+% K:G
+% T:Hops and Steps
+% M:6/8
+% R:Jig
+% K:G
+% T:the Oaks Assembly
+% M:6/8
+% R:Jig
+% K:G
+% T:Eython Cottage
+% M:6/8
+% R:Jig
+% K:A
+% T:Linky Lanky
+% M:6/8
+% R:Jig
+% K:G
+% T:the Young Quakers
+% M:6/8
+% R:Jig
+% K:G
+% T:the Cabriolet
+% M:6/8
+% R:Jig
+% K:F
+% T:Rose and Colin
+% M:6/8
+% R:Jig
+% K:G
+% T:Mrs Eds. of Wood End's Favourite
+% M:6/8
+% R:Jig
+% K:G
+% T:the Summer Dance
+% M:6/8
+% R:Jig
+% K:G
+S:https://www.folktunefinder.com/tunes/99582
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Helperby/Helperby.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

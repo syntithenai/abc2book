@@ -1,0 +1,25 @@
+X: 10
+T:Cambrian Lyrist,The. ST.10
+M:6/8
+L:1/8
+Q:110
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Quadrille
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:G
+GA|B2B BAG|d2d dcB|g2g gfe|dcB Adc|!
+B2B BAG|d2d dcB|g2g fef|g2gg2:|!
+|:g|f2g agf|g2bd2g|f2g agf|gab dec|!
+B2B BAG|d2d dcB|g2g fef|g2gg2:|]
+S:https://www.folktunefinder.com/tunes/104122
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

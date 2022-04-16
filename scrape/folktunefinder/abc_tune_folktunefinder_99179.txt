@@ -1,0 +1,32 @@
+X:11397
+T:Mulieira d'Ancandeira II (en Sol)
+R:mueira
+C:versin d'Antn de Fundaveiga (gaiteru)
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=150
+K:G
+G |: c2 c d2 c | BA G2 EF | G2 G B2 A | GFE G3 |
+G2 F A2 G | FED DEF |G FED |1 G4 G G :|2 C3 CDE |
+|: F4 GF | ED C2 EE | EDC B,DD | D C2 CDE |
+F3 AGF | ED C2 EE | EDC B,D|1 C3 CDE :|2 C4 C G |
+|: A2 G DEF | G2 E CEE | F2 D B,DD | ED C3 G |
+A2 G DEF | G2 E CEE | F2 B,DD |1 C4 C G :|2 C4 |
+d|:g2 g a2 g|fe d2 Bc|d2 d f2 e|dcB d3|
+d2 c e2 d|cBA ABc|ded cBA|1 d4 d d:|2 G3 GAB|
+|:c4 dc|BA G2 BB|BAG FAA|A G2 GAB|c3 edc|
+BA G2 BB|BAG FAA|1 G3 GAB:|2 G4 G d|
+|:e2 d ABc|d2 B GBB|c2 A FAA|BA G3 d|
+e2 d ABc|d2 B GBB|c2 A FAA|1 G4 G d:|2 G4
+S:https://www.folktunefinder.com/tunes/99179
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

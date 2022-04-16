@@ -1,0 +1,25 @@
+X: 1
+T:Valse Gitane
+M:3/4
+L:1/8
+C:Montbel
+S:French Creek
+K:D
+A3^GA2|D2F2A2|d3=cB2|A2F2A2|G3FE2|=c3BA2|G2F2G2|AB=c2B2|!
+A3^GA2|D2F2A2|d3=cB2|A2F2A2|G3FE2|=c3BA2|G2F2E2|D6:||!
+A2 FA FA|d2=c2B2|A2 FA FA|d2=c2B2|G2EG EG|=c2B2A2|G2F2G2|AB =c2B2|!
+A2FA FA|d2=c2B2|A2FA FA|d2=c2B2|G2 EG EG|=c2B2A2|G2F2E2|D6:||
+S:https://www.folktunefinder.com/tunes/130285
+S:http://michel.bellon.free.fr/Musique/abc/frchcrk.abc
+S:http://pineycreekweasels.net/andy/tunes/frchcrk.abc
+S:http://www.pineycreekweasels.net/andy/tunes/frchcrk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

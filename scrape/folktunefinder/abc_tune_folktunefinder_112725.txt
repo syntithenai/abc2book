@@ -1,0 +1,27 @@
+X:298
+T: Jia li you ge qian wan luo
+N: C0790
+O: China,Fujian, Zhangzhou
+S: MM, Seite 17, 1]
+N: Die Stuecke sind meist uebersteuert, also verzerrt.
+N: Vereinzelt Verzierungen.
+R: Shange]
+M: 2/4
+L: 1/16
+K: C
+d3ed2c2 | d3ed4- | d6e2 | c3de4 | d2c2A4
+d2d4A2 | G3AG2E2 | D8
+d6^c2 | A2^c2A4 | G8
+S:https://www.folktunefinder.com/tunes/112725
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

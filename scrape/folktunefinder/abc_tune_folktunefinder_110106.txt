@@ -1,0 +1,26 @@
+X:59
+T:John's Folly
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+C:Colin Hume, 2000
+N:For John Konvalinka
+K:G
+P:A
+|: "G"B2 "^/"B/2G/2-G | "F"A2 "^/"A/2=F/2-F | "Em"GB "^/"AG | "D7"AF "^/"ED |\
+"G"B2 "^/"B/2G/2-G | "F"A2 "^/"A/2=F/2-F | "Em"GB "^/"AG | "D7"A2 "G"G2 :|
+P:B
+|: "G"dB/2c/2 "^/"de | "G"dB "^/"AG | "D"AD "^/"DF/2G/2 | "D7"AF "^/"ED |\
+"G"dB/2c/2 "^/"de | "G"dB "^/"AG | "D"AD "^/"DF/2G/2 | "D7"A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/110106
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

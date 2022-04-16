@@ -1,0 +1,28 @@
+X: 5
+T: Batchelder's Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: F
+|:c|\
+"F"f2af "(C)"efge|"F"f2c2c2=Bc|"Bb"dcBA "Gm"BAGF|"C"EFGA Bcde|
+"F"f2af efge|f2c2c2=Bc|"Bb"dcBA "Gm"BAGF|1"C"EFGE"F"F3:|2"C"EFGE"F"F4||
+|:\
+"F"A2cA cAcA|"Bb"B2 dB dBdB|"F"A2cA cAcA|"C"BAGF EFGB|
+"F"A2cA cAcA|"Bb"B2dB dBdB|"F"Acfa "C"bgeg|1"F"f2a2f4:|2"F"f2a2f3|]
+S:https://www.folktunefinder.com/tunes/113014
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

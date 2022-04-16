@@ -1,0 +1,37 @@
+X:205
+T:O'Connell's Lamentation
+M:6/6
+L:1/8
+S:Sergt. James O'Neill
+R:Air
+K:C
+"Andante"E|A2 d/2c/2 AGE|Gcd ea^f|gec dcA|GE^F G2 E|
+Adc AGE|c3/2d/2e/2^f/2 gea|gec dcA|A3-A2||
+e/2^f/2|g3/2^f/2a/2f/2 g3/2b/2a/2g/2|f/2e/2d/2e/2f/2d/2 e2 A|
+c/2B/2c/2d/2e/2^f/2 ge/2c/2A/2| GEc/2A/2 GEG|
+AA/2B/2c/2A/2 BB/2c/2d/2B/2|cc/2d/2e/2^f/2 gea|
+gec dcA|A3-A2||
+A/2B/2|cE^F G2 A/2B/2|c/2B/2c/2d/2e/2^f/2 gea|
+g/2f/2e/2g/2f/2e/2 d/2f/2e/2d/2c/2B/2|cE^F G2 A/2B/2|
+cE^F G2 A/2B/2|c/2B/2c/2d/2e/2^f/2 gea|
+gec dcA|A3-A2||
+%
+% Comparing very favorably with compositions of this class, "O'Connell's
+% Lamentation" is presented as the production of two members of the once
+% famous Irish Music Club of Chicago which flourished in the early years
+% of the twentieth century. The first and second parts were outline by
+% John McFadden, an untutored fiddler of fertile fancy and dextrous
+% execution. The third part as  well as the whole arrangement is the
+% work of Sergt. James O'Neill, the club's worthy scribe.
+S:https://www.folktunefinder.com/tunes/106095
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

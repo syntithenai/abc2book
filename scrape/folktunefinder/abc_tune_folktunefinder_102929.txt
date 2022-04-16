@@ -1,0 +1,24 @@
+X: 10
+T: Kukkuva kello
+T: Cuckoo clock
+O: trad Finland
+R: shottish
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+|: "G"B>c BA G2 Bd | g2 gB d2 d2 \
+|1,3 "D7"f2 fe c2 c2 | "C/G"e2 ed "G"B2 G2 \
+:|2,4 "D7"f2 fe dc BA | "G"G2 B2 G4 :|
+|: "C"e2 ef g2 fe | "G"dB GB d2 d2 \
+|1,3 "D7"cA FA c2 c2 | "G"B2 GB d2 d2 \
+:|2,4 "D7"f2 fe dc BA | "G"G2 B2 G4 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/102929
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish.abc
+% Rhythm Shottish
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

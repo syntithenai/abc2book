@@ -1,0 +1,32 @@
+X:3
+T:Alick C. McGregor
+R:reel
+C:George S. MacLennan\.i
+D:Andrea Beaton, The Tap Session
+O:20th century Scottish
+B:Brenda Stubbert the 2nd Collection
+N:original pipe setting published by the composer without repeats
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:A
+a|ecBc A/A/A Af|ecBA c2 cf|ecBc A/A/A Af|ecac B/B/B Bf|
+ecBc A/A/A Af|ecBA c2 cf|efae faef|ceBc A/A/A A:|
+|:e|f2 ef ecae|f2 ef c2 ce|f2 ef ecae|f2 ec B2 Be|
+f2 ef ecae|f2 ef c2 cf|efae faef|ceBc A/A/A A:|
+|:B|AAAc AAAc|AcBd ceca|AAAc AAAc|ecac B/B/B Bc|
+AAAc AAAc|AcBd cece|faef efce|ceBc A/A/A A:|
+|:f|ecce fddf|ecac e2 ef|ecce fddf|ecac B/B/B Bf|
+ecce fddf|ecac e2 ef|efae faef|ceBc A/A/A A:|
+S:https://www.folktunefinder.com/tunes/103083
+S:http://cranfordpub.com/tunes/abcs/andrea_tap.abc
+S:http://www.cranfordpub.com/tunes/abcs/andrea_tap.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

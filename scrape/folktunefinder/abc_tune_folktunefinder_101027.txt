@@ -1,0 +1,21 @@
+X: 45
+T:The Horse's Bransle
+M:4/4
+L:1/4
+C:Trad
+K:G
+|: G>A BB| cBAc|BAGF| E2D2|G>A BB| cBAc|BGAF| G2 G2
+:: d c/2B/2 AB| c B/2A/2 GB|AGFG| A>B A2|\
+   d c/2B/2 AB c B/2A/2 GB|AGGF G2 G2 ::
+_B A/2G/2 _B A/2G/2| FG A2|DEFG| A_B A2 | \
+_B A/2G/2 _B A/2G/2| FG A2|DEFG| GF G2 :|
+S:https://www.folktunefinder.com/tunes/101027
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_english.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

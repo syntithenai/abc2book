@@ -1,0 +1,24 @@
+X: 19
+T:D-Dur-Schleuniger #12
+M:3/4
+L:1/8
+C:trad
+R:Schleuniger
+S:j.m. schmalnauer: "tanz musik", bhlau, wien 1996 (compa bd. 5) 
+N:ganze Applikatur
+K:D
+(a2|a2)(gf)(ge|fD)(fD)fd|eAeAed|fDfDfd|
+gAgAgA|fafabc'|d'c'd'age|d4  :|
+|:(a2|a2)d'c'd'b|c'Ac'Ac'a|bebeba|c'Ac'Ac'a|
+d'ed'ed'b|c'Ac'Ac'a|bd'ed'c'e|a4   :|
+S:https://www.folktunefinder.com/tunes/113704
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Schleuniger
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

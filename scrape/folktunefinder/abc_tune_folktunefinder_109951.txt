@@ -1,0 +1,25 @@
+X:13
+T: Der verkleidete Markgrafensohn
+N: Q0006E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Weiler
+N: Version mit zwei Sechzehnteln kodiert (gleichberechtigte Fassungen)
+R: Ballade, Braut - Werbung
+M: 3/4
+L: 1/16
+K: G
+D2 | D2D2G4F2E2 | F2G2A4z2
+A2 | B2A2G4F4 | E4D4z2
+A2 | A2A2B2A2A2d4 | c2B2A2G4A2
+B2 | cBA2B4A2G2 | F4G4z2
+S:https://www.folktunefinder.com/tunes/109951
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, braut - werbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

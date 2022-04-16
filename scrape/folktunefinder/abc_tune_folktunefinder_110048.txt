@@ -1,0 +1,35 @@
+X:1
+T:Untitled 1
+%%NOTE: There are things like sep and begintext which are not mentioned here - see Format.txt
+L:1/8
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+K:A
+P:A
+V:1
+|: "A"A2 AB c^Bcd | efed cBAc | "E7"B2E2B2E2 | BcBA G2E2 |\
+"A"A2 AB c^Bcd | efed cBAc | "E7"B2E2e2 Bd | c2B2"A"A2z2:|
+V:2
+%%MIDI program 72
+|:A2 A4 B2 | c2 c4 d2 | e2 B2 e2 B2 | dedc BAGB |\
+A2 A4 B2 | c2 c4 d2 | e2 B2 G2 E2 | A2 E2 A,4:|
+%%vskip 0
+P:B
+V:1
+|: "D"fede fede | f2 a2-a2z2 | "A"edcd edcd | "A7"edcd e4 |\
+"D"fede fede | f2 a2-a2z2 | "A"edce "E7"dcBd | "A"c2"E7"B2 "A"A4 :|
+V:2
+|: dcBc dcBc | d2 f6 | cBAB cBAB | c2A2B2c2 |\
+dcBc dcBc | d2 A2 d2 A2 | c4 B4 | A2E2 A,4 :|
+S:https://www.folktunefinder.com/tunes/110048
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

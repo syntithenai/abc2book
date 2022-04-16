@@ -1,0 +1,30 @@
+X:1
+T:Wizard's Walk Harmony 1
+C:copyright 1998 Jim Thompson
+N:To be played with Jay Ungar's ``The Wizard's Walk''
+R:Reel
+E:28
+M:C
+K:Em
+e4 d2c2|B2A2 G4|A4 F4|G8|
+a4 g2f2|e2d2 c4|d4 B4|c8|
+E:18
+B2^d2f2b2|c2e2g2c'2|B2^d2f2b2|c2e2g2c'2|
+B2^d2c2e2|b2^d'2c'2e'2|b2a2f2a2|f2^d2 B4||
+|:e'2b2g2e2|^d'2b2f2^d2|=d'2a2f2=d2|^c'2a2e2^c2|
+=c'2g2e2=c2|b2g2e2B2|_b2g2e2_B2|e4^d4:|
+T:coda
+E:28
+e'4 =d'2c'2|b4a4|g2b2g2e2|e8|]
+T:Alternate B part
+|: e'8 | ^d'8 | d'8 | ^c'8 | c'8 | b8 | _b8 | b8 :|
+S:https://www.folktunefinder.com/tunes/110046
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/wizard-harmony.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

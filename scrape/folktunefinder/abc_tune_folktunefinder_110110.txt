@@ -1,0 +1,43 @@
+X:63
+T:Knives and Forks
+C:Arr. Laura Conrad
+S:Neal, c.1726
+%%MIDI gchordoff
+%V:1 program 1 40
+%V:2 program 2 41
+%V:3 program 3 42 alto
+M:3/2
+%%MIDI beat 100 95 80
+Q:1/2=108
+L:1/8
+F:http://serpent.laymusic.org/~lconrad/music/fromweb/frank/knives.abc   2008-08-30 08:28:22 UT
+K:G
+V:1
+|:"G"g2 ag "D"f2 gf "C"efge | "D"f2 d4 f2 e2 d2 | "C"c2 dc "G"B2 cB "D"ABcd | "G"B2 G4 B2 A2 G2 :|
+V:2
+|:B4 A2BA GABc | dcBA GFGA G2F2 | E4G2AG F2GF | G2D2 B,2D2- DEFG:|
+V:3
+L:1/2
+|: G, D C | D A, D | C D A, | G D, B, :|
+V:1
+L:1/8
+|:"G"GABc d2 G2 F4 | "Am"E2 A4 G2 "D"F2 ED | "G"GABc d2 g2 "D"F4 | "G"D2 G4 B2 A2 G2 :|
+V:2
+|:BAGA B4- Bcd2 | c8 d2cB | BAGA G2E2 D4 | D2EC B,2D2 C2B,2:|
+V:3
+L:1/2
+|: G, D C | A, C D | B, B,/ C/ D | B, D, G, :|
+S:https://www.folktunefinder.com/tunes/110110
+S:http://serpent.laymusic.org/~lconrad/music/fromweb/frank/knives.abc
+S:http://serpent.laymusic.org/~lconrad/music/fromweb/frank/knives.abc
+S:http://www.colinhume.com/ABC.txt
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

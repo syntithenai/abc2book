@@ -1,0 +1,22 @@
+X: 13
+T:Alexanders Hornpipe
+R:hornpipe
+C:Trad
+M:4/4
+L:1/8
+K:D
+ (3ABc |: dAFA DFAd | fdcd A2 ef | ~g2 ge fdcd | (3efe (3dcB A2 (3ABc |
+dAFA
+ DFAd | fdcd A2 ef | ~g2 fe fdcd | eddc d2 AG:|
+ |: FAdA FAdA | GBdB GBdB | Acec Acec | dfaf (3gfe (3cBA | FAdA FAdA |
+GBdB GBdB | Acef gecd | eddc d2 AG:|
+S:https://www.folktunefinder.com/tunes/101042
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

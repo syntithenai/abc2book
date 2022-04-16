@@ -1,0 +1,40 @@
+X:90
+T:Bucks of Oranmore, The
+M:C|
+R:Reel
+S:Original O'Neill's
+Z:This is the classic last tune of a session - fire away!
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000000E8J(Arcady: Many Happy Returns)
+D:anop=B0000058KS(Various Artists: The Dance Music Of Ireland: Jigs &amp; Reels)
+D:asin=B000005CNS(The Green Fields Of America: The Green Fields Of America: Live In Concert)
+D:asin=B000005CQN(Martin Hayes, Dennis Cahill: The Lonesome Touch)
+D:asin=B000005CRY(Matt Molloy: Matt Molloy)
+D:asin=B000005CU6(The Bothy Band: BBC Radio One: The Bothy Band Live In Concert)
+D:asin=B0000013AJ(I'm Leaving Tipperary: I'm Leaving Tipperary)
+D:asin=B000005CMK(Joe Burke, Charlie Lennon: Traditional Music Of Ireland)
+D:asin=B00000DCW4(Various Artists: Joyful Noise: Celtic Favorites From Green Linnet)
+D:anop=B000009DPZ(Steeleye Span: The Big Squeeze)
+K:A
+dB|: (3ABA FA A2 dB|(3ABA FA BE {G}(3EDE|1 A2 FA A2 Bd|(3efg fd ecdB:|2\
+DEFG AFAB|defd ecdB|:\
+AD (3FED ADBD|ADFA BE {G}(3EDE|1 AD (3FED AFAB|(3efg fd ecdB:|2\
+DEFG AFAB|defd efge|:\
+(3aba fd eddf|~a2 fd eB (3BAB|a2 fd edef|(3gag fd eBBg::\
+(3faf df (3efe df|(3faf df eB {d}(3BAB|1 \
+(3faf df edef|~g2 fd eB {d}(3BAB:|2\
+fa {b}(3a^ga b2 af|defd edBd|:\
+Adfd edfd|Adfd edBd|1 Adfd edef|(3fag fd edBd:|2\
+fa{b}af b2 af|d2 fd edBd||
+S:https://www.folktunefinder.com/tunes/111547
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

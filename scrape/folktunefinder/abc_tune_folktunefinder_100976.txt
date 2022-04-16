@@ -1,0 +1,25 @@
+X:16
+T:Wellington's Advance
+R:double jig
+M:6/8
+L:1/8
+Q:3/8=145
+K:Ador
+E.A.A AGA|cBA c2d|~e3 efg|dBG GFG|
+E.A.A AGA|cBA Bcd|e(3.g.f.e dcB|c.A.A BAG|
+E.A.A AGA|cBA c2d|~e3 efg|dBG GFG|
+E.A.A AGA|cBA Bcd|e(3.g.f.e dcB|c.A.A ~A2 e|
+aea a.ea|aed cBA|BAG ~g3|dBG GBd|
+e2a a^ga|e2g gfg|e(3.g.f.e dcB|cAG A2e|
+aea a.ea|aed cBA|BAB ~g3|dBG GBd|
+e2a a^ga|e2g gfg|e(3.g.f.e dcB|c.A.A A2G|
+S:https://www.folktunefinder.com/tunes/100976
+S:http://www.slainte.ch/abc/road.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

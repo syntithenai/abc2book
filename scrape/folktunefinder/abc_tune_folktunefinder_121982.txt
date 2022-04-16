@@ -1,0 +1,31 @@
+X: 320
+T: THE ROMANTIC KERRYMAN
+T: An ciarraigheach finnsgeulach
+B: O'Neill's 320
+M: 3/4
+L: 1/4
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "With spirit"
+N: "Collected by F.O'Neill"
+K:D
+(A/G/) \
+| (FED) | (F2G) | A2(A/G/) | (ABc) \
+| .d.d.d | .c.d.c | .A.B.c | d2(A/G/) |
+| (FED) | (F2G) | A2(A/G/) | ABc \
+| dfd | cAG | FDD | D2 ||
+|| (A/G/) \
+| (FGA) | (ABc) | d2e | fed \
+| cBA | ABc | d3- | d2(d/e/) |
+| .f.e.d | .c.A.G | FDE | FGA \
+| Add | cAG | FDD | D2 ||
+S:https://www.folktunefinder.com/tunes/121982
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0320_jc.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/0320_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

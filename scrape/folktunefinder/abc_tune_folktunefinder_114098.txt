@@ -1,0 +1,37 @@
+X:32
+T:Brandywine
+S:As played by Old Guard
+M:2/4
+Q:1/4=90
+L:1/8
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|:gg dd|B/A/B/c/ dB|GG AA|B/A/B/c/ Bd|gg dd|B/A/B/c/ dB|
+GG A/G/A/B/|1 G2 z d:|2 G2 z d|:^cc cc|d/^c/d/e/ dd|^cccc|d2 z B|
+cc cA|BB BG|AA AB|1 G2 z d:|2 G2 z G/A/|:BB (Bc)|(BA) AA/B/|cc (cd)|
+(cB) BB/c/|dd (de)|cc (cd)|BB/G/ AA/F/|1 G2 z G/A/:|2 G2 z\
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!d|:Bz TA2|G/F/G/A/ BB,|DD FF|G/F/G/A/ Gd|Bz TA2|G/F/G/A/ BD|
+B,B, C/B,/C/D/|1 B,2 zd:|2 B,2 z2|:\
+E/G/E/G/ E/G/E/G/|F/E/F/G/ FF|E/G/E/G/ E/G/E/G/|F2 zG|
+AA AD|DD DB,|CC CD|1 B,2 z2:|2 B,2 zG/A/|:GG (GA)|(GF) FF/G/|AA (AB)|
+(AG) GG/A/|BB (Bc)|AA (AF)|DD/B,/ CC/A,/|1 B,2 z(G/A/):|2 B,2 z\
+S:https://www.folktunefinder.com/tunes/114098
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

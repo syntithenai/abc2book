@@ -1,0 +1,27 @@
+X: 75
+T:Mr Richardson's Jig. WI.075
+M:6/8
+Q:120
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Jig
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:G
+G2G- GDB,|G,B,D GAB|c3 B3|ABG FED|!
+G2G- GDB,|G,B,D GAB|cde def|1gdc BAB:|2g3 G3||!
+g2g- gdB|gdB def|gag gdB|Aag fed|!
+g2g- gdB|gdB def|gab agf|gdB GBd|!
+g2g- gdB|gdB def|gag gdB|Aag fed|!
+gab fga|efg "tr"fed|cde def|gdc BAB|]
+S:https://www.folktunefinder.com/tunes/121161
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

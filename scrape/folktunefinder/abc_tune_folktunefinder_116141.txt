@@ -1,0 +1,31 @@
+X:13096
+T:Pigeon on the Gate
+M:C|
+L:1/8
+C:Trad.
+S:Jerry Holland
+R:Reel
+N:From "canadian.abc"
+H:A Gm version of the Edor tune.
+Z:I have changed the e's in the second part to =e, which sounds better. I
+Z:have also put a z at the beginning, to make it fit in with the other
+Z:tunes.
+K:Gm
+zc|:dG (3GGG {e}dcAc|d2 de dcAB|cF (3FFF cFAB|c2 cf dcBc|
+dG (3GGG {e}dcAc|d2 de dcAG|FAcf afga|fdcA GABc:|
+|:dg (3ggg fagf|dgga bgaf|dcd=e fgfd|cA f2 fgaf|
+dg (3ggg fagf|dgga bgaf|dcd=e fgfd|1 cAFA GABc:|2 cAFA G2||
+S:https://www.folktunefinder.com/tunes/116141
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

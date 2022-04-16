@@ -1,0 +1,28 @@
+X:5
+T:Farewell Friend
+R:march
+C:Kinnon Beaton
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+B:The Beaton Collection,2000 
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:288
+K:G
+B<A|G2 D2 g>fe<d|e2 c2 d3 B|c3 A c>BA<G|F2 G<A A2 B<A|
+G2 D2 g>fe<d|e2 c2 d3 B|D>ge<c d>Bc<A|B2 G2 G2:|
+|:B<c|d3 B c>BA<G|c2 c<d e2 g<e|d2 B<G g>fg<b|[1a2 A2 A2 Bc|
+d3 B c>BA<G|c2 c<d e2 g<e|d2 B2 c>AF<a|g2 G2 G2:|
+[2a2 A2 A2 B<A|G2 D2 g>fe<d|e2 c2 d3 B|D>ge<c d>Bc<A|B2 G2 G2|]
+S:https://www.folktunefinder.com/tunes/120443
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

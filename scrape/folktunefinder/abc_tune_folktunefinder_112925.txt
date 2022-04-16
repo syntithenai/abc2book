@@ -1,0 +1,40 @@
+X:498
+T: Diu jiezhi
+N: C1166
+O: China,Liaoning
+S: Zhongguo Minge Jing Xuan, 82]
+N: ohne Ziwschenspiele, aber 5.letzter Takt als Ziwschenspiel.  Eine
+N: doppelte Punktierung wurde in eine einfache gendert!  
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+c2f2dcdf | c6dc | A2A2G2A2 | c6z2
+z2d4c2 | f2fgd2c2 | AcA2G2A2 | c3cA2d2 | c8
+z2f2f2dc | fdf2d2zc | d2dcGAGA | c2c4F2
+GAGFG2A2 | c4A4 | A4AcA2 | G2F2A3G | F6z2
+f4g2d2 | c2c4dc | A2A2G2A2 | c2c2z4
+d4d2cd | f2gfd2c2 | A2cAG2A2 | c3cA3d | c6z2
+d2GAcdcd | f2fgf2dc | d2dcGAGA | c2c4F2
+G2F2G2A2 | c4d4 | A4AcA2 | G2F2A3G | F6z2
+A2A2G2A2 | c2c2z2dc | A2c2G2A2 | c6z2
+A2c2d2c2 | f2gfd2c2 | c4G2A2 | c3cA2d2 | c8
+z2A2c2cd | f2gfd3c | d2dcGAGA | c2c4
+F2 | GAGFG2A2 | c4d4 | A4AcAG | F2F2z2G2 | F6z2
+f2f2g2d2 | fdc2e4 | z2c2G2A2 | c2d2c4
+A2c2d2c2 | f2gfd2c2 | c4G2A2 | c3cA2d2 | c8
+z2fdf2dc | A2d2c4 | A2c2d2cd | f3dc2A2 | GAGFGFG2
+GAGFG2G2 | z2cAz2c2 | A4A2G2 | f3fd2g2 | f8
+S:https://www.folktunefinder.com/tunes/112925
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:96
+T:Hora Lautareasca
+O:rumania
+M:C|
+K:Bm % But C natural and D sharp (nearly) all the time.
+% The scale is really B c ^d e ^f g a b
+B^df|:b^a^c'b b^a^c'b|b^a^c'a b3^g|=a^gba a^gba|a^gbg a2B2|z^def =ge^ab|
+^c'2b^a gefg|1 =a2gf e^deg|f3B ^dfa2:|2 =a2gf efe^d|^dB=cA B3e||
+|:^defg afg2|e^deg fffB|ggg2 fffB|ggg2 fffe|^defg afg2|e^deg fffB|
+g2fg efe^d|1 ^dB=cA B3e:|2 ^dB=cA B3B|:B=cAB =cABc|^dB=cd e^d=cB|
+AB=c^d efe^d|1 ^dB=cA B^df2|B=cAB =cABc|^dB=cd e3a|aggf efe^d|
+^dB=cA B3B:|2 ^dB=cA B3g|a^gba a=ggf|fee^d d=ccB|AB=c^d efe^d|^dB=cA B4||
+S:https://www.folktunefinder.com/tunes/111324
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

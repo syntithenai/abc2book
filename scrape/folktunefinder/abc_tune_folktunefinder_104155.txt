@@ -1,0 +1,21 @@
+X:2
+T:Up we't Eli Eli.
+B:Bremner: Instructions for the Guitar, London, c.1765, NLS MH.s.252(1)
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+N:B's written as accidentals in a C key sig
+M:9/8
+L:1/8
+K:CMix
+C2c' g2e      g2e     | c2c'     g2e      f2d|c2c' g2e  g2a|bab [d2G2]e fed:|
+c2c  ede      gfe     | c2c      d2e      fed|c2c  ede  gfe|gfg [d2G2]e fed:|
+c2C (g2{e})C (c'2{e})C|(g2{e})C (c'2{e})C fed|c2C  c'2C g2C|f2G  d2   e fed:|
+c2G  E2G      C2G     | c2G      C2e      fed|c2G  E2G  F2A|BAB  D2   E FED:|
+S:https://www.folktunefinder.com/tunes/104155
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,47 @@
+X:17 
+T:Variation no. 17 
+C:J.S.Bach 
+M:3/4 
+L:1/16 
+Q:440 
+V:2 bass 
+K:G 
+[V:1] Bdfa g3c BAGB|A^ceg f3B AGFA|GBdf e3A GFEG| 
+[V:2] G,,B,,A,,C, B,,D,C,E, D,F,E,G, |F,A,G,B, A,^CB,D [K:treble]CEDF|EGFA GBA^c Bdce| 
+% 
+[V:1] FEFE FAd^c dfa=c|BgAf Ge=Fd EcDB|cEBD ACGB, ^FA,EG,| 
+[V:2] d^cdcd8-|dB=cA BGA=F GEFD|ECDB, [K:bass]CA,B,G, A,^F,G,E,| 
+% 
+[V:1] A,FG,E [K:bass]F,DE,C D,B,C,A,|B,,A,,B,,A,, B,,D,G,F, G,2z2[K:treble]|dbca BgAf GeFd|Ed^cB cea2 Pa2z2| 
+[V:2] F,D,E,C, D,B,,C,A,, B,,G,,A,,F,, |G,,F,,G,,F,, G,,4- G,,D,G,F,|G,[K:treble]B,DF G3A B^cdB|^cBAG FE^D^C [K:bass]B,A,G,F,| 
+% 
+[V:1] BgAf GeF=d E^cDB|^CBA^G A^ce2 Pe4-|ede^c dB=cA BGAF| 
+[V:2] E,G,B,^D [K:treble]E3F GABG|AD^CB, CEAB ^cegB|AfGe FdE=c DBCA| 
+% 
+[V:1] GeFd E^cd/c/B c/B/ABg|g3f/e/ fdBG AFGe|FEFE FAd^c d2z2 :| 
+[V:2] B,GA,F [K:bass]G,EF,D E,^CD,B,|^C,A,B,,G, A,,F,G,,E, F,,D,E,,C,|D,^C,D,C, D,A,,F,,A,, D,,2z2 :| 
+% 
+[V:1] afge fdec dBcA|BGAF GEF^D EC=DB,[K:bass]|CA,B,^G, A,F,=G,E, =F,^D,E,^C,| 
+[V:2] D,,F,,A,,^C, D,3E, F,G,A,F,|G,B,,=C,D, G,,3F, G,A,B,^G,|A,C,D,E, A,,3^G, A,B,C^A,| 
+% 
+[V:1] ^D,^C,D,C, D,4- D,F,B,A, |G,B,A,=C [K:treble]B,^D^CE DFEG|FAGB A=cB=d ce^df| 
+[V:2] B,^A,B,A, B,F,G,=A, B,,2 (5:4:^D/E/D/^C/D/|[K:treble]EGFA GFEG F^DE^C[K:bass]|^D^CB,=D =CA,B,^G, A,=G,F,A,| 
+% 
+[V:1] egfa gbac' bgaf|gef^d ecBA GFE2-|EeB=d cBAc Bdce| 
+[V:2] G,E,F,^D, E,D,^C,E, D,E,F,D,|E,G,,A,,B,, E,,F,,G,,A,, B,,=C,=D,B,,|C,E,D,=F, E,G,^F,A, ^G,B,A,C[K:treble]| 
+% 
+[V:1] dBGc BA^GB AcBd| cA=GB Afge fdec'|c'2-c'/b/a/g/ fgaf e2d2-| 
+[V:2] B,DCE D=FE^G ^FAGB|AcBd cAB=G AFGE|FDE^C DB=CA B,GA,F| 
+% 
+[V:1] dBcA BgA=f Ge=Fd|E2 z/G/A/B/ cABG A^FGE|Fed2- d/e/f/g/f/e/d/c/ BgAf|GFGF GBdf g2z2 :| 
+[V:2] B,2 z/D/E/F/ GE=FD ECDB,[K:bass]|G,E,=F,D, E,CD,B, C,A,B,,G,|A,,G,^F,C, B,,D,G,B, DB,CA,|B,A,B,A, B,G,D,B,, G,,2z2 :|
+S:https://www.folktunefinder.com/tunes/124449
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

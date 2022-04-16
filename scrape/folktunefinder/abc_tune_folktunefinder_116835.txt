@@ -1,0 +1,23 @@
+X:13790
+T:Queen of the Rushes
+Z: id:dc-jig-103
+M:6/8
+L:1/8
+K:C Major
+F|E2C CB,C|F2D DCD|E2C CB,C|FDC B,CD|!
+E2C CB,C|F2D DCD|EGE FDB,|DCB, C2:|!
+c|BAG ABc|dBG GFD|cBc edc|dBG G2A|!
+_B2G A=Bc|dBG GFD|EGE FDB,|DCB, C2:|!
+E|G^FG cGE|G^FG cGE|FEF D^CD|_BAB DEF|!
+G^FG cGE|G^FG cG=F|EGE FDB,|DCB, C2:|!
+S:https://www.folktunefinder.com/tunes/116835
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

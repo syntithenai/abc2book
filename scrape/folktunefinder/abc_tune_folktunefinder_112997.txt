@@ -1,0 +1,30 @@
+X:9
+T:Ice on the Water
+C:George Reynolds
+S:Bernie Waugh
+R:Waltz
+M:3/4
+L:1/8
+K:G
+D2|:\
+"G"B2B3B|"D"c2d4|"C"cBAGFG|"G"BGD2D2|
+"G"B2B3B|"Bm"c2d4|"Am"cBAGFG|"D"A4D2|
+"G"B2B3B|"D"c2d3c|"C"cBAGFG|"G"BGD2D2|
+"F"=F2F3F|"Am"G2A3c|"Bb"_BAG=F"Dm"DF|"G"G6:|
+|:\
+"G"g2g2ga|"D"gfd2de|"F"=fefagf|"C"ecG3d|
+"G"g2g2ga|"D"gfd2de|"F"=fedcBc|"D"d4d2|
+"G"g2g2ga|"D"gfd2de|"F"=fefagf|"C"ecG3A|
+"Eb"_B3A Bd|"F"c_BA2c2|"Eb"_BAG=F"Dm"DF|"G"G6:|
+S:https://www.folktunefinder.com/tunes/112997
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w5.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w5.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

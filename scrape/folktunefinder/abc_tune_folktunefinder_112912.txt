@@ -1,0 +1,30 @@
+X:485
+T: Lan hua hua
+N: C0020
+O: China,Shaanxi, Shanbei (n\^irdlicher Teil der Provinz Shaanxi)
+S: I, 68]
+N: Saengerin: Huang Bai
+N: In Strophe 6 und 8 ist 2_ in Takt3 Auftakt zu Phrase 2.
+N: Eine Verzierung auf der letzten Note der Phrase 2.
+N: FREIER VORTRAG. Leicht variiert. 2. ((142)) Strophe wird von der
+N: Saengering anders gesungen als 1.
+R: Shange, Shanqu]
+M: 2/4
+L: 1/16
+K: F
+d2g2d2dc | d2g2d4- | d6g2
+c3dA2AG | F2D6
+G3Ac2c2 | A2d2c2A2
+GAGFD2C2 | D8
+S:https://www.folktunefinder.com/tunes/112912
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, shanqu]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

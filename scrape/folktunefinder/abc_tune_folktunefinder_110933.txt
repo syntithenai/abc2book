@@ -1,0 +1,26 @@
+X:1
+T:IX. Goe nightly cares,
+T:Cantus.
+C: John Dowland
+H: From A Pilgrimes Solace.
+H: Wherein is contained Musicall 
+H: Harmonie of 3. 4. and 5. parts,
+H: To be sung and plaid with the Lute and Viols.
+H: First published in 1612
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+K:G dor
+B c d3 c c2 d2 A2 z2 d2 d3 A B c d3 c c2 d2 A2 z2 d e f F > G A2 G A/ B/ c B A B/ G/ d d > e f F G A B c d/ e/ f/ g/ a > a g/ f/ d/ e/ f/ d/ e/ c/
+S:https://www.folktunefinder.com/tunes/110933
+S:http://www.laymusic.org/music/dowland/cares/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

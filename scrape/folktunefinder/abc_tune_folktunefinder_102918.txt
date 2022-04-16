@@ -1,0 +1,32 @@
+X: 1
+T: \"Algen
+C: Hans Sandin
+N: Hans Sandin is a member of NorrL\aatar
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+ EF GA \
+| "Em"BB EG cc BB | "F#7"^A2 G2 "B7"F=A GF \
+| "Em"EF GA B2 e2 | "B7"^d4- d4 \
+| "C"e3 =d "D7"cB AG | "G"B2 c2 "Am"G3 A |
+| "Em"B2 cB "C"^AG FE | "B7"F4 EF GA \
+||"Em"BB EG cc BB | "F#7"^A2 G2 "B7"F=A GF \
+| "Em"EF GA B2 e2 | "B7"^d4- d4 |
+| "C"e3 f "D7"e2 dc | "G"BB dd "D7"AA cc \
+| "Em"GG BB "B7"FA GF | "Em"E2 E2 E4 \
+|: "B7"FF GF "Em"EF GB | "Am"cc dc "G"B4 |
+| "C"ee fe "D"dd ed | "D7"ce dc "G"Bd cB \
+| "Am"Ac BA "Em"GF GA | "B7"B6 AG \
+| "B7"FE FA G2 F2 |1 "Em"E2 B,2 E4 :|2 "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/102918
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/Algen_Em32.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

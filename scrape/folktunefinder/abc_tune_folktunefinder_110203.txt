@@ -1,0 +1,41 @@
+X:1
+T:Alter Walzer
+R:walzer
+C:traditionell
+A:Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Instrumentale Volksmusik aus Tirol", K.Horak, Eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985
+N:im buch in C (1., 2. und 4. teil) und G (3. teil), einstimmig, erster ton g'
+N:im buch nr. 148 s. 127
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+GAB |\
+c2 cccc |  c2 edcB | A2 AAAA | A2 fedc |\
+B2 agfe | d2 bb(ag | b2) agfB | c2 z :|
+|: z z2 |\
+G3 c e2 | g3 a g2 | G3 c e2 | g3 a g2 |\
+ " >"G2 " >"c2 " >"e2 | g4 fe | e4 dc | (d^c)(d=c) B2 |
+(G3 B d2 | f3) (e f2) | (G3 B d2 | f3) e f2 |\
+ " >"G2 " >"c2 " >"e2 | g3 a g2 | g2 a2 b2  | c'e eg fd |\
+c2 z2 :|
+|: Bc |\
+W: weitere zwei sechzehn-taktige teile in G
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/110203
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/alter_walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

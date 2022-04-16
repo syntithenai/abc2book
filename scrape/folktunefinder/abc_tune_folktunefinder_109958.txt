@@ -1,0 +1,24 @@
+X:20
+T: Die Geburt im Walde
+N: Q0007F
+O: Mitteleuropa, Deutschland (BRD) , Hessen
+N: Melodievergleich zu Q0007E.
+R: Ballade, Geburt, Tod, Moral
+M: 3/4
+L: 1/8
+K: G
+D2 | G3ABc | A2G2A2 | B3cdB | A2z2
+GB | d2d2ed | dcc2AB | c2e2dc | cBB2
+GA | B3ABc | d3cB2 | c2B2A2 | G2z2
+S:https://www.folktunefinder.com/tunes/109958
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

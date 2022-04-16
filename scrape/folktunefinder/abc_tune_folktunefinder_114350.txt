@@ -1,0 +1,25 @@
+X:32
+T:Gallopp fraa Lom (Busserul)
+R:polkett
+Z:2000 Brian Wilson 
+Z:(from JC manuscript, and Pa Tre Man Hand)
+M:2/4
+L:1/8
+K:D
+FG
+|: "D"A2 "G"g2 | "D"g/f/d "A"f/e/c | "D"d>A FG
+|  A2 d2 | "A"dc EF | G2 B2 | "D"A>F DE | F3 F/G/
+|  "D"A2 "G"g2 | "D"g/f/d "A"f/e/c | "D"d>A FG
+|  A2 d2 | "A"dc EF | GE CE | "D"DD/D/ DD |[1 D3 F/G/ :|[2 D3 A ||
+P:B
+|: "D"Ad f>e | dA fd | "A"f/e/c ec | "D"df a2
+|  "D"Ad f>e | dA fd | "A"f/e/c ec | "D"df d2 :|
+S:https://www.folktunefinder.com/tunes/114350
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

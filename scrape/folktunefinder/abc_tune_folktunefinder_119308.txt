@@ -1,0 +1,20 @@
+X:52    %Music
+T:Sir Roger de Coverley     %Tune name
+Q:1/4=120     %Tempo
+M:9/8     %Meter
+L:1/8     %
+K:G
+B/A/ |: "G"G2 G "C"G2 e "G"dBG | "Am"A2 A ABG "D"FED | "G"G2 G "C"G2 e "D"def | "G"g2 G GAG "D"FED :|
+|: "G"dBd "C"ece "G"dBG | "Am"A2 A ABG "D"FED | "G"dBd "C"ece "D"def | "G"g2 G GAG "D"FED :|
+S:https://www.folktunefinder.com/tunes/119308
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+S:http://www.larkcamp.com/LarkLibrary/English/MickieZekley/MEEnglishDanceTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

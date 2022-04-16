@@ -1,0 +1,31 @@
+X:14
+T:The Butterfly
+M:9/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+N:Also for the dance "The Friendly Brooke"
+%%MIDI gchord GHIgIHGHI
+K:Em
+P:A
+|:"Em"B2E G2E "D"F3 | "Em"B2E G2E "D"FED | "Em"B2E G2E "D"FGA | "G"B2d d2B "D"AFA:|
+%%vskip 0
+%%vskip 0
+P:B
+|:"G"B2d e2f g3 | "G"B2d g2e "D7"dBA | "Em"B2d e2f g2a | "G"b2a g2e "D7"dBA:|
+%%vskip 0
+%%vskip 0
+P:C
+|:"Em"B3 B2A G2A | "G"B3 BAB "D7"dBA | "Em"B3 B2A G2A | "G"B2d g2e "D7"dBA:|
+S:https://www.folktunefinder.com/tunes/110061
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

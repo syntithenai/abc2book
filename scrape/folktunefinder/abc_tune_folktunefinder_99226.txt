@@ -1,0 +1,21 @@
+X:11444
+T:Murphy's
+Z: id:dc-hornpipe-38
+M:C|
+L:1/8
+K:G Major
+(3DEF|GABG EFGE|ABcA FGAF|GBdg ecAG|FGAF DEFD|!
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|!
+Bc|dedc BcdB|efed cdef|gfgd ecAG|FGAF DEFD|!
+GABG EFGE|ABcA FGAF|GBdg ecAF|G2GF G2:|!
+S:https://www.folktunefinder.com/tunes/99226
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

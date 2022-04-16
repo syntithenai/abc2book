@@ -1,0 +1,27 @@
+X: 40
+T:Old Mother Flanagan
+M:C|
+L:1/8
+R:reel
+N:Compare Greenfields of America and Off to California.
+H:http://trillian.mit.edu/~jc/music/abc/Contra/reel/OldMotherFlanagan.a
+H:1999-04-12 04:27:07 UT
+Z:John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+K:A
+|:"A"a2a2 fecd|efec "(E)"BAFG|"A"ABAF EFAB|1 cBcd "E7"e4:|2 "E7"cAB2 "A"A4:|!
+|:"A"ABAF EFAB|c2cA "(E)"BAFG|"A"ABAF EFAB|cBcd "E7"e4||!
+"D"f2fd "A"efec|"Bm"BcBA "E7"FEFG|"A"ABAF EFAB|"E7"cAB2 "A"A4:|!
+bc
+S:https://www.folktunefinder.com/tunes/113390
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/fullmoon.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:5
+T:Bourre
+C:Georg Friedrich Hndel
+O:1685 - 1759
+M:C|
+L:1/4
+Q:
+K:D                           % key
+%%staves 1 {(2 3) 4}
+V:1
+A | dfed | a2f2 | bagf | gf2 :: a | bgef/g/ | afde/f/ | 
+gfed | e/d/e/f/ ef/g/ | af/g/ ag/f/ | ge/f/ gf/e/ | fd e>d | d3 :|
+V:2
+F | Adcd | A2d2 | gfef | ef2 :: f | gecd/e/ | f3e/d/ | 
+cdAd | c/B/c/d/ cd/e/ | fd/e/ fe/d/ | ec/d/ ed/c/ | dddc | d3 :|
+V:3
+D | FAAF | D2D2 | B2c[dA] | [cA][d2A2] :: d | BBA2 | AddB | 
+GAEF | A2AA | A2dB | BEcA | [AF]FAE | F3 :|
+V:4
+D, | D,DA,B, | F,2B,2 | G,D,A,D, | A,,D,2 :: D | G,2A,G, | F,G,/A,/B,G, | 
+E,F,C,D, | A,,2A,G, | F,2B,2 | E,2A,2 | DD,A,A,, | D,3 :|
+S:https://www.folktunefinder.com/tunes/103197
+S:http://michel.bellon.free.fr/Musique/abc/watermusic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

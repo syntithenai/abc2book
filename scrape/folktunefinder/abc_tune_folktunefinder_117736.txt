@@ -1,0 +1,25 @@
+X:297
+T:no name
+R:jig
+H:Also with parts switched around, see #260
+Z:id:hn-jig-297
+M:6/8
+K:G
+DEG Bcd|cee Bdd|DEG BdB|AGE GED|
+DEG Bcd|cee ~B3|~g3 dBG|1 AGF G2E:|2 AGF G3||
+|:~g3 ded|~B3 def|gfe dBG|AGE GED|
+~g3 ded|BGB def|gfe dBG|1 AGF G3:|2 AGF G2E||
+|:DEG BGG|dBG AGE|DEG BAG|ABA AGE|
+DEG BGG|dBG BAG|~g3 dBG|AGF G2E:|
+S:https://www.folktunefinder.com/tunes/117736
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

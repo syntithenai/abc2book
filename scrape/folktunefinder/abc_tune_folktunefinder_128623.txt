@@ -1,0 +1,21 @@
+X:156
+T:Trip to Sligo
+Z: id:dc-jig-137
+M:6/8
+L:1/8
+K:E Minor
+B,|E2e BGE|D2d AFD|E2e BGE|GFE e2f|!
+gfe dcB|ABG FED|EFG ABc|BGF E2:|!
+B|eBe gfe|dAd fed|eBe gfe|faf gfe|!
+faf gfe|dcB AFD|EFG ABc|BGF E2:|!
+S:https://www.folktunefinder.com/tunes/128623
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

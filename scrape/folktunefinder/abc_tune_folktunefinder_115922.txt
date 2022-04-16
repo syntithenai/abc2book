@@ -1,0 +1,38 @@
+X:12877
+T:Pasucis (CT 326)
+R:Pasucis
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Pasucis de gaita, transcrito en Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 326
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+|G2-G3/2(3A/4B/4c/4|d4-|
+|d>B dg|dd/B/ dg|dd/c/ de|cc/B/ cd|
+BB/A/ Bc|AA/G/ AB|G2 dd/c/|
+BB/A/ BB/A/|GG dd/c/|BB/A/ BB/A/|G2 (3GAB|
+|: (3c-cc (3cBc|(3d-dB (3BAB|(3c-cA (3AGA|(3B-BG (3GAB|
+(3c-cc (3cBc|(3d-dB (3BAB|(3c-cc (3AGF|G>B dg|
+dd/B/ dg|dd/B/ dg|dd/c/ de|cc/B/ cd|
+BB/A/ Bc|AA/G/ AB|G2 (3GAB|
+(3c-cc {d}(3cBc|(3d-dB {c}(3BAB|(3c-cA {B}(3AGA|(3B-BG (3GAB|
+(3c-cc {d}(3cBc|(3d-dB {c}(3BAB|(3c-cA {B}(3AGF|G2 dd/c/|
+BB/A/ BB/A/|GG dd/c/|BB/A/ BB/A/|[1 G2 (3GAB:|[2 G2 d2-|d4||
+S:https://www.folktunefinder.com/tunes/115922
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Pasucis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

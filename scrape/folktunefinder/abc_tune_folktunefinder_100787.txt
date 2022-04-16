@@ -1,0 +1,22 @@
+X:90
+T:Biddy from Sligo
+R:jig
+S:Neillidh Boyle
+M:6/8
+K:D
+|:dcd AFA|BGB AFA|.dzA ABA|{ga}g3 {fg}f2e|
+dcd AFA|BGB .AzB|f .a/.a/.a {b}agf|1 e3 ~f2e:|2 ede [d2D4]e||
+faa baa|faa baa|f .a/.a/.a faa|ede [gA]fe|
+faa baa|faa baa|fg/g/a gfe|1 ~d3 d2f:|2 [.dD4]ze ~f2e||
+S:https://www.folktunefinder.com/tunes/100787
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:2
+T:La crousado
+R:Bourre  3 temps
+C:MCTB 2/41
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-05-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/16
+K:C
+g4 ef| g4 ef| g2f2e2|d6| d2e2f2|g2a2g2|f2e2d2|1e4c2:|2c4c2
+|:def2g2|d4g2|agf2e2|d2e2c2|def2g2|d4g2|agf2e2|1 d4c2:|2 d4 G2|:
+c2defe | d4e2 | c2dedc | B2G2G2 | c2defe | d4e2 | c2dedB |1 c4G2 :|2 c6 |]
+T:Variante 3me phrase
+c2dcBA | G2c2e2 | d2f2B2 | d2c2G2 | c2dcBA | G2c2e2 | d2f2B2 |1 c4G2 :|2 c6 |]
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (France)
+S:https://www.folktunefinder.com/tunes/130177
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat02.abc
+% Rhythm Bourre  3 temps
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:815
+T:Wellington's Advance
+Z: id:dc-jig-143
+M:6/8
+L:1/8
+K:A Dorian
+G|EAA AGA|cBA c2d|efe efg|dBG GFG|!
+EAA AGA|cBA c2d|efe dcB|cAA A2:|!
+e|age age|aed cBA|BAG g3|dBG GFG|!
+eaa a3|egg g3|efe dcB|cAA A2:|!
+S:https://www.folktunefinder.com/tunes/128799
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

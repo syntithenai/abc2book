@@ -1,0 +1,25 @@
+X: 35
+T:Appenzeller Schottisch
+M:4/4
+L:1/8
+C:trad
+S:Hermann Fritz
+R:Schottisch
+A:Appenzell, Schweiz
+K:C
+a2 |gb b2 fa a2 |eg g2 ec c2 |dg g2 f2 B2 |cdef g2 a2 |gb b2 fa a2 |eg g
+2 ec c2 |dgge f2 B2 |1c6   :|2 c8    ||
+K:G
+|:B2 d2 g2 B2 |d2 c2 cB c2 |a3  g f2 c2 |e2 d2 dedc |B2 d2 g2 B2 |d2 c2
+cB c2 |(Ac)df a2 f2 |1 (g4  g)edc :|2 g6   ||
+S:https://www.folktunefinder.com/tunes/113720
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

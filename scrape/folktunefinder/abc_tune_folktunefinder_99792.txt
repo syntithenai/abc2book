@@ -1,0 +1,42 @@
+X: 27
+T: Miss Elphinston's Compliments to Lady Fingall
+S: Fitzmaurice Collection
+N: 132213
+Z: BB
+N: Not sure if the extra measures are intended
+N: or misprints
+L: 1/8
+M: 3/4
+R: waltz
+Q: 1/4=160
+K: D
+B2E2F2 | BABcdB | A2D2F2 | A2D2F2 |
+EDEFGA | BABcdB | BAGFED | F2E2E2 |\
+E6 ||
+B2e2e2 | e4 fe | d2 BcdB | BAGFED |
+B2e2e2 | e4 fe | d2B2c2 | d4 e2 |
+fedefd | edcdec | d2 BcdB | BAGFED |
+B2E2F2 | BABcdB | BAGFED | F2E2E2 |\
+E6||
+%%%%%%%%%%
+P: "Corrected" version:
+B2E2F2 | BABcdB | A2D2F2 | EDEFGA | 
+BABcdB | BAGFED | F2E2E2 | E6 ||
+B2e2e2 | e4 fe | d2 BcdB | BAGFED |
+B2e2e2 | e4 fe | d2B2c2 | d4 e2 |
+fedefd | edcdec | d2 BcdB | BAGFED |
+BABcdB | BAGFED | F2E2E2 | E6||
+%%%%%
+S:https://www.folktunefinder.com/tunes/99792
+S:http://www.qmcorp.net/webabc/collections/fjc_bigfile.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

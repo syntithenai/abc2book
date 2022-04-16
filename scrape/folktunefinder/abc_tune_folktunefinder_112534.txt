@@ -1,0 +1,42 @@
+X:107
+T: Chatian shange
+N: C0133B
+O: China,Hunan, Zhuzhou
+S: I, 554]
+N: Die Melodie wird wiederholt. Die Einleitung zu diesem Lied wird auf
+N: Fuellwoerter gesungen, sie lautet:
+N: 2_2_  3____2_3_2_3_1_2_1_2_  6____.
+N: Sehr wenig Verzierungen.  Der Titel ist falsch. Die Noten konnten noch
+N: nicht gefunden werden.  Ein Analysefehler kann mit dem Takt-
+N: wechsel und folgenden "Auftakt" der vorletzten zur letzten Zeile
+N: zusammenhngen 
+R: Shange, Gaoqiang shange. Datian laodong shi chang]
+M: 3/4
+L: 1/32
+K: C
+z4d2d2 | e16d2e2d2e2c2d2c2d2 | A24
+c4A4 | d12c2d2A12d2d2 | e16
+d2e2d2e2c2d2c2d2 | A32
+d2e2c2A2-A12d2d2 | e16
+c2d2c2d2 | A32
+d2e2c2A2-A12d2d2 | e16
+d2e2d2e2d2d2c2B2 | A24
+A2B2A12z4d2d2 | e16
+d2e2d2e2c2d2c2d2 | A32
+d2e2d2e2d3dc2B2A4z4d3ed2e2 | e16
+d2d2c2B2 | A24
+d3eE2G2A8c2B2A12
+d3ed2e2d2e2z4d3dc2B2A4z4
+A4e2d2 | e16d2e2d2e2c2d2c2d2 | A24
+S:https://www.folktunefinder.com/tunes/112534
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, gaoqiang shange. datian laodong shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

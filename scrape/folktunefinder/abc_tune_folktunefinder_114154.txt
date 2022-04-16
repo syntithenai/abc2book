@@ -1,0 +1,28 @@
+X:1
+T:Andante
+T:(Gyngevalsen 1745)
+R:Vals
+Z:Patrik Mnsson, 2008-11-08
+O:Ginge, Skne
+S:Stig N 12/3-02
+M:3/4
+L:1/8
+K:C
+|: d2 g2 ^f2 | g4 g2 | a2 d2 ^f2 | g4 g2 | a2 d2 ^f2 |
+g4 g2 | e2 f2 g2 | e2 d2 c2 | e2 f2 g2 | e2 d2 c2 |
+d2 G2 A2 | c4 c2 | d2 G2 B2 c6 :: "Presto" dg fg fg |
+g2 g2 g2 | ad gd fd | g2 g2 g2 | e2 ef g2 |
+e2 ed c2 | e2 ef g2 | e2 ed c2 | dG AG AG |
+c4 c2 dG AG AG | c6 :|
+S:https://www.folktunefinder.com/tunes/114154
+S:http://www.folkwiki.se/pub/cache/Andante_bc3dc9.latin.abc
+S:http://www.folkwiki.se/pub/cache/Andante_bc3dc9.abc
+S:http://www.folkwiki.se/pub/cache/Andante_bc3dc9.abcm.abc
+% Rhythm Vals
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

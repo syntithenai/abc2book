@@ -1,0 +1,19 @@
+X:98
+T:Saratoga Hornpipe
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=400
+K:F
+AB|:"F"c=BcA "Bb"d_Bfd|"F"cAFA cAdc|"Bb"BAGB "F"AGFA|"G"Gc=Bd "C"c2A_B|
+"F"c=BcA "Bb"d_Bfd|"F"cAFA cdef|"Bb"defg "C"efga|1"F"f2f2f2AB:|2"F"f2f2f2fg|
+|:"A"aAgA fAeA|"Dm"fAeA dAfA|"A"_dAde agfe|"Dm"fgef defg|
+"A"aAgA fAeA|"Dm"fAeA dAdf|"C"efga bgeg|1"F"f2f2f2fg:|2"F"f2f2f4|
+S:https://www.folktunefinder.com/tunes/117145
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

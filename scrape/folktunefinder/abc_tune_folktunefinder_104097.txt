@@ -1,0 +1,38 @@
+X:6
+T:Passacaille (suite en La mineur)
+R:Passacaille
+G:guitare
+C:Robert de Vise
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=95
+K:C
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+AB cd | !segno![c2e2] [^c2e2] ^fg | !trill![A2d2^f2] [Acf][Acf] [d2^g2] | [e2a2] A2A^G | [c2e2] :|
+"[1er couplet]"[ea]e ab | [e2c'2] bc' (ba) | [B2^g2] [Be](=f e)d | [A2c2] z A B^G | (^GA) :|
+!segno!AB cd |: "[2e couplet]"z (b c')d' | [e2b2] z ([fa] [fb])[ec'] | [e2a2] z (e- e)d |
+B6  | a2 :|!segno!AB cd|:"[3e couplet]"(f!trill!e) (d!trill!c) | d2 B3 z |
+[A2c2] (ag) (f!trill!e) | (dc) (c!trill!B) A^G | [c2e2] :| !segno! AB cd
+|:"[4e couplet]" ze (ef) | !trill!d3 d (de) | !trill!c3 c (cd) | !trill![A2B2] B(^c d)B | [A2=c2] |]
+!segno! AB cd |:"[5e couplet]" [Be](f e)d | !trill![A2^c2] [ea](b a)g | !trill![d2^f2] [fb](c' b)a |
+^g>a a3 g | (^ga) :| !segno! AB cd |: "[6e couplet]"a=g !trill!fe | [df]d [Bg]f !trill!ed |
+ec [ec'](b a)g | (fe) (dc) (c<B) (A/^G/) | [A2c2] :| !segno!AB cd ||
+S:https://www.folktunefinder.com/tunes/104097
+S:http://www.icking-music-archive.org/scores/visee/visee_suite_Am.abc
+% Rhythm Passacaille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

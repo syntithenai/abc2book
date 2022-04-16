@@ -1,0 +1,33 @@
+X:10
+T:Wild One
+M:6/8
+Q:3/8=120
+R:jig
+L:1/8
+R:jig
+C:Mary Pantaleone
+Z:abc by Debby Knight
+F:http://trillian.mit.edu/~jc/RJ/jig/WildOne.abc 2003-11-17 09:46:52 UT
+K:Dmin
+"Dm"LDE LFD LGD|"F"LADc LAGF|"Bb"DE LFD LGD|"Am"ADF EDC |
+"Dm"DE LFD LGD|"F"ADc AGF|"Bb"dcA "Dm"GAF|1 "Am"EDC "Dm"D2A,:|\
+[2 "Am"EDC "Dm"D2A ||
+|: "Dm"d2c A2c|"F"dcA cdc|"Bb"d2c A2G|"Am"FGE FED |
+"Dm"d2c A2c|"F"dcA cdc|"Bb"dcA "Dm"cdF| "Am"EDC "Dm"D3:|
+%%newpage
+S:https://www.folktunefinder.com/tunes/129899
+S:http://trillian.mit.edu/~jc/RJ/jig/WildOne.abc
+S:http://trillian.mit.edu/~jc/RJ/jig/WildOne.abc
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

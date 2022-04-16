@@ -1,0 +1,28 @@
+X: 43
+T:Verdi's Waltz
+% Nottingham Music Database
+S:Mick Peat
+M:3/4
+L:1/4
+K:C
+"C"C2E2DF|E3G3|"F"F2A2GB|A3c3|"G"B2d2ce|d3f3|"C"c2e2df|\
+e3g3|
+"C"e2g2fa|"c d"e2g2"e"df|"F"c2e2Bd|A2c2GB|"G"F2A2EG|\
+D2F2CE|"C"C3E3|
+P:FINE
+C3E2z:|"E"^G2e2Af|^G2e2Fd|E2c2Fd|E2c2DB|
+C2A2DB|E2c2DB|"Am"C3A3|C3G3A3|"Dm"F2d2Ge|F2d2Ec|
+D2B2Ec|D2B2CA|B,2G2CA|B,2G2A,F|G,2E2G,D|"G"
+P:DC
+G,3D3||
+S:https://www.folktunefinder.com/tunes/114253
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/ashover.txt
+S:http://www.guitarnut.com/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

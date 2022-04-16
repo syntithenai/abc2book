@@ -1,0 +1,24 @@
+X:720
+T:Jimmy Ward's Jig
+R:jig
+D:Matt Molloy: Heathery Breeze
+N:Z:id:hn-jig-103
+M:6/8
+K:G
+G3 GAB|AGE GED|G3 AGE|GED DEF|
+G3 GAB|AGE GAB|cBA BGE|1 DED DEF:|2 DED D2B||
+|:cBA BAG|A3 AGE|BcA BGE|EDE GAB|
+c2c BAG|ABA ABc|dcA AGE|1 GED D2B:|2 GED DEF||
+S:https://www.folktunefinder.com/tunes/121078
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:12  
+T:Mysterieuse (valse swing)
+C:Jo Privat
+I:Recorded by M. O'Connor. Rights for public performance
+Q:1/4=180
+M:3/4
+P:ABACAD 
+K:G
+P:A
+"Em"(3fgf e4 |eB bg eB |"Edim"(3BcB (^A4 |^A)g e^c ^AG |
+"Am"(3GAG F4 |"B7"Fc BA ^DG |"Em"(3FGF E4 |E2 z ^deg |
+(3fgf eeee |efgbge |"D7"(3efe d2 (3cdc |"G"Bc dg dB |
+"F"(3BcB AG =FG |"B7"AF ^DE FG |"Em"E^D EF GB |ec/B/ AG FE |
+"B7"^DE FG AB |cB ^AB ^c^d |"Em"e^d ef ga |(3bc'b ^ab c'b |
+"Edim7"^ag f^c ^AG |EG ^A^c eg |"B7"f^d B^A =AG |F3 z (3^deg |
+"Em"(3fgf e4 |eB bg eB |"Edim7"(3BcB ^A4 |Ag e^c ^AG |
+"Am"(3GAG F2 (3efe |"B7"^dc BA GF |
+"Em"EG, B,E GB |e^ABc^c^d||
+P:B
+|:"Em"eE GB e^d |"D7"dD FA dc |"G"BB, DG B_B |
+"F"AA, C=F A_A |"Em"GG, B,E G^E |"B7"FA, B,^D F^D |"Em"E^D EF GB |
+e^d ef gb |"Em"e'e gb e'^d' |"D7"d'd fa d'c' |"G"bB dg b_b |
+"F"aA c=f a_a |"Em"gG Be g=f |"B7"fA B^d f_e |
+"Em"(3efe ^de BG |[e2B2G2E2] z2 z2 :|
+P:C
+K:E
+e2 z2 z2|:"EM"[G6f4] c2 |"E7"[G6B4] G2 |"A"F4 E2 |
+"Am"F4 G2 |"E"[E6B,6G,6] |"A"[E6C6A,6] |"E"[E6B,6G,6] |1
+[E4B,4G,4] B/c/d/f/ :|2"E"[E4B,4G,4] (3EF=F |"G#7"(3GAG =FG =cd |fa gf df |
+"C#m"(3efe d=d ce |GG ce g=g |"F#7"fe c_B F=F |Ee c_B F=F |
+"B7"ED FA c_B |[B4D4] B/c/d/f/ |"E"[G6e4] c2 |"E7"[E6B4] G2 |
+"A"F4 E2 |"Am"F4 G2 |"E"E2 E[FD] [GE][AF] |
+"B7"[BD]^AB^Bcd |"E"[e6G6] |[e'2b2g2e2G2] z2 z2 ||
+P:D
+e2 z2 z2||]
+S:https://www.folktunefinder.com/tunes/104644
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

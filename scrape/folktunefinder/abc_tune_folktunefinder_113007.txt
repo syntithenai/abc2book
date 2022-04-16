@@ -1,0 +1,34 @@
+X:19
+T:Two Rivers
+C:Larry Unger
+S:Bernie Waugh
+R:Waltz
+M:3/4
+L:1/8
+K:G Lydian
+d>c|:\
+"Bm"B4BA|BcdBAF|"F#m"F2A2AB|A3d- dc|\
+"Bm"B4BA|"(A)"Bcdcde|"G"f4B2|"A(E9)"f4fe|
+"D"d4dc|defedf|"F#m"a2f2d2|f3b- ba|\
+"Bm"f3d ef|"A"e2d2BA|1\
+"G"B6-|B3d- dc:|2\
+"G"B6-|B2Bcde||
+|:\
+"Bm"f2B2f2|f2B2f2|"A"e2A2e2|e2Bcde|\
+"Bm"f2B2f2|f2B2f2|"G"a4c2|"A"a4a2|
+"Bm"b3d' ba|f2d3B|"G"BffBfB|"A"e2c3A|\
+"Bm"AB- BdBA|"Em"F4ED|1\
+"G"DE-E4-|"A"E2Bcde:|2\
+"G"E6-|E4|]
+S:https://www.folktunefinder.com/tunes/113007
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w5.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w5.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

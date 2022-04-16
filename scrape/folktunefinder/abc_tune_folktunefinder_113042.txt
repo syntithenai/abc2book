@@ -1,0 +1,28 @@
+X: 33
+T: Gatineau Reel
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: F
+|:AB|\
+"F"cagf "Bb"egfd|"F"(3cdc AF CFAc|"C7"BAGA BcdB|"F"{e}dcAF CFAB|
+"F"cagf "Bb"egfd|"F"(3cdc AF CFAc|"C7"BAGA Bcde|"F"fcag f2:|
+|:(3ABc|\
+"F"acgc "F7"fcBc|"Gm"fdec d2 ga|"Gmaj"bdad "G7"gfef|"C"{g}gfed "C7"c2 (3ABc|
+"F"acgc "F7"fcBc|"Bb"dfbf dBAB|"Gm"bagf "C"edc=B|"C7"cbge "F"f2:|
+S:https://www.folktunefinder.com/tunes/113042
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

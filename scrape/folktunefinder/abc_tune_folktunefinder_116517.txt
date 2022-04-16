@@ -1,0 +1,30 @@
+X:13472
+T:Polska i D efter John-Erik Mattson
+Z:Lennart Sohlman, \"Alta, Swede
+R:Polska
+Q:144
+M:3/4
+L:1/8
+A:Digerberget, S.J\"amtland
+O:Sweden
+K:D
+A>(G F)(A d)f | ed (3.c.A.c [e2e2] | \
+e>f (3.g.e.g (3.f.d.f | e>(c d)(e f)d |\
+A>(G F)(A d)f | ed (3.c.A.c [e2e2] |
+e>f (3.g.e.g (3.f.d.f | (3.e.c.e d4 ::\
+(3.d.e.f (gb) a2 | de/f/ g/e/g f2 |
+de/f/ g/e/g f>e | de (3f(df) e2-| \
+(3e.f.g (gb) a2 | de/f/ g/e/g f2 | \
+de/f/ g/e/g (3.f.e.d | (c>e) d4 :|
+S:https://www.folktunefinder.com/tunes/116517
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

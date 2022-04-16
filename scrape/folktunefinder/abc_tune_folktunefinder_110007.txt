@@ -1,0 +1,28 @@
+X:69
+T: Die Koenigskinder
+N: Q0020L
+O: Mitteleuropa, Deutschland
+N: Unklare Notation bei der Wiederholung (korrigiert !)
+N: Die"Elslein"-Melodie wird in direkten Zusammenhang zur Balladengruppe
+N: gestellt.
+R: Ballade, Liebe, Trennung, Tod
+M: 3/8
+L: 1/16
+K: G
+d2 | d4c2 | B4A2 | B3AG2 | A4B2 | c4
+c2 | B4d2 | d3cB2 | A4z2 | z4
+A2 | d4c2 | B4A2 | B3AG2 | A4B2 | c4
+c2 | B4d2 | d3cB2 | A4z2 | z4
+A2 | A4A2 | A4A2 | A4A2 | A4
+A2 | B3AG2 | A3GA2 | G4G2 | G4
+S:https://www.folktunefinder.com/tunes/110007
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

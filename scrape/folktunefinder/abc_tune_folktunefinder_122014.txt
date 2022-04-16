@@ -1,0 +1,35 @@
+X: 1
+T: Apley House
+N: Playford (11th edition, 1702) (actually in the "supplement")
+N: Barnes
+N: Barlow #480
+N: Raven p.22
+N: Karpeles p.23
+N: Keller p.5
+M: C|
+L: 1/8
+K: G
+|: "G"B2G2 Bcd2 | "C"e2c2 "D7"A3c \
+| "G"B2G2 g2G2 | B4 d4 :|
+|: "D"f2a2 bagf | "A7"e2g2 g2fe \
+| "D"f2a2 bagf | "A7"e4 "D"d4 :|
+|: "C(Am)"e2c2 cdec | "G"d2B2 BcdB \
+| "(Em)"g2G2 "D7"G2A2 | "G"B4 d4 :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/122014
+S:http://trillian.mit.edu/~jc/music/book/500/ApleyHouse_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

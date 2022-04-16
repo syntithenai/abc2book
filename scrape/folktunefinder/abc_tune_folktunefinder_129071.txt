@@ -1,0 +1,19 @@
+X:1
+T:Gondora_no_uta
+M:6/8
+L:1/8
+Q:1/4=60
+K:C
+%%MIDI program 40
+"C"C2 C (CD) E|"C"(GE) c G3|G A G (E/D/) C G|E5 z|
+"C"C2 C (CD) E|(GE) c G3|"F"(CD) A "G7"(GD) E|"C"C5 z|
+"G"G2 G (Ge) d|"C"(cE) A G3|C2 D (EC) A|"G"(G3 "C"E2) z|
+(CD) E "F"(Gc) A|(dc) A "G7"G3|"F"(CD) A "G7"(GD) E|"C"C5 z |]
+S:https://www.folktunefinder.com/tunes/129071
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

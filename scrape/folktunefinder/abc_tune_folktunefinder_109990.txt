@@ -1,0 +1,29 @@
+X:52
+T: Kerenstein
+N: Q0018A
+O: Mitteleuropa, Deutschland
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+N: Eingeklammerte Pausen mitgespielt.
+R: Ballade, Liebe
+M: none
+L: 1/8
+K: G
+G2 | G2G2G2G2 | c4c4z2
+c2 | d4d2d4d2 | c3de2dc | d4z2
+d2 | d2d2c2d2 | B4G4
+d4 | c2B2A4B2 | c4B2A4z2
+B2 | G3AB2c4B2 | A4G4z2
+B2 | A4G2=F4G2 | A4z2
+B2 | G3AB2c4B2 | A4G4z2
+d2 | d2B2A2d4c2- | cBAGA4 | G8
+S:https://www.folktunefinder.com/tunes/109990
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

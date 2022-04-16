@@ -1,0 +1,32 @@
+X:39
+T:Lamentation of Owen Roe O'Neill, The
+M:4/4
+L:1/8
+Q:90
+R:Air
+K:Bb
+"Andante"GABc d3 c|Bcd=e f2 ef|gddc B2 AG|A2 GF D2 z2|
+GABc d2 cB|cBAG F2 Ac|B2 AG AGAc|B2 A>G G2 z2||
+GABc d3 c|Bcd=e f2 ef|g2 d2 edcB|A2 G>F F2 z2|
+d>edB cccA|B>cBG AGFD|B3 G A3 F|G>FD^F G2 z2||
+%
+% This fine composition is attributed to Carolan in Bunting's General
+% Collection of the Ancient Irish Music, Dublin 1796; Hardiman's Irish
+% Minstrelsy, London 1831; and Clinton's Gems of Ireland, London 1841.
+% Grattan Flood, an eminent authority, states in his A History of Irish
+% Music, Dublin 1905, that this "glorious lament was composed on the
+% death of Owen Roe O'Neill in 1649", a date preceding Carolan's birth
+% by twenty-one years. Owen Roe O'Neill, prince of Ulster, was a
+% gallant military leader who vanquished the British forces at the
+% battle of Benburb in 1646.
+S:https://www.folktunefinder.com/tunes/106143
+S:http://music.gordfisch.net/oregans/assets/abc/oneillswaifs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

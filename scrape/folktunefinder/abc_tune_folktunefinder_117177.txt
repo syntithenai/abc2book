@@ -1,0 +1,31 @@
+X:130
+T:Fisher's Hornpipe
+R:HP
+M:4/4
+L:1/8
+K:D
+P:A
+|:(3ABc|"D"dAFD "G"GBAG|"D"FDFA "G"GBAG|\
+"D"FDFA "G"GBAG|"D"FDFA "A"E2(3ABc|
+"D"dAFD "G"GBAG|"D"FDFA "G"GBAG|\
+"D"ABcA "A"ecAc|"D"d2ddd2:|
+P:B
+|:cd|"A"ecAc egfe|"D"fdAd fagf|"A"ecAc efec|\
+"E"edcB "A"A2dc|
+"G"BGDG BdcB|"D"AFDF AdcB|"D"ABcA "A"ecAc|\
+"D"d2ddd2:|
+P:C
+|:fg|"D"a2ab afdf|"A"gfga g2e2|"D"f2fg fedf|\
+"A"edcB A2dc|
+"G"BGDG BdcB|"D"AFDF AdcA|"D"ABcA "A"ecAc|\
+"D"d2ddd2:||
+W:C section compliments of Eck Robertson.  Traditional in some circles.
+% Output from ABC2Win  Version 2.1 i on 12/12/2000
+S:https://www.folktunefinder.com/tunes/117177
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

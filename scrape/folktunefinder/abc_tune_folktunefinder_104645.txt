@@ -1,0 +1,45 @@
+X:13   
+T:La Foule (valse musette)
+C:Angel Cabral
+I:Musette standard, originally a peruvian waltz, then a song by Edith Piaf
+I:Rights for public performance
+Q:1/4=176
+M:3/4 
+P:IABCBD 
+K:G
+P:I
+"Am"e e2 f f2 |e e2 f f2 |"Em"e e2 f f2 |e e2 f f2 |
+"B7"^d ^d2 f f2 |^d ^d2 f f2 |"Em"(e6 |e2) z2 BB ||
+P:A
+"Em"e3 e ef |"C"g3 f e^d |"Am"e2 (c4 |
+c2) z2 ef |"D7"a3 g gf |a3 d dd |"G"(d6 |
+d2) z2 BB |"B7"^d3 ^d ^de |f3 f e^d |"Em"e2 (B4 |
+B2) z2 BB |"C"c3 c cc |e3 e fe |"B"(^d6 |
+^d2) z2 BB |"Em"e3 e ef |"C"g3 f e^d |"Am"e2 (c4 |
+c2) z2 ef |"D7"a3 g gf |a3 d dd |"G"(d6 |
+d2) z2 BB |"B7"^d3 ^d ^de |f3 e e^d |"Em"e2 (e4 |
+e2) z2 ee |"C"c3 c cc |"B7"B3 B ^d^d |"Em"(e6 |e)d ed ^cd ||
+P:B
+"D7"f3 e ed |f3 e ed |"G"g3 e ed |g3 e ed |"D7"f3 e ed |f3 e ed |B6 |
+z B cB ^AB |"B7"^d3 ^d ^de |f3 f e^d |"Em"e2 e4 |
+"Em"z B ee ee |"C9"ee ee ee |"F#7"e2 g3 g |"B"(f6 |
+f)d ed ^cd |"D7"f3 e ed |f3 e ed |"G"g3 e ed |
+g3 e ed |"D7"f3 e ed |f3 e ed |"G"B6 |
+z B cB ^AB |"B7"^d3 ^d ^de |f3 f e^d |"Em"e2 e4 |
+"Em"z B ee ee |"C"ee ee ee |"B7"^d2 g3 f ||
+P:C
+"Em"e6 |z2 z2 BB |"Em"e3 e ef |"C"g3 f e^d |"Am"e2 (c4 |
+c2) z2 ef |"D7"a3 g gf |a3 d dd |"G"(d6 |
+d2) z2 BB |"B7"^d3 ^d ^de |f3 f e^d |"Em"e2 e4 |
+e2 z2 ee |"C7"c3 c cc |"B7"B3 B B^d |"Em"(e6 |e)d ed ^cd ||
+P:D
+"Am"e e2 f f2 |e e2 f f2 |"Em"e e2 f f2 |
+e e2 f f2 |"B7"^d ^d2 f f2 |^d ^d2 f f2 |"Em"(3efg (3a_b=b (3c'd'^d' |e'2 z2 z2 ||]
+S:https://www.folktunefinder.com/tunes/104645
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

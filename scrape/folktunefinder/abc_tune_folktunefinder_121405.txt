@@ -1,0 +1,28 @@
+X:295
+T:Dumfries House (#169)
+M:6/8
+L:1/8
+S:Aird's Selections 1782-97
+K:G
+D|G3 G2 g|dBG GAB|cGE EFG|AFD DEF|
+G3 G2 g|dBG GAB|cec BdB|gdc BAG|
+G3 G2 g|dBG GAB|cde dcB|AFD DEF|
+G3 G2 g|dBG GAB|cAG FEF|G3 G2||
+d|dBd dBd|gag "tr"f2 e|dBd dcB|AFD D2 d|
+dBd dBd|gag f2 e|dcB AGF|gdc BAG|
+dBd dBd|gag f2 e|dBd dcB|AFD D3|
+dBd ece|fdf gfe|dcB cAd|GAG G2||
+%
+% "Dumfries House" is one of the numbers on "A Collection of Scots
+% Reels, or Country Dances, and Minuets, etc." composed by John
+% Riddle at Ayr, and sold by himself about the year 1766.
+S:https://www.folktunefinder.com/tunes/121405
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:2
+T:The Piper on Horseback
+C:Traditional
+S:Bernie Stocks, Belfast
+N:Play 4 Times
+N:The Armagh Set, figure 5, tune 2 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+M:C
+L:1/8
+Q:350
+K:D
+~F3 d cAAB | cAdB cAGE | ~F3 d cAAB  | cAGE EDCE :||
+defg afdf | efed cAAc | defg afdB | ABAG EDDA |
+defg afdf | efed cAAe | a z ag efed | cAGE EDCE |]
+S:https://www.folktunefinder.com/tunes/103110
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

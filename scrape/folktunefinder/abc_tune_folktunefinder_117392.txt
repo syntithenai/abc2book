@@ -1,0 +1,34 @@
+X:9
+T: Seige of Ennis Medley
+T:Andy Irvings Polka % 1st half
+T:Banks of Inverness Reel % Key of D
+T:Seige of Ennis % 2nd half
+R:polka
+M:4/4
+L:1/8
+Q:1/4=3D200
+K:G=A0 %1sharp
+z7 |
+|:=A0 D>EDB, DEG>A=A0=A0 |=A0 Bd AB/A/=A0 GEcE=A0 |=A0=A0 D>EDB, DEG>A=A0=
+=A0 |1=A0=A0 Bd AB/A/ =A0
+G2 GE=A0 :|2=A0=A0 Bd AB/A/=A0 G2 GA=A0 |=20
+|:=A0 Bdd>B=A0=A0 cee>c=A0 |=A0=A0=A0 Bd AB/A/=A0 GEcE=A0 |=A0 Bdd>B=A0=A0 =
+cee>f=A0 |1=A0=A0=A0 gefd=A0 e2=20
+eA :|2=A0=A0=A0 gefd=A0 e2 ef=A0 |
+|:=A0 gefd=A0 edB>A=A0 |=A0=A0=A0 Bd AB/A/=A0 GEcE=A0 |=A0=A0 D>EDB, DEG>A=
+=A0=A0 |1=A0=A0 Bd AB/A/ =A0
+G2 Gf=A0 :|2=A0=A0 Bd AB/A/=A0 G2 GE |
+|:=A0 D>EDB, DEG>A=A0=A0 |=A0 Bd AB/A/=A0 GEcE=A0 |=A0=A0 D>EDB, DEG>A=A0=
+=A0 |1=A0=A0 Bd AB/A/ =A0
+G2 GE=A0 :|2=A0=A0 Bd AB/A/=A0 G2 GA=A0 |=20
+|:=A0 Bdd>B=A0=A0 cee>c=A0 |=A0=A0=A0 Bd AB/A/=A0 GEcE=A0 |=A0 Bdd>B=A0=A0 =
+cee>f=A0 |1=A0=A0=A0 gefd=A0 e2=20
+eA :|2=A0=A0=A0 gefd=A0 e2 ef=A0 |
+S:https://www.folktunefinder.com/tunes/117392
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Seige_of_Ennis_Medley_3.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

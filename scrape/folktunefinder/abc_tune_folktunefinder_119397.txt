@@ -1,0 +1,30 @@
+X:18
+T:Vals fr\aan Alfta
+R:vals
+N:learned from Andrea Hoag, workshop 20jan92
+Z: 1998 Brian Wilson 
+M:3/4
+L:1/8
+K:G bass
+P:A
+"G"D,4 (~B,A,) | "G"B,4 "C"G,2 | "G"D,3 (C~B,A,) | "G"B,4 G,2 |\
+"D"F,G, A,B, CD | "C"E4 D2 | "C"C2 B,C "Am"DB, | "C"C2 B,A, B,G, |
+"G"D,4 (~B,A,) | "G"B,4 "C"G,2 | "G"D,3 (C~B,A,) | "G"B,4 G,2 |\
+"D"F,G, A,B, CD | "C"E4 D2 | "D"DE DC A,F, | [1 "G"G,4 F,E, :| [2 "G"G,3 A,B,C ||
+P:B
+"G"D4 G2 | "Am"(~F2 E2) E2 | "D"A,4 F2 | "Am7/G"E2 D^C D2 |\
+"Am"A,3 B,CD | "C"E4 D2 | "C"C2 B,C DB, | "C"C2 B,A, "Am"B,C |
+"G"D4 G2 | "Am"(~F2 E2) E2 | "D"A,4 F2 | "Am7/G"E2 D^C D2| \
+"Am"A,3 B,CD | "C"E4 D2 | "D"DE DC A,F, | [1 "G"G,3 A,B,C :| [2 "G"G,4 F,E, ||
+S:https://www.folktunefinder.com/tunes/119397
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

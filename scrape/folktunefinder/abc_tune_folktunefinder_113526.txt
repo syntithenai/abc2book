@@ -1,0 +1,26 @@
+X:140
+T: There's an End to My Sorrow
+M: 6/8
+L: 1/16
+B: O'Neill's 378
+N: "Plaintively."
+N: "collected by F. O'Neill"
+Z: Transcribed by Chris Falt, cfalt@trytel.com
+K: Am
+(A>B) \
+| .c2(dcBA) .B2(cBAG) | (D>E).G2.G2 G4 (A>B) | .c2(dcBA) (Be3) (A>G) | (E2A2)(A>B) A4(A>B) |
+| (cBcde^f) (g3=fe2) | (edcB) ((3gab) G4 (A>B) | .c2(dcBA) (B2e2) (AG) | (E2A2)(A>B) A4 :|
+| (a>b) \
+| (c'3ba2) (b2a2g2) | (d>e).g2.g2 g4 (a>b) | (c'3ba2) (b2a2g2) | (e2a2)(a>b) a4 (A>B) |
+| (cBcde^f) (g3=fe2) | (edcB) ((3gab) G4 (A>B) | .c2(dc)(BA) B2e2 A>G | (E2A2)(A>B) A4 |]
+S:https://www.folktunefinder.com/tunes/113526
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

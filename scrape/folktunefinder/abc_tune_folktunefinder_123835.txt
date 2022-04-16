@@ -1,0 +1,24 @@
+X:5052
+T:Farewell to Ireland (D)
+R:reel
+E:7
+I:speed 350
+M:C|
+K:D
+|D2(3FED FA~A2|fedf edBc|dBAF~G3B|AF~F2 EGFE|\
+D2(3FED FA~A2|fedf edBc|dBAF ~G3B|AF~F2 EGFE:|*
+|defg afdf|g2fg eA~A2|defg afdf|(3gfe fd ~e3A|\
+defg ~a3f|g2fge A~A2|dBAF ~G3B|AF~F2 EGFE:|**
+S:https://www.folktunefinder.com/tunes/123835
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

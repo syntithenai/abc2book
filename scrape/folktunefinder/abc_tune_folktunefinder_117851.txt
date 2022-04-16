@@ -1,0 +1,35 @@
+X:77
+T:The Hills and Dales of Cork
+R:Fling
+S:Andy Dickson, Belfast (fiddle)
+D:Private tape
+N:As played
+H:There is an American tune with exactly the same first part.
+Z:Bernie Stocks
+M:4/4
+K:A
+af || ec(3.c.c.c ec(3.c.c.c | BABc d2af | ec(3.c.c.c ec(3.c.c.c \
+|1 BABc A2 (3.a.g.f :|2 BABc A2 {d}cB ||
+ABce a2a2 | (3fafdf e3c3c | de{a}fe cdec \
+|1 {Bd}BABc d2{cd}cB :|2 {Bd}BABc A2af || A4
+S:https://www.folktunefinder.com/tunes/117851
+S:http://ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book2.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book2.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book2.abc
+S:http://www.firepowr.com/abc/Book2.abc
+S:http://www.firepowr.com/abc/Book2abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book2.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book2.abc.txt
+% Rhythm Fling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:41
+T:Rigaudon
+R:Rigaudon
+C:anonyme
+H:
+N:11, p 5
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/2=140
+K:Bb
+d | d2 g2 | d>c BA | GABc | d/c/d/e/ dd |
+    d2 g2 | d>c BA | GABc | d3 || f | f2 b2 | f>e df | ed~cB |
+c/B/c/d/ cF | c2c2 | c>Bcd | e2~c2 | B3d | d2d2 |
+d>cde | dcBA | G/^F/G/A/ Gd | d>cd=e | ^fgaf | d3 |]
+S:https://www.folktunefinder.com/tunes/104037
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Rhythm Rigaudon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

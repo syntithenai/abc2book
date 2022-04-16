@@ -1,0 +1,39 @@
+X:32
+T:Dorset Four-Hand Reel
+%P:(AABB)*2(CCDD)*2D
+C:Traditional
+M:4/4
+L:1/4
+Q:1/2=110
+F:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dorset_Four_Hand_Reel_4.abc   2007-07-20 11:36:34 UT
+K:G
+P:A
+|:B/2A/2 | "G"GB dc/2B/2 | "C"ce ce | "G"GB d3/2c/2 | "Am"BA "D7"AB/2A/2 |\
+"G"GB dc/2B/2 | "C"ce ce | "G"GB "D7"d3/2c/2 | "G"BG G:|
+P:B
+|:d | "G"gg "C"g/2f/2e | "G"dd "Em"d/2c/2B | "Am"A3/2B/2 cd | "D"ed de/2f/2 |\
+"G"gg "C"g/2f/2e | "G"dd "Em"d/2c/2B | "Am"AA/2B/2 "D7"cA | "G"G2 G:|
+%%vskip 40
+%%subtitlefont Times-Roman 28
+T:Second tune
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=120
+K:A
+P:C
+|:c/2B/2 | "A"Ac/2e/2 a/2e/2c/2A/2 | "D"df df | "A"Ac/2e/2 "F#m"a/2e/2c/2A/2 | "Bm"Be "E7"Be |\
+"A"Ac/2e/2 a/2e/2c/2A/2 | "D"df df | "E7"eg/2f/2 e/2d/2c/2B/2 | "A"Ac A:|
+P:D
+|:c/2d/2 | "A"ec ec | "D"fd fd | "A"ec ec | "E7"Be ec/2d/2 |\
+"A"ec ec | "D"fd fd | "E7"eg/2f/2 e/2d/2c/2B/2 | "A"Ac A:|
+S:https://www.folktunefinder.com/tunes/110079
+S:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dorset_Four_Hand_Reel_4.abc
+S:http://jc.tzo.net/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dorset_Four_Hand_Reel_4.abc
+S:http://www.colinhume.com/ABC.txt
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

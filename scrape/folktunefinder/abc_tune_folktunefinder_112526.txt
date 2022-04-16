@@ -1,0 +1,38 @@
+X:99
+T: San kan lang
+N: C0125
+O: China,Hunan, Sangzhi
+S: I, 536, 2)]
+N: Der Ehemann war in einer anderen Gegend als Landarbeiter
+N: beschaeftigt. Beim dritten Besuch in der Heimat starb er.
+N: Vor - und Zwischenspiele weggelassen. Einige Verzierungen.
+R: Xiaodiao. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: A
+c2A2B4 | B2AFF4
+B2ABA2A2 | A2FEE4
+AF2FB2B2 | AF2AcB3 | BA3F4
+BA2BBA2F | cE2FEFA2
+c2EFA3c | A2F2E4
+c2A2B4 | B2AFF4
+BA2BB2A2 | A2FEE4
+B3BcB3 | AA2AcB3 | BAAFF4
+E3FBAF2 | BcABcB3
+c2EFA3c | A2F2E4
+c2ecB4 | B2AFF4
+B2ABB2A2 | A2FEE4
+B3Ac2B2 | BBBAcB3 | BAAFF4
+E3FBAF2 | BBAFEFA2
+c2EFA3c | A2F2E4
+S:https://www.folktunefinder.com/tunes/112526
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

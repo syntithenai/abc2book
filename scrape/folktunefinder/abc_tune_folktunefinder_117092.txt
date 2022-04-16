@@ -1,0 +1,32 @@
+X:45
+T:Flop Eared Mule
+M:4/4
+L:1/8
+Q:1/8=520
+K:D
+de|:f2e2 d2B2|ABAG FED2|A,B,CD EDCE|DEFG A2de|
+fafe dedB|ABAG FED2|A,B,CD EDCE|1 DFE/F/E D2de:|2 DFE/F/E D2cd |
+|:[e2e2][e2c2] [e2e2][e2c2]|efed cBA2|EF^GA BAGB|ABcd e2cd|
+[e2e2][e2c2] [e2e2][e2c2]|efed cBA2|EF^GA BAGB|1 AcB/c/B A2cd:|2 AcB/c/B A4|
+[af][af][af][af] [fd][fd][fd][fd]|
+K:A
+[dA][dA][dA][dA] [A2F2][AF][AD]|ABcd ecAc|def=g a4|[dA][dA][dA][dA] [dF]
+[dF][dF][dF]|
+[AF][AF][AF][AF] [FD][FD][FD][FD]|A,B,CD EDCE|DFE/F/E D2f=g|afdA fdAF|
+dAFD A2A=c|caec BAE=F|Fd=F^F d2=f^f|afdf edBA|
+=F^FAF EDB,^A,|A,B,CD EDCE|DFE/F/E D4|[c'a][c'a][c'a][eA] [ee][ee][ee][ee]|
+[ec][ec][ec][ec] [eAA][AA][AA][AA]|EFGA BAGF|ECEF GAB=c|cecB AGA=c|
+caec BAF=F|EFGA BAGB|A2[AA][AA] [A2A2]Af|d/f/dAd' a/d'/afe|
+d/e/dAF DEFD|A,B,CD E=F^FA|B=c^cf ecBc|dBAd B/d/BAF|
+E/F/EDB, A,4|A,B,CD EDCE|DFE/F/E D4|
+S:https://www.folktunefinder.com/tunes/117092
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:13
+T:Sk\aanska Rumpedarran (Masurka)
+C:A. Bergstr\"om ()
+R:Masurka
+%O:Sweden
+Z:Bob Wyttenbach 8/5/02, from Fiddles & Feet 2002 tunebook, poor handwritten copy
+N:as we played it, the triplets were CCC, not CB,C as written here in A part
+M:3/4
+L:1/8
+K:E %Transposed from D
+P:A
+"D"B>eg2g2|g>f e>cB2|"G"A>Bc2c2|"Em"c>B A>GF2|
+"A"D>E F>GA2|"A"(3DCD F>GA2|"A"F>G A>B d>c|"D"B>c B>AG2|
+"D"B>eg2g2|g>f e>cB2|"G"A>Bc2c2|"Em"c>B A>GF2|
+"A"D>E F>GA2|"A"(3DCD F>GA2|"A"d>c B>d f>d|"D"e2e2z2:|
+P:B
+[K:A]"G"A,>c c>ec2|"G"A,>c c>ec2|(3dcd g2g2|A>aa2a2|
+"G"A,>c c>ec2|"G"A,>c c>ec2|d>c B>A G>B|[1"G"A2A2z2:|[2"G"A2a4|]
+S:https://www.folktunefinder.com/tunes/119360
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002Bb.abc
+% Rhythm Masurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

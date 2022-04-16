@@ -1,0 +1,28 @@
+X:3
+T:Reprise - Cest une dure despartie
+T:Tenor
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+M:C|
+M:3/2
+L:1/1
+T: Tenor
+N:Original clef, C on fourth line
+K:C -8va
+%%MIDI transpose -12
+ccc|ccd|cB2|A2z|GGc|Bc>B|GA2|G2z:|
+|:eed|e2d|cB2|A>B c/2B/2|A/2G/2AF|G2c|B>cd|c2z|
+G>A B/2c/2|c3/2B/4A/4 B/2c/2|d2^c|dA/2G/2 A/2B/2|c2A|Gc>B|GA2|G2z:|
+S:https://www.folktunefinder.com/tunes/110834
+S:http://www.laymusic.org/music/susato/3/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

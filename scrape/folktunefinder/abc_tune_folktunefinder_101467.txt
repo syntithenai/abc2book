@@ -1,0 +1,36 @@
+X: 50
+T:Hollyhock Schottische. GHW.050
+M:4/4
+L:1/8
+Q:120
+C:Edmund Forman
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Schottische
+O:England
+A:Norfolk
+N:Triplets not marked in MS. I've marked them in my transcription
+Z:vmp.Taz Tarry
+K:C
+e>Bd>c (3BcB A2|f>Ae>d (3cdc B2|b>ag>^f =f>dA>B| (3ABA G2 E2 (3EGc|!
+e>Bd>c (3BcB A2|f>Ae>d (3cdc B2|b>ag>^f =f>dA>B|1d2 {ed} c>B c2 (3EGc:|2
+d
+2 {ed}c>B c2 z2||!
+K:G
+B>cd>e d>B g2|f>ec>e f2 e2|A2A>B c>BA>c|f>ed>c B2z2|!
+B>cd>e d>B g2|f>eA>c b2a2|af b>a a>gf>e|d2 e>d a>f (3dec|!
+B>cd>e d>B g2|f>ec>e (f2 e2)|A2A>B c>de>f|a>gf>e d3 z|!
+B>AB>c d>e d2| e>fg>a b>c' b2|a>gf>e d>Bd>b|a>e f>d g2 z2||
+S:https://www.folktunefinder.com/tunes/101467
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

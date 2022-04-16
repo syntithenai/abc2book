@@ -1,0 +1,28 @@
+X:1
+T:Le tourment (J-79)
+R:jig
+C:Jean-Paul Loyer  1975
+D:From recording by J-P Loyer, Ojnab
+Z:Translated to abc by Debbie Knight
+Z:Chords by Bruce Rosen, after Pete Sutherland
+M:6/8
+K:G
+"G"G2G "D7"AGA |"G"Bdc BAG |"C"E2c cBc | "D"d3 def |
+"Em"g2g d2d |"C" ede "G/B"B2B |"Am"cBA "G"BAG |[1 "D"A2F DEF :|[2 "D"DGF "G"G2F |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"Am"d3 dcB |cBA "G/B"BAG |
+"C"E3 EFG |"G/B (Bm)"DGF GAB |"C"d2B cBA|[1 "D7"DGF "G"G2F :|[2 "D7"DGF "G"G3 |]
+S:https://www.folktunefinder.com/tunes/107270
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J079_Le_tourment.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J079_Le_tourment.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

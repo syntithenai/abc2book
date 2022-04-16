@@ -1,0 +1,24 @@
+X:44
+T:Old Folks at Home
+% Four-part piano arrangement for standard notation.
+C:Stephen C. Foster, 1851/Stephen C. Foster
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=120
+%%staves [(1 2) (3 4)]
+K:D
+V:1 clef=treble
+|:F4 E D F E | D2 d2 B d3 | A4 F2 D2  | E6 z2 |
+S:https://www.folktunefinder.com/tunes/113433
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:4959
+T:Fairies' Hornpipe, The
+R:hornpipe
+H:Similar to "McNamara's", #27
+N:The ending is also played |Abcd ecAF|G2GF G2|
+Z:id:hn-hornpipe-12
+M:C|
+K:G
+(3DEF|GFGA BdcB|AGAB G2Bc|dgfg edcB|cedB A2Bc|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+|:Bc|dggf g2fe|dedc B2AG|ABcd edcB|Add^c d2B=c|
+dggf g2fe|dedc B2AG|ABcA dcAF|G2GF G2:|
+S:https://www.folktunefinder.com/tunes/123742
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

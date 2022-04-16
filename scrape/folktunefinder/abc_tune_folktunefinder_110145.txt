@@ -1,0 +1,23 @@
+X:98
+T:Petronella
+M:2/2
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=112
+K:D
+P:A
+|:dA | "D"F2 AF "A7"E2 AF | "D"D2D2 D2 FA | "G"d2 cd "E7"e2d2 | "A7"cdec A2 dA | !
+"D"F2 AF "A7"E2 AF | "D"D2D2 D2 FA | "G"d2 cd "A7"e2c2 | "D"d4 d2 :| !
+%%vskip 0
+P:B
+|:dA | "D"F2 fd A2 af | "Em"g2 gf edcB | "A7"A2 ec A2 ge | "D"f2 fd "A7"AdAF | !
+"D"D2 fd A2 af | "Em"g2 gf edcB | "A7"A2 ec Agec | "D"d4 d2:|
+S:https://www.folktunefinder.com/tunes/110145
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

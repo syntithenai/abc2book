@@ -1,0 +1,30 @@
+X: 103
+T: Castle Kelly
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A minor
+EG|:\
+"Am"A2cA- "F"ABcA|"Em"GcEG- G2EG|"Am"A2cA "Em"GAcd|"F"ecdB ~cAAG|
+"Am"A2cA- "F"ABcA|"Em"GcEG- G2EG|"Am"A2cA "Em"GAcd|"F"ecdB ~cAA2:|
+|:\
+"Dm"agec dfed|"G"cAGE G3g|"Dm"agec "G"~d2cd|"A"eaag- gaba|
+"Em"gedc dfed|"F"cAGE G2EG|"Am"A2cA "Em"GAcd|1\
+"Am"ecdB ~cAA2:|2\
+"Am"ecdB ~cA|]
+S:https://www.folktunefinder.com/tunes/113112
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

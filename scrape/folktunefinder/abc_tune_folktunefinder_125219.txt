@@ -1,0 +1,32 @@
+X:2
+T:Oh when the Saints
+M:4/4
+L:1/4
+K:C 1&1
+z3&CEF|\
+LC  Mc & UG4     && LC  Mc &     |\
+LC  Mc & G   C   && LC  Mc & E  F|\
+LC  Mc & UG4     && LC  Mc &     |\
+LC  Mc & G   C   && LC  Mc & E  F|\
+LC  Mc & G2      && LC  Mc & E2  |\
+LC  Mc & C2      && LC  Mc & E2  |\
+LG, SG & E   UD3 && LG, SG &     |\
+LG, SG & D   E   && LG, SG & E  D|\
+LC  Mc LC & C3      &&  Mc &    C|\
+LC  Mc & E2      && LC  Mc & G  G|\
+LF, MF & G   UF3 && LF, MF &     |\
+LF, MF & F2      && LF, MF & E  F|\ 
+LC  Mc & G2      && LC  Mc & E2  |\
+LC  Mc & C2      && LG, SG & D2  |\
+LC  Mc & UC4     && LC  Mc &     |\
+\mulooseness=2
+[WLCMc] & C||
+S:https://www.folktunefinder.com/tunes/125219
+S:http://accordionlinks.com/other/examples.abc
+S:http://www.accordionlinks.com/other/examples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

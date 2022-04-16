@@ -1,0 +1,36 @@
+X:35
+T:Fairfield Muster
+C:John McDonough, 1965
+M:2/4
+L:1/16
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B2|:A2FG A2df|a2fd A2f2|efge cABc|dfec dcB_B|A2FG A2df|a2fd A2df|
+efge cABc|[1 dfec d2B2:|[2 d2dc =c4||\
+K:G
+M:4/4
+.B2.B2 .B2.B2 A^GAB =GABc|
+d2d2 cBc2 B2FG ABcd|e2e2 cde2 d2dc Bcd2|(3ccc(3AAA (3ccc(3eee d4 d4|
+.g2.g2 g2ab a2fe d3=f|e2e2 cde2 d2dc B4|(AB)cd efga (GA)Bc defg|
+(FG)AB cdef g2dB G2B2||\
+K:D
+M:2/4
+A2FG A2df|a2fd A2f2|efge cABc|dfec dcB_B|
+A2FG A2df|a2fd A2df|efge cABc|dfec .d2z2|| %(3dfg(3abc' .d'2z2||
+S:https://www.folktunefinder.com/tunes/114101
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

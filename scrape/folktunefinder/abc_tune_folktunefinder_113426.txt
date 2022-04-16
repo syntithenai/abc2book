@@ -1,0 +1,59 @@
+X:10
+T:Illinois
+H:This song included the note, "Used by permission of Clayton F. Summy Co., Owners of the Copyright."
+C:Words by C. H. Chamberlain/Air: "Baby Mine"
+%%NoDecos 5 yes
+%%NoDecos 2 no
+%%staffsep 30pt
+%%LineSep 30pt
+%%titlespace 40pt
+%%textspace 10pt
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=110
+%%staves [(1) (2 3) (4 5)]
+K:F
+V:1 clef=treble
+A B | c A G F A F D > C |
+w:1.~By thy riv-ers gen-tly flow-ing, Il-li\-
+w:2.~From a wil-der-ness of prai-ries, Il-li\-
+w:3.~When you heard your coun-try call-ing, Il-li\-
+w:4.~Not with-out thy won-drous sto-ry, Il-li\-
+V:2 clef=treble
+z2 | F2 F2 F2 F2 |
+V:3 clef=treble
+z2 | A,2 A,2 A,2 B,2 |
+V:4 clef=bass
+%%MIDI transpose -24 
+z2 | c2 c2 c2 d2 |
+V:5 clef=bass 
+%%MIDI transpose -24 
+z2 | F2 F2 F2 B2 |
+V:1
+F2 F > G F2 A B | c A G F A F D > C |
+w:nois, Il-li-nois, O'er thy prai-ries ver-dant grow-ing, Il-li\-
+w:nois, Il-li-nois, Straight thy way and nev-er va-ries, Il-li\-
+w:nois, Il-li-nois, Where the shot and shell were fall-ing, Il-li\-
+w:nois, Il-li-nois, Can be writ the na-tion's glo-ry, Il-li\-
+V:2
+F2 F>G F2 z2 | F2 F2 F2 D>C |
+V:3
+A,2 B,2 A,2 z2 | A,2 A,2 A,2 A,2 |
+V:4
+c2 d2 c2 z2 | c2 c2 c2 f2 |
+V:5
+F2 F2 F2 z2 | F2 F2 F2 F2 |
+V:1
+G2 G > A G2 A B | c A d B c2 A B |
+S:https://www.folktunefinder.com/tunes/113426
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

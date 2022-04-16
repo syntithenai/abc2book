@@ -1,0 +1,29 @@
+X: 77
+T:La Grande Chaine
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:G
+D|"G"BB/2c/2 B/2A/2G/2B/2|dd B/2G/2B/2d/2|"Am"c/2d/2c/2B/2 "D"A/2D/2F/2A/2|\
+"G"d/2e/2d/2c/2 "D7"B/2D/2G/2A/2|
+"G"BB/2c/2 B/2A/2G/2B/2|"G"dd B/2G/2B/2d/2|"Am"c/2d/2c/2B/2 "D7"A/2D/2F/2A/2|\
+"G"G2 G::
+e/2f/2|"C"gg/2f/2 e/2f/2g/2e/2|"G"dd B/2G/2B/2d/2|\
+"Am"c/2d/2c/2B/2 "D"A/2D/2F/2A/2|"D7"d/2e/2d/2c/2 "G"B/2d/2e/2f/2|
+"C"gg/2f/2 e/2f/2g/2e/2|"G"dd B/2G/2B/2d/2|"Am"c/2d/2c/2B/2 "D7"A/2D/2F/2A/2|\
+"G"G2 Ge/2f/2|
+"C"gg/2f/2 e/2f/2g/2e/2|"G"dd B/2G/2B/2d/2|"Am"c/2d/2c/2B/2 "D"A/2D/2F/2A/2|\
+"G"d/2e/2d/2c/2 "D7"B/2D/2G/2A/2|
+"G"BB/2c/2 B/2A/2G/2B/2|"G"dd B/2G/2B/2d/2|"Am"c/2d/2c/2B/2 "D7"A/2D/2F/2A/2|\
+"G"G2 G:|
+S:https://www.folktunefinder.com/tunes/108049
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

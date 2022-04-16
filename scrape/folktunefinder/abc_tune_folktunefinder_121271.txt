@@ -1,0 +1,25 @@
+X:165
+T: Dwyer's
+S: "Treoir"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+d | efg edB | cBA BGD | G2 G BdB | BAG ABd |
+efg edB | cBA BGD | G2 G BdB | AGF G2 :|
+D | GBd g2 g | agf g2 e | fed edB | cBA BGD |
+GBd gfg | agf g2 e | fed edB | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/121271
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:5
+T:The Earle of Essex Galiard.
+T:Bassus
+C: John Dowland
+O: From Lachrimae, or Seaven Teares figured in Seaven Passionate Pavans, with divers other Pavans, Galiards, and Almands, set forth for the Lute, Viols or Violons, in five parts
+%%MIDI nobarlines
+L:1/4
+M:3/2
+K:Gdor bass
+%%MIDI transpose -24
+g2 g3 a b6 B2 f2 g2 d6 d2 g c2 f B4 _e2 c2 d4 G6 || d3 c B A G2 ^F G2 g f2 B2 _E2 d6 d2
+g c2 f B4 c2 d2 _e4 d6 || B4 B2 B4 B2 c4 c2 c4 c2 d4 d2 d4 d2 G > A =B c A2 HG6 |]
+S:https://www.folktunefinder.com/tunes/110869
+S:http://www.laymusic.org/music/dowland/essex/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

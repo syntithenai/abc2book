@@ -1,0 +1,31 @@
+X: 24
+T:Mr. Preston's Hornpipe
+M:3/2
+L:1/4
+S:Marsden
+Z:ps
+K:G
+a2g2e2|ae2d/c/ B/c/d/B/|a2g2e2|gd2GB/c/d/B/||
+Ae2Ac2|Ae2AB/c/d/B/|Ae2Ac2|Bg2dB/c/d/B/||
+a/e3/2f/ d3/2 e/c3/2|ae2d/c/ B/c/d/B/|a/e3/2f/ d3/2e/c3/2|gd2G/B/c/d/B/|
+|
+Aec/d/e/c/ Ae|Ae2d/c/ B/c/d/B/|Aec/d/e/c/Ae|dg2dB/c/d/B/||
+Aac/d/e/c/Aa|Aac/d/e/c/Ag|Aac/d/e/c/Aa|gd2GB/c/d/B/||
+Aa2ec/d/e/c/|Aa2dB/c/d/B/|Aa2ec/d/e/c/|Bg2dB/c/d/B/||
+Aec/d/e/c/ Ae|c/d/e/c/AeB/c/d/B/|Aec/d/e/c/Ae|dfdGB/c/d/B/||
+AaecAa|Aac/d/e/c/Bg|AaecAa|gdBGB/c/d/B/||
+Ac2deA|ceAdB/c/d/B/|Ac2ded/c/|BgdGB/c/d/B/||
+a/g/f/e/ f/e/d/c/ d/c/B/A/|ae2d/c/ B/c/d/B/|a/g/f/e/ f/e/d/c/ d/c/B/A/|g
+d2GB/c/d/B/||
+Ae2Ac>B|Ae2AB/c/d/B/|Ae2Ac2|Bg2dB/c/d/B/||
+S:https://www.folktunefinder.com/tunes/110826
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

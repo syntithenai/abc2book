@@ -1,0 +1,24 @@
+X:54
+T:Honky Tonk Swing
+C:Bill Monroe - Arr. Mike Compton
+M:4/4
+L:1/8
+Q:1/8=440
+K:C
+G,G,|"C"CC EGc2c2|cc _B=BG2GA|cdcc cccG|"C7"EGEC- CCDE|
+"F"FGAc- ccd^d|egec- cGAG|"C"(3ccc c2GF^DE|C2[e2c2G2][e2c2G2][ecG](G,|
+"G"B,)G_B,=B,G2cc|ec-cG FG^DE|"C"C2[e2c2G2][ecG]G, A,B,|C2[e2c2G2][e2c2G2]G,G,|
+CCEGc2cA|cc_B=BG4|(3cdc (3BcB GF^DE|"C7"EG^DEC2[c2G2]|
+"F"FGAc- ccd^d|egec cGAG|"G"cc-cG FF^DE|C2[c2G2][c2G2][c2G2]|
+"G"B,G^A,B,G2cc|ec-cG FG^DE|"C"C2[c2E2][cE][AD] [B^D][A=D]|[c2E2]c2c2c2|
+c'c'c'c' c'c'c'c'|c'c'c'c' c'c'c'c'|c'c'c'c' c'c'c'g|"C7"g2^d2=c4|
+"F"ffzff2f2|ggzg- g^de2|c2cG FFEE|[c2E2][c2E2][c2E2]cA|
+"G"Bg- gag2g2|gazg [e^d][ed] [ed][ed]|"C"c2cG FFEE|[c2E2][c2E2][c2E2][c2E2]
+S:https://www.folktunefinder.com/tunes/117101
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

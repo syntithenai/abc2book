@@ -1,0 +1,28 @@
+X:5932
+T:Gan Ainm
+R:jig
+S:
+H:
+N:
+D:Milltown Session
+Z:Adrian Scahill
+M:6/8
+L:1/8
+K:D
+DFA d2f|edc B2d|A2d F2B|AGF EFE|\
+DFA d2f|edc B2d|A2d F2B|1 ABc dAF:|2 ABc d3||\
+efe A2f|ece a2f|efe dcB|A2B c2d|\
+efe A2f|ece a2f|efe dcB|1 ABA c2d:|2 ABA GFE||\
+D2f fef|d2A AFG|A2f fef|g2f edB|\
+A2f fef|d2A AFA|Bcd ecA|d2A GFE:||
+S:https://www.folktunefinder.com/tunes/101830
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

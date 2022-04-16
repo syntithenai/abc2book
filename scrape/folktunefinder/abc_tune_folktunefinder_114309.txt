@@ -1,0 +1,32 @@
+X:10
+T:Polka e. Tor Homleid (reinlander)
+R:reinl=E4nder
+Z:2000 Brian Wilson
+Z:From a Niklas Roswell CD
+M:2/4
+L:1/16
+K:A
+|: c2cB c2cB \
+| c2cB BAAc \
+| efed BcdB \
+| c2cB A2E2 |
+| c2cB c2cB \
+| c2cB BAAc \
+| efec edBG \
+| A2B2 A4 :|
+|: a~gae b2a2 \
+| cdef fec2 \
+| BABc dBGB \
+| A2B2 A4 :|
+S:https://www.folktunefinder.com/tunes/114309
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PolkaETorHomleidReinlander.abc
+% Rhythm Reinl=e4nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

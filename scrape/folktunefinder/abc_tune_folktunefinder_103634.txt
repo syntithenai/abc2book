@@ -1,0 +1,22 @@
+X: 39
+T:Railway,The
+R:jig
+M:6/8
+L:1/8
+K:Gmaj
+D |\
+G2 G GBd |g2 d d2 d |e2 d c2 B |ABG FED |\
+G2 G GBd |g2 d d2 d |edc BAG |A3 G2 :|\
+d |\
+b2 b b2 a |g2 g g2 d |e2 d efg |a2 g fed |\
+bbb b2 a |ggg g2 d |efg agf |g3 -g2 :|
+% Output from ABC2Win  Version 2.1 k pre2 on 14/02/2002
+S:https://www.folktunefinder.com/tunes/103634
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

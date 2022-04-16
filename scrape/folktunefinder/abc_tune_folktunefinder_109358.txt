@@ -1,0 +1,27 @@
+X: 10
+T: Plaisir d'Amour
+I: Plaisir d'AmourW-6Gwaltz
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+C: W-6
+K: G
+D| "G"G6| "D"A6| "G"B6| B4 z B| "C"[A6c6e6]| "G"B3 G B2| "D"A6| A4 z D|
+   "C"E6| "D"F6| "G"G4 AB| "C"E2 A3 c| "G"B6| "D"A6| "G"G6| [G,6G6]|]
+%%partsfont Times-Bold 13.0
+P: Alternate version
+%%partsfont Times-Bold 10.0
+D| "G"G6| "D"A2 BA GA| "G"B6| B4 z B| "C"[A6c6e6]| "G"B3 G B2| "D"A6| A4 z D|
+   "C"E6| "D"F6| "G"G4 AB| "C"E2 A3 c| "G"B6| "D"A6| "G"G2D2B,2| [G,6G6]|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/109358
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

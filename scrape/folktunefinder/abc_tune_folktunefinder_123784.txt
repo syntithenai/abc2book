@@ -1,0 +1,52 @@
+X:5001
+T:Fandangu (CT 324)
+R:Fandangu
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Baile de gaita, transcrito en Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 324
+L:1/8
+Q:1/4=72
+K:G
+(d2-d3/2(3c/4B/4A/4 G3/2(3A/4B/4c/4 d3/2(3e/4f/4e/4 d3/2(3e/4d/4e/4
+c3/2(3d/4c/4d/4 B3/2(3c/4B/4c/4 A3/2(3B/4A/4B/4 G3/2(3A/4G/4A/4
+F3/2(3A/4G/4A/4 G3/2(3A/4B/4A/4 G/2(3A/4B/4A/4 G/2(3A/4B/4A/4 G4
+[M:3/8]
+[L:1/8]
+[Q:3/8=72]
+|:B G/B/G/B/|A G/B/G/B/|A G/B/G/B/|A G/B/G/B/|
+A G/B/G/B/|A G/B/G/B/|A F/A/F/A/|A F/A/F/A/|
+A F/A/F/A/|A F/A/F/A/|A F/A/F/A/|A F/A/F/A/|
+B G/B/G/B/|B G/B/G/B/|B G/B/G/B/|B G/B/G/B/|
+B G/B/G/B/|B G/B/G/B/|d g/f/e/d/|B G/B/G/B/|
+d g/f/e/d/|c A/B/A/B/|c d/c/B/A/|A/G/F/G/F/G/|
+A B/c/d/c/|B/A/G/B/G/B/|d/c/B/c/d/c/|B/A/G/B/G/B/|
+d/c/B/c/d/c/|A/G/F/G/F/G/|e/c/B/c/e/c/|A/G/F/G/F/G/|
+e/c/B/c/e/c/|B/A/G/B/G/B/|B/A/G/B/G/B/|B/A/G/B/G/B/|B/A/G/B/G/d/|
+g2 e|f2 d|eeg/e/|c2 A|
+f2 d|e2 g|ecA|G3|
+eBc|d2 e|dcB|c2 d|
+cBA|B2 B|AGF|G2 G|
+GAB|ccd|cBA|BBc|
+BAG|AAB|AGF|G2 e/f/|
+g3|ece/f/|g/f/e/f/g/f/|ece/f/|
+g/f/e/f/g/f/|dBe/f/|g/f/e/f/g/f/|ece/f/|
+g f/e/d/c/|B/A/G/B/G/B/|B/A/G/B/G/B/|B/A/G/B/G/B/|
+B/A/G/B/G/B/|A/G/F/A/F/A/|A/G/F/A/F/A/|A/G/F/A/F/A/|G3:|d3||
+S:https://www.folktunefinder.com/tunes/123784
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Fandangu
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

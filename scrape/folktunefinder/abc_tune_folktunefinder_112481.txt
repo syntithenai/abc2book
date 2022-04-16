@@ -1,0 +1,31 @@
+X:54
+T: Nao yuanxiao
+N: C0071
+O: China,Shanxi, Qitai
+S: I, 276]
+N: neues Volkslied
+N: In der 2. Strophe wird der Text der 3 letzten Takte auf folgende
+N: Noten wiederholt: 1_.21_2_  5_6_4_3_  2___
+R: Wuge, Yangge, Jinzhong yangge. Xin minge]
+M: 2/4
+L: 1/16
+K: Bb
+z2c2c2c2 | g2f2dfc2- | c2g2b2c2 | bcg4
+f2 | d2f2c2g2 | b4c2gc | f3dc4
+f3dc4 | z2g4b2 | c4g2c2 | f3dc4
+f2dfc4 | efefg4
+g2g2c2c2 | g2b2b2gf | e2c2e2f2 | g4c4
+e3fe3f | g2g2b2d2 | c8
+g2g2c2c2 | g2b2b2gf | e2c2e2f2 | g4c4
+b3cb2c2 | f2g2e2d2 | c8
+S:https://www.folktunefinder.com/tunes/112481
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge, jinzhong yangge. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

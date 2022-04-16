@@ -1,0 +1,52 @@
+X:57
+T:SLAP AND KISS
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:G
+P:1
+ef |\
+gfed B2 g2 dBAG | A2 e2 e2 A2 cdef |\
+gfed B2 g2 dBAG | BcdB g2 B2 cdef ||
+P:2
+gfed BcdB dBAG | A2 e2 e2 A2 cdef |\
+gfed BcdB dBAG | B2 g2 g2 B2 cdec ||
+P:3
+G2 B2 G2 e2 BcdB | A2 c2 A2 a2 ABcA |\
+G2 B2 G2 g2 BcdB | G2 g2 BcdB ABcA ||
+P:4
+G2 B2 G2 g2B2 g2 | A2 a2 A2 a2 A2 f2 |\
+G2 B2 G2 g2 BcdB | G2 g2 BcdB ABcA ||
+P:5
+GABc dBde dBAG | ABcd edcB ABcA |\
+GABc dBde dBAG | BcdB effe fgaf ||
+P:6
+gfed edcB cBAG | ABcd edcB ABcA |\
+GABc dBde dBAG | BcdB g2 B2 d2 g2 ||
+P:7
+B2 G2 D2 g2 dBAG | ABcd ecBA cdec |\
+B2 G2 D2 g2 dBAG | BcdB g2 B2 cdec ||
+P:8
+g<d z =f e<c z e d<B z G | A2 e2 e2 A2 cde^f |\
+g<d z =f e<c z e d<B z G | B2 g4 B2 cdec ||
+P:9
+d2 g4 e^f gfed | cdef ecBA cdec |\
+B2 g4 ef gfed | BcdB g2 B2 cdec ||
+P:10
+G2 B2 G2 g2 G2 B2 | A2 c2 A2 a2 ABcA |\
+G2 B2 G2 g2 G2 B2 | G2 e2 G2 B2 ABcA ||
+P:11
+G2 B2 G2 g2 dBAG | ABcd ecBA cdef |\
+gfed BcdB dBAG | BcdB g2 B2 d2 g2 |]
+S:https://www.folktunefinder.com/tunes/110519
+S:http://trillian.mit.edu/~jc/music/abc/England/Cheshire/Cheshire.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

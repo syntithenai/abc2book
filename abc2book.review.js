@@ -422,7 +422,7 @@ function renderReviewMusic() {
   var tune = getCurrentReviewTune()
   if (tune) {
     console.log('REND MUSIC',tune)
-    var abc = tweakABC(tune.songNumber, tune) 
+    var abc = json2abc(tune.songNumber, tune) 
     var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
     renderResultSingle.map(function(rr,rk) {
       reviewRenderResult=rr

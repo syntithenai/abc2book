@@ -1,0 +1,27 @@
+X: 100
+T:Tara Hill
+R:Hornpipe
+C:Ed Reavy
+M:4/4
+L:1/8
+Z:Joe Reavy
+N:A little-known hornpipe of Ed's that could 
+N:in time become one of his most popular compositions.
+K:G
+(3def|gd^cd BGDC|B,DGB edcB|cAFD ^CDFA|
+(3cBc ed cAFA|BGDC B,G,B,D|GABd cAFA|
+fed^c =cAFA|GDB,D G2:||(3def|gdcd edcd|
+eaa^g a2 ef|gfge fdcA|Gggf gedc|BGDC B,G,B,D|
+GABd cAFA|fed^c =cAFA|GDB,D G2:||
+S:https://www.folktunefinder.com/tunes/120159
+S:http://www2.redhawk.org:8080/irish/Reavy/Reavycom.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

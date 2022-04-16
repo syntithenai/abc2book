@@ -1,0 +1,37 @@
+X:15
+T:Valse a 15 sous
+C:Traditionnel Berry
+I:France
+Q:1/4=180
+M:3/4
+L:1/4
+P:ABACA
+K:D
+P:A
+D F A |D F A |d c/d/c/B/ |A3 |
+B/A/G/F/E/D/ |C2 B |A ^G/A/B/A/ |(F2 D) |
+D F A |D F A |d c/d/c/B/ |A3 |
+B/A/G/F/E/D/ |c2 B |A ^G/A/B/A/ |d3 |
+K:G
+P:B
+|:D G3/2 B/ |d3 |e/d/c/B/A/G/ |F3 |
+D F3/2 A/ |c3 |f/e/d/c/B/A/ |B2 G |
+D G3/2 B/ |d3 |e/d/c/B/A/G/ |F3 |
+D F3/2 A/ |c3 |f/e/d/c/B/A/ |G3 :|
+K:G
+P:C
+|:B3 |G D3/2 G/ |(F3 |F) e e |
+e e e |e d ^c |d3 |d/ D/E/F/G/A/ |
+B3 |G D3/2 G/ |F3 |F A A |
+A A A |A G F |1G3 |G/D/E/F/G/A/ :|2
+G3 |G3 ||]
+S:https://www.folktunefinder.com/tunes/104660
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:66
+T:Knole Park
+Q:1/4=80
+M:2/4
+L:1/16
+K:D
+  |: "D"A3B A3F | "D"A2d2 f2d2 | "G"B2ef g2e2 |"A"d2c2 B2A2 |! "D"A3B
+A3F | "D"A2d2 f2d2 | "G"B3g "A"e2c2 |"D"d2A2 D4 :|!
+|: "D"a2f2 A2af | "A"g2e2 A2g2 | "Em"g2f2 e2d2 |"A"c2B2 A2G2 !|
+"G"B2g2 "D"A2f2 | "A"G2e2 "D"F2d2 | "G"E2g2 "A"fedc |"D"d2A2 D4 :|
+S:https://www.folktunefinder.com/tunes/119322
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

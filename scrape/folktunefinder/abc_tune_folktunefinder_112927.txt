@@ -1,0 +1,31 @@
+X:500
+T: Fang fengzheng
+N: C0383
+O: China,Hebei, Nanpi
+S: IV, 73]
+N: Jian jian hua-Variante im Norden. Auch in Jiangnan zu finden.
+N: Saengerin Huang Bai am 28.4. 87 (wieder erkaeltet)
+N: Vereinzelt Verzierungen, Glissandi.
+R: Tanzlied, Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+E2E2DCDE | G6A2 | c4e2de | c8
+c3Ae2ge | dedAc4 | g2AGGEDE | G8
+d2edc2Ac | d2edc4 | EDEGAGAc | G3EG2GA
+B2BAG2G2 | A2AcG2GE | DEG2EGED | C3A,C4
+G2E2DCDE | G2E2G2GA
+B2BAG2G2 | A2AcG2EE | DEG2EGED | C8
+S:https://www.folktunefinder.com/tunes/112927
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Tanzlied, xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

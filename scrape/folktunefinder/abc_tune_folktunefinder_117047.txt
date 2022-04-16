@@ -1,0 +1,26 @@
+X: 51
+T:Miss Douglas
+M:4/4
+L:1/8
+S:Athole
+R:Strathspey
+K:G
+B>c|"G"d2 B>c "G7"d>G B<G|"C"E<cA>G "D7"F<D DB/c/|"G"d2 B>g "Em"d>G B<G|
+"Am"E<A"D7"D>F "G"G2 B<c|!
+"G"d2 B>c "G7"d>G B<G|"C"E<cA>G "D7"F<D DB/c/|"G"d2 B>g "Em"d>G B<G|
+"Am"E<A"D7"D>F "G"G2 G||!
+d|"G"d<gg>f "Am"e<aa>g|"D7"f>de>f "G"g>ag>d|"G"d<gg>f "Am"e<aa>g|
+"D7"f>de>f "G"~g3 a|!
+"Em"b>ga>f "C"g>ef>d|"Am7"e>cd>B "D7"A>B c<e|"G"d2 B>g "Em"d>G B<G|"Am"E
+<c "D7"A>F "G"G2||
+% Output from ABC2Win  Version 2.0  on 10/7/2001
+S:https://www.folktunefinder.com/tunes/117047
+S:http://home.usit.net/~bhooper/scot3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

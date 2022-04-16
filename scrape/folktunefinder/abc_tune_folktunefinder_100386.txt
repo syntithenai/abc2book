@@ -1,0 +1,23 @@
+X:94
+T:John O'Groats Jig
+O:scotland
+B:Kohlers Violin repository - slightly adapted
+C:John Bain, Wick
+M:6/8
+L:1/8
+R:jig
+K:Dm
+A/G/|FGA DFA|dfd ecA|Agf edc|=Bed c=BA|
+FGA DFA|dfd ecA|Bgf ed^c|dDD D2:|
+A|dfa afd|gbg ecA|dfa afd|=Bed c=BA|
+dfa afd|gbg ecA|Bgf ed^c|dDD D2:|
+S:https://www.folktunefinder.com/tunes/100386
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

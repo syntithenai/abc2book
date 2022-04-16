@@ -1,0 +1,27 @@
+X: 10
+T:MacPherson's Blade
+M:2/4
+L:1/16
+Q:112
+C:J. Scott Skinner
+S:The Pink Book
+R:March
+D:"Songs from the Cape"
+K:Em
+|: B2 |{^d}[e4e4] EFGA  |B2B,2 E4 |c3B A2G2 |F2E2 ^D2B2 |g4 GABc    |d2D
+2 G2B2
+ |e2fg f2g2       |e4- e2 :| !
+   B2 |e2fg f2b2 |b4 e2A2   |d2ef e2a2 |a4      d2B2   |e2fg f2g2   |efg
+e   b2B2   |eBGE B2^d2 |e4- e2 || !
+   B2 |e2fg f2g2 |e6     A2   |d2ef e2f2   |d6         ef     |gfed g2G2
+  |A2Bc B2^d2 |eBGE B2B,2  |E4- E2 |]
+S:https://www.folktunefinder.com/tunes/125239
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

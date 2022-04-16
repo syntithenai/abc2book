@@ -1,0 +1,29 @@
+X:35
+T: Dong fang hong, Der Osten ist rot)
+N: C0046
+O: China,Shaanxi, Nordwesten)
+S: I, 31]
+N: traditionelles Liebeslied, das in den 1930er mit neuem Text
+N: versehen wurde. Vgl. Band 3 CuT 3(), hier fuerchterlich)
+N: Die Rueckseite der hier kopierten Platte enthaelt dasselbe Stueck
+N: fuer Blasorchester. Platten-Nr. 1-5059, ZCP)
+R: Xiaodiao. Geming lishi minge]
+M: 2/4
+L: 1/8
+K: F
+c2cd | G4 | F2FD | G4
+c2c2 | dfdc | F2FD | G4
+c2G2 | F2ED | C2c2 | G2
+AG | F2FD | GAGF | GFED | C4- | C2z2
+S:https://www.folktunefinder.com/tunes/112462
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

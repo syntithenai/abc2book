@@ -1,0 +1,33 @@
+X:13
+T:Solveigs sang (seconde notation)
+R:Folkevise
+C:tekst : Ibsen / melodi : Grieg
+N:
+D:Storm : Oppunder Skrenk og Villmark
+O:Norge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=85
+K:C treble
+%%MIDI program 1
+V:1
+(E2 | A2 Bc d2 ef | fe ec A2) (Ac | cB B^G E4)-|E6 
+ E2 | A2 Bc d2 ef | fe ec A2 Ac | cB BG E4-|E6
+ zE | (E^G Bc A2 e^d | B2 d^c A3) (A | cB BA e3) E |
+     E^G Bc A2 e^d | BB d^c A3 A | [F3c3] B[D3B3] A | [C8A8] |]
+V:2
+K:C bass
+z2|A,,2 [E,2C2] A,,2 [E,2D2]|A,,2 [E,2C2] A,,2 [E,2C2]|A,,2 [E,2D2] A,,2 [E,2C2]|
+[K:C treble] [c6a6] z2 | A,4 G,4 | C4  [K:C bass] F4|E4-[A,4E4][K:C treble]|
+[c6a6] z2 [K:C bass]|D4 C4|B,2_B,2 A,4|[^D,4A,4F4] [E,4^G,4E4]|
+D4 C4|B,2_B,2 A,4|[D,4A,] [E,4^G,4]|[A,,8E,8]|]
+S:https://www.folktunefinder.com/tunes/112135
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Rhythm Folkevise
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

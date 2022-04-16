@@ -1,0 +1,20 @@
+X:100
+T:James Byrne's Jig (without double stops)
+R:jig
+Z:From a tape of James Byrne in 1987
+M:6/8
+K:D
+F2D DED|F2D DEF|E2A, A,CA,|ECA, A,CE|
+F2D DED|FED DFA|Bcd edc|1 dec dAG:|2 d3 d2e||
+.f/.a/.fd def|gfg egf|ecA ABA|ecA Ace|
+{fa}f2d def|gfg egf|ecA ABc|1 dec deg:|2 .d/.d/.dB .A/.A/.AG||
+S:https://www.folktunefinder.com/tunes/100789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

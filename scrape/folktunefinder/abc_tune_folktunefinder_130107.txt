@@ -1,0 +1,18 @@
+X:1
+T:Automation
+M:3/4
+L:1/8
+K:C
+ z2 B,C EG| c4- c B-| B4- Bc| B6-| B2 B,C EG| c2 B2 c2| B2 A3 B| A6-|\
+ A2 _D=D FA| d6-| d2| _D=DF A| c6-| c2 _D=D FA| d2 c2 B2| A2 F2 D2|\
+ C4- C D-| B,2 CC EG| c4 c- c-| B4- Bc| B6-| B2| B,CE G| c2 B3 c| B2 A3 B|\
+ A6-| A2 _D=D FA| f2 e2 d2| c2 A2 F2| E6| D2 _D=D EF| A6| B4- d2| c6|\
+S:https://www.folktunefinder.com/tunes/130107
+S:http://back.numachi.com:8000/dtrad/abc/AUTOMTN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 95
+T:Earl Cathcart. GS.095
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Leeds
+N:I think what is meant with the repeats is that the 1st bar is played
+N:first time through, but after that the  last bar replaced the first bar
+N: $ = conventional
+N:dal segno sign...  is , yes, a cross. The first bar line, shown here
+N:as double with repeat marks, is single in the MS, but ABC2win wants it
+N:double.  It can't cope with ungrammatical music. DC is written below
+N:the stave and the pause
+N: is written over the double bar.
+H:1831
+Z:vmp.Cherri Graebe
+K:G Major
+"" DGB d2d |: "$" dcB A2 c | BGd cAe | G3F2D | DGB d2d |! dcB A2 c | c
+BA BAF | A3"PAUSE"G2 :||:
+ d | def g2g | gfe d2d |! ecB Ace | G3F2A | GB^c def | B3 g2g | fed ^cde
+ | dec def "DC"|| "" gdB GB"$"d ||
+S:https://www.folktunefinder.com/tunes/104769
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

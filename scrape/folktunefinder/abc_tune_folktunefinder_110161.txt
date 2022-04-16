@@ -1,0 +1,22 @@
+X:114
+T:Sir Roger de Coverley
+M:9/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=110
+K:G
+P:A
+|: "G"G2G "^/"G2e "^/"dBG | "D"A2A "^/"ABG "^/"FED | "G"G2G "^/"G2e "D"def | "G"g2G "C"GAG "D"FED:|
+P:B
+|: "G"dBd "C"ece "G"dBG | "D"A2A "^/"ABG "^/"FED | "G"dBd "C"ece "G"dBG | "G"g2G "C"GAG "D"FED:|
+P:C
+|: "G"gag "^/"f2e "^/"dBG | "Am"E2A "^/"A2G "D"FED | "G"gag "^/"f2e "D"def | "G"g2G "C"GAG "D"FED:|
+S:https://www.folktunefinder.com/tunes/110161
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

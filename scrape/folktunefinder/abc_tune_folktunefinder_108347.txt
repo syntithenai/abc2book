@@ -1,0 +1,24 @@
+X:6840
+T:Harrow on the Hill,bass part. JNu.21
+M:2/4
+Q:50
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Misc.
+O:England
+A:East Lancashire
+Z:Chris Partington
+K:D
+"secundo,read as bass clef"Bfdf|Bfdf|cfef|FfFf|Bfef|BfBf|cfce|BfB2::!
+cfef|Bfdf|Ec^Ec|FcF2|cfef|Bfdf|FfFf|BfB2:|]
+S:https://www.folktunefinder.com/tunes/108347
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

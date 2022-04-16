@@ -1,0 +1,33 @@
+X:337
+T: Lang da shaozi ying guo gou
+N: C1216
+O: China,Sichuan, Daxian
+S: MM,]
+N: Notenbeilage kopiert
+N: Wenig Verzierungen. Grundton- und Taktangabe fehlen.
+N: T.25 geaendert! In der Vorlage notiert: 0__0__2_. 
+R: Shange, Shaozi]
+M: 2/4
+L: 1/16
+K: A
+c2f2a2f2 | f8 | c8 | e8
+c2cec3b | e2af-f4
+b2e2c2c2 | b6c2 | bca2a2f2 | b2f6
+c2f2a2c2 | f8 | c8 | e6
+e2 | b2cec3b | c2af-f2
+c2 | a2c2a2b2 | b6f2 | a2a2b4 | b2f6
+c3ff2c2 | f2z4ff | fac4fa | f2f6 | z4
+zb3 | a2a2a2a2 | b8 | c2b2b4 | b2f6
+a2c2f2a2 | f2f4a2 | a2c2c3a | b4z2
+b2 | bca2c2af- | f8
+S:https://www.folktunefinder.com/tunes/112764
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, shaozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

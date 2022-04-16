@@ -1,0 +1,27 @@
+X:278
+T: Sheng jizi jiao ming
+N: C0495
+O: China,Gansu, Huixian
+S: I, 145, 1)]
+N: Es wird das Gackern eines Huhns imitiert. Entsprechend besteht der
+N: Text nur aus Fuellwoertern.
+R: Haozi, Jigong haozi, Jaodung xiuxi, Xiqing, Hunyan shang chang]
+M: 2/4
+L: 1/16
+K: Bb
+z2f2 | f2f4c2 | e6c2 | f2f4c2 | b6g2 | f6
+f2 | f2f4c2 | e6c2 | f2f4c2 | b6g2 | f6
+f2 | c3fc2b2 | c3fc2b2 | g2ffb2f2 | a6f2
+c3fc2b2 | c3fc2b2 | g2ffb2f2 | a6f2
+f2f4c2 | e6c2 | f2f4c2 | b6g2 | f6z2
+S:https://www.folktunefinder.com/tunes/112705
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, jigong haozi, jaodung xiuxi, xiqing, hunyan shang chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

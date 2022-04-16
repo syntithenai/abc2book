@@ -1,0 +1,25 @@
+X:15
+T:In Praise of Christmas
+T:To Drive the Cold Winter Away
+C:Words: Tom Durfey (1653-1723)
+C:Tune: 18th Century
+H:Martin Shaw and Percy Dearmer, The English Carol Book, First Series
+S:A. H. Bullen, A Christmas Garland
+S:  (London: John C. Nimmo, 1885), pp. 157-161
+%
+%%barsperstaff 3            % number of measures per staff
+M:6/8
+L:1/8
+K:Am % Transposed from Cm
+%
+A, | C3/ B,/ A, E2 A | G3/ F/ E c2 C | D3/ D/ E F3/ G/ F | E3- E2 A, |
+S:https://www.folktunefinder.com/tunes/118548
+S:http://tomkeays.com/music/xmas/xmas2007.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

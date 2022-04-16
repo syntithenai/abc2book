@@ -1,0 +1,30 @@
+X:36
+T:Down Fall Of Paris
+R:hornpipe
+A:Ireland
+M:4/4
+L:1/8
+K:D
+{g}e2|{gAd}A2{g}AB {GAG}A2{g}AB|{gAd}A2{g}Bc {g}dcB{e}A|{gBd}B2{g}Bc {Bd}B2{g}Bc|{gBd}B2{g}Bc {g}dcB{g}A|
+{gcd}c2{g}cB {cd}c2{g}cB|{g}ce{ag}a2 {fg}fed{e}c|{gBd}B2{g}(3Bcd{Bc}B2 {g}B c|{g}BcdB {g}AB{d}Be|
+{gAd}A2{g}AB {GAG}A2{g}AB|{gAd}A2{g}Bc {g}dcB{e}A|{gBd}B2{g}Bc {Bd}B2{g}Bc|{gBd}B2{g}Bc {g}dcB{e}A|
+{g}cBcd {g}ef{g}ed|{g}cBcd {g}e2{A}ed|{g}(3cde {g}cA{g}(3Bcd {gBd}B2|{g}A2{g}AG {AGAG}A2||
+{g}cd|{gef}e2{g}ec {gef}e2{g}ec|{fg}f2{gef}e2 {gde}d2{gcd}c2|{Gdc}d2{g}dB {Gdc}d2{g}(3dcB|{gef}e2{gde}d2 {gcd}c2{gBd}B2|
+{cd}c2{g}cB {cd}c2{g}cB|{g}ce{ag}a2 {fg}fed{e}c|{gBd}B2{g}Bc{Bd}B2{g}Bc| {g}Bc{g}(3dcB {g}AB{d}B e|
+{gAd}A2{g}AB {GAG}A2{g}AB|{gAd}A2{g}Bc {g}dcB{e}A|{gBd}B2{g}Bc {Bd}B2{g}Bc|{gBd}B2{g}Bc {g}dcB{e}A|
+{g}cBcd {g}ef{g}ed|{g}cBcd {g}e2{g}ed|{g}(3cde {g}cA{g}(3Bcd {gBd}B2|{g}A2{g}AG {AGAG}A2
+|:{g}cd|{gef}e2{gfg}f2 {ag}a2{fg}f{g}e|{g}(3cde af{gef}ed{g}c B|{gAd}A2{GAG}A2 {gBd}B2{gBd}B2|{GcB}c3{g}A {gBd}B2{g}cd|
+{gef}e2{fg}f2 {ag}a2{fg}f{g}e|{g}ceaf {gef}ed{g}cB|{g}A2{g}(3Bcd {g}cA{gBd}B2|{g}A2{g}AG {AGAG}A2:|
+|:{g}(3cBA|{Bd}B3{g}A {gBd}B2{g}Bc|{g}(3ded {gcd}c2{gBd}B2{gAd}A2|{Bd}B3{g}A {gBd}B2{g}Bc|{gdc}d2{gcd}c2 {gBd}B2{g}cd|
+{gef}e2{fg}f2 {ag}a2{fg}f{g}e|{g}ceaf {gef}ed{g}cB|{g}A2{g}(3Bcd {g}cA{gBd}B2|{g}A2{g}AG {AGAG}A2:||
+S:https://www.folktunefinder.com/tunes/117083
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

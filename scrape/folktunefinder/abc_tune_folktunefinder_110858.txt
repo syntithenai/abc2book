@@ -1,0 +1,34 @@
+X:3
+T:Ricercada nona (Ruggiero)
+T:Quinta Pars.
+C: Diego Ortiz
+O: From Diego Ortiz, El Secunda Libro
+L:1/4
+M:C
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+N:Facsimile has a section with a C clef on the third line, and a section with an F clef on the third line.
+K:F bass
+f3 g a g f e d2 f3 e/ d/ c4 f3 g a f g2 d2 e2 e3 f g f e d e2 d e f d e d c B A2 c2 d e 
+f d e d c B A G F2 z2 c2 A2 c2 B c d B c2 c2 A2 c2 (3d > e f  "(1)"g4 d2 e2 g2 e2 g3 f e2 d e f d e2 c2 A2 c2
+N:(1) Original has a half note
+(3d > e f c2 c'2 a2 c'3 b a g a g f e d c d B c2 "(2)"c'6 a2 b2 c'4 f2 z2 g4 e3 f g e a2 d2 (3e > f g f2 "(3)"c4 d4 z2 g2
+N:(2) Original has a whole note
+N:(3) Original has a half note
+a6 b2 c'2 a2 f2 f2 a3 b c'2 a2 b2 c'2 z2 d'2 e'3 f' g'2 e'2 c'2 e'2 d' e' f' d' e' d' c' b a g f e d e f d
+e d c B c B A G F2 c'2 a2 f3 e f g a b c' b a g f e f g a f g2 d2 z2 g2 e2 c2 g2 e2 d e f d
+e2 c'2 a2 f2 d e f d e2 c2 A2 F2 c4 z2 f2 d2 B2 c2 c'2 a2 f3 g a f g a b2 g2 g4 e2 c2 e2 d2 z d e2 g2 f2 c2
+d e f d e2 z g a b c' b a g f g a g f e d c B b c' b a g a g f e f g a f g e d d
+e f g f e d e f g f g e d e f d e d c B A B c A d e f d e d c B c A B "(4)"c "(5)"F16 |]
+N:(4) Original is a half note
+N:(5) Original is a breve
+S:https://www.folktunefinder.com/tunes/110858
+S:http://www.laymusic.org/music/ortiz/ruggiero/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

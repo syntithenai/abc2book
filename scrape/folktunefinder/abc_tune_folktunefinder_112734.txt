@@ -1,0 +1,38 @@
+X:307
+T: Zhizi huaer shun qiang zai
+N: C0829
+O: China,Sichuan, Chongqing
+S: MM,]
+N: Notenbeilage kopiert
+N: Mehrere Verzierungen, Glissandi.
+R: Shange. Caihua]
+M: 2/2
+L: 1/16
+K: A
+b2a2b2f2-f8
+ceb2bec2c8- | c4a4
+c2a2b2g2 | f12z2
+f2 | a2c2bcb2bca2b2g2 | f2f6-f8z4z4
+cec2b2c2b2cec4- | c16 | bca2f8a4
+bcb2a2b2a2c2c3b | a2f6-f8z4z4
+c2f2fac2c2f2a8f4 | a2fef8a4
+a2c2c2b2bca2b8a4 | cba2f12z4z4
+cec2b2b2e2e2c4- | c8c2a2b2g2 | f2f6-f4a4
+c2b2c2b2b4c4 | a2a2f12z4z4
+c2f2fac2c2f2a2f2 | c2a2a2f2f2aca2f2
+faf2c2c2a2a2f2f2 | a2f2a2f2f2a2f4
+bcb2a2a2c2c2b2b2 | c2b2c2b2b2c2a2f2z4z4
+cec2b2b2e2e2c4- | c8
+c2a2b2g2 | f2f6-f4a4
+c2b2c2b2b4c4 | a2a2f12
+S:https://www.folktunefinder.com/tunes/112734
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. caihua]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

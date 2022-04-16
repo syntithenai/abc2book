@@ -1,0 +1,40 @@
+X: 85
+T:Le Petit Tambour. GS.085
+T:Grand Old Duke of York,aka. GS.085
+M:2/2
+L:1/8
+Q:150
+S:George Spencer m/s, Leeds,1831
+R:March
+O:England
+A:Leeds
+N:Bears a resemblance to a Cornish song called 'Trelawney'. 4 - written
+N:in MS -  this refers to use of the 4th finger for E. The triplets are
+N:shown with the number inside the slur, which may mean, slur the notes
+N:or merely that these three notes are a triplet.
+H:1831
+Z:vmp.Cherri Graebe
+K:C major
+(e>d) | .c2.G2.E2G2 | c2 c>c c3 (B>c) | d2d2d2d2 | (d3ed2)  G2 | e2e2e2
+e2 | e2 (fe) d2 (ed) | !c2c2 BcdB | c4 z2 || 
+(cB) | .A2(A2B2c2) | (d3cB2) cB | .A2(A2B2c2) | d3cB2 cB |! .A2 (A2B2c2)
+ | ((3d^cd) (3(^fed) (3(=cBc) "4"((3edc) | (3(BAB) (3(dcB) (3(A^GA) (3(c
+B
+A) | 
+G6 G2 | c2 c>c c2c2 | c4 z2 G2 |! .c2.g2.e2.c2 | .G2.G2z2.G2 | c2 c>c c2
+c2 | c6 (d>"4"e) |  "4"(ed).c.B (dc).B.A | G6 (ed) | 
+c2G2E2G2 | c2 c>c c2 B>c | !d2 d>d d2d2 | (d3ed2) (G2 | e2)e2e2e2 | (3(e
+^de) (3(gfe) (3(=dcd) (3(fed) | (3(cBc) "4"(3(edc) (3(BAB) (3(dcB) | c2
+c>c c2 ||
+S:https://www.folktunefinder.com/tunes/104759
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

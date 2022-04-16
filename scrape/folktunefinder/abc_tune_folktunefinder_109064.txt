@@ -1,0 +1,28 @@
+X:115
+T:Lock the Door, Larriston
+C:James Hogg
+S:Digital Tradition, larrston
+N:Written by James Hogg in 1797; evokes the general state
+N:of the Borders in the first half of the sixteenth century.
+B:From: Lyric Gems of Scotland
+O:Scots
+Z:dt:larrston
+M:6/8
+L:1/8
+Q:3/8=100
+K:Eb
+c3/2d/c e3/2d/c|fed cBG|c3/2d/c e3/2d/c|Gc=B c2c|
+c3/2d/c e3/2d/c|f3/2e/d cBG|c3/2d/c e3/2d/c|Gc=B c2z|
+E3/2F/E G3/2F/E|B3/2G/E GBe|E3/2F/E G3/2F/E|Cc=B c2z|
+E3/2F/E G3/2F/E|B3/2G/E GBe|g3/2f/e d3/2c/A|Gc=B c2z||
+S:https://www.folktunefinder.com/tunes/109064
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/dt-songs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

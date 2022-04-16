@@ -1,0 +1,21 @@
+X:2
+T:Betonschottisch
+C:Bert Van Vreckem, 2004-05
+Z:Bert Van Vreckem, 2004-06-03 <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:F
+"F"F A A/B/A/F/|"Gm"G B B e/d/|"C7"c e/d/ c/B/A/G/|"F"F/G/A/B/ cc|\
+"F"F A A/B/A/F/|"Gm"G B B e/d/|"C7"c/d/e/d/ c/B/A/G/|"F"F A/c/ f2:|
+|:"Bb"fd d/f/e/d/|"F"cA A/B/c/A/|"C7"B/c/B/A/ G/A/B/G/|"F"A/B/c/d/ c c|\
+"Bb"fd d/f/e/d/|"F"cA A/B/c/A/|"C7"B/c/B/A/ B/c/d/e/|[1"F"f f f2:|[2"F"f c/A/ F2|]
+S:https://www.folktunefinder.com/tunes/109679
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/bert.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

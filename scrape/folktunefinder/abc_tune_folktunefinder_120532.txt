@@ -1,0 +1,21 @@
+X:6
+T:Come Upstairs with Me
+Z: id:dc-slipjig-5
+M:9/8
+L:1/8
+K:G Major
+G2c BAG Bcd|ecA ABG FED|G2c BAG Bcd|efg faf g3:|!
+fed d2g fed|ecA ABG FED|fed d2g fed|efg faf g3|!
+fed d2g fed|ecA ABG FED|G2c BAG Bcd|efg faf g3|]!
+S:https://www.folktunefinder.com/tunes/120532
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slipjigs.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slipjigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

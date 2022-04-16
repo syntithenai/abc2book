@@ -1,0 +1,20 @@
+X:770
+T:Tripping Up the Stairs
+Z: id:dc-jig-135
+M:6/8
+L:1/8
+K:D Major
+A|FAA GBB|Ade fed|cdc ABc|dfe dAG|!
+FAA GBB|Ade fed|cdc ABc|dfe d2:|!
+c|dBB fBB|fgf fed|cAA eAA|a^ga edc|!
+dBB fBB|fgf fed|cdc ABc|dfe d2:|!
+S:https://www.folktunefinder.com/tunes/128790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

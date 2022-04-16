@@ -1,0 +1,27 @@
+X:1
+T:An anglezed boneto ruz
+C:Kas a barh traditionnel de la rgion de Lorient, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:8/4
+K:C
+ [E2A,,2A,2] [AA,,A,]B [c3A,,3A,3]c [c2A,,2A,2] [c2A,,2A,2] [B2E,,2E,2] A2 | [c2E,,2E,2] [B2E,,2E,2] [A3D,,3D,3]c [BD,,D,]A [GD,,D,]A [B4G,,4G,4] | \
+ [E2G,,2G,2] [AG,,G,]B [c3A,,3A,3]c [e2A,,2A,2] [c2A,,2A,2] [B2E,,2E,2] e2 | [d2E,,2E,2] [c2E,,2E,2] [A3D,,3D,3]c [BD,,D,]A [GD,,D,]A [B4G,,4G,4] | \
+ [E2G,,2G,2] [AG,,G,]B [c3A,,3A,3]c [B2A,,2A,2] [A2A,,2A,2] [G4E,,4E,4] | [A2A,,2A,2] [GE,,E,]^F [E2D,,2D,2] A2 [B2E,,2E,2] [c2E,,2E,2] [A4F,,4F,4] | \
+ [A2F,,2F,2] [GE,,E,]^F [E2D,,2D,2] A2 [B2E,,2E,2] [c2E,,2E,2] [A4A,,4A,4] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/118674
+S:http://diato.ifrance.com/diato/tablat/216.abc
+S:http://diato.ifrance.com/tablat/216.abc
+S:http://diato.org/tablat/216.abc
+S:http://perso.orange.fr/diato/tablat/216.abc
+S:http://perso.wanadoo.fr/diato/tablat/216.abc
+S:http://pro.wanadoo.fr/diato/tablat/216.abc
+S:http://www.diatonique.net/tablat/216.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:306
+T:White Petticoat, The
+R:jig
+H:Similar to "Handy with the Stick", #305
+B:O'Neill's 1850, #773
+D:Solas
+D:Patrick Street: Cornerboys
+Z:id:hn-jig-306
+M:6/8
+K:Em
+B|Bed cBA|GFE B,EG|FBB {d}cBB|eBB {d}cBA|
+Bed {d}cBA|GFE B,EG|FBB {d}cBA|GEE E2:|
+|:g|{a}gec Gce|gaf {a}gec|{d}cBA EAc|Be^d eBG|
+FBB GBB|FBA GFE|B,EG cBA|GEE E2:|
+S:https://www.folktunefinder.com/tunes/113734
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj3.abc
+S:http://pagesperso-orange.fr/dylo/abc/JigsDCB.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

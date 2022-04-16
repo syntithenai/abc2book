@@ -1,0 +1,20 @@
+X: 45
+T:Vole Crossing
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:D
+e|:"D"fdd cdd|"G"Bdd "A"Ace|"D"fdd cdd|"Em"Bee "A"ede|
+"D"fdd cdd|"G"Bdd "D"Add|"Em"Bdd "A"cde|"D"fdd d2e:|
+"D"fef "A"gfg|"D"aga "G"b3|"C"ede "G"=fef|"C"gfg "F"a3|
+"D"fef "A"gfg|"D"aga "G"bag|"E"fed "A"cde|"D"fdd d3:|
+S:https://www.folktunefinder.com/tunes/114297
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

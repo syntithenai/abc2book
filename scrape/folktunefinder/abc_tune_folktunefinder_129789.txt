@@ -1,0 +1,26 @@
+X:310
+T:Three Little Blackberries
+% Nottingham Music Database
+S:Newcastle Cloggies
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+FG|"D"A2A2 "G"B2B2|"D"A^GAd f2df|"A7"e^def g2e2|"D"ddfd "A7"BGFG|
+"D"A2A2 "G"B2B2|"D"A^GAd f2df|"A"e2ef "E7"eefe|"A"a2A2 A2:|
+P:B
+(3aba|"A7"gece Aege|"D"d2A2 -A2(3ded|"A7"c2a2 -(3agf(3ecB|"D"A2f2 -f2(3aba|
+"A7"gece Aege|"D"d2A2 -A2dc|"G"Bdag "A7"feBc|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/129789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

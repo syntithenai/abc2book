@@ -1,0 +1,24 @@
+X:1
+T:Alcyone
+T:Menuet pour les bergers et les bergeres
+C:Marin Marais
+B:XVIIIeme
+M:3/4
+L:1/4
+Q:C4=60
+K:C
+a f g | a2 d | g/f/ e d/^c/ | d2 A |
+a f g | a>_b a | g f>e | e3 :|
+|: f>g f | c>d c | A>_B A | A F G |
+A f A | B B>^c | d ^c>d | d3 :|
+S:https://www.folktunefinder.com/tunes/99399
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/18eme.txt
+S:http://anamnese.online.fr/abc/favoris.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

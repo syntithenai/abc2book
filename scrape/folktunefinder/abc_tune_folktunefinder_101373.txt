@@ -1,0 +1,23 @@
+X:285
+T: The Spring Garden
+M: 2/4
+L: 1/16
+B: O'Neill's 1681
+N: "collected by J.O'Neill"
+K: G
+(3ABc \
+| dgdg ecAF | GFGB AFDC | B,DGFD2c-B | (3ABG(3FGED2(3ABc |
+| dfdf ecAF | GFGB AFDC | B,DGF EcAF | G2G2G2 :| c-B |
+| AGAB cBcd | edef g2(3def | gfed cBAG | Add^c d2(3ABc |
+| dfdf ecAF | GFGB AFDC | B,DGF DcAF | G2G2G2 :|
+S:https://www.folktunefinder.com/tunes/101373
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

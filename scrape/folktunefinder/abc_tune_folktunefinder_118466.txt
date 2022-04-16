@@ -1,0 +1,23 @@
+X: 2
+T:Forked Deer
+M:4/4
+L:1/8
+R:Reel
+K:D
+"D" defg abaf | "G" gage "A" fdec | "D" defg abaf | "A" gfed cABc |!
+ "D"defg abaf | "G" gage "A" fdec | "D" dBAF "G" GBAG | "A" FDEF "D" D4
+:||!
+"A" A4 A4 | "A" ABAF E2 C2 | "A" A3 A ABAG | "A" FDEC "D" D4 |!
+ "A" A3 AcABc | "D" dBAF DEFD | "A" EDEF "G" GBAG | "A" FDED "D" D4 :||
+% Output from ABC2Win  Version 2.1 i on 11/6/2004
+S:https://www.folktunefinder.com/tunes/118466
+S:http://internet.cybermesa.com/~keating/music_abc/ANGEFORK.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:36
+T:Growling Old Man & Grumbling Old Woman
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:A minor
+|:A,B,|\
+"Am"CA,[A,E]A, CA,[A,E]A,|"G"B,G,[G,D]G, B,G,[G,D]G,|\
+"Am"CA,[A,E]A, CA,[A,E]A,|"G"B,A,G,B, "Am"A,2A,B,|
+"Am"CA,[A,E]A, CA,[A,E]A,|"G"B,G,[G,D]G, B,G,[G,D]G,|\
+"F"A,G,A,B, CDE^F|"G"GEDB, "Am"A,2:|
+|:^cd|\
+"A"e^fed ^cdef|"G"g^fed BG3|"F#m"e^fed "G"^cAcd|"A"eaag a2e^f|
+"C"g^fed "A"^cdef|"C"g^fed "Em"BG3|"F"c2 (3BcB AGED|"G"GEDB,"Am"A,2:|
+S:https://www.folktunefinder.com/tunes/118846
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

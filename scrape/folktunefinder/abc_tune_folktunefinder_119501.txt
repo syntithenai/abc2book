@@ -1,0 +1,36 @@
+X:19
+T:Les tristes noces
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n19
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:C
+E | A2 A B2 c | B3-B2 B | c2 B A2 B | A2 ^G A3 | B2 B =G2 ^F |!
+E3-E z E | A2 A B2 c | B3 e3 | d2 c B2 c | A2 G/B/ A3 ||
+W:Qui veut our chanson,
+W:chansonnette nouvelle 
+W:Chante rossignolet !
+W:Qui veut our chanson, chansonnette nouvelle 
+W:
+W:C'est d'un jeune garon et d'une demoiselle.
+W:Ont fait l'amour sept ans, sept ans sans en rien dire.
+W:Mais au bout de sept ans, le galant se marie.
+W:Au jardin de ma mre, y a un buisson d'orties.
+W:En a fait un bouquet pour porter  s'amie :
+W:"Tenez, m'amie, tenez, voici la dpartie.
+W:A une autre que vous mon pre me marie.
+W:- Celle que vous prenez est-elle bien jolie 
+W:- Pas si jolie que vous, mais elle est bien plus riche. /.../
+S:https://www.folktunefinder.com/tunes/119501
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

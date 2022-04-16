@@ -1,0 +1,24 @@
+X:19
+T:Branle simple
+R:branle simple
+C:Jacques Moderne
+H:XVI eme siecle
+O:France
+Z:S. Piron
+M:4/4
+L:1/4
+Q:1/4=170
+K:F
+AA/2A/2AA|GFBc|c/2B/2A/2G/2^F2|AA/2A/2AA|GFE/2D/2G-|G^FG2|
+|BB/2B/2B|A/2G/2F/2E/2 DB|A/2G/2B/2A/2B2|GG/2G/2GG|EEF/2D/2G-|G^FG2:|
+S:https://www.folktunefinder.com/tunes/130200
+S:http://www.tradfrance.com/matf11.txt
+% Rhythm Branle simple
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

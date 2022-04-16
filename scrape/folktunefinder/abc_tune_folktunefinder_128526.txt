@@ -1,0 +1,20 @@
+X:59
+T:High Part of the Road
+Z: id:dc-jig-50
+M:6/8
+L:1/8
+K:G Major
+zA|BAB cBc|ded cAG|F2D DED|FED FGA|!
+BAB cBc|dcA d2e|fed cAF|AGF G:|!
+Bd|g3 def|g2a bag|f3 def|afd cAd|!
+g3 def|g2a bag|fed cAF|AGF G:|!
+S:https://www.folktunefinder.com/tunes/128526
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:6190
+T:German Air. GS.040
+T:Lieber Augustine,aka. GS.040
+M:3/8
+L:1/8
+Q:30
+S:George Spencer m/s, Leeds,1831
+R:Waltz
+O:England
+A:Leeds
+N:Key signature is given as 3/4 The top note of the chord at the end of
+N:the A music is obscured by a blot, but see No. 76, to which this is
+N:identical. Chords are shown as crochets in MS...I learnt this tune when
+N:I was seven, as a song, words something about'Ah, my dearest Augustine,
+N:all is gone by'.  Probably composed..Cherri.
+H:1831
+Z:vmp.Cherri Graebe
+K:BB major
+.f(f/2g/2)(f/2e/2) | (dB).B | .c.A.F | .d.B.F | .f(f/
+2g/2)(f/2e/2) |.d.B.B |.c.A.F | [D3B3] :||:!
+.c.A.F | .d.B.G | .e.c.A | fdB | .f(f/2g/2)(f/2e/2)
+| dBB | cAF | [D3B3] :||
+S:https://www.folktunefinder.com/tunes/102088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

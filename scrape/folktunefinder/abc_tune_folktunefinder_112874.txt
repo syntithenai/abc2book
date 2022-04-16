@@ -1,0 +1,24 @@
+X:447
+T: Wang lang po
+N: C1482
+O: China,Yunnan, Dongchuan
+S: II, 48]
+R: Shange. Pan qinren]
+M: 2/4
+L: 1/16
+K: C
+c2A2A4 | d6cA | c2d2d4
+d2d2A2^F2 | G6cB | A2cBG2ED | D8
+D2D2D^FG2 | G2A2Acd2
+d2d2A2^F2 | G6cB | A2cBG2ED | D8
+S:https://www.folktunefinder.com/tunes/112874
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. pan qinren]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

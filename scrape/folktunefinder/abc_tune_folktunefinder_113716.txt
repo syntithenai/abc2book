@@ -1,0 +1,26 @@
+X: 31
+T:Tnze (Zell und Windhag, 1702)
+M:3/4
+L:1/8
+C:trad
+R:Lndler
+S:Sonnleithnersammlung 1819, Pichler/Fritz: "Wer tanzt nach meiner Pfeife "
+N:bei Pichler in F-Dur, D-Dur ist Original.
+K:D
+"1."df|e2 g2 eg|d2 f2 df|e2 g2 eg|a4  df|e2 g2 eg|d2 f2 df|e2 g2 ec|d4 
+:|
+|:df|AgeAeg|AfdAdf|AgeAeg|a4  fa|AgeAeg|AfdAdf|AgeAec|d4  :| 
+"2." |: fg|a2 a2 af|g2 g2 ge|d4   de|f2 f2 fa|e2 e2 ef|d4  :|
+|:fg|faAaaf|egAgge|d4  de|fAfAfa|eAeAef|d4  :|
+"3." |:fa|AagAfa|faAae2|faAage|a4  fa|AagAfa|faAae2|faAage|d4  :|
+S:https://www.folktunefinder.com/tunes/113716
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Lndler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

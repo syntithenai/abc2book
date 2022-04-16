@@ -1,0 +1,42 @@
+X:18287
+T:Vier Lndler
+B:"4. Spielheft fr Okarina", V. Derschmidt, Obersterreichisches Volksliedwerk, Linz 1995
+N:in the book in C
+S:Hs. aus Sbg.[Kolneder - Heft 1]. 
+N:2. terzparalelle Stimme eine Terz tiefer
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+K:G
+P:1
+"-"B"-"d|.gg/g/g/g/|(g/f/)a/g/f/e/|ddB|z.d/.d/.d/.d/|
+ccA|z.e/.e/.e/.e/|ddB|zBd|
+.g.g/.g/.g/.g/|(g/f/)a/g/f/e/|ddB|z.d/.d/.d/.d/|
+ccA|d(^c/d/)e/f/|g(f/g/)d/B/|G:|z||
+P:2
+|:d/>d/|d2g/>g/|g2g/>a/|(Tg.f).f|f2d/>d/|
+d2a/>a/|a2a/>b/|(Ta.g).g|g2d/>d/|
+e>fg/e/|(e/d/) d/g/d/g/|(e/d/) d/f/d/f/|(e/d/) d/g/d/g/|
+e>fg/e/|(e/d/) d/g/d/g/|(e/d/) d/f/d/f/|gz:|
+P:3
+|:d/c/|(B/c/)d/e/d|(B/c/)d/e/d|(B/c/)d/e/f/g/|(f/a/)a/g/f|
+ze>d|(d/a/)a/g/f|ze>d|(d/b/)b/a/g|
+(B/c/)d/e/d|(B/c/)d/e/d|(B/c/)d/e/f/g/|(f/a/)a/g/f|
+ze>d|(d/a/)a/g/f|(d/b/).b.a|1gz:|2gd>d||
+P:4
+|:(e/d/)B/d/g|zd>d|(e/d/)c/d/f|zd>d|
+e/d/c/d/a-|a/.g/.f/.e/.d/.c/|(B/d/)G/B/d|zd>d|
+(e/d/)B/d/f|zd>d|(e/d/)c/d/f|zd>d|
+e/d/c/d/a-|a/.g/.f/.e/.d/.f/|gf/(g/d/)B/|1.Gd>d:|2.G" 1.d.c."||
+S:https://www.folktunefinder.com/tunes/115525
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

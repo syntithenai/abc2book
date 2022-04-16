@@ -1,0 +1,24 @@
+X:140
+T:Minuet 5
+R:Minuet
+M:3/4
+L:1/8
+K:Am
+a2 e4 | c2Bc A2 | f2 e/f/e d2 | c4 B2 |
+cB AB cd | e2 dc BA | ^GA B2 G2 | A6 :|
+|:g2 gg gg | g2 fe dc | B2 GA Bc | d6 |
+b2 ^g2 d2 | c4 B2 | e2 dc BA | ^G2 FG E2 |
+B2 AB ^G2 | d2 cd B2 | f2 ef d2 | ^g6 |
+a2 gf ed | c2 Bc A2 | B2 E2 ^G2 | A6 :|]
+%%vskip 1.5cm
+S:https://www.folktunefinder.com/tunes/127858
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

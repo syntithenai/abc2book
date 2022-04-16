@@ -1,0 +1,29 @@
+X: 103
+T:Paganini's Manchester Set,#3. JNu.63
+M:2/4
+L:1/16
+Q:100
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:East Lancashire
+Z:vmp.Chris Partington
+K:F
+(c/B/A/G/)|F2c2f2g2|a4f2 (c/B/A/G/)|F2c2f2a2|g^fga g2 (G/F/E/D/)|!
+C2c2g2a2|b4g2 (G/F/E/D/)|C2B2 G2E2|FEFG F2||!
+A2|a^gag a=gfe|fefe fdef|agec gfd=B|c=Bcd c2c2|!
+a^gag a=gfe|fefe f2d2|agec gfd=B|B=Bcd c_BAG||!
+F^F|G4GA=Bc|=B2A2 AFdc|=B2G2 G2AB|d2G2c2A2|!
+G4GABc|d2A2 A=Bcd|c=BAG ^FGA=B|c2G2"DC"c2z2|]
+S:https://www.folktunefinder.com/tunes/127027
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

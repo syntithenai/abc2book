@@ -1,0 +1,27 @@
+X:23
+T:Dancing Bear
+C:Bob McQuillen
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:Em
+|:\
+"Em"EFGF EFGF|EFGAG2E2|"A"EFGF EFGF|EFGAG2E2|
+"Em"EFGF EFGF|EFGAB2e2|"B"B2BcBAGF|"Em"G2E2E4:|
+|:\
+"Em"e2ef gfef|gfe2e4|"A"e2ef gfef|gfe2e4|
+"C"e2ef gfef|gfed edBA|"B"BABc BAGF|"Em"G2E2 E4:|
+S:https://www.folktunefinder.com/tunes/118833
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

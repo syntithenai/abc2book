@@ -1,0 +1,33 @@
+X:262
+T: Da xie di
+N: C0409
+O: China,Jiangxi, Xinfeng
+S: IV, 237]
+N: beide Namen synonym fuer diese Region. Typisch
+N: Vor-,Zwischen- und Nachspiele weggelassen. Die 3 in den ersten beiden
+N: Takten der Phrase 8 werden hoeher gesungen.
+R: Xiaodiao, Dieduanqiao, Wuge, dengge. Tuowujiqing]
+M: 2/4
+L: 1/16
+K: Bb
+g2gfg2b2 | g3fd2cd | f8
+c2bcd2c2 | b8
+g2gfg2b2 | g2gfdfcd | f8
+g2c2cbG2 | f4g2gd | f8
+c2bcd2c2 | b6g2 | c2bcd2c2 | b6g2
+g2f2g2b2 | g2f2d2cd | f8
+g2cdcbg2 | f4g2gd | f8
+g2g2d2d2 | g2g2d2d2 | d2dfb2g2 | f8
+b2b2b2d2 | c3df3g | b8
+d3fb2g2 | f4g2gd | f8
+S:https://www.folktunefinder.com/tunes/112689
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, dieduanqiao, wuge, dengge. tuowujiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

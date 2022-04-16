@@ -1,0 +1,18 @@
+X:1
+T:April is in my Mistress's face
+T:Cantus
+C:Thomas Morley (1557-1603)
+M:C
+L:1/4
+K:Gdor
+%%MIDI nobarlines
+d c/ B/ c d  B c A2  z2 d d/ d/  
+d d e c  d2 A2  (B2 G)B  A2 d c/ B/
+S:https://www.folktunefinder.com/tunes/110870
+S:http://www.laymusic.org/music/morley/april/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

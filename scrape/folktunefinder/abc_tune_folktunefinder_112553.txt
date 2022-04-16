@@ -1,0 +1,40 @@
+X:126
+T: Shua shan diao
+N: C0206
+O: China,Yunnan
+S: II, 58, 2)]
+M: 3/4
+L: 1/32
+K: G
+d4d4 | g8e4e2d2d2e2d2d2 | d4e4^c4d4 | g8
+e4e2d2 | d4e4e2d2 | d4e4d8A2B2A4
+A4D4G4A4 | d4e4A2B2A2A2 | G6E2D8
+z4g8d4 | g4e4e2d2e2d2 | e4d4e4d4 | g4B4e4d4
+g6g2^c4d4 | ^c6d2e4e2e2
+g4g4e4d4 | ^c2c2c4e4 | e4c4e2g2c4d8
+g6d2e4^c4 | e2e2^c4e4 | d4d4z8
+d4e4e2d2 | d4g4d4e4 | g2d2d2e2d4d4d4e4 | d4e2e2g4d4e4d4
+d4e2d2d8A2B2A4 | A4A2A2F4F4 | F2F2A4A4
+G6A2G4A4G4d2F2 | d4F4G4
+G4e4d12e2d2 | d4d4d4e4A2B2A4
+A4d2e2E4D4 | A4B4A2B2A4 | E8D12z4
+z16d4d2d2 | g8e4e4d2e2d2d2 | d4A2A2d4d4 | g8
+e4e2d2 | d4e4e2d2
+z8d4e2d2 | d8A2B2A4A2G2D4
+d6=F2G4F4 | d6=F2G4F4
+A2A2A2A2G4E2D2 | G4A4d4A2A2 | E8D16
+d4e2d2^c4d4 | g4e4e2d2 | ^c6c2d4e4
+e4e4c4d4 | ^c2c2e4e4 | g4^c4e4c4d4e2d2
+c6e2c4c4d4e2e2 | ^c4c4d4 | e4e4^c4
+g4e4d12gdgd | d4e2d2d8A2B2A4
+A4A2A2B4A4 | A2A2B4A4 | G4D4d4e4A2B2A2A2 | G12E4 | D16
+S:https://www.folktunefinder.com/tunes/112553
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

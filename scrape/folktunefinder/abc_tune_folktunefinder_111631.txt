@@ -1,0 +1,32 @@
+X:510
+T:Wandering Minstrel, The
+R:jig
+Z:Transcribed by Henrik Norbeck: hn-jig-83
+M:6/8
+D:asin=B000000E8G(Paddy Glackin, Robbie Hannan: The Whirlwind)
+D:asin=B0000013AL(Gentlemen Pipers: The Gentleman Pipers)
+D:asin=B000001Q6P(Robin Bullock: Green Fields: Celtic Music For Cittern &amp; Guitar)
+D:asin=B000003F7B(The Chieftains: An Irish Evening: Live At The Grand Opera House...)
+D:asin=B000005CMD(Billy McComiskey: Making The Rounds)
+D:asin=B000005COY(Cherish The Ladies: Out And About)
+D:asin=B000005CP5(Eileen Ivers: Eileen Ivers)
+D:asin=B000005CTC(Seamus Ennis: The Wandering Minstrel)
+D:asin=B00000HYZC(Kevin Henry: One's Own Place)
+K:D
+ADD BAF|Ade fdB|ADD BAG|F/G/AF GFE|ADD BAF|Ade fdB|\
+AdB AFE|1 FDD D2B:|2 FDD D2g|| \
+|:fdf ede|fdB AFA|~B3 AFd|AGF E2g|~f3 ede|fdB AFA|\
+~B3 AFE|1 FDD D2g:|2 FDD D2e|| \
+|:fef afd|gbe gbe|~f3 afd|ceA ceA|fef afd|gbe gbe|\
+~f3 ede|1 fdc d2e:|2 fdc d2B||
+S:https://www.folktunefinder.com/tunes/111631
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

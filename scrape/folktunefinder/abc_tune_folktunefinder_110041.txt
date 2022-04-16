@@ -1,0 +1,26 @@
+X:103
+T: Frau von Weissenburg
+N: Q0030
+O: Mitteleuropa, Deutschland / Niederlande
+N: Kleinere Melodievarianten aus anderen Quellen abgedruckt.
+N: Melodie = geistliche Kontrafaktur.
+R: Ballade, Ehebruch, Mord, Moral; geistlich
+M: none
+L: 1/8
+K: G
+G4G2G2 | A4A2_B2G4 | =F4
+F2_B4c2 | d4c2d4c_B | A4z2
+d2d2d2 | _B2c4B2A2G2 | =F4z4
+G3A | _B2c4B2A4 | G4
+S:https://www.folktunefinder.com/tunes/110041
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, ehebruch, mord, moral; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

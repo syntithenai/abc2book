@@ -1,0 +1,18 @@
+X:1
+T:At the Boarding House
+M:4/4
+L:1/4
+K:G
+ B3 c| B D F A| G4| D4| D3 E| F c E c| B4-| B4| B3 c| B D F A| G4|\
+ D4| D3 E| F c B A| G4-| G4| F3 G| A F E ^D| D4| G4| A3 A| B A B ^c|\
+ d4-| d4| B3 c| B D F A| G4| D4| D3 E| F c B A| G4-| G4|
+S:https://www.folktunefinder.com/tunes/129187
+S:http://back.numachi.com:8000/dtrad/abc/BORDHOUS.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BORDHOUS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

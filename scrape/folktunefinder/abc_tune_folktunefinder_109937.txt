@@ -1,0 +1,57 @@
+X:1
+T:Alte Mazurka
+C:traditionell
+R:mazurka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Vorarlberger Notabueechele - Volksmusik, 3. heft, bearbeitung Nora Caba, herausgegeben vom Vorarlberger Volksliedwerk, Bergwald Musikverlag Abel, Damuels, 1990
+N:im buch in F (1.& 2. teil) und C (3.& 4. teil) zweistimmig mit harmonie-buchstaben, 1.ton c''
+N:Nm-Gm/20
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+L:1/8
+M:3/4
+K:F
+V:1
+cA d3 c | cB e2 e2 | cB d3 c | cA f2 f2 |\
+cA d3 c | cB e2 e2 | ed cBAG | F2 F2 z2 :|
+V:2
+K:F
+AF B3 A | AG c2 c2 | BG B3 B | AF A2 A2 |\
+AF B3 A | AG c2 c2 | GF EDCB, | A,2 A,2 z2 :|
+V:1
+ed cBAB | d2 cA cA | d2 cG cG | d2 cA cA |\
+ed cBAB | d2 cA cA | ed cdcB | A2 A2 "Fine"z2 :|
+V:2
+cB AGAG | B2 AF AF | B2 BE BE | B2 AF AF |\
+cB AGAG | B2 AF AF | GF EBAG | F2 F2 "Dine"z2 :|
+V:1
+K:C
+GE A3 G | GF B2 B2 | GF A3 G | GE c2 c2 |\
+GE A3 G | GF B2 B2 | ba gfed | c2 c2 z2 :|
+V:2
+K:C
+EC F3 E | ED G2 G2 | FD F3 F | EC E2 E2 |\
+EC F3 E | ED G2 G2 | dc BAGF | E2 E2 z2 :|
+V:1
+ba gfef | a2 ge ge | a2 gd gd | a2 ge ge |\
+ba gfef | a2 ge ge | ba gagf | e2 e2 z2 :|
+V:2
+gf eded | f2 ec ec | f2 fB fB | f2 ec ec |\
+gf eded | f2 ec ec | dc Bfed | c2 c2 "D.C. al Fine"z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/109937
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/alte_mazurka.cAd3ccBe2e2cBd.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

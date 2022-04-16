@@ -1,0 +1,35 @@
+X:42
+T:Il tait une fille, une fille d'honneur
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n42
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=80
+K:Ab
+F | c3 B c d | c2 B-A z B | c2 B c2 d |\
+M:2/4
+e d e f |! 
+M:6/8
+c3 B A B | c3-c z F | c3 B c d | c2 B-A z B |\
+M:2/4
+c B A G | F2 z2 |\
+M:6/8
+A G A B2 B | B2 z Hc3 ||
+W:Il tait une fille, une fille d'honneur
+W:Qui plaisait fort  son seigneur ;
+W:En son chemin rencontre ce seigneur dloyal,
+W:Mont sur son cheval, al !
+S:https://www.folktunefinder.com/tunes/119611
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

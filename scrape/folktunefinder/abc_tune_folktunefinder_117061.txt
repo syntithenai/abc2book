@@ -1,0 +1,24 @@
+X:14
+T:Bantry Bay
+M:2/2
+L:1/8
+Q:1/8=440
+K:G
+GA|:"G"BGAG EGDE|G2GFG BAG|"Am"EGAB cBAG|"E"EAAG "Am"A2AB|
+"C"cecA "Em"BdBG|"Am"ABAG "D"EGDG|"G"BGAG "C"EGDE|1"D"G2GF"G"G2GA:|2"D"G2GF "G"GABc|
+|:"G"d2ed dBGA|"Em"B2e2e3f|"G"gfed BGBd|(3efg fa "D"g2ef|
+"G"gbgf efed|BedB "C"ABGA|"G"BGAG "C"EGDE|1"D"G2GF "G"GABc:|2"D"G2GF "G"G2dc|
+|:"G"BABG EGDF|G2GF G2EG|"Am"AGAB cABG|"E"EAAG "Am" A2AB|
+"C"cdec "Em"BcdB|"Am"ABAG "D"E2dc|"G"BABG "C"EGDF|1"D"G2GF "G"G2dc:|2"D"G2GF "G"G2Bc|
+|:"G"dBGB dBGB|"Em"B2e2e3f|"G"gfed Bdef|"D"g2gfg2fd|
+"G"edef gage|dedB "C"A2GA|"G"BABG "C"EGDF|1"D"G2GF "G"G2Bc:|2G2GFG2|
+S:https://www.folktunefinder.com/tunes/117061
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

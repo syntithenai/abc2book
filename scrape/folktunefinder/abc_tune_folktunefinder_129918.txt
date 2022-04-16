@@ -1,0 +1,24 @@
+X: 2
+T:Il pleut bergre
+T:(L'hospitalit/l'orage)
+C:Paroles : Philippe Fabre d'glantine
+C:Musique : Victor Simon (1780)
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3 z2E | "C"G2E G2E | C3 G,3 | C>B, C "G"D2D | "C"E6 | E>D E "F"F2F |
+"C"G3E3 | "F"G>AG F2F | "C"(E3"G"D3) | D>E D "F"F2F | "C"E3 G3 | "F"F>E D "C"E2C |
+(E3"G"D2)E | "C"G2E G2E | "F"F3A3 | "G"G>A G D2E | "C"C3-C2z |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129918
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

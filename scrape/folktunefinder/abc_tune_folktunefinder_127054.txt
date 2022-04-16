@@ -1,0 +1,31 @@
+X: 22
+T:She'll Be Right
+M:6/8
+L:1/8
+C:Peter Cape
+K:C
+E2F|"C"G2G G2G|cc2 G2G|"F"A2A F2A|
+"C"G3 z2E|"F"F2E D2F|!
+"C"E2D C2E|"D"DC2 B,2C|"G"D3E2F|
+"C"GG2 G2G|cc2 G2G|!
+"F"A2A F2A|c2zA3|
+"C"G3 EG2|"G"F3 E2D|"C"C6-|C3|
+T:Chorus:
+E2F|"C"G6|E3 D2E|"G7"F6-|F3-F2z|
+D3D2E|F3G2F|"C"E6-|E2ZG2G|!
+"C"G2G G2G|c3 G2G|
+"F"A2A F2A|c3A3|
+"C"G3 EG2|"G"F3 E2D|"C"C6-|C3|
+S:https://www.folktunefinder.com/tunes/127054
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

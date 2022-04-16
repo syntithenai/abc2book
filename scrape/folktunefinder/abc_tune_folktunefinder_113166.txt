@@ -1,0 +1,29 @@
+X: 157
+T: Trip to Durrow
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D
+|:\
+"D"D2(3FED ADFA|defd "Bm"~B2Bc|"Em"dB~BA "F#m"dB~BA|"G"FADE "A"FEE2|
+"D"D2(3FED ADFA|defd "Bm"~B2Bc|"G"dB~BA FAdB|"A"AFEG "D"FDD2:|
+"D"dcde fefg|afdf gfed|"Em"cdef (3gfe be|(3gfe be "A7"gfef|
+"D"dcde fefg|afdf "Bm"gfed|"Em"cdef "G"gbag|"A"fedc "D"d3e|
+"D"fdec "Bm"d3e|fdec "G"B3c|"Em"dB~BA "F#m"dB~BA|"G"FADE "A7"FEE2|
+"D"D2(3FED ADFA|defd "Bm"~B2Bc|"G"dB~BA FAdB|"A"AFEG "D"FDD2|]
+S:https://www.folktunefinder.com/tunes/113166
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

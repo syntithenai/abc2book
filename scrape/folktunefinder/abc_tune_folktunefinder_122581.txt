@@ -1,0 +1,27 @@
+X:80
+T:April Waltz
+R:Waltz
+C:Alistair Anderson or Selma Kaplan
+S:Nottingham Music Database, The Waltz Book
+M:3/4
+L:1/8
+K:G
+GA|:"G"B3B AG|AB GA Bd|"C"e2 ed BA|Bd A2 AB|
+"G"G3 B AG|"C"EG DE GA|[1 "Em"B2 dB "Am"AG|"D7"A4 GA:|
+[2 "Em"B2 BG"D7"AG|"G"G4 BA||
+G3 A Bd|"Em"e3 d ef|"G"g2 gf ed|"C"eg"D7"d2 ed|
+"G"B2 dB AG|AB GB AG|"Em"E2 ED B,D|"Am"E3 D "D7"EF|
+"G"G3 F GA|"Em"B3 G Bd|e2 ed BA|
+"G"Bd A2 AB|G3 BAG|"C"EG DE GA|"D7"B2 BG A2|"G"G4|]
+S:https://www.folktunefinder.com/tunes/122581
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

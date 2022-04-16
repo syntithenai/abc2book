@@ -1,0 +1,26 @@
+X:7007
+T:Hexham Quadrille
+T:I'll get wedded in my auld claes
+R:Jig
+O:England
+M:6/8
+A:Northumbria
+K:D
+A |\
+dcd AFD | FED B,2A, | DEF FED | DFB ABc |\
+dcd AFD | FED B,2A, | DFA A,CE | FDD D :|
+|: FA |\
+G2E C2A, | D2F A2F | GBG ECA, | DFA dce |\
+dAF DFA | BGE B,DF | GEC A,CE | FDD D2:|
+|:A|\
+AFA dfd | BGB e2d | c2A ABc | dfe dcB |\
+AFA dfd | BGB e2d | c2A GFE | FDD D2 :|
+S:https://www.folktunefinder.com/tunes/108514
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

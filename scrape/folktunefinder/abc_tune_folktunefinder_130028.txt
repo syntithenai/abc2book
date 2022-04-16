@@ -1,0 +1,28 @@
+X:67
+T:Yesh
+R:---
+C:Isral
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+z2gg g4|z2gg g4|z2gg g2gg|g2gg g4|g4||
+P:A
+g4g2g2|a2 g4e2|f2f2 e2d2|e2 c6|g4g2g2|a2 g4e2|f2f2 e2d2|c4c4||
+P:B
+e2g2 c4|e2g2 c4|a2 a4a2|g8|c2e2 g4|f2e2 d4|
+d2f2 e2d2|g8|c2e2 g4|f2e2 d4|d2f2 e2d2|c8|]
+%%text B suffisamment pour que tout le monde passe
+%%footer $D   Galouvielle-MBe 2007 \nBranle  Six (France)
+S:https://www.folktunefinder.com/tunes/130028
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

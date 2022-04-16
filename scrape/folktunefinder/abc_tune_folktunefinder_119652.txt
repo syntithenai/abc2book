@@ -1,0 +1,26 @@
+X:95
+T:La vigne au vin
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n95
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=110
+K:Eb
+B2 B B | c2 c c/ d/ | e e e d | (c2B) B | G B F B | 
+E E E E/ F/ | G G B G | F F E E/ F/ | G G B G | (F2E) z ||
+W:Plantons la vigne,
+W:La voil la jolie vigne,
+W:Vigni, vignons, vignons le vin,
+W:La voil la jolie vigne au vin,
+W:La voil la jolie vigne !
+S:https://www.folktunefinder.com/tunes/119652
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

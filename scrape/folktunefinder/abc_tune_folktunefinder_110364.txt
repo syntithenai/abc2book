@@ -1,0 +1,18 @@
+X:4
+T:Lamentation over Boston
+T: Bass
+C: William Billings
+O: From The Singing Master's Assistant, 1778
+L:1/4
+M:3/2
+K:A min bass
+%%MIDI transpose -24
+A4 A2 | A2 e2 [A2a2] |e e e2 c2 | A2 d2 e2 | [M:C|] [L:1/4] A4 | z2 A2 | e4 | z2 [A2a2] | [E4e4] | z2 [c2c'2] |
+S:https://www.folktunefinder.com/tunes/110364
+S:http://www.laymusic.org/music/billings/lamentation/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:17
+T:The Barren Rocks of Aden
+M:2/4
+R:March
+L:1/8
+K:HP
+%%scale 0.65
+%%alignbars 4
+|: e        |  {g}f>g  {afg}f>e | {Gdc}d{g}f  {AGAG}A{Gdc}d   | {gcd}c{g}e
+{AGAG}A>e       | {g}f{AGAG}A {Gdc}d>e           |
+    x       [|] {g}f>g  {afg}f>e | {Gdc}d{g}f  {AGAG}A{Gdc}d   | {gcd}c{g}e
+{AGAG}A{g}f/>e/ | {Gdc}d2     {gdc}dx           :|
+|: {g}f/>g/ |  {ag}a>f {Gdc}d>f | {gef}e>{g}f {AGAG}A{g}e/>f/ | {gf}ge    
+{gcd}c{e}A      | {Gdc}df     {gfg}f/>e/{g}f/>g/ |
+    x       [|] {ag}a>f {Gdc}d>f | {gef}e>{g}f {AGAG}A{g}e/>f/ | {gf}ge    
+{gcd}c{e}A      | {Gdc}d2     {gdc}dx           :|
+S:https://www.folktunefinder.com/tunes/124404
+S:http://tech.groups.yahoo.com/group/abcusers/messages/874?xm=1&m=e&l=1
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 108
+T:The Crib Of Perches(m)
+M:4/4
+L:1/8
+S:Matt Cranitch (fiddle)
+R:Reel
+D:Irish Fiddle Book
+Z:Mike Casey
+K:G
+A3 B AGED | (3EFG AB cBcA | G2 EG CDEG |
+cAGc AG (3EFG |A2 AB AGFD | (3EFG AB c3 c|
+dged dcAB | cAGE ED D2 ::
+K:D
+df~f2 af~f2 | defd edcA | (3Bcd ef gece |
+gecA GABc |df~f2 af~f2 | defd  edcA |
+(3Bcd ec d2 cB | AFGE FD D2:|
+% Output from ABC2Win  Version 2.1 i on 18/02/2003
+S:https://www.folktunefinder.com/tunes/119255
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BanishMisfortune.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

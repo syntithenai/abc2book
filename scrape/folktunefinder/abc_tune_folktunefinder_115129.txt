@@ -1,0 +1,27 @@
+X: 2
+T:Snoa "Hej och paltbrd"
+C:(efter Gesllerna i Sundsvall)
+N:efter "Gesllerna", Sundsvall
+O:Sweden
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+DG/G/ GD GB G2|DG/G/ GD BcA2|c2 c>B BAA>G|\
+[1FDEF GB/G/ D2:|[2FDEF G2 G>B|:\
+d2 d>e dBGB|d2 de A2-A>B|c2 c>B BA A>G|FDEF GB/G/ DB|\
+d2 d>e dBGB|d2 de A2-A>B|c2 c>B BA A>G|[1FDEF G2GB:|\
+[2FDEF G2 Gz|]
+T:Variation at the 2nd repetition of the 2nd part:
+T:Variation vid andra omtagningen av andra reprisen:
+d2 d>e dBGB|d2 de A2-A>B|c2 c>B BA A>G|FDEF GB/G/ DB|\
+d2 d>e dBGB|d2 de/z/ zA- A>B|c2 c>B BA A>G|FDEF G2Gz|]
+S:https://www.folktunefinder.com/tunes/115129
+S:http://homepage.calypso.net/~ci-18034/div.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/div.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

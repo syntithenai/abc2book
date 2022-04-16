@@ -1,0 +1,31 @@
+X:99
+T:Planxty Hewlett
+M:3/4
+L:1/8
+C:Turlough O'Carolan
+N:For Antony Heywood's Dance "An Enchanted Place"
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=110
+K:D
+P:A
+|: AF | "D"D2 DE FG | "A"AB c2 A2 | "Bm"d2 f2 fg | "G"fe d3B |\
+"D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "G"D2 | "D"D4 :|
+%%vskip 0
+P:B
+FG | "D"A2 F2 AB | "D/C#"A2 F2 AB | "D/A"A2 d2 d2 | "Bm"dc BA GF |\
+"Em"G2 E2 GA | "Em/D"G2 E2 EF | "A/C#"GF GB AG | "D"AF D3E |
+"D"FE F2 G2 | "A"AB c2 A2 | "Bm"fe fg ag | "G"fe d3B |\
+"D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "G"D2 | "D"D4 |]
+S:https://www.folktunefinder.com/tunes/110146
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

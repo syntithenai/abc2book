@@ -1,0 +1,30 @@
+X: 3
+T:Baila los titos, morena
+M:2/4
+L:1/4
+Q:1/8=176
+S:Trad
+O:Spain
+A: San Romn de los Caballeros, KINGDOM OF LEON
+R:Titos
+K:G
+|:d d/2e/2|d c/2B/2|c A:|
+d d/2e/2|B B/2A/2|GG|A A/2c/2|
+B B/2A/2|GG-|G2-|Gz|]
+:d d/2e/2|d c/2B/2|cA:|
+c c/2d/2|B B/2A/2|GG|A A/2c/2|
+B B/2A/2|GG-|G3/2z/2|
+|:d d/2e/2|d c/2B/2|c A:|
+d d/2e/2|B B/2A/2|GG|A A/2c/2|
+B B/2A/2|GG-|G2-|Gz|]
+S:https://www.folktunefinder.com/tunes/113937
+S:http://www.geocities.com/titoasturies/leon.txt
+% Rhythm Titos
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

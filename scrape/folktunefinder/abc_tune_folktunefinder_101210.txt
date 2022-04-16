@@ -1,0 +1,22 @@
+X:20
+T:Home Ruler
+M:4/4
+L:1/8
+R:hornpipe
+K:D
+|: FE | D2 FA D2 FA | dfed BcdB | A3 B AFDE | FDED B,DA,B, |
+D2 FA D2 FA | dfed BcdB | A3B AFDE | F2D2D2 ::
+AB | d3c defg | afbf afed | efed BA (3Bcd | fded BdAB |
+d3c defg | afbf afed | efed BA (3dcB | AFEF D2 :|
+S:https://www.folktunefinder.com/tunes/101210
+S:http://music.gordfisch.net/oregans/assets/abc/hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

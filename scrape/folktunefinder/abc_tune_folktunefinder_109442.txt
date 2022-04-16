@@ -1,0 +1,29 @@
+X:4
+T:Blodau'r Drain [Flowers of the Thorn]
+R:waltz
+B:
+D:
+O:Wales
+Z: John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:Am
+|: E2 \
+| A4 B2 | c2 B2 A2 | e2 dc BA | B4 E2 \
+| A2 Ac Bd | c2 B2 A2 | ^G2 GB Ac | B4 :|
+[| B2 \
+| c4 c2 | d4 d2 | e2 e2 f2 | e4 d2 \
+| cB cd c2 | dc de d2 | ed ef ef | g3 fed |
+| cB cd ec | dc de fd | e2 e2 a2 | ^g4 b2 \
+| a2 e2 c2 | f2 e2 d2 | c2 dc Bc | A4 |]
+S:https://www.folktunefinder.com/tunes/109442
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

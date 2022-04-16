@@ -1,0 +1,31 @@
+X: 10
+T:Karapyet
+O:russia
+Z:H. Tantsyur
+S:A. Humenyuk
+Q:1/4=120
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-18
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+A:village of Zyatkivtsi, Vinnyts'kiy, Ukraine
+K:Cmin
+G c2 c | =B2 {=A}G2 | G d2 f | e>d c2 |: \
+e/2f/2ggg | ag f2 | f/2g/2aaa | ba g2 | \
+e/2d/2e e/2d/2e | f>e d2 | g>fed | c2 c2 :|
+P:Ending Variation
+|: e/2f/2g e/2f/2g | fg a2 | \
+d/2e/2f d/2e/2f | ef g2 | \
+c/2d/2e c/2d/2e | de f2 | g>fed | c'2 c2 :|
+%%footer $D   Galouvielle-MBe 2008 \n-- (russia)
+S:https://www.folktunefinder.com/tunes/102661
+S:http://michel.bellon.free.fr/Musique/abc/Russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

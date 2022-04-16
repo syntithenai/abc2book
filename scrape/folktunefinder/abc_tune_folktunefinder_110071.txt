@@ -1,0 +1,31 @@
+X:24
+T:Colin's BMX
+%%staffsep 0
+M:4/4
+L:1/4
+C:Trevor Monson, 2004
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+K:G
+P:A
+[| "G"B/2c/2d/2e/2 d e/2f/2 | "G"gd B3/2c/2 | "D"d3/2c/2 BA | "G"G A/2B/2 "D"A3/2d/2 |\
+"C"ge "G"dB | "Em"G/2A/2B "D"AB/2c/2 | "G"d/2c/2B/2A/2 "Em"GB | "D"A3/2B/2 "G"G2 |
+%%vskip 0
+P:B
+|: "C"E/2E3/2 "G"D3/2G/2 | "G"B/2d3/2 "C"e2 | "G"B/2c/2d/2c/2 B/2A/2G/2F/2 | "Em"BG "C"ED |
+"C"EF "G"G/2B3/2 | "Em"B/2e3/2 "Bm"d2 | "Em"eB "D"AD |1 "C"E/2A3/2 "G"G3/2F/2 :|2 "C"EG/2A/2 "G"G2 |
+%%vskip 0
+P:C
+"D"DE FG | "D"AG FA | "Am"cB AG | "D"F/2G/2A/2G/2 F3/2D/2 |\
+"D"DE FG | "Am"AG "D"FA | "Am"cB "D"Ad | "D"d/2e/2f "G"g2 |]
+S:https://www.folktunefinder.com/tunes/110071
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

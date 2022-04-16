@@ -1,0 +1,30 @@
+X:48
+T: Sharen de gangdao shi jiu lijiao
+N: C0063
+O: China,Qinghai, Osten
+S: I, 245]
+N: sehr typisch, und eine "ling", die nur hier vorkommt.
+R: Shange, Huar, da yanjing ling. Nann siqing]
+M: 3/4
+L: 1/8
+K: F
+A2 | A2d2d2 | c2cA3- | AA | A2d2d2 | cAA2z2
+A2d2d2 | d2c2AG | c2A4
+GAGFD2 | DFC2A,C | D2D4- | D4
+DF | G4A2
+AAFGA2 | A2z2c2 | GAGFDC | D6
+A2d2dd | d2c2AG | c6- | c2dfdc
+AAFGA2 | A2z2c2 | GAGFDC | D6
+G6
+AAFGA2 | A2z2cz | GAGFDC | D6 | d4z2
+S:https://www.folktunefinder.com/tunes/112475
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, huar, da yanjing ling. nann siqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

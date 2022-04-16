@@ -1,0 +1,35 @@
+X:21
+T:O Little One Sweet
+C:Old German melody
+C:harmonized by J.S. Bach
+%
+V:1 clef=treble name="Soprano" sname="S"
+V:2 clef=treble name="Alto"    sname="A"
+V:3 clef=bass   name="Tenor"   sname="T"
+V:4 clef=bass   name="Bass"    sname="B"
+%
+%%staves [(1 2) | (3 4)]
+M:3/4
+L:1/4
+K:Bb
+%
+[V:1]  B       |  B3/ A/    B | c2         A | B A  G | F2 d | c2     c      |
+[V:2]  D       | (D/=E/) ^F G | (G/=F/ =E) F | F>D =E | C2 F | (F>_E) (D/A/) |
+w: 1.\240\240O lit_ tle one sweet,__ O lit- tle one mild, Thy fa_ ther's_
+w: 2.\240\240O lit_ tle one sweet,__ O lit- tle one mild, With joy_ thou_
+w: 3.\240\240O lit_ tle one sweet,__ O lit- tle one mild, In thee_ love's_
+w: 4.\240\240O lit_ tle one sweet,__ O lit- tle one mild, Help us_ to_
+[V:3]  B,      | B, D  D         | C2           C  | D>D   (G,/C/) | A,2 B,  | (B, A,)      D   |
+[V:4] (B,/A,/) | G, D, (G,/=F,/) | (=E,/D,/ C,) F, | D, B,, C,     | F,2 B,, | (F,/=E,/ F,) ^F, |
+%
+[V:1] B  B  c | (F G) A | B2 d | e2       e | c2  c     |
+[V:2] (A>G) F | F2    E | D2 F | (E/F/ G) G | F2 (F/G/) |
+S:https://www.folktunefinder.com/tunes/118554
+S:http://tomkeays.com/music/xmas/xmas2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

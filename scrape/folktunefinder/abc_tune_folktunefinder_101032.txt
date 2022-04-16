@@ -1,0 +1,22 @@
+X: 50
+T:Old Molly Oxford
+M:4/4
+L:1/8
+S:Fieldtown
+K:D
+d2cd e2f2|e2dc Bcd2|c2A2 B2G2|A2AG FGA2|
+d2 ec  B2 AG|F2A2 d4 |F2ED E2C2|D4 D3 A :|
+AGFE D2EF|G2A2 B2c2|dcBA G2A2|Bcdf e2ce|
+d2Bd c2A2|BGEF G2B2 |AGFE D2 EF|G4 G3 A:|
+% Output from ABC2Win  Version 2.1 f on 28/04/2002
+S:https://www.folktunefinder.com/tunes/101032
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_english.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

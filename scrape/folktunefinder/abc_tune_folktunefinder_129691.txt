@@ -1,0 +1,27 @@
+X:6
+T:Cameronian Rant
+R:pipe reel or strathspey
+% for strathspey set more dotted rhythms could be added
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 5153 5153
+N:for 4 turn F major reel setting see Skye Collection
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+L:1/8
+M:C
+K:FLyd
+f|cF F/F/F cFAf|cF F/F/F c2 Ac|BG G/G/G BGAG|BG G/G/G TB2 A:|
+c|F(ff)g fdcA|F(ff)g fdcA|G(gg)a gfed|G(gg)a gfed|
+F(ff)g fdcA|F(ff)g fdcA|(e/f/g) df (e/f/g) df|(e/f/g) df Te2 d|]
+S:https://www.folktunefinder.com/tunes/129691
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Pipe reel or strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

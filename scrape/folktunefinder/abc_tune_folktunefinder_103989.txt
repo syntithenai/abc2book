@@ -1,0 +1,24 @@
+X:1
+T:Maclotte
+B:Les p'tites danses d'Erezee
+O:Wallonie
+M:2/4
+L:1/16
+Q:C4=84
+K:C
+cBcd e2c2 | B2d2 f2d2 | cBcd e2c2 | B2A2 G2 z2 |
+cBcd e2c2 | B2d2 fdef | g2 G2A2B2 | d4 c2 z2 :|
+|: gfef g2e2 | a2g2f2 z2 | fede f2d2 | g2f2e2 z2 |
+cBcd e2c2 | B2d2 fdef | g2 G2A2B2 | d4 c2 z2 :|
+S:https://www.folktunefinder.com/tunes/103989
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://users.skynet.be/infants/musiques/abc/erezee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/erezee.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

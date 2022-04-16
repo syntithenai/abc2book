@@ -1,0 +1,34 @@
+X:50
+T:Dan MacDonald
+R:reel
+C:Brenda Stubbert
+O:Cape Breton Island
+D:Tamarac 'er Down,1987
+B:Brenda Stubbert's Collection of Fiddle Tunes
+S:http://www.cranfordpub.com
+Z:psc, (re-formatted,updated 9/19/04)
+N:http://www.cranfordpub.com/stubbert
+H:                                                        copyrights Stubbert Music, SOCAN
+L:1/8
+Q:333
+M:C|
+K:D
+B|AF ~F2 A,DFA|dfef dAA=c|BG ~G2 AFDF|GBAF GEEB|
+AF ~F2 A,DFA|dfef dAA=c|BG ~G2 AFDF|GA,CE D3:|
+|:g|fd ~d2 adbd|afef dAA=c|BG ~G2FAdf|[1gbaf geeg|
+fd ~d2 adbd|afef dAA=c|BG ~G2 AFDF|GA,CE D/D/D D:|
+[2gbaf geeB|AF ~F2 A,DFA|dfef dAA=c|BG ~G2 AFDF|GA,CE D2 D|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/102844
+S:http://cranfordpub.com/tunes/abcs/stubbertarchive.abc
+S:http://www.cranfordpub.com/tunes/abcs/stubbertarchive.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

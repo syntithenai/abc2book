@@ -1,0 +1,30 @@
+X:17
+T:Leken hass Krestaffer Troeen (Rorospols)
+R:rorospols
+Z:Brekken Spellmannslag, StorBrekkingen, Track 20
+Z:
+Z:
+Z:(also Rorostraktom #121)
+M:3/4
+L:1/8
+K:D
+P:A
+|: "D"f2 ((3fef) (g>f  | "A"e2) ((3ede) f2 | "D"((3ABc d2) e>f |
+   "A"d2 ((3cBc) e>e |
+   "D"f2 ((3fef) (g>f  | "A"e2) ((3ede) f2 | "D"((3ABc d2) e>f |
+   [1 "A"(d<c) "D"d4 :|[2 "A"(d<c) "D"(d4 |
+P:B
+|: "D"d)uf d2 (f>a) | "G"(ad |
+   "A"e>(f g<e) a>g | "D"f>(e d<c) ~BA |
+   "D"d2 (f<d) f>a | "G"(ad |
+   "A"e>(f g<f) d>f |[1 "A"((3ece) "D"(d4 :|[2 "A"((3ece) "D"d4 |
+S:https://www.folktunefinder.com/tunes/114353
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+% Rhythm Rorospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

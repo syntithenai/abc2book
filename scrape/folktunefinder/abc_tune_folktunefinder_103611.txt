@@ -1,0 +1,28 @@
+X: 16
+T:Regent Jig
+M:6/8
+L:1/8
+Q:1/4=200
+C:Chris Perry Dec 2001
+S:Fiddle Players Tunebook
+R:jig
+Z:December 2001
+K:Gmaj
+"G"B2B"G" BcB |"G"GAB "G"d2B|"D"ABA "D"FED |"D"FDF "D"BAF |\
+"G"B2 B"G" BcB |"G"GAB "G"d2e|"D"f2a "D"gfe |"C"c4"C"dc ::"Em"B,EE"Em"EF
+G |\
+"C"CEE "C"EFG |"D"FDD "D"ADD |"D"FDA "D"BAF |"Em"B,EE "Em"EFG |\
+"C"CEE "C"EFG |"D"F2D"D"F2A|"D"BAF "Em"E2D:: "Em"edB "Em"BAB |\
+"Em"GAB "Em"d2e|"D"fdd "D"Add |"D"fag "D"fed |"Em"edB "Em"BAB |\
+"Em"GAB "Em"d2e|"D"f2a "D"gfe |"C"[c4e4] d2:|
+S:https://www.folktunefinder.com/tunes/103611
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

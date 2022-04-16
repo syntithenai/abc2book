@@ -1,0 +1,32 @@
+X: 1
+T: \"Algen
+C: Hans Sandin
+N: Hans Sandin is a member of NorrL\aatar
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dm
+ D>E F<G \
+| "Dm"A>A D<F B=G F<E \
+| "Dm"D>E F<G A2 d2 | "A7"^c4- c4 |
+| "Bb"d3 =c "C7"B>A G<F | "F"A2 B2 "Gm"F3 G \
+| "Dm"A2 B<A "Bb"^G>F E<D | "A7"E4 D>E F<G |
+||"Dm"A>A D<F B=G F<E \
+| "Dm"D>E F<G A2 d2 | "A7"^c4- c4 |
+| "Bb"d3 e "C7"d2 c<B | "F"A<A c<c "C7"G<G B<B \
+| "Dm"F<F A<A "A7"E>G F<E | "Dm"D2 A,2 D4 |
+|: "A7"E>E F<E "Dm"D>E F<A | "Gm"B>B c<B "F"A4 \
+| "Bb"d>d e<d "C"c>c d<c | "C7"B>d cc B<A |
+| "Gm"G>B A<G "Dm"FE FG | "A7"A6 G<F \
+| "A7"E>D E<G F2 E2 |1 "Dm"D2 A,2 D4 :|2 "Dm"D4 |]
+S:https://www.folktunefinder.com/tunes/102919
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/Algen_Dm32.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

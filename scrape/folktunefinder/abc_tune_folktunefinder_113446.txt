@@ -1,0 +1,26 @@
+X:27
+T:The Last Rose of Summer
+% Four-part piano arrangement for standard notation.
+C:Thomas Moore/Irish Air "The Groves of Blarney" / Flotow's "Martha"
+S:From "The One Hundred and One Best Songs" / The Cable Company / 1919 / Chicago, Illinois
+M:3/4
+L:1/8
+Q:1/4=80
+%%staves [(1 2) (3 4)]
+%%vocalfont Times-Roman 15
+K:Eb
+V:1 clef=treble
+|:(E > F) | G2 ed c>B | B G3 E>F | (G B2) G F>E | E4 :|
+w:1.~'Tis the last rose* of* sum-mer, Left* bloom\-* ing a\-* lone;
+w:~~All her love-ly* com\-* pan-ions Are* fad\-* ed and* gone;
+S:https://www.folktunefinder.com/tunes/113446
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

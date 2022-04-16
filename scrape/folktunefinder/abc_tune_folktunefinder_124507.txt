@@ -1,0 +1,18 @@
+X: 1
+T: Arkan (Gm)
+O: Ukraine
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 4/4
+L: 1/8
+K: Gm
+|: "Gm"d2d2 ^cBAG | d2d2 ^cBAG | GDGA B2"D7"A2 | "Gm"GDGA B2"D7"A2 | "Gm"GDGA B2"D7"d2 | ^cBAB "Gm"G2z :|
+S:https://www.folktunefinder.com/tunes/124507
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Arkan_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ukraine/tune/Arkan_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

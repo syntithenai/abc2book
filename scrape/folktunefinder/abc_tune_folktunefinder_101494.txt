@@ -1,0 +1,27 @@
+X: 77
+T:Miss Gaytons Hornpipe. GHW.077
+M:2/4
+L:1/8
+Q:300
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+O:England
+A:Norfolk
+Z:vmp.Taz Tarry
+K:F
+(c>B)|(A>cf>e) f2 (c>B)|(A>cf>e) f2 (c>B)|(A>ag>f) (e>dc>B)|(c>eg>f) (e>
+dc>B)|!
+(A>cf>e) f2 (c>B)|(A>cf>e) f2 (f>e)|(d>ef>g) (e>fg>a)|(f>ef>g) f2||!
+(f>g)|(a>ga>f) g2 e2|(f>ef>d) c2 A2|(B>cd>B) (A>Bc>A)|(G>FG>A) G2 (f>g)|
+S:https://www.folktunefinder.com/tunes/101494
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

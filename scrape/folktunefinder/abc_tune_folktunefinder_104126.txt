@@ -1,0 +1,34 @@
+X: 14
+T:Miss Fords Dance. ST.14
+T:Shepherd's Hey,aka. ST.14
+M:2/4
+L:1/8
+Q:150
+C:Shepherd's Hey,aka.
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Country-dance
+O:England
+A:Staffordshire
+N:Time signature is given as 2/4 in ms. However first 4 bars have 3
+N:croche
+N:/bar, and other bars have extra beats. I have retained this in abc. as
+N:"
+N:rrecting" would involve more than a minor editorial decision.
+Z:vmp.Tim Willets
+K:G
+"qu's"G/B/d/B/ cc|"qu's"G/B/d/B/ AA|"qu's"G/B/d/G/ cc/2e/2|\
+d/2c/2B/2A/2GG:|!
+|:"qu's"g/d/c/B/ "crs"cc|e/2c/2e/2c/2 AA|"qu's"g/d/c/B/ cc/2e/2|\
+d/2c/2B/2A/2 GG:|!
+|:D/2G/2B/2G/2 D/2A/2c/2A/2|D/2G/2B/2G/2 AA|\
+D/2G/2d/2B/2 D/2B/2c/2e/2|d/2c/2B/2A/2 GG|
+S:https://www.folktunefinder.com/tunes/104126
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Country-dance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

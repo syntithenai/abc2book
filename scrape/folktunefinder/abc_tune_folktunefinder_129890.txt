@@ -1,0 +1,22 @@
+X: 1
+T:Aunt Mary's Canadian Jig
+M:6/8
+Q:3/8=120
+R:jig
+L:1/8
+K:D
+A|"D"f2f fga|"D"d2d dcB|"D"ABA AGF|"A"E3- E2A|"A"e2e efg|"A"e2d c2B|"A"ABA ABA|"D"F3-F2 A|
+"D"f2f fga|"D"d2d dcB|"D"ABA AGF|"A"E3- E2A|"A"e2e efg|"A"e2d c2B|"A"ABA ABc|"D"d3-d2||A|
+"D"ABA faf|"A7"e2d "D"d3|"D"AFA "D7"BcB|"Em"A2G G3|"A"GFG efe| "A"d2c c2B|"A"ABA ABA|"D"F3-F2A|
+"D"ABA faf|"A7"e2d "D"d3|"D"AFA "D7"BcB|"Em"A2G G3|"A"GFG efe| "A"d2c c2B|"A"ABA "A7"ABc| "D"d3-d2||
+S:https://www.folktunefinder.com/tunes/129890
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

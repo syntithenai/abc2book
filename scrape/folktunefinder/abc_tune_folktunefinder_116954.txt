@@ -1,0 +1,23 @@
+X:1
+T:Andro
+S:Ar Re Youank
+Z:<Rene.Quiniou@irisa.fr> abcusers 2000-05-24
+N:Jou\'e normalement en Sib (Sol mineur)
+M:4/4
+L:1/8
+K:Gm
+|: GFGA B3A   | G2B2 A3A | AGFA G3G  | G2dc B3G |\
+   GFGA B2BB- | BGcB A3A | AGFA G2GA | BGAB G4 :|
+|: GAGF d3d   | B2AB c3A | GFFe d3d  | B2GB A3A |\
+   GFec d3d   | BcdB c3d | cBAB G2GA | BGAB G4 :|
+S:https://www.folktunefinder.com/tunes/116954
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/AdDro2_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

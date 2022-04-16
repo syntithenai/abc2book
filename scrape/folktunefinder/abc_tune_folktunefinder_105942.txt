@@ -1,0 +1,24 @@
+X: 42
+T:Hessian Dance,(bass part). JB.41
+M:3/8
+L:1/8
+Q:30
+S:James Biggins MS, Leeds, 1779.
+R:Misc.
+O:England
+A:Yorkshire
+Z:vmp.Nick Barber & Chris Partington
+K:G
+"Read as Gmaj, bass clef"eee|eEE|GAB|E2z|eee|fEE|GAB|E3:|!
+|:z3|z3|Bcd|e2c|d/f/e/d/c/B/|cce|eBB,|E3:|!
+|:z2e|B2c|ABB,|E3|z2e|B2c|ABB,|E3:|]
+S:https://www.folktunefinder.com/tunes/105942
+S:http://www.village-music-project.org.uk/abc/biggins.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

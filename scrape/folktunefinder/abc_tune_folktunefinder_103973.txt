@@ -1,0 +1,17 @@
+X:5
+T:Bringt her dem Herren
+T:(Alleluia)
+C:Schtz (1585-1672)
+M:3/4
+L:1/8
+%%staves [1 2]
+K:C
+V:1
+"Do"GG "Sol"GG "Lam"cc|"Sol"B4B2|"Lam"E2"Mim"E2"Rem"D2|"Mi"E6|"Fa"CC "Do"CC "Rem"FF|"Do"E4E2|
+S:https://www.folktunefinder.com/tunes/103973
+S:http://moinejf.free.fr/messe/messeB.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

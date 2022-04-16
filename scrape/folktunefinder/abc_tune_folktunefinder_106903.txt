@@ -1,0 +1,26 @@
+X:148
+T:Andy De Jarlis'
+C: J-70
+R:jig
+Z:Transcribed to abc by Mary Lou Knack
+M:6/8
+K:E
+"E"EGB EGB| EGB "A"c2B| "E"EGB EGB| "D"=DFA B2A|
+"E"EGB EGB| EGB "A"c2a| "B"g2f Bcd|1 "E"efe e3 :|2 "E"efe e2a|]
+|:\
+"E"gbg efg| "A"aba c2e| "F#m/A"f2g f2e| "B7"dcB c2B|
+"E"gbg efg| "A"aba  "F#m"c2a| "B"gfe Bcd |1 "E"e3 e2a :|2 "E"e3 e3 |]
+%%text 02/05/01
+S:https://www.folktunefinder.com/tunes/106903
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

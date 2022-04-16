@@ -1,0 +1,24 @@
+X:37
+T:Frosty Morning
+A:Old-Time
+B:Fiddler's Fakebook
+R:Reel
+M:4/4
+L:1/8
+K:ADor
+"Am"ED(EG) AGA2 | AB(cd) e2 ((3DEF | "G"G2) BA G2 D2 | GA(Bc d2) D2|
+"Am"ED(EG) AGA2 | ABc(d e2 ) ed | (cB)A(c "G"BA) G2 | "Am"A3 (BA2) D2 :| 
+"A"e2a2a2a2 | (ab)(ag e) (d^cd) | "G"(ed)e(^f gf)(gf | e) dB(de2) e2 |
+"Am"A2 AA c2 (c2 | dc)d2e2 ed| cBAc "G"(BA) G2 |1 "Am"(A2 AB A4) :|2 "Am" A8 ||
+S:https://www.folktunefinder.com/tunes/122827
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

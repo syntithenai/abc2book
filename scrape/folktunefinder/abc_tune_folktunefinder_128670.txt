@@ -1,0 +1,23 @@
+X:170
+T:Drover's Lad
+Z: id:dc-jig-29
+M:6/8
+L:1/8
+K:G Major
+F|G2g gfg|agf g2e|dBB B2e|dBB B2A|!
+G2g gfg|agf g2e|dBA A2e|dBA A2:|!
+F|GBB dBd|ede efg|dBB B2e|dBB B2A|!
+GBB dBd|ede efg|dBA A2e|dBA A2:|!
+F|GBB gBB|aBB bBB|dBB B2e|dBB B2A|!
+GBB gBB|aBB bBB|dBA A2e|dBA A2:|!
+a|bag agf|gfe efg|dBB B2e|dBB Bga|!
+bag agf|gfe efg|dBA A2e|dBA A2:|!
+S:https://www.folktunefinder.com/tunes/128670
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

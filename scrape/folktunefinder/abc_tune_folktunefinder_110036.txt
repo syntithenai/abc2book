@@ -1,0 +1,24 @@
+X:98
+T: Alter Mann und Schueler
+N: Q0025
+O: Mitteleuropa, Deutschland (BRD) , Rheinpfalz, Bergzabern
+N: Verzierungen (Vorschlaege) in der 3. bis 5. Zeile.
+R: Ballade, Betrug, Hinrichtung, Tod, Vergeltung
+M: none
+L: 1/16
+K: G
+D2 | G2B2G2G2FG | A2B2G4z2
+G2 | B2d3cB2A2 | G4A4z2
+G2 | B2G2d6e2B2G2 | c4z2
+B2A2G2 | c4B4 | A4G4z2
+G2 | B2d2c4B4 | A4G2z2
+S:https://www.folktunefinder.com/tunes/110036
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, betrug, hinrichtung, tod, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

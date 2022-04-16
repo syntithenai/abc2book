@@ -1,0 +1,25 @@
+X:17
+T:Alexander's Hornpipe
+R:hornpipe
+M:C|
+L:1/8
+Q:1/4=140
+K:D
+(3ABc|"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe (3dcB "D"A2 (3ABc|
+"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe dc "D"d2:|
+|:AG|"D"FAdA "D"FAdA|"G"GBdB "G"GBdB|"A"Acec "A"Acec|"D"dfaf "D"(3gfe dA|
+"D"FAdA "D"FAdA|"G"GBdB "G"GBdB|"A"Acef "G"gecd|"A"(3efe dc "D"d2:|
+(3ABc|"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe (3dcB "D"A2 (3ABc|
+"D"dAFA "D"DFAd|"D"fdcd "A"Acef|"Em"~g3e "D"fdcd|"A"(3efe dc "D"d2:|
+|:AG|"D"(3AcAdA "D"(3AcAdA|"G"GBdB "G"GBdB|"A"(3AcAec "A"(3AcAec|"D"dfaf "D"(3gfe dA|
+"D"(3AcAdA "D"(3AcAdA|"G"GBdB "G"GBdB|"A"(3AcAef "G"gecd|"A"(3efe dc "D"d2:|
+S:https://www.folktunefinder.com/tunes/100977
+S:http://www.slainte.ch/abc/road.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

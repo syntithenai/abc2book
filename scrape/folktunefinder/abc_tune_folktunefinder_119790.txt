@@ -1,0 +1,30 @@
+X: 52
+T:Manchester Hornpipe
+M:4/4
+L:1/8
+Q:180
+R:Hornpipe
+K:D
+(3 ABc|"D"d>c d>A F>A d>f|"G"e>d c>B "A"A>c e>g|
+"D"f>g a>f  "G"b>g "A"e>c|"D"d>c d>f "A"e>c (3ABc|!
+"D"d>c d>A F>A d>f|"G"e>d c>B "A"A>c e>g|
+"D"f>g a>f "G"b>g "A"e>c|"D".d2.f2|.d2::f>g|!
+"D"a>f a>f d>f a>f|"G"b>g b>g "A"e>f g>e|
+"D"a>f b>a "G"g>f e>d|"E"e>d c>B "A"A>g f>e|!
+"D"d>c d>A F>A d>f|"G"e>d c>B "A"A>c e>g|
+"D"f>g a>f "G"b>g "A"e>c|"D".d2.f2|.d2:|
+S:https://www.folktunefinder.com/tunes/119790
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

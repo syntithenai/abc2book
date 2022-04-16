@@ -1,0 +1,36 @@
+X:5
+T:Bransles de la fontaine
+R:Bransle
+D:Groupe sans gain
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/2
+L:1/4
+Q:1/2=120
+K:C
+|: DD/D/ GA Bc d2 | c>d BG AB A2 | DD/D/ GA Bc d2 | c>d BG A^F G2 :|
+K:F
+|: dd/d/ cB AB G2 | GG/A/ BB cB A2 | dd/d/ cB AB G2 | GG/B/ AG G^F G2 :|
+|: c2 d>G BG A2 | Ac BG ^FG A2 | c2 d>G BG A2  | Ac BG G^F G2 :| 
+W:C'est en allant en la fontaine, que je croisais mon ami Pierre
+W:C'est en allant en la fontaine, que je croisais mon ami Louis (2x)
+W:Je lui ai dit mon beau galant, quand m'emmneras-tu danser 
+W:Tu me l'avais promis pourtant, le jour de la nouvelle anne. (2x)
+W:Gai gai dansons la belle le printemps vient d'arriver
+W:Gai gai dansons la belle au printemps il faut danser.
+W:[Cool cool] ma mie soit [cool ()], l'anne vient de commencer
+W:[Cool cool] ma mie soit [cool ()], l'anne n'est pas termine
+%%vskip 0.5cm
+%%sep
+%%text Renaissance
+S:https://www.folktunefinder.com/tunes/99534
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Rhythm Bransle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/2
+% Has_accompaniment_chords No chords

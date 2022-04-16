@@ -1,0 +1,33 @@
+X: 5
+T:Blue Bell Polka
+% Nottingham Music Database
+P:ABACA
+S:Jimmy Shand
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+(3Bdg|:"G"b2b2 gfge|"G"d2d2 B2G2|"D7"FGAB c2e2|"G"ed^cd "D7"B2(3Bdg|
+"G"b2b2 gfge|"G"d2d2 B2G2|"D7"FGAB cdef|[1"G"g2g2 g2 (3Bdg:|[2 g2g2 g2B2
+P:B
+K:D
+|"D"A2A2 FAdf|"D"a2a2 f4|"A7"a2^g2 =g2e2|"D"b2a^g "A7"a4|"D"A2A2 FAdf|\
+"D"a2a2 f4|"A7"a2^g2 =g2e2|"D"d2f2 "D7"d2|
+P:C
+K:C
+f2|"C"e2e2 efg2|"C"e2e2 efg2|"G7"fefg fdB2|
+"G7"fefg fdB2|"C"e2e2 efg2|"C"e2e2 efg2|"G7"fefg fdBd|"C"c2e2 c2|
+S:https://www.folktunefinder.com/tunes/129862
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

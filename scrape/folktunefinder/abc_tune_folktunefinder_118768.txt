@@ -1,0 +1,70 @@
+X:37
+T:La bique [ok]
+R:
+S:
+N:
+A:Champagne
+G:
+O:France
+Z:<anamnese@laposte.net>
+M:2/4
+L:1/8
+Q:1/4=130 allegro
+K:F
+F2 | D A A G | A2 !emphasis!F2 | D A A G | A2 A2 | A B c A | G2!emphasis! G2 |
+w:Il | -tait u-ne | biqu' qui | a-vait bien cent | ans, el-|le s'en fut aux | choux, aux |
+G A G F | HE A A G | A2 (3FEF | D A A G | A2 (3FEF | HD A A A ||
+w:choux de Jean Ber-|trand Pour tous les|jours fai-re ri-|botte et aux d-|pens des bonnes|gens~! Elle a d'l'en|
+[M:6/8] HB A G G G G | !emphasis!A G F F F F | G F E A A A | F3 E3 | D2 z z3 ||
+w:ten, ma bique elle a d'l'en-|ten, ma bique elle a d'l'en-|ten, ma bique elle a d'l'en-|ten-de-ment~! |
+%%vskip 1cm
+%%wordsfont Times-Roman-Italic
+W:   I
+W:Il tait une biqu' 
+W:qui avait bien cent ans
+W:elle s'en fut aux choux
+W:Aux choux de Jean Bertrand
+W:
+W:    Pour tous les jours faire la ribotte
+W:    et aux dpens des braves gens !
+W:    Elle a d'l'enten, ma bique (bis)
+W:    elle a d'l'entendement !
+W:  
+W:   II
+W:Jean Bertrand qui la vit,
+W:la prit la nuit dedans,
+W:il la fit assigner
+W:par quatre-vingt sergents
+W:
+W:   III
+W:La bique qui tait trs sage
+W:se rendit au jugement
+W:elle retroussa sa queue
+W:et s'assit sur un banc
+W:
+W:   IV
+W:Elle fit trois pets au juge
+W:et quatre aux assisants
+W:plus un bichet de crottes
+W:qu'tait pour Jean Bertrand
+W:
+W:   V
+W:Puis elle fourra sa corne 
+W:au... du prsident
+W:le cher homme qu'tait fier
+W:n'en fut pas trs content
+W:
+W:   VI
+W:Sans bruit le tribunal
+W:prisant peu ces faon
+W:fit remettre  quinzaine 
+W:et leva le sant
+S:https://www.folktunefinder.com/tunes/118768
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

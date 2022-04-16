@@ -1,0 +1,23 @@
+X: 52
+T:Split the Ticket
+M:C
+L:1/8
+Q:220
+R:R
+K:G
+FG^G|: A2 AB cBcd|e2 eg edcB|A2 B2 c2 d2|e2 eg edcB|!
+A2 B2 c2 d2|e2 eg edcB|A2 c2 B2 ^G2|A4:|!
+c2 E2 c2 E2|cBce dcBA|c2 =F2 c2 =F2|cBce dcBA|!
+c2 ^F2 c2 ^F2|cBce dcBA|BABc BAGA|BABc BA^GA|!
+c2 E2 c2 E2|cBce dcBA|c2 =F2 c2 =F2|cBce dcBA|!
+c2 E2 c2 E2|cBce dcBA|c4 c2 FG^G|
+S:https://www.folktunefinder.com/tunes/113402
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/fullmoon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

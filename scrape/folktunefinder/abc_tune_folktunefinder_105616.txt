@@ -1,0 +1,25 @@
+X:61
+T:Sandhill Corner
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+c | B2d B2d | efg f2d | g2e dBG | 
+A2A A2c | B2d B2d | efg f2d | 
+g2e dBG | G2G G2 :| e | g2g f2d | 
+efg d2f | g2e dBG | A2A A2c | 
+g2g f2d | efg d2f | g2e dBG | 
+G2G G2d | g2g f2d | efg d2f | 
+g2e dBG | A2A A2c | B2d c2e |
+d2f e2f | g2e dBG | G2G G2 |]
+S:https://www.folktunefinder.com/tunes/105616
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

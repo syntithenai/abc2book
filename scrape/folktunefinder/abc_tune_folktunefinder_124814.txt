@@ -1,0 +1,32 @@
+X:29
+T:Gan Ainm
+S:Josie Nugent, Clare (fiddle)
+D:Private tape
+Z:Bernie Stocks
+N:As played
+H:Not too happy about airs. This does play back OK through 'playqabc'.
+K:D
+f {a}fe d2 {edc}AF GA2 | GAG F D {E}D2  D E-F A4 | f {a}fe d{edc}AF GA2 
+GAG F D {E}D2  E D4 :| A2 def g2 {ag}e dcd A4 F-G A2 def a2g 
+f {a}fe def a g{ag}f e4 | d2(3edc AF GA2 GAG F D {E}D2  E D4 ||
+S:https://www.folktunefinder.com/tunes/124814
+S:http://ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book3.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book3.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book3.abc
+S:http://www.firepowr.com/abc/Book3.abc
+S:http://www.firepowr.com/abc/Book3abc.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book3.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book3.abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

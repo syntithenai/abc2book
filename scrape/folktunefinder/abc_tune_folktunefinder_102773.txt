@@ -1,0 +1,24 @@
+X:14
+T:Beaton's Reel
+R:reel
+D:Highland Classic, Carl MacKenzie, 2007 S:http://www.cranfordpub.com/recordings/carl.htm
+Z:psc -  http://www.cranfordpub.com
+L:1/8
+Q:333
+M:C|
+K:GDor
+F|DGGF G2 DE|F2 FD CA,FC|DGGF GABc|dDcA G2 G:|
+||A|Ggga gfdg|fdcA FGAF|Ggga gfdg|bag^f g/g/g ga|
+bgdg afcB|Afcf AFAc|BAGA Bcdf|AFcA G2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/102773
+S:http://cranfordpub.com/tunes/abcs/carl.abc
+S:http://www.cranfordpub.com/tunes/abcs/carl.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

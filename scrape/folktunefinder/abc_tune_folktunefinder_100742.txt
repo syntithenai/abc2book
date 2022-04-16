@@ -1,0 +1,22 @@
+X: 15
+T:Echo
+R:hornpipe
+D:Kevin Crawford: D Flute Album
+Z:id:hn-hornpipe-75
+M:C|
+L:1/8
+K:D
+(3gfe|dAFA D2FA|dfec dcBc|A2ce  (3ABA ce|faec dcBA|
+dAFA dAFA|dfec dcBA|~g3 b afdf|eABc d2:|
+|:d2 |dg~g2 bg~g2|dgbg agfg|A2ce  (3ABA ce|faef dcBA|
+dg~g2 bg~g2|dgbg agfa|gfgb afdf|eABc d2:|
+S:https://www.folktunefinder.com/tunes/100742
+S:http://www.alfwarnock.info/alfs/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

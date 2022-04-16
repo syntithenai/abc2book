@@ -1,0 +1,26 @@
+X: 69
+T: O'CAROLAN'S LAMENT
+B: O'Neill's 69
+M: 3/4
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Mournful"
+K:Dm
+(FG) \
+| A2 (A>B AG) | A2 d2 (F>G) | A2 (A>B A>^F) | G4 (=F>G) |
+| A2 (A>B AG) | A2 d2 (d>e) | f2 e>d ^ce | d4 ||
+|| (d>e) \
+| f2 (e>d ^ce) | d=c A2 (d>e) | f2 (e>d ^ce) | d4 (d>e) |
+| f2 (e>d ^ce) | d=c A2 ^FG | A2 G=F (E>F) | D4 ||
+S:https://www.folktunefinder.com/tunes/128067
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0051-0100_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0069_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1658
+T: The Light In the Window
+M:4/4
+L:1/8
+B:O'Neill's 1658
+N:"collected by J.O'Neill"
+K:G
+B>c \
+| d>cB>d c>AF>A | G>FG>A G2 A>B | c>BA>B c>BA>G | F>GE>F D2 B>c |
+| d>cB>d c>A F>A | G>gf>a g2 d>e | f>dB>d c>AF>A | G>FG>A G2 :|
+|: B>c \
+| d>Bb>g d>BG>B | d>cA>B G2 A>B | c>Aa>g f>ed>c | B>dc>e d2 B>c |
+| d>Bb>gd>BG>B | d>gf>a d2 d>e | f>dB>d c>AF>A | G>FG>A G2 :|
+S:https://www.folktunefinder.com/tunes/101274
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

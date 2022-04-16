@@ -1,0 +1,18 @@
+X:1
+T:some made up tune
+M:4/4
+K:Dminor
+abcd|efga|[K:\
+M:3/4
+G]def|gab|
+...which would need to cache part of the first line (the &quot;[K:&quot; part)
+S:https://www.folktunefinder.com/tunes/121085
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07766.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

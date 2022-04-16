@@ -1,0 +1,27 @@
+X: 5
+P: Ob-la-di Ob-la-da
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: G
+"A"\
+[|"G"B2B BAG | "D7"FA2 A3 | ccc cBA | "G"G6 \
+| d2d dcB | "C"cde- edc | "G"BcB "D7"ABA | "G"G3 zGB |]
+"B"\
+[|"G"dGB dGB | "Bm"d2g- "Em"g2d- | "G"dBc "D7"BA2 | "G"G3 zGB \
+| "G"dGB dGB | "Bm"d2g- "Em"g2d- | "G"dBc "D7"BA2 | "G"HG3 z2G |]
+"C"\
+[|"C"Gcd ede | gce- eGB | "G"B2B "Am"A2A | "G"G2G "G7"=F2F \
+| "C"Ecd ede | gce- e2G | "G"BBB cB2 | "D7"A6 |]
+S:https://www.folktunefinder.com/tunes/106466
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/BeatlesP1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

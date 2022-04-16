@@ -1,0 +1,20 @@
+X:2
+T:An Buachaill Dreoite
+Z: id:dc-hornpipe-2
+M:C|
+L:1/8
+K:G Major
+GF|DGGB d2GB|d2GF Gc (3AGF|DGGB d2GB|dBcA F2GF|!
+DGGB d2GF|DGGF G2Ge|fgaf gbag|fdcA G2:|!
+GA|B2BG c2cA|d2GF G2GA|B2BG c2cA|d2DE F2GA|!
+B2BG c2cA|d^cde f2 (3def|g2gf gbag|fdcA G2:|!
+S:https://www.folktunefinder.com/tunes/100798
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

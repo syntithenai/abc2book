@@ -1,0 +1,26 @@
+X: 15
+T:Dingle Regatta
+R:slide
+C:Folk Camp, via EF
+S:Nottingham Music Database
+O:Aharon's Slide #3
+M:12/8
+L:1/8
+Q:3/8=100
+K:G
+"G"d^cd e2d "Em"BAB d2B|"Am"A2A "D7"G2d "G"B2A GBc|d^cd e2d "Em"BAB d2B|
+"Am"A2a "D7"B2A "G"G3 G3:|d3 def "Em"g3 gfg|"Am"a3 "D7"aga "G"b2a "D7"gfe|
+"G"d3 def "Em"g3 gfg|"Am"a2g f2e "D7"def "G"g3:|gfg dgd BdB GBG|
+"D7"FGA DEF "G"G2B "D7"def|"G"gfg dgd BdB GBG|"D7"FGA DEF "G"G3 -G3:|
+S:https://www.folktunefinder.com/tunes/124991
+S:http://trillian.mit.edu/~jc/music/abc/mirror/squeezebox.ncf.ca/o%2527connell%2527s.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

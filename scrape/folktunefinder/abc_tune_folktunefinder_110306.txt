@@ -1,0 +1,26 @@
+X:4
+T:In Nomine
+C:Orlando Gibbons 1583-1625
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+% the time values are doubled, so change this to 1/2 once proofreading is done.
+L:1/2
+K:D min bass
+z8 z8 z2 z d f2 c A d3 d 
+G4 z d f2 c2 e2 z A d2 A F A2 z d f2 c A d2 z A c2
+%P. 43
+F4 z d f c3/4 d// e/ f/ g G3/4 A// B/ c/ d/ e/ f/ F/ B A G z/ e/ g2 c2 e > d ^c d a > g f/ e/ d f2
+c A d2 z A c2 B > c d d f2 c A d2 A c B > A G2 F2 F > G A2 A4
+z f e3 e A3 f e g e2 d4 z c =B2 A3 A d2 z f
+e3 e d2 d2 g e g2 d2 z B A F2 B f > e d/ c/ B F B A F c c G2
+d4 c A z c B3 B A4 d b a2 g2 d3 d B G Hd4 |]
+S:https://www.folktunefinder.com/tunes/110306
+S:http://www.laymusic.org/music/gibbons/nomine/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

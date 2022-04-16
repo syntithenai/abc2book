@@ -1,0 +1,29 @@
+X:251
+T:the Mathematician
+O:scotland
+R:Hornpipe
+M:4/4
+C:J. Scott Skinner
+K:D
+G|\
+F>G ^G>A f>d A>F|G>A _B>=B g>e B>d|\
+c>b a>g f>e d>c| (3dfe (3dcB (3ABA (3GFE|
+F>G ^G>A (3fed (3cBA|G>A _B>=B (3gfe (3dcB|\
+(3cba (3gfe (3dcB (3ABc|(3dAf (3dAF D3||
+a|\
+d'>a f>d A>F D>=C|B,>^D E>G B>e g>b|\
+e'>b g>e B>G E>D|C>E A>c e>a c'>e'|
+f'>d' a>f d>A F>D|G>B d>g b>d' g'>b|\
+(3ad'c' (3bag (3fgf (3gfe|(3dfa (3d'af d3|]
+S:https://www.folktunefinder.com/tunes/100543
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

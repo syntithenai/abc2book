@@ -1,0 +1,40 @@
+X:305
+T:Flat Cap, 1st setting
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000316.html
+%%ID:00000316
+K:F
+P:1
+DEFG A2 D2 FG A2 | c2 G4 C2 EFGE |\
+DEFG A2 D2 FG A2 | d2 A4 GF EFGE ||
+P:2
+DEFG ABAG ABAG | c2 C4 C2 EFGE |\
+DEFG ABAF ABAF | d2 A4 GF EFGE ||
+P:3
+f2 d2 g2 e2 f2 d2 | g2 e4 c2 efge |\
+f2 d2 g2 e2 f3 e  | d2 A4 GF EFGE||
+P:4
+defd efge fgaf | g2 e4 c2 efge |\
+defd efge agfe | d2 A4 GF EFGE ||
+P:5
+F2 A2 G2 B2 F2 A2 | c2 G4 C2 EFGE |\
+F2 A2 G2 B2 F2 A2 | d2 A4 GF EFGE |]
+S:https://www.folktunefinder.com/tunes/110777
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

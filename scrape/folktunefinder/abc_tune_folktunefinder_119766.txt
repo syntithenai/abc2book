@@ -1,0 +1,24 @@
+X: 28
+T:Muckin' o' Geordie's Byre, The
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:D
+d|:"D"A>AA AFA|d2 e f2 a|"G"g2 e "D"f2 d|"G"efd "A"B2d|
+"D"A>AA AFA|d2 e f2 g|afd "A"e2 f|1 "D"d3 dcB:|2 "D"d3 def|:
+"G/Em"gdg gag|"D"fdf fgf|"A"eAe efg|"D"fed "G"B2d|
+"D"A>AA AFA|d2 e f2 g|afd "A"e2 f|1 "D"d3 def:|2 "D"d3-d2|
+S:https://www.folktunefinder.com/tunes/119766
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

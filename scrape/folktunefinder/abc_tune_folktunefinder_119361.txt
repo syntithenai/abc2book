@@ -1,0 +1,42 @@
+X:14
+T:Gr\aatvalsen
+C:Ale M\"oller 
+%A:Sweden
+R:Waltz
+Z:copied by Bob Wyttenbach from Buffalo Gap Scandi Week 2000 tunebook
+N:transcribed 6/89 by Andrea Hoag (her notes say harmony by Per Gudmundson)
+M:3/4 
+L:1/8 
+%Q:1/4=160
+K:A %Transposed from G
+P:A
+V:1
+GA|B4B2|B4B2|B3AG2|E4AB|c4e2|d4c2|B6-|
+V:2
+EF|G3A ((3GFE)|G3A ((3GFE)|G3FE2|B,4CE|A4{B}c2|B4A2|G3FE2|
+V:1
+B3GAB|c4e2|d4c2|B3AG2|E3GBc|B4Bc|B3AG2|[1[E6G6]|E4:|[2[E6G6]||
+V:2
+[B,4E4]CE|A4{B}c2|B4A2|G3FE2|[B,6E6]|"*"[D3F6](E DC)|[D3F3][CF](DE)|[1E6|E4:|[2E6||
+P:B
+V:1
+G2A2B2|c4c2|c3BA2|d4c2|B3GAB|c4e2|f4e2|B6-|
+V:2
+E2F2G2|[A4A,4]A2|[A3A,3]GE2|[F4A,4]A2|([B,3E3][B,E]) CE|A4{B}c2|d4c2|G3FE2|
+V:1
+B3GAB|c4e2|d4c2|B3AG2|E3BBc|B4Bc|B3AG2|[1[E6G6]:|[2[E4G4]||
+V:2
+[B,6E6]|A4{B}c2|B4A2|G3FE2|[B,6E6]|[D3F6](E DC)|([D3F3]CDE)|[1E6:|[2E4||
+W:*harmony may be an octave higher here
+S:https://www.folktunefinder.com/tunes/119361
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002Bb.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

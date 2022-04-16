@@ -1,0 +1,29 @@
+X:274
+T: Sanyue li lai hao fengguang
+N: C0451
+O: China,Taiwan
+S: IV, 641]
+N: Anmerkung von Nr. 443 gilt auch hier!
+R: Shange, Kejia shange, Shangezai]
+M: 2/4
+L: 1/16
+K: E
+G2c6 | G2c4G2 | ^EGG=EC4
+G2c2c2G2 | C2E4GE | C6z2
+G3cc2G2 | C2E4G2 | c2cec2z2
+c2G2ceg2 | ^B2c4B2 | G6z2
+c2G2c3G | c2c4G2 | G2^EGC4
+G2c2c2G2 | C2E4GE | C8
+G3cc2G2 | C2E4G2 | c2cec2z2
+c2G2ceg2 | ^B2c4B2 | G6z2
+S:https://www.folktunefinder.com/tunes/112701
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, kejia shange, shangezai]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

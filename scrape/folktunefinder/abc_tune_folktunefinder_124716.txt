@@ -1,0 +1,23 @@
+X: 99
+T:Paddy McNamara's Reel (#295)
+M:4/4
+L:1/8
+S:Clinton's Irish Melodies 1840
+R:Reel
+K:G
+B|c2 sBcs A2 a2|sefsge dBGB|c2 Bc A2 ge|dBGB A2 A:|
+|:B|cecA (3cde cA|BdBG (3Bcd BG|cecA cege|dBGB A2 A:|
+|:B|cdef sgasge|gage dBGB|cdef gbge|dBGB A2 A:||
+S:https://www.folktunefinder.com/tunes/124716
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/PaddyMcNamarasReel295.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0295.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

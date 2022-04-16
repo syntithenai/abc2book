@@ -1,0 +1,21 @@
+X:65
+T:Blackthorne Stick
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:6/8
+K:G
+d| "G"gfg "C"ege| "G"dBG "C"AGE| "G"DGG "D7"FGA| "G"BAG "D7"A2d|\
+"G"gfg "C"age| "G"dBG "C"AGE| "G"DGG "D7"FGA| "G"BGG G2:|
+d| "G"edd gdd| "G"edd gdd| "G"ede "C"gfe| "Am"dcB "D7"A2d|\
+"G"gfg "C"age| "G"dBG "C"AGE| "G"DGG "D7"FGA| "G"BGG G2:|
+S:https://www.folktunefinder.com/tunes/120947
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

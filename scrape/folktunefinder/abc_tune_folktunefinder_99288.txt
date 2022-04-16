@@ -1,0 +1,29 @@
+X:11506
+T:Mueira de Boal
+R:mueira
+C:Trad.
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+GAB|:cBA GAG|E2C G2G|GAG FEF|
+G2G GAB|cBA GAG|E2C G2G|GAG FED|
+[1 C3 GAB:|[2 C3 CDE||:CDE CDE|F2F DEF|
+DEF DEF|G2G CDE|CDE CDE|F2F DEF|
+GAG FED|[1 E2C CDE:|[2 C3 CDE||:F3 F2F|
+EDC E2E|EDC B,CD|EDC CDE|F2F AGF|
+EDC E2E|EDC B,CD|[1 C3 CDE:|[2 C6-||
+C6-|C z5|
+S:https://www.folktunefinder.com/tunes/99288
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Mueira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

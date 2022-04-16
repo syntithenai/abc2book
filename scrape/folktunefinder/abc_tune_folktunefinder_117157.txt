@@ -1,0 +1,24 @@
+X:110
+T:Steel Guitar Rag
+C:Leon McAulif
+M:4/4
+L:1/4
+K:G
+DD/2E/2G|:"G"B4-|BD D/2E/2 G| B4-|BD D/2E/2G|
+B2BA|BE"D7"DB,|"G"G,4-|G,DD/2E/2G|
+B3B|"C"_B2BA|GDD/2E/2G|"G"B2BA|(GE)"D7"DB,|"G"G,4-|G,3B|
+"C"ccAG|E3c|"G"B2(GE)|D3D|"A7"^CAEC|AE^C2|
+"D7"FdAF|dAFB|"C"c2AG|E3c|"G"B2(GE)|D3D|
+"A7"^CAEC|"D7"(dA)FD|
+"G"G4-|G3"F#"^A|
+"G"BgdB|gdB"F#"^A|"G"BgdB|g3"F#"^A|"G"BgdB|gdB^E|
+"D7"FdAF|d3"F#"^A|"G"BgdB|gdB^D|"C"EcGE|"Cm"c3/2c/2 c/2 c/2 c|
+"G"B2BB|"D7"d2dd|1."G"g4-|gDD/2E/2G:|2."G"g4-|g||
+S:https://www.folktunefinder.com/tunes/117157
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

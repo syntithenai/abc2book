@@ -1,0 +1,22 @@
+X: 8
+T:Six-Bar Jig, The
+R:slip jig
+C:Tony Upton, 6/2/98
+M:9/8
+L:1/8
+Q:3/8=140
+K:Hp
+%%MIDI program 109
+d2c BFB BFB|BFB d2c AEA|AEA AEA ecA|d2c BFB BFB|
+dcd fef ecA|[1 cAE B3 B2c:|[2 cAE (B3B3)||
+|:d2c BFF BFF|BBB d2c AEE|AEE AAA ecA|dcB BFF BFF|
+d2d def ecA|[1 cAE B3 B2c:|[2 cAE (B3B3)||
+S:https://www.folktunefinder.com/tunes/112407
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Tony.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

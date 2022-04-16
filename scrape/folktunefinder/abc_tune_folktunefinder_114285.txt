@@ -1,0 +1,22 @@
+X: 28
+T:One More Dance \& Then
+% Nottingham Music Database
+S:Mick Peat
+M:2/4
+L:1/4
+K:G
+B/2c/2 |:"G"d3/4e/4 d/2B/2|"G"g B/2c/2|"G"d3/4e/4 "Em"d/2B/2|"Am"c/2 AB/4c/4\
+|"G"d3/4e/4 "D"d/2B/2|"Em"g/2f/2 "Bm"e/2d/2|"C"e/2d/2 "D"c/2B/2|[1 "G"B3/2 B/4c/4:|[2 "G"B3/2 A/4B/4|
+"D"c/2A/2 f/2A/2|"D"a/2c/2 B/2A/2|"G"B/2G/2 d/2B/2|"G"g/2B/2 A/2G/2|\
+"A"a/2g/2 f/2e/2|"D"d/2c/2 B/2A/2|"G"G/2c/2 "D"B/2A/2|"G"G3/2:|
+S:https://www.folktunefinder.com/tunes/114285
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

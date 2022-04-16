@@ -1,0 +1,27 @@
+X:40
+T: Horse's Leotard
+S: J.Kelly - P.O'Brien
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Edor
+D |: E2 E BAF | ABc dcd | E2 E BAF | AFB AFD |
+E2 E BAF | ABc d2 e | fed edB |1 AFB AFD :|2\
+dcB AFA ||
+Bcd e2 e | fed e2 d | Bcd e2 f | gfe dBA |
+|1 Bcd e2 e | fed e2 d | ABc d2 B | AFB AFD :|
+|2 gfe fed | edB d2 B | ABc d2 B | AFB AFD ||
+S:https://www.folktunefinder.com/tunes/123152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

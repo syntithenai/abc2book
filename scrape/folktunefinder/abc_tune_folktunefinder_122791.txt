@@ -1,0 +1,23 @@
+X: 1
+T:The South Wind
+M:3/4
+R:Air
+A:Ireland
+K:G
+d2|"G"B3 AG2|B3 cd2|"D"A3 BA2|A4 d2|"G"B3 AG2|
+"C"E3 DE2|"G"G4 "C"G2|[1"G"G4:|[2"G"G4 (3def||
+g2 g2 "D"af|"C"g2 fg "D"ef|"G"d2 d2 "A"e^c|"D"d4 c2|
+"G"B3 AG2|B3 cd2|"A"A3 BA2|"D"A4 (3def|"G"g2 g2 "D"af|"C"g2 fg "D"ef|
+"G"d2 d2 "A"e^c|"D"d4 c2|"G"B3 AG2|"D"A c3 F2|"G"G3 A "C"G2|"G"G4||
+S:https://www.folktunefinder.com/tunes/122791
+S:http://geocities.com/w_macaulay/tunes1.txt
+S:http://www.geocities.com/w_macaulay/tunes1.txt
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

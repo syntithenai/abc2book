@@ -1,0 +1,23 @@
+X:74
+T: Herr von Falkenstein
+N: Q0021B
+O: Mitteleuropa, Deutschland (BRD) , Gegend von Lippe
+N: Anhaengsel in der letzten Zeile.
+R: Ballade, Gefangenschaft, Ehe, Befreiung
+M: 6/8
+L: 1/8
+K: F
+F | cdcAGF | Bcdc2
+F | c2cfed | d3c2
+F | cdcAGF | Bcdc2
+F | c2cfed | d3c2c | G3Fz2
+S:https://www.folktunefinder.com/tunes/110012
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, gefangenschaft, ehe, befreiung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

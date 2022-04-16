@@ -1,0 +1,29 @@
+X: 100
+T:Original Varsoviana,The. WI.100
+T:Varsoviana,The Original. WI.100
+M:3/4
+Q:120
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Waltz
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:C
+E>F|G2c2A2|^G4E>F|E2d2B2|"^"A4E>F|!
+E2e2c2|"^"B4d>f|e>dc2B2|A4:|!
+|:G2|{f}e>^de2G2|{f}e>^de2G2|{f}e>^de2f2|"^"d4G2|!
+{g}f>ef2G2|{g}f>ef2G2|{g}f>ef2g2|e4:|!
+|:e2|(de) (cd) (Bc)|"^"A4^f2|e^fdeBc|B4:|!
+|:G2|{f}e>^de2f2|{a}g>^fg2^g2|a>^ga2b2|"F"c'4e2|!
+{f}e>^de2f2|{a}g>fg2^g2|a>gf2d2|c4:|]
+S:https://www.folktunefinder.com/tunes/121186
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

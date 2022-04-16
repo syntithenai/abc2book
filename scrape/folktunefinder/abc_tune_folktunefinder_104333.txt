@@ -1,0 +1,30 @@
+X: 52
+T:Farewell to Ireland (Am)
+M:C|
+L:1/8
+S:Tom Creegan
+R:reel
+Z:Piper's version. Fiddlers will play the first part: _ 
+B,|A,3B,
+Z:EDEF|GEDB, G,A,B,G,|A,G,(3A,B,D E2AF|GEDB, EA,~A,2|!
+A,G,A,C E2EF|GEDB,Z:G,A,B,g|ed (3efg abaf|(3gfe dB BAA:|!
+K:ADor ~A3B ~e3f|(3.g.fe dB GABG|~A3B ~e3f|gedf eAAG|!
+~A3B ~e3f|(3.g.fe dB GABg|ed (3efg ~a3f|(3.g.fe dB BA ~A2:|!
+ea~a2 agea|~g3agedB|ea~a2 agef|gedB BA~A2|!
+agef ~g3e|dedB GABd|cA~A2(3.B.cd ef|gedB BA ~A2:|!
+eA~A2 eA~A2|BG~G2 (3BAG Bd|eA^ce ~a3f|(3.g.f.e dB BA ~A2|!
+eA ~A2 efe^c|dedB GABd|cA~A2 (3Bcd ef|gedB BA ~A2:|!
+ae^ce aece|gdBd gdBd|ae^ce ~a3f|(3.g.fe dB BA~A2|!
+agef ~g3 e|dedB GABd|cA~A2 (3.B.^cd ef|gedB BA~A2:|
+S:https://www.folktunefinder.com/tunes/104333
+S:http://doctorgary.net/reels.html
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

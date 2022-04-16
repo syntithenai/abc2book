@@ -1,0 +1,24 @@
+X:58
+T:Stack of Wheat
+Z: id:dc-hornpipe-52
+M:C|
+L:1/8
+K:G Major
+BA|GEDE GABG|(3ABA GA Bdef|gedB GABG|dBAG E2BA|!
+GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2:|!
+(3Bcd|edBd edgd|edBd e2 (3def|gedB GABG|dBAG E2|!
+[1 (3Bcd|edBd edgd|edBd e2 (3def|gedB GABG|AGEF G2:|!
+[2 BA|GEDE GABG|(3ABA GA Bdef|gedB GABG|AGEF G2|]!
+S:https://www.folktunefinder.com/tunes/100854
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:14
+T:Burt Feintuch
+R:jig
+C:Kinnon Beaton
+O:20th century Scottish pipe tune
+B:100 Orignal Fiddle Tunes (Kinnon Beaton,2003)
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:D
+A|d3 fed|BGB A3|aba afd|c2 e efe|
+d3 fed|BGB A3|aba afd|cec d2:|
+|:g|f a2 afd|gab afd|aba afd|Ace gfe|
+[1{f/g/}a3 afd|gab afd|aba afd|cec d2:|
+[2d3 fed|BGB A3|aba afd|cec d2|]
+S:https://www.folktunefinder.com/tunes/120452
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

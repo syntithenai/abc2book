@@ -1,0 +1,33 @@
+X:13
+T:Fars polka
+R:polka
+C:Arr.: S. Englund
+H:Taught at the Nordic Heritage Museum June 1997 by Arne Helsing
+B:From "Vexala L=E5tar" music book by Arne Helsing
+Z:from Scandia
+M:2/4
+L:1/16
+Q:1/4=125
+K:G
+|: "G" G2Bd g2fe \
+|      d2G2 B2G2 \
+| "D7" D2FA c2{d}BA \
+|  "G" G2A2 B2G2 \
+| G2Bd g2fe \
+| d2G2 B2G2 |
+| "D7" D2FA c2{d}BA \
+|  "G" G2B2 G2z2 \
+:: "G" d2dc B2g2 \
+| "Am" eged c2a2 \
+| "D7" fgfe d2ef \
+|  "G" g2d2 g2z2 :|
+S:https://www.folktunefinder.com/tunes/114312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

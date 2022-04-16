@@ -1,0 +1,27 @@
+X: 1
+T: Ap Shenkin
+C: J-7
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+d/c/| "G"B2B Bgf| "C"e2e efg| "G"ded dcB| "D"cAA A2d/c/|
+      "G"BcB Bgf| "C"efe efg| "G"ded "D"cBA| "G"G2B G2 :|
+\
+g/a/| "G"b2g "D"a2f| "G"gfg dcB| "C"cde "G"dgB| "D"BAA A2g/a/|
+      "G"b2g "D"a2f| "G"gfe "D"agf| "G"bag "C"fge| "G"dgf "D"edc|
+      "G"B2B Bgf| "C"e2e efg| "G"ded dcB| "D"cAA A2d/c/|
+      "G"BcB Bgf| "C"efe efg| "G"ded "D"cBA| "G"G2 B G2 |]
+%%text 9/1/98.  Also known as "The Tempest".
+S:https://www.folktunefinder.com/tunes/122665
+S:http://roaringjelly.org/music/jig/J007_Ap_Shenkin.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J007_Ap_Shenkin.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J007_Ap_Shenkin.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

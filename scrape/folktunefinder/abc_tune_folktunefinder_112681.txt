@@ -1,0 +1,30 @@
+X:254
+T: Tongzi kaihua duo dui duo
+N: C0400
+O: China,Jiangxi, Yongxiu
+S: IV, 203]
+N: neuer Text, alte Melodie. Besteht nur aus drei Toenen
+N: Einige Verzierungen, Glissandi.
+R: Shange, Tuo shange. Xin minge]
+M: 2/4
+L: 1/16
+K: C
+c2A2A4 | G4A4
+A2c2A4 | G4A4
+A2c2A2c2 | c2A2A4 | G4A4
+A2c2A2c2 | c2A2A4 | G4A4
+A2c2A2c2 | c2A2A4 | G4A4
+A2c2A2c2 | A3cA2c2 | A2c2A4 | G8 | A8
+S:https://www.folktunefinder.com/tunes/112681
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tuo shange. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

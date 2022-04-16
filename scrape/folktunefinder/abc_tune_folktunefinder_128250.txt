@@ -1,0 +1,24 @@
+X: 32
+T:Old King's Reel
+M:4/4
+L:1/8
+R:Reel
+K:Am
+"Am"E<A,A,B, A,G,A,A|"Am"E<A,E^F "G"GEDB,|"Am"A,/A,/A, A,B, "C"C/C/C CD|
+"Em"EGDC "G"B,G,G,A:|
+K:D
+|"A"cA A/A/A cded|"A"cABc "G"dBGB|"AM"=ceAB "C"=c2 ef|"Em"gage "Bm"d=cBe
+|
+"A"cA A/A/A cded|"A"cABc  dBGB|"C"=c2 BG "Am"AcBA|"Em"GED=C "G"B,G,G,B,|
+|
+S:https://www.folktunefinder.com/tunes/128250
+S:http://home.usit.net/~bhooper/scot1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

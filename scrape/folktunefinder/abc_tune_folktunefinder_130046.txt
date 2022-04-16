@@ -1,0 +1,31 @@
+X:2
+T:Auprs de vous
+C:Claude de Sermisy
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+K:A min -8va
+%%MIDI transpose -12
+c2 e f g G G/ A/ B/ c/ d/ e/ f/ g/ a/ b/ a > g g2 ^f "A"g c d e
+f f e2 d G A A c c B2 A/ B/ c/ d/ e/ f/ g > f e/ d/ c/ d/ e2
+d/ c/ B/ A/ B "B"A A A A c2 z c c c B c F/ G/ A/ B/ c/ d/ e/ f/ g
+c > B A/ G/ A/ G/ F/ E/ F2 "C"E A A/ G/ A/ B/ c d A A c/ B/ c/ d/ e e
+A/ B/ c/ d/ e A/ B/ c/ d/ e/ f/ g/ e/ f/ g/ f/ e/ d/ c/ d2 "D"c2 f4 e3 e d > c
+d/ e/ f2 e/ d/ e/ d/ g2 ^f g c d e f2 z c d e "E"f f 
+e > d c B A/ B/ c/ d/ e/ f/ g > f e/ d/ c/ d/ e/ c/ d/ c/ B/ A/ B c > B A/ G/ F/ G/ A/ B/
+c/ B/ A/ B/ c/ d/ e/f/ g G/ A/ B/ c/ d/ e/ f F/ G/ A/ B/ c/ d/ e/ f/ g2 ^f "F"g c d
+e f f e2 d G A A c c B2 A/ B/ c/ d/ e/ f/ g > f e/ d/ c/ d/ e/ c/ d/ c/ B/ A/ B2 
+HA4 |]
+S:https://www.folktunefinder.com/tunes/130046
+S:http://www.laymusic.org/music/sermisy/aupres/allparts.abc
+S:http://www.laymusic.org/music/sermisy/aupres2/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

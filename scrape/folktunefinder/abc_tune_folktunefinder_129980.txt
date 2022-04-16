@@ -1,0 +1,30 @@
+X: 19
+T:Farandole di Tarascare
+O:France
+A:Provence
+C:Trad.
+C:2e partie M. Marchal
+R:Farandole
+M:6/8
+Q:3/8=90
+K:Gmaj
+V:1
+GBd|GBd gfe|(d2d) ece|dcB Adc|B2G GBd|GBd gfe|(d2d) gfg|(a2a) gfe|
+d3 ded|dcB Adc|B2G B2B|B2d dcB|A3 ded|dcB Adc|B2G gfe|edB dcA|
+G3 ||[K:Cmaj]gag|g2e gag|g2e eee|edc dcB|d2c gag|g2e gag|g2e eee|edc dcB|c3|]
+V:2
+B2B| B2A B2c| (B2B) c3| A2G f2e| d2breathB B2B| B2A B2c| (B2breathB) B3| c3 edc| 
+B2z .f2.f|.f2.d .f2.a|.g2breath.g .d2.d| .d2.B .A2.G| breathF3 .f2.f|.f2.d .f2.a|(g2breathg) e2a| .g2.g .f2.f|
+g2z ||[K:Cmaj] e2e|Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g| (f2e) e2e| Le2 ((3c/2e/2g/2) e2e| (Le2c) g2g| (g2e) f2g|e3|]
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/129980
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 26
+T:Smash the Windows
+% Nottingham Music Database
+S:EF
+M:6/8
+Q:3/8=120
+R:jig
+K:D
+A|"D"DED F2A|"D"d2f "A"ecA|"G"G2B "D"F2A|"Em"E2F GFE|
+"D"DED F2A|"Bm"d2f "A"ecA|"G"Bgf "A7"edc|"D"d3 d2::
+a|"D"a2f f2d|"D"A2a agf|"Em"g2e e2c|"A7"A2g gfe|"D"f2d "A7"g2e|
+"D"a2f "G"bag|"D"fed "A7"edc|"D"d3 "A7"d2:|
+S:https://www.folktunefinder.com/tunes/129915
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

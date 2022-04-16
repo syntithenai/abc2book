@@ -1,0 +1,28 @@
+X: 123
+T: Humours of Kesh, The
+C: J-53
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+"G"BGG Bcd| "C"ecG "D7"efg| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BGG Bcd| "C"ecc "D7"efg| "G"dcB "Em"gdB| "D7"cAF "G"G3:|
+\
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABd|
+"G"gfg bag| "D7"fed ^cde| "C"dcB "Am"gdB| "D7"cAF "G"G (3Bcd|
+"G"gfg "Em"bag| "Am"fed "D7"^cde| "G"dcB "Em"gdB| "Am"A3 "D7"ABc|
+"G"BdG Bcd| "C"e2c "Am"efg| "D7"dcB gdB| cAF "G"G3|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/106878
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

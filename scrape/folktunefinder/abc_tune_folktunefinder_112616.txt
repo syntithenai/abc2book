@@ -1,0 +1,40 @@
+X:189
+T: Dui hua
+N: C0313
+O: China,Shandong, Liaochen
+S: III, 378]
+N: Voellig anders als andere Dui Hua.
+N: Diese Sammlung enthaelt mit Stand 1987 wenigstens 32 Aufnahmen
+N: mit dem Titel "Dui hua"
+N: C0046, C0495, C0136
+N: Einige Verzierungen. Phrasierung in Phrase 11/12 ueberpruefen!
+R: Xiaodiao. Siji huahui]
+M: 2/4
+L: 1/16
+K: G
+e2e2B2d2 | e4d2B2 | e2edB2d2 | e2d2d2B2
+e2e2B2d2 | e4d2B2 | e2e2e2B2 | A2A4G2 | E2E4D2 | E8
+e6d2 | e4e4 | e2edB2d2 | e4d2B2
+B2E2G2A2 | B2B2B2B2 | d2B2A2G2 | E2E4D2 | E8
+G6A2 | B2A2B4 | B2B2A2G2 | E2E4D2 | E8
+G3AB2B2 | A2G2F4 | E2E4D2 | E8
+e2e2B2d2 | e4d2B2 | e2edB2d2 | e2d2d2B2
+B2B2B2B2 | B2B2A2G2 | E2E4D2 | E8
+e2edB2d2 | e4d2B2 | e2edB2d2 | e2d2d2B2
+B2B2B4 | B2B2B2B2 | d2B2E2E4D2 | E8
+B3de4 | B3de2z2 | e3dB2d2 | e2d2d2B2
+B3BA2G2 | E4E2G2 | B3BA2G2 | E4
+E2G2 | B4A2G2 | E4E4
+G6A2 | B4B4 | A4d2F2 | E2E4D2 | E8
+S:https://www.folktunefinder.com/tunes/112616
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

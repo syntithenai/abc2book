@@ -1,0 +1,37 @@
+X:7224
+T:Hornpipe,A. GS.089
+M:2/2
+L:1/8
+Q:160
+S:George Spencer m/s, Leeds,1831
+R:Hornpipe
+O:England
+A:Leeds
+N:"$" = the usual S with a line through it for  repeat from here.  The
+N:second $ is written over the double bar.  The first full bar has a line
+N:over it and the word 'biss' - the first 's' written as an old-style
+N:long 's' This (I assume!) is 'bis' - twice, so I have written the bar
+N:out twice.  The bar also has repeat marks at the end.  As written the
+N:music has 8 bars A music and (with repeats) 16 bars B music.
+H:1831
+Z:vmp.Cherri Graebe
+K:D major
+:"$" (3(ABc) | dcdc dfaf | dcdc dfaf | dfba gfed |1 cdBc ABcA :|
+|2 "$" cdec d2 |!
+|:fg | afaf bagf | gfgb agfe | fdef gfed | cdBc A3A |!
+ defd BcdB | efge cd""ec | agba gfed | d2d2d2 :||
+S:https://www.folktunefinder.com/tunes/108731
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

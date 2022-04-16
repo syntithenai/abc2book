@@ -1,0 +1,31 @@
+X: 3
+T: Reel St. Antoinne (R-132)
+I: Reel St. AntoinneR-132Areel
+R: reel
+M: C|
+K: A
+"A"a3a aece| aaa2-aece| agfe "A#o"dcBA| "Bm"GABc "E7"defg|
+"A"a3a aece| agab aece| agfe "Bm"dcBA| "E7"GABc "A"A4 :|
+|:\
+"A"c3c cAce| dcBA "A#o"GABc| "Bm"d3d dBdf| edcB AGAB|
+"F#m"c3c cAce| "Bm"dcBA GABc| "E7"defg afed| cdBc "A"A4 :|
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%rightmargin 2.5cm
+%%scale .6
+%%staffwidth     15.50cm
+%%textfont       Times-Roman 10
+S:https://www.folktunefinder.com/tunes/113286
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

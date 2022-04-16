@@ -1,0 +1,27 @@
+X: 2
+T:Billy of Tea, The
+M:3/4
+L:1/4
+Q:80
+K:D
+F/2G/2|"D"A>BA|AFA|"G"dcB|"D"A2 A/2G/2|
+FFF|"Bm"AGF|"Em"E<EE|"A"E2 F/2G/2|
+"D"ABA|AF>A|
+"G"dcB|"D"A2A/2G/2|
+F<AD|"G"G<GF/2F/2|"A"EDC|"D"D3-|DzA,|
+"D"DDD|DGF|"A"EA,A,|A,2E|
+EEE|EFG|"D"GFF|F2D/2E/2|
+FEF|"G"GFG|"D"A<GA|"G"B2A/2G/2|
+"D"FAD|"Em"G<GF|"A"E<DC|"D"D3-|Dz:|
+S:https://www.folktunefinder.com/tunes/120500
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

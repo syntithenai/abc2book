@@ -1,0 +1,23 @@
+X:46
+T: Der Tannhaeuser
+N: Q0015D
+O: Mitteleuropa, Oesterreich, Kaernten, Friesach
+R: Ballade, Wallfahrt, religioes
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2A2A2 | B2d2A2
+B2 | c2AAB2G2 | A4z2
+e2 | d2B2A2G2 | F2A2G2
+A2 | BBB2A2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/109984
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, wallfahrt, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

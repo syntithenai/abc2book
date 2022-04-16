@@ -1,0 +1,23 @@
+X:475
+T: Hunt the Cat
+S: "Roche Collection of Traditional Irish Music" [III/35/114]
+L: 1/8
+M: 6/8
+R: jig
+K: Ddor
+DED D2A | AGE c3 | DED D2A | AGE E2D |
+DED D2A | AGE c3 | ABc d2B | AGE E2D :|
+dcA AGE | AGE c3 | dcA AGE | AGE E2D |
+dcA AGE | AGE c3 | ABc d2c | AGE E2D :|
+S:https://www.folktunefinder.com/tunes/123239
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

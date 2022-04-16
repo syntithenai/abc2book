@@ -1,0 +1,38 @@
+X:50
+T:Pastourette
+C:trad.
+N:can be played alternatively in C and G
+A:Maine
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=110
+K:C
+c>dee|dfe2|cece|ed/2c/2dd|c>dee||
+M:3/4
+dfe2de/2d/2||
+M:2/4
+c4||
+W:
+W:Pastourette viens donc l
+W:L ou l ou l bergerette
+W:Pastourette viens donc l
+W:L ou l-bas!
+W:
+W:Non, non, non, je n'irai pas
+W:L ou l ou l bergerette
+W:Non, non, non, je n'irai pas
+W:L ou l-bas!
+S:https://www.folktunefinder.com/tunes/104872
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf02.abc
+S:http://www.tradfrance.com/matf02.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

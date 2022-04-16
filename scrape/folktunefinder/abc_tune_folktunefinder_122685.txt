@@ -1,0 +1,20 @@
+X:3
+T:Criss Cross
+T:to the tune of "The Happy Clown"
+M:6/8
+L:1/8
+K:G
+P:A - figure
+"G"G2A BAG|d2d d2g|"D"f2e d2c|B2A G2D|
+"G"G2A BAG|d2d d2g|"D"fed "A"ed^c|"D"d3-d3:|
+P:B - chorus
+"G"dBc ded|dcB "C"c3|"C"cAB cdc|"D"cBA "G"B2d|
+"G"g2d g2d|gfe d2c|"G"BAG "D"DGF|"G"G3-G3:|
+S:https://www.folktunefinder.com/tunes/122685
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

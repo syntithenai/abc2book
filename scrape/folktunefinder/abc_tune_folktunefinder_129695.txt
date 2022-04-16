@@ -1,0 +1,28 @@
+X:10
+T:The Fir Tree
+R:strathspey
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:later claimed by Nathaniel Gow, as a composition of his father, Niel Gow
+N:melodic code 311H6 27bL7b2 (3116 2772)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C
+K:D
+A|TF2 DB/c/ d>(AB>)G|TE2 =CA/B/ =c>GE>A|TF2 DB/c/ d>AB>G|TF2 DA/B/ c>Ad>G|
+TF2 DB/c/ d/c/B/A/ B/A/G/F/|TE2 =CA/B/ =c>GE>A|TF2 DB/c/ d>AB>G|TF2 D2 d>d d||
+f|d/d/d f>d g>ef>d|ee/e/ g>e g>e=c>e|d>ef>g a>ba>f|g<ea>g f>edf|
+d/d/d f>d g>ef>d|e/e/e g>e g>e =c(f/g/|a>)fg>e f>de.c|B/A/B/c/ d/c/B/A/ TF>ED|]
+S:https://www.folktunefinder.com/tunes/129695
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

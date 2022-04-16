@@ -1,0 +1,30 @@
+X:325
+T: Bu guo
+N: C0968
+O: China,Hunan
+S: MM, selbst aufgeschrieben vom Saenger, Quelle S. Bandprotokoll)
+N: Die Saengerin Liang Zhaoping studiert an der Guangzhouer
+N: Musikhochschule. Aufgenommen am 5.5.87
+N: Wenig Verzierungen. Vorspiel weggelassen. Das Lied wird wiederholt.
+R: Wuge, Huagu, Hunan huagu]
+M: 2/4
+L: 1/16
+K: G
+d2deG2FG | A8 | G2EDG2A2 | d8
+d2G4A2 | g2e2d4 | A2d2d2BA | d2G2z4
+d2deG2GA | d8 | c3dg2e2 | d8
+G2GEG2A2 | g2e2d4 | G2GAdeBA | G8
+c3dg2c2 | g2e2d4 | g4c2A2 | ged2z4
+A2d4BA | G2F2G4 | ABAGfGAB | G8
+A2d4BA | G2F2G4 | ABAGfGAB | G8
+S:https://www.folktunefinder.com/tunes/112752
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, huagu, hunan huagu]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

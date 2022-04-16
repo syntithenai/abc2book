@@ -1,0 +1,35 @@
+X: 96
+T:Caledonian Wedding Anniversary Waltz
+C:Wilf Gillis
+S:Wilf Gillis
+M:3/4
+R:Waltz
+L:1/4
+K:C
+C3/2E/ G|c2 B|A F A|G2 A/B/|c3/2d/ c|c G E|
+F A, C|B, D G,||C3/2E/ G|c2 B|A F A|G2 F/E/|
+[1 F3/2A,/ C|B, A, B,|C3|C2 z G:|[2 F3/2A/ c|B A B|c3|c2 e/f/||
+g3/2e/ c|c2 B|A f A|G2 A/B/|c3/2B/ c|e g f|e d c|d2 e/f/|
+g3/2e/ c|c2 B|A f A|G2 e/f/|g e c|B d f|e c B|c2 e/f/|
+g3/2e/ c|c2 B|A f A|G2 E/F/|G c e|g f e|d B G|F E D|
+C3/2E/ G|c2 B|A F A|G2 F/E/|F3/2A,/ C|B, A, B,|C3|C3|]
+%%text harmony
+M:3/4
+E3/2E/ E|E2 G|F A F|E2 C/D/|E3/2F/ E|E E C|D F E|D F B,|
+E3/2E/ E|E2 G|F A F|E2 D/C/|D3/2F/ E|
+[1 G G F|E3 -|E2z:|[2 G F G|E3 -|E c>d|
+e3/2c/ E|E2 G|F A F|E2 F/G/|E G E|c B d|c B A|B2 B/d/|
+e3/2c/ E|E2 G|F A F|E2 c/d/|e c E|G B d|c E F|E2 c/d/|
+e3/2c/ E|E2 G|F A F|E2 C/D/|E E c|e d c|B G F|D2 C/B,/|
+E3/2E/ E|E2 G|F C F|E2 D/C/|D3/2F/ E|G G F|E3 -|E2 z|]
+S:https://www.folktunefinder.com/tunes/100133
+S:http://www.alfwarnock.info/alfs/abc/accw01.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

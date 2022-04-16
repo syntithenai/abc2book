@@ -1,0 +1,29 @@
+X:85
+T:Untitled Hornpipe
+R:hornpipe
+S:Mysterious tape marked with the names (among others) McGlinchey,
+S:Casey, and O'Beirne among others. Player is suspected to be Danny
+S:O'Donnell, but I really don't know...
+Z:Rough transcription by Larry Sanger
+M:4/4
+K:F
+cB|:AcfA cfAc|fagf gafd|AcgA caAc|fagf edcB|
+|AcfA cfAc|fagf {ga}g2 fd|1 c/d/c Bc AGFE|{G}FEFG F2 cB:|
+|2 {dc}c=Bcd c_BAG||:{G}FEFG F2EF||D^CDE FEFG|A/B/A Gc AddA|
+|B/c/B GB A/B/A FA|GcAG FDCE|D^CDE FEFG|A/B/A Gc AddA|
+|~B3G AGFE|F2CF A,3F|D^CDE FEFG|A/B/A Gc AddA|
+|~B3G AGFE|FAGF EDCE|D^CDE FEFG|A/B/A Gc AddA|
+|~B3G AGFE|F2CF A,2||
+S:https://www.folktunefinder.com/tunes/100786
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

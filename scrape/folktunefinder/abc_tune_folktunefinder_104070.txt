@@ -1,0 +1,29 @@
+X:30
+T:Branles d'Escosse
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+P:Premier branle
+G2 A2 B2 G2 A2 B2 c4 | c2 B2 A2 G2 B2 c2 d4 | d2 f2 e2 d2 c2 B2 A2 G2 |
+G2 A2 B2 G2 A2 B2 c4 | c2 B2 A2 G2 B2 c2 d4 | c2 B2 A2 G2 A2 F2 G4 ||
+P:Second branle
+d4 d2 e2 f2 g2 f2 e2 d4 d4 c2 B2 A4 | d4 c2 B2 A4 G4 |
+d4 d2 e2 f2 g2 f2 e2 d4 d4 c2 B2 A2 G2 A2 F2 G4 ||
+S:https://www.folktunefinder.com/tunes/104070
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

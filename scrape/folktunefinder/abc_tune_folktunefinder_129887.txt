@@ -1,0 +1,24 @@
+X: 4
+P: the Stool of Repentance
+N: The title refers to the "dunking chair" that was used to punish
+N: people in some parts of the British Isles and New England.
+R: Jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+(3e/f/g/ |: "A"a2e c2e | a>gf edc | "Bm"a>ff f2e | "D"fag "E7"f2e \
+| "A"a2e c2e | a>gf edc | "D"d2e f2e | "E7"f<ac "A"B2A :|
+|: "A"c>AA eAA | cAc edc | "Bm"d>BB fBB | dBd "E7"fed \
+| "A"c>AA eAA | cAc edc | "D"d2e f2e | "E7"f<ac "A"B2A :|
+S:https://www.folktunefinder.com/tunes/129887
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Jig_Contra20.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

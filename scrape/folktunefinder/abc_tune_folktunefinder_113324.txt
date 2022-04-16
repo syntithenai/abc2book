@@ -1,0 +1,30 @@
+X: 2
+P: Amelia's Waltz
+C: Bob McQuillen 1981
+R: waltz
+N: "Now a tune for Deanna's sweet daughter; if you haven't met her, you really oughtter."
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A,2 \
+| "D"D3 E D2 | D2 F3 E | D2 F2 B2 | "D7"A4 A2 \
+| "G"B2 G3 B | "D"A2 F3 E | "Bm"D2 B,3 B, | "G"B,4 "A7"A,2 |
+| "D"D3 E D2 | D2 F3 E | "Bm"D2 F2 BF | "F#m"A3 F A2 \
+| "G"B3 c d2 | "Em"d2 e2 f2 | "A7"e3 c A2 | "A"A4 :|
+|: ag \
+| "D"f2 a3 f | "D"a2 f2 d2 | "A"e3 c B2 | A3 c fe \
+| "Bm"d3 B d2 | f3 e d2 | "F#m"c3 B A2 | F4 A2 |
+| "G"G2 B3 G | "D"F2 A2 d2 | "A"e3 c e2 | "D"d4 f2 \
+| "G"g3 f g2 | "D"a2 f2 e2 | "A"d3 e c2 | "D"d4 z2 :|
+S:https://www.folktunefinder.com/tunes/113324
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Waltz_Contra01.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

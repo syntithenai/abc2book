@@ -1,0 +1,23 @@
+X:22
+T:Bonaparte Crossing The Rocky Mountains
+C:Old Time
+M:4/4
+L:1/8
+Q:1/8=400
+K:C
+cB|:"Am"[e2A2]AB AGEG|"C"cdec "G"d2eg|"Am"aged cAGE|
+"G"G2GA "Em"G2cB|"Am"[e2A2]AB AGEG|"C"cdec "G"d2eg|
+"Am"aged "G"cABG|1 "Am"[e3A3][eB] [e2A2]cB:|2 "Am"[e3A3][eB] [e2A2]eg
+|:"A"aged ^cdeg|age^c "D"d2eg|"Am"aged cAGE|"G"G2GA "Em"G2cB|
+"Am"A2AB AGEG|"C"cdec "G"d2eg|\
+"Am"aged cABG|1"Am" [e3A3][eB] [e2A2]eg:|2 "Am"[e3A3][eB] [e4A4]|
+S:https://www.folktunefinder.com/tunes/117069
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T:Apley House
+M:C
+L:1/8
+B:The Round Band Book of Playford
+K:G
+"G"B2G2 Bcd2 | "C"e2c2 "D7"A2c2 | "G"B2G2 g2G2 | "G"B4 d4 :: \
+"D"f2a2 bagf | "A7"e2g2 g2fe | "D"f2a2 bagf | "A7"e4 "D"d4 :: \
+"C"e2c2 cdec | "G"d2B2 BcdB | "Em"g2G2 "D"G2A2 | "G" B4 d4 | \
+"Am"e2c2 "D7"cdec | "G"d2B2 BcdB | "Em"g2G2 "D"G2A2 | "G"B4 d4 ||
+S:https://www.folktunefinder.com/tunes/105833
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ap/Apley_House_2.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,54 @@
+X: 1
+T: Athole Highlanders' Farewell to Loch Katrine
+C: William Rose
+N: "Farewell" in title is also "Retreat" or "March"
+N: BSFC X-21
+N: H&C p.46
+N: Hunter 346
+N: Logan's Bagpipe p.29
+N: SFT p.20
+N: SV p.32
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: AMix
+af \
+| "A"{ef}e2cA eAcA \
+| ABcd e2af \
+| {ef}e2cA eAcA \
+| "G"GABc d2gf |
+| {ef}e2cA eAcA \
+| "D"fadf "A"e2cA \
+| "A"cBca "E7"efeA \
+| "A"{d}c2A2 A2 :|
+(3efg \
+| "A"a4 e2a2 \
+| c2a2 e2cA \
+| "G"{f}g4 d2g2 \
+| B2g2 d2BG |
+| "A"{g}a4 e2a2 \
+| "D"d2f2 "A"e2cA \
+| cBca "E7"efeA \
+| "A"{AB}c2A2 A2e2 ||
+|| "A"{g}a4 e2a2 \
+| c2a2 e2cA \
+| "G"{f}g4 d2g2 \
+| B2g2 d2BG |
+| "A"ABcd efec \
+| "D"fadf "A"e2cA \
+| cBca "E7"efeA \
+| "A"{AB}c2A2 A2 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/128215
+S:http://trillian.mit.edu/~jc/music/book/500/AtholeHighlandersFarewell_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

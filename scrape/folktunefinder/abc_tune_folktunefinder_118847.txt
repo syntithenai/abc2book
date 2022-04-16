@@ -1,0 +1,27 @@
+X:37
+T:Gunpowder Reel
+C:Bob McQuillen
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E minor
+|:GE|\
+"Em"B,E~ED EFGA|"A7"BE~ED EFGA|"C"Bcde dBAG|"B7"FGABA2GE|
+"Em"B,E~ED EFGA|"A7"BE~ED EFGA|"C"Bcde "B7"dBAB|"Em"G2E2E2:|
+|:GA|\
+"G"Bded edBA|"Cmaj7"BE~EDE2GA|"Am7"Bdef gbag|"D7"fdd^cd2ga|
+"G"bagb "D"agfa|"C"gfeg "B7"f2ga|"A7"bagf edBA|"Em"Beed e2:|
+S:https://www.folktunefinder.com/tunes/118847
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

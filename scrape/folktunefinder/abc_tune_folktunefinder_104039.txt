@@ -1,0 +1,40 @@
+X:43
+T:Premier Divertissement - Jupiter modrment
+R:
+C:Forqueray
+H:
+N:
+B:
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=147
+K:Db treble
+K:Bbm treble
+V:1
+EDC |: B,DCD FDCB, | =A,F,=A,C FEDC | DB,DF BdcB | =AB=AG FGFE |
+DFBd  fedc | EGBe gfed | cB=AG  Fcfc | dedc BEDC |
+B,DCD FDCB, | =A,F,=A,C FEDC | DB,DF BdcB | =AB=AG FGFE |
+DFBd  fedc | EGBe gfed | cB=AG  FEDC | DEDC B,EDC |
+V:2
+K:Bbm bass
+%%MIDI transpose -12
+z3  |: B4 d2e2     | f4        b2f2 | B4    d2e2 | f2 F2 =Agfe |
+d4
+z3  | B,4  D2E2   | F4        B2F2 | B,4   D2E2 | F2 F,2 =A,GFE |
+D4
+S:https://www.folktunefinder.com/tunes/104039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key C-sharp
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:80
+T: Rose of Castletown
+S: "The Roche Collection of Traditional Irish Music" [I/56/139]
+N: Related to "Boys of the Lough"
+L: 1/8
+M: 4/4
+R: reel
+K: D
+dB | AD (3FED A2 Bc | d2 fd ecdB | A2 FA BGAF | EDEF E2 dB |
+AD (3FED A2 Bc | d2 fd ecdB | A2 FA dBAF | EDEF D2 ||
+de | faag f2 fe | d2 fd ecdB | A2 FA BGAF | EDEF E2 de |
+faag f2 fe | d2 fd ecdB | A2 FA BdAF | EDEF D2 |]
+S:https://www.folktunefinder.com/tunes/107645
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

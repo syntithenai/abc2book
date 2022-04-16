@@ -1,0 +1,35 @@
+X:103
+T:Genevieve's Waltz
+T:from The Blarney Fife Medley
+C:Manus McGuire, arr. C. Myers
+M:3/4
+L:1/4
+K:G
+V:1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+D|:B>cB|((3A/B/A/)GF|G>AB|D2 D|EGc|BDB|{A}B>AG|A2D|
+B>cB|((3A/B/A/)GF|G>AB|D2 D|EGc|BDB|A>GF|[1 G2D:|[2 G2 G|
+e>ee|efg|d2c|B>AG|c>dc|BAG|EFG|[L:1/8](A3 B/A/ G2)|[L:1/4]e>ee|
+efg|d2c|B>AG|c>dc|BAG|EGF|G2G|e>ee|efg|d2c|
+B>AG|c>d ((3e/f/g/)|dBG|EFG|A2D|B>cB|((3A/B/A/)GF|G>AB|D2 D|
+EGc|BDB|A>GF|G3-|G3||
+V:2
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI ratio 3 1
+'D|:G2G|DED|E2E|B,CD|CEG|G>FE|D3|DEF||
+G2G|DED|E2E|B,CD|CEG|G>FE|D2C|[1 B,2D:|[2 B,2 B||
+cBA|GFE|D>EF|GBd|efe|d2d|edc|d2d|
+cBA|GFE|D>EF|GBd|cBA|GFE|Gc2|B2B|
+cBA|GFE|D>EF|GBd|edc|BGD|B,2E|D2D|
+G2G|DED|E2E|B,CD|CEG|G>FE|D2C|B,3-|B,3||
+S:https://www.folktunefinder.com/tunes/114135
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

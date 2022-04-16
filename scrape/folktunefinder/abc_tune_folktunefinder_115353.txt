@@ -1,0 +1,32 @@
+X:18115
+T:Vals
+S:Cathy G
+R:Waltz
+O:Sweden
+N:needs abc2mtex
+M:3/4
+K:Dmin 0&2
+DF F2 D2 & A2 d2 f2| E3G A2 & ^c4 e2| \
+(3GAG E2A2 & A2 ^c2 e2| EA ^c2 AG & g2 ag fe|\
+DF F2D2 & A2 d2 f2| E3G A2 & ^c4 e2|
+(3GAG E2G2 & A2 ^c2 e2|1 F4z2 & d4z2 :|2 F4D2 & d4A2|:\
+DFA2d2 & d2f2a2| B3cd2 & a2gab2|\
+EFG2E2 & c2e2g2| B2AG E^C & g2fga2| \
+DFF2D2 & A2d2f2| E3GA2 & ^c4e2|
+(3GAG E2A2 & A2^c2e2| EA^c2AG & g2ag fe|\
+DFF2D2 & A2d2f2| E3GA2 & ^c4e2|\
+(3GAG E2^C2 & A2^c2e2|1 D4D2 & d4A2 :|2 D4z2 & d4z2 |]
+S:https://www.folktunefinder.com/tunes/115353
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

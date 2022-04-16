@@ -1,0 +1,28 @@
+X:4
+T:The Fairest Rose
+R:hornpipe
+C:Tommy Peoples
+D:Tommy Peoples's - Waiting for a Call, Shanachie 2003
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C
+K:Bb
+B2 d>c (3(Bcd) f>g|b>g{b}g>f {b}g>fd>f|~g2 f>d ~c3 B|d>fb>a g2 f>d|
+TB2 d>c B2 d>f|b2 Tg>f g>fd>c|{e}(3ded c>B E2 b>g|[1f>dc>d B>ed>c:|[2f>dc>d B3 z||
+|:F>DD>F {e}(3dBB dc|(3(Bcd) c>B G3 z|(3(DEF) F>G F>DB,>C|D>CC>B, G,3 A,|
+B,2 {D}(3CB,A, B,>DF>B|g2 Tg>f g>ab>g|f>d (3Bcd ~c3 d|TB2 {ed} (3Bcc B2 z2:|
+|:D2 d>c {ed} (3(Bcd) c>B|B>db>a ~g3 =e|f3 B e2 g>e|F>Bd>B E>Bc>E|
+D>Bd>c (3Bcd c.B|B2 b>a (3(gab) a>g|f>d (3Bcd ~c3 d|TB2 {ed} (3Bcc B2 z2:|
+S:https://www.folktunefinder.com/tunes/123250
+S:http://cranfordpub.com/tunes/abcs/peoples.abc
+S:http://www.cranfordpub.com/tunes/abcs/peoples.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

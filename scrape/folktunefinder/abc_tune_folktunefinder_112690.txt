@@ -1,0 +1,33 @@
+X:263
+T: Amei song ni xue shouyi
+N: C0410
+O: China,Jiangxi, Shangrao
+S: IV, 238]
+N: Sehr typisch; in dieser Region wurden viele neue Texte auf
+N: diese Mel. geschrieben. Sehr verbreitet.
+R: Wuge, Dengge, Mudan diao. Nann liqing]
+M: 2/4
+L: 1/32
+K: C
+g2g2g4-g2ede2g2 | d4c4A4z4
+g4g4e2d2g2e2 | d16
+A2c2c8A2G2 | G2E2G2A2c8
+d2d2d2g2d2c2A4 | G8z8
+g4g4e2d2e2g2 | d4c4A4z4
+A2AcB2B2A2c2G4 | c4A4z8
+G4A2c2A4c2A2 | G4A4E8
+e2g2e2d2c2d2e2g2 | d12G4
+c2A2c8A2G2 | E4E2G2c8
+d2d2d2g2d2c2A4 | G16
+S:https://www.folktunefinder.com/tunes/112690
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, dengge, mudan diao. nann liqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

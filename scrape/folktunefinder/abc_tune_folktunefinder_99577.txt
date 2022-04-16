@@ -1,0 +1,47 @@
+X:2
+T:Temptation of the Renaissance
+R:
+C:Stepan Rak
+N:To Vladimir Mikulka
+G:guitare
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=110
+K:C 
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+d3 e f3 e/f/ | g3 f ed c2 | d2 f2 e2 c2 | d8 :| 
+|: a3 a/a/ a3 g/a/ | _b3 a gf e2 | f3 f/f/ f3 e/f/ | g3 f ed [A2c2] |
+d2f2 f3 e/f/ | g3 f ed c2 | d2 f2 e2 c2 | d8 :| 
+Q:3/4=110
+[M:12/8] DAA FAA EGG CGG | DAA FAA EAA DAA :||: d3 e3 f3-fef |
+gfe fed edc dcA | d3 f3 e3 c3 | d3-d3-d3-d3 | DAA FAA EAA DAA :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+F2 E2 D2 A2 | C2 G2 A,3 A | FE D2 CD E2 | D2 [F2A2] [EG][EG] [D2A2] :|
+|: z2 [F2A2] z2  [F2A2] | z2 [D2d2]-[D3d3] c | z2 [D2A2] z2 [D2A2] | z2 [C2c2]-[C3-c3] A |
+FE D2 AG F2 |ED C2-C2 A2 | FE [D2f2] [Ce][E2c2] | [D2-A2] [F2A2] [EG][EG] [D2A2] :|
+[M:12/8] D3 F3 E3 C3 | D3 F3 E3 D3 :||: FAA EAA DAA A3 |
+C6 A,6 | FAA DAA A,AA EAA | DAA FAA EGG CGG | D3 F3 E3 D3 :|
+S:https://www.folktunefinder.com/tunes/99577
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

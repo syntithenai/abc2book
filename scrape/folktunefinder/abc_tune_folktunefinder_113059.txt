@@ -1,0 +1,27 @@
+X: 50
+T: Mouth of the Tobique
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:(3DEF|\
+"G"GFGA Bded|BdBG DGBG|"Am"AGFE "D"DFAc|"G"BdBG "D"D2 (3DEF|
+"G"GFGA Bded|BdBG DGBG|"Am"AGFE "D"DFAc|"G"BG2GG2:|
+|:ef|\
+"G"gfga gfeg|"D"fdAd fagf|"Am"ecAF "D"DFAc|"Em"BGBc "D"d2ef|
+"G"gfga gfeg|"D"fdAd fagf|"Am"ecAF "D"DFAc|"G"BG2GG2:|
+S:https://www.folktunefinder.com/tunes/113059
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

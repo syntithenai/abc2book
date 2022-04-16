@@ -1,0 +1,42 @@
+X:56
+T: Fun ziyou ge
+N: C0073
+O: China,Shanxi, Qitai
+S: I, 281]
+M: 4/4
+L: 1/16
+K: G
+B3ed2B2A6B2 | d3ed2A2G4F2E2
+B3ed2dFA2G2F2E2 | A3BA2E2D8
+F2ABA4B3ed2B2 | d2ABA2D2F3BA2G2 | F2EED2EGD8
+B3ed2B2d2A4B2 | d3ed2A2G4F2E2
+B3ed2F2A2G2F2E2 | A3BA2E2D8
+A3BA3AB3ed2B2 | d2ABA2D2F3BA2G2 | F2E2D2EGD8
+d4c2B2 | e2B2A4 | d2A2B2d2 | G4F2E2
+d2F2A2B2 | A2G2F2E2 | D2E2A2G2 | D8
+B2d2A4 | B2d2A4 | d4A2G2 | F2E2D4
+B3dA2B2 | d3ed2c2 | B2ABA2E2 | D8
+G2E2D4 | A2A4B2 | d4A2G2 | F2E2D4
+B3dA2B2 | d3ed2c2 | B2ABA2D2 | G3AF2E2 | D8
+B3dA2B2 | d3ed2c2 | B2ABA2D2 | G3AF2E2 | D8
+B2d2A4 | B2d2A4 | d3e^d2c2 | ^e3cB2A2
+z2^d2c2B2 | e2F2A2B2 | A2F2E2D2 | A,8
+e3^ec2B2 | A2E2A4
+A2E2^A2G2 | A2B2A4
+A2E2^A2G2 | A2B2A4
+e3FA2F2 | A2B2A4
+e3^ec2B2 | A2E2A2A2
+A2^d2c2=d2 | A4d2F2 | E2D2A,4
+e3^ec2B2 | A2E2A2A2
+A2^d2c2=d2 | e2^d2c2B2 | d8
+S:https://www.folktunefinder.com/tunes/112483
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

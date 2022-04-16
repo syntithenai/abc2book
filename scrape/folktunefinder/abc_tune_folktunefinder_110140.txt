@@ -1,0 +1,27 @@
+X:93
+T:Official Branle
+S:"Orchesography", Arbeau
+N:For the dance "Ding Dong Merrily" by Ellen Taylor
+M:2/2
+L:1/4
+Q:1/2=110
+K:C
+P:A
+[| "C"cc "F"d/c/B/A/ | "G"G3G | "F"Ac"G"cB | "C"c2c2 |\
+"Am"cc "D7"d/c/B/A/ | "G"G3G | "F"Ac"G"cB | "C"c2c2 |
+%%vskip 0
+P:B
+|: "C"g>f e/f/g/e/ | "G"f>e d/e/f/d/ | "Am"e>d c/d/e/c/ | "G"d>c B/c/d/B/ |
+"F"c>B A/B/c/A/ | "G"B>A "C"GG | "F"Ac "G"cB | "C"c2c2 :|
+S:https://www.folktunefinder.com/tunes/110140
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

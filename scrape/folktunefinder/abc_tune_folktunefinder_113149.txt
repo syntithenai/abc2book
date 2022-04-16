@@ -1,0 +1,30 @@
+X: 140
+T: The Red Box
+C: Arty McGlynn
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: D Mixolydian
+|:\
+"D"afge fdd/d/d|"C"cABG "G"ADD/D/D|"D"~FDFG AGAB|"C"cBAB "G"cdeg|
+"D"afge fdd/d/d|"C"cABG "G"ADD/D/D|"D"FDFG AGAB|1\
+"F"cAGE "G"~EDD2:|2\
+"F"cAG~E "D"EDDB||
+|:\
+"Am"~cBce gece|"D"d^cdf afdf|"G"gabg "Bm"fgaf|"Em"e^def ecAB|
+"C"~cBce gece|"D"d^cdf afdf|"Em"g/g/gag "Bm"fddB|"C"cAGE "D"EDD2:|
+S:https://www.folktunefinder.com/tunes/113149
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:7
+T:Bringeb\aersl\aatten (Reinl\aender)
+C:av. Richard Eilde (sp)
+N:2. stemme av. Magne Drageset
+R:Reinl\aender
+%O:Norway
+Z:Bob Wyttenbach  8/7/02, from Fiddles & Feet 2002 tunebook, handwritten copy (composer not quite legible)
+M:2/4
+L:1/16
+K:E %Transposed from D
+P:A
+V:1
+gfed e2G2|cBAG A2F2|f2fe d2d(c|B2)BA G2>B2|
+V:2
+"D"eBGF G2E2|AGFE "G"F2[F2C2]|"A"d2dc B2B(A|G2)GF"D"E4|
+V:1
+gfed e2G2|cBAG A2F2|f2fe d2cd|e2e2 e2>B2:|
+V:2
+"D"eBGF G2E2|AGFE "G"F2[F2C2]|"A"d2dc B2BA|"D"G2G2G4:|
+P:B
+V:1
+B2g2 gfed|c2a2 agfe|d2d2 c2c2|^ABcB G2>B2|
+V:2
+G2e2 edcB|"G"A2c2 cBAc|"A"B2B2 A2A2|"D"G2AG E2>G2|
+V:1
+B2g2 gfed|c2a2 agfe|d2d2 dBcd|e2e2e4:|
+V:2
+G2e2 edcB|"G"A2c2 cBAc|"A"B2B2 BFBA|"D"G2G2G4:|
+S:https://www.folktunefinder.com/tunes/119355
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002Bb.abc
+% Rhythm Reinl%C3%A6nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

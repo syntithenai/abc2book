@@ -1,0 +1,26 @@
+X:102
+T:Princeton's Silver Lining
+M:2/2
+L:1/4
+C:Colin Hume, 2006
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:C2=115
+%%MIDI chordname dim 0 3 6 9
+K:Em
+|: "Em"EE "D"FF | "A7/C#"GG "Am/C"AA |\
+"Em/B"B B/2c/2 B B, | "B7"B B/2c/2 B B, |\
+"Em"EE "D"FF | "A7/C#"GG "Am/C"AA |\
+"Em/B"B B/2c/2 "B7"B ^D | "Em"F E E2 :|
+|: "D"DDdD | "D"dd/2e/2d "D/D#"c |\
+"Em"BBgB | "Em"gg/2a/2gf |\
+"C"ee "G/B"dd | "Bbdim"_dd "Am"cc |\
+"Em/B"B B/2c/2 "B7"B ^D | "Em"F E E2 :|
+S:https://www.folktunefinder.com/tunes/110149
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

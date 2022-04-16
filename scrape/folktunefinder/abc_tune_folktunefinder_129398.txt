@@ -1,0 +1,40 @@
+X:1
+T:Auer-Wastl-Boarisch
+C:Sammlung Leopold Khals
+R:Schottisch
+A:Salzkammergut
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d z(gB) d4 | B z(dG) B4 | FGAB cdef | gz (fe) d4 |
+d z(gB) d4 | B z(dG) B4 | FGAB cdef | gz (gd) "fine"g4 :||
+|:\
+.b2.b2.b2 (ag) | .f2.f2 (f2a2) | .e2.e2(e2g2) | d2(^cd) (efga) |
+.b2.b2.b2 (ag) | .f2.f2 (f2a2) | e2d2 (^cdef) | "d.c.al fine".g2.g2.g2z2 :|
+K:C % transposed from D
+P:Trio
+|: (Gc) |\
+.e2.e2 c (GFG) | (A2G2) G2 (Gc) | (A2G2) G2z2 | (BcBA)B4 |
+(ABAG)A4 |1 ({B}.A2).G2.F2.A2 | G4 z2 :|\
+         [2 .G2.G2.A2.B2 | c6z2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/129398
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/auer-wastl-boarisch.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

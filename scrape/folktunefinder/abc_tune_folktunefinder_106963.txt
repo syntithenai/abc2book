@@ -1,0 +1,33 @@
+X:53
+T: La Minor, Doh, Fa
+R: jig
+M: 6/8
+L: 1/8
+K: Am
+P: A
+"Am"EAB cBA | EAB cBA | EAB cBA | e3-edc |
+"E7"B2e B2e | Bee e3 | "Dm"efe "E7"dcB |1 "Am"cAA A2G :|2 "Am"A3 "Bdim(G7)"_A3 ||
+K: C
+P: B
+|: "C"G3 EGc | e3-e2 g | e2d "C7"c2d | "F"A6 |
+"F" A2B "F#dim"cBA | "C/G"GEG "Am"e3 | "Dm"G2G "G7"GAB |1 "C"cGE "(Cdim)"C3 :|2 "C"c3 "C7"_B3||
+K: F
+P: C
+|: "F" A2A AFA | "Bb"ddd "F"c3 | "F"A^GA "F#dim"cAc | "Gm"BGE "C7"CEG |
+"Gm" BBB BAB | "C7"eee d3 | "Gm"cdc "C7"BAG | "F"A3 "C7"c=B_B |
+"F" A2A FAc | "Bb"d3 "F"c3 | "F"A^GA "D7"cAc | "Gm"B3-B2 c |
+"Bb" d2d "Bdim"d^cd | "F/C"ccc "D7"c=Bc | "Gm"edc "C7"BAG | "F"FA"(Dm E7 to return to top)"c f3 :|
+W: Play AABBCC. Once through the tune is twice through a contra dance.
+S:https://www.folktunefinder.com/tunes/106963
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/alljigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key F
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

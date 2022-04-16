@@ -1,0 +1,41 @@
+X:329
+T: Pan hong jun
+N: C1016
+O: China,Hubei, Lichuan
+S: I, 420]
+N: Plattenhuelle kopiert.
+N: Vereinzelt Verzierungen.
+R: Shange, Lianbaju. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: C
+d8
+dddec2d2 | d2e2c2d2
+dddededc | A6c2
+dddededc | A6c2
+c2dcA2c2 | cAGAc4
+c2dcA2cA | d8
+c3AAcA2 | G3cA4
+dddec2d2 | d2cAG4
+dddec2d2 | e3cdcA2
+AAAAG2A2 | c2d4A2 | G8
+d8
+c2AAc2A2 | c2A4z2
+c2Acd2c2 | A2G4z2
+dddec2d2 | e3cdcA2
+dddededc | A6c2
+dddededc | A6c2
+c2dcA2c2 | cAGAc4
+c2Acd2cA | d8
+S:https://www.folktunefinder.com/tunes/112756
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, lianbaju. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

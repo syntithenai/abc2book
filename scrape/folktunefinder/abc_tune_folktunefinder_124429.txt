@@ -1,0 +1,39 @@
+X:1438
+T:Aria 1
+C:anon.
+O:Germany
+N:After Joh. Siegismund Scholze (1705-1750)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/germany/aria-1527.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:2/4
+L:1/8
+Q:1/4=60
+K:F
+V:1
+AG/F/|ccfc|B/A/B GB|A/F/c BA|AG fc|dF A/G/F/E/|HF2||
+V:2
+F,F,|E,E,D,F,|G,F,E,C,|F,A,G,F,|C,B,,A,,A,,|B,,A,,/B,,/ C,C,|HF,,2||
+%
+V:1
+Ad|^cdeG|FEAd|^cdeG|FEAd|fe/d/ ed/^c/|"^Da Capo"d2|]
+V:2
+F,D,|E,F,^C,A,,|D,A,/G,/ F,D,|E,F,^C,A,,|D,A,/G,/ F,E,|D,F,G,A,|D2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/124429
+S:http://abc.musicaviva.com/tunes/germany/aria-1527.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/germany/aria-1527.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/germany/aria-1527.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

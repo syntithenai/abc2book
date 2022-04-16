@@ -1,0 +1,26 @@
+X:55
+T:IARA
+C:Choro
+M:4/4
+L:1/8
+Q:1/8=240
+K:F
+|:ADDD FG/F/ED|cBGA B2z2|_dAA=B d=def|edAe d2z2|
+cBGA [B4G4]|BAFG [A4F4]|AGEF AGEF|DFAF d2z2:|
+|: dcEG c3d|AcFA c2z2|BA_DE BADE|BADF A2z2|
+AGB,D G3A|GFA,C F3G|FEG,A, B,CDE|1 FEFG AB=Bc:|2 FCAC F2z2|
+|ADDD FG/F/ED|cBGA B2z2|_dAA=B d=def|edAe d2z2|
+cBGA [B4G4]|BAFG [A4F4]|AGEF AGEF|DFAF d2z2 |
+|:[d_G]GFG [A3G3]=B|[=BG]AGE _D2_z2|ED_D=D GFED|D_DED A,A[=B_A][_dG]|
+[d_G]GFG [c3A3]=B|AG_G=G =B,3G|[_GD]AAG [E_D]=GGE|1 D_GAG d4:|2 D_GAG d2z[_e=G]|
+|eAAA cd/c/=BA|gfde f2z2|_aee_g a=a=bc'|=baeb a2z2|
+gfde [f2d2]z2|fecd [e2c2]z2|ed=Bc edBc|zcec a2z2|
+S:https://www.folktunefinder.com/tunes/117102
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

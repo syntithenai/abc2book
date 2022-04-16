@@ -1,0 +1,40 @@
+X:313
+T: Qing feng shou
+N: C0913
+O: China,Sichuan, Xuanhan
+S: MM,]
+M: 2/4
+L: 1/32
+K: C
+d16g8 | e4d4d6e2 | c2d2c12
+c2ded12 | c16 | A16
+e6d2e4e2e2 | c6e2A8
+c4A2c2e8 | d16 | A16
+e6c2d4c4 | e6c2A8
+d4c4c12A4 | G12A4 | c16 | A16
+c6d2c4A4 | G4A4F8
+A2c2G2A2e4A4 | c16 | A16
+e6c2d12c4 | e6c2A16
+c12d4d8 | c16 | A16
+e6d2e4e2e2 | c4e4A8
+c4A2c2e4e4 | c16 | A16
+G4A4c12A4 | A3ec4A16
+d4c8A4G4A4 | c16 | A16
+g4c4c4d4 | e4d2e2c4e4 | d6c2A8
+A2c2G2A2e4A4 | c16 | A16
+c8c8 | c8e8- | e16
+e4d2e2g8 | c4d2c2A8
+e4d2e2g8 | c4d2c2A8
+g8A8 | g8A8 | g4A4g4A4 | g4A4g4A4
+e4g12- | g16
+e6G2d2e2c2A2 | c3dA2c2e4A4 | c16 | A16
+S:https://www.folktunefinder.com/tunes/112740
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

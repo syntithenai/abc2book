@@ -1,0 +1,27 @@
+X:4
+T:Marche pour la crmonie des Turcs
+C:Jean-Baptiste Lully
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-19
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+K:Dm
+%%staves [1 2 3 4 5]
+V:1
+d2 d2 | B>AGg | d>eff | f2 d3/c//d// | _e>d c>B |1 B4 :|2 B4 |: f2 ^f3/e//f// |
+g>a ba/g/ | a2 dd | d>g e>a | ^fdgg | g>a a3/g//a// | b>a g/f/_e/d/ |
+c/d/A/B/ A>G | G2 gg | g>a a3/g//a// | b>a g/f/_e/d/ | c/d/A/B/ A>G | G4 :|
+V:2
+B2  A2 |  G3B | B>c   A A/B/ |  c  AB2 | B2  A>B |1 B4 :|2 B4 |:   d2 c2 |
+B>c  d d |   d>c BB | B2   A>A |   Ad/c/ BB | B^d2d |   d>c B/A/G |
+GA/G/ ^F>G |  Gd/c/BB | B_e2d |   d>c B/A/G |  GA/G/ ^F>G |  G4 :|
+%%footer $D   Galouvielle-MBe 2007 \nPavane (--)
+S:https://www.folktunefinder.com/tunes/109661
+S:http://michel.bellon.free.fr/Musique/abc/Intime2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

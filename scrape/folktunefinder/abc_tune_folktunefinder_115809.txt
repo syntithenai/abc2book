@@ -1,0 +1,33 @@
+X:12764
+T:Pal Ximielgue La Xana
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+M:2/4
+L:1/8
+Q:2/4=100
+K:C
+|:E2 CD|E2 C2|FE DF|E4|
+AG FA|GF EG|FE DE|C2 B,2|
+E2 B,/C/D|E2 C2|FE DF|EE FG|
+A2 F/G/A|G2 E2|FE DF|EE FG|
+A2 F/G/A|G2 c2|FE DF|E4:|
+M:6/8
+|:C6 |EDC FED|G2E EFG|F2D DEF|
+E3 C3|EDC FED|G2E EFG|F2D FED:|
+|:C2G C3|G2G CDE|F2D DEF|GFE FED|
+E3 C3|G2G CDE|F2D DEF|GFE FED:|
+S:https://www.folktunefinder.com/tunes/115809
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

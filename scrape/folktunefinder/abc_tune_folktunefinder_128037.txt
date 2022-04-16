@@ -1,0 +1,22 @@
+X:1
+T:Astley's Ride
+M:4/4
+F:http://nyfte.freezope.org/sections/music/download/nyfte.abc 2005-02-14 18:38:39 UT
+K:G
+dB|"G"G2G2 G2FG|"D"A2A2 A2BA|"C"GFED E2F2|"G"GABc dcBA|| 
+G2G2 G2FG|"D"A2A2 A2BA|"C"GFED "D7"E2F2|G4G2:|
+|:GA|B2B2 B2AB|"Am"c2c2 cdcB|"D7"A2A2 A2GA|"G"B2B2 BcBA|| 
+G2G2 G2FG|"D"A2A2 A2BA|"C"GFED "D7"E2F2|"G"G4G2:|
+S:https://www.folktunefinder.com/tunes/128037
+S:http://nyfte.freezope.org/sections/music/download/nyfte.abc
+S:http://nyfte.freezope.org/sections/music/download/nyfte.abc
+S:http://www.oxfordfiddle.co.uk/astleys_ride.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:20
+T:Mopsy's Tune (the old way)
+T:The Welsh Jig
+R:jig
+C:Welsh Trad.
+H:it's a version of the Irish jig &quot;The
+H:Priest and His Boots&quot; (Sagart na mBuatasi/). There's a version of it
+H:in O'Neill's 1850 (#968), which is also rather similar to the version
+H:in CRE II (#17), and a rather different version in CRE III (#8).
+N:after #2 Aly Grogin. The jigs are odd feeling, at first, because of
+N:the short A sections -- the dance needed 24 bar tunes and this is
+N:what you got. so, yes, you *don't repeat the A section on &quot;Mopsy's
+N:Tune&quot; ... as much as you might want to (actually, you can to
+N:whatever the hell you want ;-)
+Z:Gary Chapin <gchapin@CTEL.NET>
+M:6/8
+L:1/8
+Q:3/8=70
+K:D
+cde e2f|e2d ecA|ded fgf|ded fgf|
+cde e2f|e2d c2c|def g2f|edc d3||
+|:afa geg|fdf ecA|d2d fed|c2d e3|
+afa geg|fdf ecA|fed bag|fge d3:|
+S:https://www.folktunefinder.com/tunes/109458
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

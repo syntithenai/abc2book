@@ -1,0 +1,26 @@
+X:5
+T:Whisky before breakfast
+R:Reel
+O:USA
+M:4/4
+K:D
+DB,|\
+A,B,DE D2DE|F2BF ABAF|G2BG F2AF|EDEF EDB,A,|\
+A,B,DE D2DE|F2BF ABAF|
+G2BG FGAF|EDEF D2::\
+dB|\
+A2B2 d2cd|efed cBA2|
+e2ef e2ef|gfed cABc|\
+d2fd c2ec|BABc dBAF|G2BG F2AF|EDEF D2:|
+S:https://www.folktunefinder.com/tunes/122035
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

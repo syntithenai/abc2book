@@ -1,0 +1,30 @@
+X: 21
+T:Rope Waltz
+M:3/4
+L:1/4
+R:Waltz
+N:http://www.lesession.co.uk
+Z:Steve Mansfield 1998-2001
+K:G
+d^c=c |: B>c ^c/d/ | G2 g | f>g a/f/ | d2 c | 
+B>c ^c/d/ | G2 B | A3 | d^c=c | 
+B>c ^c/d/ | G2 g | f>g a/f/ | d2 c | 
+B>d B/G/ | A>c A/F/ | G>A B/A/ |1 Gdc :|2 Gga |: 
+b2 a | g3 | gfe | d3 | c'2 b | a2 g | f>g a/f/ | 
+dga | b2 a | g3 | gfe | d>B G/A/ | B>d B/G/ | 
+A>c A/F/ | GBA |1 Gga :|2 G3 ||
+%
+%Ceilidh Tune Sets
+%
+S:https://www.folktunefinder.com/tunes/113635
+S:http://www.lesession.co.uk/music/ShakeThe.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

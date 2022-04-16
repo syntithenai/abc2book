@@ -1,0 +1,28 @@
+X:60
+T:Bobby Casey's
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+M:4/4
+N:As played. Follows Stor Mo Chroi in same 'key'.
+Z:Bernie Stocks
+K:F
+GF | DG{A}GF ~G3A | BGGG {A}GFDE | F2CF DFCF | DFFF {G}FDCE |
+DG{A}GF ~G3A | BGGG {A}GFDE | F2cF dFcF | AdcA G3F |
+DG{A}GF G3A | BG~G2 {A}GFDE | F2cF dFcF | DFFF {G}FDCE |
+DG{A}GF ~G3A | BGGG {A}GFDE | F2cF dFcF | AdcA G3A ||
+|: dg{a}g^f g3a | (3=bag ag {a}g^fde | f3f {a}fede | fgaf g^fdc |
+dg{a}g^f g3a | (3=bag ag {a}g^fde | {a}fefd {e}dcAG |1 FdcA G2GA :|2 FdcA G3F ||
+S:https://www.folktunefinder.com/tunes/117306
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

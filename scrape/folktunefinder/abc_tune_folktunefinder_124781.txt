@@ -1,0 +1,25 @@
+X: 4
+T:Arkansas Travler
+M:4/4
+L:1/8
+Q:432
+C:Traditional - Arr. Tim O'Brien
+K:D
+A,B,C|:"D"DFED "G"B,G,B,D|"A"A,G,A,B, "D"D2DF| \
+"A"EDEG FDFA|EFED B,2A,2|!
+"D"DFED "G"B,G,B,D|"A"A,G,A,B, D2 (3A/B/c| \
+"D"dcdA BcdB|1"A"AFEF "D"D2A,B,:|2"A"AFEF "D"D2fg|!
+|:"D"a2fa "G"gfeg|"D"fedf "A"ecAc|"D"dcdf "G"edeg|
+"D"fedf "A"e2fg|!
+"D"a2fa "G"gfeg|"D"fedf "A"ecAc| \
+"D"dcdA "G"BcdA|1"A"AFEF "D"D2fg:|2"A"AFEF "D"D4|
+S:https://www.folktunefinder.com/tunes/124781
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/ArkansasTravler.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

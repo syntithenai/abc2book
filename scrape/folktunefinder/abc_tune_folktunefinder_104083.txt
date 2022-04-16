@@ -1,0 +1,26 @@
+X:43
+T:Morisques
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+cc cd c4 AF FG E2 C2 :: AF FG AF FG AF FG E2 C2 ::
+c/B/c/d/ c/B/c/d/ cA/B/ c2 A/G/A/G/ F/A/G/F/ ED/E/ C2 ::
+AF FG A/G/A/G/ F/E/F/G/ A/G/A/G/ F/E/F/G/ ED/E/ C2 ::
+S:https://www.folktunefinder.com/tunes/104083
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

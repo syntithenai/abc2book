@@ -1,0 +1,19 @@
+X:109
+T:Another Jig Will Do
+R:slip jig
+Z:id:hn-slipjig-27
+M:9/8
+K:D
+ABA A2G F2G|ABA AGF G3|ABA A2G F2G|Add dec d3:|
+|:A2g f2d e2c|A2B =c2d c3|1 A2g f2d e2^c|Add dec d3:|2 d2A A2G F2G|Add dec d3||
+S:https://www.folktunefinder.com/tunes/120517
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/AnotherJigWillDo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/Another_Jig_Will_Do_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

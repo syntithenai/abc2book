@@ -1,0 +1,36 @@
+X: 25
+T:Hela'r Ysgyfarnog
+T:Hunting the Hare
+M:6/8
+L:1/8
+Q:130
+C:Trad
+S:51 Welsh Airs
+R:Jig
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:C
+c2C EFG|AAc dcB|c2C EFG|AcB c3:||
+edc edc|edc edc|dBc dBc|d/e/fe d3|
+c2C EFG|A2d {c}BAB|c2C EFG|A>cB c3:||
+S:https://www.folktunefinder.com/tunes/109495
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/HelarYsgyfarnog.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/HuntingTheHare.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/HelarYsgyfarnog.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

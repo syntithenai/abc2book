@@ -1,0 +1,29 @@
+X:31
+T:Lenox Love
+T:Colonel Montgomery's Strathspey
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/5/04
+N:Petrie's Second Collection, page 11
+% Gore's Index gives earliest publication as Joshua Campbell's 
+% "Coll. Of Newest & Best Reels & Minuets..." Glasgow 1788
+L:1/8
+M:C
+R:Strathspey
+K:F
+(f|f)<FF>G A>GF<A|G<GA>c d>cd<e|f>dc<f      A>GF<A |G<AF<C  D2D:|
+ f|f>cf>g  a>gf<a|g>fg>a g>fc<g|f<cf>g ({fg}a)>gf<a|c<cc>a Tg2f2|
+   f<cf>g  a>gf<a|g>fg<a g>fd>f|c>df>g      a>gf<a |c<cb>a Tg2f|]
+S:https://www.folktunefinder.com/tunes/128294
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/31.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:380
+T:Captain White
+R:jig
+M:6/8
+L:1/8
+K:D
+A|DFA d2f|edc B2d|A2d F2B|AGF E2F|
+DFA d2f|edc B2d|A2d F2d|ABc d2:|
+|:f|e^de A2f|e^de a2f|efe dcB|A2B c2f|
+e^de A2f|e^de a2f|efe dcB|ABA GFE|
+D2f fef|d2A A2A|A2f fef|g2e e2e|
+A2f fef|d2A A2A|Bcd edc|d3 d2:|
+S:https://www.folktunefinder.com/tunes/105704
+S:http://www2.redhawk.org:8080/irish/warnock/abc/messer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

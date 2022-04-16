@@ -1,0 +1,26 @@
+X:25
+T:Ho Ro My Nut Brown Maiden
+R:March
+C:KCC p8, via EF
+S:Nottingham Music Database
+M:4/4
+L:1/4
+K:C
+P:A
+G|"C"c>B "G7"AG|"C"c2 "G7"GG|"C"c>d fe|"Dm G7"d3f|
+"C"e<g e<g|G2 "F"cd|"G7"e>e fd|"C"c3:|
+P:B
+e/2f/2|ga ge|g2 ef|ga ge|"Dm"d2 "G7"df|
+"C"e<g e<g|G2 "Am"cd|"Dm"e>e "G7"fd|"C"c3:|
+S:https://www.folktunefinder.com/tunes/128822
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

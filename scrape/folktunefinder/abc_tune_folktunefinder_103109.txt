@@ -1,0 +1,33 @@
+X:1
+T:The Monaghan Twig
+T:The Monaghan Switch
+T:The Monaghan Twitch
+T:Alisdair MacAlisdair (Scottish title)
+C:Traditional
+N:Play second part once
+N:then 4 times through
+N:The Armagh Set, figure 5, tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+M:C
+L:1/8
+Q:350
+K:Amix
+ed | cAAB cded | cAAG E2 ed | cAAB cded | BAGB d2 ed |
+cAAB cded | cAAG E2 ed | cAAB cded | BAGB d2 |]
+ed | cdef gfed | cdef e3 d | cdef g3 e | dBGB dged |
+(3Bcd ed (3Bcd ed | cAAB cdef | g3 e dged | BAGB d2 |]
+S:https://www.folktunefinder.com/tunes/103109
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

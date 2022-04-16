@@ -1,0 +1,29 @@
+X:15
+T:Butterfly Wings
+T:(Tune: Bellows and Bows)
+C:Fred Grimshaw
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=105
+K:G
+P:A
+|: "G"DG "C"EG | "D"F/G/A "G"G2 | "C"ee "G"d/e/g/d/ | "A"B2 "D"A2 |\
+"G"DG "^/"BG | "D"AG/F/ "G"Gd | "C"eg/e/ "G"d/B/G/B/ | "D"A2 "G"G2 :|
+%%vskip 0
+P:B
+"G"d3/2e/ "Bm"dB/G/ | "Am"A/B/A/G/ "D"ED/E/ | "G"G3/2G/ "^/"G/B/d | "C"e2 "D"d2 |\
+"G"d3/2e/ "^/"d B/A/ | "Em"G/A/G/F/ "^/"Ee/f/ | "Em"gg "D"a/f/d | "A"e2 "D"d2 |
+%%vskip 0
+P:C
+"Am"c3/2d/ "^/"ee | "D7"A/B/A/G/ "^/"F/E/D | "G"GG "Em"E/F/G | "Am"A2 "D"D2 |\
+"G"DG "C"EG | "B7"F/G/A "Em"G2 | "C"ee "G"d/B/G | "D"A2 "G"G2 |]
+S:https://www.folktunefinder.com/tunes/110062
+S:http://www.colinhume.com/ABC.txt
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:625
+T:Monaghan Jig, The
+R:Jig
+S:Tommy Peoples, Donegal (fiddle)
+N:As played
+H:The 'e2' in bar 5, part 2 is a unison
+Z:Bernie Stocks
+M:6/8
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:asin=B000000E5Q(Joe And Antoinette McKenna: The Best of Joe And Antoinette McKenna)
+K:D
+BEE {G}EDE | BEE FGA | (3.B.B.EE B,2B | AFD FGA | BEE {G}EDE | BEE FGA | \
+dcB ABG | {FG}FDF AFD | BEE {G}EDE | BEE FGA | B2E B,EB | AFD FGA |\
+BEE (3.F.F.EE | BEE FGA | dcB ABG | {FG}FDF AGF || EGB efg | {a}fed edA | \
+Bee EFG | {FG}FDF {B}AGF | EGB e2g | ~f2d edc | dcB ABG |1 {FG}FDF AGF \
+:|2 {FG}FDF AFD || ~g2e eBe | ~g3 bge | f {agf}g2 efg | e {afe}f2 dfa | ~g2e eBe |\
+~g3 bge |1 dcB ABG | {FG}FDF AFD :|2 dcB AdG | {FG}FDF AGF || E2E eBG | \
+eBG FGF | EGe eBG | {FG}FDF AGF | EFB GBe | Beg eag | {a}fed ABG | {FG}FDF AGF :|
+S:https://www.folktunefinder.com/tunes/111654
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

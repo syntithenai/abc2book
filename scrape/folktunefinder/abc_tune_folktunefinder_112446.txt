@@ -1,0 +1,32 @@
+X:19
+T: Lang zai duimen chang Shange
+N: C0025
+O: China,Shaanxi, Ziyang(sdl. d. Qinling-Gebirgs)
+S: I, 75, 2)]
+N: Einige Verzierungen und Glissandi.
+R: Shange. Biaoda aiqing]
+M: 2/4
+L: 1/16
+K: D
+B2B2dfd2 | B8 | e2B2d2e2- | e8
+f2f2B2Bd | d6-de | f2f2dfd2 | B2B4
+dB | d2B2d2B2
+B2B2d2B2
+B2B2d2B2
+B2B2f2d2 | e8 | f2d2B4
+d3dB2B2 | BBd2B2
+ddB2B2
+d2ddB2B2
+f3ed4 | B8 | d2e4f2
+d2d2B2B2 | d6e2 | f2f2dfd2 | B2B6
+S:https://www.folktunefinder.com/tunes/112446
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

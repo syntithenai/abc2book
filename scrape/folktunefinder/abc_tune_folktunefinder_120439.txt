@@ -1,0 +1,28 @@
+X:1
+T:Gordon's Trip to Sydney
+R:jig
+C:Dan R. MacDonald
+D:Cape Breton Fiddle and Piano Music, The Beaton Family of Mabou
+B:The Cape Breton Collection, Gordon MacQuarrie, 1940 
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:G
+f|g2 d B2 G|DGB dBG|BAB cBc|edc Bdg|
+{g} b2 g d2 B|dBG DGB|cBc DEF|GDB, G,2:|
+|:c|BAB DGB|cBc EGc|BAB cBc|edc Bdg|
+BAB DGB|cBc EGc|BAB GDB,|CB,A, G,2:|
+W:copyright - Cameron Music Sales
+S:https://www.folktunefinder.com/tunes/120439
+S:http://cranfordpub.com/tunes/abcs/BeatonFamily.abc
+S:http://www.cranfordpub.com/tunes/abcs/BeatonFamily.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

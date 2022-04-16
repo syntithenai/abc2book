@@ -1,0 +1,29 @@
+X: 11
+T:Leeds Hornpipe. FK.11
+M:4/4
+L:1/8
+Q:160
+C:"MS 40 p 39"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:B_
+B,DFD B,BdB | FAcA Bdfd | egec dfdB | cBAG FEDC |!
+B,FDF B,BdB | FAcA Bdfd | egec dfdB |  GecA B2 z2 ||!
+dfbf dfbf | dfbf edcB | dfbf dfbf | edcB A2 Bc |!
+ dfbf dfbf | edcB AcAF | egec dfdB | GecA B2 B2 :|]
+S:https://www.folktunefinder.com/tunes/127160
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

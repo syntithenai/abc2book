@@ -1,0 +1,24 @@
+X:53
+T:Hategana de la Moina
+O:rumania
+M:2/4
+L:1/8
+Q:1/4=115
+K:G
+V:1
+"G" GA Bc |de d3/2 c/|"D7" d/e/=f/ e/d/^c/d/ e/|"G" =f/e/d/ ^c/d/e/d |
+"G" GA Bc |de d3/2 c/|"D7" dg f/g/a/f/ |1 "G" g/d/e/f/ g/D/E/F/ :|2
+"G" g/d/e/f/ gG || |:"G"  (3g/f/g/ gg g|"E7" f/g/ ee3/2 d/|"Am" e/d/c cc |
+B/c/A A2 |"D" d/e/d/^c/ d/e/d/^c/ |d/e/d/c/ B3/2 A/|"G" GD/ D/^C/D/E/ F/|
+"D7" G/B/A/ F/"G" G2 :|
+S:https://www.folktunefinder.com/tunes/111284
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:221
+T:Spot the Wallop
+R:jig
+H:See also #77
+Z:id:hn-jig-221
+M:6/8
+K:D
+~F3 DFA|BAF dAG|~F3 DFA|BAF EDE|
+~F3 DFA|BAF d2e|fed edB|BAF AFE:|
+|:Bcd eAA|fed eAA|Bcd eAA|BAF AFE|
+Bcd eAA|fed efg|age edB|BAF AFE:|
+|:DFA ~d3|edc ~d3|DFA d2A|BAF AFE|
+DFA ~d3|edc d2e|fed edB|BAF AFE:|
+S:https://www.folktunefinder.com/tunes/117660
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj2.abc
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

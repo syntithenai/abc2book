@@ -1,0 +1,47 @@
+X: 26
+T:Ffarwel Trwy'r Pwll
+T:Farewell through the Puddle (sic)
+M:C|
+L:1/8
+Q:120
+C:Trad
+S:51 Welsh Airs
+R:
+A:Wales
+N:The Welsh word 'pwll' has two meanings; 'pwll glo' is a coal 'mine';
+N:'pwll nofio' is a swimming 'pool'.  A puddle is a 'pwllyn'.
+N:Another word 'pwyll' means 'sense or discretion'.  I'd be inclined
+N:to take (away) the piss and leave discretion behind!  BM.
+N:
+N:       .
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:C
+G/A/B/|c2ce d/c/B/A/ GA/B/|cGAB cGEC|
+F/G/A/B/ A/c/B/A/ G/A/B/c/ B/d/c/B/|cB/A/ G/F/E/D/C3:||!
+M:6/8
+g/f/|efg cde|(d>e)c {cA}B2A|GA_B GAB|AD^F G2:||!
+M:C|
+L:1/8
+z|cGAB c3 A/B/|cBAG ADD2|d/e/f/e/ dc BA/G/ cd|ed/c/ ({de}d2 {cd}c3:||
+S:https://www.folktunefinder.com/tunes/109496
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/FarewellThroughThePuddleSic.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/FfarwelTrwyrPwll.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/FfarwelTrwyrPwll.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:290
+T:Sheffield Hornpipe
+% Nottingham Music Database
+S:Lesley Dolman
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+FE|"D"D2FA d2dc|"G"BGBd "D"A2Ad|"A"c2ce "D"d2df|"Em"ecdB "A7"AFGE|
+"D"D2FA d2dc|"G"BGBd "D"A2Ad|"G"BGBd "A7"cAce|"D"d2f2 d2:|
+P:B
+cd|"A"ecAA A2de|"D"fdAA A2ef|"G"gefd ecdf|"Em"ecdB "A7"AFGE|
+"D"D2FA d2dc|"G"BGBd "D"A2Ad|"G"BGBd "A7"cAce|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/129785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:21
+T:Chorus Jig
+M:2/2
+C:Traditional American
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+K:D
+P:A
+|:AG | "D"F2DF ABAG | FADF A2d2 | D3F ABAF | "A"GFEF G2:|
+%%vskip 0
+P:B
+[K: G]Bc | "G"dBcA BGFG | "D"Ad^cd A2B=c | "G"dBcA BGFG | "D"AcBA "G"G2Bc |
+"G"dBcA BGFG | "C"ABcd efge | "G"dBcA BGFG | "D"AcBA "G"G2 |]
+P:C
+[K: D] |:ag | "D"fddd fddd | fdfg "A"abag | "D"fddd fddd | "C"=cdef g2:|
+%%vskip 0
+P:D
+[K: G]Bc | "G"dBcA BGFG | "D"Ad^cd A2B=c | "G"dBcA BGFG | "D"AcBA "G"G2Bc |
+"G"dBcA BGFG | "C"ABcd efge | "G"dBcA BGFG | "D"AcBA "G"G2 |]
+S:https://www.folktunefinder.com/tunes/110068
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

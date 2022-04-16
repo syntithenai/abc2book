@@ -1,0 +1,22 @@
+X: 254
+T:Stone's Rag
+M:4/4
+L:1/8
+K:C
+"C"cdeg- gage|ageg- gag2|"F"FGAc- cdcA|"(D)"dcAc- cdcA|
+"G"BdBG- G^FGA|BdBG- G^FG2|[1"C"cdeg- "C#dim"gage|"G7"g4 e4:|[2 "D7"g^fga- "G7"age2|"C"c4z4||
+"A7"agea- age2|agea- age2|"D7"dcAd- dcA2|dcAd- dcA2|
+"G7"BdBG- G^FGA|BdBG- G^FG2|"C"cdeg- "C#dim"gage|"G7"g4 "E7"^g4|
+"A7"agea- age2|agea- age2|"D7"dcAd- dcA2|dcAd- dcA2|
+"Cdim"c'4 a4|"C"gage- "Am"edcA|"G7"GAce- ecd2|"C"c8|]
+S:https://www.folktunefinder.com/tunes/112072
+S:http://www.alfwarnock.info/alfs/abc/accw03.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

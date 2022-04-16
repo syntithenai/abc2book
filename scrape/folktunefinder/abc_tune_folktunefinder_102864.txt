@@ -1,0 +1,30 @@
+X:1
+T:Maskeradpolskan
+T:efter Alfred Petersson, Nttraby, Blekinge (SvL, Band 18, nr 274)
+O:Nttraby, Blekinge
+S:Svenska Ltar
+R:Polska
+C:Alfred Petersson
+N:Svenska Ltar, Band 18 nr 274
+M:3/4
+L:1/16
+Q:1/4=80
+Z:Konverterad till abc-format av  Olle Paulsson 05-01-03
+K:C
+uG2|c2(cB) c2e2 e2e2|c2(cB) c2e2 e2e2|d2d^c d2e2 f2a2|g4 (^fg).a.g (=fe).f.d|
+c2(cB) (c2e2) e2e2|c2(cB) (c2e2) e2e2|d2d^c (d2e2) f2g2| (af)dB d4 c2:|
+|:ue2|g2g2 g2(ag) (fe)dc|(Bcde) f2f2 f4|f2f2 f2ag (fe)dc|(Bc)de d2g2 G4|
+(cB).c.d c2e2 e2e2|(dcBc) (d2e2) f2f2|.e2(eg) .f2(fa) .g2(ge)|(af)dB d4 c2 :|
+|:e2|g2g^f (g2c'2) e2g2|=f2fe (fg).a.f d2e2|f2fe (f2a2) d2f2|e2(ed) e2g2 (gf).d.B|
+c2cB (c2e2) e2e2|(dcBc) (d2f2) .f2.f2|.e2(eg) .f2(fa) .g2(ge)|(af)dB d4 c2:|
+S:https://www.folktunefinder.com/tunes/102864
+S:http://www.folkwiki.se/pub/cache/Maskeradpolskan_96899e.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 35
+T:Eyes of Blue
+% Nottingham Music Database
+S:Trad, via EF
+M:4/4
+L:1/4
+K:C
+"C"EG E2|"E7"E^G E3/2E/2|"A7"EA EA|"A7"EA EA|"D7"cA c/2A3/2|"G7"G2 A2|
+"C"EE G2|"G7"EE G2|"C"EG E2|"E7"E^G E3/2E/2|"A7"EA EA|"A7"E/2A3/2 EA|
+"D7"cA c/2A3/2|"G7"G2 A2|"C"c4-|"C"cc cc|"E7"Bc B3/2E/2|"E7"Bc B2|"A7"BA AB|
+"A7"A^F =FE|"D7"AB A3/2D/2|"D7"AB A2|"G7"Bd BG|"G7"FE D^D|"C"EG E2|
+"E7"E^G E3/2E/2|"A7"EA EA|"A7"E/2A3/2 EA|"D7"cA c/2A3/2|"G7"G2 A2|"C"cG/2AG/2E\
+|"C"C4||
+S:https://www.folktunefinder.com/tunes/107983
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsD-G.txt
+S:http://www.guitarnut.com/nmd/reelsD-G.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsd-g.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:37
+T:The Armigerous Goose
+T:(timing more explicit for MIDI;
+T:human readers use other version)
+C:Michael Stoddard and D. Glenn Arthur Jr.
+%%abc-version 2.0
+%%abc-edited-by D. Glenn Arthur Jr.
+W:Scottish snaps (and repeats) notated explicitly for the sake of 
+W:MIDI generation; version written with sixteenthdotted-eighth 
+W:is easier to read.
+O:Pennsic War
+M:C
+Q:1/4=180
+L:1/32
+K:C
+%A1
+G4G4G4G4 c8 d8 | e4d4 c8 d8 g8 | G4G4G4G4 c8 d8 | e4d4 c8 d16 |
+g8 g4g4 e8 d8 | e4d4 c8 d8 G8 | c4d4 e8 d8 g8 | e4d4 c8 c16 ||
+%A2
+G4G4G4G4 c8 d8 | e4d4 c8 d8 g8 | G4G4G4G4 c8 d8 | e4d4 c8 d16 |
+g8 g4g4 e8 d8 | e4d4 c8 d8 G8 | c4d4 e8 d8 g8 | e4d4 c8 c16 ||
+%B1
+de7 de7 d4e4 g8 | de7 de7 d8 G8 | de7 de7 d4e4 g8 | a4g4e4d4 c4d4 c8 |
+GA7 GA7 c4d4 e8 | g8 e4g4 a8 g4a4 | c'4a4 g8 g4e4 d8 | e4d4 G8 c16 ||
+%B2
+de7 de7 d4e4 g8 | de7 de7 d8 G8 | de7 de7 d4e4 g8 | a4g4e4d4 c4d4 c8 |
+GA7 GA7 c4d4 e8 | g8 e4g4 a8 g4a4 | c'4a4 g8 g4e4 d8 | e4d4 G8 c16 |]
+S:https://www.folktunefinder.com/tunes/124955
+S:http://www.panix.com/~dglenn/music/ArmigerousGoose.abc
+S:http://www.panix.com/~dglenn/music/ArmigerousGoose.abc.html
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

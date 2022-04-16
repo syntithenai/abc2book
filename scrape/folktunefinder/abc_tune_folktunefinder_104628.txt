@@ -1,0 +1,58 @@
+X:12
+T:Kick in the Glass, The
+R:jig
+C:Tiennet Simonnin
+M:6/8
+K:G
+V:1
+DGF ~G3|EGB AFD|GBd g2e|dBG ABc|
+BGB FBE|F2f dAF|~E3 c2B|AGA FGE|
+DGF ~G3|EGB AFD|GBd g2e|dBG ABc|
+BGB FBE|F2f dAF|~E3 c2B|AGF GBd|
+~g3 fed|ged BGF|~E3 c2B|AGF def|
+~g3 agf|ged BGF|~E3 c2B|AGF GBd|
+~g3 fed|ged BGF|~E3 c2B|AGA FGE|
+DGF ~G3|EGB ABd|gfd cBG|Adc AGF|G6||
+V:2
+M:6/8
+K:G
+z2[B,DG] z2[B,DG]|z2[A,CE] z2[FCA,]|
+z2[B,DG] z2[B,DG]|z2[B,DG] z2[B,^DF]|
+z2[B,EG] z2[B,EG]|z2[FDA,] z2[FDB,]|
+z2[CEG] z2[CEG]|z2[A,CE] z2[A,CF]|
+z2[B,DG] z2[B,DG]|z2[A,CE] z2[FCA,]|
+z2[B,DG] z2[B,DG]|z2[B,DG] z2[B,^DF]|
+z2[B,EG] z2[B,EG]|z2[FDA,] z2[FDB,]|
+[A,3C3E3] [C3E3G3]|[F3D3A,3] [B,3D3G3]|
+z2[B,DG] z2[B,DG]|z2[B,DG] z2[B,DG]|
+z2[A,CE] z2[A,CE]|z2[FDA,] z2[FDA,]|
+z2[B,DG] z2[FDA,]|z2[B,EG] z2[B,DF]|
+z2[CEG] z2[CEG]|z2[FCA,] z2[B,DG]|
+z2[B,DG] z2[B,DG]|z2[B,DG] z2[B,DG]|
+z2[CEG] z2[CEG]|z2[A,CE] z2[A,CF]|
+z2[B,DG] z2[B,DG]|z2[A,CE] F,G,A,|
+[B,3D3G3] [B,3E3G3]|[A,3C3E3] [F3C3A,3]|[B,6D6G6]||
+V:3
+M:6/8
+K:G
+G,,,2z D,,2z|C,,2z D,,2z|B,,,2z G,,,2z|G,,2z F,,2z|
+E,,2z E,,,2z|F,,,2z B,,,2z|C,,2z B,,,2z|A,,,2z D,,2z|
+G,,,2z D,,2z|C,,2z D,,2z|B,,,2z G,,,2z|G,,2z F,,2z|
+E,,2z E,,,2z|F,,,2z B,,,2z|A,,,3 D,,3|D,,3 G,,,3|
+G,,,2z D,,2z|B,,,2z G,,,2z|A,,,2z E,,2z|D,,2z F,,2z|
+G,,2z F,,2z|E,,2z D,,2z|C,,2z E,,2z|D,,2z G,,,2z|
+G,,,2z D,,2z|B,,,2z G,,,2z|C,,2z B,,,2z|A,,,2z D,,2z|
+G,,,2z D,,2z|C,,2z D,,E,,F,,|
+G,,3 E,,3|A,,,3 D,,,3|G,,,6||
+S:https://www.folktunefinder.com/tunes/104628
+S:http://domren.free.fr/ABC.htm
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

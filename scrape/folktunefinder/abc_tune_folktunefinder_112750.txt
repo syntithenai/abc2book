@@ -1,0 +1,30 @@
+X:323
+T: Yaolan qu
+N: C0961
+O: China,bei Dongbei, Nordosten
+S: MM, S. 368 , Quelle S. Bandprotokoll)]
+N: Die Saengerin Lei Huilan ist Angehoerige der Zhuang Minderheit und
+N: studiert an der Guangzhouer Musikhochschule.
+N: Aufgenommen am 5.5.87
+N: Kodiert von Wang Sen. - In der Kopie ist die Wiederholung der Phrasen
+N: 1-4 notiert! 
+R: Xiaodiao, Mengjiangn diao. Muqin hong haizi shueijiao]
+M: 2/4
+L: 1/16
+K: F
+F2F2F3D | C2F2F4 | c2dfdcA2 | cAG2G4
+G2c2c4 | G2AGF4 | FDAAGFFD | C2C6
+DFCDF3G | AGFGc3A | G2A2A2CD | G2E2D4
+dcAcd3c | dcAdc4 | AcAGFDFD | c2AGGFD2 | C8
+S:https://www.folktunefinder.com/tunes/112750
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, mengjiangn diao. muqin hong haizi shueijiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

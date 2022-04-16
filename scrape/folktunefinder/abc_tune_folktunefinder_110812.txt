@@ -1,0 +1,35 @@
+X: 10
+T:Title obscured "nny, a new Hornpipe"
+M:3/2
+L:1/4
+S:Marsden
+Z:ps
+K:GMin
+BG2ABd|cf2e/d/cB/A/|BG2ABd|dg2fd2||
+g>agfdc/B/|f>gfe/d/c2|g>agfdc|g>agfd2||
+GBAcBd|cf2e/d/cB/A/|GBAcBd|dg2fd2||
+G/A/B/G/ A/B/ c/A/ B/c/d/B/|cf2e/d/ c/d/e/c/|G/A/B/G/ A/B/ c/A/ B/c/d/B/
+|d
+ggf/e/d2||
+gBdBgB|cf2e/d/cB/A/|gBdBgB|dg2f/e/d2||
+g/f/g/a/ gf/e/dc/B/|f/^e/f/g/ f/g/f/d/ c/d/c/A/|g/f/g/a/ g/a/g/f/ e/d/c/
+B/|g/f/g/a/gf/e/ d/c/B/A/||
+GBAcBg|Ff2e/d/cB/A/|GBAgBg|Gg2fd/c/B/A/||
+BGDgBd|cf2e/d/cB/A/|BGDgB/c/d/B/|dg2fd2||
+b>a g/a/g/f/dc/B/|Af2dcB/A/|b>a g/a/g/f/dc/B/|dg2fd2||
+b/a/g/f/ g/f/e/d/ e/d/c/B/|Af2dcB/A/|b/a/g/f/ g/f/e/d/ e/d/c/B/|dg2fd2||
+g/d/ B/c/ d/B/ g/d/ B/c/d/B/|cf2e/d/cB/c/|d/B/ c/d/ e/c/ d/e/ f/d/ =e/f/
+|B
+g2fd2||
+S:https://www.folktunefinder.com/tunes/110812
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:110
+T:Rakish Paddy
+R:Reel
+H:The tune comes from the Scottish tune "Cabar Feidh" (The Deer's Antlers).
+H:It is related to "The Copperplate", \#308.
+H:This is the standard version with variations.
+H:See also \#54 (4-part version), \#647 (Donegal version)
+Z:Transcribed by Henrik Norbeck: hn-reel-53
+M:C|
+D:asin=B0000002MB(Tony Furtado: Full Circle)
+D:asin=B00000032B(Pierre Bensusan: Musiques)
+D:asin=B0000013AI(Boys of the Lough, et al: The Treasure Of My Heart)
+D:asin=B0000013AL(Gentlemen Pipers: The Gentleman Pipers)
+D:asin=B000002NOB(Pat Kilbride: Rock And More Roses)
+D:asin=B000005CPO(Martin Hayes: Under The Moon)
+D:asin=B000005CQH(Altan: The Best Of Altan)
+D:anop=B000000G9H(Coleman, et al: The Wheels Of The World: Early...Vol. 1)
+K:Dmix
+c3B c2AB|cBAG EG~G2|Add^c de=fe|dcAG FGAB| \
+c3B c2AB|cBAG EFGE|DEFG ABcA|1 dcAG FGAB:|2 dcAG FDD2|| \
+|:eg~g2 ag~g2|eg~g2 edBd|ea~a2 bgag|eaag edBd| \
+eg~g2 ag~g2|egge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB||
+S:https://www.folktunefinder.com/tunes/111551
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

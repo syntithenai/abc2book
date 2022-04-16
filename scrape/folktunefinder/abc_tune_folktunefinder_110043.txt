@@ -1,0 +1,22 @@
+X:105
+T: Frau von Weissenburg
+N: Q0030B
+O: Mitteleuropa, Deutschland (DDR) , Provinz Brandenburg 
+R: Ballade, Ehebruch, Mord, Moral
+M: 4/8
+L: 1/16
+K: C
+c4 | c2G2A2G2 | c4
+e4 | d2c2B2d2 | G4z2
+c2 | c2G2A2EF | G4E2
+G2 | c2G2E2D2 | C4
+S:https://www.folktunefinder.com/tunes/110043
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, ehebruch, mord, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

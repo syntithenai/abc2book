@@ -1,0 +1,23 @@
+X:12
+T: Siehgst an doch do koemmt er, kleena Schrittla nimmt er
+N: V0003
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Autenhausen
+R: Geselligkeits - Lied, Scherz
+M: 2/4
+L: 1/16
+K: C
+G,3F,E,2F,2 | G,4C4
+G,3F,E,2F,2 | G,4C4
+D3DD2C2 | B,2A,2G,4
+G,2G,2A,2B,B, | C2C2C4
+S:https://www.folktunefinder.com/tunes/127597
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Geselligkeits - lied, scherz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

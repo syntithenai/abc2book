@@ -1,0 +1,27 @@
+X:13352
+T:Polkett
+R:Polkett
+O:Sweden
+M:4/4
+K:G
+Bc | {B}d2Bc {B}d2Bc | {B}d2B2 G2Bc |\
+{B}d2Bc d2g2 | [A6f6] fg | \
+{g}a2 fg {g}a2 fg | {g}a2 f2 d2de | \
+d2c2 {Bc}B2A2 |1 [G,6G6] :|2 G2g2 f2=f2 |:\
+e4 ^c4 | G2g2 f2e2 | d4 B4 | G2g2f2g2 |\
+{g}[A4a4] {fg}f4 | d2a2 ^g2a2 | \
+{a}b4 g4 | d2g2f2=f2 | \
+e4 ^c4 | G2g2f2e2 | d4 B4 | G2g2{fg}f2e2 |\
+d4c4 | E4F4 | G2GG G2G2 \
+|1[G2g2]g2f2=f2 :|2 g4 [F4A4d4g4] ||**
+S:https://www.folktunefinder.com/tunes/116397
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

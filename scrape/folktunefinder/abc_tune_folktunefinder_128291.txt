@@ -1,0 +1,31 @@
+X:28
+T:Honorable Mr. Gray's Strathspey
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/5/04
+N:Petrie's Second Collection, page 10
+% Gore's Index gives earliest publication as Robert Mackintosh's
+% "68 New R., Str. & Q./Steps" 1793
+L:1/8
+M:C
+R:Strathspey
+K:F
+d|:c>df>g (a/g/f/e/) fd|c>d f>a g<G B<d|c>df>g (a/g/f/e/) f>d|c<Af<d         c<FA<d:|
+   c<Af<A a<Af<A       |c<Af<c  d<GB<d |c<Af<c a<fg<e        |f<cf<A         d<GB<d |
+   c<Af<A a<Af<A       |c<Af<c  d<GB<d |c<Aa<f g<ef<d        |c>f (e/f/g/e/) fFF   |]
+S:https://www.folktunefinder.com/tunes/128291
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Honorable_Mr_Grays_Strathspey.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/28.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

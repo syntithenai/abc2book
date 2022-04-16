@@ -1,0 +1,26 @@
+X:28
+T:Trolldans
+C:Trad.
+N:
+O:Island
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/8
+L:1/8
+Q:1/4=120
+K:F
+C | "F"F F/F/ F E | "G/F"(F/G/) (A/=B/) c>c | "F"A A c>c |\
+ "C7"B G "F"F2 | A A "C/F"G G | "F"A A F F |!
+ A A/A/ "C/F"G F/G/ | "F"A2 z2 | "Am"c c/c/ "Bb"d d/d/ |\
+ "Gm"B A/A/ "C"G F/F/ | "F"F2 F2 | "Dm"A G/G/ A B/B/ |!
+ "Am"c c/c/ "Bb"d B/B/ | "Gm"(BA) "C7"G2 | "F"F2 z |]
+%%vskip 0.5cm
+%%sep
+%%text Sverige :
+S:https://www.folktunefinder.com/tunes/112153
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/8
+% Has_accompaniment_chords Has chords

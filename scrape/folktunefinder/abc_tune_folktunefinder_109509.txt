@@ -1,0 +1,40 @@
+X: 40
+T:Blodau'r Gwinwydd
+T:The Blossom of the Honey-suckle  (sic)
+M:3/4
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:Minuet
+A:Wales
+N:My dictionary gives honeysuckle as 'gwyddfid'.
+N:'Gwinwydd' means 'vine' ('gwin' is 'wine').  BM.
+N:           .
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:Am
+E2|A4A2|A^GABcd|e2E2E2|E2c2B2|c3BE2|B3AB2|A2AcB^G|A4:||!
+C2|(C3D)EF|G3FE2|A^GABcd|{cd}e2E2z2|(E3F)GA|{AF}G3FE2|F2E2D2|C6|!
+(c3d)c>d|(B3c)Bc|A2AcBA|(^G3^F)E2|A2E2F2|E2c2B2|c2AcB^G|A4:||
+S:https://www.folktunefinder.com/tunes/109509
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/BlodaurGwinwydd.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/BlossomOfTheHoneySuckleSic.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/BlodaurGwinwydd.abc
+% Rhythm Minuet
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

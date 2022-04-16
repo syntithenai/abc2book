@@ -1,0 +1,24 @@
+X:150
+T:Karl Fant's Waltz
+M:3/4
+L:1/8
+K:Gm
+D2||G2 (G^F) GA|B2  BA Bc|d2 (d^c) d=e|f2 (f=e) gf|\
+d2 (dc) Ac|B2 (BA) cA|B(c BA) G^F|1 G4 D2 :|2 G4 A2 ||
+B2 (BA) B2|(d2 c2 B2)|A3 A GA|c2 (B2 A2)|\
+G2 (G^F) GA|(B2 A2 G2)|FG AF AF|1 G4 A2 :|2 G4 D2 ||
+d z z2 cd|B4 G2|A2 (Ac) BA|B4 (GB)|\
+d2 (d^c) de|f4 (df)|a2 (ag) e^c|d4 d2|
+g3 ^f ga|^f4 d2|=e2 (ec) eg|=f4 d2|\
+g2 (gd) cd|B2 (A2 G2)|A2 (A^F) AF|1 G4 D2:|2 G4 G2 ||
+S:https://www.folktunefinder.com/tunes/112373
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/waltzes.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

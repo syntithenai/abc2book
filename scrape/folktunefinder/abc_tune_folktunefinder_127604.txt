@@ -1,0 +1,22 @@
+X:19
+T: Siehgst an net, do kuemmt er, klaana Schrittla nimmt er
+N: V0003G
+O: Europa, Mitteleuropa, Deutschland, Ober - Franken, Puechitz
+R: Geselligkeits - Lied, Scherz
+M: 2/4
+L: 1/16
+K: C
+G,3G,A,2G,2 | F,4B,4
+F,2F,2G,2F,2 | E,4C4
+E3EF2E2 | E2D2D4
+D2D2E2D2 | D2C2C4
+S:https://www.folktunefinder.com/tunes/127604
+S:http://ifdo.ca/~seymour/runabc/esac/variant0.abc
+% Rhythm Geselligkeits - lied, scherz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

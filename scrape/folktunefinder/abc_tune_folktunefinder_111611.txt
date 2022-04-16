@@ -1,0 +1,28 @@
+X:410
+T:Kesh Jig
+M:6/8
+R:Jig
+Z:As played by the CHB
+D:asin=B000005CS0(The Bothy Band: 1975: The First Album)
+D:asin=B000005CTU(Brendan Power: New Irish Harmonica)
+D:asin=B000005CU6(The Bothy Band: BBC Radio One: The Bothy Band Live In Concert)
+D:asin=B000005C39(William Coulter & Friends: Celtic Crossing)
+D:asin=B000005CS2(The Bothy Band: After Hours (Recorded Live In Paris))
+D:anop=B0000088UA(Billy Bragg: BBC Live in Concert [IMPORT])
+K:G
+D|G3 GAB|A3 ABd|edd gdd|edB dBA|\
+G3 GAB|A3 ABd|edd gdB|1 AGF G2:|2 AGF G2A|:\
+B3 dBd|ege dBA|B3 dBG|ABA A2G|\
+B3 dBd|ege dBd|g3 a3|bgf g3:|
+S:https://www.folktunefinder.com/tunes/111611
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:42
+T:Shores of Lough Gowen
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:A Aeo
+E|\
+"Am"A2A AGE|~EGD ECE|"Dm"ABA "Em"AGE|"F"c2d "G"ecB|
+"Am"A2A AGE|~EGD ECG|"F"cde fgf|"G"ecA A2:|
+B|\
+"C"cde ~g2e|"C"gea "G"~ged|"C"cEG cde|"Bb"fgf "Am"ecA|
+"C"cde ~g2e|"Em"gea ~ged|"Dm"cde "Em"fgf|"F"ecA A2:|]
+S:https://www.folktunefinder.com/tunes/125715
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

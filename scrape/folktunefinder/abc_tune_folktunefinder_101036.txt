@@ -1,0 +1,21 @@
+X: 4
+T:Tenpenny Bit
+R:jig
+C:Trad
+M:6/8
+L:1/8
+K:G
+eAA eAA | BAB GBd | eAA eAA | def gfg | eAA eAA | BAB GBd | efg edB | BA
+G A3 :|
+eaa aga | bab ged | eaa aga | bab g2 d | eaa eaa | bab ged | efg edB | B
+AG A3:|
+S:https://www.folktunefinder.com/tunes/101036
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+S:http://www.banjolin.co.uk/tunes/pvs_irish.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

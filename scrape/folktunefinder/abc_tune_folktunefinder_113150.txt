@@ -1,0 +1,32 @@
+X: 141
+T: The Red Crow
+C: Mairead Ni Mhaonaigh
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A minor
+|:\
+"Am"A,/A,/A,EA, B,G,G,B,|A,/A,/A,EG ~^FDEG|\
+"C"AG~ED EA,CD|"D"ECDC "G"B,G,G,B,|
+"Am"A,/A,/A,EA, B,G,G,B,|A,/A,/A,EG ~^FDEG|\
+"C"AG~ED EA,CE|1\
+"Em"DB,G,B, A,/A,/A,G,/A,/B,:|2\
+"G"DB,G,B, "Am"A,4||
+"Am(D)"A/A/AeA ceAc|eAce dcBA|"G(Em)"G/G/Gdc BdGB|dGBd "Em"edcB|
+"Am(F)"A/A/AeA ceAc|eAcb "Dm"ageg|~agec "E"dfed|cABG A2E/^F/G|
+"Am(D)"A/A/AeA ceAc|eAce dcBA|"G(Em)"G/G/Gdc BdGB|dGBd "Em"edcB|
+"F"A/A/AaA gA^fA|"D"A/A/AcA ~BAGB|"G"cBAG AGED|"Em"ECDB, CA,B,G,|]
+S:https://www.folktunefinder.com/tunes/113150
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Aroplane du Coglais
+E:12
+Z:Roger Ngaret (94-95)
+R:marche
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=100
+M:2/4
+L:1/16
+K:C
+Gc |: "C"e2d2 ccGc | e2d2 c4 | "G"f2df "C"e2ce |1\
+"G"d2Bd "C"e2Gc :|2 "G"d2Bd "C"c2ce ||\
+g2a2 ggeg | c'2a2 g4 | "G"f2df "C"e2ce |1\
+"G"d2Bd "C"e2ce :|2 "G"d2Bd "C"c2 |]
+S:https://www.folktunefinder.com/tunes/124971
+S:http://termen.free.fr/danses/rennais/AeroplaneduCoglais.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

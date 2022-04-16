@@ -1,0 +1,37 @@
+X: 22
+T:Broosom Hornpipe
+M:3/2
+L:1/4
+S:Marsden
+N:[Raise your 3rd and 4th Strings a Note higher]
+N:HERE AS SOUNDS; Probably should be k: A. 
+N:cf Wright's 'A Hornpipe made in Lancashire' #49
+Z:ps
+K:D
+AeAB/=c/Ae|FB2F^G>B|AeAB/=c/Ae|cA2F^G>B||
+Aagfec|dB2F^G>B|Aagfed|cA2F^G>B||
+A/B/ c/d/ e/f/e/c/ e/f/e/c/|dB2F^G>B|A/B/ c/d/ e/f/e/c/ e/f/e/c/|cA2EFE/
+D/||
+CEDFCE|B,B2E^G/F/E/D/|CEDFCE|B,B2F^G>B||
+A/B/ c/d/ e/f/e/c/ e/f/e/c/|dB2F^G>B|A/B/ c/d/ e/f/e/c/ e/f/e/c/|e/f/e/c
+/ e/
+f/e/c B/c/d/B/||
+A/B/ c/d/ e/f/e/c/ e/f/e/c/|dBg/f/ e/c/ B/c/d/B/|Aag/a/g/f/ e/f/e/d/|c/d
+/e
+/c/AF^G/F/E/D/||
+CEDFCE|B,B2E^G/F/E/D/|A,CB,DCE|A,A2F^G/F/E/C/||
+A,>CB,AA,A|B,B 2F^G/F/E/D/|C/D/E/C/ D/E/F/D/ C/D/E/C/|A,A2F^G>B||
+Aagfec|dcBA^GB|Aagfed|cA2F^GF/E/||
+S:https://www.folktunefinder.com/tunes/110824
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

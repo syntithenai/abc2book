@@ -1,0 +1,25 @@
+X: 9
+T:Irish Setter
+M:6/8
+L:1/8
+Q:100
+R:Jig
+K:Am
+E|"Am"ABA AGE|"Em"GAB "Am"c2B/2c/2|"Dm"ded dcd|"Em"efe "Em7"dcB|
+"Am"ABA AGE|"Em"GAB "Am"c2B/2c/2|"Dm"dfe "Em"dcB|"Am"A3- A2::
+G|"C"cee edc|edc cBA|"G"GBB Gdd|GAB BAB|"C"cee edc|
+"G"Bcd "G7"def|"Am"gfe "Em"dcB|"Am"cAA A2:||
+S:https://www.folktunefinder.com/tunes/119747
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

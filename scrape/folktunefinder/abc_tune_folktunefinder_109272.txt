@@ -1,0 +1,25 @@
+X: 40
+T:Scots Wha Hae
+% Nottingham Music Database
+S:Kevin Briggs
+M:3/4
+L:1/4
+K:F
+C|"F"C2C|"C7"C2D|"F"C2D|"F"F3|"Bb"D2D|"Bb"D2C|"Bb"D2E|"Bb"F2G|"F"A2A|"A7"G2F|
+"Dm"F2G|"A7"A2G|"Dm"F2D|"Bb"D2C|"F"C3-|"C7"C3|"F"A2A|"F"A2G|"F"A2B|"F"c3|\
+"C"G2G|
+"G7"G2F|"C"G2A|"C7"B3|"F"c2A|"A7"G2F|"Dm"F2"A7"G|"Dm"A3|"Bb"F2D|"Bb"D2C|"F"C3-\
+|"F"C2:|
+S:https://www.folktunefinder.com/tunes/109272
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/waltzes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/waltzes.txt
+S:http://www.guitarnut.com/nmd/waltzes.txt
+S:http://abc.sourceforge.net/NMD/nmd/waltzes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

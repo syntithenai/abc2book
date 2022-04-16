@@ -1,0 +1,27 @@
+X:6
+T:Queen of the Rushes, The
+R:jig
+H:Also played in G. 2nd part sometimes played with =c all the way.
+N:Related to The Humours of Ennistymon, #142
+D:Planxty
+Z:id:hn-jig-6
+M:6/8
+K:D
+AG|:F2D DEF|G2E EFG|F2D DAF|GED DAG|F2D DEF|G2E EFG|ABA GEA|1 DED DAG:|2 DED D2B||
+|:c2A Bcd|ecA AGE|d2e fed|ecA A2B|c2A Bcd|ecA AGE|~F3 GEA|1 DED D2B:|2 DED DFG||
+~A3 dAF|~A3 dAF|~G3 EFG|EFG EFG|~A3 dAF|~A3 dAG|~F3 GEA|DED DFG|
+~A3 dAF|~A3 dAF|~G3 EFG|=cEE EFG|~A3 dAF|~A3 dAG|~F3 GEA|DED D||
+S:https://www.folktunefinder.com/tunes/125535
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj0.abc
+S:http://www.norbeck.nu/abc/i/hnj0.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

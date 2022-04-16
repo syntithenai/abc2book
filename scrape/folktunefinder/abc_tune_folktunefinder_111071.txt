@@ -1,0 +1,23 @@
+X:3
+T:XVI. Would my conceit, that first enforst my woe,
+T:Tenor.
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+N:Original clef, C on third line
+K:E phr -8va
+%%MIDI transpose -12
+z4 ^G8 z A2 B c d e2 c2 e e d2 c2 B4
+S:https://www.folktunefinder.com/tunes/111071
+S:http://www.laymusic.org/music/dowland/conceit/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:82
+T:Holms o' Ire
+O:scotland
+R:Reel
+R:Hornpipe
+M:4/4
+A:Orkney
+K:G
+GA|\
+B2AB c2Bc|eddB G2B2|dcAF DFAc|ed^cd B2GA|\
+B2AB c2Bc|eddB G2B2|dcAF DFAB |
+|1 G2BA G2DG :|2 G2BA G2 :: Bd|\
+gece gece|dBGB d2d2|
+cAFA c2c2|dBGB d2d2|\
+gece gece|dBGB d2d2|cAFD CDEF|G2BA G2:|
+S:https://www.folktunefinder.com/tunes/100374
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Hornpipe
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

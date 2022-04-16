@@ -1,0 +1,47 @@
+X:5
+T:Sparf Fars Polska (Hambo)
+R:polska O
+C:Anders Sparf
+Z:1999 Brian Wilson
+Z:from Peter Barnes "A little Couple-Dancemusik", p. 191
+Z:modified by Falu Spelmannslag tape version
+M:3/4
+L:1/8
+K:A
+P:A
+|: "A"A,>A, C>E A>c \
+| "D"d>f "A"e2 c2 \
+| "E"cB/c/ d>E G>B \
+| "A"BA/B/ cB AE \
+| "A"A,>A, C>E A>c \
+| "D"d>f "A"e2 c2 \
+| "E"cB/c/ d>E G>B \
+| "A"BA/G/ A4 :|
+P:B
+|: "D"a>g a>b a>=g \
+| f2 d3 f \
+| "A"a2 e>f e>d \
+| c2 A4 \
+| "E"f>e d>c B>A \
+| G2 E4 \
+| "E"E>E F>F G>B \
+| "A"A>B c/B/c/d/ e>e \
+| "D"a>g a>b a>dg \
+| f2 d3 f \
+| "A"a2 e>f e>d \
+| c2 A4 \
+| "E"f>e d>c B>A \
+| G2 E4 \
+| "E"E>E F>F G>B \
+| "A"A2 A4 :|
+S:https://www.folktunefinder.com/tunes/114305
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/SparfFarsPolskaHambo.abc
+% Rhythm Polska o
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

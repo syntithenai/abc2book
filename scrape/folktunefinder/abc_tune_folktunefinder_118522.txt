@@ -1,0 +1,24 @@
+X:26
+T:Frosty Morning
+C:Traditional
+R:Reel
+M:4/4
+Q:1/8=120
+L:1/8
+K:Adorian
+(D2|:"Am"E)D(EG)A2A2|AB(cd)e2(3(DEF|"G"G2)BAG2D2|GA(Bcd2)(D2|
+"Am"E)D(EG)A2A2|ABc(de2)ed|(cB)A(c"G"BA)G2|1"Am"A3(BA2)(D2:|2"Am"A3(BA2)Bd|
+|:"Am"e2a2a2a2|(ab)(age2)(^cd)|"G"(ed)e(^f gf)(gf|e)dB(de2)e2|
+"Am"A2A2c2c2|d2d2e2ed|(cB)A(c"G"BA)G2|1"Am"(A3BA2)Bd:|2"Am"(A3BA2)|]
+S:https://www.folktunefinder.com/tunes/118522
+S:http://trillian.mit.edu/~jc/music/abc/mirror/fiddle-nd.org/bonanzavillejam.abc
+S:http://bonanzaville.fiddle-nd.org/Jam.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

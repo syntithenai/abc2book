@@ -1,0 +1,25 @@
+X:50
+T: Grausiges Mahl
+N: Q0017
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Haynau, Konradsdorf
+N: Kleinere Melodievariante aus anderer Quelle abgedruckt.
+R: Ballade, Eifersucht, Ehe, Mord
+M: 2/4
+L: 1/8
+K: F
+A | cAcA | c2d
+c | BGBG | B2c
+B | AAcc | ABc
+c | ccAc | A2z
+S:https://www.folktunefinder.com/tunes/109988
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, eifersucht, ehe, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

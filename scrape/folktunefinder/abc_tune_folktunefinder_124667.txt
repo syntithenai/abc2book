@@ -1,0 +1,23 @@
+X: 50
+T:Irish Pat (#246)
+M:4/4
+L:1/8
+S:Pat. Dunne manuscript
+R:Reel
+K:G
+EAAB GABG|EAAB G2 ED|EAAB GABd|gfge d2 BG:||
+geef defd|geeg a2 ab|geef defd|efge d2 cd|
+geef defd|geeg a2 ga|bagf gfed|efge d2 BG||
+S:https://www.folktunefinder.com/tunes/124667
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/IrishPat246.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0246.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

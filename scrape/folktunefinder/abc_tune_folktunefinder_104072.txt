@@ -1,0 +1,27 @@
+X:32
+T:Branle de Malte
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle morgu
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+BA Bc d2 d2 c2 B2 A2 GF G2 G2 F4 ::
+BA Bc d2 e2 c2 d2 e4 | cd e2 d4 cd e2 d2 | cB AG BA B4 ||
+S:https://www.folktunefinder.com/tunes/104072
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle morgu
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

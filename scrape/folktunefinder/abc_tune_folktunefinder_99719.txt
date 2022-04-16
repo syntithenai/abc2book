@@ -1,0 +1,29 @@
+X:10
+T:CAL 1
+% Nottingham Music Database
+S:Mark Knopfler
+P:AABABA
+M:9/8
+K:G
+G2E |"G"D3 -D2E "f#"G2B|"Em"A3 G3 -"d"G2A|"C"A3 G3 E3|"G"D3 -D3 "f#"B2A|\
+"Em"G3 -G2F G2"f#"A|
+"G"B3 -B2A GA"g#"B|"Am"A3 -A2B "b"A2G|"c"E3 "d"F3 "e"G3|"D/f"A3 A3 G3|\
+"G"B3 -B2"f#"A "g"B2"b"d|
+"C"e3 "G/b"d3 "g"B3|"D"A3 -A3 "d#"G2A|"Em"B3 A3 "d"G3|"C"E3 -E3 D3|\
+"G"D3 -D3 -D3|"G"D4:|
+A|"D"A3 "e"B3 "f#"c3|"G"d3 -d2c B2"g#"d|"Am"c3 -c3 -c3|"G/b"B3 A3 G3|\
+"C"A3 B3 "   d"c3|"Em"B3 -B3 A2G|"Am"E3 c3 B2G|"D7"A3 -
+P:dc
+A3 -A||
+S:https://www.folktunefinder.com/tunes/99719
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/playford.abc
+S:http://www2.redhawk.org:8080/irish/nmd/playford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

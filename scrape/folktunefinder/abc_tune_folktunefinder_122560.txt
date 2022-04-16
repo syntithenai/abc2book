@@ -1,0 +1,85 @@
+X:1
+T:April is in my Mistress's face
+T:Madrigal for Mixed Voices, a capella
+C:Thomas Morley (1557-1603)
+%%staves [1 2 3 4] {(1 2) (3 4)}
+M:C
+L:1/4
+Q:"Moderato, scherzando"
+K:Gm
+V:1 nm=Soprano
+"mf"d c/ B/ c d|B c A2|z2 d d/ d/|
+w:1.A-pril is in my|Mis-tress's face,|A-pril is|
+w:2.O were it Ju-ly|all the year,|O were it|
+V:2 nm=Alto
+B A/ G/ A D|(G A/G/ ^F/=E/) F|G2 z2|
+w:1.A-pril is in my|Mis___tress's|face,|
+w:2.O were it Ju-ly|all___ the|year,|
+V:3 nm=Tenor clef=alto
+z4|z4|z2 C B,/ A,/|
+w:||A-pril is|
+w:||O were it|
+V:4 nm=Bass clef=bass
+z4|z4|z2 G, ^F,/ =E,/|
+w:||A-pril is|
+w:||O were it|
+%
+V:1
+d d e c|d2 A2|(B2 G)B|A2 "pp"d c/ B/|
+w:in my Mis-tress'|face, my|Mis_tress'|face, A-pril is|
+w:Ju-ly all the|year, all,|all_ the|year, O were it|
+V:2
+D D/ D/ G G|G2 ^F2|G2 z2|z2 B A/ G/|
+w:A-pril is in my|Mis-tress'|face,|A-pril is|
+w:O were it Ju-ly|all the|year,|O were it|
+V:3
+B, C (D A,)|B,4|A,2 E D/ C/|D E C C|
+w:in my Mis-|tress'|face, A-pril is|in my Mis-tress'|
+w:Ju-ly all|the|year, O were it|Ju-ly all the|
+V:4
+^F, G, C, E,|D,4|z2 B, A,/ G,/|A, ^F, G, G,|
+w:in my Mis-tress'|face,|A-pril is|in my Mis-tress'|
+w:Ju-ly all the|year,|O were it|Ju-ly all the|
+%
+V:1
+c A B c|A2 z A|B/ A/ B/ c/ (d B)|
+w:in my Mis-tress'|face, And|Ju-ly  in her eyes_
+w:Ju-ly all the|year, Then|A-pril show'rs I would_
+V:2
+A ^F G G|^F2 z F|G/ ^F/ G/ A/ (B G)|
+w:in my Mis-tress'|face, And|Ju-ly  in her eyes_
+w:Ju-ly all the|year, Then|A-pril show'rs I would_
+V:3
+B, E E F|E4|z4|
+w:face, my Mis-tress'|face|
+w:year, all, all the|year,|
+V:4
+C, D, G, C,|D,4|z4|
+w:face, my Mis-tress'|face|
+w:year, all, all the|year,|
+%
+V:1
+A2 G2|z B d/ c/ d/ e/|
+w:hath place,|and Ju-ly in her|
+w:not fear,|then A-pril show'rs I|
+V:2
+^F2 G2|zF B B|
+w:hath place,|and Ju-ly|
+w:not fear,|then A-pril|
+V:3
+z2 z C|E/ D/ E/ F/ (G C)|
+w:And|Ju-ly  in her eyes_
+w:Then|A-pril show'rs I would_
+V:4
+zD, E,/ F,/ G,/ A,/|B,2 B,2|
+w:And Ju-ly in her|eyes hath
+w:then A-pril show'rs I|would not
+S:https://www.folktunefinder.com/tunes/122560
+S:http://moinejf.free.fr/abc/april.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

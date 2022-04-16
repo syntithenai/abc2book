@@ -1,0 +1,26 @@
+X: 23
+T:Three Jolly Sheepskins
+R:Hornpipe
+C:Traditional (from James Lock, Shropshire)
+S:John Kirkpatrick
+A:Shropshire
+D:Facing the Music John Kirkpatrick & Sue Harri
+M:4/4
+L:1/8
+K:G
+"D"A2 D2  A2 D2 | "C"e2 e2 defd | "D"A2 D2  A2 D2 | "C"AcBA G2 FG |
+"D"A2 D2  A2 D2 | "C"e2 e2 defd | "D"A2 D2  A2 D2 | "C"AcBA G2 BA |
+"G"GABc dedB | cdcA BcBA | "C"GABc dedg | "D"ecAF G2 BA |
+"G"GABc dedB | cdcA BcBA | "C"GABc "D"dedg | "G"ecAF G4 ||
+S:https://www.folktunefinder.com/tunes/103618
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Atlantic Wave, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|:(3DEF|G3 B d3B|cBcd efge|d2 BG dGBG|FDAD BDAD|
+G3 B d3 B|cBcd efge|d2 (3gfe dcBA|(3GAG FA G2:|
+|:(3Bcd|gfgd ed^ce|dfab adfa|bagf gdBG|FDAD BDAD|
+G3 B d3 B|cBcd efge|d2(3gfe dcBA|(3GAG FA G2:|
+S:https://www.folktunefinder.com/tunes/129084
+S:http://www.thesession.org/tunes/display/962
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

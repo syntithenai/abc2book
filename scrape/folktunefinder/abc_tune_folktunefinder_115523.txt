@@ -1,0 +1,31 @@
+X:18285
+T:Vienna Waltz. JMT.117
+M:3/4
+L:1/16
+Q:140
+S:J.Moore,Tyneside,1841.(82)
+R:Waltz
+O:England
+A:Northumbria
+Z:vmp.Chris Partington
+K:G
+|:G3(ABc)|B-dbdbd|A-cacac|B-dgdgd|G3(ABc)|B-dbdbd|!
+A-cacac|g4z2:|
+|:.g2(GBdg)|(ba^gaga)|.f2(FAcf)|(agfgfg|G3(ABc)|!
+B-dbdbd|A-cacac|g6:|
+K:C
+|:E-GcGeG|E-GcGeG|{e}f2{e}f2{e}f2|d4BG|!
+E-GcGeG|E-GcGeG|{e}f2{e}f2dB|c4:||:ga|g-a(gabc')|g4eg|!
+f2f2dB|ceG2ga|g-a(gabc'|g4eg|{g}f2f2dB|c4:|]
+S:https://www.folktunefinder.com/tunes/115523
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T:Allen a Dale. ST.01
+M:6/8
+L:1/8
+Q:80
+C:First legible tune in photocopy
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+N:From p.14.
+H:Photocopy does not include all of original manuscript, and sections of
+H:t
+H:copy are not legible.
+H:ABC transcription carried out on a Linux system  to abc standard 1.6,
+H:an
+H:checked using both abc2ps and abc2win.
+Z:vmp.Tim Willets
+K:C
+cBc dcB|cde (dB)z|Acc Adc|Bdg ecz|!
+edc dBG|gec cAf|dBg ece|ccf gfe|!
+gfd d2G|cBc dfe|AdB c2z|]
+S:https://www.folktunefinder.com/tunes/104113
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

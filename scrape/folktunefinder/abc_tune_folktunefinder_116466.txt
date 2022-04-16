@@ -1,0 +1,28 @@
+X:13421
+T:Polska efter Myr\aa{}s-P\aa{}lle
+S:As notated by Nils Olsson 1960
+R:Polska
+Q:1/4=130
+O:Sweden
+N:"Myr\aa{}s-P\aa{}lle", Paulus Almgren, (1864-1961)
+M:3/4
+L:1/8
+A:Torp, Medelpad
+K:Dm
+A,|:\
+F>F EE D2|A>A GA/B/ A2|DF/A/ (d/^c/)d/e/ fa|(g/f/)e/d/ (^c/d/)c/=B/ A2|\
+F>F EE D2|A>A GA/B/ A2|DF/A/ (d/^c/)d/e/ ff|1 ed/^c/ d3 A,:|2 ed/^c/ d3 e|:\
+f>d dd dd|f>c cc cc|cB/c/ dB B>B|BA/G/ A3 e|f>d dd dd|\
+d>c cc cc|Ad/e/ ff gf|1 ed/^c/ d3 e:|2 ed/^c/ d4|]
+S:https://www.folktunefinder.com/tunes/116466
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

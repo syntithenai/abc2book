@@ -1,0 +1,35 @@
+X:30
+T:Branle
+R:
+C:Tielman Susato
+H:
+N:26
+B:
+O:Flandres
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=110
+K:C
+%%staves 1 (2 3)
+V:1
+c>de d>ef | c>de d3 :: e>de c>de | f2 e d3 :|]
+V:2
+%%MIDI transpose -12
+[G2e2] [ce] [B2g2] [Af] | [A2e2][ce] [G3d3] ::
+ [C2c2] [Cc] [F2a2] [Eg] | [D2f2] [Cg] [B,3g3] :|]
+V:3
+%%MIDI transpose -12
+C>B,C G,2 D | A,>B,C G,3 :: g>fg cAB | dAc B3 :|]
+S:https://www.folktunefinder.com/tunes/104026
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

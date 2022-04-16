@@ -1,0 +1,52 @@
+X:63
+%%printtempo no
+%%graceslurs no
+%%staves [1 2]
+T:Funk Troop
+C:Arr. Dave Dickerson, from Duke of York Short Troop
+C:NOTE: Swing the eighth notes!!
+M:3/4
+R:swing
+L:1/8
+Q:1/4=120
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 2 1
+(def|g)d zd-d2|d2 z(e d)(c|B).G zG-G2|G2 z(B A)(G|F).A z(A-A2|
+{GA}G).B zd-d2|(dc) zB-B2|A2 z(d e)(f|g).d zd-d2|d2 z(e d)(c|
+B).G zG-G2|G2 z2 (d2|e).g z(e g)(e|d).B z(d B)(d|c).A zF-F2|G4 (G2|
+F)A z(A-A2|G)B z(B-B2|A)c zc-c2|B2 z(d B)(G|F)A z(F A)(F|
+G)B z(G B)(G|A)c z(A c)A|B2 z(d ef|g)d zd-d2|d2 z(e d)(c|
+B)G zG-G2|G2 z2 (d2|e)g z(e ge|f)a z(f gd|c)A zF-F2|G4 z2|
+(B2 d2) (d>d|^d).e z2 e2|(A2 c2) (c>c|^c).d z2 d2|(G4 {AG}F)(A|G).B z2 (d>d|
+g)(d g)(d B)(G|D4) z2|(B2 .d2) (d>d|^d).e z2 e2|(A2 .c2) (c>c|
+^c).d z2 (d2|g)(f g)(f e)(^d|e)(d c)(B A)(G|c).e z(B A)(F|G6)||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 2 1
+!mp!(FGA|B)G zG-G2|F2 z(A F)(D|G).B zG-G2|B2 z(d c)(B|A).F z(d-d2|
+B).G zG-G2|(GA) zB-B2|c2 z(d e)(c|B).G zG-G2|F2 z(A F)(D|
+G).B zB-B2|B2 z2 (d2|g).e z(g e)(g|f).d z(B d)(B|A).c zd-d2|g4 (B2|
+A)F z(c-c2|B)G z(d-d2|c)A zA-A2|B2 z(G B)(d|c)A z(A F)(A|
+B)G z(B G)(B|c)A zF-F2|G2 z2 z2|BG zG-G2|F2 z(A F)(D|
+G)B zB-B2|B2 z2 (B2|A)c z(G G2|F)D zd-d2|dd zc-c2|B4 z2|
+G2-G(G FG)|E2-E(E DE)|F4 E2|D2 z(D EF)|G2-G(G FG)|E2-E(E DE)|
+F4 E2|D2 z(D EF)|G2-G(G FG)|E2 E(E DE)|F4 E2|
+D2 z2 (D2|G)(F G)(A B)(c|e)(d c)(B A)(G|c).e z(B A)(F|G6)||
+S:https://www.folktunefinder.com/tunes/114129
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Rhythm Swing
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

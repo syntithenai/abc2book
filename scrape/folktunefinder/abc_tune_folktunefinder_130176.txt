@@ -1,0 +1,25 @@
+X:1
+T:La Vicoise
+R:Bourre  3 temps
+C:MCTB 1/51
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-05
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/16
+K:C
+(3GAB | c2eede | c2eede | f4e2 | d2g2 (3GAB | c2eede | c2eede | f2d2g2 | c4G2 ::
+ABcdcA | d2cdcB |AB c2d2 | ABcdcA | d2cdcB |1 cdefg2 :|2 c2 |]
+T:Variante
+GAB|c2e2de|c2e2de|f4e2|decGAB|c2e2de|c2e2de|f2d2g2|1 c3:|2 c4||
+|:G2|ABcdcA|d2c2B2|ABc2G2|ABcdcA|d2c2B2|1 cde2:|2 cde|]"fin"c3|]
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (--)
+S:https://www.folktunefinder.com/tunes/130176
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat02.abc
+% Rhythm Bourre  3 temps
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

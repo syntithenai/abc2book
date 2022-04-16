@@ -1,0 +1,28 @@
+X: 19
+T:Petticoat Loose (#129)
+M:6/8
+L:1/8
+S:Sergt. James O'Neill manuscripts
+K:G
+dc|:B2 G AFD|B2 G AFD|DGG AGF|DGG Adc|
+B2 G AFD|B/2A/2GB AFD|F2 F FAG|FDE FGA:|
+|BdB cAc|BdB AFD|g2 g gdg|gag fdc|
+BdB cAc|BGB AFD|f2 f fde|f/2g/2ag fdc|
+B/2c/2dB cBA|BGB AFD|g2 g gdg|gag fdc|
+B/2c/2dB cBA|BAG AFD|f2 f fde|f/2g/2ag fdc||
+%
+% "Petticoat Loose" is an old name for a dance tune. A jig under
+% that name in O'Neill's Dance Music of Ireland bears no
+% resemblance to the above.
+S:https://www.folktunefinder.com/tunes/121435
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-4.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/PetticoatLoose129.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0129.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

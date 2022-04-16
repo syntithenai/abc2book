@@ -1,0 +1,39 @@
+X:140
+T:East Tennessee Blues
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:C
+ef ^f|:"C"g/2a/2g/2e/2 g/2a/2g/2e/2|g/2a/2g/2e/2 g/2a/2g/2e/2|
+"F"c/2d/2c/2A/2 c/2d/2c/2A/2|c/2d/2c/2A/2 c/2d/2c/2A/2|\
+"C"G/2A/2G/2F/2 E/2D/2E/2F/2|
+"C"G/2A/2c/2d/2 "Am"e/2f/2g/2e/2| [1"D"d/2^c/2d/2e/2 ^f/2d/2e/2f/2|\
+"G"g/2a/2g/2e/2 ge/2f/2:|
+[2"Dm"f/2e/2d/2c/2 "G"B/2G/2A/2B/2|"C"cec/2e/2c/2 e/2 ce||
+ce|"C"c2 g2 -c/2g/2c/2a/2cg|c2 e2 c2e2|\
+"F"F2 c2 -F/2c/2F/2d/2Fc|
+F2 A2 F2A2|"C"G/2A/2G/2F/2 E/2D/2E/2F/2|"C"G/2A/2c/2d/2 "Am"e/2f/2g/2e/2|
+"D"d/2^c/2d/2e/2 ^f/2d/2e/2f/2|"G"g/2a/2g/2e/2 ge/2f/2|\
+"C"g/2a/2g/2e/2 g/2a/2g/2e/2|
+P:4 0
+e2 e2 \
+P:4 0
+e2e2|"F"c/2d/2c/2A/2 c/2d/2c/2A/2|\
+P:4 0
+A2 A2 
+P:4 0
+A2A2|"C"G/2A/2G/2F/2 E/2D/2E/2F/2|"C"G/2A/2c/2d/2 "Am"e/2f/2g/2e/2|\
+"Dm"f/2e/2d/2c/2 "G"B/2G/2A/2B/2|"C"cec/2e/2c/2 e/2 ce||
+S:https://www.folktunefinder.com/tunes/107892
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsD-G.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsD-G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

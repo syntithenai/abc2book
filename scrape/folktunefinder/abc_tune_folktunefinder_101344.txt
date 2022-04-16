@@ -1,0 +1,24 @@
+X:140
+T: The Golden Vale
+M: C|
+L: 1/8
+B: O'Neill's 1652
+N: "collected by Carey"
+K: D
+(3ABc \
+| (3ddd d>A B>G ~G2 | F>GA>c B>G ~G2 | {a}g2 g>f e>dc>d | (3efe (3dcB A>B{d}c-A |
+| (3ddd d>A B>G~G2 | F>GA>cB>GG2 | A>ge>f g>ec>d | e>d{e}d-cd2 :|
+|: f-g \
+| a>fd>f g>fe>d | (3efe d>B A>GF>G | F>fe>fg>fe>d | (3Bcd e>f e2 f>g |
+| a>fd>f g>fe>d | (3efe d>B A>GF>G | A>fe>f g>ec>d | e>d{e}d-c d2 :|
+S:https://www.folktunefinder.com/tunes/101344
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

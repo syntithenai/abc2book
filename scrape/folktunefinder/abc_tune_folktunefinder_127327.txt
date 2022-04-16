@@ -1,0 +1,26 @@
+X: 79
+T:Uist Reel
+M:4/4
+L:1/8
+C:traditional
+S:Lunasa: Redwood
+R:REEL
+Z:Gregor
+K:G
+dAAd F2dA|c2Bc ECGE|dAAd F2dA|BcEG ADDA|
+dAAd F2dA|c2Bc ECGE|FDAD AABc|ECEG ADDA||
+(3DDD AD (3DDD dA|c2Bc ECGE|(3DDD AD (3DDD dA|BcEG ADDA|
+(3DDD AD (3DDD dA|c2Bc ECGE|(3DDD AD (3DDD dA|BcEG ADDA||
+S:https://www.folktunefinder.com/tunes/127327
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

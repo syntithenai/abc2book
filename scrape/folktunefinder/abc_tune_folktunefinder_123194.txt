@@ -1,0 +1,27 @@
+X:250
+T: Humors of Ballyconnell
+S: "Music from Ireland 2" (Bulmer & Sharpley)
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+zA|dffe dBBA|(3Bcd AF E3A|dffe dBBA|(3Bcd AF D2 :|
+AG|(3FED AD BDAD|(3GFE BE cEBE|(3FED AD BDAF|GBAF D2 :|
+fg|a2 a^g abaf|gece gece|a2 a^g aba=g|faeg fd :|
+W: % blank line
+P: Hill-Linnane version
+zA|defe BdAd|BFAF E2FA|defe dBAd|(3Bcd AF D2 :|
+AG|(3FED AD BDAD|(3GFE BE cEBE|(3FED AD BDAF|BdAF D2 :|
+fg|afdf a3f|gece gece|afdf abag|fdec d2 :|
+S:https://www.folktunefinder.com/tunes/123194
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

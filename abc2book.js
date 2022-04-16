@@ -21,7 +21,9 @@ function updateTunesFromLongAbc() {
     showContentSection('music')
     return
   } else {
-    var tunes = abc2Tunebook($('#longabc').val())
+    var tv = $('#longabc').val()
+    var tunes = abc2Tunebook(tv)
+    console.log(tv,tunes)
     saveLocalObject('abc2book_tunes',tunes)
     // also songlist
     //var songList = tunes.map(function(tune) {
@@ -167,14 +169,14 @@ function generateAndRenderSingle(songNumber, tune) {
   if (tune && tune.settings.length > tune.useSetting) {
     
     var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
-    var shortabc = tweakShortABC(songNumber, tune)
+    var shortabc = json2shortabc(songNumber, tune)
     //tune.settings[tune.useSetting].abc, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, songNumber)
     // cut off X:
     shortParts[songNumber] =  shortabc.slice(3) + "\n"
     $('#shortabc').val("X:" + shortParts.join(("X:")))
     //// update abc long
     var longParts = $('#longabc').val().trim().split("X:").slice(1)
-    var longabc = tweakABC(songNumber, tune) 
+    var longabc = json2abc(songNumber, tune) 
     //.settings[tune.useSetting].abc, songNumber, tune.name, tune.forceTitle, tune.settings[tune.useSetting].key, tune.type, tune.aliases)
     //console.log('gen abc ',longabc)
     // cut off X:
@@ -202,6 +204,7 @@ function generateAndRenderSingle(songNumber, tune) {
         addAudioControls('#music_'+rk, rr, rk, tune)
       //}
       $('.abcjs-rhythm tspan').attr('y','20')
+      makeEditable(".abcjs-title tspan")
     })
   }
   // indexes TODO
@@ -271,12 +274,13 @@ function renderMusicFromLongAbc() {
   $('#downloadlongabc').css('display','block')
   $('#downloadshortabc').css('display','block')
   $('#printbutton').css('display','block')
+  makeEditable(".abcjs-title tspan")
 }
 
 function generateAbcFromTunes() {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
-  //console.log('UPDATE ALL tune ',tunes)
+  console.log('UPDATE ALL tune ',tunes)
   Object.keys(tunes).map(function(tuneKey) {
     
     var tune = tunes[tuneKey]
@@ -284,7 +288,7 @@ function generateAbcFromTunes() {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : null
       if (setting) {
-        abc +=  tweakABC(tuneKey, tune)
+        abc +=  json2abc(tuneKey, tune)
         //console.log('UPDATE tune OK')
         //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
@@ -310,7 +314,7 @@ function updateSingleTune(songNumber, ) {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakABC(songNumber, tune)
+        abc +=  json2abc(songNumber, tune)
         //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
@@ -330,7 +334,7 @@ function generateShortAbcFromTunes() {
     if (tune) {
       var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
       if (setting) {
-        abc +=  tweakShortABC(tuneKey, tune) 
+        abc +=  json2shortabc(tuneKey, tune) 
         //setting.abc, tune.name, tune.forceTitle, setting.key, tune.type, tuneKey)
       } else {
         abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)

@@ -1,0 +1,21 @@
+X:41
+T:Roentch's Pasture
+C:R. Corbett
+M:6/8
+Q:1/8=300
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+D/E/|FEF DEF|dcd G3 |FED DEF|GFG E2 D/E/|FEF DEF|dcd G2B|AGF EDC|D3-D2::
+D/E/|Fdd Fdd|Gdd Gdd|Fdd Fdd|GFE EFG|Fdd Fdd|Gdd G3|BAG FEA|FDD D2:|
+S:https://www.folktunefinder.com/tunes/114107
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

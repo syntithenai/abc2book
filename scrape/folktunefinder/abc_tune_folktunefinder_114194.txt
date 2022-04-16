@@ -1,0 +1,22 @@
+X:150
+T:The Polygon
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:D
+f/2g/2|"D"afd "A"ecA|"G"dBG "A"F2E|"D"DFA "G"Bgf|"Em"efd "A"c2f/2g/2|
+"D"afd "A"ecA|"G"dBG "A"F2E|"D"DFA "G"Bgf|"A"edc "D"d2:|
+"A"Ace gec|"D"Adf afd|"A"Ace gec|"E7"Bed "A"c3|
+"A"Ace gec|"D"Adf afd|"A"AcA "G"Bgf|"A"edc "D"d2|
+S:https://www.folktunefinder.com/tunes/114194
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/ashover.abc
+S:http://www2.redhawk.org:8080/irish/nmd/ashover.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

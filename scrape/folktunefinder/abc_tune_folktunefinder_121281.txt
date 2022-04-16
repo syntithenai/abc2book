@@ -1,0 +1,26 @@
+X:215
+T: Dan O'Keeffe's #1
+S: 100 Enduring Irish Session Tunes ("Mally")
+Z: B.Black
+L: 1/8
+Q: 425
+M: 12/8
+R: slide
+K: Ador
+A2 e e2 d BAB d2 B|A2 e e2 d B2 G GAB|\
+A2 e e2 d BAB d2 B|BAB d2 e B2 A A3 :|
+e2 a a2 b a2 g e2 d|e2 a a2 b a2 g e2 f|\
+g2 a g2 e dBA G2 A|BAB d2 e B2 A A3 :|
+S:https://www.folktunefinder.com/tunes/121281
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

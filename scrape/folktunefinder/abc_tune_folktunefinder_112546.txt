@@ -1,0 +1,35 @@
+X:119
+T: Ku qiqi
+N: C0166
+O: China,nan Jiangsu, Suzhou
+S: III, 473]
+N: Der Gesang weicht stark vom Notentext ab! Variante von meng jiang
+N: n}, vielleicht aber nur der Text)
+N: Urspruenglich gilt dieses Lied einer alten Sitte: Nach dem Tod
+N: eines Ehepartners muss der Ueberlebende 7 Wochen lang trauern.
+N: Daher "qi qi". Hier trauert eine Frau 49 Tage lang um ihren Mann.
+N: Anfangs klagt sie, was sie ohne ihn machen soll, aber in der
+N: letzten Strophe beklagt sie sich, dass sie drei Jahre lang nicht
+N: mehr heiraten darf, aber frueher moechte. Saengerin: Huang Bai
+N: Wenig Verzierungen. 2. Strophe: Veraenderungen im Notentext.
+R: Xiaodiao, Shidiao, Chundiao, Mengjiangn diao. Ji wangfu, Biao aisi]
+M: 2/4
+L: 1/32
+K: G
+B4B2A2B2A2B2d2 | G4G2E2d2e2B4 | B4A12
+G4G2E2E3GA2B2 | A3GE2D2C2B,2A,2B,2 | D16
+E8G2A2E2D2 | E6G2A4B4 | d2B2A4A2G2E2D2 | E16
+G6A2B2A2d2B2 | A6G2G2E2D4 | D2B,2D4A2F2E4 | B,4D12
+S:https://www.folktunefinder.com/tunes/112546
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, shidiao, chundiao, mengjiangn diao. ji wangfu, biao aisi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X: 16
+T:Codiad yr Hedydd
+T:The Rising of the Lark
+M:2/4
+L:1/8
+Q:200
+C:Trad
+S:51 Welsh Airs
+R:March
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:C
+c2G>F|EcGE|F>GAB|cBcd|e<c GB|c4:||(e>dc)e|(d>cB)d|(c>BA)c|
+BA/B/G2|(e>dc)e|(d>cB)d|(c>BA)c|BGGz/(E/|F)GAB|cBcd|(ec) (g>B)|c4:||
+S:https://www.folktunefinder.com/tunes/109486
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/CodiadYrHedydd.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/RisingOfTheLark.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/CodiadYrHedydd.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EdwardJones/CodiadYrHedydd.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EdwardJones/RisingOfTheLark.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/CodiadYrHedydd.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:250
+T:When Sick is it Tea You Want
+R:Jig
+Z:id:hn-jig-180
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+|:Add dcB|ABA AFG|Add cde|fdf ecA|
+Add dcB|ABA AFG|Add cde|[1 fdd d2B:|[2 fdd dfg||
+afd dcd|BGG Gga|bge ede|cAA AFG|
+Add dcB|ABA AFG|Add cde|[1 fdd dfg:|[2 fdd d2B|]
+S:https://www.folktunefinder.com/tunes/125342
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

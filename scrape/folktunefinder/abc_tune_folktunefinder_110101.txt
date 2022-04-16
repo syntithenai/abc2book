@@ -1,0 +1,35 @@
+X:54
+T:The Indian Princess
+C:Colin Hume, 1985
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=108
+%%MIDI chordname dim 0 3 6 9
+K:F
+P:A
+[| "F"F2 f2 | "Am"e2- "^/"ec | "Bb"dB "^/"Fd | "F"c2- "D7"cd |\
+"Gm"cB- "C7"Bc | "F"BA- "Dm"AB/c/ | "Bb"dB "G7"GF | "C"EC "C7"DE |
+%%vskip 0
+P:B
+"F"F2 f2 | "Am"e2- "^/"ec | "Bb"dB "^/"Fd | "F"c2- "D7"cd |\
+"Gm"cB- "C7"Bc | "F"BA- "Dm"AB/c/ | "Bb"dB "C7"GE | "F"F2- "F7"FF |
+%%vskip 0
+P:C
+"Bb"d3/e/ "^/"f3/g/ | "Dm"fd- "^/"dA/B/ | "Am"cA "^/"A3/G/ | "F"Ac- "F7"cF |\
+"Bb"d3/e/ "^/"f3/g/ | "Dm"af- "^/"fe/d/ | "C"ec "G7"d=B | "C"c2- "^/"cc |
+%%vskip 0
+P:D
+"Bb"d3/c/ "^/"Bd | "D7"c3/B/ "^/"Ac | "Gm"B3/A/ "^/"GD | "C"E2- "C7"EC |\
+"F"F/G/A/B/ "F7"cF | "Bb"B/c/d/e/"Fdim/B"fd | "F/C"cA "C7"G3/F/ | "F"F2- "^/"F2 |]
+S:https://www.folktunefinder.com/tunes/110101
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

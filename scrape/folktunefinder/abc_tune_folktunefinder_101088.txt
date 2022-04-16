@@ -1,0 +1,22 @@
+X: 2
+T:Balance the Straw
+R:jig
+C:Trad
+S:Davenport
+M:6/8
+L:1/8
+K:G
+D| G2 B BAB | c2 A ABc | ded cBA | B2 GG2 :|
+ G|d2dd2B | c2BB2A| d2dd2B | c2BA2D|
+| G2 B BAB | c2 AABc | ded cBA | B2 G G2:|
+S:https://www.folktunefinder.com/tunes/101088
+S:http://www.banjolin.co.uk/tunes/pvs_english.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

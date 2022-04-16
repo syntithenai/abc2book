@@ -1,0 +1,25 @@
+X: 47
+T:Li coco
+O:France
+A:Provence
+C:Trad.
+R:Danse trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Cmaj
+ABcd | e2az | efed | c2Az | ABcd | ed ef | ed cB | A2az | 
+cBce | d2c2 | cBce | d2gz | ABcd | edef | edcB | A2az |]
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/130008
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+% Rhythm Danse trad.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,172 @@
+X:14  
+T:Le retour des hirondelles
+C:Robert Trogn&amp;eacute;e, B. Pagano
+I:Valse musette 1935
+Q:1/4=190 
+M:3/4
+K:D %Transposed from C
+V:1
+z6 |z6 |A^G Ac =c^c |e^d eg fg |
+b^a b=a gf |ed c4 |A^G Ad cd |f=f ^fa ^ga |
+b4 [b2d2f2] |[f6d6b6] |A^G Ad cd |f=f ^fa ^ga |
+b4 [g2c2b2] |[b6c6g6] |gf ga gf |e^d ef e=d |
+c4 [c2g2] |[g4c4] c3/4d/c3/4 |B4 [B2g2] |[g4B4] B3/4c/B3/4 |
+A4 [d2A2f2] |[f6A6d6] |A^G Ad cd |f=f ^fa ^ga |
+b4 [f2d2b2] |[b6d6f6] |B^A B^d =d^d |f=f ^fa =c'b |
+a4 [e2B2g2] |[g6B6e6] |B^A Be ^de |gf ge ^de |
+A^G Ad cd |f=f ^fd cd |A^G Ac =c^c |[A4f4] [G2e2] |
+[d6F6] |z6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |^dA eA gA |
+fA dF BF |A6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |gA fA eA |
+d3/4c/d3/4 f3/4=f/^f3/4 a3/4^g/a3/4 |d'2 af ed |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |^dA eA gA |
+fA dF BF |A6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |gA fA eA |
+d3/4c/d3/4 f3/4=f/^f3/4 a3/4^g/a3/4 |d'2 af ed |b/d/b/d/ b/d/b/d/ b/d/b/d/ |^a/c/a/c/ a/c/a/c/ a/c/a/c/ |
+a/=c/a/c/ a/c/a/c/ a/c/a/c/ |[=c2a2] [B2^g2] [c2a2] |b/d/b/d/ b/d/b/d/ b/d/b/d/ |a/=c/a/c/ a/c/a/c/ a/c/a/c/ |
+g/B/g/B/ g/B/g/B/ g/B/g/B/ |[B2g2] [^A2f2] [B2g2] |a/B/a/B/ a/B/a/B/ a/B/a/B/ |g/B/g/B/ g/B/g/B/ g/B/g/B/ |
+f/A/f/A/ f/A/f/A/ f/A/f/A/ |e/G/e/G/ e/G/e/G/ e/G/e/G/ |d/F/d/F/ d/F/d/F/ d/F/d/F/ |e/=c/e/c/ e/c/e/c/ e/c/e/c/ |
+d/B/d/B/ d/B/d/B/ d/B/d/B/ |B3/4^A/B3/4 d3/4c/d3/4 g3/4f/g3/4 |b/d/b/d/ b/d/b/d/ b/d/b/d/ |^a/c/a/c/ a/c/a/c/ a/c/a/c/ |
+a/=c/a/c/ a/c/a/c/ a/c/a/c/ |[=c2a2] [B2^g2] [c2a2] |b/d/b/d/ b/d/b/d/ b/d/b/d/ |a/=c/a/c/ a/c/a/c/ a/c/a/c/ |
+g/B/g/B/ g/B/g/B/ g/B/g/B/ |[B2g2] [^A2f2] [B2g2] |a/B/a/B/ a/B/a/B/ a/B/a/B/ |g/=f/g/f/ g/f/g/f/ g/f/g/f/ |
+g/e/g/e/ g/e/g/e/ g/e/g/e/ |[^d2g2] [d2a2] [d2=c'2] |b/d/b/d/ b/d/b/d/ b/d/b/d/ |a/=c/a/c/ a/c/a/c/ a/c/a/c/ |
+g/B/g/B/ g/B/g/B/ g/B/g/B/ |z d ef ga |b3/4g/d3/4 b3/4g/d3/4 b3/4g/d3/4 |^a3/4g/c3/4 a3/4g/c3/4 a3/4g/c3/4 |
+a3/4f/=c3/4 a3/4f/c3/4 a3/4f/c3/4 |a3/4f/=c3/4 ^g3/4f/c3/4 a3/4f/c3/4 |b3/4f/d3/4 b3/4f/d3/4 b3/4f/d3/4 |a3/4f/=c3/4 a3/4f/c3/4 a3/4f/c3/4 |
+g3/4d/B3/4 g3/4d/B3/4 g3/4d/B3/4 |g3/4d/B3/4 f3/4d/B3/4 g3/4d/B3/4 |a3/4d/B3/4 a3/4d/B3/4 a3/4d/B3/4 |g3/4d/B3/4 g3/4d/B3/4 g3/4d/B3/4 |
+f3/4=c/A3/4 f3/4c/A3/4 f3/4c/A3/4 |e3/4=c/G3/4 e3/4c/G3/4 e3/4c/G3/4 |d3/4=c/F3/4 d3/4c/F3/4 d3/4c/F3/4 |e3/4=c/F3/4 e3/4c/F3/4 e3/4c/F3/4 |
+d3/4B/G3/4 d3/4B/G3/4 d3/4B/G3/4 |B3/4G/D3/4 d3/4B/G3/4 g3/4d/B3/4 |b3/4g/d3/4 b3/4g/d3/4 b3/4g/d3/4 |^a3/4g/c3/4 a3/4g/c3/4 a3/4g/c3/4 |
+a3/4f/=c3/4 a3/4f/c3/4 a3/4f/c3/4 |a3/4f/=c3/4 ^g3/4f/c3/4 a3/4f/c3/4 |b3/4f/d3/4 b3/4f/d3/4 b3/4f/d3/4 |a3/4f/=c3/4 a3/4f/c3/4 a3/4f/c3/4 |
+g3/4d/B3/4 g3/4d/B3/4 g3/4d/B3/4 |g3/4d/B3/4 f3/4d/B3/4 g3/4d/B3/4 |a3/4d/B3/4 a3/4d/B3/4 a3/4d/B3/4 |g3/4d/B3/4 g3/4d/B3/4 g3/4e/=c3/4 |
+g3/4e/=c3/4 g3/4e/c3/4 g3/4e/c3/4 |g3/4^d/=c3/4 a3/4d/c3/4 c'3/4d/c3/4 |b3/4g/d3/4 b3/4g/d3/4 b3/4g/d3/4 |a3/4f/=c3/4 a3/4f/c3/4 a3/4f/c3/4 |
+g3/4d/B3/4 b3/4g/d3/4 d'3/4b/g3/4 |[b6d'6g'6] |A^G Ad cd |f=f ^fa ^ga |
+b4 [b2d2f2] |[f6d6b6] |A^G Ad cd |f=f ^fa ^ga |
+b4 [g2c2b2] |[b6c6g6] |gf ga gf |e^d ef e=d |
+c4 [c2g2] |[g4c4] c3/4d/c3/4 |B4 [B2g2] |[g4B4] B3/4c/B3/4 |
+A4 [d2A2f2] |[f6A6d6] |A^G Ad cd |f=f ^fa ^ga |
+b4 [f2d2b2] |[b6d6f6] |B^A B^d =d^d |f=f ^fa =c'b |
+a4 [e2B2g2] |[g6B6e6] |B^A Be ^de |gf ge ^de |
+A^G Ad cd |f=f ^fd cd |A^G Ac =c^c |[A4f4] [G2e2] |
+[d6F6] |z6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |^dA eA gA |
+fA dF BF |A6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |gA fA eA |
+d3/4c/d3/4 f3/4=f/^f3/4 a3/4^g/a3/4 |d'2 af ed |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |^dA eA gA |
+fA dF BF |A6 |cA ^GA eA |^GA cA GA |
+dA ^GA fA |^GA dA GA |gA fA eA |gA fA eA |
+d3/4c/d3/4 f3/4=f/^f3/4 a3/4^g/a3/4 |[f6a6d'6] |]
+V:2
+M:3/4
+K:D
+z6 |z6 |z2 [G2E2C2] [G2C2E2] |z2 [G2E2C2] [C2G2E2] |
+[G6E6C6] |[G6E6C6] |z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [E2G2C2] [C2E2G2] |z2 [G2C2E2] [G2E2C2] |z2 [G2C2E2] [E2G2C2] |z2 [C2G2E2] [G2E2C2] |
+z2 [C2G2E2] [G2E2C2] |z2 [G2E2C2] [G2C2E2] |z2 [G2E2C2] [G2E2C2] |z2 [G2E2C2] [C2E2G2] |
+z2 [D2A,2F2] [F2D2A,2] |[F6D6A,6] |z2 [F2D2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [F2D2A,2] [D2F2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [F2^D2A,2] [F2D2A,2] |z2 [^D2F2A,2] [F2D2A,2] |
+z2 [E2G2B,2] [G2E2B,2] |z2 [G2E2B,2] [G2E2B,2] |z2 [G2B,2E2] [G2E2B,2] |z2 [G2E2B,2] [B,2E2G2] |
+z2 [D2F2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [C2G2E2] |z2 [G2E2C2] [E2C2G2] |
+z2 [F2D2A,2] [F2D2A,2] |[F6D6A,6] |z2 [E2G2C2] [G2E2C2] |z2 [G2E2C2] [G2E2C2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [G2C2E2] [G2E2C2] |z2 [E2G2C2] [G2E2C2] |
+z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [E2G2C2] |z2 [E2C2G2] [E2G2C2] |
+z2 [D2A,2F2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [E2C2G2] [C2G2E2] |z2 [E2G2C2] [C2E2G2] |
+z2 [D2A,2F2] [D2F2A,2] |[A,6D6F6] |z2 [E2G2C2] [G2E2C2] |z2 [G2E2C2] [G2E2C2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [G2C2E2] [G2E2C2] |z2 [E2G2C2] [G2E2C2] |
+z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [E2G2C2] |z2 [E2C2G2] [E2G2C2] |
+z2 [D2A,2F2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [E2C2G2] [C2G2E2] |z2 [E2G2C2] [C2E2G2] |
+z2 [D2A,2F2] [D2F2A,2] |[A,6D6F6] |z2 [D2G2B,2] [G2D2B,2] |z2 [G2^A,2E2] [G2A,2E2] |
+z2 [F2A,2=C2] [F2A,2C2] |z2 [F2=C2A,2] [F2A,2C2] |z2 [F2A,2=C2] [F2C2A,2] |z2 [F2A,2=C2] [F2C2A,2] |
+z2 [G2D2B,2] [G2D2B,2] |z2 [G2D2B,2] [G2D2B,2] |z2 [G2D2B,2] [D2G2B,2] |z2 [G2D2B,2] [G2D2B,2] |
+z2 [=C2F2A,2] [F2A,2C2] |z2 [F2A,2=C2] [F2A,2C2] |z2 [F2A,2=C2] [F2A,2C2] |z2 [F2A,2=C2] [F2C2A,2] |
+z2 [G2D2B,2] [G2D2B,2] |[G6D6B,6] |z2 [G2D2B,2] [G2B,2D2] |z2 [G2E2^A,2] [G2E2A,2] |
+z2 [F2=C2A,2] [F2A,2C2] |z2 [F2=C2A,2] [F2C2A,2] |z2 [F2=C2A,2] [F2A,2C2] |z2 [F2A,2^D2] [F2D2A,2] |
+z2 [G2E2B,2] [G2B,2E2] |z2 [G2B,2E2] [G2B,2E2] |z2 [G2D2B,2] [G2D2B,2] |z2 [B,2=F2D2] [F2B,2D2] |
+z2 [E2=C2G2] [G2C2E2] |z2 [^D2=C2G2] [G2C2D2] |z2 [G2D2B,2] [G2B,2D2] |z2 [F2=C2A,2] [F2C2A,2] |
+z2 [G2B,2D2] [G2D2B,2] |[G6D6B,6] |z2 [D2G2B,2] [G2D2B,2] |z2 [G2^A,2E2] [G2A,2E2] |
+z2 [F2A,2=C2] [F2A,2C2] |z2 [F2=C2A,2] [F2A,2C2] |z2 [F2A,2=C2] [F2C2A,2] |z2 [F2A,2=C2] [F2C2A,2] |
+z2 [G2D2B,2] [G2D2B,2] |z2 [G2D2B,2] [G2D2B,2] |z2 [G2D2B,2] [D2G2B,2] |z2 [G2D2B,2] [G2D2B,2] |
+z2 [=C2F2A,2] [F2A,2C2] |z2 [F2A,2=C2] [F2A,2C2] |z2 [F2A,2=C2] [F2A,2C2] |z2 [F2A,2=C2] [F2C2A,2] |
+z2 [G2D2B,2] [G2D2B,2] |[G6D6B,6] |z2 [G2D2B,2] [G2B,2D2] |z2 [G2E2^A,2] [G2E2A,2] |
+z2 [F2=C2A,2] [F2A,2C2] |z2 [F2=C2A,2] [F2C2A,2] |z2 [F2=C2A,2] [F2A,2C2] |z2 [F2A,2^D2] [F2D2A,2] |
+z2 [G2E2B,2] [G2B,2E2] |z2 [G2B,2E2] [G2B,2E2] |z2 [G2D2B,2] [G2D2B,2] |z2 [B,2=F2D2] [F2B,2D2] |
+z2 [E2=C2G2] [G2C2E2] |z2 [^D2=C2G2] [G2C2D2] |z2 [G2D2B,2] [G2B,2D2] |z2 [F2=C2A,2] [F2C2A,2] |
+z2 [G2B,2D2] [G2D2B,2] |[G6D6B,6] |z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [E2G2C2] [C2E2G2] |z2 [G2C2E2] [G2E2C2] |z2 [G2C2E2] [E2G2C2] |z2 [C2G2E2] [G2E2C2] |
+z2 [C2G2E2] [G2E2C2] |z2 [G2E2C2] [G2C2E2] |z2 [G2E2C2] [G2E2C2] |z2 [G2E2C2] [C2E2G2] |
+z2 [D2A,2F2] [F2D2A,2] |[F6D6A,6] |z2 [F2D2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |
+z2 [F2D2A,2] [D2F2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [F2^D2A,2] [F2D2A,2] |z2 [^D2F2A,2] [F2D2A,2] |
+z2 [E2G2B,2] [G2E2B,2] |z2 [G2E2B,2] [G2E2B,2] |z2 [G2B,2E2] [G2E2B,2] |z2 [G2E2B,2] [B,2E2G2] |
+z2 [D2F2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [C2G2E2] |z2 [G2E2C2] [E2C2G2] |
+z2 [F2D2A,2] [F2D2A,2] |[F6D6A,6] |z2 [E2G2C2] [G2E2C2] |z2 [G2E2C2] [G2E2C2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [G2C2E2] [G2E2C2] |z2 [E2G2C2] [G2E2C2] |
+z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [E2G2C2] |z2 [E2C2G2] [E2G2C2] |
+z2 [D2A,2F2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [E2C2G2] [C2G2E2] |z2 [E2G2C2] [C2E2G2] |
+z2 [D2A,2F2] [D2F2A,2] |[A,6D6F6] |z2 [E2G2C2] [G2E2C2] |z2 [G2E2C2] [G2E2C2] |
+z2 [D2F2A,2] [D2F2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [G2C2E2] [G2E2C2] |z2 [E2G2C2] [G2E2C2] |
+z2 [F2D2A,2] [F2D2A,2] |z2 [D2F2A,2] [F2D2A,2] |z2 [E2G2C2] [E2G2C2] |z2 [E2C2G2] [E2G2C2] |
+z2 [D2A,2F2] [F2D2A,2] |z2 [F2D2A,2] [F2D2A,2] |z2 [E2C2G2] [C2G2E2] |z2 [E2G2C2] [C2E2G2] |
+z2 [D2A,2F2] [D2F2A,2] |[A,6D6F6] |]
+V:3
+M:3/4
+K:D
+z6 |z6 |A,,,6 |A,,,6 |
+A,,,6 |A,,,2 B,,,2 C,,2 |D,,6 |A,,,6 |
+D,,6 |A,,,6 |D,,6 |A,,,6 |
+E,,6 |A,,,6 |E,,6 |A,,,6 |
+E,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,2 B,,,2 C,,2 |D,,6 |A,,,6 |
+D,,6 |A,,,6 |B,,,6 |F,,6 |
+E,,6 |B,,,6 |E,,6 |B,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |D,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,2 B,,,2 C,,2 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |D,,2 E,,2 F,,2 |G,,6 |E,,6 |
+D,,6 |A,,6 |D,,6 |A,,6 |
+G,,6 |D,,6 |G,,6 |D,,6 |
+A,,6 |D,,6 |A,,6 |D,,6 |
+G,,6 |D,,2 E,,2 F,,2 |G,,6 |E,,6 |
+D,,6 |A,,6 |D,,6 |B,,,6 |
+E,,6 |B,,,6 |G,,6 |=F,,6 |
+E,,6 |^D,,6 |D,,6 |A,,6 |
+G,,6 |G,,6 |G,,6 |E,,6 |
+D,,6 |A,,6 |D,,6 |A,,6 |
+G,,6 |D,,6 |G,,6 |D,,6 |
+A,,6 |D,,6 |A,,6 |D,,6 |
+G,,6 |D,,2 E,,2 F,,2 |G,,6 |E,,6 |
+D,,6 |A,,6 |D,,6 |B,,,6 |
+E,,6 |B,,,6 |G,,6 |=F,,6 |
+E,,6 |^D,,6 |D,,6 |A,,6 |
+G,,6 |G,,6 |D,,6 |A,,,6 |
+D,,6 |A,,,6 |D,,6 |A,,,6 |
+E,,6 |A,,,6 |E,,6 |A,,,6 |
+E,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,2 B,,,2 C,,2 |D,,6 |A,,,6 |
+D,,6 |A,,,6 |B,,,6 |F,,6 |
+E,,6 |B,,,6 |E,,6 |B,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |D,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,2 B,,,2 C,,2 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |A,,,6 |E,,6 |A,,,6 |
+D,,6 |D,,6 |]
+S:https://www.folktunefinder.com/tunes/104646
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

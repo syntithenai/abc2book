@@ -1,0 +1,24 @@
+X:235
+T:Blarney Pilgrim, The
+R:jig
+Z:id:hn-jig-235
+M:6/8
+K:Dmix
+~D3 DEG|A2G ABc|BAG AGE|GEA GED|
+~D3 DEG|A2G ABc|BAG AGE|GED D3:|
+|:ded dBG|AGA BGE|ded dBG|ABA GBd|
+g2e dBG|AGA BGE|B2G AGE|GAG GFG:|
+|:ADD BDD|ADD ABc|BAG AGE|GEA GED|
+ADD BDD|ADD ABc|BAG AGE|GED D3:|
+S:https://www.folktunefinder.com/tunes/117674
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj2.abc
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

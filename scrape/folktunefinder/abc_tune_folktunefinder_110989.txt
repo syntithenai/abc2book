@@ -1,0 +1,19 @@
+X:4
+T:Una Canzon Francese doulce memoire
+C: Francis I
+O: From Diego Ortiz, El Primo Libro
+L:1/2
+M:C|
+%%MIDI nobarlines
+%%MIDI transpose -24
+K:D dorian bass
+T: Bassus
+%1
+d2-d2 f c d2 A2 z2 d2 f > g a f e2 A2 d2 d d g/ f/ e/ d/ c e d2 "A"c2-c2 f2 f f d/ e/ f/ g/ a e c A e2 e2 A2-A2
+S:https://www.folktunefinder.com/tunes/110989
+S:http://www.laymusic.org/music/ortiz/douce/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:32
+T: Heimkehr des Ehemannes
+N: Q0011C
+O: Suedosteuropa, Jugoslawien, Gottschee, Verdreng
+N: Grundton in der zweigestrichenen Oktave, 2. und 4. Zeile = Refrain
+N: auf sinnfreie Silben.
+R: Ballade, Ehe, Heimkehr
+M: 2/2
+L: 1/8
+K: D
+A,2 | D2D2DDEE | DDB,2A,4
+D4E4 | F6
+D2 | F2F2FFAA | AAE2D4
+F4E4 | DDCCD2
+S:https://www.folktunefinder.com/tunes/109970
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, ehe, heimkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

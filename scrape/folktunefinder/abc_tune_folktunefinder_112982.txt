@@ -1,0 +1,27 @@
+X: 05002
+T: AMELIA
+C: Bob McQuillen 1981
+B: Bob's Note Book 5 #2
+R: waltz
+N: Now a tune for Deanna's sweet daughter; if you haven't met her, you really oughtter.
+Z: 1997 by John Chambers
+M: 3/4
+L: 1/8
+K: D
+A,2 \
+| D3 E D2 | D2 F3 E | D2 F2 B2 | A4 A2 | B3 G B2 | A2 F2 E2 | D2 B,3 B, | B,4 A,2 |
+| D3 E D2 | D2 F3 E | D2 F2 BF | A4 A2 | B3 c d2 | d2 e2 f2 | e3 c A2 | A4 :|
+|: a2 \
+| f2 a3 f | a2 f2 d2 | e3 c B2 | A4 fe | d3 B d2 | f2 e2 d2 | c3 A F2 | F4 A2 |
+| G2 B3 G | F2 A2 d2 | e3 c e2 | d4 f2 | g3 f g2 | a2 f2 e2 | d2 e3 c | d4 :|
+S:https://www.folktunefinder.com/tunes/112982
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book05/05002_Amelia.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

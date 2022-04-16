@@ -1,0 +1,49 @@
+X:16
+T:Cecil Sharp House
+C:Colin Hume, 1998
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=84
+%%staffsep 50
+%%MIDI chordname 7sus 0 5 7 10
+K:G
+P:A
+V:1
+%%MIDI program 72
+[| B | e2 gf/e/ | d2 B2 | c3/2B/ A/B/A/G/ | F2- FG/A/ | BE GB | A3/2G/ F2 | EF/G/ A/G/F/E/ | F2- FB |
+e2 gf/e/ | d2 B2 | e3/2d/ c/d/c/B/ | A2-AG/A/ | BE GB | A3/2G/2 FG/A/ | BE GB | A/B/A/G/ FE/F/ |
+Ge ed/c/ | d3/2B/ G2 | DA A2 | DB B3/2A/2 | Ge ed/c/ | d3/2B/ GD | EG A3/2G/ | G2- G ||
+V:2
+%%MIDI program 72
+%%MIDI beat 75 65 50 1
+%%MIDI chordprog 92
+%%MIDI chordvol 50
+%%MIDI gchord c
+[| "B7"z | "Em"G/A/B/c/ "^/"B2 | "G"G/A/B/c/ "^/"B2 | "C"E/F/G "^/"C/D/E | "B7sus"E^D/^C/ "B7"D2 |\
+"Em"EB, "^/"EB, | "D"F/G/F/E/ "^/"D/E/D/B,/ | "C"CG, "^/"CG, | "B7sus"B,/C/B,/A,/ "B7"B,2 |
+"Em"G/A/B/c/ "^/"B2 | "G"G/A/B/c/ "^/"B2 | "C"G/A/G/F/ "^/"E2 | "Am"E/F/E/D/ "^/"CE/F/ |\
+"Em"GB, "^/"EG | "D"FA, "^/"DE/F/ | "Em"GB, "^/"EG | "D"F/G/F/E/ "^/"DD |
+"C"Cc "^/"cB/A/ | "G"GD "^/"B,C | "D"DF "^/"F/G/F/E/ | "G"DG "G7"G/A/G/=F/ |\
+"C"Ec "D7"cB/A/ | "G"GD "^/"B,G, | "C"CE "D7"GF | "G"GD "^/"G, ||
+%%vskip 20
+P:B
+V:1
+|: B | cB/A/ GA | B2 G2 | e3/2e/ dA | B3 B | ^AB c^c | e2 d2 | EF G^G | B2 A2 |
+Gg gf/e/ | d2 B2 | Ge ed/c/ | B2 G2 | FA AG/F/ | E/F/G G3/2E/ | DA/B/ cF | G3 :|
+V:2
+|: G | "Am"AG/F/ "^/"EF | "Em"GF "^/"ED | "C"CG "D"FE/F/ | "G"G2 "^/"DE |\
+"F#7"F^G "^/"A^A | "Bm"^c2 "^/"B2 | "Am"CD "^/"E=F | "D7"G2 "^/"F2 |
+"Em"GE "^/"GA | "G"BD "G7"G/A/G/=F/ | "C"EC "^/"E^F | "Em"GG,/A,/ "^/"B,B,/C/ |\
+"D"DF "^/"FE/D/ | "C"CE "^/"ED/C/ | "D"DF/G/ "D7"AD | "G"G,3 :|
+S:https://www.folktunefinder.com/tunes/110063
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

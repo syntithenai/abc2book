@@ -1,0 +1,30 @@
+X:3
+T:Billy Jolly's Jig
+C:Bob Massie
+H:1996
+N:Written for Orcadian moothie player Billy Jolly.
+M:6/8
+L:1/4
+Q:1/4=180     %Tempo
+K:D
+F3 AFE |D4 FA |d2 e fed |B4 AB |
+def edB |dBA D2 E |FAd AFD |E6 |
+F3 AFE |D4 FA |d2 e fed |B4 AB |
+def edB |dBA D2 A |dAF GFE |D6 |
+f3 afe |d4 BA |B2 c dcB |A4 FA |
+B2 c dcB |Adf a2 f |ged cec |A6 |
+f3 afe |d4 BA |B2 c dcB |A4 FA |
+B2 c dcB |Adf a2 f |gec Aca |d6 |]
+S:https://www.folktunefinder.com/tunes/99876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Bobs-Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:285
+T:Roxburgh Castle
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:A
+P:A
+cB|"A"AGAc ecAc|"D"dcdf "A"ecAc|"D"d2(3fed "A"c2a2|"Bm"B2Bc "E7"BdcB|
+"A"AGAc ecAc|"D"dcdf "A"ec(3Ace|"A"agaf "E7"edcB|"A"c2A2 A2:|
+P:B
+e2|"A"aece fece|"A"aece fece|"D"d2b2 "A"c2a2|"Bm"B2Bc "E7"BdcB|
+"A"AGAc ecAc|"D"dcdf "A"ec(3Ace|"A"agaf "E7"edcB|"A"c2A2 A2:|
+S:https://www.folktunefinder.com/tunes/129784
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/hpps.abc
+S:http://www2.redhawk.org:8080/irish/nmd/hpps.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

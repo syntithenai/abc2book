@@ -1,0 +1,32 @@
+X: 83
+T:Jenny Picking Cockles
+S:Version 1 from Kevin Burke, version 2 is the standard version
+H:See also #427, #528.
+H:Related to "Jenny's Welcome to Charlie", #47.
+N:The second part of version 2 is sometimes played with =f instead of ^f
+D:Patrick Street 2.
+D:Martin O'Connor: Connaughtman's Rambles.
+Z:id:hn-reel-3
+M:C|
+L:1/8
+K:Dmix
+d2dc AG~G2|FGAB cAGA|d2dc AGEF|GEcE ED D2|
+d2dc AG~G2|FGAB c2cd|eddc AGEF|GEcE ED D2:|
+|:~f3d efed|^cA~A2 ^cdeg|~f3d ed^cd|eaag edde|
+~f3d efed|^cAAB =c2cd|eddc AGEF|GEcE ED D2:|
+S:https://www.folktunefinder.com/tunes/127331
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

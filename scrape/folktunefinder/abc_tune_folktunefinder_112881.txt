@@ -1,0 +1,30 @@
+X:454
+T: Caihua
+N: C1489
+O: China,Yunnan, Jianshui
+S: II, 63]
+R: Wuge, Huadeng]
+M: 2/4
+L: 1/16
+K: G
+e2B2B2d2 | e2d2e4- | e6d2- | d2B2z2
+e2 | A4d2e2 | c4B2G2 | BAB2A4- | A4z2
+B2 | E2G2A4z2d2 | e2d2c2B2 | A4z2
+B2 | G2A2d2B2 | ABG4F2 | EDE6
+e2d2B2d2 | e2f2e4- | e8- | e6fe
+d2edc2B2 | ABG4E2 | ABA4
+B2 | G4A4z2d2 | c4B2d2 | A4z2
+B2 | G2A2d2B2 | ABG4F2 | EDE6
+S:https://www.folktunefinder.com/tunes/112881
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, huadeng]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

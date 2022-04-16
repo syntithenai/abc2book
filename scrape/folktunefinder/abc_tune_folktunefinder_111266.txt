@@ -1,0 +1,25 @@
+X:35
+T: Hora Mare 2
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: Bm
+%%MIDI program 41
+%%MIDI bassprog 25
+%%MIDI bassvol 70
+|:"Bm"F4     |B4    | (3cde (3dcB          |cdz2        |\
+(3cde (3dcB|cdz2  | (3cde (3dcB          |BFBz        :|
+|:"D"feed    |"A"ce3|"D" f/e/e/d/ d/c/d/e/ |"A"fdA2     |
+"D"feed    |"A"ce3|"Em" f/e/e/d/ d/c/c/B/|[1"Bm" Bcde :|[2 "Bm"B2z2|
+S:https://www.folktunefinder.com/tunes/111266
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

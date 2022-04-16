@@ -1,0 +1,32 @@
+X:520
+T: Dui niao
+N: C0176
+O: China,Zhejiang, Leqing
+S: III, 645]
+N: Frage - Antwort nicht ueber Blumen, sondern ueber Voegel. VARIANTE
+N: In der gesungenen Version ist die letzte Phrase kuerzer.
+N: mongolischer Einfluss. Saengerin: Huang Bai ()
+N: Einige Verzierungen und Glissandi.
+R: Shange. Melodiegeruest aehnlich wie meng jiangn aber keine
+M: 2/4
+L: 1/16
+K: C
+z2ddd2d2 | e2e2d4- | d8 | A8
+z2ccc2c2 | g2A6 | c2G6
+G2G4A2 | c2c2d2eg | A4z4
+z2AAG2A2 | A2A2G2A2 | g2A6 | A4G4
+z2ddd2d2 | e2e2d4- | d8 | A8
+g2A2c2c2 | g2A6 | c2G6
+G2G4A2 | c2c2d2g2 | A4z2
+eg | A2c2c2c2 | d2d2A2c2 | g2A6 | A2G6
+S:https://www.folktunefinder.com/tunes/112947
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange. melodiegeruest aehnlich wie meng jiangn aber keine
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

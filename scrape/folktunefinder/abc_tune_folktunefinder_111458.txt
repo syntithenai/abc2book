@@ -1,0 +1,27 @@
+X:135
+T:Jig of Slurs
+M:6/8
+L:1/8
+C:Trad.
+R:Jig
+N:Phil Sexton's Version
+K:D
+|DFA dcd|Bdd Add|Bdd Add|Bee efe|\
+DFA dcd|Bdd Add|Bdd cde|1fdc d3:|2fdc d2||\
+A|fzf fef|aff fed|Bee ede|~f3 edB|\
+Aff fef|aff fed|Bcd cde|fdc d2 :|\
+B|gzg gfg|agf gdB|~g3 gfg|agf g2B|\
+~g3 gfg|agf ged|Bee efg|fed e2 :|\
+B|~G3 ~B3|~e3 edB|GBB Bdd|dee efg|\
+GBB Bdd|dee edB|~e3 efg|fed e2 :||
+S:https://www.folktunefinder.com/tunes/111458
+S:http://www.firepowr.com/abc/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

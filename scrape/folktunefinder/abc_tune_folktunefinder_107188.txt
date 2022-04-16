@@ -1,0 +1,30 @@
+X:1
+T:Reel semeur (R-140)
+I: Reel semeurR-140Dreel
+R:reel
+H:Traditional reel from Quebec
+D:From workshop by Richard Forest
+Z:Translated to abc by Debby Knight, edited by Mary Lou Knack
+M:C|
+K:D
+A| "D"ABAG F2A2| f4 d4| ABAG  F2A2 | f4 d4  |
+   "Em"e3f "A7"g2e2 | "D"dcde "Bm"fafd| "Em"cBcd "A7"efec |1 "D"dBAF D3 :|[2 "D"dBAF "D#o"D2df ||
+|: "Em"a2(3gbg "A7"e2ce| "D"g2f2 "Bm"d3e| "Em"(3faf e2 "A7"B2c2 | "D"dcde "D#o"fedf|
+"Em"a2(3gbg "A7"eece| "D"g2f2 "Bm"d3c| "E7"B2g2 "A7"e2c2  |1 "D"dBAF "D#o"D2df :|[2 "D"dBAF D3|]
+S:https://www.folktunefinder.com/tunes/107188
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/reel/R140_Reel_semeur.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R140_Reel_semeur.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R140_Reel_semeur.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

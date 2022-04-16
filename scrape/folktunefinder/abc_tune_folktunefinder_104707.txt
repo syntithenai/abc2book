@@ -1,0 +1,31 @@
+X: 33
+T:Legacy,The. GS.033
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Leeds
+N:  This is very difficult to read, owing to Mr. Spencer's
+N: pen giving real problems and blotting everywhere.
+N:  A version, apparently identical, occurs as No. 76, which
+N: has been used to reconstruct this
+H:1831
+Z:vmp.Cherri Graebe
+K:A major
+"p"A2A AEC |  e2e ecA | A2 B cBc | F2 G A3 :||:  "f" Ace a2a |
+ (gf).e (fe).c |! Ace a2a | (gf)e f2g | a2a gec | f2f ecA | A2B cBc | F2
+GA3:||
+S:https://www.folktunefinder.com/tunes/104707
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

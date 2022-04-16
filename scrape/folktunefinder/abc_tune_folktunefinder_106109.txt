@@ -1,0 +1,27 @@
+X:5
+T:One Bottle More
+M:3/8
+L:1/8
+S:Sergt. James O'Neill
+R:Air
+K:G
+"Moderato"G|GBd|d>BG|cee|e2 d/2c/2|Bdg|dBG|A>FD|D2||
+D|G>FG|EFG|A/2B/2c/2d/2e/2f/2|g2 f/2e/2|
+dfg|a/2g/2f/2e/2d/2c/2|BAG|GB/2d/2c|
+A>FD|D2 E/2F/2|A/2B/2c/2d/2e/2f/2|g2 f/2e/2|
+dg f/2g/2|a/2g/2f/2e/2d/2c/2|BGG|G2||
+%
+% slightly different from the setting in O'Farrell's
+% Pocket Companion 1804-1810.
+S:https://www.folktunefinder.com/tunes/106109
+S:http://music.gordfisch.net/oregans/assets/abc/oneillswaifs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

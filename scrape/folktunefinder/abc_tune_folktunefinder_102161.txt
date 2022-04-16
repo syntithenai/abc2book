@@ -1,0 +1,41 @@
+X:6263
+T:Gird the Cogie, for the pipe  Ingram's Set
+S:George Skene's MS, NLS Adv.MS.5.2.21, 1715
+Z:Jack Campin 1998
+M:4/4
+L:1/8
+K:Amix
+f|\
+(efe)A (B~B/c/B)G|efeA "="c2A(c/e/)|\
+(efe)A B(c/B/B)G|e(f/g/) (a/g/f/e/) "="c2A:|
+f/g/|\
+(a/g/f/e/) (c/d/e/c/) d>B G(f/g/)|(a/g/f/e/) ae "="f2 e(f/g/)|\
+(a/g/f/e/) (c/d/e/c/) g>B GB|Af/g/ ae "="c2A:|
+B|\
+AA/B/ AA/B/ GG/B/ GG/B/|A/A/B A/A/B A/A/B A/A/B|\
+A/A/B A/A/B G/G/B G/G/B|Af/g/ ae "="c2A:|
+(f/g/)|\
+a/g/f/e/ c/d/e/c/ g>B Gf/g/|a/g/f/e/ ae "="f2 ef/g/|acac gBgB|cAae "="c2A:|
+{g}f|\
+{f}eAeA {c}BGBG|{f}eAeA "="cA"="cA|eAeA BGBG|"="fAeA "="c2A:|
+B|\
+A/A/B AB G/G/B GB|A/A/B AB A/A/B AB|A/A/B AB G/G/B GB|Af/g/ ae "="c2A:|
+(f/g/)|\
+a/g/f/e/ c/d/e/f/ d/c/B/A/ Gf/g/|a/g/f/e/ ae "="f2 ef/g/|\
+acca BBgB|d/c/B/A/ ae "="c2A:|
+{g}f|\
+eA c/d/e/c/ dGdB|eA c/d/e/c/ aA c/d/e/c/|\
+"="fA c/d/e/c/ B/A/G dB|Af/g/ ae "="c2A:|
+% Jack Campin * 11 Third Street, Newtongrange EH22 4PU, Scotland  0131 556 5272
+% http://www.purr.demon.co.uk/purrhome.html  food intolerance data and recipes,
+% freeware logic fonts for the Macintosh, and Scots traditional music resources
+S:https://www.folktunefinder.com/tunes/102161
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

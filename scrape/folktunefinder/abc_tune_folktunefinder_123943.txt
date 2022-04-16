@@ -1,0 +1,36 @@
+X:5160
+T:Fenella
+R:marching air
+C:Paul S. Cranford
+O:20th Century Cape Breton
+D:The Lighthouse, Cranford Publications
+B:The Lighthouse Collection, ISBN 0-9691181-5-5
+B:The Balnain Collection, ISBN 0-9528308-1-7
+N:http://www.cranfordpub.com
+H:Composed for Fenella Johnstone
+Q:196
+L:1/8
+M:C|
+K:D
+P:A
+"marching air" DE|:F2>E2 DEFA|d2>c2 B4|A>BA>F G>FED|F2E2 EA,(DE)|!
+[1F2>E2 DEFA|d2>c2B4|A>BA>F G>FED|F2D2 DA,(DE):|!
+[2F2>E2 DEFA|d2>c2B4|"final 2 bars for B part"A>BA>F G>ABg|f2d2 d4||!
+P:B
+|: a2>f2 b<aaf|g>ef<g f2fg|a>fg<a b>ag<f|[1 f2e2e4|!
+a2>f2 b<aaf|g>ef<g f2(e/f/g)|f>ed>B A>FE<G|F2D2 D4:|
+[2 e>dcGF<E|F2>E2 DEFA|d2>c2B4|"final 2 bars use A part end"A>BA>F G>FED|F2D2 D2|]!
+S:https://www.folktunefinder.com/tunes/123943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Marching air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:396
+T: Shiliting
+N: C1431
+O: China,Ningxia, Yinchuan
+S: I, 198]
+R: Xiaodiao. Nann liqing]
+M: 2/4
+L: 1/16
+K: G
+d2A2d4 | d2^c4d2 | A2G2F2E2 | D8
+A2G2A4 | ^C4D4 | G2E2D2B,2 | A,8
+D2D2G4 | A2A4d2 | A2G2F2E2 | D8
+d2A2d4 | d3g^c2A2 | G6A2 | E2D2C2B,2 | A,8
+S:https://www.folktunefinder.com/tunes/112823
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. nann liqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

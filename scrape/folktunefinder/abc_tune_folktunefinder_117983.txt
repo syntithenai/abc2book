@@ -1,0 +1,23 @@
+X:1
+T:Killimer Jig, The
+R:jig
+Z:id:hn-jig-245
+M:6/8
+L:1/8
+Q:3/8=100
+K:G
+DEF ~G3|BAG ABc|d^cd ~f3|ded cAF|DEF ~G3|BAG ABc|
+d^cd fed|cAF ~G3::GBd ~g3|dgb gdB|GBd ~g3|
+fed cAF|GBd ~g3|dgb gdB|GBd fed|cAF ~G3:|
+S:https://www.folktunefinder.com/tunes/117983
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

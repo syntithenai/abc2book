@@ -1,0 +1,58 @@
+X:483
+T: Wuge fang yang
+N: C0083
+O: China,Shanxi, Hequ
+S: I, 315]
+N: urspruenglich Tanz- oder Gesangsduett aus der Mongolei,
+N: spaeter wird dies dann auch in einem kleinen volkstuemlichen Musiktheater
+N: uebernommen. - Enthaelt verschiedene Abschnitte. a) endet S. 316 Mitte; hat
+N: je eine Strophe von Januar bis Dezember; hier aber springt der Text von
+N: Januar in der zweiten Strophe gleich auf den Juni. Plattenhuelle kopiert-.
+N: Vor- und Zwischenspiele weggelassen. Wenig Verzierungen.
+N: Pinyin-Text der ersten Strophe vorhanden!
+R: Tanzlied, Er ren tai]
+M: 2/4
+L: 1/16
+K: A
+c2e2a3f | e8 | fafece2F | F2A6
+B3cc3a | f2e2c2F2 | e2A2ceFA | A2E6
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | A2F4ce | BAB4
+Bc | e2A2ceFA | A2E6
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | A2F4ce | BAB4
+Bc | e2A2ceFA | A2E6
+c2e2a3f | e8 | a6F2 | F2A6
+B3cc3a | f2e2c2F2 | e2A2c3F | A2E6
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | ceF4ce | BAB4
+Bc | e2A2c3F | A2E6
+c2e2a3f | e3fa2b2 | f2d2c2F2 | A6F2
+B3cc3a | f2e2c2F2 | e2A2ceFA | A2E6
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | A2F4ce | BAB4
+Bc | e2A2ceFA | A2E6
+c2e2a3f | e6c2 | f2d2c2Bc | A8
+B3ce2a2 | f2e2d2c2 | e2A2ceF2 | A2GFE4
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | A2F4ce | BAB4
+Bc | e2A2G2FG | E8
+c2e2a2f2 | e2c2a4 | f2e2c2F2 | A6F2
+B3ce3a | f2e2c2fa | e2A2c2F2 | A2E6
+c2F2z2ce | B2B2z2ce | F3AF2E2 | e8
+c3af2e2 | A2F4ce | BAB4
+Bc | e2A2ceFA | A2E6
+B2B4ce | B2B4ce | F3AF2E2 | e8
+c3af2ef | A2F4ce | B2E2BEBc
+e2A2ceFA | A2E6
+S:https://www.folktunefinder.com/tunes/112910
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Tanzlied, er ren tai]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

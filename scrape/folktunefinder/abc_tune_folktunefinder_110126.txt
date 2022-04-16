@@ -1,0 +1,29 @@
+X:79
+T:Mr Mozart's Rant
+C:Mozart
+N:From Piano Concerto no. 17 K453, third movement
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=105
+K:G
+P:A
+|: B,/2C/2 | "G"DD "^/"DG | "D"FF "Em"GG | "C"AA "D7"A/2B/2c/2A/2 | "G"B2- "^/"Bd/2B/2 |\
+"D"AA "B7"AB/2A/2 | "Em"GG "Bm"FF | "Em/G"EE "A7"^C/2D/2E/2C/2 | "D"D2- "^/"D :|
+P:B
+|: D/2F/2 | "A"AA "^/"AA | "D"GF- "^/"FD/2F/2 | "A"^G/2A/2G/2A/2 "^/"G/2A/2B/2A/2 | "D"GF- "D7"FA/2D/2 |\
+"G"dd "D7"cc | "Em"BB "Am"AA | "G/D"GG "D7"F/2G/2A/2F/2 | "G"G2- "^/"G :|
+T:Last time, replace final bar by...
+%%vskip 0
+P:Coda
+"G"G2 "^-"d/2e/2f/2d/2 | "^-"g2 "D7"dd | "G"B2 "^-"d/2e/2f/2d/2 | "^-"g2 "D7"[dD][dD] | "G"[G4G,4] |]
+T:where the dashes mean no chord.
+S:https://www.folktunefinder.com/tunes/110126
+S:http://www.colinhume.com/ABC.txt
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

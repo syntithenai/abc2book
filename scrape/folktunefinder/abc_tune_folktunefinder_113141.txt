@@ -1,0 +1,30 @@
+X: 132
+T: My Marianne
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: C
+|:\
+"C"c3~c- cAGc|"Dm"Ad2~d- dcAB|"C"c3~c- cAGE|"F"FEDE "G"FGAB|
+"C"c2ed cAGc|"Dm"Ad2~d- dcAB|"C"c2ed cAGE|"G"FAGF "C"ECC2:|
+|:\
+"C"eg-~ge c3d|"Am"ea2~a- aged|"C(7)"ecc/c/c dged|"F"cAGA "G"cBcd|
+"C"eg-~ge c3d|"Am"ea2~a- aged|"F"ecc/c/c dged|1\
+"G"cAGA cBcd:|2\
+"G"cAGA "C"cGAB|]
+S:https://www.folktunefinder.com/tunes/113141
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

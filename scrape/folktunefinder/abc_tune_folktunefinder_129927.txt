@@ -1,0 +1,22 @@
+X: 11
+T:Le roi a fait battre tambour
+T:La marquise empoisonne
+C:Paroles et musique traditionnelle
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+z3 "Am" aef | "C"e3 "Dm"dcd | "Am"e3 aef | "C"e3 "Dm"dcd | "Am"e3 "G"def |
+"C"g2a (g>fe) | "G"d2z "E"eef | e3 dcB | "Am"A3 cBc | "Dm"d2e (A>Gc/2B/2) | "Am"A3- Az2 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129927
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Chansons%2520pour%2520Elisabeth.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ChansonspourElisabeth.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

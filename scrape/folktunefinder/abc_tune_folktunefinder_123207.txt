@@ -1,0 +1,29 @@
+X:315
+T: Happy Reel [The]
+C: Joe Derrane
+D: "The Tie that Binds" [Shanachie]
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+d|: gedB GABG|AGEF GEDC|B,D (3DDD DEGA|BedB (3ABA Bd|
+gedB GABG|AGEF GEDC|B,D (3DDD DEGB|1 AGEF G2 (3Bcd :|2\
+AGEF G2 ze||
+DEGB dBGE|(3GAG EG cdec|AB^ce aece|(3ded ^ce dega|
+bfgb agfg|efgb agef|gedB GABG|1 AGEF G2 z E :|2\
+AGEF G2 zd||
+P: optional tag
+bgaf gefd|ecdB cABG|AFGE FDEF|GEDB, G,2 z2||
+S:https://www.folktunefinder.com/tunes/123207
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

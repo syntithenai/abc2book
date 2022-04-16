@@ -1,0 +1,33 @@
+X: 158
+T: Turning of the Tide
+C: Maire Bhreathnach
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A minor
+AB|:\
+"Am"c2Bc AGED|"C"CDEF GBBB|"F"~c2Bc AGEF|"G"GEDB, "Am"A,2AB|
+"Am"cABc AGED|"C"CDEF GABc|"G"dBB/B/B cBG^F|1\
+"D"GEDB, A,2AB:|2\
+"D7"GEDB, A,4||
+K: A
+|:\
+"A"c2Bc ABcd|eAce "Em"=gedf|"A"ea~ag a=gef|"G"=gedB ~BAAB|
+"A"~c2Bc ABce|eAce =gfga|"Em"ba=gb agef|"G"=gedB BAAB:|
+S:https://www.folktunefinder.com/tunes/113167
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

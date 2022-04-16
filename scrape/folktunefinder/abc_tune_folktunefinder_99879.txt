@@ -1,0 +1,27 @@
+X:6
+T:McPherson's Rave
+C:Bob Massie
+H:1997
+N:Garrick McPherson, brilliant singer had a "Rave" for his 40th birthday.
+M:4/4
+L:1/4
+Q:1/4=120     %Tempo
+K:A
+EF A2 af ec |BA Bc BA F2 |EF A2 af ec |BA B6 |
+EF A2 af ec |BA Bc BA F2 |EF Bc BA FE |EF A6 |
+EF af ec BA |FG A4 fg |a2 a2 g2 g2 |fg fe c2 Bc |
+fg fe cB Bc |f6 fg |a2 a2 g2 g2 |fg fe c2 Bc |
+Ee cA BA FG |A6 EF |AB cB ce fe |fg a2 gf ec |
+BA BA FG A2 |]
+S:https://www.folktunefinder.com/tunes/99879
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Bobs-Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

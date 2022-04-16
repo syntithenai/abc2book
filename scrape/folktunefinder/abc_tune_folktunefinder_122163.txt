@@ -1,0 +1,22 @@
+X:55
+T:Jig, A
+M:6/8
+S:unknown, photocopy
+I:speed 250
+K:D
+DE |: F3AFE | EDB, A,B,D | FEF GFG | ABF AFE |
+F3 AFE | {F}EDB, A,B,D | FEF GFG |[1BAF D2E:|[2BAF D2e|
+|:(3faf d dcd | edc Bcd | (3faf d dcd | A (3cBA Ade |
+g2d dcd | edc Bcd | f3 gec | dAF D3:|
+S:https://www.folktunefinder.com/tunes/122163
+S:http://ceolas.org/pub/tunes/abc.tunes/xij
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xij
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

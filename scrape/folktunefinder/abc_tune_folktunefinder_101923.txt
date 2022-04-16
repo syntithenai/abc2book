@@ -1,0 +1,25 @@
+X:6025
+T:Gan Ainm 
+R:hornpipe
+S:
+H:
+N:
+D:Irish Dancing Tape (P. Acc)
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:F
+DEFG Add2|Bd (3GAB Ad (3DEF|EAA2 ^CAA2|A,^CEG AGFE|\
+DEFG Add2|Bd (3GAB Ad (3DEF|EAA2 ^CAA2|A,GFE D4:||\
+dBBA Bd (3d^cd|dAA^G A2=GF|EAA2 ^CAA2|(3DFA (3dfa (3d'af d^c|\
+dBBA Bd (3d^cd|dAA^G A2=GF|EAA2 ^CAA2|A,GFE D4:||
+S:https://www.folktunefinder.com/tunes/101923
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:86
+T:Rosie's Jig
+M:6/8
+C:Jansen Wendell 
+R:jig
+K:D
+A|:"D"def edA|"G"BAd "D"AFD|"D"DFA "Em"EGB|"F#m"Adf "A"edA|
+"D"def edA|"G"BAd "D"AFD|"D"DEF "A"~E3|1"D"FDD D2A:|2"D"FDD D2A,||
+"G"B,DD"D"A,2A,|"G"B,DD"A"E3|"D"DEF DEF|"A"~E3 EFE|
+"D"DEF "A"EFG|"D"FAd fed|"G"BAF "A"EDE|"D"FDDD2A,|
+"G"B,DD"D"A,2A,|"G"B,DD"A"E3|"D"DFA def|"A"~e3 efg|
+"D"agf "G"gfe|"D"fed "Em"edA|"G"B1/2c1/2dB "A"AFE|"D"FDD D2|]
+S:https://www.folktunefinder.com/tunes/106996
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/alljigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

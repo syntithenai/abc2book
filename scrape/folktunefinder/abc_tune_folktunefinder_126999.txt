@@ -1,0 +1,27 @@
+X: 75
+T:Sicilian Dance,1st part. JNu.41
+M:6/8
+L:1/8
+Q:100
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Quadrille
+O:England
+A:East Lancashire
+N:Numbered incorrectly as No 40 in MS
+Z:vmp.Manchester Morris Men
+K:F
+"primo"F>GF AGF|c2c c2B|Acf c2B|ABA F2C|!
+FGF AGF|c2c c2f|edc dc=B|c3 c3:|!
+|:g2c b2a|gfe fef|g2c b2a|gfe f3|!
+dbb caa|Bgg Aff|BAG c2E|F3 F3:|]
+S:https://www.folktunefinder.com/tunes/126999
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

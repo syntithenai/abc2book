@@ -1,0 +1,27 @@
+X: 1
+T: Captain White
+I: Captain WhiteJ-34Djig
+C: James Kerr
+M: 6/8
+R: jig
+K: D
+A/F/| "D"DFA d2f| "Em"edc "G"B2d| "D"A2d "Bm"F2B| "G"AGF "A7"E2F|
+      "D"DFA d2f| "Em"edc "G"B2d| "D"A2d F2B| "A7"ABc "D"d2:|
+f| "A"e^de A2f| e^de "D"a2f| "A"efe "E7"dcB| "A"A2B c2f|
+   "A"e^de A2f| e^de a2f| "E7"efe dcB| "A"ABA "A7"GFE|
+   "D"D2f fef| d2A A2A| "D"A2f fef| "A7"g2e e2e|
+   "D"A2f fef| "Bm"d2A A2A| "G"Bcd "A"edc| "D"(d3 d2)|]
+%%text Roaring Jelly  J-34
+%%vskip .2cm
+S:https://www.folktunefinder.com/tunes/107035
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

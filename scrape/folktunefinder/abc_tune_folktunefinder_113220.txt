@@ -1,0 +1,32 @@
+X: 211
+T: Boda Valsen
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/8
+K: Em
+|:\
+"Em"B3cBA|B3cBA|B4e2|B3def|\
+"G"g4g2|"D"f4e2|"Bm"f3gf2|B6|
+"C"e4e2|"D"d3cBA|"G"B4A2|"Em"G3FGA|\
+"Am"B3ABc|"B7"A3GF2|"Em"E6-|E6:|
+|:\
+"C"e4e2|g3fe2|"G"d6|B6|\
+"D"A3Bc2|c2B2A2|"G"B4c2|"G7"d6|
+"C"e4e2|g3fe2|"Bm"d6|B6|\
+"Am"A3Bc2|"D"D2E2F2|"G"G3AGF|G6:|
+S:https://www.folktunefinder.com/tunes/113220
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

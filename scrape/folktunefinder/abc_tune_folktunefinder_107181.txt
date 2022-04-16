@@ -1,0 +1,30 @@
+X: 5
+%%leftmargin     2.5cm
+%%staffwidth     16.50cm
+T:Snow Deer (harmony)
+R:reel
+H:Bob Wills
+Z:Transcribed to abc by Debbie Knight, edited by Mary Lou Knack
+M:C|
+K:C
+C2E2F2| G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 |      B,4 G4- |G2F2 E2D2 |C4 G4- |G2C2 E2F2 |
+G2GF G2GA |G2E2 D2E2 |F2FE F2FG |F2E2 D2C2 |      B,4 F4- |F2E2 F2G2 | E8- |E2E2 F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A |      G2F2 F2EF- |F4 F3G | F2E2 E2DE- |E2 E2F2G2|
+A4 F4- |F2A2  G2F2 | E4 G4- |G4 G3A |      G2F2 F2EF- |F2A2 G2F2| E8 |1 E2 :|2 E8|]
+%%text tag line
+FFDF _AAFA| BB_AB d2d2| ecd^d ec=d^d| e^d=dc- c4|
+%%text 04/01/00
+S:https://www.folktunefinder.com/tunes/107181
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

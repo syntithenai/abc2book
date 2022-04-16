@@ -1,0 +1,25 @@
+X:159
+T: Jiucai kaihua yi ganzi
+N: C0265
+O: China,Fujian, Qingliu
+S: II, 586, 1)]
+N: Einige Glissandi.
+R: Shange, Kejia shange. Geming lishi minge]
+M: 2/4
+L: 1/16
+K: Bb
+g2d2c2c2 | d2gbc4c2z2
+d2g2g2c2b4 | cbg2f4f2z2
+g2dgb2b2 | d2f2b4
+d2gbb2gf | d2g2f4f2z2
+S:https://www.folktunefinder.com/tunes/112586
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, kejia shange. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

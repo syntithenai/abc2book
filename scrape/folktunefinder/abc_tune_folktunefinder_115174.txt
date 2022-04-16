@@ -1,0 +1,31 @@
+X: 16
+T:Bevringsmarsch frn Hrjedalen
+S:SvL JH 684
+N:Uppt. efter Rosa Arbman
+N:"Hrjedals bevringsmarsch
+A:Hrjedalen
+B:Svenska Ltar Jmtland-Hrjedalen nr 684
+O:Sweden
+M:4/4
+L:1/8
+K:Dm
+(A|d2) (d^c) A2(Ac)|e4 (g3e)|f2(ag) e2 (gf)| d2(d^c) A3A|\
+d2 (d^c) A2(Ac)|e4 (g3e)|(fa)fd (eg)e^c|[1d2d2 d3:|[2d2d2 d3e|:\
+f2 a2 c2 g2|f4 (a2 e2)|f2(ag) e2(gf)|d2(d^c) A3A|\
+d2 (d^c) A2(Ac)|e4 (g3e)|(fa)fd (eg)e^c|[1d2d2 d3e:|[2d2d2 d3|]\
+T:Oktavstmma
+(A,|D2) (D^C) A,2(A,C)|E4 (G3E)|F2(AG) E2 (GF)| D2(D^C) A,3A,|\
+D2 (D^C) A,2(A,C)|E4 (G3E)|(FA)FD (EG)E^C|[1D2D2 D3:|[2D2D2 D3E|:\
+F2 A2 C2 G2|F4 (A2 E2)|F2(AG) E2(GF)|D2(D^C) A,3A,|\
+D2 (D^C) A,2(A,C)|E4 (G3E)|(FA)FD (EG)E^C|[1D2D2 D3E:|[2D2D2 D3|]
+% Output from ABC2Win  Version 2.1 h on 2000-10-20
+S:https://www.folktunefinder.com/tunes/115174
+S:http://homepage.calypso.net/~ci-18034/harje.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/harje.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

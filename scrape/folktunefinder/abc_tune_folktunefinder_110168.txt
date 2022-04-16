@@ -1,0 +1,27 @@
+X:121
+T:Star of Kintra
+M:2/2
+L:1/4
+C:Elvyn Blomfield, 2004
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=115
+K:G
+P:A
+[| D | "G"G2 B2 | "G"d3/2 B/2AG | "C"E3/2 F/2 GA | "D7"D3 D \
+| "G"G2 B2 | "G"d3/2 B/2AG | "D"FA2e | "D7"dcBA |
+"G"GB2G | "D7"Ac2A | "G"B3/2c/2dG | "C"eg2e \
+| "G"dG2A | "G"Bd2G | "D7"A/2B/2cBA | "G"G3 |
+%%vskip 0
+P:B
+|: G | "C"eg2G | "G"Bd2D | "D7"F3/2G/2Ac | "G"ed2G \
+| "C"eg2G | "G"Bd2D |1 "D7"c3/2B/2Ae | "D7"d3 :|2 "D7"F/2G/2ABA | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/110168
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:50
+T:Michael and All Angels
+C:Air by Purcell
+Q:1/4=120
+M:3/4
+L:1/8
+K:C
+"Am"e2 A2 e2 | "Dm"e f4--f| "Am"e2 A2 "Dm"B2 | "E"^G2 AB cd | "Am"e2 A2 "G"B2 |
+"C"c4 c2 | "Dm"B2 "E"B3 A |1"Am"A2 AB cd :|2"Am"A4 AB || "C"c2 c2 "F"d2 |
+"G"B4 cd | "C"e2 c2 "F"f2 | "G"d4 ef | "C"g2 g2 f2 | "F"f2 ed cB |
+"G"ed d3 c | "C"c6 || "Am"c2 c2 c2 | "Am"A3 ^G A2 | "Dm"d2 d2 "A"^c2 |
+ "Dm"d6 |"Am" c2 c2 d2 |"C" e4 e2 | "Dm"e2 f2 d2 | "E"e6 ||
+"Am"e2 A2 e2 |"Dm"de f4 |"E" e2 A3 ^G | "Am"A6 |]
+S:https://www.folktunefinder.com/tunes/119306
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

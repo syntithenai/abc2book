@@ -1,0 +1,24 @@
+X:66
+T:Manastireanca
+O:rumania
+C:RO
+M:4/4
+L:1/8
+Q:1/4=225
+K:F
+V:1
+"F" f3 a"C" g3 e|"F" f2 fa "C" g3 e|"F" f2 fa "C" g3 f|"C" e2 c2 Bc de :|
+"C7" ec de "F" f2 z2 :| |:"F" cd cB A2 c2 |fe fg a2 f2 |"Bb" b2 ba ga bg |
+|1 "F" fe fg a4 :|2 "F" f6 z2 || |:"Bb" ba b3 d'c' b|"F" a3 ga c'b a|
+"C" g3 fg ba g|"F" f ef ga bc' f:|"F" f6 z2 :|
+S:https://www.folktunefinder.com/tunes/111297
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

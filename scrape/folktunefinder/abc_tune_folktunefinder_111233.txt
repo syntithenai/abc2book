@@ -1,0 +1,18 @@
+X:1
+T:A-Lumbering We Go
+M:4/4
+L:1/4
+K:D
+ z2 z A| D E F G| B A2 G| F A E A| D3 A| D E F G| B A AA/2-B/2| c B/2A/2 c B|\
+ A3 d/2d/2| d c B A| F E2 D/2F/2| G A B ^B| c- A2B/2-c/2| d c B A|\
+ F2 F3/2 E/2| D3/2 D/2 D2-| D2 E3/2- D/2| D3 z|
+S:https://www.folktunefinder.com/tunes/111233
+S:http://back.numachi.com:8000/dtrad/abc/LUMBRIN2.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/LUMBRIN2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

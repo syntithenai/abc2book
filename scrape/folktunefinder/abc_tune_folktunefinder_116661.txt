@@ -1,0 +1,50 @@
+X:13616
+T:Prince of Wales March,cont. TLY.034
+M:4/4
+L:1/8
+Q:150
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+N:Fourth bar is marked ff.
+N:last beat of 7th. bar is marked P, also Flutes 8va
+N:20th. bar is marked 8va.....
+N:27th. bar is marked ff.
+N:29th. bar is marked ff
+N:31st. bar is marked ff
+N:39th. bar is marked f
+N:40th. bar is marked cresc.
+N:41st. bar is marked sf
+N:second beat of 41st bar marked ff
+H:1860.
+Z:Taz Tarry.
+K:G
+BB/2B/2 BB BBBB|BB/2B/2 BB BBBB|BB/2B/2 BB/2B/2 B/2-G/2.A/2.B/2 .c/2.d/
+2.e/2.f/2|!
+"FF"[g4B4D4]g3 g|gg/2g/2 gg gggg|gg/2g/2 gg gggg|gg/2g/2 gg/2g/2 g2||!
+"P Flutes 8va"Bc|e>d d2-d.e.f.g|(g>d B2 z2 B>d|c2dc B>AB>c|(B>A) A2 z2 A
+-B|!
+c4 {dc}(BAGF)|d4 {ed^c} (defg)|g4 fedc|"8va"(Bc^cd) (AB=c^c)|!
+e-d .d2-d.e.f.g |g>d B2 z2 B-d|c2 d>c (BABc)|BA A2 z2 AB|!
+c4 (BAGF)|d4 (^cdef)|g-ecA F-Adc|c4-B2 A-B|c4 (BAGF)|!
+d4-defg|g3d d^c=cA|"FF"G4 z2 B2|d2 g2 b2 g2|"FF"d4-de/2-d/ (c/B/A/G/)|!
+.F.G.A.B .c.d.e.f|"FF"[D4c4g4] z2 B2|d2 g2 b2 g2|d4-de/-d/ c/2B/2A/2G/2|
+F2 A2 c2 F2|!
+.G.g.f.e .d.c.B.A|GABc defg|g2 B>B c>c^c>c|d>de>e d2f2|!
+"F"gg/2g/2 gg .g.d.g.b|
+"Cres."gg/2g/2 gg .g.d.g.b|"F"gdgb "FF"gdgb|"FF"[D4B4g4] [D3B3g3] [DBg]|
+[D4B4g4]z4|]
+S:https://www.folktunefinder.com/tunes/116661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:78
+T: Xiu hua
+N: C0100
+O: China,Hubei, Tianmen
+S: I, 358]
+N: neues Volkslied
+N: Phrasen 2 und 7: Phrasenende jeweils schon auf der Sekunde im zweiten
+N: Takt,  im Text ein ",")
+N: Das Lied besteht aus 3 Teilen: Die Phrasen 1-3 werden zweimal wieder-
+N: holt,  Zahl der Strophen), Phrasen 4 und 5 fuenfmal, 6-8 viermal.
+N: Vor-, Zwischen- und Nachspiele weggelassen. Eine Verzierung im Mittel-
+N: teil.
+R: Xiaodiao. Xin minge]
+M: 2/4
+L: 1/16
+K: Bb
+c2dfdcBG | c8 | GBcdcBGD | F8
+G2GBc2d2 | fgfdc3B | B2BGB4
+f3dcdB2 | GBF2B3G | F8
+F2FGB2GF | D2F4G2 | B2c2f2fd | cdB6
+G2F4G2 | B2GBc2d2 | cdcBG4 | F2GBGFDC | F8
+c2dfdcBG | c8 | GBcdcBGD | F8
+G2GBc2d2 | fgfdc4 | B2GBB4
+f3dcdB2 | GBF2B3G | F8
+S:https://www.folktunefinder.com/tunes/112505
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

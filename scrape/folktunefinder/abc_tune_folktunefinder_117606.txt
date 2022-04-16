@@ -1,0 +1,24 @@
+X:11
+T:Ballad of Ben
+R:jig
+C:JB, 1984
+M:6/8
+L:1/8
+Q:1/2=110
+K:D    
+|:A,|"D"D2F FED |"A"CDCB,2 A,|"Bm"B,CD "A"EDC| "D"D3 D z1:|
+F|"D"A2F FED |"A"EDCB,2 A,|"Bm"B,CD "A"EDC| "D"D3 D2 F|
+"D"AFE DCD | "A"EDC B,2 A,|"Bm"B,CD "A"EDC| "D"D3 D2 F||
+"D"A2A dcB | "A"AFE D2A,|"Bm"B,CD "A"EDC| "D"DEF A^GA|
+"D"ABc dcB | "A"AFE D2A,|"Bm"B,CD "A"EDC| "D"D3 D2||
+S:https://www.folktunefinder.com/tunes/117606
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

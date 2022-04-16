@@ -1,0 +1,22 @@
+X:13693
+T:Put Me in the Big Chest
+T:Cuir a Chiste Mhoir Mi
+S:Dunlay & Reich, Traditional Celtic Fiddle Music of Cape Breton
+M:C|
+L:1/8
+K:AMix
+% A lydian/major/mixolydian pentatonic, DG-gap
+F|EFAB c2cf|ecBA F/F/F AF|EFAB c/c/c cf|ecBc A/A/A A
+F|EFAB c2cf|ecBA F/F/F AF|EFAB cB    cf|ecBc A/A/A A||
+c|efec eAAc|efec BABc    |efec efaf    |ecBc A/A/A A:|
+S:https://www.folktunefinder.com/tunes/116738
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

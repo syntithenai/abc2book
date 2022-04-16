@@ -1,0 +1,23 @@
+X: 20
+T:D-Dur-Schleuniger #20
+M:3/4
+L:1/8
+C:trad
+R:Schleuniger
+S:j.m. schmalnauer: "tanz musik", bhlau, wien 1996 (compa bd. 5) 
+K:D
+DF|(AF)zA BG|A4  DF|AFzA BG|[A,4E4]  DF|
+AFzABG|A3  ABc|{c}d2  AFGE|D4  :|
+(3ABc|d2 AFGB|BA A2 (3ABc|d2 AFGB|A4 
+(3ABc|d2 AFGB|BA A2 (3ABc|d2 AFGE|D4  :|
+S:https://www.folktunefinder.com/tunes/113705
+S:http://www.unet.univie.ac.at/~a8702257/abc/bordland.abc
+% Rhythm Schleuniger
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

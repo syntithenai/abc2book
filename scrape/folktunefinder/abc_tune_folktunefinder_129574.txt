@@ -1,0 +1,31 @@
+X: 30
+T:When I Parted. BF12.30
+M:6/8
+L:1/8
+Q:120
+C:Browne "C" hand
+S:MS12,c1835,Browne Coll.,Lakes
+R:Jig
+O:England
+A:Lakes
+N:The bars indicated are distinctly odd CGP
+Z:vmp.Chris Partington.
+K:G
+F|E2B (BG).E|D2d (AF).D|E2B (BG).E|(GF).Ee2f|!
+.g.f.e .d.c.B|.A.F.d .A.F.D|E2B BGB|AGFE2:|!
+|:B|(eB).e (gb).e|(dA).d (fg).f|(eB).e (gb).e|\
+(fa).f (gf).e|(eB).e (gb).e|!
+"two spare bars...................................."\
+e-B.e g-be|.f.b.f .g.f.e.|\
+.d.^c.d .A.F.D|(EF).G (AB).c|(BG).FE2:|]
+S:https://www.folktunefinder.com/tunes/129574
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

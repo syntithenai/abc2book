@@ -1,0 +1,28 @@
+X: 65
+T:Hunchback,The. WI.065
+M:2/4
+L:1/16
+Q:100
+S:Wm Irwin, Folio MS, c1850. AGG's Transcription
+R:Misc.
+O:England
+A:Lake District
+Z:vmp.Chris Partington.2005
+K:Bb
+f2{g}f=e f2{g}f=e|f2{g}f=e f2d2|e2{f}ed ecAc|Bcde fgab|!
+f2{g}f=e f2{g}f=e|f2{g}f=e f2d2|e2{f}ed ecAc|"'etc..'"B2d2B4||!
+K:Eb
+G4 A2=A2|B2e2 g4|{g}fefg af_ed|"'etc..'"egfe dcBA|zzzz|]
+S:https://www.folktunefinder.com/tunes/121151
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:115
+T:Knocknagow
+R:jig
+Z:added by Alf Warnock - alf0@rogers.com - www.alfwarnock.info/alfs
+M:6/8
+L:1/8
+Q:3/8=120
+K:Am
+|:"Am"EAB ~c3| "Em"EG^F GAB|"Am"EAB ~c3| "Dm"~d3 ecA|"Am"EAB cBc|"Em"EG^F GAB|"Am"eag edB|cAA A2 E:|
+|:"Am"Aab ~a3| "Em"ede ~g3| "Am"Aab aec|"D"de^f "G"gdB|"Am"Aab ~a3| "Em"ede ~g3| "Dm"efe "Em"dcB|"Am"cAA A2B:|
+|:"Am"ece dcB|cAF ECE|AGA ~c3| "Dm"~d3 Bcd|"Am"dfe dcB|cAF ECE|Ace aed|[1 cAA A3 :|[2 cAA A2 |
+K:A
+|:c/2d/2|"A"eaf "G"~=g3| "A"a2f ecA|"D"dfa "A"ecA|"E"dBB Bcd|"A"ecA "D"fdB|"A"~a3 ecA|"D"dfg "E"aed|[1"A"cAA A2:|[2 "A"cAA A3|]
+S:https://www.folktunefinder.com/tunes/118097
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

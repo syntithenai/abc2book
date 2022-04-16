@@ -1,0 +1,23 @@
+X:65
+T:Bourre tournee a deux
+C:trad.
+A:Morvan
+O:France
+M:3/8
+L:1/16
+Q:1/8=210
+K:C
+e2|geg2a2|g4e2|def2d2|e2c2e2|geg2a2|g4e2|def2d2|c4:|
+|:e2|c2ecBA|G4c2|Bcd2f2|e2c2e2|c2dcBA|G4c2|Bcd2B2|c4:||
+% Output from ABC2Win  Version 2.1 i on 15/03/2000
+S:https://www.folktunefinder.com/tunes/106475
+S:http://www.tradfrance.com/matf04.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

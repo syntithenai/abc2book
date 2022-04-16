@@ -1,0 +1,29 @@
+X:11330
+T:Mrs Willis
+% Nottingham Music Database
+S:Helen
+M:4/4
+L:1/8
+R:Hornpipe
+K:F
+P:A
+(3FED|"F"CAGF CAGF|(3"Bb"DEDGB "G7"d4|"C7"c_cBG AGDE|(3"F"FAG(3FED "C7"C4|
+"F"CAGF CAGF|(3"Bb"DEDGB "G7"d4|"C7"c_cBG AGDE|"F"F2A2 F2:|
+K:C
+P:B
+"G7"G2|(3"C"edcG2 (3edcG2|(3"Dm"fedA2 (3fedA2|"G7"BG^FG AGed|\
+(3"C"ced(3cBA "G7"G4|
+(3"C"edcG2 (3edcG2|(3"Dm"fedA2 (3fedA2|"G7"BG^FG AGed|"C"c2e2 c2:|
+S:https://www.folktunefinder.com/tunes/99112
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

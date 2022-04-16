@@ -1,0 +1,27 @@
+X:34
+T:Doublestop Studies - G Major
+C:Mike Stangeland
+M:4/4
+L:1/8
+Q:1/8=320
+K:G
+[GE][GE][GE][GE][GE][GE][G2E2]|[cG][cG][cG][cG][cG][cG][c2G2]|[ec][ec][ec][ec][ec][ec][e2c2]|[gc][gc][gc][gc][gc][gc][g2c2]|
+[c'e][c'e][c'e][c'e][c'e][c'e][c'2e2]|[e'g][e'g][e'g][e'g][e'g][e'g][e'2g2]|[g'c'][g'c'][g'c'][g'c'][g'c'][g'c'][g'2c'2]|[cE][cE][cE][cE][cE][cE][c2E2]|
+[eG][eG][eG][eG][eG][eG][e2G2]|[gc][gc][gc][gc][gc][gc][g2c2]|[c'e][c'e]
+[c'e][c'e][c'e][c'e][c'2e2]|[EG,][EG,][EG,][EG,][EG,][EG,][E2G,2]|
+[GC][GC][GC][GC][GC][GC][G2C2]|[cE][cE][cE][cE][cE][cE][c2E2]|[eG][eG][eG][eG][eG][eG][e2G2]|z8|
+z2A2B2^c2|[fd][fd][fd][fd][fd][fd][f2d2]|[af][af][af][af][af][af][a2f2]|
+[d'a][d'a][d'a][d'a][d'a][d'a][d'2a2]|
+[f'd'][f'd'][f'd'][f'd'][f'd'][f'd'][f'2d'2]|[AF][AF][AF][AF][AF][AF][A2F2]|[dA][dA][dA][dA][dA][dA][d2A2]|[fd][fd][fd][fd][fd][fd][f2d2]|
+[af][af][af][af][af][af][a2f2]|[DA,][DA,][DA,][DA,][DA,][DA,][D2A,2]|[FD][FD][FD][FD][FD][FD][F2D2]|[AF][AF][AF][AF][AF][AF][A2F2]|
+[dA][dA][dA][dA][dA][dA][d2A2]|[fA][fA][fA][fA][fA][fA][f2A2]|[ad][ad][ad][ad][ad][ad][a2d2]|[d'f][d'f][d'f][d'f][d'f][d'f][d'2f2]|
+[f'a][f'a][f'a][f'a][f'a][f'a][f'2a2]|[AD][AD][AD][AD][AD][AD][A2D2]|[dF][dF][dF][dF][dF][dF][d2F2]|[fA][fA][fA][fA][fA][fA][f2A2]|
+S:https://www.folktunefinder.com/tunes/117081
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

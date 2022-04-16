@@ -1,0 +1,33 @@
+X:14
+T:Delyn Newydd, Y [The New Harp]
+R:polka-ish
+S:Jonathan Shorland, Ceri Rhys Matthews
+N:Saith Rhyfeddod in B major on my tape, at 1/2=130.
+B:CDCW in F
+D:Saith Rhyfeddod, in the Penillion set side 1 trk3
+O:cymru
+Z:Lesl
+P:2
+M:C|
+Q:1/2=120
+K:G
+BAGA B2d2|d2c2 c3c|cBAB c2e2|e2d2 B3z|
+BAGA B2d2|d2c2 c4|cBAB c2A2|A2G2 G2z2|
+BAGA B2d2|d2c2 c2B2|cBAB c2e2|e2d2 B2z2|
+BAGA B2d2|d2c2 c3c|cBAB c2A2|A{c}A G2 G4||
+{def}g3f e2d2|g3f e2d2|g3f e2d2|c{d}c B{c}B A2z2|
+f3e d4|ffze d4|d4 ABc2|B{c}B A2 G4|
+{def}g2f2 e2d2|g3f e2d2|z2gf e2d2|c{d}c B{c}B A2z2|
+f2e2 d4|f2e{g}e d4|d4 ABc2|B{c}B A2 G4||
+S:https://www.folktunefinder.com/tunes/109419
+S:http://jodeejames.home.att.net/desertwelsh2AK.htm
+% Rhythm Polka-ish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

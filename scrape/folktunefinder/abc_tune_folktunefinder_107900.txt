@@ -1,0 +1,27 @@
+X:180
+T:Farewell to Whisky
+% Nottingham Music Database
+S:Nan F-W, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+F/2G/2|"D"A3/2B/2 AF/2G/2|"D"Ad fd|"D"A3/2B/2 AF|"Em"GF "A7"ED|\
+"D"A3/2B/2 AF/2G/2|"D"Ad "Bm"f2|"Em"gf "A7"ec|"D"d2 d:|
+K:A
+P:B
+c/2d/2|"A"e3/2f/2 ec/2d/2|"A"ea "D"gf|"A"e3/2f/2 ec|"Bm"dc "E7"BA|\
+"A"e3/2f/2 ec/2d/2|"A"ea a2|"D"dc/2B/2 "E7"cB|"A"A2 A:|
+S:https://www.folktunefinder.com/tunes/107900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsD-G.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsD-G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:122
+T:High Part of the Road, The
+T:Ard an Bhothair
+T:Hill on The Road, The
+R:jig
+M:6/8
+L:1/8
+K:G
+"G"B2B "Am"cBc|"G"d2d cAG|"D"F2D DED|FED FGA|
+"G"BAB "Am"cBc|"G"dcA d2e|"D"fed cAF|1 AGF "G"G2A:|2 AGF GBd||
+"G"g3 def|g2a bag|"D"f3 dfg|afd cAF|
+"G"g3 def|g2a bag|"D"fed cAF|1 AGF "G"GBd:|2 AGF "G"G2A|
+"Variations:"|BDD cDD|ded cAG|~F3 DED|DGG FGA|
+BAB cBc|dcA d2e|fed cAF|1 AGF G2A:|2 AGF GBd||
+g2d def|g2b a2g|f2d dfg|afd cAG|
+g2d def|g2a bag|fed cAF|1 AGF GBd:|2 AGF G2A||
+f {agf}g2 d {edc}d2 | g2a bag | e {afe}f2 daa | {b}afd cAG |
+f {agf}g2 def | {agf}g2a bag | f2d cAF | AGF G3 ||
+S:https://www.folktunefinder.com/tunes/122998
+S:http://users.rcn.com/ladysmyth/tunes/HighPartRoad.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

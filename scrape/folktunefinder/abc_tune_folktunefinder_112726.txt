@@ -1,0 +1,29 @@
+X:299
+T: Cai hua diao
+N: C0805
+O: China,Qinghai, Osten
+S: I, 262]
+N: Typisch fuer diese Provinz. BEREITS CODIERT als cai Xiao
+N: Eintaktiges Zwischenspiel in Zeile 263: 5_1_7_6_5_6_4__ In der 3.
+N: Strophe lautet die Zeile 266 folgendermassen: 3371__.2_5__.5_
+N: 1___3__.2_  3__3___5__  3__.2_3__-6__  5____  ^____ //
+R: Xiaodiao. Siji huahui]
+M: 2/4
+L: 1/32
+K: F
+c4c4B6c2 | f4e2d2c8 | c4c4B6c2 | f8c3fB2A2
+G4B8c4 | G2F2E2D2C8 | B6G2c4c4 | F16
+G2c2F2G2c4B4 | G4c8B2A2 | G2c2G2F2E2D2C4 | F16
+F6G2c6c2 | f6f2A6G2 | A4A8c4 | A6G2A2c2D4 | C16
+F6G2c6c2 | f6f2A6G2 | A4A8c4 | A2c2A2G2A4D4 | C16
+S:https://www.folktunefinder.com/tunes/112726
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. siji huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

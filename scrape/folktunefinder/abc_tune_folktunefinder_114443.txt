@@ -1,0 +1,33 @@
+X:028
+T:Farewell to Cailroe
+B:Music from Ireland 4, Bulmer & Sharpley
+S:Sean McGuire
+Z:Paul de Grae
+M:4/4
+L:1/8
+R:reel
+K:A
+EG|A2 EC DCDE|CA,CE A2 (3Bcd|e^def eAcA|BGAF GEFD|
+EFGE AGEc|(3ded ce d2 cd|efed BA ~A2|BEGB A2:|:E2|
+A2 ec dcdB|cABG AGED|B,CDB, EDEF|GEBG AGEG|
+A2 EA CAEA|FdBA GEFG|A2 ec dcdB|GABG A2:|
+S:https://www.folktunefinder.com/tunes/114443
+S:http://nigelgatherer.com/books/mfi/mfabc/mfiall.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/mfabc/mfiall.abc
+S:http://www.nigelgatherer.com/books/mfi/mfabc/mfiall.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/mfabc/mfiall.abc
+S:http://nigelgatherer.com/books/mfi/mfabc/farewc.abc
+S:http://www.argonet.co.uk/users/gatherer/scottish/mfabc/farewc.abc
+S:http://www.nigelgatherer.com/books/mfi/mfabc/farewc.abc
+S:http://www.orpheusweb.co.uk/gatherer/scottish/mfabc/farewc.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:14
+T:Triumphal March
+R:March
+S:Roche III #205 p79
+M:C|
+L:1/8
+Q:1/4=120
+K:D
+(3ABc|d2d>d dAFD|A2A>A A2FG|A2FA BAGF|
+E2A>A AABc|d2d>d dAFD|A2A>A A2FG|(3AFD  (3BGE d2c2|d2d>d d2:|
+EF|G2G>G GBAG|GFF>F F2 (3ABc|dcBA GFED|A2A>A A2 (3ABc|
+d2d>d dAFD|A2A>A A2FG|(3AFD  (3BGE d2c2|d2d>d d2:|
+EF|GAcA eAcA|FAdA fAdA|GAcA eAcA|FAdA fAdA|
+B2B>B Bd/c/ e/d/c/B/|A2A>A A2g2|f2 (3age d2c2|e2d>d d2:|
+S:https://www.folktunefinder.com/tunes/128853
+S:http://www.alfwarnock.info/alfs/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

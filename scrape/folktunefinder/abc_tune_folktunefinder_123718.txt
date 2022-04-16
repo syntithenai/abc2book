@@ -1,0 +1,26 @@
+X:4935
+T:Fahy's jig #2
+M:6/8
+L:1/8
+C:Paddy Fahy
+S:Mulvihill's tune collection
+R:jig
+K:C
+|:DGA ~_B3|c_Bc d2 g|{a}gdc Bcd|cAG =FE=F|DGA ~_B3|c_Bc d2g|{a}gdc Bcd|1
+ cA^F G=F_E:|
+2 cA^F GBd||:~g3 ga^f|gdc Bcd|cAA ~=f3|ag^f de^f|g2a _bag|^fdg ^fdc|A_BG
+ Adc|1 AG^F GBd:|
+2 AG^F G=F_E||
+S:https://www.folktunefinder.com/tunes/123718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

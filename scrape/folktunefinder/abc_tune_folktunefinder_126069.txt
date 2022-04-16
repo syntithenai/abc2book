@@ -1,0 +1,33 @@
+X:7690
+T:J'ai dix sous dans ma poche
+R:Tour (En dro)
+C:trad.
+A:Bretagne
+O:France
+M:C
+L:1/8
+Q:1/4=160
+K:C
+E|AA AA (3ABA GA|B2c2B3:|
+A|d2c2 (3BcB AA|d2c2B4|
+|:E2 AB c3c|d2c2 (3BcB AB|c2B2A4:||
+W:
+W:J'ai dix sous dans ma poche et aucun argent
+W:J'ai dix sous dans ma poche et aucun argent
+W:Toujours gai gai, toujours gaiement
+W:Y'a bien dix gars dans mon village
+W:Qui n'en ont point tant
+W:
+W:J'ai neuf sous dans ma poche et aucun argent
+W: etc...
+S:https://www.folktunefinder.com/tunes/126069
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Tour (en dro)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

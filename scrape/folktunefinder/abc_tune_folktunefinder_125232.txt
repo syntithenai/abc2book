@@ -1,0 +1,23 @@
+X: 3
+T:Saltire Society Reel
+M:2/4
+L:1/16
+S:AABB x 2
+R:Polka / 2/4 Reel
+K:D
+||:fe|"D"d2a2 a2fe|d2f2 f4|"A"efge cdec|A2e2 e2fe|!
+"D"d2a2 a2fe|d2f2 f4|"A"efge cdec|"D"d4 d2:||!
+fe|"D"d2f2 f2ed|"A"c2e2 c4|"G"BcdB "A"cdec|"D"d2f2 f2e|!
+"D"d2f2 f2fe|"A"c2e2 e4|"G"BcdB "A"cdec|"D"d4 d2:||
+S:https://www.folktunefinder.com/tunes/125232
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/National.abc
+% Rhythm Polka / 2/4 reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

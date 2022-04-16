@@ -1,0 +1,25 @@
+X:31
+T:Rossignolet du bois
+O:France
+B:Le livre des Chansons (Henri Davenson) n31
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:C
+A A A e-d f | e2 z A B c |\
+ d2 B (c>dc/B/|A2) z A B c |
+d2 e d c d | e3 ^f g f | e12-|e4 ||
+W:"Rossignolet du bois, rossignolet sauvage,
+W:Apprends-moi ton langage, apprends-moi-z- parler,
+W:Apprends-moi la manire comment il faut aimer.
+S:https://www.folktunefinder.com/tunes/119600
+S:http://anamnese.online.fr/abc/davenson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

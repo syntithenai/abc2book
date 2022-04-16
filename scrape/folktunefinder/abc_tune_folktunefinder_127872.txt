@@ -1,0 +1,26 @@
+X:3
+T:A Quadrille
+C:from Edward Winder's ms2
+M:2/4
+L:1/8
+K:A
+E|A2c3/2A/2|EE z/2E/2F/2G/2|A3/4B/4c3/4d/4 e3/4f/4g3/4a/4|
+ge ze|B2d3/2B/2|GG z/2f/2e/2d/2|
+c3/4e/4d3/4c/4 B3/4d/4c3/4B/4|A3:|
+|:B|g3/2f/2 e/2f/2g/2e/2|a3/4g/4f3/4e/4 ^dB|
+a3/2g/2 f/2g/2a/2f/2|b3/4a/4g3/4f/4 eB|
+g3/2f/2 e/2f/2g/2e/2|c3/2^d/2 e/2f/2g/2a/2|
+BB Bc/2^d/2|e/2^d/2e/2f/2 e:|
+|:A|f3/2e/2 d/2c/2B/2A/2|=GG GB|=g3/2f/2 e/2d/2c/2B/2|
+AA Af|a3/2=g/2 f/2e/2d/2c/2|
+B2A/2e/2f/2=g/2|AA AB/2c/2|df d:|
+%%vskip 1cm
+S:https://www.folktunefinder.com/tunes/127872
+S:http://www.andyhornby.net/Music/WINDER.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

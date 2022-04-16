@@ -1,0 +1,30 @@
+X:1
+T:Andante
+C:Trad
+R:Gnglt
+S:Ginge Musickanter
+O:Ginge, Skne
+M: 2/4
+L: 1/16
+Q:1/4=60
+K:Am
+V:1
+E2 |: (AB)A^G A2AB | c2ce c2c2 | (Bc)B^G (EG)Bc | A6 G2 |
+(cd)cG (EG)ce | g4 (ec)eg | !trill!e2ef a2g2 | e8 :: [aF]4 (fe)fa |
+[gE]4 (ec)eg | [fD]2[fD]2 (dB)df | (ea)ec a2aB | c4 e2c2 | (Bc)B^G (EG)Bc | A8 :|
+V:2
+E2 |: (EF)ED E2E^G | A2Ac A2A2 | (^GA)GE (ED)B,D | [AC]6 E2 |
+(GA)GE (CE)Gc | e4 (cG)ce | c2Ac f2e2 | [eG]8 :: f4 (cA)cf |
+e4 (cG)ce | d4 (B^G)Ed | (ce)cA E2EA | A4 c2A2 | (^GA)GE (ED)B,D | C8 :|
+S:https://www.folktunefinder.com/tunes/114161
+S:http://www.folkwiki.se/pub/cache/Andante_7bc438.latin.abc
+S:http://www.folkwiki.se/pub/cache/Andante_7bc438.abc
+S:http://www.folkwiki.se/pub/cache/Andante_7bc438.abcm.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

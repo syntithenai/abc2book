@@ -1,0 +1,39 @@
+X:42
+T:THE SPOTLAND HORNPIPE
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:F
+P:1
+A2 F2 c2 F2 A2 F2 | agfe fedc  dcBA |\
+B2 G2 d2 G2 B2 G2 | bagf gf_ed edcB ||
+P:2
+AB c2 d=e f2 AB c2 | fefg f2 A2 c2 BA |\
+Bc d2 ef  g2 Bc d2 | gfga g2 B2 d2 cB ||
+P:3
+AB c2 de  f2 ef g2 | agfe fedc   dcBA |\
+Bc d2 ef g2 ^fg a2 | bag=f gf_ed edcB ||
+P:4
+A2 F2 f2 F2  f2 F2 | f2 f2 f2 A2 c2 BA |\
+B2 G2 g2 G2  g2 G2 | g2 g2 g2 B2 d2 cB ||
+P:5
+A<c z f B<d z f cAGF|A2 f4 A2 c2 BA |\
+B<d z f c<e z g dBAG|B2 g4 B2 d2 cB ||
+P:6
+F2 A2 G2 B2 A2 c2  | A2 f4 A2 c2 BA |\
+G2 B2 A2 c2 B2 d2  | d2 g4 B2 d2 cB ||
+P:7
+A2 c2 f2 d2 g2 e2  | c2 f4 A2 c2 BA |\
+B2 d2 g2 e2 a2 f2  | d2 g4 B2 d2 cB |]
+S:https://www.folktunefinder.com/tunes/110674
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Greeny.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Greeny.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

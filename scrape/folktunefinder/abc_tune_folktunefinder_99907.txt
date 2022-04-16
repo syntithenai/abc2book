@@ -1,0 +1,22 @@
+X:10
+T:Walter Douglas MBE
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:2/4
+L:1/8
+Q:1/4=132
+K:Hp
+e|A>A Ag|ed e>f|g>e dg|BA BG|   A>A        Ag |ed  e>f|g>e dB|eA A:|
+a|e>f ga|ed e>f|g>e dg|BA BG|[1 e>f        ga |ed  e>f|g>e dB|eA A:|
+                             [2 A<A        Ag |ed  e>f|g>e dB|eA A||
+e|A<A AB|AB e2 |G<G GA|GA BG|   A<A        AB |AB  e>f|g>e dB|eA A:|
+g|a2  ga|ed e>f|g>e dg|BA BG|   a2         ga |e>d e>f|g>e dB|eA Ag|
+  a2  g2|fd e>f|g>e dg|BA BG|   B/<e/d/>B/ A>B|AB  e>f|g>e dB|eA A|]
+S:https://www.folktunefinder.com/tunes/99907
+S:http://www.campin.me.uk/Music/ScottishSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

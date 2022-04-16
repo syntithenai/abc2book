@@ -1,0 +1,25 @@
+X:29
+T:Mathew Briggs
+R:Jig
+O:England
+M:6/8
+N:Drummond Castle. Well-known Scots tune.
+A:Lancashire
+B:Winder
+K:G
+A | ABA a3 | age g3 | c2c edc | Bdg dBG | \
+ABA a3 | age g3 | ege deg | edB A2 :|*
+ |:B | c2c cec | d2d ded | c2c edc | Bdg dBG | \
+c2c edc | deg a2g | ege deg | edB A2 :|**
+S:https://www.folktunefinder.com/tunes/127915
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 32
+T:Kitchen Girl, The
+M:4/4
+L:1/8
+S:Fiddle Players Tunebook 2
+R:barndance
+O:USA
+K:Amix
+"A"a4 g4 |\
+"A"efed c2 cd |"A"e2 f2 gaba |"Em"g2 e2 e2 AA |"A"a4 g4 |\
+"A"efed c2 cd |"A"e2 f2 gfed |"A"c2 A2 A4 :: 
+K:AMinor
+"Am"c4 B4 |"Am"ABAG E2 EG |"Am"A2 B2 c2 d2 |"Am"e3 f edcB |\
+"Am"c4 B4 |"Am"ABAG E2 EE |"Am"cBAc BA G2 |"Am"A8 :|
+S:https://www.folktunefinder.com/tunes/103627
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

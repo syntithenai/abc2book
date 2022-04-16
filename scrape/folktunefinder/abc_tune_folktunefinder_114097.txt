@@ -1,0 +1,24 @@
+X:31
+T:Paddy Whack
+M:6/8
+Q:1/8=300
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G|:GBd gfg|edc BAG|GBd efg|fdd d2f|
+gbg afd|cde dBG|GAB cAd|1 BGG G2G:|2 BGG G2c|
+|:BGB cde|dBG A2G|GBd efg|fdd def|
+gbg afd|cde dBG|GAB cAd|1 BGG G2c:|2 BGG G2|]
+S:https://www.folktunefinder.com/tunes/114097
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

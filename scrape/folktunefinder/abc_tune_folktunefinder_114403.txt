@@ -1,0 +1,23 @@
+X:45
+T:Cooley's Hornpipe
+M:4/4
+L:1/8
+C:Paddy O'Brien (Tipp.)
+R:Hornpipe
+Z:Cliff Moses
+K:G
+(3def|gG~G2 EGDC|B,G,B,D GBdg|~e2 ce ~d2 Bd| (3cBA BG ~A2 (3def|
+gG~G2 EGDC|B,G,B,D GBdg|ecAG FAdc| ~B2 GF G2:||
+GA|BGBd edBd|~g2 bg egdB|~c2 ge dGBd|cBA^G ~A2 dc|
+BGDC B,DG=F| ~E2 CE DGBd|gfge dBcA|~B2 GF G2 :||
+S:https://www.folktunefinder.com/tunes/114403
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mfiall.abc
+S:http://www2.redhawk.org:8080/irish/other/mfiall.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

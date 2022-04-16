@@ -1,0 +1,33 @@
+X:12900
+T:Pasudoble d'Antn (XA 23)
+R:Pasudoble
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 23
+M:2/4
+L:1/8
+Q:1/4=116
+K:C
+CD
+|E/F/E/D/ CD/E/|FD DE|FG B,D|~DC CD|
+|E/F/E/D/ CD/E/|FD DE/F/|GB, CD|C2 CD|
+|E/F/E/D/ CD/E/|FD DE|FB, CD|~DC CD|
+|E/F/E/D/ CD/E/|FD DE/F/|GB, CD|C3 A|
+|G2 {AG}FA|GG GA|G2 {AG}FA|DD DA|
+|G2 {AG}FA|GG GA|G2 B,D|C3 A|
+|G2 {AG}FA|GG/G/ GA|G2 {AG}FG|DD/D/ DA|
+|G2 {AG}Fc|GG/G/ GA|G2 B,D|C2 z2|
+S:https://www.folktunefinder.com/tunes/115945
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Pasudoble
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

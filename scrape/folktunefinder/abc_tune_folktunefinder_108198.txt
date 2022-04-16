@@ -1,0 +1,26 @@
+X:6691
+T:Halling efter Per Myhr
+R:Halling
+M:2/4
+L:1/16
+B:E \"Overg\aa{}rd nr 710
+O:Sweden
+A:W.H\"arjedalen
+K:Dm
+e2|:\
+a2ab a2af | a2ge f2f>g |\
+a2ab a2af |1 a2ge f3g :|2a2ge f3e ||
+|:\
+d2df e2e^c | A2A^c e2af |\
+d2df (fe)(e^c) | A2A^c e2af | \
+d2df fe^ce |1 d4 d3f :|2 d4[D4d4]|]
+S:https://www.folktunefinder.com/tunes/108198
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

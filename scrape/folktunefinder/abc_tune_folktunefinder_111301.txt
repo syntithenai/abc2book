@@ -1,0 +1,34 @@
+X:71
+T:Rata
+O:rumania
+C:Roemeni\^a
+M:4/8
+L:1/8
+Q:1/4=180
+K:C
+V:1
+E |:"Am"  (3A2Bc2  (3d|ea2 a| (3g2^fg2  (3a|
+e2_e  (3e2^f|g2  (3za2g | (3_bag  (3^f^f_e |"E" e2  (3ede |
+"E7"  (3fed  (3cB^G ||"Am"  (3A2Bc2  (3d|ea2 a| (3g2^fg2  (3a|
+e2_e  (3e2^f|"B7" g2  (3a2g|_b  (3ag^f  (3^f_e|"E7" e4 |
+|1 z2 zE :|2 z2 "D7"  (3ef^f ||  |:"G" g2  (3gag |(g2 g)f |
+"G7"  (3f2ed  (3dB|"C" c2  (3B_BB |"G" Gz  (3ffd | (3^cde  (3fef |
+(3gag  (3fed |"C"  (3c2ef2  (3^f|g2  (3gag |"C#" (g2 g)f |
+"Dm"  (3ffd  (3ddB |"D#" cz  (3B_BB | (3B2cd2  (3e|"Dm" f2a  (3eed |
+"E7"  (3fed  (3cB^G |1 "Am" A2  (3ef^f :|2 "Am" A2 zA ||  |:"Am" ea2 a|
+(3g2^fg2  (3a|e2  (3ede |"D7"  (3fed  (3cBA | (3Bcd  (3GBd |
+(3g^fg  (3fef |"C" e2  (3ede |"E7"  (3fed  (3cB^G |"Am/a" Aa2 a|
+"Am7/g"  (3g2^fg2  (3a|"Am6/f#" ez az |"Am/f"  (3A2^GA2  (3B|"E" cd2 c|
+(3_edc  (3BB^G |1 "Am" (A4 |A3) E:|2 "Am" (A4 |
+A3) |]
+S:https://www.folktunefinder.com/tunes/111301
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/8
+% Has_accompaniment_chords Has chords

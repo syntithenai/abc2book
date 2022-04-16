@@ -1,0 +1,33 @@
+X:13138
+T:Pinch of Snuff
+R:reel
+Z:Added by Alf Warnock
+M:4/4
+L:1/8
+K:D
+|:F2DF EFDE|F2DF EFGE|F2DF EFDF|G2BG EFGE:|
+|:DFAF BFAF|DFAF EA,CE|DFAF BFAF|1 GABG EA,CE:|2 GABG EFGA|
+K:G
+|:B2GB ABGA|B2GB ABcA|B2GB ABGB|cdec ABcA:|
+|:GBdB eBdB|GBdB ADFA|GBdB eBdB|1 cdec ADFA:|2 cdec ABcd|
+K:A
+|:c2Ac BcAB|c2Ac BcdB|c2Ac BcAB|1 defd BcdB:|2 defd BE^GB|
+|:Acec fcec|Acec BEGB|Acec fcec|defd BcdB:|
+K:D
+|:f2df efde|f2df efge|f2df efde|gabg efge:|
+|:dfaf bfaf|dfaf eAce|dfaf bfaf|1 gabg eAce:|2 gabg efge|
+|:fgfe dcdB|AFDF AFD=c|BGBd =cBcG|1 ED=CD EFGe:|2 E=CEF GBAG|]
+S:https://www.folktunefinder.com/tunes/116183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

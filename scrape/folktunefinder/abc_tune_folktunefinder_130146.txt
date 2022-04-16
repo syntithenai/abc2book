@@ -1,0 +1,33 @@
+X:9
+T:The Fiddler Mick Hoy
+R:foxtrot
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+Z:psc
+H:Mick Hoy was born in Monea, lived most of his life in Blaney and played mainly in Derrygonnelly. His mother, father and brothers were all musical but Mick had a huge repertoire of tunes, songs and recitations which he shared willingly with everyone.
+L:1/8
+Q:333
+M:3/4
+K:D
+(3ABc|d2 f3 d|A2 F3 D|G2 B3 d|AF D2 DE|
+F4 ({G/F/}E)F|[1G4 FG|A2 G2 F2|E4-E D|C4:|
+[2G2 A3 B|AF E2 C2|D4-D E|D4||
+||A2|AB cd ef|g2 f3 ({g/f/}e)|d2 G3 B|AF D2 (3ABc|
+d2 f3 d|A2 F3 G|A2 G2 F2|E4 ({G/F/}E)D|C4 (3ABc|
+d2 f3 d|A2 F3 D|G2 B3 d|AF D2 DE|
+F4 ({G/F/}E)F|G2 A3 B|AF E2 C2|D4-D E|D4|]
+S:https://www.folktunefinder.com/tunes/130146
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Foxtrot
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

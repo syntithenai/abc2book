@@ -1,0 +1,20 @@
+X:4
+T:Saddle the Pony
+R:jig
+M:6/8
+K:G
+|: "G"GBA G2B|def gdB   |GBA G2B      |"D"AFD AFD  |
+"G"GBA G2B|def gfg   |"C"e/f/ge dBA| "G"BGG G2D:|
+|:"Em"efe edB|"D"def gfg|"Em"efe edB  |"D"dBA ABd  |
+"Em"efe edB|"D"def gfg|"C"e/f/ge dBA   | "G"BGG GBd:|
+S:https://www.folktunefinder.com/tunes/100964
+S:http://www.slainte.ch/abc/road.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

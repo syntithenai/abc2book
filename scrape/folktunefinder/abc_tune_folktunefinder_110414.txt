@@ -1,0 +1,30 @@
+X:190
+T:Thomas Marsden's Hornpipe
+M:3/2
+L:1/8
+K:C
+P:1
+c2 g2 BcdB A2 g2 | G2 g2 g2 G2 BcdB | c2 g2 BcdB A2 g2 | fgab  a2 A2 BcdB ||
+P:2
+b2 ag fgaf e2 g2 | d2 g2 g2 G2 BcdB | b2 ag fgaf e2 g2 | f2 a2 e2 g2 fgaf ||
+P:3
+g2 b2 a2 gf g2 fe| d2 ef g2 G2 BcdB | c2 e2 BcdB A2 g2 | fgab  a2 A2 BcdB ||
+P:4
+c2 e2 B2 d2 A2 c2| G2 c2 G2 c2 BcdB | c2 e2 B2 d2 A2 g2| fgab  a2 A2 BcdB ||
+P:5
+c2 e2 d3 c/2B/2 A2 g2 | f3 e/2f/2 g2 G2 BcdB |c2 e2 BcdB A2 F2 | A2 a2 a2
+A2 BcdB ||
+P:6
+bz az gz fz ez fz | d2 g2 g2 G2 BcdB | bz az gz fz ez gz | fz az e2 g2 fgaf||
+P:7
+b2 ag fgaf g2 fe | d2 ef g2 G2 BcdB | c2 e2 edcB A2 g2 | fgab a2 A2 BcdB||
+S:https://www.folktunefinder.com/tunes/110414
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/Greeny.abc
+S:http://www2.redhawk.org:8080/irish/other/Greeny.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

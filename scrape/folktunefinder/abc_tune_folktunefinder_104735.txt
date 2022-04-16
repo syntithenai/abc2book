@@ -1,0 +1,30 @@
+X: 61
+T:Roger's Reel. GS.061
+M:2/2
+L:1/8
+Q:200
+S:George Spencer m/s, Leeds,1831
+R:Reel
+O:England
+A:Leeds
+N:'Should auld acquaintance be forgot" - or very nearly, also bits of
+N:"Coming thro' The Rye".
+H:1831
+Z:vmp.Cherri Graebe
+K:G major
+"No time sig. in ms"D | G2 G>B A>GAB | G>GG>B d2 d>f | G2 G>B  A>GA>B |
+G>EE>D G2 G :||!
+e | dBBG AGAe | dBBG B2 Be | dBBG AGAB | GEED G2 Ge |! dBBG AGAe |
+ dBBG B2 Bc | dgBg AGAB | GEED G2G ||
+S:https://www.folktunefinder.com/tunes/104735
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:7
+T:Celtic Colours # 1
+R:reel
+C:Brenda Stubbert
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:Celtic Colours Festival 1998 - The Second Wave
+Z:psc, (re-formatted,updated 9/19/04)
+N:http://www.cranfordpub.com/stubbert
+H:                                                        copyrights Stubbert Music, SOCAN
+L:1/8
+Q:333
+M:C|
+K:Ddor
+"D minor: (dorian)"|:B|AB c2 dcAG|FEFD EccB|\
+AB c2 dcAG|FDEC Dddc|
+AB c2 dcAG|FEFD EccB|AGAc d2 ed|AcGE EDD:|
+K:Dmix
+"D major (mixolydian)"|:g|fd^cd Adfa|\
+gecd efge|fd^cd Adfa|gecd edde|
+fd^cd Adfa|gecd efge|(3(aba) ge d=fed|cAGc Add:|
+S:https://www.folktunefinder.com/tunes/102801
+S:http://cranfordpub.com/tunes/abcs/stubbertarchive.abc
+S:http://www.cranfordpub.com/tunes/abcs/stubbertarchive.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

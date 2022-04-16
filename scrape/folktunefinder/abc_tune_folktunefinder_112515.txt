@@ -1,0 +1,42 @@
+X:88
+T: Cheshui qingge
+N: C0111
+O: China,Hubei, Tianmeng, Qianyi
+S: I, 438]
+N: Interpretiert als Wechsel von 2 pentatonischen Tonarten
+N: mit gleicher Tonika.
+N: Die letzten beiden Takte werden in der 4. Strophe durch den folgenden
+N: Schluss ersetzt, Strophenvariante):
+N: 1__1_2_5_3_1_5_  5__5__5_3_
+N: 1_5_  5___5_3_1_5_  5___5_3_
+N: 1_5_  5__.5_5__3__  5___5_3_
+N: 1_5_  5__.5_5__3__  5___5___
+N: 3__3_2_1__3__  2_3_1__2___ //
+N: Nur in dieser Variante sind Atemzeichen eingetragen, die die verschie-
+N: denen Motivvarianten verdeutlichen.
+N: Wenig Verzierungen.
+R: Shange, Tiange, Cheshuige. Biaoda aiqing]
+M: 2/4
+L: 1/32
+K: D
+d4d2e2A8 | d4d2e2A8 | d6A2d4A4 | d6e2A8
+d2d2d2d2=f8 | d2d2d2=c2A8
+F6A2F2A2A2F2 | A2B2A2F2A8
+A4A8F4 | A8A4F4 | A2B2A2F2A8
+d4d2e2A8 | d8d8
+A4A4F8 | A8d8
+F6A2A4A4 | A4A8F4 | A8A8
+A3BA2F2A2A2A2F2 | A3BA2F2A2A2A2F2 | A3BA2F2A3BA2F2
+A4A8F4 | A8A8
+F4F2E2D4F4 | E2F2D4E8
+S:https://www.folktunefinder.com/tunes/112515
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, tiange, cheshuige. biaoda aiqing]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

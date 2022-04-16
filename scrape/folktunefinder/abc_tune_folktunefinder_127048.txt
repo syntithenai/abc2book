@@ -1,0 +1,35 @@
+X: 16
+T:Okaihau Express, The
+M:6/8
+L:1/8
+Q:80
+C:Peter Cape
+K:D
+"A"A3|"D"d2de2f|dd A-A2A|d2de2f|d6|
+f2ef2e|f2f-f2d|"A"c6-|c3-czA|!
+c2cd2e|c2A- A AA|cc2d2e|c3-c2z|
+a2aa2^g|=g2e-e2c|"D"d6-|d2z:||
+T:Bridge:
+M:4/4
+Q:140
+|"Quickly"d2d2|"G"ggg>g|g2GG|"C"c2c>c|eg2e|
+"G"dg2g|a2g2|"D"f4-|f2dd|!
+"G"g2g2|g2G>G|"C"ccc>c|egfe|
+"D"ddde|B2AB|"G"G4|
+M:6/8
+"A"A6:||
+S:https://www.folktunefinder.com/tunes/127048
+S:http://crash.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/~dexy/music/kiwi.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/OkaihauExpressThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/OkaihauExpressThe.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/kiwi.abc
+S:http://www.folksong.org.nz/abc_files.html
+S:http://folksong.org.nz/abc_files.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

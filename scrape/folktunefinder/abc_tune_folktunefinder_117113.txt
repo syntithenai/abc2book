@@ -1,0 +1,28 @@
+X:66
+T:Liberty
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=468
+K:G
+P:A
+ag|:f2A2 f2A2|f2fg fede|g2B2 g2B2|g2ga gede|
+f2A2 f2A2|f2fg f2ef|gfed ^cABc|1 d2f2 d2ag:|2 d2f2 d4||
+P:B
+|A2AB AGFE|DFAd f2d2|A2AB A2FE|DEEF E4|
+A2AB AGFE|DFAd f2ef|gfed ^cABc|d2f2 d4||
+A2AB AGFE|DEFA d2d2|A2AB A2FE|DEEF E4|
+A2AB AFEF|DFAd f2ef|gfed ^cABc|d2f2 d2ag||
+P:AA
+fdAd fdAd|fdfg fdAd|gdBd gdBd|gfga g2de|
+fdAd fdAd|fdAd f2ef|gfed ^cABc|d2f2 d2ag|
+fdAd fdAd|fdfg fdA2|gdBd adBd|gfga gede|
+f2d2 f2d2|f2fg f2ef|gfed ^cABc|d2f2 d4|
+S:https://www.folktunefinder.com/tunes/117113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:485
+T:Boys of the Town, The
+M:6/8
+Z:From O'Neill's
+R:Jig
+D:asin=B000005CSE(Matt Molloy: Stony Steps)
+D:asin=B000005CM2(Green Linnet Twentieth Anniver: Green Linnet Records: The Twentieth...)
+D:asin=B000005CMN(Kevin Burke: Up Close)
+K:G
+D|~G3 GBd|edB dBG|~G3 GBd|edB AFD|\
+~G3 GBd|edB ~g3|edB AGA|BGG G2:|B|:\
+def ~g3|afd edB|def ~g3|afd e2d|1\
+def gfg|afd efg|edB AGA|BGG ~G3:|2\
+def gbb|faa efg|edB AGA|BGG G2||
+S:https://www.folktunefinder.com/tunes/111626
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

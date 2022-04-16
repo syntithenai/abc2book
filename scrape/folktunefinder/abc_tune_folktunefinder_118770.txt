@@ -1,0 +1,30 @@
+X:39
+T:Pour bien fter de l'hymne
+R:
+S:
+N:
+A:Champagne
+G:
+O:France
+Z:3/4
+L:1/8
+Q:1/4=140
+K:Bb
+D E | F2 F D F B |d2 B2 F d | c2 A F A c | B2-Bz :|
+w:Pour bien |f-ter de l'hym-|ne le jour |heu-reux, le jour char-mant_
+w:Je ne |vois dans cette assem-|bl-e que des | a-mis, que des pa-|rents_ 
+c B | A2 A c B G | G2 F2 c B | A2 A c B G | F2-Fz D E |
+F2 F D F B | d2 B2 F d | c2 A F A c | B4 ||
+W:Pour bien fter de l'hymne le jour heureux, le jour charmant
+W:Je ne vois dans cette assemble que des amis, que des parents
+%%vskip 0.5cm
+%%sep
+%%text Chansons enfantines
+S:https://www.folktunefinder.com/tunes/118770
+S:http://anamnese.online.fr/abc/champagne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:15
+T:Bergmannsvalsen
+R:vals
+Z:Smaaviltlaget, paa Skuddhold, Track 15
+Z:Fel'klang #7, p 30
+M:3/4
+L:1/8
+K:D
+A2
+P:A
+|: "D"(3ABA F2 A2 | "D/A"d3 c de | "D"f2 d3 f | "D/A"a3 ^g a2 |
+   "A/E"b3 g ef | "A"g3 e ce |
+   "E"ed dB ^GB | "A"A4 A2 |
+   "D"(3ABA F2 A2 | "D/A"d3 c de | "D"f2 d3 f | "D/A"a3 ^g a2 |
+   "A/E"b3 g ef | "A"g3 e ce |
+   "D"ed "A"dc "A7/G"de | "D"d4 A2 :|
+P:B
+|: "D"D3 F (3ABc | "G"d2 c2 B2 | "A"A2 GE CE | "D"D4 D2 |
+   "D"D2 FF A2 | "A"A2 cc e2 | "A/E"A2 B/A/B c/B/c |
+[1 "D"d2 cd fe | "D/A"d4 A2 :|
+[2 "D"d2 "A"cd "A7/G"fe |"D"d4 Ac |
+P:C
+K:A
+|: "A"e4 e2 | "E7"~fe dB GB | "A"A3 G AB | "A/E"c2 A2 c2 |
+   "E7/D"B3 A Bc | "E7/B"d2 B2 G2 |
+   "A"A4 c2 | "E"E4 Ac |
+   "A"e4 e2 | "E7"~fe dB GB | "A"A3 G AB | "A/E"c2 A2 c2 |
+   "E7/D"B3 A Bc | "E7/B"d2 B2 G2 |
+[1 "A"A3 B AG | "A/E"A4 Ac :|
+[2 "A"A2- "E"AB "E7/D"AG | "A"A4 A2 |
+S:https://www.folktunefinder.com/tunes/114345
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Bergmannsvalsen.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

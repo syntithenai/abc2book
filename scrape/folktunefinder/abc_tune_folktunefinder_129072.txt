@@ -1,0 +1,16 @@
+X:1
+T:Happy Birthday
+M:3/4
+Q:1/4 = 120
+K: F
+C> C|"F"D2C2F2|"C"E3 z C> C|"C"D2C2G2|
+"F"F3 z C> C|"F"c2A2F2|"Bb"E2D z B> B|
+"F"A2F2"C"G2|"F"F6|]
+S:https://www.folktunefinder.com/tunes/129072
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc_notation.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

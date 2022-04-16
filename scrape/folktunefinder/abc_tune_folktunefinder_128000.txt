@@ -1,0 +1,27 @@
+X:114
+T:Holeywell's Hornpipe
+R:Hornpipe
+O:England
+M:4/4
+N:in F of H
+A:Lancashire
+B:Winder
+K:G
+d2 |\
+d2dg edcB | d2dg edcA | EGBG EGBG | EGBG cBAG |\
+d2dg edcB | d2dg fedc | gfga ecAF | G2G2 G2 :|*
+|:d2|\
+d2de dBGB | c2e2 e2AB | c2cd cBAG | A2AB cdef |\
+g2ga fdeg | fdeg gfga | gfga ecAF | G2G2 G2:|**
+S:https://www.folktunefinder.com/tunes/128000
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:9
+T:Anvil Chorus
+T:(from "IL TROVATORE")
+%%LineSep 30pt
+%%topspace 50pt
+%%titlespace 50pt
+C:/Giuseppe Verde
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/4
+Q:1/4=110
+K:F
+"@@19"z4 | !p!z2 F C/ A,/ | G E/ C/ A F/ C/ | B G/ E/ c A/ F/ | d !tenuto!B/ .G/
+S:https://www.folktunefinder.com/tunes/113425
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

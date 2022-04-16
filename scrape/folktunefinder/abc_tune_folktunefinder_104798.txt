@@ -1,0 +1,30 @@
+X: 124
+T:Three Fingered Jack. GS.124
+M:9/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Slip Jig
+O:England
+A:Leeds
+N:First three sets of grace notes shown as slurred to the following note.
+N: All grace
+N:notes shown as semi-quavers.
+H:1831
+Z:vmp.Cherri Graebe
+K:D major
+{fg}a3 afd ecA | {fg} a3 afd bge | {fg}a3 afd ecA | Bdc {e}dcB AFD :||!
+afd {e}(dcd) bge | afd {e}dcd ecA | afd bge afd | gec ABc d3  :||
+% Output from ABC2Win  Version 2.1 k pre2 on 19/09/2000
+S:https://www.folktunefinder.com/tunes/104798
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

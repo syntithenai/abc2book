@@ -1,0 +1,26 @@
+X:31
+T:Die Woaf
+C:Trad.
+O:Austrian
+M:3/4
+L:1/8
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=120
+K:G
+P:A
+|: dd | "G"g2 dz dz | "G"d2 z2 de | "Em"d2 Bz Bz | "Em"B4 z2 |\
+"G"d2 ed cB | "Em"d2 ed cB | "Am"B2 Az Az | "D"A4 :|
+P:B
+|:"D"A2 A2 B2 | "D7"c2 cB A2 | "G"B2 B2 c2 | "Em"d2 dc BA |\
+"G"d2 ed cB | "D7"d2 ed cA | "G"A2 Gz "C"Gz | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/110078
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

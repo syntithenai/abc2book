@@ -1,0 +1,36 @@
+X:1
+T:(Aufzugsmusik )
+R:
+C:traditionell
+A:Grossmehring, Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Dokumente regionaler Musikkultur in Oberbayern", Heft 6, Volksmusikarchiv des Bezirks Oberbayern, Muenchen 1994
+N:dort auf seite 12 in C (1. 2.Teil) mit Satz von E.S. 1989, in der Quelle einstimmig
+S:mit der Angabe: Handschrift des Alois Sterzl, Grossmehring 1821, S.79
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+N:Notenmaterial von Stefan Straubinger
+M:2/4
+L:1/16
+K:C
+G2 |\
+c2cc c2d2 | e2ee e2f2 | g3e gfed | c2ccc2 e2 |
+d4z2f2 | e4z2e2 | f2f2 e2e2 | d2ddd2 :|
+d2d2d2e2 | f2fed2z2 | e2e2e2f2 | g2gfe2z2 |
+c2cc c2d2 | e2ee e2f2 | g2e2 gfed | c2ccc2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/129400
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/(aufzugsmusik).abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

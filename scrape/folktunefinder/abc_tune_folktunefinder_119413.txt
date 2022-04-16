@@ -1,0 +1,21 @@
+X: 134
+T:Appelby Election Hornpipe. 
+M:4/4
+L:1/8
+Q:180
+S:c1825,Browne Coll. Ambleside
+K:D major
+dB|AFDA, DA,FA,|EA,GA, BABc|dcdA  FdFD|E2[C2E2][C2E2]dB|
+AFDA, DA,FA,|EA,GA BABc|dBBG|FDEC|D2D2D2:|
+|:AG|FADF AFdF|GBEG BGed|cecf gfga|gfed dcBA|
+FADF GBEG|FADE CEA,G|FADc dfec|d2d2d2:||
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119413
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

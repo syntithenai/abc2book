@@ -1,0 +1,26 @@
+X:15
+T:Atholl Highlanders
+R:March
+C:Kevin Briggs, via EF
+S:Nottingham Music Database
+M:6/8
+L:1/8
+K:A
+c/2d/2|"A"e3 ecA|ecA "E7"Bcd|"A"e3 ecA|"D"Bcd "E7"cBA|
+"A"e3 ecA|ecA "E7"Bcd|"A"e<ae "D"fed|"E7"cdB "A"A2:|
+e|Ace Ace|"D"Adf Adf|"A"Ace Ace|"Bm"Bcd "E7"c2B|
+"A"Ace Ace|"D"Adf Adf|"A"e<ae "D"fed|"E7"cdB "A"A2:|
+e|aee edc|aee edc|aee edc|"D"Bcd "E7"cBA|
+"A"aee edc|aee edc|aee fed|"E7"cdB "A"A2:|
+A/2B/2|cAc cAc|"D"dBd dBd|"A"cAc cAc|"G"B=GB BGB|
+"A"cAc cAc|"E7"dBd dBd|"A"e<ae "D"fed|"E7"cdB "A"A2:|
+S:https://www.folktunefinder.com/tunes/128820
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X: 1
+T:Red Rose Polka. GHW.001
+M:2/4
+L:1/16
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+O:England
+A:Norfolk
+N:Pause sign over the last double bar line meaning Fine
+Z:vmp.Taz Tarry
+K:G
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 (A^GA2)|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)| G2G2 G2 z2|!
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 A^GA2|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)| G2G2 G2 z2||!
+K:D
+:(ABA2 d2A2)|(c2B2) B2 z2|(EFG2) (GFE2)|(F2D2 DEFG)|!
+(ABA2 d2A2)|c2B2 B2 z2|(ABcd egfe)|(3efed2 d2 z2|!
+(ABA2 d2A2)|(c2B2) B2 z2|(EFG2) (GFE2)|F2D2 DEFG|!
+(ABA2 d2A2)|c2B2 B2 z2|(ABcd egfe)|(3efe)d2 d2 z2:||!
+K:G
+(Bcd2 efg2)|d2B2 (B^AB2)| d2A2 (A^GA2)|B2G2 (GFG2)|!
+(Bcd2 efg2) |d2B2 (B^AB2)|(d2cB AcBA)|(GABc defg)|!
+(d2cB AcBA)|(G2B2 d2B2)|(G2B2 d2B2)|(G2B2 d2B2)|G2g2 g2 z2||
+S:https://www.folktunefinder.com/tunes/101418
+S:http://www.village-music-project.org.uk/abc/watson.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:13739
+T:Quadrille. JMT.118
+M:6/8
+L:1/8
+S:J.Moore,Tyneside,1841.(83)
+R:jog
+O:England
+A:Northumbria
+N:Wrongly annotated Common Time
+Z:vmp.J.A
+K:A
+G | A2Bc2f | (e3c2) E| A2B c2f | (e3c2)c |  d2d dcd | d3Bcd |!
+ f2f fef |f2e/d/c2 || c | B(dc) B(dc) | B2e/e/ e2c |  B(dc) B(dc) | B2 e
+/e/ eee |!
+ e(gf) d(fe) | .c(ed) .B(dc) | A3 A3 | A3 A2 ||E | A2B c2f | (e3c2) e |!
+ A2B c2f | (e3 c2) c | d2d dcd | d3 Bde | fec edB | A3A2 |!
+| %Should be cedillaA | dd/2d/2d fdf | a3 a2 A |!
+ AdA FDF | A3 A2 A | dd/2d/2d fdf | (a3 a2)a | afa afa| d2dd2|]
+S:https://www.folktunefinder.com/tunes/116784
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Jog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

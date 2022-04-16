@@ -1,0 +1,35 @@
+X:18233
+T:Vaqueirada (CT 073) (Arrg.)
+R:Vaqueirada
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de empleo indeterminado, dictada por D. Juan Ura Ru, de Uviu, quien dice la aprendi de los vaqueiros que habitan las braas prximas a Somiedu.
+N:La letra contiene un pensamiento injurioso dirigido a las mozas del valle de L.laciana, en la provincia de Llen.
+O:Somiedu
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 073
+M:3/8
+L:1/8
+Q:3/8=88
+W:Mociquines de L.laciana,
+W:quin vos mantin
+W:Los arrieros del puertu
+W:que van y vienen.
+K:Bb
+"Cm"GGG|"Cm"Gc"Eb"B|"Gm"(d-(3d/2e/2d/2)"Cm"c|Gc"Eb"B|"Gm"(d-(3d/2e/2d/2)"Cm"c-|c2 z|
+"Cm"c2G|"Cm"cBA|"F"(cB/2A/2) G|"Cm"cBA|"F"(cB/2A/2)"Cm"G-|G2 z||
+S:https://www.folktunefinder.com/tunes/115471
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/u-v.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc
+% Rhythm Vaqueirada
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

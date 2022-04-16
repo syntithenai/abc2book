@@ -1,0 +1,23 @@
+X: 192
+T: The Proposal
+N:"Slow with expression" "collected by F. O'Neill"
+B:O'Neill's 192
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:C
+L:1/8
+K:F
+fe|(d{ed}c A>)G (FGAB)|(c{dc}=B) (cd) c2 (fe)|(d{ed}^c) A>G (FGA).G|(A<d) (d{ed}c) d2 fe|
+(d{ed}c A>)G (FGAB)|(c{dc}=B) (cd) c2 (fg)|(a{ba}f g) Hz/ e/ (f{gf}d e) Hz/ c/|(A<d) (d{ed}^c) d2"fine"||
+de|(f{gf}e) d z/ e/ (fagf)|(e{fe}d c) z/ d/ (efge)|(f{gf}e) d z/ e/ (fagf)|(e{fe}d) (^ce) d2 (de)|
+{g}(fe)de .f(agf)|{f}(ed)^cd .e(gfe)|.f(agf) e(gfe)|T(d^c)(de) f2"D.C."||
+S:https://www.folktunefinder.com/tunes/109778
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0101-0200_hn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

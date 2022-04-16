@@ -1,0 +1,49 @@
+X: 7
+T:Four-Hand Reel (#207), The
+M:4/4
+L:1/8
+S:Capt. F. O'Neill
+R:Reel
+K:G
+(3DEF|"tr"G2 BG dGBG|FADA FADA|G2 BG dGBd|egfa gedB|
+G2 BG dGBG|FADA FADA|G2 BG dcBd|egfa g2||
+(3def|gdBd edBd|gdBd "tr"e2 ef|gdBd edBd|egfa g3 d|
+gabg efge|dedc BGBd|"tr"edef edBd|egfa gedB||
+G2 BG dcBG|(3FED AD BDAD|G2 BG dcBd|egfa gedB|
+G2 BG dcBG|(3FED AD BDAD|G2 BG dcBd|egfa g2||
+(3def|"tr"g2 gf gdBd|faag fdef|"tr"g2 gf gdBd|(3efg af g3 d|
+gabg efge|dedc BGBd|"tr"edef edBd|(3efg af gedB||
+%
+% "The Four Hand Reel" as far as the writer is aware was first brought
+% to Chicago in 1886 by Barney Delaney, an excellent Irish piper. So
+% versatile was he, like most great Irish musicians, in the manipulation
+% of his instrument, that he varied his tunes according to fancy
+% without detriment to tone or rhythm, but rather to the advantage of
+% the general effect. Although not included in any collection of Irish
+% music published beyond the Atlantic, the strain must have been quite
+% popular in the Eastern States, for we find the tune in a Boston=20
+% publication no less than four times, and named respectively:
+% "Corporal Casey's Favorite", "Lady Gardner's Reel", "Parnell's Reel",
+% and "Yellow-Haired Laddie"; all consisting of but two parts each.
+% The setting here presented was memorized from Delaney's playing,
+% but no bare scoring of measured bars could do justice to his
+% inimitable execution.
+% Since the foregoing was written I find that "The Five Mile Chase"
+% in R.M. Levey's Second Collection of the Dance Music of Ireland,
+% London, 1873; consisting of but two parts, is also a variant of=20
+% "The Four Hand Reel".=20
+S:https://www.folktunefinder.com/tunes/124625
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/FourHandReel207The.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0207.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/T/FourHandReel207The.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/X/0207.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

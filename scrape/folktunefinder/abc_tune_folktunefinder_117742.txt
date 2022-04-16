@@ -1,0 +1,24 @@
+X:206
+T:Frost is all over, The
+R:jig
+H:See also #67, #263
+H:There is another tune by the same name: #202
+D:Planxty
+Z:id:hn-jig-206
+M:6/8
+K:D
+def edB|AFD FED|DFA AFA|Bee edB|
+def edB|AFD FED|DFA AFA|1 Bdd d2A:|2 Bdd d2e||
+|:fdd ede|~f3 d2e|fef def|gfg efg|
+fed B2A|AdF G2A|ABA F2E|1 EDD D2e:|2 EDD D3||
+S:https://www.folktunefinder.com/tunes/117742
+S:http://www.norbeck.nu/abc/i/hnj2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,51 @@
+X:315
+T:Morning Dew, The
+M:C|
+R:Reel
+S:Bruce's 250
+D:asin=B0000002SQ(From Galway to Dublin: From Galway To Dublin: Early Recordings...)
+D:anop=B000000G9I(Coleman, et al: The Wheels Of The World: Early...Vol. 2)
+D:anop=B000001UYZ(Innisheer: Rainbands)
+D:anop=B00000591N(Various Artists: Paddy In The Smoke [IMPORT])
+D:asin=B000005CO7(My Love Is in America: The Boston College Fiddle Festival: My Love Is...)
+D:asin=B000005COH(Cherish The Ladies: The Back Door)
+D:asin=B000005CQN(Martin Hayes, Dennis Cahill: The Lonesome Touch)
+D:skip=B00000086E(Episode Six: The Roots Of Deep Purple: The Complete Episode Six)
+D:skip=B000000DT2(Various Artists: The Music Never Stopped: Roots Of The Grateful...)
+D:asin=B000000DV7(Kathleen Collins: Traditional Music Of Ireland)
+D:skip=B000000SUB(Tom Constanten: Morning Dew)
+D:skip=B000000SUN(Toni Brown: Blue Morning)
+D:skip=B000001FQX(Allman Brothers Band: Dreams [BOX SET])
+D:skip=B0000027KU(Jeff Beck Group: Truth)
+D:skip=B000002KAG(Grateful Dead: The Grateful Dead)
+D:skip=B000002VK7(Grateful Dead: Two From The Vault)
+D:skip=B0000030LP(Ray Kane: Punahele)
+D:skip=B0000032D2(Guthrie, et al: Troubadours Of The Folk Era, Vol. 1)
+D:skip=B0000033EZ(Lulu: From Crayons To Perfume: The Best Of Lulu)
+D:skip=B000003BK6(Devo: Smooth Noodle Maps)
+D:asin=B000003F7Z(The Chieftains: Another Country)
+D:skip=B000003FTZ(Oracle: Oracle)
+D:skip=B000003JVG(Original Soundtrack: Midas Run/The House/The Night Visitor [SOUNDTRACK])
+D:skip=B00000479W(Evans, et al: Jazz Round Midnight: Piano)
+D:asin=B000005COX(Kevin Burke, Cunningham...: The Celtic Fiddle Festival)
+D:skip=B000005CVP(Grateful Dead, et al: San Francisco Live)
+D:skip=B000009GS7(Jeff Beck: Truth [IMPORT])
+D:anop=B000000DV3(Tony MacMahon: Traditional Irish Accordion)
+K:Em
+~E3B BAFA|EBEB AGFD|~E3B BAFA|B^cdB AGFD|\
+~E3B BAFA|EBEB AGFD|~E3B BAFA|B^cdB ADFA||\
+B2eB fBeB|B2dB ADFA|B2eg ~f3d|egdB ADFA|\
+B2eB fBeB|B2dB ADFA|(3B^cd eg fde^c|d^cdB ADFA||\
+B2EB GBEB|B2EB ADFA|B2EB GBEB|B^cdB ADFA|\
+B2EB GBEB|B2EB ADFA|B2EB GBEB|B^cdB AGFD||
+S:https://www.folktunefinder.com/tunes/111592
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

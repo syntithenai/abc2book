@@ -1,0 +1,86 @@
+X:23
+T:Alman 9 Lady Strang's Almain
+C:Robert Johnson
+L:1/4
+M:none
+K:GM frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+%%subtitlefont * 15
+a//c|[da,c/]>d [ca,b/]>c [aa,c/]>a [,ea,c/]>,a |\
+[haa{,a}//]kl/ [k,a//]hk/ [haa{,a}3/][hd,f//]f |\
+[dfg/][ih,h//]h [fhi/][l,,k//]k [hil/]n//l [h,,,a/][h,,,,d] |\
+[f,,a/]a//c df[ce{,a}/] [aac,,a1],,,c1 ||
+% Takt 5
+,/c/ [d,,,a//]f|[hd,f,d/]h[f,aa][da,c] [cdda1]{a}/f//h |\
+[i,,,a/][h,,,,d] [f,aa//]df/ [ddf1],,,,,d/[ddf] |\
+h//k[m{,a}/]h[n,,,,a] a//c[d,,,,a/]a[f,,,a] c[d,,,,a//]fh/[fc,,a][ce,,c][aac,,a1],,,c |]
+T:Alman 10
+K:F
+,d1|[#f,aa1]>h #f1d/c |\
+[a#cd3],d/a |\
+[c,aa/]ef1 [ea,,,a/]fh1 |\
+[#ffh,a3]f/h |\
+[Xif,h1]i [dfg]>f |\
+[hd,f1]f/d [cdf1]c/d |
+% Takt 7
+[Xfc,e1]f [a#cd]>c |\
+[d,,c/]fhk [Xl,aa1]c/d |\
+[f,,,,c1][,d,,,d/]a [#c,,,a]d[a#c1] |\
+[,Xdaa1]{a} [,da2]  :||:\
+[,,Xdca1]a/,d #,c1f/d |\
+[#cd,a1][ac/],,,,a [,Xdaa2] |
+% Takt 13
+[a,d,a1]f/d [#cd,a1]l/i |\
+[#h,,f1][fh,,f] [,Xiff]>,i |\
+[#h,,f/],il,d [#c,,a],dfc |\
+[d,,c/]ah,a [,d,,c],ac,d |\
+[fd,e/]d[#cd,a1] [add,a][a#c] |\
+[,Xdda1]{a} [,dd2] :|
+T:Alman 11
+K:C
+[a#cd,a1]c/e Xf1[#e,,,c/]c |\
+[a,d,e1][#ca,a] [aac#c]>,,,a |\
+[,,d,e1]a/,,,,c ,,,,a,d[,#cd1] |\
+[,a,,,e1][,,d,,c/],,,b [,,#cc,a1],a/{,a} |\
+{a}/,,d,,a,,c [,,d{,c}],a,c,,d |\
+% Takt 6
+[,aa{,a}/],c,d,,c [,#cd,a1]a/,,,,,a |
+,,,,,e/,d[,cd,a],d [,aXd,,a1],,c/,d |\
+[,,Xdca1]{,,a} [,,dc2] :||:\
+[,a#cc1]a/c Xe1,,a/,,c |\
+X,,d1c/e Xf1,a/,c |\
+,d/e#c,c ,,fa,d,,d |
+,,c/c#a,d [,#cd1]a/#,,c |\
+,,a/,cX,d,,,c ,,,a,c#,a,,d |\
+[,,#cc/],,d,a,,,a [,,d,e],,,,c,,,,a,,,,,d |\
+[,,d,,c/],,,,,a{a}{,c} [,da{,a}],,c[,cd{,c}]{a} |\
+[,ad,,a1]#,,c [,,Xdca2] :|
+T:Alman 12
+a1|[acd1],d/,c [,da]a#c1 |\
+[a,c1][,dd/]#,c [,acc1]a/,d |\
+[,#cd1][,acc] [,,dca][acd/],,c |\
+[cca/]ef1 [#e,,c]c/,f |\
+[f,,e1],,,,e/,,,a [e,,c1],,,,c/,,,,e |
+[#c,,a1],,,,a/,,,,c [a,,,e1],,,,,e/,,,,a |\
+[,d,,c/],fce [f,,,,c],,,,,e[,#c,,a1] |\
+[,adc,a1]#,,c [,,dca{,,a}2]  :||:\
+[,acc1]a/,,a [aac1]#,,a/,,,c |\
+[,cd1],d/a [c,a1],,,c/#,,,a |
+[a,d,e1]#c/e f1,,,,c/,,,,a |\
+[,a,,,e1]#,,c/,,d ,a1,,,,,c/,,,,,a |\
+,,,,a1f/h k1[h{,,a}/]f |\
+{a}1,a/,c ,d1,,a/#,c |\
+[,ac,,a1][,cd] [,adc]#,,c |\
+[,,dca1]{,,a} [,,dc2] :|
+S:https://www.folktunefinder.com/tunes/109584
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:57
+%%staffwidth 14.5cm
+T:Waiting for Fish
+C:W-45
+R:waltz
+C:Susie Secco c1996
+D:
+Z:Transcribed to abc by Debbie Knight
+M:3/4
+K:Dm
+DF|"Dm"A2 AB AF | D4 F2 |"Gm"G2GB AG |"Dm"AF D2E2|
+ F2FA FD |"C"E2 EG EC |1"Bb"DE D2C2|"Am" A,4 :|\
+[2 "Bb"DE G2 "Am"A2 | "Dm"d3A de|]
+|: \
+"Dm"f2 fa gf |"C"e3g fe |"Bb"de d2 "A"^c2| A4 AB |
+"F"cd cB A2 |"C"GA GF E2 |"Dm"D2E2 "C"C2|1 "Dm"D3 A de:|2 "Dm" D4|]
+%%text 4/12/03.  Taken from Along the River.
+S:https://www.folktunefinder.com/tunes/109398
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

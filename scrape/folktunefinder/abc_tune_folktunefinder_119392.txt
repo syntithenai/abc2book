@@ -1,0 +1,31 @@
+X:13
+T:Sk\aanska Rumpedarran (Masurka)
+C:A. Bergstr\"om ()
+R:Masurka
+%O:Sweden
+Z:Bob Wyttenbach 8/5/02, from Fiddles & Feet 2002 tunebook, poor handwritten copy
+N:as we played it, the triplets were CCC, not CB,C as written here in A part
+M:3/4
+L:1/8
+K:D  bass %clef=bass middle=D
+P:A
+"D"A,>DF2F2|F>E D>B,A,2|"G"G,>A,B,2B,2|"Em"B,>A, G,>F,E,2|
+"A"C,>D, E,>F,G,2|"A"(3C,B,,C, E,>F,G,2|"A"E,>F, G,>A, C>B,|"D"A,>B, A,>G,F,2|
+"D"A,>DF2F2|F>E D>B,A,2|"G"G,>A,B,2B,2|"Em"B,>A, G,>F,E,2|
+"A"C,>D, E,>F,G,2|"A"(3C,B,,C, E,>F,G,2|"A"C>B, A,>C E>C|"D"D2D2z2:|
+P:B
+[K:G]"G"G,,>B, B,>DB,2|"G"G,,>B, B,>DB,2|(3CB,C F2F2|G,>GG2G2|
+"G"G,,>B, B,>DB,2|"G"G,,>B, B,>DB,2|C>B, A,>G, F,>A,|[1"G"G,2G,2z2:|[2"G"G,2G4|]
+% %%%%%%%%%%%% Vals %%%%%%%%%%%%% %
+S:https://www.folktunefinder.com/tunes/119392
+S:http://www.nordicfiddlesandfeet.org/music/NFF2002bass.abc
+% Rhythm Masurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

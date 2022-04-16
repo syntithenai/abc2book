@@ -1,0 +1,26 @@
+X: 3
+T:The Jolly Lad
+R:reel
+C:Peter Holmes
+Z:Andrew Le Blanc
+P:2
+M:4/4
+L:1/8
+Q:100
+K:D
+||:FB ~B2 dB ~B2| FcAB FEDC| B,F ~F2 DFAF| EDCA FEDC| B,B ~B2 dB ~B2| FB
+AB FEDC| B,A,B,C DEFA|BAFA B4:|
+|:Bf ~f2 edcA| BcdB ABcA| Bf ~f2 edcA| FAdA EAcA|Bf ~f2 edcA| FBAB FEDC|
+ B,A,B,C DEFA| BAFA B4:||
+S:https://www.folktunefinder.com/tunes/100140
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

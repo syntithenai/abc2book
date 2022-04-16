@@ -1,0 +1,36 @@
+X: 40
+T:Jesse the Flower of Dunblane
+M:6/8
+L:1/8
+S:Wood's Songs of Scotland, Edinburgh, 1848
+R:Air
+K:G
+"Andante con moto"G/2A/2|B>cB A>dB|G>FG A<F G/2E/2|
+D>EC B,<DG||GAB A2 G/2A/2|
+B>cB A<dB|GFG A<F G/2E/2|D>EC B,<DG|AE>F G2||
+B|B>GA B<ed|BGA B<GB|A<FG A<dB|AF>E D2 D|
+G>BA BG>A|BdB cA>B|c>de dB>G|A>EF G2 G/2E/2|
+D>EC B,<D G/2A/2|BdB c<AB|c>de dF G2||
+%
+% Early in the nineteenth centtury, this song was composed by a
+% modest weaver, Robert Tannahill of Paisley, and was set to an
+% alleged ancient Scottish melody by Robert A. Smith author of the
+% Irish Minstrel, and the Scottish Minstrel. According to Farquhar
+% Graham, editor of Woods Songs of Scotland, not a few of the airs
+% in the latter work were composed by Smith himself.
+% Whatever the origin of the above melody may have been it has a
+% decidedly Gaelic tonality.
+S:https://www.folktunefinder.com/tunes/106045
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-1.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/JesseTheFlowerOfDunblane.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0040.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Araber Tantz
+T:(Arabic Dance)
+N: Transposed down a step from the orignal
+L:1/8
+M:4/4
+Q:1/4=125
+K:Bb
+P:A
+D2 || ^FG A2A2A2|B6 AG|^FG A2 BAGA|G^F3z2D2|
+^FG A2A2A2 |c4-cBAG|^FG A2 BAGA|G^F3z4|
+Dd2^cd2A2|B3cd2c/B/A/G/|^FG3-GFEF|ED3zD (3BAG|
+P:B
+|:^F8|G8|^FGAF- FDEC|DE^FG AdAG|
+^F8|G4zd (3BAG|^FGAF- FDEC|1D4zd (3BAG:|2D4zd c/B/A/G/|
+P:C
+|:^FGAF- FD E/D/E/C/ |DE^FG Ad c/B/A/G/|^FGAF- FD E/D/E/C/|1DD2 A, DA, D2:|2D6||
+W:
+W:
+W: Naftule Brandwein Orchestra 1929
+S:https://www.folktunefinder.com/tunes/122670
+S:http://www.khafif.com/rhy/abc/AraberTantz-D-hijaz.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 96
+T: Bantry Bay Hornpipe
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|:GA|\
+"G"BABG EG(3DEF|G2~G2 GABG|"Am"EAAB cBAG|(3ABAGB "D"A2AB|
+"C"~c2ec "E7"~B2dB|"Am"ABAG (3EFEDc|"C"~BABG "D"AF(3DEF|"G"(3GEDB,D G2:|
+|:AB|\
+"G"dBeBdBGB|"Em"e2~e2 e2ef|"C"g2ed BGBd|"D"(3gagfa "G"g2ef|
+"G(Bm)"gbgf efed|"Em"~BABG E2Dc|"C"~BABG "D"AF(3DEF|"G"(3GEDB,D G2:|
+S:https://www.folktunefinder.com/tunes/113105
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

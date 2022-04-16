@@ -1,0 +1,41 @@
+X:115
+T: Zhen Dui hua
+N: C0155
+O: China,Liaoning, Shenyang
+S: III, 296]
+N: sehr heiter; viele Fuellwoerter. Die zweite Aufnahme kam zustande,
+N: weil ich meinte, schneller koenne man das doch nicht mehr singen.
+N: Typisches 12-Monats-Lied. Es ist ein Wettkampflied, bei dem es
+N: darum geht, immer schneller zu singen, damit diejenigen ausscheiden,
+N: die Fehler machen. Gesungen wird es von 2 Einzelnen oder von 2
+N: Gruppen. -- Die Han leben in dieser Provinz erst seit der Ming-Dyn.
+N: Saengerin: Huang Bai
+N: Diese Sammlung enthaelt mit Stand 1987 wenigstens 32 Aufnahmen
+N: mit dem Titel "Dui hua"
+N: C0046, C0495, C0136
+N: Vereinzelt Verzierungen.
+R: Xiaodiao, Dui hua. Duichang]
+M: 2/4
+L: 1/16
+K: F
+d3fd2c2 | d3fd2c2 | A3GAGAc | d2c2d2f2
+c3dc2A2 | G3Ac2c2 | c2c2c2E2 | D8
+d2d2d2c2 | d2f2d2c2 | A3GAGAc | d2dfd4
+c3dc2A2 | G3Ac4 | c2c2c2E2 | D8
+A3GF2G2 | A2G2A4 | c6E2 | D8
+A3GF2G2 | A2G2A4 | c6E2 | D8
+g3ed4 | g3ed4 | d3fA2c2 | d2c2d4
+c2d2c2A2 | G2A2c4 | c2c2c2E2 | D8
+S:https://www.folktunefinder.com/tunes/112542
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, dui hua. duichang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X:3
+T:Huict Bransles de Poictou
+T:Tenor
+B:db -c 59 -b 30
+C:Claude Gervaise
+B:Cinquiesme Livre de Danceries (1550)
+M:3/2
+L:1/4
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+%%MIDI transpose -12
+N:Original clef, C on third line
+K:G dor -8va
+|: "I"c c2 d c > B A A G2 c2 c c2 d c > B A A G2 F2 :|
+|: c c2 d c > B A A2 A F2 c c2 d c > B A G2 "f"^F  |1 G2  :|2 G3
+K:F -8va
+|:"II"A2  A B2 B c2 B A2 B c2 d c2 A A2 A B2 B c2 B A2 A A G2 F3:|
+|: A2 G F2 G A2 B c2 f f2 d d B B A2 G F2 G A2 B c G B G c A A3 :|
+K:G mix -8va
+|:"III"d d > d e c A B c A2 G2 d d > d e c A B c A2  |1 G2 :|2 G3
+|: G2 A B2 G A2 A G2 G B2 B c2 G A2 A G3 :|
+|:"IV"B > d d e2 e f > f f d d d c B2 A2 G c B2 A2 A :|
+|: B > B d c2 A A2 B d B d d B2 B2 d d B2 B2 B :|
+|:"V"B > d d d f2 f3 f d2 c B2 A2 A B > d d d f2 e A c c B2 A2 A G2 G :|
+|: B B2 B2 A c2 d B c2 B A2 G2 G :|
+|: d2 d d c2 A2 A A2 A B d2 B2 B :|
+|:"VI"G2 d d > d d d B2 c2 d e A c A B A B G d B > c d e A c A B A B G d B2 B :|
+|: B2 d d > d d d B2 c2 d c B c A2 B G d2  |1 B2 B :|2 B2 e
+|: d d B d B A B G d B2 A B d B d B A B G d  |1 B2 e :|2 B2 
+|:"VII"B A3 d3 c2 d e2 c d2 d B2 B A3 d3 c2 d e2 c d2 d B2  :|
+|: B d2 c B2 B c2 A A2 A d2 d d2 B d2 c B2 B c2 A A2 A d e d|1 B2 :|2 B3
+|:"VIII"B2 B A2 A B2 B G2 G G A2 B2 B B2 B A2 A B2 B G2 G G A2 B2 B :|
+|:B2 B d2 c B2 B B2 B d2 c B2 B :|
+|: B2 A B "f"^c2 d2 d B2 A c B A G2 G:|
+S:https://www.folktunefinder.com/tunes/111035
+S:http://www.laymusic.org/music/gervaise/8poictou/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

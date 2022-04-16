@@ -1,0 +1,26 @@
+X:1
+T:The Oompa Loompa Song
+N:(version 2.2)
+K:Em
+L:1/8
+M:4/4
+P:A
+"Em"B2 EE B2 EE|BA G2 "D"A4|"Am"A2 GF "B"B2 B2|"C6"AG E2 "B7"F4|
+"Em"B2 EE B2 EE|BA G2 "D"A4|"Am"A2 GF "B9"B2 B2|"B7"AG F2 "Em"E4||
+P:B
+"C"e2 ef e2 ef|gf e2 "G"d4|"D"A2 AB c2 BA|"G"Bc d2 d4|
+"C"e2 ef g2 fe|"G"dc B2 B4|"F#"^A2 A2 A2 ^c2|"F#7"f4 ^d4|\
+"B (stop)".f2 z2 z4|Bc AB GA F2||
+P:last A
+"Em"B2 EE B2 EE|BA G2 "D"A4|"Am"A2 GF "B"B2 B2|"C6"AG E2 "B7"F4|
+"Em"B2 EE B2 EE|BA G2 "D"A4|"B"B2 B2 B2 B2|"B7"B2 B2 B^c ^d2|\
+"Em".e2 z2 z4||
+S:https://www.folktunefinder.com/tunes/122704
+S:http://www.biff.org.uk/dave/molly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:1
+T:Polka : Mardi-gras
+E:12
+Z:Roger Ngaret (94-95)
+R:polka
+C:Trad.
+S:
+A:Cajun
+M:4/4
+L:1/16
+F:http://termen.free.fr/danses/polkas/PolkaMardigras.abc 2001-11-06 21:57:24 UT
+K:C
+Q:1/4=180
+"Am"E4 A4 A6G2 | A4 B4 c8 | "G"B4 A4 B4 B4 |
+"Am"A4 G4 E8 | E4 A4 A6G2 | A4 B4 c8 |
+"G"d8 e4 d4 | B4 G4 "Am"A8 |: e8 e6d2 | e4 g4 e8 |
+"G"d4 d4 e4 d4 |1 B4 G4 "Am"E8 :|2 "G"B4 G4 "Am"A8 |]
+%%rm  Mardi-gras c'est tout partout,
+%%rm  Mais principalement Grand-Mamou
+%%rm  Mardi-gras c'est tout partout,
+%%rm  Mais tout alentour du moyeu.
+%%rm  Le Mardi-gras vous r'mercie bien,
+%%rm  Pour vot' bonne volont
+%%rm  Le Mardi-gras vous r'mercie bien,
+%%rm  Allons courir chez not' voisin.
+S:https://www.folktunefinder.com/tunes/99446
+S:http://termen.free.fr/danses/polkas/PolkaMardigras.abc
+S:http://termen.free.fr/danses/polkas/PolkaMardigras.abc
+S:http://anamnese.online.fr/abc/favoris.abc
+% Rhythm Polka
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

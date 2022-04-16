@@ -1,0 +1,24 @@
+X:1
+T:VI. God morrow, Fayre Ladies,
+O: Canzonets, or Little Short songs to three voyces, 
+H: transcribed from the Performers' Facsimiles print of the London, 1593 edition
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+K:C
+T: Cantus
+M:C
+L:1/8
+N: Original clef, treble
+%1
+G8 d4 d2 d2 B A B c d2 B2\
+S:https://www.folktunefinder.com/tunes/111119
+S:http://www.laymusic.org/music/morley/morrow/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

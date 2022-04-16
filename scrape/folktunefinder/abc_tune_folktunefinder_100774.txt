@@ -1,0 +1,24 @@
+X:25
+T:The Man From Bundoran
+R:reel
+N:This is *close* to the version played by Pat Kelly (son of the eponymous
+N:man from Bundoran)
+Z:John M. O'Hara
+M:C|
+L:1/8
+K:D
+dc | BE (3EEE BEdE | BE (3EEE BcdB |cA (3AAA cAeA |(3Bcd ef e2dc |
+BE (3EEE BEdE | BEdE BcdB |cA (3AAA cAeA | (3Bcd ef e2 |]
+cA | f2fe dcBA | Affe d2de | f2fe fgaf | ecAc egfe |
+f2fe dcBA | fgfe d2de | f2fe fgaf | ecAc e2 |]
+S:https://www.folktunefinder.com/tunes/100774
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/sanger.abc
+S:http://www2.redhawk.org:8080/irish/other/sanger.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

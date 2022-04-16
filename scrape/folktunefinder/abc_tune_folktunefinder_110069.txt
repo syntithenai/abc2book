@@ -1,0 +1,36 @@
+X:22
+T:Christine's Conundrum
+C:Colin Hume, 2001
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+N:For Christine Robb
+K:G
+P:A
+|: G/F/ | "Em"EB, "^/"EG | "B7"FB, "^/"FA | "Em"GE "Am"cB/A/ | "B7"B3- "^/"B/A/ |\
+M:3/2
+%%MIDI gchord GcHcIc
+"E"^G3/2A/ "^/F#"BE "E7/G#"eB | "Am"cc "^/B"cz "^/C"AG | "D"F3/2G/ "^/A"AD "D7/F#"dA |
+"G"BB "^/A"Bz "^/B"GF |\
+M:2/2
+"C"E3/2F/ "^/"EF | "Am"G3/2A/ "^/"GA | "Em"BB "^/"BE | "Am"cc "^/"cE | "Em"BA/G/ "B7"F3/2E/ | "Em"E2- "^/"E :|
+P:B
+|: B/c/ | "G"dddG | "C"ee "^/"e^G | "Am"AA "E7"Bd | "Am"c2- "^/"cA/B/ |\
+M:3/2
+%%MIDI gchord GcHcIc
+"D7"cA "^/E"FA "^/F#"FD | "G"dB "^/A"GB "^/B"GD | "C"e3/2d/ "^/B"cd "Am"ef |
+"G"gd "^/B"Bd "^/D"BG |\
+M:2/2
+"C"cc "^/"cd/e/ | "G"dG "^/"Gc/d/ | "Am"cB "^/"AG | "B"F2- "^/"FE/F/ | "Am"GE "B7"AF | "Em"E2- "^/"E :|
+S:https://www.folktunefinder.com/tunes/110069
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

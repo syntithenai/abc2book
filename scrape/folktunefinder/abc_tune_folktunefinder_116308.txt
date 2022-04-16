@@ -1,0 +1,35 @@
+X:13263
+T:Polcas
+S:E.P.Band
+R:Polka
+O:Spain
+M:4/4
+A:Galicia
+K:D
+fefe fefg|a2f2 f2ef|g2e2 e2de|f2d2 d4|\
+fefe fefg|a2f2 f2ef|g2f2 e2a2|1 d8 :|2 d6||
+A2|\
+B3G B2d2|A4 =F2A2|B3G B2d2|A6 A2|\
+B3G B2d2|A4 =F2A2|B3G B2d2|c6 ||
+Bc|\
+d2A2 B2G2|E2D2 D2EF|G2E2 E2FG|A2F2 F2Bc|\
+d2A2 B2G2|E2D2 D2EF|G2F2 E2A2|1 D4D2 :|2 D6D2||
+|:A6 fe|(d4 d)GBd|A2f2 gfef|a2g2 f2e2|\
+A6 fe|(d4 d)GBd|A2f2 e3d|d6 ::
+K:A
+cd|\
+e2c2 f2df|efec A2e2|dedc B2G2|AGAB c2cd|\
+e2c2 f2df|efec A2e2|dedc B2G2|A6 :|
+S:https://www.folktunefinder.com/tunes/116308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

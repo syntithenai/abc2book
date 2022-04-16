@@ -1,0 +1,32 @@
+X:6
+T:Melodious Accord (A minor)
+R:jig
+C:Jim McGraw
+O:Co. Fermanagh, Ireland
+S:http://www.cranfordpub.com/recordings/mcgraw.htm
+D:Melodious Accord, Jim McGraw
+N:on the recording Jim plays the tune in both A & E minor
+Z:psc
+H:This brings about agreement between the Melodeon and the fiddle music
+L:1/8
+Q:300
+M:6/8
+K:Ador
+Aag e2 d|ecB ABc|dge dec|BcA GBd|
+eag e2 d|ecB ABc|dBG DGB|ABG A2 z:|
+|:aba age|edc BcA|GBd gba|gdc BAG|
+ceg Bdg|Ace aba|gdc BAG|ABG A2 z:|
+S:https://www.folktunefinder.com/tunes/130143
+S:http://cranfordpub.com/tunes/abcs/mcgraw.abc
+S:http://www.cranfordpub.com/tunes/abcs/mcgraw.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

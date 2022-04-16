@@ -1,0 +1,19 @@
+X:3
+T:Mill Millo.
+B:Bremner: Instructions for the Guitar, London, c.1765, NLS MH.s.252(1)
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+M:C
+L:1/8
+K:C
+c>d|e2 G2         G3    c  |{c}TA>GAc           [d2G2]cd |e2G2 fedc   |{c}TA3B        c2       :|
+G2 |c>def        [g3e3][ge]|    agfe            [d3G3]G  |cdef g>agf  |  [Te3c3][fd] [g3e3]G    |
+    c[dG][ec][fd] gceg     |   [af][ge][fd][ec] [d2G2]c>d|e2G2 G2e/d/c|   TA3B       [C2E2G2c2]:|
+S:https://www.folktunefinder.com/tunes/104156
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

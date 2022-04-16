@@ -1,0 +1,23 @@
+X: 1698
+T: The Old Vest and Cravat
+M:4/4
+L:1/8
+B:O'Neill's 1698
+N:"collected by F.O'Neill"
+K:D
+F-G \
+| ABGA FGAB | cBcA d2 d-e | fedcAGFG | Adced2F-G |
+| ABGA FGAB | cBcAd2 d-e | fedcAGED | D2DDD2 :|
+|: F-G \
+| Addef2 e-d | dcAGA2A-G | Addef2 e_d | dced d2d-e |
+| fdef defg | fdcA cdef | dfed cAGE | D2DDD2 :|
+S:https://www.folktunefinder.com/tunes/101314
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1625-1700_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

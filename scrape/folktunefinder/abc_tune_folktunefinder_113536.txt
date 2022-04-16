@@ -1,0 +1,22 @@
+X:190
+T: The Irish Exile
+M: 6/8
+L: 1/8
+B: O'Neill's 388
+N: "Slow."
+N: H is a fermata, ">" is an accent.
+Z: Transcribed by Chris Falt, cfalt@trytel.com
+K: G
+(G/2A/2)|(B>AG) (EA).A|A3-A2(G/2A/2)|(B>AG) (EG).G|G3-G2(G/2A/2)|
+BGB ">"d2(B/2d/2)|ece ">"d2(d/2c/2)|(B>AG) (EA).A|A3-A2(G/2A/2)|
+BGB ">"d2(B/2d/2)|ece ">"d2(d/2c/2)|(B>AG) (EG).G|G3-HG2||
+S:https://www.folktunefinder.com/tunes/113536
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0351-0400_cf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

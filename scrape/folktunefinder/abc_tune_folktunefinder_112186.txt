@@ -1,0 +1,40 @@
+X: 15
+T:Marsch i Sng
+M:4/4
+L:1/8
+C:Jonas Olsson
+S:Andrea Hoag & Bruce Sagan
+O:B2c2c2BA|BAG2GABc|d2e2e2c2|d6e2|c3BA2B2|
+K:G
+|:GA|B2c2c2BA|BAG2GABc|d2e2e2c2|d6GA|B2c2c2BA|BAG2GABc|d2e2e2c2|d6e2|c3B
+A
+2B2|AGFED2EF|G2B2G2E2|\
+M:3/4 
+D6| 
+M:4/4
+ d4edcB|\
+M:3/4
+ AGA2F2|\
+M:4/4
+ E3G FEF2|G6:|:GA|B3c A2Bc|B3A G2AG|FED2E4-|\
+M:2/4
+ E2D2|
+M:4/4
+ G2B2d2ed|ABcdB4|e3f g2e2|cBcde2c2|B2A2A2B^c|\
+M:3/4
+ d6|
+d4edcB|AGA2F2|E3GFEF2|G6:|
+S:https://www.folktunefinder.com/tunes/112186
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

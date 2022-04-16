@@ -1,0 +1,25 @@
+X: 5
+T:ARPEGGIO'S
+M:4/4
+L:1/8
+Q:1/8=460
+C:TIM O'BRIEN
+K:C
+z |:"A"A,^CEA ^ceae|"D"d^fdA ^FDA,D|"E"E^GBe^g bge|"A"ae^cA E^CA,2:|!
+|:"D"D^FAd ^fafd|"G"gdBGDB,G,B,|"A"A,^CEA ^ceae|"D"dA^FD A,2D2:|!
+|:"G"G,B,DG Bdgd|"C"cege cGEC|"D"D^FAd ^fafd|"G"gdBG DB,G,2:|!
+|:"C"CEGc egec| "F"fafc AFCA,|"G"G,B,DG Bdgd|"C"cegecGEC:|!
+|:"F"FAcf cAFC|"Bb"_B,DF_B df_bf|"C"cege cGEC|"F"A,CFAcAF2:|!
+|:"Bb"_B,DF_B df_bf|"Eb"^dgd_B G^D_B,G,|"F"A,CFA cfaf|"Bb"_bfd_B FD_B,2:
+|!
+|:"B"3B,^D^FB ^d^fbf|"E"^geB^G EB,^G,B,| "F#"_B,^C^F_B ^c^f_bf|"B"b^f^dB
+ ^F^DB,2:|
+|:"E"E^GBe ^gbge|"A"ae^cA E^CA,C|"B"B,^D^FB ^d^fbf|"E"^geB^G EB,E2:|
+S:https://www.folktunefinder.com/tunes/125217
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/Arpeggios.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:533
+T: Longchuan diao
+N: C1173
+O: China,Hubei
+S: Zhongguo Minge Jing Xuan]
+N: Verzierungen und Glissandi
+R: Duichang (Wechselgesang, Antiphonie)]
+M: 2/4
+L: 1/16
+K: D
+f2ddd2f2 | d2e4de | f3ededB | B8
+e3dB2d2 | e2d4B2 | A8
+ddAdB4 | FFFdB4
+def2e2d2 | dBedB2AB | dBedB4
+BAFBFA3 | BAFdB2B2
+BBFdB2AF | ff2ff2de | f2e4dB
+Beddde2d | B6
+AB | e2d2B2AB | e2d2B4
+ed2BdBde | B2d4B2 | A8
+S:https://www.folktunefinder.com/tunes/112960
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Duichang (wechselgesang, antiphonie)]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

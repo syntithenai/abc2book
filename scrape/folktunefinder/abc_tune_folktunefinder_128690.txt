@@ -1,0 +1,20 @@
+X:270
+T:Hag's Purse
+Z: id:dc-jig-45
+M:6/8
+L:1/8
+K:D Mixolydian
+A2D FED|A2d cAF|G2E EDE|c2d cAG|!
+A2D FED|A2d cAF|GFG cGE|EDD D3:|!
+d2e fdd|ged cAF|G2E EDE|c2d cAG|!
+d2e fdd|ged cAF|GFG cGE|EDD D3:|!
+S:https://www.folktunefinder.com/tunes/128690
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

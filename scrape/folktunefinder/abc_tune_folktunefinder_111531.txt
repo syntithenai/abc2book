@@ -1,0 +1,28 @@
+X:10
+T:Banshee, The
+M:C|
+R:Reel
+Z:We often play this tune in a set: <ceili:1>, <ceili:2>, <ceili:3>.
+Z:This version was transcribed by Lars Johannesson
+D:anop=B000000HQD(Matt Molloy: Shadows On Stone)
+D:asin=B000005CRR(The Bothy Band: The Best Of The Bothy Band)
+D:asin=B000005CS0(The Bothy Band: 1975: The First Album)
+D:asin=B000005CTU(Brendan Power: New Irish Harmonica)
+D:skip=B000000IY7(The Tulips: Night Of The Hunter)
+D:asin=B000001BAI(Mustard's Retreat: Back To Back)
+D:asin=B000001BBG(David Wilkie, The McDades...: Cowboy Celtic)
+K:G
+G3D EDBD|G3B d2Bd|e3d BAGA|BAGE EDD2:|\
+eaag efge|dBBA B3d|eBBA gBfB|eBBA B3d|\
+eaag efge|dBBA B3d|e3d BAGA|BAGE EDD2:|
+S:https://www.folktunefinder.com/tunes/111531
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:32
+T:The Keelman Ower Land
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+d(3c/B/A/G d2g | d (3c/B/A/G d2g | ecA gcA |
+ecA efg |dBG GAB| Bge dBG |
+A/B/c/B/A B/c/d/c/B | e2 d efg::ddg ddg |
+ddg dcB | eea eea | eea edc | 
+ddg ddg | Gge dBG | A/B/c/B/A B/c/d/c/B |
+e2 d efg :: d/B/GG G/B/GG | d/B/GG G/B/GG | 
+e/c/AA A/c/AA | e/c/AA A/c/AA | dBG GAB | 
+Bge dBG | AcA BdB | e2d efg :|
+S:https://www.folktunefinder.com/tunes/105587
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 40
+T: Turn the Pig from the Teapot
+S: Fitzmaurice Collection
+N: 202206
+L: 1/16
+M: 2/4
+R: hornpipe
+Q: 1/8=180
+K: D
+A2>B2 BAGF | A2D2D2 FA | B2B2 dcBA | B2E2E2 FG |
+AFdF BAGF | A2Bc d2>e2 | fdaf fedc | B2B2B2 cd :|
+A2Bc dcdB | ABcd e2 e2 | A2Bc dfed | cBAG AECE |
+A2Bc dcdB | ABcd e2 e2 | fdaf fedc | B2B2B2 cd :|
+%%%%%
+S:https://www.folktunefinder.com/tunes/99802
+S:http://www.qmcorp.net/webabc/collections/fjc_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

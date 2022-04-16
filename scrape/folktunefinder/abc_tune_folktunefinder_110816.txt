@@ -1,0 +1,30 @@
+X: 14
+T:Tew Hornpipe
+M:3/2
+L:1/8
+S:Marsden
+N:the brook near LiverpoolRC
+Z:ps
+K:G
+e2dc BcdB AB cA|G2efg2G2 BcdB|e2dc  BcdB AB cA|A2fga2A2 BcdB||
+c2e2 BcdB AB cA|G2g2g2 G2BcdB|c2e2 BcdB AB cA|A2fga2A2 BcdB||
+cdec  BcdB AB cA|G2g2g2G2 BcdB|cdec  BcdB AB cA|abag agfe  BcdB||
+c2e2B2d2A2c2|G2g2d2g2B3d|c2e2B2d2A2c2|A2fga2A2 BcdB||
+ge dc defd gedc|B2g2g2G2 BcdB |ge dc BcdB gedc|A2fga2A2 BcdB||
+gab2fga2efge|d2g2g2G2 BcdB |gabg fgaf efge|fgaba2A2 BcdB||
+cA GF GA BG cA GF|G2g2g2G2 BcdB|cA GF GA BG cA GF|A2fga2A2 BcdB ||
+cAF2dBG2cAF2|G2g4G2 BcdB|cAF2dBG2cAF2|A2fga2A2BcdB||
+c2b2B2a2A2g2|G2g2d2g2B3d|c2b2B2a2A2g2|fgaba2A2BcdB||
+cdec BcdB AB cA|gfga gfed BcdB|cdec BcdB AB cA|agaba2A2BcdB||
+S:https://www.folktunefinder.com/tunes/110816
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/marsden.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

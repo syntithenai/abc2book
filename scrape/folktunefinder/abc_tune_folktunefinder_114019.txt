@@ -1,0 +1,44 @@
+X:1
+T:Am Sunnta is Kirwa - Landla
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+d |\
+B/d/g/B/d/g/ | b/d/a/d/g/d/ | f/d/c/f/d/c/ | add |\
+f/d/c/f/d/c/ | c'/d/b/d/a/d/ |1 g/d/B/g/d/B/ | bd :|\
+                             [2 gf/g/b/a/ | gz ||
+K:C
+|: G/e/ |\
+cE/c/E/c/ | B/>F/DF/d/ | BD/B/D/B/ | c/>G/EG/e/ |\
+cE/c/E/c/ | B/>F/DF/d/ | BD/B/D/B/ | cz :|
+K:G
+|: d |\
+d>BG | F>Ad | d>cF | Gzd |\
+d>BG | e>ee | d>cF | Gzd/>d/ |
+dB/G/d/G/ | F/A/dd/>d/ | dc/F/c/F/ | G/>B/dd/>d/ |\
+dB/G/d/G/ | F/A/dd/>d/ | dd/e/c/F/ | G2 :|
+K:C
+|: E/G/ |\
+A/f/f/e/e/d/ | cE/G/G/c/ | BD/G/G/B/ | cE/G/G/c/ |\
+A/f/f/e/e/d/ | cE/G/G/c/ | BD/G/G/B/ | cz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/114019
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/am_sunnta_is_kirwa_-_landla.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

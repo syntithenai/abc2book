@@ -1,0 +1,29 @@
+X: 232
+T:Inches to Dublin
+R:reel
+C:Padraig Rynne
+D:Cian: Three Shouts from a Hill
+Z:Devin McCabe
+M:C|
+L:1/8
+%F:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc 2005-07-22 18:20:50 UT
+K:EMin
+e2ba be e/2e/2e|e2ba be e/2e/2e|gf (3efg fedb|c'3b bagf|
+|e2ba be e/2e/2e|e2ba be e/2e/2e|gf (3efg fedf|1adfd efgf:|2adfd e2ce|
+|:B~g3 gfed|B~g3 gf (3efg|faag fede|e/2e/2e de edcd|
+|B~g3 gfed|B~g3 gfef|gabg abc'a|1bd'af e3d:|2bd'af efgf||
+K:BMin
+S:https://www.folktunefinder.com/tunes/118306
+S:http://www2.redhawk.org:8080/irish/irishtunes.net/itunenet.abc
+S:http://home.ivx.de/601438/tunes/rhr3.abc
+S:http://puffin.ivx.de/601438/tunes/rhr3.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

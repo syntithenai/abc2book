@@ -1,0 +1,25 @@
+X:32
+T:Doctor O'Neill
+Z: id:dc-jig-27
+M:6/8
+L:1/8
+K:D Major
+A|d3 AFD|E2F G2A|BGB Bcd|AGF EFA|!
+d3 AFD|E2F G2A|BGB Bcd|AFD D2:|!
+A|d3 cBA|dfe dcB|AFA Bcd|AGF EFA|!
+d3 cBA|dfe dcB|AFA Bcd|AFD D2:|!
+g|fef afd|dcd fed|g3 f3|gee efg|!
+fef afd|dcd fed|gfg eag|fdc d2:|!
+g|fdf ece|dcB AFd|AFd AFd|AGF E2g|!
+fdf ece|dcB AFA|BGB Bcd|AFD D2:|!
+E|F3 GFG|FGF FED|F3 GFG|AFD EFG|!
+F3 GFG|FGF FED|BGB Bcd|AFD D2:|!
+S:https://www.folktunefinder.com/tunes/128499
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

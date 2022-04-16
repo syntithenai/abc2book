@@ -1,0 +1,59 @@
+X:1
+%
+%%titleleft
+%%staffsep 30pt
+%
+T:Almayne                                                
+Z:abc version - Taco Walstra 
+C:Robert Johnson
+L:1/4
+K:CM frenchtab
+%
+%%tabfontsize 11
+%%tabfontscale 1.2
+%%tabaddflags 1
+%%%scale 0.55
+%
+.[,,,c1] |[,,Xdca/]> .[,a] #:,b1 [,a,a,d/] >.[,b] :,d1 |\
+[,b,,d/] .,a :#,b .,d :#a1 :,b/ .,d |\
+[a,,,d/] > .c [d,,,c1] [#f,,,a/] >.h :i1 |\
+[h,,,,e1] [Xf,,,a] [#ea,,a1] :a/ .c |
+%Staffnumber 2
+[d,,,,a/] .f :#d .b [aXb,,d1] :,d/ .a |[b,,a] .d :b .a [,#dff1] \
+[a,,c/] .[,d] |[,Xbdd1] [,d,a/] .,b [,a,c] .,,d [,a#c,,a1] |\
+[,,Xd,a1] .,,,c {,,a} .,,,c |
+%Staffnumber 3
+[,,Xd,a/] .,a :#,b .,,d [,a,a,d] .,b :,d .,a |\
+[,b,,d/] .,a :,b .,d #:a1 :,b/ .,d |\
+[a,,,d/]> .c [d,,,c1] [#f,,,a/] > .h :i1 |\
+[h,,,,e1] [Xf,,,a] [#ea,,a1] :a/ .c |
+%Staffnumber 4
+[d,,,,a/] .f :d .b [a,,,d] .,b :,d .a |\
+[b,,a/] .d :#b a [,d,,,d] .,a [a,,c] .,d |\
+[,b,d/] .,,d [,d,a] .,b [,a,c] .,,d [,a,,a] .#,,c |\
+[,,Xd,a1] ,,,c {,,a} X:,a/ .,,d |
+%Staffnumber 5
+[,,#cc1] :a/ .,d [,Xbd1] :#b/ .a |[,#df1] :d/ .b [ab1] :f/.,a |\
+,,d/ .d #:b .a [,#df1] :d/.,,d |[,ab] .b #:a .,d [,Xbd1] :a/ .,,b |
+%Staffnumber 6
+,,,d/ .,,d :,d ,,,c ,,,a .,b #:,a .,,d |\
+[,,#cc/] .,a #:,b .,d #:a ,,,c #,,,a ,,,,d |\
+[,d,,c/] .a [,#b,,a] .,d [,a,c] .,,d [,a#c,,a1] |\
+[,,Xd,a1] .,,,c {,,a} #:,a/ .,,d |
+%Staffnumber 7
+:#,,c/ .,,,c :a .,d :#,b ,,d #:b .a | :#,d/ .,,f :d .b :#a .,b :f .,a|\
+,,d/ .d :#b .a #:,d .,,f :d .,,d |\
+[,ab/] .b #:a .,d :#,b .,,d :a .,,b |
+%Staffnumber 8
+,,,d/ .,,d :,d ,,,c ,,,a .,b :#,a .,,d |\
+[,,cc/] .,a :,b .,d :#a ,,,c #,,,a ,,,,d |\
+[,d,,c/] .a [,#b,,a] .,d [,a,c] .,,d [,a,,a] #.,,c |\
+S:https://www.folktunefinder.com/tunes/109667
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Johnson_R/Almayne_1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Johnson_R/Almayne_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

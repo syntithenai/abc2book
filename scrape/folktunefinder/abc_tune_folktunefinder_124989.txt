@@ -1,0 +1,23 @@
+X: 13
+T:Dan O'Keefe's slide
+R:Slide
+S:Charlie Saksena
+O:Aharon's Slide #1
+M:12/8
+L:1/8
+Q:3/8=100
+K:ADor
+"Am"A2e "D"e2d "G"BAB d2B|"Am"A2e e2d "G"B2G GFG|"Am"A2e e2d "D"BAB "G"d3|"D"BAB "G"d2e B2A "Am"A3:|
+|:"Am"e2a a2b "Em"a2g "D"e2d|"Am"e2a a2b "Em"a2f "D"e2f|"G"g2a "C"g2e "G"dBA "Am"G3|"D"BAB "G"d2e B2A "Am"A3:|
+S:https://www.folktunefinder.com/tunes/124989
+S:http://trillian.mit.edu/~jc/music/abc/mirror/squeezebox.ncf.ca/o%2527connell%2527s.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

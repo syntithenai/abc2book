@@ -1,0 +1,35 @@
+X:190
+T:Dawning of the Day, The
+M:4/4
+L:1/8
+S:Aird's Selections 1782-97
+R:Air
+K:G
+"Moderato"DE/2F/2|G>AGF E2 D2|dd g/2f/2e/2d/2 B2 c/2B/2A/2G/2|
+GFGA B2 g/2f/2e/2d/2|B>c A2 {GF}G2:|
+e>def g2 ga/2b/2|agfe d2 B2|ed e/2g/2f/2a/2 ggab|
+agf>e e4|edef gg g/2f/2e/2d/2|Bg B/2g/2B/2g/2 A2 B/2A/2G/2F/2|
+GFGA B2 g/2f/2e/2d/2|Bc A2 GF G2||
+%
+% This fine air, the best known of the compositons of the great harper
+% Thomas O'Connellan, was taken from "Aird's Selection of Scotch,
+% English, Irish and Foreign Airs, Vol.3", published in 1788.
+% O'Connellan flourished in a period when the renown of Irish harpers
+% became a matter of history. After a sojourn of 20 years in Scotland,
+% he returned to his native land in 1689, and died nine years later.
+% As the above setting differs materially from that of Bunting in his
+% second collection issued in 1809, and others much more recent,
+% its introduction  among Waifs and Strays may be not without interest
+% to students of Irish musical history.
+S:https://www.folktunefinder.com/tunes/106092
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

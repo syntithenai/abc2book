@@ -1,0 +1,23 @@
+X: 4
+T: Bo' Dodi [Em]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"e2ed e2ed | e2f2 g2"D7"a2 |  "G"b2ba "Em"b2ba | "Am"c'2c'b "D7"a4 |
+| "G"bc'ba "Em"b2ga | "Am"bc'a2 "B7"a2b2 | "Em"e2ed e2ed | "B7"g2gf "Em"e4 :|
+%%sep 1 1 500
+%%sep 1 1 500
+%%sep 3 1 500
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110246
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

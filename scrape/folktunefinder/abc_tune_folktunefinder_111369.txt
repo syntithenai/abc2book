@@ -1,0 +1,36 @@
+X:36
+T:Farewell to Ireland
+R:Reel
+M:C|
+Z:Lark camp handouts
+K:G
+"A"A,3C E3F|GEDB, G,A,B,G,|{G,}A,3C E3F|GED=F EA,A,G,|\
+A,3C E3F|GEDB, G,zgf|edeg a3f|gedB BAAB,||\
+A,3C EA,CE|GEDB, G,A, B,/2A,/2G,|~A,3C ~E3F|{G}FEDB, {C}B,A,{C}A,G,|\
+A,G,A,C EA,CF|G/2F/2E DB, DG, G, g|ede/2f/2g abaf|{a}gedB eA{d}Ag||\
+K:D
+"B"a3 a agef|g2af gede|agab agef|gedB BAAg|\
+agef g3e|dedB GABd|A/2A/2A cA Bdef|gedB BAA^g||\
+a2 Aa {b}agef|~g3a gedg|~a3b agef|{a}gedB {d}BAAa|\\
+{b}agef ~g3e|~d3B GABd|A/2A/2A c/2B/2A ecAa|gedB Aa^ga||\
+"C"eAc/2B/2A eAc/2B/2A|dGBG dBGd|eAc/2B/2A Bdef|gedB BAAa|\
+eAc/2B/2A eAc/2B/2A|d3B GABd|A/2A/2A c/2B/2A B/2c/2d eg|\
+{a}gedB Aa^ga||\
+eAA/2A/2A edce|dGG/2G/2G dGBd|eA c/2B/2A ec Aa|gedB {d}BA e/2f/2g|\
+eAc/2B/2A eAc/2B/2A|~d3B GABd|A/2A/2A {c}BA B/2c/2d ef|\
+{a}gedB {d}BAA^g||\
+"D"aece aece|gdBd gdBd|aece a3f|gedB BAA^g|\
+agef gage|d2dB GABd|A/2A/2A c/2B/2A Bdea|gedB BAA^g||\
+aece aece|gdBd gdBd|aece ~a3g|{a}gedB {d}B {A}B GB|\
+A~a3 ~g3e|~d3B GABd|A/2A/2A c/2B/2A B/2c/2d ef|gedB {d}BAAB,||
+S:https://www.folktunefinder.com/tunes/111369
+S:http://www.firepowr.com/abc/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

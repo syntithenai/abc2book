@@ -1,0 +1,22 @@
+X:11
+T:Chief O'Neill's Favourite
+Z: id:dc-hornpipe-10
+M:C|
+L:1/8
+K:D Mixolydian
+de|fefg afge|fde^c d=cAG|FADE FGAB|cAdc A2de|!
+fefg afge|fde^c d=cAG|FADF GBAG|F2D2 D2:|!
+DE|=FEDE FGAB|cAdB cAGc|Adde fded|cAdc A2de|!
+fefg afge|fde^c d=cAG|FADF GBAG|F2D2 D2:|!
+S:https://www.folktunefinder.com/tunes/100807
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

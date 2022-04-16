@@ -1,0 +1,61 @@
+X:44
+T:Just Before the Battle, Mother
+C:George F. Root
+C:Harmony by J. McDonagh
+%%staves [1 2 3 4]
+M:C
+Q:1/4=90
+L:1/8
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d3e  fA dc|cB3 z4|c3d   e_e  f=e  |d2       z6|
+d3e  fA dc|cB3 z4|c3d   e_e  f=e  |d2       z6|
+f3f  gf ed|Bd3 z4|e3f   ed   cB   |A6       C2|
+d3e  fA dc|cB3 z4|c3d   e_e  f=e  |d6       z|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!mp!F3G  AF AA|AG3 z4|E3F   GF   AG  |F2       z6|
+F3G  AF AA|AG3 z4|E3F   GF   AG  |F2       z6|
+A3A  BA AA|GB3 z4|A3A   GG   GG  |(A2F2G2) G2|
+F3G  AF AA|AG3 z4|E3F   GF   AG  |F6       z|
+V:3
+K:treble
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!A,3A, DD DD|DD3 z4|A,3A, A,A, A,A,|A,2      z6|
+A,3A, DD DD|DD3 z4|A,3A, A,A, A,A,|A,2      z6|
+D3D  DD DD|CD3 z4| C3C  A,A, ED  | C2D2E2  E2|
+A,3A, DD DD|DD3 z4|A,3A, A,A, A,A,|A,6      z|
+V:4
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!pp!D3D  DD FF|GG3 z4|A3A   AA   AA  |D2       z6|
+D3D  DD FF|GG3 z4|A3A   AA   AA  |D2       z6|
+D3D  DD FF|GG3 z4|E3E   EE   EE  |A6       A2|
+D3D  DD FF|GG3 z4|A3A   AA   AA  |D6       z|
+S:https://www.folktunefinder.com/tunes/114110
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

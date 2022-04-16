@@ -1,0 +1,25 @@
+X:39
+T:The Jig of Slurs
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/8
+L:1/8
+Q:3/8=120
+K:D
+B|A>dd dcd |B>dd A>dd|B>dd A>dd|B>ee edB |
+  A>dd dcd |B>dd A>dd|B>dd c>de|f>dd d2 :|
+B|A>ff fef |a>ff fed |B>ee ede |f>ee edB |
+  A>ff fef |a>ff fed |B>dd c>de|f>dd d2 :|
+B|G>gg gfg |a>gf gdB |G>gg gfg |a>gf g2B |
+  G>gg gfg |a>gf gdB |B>ee e>gg|f>dd e2 :|
+B|G>BB B>dd|d>ee edB |G>BB B>dd|d>ee e>gg|
+  G>BB B>dd|d>ee edB |B>ee e>gg|f>dd e2 :|
+% Polka
+% -----
+S:https://www.folktunefinder.com/tunes/99936
+S:http://www.campin.me.uk/Music/ScottishSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

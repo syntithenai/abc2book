@@ -1,0 +1,21 @@
+X: 41
+T: Nigun Bialik
+M:2/4
+L:1/8
+S:Pasternak / Great Songs of Israel
+Z:Seymour.Shlien:crc.doc.ca
+K:Dm
+|: "Dm" F>E DD | DDDD | "Gm" B B2 A/2G/2 | "Dm" A2 A2 | "A7" G>F EG | EG EG | "A7" A A2 G | "Dm" FE D z :|
+| "Dm" d4 | d4 | Adfe | A4 | Adfe | A4 | Adfe | dcBA | "C7" cc c/2/B/2/A/2G/2 |"F" A2 A2 |
+|:"C7" c z c>B | "F" AGAB |"C7" c c2 B|"F" AG F2 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110283
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

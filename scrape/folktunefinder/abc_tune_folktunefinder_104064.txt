@@ -1,0 +1,25 @@
+X:24
+T:Cassandre
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle coup
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:C
+c4 c2 c2 c4 c4 | de f2 c2 d2 A4 A4 :: f4 d2 d2 e4 c2 c2 |
+d2 d2 c2 d2 A3B c2 c2 | F4 F4 | GA _B2 G2 A2 D4 D4 ::
+S:https://www.folktunefinder.com/tunes/104064
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle coup
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

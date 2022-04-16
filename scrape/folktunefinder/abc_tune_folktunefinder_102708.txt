@@ -1,0 +1,70 @@
+X:35
+T:Serper
+O:russia
+C:trad. Kazachstan
+M:2/4
+L:1/8
+Q:1/4=120
+K:F
+V:1
+c2 z2 |c2 z2 |c2 z2 |z4 |
+FF (FG) |FF (FG) |
+M:3/4
+F2 cc c2 |c2 c2 z2 |
+M:2/4
+FF (FG) |FF (FG) |FF (FG) |(^GB) (cd) |
+_e_e (_ec) |ff (f_e) |ff (f_e) |z4 |
+FF (FG) |
+M:3/4
+F2 cc cc |1 c2 c2 z2 :|2 c2 c2 z2 || |:
+M:2/4
+c.^G .^G.c |.B.G .G.B |.^G.F .F.^G |.G._E ._E.F |
+(G2 ^G2) |^G^G ^G2 |^G^G ^G2 |(G2 ^G2) |
+M:3/4
+(G2 _E2) F2 |
+M:3/2
+(G2 _E2) F2 ^G2 (G2 _E2) |(C2 ^C2 _E2 F2) GG (GF) |
+M:2/2
+(_E2 C2) ^C2 F2 |
+M:2/4
+C2 z2 |C2 z2 :|C2 z2 |z4 |
+z4 |(G,2 B,2 |A,2 G,2) |(A,B, CD) |
+C2 z2 |(G2 B2 |A2 G2) |(AB cd |
+c2) z2 |ff g_e |f2 f2 |]
+V:2          %2
+FF (FG) |FF (FG) |FF (FG) |(AB) (cd) |
+c2 z2 |c2 z2 |
+M:3/4
+c2 ff g_e |f2 f2 (cd) |
+M:2/4
+c2 z2 |c2 z2 |c2 z2 |z4 |
+^G^G ^G2 |cc c2 |cc c2 |(AB) (cd) |
+c2 z2 |
+M:3/4
+c2 ff g_e |1 f2 f2 FG :|2 f2 f2 (F,G,) || |:
+M:2/4
+F,2 F,2 |F,2 F,2 |F,2 F,2 |F,2 F,2 |
+(F,2 ^C2) |^C^C ^C2 |^C^C ^C2 |(C2 ^C2) |
+M:3/4
+C4 C2 |
+M:3/2
+C4 C2 ^C2 C4 |(F,2 G,2 ^G,2 B,2) C2 C2 |
+M:2/2
+F,2 F,2 ^G,2 B,2 |
+M:2/4
+F,F, (F,G,) |F,F, (F,G,) :|F,F, (F,G,) |(A,B,) (CD) |
+C2 z2 |z4 |z4 |z4 |
+zF, F,F, |(G,2 B,2 |A,2 G,2) |(A,B, CD |
+C2) z2 |cc cc |c2 c2 |]
+S:https://www.folktunefinder.com/tunes/102708
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

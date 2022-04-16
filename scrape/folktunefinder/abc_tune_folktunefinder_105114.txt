@@ -1,0 +1,26 @@
+X: 60
+T: Bonnie Ship the Diamond
+M:4/4
+R:song
+L:1/8
+Z:added by Alf warnock alf0@rogers.com - http://members.rogers.com/alf0
+K:Am
+%%text Intro and after chorus
+|"Am"a4 "G"g4| "Am"e4 "Em"d4| "Em"e2d2 c2B2|"Am"A7||
+%%text Verse
+|:e|"Am"a2a2 e2^f2|"Em"g2^f2 e2g2|"Am"a2a2 e2^f2|"Em"g6e2|
+"Am"a2a2 e2^f2|"Em"g2^f2 e2eg|"Am"e2d2 "G"c2B2|"Am"A6:|
+%%text Chorus
+AB|"Am"c4 "G"B4| "Am"A4 e2g2|"Am"a4 "G"g2e2|"Am"a6 ab|
+"Am"c'2b2 a2g2|"Em"e2d2 c2d2|"Am"e2d2 "G"c2B2|"Am"A8|]
+S:https://www.folktunefinder.com/tunes/105114
+S:http://www.alfwarnock.info/alfs/abc/AlfSongs.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

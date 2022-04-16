@@ -1,0 +1,31 @@
+X:1
+T:Assim  o Maxixe
+O: Brazil
+M:C|
+L:1/8
+Q:1/2=88
+K:D minor
+P:A
+A AA | "Dm"dd dA ff fd- | "G"gg ge bb bg | "A" aa af gg ge | "Dm"ff f x x :|
+P:B
+|:c' c'c' | "C7"c'b bg gc' c'c' | "F"c'a af fa aa | "A7"ag ge eb ag |
+"Dm"a4 z c' c'c' | "C7"c'b bg gc' c'c' | "F"c'a af fa aa | "A7"ab ga fg ef | "Dm" d4 "Fine" z :|
+P:C
+K:D
+A Bc | "D"dd fe dd cB | "A" cc ed cc BA | "G"BB dc BB AG | "D" AA A z z :|
+P:D
+|:f ga | "G" b2 c'b c'b c'b | "D" a2 ba ba ba |1 "A7" g2 ag ag ag |"D"f4 z 
+:|2 "A7" g2 ag ag fe | "D"d4 z :|
+P:E
+K:Dminor
+d ed | "A" ^cc cc BB BB | "Dm" AA AA dd dd | "A7" ^cc cc ff ff | "Dm" d4 "Da capo al fine" z |]
+S:https://www.folktunefinder.com/tunes/127623
+S:http://www.laymusic.org/music/dance//maxixe.abc
+S:http://www.laymusic.org/music/dance/maxixe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

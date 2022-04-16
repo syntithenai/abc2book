@@ -1,0 +1,28 @@
+X: 7
+T: Ruddy Turnstone, The
+I: Ruddy Turnstone, TheJ-54D/Ajig
+I: Noel Stone's JigJ-54D/Ajig
+C: J. M. Graetz
+M: 6/8
+R: jig
+K: D
+AG|: "D"FGA A2A| "Em"B3- BAG| "D"FDF GAB| "A7"E3- EAG|
+"D"FDD D2A| "G"BGG "(Em)"EFG|1 "D"ABA AGF| "A7"E3- EAG :|2 "A7"ABA GFE| "D"D2E "E7"F2|]
+[K:A]|:^G| "A"A3 Bcd| e3- edc| "E"BGB dcB| "A"cBA "E"Bcd|
+    "A"ecc c2e| "Bm"fdd B2A| "E7"GEG dcB|1 "A"A2E "E7"F2 :|2                                         | "A"A2z "A7"=G3|]
+%%text Roaring Jelly  J-54
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/107140
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,104 @@
+X:17
+T:An almain
+T:An Almaigne
+C:Thomas Robinson, arr. Frank Nordberg
+O:England
+B:Thomas Robinson: "The Schoole of Musicke" (1603) no. 17
+R:Almain, allemande
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/robinson-thomas/robinson1603-17/robinson1603-17-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge up %Classical guitar
+V:3 Program 1 24 merge %Classical guitar
+V:4 Program 1 24 merge down %Classical guitar
+M:C
+L:1/8
+Q:1/2=100
+K:D -8va % F with capo on third fret
+V:1
+"^Capo III"a4f2ed|g2f2e4|f2d2g2f2|edcBA4|
+V:2
+c4d4|B2d2c4|d2z2Bcd2|z8|
+V:3
+A4A4|z4A4|A2z2z4|z8|
+V:4
+A,4D4|E2D2A,4|D2GFE2D2|A,8|
+%
+V:1
+ABcde2c2|defga2f2|g2f2ede2|z2d6|
+V:2
+z4A2A2|A3z z2d2|Bcd2 czc2|z2F6|
+V:3
+z8|z4z2A2|z2A2z2A2|z8|
+V:4
+z2A,2C2A,2|D3EF2D2|G2D2A2A,2|D4D4|
+%
+V:1
+a3g fdef|g2f2e3e|f2d2g3f|edcBA4|
+V:2
+c2z2z4|BcdB c4|d2z2B3d|A4z4|
+V:3
+z8|z4A4|z8|E8|
+V:4
+z2A2D4|E2D2A,4|zD GF zED2|A,8|
+%
+V:1
+ABcd e3c|defg a3f|g2f2 ede2|d4 d4||
+V:2
+z4z2G2|A2z2z4|B2d2 czc2|F4F4||
+V:3
+z8|z8|z4z2A2|z8||
+V:4
+z2A,B, CDE2|D3E FGA2|zG2D A2A,2|D2D6||
+%
+V:1
+e2cd e4|ABcd efg2|f2d2 g2f2|e6c2|
+V:2
+A8|z4z2Bc|d2z2BcdB|c6z2|
+V:3
+E8|z8|A2z2z4|A8|
+V:4
+A,6A,2|z2A,4E2|D2GF E2D2|A,2E2A,4|
+%
+V:1
+d4e4|f4g4|a2gf ede2|d4 d4|
+V:2
+z8|d4=c2B2|z4z2c2|F4F4|
+V:3
+z8|z8|z4z2A2|z8|
+V:4
+z2B,2 z2=C2|z2D2E4|F2G2 A2A,2|D2D6|
+%
+V:1
+e2cd e2F^G|ABcd efg2|f2d2 g2f2|e3/d/ cB A2Bc|
+V:2
+A6z2|z4z2Bc|d2z2BcdB|c3/z/z2z4|
+V:3
+E6z2|z8|z8|A4z4|
+V:4
+A,4-A,A,3|z2A,B, CDE2|zD GF E2D2|A,8|
+%
+V:1
+d3d e3e|f3f g3g|a2gf ede2|dc/B/ A/G/F/E/D4|]
+V:2
+z8|z8|z2B2z2c2|Azz2z4|]
+V:3
+z8|z8|z4z2A2|Fzz2z4|]
+V:4
+zGB,2 z=c=C2|zdD2 zBE2|zFG2 A2A,2|Dzz2z4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/109526
+S:http://abc.musicaviva.com/tunes/robinson-thomas/robinson1603-17/robinson1603-17-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/robinson-thomas/robinson1603-17/robinson1603-17-gtr2.abc
+% Rhythm Almain, allemande
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

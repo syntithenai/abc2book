@@ -1,0 +1,37 @@
+X:23
+T:Dedicado a Jos
+R:reel
+D:from La Boutine Souriante, "Je Voudrais Changer du Chapeau" album
+Z:Transcribed to abc by Debby Knight
+M:C|
+K:D
+F4|\
+"Bm"B3c d3e   |fgfd B3f |"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd B3f |"F#m"fgfd cedc |"Bm"B4 F4 |
+"Bm"B3c d3e   |fgfd Bfff|"F#m"fgfd c3f  |"Bm"fgfd  B2F2|
+"Bm"B2Bc dcde |fgfd Bfff |"F#m"fgfd cedc |"Bm"B4 "A7"A4  |]
+\
+%%textfont Times-Bold 10.0
+%%text Part B
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d3A "A7"BAFA  |"D"d2FF F4 |]
+%%vskip .5cm
+%%text Last B
+"D"f8 |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4- |a2g2 f2e2|"D"f2df dfdf |"A7"cfcf B2A2|
+"D"f8  |"G"g4^g4 |"A7"a3a a4-  |a2g2 f2e2| a3a a4-  |a2g2 f2e2|"D"d2 "A7"A2 |"D"d2   |]
+%%vskip .5cm
+%%text B Harmony
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"f2df dfdf |"A7"cfcf B2A2|
+F8  | G4^G4 | c3c c4- |c2B2 A2G2 | c3c c4- |c2B2 A2G2 |"D"d3A "A7"BAFA |"D"d2FF F4   |]
+%%textfont       Times-Bold 14.0
+%%newpage
+%%text 10
+S:https://www.folktunefinder.com/tunes/106811
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

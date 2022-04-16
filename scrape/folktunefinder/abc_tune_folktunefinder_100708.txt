@@ -1,0 +1,23 @@
+X:110
+T:Home Ruler
+R:hornpipe
+Z:Boston sessions
+M:4/4
+L:1/8
+K:D
+FE|"D"D2FA D2FA|dfed "G"BcdB|"D"A3B AFDE|FDED B,DA,B,|
+"D"D2FA D2FA|dfed "G"BcdB|"D"A3B AFDE|F2D2 D2:|
+AB|"D"d3c defg|"D"af"G"bf "D"afed|"Em"efed BA (3Bcd|"D"fded "A7"BdAB|
+"D"d3c defg|"D"af"G"bf "D"afed|"Em"efed BA (3dcB|"A7"AFEF "D"D2:|
+S:https://www.folktunefinder.com/tunes/100708
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

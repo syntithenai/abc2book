@@ -1,0 +1,25 @@
+X:230
+T:Last Night's Fun
+C:Trad
+S:Vesey \& Brady: The First Month of Spring
+M:4/4
+D:anop=B000006N1R(River Reel: River Reel)
+D:asin=B000000E8P(John Carty: Last Night's Fun)
+D:asin=B000005CPQ(John Williams: John Williams)
+K:D
+dB |: AD (3FED A2 (3Bcd | AD (3FED EFGB | AD (3FED A2 (3Bcd |\
+(3efg fe dB B2:|\
+dff2 aff2 | dff2 egfe | eff2 aff2 | (3efg fe dB B2 |\
+dff2 aff2 | eff2 e2 fg | (3agf bf afeg | (3fgf ed BcdB ||
+S:https://www.folktunefinder.com/tunes/111575
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

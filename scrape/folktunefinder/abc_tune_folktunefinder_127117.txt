@@ -1,0 +1,23 @@
+X: 1
+T: Asher Bara #2 (A)
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+|: "A"A>B cc  |    cc/c/ cc \
+| "E7"Bd  cB  | "A"e2    e2 \
+|  "A"A>B cc  |    cc/c/ cc \
+| "E7"Bd  cB  | "A"A2    z2 :|
+|: "A"e   c3  |    e  c3    \
+| "E7"Bd  cB  | "A"e2    e2 \
+|  "A"ec- c>c |    e  c2 c  \
+| "E7"Bd  cB  | "A"A2    z2 :|
+S:https://www.folktunefinder.com/tunes/127117
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AsherBara2_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AsherBara2_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

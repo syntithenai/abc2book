@@ -1,0 +1,27 @@
+X: 2
+P: Angus Campbell (The Laird o' Drumblair)
+C: J.S.Skinner
+B: Harp & Claymore, p.93, p.94; SV p.13; Hunter #134, #224; Hebert p.8; BSFC IV-20.
+N: Skinner also published this tune as the strathspey/shottish "Laird o' Drumblair".
+R: reel
+R: 4/4
+L: 1/8
+K: A
+[| E2 \
+| "A"~A2cA EAce | {g}a2ga faec | "D"d2Bd "A"c2Ac | "Bm"BFBA "E7"GBEG |
+| "A"~A2cA EAce | {g}a2ga faec | "D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+|: (3efg \
+| "A"{g}a2ea caAa | cAeA aAca | "Bm"{^a}b2fb dbBb | dBfB "E7"bBdg |
+| "A"{g}a2ea caAa | cAeA aecA |"D"defd "A"ceaf | "E7"ecdB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/118793
+S:http://trillian.mit.edu/~jc/music/book/500/LairdAngus.abc
+% Rhythm 4/4
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

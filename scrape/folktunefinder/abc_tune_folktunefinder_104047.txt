@@ -1,0 +1,25 @@
+X:7
+T:La traditore my fa morire
+M:3/4
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:gaillarde
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+| d2 d2 c2 B4 A2 | A2 G2 G2 F4 D2 | d2 d2 c2 B4 A2 | G2 G2 F2 G4 z2 ::
+| A2 A2 A2 c4 c2 | c2 c2 c2 d4 d2 | d2 d2 c2 B4 A2 | G2 G2 F2 G4 z2 ::
+S:https://www.folktunefinder.com/tunes/104047
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Gaillarde
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

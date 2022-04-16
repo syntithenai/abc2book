@@ -1,0 +1,25 @@
+X:15
+T:Rosemary Lane
+K:D
+M:6/8
+L:1/8
+FEF DFA|dce dcB|AdB AFD|EFD EAG|
+FEF DFA|dce dcB|Ade faf|gec d z G|
+FFF DFA|dce dcB|Ade AFD|E2 D EAG|
+F=F^F DFA|dce dcB|Ade f/g/af|gec d2 f ||
+a^ga fef|gfg efg|fed Bcd|ecB ABc|
+dcd AFA|Bed cBA|faf gec|edc dfg|
+aaa fff|ggg efg|fed Bcd|ecB ABc|
+ddd AFA Bed cBA|f/g/af gec|edc d z G |>|
+S:https://www.folktunefinder.com/tunes/120937
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

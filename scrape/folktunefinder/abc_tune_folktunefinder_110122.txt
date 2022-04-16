@@ -1,0 +1,25 @@
+X:75
+T:The Merry Hop
+C:John Young, 1728
+L:1/4
+M:3/2
+%%MIDI gchord czc
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=94
+K:F
+P:A
+|: "F"fg/f/"C"ef/e/"Bb"d2 | "F"cf-"Bb"fd"F"cB/A/ | "Gm"Bc/B/"F"AB/A/"C"G2 | "F"CF- "^/"FA"C7"GF :|
+P:B
+|:"F"F/G/A/B/ "^/"cF "^/"c2 | "C7"EG- "^/"GB "^/"AG/F/ | "F"F/G/A/B/ "^/"cF "^/"c2 | "F"CF- "^/"FA "C7"GF:|
+S:https://www.folktunefinder.com/tunes/110122
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

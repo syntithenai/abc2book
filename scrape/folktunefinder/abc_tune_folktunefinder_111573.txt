@@ -1,0 +1,36 @@
+X:220
+T:Windmill, The
+M:4/4
+R:Reel
+S:Altan: Island Angel
+C:Ciaran Tourish
+Z:Altan plays this in a great set on 'Island Angel':
+Z:<ceili:44>, <ceili:45>, <ceili:46>.
+Z:Source: Irtrad 95-11-25 - Dwight Muller, dwightm@AZTEC.CO.ZA
+D:asin=B000005CQH(Altan: The Best Of Altan)
+D:skip=B0000001Q4(Lee Ritenour: Portrait)
+D:skip=B00000185J(Black Market Jazz Orchestra: Art Attack)
+D:skip=B000001WYV(Lorelei: Everyone Must Touch The Stove)
+D:skip=B00000202G(Michael Atherton: Windshift)
+D:skip=B0000033OL(Various Artists: Global Gumbo: Modern Roots Music From Around... [IMPORT])
+D:skip=B000003JGJ(Chevelles, et al: Pop On Top!: The Cream Of Australia's Power Pop Crop)
+D:asin=B000005CP2(Altan: Island Angel)
+D:asin=B00000DCW4(Various Artists: Joyful Noise: Celtic Favorites From Green Linnet)
+K:D
+|:d2 fd ceAc|dBGB AFDE|FB ~B2 Adfd|eAce afge|\
+d2 fd ceAc|dBGB AFDF|GFGA Bdfa|1gece d2 (3ABc:|2gece defg|:\
+eA ~A2 a3 f|gA ~A2 dFAd| ~B2 AB G3 F|EB,EF GABc|\
+dA ~A2 eAaA|fddc dfed|cdef gfga|1gece defg:|2gece dz3||
+S:https://www.folktunefinder.com/tunes/111573
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

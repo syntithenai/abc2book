@@ -1,0 +1,22 @@
+X: 4
+T:Mermaid, The
+M:4/4
+L:1/8
+Q:120
+K:C
+GG|"C"e2 ed c3 c|"F"dcBA "C"G2 GG|"F"A2 c2 "G"c2 BB|"C"c6 GG|
+e2 ed c2 cc|"F"dcBA "C"G2 GG|"F"A2 cc "G"c2 BB|"C"c4 z c2 c|
+G3 G A2 G2|c4 z c2 d|e3 e e2 c2|"G"d6 z G|
+"C"e2 ed c2 cc|"F"dcBA "C"G2 GG|"F"A2 c<c "G"c2 BB|"C"cdef g2 GG|
+"F"A2 c<c "G"c2 B>B|"C"c6:|
+S:https://www.folktunefinder.com/tunes/120502
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

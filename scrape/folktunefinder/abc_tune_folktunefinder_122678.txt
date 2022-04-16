@@ -1,0 +1,27 @@
+X: 8
+T: Arap
+O: Macedonia
+M: 4/8
+L: 1/16
+Q:1/4=114
+K: CDor
+|:B,CCB,  CB,CD        |E/F/E/F/E/F/E/F/  D2z2|B,CCB,  CB,CD         |
+  E/F/E/F/E/F/E/F/ D2z2| B,CCB,  CB,CD        |E/F/E/F/E/F/E/F/  D2z2|\
+  B,CCB,  CB,CF        |C8                    :|
+  F2G2G2F2             |.G4.F4                |D2E2E2D2              |\
+  .E4.D4               | B,2C2C2B,2           |.C4.B,4               |
+  B,2C2C2B,2           |.C4.B,4               | B,2C2C2B,2           |\
+  .C4.B,4              | B,2C2C2B,2           |.C4.B,4               |
+  B,2C2C2B,2           |.C4.B,4               |B,2C2C2B,2            |\
+  .C4.B,4              |E2F2 D2C2-            |C6z2                  |
+S:https://www.folktunefinder.com/tunes/122678
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Arap.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Arap.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/8
+% Has_accompaniment_chords No chords

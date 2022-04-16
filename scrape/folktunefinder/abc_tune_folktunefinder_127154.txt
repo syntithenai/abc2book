@@ -1,0 +1,29 @@
+X: 5
+T:Spot Hornpipe,aka. FK.05
+M:C|
+L:1/8
+Q:160
+C:"Swallow's MS p.4" identical to FK.23
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:No name in MS.My title. CGP
+Z:vmp.John Bagnall
+K:C
+G2 | c>Bc>d e2 d>c | B>cd>e f2 e>d | c>Bc>d e2 d>c | B<d G2 B<d G2 |!
+  c>Bc>d e2 d>c |B>cd>e f2 e>d | e>ge>c | d>fd>B | c2 c2 c2 ::!
+e>f | g>eg>e c'2 g>e | b>ga>f c'2 b>f | e<g c2 e<g c2 | B<d G2 B<d G2 |!
+g>eg>e c'2 ge | b>fb>f c'2 b>f | e>ge>c  d>fd>B | c2 c2 c2 :|]
+S:https://www.folktunefinder.com/tunes/127154
+S:http://www.village-music-project.org.uk/abc/fkhp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

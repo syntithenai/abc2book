@@ -1,0 +1,23 @@
+X:144
+T:Lancaster Lasses
+R:Minuet
+M:6/8
+S: Northern Frisk
+L:1/16
+K:DDor
+A2 | d3^cd2  A4 d2 | e3de2  A4 e2 |f3gf2  e4 d2 | ^c3de2  A4 e2 |
+f3ef2  c4 f2 | g3fg2  e2f2g2 |a3gf2  cf3e2 |1 d6  d6 :|2 d6  d3|]
+ |:efg| a3cc2  c3dc2|  c6 B4 g2| g3_BB2  _B3cB2| _B6  A4 f2 |
+f3gf2  e3fe2 | d3ed2  ^c3efg| a3gf2  cf3e2 |1 d6 d3 :|2 d6 d6 |]
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119401
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

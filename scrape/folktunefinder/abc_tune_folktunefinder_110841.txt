@@ -1,0 +1,26 @@
+X:2
+T:Mon desir
+T:(Basse dansse 10)
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+M:C
+L:1/4
+T: Altus
+N:Original clef, C on fourth line
+K:C -8va
+%%MIDI transpose -12
+G4A2B2|c2G2A2B2|d3c/2B/2A3B|c4z4|B6c2|c2A2A2G2|A2F2G4|E4z4:|
+|:A3G/2F/2E2c2|B4z2e2|f2e2d4|B4z4::z2d2e2e2|c3de4|z2e2e2e2|c3de4|
+z2e2e2e2|c3de4|z2c2c2A2|G4G4::z4c4|c2c2c3B|A4G4|G4E4:|
+S:https://www.folktunefinder.com/tunes/110841
+S:http://www.laymusic.org/music/susato/10/allparts.abc
+% Rhythm Basse dance
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

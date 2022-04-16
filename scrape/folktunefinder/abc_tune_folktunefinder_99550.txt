@@ -1,0 +1,39 @@
+X:21
+T:Ronde - Mon Amy
+R:
+C:Tielman Susato
+H:
+N:16
+B:
+O:Flandres
+A:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=110
+K:C
+%%staves 1 (2 3 4)
+V:1
+DDAA | c B/A/ BA | c>B AG | A>G FE :: (A/G/)A/B/ c>B | AGFD |
+G>E FD | (A/G/)F/E/ F2 :: "/.../"x
+V:2
+%%MIDI transpose -12
+dd f/e/ f/g/ | a-a/g/4f/4 ga | cg f/d/e | e>d c2 :: c/B/ c/d/ e>d | ee d/e/f/e/ |
+de>d d-|d ^c d2 ::
+V:3
+%%MIDI transpose -12
+A2 dd | ccec | e>d c/A/B | c>B AA :: AAEA | c>B A2 | E>E ""z F | E2F2 ::
+V:4
+%%MIDI transpose -12
+D2 DD | A,2 EF | C2 FE | A,A, A,2 :: F3/2 (E/4D/4) C A,-|A,/B,/ C D D |
+G,C D2 | A,2 D2 ::
+S:https://www.folktunefinder.com/tunes/99550
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

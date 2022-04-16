@@ -1,0 +1,28 @@
+X:501
+T: Xiao fangniu
+N: C1169
+O: China,Hebei
+S: IV, 82]
+R: Tanzlied, Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+c2A2c4 | z2d4c2 | A3cd2f2 | c2A2G4
+c2A2c3A | G2c2A2G2 | F2G2F2D2 | C6D2
+F2D2F4 | z2d4c2 | A3cd2f2 | c2A2G4
+c2A2c3A | G2c2A2G2 | F3GA2c2 | G2F2D2F2 | C8
+c2A2c3A | G2c2A2G2 | F3GA2c2 | G2F2D2F2 | C8
+S:https://www.folktunefinder.com/tunes/112928
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Tanzlied, xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

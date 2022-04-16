@@ -1,0 +1,21 @@
+X:18
+T:Kafoozalum
+R:hornpipe
+O:England, Wales
+Z: John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+K:D
+|: &quot;D&quot;a2 a>g f>g a2 | &quot;A7&quot;e>f g>f e>f g2 \
+| &quot;D&quot;a2 a>g f>g a2 | d>e f>d &quot;A7&quot;e2 &quot;D&quot;d2 :|
+|: &quot;D&quot;f>d A>d f>d f2 | &quot;A7&quot;g>e c>e g>e g2 \
+| &quot;D&quot;f>d A>d f>d f2 | d>e f>d &quot;A7&quot;e2 &quot;D&quot;d2 :|
+S:https://www.folktunefinder.com/tunes/109456
+S:http://jodeejames.home.att.net/desertwelsh1.htm
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 41
+T:Hessian Dance,(top part). JB.41
+T:Hessian's Camp,The,aka. JB.41
+M:3/8
+L:1/8
+Q:30
+S:James Biggins MS, Leeds, 1779.
+R:Misc.
+O:England
+A:Yorkshire
+N:Vickers has the same tune in a 6/8 setting, suggesting that a good look
+N:might be had at some otherwise innocent looking 6/8 tunes, to see if
+N:they might work as brisk 3/8 waltzes.CGP.
+Z:
+Z:vmp.Nick Barber & Chris Partingto
+K:G
+gdB|G/F/G/A/ G|DEF|G/F/G/A/ G|gdB|G/F/G/A/ G|DEF|G3:|!
+|:def|g2e|f/a/g/f/e/d/|e/g/f/e/d/^c/|def|g2c|BA/G/A/F/|G3:|!
+|:g|d2e|B2c |AGF|GDg|d2e|B2c|AGF|G3:|]
+S:https://www.folktunefinder.com/tunes/105941
+S:http://www.village-music-project.org.uk/abc/biggins.abc
+% Rhythm Misc.
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

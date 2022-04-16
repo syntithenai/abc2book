@@ -1,0 +1,19 @@
+X:97
+T:Jump at the Sun                                                                                   
+N:John Kilpatrick                                                                                   
+M:6/8                                                                                               
+K:Dm                                                                                                
+L:1/8                                                                                               
+DFA ^G2 A|DFA ^G2 A|dAA dAA|BAG FGE|\                                                               
+DFA ^G2 A|DFA ^G2 A|dAA BAG|FGE D3 :|                                                               
+|: dAA def|eAA gfe|dAA def|eAA B2 A|\                                                               
+dAA def|eAA gfe|dAA BAG|FGE D3 :|
+S:https://www.folktunefinder.com/tunes/120885
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

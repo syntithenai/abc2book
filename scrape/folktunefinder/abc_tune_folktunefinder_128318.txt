@@ -1,0 +1,30 @@
+X:55
+T:John Roy Stewart
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/11/04
+N:Petrie's Second Collection, page 19
+% Gore's Index is unclear on this tune, but it appears
+% in several sources published around this time
+L:1/8
+M:C
+R:Strathspey
+K:F
+f|c>BA>G F>G A2|c<FA<F c<FA<f|c>BA>G F>GA<F| Dc  d3   :|f|
+  c>df>g a>fg<a|f<cc>A f<cc>f|c>df>g a<fg>a| d<gTg>f d2 d>f|
+  c>df>g a<fg>a|f<cc>A f<cf<g|a<fg<a F>GA<F|.D<dTd>c d3   |]
+S:https://www.folktunefinder.com/tunes/128318
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/John_Roy_Stewart.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/55.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

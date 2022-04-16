@@ -1,0 +1,22 @@
+X: 17
+T:Three-Day Holiday, The
+R:hornpipe
+C:Tony Upton, 4/2/99
+M:4/4
+L:1/8
+Q:1/4=160
+K:A
+A2EC A,2 (3CDE|ACEC A,CEC|~B,2DB, (3DEF EA|BEAE F2CB,|
+A,2EC A,2EC|A,CEC ACEC|~B2dB ~A2cA|(3cBA EB A2A2:|
+A2CE A,2CE|(3AGF CE A,2CE|B2DF B,2DF|BFAE F2CB,|
+A,2CE A,2CE|A,CEC ACEC|~B2dB ~A2cA|(3cBA EB A2A2:|
+%%text This tune, as you might guess from the title, was inspired by a t
+S:https://www.folktunefinder.com/tunes/112416
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Tony.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

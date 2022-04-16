@@ -1,0 +1,26 @@
+X: 201249
+T: Thadelo Sullivan's #2
+S: "Johnny O'Leary of Sliabh Luachra" (#184)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+N: This is in fact a "single" hornpipe (i.e., no repeats).
+K: D
+(3ded ef g2 fg|(3efg ed B4|dcdB A2 A2|dedB A4|
+d2 ef g2 fg|(3efg ed B4|dcde dBAB|G4 G3B ||
+d2 BB BABd|e2 A2 A4|d2 BA-AGA=c|B2 G2 G3e|
+d2 BB BABd|e2 A2 A4|dcde dBAB|G4 G4 ||
+S:https://www.folktunefinder.com/tunes/126833
+S:http://www.qmcorp.net/webabc/collections/jol2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

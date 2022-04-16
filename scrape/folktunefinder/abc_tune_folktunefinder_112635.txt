@@ -1,0 +1,31 @@
+X:208
+T: Shili changchong hao fengguang
+N: C0336
+O: China,Anhui, Lujiang(Sued)
+S: III, 524]
+N: alte Melodie, neuer Text
+N: Vereinzelt Verzierungen. Vor- und Nachspiel weggelassen.
+R: Xiaodiao. Xin minge]
+M: 2/4
+L: 1/16
+K: G
+A2B2d2e2 | B6d2 | A2B2d2e2 | B8
+A3dd2B2 | A2G2E2D2 | G2GEG2B2 | A8
+G4A4 | E3GD2E2 | G2E2G2B2 | A8
+D4D2E2 | G4G2E2 | A2d2B2A2 | G8
+d4d2B2 | B2A2G4 | A2BAG2E2 | E2G2E3D | E8
+B2B2B2d2 | e4d2B2 | A2B2d2e2 | B2A2G2E2 | A4
+A4 | B2ABd2B2 | A6B2 | A2G2A4
+S:https://www.folktunefinder.com/tunes/112635
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

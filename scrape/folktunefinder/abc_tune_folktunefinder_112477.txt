@@ -1,0 +1,26 @@
+X:50
+T: Zhi shoujin
+N: C0067
+O: China,bei Qinghai, Osten
+S: I, 260]
+R: Xiaodiao, Mengjiangn diao. Fun Shenghuo]
+M: 2/4
+L: 1/16
+K: F
+c2cAc4 | cdf4df | c2dfdcAG | F2GAG2GA | c2dfdcAG | F2GAG4
+c2GAc2c2 | c2CDF2G2 | A2AcFGFD | C4C4
+F2FFD2F2 | G2A2G3A
+c2GAc4 | c2CDF3G | A2AcFGFD | C4C4
+S:https://www.folktunefinder.com/tunes/112477
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, mengjiangn diao. fun shenghuo]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

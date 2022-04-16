@@ -1,0 +1,27 @@
+X: 13
+T:Fisher's Hornpipe
+% Nottingham Music Database
+S:BSDB, KCC p22
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+(3ABc|"D"dAFA "G"GBAG|"D"FAFA "G"GBAG|"D"FDFD "A7"GEGE|"D"FDFD "A7"EA(3ABc|
+"D"dAFA "G"GBAG|"D"FAFA "G"GBAG|"D"FAdA "A7"fedc|"D"d2f2 d2:|
+P:B
+cd|"A7"ecAc ecge|"D"fdAd fdaf|"A"ecAc ecgf|"E7"edcB "A"A2A2|
+"G"BGDG BGdB|"D"AFDF AFdA|"G"BdcB "A7"AGFE|"D"D2F2 D2:|
+S:https://www.folktunefinder.com/tunes/129805
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/hpps.txt
+S:http://www.guitarnut.com/nmd/hpps.txt
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

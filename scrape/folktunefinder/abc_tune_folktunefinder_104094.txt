@@ -1,0 +1,40 @@
+X:3
+T:Courante (suite en La mineur)
+R:Courante
+G:guitare
+C:Robert de Vise
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:3/2
+L:1/8
+Q:1/4=95
+K:C
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+[Ace] | [E3A3c3e3] (f e)d !trill!c2A3 a | ^g4 z2a2 b3 b |
+([e2b2]c')(b a)g (fe) [d2f2] z e | !trill!d3d g2 c2 !trill!B3c | d6 d2d2 [^c2e2] | "/.../" z4
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+E | A6 A6 | [B3e3] f (ed) c2 [^G4d4e4] |
+[A6c6] z2A2 c2 | B6 A2 G4 | [D3G3B3] G (FE) F4 E2 |
+S:https://www.folktunefinder.com/tunes/104094
+S:http://www.icking-music-archive.org/scores/visee/visee_suite_Am.abc
+% Rhythm Courante
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

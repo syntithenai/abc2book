@@ -1,0 +1,31 @@
+X:108
+T:Le chant des livres
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n108
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=135
+K:G
+B2 B B | {Bc}B3 A | G4 | A2 A A | B3 A | GF E2-|E2 z2 |
+ E ^D E F | G2 F E | G2 A2 | B2-B z | B A B c | B A G F |
+G2 F2 | E4 || B2 B c | B3 A | G4 | A2 A A | B3 A | G-F E2-|E zz B, |
+E ^D E F | G F G E | G2 A2 | B4 | B A B c | B-A G F | G2 F2 | E4 ||
+W:Ouvrez la porte, Ouvrez, Franoise ma mignonne
+W:J'ons un biau bouquet  vous prsenter
+W:Hlas ma mignonne laissez-nous entrer
+W:- Mon pre est en chagrin ma mre en grand tristesse
+W:Et moi je suis une fille de trop grand merci
+W:Pour ouvrir la porte  cette heure-ci./.../
+S:https://www.folktunefinder.com/tunes/119662
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

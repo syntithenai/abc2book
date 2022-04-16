@@ -1,0 +1,55 @@
+X:4
+T:Basso, Primo Coro, Canzon septimi toni a 8, from Sacrae Symphoniae (1597)
+C:Giovanni Gabrielli (1557-1612)
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:4/2
+L:1/2
+K:C bass
+g/g/e/c/gz |z/f/e/c/d/B/c/d/ |Gzzz/d/ |g//g//g//g//g/g/c>c' |
+f//f//f//f//f/d/a>d |a6 d2 |
+M:3/2
+L:1/2
+gge |d>cB |cAd |G2z |dda |d2A |d/e/f/g/a |d2z |ggc' |f2f |aa2 |
+M:4/2
+L:1/2
+dd'b>c' |d'2bG |ccfd |a2e4A2 |z4 |
+z2aa/a/ |d/>d/e/>e/A2 |e/e/>e/e/a/a/^g/a/ |d/=g/^f/g/c/=f/e/f/ |
+deA2 |z4 |z2zz/A/ |d>dGg |ecf2 |
+dd'bg |g3c |g2cc' |g/a/>a/e/fc/c/ |
+f/d/czz/c'/ |a/f/c'zz/c'/ |d'c'ba |bd'g2 |z4 |
+z2zd |G2c2 |zGd3dg2 |c'c'/c'/_bb |
+a2z2 |z2z/e/f |d/ec/d/>c/B |A/a/^g/a/f//d//f//=g//a |
+z2z/a/e |azz/a/^g/a/ |ezze |b4 |
+M:3/2
+L:1/2
+e2z |aa^f |g>ge |=ffd |e>ec |ddB |c>cA |BBB |A2e |Ae2 |
+M:4/2
+L:1/2
+a2dd/d/ |_bfa2 |z/a/_b/>g/a/>=b/c' |fzz2 |
+z/f/gad' |a4 |Hd2z2 |g/g/e/c/gz |z2z/g/e/c/ |
+d/B/c/d/G>G |c//c//c//c//c/c/fd |cdA6 |
+dgd3dgg |c//d//e//f//g//e//b//g//c'g |c4 |Hg4 |]
+% Copyright (C) 1999  Laura E. Conrad lconrad@world.std.com
+% 233 Broadway, Cambridge, MA 02139, USA
+%
+%    This information is free; you can redistribute it and/or modify it
+%    under the terms of the GNU General Public License as published by
+%    the Free Software Foundation; either version 2 of the License, or
+%    (at your option) any later version.
+%    This work is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+%    You should have received a copy of the GNU General Public License
+%    along with this work; if not, write to the Free Software
+%    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+S:https://www.folktunefinder.com/tunes/110369
+S:http://www.laymusic.org/music/gabrielli/secondo/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 4/2
+% Has_accompaniment_chords No chords

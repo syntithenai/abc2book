@@ -1,0 +1,27 @@
+X:21
+T:Mdel, schau mir ins Gesicht !
+R:
+O:Deutschland
+B:Frau Nachtigall (Straburg - 1928)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+N:p.54
+M:2/4
+L:1/8
+Q:1/8=160
+K:G
+   d>B | "G" G G "D7" A A/B/ |\
+G2 d>B | "G" G G "D7" A A/B/ | "G" G2 F/G/ A/B/ |
+"D" c A "G" B G | "D7" A D F/G/ A/B/ |\
+"D" c A "G" B G | "D7" A D B>c | 
+"G" d d B>c | "G" d "C" ((3ec A) |
+"G" ((3dB G) "D" ((3cA F) | "G" G2 ||
+S:https://www.folktunefinder.com/tunes/119861
+S:http://anamnese.online.fr/abc/nachtigl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

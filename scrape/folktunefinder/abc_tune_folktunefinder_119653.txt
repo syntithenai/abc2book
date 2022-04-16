@@ -1,0 +1,31 @@
+X:97
+T:Il nous faut des tondeurs
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n97
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=150
+K:C
+A c3 d | e4 f4 | e3 c d3 e | A3 A c2 d2 | e4 f4 | (e2d) c d3e | A6 e2 | 
+d3c B3d | c3B A3c | B3A G3A | G3F E3E | A3B B3c | c4B4 | e4e3e | B3c d3d |
+c3c B3d | c3c B3G | A3B B4 | A6z2 ||
+W:Il nous faut des tondeurs dans nos maisons :
+W:C'est pour tondre la laine  nos moutons.
+W:  Tondre la nuit, tondre le jour,
+W:  et tondre tout le long du jour,
+W:  Et toute la semaine ;
+W:  Et puis les compagnons viendront
+W:  Qui tonderont la laine !
+S:https://www.folktunefinder.com/tunes/119653
+S:http://anamnese.online.fr/abc/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

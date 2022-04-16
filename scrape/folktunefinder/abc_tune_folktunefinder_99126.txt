@@ -1,0 +1,35 @@
+X:11344
+T:Mrs. MacPherson of Inveran
+R:reel
+C:P.M. G. S. 
+M:C|
+L:1/8
+K:D
+g "A"|\
+"D" f2 a>f d<f A>f | f2 a>f "A7"f>e e>f | "A7"e2 g>e c<e A>c | e2 fg "D"f>d "G"d>g |
+"D" f2 a>f d<f A>f | f2 a>f "A7"f>e e>f | "A7"e2 g>e c<e A>c | e2 fg "D"f>d d>A |
+"B"|\
+"D"d2 A>d d<f A>d | d2 A>d "A7"d>c c>d | "A7"c2 A>c c<e A>c | c2 A>c "D"e>d d>A |
+"D"d2 A>d d<f A>d | d2 A>d "A7"d>c c>d | "A7"c2 A>Bc>d e>f | g>f e<a "D"f>d "G"d>g |
+"C"|\
+"D"f2 g>f a>f f>g | a>f f>g "A7" f>e e>f | "A7"e2 f>e g>e e>f | g>e e>f "G"e>d d>g |
+"D"f2 g>f a>f f>g | a>f f>g "A7" f>e e>f | "A7"e2 f>e g>e e>f | g>e e>f "D"e>d d>A |
+"D"|\
+"D"d2 A>d f<a e>f | d<f e>d "A7"d>c c>d | "A7"c2 A>c e>g d<f | c<e B>c e>d d>A |
+"D"d2 A>d f<a e>f | d<f e>d "A7"d>c c>d | "A7"c2 B>c A>c e>g | "D"f<a c<e "G"e>d d>g |
+"E"|\
+"D"f2 e>d a>f f>g | a2 gf "A7"f>e e>f | "A7"e2 d>c g>e e>f | g2 f>e "G"e>d d>g |
+"D"f2 e>d a>f f>g | a2 gf "A7"f>e e>f | "A7"e2 d>c g>e e>f | g2 f>e "D"e>d d>A |
+"F"|\
+"D"d2 A>d f2 d<f | "G"g>f e>d "A7" d>c c>d | "A7"c2 A>c e2 c<e | g>e d>c "D"e>d d>A |
+"D"d2 A>d f2 d<f | "G"g>f e>d "A7" d>c c>d | "A7"c<A "E7"d>B "A7"e>c "Bm" f>d | "A7"g>e d>c "D"e>d d ||
+S:https://www.folktunefinder.com/tunes/99126
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 2
+T: Hills of Glenurchie
+I: Hills of GlenurchieJ-31Emjig
+%%musicspace0.0cm
+M: 6/8
+R: jig
+K: Em
+d| "Em"BGE EFE| BAB d2B| "D"AFD DED| AFA ded|
+   "Em"BGE EFE| BAB d2e| "D"dBd AFD| "Em"EFE E2:|
+|:B| "Em"efe edB| efg "A"gfe| "D"ded dAB| def fed|
+   "Em"efe edB| efg "A7"gfe| "D"dBd AFD| "Em"EFE E2:|
+%%text Roaring Jelly  J-31
+S:https://www.folktunefinder.com/tunes/107060
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

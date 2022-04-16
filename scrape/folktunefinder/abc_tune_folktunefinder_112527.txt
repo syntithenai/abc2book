@@ -1,0 +1,26 @@
+X:100
+T: Haolang haojie bu yong mei
+N: C0128
+O: China,Hunan, Sanzhi
+S: I, 540]
+R: Shange]
+M: 4/4
+L: 1/16
+K: D
+A2A2B2d2e6d2 | B2e2d4B4A4
+d2BAd2d2Bde2d4 | d2BAGAB2A8
+A2A2A2B2e6d2 | B2e2d4B4A4
+BdBAd2d2Bde2d4 | A2BdB4A8
+S:https://www.folktunefinder.com/tunes/112527
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

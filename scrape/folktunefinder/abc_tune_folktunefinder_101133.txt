@@ -1,0 +1,23 @@
+X: 47
+T:The Tempest
+M:4/4
+L:1/4
+S:Dorset version
+K:G
+D|GD D/2D/2 D|BG G/2G/2 G|ADEF|G/2F/2G/2A/2 BA|
+ |GD D/2D/2 D|BG G/2G/2 G|ADEF|G2 G B/2c/2|
+ |dB BG|A/2G/2F/2E/2 D B/2c/2|dB BG|A/2G/2 F/2E/2 DD|
+ |GD D/2D/2 D|BG G/2G/2 G|AD EF|G2 GD|
+ |GBd2|decd|cA BG |A/2G/2F/2E/2 D|
+ |GBd2|decd |BcAF|DG2G|
+ |Bc AF |D G/2A/2 B/2c/2 d|BcAF|D G/2A/2 B/2c/2 d|
+ |DGBd2|decd |BcAF|DG2G|
+S:https://www.folktunefinder.com/tunes/101133
+S:http://www.banjolin.co.uk/tunes/pvs_english.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

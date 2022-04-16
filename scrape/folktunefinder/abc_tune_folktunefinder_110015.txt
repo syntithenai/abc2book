@@ -1,0 +1,24 @@
+X:77
+T: Erloesung vom Galgen
+N: Q0022A
+O: Mitteleuropa, Deutschland / Polen, Ober - Schlesien,
+N: Grundton in der zweigestrichenen Oktave.
+R: Spiel, Hinrichtung, Opfer, Rettung
+M: 2/4
+L: 1/8
+K: D
+A, | D2DE | F2ED | FED
+A, | D2DE | F2ED | FED
+A, | DDCD | E2DC | DA,F,
+A, | DDCD | E2DC | DA,F,
+S:https://www.folktunefinder.com/tunes/110015
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Spiel, hinrichtung, opfer, rettung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

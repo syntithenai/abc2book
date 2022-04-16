@@ -1,0 +1,24 @@
+X:32
+T: Ca la noi la la falteceni
+O:rumania
+M: 2/4
+L: 1/8
+Q: 1/4=200
+K: Em
+%%MIDI program 41
+|:e2 e2|E2 E2 |(3FGA GF|EG B2 |\
+e2 e2|E2 E2 |(3FGA GF|E2 z2 :|
+|:dd dB|cA B2 | dd dB  |cA B2 |\
+dd Dd|G2 z2 :|
+|:ABcB |AGB2  |cBAG    |ABc2  |\
+ABcB |AGB2  |dd DD   |G2 z2 :|
+S:https://www.folktunefinder.com/tunes/111263
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

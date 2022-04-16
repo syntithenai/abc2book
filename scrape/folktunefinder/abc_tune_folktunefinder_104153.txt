@@ -1,0 +1,31 @@
+X: 41
+T:Whan Love Hath Bereft Him. ST.41
+M:C
+L:1/8
+Q:100
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Air
+O:England
+A:Staffordshire
+N:Tune not legible on photocopy after bar 24
+Z:vmp.Tim Willets  
+K:G
+(GF)|G6GF|A2G2(Bc)|d6(AB)|(A2G6)|z4z2(GF)|G6GF|!
+A2G4(Bc)|d6(AB)|G4z2(FG)|A2A4(GA)|c2B4^AB|^c6(Bc)|!
+d6(^cd)|e6 (de)|f2f3g Be)|d3AG3e|(e3f/2e/2d2)(GF)|A2G4GF|!
+A2G4(Bc)|d6(AB)|G4c2(Bc)|(d2e2d2B2)|!
+(GF)G4GA|(B2c2B2G2)|"Illegible after..."(EFE4)(EF)|"etc.."GFEF|
+% Output from ABC2Win  Version 2.1 k pre2 on 21/05/2003
+S:https://www.folktunefinder.com/tunes/104153
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

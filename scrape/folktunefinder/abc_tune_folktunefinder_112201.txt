@@ -1,0 +1,29 @@
+X: 30
+T:Schottis frn Lima
+T:Schottis frn Transtrand
+M:2/4
+L:1/16
+Q:75
+C:e. Carl Gudmundster
+S:
+R:Schottis
+O:Sweden
+A:Dalarna
+N:Upptecknad av Lennart Bergstrm
+K:Dm
+A>=B^cd e2ef | d2de ^c2^c2 | A>=B^cd e2ef | g2{a}(3gfg) a4 |\
+A>=B^cd e2ef | d2de ^c2^c2 | d>efg a>g{ag}e^c | d2d2 d4 ::
+{ab}a>gef g4 | {fg}a>fde f4 | {ef}e>^cA^c e>^cA^c | d>efg a4 |\
+{ab}a>gef g4 | {fg}a>fde f4 | {ef}e>^cA^c e>^cA^c | d2d2 d4 :||
+S:https://www.folktunefinder.com/tunes/112201
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Rhythm Schottis
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

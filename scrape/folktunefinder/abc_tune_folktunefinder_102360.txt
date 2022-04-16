@@ -1,0 +1,23 @@
+X:6462
+T:Goose Feathers
+R:jig
+M:6/8
+L:1/8
+K:G
+d|gfg d^cd|B^AB GFG|DFA cBA|GBe def|
+gfg d^cd|B^AB GFG|DFA cBA|G3 G2:|
+K:D
+A|a2z a2z|a^gb afd|Ace gfe|dfb a2A|
+a2z a2z|a^gb afd|Ace gfe|d3 d2:|
+S:https://www.folktunefinder.com/tunes/102360
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

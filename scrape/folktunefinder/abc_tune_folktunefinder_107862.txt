@@ -1,0 +1,24 @@
+X: 121976
+T: Lodge Gate HP
+S: "Roche Collection of Traditional Irish Music" [III/60/171]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+(3ABc | dcdf ecAc | dcdB AFDF | GFED Dfed | edcB ABcd |
+eA (3AAA fA (3AAA | dcde f2 A2 | GFGB AGFE | D2 DE D2 :|
+(3ABc | dcdA FAdc | BAFA BGEf | gfge fefd | cded cBAG |
+Fd (3ddd ce (3eee | dcde f2 A2 | GFGB AGFE | D2 DE D2 :|
+S:https://www.folktunefinder.com/tunes/107862
+S:http://www.qmcorp.net/webabc/collections/roche.abc
+S:http://www.qmcorp.net/webabc/l/121976.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

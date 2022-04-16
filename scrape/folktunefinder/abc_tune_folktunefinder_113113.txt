@@ -1,0 +1,32 @@
+X: 104
+T: The Cavity Investigator
+C: H. MacDonald
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A Dorian
+(3ef^g|:\
+"Am"aAA/A/A A2(3DEF|"G"GGBG ABcA|"Am"eAA/A/A ABca|"G"gedB "Am"cA(3ef^g|
+"Am"aAA/A/A AGEF|"G"GGBG ABcA|"F"eAA/A/A ABca|1\
+"G"gedB "Am"A2(3ef^g:|2\
+"G"gedB "Am"cAAG||
+|:\
+"Am"E2~A,G, A,B,CD|"C"E2CE DECE|"G"D2B,D B,DB,D|"Em"EFGE "G"DG,B,D|
+"Am"E2~A,G, A,B,CD|"C"E2CE DECE|"G"D2B,D B,DB,D|1\
+"Em"EGDB, "Am"A,2ED:|2\
+"Em"EGDB, "Am"A,2|]
+S:https://www.folktunefinder.com/tunes/113113
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

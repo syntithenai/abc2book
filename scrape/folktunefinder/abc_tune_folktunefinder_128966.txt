@@ -1,0 +1,28 @@
+X: 2
+T:Jig of Slurs, The
+M:6/8
+L:1/8
+R:jig
+N:also known as the "Jug of Slugs" ;-
+K:D
+Add (dcd)|Bdd Add|Bdd Add|Bee (edB)|Add (dcd)|Bdd Add|Bdd cde|1fdc d3  :
+|2
+ fdc d2 B|
+|:Aff (fef)|aff (fed)|Bee (ede)|fef (edB)|Aff (fef)|aff (fed)|Bdd cde|fd
+c d2 :|
+K:G
+|:B/A/|Ggg (gfg)|age (gdB)|Ggg (gfg)|age (g2 B)|Ggg (gfg)|age (gdB)|Bee
+e
+gg|1fdd e2 :|2fdd e3  |
+|:GBB Bdd|dee (edB)|GBB Bdd|dee egg|GBB Bdd|dee (edB)|Bee egg|fdd e3  :|
+S:https://www.folktunefinder.com/tunes/128966
+S:http://www.unet.univie.ac.at/~a8702257/abc/sessionbook.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

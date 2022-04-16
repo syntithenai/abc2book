@@ -1,0 +1,24 @@
+X:66
+T:Ross's Reel #4
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:F
+|:a|\
+"G"g3f "C7"e2d2|"F"cdcBA2GF|"C7"ECEGc2cB|"Dm"AFAcf2a2|
+"G"g3f "C7"e2d2|"F"cdcBA2GF|"C7"EFGA Bcde|1"F"f2f2f3:|2"F"f2f2f2||
+|:cc|\
+"F"Accc dccc|Acfc acfc|Accc dccc|"Dm"Acfc acfc|
+"Am"Accc dccc|"C7"=Bcec gcbc|=Bcec gcbc|1"F"acgcf2:|2"F"acgcf3:|
+S:https://www.folktunefinder.com/tunes/118876
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

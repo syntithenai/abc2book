@@ -1,0 +1,29 @@
+X: 102
+T:Paddy O'Carrel. GS.102
+M:6/8
+L:1/8
+Q:120
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:England
+A:Leeds
+H:1831
+Z:vmp.Cherri Graebe
+K:D major
+"qus"(A/2G/2)  | FDD FDD | F>GF FED | AFF dEF | E>FE EAG | FDD  FDD |! F
+>GF
+ FED
+| AFF dFF | D>ED D2 ||
+a/2g/2 | fed ecd | BdB AGF |! fda eca | dB^g a2a/g/ | fdd ecc | B>dB AGF
+| AFF dFF | D>ED D2 ||
+S:https://www.folktunefinder.com/tunes/104776
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

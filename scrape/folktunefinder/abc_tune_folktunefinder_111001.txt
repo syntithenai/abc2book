@@ -1,0 +1,21 @@
+X:4
+T:XVII. I must complaine,
+T:BASSUS.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+%%MIDI transpose -24
+K:G min bass
+g4 e2 c2 g2 z g d > c B/ A/ B A ^f g > G d4
+S:https://www.folktunefinder.com/tunes/111001
+S:http://www.laymusic.org/music/dowland/complain/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

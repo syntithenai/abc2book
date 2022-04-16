@@ -1,0 +1,43 @@
+X: 1
+T:Amazing Grace
+M:3/4
+L:1/8
+C:John Newton
+Z:Transcribed by Thornton Rose, 2001.
+Z:Melody from Soodlum's Irish Tin Whistle Book.
+Z:Words from Folk School Song Book, John C. Campbell Folk School,
+Z:Brasstown, NC.
+K:D
+D2 | G4 (3(BAG) | B4 BA | G4 E2 | D4 D2 | G4 (3(BAG) | B4 AB |
+d6- | d4 Bd | d4 (3(BAG) | B4 BA | G4 E2 | D4 D2 | G4 (3(BAG) |
+B4 BA | G6- | G4 |]
+W:
+W:Amazing grace, how sweet the sound
+W:That saved a wretch like me.
+W:I once was lost, but now am found,
+W:Was blind, but now I see.
+W:
+W:'Twas grace that taught my heart to fear
+W:And grace that fear relieved;
+W:How precious did that grace appear
+W:The hour I first believed.
+W:
+W:Through many dangers, toils, and snares
+W:I have already come;
+W:'Tis grace hath bro't me safe thus far,
+W:And grace will lead me home.
+W:
+W:When we've been here ten thousand years
+W:Bright shining as the sun;
+W:We've no less days to sing God's praise
+W:Than when we first begun.
+% Output from ABC2Win  Version 2.1 i on 10/9/2001
+S:https://www.folktunefinder.com/tunes/112236
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/AmazingGrace.abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

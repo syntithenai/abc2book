@@ -1,0 +1,22 @@
+X: 2
+T: Carolan's Cup
+C:Trad.
+Z: From Fiddle Book by M. Thaut.
+M: 6/8
+K:D
+ (de) | f3/(g/f/e/) (df)a | ~e2 d/B/ A2 f/e/ | dcB A<FA | Bba bfe |
+ f3/(g/f/e/) (df)a | e(g/f/e/d/) c2 e | (dc)B (AF)A | B3 B2 :|
+|: c | d3/(e/d/c/) d2 f | a3/(b/a/f/) .a2 f | e3/(f/e/d/) (ef)a | (b3 b)(fa) |
+baf/e/ (de)a | ~e2 d/B/ A2 f/e/ | (dc)B (AF)A | B3 B2 :|
+S:https://www.folktunefinder.com/tunes/121237
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/mtunes1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/mtunes1.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/mtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

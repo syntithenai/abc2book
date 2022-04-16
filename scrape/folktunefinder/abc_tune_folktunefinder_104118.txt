@@ -1,0 +1,28 @@
+X: 6
+T:Ronda. ST.06
+T:Ode To Joy,aka. ST.06
+M:2/4
+L:1/8
+Q:130
+C:Beethoven,Ode To Joy,aka.
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Ode
+O:England
+A:Staffordshire
+Z:vmp.Tim Willets
+K:D
+a|.d.d.e.e|fdaf|(g/a/).b/.g/ (f/g/).a/.f/|\
+(e/f/).g/.e/ (d/c/).B/2.A/2|!
+.d"sq's in MS".d.e.e|fda>g|(f/g/).a/.b/ (a/g/).f/.e/2|dcd2:|!
+|:.e.e.f.d|.e.a.f.d|.e.e.f.d|c/B/2A/^G/"cr" Az|!
+ee/f/ ff|^gg/g/ aa|a(a/^g/) "qu's"(a/b/)(c'/d'/)|"qu's"c'/b/a/^g/a2:|]
+S:https://www.folktunefinder.com/tunes/104118
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Ode
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

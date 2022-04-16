@@ -1,0 +1,24 @@
+X:1
+T:The Roaring Barmaid (Tony Sullivan; J-76)
+R:jig
+Z:Translated to abc by Debbie Knight
+Z:
+M:6/8
+K:G
+"G"G3 EGD |"C/G"G3 EGD |"G"DGG BGG |dGG BdB |
+"G"G3 EGD |"G/B"G3 EGD |"C"GAB deg |"D" deg edB :|
+|:"G"deg b3 |"G/B"bab deg  |"C"b3 bag |"D"edB deg |
+"G"b3 bab |"G/B"agg bgg |"C"agg efg|"D"deg edB :|
+S:https://www.folktunefinder.com/tunes/107304
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/jig/J076_The_Roaring_Barmaid_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:15
+T:Fyr Anders (Stjuls/Snoa)
+Z:2000 Brian Wilson 
+M:4/4
+L:1/8
+K:A
+|: A,2 CE A,2 CE| DFAF DFAF \
+| E2 GB E2 GB \
+| Bc/B/ AB c2 A2 \
+| A,2 CE A,2 CE| DFAF DFAF \
+| E2 GB E2 GB \
+| Bc/B/ AG A4 :|
+|: A2 ce ag fe \
+| dc Bc d2 d2 \
+| fe dB G2 G2 \
+| fe cA E4 \
+| A2 ce ag fe \
+| dc Bc d2 ^d2 \
+| e3 e ge gb \
+| b2 ag a4 :|
+S:https://www.folktunefinder.com/tunes/114314
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/FyrAndersStjulsSnoa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:52
+T:World Turned Upside Down
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2A2 d2d2|efga f2ef|g2B2 c2f2|e2>d2 A4|\
+A2A2 d2d2|efga f2ef|g2B2 c2f2|e2>d2 d4::
+e2cd e2A2|edef e2A2|edef e2dc|B2>A2 A4|\
+a2ag f2ed|efga f2ef|g2B2 c2f2|e2>d2 d4:|
+S:https://www.folktunefinder.com/tunes/114118
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

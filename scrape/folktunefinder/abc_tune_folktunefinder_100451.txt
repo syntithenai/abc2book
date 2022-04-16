@@ -1,0 +1,28 @@
+X:159
+T:Princess Beatrice
+O:scotland
+R:Hornpipe
+M:4/4
+C:W. B. Laybourn
+K:Gm
+dc| \
+BDGB AD^FA| GDGB dcBA| Bdgf edcB| AGFE DcBA| \
+BDGB AD^FA|
+GDGB dcBA| \
+f=e_ec AD^FA| GBdg G2 ::\
+FE |\
+DBEB FBEB| DFBd fbfd|
+Ec=Ec FcGc| Acec AFEC|\
+DBEB FBEB| DFBd fbfd| f=e_ed cBAG| FEDC[B,2D2]\
+:|
+S:https://www.folktunefinder.com/tunes/100451
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

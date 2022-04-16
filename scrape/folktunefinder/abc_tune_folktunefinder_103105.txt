@@ -1,0 +1,28 @@
+X:2
+T:The Eel in the Sink
+T:The Hills of Kesh
+C:Traditional
+N:Play 4 times
+N:The Armagh Set, figure 3, tune 2 of 3
+D:Molloy, Peoples, Brady
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+M:C
+L:1/8
+K:ADor
+e2 AB cdec | dGBG dGBd | e2 AB cdea | gedB BA A2 :||
+a2 ag aged | ^cdef g2 fg | a2 ag agab | gedB  BA A2 |
+a2 ag aged | ^cdef g2 fg | afge fdef | gedB BA A2 |]
+S:https://www.folktunefinder.com/tunes/103105
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

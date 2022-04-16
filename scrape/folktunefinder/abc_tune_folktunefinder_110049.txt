@@ -1,0 +1,57 @@
+X:2
+T:Untitled 2
+C:Colin Hume, 2008
+L:1/4
+M:3/4
+%%MIDI beat 110 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=100
+%%MIDI chordname dim 0 3 6 9
+K:Dm
+V:1
+%%MIDI program 4
+%%MIDI beat 100 95 80
+P:A
+[| !f! z[FAe][FAd] | z[DGc][DGB] | z[=B,DA][B,DG] | [^CE][DF][EG] |\
+z[DF][^CE] | z[EG][DF] | [C-E-A][CEG][CEA] | [^D2^F2=B2]B |
+V:2 bass
+I:octave=-2
+%%MIDI program 4
+%%MIDI beat 100 95 80
+%%MIDI gchordoff
+[| "Dm"[D2d2]z | "Gm7"[G2g2]z | "Gm/E"[E2e2]z | "A7"[A2a2]z |\
+"Dm"[D2d2]z | "A"[^C2^c2]z | "Am"[=C2=c2]d | "B7"[=B,=B]^F=B |
+%%vskip 0
+V:1
+%%vskip 0
+P:B
+!arpeggio! [G3/=B3/g3/]^f/ [G/e/]=B/ | [A-d][A2c2] | !arpeggio! [D3/A3/d3/]c/ [^F/=B/]A/ | [G-c][G2=B2] |\
+[D3/G3/B3/]A/ G/D/ | [CF] _ED/C/ | [G,/B,/]D/ G/B/ [C/A/]^F/ | [B,2D2G2]G |
+V:2
+"Em"e=be' | "Am"[a2e'2]g | "D"^fed | "G"[g2d'2]d |\
+"Gm"Gd[gb] | "Cm"[c2g2] B/c/ | "Gm"dD "D7"d | "Gm"gGz |
+%%vskip 0
+P:C
+V:1
+[G/=B/][A/c/][Bd][df] | [G-f][G2_e2] | [F/A/][G/B/][Ac][c_e] | [F-_e][F2d2] |\
+[D/F/][E/G/][FA][FAd] | [A/^c/][=B/d/][ce][eg] | [d/f/][e/g/][fa][dd'] | [^c2^c'2]c |
+V:2
+"G"[g2d'2]=b | "Cm"c'2b | "F/A"agf | "Bb"b2[Bb] |\
+"Dm/A"[A2a2][Aa] | "A"[A2a2][Aa] | "Dm/A"[A2a2][Aa] | "A"Aea |
+%%vskip 0
+P:D
+V:1
+[_E3/G3/c3/]B/ A/G/ | [D-B][D2G2] | [^C3/E3/A3/]B/ A/G/ | [D3/F3/]G/ F/E/ |\
+[_A,3/D3/]E/ F/G/ | [DFA][FAd]D | [G,2A,2^C2F2]E | [A,2D2]z |]
+V:2
+"Cm"c'c_e | "Gm/E"e2b | "A7"aA^c | "Dm"[da]DA |\
+"Bb7"[B2f2][Bf] | "Dm/A"A2A | "A7"A2A | "Dm"[df-][Af-][Df] |]
+S:https://www.folktunefinder.com/tunes/110049
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

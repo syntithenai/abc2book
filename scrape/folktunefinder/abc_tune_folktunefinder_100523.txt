@@ -1,0 +1,23 @@
+X:231
+T:the Graemsay Jig
+O:scotland
+R:Jig
+M:6/8
+A:Orkney
+K:D
+[A3D3] BAF|A2B d2e|faa baf|e>fe edB|\
+[A3D3] BAF|A2B d2e|faf e2d|d3-d2B:|
+|:ABd B2A|ABd B2A|faa baf|e>fe edB|\
+ABd B2A|ABd B2A|faf e2d|d3-d2:|
+S:https://www.folktunefinder.com/tunes/100523
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

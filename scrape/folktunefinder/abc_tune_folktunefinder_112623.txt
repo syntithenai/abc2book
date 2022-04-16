@@ -1,0 +1,30 @@
+X:196
+T: Dang hu chuan, Boot auf dem Trockenen)
+N: C0320
+O: China,Jiangsu, Jingjiang
+S: III, 442]
+N: Vor- und Nachspiel weggelassen.
+R: Wuge, Paohanchuan. Xin minge]
+M: 2/4
+L: 1/16
+K: D
+A2AFA2B2 | A2B2d4 | e3fd2B2 | B2A2A4
+F2d2B2A2 | A2B2D4 | E2D2E4
+A2F2A2A2 | A3Bd2B2 | B2A2A2F2
+d3BB2B2 | A6F2
+A4E4 | A2F4E2 | D4D2E2 | D4z4
+A2BdA2F2 | E4E4 | F2FED2D2 | E4E4
+A2F2A4 | A2B2d4 | e3fd2B2 | B2A2A4
+A4E4 | A2F4E2 | D4D2E2 | D8
+S:https://www.folktunefinder.com/tunes/112623
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, paohanchuan. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:58
+T:Smoke on the Water
+R:square
+C:Zeke Clements
+Z:Transcribed to abc by Mary Lou Knack
+P:Intro
+M:4/4
+K:F
+%%staffwidth     8.5cm
+A2c2 c2d2| c2A2 F2G2| A2F2 G2E2| F2z2|
+P:
+%%staffwidth     14.50cm
+C2D2| \
+"F"F2F2 F2G2| F2D2 C2D2| "Bb7"F2F2 F2D2| "F"F4 C2D2| \
+F2F2 F2D2| F2F2 A2A2| "G7"G2F2 E2D2| "C7"C4 C2D2|
+"F"F2F2 F2G2| F2D2 C2D2| "Bb7"F2F2 F2D2| "F"F4 F2G2| \
+A2c2 c2d2| c2A2 F2G2| "C7"A2F2 G2E2| "F"F4 C2D2|
+"F"F2 F4 G2| F2D2 C2D2| "Bb7"F2 F4 D2| "F"F4 C2D2| \
+F2F2 F2D2| F2F2 A2A2| "G7"G2F2 E2D2| "C"C4 C2D2|
+"F"F2z2 F2z2| F2D2 C2D2| "Bb"F2 F4 D2| "Bdim"F4 F2G2| \
+"F"A2c2 c2d2| c2A2 F2G2| "C7"A2F2 G2E2| "F"F4 |]
+%%newpage
+%%text 23
+S:https://www.folktunefinder.com/tunes/106845
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

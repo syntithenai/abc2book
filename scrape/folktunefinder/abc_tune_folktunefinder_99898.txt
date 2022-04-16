@@ -1,0 +1,25 @@
+X:1
+T:Niel Gow's Lament for his Second Wife
+Z:Jack Campin, 2006, http://www.campin.me.uk/
+M:6/4
+L:1/4
+Q:3/4=36
+K:D
+  D/B,/ |A,>B,D D>ED|EFA           B2      d   |A>FD          E>DE        |{DE}F>DB, B,2
+  D/B,/ |A,>B,D D>ED|EFA           d2      c/B/|A>FD       {C}B,2     A,  |    B,DD  D2:|
+(3A/B/c/|dfd    ec.A|B/A/B/c/{Bc}d B/A/G/F/E/D/|E>DE      {DE}F>ED        |    F>DB, B,2
+(3A/B/c/|df.d   ec.A|B/A/B/c/{Bc}d B/A/G/F/E/D/|E>DE      {DE}F>DB,       |    A,DD  D2
+(3A/B/c/|df.d   ec.A|B/A/B/c/{Bc}d B/A/G/F/E/D/|F/D/A/F/d/A/  B/A/G/F/E/D/|{DE}F>EE  E2
+  D/B,/ |A,>B,D D>ED|EF.A          d2      c/B/|AFD        {C}B,2     A,  |    B,DD  D2|]
+% Waltzes
+% -------
+S:https://www.folktunefinder.com/tunes/99898
+S:http://www.campin.me.uk/Music/ScottishSessionTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:5
+T:Ricercada nona (Ruggiero)
+T:Bassus
+C: Diego Ortiz
+O: From Diego Ortiz, El Secunda Libro
+L:1/2
+M:C
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI transpose -24
+K:F bass
+|:F2 F F B B F3 F B F c d c3 c c c d d c2 F2 B d c2 F2 :| F8 |]
+S:https://www.folktunefinder.com/tunes/110860
+S:http://www.laymusic.org/music/ortiz/ruggiero/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

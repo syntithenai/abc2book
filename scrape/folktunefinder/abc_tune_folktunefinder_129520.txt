@@ -1,0 +1,33 @@
+X:7
+T:T Gitana
+A:Galicia
+D:Luar Na Lubre: Plenilunio
+O:Spain
+M:C|
+K:C
+% (Introduccin de &quot;violn Cedrn&quot;)
+D8 ^C8 D8 z/2 ^F8 E8 ^F8
+% (Introduccin de gaita, of course, Bieito)
+B2^c2d4 E2^c4d2 BAG8
+DE^F4 ^F2A4 EG^F8 
+B2d2^c4 ^F2d4 ^c2BAG8
+Bd^c4 A2B2 d^cd8
+% (aqu entra la melodiosa voz de Rosa)
+B2^c2d4 E2^c4d2 BAG8
+DE^F4 ^F2A4 EG^F8
+B2d2^c4 ^F2d4 ^c2BAG8
+Bcd4 e2c2A2 dcB8
+%
+B2^c2d4 E2^c4d2 BAG8
+DE^F4 ^F2A4 EG^F8
+^F2A2^G4 E2D4^C2 B,A,G,8
+DEF4 G2E4 FED8
+S:https://www.folktunefinder.com/tunes/129520
+S:http://trillian.mit.edu/~jc/music/abc/mirror/personales.alcavia.net/~jmoreno/tw/repertor.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T:Srna steklt
+T:"Steak march", "steak-carrying tune"
+A:Srna, n. Dalarna
+O:Sweden
+M:2/4
+L:1/8
+K:Dm
+Ad fa|ef/g/ a>g|fe/d/ e^c|A4|\
+Ad fa|ef/g/ a>g|fe/d/ e^c|[1d4:|[2d3e::\
+f>e fa|e3 ^c|d>^c df|e3 e/g/|fe df/a/|\
+ge =ce/g/|fe/d/ e^c|[1d3e:|[2d4|]\
+T:Oktav
+A,D FA|EF/G/ A>G|FE/D/ E^C|A,4|\
+A,D FA|EF/G/ A>G|FE/D/ E^C|[1D4:|[2D3E::\
+F>E FA|E3 ^C|D>^C DF|E3 E/G/|FE DF/A/|\
+GE =CE/G/|FE/D/ E^C|[1D3E:|[2D4|]\
+S:https://www.folktunefinder.com/tunes/115136
+S:http://homepage.calypso.net/~ci-18034/dala.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/dala.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/s_/S_rna_stekl_t_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

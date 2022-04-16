@@ -1,0 +1,27 @@
+X:14
+T:Darga's Grandson
+T:to the tune of "Waterloo"
+Z:Dave Holland dave@biff.org.uk from sheet music from Andrew Swaine
+M:2/2
+L:1/8
+K:G
+P:A
+"G"B,2GE D2BA|G2G2 G2FG|"C"A2A2 "D"GFEF|"G"GABG "D"D2DC|
+"G"B,2GE "D/F"D2BA|"Em7"G2G2 G2"(D)"FG|"C"A2A2 "D"GFEF|"G"G2z2 z4:|
+P:B
+K:D
+"D"A2AF d2dB|A2AF D4|"A"CDEF GFEC|"D"DEFG "A"BAFG|
+"D"A2AF d2dB|A2AF D4|"A"CDEF GFEC|"D"D2=c2 B2c2||
+P:C
+K:G
+"G"d2dd dGBd|"C"e2"G"d2 "D"c2"G"B2|"D"A2A2 ADBA|"G"GFGA "D"BABc|
+"G"d2dd dGBd|"C"e2"G"d2 "D"c2"G"B2|"D"A2A2 ADBA|"G"GF"D"GA "G"G4|]
+S:https://www.folktunefinder.com/tunes/122698
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

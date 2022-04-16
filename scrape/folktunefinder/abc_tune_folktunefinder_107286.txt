@@ -1,0 +1,27 @@
+X:1
+T: Needlecase (R-170)
+M: C
+L: 1/8
+R: reel
+K: D
+(3efg|"D"aAgA fedf|"G"fg2f g2(3efg|"D"aAgA fedA|"A" BABd A2(3efg |
+"D"aAgA fedf|"G"fg2f g2A2- |"A"ABcd edcA|BABc "D"d2:|
+FE|:"D"D2d2 dBA2|"G"B3=c B4 |"D"A2AB AFDF|"A"E3F E2FE|
+"D"DFAB dBA2|"G"B3=c B2A2- |"A"ABcd edcA|BABc "D"d2:|
+S:https://www.folktunefinder.com/tunes/107286
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R170_Needlecase.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R170_Needlecase.abc
+S:http://roaringjelly.org/music/reel/R170_Needlecase.abc
+S:http://roaringjelly.org/music/sets/Sets_075_086.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

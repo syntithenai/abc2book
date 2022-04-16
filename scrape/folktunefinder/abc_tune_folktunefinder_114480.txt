@@ -1,0 +1,27 @@
+X:170
+T: Long Note [The]
+M: 12/8
+L: 1/8
+Q: 350
+R: Single Jig
+K: D
+DDD D2 A A2 G E2 F|G2 E EEE =c2 E d3|
+DDD D2 A A2 G E2G|AAA G2 A E2 A D3 :|
+ddd d2 B =c2 Ad2 B|=c2 A d2 B c2 A G3|
+ddd d2 B =c2 A d2 d|e2 a a2 g eae d3|
+ddd d2 B =c2 Ad2 B|=c2 A d2 B c2 A G2F|
+D2 E F2 G A2 d d2 c|AAA G2 A E2 A D3 ||
+aaa a2 b a2 f d2 f|g2 f g2 a g2 e c3|
+aaa a2 b a2 f d2 d|e2 a a2 g eae d3|
+aaa a2 b a2 f d2 f|g2 e fed e2 d c2 B|
+A2 B c2 d e2 d d2 c|AAA G2 A E2 A D3 ||
+S:https://www.folktunefinder.com/tunes/114480
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CCE_session_tunes.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CCE_session_tunes.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

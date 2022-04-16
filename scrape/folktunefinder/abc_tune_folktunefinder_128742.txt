@@ -1,0 +1,21 @@
+X:530
+T:Old Tipperary
+Z: id:dc-jig-92
+M:6/8
+L:1/8
+K:G Major
+G|cAF G3|AcA GFG|cAF G3|AFD FAd|!
+cAF G3|AcA GFG|fdd edd|fdd cA:|!
+F|GBd g3|gaf g3|dgg gfg|a2g fga|!
+bag agf|gfe f2e|dcA d2e|fed cA:|!
+S:https://www.folktunefinder.com/tunes/128742
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

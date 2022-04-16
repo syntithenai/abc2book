@@ -1,0 +1,26 @@
+X:525
+T: Hills of Tipperary
+S: "Roche Collection of Traditional Irish Music" [III/36/115]
+L: 1/8
+M: 9/8
+R: slip jig
+K: D
+(3A/B/c/ |: dcB AGF ABc | dcd efg fge |
+dcB AGF ABc |1 dcB ABG FED :|2 d2D DAG FED ||
+F2A AFA AFA | G2B BGB BGB |
+F2A AFA ABc |1 dcB ABG FED :|2 d2D DAG FED ||
+FGA ABc dcd | e2E E2F GFE |
+FED AGF ABc |1 dcB ABG FED :|2 d2D DAG FED ||
+S:https://www.folktunefinder.com/tunes/107734
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

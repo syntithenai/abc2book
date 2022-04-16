@@ -1,0 +1,36 @@
+X:34
+T:Balquihidder Lasses
+M:C|
+Q:1/2=90
+L:1/8
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:BA|G2FG (EF)GA|B2B2 e3e|d2A2 ABAG|DEFG A2BA|G2FG (EF)GA|
+B2B2 e3e|d2A2 BAGF|E6:|B2|e2ef e2B2|efgf e2B^c|d2de dAFA|(DE)FG A2B2|
+e2ef e2B2|efgf e2B^c|d2A2 BAGF|E6 B2|e2ef e2B2|efgf e2B^c|
+d2de dAFA|DEFG A2BA|G2FG EFGA|B2B2 e3e|d2A2 BAGF|E6|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!p!GF|E2B,2 E2EF|GAGE G3G|F2 F4 D2-|D^CDE F2GF|E2B,2 E2EF|
+G4 GBAG|FDG,D E2B,2|E6:|F2|GABA G2F(G/A/|G2)E2 E2DE|FGAG F2D2-|D2DE F2BA|
+GABA G2F(G/A/|G2)E2 E2DE|FDG,D E2B,2|E6 F2|GABA G2F(G/A/|
+G2)E2 E2DE|FGAG F2D2-|D2DE F2GF|E2B,2 E2EF|GFGA BAG2|FDG,D E2B,2|E6|
+S:https://www.folktunefinder.com/tunes/114100
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

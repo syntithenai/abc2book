@@ -1,0 +1,23 @@
+X:86
+T:Ragtime Annie
+C:Traditional
+M:4/4
+L:1/8
+Q:1/8=430
+K:D
+FE|:DFBF AcBF|AcBF A2EF|DFBF AcBF|ABcd c2cB|
+ABcA BAcB|ABcA B2B/c/B|ABcd egfe|1 d2cd BdAF:|2 dcec defg|
+|a4 afdB|A2AB A2de|fgaf gfed|B2[g2B2D2] [g2B2D2]ef|
+g2ef gfef|g2ef gfef|gfed cBAG|F2[AF][AF] [A2F2]fg|
+afbf afde|fdeg fedA|=cdfg agfa|g2gg g2ef|
+gdga b2ag|fdfg a2ef|gfed cABc|dcec d4|
+S:https://www.folktunefinder.com/tunes/117133
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

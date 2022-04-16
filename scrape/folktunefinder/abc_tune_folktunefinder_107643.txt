@@ -1,0 +1,24 @@
+X:70
+T: Hag's Grave
+S: "The Roche Collection of Traditional Irish Music" [I/55/137]
+L: 1/8
+M: 4/4
+R: reel
+K: Ador
+EGAB c2 BA | GEED GEED | EGAB cBce | dBeB cBca |
+EGAB c2 BA | GEED GEED | EGAB cBce | dBGB BA Az ||
+cBcd e2 ed | cBce dBGB | cBcd gfge | dBGB BA A2 |
+c2 c>d e2 ed | c2 c>e dBGB | cedc BdcB | AGAB cBca |]
+S:https://www.folktunefinder.com/tunes/107643
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

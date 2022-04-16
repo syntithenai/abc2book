@@ -1,0 +1,24 @@
+X:63
+T:Tomgraney Castle
+Z: id:dc-hornpipe-65
+M:C|
+L:1/8
+K:A Dorian
+cB|AGAB AGEG|AGAB cBcd|(3efg fa gedc|B2G2 G2cB|!
+AGAB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2:|!
+(3efg|a2ab ageg|agab a2ge|dega gedc|B2G2 G2|!
+[1 (3efg|a2ab ageg|agab a2ge|dega gedB|c2A2 A2:|!
+[2 cB|AGAB AGEG|AGAB cBcd|(3efg fa gedB|c2A2 A2|]!
+S:https://www.folktunefinder.com/tunes/100859
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:39
+T:Branle de la Montarde
+M:none
+% the above M:none is a non-standard extension
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle morgu
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+G2 A2 B2 G2 c2 A2 B2 G2 G2 G2 G2 G2 F2 E2 D2 C2 |
+G2 A2 B2 G2 c2 A2 B2 G2 | F2 GF E2 DC C2 DB, C2 z2 ::
+c2 dc B2 A2 B2 G2 F4 ::
+S:https://www.folktunefinder.com/tunes/104079
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle morgu
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

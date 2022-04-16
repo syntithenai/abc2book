@@ -1,0 +1,32 @@
+X:34
+T:Dutch Crossing
+C:Colin Hume, 1990
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+K:G
+P:A
+|: "G"G G/2A/2 BG | "Am"c4 | "D7"F F/2G/2 AF | "G"B3 G |\
+"D"A3/2 G/2FA | "G"BGGB | "A7"A A/2B/2 ^cA | "D"d3 d |
+%%vskip 0
+P:B
+"C"e3/2 f/2 gf/2e/2 | "G"dgdB | "Am"ce "D7"cA | "G"Bd-d (3: d/2e/2f/2 |\
+"C"gecA | "D"FEDd | "C"ec "D7"fd |1 "G"g4 :|2 "G"g =f "G7"ed |
+%%vskip 0
+P:C
+|: "C"cG[ce]G | "C"[Bd]G[Ac]G | "G"Bcde | "G7"=fdcB |\
+"C"cG[ce]G | "C"[Bd]G[Ac]G | "G"Bc "G7"dB |1 "C"cGAB :|2 "C"c4 |
+%%vskip 0
+P:D
+|: "D7"A3/2B/2cA | "G"dBGF | "C"E3/2F/2GE | "D"AFD2 |\
+"C"e3/2d/2ce | "G"dGGg | "Am"e d/2c/2 "D7"BA | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/110081
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:165
+T:Highland Gan Ainm
+R:Highland
+S:Dermot Byrne and Ciaran Tourish, Donegal (accordian and fiddle)
+D:"River of Sound"
+H:Second part is actually in 'A' but only one 'g' so just make it an accidental
+M:4/4
+N:As played, but a bit hard to hear at times
+Z:Bernie Stocks
+K:D
+cB | AFdF EA,CE | FDdD cDBD | AFdF EA,CE | FA (3.G.F.E (3.D.F.A (3.d.c.B |
+AFdF EA,CE | FDdD cDBD | AFdF EA,CE | FA (3.B.c.d A^GAf ||
+ecac (3.e.f.e ef | ecac {a}fefa | ecac (3.e.f.e e2 | (3.d.e.d (3.c.d.c Bcdf |
+ecac (3.e.f.e ef | ecac {a}fef^g | afec afec | (3.d.e.d (3.c.d.c BdcB ||
+S:https://www.folktunefinder.com/tunes/117327
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Highland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

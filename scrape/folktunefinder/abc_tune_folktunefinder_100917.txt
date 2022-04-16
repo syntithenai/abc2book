@@ -1,0 +1,20 @@
+X:275
+T:Spell on the Fiddler
+Z: id:dc-hornpipe-67
+M:C|
+L:1/8
+K:G Major
+(3DEF|GDBG dBgd|bgdB cBAG|Fd^cd Adce|d2ed cAFA|!
+GDBG dBgd|bgdB cBAG|fedc edBG|FADF G2:|!
+ga|bgdB GBdg|afcA FAcf|afbg c'abg|agfe dcBA|!
+GDBG dBgd|bgdB cBAG|fedc edBG|FADF G2:|!
+S:https://www.folktunefinder.com/tunes/100917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:33
+T:Saint Anne's Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+M:C|
+K:D
+A2| "D"f2fg fedB| A2FG AFAd| "G"BGGF G2FG| "D"BAAF A2de|
+    "D"f2fg fedB| A2FG AFAd| "G"BGBd "A"cAce| "D"dfec d2 :|
+|:\
+ag| "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"baa^g a2 a=g|
+    "D"fdfa fdfa| "A"aggf g2gf| edcB ABce| "D"fdec d2 :|
+%%vskip 1cm
+S:https://www.folktunefinder.com/tunes/106821
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

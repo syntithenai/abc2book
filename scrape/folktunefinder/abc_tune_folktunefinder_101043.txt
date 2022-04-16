@@ -1,0 +1,21 @@
+X: 14
+T:St Anne's Reel
+R:Reel
+C:Trad
+M:4/4
+L:1/8
+K:D
+de | fedc edcB | A2 FA DFAD | BGDG BDGB | A2 DF AFAd | fedc edcB | A2 FA
+ DFAD | BGBd cAce | defe d2 :|
+|: ag | fdfa fdfa | a g2 f g3 f | eceg eceg | b a2 ^g a3 g | fdfa fdfa |
+ a g2 f g3 f | eceg eceg | fdec d2 :|
+S:https://www.folktunefinder.com/tunes/101043
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

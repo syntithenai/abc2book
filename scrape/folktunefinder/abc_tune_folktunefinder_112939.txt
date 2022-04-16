@@ -1,0 +1,33 @@
+X:512
+T: Ba gen luchai hua
+N: C1390
+O: China,Jiangsu, Jiangdu
+S: III, 479 (unten)]
+N: Variante dazu existiert; Notation = Variante; Gesang enthaelt
+N: Einschuebe nach Takt 10 und viele kleine Verzierungen.
+N: Pinyin-Text der ersten Strophe vorhanden! Strophenlied.
+N: Gesang = Variante.
+R: Yangtiange (Reiskeim-Beetlied); Arbeit]
+M: 2/4
+L: 1/16
+K: Bb
+b2d2c2bg | b2d2c2bg
+f2fdf2fg | b2d2cbgf
+b2bcb2gf | d2c2B4
+f2fdf2fg | b2d2c2bg
+b2f2gfgb | f8
+d2dcbcfd | c4b2g2
+bb2gfgb2 | g2gbd2cd
+f3bgfdc | B8
+S:https://www.folktunefinder.com/tunes/112939
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Yangtiange (reiskeim-beetlied); arbeit]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

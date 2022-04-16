@@ -1,0 +1,55 @@
+X:11379
+T:Muieira  De Celia
+O:Galicia (Spain)
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+C: Jos\'e J. Presedo jpresedo@arrakis.es
+M: 4/4
+L: 1/8
+Q:1/4=180
+K:C % 0 sharps
+V:1
+z3a fa c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|fa gf ef ef|d/2[e/2d/2][e/2d/2]z/2 ca fa c'd'|
+c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|gf fe df ed|c2- c/2z/2a fa c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|
+fa gf ef ef|d/2[e/2d/2][e/2d/2]z/2 ca fa c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|gf fe df ed|
+c2- c/2z/2g eg c'z|ge ae g3/2z/2 ff|df bz fd gd|ag eg eg c'z|
+ge ae g3/2z/2 ff|df bz fd ag|c2- c/2z/2g eg c'z|ge ae g3/2z/2 ff|
+df bz fd gd|ag eg eg c'z|ge ae g3/2z/2 ff|df bz fd ag|
+c4 ee eg|ee ae gf dB|dd df dd gd|fe dc ee eg|
+ee ae gf dB|dd df df ed|c4 ee eg|ee ae gf dB|
+dd df dd gd|fe dc ee eg|ee ae gf dB|dd df df ed|
+c2- c/2z/2g eg c'3/2z/2|ge ce b3/2z/2 fd|Bd bf dB df|c'g ec eg c'3/2z/2|
+ge ce b3/2z/2 fd|Bd bf df dB|c2- c/2z/2g eg c'3/2z/2|ge ce b3/2z/2 fd|
+Bd bf dB df|c'g ec eg c'3/2z/2|ge ce b3/2z/2 fd|Bd bf df dB|
+c2- c/2z/2f af c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|fa gf ef ef|d/2[e/2d/2][e/2d/2]z/2 ca fa c'd'|
+c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|gf fe df ed|c2- c/2z/2a fa c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|
+fa gf ef ef|d/2[e/2d/2][e/2d/2]z/2 ca fa c'd'|c'^a =a^a g/2[=a/2g/2][a/2g/2-]g/2 fa|gf fe df ed|
+cz2g z2 c'
+V:2
+z3c dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dB cd cd|B/2[c/2B/2][c/2B/2-]B/2 cc dc cB|
+cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dc Bd cB|c2- c/2z/2c dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|
+dc dB cd cd|B/2[c/2B/2][c/2B/2-]B/2 cc dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dc Bd cB|
+c2- c/2z/2c ec az|gc' fc' b3/2z/2 ab|fb gz db gb|c'b gc ec az|
+gc' fc' b3/2z/2 ab|fb gz db fb|c'2- c'/2z/2c ec az|gc' fc' b3/2z/2 ab|
+fb gz db gb|c'b gc ec az|gc' fc' b3/2z/2 ab|fb gz db fb|
+c'4 c'c' c'g|c'c' d'c' ba fd|bb bf bb gb|a3/2z/2 g2 c'c' c'g|
+c'c' d'c' ba fd|bb bf ga bd'|c'4 c'c' c'g|c'c' d'c' ba fd|
+bb bf bb gb|a3/2z/2 g2 c'c' c'g|c'c' d'c' ba fd|bb bf ga bd'|
+c'2->c'/2c2-c/2d e3/2z/2|e2<c2 g3/2z/2 ag-|g/2z/2f B3/2z/2 ga3/2z/2b|c'3/2z/2 ac3/2z/2d e3/2z/2|
+e2<c2 g3/2z/2 ag-|g/2z/2f B3/2z/2 df ab|c'2->c'/2c2-c/2d e3/2z/2|e2<c2 g3/2z/2 ag-|
+g/2z/2f B3/2z/2 ga3/2z/2b|c'3/2z/2 ac3/2z/2d e3/2z/2|e2<c2 g3/2z/2 ag-|g/2z/2f B3/2z/2 df ab|
+c'2- c'/2z/2c dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dB cd cd|B/2[c/2B/2][c/2B/2-]B/2 cc dc cB|
+cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dc Bd cB|c2- c/2z/2c dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|
+dc dB cd cd|B/2[c/2B/2][c/2B/2-]B/2 cc dc cB|cd ef e/2[f/2e/2][f/2e/2-]e/2 dc|dc dc Bd cB|
+cz2e z2 e
+S:https://www.folktunefinder.com/tunes/99161
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

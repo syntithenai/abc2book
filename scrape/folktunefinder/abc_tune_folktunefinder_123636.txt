@@ -1,0 +1,35 @@
+X:4853
+T:Entemediu Misa (MG 23) (Arrg.)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 23
+E:Nivel 2
+M:3/4
+L:1/8
+Q:2/4=80
+K:G
+"D"D2 
+|: "G"GA/2G/2F/2G/2 FGA| "G"GA/2G/2F/2G/2 FGA| "G"GA/2G/2F/2G/2 FGB|
+"D7"A4 z D| "D"FG/2F/2D/2F/2 EFG| "Em"EF/2E/2D/2E/2 DEF| "D7"D2 F GAB|
+"G"GA GF/2G/2G D:| 
+|: "G"B2 B2 B2| "G"B2 A2 G2| "C"G2 F2 E2| "D"F2 D2 F2| "D7"D2 F GAB|
+"G"GA GF/2G/2G D| "G"B2 B2 B2| "G"B2 A2 Bc| "D7"dcB cdc| "D7"A4 Bc|
+"D7"d2 c2 B2| "D7"A2 F2 E2| "D7"D2 F GAB| [1 "G"GA GF/2G/2G D:| 
+[2  "G"GF/2G/2 G2 z2||
+S:https://www.folktunefinder.com/tunes/123636
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

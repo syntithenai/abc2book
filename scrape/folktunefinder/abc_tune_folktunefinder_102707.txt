@@ -1,0 +1,28 @@
+X:34
+T:Schwarze Augen
+O:russia
+M:3/4
+L:1/8
+Q:1/4=150
+K:Dm
+V:1
+^G2 A2  |:"A7" B3 A(A2 |A)z ^G2 A2 |"Dm" B3 A(A2 |
+A)z A2 d2 |"A7" d3 ^c^c2 |z2 e2 f2 |"Dm" e3 dd2 |
+z2 f2 g2 |"Gm" f3 eH(e2 |e2) e2 f2 |"Dm" e3 d(A2 |
+A2) ^G2 A2 |"A7" B3 AA2 |z2 E2 F2 |"Dm" (D6 |
+D2) ^G2 A2 :|"A7" BA ^GA BA |^GA BA ^GA |"Dm" BA ^GA BA |
+^GA BA de |"A7" d^c c^c d^c |c^c d^c ef |"Dm" ed ^cd ed |
+^cd ed fg |"Gm" fe _ee fe |_ee fe gf |"Dm" ed ^cd ed |
+ed ^cd ^GA |"A7" BA ^GA BA |^GA Hf2 e2 |"Dm" (d6 |
+d2) |]
+S:https://www.folktunefinder.com/tunes/102707
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/russia.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/russia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

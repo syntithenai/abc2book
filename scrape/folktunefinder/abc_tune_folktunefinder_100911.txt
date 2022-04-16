@@ -1,0 +1,20 @@
+X:245
+T:Plains of Boyle
+Z: id:dc-hornpipe-44
+M:C|
+L:1/8
+K:D Mixolydian
+FG|ADDF ADDA|BAGB ADDe|fedf ed^ce|dcAB cAFG|!
+ADDF ADDA|BAGB ADDe|fedB c2AG|F2D2 D2:|!
+fg|afdf gefe|dfed cAFG|AAfd AAgd|AAfd A2fg|!
+afdf gefe|dfed cAFG|A2FA dBAG|F2D2 D2:|!
+S:https://www.folktunefinder.com/tunes/100911
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Hornpipe.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

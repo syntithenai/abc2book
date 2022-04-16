@@ -1,0 +1,35 @@
+X:525
+T:Geese in the Bog, The
+T:Old Geese in the Bog, The
+R:jig
+H:Played in C or D
+D:Music at Matt Molloy's
+Z:Transcribed by Henrik Norbeck: hn-jig-248
+M:6/8
+D:asin=B000000E8J(Arcady: Many Happy Returns)
+D:asin=B000001V4O(Scottish Bagpipes & Drums: Scottish Bagpipes And Drums)
+D:asin=B000002NP1(William McCallum: Hailey's Song)
+D:asin=B000003LTW(Folk Like Us: Spring Dance: Spirited Traditional Dance Music)
+D:asin=B000005CNO(Liz Carroll: Liz Carroll)
+D:asin=B000005CP5(Eileen Ivers: Eileen Ivers)
+D:anop=B000000E5L(Joe Derrane: Tie That Binds)
+K:C
+cEE GEE|cEE GAB|cEE GED|EAA A2B|cEE GEE|cEE GAB|cBA GED|EAA A2B:|\
+|:cde g2e|gea ged|cde ged|eaa age|cde g2e|gea ged|cBA GED|EAA A2B:|\
+K:D
+|:dFF AFF|dFF ABc|dFF AFE|FBB B2c|\
+dFF AFF|dFF ABc|dcB AFE|FBB B2c:|\
+|:def a2f|afb afe|def afe|fbb baf|\
+def a2f|afb afe|dcB AFE|FBB B2c:|
+S:https://www.folktunefinder.com/tunes/111634
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

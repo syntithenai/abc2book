@@ -1,0 +1,24 @@
+X:145
+T:The (New) Lancaster Hornpipe
+R:Hornpipe
+M:C
+S: Greg Stephens collection
+L:1/8
+K:D
+AG | FA d2 d2 cB | cdef e2 dc | defd gfed | ec A2ABAG |
+FA d2 d2 cB | cdef e2 de | fdec dBAG | F2 D2 D2:|
+|:(3ABc |dAFA DFAf | edcB A2 gf |ecAG FAdf | edcB A2AA |
+BG G/F/G gfed | edcB A2AA |BGAF GEAG | F2 D2 D2 :|
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119403
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

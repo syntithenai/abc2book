@@ -1,0 +1,21 @@
+X:24
+T:Cliffs of Moher
+Z: id:dc-jig-19
+M:6/8
+L:1/8
+K:A Dorian
+a3 bag|eaf ged|c2A BAG|EFG ABc|!
+eaa bag|eaf ged|c2A BAG|EFG A3:|!
+ege dBA|ege dBA|GAB dBA|GAB d3|!
+[1 ege dBA|ege dBA|GAB dBA|BAG A3:|!
+[2 efe ded|cec BeB|EFG AGE|DB,G, A,3|]!
+S:https://www.folktunefinder.com/tunes/128491
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

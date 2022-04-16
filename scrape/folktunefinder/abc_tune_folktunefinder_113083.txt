@@ -1,0 +1,28 @@
+X: 74
+T: Shenandoah Falls
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A
+|:cd|\
+"A"e2 ef edcB|ABcA "D"d3 d|"A"cBcd "E"cBAc|"A"BAFD E2 cd|
+e2 ef edcB|AB (3cBA "D"d2 d2|"A"cBAc "E"BAGB|"A"A3 B A2:|
+|:G2|\
+"Bm"F4 B4|BABA- AA B2|"A"z2 cA B\cAB|cABc- cB A2|
+"Bm"F4 B4|BcBA Bfed|"D"cBAc "E"BAGB|"A"A4 A2:|
+S:https://www.folktunefinder.com/tunes/113083
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

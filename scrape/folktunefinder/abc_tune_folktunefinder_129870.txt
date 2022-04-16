@@ -1,0 +1,28 @@
+X: 39
+T:Madame Bonaparte Variation
+% Nottingham Music Database
+%P:8  12 bars
+S:AA
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+dc|"G"B2BA (3Bcd(3BAG|"C"c2cB (3cde(3cBA|(3"G"GDG(3BGB "Em"(3dBd(3gfe|
+"Am"dcde "D7"(3ded(3cBA|"G"B2BA (3Bcd(3BAG|
+(3"C"cGc(3ece (3gfg(3age|"G"(3GBd(3GBd "D7"(3DFA(3DFA|"G"(3GBd(3GBd G2:|
+P:B
+(3B_BA|"G"GBdf gfge|"D7"d3e dcBA|(3"G"GDG(3BGB "Em"(3dBd(3gfe|
+"Am"dcde "D7"(3ded(3cBA|"G"(3GBd(3gdB (3GBd(3gdB|
+"C"(3Gce(3gec "C"(3Gce(3gec|"G"(3GBd(3gdB (3GBd(3gdB|
+(3"D7"Adf(3afd "D7"(3Adf(3afd|(3"G"GBd(3gdB (3GBd(3gdB|
+(3"C"cGc(3ece (3gfg(3age|(3"G"GBd(3GBd "D7"(3DFA(3DFA|(3"G"GBd(3GBd G2:|
+S:https://www.folktunefinder.com/tunes/129870
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

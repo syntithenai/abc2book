@@ -1,0 +1,29 @@
+X:19
+T:Chelsea Reach
+C:John Playford, 1657
+%%abc-version 2.0
+A:Play AABBBB, AABB, AABB.
+%%vskip 0
+M:6/8
+L:1/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=80
+K:F
+%%vskip 0
+P:A
+|: c | "F"A>GF "C7"G2E | "F"F2F F2f | "Bb"def def | "C"g2e c2c | \
+"F"ABc ABc | "Bb"Bcd d>cB | "F"A>GF "C7"G2e | "F"f2F F2 :|
+P:B
+|: f | "F"f>gf "Bb"d>cd | "C"d>ed "F"c>BA | "Dm"A>Bc "G7"cd=B | "C"c2c "C7"c2c | \
+"F"AGA "Bb"BAB | "C"GAB "F"cBc | "Bb"def "C7"fge | "F"f2F F2 :|
+S:https://www.folktunefinder.com/tunes/110066
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

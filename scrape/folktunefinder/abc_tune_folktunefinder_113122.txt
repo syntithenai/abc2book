@@ -1,0 +1,42 @@
+X: 113
+T: Farewell to Ireland
+S: Bernie Waugh
+R: Reel
+M: 4/4
+L: 1/8
+K: A Dorian
+|:\
+"Am"A,/A,/A,A,C E2EF|"G"GEDB, G,A, (3B,A,B,|\
+"Am"A,2A,C E2EF|"G"GEDB, "Am"EA,A,G,|
+"Am"A,/A,/A,A,C E2EF|"G"GEDB, G,3g|\
+"Em"edeg ab (3agf|gedB "Am"~BAA2:|
+|:\
+"Am"a2ab agef|"C"g/g/gga gedf|\
+"Am"eaab agef|"Em"gedB "Am"~BAA2|
+"Am"agef "C"fgge|"G"dedB "Em"GA (3B^cd|\
+"A"(3^cBA ~BA ecAa|"Em"gedB "A"~BAA2:|
+|:\
+"A"eA (3^cBA eA (3cBA|"Em"B2BA GABd|\
+"A"eA (3^cBA ecAa|"Em"gedB "A"~BAA2|
+"Am"agef "C"fgge|"G"dedB "Em"GA (3B^cd|\
+"A"(3^cBA ~BA ecAa|"Em"gedB "A"~BAA2:|
+|:\
+"A"ae^ce aece|"Em"gdBd gdBd|\
+"A"ae^ce aece|"Em"gedB "A"~BAA2|
+"Am"agef "C"fgge|"G"dedB "Em"GA (3B^cd|\
+"A"(3^cBA BA ecAa|"Em"gedB "A"~BAA2:|
+S:https://www.folktunefinder.com/tunes/113122
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

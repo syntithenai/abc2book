@@ -1,0 +1,27 @@
+X: 310
+T: THE BANKS OF THE SHANNON
+T: Bruacha na sionain
+B: O'Neill's 310
+M: 3/8
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: "Collected by O'Brien"
+K:G
+(G/E/) \
+| DE (G/A/) | BB (A/G/) | (E/F/) GG | AG (E/D/) \
+| (E/F/) GA | Bg ((3f/e/d/) | e2 (d/e/) | d2 ||
+|| (d/e/) \
+| gg (e/d/) | eg (e/d/) | eB (A/G/) | (G/E/) HD ((3G/B/d/) \
+| e2 (d/c/) | ({c}B/A/) B (A/G/) | EB (A/>G/) | G2 ||
+S:https://www.folktunefinder.com/tunes/121973
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0310_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

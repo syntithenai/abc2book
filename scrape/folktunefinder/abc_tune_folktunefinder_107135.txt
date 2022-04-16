@@ -1,0 +1,25 @@
+X: 2
+T: Opera Reel
+I: Opera ReelR-52Dreel
+M: C|
+R: reel
+K: D
+(3A,B,C |: "D"D2D2 FEFA| DCDF "A"EDCA,| "D"D2D2 FEFA|1           "G"BdAF "A"EDCE :|2 "G"BdAF "A"(3EEE |]
+|:(3ABc| "D"dcec dAFA| Adcd "A"egfe| "D"dcec dAFA| "G"BdAF "A"E2 :|
+|:fg| "D"afaf "A"gfge| "D"fafe "A"dcBA| "D"afaf "G"gfge| "A"faec "D" d2 :|
+|:(3ABc| "D"defd "A"efge| "D"faec "A"dcBA| "D"defd "G"efge| "A"faec "D"d2 :|
+%%text  Roaring Jelly  R-52
+%%text 10/27/99
+S:https://www.folktunefinder.com/tunes/107135
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

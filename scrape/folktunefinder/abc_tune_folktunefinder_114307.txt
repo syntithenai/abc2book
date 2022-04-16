@@ -1,0 +1,48 @@
+X:7
+T:Pellikvalsen e Leisme Per (vals)
+R:vals
+Z:Falu, i Stoten, Track 1a; 2000 Brian Wilson
+M:3/4
+L:1/8
+K:A
+P:A
+|: E2 cc c2 \
+| Ac ea af \
+| fd d2 d2 \
+| d2 fa fd \
+| dc c2 c2 \
+| Ac ea fd \
+| B2 df ec \
+| cA ce dB \
+| EG Bd BG \
+| A4 E2- :|
+P:B
+|: E2 cB Ac \
+| cB dc BA \
+| G2 BE GB \
+| A2 fe cA \
+| E2 cB Ac \
+| cB dc BA \
+| G2 BE GB \
+|[1 A4 E2 \
+:|[2 A3 Bcd |
+P:C
+|: e2 ae ce \
+| d2 fe dB \
+| EG BE GB \
+| AG AB cd \
+| e2 ae ce \
+| d2 fe dB \
+| EG BE GB \
+|[1 A3 Bcd \
+:|[2 A4 E2 |
+S:https://www.folktunefinder.com/tunes/114307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PellikvalsenELeismePerVals.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

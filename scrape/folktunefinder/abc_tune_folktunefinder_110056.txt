@@ -1,0 +1,28 @@
+X:9
+T:The Bribe
+%%staffsep 46
+C:Colin Hume, 2003
+M:2/2
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=90
+N:For Orly Krasner
+K:G
+P:A
+|: "G"G2 G/2B/2A | "Em"G3 G | "Am"A2 A/2c/2B | "D7"A3 A | "G"B2 B/2c/2d | "Em"dc BG |
+"C"e2 e/2f/2g | "D7"gf ed | "G"g2 "G/F#"g/2b/2a | "Em"g2- "Em/D"gB | "C"cB "D7"A3/2G/2 | "G"G4 :|
+%%vskip 0
+P:B
+[| "D"F2 F/2G/2A | "A/C#"A2 B^c | "Bm"d^c B3/2c/2 | "A"A4 | "G"B2 B/2^c/2d | "D/F#"d2 ef |
+"Em"gf e3/2d/2 | "A"e2 fg | "D"a2 "D/C#"de | "Bm"f2 "Bm/A"ef | "G"gf "A7"e3/2d/2 | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/110056
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

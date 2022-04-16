@@ -1,0 +1,30 @@
+X: 8
+T:Drunken Wives,The. GS.008
+M:4/4
+L:1/8
+Q:150
+S:George Spencer m/s, Leeds,1831
+R:Strathspey
+O:England
+A:Leeds
+H:1831
+Z:vmp.Cherri Graebe
+Z:vmp.Cherri Graeb
+K:F major
+A | D/2D/2D D2 F>GA>F | G/2G/2G G>A "tr"B>GA>d | D/2D/2D D>E F>GA>c | d<
+fc>f "tr" A>GG :||:!
+ e|f>ec>A "tr"(f>ga>f) |g/2g/2g g>a b>ga>g |
+ f>dc>A f>g {fg}a>g|f>dc>A "tr"B>GG>(e|!
+f)>ec>B (f>ga>f) | g/2g/2g g>a {ga}b>ga>(f |
+ f)>dc>A (f>g{fg}a>g) | f>dc>f "tr"A>GG ||
+S:https://www.folktunefinder.com/tunes/104682
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

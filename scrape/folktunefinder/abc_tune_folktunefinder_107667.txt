@@ -1,0 +1,25 @@
+X:190
+T: Strap the Razor
+S: "Roche Collection of Traditional Irish Music" [I/44/103]
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D | DGG BAG | AFD FDC | DGG BAG | Add cAG |
+DGG BAG | AFD D2E | =FDE F2G | Add cAG :|
+K: F
+Ade f2g | aba f2d | cAG FGA | Add cAG |
+Ade f2g | aba f2d | cAG FGA | Add cAG :|
+S:https://www.folktunefinder.com/tunes/107667
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

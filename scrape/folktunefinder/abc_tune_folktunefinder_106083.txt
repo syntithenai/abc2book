@@ -1,0 +1,33 @@
+X:145
+T:Battle of Aughrim, The
+M:2/4
+L:1/16
+S:Walker's Historical Memoirs of the Irish Bards, London 1786
+R:March
+K:G
+"Moderato"ABAG ABAE|ABAG ABAE|ABAG ABAE|ABAG ABAE|!
+(3AGA (3AGA (3AGA A>E|(3AGA (3AGA (3AGA A>E|
+(3AGA (3AGA (3AGA A>E|{CDEGA}B3c d3e|!
+d2e2 d2f2|d2e2 d2f2|d2e2 d2e2|d8|!
+cBAG E4|ABAG ABAE|ABAG ABAE|ABAG A3E|!
+(3AGA (3AGA (3AGA A>E|(3AGA (3AGA (3AGA A>E|!
+GABc d3e|d2e2 d2f2|d2e2 d4|BAGF E4||
+%
+% To the musical antiquary war cries and battle pieces may not be
+% without interest. To the modern ear they possess but little
+% attraction; yet when Martin O'Reilly, the blind piper from Galway,
+% at the Dublin feis in 1901 played a descriptive selection entitled
+% "The Battle of Aughrim 1691" in which the blare of trumpets, battle
+% onslaught, and wailing of the women were imitated, his performance
+% was rapturously applauded.
+S:https://www.folktunefinder.com/tunes/106083
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

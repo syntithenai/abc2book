@@ -1,0 +1,31 @@
+X:103
+T: Lishui chuangong haozi  1.
+N: C0131A
+O: China,Hunan, Jinshi, Lixian
+S: I, 549]
+N: I: Yao Meizo hu he; II: di chang; III: gao chiang
+N: Zu diesen Themen gibt es viele Melodien.
+N: Vereinzelt Verzierungen.
+R: Haozi, Chuangong haozi. Pingshui xingchuan shi chang]
+M: 2/4
+L: 1/16
+K: F
+Afd2d2c2 | A2dcA4
+d6c2 | AcA2c4
+d6c2 | AcA2c4
+c4A2G2 | G4A4
+c2Adc2cA | G2AGAF4
+G6F2 | DFD2F4
+S:https://www.folktunefinder.com/tunes/112530
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, chuangong haozi. pingshui xingchuan shi chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

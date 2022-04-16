@@ -1,0 +1,22 @@
+X:575
+T:Paddy Taylor's
+Z: id:dc-jig-100
+M:6/8
+L:1/8
+K:D Major
+B|ABA g3|a3 efg|f3 ged|cAG EFG|!
+ABA g3|a3 efg|f3 gec|edc d2:|!
+e|fed edc|ded cAG|A3 DFA|fed ecA|!
+fed edc|ded cde|fed cAG|Adc d2:|!
+S:https://www.folktunefinder.com/tunes/128751
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

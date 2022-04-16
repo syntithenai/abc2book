@@ -1,0 +1,29 @@
+X:40
+T: Graf von Rom
+N: Q0014C
+O: Mitteleuropa, Deutschland / Polen, Schlesien
+N: geistliche Kontrafaktur mit Tonangabe des "Bruder-Veiten-Ton" , der
+N: ebenfalls zu dieser Ballade gesungen wurde.
+N: Eingeklammerte Pausen kodiert.
+R: Ballade, Pilger - Reise, Gefangenschaft, Befreiung, Ehe, Liebe;
+M: none
+L: 1/4
+K: F
+F | FFA2F | A2Bc2
+c | dc2BAB | c2z2
+F | FFA2F | A2Bc2
+c | dc2BAB | c2z2
+c | ccc2c | B2G2
+c2 | B2GAF2 | E2z
+c | ccc2F | A2Bc2
+d | c2ABG2 | F2
+S:https://www.folktunefinder.com/tunes/109978
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, pilger - reise, gefangenschaft, befreiung, ehe, liebe;
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

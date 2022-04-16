@@ -1,0 +1,48 @@
+X:30
+T:Mignonne, allons voir si la rose
+T:Ode  Cassandre
+R:Menuet
+C:Jehan Chardavoine / Ronsard
+H:1576
+N:
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:F
+A2 A G A3 c | B3 A G2 F2 | G2 G F G3 F |
+G2 B2 A2 D2 | G2 G F G3 F |1 G2 G2 A4 :|2 E2 E2 D4-|D8 ||
+W:Mignonne, allons voir si la rose
+W:Qui ce matin avoit desclose
+W:Sa robe de pourpre au Soleil,
+W:A point perdu ceste vespre
+W:Les plis de sa robe pourpre,
+W:Et son teint au vostre pareil.
+W:
+W:Las ! voyez comme en peu d'espace,
+W:Mignonne, elle a dessus la place
+W:Las ! las ses beautez laiss cheoir !
+W: vrayment marastre Nature,
+W:Puis qu'une telle fleur ne dure
+W:Que du matin jusques au soir !
+W:
+W:Donc, si vous me croyez, mignonne,
+W:Tandis que vostre ge fleuronne
+W:En sa plus verte nouveaut,
+W:Cueillez, cueillez vostre jeunesse :
+W:Comme  ceste fleur la vieillesse
+W:Fera ternir vostre beaut.
+%%vskip 0.5cm
+%%sep
+%%text Baroque et classique
+S:https://www.folktunefinder.com/tunes/99557
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Rhythm Menuet
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

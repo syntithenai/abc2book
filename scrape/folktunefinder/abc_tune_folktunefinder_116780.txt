@@ -1,0 +1,34 @@
+X:13735
+T:Quadrille. CJF.140
+M:6/8
+L:1/8
+Q:120
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Quadrille
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Marked "No. 3" above start of first stave. "C J Fox" written in stave,
+N:at end of tune. The note marked "e" is a G on the stave, with the
+N:letter "e" written below in the MS. - PJH
+Z:P J Headford 2000
+K:C
+"$"c2(d edc)|(d>G)G GAB|{d/}cBc {e/}dcd|eagd2e|!\
+c2d edc|(d>G)G GAB|(ca)g(d2e|.c.G.EC2zh||!
+d3-dbg|g3^fga|(b2g)(d2B)|(d2A) ABc|d3dbg|!\
+g3-g.^f.e|(dBG) DE^F|(A3G2)G"$"||!(A3E2)C|
+A,3-A,B,C|D2EF2E|"e"EDCB,3|!\
+a3e2c|A3ABc|G3GFD|C3C2z"$"||
+S:https://www.folktunefinder.com/tunes/116780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

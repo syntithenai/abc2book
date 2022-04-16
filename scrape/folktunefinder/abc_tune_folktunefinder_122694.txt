@@ -1,0 +1,22 @@
+X:10
+T:Hard Ground
+T:to the tune of "Bantry Bay"
+Z:Dave Holland dave@biff.org.uk
+M:4/4
+L:1/8
+K:G
+P:A - figure
+"G"B>A B>G "D"A>G (3DEF|"G"G2 G>F G2-G>F|"Am"E>A A>B c>B A>G|"Am"(3ABA "E"^G>B "Am"A2-A>B|
+"C"c>e c>A "G"B>d B>G|"Am"A>B A>G "C"E2 "D"D>E|"G"B>A B>G "D"A>G (3DEF|1"G (first time only)"G2 G>F G>D G>A:|"G"G2 G>F G2 B>c||
+P:B - chorus
+"G"d2-d>e d>B G>d|"C"e2 e2 e2-e>f|"G"(3gag "D"f>d "G(Em)"B>G B>d|"G"(3gag "D"f>a "G"g2 e>f|
+"Em"g>b g>f "C"e>g e>d|"G"B>A (3BAG "C"A>G "D"E>D"*"|"G"B>A B>G "D"A>G (3DEF|"G"G2 G>F G2|]
+S:https://www.folktunefinder.com/tunes/122694
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

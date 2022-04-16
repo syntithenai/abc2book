@@ -1,0 +1,23 @@
+X:1
+T:VIII. Burst forth my tears
+T:Cantus.
+C: John Dowland
+O: From The First Booke of songs or Ayres of foure parts, with Tableture for the Lute
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on first line
+K:G dorian
+z4 G4 z2 B4 G4 F4 B4 G2 | B2 A2 G3 A ^F4 | 
+z4 z2 A2 | F2 G2 A3 c | B2 A2 G3 G A4 |
+S:https://www.folktunefinder.com/tunes/111081
+S:http://www.laymusic.org/music/dowland/burst/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

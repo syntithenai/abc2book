@@ -1,0 +1,23 @@
+X: 1
+T:the Atholl Highlanders
+R:Pipe march
+O:Scotland
+M:6/8
+K:Amix
+|: e3 ecA | ecA Bcd | e3 ecA | Bcd cBA |\
+e3 ecA | ecA Bcd | eae fed | cdB A2A :|
+|: Ace Ace | Adf Adf | Ace Ace | Bcd cBA |\
+Ace Ace | Adf Adf | eae fed | cdB A2A :|
+|:a2e edc | a2e edc | a2e edc | Bcd cBA |\
+a2e edc | a2e edc | eae fed | cdB A2A :|
+ cAc cAc | dBd dBd | cAc cAc | BGB BGB |\
+cAc cAc | dBd dBd | eae fed | cdB A3 :|
+S:https://www.folktunefinder.com/tunes/128807
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/at/Atholl_Highlanders_5.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

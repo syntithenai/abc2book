@@ -1,0 +1,33 @@
+X: 102
+T:Lord Brougham's Hornpipe
+M:4/4
+L:1/8
+Q:160
+S:c1835,Browne Coll.Armitt Library, Ambleside
+K:D
+(3ABc)|defd AdFA|DFAd fdef|gabg fgaf|egBe dcBA|
+defd AdFA|DFAd edef|gabg face|d2f2d2:|
+|:(3ABc)|dfag fadf|gbed ceAc|dcBA GEed|c2A2A2(3ABc)|
+dAdf eAeg|fAfa edef|gabg face|d2f2d2:|
+%%vskip .5cm
+T:Cumberland Reel. 
+M:2/4
+L:1/16
+Q:100
+S:c1825, Browne Coll. Armitt Library, Ambleside
+K:G major
+G2ge "!"dBAG|FDAD BDAD|G2ge dBAG|DGFA BGG2:|
+|:gedc BcdB|Aaa^g aeef|gedc BcdB|dgfa bgg2:|
+W:Bar 1 (G2ge d2B2A2G2) in ms. CGP. |
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119412
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

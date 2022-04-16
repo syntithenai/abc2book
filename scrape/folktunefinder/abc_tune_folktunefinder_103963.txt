@@ -1,0 +1,24 @@
+X:7
+T:Qui Tolis (Trio)
+C:Andr Raison
+M:3/4
+L:1/4
+%%staves [(Pos1 Pos2) Trompette]
+K:F
+%
+V:Pos1
+"Positif"x3  |x3    |c'>ba|~ga/g/f|:g2a  |ba2    |g2c- |c2~=B  |c>de  |fga    |g2c/d/  |
+V:Pos2
+~f>ed|cd/c/B|~A2d |ef/e/d |:e2f  |ef2    |c>BA |GA/G/F |E>FG  |ABc-   |c>BA    |
+V:Trompette
+"Trompette"z3|z3    |z3   |z3     |:~c>BA|~GA/G/F|~E>EF|~EF/E/D|C>C~B,|A,G,F,-|F,~E,F,-|
+S:https://www.folktunefinder.com/tunes/103963
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/voices.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

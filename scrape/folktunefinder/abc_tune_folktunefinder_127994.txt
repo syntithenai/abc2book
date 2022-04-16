@@ -1,0 +1,31 @@
+X:108
+T:Young Man's Fancy, The
+R:Hornpipe
+O:England
+M:4/4
+N:Em version of "the Cuckoo's nest". Various versions exist
+A:Lancashire
+B:Winder
+K:Em
+BA |\
+GFGE g2fe | dBAG c2BA | GFGE DEFD | d2A2 A2BA |\
+GFGE g2fe | dBAG c2BA | GFGE DcBA | G2E2 E2 :|*
+|:B2 |\
+e2e2 efgf | e2B2 B2Bc | d2d2 defe | d2A2 A2gf |\
+edef g2fe | dBAG c2BA | GFGE DcBA | G2E2 E2 :|*
+|:GA | \
+BGEG BGEG | BAGF E2FG | AFDF AFDF | AGFE D2GA |\
+BGEG BGEG | BGFE g2fe | dBAG AcBA | G2E2 E2 :|**
+S:https://www.folktunefinder.com/tunes/127994
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Winder.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,64 @@
+X:13 
+T:Variation no. 13 
+C:J.S.Bach 
+M:3/4 
+Q:100 
+V:2 bass 
+V:3 bass 
+K:G 
+[V:1] [L:1/32] BcBAB4- BFGAB2c2 dcB2A2G2|ded^cd4- dcdef2g2 agf2e2d2|gagfg4- gfefg2e2 A2b2a2g2| 
+[V:2] [L:1/16] z3B,D8-|D3A, D8-|D3B, ^C8| 
+[V:3] [L:1/8]  G,3G,F,E,|F,3B,A,B,|E,3A,G,A,| 
+% 
+[V:1] g/f/efed4- d^cdef2g2 a2b=c'b2a2|g=fe2Pf4- fdgabc'd'2 c'2b2a2g2|=fed2de3- edcBcde2 d2g2e2c2| 
+[V:2] z3F,A,8|z3D,G,8-|G,3^F,G,8-| 
+[V:3] D,3E,D,=C,|B,,3G,,A,,B,,|C,3A,,B,,C,| 
+% 
+[V:1] BAG2A4- AGABcFGA DFEDAGFc|cBA2B4- BAGFGBdf gfedfabc'|bag2-gfe2- e^de2-efg2- gab2-bgfe| 
+[V:2] G,3E,F,8|z3D,G,4z4|z2B,2E8-| 
+[V:3] D,3D,C,D,|G,,3G,,B,,D,|G,3G,F,E,| 
+% 
+[V:1] agf2-fed2- d^cd2-def2- fga2-afed|(gaba.g2).f2 (efgf.e2).d2 (^cded.c2).B2|MA12-A^cBA Bcdef2g2| 
+[V:2] E2A,2D8-|D2B,2G,8-|G,A,G,F, G,2z2 z4| 
+[V:3] F,3B,A,B,|E,3F,E,D,|^C,3E,A,,G,,| 
+% 
+[V:1] ad^cdedcd AdGdFdEd FdAdFdD=c|Bd^cdedcd BdAdGdFd GdBdGdEd| 
+[V:2] z2A,2D6A,2|G,2B,2E6B,2| 
+[V:3] F,,F,3/4E,// F,A,D,F,|G,,G,3/4F,// G,B,E,G,| 
+% 
+[V:1] ^cGFGAGFG ecBcdcBc gedeagfe|(f2^c2)(c2d2) (d2G2)(G2F2)F8 ::fgfef4- fefga2b2 =c'ba2g2f2| 
+[V:2] A,2^C2[K:treble]G2E2C4|D2E,2F,2_B,2A,4 ::z3FA8| 
+[V:3] A,,A,3/4G,// [K:bass] A,3A,|D,6 :: [K:treble]D3=C/B,/ CA,| 
+% 
+[V:1] gagfg4- gFGAB2c2 dcB2A2G2|efe^de4- e2^g2g2a2 a2b2b2c'2|e^d^c2Pd4- d4-ddef edcBAGAf| 
+[V:2] z3DG8-|G3^GA2=D2E2=G2-|G2FE F2z2 z4| 
+[V:3] B,3DG,B,|C3B,CA,|B,3[K:bass]B,,^C,^D,| 
+% 
+[V:1] Ge^defede fegeaebe c'e=d'ec'ebe|c'e^de=fede c'ebeaege ^fegeaed^c| 
+[V:2] z2B,4A,4^G,2|z2C4E2C2A,2| 
+[V:3] E,,G,/A,/ G,F,E,2|A,,A,/=G,/ A,CA,F,| 
+% 
+[V:1] .^d(agabaga) .B(gfgagfg) .A(fefgagf)|(g2^d2)(d2e2) (e2A2)(A2G2) PG4-GBc=d| 
+[V:2] z2F,2 G,2E4 ^D2|E2F,2G,2C2B,2z2| 
+[V:3] B,,^D,E,G,B,2|E,4-E,=D,| 
+% 
+[V:1] e=fe^de4- e2A2BAG2 AG^F2F2e2|=ded^cd4- d2G2AG=F2 GFE2E2d2|=cBA2-A=G^F2- FED2-DEF2- FGA2-ABc2-| 
+[V:2] z3G, C=DE2D2^C2|B,3F, B,=CD2 C2B,2|A,2E,2 A,2C2A,2F,2| 
+[V:3] C,2zCB,^A,|B,B,,z B,=A,^G,|A,A,,z2 z2| 
+% 
+[V:1] cdcBcgfe fbagad'c'b c'bagfedc|Bgfgagfg cfefgfef d=fefgfed| 
+[V:2] D,4 z4z4|z2E2_E2D2G2B,2| 
+[V:3] zA,,D,,F,,A,,D,|G,,G,A,B, zG,| 
+% 
+[V:1] .e(cBcdcBc) .d(BABcBAB) .^c(_BAB=cBAG) |.F(c=BcdcBc) .f(cBcdcBc) .a(cBcdcBA) |(B2F2)(F2G2) (G2C2)(C2B,2)HB,8  :| 
+[V:2] C2G,2A,2D2E2A,2-|A,2A,G,A,4G,2F,2|G,2A,2B,2F,2HG,4  :| 
+[V:3] C,E,=F,^F, G,F,/E,/|D,3F,E,D,|G,,2z_E,H[G,,2D,2]  :|
+S:https://www.folktunefinder.com/tunes/124445
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

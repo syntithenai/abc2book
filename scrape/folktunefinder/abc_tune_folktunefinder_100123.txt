@@ -1,0 +1,26 @@
+X: 86
+T:Hobo's Jig
+R:Jig
+Z:Added by alf.warnock@rogers.com
+M:6/8
+L:1/8
+Q:3/8=120
+K:A
+[e3A3]|[ec]ee e2e|{g}fec ef/2g/2a|geg efg|aga fed|
+[ec]ee e2e|{g}fec ef/2g/2a|gag efg|[1 {g}[a3A3] a2[eA]:|[2 aAA =gAA|
+K:D
+|:faf edc|dAF {c}BAF|[GA]FG [AE]FG|{c}BAF Ade|
+faf edc|"To Coda"dAF AB/2c/2d|cec ABc|[1 edc d2A:|[2 edc d2[eA]||
+"Coda"dAF A2 [de]|[ce]BA [GA]FE|D3 [D3A3]|]
+S:https://www.folktunefinder.com/tunes/100123
+S:http://www.alfwarnock.info/alfs/abc/accw01.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

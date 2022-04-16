@@ -1,0 +1,30 @@
+X:143
+T: Cai Cha ge
+N: C0240
+O: China,Hainan, Nanhai Jiujiang
+S: II, 349, 1)]
+N: Band 12 absuchen ggf auch 130 vergleichen 
+N: die folgenden Signaturen enthalten synonyme Titel oder wichtige
+N: synonyme Bestandteile(bestehende Sign mitgenannt:
+N: 126, 130, 240, 409, 364, 363, 609, 625, 634, 698, 854,
+N: 926, 927, 1118, 1222, 733.
+R: Xiaodiao, Wuge, Caicha. Xin minge]
+M: 2/4
+L: 1/8
+K: F
+A2F2 | G2A2 | D2C2 | G2AG | F2Dz
+G2A2A2 | G2E2 | DFC3D | CDF2 | D2C2 | D2z2
+F2GA | A2c2 | A2AC | G2AG | F2D2
+A,2F2 | FDCD | A2c2 | F3C | D4
+S:https://www.folktunefinder.com/tunes/112570
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, wuge, caicha. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

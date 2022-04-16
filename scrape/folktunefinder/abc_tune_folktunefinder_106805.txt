@@ -1,0 +1,26 @@
+X:17
+T:Dinky's Reel
+R:reel
+Z: Transcribed to abc by Mary Lou Knack
+P:A Mixolydian
+M:C|
+K:Amix
+ed| \
+"A"cdBc ABcd| egfd edBd| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gfed|
+"A"cdBc ABcd| egfd edBd| "G"gfge "D"dfed| "E"cdBc "A"A2 :|
+e^g| \
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gfge "D"dfed| "E"cdBc "A"A2e^g|
+"A"aA (3.A.A.A aAbA| aA (3.A.A.A agef| "G"gB (3.B.B.B gBaB| gB (3.B.B.B gefg|
+"A"aA (3.A.A.A "G"gA (3.A.A.A| "D"fA (3.A.A.A "A"e2ef| "G"gfge "D"dfed| "E"cdBc "A"A2|]
+%%newpage
+%%text 7
+S:https://www.folktunefinder.com/tunes/106805
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarchOfStTimothyR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

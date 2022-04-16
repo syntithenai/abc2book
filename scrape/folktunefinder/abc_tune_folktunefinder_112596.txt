@@ -1,0 +1,60 @@
+X:169
+T: Ha yao gua  ---- Shuang hao
+N: C0281
+O: China,Heilongjiang, Yichun
+S: III, 77]
+N: Wird beim Holztragen gesungen. Eine Periode hat 2 Saetze, der
+N: Rhythmus "32" ist mit dem Schritt verbunden: Beim Akzent wird
+N: der Fuss gewechselt. Dazwischen 1 Schlag Pause. Der Vorsaenger
+N: kann Text oder Melodie frei veraendern.
+N: Zweistimmig, aber keine echte Zweistimmigkeit.! Da aber die Oberstimme jeden
+N: 2. Takt pausiert, ist  an diesen Stellen die Unterstimme kodiert. Daher sind
+N: beide Stimmen notiert: jeder 2. T. wird von der zweiten Stimme gesungen,
+N: also meist 5__ , waehrend die andere pausiert. In den T.15/25/51 ist die
+N: uebergebundene 5, Wert 16) weggelassen, weil ansonsten nur die Oberstimme
+N: kodiert ist. Zahlreiche Verzierungen. Grundton nicht angegeben., 04=68-78)
+N: Fehlen Oktavierungspunkte, z.B. Phr.11) Viele Verzierungen, Glissandi.
+N: Doppelt in C1265.
+R: Haozi, Taimu Haozi. Tongyi bufa, Tiaojie jingli]
+M: 2/4
+L: 1/32
+K: D
+d3dd2d2B4A4 | A4d4 | B8d8 | A4A4
+B4F2A2B2A2B4 | A8
+B4A2B2d4A2B2 | A4A4
+B4e4B8 | A8
+d8A8 | A8
+B4^G2A2d4B2z2 | A8
+e4c4B8 | A8
+B8A4F2F2 | A8
+E4A2A2B2A2B4 | A8
+B3BA2B2d4A2B2 | A8
+e4c4B8 | A8
+B8A4B2z2 | A8
+E4A2A2B4A2B2 | A8
+z4c4B8 | A8
+d8A4F2F2 | A8
+B4A2A2F2A2B4 | A8
+B4A2B2d4A2B2 | A8
+e8B8 | A8
+B2A2B4A8 | A8
+d4F2A2d4A2B2 | e8 | B8d8 | A8
+z4c4B8 | A8
+B8A4F2F2 | A8
+A4F2A2B2A2B4 | A8
+B4e4B8 | A8
+B2z2B2z2A8 | A8
+F4c2c2B4A2A2 | A8
+d4d4B4A2F2 | A8
+S:https://www.folktunefinder.com/tunes/112596
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, taimu haozi. tongyi bufa, tiaojie jingli]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

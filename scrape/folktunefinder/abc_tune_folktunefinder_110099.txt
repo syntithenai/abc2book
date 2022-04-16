@@ -1,0 +1,34 @@
+X:52
+T:The Hobby Horse
+C:Colin Hume & Peter Jenkins, 1980
+L:1/8
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+%%MIDI chordname dim 0 3 6 9
+K:G
+P:A
+[| "G"GFGA "^/"BABc | "G"d2G2 "^/"G2z2 | "Am"e2A2 "^/"A2e2 | "Dm"=fedc "E7"B4 |\
+"Am"A^GAB "^/"cBcd | "Am"e2A2 "^/"A2e2 | "Ddim"=f2B2 "^/"B2f2 | "E7"edcB "Am"A3B |
+%%vskip 0
+P:B
+"C"c4 "^/"c2e2 | "G"dcBA "^/"G4 | "C"c4 "^/"c2e2 | "G"d2g2- "^/"g2 "Ddim"^g2 |\
+"Am"a2e2 "^/"e2g2 | "F"=fedc "E7"B2cd | "Am"e2A2 "E7"cBA^G | "Am"A2z2 "G7"B2z2 |
+%%vskip 0
+P:C
+"C"c2c2 "^/"cdec | "G"d2z2 "^/"G2z2 | "C"c2c2 "^/"cdec | "G"d2z2 "^/"g2z2 |\
+"B7"f2f2 "^/"fgaf | "Em"g2z2 "^/"b2z2 | "D"a2a2 "A7"ab^c'a | "D"d'2z2 "D7"d2z2 |
+%%vskip 0
+P:D
+"G"GFGA "^/"BABc | "G"d2G2 "G7"G2z2 | "Am"e2A2 "^/"A2e2 | "B7"f2B2 "^/"B2f2 |\
+"Em"g2e^d "C"efge | "G"d2B2 "E7"B4 | "Am"cBcd "D7"edef | "G"g2G2 "^/"G4 |]
+S:https://www.folktunefinder.com/tunes/110099
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

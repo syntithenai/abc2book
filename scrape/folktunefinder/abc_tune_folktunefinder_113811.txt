@@ -1,0 +1,23 @@
+X:383
+T:Larry the Beerdrinker
+R:jig
+Z:id:hn-jig-383
+M:6/8
+L:1/8
+K:D
+D2F FEF | AFE F2E | D2F FEF | AFD E2F |
+D2F FEF | AFA d2d | cBA BAF |1 AFE E2F :|2 AFE E2f ||
+|: ecA ABA | ecA A2f | ecA Ace | fdB Bcd |
+ecA ~B3 | AFE ~a3 | fed cdB |1 AFE E2f :|2 AFE E2c ||
+|: d2F FEF | AFE F2A | d2F FEF | AFD E2c |
+d2F FEF | AFA d2d | cBA BAF |1 AFE E2A :|2 AFE E2F ||
+S:https://www.folktunefinder.com/tunes/113811
+S:http://www.norbeck.nu/abc/i/hnj3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

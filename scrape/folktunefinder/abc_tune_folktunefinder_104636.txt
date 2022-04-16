@@ -1,0 +1,39 @@
+X:4
+T:Volupta (valse musette) - in D
+C:V. Marceau
+I: Rights for public performance
+Q:1/4=200
+M:3/4
+P:IABACA
+K:D %Transposed from C
+P:I
+F2  ||"Bm"d6 |(3ded c2 B2 |"F#7"c2 z F F2 |F2 z2 F2 ||
+P:A
+"Bm"d6 |c4 B2 |F6 |F2 D2 E2 |F6 |D4 E2 |"F#7"C6 |\
+C6 |E6 |c4 B2 |^A6 |^A2 z2 z2 |F2 G2 F2 |(3EFE D2 C2 |
+"Bm"B,6 |B,2 B,D FB |d6 |c4 B2 |F6 |\
+F6 |"B7"[F6^D6] |A4 B2 |A6 |
+"Em"G6 |E6 |G4 B2 |"Bm"F6 |\
+(3ded c2 B2 |"F#7"F6 |c2 d2 c2 |"Bm"B6 |B2 z2 z2 |
+P:B
+|:"A7"A3 B c2 |(3cdc B2 A2 |"D"d3 e f2 |\
+(3fgf e2 d2 |"A7"c3 d e2 |(3gag f2 e2 |"D"dcedcB |A2 B2 ^A2 |
+"A7"A3 B c2 |(3cdc B2 A2 |"D"d3 e f2 |\
+(3fgf e2 d2 |"A7"c3 B A2 |(3GAG F2 E2 |"D"D6 |1D2 B2 ^A2 :|2D2 z2 F2 ||
+P:C
+K:G
+|:"G"GA BG AB |[e3B3G3] [eBG] [e2B2G2] |GA BG AB |"D"[d3c3F3] [dcF] [d2c2F2] |
+ABcABc |[f3c3A3] [fcA] [f2c2A2] |[e3A3F3] [eAF] [e2A2F2] |
+"G"[d3B3G3] [dBG] [d2B2G2] |GAB GAB|[e3G3B3] [eGB] [e2G2B2] |\
+GAB GAB|"Am"[e3c3A3] [ecA] [e2c2A2] |
+"Gdim"e^d eg fe |"G"d3 [dBG] [d2B2G2] |\
+"D7"de dc BA |1"G"G2 e2 d2 :|2"G"G2 z2 F2||
+S:https://www.folktunefinder.com/tunes/104636
+S:http://domren.free.fr/ABC.htm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

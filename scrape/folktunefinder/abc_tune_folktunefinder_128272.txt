@@ -1,0 +1,28 @@
+X:8
+T:Miss Maule's Strathspey
+C:"By R. Mackintosh"
+S:Petrie's Second Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 6/5/04
+N:Petrie's Second Collection, page 3
+L:1/8
+M:C
+R:Strathspey
+K:A
+E|({AB}c2) A>E F<AE<C|({AB}c2) A>E F(BBd)    |Tc>B A>E F<AE<C|D>FE<G [C/E/A/][C3/2E3/2A3/2][CEA]:|
+E|c<ea>e       f>ae<d|c<ea>c ({Bc}d)<(BBc/)d/|c<ea>e   f>ae<c|d<fTe>d c<(AA>e)|
+  c<ea>e       f<ae<d|c<eac  ({Bc}d)(BBc/)d/ |c<ed<f   e<agd  cAA    |]
+S:https://www.folktunefinder.com/tunes/128272
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Petries_Second_Coll.txt
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/petri2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/_Robt_Petries_2nd_Coll.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Maules_Strathspey.abc
+S:http://www.nigelgatherer.com/tunes/abc/petrie2/08.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

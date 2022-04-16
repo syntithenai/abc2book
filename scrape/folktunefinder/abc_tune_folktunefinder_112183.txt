@@ -1,0 +1,24 @@
+X: 12
+T:Polska
+M:3/4
+L:1/8
+S:David Neiman
+R:Polska
+O:Sweden
+K:Am
+A>B c<d e>^g|a>a (3^ga^g) ^g>e|=g>g (3^fg^f)d2|e>e ^c<AB2|1c>B c<d e2|e6
+:|2c2d B^G3|A2A3B|:
+c2 c>d B>^G|A2 A>^G E>B|c2 c>d B>^G|A2 A>c e>B|c2 c>d B>^G|A2 A>^G
+ E>B|c2 c>d B>^G|1A2A3B:|2A2A4||
+S:https://www.folktunefinder.com/tunes/112183
+S:http://pineycreekweasels.net/andy/tunes/lilkid.abc
+S:http://www.pineycreekweasels.net/andy/tunes/lilkid.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

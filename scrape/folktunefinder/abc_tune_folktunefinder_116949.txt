@@ -1,0 +1,28 @@
+X: 1
+T:Andro 2
+G:Kazimodal
+R:Andro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+P:B5
+M:4/4
+S:Tonio Breizh-Izel 1721 (Pleskob)
+K:G
+P:B
+|: "G"{GA}G/2D/2G/2B/2 "D"{AB}A>F "C"E"D"F "G"GG |\
+D(G/2B/2) "Am"{AB}A>G "C"E"D"F "G"G2 :|
+"G"{GA}GA/2B/2 "Am"A>A "Bm"{GA}GA/2B/2 "D"A2 |\
+"G"{GA}GA/2B/2 "Em"GG "D"(F/2G/2)"C"E/2F/2 "Bm"D2 |
+"G"{GA}GA/2B/2 "Am"A>A "C"{GA}GA/2B/2 "D"A2 |\
+"G"{GA}GB/2A/2 "Am"(G/2F/2)"Bm"E/2F/2 "C"{GA}G(F/2"D"A/2) "G"G2 ||
+S:https://www.folktunefinder.com/tunes/116949
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/an/Andro_2_1.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

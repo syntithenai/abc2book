@@ -1,0 +1,27 @@
+X:125
+T:Gan Ainm
+R:Reel
+S:Johnny McGreevy, Chicago (fiddle)
+D:From RTE 'The Pure Drop'
+N:As played
+M:4/4
+Z:Bernie Stocks
+K:G
+|: ~g2dc BG~G2 | ABcA d2ef | ~g2dc BG~G2 |1 BdcA ~G3f :|2 BdcA ~G3A ||
+df~f2 dg~g2 | defd ed^cA | df~f2 dg{a}ge | fdcA ~G3A |
+df~f2 dg~g2 | defd ed^cA | dg~g2 bgag | fdcA G2Bd ||
+S:https://www.folktunefinder.com/tunes/117319
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book4.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

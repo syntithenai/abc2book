@@ -1,0 +1,141 @@
+X:5
+T:London Hornpipe
+A:Yorkshire
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+L:1/8
+M:4/4
+N:Dance Music, 1820-1850
+O:England
+R:Hornpipe
+Z:Warren Armstrong
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000330.html
+%%ID:00000330
+K:G
+|Bc[|\
+"G"dcBA G2 Bd|"Em"g2 eg "Bm"f2 dB|\
+"Am"c2 ac "G"B2 gB|"Am"cBAG "D"GFED|
+"C"EDEF GFGA|"G"BABcd2 g2|"G"dBGB "D7"cAGF|"G"G2 G2 G2:|
+|:d2|\
+"G"g2 bg "D"f2 af|"Em"g2eg "Bm"f2 d2|\
+"Am"c2 ac "G"B2 gB|"Am"cBAG "D"FFED|
+"C"EDEF GFGA|"G"BABc d2 g2|"G"dBGB "D7"cAGF|"G"G2 G2 G2:|
+% T:Sunderland Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Untitled Hornpipe (I)
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Duke of York's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Speed the Plough
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Untitled Hornpipe (II)
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Butcher's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Shuter's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Sadlers Wells
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Manchester Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Poll of Wapping
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Billy Twist
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Rangers Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:York Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Aldbon
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Smiling Dicky's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:the Spanish Patriots
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Cook Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Green Dragon's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:F
+% T:Peckhover Walk Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Holywell Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Samuel's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:G
+% T:Lady Flashdash Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:the Flying Coach
+% M:4/4
+% R:Hornpipe
+% K:A
+% T:Untitled Hornpipe (III)
+% M:4/4
+% R:Hornpipe
+% K:F
+% T:Quick's Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Ferry Bridge Hornpipe
+% M:4/4
+% R:Hornpipe
+% K:D
+% T:Cuckoo's Nest
+% M:4/4
+% R:Hornpipe
+% K:G
+S:https://www.folktunefinder.com/tunes/99581
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Helperby/Helperby.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

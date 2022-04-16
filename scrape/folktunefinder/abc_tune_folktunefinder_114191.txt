@@ -1,0 +1,21 @@
+X:135
+T:Old Man of Mow
+% Nottingham Music Database
+S:Mick Peat
+M:6/8
+K:G
+G2A |"G"B2B BAB|"C"c2c cdc|"G"B2B "Em"BAG|"Am"A3 "D"AGA|
+"G"BcB BAB|"C"cdc cBc|"Gv2"BAB "D"AGA|1"G"G3 :|2G3 G2d||
+"G"dBd dBg|"C"ece ecg|"G"dBd dBg|"D"cAc cAg|
+"G"dBd dBg|"C"ece ecg|"G"dBd "D"cBA|1"G"G3 G2d:|2"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/114191
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/ashover.abc
+S:http://www2.redhawk.org:8080/irish/nmd/ashover.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

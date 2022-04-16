@@ -1,0 +1,30 @@
+X: 29
+T:Banks of the Dee,The. BF12.29
+M:6/8
+Q:100
+C:Browne "C" hand
+S:MS12,c1835,Browne Coll.,Lakes
+R:Jig
+O:England
+A:Lakes
+N:The second part is written out identically twice instead of using
+N:repeat marks as I have done..CGP
+Z:vmp.Chris Partington
+K:A
+E|(EF).G|(AB).c|(df).e (dc).B|(cA).F (EF).A|(cd).B A2E|!
+(EF).G|(AB).c|(df).e (dc).B|(cA).F (EF).A|(cd).B A2:|!
+|:d|c2de2e|(fd).f (ec).A|(Ac).e (fg).a|(Ac).B AF.E|!
+(df).d (ce).c|(BA).B (cA).F|(AF).E|(EF).A|(cd).B A2:|]
+S:https://www.folktunefinder.com/tunes/129573
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

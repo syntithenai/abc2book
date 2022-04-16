@@ -1,0 +1,30 @@
+X: 75
+T:Tank,The. GS.075
+M:2/4
+L:1/8
+Q:400
+S:George Spencer m/s, Leeds,1831
+R:Misc.
+O:England
+A:Leeds
+N:"1" The chord at the end of the A music  has a vertical curved line,
+N:like a vertical slur  n front of it...'1831' is written on the stave
+N:after the last double bar.
+H:1831
+Z:vmp.Cherri Graebe
+K:BB major
+B2b2 | G2g2 | (fd).c.B | (ec).B.A | .d.e f2 |! .e.f.g2 | fga2 | 
+"1"[B4b4]:||:d2dd | f3 d |! (ge) (ec) 
+ (cA) (AF) | d2 de | f3 b | gecA | [D4B4]:||
+S:https://www.folktunefinder.com/tunes/104749
+S:http://www.village-music-project.org.uk/abc/spencer.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:66
+T:Lord of Carnarvon's Jig
+M:4/4
+L:1/8
+C:John Playford, 1651
+N:Transposed - I'm not clear what key the original is in.  Cecil Sharp uses "Jack a Lent" instead.
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=105
+K:G
+P:A
+|: z2 | "G"B2G2 "^/"Bc d2 | "Am"c2A2 "D7"ABcd | "G"B2 G2 "D7"d2 ef | "G"g4 "D7"d2 :|
+P:B
+|: ef | "G"gfed "^/"g3B | "Am"A2 A2 "D7"c2 dc | "G"B2 G2 "D7"b3 a | "G"g4 "D7"d2 :|
+S:https://www.folktunefinder.com/tunes/110113
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

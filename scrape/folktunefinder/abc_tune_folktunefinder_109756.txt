@@ -1,0 +1,31 @@
+X: 170
+T: The Wild Geese
+N:"Slow"
+B:O'Neill's 170
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:3/4
+L:1/8
+K:A
+(A>B)|c2 (c/4B/4A3/2) (A/4B/4c3/2)|B2 (c/B/A/F/) E2|F2 A2 (A>B)|A4 (B>c)|
+d2 d2 (d/4c/4B3/2)|c2 c2 (c/4B/4A3/2)|B2 f2 (e>c)|B4 (A/4B/4c3/2)|
+d2 d2 (d/4c/4B3/2)|c2 c2 (c/4B/4A3/2)|(B>c) (.d.c.B.A)|F4 (A>B)|
+c2 (c/4B/4A3/2) (A/4B/4c3/2)|B2 (c/B/A/F/) E2|("#"~F>G) (A>Bc>B)|A4 "pp"(A>B)|
+{d}(c>BA>Bc>A)|{c}(B>AF>AB>F)|{B}(A>FE>FA>B)|A4 z2|
+"cresc."{e}(d>cB>cd>B)|{d}(c>BA>Bc>A)|B2 f2 (e>c)|B4 (A/4B/4c)|
+"P"(d>cB>cd>B)|{d}(c>BA>Bc>A)|B>c .d.c.B.A|F4 "pp"A>B|
+{d}(c>BA>Bc>A)|{c}(B>AF>AB>F)|{B}(A>FE>FA>B)|A7/2 f/ {ef}(e>c)|
+"ff"">"(A7/2 "Chorus."f/) {ef}(e>c)|(A7/2 f/) {ef}(e>c)|(d2 d'>)f T(e>c)|(d2 d'>)f {ef}(e>d)|
+(c2 c'>)f {ef}(e>d)|(c2 c'>)f {ef}(e>c)|(B2 b>)f {ef}(e>c)|(B2 b>)f {ef}(e>c)|
+(d2 d'>)f {ef}(e>d)|(c2 c'>)f {ef}(e>c)|(B2 b>)d {cd}(c>A)|F4 "pp"(A>B)|
+c2 (c/4B/4A3/2) (A/4B/4c3/2)|B2 (c/B/A/F/) E2|F>GA>cB>c|A2 HA2||
+S:https://www.folktunefinder.com/tunes/109756
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0101-0200_hn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

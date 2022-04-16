@@ -1,0 +1,47 @@
+X:69
+T:ASLEEP2- Cauld Frosty Morning [I am asleep]
+S:Scots Musical Museum #227
+Q:1/4=120
+M:3/4
+K:F
+C|C3/4D/4FF|F2F/ F/|G3/4A/4 B/A/ G/F/|FDC|C3/4D/4FF|\
+A3/4B/4 cF|"tr"G3/2F/ G/A/|F2G/A/|Bc/B/ A/G/|
+(AB/A/) G/F/|G/A/ B/A/ G/F/|FDC|\
+C3/4D/4FF|A3/4B/4cf|"tr"G3/2F/ G/A/|F2||\
+c/d/|_e3/2 f/ (e/f/)|{_e}d2c|ccf3/4g/4|\
+fdc|"tr"(_e3/4d/4) (e/g/) f/e/|_ed (c/4d/4f/)|\
+(B3/4d/4) (c/A/) (G/A/)|FDC|\
+"tr"(_e3/4d/4) (e/f/) (e/f/)|(d/c/A/c/) (d/f/)|\
+(c/d/) (A/c/) (G/A/)|FDC|C3/4D/4FF|(A3/4B/4)c(d/e/4f/4)|\
+{A/}"tr"G3/2 F/ (G/A/)|F2|]
+S:https://www.folktunefinder.com/tunes/127564
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/S2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/S2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040828021905/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040904111810/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040914074031/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040916075042/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040929080348/http://users.erols.com/olsonw/S2.ABC
+S:http://web.archive.org/web/20040930142027/http://users.erols.com/olsonw/S2.ABC
+S:http://www.csufresno.edu/folklore/Olson/S2.ABC
+S:http://www.mudcat.org/olson/S2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/S2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

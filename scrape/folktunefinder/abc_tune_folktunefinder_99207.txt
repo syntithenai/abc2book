@@ -1,0 +1,19 @@
+X:11425
+T:Munlochy Bridge
+M:C
+L:1/8
+K:EDor
+% dorian/minor hexatonic, E-final C-gap hexatonic pitch set
+a|e>dB>A B>GG>B|d>ed>B d2d>a|e>dB>A B>GG>B|g>e (3fed e2e :|
+g|d>eg>e a>ee>f|d>ed>B d2d>e|d>eg>e a>ee>f|g>e (3fed e2e>f|
+  d>eg>e a>ee>f|d>ed>B d2d>a|e>dB>A B>GG>B|g>e (3fed e2e |]
+S:https://www.folktunefinder.com/tunes/99207
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

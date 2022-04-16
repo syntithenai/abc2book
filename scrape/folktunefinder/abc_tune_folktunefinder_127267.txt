@@ -1,0 +1,30 @@
+X: 19
+T:Reel Beatrice
+N:No Session Tun
+A:French-Canadian
+D:Liz Carroll : Liz Carroll
+M:C
+L:1/8
+K:GMinor
+G,2 G,A, B,G,B,D| GDD^C DFGA| B2 GB dGBc| dgg^f ~g2 ga|
+ba{a}gf edcB| Acc^B ~c3 e| d^cde d=cBA| G4 G,4:|
+|: ~g2 ^fg ae ~e2| edcd gd ~d2|1 ~d2 ^cd edd=c| BcAB G4 :|2 ~d3 e dcBA|G4 G,4||
+| ~B3 F DFBd| ~B3 F DFBd| cA ~A2 FAcA| Bdag fedc| 
+BF ~F2 DFBd| BF ~F2 DFBd| cA ~A2 FAcA| BABc B3 z|
+BF ~F2 DFBd| dB ~B2 FABd| ec ~c2 FAcA| Bdag fedc|
+BF ~F2 DFBd| BF ~F2 DFBd| cA ~A2 FAcA| BABc B3 z|
+"Finish" ||BF ~F2 DFBd| ~B3 F GFDB,| EG ~G2 FAcA| BABc B4 ||
+S:https://www.folktunefinder.com/tunes/127267
+S:http://home.ivx.de/601438/tunes/rhreel1.abc
+S:http://puffin.ivx.de/601438/tunes/rhreel1.abc
+S:http://home.ivx.de/601438/tunes/rhr1.abc
+S:http://puffin.ivx.de/601438/tunes/rhr1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

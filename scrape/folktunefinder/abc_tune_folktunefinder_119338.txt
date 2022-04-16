@@ -1,0 +1,22 @@
+X: 15
+T:Indian Queen
+M:2/2
+L:1/8
+Q:1/4=118
+K:D
+fg | "D"a2f2 d2f2 | "A"e4 A4 | "D"F2A2 A2f2 | "A"e6 fg | \
+"D"a2f2 d2f2 | "A"e4 A4 | "Bm"F2A2 "A7"A2f2 | "D"d6 :|: \
+cd | "A"edcB A2e2 | "F#m"f2c2 "Bm"d2B2 | \
+"Bm"fga2 "E7"b2^g2 | "A"a6 ef | \
+"G"gfed "A"c2a2 | "Em"B2g2 "A"A2fg | \
+"Em"e2d2 "a7"e2c2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/119338
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://www.larkcamp.com/LarkLibrary/English/MickieZekley/MEEnglishDanceTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

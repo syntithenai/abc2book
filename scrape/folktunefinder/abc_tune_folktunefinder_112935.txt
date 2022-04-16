@@ -1,0 +1,38 @@
+X:508
+T: Fengyang huagu (1)
+N: C0172
+O: China,Anhui, Fengyang
+S: III, 558]
+N: Nicht nur Volkslied. Es wird in verschiedenen Lokalopern gesungen
+N: mit einer Trommel begleitet. Bisweilen singen Eheleute das Lied.
+N: Das Instrument kann durch Fuellwoerter ersetzt werden.
+N: Diesen Liedtyp gibt es schon seit der Ming-Dynastie, vielleicht
+N: auch schon frueher. Aus dieser Gegend wanderten viele Menschen
+N: aus, einige soweit wie Indonesien. Saengerin erkaeltet.
+N:  Saengerin: Huang Bai
+N: Vor- und Zwischenspiele weggelassen.
+R: Xiaodiao, Blumentrommel, Hua gu]
+M: 4/4
+L: 1/8
+K: G
+e2edB4 | e2edB4
+B3de2g2 | edBGA4
+G3AB2d2 | B2AGA4
+e2edBdeg | edB2A4
+e3de2g2 | a2ged4
+e3dB2g2 | e2dBA4
+G3AB2d2 | B2AGA4
+e2edBdeg | edB2A4
+S:https://www.folktunefinder.com/tunes/112935
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, blumentrommel, hua gu]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

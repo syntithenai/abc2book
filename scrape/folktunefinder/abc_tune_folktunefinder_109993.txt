@@ -1,0 +1,27 @@
+X:55
+T: Der Abendgang
+N: Q2019B
+O: Mitteleuropa, Deutschland / Niederlande
+N: In modifizierter Choralnotation gedruckt. Melodie: geistliche
+N: Kontrafaktur.
+R: Ballade, Liebe, Trennung, Tod; geistlich
+M: none
+L: 1/4
+K: D
+D | =FFGG | AA
+BB | =ccBBA | G
+G | AAAA_B=c | _BA
+G | GGA=F | =FED
+A | GG=FEG | =FFD=C
+C | GGAA | =cA
+AA | GGG=FD | =FED
+S:https://www.folktunefinder.com/tunes/109993
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, liebe, trennung, tod; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

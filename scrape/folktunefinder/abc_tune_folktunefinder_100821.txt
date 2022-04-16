@@ -1,0 +1,20 @@
+X:25
+T:Flowing Tide
+Z: id:dc-hornpipe-24
+M:C|
+L:1/8
+K:G Major
+D|G2 GB dGBd|GBdg bgag|egdg Bdge|dBAG edBA|!
+G2 GB dGBd|GBdg bgag|egdg Bdge|dBAB G3:|!
+D|GFGB AGED|gfge dBGB|ceBd AcGB|(3cBA BG AGEG|!
+DGBd BABd|(3cBA BG AGEG|DGBd gdBd|cAFA G3:|!
+S:https://www.folktunefinder.com/tunes/100821
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

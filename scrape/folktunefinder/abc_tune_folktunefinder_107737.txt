@@ -1,0 +1,24 @@
+X:540
+T: Dogs in the Barley
+S: "Roche Collection of Traditional Irish Music" [III/33/106]
+L: 1/8
+M: 2/4
+R: polka %(or march or hornpipe)
+K: Edor
+BE E/F/E/D/ | BE EE/E/ | B>d A>G | FD DD |
+BE E/F/E/D/ | BE EE/E/ | B>d A>F | E2 E2 :|
+eg ag/e/ | be ge | dg ag/e/ | fg af |
+eg ag/e/ | be ge | dB AF | E2 E2 |
+eg ag/e/ | be ge | dg ag/e/ | fg af |
+gg g>e | dd/d/ de | dB AF | E2 E2 |]
+S:https://www.folktunefinder.com/tunes/107737
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Polka %(or march or hornpipe)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

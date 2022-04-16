@@ -1,0 +1,48 @@
+X:25
+T:Pe trouz war an douar
+M:6/8
+L:1/8
+%%staves {(1 2) (3 4)}
+K:Cm
+V:1
+G|G2cc2B|c3e3|d2cB2c|G3-G zG|
+V:2
+G|E2EF2F|G3G3|A2GF2G|D2F- F xF|
+V:3
+G,|G,2G,A,2A,|G,3C3|F2ED2E|B,2=B,- B, xB,|
+V:4
+G,|C,2C,D,2D,|E,3E,3|F,2F,G,2G,|G,2G,- G, xG,|
+V:1
+G2cc2B|c3e3|d2cB2c|G3-G2z|
+V:2
+E2EF2F|G3G3|A2GF2G|D3F2x|
+V:3
+C2CA,2A,|G,3C3|F2ED2E|B,3=B,2z|
+V:4
+C,2C,D,2D,|E,3E,3|F,2F,G,2G,|G,3-G,2x|
+V:1
+c3B2G|A2BG2A|G2FE2F|G3-G zG|
+V:2
+E3=E2E|F2DD2D|C2CC2C|D3-D xF|
+V:3
+C3C2C|C2B,B,2B,|A,2A,=A,2A,|=B,3-B, xB,|
+V:4
+A,3G,2G,|F,2F,E,2E,|E,2D,C,2A,,|G,,3-G,, xG,|
+V:1
+G2cc2B|c3e3|d2fe2d|c3-c2||
+V:2
+E2EF2F|G3G3|A2AG2F|E3-E2||
+V:3
+C2CA,2A,|G,3C3|F2DC2=B,|C3-C2||
+V:4
+C,2C,D,2D,|E,3E,3|F,2F,G,2G,,|C,3-C,2||
+S:https://www.folktunefinder.com/tunes/118599
+S:http://moinejf.free.fr/kantigou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

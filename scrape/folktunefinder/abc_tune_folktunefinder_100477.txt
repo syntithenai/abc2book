@@ -1,0 +1,29 @@
+X:185
+T:Sidlaw Hills
+O:scotland
+R:March
+R:Strathspey
+M:4/4
+C:J. Watson
+K:A
+e2|\
+a>b a>f e<c B>A|A<c B>A F2E2|\
+A2A2 a2e>d|c2A2 B3e|\
+a>b a>f e<c B>A|A<c B>A F2E2 |
+A2A2 a2e>c | B2A2 A2 :: ce|\
+f>e c<e a>e c<e | f>e c<e f2e2 |
+a>e c<e f>e c<e | f<a e>c B2e2|\
+a>b a>f e<c B>A | A<c B>A F2E2 |\
+A2A2 a2e>c | B2A2 A2:|
+S:https://www.folktunefinder.com/tunes/100477
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Strathspey
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

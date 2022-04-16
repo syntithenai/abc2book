@@ -1,0 +1,20 @@
+X:245
+T:Geese in the Bog
+Z: id:dc-jig-154
+M:6/8
+L:1/8
+K:B Dorian
+c|dFF AFF|dFF ABc|dFF AFE|FBB B2c|!
+dFF AFF|dFF ABc|dcB cBA|FBB B2:|!
+c|def afe|fbb afe|def afe|fbb b2c|!
+def afe|fbb afe|dcB cBA|FBB B2:|!
+S:https://www.folktunefinder.com/tunes/128685
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

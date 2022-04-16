@@ -1,0 +1,19 @@
+X:5
+T:Arpeggios
+M:3/4
+L:1/4
+K:C
+"1"C "2"E "3"G| "5"c "3"G "2"E| "1"C "2"E "3"G| "5"c "3"G "2"E|\
+"1"F "2"A "3"c| "5"f "3"c "2"A| "1"F "2"A "3"c| "5"f "3"c "2"A|
+"1"G "2"B "3"d| "5"g "3"d "2"B| "1"G "2"B "3"d| "5"g "3"d "2"B|\
+"1"C "2"E "3"G| "5"c "3"G "2"E| "1"C3-| C3||\
+S:https://www.folktunefinder.com/tunes/125222
+S:http://accordionlinks.com/other/examples.abc
+S:http://www.accordionlinks.com/other/examples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

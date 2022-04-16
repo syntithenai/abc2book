@@ -1,0 +1,45 @@
+X: 5
+T:Mass Hans Dalns gnglt
+R:Rttvik
+S:efter Rombo spelmn
+A:Rttvik (Dalarna)
+O:Sweden
+Z:L Sohlman
+M:4/4
+L:1/4
+K:Am
+[AA]|[A3/2A3/2][A/A/] [AA][AA]|[A2A2] {e}fa|g>f ed|^c2 AA|d>d dd|\
+g(^f/g/) ag|\
+M:6/4
+L:1/4
+[1f2 e2-e:|[2f2e2- ee|\
+M:4/4
+:g>g e^c|d>e fa|g>f ed|c3 B|\
+(A/B/)(A/^G/) AB|(c/B/)(c/d/) ec|\
+M:6/4
+L:1/4
+[1B2 A2-A e:|[2B2 A2-A|]
+T:Andrastmma
+M:4/4
+A|F>F FF|D>A df|e>d ^cB|A>E EE|\
+F>F FF|e(d/e/) fe|\
+M:6/4
+L:1/4
+d2 ^c2-c::\
+M:4/4
+A|^c>c AE|F>A df|e>d cB|A3 E|(C/B,/)(C/D/) E(E/^G/)|\
+(A/^G/)(A/B/) cA|\
+M:6/4
+L:1/4
+^G2 E2-E:|]
+S:https://www.folktunefinder.com/tunes/115140
+S:http://homepage.calypso.net/~ci-18034/dala.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/dala.abc
+% Rhythm Rttvik
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

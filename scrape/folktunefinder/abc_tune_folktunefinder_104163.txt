@@ -1,0 +1,40 @@
+X:10
+T:Faild na Miosg
+T:The Musket Salute
+B:NLS MS.5449 (Guittar/keyboard music, Scots tunes and minuets) c.1765
+Z:Jack Campin, <http://www.campin.me.uk/> April 2001
+N:There are innumerable wonky spellings of that Gaelic title in
+N:18th century sources; I'm leaving this the way it is in the MS.
+N:I think this is a version of Oswald's flute/violin setting from
+N:the Caledonian Pocket Companion but haven't checked.  Transposed
+N:into D it works fine on the flute.
+M:3/4
+L:1/8
+Q:1/4=100
+K:F
+c2|f3 agf |d4   f2|c3 fdc|{B}A3 G    F2  |(G2A2) f2|({d}c3)  BAG |F2 f2 (fg)|f4 f>g|
+  Ta>gabag|f3 e d2|c3 fdc|   A3 G (3(AGF)|(G2A2) f2|    c>dA>cG>A|F2 f2  f>g|f4   :|
+c2|fg a2 (3(abc')|  "="a3 g (3(agf)|(d2  c2)   d2  | d'3 c'    a2 |\
+   c'>d'c'bag    |     abagfe      | d2  g2 (3(gab)|Tg3  f     d2 |
+   fefgab        |({ab}c'3)d'   c'2| d'c'bagf      | f3  agf      |\
+  Td3     cdf    |     c2bagf      | d2  cdfA      | A2 [C2G2] F2:|
+   f2 (.F.F.F.F)|    f2    (.F.F.F.F)    | B3  fdc|({B}A3) G (3(AGF)|\
+  (G2   A2) f2  |({d}c3)      BAG        | F2f2 fg|    f4       ag  |
+   f2 (.F.F.F.F)|    f2      FGAF        |(BAB)fdc|({B}A3) G    F2  |\
+  (G2   A2) f2  | (3(cdc) (3(AcA) (3(GAG)| F2f2 fg|    f4          :|
+c2|fg     a2     (3(abc')| ({b}a3) g  f2 |   d2        d'2      c'2|  d'3   c'  a2 |\
+   c'2 (3(d'c'a) (3(c'ag)|     a2 bagf   |   d2        g2    (3(gab)|Tg3    f   d2 |
+   f3      gab           |({ab}c'3)d' c'2|(3(d'c'b) (3(c'ba) (3(bag)| f3    agf    |\
+  _e4     d2             |     c2 bagf   |   d2        cdfA         | A2 [C2G2] F2:|
+% Jack Campin:   11 Third Street, Newtongrange, Midlothian EH22 4PU, Scotland
+% mobile 07800 739 557                                http://www.campin.me.uk
+S:https://www.folktunefinder.com/tunes/104163
+S:http://www.campin.me.uk/Music/ScotsGuitar.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,63 @@
+X: 8
+T: Juntusrannan muistoja
+C: Veikko Ahvenainen
+R: shottish
+M: C
+L: 1/8
+P: A2.B2.A.C2.A2
+K: Am
+%%staffsep 20
+V: 1
+(3E^F^G \
+"A"\
+| A2 A>B c>B A>c | e2 e>c A2 c2 \
+|1,3 B>c d>c B>E ^F>^G \
+| A>B c>d [e2c2] \
+:|2,4 B>c d>c B>E ^F>^G \
+| A2 [A2E2C2] "fine"[A2E2C2] :|
+|: A>_A \
+"B"\
+| G3 A B>G A>B | c2 [a2e2c2] [g3e3c3] e \
+| (3fed (3cBA G3 d | (3edc (3BA_A G4 \
+| E3 ^F ^G>E F>G | A2 a2 [f4d4A4] |
+| e2 {f^f}g>=f e>d c>B | A2 [A2E2C2] [A2E2C2] :| \
+ y4 "A"[|] y4 \
+|: z2 \
+"C"\
+| [gec][gec] [gec][gec] [a_ec][aec] [aec][aec] | [g2e2c2] g>e c2 e2 \
+| d>e f>d [a2f2d2] [g2f2d2] |
+| c>d e>c [a2e2c2] [g2e2c2] \
+| [gec][gec] [gec][gec] [a_ec][aec] [aec][aec] | [g2e2c2] g>e c2 e2 \
+| {^g}a2 d2 =g>f e>d | c2 [c2G2E2] [c2G2E2] :|
+V: 2
+(3e_ed  \
+"A"\
+| "Am"c2 c>e a>e c>e | "Am"a2 c'>a e2 e2 \
+|1,3 "E7"d>e f>e d>^G A>B \
+| "Am"A>^G A>B c2 \
+:|2,4 "E7"d>e f>e d>e _e>d \
+| "Am"c2 [c2A2E2] "fine"[c2A2E2] :|
+|: a>_a \
+"B"\
+| "G7"g3 f g>f e>d | "C"c2 e2 [g3e2c2] g
+| "G7"(3agf (3edc B3 B | "C"(3cBA (3G_GF E4 \
+| "E7"e3 d e>d c>B | "Am"A2 "A7"^c2 "Dm"[d4A4F4] |
+| "E7"e3 f e>f ^f>^g | "Am"a2 [a2e2c2] [a2e2c2] :| \
+ y4 "A"[|] y4 \
+|: z2 \
+"C"\
+| "C"[E4C4] "Cdim"[_E4C4] | [=E8C8] \
+| "G7"[F4D4] z>GB>d  |
+| "C"e4 z>cG>c \
+| "C"[e4c4] "Cdim"[_e4c4] | [=e8c8] \
+| "Dm"[f4d4] "G7"G>^G A>B | "C"c2 [c2G2E2] "d.C."[c2G2E2] :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/102927
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/shottish.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

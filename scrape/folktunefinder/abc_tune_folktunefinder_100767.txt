@@ -1,0 +1,20 @@
+X: 40
+T:Trumpet
+R:Hornpipe
+C:Captain Pugwash
+M:4/4
+L:1/8
+K:G
+(3DEF| (3"G"GGG G2  (3GGG G2|"G"BGBd gdBG| "D7"(3DDD D2  (3DDD D2|FDFA dAFD|
+(3"G"GGG G2  (3GGG G2|"G"BGBd g2ag|"D"fafd "A7"ege^c|"D"d2d2 "D7"d2:|
+c| "G"(3ddd d2  (3ddd d2|"C"efgf edcB|"Am"cded cBAG|"D7"FGAG FDEF|
+"G"(3GGG G2  "G7"(3=FFF F2| "C"(3EEE E2  "Cm"(3_EEE E2|"D7"D2fe dcBA|"G"G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/100767
+S:http://www.alfwarnock.info/alfs/abc/alfhorn.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

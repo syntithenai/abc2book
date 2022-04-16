@@ -1,0 +1,29 @@
+X:187
+T: Da qiu qian
+N: C0310
+O: China,Shandong, Yidu
+S: III, 371]
+N: typisch. Eine Aufnahme existiert in Shanghai.
+R: Xiaodiao. Youchun yule]
+M: 2/4
+L: 1/16
+K: C
+G2E2G2c2 | A2G2G2E2 | G6A2 | G8
+G2E2G2c2 | A2G2G2E2 | G6A2 | G8
+G2E2e2d2 | c6A2 | G2E2e2d2 | c2d2B2A2
+G4A2c2 | A2G2G2E2 | G6A2 | G4z4
+A3cA2G2 | A2G2A2z2 | c6A2 | G2A2c2z2
+A3cA2G2 | E4G2E2 | D4D2z2 | E3GE2D2 | C6D2 | C4z4
+S:https://www.folktunefinder.com/tunes/112614
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao. youchun yule]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

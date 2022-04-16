@@ -1,0 +1,21 @@
+X:132
+T:Sean Ryan's
+Z: id:dc-jig-114
+M:6/8
+L:1/8
+K:A Dorian
+B|c3 B3|AGE DB,G,|A,G,A, EDB,|DEG AGE|!
+c3 B3|AGE DB,G,|A,G,A, EDB,|DB,G, A,2:|!
+B|cBA a3|bag edB|GBd g3|GBd cBA|!
+cBc d^cd|ede gab|age dBG|EFG A2:|!
+S:https://www.folktunefinder.com/tunes/128599
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:23
+T: Die Naehterin
+N: Q0008
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Zobtenberg
+R: Ballade, Geburt, Tod, Moral, Entfuehrung
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2BBB2 | A4G2
+G2 | d2d2eef2 | g4f2
+d2 | g2e2d2cA | G2A2B2
+d2 | c4B2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/109961
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, geburt, tod, moral, entfuehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

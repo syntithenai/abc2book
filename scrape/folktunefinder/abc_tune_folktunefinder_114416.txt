@@ -1,0 +1,26 @@
+X:110
+T:Burke's
+R:jig
+N:id:ng-jigs-4
+B:Bulmer & Sharpley, as "Burke's"
+Z:Alan Ng
+M:6/8
+K:D
+A|dAF AGF|dAF AGF|A,CE GFG|A,CE GFE|
+DFA DGB|Adc d2e|fed cBA|GFE D2::\
+g|fdf a^ga|fdc d2=f|e=ce gfg|efd cde|
+~f3 ~g3|~a3 bag|{g}fed {d}cBA|\ {A}GFE D2:|**
+S:https://www.folktunefinder.com/tunes/114416
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mfiall.abc
+S:http://www2.redhawk.org:8080/irish/other/mfiall.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:9
+T:Joskvarnsleken (vals in A)
+R:vals
+Z:taught by Roger Tallroth at Ramblewood (199)
+M:3/4
+L:1/8
+K:A
+| "A"a3 bag | "A"a2 g2 "E"eg | "D"g2 f2 d2
+| "A"e2 c2 A2 | "A"E6 | "A"E6
+| "A"a3 bag | "A"a2 g2 "E"eg | "D"g2 f2 d2
+| [1 "E"e6 | "E"e6 :| [2 "A"e6 | "E"e4 cd ||
+S:https://www.folktunefinder.com/tunes/114348
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/JoskvarnslekenValsInA.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

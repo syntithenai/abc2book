@@ -1,0 +1,21 @@
+X:23
+T:Fisher's
+Z: id:dc-hornpipe-22
+M:C|
+L:1/8
+K:D Major
+(3ABc|dAFD GBAG|FDFD GBAG|FDD2 GEE2|FEDF E2 (3ABc|!
+dAFD GBAG|FDFD GBAG|FAdf ecAc|d2dc d2:|!
+cd|ecAc efge|fddc dfaf|ecAc efgf|(3efe (3dcB A2dc|!
+BGDG BdcB|AFDF ABcA|(3Bcd ef gece|d2dc d2:|!
+S:https://www.folktunefinder.com/tunes/100819
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

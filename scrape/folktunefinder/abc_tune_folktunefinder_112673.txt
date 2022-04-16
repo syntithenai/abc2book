@@ -1,0 +1,33 @@
+X:246
+T: La mei hua
+N: C0386
+O: China,Hebei, Shijiazhuang
+S: IV, 82, 2)]
+N: Typisch. Die eigentliche Tonweise heisst "die dan xiao". Die Text-
+N: form entsprich dem Moli Hua, d.h. man kann auf die vorliegende
+N: Melodie auch den Text von M.H. singen. Herr Jiang glaubt daher,
+N: dass es uspruenglich eine M.H. war.
+N: Glissando.
+R: Wuge, Lahua, Molihua diao,
+M: 4/4
+L: 1/16
+K: F
+G4G2A2G2F2D2F2 | G6AcG6F2 | c3fd2c2B2c2A2A2
+G4G2A2G2F2DFCD | F6D2 | G2G2A2G2 | F6GAF8
+c2cfd2dcB3cA2A2 | c2cfd2dcB3cA2A2
+G4G2A2G2F2D2CD | F6
+G2 | D2F2D2F2G4G2A2 | c4c2A2c2dfc2A2 | G4
+A4 | G2A2G2F2 | F2C2D8F4 | G6A2F2GAF2D2 | C6DFC8
+S:https://www.folktunefinder.com/tunes/112673
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, lahua, molihua diao,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

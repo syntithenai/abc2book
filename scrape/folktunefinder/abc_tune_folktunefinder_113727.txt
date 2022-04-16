@@ -1,0 +1,22 @@
+X: 1
+T: Boil The Breakfast Early
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|:G2 BG AD D2| GB B2 c2BA|G2 BG AD D2| GE E2 c2BA|
+G2 BG AD D2| GB B2 c2 Bc|dBcA BGAF| GE E2 c2 Bc||
+|:d2 fd edB^c|d2 ef g2 fe|d2 fd edBA| GE E2 c2 Bc|
+d2 fd edB^c|d2 ef g2 fg|afge fded| dcAB c2 Bc||
+|:dA A2 dAFA|dA A2 defe|dA A2 dAFA|GE E2 c2 Bc|
+dA A2 dAFA| d2 d^c defe| dBcA BGAF|GE E2 c2 BA ||
+S:https://www.folktunefinder.com/tunes/113727
+S:http://www.thesession.org/tunes/display/3
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

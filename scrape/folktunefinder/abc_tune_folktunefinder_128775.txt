@@ -1,0 +1,22 @@
+X:695
+T:Strike the Gay Harp
+Z: id:dc-jig-171
+M:6/8
+L:1/8
+K:D Major
+A|d2B cBA|dAF FED|d2B cBA|dAF E3|!
+def B3|AdA F2E|DED DEF|AFE E2:|!
+A|d2d fdf|aba afe|def afa|bge edB|!
+def a2a|bgb a2g|fed dfe|dAF E2:|!
+A|def def|dAF DFA|def def|dAF E2A|!
+def B3|AdA F2E|DED DEF|AFE E2:|!
+S:https://www.folktunefinder.com/tunes/128775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Jigs.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

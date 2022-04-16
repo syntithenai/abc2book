@@ -1,0 +1,27 @@
+X:1
+T:Billy Brocker
+C:Traditional
+N:Play last 8 bars
+N:then 3 times through
+N:The Armagh Set, figure 3, tune 1 of 3
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.ukR:Reel
+M:C
+L:1/8
+K:D
+A~F3 AFdB | A~F3 G3B | A~F3 ABde | fdgf efdB :||
+d3 f a2 af | e~A3 e~A3 | d3 f a2 ag | faeg fddB |
+d3 f a2 af | e~A3 e~A3 | ~f3e g2 fg | afge fd d2 |]
+S:https://www.folktunefinder.com/tunes/103104
+S:http://theflow.org.uk/text/flow_armagh.txt
+S:http://www.theflow.org.uk/text/flow_armagh.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

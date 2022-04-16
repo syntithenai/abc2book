@@ -1,0 +1,29 @@
+X:1
+T:Armstrong
+C:D'aprs la chanson de Nougaro, abc file by Bernard Loffet
+L:1/8
+Q:200
+M:4/4
+K:C
+[c2A,2][c2A,2][B2E,2][B2E,2]|[cC,]cC,AD,2D,2|[E2A,2][E2A,2][^GE,]GE,A|A,2A,2D,2D,2|[c2A,2][c2A,2][B2E,2][B2E,2]|[cC,]cC,AD,2D,2|[E2A,2][E2A,2][^GE,]GE,A| \
+A,AA,E3/4A/4A,AA,2|[A3/2A,3/2]A/A,2A,2A,2|[d3/2D,3/2]d/D,2D,2D,2|[e2A,2]A,2[e2E,2]E,2|[eF,]eE,dD,c[A2D,2]|[cA,]cA,2A,2A,2|[c2D,2]D,AD,2D,2|[E2A,2][E2A,2][^GE,]GE,2| \
+[A2A,2]A,2G,2G,2|F,2F,2[z2E,2]E,2|[z2A,2][e2A,2][e2G,2]G,/z/c|[d/F,/]z/c[^d/F,/]z/=dE,/z/cE,2| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/124958
+S:http://diato.ifrance.com/abc/52.abc
+S:http://diato.ifrance.com/diato/tablat/52.abc
+S:http://diato.ifrance.com/tablat/52.abc
+S:http://diato.org/tablat/52.abc
+S:http://perso.orange.fr/diato/tablat/52.abc
+S:http://perso.wanadoo.fr/diato/tablat/52.abc
+S:http://pro.wanadoo.fr/diato/abc/52.abc
+S:http://pro.wanadoo.fr/diato/tablat/52.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/52.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/52.abc
+S:http://www.diatonique.net/tablat/52.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

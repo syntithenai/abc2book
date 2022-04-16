@@ -1,0 +1,24 @@
+X:330
+T:Lad O'Bourne
+M:C|
+R:Reel
+D:asin=B000000E5Y(De Danann: The Mist Covered Mountain)
+D:asin=B000000LX1(Arty McGlynn, Nollaig Casey: Lead The Knave)
+D:asin=B000005CQL(Wolfstone: Pick Of The Litter)
+D:asin=B000005CTL(Wolfstone: The Chase)
+K:G
+DG G2 DGBG|c2 BG AGEG|DGGF GABd|g2 dg edge|\
+dBB2 GBdB|cEE2 GEDB,|DEGA B2 ed|dBAc BG G2::\
+Bdd^c d2ef|g2bg abge|dBB2 GBdB|cEE2 GEDB,|\
+Bdd^c d2ef|g2 bg abge|DEGA B2ed|dBAc BGG2:|
+S:https://www.folktunefinder.com/tunes/111595
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

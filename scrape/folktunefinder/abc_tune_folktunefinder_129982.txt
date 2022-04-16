@@ -1,0 +1,52 @@
+X:21
+T:Gigouillette
+R:Gigue
+A:Normandie
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=220
+K:G
+D2G2|B3A|B2c2|B2A2|D2F2|A3G|A2B2|G4::\
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+DGB DGB|DGB B2A|DFA DFA|DFAG3:|
+K:Cmaj
+G2c2|e3d|e2f2|e2d2|G2B2|d3c|d2e2|c4::\
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-09-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Gce Gce|Gce e2d|GBd GBd|GBdc3:|
+W:C'est la fille de la meunire
+W:Qui dansait avec les gars
+W:Elle a perdu sa jarretire
+W:Sa jarretire qui n'tenait pas
+W:Qui n'tenait, qui n'tenait, qui n'tenait gure
+W:Qui n'tenait, qui n'tenait, qui n'tenait pas
+W:
+W:Venez donc danser la gigue
+W:Toutes les filles et tous les gars
+W:Z'avez peur qu'c vous fatigue
+W:J'vous dis qu'vous n'en mourrez pas.
+W:
+W:Y a trois gars qui veulent ma fille
+W:Y en a deux qui n'l'auront pas
+W:Le troisime est d'bonne famille
+W:J'suis sr qu'il la battra pas.
+%%text 6x Tutti, fltes, viellesperc, fltes, tutti, tutti
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/129982
+S:http://michel.bellon.free.fr/Musique/abc/FermedeGally-9septembre2007.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Rhythm Gigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

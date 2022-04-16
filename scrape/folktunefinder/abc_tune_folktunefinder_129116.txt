@@ -1,0 +1,24 @@
+X: 31
+T: The Brown Thorn
+M: 3/4
+L: 1/8
+B: "O'Neill's 31"
+N: "Slow" "setting 1" "collected by F. O'Neill"
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+K:G
+c B>c | d2-Bd ef | (gf/2g/2) dd (ed/2c/2 | B2 GB A>G | G2-Gc Bc |
+d2-Bd ef | (gf/2g/2 dd (ed/2c/2) | B2 GB ~A>-G | G3 ||
+c B>c | d2-Bd ef | g2 b2 {b}a/2-g/2 f/2-e/2 | e4z>d | d3 c B>c |
+d2-Bd ef | g2 dd (ed/2c/2 | B2 GB ~A>-G | G3 ||
+S:https://www.folktunefinder.com/tunes/129116
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0001-0050_np.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0031_np.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: American Polka, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+Bc|:dcBd cBAc|B2 F2 F2 Bc|dcBd cBAc|B2 G2 G2 Bc|
+dcBd cBAc|B2 G2 G2 Bc|dcBd cBAc|B2 F2 F2 Bc|
+dcBd cBAc|B2 F2 F3 f|(3fgf =f ^f g2 f2|B2 z2 _B2 z2|
+Bcd^d edcB|Aafd A2 (3aaa|agec A2 (3aaa|bafd A2 _B2|
+Bcd^d e=dcB|Aafd A2 (3aaa|agec AB=c^c|d2 z2 A2 Bc:|
+K: Amaj
+e3 e fgaf|e^def eAce|fgaf eAcA|B2 BA Bcdf|
+e3 e fgaf|e^def eAce|fgaf eAcA|1 BAGB ABcd:|2 BAGB ABde||
+K: Dmaj
+f3 g (3fff (3eee|(3ddd (3AAA (3FFF (3DDD|(3CCC (3EEE (3GGG (3EEE| (3DDD (3AAA (3^GGG (3_GGG|
+(3FFF (3ddd (3ccc (3BBB|(3AAA (3BBB (3ccc (3ddd|e3 f edeg|afec ABcA|
+d3 f f2 e2|d2 cd ef a2|g4 e2 B _B|
+A2 f2 fefg|f2 e2 B2  c2|d2 dc dBAF|D4 z4|
+S:https://www.folktunefinder.com/tunes/113579
+S:http://www.thesession.org/tunes/display/3825
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

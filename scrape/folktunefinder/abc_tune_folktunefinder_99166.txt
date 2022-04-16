@@ -1,0 +1,78 @@
+X:11384
+T:Muieira De Alfonsina
+O:Galicia (Spain)
+Z:Transcrito por Jos\'e J. Presedo
+Z:Covertido de Midi a abc por Antonio-Nil
+N:http://www.arrakis.es/~jpresedo/
+Z:La Alfonsina. Muieira por Canuto Berea. A S.A.R. El Principe D. Alfonso
+Z:Copiada de una partitura de Puig y Ramos,Sucs. de Canuto Berea por J. Presedo.
+M: 4/4
+L: 1/8
+Q:1/4=164
+K:G % 1 sharps
+V:1
+z4 Bd gf|ga ge e2 dB-|Be d2 cA2d|c2 BG Bd gf|
+ga ge e2 dB-|Be dc BA BA|G3z Bd gf|ga ge e2 dB-|
+Be d2 cA2d|c2 BG Bd gf|ga ge e2 dB-|Be dc BA BA|
+G3z FG AB|c2 de dc B2|^GA Bc d2 e=f|ed c2 [cA][dB] [ec][dB]|
+[cA][ec] [dB][cA] [B2=G2] [dBG][gdBG]|[^fd][ec] [dB][ec] [dB][cA] [dB][cA]|[B3G3]z FG AB|c2 de dc B2|
+^GA Bc d2 e=f|ed c2 [cA][dB] [ec][dB]|[cA][ec] [dB][cA] [B2=G2] [dBG][gdBG]|[^fd][ec] [dB][ec] [dB][cA] [dB][cA]|
+[B3G3][BG] [cA][dB] [e2c2]|[ec][g2e2][ec] [d2B2] [BG][BG]|[cA][dB] [c2A2] [AF][AF] [BG][cA]|[d2B2] [BG][BG] [cA][dB] [e2c2]|
+[ec][g2e2][ec] [d2B2] [BG][BG]|[cA][dB] [c2A2] [AC][AC] [BD][AC]|[G3B,3][BG] [cA][dB] [e2c2]|[ec][g2e2][ec] [d2B2] [BG][BG]|
+[cA][dB] [c2A2] [AF][AF] [BG][cA]|[d2B2] [BG][BG] [cA][dB] [e2c2]|[ec][g2e2][ec] [d2B2] [BG][BG]|[cA][dB] [c2A2] [AC][AC] [BD][AC]|
+[G3B,3]B2F B2|FG FE F2 B,B-|BF B2 FG A^A|B2->B/2B2-B/2F B2|
+FG FE F2 B,B-|BF B2 FG =A^A|B3z Bd gf|ga ge e2 dB-|
+Be d2 c=A2d|c2 BG Bd gf|ga ge e2 dB-|Be dc BA BA|
+G3z dg b3/2c'/2|ba3/2b/2a g3/2a/2 gf-|f/2g/2f e3/2f/2 ed3/2e/2d|c3/2B/2 Az [cA][dB] [e3/2c3/2][d/2B/2]|
+[cA][e3/2c3/2][d/2B/2][cA] [d3/2B3/2][c/2A/2] [BG][d-B-]|[d/2B/2][c/2A/2][BG] [A3/2F3/2][B/2G/2] [cA][c3/2A3/2][d/2B/2][cA]|[B3G3]z dg b3/2c'/2|ba3/2b/2a g3/2a/2 gf-|
+f/2g/2f e3/2f/2 ed3/2e/2d|c3/2B/2 Az [cA][dB] [e3/2c3/2][d/2B/2]|[cA][e3/2c3/2][d/2B/2][cA] [d3/2B3/2][c/2A/2] [BG][d-B-]|[d/2B/2][c/2A/2][BG] [A3/2F3/2][B/2G/2] [cA][c3/2A3/2][d/2B/2][cA]|
+[B3G3]z4z|z8|z4 z[BG] [cA][dB]|[dB][cA] [BG][cA] [dB][ec] [d2-B2-]|
+[dB][BG] [cA][dB] [dB][cA] [BG][AF]|[BG][cA] [d2B2] [BG][BG] [cA][dB]|[dB][cA] [BG][ec] [fd][ge] [d2-B2-]|[dB][BG] [cA][dB] [dB][cA] [BG][cA]|
+[dB][cA] [B3G3]z3|z8|z6 z[BG]|[cA][dB] [dB][cA] [BG][cA] [dB][ec]|
+[d3B3][BG] [cA][dB] [dB][cA]|[BG][AF] [BG][cA] [d2B2] [BG][BG]|[cA][dB] [dB][cA] [BG][ec] [fd][ge]|[d3B3][BG] [cA][dB] [dB][cA]|
+[BG][cA] [dB][cA] [B3G3]z|dg b3/2c'/2 ba3/2b/2a|g3/2a/2 gf3/2g/2f e3/2f/2|ed3/2e/2d c3/2B/2 Az|
+[cA][dB] [e3/2c3/2][d/2B/2] [cA][e3/2c3/2][d/2B/2][cA]|[d3/2B3/2][c/2A/2] [BG][d3/2B3/2][c/2A/2][BG] [A3/2F3/2][B/2G/2]|[cA][c3/2A3/2][d/2B/2][cA] [B3G3]z|[BG][cA] [d4B4] [BG][cA]|
+[d4B4] [BG][cA] [d2B2]|[dB][e2c2][dB] [c3A3]z|[AF][BG] [c4A4] [AF][BG]|[c4A4] [AF][BG] [c2A2]|
+[cA][d2B2][cA] [B3G3]z|[BG][cA] [d4B4] [BG][cA]|[d4B4] [BG][cA] [d2B2]|[dB][e2c2][dB] [c3A3]z|
+[AF][BG] [c4A4] [AF][BG]|[c4A4] [AF][BG] [c2A2]|[cA][d2B2][cA] [B2G2] [BG][BG]|[cA][BG] [e3/2c3/2][f/2d/2] [ec][e3/2c3/2][f/2d/2][ec]|
+[d3/2B3/2][e/2c/2] [dB][d3/2B3/2][e/2c/2][dB] [c3/2A3/2][d/2B/2]|[cA][c3/2A3/2][d/2B/2][cA] [B3/2G3/2][c/2A/2] [BG][B-G-]|[B/2G/2][c/2A/2][BG] [e3/2c3/2][f/2d/2] [ec][e3/2c3/2][f/2d/2][ec]|[d3/2B3/2][e/2c/2] [dB][d3/2B3/2][e/2c/2][dB] [c3/2A3/2][d/2B/2]|
+[cA][c3/2A3/2][d/2B/2][cA] [B3/2G3/2][A/2F/2] [BG][c-A-]|[c/2A/2][d/2B/2][cA] [B3/2G3/2][A/2F/2] [BG][c3/2A3/2][d/2B/2][cA]|[B3/2G3/2][A/2F/2] [BG][c3/2A3/2][d/2B/2][cA] [B3/2G3/2][A/2F/2]|[BG][c3/2A3/2][d/2B/2][cA] [B2G2] z[b-g-d-B-]|
+[bgdB]z [g2d2B2G2] 
+V:2
+z6 [G,2G,,2]|[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DCA,F,][D2C2A,2F,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [G,2G,,2]|
+[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DB,G,][D2C2A,2F,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2]z [G,2G,,2]|[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|
+[DB,G,][DB,G,] [D,2D,,2] [DCA,F,][D2C2A,2F,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [G,2G,,2]|[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DB,G,][D2C2A,2F,2][DCA,F,]|
+[G,2G,,2] [DB,G,][D2B,2G,2]z [D,2D,,2]|[DCF,][D2C2F,2][DCF,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,]z [E,2E,,2] [ED^G,][E2D2^G,2][ED^G,]|[A,2A,,2] [ECA,][E2C2A,2]z [C,2C,,2]|
+[CA,E,][C-A,-E,-] [CCA,A,E,E,]z [D,2D,,2] [B,=G,D,][B,-G,-D,-]|[B,G,D,][B,G,D,] [D,2D,,2] [B,G,D,][C2F,2D,2][CF,D,]|[G,2G,,2] [B,G,][B,2G,2]z [D,2D,,2]|[DCF,][D2C2F,2][DCF,] [G,2G,,2] [DB,G,][D-B,-G,-]|
+[DB,G,]z [E,2E,,2] [ED^G,][E2D2^G,2][ED^G,]|[A,2A,,2] [ECA,][E2C2A,2]z [C,2C,,2]|[CA,E,][C-A,-E,-] [CCA,A,E,E,]z [D,2D,,2] [B,=G,D,][B,-G,-D,-]|[B,G,D,][B,G,D,] [D,2D,,2] [B,G,D,][C2F,2D,2][CF,D,]|
+[G,2G,,2] [B,G,][B,2G,2]z [C,2C,,2]|[ECG,][E2C2G,2][ECG,] [D,2D,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DCA,][D2C2A,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [C,2C,,2]|
+[ECG,][E2C2G,2][ECG,] [D,2D,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DCA,][D2C2F,2][DCF,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [C,2C,,2]|[ECG,][E2C2G,2][ECG,] [D,2D,,2] [DB,G,][D-B,-G,-]|
+[DB,G,][DB,G,] [D,2D,,2] [DCA,][D2C2A,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [C,2C,,2]|[ECG,][E2C2G,2][ECG,] [D,2D,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DCA,][D2C2F,2][DCF,]|
+[G,3G,,3][B,2B,,2][F,F,,] [B,2B,,2]|[F,F,,][G,G,,] [F,F,,][E,E,,] [F,2F,,2] [B,,B,,,][B,-B,,-]|[B,B,,][F,F,,] [B,2B,,2] [F,F,,][G,G,,] [A,A,,][^A,^A,,]|[B,3B,,3][B,2B,,2][F,F,,] [B,2B,,2]|
+[F,F,,][G,G,,] [F,F,,][E,E,,] [F,2F,,2] [B,,B,,,][B,-B,,-]|[B,B,,][F,F,,] [B,2B,,2] [F,F,,][G,G,,] [=A,=A,,][^A,^A,,]|[B,3B,,3]z3 [G,2G,,2]|[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|
+[DB,G,][DB,G,] [D,2D,,2] [DC=A,F,][D2C2A,2F,2][DCA,F,]|[G,2G,,2] [DB,G,][D2B,2G,2][DB,G,] [G,2G,,2]|[DB,G,][E2C2G,2][ECG,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [D,2D,,2] [DB,G,][D2C2A,2F,2][DCA,F,]|
+[G,2G,,2] [DB,G,][D2B,2G,2]z [G,2G,,2]|[DB,G,][F,2F,,2][^DB,A,] [E,2E,,2E,,2] [EB,G,][B,,-B,,,-]|[B,,B,,,][^DB,A,] [E,2E,,2] [EB,G,][E,2E,,2][E=D^G,]|[A,2=A,,2] [ECA,][E2C2A,2]z [C,2C,,2]|
+[CA,E,][C2A,2E,2][CA,E,] [D,2D,,2] [B,=G,][B,-G,-]|[B,G,][B,G,] [D,2D,,2] [DCF,][D2C2F,2][DCF,]|[G,2G,,2] [DB,G,][D2B,2G,2]z [G,2G,,2]|[DB,G,][F,2F,,2][^DB,A,] [E,2E,,2E,,2] [EB,G,][B,,-B,,,-]|
+[B,,B,,,][^DB,A,] [E,2E,,2] [EB,G,][E,2E,,2][E=D^G,]|[A,2A,,2] [ECA,][E2C2A,2]z [C,2C,,2]|[CA,E,][C2A,2E,2][CA,E,] [D,2D,,2] [B,=G,][B,-G,-]|[B,G,][B,G,] [D,2D,,2] [DCF,][D2C2F,2][DCF,]|
+[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|[G,G,,][G,G,,] [G,2G,,2] [G,G,,][G,2G,,2][G,G,,]|[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|
+[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|[G,G,,][G,G,,] [G,2G,,2] [G,G,,][G,2G,,2][G,G,,]|[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|
+[G,G,,][G,G,,] [G,2G,,2] [G,G,,][G,2G,,2][G,G,,]|[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|[G,G,,][G,G,,] [G,2G,,2] [G,G,,][G,2G,,2][G,G,,]|
+[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|[G,G,,][G,G,,] [G,2G,,2] [G,G,,][G,2G,,2][G,G,,]|[G,2G,,2] [G,G,,][G,2G,,2][G,G,,] [G,2G,,2]|
+[G,G,,][G,2G,,2][G,G,,] [G,2G,,2] [G,G,,][G,-G,,-]|[G,G,,]z [G,2G,,2] [DB,G,][F,2F,,2][^DB,A,]|[E,2E,,2E,,2] [EB,G,][B,,2B,,,2][^DB,A,] [E,2E,,2]|[EB,G,][E,2E,,2][E=D^G,] [A,2A,,2] [ECA,][E-C-A,-]|
+[ECA,]z [C,2C,,2] [CA,E,][C2A,2E,2][CA,E,]|[D,2D,,2] [B,=G,][B,2G,2][B,G,] [D,2D,,2]|[DCF,][D2C2F,2][DCF,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,]z [G,G,,][DD,] [B,B,,][G,2G,,2]z|
+[G,G,,][DD,] [B,B,,][G,2G,,2]z [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [D,D,,][CC,] [A,A,,][F,-F,,-]|[F,F,,]z [D,D,,][CC,] [A,A,,][F,2F,,2]z|[D,D,,][CC,] [A,A,,][F,2F,,2]z [D,2D,,2]|
+[D,D,,][D,2D,,2][D,D,,] [G,G,,][DD,] [B,B,,][G,-G,,-]|[G,G,,]z [G,G,,][DD,] [B,B,,][G,2G,,2]z|[G,G,,][DD,] [B,B,,][G,2G,,2]z [G,2G,,2]|[G,G,,][G,2G,,2][G,G,,] [D,D,,][CC,] [A,A,,][F,-F,,-]|
+[F,F,,]z [D,D,,][CC,] [A,A,,][F,2F,,2]z|[D,D,,][CC,] [A,A,,][F,2F,,2]z [D,2D,,2]|[D,D,,][D,2D,,2][D,D,,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [C,2C,,2] [CA,E,][C2A,2E,2][CA,E,]|
+[D,2D,,2] [B,G,][B,2G,2][B,G,] [G,2G,,2]|[DCF,][D2C2F,2][DCF,] [G,2G,,2] [DB,G,][D-B,-G,-]|[DB,G,][DB,G,] [C,2C,,2] [CA,E,][C2A,2E,2][CA,E,]|[D,2D,,2] [B,G,][B,2G,2][B,G,] [D,2D,,2]|
+[DCF,][D2C2F,2][DCF,] [G,2G,,2] [DB,G,][D,-D,,-]|[D,D,,][DCF,] [G,2G,,2] [DB,G,][D,2D,,2][DCF,]|[G,2G,,2] [DB,G,][D,2D,,2][DCF,] [G,2G,,2]|[DB,G,][D,2D,,2][DCF,] [G,2G,,2] z[G,-G,,-]|
+[G,G,,]z [G,2G,,2]
+S:https://www.folktunefinder.com/tunes/99166
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

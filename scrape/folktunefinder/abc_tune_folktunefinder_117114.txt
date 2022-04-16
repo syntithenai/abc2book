@@ -1,0 +1,33 @@
+X:67
+T:Little Liza Jane A
+C:Adam Steffey (AKUS "So Long, So Wrong")
+M:4/4
+L:1/8
+Q:1/8=550
+K:A
+ABc2 e2|faaa a2e2|ffff e2e2|=c^ccc =cBA2|[ee][ee][ee]f e2f2|
+faaa aefa|eafe fgaf|ef=gf edcB|A2AB c2e2|
+faaa aaaa|fae2 [ee][ee][ee][ee]|=c^cc2 =cBA2|[ee][ee][ee]f e2f2|
+faaa aefa|eafa eafe|fgaf edcB|A2AA ABAB|
+c2A2 B2A2|=c^ce2 =cBA2|eeef e2c2|z2ee efef|
+=gfed cBAc|BABc defg|afed cAB2|A2AA ABAB|
+c2A2 B2A2|=c^ce2 =cBA2|eeef e2c2|e2ee efef|
+=gfec dfed|BdcB cBAF|=GBAG EGFE|FED=C ^CEDC|
+A,2AB c2e2|faaa aaaa|fae2 [ee][ee]e2|=c^cc2 =cBA2|
+[ee]eef e2f2|faaa aefa|eafe fgaf|ef=gf ec=cB|
+A2AB c2e2|faaa aaaa|faea faea|fef=g afga|
+fae=g fecf|ec=cB AFEF|=GABc defg|afed cAB2|
+A2[AA]A ABAB|c2A2 B2A2|=c^ce2 =cBA2|[ee]eef e2c2|
+e2[ee]e efef|=gfec =cBAF|EDA,B, CDEF|GBAc BABc|
+A2[AA]A ABAB|c2A2 B2A2|=c^ce2 =cBA2|eeef e2[ee]e|
+efe2 eeef|=gfed cBAB|cefg afec|BcAc BABc|
+defg a2eg|agbg agfa|e^d=dc Ac=cB|AF=GB AGFE|DCB,2 A,4|
+S:https://www.folktunefinder.com/tunes/117114
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

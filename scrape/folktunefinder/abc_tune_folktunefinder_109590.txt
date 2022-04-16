@@ -1,0 +1,36 @@
+X: 2
+T:Tabulation for playing the fife or arigot in triple time
+M:6/4
+L:1/4
+B:Thoinot Arbeau : Orchesographie, 1589
+Z:Steve Mansfield February 2001
+K:BLoc
+GAB | c2c GAB | c>dc GAB | c2c B/c/d/c/B/A/ |
+B3 A/B/c/B/A/G/ | A3 G/A/B/A/G/F/ | G3 FED | E3 EDF |
+E3 EDF | E3 D/E/F/E/D/C/ | D3 C/D/E/D/C/D/ | E3 DEF |
+G3 F/G/A/G/F/G/ | A3 G/A/B/A/G/A/ | BA/B/c/B/ A/B/c/B/A/B/ |
+c3 ABc | ded edB | cdc dcd | c3 B/c/d/c/B/A/ |
+B3 ABc | BA/B/B A/B/c/B/A/G/ | A4 AG/A/ | B4 AB | c4 cB |
+d3 c/d/e/d/c/d/ | e6 | d3 cBA | B6 | z6 | z6 |
+E6 | F6 | ED/E/ F/E/D/E/ F/E/D/E/ | F/E/D/E/ F/E/D/E/ F/E/D/C/ |
+D6 | D2D CD2 | C6 | CDE DEF | GAG AGA | BcB cAB |
+c6 | cB/c/ d/c/B/c/ d/c/B/d/ | d/c/B/c/ d/c/B/c/ d/c/B/A/ |
+B3 A/B/c/B/A/B/ | c/B/A/B/ c/B/A/B/ c/B/A/G/ A4 GA |
+GF/G/ A/G/F/G/ A/G/F/G/ | A/G/F/G/ A/G/F/G/ A/G/F/E/ | F3 E/F/G/F/E/D/ |
+EFE D/E/F/E/D/C/ | D6 | E6 | c2A Bcd | c3 cBA |
+BAB ABG | A3 G/A/B/A/G/A/ | G6 | C6 | D6 |
+E6 | ED/E/ ED/E/ ED/E/ | F3 DEF | GAG EFG | ABA BAF |
+GAB cdB | c2A BcA | BcB ABG | A6 |
+AG/A/ B/A/G/A/ B/A/G/F/ | G6 | E3 DEF | E3 DC2 | c3 BAG |
+A6 | B2 AG A2 | (B6 | B6) ||
+S:https://www.folktunefinder.com/tunes/109590
+S:http://www.lesession.co.uk/music/Orchesography.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

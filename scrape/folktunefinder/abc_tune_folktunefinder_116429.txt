@@ -1,0 +1,30 @@
+X:13384
+T:Polska
+S:Filarfolket Live
+R:Polska
+O:Norway
+M:3/4
+D:Filarfolket Live
+C:e. Hans W. Brimi
+K:Gm
+G>B B<A A>G | (3AcA AA | \
+G>A (3BGB (3A^FA | G>B B<A A>G | \
+A>A c<d d>B |
+G>A (3BGB (3AG^F | ^F<G G4 ::\
+d2 cA B>c | d>e (3fdf (3ece |
+d2 cA B>d | (3cde d>c (3ABB | \
+A2 a2 g>f | d>f (3egf d>d |\
+c>A (3BGB (3AG^F | ^F<G G4:|**
+S:https://www.folktunefinder.com/tunes/116429
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

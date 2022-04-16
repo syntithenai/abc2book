@@ -1,0 +1,27 @@
+X:2
+T: One-Horned Sheep
+I: One-Horned SheepJ-64Gjig
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"g2G GFG| "C"EGG "G"DGG| g2G GFG| "Am"EAG "D"FED|
+"G"g2G GFG| "C"EGG "G"DGG| "C"EGG "D"FGA| "G"BGF G3 :|
+|: "G"GBd dBd| GAB d2D| GBd dcB| "D"cdc A2D|
+"G"GBd dBd| GAB def| "C"gfe dBG |1 "D"ABA G2D :|2 "D"ABc def |]
+%%text Roaring Jelly J-64
+S:https://www.folktunefinder.com/tunes/107186
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/jig/J064_One_Horned_Sheep.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J064_One_Horned_Sheep.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J064_One_Horned_Sheep.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

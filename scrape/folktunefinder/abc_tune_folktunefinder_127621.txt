@@ -1,0 +1,48 @@
+X: 1
+T: Assanhado
+C: Jacob do Bandolim
+O: Brazil
+S: Don Stiernberg
+R: choro
+M: 2/4
+L: 1/8
+Z: Contributed 20050511121801 by Glauber Ribeiro theglauber@yahoo.com
+K: A
+"A"a4- | a2 z/be/- | e4- | e2 z/f=g/- | =g<f e=c | \
+ce/E/- E/FA/- |1 A/AA/- A2- | A/ z3 :|2 A/AA/- A2- | Az z/A=c/ |
+|: "D7"=c/A=c/ A>e- | e/d=c/ AA- |1 "A"A/AA/- A2- |\
+ A z z/A=c/ :|2 "A"A/AA/- A2- | A z3 |
+|: "E7"e4 - | e2 z/gb/- | b4- | b2 z/fb/- | b<f bf | c'/ba/ fa- |1 \
+"A"a/ff/- f2- | f z3 :|2 "A"a4- | az z/A/a/g/ |
+L:1/16
+"A7"=ga2g ecA=G- | GAce af2e- | "D7"ed=cG BAFD |\
+ =CDFA d4 | "G7"zD=F=G Bd=g=f |
+cedB =GF=FE- | "C"EdA=c _BFA=G | E=CB,_B,- B,4 |\
+ "F7"z=F=GA =c_e=fa | =g2=fa gfg^g- |
+"Bb7"g=g=fc d_Bg^g | =fcd_B g=gfc | "E7"d=f^fe dBGE- |\
+"^second time, jump to coda"EDEG =cc2B- O | "A"BABc eafe |
+cAFE- EgaA | "A7"=g2z^g aA=g2 | zgaA =g2z^g |\
+ "D7"aAf2 zgaA | f2zg aA2=f |
+"G7"zgaA =f2zg | aA=f2 zgaA | "C7"e2zf =g=Ge2 |\
+ zf=g=G e4 | "F7"z_E=FA =c_e=fa |
+=g2=fa gfg^g- | "Bb7"g=g=fc d_B^g=g | =fcd_B g=gfc |\
+ "E7"d=f^fe eBGE- | EDEG =c^c2B- |
+"A"BABc eafe | cAFE- E2!D.C.!z2  || "^coda"OBABc eafe |\
+ cAFE- E2z2 | a8- | a4 zb2e- |
+L:1/8
+e4- | e2 z/f=g/- | g<f e=c | ce/E/- E/FA/- |\
+ A/AA/- A2 | A z3 | a/b/a/b/ aa/b/ |
+a/b/a a/^a/b/e/- | e2 z/f=g/- | g<f e=c |\
+ ce/E/- E/FA/- | A/AA/- A2- | A z3 |]
+S:https://www.folktunefinder.com/tunes/127621
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/Assanhado.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Assanhado.abc
+% Rhythm Choro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

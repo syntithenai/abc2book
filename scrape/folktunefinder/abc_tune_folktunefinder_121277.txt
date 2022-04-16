@@ -1,0 +1,39 @@
+X:195
+T: Dineen's Fancy
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K:G
+B/A/ | GDB, DB,G, | B,A,G, B,CD | EAB c2 A/B/ |\
+cAG FGA |
+GDB, DB,G, | B,A,G, B,CD | EAB cAG | FGA G2 :|
+d/c/ | B2 G GF=F | ECE DB,D | GFG BdB | ABE F2 D |
+GFG BAG | ECE DB,D | GBe dBG | FGA G2 :|
+D | GFG BAG | dBG BAG | EAB c2 A/B/ | cAG FGA |
+GFG BAG | dBG BAG | EAB cAG | FGA G2 :|
+P: Original key Bb
+K: Bb
+d/c/ | BFD FDB, | DCB, DEF | Gcd e2 c/d/ |\
+ecB ABc |
+BFD FDB, | DCB, DEF | Gcd ecB | ABc B2 :|
+f/e/ | d2 B BA_A | GEG FDF | BAB dfd | cdG A2 F |
+BAB dcB | GEG FDF | Bdg fdB | ABc B2 :|
+F | BAB dcB | fdB dcB | Gcd e2 c/d/ | ecB ABc |
+BAB dcB | fdB dcB | Gcd ecB | ABc B2 :|
+S:https://www.folktunefinder.com/tunes/121277
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/d.abc
+S:http://www2.redhawk.org:8080/irish/zouki/d.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

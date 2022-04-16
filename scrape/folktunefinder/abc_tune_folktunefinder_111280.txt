@@ -1,0 +1,24 @@
+X:49
+T:Ca La Breaza
+O:rumania
+C:Rumania
+M:2/4
+L:1/8
+Q:1/4=80
+K:C
+V:1
+"Cm" _e/4d/4(c/c/)d/4_e/4 {^f/}g~g |_e/4d/4(c/c/)d/4_e/4 {^f/}g~g |_e/4d/4(c/c/)d/4_e/4 {^f/}gg |_e/4d/4(c/c/)d/4_e/4 cG :| |:
+"Dm"  (3d/e/f/ e/f/e/f/ ~f|f/4e/4(d/ d/)e/4f/4~d "G" g|"Dm"  (3d/e/f/ e/f/e/f/ "G"  (3d/e/f/ |"C" e/4d/4(c/"G" c/)d/4e/4 "C" cG :| |:
+"C"  (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/|c'/g a/4_b/4ge | (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/ (3g/4a/4_b/4 a/|c'/g ^f/4e/4c/G/c :| |:
+"C7" g/^fa/ ~ge |g/^fa/ ~ge |g/^fa/ ~ge | (3c/d/e/ ~g3/4 e/4cc :|
+S:https://www.folktunefinder.com/tunes/111280
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

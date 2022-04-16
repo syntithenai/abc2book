@@ -1,0 +1,20 @@
+X:7
+T:Royal Greenwich Observatory
+T:to the tune of "Steam-boat Hornpipe" (played dotted)
+M:C|
+L:1/8
+K:G
+P:A
+(3def|"G"g2bg d2gd|BcdB G2AB|"C"c2ec A2cA|"D"FGAB cdef|
+"G"g2bg d2gd|BcdB G2AB|"C"cedc "D"BAGF|"G"A2G2 G2:|
+P:B
+Bc|"G"dBdB g2gd|"C"ecec a2ae|"D"fefd "G"gfgb|"A"agfe "D"defd|
+"G"g2bg d2gd|BcdB G2AB"*"|"C"cedc "D"BAGF|"G"A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/122691
+S:http://www.biff.org.uk/dave/molly.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

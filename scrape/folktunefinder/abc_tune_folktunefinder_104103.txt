@@ -1,0 +1,59 @@
+X:3
+T:Courante (suite en La mineur)
+R:Courante
+G:guitare
+C:Robert de Vise
+U:I=!arpeggio!
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/2
+L:1/8
+N: la toute dernire mesure : 
+N:  le premier A n'est pas A2 mais A6 ce que le format abc ne permet pas de rendre
+N:  car [A2c4] n'est pas autoris...
+N: idem pour | c3 (d c)B A2 ^c4 | qui devrait tre c3 (d c)B A6 ^c4 |
+Q:1/4=95
+K:Am
+K:C
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+I[Ace] | [E3A3c3e3] (f e)d !trill!c2A3 a | !trill!^g4 z2a2 b3 b |
+([e2b2]c')(b a)g (fe) [d2f2] z e | !trill!d3d g2 c2 !trill!B3c | d6 d2d2 [^c2e2] |
+I[d6f6] c4 B2 | c3 c d2 e2 !trill!d3 [Be] | [B6e6] [B4e4] z :|
+|: I[^gb] | I[^g3b3] g ab [a2c'2] !trill!b3 a | !trill!^g6 [B6g6] | [e6a6] [e2a2] !trill!f3 e |
+[d2f2] z=g (ag) fe d3 d | d2 B2 Ac z d !trill!d3 c/d/ | c2 z4 Bd !trill!c3 B |
+c3 c !trill![A2^c2] z c2 ^d2 e-|e^f B4 b2 !trill!a3b | !trill!^g6 [e2a2] (a=g) fe |
+[d2f2] ze d2 (cB) c3 d | (cB) (A^G) A3 B !trill!B3 A/B/ | z2 c4 [c4e4] z :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+E | A6 A6 | [B3e3] f (ed) c2 [^G4d4e4] |
+[A6c6] z2A2 c2 | B6 A2 G4 | [D3G3B3] G (FE) F4 E2 |
+[D3A3] [D(d)] (=cB) A2A2 ^G2 | [E6A6] G2F3 [E^G] | [E2^G2] E2G2 [E4G4] z :|
+|: [Be] | [B3e3] zz2 [A2e2] d3 z | [B3e3] B cD E2 [D2d2] (cB) | c3 (d c)B A2 ^c4 |
+[D2A2] =c2 F4 ^F4 | G4 z2 F2 G3 z | z2 B2A2 [^G6e6] |
+[E4A4] E2 G2 ^F2 E2 | ^D6 [^d6f6] | [B2e2] e2 [D2d2] ^c6 |
+[D2A2] =c2 B4 [E4A4] | E4 F2 D2 E4 | A2 A2 E2 [E4A4] z :|
+S:https://www.folktunefinder.com/tunes/104103
+S:http://anamnese.online.fr/abc/visee.abc
+% Rhythm Courante
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

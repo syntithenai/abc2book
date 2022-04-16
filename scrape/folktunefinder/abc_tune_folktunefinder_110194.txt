@@ -1,0 +1,32 @@
+X:147
+T:Whimbleton House
+C:Henry Playford
+S:Dancing Master 11th Edition, 1710.
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+L:1/4
+M:5/2
+%%MIDI gchord GcHcIcGcGc
+%%MIDI beat 100 95 80
+Q:1/2=88
+K:Gm
+P:A
+|: "Gm"G2 dc/B/ AG "Cm"A/B/c/A/ "D7"^FD | "Gm"Gd "Cm"c/B/A/G/ "D7"gG A^F "Gm"G2 :|
+%%vskip 0
+M:3/2
+%%MIDI gchord gcHcGc
+%%vskip 0
+P:B
+"Bb"d3/2e/ fd c3/2B/ | "D7"AB cA ^FD | "Bb"d3/2e/ fd c3/2B/ | "D7"g2 g3/2^f/2 "Gm"g2 |
+"Bb"d3/2e/ fd c3/2B/ | "D7"AB GA ^FD | "Gm"d3/2e/ dc/B/ "D7"A/B/c/A/ | "Gm"dG "D7"A^F "Gm"G2 |]
+S:https://www.folktunefinder.com/tunes/110194
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Time_signature 5/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

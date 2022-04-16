@@ -1,0 +1,24 @@
+X:102
+T:The Blarney Pilgrim
+T:from The Blarney Fife Medley
+C:Trad. Irish, arr. C. Myers
+M:6/8
+L:1/8
+K:G
+%%MIDI program 72
+%%MIDI transpose 8
+D/D/|D>ED DEG|A2G ABc|BAG AGE|GEA GED|
+D>ED DEG|A2G ABc|BAG AGE|GED D2::
+d/d/|d>ed dBG|AGA BGE|d>ed dBG|AGA GBd|
+g2e dBG|AGA Bcd|cBA BAG|AGE D2::
+D|ADD BDD|ADD ABc|BAG AGE|GEA GED|
+ADD BDD|ADD ABc|BAG AGE|[1 GED D2:|
+[2 GED D3-|D6|D6||
+S:https://www.folktunefinder.com/tunes/114134
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:155
+T: Hundred Pipers
+S: J. O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: A
+B | c2 E EDE | F2 A A2 f | e2 c cBA | BcB BAB |
+c2 E EDE | F2 A A2 f | e2 c BAB | A3 A2 :|
+B | c2 e ece | f2 a agf | e2 c cBA | BcB BAB |
+c2 e ece | f2 a agf | e2 c BAB | A3 A2 :|
+S:https://www.folktunefinder.com/tunes/123175
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

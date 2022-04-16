@@ -1,0 +1,25 @@
+X:129
+T:Tea Up!
+C:Colin Hume, 1998
+L:1/8
+M:4/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/4=140
+K:D
+P:A
+|: "D"D2D>E "Bm"F>GA>F | "G"G2G>A "Em"B>cd>B | "D"A2d>e "Bm"f>ed>f | "E7"e>dc>B "A"A4 |
+"G"B2B>A "^/"G>AB2 | "A"c2c>d "^/"c>BA2 | "Em"{ef}g2e>d "A7"c>AB>c | "D"d2f2 "^/"d4 :|
+P:B
+|: "A"e2e>d "^/"c>BA2 | "D"f2f>e "G"d>cB2 | "Em"g2g>f "E7"e2d2 | "A"c2 "E7"B2 "A"A4 |
+"G"B2B>c "^/"d>cB2 | "A"c2c>d "^/"e>dc2 | "D"d2A>G "^/"F>ED>C | "G"B,2 "A7"C2 "D"D4 :|
+S:https://www.folktunefinder.com/tunes/110176
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

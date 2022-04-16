@@ -1,0 +1,22 @@
+X:6600
+T:Grizzly Bear, The
+M:2/4
+L:1/16
+C:Don Messer
+R:Breakdown
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:C
+(3G,A,B,|"C"C2EG cGDE|"F"F2AF cFAF|"G7"G2Bd gdBd|"C"cBce "G7"dBGE|!
+"C"C2EG cGEG|"F"F2AF cFAF|"G7"GGBd g2gd|BGAB "C"c2:|!
+|:gf|"C"efga g2gf|ecgc ecgc|efga g2dc|"G7"BGdG BGdG|!
+"C"efga g2gf|ecgc ecgc|efga g2dc|"G7"BGAB "C"c2:|]
+S:https://www.folktunefinder.com/tunes/102498
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

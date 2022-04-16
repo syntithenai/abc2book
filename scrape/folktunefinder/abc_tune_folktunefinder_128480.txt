@@ -1,0 +1,20 @@
+X:13
+T:Bow Legged Tailor
+Z: id:dc-jig-11
+M:6/8
+L:1/8
+K:G Major
+D|GFG gfg|edc B2A|GFG BAG|FAA cAF|!
+GFG gfg|afd cAF|GFG Adc|BGF G2:|!
+B|dBG dBG|ecA dBG|gba gdB|cAA ABc|!
+dge dBG|EFG AFD|GFG Adc|BGF G2:|!
+S:https://www.folktunefinder.com/tunes/128480
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

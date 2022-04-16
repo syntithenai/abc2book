@@ -1,0 +1,25 @@
+X:37
+T:Branle des sabots
+M:C|
+L:1/8
+B:L'Orchesographie de Thoinot Arbeau (Lengres, France, 1589)
+F:http://graner.net/nicolas/arbeau/orcheso.abc
+R:branle morgu
+S:cf. http://graner.net/nicolas/arbeau/
+Z:Nicolas Graner, Sep. 2001
+K:F
+B4 B4 cB AG A2 F2 G2 G2 F2 B2 B2 A2 B4 ::
+cB AG A2 F2 cB AG A2 F2 F2 z2 F2 z2 F2 z2 ::
+S:https://www.folktunefinder.com/tunes/104077
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://graner.net/nicolas/arbeau/orcheso.abc
+S:http://www.graner.net/nicolas/arbeau/orcheso.abc
+% Rhythm Branle morgu
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

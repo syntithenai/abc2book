@@ -1,0 +1,21 @@
+X:78
+T: Erloesung vom Galgen
+N: Q0022B
+O: Osteuropa, Ungarn, Komitat Wessprim, Veszpremfajsz
+R: Spiel, Hinrichtung, Opfer, Rettung
+M: 4/8
+L: 1/8
+K: E
+E | EBBB | BAAA | BA=GB | F2z
+E | EBBB | BAAA | BA=GB | F2z
+F | =G2AA | B2AF | =G2F2 | E2z
+S:https://www.folktunefinder.com/tunes/110016
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Spiel, hinrichtung, opfer, rettung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

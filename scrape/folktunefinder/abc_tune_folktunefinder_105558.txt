@@ -1,0 +1,20 @@
+X:3
+T:Wylam Away
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+e/f/ | gdB gGB | gdB A2e/f/ | gdB gGB | 
+gdB G2 :: e | dB/c/d dB/c/d |dB/c/d A2e |
+dB/c/d dB/c/d | dB/c/d G2 :: c | BAG edB |
+gdB ABc | BAG edB | gdB G2 :|
+S:https://www.folktunefinder.com/tunes/105558
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

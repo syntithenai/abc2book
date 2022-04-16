@@ -1,0 +1,32 @@
+X:56
+T:The Star Spangled Banner
+C:Francis Scott Key
+M:3/4
+L:1/8
+K:G
+Q:1/4=90
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI ratio 3 1
+|:d>B|G2 B2  d2 |g4    b>a|g2 B2 ^c2|d4    dd |b3 a g2 |f4  e>f|g2  g2  d2|B2 G2:|
+b>b|b2 c'2 d'2|d'4   c'b|a2 b2 c'2|c'4   c'2|b3 a g2 |f4  e>f|g2  B2 ^c2|d4 d2 |
+    g2  g2  gf| e2 e2 e2|a2 c'b ag|g2 Hf2 dd |g3 a bc'|d'4 ga|b3  c'  a2|g6   ||
+V:2
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI ratio 3 1
+|:d>B|G2 g2 f2|e4  ^d>d|e2 e2 a2 |d4     dd|GF    GA Bc|d4 e>d|g2 g2 d2|B2 G2:|
+g>g|g2 a2 b2|b4    ag|f2 g2 a2 |a4     a2|g3     f e2|d4 e>d|g2 e2 ag|fe dc BA|
+    BA GA BG|cd ed cB|cB AB c^c|d2 Hd2 dd|gf/e/ df ga|b4 ee |dd d2 dc|B6     ||
+S:https://www.folktunefinder.com/tunes/114122
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:700
+T:O Keefes of Dublin
+R:Jig
+N:Ben plays the A part syncopated, as though there were three  pairs of
+N:eighth notes per bar rather than two sets of three.
+N:Follows Dusty Windowsill
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+EG DG EG|DE GB2 G|EG DG EG|ce dA2 G|
+EG DG EG|DE GB2 G|ced gdB|AcB ~G3:|
+|:dee dgd|dee dBG|dee dgd|abg ~e3|
+dee dgd|dee dBG|ced gdB|AcB ~G3:|
+S:https://www.folktunefinder.com/tunes/125432
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

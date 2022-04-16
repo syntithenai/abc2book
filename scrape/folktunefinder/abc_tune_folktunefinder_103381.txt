@@ -1,0 +1,24 @@
+X:1105
+T:"All Alive"             (jig)             1105
+C:after Sgt J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+(B/2c/2)|dfd ece|(d/2B3/2)B B2c|dfd efd|(c/2A3/2)A A2c|
+d3/2c/2d ede|f2b bag|f3/2e/2d (c/2d/2e)c|dBB B2:|
+|:c|dfb afd|afd afd|cea ecA|ecA ecA|
+dfb afd|d'c'b afd|(e/2f/2g)e (c/2d/2e)c|dBB B2:|
+S:https://www.folktunefinder.com/tunes/103381
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1105-AllAlive.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1105-AllAlive.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

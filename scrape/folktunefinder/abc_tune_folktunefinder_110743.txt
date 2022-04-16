@@ -1,0 +1,31 @@
+X:135
+T:Goodman's Fields Hornpipe
+B:John of the Greeny Cheshire Way
+L:1/8
+M:3/2
+N: John Offord, Reproduced with permission
+O:England
+R:Triple Hornpipe
+Z:Steve Bliven (bliven@massed.net)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000002f4.html
+%%ID:000002f4
+K:D
+P:1
+B,4 DEFE DCB,^A,   | B2 GF EDCB, ^A,4 | f2 bf =afge fdec  | d2 gf edcB ^A2 F2 |
+B,4 DEFE DCB,^A,   | B2 GF EDCB, ^A,4 | fede   fdcd ecBc  | dcdB  F2   ^A2 B4 ||
+P:2
+D4 F=ABc dcdA   | Bcdc  BAGF  E4 | E4     GBcd edec  | dfgf  edcB    ^A4 |
+b2 =ag fedc Bdfb| a2 gf edcB Acea| g2 fe  dcB^A B2 fe| dcBd  F2   ^A2  B4|]
+S:https://www.folktunefinder.com/tunes/110743
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Greeny/Greeny.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

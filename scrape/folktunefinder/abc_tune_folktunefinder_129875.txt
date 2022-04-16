@@ -1,0 +1,22 @@
+X: 64
+T:Trumpet
+% Nottingham Music Database
+S:Captain Pugwash
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+(3DEF|(3"G"GGGG2 (3GGGG2|"G"BGBd gdBG|(3"D7"DDDD2 (3DDDD2|"D7"FDFA dAFD|
+(3"G"GGGG2 (3GGGG2|"G"BGBd g2ag|"D"fafd "A7"ege^c|"D"d2d2 "D7"d2 c2|
+(3"G"dddd2 (3dddd2|"C"efgf edcB|"Am"cded cBAG|"D7"FGAG FDEF|
+(3"G"GGGG2 (3"G7"GGGG2|(3"C"GGGG2 (3"Cm"GGGG2|"D7"F2fe dcBA|"G"G2g2 G2||
+S:https://www.folktunefinder.com/tunes/129875
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

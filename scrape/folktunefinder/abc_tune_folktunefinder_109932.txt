@@ -1,0 +1,65 @@
+X: 1
+T: Sonata im Kanon, Op 5 No 3 in Dm
+T: f\"ur zwei Altblockfl\"oten
+C: Georg Philipp Telemann
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/16
+N: (1) Second may omit the repeat to exchange the lead.
+K: Dm
+P: Vivace
+"1"d2f2 | e2(d^c) (de)(fd) (fe)(dc) d2a2 | f2(ef) (gf)(ed) T^c2A2 "2"f2d2 | z4 a2d2 z4 (fe)(d^c) |
+| d2c2 TB4 A4 (ag)(ab) | a2(de) (fe)(fg) (fd)(fg) (ag)(ab) | a(fef) g2Te2 fcde (fe)(fg) | f2z2 (ag)(ab) a2z2 (c'b)(c'd') |
+| c'(aga) bagb aefg a2c'2 | z2c'2c2c'2 z2c'2a2Te2 | f4 z4 z4 f2a2 | (ag)(fe) (fg)(af) (ag)(fe) f2c'2 |
+| a2(ga) (ba)(gf) Te2c2a2f2 | z4 c'2f2 z4 agfe | f2e2 Td4 c4 z4 | a2f2 z4 c'2f2 c'4- |
+| c'2c2=B2T=b2 c'2c2 (c'bc'b) | c'2z2 (a^gag) a2z2 (fef)e | fdef ^G2T^g2 a2A2 e'4 | z2e2 c'4 z2e2A2^g2 |
+| a4 T=b4 z2a^g a2c'2 | T=b2(a^g) (ab)(c'a) (c'b)(ag) a2e'2 | c'2=bc' d'c'ba T^g2e2c2A2 | d2c=B c2A2 d2cB c2A2 |
+| a2g2 Tf4 e4 z2e2 | faTa2 eaTa2 faTa2 eaTa2 | fdec d2T=B2 c2eg c'4 | z2c2 c'4 z2c2 c'4 |
+| z2ge f2a2 Ta2g2f2a2 | (ag)(fe) (fg)(af) (ag)(fe) (fg)(fe) | d2^c2d2f2 Te4 d2f2 | e2(d^c) (de)(fd) fedc d2a2 |
+| f2(ef) (gf)(ed) T^c2A2f2d2 | z4 a2d2 z4 (fe)(d^c) | d2=c2 TB4 A4 z4 | f2d2 z4 a2d2 a4- |
+| a2(ba) (gf)(ed) f3e Te4 | Td4 (fef)e Td4 (fef)e | Td4 d'4 z2d2A2^c'2 | d2d'2 (aga)g f2d'2 (aga)g |
+| f2d'2 (bg)(af) (ge)(fd) f2Te2 | Hd4 T^c4 d4 Tc4 | d2f2e2f2 ^c2d2G2A2 | Hd4 z4 z8 |]
+T:
+P: Soave
+M: 12/8
+L: 1/16
+K: Eb
+[| "1"e4g2 Tf4e2 {fg}a3 {gf}e3 | "2"b2b2e'2 z6 {ab}c'3 {ba}g3 | a2gfg2 b2b2e'2 d3(cd2) e3(de2) |
+| B2B2e2 z6 b4-bc' b4-bc' | (bc')(bc')(bc') (bc')(bc')(bc') (dfb2)b2 (dfb2)b2 | (d'e')(d'e')(d'e') (d'e')(d'e')(d'e') (fb)d'4 (fb)d'4 |
+| B4f2 b4f2 z4f2 b4f2 | d'3(e'c'2) d'3(e'c'2) f3(e'c'2) f3(e'c'2) | B2B2f2 z6 f6- f3ge2 |
+| Te4d2 "p"B2B2f2 z4"f"a2 {a}TG6 | f6 z6  c'3(ac'2) b4e2 | a3(c'b2) a2(g2f2) e'4e2 z6 | e'4e2 z6 | g3(ba2) g2(f2e2) |
+| c3(ba2) g3(af2) e6 z6 | e6- e3(fd2) =A6 z6 | B2(Tb=a)b2 B2(Tb=a)b2 e4g Te6 | Hd12- | d2c2G2 T=A6 | HB12 z12 |]
+T:
+P: Allegro assai
+M: 3/8
+L: 1/16
+K: Dm
+[| "1"(b2a2)g2 | f2(ef)d2 | "2"e2T^c4 | d4z2 | g2Te4 | f2fgaf | b2a2g2 | a2abc'a | d'2(d'^c')(d'e') |
+| a4z2 | (b2a2)g2 | f2(ef)d2 | e2T^c4 | d2(g2f2) | (b2a2)g2 | f2(ef)d2 | e2A2^c2 | d4z2 |
+| A2Te4 | f2d2d'2 | c'2(ba)(bc') | Ta4b2 | a2(gfga) | f2c2e2 | f2b4 | Ta4g2 | (ab/c'/) d2Te2 | f2c'2c2 |
+|: "(1)"f2b4 | Ta4g2 | (ab/c'/) d2Te2 | f2c'2c2 :| c'2(ba)(ga) | f4z2 | (eg)f2e2 | (fa)g2f2 | (b2a2)g2 |
+| f2(ef)d2 | e2A2^c2 | d4z2 | g2Te4 | f2fgaf | b2a2g2 | a2abc'a | d'2(d'^c')(d'e') | a4z2 |
+| (b2a2)g2 | f2(ef)d2 | e2T^c4 | d2(g2f2) | (b2a2)g2 | f2(ef)d2 | e2A2^c2 | d4z2 | z6 ||[K:D]
+| f4b2 | a4d'2 | a4g2 | (f2e2d2) | (c2B2A2) | d4f2 | e4g2 | (fd)a2z2 | (ge)A2z2 |
+| d2(dc)(dB) | c2(ge)(de) | f4b2 | a4d'2 | a4g2 | (f2e2d2) | (c2B2A2) | d4f2 | e4g2 |
+| (fd)a2z2 | (ge)A2z2 | d2(fe)(fd) | (eb)(ag)(fe) | d4z2 | z6 | f4A2 | e4A2 | d2(cd)(ed) |
+| c2(Bc)(dc) | B4e2 | a4A2 | e4d'2 | (c'2b2a2) | (^g2f2e2) | e'6 | d'6 | (c'bc'2)a2 |
+| (bab2)^g2 | a4f2 | e4d2 | (cBA2)d2 | c4f2 | e4b2 | a2^g2a2 | d'6 | Tc'6 | f4A2 | e4A2 |
+| d2(cd)(ed) | c2(Bc)(dc) | B4e2 | a4A2 | e4d'2 | (c'2b2a2) | (^g2f2e2) | e'6 | d'6 |
+| (c'bc'2)a2 | (bab2)^g2 | a4z2 | (d'6 | c'4)=c'2 | b4(_b2 | a2)g2f2 | g4^c2 | d4z ||[K:Dm]
+|(b2a2)g2 | f2(ef)d2 | e2T^c4 | d4z2 | g2Te4 | f2fgaf | b2a2g2 | a2abc'a | d'2(d'^c')(d'e') |
+| a4z2 | (b2a2)g2 | f2(ef)d2 | e2T^c4 | d2(g2f2) | (b2a2)g2 | f2(ef)d2 | e2A2^c2 | Hd4z2 | A2(ag)(fe) | Hd6 |]
+S:https://www.folktunefinder.com/tunes/109932
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/CanonicSonata_Op5_3_Dm.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D-sharp
+% Key D
+% Time_signature 4/4
+% Time_signature 3/8
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

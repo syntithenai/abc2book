@@ -1,0 +1,25 @@
+X:515
+T: Cockled Old Man
+S: "The Roche Collection of Traditional Irish Music" [III/31/102]
+L: 1/8
+M: 6/8
+R: jig
+K: Ador
+e/f/ | gea ged | cAB c2d | eaa age | edd def |
+gea ged | cAB cde | =fed e2d | cAG A2 :|
+B | cBc A2G | ecB cde | ded cAG | Add ded |
+cBc A2G | ecB cde |1 =fed ecA | GFE D2 :|2\
+=fed e2d | cAG A2 :|
+S:https://www.folktunefinder.com/tunes/107732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

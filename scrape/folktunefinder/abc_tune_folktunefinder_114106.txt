@@ -1,0 +1,38 @@
+X:40
+T:Quick Step
+T:From Ashworth's
+C:Arr. by John J. Benoit, 1991
+%%staves [1 2]
+M:2/4
+Q:1/4=100
+L:1/16
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+fe|:d2.F2 F2(Bc)|d2.F2 F2(Bc)|d2B2 (ed)cB|c2.F2 F2fe|
+d2.F2 F2(Bc)|d2.F2 F2(Bc)|d2B2 (dc)B^A|1 B4 B2fe:|2 B4 B2c2|
+|:d2f2 defd|(ed)cB A2Bc|(dc)B^A BcdB|A2.F2 F4|c2d2 cdec|
+d2.B2 B2fe|d2B2 (dc)B^A|1 B4 B2c2:|2 B4 B2|]
+V:2
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!p!z2|:z2(Bc) dc(df)|b2(Bc) dc(df)|b2a2 (gf)ed|(ed)cB ^A2z2|
+z2(Bc) dc(df)|b2(Bc) dc(df)|b2((f2 f)e)dc|1 d2f2 d2z2:|2 d2f2 d2ag|
+|:f2de f2a2|(gf)ed c2ag|(fe)dc defg|f2(ed) c4|
+a2f^g a2^a2|b2fe d2b2-|b2((f2 f)e)dc|1 d2f2 d2ag:|2 d2f2 d2|]
+S:https://www.folktunefinder.com/tunes/114106
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

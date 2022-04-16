@@ -1,0 +1,26 @@
+X: 4
+T:Swedish Tune
+R:48 bar Hornpipe
+S:Electropathics
+M:4/4
+L:1/8
+K:G
+P:1
+|:"G" G2 Bd  "Am7" G2 ce | "Bm7"  G2 Bd  "C" ed Bd | "D" D2 FG  "C" Ac B
+A | "G" GG Bd  "C" edBd |"G" G2 Bd  "Am7" G2 ce | "Bm7"  G2 Bd  "C" ed B
+d | "D" D2 FG  "C" Ac BA | "G"G2 "C" B2  "G" G2 z2 :|
+P:2
+|: "G" gf gd  "C"  e2 e2 | "Bm7" de dB  "C" G2 G2 | "D" D2 FG  "C" Ac BA
+ | "G" GG Bd  "C" ed Bd | "G" gf gd  "C" e2 e2 | "Bm7" de dB  "Em" G2 G2
+ | "D" D2 FG "C" Ac BA |1 "G"G2 "C" B2  "G" G4 :|2  "G"G2 "C" B2 "G" G2
+S:https://www.folktunefinder.com/tunes/103599
+S:http://www.albireo.co.uk/abc/albireo.abc
+% Rhythm 48 bar hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

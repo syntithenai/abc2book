@@ -1,0 +1,27 @@
+X:16
+T:the Capuchin
+R:Jig
+B:Aird's Airs and Melodies vol 2
+O:Scotland
+F:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000d2.abc
+Z:Richard Robinson 
+M:6/8
+K:D
+A|\
+"D"d2d dcd| "Em"e2e efg| "D"fed dcd| "A"ecA A3|\
+"D"d2d dcd| "Em"e2e efg| "D"fed "A"edc| "D"ddd d2::
+g|\
+"D"f2f fdf| "G"g2g gbg| "D"f2f fed| "A"ecA A3|\
+"D"f2f fdf| "G"g2g gbg| "D"fed "A"edc| "D"ddd d2:|
+S:https://www.folktunefinder.com/tunes/117604
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000d2.abc
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000000d2.abc
+S:http://homepage.ntlworld.com/djfoster/MA3.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

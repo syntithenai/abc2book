@@ -1,0 +1,28 @@
+X: 03021
+T: THE DANCING BEAR
+C: Bob McQuillen  2 Feb 78
+B: Bob's Note Book 3 #21
+N: I have a wonderful friend who is a Bear named Oso and this tune is for him because
+N: he likes it. Barry Nielson likes it, too, and so its for him, too, with love from Mac.
+Z: 2000 John Chambers
+R: reel
+M: C
+L: 1/8
+K: Em
+|: "Em"EFGF EFGF | EFGA G2E2 |  "A"EFGF EFGF |     EFGA G2E2 |
+|  "Em"EFGF EFGF | EFGA B2e2 | "B7"B2Bc BAGF | "Em"G2E2 E4  :|
+|: "Em"e2ef gfef | gfe2 e4   |  "A"e2ef gfef |     gfe2 e4   |
+|  "Em"e2ef gfef | gfe2 e2dc | "B7"BABc BcBA | "Em"GFE2 E4  :|
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/112003
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book03.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

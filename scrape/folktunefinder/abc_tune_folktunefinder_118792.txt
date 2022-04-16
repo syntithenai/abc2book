@@ -1,0 +1,30 @@
+X: 1
+P: The Laird o' Drumblair (Angus Campbell)
+C: J.S.Skinner
+R: strathspey, shottish
+B: Caledonian Companion, p.73.
+B: Harp and Claymore, p.93.
+B: The Scottish Violinist, J.S.Skinner, p 10.
+N: Hunter 134; BSFC IV-20; Bain 13
+D: Ron Ganella on three fiddles tape
+N: Skinner also published this tune as the reel "Angus Campbell".
+M: 4/4
+L: 1/8
+K: A
+[| E2 \
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c | "D"(3def "(E)"(3efg "A"aed cBA | "Bm"Bcd cBA "E7"GFE dcB |
+| "A"~A2 c>A E-<A c>e | {g}a2 g>a f-<a e>c | "D"(3def "(E)"(3efg "A"aed cBA | "E7"GFE dcB "A"{G}A2 |]
+[| (3efg \
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A | "Bm"{^a}b2 f>b d-b | d/c/B f>B "E7"b>B d-<b |
+| "A"{g}a2 e>a c-<a A>a | c/B/A e>A a>e c-<A |"D"(3def "(E)"(3efg "A"aed cBA | "E7"GFE dcB "A"{G}A2 |]
+S:https://www.folktunefinder.com/tunes/118792
+S:http://trillian.mit.edu/~jc/music/book/500/LairdAngus.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

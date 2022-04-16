@@ -1,0 +1,31 @@
+X:86
+T:Inverness Gathering, The
+O:scotland
+R:Pipe march
+M:4/4
+K:Hp
+e>c|\
+d>c B>c A>B c>A|a2e2 e2(3def|\
+g2B>A G>A(3BAG|g2d2 d2e>d|\
+d>c B>c A>B c>A|a2e2 e2a2|\
+g>e d>B G>B d>B|e2A2 A2::\
+g2|\
+a>e c>e a>e c>e|a2e2 e2f2|\
+g>a g>f g>a g>e|d>c B>A G>A B>d|\
+(3cBA a>A (3cBA a>A|a2e2 e2a2|\
+g>e d>B G>B d>B|e2A2 A2::\
+c2|\
+(3AAAa2 (3AAA a2|(3AAA a>g e2d>B|\
+(3GGG g2 (3GGG g2|(3GGG g>e d2B>G|\
+(3AAA a2 (3AAA a2|(3AAA a>f e2a2|\
+g>e d>B G>B d>B|e2A2 A2:|
+S:https://www.folktunefinder.com/tunes/100378
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

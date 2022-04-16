@@ -1,0 +1,37 @@
+X: 210
+T: Asquamchumauke Waltz
+C: Bernie Waugh
+S: Bernie Waugh
+R: Waltz
+M: 3/4
+L: 1/4
+Q: 160
+K: G
+|:D|\
+"G"G>AB|"Bm"d2B|"Em"e2g|"D"f/d/BB/A/|\
+"G"G>AB|"Bm"d2B|"Em"e2g|"D"fde/f/|
+"G"g2a|"Bm"gf/d/B|"Em"e2g|"C"ed/B/G/A/|\
+"G"B>df/e|"D"d/B/AD|"G"G>AB/d/|g2:|
+K: B minor
+|:d|\
+"Bm"B/>d/cB|"Em"E/>G/FB|"F#m"c/>e/ d/c/B/A/|"Bm"B2B/c/|\
+"Em"d/>c/ Bc/d/|"A"e/>d/cd/e/|"D"f/>e/d^G/<A/|D2d/c/|
+"Bm"B/>[B,/F/][B,F][B,F]|"F#m"c/>[F/c/][Fc][Fc]|\
+"Bm"d/>[B,/F/][B,F][B,F]|"A"e/>[A/e/][Ae][Ae]|\
+"D"f/>[D/A/][DA][DA]|"G"g/>[G,/D/][G,D][G,D]|\
+"A"e/>g/ f/e/d/c/|1"D"d2:|2"D7"d>=cB/A/|]
+S:https://www.folktunefinder.com/tunes/113219
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/~doyle/docs/waugh/w.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+S:http://www.math.dartmouth.edu/%7Edoyle/docs/waugh/w.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

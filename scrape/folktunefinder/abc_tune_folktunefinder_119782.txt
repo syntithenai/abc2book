@@ -1,0 +1,24 @@
+X: 44
+T:Tripping Up the Stairs
+T:Tripping Upstairs
+M:6/8
+L:1/8
+R:jig
+K:D
+"D"FAA "G"GBB|"D"FAd fed|"A"cBc ABc|"D"dfe dAG|
+FAA "G"GBB|"D"FAd fed|"A"cBc ABc|1 "D"dfe d2A:|2 "D"dfe d2c||
+"Bm"dBB fBB|dBB fed|"A"cAA eAA|efe edc|
+"Bm"dBB fBB|faf fed|"A"cBc ABc|"D"dfe d2c|
+"Bm"dBB fBB|faa fed|"A"cAA eAA|aga edc|
+"Bm"dBB fBB|faf fed|"A"cBc ABc|"D"dfe d2A|
+S:https://www.folktunefinder.com/tunes/119782
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:5735
+T:Gan Ainm
+R:Reel
+S:Billy McComiskey
+H:
+N:
+D:Solo Album #1
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:C
+G,CC2 ECCD|ECEG c3d|e2dB cBAG|cAGE DCA,C|\
+G,CC2 ECCD|ECEG c3d|ecdB cAGE|FDB,D C4:||\
+c2ec gcec|cdec dcAB|c2(3edc gcec|dedc BGAB|\
+c2ec gcec|cdec dcAB|(3cdc Bc AcGE|FDB,D C4:||
+S:https://www.folktunefinder.com/tunes/101633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

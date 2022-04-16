@@ -1,0 +1,31 @@
+X:40
+T:High Reel, The
+M:C|
+R:Reel
+Z:We play this in a set: <ceili:6>, <ceili:7>, <ceili:8>.
+D:asin=B000000HOM(Matt Molloy: Music At Matt Molloy's)
+D:asin=B000000PX4(Mike & Mary Rafferty: The Dangerous Reel)
+D:anop=B00000591N(Various Artists: Paddy In The Smoke [IMPORT])
+D:asin=B000005CMM(Touchstone: Jealousy)
+D:asin=B000005CN1(Joe Burke, et al: Happy To Meet &amp; Sorry To Part)
+D:asin=B000005CP8(Joanie Madden: A Whistle On The Wind)
+D:anop=B000007ZJ7(Horslips: Collection [IMPORT])
+D:asin=B000009DQ1(Madden, et al: Gentle Breeze: Celtic Music For Flute &amp; Whistle)
+D:anop=B00000B98Z(Dubliners: Dubliners [IMPORT])
+D:anop=B00000G4NO(Tony MacMahon, et al: Music Of Dreams)
+D:anop=B000009DPZ(Steeleye Span: The Big Squeeze)
+K:G
+a2fa eAA2|cA eA cA A2|a2fa eAA2|Bcdc BGG2|\
+a2fa eAA2|cdef g2fg|af ge fd ec| Bcdc BGG2:|\
+{A}cA eA fA eA|{A}cA af eA A2|cA eA fA eA|Bcdc BGG2|\
+{A}cA eA fA eA|cdef g2fg|af ge fd ec|Bcdc BGG2||
+S:https://www.folktunefinder.com/tunes/111537
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

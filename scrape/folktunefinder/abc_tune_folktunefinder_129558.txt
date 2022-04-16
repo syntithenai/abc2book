@@ -1,0 +1,28 @@
+X: 14
+T:I'd Be A Butterfly. BF12.14
+M:6/8
+L:1/8
+Q:100
+S:MS12,J.Wilson,1833,Browne Coll.,Lakes
+R:Air
+O:England
+A:Lakes
+N:'DC' is written on the stave after the double bar
+Z:vmp.Cherri Graebe.
+K:G major
+B3 {d} cBc|d3B2G|g3gfe|d3{d}cBc|!
+B3{d}cBc|d3 efg|d2 B cBA|G3G3|!
+|A3A2A|B2AA2z|A3A2A|B2AA2z|!
+A3A2A|B2AA2A|B2B^c2c|d3dc"DC"B|]
+S:https://www.folktunefinder.com/tunes/129558
+S:http://www.village-music-project.org.uk/abc/browne12.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

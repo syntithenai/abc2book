@@ -1,0 +1,20 @@
+X:127
+T:Rolling Waves
+Z: id:dc-jig-110
+M:6/8
+L:1/8
+K:D Major
+F3 EDE|F2D D2E|F2E F2A|d2e fdA|!
+F3 EDE|F2D D2E|F2E F2A|B3 d3:|!
+ABd e2f|d2c B2A|ABd e2f|dBA B3|!
+ABd ede|fdB AFE|AFE EFA|B3 d3:|!
+S:https://www.folktunefinder.com/tunes/128594
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

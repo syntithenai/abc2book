@@ -1,0 +1,20 @@
+X:65
+T:Western
+Z: id:dc-hornpipe-57
+M:C|
+L:1/8
+K:C Major
+gf|ecc2 GcEc|ecc2 GcEc|AFF2 CFA,F|AcBd cegf|!
+ecc2 GcEc|ecc2 GcEc|AFF2 CFA,F|AcBd ce:|!
+gf|e2ce gage|f2df abag|e2ce agfe|dcBA G2gf|!
+e2ce gage|f2df abag|e2ce d2Bd|c2cB c2:|!
+S:https://www.folktunefinder.com/tunes/100861
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Hornpipe.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Hornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

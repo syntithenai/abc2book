@@ -1,0 +1,45 @@
+X:13419
+T:Polska efter Larshga Jonke
+S:Upptecknad efter Ante Sundin  (SvL Medelpad 179)
+N:Bowing slightly adjusted
+A:Medelpad
+B:Svenska Ltar Medelpad
+O:Sweden
+M:3/4
+L:1/16
+Q:1/4=110
+K:Am
+(AB)^cd e2e2 {fg}f2ef|g2ag f2ed (ef)e^c|\
+A2B^c d2cd B3d|(^cd)ec A2BA (^GA)BG|\
+(AB)^cd e2e2 {fg}f2ef|g2ag f2ed (ef)e^c|\
+A2B^c d2cd B3d|(^cd)ec (c2[A2A2] [A4A4]::\
+K:D
+A3g f3e f2a2|{b}a2gb e2fg e2fg|\
+(ag)af d2eg f2ed|(ef)ec (AB)A^G ([G2B2]A2)|\
+A3g f3e f2a2|{b}a2gb e2fg e2fg|\
+(ag)af d2eg f2ed|(Ac)ec [D8d8]:|
+K:Am
+T:Andrastmma
+(E^G)AB ^c2c2 d2cd|e2fe d2^cB (cd)cA|\
+E2^GA B2AB G3B|A2^cA E2E2 B,2DB,|\
+(E^G)AB ^c2c2 d2cd|e2fe d2^cB (cd)cA|\
+E2^GA B2AB G3B|A2^cA A2E2 [A,4E4]::\
+K:D 
+[A,3D3]e d3c d2f2|{g}f2eg c2de c2de|\
+(fe)fd A2ce d2cB|(cd)cA E2CE D2[C2E2]|\
+[C3E3]e d3c d2f2|{g}f2eg c2de c2de|\
+(fe)fd A2ce d2cB|A2GE [F8A8]:|
+S:https://www.folktunefinder.com/tunes/116464
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

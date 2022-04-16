@@ -1,0 +1,26 @@
+X:6880
+T: Hasapiko Grigoro
+C: Greece
+M: 4/4
+L: 1/8
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+K: Am
+|: "Am"EA AA | "E"^GA B2 | EA ^GF | "Am"E4    \
+|  "Am"EA AA | "E"^GA B2 | ed cB  | "Am"AE Az :|
+|| "A7"aa aa       | "Dm"a/g/f/e/ d2 | "G7"gg fe              | "C"e4     \
+|  "Dm"f/e/d/e/ fa | "Am"e/d/c/d/ ea | "E7"^g/a/g/f/ e/d/c/d/ | "Am"e4    |
+|  "Dm"f/e/d/e/ fa | "Am"e/d/c/d/ ea | "E7"B/c/d/f/ e/d/c/B/  | "Am"AE Az ||
+|| "A"^cc _BA | ee d^c |"Gm"_B/^c/d/e/ d/c/B/A/  | "A"^c4   \
+|  "A"^cc _BA | ee d^c |"Gm"G/A/_B/^c/ B/A/G/B/  | "A"A4    |
+|| "A"ee d^c  | gg fe  | "Gm"d/e/f/g/ f/e/d/^c/  | "A"e4    \
+|  "A"ee d^c  | gg fe  | "Gm"_B/^c/d/f/ e/d/c/B/ | "A"AE Az |]
+S:https://www.folktunefinder.com/tunes/108387
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/h.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/h.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

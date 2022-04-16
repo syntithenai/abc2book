@@ -1,0 +1,29 @@
+X:1
+T:Avant 2 de La Mzire
+C:Traditionnel Bretagne, fichier abc : Bernard Loffet
+L:1/8
+Q:330
+M:6/8
+K:C
+ z3 GAB | [c2C,,2][eC,] [d2G,,2][gC,] | [g2C,,2]C, [fF,,]e[dF,] | [e2C,,2][cC,] [d2G,,2][BG,] | \
+ [c2C,,2]C, [GC,,]A[BG,] | [c2C,,2][eC,] [d2G,,2][gC,] | [g2C,,2]C, [fF,,]e[dF,] | \
+ [e2C,,2][cC,] [d2G,,2][BG,] | [c2C,,2]C, [cC,,]B[cC,] | [A2F,,2]F, [AF,,]B[AF,] | \
+ [G2C,,2]C, [GC,,]A[BG,] | [cC,,]B[cC,] [dG,,]c[dG,] | [e2C,,2][cC,] [cC,,]B[cC,] | \
+ [A2F,,2]F, [AF,,]B[AF,] | [G2C,,2]C, [GC,,]A[BG,] | [cC,,]B[cC,] [d2G,,2][BG,] | \
+ [c2C,,2]C,4 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/130283
+S:http://diato.ifrance.com/diato/tablat/249.abc
+S:http://diato.ifrance.com/tablat/249.abc
+S:http://diato.org/tablat/249.abc
+S:http://perso.orange.fr/diato/tablat/249.abc
+S:http://perso.wanadoo.fr/diato/tablat/249.abc
+S:http://pro.wanadoo.fr/diato/tablat/249.abc
+S:http://www.diatonique.net/tablat/249.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

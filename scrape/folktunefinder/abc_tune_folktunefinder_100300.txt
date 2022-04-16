@@ -1,0 +1,25 @@
+X:8
+T:A man's a man for a' that
+O:scotland
+R:Reel
+M:2/4
+L:1/8
+K:EMix
+F|\
+A>B AE | FA Bd | c>B AE | F2FE |\
+A>B AE | FA Bd | c>B AF | E2E ||
+d |\
+c>d ec | dc Bd | c>d eA | F2 Fd | \
+c>d ec | fB Bd | c>B AF | E2 E ||
+S:https://www.folktunefinder.com/tunes/100300
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

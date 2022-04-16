@@ -1,0 +1,29 @@
+X:2
+T:Animas Reel
+C:Bernie Waugh
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:G
+|:(3DEF|\
+"G"GFGA BAGF|"D"ED2 {E}D3 (3DEF|"G"GFGA BAGA|"Bm"Bd2 {B}d3 Bd|
+"Em"edeg- gfed|"C"dedB AGEG|"Am"AGAc- cBAG|"C"EGEC "D"D2:|
+|:ef|\
+"G"gg/a//g//fg edBA|"D"Bd2 {B}d3 ef|\
+"G"g/a//g//fge- edBA|"Bm"BdeB d2ef|
+"Em"gg/a//g//fg edBd|"C"cc/d//c//Bc AGEG|\
+"Am"ABAG- "D"GE/F/ED|"G"EG2 {E}G3:|
+S:https://www.folktunefinder.com/tunes/118812
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w1.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

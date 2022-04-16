@@ -1,0 +1,54 @@
+X:1
+T:Prlude (suite en La mineur)
+R:
+C:Robert de Vise
+H:1682
+B:I. livre de guittarre ddi au Roy (1682)
+G:guitare
+O:France
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/8
+Q:1/4=105
+K:C treble
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+z/c/e z/c/e/c/ z/c/e z/c/e/c/  | z/B/e z/B/e/B/ z/B/e z/d/e/d/ |
+z/^c/e z/c/e/c/ z/c/g z/c/g/c/ | z/d/f z/d/f/d/ z/d/f z/d/f/d/ |
+z A/B/c2 e(cB2) | zBed zAc=G | zed2 z(d ^c)g |
+z d ^f2 zd g2 | zce^f z B g2 | zdg=f  zec2 |z (cb)c f(f e)f |
+z^f (ba) ze ^gB ||\ 
+M:3/4
+ze ae a2 | z (a =g^f) g2 | z ^f2 (f gf) |
+ze2 (e ^fe) | z (^c ^de) ^fd | z (^d e)(^f g ^c) | z (^c=d)(e=f)B |
+z(B =cB)e2 | z A (Bc d2) | z (^GA)(B cd) | e3 (e ^fg) |
+^f2 z (f ga) | z (a ^g^f) g(^c | d)(AB2) dB | !arpeggio![e6a6] |]
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+A>E A2 A>E A2 | B>E ^G2 B>E G2 | A>E A2 A>E A2 | A>D A2 A>D A2 |
+A3 A-A3 A | ^G4 A4 | F3 (FE4) | D3=cB3 B | A4 G3A | B4 c3d | e4 a4 |
+[D4d4] D4 ||\
+M:3/4
+c4-cD | E4-EE | ^D2 =D4 |
+^c2 =c4 | B6 | E6 | =D6 |
+=c4-cA | B4-B^G | A6 | z(Bc4) |
+[Dd]c B4 | E6-|E3 E-E2 | [A6c6] |]
+S:https://www.folktunefinder.com/tunes/104092
+S:http://www.icking-music-archive.org/scores/visee/visee_suite_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

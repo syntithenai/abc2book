@@ -1,0 +1,25 @@
+X:34
+T: Nong mang shier yue
+N: C0044
+O: China,Ningxia, Yinchuan
+S: I, 167]
+N: neues Volkslied, alte Melodie
+R: Xiaodiao, Sige langong diao. Xin minge]
+M: 2/4
+L: 1/8
+K: F
+F2DC | F2DC | cc2f | fdc2
+ff2c | dcBG | FF2A | G4
+GBc2 | cfc2 | BGB2 | GFEC
+cccF | GcFD | CC2F | C4
+S:https://www.folktunefinder.com/tunes/112461
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao, sige langong diao. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

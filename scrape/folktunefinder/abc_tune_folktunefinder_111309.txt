@@ -1,0 +1,39 @@
+X:80
+T:Joc de Leagne
+O:rumania
+C:RO
+C:Dragomiresti - maramures
+M:4/4
+L:1/8
+Q:1/4=130
+K:Dm
+V:1
+"Dm" F6 GA |"Bb" G4 {A}G2 FE |"Dm" D2 D4 EF |G2 A4 z2 |
+"C" c6 de |"F" d4 {e}d2 cB |"Dm" A2 A6 |"Am" A2 A4 z2 |
+"C" c6 de |"F" d4 d2 cB |"Dm" A2 A4 G2 |"F" F2 C4 z2 |
+"Bb" c2 (c2 c)B AG |"G" A2 G2 GF ED |"Dm" D2 D6 |D2 D4 z2 |]
+V:2          %3e stem
+D8 |D8 |D8 |D6 z2 |
+G6 G2 |A6 F2 |G2 F6 |E2 E4 z2 |
+G6 G2 |A6 G2 |F6 E2 |F2 C4 z2 |
+F6 FD |E2 E6 |D2 D6 |D2 D4 z2 |]
+V:3          %2e stem
+D6 C2 |B,6 C2 |D2 C6 |E2 F4 z2 |
+E6 C2 |F6 D2 |E2 D6 |C2 C4 z2 |
+E6 C2 |F6 E2 |F6 B,2 |A,2 A,4 z2 |
+(D6 D)B, |C2 C6 |D2 D6 |D2 D4 z2 |]
+V:4          %Bas
+D,4 C,4 |B,4 C,4 |D,4 A,4 |D,4 D,4 |
+C,4 E,4 |F,4 F,4 |D,4 D,4 |A,4 A,4 |
+C,4 E,4 |F,4 E,4 |D,4 E,4 |F,4 A,4 |
+B,4 A,4 |G,4 E,4 |D,4 A,4 |D,6 z2 |]
+S:https://www.folktunefinder.com/tunes/111309
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

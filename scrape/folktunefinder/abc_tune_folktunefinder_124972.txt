@@ -1,0 +1,30 @@
+X:1
+T:Aroplane : Guibra
+E:12
+Z:Roger Ngaret (94-95)
+R:aeroplane
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=92
+"C"G2ed c2Gc | "G"B2AG A4 |1 "C"GABc "G"d4 | "C"cBcd e2c2 :|2\
+GABc "G"d2ed | "C"c2e2 c4 |: GABc "G"d2d2 | "C"cBcd e2c2 |\
+GABc "G"d2ed |1 "C"c2e2 g4 :|2 c2e2 c4 |]
+%%rm  Ton pantalon tout du long dcousu,
+%%rm  Si a continue on verra tes fesses,
+%%rm  Ton pantalon tout du long dcousu,
+%%rm  Si a continue on verra ton cul.
+S:https://www.folktunefinder.com/tunes/124972
+S:http://termen.free.fr/danses/rennais/AeroplaneGuibra.abc
+% Rhythm Aeroplane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

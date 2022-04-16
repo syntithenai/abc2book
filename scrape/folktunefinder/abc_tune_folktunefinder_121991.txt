@@ -1,0 +1,26 @@
+X: 329
+T: THE BAY OF BISCAY O
+T: Caladh na bhuasce o
+B: O'Neill's 329
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Quick and spirit"
+K:D
+A \
+| Addf d2 Bc/d/ | e>f (a/g/)(f/e/) d2 cA \
+| Addf a>f dd/e/ | fdec d2 ||
+|| d>c \
+| .B.A.G.F E3e | e>f (g/f/)(e/d/) Hd{ced}Hc .A.B/.c/ \
+| d2 .B.c/.d/ e2 .d.e/.f/ | (a/g/)(f/g/) fe d2z ||
+S:https://www.folktunefinder.com/tunes/121991
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0329_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

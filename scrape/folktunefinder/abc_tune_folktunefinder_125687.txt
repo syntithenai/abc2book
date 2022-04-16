@@ -1,0 +1,25 @@
+X:14
+T:Fasten the Leggins
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:G
+|:d^c=c|\
+"G"~B2B BAB|GBd g2B|"C"~A2A AGA|"Em"Bee dBA|
+"G"~B2B BAB|GBd g2d|"C"efg eag|"D"fdd:|
+|:def|\
+"G"~g2g "D"~f2f|"C"ege "Bm"dBA|"Em"~G2G AGA|"C"Bee "D"def|
+"G"gag "D"fgf|"C"efe "Bm"d^cd|"Am"efg eag|"Bm"fdd:|
+S:https://www.folktunefinder.com/tunes/125687
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

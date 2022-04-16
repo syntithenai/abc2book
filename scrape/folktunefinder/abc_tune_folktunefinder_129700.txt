@@ -1,0 +1,33 @@
+X:15
+T:Dusty Miller
+T:aka - The Dusty Mills, Benny's Jig
+R:slip jig
+C:traditional
+B:Bremner's Collections, 1757, ONeill's Music of Ireland
+N:melodic code 352 7L22
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/4
+Q:444
+K:G
+B3 c d2 B2 A2 G2|F2 (A2A2)B2 A2 G2|B3 c (dcBA) G4|D2 (G2G2) B2 A2 G2:|
+|:B2 (d2d2) g2 Tf2 e2|a2 (A2A2) B2 A2 G2|B2 d2 d2 g2 Tf2 (ef|g2) (G2G2) B2 A2 G2|
+B2 (d2d2) g2 f2 g2|a2 (A2A2) B2 A2 G2|(Bc d2) (ef g2) (fg a2)|g3 a g2 d2 B2 G2|]
+% another possible way of notating (same notes as above original... different timing)
+P: as a slip jig - arr. P.S.C.- still using Bremner's bowing and ornaments
+M:9/8
+Q:333
+B2 c d2 B A2 G|F2 (A A2) B A2 G|B2 c (dcB A2) G|D2 (G G2) B A2 G:|
+B2 (d d2) g Tf2 e|a2 (A A2) B A2 G|B2 d d2 g Tf(ef|g2) (G G2) B A2 G|
+B2 (d d2) g f2 g|a2 (A A2) B A2 G|(Bcd) (efg) (fga)|g2 a g2 d B2 G|]
+S:https://www.folktunefinder.com/tunes/129700
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Slip jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

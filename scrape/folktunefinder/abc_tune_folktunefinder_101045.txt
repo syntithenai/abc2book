@@ -1,0 +1,22 @@
+X: 16
+T:Bride's Favourite
+R:jig
+C:Trad
+M:6/8
+L:1/8
+K:G
+G2 A |: ~B3 ~A3 | BdB BAG | B2 B dcB | ABA DFA | ~B3 ~A3 | GBd gdB | A2A
+ cBA | GFA G2 A :|
+|: dcB gdB | GBd gdB | cBc ecA | GBd g2d | B2B ABA | GBd gdB | AAA cBA |
+  GFA G3  :|
+S:https://www.folktunefinder.com/tunes/101045
+S:http://trillian.mit.edu/~jc/music/abc/mirror/banjolin.supanet.com/pvs_irish.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

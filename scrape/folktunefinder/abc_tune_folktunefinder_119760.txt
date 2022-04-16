@@ -1,0 +1,26 @@
+X: 22
+T:Midlothian Pipe Band, The
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:D
+f>e|:"D"d2A d>ef|A2A A2A|f2f f>ed|"A7"e>fe A>Bc|"D"d2A d>ef|"G"B>GB B2g|
+"A7"f>ga A>Bc|
+1 "D"d3-d>fe:|2 "D"d3-d>ag||
+"D"f2f f>ed|"A7"e2e e>fg|"D"a2a "G"f2e|d>BB B>a"A7"g|
+"D"f2f f>ed|"Em"e2e e>fg|"A7"f>ga A>Bc|"D"d3-d>"A7"ag|
+"D"f2f f>ed|"A7"e2e e>fg|"D"a2a "G"f2e|d>BB B>"A7"ag|
+"D"f>ga "A7"e>fg|"Bm"f>ed "G"B2g|"A7"f>ga A>Bc|"D"d3-d2|
+S:https://www.folktunefinder.com/tunes/119760
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

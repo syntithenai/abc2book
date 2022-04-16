@@ -1,0 +1,24 @@
+X: 7
+T:Irish Rover, The
+M:4/4
+L:1/8
+Q:120
+R:March
+K:A
+EC|"A"A,2CD E2AB|cB2G "D"A2GF|"A"E2FEC2DC|"E"B,4z2EC|
+"A"A,2CD E2AB|cB2G "D"A2GF|"A"E2GA "E"B2GE|"A"A4z2 "E"EE|
+"A"A2ABc2cA|"E"B2BGE3E|"A"A2ABc2A2|"E"B>c BGE2EC|
+"A"A,2CD E2AB|c2BG"D"A2GF|"A"E2GAB2c2|"E"B4 "A"A2||
+S:https://www.folktunefinder.com/tunes/120505
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

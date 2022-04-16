@@ -1,0 +1,38 @@
+X:68
+T:Gobby O and Variations, The (#68)
+M:6/8
+L:1/16
+S:Rice-Walsh manuscript
+K:Bb
+dc|BAGABG AGFGAF|D2G2G2 G2^F2G2|AGABcB A2G2F2|cAdcAG F2G2A2|
+BAGABG B2A2G2|AFDEFG A2B2c2|dcdefe dcBAGF|D2G2G2 G4||
+D2|G4 A2 B4 c2|d3efa g4 a2|bagabg fedefd|cAdcAG F2G2A2|
+BAGABG B2A2G2|AFDEFG A2B2c2|dcdefe dcBAGF|D2G2G2 G4||
+ga|bagabg ag^fgaf|d2g2g2 g2^f2g2|a2abab a2g2f2|c'2a2ag f2g2a2|
+bagabg ag^fgag|f2d2B2 g2c'2ag|f2d2c2 A2G2F2|A2G2G2 G4||
+g2|gbag^fa gbagfa|g2d2B2 g2d2B2|fgagfe f2g2a2|f2c2A2 f2c2A2|
+g2e2c2 a2f2d2|b2g2b2 d'2a2g2|f2d2c2 A2G2F2|A2G2G2 G4||
+Bc|dcBcdB GABcdB|dcBcdB GABcdB|cBABcA FGABcA|cBABcA FGABcA|
+BAGABG cBABcA|fedefd gfgbag|fedefe dcBAGF|D2G2G2 G4||
+GF|D2B2B2 D2G2A2|D2G2F2 G2A2GF|D2B2B2 D2A2A2|F2GFED F2G2A2|
+D2B2B2 cBABcA|fedefd gfgbag|fedefe dcBAGF|D2G2G2 G4||
+Bc|dedcdc B2G2G2|AFDEFG A2B2c2|dcde^fa g2f2g2|agbag^f gfagfe|
+dcedcd B2G2G2|AFDEFG A2B2c2|dcdefe dcBAGF|D2G2G2 G4||
+%
+% Classed as an Irish tune in "Aird's Selections etc 1782-97" and in
+% "Brand & Weller's Country Dances for 1798". "The Gobby O"
+% was a simple jig of two parts. The possibilities of elaboratiion
+% based on a popular strain are well illustrated by Jeremiah Breen,
+% a blind fiddler of Ballybunnian, North Kerry, as noted down by
+% his pupil Thomas Rice
+S:https://www.folktunefinder.com/tunes/106172
+S:http://music.gordfisch.net/oregans/assets/abc/oneillswaifs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

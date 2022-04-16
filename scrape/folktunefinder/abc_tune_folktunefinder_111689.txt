@@ -1,0 +1,22 @@
+X:800
+T:Drops of Brandy
+M:9/8
+R:SlipJig
+D:asin=B000000E86(Sean Nua: The Open Door)
+D:asin=B0000013AL(Gentlemen Pipers: The Gentleman Pipers)
+D:asin=B000002NP1(William McCallum: Hailey's Song)
+D:asin=B00000591H(Northumbrian Small Pipes: The Northumbrian Small Pipes [IMPORT])
+D:asin=B000005C3J(William Coulter & Friends: Celtic Sessions)
+K:G
+ddd BGB BGB|ddd BGB cBA|ddd BGB BGB|ccc AGA cBA::\
+GBd gdB gdB|GBd gdB cBA|GBd gdB gdB|ccc AGA cBA:|
+S:https://www.folktunefinder.com/tunes/111689
+S:http://www2.redhawk.org:8080/irish/ceili/ceili.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ceili/ceili.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

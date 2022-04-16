@@ -1,0 +1,28 @@
+X:15
+T:Brudvals efter Brnnlund
+S:(efter Arvid Brnnlund, Ragunda SvL 639)
+N:efter Arvid Brnnlund
+A:Ragunda, Jmtland
+B:Svenska Ltar Jmtland-Hrjedalen nr 639
+O:Sweden
+M:3/4
+L:1/8
+Q:1/4=160
+K:Dm
+a2|"dm"f4 (ef)|"dm"d2 (fd) (fd)|"am"c2 (ec) (ec)|"dm"(d2 f2) a2|\
+"dm"f4 (ef)|"dm"d2 (fd) (fd)|"am"c2 (ec) (ec)|"dm"d2z2:|\
+|:{B}A2|"dm"A2 (FD) (FA)|"dm"A2d2d2|"am"c2 (ec) (ec)|"dm"d2 (fd) A2|\
+"dm"{B}A2 (FD) (FA)|"dm"A2d2d2|"am"c2 (ec) (ec)|"dm"d4:|
+T:Komp:
+|"dm:"vD2u.[F2A2]u.[F2A2]|vD2u[F2A2]u[F2A2]|\
+"am"vA,2u[C2E2]u[C2E2]|"dm"[F6A6] |]
+S:https://www.folktunefinder.com/tunes/115188
+S:http://homepage.calypso.net/~ci-18034/jamt.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/jamt.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

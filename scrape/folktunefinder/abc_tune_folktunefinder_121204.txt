@@ -1,0 +1,31 @@
+X:10
+T:Waltz from Levkivka
+S:A. Humenyuk
+R:waltz
+Q:72
+O:Ukraine
+M:3/4
+L:1/4
+A:village of Levkivka, Vinnyts'kiy
+K:EMin
+B |: \
+g2 f | e c A | B3-|B3 | B ^d f | \
+a g f | e3- | e z B | g2 e | \
+e c A | B3- | B A G | F2 A | \
+G2 F | E3-|E z2 :|
+|: D3 | G3 | B3- | B A G | \
+F3 | F G F | E3 | B,3 | \
+E3 | G3 | B3-| B A G | \
+F2 A | G2 F | E3 | E z2 :|
+S:https://www.folktunefinder.com/tunes/121204
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/humenyuk.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/humenyuk.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

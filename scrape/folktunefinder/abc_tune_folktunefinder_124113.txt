@@ -1,0 +1,24 @@
+X:5330
+T:Flitch of Bacon
+R:Jig
+S:Krassen's O'Neill
+M:6/8
+L:1/8
+K:G
+|:DGG ~B3|cAG FGA|DGG ~B3|cAF ~G3|
+DGG ~B3|cAG FGA|fed ~f3|cAF|
+G3:|def ~g3|fed g2B|def ~g3|fed cAF|
+def ~g3|fed g2B|fed ~f3|cAF ~G3:|
+S:https://www.folktunefinder.com/tunes/124113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

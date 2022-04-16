@@ -1,0 +1,24 @@
+X: 1
+T:Banish Misfortune
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:G
+"D"  fed "C" cAG | "D"  Add "C" cAG | "D"  F2   D  DED | "D" FEF  "C" GFG |
+"D"  AGA     cAG | "D"  AGA "C" cde | "D" fed "Am" cAG | "G" Add "D" d2 e :|
+"D"  f2  d  d^cd |      f2   g  agf | "C"  e2   c  cBc | "Am" e2   f  gfe |
+"D"  f2  g   agf | "C"  e2   f  gfe | "D" fed "Am" cAG | "G" Add   "D" d3 :|
+"D"  f2  g  e2 f |      ded  c2   d | "D" A3       GAG |     F2   A   GED |
+"C"  ~c3     cAG | "Am" AGA "C" cde | "D" fed "Am" cAG | "G" Add   "D" d3 :|
+S:https://www.folktunefinder.com/tunes/119695
+S:http://homepage.ntlworld.com/djfoster/ma2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

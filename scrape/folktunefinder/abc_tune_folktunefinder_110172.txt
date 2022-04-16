@@ -1,0 +1,50 @@
+X:125
+T:Susan's Celebration
+C:Colin Hume, 2008
+L:1/4
+M:3/2
+%%MIDI beat 100 95 80
+%%MIDI gchord czc
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+H:For Susan Merrill on her wedding to Ed St. Germain, April 2008.
+K:C
+V:1
+%%MIDI program 57
+P:A
+|: c2C2(3EFG | c2G2(3cde | fedcBc | d4(3def |\
+g2gfed | c2cBAG | ^FAdcBA |1 B3AG2 :|2 G6 |
+V:2 clef=bass
+%%MIDI program 58
+%%MIDI chordprog 43
+I:octave=-2
+%%MIDI gchord c
+%%MIDI chordvol 60
+|:"C"[C4c4]B2 | "C"A4G2 | "F"F4"D7"^F2 | "G"G2A2B2 |\
+"C"c2C2E2 | "F"F2A2c2 | "D7"d2D2^F2 |1"G"GAGF"G7"ED:|2 "G"G2D2G,2 |
+%%vskip 0
+P:B
+V:1
+| B2G2B2 | A4AB | c2A2c2 | B6 |\
+d2B2d2 | c4cd | e2^c2e2 | d4 d=c |
+V:2
+"G"G4^FG | "Am"A2c2e2 | "D7"d4D2 | "G"G4GA |\
+"Bm"B4AB | "C"c2e2g2 | "A7"^c4Bc | "D"dzdcBA |
+%%vskip 0
+P:C
+V:1
+BcdcBA | G2E4 | ABcBAG | ^F2D2dc | Bdg^fed | c2A4 | AedcBA | G6 |]
+V:2
+"G"G4B2 | "C"cdedcB | "Am"A2B2c2 | "D7"dedcBA | "G"G2B2cB | "Am"ABAG^FE | "D7"D2E2^F2 | "G"G2G=F"G7"ED |]
+S:https://www.folktunefinder.com/tunes/110172
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

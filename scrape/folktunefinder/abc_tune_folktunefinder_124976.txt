@@ -1,0 +1,26 @@
+X: 2
+T: Around The Fairy Fort
+M: 4/4
+L: 1/8
+R: barndance
+K: D Major
+|: D>E |
+F2 F2 F>ED>F | A2 A2 A2 F>A | B2 B2 A>FD>E | F2 E2 E3 A |
+F>^EF>=E F2 (3DEF | A>^GA>B (3ABA (3F=GA | d2 (3cBA B>A (3GFE | (3FGF D2 D2 :|
+|: (3ABc |
+d2 d2 d2 c>d | e2 e2 e2 f>e | d2 (3efg a2 (3gfe | (3fgf B>^A B>=A (3FGA |
+d2 d>c d>A (3Bcd | (3efe e>^d e2 (3gfe | (3ded c>A B>AF>E | F2 D2 D2 :|
+|: G2 |
+F2 D>F A2 F>A | B2 F>B A3 G | F2 D>F A2 F>A | B2 E2 E3 G |
+(3FGF (3DEF (3ABA (3FGA | B2 d>B A3 c | d2 (3cBA B>AF>E | F>D (3DDD D2 :|
+S:https://www.folktunefinder.com/tunes/124976
+S:http://www.thesession.org/tunes/display/2177
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

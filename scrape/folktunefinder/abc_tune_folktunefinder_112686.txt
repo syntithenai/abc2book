@@ -1,0 +1,30 @@
+X:259
+T: Suqu ganbu hao zuofeng
+N: C0405
+O: China,Jiangxi, Xingguo
+S: IV, 224]
+N: Trotz des genres sind dies aber kejia-Lieder, also von Leuten, die
+N: vom Norden in den Sueden ausgewandert sind. Sehr typisch, Text
+N: aber neu.
+N: Wenig Verzierungen, Glissandi.
+R: Shange, Xingguo shange. Geming lishi minge]
+M: 3/8
+L: 1/32
+K: E
+g4g2e2f8 | g12c8
+f4f2g2f2e2g4f2g2 | f2e2g4f2g2f2e2
+f4f4e2f2c2c2 | c2e2fec2c2e2c2c2 | c16
+g4g4e2g2 | f2e2f2g2f2f2e2c2c2c2 | e2f2c4e2c2c8
+c2e2e2f2f8- | f4z4
+e2f2 | g4f2e2f2c2c2f2e2f2 | c4e8c2e2c2c2 | c16
+S:https://www.folktunefinder.com/tunes/112686
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, xingguo shange. geming lishi minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

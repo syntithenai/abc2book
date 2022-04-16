@@ -1,0 +1,26 @@
+X:6
+T:Barn Elms
+C:John Young, Dancing Master, 1713
+L:1/4
+M:3/2
+%%MIDI beat 100 95 80
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+%%MIDI gchord fcHcfc
+Q:1/2=92
+K:Bb
+P:A
+|: "Gm"dg- "^/"ga "^/"ba/g/ | "D7"^f/g/a "^/"dc "^/"BA | "Gm"BG "^/"B/c/d "D7"ed | "Gm"de/d/ "Cm"c2 "D7"d2 :|
+P:B
+|: "Bb"df- "^/"fg "F7"f/g/f/e/ | "Bb"dB- "^/"Bf "^/"bf | "G7"gf- "^/"fe/d/ "^/"ed | "Cm"cc/d/ "F7"ef "Bb"dB |
+"Bb"fb- "^/"ba "G7"gd | "A"=ea- "^/"ag "D7"^fd | "Gm"gf- "^/"fe- "Cm"ed | "D7"dc/B/ "^/"A2 "Gm"G2 :|
+S:https://www.folktunefinder.com/tunes/110053
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

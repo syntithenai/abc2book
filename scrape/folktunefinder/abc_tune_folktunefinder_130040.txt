@@ -1,0 +1,32 @@
+X: 34
+T:La fricasse
+O:Provence - tradition militaire
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:Cmaj
+%%continueall 1
+P:Intro
+V:1
+G | c>d ec | f2 eg | ec dB | c2 zG ||
+P:A
+c>d ec | f2 ed | cB AB | d/2c/2B/2A/2 GG |
+c>d ec | f2 eg | ec dB | c2 ze/2f/2 |
+P:B
+gg fe | f2 ze/2f/2 | gg fe | d2 ze/2f/2 |
+gg fe | fg ag | fe dc | d/2c/2B/2A/2 GG |]
+P:Sortie
+ge ge/2f/2 | ge ge/2f/2 | gg ee | d/2e/2f/2d/2 ee/2f/2 |
+ge ge/2f/2 | ge ge/2f/2 | gg ee | d/2e/2f/2d/2 Hc2 |]
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/130040
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Ferme%2520de%2520Gally%2520-%25209%2520septembre%25202007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

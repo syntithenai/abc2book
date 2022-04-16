@@ -1,0 +1,27 @@
+X: 20
+T:Hamish
+% Nottingham Music Database
+S:Hamish
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+(3ABc|"D"dcdf "A7"ec(3ABc|"G"dBGB "D"AFDF|
+"Em"EGFA GBgf|"E7"edcB "A7"AB(3cBA|"D"dcdf "Em"e^deg|
+"D"f^efg afdA|(3"G"BcdcB (3"A7"ABA(3GFE|"D"DdAF D2 E2|
+|"A"A^GAc ecAc|"A"edcB "D"Adfa|"G"gfeg "D"fedf|
+(3"E7"efe(3dcB (3"A7"ABA(3GFE|"D"DFAd "Em"EGBe|
+"D"FAdf afdA|(3"G"BcdcB (3"A7"ABA(3GFE|"D"DdAF D2||
+S:https://www.folktunefinder.com/tunes/129866
+S:http://abc.sourceforge.net/NMD/nmd/hpps.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

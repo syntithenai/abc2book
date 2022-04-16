@@ -1,0 +1,29 @@
+X:209
+T: Yipian shulin gen lian gen
+N: C0337
+O: China,Anhui, Fanchang
+S: III, 527]
+N: viele Oktav- und Septspruenge sind typisch. 1 Periode, Strophe )
+N: hat 5 Saetze. - Das Dabie-Gebirge trennt Anhui und Hubei.
+N: Vereinzelt Verzierungen.
+R: Shange, Manganniu. Xin minge]
+M: 2/4
+L: 1/16
+K: F
+F2G2D4 | F2f2d4 | c2c2A2G2 | c2F2D4
+F2D2D2c2 | A2GFD2G2 | F2D6
+D4D2F2 | d6cA | G2FDD2G2 | F2D6
+D2F2D4 | F2f2d4 | c2c2A2G2 | A2F2D4
+D2D2D2F2 | A6GF | F2D2F2G2 | D8
+S:https://www.folktunefinder.com/tunes/112636
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, manganniu. xin minge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

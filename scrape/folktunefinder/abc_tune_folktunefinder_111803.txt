@@ -1,0 +1,23 @@
+X:345
+T: Everybody's Fancy
+M: C|
+L: 1/8
+B: O'Neill's 1769
+R: Hornpipe
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+K: G
+D2 | G2 D2 TE2 (DC) | B,DGB Td2 (^cd) | edcB cBAG | FGAB cDEF |
+G2 D2 TE2 (DC) | B,DGB Td2  ^cd  | edcB cBAG | FGAB G2  :|
+|: d2 | (Bd) z e dBAG  | (Bd) z d b2 g2  | (Bd) z e dBAG | FGAB Tc2 (BA) |
+(Bd) z e dBAG  | (Bd) z d b2 g2  | (Bd) z e dBAG | FGAB G2 :|
+S:https://www.folktunefinder.com/tunes/111803
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1701-1780_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

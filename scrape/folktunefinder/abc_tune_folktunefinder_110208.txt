@@ -1,0 +1,15 @@
+X: 5
+T: El Harahat [F#m]
+M: 4/4
+L: 1/8
+K: F#m
+|: "E"B2B2 | GF FE | GF FE | "F#m"F3 z :: "E"BB BA/B/ | cB B2 | GF GE | "F#m"F3 z :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/110208
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KF_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

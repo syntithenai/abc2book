@@ -1,0 +1,23 @@
+X:2
+T:Inis O\'irr
+R:waltz
+H:Tempo: 1/4=120
+M:3/4
+L:1/8
+K:G
+D2 | "G" B3 A B<d | B4        D2 | "Em" E3 B      AB | "D7" D4     D2 |\
+     "G" B3 A B<d | B4        d2 | G3 B "D7" A/2G/2F | "G"         G3 :|
+   |: A        Bd | "Em" e3 f ed | B4             d2 | "(G)" gf ed Bd | "Em" e4   Bd | e3 f ed |
+   |1 B4       d2 | "Em" E3 B "D7" A/2G/2F | "G" G3  :|2 "Bm" HB4  d2 | "D7" D3 B AB | "G" G6  |]
+S:https://www.folktunefinder.com/tunes/125276
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Waltzes.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

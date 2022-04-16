@@ -1,0 +1,25 @@
+X:25     %Music
+T:Hole in the Wall     %Tune name
+Q:1/4=100     %Tempo
+|:
+M:3/4     %Meter
+L:1/8     %
+K:G
+"G"B3/2c/ B/c/d "D"Ad |"Em"G3/2A/ G/A/B "Bm"FB |"C"E3/2F/ E/F/G "G"DB|
+"D"AG-GF "G"G2 ::|"Em"g3/2f/ e/f/g fe |"B"^d3/2e/ d/e/f Bf |"Em"g3/2f/ e/f/g fe |
+"B"f e-e ^d "Em"e2 |"C"E3/2F/ E/F/G "D"F/G/A |"G"G3/2A/ G/A/B "D"A/B/c |
+"G"B3/2c/ B/c/d Dd |"D"c B-B A/B/ "G"G2|]
+S:https://www.folktunefinder.com/tunes/119282
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/MendocinoECD.abc
+S:http://www.larkcamp.com/MEEnglishDanceTunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/MendocinoECD.abc
+S:http://www.larkcamp.com/LarkLibrary/English/MickieZekley/MEEnglishDanceTunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T:East Neuk of Fife
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:G
+% Nottingham Music Database
+P:A
+D|GG GB/2c/2|d/2B/2G/2B/2 d/2B/2G/2B/2|AA Ag/2f/2|\
+ee/2d/2 e/2f/2g/2e/2|
+d/2c/2B/2A/2 G/2A/2B/2c/2|d/2B/2G/2B/2 dc/2B/2|\
+A/2B/2c/2d/2 B/2c/2A/2B/2|GE E:|
+P:B
+d/2c/2|BG Gd/2c/2|BG Ge/2d/2|cA Af/2g/2|aA AB/2c/2|
+dG BG|g/2f/2g/2e/2 dB|A/2B/2c/2d/2 B/2c/2A/2B/2|GE E:|
+S:https://www.folktunefinder.com/tunes/107604
+S:http://www.chivalry.com/iband/Iband-feb27-00.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:6
+T:Ton double gavotte
+C:Padrig Sicard
+D:Portland
+P:J4
+M:12/8
+Q:C3=156
+K:Dm
+%T:TD2
+%%MIDI program 109
+%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+P:J
+|: "Dm"AGA "Gm"B3/2A3/2 G3/2F3/2 "Bb"D3/2E3/2 |\
+FEF "C"G2 E "Am"C3 "Dm"D3 :|
+|: "Dm"AGA "Gm"B3/2A3/2 G3/2F3/2 "Bb"D3/2E3/2 |\
+FEF "C"G3/2A3/2 "Bb"d3/2c3/2 "Am"A3/2G3/2 |\
+"F"FGA "Gm"B3/2A3/2 G3/2F3/2 "Bb"D3/2E3/2 |\
+FEF "C"G2 E  "Am"C3 "Dm"D3 :|
+%%text Transition : silence sur derni\`ere note
+S:https://www.folktunefinder.com/tunes/99506
+S:http://anamnese.online.fr/abc/favoris.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

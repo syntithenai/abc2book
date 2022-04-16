@@ -1,0 +1,74 @@
+X:15
+%%topspace 0
+T:Fantasia f. 16
+C:Robert Johnson
+L:1/4
+M:none
+K:DM frenchtab
+%%stretchstaff false
+%%staffsep 18pt
+,a3,c1 ,d,a c2 |\
+,,a1c a[,dc] [,ce],,a [,df2] |\
+c1[,df] [,cd][,ab] [,da],c/,a ,c2 |\
+[caf3]e1 [g,a],h l2 |\
+[,i,,h1]l kh [gha][hh,,f] [hf,,e]g |\
+[hhikkh1],a2,,,,e1 [,aaa],,,,c [,cee2] |
+% Takt 7
+,d1[,,ee] [,,cc][,,aa] [,fc,e],,,,c [c,e,e]a |\
+[,df,c2] d1,,,,a [,a,,,d],,,,,c [dc,,,a],a |\
+[cce,,c2] f1,,,,,a [,aa{,e}]f [da,c,a2] |\
+[ca,ac2] h1,,,h [h,,f,h]k [l,a,k],,,g |\
+[kl,h1],,,,a [hh,,f],,,,h [gha],,,,,c ,,a,,,,,e |\
+[,,a,b1],,,,,c [,,aac2] ,,b1,,,,c [,,a,a][,,,c,d] |
+% Takt 13
+[,,,cbc1][,,,ac] [,,f,ec],,e [,aa,c3],c1 |\
+[,da,c1],a [cd2] ,,,e1[cd] [ac][,df] |\
+[,cee1],a [fc,e2] [da,ac] c1,,d |\
+[cab,c1]a [aab2] [,feec] ,d1,,,,,c |\
+[,d,ea1],c [,c,c2] [,c,a{a}] [,a,a1],,,,,a |\
+[,,f,fc1],,,,e [,,e,e],,,,,a [,af{a}2] ,,,e1,,d |
+% Takt 19
+[,,be,a1],,,c [d,bc2] [cff{,a}] ,d1,c |\
+[,df1],a [la2] [,,,i{,h}1]l [k,,k]h |\
+[kh,i1],h [,hh,k],,,,h [,h,,f],,f [,if,h],,h |\
+[c,ee1],d [,dff][ac/],a [ccee1][,df] [,cfe],,e |\
+[,aa,c2] ,d1,,,,,c [,cd,a]{,,a} [,,aa{a}/],c,a,,,a |
+% Takt 24
+[,,e,ec2] c1,c [,d,e,c2] ,c1,,,,e |\
+[,,,,fc1],a [,a,,e],,,,c [,,e,ec],,a [,,d,e],,,,,a |\
+[,,d,f{a}2] [,,b,ea1],,,,c [,,a,bc],,,,c ,,a[,,,,bc] |\
+[,,,ecd1],,,c [,,,ccd2] [,,,cac1],,,a [,,,aa2] |\
+[,,,fca1],,,c [,,,he],,,f [,,,ef{a}2] [,,,ca{,,a}1],,,e |\
+[,,,fc{,a}1],,,e [,,,ee{,,a}]{,a} [,,,,e{,c}],,,e ,,,d2 |
+% Takt 30
+[,,,eec2] ,c1,a [,,ee],,a ca |\
+[,df1],a [acd],,b [cca2] f1e |\
+[cef1],a [df,c],d [ccee2] g1,,,c |\
+[h,,,f1],,,,,h [k,,,,g]{,,k} [lhi,,h]k h,l |\
+[egh,e2] e1,,f [e,,he],h [,h,h],,,g/,,,e |
+% Takt 35
+[hg,ge1][fh,e] [eh,ge],g [cdda2] [cd{a}1],c |\
+[da,c,a1][c,,a] [a,,,ed],,,,c [c,e,ec][,df,c] [,cf,ec],,e |\
+[,aa,c1]>,,d [,,b,c1],,a/,,,,a ,,,,,d,,,e[,,,c,c],,,a [,,,c,d],,,e,,,,c,,,,e |\
+[,,,a,c1],,,,e/,,,,c [c,f,ec1],,e/a [,da,c1],c/,a [,c,,a],,a[,d,a,c],c |
+% Takt 39
+[,a,a,d/],,d,a,c [,dd,,c]a[cd,a{a}1] [addca],c/a [fd,e{a}1],,,a/d |\
+[cd1]a/,d [,cd1]a/,,b [,da],,,c,,,aa c,c[,a,c]d |\
+[ccee1]>,,,c [,a,a1],,,,e/,,,,c [,ca,b1][,da,c/],,,,a [,a,,,d],,,,,c[aa,,,d1] |\
+[cce,,c1]f/,,,,,e [f,,,a],,,,c[f,,,e],,,a [c,,c],,a[d,b],,d [cdf1][fca/],,b |
+% Takt 43
+,,d/d[cd1] [add],c [cdda2] {a}1,,d |\
+[,,ff1]{a} [,,de][,,bc] [,,aa{a}2] ,,d1[,,d{,c}] |\
+[,,b,c{,a}2] ,,a1{,c} [,,a{a}],,,,c [,,c,,a],,,,e |\
+[,,e,,c1],,,,f [,a,,ed],,,,c [,,e,ec2] ,c1,,,c |\
+[,d,,,c1],,,a [a,,,e],,,,c [c,f,ec],,,,c [c,e,ec2] |\
+[cefec2] H{,a} |]
+S:https://www.folktunefinder.com/tunes/109576
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

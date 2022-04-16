@@ -1,0 +1,42 @@
+X:6 
+T:Variation no. 6 
+C:J.S.Bach 
+M:3/8 
+L:1/16 
+Q:400 
+V:3 bass 
+K:G 
+[V:1] z6 |:a6- |a2gfed|c6-|c2BAGF|E6-| 
+[V:2] g6- |:g2fedc |B6- |B2AGFE|D6-|D2CB,A,G,| 
+[V:3] G,,F,,G,,A,,B,,G,,|:D,C,D,E,F,D,|G,F,E,F,G,E,|A,G,F,G,A,F,|B,A,G,A,B,G,|CB,A,G,F,E,| 
+% 
+[V:1] E2DCB,A,|B,6-|B,A,CB,A,G,|A,2A4-|A2GFED|^CEA=B=c2-| 
+[V:2] A,6-|A,G,B,A,G,F,|G,2G4-|G2FEDC|B,DGA_B2-|B2AGFE| 
+[V:3] F,E,F,D,E,F,|G,E,D,C,B,,A,,|G,,F,E,D,C,B,,|^C,A,,D,E,F,D,|G,F,E,F,G,E,|A,G,F,G,A,F,| 
+% 
+[V:1] c2BAGF|E6-|ED[K:bass]^CEDC|1 D=CB,A,G,F,[K:treble]|g6 :|2 D6|z6|| 
+[V:2] D6-|D^CB,DCB,|^CB,[K:bass]A,G,F,E,|1 F,2z4|G,2z4:|2 F,6[K:treble]|a6-|| 
+[V:3] B,A,G,A,B,A,|^G,2^G,,2z2|A,,2A,,,2z2|1 D,,2D,C,B,,A,,|G,,F,,G,,A,,B,,G,,:|2 D,,2F,,2A,,2|D,^C,D,E,F,D,|| 
+% 
+[V:1] b6-|b2agfe|^d2=d4-|d2cBAG|F6-| 
+[V:2] a2gfed|^c2 =c4-|c2BA^GF|E6-|E^D^CEDC| 
+[V:3] G,F,E,F,G,E,|A,G,F,G,A,F,|B,A,^G,A,B,G,|CB,A,B,CA,|^A,2^A,,2z2| 
+% 
+[V:1] FE^DFED|E=D=CB,A,^G,|A,2z4|D6-|DB,CA,CE|F6-| 
+[V:2] ^D^CB,A,G,F,|G,2z4|C6-|CA,B,G,B,D|E6-|E^CDB,DF| 
+[V:3] B,,2B,,,2z2|E,,2E,D,C,B,,|A,,C,E,G,F,E,|F,2G,,2z2|G,2A,,2z2|A,2B,,2z2| 
+% 
+[V:1] F^DECEG|A6-|AGFAGF|1 GFEDCB,|a6-:|2 G6|| 
+[V:2] G6-|GFEGFE|FEDCB,A,|1 G,2z4|A,2z4:|2 B,6|| 
+[V:3] B,2C,2z2|^C,2^C,,2C,2|D,2D,,2D,2|1 G,,2G,F,E,G,|F,E,D,E,F,D,:|2 G,,2D,2G,2||
+S:https://www.folktunefinder.com/tunes/124438
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

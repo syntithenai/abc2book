@@ -1,0 +1,33 @@
+X: 14
+T:Polska i C efter Jonk Jonas, verhogdal
+R:Polska i Haverstil (kringpolska)
+S:E 588
+A:verhogdal, Hrjedalen
+B:E vergrd nr 588
+O:Sweden
+M:3/4
+L:1/8
+Q:150
+K:C
+G2 c2 df|eg (3f(ed) ce|(3g(ag) (3f(ed) cc|d2 G4|\
+G2 c2 df|eg (3f(ed) ce|(3g(ag) (3f(ed) cc|{Bc}(3.B.A.B [E4c4]::\
+Ga (ag) (gf)|{fg}f(e d)(e f)g|(3a(fa) (3g(eg) (3f(ed)|f(e c)a (ag)|(3g(e
+g) (3f(ed) cc|\
+{Bc}(.B.A.B [E4c4]:|\
+T:Oktavstmma
+G,2 C2 DF|EG (3F(ED) CE|(3G(AG) (3F(ED) CC|D2 G,4|\
+G,2 C2 DF|EG (3F(ED) CE|(3G(AG) (3F(ED) CC|{B,C}(3.B,.A,.B, [C4E4]::\
+G,A (AG) (GF)|F(E D)(E F)G|(3A(FA) (3G(EG) (3F(ED)|F(E C)A (AG)|\
+(3G(EG) (3F(ED) CC|{B,C}(.B,.A,.B, [C4E4]:|\
+S:https://www.folktunefinder.com/tunes/115172
+S:http://homepage.calypso.net/~ci-18034/harje.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/harje.abc
+% Rhythm Polska i haverstil (kringpolska)
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

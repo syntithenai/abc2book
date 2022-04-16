@@ -1,0 +1,29 @@
+X:11341
+T:Mrs. Judge
+Z: id:dc-ocarolan-10
+M:C
+L:1/8
+K:E Minor
+ED|B,2E2 E2G2|FGFE D2B2|BAGF AGFE|D4 B,2B,2|!
+E2F2 G2A2|BcBA G2e2|efg2 B2g2|f4 e2e2|!
+edB2 B2e2|dedB G2B2|AGFG A2G2|F4 E2D2|!
+B2G2 c2A2|d2B2 e2B2|cBAG BAGF|E4 E2:|!
+GA|B2B2 c2B2|BAGF G2d2|efg2 B2g2|efg2 B2g2|!
+fga2 d2a2|gfge bgbe|dBde BABc|B4 B2g2|!
+gfef g2f2|e3f e2dc|B2cB A2G2|G2F2 E2D2|!
+EFGA B2e2|DEFG A2d2|BABG BAGF|E4 E2:|!
+M:6/8
+E|EGB EGB|GA/G/F/E/ FB,B,|DdF EeB|GA/G/F/G/ E2:|!
+B|Bdg Bdg|g/f/e/d/e/f/ gdB|cc/B/A/G/ AdD|BeE e2d|!
+e/d/B/d/e d/B/A/B/d|B/A/G/A/B/G/ AFD|E/F/GE F/G/AF|G/A/BB, E2:|!
+S:https://www.folktunefinder.com/tunes/99123
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

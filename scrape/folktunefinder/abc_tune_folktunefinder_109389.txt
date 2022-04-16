@@ -1,0 +1,41 @@
+X: 45
+T: Valse
+I: ValseW-33Dwaltz
+C: W-33
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+%%staffsep 41pt
+K: D
+A2| "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 A2| f4 e2| "G"d4 c2| "A"B2 a2 a2| a6|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "Em"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 :|
+\
+A2| "D"ff f2 A2| ff f2 A2| f2 a2 f2| d4 A2| "A"ee e2 e2| ee e2 e2| e2 d2 e2| "D"f2 d2 A2|
+    "D"f4 e2| "G"d4 c2| B2 c2 d2| "D"A4 d2| "G"B2 e2 d2| "A"c2 f3e| "D"d2 a2 f2| d4 |]
+%%text ---------
+|:\
+"Bm"B2 d2 e2| f6| "Em"d2 c2 d2| e6| "Bm"d2 B2 d2| "A"c6| B2 c2 A2| "Bm"B6 :|
+|:\
+"Bm"f3e de| f2 d2 B2| "A"e3d cd| e2 d2 B2| "Bm"f3e de| f2 d2 B2| "A"d2 c2 A2| "Bm"B6 :|
+%%begintext ragged
+%%The Waltz in Brittony, as in the rest of France, is played at a brisk pace, at
+%%approximately 72 bars per minute.   The first tune given here is a Breton version
+%%of the Scottish tune "Mrs. Elder's Welcome".
+%%endtext
+%%text 9/1/98
+%%vskip .5cm
+%%textfont       Times-Roman 13.0
+%%text W-33, "Scottish Set", moved to R-128
+%%textfont       Times-Roman 9.0
+S:https://www.folktunefinder.com/tunes/109389
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 1
+T:Alla En El Rancho Granda
+T:My Ranch
+C:Silvano R Ramos (1935) / Bartley Costello (English lyrics)
+M:2/4
+L:1/8
+K:D
+%%staves{RH1}
+V:RH1 clef=treble
+|A,|:"D"FF FE|E D2 F|GF G^G|"A7"A2 c2-|c2 z A,|B,A, ^G,A,
+S:https://www.folktunefinder.com/tunes/103192
+S:http://gulfweb.net:34043/~rlwalker/abc/rancho.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/rancho.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

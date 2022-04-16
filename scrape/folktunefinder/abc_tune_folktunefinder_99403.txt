@@ -1,0 +1,26 @@
+X:5
+T:Cotillon
+B:XVIIIeme
+M:2/4
+L:1/8
+Q:C4=48
+K:A
+|: EA GA | B>c BB | EA F/G/A/B/ | B>A A2 :|
+|: cB/A/ BB | cB/A/ B2 | d/c/B/A/ d/c/B/A/ | d/c/B/A/ B2 |
+EA GA | B>c BB | EA F/G/A/B/ | B>A A2 :|
+c/d/e A2 | B2 c2 | c/d/e A2 | B2 c2 |
+c/d/e A2 | B2 c2 | c/d/e c2 | B2 A2 |
+|: EE EA | FG A2 | A/B/c A/B/c | d/c/B/A/ B/e/d/c/ |
+B/A/G/F/ EA | FG A2 | A/B/c/d/ ed/c/ | B>A A2 :|
+S:https://www.folktunefinder.com/tunes/99403
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://users.skynet.be/infants/musiques/abc/18eme.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/18eme.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

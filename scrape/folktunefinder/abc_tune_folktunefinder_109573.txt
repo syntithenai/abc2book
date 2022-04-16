@@ -1,0 +1,27 @@
+X:12
+T:Prelude
+C:Bacheler
+L:1/4
+M:none
+K:CM frenchtab
+%%stretchstaff false
+%%staffsep 25pt
+[,,dca{,,a}2][,bdca][,bdc,a][,abc][,afd,b][,,dd][,,ddd{,b}][,,bcd][,,,ff{a}][,,,df] [,,,da{,,a}] [,,,cd] [,,,cde] [,,,ac] {,,a}1,,,,a/,,,,,e [,,,,df1],,d |
+% Takt 2
+[,,dcca2][,,bc1],,,,,a[,,,ddb2][,gdd][,g,,d{,,d}][,f,f][,ddd{a}][lg,a][lg,h][if] [if,g] [hf] [hfgh1]f [ffghhf2] |
+% Takt 3
+[ffg,h2][,if2][dfd,e][,gd,f][,gd,,f][,fg][,fgc,e][,df][,,ih{,,a}][,,gh] [,,gc,a] [,,fffd] |
+% Takt 4
+{,b}1[,,,cd][,,dcd]{a}[,,dcca2][,,bc][,,bc{,,a}][,,aac][,,,ed{,b}][,,,cd] [,,,cdd1],,,a/,,,,d [,,,ac1][,,,cce] [,,,,df{,,a}],,,,a [,,,cd][,,aa] [,,ccca]{a} |
+% Takt 5
+[,,dca{,b}1],,b[,,,da{a}],,,a[,,fd2][,,fcfa1],,d[,,d,d],,f/,,d[,,c,ca1],,d[,,d,ca],,c |\
+[,,dca4]{,,a} |]
+S:https://www.folktunefinder.com/tunes/109573
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

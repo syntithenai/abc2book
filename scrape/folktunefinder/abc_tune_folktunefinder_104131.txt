@@ -1,0 +1,29 @@
+X: 19
+T:Portuguese Laudie(),The. ST.19
+M:2/4
+L:1/8
+Q:180
+S:Annonymous Staffordshire MS, Early 19thC.
+R:Country-dance
+O:England
+A:Staffordshire
+N:Not very legible in MS, but not "Lady".CGP
+Z:vmp.Tim Willets
+K:G
+d|gfed|d2zB|cBce|dBG d|!
+b>a g/2f/2e/2d/2|d2zB|cBce|d2z:|!
+|:d|cAFD|GBd d|^c/2d/2e/2d/2 =c/2B/2c/2A/2|G2zd|!
+cAFD|GBd d|^c/2d/2e/2d/2 =c/2B/2c/2A/2|G2z:|]
+S:https://www.folktunefinder.com/tunes/104131
+S:http://www.village-music-project.org.uk/abc/staffs.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

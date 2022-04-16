@@ -1,0 +1,23 @@
+X:1
+T:Atholl Highlander
+M:6/8
+L:1/8
+K:A Mixolydian
+e3 ecA|ecA Bcd|e3 ecA|Bcd cBA|!
+e3 ecA|ecA Bcd|e3 fed|cdB A3:|!
+Ace Ace|Adf Adf|Ace Ace|Bcd cBA|!
+Ace Ace|Adf Adf|e3 fed|cdB A3:|!
+a2e ece|a2e ece|a2e ece|Bcd cBA|!
+a2e ece|a2e ece|e3 fed|cdB A3:|!
+c3 cBA|d2e fed|c3 cBA|G2A BAG|!
+c3 cBA|d2e fed|e3 fed|cdB A3:|!
+S:https://www.folktunefinder.com/tunes/128371
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Jigs.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,79 @@
+X:1
+%%topspace 0
+T:Galliard 1
+C:Daniel Bacheler
+L:1/4
+M:none
+K:CM frenchtab
+Z:abc transcription by Werner v. Hrsten
+%%tabfontfrench frFrancisque
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.26
+%%tabflagspace 7
+%%stretchstaff false
+%%staffsep 25pt
+%%text # - meint, ein Ton hher greifen und trillern;  X - meint Mordent 
+[#ffg,a2] [dbb,d] [#bdda] |\
+[a,Xdca3]a1 [da,a,d2] |\
+[Xif,,a2] [ff,d] ,d1f |\
+[Xef,c2] ,,,,,a4 |\
+[aXfg2] #d1>,,f ,,g1[ffd] |\
+[Xha,g2] #a1,,,c/,d [,#bd1],,,,d |\
+[,#a,a1],,d [aadc2] ,,c1,d |\
+[,#cdca2] #,,d4 |
+% Takt 9
+[f,dca2] [d,,,d/]bad [#b,,a]a,db |\
+[a,d,a/],d,b,a ,b,dab [d,,a,d1],a |\
+[Xif,,a2] [#ff,d3/],d//,f #,d1f |\
+[Xef,c2] ,,,,,a4 |\
+[aXfg3/]c/ d//cdc dcac Xd1[ffd] |
+% Takt 14
+[Xha,g2] a1,,,c/,d [,#bd],da,b |\
+[#b,,a/]a,d,b [,#a,d1],,d [,adc,a],,c/,d |\
+[,#cdca2] #,,d4 |\
+[,aXff2] #,d1>,,,e ,,,f1[,Xbd] |\
+[,a#cc2] ,,,,,a1a [aa,Xc]>,d |\
+[,#bd1]>,d a,b[#bb,d1] [,db],,,,,d |
+% Takt 20
+[,#bbcd3]d1 [Xda,c]>b |\
+[a,Xd1]>,d #,b1b [#b,da]>a |\
+[,#dff3][da,c1] [#bbd]a |\
+[aab2] [#ff,d] ,d1f |\
+[Xef,c2] ,,,,,a4 |\
+[,aXff1]>,b ,d,aa,d #,b,a[,bd1] |
+[,a#cc1]>,,d ,a,,c,,d,a ,,,caa,d |\
+% Takt 27
+[,bd/],a,b,d a,b[#bb,d1] [,dXgf]#,,f |\
+[,#bbcd3]d1 [da,c]>b |\
+[a,Xd1]>,d #,b1,d/a [b,,a]d#ba |\
+[,db1]a/b d1,,,c [#bbd]a |
+[aab2] [#ff,d] ,d1f |\
+[ef,c2] ,,,,,a4 |\
+[Xhf,,,a2] #,d1[f,g] #d,,f |\
+% Takt 34
+[Xbbd1]#a>,,b[,d,d1] [,Xb,c],,,,d |\
+[dXb2] #,a1[b,d] #a,,b |\
+[,d,d1][,b,#c] >,,,a,,,,d1 [,aXb],,,,,d |\
+,,,c1,b ,,,d[,d,,,b] ,,,,,da |\
+[,,Xd,a1]f>,,,,,d,,,,,b1 [da,c,a]{,,a} |
+{a}1[Xbd,a] [aaXdc2] #,,c1,d |\
+[,#cdca2] #,,d4 |\
+[hXf,,,a1],d/,f ,dh[f,g1] #d,,f |\
+% Takt 42
+[Xb,d1]a/,d a,,b,d,,,d [,b,#c1],,,,d |\
+[dXb3/],a//,b ,a/d[Xb,d1] #a,,b |
+[,d,d1][,b,#c/],,,a ,,,,d,,,a,,,c,,a [,aXb1],,,,,d/,,d |\
+[,a,c/],,d,a,b ,,,d,a,b,d ,,b,b,da |\
+[,,Xd,a1]f>,,,,,d,,,,,b1 [Xda,c,a]{,,a} |\
+{a}1[Xbd,a] [aaXdc2] #,,c1,d |\
+[,#cdca2] #,,d4 |]
+S:https://www.folktunefinder.com/tunes/109562
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bacheler/bacheler_johnson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

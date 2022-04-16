@@ -1,0 +1,30 @@
+X:89
+T:Arthur Darley
+R:Jig
+M:3/8
+L:1/8
+Q:3/8=120
+K:D
+dc/2B/2\
+|:A2D|AGF|EDC|D2A|d2e|fgf|edc|d2A|
+d2e|fgf|edc|d2A|BAG|FED|EDC|DA,B,|
+CDE|Ddd|Aee|Aff|Agg|fed|edc|d3|1 dcB:|2 d=c_B||
+K:F
+M:6/8
+|:A2f fef|A2f fef|Aff Agg|Aaa Abb|
+A2f fef|A2f f2g|fed ed^c|[1 d3 dcB:|[2 d3 d2e|
+K:D
+|:fgf edc|d2A BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d3 d3:|
+S:https://www.folktunefinder.com/tunes/118071
+S:http://www.alfwarnock.info/alfs/abc/alfjigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,47 @@
+X:27
+T:The Cuckoo
+C:Henry Playford, 1703.         Second part by Colin Hume.
+L:1/8
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - Extra "cuckoos" added to B bars 2, 4, 6 and 8.
+Q:1/2=110
+K:C
+P:A
+V:1
+%%MIDI program 43
+G2 |: "C"cBcd "^/"cdcd | "C"edef "^/"efef | "C"gfga "^/"gagf | "C"edef "^/"edef |
+"G".g2.d2 "^/"z2z2 | "G".g2.d2 "^/"z2z2 | "Am"c2B>A "D7"A3G |1 "G"G6 G2 :|2"G"G6 |
+V:2
+%%MIDI program 72
+z2 |: z6 G2 | cBcd cdcd | edef efed | cBcd cBcA |
+Gzz2 .g2.d2 | z2z2 .g2.d2 | A2G2G2^F2 |1 G^FGA G=FED :| G6 |
+%%vskip 0
+P:B
+V:1
+Bc | "G"d2de "D7"dcBA | "G"G2.d2 "^/".B2Bc | "G"dBdB "^/"dBdB | "G"G2.d2 "G7".B2ef |
+V:2
+BA | G^FGE FDEF | G2.B2.G2BA | GDB,D GDB,D | G^FGA G=FED |
+%%vskip 15
+V:1
+"C"g2ga "G7"gfed | "C"c2.g2 "^/".e2ef | "C"gege "^/"gege | "C"c2.g2 "^/".e2fg |
+V:2
+CGEF GdAB | c2.e2 .c2ed | cGEG cGEG | cBcd c_BAG |
+%%vskip 0
+P:C
+V:1
+"F"afcf "^/"afcf | "F"afcf "^/"afef | "C"g2fe "G7"d3c | "C"c4- "C7"c2fg |
+"F"afcf "^/"afcf | "F"afcf "^/"afef | "C"g2fe "G7"d3c | "C"c6 |]
+V:2
+F2F2E2E2 | D2D2C2C2 | E2F2G2G,2 | CDEF G2A_B |
+cAFA cAFA | cAFA cAcd | e2dcc2B2 | c2.E2.C2 |]
+S:https://www.folktunefinder.com/tunes/110074
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

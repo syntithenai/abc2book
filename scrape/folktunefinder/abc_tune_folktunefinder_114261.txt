@@ -1,0 +1,21 @@
+X: 1
+T:A and A's Waltz
+% Nottingham Music Database
+S:Mick Peat
+M:3/4
+L:1/4
+K:G
+e|"G"d2B|"D"A3/2B/2c|"G"B2G|"D"A2e|"G"d2B|"D"A3/2B/2c|[M:2/4]"F"B=F|[M:3/4]"G"G2e:|
+"C"g2e|"Bb"=f2d|"F"c2A|=F2e|"C"g2e|"Bb"=f2d|[M:2/4]"F"cA|[M:3/4] [1 "G"G2e:| [2"G"G2z||
+S:https://www.folktunefinder.com/tunes/114261
+S:http://abc.sourceforge.net/NMD/nmd/ashover.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

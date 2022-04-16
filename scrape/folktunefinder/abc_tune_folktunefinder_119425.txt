@@ -1,0 +1,23 @@
+X:7
+T:Noble Squire Dacre
+S:Northumbrian Minstrelsy
+Q:1/4=80
+M:6/8
+L:1/8
+K:G
+B3/2A/2G G3/2D/2G|G3/2A/2B A2G|c3/2B/2A A3/2B/2A|
+c3/2B/2c efg|B3/2A/2G G3/2D/2G|
+G3/2A/2B A2G|c3/2e/2c d3/2e/2f|g2B A2G:|
+|:BG/2A/2B/2G/2 d2G|BG/2A/2B/2G/2 d2B|
+cA/2B/2c/2A/2 e2A|cA/2B/2c/2A/2 efg|BG/2A/2B/2G/2 d2G|
+BG/2A/2B/2G/2 d3/2c/2B|c3/2e/2c d3/2e/2f|g2B A2G:|
+%%vskip .5cm
+S:https://www.folktunefinder.com/tunes/119425
+S:http://www.andyhornby.net/Music/local%20tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

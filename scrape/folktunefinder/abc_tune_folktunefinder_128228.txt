@@ -1,0 +1,33 @@
+X: 10
+T:Crossing the Minch
+M:4/4
+L:1/8
+R:Hornpipe
+C:P.M. Donald Shaw Ramsay
+K:D
+A>d|"D"f>A A/A/A f2 e>f|"G"g>B B/B/B g2 a>f|"D"f>A A/A/A f2 e>f|"G"g>Be>
+d d>cd>e|
+"D"f>A A/A/A f2 e>f|"G"g>B B/B/B g2 a>f|"D"f>ga>f "A7"g>ec>d|"A"e2 "G"d2
+ "D"d2:|
+|:A>d|"D"f>A A/A/A f>ga>f|"G"g>B B/B/B g>aa>g|"D"f>A A/A/A f>ga>f|"G"g>B
+e>d d>cd>e|
+"D"f>A A/A/A f>ga>f|"G"g>B B/B/B g2 a>f|"D"f>ga>f "A7"g>ec>d|"A"e2 "G"d2
+ "D"d2:|
+|:A>d|"D"f>A A/A/A f>Ae>f|"G"g>B B/B/B g>Ba>g|"D"f>A A/A/A f>Ae>f|"G"g>B
+e>d d>cd>e|
+"D"f>A A/A/A f>Ae>f|"G"g>B B/B/B g2 a>f|"D"f>ga>f "A7"g>ec>d|"A"e2 "G"d2
+ "D"d2:|
+|:A>d|"D"f>A A/A/A f>A A/A/A |"G"g>A A/A/A g>A A/A/A|"D"f>A A/A/A f>A A/
+A/A|
+"A"e>fe>d d>cd>e|"D"f>A A/A/A f>A A/A/A |"G"g>A A/A/A g2 a>f|"D"f>ga>f "
+A7"g>ec>d|
+"A"e2 "G"d2 "D"d2:|
+S:https://www.folktunefinder.com/tunes/128228
+S:http://home.usit.net/~bhooper/scot1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

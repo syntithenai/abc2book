@@ -1,0 +1,33 @@
+X:21
+T:Kronprinsen (Bingsj\"o)
+Z:2000 Brian Wilson 
+M:3/4
+L:1/16
+K:D
+|: D2(DF) (AB)(AF) A2d2 \
+| f4 d6 B2 \
+| A2(Ac) (ef)(ec) e2f2 \
+| g4 (ef)ec (AB)(AF) |
+| D2(DF) (AB)(AF) A2d2 \
+| f4 d6 B2 \
+| A2(Ac) (ef)(ec) e2f2 \
+| g2fg e8 :|
+P:B
+|: a4 (a2^ga) b3a \
+| (a2g2) g2fg a2(g2 \
+| f2)ef d4 f2a2 \
+| efed cdec A4 |
+| a4 (a2^ga) b3a \
+| (a2g2) g2fg a2(g2 \
+| f2)ef d4 f2a2 \
+| (ef)ec d8 :|
+S:https://www.folktunefinder.com/tunes/114320
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

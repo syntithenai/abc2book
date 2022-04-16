@@ -1,0 +1,24 @@
+X: 300
+T: Hangman's Waltz
+C: Reg Hill
+L:1/8
+M:3/4
+R:waltz
+Q:1/4=192
+K:Bb
+%%text Drop E string on fiddle to D and use as a drone
+Bc|d2B2Bc|d2B2 (3GAG|F2B2c2|d4Bc|
+d2B2Bc|d2B2 (3GAG|F2B2c2|B4:|
+DC|B,2D2F2|G3GFD|F2B2c2|d4BA|
+Bc BA BF|G3GFD|F2B2A2|B4:|
+S:https://www.folktunefinder.com/tunes/112118
+S:http://www.alfwarnock.info/alfs/abc/accw03.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

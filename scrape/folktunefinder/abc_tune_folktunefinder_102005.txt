@@ -1,0 +1,28 @@
+X:6107
+T:Gavot,A. ASH.15
+M:4/4
+L:1/8
+S:Ashover
+R:Gavotte
+O:England
+A:Derbyshire
+Z:vmp.Chris Partington
+W:
+K:D
+d2c2d2A2 | B2c2d4 | g2f2b2a2 | gfed c4 | d-f e-g f-e g-e | f2g2a4 | fd e
+c dB ac | dBA^G A4 |
+d2d2ecBA | ceag f4 | babf gefg | fedc B4 |d2c2d2A2 | Bagf f4 |  b2B2c2d2
+ | egfe ~c4 | FAde GBeg | Acfa Bdgb | gfga bceg | fedc d4 |]
+S:https://www.folktunefinder.com/tunes/102005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

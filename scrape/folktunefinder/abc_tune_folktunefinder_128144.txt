@@ -1,0 +1,26 @@
+X:230
+T: HOLLAND IS A FINE PLACE
+B: O'Neill's 96
+M: C
+L: 1/8
+Z: Transcribed by John Chambers <jc@trillian.mit.edu>
+N: "Moderate"
+N: "Collected by F.O'Neill"
+K: A
+dB \
+| ">"A2A2 B2d2 | (e^def) (g2ag) | e2(dB) A2B2 | G6 dB |
+| A2A2 B2d2 | (e^def) (g2ag) | e2dB A2A2 | A6 ||
+|| (ef) \
+| ">"g2B2 d2e2 | (a3f) (g2ag) | e2dB A2B2 | G6 dB |
+| ">"A2A2 B2d2 | e^def (g2ag) | e2dB A2A2 | A6 ||
+S:https://www.folktunefinder.com/tunes/128144
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0051-0100_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

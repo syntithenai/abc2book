@@ -1,0 +1,50 @@
+X:1
+T:XI. Lasso vita mia,
+T:CANTUS.
+C: John Dowland
+H: From A Pilgrimes Solace.
+H: Wherein is contained Musicall 
+H: Harmonie of 3. 4. and 5. parts,
+H: To be sung and plaid with the Lute and Viols.
+H: First published in 1612
+B: db: -c 4 -b 13
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+% %%LY voices \property Voice.Slur \set #'dashed = #1
+%%LY voices \property Staff.automaticMelismata = ##f
+K:D dor
+z2 f3 e e3 d d3 ^c/ B/ ^c2 d2 
+z e f d2 e f g a4 g2 f2 e2 d2
+g2 g ^f/ g/ a ^g a2 ^g a e ^f2 d g > g ^f g G B e d c d3
+%line 2
+e > d c3 d/ c/ B2 c d c A d3 c/ B/ c > d e f2 e d2 c2 B2 e2 A2 d d > d ^c d2 d d> e f/ g/ a > e ^g2 ^g3 a ^g2
+z e B e2 d/ c/ d A c2 B2 ^c A2 d ^c2
+%line 3
+z e a2 z A B c/ d c/ B/ d/ ^c > ^c d f > e d e c d3 d e2 f3 e/ d/ e2 d2 g3 ^f/ e/ ^f2 g d _B G d > e f/ d/ f/ g/ a/ f/ e/ d/ ^c
+z z a > g f/ e/ f/ d/
+%line 4
+a z A2 e e3 e e2 e4 
+z e2 d > d B c/ A/ a > a a g/ f/ e/ d/ ^c d2 ^c
+z d > e f e A
+z c > g a g e
+z B c > B c/ d/ e > d B ^c3/2
+e A c/ _B3/2 A c d/ e/ f/
+%line 5 
+g/ a/ g > f e d e A a > g ^f/ e/ d2 e B2 B2
+z B G/ c d/ e c B e/ e/ e > B c/ d/ e/ c/ f d a2
+z A > B c/ d/ e/ f/ g/ e/ a/ e/ f/ d/ e A d d/ ^c d2
+%line 6
+z d g f > g a2 d2
+z d g ^f/ g a _b a g > g f/ e/ d c/ B/ f c f > e d/ c/ B/ c/ d/ G/ g ^f g a3/4 _b// g3/4 a// ^f2 - ^f8 |]
+S:https://www.folktunefinder.com/tunes/110951
+S:http://www.laymusic.org/music/dowland/lasso/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

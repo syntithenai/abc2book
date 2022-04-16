@@ -1,0 +1,26 @@
+X:11
+T:Lovers' Waltz
+C:Bob McQuillen
+S:Bernie Waugh
+R:Waltz
+M:3/4
+L:1/4
+K:D
+DE|\
+"D"F3|A3|"Bm"D3-|DEF|"G"GAB|"A"~A2G|"D"F3|"A"~EDE|
+"D"F3|A3|"Bm"D3-|DEF|"G"GAB|~BAB|"A"c3-|cde|
+"Bm"d3|"Bm7"c3|"G"B3-|B3|"Em"B3-|"A"Bcd|"D"A3|"A"G3|
+"D"F3|"A"A3|"Bm"d3|"G"efg|"D"f3|"A"e3|"D"d3-|d||
+S:https://www.folktunefinder.com/tunes/112999
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w5.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w5.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

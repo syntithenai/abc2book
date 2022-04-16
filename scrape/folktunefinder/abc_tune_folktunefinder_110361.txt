@@ -1,0 +1,17 @@
+X:1
+T:Lamentation over Boston
+T: Soprano
+C: William Billings
+O: From The Singing Master's Assistant, 1778
+M:3/2
+L:1/4
+K:A minor
+A4 A2 | c2 B2 A2 | e e e2 e2 | AedcB2 | [M:C|] [L:1/4] A4 | z2 c2 | B4 | z2 A2 | G4 | z2 c2 |
+S:https://www.folktunefinder.com/tunes/110361
+S:http://www.laymusic.org/music/billings/lamentation/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 144
+T: Timmy Clifford's
+C: J-66
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"G,B,D "C"E2D| EGF "D"GDB,| "G"G,B,D "C"C2B| "D"AGF "G"G3|
+"G"G,B,D "C"E2D| EGF "D"GAB| "G"d3 B3|1 "D"AGF "G"G3 :|2 "D"AGF "G"GBd|]
+|: \
+"C"efe "G"d2B| BAG GBd| "C"efe "G"d2B| BAG "D"A2g/f/|
+"C"efe "G"d2B| BAG GAB| "C"c3 "G"B3|1 "D"AGF "G"GBd :|2 "D"AGF "G"GDB,|]
+%%text 10/28/99
+S:https://www.folktunefinder.com/tunes/106899
+S:http://roaringjelly.org/music/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Jigs_39_77.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Jigs_39_77.abc
+S:http://roaringjelly.org/music/RJ_AllJigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

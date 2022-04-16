@@ -1,0 +1,29 @@
+X:360
+T: Hurlers' March
+T: Humors of Ballyloughlin
+S: "Ceol Rince na hEireann" 1/32
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Dmix
+(3ABA A AGE|GED D3|cBc ded|cAG FED|
+(3ABA A AGE|FG2 cGE|D3 DFA|1 D3 D3 :|2\
+D3 D2||
+B|c3 cBc|cAG ABc|d2e d2e|dcA (3DEF G|
+cBc dcB|cAG FGE|D3 DFA|D3 D2 :|
+g|fdd fed|fdd fed|c2d fed|(5B/^c/d/e/f/ gfd|
+fdd fed|fdd fed|(5B/^c/d/e/f/ gag|edd d2 :|
+c|A2D A2G|F3 FED|E3 EFD|EDE EFG|
+(4A/B/A/D/ A2G|F3 GEA|D3 DFA|1 D3 D2 :|2\ D3 D3||
+S:https://www.folktunefinder.com/tunes/123216
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

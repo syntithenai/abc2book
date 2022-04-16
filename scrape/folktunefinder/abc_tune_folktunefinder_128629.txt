@@ -1,0 +1,23 @@
+X:162
+T:Wedding
+Z: id:dc-jig-142
+M:6/8
+L:1/8
+K:G Major
+EF|G2B, G,A,B,|G,B,D G2E|EB,E G2A|BGE EBA|!
+G2B, G,A,B,|G,B,D G2E|DA,D F2d|AFD D:|!
+EF|GAG GFG|ABA AGA|BGB GBc|def g2e|!
+ded dcB|cdc cAG|FGA BAG|FGE D:|!
+K:D Major
+Bc|dce dce|dAF G2E|EB,E G2A|BGE EBc|!
+dce dce|dAF G2E|DA,D F2d|AFD D:|!
+S:https://www.folktunefinder.com/tunes/128629
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

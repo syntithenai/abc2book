@@ -1,0 +1,23 @@
+X: 16
+T:Reel Indien
+M:2/4
+L:1/16
+C:Trad.
+R:Reel
+K:G
+Bc|:d2fd   B2dB|G2BG   D2DF|A2AB  cBcA|GFGA BABc|!
+d2fd   B2dB|G2BG   D2DF|A2AB  cAFA|1G2B2   G2Bc:|2G2B2 G2GB||!
+K:C
+c2Gc   e2ce|g6    gf|eceg fedc|BGAB cBAG|!
+c2Gc   e2ce|g6    gf|eceg fedc|1BGAB  c2GB:|2BGAB  c2 z2||!
+S:https://www.folktunefinder.com/tunes/104241
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/ChrisRickersCanadianSessionTunes.abc
+S:http://domren.free.fr/ABC.htm
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

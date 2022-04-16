@@ -1,0 +1,27 @@
+X:11
+T:The Train to Glasgow
+R:march
+C:Andrea Beaton
+D:Andrea Beaton, The Tap Session
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:288
+K:E
+e<c|B2 e2 e2 e<f|g>fe<d e2 B2|c2 e<c B2 e<B|{B}c2 F2 F2 G<A|
+B2 e2 e2 e<f|g>fe<d e2 B2|c>ff>e d>fb<a|g2 e2 e2:|
+|:g>f|e2 b2 g>fe<d|e3 F E>GB<e|c2 e<c B2 ef|
+e2 b2 g>fe<d|e3 F E>GB<e|c>ff>e d>fb<a|g2 e2 e2:|
+[2c2 f2 f2 e<c|B2 e2 e2 e<f|g>fe<d e2 B2|c>ff>e d>fb<a|g2 e2 e2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/103091
+S:http://cranfordpub.com/tunes/abcs/andrea_tap.abc
+S:http://www.cranfordpub.com/tunes/abcs/andrea_tap.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

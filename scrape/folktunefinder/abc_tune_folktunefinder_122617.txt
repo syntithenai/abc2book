@@ -1,0 +1,25 @@
+X: 6
+T:Ye Banks and Braes
+R:Waltz
+M:3/4
+L:1/4
+K:D
+A | "D"d2 d | "A7/e"e3/2d/2 e | "D/f#"f a f | "A7/e"e3/2d/2 e |
+"D"f3/2e/2 d | "G"d B A | "Em"A B d | "A7"e2 A |
+"D"d2 d | "A7/e"e3/2d/2 e | "D/f#"f a f | "A7/e"e3/2d/2 e |
+"D"f3/2e/2 d | "G"d B A | "A7"A B d | "D"d2 f ||
+a2 "G"b | "D"a f d | a2 "G"b | "D"a f d |
+a f d | a f d | "Em"b>a g/2f/2 | "A7"e2 A |
+"D"d2 d | "A7/e"e3/2d/2 e | "D/f#"f a f | "A7/e"e3/2d/2 e |
+"D"f3/2e/2 d | "G"d B A | "A7"A B d | "D"d2 |]
+S:https://www.folktunefinder.com/tunes/122617
+S:http://www.alfwarnock.info/alfs/abc/alfwaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: Jelly Side Up (Paul Milde; R-111)
+I: Jelly Side UpR-111Greel
+M: C|
+R: reel
+K: G
+D2| "G"GFGA B2AG| d2Bc dcBd| g2fg "C"agef| agfe "G"d3B|
+   "Am"cBcd "D"ecA2| "G"B2GA B2G2| "D"A2Ac "G"B2AG| "D"FGAF "G"G3D|
+    "G"GFGA B2AG| d2Bc d2f2| g2fg "C"agfe| "G"d2Bc d3B|
+   "Am"cBcd "D"e2c2| "G"B2GA B2G2| "D"A2Ac "G"B2AG| "D"FGAF "G"G2|]
+Bc| "G"d2d2 g3d| "C"e2ge "G"d3B| "D7"cBce "G"d2cB| "Em"GABG "D"A2Bc|
+    "G"d2B2 g2d2| "C"egfe "G"d3B| "C"cedc "G"B2GB| "C"AG"D"FA "G"G2Bc|
+    "G"d4 g3d| "C"ecge "G"d3B| "D7"cBce "G"dcBA| "Em"GABG "D"A2d2|
+    "G"g3a "Em"gfed| "D"gfed "C"fedc| "G"B2GB "D"AGFA| "G"G6 |]
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/107127
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

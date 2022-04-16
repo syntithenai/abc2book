@@ -1,0 +1,30 @@
+X:221
+T:the Duke of Fifes Welcome to Deeside
+O:scotland
+R:March
+M:4/4
+L:1/16
+C:J. Scott Skinner
+K:A
+E2|\
+[E2A,2]A2 A2Bc B2A2 A2Bc|d2ef e2a2 ecAc B2E2|\
+E2A2 A2Bc {c}B2A2 A2Bc|\
+{c}d2ef ecBc {G}[A4(A4] [A2)E2]:|
+cd|\
+e2cA a2ga f2a2 e2c2|d2ef e2a2 ecAc B2cd|\
+e2cA a2ga f2a2 e2c2|\
+{c}d2ef ecBc {G}(A4 [A2)E2]cd|\
+e2cA a2ga f2a2 e2c2|d2ef ecAa ecAc {c}B2E2|\
+[E2A,2]A2 A2Bc {c}B2A2 A2Bc|\
+{c}d2ef ecBc {G}A6|]
+S:https://www.folktunefinder.com/tunes/100513
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:68
+T:Neagra
+O:rumania
+C:Roemeni\^a
+M:6/8
+L:1/8
+Q:1/4=320
+K:C
+V:1
+"Am" A3 d2 c|c2 Bd2 c|c2 Bd2 c|c2 BB2 G|
+A3 "Am7" d2 c|c2 B"F" d2 c|"E7" c2 B"E/g#" B2 G|"Am" A6 :|
+"C" (e6 |e3) ag |gf d3 |dc c3 |
+"G" (d6 |d3) ag |gf d3 |"C" dc c3 |
+"F" (a6 |a3) ag |gf d3 |"C" dc c3 |
+"G" (d6 |d3) ag |gf d3 |"C" dc c3  |:
+"D7" G2 B^c d2 |e2 dc2 B|G (A2 A2) G|"G" c B2 G3 |
+GA Bc de |"E7" fe dc2 B|"Am" A3 a3 |A6 :| |:
+"Am" A3 d2 c|c2 Bd2 c|c2 Bd2 c|c2 BB2 G|
+A3 d2 c|"Am/f#" c2 Bd2 c|"E7" c2 B"E/g#" B2 G|"Am" A6 :| |:
+"D7" g^f2 d3 |"G" z3 GB2 |c3 B3 |"G" cB2 G3 |
+"D7" g^f2 d3 |"G" z3 GB2 |1 "E7" c3 B3 |"Am" A3 a3 :|2
+"E7" c3 B2 ^G|"Am" A3 z3 ||
+S:https://www.folktunefinder.com/tunes/111298
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/rumania.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/rumania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,52 @@
+X:29 
+T:Variation no. 29 
+C:J.S.Bach 
+M:3/4 
+Q:330 
+V:2 bass 
+L:1/16 
+K:G 
+[V:1] z3[B,DG]z [B,DG]z [B,DG]z [B,DG]z [B,DG] | z3[FAd]z [FAd]z [FAd]z [FAd]z [FAd] | z3[Beg]z [Beg]z [Beg]z [Beg]z [^ceg] | 
+[V:2] G,2G,,2[K:treble] [A,CF]z [A,CF]z [A,CF]z [A,CF]z  [K:bass] | F,2F,,2 [K:treble] [EG^c]z [EGc]z [EGc]z [EGc]z [K:bass] | E,2E,,2  [K:treble] [Adf]z [G^ce]z [Adf]z [G^ce]z [K:bass] | 
+% 
+[V:1] [Adf]zz2 (3z=c'b (3cba (3Bba (3Agf | [B2d2g2]z [Bdg]z [Bdg]z [Bdg]z [Bdg]z [Bd=f] | z3[Gce]z [Gce]z [Gce]z [Gce]z [Gce] | 
+[V:2] zDA,F, D,>DE,>=C D,>B,C,>A, | B,,2B,2[K:treble] [Acf]z [Acf]z [Acf]z [GBd]z[K:bass] | C,2C2[K:treble] [=FBd]z [FBd]z [FBd]z [EAc]z [K:bass]| 
+% 
+[V:1] z3[^FAd]z [FAd]z [FAd]z [FAd]z [FA=c] | [DGB]zz2 (3zAB (3cBA (3BAG (3edc | (3d zG (3FCz (3:2:2z2G (3AFz (3:2:2z2B (3^cAz| 
+[V:2] D,2D2[K:treble] [EG^c]z [EGc]z [EGc]z [DFA]z[K:bass] | zG,D,B,, G,,>G,F,>D G,>EA,>F | (3B,Dz (3::2z2A, (3B,Dz [K:treble] (3::2z2 C (3DGz (3::2z2 E| 
+% 
+[V:1] (3::2z2B (3^cGz (3::2z2d (3ecz (3::2z2f (3dBz | (3::2z2=c (3BGz (3::2z2A (3GEz (3::2z2F (3E^Cz| 
+[V:2] (3FAz (3::2z2E (3FAz (3::2z2G (3Adz (3::2z2A | (3GBz (3::2z2F (3EGz (3::2z2D (3^CEz [K:bass] (3::2z2B, | 
+% 
+[V:1] (3::2z2F (3E^Cz [K:bass] (3::2z2D (3^CA,z (3::2z2B, (3A,F,z | (3::2z2B, (3A,F,z (3::2z2G, (3F,D,z (3::2z2E, (3D,B,,z| 
+[V:2] (3A,^Cz (3::2z2B, (3A,Cz (3::2z2G, (3F,A,z (3::2z2E, | (3D,F,z (3::2z2E, (3D,F,z (3::2z2=C, (3B,,D,z (3::2z2 A,, | 
+% 
+[V:1] (3::2z2E, (3D,B,,z (3::2z2C, (3B,,G,,z (3::2z2A,, (3G,,E,,z | (3zG,A, (3EA,G, (3zF,A, (3DA,F, (3zE,G, (3^CG,E, | z3 [F,A,D]z [F,A,D]z [F,A,D]z4 [K:treble] :| 
+[V:2] (3G,,B,,z (3::2z2A,, (3G,,B,,z (3::2z2F,, (3E,,G,,z (3::2z2 D,, | ^C,,2^C,2D,2F,,2G,,2A,,2 | D,,2D,2 [E,G,^C]z [E,G,C]z D,,4 :| 
+% 
+[V:1] |: (3::2z2b (3afz (3::2z2g (3fdz (3::2z2e (3dBz | (3::2z2e (3dBz (3::2z2c (3BGz (3::2z2A (3GEz | 
+[V:2] |: [K:treble] (3dfz (3::2z2e (3dfz (3::2z2=c (3Bdz (3::2z2A | (3GBz (3::2z2A (3GBz (3::2z2F (3EGz (3::2z2D | 
+% 
+[V:1] (3::2z2=F (3ECz [K:bass](3::2z2D (3CA,z (3::2z2B, (3A,^F,z | (3::2z2G, (3F,^D,z (3::2z2E, (3D,B,,z (3::2z2=C, (3B,,G,,z [K:treble] | z3[GBe]z [GBe]z [GBe]z [GBe]z [GBe] | 
+[V:2] (3CEz [K:bass] (3::2z2B, (3A,Cz (3::2z2G, (3^F,A,z (3::2z2E, | (3^D,F,z (3::2z2^C, (3B,,D,z (3::2z2A,, (3G,,B,,z (3::2z2F,, | E,,2E,2[K:treble] [FA^d]z [FAd]z [G,G]z [FAd]z [K:bass]| 
+% 
+[V:1] z3 [GBe]z [GBe]z [GBe]z [GBe]z [GBe] | (3zfg (3abc'- (3c'ba (3gfe (3^d=cB (3AGF | E[GBe]z [GBe]z [EGc]z [EGc]z [B,EG]z [B,EG] [K:bass]| 
+[V:2] C,2C2[K:treble] [FA^d]z [FAd]z [B,B]z [FAd]z [K:bass] | A,2^D,2E,2A,2B,2B,,2 | E,2[K:treble] [FA^d]z [^DFB]z [DFB]z [A,DF]z [A,DF]z [K:bass]| 
+% 
+[V:1] (3zE,=F, (3^F,G,^G, (3zB,C (3DCB, [K:treble] (3CDE (3F=GA [K:bass] | (3zD,_E, (3=E,=F,^F, (3zA,B, (3CB,A, [K:treble] (3B,CD (3EFG | 
+[V:2] C,2B,2A,2^G,2A,2C,2 | B,,2A,2=G,2F,2G,2B,,2| 
+% 
+[V:1] (3C z=F (3ECz [K:bass](3::2z2D (3CA,z (3::2z2B, (3A,^F,z [K:treble] | (3::2z2B (3AFz (3::2z2G (3EDz (3::2z2E (3DB,z | (3::2z2e (3dBz (3::2z2c (3BGz (3::2z2A (3GEz | 
+[V:2] (3A,,A,z (3::2z2B, (3A,Cz (3::2z2G, (3^F,A,z (3::2z2E, | (3D,Dz (3::2z2E (3DFz (3::2z2C (3B,Dz (3::2z2A, | [K:treble](3G,Gz (3::2z2A (3GBz (3::2z2=F (3EGz (3::2z2D| 
+% 
+[V:1] (3::2z2a (3gez (3::2z2=f (3ecz (3::2z2d (3cAz | (3zAB (3cde- (3edc (3BAG- (3GFG (3ABc | (cB) z[Bdg] z[Bdg] z[Bdg] z4 :| 
+[V:2] (3Ccz (3::2z2d (3cez (3::2z2B (3Acz (3::2z2G | ^F2[K:bass]A,2B,2C2D2D,2 | G,2G,,2[K:treble] [Acf]z [Acf]z [K:bass]G,4 :|
+S:https://www.folktunefinder.com/tunes/124461
+S:http://www.barfly.dial.pipex.com/Goldbergs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

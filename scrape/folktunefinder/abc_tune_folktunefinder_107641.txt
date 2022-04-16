@@ -1,0 +1,23 @@
+X:60
+T: Mountain Brow
+S: "The Roche Collection of Traditional Irish Music" [I/53/131]
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D | DGG Bdd | edB d2B | DGG Bdd | edB AFD |
+DGG Bdd | edB gfe | dBG AGA | BGG G2 :|
+B | def gfg | agf edB | def gfg | agf e2d |
+def gfg | agf gfe | dBG AGA | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/107641
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

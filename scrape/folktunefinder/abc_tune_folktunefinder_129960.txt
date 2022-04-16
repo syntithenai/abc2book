@@ -1,0 +1,34 @@
+X: 21
+T:De Kolom
+R:Divers
+C:Trad. (Flandres)
+Z:J.M HENRY
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/8
+Q:1/4=120
+K:Cmaj
+V:1
+"G7"G| "C"c2 e2| "C"c3 e|"C"ce ge|"C"c3 e/2e/2|"C"e dd f/2f/2|"F"f ee f|"G7"gf ed|"C"e2 cG|!
+"C"c2 e2|"C"c3 e|"C"ce ge|"C"c3 e/2e/2|"C"e dd f/2f/2|"F"f ee f|"G7"gf ed |"C"c2 de|!
+"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"cc de|"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"c2 de|!
+"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"cc [P:Intro]de|"F"fg/2f/2 ed|"G7"gg de|"F"fg/2f/2 ed|"C"c3|]
+V:2
+G | e2g2 | e3e | ce/2g/2 ee/2c/2 | g3a/2a/2 | ab ba/2a/2 | ac' c'a | ba gf | g2 eg |
+e2g2 | e3e | ce/2g/2 ee/2c/2 | g3a/2a/2 | ab ba/2a/2 | ac' c'a | ba gf | e2z2 |
+c'e cB/2c/2 | d/2e/2f/2g/2 fa | ce cB/2c/2 | e/2d/2c/2B/2 z2 | c'e cB/2c/2 | d/2e/2f/2g/2 fa | ce cB/2c/2 | e/2d/2c/2B/2 z2 | 
+c'e cB/2c/2 | d/2e/2f/2g/2 fa | ce cB/2c/2 | e/2d/2c/2B/2 z2 | c'e cB/2c/2 | d/2e/2f/2g/2 fa | ae cB/2c/2 | c3 |] 
+%%text pour le galoubet en Sol
+%%text Intro : accordon
+%%footer $D   Galouvielle-MBe 2007 \n-- (Provence - tradition militaire)
+S:https://www.folktunefinder.com/tunes/129960
+S:http://michel.bellon.free.fr/Musique/abc/BalTraverse92.abc
+% Rhythm Divers
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

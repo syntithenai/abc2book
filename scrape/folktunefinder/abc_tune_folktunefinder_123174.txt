@@ -1,0 +1,28 @@
+X:150
+T: Hut in the Bog (B)
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+A3 B AGEG | AGAB c2 Bc | A3 B AGEF | gedB c2 Bc |
+A3 B AGEG | AGAB c2 Bc | A3 B AGED | gedB c3 ||
+d | e2 eg edcd | egec d2 cd | e2 eg edcd |\
+efge d2 (3B^cd |
+e2 eg edcd | egec d2 cd | ea a2 egfa | gedB c3 ||
+d | ecgc ec c2 | ecge d2 cd | ecgc ec c2 | ecge d2 cd |
+ecgc ec c2 | ecge d2 cd | ea a2 egfa | gedB cABG ||
+S:https://www.folktunefinder.com/tunes/123174
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

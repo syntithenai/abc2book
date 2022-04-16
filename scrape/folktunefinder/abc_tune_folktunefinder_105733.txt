@@ -1,0 +1,25 @@
+X: 8
+T:Atkin's Polka No.5
+R:Polka
+M:2/4
+L:1/16
+K:D
+A2|a2a2 f2f2|d2d2 A4|f2e2 gfe2|e2d2 fed2|
+a2a2 f2f2|d2d2 A4|f2e2 gfe2|d2f2 d2:|
+K:G
+A2|Bdce d2f2|Bdce d2f2|f3g a2g2|f2e2 d2c2|
+Bdce d2g2|Bdce d2g2|f3g a2f2|g2g2 g2:|
+K:D
+z2|A3B A3G|FAdf a4|gfe2 ede2|fed2 dcd2|
+A3B A3G|FAdf a4|gfe2 edc2|d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/105733
+S:http://www.alfwarnock.info/alfs/abc/messer.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

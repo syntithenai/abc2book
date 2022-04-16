@@ -1,0 +1,43 @@
+X:111
+T:Last Rose of Summer, The
+S:Digital Tradition, lastrose
+N:Author: Thomas Moore
+Z:dt:lastrose
+M:3/4
+L:1/8
+Q:1/4=100
+W:'Tis the last rose of summer, left blooming all alone
+W:All her lovely companions are faded and gone.
+W:No flower of her kindred, no rose bud is nigh
+W:To reflect back her blushes and give sigh for sigh.
+W:
+W:I'll not leave thee, thou lone one! to pine on the stem
+W:Since the lovely are sleeping, go sleep thou with them
+W:'Thus kindly I scatter thy leaves o'er the bed
+W:Where thy mates of the garden lie scentless and dead.
+W:
+W:So soon may I follow, when friendships decay
+W:And from love's shining circle the gems drop away
+W:When true hearts lie wither'd and fond ones are flown
+W:Oh! who would inhabit this bleak world alone!
+K:C
+CD |"C"E6|"F"c4 B-A|"C"G2 E4-|E4 "G7"C-D|\
+"C"E2- G2 E2|"F"D4 C2|"C"C6-|C4 CD
+|"C"E6|"F"c4 B-A|"C"G2 E4-|E4 "G7"C-D|\
+"C"E2- G2- E2|"F"D4 C2|"C"C6-|C4 G-E|
+"C"c4 B2|"Am"A4 G2|"C"G2 E4-|E4 G-E|\
+"C"c4- B2|"E7"A-^G- A2 "G7"B2|"C"c4 CD|
+"C"E6|"F"c4 B-A|"C"G2 E4-|E4 "G7"C-D|\
+"C"E2- G2- E2|"G7"D4 C2|"C"C6-|C4 ||
+S:https://www.folktunefinder.com/tunes/109060
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/dt-songs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

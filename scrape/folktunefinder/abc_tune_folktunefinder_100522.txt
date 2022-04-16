@@ -1,0 +1,26 @@
+X:230
+T:the Gobby O
+O:scotland
+R:Jig
+M:6/8
+K:ADor
+B|\
+c2A AcA|E2A A2c|B2G GBc|dBG GAB|\
+c2A AcA|E2A A2g|edc BAG|E2A A2::\
+E|\
+A2B c2d|e2f g2e|faf g2e|dBG GAB|\
+A2B c2d|e2f g2f|edc BAG|E2A A2E|
+A2B c2d|e2f g2e|faf g2e|dBG GAB|\
+c2c cBA|Bcd efg|edc BAG|E2A A2|]
+S:https://www.folktunefinder.com/tunes/100522
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

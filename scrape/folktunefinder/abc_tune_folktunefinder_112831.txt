@@ -1,0 +1,30 @@
+X:404
+T: Jiemei tiaocai
+N: C1439
+O: China,Shanxi, Qitai
+S: I, 320]
+R: Wuge, Yangge, Jinzhong yangge]
+M: 2/4
+L: 1/16
+K: C
+B2deB2AG | B2c2G4
+d3dc2cd | c3BB2A2 | G2
+c2c2c2 | c2E2G3A | G2GED2C2 | G,8
+d2d2^c2cA | G3AG2D2
+G2GDG2GD | G2GAG2D2
+F2FDF2FD | G3AG4
+d3dc2BA | GAGDG4
+B2d2^F2AG | c2GAG2F2 | E2DCG,4
+d3dc2BA | GAGDG4
+B2d2c2BA | c2GAG2F2 | E2DCG,4
+S:https://www.folktunefinder.com/tunes/112831
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Wuge, yangge, jinzhong yangge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:46
+T:The Graduate
+C:Colin Hume, 1998
+L:1/8
+M:9/8
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:3/8=120
+N:For Susan Kevra
+K:Bm
+P:A
+|: "Bm"d2e "^/"fed "^/"fed | "A"c2d "^/"edc "^/"edc |\
+"G"B2c "^/"def "^/"gfe |1 "Bm"f2B "Em"gag "F#7"f3 :|2 "Bm"f2B "F#7"dec "Bm"B3 |
+%%vskip 0
+P:B
+|: "A"A2g "^/"gfe "D"f2d | "C"G2e "^/"ed=c "G"d2G |\
+"Bm"F2d "G7"d^cB "F#m"cde |1 "Bm"f2B "Em"gag "F#7"f3 :|2 "Bm"f2B "F#7"dec "Bm"B3 |
+%%vskip 0
+P:C
+|: "Bm"f2d "^/"def "E"e3 | "Bm"f2d "^/"def "Em"g3 |\
+"Bm"f2B "^/"Bcd "A"cBA |1 "Em"G2a "^/"BAG "F#7"F3 :|2 "G"B2c "F#7"dec "Bm"B3 |]
+S:https://www.folktunefinder.com/tunes/110093
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

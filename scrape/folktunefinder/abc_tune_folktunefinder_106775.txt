@@ -1,0 +1,26 @@
+X: 12
+T: Young Tim Murphy
+I: Young Tim MurphyJ-48Djig
+C: Hartnett
+M: 6/8
+R: jig
+K: D
+F/G/| "D"AFD DFA| "G"Bcd "D"A2A| "G"Bcd "D"AGF| "G"GFG "A7"EFG|
+      "D"AFD DFA| "G"Bcd "D"B2A| "G"Bcd "D"F2E| FDD D2:|
+|:\
+e| "D"fef "G"dBA| "Bm"Bdd d2e| "D"fef def| "G"gfg "A7"e2a|
+   "D"fed "G"B2d| "D"A2d F2A| "G"Bdd "A7"F2E| "D"FDD D2 :|
+%%text Roaring Jelly  J-48
+%%vskip 6pt
+S:https://www.folktunefinder.com/tunes/106775
+S:http://roaringjelly.org/music/sets/Set36.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set36.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set36.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

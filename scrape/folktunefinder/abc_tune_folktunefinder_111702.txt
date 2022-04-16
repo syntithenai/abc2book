@@ -1,0 +1,20 @@
+X:1
+T:Always a Train in my Dreams
+M:4/4
+L:1/8
+K:G
+ D| B2 B2 c/2 B3/2 A/2G/2 G| AB E2 GG GG| A/2 E3/2- EE AG FE| D4 z2 DD|\
+ DG BB cB AG| A B3 E2 FG| A3/2 A/2A/2 A3/2 BA GF| G4 z4| B2 B2 B2 B2|\
+ cc BA B/2- A3/2 z G| A2 A3/2 G/2 A E2 G| A2 A3/2 G/2A/2-G/2 F3| BB BB cB A/2 G3/2|\
+E/2-D/2 C3 z D/2D/2 BA| G2 z4 DD| D G2 GG/2-E/2 DG G| B4 z BA G| G2E/2-D/2 C E/2G/2 GG C|\
+ D4 z2 DD| D G2 GG/2-E/2 D2 D| B2 B/2 c3/2B/2-A/2 GG E| D G2 Bc/2-B/2 A F/2 G3/2|\
+ G4 z2 z||
+S:https://www.folktunefinder.com/tunes/111702
+S:http://back.numachi.com:8000/dtrad/abc/ALWAYTRN.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ALWAYTRN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:15
+T:Ganglat e. Skommar Far -- Leksand
+R:ganglat
+Z:2000 Brian Wilson 
+M:4/4
+L:1/8
+K:A
+Ac
+|: e2 c2 e2 a2 | efed c2 Bc | d2 dc B2 B2 | efed c2 Ac
+|  e2 c2 e2 a2 | efed c2 Bc | d2 dB EGBG | A6 Ac :|
+|: e2 e2 f3 f  | efed c2 Bc | d2 dc B2 B2 | efed c2 Ac
+|  e2 e2 f3 f  | efed c2 Bc | d2 dB EGBG | A6 Ac :|
+S:https://www.folktunefinder.com/tunes/114343
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20010303.abc
+% Rhythm Ganglat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

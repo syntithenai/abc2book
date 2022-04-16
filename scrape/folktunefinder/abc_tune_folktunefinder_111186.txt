@@ -1,0 +1,25 @@
+X:1
+T:IX. Deep lamenting
+O: Canzonets, or Little Short songs to three voyces, 
+H: transcribed from the Performers' Facsimiles print of the London, 1593 edition
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+N: original clef: C on first line
+M:C
+K:C
+T: Cantus
+L:1/4
+%1
+z4 d6  B2  B4   G6    c3    B A  G A B c3 B/ A/ B2 c2 B3 A G2\
+S:https://www.folktunefinder.com/tunes/111186
+S:http://www.laymusic.org/music/morley/deep/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

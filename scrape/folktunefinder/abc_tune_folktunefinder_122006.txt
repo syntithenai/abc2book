@@ -1,0 +1,25 @@
+X: 344
+T: THE ROCKY MOORLAND
+T: Riasc na carraige
+B: O'Neill's 344
+M: C
+L: 1/8
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Tenderly"
+K:Gm
+B>c \
+| d2 cB G2 (BA) | G4- G2 B>c | d2d2 dBfd | c6 de |
+| f2 dc d=e^f2 | g3f d2g2 | f2dc B2c2 | d4 d=e |
+| f2 dc d=e^f2 |(g3f d2)g2 | (f2 d)c (dcB)G | B3A G2f2 |
+| f2dc Bcd=e | ^f2 Ha2 g2=fd | c3B G2G2 | G4- G2 ||
+S:https://www.folktunefinder.com/tunes/122006
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0301-0350_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0344_jc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

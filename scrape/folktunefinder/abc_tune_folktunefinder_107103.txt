@@ -1,0 +1,23 @@
+X: 15
+%%leftmargin 2.0cm
+%%staffwidth 17.5cm
+T: Irishman's Heart to the Ladies
+I: Irishman's Heart to the LadiesJ-17Ajig
+M: 6/8
+R: jig
+K: A
+a| "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc BAB| "E"cBB B2 a|    "A"ecA "D"BAF| "A"AFE EFA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+|:A| "A"Aee "D"dff| "A"cee ecA| cde "D"eaf| "A"ecA "E"B2 A|    "A"cee "D"dff| "A"cee ecA| "Bm"Bdc "E7"BAB| "A"cAA A2 :|
+%%text Roaring Jelly  J-17
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/107103
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

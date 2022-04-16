@@ -1,0 +1,21 @@
+X: 11
+T:Another Fall of Rain
+M:4/4
+L:1/8
+Q:120
+K:D
+A|A>AAA BA FF|EDDB, A,3 A,|DDDE FAGHF|E4-E3 A|
+AAAA BA FF|E<DDB, A,3 E|FAFD E<GEC|D4-D2 DD|
+GGGG BBBB|B<A AF A3 A|AAAA BA FD|E4-E2 FG|
+AAAA BA FF|E<DDB, A,3 E|FAFD E<GEC|D4-D2z||
+S:https://www.folktunefinder.com/tunes/120509
+S:http://crash.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/~dexy/music/clsong.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/clsong.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/clsong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

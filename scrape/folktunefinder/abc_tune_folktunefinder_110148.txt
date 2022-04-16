@@ -1,0 +1,43 @@
+X:101
+T:The Poodle-Faker
+C:Colin Hume, 1990
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=110
+%%MIDI chordname dim 0 3 6 9
+H:For the lovely Rachel Taylor
+N:"-" in bars 1 and 3 of the B-music means "no chord".
+K:F
+P:A
+|: "F"fc "F#dim"_ec | "G"z =B/c/ "^/"dB | "D7"Ac "Em"=BG | "A7"EA "D"^FD |\
+"G"GD "G#dim"=FD | "A"z^C/D/ "^/"EC | "Dm"DF "Gm"G/A/B | "C7"A3/2G/ "F"F2 :|
+P:B
+|:\
+%%MIDI gchord cz
+"F"c3/2B/ "^-"AB- |\
+%%MIDI gchord cc
+"Bb"BA "C"GF/G/ |\
+%%MIDI gchord cz3
+"Dm"AF "^-"GC- |\
+%%MIDI gchord c2cz
+"C"CD/E/ "Bb"Fd |\
+%%MIDI gchord fzczfzcz
+"C"cG "^/"GB | "Dm"AF- "^/"FD/E/ | "Bb"F3/2G/ "^/"AF | "C7"G2 "F"F2 :|
+%%vskip 0
+P:C
+"D7"cc "^/"cd/c/ | "G"=B/c/B/A/ "^/"G/^F/G/A/ | "C7"BB "^/"Bc/B/ | "F"A/B/A/G/ "^/"FE/F/ |\
+"Gm"GG "^/"GA/B/ | "C7"cc "^/"cd/e/ | "F"fc "Ab7"_ec | "C7"ze "F"fz |]
+S:https://www.folktunefinder.com/tunes/110148
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

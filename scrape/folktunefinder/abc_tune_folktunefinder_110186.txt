@@ -1,0 +1,62 @@
+X:139
+T:Unrequited Love
+C:Colin Hume, 1986
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=82
+%%MIDI chordname dim 0 3 6 9
+K:A
+P:A
+V:1
+|: e | ef fe | e2- ec | cd dc | c2- cA |\
+AB BA |1 AE Ae | ed cd | B3 :|2 AE Ac | cd BG | A3 B |
+V:2
+%%MIDI gchord GHIg
+|: c | "A"cd "^/"dc | "^/"c2- "^/"cA | "F#m"AB "^/"BA | "^/"A2- "^/"AF |\
+"D"FD "^/"B,F |1 "A"EC "^/"A,A | "Bm"cB"^/"AB | "E7"A2 G :|2 "A"EC "^/"A,E | "Bm"FD "E7"ED | "A"C3 z |
+%%vskip 0
+P:B
+V:1
+BG EG | BG AB | cd dc | c3d |\
+dB FB | dB cd | ef fe | e3 e |
+V:2
+"E7"E2- "^/"ED | "^/"E2- "^/"ED | "A"E2- "^/"E2 | "^/"EG "^/"GF |\
+"Bm"F2- "^/"FE | "^/"F2- "^/"FF | "E"G2- "^/"G2 | "^/"GB "^/"BA |
+%%vskip 0
+P:C
+V:1
+fa ag | ge ec | df fe | c3 A |\
+AB BA | Ae eA | AB BA | B3 B |
+V:2
+"D"Ad "^/"cB | "C#m"c2 "^/"GA | "Bm"B2 "^/"FG | "A"A2- "^/"A2 |\
+"D"D2- "^/"DD | "A"C2 "^/"CC | "Bm"B,2- "^/"B,B, | "E"E2- "^/"EE |
+%%vskip 0
+P:D
+V:1
+BG EG | BG AB | cd dc | c3d |\
+dB FB | dB cd | ef fe | e3 e |
+V:2
+"E7"EB, "^/"G,B, | "^/"EB, "^/"CD | "A"EF "^/"FE | "^/"E2- "^/"EF |\
+"Bm"FD "^/"B,D | "^/"FD "^/"EF | "E"GA "^/"AG | "^/"GA B "Eaug"^B |
+%%vskip 0
+P:E
+V:1
+ef fe | e2- ec | cd dc | c2- cA |1,2\
+AB BA | AE Ac | cd BG | A3 |]
+"^Last time"AG AB | =c2 BA | g3 f | e3 d |\
+df fd | dB BF | AB BA | A4 |]
+V:2
+"A"cd "^/"dc | "^/"c2- "^/"cA | "F#m"AB "^/"BA | "^/"A2- "^/"AF |1,2\
+"D"FD "^/"B,F | "A"EC "^/"A,E | "Bm"FD "E7"ED | "A"C3 |]
+"D"FE "^/"FD | "Adim"^D2 "^/"FD | "E"EG "^/"BA | "^/"GB "^/"E2 |\
+"Bm"Bd "^/"dB | "^/"FD "^/"DB, | "E7"D2- "^/"D2 | "A"C4 |]
+S:https://www.folktunefinder.com/tunes/110186
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

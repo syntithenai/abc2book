@@ -1,0 +1,32 @@
+X:65
+T:Caher Rua
+M:4/4
+L:1/8
+S:Tommy Peoples, Donegal (fiddle)
+R:Reel
+D:From a 70's demo tape
+Z:Bernie Stocks
+H:The 'e3's is a unison. Plyed with 14.
+P:AABCABC
+K:D
+d3D3A {d}BAFA | (3.A.A.A-AF AFEF | DEFA {d}BAFB | ABde {a}feef |
+dA(3.A.A.A BAFB | (3.A.A.FBF AF(3.E.E.F | DEFA {d}BAFB | ABde fddc ||
+dD(3.D.D.D A2FA | dcde fdef | ~g3e {a}fedf | e3f edBc |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e fcdB | AFGE D2Ac |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e- ef~f2 | dfe^d e=dBc |
+dD(3.D.D.D A2FA | dcde fdef | ~g3e fdfa | (3.g.g.gbg ~f3e ||
+defd cdec | BcdB AFEF | DEFA {d}BAFB | ABde feef |
+dA(3.A.A.A BAFB | (3.A.A.FBF AF(3.E.E.F | DEFA {d}BAFB | ABde fddc ||
+S:https://www.folktunefinder.com/tunes/124875
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book3.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

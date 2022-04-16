@@ -1,0 +1,24 @@
+X:6
+T:Joshua
+C:Dorian mode - Key Dm
+M:4/4
+L:1/8
+Q:1/8=440
+K:Dm
+Ac|d_d=de fefg|afz2 a2z2|gez2 gz2_a|agfd z3A|
+d_d=de fefg|afz2 a2fg|afge fdec|d2z3AAA|
+[d2D2][c2D2] [A2D2]Gc|AGFD z2AA|dcAd cAG2|[AA][AA][AA][AA] zAAA|
+[d2D2][c2D2] [A2D2]Gc|AGFD z2FG|A2GA FDEA|D3d cAFE|
+DCDE FEFG|AdzA d2z2|AczA cdcA|dcAF DcAG|
+DCDE FEFG|AdzA dAde|fAe2 dAce|dcAF DAAA|
+dcAd cAGF|AGFA defe|dcAG Adfg|agfa e3A|
+dcAd cAGF|GAFE DCA,F|EAGE DCA,C|DFAc d2
+S:https://www.folktunefinder.com/tunes/117108
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/tableditabc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:15
+T:La prise de Mantoue
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n15
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=115
+K:Bb
+z2zz2 F | G2 G G2 F | B3 c3 | d2 c B2 A |\
+G3 F2 F | G2 G G2 F | B3 c3 | d2 c B2 A |G3 F2 z |
+c3 c2 d | B3-B2 c | d2 d c2 c | G3-G2 A | B3 G3 | c2 B A2 G | F3-F2 z |
+c3 c2 d | B3-B2 c | d2 d c2 c | G3-G2 A | B3 G3 | c2 c B2 A | B3-B2 z ||
+W:C'est la ville de Matoue : grand Dieu qu'elle est jolie (2x)
+W:Elle est jolie et parfaite en beaut, que les Franais veulent y entrer (2x)
+W:
+W:/.../
+S:https://www.folktunefinder.com/tunes/119497
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/davenson.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

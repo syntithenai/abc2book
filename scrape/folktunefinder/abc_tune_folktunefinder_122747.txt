@@ -1,0 +1,26 @@
+X:23
+T:The Golden Keyboard
+S:Bernie Waugh
+R:Reel
+M:4/4
+L:1/8
+K:E Dorian
+|:\
+"Em"BGEF GFGA|"Bm"B2gB fBed|"Em"BGEF GBAG|"D"F/E/DAD BDAF|
+"Em(C)"EDEF GFGA|"Bm(Am)"B2gB fBec|"D"d/e/dce dBAF|DFAF "Em"GEE2:|
+|:\
+"Em(E)"Bee/e/e Bee/e/e|"E7"Beef "A"edBc|\
+"D"dAA/A/A "A7"eAce|"D"d/e/dce "Bm"dBAF|
+"Em"EDEF GFGA|"Bm"B2gB "C"fBec|"D"d/e/dce dBAF|DFAF "Em"GEE2:|
+S:https://www.folktunefinder.com/tunes/122747
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w2.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

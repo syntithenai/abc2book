@@ -1,0 +1,56 @@
+X:140
+T:Up Jumped The Devil
+S:Nottingham Music Database
+M:4/4
+L:1/4
+Q:1/2=120
+K:A
+P:A
+[| e |\
+"A"ee/2e/2ff |\
+"A"aafe |\
+"A"eafe |\
+"E7"g3e |\
+"E7"e/2g/2b/2e/2g/2b/2e/2g/2 |\
+"E7"b/2e/2g/2b/2ge |\
+"E7"g/2f/2e/2g/2f/2e/2f/2c/2 |\
+"A"e3e |
+%%vskip 0
+P:B
+"A"e/2c/2e/2c/2f/2c/2f/2c/2 |\
+"A"a/2c/2a/2c/2fe |\
+"A"eaea |\
+"D7"f3a |\
+"D7"a3/2b/2af |\
+"A"e3/2f/2ee/2f/2 |\
+"E7"g/2f/2e/2d/2c/2A/2B |\
+"A"A2-A2 |
+%%vskip 0
+P:C
+"A"EA/2A/2EA/2A/2 |\
+"D"FA/2A/2"A"EE |\
+"A"EA/2A/2EA |\
+"E7"Be2e |\
+"E7"B/2B/2e/2e/2B/2e/2B/2B/2 |\
+"E7"e/2B/2B/2e/2ef |\
+"E7"g/2f/2e/2g/2f/2e/2d/2B/2 |\
+"A"A/2B/2A/2F/2"E7"EE |
+%%vskip 0
+P:D
+"A"EA/2A/2EA/2A/2 |\
+"D"FA/2A/2"A"EE |\
+"A"EA/2A/2EA/2A/2 |\
+"D7"F3a |\
+"D7"a3/2b/2af |\
+"A"e3/2f/2ee/2f/2 |\
+"E7"g/2f/2e/2d/2c/2A/2B |\
+"A"A2-A2 |]
+S:https://www.folktunefinder.com/tunes/110187
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

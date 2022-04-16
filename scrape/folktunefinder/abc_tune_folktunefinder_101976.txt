@@ -1,0 +1,25 @@
+X:6078
+T:Garrett Barry's
+S:John B. Walsh
+I:speed 300
+M:6/8
+Z:Seattle.  Fine piping jig. 
+R:jig
+K:DMix
+|:DEF ~G3|AGE c2A|dcA d2e|fed cAG|
+EFF GFG|AGA cde|dcA GEA|~D3 D2:|
+|:A|dcA d2e|fed ege|dcA c2d|ege dcA|
+dcA d2e|~f3 ~e3|dcA GEA|~D3 D2:|
+S:https://www.folktunefinder.com/tunes/101976
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

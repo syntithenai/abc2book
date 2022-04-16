@@ -1,0 +1,20 @@
+X:26
+T:The Minstrel Boy
+R:march
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M:2/4
+L:1/8
+K:D
+|: "D"D3 E | GF ED | F2 A2 | "Bm"d2 cd | "G"B2 A2 | "D"F>G AF | "A7"E4 | "Fine""D" D4:|
+"D"d2 "A"c2 | "Bm"B2 cd | "A"c3 B | A3 A | "Bm"B3 F | F3 F | "G"B2 "A7"c2 | "D"d2 "da Capo" "al Fine"FE ||
+S:https://www.folktunefinder.com/tunes/128865
+S:http://www.alfwarnock.info/alfs/abc/alfmarch.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

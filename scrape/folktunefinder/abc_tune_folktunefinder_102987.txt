@@ -1,0 +1,23 @@
+X: 11
+T:Sweep's Hornpipe, The
+M:4/4
+L:1/8
+H:1837
+S:John Moore of Shropshire
+Z:vmp.John Adams
+K:G
+D2|G2 BG E2 cA | FGAF G2 Bd | dcAc cBGB | ABcA GFED | GABG ABcA | BcdB
+cdef | gfgd ecAF | G2G2G2 :|| Bc| dBdB g2 Bc| dedB G2 Bd | dcAc cBGB |
+ABcA GFED | GABG ABcA | BcdB cdef | gfgd ecAF | G2G2G2:|
+S:https://www.folktunefinder.com/tunes/102987
+S:http://www.kennaquhair.com/tunes/tradtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

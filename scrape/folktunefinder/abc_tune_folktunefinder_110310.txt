@@ -1,0 +1,30 @@
+X:4
+%%pageheight 11in
+%%topmargin 1 in
+%%leftmargin 1 in
+%%staffwidth 6.5 in
+%%botmargin 1 in
+%%-g shrink
+T:Pavan in D Minor
+T:Bass
+C:John Jenkins 1592-1678
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -24
+M:C|
+L:1/4
+K:Dmin bass
+|:d4 ^c2 d2 A3 =B c A d2 A4 B4 F4 G A B c d e f g a4 
+a2 a a d4 e2 f2 c4 ^c4 d4 e4 [E4e4] A4 f6 B B c8 c2 B B A8 [D8d8]:|
+|:a6 e2 f4 e4 a2 A4 [E2=B2] F2 c2 d4 A4 a2 A =B
+c2 F2 [E2c2] F2 c4 F4 B6 F2 G4 d2 A2 B c d e f4 e4 d4 A8:|
+|:z8 z8 z4 e3 ^f ^g2 a2 e8 f4 d4 e2 f2 c B A2 B4 G4 A2 B2 F4 B2 F2 
+c4 F4 z8 z8 d4 e2 f2 g4 a4 A6 =B2 ^c2 A2 d6 c2 B4 A8 [D3d3][Ed] [^F2d2] G2 d8:|
+S:https://www.folktunefinder.com/tunes/110310
+S:http://www.laymusic.org/music/jenkins/pavand/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

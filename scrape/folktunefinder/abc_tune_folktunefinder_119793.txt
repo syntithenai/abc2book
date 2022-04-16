@@ -1,0 +1,26 @@
+X: 55
+T:Manchester Galop
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:G
+B2d|"G"g3 g3|"Bm"f3 f3|"C"e2f gfe|"G"d3 d3|
+"C"c2e edc|"G"B2d dcB|"D"ABc B2A|"G"G3:||
+d2c|"G"BdB G2d|BdB G2d|"C"g2g f2e|"G"d3-d2c|
+BdB G2d|BdB G2B|"Am"A3 A2B|"D"A3 d2c|
+"G"BdB G2d|BdB G2d|"C"g2g f2e|"G"d3-d3|
+"C"c2e edc|"G"B2d dcB|"D"ABc B2A|"G"G3|
+S:https://www.folktunefinder.com/tunes/119793
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

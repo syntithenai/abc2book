@@ -1,0 +1,28 @@
+X: 499
+T: THE HEART BOWED DOWN
+B: O'Neill's 499
+Z: 1999 by John Chambers <jc@trillian.mit.edu>
+N: "Slow"
+N: Collected by "(Balfe)"
+N: First phrase has 10 bars.
+N: Typo: Bar 10 needs D6 rather than D4.
+M: C
+L: 1/8
+K:G
+D2 \
+| B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 d>c ((3AEF) | G4 z2D2 |
+| B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 ^c2({dc}BA) | A2^A2 B2(^cd) \
+| (dF) "rall."(BA) ((3^ABC) HF>E | D4 z2 ||
+|| A2(.A2 .A2.A2) | ((3AGB,) D4 G2 | F2F2 G2(cB) | HA6 D2 |
+| B2(.B2 .B2.B2) | ((3BAD) A4 d2 | d2B2 d2(cA) | _B6 G2 |
+| =B3B c3A | (^d4 He2)(GA) | B3A Hc3B | G4 z2 |]
+S:https://www.folktunefinder.com/tunes/127656
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0487-0500_jc.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0499_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

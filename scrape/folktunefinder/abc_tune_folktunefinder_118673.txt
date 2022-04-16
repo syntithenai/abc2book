@@ -1,0 +1,29 @@
+X:1
+T:An Anglezed Boneto Ruz
+C:Trad. rgion de Lorient, abc file by Bernard Loffet
+L:1/8
+Q:350
+M:4/2
+K:C
+|:[E2A,2][AA,]B[c2A,2][c2A,2][c2A,2][c2A,2][B2G,2][A2D,2]|[c2F,2][B2F,2][A2F,2][c2F,2][BF,]A[GF,]A[B2G,2]G,2:|[E2A,2][AA,]B[c2A,2][c2A,2][B2A,2][A2A,2][G2G,2]G,2| \
+|:[A2A,2][GE,]^F[E2F,2][A2F,2][B2G,2][c2G,2][A2A,2]A,2:| \
+K:G
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/118673
+S:http://diato.ifrance.com/diato/tablat/37.abc
+S:http://diato.ifrance.com/tablat/37.abc
+S:http://diato.org/tablat/37.abc
+S:http://perso.orange.fr/diato/tablat/37.abc
+S:http://perso.wanadoo.fr/diato/tablat/37.abc
+S:http://pro.wanadoo.fr/diato/abc/37.abc
+S:http://pro.wanadoo.fr/diato/tablat/37.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/37.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/37.abc
+S:http://www.diatonique.net/tablat/37.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/2
+% Has_accompaniment_chords No chords

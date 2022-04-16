@@ -1,0 +1,24 @@
+X: 25
+T:Scotsbroome Jig
+% Nottingham Music Database
+S:Mike Richardson 16.12.89, via Phil Rowe
+M:6/8
+Q:3/8=120
+R:jig
+K:D
+A3|"D"d2e fed|"G"BGB "D"A2A|"D"d2e "Bm"fga|"Em"agf "A"e2=f|
+"D"fed AFA|"G"BGB "D"A2A|"D"d2d "A"edc|"D"d3 ::
+DFA |"C"=c3 "G"B3|"D"ABA F2D|"A"EFG GFE|
+"D"DFA d2A|"G"B3 B3|"D"ABA F2D|"A"EFG GFE|"D"D3 :|
+S:https://www.folktunefinder.com/tunes/129914
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

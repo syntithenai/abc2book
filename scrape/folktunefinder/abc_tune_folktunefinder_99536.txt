@@ -1,0 +1,59 @@
+X:7
+T:Qui veut chasser une migraine (suite)
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=135
+K:G
+%%staves [(5 4) (6 7) 8] %%(retirer cette ligne pour avoir la partition sur 4 parties)
+V:4
+G2 G>G A2-A>B | B2 (A>B) A2G2 | G2 A>B E2G2 | F2-F>E E2 z2 ::  
+B2A>G F2-F>G | A>G F>E ^D4 | E>E E>E E2 ^D2 |
+E>F G>A F2 z2 | G>G G>G A2B2 | F>G F>E E2 z2 :|
+V:5
+B2 e>d e2-e>e | d2 (^c>e) d2d2 |c2 e>B A2e2 | B2-B>B e2z2 ::
+e2d>B d2-d>e | f>e d>^c B4 | e>e e>e e2 f2 |
+e>d e>d B2 z2 | e>d B>d e2e2 | B>A B>d e2 z2 :| 
+V:6
+B2 z2 z>B B>B | A2 z2 z>A A>A | c2 z2 z>c c>c | B2B2B2z2 ::
+B2 z2 B2 B>B | A2 z2 A2 A>A | B2 z2 B2 B>B |
+B2 z2 A2 A>A | B2 z2 d2 d>d | A2 A2 B2 z2 :|
+V:7
+E2 z2 z>E E>E | E2 z2 z>E E>E | E2 z2 z>E E>E | F2F2E2z2 ::
+E2 z2 F2 F>F | F2 z2 F2 F>F | E2 z2 F2 F>F |  
+E2 z2 F2 F>F | E2 z2 E2 E>E | F2F2E2z2 :|
+V:8
+K:G bass
+%%MIDI transpose -24
+e2 z2 z>e e>e | e2 z2 z>e e>e | e2 z2 z>e e>e | b2b2e2z2 :|
+e2 z2 b2 b>b | b2 z2 b2 b>b | e2 z2 b2 b>b | 
+e2 z2 b2 b>b | e2 z2 e2 e>e | b2b2e2 z2 :|
+W:Le vin goutt par ce bon pre 
+W:Qui s'en rendit si bon garon
+W:Nous fait discourir tout sans grammaire
+W:Et nous rend savant sans leon
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+W:
+W:Loth, buvant dans une taverne
+W:De ses filles enfla le sein
+W:Montrant qu'un sirop de taverne
+W:Passe celui d'un mdecin
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+W:
+W:Buvons donc tous  la bonne heure
+W:Pour nous mouvoir le rognon
+W:Et que celui d'entre nous meurre
+W:Qui ddira son compagnon
+W:
+W:   L'eau ne fait rien que pourrir le poumon...
+S:https://www.folktunefinder.com/tunes/99536
+S:http://anamnese.online.fr/abc/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

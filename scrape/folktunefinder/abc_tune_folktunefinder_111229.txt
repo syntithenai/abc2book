@@ -1,0 +1,20 @@
+X:2
+T:La Deploration de la morte de Johannes Ockeghem
+T:Altus (line 2)
+C:Josquin des Prez
+Z: Abc transcription from the Musixtex transcription at 
+N: Original Key A phrygian
+M: C|
+L:1/2
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+K:E phr -8va
+e2 e2 A2 d4 d2 e2 c2 d2 d3 e d f > e d c2 d2 c z A2 B2 B2 A2 z D "A"E C E E D2 d2
+S:https://www.folktunefinder.com/tunes/111229
+S:http://www.laymusic.org/music/josquin/deploration/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

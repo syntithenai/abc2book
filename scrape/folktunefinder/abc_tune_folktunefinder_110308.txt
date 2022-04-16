@@ -1,0 +1,38 @@
+X:2
+%%pageheight 11in
+%%topmargin 1 in
+%%leftmargin 1 in
+%%staffwidth 6.5 in
+%%botmargin 1 in
+%%-g shrink
+T:Pavan in D Minor
+T:Alto
+C:John Jenkins 1592-1678
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+N:Original clef, c on second line
+M:C|
+L:1/4
+K:Dmin -8va
+|:f4 e2 f g a3 g/ f/ e2 d2 c2 ^c2 d4 c2 A2 B c d e f4 e4
+e2 e e f2 B4 A2 G4 e2 e e d c =B A ^G2 A a2 =b ^g2 
+a4 a4 f2 g f e4 e2 e e e2 d2 ^c2 d4 ^c2 d8:|
+|:z2 e3 ^f g2 c3 d e4 z2 c4 =B2 A2 G2 F G A =B 
+^c3 d e2 a2 g2 f2 g2 a b c'2 g2 f4 d6 c2
+B A B2 A4 d4 c2 d2 e4 A4 A8:|
+|:^c3 d e2 f2 ^c4 d2 A4 =B A ^G3 A =B2 c d e4 g4 a4 
+f3 f g2 c d e2 c2 d3 c B4 c2 B4 A2 d e f4 e2 f4
+A4 B4 c2 d2 B2 b2 a2 b a g2 f4 e d ^c3 d e4 e2 d2 
+a4 A4 A =B c2 d4 e2 f g a2 e2 ^f3 g a2 g4 ^f e ^f4:|
+S:https://www.folktunefinder.com/tunes/110308
+S:http://www.laymusic.org/music/jenkins/pavand/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

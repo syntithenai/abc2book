@@ -1,0 +1,31 @@
+X: 78
+T:Gallop in Benioshy(). JNu.42
+M:2/4
+Q:50
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Gallop
+O:England
+A:East Lancashire
+N:Wrongly numbered 41 in MS.
+Z:vmp.Chris Partington
+K:G
+"qus".B/.c/|.d.g .B.c|.d.B .d(e/d/)|.c.A .c(c/d/)|.B.G >BB/c/|!
+.d.g .B.c|.d.B de/-d/|cagf|g2z:|!
+|:B/d/|cAa c/e/|dBb B/d/|cAa g/f/|.g.b.d. B/d/|!
+cAa c/e/|dBb B/d/|cagf|g2z:|!
+K:C
+|:G|.e.d.c.B|cG">"e2|dG">"f2|ec gG|!
+.e.d.c.B|cG">"e2|.gGBd|c3:|]
+S:https://www.folktunefinder.com/tunes/127002
+S:http://www.village-music-project.org.uk/abc/nuttall.abc
+% Rhythm Gallop
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

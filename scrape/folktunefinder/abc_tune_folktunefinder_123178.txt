@@ -1,0 +1,24 @@
+X:170
+T: House down the Street (The)
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+K: G
+D|"G"DEG BAB | "Bm7"dBA "C"GEC | "G"DEG Bdg | "Em7"edB "D"A2 F |
+"G"DEG BAB | "C"cBc "D"def | "G"gdB "D"FAd | "G"BGF "G"G2 :|
+A | "Em"Bee gfe | "G"bgb gfe | "G"def "C"gfe | "G"dBd "Em"e2 f |
+"G"gfe dcB | "Am7"ABG "D"FED | "G"GBd "Am6"cAF | "D"AGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/123178
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/h.abc
+S:http://www2.redhawk.org:8080/irish/zouki/h.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

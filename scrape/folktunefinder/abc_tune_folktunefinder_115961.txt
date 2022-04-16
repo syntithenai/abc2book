@@ -1,0 +1,29 @@
+X:12916
+T:Patchwork Polka
+% Nottingham Music Database
+S:Ian Peterson, via PR
+M:2/4
+L:1/4
+K:D
+d/2e/2 |"D"f/2A/2 B/2A/2|F/4A/4A/2 B/2A/2|"D"f/2d/2 d/4e/4f/4a/4|"Em"g e|\
+"A"g/2e/2 e/4c/4c/2|
+"A"c/2A/2 B/4A/4A/2|g/2A/2 c/4A/4A/2|"A7"e/2^e/2 f/2a/2|"D"f/2A/2 B/2A/2|\
+F/4A/4A/2 B/2A/2|"D"f/2d/2 d/4e/4f/4a/4|
+"G"g B|g/2B/2 B/4g/4g/2|"D"f/2A/2 A/4d/4f/4a/4|"A7"g/4e/4c/4e/4 a/2c/2|"D"d d\
+||
+"D"f/2a/2 ^g/4a/4f/4d/4|"D"A/2d/2 "G"B/2A/2|"D"f/2a/2 ^g/4a/4f/4d/4|"A"c c|\
+e/2g/2 f/4g/4e/4c/4|
+"A"A/2c/2 B/2A/2|g/4A/4A/2 a/4A/4A/2|"A7"e/2^e/2 f/2a/2|\
+"D"f/2a/2 ^g/4a/4f/4d/4|"D"A/2d/2 "G"B/2A/2|
+"D"f/2a/2 ^g/4a/4f/4d/4|"G"B B|g/2B/2 B/4g/4g/2|"D"f/2A/2 A/4d/4f/4a/4|\
+"A7"g/4e/4c/4e/4 a/2c/2|"D"d d||
+S:https://www.folktunefinder.com/tunes/115961
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

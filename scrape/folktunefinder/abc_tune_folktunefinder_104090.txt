@@ -1,0 +1,51 @@
+X:3
+T:Courante (suite en La majeur)
+R:Allemande
+C:Robert de Vise
+H:1682
+B:I. livre de guittarre ddi au Roy (1682)
+G:guitare
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/3
+L:1/8
+Q:1/4=105
+%%ABC2TAB:EADGBe
+K:A
+%%staves (1 2 3)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+[ea] | a3  a b2 c'2 !trill!b3 a | !trill![e2g2] e4 (a=g) !trill!g3 [df] |
+[d6f6] [B2e2] e3 f | !trill!d3 c [=A2c2] [c2f2] g3 g |
+{g}a6  =e2 f3f | =g2 z=f e3 !trill!f3 e | [B6e6] e4 z :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+[Ac] | [A4c4e4] z4 [^d2f2] z | B4 x2[c4-e4-][ce] [EA] |
+[D6A6] c6 ^A4 | B4 [F2=A2] [F2A2] [^E4B4c4] |
+[F6A6c6] [=E2=G2B2=e2] [^D4A4B4] | [E2=G2B2] B2 c2 A2 B3 [E^GB] | [E2G2] E2 G2 [E4G4B4] z :|
+V:3
+%%MIDI program 24
+%%MIDI channel 3
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 65 %pan
+x | x12 |
+S:https://www.folktunefinder.com/tunes/104090
+S:http://anamnese.online.fr/abc/visee2.abc
+% Rhythm Allemande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

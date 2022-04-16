@@ -1,0 +1,47 @@
+X:226
+T: Cheshui haozi
+N: C0360
+O: China,Zhejiang, Haining
+S: III, 628, 2)]
+N: Man zaehlt singend, wieviel man schon getragen hat. 3 Personen
+N: singen abwechselnd mit Ueberschneidungen.
+N: Keine echte Zweistimmigkeit. Zwei Personen singen abwechsend, aber
+N: die letzten Toene der jeweils 2 Phrasen umfassenden Teile werden von
+N: beiden gesungen, sie fehlen also am Phrasenanfang. Phr.19-21 unisono.
+N: Vereinzelt Verzierungen.
+R: Haozi, Cheshui haozi. Nongtian cheshui shi chang.
+M: 2/4
+L: 1/16
+K: A
+e2e6 | ecB2A4- | A8
+e2c2c2A2 | e2c2c2B2 | B2A2A8
+e2e6 | ecB2A4
+c2A2B4 | e2c2B4 | B4A8
+e2e6 | ecB2A4
+c2e2c2e2 | F4B2c2 | c2A6z4
+A6B2 | e2e2c2a2 | f2e2c2B2A2F2
+A6B2c2e2 | A4B2c2 | A8z4
+A6B2c2e2 | c2a2a2f2 | e2c2B2A2A2F2
+A6B2 | c3ec2e2 | e2c2c2A2 | B2c2A8
+A6B2 | c2c2e2e2 | c4a4 | f4e2c2 | c2B2A2F2
+A6B2 | c4e4 | A4B2c2 | A8
+A6B2 | c2e2c2e2e2c2 | f2a2a2f2- | f2e4c2- | c2B2A2F2
+A6B2 | c2e2c2e2 | e3cc2A2 | B2c2A2A6
+A6B2 | c2e2c2e2c2e2 | c2eea2f2 | e2c2B2A2F4
+A4z2A2 | c2e2c2e2 | A4B2c2 | A8
+A6B2 | c2e2e2e2 | ceeeeeca | a2f2e2c2 | B2A2F4
+A6B2 | c2e2c2e2 | A4B2c2 | A8
+c2B2c2e2A2F2 | A2B2c2e2A2F2 | c2B2c4B2A2 | A8
+c2B2c2e2A2F2 | A2B2c2e2A2F2 | c2B2c4B2A2 | A8
+S:https://www.folktunefinder.com/tunes/112653
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, cheshui haozi. nongtian cheshui shi chang.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

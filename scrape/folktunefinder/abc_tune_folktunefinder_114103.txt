@@ -1,0 +1,26 @@
+X:37
+T:Rally Around the Flag
+S:CF&D, Vol I, p. 12
+M:4/4
+L:1/8
+Q:1/4=90
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:d>e|.f.f f>e d2 B>c|dd d>c B4|A2 A>G .F.A .d.e|(f4 e2) d>e|
+.f.f f>e d2 B>c|dd d>c B4|A2 A>G .F.A .d.f|(e4 d2)|
+za|a2 f>g a b2 a|a2 f>g a4|aa f>g a b2 a|a2 f>d e2 d>e|
+.f.f f>e d2 B>c|dd d>c B4|A2 A>G FA df|(e4 d)z :|
+S:https://www.folktunefinder.com/tunes/114103
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

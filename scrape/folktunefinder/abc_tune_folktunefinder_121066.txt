@@ -1,0 +1,22 @@
+X:660
+T:Saddle the Pony
+R:jig
+Z:id:hn-jig-13
+M:6/8
+K:G
+GBA G2B|def gdB|GBA G2B|AFD AFD|
+GBA G2B|def gfg|ege dBA|1 BGG G2D:|2 BGG GBd||
+|:efe edB|def gfg|efe edB|dBA ABd|
+efe edB|def gfg|ege dBA|1 BGG GBd:|2 BGG G2D||
+S:https://www.folktunefinder.com/tunes/121066
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/jigs.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

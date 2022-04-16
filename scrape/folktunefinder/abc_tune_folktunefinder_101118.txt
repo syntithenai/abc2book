@@ -1,0 +1,20 @@
+X: 32
+T:Lemmie Brezil's
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+AG | F2A2B2A2 | defd B2 AG | FAdA Bcdf | e2d2e2  AG |
+   | F2A2B2A2 | defd B2 AG | FAdA Bcdf | e2e2d2 :|
+fg | afdf afdA | defd B2 AG | FAdA Bcdf | e2d2e2 fg |
+   | afdf afdA | defd B2AG | FAdA Bcdf  e2e2d2 :|
+S:https://www.folktunefinder.com/tunes/101118
+S:http://www.banjolin.co.uk/tunes/pvs_english.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

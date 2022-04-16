@@ -1,0 +1,34 @@
+X: 116
+T:The traveller
+C:anon.
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 719
+R:Reel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/oneill-1001
+M:C|
+L:1/8
+F:http://trillian.mit.edu/~jc/music/book/oneills/1001/T/Traveller.abc
+N:Posted to the woodenflute mailing list January 2002
+K:G
+D2 "^segno" |G2(BG) dGBG|ABcd cBAG|Bdgd (3(efg) dB|cBAG
+FADF|G2(BG) dGBG|ABcd cBAG|Bdgd (3(efg) dc|
+BGAF G2 H ||(Bd)|({a}g2)(dg) Bgd"^1)"f|gabg agef|g2(dg)
+BgdB|cBAG FADF|({f}g2)(dg) Bgd"^1)"g|gabg agef|gfga gfed (3(efg)
+(fa) gedB "^segno" |]
+W:
+W:1) These two notes should probably be identical. It's hard to
+W:say whether f or g is correct, though.
+S:https://www.folktunefinder.com/tunes/100253
+S:http://trillian.mit.edu/~jc/music/book/oneills/1001/T/Traveller.abc
+S:http://www.lesession.co.uk/music/wf_update2.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

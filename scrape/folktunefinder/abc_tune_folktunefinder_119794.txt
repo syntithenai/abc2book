@@ -1,0 +1,29 @@
+X: 56
+T:Murray River
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:G
+B2c|"G"d3 "D"c3|"G"B3-B2A|G2B A2G|"C"E3-E3|
+c2A "G"B2G|"D"A3-A2G|FGF EFE|"G"D3 B2c|!
+"G"d3 c3|B3-B2A|G2B A2G|"C"E3-E2A/2B/2|
+c2A "G"B2G|"D"A2G F2E|DDD E2F|"G"G3 "D"F2E|!
+"G"DDD G2D|"C"EDE "D"F2E|"G"DDD G2A|B3-B3|
+"C"c2A "G"B2G|"D"A3-A2G|FGF EFE|"G"D3 "D"F2E|!
+"G"DDD G2D|"C"EDE "D"F2E|"G"DDD G2A|B3-B3|
+"C"c2A "G"B2G|"D"A2G F2E|DDD E2F|"G"G3|
+S:https://www.folktunefinder.com/tunes/119794
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,52 @@
+X:44
+T:Comment suige de vostre cueur
+R:
+C:
+S:http://base.kb.dk/ows-img/kbimages/hsk/amour/AMOUR001.jpg
+H:
+N:http://www.kb.dk/elib/mss/amour/chanson-en.htm
+B:Thott 291 8, Chansons d'Amour, 15me s.
+O:France
+A:
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:3/1
+L:1/2
+Q:1/2=110
+K:C
+V:1
+%%MIDI channel 2
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 100 %pan
+%%freegchord 1
+d2d2c2 df2 e/d/ e2 f3/ e/4 d/4 c2 d2 e3/2 d/4 c/4 BA3/ B/c/d/e f3/ d/ d2 "#"cd3f2 |
+ed2cdA>G FE2D2 z
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+%%MIDI control 7 125 %volume
+%%MIDI control 10 30 %pan
+K:C alto
+D2D2C2DF2E/D/E2 D3C2D2 EF2 E/D/C2D3/E/F3/ E/4D/4 CD2FE2D4
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -24
+%%MIDI control 7 125 %volume
+%%MIDI control 10 65 %pan
+%%freegchord 1
+DG3/F/E/D/E2D4 A2B3/c/dc/B/A3
+S:https://www.folktunefinder.com/tunes/104040
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/passeisme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:300
+T:Gan Ainm
+R:Jig
+S:Paddy Cronin, Kerry (fiddle)
+D:Session tape
+N:As played
+H:The rolls in this tune, and in 61 are 'lifted' as discussed above.
+Z:Bernie Stocks
+M:6/8
+K:G
+~G3 ~B3 | ~d3 efg | G2B dBG | ABG AFD | ~G3 ~B3 | ~d3 efg |
+age dBA |1 BGF GzD :|2 BGF GBd || ~g3 efg | ~a3 bge | ~g3 ege |
+dBG AFD | ~g3 efg | ~a3 bge | ~g2e dBA |1 BGF GBd :|2 BGF G3 ||
+S:https://www.folktunefinder.com/tunes/117938
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book2.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:8
+T:Gavotte (suite en La mineur)
+R:Gavotte
+G:guitare
+C:Robert de Vise
+B:I. livre de guittarre ddi au Roy (1682)
+O:France
+Z:<anamnese@caramail.com> -- http://anamnese.fr.st
+M:C|
+L:1/4
+Q:1/4=120
+K:C treble
+%%MIDI transpose -12
+%%staves (1 2)
+V:1
+%%MIDI program 24
+%%MIDI channel 1
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+!lowermordent!c/(c/ d/)e/   |  d>d d !trill!c/>B/          |\
+A (A/=G/) (a/g/) f/e/       |  [d/f/]e/ (d/c/)  !trill!B>A | (^G<A) ::
+[e3/2a3/2] =g/              |  !trill![d/^f/]e/ d g>=f     |\
+!trill!e (d/c/) c'>c'       |  [^fc'] b/a/ !trill!a>g      |
+[B2g2] c'>b                 |  [f2a2] b/(a/ b/)^f/         |\
+!trill![e^g] e a>a          |  [eb] [ec'] !trill![e3/2^g3/2] [e/a/] | [e2a2] :|
+V:2
+%%MIDI program 24
+%%MIDI channel 2
+%%MIDI transpose -12
+%%MIDI control 7 120 %volume
+%%MIDI control 10 45 %pan
+[E2A2] | [A2B2] [E2^G2]     | [E2A2c2] F2  | [D2A2] E2 | [E2A2] ::
+[A3/2^c3/2] z/ | [D2A2]     [D2G2B2d2] |   c2 [G2c2e2] | [Ac] [Gdg] D2 |
+G/(A/ G/)=F/ [G2c2e2] |[A2c2] [d3/2f3/2] z/ | B2[c2e2] | [^Gd] [Ac] B3/2 [A/c/] | [A2c2] :|
+S:https://www.folktunefinder.com/tunes/104099
+S:http://www.icking-music-archive.org/scores/visee/visee_suite_Am.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 125
+T:Behind the Haystack
+R:jig
+Z:id:hn-jig-63
+M:6/8
+K:D
+d2e fdB|d2e fdB|AFE ~E3|AFE EFA|d2e fdB|d2e fdB|AFD ~D3|AFD DFA:|
+|:~B3 BAF|ABc dcB|AFE ~E3|AFE EFA|~B3 BAF|ABc dcB|AFD ~D3|1 AFD DFA:|2 A
+FD D2f||
+|:~g3 faf|ede fdB|AFE ~E3|AFE E2f|~g3 faf|ede fdB|AFD ~D3|1 AFD D2f:|2 A
+FD DFA||
+S:https://www.folktunefinder.com/tunes/107498
+S:http://www.chivalry.com/iband/Iband-feb27-00.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

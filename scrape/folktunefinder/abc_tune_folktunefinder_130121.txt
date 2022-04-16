@@ -1,0 +1,23 @@
+X:13
+T:Chaque enfant est une toile
+C:M.L. Valentin
+M:6/8
+L:1/8
+K:C
+K:Bb
+P:Refrain
+B,CS|:"Sib"D3DCB,|"Fa7"F3zGA|"Solm"B2AG2D|"Rem"F3zFF|"Mib"G2F- FEB,|
+"Sib"D3zDD|[1"Mib"E2DE2F|"Fa"C3zB,C:|[2"Fa7/4"E2D"Fa"C2D|"Sib"B,3||
+P:Couplets
+zGA|"Solm"B3-B AG|"Rem"A3-A zF|"Mib"G3B3|"Sib"F3zGA|
+"Solm"B3-B cd|"Rem"A3-A zF|"Do"G3=E3|"Fa"F3zB,CS||
+S:https://www.folktunefinder.com/tunes/130121
+S:http://moinejf.free.fr/messe/messeC.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

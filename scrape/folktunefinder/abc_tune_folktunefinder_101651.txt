@@ -1,0 +1,27 @@
+X:5753
+T:Gan Ainm
+R:Reel
+S:James Kelly, Dublin (fiddle)
+D:Tape of concert ('You and Yours'), Newtownards, 1983
+N:As played
+Z:Bernie Stocks
+M:4/4
+K:D
+dc || BE~E2 ~B2AF | DF~F2 DEFA | BE~E2 BdAF | DFAF EBdc | BE~E2 BdAF |
+DF~F2 DEFA | B2~B2 {d}BAFA |1 (3BcdAF EBdc :|2 (3BcdAF EFGA ||
+ef{a}ge Be{a}ge | df~f2 afdf | e2ge Bege | dBAF EFGA |
+ef{a}ge Be{a}ge | df~f2 afdf | gf(3efg gbec | dBAF EFGA ||
+S:https://www.folktunefinder.com/tunes/101651
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/g.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/g.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

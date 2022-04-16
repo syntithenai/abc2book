@@ -1,0 +1,21 @@
+X: 1
+T: Atlantic Roar, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3DEF |: G2 GF G2 Gf | gefd e^cAG | F2 FE F2 D2 | G2 GF GDB,D |
+G2 GF G2 Gf | gefd e^cAG | F2 FE F2 DF |1 AB (3AGF GDEF :|2 AB (3AGF GABc ||
+de (3d^ce d2 B=c | (3def ga bgdc | Be (3d^ce d2 =cB | A2 F2 A2 FA |
+de (3d^ce d2 B=c | (3def ga bgdc | (3BdB GB (3AcA FA |1 G2 GF GABc |2 G2 GF G4 :|
+S:https://www.folktunefinder.com/tunes/129081
+S:http://www.thesession.org/tunes/display/3813
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

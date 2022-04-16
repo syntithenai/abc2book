@@ -1,0 +1,33 @@
+X:3
+T: Tenpenny Bit, The (J-3)
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+P: A Dorian
+K: ADor
+| "Am"e2A eAA| "G"BAB GBd| "Am"eAA eAA| "D"def "G"gfg|
+   "Am"eAA eAA| "G"BAB GBd| "Em"edB gBB| "Am"BAA A2 :|
+|:\
+B| "Am"A2a aga| "Em"bge dBG| "Am"A2a aga| "Em"bge g2d|
+   "Am"e2a aga| "Em"bge dBd| edB gBB| "Am"BAA A2 :|
+%%text 4/3/05
+%%newpage
+%%topspace 0
+%%musicspace 0
+%%subtitlespace 0
+%%leftmargin     2.5cm
+%%scale .7
+%%staffwidth     15.50cm
+%%textfont       Times-Bold 18.0
+% ---------- set 49 ----------
+% Roaring Jelly (D) / Kesh Jig (G) / Morrison's (E Dor) / Stan Chapman (A)
+%%textfont       Times-Roman 10.0
+S:https://www.folktunefinder.com/tunes/113244
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

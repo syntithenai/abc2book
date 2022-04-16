@@ -1,0 +1,25 @@
+X:911
+T:Mrs Helen L. MacDonald of Dunach
+S:Fiona Cuthill, Glasgow
+C:W. Lawrie
+Z:Nigel Gatherer
+M:4/4
+K:D
+A>B | d2 A>B d2 f>g | a2 f>g a2 f>d | A>AA>B d2 e>f | g>fe>d B2
+A>B | d2 A>B d2 f>g | a2 f>d A>Bc>d | e2 A>c e>de>f | d6       :|
+g2 | a>Aa>g  f<ad>f | A>AA>B d2 A>d | f>Ad>f a2 g>f | e>cA>c e2
+f>g | a>gf>e d2 A2  | B<dc>B A>Bc>d | e2 A>c e>de>f | d6       :|
+f>e | d<fA>d d<fA>d | f<ag>e d2 A>d | d<fA>d d<fA>d | c<eA>c e>gc>e |
+      d<fA>d d<fA>d | f<af>e d2 c>d | e2 A>c e>gf>e | d6       :|
+f>g | a>fd<A d2 f>g | a>fd<A d2 e>f | g>ec<A c<eA>c | g>ec<A c<ef>g | 
+[1    a>fd<A d2 e>f | a>fd<A d2 c>d | f2 A>c e>gf>e | d6       :| 
+[2    a>gf>e d2 A2  | B<dc>B A>Bc>d | e>cA>c e>gf>e | d6       |]
+S:https://www.folktunefinder.com/tunes/129640
+S:http://www.nigelgatherer.com/tunes/abc/tb19.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

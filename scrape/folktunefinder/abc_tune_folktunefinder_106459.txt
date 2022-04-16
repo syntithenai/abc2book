@@ -1,0 +1,35 @@
+X: 1
+T: All My Loving
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: E
+"A"\
+|: A2G \
+| "F#m"F3 G2A | "B7"Bc2- c2d \
+| "E"e3 e2d | "C#m"c2G- G2c \
+| "A"c3 c2B | "F#m"A2F- F2E \
+| "D"F6- | "B7"F3 A2G \
+|| "F#m"F3 G2A | "B7"B3 c2d |
+| "E"e3 e2d | "C#m"c2G zcc \
+| "A"c3 c2B | "B7"AG2- G2F \
+| "E"E6- | E2z  \
+"B"\
+:: e2d \
+| "C#m"c2G- G3 | "C"G2F E2F \
+|1 "E"G6- | G2z \
+:|2 "E"E6- | E2z :|
+S:https://www.folktunefinder.com/tunes/106459
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/AllMyLoving_E.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

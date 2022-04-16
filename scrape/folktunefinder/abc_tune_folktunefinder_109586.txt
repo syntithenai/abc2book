@@ -1,0 +1,55 @@
+X:1
+%
+T:Almain by John Sturt
+C:ML Lute Book, f. 2v
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:F frenchtab
+%
+[cdda1] :a/,d ,,,,a1 [acd] |\
+[,da,c1] ,,,,a/,,,,,d ,,,,,c1 [,ca] |\
+[,a,,,d1] ,,b/,,d [,a,,,d][,c,,a][,d,,c][a,,,e] |\
+[c/,,a]>d [a,,,a]>c [,dda1] {a}/a |\
+[c,,a/].,d:dc [a,,,a].,c:c.a |
+[,d,,c/].,a:a.,d [,c,,,c].,,a:,d.,c |\
+[,a,,,d/]>,,d,,b/,,d [,a,,,d][,c,,a][,d,,c][a,,,e] |\
+[c,,a/]>d [a,,,a]>c [,dda1] {a} ||\
+[,d,a/]>,c,a/,,d [,a,,,d1] ,,b |
+[da,,,a/]>ca/,d [,c,,a1] ,,d |\
+[f{a}/]>dc/a [c,,a1] [d,,,,c/]c |\
+[a,,,,d/]>,d[,c,,a]>a [,dda1] {a}/a |\
+[,d,a/]>,c,a/,,d [,ab],,a[,,bc],,,a |
+[da,c/]>ca/,d [,c,,a],,,,,d[,,d,,c],,,,,a |\
+[f{a}/]>dc/a c,,,a[d,,,,c]c |\
+[a,,,,d/]>,d[,c,,a]>a [,dda1] {a}/a ||\
+[c,,a/].,d :a//.c:d.c [a,,,a/].,c :,d//.a:c.a |
+[,da,c/].,a :,c//.,d:a.,d [,c,,,c/].,,a :,a//.,c:,d.,c |\
+[,a,,,d/].,,b :,,b//.,,d:,a.,c [,a,,,d/]:,a//.,c[,d,,c/][a,,,e] |\
+[c,,a/]:d//.c [a,,,a/]:c//.a [,d,a/]{a} :c//.d:f.d |
+[c,,a//].,d:a.c :a.c:d.c [a,,,a].,c:,d.a :c.d:c.a |\
+[,d,,c//].,a:,c.,d :a.,d:,c.,a [,c,,,c].,,d:,a.,c :,d.,c:,a.,,d |\
+[,a,,,d//].,,d:,,b.,,a :,,b.,,d:,a.,c
+[,a,,,d//],,d[,a,,a],c [,d,,c],a[a,,,e]d |\
+[c,,a/][d,b//]c [a,d/]:,d//.a :,d/,,,a{a}:,a//.,c ||\
+[,d,a/].,,d :,d//.,c:,a.,,d [,a,,,d/].,,b1 :a/.c |\
+[d,,,,a/].,a :d//.c:a.,d 
+[,c,,a/] .,,d1 :c/.d |\
+[f{a}/].,d :f//.d:c.a [c,,a/].,d [d,,,,c//].c:a.,d |\
+[a,,,,d//].,d:,c.,a [,c,,a3/4],a///,c [,d,a/],,d{a}:,a//.,c |\
+[,d,a//].,c:,d.a [,d{a}].,c:,a.,,d
+[,a,,,d//].,,d:,,b.,,a :,,b/,,,,,c |\
+[d,,,,a//].c:a.c [d,,c].c:a.,d [a,,,a].,d:,c.,a :,,d/,,,,,d |\
+[f,,,,c//].d:c.d [f{a}].d:c.a [c,,a].,d:a.c [d,,,,c].c:a.,d |\
+[a,,,,d//].,d:,c.,a [,c,ca3/2]:,a//.,c [,d,a1] H{a} |]
+%
+W:Remark: Grace sign from the original are omitted
+S:https://www.folktunefinder.com/tunes/109586
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Sturt/almain_sturt.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Sturt/almain_sturt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

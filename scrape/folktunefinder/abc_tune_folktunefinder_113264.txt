@@ -1,0 +1,34 @@
+X: 4
+T: Brenda Stubbert's (R-121, Jerry Holland)
+I: Brenda Stubbert'sR-121A Dorreel
+M: C|
+R: Reel
+K: ADor
+%%textfont Times-Bold 10
+%%text Whistles play top line, trombones play bottom.  But they should occasionally switch.  Fiddles play both lines as octave double-stops.
+%%staves (1 2)
+V:1 up
+B|"Am"A/A/A BA GAAB| A/A/A BA edde| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+  "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA:|
+V:2
+B,|"Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDE| "G"G,/2G,/2G, B,A, B,G,G,B,| "F"[C2G,2]B,A, "G"B,G,G,B,|
+   "Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,:|
+%%text B part on next page!!!
+%%newpage
+V:1 up
+B|: "Am"A/A/A a2 A/A/A g2| Aage ageg| "G"G/G/G BA BGGB| "F"[c2G2]BA "G"BGGB|
+   [1"Am"A/A/A a2 A/A/A g2| Aage agea| "G"gedB GABd| e2dB "Am"eAAB:|2
+   "Am"A/A/A BA GAAB| A/A/A BA edda| "G"gedB GABd| e2dB "Am"eAA|]
+V:2
+B,|: "Am"A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEG| "G"G,/2G,/2G, B,A, B,G,G,B,| "F"[C2G,2]B,A, "G"B,G,G,B,|
+    [1"Am"A,/2A,/2A, A2 A,/2A,/2A, G2| A,AGE AGEA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,B,:|2
+    "Am"A,/2A,/2A, B,A, G,A,A,B,| A,/2A,/2A, B,A, EDDA| "G"GEDB, G,A,B,D| E2DB, "Am"EA,A,|]
+S:https://www.folktunefinder.com/tunes/113264
+S:http://roaringjelly.org/music/sets/Anniv35.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

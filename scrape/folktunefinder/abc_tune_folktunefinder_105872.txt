@@ -1,0 +1,23 @@
+X: 40
+T:The Merry Andrew
+M:C|
+L:1/8
+S:Maggot Pie
+B:The Round Band Book of Playford
+K:Am
+"Am"A3B c2d2 | "Em"e4 "Am"a4 | "C"g2a2 e2g2 | "Bm"^f2gf "Em"edcB | \
+"Am"c3d e2^f2 | "Em"g4 "G"b4 | "D7"a2^f2 "A7"g2e2 | "D"d8 :: \
+"C"e3d cde^f | "G"g3d "Em"g4 | "Am"c3B ABcd | "E7"e3B e4 | \
+"Am"A3G "D"^FGAB | "A"c3d e3"D"^f | "Em"g2d2 d2B2 | "Am"A4 A4 :|
+S:https://www.folktunefinder.com/tunes/105872
+S:http://www.srcf.ucam.org/round/files/rbbop.abc
+S:http://round.soc.srcf.net/round/files/rbbop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

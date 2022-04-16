@@ -1,0 +1,27 @@
+X:123
+T:Steamboat
+M:4/4
+L:1/8
+R:Hornpipe
+N:This needs to be played dotted, not smooth: it's for a step-hop.
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=70
+K:G
+P:A
+|:(3def | "G"g2bg d2gd | "G"BcdB G2AB | "C"c2ec "Am"A2cA | "D7"FGAB cdef |
+"G"g2bg d2gd | "G"BcdB G2AB | "Am"cedc "D7"BAGF | "G"A2G2 G2:|
+P:B
+|:Bc | "G"dBdB g2gd | "Am"ecec a2ag | "D7"fefd "G"gfgb | "A7"agfe "D7"defd |
+"G"g2bg d2gd | "G"BcdB G2AB | "C"cedc "D7"BAGF | "G"A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/110170
+S:http://www.colinhume.com/ABC.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

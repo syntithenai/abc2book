@@ -1,0 +1,18 @@
+X: 1
+T:Annie's Song
+C:John Denver
+M:3/4
+L:1/4
+K:A
+%%staves{RH1}
+V:1 clef=treble
+|a|"A"a g f|"D"a3|"E"g3-|"F#m"g2 f/2f/2|"D"f g a|"A"e c2-|c3-|c2 e/2e/2
+S:https://www.folktunefinder.com/tunes/120462
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/anniessonga.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

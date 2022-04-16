@@ -1,0 +1,24 @@
+X:13132
+T:Piloune - bourree
+C:Frederic Paris
+Z:abc transcription Simon Wascher
+N:please mail errors to: simon.wascher@chello.at
+M:2/4
+L:1/8
+K:Gm
+G3/2^F/2 GA|^F3G|A3/2G/2 AB|A4|G3/2^F/2 GA|
+^F3/2G/2 Ac|B3/2G/2 A^F|G4:|
+|:B3/2c/2 dB|A3/2B/2 cA|G3/2d/2 cB|B2 A2|
+B3/2c/2 dB|A3/2B/2 cA|G3/2c/2 B^F|A2 G2:|
+S:https://www.folktunefinder.com/tunes/116177
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/p-q.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/p-q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

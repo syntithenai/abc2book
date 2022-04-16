@@ -1,0 +1,37 @@
+X:8
+T:Villeman
+C:Trad.
+N:Les paroles ne sont pas encore dans le bon ordre...
+D:Storm "Nordavind"
+O:Norge - Norway - Norvge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=120
+K:Eb
+ F2 F>G A3/2G/ | F>=E F2c2 | c4 f2 |\
+ c2 c>c B3/2A/ | A3/2B/ B2c2  | c4 B2 |
+ B3/2c/ A2 A>F | G2 G2 A2-| A2 A>B G2 |\
+ G>A F2 F>E | E2 F2 F2-| F2 z4 |]
+W:Villemann gjeng'e for straumen aa staa,
+W:Hei fagraste lindelauvet alle
+W:Meistarleg kunna han gullhorpa slaa 
+W:For dei runene dei lystede aa vinne
+W:
+W:Han leika med lempe, han leika med list :
+W:fuglen daana paa ville kvist.
+W:
+W:Han leika med lempe, han leika med gny :
+W:De gjallar i berg, og de rungar i sky
+W:
+W:Han leika med vreie og leika med harm,
+W:Han leika Magnill av nykkjens arm.
+S:https://www.folktunefinder.com/tunes/112130
+S:http://anamnese.online.fr/abc/scandinavia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

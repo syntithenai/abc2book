@@ -1,0 +1,26 @@
+X:112
+T:Loch Rannoch
+O:scotland
+R:Pipe march
+M:6/8
+K:Amix
+P:Voice I
+A2c e2f|a2f ef2|A2c e2f|e2c cB2|\
+A2c e2f|a2f ef2|A2c e2c|cB2 A3::
+f2g a2g|f2e ce2|f2e a2c|B2A Bc2|\
+e2c a2e|f2a fe2|A2c e2c|cB2 A3:|
+P:Voice II
+A2A c2d|f2d cd2|A2A c2d|c2A AG2|\
+A2A c2d|f2d cd2|A2A c2A|AG2 A3::
+d2e f2e|d2c Ac2|d2c f2A|G2A GA2|\
+c2A f2c|d2f dc2|A2A c2A|AG2 A3:|
+S:https://www.folktunefinder.com/tunes/100404
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/scotland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/scotland.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

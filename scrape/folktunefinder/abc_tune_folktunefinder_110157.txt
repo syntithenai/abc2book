@@ -1,0 +1,30 @@
+X:110
+T:Saint Louis
+%%MIDI gchord GIgIHI
+%%MIDI beat 100 95 80
+C:Colin Hume, 2007
+N:The trills in bars 1 and 5 are to be followed by grace notes G and F#.
+M:3/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=100
+L:1/4
+K:G
+%%MIDI program 54
+P:A
+|:"G"G2B2 "D/F#"TA2 | "Em"G3 G "G/D"AB | "C"c2e2 "Am"c2 | "G/D"B2 "D"A4 |\
+"Em"G2 B2 "D"TA2 | "C"G3 G "G/B"AB | "Am"cBAEFG | "D"A3 G "G"G2 :|
+P:B
+|: "D7"d2f2 "B7/F#"a2 | "Em"g3 fed | "C"e3/2 f/2 gfed | "Am"c3/2 d/2 edcB |\
+"D"A2d2 "B7/D#"BA | "Em"G2 B2 "Em/D"GF | "C"EGed "Am"cB | "D7"A3 G "G"G2 :|
+S:https://www.folktunefinder.com/tunes/110157
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

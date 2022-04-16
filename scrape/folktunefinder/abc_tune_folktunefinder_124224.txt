@@ -1,0 +1,32 @@
+X:5441
+T:Foster's Hornpipe. BF13.046
+M:4/4
+L:1/8
+Q:160
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Hornpipe
+O:England
+A:Lakes
+N:
+N:reason to suppose is copied from the original MSs, although at present
+N:we have not had the opportunity to check it's accuracy. CGP..
+Z:vmp.Chris Partington.
+K:A
+E2|A2A2Acec|B2B2Bdfd|E2E2EFGA|BcdB AGFE|!
+A2A2Acec|BABc dcde|fefd cBAG|A2A2A2::!
+cd|ecAc egae|fgaff2e2|EFGA Bcde|fdBA AGFE|!
+CEAc dcBA|GABc dcde|fefd cBAG|A2A2A2:|]
+S:https://www.folktunefinder.com/tunes/124224
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

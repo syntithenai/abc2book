@@ -1,0 +1,25 @@
+X:3
+T:XVII. A shepheard in a shade
+C: John Dowland
+H: From The Second Booke of Songs or Ayres of 2. 4. and 5. parts: 
+H: with Tableture for the Lute or Orpherian, with the Violl de Gamba.
+M:C
+L:1/4
+%%MIDI nobarlines
+T:Tenor
+N: Original clef C on third line
+%%MIDI transpose -12
+K:Gmixolydian -8va
+%1
+|:G > A   B    c    d2 c2 B2    A2  G3    G     d > c  B A G2 ^F2 G3 d d e ^f g a
+S:https://www.folktunefinder.com/tunes/111004
+S:http://www.laymusic.org/music/dowland/shepherd/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

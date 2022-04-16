@@ -1,0 +1,24 @@
+X:585
+T: Thieving Magpie HP
+S: "Roche Collection of Traditional Irish Music" [III/60/171]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+(3ABc | d2 cA BGED | CDEF GBAG | FAdA FAdf | edcB Agfe |
+d2 cA BGED | CDEF GBAG | FAdc BGEC | D2 DE D2 :|
+ed | ceae ceae | dfaf dfaf | Acec Acef | edcB AGFE |
+DCDE FGAF | GFGA BcdB | ABAG FGEC | D2 DE D2 :|
+S:https://www.folktunefinder.com/tunes/107746
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/roche.abc
+S:http://www2.redhawk.org:8080/irish/zouki/roche.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

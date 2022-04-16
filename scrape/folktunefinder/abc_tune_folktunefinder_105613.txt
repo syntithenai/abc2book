@@ -1,0 +1,22 @@
+X:58
+T:Leazes Hopping
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+g2g g2e | dBG GBG | g2g g2e | 
+aba agf | g2g g2e | dBG GAB | 
+GAB g2e | dBG  G3 :: ded dBd | 
+cAc GAB | ded dcB | cdc ABc | 
+ded dBd | cec GAB | GAB g2e | dBG G3 :|
+S:https://www.folktunefinder.com/tunes/105613
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

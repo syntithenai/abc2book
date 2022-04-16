@@ -1,0 +1,25 @@
+X: 2
+T:Lemonville Jig
+M:6/8
+Q:3/8=120
+R:jig
+L:1/8
+K:D
+fg|"D"a>ba afd|"D"f>gf fdA|"D"d>ed dAF|"Em"(G3 e2)f|"A"g>ag gec|
+"A"e>fe ecA|"A"cBA gfe|"D"f3- f2g|"D"a>ba afd|"D"f>gf fdA|
+"D"d>ed def|"G"(B3 e2)f|"A"g>ag gec|"A"e>fe ecA|"A"cBA gfe|"D"d3-d||
+AG|"D"FGA "A7"ABc| "D"d>ed def|"G"g>ag gfe|"E"B3- Bed|"A"cea aed|
+"A"cea aed|"A"cea gfe|"D"f3- "A"fAG|"D"FGA "A7"ABc| "D"d>ed def|
+"G"g>ag gfe|"E"B3- Bed|"A"cea aed|"A"cea aed|"A"cea gfe|"D"d3-d||
+%%newpage
+S:https://www.folktunefinder.com/tunes/129891
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/jigs.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

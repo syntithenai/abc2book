@@ -1,0 +1,17 @@
+X:1
+T:America the Beautiful
+M:4/4
+L:1/4
+K:Db
+ A| A3/2 F/2 F A| A3/2 E/2 E F| G A B c| A3| A| A3/2 F/2 F A| A3/2 E/2 E e|\
+ =d e f B| e3| A| f3/2 f/2 e d| d3/2 c/2 c d| e c B A| d3| d| d3/2 B/2 B d|\
+ d3/2 A/2 A A| B d A e| d3||
+S:https://www.folktunefinder.com/tunes/113671
+S:http://back.numachi.com:8000/dtrad/abc/AMBEAUT1.2.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/AMBEAUT1.2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

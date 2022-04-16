@@ -1,0 +1,39 @@
+X: 10
+T:Dewis Meinwen
+T:The Fair One's Choice
+M:3/4
+L:1/8
+Q:180
+C:Trad
+S:51 Welsh Airs
+R:Minuet
+A:Wales
+H:From a facsimile c.1840: A Choice Collection of Fifty-One Welsh Airs
+H:adapted for The Harp, Piano-Forte, Harpsichord,
+H:Violin, or Flute by Edward Jones
+H:"Harper to His Late Majesty King George IV, when
+H:Prince of Wales".
+Z:brian_martin12345@yahoo.com
+K:F
+cB|{AB}A4G2|FGABcA|(B3c)dB|cBABcA|(G3A)BG|AGFGAF|{A}G2F2E2|F4:||!
+G2|(c3B)Ac|G2F2E2|({FG}F4{EF}G2)|FGABcA|
+B2G2G2|A2=B2c2|F>d c2=B2|(c3d)_e2|!
+d2-d>_ec>d|B2-B>cA>B|G2G>AF>G|E2EFGE|FGAB c2|B2dBcA|GBAFGE|F4:||
+S:https://www.folktunefinder.com/tunes/109480
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EJones.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/msg/ejones.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/DewisMeinwen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/EdwardJones/FairOnesChoice.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/DewisMeinwen.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/EdwardJones/FairOnesChoice.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/DewisMeinwen.abc
+% Rhythm Minuet
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

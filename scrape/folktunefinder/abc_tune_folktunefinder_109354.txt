@@ -1,0 +1,30 @@
+X: 5
+T: Greenwood Tree, The
+I: Greenwood Tree, TheW-3Dwaltz
+C: W-3
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: waltz
+K: D
+A2| "D"f2 f2 e2| d4 cd| "G"B4 cB| "D"A2 F2 FG|\
+    A2 AB AF| A2 d2 e2|1 f3 e d2| "A"e4:|2 "D"f3 "A7"g ec| "D"d4|]
+\
+F2| "G"B4 Bc| d2 d2 F2| d4 cB| "D"A2 F2 FG|\
+    A2 AB AF| A2 d2 e2| f3 e d2| "A7"e4 A2|
+    "D"f2 f2 e2| d4 cd| "G"B4 cB| "D"A2 F2 FG|\
+    A2 AB AF| A2 d2 e2| "D"f3 "A7"g ec| "D"d4|]
+%%text 9/1/98
+% ---------- page 3 ----------
+S:https://www.folktunefinder.com/tunes/109354
+S:http://roaringjelly.org/music/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Waltz.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Waltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

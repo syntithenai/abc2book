@@ -1,0 +1,27 @@
+X: 1
+T: Ale is Dear
+T: Maighstir Ord
+N: Fiddlers  Five  CD 7, as trad, follows Spootiskerry, Scots Guards #341, Logan's p.33
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: BDor
+|: "Bm"{e}~f2ef B2ce | "A"faea cAce | "Bm"~f2ef B2ce | "F#m"faec "Bm"B4 :|
+|| "Bm"{A}~B2Bc d2cB | "A"cAAB ABcA | "G"{A}~B2Bc d2cB | "F#m"f2{a}ec "Bm"B4 ||
+|| "Bm"{A}~B2Bc d2cB | "A"cAAB ABcA | "D"~d2fd "A"~c2ec | "F#m"f2{a}ec "Bm"B4 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/99897
+S:http://trillian.mit.edu/~jc/music/book/500/AleIsDear_x.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

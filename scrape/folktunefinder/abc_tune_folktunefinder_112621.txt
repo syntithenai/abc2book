@@ -1,0 +1,32 @@
+X:194
+T: Fanshen duokui gongchan dang
+N: C0317
+O: China,Jiangsu, Xinghua
+S: III, 425]
+N: Enthaelt einige Elemente der Xiaodiao.
+N: Man singt bei der Feldarbeit mit Vorsaenger.
+R: Shange, Yangtian ge, geligesanduo. Nongtian laodong shi chang.
+M: 2/4
+L: 1/16
+K: D
+A4B4 | d2B6- | B8
+A4B2d2 | A2B2A2F2 | F2E2D4
+A2A2B2B2 | d4A4 | F2F2E4 | D8
+d3dd2F2 | A4A2B2
+d3dd2F2 | A8
+A3Bd4 | e2fed2A2 | B2d2BAF2 | A8
+A2F2A2B2 | d8
+A2B2F2E2 | D8
+E3FA2A2 | d2B2A2E2 | F2A2F2E2 | D8
+S:https://www.folktunefinder.com/tunes/112621
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Shange, yangtian ge, geligesanduo. nongtian laodong shi chang.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

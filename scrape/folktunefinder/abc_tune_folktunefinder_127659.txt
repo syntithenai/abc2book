@@ -1,0 +1,20 @@
+X:1
+T:As Time Goes By
+M:4/4
+L:1/8
+K:Eb
+ G| AG F E2 F3| GB AG F A3| Be dc B c3-| c3 z2 z| d| fe dc d2 e2| B2 B2 E2 F2|\
+ G8-| G6 z G| AG FE F3 G| BA GF A3 B| ed cB c4| z4 z2 z d| fe dc d2 e2|\
+ B2 B2 E2 F2| E8-| E4 z4| E F3/2 E/2 c3 c2| c_d c=B c4| FG F c3 c2|\
+ c_d c=B c4| GA G e3 e2| ed ed f2 d2| c2 c2 G2 G2| B6 z G| AG FE F F2 G|\
+ BA GF A A2 B| ed cB c4| z6 d2| fe dc d2 e2| B2 B4 G2| B4 B4| e6 z2|\
+S:https://www.folktunefinder.com/tunes/127659
+S:http://back.numachi.com:8000/dtrad/abc/ASTIMEGO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

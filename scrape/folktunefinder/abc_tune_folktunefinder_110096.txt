@@ -1,0 +1,40 @@
+X:49
+T:Heidi's Waltz
+%%subtitlefont Times-Roman 28
+C:Dave Brown / Colin Hume, 1993
+%%MIDI beat 100 95 80
+Q:1/4=120
+M:3/4
+L:1/4
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+S:First tune by Dave Brown.  Second tune by Colin Hume.
+K:D
+[| (f/2g/2) | "D"a2 (A/2d/2) | "D/C#"f2 ((3D/2F/2A/2) | "Bm"B3/2d/2 f | "A7"e2 (f/2g/2) |\
+"D"a2 (A/2d/2) | "D/C#"f2 ((3D/2F/2A/2) | "G"G3/2A/2 B | "A7"A2 (f/2g/2) |
+"D"a2 (A/2d/2) | "D/C#"f2 ((3D/2F/2A/2) | "Bm"B3/2d/2 f | "A7"e2 A |\
+"D"d/2<f/2-f A | "G"B/2<d/2-d D | "A7"G/2<B/2-B E | "D"D2 E/2F/2 |
+"Em"(G/2E/2) (A/2E/2) (B/2E/2) | "D"d2 B | "Bm"(A/2G/2) (F/2E/2) .D/2.F/2 | "Em"E2 (E/2F/2) |\
+"Em"(G/2E/2) (A/2E/2) (B/2E/2) | "D"d2 B | "Em"(A/2B/2) (c/2d/2) (e/2f/2) | "A7"g2 (f/2g/2) |
+"D"a2 (A/2d/2) | "D/C#"f2 ((3D/2F/2A/2) | "Bm"B3/2d/2 f | "A7"e2 A |\
+"D"d/2<f/2-f A | "G"B/2<d/2-d D | "A7"G/2<B/2-B E | "D"D2 |]
+%%subtitlefont Times-Roman 28
+T:Laurie's Waltz
+K:G
+[| d/2e/2 | "G"d2 B/2c/2 | "Bm"B2 A/2B/2 | "Am"A G3/2E/2 | "D"D2 G/2A/2 |\
+"G"B3/2A/2 B | "Bm"dBd | "Em"e3/2d/2 B | "D"A2 d/2e/2 |
+"G"d2 B/2c/2 | "Bm"B2 A/2B/2 | "Am"A G3/2E/2 | "D"D2 D | \
+"C"E3/2F/2 G | "Bm"dBD | "Am"E3/2G/2 "D7"F | "G"G2 d/2e/2 |
+"Dm"=f3/2e/2 d | "A/C#"e A2 | "Cm"_e3/2d/2 c | "G/B"d G2 |\
+"Am"c3/2B/2 A | "Em"A B3/2G/2 | "C"E3 | "D"D2 d/2e/2 |
+"G"d2 B/2c/2 | "Bm"B2 A/2B/2 | "Am"A G3/2E/2 | "D"D2 D |\
+"C"E3/2D/2 C/2B,/2 | "D"A,2 G, | "G"G,3- | "G"G,2 |]
+S:https://www.folktunefinder.com/tunes/110096
+S:http://www.colinhume.com/ABC.txt
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

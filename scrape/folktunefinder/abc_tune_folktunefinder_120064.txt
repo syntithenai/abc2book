@@ -1,0 +1,31 @@
+X: 5
+T:The Peddlar's Punch
+R:Reel
+C:Ed Reavy
+S:The Collected Compositions of Ed Reavy
+M:2/2
+L:1/8
+Z:Joe Reavy
+N:The Peddlar's Punch. Ed likes a title that 
+N:can be taken in more than one way. In this one 
+N:you don't know which punch of the peddler 
+N:is the most lethal. He might pack quite a 
+N:wallop if you cross him, but take just one good sup 
+N:of his poteen and you'll be lucky if you 
+N:don't take total leave of your senses.
+K:G
+df|G2 BF DGBF|=F2 f CFAF|G2 GB DGBc|dgfd (3cBA FA|
+G2 BF DGBG|=F2 [FA]F CFAF|GABc (3dcB (3cBA |1 GBAF DGGF:|
+2 GBAF DGGA||B2 gefdcB|A=f (3fefABCA|G2 ge fd^cd|
+gfga gfdc|Bdge fdcB|A=f (3fef ABcA|GABc defa|gbag fdcA:||
+S:https://www.folktunefinder.com/tunes/120064
+S:http://www2.redhawk.org:8080/irish/Reavy/Reavycom.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:534
+T: Na you xiankong hui niangjia
+N: C1173
+O: China,Hubei
+S: Zhongguo Minge Jing Xuan, S. 137]
+N: 4 Strophen sind verschieden lang!!
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: D
+d3eded2 | deA4d2 | d2dfe4
+d2F2A2AF | A2A4EF | ABEFA4
+A3ddeF2 | A2AdA2AF | A2F2A4d4 | F2A4F2 | FEDFE4
+d3eded2 | deA4d2 | d2dfe4
+d2F2A2AF | A2A4F2 | ABEFA4
+d3dFAFA | dFA2A2AF | A2F2A4d4 | F2A4FE | FEDFE4
+dddfe4 | dedeA4
+d3dFAFA | dfA2A2AF | A3FA4d4 | F2A4FE | FEDFE4
+A2ddded2 | deA4d2 | d2dfe4
+d3FA2AF | A2A4EF | FAEFA4
+A3ddeF2 | A2AdA2AF | A2F2A4d4 | F2A4FE | DEDFE4
+d3eded2 | deA4d2 | d2dfe4
+d3FA2AF | A2A4EF | ABEFA4
+A3ddeF2 | A2A3dFF | A2F2A4d4 | F2A4F2 | FADFE4
+dddfe4 | dedeA4
+A3ddeF2 | A2A2AdFF | A3FA4d4 | f2f4a2 | fadfe4
+S:https://www.folktunefinder.com/tunes/112961
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

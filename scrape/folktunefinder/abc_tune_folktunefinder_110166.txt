@@ -1,0 +1,53 @@
+X:119
+T:Spring Blossom counter-melodies
+C:Colin Hume, 2008
+L:1/4
+M:2/2
+S:Colin Hume's website,  www.colinhume.com  - chords can also be printed below the stave.
+Q:1/2=86
+K:Am
+V:1 name=Piano
+%%MIDI program 1
+%%MIDI gchord fc
+P:A
+[| E | "Am"c3 E | "Em/G"B3 E | "F"AGFA | "Gsus"G2-"G"GE | "Am"e3 A | "Dm"d2ed | "B7/D#"cBAc | "E"B2-"E7"BE |
+V:2 name=Flute
+%%MIDI program 74
+[| !mp! z | c/d/e cz | B/c/d Bz | A/B/c Ac | d4 | c/d/e cB | A2 G2 | ^F/G/A F2 | ^G/A/B AG |
+V:3 name=Fiddle
+%%MIDI program 74
+[| !mp! z | A/B/c Az | G/A/B Gz | F/G/A FA | c2 B2 | A/B/c AG | F2E2 | ^D/E/^F D2 | E/^F/^G FE |
+%%vskip 0
+P:B
+V:1
+"Am"c3 E | "Em/G"B3 E | "F"edce | "D/F#"d3c | "G"BcdD | "C"E2^FG | "Am"ABcE | "Dsus"^F2-"D7"F2 |
+V:2
+c/d/e cz | B/c/d Bz | AB c2 | ^FG A2 | B4 | c2 AB | c4 | e2 dc |
+V:3
+A/B/c Az | G/A/B Gz | FG A2 | DE ^F2 | G4 | G2AB | A4 | c2BA |
+%%vskip 0
+P:C
+V:1
+"Em"G^FGB | "Bm"d2B2 | "Am"A3G | "D7"E2^F2 | "Em"G^FGB | "Bm"d2B2 | "C"e2 "(A/C#)"g2 | "D"^f2-"(B7/D#)"f2 |
+V:2
+B2 AG | ^F4 | c/d/e cz | c/d/e cz | B2 AG | ^F4 | G4 | A4 |
+V:3
+G2 ^FE | D4 | A/B/c Az | A/B/c Az | G2^FE | D4 | E4 | ^F4 |
+%%vskip 0
+P:D
+V:1
+"Em"g^feB | "Am"c3e | "Dm"=fedA | "E7"B4 | "Am"cBce | "Dm"dcBA | "E7"B3A | "Am"A3 |]
+V:2
+B4 | ed cB | A4 | BA ^GF | E4 | F2 GA | A2 ^G2 | A3 |]
+V:3
+G4 | cB AG | =F4 | ^G^FED | C4 | D2 EF | E2D2 | C3 |]
+S:https://www.folktunefinder.com/tunes/110166
+S:http://www.colinhume.com/ABC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

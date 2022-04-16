@@ -1,0 +1,26 @@
+X: 13
+T:Barren Rocks of Aden, The
+M:4/4
+L:1/8
+Q:120
+R:March
+K:D
+d/2e/2|"D"f>g fe df Ad|"A"ce Ae "D"fA de|f>g fe df Ad|"A"ce Ae "D"d3::!
+f/2g/2|"D"a>f df "A"eg A e/2f/2|g>e ce "D"df A f/2g/2|
+a>f df "A"eg A e/2f/2|ge cA "D"d2 f>g|!
+a/2f/2d/2f/2 a/2f/2d/2f/2 "A"eg A e/2f/2|
+g/2e/2c/2e/2g/2e/2c/2e/2 "D"df A f/2g/2|
+a/2f/2d/2f/2 a/2f/2d/2f/2 "A"eg A e/2f/2|ge cA "D"d3|
+S:https://www.folktunefinder.com/tunes/119751
+S:http://crash.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celticl.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celticl.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celticl.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

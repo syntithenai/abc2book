@@ -1,0 +1,22 @@
+X:120
+T:Queen of the Rushes
+Z: id:dc-jig-103
+M:6/8
+L:1/8
+K:D Major
+G|F2D DCD|G2E EDE|F2D DCD|GED CDE|!
+F2D F2D|G2E EDE|FAF GEC|EDC D2:|!
+B|=c2A B^cd|ecA AGE|dcd fed|ecA A2B|!
+=c2A B^cd|ecA AGE|FAF GEC|EDC D2:|!
+F|A3 dAF|A3 dAF|GFG EDE|=cBc EFG|!
+A3 dAF|A3 dAG|FAF GEC|EDC D2:|!
+S:https://www.folktunefinder.com/tunes/128587
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

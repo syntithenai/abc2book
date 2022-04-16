@@ -1,0 +1,22 @@
+X: 33
+T:Tobin's Favourite
+M:6/8
+L:1/8
+R:Double Jig
+K:D
+A[|:DFA dcd|ecA cde|fdf gfg|ecA GFE|!
+DFA dcd|ecA efg|f/2g/2af gec|edc d2A:|!
+|:dfa agf|efg efg|fdf gfg|ecA GFE|!
+DFA dcd|ecA efg|f/2g/2af gec|edc d2A:|]!
+S:https://www.folktunefinder.com/tunes/125502
+S:http://www.geocities.com/novairishsession/bw/bwdjigs.txt
+S:http://www.novasession.com/bw/bwdjigs.txt
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

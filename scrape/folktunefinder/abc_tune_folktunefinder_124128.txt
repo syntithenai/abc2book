@@ -1,0 +1,25 @@
+X:5345
+R:Reel
+T:Flop-Eared Mule
+M:2/4
+L:1/16
+K:D
+A2|^e2f2 c2d2|ABAF D2F2|EDEF GECE|DEFG A4|
+^e2f2 c2d2|ABAF D2F2|EDEF GABc|d2f2 d2:|
+K:A
+cd|efec efec|efec A2c2|BABc dBGE|ABcd e2cd|
+efec efec|efec A2c2|BABc defg|[c2a2][c2a2] [c2a2]:|
+S:https://www.folktunefinder.com/tunes/124128
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

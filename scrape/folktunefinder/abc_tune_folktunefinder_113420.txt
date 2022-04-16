@@ -1,0 +1,24 @@
+X:4
+T:Tramp! Tramp! Tramp!
+% Four-part piano arrangement for standard notation.
+C:G.F.R./Geo. F. Root
+S:Source "The One Hundred and One Best Songs" - The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=100
+%%staves [(1 2) (3 4)]
+K:Bb
+V:1 clef=treble
+F > E | D > F B > c B2 B > A | G > B B > G F2 F > E |
+S:https://www.folktunefinder.com/tunes/113420
+S:http://www.guitarnut.com/folktablature/the101bestsongs/101best.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/101best.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

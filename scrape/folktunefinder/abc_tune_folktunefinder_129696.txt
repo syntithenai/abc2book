@@ -1,0 +1,27 @@
+X:11
+T:Rothemurches Rant
+R:strathspey
+C:traditional
+O:18th century Scottish
+B:Bremner's Collections, 1757
+N:melodic code 3135 1H61H6
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C
+K:C
+G|(TE>DE)C E<G G2|c>GA>G c>GA<c|(TE>DE)C E<G G2|A>cG>c E<DD:|
+|:f|Te2 d>e d>ed>A|c>de>d c>Ac>G|A/A/A a>g Te2 dc|A>cG>c E<DD:|
+|:g|e>gg>a g>aTg>e|e>(aa>)b a>ba>g|e>gd>e c>de>c|e>a(Tg>e) d/d/d d:|
+|:g|Te2 d>c d<e a2|g<e ed Tc2 A>c|G>Ac>d Te2 d>c|A>cG>c E<DD:|
+S:https://www.folktunefinder.com/tunes/129696
+S:http://www.cranfordpub.com/tunes/abcs/Bremner.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

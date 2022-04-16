@@ -1,0 +1,23 @@
+X:11
+T: Cassandra Bransle
+M:C|
+L:1/2
+K:C
+V:1
+c2 c c c2 c2 | d/ e/ f c d A2 A2 :|
+|: f2 d d e2 c c | d d c d A > B c c |
+F2 F2 | G/ A/ =B G A D2 D2 :|
+V:2
+K:C bass
+L:1/2
+%%MIDI transpose -24
+f2 f2 f2 f2 | d2 _b2 f2 f2 :|
+|: d2 d2 a2 a2 d2 d2 a2 a2 f2 f2 g2 d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/124477
+S:http://www.laymusic.org/music/dance/arbeau.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

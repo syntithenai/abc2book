@@ -1,0 +1,25 @@
+X: 1
+T: Hare in the Corn, The
+I: Hare in the Corn, TheJ-51Gjig
+M: 6/8
+R: jig
+K: G
+Bc| "G"d2B G2B| ded "C"cBA| "G"BAG "C"EDB,| EDB, "D"A,B,A,|
+    "G"G,B,D G,B,D| "C"EFG "D"Adc| "G"B2G dBG| "D"cAF "G"G:|
+|:Bc| "G"ded BGB| def g2e| "C"edB "G"gdB| gdB ABA|
+    "G"GBd GBd| "C"bag "D"(4efge| "C"edB "G"gdB| "D"cAF "G"G:|
+%%text Roaring Jelly  J-51
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/107122
+S:http://roaringjelly.org/music/RJ_AllSets_20080703.abc
+S:http://roaringjelly.org/music/sets/RJ_AllSets_20080703.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/RJ_AllSets_20080703.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

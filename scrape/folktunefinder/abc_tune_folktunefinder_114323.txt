@@ -1,0 +1,37 @@
+X:24
+T:Polska e. Griv Juga (Orsa)
+Z:2000 Brian Wilson  (from Nothafte)
+M:3/4
+L:1/8
+K:Dmi
+u(A \
+| d3/2)e/ f2 d>e \
+| c2 A2 (3A=BA \
+| D3/2E/ (F/E/)F/G/ AG \
+| F2 E3 (c \
+| d3/2) e/ f2 d>e \
+| c2 A3 (A \
+| d3/2)e/ (f/e/)f/g/ a>g \
+| f2 e4- \
+| e2 e4 ||
+P:B
+|: e2 g/a/g/f/ ed \
+| (f/e/)f/g/ aa ^c2 \
+| d2 g/a/g/f/ ed \
+| (f/e/)f/g/ a3 g \
+|[1 =bg/b/ a3 g \
+| f2 e4- \
+| e2 e4 \
+:|[2 f/e/f/g/ a>f d>e \
+| ^c2 d4 |]
+S:https://www.folktunefinder.com/tunes/114323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/20001114.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PolskaEGrivJugaOrsa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

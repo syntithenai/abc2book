@@ -1,0 +1,23 @@
+X:700
+T:Eight Men of Moidart
+S:As played by Adam Rennie on a 78rpm
+Z:Nigel Gatherer
+M:2/4
+L:1/8
+K:A
+g    | a/g/f/e/ ae | c2 Ae/d/ | c/d/e Ae | cB       Bg |
+       a/g/f/e/ ae | c2 Ae/d/ | c/d/e Bd | cA       A :|
+e/d/ | cA       eA | fA eA    | cA    eA | f/e/d/c/ B
+e/d/ | cA       eA | fA eA    | c/d/e Bd | cA       A :|
+S:https://www.folktunefinder.com/tunes/103464
+S:http://nigelgatherer.com/tunes/abc/tb14.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb14.abc
+S:http://nigelgatherer.com/tunes/abc/abc9/8menm.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc9/8menm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:478
+T: Taigong Haozi
+N: C0000
+O: Asien, Ostasien, China, Sichuan
+S: Haozi - Artikel, Essen 1991]
+N: Die Phraseneinteilung wurde hier nach funktionalen Kriterien
+N: vorgenommen; jeweils: Frage - AUFTAKT= Antwort = Vorsnger - Alle.
+N: Die Phrasen 1 bis 8 werden wiederholt.
+N:  Die Phrasenenden wurden so gekrzt, da keine berlappungen
+N: zwischen den beiden Gruppen entstehen, d.h. die beiden Gruppen teilen
+N: sich den jeweils letzten Wert im Takt. Dies ist aus analytischen ...
+R: Haozi fr Trger: Wechselgesang!]
+M: 4/4
+L: 1/32
+K: E
+B8c8c3B^A4B4F4
+B8c8c3BA4B4B4
+B8B4B4c6B2F4B4
+B8B4B4c6B2F4F4
+F4B4c8c3BA4B4B4
+F4B4c8c3BA4B4B4
+F4F3BA4F4F4A4B4B4
+F4F4A4F4F4A4B4B4
+c8e4B4c6B2B4B4
+f4e4c4e4c6B2B4B4
+B4e4c4B4F2e2c2e2c2B4B4
+f6e2c4e4c6B2B4B4
+e4B4c4B4B4e4c4B2B2
+c4B4F4B4c8B4B4
+e4B2e2c6B2B4e4c4B2B2
+f4e4c4e4B6e2c8
+S:https://www.folktunefinder.com/tunes/112905
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi fr trger: wechselgesang!]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

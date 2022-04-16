@@ -1,0 +1,24 @@
+X:1
+T:Ales regres
+C: Hayne
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N: Original clef, C on second line
+K:F
+C3 D E2 F2 G3 F/ G/ A4 z2 G3 F/ E/ F G/ A/ B2 B2 A2 G G2 F/ E/ D G > F F2 E F4
+z2 A2 A2 A2 G2 c2 B A B/ A/ G/ F/ E3 D/ C/ D F2 E F/ E/ D/ C/ B,2 A,4 z2 A,2
+S:https://www.folktunefinder.com/tunes/100583
+S:http://www.laymusic.org/music/hayne/regrets/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

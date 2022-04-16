@@ -1,0 +1,49 @@
+X:11
+T:Bonaparte Crossing the Rhine
+C:Arr. by J. Ciaglia
+M:C
+Q:1/4=85
+L:1/16
+%%staves [1 2 3]
+K:C
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:E2FG|A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|G4 G2>A2 G2z2 E2FG|
+A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|A4 A2>B2 A4::e2fg|
+a2g2 efg2 a2z2 e2fg|a2g2 edc2 B2z2 e2fg|a2g2 e2d2 c2A2 G2E2|G4 G2>A2 G2z2 E2FG|
+A2>B2 c2B2 A2G2 E2G2|ABcd edc2 [B2e2]z2 e2fg|a2g2 e2d2 c2A2 G2E2|[1 A4 A2>B2 A2z2:|[2 A4 A2>B2 A2z2||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!pp!z4|E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAF2 E2C2|D4 D2>D2 E2z2 z4|
+E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAFE D2D2|E4 E2>E2 E4:: ^G2AB|
+c2B2 ^GAB2 c2z2 G2AB|c2cB A2BA =G2z2 B2BB|c2B2 cAB2 cAF2 D2C2|D4 D2>D2 E2z2 z4|
+E4 D4 E2D2D2E2|E2D2 DC_E2 =E2z2 ^G2AB|c2B2A2B2 cAFE D2D2|[1 E4 E2>E2 E2z2:|[2 E4 D2>D2 E2z2||
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/8
+|:!pp!z2|A2 G2 F2 E2|AGF^F ^Gz e2|A2 ^F^G A/E/=F =G2|E2 F>F Ez z2|
+A2 G2 F2 E2|AG F^F/A/ ^Gz e2|A2 ^F^G AE=F=G|A2 A>A A2::e2|
+Ac/d/ eE Az e2|AE F^F =Gz ^Ge|A2 ^F^G AE/=F/ =G2|E2 F>F Ez z2|
+A2 G2 F2 E2|AG F^F/A/ ^Gz e2|A2 ^F^G AE=F=G|1 A2 A>A Az:|2 A2 B>B ^cz||
+S:https://www.folktunefinder.com/tunes/114077
+S:http://members.cox.net/chrismyers/KG_tunes_webready.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

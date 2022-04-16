@@ -1,0 +1,20 @@
+X:103
+T:Old Joe's
+Z: id:dc-jig-89
+M:6/8
+L:1/8
+K:D Major
+e|fAA AFA|BAF A3|BdB AFA|Bcd efg|!
+fAA AFA|BAF A3|BdB AFA|Bdc d2:|!
+e|f3 e3|dBA d2e|faa afd|faa b2a|!
+f3 e3|dBA d2e|fAA AFA|Bdc d2:|!
+S:https://www.folktunefinder.com/tunes/128570
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

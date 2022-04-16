@@ -1,0 +1,25 @@
+X:43
+T: Der Tannhaeuser
+N: Q0015A
+O: Mitteleuropa, Deutschland / Niederlande
+N: Melodie = geistliche Kontrafaktur. Niederdeutsch / niederlaendisch.
+R: Ballade, Wallfahrt, religioes; geistlich
+M: none
+L: 1/16
+K: C
+C4 | C4C2C2D4E4 | E2DCD2D2C8z4
+C4 | E4D4E4F4 | G6F2E2D2F4E8z4
+C4 | E4E4F4G6G2G4 | F4E4D8z4
+G4 | F4F4E4E4D4C4 | B,4G,4z4
+G,4 | C6D2E2F2G8F4 | E4E4D4C4 | D8C8
+S:https://www.folktunefinder.com/tunes/109981
+S:http://ifdo.ca/~seymour/runabc/esac/ballad10.abc
+% Rhythm Ballade, wallfahrt, religioes; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

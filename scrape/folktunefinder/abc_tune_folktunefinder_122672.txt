@@ -1,0 +1,19 @@
+X: 1
+T: ille's Arabesque
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmaj
+d | &quot;Gmaj7&quot;BAG GF/E/D &quot;Cmaj7&quot;~E3 | D2B DE/F/G &quot;DaddG&quot;A2d | &quot;Gmaj7&quot;BAG GB/c/d &quot;Cmaj7&quot;edg | edB BAG &quot;DaddG&quot;A2d |!
+&quot;Gmaj7&quot;BAG GF/E/D &quot;C/G&quot;~E3 | D2B DE/F/G &quot;D&quot;A2d | &quot;Gmaj7&quot;BAG GB/c/d &quot;Cmaj7&quot;edg | M:6/8 edB Bcd ||!
+M: 9/8 &quot;C&quot;e2a age dBA | &quot;G&quot;~B3 G2A Bcd | &quot;Am7&quot;e2a age g2b | &quot;G/B&quot;age dBA Bcd |!
+&quot;C&quot;~e3 age dBA | &quot;G&quot;~B3 G2A Bcd | &quot;Am7&quot;e2a age g2b | M:6/8 &quot;G/B&quot; age dBA | &quot;C&quot;B2G &quot;D&quot;A2 ||
+S:https://www.folktunefinder.com/tunes/122672
+S:http://www.thesession.org/tunes/display/5969
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

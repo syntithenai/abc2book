@@ -1,0 +1,38 @@
+X:4848
+T:Entemediu (MQ 069)
+T:Valse (MQ 069)
+R:Marcha
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Esto es quiz el intermedio ms conocido de todos los que se conservan en la actualidad.
+N:Se toca prcticamente en toda la regin, y es una de las piezas que casi nunca falta en el repertorio de los gaiteros.
+N:Yo la aprend de cro, de los gaiteros que iban por la zona de
+N:Quirs.
+A:Asturies
+Z:Manolo Quirs 069
+M:3/8
+L:1/8
+Q:3/8=60
+K:F
+C
+|F F/E/F/G/|F F/E/F/G/|F F/E/F/G/|F F/E/F/A/|G2 C|
+E E/D/E/F/|E E/D/E/F/|E E/D/E/F/|E E/D/E/G/|F2 C|
+F/G/F/E/F/G/|F/G/F/E/F/G/|F/G/F/E/F/G/|F/G/F/E/F/A/|G2 C|
+E/F/E/D/E/F/|E/F/E/D/E/F/|E/F/E/D/E/F/|E/F/E/D/E/G/|F2 C|
+AAA|AGA/B/|c/d/c/B/A/B/|G2 A|G A/G/A/G/|DDE|F G/F/E/D/|C2 C|
+AAA|AGA/B/|c/d/c/B/A/B/|G2 A|G A/G/A/G/|DDE|F G/F/E/D/|C2 A|
+FFA|EEG|F/E/D/E/F/G/|(3A/B/A/GA|FFA|EEG|F/E/D/C/=B,/D/|C2 A|
+FFA|EEG|F/E/D/E/F/G/|(3A/B/A/GA|FFA|EEG|F/E/D/C/=B,/D/|C3|
+S:https://www.folktunefinder.com/tunes/123631
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/e-f.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/e-f.abc
+% Rhythm Marcha
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

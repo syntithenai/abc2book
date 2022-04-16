@@ -1,0 +1,30 @@
+X:216
+T: Chong mi haozi
+N: C0345
+O: China,Anhui, Fanchang
+S: III, 562]
+N: Die Begleitung besteht aus den Rufen "Hei!" und einem "Sch",
+N: mit dem das Einatmen markiert wird.
+N: Wenig Verzierungen.
+R: Haozi, Zongmi haozi. Yietiao dongzuo, Tiaojie jingli]
+M: 2/4
+L: 1/32
+K: D
+e4d8e2d2 | B6A2F4z4 | A4A4B4d4 | B6A2F4z4
+F4F8F2A2 | d4B2A2F4z4 | F6A2d4B2A2 | F16
+F4A4F4E4 | A6D2D8
+D6E2D4B,4 | D8z8 | z8z8
+d12e4 | A8z8
+B6A2F4A4 | E8E4F4 | A8B3AB2d2 | A8z8
+S:https://www.folktunefinder.com/tunes/112643
+S:http://ifdo.ca/~seymour/runabc/esac/HAN1.abc
+% Rhythm Haozi, zongmi haozi. yietiao dongzuo, tiaojie jingli]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

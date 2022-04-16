@@ -1,0 +1,21 @@
+X:1
+T:Ashokan Farewell
+M:3/4
+L:1/4
+K:D
+ A2- c/2| d3/2 c/2B/2 A/2| F2 E/2F/2| G3/2 F/2E/2 D/2| B, D3/2 B,/2|\
+ A, D F| A d f| f3/2 g/2 f| e2 A/2c/2| d3/2 c/2B/2 A/2| F2E/2-F/2|\
+ G3/2 F/2E/2 D/2| B, D3/2 B,/2| A, D F| A d f| A c e| d2F/2-G/2| A3/2 F/2 D|\
+ d2 A/2A/2| B3/2 c/2 d| A/2 F3/2 E| F3/2 E/2 D| B,2 G,| A, CC/2-A/2|\
+ A2 F/2E/2| D F A| =c2E/2-d/2| B3/2 c/2 d| A F3/2 D/2| A, D F| A d F|\
+ E3/2 D/2 C| D z/2||
+S:https://www.folktunefinder.com/tunes/127199
+S:http://back.numachi.com:8000/dtrad/abc/ASHOK1.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ASHOK1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

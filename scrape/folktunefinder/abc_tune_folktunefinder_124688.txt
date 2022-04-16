@@ -1,0 +1,29 @@
+X: 71
+T:Johnny When You Die (#267)
+M:4/4
+L:1/8
+S:Rice-Walsh manuscript
+R:Reel
+K:A
+c2 Ac d2 Bd|c2 Ac BEEB|c2 Ac d2 Bd|cABG A2 A2|
+c2 Ac d2 dd|c2 Ac BEEB|c2 Ac d2 Bd|cABG A2 A2||
+ceeg f2 ed|c2 Ac BEEB|ceeg f2 ed|cABG A2 A2|
+ceeg f2 ed|c2 Ac BEEB|cdeg f2 ef|g2 fg afed||
+%
+% The above is a variant of "Well May the Keel Row", a North of
+% England song tune. It is not listed in Glen's Analytical Table of
+% Old Scotch Dance tunes. As "Jenny's Frolics" it appears in
+% Vol. 2 Paul Alday's A Pocket Volume of Airs, Duets, Songs,
+% Marches etc., Dublin  C 1800.
+S:https://www.folktunefinder.com/tunes/124688
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-6.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/JohnnyWhenYouDie267.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0267.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords
