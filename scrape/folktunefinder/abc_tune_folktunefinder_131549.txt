@@ -1,0 +1,37 @@
+X:23
+T:Princess Royal
+S:Bacon (MDT)
+A:Bampton
+O:Irish
+R:Reel
+P:AAB(CB)2
+M:2/2
+Q:1/2=92
+K:Bminor %Transposed from Gminor
+P:A
+fe | d2 c2 B2 fe | d2 cd B2 df | g2 e2 efge | f2 fe dcdf |
+e2 d2 c2 B2 | ABAG F2 fe | d2 cB A2 f2 | B4 B4 |]
+P:B
+d'2 d'2 d'2 c'd' | e'2 a2 a4 | d'c'ba gfed | ce A2 A4 |
+B2 Bc ddde | f2 f2 b3 b | a2 f2 g3 g | f2 B2 e4 |
+fedc Bcde | f2 B2 B2 fe | d2 cB A2 f2 | B4 B4 |]
+P:C
+f3 e | d3 e c2 d2 | B4 f3 e | d3 e c2 d2 | B4 f4 |
+g4 e4 | e2 f2 g2 e2 | f4 d4 |\
+M:2/4
+L:1/8
+dcdf |
+M:2/2
+e2 d2 c2 B2 | ABAG F2 fe | d2 cB A2 f2 | B4 B4 |]
+S:https://www.folktunefinder.com/tunes/131549
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

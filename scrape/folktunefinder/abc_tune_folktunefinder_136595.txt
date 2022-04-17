@@ -1,0 +1,29 @@
+X:3
+T:King of the Clans
+C:Traditional
+N:Play 3 times
+N:The Paris Set, Figure 2, Tune 3 of 3
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+B:Geraldine Cotter
+R:Reel
+L:1/8
+M:C
+K:G
+d2 GA Bdge | dedB AGEG | DGBG dGBG | cege dcBc |
+dGBd edBd | g2 bg agef | ~g3 e d2 ge | dBAd BG G2 :|
+g2 fg egde | gdBG AGEG | DGBG dGBG | cege dcBc |
+g2 bg edge | dBGB AGEG | DGBd gece | dBAB G4 :|
+S:https://www.folktunefinder.com/tunes/136595
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

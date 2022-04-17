@@ -1,0 +1,35 @@
+X:38
+T:Black Star
+R:
+C:Yngwie J. Malmsteen
+H:
+N:p. 4
+A:
+B:
+O:Sude / Sverige / Sweden
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/4
+Q:1/4=126
+K:G
+%%staves (1 2)
+%%MIDI transpose -12
+V:1
+%%MIDI program 24
+z3 || g>fe | z2{ed} ^c/d/ | e>f g | z3 | 
+[dea] ((3c/4d/4c/4B/) c | [^c2f2^a2] z | z/4 (e/4g/4b/4) [^d/f/]z/[^c/e/]z/ | [^d/f/] z/ z2 |z3|z3|z3|z3||
+V:2
+%%MIDI program 24
+z [F2^d2f2b2] || E3 | [F2^d2] A, | G,2 z | [^G,3B3e3^g3] |
+A,3 | ^A, A,/B,/ ^C | B, z z | z B, b | E e' Hb | g' f' d' | b e'2-|He'3 ||
+S:https://www.folktunefinder.com/tunes/136657
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

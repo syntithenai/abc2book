@@ -1,0 +1,19 @@
+X:1
+T:IIII. Dye not beefore thy day,
+T:Cantus
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+M:C
+L:1/4
+N: Original clef C on first line
+K:G dorian
+G4 G2 G2 | G3 G G4 | z2 c4 B2 | A3 A G G z2 | z2
+S:https://www.folktunefinder.com/tunes/136335
+S:http://www.laymusic.org/music/dowland/dyenot/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

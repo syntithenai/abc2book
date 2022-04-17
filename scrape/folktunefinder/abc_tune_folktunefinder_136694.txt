@@ -1,0 +1,30 @@
+X: 18
+T: Batut
+O: Romania
+M: 2/4
+L: 1/8
+Q: 1/4=240
+K: D
+%%MIDI gchord zf
+%%MIDI program 41
+|:"G" Bcd2|"D" B2z2|"G" Bcd2|"D" B2z2  |\
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  |
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" c2d2  |\
+  "G" B2d2|"D" c2d2|"G" B2d2|"D" g2z2  :|
+K: G
+|:"G" efg2|"C" e2z2|"G" efg2|"C" e2z2  |\
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 |
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" f2g2  |\
+  "G" e2g2|"C" f2g2|"G" e2g2|"C" c'2z2 :|
+S:https://www.folktunefinder.com/tunes/136694
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Batut.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Batut.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

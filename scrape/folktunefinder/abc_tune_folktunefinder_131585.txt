@@ -1,0 +1,25 @@
+X: 16
+T:Flowers of Edinburgh, Bampton
+M:2/2
+L:1/8
+A:Bampton
+P:A(AB2)4
+K:G
+P:A
+DEFD G2A2|B2B2 BdcB|AGFG EFGA|B2E2 E2GE|
+DEFD G2A2|B2B2 Bgge|dcBA GFGA|B2G2 G4  ||
+P:B
+g6  (3gag|f6  (3faf|e2e2 efge|B2e2 efge|
+dBGB d2d2|e2e2 efge|dcBA GFGA|B2G2 G4  ||
+S:https://www.folktunefinder.com/tunes/131585
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

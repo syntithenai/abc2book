@@ -1,0 +1,28 @@
+X:1
+T:Avant-deux de Bazouges : Sans mon cur
+Z:Roger Ngaret (95)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=180
+M:6/8
+L:1/8
+K:G
+dcB dcB | dcB G3 | GFG A2 B |1 cBA B2 G :|2 \
+cBA G3 |: GFG A2 B | cBA B2 G | GFG A2 B | cBA G3 :|
+%%rm
+%%rm  Sans mon cu, sans mon cu, sans mon cur,
+%%rm  Tout le vi, tout le vi, tout le village,
+%%rm  Sans mon cu, sans mon cu, sans mon cur,
+%%rm  Tout le village serait brl.
+S:https://www.folktunefinder.com/tunes/130433
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesSansmoncure.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:51
+T:Lady on the Island, The
+R:reel
+I:speed 350
+E:7
+M:C|
+K:G
+A|BAFB AFEF|D2FA BAdA|BAFB ~A3B |defd e3A|\
+BAFB AFEF|D2FA BAdA|BAFB ~A3B|defd e3||*
+A|d3 f efge|afdf eB~B2|d2fd efge|afdf ~e3A|\
+d2fd efge|afdf eB~B2|defg ~a3 b|afdf e3||**
+S:https://www.folktunefinder.com/tunes/135117
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

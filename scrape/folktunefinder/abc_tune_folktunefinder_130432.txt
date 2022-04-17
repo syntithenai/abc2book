@@ -1,0 +1,30 @@
+X:1
+T:Avant-deux de Bazouges : Ma grand-mre
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+A:Bretagne
+S:
+Q:C4=120
+M:2/4
+L:1/16
+K:G
+"G"D2G2 G2FG | "D"A2F2 E4 | A2A2 A2G2 |1
+"G"BBBB B2G2 :|2 B2A2 G4 |: "D"A2A2 A2G2 |
+"G"BBBB B2G2 | "D"A2A2 A2G2 | "G"B2A2 G4 :|
+%%rm
+%%rm  Ma grand-mre m'avait toujours dit, 
+%%rm  De n'point jouer  tiquetiquetac,
+%%rm  Ma grand-mre m'avait toujours dit, 
+%%rm  De n'point jouer  touche-nombril
+%%rm
+%%rm  De n'point jouer  tiquetiquetac   ]
+%%rm  De n'point jouer  touche-nombril  ] bis
+S:https://www.folktunefinder.com/tunes/130432
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesMagrandmere.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

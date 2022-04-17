@@ -1,0 +1,57 @@
+X:10619
+T:B\aansull
+T:Lullaby
+C:anon., arr. Frank Nordberg
+O:Norway
+A:Eide, Nordm\ore
+R:B\aansull (Baansull), lullaby
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/baansull-eide/baansull-eide-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:3/4
+L:1/4
+Q:1/4=112
+K:Dmix
+D/F/|AAB|AAG/G/|FFE/E/|D2D/F/|
+V:2
+z|[D,3D3]|[D,3D3]|D,3|D,3|
+%
+V:1
+AAA/G/|ccc/B/|AAA/G/|A2A/G/|
+V:2
+[D,3D3]|[D,3D3]|[D,3D3]|[D,2D2]z|
+%
+V:1
+FFE/E/|DDF/F/|EEF/G/|FEF/G/|
+V:2
+D,3|D,3|D,3|D,3|
+%
+V:1
+AA/A/ B/B/|A/A/ A/A/ G/G/|FFE/E/|D2|]
+V:2
+[D,3D3]|[D,3D3]|D,3|D,2|]
+W:
+W:Og s\aa kom han J\orn stegan,
+W:og s\aa kom han Elling smed.
+W:Og s\aa kom ho gamle Britta,
+W:og s\aa kom de alle tre.
+W:  Opp\aa loftet tel \aa danse
+W:  s\aa og s\aa p\aa ymse kne.
+W:  Kj\aere de de m\aa ikke danse,
+W: de kan riv ned r\omgrautsgryta mi.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/131367
+S:http://abc.musicaviva.com/tunes/norway/baansull-eide/baansull-eide-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/baansull-eide/baansull-eide-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/baansull-eide/baansull-eide-ddad1.abc
+% Rhythm B%C3%A5nsull (baansull), lullaby
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

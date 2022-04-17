@@ -1,0 +1,26 @@
+X:609
+T:Sandy Duff
+B:Scots Guards, Standard Settings
+Z:Nigel Gatherer
+L:1/8
+M:4/4
+K:A
+e | a2  e<a c>AA>a | c<Ae>A  c>AA>e |\
+    a2  e<a c>AA>a | B<=Gd>G B>GG>e |
+    a2  e<a c>AA>a | c<Ae>A  c>AA>c |\
+    =g2 f<g a>ef>d | B<=Gd>G B>GG  ||
+a | c<Ae>A  f>Ae>d | c<Ae>A  c>AA>a |\
+    c<Ae>A  f>Ae>d | B<=Gd>G B>GG>a |
+    c<Ae>A  f>Ae>d | c<Ae>A  c>AA>c |\
+    =g2 f<g a>ef>d | B<=Gd>G B>GG  |]
+S:https://www.folktunefinder.com/tunes/133026
+S:http://nigelgatherer.com/tunes/abc/tb13.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb13.abc
+S:http://nigelgatherer.com/tunes/abc/abc8/sandyd.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc8/sandyd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

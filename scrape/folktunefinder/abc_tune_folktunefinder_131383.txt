@@ -1,0 +1,28 @@
+X:1
+T:Babba-Lisas hyfs'n
+R:polka
+N:Often called "Missing Link Polka" around the Seattle area
+M:2/4
+L:1/16
+Q:1/4=130
+K:G
+P:A
+| "G"D2 |
+|: "G"GGGG G2A2|BBBB B2c2|dddd d2e2\
+|  z2 "D"f4 g2| aaaa a2g2|ffff f2e2\
+|1 dddd d2c2|"G"B6 D2 :|2 d2^cd e2f2|"G"g6 d2|
+P:B
+|: "G"d2gg g2d2 |B2dd d2B2| G2B2 d2B2|"D"c6 B2\
+|  A2aa a2gg|g2ff f2ee\
+|1 e2dd d2c2|"G"B6 d2 :|2 d2^cd e2f2|"G"(g4[B4g4])||
+S:https://www.folktunefinder.com/tunes/131383
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/Misslink.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/Misslink.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

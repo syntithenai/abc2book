@@ -1,0 +1,32 @@
+X:0425
+T:"The Banks Of The Barrow"   (air)   0425
+C:Trad/Anon
+C:moderate
+N:Transposed from F
+N:NOTE:Last repeat missing from book
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/4
+L:1/8
+K:G
+"_vb"(E3/2F/2)|(GFGA) (B3^c) d2(d3/2=c/2)|B2(B3/2A/2) (F3E) (D3E)|.F(d^cd) (B3A) (F2A3/2F/2)|E2E2E4:|
+|:B2|(e^def) (g3e) (f2b2)|(af^df) (e3=d) B2z2|(e^def) (g3e) (f2b2)|(bafe) (e3f) (e3f)|
+(gag).f e3d B3c|(ded).B (A3F)(D3E)|.F(d^cd) (B3A) (F2A3/2F/2)|E2E2E6:|
+|:E3/2F/2|(GFGA) (B3^c) d2(cd)|e2(B3/2A/2) (A3F) (D3E)|(F3/2E/2  (3FGA) (B3A) (D2A3/2F/2)|E2E2E4z2(E3/2F/2)|
+(GFGA) B3^c d2 (3def|B3^G A3F B,3E|(F3/2E/2  (3FGA) (B3A) (F2A3/2F/2)|E2E2E4z2:|
+|: (3B^c^d|.e.^d.e.f g3e f3b|(bagf) {e}e3d B3z|(e^def) (g3e) (f3b)|a3/2a/2gf e4(e3f)|
+.g.a.g.f e3c A2zB|.e.f.e.d .B.c.B.A .F.E.D.E|(.FE  (3FGA) .B.c.B.A .F2A3/2F/2|E2E2E6:|
+S:https://www.folktunefinder.com/tunes/135241
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0425-BanksBarrow.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0425-BanksBarrow.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

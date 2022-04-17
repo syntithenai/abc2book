@@ -1,0 +1,25 @@
+X: 1
+T:Bear in the Buckwheat
+C: Dunlay/Greenberg Cape Breton Collection
+C: arr. T. Traub, 4-8-02
+Z: Dunlay/Greenberg Traditional Celtic music of CB
+M:4/4
+L:1/8
+R:Reel
+K:G
+|: "C" c2 BA "G"BG G2| "G"g2 bg "D"aAAB| "C"c2 BA "G"Bcde| "D"dBAB "G"G/G/G G :|
+E| "G"DB,DB, D2 GF| "C"ECEC E2 GE| "G"DB,DB, D2 Bc| "D"dBAB "G"G/G/G GE |
+"G"DB,DB, DGFG| "C"ECEC EFGE| "G"DB,DB, D2 Bc| "D"dBAB "G"G/G/G G |]
+|: "C" c2 BA "G"BG G2| "G"g2 bg "D"aAAB| "C"c2 BA "G"Bcde| "D"dBAB "G"G/G/G G :|
+e| "G"dBdB d2 gf| "C"ecec e2 ge| "G"dBdB d2 ga| "D"bgab "G"g/g/g ge |
+"G"dBdB dgfg| "C"ecec efge| "G"dBdB d2 ga| "D"bgab "G"g/g/g g |]
+S:https://www.folktunefinder.com/tunes/136929
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/BearInTheBuckwheatR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:108
+T: Der Elsberger
+N: Q1059G
+O: Suedosteuropa, Jugoslawien, Gottschee
+N: Melodievergleich zu Q0059B, anderes Lied
+R: Marien - Lied, Brauchtum, geistlich
+M: 6/4
+L: 1/4
+K: G
+BGAB | GABB2A | F2
+AFGA | FGAc2B | G2
+S:https://www.folktunefinder.com/tunes/132210
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Marien - lied, brauchtum, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 14
+T:Highland Mary, Longborough
+M:4/4
+L:1/8
+A:Longborough
+P:A(AB2)5A
+K:G
+P:A
+G2AG F2D2|G2AB c2GB|d2e2 dcBA|G3F D4|
+G2AG F2D2|G2AB c2GB|d3e  dcBA|G3F G4||
+P:B
+e2d2 c2B2|cBAB c2Bc|d3e  dcBA|G3F D4|
+G2AG F2D2|G2AB c2GB|d3e  dcBA|G3F G4||
+S:https://www.folktunefinder.com/tunes/135273
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:48
+T: Wiedersehen an der Bahre
+N: Q0056D
+O: Mitteleuropa, Schweiz, Aargau
+R: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+M: 3/4
+L: 1/16
+K: G
+D2 | D3BB4A2G2 | G2A2D4z2
+D2 | D3cc4B2A2 | A4G4z2
+GF | E3FG4F2E2 | D2G2B4z2
+B2 | A2B2d4c2A2 | A4B4z2
+GF | E3FG4F2E2 | D2G2B4z2
+B2 | A2B2d4c2A2 | A4G4z2
+S:https://www.folktunefinder.com/tunes/132150
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, abschied, enttaeuschung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

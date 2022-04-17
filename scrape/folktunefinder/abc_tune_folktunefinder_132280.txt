@@ -1,0 +1,25 @@
+X:178
+T: Bai Raedder
+N: Q1071B
+O: Mitteleuropa, Deutschland (BRD) , Nordsee, Foehr
+N: Melodievergleich zu Q0071, anderes Lied. Anhaengsel an der dritten
+N: Zeile.
+R: Hochzeits - Lied, Tanz
+M: none
+L: 1/8
+K: A
+E2 | E2A2A2A2 | =ccBAB2
+BB | BBB2=c2c2 | d8
+B2B2=c2c2 | ddABA4 | =ccBcA4
+c2c2BGG2 | A8
+S:https://www.folktunefinder.com/tunes/132280
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Hochzeits - lied, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

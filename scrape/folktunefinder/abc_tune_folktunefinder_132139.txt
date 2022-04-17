@@ -1,0 +1,25 @@
+X:37
+T: Ritter und Magd
+N: Q0055j
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Strehlen, Krummendorf
+N: Pausen am Ende der dritten und letzten Zeile eingefuegt.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 2/4
+L: 1/16
+K: G
+G2c2B2 | AAG2F2F2 | G4
+d4 | e2d2c2A2 | A4G2z2 | z2
+G2c2B2 | A2G2F2F2 | G4
+d4 | e2d2c2A2 | A4G2z2 | z2
+S:https://www.folktunefinder.com/tunes/132139
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

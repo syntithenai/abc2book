@@ -1,0 +1,36 @@
+X: 33
+T:Jockie to the Fair, Headington
+M:6/8
+L:1/8
+A:Headington
+P:A2(BC)2B
+K:A
+P:A
+e|A2B  c2d|eca  e2d|cec AGA |Bdc  Bcd|
+e2e  fga|b2g  e2a|gfe Bc^d|e3   e2 ||
+P:B
+f/g/|a2e  a2e|d>ed cde|a2e a2e |d>ed cde|
+f2g  aba|fed  cde|fed c2B |A2G  f2e|
+A>BA Ace|f2g  agf|\
+ecA  BcB|f2G  A2B|c2a c2B |A3   A2 ||
+P:C
+E|A3   B3 |c3   d3 |e3  a3  |e3   d3 |\
+(2ce c3 |A3  (2GA|d3  c3  |\
+M:3/8
+B3   d3 |
+M:6/8
+e^de fga|b2g  e2a|gfe Bc^d|e3   e2 ||
+S:https://www.folktunefinder.com/tunes/131639
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

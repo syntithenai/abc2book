@@ -1,0 +1,31 @@
+X: 1
+T: The Battle of the Boyne
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+|: Bd || "Am"e2A2 e2g2 | "G"dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"B2A2 A2Bd \
+| "Am"e2A2 e2g2 | "G"dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"A6 :|
+|| B2 || "G"G2g2 g3a | gage d3g | "Am"e2a2 "G"a2g/a/b | "Am"a4 e3f \
+| "G"g3a g2e2 | dcBA G2Bd | "Am"e2A2 "E7"e2dB | "Am"A6 B2 ||
+|| "G"G2g2 g3a | gage d3g | "Am"e2a2 "G"a2g/a/b | "Am"a4 e3f \
+| "G"g3a g2e2 | dcBA G2AB | "C"c2BA "E7"e2dB | "Am"A6 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/136674
+S:http://trillian.mit.edu/~jc/music/book/500/BattleOfTheBoyne_x.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

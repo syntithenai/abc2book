@@ -1,0 +1,33 @@
+X: 15
+T:Hearts of Oak,bass. JBa.14
+M:C|
+Q:100
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+N:6 - the number '6' is written under these notes - could be  the
+N:remnant
+N:of a figured bass..
+N:# - sharp sign under this note,see above..X,Y,Z- from X written in MS
+N:in tenor  clef, then from Y back into bass clef, then from Z back into
+N:tenor clef again - many thanks to Gina Le Faux for identifying  the
+N:strange squiggles as old style tenor clefs..we have transposed it to
+N:the bass clef for your convenience!..CGr
+Z:vmp.C.Graebe.
+K:G
+" read as BASS Clef,see notes for XYZ,6,#"\
+z/ e | a2 a a a2c'b | a2 gf e2 z "6"c | d2 z2 "6,qu"c2 z e |!
+ a2 e2 A2 z e |a2 cd e2 fg | a2 cd e2 z "X"b | c'2 ba e'2 ga |!
+ b2 bB "6"e2 |z/ e/^d/c/ B/A/G/F/E2 "cr"z | e2 z2 E2 z2 |!
+a2 z2 A2 z2 | "Y"B2"#" c2 F2z2 | a<a e2 c<A z e |\
+fgab"Z"c'2 b>g | e'2 eg a2 |]
+S:https://www.folktunefinder.com/tunes/132680
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

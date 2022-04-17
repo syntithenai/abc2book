@@ -1,0 +1,24 @@
+X: 22
+T:Cuckoo's Nest, Longborough 1
+M:4/4
+L:1/8
+A:Longborough
+P:A(AB2)4A
+K:G
+P:A
+|:BcBA G2g2|dedB c2Bc|dcBA GFGA|B2G2 G4:|
+P:B
+  d2d2 d2ed|c2A2 A2AB|c2c2 c2dc|B2G2 G4 |
+  BcBA G2g2|dedB c2Bc|dcBA GFGA|B2G2 G4||
+S:https://www.folktunefinder.com/tunes/135281
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

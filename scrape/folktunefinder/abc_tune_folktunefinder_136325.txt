@@ -1,0 +1,27 @@
+X:2
+T:IIII. Daphne was not so chaste as she was changing,
+T:Bassus
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+%%MIDI transpose -24
+K:F bass
+|:f f/ f/ f f f3 f2 e d2 c4 f3 B
+_e3 c d B c2 F3 :: F c > d e > f %g
+%G 
+"(1)"c > d e f d a f b a2 d' c' b2 a2 g2
+N:(1) Original has two g quarter notes before this note.  These are not in the lute tablature, and cause the whole section to be the wrong length and sound terrible.
+f2 c2 d f c2 F :|
+S:https://www.folktunefinder.com/tunes/136325
+S:http://www.laymusic.org/music/dowland/daphne/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

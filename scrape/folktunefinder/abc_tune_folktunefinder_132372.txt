@@ -1,0 +1,28 @@
+X: 147
+T: Bakmes och Pols frn Idre
+O: Idre, Dalarna
+R: Polska
+Z: Hkan Lidn, 2008-09-27
+D: Dance Brothers
+M: 3/4
+L: 1/8
+K: Gdor
+V:1
+d2 d2 _B>c | (3dcd B2 A>^F | D2 ^FG A>B | G<^F D4 | d2 d2 B>c | (3:2 dcd B2 A>^F | 
+D2 ^FG A>B | G<^F G4 :: D2 ^FG A>c | B2 (3:2 ABA (3:2 GAG | ^F>D F<G A>B | 
+G>A ^F<G E>F | D2 ^FG A>c | B2 (3:2 ABA (3:2 GAG | ^F>D F<G A>B | G<^F G4 :|]
+V:2
+B2 B2 G>A | (3:2 BAB G2 ^F>D | A,2 DE ^F>G | E<D A,4 | B2 B2 G>A | (3:2 BAB G2 ^F>D | 
+A,2 DE ^F>D | B,<A, B,4 :: A,2 DE ^F>A | G2 (3:2 ^FGF (3:2 EFE | D>A, D<E ^F>G |
+E>^F D<E ^C>D | A,2 DE ^F>A | G2 (3:2 ^FGF (3:2 EFE | D>A, D<E ^F>D | B,<A, B,4 :|]
+S:https://www.folktunefinder.com/tunes/132372
+S:http://www.folkwiki.se/pub/cache/_Bakmes_och_Pols_fr%E5n_Idre_5e8d36.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

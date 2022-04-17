@@ -1,0 +1,45 @@
+X:282
+T:B282-  Let Traitors Plot On
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+F/G/|A3/2 B/c|G3/2 A/B|A(B/A/) (G/F/)|E2F|\
+D3/2 E/F|G3/2 A/ G/F/|EC2|zzG/A/|\
+^F3/2 G/A|B2c/c/|d(c/B/) (A/G/)|^F2d|\
+_e(d/c/) (B/A/)|B3/2 A/G|GG2|zzc|\
+c(B/A/)B|A3/2=B/c|=B3/2 ^c/d|^c2(B/A/)|\
+B(A/G/) (F/E/)|E3/2 D/C|D2z|zzG/G/|\
+D3/2 E/F|E2D/C/|cBA|d2(A/B/)|\
+cGA|B3/2 c/A|G3/2 F/E|F2||"Chorus:"c|\
+AAB|G2A|FFG|E2(D/C/)|\
+F(E/D/)G|FGA|A3/2 G/^F|G2(A/B/)|\
+c(d/c/) B/A/|B3/2 B/c|def|e2d/c/|\
+d2d/A/|B2(A/G/)|G3/2 F/E|F2|]
+S:https://www.folktunefinder.com/tunes/131057
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM2.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM2.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM2.ABC
+S:http://www.mudcat.org/olson/BM2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:2
+T:III. Sorrow sorrow stay,
+T:Basso
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+%%gchordfont Helvetica 12 box
+%%MIDI transpose -24
+M:C
+L:1/4
+K:G dor bass
+g4 ^f4 g3 g d3 d' =b c' a > a g2 z G d3 e f d f2 e4 d4 G2
+S:https://www.folktunefinder.com/tunes/136306
+S:http://www.laymusic.org/music/dowland/sorrow/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

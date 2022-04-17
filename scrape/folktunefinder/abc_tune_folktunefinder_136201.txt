@@ -1,0 +1,67 @@
+X:1
+T:Bars
+T:Karsi Bar
+O:Armenia
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=180
+M:4/4
+L:1/8
+K:GDor
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI gchord f3zc3zf3zc3z
+|:"C"cz dz dz cB|cz dz d3z |Bz cz cz AB|Gz Gz G3z :|
+|:"Bb"BAGz BAGz |Bz cz c3 z |Bz cz cz AB|"C"Gz Gz G3z :|
+%X: 2
+T:Sepastia Bar
+%O:Armenia
+Q:1/4=180
+M:4/4
+L:1/8
+K:GDor
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI gchord f3zc3zf3zc3z
+|:"D" A4 (BAG2) | A4 (BAG2) | (^FGAG) (BAGF) |"Gm"G4 z4 :|
+|:"D" (^FGAG) (BAGF) |"Em" E2 (ED) (E^F D)z |"D"(^FGAG) (BAGF) | "Em"E4 z4 :|
+|:"Gm" (d3e/2d/2) "A"(^c3d/2c/2) |"Gm" (B3^c/2B/2) "D"A2z2 |(^FGAG) (BAGF)|"Gm"G4z4:|
+|:"D" (^FGAG) (BAGF) |"Em" E2 (ED) (E^F D)z |"D"(^FGAG) (BAGF) | "Em"E4 z4 :|
+%X: 3
+T:Laz Bar (Aubrey's)
+%C:A. Jaffer
+Q:1/4=210
+M:7/8
+L:1/8
+K:Em
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 25
+%%MIDI chordvol 50
+%%MIDI bassprog 25
+%%MIDI bassvol 50
+%%MIDI gchord f2cfc3
+|:"Em" E2 [E2B2] [E2B2] B | E2 [E2B2] BAG |"Am" A2 A2 AGF |1"Em" G2 G2 G2F :|2"Em" G2 G2 G3 ||
+|:"Am" A2 A2 AGF |"Em" G2 G2 GFE |"Dm" =F2 F2 FED |1 "Em" E2 E2 EFG :|2 "Em" E2 E2 E3 ||
+|:"Am" A2 A2 AzF |"Em" G2 G2 GzE |"Dm" =F2 F2 FzD |1 "Em" E2 E2 EFG :|2 "Em" E2 E2 E3 ||
+|:"Em" E2 EG F2E | E2 EG F2E | E2 EG F2E | BAGF E3 :|
+|:"D" FGAB A2 G | FGAB A2 G | FGAB A2 G |"Em"BAGF E3 :|
+W:Arrangement Copyright (C) 2001 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/136201
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Bars.abc
+S:http://people.csail.mit.edu/jaffer/Music/Bars.abc
+S:http://voluntocracy.org/Music/Bars.abc
+S:http://www.voluntocracy.org/Music/Bars.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key F
+% Time_signature 4/4
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

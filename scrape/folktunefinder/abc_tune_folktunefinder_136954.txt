@@ -1,0 +1,25 @@
+X:105
+T: Tripping to the Well
+S: "Treoir" (source: J. McKenna)
+Z: B.Black
+M: 2/4
+L: 1/8
+R: polka
+K: G
+G>A B>G | E>G E>D | D/E/G/A/ B>d | B>A AB/A/ |
+G>A B>G | E>G E>D | BA/F/ D/E/F/G/ | AB/A/ G2 :|
+d>B G>A | B>G E>D | d>B G>A | B>A A2 |
+d/e/d/B/ G>A | B>G E>D | BA/F/ D/E/F/G/ | AB/A/ G2 :|
+S:https://www.folktunefinder.com/tunes/136954
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

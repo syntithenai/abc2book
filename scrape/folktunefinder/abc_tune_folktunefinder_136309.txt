@@ -1,0 +1,29 @@
+X:3
+T:Flow my tears
+T:Lachrimae
+C:John Dowland
+B:Second book of Ayres
+Z:Transcription, abctab: Taco Walstra (walstra@wins.uva.nl)
+Z:corrected by Laura Conrad (lconrad@laymusic.org)
+L:1/2
+M:C
+K:Am
+%%scale 0.45
+%%tabrhstyle modern
+%%maxshrink 0.1
+%%writehistory true
+%indent 1.8 cm
+V:F clef=treble    name=Canto stv=2
+V:L clef=frenchtab name=Lute
+%
+E:lw 400
+[V:F] |: A3 G1/2 F1/2 E2 c4 B A ^G4 | A2 E3 E G G | F2 D2 E3 B |
+S:https://www.folktunefinder.com/tunes/136309
+S:http://www.laymusic.org/music/dowland/flow/allparts.abc
+S:http://www.laymusic.org/music/dowland/darkness/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

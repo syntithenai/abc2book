@@ -1,0 +1,24 @@
+X:1
+T:Balleydesmond Polka #1
+R:polka
+O:Ireland
+M:2/4
+L:1/8
+K:G
+"Am" EA A>B | cd eg | "G" G2 G>A | GE ED |
+"Am" EA A>B | cd eg | "G" ge  dB |1 "G" BA A2 :|2 "Am" BA A2 ||
+"Am" a>g ab | ag ef | "G" g>f ga | ge ed |
+"Am" ea a>b | ag ef | "G" ge  dB |1 "Am" BA A2 :|2 "G" BA A2 |]
+S:https://www.folktunefinder.com/tunes/133135
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Polkas.abc
+S:http://www.slowplayers.org/Music/abc/Polkas.abc
+S:http://sf.ccewest.org/music/abc/Polkas.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

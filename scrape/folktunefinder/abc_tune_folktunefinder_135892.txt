@@ -1,0 +1,24 @@
+X: 5
+T:Ring o' Bells, Lichfield
+M:2/4
+L:1/8
+A:Lichfield
+P:(AB)2A2B2
+K:G
+P:A
+B2 A2|Gc B2|AG FG |B2 A2|
+B2 A2|Gc B2|Ad d^c|d4   ||
+P:B
+d2 c2|Bg e2|d2 c2 |Bg e2|
+dG c2|BF Gc|B2 A>G|G4   ||
+S:https://www.folktunefinder.com/tunes/135892
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Lichfield.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Lichfield.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Lichfield.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

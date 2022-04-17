@@ -1,0 +1,26 @@
+X: 10
+T:Hey Diddle Dis, Longborough 2
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB)6
+K:D
+P:A
+|:dcd e2c|dcB ABc|dcd BAG|F2E D3:|
+P:B
+|:EFG A2D|EFG ABc|dcd BAG|F2E D3:|
+S:https://www.folktunefinder.com/tunes/135269
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

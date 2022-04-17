@@ -1,0 +1,19 @@
+X:1
+T:Banks of the Dee (Parody)
+M:6/8
+L:1/8
+K:F
+ z4 z C| C3/2 D/2 E F3/2 G/2 A| B3/2 d/2 c BAG| AFD CDF| A3/2 B/2 G F2 C|\
+ C3/2 D/2 E F3/2 G/2 A| B3/2 d/2 c BAG| AFD CDF| A3/2 B/2 G F2 B| ABc ccc|\
+ dcB cAF| ABc def| F3/2 G/2 F EDC| BdB AcA| GFG AFD| FED CcB| A3/2 B/2 G F2 z|\
+S:https://www.folktunefinder.com/tunes/135299
+S:http://back.numachi.com:8000/dtrad/abc/BNKSDEE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BNKSDEE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

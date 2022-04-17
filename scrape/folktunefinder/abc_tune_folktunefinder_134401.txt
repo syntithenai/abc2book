@@ -1,0 +1,31 @@
+X:106
+T:Robertson's Reel
+C:Tom Anderson (SOCAN, Sc.)  
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:A 
+ AB \
+ | c2 Bc e2 cB | ABAF E2 AB | c2 Bc ecAc | B4 Z2 AB |
+ | c2 Bc e2 cB | ABAF E2 AB | cBce BABc | A4 Z2 :| 
+cd \
+  |:  e2 ce a2 a2 | fecd e2 cd | e2 ce a2 g2 | f4 z2 e2 |
+  |  a2 A2 A2 cB | ABAF E2 AB | cBce BABc | A4 Z4 :| 
+%%%%  Another composed "Shetland" tune.  
+%%newpage
+%%text
+%%text
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/134401
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 31
+T:Scotch Reel,A. JBa.30
+M:2/2
+L:1/8
+Q:160
+S:Joseph Barnes MS,Carlisle,1762.
+R:reel
+O:England
+A:Carlisle
+Z:vmp.C.Graebe.
+K:D Major
+"no key sig"defa efdA | BdAF E/E/E E2 | defa efdA |\
+ B/d/e/c/  AF D/D/D D2:|!
+|:D2 DF D/D/D AF | E2 EB E/E/E BA |\
+ D2 DF defd | dBAF D/D/D D2 :|!
+|:abaf abaf | ge be ge be | abaf abaf | geaf d/d/d d2 :||!
+zzzzzzzzzzzzz|!
+"First line as in MS"\
+defa efdA | BdAF E/E/E E2 | defa efdA | Bdec | AF D/D/D D2 :|]
+S:https://www.folktunefinder.com/tunes/132696
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Avskedsg\aangl\aaten
+O: av Jon Erik Hall
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Cm
+|: G2GF   E2D2  |  C2CD   E2F2 \
+|  GFAF   G2c2  | =BcdB   G2g2 \
+|  fgfe   d2f2  |  e2ed   c4   |
+|  G2=A=B c2Bc  |  d2d=B  G4   \
+|  G=A=Bc d2e2  |  fgfe   d2g2 \
+|  efed   c2e2  |  d2d=B  c4  :|
+|: c'2c'2 g2fg  |  agfe   defg | e2ec d2d=B | G2G2 G2z2 \
+|  c'2c'2 g2fg  |  agfe   defg | e2ec d2d=B | c2c2 c2z2 :|
+|: g^fga  g2g=f |  d4    =Bcde \
+|  f=efg  f2f_e |  c4     G4   \
+|  e2ef   e4    |  dcde   d4   \
+|  c2c2  =BcdB  |
+|  G8 \
+|  G^FGA  G2G=F | [D4G,4] =B,CDE \
+|  F=EFG  F2F_E |  C4     G,4  \
+|  E2EF   E4    |  DCDE   D4   |
+|  C=B,CD EDCB, |  C6     z2  :|
+S:https://www.folktunefinder.com/tunes/130682
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Avskedsganglaten_Cm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

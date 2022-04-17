@@ -1,0 +1,26 @@
+X: 1
+T:Bacca Pipes, Hinton
+M:6/8
+L:1/8
+Q:132
+A:Hinton
+P:A(AB2)6A
+K:ADOR
+P:A
+|:B|c2B cde|d2B BAB|c2A AGA|G2E E2B|
+c2B cde|d2B BAB|c3  B3 |A3  A2:|
+P:B
+d|g2a gfe|d2B B2d|g2a g2a|bag e2f|
+g2a gfe|d2B B2d|c3  B3 |A3  A2||
+S:https://www.folktunefinder.com/tunes/131646
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Hinton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Hinton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Hinton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:18
+T:Humours of Ennistymon
+R:Jig
+M:6/8
+L:1/8
+K:Gmaj
+zD | "G" ~B3 GBd | "C"   cBc ABc | "G" ~B3        GBd | "D" cAG      FGA |
+     "G" ~B3 GBd | "C"   cBc ABc | ded            cAF | "G" AGF        G :|
+ze | "D" ~f3 fed |       cAG FGA | "G" ~g3        gfg |     afd d2     g |
+     "D" fag fed | "(C)" cAG FGA | "G" B/e/dB "D" cAF | "G" AGF        G :|
+zd | "G" gdB gdB | "C"   ecA ecA | "G" ~B3        GBd | "D" cAG      FGA |
+     "G" gdB gdB | "C"   ecA ecA | "G" ~B3        GBd | "D" cAF "G" G2 d |
+     "G" gdB gdB | "C"   ecA ecA | "G" ~B3        GBd | "D" cAG      FGA |
+     "G" ~B3 GBd | "C"   cBc ABc | "G" ded    "D" cAF | "G" AFG        G |]
+S:https://www.folktunefinder.com/tunes/134739
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

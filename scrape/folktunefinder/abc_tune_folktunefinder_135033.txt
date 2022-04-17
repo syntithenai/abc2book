@@ -1,0 +1,24 @@
+X:260
+T:Roaring Mary
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:D
+DF~F2 AF~F2|df~f2g2fe|dedB ABde|fedefe~e2|\
+DF~F2 AF~F2|df~f2g2fe|dedBABdf|afeg fd~d2:|*
+~a3g fgfe|dedA BAFA|eg~g2 bg~g2|af~f2 ge~e2|\
+DF~F2 AF~F2|df~f2 g2fe|dedB ABdf|afeg fd~d2:|**
+S:https://www.folktunefinder.com/tunes/135033
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

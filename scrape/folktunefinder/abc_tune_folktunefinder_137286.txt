@@ -1,0 +1,25 @@
+X: 7
+T:Saturday Night, Badby
+M:6/8
+L:1/8
+A:Badby
+P:A.A2B6A2
+K:G
+P:A
+BcB BAG|BcB A2G|Bcd dBG|DEF G3||
+P:B
+Bcd dBG|Bcd g3 |Bcd dBG|Bcd g3|
+Bcd dcB|ABA ABc|
+d2c B2A|G3  D3 |G2A BcB|A3  A3|
+BcB BAG|BcB A2G|Bcd dBG|DEF G3||
+S:https://www.folktunefinder.com/tunes/137286
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 11
+T:Green Mountain Petronella
+C:via PR
+N: Nottingham Music Database 
+N: http://www.cs.nott.ac.uk/Department/Staff/ef/database.html [access July 1996]
+N: adapted for abc2midi by Robert Bley-Vroman, University of Hawaii, July 1996
+N: vroman@hawaii.edu
+M:2/2
+Q:1/2=110
+L:1/8
+K:G
+|: GE | D2 G2 GFFE | D2 B2 BGAB | cBcB ABcd | e2d2d^cdB |
+        D2 G2 GFGE | D2 B2 BGAB | cBcA DEFG | A2GF G2 :|
+|: Bd | g2 g2 f2 f2 | ege^c dcdf | edef gfge | cBAF DGBd |
+        g2 g2 f2 f2 | edef  gfge | g2 g2 f2 f2 | cBAF G2 :|
+S:https://www.folktunefinder.com/tunes/135943
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/contra/dances/cdh-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X: 1
+T: TEST: K:C clef=bass middle=D, notes=C,,-c
+T: Bars 1 & 2 should be on staff, 3 above
+K:C clef=bass middle=D,
+| C,,D,,E,,F,, G,,A,,B,,C, | C,D,E,F, G,A,B,C | CDEF GABc |
+S:https://www.folktunefinder.com/tunes/136200
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/Clef_bass-2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/Clef_bass-2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/Clef_bass-2.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

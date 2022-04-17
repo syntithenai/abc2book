@@ -1,0 +1,21 @@
+X: 3
+T: Caliche Creek
+M: 4/4
+L: 1/4
+Q: 120
+R: Reel
+K: Dm
+"Dm"D/E/F/G/A A| "C"G G "Dm"A A| D/E/F/G/ A A| "C"G G "Dm"F F| D/E/F/G/ A A | "C"G G "Dm"A A |D/E/F/G/ A/B/A/G/| "Am"F/D/E/F/ "Dm"D D :: "Dm"A/c/A/c/ d d| "Am"c/d/e/c/ "Dm"d d| c d z>"C"e | e e/ e f e| "Dm"d c d d| "Am"c/d/ c "Dm"A/c/ A| G G A A| "Am"F/D/E/F/ "Dm"D D :|
+"HARMONY:"[|]\
+F/G/A/c/ d d| c c d d| F/G/A/c/ d d| c c A A| F/G/A/c/ d d| c c d d| F/G/A/c/ d d/d/ |c/A/ F D2 ::  c/e/c/e/ f f| e/f/ g f f| e f z>g|g g/ ga g| f g a a| g/a/ g f/g/ f| e e d d| c/A/ c d2:|
+S:https://www.folktunefinder.com/tunes/135633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs.html
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

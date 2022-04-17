@@ -1,0 +1,23 @@
+X:158
+T: Der grausame Bruder
+N: Q2068C
+O: Nordeuropa, Schweden
+N: Schwedische Fassung der Ballade.
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 2/4
+L: 1/8
+K: G
+ | G2AA | _B2BA | _B2cc | d2Ac | _B2A2 | z3
+A | A2_Bc | d2Ac | _B2FF | G2
+A2 | _Bcd_e | d2FA | A2G2
+S:https://www.folktunefinder.com/tunes/132260
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

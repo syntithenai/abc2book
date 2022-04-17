@@ -1,0 +1,33 @@
+X: 1562
+T: Downfall of Paris, The
+R:hornpipe
+N:"Collected by Cronin"
+B:O'Neill's 1562
+Z:Transcribed by Michael Hogan
+M:2/4
+L:1/16
+K:G
+D2 | G2GA G2GA | G2AB cBAG | A2AB A2AB | A2AB cBAG |
+B2BA B2BA | Bdgf edcB | A2AB A2AB | ABcA GFED ||
+G2GA G2GA | G2AB cBAG | A2AB A2AB | A2AB cBAG |
+BABc dedc | BABc dedc | (3Bcd BG (3ABc AF | G2GG G2 :||
+(Bc) | d2dB d2dB | "tr"ed cB | c2cA c2cA | "tr"dc BA |
+B2BA B2BA | Bdgf edcB | A2AB A2AB | ABcA GFED |
+G2GA G2GA | G2AB cBAG |  A2AB A2AB | A2AB cBAG |
+BABc dedc | BABc dedc | (3Bcd BG (3ABc AF | G2GG G2 ||
+|: (Bc) |d2ef gfed | Bdge dcBA | G2G2 A2A2 | B2B2 A2(Bc)|
+d2ef gfed | Bdge dcBA | G2Ac BGAF | G2GG G2 :|
+|: (3BAG | F2FG A2AB | c2B2 A2G2 | F2FG A2AB | c2B2 A2Bc |
+d2ef gfed | Bdge dcBA | G2Ac BGAF | G2GG G2 :||
+S:https://www.folktunefinder.com/tunes/135413
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1556-1624_mh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

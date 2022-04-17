@@ -1,0 +1,42 @@
+X:325
+T:B325-  Nobody Else Shall Plunder But I
+Q:1/4=120
+L:1/4
+M:3/4
+K:D mixolydian
+G,ed|[B3/2G3/2]A/G|DAB|[A2D2]G|\
+G,AB|[A2D2]B|D[dB][dB]|[D3A3d3]||\
+Gg2|G,g2|Dfe|[fd][e3/2^c3/2]d/|\
+E[e^c][fd]|[e2^c2]d|[BG]=cd|[e2^c2]d|\
+[BG]d2|E[e2^c2]|Dfg|a3/2g/f|\
+G,gf|edB|Gde|dBG|\
+G,AB|[A2D2]B|G,[dB][dB]|[D3A3d3|]
+S:https://www.folktunefinder.com/tunes/131112
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM3.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM3.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM3.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM3.ABC
+S:http://www.mudcat.org/olson/BM3.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM3.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

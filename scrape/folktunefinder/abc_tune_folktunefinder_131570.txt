@@ -1,0 +1,24 @@
+X: 1
+T:Highland Mary, Bampton
+M:4/4
+L:1/8
+A:Bampton
+P:A(AB2)4
+K:A
+P:A
+(3EFG|:A2BA GFE2|A2Bc d2cd |e2ef edcB|1A2c2 E3F/G/:|2A2G2 A4||
+P:B
+  ABcd e2e2|feec (3ded cB|e2ef edcB| ABcA E3F/G/|
+  A2BA GFE2|A2Bc d2cd |e2ef edcB| A2G2 A4 ||
+S:https://www.folktunefinder.com/tunes/131570
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 10
+T:L'Orientale
+M:2/4
+L:1/16
+C:Baudimant
+S:French Creek
+K:G dorian
+A3G A2B2|ABAG A2B2|c3d c2B2|A2E2 A4|A3G A2B2|!
+ABAG A2B2|c3d c2B2|A8:||A3G A2B2|ABAG A2B2|!
+G3AG2^F2|GAG^F D4|A3G A2B2|ABAG A2B2|G2GA G2^F2|G8:||
+S:https://www.folktunefinder.com/tunes/130294
+S:http://michel.bellon.free.fr/Musique/abc/frchcrk.abc
+S:http://pineycreekweasels.net/andy/tunes/frchcrk.abc
+S:http://www.pineycreekweasels.net/andy/tunes/frchcrk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:40
+T:Kabardynka
+L:1/8
+M:2/4
+O:Ukraine
+Q:240
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000644.html
+%%ID:00000644
+K:D min
+A A2 B | c2 BA | G2 c2 | G G2 A | B2 AG | A2 F2 :: \
+D D2 F | A2 GF | E2 A2 | E E2 F | G2 FE | F2 D2 :|
+S:https://www.folktunefinder.com/tunes/130692
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

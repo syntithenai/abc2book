@@ -1,0 +1,29 @@
+X:37
+T:Silver Spire, The
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+D2(3FED FA~A2|dcde fdAF|~G2BG FADF|(3GFE FD ~E3F|\
+D2(3FED FA~A2|dcde fdAF|GABG FADF|EA,CE D3 z:|*
+A,B,CD EFGE|(3FED EF GABc|dcBA Bcde|fdgf e3A|\
+defd ceAc|dcdB AFDF|GABG FADF|EA,CE D3z:|**
+S:https://www.folktunefinder.com/tunes/135103
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

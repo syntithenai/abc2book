@@ -1,0 +1,25 @@
+X:2
+T:III. Behold a wonder here
+T:Bassus.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:3/2
+L:1/2
+K:G mix bass
+%%MIDI transpose -24
+g g g g3 e "(1)"d G3 G2 c G2 A2 e2
+N:(1) original is a whole note.
+A3 A3 |: d2 d g G c2 A2 d2 g G > A
+B c d2 G3 G3 :|
+S:https://www.folktunefinder.com/tunes/136321
+S:http://www.laymusic.org/music/dowland/behold/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 22
+T:Mrs Casey, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB)5A
+K:C
+P:A
+d|c2A ABA|G2E G2G|ABG A2B|e3 e2d|
+c2A ABA|G2E G3 |ABc d2B|c3 c3 ||
+P:B
+c2d e2f|g2a g3 |c2d e2f|g3-g3 |
+a2f g2e|f2e d2c|c2B A2G|f3 e2 ||
+S:https://www.folktunefinder.com/tunes/132490
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

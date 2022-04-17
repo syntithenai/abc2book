@@ -1,0 +1,23 @@
+X:169
+T: Der grausame Bruder
+N: Q1068N
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0068J, anderes Lied "Der Schuhknecht" .
+N: Schlusspause korrigiert.
+R: Ballade, 
+M: 4/4
+L: 1/16
+K: F
+C4 | F3FF4G4A2B2 | B2c2B2A2G4z2
+GA | B4B2A2G6A2 | F3FF2D2D4z2
+G2 | G4G4F4B3B | A3AG2E2F4
+S:https://www.folktunefinder.com/tunes/132271
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

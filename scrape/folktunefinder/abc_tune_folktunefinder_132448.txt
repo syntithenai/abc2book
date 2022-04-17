@@ -1,0 +1,24 @@
+X: 27
+T:Saturday Night, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:A(AB)3A
+K:F
+P:A
+|:A>GA/B/ c2C|DEF    E>DC|A>GA/B/ c2C|CDE F3:|
+P:B
+|:G>EC    C2C|CD/E/F E>DC|AGF     ABc|CDE F3:|
+S:https://www.folktunefinder.com/tunes/132448
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

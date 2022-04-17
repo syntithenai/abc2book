@@ -1,0 +1,28 @@
+X: 9
+T:O'Carolan's Concerto
+M:4/4
+L:1/8
+Q:120
+C:Turlough O'Carolan
+K:D
+(3ABc |d2 dd d2 cB |AB GA F2 A2 |E2 A2 D2 A2 |
+Bc de dc BA |d2 a2 fgaf |efge fgaf |gabg fdfa |
+gfed dcBA |(3Bcd (3Bcd gf g2 |AcAc fe f2
+ |GBGB e2 ed |
+cdBc A2 AG |FGAF EFGE |FGAF GABA |AFAd fedc |
+d2 dc d2 (3ABc ||d2 b2 agfe |d2 a2 c2 a2 |B2 gB ABcd |
+ecBA d3 f |edcB ca (3aga |Bg (3gfg Af (3fef |edcB ca (3aga |
+bg (3gfg bgbg |afaf edcB |(3cBA (3BAG (3AGF (3GFE |DAFA DAFA |
+(3GFE BE (3GFE BE |FAdc BAGF |EFGA BcdB
+|AFAd fedc |
+d2 dc d2 z2 ||
+S:https://www.folktunefinder.com/tunes/137400
+S:http://trillian.mit.edu/~jc/music/abc/mirror/homepage.eircom.net/collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 25
+T:Scotch Tune,A. JBa.24
+M:4/4
+L:1/8
+Q:150
+S:Joseph Barnes MS,Carlisle,1762.
+R:snap!
+O:England
+A:Carlisle
+N:No time signature.  Key signature very faint. Photocopy very faint. 1 -
+N:there is a spare "g" at the end of this bar, half a beat too many,so it
+N:has been disappeared by CGP...CGr..
+Z:vmp.C.Graebe.
+K:E major
+"see note"B2 E/F/G B>GE>G | A>FD>F d>FD>F |!
+ "1"B>GE>G e2 g/a/b |g>ef>d e/e/e e2 :|!
+|: e>gf>e B/B/B ec | d>ef>d d/d/d fd |!
+egf>e d>BA>F | G>BA>F E/E/E E2 :|]
+S:https://www.folktunefinder.com/tunes/132690
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Snap!
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

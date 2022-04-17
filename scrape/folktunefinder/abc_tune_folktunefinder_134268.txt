@@ -1,0 +1,30 @@
+X: 247
+T: Caribou
+C: R-135
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+P: E Dorian
+K: Edor
+"Em"B2ED EFGA| B2ED EFGE| "D"D2FD DADD| BDDA DDFD|
+"Em"E2ED EFGA| Bdef g2fg| "C"afge "D"efec |1 "D"dBAF "Em"EdcA :|2 "D"dBAF "Em"E4|]
+|:\
+"Em"Be2B efed| Bdef edBd| "D"Ad2A d3e| fedf edBA|
+"Em"Be2B efed| Bdef g2fg| "C"afge "D"efec| dBAF "Em"E4 :|
+%%text 2/15/99
+S:https://www.folktunefinder.com/tunes/134268
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

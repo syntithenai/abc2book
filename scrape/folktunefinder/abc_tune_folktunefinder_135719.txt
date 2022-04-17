@@ -1,0 +1,28 @@
+X:24
+T: John of Badenyon
+N: HA024
+O: Europa, Mitteleuropa, Deutschland
+N: Zeilen sind oft Varianten von Zeilenanfngen
+N: und von anderen Zeilenschlssen, s. ebw
+M: 4/4
+L: 1/16
+K: Gm
+A2 | G3_FD3FG3FD3A | B3cB3G_F6
+B2 | G3GB3cd3cB3_F | G3GB3cd6
+_f2 | g3d_f3cd3Bc2d2 | BG3_F3DB6
+c2 | d3Bc3GBG3_F3D | CC3D3FG6
+_f2 | g3_fd3fg3fd3g | _Fd3c3df6
+d2 | g3_fd3fg3fd3B | G3GB3cd6
+_f2 | g3d_f3cd3Bc2d2 | BG3_F3DB6
+c2 | d3Bc3GBG3_F3D | CC3D3_FG6
+S:https://www.folktunefinder.com/tunes/135719
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

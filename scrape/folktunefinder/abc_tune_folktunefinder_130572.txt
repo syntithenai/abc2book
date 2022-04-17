@@ -1,0 +1,31 @@
+X:31
+T:Valse de Gallice
+R:Valse
+O:
+Z:<anamnese@laposte.net>
+M:3/4
+L:1/4
+Q:3/4=80
+K:C
+P:(1)
+ecBABc e2c2 AdcBF2 c2B4
+ecBABc e2c2 AdcBE2 B2A4 ::
+P:(2)
+ABc2d2e4 e2fed2g2e4 ::
+P:(3)
+gfe def e2c2A2
+edcBcdc2A2E2
+dcBABcB2F2E2 FEF2 ^G2A2 c2e2 ::
+%%vskip 0.5cm
+%%sep
+%%text Chansons :
+S:https://www.folktunefinder.com/tunes/130572
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

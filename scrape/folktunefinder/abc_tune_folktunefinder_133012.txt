@@ -1,0 +1,27 @@
+X: 5
+%%topspace 0cm
+T: Spel-Gulle's Polska
+I: Spel-Gulle's PolskaM-2Dmhambo
+C: M-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Dm
+"Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d>A F>A|
+"Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d4:|
+\
+|: "F"a2 f>a f>a| (3aga b>a g>f| "A"g2 e>g e>g| (3gfg a>g f>e|
+   "Dm"d2 d>^c d>e| f2 f>e d^c/d/| "A"e2 e>^c AB/c/| "Dm"d2 d4:|
+%%text 9/1/98.  From Matt Fichtenbaum 1980
+S:https://www.folktunefinder.com/tunes/133012
+S:http://roaringjelly.org/music/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Misc.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

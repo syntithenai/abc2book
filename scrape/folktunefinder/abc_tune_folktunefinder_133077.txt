@@ -1,0 +1,23 @@
+X:9
+T:Newbridge Jig
+R:jig
+C:Neil Brookes
+M:6/8
+L:1/8
+Q:1/4=180
+K:Gdor
+[g2B2] BBcB|A2 GFGA|B2 B cBc|d2 d ef^f| [g2B2] B BcB|A2 G FGA|B2 BcBA|G3G3|
+[g2B2] B BcB|A2 G FGA|B2 B cBc|d2 d ef^f|[g2B2] B BcB|A2 G FGA|B2 B cBc|(d4d)|
+e|f2 f fef|g2 F FGA|B2 B cBc|d2 d ede|f2 f fef|g2 F FGA|B2 d cBA| G6|
+e|f2 f fef|g2 F FGA|B2 B cBc|d2 d ede|f2 f fef|g2 F FGA|B2 B c2 ^c| d6|
+S:https://www.folktunefinder.com/tunes/133077
+S:http://trillian.mit.edu/~jc/music/abc/mirror/brookes36.freeserve.co.uk/xpatch.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

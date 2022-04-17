@@ -1,0 +1,29 @@
+X: 0
+T: Bayrischer Bauer [G]
+T: Maderl
+R: zweifacher
+M: 32/44
+L: 1/8
+%%partsspace 0
+%%indent 400
+K: G
+"intro"| "G"[d3B3] [cA] [B2G2] | [B2G2] [c2A2] [d2B2] | "C"[e4c4] "D7"[AC][BD] | "G"[G2B,2] z ||
+|: [DB,][GD][BG] \
+| "G"[d3B3] [cA] [B2G2] | [B2G2] [c2A2] [d2B2] \
+| "C"[e4c4] | "D7"[A4F4] \
+|    [c3A3] [BG] [A2F2] | [F2A2] [B2G2] [c2A2] \
+| "G"[d4B4] | [B4G4] \
+|    [GD][BG] [B2G2] [AF][GE] | "D7"[F4D4] [D2C2] |
+|"D7"[AC][cE] [c2E2] [BD][AC] | "G"[G4B,4] [B2D2] \
+|    [B2G2] [d2B2] | "C"[c2A2] [e2G2] \
+|"D7"[A2F2] [cA][BG] [A2F2] | "G"[B2G2] [d2B2] \
+|    [G2D2] [B2G2] | "D7"[AF][BG] [c2A2] [F2C2] | "G"[G2B,2] z :|
+S:https://www.folktunefinder.com/tunes/136786
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/BayrischerBauer_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/BayrischerBauer_G.abc
+% Rhythm Zweifacher
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

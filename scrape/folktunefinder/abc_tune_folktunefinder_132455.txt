@@ -1,0 +1,34 @@
+X: 34
+T:Jockie to the Fair, Bledington 1
+M:6/8
+L:1/8
+A:Bledington
+P:AAB(CB)2
+K:G
+P:A
+d|G2A  B2c |d2g  d2c|B>dG G>FG |A>cB A2A|
+d>dd efg |f>ag d2g|e>dc A>B^c|d3   d2 ||
+P:B
+d|a>fd a>fd|cBc  B2e|gdd  gdd  |c>Bc B2c|
+e2f  g2e |d2c  Bcd|e2d  cBA  |G2F  E2D|
+G2G  ABc |e2f  g2e|dBG  Bcd  |E2F  G2A|B>dB B2A|G3 G2||
+P:C
+z|DEF  G3  |A3   B3 |c3   e3   |e3   d3 |c3   Bd2|G3 GF2|
+M:9/8
+G2A c2B A2A|\
+M:6/8
+dcd  efg |faf  d2g|fed  AB^c |d3  d2  ||
+S:https://www.folktunefinder.com/tunes/132455
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

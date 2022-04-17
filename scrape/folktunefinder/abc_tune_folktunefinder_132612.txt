@@ -1,0 +1,24 @@
+X: 5
+T:Shooting, Brackley
+M:9/8
+L:1/8
+A:Brackley
+P:A(A2B2)3
+K:G
+P:A
+G>GG B>AG B>cd|AAA A2B  c3|
+GGG  BAG  Bcd |e2d cBA  G3||
+P:B
+d2c  BAG  Bd2 |A2A A2B  c3|
+d2c  BAG  Bd2 |e2d c>BA G3||
+S:https://www.folktunefinder.com/tunes/132612
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brackley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Brackley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Brackley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:114
+T: Der junge Held
+N: Q1060E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0060A, anderes Lied. Verzierung im letzten Takt.
+R: Tage - Lied
+M: none
+L: 1/8
+K: D
+D2 | D2D2D2A3B=c2 | B2A2G4
+G2 | A2AAd3ed2 | =cBA4
+AG | A2d2=c2B2A2 | =c2d2A4
+c2 | B2A2G4A2 | =F2E2D4
+D2 | D2D2A4G2 | A_BA3G=F2 | E4D4
+S:https://www.folktunefinder.com/tunes/132216
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Tage - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

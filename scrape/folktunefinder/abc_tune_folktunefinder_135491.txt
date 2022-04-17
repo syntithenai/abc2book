@@ -1,0 +1,25 @@
+X:80
+T: Top of the Morning, The
+R: hornpipe
+N: "Collected by F. O'Neill"
+B: O'Neill's 1571
+Z: Transcribed by Michael Hogan
+M: 2/4
+L: 1/16
+K: G
+(3DEF | G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BG>B | A>GF>E D>EF>D |
+G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BA>B | G2G>G G2 :|
+|: (A>B) | c>Bc>d e2d>c | B>AB>c d2B>G | G>FG>A B2A>G | A2d>e d>cA>F |
+G>FG>A G2A>B | c>AF>A G2A>B | c>Bc>e d>BA>B | G2G>G G2 :||
+S:https://www.folktunefinder.com/tunes/135491
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1556-1624_mh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

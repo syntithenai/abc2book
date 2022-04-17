@@ -1,0 +1,25 @@
+X:45
+T:Carnaval de Lanz
+C:trad.
+O:France
+A:Pays basque
+Z:trouv sur site www.tradfrance.com
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+B/2c/2|:dd/2e/2 d/2c/2B/2A/2|G>B BB|A>B cd|e2 dB/2c/2|
+dd/2e/2 d/2c/2B/2A/2|G>B BB|A>B cF|1G2-GB/2c/2:|2G2F2|
+|:G>B dg|gfa2|A>B cd|edg2|G>B dg|gfa>g|fdef|g2-g2:|
+|:d>ddd|e>dcB|c>cce|dBG2|d>ddd|e>dcB|c>ced|1G2-G z:|2G2zg|
+|:eccd/2e/2|=fddz|d/2c/2d/2e/2 =fd|BGGg|
+ec c/2d/2e/2=f/2|g3 d/2e/2|=fdcd|1c3g:|2c3B/2c/2||
+S:https://www.folktunefinder.com/tunes/130534
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/tagafolk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 3
+T:Bean Setting, Headington
+M:12/16
+L:1/16
+A:Headington
+P:A(A2B2)4
+K:G
+P:A
+Q:400
+G3  G2A B3  B3|A2B cBA G2A B3|G3  G2A B3  B3|A2B cBA G6    ||
+P:B
+M:6/8
+L:1/8
+Q:240
+B>AG    B>AG  |B<d-d-  d2B   |A>BA    A2B   |c2d     e>dc  |\
+B>AG    B<dB  |\
+M:9/8
+A>Bc def g3  ||
+S:https://www.folktunefinder.com/tunes/131609
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Time_signature 12/16
+% Has_accompaniment_chords No chords

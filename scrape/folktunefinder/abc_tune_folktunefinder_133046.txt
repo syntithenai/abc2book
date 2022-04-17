@@ -1,0 +1,29 @@
+X:630
+T:Gardebylaten
+S:Alec Falconer, Edinburgh
+Z:Nigel Gatherer
+O:Sweden
+M:2/4
+L:1/16
+K: D
+FG | ABAF  ABAF | A2fe d2c2 |   BdBG BdBG | B2gf e2d2  | 
+     c3d   c2B2 | A2g2 f2e2 | 1 dcde fefg | a6        :|
+                              2 d2fd Acec | d3c  defg ||
+   | a2a2  fdfa | b2a2 g2f2 |   g4   BGBd | g2f2 e2d2  | 
+     c4    cdcB | A2g2 f2e2 |   dcde fefg | a6     fg  |
+   | a2a2  fdfa | b2a2 g2f2 |   g4   BGBd | g2f2 e2d2  | 
+     c4    cdcB | A2g2 f2e2 |   d2fd Acec | d3c  d2   |]
+S:https://www.folktunefinder.com/tunes/133046
+S:http://nigelgatherer.com/tunes/abc/tb13.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb13.abc
+S:http://nigelgatherer.com/tunes/abc/abc8/gardeb.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc8/gardeb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

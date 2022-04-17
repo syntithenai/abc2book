@@ -1,0 +1,32 @@
+X:40
+T:Mary Ann's Reel
+C:Ward Allen
+R:reel
+M:2/4
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:E
+b3/2a/|gb eg|af df|eg fe|dc BA|
+GE GB|eg fe|dB df|b2 ba|
+gb eg|af df|eg fe|dc BA|
+GE Gg|fe df|eg bg|e2:|
+K:B
+B2|F4 -|F^E FG|F4|B^A Bc|
+d4|Bc dg|f4 -|fg b2|
+^a4|ab ^af|c4|ce g^a|
+g4 -|gf dB|F4 -|F^E FG|
+F4 -|F^E FG|F4|B^A Bc|
+d4|Bc dg|f4 -|fg b2|
+^a4 -|^ab ^af|c4 -|ce g2|
+f4 -|f^a g^a|b4 -|b3:|
+S:https://www.folktunefinder.com/tunes/131837
+S:http://www2.redhawk.org:8080/irish/warnock/abc/W-Allen.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 14
+T:Slopes of Sliabh Luachra
+M:6/8
+L:1/8
+C:Traditional, arr. Roger Landes
+R:Jig
+K:ADor
+{B,}A,A,A, {B,}A,G,E, | E,D,E, G,G,A, | {B,}A,A,A, {B,}A,G,E, | A,B,D EFG | {B,}A,A,A, {B,}A,G,E, | E,D,E, G,A,B, | CB,A, B,A,G, |1 {B,}A,A,A, A,2 G, :|2 {B,}A,A,A, A,2 D || E2 A AGA | ABA {B}AGA | E2 G GFG | GAG GED | E2 A AGA | ABA {B}AGA | EFG EDB, |1 {C}B,A,G, A,2 D :|2 {C}B,A,G, A,2 G, ||
+S:https://www.folktunefinder.com/tunes/136091
+S:http://trillian.mit.edu/~jc/music/abc/mirror/celticmusic.com/dragon_reels.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/roger_landes/dragon_reels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

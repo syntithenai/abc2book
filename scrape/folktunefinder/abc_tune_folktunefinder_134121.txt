@@ -1,0 +1,23 @@
+X:1
+T:Lark in the Morning, The
+Z:Vancouver, Boston
+E:5
+M:6/8
+R:jig
+K:G
+dB|:AFA AFA|BGB BdB|AFA AFA|fed BdB|AFA AFA|BGB BAB|def afe|fed BdB:|*
+E:6
+def a2a|baf afe|def g2e|fed BAB|def ~a3|baf a2f|~g3  faf|edB BAB:|*
+.d2 f fef|fef fef|.d2 f fef|edB BAB|.d2 f fef|feffed|~g3 faf|edB BAF:|*
+Add fdd|ede fdB|Add fdd|edB BAF|Add fdd|ede fed|~g3 faf|edB BAF:|**
+S:https://www.folktunefinder.com/tunes/134121
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ipsi.fraunhofer.de/oasys/misc/music/sessionTunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

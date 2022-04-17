@@ -1,0 +1,27 @@
+X:1
+T:Balter Svens Parapolkett
+S:Eliza Carthy \& Nancy Kerr
+D:Shape of Scrape
+Z:Juergen Gier <fiddler@jgfiddler.de>
+L:1/8
+M:3/4
+F:http://jgfiddler.de/music/tunes.abc #66
+K:DMin
+A3^c|:{^c}d3 efa|g2gefd|^c2A2A2|A4 F2|G3 FGA|B3 dcB|
+(A6|A4) ^c2|d3 efa|g2gefg|a3 gfe|d3 cBA|B3 dcB|
+cB A2G2|(F6|1F4) A2:|2A4 A^c|:e3 e (3eee|e^cdefg|
+a2 afdf|e2^c2A2|e3 ~eed|e^cdefg|a2afdf|e2e^cAG|
+F2dAFD|E2ec A2|F2af d2|A3 GFG|A2AGFB|A2AGFE|
+D2DFED|1D4 A^c:|2D3 E D2|]D4 A2|]
+S:https://www.folktunefinder.com/tunes/134420
+S:http://jgfiddler.de/music/tunes.abc
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:scandinavian:polskas:1_balter_svens_parapolk.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

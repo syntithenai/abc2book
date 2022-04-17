@@ -1,0 +1,37 @@
+X:1
+T:Kost ar ch'oat : Bagad Cesson-Svign
+E:12
+Z:Roger Ngaret (Dcembre 98)
+R:
+C:A,B : Christophe Le Martret, C : Toniou Breizh Izel
+S:Bagad Cesson Svign
+A:Bretagne
+M:12/8
+L:1/8
+K:Eb
+T:A
+F2 E D2 C D2 E F3 | D2 E D2 E F3 D3 ::\
+F2 E D2 C D2 E F3 | D2 E D2 B, C3 B,3 :|
+T:B1
+DCB, C2 B, C2 D E2 D | E2 B D2 B C3 C3 |\
+DCB, C2 B, C2 D E2 B | C2 B D2 C B,3 B,3 :|
+T:B2
+F3 D3 E2 F G3 | E3 C3 D2 E F3 |\
+D3 B,3 C2 D E2 D |1 C2 D EDC B,2 C DCB, :|2 C2 E D2 C B,3 B,3 |:\
+DCB, C2 B, C2 D E2 D | E2 F D2 E C3 C3 |\
+DCB, C2 B, C2 D E2 D | C2 E D2 C B,3 B,3 :|
+T:C
+B,3 C2 D F2 E D3 | C2 B, C2 D F3 F3 |\
+B,3 C2 D F2 E D3 | C2 B, C2 D E3 E3 ::\
+G2 B B2 G A2 B G3 | EDE G2 E D2 E F3 |\
+G2 B B2 G A2 B G3 | B,2 B, C2 D E3 E3 :|
+S:https://www.folktunefinder.com/tunes/130971
+S:http://termen.free.fr/danses/cornouaille/KostarchoatBagadCessonSevigne.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

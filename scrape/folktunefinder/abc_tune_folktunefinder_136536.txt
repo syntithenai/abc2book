@@ -1,0 +1,22 @@
+X: 1
+T: Bath Road Hornpipe 
+T: Concertina Hornpipe
+M: 4/4
+L: 1/8
+R: hornpipe
+Z:S Gowan
+K: G
+|:D2| "G"G>A B>c d2e>f|"C"g2 d>c "G"(3BcB G2|"D"F>G A>B c>e d>c|"G"B2A>G "D" (3FAF D2|
+"G"G>A B>c d2e>f|"C"g2 d>c "G"(3BcB G2|"D"F>G A>B c>e d>c|1"G"B>G "D"A>F "G"G2:|2"G"B>G "D"A>F "G"G4||
+|:"D"d4 d4|d>e f>g a>g f>e|"C"c4 c4|c>B A>G "D" (3FAF D2|
+"G"G>A B>c d2e>f|"C"g2 d>c "G"(3BcB G2|"D"F>G A>B c>e d>c|"G"B>G "D"A>F "G" G4:|
+S:https://www.folktunefinder.com/tunes/136536
+S:http://users.rcn.com/ladysmyth/tunes/ConcertinaHP.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

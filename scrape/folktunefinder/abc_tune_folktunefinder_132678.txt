@@ -1,0 +1,34 @@
+X: 13
+T:Boniest Las in Ye World. JBa.13
+M:4/4
+L:1/4
+Q:80
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+N:1768 1769 1769 written at bottom of page. ' - there is a short vertical
+N:line over this note.  It looks deliberate.  The last note - G - in each
+N:part looks smaller than the others.CGr.
+Z:vmp.C.Graebe.
+K:G major
+"No key/time sig. in MS"Bd | dDGB | A/B/A/G/ ED |\
+ Ggf/4g/4a/4b/4 ag | !
+"'"e2d g/a/ |\
+ b/a/g/e/ gB | (A/B/)(A/G/) E D/E/ | Gg (d/e/)(g/B/) (A2G) ||!
+g/g/f/ e/f/g/e/ | a a/g/"sh" f e/d/ | g g/a/ (f/g/)(a/b/) (ag) | !
+ e2d ga | b/a/ g/e/ gB | A/B/A/G/ E D/E/ | Gg (d/e/) (g/B/) (A2G) ||!
+zzzz|!
+S:https://www.folktunefinder.com/tunes/132678
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

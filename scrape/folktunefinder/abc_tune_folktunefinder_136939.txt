@@ -1,0 +1,24 @@
+X:30
+T: Tam Lin
+S: B.Conway
+C: D.Arthur
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: Dm
+A,D (3DED CDEC|B,2 DB, FB,DB, | C2 EC GCEC |FEDC DEDC |
+A,D (3DED CDEC|B,2 DB, FB,DB, | C2 EC GCEC |FEDC A,D D2 :|
+dA A2 FADA |dA A2 fed=B |cG (3GGG dG (3GGG |=Bc c2 dcAc |
+dA A2 FADA |dA A2 FADA, |B,2 B,A, B,CDE |FDGF ED D2 :|
+S:https://www.folktunefinder.com/tunes/136939
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:4
+T:XXI. Come when I call,
+T:TENOR.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+%%MIDI transpose -12
+K:F major -8va
+z16 z16 d d e e f3 f e d e f d3 f e2 d2 g2 c2 d2 c > B A4
+z16 z16 ^c2 ^c/ c/ c ^c c ^c "(1)"c d2 d2 d4 d2 g3 e2 f2 e d2 ^c4
+N:This quarter note is missing in original
+z16 z16 z4 z F F A A
+S:https://www.folktunefinder.com/tunes/136371
+S:http://www.laymusic.org/music/dowland/call/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

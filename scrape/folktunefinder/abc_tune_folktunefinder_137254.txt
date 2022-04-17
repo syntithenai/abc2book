@@ -1,0 +1,32 @@
+X:8
+T:Lads-a-Bunchum
+S:Bacon (MDT)
+A:Adderbury
+O:English
+R:Reel
+P:A(AB)6
+M:2/2
+K:G %Transposed from F
+L:1/8
+P:A
+B3 c Bcde | c2 A2 A2 Bc | d2 d2 dcBA | B2 G2 G4 |
+B3 c Bcde | c2 A2 A2 Bc | d2 d2 dcBA | G2 G2 G2 |]
+P:B
+gf | e2 d2 d2 GA | B2 B2 B2 gf | e2 d2 c2 B2 | A2 G2 G2 gf |
+     e2 d2 d2 GA | B2 B2 B2 gf | e2 d2 c2 B2 | A2 G2 G4 |]
+%
+W: Oh dear mother, what a fool I be;
+W: Six young men come a-courting me.
+W: Five are blind and the other can't see.
+W: Oh dear mother, what a fool I be.
+S:https://www.folktunefinder.com/tunes/137254
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T:Drowsy Maggie
+M:4/4
+L:1/8
+Q:240
+K:Em
+"Em"(3EEE BE dE BE|"Em"(3EEE BE "D"AF DF|
+"Em"(3EEE BE dE BE|"Em"BABc "D"dBAF|!
+"Em"(3EEE BE dE BE|"Em"(3EEE BE "D"AF DF|
+"Em"(3EEE BE dE BE|"G"BABc "D"dAFA|!
+"D"d2 fd "A"c2ec|"D"defg afge|
+"D"d2 fd "A"c2 ec|"G"BABc "D"dAFA|!
+"D"d2 fd "A"c2 ec|"D"defg a2fg|
+"D"af"A"ge "D"fd"A"ec|"G"BA Bc "D"dB AF|
+S:https://www.folktunefinder.com/tunes/136552
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

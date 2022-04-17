@@ -1,0 +1,49 @@
+X:27
+T:Gavotte : Suite Rachel
+Z:Roger Ngaret (95, juillet 99)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+K:G
+P:Ton kentan A
+Q:1/4=156
+M:4/4
+L:1/8
+K:G
+GB dg ed B2|BA Bc B2 B2 :: GB dg ed B2|BA BA G2 G2 :|
+P:Ton kentan B
+K:C
+|: Ac ed cd e2 | (3cde fd e2 e2 ::
+Ac ed cA c2 | (3Bcd cB A2 A2 :|
+P:Ton kentan C
+K:G
+"G"dB GB dg "C"e2 | eg ec "G"d2 d2 :: dB GB (3dBG "D"A2 |
+Ac AF "G"G2 G2 :|
+P:Tamm kreiz
+M:6/8
+L:1/8
+K:C
+A A A e3 | fde c3 | ede c2 d | B2 c A3 ::
+czc cBc | dcB c2 A | ccc cBd | czB A3 :|
+P:Ton diwezhan A
+Q:1/4=156
+K:C
+e|: AG AB dc AG|AB dc/B/ A2 A2 ::
+e2 Bc (3dcB c2|(3cBA c2 BA B2| e2 Bc (3dcB c2|cB AG A2 A2:| 
+P:Ton diwezhan B
+AB cB AB c2 | Ac (3BcB A2 A2 :: cd (3efe dc e2 |
+cd (3efe ce dd | Bc (3ded Bd cc | Ac (3BcB A2 A2 :|
+S:https://www.folktunefinder.com/tunes/132791
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

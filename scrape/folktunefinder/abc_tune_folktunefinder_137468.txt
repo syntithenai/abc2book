@@ -1,0 +1,27 @@
+X:165
+T:King of the Fairies
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+F2 |EDEF GFGA |B2 B2 G3 A |B2 E2 EFGE |
+FGFE D4 |EDEF GFGA |BAGB d3 c |B2 E2 GFED |
+E6 d2 ||e2 e2 Bdef |gagf e3 f |e2 B2 BABc |
+dedc Bc d2 |e2 e2 Bdef |gagf efed |Bdeg fedf |
+e6 ef |g3 e f2 d2 |edBc d3 e |dBAF GABc |
+dBAF GFED |B2 E2 EFGA |B2 e2 e2 ef |e2 B2 BAGF |
+E6 z2 |]
+%End of file
+%  ABC2Win Version 2.1 27/06/2002
+S:https://www.folktunefinder.com/tunes/137468
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

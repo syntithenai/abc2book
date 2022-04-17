@@ -1,0 +1,28 @@
+X: 2
+P: Baby's in Black
+C: Beatles
+R: jig
+M: 6/8
+L: 1/8
+%%text Play ABABCAICABA
+K: G
+"A"\
+|: "G"[d3B3] [d3B3] | "D7"[dB][cA][cA] [c3A3] | "C7"[cA][_BG][BG] [B2G2]G \
+| "D7"F[AD][AD] [AD][dE][dF] | "G"[dB][d2G2] "C"[cE][G2C2] | "G"H[G3B,3] "D7"z3 \
+"B"\
+| "G"[d3-B3-] [dB][cA][BG] | [d3-B3-] [d2B2]G | "G7"[=f2d2][fd] [fd][ec][dB] | "C"[e3c3] z2[dB] |
+| [e2c2][ec] [ec][dB][cA] | "G"[d3B3] "D7"[FD][AF][cA] | "G"[B3G3] z3 | z3 z3 :| \
+"C"\
+[| "Em"[g3d3] [g3d3] | "A7"[gd][f^c][ec] [e3c3] | "C"[g3=c3] [g3c3] | "D7"[gc][fc][ec] [fc][dB][cA] \
+"->A" |]
+%"I"\
+%[| "G"G,3 AG=F | "D"^FeF d3 | "C7"Ecc _B2B | "D7"_dBG c3 | "G"B3 "C"AGE | "G"G,6 |]
+S:https://www.folktunefinder.com/tunes/131511
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/BeatlesP2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

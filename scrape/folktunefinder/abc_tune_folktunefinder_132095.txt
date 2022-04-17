@@ -1,0 +1,30 @@
+X: 31
+T:Fifine
+R:Polka
+C:Trad.
+O:France
+A:Centre
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:62
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-21
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+B/2c/2d/2e/2 f/2e/2f/2g/2 | fe ec | B/2c/2d/2e/2 f/2e/2f/2g/2 | e3c | B/2c/2d/2e/2 f/2e/2f/2g/2 |
+fe ec | dd/2e/2 d/2c/2B/2A/2 |1 G3c :|2 G3B/2c/2 |: [K:G] dd/2g/2 ee/2g/2 | dB/2B/2 B/2G/2B/2c/2 |
+dd/2g/2 ee/2g/2 | d3B/2c/2 | dd/2g/2 ee/2g/2 | dB Bg |1 f/2g/2f/2e/2 d/2e/2d/2c/2 | B/2c/2B/2A/2 GB/2c/2 :|2 f/2g/2f/2e/2 de/2f/2 | g4 |]
+%%footer $D   Galouvielle-MBe 2005 \nPolka France
+S:https://www.folktunefinder.com/tunes/132095
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

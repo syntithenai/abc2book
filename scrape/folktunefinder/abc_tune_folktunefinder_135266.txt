@@ -1,0 +1,24 @@
+X: 7
+T:London Pride, Longborough 2
+M:2/2
+L:1/8
+A:Longborough
+P:A(AB2)5
+K:GDor
+P:A
+|:AG|F2d2 d2f2|cccA F2G2|A2d2 dcBA|G3A G2:|
+P:B
+z2|d3e  f2d2|g2ge c2c2|d2de f2d2|g3f d4|
+d2de f2d2|c2cA F2G2|A2d2 dcBA|G3A G2||
+S:https://www.folktunefinder.com/tunes/135266
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

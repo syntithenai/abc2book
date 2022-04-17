@@ -1,0 +1,25 @@
+X:15
+T: Tim Fitzpatrick's
+S: Conway - DeMarco
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+d2 (3DDD EDB,D |d2 ef gbag | fedc dgfe | dB B2 AFFA |
+d2 (3DDD EDB,D |d2 ef gbag | fedc dBAF | AFEG FD D2 :|
+df (3fff gfeg |fdad bdad | g2 fg efge | dB B2 AFFA |
+|1 df (3fff gfeg |fdad bdad | gfec dBAF | AFEG FD D2 :|
+|2 d2 (3DDD EDB,D |d2 ef gbag | fedc dBAF | AFEG FD D2 ||
+S:https://www.folktunefinder.com/tunes/136936
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

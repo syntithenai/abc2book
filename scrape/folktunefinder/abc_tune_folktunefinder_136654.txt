@@ -1,0 +1,28 @@
+X:31
+T:I trollberg och skog
+C:Otyg
+N:Trad. /Metal
+N:Am
+D:lvefrd
+O:Sverige - Sweden - Sude
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:C
+A>B cd ec B2 |[M:3/4] ^G2 A2 =GF |[M:4/4] EA cA  B2 B2 |
+A>B cd ef c2 | B2 A>B  cd eA | [M:2/4] cB A2 :| 
+%var "A>B cd ec B2 | A2 c2 B2 A>B cde AcBA ou : cBGA |"
+S:https://www.folktunefinder.com/tunes/136654
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

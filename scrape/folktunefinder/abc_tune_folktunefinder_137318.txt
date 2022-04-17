@@ -1,0 +1,19 @@
+X: 5
+T:Major Mackie
+R: 32-bar single jig
+M:6/8
+K:D
+A|"D"ABc dcd|"G"B2e e2d|"A7"c2a a^ga|"D"f2d dcB|
+"D"ABc dcd|"G"B2e e2d|"A7"c2a gfe|"D"d3 d2:|
+e|:"D"f2f def|"Em"g2g g2f|"A7"e2e cde|"D"f3 "A7"a2f|
+"Bm"ddd def|"Em"g2B e2d|"A7"c2a gfe|"D"d3 d2:|
+S:https://www.folktunefinder.com/tunes/137318
+S:http://homepage.ntlworld.com/greenery/Minimal%20Ceilidh%20Tune%20Book/allTunesInabc.html
+% Rhythm 32-bar single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:4
+T:Bobbing Around
+M:6/8
+S:Bacon (MDT)
+A:Bampton
+O:English
+R:Jig
+P:A(AB2)4
+K:G %Transposed from A
+P:A
+D | G2A B2c | d2g g>dB | {d}c>BA d>BA | G2F E2D |
+G2A B2c | d2g g>dB | c>BA AdF | G3 G2 |]
+P:B
+B/d/ | e2A A>Bc | d>BG G>AB | c2A B2G | A2F D>Bc |
+d2B c>BA | B>AG A>Bc | d>BG A2F | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/131530
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

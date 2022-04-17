@@ -1,0 +1,22 @@
+X: 8
+T: RIDEE 6 TEMPS N 3
+M: 4/4
+L: 1/4
+Q:1/4=150
+% Last note suggests Dorian mode tune
+K:G
+|GGAB3/2 z/2 Bdc|BAGF GA3/2 z/2 A|cBAB3/2 z/2 GGG|AB3/2 z/2 B dcBA|
+GFGA3/2 z/2 AcB|AB3/2 z/2 G G3/2 z/2 GD|GG/2G/2GA B3/2 z/2 BB|dBAB A3/2 
+z/2 GD|
+GG/2G/2GA B3/2 z/2 BB|dBAB A3/2 z/2 GD|GG/2G/2GA B3/2 z/2 BB|dBAB A3/2 z
+/2 GD|
+GG/2G/2GA B3/2 z/2 BB|dBAB A3/2|
+S:https://www.folktunefinder.com/tunes/130465
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/redon.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

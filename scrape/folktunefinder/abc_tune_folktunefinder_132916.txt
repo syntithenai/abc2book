@@ -1,0 +1,33 @@
+X:6
+T:Ton double fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonio Breizh-Izel 1142 (Gro\~nvel)
+Q:C3=156
+P:M5
+M:12/8
+K:G
+P:M
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "G"G2 B "Em"B2 ({AB}G) A2 B "Bm"d2 d | "C"c2 B "D"(AG)F "G"G3 G3 :|
+|: "G"G2 ({de}d) "Bm"d>(cB) "Am"c2 d "C"e3 | "Am"c>(Bc) "D"A2 c B2 c "G"d3 |\
+"Em"B3 (BA)G "Am"A2 B "Bm"d2 d | "C"c2 B "D"(AG)F "G"G3 G3 :|
+S:https://www.folktunefinder.com/tunes/132916
+S:http://kazimodal.trad.org/partitions/dans_fisel/LE_dans_fisel/LE_dans_fisel.abc
+% Rhythm Dan?s fisel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

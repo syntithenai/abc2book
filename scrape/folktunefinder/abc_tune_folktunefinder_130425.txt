@@ -1,0 +1,30 @@
+X:1
+T:Pastourelle de Rennes
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+T:Avant-deux
+Q:1/4=160
+B2B2 |: "G"B4 d4 G4 A4 | B2B2 B2B2 "D"A4 G4 |\
+F4 G4 A4 e4 | "G"d8 B4 B2B2 | B4 d4 G4 A4 | B2B2 B2B2 "D"A4 G4 |\
+F4 E4 F4 E4 |1 "G"D12 B2B2 :|2 D12 B4 |]
+T:Tout rond
+Q:1/4=200
+d4 d2d2 d4 B4 | d4 d2d2 d4 d4 | "D"e4 d2d2 c4 B4 |1 \
+A8 A4 B4 :|2 A4 F4 "G"G4 z4 |]
+T:Balanc
+g4 g2g2 g4 f2e2 | d4 d2d2 d2c2 B4 |1 "D"A4 A2A2 A4 "G"G2A2 | \
+B8 G8 :|2 "D"A4 A2A2 A4 c2F2 | "G"G4 B2d2 g4 z4 |]
+S:https://www.folktunefinder.com/tunes/130425
+S:http://termen.free.fr/danses/rennais/PastourelledeRennes.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

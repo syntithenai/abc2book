@@ -1,0 +1,18 @@
+X:1
+T:Battle of Jerico
+M:12/8
+L:1/4
+K:C
+ A, G,/2 A, B,/2 C B,/2 C- D/2| E3/2 C3/2 E3| D3/2 D3/2 D3| E3/2 E3/2 E- D/2- C- B,/2|\
+ A, ^G,/2 A, B,/2 C B,/2 C- D/2| E3/2 C3/2 E3/2 C D/2| E3/2 D3/2 C3/2 B,3/2|\
+ A,3- A,3/2 E E/2| A E/2 E E/2 E3/2 D3/2| E/2E/2 E- E E/2E/2 A E/2E/2|\
+ E/2 E3/2 C E3-| E3/2 E E/2 A3/2 E3/2| E3/2 C3/2 D3/2- D C| D3/2 C D/2 E E/2 D3/2|\
+ C3/2 B,3/2 A,3| z3|
+S:https://www.folktunefinder.com/tunes/136637
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BATJERCO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

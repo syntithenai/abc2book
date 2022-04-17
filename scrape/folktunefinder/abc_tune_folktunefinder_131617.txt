@@ -1,0 +1,26 @@
+X: 11
+T:Hunt the Squirrel, Headington 2
+T:Drawback, Headington
+M:4/4
+L:1/8
+A:Headington
+P:A(A2B2)4A
+K:G
+Q:364
+P:A
+dede d2B2|ABAB A2G2|dede d2B2|AGAB G4||
+P:B
+d2g2 d2g2|d2b2 a4  |d3 e dcBA|GBAF G4||
+S:https://www.folktunefinder.com/tunes/131617
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

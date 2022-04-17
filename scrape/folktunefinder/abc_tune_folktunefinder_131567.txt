@@ -1,0 +1,32 @@
+X: 8
+T:Jockie to the Fair, Ascott
+M:6/8
+L:1/8
+A:Ascott
+P:AABCB
+K:G
+P:A
+D|G2A B2c|d2g d2c|BAG GFG |AcB A2A|
+Bcd efg|fga d2g|fed AB^c|d3  d2 ||
+P:B
+d|g2d g2d|cBc B2d|ege dgd |cBc B2c|
+eef g2e|dcB Bcd|edc BAG |AcA A2D|
+G2G GBd|e2f g2e|dBG GFG |E2F G2A|BcB AGF|G3 G2||
+P:C
+D|G3 A3|B3 c3|d3 g3|d3 c3|
+L:1/16
+B3A3G6 |G3F3G6|A3c3 (2BcB3|A6A4A2|
+L:1/8
+d^cd efg|fga d2g|fed AB^c|d3 d2||
+S:https://www.folktunefinder.com/tunes/131567
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ascott.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ascott.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ascott.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

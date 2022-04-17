@@ -1,0 +1,24 @@
+X:8
+T: Ritter und Magd
+N: Q0055G
+O: Osteuropa, UdSSR, Russland, Kreis Leningrad, Kamenka
+N: Grundton in der eingestrichenen Oktave.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 2/4
+L: 1/8
+K: C
+G, | CG,E,G, | CCC
+E | DCB,A, | A,G,G,
+C | F,F,CF, | E,G,C
+C | B,DFB, | DCC
+S:https://www.folktunefinder.com/tunes/132110
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

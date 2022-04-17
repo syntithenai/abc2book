@@ -1,0 +1,31 @@
+X: 3
+T: Killecrankie
+M: 4/4
+L: 1/8
+R: march
+K: Dmaj
+N: slow
+|: FG |\
+A>B{c/}AF A/F/A/B/ A>F | A>B A/B/d/F/ A2 AF/A/ | B/c/B/A/ B/A/B/d/ BA/B/ | d>e d/e/4f/4e/d/ B2 Bf/a/ |
+ba/f/ af/e/ {g/}fe/d/ e>f | d>B A/B/d/F/ A2 Ad/c/ | BA/B/ dB/d/ ed/e/ f>e | d>B A/B/d/F/ {tr}e2 D2 :|
+|: fg |\
+a>baf a/f/a/b/ a>f | a/g/f/e/ d/e/f/g/ a2 af/a/ | b>c'ba b/a/b/c'/ b>a | b/a/f/e/ d/e/f/a/ b2 bf/a/ |
+b/a/f/b/ a/f/e/a/ g/f/e/d/ e>f | d>B A/B/d/F/ A2 Ad/c/ | BA/B/ dB/d/ ee f>e | d>B A/B/d/F/ {tr}E2 D2 :|
+|: F |\
+A>B (3A/G/F/ dF (3A/G/F/ dF A>B | D/E/F/G/ A/B/d/F/ A2 Ad/c/ | B>c B/d/A/d/ B/d/A/d/ BA/B/ | d>e g/f/e/d/ B2 Bf/a/ |
+ba/f/ a>b g/f/e/d/ ed/e/ | f/e/d/B/ A/B/d/F/ A2 Ad/c/ | Bd/B/ ce/d/ d/f/b/a/ g/f/e/f/ | d/c/d/B/ A/B/d/F/ E2 D2 :|
+|: fg |\
+a>b a/g/f/e/ d/e/f/g/ a>b | a/g/f/e/ d/e/f/g/ a2 ad/a/ | b>c' ba b/a/b/c'/ b>a | b/a/g/f/ e/f/g/a/ b2 bf/a/ |
+b/a/f/b/ a/f/e/a/ g/f/e/d/ ed/e/ | f/e/d/B/ A/B/d/F/ A2 Ad/c/ | B/B/B/B/ d/d/d/d/ e/e/e/e/ f/g/f/e/ | d/c/d/B/ A/B/d/F/ {tr}E2 D2 :|]
+S:https://www.folktunefinder.com/tunes/136639
+S:http://www.thesession.org/tunes/display/5961
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

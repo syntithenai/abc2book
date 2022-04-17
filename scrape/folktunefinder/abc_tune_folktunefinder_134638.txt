@@ -1,0 +1,30 @@
+X:15
+T:Lord Cathcarts Favourite
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+C:Haydn
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:1st Lady & 2d Gent: change places, the 2d Lady & 1st Gent: do the same, down the middle & La Pousette
+%%Page:2
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001192.html
+%%ID:00001192
+K:Bb
+F | \
+FAd f2f | fed c2e | dBf ecg | (B3 A2)F | \
+FBd f2f | fed c2d | edB dcA | (c3 B2) ||
+e | \
+fga b2b | bag f2^f | ged ceg | (B3 A2)B | \
+cd=e fga | d3 b2a | agf =efg | fg=e fga |
+bfd Bdf | fed c2e | (dB).f (ec).g | (B3 A2) F |\
+Bdf f2f | fed {d}c2e | edB dcA | (c2 B2) ||
+S:https://www.folktunefinder.com/tunes/134638
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

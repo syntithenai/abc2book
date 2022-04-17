@@ -1,0 +1,21 @@
+X: 23
+T:Banjo Signal
+M:4/4
+L:1/8
+Q:1/8=440
+C:Arr. Steve Keating
+K:A
+c2d2^d2| "A"e2ef edce|"D"dcde dcBd|"A"cdcB ABcA|"E"BA=G^G E2E2|!
+"D"D(=F^F)A dAFD|"E"EFGB eB(=c^c)|"A"e(=cB)A FEA(c|"E"c)efg a4|!
+"A"a=gea (3gag ed|"D"=ged=c A(c^c)e|"A"=cBAF EAFE|"E"D(=C^C)A, B,CE2|!
+"D"D(=F^F)A dAFD| "E"EFGB eB=c^c|"A"A(B=c)e cBAF|A8|
+S:https://www.folktunefinder.com/tunes/134782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/BanjoSignal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

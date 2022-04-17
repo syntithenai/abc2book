@@ -1,0 +1,26 @@
+X: 32
+T:Highland Mary, Bledington
+M:4/4
+L:1/8
+A:Bledington
+P:AAB(CB)2
+K:G
+P:A
+|:D2|G2AG F2D2|G2AB c2Bc|d2d2 AcBA|1G4 F2:|2G3F G2||
+P:B
+  z2|e2d2 c2B2|AcBA B2c2|e2e2 AcBA| G4  F2D2|
+G2AG F2D2|G2AB c2Bc|d2d2 AcBA| G3F G2  ||
+P:C
+|:z2|D4 G4|A2G2 F4|D4 G4|A2B2 c2Bc|d2d2 AcBA|1G4 F2:|2G3F G2||
+S:https://www.folktunefinder.com/tunes/132453
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

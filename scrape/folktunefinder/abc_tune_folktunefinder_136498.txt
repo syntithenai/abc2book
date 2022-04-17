@@ -1,0 +1,25 @@
+X:5
+T: Batchelder's
+I: Batchelder'sR-54Freel
+M: C|
+R: reel
+K: F
+c2| "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGA Bcde|
+    "F"f2af "C7"efge| "F"f2c2- c2=Bc| "Bb"dcBA BAGF| "C7"EFGE "F"F2 z2:|
+|:"F"A2cA cAcA| "Bb"B2dB dBdB| "F"A2cA cAcA| "C7"BAGF EFGB|
+"F"A2cA cAcA| "Bb"B2dB dBdB| "F"Acfa "C7"bgeg| "F"f2a2 f4 :|
+%%text Roaring Jelly  R-54
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/136498
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R054_Batchelders.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R054_Batchelders.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

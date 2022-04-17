@@ -1,0 +1,23 @@
+X:126
+T: Der Spielmannssohn
+N: Q0062
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Rechicourt
+R: Ballade, Verfuehrung, Standesunterschied, Strafe, Gnade
+M: 6/4
+L: 1/16
+K: F
+ | c4A4G4F8F2G2 | A6A2B4c8
+F2c2 | c4c4c4f6g2f2e2 | d6f2c2d2c4z4
+c4 | f6e2f2e2d6c2B4 | B4c4d4c8
+F2A2 | A6c2c4c4B4A3B | G8F4F12
+S:https://www.folktunefinder.com/tunes/132228
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, standesunterschied, strafe, gnade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

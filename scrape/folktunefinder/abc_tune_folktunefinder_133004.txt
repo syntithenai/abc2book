@@ -1,0 +1,22 @@
+X:1
+T:Balkan Hills
+M:C
+L:1/8
+K:G
+R:Schottische
+a>g|"D"f>A f>e d2A2|"G"B>G d>B "D"A2 d>e|f>A A>a g>f e>d|"A"f2e2 e2 a>g|!
+"D"f>A f>e d2A2|"G"B>G d>B "D"A2 d>e|f>a ^g>a "A"=g>e c>A|"D"d4d2:|!
+f>g|"D"a>d f>a f2 e>d|"G"B>G d>B "D"A2 f>g|a>d f>a g>f e>d|"A"f2e2e2 f>g|"D"a>d f>a f2 e>d|!
+"G"B>G d>B "D"A2 d>e|[1f>a ^g>a "A"=g>e c>A|"D"d4d2:|2"D"f>A A>a "A"g>e c>A|"D"d4 d2|]!
+(3ABc|"D"d2e2f2 e>d|"G"B>G d>B "D"A2d>e|f>A A>a g>f e>d|!
+"A"f2e2e2(3ABc|"D"d2e2f2 e>d|"G"B>G d>B "D"A2d>e|f>a ^g>a "A"=g>e c>A|"D"d4d2|]!
+S:https://www.folktunefinder.com/tunes/133004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/BalkanHills.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

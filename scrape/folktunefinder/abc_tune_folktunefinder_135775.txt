@@ -1,0 +1,26 @@
+X:10
+T:The Fiddler's Fancy
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in E
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+AG | FDFA d2df | gfed cdef | gfed cdec | defg afge | 
+dAFA d2 (3def | gfed cdeg | (3fag (3fed (3egf (3edc | d2 d2 d2  ::
+fg | afdA FAdf | g2 e2 e2 ef | gfed cdef | gafg egfe | 
+dAFA dfaf | gBed cdeg | (3fag (3fed (3 egf (3 edc | d2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/135775
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

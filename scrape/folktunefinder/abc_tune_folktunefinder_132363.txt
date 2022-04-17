@@ -1,0 +1,22 @@
+X: 1
+T: Baker's, The
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+efg |: aedc BcdB | ~c2 Bc A3 F | EAGA BcdB | cBAc Befg |
+aedc BcdB | ~c2 Bc A3 F | EAGA BcdB |1 (3cBA Bc Aefg :|2 (3cBA Bc Aagf ||
+ec ~c2 ecfc | ec ~c2 ecfc | ecAc ecBA | GABc ~d2 cd |
+ec ~c2 ecfc | ec ~c2 e2 fg | agfe dcBA |1 GABc ~d2 cd :|2 GABc defg ||
+S:https://www.folktunefinder.com/tunes/132363
+S:http://www.thesession.org/tunes/display/7256
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

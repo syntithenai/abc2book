@@ -1,0 +1,42 @@
+X: 28
+T:The Nutting Girl, Bampton
+M:4/4
+L:1/8
+R:Hornpipe
+A:Bampton
+P:A.AB(CB)2
+K:G
+P:A
+BA|G2GA BAGB|d2(3cdc A2GF|G2Bc    d2g2|d4   d3 B|
+cdec A2Bc|BcdB    G2AB|c2(3AcA F2D2|G4   G2 ||
+P:B
+BA|G2g2 gefg|(3fgfd2 d2Bc|d2ef (3gagfe|f4   f3 e|
+d2g2 g3 f|e2d2    d3 B|A2B2    c2d2|efgf dBcA|
+G2GA BAGB|d2(3cdc A2GF|G2Bc    d2g2|d4   d3 B|
+cdec A2Bc|BcdB    G2AB|c2(3AcA F2D2|G4   G2 ||
+P:C
+M:2/4
+L:1/8
+B3A|\
+M:4/4
+G4 G3A|B3A G3B|d4 c4|A4 F4|G4 B3c|d4 g4|d4 d4|
+M:2/4
+L:1/8
+d2B2|\
+M:4/4
+cdec A2Bc|BcdB    G2AB|c2(3AcA F2D2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/131597
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

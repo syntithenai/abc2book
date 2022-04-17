@@ -1,0 +1,27 @@
+X: 23
+T:The Rambling Sailor
+M:4/4
+S:Roll Out the Bear'Ale
+R:Reel
+O:English
+P:A(AB3)4
+N:as used for Simon's Fancy
+K:DMix
+I:speed 400
+P:A
+|: A2 | D2 A2 AFGE  | D2 D2 c3 d  | cABG  A2 GE | D2 D2 z2 :|\
+P:B
+   A2 | ABcA  d2 dc | ABcA  d2 d2 | c2 c2 B2 B2 | ABAG  E2 \
+   E2 | D2 A2 AFGE  | D2 D2 c3 d  | cABG  A2 GE | D2 D2 z2 ||
+S:https://www.folktunefinder.com/tunes/134610
+S:http://www.freewebs.com/folkbluesnbeyond/ESMMC.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

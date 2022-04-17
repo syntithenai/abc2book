@@ -1,0 +1,30 @@
+X: 28
+T:La Berquillouse
+R:Polka
+C:Trad.
+O:France
+A:Centre
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:57
+Z:Pour toute observation mailto:galouvielle@free.fr
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-21
+M:2/4
+L:1/8
+K:C
+ee e/2d/2e/2f/2 | gg g/2f/2e/2d/2 | cB/2c/2 d/2c/2B |1 A2G2 :|2 c2c2 :: 
+K:G
+G/2A/2B/2c dd | ed gf | e2d2 | e/2d/2c/2B/2 A/2G/2A/2B/2 |1 c/2B/2c/2d/2 BA :|2 c/2d/2e/2f/2 g2 :|
+%%footer $D   Galouvielle-MBe 2005 \nPolka France
+S:https://www.folktunefinder.com/tunes/132092
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

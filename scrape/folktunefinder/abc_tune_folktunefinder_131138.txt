@@ -1,0 +1,30 @@
+X:350
+T:B350-  An Old Woman Poor and Blind
+S:(1st/3) Slur c's at end of 1st line and start of 2nd
+Q:1/4=120
+L:1/4
+M:3/4
+K:C mixolydian
+cde|f2c|d3/2(c/ B/A/)|G2A|\
+(Bc)d|efd|(^c3|c3)|\
+cdef2c|d3/2(c/ B/A/)|(Bc)d|\
+edc|fB2|(c3|c3)|\
+ABc|d2c|BA2|(GA)B|\
+(AB)c|d=B2|(c3|c2)c/c/|\
+f2c|d2A|(B3/2 c/) (d/e/4f/4)|e2d/c/|\
+d2c/A/|(Ac)d|(A3|A3)|]
+S:https://www.folktunefinder.com/tunes/131138
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM3.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM3.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM3.ABC
+S:http://www.mudcat.org/olson/BM3.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM3.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

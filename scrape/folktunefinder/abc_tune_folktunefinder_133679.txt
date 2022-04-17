@@ -1,0 +1,35 @@
+X:2
+T:The Dance of the Honeybees
+C:Charlie Lennon
+S:Davy Muir
+N:Play twice through
+N:The Cashel Set, figure 4, tune 2 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Hornpipe
+L:1/8
+M:4/4
+K:D
+AG | F2 F>E D>FA>F | G2 F>G E2 E>F |\
+G2 G>A B>de>d | c>de>d c>AG>E |
+F2 F>E D>FA>F | G2 F>G E2 E>F |\
+G2 G>A B>de>d | c>AG>E D2 :||
+(3ABc | d2 a2 f2 d2 | (3Bcd A>FD>F A>F |\
+B>ee>d B>ee>d | c>de>f g2 f>e | 
+d2 a2 f2 d2 | (3Bcd A>FD>F A>F |\
+B>ee>d c>ee>d | c>AG>E D2 :||
+S:https://www.folktunefinder.com/tunes/133679
+S:http://theflow.org.uk/text/flow_cashel.txt
+S:http://www.theflow.org.uk/text/flow_cashel.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

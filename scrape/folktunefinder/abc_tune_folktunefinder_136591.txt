@@ -1,0 +1,31 @@
+X:1
+T:The Doon
+C:Traditional
+N:Play 3 times
+N:The Paris Set, Figure 1, Tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+B:Pat McNulty, Dance Music of Ireland
+D:De Dannan, The Mist Covered Mountain
+R:Reel
+L:1/8
+M:C
+K:D
+D~F3 BFAF | DFAF E2 FE | D2 FA BAFA | (3Bcd ec dBAF |
+D~F3 BFAF | DFAF E2 FE | D2 FA BAFA | [1 Bdec d2 FE :||[2 Bdec d2 AB ||
+d2 fd Adfd | Adfd BABc | d2 fd Adfg | afeg fddA |
+d2 fd Adfd | Adfd e3 f | gfec dcBA | [1 Bdec d2 AB :|| [2Bdec d2 FE |]
+S:https://www.folktunefinder.com/tunes/136591
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

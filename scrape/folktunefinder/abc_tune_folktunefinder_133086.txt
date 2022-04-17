@@ -1,0 +1,18 @@
+X:1
+T:The Ballad of John MacLean
+M:4/4
+L:1/4
+K:F
+ A, C D2-| D2- D2| A G A2-| A2- A2| d d c c| d d c A| G F E C| D2 z2|\
+ D D E C| D D- D3/2 A/2| A3/2 A/2 B G| A2- A A| D3/2 D/2 E C| D- D D A|\
+ A3/2 G/2 F G| A3 A| B G A B| c/2 c3/2- c d| A A G F| G2- G3/2 c/2|\
+ A3/2 A/2 A F| G G2A/2-G/2| F F E E| D2||
+S:https://www.folktunefinder.com/tunes/133086
+S:http://back.numachi.com:8000/dtrad/abc/JHNMCLN2.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/JHNMCLN2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

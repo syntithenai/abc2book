@@ -1,0 +1,25 @@
+X:5
+T:Banks of Inverness, The
+T:Salmon tails up the water
+R:polka
+H:Also played in A with four parts, see #5
+H:Originally a march called "The Banks of Inverness" in Scotland and
+H:"Salmon Tails Up the Water" in Northumbria.
+Z:id:hn-polka-106
+M:2/4
+L:1/8
+K:G
+D>E DB,|DE G>A|Bd AB/A/|GE cE|D>E DB,|DE G>A|Bd AB/A/|1 G2 GE:|2 G2 GA||
+Bd dB|ce ed|Bd AB/A/|GE cE|Bd dB|ce ef|ge f/e/d|e2 ef|
+ge f/e/d|e/f/e/d/ BA|Bd AB/A/|GE cE|D>E DB,|DE G>A|Bd AB/A/|G2 GE||
+S:https://www.folktunefinder.com/tunes/135187
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Banks_of_Inverness_The_1.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

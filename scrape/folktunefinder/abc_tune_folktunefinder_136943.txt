@@ -1,0 +1,22 @@
+X:50
+T: Templeglantine
+Z: B.Black
+R: slide
+M: 12/8
+L: 1/8
+K: D
+F2 A AFA Bcd A2 A | F2 A D2 F E3 EDE |\
+F2 A AFA Bcd A2 A | F2 A E2 F DED D3 :|
+f2 d B2 A Bcd A2 A | f2 e def e3 ede |\
+f2 d B2 A Bcd A2 A | F2 A E2 F DED D3 :|
+S:https://www.folktunefinder.com/tunes/136943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,51 @@
+X:5
+T:Bonny Green Garters
+S:Bacon (MDT)
+N:As used for recessional
+A:Bampton
+O:English
+R:Jig
+P:A4(BC)5
+M:6/8
+K:D
+P:A
+A |: d>cd A>FA | B>AB ABc | d>cd efg | [1 faf edc :| [2 f3 d2 |]
+K:G
+P:B
+d |: d>cB AGF | G>AB cde | d2d  dcB | [1 B3 A2 d :| [2 A3 G2 |]
+P:C
+d |: d>cB AGF | G3 A2 d  | d>cB AGF | G3 A2 d |
+     d>cB AGF | G>AB cde | d2d  dcB | A3 G2 |]
+%
+W: Men:
+W: Oh, here's to the lassies, we love them so well,
+W: Though some are regular tartars.
+W: Here's to their stockings and here's to their shoes,
+W: And here's to their bonny green garters.
+%
+W: Women:
+W: Oh, here's to the laddies, we love them so well,
+W: though some are very slow starters.
+W: Off with their baldricks and off with their bells,
+W: And to hell with their bonny green garters.
+%
+W: Hounds:
+W: Oh, here's to the lizards, we love them so well,
+W: Though some are really iguanas.
+W: Here's snakes and the toads and frogs,
+W: And here's to the bonny green garters.
+I:speed 600
+S:https://www.folktunefinder.com/tunes/131531
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

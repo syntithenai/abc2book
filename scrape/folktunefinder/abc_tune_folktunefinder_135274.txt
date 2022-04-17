@@ -1,0 +1,28 @@
+X: 15
+T:British Grenadiers, Longborough
+M:4/4
+L:1/8
+A:Longborough
+P:A(AB2)2(AC2)2
+K:G
+P:A
+D2|G2D2 G2A2|B2cB A2Bc|d2G2 G2B2|AGFE D3D |
+G2D2 G2A2|B2AB c2Bc|d2G2 BAGF|G4   G2  ||
+P:B
+Bc|d3e  d2c2|B3c  d2d2|e2e2 dcBA|G4   F2D2|
+G2D2 G2A2|B2AB c2Bc|d2G2 BAGF|G4   G2  ||
+P:C
+Bc|d3e  d2c2|B3c  d2d2|e4   e4  |d2c2B2A2 |
+G4   G4  |F4   D4  |G2D2 G2A2|B2AB c2Bc|d2G2 BAGF|G4   G2  ||
+S:https://www.folktunefinder.com/tunes/135274
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:90
+T: Jungfer Doertchen
+N: Q0057c
+O: Suedosteuropa, Jugoslawien, Gottschee
+N: Vom Hg. geaenderte Takteinteilung. Zweistimmig notiert, Oberstimme
+N: kodiert.
+R: Ballade, Todesahnung, Tod, Selbstmord
+M: 3/2
+L: 1/8
+K: G
+D2B2B2 | BAA2z2
+ABc2e2 | edd2z2
+B2d2gf | e2d2z2
+B2A2cB | A2G4
+S:https://www.folktunefinder.com/tunes/132192
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, todesahnung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

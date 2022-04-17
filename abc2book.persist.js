@@ -57,14 +57,6 @@ function updateTuneSetting(songNumber, setting) {
  * Update the search text for a tune, renew web lookups and rerender
  */
 function updateTuneId(songNumber, tuneId) {
-  //var songlistParts = $('#songlist').val().split("\n")
-  //if (songlistParts.length > songNumber) {
-    //var line = songlistParts[songNumber]
-    //var songSetting = getMetaValueFromSongline("S",line)
-    //songSetting > 0 ? songSetting : 0
-    //var songSearchString = getTextFromSongline(line)
-    //var boost = getMetaValueFromSongline("B",line)
-    //boost = boost > 0 ? boost : 0
   var oldTune = getTuneFromCache(songNumber)
   if (oldTune) {
     $('#waiting').show()
@@ -73,11 +65,8 @@ function updateTuneId(songNumber, tuneId) {
         handleFoundTune(tune, [tune], oldTune.forceTitle, null, songNumber, function(setting) {
           if (setting !== undefined) {
             tune.useSetting = setting > 0 ? setting : 0
-            tune.forceTitle = oldTune.forceTitle
-            tune.boost = oldTune.boost
-            //songlistParts[songNumber] = "[ID:" + tuneId + "][S:"+0 + "][B:0]"+songSearchString;
-            //$('#songlist').val(songlistParts.join("\n"))
-            //saveSongList()
+            //tune.forceTitle = oldTune.forceTitle
+            tune.boost = 0
             // update tune cache
             var tunes = loadLocalObject('abc2book_tunes')
             tunes[songNumber] = tune
@@ -85,35 +74,60 @@ function updateTuneId(songNumber, tuneId) {
             generateAndRenderSingle(songNumber, tune)
             generateIndexesFromTunes()
             renderIndexes()
-            
-            $('#waiting').hide()
             $('#wrong_tune_selector_'+songNumber).hide()
+            $('#controls_'+songNumber+' .stopplayingbutton').hide()
             scrollTo('controls_'+songNumber)
           }
+          $('#waiting').hide()
         })
     }).catch(function(e) {
       console.log(["ERR",e])
+      $('#waiting').hide()
     })
   }
 }
 
+function updateTuneIdLink(songNumber, tuneId) {
+  var oldTune = getTuneFromCache(songNumber)
+  if (oldTune) {
+    $('#waiting').show()
+    $.get('https://thesession.org/tunes/'+tuneId+'?format=json&perpage=50').then(function(tune) {
+        // find default setting (with chords), save to tunes db , 
+        handleFoundTune(tune, [tune], oldTune.forceTitle, null, songNumber, function(setting) {
+          if (setting !== undefined) {
+            oldTune.id = tune.id
+            // update tune cache
+            var tunes = loadLocalObject('abc2book_tunes')
+            tunes[songNumber] = oldTune
+            saveLocalObject('abc2book_tunes',tunes)
+            $('#wrong_tune_selector_'+songNumber).hide()
+            scrollTo('controls_'+songNumber)
+          }
+          $('#waiting').hide()
+        })
+    }).catch(function(e) {
+      console.log(["ERR",e])
+      $('#waiting').hide()
+    })
+  }
+}
 
 function updateTuneAbc(songNumber, tuneId) {
   var oldTune = getTuneFromCache(songNumber)
   //console.log('updateTussneAbc',songNumber, tuneId, oldTune)
   //if (oldTune && oldTune.format) {  
-    console.log('PATHsss')
+    //console.log('PATHsss')
     $('#waiting').show()
     var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
-    console.log('PATH',p)
+    //console.log('PATH',p)
     $.get(p).then(function(abcText) {
-        console.log("RES",abcText)
-        var tune = abc2Tune(abcText)
+        //console.log("RES",abcText)
+        var tune = singleAbc2json(abcText) 
         if (tune && tune.format)  {
           tune.id = oldTune.id
-          tune.setting_id = oldTune.setting_id
-          tune.forceTitle = oldTune.forceTitle
-          tune.boost = oldTune.boost
+          //tune.setting_id = oldTune.setting_id
+          ////tune.forceTitle = oldTune.forceTitle
+          //tune.boost = oldTune.boost
 
           var tunes = loadLocalObject('abc2book_tunes')
           tunes[songNumber] = tune
@@ -124,9 +138,59 @@ function updateTuneAbc(songNumber, tuneId) {
           
           $('#waiting').hide()
           $('#wrong_tune_selector_'+songNumber).hide()
+          $('#controls_'+songNumber+' .stopplayingbutton').hide()
           scrollTo('controls_'+songNumber)
         }
     }).catch(function(e) {
+      $('#waiting').hide()
+      console.log('ERR',e)
+    })
+  //} else {
+    //console.log('MISSING OLD TUNE')
+  //}
+}
+
+function updateTuneAbcGrab(songNumber, tuneId) {
+  var oldTune = getTuneFromCache(songNumber)
+  //console.log('updateTussneAbc',songNumber, tuneId, oldTune)
+  //if (oldTune && oldTune.format) {  
+    console.log('PATHsss')
+    $('#waiting').show()
+    var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
+    console.log('PATH',p)
+    $.get(p).then(function(abcText) {
+        console.log("RES",abcText)
+        var key = ensureText(getMetaValueFromAbc("K",abcText).trim())
+        //var tune = abc2Tune(abcText)
+        //if (tune && tune.format)  {
+        oldTune.useSetting = 0
+        oldTune.settings = [
+          {
+              "key": key,
+              "abc": getNotesFromAbc(abcText),
+              "member": {
+              },
+              
+          }
+        ]
+        //tune.setting_id = oldTune.setting_id
+        //tune.forceTitle = oldTune.forceTitle
+        //tune.boost = oldTune.boost
+
+        var tunes = loadLocalObject('abc2book_tunes')
+        tunes[songNumber] = oldTune
+        saveLocalObject('abc2book_tunes',tunes)
+        generateAndRenderSingle(songNumber, tune)
+        generateIndexesFromTunes()
+        renderIndexes()
+        
+        $('#waiting').hide()
+        $('#wrong_tune_selector_'+songNumber).hide()
+        $('#controls_'+songNumber+' .stopplayingbutton').hide()
+        scrollTo('controls_'+songNumber)
+        
+    }).catch(function(e) {
+      $('#waiting').hide()
       console.log('ERR',e)
     })
   //} else {
@@ -139,19 +203,15 @@ function updateTuneAbc(songNumber, tuneId) {
  * Update the search text for a tune, renew web lookups and rerender
  */
 function updateTuneSearchText(songNumber, newSearchText) {
+  saveSearchText(songNumber,newSearchText)
+  //$('#waiting').show()
   $('#wrong_tune_input_'+songNumber+' .tune_selector_option').val(newSearchText)
   if ($('#wrong_tune_input_'+songNumber).val().trim()==='') {
     $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').html('')
   } else {   
-    //var songlistParts = $('#songlist').val().split("\n")
-    //if (songlistParts.length > songNumber) {
-      //songlistParts[songNumber] = newSearchText
-      //$('#songlist').val(songlistParts.join("\n"))
-      //saveSongList()
     var tune = getTuneFromCache(songNumber)
     if (tune) {
       var songSetting = tune.useSetting > 0 ? tune.useSetting : 0
-      //songSetting > 0 ? songSetting : 0
       $('#waiting').show()
       $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
         // cache search results
@@ -159,17 +219,33 @@ function updateTuneSearchText(songNumber, newSearchText) {
         var searchCache = loadLocalObject('abc2book_search')
         searchCache[safeString(newSearchText)] = searchRes.tunes
         saveLocalObject('abc2book_search',searchCache)
-
         $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').html('')
-        
         if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
           searchRes.tunes.map(function(tune) {
-            $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + tune.id + '); return false;" >'+tune.name+'</a></li>')
+              var loadButton = $('<button style="margin-right: 0.5em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" role="image" ><title>Load from thesession.org</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>')
+              loadButton.click(function(e) {
+                updateTuneId(songNumber, tune.id); 
+                return false; 
+              })
+              var linkButton = $('<button style="margin-right: 0.5em"><svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Link to thesession.org</title><path fill="none" d="M0 0h24v24H0z"/><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z"/></svg></button>')
+              linkButton.click(function(e) {
+                updateTuneIdLink(songNumber, tune.id); 
+                return false; 
+              })
+            var option = $('<li class="list-group-item tune_selector_option" ><span>'+getTuneName(tune)+'</span></li>')
+            var buttonBlock=$('<div style="float: left" ></div>')
+            buttonBlock.append(loadButton)
+            buttonBlock.append(linkButton)
+            option.append(buttonBlock)
+            $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').append(option)
           })
         }
+        $('#waiting').hide()
       }).catch(function(e) {
         console.log(["ERR",e])
+        $('#waiting').hide()
       })
+      
     }
   }
 }
@@ -177,49 +253,43 @@ function updateTuneSearchText(songNumber, newSearchText) {
  * Update the search text for ABC
  */
 function updateTuneSearchAbcText(songNumber, newSearchText) {
-  //console.log('ABC srch',songNumber, newSearchText)
+  saveAbcSearchText(songNumber,newSearchText)
   $('#wrong_abc_input_'+songNumber+' .abc_selector_option').val(newSearchText)
   if ($('#wrong_tune_input_'+songNumber).val().trim()==='') {
     $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
   } else {   
-    //var songlistParts = $('#songlist').val().split("\n")
-    //if (songlistParts.length > songNumber) {
-      //songlistParts[songNumber] = newSearchText
-      //$('#songlist').val(songlistParts.join("\n"))
-      //saveSongList()
     var tune = getTuneFromCache(songNumber)
     if (tune) {
       var songSetting = tune.useSetting > 0 ? tune.useSetting : 0
-      //songSetting > 0 ? songSetting : 0
       $('#waiting').show()
-      
       searchIndex(newSearchText, function(searchRes) {
-      //$.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
-        // cache search results
-        //searchRes = searchIndex(newSearchText)
-        //console.log('SEARCH RES',searchRes)
         if (searchRes) {
-          //var searchCache = loadLocalObject('abc2book_search')
-          //searchCache[safeString(newSearchText)] = searchRes.tunes
-          //saveLocalObject('abc2book_search',searchCache)
-
           $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
-          //console.log('render abc wront items',searchRes)
           if (searchRes && searchRes.length > 0 && searchRes[0].id) {
             searchRes.map(function(tune) {
-              var button = $('<a>'+tune.name+'</a>')
-              button.click(function(e) {
-                //console.log('clickkjlakjlkj')
+              var loadButton = $('<button style="margin-right: 0.5em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" role="image" ><title>Load tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>')
+              loadButton.click(function(e) {
                 updateTuneAbc(songNumber, tune.id); 
                 return false; 
               })
-              var li = $('<li class="list-group-item abc_selector_option" ></li>')
-              li.append(button)
-              $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').append(li)
-              //console.log('create abc up button')
+              var grabButton = $('<button style="margin-right: 0.5em"><svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Load the music</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.535V3h8v2h-6v12a4 4 0 1 1-2-3.465zM10 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></button>')
+              grabButton.click(function(e) {
+                updateTuneAbcGrab(songNumber, tune.id); 
+                return false; 
+              })
+              
+              var option = $('<li class="list-group-item tune_selector_option" ><span>'+getTuneName(tune)+'</span></li>')
+              var buttonBlock=$('<div style="float: left" ></div>')
+              buttonBlock.append(loadButton)
+              buttonBlock.append(grabButton)
+              //buttonBlock.append(grabButton)
+              option.append(buttonBlock)
+              $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').append(option)
             })
           }
         }
+        $('#waiting').hide()
+        
       })
     }
   }
@@ -246,18 +316,18 @@ function loadIndex(callback) {
 
 function searchIndex(text, callback) {
   $('#waiting').show()
-  console.log('sesarch index',text)
+  //console.log('sesarch index',text)
   loadIndex(function(index) {
-    console.log('sesarch index loaded',index)
+    //console.log('sesarch index loaded',index)
     var matches = {}
     var cleanText = stripText(text)
     var parts = cleanText.split(" ")
-    console.log('sesarch tokens',parts)
+    //console.log('sesarch tokens',parts)
     parts.forEach(function(part) {
-      console.log('sesarch tokens P',part, index.tokens)
+      //console.log('sesarch tokens P',part, index.tokens)
       if (index.tokens.hasOwnProperty(part) && Array.isArray(index.tokens[part])) {
         index.tokens[part].forEach(function(matchItem) {
-          console.log('handlepart',part,matchItem,matches,matches[matchItem])
+          //console.log('handlepart',part,matchItem,matches,matches[matchItem])
           if (matches[matchItem] > 0) {
             matches[matchItem] = matches[matchItem] + 1
           } else {
@@ -275,7 +345,7 @@ function searchIndex(text, callback) {
         return -1
       }
     })
-    console.log('full matches', matches, fullMatches)
+    //console.log('full matches', matches, fullMatches)
     $('#waiting').hide()
     callback(fullMatches.map(function(a) {return {id: a.id, name: a.name}}))
   })
@@ -315,16 +385,6 @@ function delayedUpdateSearchAbcResults(songNumber,delay=500) {
 }
 
 function addNewTuneToStartOfList(searchText) {
-   // from songlist
-   //var songlist = $('#songlist').val().split("\n")
-   //songlist.unshift(searchText)
-   //$('#songlist').val(songlist.join("\n"))
-   //saveSongList()
-   // from html
-   //$('#music_'+songNumber).remove()
-   //$('#cheatsheet_music_'+songNumber).remove()
-   //$('#controls_'+songNumber).remove()
-   //// from controls_
    // tunes data
    var tunes = loadLocalObject('abc2book_tunes')
    var clean = {}
@@ -336,11 +396,7 @@ function addNewTuneToStartOfList(searchText) {
    var name = getTextFromSongline(searchText)
    clean[0] = {forceTitle: name, name: name, settings: []} 
    saveLocalObject('abc2book_tunes', clean)
-   //// indexes
-   //generateIndexesFromTunes()
-   //console.log('TIMER gen index', (new Date().getTime() - start))
-   //renderIndexes()
-    
+   resetSearchTexts()
    generateAndRender()
 }
 
@@ -376,19 +432,19 @@ function getSearchResult(searchText) {
    
 }
 
-function getSearchCache(songNumber) {
-  var tuneCache = loadLocalObject('abc2book_tunes')
-  if (tuneCache && tuneCache[songNumber]) {
-    var tune = tuneCache[songNumber];
-    if (tune && tune.forceTitle) {
-      var searchCache = loadLocalObject('abc2book_search')
-      var key = safeString(tune.forceTitle)
-      if (searchCache) return searchCache[key]
-    }
-  }
-  return []
+//function getSearchCache(songNumber) {
+  //var tuneCache = loadLocalObject('abc2book_tunes')
+  //if (tuneCache && tuneCache[songNumber]) {
+    //var tune = tuneCache[songNumber];
+    //if (tune && tune.forceTitle) {
+      //var searchCache = loadLocalObject('abc2book_search')
+      //var key = safeString(tune.forceTitle)
+      //if (searchCache) return searchCache[key]
+    //}
+  //}
+  //return []
           
-}
+//}
 
 function getSettings(songNumber) {
   var tuneCache = loadLocalObject('abc2book_tunes')
@@ -467,8 +523,8 @@ function submitSaveSetting() {
     cb.writeText(abc).then(function() {
        if (confirm('ABC text Copied! Next a window will open where you can paste the ABC text, edit the music and update this setting.')) {
          var a = window.open('https://thesession.org/tunes/'+tune.id+"/edit/"+setting.id,'submitwindow')
-         alert('When you have submitted your tune to thesession.org, click OK to reload your tune.')
          a.focus()
+         alert('When you have submitted your tune to thesession.org, click OK to reload your tune.')
          updateTuneId (songNumber,tune.id)
          showContentSection('music')
          scrollTo('controls_'+songNumber)
@@ -551,7 +607,7 @@ function filterMusicList(searchString) {
     } else {
       var l = searchString.trim().toLowerCase()
       var aliases = tune.aliases ? tune.aliases.join(",") : ''
-      if ((tune.name && tune.name.toLowerCase().indexOf(l) !== -1) || (tune.forceTitle && tune.forceTitle.toLowerCase().indexOf(l) !== -1)|| (aliases.toLowerCase().indexOf(l) !== -1)) {
+      if ((getTuneName(tune).indexOf(l) !== -1) || (aliases.toLowerCase().indexOf(l) !== -1)) {
         console.log('show',songNumber)
         $('#controls_'+songNumber).show()
         $('#music_'+songNumber).show()
@@ -566,3 +622,43 @@ function filterMusicList(searchString) {
 }
 
 
+function loadSearchText(songNumber) {
+  var texts = loadLocalObject('abc2book_searchtexts')
+  var text = texts[songNumber]
+  if (text && text != undefined && text.trim().length > 0) {
+      return texts[songNumber]
+  } else {
+    var tune = getTuneFromCache(songNumber)
+    return getTuneName(tune)
+  }
+}
+
+function saveSearchText(songNumber,text) {
+  var texts = loadLocalObject('abc2book_searchtexts')
+  texts[songNumber] = text
+  saveLocalObject('abc2book_searchtexts', texts)
+}
+
+
+function loadAbcSearchText(songNumber) {
+  var texts = loadLocalObject('abc2book_abcsearchtexts')
+  var text = texts[songNumber]
+  if (text && text != undefined && text.trim().length > 0) {
+      return texts[songNumber]
+  } else {
+    var tune = getTuneFromCache(songNumber)
+    return getTuneName(tune)
+  }
+  
+}
+//saveLocalObject('abc2book_abcsearchtexts', {})
+function saveAbcSearchText(songNumber,text) {
+  var texts = loadLocalObject('abc2book_abcsearchtexts')
+  texts[songNumber] = text
+  saveLocalObject('abc2book_abcsearchtexts', texts)
+}
+
+function resetSearchTexts() {
+ saveLocalObject('abc2book_searchtexts',{})
+ saveLocalObject('abc2book_abcsearchtexts',{})
+}

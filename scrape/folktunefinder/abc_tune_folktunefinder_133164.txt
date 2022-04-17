@@ -1,0 +1,94 @@
+X: 1
+%% titleleft true
+%% titlefont Arial 16
+T: Set 1
+R:jig
+M:6/8
+L:1/8
+K:A
+%%multicol start
+%%rightmargin 12cm
+%% text Buttermilk Mary
+A/B/|cAE FEC|EAc ecA|
+%%text To the Ladies
+R:jig
+M:6/8
+L:1/8
+K:A
+ecA BAF|AFE EFA|
+%%text Tobin's Favourite
+R:jig
+M:6/8
+L:1/8
+K:D
+DFA dcd|ecA cde|
+%%text Humours of Glendart
+R:jig
+M:6/8
+L:1/8
+K:D
+BAF AFD|FEF DFA|
+%%text Connaughtman's Rambles
+R:jig
+M:6/8
+L:1/8
+K:D
+G|FAA dAA|BAB dAG|
+%%text The Frost is All Over
+R:jig
+M:6/8
+L:1/8
+K:D
+A|def edB|AFD E2D|
+%%multicol new
+%%rightmargin 1cm
+%%leftmargin 12cm
+%%text Johnny Harling
+M:6/8
+R:jig
+L:1/8
+K:Ador
+A2B cBA|eAB cBA|
+%%text Rambling Pitchfork
+M:6/8
+R:jig
+L:1/8
+K:D
+~F3 AFF|dFF AFD|~G3 ABc|
+%%text Brennan's
+R:jig
+M:6/8
+L:1/8
+K:D
+~F3 FED|FAF FEF|DFA dAF|
+%%text Father Tom's Wager
+M:6/8
+R:jig
+L:1/8
+K:G
+dge dBG|AEF GDB,|
+%%text Old Man Dillon
+M:6/8
+R:jig
+L:1/8
+K:Ador
+EAA ABd|edB c2A|
+%%text The Blarney Pilgrim
+M:6/8
+R:jig
+L:1/8
+K:Dmix
+DED DEG|A2G ABc|
+%%multicol end
+S:https://www.folktunefinder.com/tunes/133164
+S:http://www.mail-archive.com/abcusers@yahoogroups.com/msg00179.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

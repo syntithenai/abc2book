@@ -1,0 +1,26 @@
+X:2
+%abctab2ps format
+%
+%%titlefont Times-Roman 18
+T:Ich bins erfreut
+T:Contratenores
+C:Glogauer Liederbuch, Number 206
+M:C
+L:1/2
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on first line
+K:F
+F2 F > E F3/2 E// D// C > B, A, A2 G F/ G/ E/ B/ c A G F D/ E/ F/ G/ A/ B/ c > A B/ c/ A > E F3/2 E// D//
+C2 z c c c B G A/ G/ F/ E/ D A G c A d3/2 c// B// c2 B c > d e f e > d c3/2 B// A//
+G A > F G A > B c c/ A F/ G A2 z d d3/2 c// B// A3/2 G// F// E A G F > E F/ G/ A/ B/ c > A B/ c/ HA4 |]
+S:https://www.folktunefinder.com/tunes/136342
+S:http://www.laymusic.org/music/glogauer/206/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

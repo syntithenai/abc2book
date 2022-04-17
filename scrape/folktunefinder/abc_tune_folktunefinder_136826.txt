@@ -1,0 +1,70 @@
+X:1
+T:Bb Blues
+M:4/4
+L:1/8
+Q:1/4=140
+C:Jamey Aebersold
+Z:Luis Pablo Gasparotto
+K:Bb
+V:1 name="Alto 1"
+%%MIDI program 65
+z2|:z8|z6 z =B|cc dc e d2 c-|
+c6 z2|z8|z6 z _d|cc dc e d2 c-|
+c6 z2|z F AB cF z2|z E G_A BE z2|cc dc e d2 c-|1
+c6 z2:|2 c6 z2|:
+"Bb7"z8|"Bb7"z8|"Bb7"z8|"Bb7"z8|
+"Eb7"z8|"Eb7"z8|"Bb7"z8|"Bb7"z8|
+"F7"z8|"Eb7"z8|"Bb7"z8|1 "Bb7"z8:|2
+"Bb7"z8|:z8|z6 z =B|cc dc e d2 c-|
+c6 z2|z8|z6 z _d|cc dc e d2 c-|
+c6 z2|z F AB cF z2|z E G_A BE z2|cc dc e d2 c-|1
+c6 z2:|2 cc dc e d2 c-|cc dc e d3 |c8|]
+V:2 name="Alto 2"
+%%MIDI program 65
+z2|:z8|z6 z =E|FF GF _A G2 F-|
+F6 z2|z8|z6 z G|FF GF _A G2 F-|
+F6 z2|z F AB cF z2|z E G_A BE z2|FF GF _A G2 F-|1
+F6 z2:|2 F6 z2|:
+"Bb7"z8|"Bb7"z8|"Bb7"z8|"Bb7"z8|
+"Eb7"z8|"Eb7"z8|"Bb7"z8|"Bb7"z8|
+"F7"z8|"Eb7"z8|"Bb7"z8|1 "Bb7"z8:|2
+"Bb7"z8|:z8|z6 z =E|FF GF _A G2 F-|
+F6 z2|z8|z6 z G|FF GF _A G2 F-|
+F6 z2|z F AB cF z2|z E G_A BE z2|FF GF _A G2 F-|1
+F6 z2:|2 FF GF _A G2 F-|FF GF _A G3|F8|]
+V:3 name="Tenor"
+%%MIDI program 66
+F,2|:B,6- B,G,|F,B,, z2 z2 z =B,|CC DC E D2 C-|
+C6 F2|B6- BG|FB, z2 z2 z _D|CC DC E D2 C-|
+C6 z2|z8|z8|CC DC E D2 C-|1
+C6 F,2:|2 C6 z2|:
+"Bb7"z8|"Bb7"z8|"Bb7"z8|"Bb7"z8|
+"Eb7"z8|"Eb7"z8|"Bb7"z8|"Bb7"z8|
+"F7"z8|"Eb7"z8|"Bb7"z8|1 "Bb7"z8:|2
+"Bb7"z6 F,2|:B,6- B,G,|F,B,, z2 z2 z =B,|CC DC E D2 C-|
+C6 F2|B6- BG|FB, z2 z2 z _D|CC DC E D2 C-|
+C6 z2|z8|z8|CC DC E D2 C-|1
+C6 F,2:|2 CC DC E D2 C-|CC DC E D3|C8|]
+V:4 name="BS/TS2 "
+%%MIDI program 67
+F,2|:B,6- B,G,|F,B,, z2 z2 z G,|_A,A, B,A, C B,2 A,-|
+_A,6 F,2|B,6- B,G,|F,B,, z2 z2 z G,|_A,A, B,A, C B,2 A,-|
+_A,6 z2|z F, A,B, CF, z2|z E, G,_A, B,E, z2|_A,A, B,A, C B,2 A,-|1
+_A,6 F,2:|2 _A,6 z2|:
+"Bb7"z8|"Bb7"z8|"Bb7"z8|"Bb7"z8|
+"Eb7"z8|"Eb7"z8|"Bb7"z8|"Bb7"z8|
+"F7"z8|"Eb7"z8|"Bb7"z8|1 "Bb7"z8:|2
+"Bb7"z6 F,2|:B,6- B,G,|F,B,, z2 z2 z G,|_A,A, B,A, C B,2 A,-|
+_A,6 F,2|B,6- B,G,|F,B,, z2 z2 z G,|_A,A, B,A, C B,2 A,-|
+_A,6 z2|z F, A,B, CF, z2|z E, G,_A, B,E, z2|_A,A, B,A, C B,2 A,-|1
+_A,6 F,2:|2 _A,A, B,A, C B,2 A,-|_A,A, B,A, C B,3|_A,8|]
+S:https://www.folktunefinder.com/tunes/136826
+S:http://abcmr.sourceforge.net/BbBlues.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

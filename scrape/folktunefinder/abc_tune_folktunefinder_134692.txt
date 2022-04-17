@@ -1,0 +1,24 @@
+X:12
+T:Kesh Jig
+R:jig
+N:Learned from David Lindquist
+Z:Michael Abraham Shulman
+M:6/8
+L:1/8
+K:G
+|:"G"~G3 GAB|"C"~A3 "D"ABd|"G"edd gdd|"C"edB "D"dBA|
+"G"~G3 GAB|"D"~A3 ABd|"C"edd "G"gdB|"D"AGF "G"G3:|
+|:"G"B2B dBd|"C"ege "G"dBG|B2B dBG|"D"ABA AGA|
+"G"B2B dBd|"C"ege "G"dBd|"C"gfg "D"aga|"C"bgf "G"g3:|
+S:https://www.folktunefinder.com/tunes/134692
+S:http://www.ellwood.org/slow/slow.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

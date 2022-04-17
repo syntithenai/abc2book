@@ -1,0 +1,28 @@
+X:6
+T:Ton double plin
+%T:TD2
+G:Kazimodal
+R:Das Plin
+C:Traditionnel
+Q:C2=160
+P:FG4
+M:4/4
+S:basse bourdon accordon
+K:Em
+"Em"B \
+P:G
+|: "D"A>G AB "C"ED EB | "D"A>G "Bm"AB "Em"E2 EB :|
+|: "D"A>G AB "C"ed BB | "D"AG "Am"Ac "Bm"B3 "G"B |\
+"D"A>G AB "C"ed BB | "D"A>F "C"G"D"F "Em"E2 EB :|
+S:https://www.folktunefinder.com/tunes/134385
+S:http://kazimodal.trad.org/partitions/plin/LE_plin/LE_plin.abc
+% Rhythm Das plin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

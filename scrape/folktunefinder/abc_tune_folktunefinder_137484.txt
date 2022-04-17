@@ -1,0 +1,60 @@
+X:1
+T:Beer Beer Beer
+C:Traditional
+S:Wylde Nept
+Z:ABC by Thornton Rose, 2002.
+G:Whistle Accompaniment
+M:2/4
+L:1/8
+K:D
+%intro
+d2 c2 | B>B cc | d2 c2 | B4 |:
+%verse
+A4 | {B}A2 D2 | E2 F2 | D4 | A4 | {B}A2 d2 | B4 | {cB}A4 |
+A4 | {B}A2 D2 | E2 F2 | D4 | F2 F2 | F2 F2 | E2 F2 | D4 ||
+%chorus
+d>c d>c | d2 A>A | BB cc | d4 | d2 ~d>d | d2 A2 | B>c B>c | A4 |
+d>c d>c | d2 A>A | BB cc | d4 | d2 ~d>d | d2 A2 | BB cc | d2 c2 |
+B>B cc | d2 c2 | [1 B4 :| [2 B>B cc | d2 c2 | B3 B | BB cc | d2 d2 |]
+%
+W:Beer, beer, beer, tiddly, beer, beer, beer.
+W:
+W:A long time ago, way back in history,
+W:When all there was to drink was nothin' but cups of tea.
+W:Along came a man by the name of Charlie Mops,
+W:And he invented a wonderful drink, and he made it out of hops. Hey!
+W:
+W:Chorus:
+W:He must have been an admiral, a sultan or a king,
+W:And to his praises we shall always sing.
+W:Look what he has done for us he's filled us up with cheer!
+W:Lord bless Charlie Mops, the man who invented beer, beer, beer.
+W:Tiddly, beer, beer, beer.
+W:
+W:The Curtis bar, the James' Pub, the Hole in the Wall as well.
+W:One thing you can be sure of, it's Charlie's beer they sell.
+W:So all ye lads an' lasses at eleven o'clock ye stop.
+W:For five short seconds, remember Charlie Mops. 1 2 3 4 5 Hey!
+W:(Chorus)
+W:
+W:A barrel of malt, a bushel of hops, you stir it around with a stick.
+W:The kind of lubrication to make your engine tick.
+W:Forty pints of wallop a day will keep away the quacks.
+W:Its only eight pence hapenny and one and six in tax. 1 2 3 4 5 Hey!
+W:(Chorus)
+W:
+W:The Lord bless Charlie Mops!
+%
+N:Counting after verses 2 and 3 goes 1 (beat) 2 (beat) 3 (beat) 4 (beat) 5 (beat) (beat) Hey!
+S:https://www.folktunefinder.com/tunes/137484
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BeerBeerBeer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BeerBeerBeer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BeerBeerBeer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

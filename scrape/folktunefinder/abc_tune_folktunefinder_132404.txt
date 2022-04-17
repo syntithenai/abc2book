@@ -1,0 +1,27 @@
+X:3
+T:Bobby and Joan
+A:Field Town
+O:English
+S:Bacon (MDT)
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:A(AB2)4
+K:G %Transposed from A
+P:A
+D | G2e d2c | ded cBA | GFG ABc | d2B G2 :|
+P:B
+G | ABA E2E | ABA E2D | GFG ABc | d2B G2 :|
+S:https://www.folktunefinder.com/tunes/132404
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

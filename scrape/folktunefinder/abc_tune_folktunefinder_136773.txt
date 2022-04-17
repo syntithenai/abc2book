@@ -1,0 +1,41 @@
+X: 1
+T: Baym Rebn in Palestine
+O: Itsikal Kremptvays
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: from transcription by Glenn Dickson
+D: Naftule's Dream Music
+R: bulgar
+M: 4/4
+L: 1/16
+K: Dm
+"A"\
+|: A2"A7"B2A2 \
+| "Dm"A8 z2 G2"A7"E2F2 | "Dm"D8 z2 A2^c2d2 \
+| "A"e8 "(Gm)"z2G2A2B2 | "A"A8 z2A2B2A2 |
+| "Dm"d8 z2 A2"D7"B2A2 | "Gm"G8 z2E2G2B2 \
+| "A"A6G2 AGF2 FED2 | "Dm"D8 z2 :|
+"B"\
+|: z2 "C7"C4 \
+| "F"C2F2 "C7"BAG2 "F"A6 GF | "C7"EFG2 GFE2 "F"F8 \
+| "F"c6 ^c2 "C7"d2B2 G2B2 | "F"A8- "A7"A8 |
+| "Dm"d6 e2 fed2 "(D7)"cBA2 | "Gm"G8 G4 c2B2 \
+| "A"A6 G2 AGF2 FED2 | "Dm"D8 z2 :|
+"C"[K:Dphr^F]\
+|: z4"A7"AG \
+| "D"FGA2 A2{BA}G2 F2{GF}D2 A2G2 | FGA2 A2{BA}G2 "Cm"F2E2 "D"D4 \
+| "D"FGA2 A2{BA}G2 F2{GF}D2 A2G2 | "Cm"AGGF FEED "D"D2 :|
+S:https://www.folktunefinder.com/tunes/136773
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/BaymRebnInPalestine_bulgar_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BaymRebnInPalestine_bulgar_Dm.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

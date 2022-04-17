@@ -1,0 +1,54 @@
+X:8
+T:Danse du Roy
+T:(Basse dansse 8)
+C:Tielman Susato
+B:Tielman Susato: Danserye (1551) no. 8
+R:Basse dance
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-08.abc
+M:4/2
+L:1/2
+Q:1/2=180
+K:Bblyd
+V:1
+c/B/c/d/cB|AGFE|D2DD|D2C/D/E/F/|G2GG|G/A/B/A/ G/F/E/D/|E2EE|E2E2|
+V:2
+F2FF|FEDC|B,2A,2|B,2C2|D2G,>A,|B,/C/D2C|C2CC|C2CE|
+V:3
+A,>B,CD|C>B,A,>G,|F,G,2F,|G,2G,A,|B,2C2|B,3G,|G,2G,G,|G,2G,2|
+V:4
+F,2F,B,,|F,C,D,A,,|B,,G,,D,2|G,,2C,2|G,,2C,/D,/E,/F,/|G,3C,|C,2C,C,|C,2C,2|
+%
+V:1
+c/B/c/d/cB|AGFE|D2DD|D2C/D/E/F/|G2GF|E/F/G/F/ E/D/F/E/|F2FF|F2|
+V:2
+F2FF|FEDC|B,2A,2|B,2C2|D2D2|G,A,/B,/C2|A,2A,A,|A,2|
+V:3
+A,>B,CD|C>B,A,>G,|F,G,2F,|G,3A,|B,2B,A,/B,/|CB,/A,/G,2|F,2F,F,|F,2|
+V:4
+F,2F,B,,|F,C,D,A,,|B,,G,,D,2|G,,2C,C,|G,,2D,2|C,2C,2|F,,2F,,F,,|F,,2|
+%
+V:1
+|:"^Reprise"FF|B2BB|cB/A/ G/A/B/c/|d2dd|d2cd|_edcB|AGBA|B3B|B2:|
+V:2
+|:C2|G2GG|G2GG,|A,2A,A,|B,2G,B,|G,F,FF|FEF2|D3D|D2:|
+V:3
+|:A,A,|B,>CDD|ED/C/ B,/C/D/E/|F3F|F2_ED|CB,A,G,|A,B,C2|B,3B,|B,2:|
+V:4
+|:F,2|G,2G,G,|C,G,G,F,/E,/|D,3D,|B,,2C,B,,|C,D,/E,/F,B,,|F,G,F,2|B,,3B,,|B,,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/136280
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-08/susato-1551-08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-08/susato-1551-08.abc
+% Rhythm Basse dance
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Has_accompaniment_chords Has chords

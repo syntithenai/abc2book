@@ -1,0 +1,29 @@
+X: 1
+T: The Boys of Bluehill
+T: The Beaux of Oak Hill
+R: hornpipe
+O: Trad
+Z: 1997 John Chambers <jc@trillian.mit.edu>
+N: Kennedy p.7 #14 (reel)
+N: Allan's 74
+N: Cranitch 73 & 75
+N: O'Neill's p.197
+N: Brody p.54
+M: 4/4
+L: 1/8
+K: D
+|: d>B | "D"B>A F>A D>A F>A | "G"B>A Bcd "A7"e2 d>e | "D"f>g a>f "A7"e>g f>e | "D"d>f e>d "G"B>c d>B |
+| "D"B>A F>A D>A F>A | "G"B>A Bcd "A7"e2 d>e | "D"f>a a>f "A7"e>g f>e | "D"d2 "(G)"f2 "D"d2 :|
+|: f>g | "D"a>f d>f a2 g>f | "Em"e>f g>a b2 "(A7)"a>g | "D"f>a g>f "A7"e>g f>e | "D"d>f e>d "G"B>c d>B |
+| "D"B>A F>A D>A F>A | "G"B>A Bcd "A7"e2 d>e | "D"f>a a>f "A7"e>g f>e | "D"d2 "(G)"f2 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/137294
+S:http://trillian.mit.edu/~jc/music/book/500/tune/BoysOfBlueHillH.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

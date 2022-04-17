@@ -1,0 +1,28 @@
+X: 22
+T:Bourre  Edmond
+R:Bourre  3 temps
+C:Trad.
+O:France
+A:Centre
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:29
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+K:C
+Gcc | Bdd | cee | d/2e/2d/2c/2B/2A/2 | Gcc | Bdd | c/2B/2A/2G/2A/2B/2 | c3 ::
+c/2e/2g/2e/2d/2e/2 | f2e | de/2d/2c/2d/2 | gee | c/2e/2g/2e/2d/2e/2 | f2e | de/2d/2c/2B/2 | c3 :| 
+%%footer $D   Galouvielle-MBe 2005 \nBourre  3 temps France
+S:https://www.folktunefinder.com/tunes/132086
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

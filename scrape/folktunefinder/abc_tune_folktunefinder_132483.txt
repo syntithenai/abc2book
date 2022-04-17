@@ -1,0 +1,31 @@
+X: 15
+T:Glorisher, Fieldtown
+T:Leapfrog, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB)2(AC)2
+K:G
+P:A
+d/c/|BAG GFG |ABA D2(3E/F/G/  | ABA Adc |BcA  GAB|
+cde de=f|def g2(3g/a/g/f/| edc BcA |G>AG G2 ||
+P:B
+z|e2d dAB |cdc cAB         | cde edc |GAG  FED|
+G2g gfg |G2g g2g/f/      | edc B>cA|G>AG G2 ||
+P:C
+z|e3  d3  |dA2 B3          | c2d c3  |cA2  B3 |
+c2d e3  |(4edcB          |(2Ab G3  |(2FE D3 |
+G3  g3  |(2GF G3         |\
+G3  g3  |g3-G2(3g/a/g/f/ |edc  B>cA|G>AG G2 ||
+S:https://www.folktunefinder.com/tunes/132483
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

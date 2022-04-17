@@ -1,0 +1,26 @@
+X: 8
+T:Forester, Fieldtown
+M:4/4
+L:1/8
+A:Fieldtown
+P:A(AB)4
+K:D
+P:A
+FA|dcde d2(3EFG|   ABAF D2(3ABc| dcde  fede|   fee^d e2(3gfe|
+dcde dAFG   |   ABAF D2(3EFG| ABAG  FAde|   fdec  d2     ||
+P:B
+|:AG|FAdA FAdA   |{c}B2G2 G2(3cBA|^GBeB ^GBed|{d}c2A2  A2(3BAG|
+F2d2 d2(3ded|   BABc d3f    | gfed  cABc|   d2{e}d2{c}d2:|
+S:https://www.folktunefinder.com/tunes/132476
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

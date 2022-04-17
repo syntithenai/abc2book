@@ -1,0 +1,27 @@
+X:1
+T:Bayrisch Polka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Die Sackpfyf schoen Macht siss gethoen", 4 3 Volkstaenze u. Schaeferlieder aus Schwaben, compilation G.Balling, publisher Schwaebischer Albverein, Stuttgart 1997
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d2BG d2BG | F2Ac e4 | d2cA d2cA | G2Bd g4 |
+d2BG d2BG | F2Ac e4 | d2cA d2cA | G2B2 G4 ||
+eeee eg^fe | eddd d4 | cccc cedc | cBBB B4 |
+eeee egfe | eddd d4 | cccc cedc | B2c2 B4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/136788
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bayrisch_pol.B2e2d^cd2c2e2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 16
+T:Jockie to the Fair, Brackley 2
+M:6/8
+L:1/8
+A:Brackley
+P:A(A2B3)4
+K:G
+P:A
+D|G2A B2c|d2g d2e|d2B G2G |ABc B2d|
+d2d efg|afd A2g|fed AB^c|d3  d2 ||
+P:B
+d|g2d g2d|cdc B2d|g2d g2d |cdc B2d|
+e2f gfg|edc B2d|edc B2A |G2F E2D|
+G2G GBd|e2f g2D|G2B dcA |G3  G2 ||
+S:https://www.folktunefinder.com/tunes/132623
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brackley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Brackley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Brackley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

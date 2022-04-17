@@ -1,0 +1,30 @@
+X: 17
+T:Dearest Dicky, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB3)2(AC3)2
+K:G
+P:A
+|:D|G2G BAB|cBc def|gfg/f/ edc|BAG FED|
+G2G BAB|cBc def|gfg    ABc|d3  d2:|
+P:B
+B/c/|dGB cde|cAB cBc|dGB    cde|cAB c2d|
+e2d eaf|g3  gfe|dcB    AGF|GAG G2||
+P:C
+B/c/|dGB cde|cAB cBc|dGB    cde|cAB c2d|
+(2ed e3|(2ea f3|(2gag  g3 |(2gf e3|\
+(2dc B3|(2AG F3|(2GA   G3 |G3- G2||
+S:https://www.folktunefinder.com/tunes/132485
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

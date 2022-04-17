@@ -1,0 +1,23 @@
+X:5
+T:XXI. Come when I call,
+T:BASSUS.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/4
+%%MIDI transpose -24
+K:F major bass
+z16 z16 G G c c F3 F c d c f B3 f c2 d2 c2 z A B G c2 F4
+z16 z16 A3 A/ A/ A A A A d2 G2 ""d4 G4 c2  A2 B4 A4
+z16 z16 B B d d f f F F
+S:https://www.folktunefinder.com/tunes/136372
+S:http://www.laymusic.org/music/dowland/call/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

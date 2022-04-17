@@ -1,0 +1,25 @@
+X:15
+T:Cercle de l'ours
+R:Cercle
+N:tagafolk.abc
+O:France
+Z:<anamnese@laposte.net>
+M:C
+L:1/8
+Q:1/4=114
+K:C
+A/B/c/d/ eA A/B/c/d/ eA | ABc2 Bc dB | cd eA eA eA | AB c2 B2 A2 ::
+A>c Ac BAG2 | A>c Ac dddc/d/ | ee dd cc BB |1 AedB A2 A2 :|2 [M:3/4] AedB A2 |]
+S:https://www.folktunefinder.com/tunes/130556
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Rhythm Cercle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

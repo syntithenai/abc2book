@@ -1,0 +1,28 @@
+X: 022048
+T: Ballyconneely
+C: BB
+N: 211
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=175
+K: A
+A | "A" cBc "Bm" BAB | "A" cBA "D" FEF |\
+"A" Ace "D" faf | "A" ecA "E7" B2d |
+"A" cBc "Bm" BAB | "A" cBA "F#m" FEF |\
+"D" DFA "E" EGB | "A" cAA A2 :|
+B| "A" Ace aga | "D" fdf "A" ecA |\
+"A" Ace aga | "E" bge e2d |
+"A" cea aec | "Bm" BAB "F#m" cAF |\
+"D" DFA "E" EGB | "A" cAA A2 :|
+S:https://www.folktunefinder.com/tunes/133930
+S:http://www.qmcorp.net/webabc/b/022048.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

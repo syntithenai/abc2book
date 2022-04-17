@@ -1,0 +1,26 @@
+X:119
+T: Totenamt
+N: Q2061
+O: Mitteleuropa, Niederlande
+N: Geistliche Kontrafaktur der Ballade.
+R: Ballade, Liebe, Eifersucht, Tod; geistlich
+M: none
+L: 1/8
+K: G
+G4 | D2D2=F2G2 | _B4A4z2
+d4 | c4_B2G4A2 | c3_BAGA4z2
+A2 | _B2c2d4c2d2 | _B4A4B3A | G4z4
+A4 | D4E2=F4G2 | _B3AG=FG4
+S:https://www.folktunefinder.com/tunes/132221
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, liebe, eifersucht, tod; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

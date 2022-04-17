@@ -1,0 +1,24 @@
+X: 6
+T:Jenny Lind, Bampton (RD)
+M:4/4
+L:1/8
+A:Bampton
+P:A(AB2)4
+K:G
+P:A
+B2dB c2(3efe|d2b2 bab2|c2a2  ag(3afe|d2g2 g3 d|
+B2dB c2(3efe|d2b2 bab2|c'2a2 fgaf   |g2b2 g4  ||
+P:B
+|:g2e2 egfe |d2B2 BcdB|c2A2 ABcA|1B2G2 B2d2:|2G2B2 G4||
+S:https://www.folktunefinder.com/tunes/131575
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

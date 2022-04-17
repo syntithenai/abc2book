@@ -1,0 +1,25 @@
+X:48
+T: O Can You Sew Cushions 
+N: HA048
+O: Europa, Mitteleuropa, Deutschland
+M: 3/4
+L: 1/8
+K: G
+G2 | A3Bd2 | B2G2G2 | A3Bd2 | B4
+G2 | A2Bcdc | BAG2A2 | c3dA2 | G4
+G2 | A3Bg2 | B2G2G2 | A3Bg2 | e4
+e2 | d2c2B2 | A2G2A2 | B3cA2 | G4z2
+B2G2D2G2 | ABABA2G2
+B3GD2G2 | A2ABG4
+B2G2D2G2 | ABABA2G2
+B2G2D2G2 | B6G2 | A2ABG4
+S:https://www.folktunefinder.com/tunes/135743
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 4
+T:Country Gardens, Longborough (RKS)
+M:4/4
+L:1/8
+Q:1/4=150
+A:Longborough
+P:A(AB2)5
+K:G
+P:A
+|:G2c2 c2e2|dedc   B2Bc|d2d2   A2c2|B3A  G4:|
+P:B
+g>ag>e f2d2|g>ag>e f2d2|g>ag>f e2g2|agfe d2ef|
+gagf   e2e2|dedc   B2Bc|d2d2   A2c2|B3A  G4:|
+S:https://www.folktunefinder.com/tunes/135263
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

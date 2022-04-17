@@ -1,0 +1,27 @@
+X:9
+T: The Waefu' Heart
+N: HA009
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge, Bindungen, Triller, Orgelpunkte weggelassen
+M: 4/4
+L: 1/16
+K: F
+F4 | F6G2A4G2F2 | G6A2B4
+A2G2 | F4A2c2d2c2B2A2 | A8G4z2
+F2 | F6E2D6C2 | D4F3GA6
+d2 | c6d2c4G4 | F12
+c4 | c6def6ed | c6dBA6
+B2 | c6d2c2A2G2F2 | A8G4z2
+F2 | F4A2c2d6c2 | f6g2f4z2
+ed | cA3fd3cA3G4 | F12
+S:https://www.folktunefinder.com/tunes/135704
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

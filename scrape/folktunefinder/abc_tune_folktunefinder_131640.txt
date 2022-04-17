@@ -1,0 +1,30 @@
+X: 34
+T:Old Mother Oxford, Headington
+M:2/4
+L:1/16
+A:Headington
+P:A2(BC)3
+K:G
+P:A
+Q:464
+GABc d2c2|B2A2 G2d2|GABc d2g2|f2g2 a2d2|
+gfga b2g2|a2f2 g2d2|g2d2 cedc|B2A2 G4  ||
+P:B
+B2d2 B2d2|B2d2 d2cB|c2e2 c2e2|c2e2 e2ef|
+gfga b2g2|a2f2 g2d2|g2d2 cedc|B2A2 G4  ||
+P:C
+G3A  B3c |d4   c4  |B4   A4  |G4   D4  |\
+G3A  B3c |d4   g4  |f4   g4  |a4   d4  |
+gfga b2g2|a2f2 g2d2|g2d2 cedc|B2A2 G4  ||
+S:https://www.folktunefinder.com/tunes/131640
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

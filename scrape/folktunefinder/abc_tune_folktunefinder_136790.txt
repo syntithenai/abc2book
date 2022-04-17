@@ -1,0 +1,38 @@
+X:1
+T:Bayrisch Polka
+C:Rudolf Heidinger
+A:Poestlingberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Oberoesterreichisches Volksliedwerk OOeVLA MII L9
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+(3dcd |\
+e2F2F2 (3cBc | d2=G2 G2AG | FGAB cdef | g2f2e2 (3dcd |
+e2F2F2 (3cBc | d2G2 G2AG | FGAB cdef |g2g2g2 :|
+|: G2 |\
+B2B2 c2B2 | B2A2 A4 | ddz2 ccz2 | BBz2 G4 |
+B2B2 c2B2 | B2A2 A4 | dddd dcBA | G2G2G2 :|
+P:Trio
+K:C
+|: G2 |\
+e2eB c2cA | GAGB G2c2 | G2fe d2G2 | G2ed c2G2 |
+e2eB c2cA | GAGF E2G2 | G2fe dABc | c2c2c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/136790
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bayrisch_pol.d2e2d3gf2e2e4.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

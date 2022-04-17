@@ -1,0 +1,27 @@
+X: 1
+T:Avstriys'ka
+H:H. Tantsyur
+S:A. Humenyuk
+R:Polka
+Q:144
+M:2/4
+L:1/8
+A:village of Zyatkivtsi, Vinnyts'kiy
+K:G
+d2B2 | BG G/2F/2G | cA A/2^G/2A | BG G/2F/2G | \
+d2B2 | BG G/2F/2G | F/2G/2A/2B/2 cA | GBGz ::
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 |\
+cAAB | c3 c | cB/2c/2 dA | cB B/2A/2G |
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 | \
+cAAc | c3 c | cd/2c/2 BA | GDGz :|
+S:https://www.folktunefinder.com/tunes/130684
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/av/Avstriyska_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

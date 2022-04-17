@@ -1,0 +1,24 @@
+X:166
+T: Der grausame Bruder
+N: Q0068K
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Hambach
+N: Letzten Notenwert der dritten Zeile rhythmisch korrigiert.
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 3/8
+L: 1/16
+K: G
+GB | d4BG | B4Bd | B2G2D2 | E3
+DFA | G4Bd | d4A2 | G4
+GB | d4BG | B4Be | d4BG | A2z
+DFA | G4A2 | GGG2B2 | d4F2 | G4
+S:https://www.folktunefinder.com/tunes/132268
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

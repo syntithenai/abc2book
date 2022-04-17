@@ -1,0 +1,33 @@
+X:1
+T:Bad Boys of Dunkirk
+M:4/4
+C:
+S:Bordering on the Absurd
+N:
+A:Border
+O:English
+R:Reel
+%P:
+K:G
+L:1/8
+P:A
+|:\
+B>EE>D E>F G2 | F>ED>E F>G A2 | B>EE>D   E>F   G2 | F>ED>E F4 |\
+B>EE>D E>F G2 | F>ED>E F>G A2 | (3GGG G2 (3GGG G2 | B>AG>F E4 :|\
+P:B
+|:      D>GG>F G>A B2 | A>GF>G A>cB>A | D>GG>F   G>A   B2 | A>GF>G A4 |\
+D>GG>F G>AB>d | c>BA>B c>de>f | g>dB>G   c>ed>c   | B>GA>F G4 :|
+S:https://www.folktunefinder.com/tunes/131939
+S:http://www.ucolick.org/~sla/morris/music/Border/badboy.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Border/badboy.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Border/badboy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

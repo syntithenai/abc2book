@@ -1,0 +1,27 @@
+X: 1
+T: BACCA PIPES
+S: MDT
+O: Bampton
+P: A(A2G2)2.A2
+Q: 3/8=132
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Ador
+P: A
+|: c3  B2c | d2B G3  | cdc A2c | B2G E3  |
+   c2B c2e | d2B G2B | c2A B2G | A3  A3 :|
+P: B
+   g3  g2e | d2B B3  | g3  g2g | a2g e3  |
+   efg g2e | d2B G2B | c2A B2G | A3  A3 :|
+S:https://www.folktunefinder.com/tunes/131519
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bacca_Pipes_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

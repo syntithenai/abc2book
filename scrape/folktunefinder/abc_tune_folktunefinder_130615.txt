@@ -1,0 +1,40 @@
+X:1     %internal music number
+% referenced from http://icking-music-archive.org/ByComposer/Gounod.php,
+% at http://icking-music-archive.org/scores/gounod/Gounod_Ave_Maria.pdf
+% see also the Christian MIDI Archive, at http://www.zeitun-eg.org/midi.htm
+%
+% http://trillian.mit.edu/~jc/music/abc/findtune.html, http://moinejf.free.fr/
+%
+%%topspace 3cm
+%%measurenb 0
+%%stretchlast
+%%footer "$P0Ave Maria - C. Gounod$P1"
+T:Ave Maria     %tune name
+C:C. Gounod - J.S. Bach     %tune composer
+C:1818 - 1893
+N: Les ditions Outremontaises, 2006     %tune infos
+Q:1/4=72 ", Moderato"    %tempo
+M:4/4     %meter
+L:1/16     %standard note-length
+K:G%key
+%
+%%staves {2 3}
+V:2 clef=treble name="Acc."
+z2 DG BDGB z2 DG BDGB |z2 EA cEAc z2 EA cEAc |z2 DA cDAc z2 DA cDAc |
+V:3 clef=bass
+G,B, z2z4 G,B, z2z4 |G,A, z2z4 G,A, z2z4 |F,A, z2z4 F,A, z2z4 |
+%
+%%staves 1|{2 3}
+V:1
+L:1/8
+z8 |B8 |c6 z c |
+S:https://www.folktunefinder.com/tunes/130615
+S:http://home.quicknet.nl/qn/prive/agm.schoutsen/map/Ave-Maria%20%28Gounod%29.abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

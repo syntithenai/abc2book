@@ -1,0 +1,27 @@
+X: 39
+T:Brighton Camp, Headington
+M:4/4
+L:1/8
+A:Headington
+P:A(AB2)4
+K:D
+Q:360
+P:A
+dc|B2A2 F2E2|F2D2 B,3C |D2D2 D2FG  |A4 F2d2|\
+B2AG F2E2|F2D2 B,2C2|DEF2 A,2B,C|D4 D2  ||
+P:B
+AG|F2A2 B2c2|d2A2 F2D2 |F2A2 B2c2  |d4 c2d2|\
+B2AG F2E2|F2D2 B,2C2|DEF2 A,2B,C|D4 D2  ||
+S:https://www.folktunefinder.com/tunes/131645
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

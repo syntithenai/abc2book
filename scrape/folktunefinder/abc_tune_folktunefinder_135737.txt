@@ -1,0 +1,30 @@
+X:42
+T: Mount Your Baggage 
+N: HA042
+O: Europa, Mitteleuropa, Deutschland
+M: 3/2
+L: 1/16
+K: C
+E4 | C4E4G8
+C4G4 | A2G2F2E2F4D8
+E4 | C6E2G6
+G2E4G4 | A4c4G4E8
+c3d | e2d2c2B2c8
+C4G4 | A2G2F2E2F4D8
+c3d | e2d2c2B2c6
+c2E4G4 | A4c4G4E8
+c2d2 | e2d2c2B2c8
+C4G4 | A2G2F2E2F4D8
+E3D | C4E4G6
+G2E4c4 | B6A2G4E8
+S:https://www.folktunefinder.com/tunes/135737
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:23
+T:Cercle 4 
+R:Cercle 
+N:
+O:France
+Z:<anamnese@laposte.net>
+M:6/8
+L:1/8
+Q:1/4=180
+K:G
+P:1
+GAG FGF | E2 B B2 A | GAG FGF | DEA AFD |
+GAG FGF | E2 B B2 A | GAB dBA | ABG FED :|
+GAB d2 | edB dBA | GAB dBA | ABG FED |
+GAB d2 | edB def | gfe dBA | ABG FED |
+P:2
+EAA EAA | BAB G2A | Bee edB | dBA A3 |
+EAA EAA | BAB G2A | Bee edB | def gfg |
+eaa age | dBA G2 A | Bee edB | def gfg |
+eaa age | dBA G2 A | Bee edB | dBA A3 :|
+S:https://www.folktunefinder.com/tunes/130564
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Cercle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

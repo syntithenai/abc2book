@@ -1,0 +1,32 @@
+X:3
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio Breizh-Izel 1131 (Mael-Karaez)
+Q:C3=156
+P:GH5
+M:12/8
+K:Dm
+P:G
+D \
+P:H
+%%MIDI gchord fzzczzfzzfzc
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 41
+|: "Dm"A2 B "C"G>AF "Bb"D2 E "Dm"F2 D | "F"F2 A "Gm"G2 F "Bb"G2 B "Am"A2 D :|
+|:"Dm" A2 B "F"A2 F "Gm"G>AF "Bb"D2 F | "C"E2 G "Bb"F>ED "Am"E2 C "Gm"D2 D :|
+S:https://www.folktunefinder.com/tunes/132913
+S:http://kazimodal.trad.org/partitions/dans_fisel/LE_dans_fisel/LE_dans_fisel.abc
+% Rhythm Dan?s fisel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

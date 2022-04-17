@@ -1,0 +1,41 @@
+X:8310
+T:The Banks of Spey
+C:William Marshall
+O:Scotland
+N:Caledonian Companion p.88.
+N:Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N:played by Ed Pearlman on BH 4A; Dancing Strings tape
+N:Siegal/Payne
+Z:John Chambers <jc@trillian.mit.edu>
+F:http://abc.musicaviva.com/tunes/marshall-william/banks-of-spey.abc
+%Posted May 23rd 2002 at abcusers by Eric Forgeot
+M:C|
+L:1/8
+K:ADor
+E || "Am"{E}[A2A] A>B A>B c>e | "G"d<c B->A ~G3 E \
+   | "Am"[A2A] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+   | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 ||
+c || "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+   | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+   | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/135230
+S:http://abc.musicaviva.com/tunes/marshall-william/banks-of-spey.abc
+S:http://abc.musicaviva.com/tunes/marshall-william/banks-of-spey.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/marshall-william/banks-of-spey.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/marshall-william/banks-of-spey.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

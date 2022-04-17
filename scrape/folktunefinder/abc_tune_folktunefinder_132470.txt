@@ -1,0 +1,30 @@
+X: 2
+T:None So Pretty, Fieldtown
+M:6/8
+L:1/8
+S:CJS (MDT)
+A:Fieldtown
+P:AAB(CB)2
+K:G
+P:A
+|:D|G2d BGB|c2A AFD|BAG EFG|DEF G2:|
+P:B
+G|c2d ecA|B2c dBG|Bcd eee|ABc d2D|
+G2d BGB|c2A AFD|BAG EFG|DEF G2 ||
+P:C
+|:D|G3   d3|BG2 B3 |c3  A3 |AF2 D3 |\
+BAG EFG|DEF G2:||
+S:https://www.folktunefinder.com/tunes/132470
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.tomkeays.com/morris/wiki/cotswold/fieldtown/none_so_pretty?rev=1183387226
+S:http://www.tomkeays.com/morris/wiki/cotswold/fieldtown/none_so_pretty?rev=1183387241
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

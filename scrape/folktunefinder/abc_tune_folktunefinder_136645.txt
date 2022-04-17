@@ -1,0 +1,30 @@
+X:3
+T:The Battle of New Orleans
+C:Jimmy Driftwood
+O:American
+M:C|
+L:1/8
+R:March
+S:Step One: Play Pennywhistle, Peter Pickow
+Z:Trans. by Thornton Rose, 2001
+K:D
+P:A
+(d2 e2 | "D"fefa feBf | "G"e fed "Em"B2) (cd | "A7"edef edBc | "D"dBAF D2) :|
+P:B
+(D2 E2 | F2 A2) ("Bm"A3 F | "D"ABAG FE)(DE | FDAD "G"BDAB | "A7"AF G2 "D"D2) :|
+P:C (Alt. repeat of B)
+(d2 e2 | f2 a2) "Bm"a3 (f | "D"abag fede | fa2) (f"G7"a2) (ab | "A7"afec "D"d2) |]
+S:https://www.folktunefinder.com/tunes/136645
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BattleOfNewOrleans.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BattleOfNewOrleans.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BattleOfNewOrleans.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,43 @@
+X:1
+T:Avant-deux de Bazouges : Le cur de Rimoux
+Z:Roger Ngaret (95)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=120
+M:4/4
+L:1/8
+K:C
+T:Cur de Rimoux
+K:C
+D | "G"DEF GFG | "D"AGE "G"D3 |1 B2 B "D"cAA | AGA "G"B2 :|2\
+B2 B dcB | "D"cBA "G"G3 |: B2 B "D"cAA | AGA "G"B2 G |\
+B2 B dcB | "D"cBA "G"G3 :|
+%%rm
+%%rm  Monsieur le cur de Rimoux nous a dit,
+%%rm  Qu'il fallait drouiller nos affaires,
+%%rm  Monsieur le cur de Rimoux nous a dit,
+%%rm  Qu'il fallait drouiller nos outils.
+%%rm
+%%rm  Qu'il fallait drouiller nos affaires,  ]
+%%rm  Qu'il fallait drouiller nos outils.    ] bis
+%%rm
+T:Ma serpette
+%%rm
+%%rm  En avant deux ma serpette est perdue,
+%%rm  Il y a plus que l'manche, il y a plus que l'manche,
+%%rm  En avant deux ma serpette est perdue,
+%%rm  Il y a plus que l'manche qui ne tient bientt plus.
+%%rm
+%%rm  Il y a plus que l'manche, il y a plus que l'manche,  ]
+%%rm  Il y a plus que l'manche qui ne tient bientt plus.  ] bis
+S:https://www.folktunefinder.com/tunes/130430
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesLecuredeRimoux.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:5
+T:Rapunsel II*
+C:Kari Ruesltten
+N:Les notes de basses sonnent durant toute la mesure.
+D:Demo Recordings
+O:Norge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=100
+K:Eb
+%%staves (1 2)
+V:1
+cd e2 d2 c2 | de f2 e2 d2  |\
+cd e2 d2 c2 | =B c B2 c4  |
+cd e2 d2 c2 | de f2 e2 d2  |\
+a2 g2 f2[^d^G,]=d| d2[B2G,2][c4C4]      :|
+V:2
+z2 C4 A,2-|A,2 B,4 G,2-|G,2 C4 A,2|G,2 G,2 C4 | 
+z2 C4 A,2-|A,2 B,4 G,2-|G,2 C4 A,2|G,2 G,2 C4 | 
+z2 F,4 A,
+S:https://www.folktunefinder.com/tunes/136667
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

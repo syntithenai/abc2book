@@ -1,0 +1,24 @@
+X: 2
+T:Waterddy Lane (Common as Muck)
+M:4/4
+L:1/8
+S:ABAB
+P:ABAB
+N:Common as Muc
+K:G
+"A"(3def||:g2d2 B>c d>B|c>d e>c B>c d2|g2d2 B>c d>B|e>d c>B A2 (3def|!
+g2d2 B>c d>B|c>d e>c B>c d2|c>e A>c B>d G>B| A2 A2 G4:|!
+"B" g>f e>f g2 d2|e>d c>e d4|e>d c>e d>B G>B|A>G F>G A4|!
+g>f e>f g2 d2|e>d c>e d4|c>d e>f g>e d>c| B2 A2 G4||
+S:https://www.folktunefinder.com/tunes/136735
+S:http://www.wharfedale-wayzgoose.co.uk/WAYZGOOSE.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

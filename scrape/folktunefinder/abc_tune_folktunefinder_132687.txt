@@ -1,0 +1,38 @@
+X: 22
+T:Donkin Gray. JBa.21
+T:Duncan Gray,aka. JBa.21
+M:2/2
+L:1/8
+Q:120
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+N:Quite different from the version in J.Aird.
+H:See elsewhere for Paul's comments
+Z:vmp.C.Graebe.
+K:G Major
+"No key/time sig." \
+G2 BG F2G2 | A2B2F4 |G3B ABcA | B2G2G4 :|!
+|: (B2d2d2) cB | (A2c2c2) BA |G2B2 cBAG | FGAF D2 Bc |!
+ d2ed c2 dc | B2 cBA2 GF |G3 B ABcA | B2G2 G4 :|!
+|: GFED EDCB, | CA,DB,G,2 B2 |G3B ABcd | B2G2G4 :|!
+|:BcdB  cdec | BcdB ABcA |EFGE cBAG | FGAF D2 (ef) |!
+ gfed edcB | cABd (F2 ED) |G3 B ABcA| B2G2 G4 :|!
+|: {(E/F/)} G2G,2D2A,2 | cBAG F2 EF | G3B ABcA | B2G2G4 :|!
+|:ecAc gcAc |dBAB fBAB | DBAB cBAG |FGAF (D2ef) | !
+gfed edcB | cABd (F2 ED) |\
+(G/A/B)  (A/B/c) (B/c/d) (A/B/c) | B2G2G4 |]
+S:https://www.folktunefinder.com/tunes/132687
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

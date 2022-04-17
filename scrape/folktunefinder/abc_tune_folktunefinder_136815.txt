@@ -1,0 +1,32 @@
+X:1
+T:Sweet Bunch of Daisies
+O:old-time, bluegrass
+R:waltz
+B:Fiddler's Fakebook
+Z:transcribed by Moshe Braner, Jan. 2001
+N:changed A chords to Am, F#dim7 to D7.
+M:3/4
+L:1/8
+K:C
+G2 ^F2 =F2 \
+|: "C"E6 | "G7"F4 ^F2 | "C"G6 | "C7"e6 |\
+   "F"d3 cde | "(D7)"c4 (3AcA | "C"G6 | "G"G2 ^F2 =F2 |
+   "C"E6 | "G7"F4 ^F2 | "C"G6 | "Am"e6 |\
+   "D"d6 | e4 ^de | "G"d4-dc | BG-G2 F2 |
+   "C"E6 | "G7"F4 ^F2 | "C"G6 | "C7"e6 |\
+   "F"d3 cde | "(D7)"c4 (3AcA | "C"G6 | "C7"G2 ^F2 G2 |
+   "F"A6 | "(D7)"c4 d2 | "C"e6 | "Am"c3 Bc^c |\
+   "D"d4 (3edc | "G"B2 A2 G2 |1 "C"c6 | G2 ^F2 =F2 :|2 c6-|c2 z4 ||
+S:https://www.folktunefinder.com/tunes/136815
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20010226.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/SweetBunchOfDaisies.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

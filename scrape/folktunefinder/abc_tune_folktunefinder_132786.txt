@@ -1,0 +1,26 @@
+X: 22
+T: Kitty McGee
+M: 6/8
+L: 1/8
+Q:3/8=120
+F:http://jc.tzo.net/~jc/music/abc/England/jig/Kitty_McGee_D16.abc 2007-02-04 09:39:10 UT
+K: D
+A \
+| "D"d3 AFA | d3 "G"efg | "D"f2d e2d | "A7"cec ABc \
+| "D"d3 AFA | d3 "G"efg | "D"f2d "A7"e2c | "D"d3 d2 ||
+A \
+| "D"d2f agf | "G"e2f g3 | "D"f2d e2d | "A7"cec A3 \
+| "D"a2a g2f | "G"e2f g3 | "D"f2d "A7"e2c | "D"d3 d2 |]
+S:https://www.folktunefinder.com/tunes/132786
+S:http://jc.tzo.net/~jc/music/abc/England/jig/Kitty_McGee_D16.abc
+S:http://jc.tzo.net/~jc/music/abc/England/jig/Kitty_McGee_D16.abc
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

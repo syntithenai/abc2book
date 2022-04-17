@@ -1,0 +1,32 @@
+X: 230
+T: Marche du Mont Saint-Louis
+C: R-124
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: march
+K: D
+ABc|:\
+"D"d2e2 "A"f2e2| "D"d4- "A"dABc| "D"d>cBA "G"BAGF| "A"F2E2- EABc|
+"A"e2f2 "G"g>fed| "A"c4- caaa| "A"a2g2 "G"B>c"A"BA |1 \
+   "D"f4- "A"fABc :|2 "D"d4- "A"dab>a|]
+|:\
+"D"a4- afed| A4- "A"AA/F/ A/F/A/c/| "D"dd/c/dd/c/ "G"dd/c/dd/B/| "A"c4- caba|
+"A"a4- agfe| "G"B4- "A"BcBA| "A"A2c2 "G"B>c"A"BA |1 "D"f4- "A"faba :|2 "D"d4- d |]
+%%text 9/1/98
+% ---------- page 119 ----------
+S:https://www.folktunefinder.com/tunes/134252
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

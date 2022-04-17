@@ -1,0 +1,30 @@
+X:95
+T:Uvyvanets'
+L:1/8
+M:2/4
+O:Ukraine
+Q:140
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000064f.html
+%%ID:0000064f
+K:C# min
+ccGG | c c2 G | cc^Bd | c2 =B2 |:\
+AAFF | G G2 E | FFED | C2 C2 :|
+P: Variation
+K:C
+c3/2B/4A/4 GA/2B/2 |  c3/2B/4A/4 GA/2B/2 |\
+c3/2B/4A/4 GA/2B/2 | c2{BA}G2 |: \
+F3/2E/4D/4 CD/2E/2 |  F3/2E/4D/4 CD/2E/2 | \
+F_AGF | c2c2 :|
+S:https://www.folktunefinder.com/tunes/130703
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C-sharp
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

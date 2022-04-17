@@ -1,0 +1,24 @@
+X:7
+T: Ritter und Magd
+N: Q0055F
+O: Mitteleuropa, Deutschland (DDR) , Sachsen - Anhalt,
+N: Dritte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 2/4
+L: 1/16
+K: G
+D2 | G2D2B,2D2 | G3FG2
+B2 | A3FG2E2 | E2D2D2
+DD | E2E2E2GE | E2D2D2
+D2 | G3AB2G2 | A4G2
+S:https://www.folktunefinder.com/tunes/132109
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

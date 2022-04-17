@@ -1,0 +1,28 @@
+X: 15
+T:Chanter's Song, The
+M:4/4
+L:1/8
+Q:120
+K:D
+"A"A2A2e2dB|A2ef"G"{a}g2fg|
+"A"a2"Em"e2e2"Bm"dB|"Em"g2    "D"fa "Em"ge"G"dB|
+"A"A2A2e2dB|A2ef"G"{a}g2fg|
+"A"a2e2"E"ecdB|"A"A4{B}A4::
+"A"e3f{a}g2fa|edef{a}g2fg|
+a2"Em"e2e2"Bm"dB|"Em"g2    "D"fa "Em"ge"G"dB|
+"A"A2A2e2dB|A2ef"G"{a}g2fg|
+"A"a2e2"E"ecdB|"A"A4{B}A4:||
+% Output from ABC2Win  Version 2.1 h on 1/3/99
+S:https://www.folktunefinder.com/tunes/136566
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

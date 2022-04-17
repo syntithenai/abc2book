@@ -1,0 +1,26 @@
+X: 21
+T:Banbury Bill, Bampton 1
+M:4/4
+L:1/4
+A:Bampton
+P:A(AB3)3A
+K:D
+P:A
+DEFD|GAB2| EFGA/G/  |FGA2   |
+ADFA|def2|{ga}geBc  |d2d2   ||
+P:B
+defd|cde2| Bcde/d/  |cBAB/c/|
+dDD2|FGA2|B/c/dc/d/e|d2d2   ||
+S:https://www.folktunefinder.com/tunes/131590
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

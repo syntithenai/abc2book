@@ -1,0 +1,22 @@
+X:36
+T:Yellow Wattle
+Z: id:dc-slide-36
+M:6/8
+L:1/8
+K:D Mixolydian
+dcA AGE|ABA AB^c|dcA AB^c|dcA GED|!
+dcA AGE|ABA AGE|DED cde|dcA GED:|!
+ded c3|d^cd =c3|d^cd =cde|dcA GED|!
+ded c3|d^cd d2=c|ABA A^cd|dcA GED:|!
+S:https://www.folktunefinder.com/tunes/134936
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

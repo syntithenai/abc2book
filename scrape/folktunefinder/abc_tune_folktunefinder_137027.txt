@@ -1,0 +1,27 @@
+X:470
+T: Taidhg\'in an Asail
+S: B.Breathnach: "Ceol Rince na hEireann" II/38
+Z: B.Black
+N: Version of "Where's the Cat"
+L: 1/8
+M: 6/8
+R: jig
+K: G
+DED G2D|E2D G2E|DED G2B|ABG E2D|
+DED G2D|E2D G2A|BdB c2B|ABG E2D :|
+ABc d2B|BAB cBc|BAB d2B|ABG E2D|
+ABc ddd|BAB c3|ef/g/e d2B|ABG E2D :|
+S:https://www.folktunefinder.com/tunes/137027
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

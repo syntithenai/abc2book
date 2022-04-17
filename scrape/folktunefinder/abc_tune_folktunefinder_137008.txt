@@ -1,0 +1,29 @@
+X:375
+T: Tierney's
+R: jig
+S: "Ace and Deuce" (C.McCarthy, A.McCormack, E.O Donoghue)
+Z: B.Black
+M: 6/8
+L: 1/8
+K: Ador
+B|c2A BAG|ABA GED|EAA GBd|e/f/ge age|
+d^cd e=cA|B2A GED|EAB ced|cAG A2 :|
+B|cBc efg|G2G EGD|cBc d^cd|e2d ged|
+a2e g2e|g2e dBG|EAB ced|cAG A2|
+cBc efg|G2G EGD|cBc d^cd|e2d ged|
+eaf g2e|g2e dBG|EAB ced|cAG A2 ||
+e|a2A cBA|EAB cBA|gfg BAG|BAG Bcd|
+eaf g2e|g2e dBG|EAB ced|cAG A2 :|
+S:https://www.folktunefinder.com/tunes/137008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

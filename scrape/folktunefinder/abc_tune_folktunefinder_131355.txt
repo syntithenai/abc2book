@@ -1,0 +1,40 @@
+X:555
+T:BAdd555-  My father has forty good shillings
+S:SMM #453
+Q:1/4=120
+L:1/8
+M:9/8
+K:Dm
+d|A d d d3/2 e/2 d cA2|B3A2G F/ D3/2 D|\
+G3/2 A/ B A3/2 =B/ ^c.d2d|\
+A d d d3/2e/ d cA2|B3A2G F/ D3/2 D|B3/2 A/ B A3/2 =B/ ^cd2||\
+"Chorus"A/ d/|f2f e3/2 f/ d c A2|B3/2A2G F D f|\
+e3/2 f/ d ^c3/2 d/ ed2A/d/|f3/2 f/ fe2d c/ A3/2 A|\
+B3A2 G F/ D3/2 f|e3/2 f/ d ^c d e .d2A/ A/|\
+B2B A3/2 B/ G F/ D3/2|]
+S:https://www.folktunefinder.com/tunes/131355
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM5.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM5.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM5.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM5.ABC
+S:http://www.mudcat.org/olson/BM5.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM5.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

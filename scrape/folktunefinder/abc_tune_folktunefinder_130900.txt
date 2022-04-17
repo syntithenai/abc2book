@@ -1,0 +1,37 @@
+X:134
+T:B134-  Fain I would if I could
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:6/4
+K:Dm
+d3^c3|d3f3|e2dd3/2e/2d|(c3c2)A/2B/2|\
+c3/2d/2cBA2|G3A3|G2FF3/2G/2E|(F3F2)||C|\
+C2DE2F|(G3G2)E|A2GF3/2G/2 A/2B/2|(c3c3/2)d/2c|\
+BA2G2F|E3f3|e2Ad3/2e/2^c|(d3d2)|]
+S:https://www.folktunefinder.com/tunes/130900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

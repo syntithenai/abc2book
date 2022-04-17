@@ -1,0 +1,21 @@
+X:32
+T:The Mug of Brown Ale
+R:jig
+M:6/8
+L:1/8
+K:G
+gf | "Am" eAA fAA | "(C)" gfg age | "G" dBA ~G3 | BAB     dBd |
+     "Am" eAA fAA | "(C)" gfg age | "G" dBd gdB | "Am" ABA A2 :|
+ e | "Am" efg aba | aba       age | "G" dBd ~g3 | gba     ged |
+     "Am" efg aba | aba       age | "G" dBd gdB | "Am" ABA A2 :|
+S:https://www.folktunefinder.com/tunes/134753
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

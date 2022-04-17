@@ -1,0 +1,29 @@
+X:120
+T:Doctor O'Neill
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:D
+A|dcd AFD|E2F G2A|~B3 Bcd|AGF EFA|\
+dcd AFD|E2F G2A|~B3 Bcd|AFD D2:|*
+A|dcd ceA|dfe dcB|AFA Bcd|AGF E2A|\
+dcd ceA|dfe dcB|AFA Bcd|AFD D2:|*
+g|fef afd|dcd fed|~g3 faf|gee e2g|\
+fef afd|dcd fed|~g3 fag|fdd d2:|*
+g|fdf ece|dcB AFd|AFd AFd|AGF E2g|\
+fdf ece|dcB AFA|~B3 Bcd|AFD D2:|*
+E|~F3 ~G3|FAF FED|FEF GFG|AFD E2D|\
+~F3 ~G3|FAF FED|~B3 Bcd|AFD D2:|**
+S:https://www.folktunefinder.com/tunes/135005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

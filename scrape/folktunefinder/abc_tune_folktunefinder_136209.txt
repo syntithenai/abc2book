@@ -1,0 +1,22 @@
+X:11
+T:Horizontal Beams, Bar Labels
+%%barlabelfont Times-Bold 16 box
+M:C
+K:C
+L: 1/8
+ c,d,c, d,e,d, e,f,e, b,cb,   "$"| c,/d,/c,/ d,/e,/d,/ e,/f,/e,/ |\
+   c,//d,//c,// d,//e,//d,// e,//f,//e,//  "@"|
+ cdc ded efe b,a,b,| c/d/c/ d/e/d/ e/f/e/ "A"| c//d//c// d//e//d// e//f//e// |
+ c'd'c' d'e'd' e'f'e' f'g'f' | c'/d'/c'/ d'/e'/d'/ e'/f'/e'/ |\ 
+   c'//d'//c'// d'//e'//d'// e'//f'//e'// |
+S:https://www.folktunefinder.com/tunes/136209
+S:http://www.ihp-ffo.de/~msm/abc_src/abc2ps-2.0/unpacked/sample.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

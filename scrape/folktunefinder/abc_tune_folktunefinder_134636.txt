@@ -1,0 +1,33 @@
+X:5
+T:Bang up
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+N:(By permission from Parry's Lyrist No 3)
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Change sides, back again, down the middle up again right & left
+%%Page:1
+%%RRN:2nd note of penultimate bar (A3) illegible, guessed
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001039.html
+%%ID:00001039
+K:D
+A | \
+d2d f2f | a2a f2d | g2e f2d | cde ABc | \
+d2d f2f | a2a f2d | g2e f2d | cBA d2 ||
+A | \
+F2A E2A | F2A | d2c | B2d A2d | G2e cBA | \
+F2A E2A | F2A d2c | Bcd ABc | d3- d2 ||
+A | \
+f2e d2c | B2A G2F | G2A B2e | dcB A2A | \
+f2e {e}d2c | {c}B2A G2F | G3 A3 | GFE D2 |]
+S:https://www.folktunefinder.com/tunes/134636
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

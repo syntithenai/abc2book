@@ -1,0 +1,25 @@
+X: 1
+T:Hey Diddle Dis, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:A(A2B)6
+K:G
+P:A
+g>fg a>gf|g>fe d>ef|g>fg e>dc|B2A G3||
+P:B
+A>Bc B>AG|A>Bc d>ef|g>fg a>gf|g3  g3||
+S:https://www.folktunefinder.com/tunes/132422
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

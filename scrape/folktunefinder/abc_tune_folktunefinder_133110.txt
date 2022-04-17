@@ -1,0 +1,103 @@
+X:1
+T:Ballet CCLXVII
+C:trad., arr.: Michael Praetorius
+B:Terpsichore (1612)
+R:Ballet
+Z:Transcribed by Frank Nordberg - <A  HREF="http://www.musicaviva.com">http://www.musicaviva.com
+%Formatted for BarFly
+%Originally barline only at the key change
+%The repeat should be from the start of the piece, but that is not possible
+%with the present version of BarFly
+V:1 program 1 110
+V:2 program 2 42
+V:3 program 3 42 alto
+V:4 program 4 43 bass
+M:C
+L:1/4
+Q:1/2=88
+K:Gmix
+V:1
+B>cBAG3A/B/c2cBA3B/c/|
+V:2
+K:Gmix
+G3^FGD2GG2G2^F3G|
+V:3
+K:Gmix
+D2D>CB,3C/D/EE2DD2D2|
+V:4
+K:Gmix
+G,,2G,D,G,2G,,2C,3G,,D,3G,|
+%
+V:1
+d2dcBA/B/GA/B/cBA/G/AG4B>c B/c/ A/B/|
+V:2
+G3ADED2AG2^FGDD2DG2^F|
+V:3
+B,>CDEB,CB,2EDD>CB,2B,3 D2D|
+V:4
+G,2B,A,G,2G,,2A,,B,,/C,/D,2G,2G,,2G,2G,,D,|
+%
+V:1
+G>A B/c/d/B/c2B2A3B/c/d2c2B/G/ A/B/ c/B/ A/G/|
+V:2
+GDG2G3G^F2F2DGE2D2E2|
+V:3
+B,>CD2E2D2D3A,G,2G,>A,B,2G,C|
+V:4
+G,2G,,2C,/D,/ E,/^F,/ G,/A,/ B,/^C/D2D,2B,,/C,/ D,/B,,/ C,/D,/ E,/^F,/G,2C,2|
+%
+V:1
+^FG2FG3d||\
+K:Gdor
+d>c B/c/dc>B A/B/c|
+V:2
+D2D2D2_B2||\
+K:Gdor
+BB2BAA2A|
+V:3
+A,B,A,2B,>CDG||\
+K:Gdor
+F2GFFC2F|
+V:4
+D,3D,G,,2G,2||\
+K:Gdor
+B,2G,B,F,3F,|
+%
+V:1
+B3/A/ G/A/BA/G/^F/E/Ddd>c B/c/dc>B A/B/ c/A/Bc/B/ A/G/A|
+V:2
+G2BG^F4BFGFA>G F/G/ADG2^F|
+V:3
+D2_EDDA,A,2D3DFCC2B,G,D>C|
+V:4
+G,2_E,G,D,4B,2G,B,F,3F,G,C,D,2|
+%
+V:1
+G3dd/c/ B/A/ B/c/ d/B/c/B/ A/G/ A/B/ c/A/G/^F/ G/A/B2A3d|
+V:2
+G>ABBB/c/ d/c/ d/c/BA/B/ c/B/ c/B/ADE/F/G2^F3A|
+V:3
+=B,>CDGFF2FFC2CB,/A,/ B,/C/ D2D3F|
+V:4
+G,,2G,2B,2B,2F,2F,2G,2G,,/A,,/ B,,/C,/D,2D,2|
+%
+V:1
+d/c/ d/_e/ d/=e/ f/d/c/B/ A/G/ A/B/ c/A/B c/B/ A/G/AG2G2:|
+V:2
+BFF2F3FDGD>C=B2B2:|
+V:3
+F/E/ D/C/ B,/C/DA,/B,/ C/B,/ C/B,/A,G,3^F,G,2G,2:|
+V:4
+B,,2B,,2F,2F,2G,C,D,2G,,2G,,2:|
+S:https://www.folktunefinder.com/tunes/133110
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg00219.html
+% Rhythm Ballet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

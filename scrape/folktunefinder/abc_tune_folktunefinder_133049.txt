@@ -1,0 +1,37 @@
+X:633
+T:Johnnie Cope - harmony 1
+S:Harmony by Nigel Gatherer
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Em
+V:1
+B2 | E2 E2 EFGA  | B2 E2  E2  FE   | D2  D2  DEFG  | A2  d2 F2 D2 |
+     G2 FG A2 GA | B2 d2  F2  ED   | E2  e2  BAGF  | E2  G2 E2   :|
+D2 | G3  G G2 D2 | GABc   dBAG     | F2 D2   A2 D2 | FGAB   A2 F2 |
+     G2 FG A2 GA | B2 d2  F2  ED   | E2  e2  BAGF  | E2  G2 E2   :|
+D2 | E^DEF EFGA  | BAGF   EFGE     | D=CDE   DEFG  | AdAF   BAGF  |
+     GFEG  AFGA  | BB,DF  BAGF     | E^FEe   BAGF  | E2  G2 E2   :|
+D2 | GFGA  GDB,D | GFGB   dBAG     | FDAD    BDAD  | FEFG   AFDF  |
+     GFEG  AFGA  | BB,DF  BAGF     | E^DEe   BAGF  | E2  G2 E2  :|]
+V:2
+z2 | B2 GA GABc  | Begf   ed  B2   | ABAG    FGAB  | ADAF   BAGF  |
+     E4    D3  D | B,3 B, A,2 G,A, | B,2 B,2 E2 G2 | B2  B2 B2   :|
+z2 | dBde  d4    | Bcde   d4       | dAde    d2 B2 | ABde   d4    |
+     E4    D3  D | B,3 B, A,2 G,A, | B,2 B,2 E2 G2 | B2  B2 B2   :|
+z2 | z4    E^DEF | GFE^D  B,4      | z4      D=CDE | DFDB,  GF E2 |
+     EEEE  FFFF  | DDDD   G2 ^D2   | eBBA    GFE^D | B,EGF  E2   :|
+z2 | D2 G2 B2 G2 | D2 G2  B2  DB,  | D2  F2  D2 DB,| DEFG   Adfa  |
+     g2 a2 f2 d2 | dB d2  dcBA     | G2  B2  dcBA  | G2 ^d2 e2  :|]
+S:https://www.folktunefinder.com/tunes/133049
+S:http://nigelgatherer.com/tunes/abc/tb13.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb13.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

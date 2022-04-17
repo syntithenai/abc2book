@@ -1,0 +1,20 @@
+X: 51
+T: VALSE SIMPLE
+M: 3/4
+L: 1/8
+Q:1/4=60
+K:C 
+|Gc2 GA2|GBc dc2|Gc2 GA2|GBc dc2|
+Gc2 gef|gag fde|fef gcd|ede fBc|!
+dc2 gef|gag fde|fef gcd|ede fBc|
+|:dc2 gc2|gf2 ad2|fe2 gc2|1ed2 fB2:|2dc2 gc2|
+S:https://www.folktunefinder.com/tunes/132059
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/valses.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

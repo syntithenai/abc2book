@@ -1,0 +1,24 @@
+X:153
+T: Koenig von Mailand
+N: Q1067C
+O: Mitteleuropa, Oesterreich, Burgenland
+N: Melodievergleich zu Q0067, anderes Lied.
+R: Volks - Schauspiel - Lied
+M: none
+L: 1/8
+K: D
+=C2 | =F2G2A2A=c | G2G2=F4
+G2 | G2G2D2=F2G2F2 | E2G2=C4
+C2 | =F2G2A4G4 | =F2E2D4
+S:https://www.folktunefinder.com/tunes/132255
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Volks - schauspiel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

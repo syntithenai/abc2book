@@ -1,0 +1,26 @@
+X: 12
+T:Bobbing Around, Bampton
+M:6/8
+L:1/8
+A:Bampton
+P:A(AB2)4
+K:A
+P:A
+EA2B c2d |e2a  a>ec|{e}d>cB e>cB|A2G F2E |
+A2B c2d |e2a  a>ec|   d>cB BeG |A3  A2  ||
+P:B
+c/e/|f2B B>cd|e>cA A>Bc| d2B c2A|B2G E>cd|
+e2c d>cB|c>BA B>cd|e>cA B2G|A3 A2||
+S:https://www.folktunefinder.com/tunes/131581
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

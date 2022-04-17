@@ -1,0 +1,34 @@
+X:110
+T:B110-  Derry Down
+S:(2nd/4)
+Q:1/4=120
+L:1/4
+M:6/4
+K:Gm
+G|G3/2d/2cBAG|A3/2B/2AG2G/2G/2|GdcBAG|A3/2B/2AG2F/2F/2|\
+FFFFFc|fffff^f|gddedc|B3/2A/2BG/2F3/2G|\
+d2B3/2A/2B2|(G3G2)|]
+S:https://www.folktunefinder.com/tunes/130876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

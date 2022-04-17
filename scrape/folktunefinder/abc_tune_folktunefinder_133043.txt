@@ -1,0 +1,28 @@
+X:627
+T:Johnnie Cope (Gm)
+B:Gatherer's Musical Museum
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Gm
+d2 | G2 G2 GABc  | d2 G2 G2 AG | F2 F2 FGAB  | c2 f2 A2 F2 |
+     B2 AB c2 Bc | d2 f2 A2 GF | G2 g2 dcBA  | AGGA  G2   :|
+F2 | B3  B B2 F2 | Bcde  fdcB  | A2 F2 c2 F2 | ABcd  c2 A2 |
+     B2 AB c2 Bc | d2 f2 A2 GF | G2 g2 dcBA  | G2 B2 G2   :|
+D2 | G^FGA GABc  | dcBA  GABG  | F=EFG FGAB  | cfcA  dcBA  |
+     BAGB  cABc  | dDFA  dcBA  | G^FGg dcBA  | G2 B2 G2   :|
+F2 | BABc  BFDF  | BABd  fdcB  | AFcF  dFcF  | ABcd  cAFA  |
+     BAGB  cABc  | dDFA  dcBA  | G^FGg dcBA  | G2 B2 G2  :|]
+S:https://www.folktunefinder.com/tunes/133043
+S:http://nigelgatherer.com/tunes/abc/tb13.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb13.abc
+S:http://nigelgatherer.com/tunes/abc/abc8/jcope.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc8/jcope.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

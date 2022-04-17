@@ -1,0 +1,26 @@
+X: 20
+T:Walk of the Twopenny Postman, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB2)4
+K:ADor
+P:A
+g2f|edc BAG|BcB Bgf|edc BAG|ABA Agf|
+edc BAG|BcB B2c|def gdB|A3 ||
+P:B
+A2B|d2B d2B|d2B dgf|e2c e2c|e2c e2f|
+g2a b2a|gfe d2d|def gdB|A3    ||
+S:https://www.folktunefinder.com/tunes/132488
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

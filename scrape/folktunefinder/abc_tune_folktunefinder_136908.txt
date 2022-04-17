@@ -1,0 +1,47 @@
+X:7
+T:Polka Antwerpse Kempen
+O:belgium
+M:2/4
+L:1/8
+Q:1/4=98
+K:D
+V:1
+F/G/  |:"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec c/B/A/G/ |
+"D" FB AF/G/ |"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec B/A/f/e/ |
+|1 "D" dd dF/G/ :|2 "D" dd dz || |:
+K:A
+"A" e/e/e e/e/e |c/B/A/c/ fe |"E" d/c/B gf |f/e/_e/e/ "A" c2 |
+e/e/e e/e/e |c/B/A/c/ fe |"E" B/c/d GG/B/ |1 "A" AA Az :|2
+"A" AA AF/=G/ || |:
+K:D
+"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec c/B/A/G/ |"D" FB AF/G/ |
+"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec B/A/f/e/ |"D" dd dz  |:
+K:G
+"G" G/B/d/G/ B/d/g/B/ |"D" dc {d/4}c/B/c |A/c/d/c/ A/c/f/c/ |"G" ed {e/4}d/^c/d |
+d/g/b/d/ g/b/d/g/ |"Am" fe {f/4}e/_e/e |"D" dA/B/ cF |"G" GB/d/ gz :| |:
+K:D
+"D" zf zf |"A" zg g/f/g |ze zg |"D" zf f/=f/f |
+"G" gg2 g|"G" b/b/ b"D" a/a/ a|"A" c/d/ e/f/g c|"D" d fd z:|
+K:G
+"G" G/B/ d/G/B/d/ g/B/|"D" d c{d/4}c/B/ c|A/c/ d/c/A/c/ f/c/|"G" e d{e/4}d/^c/ d|
+d/g/ b/d/g/b/ d/g/|"Am" f e{f/4}e/_e/ e|"D" d A/B/c F|"G" G B/d/G F/G/|]
+K:D
+"D" A {A/4}f"A" G {G/4}e|"D" F d{e/4}d/c/ d|"A" E cc/B/ A/G/|"D" F BA F/G/|
+"D" A {A/4}f"A" G {G/4}e|"D" F d{e/4}d/c/ d|"A" E cB/A/ f/"D" e/|"D" d dd z|]
+K:A
+"A" e/e/ ee/e/ e|c/B/ A/c/f e|"E" d/c/ Bg f|f/e/ _e/e/"A" c2 |
+e/e/e e/e/e |c/B/A/c/ fe |"E" B/c/d GG/B/ |"A" AA AF/=G/ |]
+K:D
+"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec c/B/A/G/ |"D" FB AF/G/ |
+"D" A{A/4}f "A" G{G/4}e |"D" Fd {e/4}d/c/d |"A" Ec B/A/f/e/ |"D" dd dz |]
+S:https://www.folktunefinder.com/tunes/136908
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

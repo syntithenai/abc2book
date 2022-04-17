@@ -1,0 +1,21 @@
+X:3
+T: I. Come come lets begin,
+O: AYERES OR Phantasticke Spirites for three voices
+C: Thomas Weelkes
+%%gchordfont Helvetica 12 box
+N: Original clef: C on third line
+K:C
+T: Bassus
+%%MIDI transpose -12
+M:C
+L:1/8
+%1
+|: z8 g4 z2 g4 e f g2 c d e2 d2 a3 a d2
+S:https://www.folktunefinder.com/tunes/136347
+S:http://www.laymusic.org/music/weelkes/begin/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

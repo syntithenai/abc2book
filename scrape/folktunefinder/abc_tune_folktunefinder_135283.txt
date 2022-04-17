@@ -1,0 +1,28 @@
+X: 24
+T:Swaggering Boney, Longborough
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB3)2(AC3)2A
+K:F
+P:A
+|:c|AGF ABc|ded d2d|f>ef dgf|ede f2:|
+P:B
+f|gec gec|gec c2A|B>cd ded|BGA B3 |
+ABc F3 |Bcd G3 |A>Bc dgf|ede f2||
+P:C
+f|gec gec|gec c2A|B>cd ded|BGA B3 |
+(2AB c3|F3  F3 |\
+(2Bc d3|G3  G3 |A>Bc dgf|ede f2||
+S:https://www.folktunefinder.com/tunes/135283
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

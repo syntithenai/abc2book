@@ -1,0 +1,55 @@
+X:1
+%
+T:Ballet
+C:anonymous, Ms. 40641 Krakow, f. 1r
+C:variations added by Krisztof Daletski
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[,c,,a/],dac [a,,,a1] ,,d |\
+    [a,,,,e1] ,,,,,a/,d [,c,,a],a ,,d1 |\
+    [c,,a1] [a,,,e] [,d,,c] [a,,,,e/],d |\
+    [,c,,a/],d,c,a ,,d1 [,,d,e] |\
+    [,aa,c1] [,c,,a/],d [a,,,,e1] [c,,,,c] |
+[ea,,,a/]fec [a,,,a],c,da |\
+    [c,,a/]a [,d{a}],c [,a,,,a3/2] ,,d//,a |\
+    [,,dca2] {,,a} ||\
+    "variation"[,c,,a/],dac a ,,,,a ,,d ,c |\
+    a/ ,,,,,e ,,,c ,d [,c,,a] ,a ,,d1 |\
+    [c,,a1] ,,,,e/ a ,,,,c ,d [a,,,,e] ,d |
+[,c,,a/],d,c,a ,,d ,,,,a,,,,c,,,,e |\
+    ,,,,c/ ,a [,c,,a] ,d a ,,,,,e ,,,,,c c |\
+    [ea,,,a/]fec [a,,,a] ,,d//,a,c,da,c |\
+    [c,,a/]a [,d{a}],c [,a,,,a3/2] ,,d//,a |\
+    [,,dca1] {,,a} [,,dc2] |]
+[,acc3/2] ,a/ [,c,,a],e a1 |\
+    [,ea,c/]a c1 [aac,,a2] |\
+    [,,cc3/2],,,a/ [,,d,e],a [,c,,a1] |\
+    [,aa,c/],c ,d1 [,cdca2] |\
+    [,ac,,a1] ,a/,c [,d,,c1] ,a |
+[cd,a1] c/e [f,,e1] ,,d |\
+    [,c1] ,,,,a/,d [a,,,e1] [,d,a/],c |\
+    [,a,c/] ,,d [,ac,,a1] [,,dca2] ||\
+    "variation"[,acc1] ,,d/,a [,c,,a],ea,c |\
+    [,ea,c/]ac,e [aac,,a1] ,,,c |
+[,,cc1] ,,,c/,,,a [,,d,e],a,c,,,,a |\
+    [,aa,c/],c,d,,c [,cdca2] |\
+    [,ac,,a/],,d,a,c [,da,c],a,da |\
+    [c,,a/] ,d//acace f/,,,e,,d,a |\
+    ,c/,,,,a,,d,d a,,,,e[,d,a],c |
+[,a,c/],,d [,ac,,a1] [,,dca2] ||\
+    [,acc/],,d,a,c [,da,c] ,a//,c,d,c,da |\
+    [c,,a/]ace [f,,e],,a,,d,a |\
+    [,c,,a/],,d,c[,d,,c] [a,,,e],,d[,d,a],c |\
+    [,a,c/],,d [,ac,,a1] [,,dca{,,a}2] |]
+S:https://www.folktunefinder.com/tunes/133107
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Anonymous/ballet.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Anonymous/ballet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

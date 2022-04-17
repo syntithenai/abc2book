@@ -1,0 +1,36 @@
+X:1
+T:Moulinet d'Acign
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+A:Bretagne
+S:
+K:G
+T:Avant-deux
+Q:3/8=160
+M:6/8
+L:1/16
+z4 z4 z4 z4 :|
+"G"G2A2B2 G2A2B2 | G2A2B2 "Am"c4 A2 | F4 A2 F4 A2 |1
+c2B2A2 "G"B4 G2 :|2 "Am"c2B2A2 "G"B6 ||"Am"A6 "G"G6 |]
+T:Moulinet
+M:2/4
+L:1/16
+K:G
+z4 z4 | z4 z4 :: G2B2 d4 | (3B2A2G2 "Am"A4 | ABcB A2B2 |1
+(3c2B2A2 "G"B2G2 :|2 (3c2"Am"B2A2 "G"G4 ||"Am"A4 "G"G4 |]
+T:Balanc
+B2d2 g2g2 | "Am"f2e2 A4 | AcAc e2dc |1
+"G"B2A2 B2G2 :|2 B2A2 G4 || "Am"A4 "G"G4 |]
+S:https://www.folktunefinder.com/tunes/130424
+S:http://termen.free.fr/danses/termen/MoulinetdAcigne.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

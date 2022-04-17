@@ -1,0 +1,28 @@
+X:12
+T:Tom Billy's \#2
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:AMix
+~a3 ece|edB ~A3|eaa ece|dcB Ace|\
+~a3 ece|edB ~A3|GBd gfe|fdB Ace:|*
+~g3 ~a3|bag fed|faf g2e|edB def|\
+~g3 ~a3|bge gab|age dBe|~A3 Ace:|**
+S:https://www.folktunefinder.com/tunes/135078
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

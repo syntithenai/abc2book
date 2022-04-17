@@ -1,0 +1,39 @@
+X: 14
+T:Laudnum Bunches, Headington 2
+M:6/8
+L:1/8
+A:Headington
+P:A(AB3)2(AC3)2
+K:D
+Q:240
+P:A
+|:A|F>GA Bcd    |e<dB A2G   |F>GA Bcd |f2e  d2:|
+P:B
+A|F>ED F<AF   |E>FD E2D/E/|F<AF E>DE|F<DB A2G|
+F>GA Bcd    |e<dB A2G   |F>GA Bcd |f2e  d2 ||
+P:C
+A|F>ED F<AF   |\
+M:9/8
+E>FD E3  D2E|\
+M:6/8
+F<A-A F3    |\
+E3       D2E|
+M:9/8
+F<D-D B3 A2G|\
+M:6/8
+F>GA Bcd    |e<dB A2G   |F>GA Bcd |f2e  d2 ||
+S:https://www.folktunefinder.com/tunes/131620
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

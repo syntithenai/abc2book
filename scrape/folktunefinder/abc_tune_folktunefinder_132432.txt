@@ -1,0 +1,27 @@
+X: 11
+T:Old Woman Tossed Up, Bledington 1
+M:6/8
+L:1/8
+S:CJS (Bond)
+A:Bledington
+P:A(AB)4
+K:G
+P:A
+|:D|GAB c2d|edc BAG|ABc d2c|BAG G2:|
+P:B
+|:g|efg efg|efg fed|Bcd def|gfe d2B|
+GAB c2d|edc BAG|ABc d2c|BAG G2:|
+S:https://www.folktunefinder.com/tunes/132432
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

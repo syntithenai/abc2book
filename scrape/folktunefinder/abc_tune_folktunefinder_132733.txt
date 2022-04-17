@@ -1,0 +1,32 @@
+X: 68
+T:Jack of Ye Green. JBa.67
+T:John of the Greeny Cheshire Way,aka. JBa.67
+M:3/4
+L:1/8
+Q:150
+C:"December 28th 176..."
+S:Joseph Barnes MS,Carlisle,1762.
+R:misc
+O:England
+A:Carlisle
+N:Last digit of date  illegible. This is written under the tune 
+N:1=dotted crotchet in ms
+Z:vmp.C.Graebe.
+K:D major
+"No key/time sig,as writ"CE DF EG | F2 A-A EA | (GF) "NB"D4 |\
+ CE DF Ec | d2 (dd) dA | (GF) D3 :|!
+|:d2 f ecA | (Bc)(dB) (cde) | E G F2 D2 |\
+d2 f eBA |(fg)(af) d2 | E G F2 D2 :|!
+|: (fg)(af) efge | fgaf {d}e |\
+EG F2 D2 | fgaf efge | fgaf d2 | E G F3 :|]
+S:https://www.folktunefinder.com/tunes/132733
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Misc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

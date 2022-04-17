@@ -1,0 +1,35 @@
+X:1
+T:Avant deux " Coutant"
+C:appris de Benoit Guerbigny, fichier abc : Bernard Loffet
+L:1/8
+Q:238
+M:2/4
+K:G
+ z3B/c/ |: [dG,,][dG,] [dE,,][dE,] | [c/A,,/]d/[c/A,/]B/ [A/D,,/]G/[A/D,/]c/ | [BG,,][GG,] [GE,,][A/G,/]B/ | \
+ [A/A,,/]G/[F/A,/]G/ [AD,,][B/D,/]c/ | [dG,,][dG,] [dE,,][dE,] | [c/A,,/]d/[c/A,/]B/ [A/D,,/]G/[A/D,/]c/ | \
+ [BG,,][GG,] [GE,,][A/G,/]B/ | [A/D,,/]G/[F/D,/]A/ [G2G,,2] | \
+M:1/4
+ [GG,,G,]B/c/ :| \
+M:2/4
+|: [BG,,][GG,] [GE,,][A/A,/]B/ | [A/A,,/]G/[F/A,/]G/ [AD,,][B/D,/]c/ | [BG,,][GG,] [GE,,][A/A,/]B/ | \
+ [A/A,,/]G/[F/A,/]E/ [DD,,][B/D,/]c/ | [BG,,][GG,] [GE,,][A/A,/]B/ | [A/A,,/]G/[F/A,/]G/ [AD,,][B/D,/]c/ | \
+ [BG,,][GG,] [GE,,][A/A,/]B/ | [A/D,,/]G/[F/D,/]A/ [G2G,,2] | \
+M:1/4
+|1 [GG,,G,]B/c/ :|2 [G2G,,2G,2] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/130426
+S:http://diato.ifrance.com/diato/tablat/210.abc
+S:http://diato.ifrance.com/tablat/210.abc
+S:http://diato.org/tablat/210.abc
+S:http://perso.orange.fr/diato/tablat/210.abc
+S:http://perso.wanadoo.fr/diato/tablat/210.abc
+S:http://pro.wanadoo.fr/diato/tablat/210.abc
+S:http://www.diatonique.net/tablat/210.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

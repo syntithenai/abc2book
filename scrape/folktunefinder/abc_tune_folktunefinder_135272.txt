@@ -1,0 +1,26 @@
+X: 13
+T:Greensleeves, Longborough
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB2)5
+K:GMIX
+P:A
+A|B2A B2d|c2B A2A|B2B G2G   |F2E D2A|
+B2A B2d|c2B A2A|B2G A2F   |G3  G2 ||
+P:B
+z|f2e f2d|c2B A3 |f2e f2e/f/|g2f d2e|
+f2e f2d|c2B A2A|B2G A2F   |G3  G2 ||
+S:https://www.folktunefinder.com/tunes/135272
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

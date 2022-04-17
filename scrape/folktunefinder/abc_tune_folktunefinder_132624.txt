@@ -1,0 +1,23 @@
+X: 17
+T:Maid of the Mill, Brackley 2
+M:6/8
+L:1/8
+A:Brackley
+P:A(AB3)4A2
+Q:100
+K:G
+P:A
+|:G>FG B>AB|ABc  d3|E>FE E2D|G3 G3:|
+P:B
+  d>ef d2B |c>Bc c3|E>FE E2D|G3 G3 |
+  d2d  d3  |B2B  B3|E>FE E2D|G3 G3||
+S:https://www.folktunefinder.com/tunes/132624
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brackley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Brackley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Brackley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

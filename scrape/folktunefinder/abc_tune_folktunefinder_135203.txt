@@ -1,0 +1,26 @@
+X:13
+T:Memories of Donald Angus Beaton
+R:jig
+C:Elizabeth Beaton
+D:Kinnon & Betty Beaton, Cape Breton Fiddle Compilation
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:A
+C|A,CE Ace|cBc AEC|FDF ECE|DB,B, B,2 C|
+A,CE Ace|cBc AEC|DEF Eed|cAA A2:|
+|:c|ecA Ace|fdf ecA|EAc ece|dBB Bcd|
+[1ecA Ace|fdf ecA|dBG Eed|cAA A2:|
+[2cAc BGB|AGF ECE|FDF Eed|cAA A2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/135203
+S:http://cranfordpub.com/tunes/abcs/KinnonBettycomp.abc
+S:http://www.cranfordpub.com/tunes/abcs/KinnonBettycomp.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:270
+T: Tommy Peoples' B
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+R: jig
+M: 6/8
+L: 1/8
+K: Bm
+AFF dFF|A^GB AFD|AFF dFE|DFA B2d|
+AFF dFF|A^GB AFE|F3 FEF|DFA B2d :|
+ABc d3|dfa afd|geg fdB|AFA B2d|
+ABc dcd|dfa gfe|fge fdB|1 AFA B2d :|2\
+AFA B2||
+A|Bbb Baa|fge fdA|Bbb Baa|AFA B2A|
+Bbb Baa|fge fdB|AFd AFE|DFA B2 :|
+S:https://www.folktunefinder.com/tunes/136987
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

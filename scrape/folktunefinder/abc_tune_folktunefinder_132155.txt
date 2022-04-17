@@ -1,0 +1,29 @@
+X:53
+T: Wiedersehen an der Bahre
+N: Q0056I
+O: Mitteleuropa, Deutschland (BRD) , Rheinpfalz, Hunsrueck
+N: Einzige vollstaendige Melodie aus einer etwas wirren Melodietafel.
+N: Eingeklammerte Noten nicht gespielt. Pause am Liedende korrigert.
+R: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+M: 3/4
+L: 1/8
+K: F
+FA | c3cde | f3
+cde | f2e2d2 | c3
+cfe | d3cBd | c3
+AFG | Acc2B2 | A2z
+cfe | d3cBd | c3
+AFG | Acc2B2 | A2z2
+S:https://www.folktunefinder.com/tunes/132155
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, abschied, enttaeuschung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

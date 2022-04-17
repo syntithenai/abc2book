@@ -1,0 +1,30 @@
+X:150
+T: Tommy Sullivan's
+S: J.O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: A
+cAF E2 F | ABc dce | cAF E2 F | ABA AFE |
+cAF E2 F | ABc dcd | efe ecA | BcB AFE :|
+Acc Acc | Acc dcB | Acc Acc | ABA AFE |
+Acc Acc | ABc efg | afe ecA | BcB AFE :|
+K:G %Transposed from A
+BGE D2 E | GAB cBd | BGE D2 E | GAG GED |
+BGE D2 E | GAB cBc | ded dBG | ABA GED :|
+GBB GBB | GBB cBA | GBB GBB | GAG GED |
+GBB GBB | GAB def | ged dBG | ABA GED :|
+S:https://www.folktunefinder.com/tunes/136963
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

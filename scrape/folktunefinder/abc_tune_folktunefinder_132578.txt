@@ -1,0 +1,27 @@
+X: 26
+T:Valentine - Ducklington
+S:OY(AB)2(AC)
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:6/8
+L:1/8
+Q:80
+K:G
+"A"d | gfe ede | edc cBc | dBg dBG | FAA A2 d | gfe ede | edc cBc | dBG
+DAF  | GGG G ||
+"B" Bc | ded dBd | BGG GAB | cAc BGB | FAA ABc | ded dBd | BGG G2 d | ef
+g dBd | BGG G :||
+"C" Bc | ded dBd | BGG GAB |
+M:4/4  c  A c2 | B G  B2 | F A  A2 | A2 |
+M:6/8 B2 c | ded dBd | BGG G2 d | efg dBd | BGG G2 :||
+S:https://www.folktunefinder.com/tunes/132578
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/gum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

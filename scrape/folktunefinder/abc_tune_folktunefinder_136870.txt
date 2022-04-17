@@ -1,0 +1,34 @@
+X: 1
+T: BEAN SETTING
+S: MDT
+O: Headington
+P: A.(A2B2)4
+Q:
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 12/16
+L: 1/16
+K: G
+P: A
+Q: 3/16=160
+|: G3 G2A B3 B3 | A2B cBA G2A B3 | G3 G2A B3 B3 | A2B cBA G6 :|
+P: B
+Q: 3/8=96
+M: 6/8
+L: 1/8
+|: B>AG B>AG | B<d-d- d2B | A>BA A2B | c2d e>dc | B>AG B<dB |[M:9/8]A>Bc def g3 :|
+P: Alt.B6 (Carey)
+||[M:9/8]A>Bc d>cA G3 || y6 y6 y6 y6 y6 y6 y6 y6
+S:https://www.folktunefinder.com/tunes/136870
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bean_Setting_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Time_signature 12/16
+% Text Has source text
+% Has_accompaniment_chords No chords

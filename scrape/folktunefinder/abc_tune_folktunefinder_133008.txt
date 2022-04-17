@@ -1,0 +1,34 @@
+X: 1
+T: Horgalaten
+I: HorgalatenM-1Gm/Bbhambo
+C: M-1
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Gm
+%%text Playing order: AA BB AB BA CC
+"Gm"d2 d>e d>c| c>B B2G2| "D"B>A A>D ^F>A| "Gm"G>^F G>A B>c|
+    d2 d>e d>c| c>B B2G2| "D"B>A A>D ^F>A| "Gm"G2 G4:| \K: Bb\
+\
+|:"Bb"B>c d2 B2| "Cm"c>d e2 c2| "F"f2 f>g f>e| "Bb"e>d d4:| \K: Gm\
+\
+|:"Gm"G2 ^F2 G2| "D"A2G2A2| "Gm"B2 B>A B>c| "D"d2 d4|
+"Gm"G2 ^F2 G2| "D"A2G2A2| "Gm"B2 B>A B>c| "D"d2e2=e2|
+"F"f>e c2 (3cde| "Bb"d>c B2d2| "D"d>c A2 (3ABc| "Gm"B>A G2g2|
+"Cm"g>e c2 (3cde| "Gm"d>B G2 (3GAB| "D"B>A A>D ^F>A| "Gm"G2 G4:|
+%%text 9/1/98.  From Matt Fichtenbaum 1980
+S:https://www.folktunefinder.com/tunes/133008
+S:http://roaringjelly.org/music/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Misc.abc
+S:http://roaringjelly.org/music/hambo/M001_Horgalaten.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/hambo/M001_Horgalaten.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/hambo/M001_Horgalaten.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

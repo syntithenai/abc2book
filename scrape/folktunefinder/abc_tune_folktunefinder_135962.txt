@@ -1,0 +1,25 @@
+X: 30
+T: Steamboat Quickstep
+C: Jig
+S: Traditional
+N: Adapted to abc by Robert Bley-Vroman, Contradancers of Hawaii, 28 December 1996.
+Z: mailto:vroman@hawaii.edu  
+M: 6/8
+L: 1/8
+K: A
+|: a2e c2A | Ace a3 | agf edc | Bed cBA |
+   a2e c2A | Ace a3 | agf edc | edB A3 :| 
+|: c2e efe | efe c2 A | d2f fgf | fga e3 |
+   c2e efe | efe c2 A | agf edc | edB A3 :|
+S:https://www.folktunefinder.com/tunes/135962
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/contra/dances/cdh-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

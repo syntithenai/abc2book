@@ -1,0 +1,19 @@
+X: 5
+T:Ton Simpl Gavotte #1 (Suite 1)
+M:12/8
+L:1/8
+S:Yann Dour
+R:Gavotte
+K:G
+G2 Bd2 dc2 dB3 |G2 Bc2 AB3 B3  :|: d2 B G2 G ABc A3  |A2 cB2 A G3 G3  :|
+S:https://www.folktunefinder.com/tunes/132977
+S:http://www.unet.univie.ac.at/~a8702257/abc/breton.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

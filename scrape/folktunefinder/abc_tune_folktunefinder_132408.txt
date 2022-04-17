@@ -1,0 +1,25 @@
+X:7
+T:Rambling Sailor (The Forester)
+A:Field Town
+O:English
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:A(A2B2)4
+K:D
+P:A
+G>F | E2 B2 B>G (3AGF | E2 E2 d3 e | d3 B A3 F | E2 E2 E2 |]
+P:B
+z2 | B>cd>B e2 e2 | B>c (3dcB e2 B>c | d2 d2 c2 c2 | B>c B>A F2 G>F |
+E2 B2 B>G (3AGF | E2 E2 d3 e | d3 B A3 F | E2 E2 E2 |]
+S:https://www.folktunefinder.com/tunes/132408
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

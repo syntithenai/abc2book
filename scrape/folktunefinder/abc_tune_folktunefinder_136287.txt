@@ -1,0 +1,22 @@
+X:3
+%%MIDI gchordoff
+T:Jeanne qui Saute
+T:Jumping Jean
+M:6/8
+L:1/8
+K:G
+P:A
+|:d| "G"B2 B B>AG | "D7"A2 A A2 d | "G"B>cB "D7"A>GF | "G"G2 G G2 :|
+P:B
+|:d | "G"g2 d "C"e2 d | "G"g2 d "C"e2 d | "G"g2 d d>cB | "Am"A2 A "D7"A2 d | "G"B2 B B>AG | "Am"A2 A "D7"A2 d | "G"B>cB "D7"A>GF | "G"G2 G G2 :|
+S:https://www.folktunefinder.com/tunes/136287
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.laymusic.org/music/dance/feuillet.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

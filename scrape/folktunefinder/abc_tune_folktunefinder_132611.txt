@@ -1,0 +1,24 @@
+X: 4
+T:Month of May, Brackley
+M:6/8
+L:1/8
+A:Brackley
+P:A(AB)6A
+K:G
+P:A
+D|G2G GFG|A2B c2d|e2d dcB|GFG A2D|
+G2G GFG|A2B c2d|e2e d2B|dcA G2 ||
+P:B
+B|A2A A2B|cdc B2d|g2d g2d|B2c d2A|
+A2A A2B|cdc Bcd|g2d g2d|cBA G2 ||
+S:https://www.folktunefinder.com/tunes/132611
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brackley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Brackley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Brackley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

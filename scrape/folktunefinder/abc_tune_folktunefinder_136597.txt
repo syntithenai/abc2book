@@ -1,0 +1,28 @@
+X:2
+T:Sporting Nell
+C:Traditional
+N:Play 4 times
+N:flutes, whistles & pipes play "A2 GF EG G2" in bar 2 [GT]
+N:The Paris Set, Figure 3, Tune 2 of 4
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+B:Bulmer & Sharpley Vol.1
+R:Reel
+L:1/8
+M:C
+K:Am
+AD D2 A2 dc | A2 GF EC C2 | AD D2 A2 dc | [1 AcGE ED D2 :|[2 AcGE FGAB |]
+c2 ec gcec | c2 ec AddB | c2 ec gcec | AcGE D3 B |
+c2 ec gcec | c2 ec Adde | f3 d efed | cAAG Addc |]
+S:https://www.folktunefinder.com/tunes/136597
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

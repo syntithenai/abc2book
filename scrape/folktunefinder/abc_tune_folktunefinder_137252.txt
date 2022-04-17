@@ -1,0 +1,29 @@
+X:6
+T:Constant Billy
+S:Bacon (MDT)
+A:Adderbury
+O:English
+R:Jig
+P:A(A2B)6
+M:6/8
+K:G %Transposed from A
+P:A
+D | G2d BG>B | c2A F2 D | B>AG E2D | DEF G2 |]
+P:B
+z | Bcd e3 | ABc d3 | Bcd e3 | ABc d2 (3d/e/f/ |
+g2d BG>B | c2 A F2D | B>AG E2D | DEF G2 |]
+%
+W: Oh my Billy, my constant Billy, when shall I see my Billy again
+W: Billy again! Billy again! Billy again! Billy again! 
+W: Oh my Billy, my constant Billy, when shall I see my Billy again
+S:https://www.folktunefinder.com/tunes/137252
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

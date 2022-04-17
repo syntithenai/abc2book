@@ -1,0 +1,38 @@
+X:87
+T:B087-  The country lass
+S:(2nd/2)
+Q:1/4=120
+L:1/4
+M:3/4
+K:D
+A/2|A/2 d/2{d}c3/2 d/2|e/2 f/4e/4d3/2c/2|B/2 A/2{A}G3/2F/2|\
+F/2(dd)A/2|A/2 d/2{d}c3/2 d/2|e/2 f/4e/4d3/2c/2|\
+B/2 A/2{A}G3/2F/2|F/2(dd)||":s:"A/2||\
+A/2 F/2{FG}A3/2B/2|B/2 A/2{GA}B3/2f/2|\
+{ef}g/2 f/2{f}e3/2d/2|c/2(ee)A/2|\
+G/2 F/2ED|g/2 f/2{f}e3/2d/2|\
+e/2 d/2c3/2B/2|A/2(dd)|]
+S:https://www.folktunefinder.com/tunes/130843
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

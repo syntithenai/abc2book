@@ -1,0 +1,23 @@
+X:6
+T:The Champion Hornpipe
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+Ac | d2cB AGFE | D2FA dfaf | gAeg fAdf | eAgf eAce |
+d2 cB AGFE | DFAd fdaf | gAeg fAdf | eAce d2 ::
+de | fadf A2 Bc | d2 cB AGFE | DFAd fadf | eAgf e2 de |
+fadf AdFA | DFAd fadf | gAeg fAdf | eAce d2 :|
+S:https://www.folktunefinder.com/tunes/135771
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

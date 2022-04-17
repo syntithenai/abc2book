@@ -1,0 +1,22 @@
+X:145
+T: Thornton's
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+d |g2 dc BG G2 |ABcA defd |g2 dc BG G2 |AdcA G3 :|
+d |df f2 dg g2 |defd edcA |df f2 dg g2 |fdcA GABc |
+df f2 dg g2 | defd edcA | dg g2 bgag | fdcA G3 ||
+S:https://www.folktunefinder.com/tunes/136962
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

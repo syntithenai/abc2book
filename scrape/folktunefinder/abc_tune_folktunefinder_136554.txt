@@ -1,0 +1,25 @@
+X: 3
+T:Miss Marianne's Reel
+M:4/4
+L:1/8
+Q:200
+R:March
+K:A
+ed|"A"ce Be A2AA|{d}cA ce a2 ef|"G"g/2g/2f ga gf ef|(3gfe dB GB dB|
+"A"ce Be A2AA|{B}cA ce a2 ef|"G"(3gfe dB GB dB|"A"{f}e2 A2 A2::
+ec|"A"A/2A/2A a2 A/2A/2A a2|ag ed cA A2|
+"G"G/2G/2G g2 G/2G/2G g2|(3gfe d=c BG GG|
+"A"A/2A/2A a2 A/2A/2A a2|"G"{f}e/2e/2d ef g2 ef|
+(3gfe dB GB dB|"A"{f}e2 A2 A2:|
+S:https://www.folktunefinder.com/tunes/136554
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,54 @@
+X: 27
+T:Black Joak,The. JBa.26
+M:6/8
+L:1/8
+Q:50
+S:Joseph Barnes MS,Carlisle,1762.
+R:joke,ha ha
+O:England
+A:Carlisle
+N:1 -  this note added by me 2 - In the MS these notes come in sets of 8
+N:not 6..CGr...
+H:See elsewhere for Paul's notes.
+Z:vmp.C.Graebe.
+K:A major
+A||: EGA (Ad/c/B/A/) | Bcd (d/c/B/A/G) | cde (a/g/f/g/a/f/) |\
+ (ed/c/B/A/) (dc/B/A/G/) |\
+(A/B/c/d/e) (F/G/A/B/c)  | EFG "cr"A3 :||: (d/c/B/c/d) (e/d/c/B/A) |\
+ (a/g/f/g/a) edc | d/c/B/A/B/c/ d(dc) | fga edc |\
+ (d/e/f/g/a) (c/d/e/f/g) |\
+Bcd (d/c/B/A/G) | cde a/g/f/f/g/a/ | (e/d/c/B/A) (dc/B/A/G/) |\
+ (A/B/c/d/e) (F/G/A/B/c) |EFG "cr"A3 :||:\
+E2A AA,A | BcB BB,B | cdc cCc | BcB BA,B\
+| (A/B/c/d/e) (F/G/A/B/c) | EFG "cr"A3 :||:\
+(d/c/B/c/d) (d/c/B/c/d) | fga (ed/c/B/A/) | (d/c/B/c/d) (d/c/B/c/d) |\
+ fga edc | d/e/f/g/a (c/d/e/f/g) |\
+ Bcd (d/c/B/A/G) | cde (a/g/f/g/a/f/)|\
+(e/d/c/B/A) (d/c/B/A/G) | (A/B/c/d/e) (F/G/A/B/c) | EFG "cr"A3 :||:\
+eac' eac' | ebd' ebd' | ec'e' ec'e' | ed'f' ed'f' | eaa g2f |\
+ efg "cr"a3 :||:\
+(e/d/c/B/A) (e/d/c/B/A) | fga ecA | (e/d/c/B/A)  (e/d/c/B/A) | fga ecA |
+\
+(d/e/f/g/a) (c/d/e/f/g) | Bcd (d/c/B/A/G) | cde (a/g/f/g/a/f/) |\
+ "bar almost illegible"\
+(e/d/c/B/A) (d/c/B/A/G) | (A/B/c/d/e) (F/G/A/B/c) | EFG "cr"A3 :||:\
+aae aea |bc'b bab | c'd'c' (c'd'/c'/b/a/) | bc'b bab | eaa "1" agf |\
+efg "cr"a3 :||:(e/c/)(e/c/)(e/c/) (f/d/)(f/d/)(f/d/) |\
+ (e/c/)(e/c/)(e/c/) (f/d/)(f/d/)(f/d/) |\
+(a/c/)(a/c/)(a/c/) (g/B/)(g/B/)(g/B/) | agf edc |\
+ Bcd (d/c/B/A/G) | (A/B/c/d/e)( F/G/A/B/c) |\
+EFG "cr"A3 :||:"2" (a/A/)(a/A/)(a/A/) (b/A/)(b/A/)(b/A/) |\
+(c'/A/)(c'/A/)(c'/A/) (b/A/)(b/A/)(b/A/) | eaa g2d | efg "cr"a3 |]
+S:https://www.folktunefinder.com/tunes/132692
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Joke,ha ha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:16
+T:Highland Mary (Island Mary)
+T:Jamaica Farewell
+N:A substitute for Highland Mary
+H:This substitution originated during the Marlboro Ale (probably 1980)
+H:on tour with Newtowne and Bouwerie Boys in Wyndham County.
+A:Bampton
+R:Caribbean
+P:A(AB2)4
+M:4/4
+K:G
+P:A
+z3 | d2 d d2 ddd | e2 f g2 gfe | d2 dd c2 cc | B2 c d2 GBd |
+d2 d d2 ddd | e2 f g2 gfe | d2 dd c2 cc | B2 A G2 |]
+P:B
+ddd | G2 G B2 BBB | A2 A c2 ccc | F2 F A2 AAA | G2 G B2 ddd |
+G2 G B2 BBB | A2 A c2 ccc | B2 BB A2 AA | G2 G G2 |]
+S:https://www.folktunefinder.com/tunes/131542
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Caribbean
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

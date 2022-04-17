@@ -1,0 +1,48 @@
+X:2565
+T:The nightingale
+C:Thomas Weelkes
+O:England
+A:London
+B:Weelkes: AYERES OR Phantasticke Spirites for three voices (1608), no. 25
+H:Taken from the Performers' Facsimiles print of the London, 1608 edition
+Z:Transcribed by Laura Conrad - http://www.laymusic.org
+F:http://abc.musicaviva.com/tunes/weelkes-thomas/weelkes-1608-25/weelkes-1608-25-voca3.abc
+%Posted at abcusers Jan 17th 2001 by Laura Conrad
+% Copyright (C) 1999  Laura E. Conrad lconrad@world.std.com
+% 233 Broadway, Cambridge, MA 02139, USA
+%
+%    This information is free; you can redistribute it and/or modify it
+%    under the terms of the GNU General Public License as published by
+%    the Free Software Foundation; either version 2 of the License, or
+%    (at your option) any later version.
+%
+%    This work is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+%
+%    You should have received a copy of the GNU General Public License
+%    along with this work; if not, write to the Free Software
+%    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+%%gchordfont Helvetica 12 box
+K:C
+T: Cantus
+M:C
+L:1/8
+N: Original clef, treble
+%1
+G4 d c B A G A B c B c d e d2 g2 g3 f/2 e/2 d4 c2
+S:https://www.folktunefinder.com/tunes/136381
+S:http://abc.musicaviva.com/tunes/weelkes-thomas/weelkes-1608-25/weelkes-1608-25-voca3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/weelkes-thomas/weelkes-1608-25/weelkes-1608-25-voca3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/weelkes-thomas/weelkes-1608-25/weelkes-1608-25-voca3.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 2
+T: Barney Brallaghan
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|: F2 A ABA ABA | F2 A ABA d2 f | 
+F2 A ABA ABA |[1 B2 B e2 d cBA :|[2 B2 B Bcd ecA ||
+|: f2 a f2 a f2 d | f2 a f2 a gfe | 
+f2 a f2 a f2 d | g2 f e2 d cBA :|
+|: f3 a3 d3 | g2 f e2 d cBA |
+[1 f2 d e2 c d2 B | A2 B A2 G FED :|
+[2 fga e2 f d2 B | AFA dAG FED |]
+S:https://www.folktunefinder.com/tunes/136042
+S:http://www.thesession.org/tunes/display/1429
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: Bed Breaker, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;G&quot;D2GG2D|&quot;C&quot;E2G &quot;D7&quot;FGA|&quot;G&quot;B2GG2D|&quot;C&quot;EFG &quot;D7&quot;F2E|
+&quot;G&quot;D2GG2D|&quot;C&quot;E2G FGA|&quot;G&quot;B2zG3|&quot;D7&quot;E2F&quot;G&quot;G3:|
+&quot;G&quot;B2gf2g|&quot;C&quot;e3e2f|&quot;G&quot;gfed2B|&quot;Am&quot;A3&quot;D7&quot;ABA|
+&quot;G&quot;G2B BAB|&quot;Am&quot;c2A&quot;D7&quot;d2c|&quot;G&quot;BAG&quot;D7&quot;A2F|1&quot;G&quot;G3G2A:|2&quot;G&quot;G3F3||
+&quot;Em&quot;E3F3|G3A3|Beee2^d|e3e3|
+&quot;Em&quot;E3F3|G3A3|&quot;Bm&quot;B2AG2F|G2FE2^D|
+&quot;Em&quot;E3F3|G3A3|Beee2^d|e3e2f|&quot;C&quot;g2f gfe|&quot;G&quot;d2g&quot;Em&quot;B2d|&quot;Am&quot;cdcB2A|&quot;G&quot;G3G3||
+S:https://www.folktunefinder.com/tunes/137344
+S:http://www.thesession.org/tunes/display/5069
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

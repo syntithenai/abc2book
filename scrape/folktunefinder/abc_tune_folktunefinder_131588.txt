@@ -1,0 +1,25 @@
+X: 19
+T:Under the Old Myrtle Tree, Bampton
+M:6/8
+L:1/8
+A:Bampton
+P:A(AB4)
+K:D
+P:A
+AFA ded|BcB GFG|EFE ede|cBc ABA|
+FGF dcd|BcB e2d|cec ABc|d3  d3 ||
+P:B
+A2A d2d|BAc B2G|EGG e2e|cec cBA|
+ABA dcd|BcB e2d|cec ABc|d3  d3 ||
+S:https://www.folktunefinder.com/tunes/131588
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

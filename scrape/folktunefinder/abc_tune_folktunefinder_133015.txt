@@ -1,0 +1,42 @@
+X: 9
+T: Walpole Cottage
+I: Walpole CottageM-6D/Areel
+C: M-6
+C: Pat Shaw
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+P: Intro
+K: D
+%%staffwidth 10cm
+"Em"e3f g2f2| e2d2 c2B2| "A"A2z2 "Em"e2z2| "A"a2z2 |]
+P: .
+%%staffwidth 16.5cm
+"A7"A3G|: "D"F2A2 F2A2| F2A2 d3c| "G"B3d c2B2| "D" A6 A2|
+"G"B3d c2B2| "D"A2d2 f2a2 |1 "Em"a2g4 f2| "A7"e6 AG :|2 \
+"Em"f2d2 "A7"e2c2| "D"d6 |] \K: A\
+\
+F2| "Bm"B3c d2cB| "F#7"c2f4 e2| "Bm"d2B2 "F#7"c2^A2| "Bm"B6 "E7"B2|
+    "A"c3d "E7"e2d2| "A"c2A2 "D"B2d2| "A"c2A2 "E7"B2G2| "A"A6 A2|
+    "G"B3c d2cB| "D"A2F4 A2| "G"B3c d2e2| "F#7"f6 e2|
+    "Bm"d3e f2ed| "A"e2a2 "D"f2d2| "A"c2A2 "E7"B2G2| "A"A4 |] \K: D\
+\
+"A7"a3g| "D"f3e f2d2| "A7"e2c2 A2Bc| "Bm"d3c d2B2| "D"A6 A2|
+   "G"B3A B2G2| "D"F2A2 d2f2| "Em"f2a2 g2f2| "A7"e6 A2|
+   "D"f3e f2d2| "A7"e2c2 A2Bc| "Bm"d3c d2B2| "F#7"A6 A2|
+   "G"B3c d2B2| "D"A2d2 f2a2| "Em"f2d2 "A7"e2c2| "D"d8 |]
+%%text 9/1/98.  Formerly R-18
+% ---------- page 6 ----------
+S:https://www.folktunefinder.com/tunes/133015
+S:http://roaringjelly.org/music/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Misc.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

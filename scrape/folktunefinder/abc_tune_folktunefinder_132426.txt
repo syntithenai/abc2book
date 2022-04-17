@@ -1,0 +1,25 @@
+X: 5
+T:Billy Boy, Bledington 2
+S:RKS, from Hathaway
+A:Bledington
+M:6/8
+P:A(AB2)4
+K:F
+P:A
+|:F>Ac B>GA|B>AB G>EC|A>GF D>CB,|C>DE  F3:|
+P:B
+  B2c  d>BG|A2B  c>AF|ABc  d2B  |G>AB  c3 |
+  F>Ac B>GA|B>AB G>EC|A>GF D>CB,|C>DE  F3 |
+S:https://www.folktunefinder.com/tunes/132426
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

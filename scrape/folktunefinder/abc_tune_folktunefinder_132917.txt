@@ -1,0 +1,37 @@
+X:7
+T:Ton double fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonio Breizh-Izel 1151 (Pelant)
+Q:C3=156
+P:N5
+M:12/8
+K:Dm
+P:N
+%%%MIDI gchord fzfczfczzfzc
+%%MIDI gchord czcfzcfzzczf
+%%MIDI chordprog 0
+%%MIDI chordvol 100
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "Dm"A2 A "C"G2 ({FG}F) E2 ({FG}F) "Bb"D3 |\
+"F"A2 ({AB}A) "Gm"G2 F "C"E3 "Am"E3 :|
+|: "Dm"A3 "F"A>GF "C"E2 F "Gm"G3 |\
+"Bb"F2 ({EF}E) D2 E (FE)D "C"E3 |\
+"F"A3 ({AB}A)(GF) "C"E2 F "Gm"G3 |\
+"C"({AB}A)(GF) "Bb"E2 F D3 "Dm"D3 :|
+S:https://www.folktunefinder.com/tunes/132917
+S:http://kazimodal.trad.org/partitions/dans_fisel/LE_dans_fisel/LE_dans_fisel.abc
+% Rhythm Dan?s fisel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

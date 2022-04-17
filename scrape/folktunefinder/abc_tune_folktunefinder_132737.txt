@@ -1,0 +1,27 @@
+X: 72
+T:Maidenhead is a Folly. JBa.71
+M:4/4
+L:1/8
+Q:125
+S:Joseph Barnes MS,Carlisle,1762.
+R:Country-dance
+O:England
+A:Carlisle
+N:Not really enough to go on for me to reconstruct..CGP.
+Z:vmp.C.Graebe.
+K:G major
+"No key or time signature,as writ"c | BG AF G2  GB |\
+ BG AF FA "qu"c2 | BG AF G2 GB | AF DG FA ||!
+A2 d-d e d2 | A2 d-d e (cdec) | A2 d-d e2 (dc) |\
+d D-D (GF) A2|]
+S:https://www.folktunefinder.com/tunes/132737
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

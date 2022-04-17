@@ -1,0 +1,33 @@
+X:512
+T:Bonaparte's Retreat 2
+D:Aly Bain/Phil Cunningham, The Ruby
+Z:Nigel Gatherer
+Q:170
+M:2/4
+L:1/16
+K:D
+F4 F>EF>G | A2F2 E2D2 | E4    E>DE>F | G2F2 E2D2 | 
+F4 F>EF>G | A2F2 E2D2 | E2F>G F2E2       | D4- D4- | D4- D4 :|
+d4 f3e | d>ed>B A2B>c | d3B A2F2 | E2D2 F3E | D4- D4- | D4- D4 :|
+F4 F>EF>G | A2F2 E2D2 | E4    E>DE>F | G2F2 E2D2 | 
+F4 F>EF>G | A2F2 E2D2 | E2F>G F2E2       | D4- D4- | D4- D4 :|
+d4 f3e | d>ed>B A2B>c | d3B A2F2 |
+M:1/4
+E2D2 |
+M:2/4
+B4- B4- | B4- B4 |
+d4 f3e | d>ed>B A2B>c | d3B A2F2 | E2D2 F3E | D4- D4- | D4- D4 :|
+S:https://www.folktunefinder.com/tunes/131699
+S:http://nigelgatherer.com/tunes/abc/tb11.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb11.abc
+S:http://nigelgatherer.com/tunes/abc/abc7/bonpr.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc7/bonpr.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

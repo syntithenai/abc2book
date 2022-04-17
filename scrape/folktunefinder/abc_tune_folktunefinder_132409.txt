@@ -1,0 +1,29 @@
+X:8
+T:Gallant Weaver
+A:Field Town
+O:English
+S:Green Fiddle Morris, Toronto, ON
+R:hornpipe
+M:4/4
+L:1/8
+% Q:190
+% P:
+K:D
+P:A
+z2 | ABAG FGA2 | Bc d2 A2 A2 | Bc d2 c2 d2 | g2 f2 e4 |
+ABAG FGA2 | Bc d2 A2 A2 | Bc d2 c2 d2 | e4 d2 |]
+P:B
+de | f2 gf e2 fe | dfed dcBA | Bc d2 c2 d2 |  g2 f2 e4 |
+ABAG FGA2 | Bc d2 A2 A2 | Bc d2 c2 d2 | e4 d2 |]
+S:https://www.folktunefinder.com/tunes/132409
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

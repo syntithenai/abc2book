@@ -1,0 +1,26 @@
+X: 41
+T:Blue Streak - Moulton
+S:OY(A B)5
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+Q:140
+K:D
+ "A"F2 F>E D2 F>A | d2 d>c B4 | A2 A>B A2 F>D | E2 E>F E4 | F2 F>E D2 F>
+A
+ | d2 d>c B4 | e>d c>B A>G F>E | D2 d2 d4 ||
+"B" e2 e>d c2 e2 | d2 f2 d4 | B2 B>c d2 c>B | A>B A>F E4 |  F2 F>E D2 F>
+A
+ | d2 d>c B4 | e>d c>B A>G F>E | D2 d2 d4 ||
+S:https://www.folktunefinder.com/tunes/132593
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/gum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

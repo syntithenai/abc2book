@@ -1,0 +1,24 @@
+X:6
+T:Cotton Patch Rag
+C:Trad
+S:Byron Berline
+M:2/4
+L:1/8
+Q:100
+K:C
+e e^f!|"C"g^faf gecd|eged ceAG|"F"FEFG AFAB|cdcB A2dc|"G"BdcB ABA^F|GABc
+ dcBd|"C"cBcd edce|g^fga baga| eg2a gecd|eged ceAG|"F"FEFG AFAB|cdcB A2d
+c|"G"BdcB ABA^F|GABd g2ef|gbag edBG|"C"E4c4||%
+EGGAG GAE_E=E|GAGGAE|
+S:https://www.folktunefinder.com/tunes/137082
+S:http://wind.prohosting.com/mrnelson/mandolin/tunes.txt
+S:http://wind.prohosting.com/mrnelson/bluegrass/tunes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:X. From silent night
+T:CANTUS.
+C: John Dowland
+H: From A Pilgrimes Solace.
+H: Wherein is contained Musicall 
+H: Harmonie of 3. 4. and 5. parts,
+H: To be sung and plaid with the Lute and Viols.
+H: First published in 1612
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+%%%LY voices \property Voice.Slur \set #'dashed = #1
+%%LY voices \property Staff.automaticMelismata = ##f
+K:A min
+A > B c d e2 A a2 g/ f/ e > e d A > A d c > d e2 A2
+S:https://www.folktunefinder.com/tunes/136382
+S:http://www.laymusic.org/music/dowland/night/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

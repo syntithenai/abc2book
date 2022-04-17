@@ -1,0 +1,59 @@
+X:1
+T:Ballo Primo
+T:for Theorbo and Basso continuo
+C:G. Kapsberger, 1640
+L:1/4
+K:DM
+%
+%%indent 2.0cm
+%%tabrhstyle diamond
+%%gchordfont ZapfChancery-MediumItalic 16
+%
+V:T clef=italian7tab name=Theorbo bracket=2
+V:B clef=bass        name=Basso
+%
+Q:"Uscita"
+M:C
+%
+[V:T] [abd,a1] [dd,,c/]b [a,,,d1] [,ba,a] |\
+    [d,,c1] ,,,,,a/,,d ,,f1 [,,d,,c] |\
+    [a,b,,d1] [a,b,,a] [a,b,,d] [,,a,a/]a |\
+    [,e,,c1] {9}/a c1 ,a |
+[V:B] d e f "6#"d |\
+    A>A A =B |\
+    c A c d |\
+    "#"e3 e |
+%
+[V:T] [d,,c1] [,d,,c] [a,,,d] [c,,ca] |\
+    [d,,,,d1] [c,,,a/]a [,d,,c1] [,a,,,d] |\
+    [,c,,,c/],e [aab,,a1] [aaa,c] ,e/,,d |\
+    [a,cc1] ,,,,c ,,,,,a2 ::
+[V:B] a e f "6#"d |\
+    c d e "6#"c |\
+    =B A "4  #"e2 |\
+    A4 ::
+%
+[V:T] [,,bcd1] [,db,c] [,bd,a] ,,,,,d/,,,,,b |\
+    [a,b,,a1] b/a [,d,,c1] [a,,,d] |\
+    [,bb,,a1] ,,,,,b [,bba,d] ,a/b |\
+    [ab{8}3/2] d/ [a,,,d1] ,b |
+[V:B] f "6"e d c/B/ |\
+    A>A e f |\
+    A B c2 |\
+    F3 F |
+%
+[V:T] [,a,a,d1] [,c,c] [,d,d{a}] [,b,c/] [,a,a] |\
+    [,b,,a1] {10} ,b [,d,,c] |\
+    [a,,,d1] [,d,d{a}/],b [aad,,a1] ,,c/,d |\
+    [acd,a1] ,,,,,a {10}2 :|
+[V:B] c c G G |\
+    d3 e |\
+    f G "4  #"A2 |\
+    "#"d4 :|
+S:https://www.folktunefinder.com/tunes/133903
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/kapsberger.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

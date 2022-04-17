@@ -1,0 +1,23 @@
+X: 58
+T:Drummond Castle
+R:jig
+O:Scottish
+Z:id:hn-jig-58
+N:transposed 5 steps down
+M:6/8
+K:D
+EFE ~e3|edB ~d3|G2G BAG|FAd AFD|EFE ~e3|edB ~d3|BdB ABd|1 BAF E2B,:|2 BAF E2F||
+|:G2G GBG|A2A ABA|G2G BAG|FAd AFD|G2G BAG|ABd e2d|BdB ABd|1 BAF E2F:|2 BAF E2B,||
+S:https://www.folktunefinder.com/tunes/130584
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

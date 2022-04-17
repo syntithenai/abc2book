@@ -1,0 +1,26 @@
+X:200
+T: Tonntracha Reatha (Na)
+N: "The Billowing Waves"
+S: "The Ted Furey Collection of Irish Traditional Tunes"
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+dB |: BAB GBG |G2 g fdc|BAB GBG|d2 B cBA |
+BAB GBG | G2 g fdc | BdB cec | d2 B cBA :|
+G2 g fdg | fdg fdc | B2 g fdc | BdB cAF |
+G2 g fdg | bag fdc | BdB cec | d2 B cBA :|
+S:https://www.folktunefinder.com/tunes/136973
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Bagpipe March
+M: 4/4
+L: 1/8
+R: march
+N: an octave down from Francie's playing
+K: Dmix
+A3 c B/c/B GB | A2 D2 D3 B | AGFE DEFG | A4- AGFG |
+A/B/A- Ac B/c/B GB | A2 D2 D2 A2 | GFED CDEF | G4 F2 G2 |
+A3 c B/c/B GB | A2 D2 D3 B | AGFE DEFG | A4- AGFG |
+A2 c2 B/c/B GB | A2 F2 A/B/A- A2 | GFED CDEF G4 F2 E/F/E ||
+D2 d2 A2 d2 | A/B/A D2 D4 | D2 d2 DEFG | A/B/A AB AGFE |
+D2 d2 A2 d2 | A2 DD A4 | GFED CDEF | G4 F2 E/F/E |
+D2 d2 AA d2 | AA D2 D4 | D2 d2 DEFG | A6 Bc |
+dcBd cBAc | B/c/B G2 A/B/A- A2 | GFED CDEF | G4 F2 E/F/E ||
+D3 E F2 D2 | A2 D2 F2 D/E/D | A3 B AFDF | A3 B AGFE |
+D3 E F2 D/E/D | A2 D2 F2 D2 | G3 G GECE | G3 G GECE |
+D3 E F2 D2 | A2 D2 F2 D/E/D | A3 B AFDF | A4 A2 Bc |
+dcBd cBAc | B/c/B G2 A/B/A- A2 | GFED CDEF | G4 F2 E/F/E ||
+D2 d2 A2 d2 | A2 D2 D4 | D2 d2 DEFG | A3 B AGFE |
+D2 d2 A2 d2 | A2 D2 A4 | GFED CDEF | G4 F2 E/F/E |
+D2 d2 AA d2 | AA D2 D4 | D2 d2 DEFG | A6 Bc |
+dcBd cBAc | B/c/B G2 A/B/A- A2 | GFED CDEF | G4 d4 |]
+S:https://www.folktunefinder.com/tunes/132001
+S:http://www.thesession.org/tunes/display/8989
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

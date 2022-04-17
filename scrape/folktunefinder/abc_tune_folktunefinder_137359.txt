@@ -1,0 +1,19 @@
+X:1
+T:Bedlam Boys
+M:4/4
+L:1/4
+K:F
+d/2-e/2| f e d3/2 e/2| ^c A2A/2-B/2| c B A3/2 G/2| A F2|F/2-F/2| c A d3/2 c/2|\
+ f3/2 g/2 ag/2-f/2| e d d3/2 ^c/2| d d2|d/2-e/2| f e d d/2e/2| ^c A/2A/2 A A/2 z/2|\
+ c B A3/2 G/2| A F2|F/2-F/2| c A d3/2 c/2| f f/2g/2 ag/2-f/2| e d d3/2 ^c/2|\
+ d d2|
+S:https://www.folktunefinder.com/tunes/137359
+S:http://back.numachi.com:8000/dtrad/abc/BEDLMBOY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BEDLMBOY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

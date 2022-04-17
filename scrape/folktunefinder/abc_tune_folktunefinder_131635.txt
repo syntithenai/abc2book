@@ -1,0 +1,24 @@
+X: 29
+T:Weeping Willow Tree, Headington
+M:6/8
+L:1/8
+A:Headington
+P:A2(AB)4
+K:G
+P:A
+D|G2A B2c|d2d A2c|B2G GFG|B3 A2D|
+G2A B2c|d2d A2c|B2G E2F|G3 G2 ||
+P:B
+G|A2A AGA|B3  G2G|A2A AGA|B3 G2D|
+G2A B2c|d2d A2c|B2G E2F|G3-G2 ||
+S:https://www.folktunefinder.com/tunes/131635
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

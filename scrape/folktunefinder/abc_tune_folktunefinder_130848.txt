@@ -1,0 +1,34 @@
+X:92
+T:B092-  Crimson Velvet
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:3/2
+K:Gdorian
+G3/2A/2BA/2G/2A2|G3/2A/2BA/2G/2^F(D|D2)B3/2 B/2 ce|d2B3/2c/2AA|\
+GG3z2::d3/2 d/2dcB2|A3/2B/2cBA2|G3/2A/2Bd c/2B/2A/2G/2|\
+A2z4::A A/2A/2 A3/2 A/2^FD|AA/2A/2d3/2c/2=BG|\
+c3/2c/2=B3/2 B/2AA|G6:|]
+S:https://www.folktunefinder.com/tunes/130848
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

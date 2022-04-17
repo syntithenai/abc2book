@@ -1,0 +1,37 @@
+X:1
+T:The Plains of Boyle
+C:Traditional
+N:Play as per notes above
+N:As heard played in Belfast and Edinburgh
+N:The Paris Set, Figure 5, Tune 1 of 2
+N:Variation on Part 2, bar 4 "A2 F>A D>AF>A"
+N:Second variation on Part 2, bar 4 "A2 F>B A>Bd>f"
+N:Third variation on Part 2, bar 4 "A2 F>A d>Af>A"
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Hornpipe
+L:1/8
+M:C
+K:D
+A>FD>E F>ED>F | A2 (3FGB  A>FD>e |\
+f>ed>c e>dc>A | d>BA>B =c2 d>c |
+A>FD>E F>ED>F | A2 (3FGB  A>FD>e |\
+f>ed>B A2 (3EFG | [1 F2 D2 D2 D>F :|| [2 F2 D2 D2 f>g ||
+a>f (3def g2 f>e | d>fe>d B>AF>G | \
+A2 F>A B>AF>G | A2 F>A B>AF>f |
+a>f (3def g2 f>e | d>fe>d B>AF>G |\
+A2 A>G F>G (3EFG | [1 F2 D2 D2 f>g :|][2 F2 D2 D2 D>F ||
+S:https://www.folktunefinder.com/tunes/136603
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

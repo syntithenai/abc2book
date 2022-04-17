@@ -1,0 +1,37 @@
+X:1
+T:Avant-deux de Bazouges : Le f'ras-tu
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+A:Bretagne
+S:
+Q:C4=120
+M:2/4
+L:1/16
+K:G
+"G"G2B2 d4 | "D"c2e2 "G"d4 | "D"A3A A2d2 |1
+"G"d2c2 B2G2 :|2 d2c2 G4 ::
+"D"A3A A2d2 | "G"d2c2 B2G2 | "D"A3A A2c2 | "G"B2A2 G4 :|
+%%rm
+%%rm  Le f'ras-tu comme tu l'dis, 
+%%rm  Pard'ssous les ridiaux la belle,
+%%rm  le f'ras-tu comme tu l'dis, 
+%%rm  Pard'ssous les ridiaux du lit.
+%%rm
+%%rm  Pard'ssous les ridiaux la belle,  ]
+%%rm  Pard'ssous les ridiaux du lit.    ] bis
+%%rm
+%%rm  Oui je l'frai comme j'l'dis, 
+%%rm  Pard'ssous les ridiaux la belle,
+%%rm  Oui je l'frai comme j'l'dis, 
+%%rm  Pard'ssous les ridiaux du lit.
+%%rm  Pard'ssous les ridiaux la belle,  ]
+%%rm  Pard'ssous les ridiaux du lit.    ] bis
+S:https://www.folktunefinder.com/tunes/130431
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesLefrastu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

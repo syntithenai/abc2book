@@ -1,0 +1,18 @@
+X: 28
+T: VALSE A FLEURET
+M: 3/4
+L: 1/8
+Q:1/4=60
+K:D % 2 sharps
+|:FED A3|FED d3|1dcB A2E|EF3/2G/2 F2E:|2dcd f2e|d2B A3|!
+|:FAd fec|ed3/2c/2 A3|1FBA G/2A/2G/2F/2E/2D/2|EEG B2A:|2FAd cef|gec d3|
+S:https://www.folktunefinder.com/tunes/132036
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/valses.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

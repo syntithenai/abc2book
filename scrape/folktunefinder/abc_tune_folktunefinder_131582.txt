@@ -1,0 +1,27 @@
+X: 13
+T:Step & Fetch Her, Bampton (RD from Arnold Woodley)
+M:4/4
+L:1/8
+A:Bampton
+P:A(ABC)3
+K:G
+P:A
+|:B2B2 cBcA|G2e2 egfe|d2Bd cBcA|G2B2 G4 :|
+P:B
+  A3 c B2d2|A3 c B2d2|A3 c B2d2|dcBA B2G2|
+  A2Ac B2d2|A2Ac B2d2|A2Ac B2d2|dcBA G3  ||
+P:C
+A|B2Bc d2cB|A2AB c2A2|B2Bc d2g2|dcBA G3 A|
+  B2Bc d2cB|A2AB c2A2|B2Bc d2g2|fdef g4  ||
+S:https://www.folktunefinder.com/tunes/131582
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:52
+T:Roaring Mary
+R:reel
+E:7.5
+I:speed 350
+M:C|
+K:D
+DF~F2 AF~F2|df~f2g2fe|dedB ABde|fedefe~e2|\
+DF~F2 AF~F2|df~f2g2fe|dedBABdf|afeg fd~d2:|*
+~a3g fgfe|dedA BAFA|eg~g2 bg~g2|af~f2 ge~e2|\
+DF~F2 AF~F2|df~f2 g2fe|dedB ABdf|afeg fd~d2:|**
+S:https://www.folktunefinder.com/tunes/135118
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:13
+T:Jodler I
+C:Trad.
+R:Jodler
+B:Almrausch, Almliada aus Steiermark, Graz 1884
+N:Alt Aussee, 1820
+I:140
+M:3/4
+L:1/8
+K:G
+(GB,DGB,G) | (FCDFCF) | (ACDFCF) | (BB,DGB,G) |
+(BB,DGBG) | (FCDFCF) | (ACDFCF) | G6 ||
+S:https://www.folktunefinder.com/tunes/136712
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/steierm1.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

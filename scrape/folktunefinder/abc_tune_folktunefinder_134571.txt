@@ -1,0 +1,29 @@
+X: 1
+T: BANBURY BILL
+S: Jour 1956 (not quite as here given)
+O: Bampton
+P: A.(AB3)3.A
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: D
+P: A
+D2E2 F2D2 | G2A2 B4 |     E2F2 G2AG | F2G2 A4 |
+A2D2 F2A2 | d2e2 f4 | {ga}g2e2 B2c2 | d4   d4 ||
+P: B
+d2e2 f2d2 | c2d2 e4 | B2c2 d2ed | c2B2 A2Bc |
+d2D2 D4   | F2G2 A4 | Bcd  cde  | d4   d4  ||
+P: Alt. bars B5-8
+d2A2 F2D2 | GAB2 A4 | Bcd2 c2e2 | d4   d4  ||
+S:https://www.folktunefinder.com/tunes/134571
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Banbury_Bill_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

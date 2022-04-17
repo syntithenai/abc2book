@@ -1,0 +1,23 @@
+X:160
+T: Tom Cawley's
+S: Treoir 32/4
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+D | GBB BAB | GBB BAG | FAA A2 D | FAA A2 D |
+GBB BAB | GBB BAG | def gdc | BGG G2 :|
+g | aba  afd | gag gfe | d^cd gdB | BAA A2 g |
+aba afd | gag gfe | d^cd gd=c | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/136965
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

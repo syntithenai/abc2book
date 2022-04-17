@@ -1,0 +1,22 @@
+X: 29
+T:Whelan's Jig
+M:6/8
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+E3 BAF |FEB AFD |E3 BAB |dAF FED |
+E3 BAF |FEB AFA |B3 BAB |dAF FED ::
+BAB e3 |fed e2 d |BAB g2 e |fdB AFA |
+BAB e3 |fed e2 f |gbg faf |edB AFD :|
+%  ABC2Win Version 2.1 26/06/2002
+S:https://www.folktunefinder.com/tunes/137420
+S:http://trillian.mit.edu/~jc/music/abc/mirror/homepage.eircom.net/collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

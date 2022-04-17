@@ -1,0 +1,17 @@
+X:1
+T:Batson
+M:2/2
+L:1/8
+K:Eb
+ G-| GG G G- G3.99999962500005/5.99999925000009 G3.99999962500005/5.99999925000009 F3.99999962500005/5.99999925000009 G3/2 F/2|\
+ G2 z2 z4| G G2 G3 F2| E2 z2 z E| FG| AA A A- A3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 A3/2 E/2|\
+ A2 z2 z2 E2| AA A2 G2 F2| E2 z2 G^F| G2| G=F z2 z4| z F G/2G/2 G- G2 F2|\
+ E2 z2 z4| z8|
+S:https://www.folktunefinder.com/tunes/136542
+S:http://back.numachi.com:8000/dtrad/abc/BATSON.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

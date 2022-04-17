@@ -1,0 +1,31 @@
+X:107
+T:Paddy on the Railroad (aka Merry Blacksmith)
+C:Trad, Ir.
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:D 
+ A2 \
+ | d2 dA BAFA | ABdA BAFA | ABde f2 ed | Beed egfe |
+ |  d2 dA BAFA | ABdA BAFA | ABde fdec | dBAF D2 :| 
+ fg \
+ |: a2 ag f2 fe | d2 dA BAFA | ABde f2ed | Beed egfg |
+ | a2 ag f2 fe | d2 dA BAFA | ABde fdec | dBAF D4 :| 
+%%%%  A traditional tune.
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/134402
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+S:http://ericdancepiano.com/MNAS/tunes/Reel4.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Reel4.abc
+S:http://www.latinsquares.com/MNAS/tunes/Reel4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

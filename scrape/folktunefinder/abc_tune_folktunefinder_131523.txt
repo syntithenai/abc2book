@@ -1,0 +1,31 @@
+X:1
+T:Bacca Pipes
+M:6/8
+C:
+S:Morris On
+N:
+A:Headington
+O:English
+R:Jig
+%P:(A(BA)$^4$)$^3$.A(B$^2$A)$^4$
+P:(A(BA)4)3.A(B2A)4
+K:ADor
+Q:C3=150
+P:A
+|: B | c3   c2 e | d2 c B2 d | c2 B A2 c | B2 A G2 \
+   B | c3   c2 e | d2 c B2 d | c2 A B2 G | A3   A2 :|
+P:B
+|: z | g2 f g2 e | d2 B G3   | g3   ffg  | a2 f d2 \
+   z | g2 f g2 e | d2 B G2 B | c2 d e2 c | A3   A2 :|
+S:https://www.folktunefinder.com/tunes/131523
+S:http://www.ucolick.org/~sla/morris/music/Headington/baccapipe.mo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

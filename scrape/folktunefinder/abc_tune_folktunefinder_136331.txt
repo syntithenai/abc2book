@@ -1,0 +1,26 @@
+X:2
+T:II. Time stands still with gazing on her face,
+T:Bassus.
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+M:C|
+L:1/4
+K:G mix bass
+%%MIDI transpose -24
+g2 d2 e6 e2 d4 G3 G d4 d4 g > ^f
+e2 d2 g2 c3 d e > ^f g2 d2 e2 d4 G6
+g2 ^f2 g2 e4 d4 d4 G > A B2 A2 G2 d8
+B2 c2 d2 c B A2 B2 c2 B A G2 c2 d3 d G8
+|: B2 c2 d2 c B A2 B2 c2 B A ^G2 A2 e4 A8 A2 B2 c2 B A
+G3 G d3 B c d e2 d3 d G8 :|
+S:https://www.folktunefinder.com/tunes/136331
+S:http://www.laymusic.org/music/dowland/gazing/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

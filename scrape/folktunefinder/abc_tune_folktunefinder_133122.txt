@@ -1,0 +1,26 @@
+X:7
+T:Courente (1)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:D
+(3ABc|(3ABc (3ABc|e2 e>f|ed cB|c/B/A (3ABc|(3ABc (3ABc|e2 ef|ed cB|A2
+ef|:e>d cB|c/B/A ef|e>d cB|c/B/A (3ABc|(3ABc (3ABc|e2 ef|[1 ed cB|A2 ef:|[2 ed ef |d2
+de/f/|aa aa|ba gf|ea ga/g/|fd df/g/|aa aa|ba gf|ea g/f/e|d2
+ag/f/|:ea ga/g/ |fd ag/f/|ea ga/g/|fd df/g/|aa aa|ba gf|ea g/f/e|[1 d2 ag/f/:|[2 d2
+(3ABc|(3ABc (3ABc|e2 e>f|ed cB|c/B/A (3ABc|(3ABc (3ABc|e2 ef|ed cB|A2
+"pizz.".e .e|:.e "arco"A cB/c/|c/B/A "pizz.".e .e|.e "arco"A cB|c/B/A AB/c/|dd ef|[1g/f/e e/f/g/f/|ed cB|A2 .e .e:|
+[2 g/f/e fg/f/|ed ef|d2
+%%footer $D   Galouvielle-MBe 2007 \n--- (Val Varaita, Italie)
+S:https://www.folktunefinder.com/tunes/133122
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Val%2520Varaita.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

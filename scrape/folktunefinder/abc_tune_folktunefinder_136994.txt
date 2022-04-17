@@ -1,0 +1,25 @@
+X:305
+T: Tansey's
+S: "ITM Session Tunes vol 3" ("Sully")
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+G2 AG EGDE|G2 BG AE E2|G2 AG EGAB|1 cedc BGAF :|2\
+cedc BG G2||
+gedg edBA|B3G AE E2|g3d edBA|(3B^cd ge BG G2|
+eg g2 eB B2|dBAB GE E2|DB,DE GABc|dedc BGAF||\
+"last time" dedc BG G2||
+S:https://www.folktunefinder.com/tunes/136994
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:51
+T: Wiedersehen an der Bahre
+N: Q1056G
+O: Mitteleuropa, Deutschland / Frankreich, Elsass
+N: Eingeklammerte Note weggelassen. Melodievergleich mit Q0056,
+N: anderes Lied "Napoleonlied" .
+R: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+M: 3/4
+L: 1/16
+K: G
+D2E2F2 | G4F2E2G3G | D8
+D2E2F2 | G2G2F2E2G4 | D6
+G2F2A2 | d4c2d2B3B | B4A2
+G2F2A2 | d4c2A2A2c2 | B4z2
+G2F2A2 | d4c2d2B3B | B4A2
+G2F2A2 | d4c2A2A2c2 | B4z4
+S:https://www.folktunefinder.com/tunes/132153
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, abschied, enttaeuschung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

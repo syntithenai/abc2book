@@ -1,0 +1,36 @@
+X: 21
+T:Fox Hunter. JBa.20
+T:Balby a Rieving JBa.20
+T:Buckle My Shoe,aka. JBa.20
+M:6/8
+L:1/8
+Q:120
+C:Buckle My Shoe,aka."Balby a Rieving"
+S:Joseph Barnes MS,Carlisle,1762.
+R:jig
+O:England
+A:Carlisle
+N:Key signature shown as F sharp in lowest space and  a second sharp in
+N:the top space the figure 6 is then written - old style of writing
+N:6/8..CGr
+N:Balby a Rieving is a very uncertain attempt to decypher what appears to
+N:be an alternative title in a different hand.
+H:See Paul's notes elsewhere.
+Z:vmp.C.Graebe.
+K:D major
+"See Note re key/time sig"def g2e | faf f2e | dBB B2A | dBB B3 | !
+def g2e | faf g2e | cAA A2B | cAA A3 ||!
+agf gfe | fgf f2e | dBB B2A | dBB B3 |!
+ agf gfe | fag f2e | cAA A2B| cAA A3 |]
+S:https://www.folktunefinder.com/tunes/132686
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

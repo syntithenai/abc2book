@@ -1,0 +1,24 @@
+X: 28
+T:Morris Reel, Headington 2
+T:Soldier's Joy, Headington
+M:4/4
+L:1/8
+A:Headington
+P:A(A2B2)4
+K:GMix
+P:A
+Bc|dBGB dBGB|d2g2 g2e2|dBGB dBGB|c2A2 A2Bc|
+dBGB dBGB|d2g2 g2e2|dBGB cAFD|G2G2 G2  ||
+P:B
+dc|BGDG BdcB|AFEF ABcA|BGDG BdcB|AGFe dcBA|
+BGDG BdcB|AFeF AdcA|BdBG cAdF|G2G2 G2  ||
+S:https://www.folktunefinder.com/tunes/131634
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:220
+T:Salamanca Reel, The
+R:reel
+E:7
+M:C|
+I:speed 350
+K:D
+dB|AD(3FED AD(3FED|Adcd fedc|BE~E2 BE~E2|Beed cdeg|\
+fB~B2 fB~B2|fgfe dfag|fdec dBAG|FAEA D2:|*
+fg|afdg bgeg|fdcd BAFG|Addc defg|(3aba gb a2fg|\
+~a3f~g3e|~f3e dfag|fdec dBAG|FAEA D2:|**
+S:https://www.folktunefinder.com/tunes/135025
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:20
+T:B020-  The Bailiff's Daughter of Islington
+S:via BBBM, from 'Jovial Crew', 1731
+N:Tune is harmonic minor mode
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+BA/2B/2cB/2A/2|dG^F3/2D/2|BB(c/2d/4e/4) (d/2c/2)|d3B|\
+BA/2B/2cB/2A/2|dG^F2|(GA/2B/2)^FE/2D/2|GA/2B/2G2|]
+S:https://www.folktunefinder.com/tunes/130775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

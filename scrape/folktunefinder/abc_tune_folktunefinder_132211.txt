@@ -1,0 +1,27 @@
+X:109
+T: Der junge Held
+N: Q0060
+O: Mitteleuropa, Deutschland
+R: Ballade, Verfuehrung, Standesunterschied
+M: 4/4
+L: 1/8
+K: G
+G2 | G2_B2A2A2 | D6
+A2 | _B2d2c2B2 | A6
+F2 | G3A_B2cB | AGFAG2
+G2 | G2_B2A2A2 | D6
+A2 | _B2d2c2B2 | A6
+F2 | G3A_B2cB | AGFAG2
+S:https://www.folktunefinder.com/tunes/132211
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, standesunterschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

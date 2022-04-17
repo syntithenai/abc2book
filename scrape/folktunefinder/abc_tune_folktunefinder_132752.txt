@@ -1,0 +1,43 @@
+X: 87
+T:Fond Shepherd,The. JBa.86
+M:3/4
+L:1/8
+Q:90
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+N:1 - Shown as two quavers 2 - bar line not shown 3 - bar line shown here
+H:My fond shepherds of late were so blest::The nymphs were so happy and
+H:gay::That each night they went early to rest::And they merrily sung
+H:through the day::But Oh what a scene must appear::must the sweet rural
+H:pastimes be o'er::must the taber the taber no more strike the ear::must
+H:the dance on the green be no more.V2 Must the flocks from their
+H:pastures be led::and the herds go wild straying abroad::must the looms
+H:be all stopt in each shed::and the ships be all moored in each
+H:road::Must the Arts be all scattered around::and must commerce grow
+H:sick of her tide()::must religion expire on the ground::and shall
+H:virtue sink down by her side.
+Z:vmp.C.Graebe.
+K:A minor
+"See history box for words"E c | B2A2G2 |
+ A2c2B2 | c4 A e | (ed) c2 B2 |!
+ g3 e d2 |e4 E c | B2A2 ^G2 | A4 "1" c B |!
+c4  B A |g3 f e2 | (3(cBA) G2 F2 | E4 :|!
+|: "2"e2 |f4 dc | B2c2d2 | e4 "3" c G |!
+ B2f2e2 |d2c2B2 | c4 e d | c2 B2A2 | d2c2d2 |!
+ e3 A B |c4 d f | (ea) (ec) BA | (3(fed) c2 B2 | A4 |]
+S:https://www.folktunefinder.com/tunes/132752
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

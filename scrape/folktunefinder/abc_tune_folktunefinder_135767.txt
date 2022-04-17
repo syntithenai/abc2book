@@ -1,0 +1,24 @@
+X:2
+T:Beeswing
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in Bb
+R:hornpipe
+M:4/4
+L:1/8
+K:G
+DF | GdBG FcAF | DBGD B,GDB, | CEGc B,DGB | (3ABG (3FGE D2 EF |
+GdBg FdAf | CGEc B,GDB | CEGc BAGF | A2 G2 G2 ::
+dc | BGdB gdBG | AFdA fdAF | ECGE cABG | AFGE D2 EF |
+GdBg FdAf | CGEc B,GDB | CEGc BAGF | A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/135767
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

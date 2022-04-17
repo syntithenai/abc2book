@@ -1,0 +1,32 @@
+X: 5
+%MIDI  gchordoff
+T:Smith's New Rant
+T:or The cuckoo
+M:4/4
+L:1/8
+O:This version is from Jeremy Barlow, #507.  For purposes of mixing with "Le Pistolet", we won't repeat the A section.
+K:F
+P:A'
+|: C2 | FEFG FGFG | AGAB ABAB | cBcd cdcB | ABAB ABAB | c2 G2 c2 G2 | c2 G2 c2 G2 | F2 E>D D3 C | C6 :|
+P:B'
+EF | G2 GA GFED | C6 EF | GEGE GEGE | C6 AB | c2 cd cBAG | F6 AB |
+cAcA cAcA | F6 ":S:"Bc | dBFB dBFB | dBFB dBAB | c2 (BA) G3 F | F6 |]
+S:https://www.folktunefinder.com/tunes/136292
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.laymusic.org/music/dance/feuillet.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://trillian.mit.edu/~jc/music/abc/reel/SmithsNewRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/SmithsNewRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/SmithsNewRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/new/SmithsNewRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/SmithsNewRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SmithsNewRant_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

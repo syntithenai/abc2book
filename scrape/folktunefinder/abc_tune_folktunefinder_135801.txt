@@ -1,0 +1,33 @@
+X:23
+T:Le Barbier qui la barbe oste
+R:Branle Double
+A:Normandie
+O:France
+M:4/4
+L:1/4
+Q:1/2=100
+K:F
+FF| BBBB|AGGc|A2 G2|F2FF|BBBB|AGGc|A2G2|F2||!
+M:6/4
+L:1/4
+c2 c|G2 A B2 A||
+M:4/4
+L:1/4
+|G2","FF|EFGG|AF","FF|EFGG||!
+M:3/2
+L:1/4
+AF","FFEF|G2 ",^"c2B2||
+M:4/4
+L:1/4
+AAGG|F2||!
+S:https://www.folktunefinder.com/tunes/135801
+S:http://site.voila.fr/diatomanche/abc/jmhnor.txt
+% Rhythm Branle double
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 3/2
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

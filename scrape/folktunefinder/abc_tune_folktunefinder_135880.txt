@@ -1,0 +1,26 @@
+X:0363
+T:"The Bard Of Armagh"      (air)      0363
+C:after Miss Mary (May) O'Neill
+C:Plaintinve
+N:(O'Neill's daughter, May.)
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=60
+I:abc2nwc
+M:3/8
+L:1/16
+K:D
+"_vb"A2|d2(f2d2)|e2(a3g)|(f2e2d2)|(c2A3)A|(d2f2).d2|e2a3g|f2d2ef|g4(fg)|
+(a2f2)a2|(g2f2)e2|d3(fed)|(c2A3)A|d3(efd)|e2a3g|f2d2ef|g4(ef)|
+a2f2a2|g2f2e2|d2e2d2|c2A3A|d3(efd)|e2a3g|f2d2e2|d4|]
+S:https://www.folktunefinder.com/tunes/135880
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0363-BardArmagh.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0301-0400/0363-BardArmagh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

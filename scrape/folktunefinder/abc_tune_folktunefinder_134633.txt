@@ -1,0 +1,22 @@
+X:1
+T:The Band Played On
+M:3/4
+L:1/8
+K:A
+ E| AGB Ac B| A3/2 c/2 e^d =dB| F3 FB ^A| Bcd FG E| A4- A2| z EA GB A|\
+ cB A3/2 c/2 e^d| =dB F3B/2-c/2| e^d=d BF A| GB A4-| A2 z GF c| ccc d2 c|\
+ cBA G F3| E^DF BB c| BAF B4-| B2 z EA G| BAc B A3/2 c/2| e^d=d B F3|\
+ ce^d =dc B| ^ABc A4-| A2 z2 E6-| F6-| G6| A2 c2 A2| G2 c2 G2| F2 A3 F|\
+ E4 FA| G6| d6| d6-| d2 z2| A2| G2 B2 G2| F2 E2 F2| G2 B2 G2| F2 E2 F2|\
+ E6| c6| c6-| c2 z2 FG| A2 A2 A2| G2 G2 G2| =G2 G2 G2| F2 F3 F| F2 F2 F2|\
+ F2 B3 c| d6-| d2 z2 F2| F2 ^E2 F2| A2 G3 F| E2 F2 G2| A4 Bc| F6| G6|\
+ A6-| A2 z2 z||
+S:https://www.folktunefinder.com/tunes/134633
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/PLAYEDON.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

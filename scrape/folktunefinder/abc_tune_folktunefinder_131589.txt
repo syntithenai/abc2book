@@ -1,0 +1,26 @@
+X: 20
+T:The Rose Tree, Bampton
+M:4/4
+L:1/8
+A:Bampton
+P:A(AB3)3A
+K:G
+P:A
+BA|G2(3EFE D2B,2|DEDB, D2B,D|G2G2 BAGA|B2A2 AcBA|
+G2  E2  D2B,2|DEDB, D2B,D|G2FG A2GA|B2G2 G2  ||
+P:B
+GA|(3BcBA2 B2c2 |d2g2  d2cB |A2B2 c2d2|efge dcBA|
+G2(3EFE D2B,2|DEDB, D2B,D|G2FG A2GA|B2G2 G2  ||
+S:https://www.folktunefinder.com/tunes/131589
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

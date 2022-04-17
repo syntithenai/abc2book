@@ -1,0 +1,30 @@
+X:13
+T:The Old Woman Tossed Up
+A:Field Town
+O:English
+S:Bacon (RKS (Jour.))
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:A(A2B3C3B3)4
+K:G
+P:A
+D | G2G GBd | efg dBG | AGA BAB | E2F G2 |]
+P:B
+c | d2d Bcd | efg dBG | dcd Bcd | efg d3 |
+d2c Bcd | efg dBG | AGA BAB | E2F G2 |]
+P:C
+D | G3 G3 | (2GB d3 | (2ef g3 | (2dB G3 | AGA BAB | E2F G2 |]
+S:https://www.folktunefinder.com/tunes/132414
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

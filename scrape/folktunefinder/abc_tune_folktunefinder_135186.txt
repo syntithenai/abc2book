@@ -1,0 +1,42 @@
+X:860
+T:The Banks of Inverness
+C:anon.
+O:Scotland
+R:Reel
+Z:David Barnert
+F:http://abc.musicaviva.com/tunes/scotland/banks-of-inverness/banks-of-inverness-1.abc
+%Posted at abcusers Feb 25 2000 by David Barnert. David posted this as
+%a reply to Ian Hall's request for 48 bar jigs and reels. He suggested
+%to use this - or other reels with double length (16 bar) B section
+%and repeat the B part to get a total of 48 bars.
+M:C|
+L:1/4
+K:G
+P:A
+"G"D>EDB,|"G"DEG>A|"G"Bd"D"A/c/B/A/|"C"GEE2|\
+"G"D>EDB,|"G"DE"C"G>A|"G"Bd"D"AB/A/|1"G"G2G2:|2"G"G2G>A||
+P:B
+"G"Bddc/B/|"C"cee2|"G"Bd"D"A/c/B/A/|"C"GEE2|\
+"G"Bddc/B/|"C"cee>f|"C"ge"D"fd|"Em"e3f|
+"Em"ge"D"fd|"C"e/f/e/d/"D"BA|"G"Bd"D"A/c/B/A/|"C"GEE2|\
+"G"D>EDB,|"G"DE"C"G>A|"G"Bd"D"AB/A/|"G"G2G2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/135186
+S:http://abc.musicaviva.com/tunes/scotland/banks-of-inverness/banks-of-inverness-1.abc
+S:http://abc.musicaviva.com/tunes/scotland/banks-of-inverness/banks-of-inverness-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/banks-inverness/banks-inverness-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/banks-of-inverness/banks-of-inverness-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/banks-of-inverness/banks-of-inverness-1.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

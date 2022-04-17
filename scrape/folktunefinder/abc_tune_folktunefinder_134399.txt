@@ -1,0 +1,32 @@
+X:104
+T:Mairi's Wedding
+C:Trad, Sc.  
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:G 
+ E2 |: D3D D2 E2 | G2 A2 B4 |  A2 G2 E2 G2 | B2 A2 Bd3 | 
+  D3D D2 E2 | G2 A2 B4 |  A2 G2 E2 C2 | D4 D4 :| 
+ |: d3e d2 e2 | d2 c2 B4 |  A2 G2 E2 G2 | B2 A2 Bd3 |
+  d3e d2 e2 | d2 c2 B4 |  A2 G2 E2 C2 | D4 D4 :|
+%%%%  An old standby, from memory.
+%%%%  It's important to get those Scots snaps (bars 4 and 12).
+%%%%  From Cathie:  very important to start with a pickup note.
+%%%%  See Chorus.abc for notes on construction
+%%newpage
+%%text
+%%text
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/134399
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

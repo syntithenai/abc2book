@@ -1,0 +1,28 @@
+X:2
+T:The Maid on the Green
+C:Traditional
+N:Play 2 times
+N:The Paris Set, Figure 4, Tune 2 of 3
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+B:O'Neill's Music of Ireland (slightly different)
+R:Jig
+L:1/8
+M:6/8
+K:DMix
+d | gfg e2 d | Bdg dBA | BGG dGG | BAA ABd |
+gfg e2 d | Bdg dBA | BGG dBA | BGG G3 :||
+d | gfg afd | gfg a2 f | gfg eag | fdd d2 g |
+bgb afa | gfg e2 d | Bdg dBA | BGG G:||
+S:https://www.folktunefinder.com/tunes/136601
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:10
+T:Little Rock Getaway
+M:2/4
+L:1/4
+Q:100
+K:C
+ d^d|:"CMaj7"eG ce|"E7"d^G Bd|"Am7"cE Ac|"C7"^AD EA|"FMaj7"AC FA|"A7"G^C
+ EG|"Dm7"EA, DF|"D7"^FA, EF|"CMaj7"GD EG|"Eb7"^FD ^D^F|"D7"FD B,A,|"G7"G,A, B,D|
+"CMaj7"CE GB|"A7"AG E^C|"Dm7"DF Ac|"G7"Bc d^d|"CMaj7"eG ce|"E7"d^G Bd|
+"Am7"cE Ac|"C7"^AD EB|"FMag7"AC FA|"A7"G^C EG|"Dm7"FA, DF|"D7"^FA,
+ DF|"CMaj7"GD EG|"Eb7"^FD ^DF|"Dm7"FD B,A,|"G7"G,A, B,D|"CMaj7"CB, CD|
+"G"ED EF|"CMaj7"G^F GA|"C7"^A=A ^AB|"FMaj7"c2 AF|"FMaj7"DE FA|"F#dim"
+c2 A^F|"F#dim (E7)"^D^F AB|"CMaj7 (Am7)"c2   A^D   |"CMaj7 (D7)"  EG  A
+B |"CMaj7"cG A^A|"C7"zA ^AB|"FMaj7"c2 AF|DEFA|"F#dim"c2 A^F|^D^F AB|
+"CMaj7"cB cd|cG A^A|"Ab7"B^A =A^G|"G7"GB cd|"CMaj7"eG ce|"E7"d^G Bd|"Am7"cE
+Ac|"C7"^AD EA|"FMaj7"AC FA|"A7"G^C EG|"Dm7"FB, DF|"D7"^FB, DF|"CMaj7"GD
+EG|"Eb7"^FD ^DF|"D7"FD B,A,|"G7"G,A, B,D|"CMaj7"CE GA|"A7"AG E^C|"Dm7"DF
+ Ac|"G7"Bcd^d:|
+S:https://www.folktunefinder.com/tunes/137086
+S:http://wind.prohosting.com/mrnelson/mandolin/tunes.txt
+S:http://wind.prohosting.com/mrnelson/bluegrass/tunes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:75
+T:Mist on the Mountain, The
+T:Mist Covered Mountains
+C:Junior Crehan
+R:jig
+E:10
+I:speed 300
+M:6/8
+K:ADor
+G|EAA ABd|e2 A AGE|~G3 GAB|dBA GED|\
+EAA ABd|e2A AGE|efg dBG|BAG A2:|*
+a|age a2b|age edB|AGE G2A|BAB GED|\
+age a2b|age edB|AGE G2A|BAG A3|*
+age a2b|age edB|AGE G2A|BAB GED|\
+EDE G2A|BAG ABd|efg dBG|BAG A2||**
+S:https://www.folktunefinder.com/tunes/134996
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

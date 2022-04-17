@@ -1,0 +1,24 @@
+X: 9
+T:Castlering, Lichfield
+M:2/4
+L:1/8
+A:Lichfield
+P:A(AB)3A2B
+K:G
+P:A
+GG Gc|Bd BG|AA AG|FA FD|
+GG Gc|Bd BG|AA AA|G2 Gz||
+P:B
+B4|d4|B4|G4|Bd BG|Ac AF|Ac AG|
+B4|d4|B4|G4|Bd B2|Ac AF|Ac A2|
+B4|d4|B4|G4|Bd B2|Ac AF|G2 G2||
+S:https://www.folktunefinder.com/tunes/135896
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Lichfield.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Lichfield.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Lichfield.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

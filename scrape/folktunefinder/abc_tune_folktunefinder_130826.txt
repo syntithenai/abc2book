@@ -1,0 +1,39 @@
+X:70
+T:B070-  The clear cavalier
+Q:1/4=120
+L:1/4
+M:3/2
+K:F
+F3DGA|c2f3d|c3AF3/2G/2|A6|f3afc|d3/2c/2 d/2e/2f(A2|\
+A)FBGA3/2 A/2|d6||
+M:6/4
+L:1/4
+A2Bc2d|c2AG2F|c2AB2c|\
+(d3d2)e|f2ef2g|a2gf2e|d2cdG2|(c3c2)||g|\
+g2ef2g|a3e3|fd2e2A|d3f3|A3/2G/2AB3/2c/2A|G2FE3/2D/2C|\
+F3/2G/2AA3/2G/2A|B3/2c/2dd3/2c/2d|G3/2d/2gg3/2f/2g|cdee3/2f/2g|\
+a3/2f/2ag3/2e/2g| f3/2d/2fe3/2d/2c|f3/2g/2ad3/2f/2e|(f3f3)|]
+S:https://www.folktunefinder.com/tunes/130826
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T:Sweet Jenny Jones - Adderbury
+S:OY(AB)6
+N:Tune as played for Grand Union Morris
+M:3/4
+L:1/4
+Q:100
+K:D
+"A"
+A | d A F | D>E F  | G B e | c A c |
+d A F | G>A B  | A d c | d2 ||
+"B"
+d/2e/2 | f d f | e c A | d B d |
+c A d/2e/2 | f d f | e c A | d c B |
+A2 B/2c/2 | d A F | D>E F | G B e |
+c A c |d A F | G>A B | A d c | d2 ||
+S:https://www.folktunefinder.com/tunes/132498
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/gum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

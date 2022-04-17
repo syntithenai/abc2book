@@ -1,0 +1,24 @@
+X: 8
+T:Highland Mary - Bampton
+S:OY(AB)4
+N:Tune as played for Grand Union Morris
+M:4/4
+L:1/8
+Q:150
+K:G
+"A"D2 | G2 AG FE D2 | G2 AB c2 Bc | d2 de dcBA | GABG D2 D2 | G2 AG FE D
+2 | G2 AB c2 Bc | d2 de dcBA | G2 F2 G4||
+"B"GABc d2 d2 | ed cB c2 Bc | d2 de dcBA | GABG D2 D2 | G2 AG FE D2 | G2
+ AB c2 Bc | d2 de dcBA | G2 F2 G4 :||
+S:https://www.folktunefinder.com/tunes/132505
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/gum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

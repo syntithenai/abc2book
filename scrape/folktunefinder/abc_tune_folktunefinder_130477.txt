@@ -1,0 +1,18 @@
+X: 1
+T: Avant-deux des touches
+O: Brittany
+R: an dro
+M: 2/4
+L: 1/16
+K: F
+|: "F"C2C2 F2F2 | ~A2FA "C7"G4 | "C7"B2GB "F"A2FA |1,3 "C7"~G2FG "F"A2F2 :|2,4 "C7"~G2FG "F"F4 :|
+|: "F"F2FA c2c2 | "Bb"d2f2 "F"c4 | "C7"B2GB "F"A2FA |1,3 "C7"G2FG "F"A2F2 :|2,4 "C7"[c2G2][dF][eG] "F"[f4F4] :|
+S:https://www.folktunefinder.com/tunes/130477
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Avant_deux_des_touches_F.abc
+% Rhythm An dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

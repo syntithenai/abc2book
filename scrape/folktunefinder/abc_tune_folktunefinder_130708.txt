@@ -1,0 +1,29 @@
+X:120
+T:Avstriys'ka
+A:village of Zyatkivtsi, Vinnyts'kiy
+H:H. Tantsyur
+L:1/8
+M:2/4
+O:Ukraine
+Q:1/4=144
+R:Polka
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000654.html
+%%ID:00000654
+K:G
+d2B2 | BG G/2F/2G | cA A/2^G/2A | BG G/2F/2G | \
+d2B2 | BG G/2F/2G | F/2G/2A/2B/2 cA | GBGz ::
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 |\
+cAAB | c3 c | cB/2c/2 dA | cB B/2A/2G |
+GDGB | d3 d | d^c/2d/2 _ed | dc cB/2c/2 | \
+cAAc | c3 c | cd/2c/2 BA | GDGz :|
+S:https://www.folktunefinder.com/tunes/130708
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

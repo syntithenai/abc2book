@@ -1,0 +1,28 @@
+X: 6
+T:Trip to Nenagh
+M:4/4
+L:1/8
+Q:180
+N:Tune guitar with low E down to D
+D:Danny Carnahan and Robin Petrie "Two For The Road" CityFolk CFR010
+K:D
+T:Guitar tuning DADGBe
+c-|"D"d2 AG FE DD|A,D FA "C"=cB AG|
+"D"Ad d/2d/2d Ad d/2d/2d|"C"=c2 Gc  Ec Gc-|!
+"D"d2 AG FE DD|A,D FA "C"=cB AG|
+"D"Ad d/2d/2d "G"AG FA|"A"GF EG "D"FE D::!
+d|"D"Ad d/2d/2f ad fa|"G"gf ed "A"cd ec-|
+"D"d2AG FE DD|"C"F/2F/2G AB =c2 AG|!
+"D"Ad d/2d/2f ad fd|"G"cd ef ge fg|
+"A"a2 ea ca ec-|"D"d2 AG FE D:|
+S:https://www.folktunefinder.com/tunes/136557
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

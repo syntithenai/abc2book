@@ -1,0 +1,93 @@
+X:1
+T:Plin : Suite Bravig ez eo bale
+%%scale 0.80
+Z:Roger Ngaret (94-95)
+R:plin
+C:
+A:Bretagne
+K:C
+T:Ton simpl A
+Q:1/4=150
+M:2/4
+L:1/16
+K:C
+"Am"A4 E2A2 | A2B2 A4 | (3A2B2c2 "G"d2B2 |1
+"F"c2A2 "Em"B2B2 :|2 "F"c2A2 "Em"B4 |: 
+"Am"A2c2 B2A2 | A2G2 E4 | (3A2B2c2 "G"B2B2 | G2B2 "F"A4 :|
+T:Ton simpl B
+"Am"E2A2 c2B2 | A2G2 E4 | A2A2 "G"G2A2 |1
+B2c2 "Em"B2B2 :|2 "G"B2c2 "Em"B4 |: 
+"Am"A2B2 "G"d2c2 | B2A2 G2A2 | "Em"G4 "Am"E2c2 | c2B2 A4 :|
+T:Ton simpl C
+K:C
+A2G2 A2B2 | "F"c2c2 "G"B4 | A2G2 A2B2 | "Am"c4 "G"B4 ::
+"Am"A2B2 A2G2 | "G"E2F2 "Em"E4 | E2E2 "Am"F2G2 | A4 A4 :|
+T:Bal
+Q:3/8=84
+M:6/8
+L:1/16
+K:G
+"Am"A2B2c2 A6 | B2c2d2 "C"e6 | c2e2g2 "G"d4 c2 | B4 G2 "Em"B6 |
+B2c2d2 "Am"c6 | A2c2d2 "C"e6 | c2e2g2 "G"d4 c2 | B4 G2 "Em"B6 |
+Q:1/4=156
+M:4/4
+L:1/16
+|: "Am"A2c2 c2A2 "G"B2c2 "Am"A4 | c2d2 e2e2 "G"d2d2 "Am"e2c2 |
+d2e2 "C"g2e2 "D"d2c2 "Em"B4 | d2d2 c2B2 "F"A4 "Am"A4 :|
+T:Ton doubl
+Q:1/4=150
+M:4/4
+L:1/16
+A2 | A2c2 "G"B2c2 "Em"d2c2 B2A2 | "G"G2A2 B4 "C"c4 "Am"A2 ::
+A2 | A2e2 e2e2 "F"f2d2 "Em"e2e2 | e2e2 e2e2 "F"f2d2 "Em"e4 | 
+"C"c4 "G"d2e2 e2d2 "Em"e2d2 | c2A2 "F"c4 "Em"B4 "Am"A2 :|
+%%newpage
+%%rm
+%%rm
+%%rm
+%%rm  1. Er bloaz paseet, oan dimezet,     ]
+%%it     Bravig ez eo bale                 ] bis
+%%rm     Me 'garfe biken vijen bet, 
+%%it     Bravig ez eo bale, bale
+%%it     Bravig ez eo bale met glav a ra bemdez.
+%%rm
+%%rm  2. Me oa dimezet da unan
+%%rm     Na oa na bras na re vihan
+%%rm
+%%rm  3. Na oa na bras na re vihan
+%%rm     Met un tammig oa feneant
+%%rm
+%%rm  4. Pa laran de(zh)i ober un dra
+%%rm     Kichen an tan 'a da domman
+%%rm
+%%rm  5. Kichen an tan 'barzh he gwele
+%%rm     A lavar din-me mont ivez
+%%rm
+%%rm  6. Ha me a oa ken sot hag hi
+%%rm     Teurel va boto, mont ganti
+%%rm
+%%rm  7. Hag ur pennadig goude-se
+%%rm     Karget an ti a vugale
+%%rm
+%%rm  8. Pemp war ar bank, pe(va)r er gwele
+%%rm     Se rafe nav a vugale
+%%rm
+%%rm  9. Nav all 'm'eus bet digant Doue
+%%rm     'rafe triwec'h a vugale
+%%rm
+%%rm 10. Paotred yaouank, pa zimezont
+%%rm     Ne ouzont ket petra 'reont
+S:https://www.folktunefinder.com/tunes/132384
+S:http://termen.free.fr/danses/termen/PlinSuiteBravigezeobale.abc
+% Rhythm Plin
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

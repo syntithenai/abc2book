@@ -1,0 +1,31 @@
+X:1
+T:The Rainy Day
+C:Traditional
+S:Davy Muir
+N:Play 3 times
+N:The Paris Set, Figure 3, Tune 1 of 4
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Reel
+L:1/8
+M:C
+K:ADor
+EAAG A2 Bd | eg g2 edBA | G2GB AEGE | DEGB AGED |
+GABG A2 Bd | eg g2 edBA | GABd gedB | [1 GABG A2 AG :|[2 GABG A2 Bd ||
+eaag a2 ga | bgaf gedB | d2 de g2 ga | bgaf g2 fg |
+eaag a2 ga | bgaf gedB | GABd gedB | [1 GABG A2 Bd :|[2 GABG A2 AG ||
+S:https://www.folktunefinder.com/tunes/136596
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

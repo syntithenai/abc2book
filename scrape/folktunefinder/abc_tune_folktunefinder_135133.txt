@@ -1,0 +1,30 @@
+X:67
+T:Flowing Tide, The
+R:hornpipe
+I:speed 250
+E:7
+S:Boys of the Loough
+M:C|
+K:G
+D|~G3B dGBd|GBdg bgag|(3efg dg Bdge|dBAG edBA|\
+~G3B dGBd|GBdg bgag|(3efg dg Bdge|dBAB G3:|*
+D|GFGB AGED|gfge dBAG|(3cde Bd ABGB|cABG AG (3EFG|\
+DGBd B3d|cABG AG(3EFG|DGBd gdBG|DGFA G3:|**
+S:https://www.folktunefinder.com/tunes/135133
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

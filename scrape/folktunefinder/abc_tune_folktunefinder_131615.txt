@@ -1,0 +1,27 @@
+X: 9
+T:Rodney, Headington 2
+M:4/4
+L:1/8
+R:Hornpipe
+A:Headington
+P:A(A2B2)4A
+K:G
+Q:364
+P:A
+G2AB c2(3cBA|GABc d4  |dedc B2B2|AGAB G4  ||
+P:B
+dfge f2d2   |dfge f2d2|dfge edcB|cedc B2A2||
+S:https://www.folktunefinder.com/tunes/131615
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

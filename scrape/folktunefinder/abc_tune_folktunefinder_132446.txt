@@ -1,0 +1,39 @@
+X: 25
+T:Trunkles, Bledington
+M:2/2
+L:1/8
+R:Hornpipe
+A:Bledington
+P:A(AB3C3)2(AB3D3)2A
+K:A
+P:A
+|:e2e2 d2f2|edcB c2A2|e2e2  d2f2|edcB A4:|
+P:B
+c2cd e2e2|fgaf e2a2|g2fe ^d2B2|e4   e2||
+P:C
+de|f2d2 defd|e2c2 cdec|
+d2B2 Bcdf|edcB A2d2|c2BA  G2B2|A4   A2||
+P:D
+M:2/4
+L:1/8
+d3e|\
+M:2/2
+f4d4|d3e f2d2|e4c4|c3d e2c2|
+d4B4|B3c d2f2|e3d c2B2|
+M:2/4
+L:1/8
+A2d2|\
+M:2/2
+c2BA  G2B2|A4   A2||
+S:https://www.folktunefinder.com/tunes/132446
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

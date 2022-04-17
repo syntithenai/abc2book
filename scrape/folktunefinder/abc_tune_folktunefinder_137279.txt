@@ -1,0 +1,25 @@
+X:1
+T:Beaux of London City. Badby
+M:6/8
+Q:96
+S:Bacon
+S:ChristopherGeorge Partington <ChrisTheFiddlerPartington@Hotmail.com> tradtunes 2007-12-7
+A:Badby
+Z:Alex Boster
+K:A
+|: A2 B c2 A | dec ABc |[M:9/8] d2 c BGE A3 :|
+M:9/8
+|: e2 c B2 A c e2 | A2 A B2 c d3 |[M:6/8] e2 c d2 B | AGF EAc |[M:9/8] edc dcB A3 :|
+S:https://www.folktunefinder.com/tunes/137279
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Beaux_of_London_City_Badby_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Beaux_of_London_City_Badby_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

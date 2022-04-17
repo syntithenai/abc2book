@@ -1,0 +1,27 @@
+X:144
+T: Des Grafen Toechterlein
+N: Q3063F
+O: Mitteleuropa, Niederlande
+N: Melodievergleich zu Q0063, anderes Lied "Die wise van Potteren" .
+N: Taktart in "FREI" geaendert. Unklar. Eingeklammerten Ton weggelassen.
+R: Ballade
+M: none
+L: 1/8
+K: F
+A2 | A2A2B2A4 | G2A4G4z2
+A2A4B2A4 | G2A4G4
+G2 | A2A2A2B2 | c2BAG4 | F4z2
+A2 | B2B2A2A2 | A2G4G2D4z2
+D2 | C4G4F4B2 | A4GFG4 | F4z2
+S:https://www.folktunefinder.com/tunes/132246
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

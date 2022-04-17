@@ -1,0 +1,31 @@
+X: 2
+T:Sir Charles's Sedley's()  Minuet. JBa.02
+M:3/4
+L:1/4
+Q:60
+S:Joseph Barnes MS,Carlisle,1762.
+R:Minuet
+O:England
+A:Carlisle
+N:Probably Sedley.  Sir Charles Sedley.  I found it in one of Gina's
+N:books, but lost it again.
+N:Not clear if B music has repeat marked...CGr
+Z:vmp.C.Graebe.
+K:D Major
+d f/d/ f/d/ | def | A B/c/d/B/ | AGF |!
+ D3/2 F/E/G/ | F D/F/E/G/ | F G/F/E/D/ | A3 :|!
+|:A/F/D/F/A/c/ | {c}"qu"B A/B/G |\
+ B/G/E/G/ "cr"B/"cr"d/  | {d} c B/c/ A |!
+e/c/A/c/e/g/ | f/d/ e/c/ d | A3/4g/4 f "sh"e | "min"d3 :|]
+S:https://www.folktunefinder.com/tunes/132667
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:171
+T: Der grausame Bruder
+N: Q2041d
+O: Osteuropa, Ungarn
+N: Melodievergleich zu Q0068J, anderes Lied "Maedchenmoerder" , deshalb
+N: in die Balladengruppe Q0041 eingeordnet.
+N: Verzierungen (Vorschlaege und Glissando) .
+R: Ballade, Verfuehrung, Mord, Rache
+M: 2/4
+L: 1/8
+K: D
+ | DDAA | =c_BAG
+A=FFG | =FEDA,
+DFA3E | G=FE2 | D2z2
+S:https://www.folktunefinder.com/tunes/132273
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, mord, rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

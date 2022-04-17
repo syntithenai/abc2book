@@ -1,0 +1,24 @@
+X: 29
+T:Belle Isle's March, Longborough
+M:4/4
+L:1/8
+A:Longborough
+P:A(AB2)5A
+K:G
+P:A
+|:D|G2G>B A2A>c|B2ge  d3c |BdBG  AcAF|G2G>G G3:|
+P:B
+z|d>edc B2B2 |c>dcB A2A2|d>edc B2B2|c>dcB A4|
+G2G>B A2A>c|B2ge  d3c |BdBG  AcAF|G2G>G G3||
+S:https://www.folktunefinder.com/tunes/135288
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

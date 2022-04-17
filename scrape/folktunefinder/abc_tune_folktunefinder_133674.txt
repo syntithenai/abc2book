@@ -1,0 +1,31 @@
+X:1
+T:Denis Doody's
+C:Traditional
+N:Play last 8 bars
+N:then twice through
+N:The Cashel Set, figure 2, tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Polka
+M:2/4
+L:1/8
+K:D
+D>E FA | d3 c | B>A Bc | BA FA |\
+D>E FA | d3 c | BA B/c/d | ed d2 :||
+fA eA | dA cA | B>A Bc | BA FA |\
+fA eA | dA cA | B>A B/c/d | ed d2 |
+fA eA | dA cA | B>A Bc | BA FA |\
+D>E FA | d3 c | BA B/c/d | ed d2 ||
+S:https://www.folktunefinder.com/tunes/133674
+S:http://theflow.org.uk/text/flow_cashel.txt
+S:http://www.theflow.org.uk/text/flow_cashel.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

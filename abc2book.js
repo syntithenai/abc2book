@@ -292,7 +292,7 @@ function generateAbcFromTunes() {
         //console.log('UPDATE tune OK')
         //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
-        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
+        abc +=   emptyABC(tuneKey,getTuneName(tune), tune.forceTitle)
         //console.log('UPDATE tune EMPTY no setting')
       }
     } else {
@@ -317,7 +317,7 @@ function updateSingleTune(songNumber, ) {
         abc +=  json2abc(songNumber, tune)
         //setting.abc, tuneKey, tune.name, tune.forceTitle, setting.key, tune.type, tune.aliases) + "\n"
       } else {
-        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
+        abc +=   emptyABC(tuneKey,getTuneName(tune), tune.forceTitle)
       }
     } else {
       abc +=   emptyABC(tuneKey,'', tune.forceTitle)
@@ -337,7 +337,7 @@ function generateShortAbcFromTunes() {
         abc +=  json2shortabc(tuneKey, tune) 
         //setting.abc, tune.name, tune.forceTitle, setting.key, tune.type, tuneKey)
       } else {
-        abc +=   emptyABC(tuneKey,tune.name, tune.forceTitle)
+        abc +=   emptyABC(tuneKey,getTuneName(tune), tune.forceTitle)
       }
     } else {
       abc +=   emptyABC(tuneKey,'', tune.forceTitle)
@@ -354,7 +354,7 @@ function generateShortAbcFromTunes() {
 function saveTuneAndSetting(tune,useSetting,songNumber,searchText, callback) {
   if (tune) {
     var tunes = loadLocalObject('abc2book_tunes')
-    tune.forceTitle = searchText
+    //tune.forceTitle = searchText
     tune.useSetting = useSetting
     tunes[songNumber] = tune
     saveLocalObject('abc2book_tunes', tunes)

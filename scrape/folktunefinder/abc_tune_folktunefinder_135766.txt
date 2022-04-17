@@ -1,0 +1,24 @@
+X:1
+T:The Barber's Pole
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+R:hornpipe
+M:4/4
+L:1/8
+K:G
+D2 | GABc defg | agba g2 (3def | gdBg ecAG | FAd^c ed=cA |
+GABc defg | agba g2 (3def | gdBg ecAF | A2G2G2 ::
+d2 | gdBd gbag | fgef d2cB | ceac BdgB | (3ABG (3 FGE D2 EF |
+GABc d2 fg | agba g2 (3def | (3gfe (3dcB (3edc (3BAF | A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/135766
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

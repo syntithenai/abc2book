@@ -1,0 +1,25 @@
+X: 24
+T:Shepherds' Hey, Bampton
+M:2/2
+L:1/8
+Q:1/2=88
+A:Bampton
+P:AA3B3(AB3)2A
+K:G
+P:A
+|:D|BGdB c2c2  |BcdB A2A2|GBdB c2Bc|d2D2 G3:|
+P:B
+  B|d2B2 c3d/c/|B2G2 A4  |GBdB c2Bc|d2ef g2a//g//f//e//|
+   |d2B2 c3d/c/|B2G2 A4  |GBdB c2Bc|d2D2 G3||
+S:https://www.folktunefinder.com/tunes/131593
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

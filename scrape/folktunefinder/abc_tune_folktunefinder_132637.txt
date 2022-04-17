@@ -1,0 +1,33 @@
+X:10
+T:Danse des bergers
+R:Branle simple
+O:Alsace - Elsass
+A:Ballersdorf
+S:
+B:La tradition Alsacienne.
+Z:transcription (partition) : <anamnese@laposte.net>
+N:p.31
+N:
+M:6/4
+L:1/8
+Q:1/4=130
+K:G
+(dc) | B2B2 A2 G4 A2 | B2B2 AA G4 GA ||\
+M:3/4
+L:1/8
+B2 (BG) ce | d2 (dB) cA |
+B2 (BG) ce | d2 (dB) cA |\
+M:6/4
+L:1/8
+B2B2 A2 G4 (dc)|  B2B2 AA G2 z2 ||
+S:https://www.folktunefinder.com/tunes/132637
+S:http://anamnese.online.fr/abc/germania.abc
+% Rhythm Branle simple
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

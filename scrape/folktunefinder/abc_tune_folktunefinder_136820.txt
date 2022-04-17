@@ -1,0 +1,24 @@
+X: 2
+T: Bay Tree
+C: Andy Cutting
+Z: Steve Mansfield
+N: modified, and chords added, by Moshe Braner, after workshop with Andy Cutting
+M: 3/4
+L: 1/8
+R: waltz
+K: G Major
+|: &quot;G&quot; B3 B AB | &quot;D/B&quot; d3 d BA | &quot;C&quot; G2 FG AB |  &quot;D&quot; B2 A2 GA |
+&quot;G&quot; B3 B AB | &quot;D/B&quot; d3 d BA | &quot;C&quot; G2 FG AB |[1 &quot;D&quot; D6 :|[2 &quot;D&quot; A4 GA ||
+|: &quot;G&quot; B2 GD GB | &quot;C/A&quot; c2 EG ce | &quot;D/B&quot; d2 ^FA dg | &quot;C&quot; e3 e &quot;D&quot; dc |
+&quot;G&quot; B2 GD GB | &quot;C/A&quot; c2 EG ce | &quot;D/B&quot; d2 ^FA dg | &quot;C&quot; e3 g &quot;D&quot; dc :|
+S:https://www.folktunefinder.com/tunes/136820
+S:http://www.thesession.org/tunes/display/7953
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

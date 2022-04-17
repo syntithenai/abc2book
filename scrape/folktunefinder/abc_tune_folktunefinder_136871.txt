@@ -1,0 +1,31 @@
+X: 1
+T: Bean Setting
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The B part has an extra half-measure.
+N: Fleming-Williams and Shaw p.6.
+%: 2/4
+M: 6/8
+L: 1/8
+K: G
+|: "G"G3 G2A | B3 B3 | "D7"A2B cBA | "G"G2A B3 | "G"G3 G2A | B3 B3 | "D7"A2B cBA | "G"G6 :|
+|: "G"B>AG B>AG | Bd2- d2B | "D7"A>BA A2B | "C"c2d e>dc | "G"B>AG BdB | "D7"ABc def "G"Hg3 :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/136871
+S:http://trillian.mit.edu/~jc/music/book/500/BeanSetting_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

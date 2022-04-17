@@ -1,0 +1,22 @@
+X:1
+T:Mille regrets
+T: Superius
+C: Josquin des Prez 
+B: From a 1549 ms.
+B:db: -c 8 
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N: Original clef,  C on first line
+K:E phr
+E4 A2 A2 G3 F/ E/ D > C D2 C c c c B B A2
+S:https://www.folktunefinder.com/tunes/136355
+S:http://www.laymusic.org/music/josquin/regrets/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

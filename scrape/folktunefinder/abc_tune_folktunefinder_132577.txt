@@ -1,0 +1,28 @@
+X: 25
+T:Trunkles - Ducklington
+S:OY(A2B3C3)2(A2B3D3)
+N:Tune as played for Grand Union Morris
+N:www.grandunionmorris.co.uk
+M:4/4
+L:1/8
+K:G
+"A" d2 B2 c2 e2 | dcBA B2 G2 | d2 B2 c2 e2 |[1  dcBA  G2 Bc  |[2  dcBA
+G4 ||
+"B" B2 Bc d2 d2 | efge d2 g2 | f2 ed ^c2 A2 | d4 d2 ||
+"C"cd | e2 c2 cdec | d2 B2 BcdB | c2 A2 ABce |dcBA G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+"D"cd | e4 c4 | c2 d2 e2 c2 | d4 B4 | B2 c2 d2 B2 | c4 A4 | A2 B2 c2 e2
+ | d3 c B2  A2  | G2 B2 |
+ cBAG F2 A2 | G4 G2 ||
+S:https://www.folktunefinder.com/tunes/132577
+S:http://trillian.mit.edu/~jc/music/abc/mirror/grandunionmorris.btinternet.co.uk/tunes/gum.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

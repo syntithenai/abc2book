@@ -1,0 +1,39 @@
+X: 31
+T:Princess Royal, Longborough 2
+M:2/2
+L:1/8
+Q:1/4=140
+A:Longborough
+P:AAB(CB)2
+K:GMin
+P:A
+d2|cBAB G2d2| cBAB G2d2|e3d  c2f2 |edcd B2d2|
+c2B2 A2G2|^F2G2 D2dc|BABG A2^F2|G4   G2 ||
+P:B
+d2|g3^f g2a2| b3B  B2f2|bagf edcB |A2F2 F2F2|
+B2AB c2Bc| d2d2 g3g |f2B2 e3e  |d2G2 c4  |
+cBAB G2B2| A2d2 D2dc|BABG A2^F2|G4   G2 ||
+P:C
+M:2/4 
+L:1/8
+d4|\
+M:2/2
+c2B2 A2B2| G4   d4  |c2B2 A2B2| G4   d4  |\
+e6    d2 | c4   f4  |e2d2 c2d2|
+M:2/4 
+L:1/8
+B3d|\
+M:4/4
+c2B2 A2G2|^F2G2 D2dc|BABG A2^F2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/135297
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

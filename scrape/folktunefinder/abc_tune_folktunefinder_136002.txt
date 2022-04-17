@@ -1,0 +1,23 @@
+X:13
+T:O'Mealy's Hornpipe
+S:Treoir, 1993
+I:speed 250
+C:R. L. O'Mealy
+M:C
+K:G
+|:(3DEF | GFGA BGBd | gfga bgdB | cBAG FAdc | (3BAG (3AGF GFED |
+GFGA BGBd | gfga bgdB | cBAG FAdc | (3BAG (3AGF G2:|
+|:(3Bcd | gd (3Bcd gd (3Bcd | gd (3Bcd g2 z2 | agfd Adfd | Adfd Adf2 |
+(3Bcd gd (3Bcd gd | (3Bcd gd (3Bcd g2 | agfd AFDc | (3BAG (3AGF G2:|
+S:https://www.folktunefinder.com/tunes/136002
+S:http://ceolas.org/pub/tunes/abc.tunes/xih
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xih
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

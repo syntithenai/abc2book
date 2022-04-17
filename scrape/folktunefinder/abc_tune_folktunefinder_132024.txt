@@ -1,0 +1,28 @@
+X: 16
+T:Sur les bords de la rivire
+M:3/4
+L:1/8
+R:Valse
+O:France
+A:Massif Central
+K:F
+|:CFG|A2B|A2G|F3|AGA|c2F|A3|G3:|
+GGG|G3|GAB|c3|cBc|d2d|c2B|AFG|
+A3|GcA|G3|FFG|A3|GcA|G3|F3|
+W:
+W:J'ai fait l'amour cinq  six mois dans la ville de Rennes (bis)
+W:Je l'ai fait en suivant la loi
+W:Tenant ma mie entre mes bras
+W:Sur les bords de la rivire (bis)
+W:
+W:Elle ne fut pas au bord de l'eau qu'elle vit venir sa mre
+S:https://www.folktunefinder.com/tunes/132024
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/valses.txt
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

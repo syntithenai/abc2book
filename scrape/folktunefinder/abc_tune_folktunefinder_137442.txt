@@ -1,0 +1,22 @@
+X:35
+T:Mulhair's Jig
+M:6/8
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:G
+E |:EDE G2 A |BeB dBd |edB GAB |1
+ABA AGE :|2AGF G2 B ||d2 d def |gfe fdB |
+ABA ABd |egf e2 f |g2 e fed |edB gfg |
+edB AGA |BGG G2 E ||]
+S:https://www.folktunefinder.com/tunes/137442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

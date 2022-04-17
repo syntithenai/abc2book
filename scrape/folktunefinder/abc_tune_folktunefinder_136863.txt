@@ -1,0 +1,26 @@
+X: 5
+T:Princess Royal, Stanton Harcourt
+M:4/4
+L:1/8
+Q:1/4=120
+A:Stanton Harcourt
+P:A2B4
+K:Gm
+P:A
+GA|B2AB G2cB |B2AB G2d2|e2c2  cdef|d2c2 B3d |
+ccB2 A2G2 |FGFE D2d2|cBAG  F2A2|G4   G2 ||
+P:B
+d=e|f2d2 d=efd|g2d2 c4  |gg=ed cBAG|A2F2 F4  |
+G2GA B2B2 |c2c2 g2g2|f2d2  e2fe|d2G2 c2dc|
+BAGF GABc |d2d2 G2d2|cBAG  F2A2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/136863
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/StantonHarcourt.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/StantonHarcourt.abc
+S:http://www.themorrisring.org/more/Tunes/abc/StantonHarcourt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

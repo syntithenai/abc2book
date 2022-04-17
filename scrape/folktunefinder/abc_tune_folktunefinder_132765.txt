@@ -1,0 +1,23 @@
+X:1
+T:Gaveca
+R:Polka
+C:A. Floutard
+O:France
+M:2/4
+L:1/8
+K:G
+V:1
+|: "Em"eB eB | "D"d/A/F/A/ d/A/F/A/ | "Em"eB eB | "D"d/A/F/A/ d2 ::
+"G"BB/B/ Bd | cB "C"e2 | "D"d>c BA |1 "G"B2 G2 :|2  "G"G2 G2 |]
+V:2
+|: ge ge | f/e/d/e/ fd | ge ge | f/e/d/e/ f2 ::
+dd/d/ dg | ed g2 | f>e dc | d2B2 :| G2 G2 |]
+S:https://www.folktunefinder.com/tunes/132765
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

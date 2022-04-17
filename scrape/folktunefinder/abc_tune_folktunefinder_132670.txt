@@ -1,0 +1,34 @@
+X: 5
+T:Minuet,A. JBa.05
+M:3/4
+L:1/4
+Q:60
+S:Joseph Barnes MS,Carlisle,1762.
+R:minuet
+O:England
+A:Carlisle
+N:No key signature given - various possibilities -  Dorian mode - G Major
+N:- D major - A music in Dmaj and B music in G maj.  Your
+N:choice!..Different writing from Nos 1 - 4...CGr...I'd go for G
+N:major..I think the handwriting issue needs looking at before we can say
+N:it is a different person...CGP
+Z:vmp.C.Graebe.
+K:D dor
+"No Key Sig in MS,see note"\
+d2g | f/e/ dg | B2 g | B/A/G/A/B/c/ |\
+d2g | f e/f/d | edc | d3 :|!
+|:A2d | c B/c/A | Bc/B/A/G/ | F E/F/D |\
+d2g | B2 g | B/A/GF | G3 :|]
+S:https://www.folktunefinder.com/tunes/132670
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

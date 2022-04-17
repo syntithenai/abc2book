@@ -1,0 +1,20 @@
+X: 3
+T:Peggy Ramsay (Greig and Duncan)
+M:4/4
+L:1/8
+K:G
+G2 G>G G>G GE|DEGA G3D|EAA^G A2 Ac|B>A Bd e3g|
+G2 G>G G>A GF|D<E G>A G3c|
+Beed e>fgc |B>B AG E4|
+d>B d>e d>e d>B|d>B d>e d3 c|Beed  efgc|B2 AG E4 
+% Output from ABC2Win  Version 2.1 f on 7/12/2002
+S:https://www.folktunefinder.com/tunes/131195
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/pegram.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

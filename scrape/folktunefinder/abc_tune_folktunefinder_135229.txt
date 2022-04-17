@@ -1,0 +1,36 @@
+X: 1
+T: The Banks of Spey
+C: William Marshall
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: ADor
+E || "Am"{E}[A2A] A>B A>B c>e | "G"d<c B->A ~G3 E \
+   | "Am"[A2A] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+   | "Am"a>g e-<c de g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 ||
+c || "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+   | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+   | "Am"a>g e-<c de g-<a | "Em"e-<g g>B "G"~G3 B \
+   | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/135229
+S:http://trillian.mit.edu/~jc/music/book/500/BanksOfSpey_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

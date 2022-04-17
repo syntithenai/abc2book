@@ -1,0 +1,28 @@
+X:26
+T:The Lark in the Morning
+R:jig
+N:EBSP Version
+O:Ireland
+M:6/8
+L:1/8
+K:D
+"D" AFA  AFA | "G" BGB         BGB |"D" AFA       Ade | fed "G"  B/c/dB |
+"D" AFA  AFA | "G" B2      B   BGB |"D" def       afe |"Bm" fdB "G" BAF :|
+"D" def  afa | "Dsus" baf      afe | "D" def      afe |"Bm" fdB     BAB | 
+"D" def  afa | "G" baf    "D" a2 f | "G" gfg  "D" fef |"Em" edB "G" BAB :|
+"D" d2 f fef | "Dsus" fef      fef |"D" d2    f   fef |"Dsus" edB   BAB | 
+"D" d2 f fef | fef             fed |"G" gfg   "D" fef |"Em" edB "G" BAB :|
+"D" Add  fdd | "Dsus" edd      fdd | "D" Add      fdd | "Dsus" edB  BAF |
+"D" Add  fdd | "Dsus" ede  "D" fed | "G" gfg  "D" fef | "Em" edB "G" BAB :|
+S:https://www.folktunefinder.com/tunes/134747
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

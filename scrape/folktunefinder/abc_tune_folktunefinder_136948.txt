@@ -1,0 +1,27 @@
+X:75
+T: Tom Ban's
+S: M.Russell
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: G
+e |d2 d2 BGBd |egfa g3 e |d2 de dBGA |BAAB A3 B |
+d2 d2 BGBd | egfa g2 fg | a2 ag fdef | gbaf g3 :|
+e | dg (3gfg dg (3gfg | dg (3gfg agfg | a2 ab agfg |\
+agfe dcBc |
+dg (3gfg dg (3gfg |dg (3gfg agfg |a2 ag edef |\
+gbaf g3 :|
+S:https://www.folktunefinder.com/tunes/136948
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

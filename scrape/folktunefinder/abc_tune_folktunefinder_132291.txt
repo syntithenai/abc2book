@@ -1,0 +1,26 @@
+X:3
+T:Leirertanz, genannt "Die bladn Buam", orig. C-Dur
+R:Lndler
+C:trad.
+S:Hg. E.Kremser, Bd. I, Wien 1912
+A:Wien
+P:2
+M:3/4
+L:1/8
+K:G
+(Bcd2)(Bc|d2)(Bcde)|d2(cBcA)|(AcB)zB2|\
+(Bcd2)(Bc|d2)(Bcde)|d2(cBcA)|B6:|!
+(ABc2)(AB)|(c2A)zA2|(Bcd2)(Bc)|(d2B)zB2|\
+(ABc2)(AB)|(c2A)zA2|(Bcd2)(cA)|B6:|
+S:https://www.folktunefinder.com/tunes/132291
+S:http://www.unet.univie.ac.at/~a7425519/tunes.abc
+% Rhythm Lndler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

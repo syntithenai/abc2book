@@ -1,0 +1,21 @@
+X: 1
+T: Beer Drinker, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:DEF FEF|AFF F2E |DEF FEF|AFE E2F|
+DEF FEF|AFA d2d|BdB BAF|1AFE E2F:|2AFE E2f||
+|:ecA ABA|ecA A2f|ecA Ace|fdB B2f|
+ecA fdB|ecA a^gf|ecA BAF|1AFE E2f:|2AFE E2d||
+|:dFF FEF|AFF F2d|dFF FEF|AFE E2d|
+dFF FEF|AFA d2d|BdB BAF|1AFE E2d:|2AFE EFE||
+S:https://www.folktunefinder.com/tunes/137485
+S:http://www.thesession.org/tunes/display/3200
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

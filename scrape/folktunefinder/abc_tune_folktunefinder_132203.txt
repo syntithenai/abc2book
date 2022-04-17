@@ -1,0 +1,23 @@
+X:101
+T: Der Elsberger
+N: Q0059
+O: Suedosteuropa, Jugoslawien, Gottschee, Buehel
+N: Grundton in der zweigestrichenen Oktave; Schlusspause ergaenzt.
+R: Ballade, Betrug, Entfuehrung
+M: 2/4
+L: 1/8
+K: C
+G,2 | C2G2 | F2GF | EDCE2- | E2
+ED | C2ED | C2D2 | CB,C2 | z2
+S:https://www.folktunefinder.com/tunes/132203
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, entfuehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

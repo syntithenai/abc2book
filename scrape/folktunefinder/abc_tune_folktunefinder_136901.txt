@@ -1,0 +1,22 @@
+X: 19
+T:I'll Tell Me Ma
+M: 2/4
+L: 1/8
+R: polka
+K: Dmaj
+A|"D"Ad f>f|gf f>g|"A7"fe e>f|"D"ed d>d|
+Ad f>f|gf f>g|"A7"fe e>f|"D"ed d2|
+aa af|"G"gg ge|"D"f>f fd|"A7"ec B<A|
+"D"aa af|"G"gg g2|"D"ff "A7"ef|"D"ed d2|]
+%%textfont Palatino 16
+%%begintext
+S:https://www.folktunefinder.com/tunes/136901
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/WaltzEtc.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/WaltzEtc.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

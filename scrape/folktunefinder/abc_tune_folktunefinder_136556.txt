@@ -1,0 +1,25 @@
+X: 5
+T:Fairhaired Boy
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:A
+A|EAA DAA|gfg edB|BAB edB|BAB GED|
+EAA DAA|gfg edB|BAB edB|BAG A2::
+d|eaa bag|eaa ged|BAB edB|BAB GDD|
+eaa bag|eaa ged|BAB edB|BAG A2d|
+eaa bag|eaa ged|BAB edB|BAB GED|
+EAA EAA|gfg edB|BAB edB|BAG A2|
+S:https://www.folktunefinder.com/tunes/136556
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

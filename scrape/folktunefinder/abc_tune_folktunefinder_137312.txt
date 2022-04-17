@@ -1,0 +1,29 @@
+X: 1
+T:Beckels Hornpipe. GHW.061
+T:
+M:2/4
+L:1/8
+Q:360
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Hornpipe
+O:England
+A:Norfolk
+N:First note of first basr transcribed as a - crossbar on note missing on
+N:M
+Z:vmp.Taz Tarry
+K:A
+(3efg)|(ae)(ce) (Ac)(ea)|(fd)BG A2 (Bc)|(de).f.e (dc).B.A|G2 E2E2 (3ef
+g)|!
+(ae).c.e (Ac).e.a|(fd).B.G A2 (Bc)|(df).e.d (cB).A.G|A2A2A2:|!
+|:(ed)|ceAe ceAe|dfBf dfBf|ceAe ceAe|GBEB GBEB|!
+ceAe ceAe|dfBf dfBf|(ea).g.f (ed)cB|A2A2A2:|
+S:https://www.folktunefinder.com/tunes/137312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/be/Beckels_Hornpipe_GHW_061_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

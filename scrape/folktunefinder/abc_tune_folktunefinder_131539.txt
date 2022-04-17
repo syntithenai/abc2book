@@ -1,0 +1,31 @@
+X:13
+T:The Furze Field
+M:6/8
+S:Bacon (Michael Blandford)
+A:Bampton
+O:English
+R:Jig
+P:A(AB2)4
+K:G
+P:A
+D | G>GG FGA | BAG A>Bc | dBd cAF | G3- G2 D |
+G>GG FGA | BAG ABc | dBd cAF | G3- G2 |]
+P:B
+B/2c/2 | ded dBG | AFE D2 B/c/ | ded dBA | G3 F2D |
+G>GG FGA | BAG A>Bc | dBd cAF | G3- G2 |]
+%
+P:B (original)
+B/2c/2 | d2 d ded | cAF D>EF | GAB cde | dcB A2 D |
+G>GG FGA | BAG A>Bc | dBd cAF | G3- G2 |]
+S:https://www.folktunefinder.com/tunes/131539
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

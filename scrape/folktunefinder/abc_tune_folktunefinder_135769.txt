@@ -1,0 +1,25 @@
+X:4
+T:Bottle Bank
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in Bb
+R:hornpipe
+M:4/4
+L:1/8
+K:D
+ag | fefd egce | dcde dfed | cdBc ABGB | (3ABA (3GFE D2 ag |
+fefd egce | dcde d2 AG | FAdf GBeg | ba^ga d2 ::
+AG | FAdA fdcd | GBeB gece | FAdA fdcd | (3efe (3dcB A2AG |
+FAdA fdcd | GBeB gece | ba^ga ba=ge | d2 D2 D2 :|
+S:https://www.folktunefinder.com/tunes/135769
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

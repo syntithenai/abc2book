@@ -1,0 +1,23 @@
+X: 1
+T: Bannielou Lambaol (G)
+O: Brittany
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: G
+[| "D7"DD EF | "G"G2 G2 \
+| "D7"DD EF | "G"G4 \
+| "Em"BA BA | "C"GE E2 \
+| "D7"DA AF | "G"G2 G2 ||
+|| "G"DG GG | "D7"AG/F/ "G"GG \
+| DG GG | "D7"AG/F/ "G"G2 \
+| B2Bd | "C"dc BA \
+| "D7"Ac BA | "G"G2 G2 | z2 |]
+S:https://www.folktunefinder.com/tunes/135588
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/BannielouLambaol_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

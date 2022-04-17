@@ -1,0 +1,27 @@
+X:2
+T:When Laura Smiles
+T:Bassus
+C:tune by Philip Rosseter (1568-1626)
+C:words by Thomas Campion (1567-1620)
+C:from A Book of Ayres, 1601
+B:Campion, Thomas. Campion's Works. Percival Vivian
+B:CDSS News 164, Jan/Feb 2002
+H:Melody by Philip Rosseter in 1601
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:3/4
+L:1/4
+K:G mix bass
+%%MIDI transpose -24
+|:g2c g3 f2g d > c B/ A/ G d2 G3 :|
+|:f2 c d2 f e2 c2 d e A2 a g > f e d3 f > e d c3 e > d c B2 e2 d2 G3 :|
+S:https://www.folktunefinder.com/tunes/136329
+S:http://www.laymusic.org/music/campian/laura/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

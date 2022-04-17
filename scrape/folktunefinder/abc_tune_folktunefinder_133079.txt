@@ -1,0 +1,26 @@
+X:1
+T:The Ball
+C:Wm Mittell MS
+N:Wm.Mittell,1799
+N:England
+N:Kent
+R:Quadrille
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d|B2G A2F|GAG D2D|E2E c2B|B3A2d|
+B2G A2F|GBG D2D|E2c A2F|G3G2:|
+|:B|A2D c2A|BdB G2B|A2D c2A|B3A2d|
+e2c A2f|g2d B2G|E2c A2F|G3G2:|
+S:https://www.folktunefinder.com/tunes/133079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Ball.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

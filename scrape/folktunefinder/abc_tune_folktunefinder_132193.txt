@@ -1,0 +1,26 @@
+X:91
+T: Der Scheintod
+N: Q2058
+O: Mitteleuropa, Niederlande
+N: Originalquelle in unmensurierten Choralnoten.
+N: Niederlaenische Fassung der Ballade.
+R: Ballade, Liebe, Enttaeuschung, Schein - Tod
+M: 3/2
+L: 1/8
+K: D
+D2D2D2 | =F4D4F2G2 | A4z2
+G2A2A2 | d3d=c2c2B2A2 | =c4z2
+c2c2c2 | A4=c4A2G2 | =F4
+=c4d3dc2A2 | G4=F2F2E4 | D4z2
+S:https://www.folktunefinder.com/tunes/132193
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, liebe, enttaeuschung, schein - tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

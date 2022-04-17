@@ -1,0 +1,27 @@
+X:35
+T:Wind That Shakes the Barley, The
+R:reel
+E:7
+I:speed 350
+M:C|
+K:D
+|A2AB AFED|B2BA BcdB|~A3 B AFED|gfed BcdB|\
+~A3B AFEF|DBBA BcdB|~A3B AFED|gfed Bcde||*
+|~f3d ~g3e|~f3d Bcde|f2df gefg|afed Bcde|\
+~f3d ~g3e|~f3d Bcd2|defg afbf|afed BcdB||**
+S:https://www.folktunefinder.com/tunes/135152
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

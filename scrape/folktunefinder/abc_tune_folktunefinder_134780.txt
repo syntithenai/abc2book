@@ -1,0 +1,32 @@
+X: 021193
+T: Banjo Man
+C: Joe Derrane
+D: "The Tie that Binds" [Shanachie]
+Z: B.Black
+N: Tune ends on first part.
+L: 1/8
+M: 4/4
+R: reel
+K: A
+e|: a2 c'a fgaf|ecAc BAFG|AFEC EFAB|cfec (3BcB ce|
+ac'ba fgaf|ecAc BAFG|AFEF AB (3cBA|BAFG A>A (3Bce|
+a2 c'a fgaf|ecAc BAFG|AFEC EFAB|cfec (3BcB ce|
+ac'ba fbaf|ecAc BAFG|AFEF AB (3cBA|BAFG A2||
+Bc|: (3dcB (3cBA Bcde|fbaf eafe|dfed cedc|Bc (3dcB cAFA|
+(3dfd cd Bcde|fbaf eafe|(3dfd cd BAFA|1 FEDC B,2 Bc :|2\
+FEDC B,>A (3Bce||
+P: optional tag
+ac'ba fbaf|ecAc BAFG|AFEC A,B,CE|BA,F,G, A2 z2||
+S:https://www.folktunefinder.com/tunes/134780
+S:http://www.qmcorp.net/webabc/b/021193.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

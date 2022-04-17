@@ -1,0 +1,16 @@
+X:1
+T:BEAUTISL
+M:6/8
+L:1/8
+K:A
+ cBA E2 A| A3 G3| dcB F2 G| F3- E3| cBA E2 A| G3 B3| BcBA-G F| E6|\
+ B3 E3| A3 E3| AAAA-G F| E2- c d3| cdc B2 B| edc d3| dcBA-E A| c- B2- B A2-|\
+ A6|
+S:https://www.folktunefinder.com/tunes/137199
+S:http://back.numachi.com:8000/dtrad/abc/BEAUTISL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

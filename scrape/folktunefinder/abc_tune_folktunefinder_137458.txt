@@ -1,0 +1,24 @@
+X:115
+T:The Donegal Reel
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+K:D
+D3 E FDFA |dFAF BFAF |E3 F GFGA |BdAF EGFE |
+D3 E FDFA |dFAF ABde |f2 e2 dBAG |F2 E2 D2 z2 ||
+defg afdf |afdf a2 gf |edef gfed |cdef g2 fe |
+defg afdf |afdf abag |f2 e2 dBAG |F2 E2 D2 z2 ||
+%  ABC2Win Version 2.1 24/06/2002
+S:https://www.folktunefinder.com/tunes/137458
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

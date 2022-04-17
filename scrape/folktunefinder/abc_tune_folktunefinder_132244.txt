@@ -1,0 +1,28 @@
+X:142
+T: Des Grafen Toechterlein
+N: Q1063D
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0063, anderes Lied "Der Markgraf von Backenweil"
+N: Aehnliche Fassung schon aus anderem Balladenband kodiert 
+N: Transkription einer Tonaufnahme.
+R: Ballade
+M: none
+L: 1/16
+K: F
+C4 | F4E4F8G2A2 | B4A4G8
+A4 | F4C4F4F4z4G4 | B4A4G8
+c6B2 | A4G4F4F4G4 | A8G8 | F8
+G8 | F4E4D4C6D2C2C2 | F4G4A3FG8
+c2B2 | A4G4F4F4G4 | A8G8 | F8z4
+S:https://www.folktunefinder.com/tunes/132244
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

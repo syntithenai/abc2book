@@ -1,0 +1,30 @@
+X: 1
+T:Bacca Pipes
+M:6/8
+L:1/8
+Q:150
+S:Morris On
+R:Jig
+O:English
+A:Headington
+P:(A(BA)4)3.A(B2A)4
+N:
+K:ADor
+P:A
+|: B | c3   c2 e | d2 c B2 d | c2 B A2 c | B2 A G2 \
+   B | c3   c2 e | d2 c B2 d | c2 A B2 G | A3   A2 :|
+P:B
+|: z | g2 f g2 e | d2 B G3   | g3   ffg  | a2 f d2 \
+   z | g2 f g2 e | d2 B G2 B | c2 d e2 c | A3   A2 :|
+S:https://www.folktunefinder.com/tunes/131521
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/Bacca_Pipes_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

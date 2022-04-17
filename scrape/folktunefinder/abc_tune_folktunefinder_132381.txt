@@ -1,0 +1,29 @@
+X:1
+T:Ton simple gavotte
+G:Skol Al Louarn
+R:Gavotte des montagnes
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=156
+P:A5
+M:12/8
+S:TS94
+%%MIDI program 109
+%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:G
+P:A
+|: "G"G2 B "Bm"d2 d "Am"c2 B "C"G3 | "D"F2 G "Am"A2 B "C"c3 "G"B3 ::\
+"G"G2 B "Bm"d2 d "Am"c2 B "Em"G3 | "Bm"F2 G "C"A2 B "D"A3 "G"G3 :|
+S:https://www.folktunefinder.com/tunes/132381
+S:http://kazimodal.trad.org/partitions/gavottes/Skol_Al_Louarn_2/gavotte.abc
+% Rhythm Gavotte des montagnes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

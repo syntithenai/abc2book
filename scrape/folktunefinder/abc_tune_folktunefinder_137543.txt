@@ -1,0 +1,35 @@
+X:100
+T: Old Grey Goose, The
+T: An Sean Gead Liat
+R: double jig
+C: "collected by J.O'Neill"
+S: 1000 O'Neill's Music of Ireland
+N: a tilde has been used to denote a shake
+B: O'Neill's 1000
+Z: Transcribed by Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 6/8
+K: Em
+E/-F/ | GBG FAF | GEE E2 F | DFA dAG | FDD DEF |
+| ~GFG AGA | BAB gfg | edB {c}-BAF | GEE E2 :|
+F | G2 G dBG | GAB/-c/ dBG | A2 A ecA | ABc/-d/ ecA |
+| GAG dBG | ege {a}-gfg | edB ~BAF | GEE E2 :|
+d | efe edB | def g2 e | fdd add | fag fed |
+| gfg fef | def {a}-gfg | edB ~BAF | GEE E2 :|
+c | BGG AFF | GEE E2 c | BGG dAG | FDD D2 c |
+| BGG AGF | GEE {a}-gfg | edB ~BAF | GEE E2 :|
+f | gbg faf | gee e2 f | gbg fag | fdd def |
+| gbg faf | ege {a}-gfg | edB ~BAF | GEE E2 :|
+f | gdc BcA | GEE E2 f | gdB dAG | FDD DEF |
+| G3 {B}-AGA | BcB {a}-gfg | edB ~BAF | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/137543
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0981-1000_rt.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

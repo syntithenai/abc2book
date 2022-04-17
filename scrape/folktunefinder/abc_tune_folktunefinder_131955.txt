@@ -1,0 +1,35 @@
+X:1
+T:La Badoise, ou "Polka des bbs"
+C:Traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:460
+K:C
+M:2/2
+ z6D2 |: [G2G,,2]G,A [B2G,,2][c2G,2] | [d2G,,2]G,e [d2G,,2][B2G,2] | [c2D,,2]D,d [c2D,,2][A2D,2] | \
+ [B2G,,2][A2D,2] [G2G,,2][D2G,2] | [G2G,,2]G,A [B2G,,2][c2G,2] | [d2G,,2]G,e [d2G,,2][B2G,2] | \
+ [c2D,,2]D,2 [A2D,,2]D,2 |1 [G2G,,2]G,2 G,,2[D2G,2] :|2 [G2G,,2]G,2 G,,2[B2G,2] | \
+M:1/2
+ [d2G,,2][B2G,2] | \
+M:2/2
+ [G4G,,4G,4] [G2G,,2G,2][G2G,,2G,2] | [G2G,,2G,2][B2G,2] [d2G,,2][B2G,2] | [A4D,,4D4] [A2D,,2D2][A2D,,2D2] | \
+ [A2D,,2D2][BG,]c [d2G,,2][d2G,2] | [d2G,,2][BG,]c [d2G,,2][d2G,2] | [d2G,,2]G,2 [d2D,,2]D,e | \
+ [d2D,,2][c2D,2] [B2D,,2][A2D,2] | [G2G,,2]G,2 G,,4 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/131955
+S:http://diato.ifrance.com/diato/tablat/176.abc
+S:http://diato.ifrance.com/tablat/176.abc
+S:http://diato.org/tablat/176.abc
+S:http://perso.orange.fr/diato/tablat/176.abc
+S:http://perso.wanadoo.fr/diato/tablat/176.abc
+S:http://pro.wanadoo.fr/diato/tablat/176.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/176.abc
+S:http://www.diatonique.net/tablat/176.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 1/2
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

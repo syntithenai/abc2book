@@ -1,0 +1,29 @@
+X:45
+T:Maple Sugar
+C:Ward Allen
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:A
+[A2e2] [c2e2][d2e2]|[A4e4] [A3e3][Af]|[A2e2][d2e2] [c2e2][B2e2]|[c4e4] [c3e3][de]|[ce][Be][A2e2] [d2f2][c2e2]|
+[c2e2][B2e2] [B2e2][c2e2]|[d3f3][ce] [c2e2][Be][ce]|[d2e2][c2e2] [ce][Be][ce][de]|[ce][Be][A2e2] [c2e2][d2e2]|
+[A4e4] [A4e4]|[A4e4] [A3e3][ce]|[d2e2][c2e2] [ce][Be][A2e2]|[c4e4] [c3e3][de]|
+[c2e2][B4e4][c2e2]|[d3f3][ce] [c2e2][G2B2]|[B2e2][A2e2] [Ae]GAB|[A2e2]:|
+|:z2 C2D2|[E4A4] [E3A3][FA]|E2C2 E2A2|[c4e4] [c3e3][ce]|[B2e2][A2e2] [d2f2][c2e2]|
+[c2e2][B2e2] [B2e2][c2e2]|[d4f4] [c2e2][Be][ce]|[d2e2][c3e3][Be][ce][de]|[ce][Be][A2e2] C2D2|
+[E4A4] [E3A3][FA]|E2C2 E2A2|[c4e4] [c3e3][ce]|[B2e2][A2e2] [d2f2][c2e2]|
+[c2e2][B2e2] [B2e2][c2e2]|[d4f4] G3A|[B2e2][A4e4][B2e2]|[A2e2]:|
+K:E
+z2 G2A2|B4 B3c|B2G2 B2e2|g4 g3f|e2B2 c2B2|
+f4 f3g|f2d2 c2d2|e4 d2c2|B2G2 A2c2|
+B4 B3c|B2G2 B2e2|g4 g3f|e2B2 c2B2|
+f4 f3g|f2d2 c2d2|e4 e3f|e2:|
+S:https://www.folktunefinder.com/tunes/131838
+S:http://www2.redhawk.org:8080/irish/warnock/abc/W-Allen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

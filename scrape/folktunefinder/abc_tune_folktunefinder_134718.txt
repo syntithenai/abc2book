@@ -1,0 +1,33 @@
+X:38
+T:Rakish Paddy
+R:reel
+H:The tune comes from the Scottish tune "Cabar Feidh" (The Deer's
+H:Antlers)
+H:It is related to "The Copperplate", #308.
+H:These are two different four-part versions.
+H:See also #53 (2-part version), #647 (Donegal version)
+Z:id:hn-reel-54
+M:C|
+L:1/8
+Q:1/4=200
+K:Dmix
+|:c3B c2AB|cBAG EG~G2|Add^c defe|dcAG FGAB|
+c3B c2AB|cAAG EFGE|DEFG ABcA|1 dcAG FGAB:|2 dcAG FDD2|
+|:eg~g2 ag~g2|eg~g2 edBd|ea~a2 bgag|eaag edBd|
+eg~g2 ag~g2|egge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB|
+|:c2gc acgc|c2gc ecAc|d2ad bdad|d2ad ed (3Bcd|
+c2gc acgc|efge defg|afge fde^c|1 dcAG FGAB:|2 dcAG FDD2|
+|:eg~g2 ec~c2|eg~g2 ed (3Bcd|eaag ed~d2|edad ed (3Bcd|
+eg~g2 ec~c2|efge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB|
+S:https://www.folktunefinder.com/tunes/134718
+S:http://www.ellwood.org/slow/slow.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

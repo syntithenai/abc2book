@@ -1,0 +1,42 @@
+X:1
+T:Plin : Suite A
+Z:Roger Ngaret (Septembre 2000)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:G
+T:Ton simpl
+M:4/4
+L:1/16
+K:G
+"Am"A4 E2A2 A2B2 A4 | (3A2B2c2 "G"d2B2 "F"c2A2 "Em"B2B2 |
+"Am"A4 E2A2 A2B2 A4 | (3A2B2c2 "G"d2B2 "F"c2A2 "Em"B4 |
+"Am"A2c2 B2A2 A2G2 E4 | (3A2B2c2 "G"B2B2 G2B2 "F"A4 |
+"Am"A2c2 B2A2 A2G2 E4 | (3A2B2c2 "G"B2B2 G2B2 "Am"A4 |]
+T:Bal
+M:6/8
+L:1/16
+K:C
+E2 | A4 B2 "F"c4 B2 | "G"G6 G4 E2 | "F"A4 B2 "C"c4 B2 | "G"(G6 G4) :| 
+M:4/4
+L:1/16
+"Am"A2B2 A2G2 A2B2 A4 | "G"G2G2 "F"F2F2 E2D2 "Am"E2E2 |
+A2B2 A2G2 "F"A2B2 A4 | "G"G2G2 F2F2 E2D2 "Am"E4 |]
+T:Ton doubl
+M:4/4
+L:1/16
+K:G
+B2 | B2B2 c2B2 "D"A2A2 "G"G2B2 | B2B2 c2B2 "D"A4 "G"G4 :|
+"Am"A4 A2A2 G2F2 "G"E4 |: E2F2 "Em"G2E2 "D"F2G2 "F"A4 |
+A2c2 "G"B2A2 G2G2 "Am"E4 :|
+S:https://www.folktunefinder.com/tunes/132380
+S:http://termen.free.fr/danses/cornouaille/PlinSuiteA.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

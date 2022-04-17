@@ -1,0 +1,23 @@
+X:40
+T: Ritter und Magd
+N: Q0055m
+O: Osteuropa, Ungarn (deutsch - ungarisch)
+N: Verselbstaendigter Vordersatz 
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 6/8
+L: 1/16
+K: C
+G,2 | E4E2E2E2F2 | A3GG2G4
+E2 | A4G2F4D2 | F6E4
+G,2 | E4E2E4F2 | A4G2G4
+E2 | A4G2F4D2 | F6E4
+S:https://www.folktunefinder.com/tunes/132142
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

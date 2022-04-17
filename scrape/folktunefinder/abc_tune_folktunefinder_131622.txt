@@ -1,0 +1,33 @@
+X: 16
+T:How D'Ye Do Sir, Headington
+M:6/8
+L:1/8
+A:Headington
+P:A(A2B)4C
+K:F
+P:A
+Q:324
+g2c  d2B |G>AB A>GF|g2c  d2B |G>AG F2c||
+P:B
+Q:276
+M:9/8
+G>AB A2F2|G>AB A2F2|G>AB A2F2|
+Q:324
+M:6/8
+G>A=B c>dc|G>A=B c>de||
+P:C
+g2c  d2B |G>AB A>GF|g2c  d2B |G>AG F3 ||
+S:https://www.folktunefinder.com/tunes/131622
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

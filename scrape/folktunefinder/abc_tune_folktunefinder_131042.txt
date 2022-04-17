@@ -1,0 +1,40 @@
+X:267
+T:B267-  Labandala Shot
+Q:1/4=120
+M:3/4
+L:1/4
+K:Aphrygian
+F/2G/2|A2B|G3/2F/2G|F3/2G/2F::\
+_A/2B/2cc|B2B|z_AA|G3/2F/2G::\
+D/2_E/2FF|F3/2_E/2 D/2E/2|FF=E|F3/2G/2F:|\
+_E/2F/2GG|G3/2_A/2G|_A3/2B/2A||G2G|\
+G/2_A/2BB|B2B|z_AA|G3/2F/2G|\
+_A/2B/2cB|_A2B|G3/2F/2G|F/2=E/2F/2G/2_A/2B/2|\
+ccB|_A2B|G3/2F/2G|=A3/2B/2A|]
+S:https://www.folktunefinder.com/tunes/131042
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM2.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM2.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM2.ABC
+S:http://www.mudcat.org/olson/BM2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

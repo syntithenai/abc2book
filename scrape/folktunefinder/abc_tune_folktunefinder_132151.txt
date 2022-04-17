@@ -1,0 +1,25 @@
+X:49
+T: Wiedersehen an der Bahre
+N: Q0056E
+O: Mitteleuropa, Deutschland (BRD) , Baden
+R: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G4B4A2G2 | A4A4A4
+D2F2 | A6B2c4B2A2 | A8B4
+G4 | E2E2E2E2G4F2E2 | E4D2G2B4
+A2G2 | F3FA3Ad4c3F | A8G4
+G4 | E2E2E2E2G4F2E2 | E4D2G2B4
+A2G2 | F3FA3Ad4c3F | A8G4
+S:https://www.folktunefinder.com/tunes/132151
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, abschied, enttaeuschung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

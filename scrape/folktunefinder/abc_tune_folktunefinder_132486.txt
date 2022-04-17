@@ -1,0 +1,28 @@
+X: 18
+T:Old Woman Tossed Up, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB3C)4
+K:G
+P:A
+|:D|G2G GBd|efg dBG|AGA BAB|E2F G2:|
+P:B
+c|d2d Bcd|efg dBG|dcd Bcd|efg d3 |
+d2c Bcd|efg dBG|AGA BAB|E2F G2||
+P:C
+D|G3  G3 |(2GB d3|\
+(2ef g3|(2dB G3|AGA BAB|E2F G2||
+S:https://www.folktunefinder.com/tunes/132486
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

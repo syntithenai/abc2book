@@ -1,0 +1,25 @@
+X: 3
+T:Country Gardens, Fieldtown
+M:4/4
+L:1/8
+Q:1/4=150
+A:Fieldtown
+P:A(A2(BA)2)4
+K:G
+P:A
+gagf e2e2|dedc B2(3BBc)|d2G2 ABcA|B3A G4||
+P:B
+gfga f2d2|efge f2d2|g3(3efg a2ag|fgfe d4||
+S:https://www.folktunefinder.com/tunes/132471
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

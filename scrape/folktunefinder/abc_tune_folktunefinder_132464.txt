@@ -1,0 +1,36 @@
+X: 17
+T:Gallant Hussar, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:A(AB)2(AC)2
+K:G
+P:A
+|:D|G2B ABc|dBe c2A|GAB cBd|1G3 F2:|2G3 G2||
+P:B
+|:B/c/|dBd g2g|ecA c2B|ABc dBA| G3 F2D|
+G2B ABc|dBe c2A|GAB cBd| G3 G2:|
+P:C
+|:z|\
+M:3/8 
+L:1/8
+B2c|\
+M:6/8
+d2c B2d|g3  g3 |e2c A2B|\
+M:3/8 
+L:1/8
+c2c|\
+M:6/8
+ABc dBA| G3 F2D|
+G2B ABc|dBe c2A|GAB cBd| G3 G2:|
+S:https://www.folktunefinder.com/tunes/132464
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

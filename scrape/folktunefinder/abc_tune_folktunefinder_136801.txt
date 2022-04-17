@@ -1,0 +1,27 @@
+X:2
+T:Bay Tree
+C:Andy Cutting
+R:Waltz
+M:3/4
+L:1/8
+K:G
+B4 AB | d4 BA | G2 FG Ac |  B2 A4 |
+B4 AB | d4 BA | G2 FG AB | A6 | 
+B4 AB | d4 BA | G2 FG Ac |  B2 A4 |
+B4 AB | d4 BA | G2 FG AB | A4 GA || 
+B2 GD GB | c2 AF Ac | d2 BG Bd | e4 dc |
+B2 GB dB | c2 Ac ec | d2 BG Bd | e4 dc |
+B2 GD GB | c2 AF Ac | d2 BG Bd | e4 dc |
+B2 GB dB | c2 Ac ec | d2 BG Bd | e6||
+S:https://www.folktunefinder.com/tunes/136801
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/turner.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:100
+T:Mathew Briggs
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Set & half right & left -- same back down the midle & Allemande
+%%Page:10
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001175.html
+%%ID:00001175
+K:A dorian
+ABA a3 | gef g3 | cdc edc | B2g dBG | \
+ABA a3 | gef g3 | e3 de=f | edB A3 ::
+cdc e=fe | d2d ded | cdc edc | B2g dBG | \
+cdc edc  | deg a2g | e3  deg | edB A3 ::
+S:https://www.folktunefinder.com/tunes/134655
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Beaux of London City
+M:9/8
+C:
+S:Bacon (News)
+N:transposed from F to G
+A:Adderbury
+O:English
+R:Slip Jig
+%P:Ch(AB$^3$)$^6$
+P:A.(AB3)6
+%:
+%:
+K:G
+I:speed 450
+P:A
+|:\
+   D | G>GG BAG B<d D | G2G  B2A  G2 \
+   D | G>GG BAG B<d D | G>DG B2A  G2 :|\
+P:B
+%: the music demands a rest, but it is not in Bacon
+|:     d2c  BAG Bd2   | A2A  A2B  c3 |\
+       d2c  BAG B<d D | G>DG B2A  G2 :|
+S:https://www.folktunefinder.com/tunes/137243
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/beauxlc.lbG.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

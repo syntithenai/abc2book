@@ -1,0 +1,36 @@
+X: 6
+%%topspace 0cm
+T: 
+I: M-3Ghambo
+C: M-3
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: G
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"B>c d>B G2|
+"G"B>c d>B G>B| "D"A>B c>A F2| f>e d>c B>A| "G"G2 G4:|
+\
+|: "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"B>c d>B G2|
+   "C"g>f e3 g| "D"f>e "G"d4| "D"f>e d>c B>A| "G"G2 G4:|
+%%vskip 10pt
+P: second fiddle
+G>A B>G D>G| F>G A>F D2| d>c B>A G>F| G>A B>G D2|
+G>A B>G D>G| F>G A>F D2| d>c B>A G>E| D2 [B,4D4]:|
+\
+|: e>d c3 e| d>c B4| d>c B>A G>F| G>A B>G D2|
+   e>d c3 e| d>c B4| d>c B>A G>E| D2 [B,4D4]:|
+%%text 9/1/98.  Polska after Bagg Lars Johansson, Jarna.  From Margareta Koos.
+% ---------- page 4 ----------
+S:https://www.folktunefinder.com/tunes/133013
+S:http://roaringjelly.org/music/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Misc.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

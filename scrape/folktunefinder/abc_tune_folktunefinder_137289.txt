@@ -1,0 +1,23 @@
+X: 10
+T:Bobbing Joe, Badby
+M:6/8
+L:1/8
+A:Badby
+P:A(AB)4A
+K:Am
+P:A
+|:Bc|A2e e2d|efe dcB|A2B c2d|e2c A:|
+P:B
+|:Bc|BdB G3 |BdB GAB|A2B c2d|e2c A:|
+S:https://www.folktunefinder.com/tunes/137289
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 17
+T:Baillez-li
+R:Bourre  2 temps
+C:Trad.
+O:France
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:76
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+c>B ce | dc BG | d>c df | edc2 | c>B ce | dc Bd/2e/2 | fe/2d/2 AB | c4 ::
+B>d Bd | cd ed | B>d Bd | cBA2 | B>d Bd | cd ed/2e/2 | fe/2d/2 AB | c4 :|
+%%footer $D   Galouvielle-MBe 2005 \nBourre  2 temps France
+S:https://www.folktunefinder.com/tunes/132081
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

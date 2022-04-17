@@ -1,0 +1,39 @@
+X:36
+T:Hirtenmadl
+R:Rheinlnder
+O:
+A:
+S:
+B:
+Z:transcription : <anamnese@laposte.net>
+N:
+N:
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+V:1
+d | .g.d.B.d | c>d cd | fedc | B>d Bd | e3e | d3d | c>Bcd |
+ Bgdd | e3e | d3g |f>d ef | ggg :|\
+K:C
+G | .c.G.E.G | F>G FG | 
+BAGF | E>G EG | A3A | G3E | F>Eed | EcGG | A3A | G3c | B>GAB | ccc |]
+V:2
+d | .B.B.G.B | A>B AB | dcBA | G>B GB | c3c | B3B | A>GAF | GABB | c3c |
+ B3B | c>c cd/c/ | BBB:|\
+K:C
+G | Ee/f/ ge | df/e/ dB | dcBA | G/B/c/e/ ge/d/ | (cf)fc/d/ | (cg)gc |
+BB/c/ dB | c/B/c/d/ ed | (cf)fc/d/ | (cg)gc | GF/E/ FG | EEE |]
+%-------------
+%Annexe :
+S:https://www.folktunefinder.com/tunes/132664
+S:http://anamnese.online.fr/abc/germania.abc
+% Rhythm Rheinlnder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

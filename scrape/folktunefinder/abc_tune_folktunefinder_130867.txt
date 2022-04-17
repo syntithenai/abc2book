@@ -1,0 +1,38 @@
+X:101
+T:B101-  The danger is over
+Q:1/4=120
+L:1/4
+M:6/4
+K:Dm
+A|d3/2e/2d^cAF|B3/2c/2BAFD|G3/2B/2AFDF|\
+AFAcAc|fccA3/2G/2F|(F3F2)A|c3/2d/2c(cG)G|\
+(G/4A/4B)c/2B(BE)F/2E/2|DFDFAF|AcAd3/2f/2e|(^c3c2)A|\
+e3/2f/2ed3/2c/2=B|c3/2=B/2A^G2B|(f=B)cB^F^G|^GEec3/2=B/2A|\
+(A3A2)||e/2d/2|^c3/2d/2eAd=c|=B3/2A/2B(cG)d|(ec)ef3/2e/2d|\
+gecc3/2d/2=B|(c3c3/2)d/2c|B3/2A/2BA3/2B/2A|G3/2A/2F(FG/2F/2E)|\
+(DF/2E/2D) (ef/2e/2d)|(^c3c3/2)=B/2A|d3/2d/2efA^c|dGABEG|\
+ADAF3/2E/2D|(D3D2)|]
+S:https://www.folktunefinder.com/tunes/130867
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

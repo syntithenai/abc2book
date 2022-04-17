@@ -1,0 +1,28 @@
+X:6
+T: Todlen Hame
+N: HA006
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge, weggelassen, Auftakt zu Beginn vereinfacht: 2 16tel, anstatt 16t
+N: a--av-b--av-av'av-av'av-
+M: 6/8
+L: 1/16
+K: A
+AB | c3BA2F3GA2 | E3FA2B4
+AB | c3BA2F3GA2 | E3FA2A4
+A2 | d3ed2c4c2 | B3cdcB4
+AB | c3BA2F3GA2 | E3FA2A6
+c3BA2F3GA2 | E3FA2B4
+AB | c3BA2F3GA2 | E3FA2A6
+c3BA2F3GA2 | E3FA2B4
+AB | c3BA2F3GA2 | E3FA2A4 |
+S:https://www.folktunefinder.com/tunes/135701
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

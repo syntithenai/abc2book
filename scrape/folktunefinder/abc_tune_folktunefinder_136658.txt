@@ -1,0 +1,37 @@
+X:39
+T:To live is to die (intro)
+R:
+C:Metallica
+H:
+N:
+A:
+B:
+D:And justice for all...
+O:USA
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=56
+K:D treble
+%%staves (1 2)
+%%MIDI transpose -12
+V:1
+%%MIDI program 24
+z4 [B=c'][eb]d'{bd'}[fb] |: [Bdfb][Bd] [dfb]f/d/z/ d/f/z/ [B3/2d3/2f3/2b3/2][g/d'/] |\
+[dfad']dd'f [d/f/][d/g/](3[d/4f/4]g/4f/4e/ [B/e/e/][B/e/f/][Bee']|
+z FE[eg] [eg][db][db][ee'] | [Begbe']e e'[e/b/][e/b/] [B=c'][eb]d'{bd'}[fb] :|
+[Bdfb][Bd] [dfb]f/d/z/ d/f/z/ [B3/2d3/2f3/2b3/2][g/d'/] |\
+[dfad']dd'f [d/f/][d/g/](3[d/4f/4]g/4f/4e/ [B/e/e/][B/e/f/][Bee']| z8 ||
+V:2
+%%MIDI program 24
+!crescendo(! z4 G2 [GB]z !crescendo)!|: [B,3F3] B B,z/B,/- B,B, | [D2A2]>>A2 z4 | 
+E,8 | E,E,2 [GB] G2 [GB]z :|
+[B,3F3] B B,z/B,/- B,B, | [D2A2]>>A2!diminuendo(! z4 !diminuendo)!| x8 ||
+S:https://www.folktunefinder.com/tunes/136658
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

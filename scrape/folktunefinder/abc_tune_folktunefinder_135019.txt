@@ -1,0 +1,26 @@
+X:190
+T:Dublin Reel, The
+T:Jackson's
+R:reel
+E:7.5
+M:C|
+I:speed 350
+K:D
+dF~F2 dedc|dF~F2 AFEF|dF~F2 dfed|cABF AFEF|\
+dF~F2 dedc|dF~F2 AFEF|d3c dfed|cABF AFEF||*
+eA~A2 eAfA|eA~A2 BAFA|eA~A2 egfe|dBcA BAFA|\
+eA~A2 eAfA|eA~A2 BAFA|~e3d egfe|dBcA BAFA||*
+d3c dF~F2|dedB AFEF|d3c dfed|cABF AFEF|\
+d3c dF~F2|dedB AFEF|dcdf egfe|dABc d3z||**
+S:https://www.folktunefinder.com/tunes/135019
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

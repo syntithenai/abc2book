@@ -1,0 +1,30 @@
+X:2
+T:Donncha Lynch's
+T:(Ballydesmond Polka)
+M:2/4
+L:1/8
+R:polka
+K:A dor
+P:A
+|: "Am"A>B AG | EF GE | "C"A>B AG | "D"Ad d/e/d/c/ |
+   "Am"A>B AG | EF GE | "C"AB cE | "D"ED D2 :|
+P:B
+|| "D"ed d2 | "C"ed c2 | "D"ed ^cd | "Am"ea a/b/a/g/ |
+   "D"ed d2 | "C"ed c>B | "Am"AB ^cd | ef g>f ||
+   "D"ed d2 | "C"ed c2 | "D"ed ^cd | "Am"ea a/b/a/g/ |
+   "D"e/f/g dB | "C"ced>c | "Am" ABcE | "D"ED D2 |]
+N:HOI - abc by Peter Ostapenko.
+N:chords from Rick Johnson (02/23/08 playlist)
+N:Last update - PO 2/24/2008.
+N:A Dorian
+S:https://www.folktunefinder.com/tunes/134197
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DonnchaLynchs.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:6
+T: Ritter und Magd
+N: Q0055E
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Oberhessen, Kr. Alsfeld,
+N: Moeglicher Taktwechsel zum 2/4 angemerkt.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 3/4
+L: 1/16
+K: G
+D2G2A2 | B6A2B2c2 | d6
+B2c2d2 | e4d4c4 | B4z2
+GAB2d2 | c6d2B2d2 | A4z2
+GAB2d2 | B6d2A4 | G4z2
+S:https://www.folktunefinder.com/tunes/132108
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

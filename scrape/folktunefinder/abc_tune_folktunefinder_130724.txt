@@ -1,0 +1,20 @@
+X:200
+T:Oy Na Hori Monastyr
+L:1/8
+M:C
+O:Ukraine
+Q:70
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000664.html
+%%ID:00000664
+K:D dorian
+A A G B A A d z | A A ^G B A2 d z | \
+F F E E D D ^C2 | F F E E D2 D z |]
+S:https://www.folktunefinder.com/tunes/130724
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

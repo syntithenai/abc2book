@@ -1,0 +1,23 @@
+X: 3
+T:Ballantyne's Reel
+M:4/4
+L:1/4
+Q:120
+Z:C.G.P
+K:G
+|:Bc|d^c/d/ed|BBBA|GF/G/AG|E2AB|
+c/B/A/B/ c/B/A/B/|fffe|d^c/d/ed|B2Bc|!
+d^c/d/ed|BBBA|GF/G/Bd|e3f|g>gfe|edd2|d/^c/=c/A/EF|G2:||!
+:Bc|dBeB|dBeB|dBg/f/e/d/|c3A/B/|
+cAfA|cAff/g/|a/g/f/e/ e/d/^c/d/|eBBB/c/|!
+dBeB|dBeB|gf/g/ a/g/f/g/|e2ef|g>gfe|edd2|d/^c/=c/A/EF|G2:||!
+S:https://www.folktunefinder.com/tunes/133099
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/BallantynesReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:116
+T:B116-  Diana's a nymph
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dm
+A|ddA|F2D|B3/2A/2d|^c2d|\
+e3/2f/2e|d=Bc|A3/2=B/2^G|A2A|\
+c3/2d/2c|(d/2c/2) (B/2A/2) (G/2F/2)|G3/2A/2B|A2c3/4c/4|\
+f3/2e/2d|AAc|F3/2G/2E|F2||A|\
+c3/2=B/^c|dd=B|e3/2f/2e|^c2f3/4e/4|\
+ddz/2=B/2|^cAf/2e/2|d3/2e/2^c|.d2|]
+S:https://www.folktunefinder.com/tunes/130882
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:2
+T:Bal
+G:Skol Al Louarn
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+P:B5
+M:12/8
+%%MIDI program 109
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:C
+P:B
+Q:C3=60
+%%MIDI gchord fzzfzzfzzfzz
+|: "G"G3 GAB "C"c3 "Em"He3 | "Am"cde "Dm"d2 c/2B/2 "F"A3 "G"HG3 :|
+Q:C3=156
+%%MIDI gchord fzcfzcfzcfzc
+|: "C"e2 e"G" d2 f "Am"e2 d "F"c3 |1 "Dm"dcB "F"A2 B cBA "G"G3 :|2\
+ "G"dcB "F"A2 B "C"c3 c3 ||
+S:https://www.folktunefinder.com/tunes/132382
+S:http://kazimodal.trad.org/partitions/gavottes/Skol_Al_Louarn_2/gavotte.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

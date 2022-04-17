@@ -1,0 +1,23 @@
+X: 7
+T:Shepherds' Hey, Fieldtown
+M:4/4
+L:1/8
+A:Fieldtown
+P:A(AB2)4
+K:G
+P:A
+|:G|BcdB c2c2|B2d2 A4|BcdB c2Bc|d2D2 G3:|
+P:B
+|:G|B2B2 c4  |B2B2 A4|B2AB c2Bc|d2D2 G3:|
+S:https://www.folktunefinder.com/tunes/132475
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

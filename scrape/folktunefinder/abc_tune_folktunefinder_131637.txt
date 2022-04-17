@@ -1,0 +1,30 @@
+X: 31
+T:Leapfrog, Headington
+M:4/4
+L:1/8
+A:Headington
+P:A(AB)4
+K:G
+P:A
+Q:324
+GFGA G2B2|AGFG A4  |GFGA G2B2|AGFE D4|
+G2GE D2G2|F2E2 D2c2|B2G2 A2F2|G4   G2||
+P:B
+Q:261
+|:(3DEF|G2(3DEF G2D2|B2 (3G,A,B, C2:|
+  (3DEF|G2(3DEF G2D2|B2 (3G,A,B, C2 |
+  (3DEF|G2(3DEF G2G2|\
+Q:324
+AGAc BAG2 ||
+S:https://www.folktunefinder.com/tunes/131637
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

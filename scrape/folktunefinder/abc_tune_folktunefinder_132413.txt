@@ -1,0 +1,28 @@
+X:12
+T:Old Molly Oxford (Step Back)
+S:Bacon (MDT)
+A:Field Town
+O:English
+R:Reel
+P:A(A2B2)2A2
+M:2/2
+L:1/8
+K:D
+P:A
+d2 cd e2 f2 | e2 dc Bc d2 | c2 A2 B2 G2 | A2 AG FG A2 | 
+d2 (3edc B2 AG | F2 A2 d4 | F2 (3FED E2 C2 | D4 D4 |]
+P:B
+AGFE D2 EF | G2 A2 B2 c2 | dcBA G2 A2 | Bcdf e2 ce | 
+d2 Bd c2 A2 | BGEF G2 B2 | AGFE D2 EF | G4 G4 |]
+S:https://www.folktunefinder.com/tunes/132413
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

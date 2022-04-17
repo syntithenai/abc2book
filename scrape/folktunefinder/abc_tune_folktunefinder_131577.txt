@@ -1,0 +1,27 @@
+X: 8
+T:Johnny's So Long at the Fair, Bampton (ALP)
+T:Oh Dear, What Can the Matter Be, Bampton (ALP)
+M:6/8
+L:1/8
+A:Bampton
+P:A(AB2)4
+Q:100
+K:G
+P:A
+D|G>AG G>Bd|e>ge d>BG|A>GA B>AG |E>FE E2D|
+G>FG G>Bd|e>ge d>BG|A>BA E2{FE}D|D>EF G2 ||
+P:B
+z|d>ed d>Bc|d>ge d>BG|{cd}c2c {cd}c>Ac|c>AB c>BA|
+d>ed d>Bc|d>ge d>BG|A>cB A>GF|G3 G2||
+S:https://www.folktunefinder.com/tunes/131577
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

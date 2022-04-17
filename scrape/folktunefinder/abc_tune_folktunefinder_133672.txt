@@ -1,0 +1,29 @@
+X:1
+T:O'Keeffe's No.2
+C:Traditional
+N:Play last 8 bars,
+N:then three times through
+N:The Cashel Set, figure 1, tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Slide
+M:12/8
+L:1/8
+K:G
+B2 B cBc d3 d2 e | dBG dBG A3 AGA |\
+B3 cBc d3 d2 g | fed cBA G3 G3 :|
+g2 d B2 g f2 c3 | ded c2 A ded B2 d |\
+g2 d B2 g f2 c2 B | ABc def g3 g3 :|
+S:https://www.folktunefinder.com/tunes/133672
+S:http://theflow.org.uk/text/flow_cashel.txt
+S:http://www.theflow.org.uk/text/flow_cashel.txt
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 9
+T:Unknown 1
+M:4/4
+L:1/8
+Q:120
+R:March
+K:A
+c/2B/2|"A"Aa ae c2 Ae/2d/2|ce A/2B/2c/2e/2 "E"cB Bc/2B/2|
+"A"Aa ae c2 Ae/2d/2|ce "E"Be/2d/2 "A"c AA:||!
+e|"A"cB/2A/2 eA "D"fA "A"eA|cB/2A/2 eA "D"f/2e/2d/2c/2 "E"Be|
+"A"cB/2A/2 eA "D"fA "A"eA|ce "E"Be/2d/2 "A"cA Ae|!
+"A"cB/2A/2 eA "D"fA "A"eA|cA ea "D"fB "E"Be|
+"A"a/2g/2f/2e/2 ae c2 Ae/2d/2|ce "E"Be/2d/2 "A"cA A|
+S:https://www.folktunefinder.com/tunes/136560
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

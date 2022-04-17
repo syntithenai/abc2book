@@ -1,0 +1,28 @@
+X:15
+T:Highland Mary
+S:Bacon (MDT)
+A:Bampton
+O:English
+R:Reel
+P:A(AB2)4
+Q:1/2=96
+M:4/4
+K:G %Transposed from A
+P:A
+(3DEF| G2 AGFED2 | G2 ABc2Bc| d2 dedcBA | G2 B2D3 E/2F/2 |
+G2 AGFED2 | G2 ABc2Bc| d2 dedcBA | G2 F2G2 |]
+P:B
+z2 | GABc d2d2 | ed dB(3cdc BA| d2 dedcBA | GABG D3 E/2F/2 |
+G2 AGFED2 | G2 ABc2Bc| d2 dedcBA | G2 F2G4 |]
+S:https://www.folktunefinder.com/tunes/131541
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

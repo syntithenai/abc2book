@@ -1,0 +1,25 @@
+X: 15
+T:Buffoon, Adderbury
+M:2/2
+L:1/8
+A:Adderbury
+P:A(AB)5A
+K:F
+P:A
+F3G  AGFG|A2c2 c4  |F3G  AGFG|A2G2 G4|
+F3G  AGFG|A2c2 c4  |c2BA G2cB|A2F2 F4||
+P:B
+d3e  d2c2|d2F2 F4  |d3e  d2c2|d2F2 F4|
+d3e  d2c2|B3c  B2A2|c2BA G2c2|A2F2 F4||
+S:https://www.folktunefinder.com/tunes/137273
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Adderbury.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Adderbury.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Adderbury.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

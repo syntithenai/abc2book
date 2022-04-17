@@ -1,0 +1,265 @@
+X:1
+T:Ballo Primo
+T:for Theorbo and Basso continuo
+C:G. Kapsberger, 1640
+Z:abc transcription by Christoph Dalitz
+L:1/4
+K:DM
+%
+%%indent 2.0cm
+%%tabrhstyle diamond
+%%tabfontitalian Borrono
+%%tabfontsize 12
+%%gchordfont ZapfChancery-MediumItalic 16
+%
+V:T clef=italian7tab name=Theorbo bracket=2
+V:B clef=bass        name=Basso
+%
+Q:"Uscita"
+%
+[V:T] [M:C] [abd,a1] [dd,,c/]b [a,,,d1] [,ba,a] |\
+    [d,,c1] ,,,,,a/,,d ,,f1 [,,d,,c] |\
+    [a,b,,d1] [a,b,,a] [a,b,,d] [,,a,a/]a |\
+    [,e,,c1] {9}/a c1 ,a |
+[V:B] [M:C] d e f "6#"d |\
+    A>A A =B |\
+    c A c d |\
+    "#"e3 e |
+%
+[V:T] [d,,c1] [,d,,c] [a,,,d] [c,,ca] |\
+    [d,,,,d1] [c,,,a/]a [,d,,c1] [,a,,,d] |\
+    [,c,,,c/],e [aab,,a1] [aaa,c] ,e/,,d |\
+    [a,cc1] ,,,,c ,,,,,a2 ::
+[V:B] a e f "6#"d |\
+    c d e "6#"c |\
+    =B A "4  #"e2 |\
+    A4 ::
+%
+[V:T] [,,bcd1] [,db,c] [,bd,a] ,,,,,d/,,,,,b |\
+    [a,b,,a1] b/a [,d,,c1] [a,,,d] |\
+    [,bb,,a1] ,,,,,b [,bba,d] ,a/b |\
+    [ab{8}3/2] d/ [a,,,d1] ,b |
+[V:B] f "6"e d c/B/ |\
+    A>A e f |\
+    A B c2 |\
+    F3 F |
+%
+[V:T] [,a,a,d1] [,c,c] [,d,d{a}] [,b,c/] [,a,a] |\
+    [,b,,a1] {10} ,b [,d,,c] |\
+    [a,,,d1] [,d,d{a}/],b [aad,,a1] ,,c/,d |\
+    "'/,"[acd,a1] ,,,,,a {10}2 :|
+[V:B] c c G G |\
+    d3 e |\
+    f G "4  #"A2 |\
+    "#"d4 :|
+%
+%%newpage
+%%vskip 2cm
+%
+Q:"Ballo"
+%
+[V:T] [M:C] f/ ,,f | [f,g,a1] [a,f,,e] [c,d,a/] [a,b] [,,abc1] |\
+    [aa,,,a/] c [d,,c1] [a,,,d] [,,dd] |\
+    [,,bcd1] ,,,,,a/ ,,,,,b [,b,a,d1] ,a/ b |\
+    [,,bcd1] ,,,,,d {8} ||
+[V:B] [M:C] d | d ^c d "#"e |\
+    A a f b |\
+    f A/B/ "4   3"c2 | F3 ||
+%
+[V:T] f/ ,,f | ,,g/ ,,,,a ,,,,,e ,,f [,,d,a] ,,b [,,a,c] ,,,b |\
+    [a,,,,a/] c d ,,,c ,,,,d a ,,d ,,,d |\
+    [d,,c/] ,,,,d ,,,,,a ,,,,,b ,,,,,d ,b ,a b |\
+    a/ ,b ,,b ,,,,d ,,,,,d {8} ||
+[V:B] d | d ^c d "#"e |\
+    A a f b |\
+    f A/B/ "4   3"c2 | F3 ||
+%
+[V:T] [,a,,a/] ,b | [,a,a,d1] [,,,aab] [aa,,,a] [,c,c] |\
+    [bd,a1] {a}/ d ,,d1 ,,,,a/ ,a |\
+    [,b,c,a1] [,d,d{a}/] ,b [aad,,a1] ,,c/ ,d |\
+    [acd,a1] ,,,,,a {10} ||
+[V:B] d | c B "5   6#"A2 |\
+    G3 G |\
+    d A "4   3#"A2 |\
+    d3 ||
+%
+[V:T] [,a,,a/] ,b | ,,,,,d/ ,a ,,,a ,,,,,b ,,,,,a ,d ,c a |\
+    b/ ,,,a {a} d ,,d ,,,d ,,,,a ,a |\
+    ,b/ ,,,c [,d,d{a}] ,b [,a,,,a] ,,,,a [,ac,,a] ,,,a |\
+    ,,d/ ,,,c ,c ,,,,a ,,,,,a {10} |]
+[V:B] d | c B "5   6#"A2 |\
+    G3 G |\
+    d A "4   3#"A2 |\
+    d3 |]
+%
+%%newpage
+%%vskip 2cm
+%
+Q:"Gagliarda"
+%
+[V:T] [M:3] e1 f ,,f | [f,g,a3] d/ c a2 |\
+    [a,f,,e2] [c,d,a1] [a,b] [,,abc2] |\
+    [a,,c2] ,,,,,a1 ,d a c |\
+    [d,,c2] [a,,,d] [,,dd] |
+[V:B] [M:3] x d2 | d4 d2 |\
+    ^c2 d2 "#"e2 |\
+    A4 A2 |\
+    a2 f2 b2 |
+%
+[V:T] \
+    [,,bcd2] {8}1 b a2 |\
+    ,,,,,a1 ,,,,,b [,b,a,d2] [,a,a1] b |\
+    [,,bcd3] (,,,,c/ ,,,,a) ,,,,,d2 |\
+    {8}2 ,,,,d1 x1 || e1 f ,,f |
+[V:B] f4 f2 |\
+    AB "4   3"c3 c |\
+    F4 F2 |\
+    F4 || x d2 |
+%
+[V:T] ,,g1 a ,,d d/c a1 ,,,,a |\
+    ,,,,,e1 ,,f [,,d,a] ,,b [,,a,c] ,,,b |\
+    [a,,c1] ,,,,c ,,,,,a ,d a c |\
+    d1 ,,,c ,,,,d a ,,d ,,,d |
+[V:B] d4 d2 |\
+    ^c2 d2 "#"e2 |\
+    A4 A2 |\
+    a2 f2 b2 |
+%
+[V:T] ,,b1 ,,,,d ,,,c b a {8} |\
+    ,,,,,a1 ,,,,,b ,,,,,d ,b [,a,a] b |\
+    a1 ,b ,,b ,,,c ,,,,d ,,,,,d |\
+    {8}3 x1 || ,,,,a1 ,a ,b |
+[V:B] f4 f2 |\
+    AB "4   3"c3 c |\
+    F4 F2 |\
+    F4 || x d2 |
+%
+%%newpage
+%%vskip 2cm
+%
+[V:T] [,a,a,d2] {11}1 a ,d2 |\
+    [,,,aab2] [aa,,,a] [,c,c] |\
+    [bd,a2] {a}1 a b d |\
+    ,,d2 {a}1 ,,,,,d ,,,,a ,a |
+[V:B] c4 c2 |\
+    B2 A3 A |\
+    G4 G2 |\
+    G2 G2 G2 |
+%
+[V:T] [,b,ca2] {10}1 ,d a2 |\
+    [,d,d{a}1] ,b "'/,"[aad,,a2] ,,c1 ,d |\
+    "'/,"[acd,a3] d/c a2 |\
+    ,,,,a2 {10}1 x1 || ,,,,a ,a ,b |
+[V:B] d4 d2 |\
+    G2 "#"A3 A |\
+    d4 d2 |\
+    d4 || x d2 |
+%
+[V:T] ,,,,,d1 ,,,a ,a {11} a ,d |\
+    ,,,,,b1 ,,,,a ,a ,,,,,a ,c ,,,c |\
+    b1 ,,,a {a} a b d |\
+    ,,d1 ,,,d ,,,a {a} ,,,,a ,a |
+[V:B] c4 c2 |\
+    B2 A3 A |\
+    G4 G2 |\
+    G2 G2 G2 |
+%
+[V:T] ,b1 ,,,,a {10} ,d a ,,d |\
+    [,d,d{a}1] ,b [,ad,,a] a ,,c ,d |\
+    ,c1 a ,,d d/c a1 ,,,,a |\
+    ,c1 a ,c ,,,,a |]
+[V:B] d4 d2 |\
+    G2 "#"A3 A |\
+    d4 d2 |\
+    d4 |]
+%
+%%newpage
+%%vskip 2cm
+%
+Q:"Corrente"
+%
+[V:T] [M:3] ,,g1 | [f,g,a1]>,,i ,,g1 |\
+    [a,f,,e1] [c,d,a/] ,,b [,,abc1] |\
+    [a,,,,a1] ,,,c/cac |\
+    [d,,c1] [a,,,d] [,,dd] |\
+    [a,b,d1] {8}/ ,,d ,,b1 |
+[V:B] [M:3] d | d2 d |\
+    ^c d "#"e |\
+    A2 A |\
+    a f b |\
+    f2 f |
+%
+[V:T] ,,,,,a/,,,,,b [,a,a,d3/2] (,,,,a//,,,,c |\
+    ,,,,d1)>b a1 |\
+    ,,,,,d1 {8} || ,,g |\
+    f/ a ,,,,a ,,i ,,g f |\
+    ,,f/ ,,,,,e [,,d,a] ,,b [c,,b] ,,,,c |\
+    ,,,,,a/ ,a ,,,c c a c |
+[V:B] A/B/ c>c |\
+    F2 F |\
+    F2 || d |\
+    d2 d |\
+    ^c d "#"e |\
+    A2 A |
+%
+[V:T] d/ ,,,c ,,,,d ,,b ,,d ,,,d |\
+    ,,,c/ ,,,,d {8} ,,d ,,b ,b |\
+    ,,,,,a/ ,,,,,b ,,,,,d ,,,a ,a (,,,,a//,,,,c |\
+    ,,,,d/) ,,b ,,,c b a d |\
+    ,,,,d/ ,,,,,a ,,,,,d {8} || [,a,,a/] ,b |
+[V:B] a f b |\
+    f2 f |\
+    A/B/ c>c |\
+    F2 F |\
+    F2 || d |
+%
+[V:T] [,a,a,d1] {11}/ ,b ,a1 |\
+    [,,,aab1] [aa,,,a] [,c,c] |\
+    [bd,a1] {a}/d b1 |\
+    {a}1 ,,d ,,,,a/,a |\
+    [,b,ca1] {10}/,d ,b1 |
+[V:B] c2 c |\
+    B "5  6#"A2 |\
+    G2 G |\
+    G2 G |\
+    d2 d |
+%
+%%newpage
+%%vskip 2cm
+%
+[V:T] [,d,d{a}/] ,b [aac,,a3/2] (,,a//,,c |\
+    ,,d1) ,,,,a/ ,d ,c1 |\
+    ,,,,a1 ,,,,,a || [,a,,a/] ,b |\
+    ,d/ ,a ,,,,,d {11} ,b ,a |\
+    ,,,,,b/ ,,,,a [a,,,,a] ,a ,c ,,,c |\
+    ,d/ b ,,,a {a} d b |
+[V:B] G "#"A>A |\
+    d3 |\
+    d2 || d |\
+    c2 c |\
+    B "5  6#"A2 |\
+    G2 G |
+%
+[V:T] ,,,a/ ,,d b ,d ,,,,a ,a |\
+    ,b/ ,,,c ,,,,a {10} ,d ,b |\
+    [,d,d{a}/] ,b [,a,,,a] a ,,,c (,,a//,,c |\
+    ,,d/) ,,,c ,c ,,,,a ,,,,,a {10} |\
+    ,,,,a ,c ,,d ,,,c |]
+[V:B] G2 G |\
+    d2 d |\
+    G "#"A>A |\
+    d3 |\
+    d2 |]
+%
+%%vskip 1cm
+%
+W:From "Libro Quarto di Intavolatura di Chitarrone", Rome 1640
+W:A facsimile edition is available from S.P.E.S.
+S:https://www.folktunefinder.com/tunes/133904
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Kapsberger/suite.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Kapsberger/suite.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

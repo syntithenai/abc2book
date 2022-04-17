@@ -1,0 +1,37 @@
+X:403
+T:B403-  The Royal Ball
+Q:1/4=120
+L:1/4
+M:4/4
+K:Dm
+A|d3/2f/ed|^c3c|d(c/B/)^c3/2d/|e3e|\
+A/=B/ c/B/ (B/4c/4d/) (c/B/)|&G3E|(A/c/) (d/e/) (d/c/) (=B/A/)|\
+A3||A|c(B/A/)c3/2 f/|d3(e/f/)|f(d/e/) (f/e/) (d/c/)|c3e|\
+fA(d/c/) (=B3/4c/4)|B2(e/f/) e/d/|\
+(^c/e/) (d/e/) (f/e/) (d3/4c/4)|d3|]
+S:https://www.folktunefinder.com/tunes/131199
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM4.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM4.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20021201120256/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM4.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM4.ABC
+S:http://www.mudcat.org/olson/BM4.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM4.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

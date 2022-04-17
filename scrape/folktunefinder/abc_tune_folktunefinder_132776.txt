@@ -1,0 +1,32 @@
+X:12
+T:La Marguerite
+C:Philippe Prieur
+R:Valse
+A:France
+M:3/4
+L:1/4
+K:Gm
+%%staves [1 2 3]
+V:1
+GBd | g2{GBdg}a | MgdB | f3{dBfdB} | fMed | e2c | cde | eMdB ||
+GBd | g2{GBdg}a | MgdB | f3{dBfdB} | fMed | e2c | cde | Md3 ||
+BAG | A3{BAGAB} | cBA | B3{cBABc} | GAB | e2d | dAc | cBA || 
+BAG | A2A/B/    | cBA | B3        | GAB | _e2Md | c>BA | G3 |]
+V:2
+GBd | g/G/ B/d/ g/a/ | MgdB | f3 | fed | e/c/ A/c/ e/c/ | cde | d/e/ d/c/ d/B/ ||
+GBd | g/a/ g/a/ g/a/ | MgdB | !breath!f3 | fed | e/g/ f/e/ d/c/ | cde | Md3 ||
+BG/A/ B/G/ | A!breath!A A/B/ | c/>B/ A/B/ c/A/ | B3 | G/d/ A/d/ B/d/ | e2Md | dAc | c>BA ||
+B/d/ A/d/ G/d/ | A/d/ ^f/a/ A/B/ | c/d/ B/d/ A/d/ | B/d/ g/G/ B/d/ | e/d/ c/^f/ =e/d/ | g/=f/ _e/d/ c/_B/ | AGA | G3 |]  
+V:3
+G3 | B2A | G3 | d3 | dcB | c2e | edc | cBd || G3 | B2A | G3 | d3 | def | e2c | cBA | B3 ||
+d3 | e3 | e=f^f | d3 | dcB | c3 | A2c | !breath!d3 || B3 | A3 | c3 | B3 | G3 | A3 | B2c | B3 |]
+S:https://www.folktunefinder.com/tunes/132776
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

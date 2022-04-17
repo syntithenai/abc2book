@@ -1,0 +1,29 @@
+X: 1
+T: Banks, The
+C: Scott Skinner
+D: The Boston College Fiddle Festival: My Love is in America, track #6, Andy McGann and Brian Conway
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Eb
+B,/C/D | E2 G2 G3 E | D2 F2 ~F3 D | [A,2E2] c2 c2 de | =ABcB _AGFE |
+| G,2 B2 B2 cd | A,2 c2 c2 de | DEFG AFDF | E{F}E G2 E2  B,/C/D|
+| E2 G2 G3 E | D2 F2 ~F3 D | [A,2E2] c2 c2 de | =ABcB _AGFE |
+| G,2 B2 B2 cd | A,2 c2 c2 de | DEFG AFDF | E{F}E D2 E2 ~g2 ||
+| g2 e2 e3 g | f2 d2 d3 f | e2 c2 c2 fe | dcB=A B2 fB |
+| DBfB DBfB | EBgB EBgB | =ABcd ecAc | B=ABc B_AGF |
+| EGBG eBFE | DFBF dFED | CEAE cBAG | (3FGF (3EFE DCB,A, |
+| G,EBE G,EBE | A,EcE A,EcE | DEFG AFDF | E{F}E D2 E2  {a}g^f|
+| g2 e2 e3 g | f2 d2 d3 f | e2 c2 c2 fe | dcB=A B2 fB |
+| DBfB DBfB | EBgB EBgB | =ABcd ecAc | B2 dc B_AGF |
+| EGBG eBFE | DFBF dFED | CEAE cBAG | (3FGF (3EFE DCB,A, |
+| G,EBE G,EBE | A,EcE A,EcE | DEFG AFDF | E{F}E G2 E2 B,/C/D ||
+S:https://www.folktunefinder.com/tunes/135577
+S:http://www.thesession.org/tunes/display/922
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

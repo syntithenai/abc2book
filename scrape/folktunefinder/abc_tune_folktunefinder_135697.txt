@@ -1,0 +1,26 @@
+X:2
+T: John Anderson
+N: HA002
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge weggelassen, letzte Zeile bei 7 => # weggelassen
+M: 2/2
+L: 1/8
+K: G
+F2 | D2G2G2A2 | B4B2
+c2 | A2F2F2F2 | F4z2
+F2 | D2G2G2A2 | B4B2
+c2 | d3cB2c2 | d4z2
+f2 | d3cB2d2 | f4e2
+d2 | c2B2A2B2 | c4z2
+c2 | d2B2c2A2 | B2G2A2
+F2 | D2G2BAGF | G6
+S:https://www.folktunefinder.com/tunes/135697
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

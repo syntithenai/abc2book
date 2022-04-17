@@ -1,0 +1,26 @@
+X:46
+T: The Brisk Young Lady 
+N: HA046
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge; Triller
+M: 6/8
+L: 1/16
+K: Gm
+D2 | G2A2G2B4Bc | d3cB2A4
+G2 | _F3GF2A4B2 | c2_f2d2c2A2
+F2 | G2A2G2B4Bc | d2c2B2A4
+c2 | d4G2G2A2F2 | G6G4
+A2 | B3cdef4gg | _f2d2B2f2d2
+B2 | _F3GF2A4AB | c2_f2d2c2A2
+F2 | B3cde_f4gg | _f2d2B2f2d2
+=f2 | g4G2G2A2F2 | G6G4
+S:https://www.folktunefinder.com/tunes/135741
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

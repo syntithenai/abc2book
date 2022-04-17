@@ -1,0 +1,22 @@
+X:22
+T:Jump at the Sun
+R:jig
+C:John Kirkpatrick
+O:England
+M:6/8
+L:1/8
+K:Dm
+"Dm" DFA ^G2 A | DFA ^G2 A | dAA dAA | "Gm" BAG "A" FGE |
+"Dm" DFA ^G2 A | DFA ^G2 A | "Dm" dAA "Gm" BAG | "A" FGE "Dm" D3 :|
+"Dm" dAA def | "A" eAA gfe | "Dm" dAA def | "A" eAA B2 A |
+"Dm" dAA def | "A" eAA gfe | "Dm" dAA "Gm" BAG | "A" FGE "Dm" D3 :|
+S:https://www.folktunefinder.com/tunes/134743
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+S:http://sf.ccewest.org/music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

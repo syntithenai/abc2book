@@ -1,0 +1,31 @@
+X:8
+T:Suite d'Hanter Dro (2)
+R:Hanter Dro
+%C:Trad.
+O:France
+A:Bretagne
+Z:<anamnese@laposte.net>
+N:tagafolk.abc
+M:3/4
+L:1/8
+Q:1/4=85
+K:C
+P:[1]
+ee/f/ {eg}ed c2 | ed/c/ BB/d/ c>A | e/d/e/f/ {eg}ed c2
+|1 ed/c/ BB c>A :|2 ed/c/ BB c2 |
+P:[2]
+AA/B/ c/B/c/d/ e2 | cd/e/ fd/f/ e2 | cd/e/ fe d>B | de/d/ cB cB/c/ |
+AA/B/ c/B/c/d/ e2 | cd/e/ f/g/a/f/ e2 | cd/e/ fe d>B | de/d/ cB A2 |]
+S:https://www.folktunefinder.com/tunes/130543
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Rhythm Hanter dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

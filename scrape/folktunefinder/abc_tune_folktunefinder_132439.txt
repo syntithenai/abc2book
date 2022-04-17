@@ -1,0 +1,27 @@
+X: 18
+T:William and Nancy, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:A(AB)2(AC)2
+K:G
+P:A
+|:D|G2G GBd|e2e dBG|A2d BAG|E2F G2:|
+P:B
+|:d|e2d B2d|gfe d2d|e2d B2d|gfe d2c|
+B2B Bcd|e2e dBG|A2d BAG|E2F G2:|
+P:C
+|:zd3|e3 d3|B3 d3|(2gf e3|d3 d3|e3 d3|B2d|
+gfe d2c|B2B Bcd|e2e dBG|A2d BAG|E2F G2:|
+S:https://www.folktunefinder.com/tunes/132439
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

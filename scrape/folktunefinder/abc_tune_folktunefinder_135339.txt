@@ -1,0 +1,25 @@
+X: 1605
+T: The Echo
+M:C|
+L:1/8
+R:Hornpipe
+B:O'Neill's 1605
+N:"Collected by Tobin."
+Z:Transcribed by Michael D. Long, 10/02/98
+K:D
+T(fe) \
+| d>AF>A D2 (F>A) | d>fe>c d>cB>c | A2 c>e A2 c>e | (3(fga) e>f d>cB>A |
+| d>AF>A D2 (F>A) | d>fe>c d>cB>c | T(gf)g>b a>fd>f | e>AB>c d2 :|
+|: z2 \
+| d>(g (3{a}gfg) b>(g (3{a}gfg) | (3(gag) b>g a>gf>g | A2 c>f A2 c>f | (3(fga) e>f d>cB>A |
+| d>(g (3{a}gfg) b>(g (3{a}gfg) | (3(gag) b>g a>gf>a | Tg>fg>b a>fd>f | e>AB>c d2 :|
+S:https://www.folktunefinder.com/tunes/135339
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1577-1624_ml.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

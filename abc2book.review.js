@@ -65,8 +65,8 @@ function renderReviewList() {
       if (Array.isArray(tunes)) {
         tunes.map(function(tune) {
           //console.log('renderT',tune)
-          if ((searchFor.length === 0) || (tune.name && tune.name.toLowerCase().indexOf(searchFor) !== -1)) {
-            tuneList.append($('<li class="list-group-item" onClick="setReviewItem('+counter+')"  >'+tune.name+'</li>'))
+          if ((searchFor.length === 0) || (getTuneName(tune).toLowerCase().indexOf(searchFor) !== -1)) {
+            tuneList.append($('<li class="list-group-item" onClick="setReviewItem('+counter+')"  >'+getTuneName(tune)+'</li>'))
           }
           counter++
         })
@@ -231,9 +231,9 @@ function playCurrentSong(skipVoice = false)  {
   $('#reviewstopallbutton').show()
   $('#reviewforcestop').val('')
   var tune = getCurrentReviewTune()
-  if (tune && tune.name) {
+  if (tune ) {
     if ($('#reviewforcestop').val() !== "true") {
-      if (!skipVoice) speak(tune.name, {speed: 140, amplitude: 120} )
+      if (!skipVoice) speak(getTuneName(tune), {speed: 140, amplitude: 120} )
       setTimeout(function() {
         if ($('#reviewforcestop').val() !== "true") {
           reviewStartPlaying(reviewRenderResult, tune)
@@ -370,8 +370,8 @@ function getBeatsPerBar(meter) {
 }
 
 function getMillisecondsPerMeasure(tune) {
-   var meter = tune.meter ? tune.meter : '4/4'
-   meter = timeSignatureFromTuneType(tune.type)
+   var meter = ensureText(getTuneMeter(tune), '4/4')
+   //meter = timeSignatureFromTuneType(tune.type)
    var beats = getBeatsPerBar(meter)
    var tempo = getTempo(tune) 
    console.log('beats',beats, meter, tempo, tune)
@@ -379,8 +379,8 @@ function getMillisecondsPerMeasure(tune) {
 }
 
 function getMillisecondsPerMeasureForTempo(tempo, tune) {
-   var meter = tune.meter ? tune.meter : '4/4'
-   meter = timeSignatureFromTuneType(tune.type)
+   var meter = ensureText(getTuneMeter(tune), '4/4')
+   //meter = timeSignatureFromTuneType(tune.type)
    var beats = getBeatsPerBar(meter)
    console.log('beats',beats, meter, tempo, tune)
    return 60000/tempo * beats

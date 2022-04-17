@@ -1,0 +1,31 @@
+X:1
+T:Avant-deux de Bazouges : Titine
+Z:Roger Ngaret (95)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=120
+M:4/4
+L:1/8
+K:C
+B | "G"BAG D2 D | "D"EFE "G"D2 G | GFG "D"A2 A |1\
+AGA "G"B2 :|2 "D"ABA "G"G2 |: G | GFG "D"A2 A | AGA "G"B2 G |\
+GFG "D"A2 A | ABA "G"G2 :|
+%%rm
+%%rm  Titine allons-y, Titine allons-l,
+%%rm  La fougre est grande, la fougre est grande,
+%%rm  Titine allons-y, Titine allons-l,
+%%rm  La fougre est grande, personne nous verra.
+%%rm
+%%rm  La fougre est grande, la fougre est grande, ]
+%%rm  La fougre est grande, personne nous verra.   ] bis
+S:https://www.folktunefinder.com/tunes/130434
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesTitine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

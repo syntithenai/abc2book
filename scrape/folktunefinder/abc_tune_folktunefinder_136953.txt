@@ -1,0 +1,27 @@
+X:100
+T: Two Birds on a Tree
+S: "Treoir"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G
+DE/G/ | A2 BA EAAA | Bc/d/ AB G2 AG | GAAA BAGA |\
+(3BAB de gedB |
+A2 BA EAAA | Bc/d/ AB G2 AG | GAAA BAGA | BA/B/ dB A2 :|
+dc|BA/G/ Bd g2 ga|ba/g/ ag/f/ gedc|BA/G/ Bd g2 ga|\
+ba/g/ af/g/ gfga|
+bagb agef | gedB AE ED/E/ | GABd dBeb | dBAB G2 :|
+S:https://www.folktunefinder.com/tunes/136953
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

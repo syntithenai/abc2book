@@ -1,0 +1,16 @@
+X: 1
+T:Barcarolle
+M: 6/8
+L: 1/4
+Q: 1/2=100
+K: G
+ (Bc/2) (cB/2) | (B/2A/2c/2) (cB/2) | (B/2A/2c/2) (cB/2) | B3/2-B z/2 :| (de/2) (ef/2) |
+ (fg/2) (gf/2)| (fe/2) (ed/2) | d3/2-d z/2 | (de/2) (ef/2) | (fg/2) (gf/2) |  (fe/2) (ed/2) | g3/2-g/2 z/2 z/2 |]
+S:https://www.folktunefinder.com/tunes/135874
+S:http://homepages.inf.ed.ac.uk/s0570628/Music/lesson%2024.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

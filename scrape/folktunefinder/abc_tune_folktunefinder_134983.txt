@@ -1,0 +1,23 @@
+X:10
+T:My Darling Asleep
+R:jig
+E:10
+M:6/8
+I:speed 350
+K:D
+e|fdd cAA|BAG A2G|FAA def|gfg eag|\
+fdd cAA|BAG A2G|FAA def|gec d2:|*
+A|FAA ABA|FAA BAG|FAA def|gfg eag|\
+fdd cAA|BAG A2G|FAA def|gec d2:|**
+S:https://www.folktunefinder.com/tunes/134983
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

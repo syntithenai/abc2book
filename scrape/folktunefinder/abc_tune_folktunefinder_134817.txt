@@ -1,0 +1,23 @@
+X: 3
+T:Kerry Reel (Green Fields of Rosbeigh)
+M:4/4
+L:1/8
+Q:175
+R:Reel
+K:Bm
+BE(3EDE BAFA|ABde fded|BE(3EDE BAFA|(3BcB AF E2dc|BE(3EDE BAFA|ABde fded
+|BE(3EDE BAFA|BFAF E2FA:||
+(3Bcd ef g2fe|dB(3BAB dBAd|(3Bcd ef gfge|dBAF E2ef|gfga gfeg|fefg fedB|A
+Bde fgfe|dBAF E2FA:||
+% Output from ABC2Win  Version 2.1 h on 06/05/99
+S:https://www.folktunefinder.com/tunes/134817
+S:http://www.comhaltas.interweb.ie/media/abc/set6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

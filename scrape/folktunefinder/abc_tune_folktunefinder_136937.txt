@@ -1,0 +1,24 @@
+X:20
+T: Trip We Took Over the Mountain
+S: J.O'Sullivan
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: G
+D|DG G2 BG G2|A^G (3^GGG f2 =ga|gd d2 cA A2|\
+GBAG (3FED FD |
+DG G2 BG G2|A^G (3^GGG f2 =ga|gd d2 cA A2|GBAF G3 :|
+g|gd d2 g2 ag|=fdde f2 ga|gd d2 cA A2|GBAG (3FED FD |
+gd d2 g2 ag|=fdde f2 ga|gd d2 cA A2|GBAF G3 :|
+S:https://www.folktunefinder.com/tunes/136937
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

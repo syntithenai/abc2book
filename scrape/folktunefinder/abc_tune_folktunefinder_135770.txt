@@ -1,0 +1,27 @@
+X:5
+T:The California Hornpipe
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in A
+R:hornpipe
+M:4/4
+L:1/8
+K:G
+D2 | GFGA GBdf | gfag fedc | BdBG AcAF | GFAF D2EF |
+GFGA GBdf | gfag fedc | (3Bcd (3cBA (3GAB (3AGF | (3GFE (3DEF G2 ::
+FG | A2 cB (3ABG (3FGE | D2 d2 (3dec (3BcA | G2 gf ed^ce | d^cde d2 FG |
+(3AFD (3BGE (3cAF (3dBG | (3ecA (3fdB g2 fe | (3dgf (3edc (3Bed (3cBA | (3GFE (3DEF G2 :|
+S:https://www.folktunefinder.com/tunes/135770
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

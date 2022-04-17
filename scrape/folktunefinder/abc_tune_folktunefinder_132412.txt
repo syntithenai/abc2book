@@ -1,0 +1,35 @@
+X:11
+T:Lumps of Plum Pudding
+A:Field Town
+O:English
+S:Bacon (CJS (Mss))
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:AAB(CB)2
+K:G
+P:A
+B>AG gfg | dBG G2A | BAG GAB | AFD D2c |
+BAG gfg | def g2e | dBG ABc | d2B G3 |]
+P:B
+dfg dfg | dfg G2B | cAB cAB | cAB D2d |
+BAG gfg | def g2e | dBG ABc | d2B G3 |]
+P:C
+M:3/4
+B A3 G2 | g3f g2 | d B3 G2 | G4 A2 |
+B A3 G2 | B3 c d2 | A F3 D2 | (D4 D)c |
+M:6/8
+BAG gfg | def g2e | dBG ABc | d2B G3 |]
+S:https://www.folktunefinder.com/tunes/132412
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

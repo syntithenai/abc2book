@@ -1,0 +1,25 @@
+X:310
+T:High Reel, The
+T:Sandy Duff
+R:reel
+E:7
+M:C|
+I:speed 350
+K:AMix
+|a2fa eA~A2|cAeA cA~A2|a2fa eA~A2|Bcdc BG~G2|\
+a2fa eA~A2|(3Bcd ef g2fg|afge fded|Bcdc BG~G2||*
+|(3cBA eA fAeA|(3cBA eA cA~A2|(3cBA eA fAeA|Bcdc BG~G2|\
+(3cBA eA fAeA|(3Bcd ef g2fg|af(3gfe fded|Bcdc BG~G2||**
+\vfil
+\eject
+S:https://www.folktunefinder.com/tunes/135043
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

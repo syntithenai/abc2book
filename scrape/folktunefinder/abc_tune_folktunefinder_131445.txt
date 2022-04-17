@@ -1,0 +1,39 @@
+X:13
+T:Penttis Schottis
+%O:Sweden
+R:Schottis
+Z:Bob Wyttenbach 8/13/02 from NFF 2001 tunebook
+N:Nearly illegible notation "uppt efter band in The Northern Light Washington USA 1989-02-06"
+M:2/4
+L:1/16
+%Q:1/4=80
+K:Am bass
+V:1
+P:A
+D,2|:A,>B,CD E2E2|F>EFA E4|D>^CDB, =C>B,CA,|B,2E2 E>DCB,|
+V:2
+C,2|:E,>^G,A,B, C2C2|D>CDE C4|B,>A,B,^G, A,>G,A,E,|^G,2B,2 C>B,A,G,|
+V:1
+A,>B,CD E2E2|F>EFA E4|D>CB,A, ^G,>E,CB,|[1A,2A,2 A,3E,:|[2A,2A,2 A,3E||
+V:2
+E,>^G,A,B, C2C2|D>CDE C4|B,>A,^G,E, B,,2G,E,|[1({B,,}[C,2)E,2][C,2E,2] [C,4E,4]:|[2{B,,}[C,2E,2][C,2E,2][C,4E,4]||
+V:1
+P:B
+(A^G)A2 A2A2|A,>^CEG FED2|z2G^F G2G2|G,>B,DF E>DCD|
+V:2
+(^CE)E2 [C2E2][C2E2]|E,>A,^CE DA,F,2|z2B,A, B,2B,2|B,,>D,G,B, C>B,A,B,|
+V:1
+{^D}E2A,2 A,>B,C=D|(EA)A2 AEGF|E>DFE D>B,DB,|[1A,2A,2 A,3E:|[2A,2A,2A,4||
+V:2
+{B,}C2E,2 E,>^G,A,B,|(^CE)E2 ECED|C>B,DC B,2^G,E,|[1{B,,}[C,2E,2][C,2E,2] [C,4E,4]:|[2{B,,}[C,2E,2][C,2E,2][C,4E,4]||
+S:https://www.folktunefinder.com/tunes/131445
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001bass.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

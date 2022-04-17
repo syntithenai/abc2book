@@ -1,0 +1,25 @@
+X: 2
+T:B256-  John, come kiss me now
+M:C|
+L:1/4
+Q:1/4=120
+S:British Broadside Ballads and Their Music
+B: http://users.erols.com/olsonw/BM2.HTM
+K:G
+G3/2A/2BA/4G3/4|cEcB/2A/2|G3/2A/2 B/2A/2B/2c/2|dDd2|\
+G3/2A/2BA/4G3/4|c/2B/2c/2d/2 ed/2c/2|B/2c/2d/2B/2 A3/2G/2|\
+GG,G2|d2gf|e3f|gB/2c/2de|fggf|gd/2c/2BB|cDe/2B/2 A/2G/2|\
+ABAF|.G4|]
+% Output from ABC2Win  Version 2.1 f on 7/12/2002
+S:https://www.folktunefinder.com/tunes/131084
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/johnkiss.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/johnkiss.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

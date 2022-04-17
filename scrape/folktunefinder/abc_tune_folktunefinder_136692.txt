@@ -1,0 +1,17 @@
+X:1
+T:The Battleship of Maine
+M:4/4
+L:1/8
+K:C
+ z E| GG GG AG G2| GG GA G2 z G| AA AB c c2 c| dc BA G2 EF| G/2G/2 G2 FE B,B, D|\
+ C4 z2 z G| c3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009- c2 c B2 A|\
+ G4 z2 GG| c c2 Ac cA G| A G2 E C2 EF| G3.99999962500005/5.99999925000009 G3.99999962500005/5.99999925000009 G3.99999962500005/5.99999925000009- GF EB, B,D|\
+ C6||
+S:https://www.folktunefinder.com/tunes/136692
+S:http://back.numachi.com:8000/dtrad/abc/BTTLMAIN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

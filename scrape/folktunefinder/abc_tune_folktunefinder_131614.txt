@@ -1,0 +1,27 @@
+X: 8
+T:Rodney, Headington 1
+M:2/2
+L:1/8
+A:Headington
+P:A(A2B2)4C
+K:A
+Q:364
+P:A
+A2Bc d2cB|ABcd e2cB|efed c2A2|BABc A2e2||
+P:B
+e2af g2e2|e2af g2e2|e2ag fedc|dfed c2B2||
+P:C
+A2Bc d2cB|ABcd e2cB|efed c2A2|BABc A4  ||
+S:https://www.folktunefinder.com/tunes/131614
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

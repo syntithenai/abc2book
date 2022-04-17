@@ -1,0 +1,25 @@
+X: 32
+T:Bonny Green, Headington
+M:6/8
+L:1/8
+A:Headington
+P:A(AB)4
+K:G
+P:A
+G|:d>cB AGF|G>AB cde|d>ed dcB|1B3 A2d:|2A3 G2||
+P:B
+d>cB AGF|G3   A3 |d>cB AGF|G3   A3|
+d>cB AGF|G>AB cde|d>ed dcB|A3  G2 ||
+S:https://www.folktunefinder.com/tunes/131638
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

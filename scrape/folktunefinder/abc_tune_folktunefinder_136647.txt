@@ -1,0 +1,31 @@
+X:6
+T:The Prophecy
+C:Iron Maiden
+D:7th son of a 7th son
+O:England
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=120
+K:C %intro
+"Am9"ebae b2. "F9"[c2f2g2]-|[cfg] gfc gf c2. |\
+"G7"BgfB g2. "Am"[c2e2a2]-|[cea] aec aec2. :|
+M:3/4
+L:1/8
+K:F %outro
+|:"Dm"defg a2 | "Dm/F"a2 gf e2 | "Em7"g2 fe f2 |\
+ "Dm"(3efe d2 "A/D"^c2 :| "Fmaj7"ab{b}c'2 c'2 |
+ c'2 bc' d'2 | "Bb"d'-f' d'-c' d' (3c'/d'/c'/ | b6 |\
+ "Dm"c'(3b/c'/b/-a4 | "C9"b(3a/b/a/-g4 |
+ "Dm"a(3g/a/g/ f2 "A/D"e2 | "Dm" [D6A6d6f6] :|
+S:https://www.folktunefinder.com/tunes/136647
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

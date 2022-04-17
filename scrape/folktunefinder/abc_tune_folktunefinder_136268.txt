@@ -1,0 +1,100 @@
+X:1
+T:Dont vient cela
+T:(Basse dansse 1)
+C:Tielman Susato
+B:Tielman Susato: Danserye (1551) no. 1
+R:Basse dance
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-01.abc
+M:3/2
+L:1/2
+Q:1/2=210
+K:Ddor
+V:1
+DDD|D>E F/E/|D/C/D2|C2C|CDE|FG>F|F2E|F2z|
+V:2
+A,A,A,|A,2A,|_B,2B,|A,2A,|A,>B,C|C_B,2|A,C2|A,2z|
+V:3
+D,2D,|F,2F,|G,2G,|E,2E,|E,F,G,|A,_B,>A,|F,G,2|F,2z|
+V:4
+D,2D,|D,2D,|G,,2G,,|A,,2A,,|A,,D,C,/_B,,/|A,,G,,/A,,/ _B,,/C,/|D,C,2|F,,2z|
+%
+V:1
+FFF|F2G|E2E|EFG|A>GF|E/D/E>D|D2^C|D2z:|
+V:2
+DDD|D2D|C2C|C2_B,|A,>_B,C|C2A,|G,A,2|A,2z:|
+V:3
+A,A,A,|A,2B,|G,2G,|A,2_B,|C>_B,A,|G,2F,|D,E,2|D,2z:|
+V:4
+D,D,D,|D,2G,,|C,2C,|A,,2G,,|F,,>G,, A,,/_B,,/|C,2D,|_B,,A,,2|D,2z:|
+%
+V:1
+|:FFF|F2G|A2^G|A2z|FFF|E/D/E/F/G|F2E|F2z|
+V:2
+|:DDD|D2E|EE2|^C2z|DDD|C2D|B,C2|A,2z|
+V:3
+|:A,A,A,|A,2B,|CB,2|A,2z|A,2A,|A,G,/A,/B,/A,/|G,/F,/G,2|F,2z|
+V:4
+|:D,D,D,|D,>F,E,|A,,E,2|A,,2z|D,D,D,|A,,C,G,,|D,C,2|F,,2z|
+%
+V:1
+FFF|F2G|A2^G|A2z|F>E D/C/|DE>D|D2^C|D2z:|
+V:2
+DDD|D2E|EE2|^C2z|DDD|A,CA,|G,A,2|A,2z:|
+V:3
+A,A,A,|A,2B,|CB,2|A,2z|A,>G, F,/E,/|F,G,F,|D,E,2|D,2z:|
+V:4
+D,D,D,|D,>F,E,|A,,E,2|A,,2z|D,D,D,|D,C,D,|_B,,A,,2|D,2z:|
+%
+V:1
+"^Reprise"FFF|E/F/G/F/E/D/|D2^C|D2z|FFF|E2E|D2D|^C2z|
+V:2
+DDC|CDC|A,A,2|A,2z|DDA,|C2C|A,2G,|A,2z|
+V:3
+A,A,A,|G,/A,/_B,/A,/G,/F,/|E,/D,/E,2|D,2z|A,A,F,|G,>F,E,|F,D,2|E,2z|
+V:4
+D,D,F,|C,G,,C,|D,A,,2|D,2z|D,D,D,|C,2C,|D,_B,,2|A,,2z|
+%
+V:1
+FFF|E/F/G/F/E/D/|D2^C|D2z|CDE|FE>D|D2^C|D2z|
+V:2
+CCC|CDC|A,A,2|A,2z|A,A,C|C2C|A,A,2|A,2z|
+V:3
+A,A,A,|G,/A,/_B,/A,/G,/F,/|E,/D,/E,2|D,2z|E,F,G,|A,2G,|F,E,2|D,2z|
+V:4
+F,,>G,, A,,/B,,/|C,G,,C,|D,A,,2|D,2z|A,,D,C,|F,,/G,,/A,,/B,,/C,|D,A,,2|D,2z|
+%
+V:1
+E>D E/F/|E2z|E>F G/E/|F2z|F>E D/C/|D>EF|ED2|^C2z|
+V:2
+C>A,C|C2z|C2B,|D2z|D2A,|A,>B,C|CA,G,|A,2z|
+V:3
+G,>F, G,/A,/|G,2z|G,G,G,|A,2z|A,>G, F,/E,/|F,>G,A,|G,F,D,|E,2z|
+V:4
+C,>D, C,/F,,/|C,2z|C,>D,E,|D,2z|D,2D,|D,>C, A,,/B,,/|C,D,_B,,|A,,2z|
+%
+V:1
+E>D E/F/|E2z|E>F G/E/|F2z|F>E D/C/|DE>D|D2^C|D3|]
+V:2
+C>A,C|C2z|C2B,|D2z|D2D|A,CA,|G,A,2|A,3|]
+V:3
+G,>F, G,/A,/|G,2z|G,2G,|A,2z|A,>G, F,/E,/|F,G,F,|D,E,2|D,3|]
+V:4
+C,>D, C,/F,,/|C,2z|C,>D,E,|D,2z|D,2D,|D,C,D,|_B,,A,,2|D,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/136268
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-01/susato-1551-01-4l.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-01/susato-1551-01-4l.abc
+% Rhythm Basse dance
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

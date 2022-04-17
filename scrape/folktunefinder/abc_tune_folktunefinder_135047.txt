@@ -1,0 +1,25 @@
+X:330
+T:Cronin's Hornpipe
+R:hornpipe
+I:speed 250
+E:7
+S:Keenan and Glackin
+M:C|
+K:G
+BA|GABc dBde|gage dega|bage dBGB|cABGA2 BA|\
+GABc dBde|gage dega|bage dBAB|G2G2G2:|*
+fg|afd^c d2ga |bged e2 ga|(3bag (3agf gedB|(3cBA AG AcBA|\
+GABc dBde|~g3 e dega|bage dBAB|G2G2G2:|**
+S:https://www.folktunefinder.com/tunes/135047
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

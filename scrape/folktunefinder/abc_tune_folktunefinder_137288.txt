@@ -1,0 +1,38 @@
+X: 9
+T:Trunkles, Badby
+M:4/4
+L:1/8
+A:Badby
+P:A(A2B3C3)2(A2B3D3)2A2
+K:GMix
+P:A
+z2|d2d>d  c2e2  |f>ed>c d2G2 |\
+d2d>d  c2e2  |d>cB>A G2  ||
+P:B
+B>c|d2d>d d2g2|f3e d2c2 |\
+efec   ABcd  |d4d2||
+P:C
+c>d|e2c2   c>de>f|d2B2 B2d2 |\
+c2A2   A>Bc>d|
+B2G2   G2A>B|c>Bc>A F2A2|G4 G2||
+P:D
+c3d e4|c4 c3d|e4 f4 |d4 B4 |\
+B4 d4 |c4 A4 |
+A3B c2d2|B4 G4|\
+M:2/4
+L:1/8
+G2A>B|\
+M:4/4
+c>Bc>A F2A2|G4 G2||
+S:https://www.folktunefinder.com/tunes/137288
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

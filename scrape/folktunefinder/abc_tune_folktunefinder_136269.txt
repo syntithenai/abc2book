@@ -1,0 +1,195 @@
+X:1
+T:Bergeret sans roch
+T:(Basse dansse 2)
+C:Tielman Susato
+S:Tileman Susato: Danserye (1551)
+R:Basse dance
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-02/susato-1551-02-4l.abc
+V:1 Program 1 110 %Fiddle
+V:2 Program 1 42 %Cello
+V:3 Program 1 40 alto %Violin
+V:4 Program 1 43 bass %Double bass
+M:3/2
+L:1/2
+Q:1/2=200
+K:C
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|FD/F/E/D/|E>D E/C/|F/E/D/C/B,/A,/|B,2B,|
+V:2
+G,2G,|C>B,A,|G,CB,|D>C B,/C/|D2B,|C2C|CA,F,|G,2G,|
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2G,|A,2G,/F,/|G,>F, G,/E,/|A,/G,/F,/E,/D,/C,/|D,2D,|
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2G,,|D,2G,,|C,2C,|F,,>G,,A,,|G,,2G,,|
+%
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|E>D C/B,/|CD>C|C2B,|C2z:|
+V:2
+G,2G,|C>B,A,|G,CB,|A,>G, A,/B,/|C2G,|G,_B,G,|F,G,2|E,2z:|
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2F,|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z:|
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2D,|C,2C,|C,_B,,C,|A,,G,,2|C,2z:|
+%
+V:1
+C>D E/F/|G>F E/D/|F2E|F2z|F>E D/C/|DE>D|D2^C|D2z|
+V:2
+G,2C|C2C|C2C|A,2z|C2A,|_B,_B,A,|G,A,2|F,2z|
+V:3
+E,2E,|E,>F,G,|A,G,2|F,2z|A,>G, F,/E,/|F,G,F,|D,E,2|D,2z|
+V:4
+C,2C,|C,2C,|F,,C,2|F,,2z|F,,2F,,|_B,,G,,A,,|_B,,A,,2|D,,2z|
+%
+V:1
+C>D E/F/|G>F E/D/|F2E|F2z|E>D C/B,/|CD>C|C2B,|C2z|
+V:2
+G,2C|C2C|C2C|A,2z|C2G,|G,A,>G,|E,/F,/G,2|E,2z|
+V:3
+E,2E,|E,>F,G,|A,G,2|F,2z|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|
+V:4
+C,2C,|C,2C,|F,,C,2|F,,2z|C,2C,|C,F,,C,-|C,G,,2|C,2z|
+%
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|FD/F/E/D/|E>D C/C/|F/E/D/C/B,/A,/|B,2B,|
+V:2
+G,2G,|C>B,A,|G,CB,|D>CB,|D2B,|C2C|CA,F,|G,2G,|
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2G,|A,2G,/F,/|G,>F, G,/E,/|A,/G,/F,/E,/D,/C,/|D,2D,|
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2G,,|D,2G,,|C,2C,|F,,>G,,A,,|G,,2G,,|
+%
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|E>D C/B,/|CD>C|C2B,|C2z|
+V:2
+G,2G,|C>B,A,|G,CB,|A,>G, A,/B,/|C2G,|G,_B,G,|F,G,2|E,2z|
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2F,|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2D,|C,2C,|C,_B,,C,|A,,G,,2|C,2z|
+%
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|FD/F/E/D/|E>D C/C/|F/E/D/C/B,/A,/|B,2B,|
+V:2
+G,2G,|C>B,A,|G,CB,|D>CB,|D2B,|C2C|CA,F,|G,2G,|
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2G,|A,2G,/F,/|G,>F, G,/E,/|A,/G,/F,/E,/D,/C,/|D,2D,|
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2G,,|D,2G,,|C,2C,|F,,>G,,A,,|G,,2G,,|
+%
+V:1
+C>B, C/D/|ECC|C/D/E/C/D/E/|FD2|E>D C/B,/|CD>C|C2B,|C2z|]
+V:2
+G,2G,|C>B,A,|G,CB,|A,>G, A,/B,/|C2G,|G,_B,G,|F,G,2|E,2z|]
+V:3
+E,>D, E,/F,/|G,>E,F,|G,2G,|F,2F,|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|]
+V:4
+C,2C,|C,2F,,|C,2G,,|D,2D,|C,2C,|C,_B,,C,|A,,G,,2|C,2z|]
+%
+V:1
+"^Reprise"EEE|CCC|E>C D/E/|F2F|E>D C/B,/|CD>C|C2B,|C2z:|
+V:2
+CCC|G,2C|CG,_B,|C2C|C2G,|A,A,A,|F,G,2|E,2z:|
+V:3
+G,G,G,|E,2F,|G,>E, F,/G,/|A,2F,|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z:|
+V:4
+C,C,C,|C,2F,,|C,2_B,,|F,,2F,,|C,2C,|A,,F,,A,,-|A,,G,,2|C,,2z:|
+%
+V:1
+"^segno"EEE|D>E F/D/|G2^F|G2z|F>E D/C/|DE>D|D2^C|D2z|
+V:2
+CCC|B,>CD|CD2|B,2z|D>CA,|A,CA,|G,A,2|A,2z|
+V:3
+G,G,G,|G,2F,|G,A,2|G,2z|A,>G, F,/E,/|F,G,F,|D,E,2|D,2z|
+V:4
+C,C,C,|G,,2D,|E,D,2|G,,2z|D,2D,|D,C,D,|_B,,A,,2|D,2z|
+%
+V:1
+EEE|D>E F/D/|G2^F|G2z|E>D C/B,/|CD>C|C2B,|C2z|
+V:2
+CCC|B,2D|CD2|B,2z|C>B,G,|A,_B,G,|F,G,2|E,2z|
+V:3
+G,G,G,|G,2F,|G,A,2|G,2z|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|
+V:4
+C,C,C,|G,,2D,|E,D,2|G,,2z|C,2C,|C,_B,,C,|A,,G,,2|C,2z|
+%
+V:1
+EEE|C2C|E>C D/E/|F2z|E>D C/B,/|CD>C|C2B,|C2z|
+V:2
+CCC|G,2C|CG,_B,|C2C|C2G,|A,_B,G,|F,G,2|E,2z|
+V:3
+G,G,G,|E,2F,|G,2G,|A,2z|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|
+V:4
+C,C,C,|C,2F,,|C,2_B,,|F,,2F,,|C,2C,|C,_B,,C,|A,,G,,2|C,2z|
+%
+V:1
+EEE|C2C|E>C D/E/|F2z|E>D C/B,/|CD>C|C2B,|"^Fine"C2z|
+V:2
+CCC|G,2C|CG,_B,|C2C|C2G,|A,_B,G,|F,G,2|E,2z|
+V:3
+G,G,G,|E,2F,|G,2G,|A,2z|G,>F, E,/D,/|E,F,E,|C,D,2|C,2z|
+V:4
+C,C,C,|C,2F,,|C,2_B,,|F,,2F,,|C,2C,|C,_B,,C,|A,,G,,2|C,2z|
+%
+V:1
+EEE|C2C|E>C D/E/|F2z|E>D C/B,/|CD>C|C2B,|"^D.S. al fine"C3|]
+V:2
+CCC|G,2C|CG,_B,|C2C|C2G,|A,_B,G,|F,G,2|E,3|]
+V:3
+G,G,G,|E,2F,|G,2G,|A,2z|G,>F, E,/D,/|E,F,E,|C,D,2|C,3|]
+V:4
+C,C,C,|C,2F,,|C,2_B,,|F,,2F,,|C,2C,|C,_B,,C,|A,,G,,2|C,3|]
+%
+V:1
+"^     Reprise aliud""^segno"EEE|F/E/F/G/F|EDC|B,2z|CD/E/F/D/|E2z|CD/E/F/D/|E2z|
+V:2
+CCC|C2C|CA,/_B,/G,|G,2z|G,B,A,/B,/|C2z|G,B,A,/B,/|C2z|
+V:3
+G,G,G,|A,2A,|G,F,E,|D,2z|E,F,/G,/A,/F,/|G,2z|E,F,/G,/A,/F,/|G,2z|
+V:4
+C,C,C,|F,,2F,,|C,D,/_B,,/C,|G,,2z|C,B,,/G,,/D,|C,2z|zB,,/G,,/D,|C,2z|
+%
+V:1
+EEE|F/E/F/G/F|EDC|B,2z|E>D C/B,/|CD>C|C2B,|"^Fine"C2z|
+V:2
+CCC|C2C|zA,/_B,/G,|G,>A,B,|C2C|CA,_B,|G,G,2|G,2z|
+V:3
+G,G,G,|A,2A,|G,F,E,|D,2z|E,G,/F,/E,/D,/|E,F,>E,|C,D,2|C,2z|
+V:4
+C,C,C,|F,,2F,,|C,D,/_B,,/C,|G,,2z|C,2C,|A,,D,_B,,|C,G,,2|C,2z|
+%
+V:1
+EEE|D/C/D/E/F/D/|G2^F|G2z|F>E D/C/|DE>D|D2^C|D2z|
+V:2
+CCC|B,>CD|CD2|B,2z|DDD|A,CA,|G,A,2|A,2z|
+V:3
+G,G,G,|G,2F,|G,A,2|G,2z|A,>G, F,/E,/|F,G,F,|D,E,2|D,2z|
+V:4
+C,C,C,|G,,2D,|E,D,2|G,,2z|D,D,D,|D,C,D,|B,,A,,2|D,2z|
+%
+V:1
+EEE|D/C/D/E/F/D/|G2^F|G2G|E>D C/B,/|CD>C|C2B,|"^D.S. al fine"C2z|]
+V:2
+CCC|B,>CD|CD2|B,2B,|C2C|CA,_B,|G,G,2|G,2z|]
+V:3
+G,G,G,|G,2F,|G,A,2|G,2G,|G,>F, E,/D,/|E,F,2|E,D,2|C,2z|]
+V:4
+C,C,C,|G,,2D,|E,D,2|G,,2G,,|C,2C,|A,,D,_B,,|C,G,,2|C,2z|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/136269
+S:http://abc.musicaviva.com/tunes/susato-tielman/susato-1551-02/susato-1551-02-4l.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/susato-1551-02/susato-1551-02-4l.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/susato-1551-02/susato-1551-02-4l.abc
+% Rhythm Basse dance
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

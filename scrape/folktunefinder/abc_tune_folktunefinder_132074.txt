@@ -1,0 +1,29 @@
+X:10
+T:Tout en allant
+R:Bourre  2 temps
+C:Patrick Bouffard
+O:France
+A:Centre
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:10
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-16
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+d3e | =fe dB- | B4 | dB GA- | A4 | d3e | =fe dB- | B4 | cA FG- | G4 ::
+BA GF- | FG A2 | cA cB- | Bd G2 | BA GF- | FG A2 | cA FG- | G4 :|
+%%footer $D   Galouvielle-MBe 2005 \nBourre  2 temps France
+S:https://www.folktunefinder.com/tunes/132074
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

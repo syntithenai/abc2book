@@ -1,0 +1,25 @@
+X: 13
+T:Cooley's Reel
+M:4/4
+L:1/8
+Q:180
+K:Em
+D2-|:"Em"EB {B}{c} BA B2 EB| {B}{c} B2 AB dBAG|
+"D"(3FED AD BDAD|FDFA dAFD|
+"Em"EB {B}{c} BA B2 EB| {B}{c} B2 AB defg|
+"D"afge dBAF|1 DEFD "Em"EGFD:|2 DEFD "Em"Egfg|:
+"Em"eB (3BBB eBgB|eB (3BBB g-edB|
+"D"A2 FA dAFB|ADFA B^cdf|
+"Em"eB (3BBB eBgB|edB^c defg|
+"D"afge d-BAF|1 DEFD- "Em"Egfg:|2 DEFD- "Em"EGFD||E8||
+S:https://www.folktunefinder.com/tunes/136564
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

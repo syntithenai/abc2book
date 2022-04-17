@@ -1,0 +1,27 @@
+X: 14
+T:The Rose, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:AAB(CB)2
+K:A
+P:A
+|:(E/F/G/|AEA  A2B| cBc def| ecA dBG|A>BA A2 :|
+P:B
+|:c/d/  |efe  ecA| Bdc BGE| FGA dBG|A>BA A2 :|
+P:C
+(E/F/G/ |:(2AE A3 | A3  B3 |(2cB c3 |(2de f3  |
+(2ec A3 |(2dB G3 |(2AB A3 |1A3  EFG:|2A3-A2||
+S:https://www.folktunefinder.com/tunes/132482
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,54 @@
+X:1
+T:Scintillante
+C:G. Mantellini
+N:original key, monophonic version
+Z:transcribed by Moshe Braner, Jan. 2001
+R:waltz
+M:3/4
+L:1/8
+P:ABAC ()
+K:Bb
+P:A
+|: B,DFB |\
+    (3ABA G2 F2 |  G2 A3  F | "Bb"D6-|D2 B,DFB |\
+    (3ABA G2 F2 |  G2 A3  F | "F7"E6-|E2 C=B,CD |
+    (3EFE D2 C2 |  E2 F3  G |     A6-|A2 edcB  |\
+       AB cB AG |  FG AG FE | "Bb"D6-|D2 B,DFB |
+    (3ABA G2 F2 |  G2 A3  F | "Bb"D6-|D2 B,CDE |\
+(3"G7"FGF E2 D2 |  D2 E3  F | "Cm"G6-|G2 C=B,CD |
+       ED CD EF | G^F GA Bc | "Bb"dc BA G_G | F2 B,DFB |\
+(3"F7"ABA G2 F2 |  G2 A3  F | "Bb"B6-|Bz :|
+P:B
+K:F
+|: A2 B2 |\
+   "F"c2 z2 A2 | c2 z2 A2 | "C7"B2 Bc BA | Gz B2 c2 |\
+      d2 z2 B2 | e2 z2 d2 |  "F"c2 cd cB | Az A2 B2 |
+      c2 z2 A2 | "F7"c2 z2 _e2 | "Bb"d2 dc Bc | dz e2 d2 |\
+   "F"c2 A2 c2 | "C7"B2 D2 E2 | "F"F6-|"D.C."Fz :|
+K:Bb
+P:C  TRIO
+K:Eb
+|: BcBA |\
+  "Eb"G6 | B6 | E6 | G6 |\
+  B,2 C2 D2 | "Gbdim"E2 C3 E | "Bb7"D6-|D2 dddd |
+  d2 z2 c2 | e2 z2 d2 |     A6-|A2 dddd |\
+  d2 z2 c2 | e2 z2 d2 | "Eb"G6-|G2 BcBA |
+   "Eb"G6 | B6 | E6 | G6 |\
+  "C7"C2 =E2 G2 | B2 A2 zG | "Fm"c6-|c2 ffff |
+  f2 z2 c2 | f2 z2 c2 | "Eb"e6-|eGABAG |\
+  "Fm"c2 A2 c2 | (3"Bb7"ded c2 B2 | "Eb"e6-|ez :|
+S:https://www.folktunefinder.com/tunes/136813
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20010226.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/Scintillante.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

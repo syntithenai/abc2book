@@ -1,0 +1,23 @@
+X:19
+T:Tobin's Favorite
+R:jig
+D:Highland Sun: Celtic Crossover
+M:6/8
+L:1/8
+K:D
+|:DFA dcd|ecA efg|~f3 ~g3|ecA GFE|
+DFA dcd|ecA efg|~f3 gec|1edc d3:|2edc d2e|
+|:fga agf|efg efg|~f3 ~g3|ecA GFE|
+DFA dcd|ecA efg|~f3 gec|1edc d2e:|2edc d3||
+S:https://www.folktunefinder.com/tunes/134699
+S:http://www.ellwood.org/slow/slow.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

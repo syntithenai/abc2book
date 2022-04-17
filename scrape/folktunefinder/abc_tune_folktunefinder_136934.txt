@@ -1,0 +1,25 @@
+X:5
+T: Trip to London
+S: J.Whelan
+C: John Bass
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: G
+E |DEFD GEDC|B,A,B,C DEFD|GFGB dG (3GFG|G=FDE FDCE |
+DEFD GEDC | B,A,B,C DEFD | GFGB AGFE | DEFD G3 :|
+d | gBdB GBdg | bgag edef | gBBA BcBA | GBdB A2 Bd |
+gBdB GBdg | bgag edef | gd (3d^cd cd=cA | FDBA G3 :|
+S:https://www.folktunefinder.com/tunes/136934
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

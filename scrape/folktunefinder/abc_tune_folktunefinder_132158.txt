@@ -1,0 +1,25 @@
+X:56
+T: Wiedersehen an der Bahre
+N: Q0056L
+O: Mitteleuropa, Deutschland (DDR) , Sachsen, Erzgebirge
+R: Ballade, Abschied, Enttaeuschung, Tod, Selbstmord
+M: 4/4
+L: 1/8
+K: F
+F | F2A2c3A | B2B2G3
+G | G2d2c2B2 | B2A4z
+A | A2c2f3A | G2B2e3
+d | c2d2c3B | B2A4z
+A | A2c2f3A | G2B2e3
+d | c2B2A3G | G4F2z
+S:https://www.folktunefinder.com/tunes/132158
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, abschied, enttaeuschung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

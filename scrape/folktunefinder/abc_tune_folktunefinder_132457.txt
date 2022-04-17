@@ -1,0 +1,28 @@
+X: 36
+T:Shepherds' Hey, Bledington
+M:4/4
+L:1/8
+R:Hornpipe
+A:Bledington
+P:A(ABAC)2A
+K:F
+P:A
+|:ABcA B2B2|ABcA G2G2|ABcA B2AB|c2C2 F4:|
+P:B
+|:A2F2 B4  |A2F2 G4  |ABcA B2AB|c2C2 F4:|
+P:C
+|:A4F4|B4B4|A4F4|G4G4|ABcA B2AB|c2C2 F4:|
+S:https://www.folktunefinder.com/tunes/132457
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

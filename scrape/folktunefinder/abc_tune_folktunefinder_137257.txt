@@ -1,0 +1,27 @@
+X:11
+T:Shepherd's Hey
+S:Bacon (News - RKS)
+A:Adderbury
+O:English
+R:Reel
+P:A(AB)6
+M:4/4
+K:G %Transposed from F
+P:A
+B2 d2 c4 | B2 d2 A4 | B2 d2 c2 Bc | d2 D2 G4 :|
+P:B
+B2 G2 c4 | B2 G2 A4 | B2 d2 c2 Bc |1 d2 D2 G3 G/A/ :|2 d2 D2 G4 |]
+%
+W:  I can whistle, I can sing, I can do most anything.
+W:  I can dance, I can play, I can do the Shepherd's Hey.
+S:https://www.folktunefinder.com/tunes/137257
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

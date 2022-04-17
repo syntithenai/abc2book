@@ -1,0 +1,34 @@
+X: 196
+T: Laurel Street
+C: R-105
+C: Paul Milde  1995
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: G
+"G"B4 c2B2| "D"A4 B4| "G"G4 B4| d4 g4| "C"e6f2| g4 e4| "D"a4 g4| f4 e4|
+"G"d4 e2d2| B4 e4| "G"d4 B4| A4 G4| "D"A4 B2c2| B4 A4| "G"G4 "D"F4| "G"G8 |
+"G"B4 c2B2| "D"A4 B4| "G"G4 B4| d4 g4| "C"e6f2| g4 e4| "D"a4 g4| f4 e4|
+"G"d4 e2d2| B4 e4| "G"d4 G4| A4 B4| "C"c4 d2c2| B4 A4| "G"G4 "D"F4| "G"G4 z4 "Fine"x|] [K: D]
+\
+"D"A6 B2| A4 G4| F4 A4| d4 A4| "G"B6 A2| G4 F4| E4 D4| E4 F4|
+"D"A6 B2| A4 G4| F4 A4| d4 f4| "A7"e6 f2| g4 c4| "D"e4 d4| d8|
+"D"A6 B2| A4 G4| F4 A4| d4 A4| "G"B6 A2| G4 F4| E4 D4| "A7"C4 E4|
+"D"D6 E2| F4 D4| F4 A4| d4 f4| "A7"e6 f2| g4 c4| "D"e4 d4| d4 =c4 "DC al Fine"x|]
+%%text 9/1/98.  Polka
+%%newpage
+% ---------- page 102 ----------
+S:https://www.folktunefinder.com/tunes/134291
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

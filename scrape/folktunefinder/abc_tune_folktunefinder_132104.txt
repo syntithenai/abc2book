@@ -1,0 +1,27 @@
+X:2
+T: Ritter und Magd
+N: Q2055A
+O: Mitteleuropa, Niederlande, West - Flandern
+N: Vom Hg. metrisierte und korrigierte Fassung von Q0055 .
+N: Niederlaendische Fassung der Ballade.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 3/2
+L: 1/4
+K: D
+DE=F | D3AB=c | A2z
+DAB | =c3BBA | G2=F
+FFG | A2ADE=F | G2z
+=CDE | =F3DED | D=CD
+S:https://www.folktunefinder.com/tunes/132104
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

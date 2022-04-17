@@ -1,0 +1,26 @@
+X:100
+T:Bride's Favorite, The
+T:O'Brien's
+E:10
+I:speed 350
+R:jig
+M:6/8
+K:G
+D|~G3 BAB|GBdgdB|AFdcAF|GBd gdB|\
+~G3 BAB|GBd gdB|AFd cAF|AGF G2:|*
+d|~g3f2a|gdB GBd|~g3 fed|(4efgf e2f|\
+~g3 fga|gdB GBd|cAd cAF|AGF G2:|*
+D|GBd ~g3|edc BcA|GBd ~g3|faf g2a|\
+bgb afa|geg fed|ed^c def|gaf g2:|**
+S:https://www.folktunefinder.com/tunes/135001
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

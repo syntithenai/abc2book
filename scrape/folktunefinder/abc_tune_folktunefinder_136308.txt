@@ -1,0 +1,18 @@
+X:2
+T: II. Flow my tears
+T: Lachrimae.
+T:Basso.
+C: Dowland, John
+M:C
+L: 1/4
+%%MIDI nobarlines
+%%MIDI transpose -24
+K: A min bass
+|:A4 A4 f3 f e3 e A3 A c3 c d2 f2 e3 e A3  a1/2  a1/2 g2 e2 f3 f1/2 f1/2 e2 c2 d2 f2 e3 e A8 ::
+S:https://www.folktunefinder.com/tunes/136308
+S:http://www.laymusic.org/music/dowland/flow/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

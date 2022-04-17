@@ -1,0 +1,26 @@
+X: 1
+T:Constant Billy, Longborough 1
+M:6/8
+L:1/8
+S:CJS (MSS)
+A:Longborough
+P:A(AB2)5A
+K:G
+P:A
+|:D2d BAB|c2A AGA|B2G E2G|DEF G2:|
+P:B
+  Bcd e2c|ABc d3 |Bcd e2c|ABc  d3|
+  D2d BAB|c2A AGA|B2G E2G|DEF G2 ||
+S:https://www.folktunefinder.com/tunes/135260
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

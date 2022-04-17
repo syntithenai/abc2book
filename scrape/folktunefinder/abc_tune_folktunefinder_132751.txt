@@ -1,0 +1,33 @@
+X: 86
+T:Porto Bello. JBa.85
+M:C|
+L:1/8
+Q:150
+S:Joseph Barnes MS,Carlisle,1762.
+R:Country-dance
+O:England
+A:Carlisle
+N:'A'  music very similar to Portobellos rant in Joseph ua Jackson MS
+N:1798
+N:
+N:B music faintly similar.
+Z:vmp.C.Graebe.
+K:G major
+"No key/time sig" G2 GG G2 FE | DCB,A, G,4 |\
+ A2AB A2 GA | cBAGE4 |!
+G2 GG G2 FE | DCB,A,G,4 | G2 (BG) D2 c2 | (BG) (AF) G4 :||!
+B2 d2-d2 c B | cBcd e4 | d2 cB A2 GF | FG (AF) D4 |!
+ "qu's in ms..........."B,2d2 A,2c2 |\
+G,2B2 D2 (EF) | G2 FE D2 CB, | B,CDG, G,4 ||!
+S:https://www.folktunefinder.com/tunes/132751
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

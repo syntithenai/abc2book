@@ -1,0 +1,31 @@
+X:24
+T:Dandaleith - a strathspey
+T:Mrs. Gordon of Bellie's Reel (1781)
+R:strathspey (6 turns)
+C:William Marshall
+S:1822 Collection p56
+B:Athole - Mrs. Gordon of Belsies
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+M:C
+L:1/8
+Q:266
+K:F
+c|Ac A<FF>A|c>dc<A G2 Gc|Ac A<FF>e|f>ga<c A2 A:|
+|:G|F<ff>g f/g/a a>g|f<dc>A G2 G>A|F<ff>g f/g/a a>g|f<cd>f A2 A:|
+||d|c<AA>d c<AA>d|c<AA>F G2 Gd|c<AA>d c<AA>a|fcdf A2 A>d|
+c<AA>d c<AA>d|c<AA>F G2 G>A|F>GA<d c<AA>a|fcdf A2 A||
+||g|f>ga<g fF G2 GA|f>ga<g fg a2 ag|
+f>ga<g fF G2 GA|F>GA<d c<AA<a|fcdf A2 A||
+|:G|F>GA<f c<AA<f|c<AA>F G2 G>A|F>GA<f c<AA<a|f>cd<f A2 A:|
+||f/g/|a>fg>e f>cd<f|c<AA>F G2 Gf/g/|a>fg>e f>cd<f|c<Af>g a2 af/g/|
+a>fg>e f>cd<f|c<AA>F G2 GA|F>GA<d c<AA>a|f>cd<f A2 A|]
+S:https://www.folktunefinder.com/tunes/134543
+S:http://cranfordpub.com/tunes/abcs/Marshall-SelectionsFrom1822.abc
+S:http://www.cranfordpub.com/tunes/abcs/Marshall-SelectionsFrom1822.abc
+% Rhythm Strathspey (6 turns)
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

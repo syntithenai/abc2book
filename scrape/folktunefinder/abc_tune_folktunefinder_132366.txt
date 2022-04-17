@@ -1,0 +1,30 @@
+X:2
+T:Chief o'Neill's favourite
+S:sessions
+R:Hornpipe
+O:Ireland
+M:4/4
+F:http://www.firepowr.com/TRAD/abc/OneilsFav.abc 2004-06-30 15:36:50 UT
+K:D
+de|\
+fe fg af ge|(3fgf ec dc AG|\
+FD (3DDD DF AB|=cA d^c A2 de|
+fe fg af ge|(3fgf ec dc AG|FD EF GB AG|F2D2D2::
+DE|\
+=F2 FG A2AB|=cB cd cB AG|\
+Ad (3ddd fd ed|=cA d^c A2 de|
+fe fg af ge|(3fgf ec dc AG|FD EF GB AG|F2D2D2:|
+S:https://www.folktunefinder.com/tunes/132366
+S:http://www.firepowr.com/TRAD/abc/OneilsFav.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/pijplijn.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

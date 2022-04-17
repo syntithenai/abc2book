@@ -1,0 +1,27 @@
+X: 6
+T:Washing Day, Adderbury
+M:6/8
+L:1/8
+A:Adderbury
+P:A(AB)6
+K:Ab
+P:A
+C3  C3 |D3  D3 |C3  C2A,|B,3 B,2B,|
+CCC C2C|D2E F2F|E2D C2B,|A,3 A,2G||
+P:B
+A2F E2D|C2D E2G|A2F E2C |B,3 B,2G|
+A2F E2D|C2E F2F|E2D C2B,|A,3 A,3 ||
+W:
+W:Thump! Thump! Scrub! Scrub!, Scrub, scrub away!
+W:The devil a bit of peace I git upon the washing day!
+S:https://www.folktunefinder.com/tunes/137264
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Adderbury.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Adderbury.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Adderbury.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

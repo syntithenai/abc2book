@@ -1,0 +1,35 @@
+X:40
+T: The Walking of the Fauld 
+N: HA040
+O: Europa, Mitteleuropa, Deutschland
+N: Schlu auf A
+M: 2/2
+L: 1/16
+K: D
+D4 | B,2E2E3FE4d3
+B | A2F2E2D2B,4
+A,2B,2 | D3EF2E2D2B,2A,2
+B,2 | D3EF2E2D2B,2A,2
+D2 | B,2E2E2F2E4D2
+E2 | F3EF2A2B6
+de | f3ed2B2A3Bd2
+F2 | E2D2B,2D2E6
+d2 | B2e2e2f2e4d2
+e2 | f3fe2d2B4
+A2B2 | d3ed2F2D2E2F2
+D2 | d3ed2F2D3EF2
+D2 | E2e2e3fe4d2
+c2 | B3AB2d2e6
+de | f3ed2B2A2Bcd3
+F | E3DB,2D2E4
+S:https://www.folktunefinder.com/tunes/135735
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

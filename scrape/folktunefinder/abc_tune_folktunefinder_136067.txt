@@ -1,0 +1,30 @@
+X: 1
+T: Barnyards of Delgaty
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: A
+|: A/B/ \
+| "A"c>B AE | "D"FA "A"FE | c>B "F#m"AE | "Bm"FA "E7"BA/B/ \
+| "A"c>B AE | "D"FA "A"FE | EE "E7"e>d | cB "A"A :|
+|: c/d/ \
+| "A"e>A AA | cB cf |  e>A "F#m"AA | "Bm"ce "E7"Bc/d/ \
+| "A"e>A AA | cB ce |  EE "E7"e>d | cB "A"A :|
+%%sep 5 5 234
+K:C
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+S:https://www.folktunefinder.com/tunes/136067
+S:http://trillian.mit.edu/~jc/music/book/500/BarnyardsOfDelgaty_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:40
+T: Tripping at the Truck Stop
+C: BB
+R: polka
+Q: 300
+M: 2/4
+L: 1/8
+K: D
+A|"D"dA FA|"Bm"BA FA|"D"dA FD|"G"GF "A"E2|"D"dA FA|"G"B>c de|"D"(3fga "G"gf|\
+"A"ec "D"d :|
+e|"D"fa fa | "Em"b>a ge | "D"fa af | "G"gf "A"e2 |"D"fa fa | "Em"b>a ge |\
+"D"(3fga "G"gf |"A"ec "D"d :|
+S:https://www.folktunefinder.com/tunes/136941
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

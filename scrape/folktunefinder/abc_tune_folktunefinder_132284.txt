@@ -1,0 +1,42 @@
+X:1
+T:Bairisch
+C:Friedrich Fischer
+A:Altlichtenberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:5.Spielheft fuer Okarina, Brigitte Dumfart, Oberoesterreichisches Volksliedwerk Linz, 1997
+S:Oberoesterreichisches Volksliedwerk M I - A1,6
+N:in the book in C
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D
+A2 |\
+d2c2 B2A2 | F2FF F2A2 | d2c2 B2A2 | G2GG G2A2 |
+c2B2 A2G2 | c2c cc4 | B2BBB4 | A2AA A2A2 |
+d2c2 B2A2 |F2FF F2A2 | d2c2 B2A2 | G2GG G2A2 |
+c2B2 A2G2 | c2cc c4 | e4 c4 | d2d dd2 :|
+|: z2 |\
+F2A2 f3e | d2F2 A4 | G2A2 A3G | F2A2 d4 |
+F2A2 f3e | d2F2 A4 | G2A2 B2c2 | d2ddd2 :|
+|: z2 |\
+A3B A2G2 | F2A2d4 | A3B A2F2 | G2A2 c4 |
+e4 e2d2 | c4 c2B2 |A4 A2G2 | F2B2 A4 |
+A3B A2G2 | F2A2 d4 | A3B A2F2 | G2A2 c4 |
+e4 e2d2 | c4 c2B2 | A2A2 B2c2 | d2ddd2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/132284
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bairisch.d2c2B2A2F2FFF2A2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

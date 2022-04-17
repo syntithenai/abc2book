@@ -1,0 +1,30 @@
+X:95
+T:the Persian Ricardo
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Change sides, back again, down the middle & right & left at top.
+%%Page:10
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001048.html
+%%ID:00001048
+K:G
+dc | \
+B2Bc A2AB | G2G2G2 AB | c2cd B2Bc | A2A2A2 dc | \
+B2Bc A2AB | G2G2G2 AB | cBAG FGAB | G2G2G2 ||
+dc | \
+B2gf e2ed | (dcBc A2) dc | B2gf edcB | A2A2A2 dc |\
+B2gf e2ed | (dcBc A2) dc | BdcB AcBA | G2G2G2 ||
+Bc | \
+d2d2d2g2 | d2d2d2g2 | d2d2 edcB | c2A2A2 Bc | \
+d2d2d2g2 | d2d2d2g2 | d2Bc | dcBA | G2G2G2 |]
+S:https://www.folktunefinder.com/tunes/134654
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

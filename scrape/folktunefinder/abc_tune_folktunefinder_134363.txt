@@ -1,0 +1,33 @@
+X: 2
+P: The Cameron Highlanders
+R: march
+D: The Boys of the Lough, Transatlantic TRA296
+D: Aly Bain on BOL Philo album
+N: BSFC II-46,
+N: H&C p.30
+N: Hunter 347
+N: Logie  Collection
+N: SV p.30
+N: Skinner
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: {g}a2 || "A"~A2cA cecA | f2e2 e2{g}a2 \
+| "A"~A2cA cecA | "E7"c2B2 B2{g}a2 |
+| "A"~A2cA cecA | f2e2 e2{g}a2 \
+| faea "E7"caBa | "A"c2A2 A2 :|
+|: {g}a2 || "A"f2ed c2BA | c2A2 A2{g}a2 \
+| "A"f2ed c2BA | "E7"c2B2 B2{g}a2 |
+| "A"f2ed c2BA | cAeA "D"fga2 \
+| faea "E7"caBa | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/134363
+S:http://trillian.mit.edu/~jc/music/book/500/GayGordons2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

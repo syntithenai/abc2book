@@ -1,0 +1,56 @@
+X:1
+T:Fantasia 25.
+T:Tenor.
+C:Orlando Lassusio.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C|
+L:1/4
+N: Original clef, C on third line
+K:G mix -8va
+d3 d B2 c2 d2 e2 d2 B2 c4
+z2 c2 d2 c2 A B c d e4 
+z2 e2 f2 e2 c d e f ""g2 c2 d e c2
+%line 2
+B2 c2 z e e f e c f e > d e A d/ c/ d/ e/ f2 e/ d/ c2
+z c B c c2
+z e f e e2
+z e e/ d/ c/ B/ c2
+%line 3
+A2 B > c c > d d > e e2 c2 d B c A B G g > f e/ d/ c/ B/ A f > e e > d d2 c/ B/ c2
+M:3/2
+L:1/2
+d2 f2 g2
+%line 4
+a g f e g2 e4
+z2 e2 f2 e2 c f2 d f e a g e f e d e B c3 d e4
+z2 f2 e2 d2 g2 f2 e2 d g2 f e2
+%line 5
+d g2 e2 c f2 d2 e2 c A a2 ^f g2 e2 c2 A2 f2 e2 d
+M:C|
+L:1/4
+e4 z g g2 ^f g e d c B e d A B c d 
+%line 6
+a g f e d c d e d2
+z g e e c2
+z d B B G2 g > e e c2 d > B B G c A f d g e > f d > e 
+%line 7
+c > d B > c A2 a2 g e g2 d G/ A/ B/ c/ d/ e/ f F/ G/ A/ B/ c/ d/ e g2 e2 c c > d e > f g3 f/ e/ f2 g16 |]
+S:https://www.folktunefinder.com/tunes/136339
+S:http://www.laymusic.org/music/bicinia/25/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

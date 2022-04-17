@@ -1,0 +1,22 @@
+X:1
+T:An Choisir
+Z: id:dc-slide-1
+M:6/8
+L:1/8
+K:B Minor
+B2A|F2B BAB|d2e f3|e3 efe|c2e a3|!
+F2B BAB|d2e f3|e2d cBA|B3:|!
+d2e|fgf efe|d2e c2d|B3 dcB|A2F F2E|!
+F2B BAB|d2e f3|e2d cBA|B3:|!
+S:https://www.folktunefinder.com/tunes/134901
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

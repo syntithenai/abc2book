@@ -1,0 +1,24 @@
+X:2
+T: Bards Whim
+S: &quot;OFarrell's Pocket Companion for the Union Pipes, volume IV&quot;, 1810, page 117
+M:6/8
+L:1/8
+R: jig
+K: G Major
+|: d | 
+B2 A G2 A | B2 d dec | B2 A G2 A | B2 e e2 d | 
+B2 A G2 A | B2 d dec | B2 e efg | B2 e e2 :|
+|: d | 
+B2 g gab | B2 d dec | B2 g gfg | B2 e e2 d | 
+B2 g gab | B2 d dec | B2 A G2 A | B2 e e2 :|
+S:https://www.folktunefinder.com/tunes/135882
+S:http://www.thesession.org/tunes/display/7523
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

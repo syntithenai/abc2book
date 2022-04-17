@@ -1,0 +1,24 @@
+X:40
+T:Laride (temp)
+%C:Breton
+S:Blowzabella
+M:2/2
+L:1/8
+Q:1/2=120
+K:C
+A4 e4 | d2 f2 e4 | d3 e d2 B2 | c2 d2 e2c2 |\
+A4 e4 | d2 f2 e4 | d3 e d2 B2 | c2 B2 A4 :|
+A4 c4 | c2 A2 B4 | B2 d2 d2 B2 | c2 d2 e2c2 |\
+A4 c4 | c2 A2 B4 | B3 c d2 e2 | c2 B2 A4 :|
+S:https://www.folktunefinder.com/tunes/130583
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:20
+T:Bill's Dream
+M:2/4
+L:1/8
+Q:116
+C:Bill Monroe
+S:MCA 4CD set CD 3 track 14
+N:This is not a transcription of exactly what Bill Plays it is more a 
+N:cleaned up statement of the tune as I hear it and is most like the N:fiddle version
+K:G
+d>c|B2G2 B2G2|B>d d>B d2 g>f| e2c2 e2c2|e>g g>e g4|d2 d>e d>c B>d|e2d2 c2B2|A2 A>B A>G F>E|D6 d>c|
+B2G2 B2G2|B>d d>B d2 g>f| e2c2 e2c2|e>g g>e g4|d2 d>e d>B A>B|c>B A>G F> D E>F|G4 G>F G>A|G6||
+g>f|e2c2 e2c2|e>g g>e g2  g>g|d2 d>e d>c B>c| d2 d>d d2 g>f|e2c2 e2c2|e> g g>e g2 g>g|d2 d>e d>c B2|A6 d>c|B2G2 B2G2|B>d d>B d2 g>f| e2c2 e2c2|e> g g>e g4|d2 d>e d>B A>B|c>B A>G F>D E>F|G4 G>F G>A|G6||
+% Output from ABC2Win  Version 2.1 f on 06/07/97
+S:https://www.folktunefinder.com/tunes/137095
+S:http://wind.prohosting.com/mrnelson/mandolin/tunes.txt
+S:http://wind.prohosting.com/mrnelson/bluegrass/tunes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:3
+T:Old Bell Cow
+C:R-153
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+"A"A=cA=G EGED | CA,2CA,3A, | A,B,CE A2A=G | "D"FD2F D3A- |
+"A"A=cA=G EGED | CA,2C A,2CB, |A,B,CE AEA=G |1 "D"FD2E D3A :|2 "D"FD2E D4 |]
+|: \
+"A"e3f e2ed | cdef e2A2 | "G"d2d2 BA=GB | dBd=c BG3 |
+"A"e3f e2ed | cdef efef | "G"=gfgf efed | "A"cABc A4 :|
+%%text 4/12/03
+% ---------- page 138 ----------
+S:https://www.folktunefinder.com/tunes/134287
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

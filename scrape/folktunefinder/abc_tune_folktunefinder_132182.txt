@@ -1,0 +1,26 @@
+X:80
+T: Jungfer Doertchen
+N: Q0057S
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Nassau
+R: Ballade, Todesahnung, Tod, Selbstmord
+M: 3/4
+L: 1/16
+K: G
+G2G2B2 | d6d2e2d2 | B4z2
+d2g2e2 | d4B2B2c2d2 | B4z2
+B2B2B2 | A4d4e2ed | B4z2
+d2g2e2 | d4B2d2e2d2 | G4z2
+B2B2B2 | A4d4e2ed | B4z2
+d2g2e2 | d4B2d2e2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/132182
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, todesahnung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

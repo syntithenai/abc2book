@@ -1,0 +1,50 @@
+X: 38
+T:Bacca Pipes, Headington
+M:6/8
+L:1/8
+A:Headington
+P:A(AB)4AC(CD)4CE(EF)4EG(GH2)4G
+K:ADor
+P:A
+Q:450
+c3  c2e|d2c B3 |c2B A3 |B2A G3 |\
+c3  c2e|d2c B3 |c2A B2G|A3  A3 ||
+P:B
+g2f g2e|d2B G3 |g2f g2e|a2f d3 |\
+g2f g2e|d2c B3 |c2d e2d|A3  A3 ||
+P:C
+B|c2e c2e|d2B G2B|c2A A2A|B2G E3 |\
+c2e c2e|d2B G2B|c2A B2G|A3  g2 ||
+P:D
+B|g3  gfe|d2B G3 |g3  gfe|a2g e3 |\
+g3  gfe|d2B G3 |c2A B2G|A3  g2 ||
+P:E
+K:D
+Q:450
+B|c2B c2e|d2c B2B|c2c A2A|G2F E2B|\
+c2B c2e|d2c B2B|c2A B2G|A3  A2 ||
+P:F
+B|g2f g2e|d2c B3 |g2f g2g|a2g e2f|\
+g2f g2e|d2c B2B|c2A B2G|A3  A2 ||
+P:G
+K:ADor
+Q:300
+B|c2B c2e|d2c Bcd|c2B A2c|B2G A2B|\
+c2B c2e|d2c Bcd|c2A B2G|A3  A2 ||
+P:H
+B|g2f g2e|d2B G3 |g2f g2e|f3  e2f|\
+g2f g2e|d2c Bcd|c2A B2G|A3  A2 ||
+S:https://www.folktunefinder.com/tunes/131644
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

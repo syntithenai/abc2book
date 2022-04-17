@@ -1,0 +1,41 @@
+X:201
+T:B201-  How Unhappy a Lover Am I
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dm
+D/2E/2|F3/2G/2A|F3/2E/2F|(D3|D2)A/2B/2|\
+c3/2B/2A|dde|(^c3|c2)d/2c/2|\
+B3/2A/2G|c3/2B/2A|GAF|E3/2D/2C|\
+FGA|BG3/2F/2|(F3|F2)":s:"d/2e/2|\
+f3/2e/2d|efd|(^c3|c2)A/2B/2|
+c3/2B/2A|^F3/2G/2A|(B3|B2)A/2G/2|\
+F3/2E/2F|GAB|ABc|=B2e/2f/2|\
+^c3/2d/2e|f3/2e/2^c|(d3|d2)|]
+S:https://www.folktunefinder.com/tunes/130973
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM2.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM2.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM2.ABC
+S:http://www.mudcat.org/olson/BM2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

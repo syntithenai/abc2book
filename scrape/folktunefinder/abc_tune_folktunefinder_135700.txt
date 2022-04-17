@@ -1,0 +1,25 @@
+X:5
+T: Saw Ye My Father
+N: HA005
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge, Bindungen weggelassen
+M: 2/4
+L: 1/16
+K: D
+D2 | D3EF3G | A4A3
+A | B4e3d | c4B2
+A2 | d4d2c2 | c2B2B2A2 | A6
+G2 | F3EF3d | F4E3
+D | E3DE2F2 | G4A3
+B | A4F3A | A2G2F2E2 | D6
+S:https://www.folktunefinder.com/tunes/135700
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:1
+%
+%%titleleft true
+%%%tabfontscale 1.2
+%%tabaddflags 1
+%
+T:Basse dance "Le corps s'en va" P.B.
+C:printed by Attaignant 1529
+C:in "Dixhuit basses dances"
+L:1/4
+M:3
+K:CM french5tab
+%
+[a,,c1] [,bd] ,,,d/ ,,d | [aa,c/] ,,d ,a ,b ,a1 |\
+[aa,c/] c d c a ,d | [ab,,a/] ,a ,b ,d ,b1 |\
+[,,d,a/] ,a ,b ,d a c |
+[da,c/] a [c,da] a c d | [f,dd1] [,a,c/] e f e |\
+[ff,,a2] [ff1] | [a,,c1] [,bd] ,a/ ,,d |\
+[aa,c/] ,,d ,a ,b ,a1 | [aa,c/] c d c a ,d |
+[,b,,a/] ,a ,,d ,,c ,,d ,a |\
+[,b,,a/] ,d a c [d,,c] a | [c,da1] c/ a c d |\
+[f,g,a1] [,a,,,a/] e f e | [ff,,a2] "Fine"f1 |]
+[a,d,a1] ,,d/ ,,c ,,d ,a | [ab,,a1] ,b/ ,a ,b ,d |\
+[ab,,a1] [,d,a/] a b ,d | [a,b,d1] ,,d/ ,,b ,,d ,a |\
+[ab,,d1] ,b/ ,a ,b ,d |
+[ab,,d/] c d a [c,da1] | [a,bc] [,,a,c1] ,e |\
+[aa,c/] ,,d ,a ,b ,a1 | [a,,c,a/] c d c a ,d// ,b |\
+[,a,c/] ,,d ,a ,b [,d,a] ,b |
+[,d,a/] ,b ,a ,,d ,b ,a | [,b,,d1] ,,d/ ,,b ,,d ,a |\
+[,b,,a/] ,a ,b ,d a c | [d,,c1] [f,,a/] e f1 |\
+[d,,c1] [ca/] a c1 | [a,,c2] "Da Capo",,,,,a1 ||
+S:https://www.folktunefinder.com/tunes/136259
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/attaignant.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

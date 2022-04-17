@@ -1,0 +1,24 @@
+X:124
+T: Totenamt
+N: Q1061E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0061, anderes Lied: "Kirchhofreiter" .
+R: Ballade, 
+M: 4/4
+L: 1/8
+K: G
+D | D3GG2G2 | =F2GA_B2
+A2 | G2G2AAA2 | D2G2=F2z
+D | A3_BccAc | _BABAG2
+G2 | D2E2=F2G2 | _BAGFG2z
+S:https://www.folktunefinder.com/tunes/132226
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

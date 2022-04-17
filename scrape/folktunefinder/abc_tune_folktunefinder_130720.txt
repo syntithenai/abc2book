@@ -1,0 +1,30 @@
+X:180
+T:Chabans'koho Kozachka
+L:1/8
+M:2/4
+O:Ukraine
+Q:120
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000660.html
+%%ID:00000660
+K:A min
+cd ec | fd ec | cd ec | g/2f/2e/2d/2 c2 :: \
+K:Gdor
+ba bg | c'a bg | fg bg | c'a g2 ::
+K:Am
+cdec | fdec | cdec \
+|1 g/2f/2e/2d/2 c2 :|2 g/2f/2e/2d/2 cd | \
+ecdB | e/2d/2c/2B/2 AA | ecdB | e/2d/2c/2B/2 A2 |
+^GGEG | ABcA | ^GGEG | A2A2 | \
+^GGEG | AB d/2c/2B/2A/2 | ^GGEG | A2A2 |]
+S:https://www.folktunefinder.com/tunes/130720
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

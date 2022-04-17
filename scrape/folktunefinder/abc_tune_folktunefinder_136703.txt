@@ -1,0 +1,24 @@
+X:4
+T:Inser Schneckner
+C:Trad.
+N:Schneckenalm, 1925
+N:Sehr langsam und gebunden
+% engl.: very slow and bound
+I:80
+M:3/4
+L:1/8
+%%staves (1 2)
+K:F
+V:1
+|:cf | eg B2 df | cf A2 cf | e>c Bc dc |1 A>F AB c2 :|2 A2 z2 ||
+V:2
+|:Ad | ce G2 Bd | Ac F2 Ad/2d/2 | c>B EG BE |1 F>C FG A2 :|2 F2 z2 ||
+S:https://www.folktunefinder.com/tunes/136703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/steierm1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

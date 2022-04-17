@@ -1,0 +1,29 @@
+X:1779
+T:"The Bantry Hornpipe"           1779
+C:after Mr.Cronin
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+(dc)|BAG(B cB)cA|dbg(e de)dB|cecA (3(Bcd) (BG)|FGA(G FD)EG|
+BAB(G cB)cA|dbg(e de)dB|cedc (3(BAG) (3(AGF)|G2B2G2:|
+|:(cB)|AGA(B cB)ce|dfg(e dc)dB|cecA (3(Bcd) BG|FGA(G FD)EF|
+(GF)(GA) BGFD|GABG ABcA|dgfe (3(ded) (3(cBA)|G2B2G2:|
+|:Bc|dgBg dgBg| (3(gfg) bg fdef|gage dedc|(3(BAG) (3(AGF) G(DB,D)|
+G(gge) dBGB|cBc(d ef)ge|dgfe (3(ded) (3(cBA)|G2B2G2:|
+|:(dc)|B(GGF) G(DB,D)| (3(GFG) (BG) ABcA|(dc)(de) f(dcA)| (3(ded) (cA) d2(cA)|
+B(GGF) G(DB,D)| (3(GFG) (3(BAG) ABcA|d(gfe) (3(ded) (3(cBA)|G2B2G2:|
+S:https://www.folktunefinder.com/tunes/135678
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1779-BantryHP.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1701-1800/1779-BantryHP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

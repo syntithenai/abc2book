@@ -1,0 +1,27 @@
+X:1
+T:Az a sz\'ep
+O:Hungary
+Z:Bert Van Vreckem, 11-aug-2001 <http://flanders.blackmill.net/music/>
+M:2/4
+L:1/8
+K:C
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|C4|
+w:Az a sz\'ep, az a sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|!fine!C4||
+w:Cso-da-sz\'ep, cso-da-sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+"C"cc "G"BB|"F"AA "G"GG|"F"A A3|F4|
+w:1.~L\'am az en-y\'em, l\'am az en-y\'em s\"o-t\'et-kek 
+w:2.~Ha nem vag-yok a ba-b\'am-nak e-leg-sz\'ep, 
+"G"BB "F"AA|"C"GG "F"FF|A A3|"C"E4|
+w:1.~M\'eg-se vag-yok a ba-b\'am-nak e-l\'eg szep
+w:2.~\"Us-se meg a v\'a-lo-gat-tot ne-h\'es-z\'eg~(mert!)
+"C"GE G2|GE G2|"F"AB cA|"C"GE G2|"F"A3 F|"G"D G3|"C"C C3|"C"!D.C.!C4||
+w:Az a sz\'ep, az a sz\'ep, a-ki-nek a sze-me k\'ek, a-ki-nek a sze-me k\'ek
+S:https://www.folktunefinder.com/tunes/130747
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-songs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

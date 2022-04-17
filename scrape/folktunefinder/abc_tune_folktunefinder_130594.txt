@@ -1,0 +1,31 @@
+X:4
+T:Scottish 1900
+O:France
+C:Trad.
+R:Scottish
+M:2/4
+L:1/8
+Q:1/4=85
+P: A B C A B B
+K:G
+V:1
+"G"DE/F/ "G7"GA | "Em"Bd/B/ "Am"A2 | "D"c/E/c/E/ "D7"c2 | "G"B/D/B/D/ "D7"AD/D/ | "G"DE/F/ "G7"GA | "Em"Bd/B/ "Am"A2 | "D"dB/G/ "D7"FD/F/ | "G"GG G2 ::
+"G"BG "Gdim"D/E/D/E/ | "D7"DB,/D/ "G"G2 | "Am"cc/A/ "Em"BB/G/ | "D7"A/B/A/G/ "D7"ED | "G"BG "Gdim"D/E/D/E/ | "D7"DB,/D/ "G"G2 | "Am"cA/F/ "D7"DE/F/ | "G"GG G2"FIN" :|
+K:C
+"C"Gc EG | "Am"C/E/G/E/ c2 | "D7"B/A/D/E/ "G7"F2 | A/G/C/D/ "C"E2 | "C"Gc "G7"EG | "F"AA/^G/ "Cdim"A2 | "G"G/c/B/A/ "G7"G/F/E/D/ | "C"CE C2 |]
+V:2
+Bd gg/g/ | g/f/e/d/ c2 | e/c/e/c/ ee/d/- | d/B/d/B/ c2 | Bc gg/g/- | g/f/e/d/ c2 | ee/d/- d/c/A/c/ | BB/A/ G2 ::
+dB/G/- G/A/G/A/ | G/F/E/D/ B2 | c/B/A/c/- c/B/A | B/A/G/A/- A2 | dB/G/ G/A/G/A/ | G/F/E/D/ B2 | c/B/A/d/ d/c/A/c/ | BB/A/ B2 :|
+K:C
+ce gg- | g/f/e/d/ d/e/c | Ac BB/c/- | c/c/d/e/ e/d/B/G/ | ce gg/e/ | f^g c'2 | e/a/g/f/ e/d/c/B/ | c2-c2 |]
+%%footer $D   Galouvielle-MBe 2005 \nMarin congo France
+S:https://www.folktunefinder.com/tunes/130594
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

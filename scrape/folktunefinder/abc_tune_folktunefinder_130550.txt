@@ -1,0 +1,27 @@
+X:9
+T:Gavottes
+R:Gavotte ton simple
+%C:Trad.
+O:France
+A:Bretagne
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=150
+K:G
+P:[1]
+DG GE FG A2 | AG FE D2D2 :||: DG GE FG AB | cB AF G2G2 :|
+P:[2]
+dd B/d/B AB cB | AB c/B/A B2B2 :||: dd B/d/B AB cB | AB c/B/A G2G2 :|
+S:https://www.folktunefinder.com/tunes/130550
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Rhythm Gavotte ton simple
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

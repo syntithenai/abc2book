@@ -13,16 +13,16 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
       abc = getNotesFromAbc(tune.settings[tune.useSetting].abc)
       setting = tune.settings[tune.useSetting]
     }
-    console.log('tweakabc',abc, tune, songNumber)
+    //console.log('tweakabc',abc, tune, songNumber)
     //if (!abc) {
       //abc = ''
     //}
     //var titleText = getTextFromSongline(tune.forceTitle)
-    const capitalize = (str, lower = false) =>
-    (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
-  ;
-    var useName = capitalize(tune.name,true)
-    var titleText = useName
+    //const capitalize = (str, lower = false) =>
+    //(lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+  //;
+    //var useName = capitalize(getTuneName(tune),true)
+    //var titleText = useName
     //titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
     var aliasText = ''
     //if (tune.forceTitle && tune.forceTitle.trim().length > 0) {
@@ -36,32 +36,44 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
         aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
       })
     }
-    var meter = (tune.meter && tune.meter.trim().length > 0) ? tune.meter : timeSignatureFromTuneType(tune.type)
     // TODO
     var boost = tune.boost > 0 ? tune.boost : 0
     var tweaked = "\nX: "+songNumber + "\n" 
+                + "T: " + songNumberForDisplay(songNumber) + ". "  + getTuneName(tune) + "\n" 
+                + "M:"+getTuneMeter(tune)+ "\n" 
+                + "L:" + getTuneNoteLength(tune) + "\n" 
+                + renderOtherHeaders(tune)
                 + "K:"+setting.key+ "\n" 
-                + "M:"+meter+ "\n" 
-                + "L:" + ((tune.noteLength && tune.noteLength.trim().length > 0) ? tune.noteLength : "1/8") + "\n" 
-                + aliasText + abc  + " \n" + 
-                "T: " + songNumberForDisplay(songNumber) + ". "  + useName + "\n" + 
-                "S:" + (tune.source ? tune.source : '')  + "\n" +
-                "R: "+  tune.type + "\n" 
+                + "R: "+  getTuneType(tune) + "\n" 
+                + aliasText + abc  + "\n" 
+                // add song number to title
                 +
                 "% abc-sessionorg_id " + tune.id + "\n" + 
                 "% abc-sessionorg_setting " + tune.useSetting + "\n" + 
                 "% abc-sessionorg_setting_id " + setting.id + "\n" + 
-                "% abc-force_title " + tune.forceTitle + "\n" +
+                //"% abc-force_title " + tune.forceTitle + "\n" +
                 "% abc-boost " +  boost + "\n" 
+                + tune.abccomments + "\n"
     
     
-    console.log('tweakabc D',abc, tune, songNumber, tweaked)
+    console.log('ABC OUT', tune, songNumber, tweaked)
     return tweaked
   } else {
     return ''
   }
 }
 
+function renderOtherHeaders(tune) {
+  if (tune && tune.meta) {
+    return Object.keys(tune.meta).map(function(key) {
+      // exclude required headers
+      var required = ['X','N','K','M','L','T','S','R']
+      if (required.indexOf(key) === -1) {
+        return key + ": "+tune.meta[key] + "\n"
+      }
+    }).join("")
+  }
+}
 
 function json2shortabc(songNumber, tune) { //abc, songTitle, forceTitle, keySig, tuneType, songNumber) {
   if (tune) {
@@ -72,15 +84,15 @@ function json2shortabc(songNumber, tune) { //abc, songTitle, forceTitle, keySig,
       setting = tune.settings[tune.useSetting]
     }
     if (!abc || !abc.trim) {
-      return emptyABC(songNumber,tune.name, tune.forceTitle)
+      return emptyABC(songNumber,getTuneName(tune), tune.forceTitle)
     }
-    //var titleText = getTextFromSongline(tune.forceTitle)
-    const capitalize = (str, lower = false) =>
-    (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
-  ;
+    ////var titleText = getTextFromSongline(tune.forceTitle)
+    //const capitalize = (str, lower = false) =>
+    //(lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
+  //;
 
-    var useName = capitalize(tune.name,true)
-    var titleText = useName
+    //var useName = capitalize(getTuneName(tune),true)
+    //var titleText = useName
     //titleText && titleText.trim().length > 0 ? capitalize(titleText,true) : capitalize(tune.name,true)
     
       abc = abc.trim()
@@ -105,21 +117,21 @@ function json2shortabc(songNumber, tune) { //abc, songTitle, forceTitle, keySig,
       if (shortAbcParts.length > 3) {
         // tune starts at first bar
         if (shortAbcParts[0].trim() === '') {
-          var ts = timeSignatureFromTuneType(tune.type)
+          var ts = getTuneMeter(tune)
           if (ts !== '') {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
           shortAbc = shortAbc + "[K:"+setting.key+ "] "
           // tune title 
-          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+useName+ '"' +  shortAbcParts.slice(1).join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. '+getTuneName(tune)+ '"' +  shortAbcParts.slice(1).join("|") 
         // lead in note
         } else {
-          var ts = timeSignatureFromTuneType(tune.type)
+          var ts = getTuneMeter(tune)
           if (ts !== '') {
             shortAbc = shortAbc + "[M:"+ts+ "] "
           } 
           shortAbc = shortAbc + "[K:"+setting.key+ "] "
-          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +useName+ '"' +  shortAbcParts.join("|") 
+          shortAbc = shortAbc  + '"' + songNumberForDisplay(songNumber) + '. ' +getTuneName(tune)+ '"' +  shortAbcParts.join("|") 
         }
       }
       shortAbc = "\nX: "+songNumber + "\n" + shortAbc + "\n"

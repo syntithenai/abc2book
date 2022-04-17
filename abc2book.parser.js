@@ -22,21 +22,22 @@ function abc2Tunebook(abc) {
 
 function singleAbc2json(abc) {
   if (abc && abc.trim().length > 0) {
-    var meter = getMetaValueFromAbc("M",abc)
-    var noteLength = getMetaValueFromAbc("L",abc)
-    var key = getMetaValueFromAbc("K",abc) !== null ? getMetaValueFromAbc("K",abc).trim() : ''
-    var type = getMetaValueFromAbc("R",abc) !== null ? getMetaValueFromAbc("R",abc).trim() : ''
+    var meter = ensureText(getMetaValueFromAbc("M",abc))
+    //var noteLength = getMetaValueFromAbc("L",abc)
+    var key = ensureText(getMetaValueFromAbc("K",abc).trim())
+    var type = ensureText(getMetaValueFromAbc("R",abc).trim())
     
-    var id = getKeyedCommentFromAbc('sessionorg_id',abc)
+    var id = ensureText(getKeyedCommentFromAbc('sessionorg_id',abc))
     var setting = getKeyedCommentFromAbc('sessionorg_setting',abc)
     var settingId = getKeyedCommentFromAbc('sessionorg_setting_id',abc)
-    var forceTitle = getKeyedCommentFromAbc('force_title',abc)
-    var boost = getKeyedCommentFromAbc('boost',abc)
-    var title = getMetaValueFromAbc("T",abc)
-    var source = getMetaValueFromAbc("S",abc)
+    //var forceTitle = getKeyedCommentFromAbc('force_title',abc)
+    var boost = ensureInteger(getKeyedCommentFromAbc('boost',abc))
+    var title = ensureText(getMetaValueFromAbc("T",abc))
+    //var source = ensureText(getMetaValueFromAbc("S",abc))
+    // remove song number from title
     var tParts = title.split(".")
-    var name = tParts.length > 1 ? tParts[1].trim() : title
-    var aliases = getAliasesFromAbc("abc")
+    var name = ensureText(tParts.length > 1 ? tParts[1].trim() : title.trim())
+    var aliases = getAliasesFromAbc(abc)
     var tune = {
       "format": "json",
       "perpage": "50",
@@ -44,7 +45,7 @@ function singleAbc2json(abc) {
       "type": type,
       "aliases": aliases,
       "meta": getMetaFromAbc(abc),
-      "comments": getCommentsFromAbc(abc),
+      "abccomments": getCommentsFromAbc(abc),
       "settings": [
           {
               "key": key,
@@ -66,10 +67,10 @@ function singleAbc2json(abc) {
       }
       //tune.meter =meter
       //tune.noteLength = noteLength
-      tune.source = source
+      //tune.source = source
       tune.id = id
       tune.useSetting = 0
-      tune.forceTitle = forceTitle
+      //tune.forceTitle = forceTitle
       tune.boost = boost
       console.log('ABC2JSON single',tune)
       return tune
@@ -100,7 +101,12 @@ function getMetaFromAbc(abc) {
   var meta = {}
   parts.map(function(part) {
     if (isMetaLine(part) && !isAliasLine(part)) {
-       meta[part[0]] = part.slice(2)
+        if (part[0] === 'T') {
+            meta[part[0]] = stripLeadingNumber(part.slice(2).trim())
+        } else {
+            meta[part[0]] = part.slice(2).trim()
+        }
+       
     }
   })
   return meta
@@ -112,7 +118,8 @@ function getCommentsFromAbc(abc) {
     if (!abc) return
     var parts = abc.split('\n')
     return parts.map(function(line) { 
-        if (line.startsWith('% ')) {
+        // exclude custom comments
+        if (line.startsWith('% ') && !line.startsWith('% abc-')) {
             return line + "\n"
         } else {
             return ''
@@ -125,23 +132,23 @@ function getNotesFromAbc(abc) {
     var parts = abc.split('\n')
     var noteLines = []
     parts.forEach(function(line) { 
-        console.log('try',line)
-        if (!line.startsWith('% ') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
-            console.log('try OK', line.startsWith('% ') , isMetaLine(line), isAliasLine(line))
+        //console.log('try',line)
+        if (line !== undefined && line !== null && !line.startsWith('% ') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
+            //console.log('try OK', line.startsWith('% ') , isMetaLine(line), isAliasLine(line))
             noteLines.push(line)
         }    
     })
     var notes = noteLines
-    //try {
-        //notes = window.ABCJS.extractMeasures(noteLines.join("\n"))
-        //if (notes.trim().length === 0) {
-            //notes = noteLines
-        //}
-    //} catch(e) {
-        //notes = noteLines
-    //}
+    try {
+        notes = window.ABCJS.extractMeasures(noteLines.join("\n"))
+        if (notes.trim().length === 0) {
+            notes = noteLines
+        }
+    } catch(e) {
+        notes = noteLines
+    }
     console.log('Gna',abc,noteLines)
-    return noteLines.join("\n")
+    return notes.join("\n")
 }
 
 
@@ -153,7 +160,7 @@ function getAliasesFromAbc(abc) {
         var parts = abc.slice(first + 7).split("\n")
         var aliasParts = parts[0].split(",")
         aliasParts.forEach(function(aliasPart) {
-          aliases.push(aliasPart)
+          aliases.push(aliasPart.trim())
         })
         first = abc.indexOf('N: AKA:', first + 1)
     } 
@@ -167,7 +174,11 @@ function getMetaValueFromAbc(key,abc) {
         var parts = abc.split("\n"+key+":")
         var isFirst = abc.indexOf(key + ":") === 0
         if (isFirst || parts.length > 1) {
-            return parts[1].split("\n")[0]
+            if (part[0] === 'T') {
+                return stripLeadingNumber(parts[1].split("\n")[0].trim())
+            } else {
+                return parts[1].split("\n")[0].trim()
+            }
         } else {
             return ''
         }
@@ -180,8 +191,8 @@ function getKeyedCommentFromAbc(key,abc) {
     if (!abc) return
     var first = abc.indexOf('% abc-'+key)
     if (first !== -1) {
-        var parts = abc.slice(first + 8 + key.length).split("\n")
-        return parts[0]
+        var parts = abc.slice(first + 6 + key.length).split("\n")
+        return parts[0].trim()
     } else {
         return null
     }
@@ -274,6 +285,10 @@ function safeString(text) {
  * Manipulate timing of abc string
  * eg multiplier=2 then  A2 b/ b/2 => A b b 
  */
+ 
+function isOctaveModifier(letter) {
+    return (letter === ',' || letter === "'") 
+}
 
 function multiplyAbcTiming(multiplier,abc) {
     var measures = window.ABCJS.extractMeasures(abc)[0].measures
@@ -308,13 +323,23 @@ function multiplyAbcTiming(multiplier,abc) {
         if (!inQuote && !inCurlyBracket && !inSquareBracket && isNoteLetter(symbol)) {
             if (c > abc.length + 1) {
                 nextSymbol = abc[c+1]
-                if (c > abc.length + 2) {
-                    nextNextSymbol = abc[c+2]
-                    
-                    if (c > abc.length + 2) {
-                        nextNextNextSymbol = abc[c+2]
+                if (isOctaveModifier(nextSymbol) {
+                    if (c > abc.length + 3) {
+                        nextNextSymbol = abc[c+3]
+                        
+                        if (c > abc.length + 3) {
+                            nextNextNextSymbol = abc[c+4]
+                        }
                     }
-                }
+
+                } else {
+                    if (c > abc.length + 2) {
+                        nextNextSymbol = abc[c+2]
+                        
+                        if (c > abc.length + 2) {
+                            nextNextNextSymbol = abc[c+2]
+                        }
+                    }
             }
             var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
             newAbc.push(symbol + abcFraction(decimalToFraction(result.number  * multiplier)))
@@ -434,4 +459,30 @@ function isSlash(a) {
     }
 }
 
+function getTuneName(tune) {
+    if (tune && tune.meta && tune.meta.hasOwnProperty("T")) {
+        return ensureText(stripLeadingNumber(tune.meta.hasOwnProperty("T")),tune.name)
+    }
+}
 
+function getTuneType(tune) {
+    if (tune && tune.meta && tune.meta.hasOwnProperty("R")) {
+        return ensureText(tune.meta.hasOwnProperty("R"),tune.type)
+    }
+}
+
+function getTuneNoteLength(tune) {
+    if (tune && tune.meta && tune.meta.hasOwnProperty("L")) {
+        return ensureText(tune.meta.hasOwnProperty("L"),'1/8')
+    }
+}
+function getTuneMeter(tune) {
+    if (tune && tune.meta && tune.meta.hasOwnProperty("M")) {
+        return ensureText(tune.meta.hasOwnProperty("M"),timeSignatureFromTuneType(tune.type))
+    }
+}
+function getTuneSource(tune) {
+    if (tune && tune.meta && tune.meta.hasOwnProperty("S")) {
+        return ensureText(tune.meta.hasOwnProperty("S"))
+    }
+}

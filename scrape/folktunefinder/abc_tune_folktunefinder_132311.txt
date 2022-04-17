@@ -1,0 +1,24 @@
+X:11
+T:Grandfather's Clock
+Z:Jack Campin  *  May 2000  *  http://www.campin.me.uk/
+M:2/4
+L:1/8
+K:D
+P:A
+A   |dc/d/    ed/e/| fg/f/    Be/e/|dd       cB/c/| d/e/f/g/ aA/A/|\
+     dc/d/    ed/e/| f/f/g/f/ Be/e/|dd       cB/c/| d2       z   :|
+P:B
+d/f/|a/g/f/e/ dd   | e/d/c/B/ Ad/f/|af       dc/d/| e2       zA/A/|\
+     dz       ez   | f/f/g/f/ Be/e/|dd       cB/c/| d2       z   :|
+P:C
+A/A/|dA/A/    BA   |.F.A     .F.A  |d/d/A/A/ BA   |.F.A     .F.A  |\
+     dz       ez   | f/f/g/f/ Be/e/|dd       cB/c/| d2       z   :|
+S:https://www.folktunefinder.com/tunes/132311
+S:http://www.campin.me.uk/Music/colonial.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T: Ballad Of Persse O'Reilly
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+F2E |: EFE D2C | DB,2 B,B,C | (D{G}D{E}D) DCB, | CA,2 A,A,B, |
+(=C{D}C{B,}C) CCD | B,2B, B,2A, | ^G,G,A, B,=CB, |1 C3 CEE :|2 C3 C2C ||
+|: =G,A,B, A,3 | A,2A, =G,A,B, | A,3 D2B, | =G,A,B, A,3 |
+A,2A, =G,A,B, | A,2=C A,CD | E2A, =G,A,B, |1 A,3 E2=C :|2 A,3 F2E ||
+S:https://www.folktunefinder.com/tunes/133088
+S:http://www.thesession.org/tunes/display/5015
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

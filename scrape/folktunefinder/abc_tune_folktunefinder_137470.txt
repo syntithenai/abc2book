@@ -1,0 +1,25 @@
+X:175
+T:Lovely Leitrim
+M:3/4
+L:1/8
+Q:120     %Tempo
+K:D
+F2 |A4 B2 |F4 A2 |B4 e2 |
+d4 B2 |A2 F4 |E4 F2 |D6 |
+D4 A2 ||:d4 c2 |d4 e2 |d4 c2 |
+B4 A2 |B4 e2 |d2 c2 B2 |1A6 |
+A4 A2 :|2A6 |A2 D2 F2 ||A4 B2 |
+F4 A2 |B4 e2 |d4 B2 |A2 F4 |
+E4 F2 |D6 |D4 F2 ||]
+%End of file
+%  ABC2Win Version 2.1 27/06/2002
+S:https://www.folktunefinder.com/tunes/137470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

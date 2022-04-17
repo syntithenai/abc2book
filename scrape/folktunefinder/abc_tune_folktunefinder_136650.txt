@@ -1,0 +1,27 @@
+X:8
+T:Visioner av en eldgammel fremtid
+C:Mortiis
+D:nden som gjorde opprr
+O:Norge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/4
+Q:1/4=120
+K:C
+%%%staves (1 2)
+%%MIDI transpose -12
+V:1
+|: e3/ g/4a/4 b/a/ g/4a/4 b/ | g3/ a/4b/4 c'/b/ a/4g/4a/4b/4 |1 a3/ a/4b/4 e'/d'/c'/b/ :|2 a3/ a/4b/4 e'/d'/e'/f'/ |
+V:2
+K:C 
+|: [E,4E4] | [G,4G4] | [A,2A2][C,C][D,D] :|
+S:https://www.folktunefinder.com/tunes/136650
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

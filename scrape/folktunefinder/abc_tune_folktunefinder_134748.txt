@@ -1,0 +1,24 @@
+X:27
+T:The Mist on the Mountain
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:G
+"Am" EAA  ABd | edB  AGE | "G"  GFG  GAB |        dBG  BAG | 
+"Am" EAA  ABd | edB  AGE | "G"  efg  BAG | "D/Am" BAG   A3 :|
+"Am" age a2 b | age  edB | "G"  AGE G2 A |        BAB  AGE |
+"Am" age a2 b | age  edB | "G"  AGE G2 A | "D/Am" BAG A2 a ||
+"Am" age a2 b | age  edB | "G"  AGE G2 A |        BAB  AGE |
+"Am" EDE G2 A | BAG B^cd | "G"  efg  BAG | "D/Am" BAG   A3 |]
+S:https://www.folktunefinder.com/tunes/134748
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

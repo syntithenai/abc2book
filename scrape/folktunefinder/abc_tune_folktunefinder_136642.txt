@@ -1,0 +1,19 @@
+X:1
+T:The Battle of New Orleans
+M:4/4
+L:1/8
+K:C
+ c2| e2 eee-e dc| de dc A2c-c| dd de dc AG| cc cc G2| z G| ee ef ee dc|\
+ de dc A2 cc| dc de dc AG| cc cc c2| c2| e2 g2 g2 ef| ga ge dc cc|\
+ ee gg ge ga| ge dd c2| z e| g2 g2 g2 e2| ga ge d c- c2| ge ga gg ga|\
+ ge dc c2|
+S:https://www.folktunefinder.com/tunes/136642
+S:http://back.numachi.com:8000/dtrad/abc/BATNEWOR.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BATNEWOR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:20
+T:Merrily Kiss the Quaker
+Z: id:dc-slide-20
+M:6/8
+L:1/8
+K:G Major
+D|GAB D2B|cBA BGE|GAB DEG|A3 AGE|!
+GAB D2B|cBA BGE|GAB DEF|G3 G2:|!
+A|BGG AGG|BGG AGG|GAB DEG|A3 AGA|!
+BGG AGG|BGG AGG|GAB DEF|G3 G2:|!
+d|g3 a3|bge d^cd|g3 gab|a3 agf|!
+g3 f3|e3 dBA|GAB DEF|G3 G2:|!
+S:https://www.folktunefinder.com/tunes/134920
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

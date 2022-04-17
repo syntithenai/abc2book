@@ -1,0 +1,35 @@
+X:170
+T: Tin Wedding
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: C
+(3GAB |cG G2 EGCG|(3FGF DG (3FGF DG|EGcd ecfe|\
+(3ded (3cBA G2 AB|
+cG G2 (3EFG CE |FGDG (3FGF DG |EGcd edcB |c2 e2 c2 :|
+Bc | dBGB dBgf | ecGc ecag | ^fdAd fdba |\
+(3gag (3fgf (3efe (3ded|
+cG G2 EGCG |(3FGF DG (3FGF DG |EGcd edcB |c2 e2 c2 :|
+P: version in D
+K: D
+(3ABc |dA A2 FADA|(3GAG EA (3GAG EA|FAde fdgf|\
+(3efe (3dcB A2 Bc|
+dA A2 (3FGA DF | GAEA (3GAG EA | FAde fedc | d2 f2 d2 :|
+cd | ecAc ecag | fdAd fdba | ^geBe gec'b |\
+(3aba (3gag (3fgf (3efe|
+dA A2 FADA | (3GAG EA (3GAG EA | FAde fedc | d2 f2 d2 :|
+S:https://www.folktunefinder.com/tunes/136967
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

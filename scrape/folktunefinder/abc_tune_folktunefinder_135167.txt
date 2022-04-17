@@ -1,0 +1,29 @@
+X: 1
+T: The Banks of Allen
+Z: John Chambers <jc@trillian.mit.edu>
+R: jig
+N: Carlin #530
+M: 6/8
+L: 1/8
+K: D
+|: DE | "D"F>GF FED | F>AA A2d | "G"B>dd "D"Add | "Em"Bdd "A7"ADE |
+   y8 | "D"F>GF FED | F>AA A2d | "G"B>dB "D"AFD | "Em"F>EE "A7"E :|
+|: de | "D"f>gf fed | f>aa "(A7)"a3 | "D"f>gf fed | "G"g>bb b3  |
+   y8 | "D"f>ga "A"efg | "Bm"def fed | "G"B>dB "D"AFD | "Em"F>EE "A7"E :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/135167
+S:http://trillian.mit.edu/~jc/music/book/500/BanksOfAllen_x.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

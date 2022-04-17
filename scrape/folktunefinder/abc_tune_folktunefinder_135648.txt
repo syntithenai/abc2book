@@ -1,0 +1,20 @@
+X: 1
+T: Banshee, The
+M: 4/4
+L: 1/4
+Q: 125
+R: reel
+K: G
+"G" G G/D/ E/D/B,/D/|G/F/G/B/ d B/d/| "C" e/g/ e/d/ B/A/G/A/|"D" B/A/G/E/ E/D/B,/D/| "G" G G/D/ E/D/B,/D/| G/F/G/B/ d B/d/| "C" e/g/e/d/ B/A/G/A/| "D" B/A/G/E/ E/D/ D:|: "C" e/a/a/g/ "D" e/f/g/e/| "Em" d/B/B/A/ B>d|e/B/B/B/ e/B/"D"g/B/| "Em" e/B/B/A/ B> d| "C" e/a/a/g/ "D" e/f/g/e/ | "Em" d/B/B/A/ B> d| "C" e/g/e/d/ B/A/G/A/| "D" B/A/G/E/ E/D/B,/D/:|| "END G" G4||
+S:https://www.folktunefinder.com/tunes/135648
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs2.html
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tenpennybit.com/abcs2.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

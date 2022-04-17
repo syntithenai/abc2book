@@ -1,0 +1,25 @@
+X: 30
+T:Speed The Plough, Bampton
+M:2/4
+L:1/8
+S:Ben Lobley 1975
+A:Bampton
+P:A(AB2)4
+K:G
+P:A
+|:GABc|dedB|dedB|dedB|c2(3cdc|B2B2|1A2A2|A4:|2A2F2|G4||
+P:B
+|:g2gg|g4  |g2fe|dBGB|cdec   |BcdB|1A2AA|A4:|2A2F2|G4||
+S:https://www.folktunefinder.com/tunes/131599
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

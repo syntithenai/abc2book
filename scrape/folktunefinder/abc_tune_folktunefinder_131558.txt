@@ -1,0 +1,26 @@
+X:32
+T:Yankee Doodle Stick Dance
+M:4/4
+S:Binghamton MM
+A:Bampton
+O:English
+R:Jig
+P:A(AB)3CD
+K:D
+P:A
+ddef df e2 | ddef d2 c2 | ddef gfed | cABc d2 d2 |]
+P:B
+B>cBA Bc d2 | A>BAG F2 A2 | B>cBA BcdB | Adce d2 d2 :|
+P:C
+S:https://www.folktunefinder.com/tunes/131558
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:15
+T:Shepherd's Hey (Signpost)
+S:Bacon (MDT)
+A:Field Town
+O:English
+R:Reel
+%P:A(AB)4
+M:2/2
+L:1/8
+K:G
+P:A
+|: B>c | d>cB>c d2 e>f | g>ag>f e2B>c | d>cB>c d2 e>f |\
+M:3/2
+g>a g>f e6 :|
+M:2/2
+P:B
+|: z d | c2 (3ccc B>AG>B | d>c (3Bcd c>B (3ABc | B>A G2 A>Bc>d |\
+M:3/2
+e>f g>f e6 :|
+S:https://www.folktunefinder.com/tunes/132416
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

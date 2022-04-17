@@ -1,0 +1,68 @@
+X:1
+T:Plin : Suite Riou/Irvoas
+Z:Roger Ngaret (Aot 2000)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=160
+M:4/4
+L:1/8
+K:Eb
+T:Ton simpl
+K:Eb
+P:1
+cd ed ed cB | cd ed e2 c2 | cd ed ed cf | ed cB e2 c2 ||
+df ec ed Bf | Bc dc B2 B2 | ff (3edc ed BB | Bc dc B2 B2 ||
+P:2
+d2 dB cd ed/e/ | f2 ff gf d2 :: f2 ff gf dB | c2 ce dc B2 :|
+P:3
+Bf ff ff f2 | gf fe e2 c2 | Bf gf Bf f2 | gf fe e2 c2 ||
+cf fe ed B2 | cc cd c2 B2 | cf fe eA B2 | cB c_d c2 B2 |]
+%%newpage
+T:Bal A
+M:6/8
+f3 g3 | f2 e dcB | g2 a g2 f | g3 g2 f | f3 g3 | f2 e dcB |
+g2 f gaf | g3 g3 ||
+M:4/4
+ge fg ag f2 | ed c2 B2 cg | ge fg ag f2 | ef ge f2 g2 |
+ge fg ag f2 | ed c2 B2 cg | ge fg ag f2 | ef ge f4 |]
+T:Bal Plomeur (C:Daniel Philippe, St Conan)(S:Gildas Moal et Ren Chaplain)(Mars 99)
+Q:1/4=100
+K:Bb
+(3fff ga bb c'2 | bc' d'c' (3bgg f2 :|
+Q:1/4=180
+f2 gf de f2 | f/f/f/f/ gf de f2 | B2 AB cd B2 | bb ab c'a b2 | 
+f2 gf de f2 | (3fef (3gfe de f2 | B2 AB cd B2 | bb ab c'a b2 |]
+%%newpage
+T:Ton doubl
+P:1
+Bd dd cd e2 | cc cB/c/ d2 d2 ::
+Bd dd cd e2 | cc ce ef d2 | Bd dd cd e2 | cc cd/c/ B2 B2 :|
+P:2
+ec dB BA Ae | ef ed B2 Be | ec dB BA Ae | ef ed B2 B2 |:
+Bf ff ge f2 | fe/d/ cd ef de | ec dB BA Ae/e/ | ef ed B2 B2 :|
+P:3
+d>e fB cB cB | ce (3dcB c>c B2 ::
+d>e fe df (3edc | d>e fe df e2 | d>e fB cB cB | ce (3dcB c>c B2 :|
+T:Ton doubl Plomeur (S:Gildas Moal et Ren Chaplain)(Mars 99)(N:Tonalit Sibm)
+K:Eb
+c | cf ef ga g2 | (3fgf ef ga g2 | fg (3agf ef g2 |
+fg ff ed c2 | fg (3agf ef g2 | (3fgf ec dB c2 |]
+T:Ton doubl Duro - Le Lay (S:Stage Festival fisel aot 98)(Dcembre 98)
+K:Bb
+G | cd ed c2 cG | cd ed c2 c ::
+g_a ge fd e2 | ef ge ce d2 | g_a ge fd e2 | ef ed c2 c2 :|
+|: ab c'b ab ag | ab c'b a2 a2 ::
+g_a ge fd e2 | ef ge ce d2 | g_a ge fd e2 | ef ed c2 c2 :|
+S:https://www.folktunefinder.com/tunes/132385
+S:http://termen.free.fr/danses/cornouaille/PlinSuiteRiouIrvoas.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

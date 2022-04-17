@@ -1,0 +1,35 @@
+X:2
+T:Browning
+T:Tenor
+C:Elway Bevin
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on fourth line
+M:3/2
+L:1/2
+K:F -8va
+z2 F B2 A G2 G B > G A G2 G B2 B c2 B A G/ F/ G F B c d2 c
+B3/4 A// G/ A/ B/ c/ d2 c B > A G F D3/4 E// F/ G/ A G2 F2 E F > G A G F2 B > A B/ c/ d > e f
+e/ d/ c/ d/ _e d > c B A/ F/ G/ A/ B/ G/ A/ B/ c/ d/ B A G/ F/ G A3/4 G// A/ B/ "f"=c B A F > G A/ B/ c d D3/4 E// F/ G/ A/ B/ c A 
+%p. 20
+B > c d c2 =B c2 G c2 =B A2 A c > A =B A2 A c2 c d2 c =B A/ G/ A
+G E A > G A/ B/ c =B3/4 A// =B/ c/ "f"_B A > B c d G/ A/ _B/ c/ d3/4 c// d/ e/ f/ d/ e > d c c =B/ A/ =B c G A D > E F
+G > A B > c d c _e d g f3/4 e// d/ c/ B/ A/ G/ F/ E z/ D/ E/ F/ G/A/ B/ G/ A2 F B2 A G2 G
+B > G A G2 G B2 B c2 B A G/ F/ G F > E D/ C/ G D/ E/ F/ G// A// B/ A/ G/ F/ _E
+D3/4 E// F/ G "f"^F/ G z/ B/ c/ _e/ d3/4 G// d/ f/ =e/ d/ e d/ c/ d c// B// c// d// _e/ d/ c/ B/ A3/2 B// c// d c B/ c/ d/ B/ c > =B G/ A/
+B/ c/ d/ =e/ f/ d/ e c/ d/ _e/ f/ g > f _e/ d/ c d c/ B/ B2 A B2 B _e2 d c2 c "f"_e > c d c2 c "f"_e2 "f"_e
+%p. 21
+f2 "f"_e d c/ B/ c B > c d > c B/ G/ A/ B/ c/ d/ _e/ d// c// B G z/ G/ c > B c/ d/ "f"_e d > c B A3/2 B// c// d > c _e/ d/ c/ B/
+A3/4 B// c/ d/ e d c3/2 d// e// f d/ f e/ d/ c d/ "f"=B/ "f"^c/ d/ F// G// A/ B// c// d c/ A// B// c/ c// e// f e/ d c// B// d/ c G// A// B// A// B// c// A/ B/
+c2 F B2 A G2 G B > G A G2 G B2 B c2 B A G/ F/ G HF3 |]
+S:https://www.folktunefinder.com/tunes/136254
+S:http://www.laymusic.org/music/bevin/browning/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

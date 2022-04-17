@@ -1,0 +1,30 @@
+X: 42
+T:Jack Lattin. JBa.41
+M:2/4
+L:1/16
+Q:140
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+H:See Paul's notes..
+Z:vmp.C.Graebe.
+K:G major
+(GABc) d2g2 | d2B2B2g2 | d2B2B2g2 | d4B4 | !
+GABc d2g2  | d2B2B2g2 | f2A2A2B2 | c4A4 :|!
+|:GABc d2B2 | e2dc d2B2 | GABc d2B2 | d4B4 | !
+GABc "crs"d2B2 | e2dc d2e2 | f2A2A2B2 | c4A4 :|!
+|:g2d2 BcdB | g2d2 BcdB | g2d2 BcdB | d4B4 |!
+ g2d2 BcdB | g2d2 BcdB | g2A2A2B2 | c4A4 |]
+S:https://www.folktunefinder.com/tunes/132707
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

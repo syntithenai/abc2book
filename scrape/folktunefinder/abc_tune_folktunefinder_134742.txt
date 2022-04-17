@@ -1,0 +1,23 @@
+X:21
+T:Jimmy Ward's
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:G
+"G" G2 G     GAB | "C" AGE "G" GED | "G" ~G3      AGE | "C" GED "D" DEF |
+"G" G2 G     GAB | "C" AGE "G" GAB | "C" cBA  "G" BGE |1 "D" ~D3    DEF :|2 "D" DED D2 B ||
+"C" c2 A "G" BAG | "D" ABA     AGE | "C" c2 A "G" BGE | "D"  DED  D2  B |
+"C" c2 A "G" BAG | "D" ABA     ABc | "D" dcA  "C" GEA |1 "D" DED  D2  B :|2 "D" D2 B cAF |]
+S:https://www.folktunefinder.com/tunes/134742
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+S:http://sf.ccewest.org/music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

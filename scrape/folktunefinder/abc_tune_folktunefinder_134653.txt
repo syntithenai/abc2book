@@ -1,0 +1,29 @@
+X:90
+T:Jerry Blossom
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:2/4
+N:(P)
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Change sides down the middle Allemand
+%%Page:9
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001177.html
+%%ID:00001177
+K:D
+d2 fe | d2 A2 | Bdce | dfaf | \
+d2 fe | d2 A2 | Bdce | d2 z2 ::
+e2 gf | e2 B2 | gfed | ceAc | \
+d2 fe | d2 A2 | Bdce | d2 D2 ::
+%%newpage
+%%Page:10
+S:https://www.folktunefinder.com/tunes/134653
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

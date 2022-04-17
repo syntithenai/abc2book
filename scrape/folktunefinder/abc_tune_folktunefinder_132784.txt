@@ -1,0 +1,26 @@
+X: 20
+T:"Kitty Magee"         (jig)     0716
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+F:http://jc.tzo.net/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0716-KittyMagee.abc 2007-02-04 09:38:57 UT
+K:G
+d|d2A AFA|d3efg|f2d e2d|c2A ABc|\
+d2A AFA|d3efg|f2d e2c|d3/2e/2d d2:|
+|:A|d2f a2f|e2f g3|f2d e2d|c2A A3|\
+aba g2f|e2f g3|f2d e2c|d3/2e/2d d2:|
+S:https://www.folktunefinder.com/tunes/132784
+S:http://jc.tzo.net/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0716-KittyMagee.abc
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

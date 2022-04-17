@@ -1,0 +1,27 @@
+X:15
+T:Constant Billy, Bampton
+S:CJS
+A:Bampton
+M:6/8
+Q:1/4=128
+P:A(AB2)4
+K:Bb
+P:A
+|:F|B2f  d>Bd|e2c c>Bc|d>cB G>AB|FGA B2:|
+P:B
+d>ef g>ab|c>de fdB|d>ef g>ab|c>de f3|
+B2f d>Bd|e2c c>Bc|d>cB G>AB|F>GA B2|
+S:https://www.folktunefinder.com/tunes/131584
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

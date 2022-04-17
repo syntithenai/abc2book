@@ -1,0 +1,31 @@
+X: 56
+T:Dumfries Bowling Green. JBa.55
+M:6/8
+L:1/8
+Q:120
+C:Here be beasties....
+S:Joseph Barnes MS,Carlisle,1762.
+R:jig
+O:England
+A:Carlisle
+N:I've assigned it as 6/8 with ref. to JBa.11...CGP
+Z:vmp.C.Graebe.
+K:C major
+"No key/time sig,as writ,bar lines wonky,see note" f2 ecA c2 |\
+(Bc)(dB) c2 | f ecA c2 d | ecA A2f |!
+ ecA c2 |(Bc)(dB) c2 | f ecA c2 | d dBG G2 :|!
+|:c2 (e2e)fg gec efg | c2 )e2e)fg acA A2 |!
+ c2e2 efg gec efg c2 e2 efg | dBG G2 :|!
+|:AB cGE cGE | cGE G2 AB | cGE cGE AFD D2 |!
+ AB cGE cGE | cGE c2A2 | dBG c2A2 dBG G2 |]
+S:https://www.folktunefinder.com/tunes/132721
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

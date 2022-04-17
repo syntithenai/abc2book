@@ -1,0 +1,29 @@
+X: 8
+T:Waltz for Polle
+C:Wim Poesen
+M:3/4
+L:1/4
+S:Matthiesen's Waltz Book III
+R:Waltz
+K:G %Transposed from C
+D |: "G"B3 | "G"ABd | "G"D3- | "G"DEF | "C"G3 |
+"C"EFG | "G"B>cB | "D"A2D | "G"B3 | "G"ABd | "G"D3- |
+"D"DEF | "C"G>AB | "D7" AGF |1"G"G3- | "G"G2D :|2"G"G3- |
+GAB |: "C"c2B | "C"A2G | "D"F3- | "D"FBc | "G"d2c |
+"G"B2A | "Em"G2F | "Em" EAB | "C"c2B | "C" A2G | "D"F3- |
+"D"FEF | "C"G>AB | "D7"AGF|1"G"G3- | "G"GAB :| [2"G"G3- |
+"G"G2|]
+S:https://www.folktunefinder.com/tunes/136890
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/WaltzEtc.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/WaltzEtc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

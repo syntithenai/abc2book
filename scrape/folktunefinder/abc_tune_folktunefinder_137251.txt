@@ -1,0 +1,28 @@
+X:5
+T:The Buffoon
+S:Bacon (MDT)
+A:Adderbury
+O:English
+R:Reel
+P:A(AB)5A
+M:2/2
+K:G %Transposed from F
+L:1/8
+P:A
+G3 A BAGA  | B2 d2 d4 | G3 A  BAGA  | B2 A2 A4 |
+G3 A BAGA  | B2 d2 d4 | d2 cB A2 d2 | B2 G2 G4 |]
+P:B
+e3 f e2 d2 | e2 G2 G4    | e3 f  e2 d2 | e2 G2 G4 |
+e3 f e2 d2 | c3 d  c2 B2 | d2 cB A2 d2 | B2 G2 G4 |]
+S:https://www.folktunefinder.com/tunes/137251
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

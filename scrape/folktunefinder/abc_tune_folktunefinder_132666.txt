@@ -1,0 +1,34 @@
+X: 1
+T:Count F...'s March. JBa.01
+M:C|
+L:1/4
+Q:100
+S:Joseph Barnes MS,Carlisle,1762.
+R:march
+O:England
+A:Carlisle
+N:1 - grace note shown as a crochet
+Z:vmp.C.Graebe.
+K:G Major
+"sh = shake.  See pages 1 - 11"\
+B/c/ | d2e2 | d/c/B/c/ dg | G2A2 | B/A/G/F/ Gd |!
+ e/d/c/e/ eg | d/c/B/c/dg |c2 "sh"B>c | "NB1  sh"{B}"sh"A3 :|!
+|:f/g/ | a2d2 | ^c2 d f/g/ |a2d2 |^c/d/e/c/ AA |!
+d (d/4e/4f/) e (e/4f/4g/) |\
+f (f/4g/4a/) g (g/4a/4b/) | ad{f}e d/"Cnat in ms""2"^c/ | {c}d3g |!
+e/d/c/d/  eg | d/c/B/c/ dg | c2"sh"B2 | A/G/F/E/ DD |!
+G (G/4A/4B/) A (A/4B/4c/) | B (B/4c/4d/) c (c/4d/4e/) |\
+ dG"1"{B}A G/F/ | "1"{F}G3 |]
+S:https://www.folktunefinder.com/tunes/132666
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

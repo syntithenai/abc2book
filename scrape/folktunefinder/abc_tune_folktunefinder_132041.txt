@@ -1,0 +1,23 @@
+X: 33
+T: VALSE A SYLVIE
+M: 3/4
+L: 1/8
+Q:1/4=120
+K:C
+|EAE ABc|BAE c3|EAE ABc|BAF c3|
+ABA Bcd|cBG d2 d/2 z/2 |ABA Bcd|Be4e|
+cAE ABc|BAE c2 c/2 z/2 |EAE ABc|BAF c3|
+ABA Bcd|cBG d2 d/2 z/2 |ABA Bcd|Be4e|
+cBG d2 d/2 z/2 |Bed cBA|^GA2 A/2 z/2 AB|AF2 F/2 z/2 AB|
+AE2 E/2 z/2 AB|cd2 d/2 z/2 =Gc|de2 d/2 z/2 AB|AF2 D/2 z/2 AB|
+AE4E|EE^F ^GAB|cA2 A/2 z/2 AB|A=FA BcB|
+AEA BcB|Ad=G ^FGc|deA BcB|A=FD EFA|
+FEd cAB|ced cBA|^GA4A3/2|
+S:https://www.folktunefinder.com/tunes/132041
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/valses.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

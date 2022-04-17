@@ -1,0 +1,24 @@
+X: 16
+T:Shepherds' Hey, Adderbury (RKS)
+M:4/4
+L:1/4
+A:Adderbury
+P:A(AB)6A
+K:F
+P:A
+|:AcB2|AcG2|AcBA/B/|1cCF2:|2cCF3/2F/4G/4||
+P:B
+|:AFB2|AFG2|AcBA/B/|1cCF3/2F/4G/4:|2cCF2||
+W:
+W:Shepherd's Hey (hay), clover too, Rye-grass seeds and turnips too
+S:https://www.folktunefinder.com/tunes/137274
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Adderbury.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Adderbury.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Adderbury.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1038
+T:"The Barronstown Races" (jig)   1038
+C:after Mr. Cronin
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+F|DGG GFG|BGc BAF|DFE FEF|A2d cAF|
+DGA GFG|BAG Bcd|fed cAF|AGG G2:|
+|:d|dgg gfg|abg fed|cBc fef|abg fed|
+dgg gdc|BAG Bcd|fed cAF|AGG G2:|
+|:F|DGA BAG|(d/2c/2B)d cAG|FGA cAF|(c/2B/2A)c BAF|
+"Shake"GFG BAB|cBc dag|fed cAF|AGG G2:|
+|:d|gdg gbg|fdf (f/2g/2a)f|ede (e/2f/2g)e|dBG GAc|
+"Shake"BAB cBc|"Shake"dcd eag|fed cAF|AGG G2:|
+S:https://www.folktunefinder.com/tunes/136185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1038-BarronstownRaces.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1038-BarronstownRaces.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

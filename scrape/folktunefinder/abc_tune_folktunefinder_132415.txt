@@ -1,0 +1,31 @@
+X:14
+T:The Nutting Girl
+S:Bacon (RKS (MSS))
+A:Field Town
+O:English
+R:Reel
+%P:AAB(CB)2
+M:4/4
+K:G
+P:A
+DE | G2 B2 B2 d2 | c2 B2 A2 GF | G2 B2 d2 g2 | d2 d2 d2 cB |
+c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4 G2 |]
+P:B
+dd | e2 g2 a2 f2 | g2 d2 d2 dd | e2 g2 a2 f2 | g4 d2 dd | 
+e2 g2 a2 g2 | f2 e2 d2 B2 | A2 B2 c2 e2 | d4 c2 BA |
+G2 B2 B2 d2 | c2 B2 A2 GF | G2 B2 d2 g2 | d2 d2 d2 cB |
+c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4 G2 |]
+P:C
+DE | G4 B4 | B4 d4 | c4 B4 | A4 G2 F2 | G4 B4 | d4 g4 | d4 d4 | d4 c3 B |
+c2 e2 A2 Bc | B2 d2 G2 AB | c2 A2 G2 F2 | G4 G2 |]
+S:https://www.folktunefinder.com/tunes/132415
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

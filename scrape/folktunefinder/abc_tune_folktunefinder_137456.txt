@@ -1,0 +1,22 @@
+X:105
+T:The Jockey at the Fair
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+K:G
+D | G2 A B2 c | d2 g d2 c | BAB GFG | cBc ABc | dcd efg | a2 f d2 g | fe
+d ABc | d3 d2 :| fg || afd afd | c3 B2 c | dgd dgd | c3 Bcd | e2 f gfe |
+d2 c Bcd | edc B2 A | B2 G E2 D | G3 GBd | e2 f g2 e | dBG A2 B | E2 F
+G2 A | B2 g B2 A | G3 G2 ||
+S:https://www.folktunefinder.com/tunes/137456
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

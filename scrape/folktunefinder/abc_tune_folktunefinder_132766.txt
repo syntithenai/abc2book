@@ -1,0 +1,26 @@
+X:2
+T:Suite de polka piques
+R:Polka
+C:Trad.
+O:France
+M:2/4
+L:1/8
+K:C
+T:Pincou ou Marie Madeleine
+"C"e2g2 | "G"d/e/f/d/ "C"ec | e2g2 | d/e/f/d/ c2 ::
+"C"Gc cB/c/ | "G"df ec | "C"Gc cB/c/ | "G"dB c2 :|
+T:Pintou
+"C"g2e2 | "G"d/e/f/e/ dd | "C"g2e2 | d/e/f/e/ d2 ::
+"C"Gc cB/c/ | "G"df ec | "C"Gc cB/c/ | "G"dB c2 :|
+T:Tatou
+ga g2 | d/e/f/e/ dd | ga g2 | d/e/f/e/ d2 ::
+ec Bc | d/e/d/c/ BG | fd/f/ ec/e/ | dB c2 :|
+S:https://www.folktunefinder.com/tunes/132766
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

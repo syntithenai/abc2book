@@ -1,0 +1,27 @@
+X:32
+T: Dainty Davie 
+N: HA032
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge
+M: 2/2
+L: 1/8
+K: D
+d2 | A3FGFEF | D2B,2D3
+D | D2A2FGAF
+D2A2F2d2 | A3GF2EF | D2B,2D3
+D | D2d2edcd | B4d2
+A2 | d2f2def2 | defgf2
+ed | c2e2A2e2 | cdefe2
+dc | d3ef2ef | gfedc2
+BA | Bcdefedc | B4d2
+S:https://www.folktunefinder.com/tunes/135727
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

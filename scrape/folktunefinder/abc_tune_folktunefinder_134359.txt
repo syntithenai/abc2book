@@ -1,0 +1,30 @@
+X:1
+T:Balm in Gilead
+M:4/4
+L:1/4
+K:G
+B/2-A/2 B/2A/2
+M:4/4
+| G3 D| G/2A/2 B2 G| B3/2 B/2 c B| A2- c2|B/2-A/2 B/2A/2
+M:4/4
+| G3 D| G/2A/2 B2 G| B3/2 G/2 B A| G3 G| B3/2 G/2 B B| c d2 c| B B d B|\
+ A3 G| B3/2 G/2 B B| c d2 c| B G B A| G2- c2|
+M:2/4
+B/2-A/2 B/2A/2|
+M:4/4
+ G3 D| G/2A/2 B2 G| B3/2 B/2 c B| A2- c2|
+M:2/4
+B/2-A/2 B/2A/2|
+M:4/4
+ G3 D| G/2A/2 B2 G| B3/2 G/2 B A| G3||
+S:https://www.folktunefinder.com/tunes/134359
+S:http://back.numachi.com:8000/dtrad/abc/BALMGIL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BALMGIL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

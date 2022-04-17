@@ -1,0 +1,30 @@
+X:19
+T:Courento per tuchi
+S:Transcription : Masino Anghilante
+O:Valle Varaite
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-02-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=120 "Allegretto"
+L:1/8
+K:G
+%%continueall 1
+!p!z2z G2B || [P:A] "G"ded ded | d2B ded | "D7"ded cBA | "G"B2G G2B |
+ded ded | d2B ded | "D7"fed cBA | "G"G2z B3 |: "D7"cBA ABc | 
+"G"d2B G2B | "D7"cBA ABc | "G"d2B G2D | G3 A3 | B3 A2B |
+"D7"dcB ABA |1 G2z d3 :|2 G2z "G"!p!G2B ||"ultima" "G"G3 "D7"D3 | "G"[G3G,3]!p! z3 || [M:2/4]
+T:Balet
+[Q:1/4=120] z2 dc || [P:B] "G"BA/B/ c/A/B/c/ | "D7"dddc | BA/B/ cB/A/ | "G"AGGB | 
+BA/B/ cB/c/ | "D7"dddc | BA/B/ c/B/A | "G"G2G2 |: "C"E>E EE | 
+ED "D7"D2 |1  A>c BA/B/ | "G"AGGG :|2 A>c BA |"G"G2 dc |]
+%%footer $D   Galouvielle-MBe 2007 \nContredanse (Valle Varaita)
+S:https://www.folktunefinder.com/tunes/132818
+S:http://michel.bellon.free.fr/Musique/abc/ValleVaraita_D.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

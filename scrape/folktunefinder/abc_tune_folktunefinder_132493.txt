@@ -1,0 +1,29 @@
+X: 25
+T:Lumps of Plum Pudding, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:AAB(CB)2
+K:G
+P:A
+B>AG gfg|dBG G2A|BAG GAB|AFD D2c|
+BAG  gfg|def g2e|dBG ABc|d2B G3 ||
+P:B
+dfg  dfg|dfg G2B|cAB cAB|cAB D2d|
+BAG  gfg|def g2e|dBG ABc|d2B G3 ||
+P:C
+BA3   G2|g3  fg2|dB3  G2|G4   A2|\
+BA3   G2|B3  cd2|AF3  D2|D4-  Dc|
+BAG  gfg|def g2e|dBG ABc|d2B G3 ||
+S:https://www.folktunefinder.com/tunes/132493
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

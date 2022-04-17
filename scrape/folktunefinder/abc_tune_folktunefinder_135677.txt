@@ -1,0 +1,46 @@
+X: 1
+T:The Bantry Girls' Lament
+M:4/4
+L:1/4
+C:Traditional
+S:Digital Tradition Folk Music Database
+R:Song
+D:The Clancy Brothers, Tunes & Tales (1988)
+K:G
+G/2A/2 | B2 B>A | B<d d>e | d>B B/2A/2 G | A3 G/2A/2 | B B B>A |
+B d d>e | d>B A>G | G3 (3d/2e/2f/2 | g> f g>d | e d d g/d/ |
+e d B/2A/2 G | A3 G/2A/2 | B>B B>A | B d  d>e | d2>B/2 A>G | G3 |]
+W:
+W:Who will plow the field now, and who will sow the corn.
+W:Who will wash the sheep now, and keep them neatly shorn.
+W:The stack that's in the haggard, un-touched it may re-main,
+W:Since Johnny went a-thrashing all in the wars of Spain.
+W:
+W:Chorus:
+W:Johnny, lovely Johnny, he's sailing o'er the main,
+W:A-long with other patriots, to fight the King of Spain.
+W:
+W:And the girls from the bawn-oag in sorrow may re-tire.
+W:The piper and his bellows, (may) go home and blow the fire.
+W:At fairs and hurling matches, your likes we seldom see,
+W:Till you come home a-gain to us, a-storeen oag mo cree.
+W:
+W:And a cruel fate will not permit our Johnny to return.
+W:His heavy loss, we Bantry girls will never cease to mourn.
+W:We re-sign ourselves to our sad lot, and die in grief and pain.
+W:Johnny died for freedom's sake in the foreign lands of Spain.
+% Output from ABC2Win  Version 2.1 i on 11/13/2001
+S:https://www.folktunefinder.com/tunes/135677
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BantryGirlsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BantryGirlsLament.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BantryGirlsLament.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 6
+T:Milley's Bequest, Lichfield
+M:4/4
+L:1/8
+A:Lichfield
+P:A(AB)5
+K:D
+P:A
+d2de f2d2|B2gg g4|A2AB c2g2|f4 e4|
+d2de f2d2|B2gg g4|A2AB c2de|e4 d4||
+P:B
+a2aa g2g2|fgaf g4|a2aa g2gg|f4 e4|
+d2de f2d2|B2gg g4|A2AB c2de|e4 d4||
+S:https://www.folktunefinder.com/tunes/135893
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Lichfield.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Lichfield.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Lichfield.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

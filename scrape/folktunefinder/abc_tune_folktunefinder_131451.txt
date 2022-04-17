@@ -1,0 +1,30 @@
+X:20
+T:P\aa Hjemturen (S\onderhoning)
+C:F.J. Aalto
+%O:Sweden
+R:S\onderhoning
+Z:Bob Wyttenbach from Buffalo Gap tunebook
+M:4/4
+L:1/4
+K:D bass
+P:A
+A,,|:"D"D,ECB,|A,>G,F,A,|"Em"G,E,B,,E,|"A7"D,>C,B,,A,,|"D"D,DCB,|
+A,>G,F,A,|"Em"G,B,"A7"E,C,|[1"D"D,3A,,:|[2"D"D,3F,|:"A7"E,F,/G,/ A,,/C,/E,/C,/|
+"D"D,>E,F,A,|"Em"G,A,/B,/E,D,|"A7"C,D,/E,/C,A,,|"Bm"D,B,,/D,/"Em"E,F,|
+G,A,B,E|[1"D"D2"A7"CB,/C/|"D"D3F,:|[2"D"D2"A7"ED/C/|"D"D3||
+P:B
+A,,|:"D"D,D,/F,/"A7"E,E,/G,/|"D"F,A,"A7"G,/F,/E,|"D"F,G,/A,/ "A7"G,/F,/G,/E,/|"D"F,D,"A7"E,A,,|"D"D,D,/F,/"A7"E,E,/G,/|
+"D"F,A,"A7"G,/F,/E,|"Em"G,/F,/G,/E,/"A7"D,C,|[1E,2"D"D,A,,:|[2"D"D,3C/D/|:"A"EA,A,B,/C/|
+"D"D>EFD|"Em"GEED|"A"CB,/C/A,G,|"D"F,G,/A,/ "A7"E,/F,/G,|
+"G"B,C/D/ "Em"E/F/ G/E/|"A"DC/D/EC|[1"D"D3C/D/:|[2"D"D4||
+S:https://www.folktunefinder.com/tunes/131451
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001bass.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

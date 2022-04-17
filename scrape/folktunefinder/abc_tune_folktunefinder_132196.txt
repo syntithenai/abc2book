@@ -1,0 +1,23 @@
+X:94
+T: Der Scheintod
+N: Q1058C
+O: Suedosteuropa, Rumaenien, Siebenbuergen
+N: Melodievergleich zu Q0058A, anderes Lied.
+R: Hochzeits- , Rocken - Lied, Brauchtum
+M: 3/4
+L: 1/8
+K: F
+CFG | A3CFG | A2z
+cBAGF | A2CCF2G2 | A2z
+S:https://www.folktunefinder.com/tunes/132196
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Hochzeits- , rocken - lied, brauchtum
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

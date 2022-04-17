@@ -1,0 +1,36 @@
+X:26
+T:Gavotte : Suite Pourlet Ar Soner
+Z:Roger Ngaret (Mars 2000)
+R:
+C:Trad.
+S: Ar Soner de Juin 1959
+A:Bretagne
+M:4/4
+L:1/16
+K:Bb
+P:
+"Bb"B2d2 d2f2 fgfe d4 | "Cm"edcd fede c4 c4 |
+"Bb"B2d2 d2f2 fgfe d4 | edcd fede c4 B4 ::
+P:
+b2b2 f2g2 fgfe d4 | "Cm"B2d2 fgfe c4 c4 |
+"Bb"b2b2 f2g2 fgfe d3d | edcd fede c4 B4 ::
+P:
+B2dB d2f2 f2e2 d4 | "Dm"f2gf e2fe d4 d4 |
+"Bb"B2dB d2f2 fgfe d4 | edcd fede c4 B4 ::
+P:
+fgfe d2d2 fgfe d2d2 | f2gf e2fe d4 d4 |
+fgfe d2d2 fgfe d4 | "Bb"d2ed c2dc B4 B4 ::
+P:
+"Bb"Bcde f2ef gfef d4 | "Cm"edcd fede c4 c4 |
+"Bb"Bcde f2ef gfef d4 | edcd fede c4 B4 :|
+S:https://www.folktunefinder.com/tunes/132790
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

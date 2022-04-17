@@ -1,0 +1,38 @@
+X: 1
+T: Battle of Falkirk
+C: J.S.Skinner
+R: march, quickstep
+N: Skinner, H&C p.26, good variations
+M: 2/4
+L: 1/16
+K: AMix
+cd \
+| "A"{ef}e2A2      e2A2 |    gfed e4 \
+|    {f}e2A2       e2A2 | "G"gfed gGBd \
+| "A"{f}e2A2       e2A2 |    gfed e4 \
+|       agfe "G"{f}g2B2 | "A"e2A2 A2 :|
+|: e2 \
+| "A"{e}a2A2 {A}e2A2 |    gfed {d}e4 \
+| "A"a2A2       e2A2 | "G"gfed g2B2 \
+| "A"a2A2       e2A2 |    gfed e2fg \
+|     agfe   "G"gdBd | "A"e2A2 A2 :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/136634
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/BattleOfFalkirk.abc
+S:http://trillian.mit.edu/~jc/music/book/500/BattleOfFalkirk_x.abc
+% Rhythm March, quickstep
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 10
+T:Hunting the Squirrel, Headington 1
+M:2/2
+L:1/8
+A:Headington
+P:A(A2B2)4
+K:G
+Q:364
+P:A
+GABc d2B2|GABc d2B2|GABc d2B2|AGAB G4||
+P:B
+d2g2 f2a2|g2b2 d4  |d3e  dcBA|G2B2 G4||
+S:https://www.folktunefinder.com/tunes/131616
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

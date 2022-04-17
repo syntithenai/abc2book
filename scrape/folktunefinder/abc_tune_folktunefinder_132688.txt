@@ -1,0 +1,25 @@
+X: 23
+T:Minuet. JBa.22
+M:3/4
+L:1/4
+Q:80
+S:Joseph Barnes MS,Carlisle,1762.
+R:minuet
+O:England
+A:Carlisle
+Z:vmp.C.Graebe.
+K:G major
+"no key sig" G d/d/d/d/ | B e/e/e/e/ | d d/a/f/a/ | g2d |!
+ e c/c/c/c/ | B G/G/G/G/ | c d/c/B/c/ | A3 ||!
+A D/D/D/D/ | FAc | B G/G/G/G/ | ceg |!
+ f d/d/d/d/ | gab | e e/g/f/a/ | g3 |]
+S:https://www.folktunefinder.com/tunes/132688
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

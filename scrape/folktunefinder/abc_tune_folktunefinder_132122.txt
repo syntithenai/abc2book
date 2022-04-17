@@ -1,0 +1,27 @@
+X:20
+T: Ritter und Magd
+N: Q2055S
+O: Nordeuropa, Daenemark
+N: Daenische Fassung der Ballade. Dritte Zeile = Refrain auf
+N: sinnfreie Silben.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 4/4
+L: 1/8
+K: A
+E | AGAFE2EE | AGAFE3
+E | AGABc2ec | B4Az2
+E | AGAFE3E | AGAFE3
+E | AGABc2ec | B4Az2
+S:https://www.folktunefinder.com/tunes/132122
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

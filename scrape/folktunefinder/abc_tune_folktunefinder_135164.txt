@@ -1,0 +1,25 @@
+X:1
+T:The Banks of Allan
+C:Traditional
+R:jig
+G:fiddle jig, early 18th cent.
+S:The Gow Collection of Scottish Dance Music
+M:6/8
+Q:3/8=120
+K:D
+%%MIDI gchord fccfcc
+A| "D"FGF FED| FAA A2d| "Bm"Bdd "A"Add| "G"Bdd "D"Add| (FG)F- FED| 
+(FA)A-A2d| "Bm"BdB "A"AGF| "Em"GEE E2:| g| "D"fgf fed| "A"faa a2g|
+"D"fgf fed| "Bm"fbb bag| "A"fga "G"efg| "D"def- fed| "G"BdB "A"AGF|\
+ "Em"GEE E2:|
+S:https://www.folktunefinder.com/tunes/135164
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/TheBanksOfAllan.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

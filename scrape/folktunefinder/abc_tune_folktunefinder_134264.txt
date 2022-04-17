@@ -1,0 +1,34 @@
+X: 243
+T: Sue's Excellent Birthday
+C: R-131
+C: Bob Pasquarello
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+K: D
+FE| "D"DFAc d2cd| "A7"efed cBAF| "G"G2BG "D"F2AF| "Em"EFGA "A7"GFEF|
+    "D"DFAc d2cd| "A7"efed cBcd| "Em"edef "A7"gecA| "D"d6:|
+|:\
+dc| "G"BGBc d2cB| "D"AFAc d2cB| "A7"ABcd efge| "D"fd"A"ec "D"dc"D/F#"BA|
+    "G"BGBc d2cB| "D"AFAd "Bm"f2ef| "Em"gbge "A7"cABc| "D"df"A7"ec "D"d2 :|
+%%begintext ragged
+%% 9/1/98.  For Sue Dupre on her 40th birthday.
+%% (From 'Rum and Onions' Band by way of Aline Pepper)
+%%endtext
+S:https://www.folktunefinder.com/tunes/134264
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:12
+T:Les moutons
+R:Bourre  2 temps
+C:Trad.
+A:
+O:France
+Z:M. Bellon
+S:Bourres en Berry et Bourbonnais - Musiques pour l'atelier de danse (ADP)
+M:2/4
+L:1/8
+Q:1/8=240
+K:C
+"C"g>f ec | "G"d>f ef | "C"g>f ec | "G"d2 "C"e2 ::
+"C"e>f ed | ec "Am"A2 | "G"dc/B/ "Am"cA | "G"dc/B/ "Am"cA | "C"e>f ed | ec "Am"A2 | "G"dc/B/ c"Am"f | "G"d2 "C"c2 :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/130602
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X:8
+T:Avant-deux violette
+C:Trad.
+O:France
+M:2/4
+L:1/8
+Q:1/4=126
+K:Em
+"Em"B2 BA | "G"B2 G2 | "Am"A>B AF | "G"G2 "Em"E2 :: "Em"EF/G/ AB | "D"GF GE | "Em"EF/G/ AB | "G"GF "Em"E2 :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/130598
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

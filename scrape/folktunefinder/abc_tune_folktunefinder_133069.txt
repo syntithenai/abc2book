@@ -1,0 +1,22 @@
+X:1
+T:Crosspatch
+C:Neil Brookes
+M:4/4
+L:1/4
+Q:1/4=180
+K:Dmix
+|d2 A>B|cBAG|F/2G/2A/2B/2 c A |B G F D|zd A>B|cBAG|F/2G/2A/2B/2 c A|G/2z/2
+ G2z/2|
+|d2 A>B|cBAG|F/2G/2A/2B/2 c A |B G F D|zd A>B|cBAG|F/2G/2A/2B/2 c A|G/2z
+/2 G2z/2|
+|FDAD|BDAD|E/2D/2E/2F/2GF|EDEG|FDAD|BDAD|A>BcB|G/2z/2 G2z|
+|FDAD|BDAD|E/2D/2E/2F/2GF|EDEG|FDAD|BDAD|A>BcB|GAB_d|
+S:https://www.folktunefinder.com/tunes/133069
+S:http://trillian.mit.edu/~jc/music/abc/mirror/brookes36.freeserve.co.uk/xpatch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

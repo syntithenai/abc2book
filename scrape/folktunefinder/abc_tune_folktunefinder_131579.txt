@@ -1,0 +1,24 @@
+X: 10
+T:Glorishears, Bampton
+M:2/2
+L:1/8
+A:Bampton
+P:A(AB2)4
+K:AMix
+P:A
+|:DEFG A2A2|B2c2 d2cd|e2(3ABc d2c2|B4 A4 :|
+P:B
+  d4 c3 d|B2e2 A4|d2cB A2GF|G2B2 E2FE|
+  DEFG A2A2|B2c2 d2cd|e2(3ABc d2c2|B4 A4  ||
+S:https://www.folktunefinder.com/tunes/131579
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

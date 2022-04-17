@@ -1,0 +1,24 @@
+X:152
+T: Koenig von Mailand
+N: Q0041c
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0067, anderes Lied "Maedchenmoerder" , deshalb
+N: in die Balladengruppe Q0041 eingeordnet. Schon kodiert 
+R: Ballade, Verfuehrung, Mord, Rache
+M: none
+L: 1/8
+K: D
+A2A2G2=F3GA2 | A2AG=F4
+A2G2G2D3DG2 | =FED2=C4
+C2F2G2A3EG2 | =F2E2D4
+S:https://www.folktunefinder.com/tunes/132254
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, mord, rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

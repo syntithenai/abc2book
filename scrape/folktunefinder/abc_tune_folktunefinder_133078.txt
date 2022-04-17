@@ -1,0 +1,35 @@
+X:1
+T:Bal Keff
+C:trad. rgion de Landerneau, Bretagne, fichier ABC par Bernard Loffet
+L:1/8
+Q:286
+M:6/8
+K:G
+ z4 zD | [G2G,,2]G [G2G,2][AD,] | [B2E,,2]B [B2E,2][cE,] | [d2C,,2]e [d2C,2][BC,] | \
+ [A3D,,3] [G2G,,2]D | [G2G,,2]G [G2G,2][AD,] | [B2E,,2]B [B2E,2][cE,] | [d2C,,2]e [d2C,2][BC,] | \
+ [A3D,,3] [G3G,,3] | \
+M:3/4
+|: [B2G,,2] [AD,]G [FD,]G | [A2D,,2] [A/D,/]B/c [B3/2D,3/2]A/ | \
+M:2/4
+ [BC,,]c [d2D,2] | \
+M:3/4
+ [B2G,,2] [AD,]G [FD,]G | [A2D,,2] [A/D,/]B/c [B3/2D,3/2]A/ | \
+M:2/4
+ [G2G,,2] [G2G,2] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/133078
+S:http://diato.ifrance.com/diato/tablat/230.abc
+S:http://diato.ifrance.com/tablat/230.abc
+S:http://diato.org/tablat/230.abc
+S:http://perso.orange.fr/diato/tablat/230.abc
+S:http://perso.wanadoo.fr/diato/tablat/230.abc
+S:http://pro.wanadoo.fr/diato/tablat/230.abc
+S:http://www.diatonique.net/tablat/230.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 981
+T: Short Grass, The
+T: An Feur Gearr
+R:double jig
+C:"collected by J.O'Neill"
+S:981 O'Neill's Music of Ireland
+N:A one beat rest was added before the second part
+N:to balance the lead-in notes of the first part
+B:O'Neill's 981
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:6/8
+K:C
+e/-d/|cGE cGE|EDE CDG|cGE cGE|Add ded|
+|cGE cGE|EDE CEG|cee e2 d|cAA A2:|
+z|gag ged|ecc cde|aba age|edd d2 e|
+[1 gag ged|ecc cde|fed fed|ecA A2:|
+[2 gfe agf|gfe dcB|cee e2 d|cAA A2||
+S:https://www.folktunefinder.com/tunes/137504
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0981-1000_rt.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

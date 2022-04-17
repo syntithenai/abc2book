@@ -1,0 +1,38 @@
+X: 74
+T:Grand Turks March,The. JBa.73
+T:Capt. Brown's March,aka. JBa.73
+T:Bodmin Riding March,aka. JBa.73
+M:C|
+L:1/8
+Q:120
+C:Bodmin Riding March,Capt. Brown's March,aka.
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+N:1 - no end bar line, but 'the End' written above the stave
+N:The '2' is not a note, it's a figure written above the double bar.
+N:The similarity to Capt. Brown's/Bodmin Riding was pointed out by Paul
+N:Roberts..
+Z:vmp.C.Graebe.
+K:D Major
+A2 dd dgfe | dcde d2 de | f2f2 fagf | fefg f2 fg | a2 AA Aagf |\
+g2 AA Agfe | fefg fagf | {f} e6 (cd) | edef e2 fe | dcde c2 B2 |\
+ c2 (fg) e2 d2 | c2 (ef) e2 d2 | ((3cBA) ((3dcB) c2 "tr"B2 |\
+ A2 AAAA A2||\
+ "2" E2 | A2 AA AcBA | A^GAB A2 AB | c2 cc cedc | cBcd "tr"c2 cd |\
+e2 EE Eedc | d2 EE EdcB | cBcd cedc | {c} B6 fg |\
+a2AA Aagf | g2 AA Agfe |fefg fagf | {f}e6 fg |\
+ gfga (g/a/b ag | fefg (f/g/a) ag | fgab "tr"f2e2 |\
+ d2 d ddd"1" d2 |]
+S:https://www.folktunefinder.com/tunes/132739
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:10
+T:Countrodanso n2
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:D
+df/g/|:aa ag|fe fg/f/|ed ee|fd df/g/|aa ag|fe fg/f/|ed ef|[1 d2 df/g/ :|[2 d2
+df|:aa/a/ gf|ge ce|ea/g/ fe|fd df|ab/a/ gf|ge ce|ea/g/ fe|[1 d2 df:|[2 d2
+df|:a2 gf|g2 ec|e>g fe/f/|ed df|a2 gf|g2 ec|e>g fe|[1 d2 df:|[2 d2||!fine!a2 d'2|d'2
+%%footer $D   Galouvielle-MBe 2007 \n--- (Val Varaita, Italie)
+S:https://www.folktunefinder.com/tunes/133125
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Val%2520Varaita.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

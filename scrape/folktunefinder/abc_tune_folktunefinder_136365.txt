@@ -1,0 +1,24 @@
+X:1
+T: XXV. The Nightingale
+O: AYERES OR Phantasticke Spirites for three voices
+H: taken fromm the Performers' Facsimiles print of the London, 1608 edition
+C: Thomas Weelkes
+%%gchordfont Helvetica 12 box
+K:C
+T: Cantus
+M:C
+L:1/8
+N: Original clef, treble
+%1
+G4 d c B A G A B c B c d e d2 g2 g3 f/2 e/2 d4 c2
+S:https://www.folktunefinder.com/tunes/136365
+S:http://www.laymusic.org/music/weelkes/nightingale/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

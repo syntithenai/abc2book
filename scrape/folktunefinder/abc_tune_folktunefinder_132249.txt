@@ -1,0 +1,23 @@
+X:147
+T: Die Bernauerin
+N: Q0065B
+O: Mitteleuropa, Deutschland (BRD) , Bayern, Regensburg
+N: Anhaengsel an der letzten Zeile.
+R: Ballade, historisch (1435) , Standesunterschied, Liebe, Mord
+M: 4/4
+L: 1/8
+K: C
+G | GcBAGABc | d2cBc2z
+G | GcBAGABc | d2cBc2z
+G | Gcc2c2cc | Gdd2z2BB | Bcc2z3
+S:https://www.folktunefinder.com/tunes/132249
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, historisch (1435) , standesunterschied, liebe, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

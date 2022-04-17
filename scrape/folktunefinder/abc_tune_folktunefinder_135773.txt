@@ -1,0 +1,26 @@
+X:8
+T:The Country Lass
+C:James Hill
+Z:robin.beech@mcgill.ca
+B:The Fiddle Music of James Hill
+N:Originally in D minor
+R:slow air
+M:4/4
+L:1/8
+K:D
+DC | B,CDE F^G^AB | cB#AB cedc | Bdce dfeg | fedc B2 :|
+F^A | Bcde fgef | dc/d/ ed cAec  | Bcde fgef | decd BF^G^A |
+Bcde fgef | dc/d/ ed cAec | BFdB cegf |fedc B2 |]
+S:https://www.folktunefinder.com/tunes/135773
+S:http://music.gordfisch.net/oregans/assets/abc/jameshill.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

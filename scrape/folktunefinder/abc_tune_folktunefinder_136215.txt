@@ -1,0 +1,22 @@
+X:11
+T:Horizontal beams
+M:9/8
+K:C
+L: 1/8
+ c,d,c, d,e,d, e,f,e, b,cb,   | c,/d,/c,/ d,/e,/d,/ e,/f,/e,/  |\
+   c,//d,//c,// d,//e,//d,// e,//f,//e,//  |
+ cdc ded efe b,a,b,| c/d/c/ d/e/d/ e/f/e/ | c//d//c// d//e//d// e//f//e// |
+ c'd'c' d'e'd' e'f'e' f'g'f' | c'/d'/c'/ d'/e'/d'/ e'/f'/e'/ |\
+   c'//d'//c'// d'//e'//d'// e'//f'//e'// |
+S:https://www.folktunefinder.com/tunes/136215
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/sample.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/sample.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

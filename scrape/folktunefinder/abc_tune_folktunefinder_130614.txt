@@ -1,0 +1,29 @@
+X:24
+T:Cercle circassien
+R:Cercle circassien
+O:Irlande
+M:2/4
+L:1/8
+K:C
+V:1
+"C"C>D EG|cB AG|"F"AD DE|"G"FG/F/ ED|"C"C>D EG|cB AG|"F"Ad "G"AB|"C"c2 c2::
+"D"dA dA|dA A2|"C"cG cG|cG G2|"D"dA dA|dA AB|"C"cA GE|"G"D2 D2:|
+T:Cumberland reel (Cercle Rosbif)
+R:Cercle circassien
+O:Irlande
+M:2/4
+L:1/8
+K:G
+V:1
+"G"G>A BA|GA BG/B/|dB GB|[1 "D"A/G/A/B/ A2 :|[2 "D"A2 "G"G2|:
+"G"de/f/ gf/e/|de ed|de/f/ gf/e/|dc B>c|dd "C"e>d|"Am"cB "D"AB/c/|"G"dB GB|"D"A2 "G"G2:|
+S:https://www.folktunefinder.com/tunes/130614
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Cercle circassien
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

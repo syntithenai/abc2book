@@ -1,0 +1,21 @@
+X: 1
+T: McMahon's Reel
+T: The Banshee
+C: James McMahon
+R: reel
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+|: "G"~G3D EDEG | "Am"AGAB "D7"d2 Bd | "G"eged "Em"BAGA |1 "C"BAGE "D7"EDEF :|2 "C"BAGE "D7"EDD2 :|
+|: "Am"eaag efge | "G"dBBA "(Bm)"B2Bd |1 "Em"eB ~B2 eBgB | eBBA B2Bd :|2 "C"eged "Em"BAGA | "Am"BAGE "D7"EDD2 :|
+S:https://www.folktunefinder.com/tunes/135599
+S:http://trillian.mit.edu/~jc/music/book/500/McMahonsR.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

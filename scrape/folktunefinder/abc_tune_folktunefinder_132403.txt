@@ -1,0 +1,32 @@
+X:2
+T:Banks of the Dee
+A:Field Town
+O:English
+S:Bacon (MDT)
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:A(A2B2)2(A2C2)2
+K:G
+P:A
+G | DEF GAB | ced cBA | BGE Ddc | BcA G2 |]
+P:B
+G/A/ | Bcd d2g | ede dBG | Bcd efg | GAG FED |
+cec BdB | GFG AFD | GFE Ddc | BcA G2 |]
+P:C
+G | (2Bc d3 | d3 g3 | (2ed e3 | (2dB G3 |\
+(2Bc d3 | (2ef g3 | (2GA G3 | (2FE D3 |
+cec BdB | GFG AFD | GFE Ddc | BcA G2 |]
+S:https://www.folktunefinder.com/tunes/132403
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

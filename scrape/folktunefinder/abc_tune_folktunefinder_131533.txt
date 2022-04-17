@@ -1,0 +1,27 @@
+X:7
+T:Country Gardens
+M:4/4
+S:Bacon (RD from Arnold Woodley)
+A:Bampton
+O:English
+R:Hornpipe
+P:A(AB3)3C % in Bacon as A(CB3)3A
+K:G
+P:A
+g2 gf e2 e2 | dedc B2 Bc | d2 G2 A2 c2 | B3 A G4 :|
+P:B
+g2 ge f2 d2 | g2 ge f2 d2 | g2 gf e2 a2 | f2 e2 d2 Bc |
+d2 gf e2 e2 | dedc B2 Bc | d2 G2 A2 c2 | B3 A G4 |]
+P:C
+G2 c2 c2 e2 | dedc B2 Bc | d2 G2 A2 c2 | B3 A G4 :|
+S:https://www.folktunefinder.com/tunes/131533
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

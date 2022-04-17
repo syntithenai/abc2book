@@ -1,0 +1,25 @@
+X:2
+T:Getting There
+C:copyright 1999 Kaubells
+% E:12                   % note spacing
+M:C
+K:ADor
+|:"Am"a/b/age f/g/fef|"Bm"a2d2e2 ed|"C"c2cd edce|"D"d4 A2e2|
+"Am"a/b/age f/g/fef|"Bm"a2d2e2 ed|"C"c2cd edce|1"...D"d2A2A2e2:|2"...D"d4 z2e2||
+K:A
+% E:16                   % note spacing
+|"E7"b2ba gabg|"A"a2e2e2z2|"D"d/e/dcd "E7"e2B2|"A"c2e2 z2a2|
+"E7"b2ba gabg|"A"a2e2e2z2|"D"def2 "E7"gabg|"A"a4 z2a2:|
+T:Last time
+"E7"b2ba gabg|"A"a2e2e2z2|"D"def2 "E7"gabg|"A"a2z2 .[c4a4]|
+S:https://www.folktunefinder.com/tunes/132390
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/balance.abc
+S:http://www.cs.utexas.edu/%7Ekaufmann/kaubells/notation/kaubells/balance.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

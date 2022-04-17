@@ -1,0 +1,36 @@
+X: 1
+T: Barney Brallagan's Jig
+R: slipjig
+O:
+B: Cole p.57
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+|: "D"F2A ABA     ABA | F2A ABA "G"Bcd \
+|  "D"F2A ABA     ABA | "G"Bcd "E7"efd "A7"cBA :|
+|: "D"f2a f2a "A7"gfe |  "D"f2a     f2a "A7"g2e \
+|  "D"f2a f2a "A7"gfe | "Em"Bcd "E7"efd "A7"cBA :|
+|: "D"fz2 "A7"az2 "D"d2e/f/ | "G"g2f "E7"e2d "A7"cBA \
+|  "D"fz2 "A7"ez2 "D"d2A    | "G"Bcd "A7"A2G  "D"FED :|
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/136011
+S:http://trillian.mit.edu/~jc/music/book/500/BarneyBrallagans_x.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

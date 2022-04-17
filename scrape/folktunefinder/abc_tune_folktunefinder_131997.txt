@@ -1,0 +1,30 @@
+X: 1
+T:A BAGPIPE HORNPIPE
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:C
+P:1
+e2 A2 BcdB c4 | ^G2 B4 d2 BcdB | e2 A2 BcdB c4 | E2 A4 c2 BcdB ||
+P:2
+=g2 f2 dfge B4 | e2 c2 efge BcdB | g2 f2 efge B4 | e2 a2 e2 A2 BcBA ||
+P:3
+e2 a2 e2 A2 e2 a2 | ^G2 B2 d2 c2 BcdB | e2 a2 e2 A2 e2 a2 | c2 A2 e2 A2 BcBA ||
+P:4
+e2 d2 cdec e2 a2 | =g2 e2 gage BcdB | e2 cdec e2 a2 e2 | ^g2 e2 g2 a2 gfge ||
+P:5
+a3 e =gega g4 | G2 B4 d2 BcdB | a3 e gega e4 | e2 a4 e2 BcBA ||
+P:6
+c3 A E2 GF E4 | c2 A2 e2 fe BcdB | c3 A E2 GF E4 | a2 A2 c2 A2 e2 A2 |]
+S:https://www.folktunefinder.com/tunes/131997
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/BAGPIPE_HORNPIPE_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

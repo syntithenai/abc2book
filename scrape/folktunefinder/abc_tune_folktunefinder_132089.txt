@@ -1,0 +1,28 @@
+X: 25
+T:La Theneuille (2)
+R:Bourre  3 temps
+C:Elsener
+O:France
+A:Centre
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:32
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+K:C
+g>fe | def | g2a | g2d | g>fe | def | g2a | g3 ::
+g>fe | ded | c>Bc | d2d | g>fe | ded | c2B | c3 :|
+%%footer $D   Galouvielle-MBe 2005 \nMazurka France
+S:https://www.folktunefinder.com/tunes/132089
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

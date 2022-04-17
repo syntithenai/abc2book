@@ -1,0 +1,31 @@
+X: 1
+T:Beaux of London City, Badby
+M:6/8
+L:1/8
+A:Badby
+P:A(AB)5
+K:A
+P:A
+|:A2B c2A|dec ABc|\
+M:9/8
+L:1/8
+d2c BGE A3:|
+P:B
+|:e2c B2A ce2|A2A B2c d3|\
+M:6/8
+e2c d2B|AGF EAc|\
+M:9/8
+edc dcB A3:|
+S:https://www.folktunefinder.com/tunes/137280
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

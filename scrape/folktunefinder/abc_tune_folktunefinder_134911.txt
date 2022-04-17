@@ -1,0 +1,25 @@
+X:11
+T:Kathleen Hehir's
+Z: id:dc-slide-5
+M:6/8
+L:1/8
+K:D Major
+c|dcd e2d|c2E EFG|BcB A2G|F2D DFA|!
+dcd e2d|c2E EFG|ABA GFE|D3 D2:|!
+A,|DFA d3|c2B G3|ABA G2E|B2A F3|!
+DFA d3|c2B G2F|EFG ABc|d3 d2:|!
+c|d2c d2e|f2d A3|f3 fed|c2d ecA|!
+d2c d2e|f2d A2F|EFG ABc|d3 d2:|!
+b|a2f f2d|Adf agf|g2e e2c|Ace gfg|!
+a2f f2d|Adf agf|gec ABc|d3 d2:|!
+S:https://www.folktunefinder.com/tunes/134911
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

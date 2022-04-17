@@ -1,0 +1,35 @@
+X:40
+T:To live is to die (interlude)
+R:
+C:Metallica
+H:
+N:
+A:
+B:
+D:And justice for all...
+O:USA
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/4
+L:1/8
+Q:1/4=100
+K:C treble
+%%staves (1 2)
+%%MIDI transpose -12
+V:1
+%%MIDI program 24
+(Bc) AE (3B/c/B/A | B2A2G2 | G2 EB, G2 | (GA) D2 A,2 | c2 AE d2 |
+d3 B G2 | G2 EB, GB-|B2 DB, d2 | c2 AE (3B/c/B/A | B2A2G2 |
+ G2 EB, G2 | (GA) D2 A,2 | c2 AE d2 | d3 B G2 | G2 EB, GB-|B2 DB, (dB) :|
+V:2
+%%MIDI program 24
+A,6 | G,3 G,- G,G, | E,4-E, E, | F,6 | A,4-A,E, |
+G,2 G,3 E, | E,4-E,B, | G,4-G,A, | A,6 | G,3 G,- G,G, | E,4-E, E, |
+ F,6 | A,4-A,E, | G,2 G,3 E, | E,4-E,B, | G,4-G,A, :|
+S:https://www.folktunefinder.com/tunes/136659
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

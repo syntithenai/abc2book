@@ -1,0 +1,18 @@
+X: 2
+T:Whose
+R: 32-bar single jig
+M:6/8
+K:G
+(3D/2E/2F/2|"G"G2G "D7"F2F|"G"GFG D2D|"C"E2E "Am"c2B|"D7"A3-A2D|
+"C"E2c cBc|"G"d2B G2D|"C"E2c "D7"B2A|"G"G3 G2:|
+B/2c/2|:"G"d2d ded|"A7"^c3 A2B|"D7"=c2c cdc|"G"B3 d3|
+"C"e2c "D7"A2e|"G"d2B G2B|"D7"d2d "D7"cBA|"G"G3 G2:|
+S:https://www.folktunefinder.com/tunes/137315
+S:http://homepage.ntlworld.com/greenery/Minimal%20Ceilidh%20Tune%20Book/allTunesInabc.html
+% Rhythm 32-bar single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

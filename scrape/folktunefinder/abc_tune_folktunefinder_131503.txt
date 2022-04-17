@@ -1,0 +1,28 @@
+X: 2
+P: Baby's in Black
+C: Beatles
+R: jig
+M: 6/8
+L: 1/8
+%%text Play ABABCAICABA
+K: A
+"A"\
+|: "A"[e3c3] [e3c3] | "E7"[ec][dB][dB] [d3B3] | "D7"[dB][=cA][cA] [c2A2]A \
+| "E7"G[BE][BE] [BE][eF][eG] | "A"[ec][e2A2] "D"[dF][A2D2] | "A"H[A3C3] "E7"z3 |
+"B"\
+| "A"[e3-c3-] [ec][dB][cA] | [e3-c3-] [e2c2]A | "A7"[=g2e2][ge] [ge][fd][ec] | "D"[f3d3] z2[ec] \
+| [f2d2][fd] [fd][ec][dB] | "A"[e3c3] "E7"[GE][BG][dB] | "A"[c3A3] z3 :|
+"C"\
+[| "F#m"[a3e3] [a3e3] | "B7"[ae][g^d][fd] [f3d3] | "D"[a3=d3] [a3d3] | "E7"[ad][gd][fd] [gd][ec][dB] \
+"->A"|| \
+"I"\
+[| "A"A,3 BA=G | "E"^GfG e3 | "D7"Fdd =c2c | "E7"_ecA d3 | "A"c3 "D"BAF | "A"A,6 |]
+S:https://www.folktunefinder.com/tunes/131503
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/BabysInBlack.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

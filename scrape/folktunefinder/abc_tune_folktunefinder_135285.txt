@@ -1,0 +1,29 @@
+X: 26
+T:Trunkles, Longborough 2
+M:4/4
+L:1/8
+A:Longborough
+P:A(AB3C3)2(AB3D3)2
+K:G
+P:A
+|:d3c  B2d2|c2cA B2G2|d3d  c2e2|dcBA G4 :|
+P:B
+  c2cc c2c2|BABc d2g2|e3d  c2c2|d4   d4 ||
+P:C
+  e2c2 cdef|d2B2 Bcde|\
+  c2A2 ABcd|B2G2 G2B2|cBAG F2A2|G4   G4 ||
+P:D
+  e4   c4  |c3d  e2f2|d4   B4  |B3c  d2e2|
+  c4   A4  |A3B  c2d2|\
+  B4   G4  |G4   B4  |cBAG F2A2|G4   G4 ||
+S:https://www.folktunefinder.com/tunes/135285
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

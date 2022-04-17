@@ -1,0 +1,35 @@
+X:9
+T:Maraichines en Cascade
+C:Trad.
+O:France
+A:Poitou
+R:Maraichine
+L:1/8
+Q:1/4=120
+K:C
+M:6/8
+g2e g2e | gfe def | g2e g2e | gfe d3 :: cde  d2g |1,3 fed e2c :|2,4 fed c3 :|
+[M:2/4]|: cG c2 | cB/c/ d2 | dg gf/e/ |1 dd ec :|2 de c2 |:\
+ce ed/c/ | Bc d2 | cg gf/e/ |1 dd e2 :|2 de c2 |:
+cg ge | gf/e/ dc | cg ge | g2 d2 :: de fe | de/d/ cc | eg fe | d2 c2 ::
+[K:Am] AA e2 | d/e/f/e/ dB | cd e2 | c/d/c/B/ A2 :: A/B/c/A/ Bd | cB cA | A/B/c/A/ Bd | cB A2 ::
+[K:C] c>d ef | g2 g2 ag fe |1 d2 c2 :|2 d2 cg |:gg c>d | cB cg | gg c>d |1 cB cg :|2 cB c2 |:
+ed/c/ Bc | df e2 | ed/c/ Bc | d2 c2 :: GA Bc | dc/d/ ec | GA Bc | d2 c2 ::
+g2 eg | fe d2 | Gc cB/c/ |1 dd ec :|2 dd c2 |: Gc cB/c/ | dd ec | Gc cB/c/ | d2 c2 ::
+cG c2 | cB/c/ d2 | dg gf/e/ |1 dd ec :|2 de c2 |: ce ed/c/ | Bc d2 | cg gf/e/ |1 dd e2 :|2 de c2 |:
+g2 eg | fe d2 | Gc cB/c/ |1 dd ec :|2 dd c2 |: Gc cB/c/ | dd ec | Gc cB/c/ | d2 c2 :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/130599
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Maraichine
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

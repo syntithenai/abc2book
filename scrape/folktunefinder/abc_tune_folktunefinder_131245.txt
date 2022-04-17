@@ -1,0 +1,39 @@
+X:449
+T:B449-  Still I'm Wishing, Still Desiring
+Q:1/4=120
+L:1/4
+M:3/4
+K:Dm
+df2|e2a|(g3/4f/4 e3/4f/4 d3/4)e/4|(f3/2 e/)d|\
+af2|(e3/4f/4gf3/4)e/4|(d3/4e/4fe3/4)d/4|^c2c||\
+ef2|d2g|(f/e/ c/d/)f|e3|\
+(ef3/4e/4 d3/4)e/4|(d3/4c/4 d/4=B3/4 c3/4)d/4|\
+(c/4=B3/4 a/4^G3/4 a3/4)B/4|=B2A|\
+d=B2|^c2d|e(f3/2g/)|(e3/2 f/)e|\
+(f/g/) (g3/2f/4g/4)|a2(g/f/)|(g/f/)e3/2d/|d3|]
+S:https://www.folktunefinder.com/tunes/131245
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM4.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM4.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20021201120256/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM4.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM4.ABC
+S:http://www.mudcat.org/olson/BM4.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM4.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

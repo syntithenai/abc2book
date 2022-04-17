@@ -1,0 +1,31 @@
+X: 26
+T:Princess Royal, Fieldtown
+M:4/4
+L:1/8
+A:Fieldtown
+P:AAB(CB)2
+K:G
+P:A
+GA|B2A2 G2dc|B2AB G3d |e2c2 c2e2|d2c2 B3d|
+cdB2 A2G2|F2E2 D2c2|B2AG A2F2|G4 G2 ||
+P:B
+z2|g2g2 g2fg|a2d2 d4  |g2d2 d2c2|BAGF E3F|
+G2AB c2d2|e2e2 g4  |g2e2 g4  |e2A2 d4 |
+d2cB A2G2|F2E2 D2c2|B2AG A2F2|G4   G2 ||
+P:C
+GA|B4   A4  |G4   d2c2|B4   A2B2|G4   d4 |\
+e4   c4  |c4   e4  |d4   c4  |B4   d4 |
+cdB2 A2G2|F2E2 D2c2|B2AG A2F2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/132494
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

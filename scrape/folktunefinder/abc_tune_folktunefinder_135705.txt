@@ -1,0 +1,26 @@
+X:10
+T: The Ploughman
+N: HA010
+O: Europa, Mitteleuropa, Deutschland
+N: ein Vorschlag weggelassen
+M: 2/2
+L: 1/16
+K: D
+D2 | F2A2A3BA2F2E3
+D | F2A2A2Bcd4A3
+d | B3AB2d2e2fE3
+D2 | F2A2A3BA2F2E3
+D | F2A2A2Bcd4A3
+A | B3AB2d2e2f2E3
+D | F2A2A3BA4D2
+S:https://www.folktunefinder.com/tunes/135705
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

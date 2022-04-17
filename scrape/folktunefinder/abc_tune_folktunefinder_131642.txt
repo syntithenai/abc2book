@@ -1,0 +1,26 @@
+X: 36
+T:Shepherds' Hey, Headington 1
+M:4/4
+L:1/8
+A:Headington
+P:A(A2B)4C2
+K:G
+P:A
+B2d2 c2c2|BcdB A2A2|BcdB ccBc| d2A2 G3G ||
+P:B
+|:B2G2 c3A |B2G2 A4  |BcdB cBcA|1d2A2 G3G:|2d2A2 G4||
+P:C
+B2d2 c2c2|BcdB A2A2|BcdB ccBc| d2A2 G4  ||
+S:https://www.folktunefinder.com/tunes/131642
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

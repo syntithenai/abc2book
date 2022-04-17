@@ -1,0 +1,24 @@
+X:1
+T:Avant-deux d'Erce
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+Q:C4=120
+M:2/4
+L:1/16
+K:C
+"C"eeee cccc | "G"B2A2 f2f2 | dddd BBBB |1 A2G2 "C"g4 :|2
+"G"A2B2 "C"c4 || "G"d4 "C"c4 || c2d2 e2cc | c2d2 e2cc | 
+c2e2 g2g2 | "G"f2e2 d4 | B2c2 d2BB | B2c2 d2BB | 
+B2d2 "C"g2f2 | e2d2 c4 || "G"d2B2 "C"c4 |]
+S:https://www.folktunefinder.com/tunes/130437
+S:http://termen.free.fr/danses/rennais/AvantdeuxdErcee.abc
+% Rhythm Avantdeux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

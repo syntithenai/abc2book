@@ -1,0 +1,23 @@
+X:10
+T:The Cook in the Kitchen
+R:Jig
+M:6/8
+L:1/8
+K:G
+E | DGG GAG | =FDE  F2E | DGG GFG | Add cAG |
+    DGG GAG | =FDE =F2d | cAG FGA | BGG  G2 :|
+A | BcB BAG | ABA   AGF | GAG GFG | A2d cAG |
+    BcB BAG | ABA   A2d | cAG FGA | BGG  G2 :|
+d | d2e f2g | a2g   fed | cAG FGA | BGB AFD |
+    d2e f2g | a2g   fed | cAG FGA | BGG  G2 :|
+S:https://www.folktunefinder.com/tunes/134731
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

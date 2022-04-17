@@ -1,0 +1,28 @@
+X: 25
+T: Portland Fancy
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, July 1996
+Z: mailto:vroman@hawaii.edu
+M: 6/8
+L: 1/8
+K:A
+E | E2 A E2 A | EAB c2 c | dcd Bcd | f2 e c2 A |
+    E2 A E2 A | EAB c2 c | dcd EFG | AEc  Ace ||
+    a3 agf | ecf e3 | dBe d3 | cde f2 e | 
+    a3 agf | ecf e3 | edB EFG | AEc AFG ||
+K:D
+    ABc d2 e | f2 g a3 | efg ABc | f2 d AFG |
+    ABc d2 e | f2 g a3 | efg ABc | d6 ||
+    F2 A F2 A | FAd f3 | ece gec | dfe dAG |
+    F2 A F2 A | FAd f3 | ece gec | d6 ||
+S:https://www.folktunefinder.com/tunes/135957
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/contra/dances/cdh-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

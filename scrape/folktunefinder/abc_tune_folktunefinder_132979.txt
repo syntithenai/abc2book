@@ -1,0 +1,20 @@
+X: 7
+T:Bal Gavotte (Suite 1)
+M:6/8
+L:1/8
+S:Yann Dour
+K:G
+"slow" GFG d3  |efe d3  |GcB A2  B|1c2  B G3   :|2 c2  B G2 ||"fast"B|B2
+ A G2 B|(4A/2B/2A/2F/2 G3  |G2  B d2  g|f2  e  d3  |c2  c cdc |B2  B BcB
+|A2  G A2  B|cBA G3   ||
+S:https://www.folktunefinder.com/tunes/132979
+S:http://www.unet.univie.ac.at/~a8702257/abc/breton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

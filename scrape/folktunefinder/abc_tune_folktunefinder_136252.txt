@@ -1,0 +1,63 @@
+X:1
+T:The Berkeley Wassail
+M:3/4
+C:Jon Berger
+S:
+N:Copyright (c) Jon Berger
+Z:Jon said to spread this around all you like, but keep his name with it.
+A:Berkeley Morris
+O:
+R:
+%:abc2ps:no
+K:F
+L:1/8
+I:part 1
+T:descant
+Q:1/4=150
+   f2 | f2  c2  cB   | A2  c2  A2  | c2  d2  f2  | e4    \
+   c2 | d2  f2  f2   | f>c A2  c2  | B2  c2  d2  | e4    \
+   c2 | d2  d2  e2   | f2  f2  c2  | d2  f2  c2  | c4    \
+|: z2 | z4      z2   | z6          | z6          | z2 z2 \
+   e2 | f2  f2  ag   | fc  A2  ce  | f2  f2  e2  | c4    :|
+I:part 2
+T:melody
+   c2 | c2  A2  G2   | F2  F2  C2  | F2  B2  A2  | G4    \
+   c2 | d2  B2  d2   | c>A F2  A2  | G2  c2 =B2  | c4    \
+   c2 | d2  d2  e2   | f2  c2  A2  | B2  c2  A2  | G4    \
+|: z2 | z4      z2   | z4      G2  | A2  A2  cB  | A2 A2 \
+   c2 | f2  c2  d2   | cA  F2  FF  | A2  BA  G2  | F4    :|
+I:final
+T:bass
+   F2 | F2  F2  E2   | C2  G,2 E,2 | A,2 B,2 C2  | C4    \
+   C2 | B,2 D2  F2   | F>C C2  F,2 | G,2 G,2 G,2 | G4    \
+   C2 | D2  D2  E2   | F2  F2  E2  | F2  A2  F2  | E4    \
+|: C2 | F2  F2  AG   | F2  F2  C2  | D2  D2  EG  | F4    \
+   C2 | B,2 A,2 A,B, | C2  C2  C2  | B,2 B,C C2  | F4    :|
+W:
+W: With pipe and with fiddle, with drum and with bell,
+W: we sing our wassail, me boys, to wish you all well.
+W: Long life and good fortune to all who live here!
+W: God bless you and send you a happy New Year.
+W:
+W: Through weeds and through snow we have come to your door.
+W: A small drop of porter is all we implore.
+W: And then we will sing with all proper decorum;
+W: The yeast and the barley drive sorrows before 'em.
+W:
+W: Some nutmeg and ginger to make us all merry,
+W: Or whiskey or brandy or cider or sherry.
+W: Strong drink and its virtues our songs will extol,
+W: So bring us a bottle (barrel, tank truck) and fill up our bowl.
+W:
+W: Come join in our Wassail and raise up your voice,
+W: For now is the season to sing and rejoice,
+W: And number your blessings, the great and the small;
+W: Good friends and companions the greatest of all.
+S:https://www.folktunefinder.com/tunes/136252
+S:http://www.ucolick.org/~sla/morris/music/Wassail/berkeley.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

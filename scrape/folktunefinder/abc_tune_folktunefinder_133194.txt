@@ -1,0 +1,28 @@
+X:3
+T:Gallowglass, The
+R:jig
+C:Traditional
+S:Dan Beimborn
+H:submitted by Dan Beimborn to '94 Great IRTRAD Milwaukee Tune Swap
+N:The mode of this tune is difficult to decide. I ended up going with A Dorian because the first 2 chords seem to be Amin and G.
+Z: id:ng-jigs-3 contact Alan Ng agng@students.wisc.edu
+E:9
+I:speed 350
+M:6/8
+K:ADor
+AB|cBA eBd|cAA ABc|BAG efg|BGG GAB|cBA eBd|cea e2 d|cBA ^GAB|cAA A:|\
+ea|aga e=fd|cAA ABc|BAG efg|BGG G2 e|aga e=fd|cAA e2 d|cBA ^GAB|cAA A2 e|\
+aga e=fd|cAA ABc|BAG e^fg|BGG G2 e|aeg fdB|ecA BGE|ABc dBe|cAA A2||**
+S:https://www.folktunefinder.com/tunes/133194
+S:http://trillian.mit.edu/~jc/music/abc/mirror/polyglot.lss.wisc.edu/ng-jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

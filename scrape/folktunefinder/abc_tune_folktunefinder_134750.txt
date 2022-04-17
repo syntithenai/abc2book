@@ -1,0 +1,25 @@
+X:29
+T:The Monaghan Jig
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:Edor
+ "Em" BGE  F2 E | "Em" BGE  "D" FGA | "Em" BGE F2 E | "D" AFD FGA  |
+ "Em" BGE  F2 E | "Em" BGE  "D" FGA | "G" dcB   ABG | "D" FDF  AGF :|
+ "Em" EGB   efg | "D" fed  "Em" edB | "Em" EGB  dBG | "D" FDF AGF  |
+ "Em" EGB   efg | "D" fed  "Em" edB | "G" dcB   ABG | "D" FDF  AGF :|
+ "Em" ~g2 e efe | geg           bge | ~g2  e    efg | "D" fdf  agf |
+ "Em" ~g2 e efe | geg           bge | "G" dcB   ABG | "D" FDF  AGF :|
+ "Em" EGB   eBG | "Em" BGE  "D" FGF | "Em" EGB  eBG | "D" FDF  AGF |
+ "Em" EGB   GBe | Beg           egb | "G" dcB   ABG | "D" FDF  AGF :|
+S:https://www.folktunefinder.com/tunes/134750
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

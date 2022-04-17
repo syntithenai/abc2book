@@ -1,0 +1,37 @@
+X:460
+T:B460-  Then Then to the Duke, Let's Fill
+S:ABC didn't like the comma after the 1st 'Then'
+Q:1/4=120
+L:1/4
+M:6/4
+K:Dm
+d|d3/2e/d^c3/2B/A|f3/2g/fe2a|a3/2b/ag3/2a/f|e3/2d/cf2:|e|\
+f3/2g/ae3/2f/g|d3/2f/e^c3/2B/A|c3/2B/AB2A|G3/2F/EF2G|\
+A3/2B/c=B3/2c/d|^cdefga|b3/2a/ga2f|e3/2d/^cd2|]
+S:https://www.folktunefinder.com/tunes/131256
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM4.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM4.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20021201120256/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM4.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM4.ABC
+S:http://www.mudcat.org/olson/BM4.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM4.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

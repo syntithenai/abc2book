@@ -1,0 +1,23 @@
+X:01
+T: Bank of Ireland
+M: 4/4
+L: 1/8
+Z: Contributed 20020324170023 by Zina Lee zlee@ntw.net
+K: D mixolydian
+AB|:c2AB cBAG|EGDG EGAB|c2AB cABG|Add^c dfed|
+c2AB cABG|EGDG EGAB|c2AB cABG|Add^c d4:|
+K:D
+de|:f2df e3 c|dfed cAA2|f2df e2fg|afge d2cd|
+eaag efge|dged =cAGB|Addc defg|af (3gfe d4:|
+S:https://www.folktunefinder.com/tunes/134786
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/BankOfIreland.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BankOfIreland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

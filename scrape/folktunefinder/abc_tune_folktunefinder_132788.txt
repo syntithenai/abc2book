@@ -1,0 +1,63 @@
+X:24
+T:Gavotte : Suite Dardoup
+Z:Roger Ngaret (94-95)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/8
+K:Eb
+P:Appel  la danse
+ce "Eb"ce ge "Bb"f2 | fa "Eb"gf ef g2 ::(3c"Cm"de "Eb"fa ge "Bb"f2 |
+fg fd "Cm"e2 c2 :|
+P:Ton kentan 1
+Q:1/4=150
+"Cm"c>e "Eb"g>g a>g "Bb"d2 | (3def gf g2 g2 :: (3c"Cm"de "Eb"g>g a>g "Bb"d2 |
+df ed "Cm"c2 c2 :|
+P:Ton kentan 2
+c>e "Eb"g>g a>g "Bb"dd | bf "Eb"bf g2 g2 ::"Cm"c>e "Eb"g>g a>g "Bb"d2 |
+(3def de "Cm"c2 c2 :|
+P:Ton kentan 3
+c>e "Eb"g>g c'>b "Bb"a2 | fg "Eb"ef g2 g2 ::(3c"Cm"de "Eb"g>g a>g "Bb"fg |
+ef (3ded "Cm"c2 c2 :|
+P:Ton kentan 4
+c>d "Eb"e>g c'>d' "Bb"e'2 | d'c' "Eb"ba g2 g2 ::"Cm"c>d "Eb"e>f a>f "Bb"g2 |
+gf ed "Cm"e2 c2 :|
+%P:Ton kentan 5
+%cd "Eb"eg c'd' "Bb"e'2 | d'c' "Eb"ba g2 g2 ::
+%"Cm"cd "Eb"ef af "Bb"g2 | gf ed "Cm"e2 c2 :|
+%P:Ton kentan 6
+%ce "Eb"ce ge "Bb"f2 | fa "Eb"gf ef g2 ::
+%(3c"Cm"de "Eb"fa ge "Bb"f2 | fg fd "Cm"e2 c2 :|
+P:Tamm kreiz
+Q:3/8=75
+M:6/8
+cde "Eb"g2 f e2 f "Cm"c3 | gag "Bb"f2 g "Ab"f2 e "Gm"d3 |
+gga "Eb"g2 e fed "Cm"c3 | "Bb"gef e2 d "Cm"c3 ||
+P:
+Q:1/4=150
+M:4/4
+ce "Eb"gf ed "Cm"c2 | cd "Eb"eg (3gfe "Gm"d2 |
+(3def "Eb"gf ed "Ab"c2 | gg fe (3d"Bb"ed "Cm"c2 |]
+P:Ton diwezhan 1
+c>g "Bb"f>a "Eb"g>e "Cm"c2 | cB =AB c2 c2 ::c>g "Ab"f>a "Eb"g>e "Cm"c2 |
+cd eg "Bb"fe "Gm"d2 | (3def "Eb"g>f "Ab"g>e c2 | "Bb"cB =AB c2 "Cm"c2 :|
+P:Ton diwezhan 2
+c>g "Bb"f>e f>g "Cm"c2 | (3cde "Eb"gf "Bb"d2 "Cm"c2 ::c>d "Eb"e>g "Bb"c'>d' "Ab"e'2 |
+d'c' gc' "Bb"d'2 d'2 | c'>d' "Eb"e'>c' b>g "Bb"f2 | (3gfe fg c2 "Cm"c2 :|
+%P:Ton diwezhan 3
+%(3g"Eb"fe "Bb"fa ge "Cm"c2 | cd ec "Bb"d2 "Cm"c2 ::
+%(3g"Eb"fe (3f"Bb"ag e2 "Cm"c2 | cd eg "Bb"fe "Gm"d2 |
+%(3d"Eb"ef gf ge g2 | "Bb"fd fe (3ded "Cm"c2 :|
+S:https://www.folktunefinder.com/tunes/132788
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

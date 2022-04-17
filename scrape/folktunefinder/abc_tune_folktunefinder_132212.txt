@@ -1,0 +1,29 @@
+X:110
+T: Der junge Held
+N: Q0060A
+O: Mitteleuropa, Deutschland (BRD) , Rheinland, Bergisches Land,
+N: "Hei" am Ende der dritten und siebten Zeile.
+R: Ballade, Verfuehrung, Standesunterschied
+M: 6/8
+L: 1/16
+K: D
+D2 | D4A2A2B2=c2 | B4A2G4
+G2 | A4A2B4c2 | d4d2A4
+E2 | A4A2B4c2 | d6e4
+d2 | c4A2^G2A2B2 | A6z4
+A2 | d4d2A2B2c2 | d6A4
+A2 | _B4A2G4G2 | A6E4
+=FE | D4D2E2=F2G2 | A6_B4
+A2 | G2G2=F2E4F2 | D6z4
+S:https://www.folktunefinder.com/tunes/132212
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, standesunterschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

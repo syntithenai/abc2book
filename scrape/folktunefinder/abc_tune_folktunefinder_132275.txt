@@ -1,0 +1,25 @@
+X:173
+T: Der grausame Bruder
+N: Q0068Q
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Korkwitz
+N: Eingeklammerte Note kodiert.
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 4/4
+L: 1/8
+K: G
+GA | B4A4 | G2G2A2A2 | B4z2
+GA | B4A4 | G2G2A2A2 | B4z2
+G2 | B2B2d2B2 | A2A2c2
+A2 | G2G2G2d2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/132275
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

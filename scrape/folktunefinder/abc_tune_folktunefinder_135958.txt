@@ -1,0 +1,24 @@
+X:26
+T: Rory O'More
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, July 1996
+Z: mailto:vroman@hawaii.edu
+N: based on version of the Nottingham Music Database
+N:   http://www.cs.nott.ac.uk/Department/Staff/ef/database.html [access July 1996]
+M: 6/8
+L: 1/8
+K: A
+|:eAA cAA | eAA f3  | edc cBA | GAB Bcd |
+  eAA cAA | ece fed | cde efg | aec A3 :|
+|: agf f2 c | dcB A2 G | FGA ABc | cfe efg |
+   agf f2 c | dcB A2 G | FGA ABc | cfe e3 :|
+S:https://www.folktunefinder.com/tunes/135958
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/contra/dances/cdh-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 4
+T:Nuts in May, Lichfield
+M:2/2
+L:1/8
+A:Lichfield
+P:A2BC7AB
+K:G
+P:A
+gf|e2dc B2A2|B2G2 E3F |G2G2 GABc|d4  B2gf|
+e2dc B2A2|B2G2 E3G |F2GA D2EF|G4  G2 ||
+P:B
+dc|B2d2 e2f2|g2d2 B2dc|B2d2 e2f2|g4  f2gf|
+e2dc B2A2|B2G2 E3G |F2GA D2EF|G4  G2 ||
+P:C
+M:6/8
+D|GGG  GAB |d2B  G3  |A2A  A3  |GF2 ED2 |
+GGG  GAB |d2B  G2G |A2A  FEF |G3  G2 ||
+S:https://www.folktunefinder.com/tunes/135891
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Lichfield.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Lichfield.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Lichfield.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

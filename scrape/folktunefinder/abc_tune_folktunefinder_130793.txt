@@ -1,0 +1,37 @@
+X:38
+T:B038-  Bonny lass, gin thou wert mine
+Q:1/4=120
+L:1/4
+M:C|
+K:Dm
+F(E/2D/2)FA|dcA(A/2B/4c/4)|F(E/2D/2)FA|\
+(f/2e/2) (d/2c/2)A(c|c)cd(e/2f/2)|g3z/2f/2|\
+(f/2d/2) (c/2d/2) f3/2e/2|d(c/2A/2) c(d/2e/2)|\
+(f/2d/2) (c/2A/2)G(A/2B/2)|(c/2A/2) (G/2F/2)D3/2 E/2|\
+(F/2G/2)AA(d|d)cd(e/2f/2)|g3z/2f/2|(f/2d/2) (c/2d/2)f3/2e/2|\
+d(c/2A/2)c(d/2e/2)|(f/2d/2) (c/2A/2)G(A/2B/2)|\
+(c/2A/2)(G/2F/2)D3/2E/2|(F/2G/2)AA(d|d2)z2|]
+S:https://www.folktunefinder.com/tunes/130793
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

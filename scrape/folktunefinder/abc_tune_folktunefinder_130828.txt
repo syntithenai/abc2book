@@ -1,0 +1,41 @@
+X:72
+T:B072-  Cock up thy beaver
+Q:1/4=120
+L:1/4
+M:3/4
+K:F
+d|c2F|A3/2G/2F|GAG|B2d|c2F|A2G|Ffc|ABc|\
+dcd|fcA|GAG|B2f|c2B|A2G|Ffc|A2G|\
+Ffc|A/2B/2cA|Ggc|B2G|Ffc|A/2B/2cA|Ffc|A2F|\
+F/2E/2 F/2G/2 A/2B/2|cAF|G3/2A/2G|B3|\
+(FG3/2)F/2|A2G|Ffc|A3/2B/2c|\
+dcd|fcA|GFG|A2d|c2B|A2G|Ffc|A2F|\
+ffF|A/2A/2AF|ggG|B3/2 (c/2 d/2e/2)|\
+ffc|ddB|ccA|BBG|AAF|G3/2A/2G|B3|F3|\
+A2G|Ffc|A2F|F3|A3|G3/2F/2G|B2G|F3|\
+A2G|Ffc|(AB)c|dcd|fcA|GFG|B2f|c2B|\
+A2G|Ffc|A2F|ffF|AAF|ggG|B2d/2e/2|ffc|\
+ddG|ccA|BBG|AAF|GAG|B3|F3|A2G|\
+Afc|A2F|]
+S:https://www.folktunefinder.com/tunes/130828
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

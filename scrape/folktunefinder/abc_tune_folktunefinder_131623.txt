@@ -1,0 +1,30 @@
+X: 17
+T:Country Gardens, Headington (CJS)
+M:4/4
+L:1/8
+Q:1/4=184
+R:Hornpipe
+A:Headington
+P:A(ABCB)2
+B:MDT
+K:F
+P:A
+|:F2B2 B2d2|cdcB A2AB|c2F2 G2B2|A3G F4:|
+P:B
+|:fgfd e2c2|fefd e2c2|f2fe d2g2|e3d c2AB|
+  c2fe d2d2|cdcB A2AB|c2F2 G2B2|A3G F4:|
+P:C
+|:f2fe d2d2|c2cB A2AB|c2F2 G2B2|A3G F4:||
+S:https://www.folktunefinder.com/tunes/131623
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

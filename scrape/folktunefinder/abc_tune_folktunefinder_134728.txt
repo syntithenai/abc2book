@@ -1,0 +1,23 @@
+X:7
+T:The Cliffs of Moher #2
+R:Jig
+M:6/8
+L:1/8
+K:Ador
+|: "Am" a2 a bag | eaf "G" ged | "Am" c2A BAG | "Em" EFG      ABd |
+   "Am" eaa  bag | eaf "G" ged | "Am" c2A BAG | "Em" EFG  "Am" A3 :|
+   "Am" e=fe dBA | ~e3     dBA | "G" GAB  dBA | GAB           ~d3 |
+   "Am" e=fe dBA | ~e3     dBA | "G" GAB  dBG | "Em" EFG  "Am" A3 ||
+   "Am" e=fe dBA | e=fe    dBA | "G" GAB  dBA | GAB           ~d3 |
+   "Am" e=fe dee | cee     Bee | EFG      BAG | "G" EDB, "Am" A,3 |]
+S:https://www.folktunefinder.com/tunes/134728
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

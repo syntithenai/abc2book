@@ -1,0 +1,28 @@
+X:6
+T:The Forester
+A:Field Town
+O:English
+S:Bacon (J EFDSS, 1956)
+R:hornpipe
+M:4/4
+L:1/8
+P:A(AB2)4
+K:D
+P:A
+FA | dcde d2 (3EFG | ABAF D2 (3ABc | dcde fede | fee^d e2 (3gfe |
+dcde dAFG | ABAF D2 (3EFG | ABAG FAde | fdec d2 |]
+P:B
+AG | FAdA FAdA | ({c}B2) G2 G2 (3cBA | ^GBeB GBed | ({d}c2) A2 A2 (3BAG |
+F2 d2 d2 (3ded | BABc d3f | gfed cABc | d2 ({e}d2) ({c}d2) |]
+S:https://www.folktunefinder.com/tunes/132407
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

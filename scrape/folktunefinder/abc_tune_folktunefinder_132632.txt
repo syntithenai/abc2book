@@ -1,0 +1,29 @@
+X:6
+T:Rutsch hin, rutsch her.
+R:
+O:Alsace - Elsass
+A:
+S:
+B:La tradition Alsacienne.
+Z:transcription (partition) : <anamnese@laposte.net>
+N:p.18
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+P:[A]
+d | d2 z c | B2 z d | d>c ce | e>d dd | d2 z c | B2 z d | d>c cF | G zz B |
+P:[B] A>B cA | B>c dB | A>B cA | B>c dd | [P:[C]] d2 zc | B2 zd - d>c cF |
+M:3/4
+P:[D]
+G3cc2 | A3dd2 | B2 ggg2 | ag g^f g2 | G3cc2 | A3dd2 | Bg ^fg =fB | c2 z2z2 :|
+S:https://www.folktunefinder.com/tunes/132632
+S:http://anamnese.online.fr/abc/germania.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

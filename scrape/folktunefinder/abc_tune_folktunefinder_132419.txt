@@ -1,0 +1,30 @@
+X:18
+T:Valentine
+A:Field Town
+O:English
+S:Pokingbrook Morris, Albany, NY
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:A(AB3)2(AC3)2
+K:G
+P:A
+d | gfe ede | edc cBc | dBg dBG | FAA A2d |
+gfe ede | edc cBc | dBG EAF | G>AG G2 |]
+P:B
+B/c/ | d>ed dBd | BGG G>AB | c>Ac BGB | FAA A2 B/c/ |
+d>ed dBd | BGG G2 d | e>fg dBd | BGG G2 |]
+P:C
+B/c/ | d>ed dBd | BGG GAB | (2cA c3 | (2BG B3 | (2FA A3 | (A3 A2) B/c/ | 
+d>ed dBd | BGG G2d | e>fg dBd | BGG G2 |]
+S:https://www.folktunefinder.com/tunes/132419
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:2
+T:VIII. When others sings Venite exaltemus,
+T:Third part.
+T:Basso.
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+M:C
+L:1/4
+K:G mix bass
+%%MIDI transpose -24
+g4 ^f2 g2 d3 c B A G2 c2 B2 c2 d2 G2 G2 a4 ^g2 a2 e3 d c B
+S:https://www.folktunefinder.com/tunes/136300
+S:http://www.laymusic.org/music/dowland/others/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

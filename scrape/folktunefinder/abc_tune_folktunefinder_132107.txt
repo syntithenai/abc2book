@@ -1,0 +1,27 @@
+X:5
+T: Ritter und Magd
+N: Q0055D
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Wetterau
+N: Moeglicher Taktwechsel zum 2/4 angemerkt.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 3/4
+L: 1/8
+K: G
+DGA | B3ABc | d3
+Bcd | e2d2c2 | B2z
+GBd | A3cBd | G3
+ABc | d2B2A2 | G2z
+S:https://www.folktunefinder.com/tunes/132107
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

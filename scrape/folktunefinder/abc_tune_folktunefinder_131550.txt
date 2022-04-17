@@ -1,0 +1,31 @@
+X:24
+T:The Rose Tree
+S:Bacon (Jour 1956)
+A:Bampton
+O:English
+R:Reel
+P:A(AB3)3A
+M:4/4
+K:D %Transposed from G
+P:A
+fe | d2 B2 A2 F2 | ABAF A2 FA | d2 d2 fede | f2 e2 egfe |
+d2 B2 A2 F2 | ABAF A2 FA | d2 cd e2 de | f2 d2 d2 |]
+P:B
+de | f2 e2 f2 g2 | a4 g2 f2 | e2 b2 b2 a2 | b2 e2 egfe |
+d2 B2 A2 F2 | ABAF A2 FA | d2 cd e2 de | f2 d2 d2 |]
+%
+P:B (original)
+de | (3fgf e2 f2 g2 | a2 d'2 a2 gf | e2 f2 g2 a2 | bc'd'b agfe |
+d2 (3BcB A2 F2 | ABAF D2 FA | d2 cd e2 de | f2 d2 d2 |]
+S:https://www.folktunefinder.com/tunes/131550
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

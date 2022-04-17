@@ -1,0 +1,23 @@
+X:43
+T:Over demark
+M:4/4
+L:1/8
+Q:1/4=125
+K:C % 0 sharps
+% Time signature=3/4  MIDI-clocks/click=24  32nd-notes/24-MIDI-clocks=8
+% MIDI Key signature, sharp/flats=0  minor=0
+V:1
+cG/2B2-B/2 G/2cG/2 B2-|B/2(3GcG^GB/2 ^G=G/2F^G/2^D|^G/2=D=G/2 FB,/2D2-D/2 B,/2FB,/2|D2- D/2B,/2F B,/2DF/2 ^D=D/2C/2-|
+Cc2
+V:2
+C,,3/2C,2-C,/2- [C,/2C,,/2-]C,,3/2 C,2-|C,C,,3/2C,2-C,/2-[C,/2C,,/2-]C,,3/2C,-|C,2 C,,3/2C,2-C,/2- [C,/2C,,/2-]C,,3/2|C,3C,,3/2C,2-C,/2-[C,/2C,,/2-]C,,/2-|
+C,,C,3
+S:https://www.folktunefinder.com/tunes/136661
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

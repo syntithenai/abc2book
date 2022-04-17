@@ -1,0 +1,33 @@
+X:4
+T:Gorman's Reel
+C:Traditional
+N:Play 4 times
+N:The Paris Set, Figure 3, Tune 4 of 4
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+D:Molloy & Keane, 'Contentment is Wealth'
+D:Kevin Crawford, 'D Flute Album'
+D:'The Smoky Chimney'
+D:Four Men and a Dog, 'Shifting Gravel'
+B:CRE II, # 276,from M.J. Ryan (Sligo)
+R:Reel
+L:1/8
+M:C
+K:AMix
+A3 B defg | a2 fd edBd | A3 B defe | dBAF EF D2 :|
+a2 af defg | a2 fd edBd | a2 af defe | dBAF EF D2 |
+a2 af defg | a2 fd edBd | A3 B defe | dBAF EF D2 |]
+S:https://www.folktunefinder.com/tunes/136599
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:23
+T:Cercle 3 
+R:Cercle 
+N:
+O:France
+Z:<anamnese@laposte.net>
+M:6/8
+L:1/8
+Q:1/4=160
+K:C
+B2B cBc | d2 gg3 | G2 G AGA | BcB AGA |
+B2B cBc | d2 gg3 | B2B AGA |1 G5 A :|2 G3-G2 B |
+ddc ABc | ddB G2B | dcB ABc | ddB g2 d |
+eec gge | ddB g2d | ded dcB | B3A3 :|
+d || g2 d B d | gfe dcB | gee e2d | ege e2d |
+     g2 d B d | gfe dcB | cAd e2 d | egB A2 d :|
+BGG dGG | BGG dcB | cAA eAA | cAA edc |
+BGG dGG | BGG dcB | c2d e2d | egB A2 d :|
+BcB BAG | Bcd e2 d | BcB BAG | A3 d2c |
+BcB BAG | Bcd e2 d | BdB ABA |1 G2 d2c :|
+S:https://www.folktunefinder.com/tunes/130563
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Cercle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

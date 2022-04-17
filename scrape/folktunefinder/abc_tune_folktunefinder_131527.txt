@@ -1,0 +1,26 @@
+X:1
+T:Bacca Pipes
+S:Bacon (MDT)
+A:Bampton
+O:English
+R:Jig
+P:A(AB)2A
+Q:C3=132
+M:6/8
+K:ADor
+P:A
+c3 B2 c | d2 B G3 | cdcA2 c | B2 G E3 |
+c2 B c2 e | d2 B G2 B | c2 A B2 G | A3 A3 | A3 A3 :|
+P:B
+g3 g2 e | d2 B B3 | g3 g2 g | a2 g e3 |
+efg g2 e | d2 B G2 B | c2 A B2 G | A3 A3 | A3 A3 :|
+S:https://www.folktunefinder.com/tunes/131527
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:22
+T:Rakes of Kildare, The
+R:jig
+E:11
+I:speed 350
+M:6/8
+K:ADor
+G|EAA AGA|Bcd e2f|~g3 ege|dBA G3|\
+EAA AGA|Bcd e2f|~g3 edB| A3 A2:|*
+a|aea aea|aga b2a|~g3 ege|dBA G2a|\
+aea aea|aga b2a|~g3 edB| A3 A2 a|*
+aea aea|aga b2a|~g3 ege|dBG BAG|\
+EAA AGA|Bcd e2f|~g3 edB| A3 A2||**
+S:https://www.folktunefinder.com/tunes/135088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

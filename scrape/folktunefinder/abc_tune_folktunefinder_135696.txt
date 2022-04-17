@@ -1,0 +1,27 @@
+X:1
+T: Mary's Dream
+N: H0001A
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge Triller,Bindungen weggelassen, original fis
+M: 4/4
+L: 1/32
+K: G
+B6c2 | d8G6A2G8B6c2 | d6c2d4e4d8
+B6c2 | d8G6A2G8A4B4 | c4B4A4G4F8
+B6A2 | G12F4F8D4F4 | B6c2c4d2e2d8
+c4B4 | c4d4f4g4d12c4 | B8A6G2G8
+d6f2 | g12f4e4d4c4B4 | c8d6f2f8
+d4f4 | g12f4e4d4c4B4 | B6cdc2B2A2G2F8
+B6A2 | G12F4F8D4F4 | B6c2c6ded12
+c2B2 | c4d4f4g4d12c4 | B8A6G2G8
+S:https://www.folktunefinder.com/tunes/135696
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

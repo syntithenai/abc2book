@@ -1,0 +1,26 @@
+X:4
+T:Dusty Bob
+R:jig
+B:Ryan's Mammoth Collection
+D:Kinnon & Betty Beaton, Cape Breton Fiddle Compilation
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:G
+G2 G GcB|A2 F ABc|d2 Bc2 A|B2 G AFD|
+G2 G GcB|A2 F ABc|dBG cAF|[1G3 DEF:|[2G3 GBd||
+|:g2 g gbg|f2 d faf|e2 e efg|a2 g fed|
+[1g2 g gbg|f2 d faf|efg fga|g3 def:|
+[2g2 d Bcd|e2 c efg|dBG cAF|G3 DEF|]
+S:https://www.folktunefinder.com/tunes/135194
+S:http://cranfordpub.com/tunes/abcs/KinnonBettycomp.abc
+S:http://www.cranfordpub.com/tunes/abcs/KinnonBettycomp.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

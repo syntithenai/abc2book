@@ -1,0 +1,32 @@
+X:105
+T: O'Dwyer's Hornpipe
+M: C|
+L: 1/8
+R: Hornpipe
+B: O'Neill's 1597
+N: "Collected by F.O'Neill."
+Z: Transcribed by Michael D. Long, 9/30/98
+K: G
+(dc) \
+| (B<d)G>G G2 (AG) | (F<A)D>D D2 (dc) | (B<d)G>G G2 (Bd) | (e<g)(f<a) gedc |
+| (B<d)G>G G2 (AG) | (F<A)D>D D2 (dc) | BdBG (3(ABc) AF | G2 G>G G2 :|
+|: (ga) \
+| b2bg afdf | gabg agfd | egfa gbag | f2 d>d d2 (ga) |
+| babg afdf | gabg agfd | (3(efg) fa gedc | B2 G>G G2 :|
+|: (dc) \
+| BcAB G2 AG | FGEF D2 dc | BcAB G2 (Bd) | egfa gedc |
+| BcAB G2 (AG) | FGEF D2 (dc) | BdBG (3(ABc) AF | G2 G>G G2 :|
+|: (Bc) \
+| d>B (3.B.B.B G>B (3.B.B.B | d>B (3.B.B.B G>B (3.B.B.B | c>A (3.A.A.A F>A (3.A.A.A | c>A (3.A.A.A F>A FAdc |
+| BGBd eceg | fdfa gfga | bgfa gedc | B2 G>G G2 :|
+S:https://www.folktunefinder.com/tunes/135379
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1577-1624_ml.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

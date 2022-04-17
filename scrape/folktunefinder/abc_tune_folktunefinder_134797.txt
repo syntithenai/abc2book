@@ -1,0 +1,22 @@
+X:7
+T:Morpeth Rant
+Z:John Chambers <jc@trillian.mit.edu> modified by robin.beech@mcgill.ca
+N:There are two common versions of this tune, with different second parts.
+N:Northern Frisk
+M:4/4
+L:1/8
+K:G
+(3DEF |: G2DC B,G,B,D | ECEG FDFA | GBdB cBAG | F2A2 A2 (3DEF |
+G2DC B,G,B,D | ECEG FDFA | GBdB cBAG |1 D2G2 G2 (3DEF :|2 D2G2 G2ef |:
+gdBG FAce | dBAG GFED | cAcA BGBG | F2D2 D3=F |
+ECEG cBAG | FDFA dcBA | Ggfe dcBA |1 G2B2 G2ef :|2 G2B2 G2 (3DEF |]
+S:https://www.folktunefinder.com/tunes/134797
+S:http://music.gordfisch.net/oregans/assets/abc/new.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

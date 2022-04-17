@@ -1,0 +1,25 @@
+X: 39
+T:Maid of the Mill, Bledington 2
+M:6/8
+L:1/8
+A:Bledington
+P:(A(AB)4
+K:G
+P:A
+|:D|D2G GFG |ABc B2A|GFE DEF|G3 G2:|
+P:B
+|:B/c/|d2d d>cB|cAB c2c|ABc dBA|G3 F2D|
+D2G GFG |ABc B2A|GFE DEF|G3 G2:|
+S:https://www.folktunefinder.com/tunes/132461
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

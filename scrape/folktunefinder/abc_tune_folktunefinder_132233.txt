@@ -1,0 +1,27 @@
+X:131
+T: Der Spielmannssohn
+N: Q0062E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Kleinere Melodievarianten aus anderer Quelle im gleichen System
+N: abgedruckt
+R: Ballade, Verfuehrung, Standesunterschied, Strafe, Gnade
+M: 6/8
+L: 1/16
+K: F
+C2 | F4F2G4c2 | A3GA2F4
+F2 | G3AB2c3BA2 | F3GA2G4
+G2 | c3dc2B2A2GG | F3CA2G4
+F2 | G2A2c2c3BA2 | G6F4
+S:https://www.folktunefinder.com/tunes/132233
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verfuehrung, standesunterschied, strafe, gnade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

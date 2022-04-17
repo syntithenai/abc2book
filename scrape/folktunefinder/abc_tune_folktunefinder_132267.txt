@@ -1,0 +1,23 @@
+X:165
+T: Der grausame Bruder
+N: Q0068J
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen,
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 2/4
+L: 1/8
+K: G
+D | DGGG | A3B | BdcB | A2
+AB | c2cA | B2BA | G2F2 | E3
+E | A2BA | G2cA | B2A2 | G2z
+S:https://www.folktunefinder.com/tunes/132267
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

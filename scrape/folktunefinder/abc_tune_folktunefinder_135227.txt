@@ -1,0 +1,22 @@
+X:1
+T:Banks Of Sicily
+M:6/8
+L:1/8
+K:C
+ z4 z c| G3/2 E/2 E E3/2 D/2 E| F3/2 G/2 A G2 F| E3/2 F/2 G C3/2 E/2 G|\
+ G/2 F3/2 E D2 c| GEE E/2 D3/2 E| F3/2 G/2 A G2 F| E3/2 F/2 G G3/2 F/2 E|\
+ D3 C2 C| E3 F2 A| G2 E E/2 D3/2 C| F2 A E2 G| G3/2 F/2 E D2 C| E3 F2 A|\
+ G2 E E3/2 D/2 C| E3/2 F/2 G G/2 F3/2 E| D3 C2 C| E3 F2 A| G2 E E/2 D3/2 C|\
+ F2 A E2 G| G3/2 F/2 E D2 C| E3 F2 A| G2 E E3/2 D/2 C| E3/2 F/2 G G/2 F3/2 E|\
+ D3 C2 B| c2 G A2 c| G2 A G/2 D3/2 C| F2 A E2 G| G3/2 F/2 E D2 G| c2 G A2 c|\
+ E2 AG D3/2 C/2| E3/2 F/2 G G3/2 F/2 E| D3 C2 z|
+S:https://www.folktunefinder.com/tunes/135227
+S:http://back.numachi.com:8000/dtrad/abc/BKSICILY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BKSICILY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

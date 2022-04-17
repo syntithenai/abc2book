@@ -1,0 +1,19 @@
+X: 25
+T:Trumpet Hornpipe (Pugwash)
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+(3DEF|(3"G"GGGG2 (3GGGG2|"G"BGBd gdBG|(3"D7"DDDD2 (3DDDD2|"D7"FDFA dAFD|
+(3"G"GGGG2 (3GGGG2|"G"BGBd g2ag|"D"fafd "A7"ege^c|"D"d2d2 "D7"d2:||
+^c|:(3"G"dddd2 (3dddd2|"C"efgf edcB|"Am"cded cBAG|"D7"FGAG FDEF|
+(3"G"GGG G2 (3"G7"=FFF F2|(3"C"EEE E2 (3"Cm"_EEEE2|"D7"D2fe dcBA|"G"G2B2 G2:||
+S:https://www.folktunefinder.com/tunes/137338
+S:http://homepage.ntlworld.com/greenery/Minimal%20Ceilidh%20Tune%20Book/allTunesInabc.html
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

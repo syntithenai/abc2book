@@ -1,0 +1,20 @@
+X:1
+T:VI. Times eldest sonne,
+T:Canto.
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+M:C
+L:1/4
+N:Original clef C on first line0
+K:C
+  B4 B2 B2 B4 | z2      G2 A2 B2 c3 c B4 | z2 d2 c2 A2 B4 | z2 e2 d2 c2
+S:https://www.folktunefinder.com/tunes/136297
+S:http://www.laymusic.org/music/dowland/time/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

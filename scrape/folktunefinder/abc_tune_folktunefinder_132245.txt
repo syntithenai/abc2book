@@ -1,0 +1,27 @@
+X:143
+T: Des Grafen Toechterlein
+N: Q3063E
+O: Mitteleuropa, Niederlande
+N: Melodievergleich zu Q0063, anderes Lied.
+R: Ballade
+M: none
+L: 1/8
+K: F
+C2 | F4GAG4F2 | D4CDF4
+C2 | F4GAG4F2 | D4CDF4
+A4 | G2G2F2FE | D8C4
+A2 | A4AGF4C2 | F4G2A4
+A4 | F2E2D4E2F2 | G4F6
+S:https://www.folktunefinder.com/tunes/132245
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

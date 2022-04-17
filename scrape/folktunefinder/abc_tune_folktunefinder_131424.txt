@@ -1,0 +1,39 @@
+X:16
+T:P\aa vei til Stavanger (Reinl\aender, Schottis)
+C:F.J.Aalto
+N:Copyright 1999 by F.A.Aalto
+%O:Sweden
+R:Reinl\aender, Schottis
+Z:Bob Wyttenbach 8/14/02 from NFF 2001 tunebook 
+M:4/4
+L:1/8
+%Q:1/4=160
+K:A %Transposed from G
+P:A
+V:1
+C2|:E2EC EC EA|F2dcB2BA|G2GFE2GB|BA ceLf2eg|
+V:2
+z2|:"G"E3CE2EE|"Am"F2DCB,2FA|"D7"E2D2B,2EG|"G"E2Ac"C"Ld2"D7"BB|
+V:1% changed ecA2dg to ecA2eg in measure 2 below
+a2ae cAce|ed fdB2fa|g2gf ef gb|[1ab aga3C:|[2ab aga2ce||
+V:2
+"G"e2ec AE Ac|"Am"BF dBF2df|"D7"e2ed Bd eg|[1"G"e2"D7"dB"G"c3E:|[2"G"e2"D7"dB"G"c2cc||
+P:B
+V:1
+La2aeLf2fd|Le2ec AE Ac|d2dB GE GB|BA cAE2ce|
+V:2
+"G"Le2ec"C"Ld2Ad|"G"c2cA EE EA|"D7"B2BG ED EG|"G"EC AC"D7"E3G|
+V:1
+La2aeLf2fd|Le2ec AE Ac|dedc BcBA|[1Gd BG A2ce:|[2Gd BG A3C||
+V:2
+"G"Le2ec"C"Ld2Ad|"G"c2cA EE EA|"D7"BcBA GAGF|[1EB ED"G"C4:|[2"D7"EB ED"G"C4||
+S:https://www.folktunefinder.com/tunes/131424
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001Bb.abc
+% Rhythm Reinl%C3%A6nder, schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

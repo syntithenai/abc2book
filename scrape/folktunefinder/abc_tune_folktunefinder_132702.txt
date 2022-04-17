@@ -1,0 +1,36 @@
+X: 37
+T:Quakers Hornpipe,The. JBa.36
+M:3/2
+L:1/4
+Q:180
+S:Joseph Barnes MS,Carlisle,1762.
+R:Double HP
+O:England
+A:Carlisle
+N:Makes good sense in 9/8,too..CGP.
+H:See Paul's notes.
+Z:vmp.C.Graebe.
+K:G major
+"No time sig.Key sig.given as\
+two #'s, upper and lower G"\
+G2  G/A/ G F E/D/ | G2 G/A/ B  c/B/ A |\
+ G2 G/A/ GFD | E/C/ E D/B,/ D G2 :|!
+|:B/d/ c B/G/ B A/F/ A | B/d/ c B/G/ B g/d/ B |\
+ B/d/ c B/G/ B A/F/ A | E/C/ E D/B,/ D G2 :|!
+|:g2 g/a/ g f d | e2 e/f/g a/f/ d | g2 g/a/ gf d |\
+ e/c/e f/d/f g2 ||!
+zzzz|!
+"bar 9 in ms"g2 g/a/ g f>e d||\
+"last bar as in MS" e/4c/4e/ f/4d/4f/ g2 |]
+S:https://www.folktunefinder.com/tunes/132702
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Double hp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

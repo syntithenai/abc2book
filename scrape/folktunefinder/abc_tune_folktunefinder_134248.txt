@@ -1,0 +1,32 @@
+X: 226
+T: Homeward Bound
+C: R-121
+C: Cape Breton
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+% %staffwidth 15cm
+K: D
+A,| "D"D2DE FEDF| A2AF    "Em"ABde| "D"f<aed "G"B2dB| "D"AFEF "A"DB,A,B,|
+    "D"D2DE FEDF| A/A/AAF "Em"ABde| "D"f<aed "G"B2dB| "A"AFEF "D"D/D/DD :|
+|:\
+g| "D"fdfg afdf| "Em"e/e/eed "A"efg2| "D"fdfg afdf| "A"edef "D"d/d/ddg|
+   "D"fdfg afdf| "Em"e/e/eed "A"efg2| "D"f/g/aed "G"B2dB|1 \
+   "A"AFEF "D"D/D/DD :|2 "A"AFEF "D"DB,A,B, |]
+%%text 9/1/98.  Repeat tune from first full measure.
+% ---------- page 117 ----------
+S:https://www.folktunefinder.com/tunes/134248
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

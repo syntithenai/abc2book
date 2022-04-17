@@ -1,0 +1,22 @@
+X:23
+T:Jump at the Sun - Em
+R:jig
+C:John Kirkpatrick
+O:England
+M:6/8
+L:1/8
+K:Em
+"Em" EGB ^A2 B | EGB ^A2 B | eBB eBB | "Am" cBA "B" GAF |
+"Em" EGB ^A2 B | EGB ^A2 B | "Em" eBB "Am" cBA | "B" GAF "Em" E3 :|
+"Em" eBB efg | "B" fBB agf | "Em" eBB efg | "B" fBB c2 B|
+"Em" eBB efg | "B" fBB agf | "Em" eBB "Am" cBA | "B" GAF "Em" E3 :|
+S:https://www.folktunefinder.com/tunes/134744
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+S:http://sf.ccewest.org/music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

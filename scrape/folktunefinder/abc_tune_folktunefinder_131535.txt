@@ -1,0 +1,37 @@
+X:9
+T:Erie Canal Stick Dance
+M:4/4
+A:Bampton
+O:English
+R:Hornpipe
+%P:A(ABC)4
+K:G
+P:A
+GF | E2 E2 GF G2 | AG A2 B4 | B2 B2 B2 EF | GE F2 E2 B2 |
+E2 E2 GF G2 | AG A2 B4 | B2 B2 B2 EF | GE F2 E2 |]
+P:B
+B2 | d2 B2 d2 B2 | d2 B2 A2 GA | B2 G2 B2 G2 | B2 G2 F2 GF |
+E2 E2 GF G2 | AG A2 B4 | B2 B2 B2 EF | GE F2 E2 |]
+P:C
+z2 | B4 B4 | BGBG A4 | B4 B2 GA | BGAF G2 Bc |
+dddB cc c2 | dddB c2 AA | BB BG cc cA | BG AF E2 |]
+%
+W: I had an old mule and her name was Sal
+W: Fifteen miles on the Erie Canal.
+W: She's a good old worker and a good old pal
+W: Fifteen miles on the Erie Canal.
+W:
+W: Low bridge, everybody down,
+W: Low bridge, got the finest mule in town.
+W: You can always tell your neighbor, always tell your pal
+W: If you've ever navigated down the Erie Canal.
+S:https://www.folktunefinder.com/tunes/131535
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

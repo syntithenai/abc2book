@@ -1,0 +1,24 @@
+X:2
+T:I. Farewell too faire,
+T:Bassus
+C: John Dowland
+O: From The Third and Last Booke of Songs or Aires.
+O: Newly composed to sing to the Lute, Orpharion, or viols, 
+O: and a dialogue for a base and meane Lute with five voices to sing thereto.
+%%MIDI nobarlines
+%%MIDI transpose -24
+M:C
+L:1/4
+K:A min bass
+A3 B ^c A d2 A f2 e c d A a2 g f2 e6 B2
+e A2 c F3 G A4 E4 e4 B2 e2 A2 d > c _B
+A G2 d4 G c > B c A a2 ^g a c' g2
+a2 z ^f ^g a e2 A4 |: G4 G2 c2 A2 e2 f4 e4 e6 d2
+c2 B2 A3 G/ F/ E e > e e A2 d2 ^c2 d2 A8 :|
+S:https://www.folktunefinder.com/tunes/136323
+S:http://www.laymusic.org/music/dowland/farewell/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

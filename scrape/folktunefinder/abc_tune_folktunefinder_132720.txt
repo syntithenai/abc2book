@@ -1,0 +1,33 @@
+X: 55
+T:Stir ye Girls. JBa.54
+T:Go to Berwick,Johnnyaka. JBa.54
+M:3/2
+L:1/8
+Q:280
+S:Joseph Barnes MS,Carlisle,1762.
+R:
+O:England
+A:Carlisle
+N:Although the paired D notes are clearly quavers in th MS, simply
+N:changing only these as I have done into crotchets, has removed a lot of
+N:room for misinterpretation, I hope...perhaps the c in bar1 should be
+N:c#..CGP
+H:See Paul's notes
+Z:vmp.C.Graebe.
+K:GMajor
+" No key/time sigs"(d2 de) (d""cBA) (GFED) |\
+ d2(df) (efge) (fgaf) |!
+ (d2 de) (dcBA) (GFED) |E2(C2C2)E2c2 (cA) :|!
+|: d2 "qu's in ms"(D2D2) (EF) AF ED | d2 "qu's"(D2D2) (EF) ef ge |!
+d2 "qu's"(D2D2) (EF) AF ED | E2 C2 C2 E2 c2 (cA) |]
+S:https://www.folktunefinder.com/tunes/132720
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

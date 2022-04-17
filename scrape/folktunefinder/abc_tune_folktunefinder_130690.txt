@@ -1,0 +1,30 @@
+X:30
+T:Two-Step
+T:Karapyet
+A:village of Zyatkivtsi, Vinnyts'kiy, Ukraine
+H:H. Tantsyur
+L:1/8
+M:2/4
+O:Probably Caucasian
+Q:120
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000642.html
+%%ID:00000642
+K:A min
+E A2 A | ^G2 {^F}E2 | E B2 d | c>B A2 |: \
+c/2d/2eee | fe d2 | d/2e/2fff | gf e2 | \
+c/2B/2c c/2B/2c | d>c B2 | e>dcB | A2 A2 :|
+P:Ending Variation
+|: c/2d/2e c/2d/2e | de f2 | \
+B/2c/2d B/2c/2d | cd e2 | \
+A/2B/2c A/2B/2c | Bc d2 | e>dcB | a2 A2 :|
+S:https://www.folktunefinder.com/tunes/130690
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

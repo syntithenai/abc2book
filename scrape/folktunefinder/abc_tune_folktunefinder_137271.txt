@@ -1,0 +1,26 @@
+X: 13
+T:Black Joke, Adderbury
+M:6/8
+L:1/8
+A:Adderbury
+P:A(AB)6
+K:G
+P:A
+|:D|DGG GFG |AcB A2G/F/|GAB d>cB|AcB AGF|\
+G>AB E>FG|DEF G2:|
+P:B
+z|Bdd  d>dd|ede d3 |Bdd d>dd|ede d2c |
+B>BB BAG |AcB AGF|GAB d>cB|AcB A>GF |
+G>AB E>FG|DEF G2||
+S:https://www.folktunefinder.com/tunes/137271
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Adderbury.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Adderbury.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Adderbury.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

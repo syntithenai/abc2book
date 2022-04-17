@@ -1,0 +1,27 @@
+X:20
+T:Lady Cathcart
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Hands across, down the middle, & Allemande
+%%Page:2
+%%RRN:'F' at end of 4th bar 1st part is guessed (misaligned photocopy, edge of page invisible). Likewise bar 5 of 2nd part
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001193.html
+%%ID:00001193
+K:Bb
+B2 B2 | Ac c2 | dBec | BAGF | B2 B2 | (Ac) ce | dcBA | B2 z2 ::
+f2 f2 | gfed | c2ed | c2 de | f2 f2  | gabg | fdec | B2 z2 ::
+%%newpage
+%%Page:3
+S:https://www.folktunefinder.com/tunes/134639
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

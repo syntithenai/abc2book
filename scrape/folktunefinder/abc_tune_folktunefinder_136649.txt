@@ -1,0 +1,26 @@
+X:8
+T:Dagor Bragollach
+C:Summoning
+D:Minas Morgul
+O:Autriche - sterreich
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/8
+Q:1/4=130
+K:C
+%%staves (1 2)
+V:1
+D2 DEFG FE | F2 FAcf ec | A2 ABcB Ac | B2 E^F^GA Bc :|
+V:2
+K:C bass
+D,2D,2D,2D,2|F,2F,2F,2F,2|E,2E,2E,2E,2|^G,2^G,2^G,2^G,2:|
+S:https://www.folktunefinder.com/tunes/136649
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

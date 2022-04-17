@@ -1,0 +1,19 @@
+X: 1
+T: Barbra's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+D|{c}G3 d3|{c}B2 A BAG|{c}E2 A {c}A2 {D}A|{c}E{G}E{A}E {c}FED|
+{c}G3 d3|{c}B2 A BAG|{c}E2 A {c}AGE|{c}G3 {D}G2:|
+D|{c}G3 {c}GDG|{c}GDG {c}BAG|{c}E2 A {c}A2 {D}A|{c}E{G}E{A}E {c}FED|
+{c}G3 {c}GDG|{c}GDG {c}BAG|{c}E2 A {c}AGE|{c}G3 {D}G2:|
+S:https://www.folktunefinder.com/tunes/135807
+S:http://www.thesession.org/tunes/display/862
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

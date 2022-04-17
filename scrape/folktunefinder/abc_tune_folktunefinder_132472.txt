@@ -1,0 +1,25 @@
+X: 4
+T:Processional, Fieldtown
+M:2/2
+L:1/8
+A:Fieldtown
+P:(AB)6
+K:G
+P:A
+|:c|\
+BABG AAA2|cB/c/Ac BGG2|B/c/d ef gdec|BGAF  G2G:|
+P:B
+z|g2gf fee2|a2ag fdd2|gfgf edeg|fde^c d2d=c |
+BABG AAA2|cB/c/Ac BGG2|B/c/d ef gdec|BGAF  G2G|
+S:https://www.folktunefinder.com/tunes/132472
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 09119
+T: A WALTZ FOR ELISE
+C: Bob McQuillen  18 Apr 92
+B: Bob's Note Book 9 #119
+N: Last week Dave Millstone called a dance in Woodstock, NY, and  he  got  Janie
+N: Orzechowski  and  Sarah  Bauhan  and I to play the music.  We had a real nice
+N: evening. I saw a familiar face, belonging to an old friend with deep roots in
+N: Dublin,  NH,  where  I  used to live; it was Elise Cabot, and I had the great
+N: pleasure of dancing a waltz with her.  Someday perhaps you will dance to this
+N: waltz, Elise - I surely hope so.  Much love to you, from Bob.
+R: waltz
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: D
+A,B, \
+| "D"D2 DF DB, | "G"B,2 A,2 DE | "D"F2 FG AG | "D"F2 D2 DF | "D"A2 A2 FA | "Bm"d2 A2 FA | "G6"A2 AB AG | "A7"F2 E2 A,B, |
+| "D"D2 DF DB, | "G"B,2 A,2 DE | "D"FE FG AG | "D"F2 D2 DF | "D"A2 AG FA | "D"d2 A2 FA | "A7"G2 F2 E2 | "D"D4 ||
+|| FG \
+| "D"A2 AF GA | "G"B2 G2 GA | "E7"B2 Bd ed | "A7"c2 A2 AB | "F#m"c2 fg fe | "Bm"d2 B2 de | "D"f2 fa gf | "A7"e4 de |
+| "D"f2 a2 ag | "Bm"f2 d2 AA | "G"BA Bc de | "D"d2 A2 FA | "G"G2 B3 G | "D"F2 A2 ag | "A7"fe d2 c2 | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/135583
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book09.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book09/09119_WaltzForElise.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

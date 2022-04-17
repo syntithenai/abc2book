@@ -1,0 +1,35 @@
+X: 1
+T:The Battle Hymn of the Republic
+Z:Jack Campin  *  May 2000  *  http://www.purr.demon.co.uk/jack/
+N:Final rest in part A extended to fill the bar.
+M:6/8
+L:1/8
+V:1
+V:2
+K:D
+V:1
+A|A2A A2G|F2A d2e|f2f f2e|d3  d2c|B2B B2c|d2c d2B|A2B A2F|A3  A2A |
+V:2
+F|F2F F2E|D2F F2G|A2A A2G|F3  F2A|G2G G2A|B2A B2G|F2G F2D|F3  F2F |
+V:1
+  A2A A2G|F2A d2e|f2f f2e|d2z d3 |e3  e3 |d3  c3 |d6     |d2z z3 ||
+V:2
+  F2F F2E|D2F F2G|A2A A2G|F2z F3 |G3  G3 |F3  E3 |F6     |F2z z3 ||
+V:1
+  A3  A2G|F2A d2e|f6     |d3  d2z|B3  B2c|d2c d2B|A6     |F3  F2z |
+V:2
+  F3  F2E|D2F d2e|A6     |F3  F2z|G3  G2A|B2A B2G|F6     |D3  D2z |
+V:1
+  A3  A2G|F2A d2e|f6     |d2z d3 |e3  e3 |d3  c3 |d6     |d2z z2 |]
+V:2
+  F3  F2E|D2F F2G|A6     |F2z F3 |G3  G3 |F3  E3 |F6     |F2z z2 |]
+S:https://www.folktunefinder.com/tunes/136579
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/Battle_Hymn_of_the_Republic_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

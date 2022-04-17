@@ -1,0 +1,23 @@
+X:35
+T:Whole Chicken in the Soup
+Z: id:dc-slide-38
+M:6/8
+L:1/8
+K:G Major
+G2E D2E|G2A B3|cBA B2G|A2G EDE|!
+G2E D2E|G2A B2d|d2B ABA|G3 G3:|!
+efg d2B|c2e d3|d2B A2G|E2A ABA|!
+[1 efg d2B|c2e d3|d2B ABA|G3 G3:|!
+[2 G2E D2E|G2A B2d|d2B ABA|G3 G3|]!
+S:https://www.folktunefinder.com/tunes/134935
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

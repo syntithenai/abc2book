@@ -1,0 +1,24 @@
+X: 1
+T:Banish Misfortune
+C:Trad
+S:Black Book
+I:speed 280
+M:6/8
+K:D
+|:e | fed cAG | A2d =cAG | F2 D DED | F3 GFG |
+A3 =cAG | AGA =cde | fed cAG | Add d2:|
+|: e f2 d dcd | f2g agf | e2 =c cAc | e2 f gfe |
+f2g agf | e2f gfe | fed =cAG | Add d2:|
+|: e | f2 g e2 f| d2e =c2d| ABA GAG |F3 AFD |
+=c3 cAG | AGA =cde | fed cAG | Add d2:|
+S:https://www.folktunefinder.com/tunes/134670
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/Banish_Misfortune_5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 11
+T:Unknown 3
+M:C
+L:1/4
+Q:100
+R:March
+K:C
+G/2F/2|ECC D/2E/2|GGG A/2B/2|cccB|G2G G/2F/2|
+DCC D/2E/2|GGG A/2B/2|cEF/2E/2D|C2-C::
+A/2B/2|cccB|AGcE|GGGF|ECDG/2F/2|
+ECC D/2E/2|GGG A/2B/2|cEF/2E/2D|C2-C:|
+S:https://www.folktunefinder.com/tunes/136562
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

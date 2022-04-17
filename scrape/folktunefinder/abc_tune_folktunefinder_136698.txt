@@ -1,0 +1,30 @@
+X:1
+T:Bauernmadl
+C:traditionell
+R:volkstanz
+A:Oesterreich
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d |\
+B>d dd | B>d dd | ee dB | c3c |
+A>c cc | A>c cc | dd cA | B3 ||
+z |\
+dd cB | A3d | ee dc | B3c |
+dd cB | BA A2 | d/e/d c/d/c | Bd B2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/136698
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/bauernmadl.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

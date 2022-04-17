@@ -1,0 +1,25 @@
+X:7
+T:Freinand
+C:Trad.
+B:Max Haagers Jodlerbuch
+I:160
+R:Jodler
+M:3/4
+L:1/8
+%%staves [1 2]
+K:C
+V:1
+z2 z2 z2 | z2 z2 z2 | Gf Bf Gf | Ge ce G2 |
+Ge ce G2 | Af df a2 | gf Bd Gf | G6 |]
+V:2
+cG eG c2 | [df][Ad] [fa][Ad] [df]>[ce] | [Bf][GB] [fg][GB] [Bf][GB] | [ce][Gc] [eg][Gc] [c2e2] |
+[ce][Gc] [eg][Gc] [c2e2] | [df][Ad] [fa][Ad] [df]>[ce] | [Bd][GB] [fg][GB] [Bf][GB] | [c6e6] |]
+S:https://www.folktunefinder.com/tunes/136706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/steierm1.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

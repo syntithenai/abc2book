@@ -1,0 +1,28 @@
+X:141
+T: Des Grafen Toechterlein
+N: Q2063C
+O: Mitteleuropa, Niederlande
+N: Melodievarianten aus anderer Quelle abgedruckt. Niederlaendische
+N: Fassung der Ballade. Taktart in FREI geaendert.
+R: Ballade, Liebe, Standesunterschied, Strafe, Gnade
+M: none
+L: 1/8
+K: F
+F2 | F4E2D4C2 | F4G2F4
+F2 | G4FGB4B2 | A4GFG4
+G2 | G4FGG4FG | A8G8 | F4
+A2 | G4FGE4DC | F4GAB4
+A4 | F2E2DCDE | F2G2G4 | F4
+S:https://www.folktunefinder.com/tunes/132243
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, liebe, standesunterschied, strafe, gnade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

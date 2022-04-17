@@ -1,0 +1,35 @@
+X: 8
+T:Lads and Lasses. JBa.08
+T:Whitby Abbey,aka. JBa.08
+M:C
+L:1/8
+Q:180
+C:Whitby Abbey,aka.
+S:Joseph Barnes MS,Carlisle,1762.
+R:reel
+O:England
+A:Carlisle
+N:No time or key signature - but there is a  very similar version in
+N:Peter Kennedy's Fiddler's Tune Book series - unfortunately sources are
+N:not given for the tunes..NB2 unclear note lengths aand not marked as
+N:triplets in MS...CGr..similarity to Whitby Abbey (Vickers ms) pointed
+N:out by Paul Roberts..
+Z:vmp.C.Graebe.
+K:GMajor
+"No key/time sig,see note"g |\
+dBAG FAAc | BGBd g2  fe | dBAG FAAc |\
+BGAF G2G2 :|!
+|: g2 (g/a/b) afed | g2 (g/a/b) a2d2 |\
+"unclear pitch"g2 (g/a/b) afed | "NB2"((3efg) ((3fga) g2g2 |]
+S:https://www.folktunefinder.com/tunes/132673
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

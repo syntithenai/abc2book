@@ -1,0 +1,23 @@
+X: 9
+T:Shepherds' Hey, Ascott
+M:4/4
+L:1/8
+A:Ascott
+P:A(AB)4A
+K:G
+P:A
+|:B2d2 c2c2|BcdB A2A2|BcdB ccBc|1d2A2 G4:|2d2A2 G3||
+P:B
+|:A|B2G2 c3A |B2G2 A4  |BcdB cBcA|1d2A2 G3:|2d2A2 G4||
+S:https://www.folktunefinder.com/tunes/131568
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ascott.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ascott.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ascott.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

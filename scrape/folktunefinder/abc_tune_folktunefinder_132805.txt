@@ -1,0 +1,36 @@
+X:6
+T:La Tresso                           % title
+C:Trad.                           % composer
+O:Valle Varaite                           % origin.
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-10
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4                           % meter
+L:1/8                        % length of shortest note
+Q:1/4=120                           % tempo
+K:D                           % key
+V:1                          % voice 1
+P:A
+ef |: ge a/g/f/e/ | dc/d/ ef | ge a/g/f/e/ | dc/d/ ef | ge af | d2
+P:B
+ef | d>d ef | d>d ef | gf ed | cd e/f/g/f/ | e2 ef | d>d ef | d>d ef | ag fe |
+d>d dd |1,2 d2 ef :|3 d2 z2 |
+T:
+P:C
+fd fd | fd ((3fgf) | ec ec | ec ((3efg) | fd fd | fd ((3fgf) | ec ef | ga ba |
+fd fd | fd ((3fgf) | ec ec | ec ((3efg) | fd fd | fd ((3fgf) | ec ec | ec ((3efe) |
+d>d dd | d2
+T:
+P:B2
+ef | d>d ef | d>d ef | gf ed | cd e/f/g/f/ | e2 e/f/ | d>d ef | d>d ef | ag fe | 
+T:
+d>d dd | d2
+%%footer $D   Galouvielle-MBe 2007 \n--- (Valle Varaita, Italie)
+S:https://www.folktunefinder.com/tunes/132805
+S:http://michel.bellon.free.fr/Musique/abc/ValleVaraita_D.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

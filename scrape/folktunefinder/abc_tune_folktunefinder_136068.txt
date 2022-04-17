@@ -1,0 +1,28 @@
+X:1
+T:Barockpolskan
+R:Polska
+B:P frstukvisten
+Z:2007-09-05
+S:Lasse i Svarven
+O:stergtland
+D: Sgskra - nglarnas sprk, Pelle Bjrnlert & Johan Hedin - Musikanter, polskor och andanter
+M:3/4
+L:1/16
+K:Dm
+abag fgfe defd|efed cdc=B ABcA|d2d^c d2e2 f2g2 | agbg a4A4|
+abag fgfe defd|efed cdc=B ABcA|d2d^c defe fgag|fed^c d4D4:|
+f2FE F2fe fag^f|g2c=B c2C=B,C4|g2c=B c2g^f g_bag| a2fe f2FE F4|
+abag fgfe defd|efed cdc=B ABcA|d2d^c defe fgag|fed^c c2d2 D3:|
+S:https://www.folktunefinder.com/tunes/136068
+S:http://www.folkwiki.se/pub/cache/Barockpolskan_5abd31.latin.abc
+S:http://www.folkwiki.se/pub/cache/Barockpolskan_5abd31.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

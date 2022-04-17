@@ -1,0 +1,28 @@
+X: 5
+T:Constant Billy, Headington 2
+M:6/8
+L:1/8
+S:RKS
+A:Headington
+P:A(AB)4
+K:G
+P:A
+|:D|G>Bd B>GB|c>Bc A>FD|B>AG E>DC|D>EF G2:|
+P:B
+|:D|B>cd e>cB|A>Bc d>BG|B>cd e>cB|A>Bc d2D|
+G>Bd B>GB|c>Bc A>FD|B>AG E>DC|D>EF G2:|
+S:https://www.folktunefinder.com/tunes/131611
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:11098
+T:"The Avonmore"       (reel)     1189
+C:after Cap't F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+(dc)"^Segno"|BG  (3GGG G2G2|BGBd gdec|BG  (3GGG G2(cB)|AGFG ABcA|
+BG  (3GGG G2G2|BGBd g2(fg)|afge fdec|AGFG ABcA||
+Bd  (3ddd d2(dc)|BGBd gdec|Bd  (3ddd d2(cB)|AGFG ABcA|
+Bd  (3ddd d2(dc)|BGBd g2(fg)|afge fdec|AGFG ABc"^Dal Segno"A|]
+S:https://www.folktunefinder.com/tunes/130680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1189-Avonmore.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1189-Avonmore.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

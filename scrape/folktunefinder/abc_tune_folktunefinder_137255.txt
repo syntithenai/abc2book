@@ -1,0 +1,41 @@
+X:9
+T:The Postman's Knock
+S:Bacon (RD ex Blunt Mss.)
+S:words - Julia Schult
+A:Adderbury
+O:English
+R:Jig
+P:B(AB)2
+Q:200
+M:6/8
+K:D
+P:A
+D>D | DFG A2 F | GAB A2 A | dAF FED | (E3 E2) D |
+DEF AAA | GAB A2 F | Edc BA^G | (A3 A) A>A |
+AGF Fdd | dDE F2 F | FFF dcB | c3 B2 A |
+ddd dAF | EFG HB2 A | AdF FF>E | D3 D2 |]
+P:B
+z | A2 A AAA | Bcd A3 | d>cB  d2 F | F2 E F3 | 
+A2 A AAA | Bcd A3 | dcB A2 d | d3 c3 | d3 z3 | z3 z |]
+%
+W: Every morning as true as the clock, somebody hears the postman's knock. (2x)
+W:
+W:What a wonderful man the postman is as he hastens from door to door!  What
+W:medley of news his hands contain for either rich or poor!  In
+W:many a face he joy can trace, as many a grief he can see, but the
+W:door is open to his loud tap-tap and his swift delivery.
+W:
+W:Number one he presents with news of a birth, with tidings of death number 4, at
+W:13 a bill of terrible length he drops through a hole in the door; Now a
+W:check or an order for 15 he brings, for 16 his presence to prove, for
+W:17 doth an acknowledgement get, and 18 a letter of love.
+S:https://www.folktunefinder.com/tunes/137255
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

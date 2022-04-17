@@ -1,0 +1,27 @@
+X:17
+T: I Had a Horse 
+N: HA017
+O: Europa, Mitteleuropa, Deutschland
+N: beginnt in D-Dur, Zwischenteil in G-Dur, endet in h-moll;
+N: Haupttonart: D-Dur, aw und aw": gleicher Schluss
+N: Anfangsmotiv a und c rhythmisch gleich
+M: 3/4
+L: 1/16
+K: Dm
+A,2 | DD3D4d3B | A2F2E6
+F2 | DD3D6E2 | F2B,4z2
+A,2B,2 | D2D2D4d3B | A3FE6
+FF | D2D2D6E2 | F2B,6z2
+D2 | G2G2G6G2 | F2F2F6
+D2 | EE3E6F2 | F2B6z2
+d2 | A3Bd4def2 | e2d2B6
+d2 | AFEDD6E2 | F2B,8
+S:https://www.folktunefinder.com/tunes/135712
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

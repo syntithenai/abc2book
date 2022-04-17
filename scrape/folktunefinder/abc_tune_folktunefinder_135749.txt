@@ -1,0 +1,29 @@
+X: 1
+T: Barbarini's Tambourine [C]
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+B: Barnes 2nd ed.
+M: 2/4
+L: 1/16
+K: C
+ef \
+| "C"g2c2 c2c2 | c2d2 "(G)"d2e2 \
+| "C"{f}e2de "F"fedc | "G7"d2G2 G2ef \
+| "C"g2c2 c2c2 | c2d2 "(G)"d2e2 |
+| "C"{f}e2de "F"fedc | "G7"d6 :: Bc \
+| "G7"d2G2 G2G2 | G6 cd \
+| "Am"e2A2 A2A2 | A6 de \
+| "G7"f2B2 B2ef |
+| "C"g2c2 c2fg \
+| "F"a2f2 "G7"b2g2 | "C"c'2ba "(F)"g2f2 \
+| "C"{f}e2dc "G7"{e}d2cB | "C"{d}c2BA "F"G2F2 \
+| "C"E2c2 "G7"D2B2 | "C"[c6C6] :|
+S:https://www.folktunefinder.com/tunes/135749
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/BarbarinisTambourine_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

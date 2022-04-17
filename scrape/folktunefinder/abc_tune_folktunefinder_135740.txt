@@ -1,0 +1,27 @@
+X:45
+T: The Gard'ner Wi' his Paidle 
+N: HA045
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge; Triller
+M: 2/2
+L: 1/16
+K: A
+E4 | A6B2c4d4 | e4f2e2d6
+d2 | c4d2c2B4A4 | A4C3DE4z2
+E2 | A4B4c4d4 | e4f2e2d4
+e2d2 | c4B2A2B2c2d2c2 | B8A4
+d2e2 | f4d4B4c2d2 | e4c4A4
+B2c2 | d4c4B4A4 | G2A2c2G2E4z2
+E2 | A6B2c4d4 | e4f2e2d4
+e2d2 | c4B2A2B2c2d2c2 | B8A4
+S:https://www.folktunefinder.com/tunes/135740
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

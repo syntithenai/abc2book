@@ -1,0 +1,43 @@
+X:2
+T:Die Liebe Nerpus
+D:Burzum - Hlidskjalf
+C:V. Vikernes
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=105
+K:C
+V:1
+%%MIDI program 46 %harp
+%%MIDI channel 1
+%%MIDI transpose 0
+%%MIDI control 7 100 %volume
+%%MIDI control 10 85 %pan
+d>fe e>fg a>gf e>gf | d>fe e>fg a>gf e3 |
+d>fe e>fg a>gf e>gf | d>fe e>fg a>gf e3 |
+V:2
+%%MIDI program 46
+%%MIDI channel 1
+%%MIDI transpose 0
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+[D,3D3] [D,3D3] [D,3D3] [C,3C3] | [D,3D3] [D,3D3] [D,3D3] [C,3C3] | 
+[D,3D3] [D,3D3] [D,3D3] [C,3C3] | [D,3D3] [D,3D3] [D,3D3] [C,3C3] | 
+V:3
+%%MIDI program 71
+%%MIDI channel 2
+%%MIDI transpose 0
+%%MIDI control 7 120 %volume
+%%MIDI control 10 85 %pan
+z12 | z11 a | a>gd' aa>gfe2
+S:https://www.folktunefinder.com/tunes/136663
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

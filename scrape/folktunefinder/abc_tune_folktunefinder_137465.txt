@@ -1,0 +1,24 @@
+X:150
+T:The Fox-Hunter
+M:4/4
+L:1/8
+Q:160     %Tempo
+C:Traditional
+K:G
+d2 (3BAG dGBG |dGBG AGEG |d2 (3BAG dGBG |AcBG AGEG |
+d2 (3BAG dGBG |dGBG AGEG |d2 (3BAG dGBG |AcBG AGEG |:
+D3 B BAGE |D2 BG AGEG |D3 B BA G2 |AcBG AGEG ::
+gedB G2 Bd |gdBd eA A2 |gedB G2 cB |ABcd eA A2 :|
+dggf g3 e |dg g2 egdB |dggf g3 d |egdB AGAB |
+dggf g3 e |dg g2 egdB |dggf g3 d |egdB AGAB |:
+G2 BG dGBG |GB B2 AGAB |G2 BG dGBG |egdB AGAB |
+G2 BG dGBG |GB B2 AGAB |G2 BG dGBd |egdB AGAB ||
+S:https://www.folktunefinder.com/tunes/137465
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

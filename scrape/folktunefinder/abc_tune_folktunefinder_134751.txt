@@ -1,0 +1,22 @@
+X:30
+T:The Mooncoin
+R:jig
+M:6/8
+L:1/8
+K:Amix
+ed |: cBA AEA | AEA    Bcd | cBA Ace | dBG Bcd |
+      cBA AEA | AEA    Bcd | Ace ~g3 | dBG Bcd :|
+   |: cde efg | f/g/af ged | cde efg | f/g/aA Bcd |
+      cde efg | afd    bge | afd gec | dBG Bcd :|
+   |: cBA Aaf | ecA    Bcd | cBA ~g3 | dBG Bcd |
+      cBA Aaa | Agg    Aff | Aee efg | dBG Bcd :|
+S:https://www.folktunefinder.com/tunes/134751
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:70
+T:Montreal
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+N:There are perhaps an overkill of repeat markings 
+O:England
+Z:Richard Robinson 
+%%Dancenotes:1st Cu: lead down the middle up again right & left at top
+%%Page:7
+%%RRN:the |:: ... ::| constructions represent a barline with 4 dots instead of the usual 2
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001184.html
+%%ID:00001184
+K:D
+A |:: !segno! \
+{e}dcd e2f | d2f a3 | (aa.e gf.d) | (fe).B dcA | \
+dcd e2f | d2f a3 | age   B2c | d3- d2 ::
+c/d/ | \
+e2e dcB | ABc def | g2B fed | cdd A2c | \
+e2e dcB | ABc def | gag fed | cba gfe !segno! !D.C.! ::|
+%%newpage
+%%Page:8
+S:https://www.folktunefinder.com/tunes/134649
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

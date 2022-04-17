@@ -1,0 +1,27 @@
+X:2
+T:Banbury Bill
+S:Bacon (Jour 1956)
+A:Bampton
+O:English
+R:Reel
+P:A(AB3)3A
+M:4/4
+K:D
+P:A
+D2 E2 F2 D2 | G2 A2 B4 | E2 F2 G2 AG | F2 G2 A4 |
+A2 D2 F2 A2 | d2 e2 f3 g/2a/2 | g2 e2 B2 c2 | d4 d4 |]
+P:B
+d2 e2 f2 d2 | c2 d2 e4 | B2 c2 d2 ed | c2 B2 A2 Bc |
+d2 A2 D4 | F2 G2 A4 | Bc d2 cd e2 | d4 d4 |]
+S:https://www.folktunefinder.com/tunes/131528
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

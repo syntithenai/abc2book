@@ -1,0 +1,27 @@
+X:2
+T:The Black Joke
+S:Bacon (MDT)
+A:Adderbury
+O:English
+R:Jig
+P:A(AB)6
+Q:190
+M:6/8
+K:G
+P:A
+D | DGG GFG | AcB A2G/F/ | GAB d>cB | AcB AGF | G>AB E>FG | DEF G2 :|
+P:B
+z | Bdd d>dd  | ede d3   | Bdd d>dd  | ede d2c | B>BB BAG |
+AcB AGF | GAB d>cB | AcB AGF | G>AB E>FG | DEF G2 |]
+S:https://www.folktunefinder.com/tunes/137248
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

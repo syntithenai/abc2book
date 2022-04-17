@@ -1,0 +1,20 @@
+X:1
+T:The Wall Nut
+M:6/8
+R:jig
+K:G
+dBG ABF|GDB, G,B,D|CEG DFA|GAB~A3|
+dBG ABF|GDB, G,B,D|CEG DFA|BGF G3:|
+gdB gdB|gaf g2^g|ae^c aec|afe dcA|
+GDG ~B2B|AEA ~e2e|fgf edc|BGF G3:|
+S:https://www.folktunefinder.com/tunes/137388
+S:http://www.mckenna.dk/lyd/mckennas_tunes.abc
+S:http://www.mckenna.dk/lyd/the_wall_nut.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

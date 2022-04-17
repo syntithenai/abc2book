@@ -1,0 +1,23 @@
+X:45
+T:Smash The Windows
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:D
+"D" DED   F2    A | "D" d2 f "A" ecA | "G" G2 B "D" F2 A | "A" E2 F GFE |
+"D" DED   F2    A | "D" d2 f "A" ecA | "G" Bgf   "A" edc |1 "D" ded  d2 :|2 "D" ded dfg ||
+"D" a2 f   d2   f | A2     a     agf | "A" g2  e   c2  e | A2   g   gfe | 
+"D" f2 d "G" g2 e | "D" a2 f "G" bag | "D" fed   "A" ABc | "D" ded  dfg |
+"D" a2 f   d2   f | A2     a     agf | "A" g2  e   c2  e | A2   g   gfe |
+"D" fed   "G" gfe | "D" agf  "G" gfe | "D" fed   "A" ABc | "D" ded d2 A |]
+S:https://www.folktunefinder.com/tunes/134766
+S:http://www.slowplayers.org/Music/abc/Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

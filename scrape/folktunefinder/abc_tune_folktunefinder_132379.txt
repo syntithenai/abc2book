@@ -1,0 +1,41 @@
+X:1
+%%scale 0.80
+T:Plin : Suite Ronan Robert
+E:10
+Z:Roger Ngaret (94-95)
+R:plin
+C:Ronan Robert
+S:
+A:Bretagne
+M:4/4
+L:1/8
+K:C
+T:Ton simple
+Q:1/4=140
+Ac eg ff ec | Ac eg ff e2 :: \
+Ac eg (3fed e2 | (3cde dc B2 A2 ::\
+da/a/ aa gb a2 |1 da/a/ ad' d'b a2 :|2 dg/g/ ga fe d2 |:\
+fe/f/ dd fe/d/ ea |1 ad ef gf/g/ e2 :|2 ad fe/d/ ef d2 |]
+T:Bal
+Q:1/4=80
+(3Aed c2 (3ABc d2 |1 e/e/d/e/ A2 (3Bcd ee :|2 \
+(3ede AB/ cd/ e z |
+Q:1/4=140
+|: (3ecd ea gf e2 | (3ecd ed cB A2 | (3ABc da gf ee | ed cB A2 A2 :|
+T:Ton double
+Q:1/4=140
+c| (3cBA eA Bc (3cBA | cA Bc AG A ::\
+e | eg ed e3 c'/c'/ | c'a ga af ed | eg (3edc dd ed | (3ded BG A ::\
+K:G
+B2 EB BB EB | dd Bd EG B2 ::\
+B2 EB BG F2 | (3EFG AB ed B2 | B2 EB BG F2 | (3EFG GF E4 :|
+S:https://www.folktunefinder.com/tunes/132379
+S:http://termen.free.fr/danses/cornouaille/PlinSuiteRonanRobert.abc
+% Rhythm Plin
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

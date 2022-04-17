@@ -1,0 +1,25 @@
+X: 9
+T: The Furze Field
+M:6/8
+L:1/8
+A:Bampton
+P:A(AB2)4
+Q:100
+K:G
+P:A
+D|G>GG FGA|BAG A>Bc|dBd cAF|G3G2D|G>GG FGA|BAG A>Bc|dBd cAF|G3G2|
+P:B
+B/c/|d2d ded|cAF D>EF|GAB cde|dcB A2D|G>GG FGA|BAG A>Bc|dBd cAF|G3G2|
+S:https://www.folktunefinder.com/tunes/131578
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

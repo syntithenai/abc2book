@@ -1,0 +1,23 @@
+X:16
+T: Ritter und Magd
+N: Q1055O
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0055C, anderes Lied.
+R: 
+M: 6/4
+L: 1/4
+K: F
+FFG | ABcA | F2z
+fff | ecd2 | c2z
+Fcf | dcdd | c2z
+Adc | BAG2 | F2z
+S:https://www.folktunefinder.com/tunes/132118
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

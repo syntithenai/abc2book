@@ -1,0 +1,29 @@
+X:41
+T:Farewell to Ireland (D)
+R:reel
+E:7
+I:speed 350
+M:C|
+K:D
+|D2(3FED FA~A2|fedf edBc|dBAF~G3B|AF~F2 EGFE|\
+D2(3FED FA~A2|fedf edBc|dBAF ~G3B|AF~F2 EGFE:|*
+|defg afdf|g2fg eA~A2|defg afdf|(3gfe fd ~e3A|\
+defg ~a3f|g2fge A~A2|dBAF ~G3B|AF~F2 EGFE:|**
+S:https://www.folktunefinder.com/tunes/135107
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

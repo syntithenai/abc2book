@@ -1,0 +1,26 @@
+X:12
+T: Matelotte
+O:belgium
+S: Jean Guillaume Houssa's notebook
+A: Soy-lez-Durbuy, Ardennes, Belgium
+Z: Christophe Declercq cdeclercq@nordnet.fr=20
+M: 2/4
+L: 1/16
+K: D
+(DF) \
+| (AF)DF (AF)DF | A2d2 d2(DF) | (AF)DF (AF)DF | E2E2 E2(DF) |
+| (AF)DF (AF)DF | A2d2 d2(fg) | afdf gece | d2d2 d2 :|
+|: g2 \
+| (fd)fa (ba)gf | (ed)ef g2fe | (de)fg (ba)gf | e2A2 A2g2 |
+| (fd)fa (ba)gf | (ed)ef g2fg | afdf gece | d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/136913
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:4
+T:Mille regrets
+T:Bassus
+C: Josquin des Prez 
+B: From a 1549 ms.
+B:db: -c 8 
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+K:E phr bass
+e4 f2 d2 e3 d/ c/ B > A B2 A4
+S:https://www.folktunefinder.com/tunes/136358
+S:http://www.laymusic.org/music/josquin/regrets/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

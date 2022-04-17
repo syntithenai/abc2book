@@ -1,0 +1,23 @@
+X: 1
+T: Bean Setting
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: The B part has an extra half-measure.
+M: 2/4
+L: 1/8
+K: G
+|: "G"G2 G>A | B2 B2 | "D7"A>B (3c/B/A/ | "G"G>A B2 | "G"G2 G>A | B2 B2 | "D7"A>B (3c/B/A/ | "G"G4 :|
+M: 6/8
+|: "G"B>AG B>AG | Bd2- d2B | "D7"A>BA A2B | "C"c2d e>dc | "G"B>AG BdB |[M:9/8] "D7"ABc def "G"g3 :|
+S:https://www.folktunefinder.com/tunes/136869
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Bean_Setting.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

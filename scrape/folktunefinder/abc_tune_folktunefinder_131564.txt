@@ -1,0 +1,26 @@
+X: 5
+T:Mrs Casey, Ascott
+M:6/8
+L:1/8
+A:Ascott
+P:A(AB)4A
+K:G
+P:A
+D|B2A G2E|EGE D2D|EFG A2B|c3 B2A|
+G2E EGE|D2E D2D|EFG A2B|G3 G2 ||
+P:B
+|:G|G2A B2c|ded d3 |G2A B2c|d3 B2d|
+e2d d2B|c2c B3 |ABA A2B|c3 B2A|
+B2A G2E|EGE D2D|EFG A2B|G3 G2:|
+S:https://www.folktunefinder.com/tunes/131564
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ascott.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ascott.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ascott.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

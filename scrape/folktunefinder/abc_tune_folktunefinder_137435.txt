@@ -1,0 +1,22 @@
+X: 44
+T:The Ministrel Boy
+M:4/4
+L:1/8
+Q:120
+K:G
+D2 |:G3 B cB AG |B2 d2 g2 fg |e2 d2 B3/2c/ dB |1
+A4 G2 D2 :|2A4 G2 Bd ||g2 f2 e2 fg |f2 e2 d3 d |
+e3 d B2 d2 |e3 f g2 g2 |G3 B cB AG |B2 d2 g2 fg |
+e2 d2 B3/2c/ dB |A4 G2 z2 ||
+%  ABC2Win Version 2.1 06/07/2002
+% Output from ABC2Win  Version 2.1 i on 30/07/2002
+S:https://www.folktunefinder.com/tunes/137435
+S:http://trillian.mit.edu/~jc/music/abc/mirror/homepage.eircom.net/collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

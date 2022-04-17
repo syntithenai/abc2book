@@ -1,0 +1,25 @@
+X:1
+T:Beaux of London City
+C:Adderbury
+M:9/8
+L:1/8
+A:Adderbury
+P:A(AB)6
+K:F
+P:A
+|:C|F>FF AGF A<cC|F2 F A2G F2C|
+F>FF AGF A<cC|F>CF A2G F2:|
+P:B
+|:z|c2B  AGF Ac2 |G2 G G2A B3 |
+c2B  AGF A>cC|F>CF A2G F2:|
+</abc>
+S:https://www.folktunefinder.com/tunes/137245
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:beaux_of_london_city&do=edit&rev=1157477104
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:beaux_of_london_city&do=edit&rev=1157484644
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:beaux_of_london_city&do=edit&rev=
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

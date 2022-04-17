@@ -1,0 +1,24 @@
+X:2
+T:X. O sweet woods the delight of solitarinesse
+T:
+C: John Dowland
+Z: Transcribed by Laura Conrad http://www.laymusic.org
+H: From The Second Booke of Songs or Ayres of 2. 4. and 5. parts: 
+H: with Tableture for the Lute or Orpherian, with the Violl de Gamba.
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on second line
+K:D min
+F A2 c F > G A2 A > A G/ F/ E/ D/ E > E ^F2
+S:https://www.folktunefinder.com/tunes/136311
+S:http://www.laymusic.org/music/dowland/wood/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

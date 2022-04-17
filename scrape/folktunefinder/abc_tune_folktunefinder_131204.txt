@@ -1,0 +1,39 @@
+X:408
+T:B408-  The Sages of Old
+Q:1/4=120
+L:1/4
+M:3/4
+K:D
+(.d/e/)|f(g/f/) (e/d/)|a2(b/a/)|gga|f2(g/f/)|\
+e(f/e/) (d/c/)|B3/2c/d|cAB/ c/|d(d/e/) (d/c/)|\
+B2(c/d/)|ef(e/d/)|c2b|^gea|\
+a3/2b/^g|aa(g/f/)|gga|b2a/ g/|\
+(f/g/)^g3/2(f/4g/4)|a2(e/4f/4g/)|f(e/d/)g|g3/2a/f|\
+ggb|gge|c2a|fd(B/4c/4d/)|\
+c3/2B/A|a3/2g/ (f/4g/4a/)|ge3/2d/|dd|]
+S:https://www.folktunefinder.com/tunes/131204
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM4.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM4.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20021201120256/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM4.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM4.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM4.ABC
+S:http://www.mudcat.org/olson/BM4.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM4.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

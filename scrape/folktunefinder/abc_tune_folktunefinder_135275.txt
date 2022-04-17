@@ -1,0 +1,29 @@
+X: 16
+T:Gallant Hussar, Longborough
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB)2(AC)2
+K:G
+P:A
+|:D|G2B ABc|e2d d2B|GGB AcB|1G3 F2:|2G3 G2||
+P:B
+d|dBd gfg|e2c c2B|ABc edB| G3 F2D|
+G2B ABc|e2d d2B|GGB AcB| G3 G2 ||
+P:C
+M:3/8
+L:1/8
+d3|\
+M:6/8
+(2dB d3|(2gf g3|e3  c3 | c3 B3 |\
+                ABc edB| G3 F2D|
+G2B ABc|e2d d2B|GGB AcB| G3 G2 ||
+S:https://www.folktunefinder.com/tunes/135275
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

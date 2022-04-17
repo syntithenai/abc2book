@@ -1,0 +1,24 @@
+X: 10
+T:Unknown 2
+M:6/8
+L:1/8
+Q:120
+R:Jig
+K:C
+ecA GEG|cGc edc|dBG FDF|BAB GAB|
+ecA GEG|cGc edc|BAB GAB|cGe c2c|
+BAG FED|CEG cBA|BAB dcB|cGc edc|
+BAG FED|CEG cde|dcB ABG|ced c3|
+S:https://www.folktunefinder.com/tunes/136561
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

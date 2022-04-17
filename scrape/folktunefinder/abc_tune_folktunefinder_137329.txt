@@ -1,0 +1,22 @@
+X: 16
+T:La Russe
+R:32-bar reel
+M:4/4
+L:1/4
+K:G
+B/2A/2|"G"GB/2B/2 Bd/2d/2|"G"dg gf/2g/2|"C"ag ec|"Am"ed/2e/2 "D7"d/2c/2B/2A/2|
+"G"GB/2B/2 Bd/2d/2|"G"dg gf/2g/2|"C"ed "D7"dF/2G/2|"G"AG G:|
+K:D
+A|:"D"Ad dc/2B/2|"D"Aa ag/2f/2|"A7"gf ge|"D"f/2g/2a/2g/2 "A7"fd|
+"D"Ad dc/2B/2|"D"Aa ag/2f/2|"A7"gf ge|"D"d3:|
+S:https://www.folktunefinder.com/tunes/137329
+S:http://homepage.ntlworld.com/greenery/Minimal%20Ceilidh%20Tune%20Book/allTunesInabc.html
+% Rhythm 32-bar reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

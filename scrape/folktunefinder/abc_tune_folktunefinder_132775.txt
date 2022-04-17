@@ -1,0 +1,29 @@
+X:11
+T:La Marguerite
+C:Philippe Prieur
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+F:http://simonwascher.info/TradArchiv_walzer/la_marguerite.abc 2007-02-04 07:23:59 UT
+K:Dm
+DFA | d>^c d/e/ | dAF | c3 |\
+cBA | B2G | GAB |1 BAF :|\
+                [2 A3 ||
+|:\
+FED | E3 | GFE | F2E |\
+DEF | B2A |1 AE>G | GFE :|\
+          [2 AEF | D3 ||
+S:https://www.folktunefinder.com/tunes/132775
+S:http://simonwascher.info/TradArchiv_walzer/la_marguerite.abc
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Walzer
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 8
+T:Tam Lin
+M:C | 
+L:1/8
+Q:140
+R:Reel
+K:Bm
+FB{d}B{A}B ABcA | {A}G/G/G BG dGBG | {c}A/A/A cA eAcA | FABd cBAG | FB{d}B{A}B ABcA | {A}G/G/G BG dGBG | {c}A/A/A cA eAcA ||1 dBAG FB{d}B{A}B :|2 dBAG FAdf || 
+bafe dB{d}B{A}B | bafe def^g | aAA/A/A ceAc | eAce acea | bafe dB{d}B{A}B | bafe dBEF | GFGA BABc | dBAG FB{d}B{A}B :|
+S:https://www.folktunefinder.com/tunes/136104
+S:http://trillian.mit.edu/~jc/music/abc/mirror/celticmusic.com/dragon_reels.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/roger_landes/dragon_reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

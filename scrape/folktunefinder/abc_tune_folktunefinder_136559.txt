@@ -1,0 +1,25 @@
+X: 8
+T:Leitrim Jig
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:D
+GBG FAF|D2B BAB|GBG FAF|D2B BFD|
+GBG FAF|D2B BAB|F2B dBG|ABG FED:|
+|:G2B dBd|edB dBA|G2B dBG|ABG FED|
+G2B dBd|edc def|gfe dBG|ABG FED:|
+G3 F3|D6|
+S:https://www.folktunefinder.com/tunes/136559
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

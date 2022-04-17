@@ -1,0 +1,26 @@
+X: 1
+T: Barn Dance Schottische, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: d>e |
+f2 d2 d>Ad>e | f2 e>^d e2 e>d | c2 A2 c>A (3Bcd |
+e2 d>c d>Ad>e |f2 d2 d>cd>e | f2 e2 e2 (3edB |
+[1 c>ec>B A>Bc>d | e2 d2 d2 :|
+2 c>a^g>a =g>e (3Bcd | (3efe dc d2 ||
+|: (3EFG |
+F2 D2 d>DE>F | G2 E2 e2 (3Bcd | c2 A2 e>Ac>g |
+(3fgf d>c d>AG>E |F>dA>d F2 (3DEF | G2 e2 e>GB>d |
+[1 c>ec>B A>Bc>d | e2 d2 d2 :|
+2 c>a^g>a =g>e (3Bcd | (3efe dc d2 ||
+S:https://www.folktunefinder.com/tunes/136006
+S:http://www.thesession.org/tunes/display/5912
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

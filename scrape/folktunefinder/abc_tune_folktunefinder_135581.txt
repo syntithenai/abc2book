@@ -1,0 +1,33 @@
+X: 09009
+T: BANNERMAN'S QUADRILLE
+C: Bob McQuillen 16 Oct 92
+B: Bob's Note Book 9 #9
+R: march
+N: Glenn Bannerman comes all the way from Montreat  NC,  just  to  attend  the
+N: Ralph Page Legacy Weekend each year.  He is an old friend of Ralph's, and a
+N: real fine caller; he's full of fun and great spirit  which  he  manages  to
+N: pass on to us all. You give us a real good time on the dance floor, Glenn -
+N: we're so glad you come!
+Z: 2003 John Chambers
+M: C|
+L: 1/4
+K: D
+FG \
+| A>B AG | FA dA | B>c dB | A3 d | c>B cd | ec de | f>g fd | AG FG |
+| A>B AG | FA dA | B>c dB | A3 A | B>A Bc | df ag | f2  e2 | d2 ||
+fg \
+| a2 a>b | af df | gf ed | B2 de | f>e dA | BA fa | gf ed | e2 fg |
+| a2 a>b | af df | gf ed | B2 dB | A>B AG | FA dg | fe/d/ ec | d2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/135581
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book09.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

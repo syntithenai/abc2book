@@ -1,0 +1,29 @@
+X:47
+T:Sunny Banks, The
+E:8
+R:reel
+I:speed 350
+M:C|
+K:D
+B|AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA|BdAG FDDB|\
+AF~F2 d2 cA|(3Bcd AF ~G3 B|AF~F2 d2 cA| BdAF D3 ||*
+e|f2 ed cA ~A2|fdef g2 ag|f2 ed cA~A2|(3Bcd AG FD ~D2|\
+f2 ed cA ~A2|fdef g2 ag|fded cA~A2|BdAG FD ~D2||**
+S:https://www.folktunefinder.com/tunes/135113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

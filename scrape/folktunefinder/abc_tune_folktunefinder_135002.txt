@@ -1,0 +1,25 @@
+X:105
+T:Port Shean Tseain
+T:Old John's Jig
+E:10
+S:Bill Dundon
+I:speed 350
+R:jig
+M:6/8
+K:ADor
+cAA cAA|GEF GAB|cAA A2G|Add ded|\
+cAA cAA|GEF GAB|cde =fed|cAG A3:|*
+efg eaa|ged cAG|efg eaa|bag a3|\
+efg eaa|ged cAA|cde =fed|cAG A3:|**
+S:https://www.folktunefinder.com/tunes/135002
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

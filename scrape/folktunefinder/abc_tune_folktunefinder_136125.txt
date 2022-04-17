@@ -1,0 +1,23 @@
+X:3
+T:Turkey in the Straw
+R:Reel
+N:http://diana.ecs.soton.ac.uk/~jra/NMD/reelsR-T.txt
+M:2/4
+L:1/16
+K:G
+BA|"G"GFGA G2B,C|DEDB, D2GA|B2B2 "Em"BAGA|"Am"B2A2 "D7"A2BA|!
+"G"GFGA G2B,C|DEDB, D2GA|Bd2e "Em"dBGA|"D7"B2A2 "G"G2:|!
+|:A2|"G"Bd2B d2d2|"G7"Bd2B d4|"C"ce2c e2e2|ce2c "D7"e2f2|!
+"G"g2g2 d2d2|Bd2B "D7"A2GA|"G"Bd2e "Em"dBGA|"D7"B2A2 "G"G2:|]
+S:https://www.folktunefinder.com/tunes/136125
+S:http://www.firepowr.com/abc/The_List.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

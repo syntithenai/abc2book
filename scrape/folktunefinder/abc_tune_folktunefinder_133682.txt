@@ -1,0 +1,32 @@
+X:1
+T:Patrick O'Connor's No.2
+C:Traditional
+N:Play last 24 bars
+N:then twice through
+N:The Cashel Set, figure 6, tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+D:The Monks of the Screw, 'Brathar na nOl'
+R:Polka
+M:2/4
+L:1/8
+K:ADor
+AB cd | ef g2 | a>g ed | B>A G2 |\
+A>B cd | ef ge | ag/e/ dB | A2 A2 :||
+ag ed | ef g2 | ag ed | BA G2 |\
+A>B cd | ef ge | ag/e/ dB | A2 A2 :||
+S:https://www.folktunefinder.com/tunes/133682
+S:http://theflow.org.uk/text/flow_cashel.txt
+S:http://www.theflow.org.uk/text/flow_cashel.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

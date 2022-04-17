@@ -1,0 +1,24 @@
+X:3
+T:Balleydesmond Polka #3
+R:polka
+M:2/4
+L:1/8
+K:G
+"D" A>B        AG | "C"  EF      GE | "D"  A>B    AG | "Am" Ad d/e/d/c/ |
+"D" A>B        AG | "C"  EF      G2 | "Am" AB "C" cE | "D"  ED       D2 :|
+"D" Ad        d>d | "Am" ed     c>d | "C"  ed     cd | "Am" ea a/b/a/g/ |
+"C" ed        c>d | "Am" ed      c2 | "D"  A>B    cd | "Am" ef      g>f |
+"C" ed         cd | "Am" eA   B/c/d | "C"  e>d    cd | "Am" ea a/b/a/g/ |
+"C" e/f/g "G" d>B | "C"  ce "G" d>B | "Am" AB "C" cE | "D"  ED       D2 |]
+S:https://www.folktunefinder.com/tunes/133148
+S:http://www.slowplayers.org/Music/abc/Polkas.abc
+S:http://sf.ccewest.org/music/abc/Polkas.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

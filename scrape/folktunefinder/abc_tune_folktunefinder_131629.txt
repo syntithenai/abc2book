@@ -1,0 +1,26 @@
+X: 23
+T:Double Setback, Headington 2
+M:4/4
+L:1/8
+R:Hornpipe
+A:Headington
+P:A(AB)4
+K:G
+P:A
+Bc|dedB GABG|ABAF D2Bc|d2gf edcB|ceA2 A2Bc|
+dedB GABG|ABAF D2Bc|d2gf edcA|B2G2 G2  ||
+P:B
+|:Bc|d2g2 d2Bc|d2g2 d2Bc|d2gf edcB|ceA2 A2 :|
+S:https://www.folktunefinder.com/tunes/131629
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

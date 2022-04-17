@@ -1,0 +1,30 @@
+X:16
+T:Willie Coleman's
+R:jig
+E:10
+S:M. Molloy
+I:speed 350
+M:6/8
+K:G
+A|B2G AGE|GED G2d|edB dgb|age dBA|\
+B2G AGE|GED G2d|edB dBA|BGG G2:|*
+~g3 edB|dgb age|~g3 edB|GBd e3|\
+~g3 edB|dgb age|dBd gdB|AGF G3:|**
+S:https://www.folktunefinder.com/tunes/135082
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

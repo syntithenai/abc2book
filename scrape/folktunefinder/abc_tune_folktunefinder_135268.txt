@@ -1,0 +1,25 @@
+X: 9
+T:Old Woman Tossed Up, Longborough 1
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB2)5
+K:G
+P:A
+|:z|G>AB c>de|d>ec B>AG|A>Bc d2c |B>AG G2 :|
+P:B
+|:g|e>fg e>fg|e>fg g>fe|d>dd d>ef|g2d  d>BG|
+G>AB c>de|d>ec B>AG|A>Bc d2c |B>AG G2 ||
+S:https://www.folktunefinder.com/tunes/135268
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

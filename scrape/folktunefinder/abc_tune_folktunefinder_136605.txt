@@ -1,0 +1,27 @@
+X:1845
+T:"The Battle Of Aughrim" (march) 1845
+C:Unattributed
+N:Fermatas to taste
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+(ABAG) (ABAE)|(ABAG) (ABAE)|(ABAG) (ABAE)|(ABAG) (ABAE)|
+ (3(AGA)  (3(AGA)  (3(AGA) A3/2E/2|(3(AGA)  (3(AGA)  (3(AGA) A3/2E/2|(3(AGA)  (3(AGA)  (3(AGA) A3/2E/2|({CEFGA})B3c d3e|d2e2 d2f2|
+d2e2 d2f2|d2e2 d2e2| TRd8|cBAG HE4|
+(ABAG) (ABAE)|(ABAG) (ABAE)|(ABAG) A3/2E/2|(3(AGA) (3(AGA) (3(AGA) A3/2E/2|(3(AGA) (3(AGA)(3(AGA) A3/2E/2|
+(GABc) d3e|d3e d2f2|d2e2 d4|(cBAG) HE4|]
+S:https://www.folktunefinder.com/tunes/136605
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1845-BattleAughrim.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

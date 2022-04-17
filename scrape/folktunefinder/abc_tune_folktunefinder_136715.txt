@@ -1,0 +1,40 @@
+X:2
+T:Bavarian Waltz
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:3/4
+L:1/8
+K:G
+|:Bc |\
+"G"d2 dB GB |\
+"D"c2 cA FA |\
+"G"G2 B2 G2 |\
+"G"D4 GF |\
+"C"EF GA Bc |\
+"G"BA G2 GF \
+|1 "D"D2 d2 ^c2 |\
+"D"d4 :|2\
+"D"D2 G2 F2 |\
+"G"G4 |: FG |\
+"D"Ac AF DF |\
+"D"Ac AF DF |\
+"G"G2 GA Bc |\
+"G"d4 B2 \
+|1 "C"c2 ce g2 |\
+"G"B2 Bd g2 |\
+"D"AB cB AG |\
+"D"FA d2 :|2\
+"C"ce g2 g2 |\
+"G"Bd g2 g2 |\
+"D"AB cA FA |\
+"G"[G4 B4] ||
+S:https://www.folktunefinder.com/tunes/136715
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/BavarianWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

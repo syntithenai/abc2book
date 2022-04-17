@@ -1,0 +1,25 @@
+X:1
+T:In darkness let me dwell
+T: Cantus
+C: John Dowland
+O: A Musicall Banquet: Furnished with varietie of delicious Ayres, Collected out of the best Authors in English, French, Spanish and Italian.  By Robert Dowland, London: 1610
+L:1/4
+M:C
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%LY voices \override NoteHead    #'style = #'baroque
+N:Original clef, C on first line
+K:E phr
+z8 z8 z8 z4 E4 - | E2 F4 E3 F G2 | A6 ^G
+S:https://www.folktunefinder.com/tunes/136398
+S:http://www.laymusic.org/music/dowland/darkness/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

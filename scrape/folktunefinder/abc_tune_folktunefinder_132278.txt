@@ -1,0 +1,23 @@
+X:176
+T: Bai Raedder
+N: Q0071
+O: Mitteleuropa, Deutschland (BRD) , Nordsee, Foehr, Oevenum
+R: Ballade, Verleumdung, Moral, Mord
+M: 4/4
+L: 1/8
+K: A
+E2 | E2A2A2A2 | =f2e^de2
+=G2 | =c2c2dcd2 | e4z2
+E2 | A2=c2B2d2 | =c2B2A4
+cdcBA4 | =c2A2B2G2 | A4z2
+S:https://www.folktunefinder.com/tunes/132278
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, verleumdung, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

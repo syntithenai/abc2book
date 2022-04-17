@@ -1,0 +1,27 @@
+X:99
+T: Der Scheintod
+N: Q3058H
+O: Mitteleuropa, Frankreich
+N: Melodievergleich mit Q0058G, anderes Lied.
+R: Hochzeits - Lied
+M: 6/4
+L: 1/8
+K: D
+D4 | =F3GA2_B2A2G2 | A4z4
+A4 | d6=c2B2A2 | =c4A4
+c4 | A3_BA2=F2G2G2 | =F4z4
+A4 | G6=F2E2D2 | E4D4
+=F4 | E2A2=F2EDE4 | D8
+S:https://www.folktunefinder.com/tunes/132201
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Hochzeits - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

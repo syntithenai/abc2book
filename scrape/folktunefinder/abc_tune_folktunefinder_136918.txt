@@ -1,0 +1,22 @@
+X:17
+T:Trek maar aan't touwtje
+O:belgium
+C:Trad.
+Z:Bart Vanhaverbeke 
+L:1/8
+M:C
+K:G
+"G"GFGA "D7"BABc | "G"e2 d2 d3 B | "Am"d2 c2 "D7"c3 A | "G" c2 B2 B4 |
+"G"GFGA "D7"BABc | "G"e2 d2 d3 B | "Am"d2 c2 "D7"B2 A2 | "G" G2 B2 G2 d2 :|
+"G"g2 d2 dc B2 | "G"g2 d2 dc B2 | "Am"A3 B "D7"cDcd | "G"e2 d2 "D7"d4 |
+"G"g2 d2 dc B2 | "G"g2 d2 dc B2 | "Am"A3 B "D7"cDcd | "G"e2 d2 G4 :|
+S:https://www.folktunefinder.com/tunes/136918
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

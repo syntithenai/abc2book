@@ -1,0 +1,26 @@
+X:10
+T: Miss Monroe's Jig
+T: Port Ingean Ui Munroe
+R: double jig
+C: "collected by J.O'Neill"
+S: 982 O'Neill's Music of Ireland
+B: O'Neill's 982
+Z: Transcribed by Robert Thorpe (thorpe@skep.com)
+Z: ABCMUS 1.0
+M: 6/8
+K: G
+D|G2 G AGA|Bcd efg|GFG AGA|BGE E2 D|!
+|G2 G AGA|Bcd efg|dcB AGA|BGG G2:|!
+f|gfg efg|fdd def|gfg aga|bge e2 f|!
+|gfg aga|bge efg|dcB AGA|BGG G2:|
+S:https://www.folktunefinder.com/tunes/137525
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0981-1000_rt.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

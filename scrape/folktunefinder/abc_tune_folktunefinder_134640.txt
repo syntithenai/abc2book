@@ -1,0 +1,27 @@
+X:25
+T:Morgiana in Ireland
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:1st Lady & 2d Gent: change places the 2d Lady & 1st Gent: do the same Pousette & right & left.
+%%Page:3
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001190.html
+%%ID:00001190
+K:G min
+F2F B2B | cBc d3 | F2F B2B | cBc dBG | \
+F2F B2B | cBc d2f | gfe dcB | cBc dBG ||
+f2f fed | g2a b3 | fgf fed | g2a b3 | \
+f2f fed | g2g gab | fge dec | B2c dBG ||
+BcB (d<f)z | cdc (e<g)z | BcB B2c | d2e dBG | \
+BcB d<fz | e<gz d<fz | g<bz d<fz | B2c dBG ||
+S:https://www.folktunefinder.com/tunes/134640
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

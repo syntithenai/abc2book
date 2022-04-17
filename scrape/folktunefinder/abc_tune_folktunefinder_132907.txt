@@ -1,0 +1,22 @@
+X: 1
+T: Balfe's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+(3(ABc)|d3/2e/2c3/2d/2 (3BAG (3AGF|G2(f/2b3/2)(f/2b3/2)a3/2g/2|
+(3fag (3fed (3egf (3edc|(3dfa (3d'c'b (3aba (3gfe|
+d3/2e/2c3/2d/2  (3BAG  (3AGF|G2(f/2b3/2) (f/2b3/2)a3/2g/2|(3fag  (3gfe  (3egf  (3edc|d2f2d2:|
+|: (3(ABc)|d3/2f/2  (3abc' d'3/2c'/2d'3/2c'/2|b3/2a/2b3/2c'/2 b3/2g/2e3/2d/2|c3/2d/2e3/2f/2 g3/2f/2g3/2b/2|a3/2^g/2a3/2b/2 a2 (3(ABc)|
+d3/2f/2  (3abc' d'3/2c'/2d'3/2c'/2|b3/2a/2b3/2c'/2 b2a3/2g/2|(3fag  (3fed  (3egf  (3edc|d2f2d2:|
+S:https://www.folktunefinder.com/tunes/132907
+S:http://www.thesession.org/tunes/display/6897
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

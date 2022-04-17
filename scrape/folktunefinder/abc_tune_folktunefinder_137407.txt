@@ -1,0 +1,25 @@
+X: 16
+T:O'Callaghan's Hornpipe
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:G
+Bd |:(3efg fg eABA |GABd dBGE |DEGA BABd |
+(3efg fg edBd |eaaf gfed |B2 BG (3ABc AF
+ |1G2 GF G2 Bd :|2
+G2 GF G2 fg |:afge dega |bBBA G2 fg |afge dega |
+b2 e2 e3 g |f2 (3def gfeg |f2 (3def gfeg
+ |(3gab af gfed |1
+(3Bcd ed e2 fg :|2(3Bcd ed e3 f ||
+%  ABC2Win Version 2.1 21/06/2002
+S:https://www.folktunefinder.com/tunes/137407
+S:http://trillian.mit.edu/~jc/music/abc/mirror/homepage.eircom.net/collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

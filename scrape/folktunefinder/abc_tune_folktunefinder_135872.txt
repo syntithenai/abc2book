@@ -1,0 +1,23 @@
+X:3009
+T:Barcarole
+T:From "The adventures of Hoffman"
+C:Jaques Offenbach
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/offenbach-jaques/offenbach-barcarole.abc
+M:3/4
+L:1/4
+K:C
+"C"E2F|"C"F2E|"G"EDF|"G"F2E|
+"G"EDF|"G"F2E|"C"E3-|"C"E3:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/135872
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/offenbach-jaques/offenbach-barcarole.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/offenbach-jaques/offenbach-barcarole.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

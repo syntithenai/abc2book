@@ -1,0 +1,35 @@
+X:190
+T:B190-  Hey, boys up go we
+Q:1/4=120
+L:1/4
+M:4/4
+K:C
+C|CccB|(A/2G/2)F(E/2F/2)G|F3/2E/2DC|c3C|\
+CccB|(A/2G/2)F(E/2F/2)G|F3/2E/2D3/2C/2|c3G|\
+c3/2d/2 (e/2f/2)e|(d/2B/2)cA3/2G/2|c3/2A/2BG|G3d|\
+g3/2f/2 (e/2d/2)c|f(e/2d/2)B(A/2G/2)|\
+cEDB|c3|]
+S:https://www.folktunefinder.com/tunes/130956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

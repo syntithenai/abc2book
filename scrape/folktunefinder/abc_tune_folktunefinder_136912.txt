@@ -1,0 +1,31 @@
+X:11
+T:StNiklaas
+O:belgium
+C:- Belg -
+M:6/8
+L:1/8
+Q:1/4=174
+K:F
+V:1
+C |"F" FF FA GF |A2 B(c3 |
+M:3/8
+c2) c|
+M:6/8
+"F" c dc B2 A|A3 "C" (G3 |
+M:3/8
+G2) C|
+M:6/8
+"F" F FF AG F|"Bb" B2 A"C" G2 c |:"F" c Ad c2 F|F ED C2 C|
+F FF G2 A|"Bb" B2 G"C" A3 |GA G"F" (F3 |1
+M:3/8
+F2) c:|2 F2) ||
+S:https://www.folktunefinder.com/tunes/136912
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 10
+T:Bacca Pipes, Ascott
+M:6/8
+L:1/8
+A:Ascott-under-Wychwood
+P:A(AB2)2A
+K:G
+P:A
+G3  G2A|BBA G2G|A2B A2G|FFG A3 |
+d2e d2c|BB2 G2B|ABA D2D|G3  G3 ||
+P:B
+d2e d2c|B2A G3 |A2B A2G|F2G A3 |
+d2e d2c|B2A G2B|ABA D2D|G3  G3 ||
+S:https://www.folktunefinder.com/tunes/131569
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ascott.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ascott.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ascott.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

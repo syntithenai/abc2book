@@ -1,0 +1,27 @@
+X:304
+T:Balquidder Lasses
+C:Trad, Sc.
+M:C|
+L:1/8
+%% Q:1/2=116
+K:Em 
+BA \
+|: G2FG EFGA | B2 B2 e4 | d2 A2 ABAF | DEFG  A2 BA |
+| G2FG EFGA | B2 B2 e4 | d2 A2 BAGF | E4 Z4 :| 
+B2 \
+|| e2 ef e2 B2 | efgf e4 | d2de dAFA | DEFG A2 A2 |
+| e2 ef e2 B2 | efgf e4 | d2A2 BAGF E4 Z4 |
+| e2 ef e2 B2 | efgf e4 | d2de dAFA | DEFG A2BA |
+| G2FG EFGA | B2 B2 e4 | d2 A2 BAGF | E4 Z4 ||
+S:https://www.folktunefinder.com/tunes/134418
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

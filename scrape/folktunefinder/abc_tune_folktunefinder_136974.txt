@@ -1,0 +1,26 @@
+X:205
+T: Tribute to Fred (A)
+M: 6/8
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+R: jig
+K: G
+DEG BAG | dBd BGE | DEG BdB | AFD E3 |
+D2 G BAG | dBG Bcd | efg afd | faf g3 :|
+bag agf | gfe dBG | bag agf | efd e3 |
+bag agf | efe dBG | Bcd efg | afd g3 :|
+S:https://www.folktunefinder.com/tunes/136974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

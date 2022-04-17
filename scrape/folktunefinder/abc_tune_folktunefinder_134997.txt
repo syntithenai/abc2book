@@ -1,0 +1,25 @@
+X:80
+T:Willie Coleman's
+R:jig
+E:10
+S:M. Molloy
+I:speed 350
+M:6/8
+K:G
+A|B2G AGE|GED G2d|edB dgb|age dBA|\
+B2G AGE|GED G2d|edB dBA|BGG G2:|*
+~g3 edB|dgb age|~g3 edB|GBd e3|\
+~g3 edB|dgb age|dBd gdB|AGF G3:|**
+S:https://www.folktunefinder.com/tunes/134997
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:27
+T: Leader Haughs and yarrow 
+N: HA027
+O: Europa, Mitteleuropa, Deutschland
+N: viele Vorschlge, auch doppelte
+M: 3/4
+L: 1/16
+K: F
+F4 | A3Bc4_e4 | d3cB6
+AG | A3Bc4C4 | D2C6z2
+c2 | A3Bc4_e4 | d3cB6
+G2 | A2BcC6F2 | D2C2z4
+c4 | A3GF6f2 | d3cB4z2
+AG | A3Bc6c2 | d2e2f6
+B2 | A2GFF4G2A2 | B2cd_e6
+c2 | def2c6F2 | D2C6
+S:https://www.folktunefinder.com/tunes/135722
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

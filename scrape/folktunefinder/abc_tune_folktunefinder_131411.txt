@@ -1,0 +1,31 @@
+X:3
+T:Morgonens Waknaren (Hambo)
+T:Dedicated to Torkil Hammer in support of Scandia Camp
+C:Tim Rued
+%O:Sweden
+R:Hambo
+Z:Bob Wyttenbach  8/12/02, from Fiddles & Feet 2001 tunebook
+N:from handwritten copy, "Mendocino 1987"
+M:3/4
+L:1/8
+%Q:1/4=140
+K:E %Transposed from D
+P:A
+"D"vG2"(Em)"(A2"(Ddim)"^A2)|"D"B2B4|(e>d) (f>e) d>e|"G"d2c4|"Em"F2 (.F2.G2)|
+"A"A2A4|"A"(d>c) (e>d) c>d|"D"(c>B) B>^AB2|"D"vG2"(Em)"(A2"(Ddim)"^A2)|"D"B2B4|
+(e>d) (f>e) d>e|"G"d2c4|"G"(c>B) (c>d) e>c|"D"(B>G) B>eg2|"Em"f2c2"B"(3dcd|"D"e2e4:|
+P:B
+"D"g>ag2f2|e2B4|(e>d) (f>e) d>e|"G"d2c4|"Em"f>gf2e2|"A"e2d4|
+"A"(d>c) (e>d) c>d|"D"(c>B) B>^AB2|"D"g>ag2f2|e2g4|(g>a) (g>f) e>g|
+"Em (G)"(b>a) a>ga2|"G"(3abag2(f2|"D"(3g)agf2(e2|"G"f2)c2"A"(3d(cd)|"D"e2e4:|
+S:https://www.folktunefinder.com/tunes/131411
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001Bb.abc
+% Rhythm Hambo
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

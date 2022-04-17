@@ -1,0 +1,46 @@
+X:2
+T:Believe me if all those endearing young charms
+T:My Lodging is in the Cold Ground
+T:Spanish walz
+C:Traditional
+C:Thomas Moore
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+H:In 1808, Thomas Moore wrote `Believe me...' to the tune of this much older air. The poem 
+H:was written for a lady (maybe his own wife) that suffered from a skin disease.
+R:Air
+O:Ireland
+M:3/4
+L:1/4
+K:D
+F/E/|"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>GF|"A7"EDE|("D"F3|F2)F/E/|
+"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>dF|"A7"EDE|("D"D3|D2)A/G/|
+"D"FAd|d2A/F/|"G"GBd|d2c/B/|"D"A>GF|"A7"EDE|("D"F3|F2)F/E/|
+"D"D>ED|DFA|"G"GBd|d2c/B/|"D"A>dF|"A7"EDE|("D"D3|D2)||
+W:1. Believe me, if all those endearing young charms, 
+W:Which I gaze on so fondly today, 
+W:Were to change by tomorrow, and fleet in my arms, 
+W:Like fairy gifts, fading away,
+W:Thou wouldst still be adored as this moment thou art, 
+W:Let thy loveliness fade as it will;
+W:And around the dear ruin, each wish of my heart 
+W:Would entwine itself verdantly still!
+W:
+W:2. It is not while beauty and youth are thine own, 
+W:and thy cheeks unprofaned by a tear,
+W:That the fervor and faith of a soul can be known, 
+W:To which time will but make thee more dear!
+W:No, the heart that has truly loved never forgets, 
+W:But as truly loves on to the close;
+W:As the sunflower turns on her god, when he sets, 
+W:The same look which she turned when he rose!
+%%scale .65
+S:https://www.folktunefinder.com/tunes/130748
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-songs.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

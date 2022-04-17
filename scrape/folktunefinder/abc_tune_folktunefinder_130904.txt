@@ -1,0 +1,39 @@
+X:138
+T:B138-  Farewell, ungrateful traitor
+Q:1/4=120
+L:1/4
+M:C|
+K:Gm
+d|(e/2d/2) (c/2B/2)cd|B2GA|B(A/2B/2) (c/2B/2) (A/2G/2)|A3d|\
+f (g/2f/2) (e/2d/2) (c/2B/2)|e2 (d/2c/2) (B/2A/2)|\
+d(=e/2f/2) (g/2f/2) (e/2d/2)|d3e|\
+(f/2e/2) (d/2c/2) (e/2d/2) (c/2B/2)|c2A(c/2B/2)|\
+(A/2B/2) (A/2G/2)de|c2f^f|(g/2a/2)df(g/2f/2)|\
+=e2cf|d(g/2f/2) (=e/2f/2) g|^f3d|\
+f(c/2d/2) (e/2d/2) (c/2B/2)|c2AB|\
+c(e/2d/2) (c/2B/2) (A/2G/2)|G3|]
+S:https://www.folktunefinder.com/tunes/130904
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

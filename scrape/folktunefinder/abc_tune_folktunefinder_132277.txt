@@ -1,0 +1,23 @@
+X:175
+T: Der grausame Bruder
+N: Q0068S
+O: Suedosteuropa, Jugoslawien, Batschka, Militic
+N: Eingeklammerte Noten kodiert.
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 4/4
+L: 1/8
+K: C
+CE | G4G3A | G2E2D2z
+E | E2C2CCC2 | B,2D2G,2z
+C | C2E2G2GA | G2E2D2
+S:https://www.folktunefinder.com/tunes/132277
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

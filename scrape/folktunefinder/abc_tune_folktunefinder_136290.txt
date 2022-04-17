@@ -1,0 +1,32 @@
+X:4
+%%MIDI gchordoff
+T:Le Pistolet
+T:Smith's Rant
+T:or  May day
+M:C|
+L:1/4
+K:F
+P:A
+"F"F2 A > B | "F"c2 A2 | "Bb"B > c A > B | "C7"G2 "F"F2  |"C"g2 e > f | "C"g2 e2 | "Dm"f > g e > f | "G7"d2 "C"c2 ||
+P:B
+"C7"g2 a > b | "F"a3 g/f/ | "Gm"e > f d > e | "A7"^c2 "Dm"d2 | "C7"e2 d > e | "Dm"f > g a > f | "Gm"b > a g > f | "C7"e2 "F"f2 |]
+S:https://www.folktunefinder.com/tunes/136290
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.laymusic.org/music/dance/feuillet.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/SmithsRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/reel/SmithsRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/new/SmithsRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/SmithsRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/hornpipe/SmithsRant_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/new/SmithsRant_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

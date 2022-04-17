@@ -1,0 +1,43 @@
+X:355
+T:B355-  One Night When All the Village Slept, or Martellus
+S:(1st/3)
+Q:1/4=120
+L:1/4
+M:3/4
+K:Gm
+G|A2=B|c3/2c/ A3/4B/4|^F3/2A/A|A3/2A/ (d/A/)|\
+B3/2B/ c/d/|e3/2d/ c/B/|A3/2A/(d|d/)e/c3/2d/|\
+d2z/d/|=B2z/B/|c2^c|(d3/2 ^c/)d|\
+^c2z|A2(d|d/)e/d3/2c/|B3/2d/ d/e/|\
+(fe/d/4d/4 B3/4)A/4|G2d|e2f|c3/2c/ c3/4=B/4|\
+c2A|(B/c/ d/)G/ G3/4^F/4|.G2|]
+S:https://www.folktunefinder.com/tunes/131143
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM3.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM3.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM3.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM3.ABC
+S:http://www.mudcat.org/olson/BM3.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM3.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

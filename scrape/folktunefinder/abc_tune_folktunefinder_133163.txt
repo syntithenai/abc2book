@@ -1,0 +1,22 @@
+X:19
+T:Tralee Gaol
+S:Ireland, via PR
+M:2/4
+L:1/4
+K:G
+% Nottingham Music Database
+"Am" e/2A/2 A/2B/4d/4 | "Am" e3/4d/4 "G" B/2d/2 | "Am" e/2A/2 A/2B/4A/4 | "Em" G3/4A/4 B/2d/2 |
+"Am" e/2A/2 A/2B/4d/4 | "Am" e3/4d/4 "G" B/2d/2 | "Em" e/2d/2    g/2B/2 | "Am" A            A :|
+"Am" e/2a/2 a/2g/4a/4 | "Em" b3/4a/4     g/2e/2 | "G"  d/2B/2    g/2B/2 | "G" d/4c/4B/4A/4 "Em" G/2E/2 |
+"Am" e/2a/2 a/2g/4a/4 | "Em" b3/4a/4     g/2e/2 | "Em" e/2d/2    g/2B/2 | "Am" A            A :|
+S:https://www.folktunefinder.com/tunes/133163
+S:http://www.slowplayers.org/Music/abc/Polkas.abc
+S:http://sf.ccewest.org/music/abc/Polkas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

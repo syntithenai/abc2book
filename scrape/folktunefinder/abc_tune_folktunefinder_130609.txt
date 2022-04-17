@@ -1,0 +1,20 @@
+X:19
+T:Sarabande
+C:Trad.
+O:France
+A:Alsace - Sundgau - 1883
+R:Valse
+M:6/4
+L:1/8
+K:C
+[P:A]C2>D2 C2 D2E4 | E2GGGF FEE4 :: [P:B] CEE2 EGG2 ||1 [P:C]G2 E2 [P:D]| DF AG F2 DE-E4 :|2 G2 E2 G2 E2 | DF AG F2 DE-EG, A,B, |]
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+S:https://www.folktunefinder.com/tunes/130609
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

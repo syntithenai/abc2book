@@ -1,0 +1,34 @@
+X:1
+T:Fortuna dun gran tempo
+C: Josquin des Prez \footnotemark
+N:(1) Odhecaton doesn't have the attribution to Josquin, that comes from "La plus des plus, five songs for three instruments", Hermann Moeck Verlag.
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N:Original clef, C on second line
+K:F lyd
+z2 G2 G3 F E2 D2 C/ D/ E/ F/ G A/ B/ c > B A G > C F2 E F4
+z2 F3 E/ D/ E2 D2
+z D E > D E F D4 C E F G > F F2 E F2
+z2 z4 D2 D D D3 E F > F F F E2 D2 C/ D/
+E/ F/ G A > G G2 F G2
+z G > F E/ D/ E2
+z D > E F/ G/ C F2 E F4
+z8 z2 G2 G3 F E2 D2 C/ D/ E/ F/ G A/ B/ c > B A G > C F2 E F4
+z2 F3 E/ D/ E2 D2 
+z D E > D E F D4 C E F G > F F2
+E F3 G E A2 G > F F2 E F8 |]
+S:https://www.folktunefinder.com/tunes/136332
+S:http://www.laymusic.org/music/josquin/fortuna/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

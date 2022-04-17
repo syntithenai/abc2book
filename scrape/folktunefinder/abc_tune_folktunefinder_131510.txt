@@ -1,0 +1,49 @@
+X: 1
+P: When I'm Sixty-Four [ABAC...A]
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: C
+"A"\
+[| "C"E>^DE G2E | G>AG c3 \
+| ce2 c2A | "G7"d>GA BAG \
+| (4Bc^cd (4B=c^cd | B2_B A3 \
+| "tacet"=B2c ^c2d  | "C"e_ed c3 \
+| "C"E>^DE G2E | G>AG c3 |
+| "C7"ce2 d2A | "F"c6 \
+| c>Ac "D/F#"_ed2 | "C/G"c>Ac "A7"BA2 \
+| "D7"ee2 "G7"ee2 | "C"Hc6 \
+"B"\
+|[| "Am"z3 z3 | e3 d2c \
+| "G"B2G A2B | "Am"c6 \
+| A3 B3 | c3 g3 \
+| "E"e6- | "(C)"e6 \
+| "Am"a3 g3 | e3 d2c |
+| "Dm"d3 d2A- | A6 \
+| "F"c3 A3 | "G"G2z A2z \
+| "C"[cE]>FG F>ED | "G7"[GG]>Bd f3 \
+"C"\
+|[| "Am"c>Ac c>Ac | c>Ac c2F \
+| "G"G2G G2A | "Am"E6 \
+| A3 B3 | c3 g3 |
+| "E"e6- | e6 \
+| "Am"z3 z3 |  e3 d2c \
+| "Dm"d3 d2A- | A6 \
+| "F"c3 A3 | "G"G2z A2z \
+| "C"[cE]>FG F>ED | "G"G3 g3 |] \
+"Coda"\
+[| "C"E>^DE G2E | G>AG c>Bc | "F"e>dc/A/ "G7"cd2 | "C"c6 |]
+S:https://www.folktunefinder.com/tunes/131510
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/BeatlesP2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

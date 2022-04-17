@@ -1,0 +1,27 @@
+X: 2
+T:Battering Ram, The
+M:6/8
+L:1/8
+Q:180
+R:Jig
+K:D
+B|dBG BAG|dBGG2B|dBG AGE|GED D2B|
+dBG BAG|BdB BAG|AGA BAB|GED D2::
+B|deg aga|bge edB|deg aga|bge ega|
+bag age|ged ege|dBG AGE|GED D2::
+e/2d/2|B2GA2G|B2DD2d|BAG AGE|GED De/2d/2|
+B2GA2G|BdB BAG|AGA BAB|GED D2:|
+S:https://www.folktunefinder.com/tunes/136553
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

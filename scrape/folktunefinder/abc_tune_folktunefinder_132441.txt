@@ -1,0 +1,29 @@
+X: 20
+T:Bonnets o' Blue, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:A(AB)2(AC)2
+K:F
+P:A
+|:CDE F2G |ABA GAG   |FDE  F2G|A>GF F3:|
+P:B
+|:AGA c2A |AGF G2F/G/|AcA  GFG|AGF  D3 |
+  CDE F2G |ABA GAG   |FDE  F2G|A>GF F3:|
+P:C
+|:(2AG A2B|c3A3      |(2AG F2A|G3 (2FG |
+  (2Ac A3 |G3(2FG    |AGF  D3 |
+  CDE F2G |ABA GAG   |FDE  F2G|A>GF F3:|
+S:https://www.folktunefinder.com/tunes/132441
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

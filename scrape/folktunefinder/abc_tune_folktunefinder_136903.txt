@@ -1,0 +1,24 @@
+X:1
+T:Majos
+T:Muisje
+O:belgium
+C:Trad.
+Z:Bart Vanhaverbeke 
+P:AB
+L:1/8
+M:2/4
+K:G
+P:A
+BdgB | B2 A2 | AceA | c2 B2 | BdgB| B2 A2 | (3 Adf (3 Adf | g2 z2 |]
+P:B
+K:D
+fA ag|fA gf | eA fA| cf a2 | fA ag | fA gf | eA fe |1 d2 df :|2d2 z2 |]
+S:https://www.folktunefinder.com/tunes/136903
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

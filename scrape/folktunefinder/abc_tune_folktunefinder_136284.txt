@@ -1,0 +1,49 @@
+X:1
+%%MIDI gchordoff
+T:La Matelotte
+T:or Masters in this Hall
+T:or The Female Sayler
+C:arr. Gustav Holst
+O:from The Oxford Book of Carols; adapted by Laura Conrad
+M:12/8
+L:1/8
+K:F
+P:A
+V:1 name=soprano
+|:D2 A A2 G  F3 G3 | A2 G F2 E F2 E D2 ^C| D2 A A2 G F3 G3 | A2 G F2 E  D6 :|
+V:2 name=alto
+|:D2 F F2 E D3 E3 | F2 E D2 E D2 C B2 A, | F,2 F F2 E D3 E3 | F2 E D2 C D3 B3 :|
+V:3 name=bass
+K:F bass
+|:d2 z c2 z B2 z G2 z | d2 z c2 z B2 z G2 z | d2 z c2 z B2 z G2 z | d2 z c2 z B2 z G2 z :| 
+P:B1
+V:1 name=soprano
+f2 e d2 ^c  d3 A3 | f2 e d2 ^c  d3 A2 =c | _B2 G A2 E  F2 D F2 G | A3 =B2 ^c  d3 e3 |
+V:2 name=alto
+A3 A3 A3 E3 | A3 A3 A3 D3 | D3 E3 A3 D3 | D3 E3 D6 |
+V:3 name=bass
+K:F bass
+d3 e3 f3 a3 | d3 e3 f3 ^f3 | g3 ^c3 d3 b3 | f3 a3 b3 g3 |
+V:2 name=alto
+V:3 name=bass
+P:B2
+V:1 name=soprano
+f2 e d2 ^c  d3 A3 | f2 e d2 ^c  d3 A2 =c | _B2 G A2 E  F2 D F2 G | A3 E2 D  D6 |]
+V:2 name=alto
+F3 G3 A3 A3 | F3 G3 A3 d2 c | B3 A3 F3 B2 G | A2 A B3 F6 |]
+V:3 name=bass
+K:F bass
+d3 e3 f3 a3 | d3 e3 f3 a3 | b3 a3 f3 g3 | f3 g3 d6 |]
+S:https://www.folktunefinder.com/tunes/136284
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/feuillet.abc
+S:http://www.laymusic.org/music/dance/feuillet.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/scratch/core
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 212
+T: Belle Katrine
+C: R-115
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: C
+%%text Repeat both parts 4 times
+% NOTE: can modify PS files - look for end1 and change (1) to (1,3) & (2) to (2,4)
+"C"EGce dccc| EGce dccc| "G"Bcde fefg |1 ag^fg "C"eccc :|2 ag^fg "C"c4 |]
+|:\
+"C"eg2g gagf| eggg "F"a4| "G"eggg bag^f |1 ag^fg "C"eccc :|2 ag^fg "C"c4 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/134234
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:43
+T:Gravel Walk
+R:reel
+E:7
+I:speed 350
+M:C|
+K:ADor
+|:A2 eA (3cBA eA|A2 ed BAGB|A2eA (3Bcd ef|gedc BAGB:|\
+~A2aA gAfA|~A2ed BAGB|~A2 aA gAfA|gedc BAGB|\
+~A2aA gAfA|~A2ed BAGB|ABcd efga|gedc BAGB\
+|:(3cBA BG A3B|cAAd BGBd|(3cBA BG ABcd|efge dBGB:|\
+~c2 gc acgc|~c2 gc BAGB|~c2 gc acga|gedc BAGB|\
+~c2 gc acgc|~c2 gc BAGB| ABcd efga|gedc BAGB||**
+S:https://www.folktunefinder.com/tunes/135109
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/session2.abc
+S:http://ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/sessionTunesII.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/sessionTunesII.abc
+S:http://www.firepowr.com/abc/sessionTunesII.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

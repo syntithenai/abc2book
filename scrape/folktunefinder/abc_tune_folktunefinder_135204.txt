@@ -1,0 +1,32 @@
+X: 1
+T: Banks of Loch Ness
+N: Fraser p.6, Hunter 164
+Z: John Chambers <jc@trillian.mit.edu>
+K: Gm
+M: 4/4
+L: 1/8
+|: F \
+| "Gm"D<G G>A B>c d<f | "F"F<F F>D {D}F2 F<B \
+| "Gm"G<G G>A B>c d<f | "D7"d/c/B/A/ d>[^FD] "Gm"[G3B,3] :|
+|| f \
+| "Bb"{e}d>B f>B "Eb"g>B "Bb"d>f | F<F F>D "F7"F2 F<f \
+| "Bb"d>f B>d "F"c>B "D7"c<d | "Gm"G<G "D7"G>^F "Gm"G3 f |
+| "Bb"{e}d>B f>B "Eb"g>B "F7"f>e | "Bb"{e}d>B "D7"c>A "Gm"B>G FD \
+| "Bb"{ga}b>a "Eb"g>f "Bb"dB | "Cm"A<e "D7"d>^F "Gm"G3 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/135204
+S:http://trillian.mit.edu/~jc/music/book/500/BanksOfLochNess_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

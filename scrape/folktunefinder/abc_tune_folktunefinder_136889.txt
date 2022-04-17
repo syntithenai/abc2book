@@ -1,0 +1,25 @@
+X:7
+T:Belltable, The
+C:Stockton's Wing
+N:named after The Belltable Arts Center in Limerick
+R:waltz
+Z:id:hn-waltz-1
+M:3/4
+K:D
+"D"d3 e d2|"G"d2 c2 B2|"D"A3 B A2|"D"A2 G2 F2|"G"G2 GA BG|"D"A2 AB cA|"Em"G2 GA BG|"A7"A2 B2 c2|
+"D"d3 e d2|"G"d2 c2 B2|"A"A3 B A2|"A"A2 G2 F2|"Em"G2 GA BG|"D"A2 AB cA|"A7"G2 F2 E2|"D"D6:|
+|:"D"a3 b a2|"D"a4 g2|"Bm"f3 g f2|"Em"f2 e2 f2|"G"g3 a g2|"F#m"g2 f2 g2|"E7"a3 b a2|"A7"a2 f2 g2|
+"D"a3 b a2|"D"a4 g2|"Bm"f3 g f2|"D"f2 e2 d2|"Em"B3 d g2|"D7"f a3 c2|"A7"e d3 c2|1 "D"d3 e fg:|2 "D"d4 A2|]
+S:https://www.folktunefinder.com/tunes/136889
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/WaltzEtc.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/WaltzEtc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

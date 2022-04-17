@@ -1,0 +1,24 @@
+X: 3
+T:Grafton Hornpipe
+M:2/4
+L:1/8
+S:The Maritime Fiddler
+N:by Bob Jones
+K:G
+|:G,B,DG Bdgd|cAGE C2^E=E|DFAB cAFA|GABG D2CA,:||!
+2GBAF &quot;fine&quot;G4B4||K:D G>E|:DEFG ABAF|DFBF A2FE|!
+DEFG ABAF|DEFD E2FE|DEFG ABAF|DFBF A2Bc|!
+dAFD BAFD|1EDCE D2FE:|2EDCE D2B,A,||
+S:https://www.folktunefinder.com/tunes/136721
+S:http://doctorgary.net/hornpipe.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 21
+T:Old Marlborough, Fieldtown
+T:Heel and Toe, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB)4
+K:D
+P:A
+|:d3  fed|dcB AGF|G2A Bcd|A2F DEF|G3  BAG|F3 D3:|
+P:B
+|:G3  A3 |Bcd e3 |G3  A3 |Bcd e2f|\
+  d2c d2B|A2G FGA|
+B2c dcB|A2F DEF|G3  BAG|F3 D3:|
+S:https://www.folktunefinder.com/tunes/132489
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

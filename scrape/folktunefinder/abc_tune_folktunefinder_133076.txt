@@ -1,0 +1,25 @@
+X:8
+T:Untitled 48 bar jig
+C:Neil Brookes
+N:A minor-major type jig.
+M:6/8
+L:1/8
+Q:1/4=180
+K:Ddor
+|DFAc3|B>cB AGE|DFAG^Bd|Acfedc|DFAc3|B>cB AGE|DFAG^Bd|AGED3|
+|DFAc3|B>cB AGE|DFAG^Bd|Acfedc|DFAc3|B>cB AGE|DFAG^Bd|AGED3|
+|DFAd2z|c>dc AGF|DFAf3|efdecd|DFAd3|c>dc AGE|DFAG^Bd|AGED3|
+|DFAd2z|c>dc AGF|DFAf3|efdecd|DFAd3|c>dc AGE|DFAG^Bd|AGED3|
+|D^FAdDD|^cDDBA^F|D^FAGBd|A^cedA^F|D^FAdDD|^cDDBA^F|D^FAGBd|AGED3|
+|D^FAdDD|^cDDBA^F|D^FAGBd|A^cedA^F|D^FAdDD|^cDDBA^F|D=FAGBd|AGED3|
+% Output from ABC2Win  Version 2.1 f on 25/01/2001
+S:https://www.folktunefinder.com/tunes/133076
+S:http://trillian.mit.edu/~jc/music/abc/mirror/brookes36.freeserve.co.uk/xpatch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

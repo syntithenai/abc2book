@@ -1,0 +1,29 @@
+X:3
+T:The Binghamton Stick Dance (Cuckoo's Nest)
+M:2/2
+S:Binghamton MM
+A:Bampton
+O:English
+R:Hornpipe
+P:A(AB2)4C
+K:G
+P:A
+c>dc>B A2 a2 | e2 e2 d2 z>c | B>cB>A G2 A>B | c2 d2 A4 :|
+P:B
+a2 a2 a2 b>a | ^g2 e2 e3 f | g2 g2 g2 a>g | g2 d2 d4 |
+c>dc>B A2 a2 | e2 e2 d2 z>c | B>cB>A G2 A>B | c2 d2 A4 |]
+P:C
+K:A
+c>dc>B A2 a2 | c>dc>B A2 a2 | c>dc>B A>^GA>B | c2 A2 A4 :|
+S:https://www.folktunefinder.com/tunes/131529
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

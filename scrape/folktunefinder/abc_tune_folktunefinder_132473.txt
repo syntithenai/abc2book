@@ -1,0 +1,33 @@
+X: 5
+T:Valentine, Fieldtown
+M:6/8
+L:1/4
+A:Fieldtown
+P:A (AB3)2(AC3)2A
+K:G
+P:A
+g|gfe ede|edc cBc   |dBg dBG|FAA A2d|
+gfe ede|edc cBc   |dBG DAF|GAG G2||
+P:B
+B/c/|ded dBd|BGG G2A/B/|cAc BGB|FAA A2B/c/|
+ded dBd|BGG G2d   |efg dBd|BGG G2||
+P:C
+B/c/|ded dBd|BGG G2A/B/|\
+M:4/4
+L:1/4
+cA c2|BG B2|FA A2|
+A2 AB/c/|\
+M:6/8
+ded dBd|BGG G2d   |efg dBd|BGG G2||
+S:https://www.folktunefinder.com/tunes/132473
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

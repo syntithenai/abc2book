@@ -1,0 +1,40 @@
+X:1     %music
+% referenced from http://www.cpdl.org/wiki/index.php/Franz_Schubert,
+% at http://wso.williams.edu/cpdl/sheet/schb-ave.pdf
+% see also the Christian MIDI Archive, at http://www.zeitun-eg.org/midi.htm
+%
+% http://trillian.mit.edu/~jc/music/abc/findtune.html, http://moinejf.free.fr/
+%
+%%scale 0.65
+%topspace 3cm
+%%measurenb 0
+%%footer "$P0Ave Maria - Franz Schubert$P1"
+T:Ave Maria     %Tune name
+T:(Op. 52, No. 6)
+C:Franz Schubert     %Tune composer
+C:1797 - 1828
+Q:1/4=26 ", Sehr Langsam"     %Tempo
+M:C     %Meter
+L:1/8
+K:Bb
+%
+%%staves {2 3}
+V:2 clef=treble name="Acc."
+L:1/16
+(6:4z(.[FD].[BF].[dB].[BF].[FD]) \
+%%tuplets 1 0 0
+                                 (6:4z(.[DF].[BF].[Bd].[BF].[FD]) !crescendo(!(6:4z(.[FB].[Bd].[fd].[Bd].[FB]) (6:4z(.[_Ad].[df].[fa].[df]!crescendo)!.[Ad]) |\
+!diminuendo(!(6:4z(.[BG].[Be].[eg].[eB].[GB]) (6:4z(.[A_G].[eA].[eg].[eA]!diminuendo)!.[AG]) (6:4z(.[FB].[dB].[fd].[dB].[BF]) (6:4z(.[DF].[BF].[dB].[FB].[DF]) |
+V:3 clef=bass
+L:1/8
+[B,,B,,,] z [B,,B,,,] z [B,,,B,,] z [B,,,B,,] z |[B,,B,,,] z [B,,B,,,] z [B,,,B,,] z [B,,,B,,] z |
+%
+%%staves 1|{2 3}
+|:B3 A/B/ (d7/2 c/) |B2 z2 (c2 {dc}B/A/) (G/A/) |
+S:https://www.folktunefinder.com/tunes/130617
+S:http://home.quicknet.nl/qn/prive/agm.schoutsen/map/Ave-Maria%20%28Schubert%29.abc.txt
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

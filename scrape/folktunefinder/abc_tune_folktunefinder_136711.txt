@@ -1,0 +1,31 @@
+X:12
+T:Lndler fr Klarinette-Solo
+C:anonym, 1803
+R:Lndler
+B:W. Suppan, Musik aus der Steiermark, Freiburg i. Br. 1984
+I:140
+M:3/4
+L:1/8
+K:F
+c2 | (cc'=bc'd'e) | f2 (Acfe) | {e}~d2 (ceae) | (f^fg^gae) |
+(=fc'=bc'd'e) | f2 (Acfe) | {e}~d2 Gege | {g}f4 :|
+a2 | (fg)(ef) e2 | (de)(cd) B2 | (AB=Bc^cd) |
+(efgfed) | (cc'=bc'd'e) | f2 Acfe | {e}d2 Bege | {g}f4 :|
+c2 | (cc'=bc'af) | (Aa^gafc) | (GABcdB) | (Aagfed) |
+(cc'=bc'af) | (Aa^gafA) | (GAB=Bce) | {g}f2 z2 :|
+A2 | (GCEGBG) | (Afagfe) | (dc=B_BGB) | (Acfac'a) |
+(cc'=bc'af) | (Aa^gafA) | (GABdcB) | {B}A4 :|
+(ce) | {e}d2 (GBdG) | {B}c2 EG ce | def^fgG | {d}c2 egc'e' |
+d'2 gbd'b | c'2 (egc'e') | (def^fgG) | {d}c4 :|
+(eg) | (c'b)(ac')(ba) | (ba)(gb)(ag) | (ag)(fa)(gf) | (gf)(eg)(fe) |
+{e}d2 (GBdG) | {d}c2 (EG)(ce) | (def^fgG) | {d}c4 :|
+S:https://www.folktunefinder.com/tunes/136711
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mucl.de/~mdoering/konzertina/all/music/steierm1.abc
+% Rhythm Lndler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

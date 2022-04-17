@@ -1,0 +1,28 @@
+X:9
+T:Polka Saluwee
+O:belgium
+M:2/4
+L:1/8
+Q:1/4=
+K:D
+V:1
+[FD]|"A7" [FD][EC][EC][GE]|"D" [GE][FD][FD][AF]|"A" [A3/2E3/2][A/E/][BG][cA]|
+"D" [d2F2]z||[FD] |:"A7" [FD][EC][EC][GE]|"D" [GE][FD][FD][AF]|
+"A" [AF][A/F/][A/F/][^G=F][AF]|"D" [B2G2][AF][AF]|"G" [d2B2][cA][BG]|"D" [A2F2][F2D2]|
+|1 "A" [A3/2F3/2][A/F/][GE][FD]|[E2C2]z[FD]:|2 "A" [A3/2F3/2][G/E/][FD][EC]|"D" D3 z|| |:
+"D" [FD][AF][FD][AF]|"A7" [GC][GC][G2C2]|"A" [cA][cA][BG][cA]|"D" [dF][AF][A2F2]|
+[dF][d/F/][d/F/][cF][dF]|"G" [eG][GB][B2G2]|"A" [cA][c/A/][c/A/][BG][cA]|1 "D" [BG][AF][A2F2]:|2
+M:4/4
+[d2F2]||[A2F2][B2G2][c2A2]|| |:"D" [d3/2F3/2][d/F/][dF][dF][dF][dF][eF][dF]|"G" [c2A2][(B2G2][B)G][BG][BG][BG]|
+"A" [(A2E2]"A7" [A)E][AE][AE][cA][BG][GE]|"D" [(F4D4][F)D][AF][BG][cA]|"D" [d3/2F3/2][d/F/][dF][dF][dF][dF][eF][dF]|"G" [c2A2][(B2G2][B)G][ge][ec][cA]|
+"A" [(A2E2][A)E][AE][B2E2][c2A2]|1 "D" [(d4F4][d)F][AF][BG][cA]:|2 "D" [(d4(A4][d)A)]z2 ||
+S:https://www.folktunefinder.com/tunes/136910
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

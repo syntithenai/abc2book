@@ -1,0 +1,24 @@
+X:7
+T:Dinny Delaney
+Z: id:dc-slide-10
+M:6/8
+L:1/8
+K:D Mixolydian
+A2D DED|A2G E2G|A2D DED|G2A GED|!
+A2D DED|c2d e2d|dcA AGE|G2A GED|!
+A2D DED|A2B G2B|A2B G2A|E2G GEG|!
+A2D DED|c2d e2d|dcA AGE|G2A GED|]!
+dcA AGE|c3 ABc|dcA AGE|G2A GED|!
+dcA AGE|c2d e2d|dcA AGE|G2A GED:|!
+S:https://www.folktunefinder.com/tunes/134907
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Slides.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Slides.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

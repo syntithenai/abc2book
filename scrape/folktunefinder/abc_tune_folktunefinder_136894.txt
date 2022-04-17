@@ -1,0 +1,28 @@
+X: 12
+T:The Dark Island
+C:Iain McLaughlin
+O:Scotland
+R:waltz
+M:3/4
+L:1/8
+K:D 
+B2 | "Em"e3 Be2 | "Bm"d3 ed2 | "G"B3A G2 | "D"A4 de | "D"f3 e d2 |
+"Bm"f a3 A2 | "D"f3a f2 | "A"e4 AB | "Em"e3 Be2 | "Bm"d3 ed2 | "G"B3A G2 |
+"D"A4 de | "D"f3 A af | "A7"e3 A fe | "D"d3 d d2 | "D"d4 fg | "D"a3 AA2 |
+"D"f3 e d2 | "G"B G3 B2 | "D"A4 de | "Bm"f3 e d2 | "D"f a3 A2 | "D"f3 a f2 |
+"A"e4 AB | "Em"e3 Be2 | "Bm"d3 ed2 | "G"B3A G2 | "D"A4 de | "D"f3 A af |
+"A7"e3 A fe | "D G"d3dd2  | "D"d4 |]
+%%sep
+%%vskip 1cm
+%%textfont Palatino-Bold 24
+%%text Polkas
+S:https://www.folktunefinder.com/tunes/136894
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/WaltzEtc.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/WaltzEtc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 12
+T:Banks of the Dee, Fieldtown
+M:6/8
+L:1/8
+A:Fieldtown
+P:A(AB)2(AC)2
+K:G
+P:A
+|:G| DEF GAB| ced cBA| BGE Ddc| BcA G2:|
+P:B
+|:G/A/  | Bcd d2g| ede dBG| Bcd efg| GAG FED|
+ cec BdB| GFG AFD| GFE Ddc| BcA G2:|
+P:C
+|:G|(2Bc d3 | d3  g3 |(2ed e3 |(2dB G3 |
+(2Bc d3 |(2ef g3 |(2GA G3 |(2FE D3 |
+ cec BdB| GFG AFD| GFE Ddc| BcA G2:|
+S:https://www.folktunefinder.com/tunes/132480
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 27
+T:Morris Reel, Headington 1
+M:2/2
+L:1/8
+A:Headington
+P:A(A2B2)4A
+K:A
+P:A
+cB|AGAc eAcA|BAGF E2d2|cdea   fedc  |BAGF EFGE|
+AGAc eAcA|BAGF E2d2|c<ec<A f<dB<G|A2A2 A2  ||
+P:B
+cd|efec Acec|fdfd B2cd|efec   AGAc  |BAGF EFGE|
+ABAc eAcA|BAGF E2d2|cdea   fdBG  |A2A2 A2  ||
+S:https://www.folktunefinder.com/tunes/131633
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 48
+T:Drops of Brandy. JBa.47
+M:9/8
+L:1/8
+Q:130
+S:Joseph Barnes MS,Carlisle,1762.
+R:slip jig
+O:England
+A:Carlisle
+N:Key signature - three sharps shown but I think they are high and low
+N:F'sand a G.  Time signature is given as  6/8.. CGr...The penultimate
+N:note in each part may possibly be shown as a dotted crotchet,but since
+N:there is boubt,I have put it as a crotchet,which makes more sense(to
+N:me!)..CGP
+H:See Paul's notes..
+Z:vmp.C.Graebe.
+K:G major
+"see note"G>AB B>AB B>AB | G>AB dBG d2g |\
+G>AB B>AB B>AB | GAB gdB c2e :|!
+|:"2nd" G>AB gdB gdB | G>AB gdB d2g |\
+G>AB gdB gde | fga cAF c2"End"e |]
+S:https://www.folktunefinder.com/tunes/132713
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:14
+T:Cherokee Shuffle 2
+R:R
+C:Trad
+S:From the playing of Mike Nelson
+N:This is really a transposition of the guitar version that I play
+M:2/4
+L:1/8
+Q:100
+K:A
+(3EFG!|A2 A>B"A" A2 A>B|c>B A2 F2 E2|A2 A>B c>d e2|"F#m" {=f}^f6 f>g| a2
+ a>b"D" a2 f2|e>f e>d "A"c>B A2|c>B A>B c>d e2|"F#m"{=f}^f6 f>g|"A"a>f e
+>d "E"c>A B>c|1"A" A6|2"A"A6 (3cde||"D"f2 f>g a2 f2|"A"e>f e>d c>B A2|"D
+"f2 f>g a2 b2 |"A"e8c'8|"D"f2 f>g a2 f2|"A"e>f e>d c>B A2|c>B A>B c>d
+e2|"F#m"{=f}^f6 f>g|"A"a>f e>d "E"c>A B>c| "A"A8:|
+S:https://www.folktunefinder.com/tunes/137090
+S:http://wind.prohosting.com/mrnelson/mandolin/tunes.txt
+S:http://wind.prohosting.com/mrnelson/bluegrass/tunes.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

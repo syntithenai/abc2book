@@ -1,0 +1,25 @@
+X:140
+T: Des Grafen Toechterlein
+N: Q1063B
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0063, anderes Lied "Graf Friedrich" .
+N: Aehnliche Fassung schon aus anderem Balladenband kodiert 
+R: Ballade 
+M: none
+L: 1/16
+K: F
+C4 | F2F2F4G6A2 | B2A2G4
+A2G2 | F4C4F2F2G2A2 | B2c2G4
+G6 | F2E2D2C3DC2C2 | F4G2G2A2F2G4
+B2B2 | A4G4F4C4F2G2 | A2A2G4F4
+S:https://www.folktunefinder.com/tunes/132242
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

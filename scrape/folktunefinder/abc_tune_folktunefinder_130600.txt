@@ -1,0 +1,27 @@
+X:10
+T:Gavotte de l'Aven
+O:France
+A:Bretagne
+C:Trad.
+R:Gavotte
+S:Monique Giry
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+B>A B>c | dB G2 | B>A B>c | d2 g2 | B>A B>c | dB G2 | A>A A>A | G2 G2 | 
+AA A2 | BB B2 | Bc/B/ AB | GB d2 | AA A2 | BB B2 | dc/B/ AB | G4 ::
+g2 fe | dB d2 | cB Ad | B2 Bz | g2 fe | dB d2 | cB AG | G2 G2 ::
+GB de | dB d2 | cB Ad | B2 B2 | GB de | dB d2 | cB AG | G2 Gz :|
+%%footer $D   Galouvielle-MBe 2005 \nBourre  2 temps France
+S:https://www.folktunefinder.com/tunes/130600
+S:http://michel.bellon.free.fr/Musique/abc/Suite_RWANDA.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

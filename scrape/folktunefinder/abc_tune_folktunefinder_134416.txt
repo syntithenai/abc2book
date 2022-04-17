@@ -1,0 +1,25 @@
+X:302
+T:Road to Lisdoonvarna
+C:Trad, Ir.  
+M:6/8
+L:1/8
+%% Q:3/8=112
+K:Em 
+ D |: E2B B2A | B2c d3 | F2A ABA | D2E FED | 
+    E2B B2A | B2c d3 | cdc B2A | B2E E3 :||
+ |: e2f gfe | d2B Bcd | c2A ABc | d2B B3 | 
+    e2f gfe | d2B Bcd | cdc B2A | B2E E3 :|| 
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/134416
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

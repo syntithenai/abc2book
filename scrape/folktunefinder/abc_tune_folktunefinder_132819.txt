@@ -1,0 +1,43 @@
+X:20
+T:Countrodanso
+C:Trad., Eseguita da Jouan Bernardi
+S:Trascrizione di Masimo Anghilante
+R:Contredanse
+O:Valle Varaita
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-02-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+%%continueall 1
+!mf!"G"zG/G/ GB/B/ |: Bd/d/ dg | "D7"f2 d/^c/d/e/ | dd/c/ BA |
+"G"BG/G/ GB/B/ | Bd/d/ dg | "D7"f2 d/^c/d/e/ | dd/c/ BA | "G"G2 d2 || 
+"D7"!f! [fd][f/d/][f/d/] [fd][ec] | [dB][dB] [ec][dB] | [cA][d/B/][d/B/] [dB][[c/A/][c/A/] | "G"[cA][B/G/][B/G/] [BG][dB] | "D7"[fd][f/d/][f/d/] [fd][ec] |
+[dB][dB] [ec][dB] | [cA][d/B/][d/B/] [dB][[cA] | "G"[BG] z!mf!GB |: de/d/ c/B/c/d/ | "D7"dcFA |
+cd/c/ B/A/B/c/ | "G"edGB | de/d/ c/B/c/d/ | "D7"dcFA | cd/c/ BA |1
+"G"Gz GB :|2 Gz z2 !f!|| "G"G2 AB | "C"c2- cB/c/ | "D"dd/d/ dc | 
+"G"B2- BG/B/ | "C"cc/c/ cB | "D7"A2- AF/A/ | BB/B/ BA | "G"z2 |
+G2 AB | "C"c2- cB/c/ | "D7"dd/d/ dc | "G"B2- BG/B/ | "C"cc/c/ cB |
+"D7"A2- AF/A/ | BB/B/ BA |1, 2 GG/G/ GB/B/ :|"ultima" Gz [BG][B/G/][B/G/] | H[B2G2]z2 |]
+T:Balet
+%%staves (1 2)
+V:1
+!mp! z2 x2 |: xd/ c/ BA/B/ | A G x x | x d/ c/ BA | Gz x x | 
+xd/ c/ BA/B/ | A G x2 | xd/ c/ BA | Gz d2 | ff/f/ fe |
+dded | cd/d/ dc/d/ | "G"cB/B/ Bd | "D7"ff/f/ fe | dded |
+cd/d/ dc |1 Bz x2 :|2 B"rall."z gg/g/ | Hg4 |]
+V:2
+x2 G, A, |: B, x3 | x2 G, A, | B,x3 | x2G, A, |
+B, x3 | x2 G, A, | B,x3 | x4 | dd/d/ dc |
+BBcB | AB/B/ BA/B/ | AG/G/ GB | dd/d/ dc | BBcB |
+AB/B/ BA | Gx G, A, :| Gx [BG][BG]/[BG]/ | [B4G4] |]
+S:https://www.folktunefinder.com/tunes/132819
+S:http://michel.bellon.free.fr/Musique/abc/ValleVaraita_D.abc
+% Rhythm Contredanse
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

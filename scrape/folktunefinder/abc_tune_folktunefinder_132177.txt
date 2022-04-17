@@ -1,0 +1,25 @@
+X:75
+T: Jungfer Doertchen
+N: Q1057N
+O: Suedosteuropa, Jugoslawien, Gottschee
+N: Melodievergleich zu Q0057 , anderes Lied (Lied vom heiligen Kreuz) .
+N: Takt rhythmisch korrigiert: Pause ergaenzt.
+R: geistlich
+M: 2/4
+L: 1/8
+K: G
+d2 | dBdB | d2e2 | dcB2 | z3
+A | dedc | B2A2 | B2
+S:https://www.folktunefinder.com/tunes/132177
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 34
+T:Flowers of Edinburgh Jig, Bampton
+T:Knuckle Down, Bampton
+M:4/4
+L:1/8
+A:Bampton
+P:A(AB)2CB
+K:G
+P:A
+DEFD G2GA|B2B2 BdcB|AGFG EFGA|B2E2 E2GE |
+DEFD G2A2|B2B2 Bgfe|dcBA GFGA|B2G2 G4   ||
+P:B
+g6     ag|f8       |edef gfed|B2e2 e2ge |
+dBGB d2dd|edef g2fe|dcBA GFGA|B2G2 G2e>f||
+g2g2 gbag|f2f2 fagf|e2ef gfed|B2e2 e2ge |
+dBGB d2dd|edef g2fe|dcBA GFGA|B2G2 G4   ||
+P:C
+D2E2 F2DD|G4   A4  |B4   B4  |Bd3  c2B2 |
+A2G2 F2G2|E2F2 G2A2|B4   E4  |E6     GE |
+DEFD G2A2|B2B2 Bgfe|dcBA GFGA|B2G2 G4   ||
+S:https://www.folktunefinder.com/tunes/131603
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/sites/default/files/abc/bamptonFlowersofEdinburghJig.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bampton.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

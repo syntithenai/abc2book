@@ -1,0 +1,34 @@
+X: 3
+T:Crooked Yew,The. JBa.03
+T:Crooked Ewe,The,aka. JBa.03
+T:Ewe Wi' The Crooked Horn,aka. JBa.03
+M:C
+L:1/8
+Q:160
+C:Ewe Wi' The Crooked Horn,aka.
+S:Joseph Barnes MS,Carlisle,1762.
+R:reel
+O:England
+A:Carlisle
+N:No key sig in MS, but is in G maj in Joseph . Jackson MS...Bar line
+N:after bar 11 not in MS...CGr. Known as Strathspey 'the Ewe Wi' the
+N:Crooked Horn' in modern Highland piping..P.Roberts.. 
+Z:vmp.C.Graebe.
+K:G Major
+"No key/time sig. in MS"\
+DGGB FGAF | DGGB cABG |\
+cBAG FGAG | DGGB AF G2 :||!
+Gefg af ge | defg af g2 | Gefg af ge | defg af g2 |!
+gd eB cA BG |DGGB cABG |\
+ cBAG FGAF"NB" |DGGB AF G2 |]
+S:https://www.folktunefinder.com/tunes/132668
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Baker's Dozen
+M: 4/4
+L: 1/8
+R: barndance
+K: Cmaj
+|:[M:13/8] E2 EF^GA BcA B2B2 | Bdc B2A BcA B2B2 | E2 EF^GA BcA B2B2 | ^GBA ^G2E A^GF EDE2 :|
+|: [M:13/8] Bdc B2A cBA ^GAB2 | Bdc B2A cBA ^GFE2 :|
+|: de e2e2 e2d dcd2 | cd d2d2 d2c cBc2 |
+Bc c2c2 c2B BAB2| [M:14/8]^GAB2 Bdc BAB2-B3 |
+[M:13/8]cd d2d2 d2c cBc2 | Bc c2c2 c2B BAB2 |
+^GAB2 Bdc BAB2B2 |^GBA ^G2E A^GF E2E2 :|
+S:https://www.folktunefinder.com/tunes/132360
+S:http://www.thesession.org/tunes/display/1909
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 13/8
+% Time_signature 4/4
+% Time_signature 14/8
+% Has_accompaniment_chords No chords

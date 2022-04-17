@@ -1,0 +1,29 @@
+X: 022048
+T: Ballyconneely
+C: BB 11/05
+N: 211
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=175
+K: A
+A | "A" cBc "Bm" BAB | "A" cBA "D" FEF |\
+"A" Ace "D" faf | "A" ecA "E7" B2d |
+"A" cBc "Bm" BAB | "A" cBA "F#m" FEF |\
+"D" DFA "E" EGB | "A" cAA A2 :|
+B| "A" Ace aba | "D" fga "A" ecA |\
+"Bm" Bcd "E"efg | "A" aec "E"B2d |
+"A" cea aec | "Bm" BAB "F#m" cAF |\
+"D" DFA "E" EGB | "A" cAA A2 :|
+S:https://www.folktunefinder.com/tunes/133931
+S:http://www.qmcorp.net/tunes_online/211bally/211.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

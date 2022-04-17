@@ -1,0 +1,61 @@
+X:1
+%
+T:Ballet
+C:Ms. 40641 Krakow, f. 5r
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[caa{,a}1]c/a [,da,c1][,c,,a] |\
+[,a,,,d/],c,da [cce,,c3/2]c/ |\
+[da,,,a1]d/c [a,,,a]c[,da,c]a |\
+[,ca,,c/],a[,ca1] [,aa,c2] |\
+[caa{,a}/]>dc/a [,da,c]a[,c,,a],d |
+%
+[,ab,,d3/4],c// ,d,c,da [cce,,c/]>df/c |\
+[da,,,a/]>fd/c [ac,,a]c[,da,c]a |\
+[,ca,,c/],a[,ca1] [,aa,c3/2],d/ |\
+[,ca,,c/]>,da1 [,da,c/]>ac1 |\
+[ac,,a/]>cd1 [cd,a/]>df/c |
+%
+[a,,,e//],dac d/f [c,,a1][a,b/],d |\
+[,cd/]>,d[a,,,a/]>c [,dda1]{a}/,d |\
+[,ca,,c/]>,da/,c [,da,c/]>ac/,d |\
+[a,,,a//],dac d/a [c,,a/],d//a cdfc |
+%
+[a,,,e//],d,c,d acdf [c,,a/],d[a,b],d |\
+[,cd/]>,d[a,,,a/]>c [,dda1]{a}/a |\
+[cd,a/],,dcd [ac,,a],,dac |\
+[,d,,c/],,a,da [,c,,,c],,a,c,d |\
+[,a,,,d/],c,da 
+%
+[cd{a}1][ac,,,a/],d |\
+[,ca,,c/],a[,ca1] [,aa,c]{,a}/a |\
+[c,,a/],d//a cadc [a,,,a//],d,c,d a,cca |\
+[,d,,c//],c,a,c ,d,aa,d [,c,,,c//],a,,e,a ,c,,a,d,c |\
+[,a,,,d//],,d,,b,,d ,a,c,da 
+%
+[c{a}//],dac [d,,,,a]ca,d |\
+[,c,,,c//],da,d [,ca],a,c/ [,aa,c1]{,a}/a |\
+[c,,a/],dcd [a,,,a],cac |\
+[,d,,c/],,aa,d [,c,,,c],,a,c,d |\
+[,a,,,d/],c,da c{a}[a,,,,a],d |
+%
+[,ca,,c/],a,d,c [,aa{,a}],,,,c,da |\
+c/,,,acd a,,,,aac |\
+,d/,,,,c,da ,c,,,,,c,c,d |\
+[,a,,,d/]>,c,d/a [cd{a}1][ac,,,a/],d |\
+[,ca,,c/],a[,ca1] [,aa,c1]{,a} |\
+H[,aab2] |]
+%
+W:Remark: diminuitions added by Christoph Dalitz
+S:https://www.folktunefinder.com/tunes/133106
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Anonymous/krakow_ballet_5r.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Anonymous/krakow_ballet_5r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:155
+T: Taylor's
+M: 4/4
+L: 1/8
+S: Luke O'Malley Volume 1
+Z: B.Black
+R: reel
+K: A
+A,2 CE ABcA |B^ABc dB B2 |A,2 CE Acaf | ecBd cA A2 |
+A,2 CE Aafe |dcdB AGEC |A,2 CE A2 af | ecBd cA A2 ||
+aece a2 fa |acAc BAFA |aece fbaf | ecBd cA A2 |
+aA (3cBA fAcA | (3dcB (3cBA BAFG | A2 ce fbaf |\
+ecBd cA A2 ||
+ce e2 ceae |fcc2 BAFA |(3cde af ecAF | EFAB cA A2 |
+e^def ecAc |ecae cBB2 |A2ce fbaf | ecBd cAA2 ||
+S:https://www.folktunefinder.com/tunes/136964
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/t.abc
+S:http://www2.redhawk.org:8080/irish/zouki/t.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

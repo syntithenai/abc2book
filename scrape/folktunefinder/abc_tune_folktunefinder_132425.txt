@@ -1,0 +1,25 @@
+X: 4
+T:Billy Boy, Bledington 1
+S:TM, from Benfield
+A:Bledington
+M:6/8
+P:A(AB2)4
+K:F
+P:A
+|:FAc BGA|BAB GEC|AGF DCB,|CDE  F3:|
+P:B
+  B2c dBG|A2B cAF|ABc d2B |GAB  c3|
+  FAc BGA|BAB GEC|AGF DCB,|CDE  F3|
+S:https://www.folktunefinder.com/tunes/132425
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

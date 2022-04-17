@@ -1,0 +1,23 @@
+X:8
+T:Polka van Wannes
+O:belgium
+M:4/8
+L:1/8
+Q:1/4=92
+K:G
+V:1
+"G" BB B/A/G/B/ |dd d/c/B |"D" cc c/B/A |"G" BG "D" AG |
+"G" BB B/A/G/B/ |dd d/c/B |"D" cB/c/ d/c/B/A/ |"G" GB G2 :| |:
+"G" dd e/d/c/B/ |"D" cc/B/ A2 |cA cA |"G" BB/c/ dB/c/ |
+"G" dd e/d/c/B/ |"D" cc/B/ A2 |cA cB/c/ |d/c/B/A/ "G" G2 :|
+S:https://www.folktunefinder.com/tunes/136909
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/8
+% Has_accompaniment_chords Has chords

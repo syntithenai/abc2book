@@ -1,0 +1,21 @@
+X:2
+T:XXIV. Faine would I wed a faire yong man
+T:Bassus.
+C:Thomas Campion (1567-1620)
+B:The Third and Fourth booke of Ayres
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+K:G min bass
+N:(3) Bass repeats three times 
+|:g g f f g G d d :|
+|: B B c d B A/ G/ d G :|
+S:https://www.folktunefinder.com/tunes/136327
+S:http://www.laymusic.org/music/campian/man/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

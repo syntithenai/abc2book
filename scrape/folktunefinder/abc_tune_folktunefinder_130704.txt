@@ -1,0 +1,41 @@
+X:100
+T:Polka Koketka
+A:village of Zyatkivtsi, Vinnyts'ky
+L:1/8
+M:2/4
+O:Ukraine
+Q:216
+R:Polka
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000650.html
+%%ID:00000650
+K:C
+ea^ga | efed | ee c2 | dcBA | \
+ea^ga | efed | eec'b | a2a2 ::
+geae | gggB | BBdd | feee | \
+geae | gggB | BBdd | c2c2 :|
+P:Another Version from a differant source
+K:G
+Q:144
+M:2/4
+L:1/16
+B2e2^d2e2 | c2(cB) (AB)(cA) | \
+B2B2 BAGF | A2.G2.F2.E2 | \
+B2e2^d2e2 | .c2(cB) (AB)c2 | \
+(BA)(Bc) g2f2 | e4 e2 z2 :|
+(d2^c)d  .g2(B2   | d2)c2 (cB)(AG) | \
+(FG)(AB) (cB)(ce) | e2d2 dcB2 | \
+(d^c)d2  .g2(B2   | d2)c2 (cB)(AG) | \
+(FGAB) (cdef) | g4 g4 |]
+W:W:H. Tantsyur
+S:https://www.folktunefinder.com/tunes/130704
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T:Barrack Hill
+R:single jig
+M:6/8
+L:1/8
+K:G
+e2A A2f|e2d Bcd|e2A A2B|G2A Bcd|!
+e2A A2f|e2d Bcd|e2d g2B|A3 A3:|!
+e2d efg|a2b g2e|d2e d2B|d2e dcB|1 e2d efg|!
+a2b g2e|d2B g2B|A3 A3:|2 e2d e2f|g2a b2a|!
+g2e d2B|A2a agf||
+S:https://www.folktunefinder.com/tunes/136077
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/Barrack_Hill_1.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

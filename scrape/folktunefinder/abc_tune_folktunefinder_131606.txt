@@ -1,0 +1,25 @@
+X: 37
+T:Bacca Pipes, Bampton
+M:6/8
+L:1/8
+Q:264
+A:Bampton
+P:A(AB)2A
+K:ADor
+P:A
+|:c3  B2c|d2B G3 |cdc A2c|B2G E3 |
+  c2B c2e|d2B G2B|c2A B2G|A3  A3:|
+P:B
+|:g3  g2e|d2B B3 |g3  g2g|a2g e3 |
+  efg g2e|d2B G2B|c2A B2G|A3  A3:|
+S:https://www.folktunefinder.com/tunes/131606
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

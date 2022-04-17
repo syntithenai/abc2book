@@ -1,0 +1,39 @@
+X:1
+T:Bairischer, aus Hippach
+R:Schottisch
+A:Zillertal, Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Volksmusik aus dem Zillertal",Karl Horak, Innsbruck
+N:dort auf Seite 169 in F (1. Teil) und B (2.Teil), in der Quelle einstimmig
+N:Notenmaterial von Stefan Straubinger
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G %Transposed from F
+gfe |\
+d2BB Bgfe | d2cd "1)"f4 | dffd edc"1)"A | GABA Ggfe |
+d2BB Bgfe | d2cd "1)"f4 | dffd edef | g4 z :|
+K:G
+zdd |\
+edBd g2dd | edcd f2dd | edcd fdcd | edBd g2dd |
+edBd g2dd | edcd f2dd | edcd fdef | g4 z :|
+W:
+W:1) in der quelle f# ' 
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/132285
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bairischer_aus_hippach.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

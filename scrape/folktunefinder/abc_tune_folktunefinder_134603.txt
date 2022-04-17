@@ -1,0 +1,35 @@
+X: 16
+T:Fanny Frail in C
+M:C
+L:1/8
+C:Trad.
+S:Dommett
+A:Evesham, Worcestershire
+P:AABABAC
+B:Dommett, p. 21, 43
+N:originally entered by Rich Holmes, 1996 Sept.
+K:C
+I:speed 400
+L:1/8
+P:A
+     E2 G2 F2 A2 | G2 cd e2 c2 | {g}f2  e2 d2 c2 | {e}dcBA  GFED |\
+     CEGE  F2 A2 | G2 cd e4    |    fedc   BGAB  |    d2 c2 c4   ||\
+P:B
+     d2 G2 d2 G2 | f2 e2 dB G2 |    f2  e2 d2 c2 | {e}dcBA  GFED |\
+     C2 G2 F2 A2 | G2 cd e4    |    fedc   BGAB  |    d2 c2 c4   ||\
+P:C
+g2 | e6       g2 | e6       g2 |    c'2 g2 f2 e2 |    d6      dd |\
+     dddd   dddd | dddd   ddgb |    d'bgf  efdB  |    c6         ||
+%  ABC2Win Version 2.1 23/11/2001
+S:https://www.folktunefinder.com/tunes/134603
+S:http://www.freewebs.com/folkbluesnbeyond/ESMMC.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

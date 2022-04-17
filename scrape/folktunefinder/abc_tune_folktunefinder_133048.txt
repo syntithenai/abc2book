@@ -1,0 +1,29 @@
+X:632
+T:Johnnie Cope (Em)
+S:Nigel Gatherer
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Em
+B2 | E2 E2 EFGA  | B2 E2  E2  FE   | D2  D2  DEFG  | A2 d2 F2 D2 |
+     G2 FG A2 GA | B2 d2  F2  ED   | E2  e2  BAGF  | E2 G2 E2   :|
+D2 | G3  G G2 D2 | GABc   dBAG     | F2 D2   A2 D2 | FGAB  A2 F2 |
+     G2 FG A2 GA | B2 d2  F2  ED   | E2 e2   BAGF  | E2 G2 E2   :|
+D2 | E^DEF EFGA  | BAGF   EFGE     | D=CDE   DEFG  | AdAF  BAGF  |
+     GFEG  AFGA  | BB,DF  BAGF     | E^FEe   BAGF  | E2 G2 E2   :|
+D2 | GFGA  GDB,D | GFGB   dBAG     | FDAD    BDAD  | FEFG  AFDF  |
+     GFEG  AFGA  | BB,DF  BAGF     | E^DEe   BAGF  | E2 G2 E2  :|]
+S:https://www.folktunefinder.com/tunes/133048
+S:http://nigelgatherer.com/tunes/abc/tb13.abc
+S:http://www.nigelgatherer.com/tunes/abc/tb13.abc
+S:http://nigelgatherer.com/tunes/abc/abc8/jcope2.abc
+S:http://www.nigelgatherer.com/tunes/abc/abc8/jcope2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

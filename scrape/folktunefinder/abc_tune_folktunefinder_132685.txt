@@ -1,0 +1,40 @@
+X: 20
+T:Prince of Orange's March,The. JBa.19
+T:Bonny Broom,aka. JBa.19
+T:Broom,Broom,etc,aka. JBa.19
+M:4/4
+L:1/4
+Q:80
+C:Bonny Broom,aka
+S:Joseph Barnes MS,Carlisle,1762.
+R:march
+O:England
+A:Carlisle
+N:
+Z:vmp.C.Graebe.
+K:DMajor
+"No key/time sg in ms"F/G/ | AA A>B | A/G/F/E/ D2 | d/c/d/e/ f2 |
+ e/d/c/B/ A G/A/ |!
+ (c/B/) (A/B/) B/c/d/B/ |AA (B/A/)(G/A/) |  (c/B/) (B/c/) B/c/d/B/ |!
+ AA (B/A/) (G/A/) | G G/B/ A/G/F/E/ | D>E D/G/F/E/ | D3 :|!
+|:"'1st'"f e/d/ c/d/ e | (e/f/) e/d/c/B/ A | f e/d/ c/d/ e |\
+ (e/f/) e/d/c/B/  A |!
+ g "tr"f ((3e/f/g/) "tr"f | ((3e/f/g/) "tr"f  ((3e/f/g/) "tr"f | \
+e d ((3c/d/e/) d |\
+ ((3c/d/e/) "crots in ms" d/c/B  (f/g/) |!
+ a/g/f/e/ d/f/d/c/ | c (B/c/) B B/c/ |d d A/B/c/A/ |B G G c/d/ |!
+ e e B/c/d/e/ | (d/c/)(B/c/) A G/A/ | (c/B/) (A/4B/4)"sq"c/ B/c/d/B/ |\
+A A (B/A/)(G/A/) |! 
+(c/B/)(B/c/) B/c/d/B/ | A A (B/A/)(G/F/) |\
+G G/B/ A/G/F/E/ | D>E D/G/F/E/ | D>E D2 |]
+S:https://www.folktunefinder.com/tunes/132685
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

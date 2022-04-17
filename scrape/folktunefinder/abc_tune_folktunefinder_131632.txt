@@ -1,0 +1,26 @@
+X: 26
+T:Twenty-Ninth of May, Headington
+M:4/4
+L:1/8
+R:Hornpipe
+A:Headington
+P:A(AB)4
+K:G
+P:A
+|:DG|B2B2 BcdB|c2A2 A2Bc|dedB cdcA|B2G2 G2 :|
+P:B
+|:gf|e2d2 d2GA|B2B2 B2gf|e2d2 c2B2|AGFE D2DG|
+B2B2 BcdB|c2A2 A2Bc|dedB cdcA|B2G2 G2 :|
+S:https://www.folktunefinder.com/tunes/131632
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

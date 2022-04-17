@@ -1,0 +1,23 @@
+X:64
+T: Jungfer Doertchen
+N: Q0057C
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Odenwald
+R: Ballade, Todesahnung, Tod, Selbstmord
+M: 3/4
+L: 1/16
+K: G
+G2G2B2 | d6e2d3e | d4B2
+B2A2d2 | c4c2d2A3c | c4B2
+G2G2B2 | B6d2d3e | d4B2
+B2A2d2 | c6d2A3c | c4B2
+S:https://www.folktunefinder.com/tunes/132166
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, todesahnung, tod, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

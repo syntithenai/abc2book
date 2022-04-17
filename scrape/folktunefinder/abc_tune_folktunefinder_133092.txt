@@ -1,0 +1,16 @@
+X:1
+T:The Ballad of William Bloat
+M:4/4
+L:1/4
+K:D
+ D/2D/2| F F F E/2F/2| A A B A/2F/2| D E D/2 D3/2| D3 A| BB/2-A/2 B d|\
+ F G/2E/2 D F/2G/2| A15.9999925000037/23.999988000006 A15.9999925000037/23.999988000006 A15.9999925000037/23.999988000006 d F|\
+ E3 D/2E/2| F F F E/2F/2| A A BA/2-F/2| D E D/2 D3/2| D2||
+S:https://www.folktunefinder.com/tunes/133092
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/WMBLOAT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

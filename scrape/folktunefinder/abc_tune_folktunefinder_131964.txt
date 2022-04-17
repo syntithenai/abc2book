@@ -1,0 +1,28 @@
+X: 1
+T:Bagl\ae{}ns Kontrasejre
+O:Denmark
+M:2/4
+L:1/8
+K:D
+A, |\
+DD/D/ DD/D/ | DF AF | EE/E/ EE/E/ | EG BG |\
+AA/A/ AA/A/ | Ad fa | ga/g/ fg/f/ | e3 :|
+|:a |\
+af df | (3gec A2 | ge ce | (3fdB F2 |\
+DD/D/ DF | AA/A/ Af | ge cA | d3 :|
+K:G
+|: d |\
+dB BB | B2AB | cB AG | FE Dd |\
+dB BB | B2AB | cA FD | G3 :|
+|: G |\
+FG AB | c2AF | GA Bc | d2BG |\
+FG AB | c2AF | GB AF | G3 :|
+S:https://www.folktunefinder.com/tunes/131964
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ba/Baglae_ns_Kontrasejre_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X: 565
+T: The woman of the house
+C: anon.
+O: Ireland
+B: Francis O'Neill: "The Dance Music of Ireland" (1907) no. 565
+R: Reel
+Z: Transcribed by Frank Nordberg - http://www.musicaviva.com
+F: http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-056
+5.abc
+M: C|
+L: 1/8
+K: G
+G>(B {c}(3BAB) cBAB|GBdg e2d2|[1G>(B {c}(3BAB) cBAB|e>A (3AGA e>A (3AGA:|
+[2G2(BG)A2(GA)|BcAc (BG)G2:|
+f2fd e2ed|gfge dBGB|f2fd e2ed|e>A (3AAA e>A (3AAA|f2fd e2ed|gfge dBGB|G2(
+BG) A2(GA)|BcAc (BG)G2|
+f2fd e2ed|gfge dBGB|f2fe e2ed|eA (3AAA eA (3AAA|gaba gfed|efge dBAB|G2(BG
+) A2(GA)BcAc BGG2|]
+W:
+W:
+W: The time signatures are missing on page 104 in the book
+W: (tunes nos. 560-566)
+W:
+W:
+W: From Musica Viva - http://www.musicaviva.com
+W: the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/133634
+S:http://www.musicaviva.com/abc/tunes/ireland/oneill-1001/oneill-1001-056
+S:http://trillian.mit.edu/~jc/music/book/oneills/1001/F/05.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

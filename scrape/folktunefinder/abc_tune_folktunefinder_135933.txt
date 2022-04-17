@@ -1,0 +1,28 @@
+X: 1
+T: Saint Anne's Reel
+C: Reel
+S: Traditional, arranged by Randy Miller in Miller and Perron 1983.
+N: Adapted to abc by Robert Bley-Vroman, Contradancers of Hawaii, 27 December 1996.
+Z: mailto:vroman@hawaii.edu  
+M: C|
+L: 1/8
+Q: 1/2=110
+K: D
+e2 | f2 fg fedB | A2 FA A2 FA | B2 GB B2 GB | ABAG FAde |
+     f2 fg fedB | (3ABA FA DAFA | BGBd cAce | d2 f2 d2 :|
+ag | fdfa fdfa | aggf g2 gf | edcB ABce | baa^g a2 a_g |
+     fdfa fdfa | aggf g2 gf | edcB Aceg | fdec d2 :|
+S:https://www.folktunefinder.com/tunes/135933
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/contra/dances/cdh-tunes.abc
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/anne.abc
+S:http://www.sls.hawaii.edu/contra/dances/anne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

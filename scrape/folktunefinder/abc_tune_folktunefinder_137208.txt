@@ -1,0 +1,39 @@
+X: 631
+T: O'Carolan's Devotion
+M:3/4
+L:1/8
+B:O'Neill's 631
+N:"Animated." "2nd Setting"
+Z:Transcribed by Ted Hastings, ted@hastings.nu
+K:Gm
+(g>a)|\
+L:1/16
+b4 (b/2a/2f3) (f/2g/2a3)|\
+L:1/8
+{g}f2 (d>e f2)|(dcBA) (~G>F)|F4 (G>A|
+L:1/16
+B4 (B/2c/2d3) (d/2c/2B3)|\
+L:1/8
+c2 (d^fgd)|(.c.B.A.G) .G->.G|G4||
+(~G>F)|(D2 F2) .F2|(F>G) (FE)(~D>C)|(D2 G2) G2|(G>A) (GF) (~=E>D)|
+(D2 B2) .B2|(B>c)(B>AG>A)|(F2 f2) .f2|f4 (g>a)|
+b2 (b>aG>a)|(b2 d2) .d2|(d>c) (B>cd>=e)|(f2 A2) .A2|
+(B>A) (G>AB>c)|d2 A2 (A>G)|(GF) (~=E>D)(D>F)|D4 (d=e)|
+L:1/16
+f4 (f/2g/2a3) (=f/2g/2a3)|\
+L:1/8
+g z g2 (fd)|(cABA) (~G>F)|F4 (G>A)|
+L:1/16
+B4 (B/2c/2d3) (d/2c/2B3)|\
+L:1/8
+c2 (d^f)(g>d)|(.c.B.A.G) .G->.G|G4||
+S:https://www.folktunefinder.com/tunes/137208
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/0626-0635_th.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

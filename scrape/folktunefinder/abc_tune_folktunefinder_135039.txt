@@ -1,0 +1,27 @@
+X:290
+T:Maids of Mount Kisco, The
+I:speed 350
+Z:Mount Kisco is in New York state.
+R:reel
+E:8
+M:C|
+K:ADor
+G|EA~A2 BGAG|EA~A2 BGAG|EG~G2 BG~G2|EG~G2 EGDG|\
+EA~A2 BGAG|EA~A2 BABd|efg2 af(3.g.f.e |dBGB A3:|*
+G|~A3B dBAB|G2BG DGBG|~A3B dBAB|efge dBGB|\
+~A3B dBAB|G2BG DGBG|~A3B dBAB|efge d2(3Bcd||*
+ea~a2 bgag|e2 dB GABd|eaab ~a3g|edef g3b|\
+~a3f ~g3e|dedB GBd2|eA~A2 efge|dBGB A3:|**
+S:https://www.folktunefinder.com/tunes/135039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/sessionTunesII.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/sessionTunesII.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

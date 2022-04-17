@@ -1,0 +1,68 @@
+X:8327
+T:Ballet for rider and horse
+C:Johann Heinrich Schmelzer
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schmelzer-johann-heinrich/schmelzer-horse/schmelzer-horse-6m.abc
+V:1 Program 1 56 %Trumpet
+V:2 Program 1 56 %Trumpet
+V:3 Program 1 56 %Trumpet
+V:4 Program 1 56 bass %Trumpet
+V:5 Program 1 56 bass %Trumpet
+V:6 Program 1 56 bass %Trumpet
+M:3/4
+L:1/4
+Q:1/4=168
+K:C
+V:1
+gcd|e>dc|def|ee2|e/f/gg|g>fe|cde|cc2|
+V:2
+eed|c>de|dcd|cc2|c/d/ee|e>dc|GG2|GG2|
+V:3
+EEG|G2G|G2G|GG2|GGG|c2G|GG2|EE2|
+V:4
+CCG,|C2C|G,2G,|CC2|CCC|C3|CG,2|CC2|
+V:5
+G,G,G,|G,2G,|G,2G,|G,G,2|G,G,G,|G,3|G,G,2|G,G,2|
+V:6
+C,C,G,|C,2C,|G,2G,|C,C,2|C,C,C,|C,3|C,G,2|C,C,2|
+%
+V:1
+e/f/gg|g>fe|cde|cc2::ged|c>dc|cde|dd2|
+V:2
+c/d/ee|e>dc|GG2|EE2::GGG|Gc>d|edc|dG2|
+V:3
+z3|z3|z3|z3::EEG|G3|G2G|GG2|
+V:4
+z3|z3|z3|z3::CCG,|C3|C2C|G,G,2|
+V:5
+z3|z3|z3|z3::G,G,G,|G,3|G,2G,|G,G,2|
+V:6
+z3|z3|z3|z3::C,C,G,|C,3|C,2C,|G,G,2|
+%
+V:1
+ccG|c/d/e/f/g|cde|cc2|ccG|c/d/e/f/g|cde|cc2:|
+V:2
+GGG|Gcc|GG2|GG2|EEE|Gcc|GG2|EE2:|
+V:3
+EEE|G2E|EG2|EE2|z3|z3|z3|z3:|
+V:4
+CCC|C3|CG,2|CC2|z3|z3|z3|z3:|
+V:5
+G,G,G,|G,3|G,G,2|G,G,2|z3|z3|z3|z3:|
+V:6
+C,C,C,|C,3|C,G,2|C,C,2|z3|z3|z3|z3:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/133134
+S:http://abc.musicaviva.com/tunes/schmelzer-johann-heinrich/schmelzer-horse/schmelzer-horse-6m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schmelzer-johann-heinrich/schmelzer-horse/schmelzer-horse-6m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schmelzer-johann-heinrich/schmelzer-horse/schmelzer-horse-6m.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

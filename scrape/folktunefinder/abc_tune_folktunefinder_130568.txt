@@ -1,0 +1,36 @@
+X:27
+T:suite de polkas piques
+R:polka
+O:France
+A:
+Z:<anamnese@laposte.net>
+N:tagafolk.abc
+P:AABBCC AABBCC
+M:2/2
+L:1/8
+Q:1/4=140
+K:C
+%%MIDI program 21 %% accordon
+P:A
+e2g2 d/e/f/d/ ec | e2g2 d/e/ d c2 ::
+d/e/f/e/ d e/f/ g f e c | d/e/f/e/ d e/d/ c B c2 ::
+P:B
+gag2 f/g/f/e/ d2 | gag2 f/g/f/e/ d2 ::
+ecBc d/c/d/f/e c | ecBc d/e/d/B/ c2 ::
+P:C
+dec2 d/e/d/c/B G | fed>g ^f a/g/e2 |
+dec2 d/e/d/c/B G | fed>g ^f a/g/c2 |
+e/f/g/e/ c ee d/c/d2 | d/e/f/d/ B dc/B/c/e/g2 |
+e/f/g/e/ c ee d/c/d2 | d/e/f/d/ B dc/B/c/e/c2 |]
+S:https://www.folktunefinder.com/tunes/130568
+S:http://anamnese.online.fr/abc/tagafolk.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

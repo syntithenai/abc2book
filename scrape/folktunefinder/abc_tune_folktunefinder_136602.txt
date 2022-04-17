@@ -1,0 +1,32 @@
+X:3
+T:The Cow That Ate the Blanket
+C:Traditional
+N:Play 2 times
+N:The Paris Set, Figure 4, Tune 3 of 3
+S:Davy Muir
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+D:The Lonely Stranded Band
+R:Jig
+L:1/8
+M:6/8
+K:G
+B2 A BGD | GAG GBd | ege dBG | ABA ABc |
+B2 A BGD | GAG GBd | ege dBA | BGF G3 :||
+gfg efg  | eag fed | gfg edB | BAG ABc |
+B2 A BGD | GAG GBd | ege dBA | BGF G3 :||
+S:https://www.folktunefinder.com/tunes/136602
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

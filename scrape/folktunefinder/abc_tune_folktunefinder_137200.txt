@@ -1,0 +1,26 @@
+X:0635
+T:"Beauty in Tears"               0635
+C:Turlough O'Carolan
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+N:Not listed in O'Sullivan's Collection: http://www.sosyurmom.com/occ/tunes.html
+Q:1/4=90
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+"^vb"A2|(d2f2a2)|(f2d2B2)|(efg fed)|(fed cBA)|d2(fd ec)|d2B2G2|A2B2c2|d4:|
+d2|(d2f2a2)|(d'2a2f2)|(ede fga)|(b2g2e2)|(dcd efg)|a2(gfed)|(e2a2^g2)|(a4f2)|
+(f2d2B2)|(B2c2d2)|(efg fed)|(fed cBA)|d2(fd ec)|d2B2G2|A2B2c2|d4|]
+S:https://www.folktunefinder.com/tunes/137200
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/635-BeautyInTears.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X:1
+T:Avant-deux de la Mzire
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+Q:6/8=180
+M:6/8
+L:1/16
+K:G
+P:Figure 1
+K:G
+"G"D2E2F2 G4 B2 | "D"A4 d2 "G"d6 | "D"c2B2A2 "G"B4 G2 | "D"A4 F2 "G"G6 :|
+|: G2F2G2 "Am"E6 | E2F2E2 "G"D6 |\
+D2E2F2 G2F2G2 |1 "D"A2G2A2 "G"B6 :|2 "D"A2G2F2 "G"G6 |]
+P:Figure 2
+D2E2F2 G4 B2 | "D"A4 d2 "G"d6 | "D"e2d2c2 "G"B4 G2 |"D"A4 F2 "G"G2F2E2 |
+D2E2F2 G4 B2 | "D"A4 d2 "G"d6 |\
+"D"e2d2c2 "G"B4 G2 | "D"A4 F2 "G"G6 | G2G2G2 "Am"c6 |\
+c2d2c2 "G"B6 | B2c2B2 "D"A2A2A2 |1 A2G2A2 "G"B4 G2 :|2 "D"A2G2F2 G6 |]
+P:Figure 3
+"G"D2E2F2 G4 G2 | B4 B2 d6 | "D"e2d2c2 "G"B4 B2 |1 "D"A4 A2 "G"B4 G2 :|2
+"D"A4 A2 "G"G6 |: G2G2G2 "Am"c6 |\
+c2d2e2 "G"d6 | B2c2d2 "D"c2A2A2 |1 
+A2B2c2 "G"B4 G2 :|2 "D"A2B2c2 "G"B6 |]
+P:Figure 4
+D2E2F2 G4 G2 | B4 B2 d6 | "D"e2d2c2 "G"B4 B2 |1 "D"A4 A2 "G"B4 G2 :|2\
+"D"A4 A2 "G"G6 |
+|: G2G2G2 "Am"c6 | c2B2A2 "G"B6 |\
+B2A2G2 "D"A4 (3AAA |1 A2G2A2 "G"B4 G2 :|2 "D"A2G2A2 "G"G6 |]
+S:https://www.folktunefinder.com/tunes/130435
+S:http://termen.free.fr/danses/termen/AvantdeuxdelaMeziere.abc
+% Rhythm Avantdeux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:164
+T: Der grausame Bruder
+N: Q0068I
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg, Neumark, Fuerstenfelde
+R: Ballade, Schwangerschaft, Moral, Mord
+M: 3/4
+L: 1/8
+K: G
+D2 | G4A2 | B4d2 | B3GB2 | A2D2
+B2 | G2F2G2 | E2F2G2 | A3GF2 | E2z2
+FE | D3^CD2 | B,3CD2 | E3DC2 | B,2z2
+S:https://www.folktunefinder.com/tunes/132266
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, schwangerschaft, moral, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

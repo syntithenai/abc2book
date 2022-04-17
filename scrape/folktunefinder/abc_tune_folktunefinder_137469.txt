@@ -1,0 +1,26 @@
+X:170
+T:The Garden of Daisies
+M:4/4
+L:1/8
+Q:120     %Tempo
+C:Traditional
+K:D
+fg |:a2 af gbag |fdfa gfec |dcde fdec |
+dedc AGFG |AB (3cBA dcAG |FDFG AB (3cBA |dcdf edce |1
+d2 dc defg :|2d2 dc d2A2 ||dcde fefg |a2 af defg |
+a2 af gbag |fefe defg |a2 af gbag |fdfa gfef |
+dcde fdec |dedc A2 fg |a2 af gbag |fdfa gfef |
+dcde fdec |dedc AGFG |AB (3cBA dcAG |FDFG AB (3cBA |
+dcdf edce |d2 dc d2 z2 ||
+%  ABC2Win Version 2.1 26/06/2002
+S:https://www.folktunefinder.com/tunes/137469
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mick_clancey.abc
+S:http://www2.redhawk.org:8080/irish/other/mick_clancey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

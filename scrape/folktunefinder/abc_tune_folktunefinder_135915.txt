@@ -1,0 +1,31 @@
+X:16
+T:Mike MacDougall's
+T:Traditional Jig
+R:jig
+O:20st century Cape Breton
+S:Silver Apple News, 2004
+D:Wendy MacIsaac, Timeline
+H:I played this tune for Johnny Wilmot in about 1980. Since Johnny didn't know it, he assumed it was a new tune I had written. I had heard it from Mike MafcDouglal hence the title. Now a popular tune, Wendy recorded it as Traditional Jig. Mike died in 1982 and the composer remains anonymous.
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+L:1/8
+M:6/8
+K:G
+E|DB,D GAB|BAB edB|BdB GAB|c2 B AGE|
+DB,D GAB|BAB def|gag edB|[1AGF G2:|[2AGF GBd||
+|:g2 g dBd|gab agf|g2 edBd|gab a2 b|
+age dBd|g2 g aga|bag edB|[1AGF GBd:|[2AGF G2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/135915
+S:http://cranfordpub.com/tunes/abcs/silver_apple9.abc
+S:http://www.cranfordpub.com/tunes/abcs/silver_apple9.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

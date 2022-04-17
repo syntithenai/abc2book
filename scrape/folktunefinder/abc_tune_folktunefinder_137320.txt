@@ -1,0 +1,19 @@
+X: 7
+T:The Hundred Pipers
+R: 32-bar single jig
+M:6/8
+K:G %Transposed from A
+G/2A/2|"G"B2D DED|"C"E2G G2e|"G"d2B BAG|"Am"B2A "D7"AGA|
+"G"B2D DED|"C"E2G G2e|"G"d2B "D7"AGA|"G"G3 -G2::
+B/2c/2|:"G"d2d dBd|"C"e2g g2e|"G"d2B BAG|"Am"B2A "D7"ABc|
+"G"d2d def|"C"g2g gfe|"G"d2B "D"AGA|"G"G3 -G2:|
+S:https://www.folktunefinder.com/tunes/137320
+S:http://homepage.ntlworld.com/greenery/Minimal%20Ceilidh%20Tune%20Book/allTunesInabc.html
+% Rhythm 32-bar single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:177
+T: Bai Raedder
+N: Q3071A
+O: Nordeuropa, Daenemark
+N: Melodievergleich zu Q0071, anderes Lied "Ribold og Guldborg" .
+N: Zweite und vierte Zeile: Refrain.
+R: Ballade, 
+M: none
+L: 1/8
+K: D
+A, | D2DD | A2AA | _B2AG | G2
+=F2G | A2A2z3
+A | _B2AG | A2EE | =F2ED | C2
+DE | =F2ED | =FEDC | D2D2
+S:https://www.folktunefinder.com/tunes/132279
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

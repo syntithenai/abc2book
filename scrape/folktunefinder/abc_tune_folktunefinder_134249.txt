@@ -1,0 +1,30 @@
+X: 227
+T: Skippin' Cat
+C: R-122
+C: Jack Link \2511986
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: G
+B,C| "G"DCB,C DCB,C| DGBG "C"c2 Bc| "G"dedc BAG=F| "C"EC3 C2B,C|
+     "G"DCB,C DCB,C| DGBG "C"cdef| "D"gage dBAc |1 "G"BG3 G2 :|2 "G"BG3 G4|]
+|:\
+"D"A3c "G"B2d2| "D"ABcA "G"BG3| "D"A3c Bdef| gedc "G"BG3|
+"D"A3c "G"B2d2| "D"ABcA "G"Bdef| "D"gage dBAc |1 "G"BG3 G4 :|2 "G"BG3 G2|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/134249
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_157.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_157.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Reels_105_161.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Reels_105_161.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:9
+T:Gavottes
+R:Gavotte ton double
+%C:Trad.
+O:France
+A:Bretagne
+Z:<anamnese@laposte.net>
+M:4/4
+L:1/8
+Q:1/4=150
+K:G
+P:[1]
+GB cB G2 FG | AB c/B/A GBA2 | AB cB G2 FG | AB c/B/A G2G2 :|
+|: Bc de dB d2 | d/c/B AB GB A2 | Bc de dB d2 | d/c/B AB G2 G2 :|
+P:[2]
+GF GA Bc d2 | d/c/B AB G2 G2 :||: Gd cd ed cB | AB c/B/A Bc dB |
+GB AB cB d2 | d/c/B AB G2 G2 :|
+S:https://www.folktunefinder.com/tunes/130552
+S:http://anamnese.online.fr/abc/tagafolk.abc
+S:http://anamnese.online.fr/site2/abc/tagafolk_ps.abc
+% Rhythm Gavotte ton double
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

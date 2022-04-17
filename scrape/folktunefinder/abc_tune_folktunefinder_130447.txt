@@ -1,0 +1,29 @@
+X:10
+T:RIDEE 6 TEMPS N 4
+Z: Yves BELOTTEAU
+M:4/4
+L:1/4
+Q:1/4=150
+K:G 
+|d3/2 z/2 Bd cBA/2B/2c|d3/2 z/2 Bd cBA/2B/2c|d3/2 z/2 Bd cBA/2B/2c|d3/2 
+z/2 Bd cBAB|
+G3/2 z/2 AB c/2B/2AB3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |G/2G/2GAB c
+/2B/2AB3/2 z/2 |d/2d/2dcB A/2G/2FG3/2 z/2 |
+G3/2 z/2 AB c/2B/2AB3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |G/2G/2GAB c
+/2B/2AB3/2 z/2 |d/2d/2dcB A/2G/2FG3/2 z/2 |
+G3/2 z/2 F3/2 z/2 E3/2 z/2 D3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |G3/
+2 z/2 F3/2 z/2 E3/2 z/2 D3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |
+G3/2 z/2 AB c/2B/2AB3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |G/2G/2GAB c
+/2B/2AB3/2 z/2 |d/2d/2dcB A/2G/2FG3/2 z/2 |
+G3/2 z/2 AB c/2B/2AB3/2 z/2 |G/2G/2GF/2G/2F E/2F/2ED3/2 z/2 |G/2G/2GAB c
+/2B/2AB3/2 z/2 |d/2d/2dcB A/2G/2FG3/2|
+S:https://www.folktunefinder.com/tunes/130447
+S:http://www.tradfrance.com/matf15.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

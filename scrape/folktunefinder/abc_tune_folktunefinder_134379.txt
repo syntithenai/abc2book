@@ -1,0 +1,26 @@
+X:7
+T:Ton double plin
+%T:TD3
+G:Kazimodal
+R:Das Plin
+C:Traditionnel
+Q:C2=160
+P:G4
+M:4/4
+S:Penno Skoulm
+K:Am
+P:G
+\large
+"Am"EA/2A/2 AG AB "G"A2 | BB "F"ee dc "Em"B2 :|
+"G"B>c dc "Em"BG E2 | "F"AA GA "G"Bc "Em"B2 |\
+"G"B>c dc "Em"BG E2 | "F"AA "G"Gc/2c/2 c"Em"B "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/134379
+S:http://kazimodal.trad.org/partitions/plinn/LE_plin/LE_plin.abc
+% Rhythm Das plin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

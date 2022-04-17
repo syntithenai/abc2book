@@ -1,0 +1,30 @@
+X: 36
+T:Callipyge
+R:Valse
+C:Elsener
+O:France
+S:80 airs  danser du centre France - La Chavanne - 1991
+S:76
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:1/4=200
+K:C
+e2c | ABc | dcB | GAB | cBc | d^cd |1 e_e=e | d2c :|2 e_ed | c3 ::
+G2B | Afe | dg>f | e2c | G2B | Afe | dcB |1 c3 :|2 c2d |:
+e/2c/2 A/2c/2 A/2c/2 | e/2c/2 A/2c/2 A/2c/2 | f/2d/2 B/2G/2 B/2d/2 |1 f/2d/2 B/2G/2 B/2d/2 :|2 c3 :|
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+S:https://www.folktunefinder.com/tunes/132100
+S:http://michel.bellon.free.fr/Musique/abc/80.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

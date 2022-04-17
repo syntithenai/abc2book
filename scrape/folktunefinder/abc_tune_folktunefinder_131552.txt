@@ -1,0 +1,26 @@
+X:26
+T:Shave the Donkey
+M:4/4
+S:Bacon (RD)
+A:Bampton
+O:English
+R:Reel
+P:A(AB3)3A
+K:G
+P:A
+d2 B2 dcBA | G2 g2 e2 g2 | d2 B2 dcBA | G2 B2 G4 :|
+P:B
+A3 c B2 d2 | A3 c  B2 d2 | A3 B c2 e2 | [1 dcBA B2 G2 :| [2 dcBA G4 |]
+S:https://www.folktunefinder.com/tunes/131552
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

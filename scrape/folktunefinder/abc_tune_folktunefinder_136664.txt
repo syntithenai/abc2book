@@ -1,0 +1,23 @@
+X:3
+T:Illa Tidandi
+C:Varg V.
+N:(transcription non termine)
+D:Balders dd
+O:Norge
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:4/4
+L:1/4
+Q:1/4=80
+K:D
+%%MIDI program 0
+%%MIDI channel 1
+|: Ffd2 | GgcB :|: FFB2 | GBcB :|
+S:https://www.folktunefinder.com/tunes/136664
+S:http://anamnese.online.fr/abc/metal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

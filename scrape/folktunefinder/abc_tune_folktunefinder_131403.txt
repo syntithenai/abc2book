@@ -1,0 +1,30 @@
+X:20
+T:P\aa Hjemturen (S\onderhoning)
+C:F.J. Aalto
+%O:Sweden
+R:S\onderhoning
+Z:Bob Wyttenbach from Buffalo Gap tunebook
+M:4/4
+L:1/4
+K:D
+P:A
+A,|:"D"DecB|A>GFA|"Em"GEB,E|"A7"D>CB,A,|"D"DdcB|
+A>GFA|"Em"GB"A7"EC|[1"D"D3A,:|[2"D"D3F|:"A7"EF/G/ A,/C/E/C/|
+"D"D>EFA|"Em"GA/B/ED|"A7"CD/E/CA,|"Bm"DB,/D/"Em"EF|
+GABe|[1"D"d2"A7"cB/c/|"D"d3F:|[2"D"d2"A7"ed/c/|"D"d3||
+P:B
+A,|:"D"DD/F/"A7"EE/G/|"D"FA"A7"G/F/E|"D"FG/A/ "A7"G/F/G/E/|"D"FD"A7"EA,|"D"DD/F/"A7"EE/G/|
+"D"FA"A7"G/F/E|"Em"G/F/G/E/"A7"DC|[1E2"D"DA,:|[2"D"D3c/d/|:"A"eAAB/c/|
+"D"d>efd|"Em"geed|"A"cB/c/AG|"D"FG/A/ "A7"E/F/G|
+"G"Bc/d/ "Em"e/f/ g/e/|"A"dc/d/ec|[1"D"d3c/d/:|[2"D"d4||
+S:https://www.folktunefinder.com/tunes/131403
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

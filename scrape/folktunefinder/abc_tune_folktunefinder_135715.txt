@@ -1,0 +1,31 @@
+X:20
+T: Fy, Let Us A' to the Bridal
+N: HA020
+O: Europa, Mitteleuropa, Deutschland
+N: Unsicherheit bei Bestimmung der Tonart, e-moll
+M: 9/8
+L: 1/16
+K: D
+A,2 | D3ED2D2d2B2A2F2
+D2 | E4D2E2F2A2B4
+d2 | D3ED2d2c2B2A2F2
+D2 | E3FG2F2E2D2B,4
+d2 | d2A2d2d3ed2c2B2
+A2 | B2A2F2d3ef2e4
+c2 | d3ef2e2f2d2c2B2
+A2 | B2d3BA2F2D2E4
+A,2 | D3ED2D2d2B2A2F2
+D2 | E4D2E2F2A2B4
+d2 | D3ED2d2c2B2A2F2
+D2 | E3FG2F2E2D2B,4
+S:https://www.folktunefinder.com/tunes/135715
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

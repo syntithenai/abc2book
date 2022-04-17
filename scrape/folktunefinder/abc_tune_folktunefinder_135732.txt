@@ -1,0 +1,27 @@
+X:37
+T: Nanny O 
+N: HA037
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge
+M: 4/4
+L: 1/16
+K: Gm
+B2c2 | d4G4d6c2 | B4A3GG4
+_F2G2 | B6c2d2c2d2_f2 | g4c3dc4
+B2c2 | d4f4e2d2c2B2 | c4d4b6
+a2 | g3bg2_f2d3cd2=f2 | g4G3AG4
+d3e | _f6g2f4e2d2 | b4_f3gf4
+b2a2 | g4g2a2b2a2b2c2 | d4g3ag4
+_f3e | d4b4_fd3c2B2 | c4d4b6
+a2 | g3bg2_f2d3cd2=f2 | g4G3AG4
+S:https://www.folktunefinder.com/tunes/135732
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

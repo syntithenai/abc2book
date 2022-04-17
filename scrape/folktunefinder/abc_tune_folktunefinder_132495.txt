@@ -1,0 +1,31 @@
+X: 27
+T:Nutting Girl, Fieldtown
+M:4/4
+L:1/8
+A:Fieldtown
+P:AAB(CB)
+K:G
+P:A
+DE|G2B2 B2d2|c2B2 A2GF|G2B2 d2g2|d2d2 d2cB|
+c2e2 A2Bc|B2d2 G2AB|c2A2 G2F2|G4   G2  ||
+P:B
+dd|e2g2 a2f2|g2d2 d2dd|e2g2 a2f2|g4   d2dd|
+e2g2 a2g2|f2e2 d2B2|A2B2 c2e2|d4   c2BA|
+G2B2 B2d2|c2B2 A2GF|G2B2 d2g2|d2d2 d2cB|
+c2e2 A2Bc|B2d2 G2AB|c2A2 G2F2|G4   G2  ||
+P:C
+DE|G4   B4  |B4   d4  |c4   B4  |A4   G2F2|\
+G4   B4  |d4   g4  |d4   d4  |d4   c3B |
+c2e2 A2Bc|B2d2 G2AB|c2A2 G2F2|G4   G2  ||
+S:https://www.folktunefinder.com/tunes/132495
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fieldtown.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Fieldtown.abc
+S:http://www.themorrisring.org/sites/default/files/music/Fieldtown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

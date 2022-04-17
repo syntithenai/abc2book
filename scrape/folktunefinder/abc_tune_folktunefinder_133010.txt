@@ -1,0 +1,26 @@
+X: 3
+T: Varvindar Friska
+I: Varvindar FriskaM-2Amhambo
+C: M-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: Am
+"Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A>^G "E"E2|
+"Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A4:|
+\
+|: "C"e2 e>f g>e| "G"d2 d>c B2| "Am"c2 c>d e>c| "E"B2 B>^G E2|
+   "Am"A2 A>B A>B| c2 c>d c>d| "E"e2 e>d B>c| "Am"A2 A4:|
+%%text 9/1/98.  From Matt Fichtenbaum 1980
+S:https://www.folktunefinder.com/tunes/133010
+S:http://roaringjelly.org/music/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Misc.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Misc.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

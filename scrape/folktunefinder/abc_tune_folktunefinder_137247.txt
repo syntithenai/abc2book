@@ -1,0 +1,23 @@
+X:1
+T:Beaux of London City
+S:Bacon (News)
+A:Adderbury
+O:English
+R:Slip Jig
+P:A(AB3)3
+M:9/8
+K:G %Transposed from F
+P:A
+D | G>GG BAG B<d D | G2G B2A G2D | G>GG BAG B<d D | G>DG B2A G2 |]
+P:B
+z | d2c BAG Bd2 | A2A A2B c3 | d2c BAG B<d D | G>DG B2A G2 |]
+S:https://www.folktunefinder.com/tunes/137247
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:192
+T:B192-  The hobbyhorse
+S:(1st/2)
+Q:1/4=120
+L:1/4
+M:6/4
+K:D
+A|d3/2c/2BA3/2G/2F|G2GG3/2A/2B|A2AA2d|e2dc3/2B/2c|\
+d2DD2D|D3/2E/2DD3/2E/2D|(D3D2||A|d3/2e/2ff3/2e/2f|\
+g2gg2a|f2ff3/2g/2a|e2ee2A|d3/2e/2fa3/2g/2f|\
+g2gf3|e2dc3/2B/2c|d2DD2D|D2DD2D|(D3D2)|]
+S:https://www.folktunefinder.com/tunes/130958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM1.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM1.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM1.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM1.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM1.ABC
+S:http://www.mudcat.org/olson/BM1.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM1.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

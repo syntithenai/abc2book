@@ -1,0 +1,39 @@
+X:533
+T:B533-  Wully and Georgy
+S:Ackroyd tune, c 1700.
+Q:1/4=120
+L:1/4
+M:3/4
+K:B phrygian
+G(G/4A/4)B/ A/G/|(c/4A3/4) (A/4B/4)c/ B/A/|B3/4A/4 G/A/ B/c/|\
+(d3/2e/D|G(G/4A/4)B/ (d/4B/4)(A/4G/4)|Ac/d/ e3/4f/4|\
+g/e/ (d/4e/4)(d/4B/4) (A/4B/4)(A/4G/4)|\
+(G3/2A/)B||c3/4d/4 e/d/ g/d/|B3/4c/4 e/B/ e/d/|\
+B3/4A/4 B/c/ d/G/|FAA3/4D/4|D3/2E/ D/B,/|G3/2E/ D/B,/|\
+d3/2B/ A/G/|G3/2A/B|]
+S:https://www.folktunefinder.com/tunes/131333
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM5.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM5.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM5.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM5.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM5.ABC
+S:http://www.mudcat.org/olson/BM5.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM5.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

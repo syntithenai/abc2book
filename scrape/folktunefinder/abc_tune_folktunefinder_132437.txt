@@ -1,0 +1,25 @@
+X: 16
+T:Flowers of Edinburgh, Bledington
+M:2/2
+L:1/8
+A:Bledington
+P:A(AB)4
+K:G
+P:A
+|:D2|G2G2 B2B2| d2ef g2e2|dcBA GFGA|1B2G2 E2:|2B2G2 G2||
+P:B
+zf|g2g2 gbag|f2f2 fagf|e2ef gfed| B2e2 e4 |
+dcBc d2d2|{f}edef g2e2|dcBA GFGA| B2G2 G2||
+S:https://www.folktunefinder.com/tunes/132437
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

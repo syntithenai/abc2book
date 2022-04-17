@@ -1,0 +1,36 @@
+X:245
+T:B245-  Jig a Jog-Goo
+Q:1/4=120
+L:1/8
+M:6/8
+K:Dphrygian
+B|A3/2B/2c F3/2G/2A|B,BF D2B|A3/2B/2c F3/2G/2A|\
+BB,F D2B|A3/2B/2c F3/2G/2A|B3/2c/2d/2e/2 f3/2e/2d|\
+cdB A3/2G/2A|B,BF D2|]
+S:https://www.folktunefinder.com/tunes/131020
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM2.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM2.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM2.ABC
+S:http://www.mudcat.org/olson/BM2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

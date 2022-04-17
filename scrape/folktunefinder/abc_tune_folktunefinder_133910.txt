@@ -1,0 +1,25 @@
+X: 1
+T: Ballroom, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+DF (3ABc d2Ac|df~f2 ecAc|dcBA {c}BAGF|{A}GDEF {A}GFEF|
+DF (3ABc d2Ac|df^ef =ecAc|dcBA {c}BAGF|GABc dAFA|
+DF (3ABc d2Ac|df~f2 ecAc|dcBA {c}BAGF|{c}BA{c}AG {A}GF{A}FE|
+DF (3ABc d2Ac|df^ef =ecAc|dcBA {c}BAGF|GABc d3A||
+defg {b}afdf|~g2fg ecAc|defg {b}afdf|{a}ge{b}ag {a}fddc|
+defg a2fd|gafd ecAc|dcBA {c}BAGF|GABc d3A|
+defg {b}afdf|~g2fg ecAc|defg a2{b}af|(3gab ag {a}fdce|
+defg ~a3f|g2{a}fd ecAc|dcBA {c}BAGF|GABc d2AF||
+S:https://www.folktunefinder.com/tunes/133910
+S:http://www.thesession.org/tunes/display/6901
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

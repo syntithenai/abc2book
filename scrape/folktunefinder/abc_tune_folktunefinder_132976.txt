@@ -1,0 +1,24 @@
+X: 4
+T:Hanter Dro klamm #2
+M:3/2
+L:1/8
+S:Bleizi Ruz
+R:Hanter Dro klamm
+A:Bretagne
+K:Am
+ ABcA B2 e2 dcBc |ABcA B2 e2 dcBc |BAGA B2 e2 dc B2  :|: eged c2 BA d4
+ |M:2/2 BcBA G2 AB|c2 z2 z4   |
+M:3/2 L:1/8 eged c2 BA B4   |eggd e2 cB A4   :|
+S:https://www.folktunefinder.com/tunes/132976
+S:http://www.unet.univie.ac.at/~a8702257/abc/breton.abc
+% Rhythm Hanter dro klamm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

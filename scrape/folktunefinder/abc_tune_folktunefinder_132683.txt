@@ -1,0 +1,32 @@
+X: 18
+T:S.......... JBa.17
+M:4/4
+L:1/4
+Q:90
+S:Joseph Barnes MS,Carlisle,1762.
+R:reel
+O:England
+A:Carlisle
+N:photocopy very faint.
+Z:vmp.C.Graebe.
+K:C major
+"No key/time sig"e d/c/ c/G/ c/G/ |\
+"Bars 2, 3, 4 edited - see below"d/c/ e f/g/a |\
+ e d/c/ c/G/  c/G/ | A/B/ G/E/ D D |!
+ c/4c/4c/ g/a/ g/e/ g/a/ |\
+ c/4c/4c/ g/a/ g/e/  c/e/ | c/4c/4c/ g/a/ g/e/  c/e/ |\
+ f/4g3/4f3/4e/4 d/4d/4d/d/ :||!
+zzzzzzzzzz|!
+ "bars 2,3, 4 as in MS"d/c/ e f/4g/4a/ | e d/c/ c/G/  c/G/ A/4B/4|\
+G/E/ D D |]
+S:https://www.folktunefinder.com/tunes/132683
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

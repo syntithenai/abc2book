@@ -1,0 +1,30 @@
+X:1
+T:Bal de Sarzeau
+C:Bal traditionnel Vannetais, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+K:C
+M:3/8
+|: [G2G,,2][BG,] | [d2G,,2][dG,] | [cC,,]d[cC,] | [B2D,,2][AD,] | [G2G,,2][BG,] | \
+ [d2C,,2][dC,] | [cD,,]d[cD,] | [B2G,,2]G, :| [BG,,]c[AG,] | [B2G,,2][BG,] | [BD,,]c[AD,] | \
+ [B2G,,2]G, | [G2G,,2][BG,] | [d2C,,2][dC,] | [cD,,]d[cD,] | [B2G,,2][BG,] | [BG,,]c[AG,] | \
+ [B2G,,2][BG,] | [BD,,]c[AD,] | [B2G,,2]G, | [G2G,,2][BG,] | [d2C,,2][dC,] | [cD,,]B[AD,] | \
+ [G2G,,2]G, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/132763
+S:http://diato.ifrance.com/diato/tablat/175.abc
+S:http://diato.ifrance.com/tablat/175.abc
+S:http://diato.org/tablat/175.abc
+S:http://perso.orange.fr/diato/tablat/175.abc
+S:http://perso.wanadoo.fr/diato/tablat/175.abc
+S:http://pro.wanadoo.fr/diato/tablat/175.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/175.abc
+S:http://www.diatonique.net/tablat/175.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

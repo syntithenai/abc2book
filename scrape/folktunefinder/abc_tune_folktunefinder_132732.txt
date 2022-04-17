@@ -1,0 +1,33 @@
+X: 67
+T:Brandy Bottle. JBa.66
+M:4/4
+L:1/4
+Q:60
+S:Joseph Barnes MS,Carlisle,1762.
+R:Air
+O:England
+A:Carlisle
+Z:vmp.C.Graebe.
+K:G major
+"No key or time signature"G(c/4B/4) (A/4G/4) (B/d/c/B/) |\
+G (c/4B/4A/4G/4) F/A/ F/D/ | G (c/4B/4A/4G/4) B/d/ (c/B/) |\
+c/A/ B/d/ F/A/ F/D/ :|!
+|:"1st" E/c/ (c/4B/4)(A/4G/4) E/c/ B |  E/c/ (c/4B/4)(A/4G/4) F/A/ F/D/ 
+|\
+ E/c/ (c/4B/4)(A/4G/4) E/c/  tr(c/B/) | c/A/ B/d/ F/A/ F/D/ :|!
+|:"2nd"(g/4f/4)(e/4f/4) g/G/ (B/d/ "tr"c/B/) |\
+  (g/4f/4)(e/4f/4) g/G/ F/A/ F/D/ |\
+(g/4f/4)(e/4f/4) g/G/ B/d/ ("tr" c/B/) | c/A/B/d/ F/A/ F/D/ :|!
+|:"3rd"(E/4F/4G/4E/4) C/E/ G/E/ c/G/ |  E/4F/4G/4E/4 C/E/ D/A/ F/D/|\
+(E/4F/4G/4E/4) C/E/ G/E/ c/G/ | F/A/ B/d/ F/A/ F/D/ :|]
+S:https://www.folktunefinder.com/tunes/132732
+S:http://www.village-music-project.org.uk/abc/barnes_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

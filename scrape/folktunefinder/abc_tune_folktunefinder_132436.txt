@@ -1,0 +1,28 @@
+X: 15
+T:Over the Water to Charlie, Bledington 2
+M:6/8
+L:1/8
+A:Bledington
+P:A(AB)4
+K:A
+P:A
+|:Ace ece|fgf e2A|B2B cBA|F2G A3:|
+P:B
+|:gaB gfe|fgf e2e|fga gfe|\
+M:3/8
+L:1/8
+f2g|
+M:6/8
+aba gfe|fgf e2A|B2B cBc|F2G A3:|
+S:https://www.folktunefinder.com/tunes/132436
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bledington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

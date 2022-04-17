@@ -1,0 +1,22 @@
+X: 1
+T: The Ballysodare Hornpipe
+R: hornpipe
+M: 2/2
+L: 1/8
+Z: Contributed 20040607141752 by Robin Beech robin.beech@mcgill.ca
+K: D
+F3/2G/ |:(3:2:1A(3:2:1A(3:2:1A A3/2B/ A3/2G/F3/2A/ |d3/2e/f3/2d/ A3/2G/F3/2A/ |(3:2:1A(3:2:1A(3:2:1A A3/2B/ A3/2F/D3/2F/ |E3/2F/G3/2F/ E2 F3/2G/ |(3:2:1A(3:2:1A(3:2:1A A3/2B/ A3/2G/F3/2A/ |d3/2e/f3/2d/ A3/2G/F3/2f/ |
+e3/2d/e3/2f/ g3/2e/c3/2e/ |1e3/2d/d3/2c/ d2 F3/2G/ :|2e3/2d/d3/2c/ d2 f2 ::e2 e3/2f/ g3/2e/c3/2e/ |d3/2c/d3/2e/ f3/2d/B3/2f/ |g3/2e/f3/2d/ e3/2d/c3/2d/ |e3/2d/c3/2B/ A3/2G/F3/2G/ |(3:2:1A(3:2:1A(3:2:1A A3/2B/ A3/2G/F3/2A/ |
+d3/2e/f3/2d/ A3/2G/F3/2f/ |e3/2d/e3/2f/ g3/2e/c3/2e/ |1e3/2d/d3/2c/ d2 f2 :|2e3/2d/d3/2c/ d4 :|
+S:https://www.folktunefinder.com/tunes/134352
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/BallysodareHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BallysodareHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

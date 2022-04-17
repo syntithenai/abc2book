@@ -1,0 +1,40 @@
+X:230
+T:B230-  If love's a sweet passion
+S:by H. Purcell
+Q:1/4=120
+L:1/4
+M:3/4
+K:Gm
+d|c3/2d/2B|cAd|B3/2A/2 (B/2G/2)|G2e/2d/2|
+cc(c/4d/4e/2)|dBd|(de/2)d/2c|d2||d/2c/2|\
+=Bcd|ecf|GAB|A2d|edg|(g/2f/2) (g/2f/2) (e/2d/2)|\
+(e/2d/2) (c/2d/2) (c/2B/2)|B2d/2e/2|\
+cc(c/4d/4e/2)|ed*d/4=e/4f/2)|f=e(e/4^f/4g/2)|\
+^f3/2e/2d|g(d/2e/2)f|dB\/c/2d|B3/2A/2G|G2|]
+S:https://www.folktunefinder.com/tunes/131005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM2.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM2.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM2.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM2.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM2.ABC
+S:http://www.mudcat.org/olson/BM2.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM2.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

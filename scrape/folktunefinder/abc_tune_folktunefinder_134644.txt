@@ -1,0 +1,30 @@
+X:45
+T:Michael Wiggins in Ireland
+B:Preston's Twenty four COUNTRY DANCES for the Year 1801
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:1st Lady & 2d Gent: lead down the middle, up again. The 2d. Lady & 1st Gent: do the same, right & left at top.
+%%Page:5
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001180.html
+%%ID:00001180
+K:D
+A | \
+dfe dcB | ABA AFA | DFA dfa | baf e2A | \
+dfe dcB | ABA AFA | DFA dfa | gfe d2 ||
+f | \
+afd dfa | b2a g2f | gab afd | cee efg | \
+afd dfa | b2a g2f | gba gfe | fdd d2 ||
+g | \
+fdf ece | dBd {B}AFD | EFE EFA | agf e2g | \
+fdf ece | dBd {B}AFD | DFA Bgf | edc d2 |]
+S:https://www.folktunefinder.com/tunes/134644
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Prestons/Prestons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

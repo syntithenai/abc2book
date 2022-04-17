@@ -1,0 +1,30 @@
+X:10
+T:Ladies' Pleasure
+A:Field Town
+O:English
+S:Bacon (RKS (Jour.))
+R:jig
+M:6/8
+L:1/8
+Q:3/8=104
+P:AA2B(C2B)2
+K:G
+P:A
+g | gfe edc | BcA G2D | (2G/A/B/c/ (2d/e/d/c/ | B2A G2 |]
+P:B
+A | Bcd d2G | Bcd d2G | Bcd edc | BcA G2g |
+gfe edc | BcA G2D | (2G/A/B/c/ (2d/e/d/c/ | B2A G2 |]
+P:C
+g | (2gf e3 | (2ed c3 | (2Bc A3 | G3 D3 | (2G/A/B/c/ (2d/e/d/c/ | B2A G2 |]
+S:https://www.folktunefinder.com/tunes/132411
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

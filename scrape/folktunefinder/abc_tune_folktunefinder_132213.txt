@@ -1,0 +1,28 @@
+X:111
+T: Der junge Held
+N: Q2060B
+O: Mitteleuropa, Niederlande
+N: Melodievergleich zu Q0060, Tonangabe  Vom Hg. mit dem Balladentext
+N: unterlegt.
+R: geistlich, Choral
+M: 4/4
+L: 1/4
+K: A
+A | A=GAB | =c3
+c | d=cBA | =G3
+B | =cedc | B2A
+E | A=GA=F | E3
+A | =cBcd | B3
+e | Bd=cd | B2A
+S:https://www.folktunefinder.com/tunes/132213
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Geistlich, choral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

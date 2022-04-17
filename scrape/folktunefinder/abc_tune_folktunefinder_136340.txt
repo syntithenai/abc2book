@@ -1,0 +1,54 @@
+X:2
+T:Fantasia 25.
+T:Bassus.
+C:Orlando Lassusio.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C|
+L:1/4
+K:G mix -8va
+z8 z4 G3  G E2 F2 G2 A2 G2 E2 F4
+z2 c2  d2 c2 A B c d e2 A2 B c A2 G2 A2
+z E E F 
+%line 2
+E C c ""A  > G A D A/ G/ A/ B/ ""c2 B/ A/ ""G ""D F G A E F E E2
+z A ^G A A2
+z c c/ B/ A/ G/ A > G
+%line 3
+E F2 D2 E > E F > G G  > A ""A2 ""F2 G E F D E C c > B A/ G/ F/ E/ D A > G G F E > D E2
+%%LY voices \bar "empty" \break
+M:3/2
+L:1/2
+D4 z2 F2 A2 B2 c B A G c2 A4
+z2 A2 _B2 A2 F c2 A c B A G A E F2 C2 c2 B2 A3 G2 F E2 D d2 c B2 A3 c
+%line 5
+B2 c2 A2 D B2 G2 A2 F2 D d B c2 A2 E F D2 A G F2
+M:C|
+L:1/4
+E2 z c c2 B c A G c B E d A B c G A G
+%line 6
+F E D C G A G2
+z G E E C c A A ""F2
+z G E E C c > A A F2 G > E E C F D G E c A _B G
+%line 7
+A F G E F D/ E/ F/ G/ A/ B/ c C/ D/ E/ F/ G/ A/ B/ c/ d2 G D > E F2 C "(1)"c 
+N:(1) The line is pretty illegible here, with a smudge on roughly d.  Transcribing without regard to the length of the other part would yield a C half note, c quarter or half, and this is already a quarter or half too long even without transcribing the smudge. So I made both the C and the c quarter notes and left out the d.
+B/ A/ G/ A/ G/ F/ E F2 c3 B A4 G16 |]
+S:https://www.folktunefinder.com/tunes/136340
+S:http://www.laymusic.org/music/bicinia/25/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 4
+T:Miss Marianne's Strathspey
+M:4/4
+L:1/8
+Q:120
+R:Strathspey
+K:A
+e>d|"A"c<.e A>ce>f g2|"D"f<.a d>f "A"e2 e>d|
+c<.e A>c e>f g>e|"G"d<.B G>B d2 e>d|
+"A"c<.e A>ce>f g2|"D"f<.a d>f "A"e2 e>d|
+c<.e A>c "G"B<.d G>B|"A"A4-A2::
+(3efg|"A"a>g a>f e<.c a>e|"D"f<.a d>f "A"e2 (3efg|
+a>g a>f e<.c a>e|"G"d<.B G>B d2 (3efg|
+"A"a>g a>f e<.c a>e|"D"f<.a d>f "A"e2 e>d|
+c<.e A>c "G"B<.d G>B|"A"A4-A2:|
+S:https://www.folktunefinder.com/tunes/136555
+S:http://crash.ihug.co.nz/~dexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/~dexy/music/celtic.abc
+S:http://crash.ihug.co.nz/%7Edexy/music/celtic.abc
+S:http://homepages.ihug.co.nz/%7Edexy/music/celtic.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

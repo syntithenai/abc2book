@@ -1,0 +1,26 @@
+X:15
+T:Kanava
+T:Barinya
+A:village of Zyatkivtsyakh, Vinnyts'kiy, Ukraine
+H:H. Tantsyur
+L:1/8
+M:2/4
+N:According to Humenyuk, the dance Kanava was originaly
+N:Tantsyura under the incorrect name, Barinya
+O:Ethnic Russian
+Q:120
+Z:Orest Lechnowsky 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000063f.html
+%%ID:0000063f
+K:A dorian
+agff | g/2f/2e dd | agff | g/2f/2e dd :: \
+ccBB | AAdd | ccBB | AA d2 :|
+S:https://www.folktunefinder.com/tunes/130687
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Humenyuk/Humenyuk.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

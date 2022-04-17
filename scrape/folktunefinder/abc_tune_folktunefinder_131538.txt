@@ -1,0 +1,28 @@
+X:12
+T:The Fool's Jig
+S:Bacon (MDT)
+A:Bampton
+O:English
+R:Reel
+P:A(AB)4A
+Q:1/2=108
+M:2/2
+K:G
+P:A
+BA | GFGD B,2 G2 | AGFE D2 c2 | BcdB G2 G2 | AGFE DcBA |
+GFGD B,2 G2 | AGFE D2 c2 | BcdB ecAF | G2 G2 G2 |]
+P:B
+B2 | cedB G2 d2 | gage c2 Bc | dedB G2 G2 | AGFE DcBA |
+GFGE D2 G2 | AGFE D2 c2 | BcdB ecAF | G2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/131538
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

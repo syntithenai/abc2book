@@ -1,0 +1,28 @@
+X:11
+T:Marthaspols (R\orospols)
+C:efter Annar Gjelten
+%O:Norway
+R:R\orospols
+Z:Bob Wyttenbach 8/13/02 from NFF 2001 tunebook
+N:Printed by Karen Myers
+M:3/4
+L:1/8
+%Q:1/4=120
+K:D
+P:A
+vA2(3:2:2(F2D) D>>B|TB2(3:2:2(G2E) E>>E|e2(3:2:2(Tc2A) A>>A|f2(3:2:2(d2B) ({^G}[A)A]>>A|
+A2(3:2:2(F2D) D>>B|TB2(3:2:2(G2E) E>>E|e2(3:2:2(Tc2A) B>>d|[1(3(cBc){c}ud2-d>>uA:|[2(3(cBc){c}ud4||
+P:B
+(3:2:2(d2c) (3:2:2(d2e) f>>g|(3:2:2(Tf2e) (3:2:2(e2c) A>>d|(3:2:2(d2c) (3:2:2(d2e) f>>g|(3:2:2(Tf2d) {d}[e4e4]|
+(3:2:2(d2c) (3:2:2(d2e) f>>g|(3:2:2(Tf2e) (3:2:2(e2c) A>>d|(3:2:2(d2c) (3:2:2(d2e) f>>f|(e/c/e/c/){c}d4:|
+S:https://www.folktunefinder.com/tunes/131394
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

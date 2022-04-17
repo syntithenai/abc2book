@@ -1,0 +1,25 @@
+X: 1
+T: Batsman Deck
+I: Batsman DeckM-2Ghambo
+C: M-2
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: hambo
+K: G
+"G"D>G B>G D>G| B2 B4| c>B A>G F>G| "D"A2 A4|
+"D"D>F A>F D>A| c2 c4| d>c B>A G>A| "G"B2 B4:|
+\
+|: "C"e2 e>d c>e| "G"d2 d>c B>d| "D"c>B A>G F>A| "G"G2 (3BGB d2|
+   "C"e2 e>d c>e| "G"d2 d>c B>d| "D"c>B A>G F>A| "G"G2 G4:|
+%%text 9/1/98.  From Matt Fichtenbaum 1980
+S:https://www.folktunefinder.com/tunes/136541
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/hambo/M002_Batsman_Deck.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/hambo/M002_Batsman_Deck.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

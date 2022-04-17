@@ -1,0 +1,23 @@
+X: 3
+T:Old Black Joe, Badby 1
+M:6/8
+L:1/8
+A:Badby
+P:A(A2B2)4A2
+K:Bb
+P:A
+F|F2B BAB|c2d edc|fdB FBe|dec B2 ||
+P:B
+A|BAB c2f|c2f cAF|BAB d2c|BAG F2E|
+DFF B2B|c2d edc|fdB FBe|dec B2 ||
+S:https://www.folktunefinder.com/tunes/137282
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

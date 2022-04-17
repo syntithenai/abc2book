@@ -1,0 +1,23 @@
+X:8
+T:The Bank of Ireland
+R:reel
+M:4/4
+L:1/8
+K:Dmix
+AB |: c2AB cBAG | EGDG EGAB | c2AB cBAG | Add^c d2AB |
+c2AB cBAG | EGDG EGAB | c2AB cBAG |1 Add^c d2AB :|2 Add^c d3e |:
+K:Dmaj
+f3d e3c | dfed cAA2 | f3d e2fg | afge d3d | 
+eaag efge | dfed cAA2 | Add^c defg |1 afge d3e :|2 afge d2 |]
+S:https://www.folktunefinder.com/tunes/134798
+S:http://music.gordfisch.net/oregans/assets/abc/new.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

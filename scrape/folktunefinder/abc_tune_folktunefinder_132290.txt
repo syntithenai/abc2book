@@ -1,0 +1,23 @@
+X:2
+T:U4 Schottisch
+R:Bairisch Polka
+C:Hermann Fritz
+A:Wien, U-Bahn
+P:2
+M:2/4
+L:1/16
+K:G
+GGG2 ddd2|g2g2e4|dddd d2c2|BBBB B2A2|\
+GGG2 ddd2|g2g2e4|dddd dcBA|G2G2G4:|
+AAAA B2A2|cccc d2c2|BAGF GccB|A2AG GFFG|\
+AAAA B2A2|cccc d2c2|BAGF GccB|A4 A4|
+S:https://www.folktunefinder.com/tunes/132290
+S:http://www.unet.univie.ac.at/~a7425519/tunes.abc
+S:http://www.unet.univie.ac.at/%7Ea7425519/tunes.abc
+% Rhythm Bairisch polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

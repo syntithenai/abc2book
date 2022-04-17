@@ -1,0 +1,19 @@
+X: 13
+T: ROND DE SAINT-VINCENT N 1
+M: 2/4
+L: 1/8
+Q:1/4=120
+K:C % 0 sharps
+|GGAB2G2A|AGAB2G2A|AGAB2G2A|AGAB2G2A|
+AGAB2G2A|AGAB2G2A|AGAB2G2A|AABB2d2A|
+AABc BA2G|GGAB2d2A|AABc BA2G|GGAB2d2A|
+AABc BA2G|GGAB2d2A|AABc BA2G|GGA|
+S:https://www.folktunefinder.com/tunes/130470
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/redon.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

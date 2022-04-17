@@ -1,0 +1,38 @@
+X: 33
+T:Jockey to the Fair, Longborough 2
+M:6/8
+L:1/8
+A:Longborough
+P:A(AB)(CB)2
+K:D
+P:A
+D|D2E  F2G|A2d A2G|FAF DCD |EGF E3 |
+A^GA Bcd|cec ABd|BAB EF^G|A3  A2 ||
+P:B
+A|d2A  d2A|GAG F2A|d2A d2A |GAG F3 |
+B2c  dcB|A2F FGA|BAG F2E |DFD C2C|
+D2D  DFA|B3  Adc|BAG F2E |DFD C2C|
+D2D  DFA|B3  Adc|DFd FGE |D3  D2 ||
+P:C
+M:3/8
+D3|\
+M:6/8
+D3   E3|F3   G3|A3   d3|A3  G3   |\
+(2FA F3|(2DC D3|(2EG F3|
+M:3/8
+E3  |\
+M:6/8
+A^GA Bcd|cec ABd|BAB EF^G|A3  A2 ||
+S:https://www.folktunefinder.com/tunes/135292
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Longborough.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Longborough.abc
+S:http://www.themorrisring.org/sites/default/files/music/Longborough.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:The Band Played Waltzing Mathilda
+M:6/8
+L:1/8
+K:D
+ F/2G/2| A2 A/2A/2 ddB| A A3/2 B/2 F2 F/2G/2| A3/2 F/2 F GFE| E D2 z2 F/2G/2|\
+ AAA dd c/2B/2| AAB F2 F/2G/2| AFF GFE| E D2- D z d/2d/2| ccBA-B c|\
+ dde d2 d| cBA ABc| ddB A2 F/2G/2| AAA dd c/2B/2| AAB F3| z2 z2 zF/2-G/2|\
+ AAF GFE| D3- D2 F/2G/2| A2 Ad d3/2 B/2| B A2 z2 F/2G/2| A A3/2 d/2 ddB|\
+ A3 z2 A| BBB B2 B/2B/2| AAA B2 B| AAF G2 F/2E/2| D6| z3 z2||
+S:https://www.folktunefinder.com/tunes/134634
+S:http://back.numachi.com:8000/dtrad/abc/BANDPLAY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BANDPLAY.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/ATBPWM1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/ATBPWM2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/ATBPWM1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/ATBPWM2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/ATBPWM1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/ATBPWM2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

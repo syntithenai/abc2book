@@ -1,0 +1,22 @@
+X: 1
+T: Fly, The
+M: 6/8
+L: 1/8
+R: jig
+K: D
+DFA dcd|BAF ~d2f|gfe age|dcA GFE|
+DFA dcd|BAF ~d2f|gfe age|cBA d3:|
+fgf eAA|def eaa|gfe fed|efd cBA|
+fgf eAA|def eaa|gfe fed|cBA d3:|
+S:https://www.folktunefinder.com/tunes/137383
+S:http://www.mckenna.dk/lyd/mckennas_tunes.abc
+S:http://www.mckenna.dk/lyd/The_Fly.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

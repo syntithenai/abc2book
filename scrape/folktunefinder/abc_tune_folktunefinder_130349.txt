@@ -1,0 +1,23 @@
+X:41
+T:French schottisch \#4
+R:Schottische
+O:France
+M:2/4
+L:1/8
+K:G
+GF GA|G2 D2|AG AB|A2 D2|BA Bc|B2 AG\
+|1 FG Ac|B2A2 :|2 FG AF|G4::
+GA Bc|d3 D|EF GA|D2 GF|EF GA|BG AB\
+|1 cB AG B2 A2 :|2 cB Ac|G4 :|
+S:https://www.folktunefinder.com/tunes/130349
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/French.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/French.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

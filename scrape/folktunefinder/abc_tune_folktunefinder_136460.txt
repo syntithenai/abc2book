@@ -1,0 +1,26 @@
+X:1
+T:Bastringue, La
+C:French Canadian
+M:C|
+L:1/8
+K:D
+|: "D"f2ff f2gf | "A"e2c2 "D"d3d | "A"c2d2 efec | "D"d2e2 f3d |
+   "D"f2ff f2gf | "A"e2c2 "D"d3d | "G"g2 {fg}f e2d2 |\
+  [1 "A"B2-c2 "D"d2A2 :|[2 "A"B2-c2 "D"d2 ((3ABc ||
+|: "D"d2fd ad fd | "C"{=cd}c2 ec gcec | "D"d2fd adfa | "A"bgec "D"dcBA |
+   "D"d2fd ad fd | "C"{=cd}c2 ec gcec |\
+[1 "D"d2fd adfa | "A"bgec "D"dcBA :|[2 "D"Adfa "G"bgec | "A"dfec "D"d4 |]
+N:Adapted from Fiddlers Fakebook and PO's memory.
+N:Need double stops and other corrections.
+N:Jean Carignan recording: 10 measures intro with spoons/feet - see VIFD1.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/136460
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/Bastringue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

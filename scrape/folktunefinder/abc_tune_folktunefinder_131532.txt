@@ -1,0 +1,25 @@
+X:6
+T:Constant Billy
+M:6/8
+S:Bacon (MDT)
+A:Bampton
+O:English
+R:Jig
+P:A(AB2)4
+K:G %Transposed from Bb
+P:A
+D | G2d B>GB | c2A A>GA | B>AG E>FG | DEF G2 :|
+P:B
+z | B>cd e>fg | A>Bc dBG | B>cd d>fg | A>Bc d3 |
+G2d B>GB | c2A A>GA | B>AG E>FG | D>EF G2 |]
+S:https://www.folktunefinder.com/tunes/131532
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

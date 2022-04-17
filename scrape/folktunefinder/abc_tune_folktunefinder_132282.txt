@@ -1,0 +1,32 @@
+X:1
+T:Bairisch
+C:Josef Eischiel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Oberoesterreichisches Volksliedwerk MVIII 10
+A:Mauthausen
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+AA |\
+A2d2 f2ed | c2B2 B4 | e2e2 c2cc | f2d2 A2AA |
+A2d2 f2ed | c2B2 B4 | e2e2 c2cc | d2d2d2 :|
+|: dd |\
+d2cd e2d2 | d2B2 Bcd2 | c2A2 ABc2 | B2G2 GAB2 |
+d2cd e2d2 | d2B2 Bcd2 | c2A2 ABA2 | G2G2G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/132282
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bairisch.A2F2B3AA2G2G4.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

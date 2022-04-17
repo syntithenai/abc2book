@@ -1,0 +1,28 @@
+X:1
+T:H\aarga Dur (Hambo)
+C:efter Andrea Hoag
+R:Hambo
+%O:Sweden
+Z:Bob Wyttenbach  8/5/02, from Fiddles & Feet 2002 tunebook, "Printed by Karen Myers"
+M:3/4
+L:1/8
+K:A  bass %clef=bass middle=D
+V:1
+P:A
+E2(EF) ED|(DC)C2A,C|(CB,) (B,E,) G,B,|[1"3" (A,G,) (A,B,) CD:|[2"4 "A,2"Fine"A,4|]
+V:2
+C2(CD) CB,|(B,A,)A,2E,A,|(A,G,) (G,E,) B,,E,|[1(C,B,,) (C,E,) A,B,:|[2C,2C,4|]
+V:1
+P:B
+(CD)E2(C2|DE)F4|G2GF/G/ AF|[1(FE)E4:|[2(FE)E4:|
+V:2
+(A,B,)C2(A,2|B,C)D4|B,2B,>E ED|[1(DB,)C4:|[2D[E,B,][E,4B,4]:|
+S:https://www.folktunefinder.com/tunes/131434
+S:http://www.nordicfiddlesandfeet.org/music/NFF2001bass.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

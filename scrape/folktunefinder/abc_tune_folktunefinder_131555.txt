@@ -1,0 +1,23 @@
+X:29
+T:Trunkles
+M:4/4
+A:Bampton
+O:English
+R:Hornpipe
+P:A(AB3)4
+K:G
+P:A
+d3 B c2 e2 | d>cB>A B2 G2 | d3 B c2 e2 | d>cB>A G4 :|
+P:B
+B2 B>c d2 g2 | e2 g2 d2 g2 | f2 e>d ^c2 A2 | d6 g>f | e2 c2 c2 e2 |
+d2 B2 B2 e>d | c2 A2 A2 d>c | B2 G2 G2 A>B | c>BA>G F2 A2 | G8 |]
+S:https://www.folktunefinder.com/tunes/131555
+S:http://tomkeays.com/morris/tunes/bampton/bampton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

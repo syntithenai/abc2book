@@ -1,0 +1,31 @@
+X:2
+T:The London Lasses
+C:Traditional
+N:Play 2 times
+N:Often played in G, transposed up
+N:The Paris Set, Figure 2, Tune 2 of 3
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+D:Buttons and Bows
+R:Reel
+L:1/8
+M:C
+K:D
+D3 F A2 FA | Beed Bd d2 | ~D3 F AD FA | BdAF EGFE |
+~D3 F ADFA | Beed Bcde | fded Beec | dBAF EGFE :|
+~d3A BAFA | BAFA DFAc | d3A BAFA | BFAF EFAc |
+d3A BAFA | BAFA ABde | fded Beec | dBAF EFAc :|
+S:https://www.folktunefinder.com/tunes/136594
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:9
+T:Glorisher (Leapfrog)
+A:Field Town
+O:English
+S:Bacon (MDT)
+R:jig
+M:6/8
+L:1/8
+Q:3/8=100
+P:A(AB)2(AC)2
+K:G
+P:A
+d/c/ | BAG GFG | ABA D2 (3E/F/G/ | ABA Adc | BcA GAB |
+cde de=f | de^f g2 (3g/a/g/f | edc BcA | G>AG G2 |]
+P:B
+z | e2d dAB | cdc cAB | cde edc | GAG FED |
+G2g gfg | G2g g2 g/f/ | edc B>cA | G>AG G2 |]
+P:C
+z | e3 d3 | d A2 B3 | c2d c3 | c A2 B3 | c2 d e3 |
+(2ed (2cB | (2AB G3 | (2FE D3 | G3 g3 | (2gf g3 | 
+G3 g3 | (g3 g2) (3g/a/g/f | edc B>cA | G>AG G2 |]
+S:https://www.folktunefinder.com/tunes/132410
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

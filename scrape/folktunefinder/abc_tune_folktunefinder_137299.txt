@@ -1,0 +1,30 @@
+X:1
+T:Bec a bec
+C:Frederic Paris
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+B2BcBA | G2E2FG | A2ABcA | BAGFED |
+B2BcBA | G2E2FG | ABcAFD |1 G2GDED :|\
+                         [2 G4Bc ||
+|:\
+BAG2Bc | BAG2d2 | c2AcAc | BAG2Bc |
+BAG2Bc | BAG2d2 | c2AcAF |1 G4 :|\
+                         [2 G6 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/137299
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/bec_a_bec.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

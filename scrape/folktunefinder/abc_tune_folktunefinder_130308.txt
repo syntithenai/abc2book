@@ -1,0 +1,23 @@
+X: 24
+T:Derrire Chez Nous
+M:2/4
+L:1/16
+S:French Creek
+K:D
+({EFG}A4) ({EFG}A4)|({EFG}A6)B2|=c3B A2G2|A3G E2F2|G4GAGF|G6A2|B3A G2F2|
+E8:||!
+D4E4|A6G2|E3G E2G2|F2D2 AGFE|D4E4|A6G2|E3G E2G2|F8:||
+% Output from ABC2Win  Version 2.1 f on 1/8/98
+S:https://www.folktunefinder.com/tunes/130308
+S:http://michel.bellon.free.fr/Musique/abc/frchcrk.abc
+S:http://pineycreekweasels.net/andy/tunes/frchcrk.abc
+S:http://www.pineycreekweasels.net/andy/tunes/frchcrk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

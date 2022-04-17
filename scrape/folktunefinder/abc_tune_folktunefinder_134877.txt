@@ -1,0 +1,27 @@
+X: 020559
+T: Bank of Turf
+S: Treoir 
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: D
+A3 DFA BAF DFA | d3 ede f3 def | 
+g2 f gab afd B2 c/d/ | e2 f e2 d cBA Bcd |
+A3 DFA BAF D2 F/A/ | dcd ede fef def | 
+g2 f gab afd B3 |1 ABc dfe d3 d3 :|2 ABc dfe d3 d2 ||
+c/d/ |: e2 A e2 g f2 d f2 a | gfe fed edB ABd | 
+e2 A e2 g f2 d f2 a |1 gfe dcB A3 A2 B/d/ :|
+|2 gfe dcB A3 A3 ||
+S:https://www.folktunefinder.com/tunes/134877
+S:http://www.qmcorp.net/webabc/b/020559.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

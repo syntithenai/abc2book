@@ -1,0 +1,23 @@
+X:17
+T:Kitty Mac Gee
+O:Irlande
+C:Trad.
+R:Jig
+M:6/8
+Q:3/8=120
+L:1/8
+K:C
+G |: "C"c2c GEG | "F"c2c def | "C"e2c "F"d2c | "G"BdB G2G |\
+"C"c2c GEG | "F"c2c def | "C"e2c "G"d2B | "C"c3 c2G ::
+"C"c2e gec | "F"d2e f2f | "C"e2c "F"d2c | "G"BdBG3 |\
+"C"g2g f2e | "F" d2e f2f | "C"edc "G"dcB |1 "C"c3c2e :|2 "C"c3 c2z |]
+S:https://www.folktunefinder.com/tunes/132781
+S:http://michel.bellon.free.fr/Musique/abc/polka.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

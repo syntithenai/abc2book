@@ -1,0 +1,25 @@
+X: 14
+T:Step and Fetch Her, Bampton (Schofield)
+M:4/4
+L:1/8
+A:Bampton
+P:A(ABA)3
+K:G
+P:A
+  G3 G  A2B2|G2G2 A2B2|  G3 A  B2e2|dcBA G4  |
+  G4    A2B2|G2G2 A2B2|  G2A2  B2e2|dcBA G4  ||
+P:B
+(3gage2 d3 B|c2d2 e2f2|(3gage2 d3 B|B3 c A2A2|
+  g3 e  d2B2|c2d2 e2f2|  g2A2  A2B2|A2G2 G4  ||
+S:https://www.folktunefinder.com/tunes/131583
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 30
+T:Lumps of Plum Pudding, Bledington
+M:6/8
+L:1/8
+A:Bledington
+P:AAB(CB)2
+K:A
+P:A
+e|c>BA a>ga|e>fe A2B |c>BA A>GA|B>cB E2d|
+c>BA a>ga|e>fg a3  |e>cA Bcd |e2c  A2 ||
+P:B
+z|e>ga e>ga|e2c  A>Bc|d>ef dBc |d>BB Bcd|
+e>fg a3  |e>fg a3  |e>cA Bcd |e2c  A2 ||
+P:C
+M:3/8 
+L:1/8
+e2d|\
+M:6/8
+c2B A3|a2g a3|e2f e3|A3 B3|c2B A3|A2G A3|B2c B3|
+M:3/8 
+L:1/8
+E2d|\
+M:6/8
+c>BA a>ga|e>fg a3  |e>cA Bcd |e2c  A2 ||
+S:https://www.folktunefinder.com/tunes/132466
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bledington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bledington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

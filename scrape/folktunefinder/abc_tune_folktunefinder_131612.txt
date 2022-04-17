@@ -1,0 +1,24 @@
+X: 6
+T:Rigs o' Marlow, Headington
+M:4/4
+L:1/8
+A:Headington
+P:A(A2B2)4
+K:C
+Q:260
+P:A
+c<e c<e c<e ed/c/|B<d B<d B<d fe/d/|c<e c<e c<e g>c' |a>fd>B  c2  c2   ||
+P:B
+c'>ag>f e>f g2   |c'>ag>f e2  d2   |c'>ag>f e>c f>f  |e<c d<B c2  c2   ||
+S:https://www.folktunefinder.com/tunes/131612
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Headington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Headington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Headington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

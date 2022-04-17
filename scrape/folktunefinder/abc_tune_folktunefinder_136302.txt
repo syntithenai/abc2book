@@ -1,0 +1,22 @@
+X:2
+T:V. Mourne, mourne,
+T:Basso
+C: John Dowland
+O: From The Second Booke of songs or Ayres of 2/ 4/ amd 5/parts: with Tableture for the Lute or orpherian, with the Violl de Gamba.
+%%MIDI nobarlines
+%%MIDI transpose -24
+M:C
+L:1/4
+K:D dor bass
+z2 d6 \
+%%LY voices \property Staff.TimeSignature \set #'style = #'1style
+M:3/1
+L:1/2
+ d2 d G2 d A2 d G3 A B B A3 d
+S:https://www.folktunefinder.com/tunes/136302
+S:http://www.laymusic.org/music/dowland/mourne/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

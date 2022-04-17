@@ -1,0 +1,25 @@
+X: 7
+T:Highland Mary, Ascott
+M:4/4
+L:1/8
+Q:300
+A:Ascott-under-Wychwood
+P:A(AB)4
+K:G
+P:A
+G2G2 GFED|G2AB c2Bc|d2d2 cBcA|G3F D4|
+G2G2 GFED|G2AB c2Bc|d2d2 cBcA|G4  G4||
+P:B
+d2dd d2cB|c2c2 c2BA|d2d2 dcBA|G3F D4|
+G2G2 GFED|G2AB c2Bc|d2d2 cBcA|G4  G4||
+S:https://www.folktunefinder.com/tunes/131566
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ascott.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ascott.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ascott.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

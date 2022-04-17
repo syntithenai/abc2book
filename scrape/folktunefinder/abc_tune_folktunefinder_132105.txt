@@ -1,0 +1,28 @@
+X:3
+T: Ritter und Magd
+N: Q2055B
+O: Mitteleuropa, Niederlande
+N: Chaotische Takteinteilung. Entsprechend der Originalquelle hier
+N: Taktwechsel kodiert. Niederlaendische Fassung der Ballade.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 3/4
+L: 1/16
+K: G
+A2B2B2d2 | B4c4d3e | d6
+B2c2c2d2 | e2e2e2e2d2e2 | d4B4 | z2
+d2e2d2e2 | d4d4d2c2B2 | c4
+d3c | B2A2B2d3c | A4G4 | z2
+d2e2f2g2 | d4d3ed2c2B2 | c4
+d3c | B2A2B2d3c | A4G4 | z2
+S:https://www.folktunefinder.com/tunes/132105
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

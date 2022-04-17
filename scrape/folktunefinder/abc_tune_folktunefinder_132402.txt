@@ -1,0 +1,25 @@
+X:1
+T:Balance the Straw
+A:Field Town
+O:English
+S:Bacon
+R:Jig
+M:6/8
+Q:3/8=104
+P:A(A2B2)4
+K:G
+P:A
+A | d2f fef | g2e efg | afa geg | f2d d2 |]
+P:B
+fg | a2a a2d | g2f f2e | a2a a2d | g2f e2A |
+d2f fef | g2e efg | afa geg | f2d d2 |]
+S:https://www.folktunefinder.com/tunes/132402
+S:http://tomkeays.com/morris/tunes/fieldtown/fieldtown.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

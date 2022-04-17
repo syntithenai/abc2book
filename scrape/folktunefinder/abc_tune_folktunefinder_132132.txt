@@ -1,0 +1,24 @@
+X:30
+T: Ritter und Magd
+N: Q0055c
+O: Osteuropa, Tschechoslowakei, Sudetenland
+N: Grundton in der zweigestrichenen Oktave.
+N: Dritte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Betrug, Schwangerschaft, Tod, Selbstmord, Herr und Magd
+M: 2/4
+L: 1/16
+K: D
+A,2 | F3FFFEE | D3DD2A,2
+D3DG2F2 | F4E2
+A,2 | E2EEE2D2 | C3CC2
+B,2 | A,2A,2F2E2 | E4D2
+S:https://www.folktunefinder.com/tunes/132132
+S:http://ifdo.ca/~seymour/runabc/esac/ballad30.abc
+% Rhythm Ballade, betrug, schwangerschaft, tod, selbstmord, herr und magd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

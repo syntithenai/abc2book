@@ -1,0 +1,26 @@
+X: 8
+T:Broad Cupid, Badby
+M:2/4
+L:1/8
+A:Badby
+P:A(AB3)4
+K:G
+P:A
+|:B2 B2|B2 G2| AG AB|G2 AB|
+cB AG|GA Bc|1d2 ec|B2 A2:|2A4|G4||
+P:B
+GA Bc|d2 d2| d2 e2|d2 d2|
+e2 dd|g2 B2| d2 ec|B2 A2|
+B2 B2|B2 G2| AG AB|G2 AB|
+cB AG|GA Bc| A4   |G4   ||
+S:https://www.folktunefinder.com/tunes/137287
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Badby.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Badby.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Badby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:17
+T:Courento (10)
+O:Valle Varaite
+C:Transcr. : Maurizio Padovan
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-01-30
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:D
+P:"miro"
+(3ABc | (3ABc (3ABc | e2 e>f | ed cB | c/B/A (3ABc | (3ABc (3ABc | e2 ef | ed cB | A2 
+"pizz".e.e |: .e "arco"A cB/c/ | c/B/A "pizz".e.e | .e "arco"A cB | c/B/A AB/c/ | dd ef |1 
+g/f/e e/f/g/f/ | ed cB | A2 "pizz".e.e :|2 g/f/e fg/f/ | ed ef | d2 ||
+%%footer $D   Galouvielle-MBe 2007 \n-- (Italie (occitane))
+S:https://www.folktunefinder.com/tunes/132816
+S:http://michel.bellon.free.fr/Musique/abc/ValleVaraita_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

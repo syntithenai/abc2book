@@ -1,0 +1,27 @@
+X: 18
+T:Webley Twizzle, Bampton (alt)
+M:6/8
+L:1/8
+A:Bampton
+P:A(A2B2)4
+N:6-bar B music, Alt B1&B2 & dotted rhyth
+Q:100
+K:G
+P:A
+D|G>FG A>GA|B>dB A>GA|B>AG E>AG|F>EF G2  ||
+P:B
+B|d>de d>BG|d>de d>BG|E>AG F>ED|E>AG F>ED|
+                      B>AG E>AG|F>EF G2  ||
+S:https://www.folktunefinder.com/tunes/131587
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bampton.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bampton.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bampton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

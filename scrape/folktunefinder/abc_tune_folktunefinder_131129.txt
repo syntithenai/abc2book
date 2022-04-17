@@ -1,0 +1,49 @@
+X:342
+T:B342-  O Raree Show
+S:(1st/2) notation changed for ABC
+Q:1/4=120
+L:1/4
+M:3/4
+K:D
+dA/A/A|dA/A/A|dA/A/A|fe/d/ e/f/|\
+d3|af/f/f|dA/A/A|de/d/ d/f/|\
+L:1/4
+M:C|
+d3d|efge|f2fd|efge|\
+f3d|efgf|eAcd|e2ed|efgf|eABc|\
+d3d|efgf|eAcd|e2ed|efgf|eABc|\
+L:1/4
+M:6/4
+d3ddd|dddddd|ddddDd|dddd2d|ddddD2|d3AFA|d3AFA|\
+d3AFA|A2fd3|]
+S:https://www.folktunefinder.com/tunes/131129
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM3.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM3.ABC
+S:http://web.archive.org/web/20021004064514/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030211012241/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20030622081225/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20031225051905/http:/users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040507015238/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040607022137/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM3.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM3.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM3.ABC
+S:http://www.mudcat.org/olson/BM3.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM3.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 2/2
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

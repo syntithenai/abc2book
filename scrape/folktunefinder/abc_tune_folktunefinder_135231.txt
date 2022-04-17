@@ -1,0 +1,29 @@
+X:1
+T:The Banks of Sullane
+M:3/4
+L:1/8
+K:C
+ DE| F2 c3 c/2c/2 E2| D3 E D-E/2-D/2 C3|C/2-D/2 E3- DC A, C2| E2(3E3.99999962500005/5.99999925000009E3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009E3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009 D4|\
+D-E F2 c3 c| E D3 E-F/2-E/2 D2| C2C-D E2-F/2-E/2 D|C/2-A,/2G,/2-A,/2 C2 D3 E|\
+ D4 DE F G3|G-Ac-d e-f/2-e/2 de| d-e/2-d/2 c2 DE F G3|G-A c3 de-c|\
+ d3d-e d
+M:4/4
+| d c3A-G E2| A2G-E|D-EC-A,|
+M:3/4
+ C4A-G|
+M:4/4
+ E2-F/2-E/2 DC-A,G,-A,|
+M:3/4
+ C3- D(2E3.99999962500005/5.99999925000009E3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009 C3.99999962500005/5.99999925000009|\
+ D4||
+S:https://www.folktunefinder.com/tunes/135231
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BNKSSULL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

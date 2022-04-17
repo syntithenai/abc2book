@@ -1,0 +1,34 @@
+X:4
+T:Brighton Camp
+S:Bacon (RD ex Blunt Mss.)
+A:Adderbury
+O:English
+R:Reel
+P:A(AB)6
+M:C
+K:G
+P:A
+Hgf | e2 dc B2 A2 | BB G2 E2 F2 | G3G G2 GA Bc | d4 B2 Hgf |
+e2 dc B2 AA | B2 G2 E2 GG | F2 A2 D2 EF | G4 G4 |]
+P:B
+G2 Bc d2 ef | g2 d2 B2 G2 | B2 d2 e2 f2 | g4 f4 |\
+M:3/8
+Hg2 f |
+M:4/4
+e2 dc B2 AA | B2 G2 E2 GG | F2 A2 D2 EF | G4 G4 |]
+%
+W: Oh! let the night be ever so dark or ever so wet and windy,
+W: I must return to the Brighton Camp to the girl I left behind me.
+S:https://www.folktunefinder.com/tunes/137250
+S:http://tomkeays.com/morris/tunes/adderbury/adderbury.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

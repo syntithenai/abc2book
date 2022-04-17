@@ -1,0 +1,27 @@
+X:33
+T: Pentland Hills 
+N: HA033
+O: Europa, Mitteleuropa, Deutschland
+N: Vorschlge, Triller
+M: 3/4
+L: 1/16
+K: F
+A3G | F8c3B | B4A2z2f3e | d6e2f2c2 | B4A2z2
+ABc2 | D6d2c2B2 | A6B2G4 | F8
+A3G | G4F4c2B2 | B4A4f3e | d6e2f2c2 | A8
+ABc2 | D6d2c2B2 | A6B2G4 | F8
+A3G | F6F2f2e2 | d8c2A2 | f4e2d2e2^c2 | d8
+d3e | f4c4d4 | dc3B2A2G2F2 | c4d2c2B2A2 | G8
+F3E | D2E2F2F4c3B | A8f3e | d6e2f2c2 | A8
+cBAG | F8FGA2 | D8def2 | A6B2G4 | F8
+S:https://www.folktunefinder.com/tunes/135728
+S:http://ifdo.ca/~seymour/runabc/esac/HAYDN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

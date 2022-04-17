@@ -1,0 +1,30 @@
+X:1
+T:Avant-deux de Bazouges : Dshabille-toi
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+Q:C4=120
+M:2/4
+L:1/16
+K:G
+"G"dddg B2d2 | G2B2 d4 | "D"cdcB A2AB |1 c2d2 e2d2 :|2
+c2F2 "G"G4 |: "D"AAAA A2Ac | "G"B2A2 B2G2 | "D"AAAA A2Ad | "G"B2A2 G4 :|
+%%rm
+%%rm  Dshabille-toi, couche-toi, j't'aime bien, 
+%%rm  Nous nous marierons la semaine prochaine,
+%%rm  Dshabille-toi, couche-toi, j't'aime bien, 
+%%rm  Nous nous marierons la semaine qui vient
+%%rm
+%%rm  Nous nous marierons la semaine prochaine,  ]
+%%rm  Nous nous marierons la semaine qui vient.  ] bis
+S:https://www.folktunefinder.com/tunes/130428
+S:http://termen.free.fr/danses/rennais/AvantdeuxdeBazougesDeshabilletoi.abc
+% Rhythm Avantdeux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

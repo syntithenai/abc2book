@@ -1,0 +1,22 @@
+X:5
+T:Havermolen
+O:belgium
+M:2/4
+L:1/8
+Q:1/4=130
+K:G
+V:1
+D |"G" G2 B2 |G3  (3G/A/B/ |"D7" d2 D2 |
+"G" G2 B3/2 c/|]"D" BA AA/B/ |"G" AG GG/A/ |"D" GF EF |
+"G" ED B3/2 c/|"D7" BA AA/B/ |"G" AG GG/A/ |"D7" GF EF |
+"G" G3 z|]
+S:https://www.folktunefinder.com/tunes/136906
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/belgium.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/belgium.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

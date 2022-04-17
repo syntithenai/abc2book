@@ -1,0 +1,27 @@
+X:1
+T:Ye Banks and Braes
+% Nottingham Music Database
+S:Kevin Briggs
+M:3/4
+R:waltz
+L:1/4
+K:G %Transposed from D
+D | "G"G2G | "D7/e"A3/G/A | "G/f"BdB | "D7/e"A3/G/A | "G"B3/A/G |
+"C"GED | "Am"DEG | "D7"A2D | "G"G2G | "D7/e"A3/G/A | "G/f"BdB |
+"D7/e"A3/G/A | "G"B3/A/G | "C"GED | "D7"DEG | "G"G2B || "G"d2"C"e |
+"G"dBG | "G"d2"C"e | "G"dBG | "G"dBG | "G"dBG | "Am"ed/c/B |
+"D7"A2D | "G"G2G | "D7/e"A3/G/A | "G/f"BdB | "D7/e"A3/G/A | "G"B3/A/G |
+"C"GED | "D7"DEG | "G"G2 ||
+S:https://www.folktunefinder.com/tunes/136883
+S:http://home.freeuk.net/leedscontra/GoodParkingTunes/WaltzEtc.abc
+S:http://www.leedscontra.freeuk.com/GoodParkingTunes/WaltzEtc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

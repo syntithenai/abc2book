@@ -1,0 +1,31 @@
+X:1
+T:Daniel O'Connell
+C:Traditional
+N:Play 3 times
+N:The Paris Set, Figure 4, Tune 1 of 3
+S:Davy Muir, final repeat from sessions 
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+L:1/8
+M:6/8
+K:D
+dDD FED | ABA AFD | GBG FAF | EFG ABc |
+dDD FED | ABA AFD | GBG FAF | EFE D3 :||
+ABc dcd | efe edB | ABd ede | fdB d2 B |
+ABc dcB | ABA AFD | GBG FAF | [1 EFE D3 :|| [2 EFG ABc |]
+S:https://www.folktunefinder.com/tunes/136600
+S:http://theflow.org.uk/text/flow_paris.txt
+S:http://www.theflow.org.uk/text/flow_paris.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

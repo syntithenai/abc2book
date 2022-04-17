@@ -1,0 +1,43 @@
+X:35
+T:B035-  Bonny (or Pretty) Kate of Edinburgh
+Q:1/4=120
+L:1/4
+M:C|
+K:D
+(A/2B/2) A/2F/2A(d/2e/2)|e3/2d/2B3/2A/2|\
+(B3/4c/4B3/4)A/4 (B3/4c/4B3/4)A/4|\
+(B/4c/4d/2) (A/2F/2)E3/2 E/2|\
+(A/2B/2) (A/2F/2) A (d/2e/2)|\
+e3/2 d/2 B3/2 A/2|\
+(B/4c/4d/2) (e/2f/2) (e/2c/2) (B/2A/2)|\
+B(d3/4e/4)d2| (f/2g/2) (a/2f/2 a3/2b/2 |\
+(a/2f/2) e/2d/2 g3/2d/2|(B/2=c/2) (d/2B/2)g3/2G/2|\
+(G/2A/2) (B/2G/2) (B/2c/2) (d/2B/2)|\
+(A/2B/2) (c/2A/2) g3/2 e/2|c (B/2A/2)G3/2 F/2|\
+(F/2G/2) (A/2F/2) B3/2 B/2|\
+(B/4c/4d/2) (A/2F/2) E3/2 D/2|\
+A3/2F/2A(d/2A/2)|F(E/2D/2).D2|]
+S:https://www.folktunefinder.com/tunes/130790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BruceOlson/BM0.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/olson/BM0.ABC
+S:http://web.archive.org/web/20031012162724/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20031225051905/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040610081455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040612085049/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040613152848/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040719084424/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040726075455/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040727074114/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040810083641/http://users.erols.com/olsonw/BM0.ABC
+S:http://web.archive.org/web/20040811082331/http://users.erols.com/olsonw/BM0.ABC
+S:http://www.csufresno.edu/folklore/Olson/BM0.ABC
+S:http://www.mudcat.org/olson/BM0.ABC
+S:http://www.fresnostate.edu/folklore/Olson/BM0.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

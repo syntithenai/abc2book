@@ -1,0 +1,34 @@
+X: 202
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+%% Q: 3/8=112
+K: D
+A \
+| "D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G"Bcd "A7"efg |
+| "D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "A7"ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | cDD =cDD |
+| "G"B3 B=cB | GBB B=cB | "A7"AEA ABc | "D"dAF D2 :|
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/134405
+S:http://ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.ericdancepiano.com/MNAS/MNAS.abc
+S:http://www.latinsquares.com/MNAS/MNAS.abc
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+S:http://ericdancepiano.com/MNAS/tunes/Jig2.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Jig2.abc
+S:http://www.latinsquares.com/MNAS/tunes/Jig2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords
