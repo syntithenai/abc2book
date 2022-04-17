@@ -1,0 +1,27 @@
+X: 1
+T:Fubu's Mazurka
+M:3/4
+L:1/8
+Q:180
+C:Thierry Mirebeau
+S:Blowzabella
+O:Fubu's Mazurka
+K:Gm
+D2|G2 GA Bd|c3 d cA|BG DG BG|A^F DF AF|!
+G2 GA Bd|c3 d cA|BG DG A^F|G4:|!
+K:G
+GA|B2 BA GF|E4 AB|cA FA cA|B2 GD GA|!
+B2 BA GF|E4 AB|c2 cA FA|G4:|!
+S:https://www.folktunefinder.com/tunes/159552
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fu/Fubus_Mazurka_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fu/Fubus_Mazurka_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

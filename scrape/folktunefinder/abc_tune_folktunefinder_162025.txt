@@ -1,0 +1,23 @@
+X: 1
+T: Graine's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+B |dGF GDB, | G,A,G, DB,D | EcB ABA | FED cBA |
+B2/^c2/d2/B G3 | E2/F2/G2/E CEG | DGc BDF | AGF G2 :|
+|: A |~B3 ~G3 | eBc ADE | ~F3 ~f3 | edc d2c | B2/c2/d2/B Ggf |
+ecA E3 | DBc BDF | AGF G2 :: D | GBd ~g3 | edB cBA |
+B2/c2/d2/B a2g | fdc d2f | gdB Ggf | ecA ~E3 | DGc BDF | AGF G2 :||
+S:https://www.folktunefinder.com/tunes/162025
+S:http://www.thesession.org/tunes/display/488
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:80
+T: Graf Friedrich
+N: Q0048F
+O: Mitteleuropa, Deutschland (DDR) , Pommern, Ruegen
+N: Zwei nahe Strophenvarianten abgedruckt. Hier nur die erste kodiert.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 6/8
+L: 1/8
+K: G
+D | DGGFcA | FDz3
+D | GFGFcA | FD
+D | B2GB2G | c2BA2
+B | GFEDGA | AGFG2
+D | B2GB2G | c2BA2
+B | GFEDGA | AGFG2
+S:https://www.folktunefinder.com/tunes/151609
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

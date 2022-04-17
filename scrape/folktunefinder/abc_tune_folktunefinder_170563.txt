@@ -1,0 +1,40 @@
+X:1
+T:Kreuztanz
+C:traditionell
+R:volkstanz
+A:'Dobrutscha' ((deutsch-sprachige sprach-insel), Rumaenien
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 21
+N:im buch ganz in A-moll, einstimmig, 1. ton e'', ambitus e' - f''
+S:im buch mit der angabe:Die fremd anmutende melodie galt in der Dobrutscha als altes deutsches gut, das aus Bessarabien uebernommen wurde. Nach Hans von der Au, Deutsche Volkstaenze aus der Dobrutscha
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C minor
+g2 f2 | e d3 | f2 e2 |  d c3 |\
+g a3 | g3 f | ed gf | ed c2 :|
+|:\
+G2 e>d | c=B c2 | G2 g>f | e>d e2 |\
+G2 e>d | c=B ce | g2 f2 | ed c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170563
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kreuztanz.dobrutscha.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

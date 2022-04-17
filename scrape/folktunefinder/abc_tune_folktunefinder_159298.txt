@@ -1,0 +1,35 @@
+X:1
+T:Fredriks Gnglt
+C:Mats Paulsson
+R:Gnglt
+M:C
+L:1/8
+Q:1/4=90
+N: Andra stmmans sista rad saknades p notbladet jag skrev av s jag kopierade ettans.
+K:G
+V:1
+D |: "G" G>G GG GDB,D | GG1/2F1/2 GA B3 B | "C" c>c cc "G" BA G>B |
+"A" A>G FE "D7" D3 D | "G" GGGG G>D B,D | "G" G>F GA B3 B |
+"C" cccc "G" BdBG | "D7" AcAF "G" G3 B | "C" c>c cc cGEG |
+"G" B>B BG D3 E | "D7" DEFG A>c BA | "G" G>A Bc "G7" d3 B |
+"C" c>c cc cGEc | "G" B>B BG D3 E | "D7" D>E FG AcBA |
+[1 "G" G>D "D7" EF "G" G3 D :|[2 "G" G>D "D7" EF "G" G3 z]|
+V:2
+G |: B>B BB BGDG | BB1/2A1/2 Bc d3 d | e>e ee dc B>d |
+^c>B AG F3 G | BBBB B>G DG | B>A Bc d3 d |
+eeee dgdB | cecA B3 d | e>e ee ecGc |
+d>d dB G3 B | FGAB c>e dc | B>c de =f3 d |
+e>e ee ecGe | d>d dB G3 B | F>G AB cedc |
+[1 G>D EF G3 D :|[2 G>D EF G3 z]|
+S:https://www.folktunefinder.com/tunes/159298
+S:http://www.folkwiki.se/pub/cache/Fredriks_G%e5ngl%e5t_e4b19c.latin.abc
+S:http://www.folkwiki.se/pub/cache/Fredriks_G%E5ngl%E5t_e4b19c.abc
+S:http://www.folkwiki.se/pub/cache/Fredriks_G%e5ngl%e5t_e4b19c.abcm.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

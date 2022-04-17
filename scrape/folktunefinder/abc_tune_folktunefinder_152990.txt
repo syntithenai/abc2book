@@ -1,0 +1,29 @@
+X:37
+T: Die Brombeerpflueckerin
+N: Q0147C
+O: Mitteleuropa, Oesterreich, Traismauer
+N: Zweistimmig notiert, Unterstimme kodiert.
+N: Vierte Zeile refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft; bei der Arbeit
+M: 6/8
+L: 1/16
+K: G
+D2 | G4G2B4G2 | A2A2D2z4
+DD | A4B2c4F2 | G4z6
+GG | B4G2B4G2 | A2d2d2d4
+AA | A4ddc4F2 | G4B2B4
+GG | A4B2c4F2 | G4z6
+GG | B4G2B4G2 | A2d2d2d4
+AA | A4ddc4F2 | G4B2B4
+GG | A4B2c4F2 | G4z6
+S:https://www.folktunefinder.com/tunes/152990
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft; bei der arbeit
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

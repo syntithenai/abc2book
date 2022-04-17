@@ -1,0 +1,26 @@
+X: 1
+T: Juletret
+T: Hjt fra trets grnne top
+C: P.Faber & E.Horneman
+Z: John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: F
+%%staffsep 50
+| "F"[AF][cA] "C7"[BG][GE] "F"[AF][fA] [c2A2] \
+| [dB][cA] [AF][FC] "C7"[G2E2] "F"[A2F2] \
+| "C"[GE][cG] [ec][GE] "G7"[GD]>F "C"[E2C2] \
+| "C"[EC][GE] [cG][EC] "G7"[D2=B,2] "C"[C2G,2] \
+| "C7"[D_B,][EC] "F"[FC][AF] "C7"[cG]>B "F"[A2F2] |
+| "F7"[G_E][AF] "Bb"[BF][dB] "F7"[fd]>_e "Bb"[d2B2] \
+| "F"[AF][fc] "Gm"[dB][BG] "C7"[G2E2] "F"[A2F2] \
+| "Gm"[BG][dB] [BG][GD] "C7"[E2C2] "F"[F2A,2] \
+| "C7"[GE][dB] "F"[c2A2] "C7"[GE][dB] "F"[c2A2] \
+| "G7"[=BG][fd] "C7"[ec][g_B] "F"[f4A4] |]
+S:https://www.folktunefinder.com/tunes/164469
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/Juletraet.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

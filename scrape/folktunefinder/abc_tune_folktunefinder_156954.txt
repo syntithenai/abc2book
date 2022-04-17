@@ -1,0 +1,331 @@
+X:1
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.27
+%%tabflagspace 7
+%%stretchstaff false
+%%staffsep 35pt
+T:Fantasia "Ein' feste Burg ist unser Gott"
+C:Michael Praetorius 
+C:org. f. Orgel;   trans: Werner v. Hrsten
+M:C
+L:1/8
+K:C frenchtab
+%%text /a = D,  //a = C,
+"Ein'"f2"fe-"f4"ste"f2|\
+"Burg"a4 "ist"e2"un-"f-|\
+f2e c"ser"c|\
+"Gott",f3f1 e2c1a|\
+% Takt 5
+[cd2],d1a ce[fd]h|\
+[k,,h3]h1 [fc2],d1e|
+c1a[cc/]ef1 ,ae/c [ea2]|\
+[fcd2],,d1[ea/]c [ac1],d[k,lh],h|\
+[hk,,h1][fh][ef][cd/],c [aac2][,cd1][,df]|\
+% Takt 10
+[ac1][cd][efc2] [f,a1],e/,c [,ea2]|\
+[ef,c1]fh,d [acd]c/e f1,,c|
+[,daa1]h[f,,a][e,,c] [f,a][e,c][c,da],a|\
+[ac,,a3],,f1 [a,d,e2][c,,a1],,c|\
+,,a1,,c[a,d,e2] [,d,,c][,,c,c]|\
+% Takt 15
+[fc,ca2][f,a,,c1],,,,,a ,,,,,c,,,,,e[f,a,a],,,,c|\
+[acd,e1],,,,c[,,c,e],,,a [ea,c][,,aa][fc,ce],,,,c|\
+[,,a,a1][,,d,,c][ea,c,e2] [cc,,a][ca,bc1],,d|
+[a,cc,a1][,,de][,ac2] [,c,ca][,a,,,e]|\
+[aa2]"ein'"[fed,,c] "gu-"[eff,,a3],d1|\
+% Takt 20
+"te"[ccd2]"Wehr"a [,ac]"und"[c,de]|\
+"Waf-",d2[,ccc] [,,de][,aaa]|\
+,,c2"fen"[,,dce] [,,a,c][l,,g]|\
+[k,,ha1],,,,,h[a,,,e],,,,a [hd,a2][fc,c]|\
+,,,,a2[ea,c] [c,de1][,ac][acd2]|\
+% Takt 25
+[c,,a2][a,d,e3]c1[,da,c2]|
+[,cd,a1][,d,,c][a,c,e],,,a [,a,c]a[,ea,c],,d|\
+[a,cc2][,cd] [fd,a1]h[k,,h,k][la]|\
+[n,h1],,,h[la,,,h],,,g [k,,ha2][,,,ca1],,a|\
+[hf,g,e1],,,h,,f2 [fed,,c][eff,,a1]c|\
+% Takt 30
+a1,d[ccd,a2] [aac,c][,a,,,a]|\
+[,da,c1],,d[a,cce2] [,cd,a][,daa1],,,,e|\
+[,a,ac2][,,d,,c] [,,,,ef][,,c,ca]|
+[fc,,a/],,,,c,,,,e,,,a [ea,c1],,a ,,c[,cd][cef],,,,c|\
+[aa,c2][,c,,a] [c,da1],,,,e[,df,c/],,,,e,,,a,,,c|\
+% Takt 35
+,,a1,,c[,cd],,,,a [,a,c2][,,c,,a]|\
+[,,dca1],a[,cdca],a [,c,c][,df][ac,,a][cd]|\
+[eff,,a1][fh][hk][fh] [ef,,,e][cd][ac,ca][,ef]|\
+[ac1][ce][eff,,e2] [f,d,,c][,e,,,c]|
+[eff,,a1],d[fc,c2] [,a,c1][e,d/]c [ea,c2]|\
+% Takt 40
+[fc,,a1]e/c a1,,f [,,d,e],,c[,daa][,c,c/],a|\
+[,,de1][,ac][,cd,e2] [,d,,c][,ac,c]|\
+[,,d,a1],,,c[f,d],,f [fc],,f[fcd],d|\
+[acd2],,d1c [ea,c]ce[f,a]|\
+[hf,g1],d[fcd][ea] [cc],e[hf,g2]|
+% Takt 45
+[f,a2][,ea1]f [ef,c],aa,,,a|\
+[a,,,e1],,,,c[ff,,a2] [c,da1],,,c,,a[,ac]|\
+[acd1],,,,a[cd,a][a,,,e] [c,,,c]e[fc,,a2]|\
+[,a,a2][ea,c] [c,d,a1],a[acd2]|\
+[,ac1],f[f,de],e [effc2],c|\
+% Takt 50
+[c,de2][,a,a] [a,,,e],,d|\
+[c,aa2][,d,,c] ,,c[,cd,a]|
+[,a,c2],,c [,,dea],d|\
+,,,c2[fc] ,,fe|\
+[c,d2],d [ac],a|\
+% Takt 55
+[c,d2],d ,a[,cd]|\
+,a2,,c [,,de4]|\
+,,,,h2,,,h4[l,,g2]|\
+,,,h2[kl] h,k|\
+[fh4] [hf2]f|\
+% Takt 60
+c2[ed] c[acd]|
+,a2,,c [,,de]f|\
+[ea,c1],,a[a,c],,d [cdf][,cd][aac2]|\
+[,cd2]c1[,ac] [,dde],,,c[,a,a],,,,e|\
+,,,,c2[,cd,e] [,a,a][,,cc]|\
+% Takt 65
+"er"[,,d,a1],,,,f[a,d,e][,d,,c] "hilft"[,c,,ef][,a,a][,c,c][,d,a]|
+[a,,ce/],,d,a,c [,d,a]ace "uns"[f,,,ef],a,c,d [a,a]cef|\
+"frei"[h,,gha1]f/e ca,e,c [,a,b]a,e,c [,a,,e],,d,,c,,a|\
+"aus"[,,,cce/],,a,,c,,d [,a,c],c,d,a "al-"[,c,,a],a,,d,,c [,,aa],,c[,,d,e][,a,,c]|
+[,c,ca/],a,,d,a [,c,b],eac [e,,cce]cac [e,,cc]fhe|\
+% Takt 70
+[f,,,ac/]hfe [c,,c]a,e,c "ler"[,a,b,c],c,ea cefc|\
+"Not"[e,,cca/]ace [f,a]hkl [na,,m]klk hfec|
+"die"[acd/],d,c,a ,c,dac "uns"[aac]cef efhk|\
+h1a/c [ef]fhk "jetzt"[h,a]klk [he]fec|\
+"hat"[ef,c/]f[hd]f [ec]c[aa],d "be-"[,cde1],d/a "trof-"[c,,a]a[,dc],c|
+% Takt 75
+[,aa/],c[,dc],,f [a,d,e]cef [h,,,,h]klh [n,,,m]lkh|\
+"fen"[k,,ha1],,,,,h [f,,,e][,a,a] [fc,ca/],,,a,,,c,,,e [f,,c1][,aa/],,c|\
+[acd,a1],a [,c,,a],d [eff,,a],d [fcd,,c][,ac,,e]|\
+[,ca,a1],,,,c [e,,ce],,,,,e [c,,,a],,,b/,,,,e [ca,bc1],,d|\
+[a,cc,a2] [,c,,a] [,a,,,e] ,a|
+% Takt 80
+[a,d,,c2] [fe] [eff,,a] ,,,c|\
+[cd,,c1],,,,e [,,da2] [acd,a1],d [,c,,,,,,a][,ab]|\
+[c,de,,a1],,,,,,,c [,df,,,,a/],,,,,,,c,,,,,,a,,,,,a [,,d,,c],,,,,a,,,,,c,,,,,e [,c,ca1],,,,,,,,a|\
+[,ac,,a1],,d [,,ccc],,a [,,dcc/],,c,,d,,c ,,d,,c[,,aa],,c|\
+[,,dce,,,a2] ,,,,a ,,,,e "Der",,d1,,,a|
+% Takt 85
+"alt"[,c,c2] [,,de1],d [aa],,,c [,,cc2]|\
+"b-"[c,d2] "se"[c,,b] [,,cc1]a "Feind"[a,,,,a],,d|\
+[,a,,,e1],d/,c [,a,c1][,,d,a/],,c [,,aac1],,c [a,dce2]|\
+[ea1],,,,c/[fc] [h,i,kh2] [k,h,k] [k,,,,g1],,,,h|\
+[,,aa,h1]h [h,i],,,,h [,ca][ha] [gc2]|\
+% Takt 90
+[hef2] ,,,,,h1f [ef,,e][cd] [ac][,dfa/][,cd]|
+[,acc1],c [,dde2] ,c1[,d,c] [a,cc2]|\
+[c,d2] [,,abc] [a,dce] ,,c1[,d,a/],c|\
+[,a,c2] [,,de,c] [,a,,,e1],,,c ,,,c[,,d,a/],,c|\
+[,,a,c1],,,c [,,ab2] [,,,ce] ,,d1,,,,c|\
+% Takt 95
+[,c,ca2] ,,,,,e1[,da,,c] [a,c,,a2] [c,a,c1],,c|\
+[,,d,e1][a,c] [a,cc],,a/,,,c [,,a,c2] ,e1,,a|
+[a,c,,a1],a a,,d [ea2] [ac,,,a1]f|\
+[ha,,,e2] [kf,ha] [,,,g,h1]h [hda2]|\
+[,c,ce1],d [gf],,,e [h,,g,h2] [,da1],,c|\
+% Takt 100
+[acd,a2] [,,,c1],d [aa,c,e2] ,,c/,,d,a1|\
+[c,d,,c1],,,,a ,,,,e,,,b [,acc,a],c [,dde],,,,,,a|\
+,,,,,c1[,a,c,e] [,c,ca2] [,a,,c1][,d,a/],,,,e [c,,a1]e|
+[fc,ca1],,d,c,d a2 [c,a]|\
+,,c1[a,d] [aa,,,e2] [,c,,a1],e/,c [,efec2]|\
+% Takt 105
+[a,c,,a2] ,,,c1[c,d] [ea2] [fc,ca]|\
+,,,,e2 [acd1],,,a [eacc],f [fda],c|\
+[ha,g1],,,,h [k,,,h2] ,,,h1h [haa,g2]|\
+[,,hgh2] [g,a1],,h [h,k,kh]a ,,,e,e|
+[a,c2] ,,,,,a1,,d [,a,,,e2] [ac,,a]|\
+% Takt 110
+[,d,,c1],a [aa,,,a],d [,c,,,c],,f [,ce2]|\
+[,df1]a [c,,,c2] [a,,,e1],d ,c[,a,a/],,d|\
+[,,cc1],,f [,,de],c [,a,c,a],c [,dc],a|\
+[,cdca1],,,,f ,,,,e,,,a [,cdc2] [,df,c]|
+[a,cce/],,a,,c,,,c [,,dc1],,c [c,def/],,c,,d,,a [,aa1],,d|\
+% Takt 115
+[,acc/],,a,,c,,d [a,c],,d,a,,c [acd,a1],,c/,,a ,,,c1,,a|\
+[aac,c1],e/a ca,e,c [a,a],e,f,e [a,d],e,c,e|\
+[a,cc,a2] "mit",a "Ernst"a ,,,c|\
+,,d2 "er's"c "jetzt"[ea] ,,,c|
+"meint"[fcd2] ,,,,a1f [ea,c]c e[ac]|\
+% Takt 120
+[f,de1]e [fd],h [ha,g]f [hf]e|\
+[k,hh1]h/f eca,d acef "gro'"[hf,g]k[l,i]h|\
+"Macht"[k,hh/]h[k,k],l "und"[hf,g]fhe "viel"[f,a]ef,h [he]fec|
+"List"[ef,c1][c,a] [aac,,a],d [,cdca][,ac] [,cde],,d|\
+[,dfec1][,cd] [,dfg],,f [acc,e][,df] [acd],c|\
+% Takt 125
+[c,da1],,c [,,de],,,,f [a,c,e],,,,c [,,d,e],,,,a|\
+[c,,a1],,,,e [,a,a],,,,c [e,,c],,,a [,a,c][,,,c,a]|\
+[fcd1],,,,a ,,,,e,,,a [ea,c][,c,,,a/],d [a,,c1],d|
+[fcd1],e [ef2] [ca] ,e|\
+[ac1]c/e [ff1]e [cd]e/f [hh1]f|\
+% Takt 130
+[ef1]f/h [k,h,a2] [hhia1]f [fc2]|\
+[aa,c1]e/c e1,d [fcde]e f[cd]|\
+[ha,g1]f [hf],k [k,,h][h,l] k[fh]|\
+[hk,,h2] [,,,g,a1]h [kh,ha]a [a,c2]|
+[h,a,,h2] ,e [ff,ce1]e [fc][ea]|\
+% Takt 135
+[c,da1],,c ,,d,,c ,,a,,c [a,dce],,c|\
+[f,aa1],,c [,,dce2] [h,,a,h] ,,,g|\
+[k,,h,f3],,,h1 [l,i]k hf|\
+[ef1]f [h,,,h]f/h [kh,h1]h/k ,l1h/k|
+[lk,k1]k/l ,n1k/l [nl,m1]l/n [k,,,a1]l/n|\
+% Takt 140
+[l,ia1][n,,m] [l,ik][k,,h] [h,,gh][fcd/],d [aa1]e/,d|\
+[fcde1]k [ha,g/]fec [acd2] [,ac1][,ede]|\
+[aa,c1]c [ef],,,a [fc,,e],,,,a [effc],,,,,a|\
+[ca,,c1],e/,c [,e,,,,,a1],,d [a,c,,a],,a [,a,c],d|
+[,cd1][,df] [ac,,a][cd] [effc/]fh1 e/f[hd1]|\
+% Takt 145
+[fca/]hk1 f/h[k,,h1] [hf,g]k/l h1k/l|\
+[kf,h1][h,,,a/]f [e,,,e1][cd,a/],c [ea,c1],,,,f [ac,,e],,,,c|\
+[f,,,a/],,,,c,,,,e,,,a [effc],,,,,a,,,,,e,,,,a [cd,,c],,,,,,,a,,,,,,a,,,,,a [,cd,,c],,,,,e,,,,a,,,,c|
+[a,,,e/],,,a,,,c,,a [,ac],,,c,,a,,c [,cd3/][,df/] [kf,h],,,g,,,,k,,,,h|\
+[llna/],,,,h,,,,k,,,g [kf,h],,,,a,,,,e,,,,f [hk,,h],,,,,a,,,,,e,,,,a [,d,,c],,,,e,,,a,,,c|\
+% Takt 150
+[ffh,a/],,d,c,d [ac,c]cef [ha,,,e1]f [e,,,c]c|
+[a,,cef/]cef [h,,,,e],,f,ea [c,,,ac],,a,,d,a [,c,b],eac|\
+[e,,cca/],a,c,d acef h1k/l [n,,,,k]lk,n|\
+[,laa/],nkl [n,,,,k],,l,k,l [h,,a,h],a,da [c,c]efh|
+[k,,h,f2] [ha,gh/],,,,f[a,,,e],,,,c [k,,ha],,,,,h[a,,,e],,,,f [hf,gh1],,,,,a|\
+% Takt 155
+[h,a,,h1],e/,c ,e1f [ef,c,a2] ,,,c1c|\
+[a,d2] ,,,,a1c [ea,c2] ,,,,,a|\
+[fc,,a2] ,,a [,d,,c] ,,c|\
+[a,,,e2] ,,d [c,,a1],,c [,,de],,,c|\
+,,,,f2 [a,d,e] [f,aa1],,c [,,d,e2]|
+% Takt 160
+[h,,,,h2] ,,,g [k,,ha] a1,d|\
+[,c,c1],a/,,d [,a,,,e1],,,,f [a,,,ef],,,,f [,a,c,e2]|\
+[c,d,,c2] ,,,b1,,a [ea,c,a],,,,c ,,,c,a|\
+[fcd1],d [a,,,a]c [ea,c2] ,c1e|\
+[f,a1]e [cd2] ,,c1,c [aa2]|\
+% Takt 165
+[,cd1],,,,a [a,,c],,,a ,,,,e,,,,c/,,,,a [ea,c],,,,f[a,,,e][,d,,c]|
+[fc,,a/][,d,,c][a,,,e],,,a [ea,c][a,,,,a][,e,,,e][,c,,a] [ce,,c][,c,,e][,a,b][,c,c] [,ea][,c,,c][,a,,e][,,db]|\
+[a,cc1],,,a/,,,,e [,,d,c],,,,a,,,,,e,,,,,c [,,c,,a1],,a [,acc],,,a|\
+[a,,,e1],,,,c [,cd,a],,,,,e [c,,,,c2] [,ef,c]|\
+[ef,,,a2] [,a,c1],,,a [fc,,e],,,,c ,,,,a,,,,c|\
+% Takt 170
+,,,,e1,,,a [ea,c],,,a [fc,,e],,,,c [ea,c2]|
+[c,d2] ,,,b [a,cc1],a ,c,d|\
+[a,c1]c [e,,ce]a [caaa/]ace [c,dce]efc|\
+[h,,a,h/]fhk [h,,g]klh [n,,,,,h1]l/k h,l,k,h|\
+a1,d/,c [,acc],c,da [,cd,a],dac [aacc]ce[fc]|
+% Takt 175
+[h,k,kh1][,ll/],k ,h,k[,lk1] [ef,c,a3],,,c1|\
+[fcd2] [edf1][ac] [cd]e f[ac]|\
+[hhi/],k[klh1] [la],k [kl,h/],l[k,l][l,i] [n,,m],,i[l,l,a]k|\
+[h,,,h/],,i[fc][ea] [f,de1][eac/]c [acd1]f/[hd] [kf1][h,,g]|
+[kf,h/][lh][nk,,m1] [,la]m [n,,,h]l/k [h,,g]f[e,d]c|\
+% Takt 180
+[aa,c/],dac [ac,,e]c[ea]a [c,da][ea][fc,,e1] [,d,,c]e|\
+[fc,,a1]e/c a,d[,cd],a ,c,d[a,d]c [ea,c2]|\
+[fcd/],d[ef,c1] [ca][,e,,c/],c [aacc1],,,a/,,,,e ,,,,c,,,,a,,,,,e,,,,,c|
+,,,,,a/,,,,,c,,,,,e,,,,,a [a,d,ef2] [c,da,,a/][ea][f,h,,f],,i [a,,,ca1]e/,d|\
+[fc,,a/],,d,,,g,,,,k [hk,,h],,,,f,,,,e,,,,c [kl,,a],,,,,h,,,,e,,,,f [hk,,h1],h|\
+% Takt 185
+[k,lha1][lh] [nkl],l [h,,,kh2] m1,l|\
+[n,,,h1][l,a/]k [h,,g]f[e,d],h [ea,c],,,e,,c,,,c [acd],,c,,a,,,c|
+[fhia/],,,,h,,a,,b ,,a,,,c,,,,f,,,,e [h,,,,h],,,,e,,,a,,,,c [ef,c],,,a,,,,e,,,,c|\
+[kl,,a/],,,,,h,,,,e,,,,c [a,,,a],,,,,e,,,,,c,,,,,a [lh,,,,a],,,,,a,,,,,c,,,,,e ,,,,a,,,,c,,,,e,,,a|\
+[kf,,a/],,,,h,,,e,,,g ,,,h,,,g[k,a],,,,h [lh,a],,,,h,,,,k,,,g [kllh],a,c,d|
+% Takt 190
+[hkl/],a,c,d ,f,d[cc],,f [ffh],,d,,f,c [cd1],c/,a|\
+[,cd/]ace [f,,,a]hkf [h,,gh]f[e,d]c [ea]f[h,h]e|\
+[f,a/]e[fc]h [fd]hkf [h,,g]f[hd]k [hf]klh|
+[k,,h/]n[l,l]k [hd]fec [ac]cef [hffg]efh|\
+[k,,h/]l[n,n]k [l,l,m]npn [l,h,k]khf [hed]fec|\
+% Takt 195
+[effc/]hfe [c,d]a,d,c [,ac],c,d,,f [a,d,e]cef|
+[ea,a/]fhk [,l,,hk]h[k,,h]l [h,,,,h]k[l,,g][h,a] [n,,,ma]lkh|\
+[k,,ha1]h [f,,c][e,,,c/]c [a,d,e1],,c [,,def2]|\
+[a,d,e2] [,c,,a] [c,,a1],a/,c [,d,,c2]|\
+[ef,,ca1][,d,,e/][,c,a] [,a,c],c,d1 [fc,,a/],d[a,,a][,c,c] [,da][,c,c][,a,a][,,d,e]|
+% Takt 201
+[ea,,ca1],,,c/,,,a [f,d,ec],,,,c,,,,a,,,,c ,,,,e,,,a,,,c,,,e [ea,c,e2]|\
+[cc,,a1],,,b/,,,,e [,a,bc],,,c[,,d,e],,,b [a,cc,a2] ,a|\
+"sein'"[c,,,c2] "grau-"[c,a1],,,,e ,,,a,,c "sam"[a,d,e2]|\
+"R-"[c,,,c2] [a,c1],,a "stung"[,dd,c2] ,,c|\
+"ist"[k,hha1],,i [k,l,h],,,h ,f,,,g/,,,e [h,,g2]|
+% Takt 206
+[k,,h1],,,g [,ha][h,,g] [f,de],,f [,ca2]|\
+[ec2] ,,,c1e [fca2] [ec,c]|\
+[c,,a2] ,,f [bc,,e1],a [c,de2]|\
+[e,ce2] [kk,,h1],l [kka],,,,h [hh,a2]|\
+[k,l,,k1]h [fc,,e],,,a [ec,c2] ,a|\
+% Takt 211
+[,c,,a1],a [c,d],,,,c [c,c,e2] a|\
+[c,a1][a,c/],,d [,df,c2] [,ca,c] [,,a,a]|
+[,da,c1],,,,a [,a,c,e2] [,,de,c1],,,c ,,,a,a|\
+[,a,,e2] [c,d] [ca1],,d [a,c2]|\
+[c,a1]a [,df,c2] [,ca] [,,de1],,c|\
+% Takt 216
+,,d2 [,,cc] [c,de1],,,c [ca,a2]|\
+[,,d,e2] [n,,,m] [p,aa1]n [la,,,h],,,g|\
+[k,,h,k1],,a ,,c[,c,d] [,caa2] ,a|\
+[,ccc1],a [k,,hk2] [k,,,h] [h,,g]|
+[k,,ha1]h [fh],,,,,h [eh,,e2] a1,,,,c|\
+% Takt 221
+[c,,,a2] [,d,,c] [a,,,,e] [,c,,a]|\
+[,da,,c2] [,a,,c] [,ca] ,,,,b1,,,c|\
+[,a,ac/],,,,e,,,a,,,c ,,a1,,d [,,c,e],,a [,,cc2]|\
+[c,def1],,c [c,de],,,c ,a,,d [a,dce2]|\
+[c,,ac2] [a,c1],,a [,dc,c],,d/,,c ,,d,,c,,a,,c|
+% Takt 226
+[,cdca4] "auf"f2 ,,d1,a|\
+"Erd'"[ec1],d a2 "ist"c ,e|\
+"nicht"a1,d ,c,a/,,d "seins"[cd1],c "glei-"[,df],,d/,,c|\
+,,a1,,c [,cd2] ,a ,,c|\
+"chen.",,d1[,a,c] [,cd,a][,d,,c] [a,c,e][c,,a] [e,,c]f|\
+% Takt 231
+[h,a2] ,,,,g1f [e,,c],,,,f [f,,,e],,,,c/,,,,a|
+[,,a,f1],,,,e [h,,a,h],,,,a/,,,,,e ,,,,,c1,,,,,e [f,,,ef2]|\
+[,,,,ca1]e/c e2 [f,,,a] [,,,ca1]e|\
+[c,,,c/],,,,e,,,,f,,,,e [l,,,,h],,,,,k[,k,a],,,,h [kla],,,,h,,,e,,c [f,d1],,,,a|\
+[h,,,h1]e/c e1[c,,a] [ff,,e],,,,a [c,,a][a,,,e]|
+% Takt 236
+[h,i,,h1][a,,,,k/][,h,a] [e,,c1][c,,a] [k,l,,k],,,,a [fh,a/],,,,h,,a,,c|\
+,,d/,a,c,d [ef1][a,,c] [ca],e/,c ,e1,,d|\
+[aac2] ,a [,cd1]c [ffh2]|\
+[ea2] a [ca3],,d1|\
+[a,c2] ,,d c [,df]|\
+% Takt 241
+,,d2 ,c [,aa] ,,c|
+,,d/,a[,c,,a][,d,,c] [a,,,e],,,a[f,,c]h [k,,h]a[,c,c],d [a,a,ef]cef|\
+[h,,,,e1],a/,c [,d,c]ace [f,,,ac1],,d/,a [,c,b],dac|\
+[e,,cca/],f,,f,,h [,,ikh]ace [f,de]hfe [c,aa]ace|
+[ca/]efh [k,,hhk]lnk [l,,a,h]klh [n,,,m]lkh|\
+% Takt 246
+[k,,h,f/]lnl kh[f,,c]e [c,,a][e,,c][f,a][e,,c] [fd,a],,,c[e,a][c,c]|\
+[acd/]c[a,,,a][,d,,c] [a,,,e][c,,a][e,,c][f,a] [ha,g][f,a][e,,c][c,,a] [e,,c][f,a][c,,a][e,,c]|
+[f,de/][e,,c][c,,a][a,,,e] [c,,a1][a,,,e/][,d,,c] [fc,,a][,d,,c][a,,,e][,d,,c] [a,,,a],,,,c[,d,,e][,c,a]|\
+[ea,c/],c[,a,,,a][,,d,,c] [,a,,,e][,c,,a][,d,,c],,,,e [c,da],,,,a,,,,c,,,,e ,,,a[,,cc][,,de][,ac]|\
+[acd/],,,c,,a[,ac] [acd][,ac][,,de][,,cc] [c,da][a,,c][,da][a,c] [c,d][e,f][fc][hd]|
+% Takt 251
+[kkl,,k1][,,h,h/][,da] [a,c][c,d][ea][fc] [hhi,,h1][,a,a/][,c,c] [,da][a,c][c,d][ea]|\
+[ffh,a1],,,,e/[c,,a] [a,dc][,da][,c,c][,a,a] [,c,c1],,,,f [f,,,ef2]|\
+[e,,,ca2] [,a,c] [ca,,c] ,,,b1,,d|\
+[a,cce2] [,c,,a1],,,c [c,da],,,c [,dfec2]|\
+,,,,,c1,,d [,cdca],,c/,,a [,ac,,a1],,,,f [a,d,e2]|
+% Takt 256
+[a,,,ca2] [,,c,a1],,a [,,c,c2] ,d|\
+[,cd,a2] ,,,,c ,,,,e ,,,a|\
+H,,,c8|]
+S:https://www.folktunefinder.com/tunes/156954
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Praetorius/EinfesteBurg.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Praetorius/EinfesteBurg.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

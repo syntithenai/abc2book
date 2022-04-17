@@ -1,0 +1,21 @@
+X:1
+T:The Fair Maid of Islington
+M:6/8
+L:1/8
+K:C
+ G| G2 G G3/2 A/2 B| c2 c c3/2 d/2- e| d2 c B3/2- A/2 B| c3- c2 G|\
+ G2 G G3/2 A/2 B| c2 c c3/2 d/2- e| d2 c B3/2 A/2 B| c3- c2 d| e2 e e3/2 d/2 c|\
+ d2 d d2 d| B3/2 c/2- d d3/2 c/2 B| A3 d2- B| c3/2 d/2 c B2 G| A3/2 B/2- c B2 G|\
+ A2 G ^F3/2 E/2- F| G4A-B| c3/2 d/2 c B2 G| A3/2 B/2- c B2 G| A3/2 B/2- G ^F3/2 E/2- F|\
+ G6|
+S:https://www.folktunefinder.com/tunes/156690
+S:http://back.numachi.com:8000/dtrad/abc/MAIDISLG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MAIDISLG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

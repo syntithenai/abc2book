@@ -1,0 +1,122 @@
+X:2810
+T:Greensleeves
+C:anon., words: anon.
+O:England
+N:This arrangement was originally for two lutes, but the first part
+N:can easily be played on a melodic instrument as well.
+R:Broadside ballad
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/greensleeves-ct/greensleeves-ct-gnlte.abc
+V:1 Program 1 40 %Violin
+V:2 Program 1 24 %Classical guitar
+V:3 Program 1 24 bass %Classical guitar
+M:C|
+L:1/4
+Q:1/2=59
+K:Bb
+V:1
+Md>e dd|McA FG/A/|PB>A GA/G/|A^F D2|
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,4D4]|zz/D/A,2|
+V:3
+B,,4|F,3F,|G,,A,,B,,C,|D,3D,|
+%
+V:1
+Md>e dd|McA FG/A/|BA/G/ ^F/G/A/F/|G/G/d M=BG||
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,D]G[A,D]C|[=B,2D2G2][B,2D2G2]||
+V:3
+B,,4|F,3F,|G,2D,2|G,,4||
+%
+V:1
+d/d/d/d/ fd|A/A/A/A/ cA|G/G/G/G/ PBG|A/A/A ^FD|
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,4D4]|zz/D/A,2|
+V:3
+B,,4|F,3F,|G,,A,,B,,C,|D,3D,|
+%
+V:1
+d/d/f MdB|A/A/c MAF|G/A/B/G/ MAA|=BG [G2G2]||
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,D]G[A,D]C|[=B,2D2G2][B,2D2G2]||
+V:3
+B,,4|F,3F,|G,2D,2|G,,4||
+%
+V:1
+B,/A,/B,/C/ D/C/D/=E/|F/=E/F/G/ A/G/A/F/|G/F/G/A/ G/B/A/G/|^F/=E/F/G/ FD|
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,4D4]|zz/D/A,2|
+V:3
+B,,4|F,3F,|G,,A,,B,,C,|D,3D,|
+%
+V:1
+F/E/D/F/ E/D/C/E/|D/C/D/=E/ F/G/A/D/|=E/^F/G/E/ F/G/A/F/|G2 G2||
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,D]G[A,D]C|[=B,2D2G2][B,2D2G2]||
+V:3
+B,,4|F,3F,|G,2D,2|G,,4||
+%
+V:1
+f2 dB|cMA F2|PB>A GA/G/|MA^F Dd/e/|
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,4D4]|zz/D/A,2|
+V:3
+B,,4|F,3F,|G,,A,,B,,C,|D,3D,|
+%
+V:1
+fMd BA/B/|cA FG/A/|BA/G/ ^F/G/A/F/|G/A/=B/c/ MBG||
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,D]G[A,D]C|[=B,2D2G2][B,2D2G2]||
+V:3
+B,,4|F,3F,|G,2D,2|G,,4||
+V:1
+MB,>C D>=E|F>G MA>F|G>B A>G|^F3D|
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,4D4]|zz/D/A,2|
+V:3
+B,,4|F,3F,|G,,A,,B,,C,|D,3D,|
+V:1
+PF>E D>F|G/A/B MA>D|=E/^F/G F/G/MA|G4|]
+V:2
+[B,3/D3/]C/ D=E|zFC2|[B,D]G[A,D]C|[=B,2D2G2][B,2D2G2]|]
+V:3
+B,,4|F,3F,|G,2D,2|G,,4|]
+W:
+W:Alas, my love, you do me wrong to cast me off discourteourly,
+W:and I have loved you so long, delighting in your company.
+W:
+W:  Greensleeves was all my joy, Greensleeves was my delight.
+W:  Greensleeves was my heart o gold and who but my lady Greensleeves.
+W:
+W:If you intend to do disdain, it does the more enrapture me,
+W:And even so, I still remain a lover in captivity.
+W:
+W:  Greensleeves was...
+W:
+W:Alas, my love. that you should own a heart of wanton vanity.
+W:So must I meditate alone upon you insincerity.
+W:
+W:  Greensleeves was...
+W:
+W:Ah, Greensleeves, now farewell, adieu, to God I pray to prosper thee,
+W:for I am still your lover true come once again and love me.
+W:
+W:  Greensleeves was...
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/162495
+S:http://abc.musicaviva.com/tunes/england/greensleeves-ct/greensleeves-ct-gnlte.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/greensleeves-ct/greensleeves-ct-gnlte.abc
+% Rhythm Broadside ballad
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

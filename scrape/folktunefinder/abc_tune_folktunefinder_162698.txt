@@ -1,0 +1,32 @@
+X:1
+T:Gudenne de Rennes
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=120
+M:2/4
+L:1/16
+K:C
+"C"G2c2 c3A | "G"B2c2 d4 | "C"c2e2 "G"d2c2 | B2A2 A2G2 |
+"C"G2c2 c3A | "G"B2c2 d4 | "C"c2e2 g2c2 | "G"d2B2 "C"c4 |
+M:6/8
+L:1/16
+|: .g4 e2 c4 e2 | e2d2c2 "G"d4 d2 | "C".g4 e2 c4 e2 | "G"d6 "C"c6 :|
+%%rm  Les enfants de nos enfants
+%%rm  Auront de tristes grands-pres
+%%rm  Et la vie que nous menons
+%%rm  Nos enfants s'en r'sentiront ;
+%%rm
+%%rm  Sautons la gudenne mon gars
+%%rm  Sautons la gudenne.
+S:https://www.folktunefinder.com/tunes/162698
+S:http://termen.free.fr/danses/rennais/GuedennedeRennes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:0766
+T:"The Hare in the Corn" (1st setting) (jig) 0766
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(3(A/2B/2c/2)|d2G d2=f|edc B2G|c2e dcB|cAA A2(B/2c/2)|
+d2G d2=f|edc BAG|Aag {g}fef|gGG G2:|
+|:(3(A/2B/2c/2)|.d(B/2c/2d/2B/2)GBc|.d(B/2c/2d/2B/2)GBd|.e(c/2d/2e/2c/2)Ace|.e(c/2d/2e/2c/2) ABc|
+dBd ece|fdf {a}gfe|dcB Agf|gGG G2:|
+S:https://www.folktunefinder.com/tunes/163316
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0766-HareCorn-1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0766-HareCorn-1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

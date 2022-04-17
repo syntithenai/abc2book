@@ -1,0 +1,25 @@
+X: 1
+T: SADDLE THE PONY -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000421024014 by John Chambers jcsd:world.std.com
+K: Amix
+ug \
+| fed cAA | cAA ecA | fed cAA | BGB dBG |
+| fed cAA | cAA ecA | fgf g2d | BGB d2 :|
+|: uB \
+| cee dff | cee ecA | cee dff | B^GB dBG |
+| cee dff | cee ecA | faf g2d | BGB d2 :|
+S:https://www.folktunefinder.com/tunes/165235
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/SaddleThePonyJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/SaddleThePonyJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

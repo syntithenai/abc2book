@@ -1,0 +1,27 @@
+X:115
+T:Hopsa
+S:HO
+R:Hopsa
+O:Denmark
+N:the slur ornament-marks represent trills.
+M:2/4
+K:D
+A2 |\
+fAfA fAfA | fAfA afdf | eAeA eAeA |eAeA ba^ga |\
+fAfA fAfA | fAfA afdf | eAeA eAed |cABc d2A2\
+|: f2~fe dfA[df] | egec dfag | \
+f2~fe dfaf |1 eAce d2A2 :|2 d2zf/g/ ::\
+abag [A2~f2]df | [A2~e2]ce  [A2~f2]df/g/ | \
+abag [A2~f2]df |1 eAce  d2z:|2 d2z :|**
+S:https://www.folktunefinder.com/tunes/155302
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes2.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes2.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

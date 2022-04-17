@@ -1,0 +1,41 @@
+X: 1
+T:Glorisher
+M:2/2
+C:
+S:Seabright
+N:from Minnesota via Schult \& Temple
+A:Bledington
+O:English
+R:Reel
+%:
+%:
+%P:(AB)$^4$
+P:(AB)4
+L:1/8
+K:D
+Q:1/2=88
+L:1/8
+P:A
+A2|d3 d   d2 e2|d4     A2 A2|F3  G   A2 B2|A4    A2 \
+A2|d3 d   d2 e2|d4     A2 A2|F3  G   A2 B2|A4    A2 \
+A2|d3 d   d2 e2|d4     d2 d2|c3  d   e2 f2|e4    e2 \
+z2|defe   d2 ag|f2 e2  d2||\
+P:B
+|:e2|f2 f2  fgaf|g2 e2  e2 e2|f2  fe  d2 f2|edcB  A2 \
+Bc|d2 cB  A2 d2|e2 dc  d2 e2|f2  ed  c2 e2|d4    d2:|
+W:Why don't you take a bow, sir  Because I  don't know how,     sir.
+W:Why don't you genuflect,  sir  Because my knees are  wrecked, sir.
+W:Why don't you caper   upright  Because my pants are  too      tight.
+S:https://www.folktunefinder.com/tunes/161414
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gl/Glorisher_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

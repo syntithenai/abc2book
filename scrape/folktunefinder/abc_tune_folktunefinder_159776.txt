@@ -1,0 +1,24 @@
+X:3
+T: London Pride (2nd version) (a.k.a. Old Heddon of Fawsley)
+C: Trad.
+S: CJS MSS (from Mason)
+Z: From Bacon's Handbook of Morris dances (transposed).
+M: C|
+L: 1/8
+K: Amix % 2 sharps
+P:A
+  A2 e2 e2 d2 | BcBA G3 A/2B/2 | c2 e2 dcBA | B4 A4 :||
+P:B
+  e2 ef g2 e2 | agfe d4 | e2 ef g2 e2 | a3 g e2 f2 |
+ g2 g2 g2 e2 | dcBA G3 A/2B/2 | c2 e2 dcBA | B4 A4 ||
+S:https://www.folktunefinder.com/tunes/159776
+S:http://tomkeays.com/morris/tunes/withington/withington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

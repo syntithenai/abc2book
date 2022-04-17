@@ -1,0 +1,31 @@
+X: 1
+T: Habervogl
+R: zwiefacher
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 23/4
+L: 1/8
+K: Bb
+|: "F7"F2 \
+| "Bb"[d2F2] [dF][dF] [dF][dF] | [d2F2] [c2F2] [B2F2] \
+| "Eb"[B2G2][G2E2] | [G4E4] | [B2G2][G2E2] | [G4E4] \
+| "F7"[c2E2] [cE][cE] [cE][cE] | [c2E2] [B2E2] [G2E2] \
+| "Bb"[G2E2][F2D2] | [F4D4] |
+| "Bb"[G2E2][F2D2] | [F4D4] \
+||"Bb"[B2D2] [BD][BD] [BD][BD] | [B2D2] [A2D2] [G2D2] \
+| "F7"[A2E2][AE][BE] | [c4E4] | [A2E2][AE][BE] | [c4E4] \
+| "F7"[f2A2] [fA][fA] [fA][fA] | [f2A2] [e2A2] [A2E2] | "Bb"[B2D2] z2 :|
+|: F2 \
+| "Bb"G2 F=E FB | "F7"[A2F2][e2A2] | [A2F2][e2A2] \
+|     G2 F=E FA | "Bb"[B2D2][d2F2] | [B2D2][d2F2] \
+| "Bb"G2 F=E FB | "F7"[A2F2][e2A2] | [A2F2][e2A2] \
+| "F7"F2 [AF][cA] [ec][AF] | "Bb"[B2D2] z2 :|
+S:https://www.folktunefinder.com/tunes/162823
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Habervogl_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Habervogl_Bb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 23/4
+% Has_accompaniment_chords Has chords

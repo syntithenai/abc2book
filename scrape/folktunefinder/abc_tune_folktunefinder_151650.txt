@@ -1,0 +1,27 @@
+X:121
+T: Verhaengnisvolle Heirat
+N: Q2052
+O: Mitteleuropa, Niederlande, West - Flandern
+N: Niederlaendische Fassung der Ballade.
+R: Ballade, Braut - Werbung, Minderjaehrige, Tod
+M: 3/2
+L: 1/16
+K: G
+G2A2B3Bd2c2 | B6c2d4e4d4^c4 | d12z2
+d2d4e3d | d6c2B4d4^c2d2e2d2 | A4
+d4g4d4 | B4d4^c2d2e2d2=c4B2d2 | c4z8
+e4^d3ef2e2 | d4A4d4d2c2B6c2 | d8z4
+d4g4d4 | B4d4^c2d2e2d2=c4B2d2 | c4z8
+e4^d3ef2e2 | d4A4d4d3cB6A2 | G8z4
+S:https://www.folktunefinder.com/tunes/151650
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, minderjaehrige, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

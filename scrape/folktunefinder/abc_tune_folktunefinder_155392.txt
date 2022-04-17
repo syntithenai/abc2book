@@ -1,0 +1,25 @@
+X:1
+T:Lark In The Morning, The
+T:Lark In The Morning
+T:Lark On The Strand, The
+R:jig
+M:6/8
+L:1/8
+K:Dmaj
+|:AFA AFA|BGB BdB|AFA AFA|fed BdB|
+AFA AFA|BGB BdB|def afe|dBB BdB:|
+|:def afe| bff afe|def afe|dBB BdB|
+def afe|bff afe|g2e f2d|edB BdB:|
+|:dff fef|fef fef|dff fef|edB BdB|
+dff fef|fef def|g2e f2d|edB BdB:|
+|:Add fdd|edd fdd|Add fdd|edB BdB|
+Add fdd|edB def| g2e f2d|edB BdB:|
+S:https://www.folktunefinder.com/tunes/155392
+S:http://www.slainte.ch/abc/Moving.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

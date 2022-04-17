@@ -1,0 +1,23 @@
+X:3
+T:F/orste Brujstyk
+R:Sonderhoning
+Z:from photocopy
+M:2/4
+L:1/16
+Q:80
+K:G
+|: "G"d2dc B2c2 | "G"dcBA G2G2 | "C"e2ed "D"B2c2 | "G"d4 d4 :|
+K:GDor
+|: "G"d2d2 g2g2 | "F"f4 f=ede | "F"f2f=e d2c2 | "Gm"B4 B2Bc  |
+|  "Gm"d4  G3a   | "Gm"B2BG "F"A2F2 | "Gm"A2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/158981
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/ForsteBrujstyk.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianWilson/ForsteBrujstyk.abc
+% Rhythm Sonderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

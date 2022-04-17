@@ -1,0 +1,25 @@
+X:1
+T: Vater und Tochter
+N: Q0142
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg
+N: Zweite Zeile refrainartig.
+R: Ballade, Verfuehrung, Verwechslung
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2B2 | A2F2D2
+D2 | G4E4 | D6
+D2 | G2G2B2c2 | d2B2G2
+D2 | G2G2A2A2 | d3BG2
+D2 | G2G2BAA2 | G4z2
+S:https://www.folktunefinder.com/tunes/152954
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verwechslung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

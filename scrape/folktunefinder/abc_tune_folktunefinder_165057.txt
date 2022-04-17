@@ -1,0 +1,36 @@
+X:8285
+T:The Hoy Song
+C:anon.
+O:Norway
+S:Edinburgh Shetland Fiddlers
+R:Polka
+Z:Jack Campin 2002
+F:http://abc.musicaviva.com/tunes/norway/hoy-song/hoy-song-1.abc
+%Posted March 2nd 2002 at abcusers by Jack Campin who asked if anybody could identify the tune.
+M:2/4
+L:1/16
+Q:1/4=128
+K:A 
+e2ee e2ee|e2ee       f2e2|c2cc c2cc|   c2cc d2c2 |
+B2B2 A2A2|G2G2       F2F2|E2d2 c2B2|[1 A2G2 F2E2:|\
+                                    [2 A4   z4  ||
+E4   E2A2|c4 "^HOY!!"z4  |c4   d2c2|   B4   z4   |
+B2B2 A2A2|G2G2       F2F2|E2d2 c2B2|[1 A2G2 F2E2:|\
+                                    [2 A4   z4  |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/165057
+S:http://abc.musicaviva.com/tunes/norway/hoy-song/hoy-song-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/hoy-song/hoy-song-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/hoy-song/hoy-song-1.abc
+% Rhythm Polka
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

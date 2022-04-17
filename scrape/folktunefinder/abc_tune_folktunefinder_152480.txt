@@ -1,0 +1,30 @@
+X:85
+T: O'Mealy's
+C: R.L. O'Mealy
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G
+(3DEF | GFGA BGBd | gfga bgdB | cBAG FAdc |\
+(3BAG (3AGF GFED |
+GFGA BGBd | gfga bgdB | cBAG FAdc | (3BAG (3AGF G2 :|
+(3Bcd | gd (3Bcd gd (3Bcd | gd (3Bcd g3 z |\
+agfd Adfd | Adfd Ad f2 |
+(3Bcd gd (3Bcd gd |(3Bcd gd (3Bcd g2 |agfd AFDc |\
+(3BAG (3AGF G2 :|
+S:https://www.folktunefinder.com/tunes/152480
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

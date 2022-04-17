@@ -1,0 +1,25 @@
+X: 77
+T: Peter Street -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 382
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:A
+vA2((3cBA) eA((3cBA) | eAaA gAfA | eA((3cBA) eAfA | BEcE dEBE |
+A2((3cBA) ec((3cBA) | eAaA gAfA | efec eaec | BABc A4  |]
+E2((3GFE) BE((3GFE) | BEdE cEBE | A2((3cBA) eA((3cBA) |
+eAaA gAfA | edec agaf | edec agaf | ecag fedc | BAGF EFGE |]
+S:https://www.folktunefinder.com/tunes/158715
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

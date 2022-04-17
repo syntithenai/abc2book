@@ -1,0 +1,30 @@
+X: 1
+T:Kesh Jig, The
+M:6/8
+L:1/8
+Q:3/8=220
+C:Traditional
+R:double jig
+K:G
+|: "G"GAG GAB | "D"ABA ABd | "G"edd gdd | "D"edB dBA |
+   "G"GAG GAB | "D"ABA ABd | "G"edd gdB |\
+[1 "D"AGF "G"G2D :|[2 "D"AGF "G"G2A ||
+|: "G"B2 d dBd | "C"ege "G"dBG | "G" B2d dBG | "D"ABA  AGA |
+   "G"B2 d dBd | "C"ege "G"dBG | "G"gfg "D" aga | "G"bgf g3 :|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+N:http://www.blackflute.com/music/tunes/-
+N:jigs/kesh.html 3/13/2007
+N:Modified by Peter Ostapenko to match FFB better 3/15/2007
+N:G Major
+S:https://www.folktunefinder.com/tunes/169638
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/KeshJig.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

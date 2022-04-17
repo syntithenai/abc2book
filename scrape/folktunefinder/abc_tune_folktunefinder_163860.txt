@@ -1,0 +1,26 @@
+X:1
+T:Hembygden 1945, Polska 
+C:Carl-Eric Berndt
+R:Polska
+O:Lund, Skne
+N:Polskan r tillgnad Olof Andersson vid riksspelmansstmman 1939 och publiserad i Hembygden 1945:2.
+M:3/4
+L:1/16
+K:Dm
+|:d4 (DF)Ad f2(fa)|g3e (c=B)ce (g^f)gb|(ab)af (d^c)de (fg)fd|(ea)^ga (ed)^c=B [AA]4|
+d4 (DF)Ad f2(fa)|g3e (c=B)ce (g^f)gb|ad'=fd' ed'dd' ^cc'Bb|afe^c AGFE [DD]2 z2:|
+|:c'2(c'b) agfe dcBA|BcBA (Gc)eg b2z2|cdc=B c2b2 [G,E]2b2|FGFE F2a2 [A,F]2a2|
+c'2(c'b) agfe dcBA|(Bc)BA (Gc)eg b2z2| d'^c'd'e =c'=bc'e _babe|g^fge =f4 F2z2:|
+S:https://www.folktunefinder.com/tunes/163860
+S:http://www.folkwiki.se/pub/cache/Hembygden_1945_Polska__301754.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hembygden_1945_Polska__301754.abc
+S:http://www.folkwiki.se/pub/cache/Hembygden_1945_Polska__301754.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

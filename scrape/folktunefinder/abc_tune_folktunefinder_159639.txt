@@ -1,0 +1,26 @@
+X: 1
+T: The Fyket Strathspey
+O: trad
+N: Both a reel and a strathspey
+B: Skye p.13 (labelled "very old")
+Z: John Chambers <jc@trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: AMix
+|: g \
+| "A"f>A e/f/g/e/ a<A e>g | f>A e/f/g/e/ "G"B<G G>g | "A"f>A e/f/g/e/ a>A e/f/g/e/ | fd/f/ ed/=c/ "G"B<G G :|
+|: e/g/ \
+| "A"a>a b/a/g/e/ a<A Ae/g/ | a>a b/a/g/e/ "G"g<G G>g | "A"a>a b/a/g/e/ a>a b/a/g/e/ | "G"g>g e/g/d/g/ B<G Ge/g/ |
+| "A"a>a b/a/g/e/ a<A Ae/g/ | a>a b/a/g/e/ "G"g<G G>g | "A"a>a a>g a/g/a/b/ ag/e/ | "G"d/e/g/a/ e/g/d/g/ B<G G |]
+S:https://www.folktunefinder.com/tunes/159639
+S:http://trillian.mit.edu/~jc/music/book/500/FyketS.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/FyketS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

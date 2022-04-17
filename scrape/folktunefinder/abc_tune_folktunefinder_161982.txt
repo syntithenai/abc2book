@@ -1,0 +1,28 @@
+X:62
+T: Graf und Nonne (Die Nonne)
+N: Q01558
+O: Suedosteuropa, Rumaenien
+N: Fermatenton zu Beginn der dritten und sechsten Zeile entsprechend
+N: der Taktart zur Halben verlaengert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebes - Lied
+M: 2/4
+L: 1/8
+K: G
+D | GGFE | E2D
+D | GGAc | B2z2
+D4 | BABd | d2c
+B | ADDc | c2B
+A | GDBA | G2z2
+D4 | BABd | d2c
+B | ADDc | c2B
+A | GDBA | G2z
+S:https://www.folktunefinder.com/tunes/161982
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebes - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

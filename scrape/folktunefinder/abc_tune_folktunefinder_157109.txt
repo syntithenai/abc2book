@@ -1,0 +1,26 @@
+X:10
+Z:Song #9 in 'RRTuneBk/Aird1/Aird1.abc'
+T:the Moon and Seven Stars.
+M:6/8
+L:1/8
+B:Aird's Airs and Melodies vol 1
+Z:Transcriptions by Jack Campin, July 1999.
+O:Scotland
+%%ID:00000009
+K:D
+d2A AGF|GAB A3 |Bcd efg|fed cBA|
+d2A AGF|GAB A3 |Bcd efg|Adc d3:|
+e2A A2f|efg f3 |fgf e2d|cdB A3 |
+BGB AFA|BGB AFA|Bcd efg|Adc d3:|
+S:https://www.folktunefinder.com/tunes/157109
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/tac_session.abc
+S:http://www2.redhawk.org:8080/irish/other/tac_session.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/other/tac_session.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Gnglt frn Skrsjdal
+C:Ture Cederholm
+R:Gnglt
+Z:Patrik Mnsson, 2008-07-24
+O:Skrsjdal
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+D|: G3D B,2D2 | G2A2 B2c2 | d4 g4 | B6 z d | c3B c2A2 | F2D2 E2F2 | G4 B4 |
+D6 z D | G3D B,2D2 |G2A2 B2c2 | d4 g4 | B6 z d | c3B c3A | F2D2 E2F2 |
+G4 G4 |[1 G6 z D :|[2 G6 z2]|: e3c G2c2 | e2g2 f2e2 | d3B G2B2 | d8 |
+c3B c2A2 F2D2 E2F2 | G4 B4 | d8 | e3c G2c2 | e2g2 f2e2 |
+d3B G2B2 | d8 | c3B c2A2 | F2D2 E2F2 | G4 G4 |G6 z2 :|
+S:https://www.folktunefinder.com/tunes/161533
+S:http://www.folkwiki.se/pub/cache/G%e5ngl%e5t_fr%e5n_Sk%e4rsj%f6dal_48ccf0.latin.abc
+S:http://www.folkwiki.se/pub/cache/G%e5ngl%e5t_fr%e5n_Sk%e4rsj%f6dal_48ccf0.abc
+S:http://www.folkwiki.se/pub/cache/G%e5ngl%e5t_fr%e5n_Sk%e4rsj%f6dal_48ccf0.abcm.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X: 1
+T:Greenwich Park
+M:2/2
+L:1/4
+B:The Round Band Book of Playford
+K:F
+"F"F2 "C"c2 | "F"A3 "C7"d | "F"cA "Gm"GF | "C7"GE DC | \
+"F"F2 "C"c2 | "F"A3 "C"d | "F"cf "Gm"dg | "F"e4 :: \
+"C"e2 "C7"g2 | "F"c3 "C"e | "F"fc cA | "Bb"d3 c | \
+"Gm"dB "Bb"BG | "C"EG "F"Cc | "Gm"BA "C"GF | "F"F4 :|
+S:https://www.folktunefinder.com/tunes/162521
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Greenwich_Park_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

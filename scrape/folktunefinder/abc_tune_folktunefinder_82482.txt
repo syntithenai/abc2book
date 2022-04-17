@@ -1,0 +1,26 @@
+X:122
+T: ES REGNET AUF DER BRUECKE
+N: K2172A
+O: Europa, Mitteleuropa, Deutschland, Niederrhein
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: F
+C | FGAB | c2d
+B | A2G2 | F2z
+C | FGAB | c2d
+B | A2G2 | F2z2
+cccc | ddd2
+BBBB | ccc2
+AAAA | c2B
+B | A2G2 | F2z
+S:https://www.folktunefinder.com/tunes/82482
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

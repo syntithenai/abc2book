@@ -1,0 +1,32 @@
+X: 3
+T: Kitchen Girl, The
+R: reel
+M: C|
+L: 1/8
+K: A mix
+|: "A"[a4c4] "G"[g4B4] | "A"(ef)ed c2cd | (ec)ef (ga)ba | "E"g2e2 e2e-g |
+   "A"(ab)af "G"(ga)gg | "A"(ef)ed (cd)ef | "G"g2d2 "E"efed |\
+[1 "A"c2A2 A2(eg :|[2 "A"c2A2 A2([A2A2] ||
+K: A dor
+|: "Am"[AA])B)=cA "G"(BA)GB | "Am"(AB)AG (ED)EG | A2AA- =c2d2 |\
+   "E"e3(g e2)([A2A2] |
+   "Am"[AA])B)=cA "G"(BA)GB | "Am"(AB)AG (EG)AB | =c2A2 "G"BA-G2 |\
+[1 "Am"A3(B A2)([A2A2] :|[2 "Am"A3(B [A4A4]) |]
+N:Fiddlers Fakebook, p 160-161 - adapted by Peter Ostapenko.
+N:SDFH CB - b - Am and C natural (3/27/2007)
+N:Last update - PO 6/3/2007
+N:a - A Mixolydian
+N:b - A Dorian
+S:https://www.folktunefinder.com/tunes/170129
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/KitchenGirl.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

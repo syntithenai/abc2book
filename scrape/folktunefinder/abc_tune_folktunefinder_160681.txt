@@ -1,0 +1,29 @@
+X:1
+T:Gazaremsan
+R:Polska
+O:Gstrikland
+S:efter Lrsk-Olle
+N:Frn Stenstra Sandviken
+M:3/4
+L:1/16
+K:Dm
+A2B^c d^cde fefg|a3g e2f d2^c2|A2B^c d^cde fefa|g2f2 f2e2 e4:|
+K:D
+|:A2d2 d2c2 c2B2|B3A GFGB A4|D3E F4 F4|E3D ^CDEF D4-|
+D2d2- d2c2 c2B2|B3A GFGB A4|A2B^c d^cde fefg|a2^c2 d8:|
+S:https://www.folktunefinder.com/tunes/160681
+S:http://www.folkwiki.se/pub/cache/Gazaremsan_5ad6b3.latin.abc
+S:http://www.folkwiki.se/pub/cache/Gazaremsan_5ad6b3.abc
+S:http://www.folkwiki.se/pub/cache/Gazaremsan_5ad6b3.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

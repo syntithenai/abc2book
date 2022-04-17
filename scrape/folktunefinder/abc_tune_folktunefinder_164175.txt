@@ -1,0 +1,29 @@
+X: 1
+T: HIGHLAND MARY
+S: MDT
+O: Bampton
+P: A.(AB2)4
+Q: 1/2=96
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+P: A
+((3EFG) |\
+   A2BA GFE2 | A2Bc d2cd | e2ef edcB | A2c2 E3F/G/ |
+   A2BA GFE2 | A2Bc d2cd | e2ef edcB | A2G2 A4    ||
+P: B
+   ABcd e2e2 | feec ((3ded) cB | e2ef edcB | ABcA E3F/G/ |
+   A2BA GFE2 | A2Bc d2cd | e2ef edcB | A2G2 A4    ||
+S:https://www.folktunefinder.com/tunes/164175
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Highland_Mary_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

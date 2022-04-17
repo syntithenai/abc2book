@@ -1,0 +1,38 @@
+X:1
+T:Govori se da me vara\=s
+M:4/4
+L:1/8
+K:G
+P:Vorspiel
+|: "Em"Ge g2 "B7"f4 | "C"ge e2 "G"d4 | "G"Ge dB "D7"AB c2 | "G   (G D7)"B8 :|
+P:Strophe
+"G"Ge dB "D"AB c2 | "G   (G A7)" B8 | "D"de fd "A7"gf e2 | "D"d8 |
+w:1.Go-vo-ri se da me va-ra\=s I da \=ce\vs me os-ta-vi-ti
+|: "Em"Ge g2 "B7"f4 | "C"ge e2 "G"d4 | "G"Ge dB "D7"AB c2 | "G"B8 :|
+w: A zna\=s do-bro da sam bo-lan I da ne-\vcu oz-dra-vi-ti
+W:2.Znam da vi\=se prava nemam
+W:Na te tvoye o\vci crne
+W:Sla\vzi makar, da me voci\=s
+W:Ne day da mi du\=sa trne
+W:
+W:3.A nedelja kada dode
+W:\=Su\=sta\vce na tebi svila
+W:Sigurno \=ce\=s \=zaboravit
+W:Da si nekad moya bila
+W:
+W:These accents are implemented for (more or less) all characters:
+W:\vA \.c \=C \ue \vn \.T \ui \=s
+W: \`X \'X \^X \~X \=X \.X \uX \vX \kX
+W: \`x \'x \^x \~x \=x \.x \ux \vx \kx
+S:https://www.folktunefinder.com/tunes/161889
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/GovoriSeDaMeVaras.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/GovoriSeDaMeVaras.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/GovoriSeDaMeVaras.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

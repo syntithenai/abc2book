@@ -1,0 +1,31 @@
+X: 1
+T:Duncan's Boots
+M:4/4
+L:1/8
+Q:230
+C:Stephen P. McNally
+S: 1996
+R:reel
+N:For Duncan and Mia Scott (no relation)
+H:
+K:D
+|:dffg fedf|Bdfe dA (3ABA|dffg feda|edef eABd|
+gffg fedf|Bdfe dA (3ABA|Bdaf edef|geBcd4:||
+|:afdc dafd|Bdfe dA (3ABA|afdc dafd|edef egfg|
+afdc dafd|Bdfe dA (3ABA|Bdaf edef|geBcd4:||
+|:df (3fef dfgf|Bdfe dA (3ABA|df (3fef dfaf|edef gB (3BcB|
+df (3fef dfgf|Bdfe dA (3ABA|Bdaf edef|geBcd4:||
+|:af (3fef dcBA|Bdfe dA (3ABA|af (3fef ABdf|edef gB (3BcB|
+af (3fef dcBA|Bdfe dA (3ABA|Bdaf edef|geBcd4:||
+S:https://www.folktunefinder.com/tunes/154963
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ceilidhband.org/tunes/duncans-boots.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

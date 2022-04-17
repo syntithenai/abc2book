@@ -1,0 +1,21 @@
+X:19
+T:ESSENCE OF SUGAR CANE.
+B:Coles pg. 24.3
+Z:John B. Walsh, 5/8/2002 <walsh:mat:h.ubc.ca>
+M:C
+L:1/8
+K:C
+G,>G,A,>B, (C">"E2)|E>ED>C (E">"G3)|G,>G,A,>B, C>EG>c|1\
+ ((3BAG) ((3FED) ((3CED) ((3CB,A,):|2((3BAG) ((3FED) C2[c2E2G,2] H|]
+|:ve>dc>e d>c (A<c)|G>GE>C D>C(A,<C)|"4"e>dc>e d>c (A<c)|\
+((3GAG) ((3FED) ((3CED) ((3CB,"D.C."A,):|
+S:https://www.folktunefinder.com/tunes/156402
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/walsh:math.ubc.ca/EssenceOfSugarCane.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/EssenceOfSugarCane.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

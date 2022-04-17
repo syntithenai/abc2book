@@ -1,0 +1,25 @@
+X:127
+T: Die Schlangenkoechin
+N: Q0079R
+O: Mitteleuropa, Deutschland (BRD) , Niedersachsen
+N: Zweite und vierte Zeile = Refrain.
+R: Ballade, Mord; Reigen - Tanz, antiphonal
+M: 3/4
+L: 1/8
+K: G
+DD | G2G2Ac | B2G2
+B2 | A3GFA | G2z2
+D2 | G2G2Ac | BAG2
+B2 | A3GF2 | G2z2
+S:https://www.folktunefinder.com/tunes/152159
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord; reigen - tanz, antiphonal
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

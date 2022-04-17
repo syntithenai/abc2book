@@ -1,0 +1,26 @@
+X: 89
+T: POPPY LEAF -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: C|
+L: 1/8
+Z: Contributed 20010926175448 by John Chambers jmchambers:rcn.net
+K: G
+((3CB,A,) \
+| G,>B,D>G B,>DG>B | D>GB>d G>Bd>g | "4"e>dc>B c>BA>G | F>dA>F D>CB,>A, |
+| G,>B,D>G B,>DG>B | D>GB>d G>Bd>g | "4"e>dc>B c>DE>F | G2B2G2 :|
+|: (uBc) \
+| d>BG>B d>Bg>d | b>ag>f "4"e>dc>B | c>AF>A c>Af>d | a>gf>e d>cB>A |
+| ((3B^AB) G>B ((3cBc) A>c | ((3d^cd) B>d e2d>=c | B>gd>B d>cA>F | G2g2G2 :|
+S:https://www.folktunefinder.com/tunes/158727
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

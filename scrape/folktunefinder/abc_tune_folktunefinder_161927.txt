@@ -1,0 +1,25 @@
+X:7
+T: Graf und Nonne (Die Nonne)
+N: Q0155F
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg an der Havel
+N: Anhaengsel an der dritten Zeile.
+R: Ballade, Standesunterschied, Werbung, Liebe
+M: 4/4
+L: 1/8
+K: C
+C2 | G3cGEFD | E4D2
+D2 | E2A2G2^F2 | G4z2
+G2 | c2c2B2G2 | A4G2z2 | F4E2
+G2 | A2F2E2D2 | C4z2
+S:https://www.folktunefinder.com/tunes/161927
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

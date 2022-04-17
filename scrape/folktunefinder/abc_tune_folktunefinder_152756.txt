@@ -1,0 +1,33 @@
+X:7
+T:Polska efter Jon Andersson
+R:polska L1
+H:efter Jon Andersson (1846-1924), L\"anserud, Norra Finnskoga
+A:V\"armland
+Z:id:hn-L1
+M:3/4
+K:Dm
+d2 f3/e/4f/4 ed|{d}^c>d (3e^ce d2|P=c2 e2 dc|PB>c (3dBd Pc2|
+d2 f3/e/4f/4 ed|{d}^c>d (3e^ce d2|P=c>A ^G>A (3BcB|A4 A2||
+Pc2 e2 dc|PB>c (3dBd Pc2|A2 A>c BA|^GA (3B^GB A2|
+Pc2 e2 dc|PB>c (3dBd Pc2|e>c A>c (3BA^G|A4 A2||
+% Nice chords:
+"Dm"d2 "Dm"f3/e/4f/4 "A"ed | "A"{d}^c>d "A"(3e^ce "Dm"d2 | 
+"Am"P=c2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Dm"d2 "Dm"f3/e/4f/4 "A"ed|"A"{d}^c>d "A"(3e^ce "Dm"d2|
+"Am"P=c>A "G#dim"^G>A "Bb"(3BcB|"Am"A4 "Am"A2||
+"Am"Pc2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Am"A2 "Am"A>c "Bb"BA|"G#dim"^GA "G#dim"(3B^GB "Am"A2|
+"Am"Pc2 "Am"e2 "Dm"dc|"Bb"PB>c "Bb"(3dBd "Am"Pc2|
+"Am"e>c "Am"A>c "G#dim"(3BA^G|"Am"A4 "Am"A2||
+S:https://www.folktunefinder.com/tunes/152756
+S:http://www.norbeck.nu/abc/s/hnl1p0.abc
+% Rhythm Polska l1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

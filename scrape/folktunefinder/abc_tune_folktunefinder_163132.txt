@@ -1,0 +1,33 @@
+X:1
+T:Hans-Michl Mazurka 
+F:http://simonwascher.info/
+%%textfont Helvetica-Narrow 10pt
+%%begintext
+S:nach einer melodie aus der Schmalnauer handschrift eingerichtet von Simon Wascher
+%%endtext
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+Bdd2ed | ceeaag | gfcfAf | BgdBg2 |
+Bdd2ed | ceeaag | gfcfAf | g2G4 :|
+|:\
+d2bagf | e2c'bag | facfAf | gabgd2 |
+d2bagf | e2c'bag | facfAf | "fine"g2G4 :|
+K:C
+egg2ag | gffGB2 | GffGB2 | GeeGc2 |
+egg2ag | gffGB2 | GffG Bd | c6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/163132
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/hans-michl_mazurka.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

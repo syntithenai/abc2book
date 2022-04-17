@@ -1,0 +1,19 @@
+X:1
+T:From Buffalo to Troy
+M:2/4
+L:1/8
+K:A
+ C| A,B, CD| EA A3/2 A/2| AA, A,A,| A,3 B,| B,B, B,B,| B2 B3/2 B/2|\
+ BE EE| E3| E| A,B, CD|E-A A3/2 A/2| BB, B,B,| B,3 C/2B,/2| A,B, CD|\
+ EA AD| CC BB| AE F| G| A2 A2| A3 A| AA, A,A,| A,3 B,| B,B, B,B,| B3 B|\
+ BE EE| E3| z| A2 A2| A2 A3/2 A/2| B/2B/2 B,B, B,| B,3 C/2B,/2| A,B, CD|\
+ EA A D/2D/2| CC B,B,| A,3||
+S:https://www.folktunefinder.com/tunes/159447
+S:http://back.numachi.com:8000/dtrad/abc/BUFFTROY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BUFFTROY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

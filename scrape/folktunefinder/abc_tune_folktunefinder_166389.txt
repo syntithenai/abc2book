@@ -1,0 +1,19 @@
+X:1
+T:In Praise of White Wine
+C:John Reading
+M:3/4
+L:1/4
+K:G
+%%LY voices \property Staff.automaticMelismata = ##t
+(G/A/) B G | d (B c/d/) | e >d c/ B/ | A2 c |
+S:https://www.folktunefinder.com/tunes/166389
+S:http://www.laymusic.org/music/drinking/book/whitewine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

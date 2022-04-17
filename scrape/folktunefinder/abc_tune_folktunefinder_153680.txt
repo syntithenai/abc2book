@@ -1,0 +1,25 @@
+X:1
+T:Doctor O'Neill
+B:Francis O'Neill:"The Dance Music of Ireland" (1907) no. 6
+R:jig
+Z:Frank Nordberg - http://www.musicaviva.com
+M:6/8
+L:1/8
+K:D
+A | d3 AFD | E2F G2A | BGB Bcd | AGF EFA | d3 AFD | E2F G2A |
+BGB Bcd | AFD D2 :: A | d3 ceA | dfe dcB | AFA Bcd | AGF EFA |
+d3 ceA | dfe dcB | AFA Bcd | AFD D2 :: g | fef afd | ded fed |
+gbg faf | gee e2g | fef afd | ded fed | gbg fag | fdd d2 ::
+g | fdf ece | dcB AFA | AFd AFd | AGF E2g | fdf ece | dcB AFA |
+AFA Bcd | AFD D2 :: G | FAF GBG | FAG FED | FAF GBG |
+AGF E2G | FAF GBG | FAG FED | BGB Bcd | AFD D2 :|
+S:https://www.folktunefinder.com/tunes/153680
+S:http://music.gordfisch.net/tradmusic/pub/cache/Doctor_ONeill_e30093.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1308
+T:"Kiss The Maid Behind The Barrel"  (reel) 1308
+C:after Mr. Kennedy
+N:Added repeats at last section. (WHAT is it with all those F-naturals)
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+DGGc AGGF|DGGB cAGF|DGGc AGA^c|de=fd cA^FA:|
+dg ((3{a}gfg) ag ((3{a}gfg)|dg ((3{a}gfg) agfe|d=f ((3{g}fef) af ((3{g}fef)|de=fd cA^FA|
+dg ((3{a}gfg) ag ((3{a}gfg)|dg ((3{a}gfg) agfg|afge =fdec|d=feg fdcA||
+G2(dG) BGdG|G2(dG) cAFA|G2(dG) AGA^c|de=fd cAFA|
+G2(dG) BGdG|G2(dG) cAFA|G2GB A2A^c|de=fd cA^FA||
+|:B2BG A2Ac|BABc dedc|B2BG A2A^c|de=fd cA^FA:|
+S:https://www.folktunefinder.com/tunes/170112
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1301-1400/1308-Kiss...Barrel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

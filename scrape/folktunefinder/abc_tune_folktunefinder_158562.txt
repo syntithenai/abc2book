@@ -1,0 +1,28 @@
+X: 1
+T:Flowers of Edinburgh, The
+M:C|
+L:1/8
+Q:180
+C:Traditional
+S:From Stanton Taylor
+R:Hornpipe
+K:G
+GE|:"G"D2DE ~G3A|"G"BGBd "C"cBAG|"D"FGEF DEFG|"D"AFdF "Em"E2 GE|!
+|"G"D2 (3DEF GFGA|"Em"BGBd "C"efge|"G"dcBA "D"GFGA
+|1"G"BGGF G2 GE:|2"G"BGGF G2 (3def||!
+|:"G"g2gf gbag|"D"f2fe fagf|"C"edef gfed|"Em"Beed e2ge|!
+|"G"dBGB d2 (3Bcd|"C"edef g2 ge|"G"dcBA "D"GFGA
+|1"G"BGGF G2 (3def:|2"G"BGGF G2 GE||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/158562
+S:http://www.blackflute.com/music/tunes/hornpipes/flwredin.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

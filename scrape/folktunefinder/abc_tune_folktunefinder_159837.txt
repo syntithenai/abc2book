@@ -1,0 +1,67 @@
+X:597
+T:Galop
+C:Matteo Carcassi
+O:France / Italy
+R:Galop
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/carcassi-matteo/carc-galopp-01/carc-galopp-01-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:2/4
+L:1/8
+K:Am -8va
+V:1
+"_ff"EA|[E2A2c2][A2c2e2]|[c2e2a2][e2a2c'2]|[Ace]e/e/ e[Adf]|[A2c2e2] {g}fe|e B2 d|
+V:2
+z2|A,2A,2|A,2A,2|A,3A,|A,2z2|^G,2E,2|
+%
+V:1
+ce F[^da]|E[Ace] E,[Bd^g]|[c2e2a2]"_Fine"||\
+K:A
+"_mf"[Ac][Bd]|[ce](f/e/) (f/e/)(f/e/)|
+V:2
+K:Am
+A,2F2|E2E,2|A,2||\
+K:A
+z2|A,ccc|
+%
+V:1
+[ce][ec'] A,[ca]|E,[c^a][db][de]|[ec'][ca] [Ac][Bd]|[ce](f/e/) (f/e/)(f/e/)|[ce][ec'] A,[ca]|
+V:2
+A,2A,2|E,4|A,2 z2|A,ccc|A,2A,2|
+%
+V:1
+E,[c^a][db][de]|[c2a2] ee|"_f"d/e/(g/e/) d/e/(g/e/)|c/e/(a/e/) c/e/(a/e/)|
+V:2
+E,4|A,2 z2|E,4|A,4|
+%
+V:1
+d/e/B/e/ G/e/E/e/|A/e/E/e/ C/e/A,/e/|d/e/(g/e/) d/e/(g/e/)|c/e/(a/e/) c/e/(a/e/)| 
+V:2
+E,BGE|A,ECA,|E,4|A,4|
+%
+V:1
+d/e/B/e/ c/e/A/e/|[G2B2e2] [Ac][Bd]|[ce](f/e/) (f/e/)(f/e/)|[ce][ec'] A,[ca]|E,[c^a][db][de]|
+V:2
+E,2A,2|E,2 z2|A,ccc|A,2A,2|E,4|
+%
+V:1
+[ec'][ca] [Ac][Bd]|[ce](f/e/) (f/e/)(f/e/)|[ce][ec'] A,[ca]|E,[c^a][db][de]|[c2a2]"_D.C. al fine"||
+V:2
+A,2 z2|A,ccc|A,2A,2|E,4|A,2||
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159837
+S:http://abc.musicaviva.com/tunes/carcassi-matteo/carc-galopp-01/carc-galopp-01-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/carcassi-matteo/carc-galopp-01/carc-galopp-01-gtr2.abc
+% Rhythm Galop
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

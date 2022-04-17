@@ -1,0 +1,26 @@
+X:81
+T: Graf Friedrich
+N: Q0048G
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Taktart in "FREI" geaendert. Unklar. Verzierung in der letzten Zeile.
+N: Kleinere Melodievariante abgedruckt.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: none
+L: 1/8
+K: F
+C2 | G4A2F4GA | B2A2G2z4
+C2 | G4AGF4GA | B2A2G2z4z
+F- | F2E2F2 | D2C2G2G4F2 | G4z2
+c2A2G2 | F3ED2CDE2 | F4
+S:https://www.folktunefinder.com/tunes/151610
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

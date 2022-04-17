@@ -1,0 +1,25 @@
+X:1
+T: Jenny Nettle's Fancy
+T: Tommy People's Reel
+C: Trad
+D: Altan : Island Angel 
+D: Boys of the Lough 1981 "In the Tradition"
+D: "Cherish the Ladies" (called "Paul Montague's Reel")
+Z: Eckert Robert <eckert@datacentrum.sk>
+M: 4/4
+K: D
+|: B3c dBAF | B3c dfed | B3c d3B | ABde fded |
+   B3c dBAF | B3c dfed | B3c d3B | ABde fdec ||
+  dfaf bfaf | dfaf ~g2fg | afge d3B | ABde fdec |
+  dfaf bfaf | dfaf ~g2fg | afge d3B | ABde fded :|
+S:https://www.folktunefinder.com/tunes/167539
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TommyPeoplesR2.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/TommyPeoplesR2_D.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

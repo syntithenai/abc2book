@@ -1,0 +1,43 @@
+X:1
+T:Entree de luth                                                                 
+C:Robert Ballard                                                               
+L:1/4
+M:C
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+%%scale 0.55
+Q:"Huitiesme"
+Q:"8 = e"
+[ccde1] ,,,,,c [c,d] [ea] |[fc,e1] ,,,c [hh,a2] |[df,c1] [,,fa] [a,f,e] [c,e] |\
+[,df,c1] [,,,e] [,ca,b] [,,,c] |
+%Staffnumber 2
+[,c,ac1] ,a/ [,,e] ,a [,,,a] ,,,c [,,,a] |[,,f,ec1] [,,e,c/] [,,c] [,,e,e1] [a] |\
+[,dfec1] [a] c ,,,,a |[ca,,,d1] a/ [,d] a1 [,c] |
+%Staffnumber 3
+[cd,e,c1] [,c] ,,d [,a] |,c/ [,,,e] [,d,c] [,,,a] ,,,,e [ac] [,dfa] [,cd] |\
+[,acc/] [,,a] ,,c [,,d] ,a ,,,c [,c,a] ,,,,e | 
+%Staffnumber 4
+[,dfec/] [,c] ,d [a] c ,,,,a [ea,,,e] [,,,d] |[fc,e,c1] ,,,,,a ,,,,,,a [ha] |\
+[dff,,a1] [cd,,,c/] [,c] [,a,,,d1] [aab,,a] |,,,,c1 [,dfe] [d] ,,,c/ c// [a] |
+%Staffnumber 5
+c1 [,a,a] [,,ff] [a] |[cd,e1] [,cde,c] [,d] [,c,,,a] |[,,aa,,a1] ,a/ [,,d] ,a [,c] [,a,a1] |\
+[,c,de1] [,,c,,,,,a] [,cd] [,ec/] [,,a] | 
+%Staffnumber 6
+[b,c,e1] [c,de] [ea] [,c,d] |[f,,e1] [eac] [,cd/] [e] c1 |[,,hge1] ,g/ ,,,,c [c,,,b1] \
+[,ca/] [a] |[,d,,c/] ,,,,e ,,,a ,,,,c [,df,,c1] [,ce/] [,df] |
+%Staffnumber 7
+[,,ea,c1] [,a,,e/] ,,,,c [,c,,b] [,,a] [,d,,c] [,,c] |H[,cee,c] |]
+%%vskip 0.5cm
+%
+W:From "Premier livre de tablature de luth, 1611"
+W:A facsimile edition is available from Fuzeau.
+S:https://www.folktunefinder.com/tunes/156268
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ballard/entree08.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Ballard/entree08.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

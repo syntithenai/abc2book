@@ -1,0 +1,25 @@
+X:1
+T:John of Dreams
+M:3/2
+L:1/4
+K:D
+ z f e d| A FD/2-F/2 A|
+M:3/2
+ B3/2 A/2 A4| z f e d A F|D/2-F/2 A
+M:3/2
+| B3/2 A/2 A4| z a g f f2| e2 z g f e| e2 d2 z f| e d A FB/2-F/2 A|\
+M:3/2
+ B3/2 A/2 A4|
+M:2/2
+ z f e d| A FD/2-F/2 A|
+M:3/2
+ B3/2 A/2 D4|
+S:https://www.folktunefinder.com/tunes/168584
+S:http://back.numachi.com:8000/dtrad/abc/DREAMJON.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

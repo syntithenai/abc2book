@@ -1,0 +1,43 @@
+X:1
+T:Ei Tauber ruggu
+C:traditionell
+R:Zwiefach
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Dagmar Zach; gedaechtnis-niederschrift
+%%endtext 
+F:http://simonwascher.info/homepage_abc.htm
+Z:abc transcription Simon Wascher
+M:3|4/4
+L:1/8
+K:C
+GA |\
+G2c2c2 | c4ce | B2d2d2 | d4 ef|\
+g2e2 e2c2 | f2d2 d2B2 | c2e2d2 | c4 :|
+G2|\
+G2c2c2 | c2e2g2 | g2f2f2 | d4 GG|\
+G2B2B4 | B2d2d4 | f2e2e2 | e4 GA |
+G2c2c2 | c4ce | B2d2d2 | d4 ef|\
+g2e2 e2c2 | f2d2 d2B2 | c2e2d2 | c4 ||
+W:E-i Tau-ber rug-gu, e-i Tau-ber rug-gu,
+W:e-es is ia ko-a sche-ne-re-r Tau-ber wie du.
+W:Ietzt is halt der Tau-ber ins Holz au-si gflogn
+W:und hat sich zwoa iun-ge wald-tau-berln ein-gfangt
+W:E-i Tau-ber rug-gu, e-i Tau-ber rug-gu,
+W:e-es is ia koa sche-ne-rer Tau-ber wie du.
+W:
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155868
+S:http://simonwascher.info/homepage_abc.htm
+S:http://simonwascher.info/TradArchiv_zwiefach/tauber_ruggu.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

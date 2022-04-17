@@ -1,0 +1,40 @@
+X:629
+T:Fr\"olicher Landmann
+T:(The Happy Farmer) Op. 68 no. 10
+C:Robert Schumann, arr. Frank Nordberg
+O:Germany
+B:Schumann: "Album for the young" no. 10
+N:Easy guitar arrangement
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schumann-robert/schm068-10/schm068-10-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:4/4
+L:1/8
+K:F
+V:1
+"Capo III"z|z [df][df] z z [df][df] z|z gg z z [df][df] z|z [ce][c2e2] z [df][d2f2]|z [Ae] z [^Ge] z [ce][ce] :: z|z [ce][ce] z z [ce][ce] z|
+V:2
+(A,|D3F A3) (D|GBdB A3) (F|GEA,G FDA,F|C2B,2A,2) z:: (A,|G3 F E3) (A,|
+%
+V:1
+z4 z [ce][ce] z|z [df][df] z z [df][df] z|z gg z z [df][df] z|z [ce][c2e2] z [df][d2f2]|z [ce] z [ce] z [df][df]:|]
+V:2
+GFED E3) (A,|D3) (F A3) (D|GBdB A3) (F|GEA,G) (FDA,F)|(E2C2D2) z:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159438
+S:http://abc.musicaviva.com/tunes/schumann-robert/schm068-10/schm068-10-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schumann-robert/schm068-10/schm068-10-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schumann-robert/schm068-10/schm068-10-gtr2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/schumann-robert/schm068-10/schm068-10-gtr2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/schumann-robert/schm068-10/schm068-10-gtr2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:1
+T:Goodbye Old Friend
+M:4/4
+L:1/4
+K:D
+ d d B2| A G A G| E D3| G G G A| B B B A| A B A2| d d d B/2G/2| A G A G|\
+ G/2A/2 G/2E/2 D2| G G G D| G A A B/2A/2| D4| d d d B/2G/2| A G E G|\
+ E2 D2| G G G G/2A/2| B B B A| A B B A| d d d d| d B A G| E G D2| G/2G/2 G G G|\
+ A B A G| A G A A| B A G2|
+S:https://www.folktunefinder.com/tunes/161740
+S:http://back.numachi.com:8000/dtrad/abc/GOODBYE.abc
+S:http://back.numachi.com:8000/dtrad/abc/GOODBYOF.abc
+S:http://sniff.numachi.com/abc/GOODBYE.abc
+S:http://sniff.numachi.com/abc/GOODBYOF.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GOODBYE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GOODBYOF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

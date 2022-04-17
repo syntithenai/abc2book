@@ -1,0 +1,41 @@
+X:2864
+T:John D. Burgess
+C:Geo. Cockburn
+N:"Edcath"
+R:Jig, pipe march
+Z:Transcribed 1997 by John Chambers <jc@trillian.mit.edu>
+F:http://abc.musicaviva.com/tunes/cockburn-geo/cockburn-john-d-burgess.abc
+%Posted at abcusers Marc 3rd 2001 by Jack Campin
+M:6/8
+L:1/8
+K:D
+A   |"D"f3  "A7"gfe|"D" d3  "(A)"A3 |"D" d2e "F#m"f2a|"Em" agf "A7"e2A |\
+     "D"f3  "A7"gfe|"D" d3  "A7" c2B|"D" Adf "G"  aAg|"A7" fAe "D" d2 :|
+A   |"D"f2d "Em"e2B|"G" dcB "(A)"A3 |"D" d2e "F#m"f2a|"Em" agf "A7"e2A |\
+     "D"f2d "Em"e2B|"G" dcB "(A)"A3 |"D" Adf "G"  aAg|"A7" fAe "D" d2 ||
+A   |"D"f2d "A7"e2B|"G" dcB "(A)"A3 |"D" d2e "F#m"f2a|"Em" agf "A7"e2A |\
+     "D"f3  "A7"gfe|"D" d3  "A7" c2B|"D" Adf "G"  aAg|"A7" fAe "D" d2 ||
+B   |"D"Adf     a2g|    fde      f3 |"A7"Ace      g2f|"E7" eBc "A7"dcB |\
+     "D"Adf     a2g|    fde      f2B|"D" Adf "G"  aAg|"A7" fAe "D" d2 :|
+A   |"D"aAa "A7"a2g|"D" f3  "(A)"A3 |"D" d2e "F#m"f2a|"Em" agf "A7"e2A |\
+     "D"aAa "A7"a2g|"Bm"f3  "Em" d2B|"D" Adf "G"  aAg|"A7" fAe "D" d2 ||
+f/g/|"D"aAa "A7"a2g|"D" f3  "(A)"A3 |"D" d2e "F#m"f2a|"EmG"agf "A7"e2A |\
+     "D"f3  "A7"gfe|"E7"d3  "A7" c2B|"D" Adf "G"  aAg|"A7" fAe "D" d2 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/168172
+S:http://abc.musicaviva.com/tunes/cockburn-geo/cockburn-john-d-burgess.abc
+S:http://abc.musicaviva.com/tunes/cockburn-geo/cockburn-john-d-burgess.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/cockburn-geo/cockburn-john-d-burgess.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/cockburn-geo/cockburn-john-d-burgess.abc
+% Rhythm Jig, pipe march
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

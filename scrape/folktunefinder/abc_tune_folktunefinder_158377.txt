@@ -1,0 +1,27 @@
+X:1
+T:Flickorna Svensson
+C:Pelle Svensson
+R:Gnglt
+Z:Patrik Mnsson, 2008-07-24
+O:Sverige
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+D2 | "G"G2G2 G2AG | "D7"G2FE D2EF | "G"G2AB "C"cBAG |[M:3/4] "D7"F2EF "G"G6 D2 |[M:2/4] "G"G2G2 G2AG |
+"D7"G2FE D2EF | "G"G2AB "C"cBAG |[M:3/4] "D7"F2EF "G"G6 Bc |:[M:2/4] "G"d2d2 d2ed | "D7"d2cB A2Bc | "G"d2d2 d2ed |
+"D7"d2cB A2D2 | "C"E2G2 "D7"FGAF | "G"G2B2 "C"ABcA | "G"B2AG "D7"F2EF |[1 "G"G6 Bc :|[2 "G"G8 ]|
+S:https://www.folktunefinder.com/tunes/158377
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_783521.latin.abc
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_783521.abc
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_783521.abcm.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

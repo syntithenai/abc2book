@@ -1,0 +1,21 @@
+X: 1
+T:The Gallowglass
+M:6/8
+L:1/8
+R:Jig
+K:Edor
+EF |: GFE BFA | GEE E2F | GFG Bcd | AFD DEF | GFE BFA | GBe B2A | GFE
+DEF | GEE E3:|\ efe B2A | GEE E2F | GFG Bcd | AFD D3| efe B2A | GFE
+B2A | GFE DEF | GEE E3 |\ efe B2A | GEE E2F | GFG Bcd | AFD D3| eBe
+dAd | BGB AFD | GFE DEF | GEE E3 ||
+S:https://www.folktunefinder.com/tunes/159809
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gallowglass_5.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gallowglass_5.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

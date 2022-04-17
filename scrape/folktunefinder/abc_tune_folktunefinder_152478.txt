@@ -1,0 +1,30 @@
+X:75
+T: O'Connell's Farewell to Dublin
+S: "Treoir"
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide (set dance)
+K: Ador
+AB |: c2 B c2 B c2 d e2 f | gfe agf gfe dBA |
+G2 B d3 edB dBA | G2 B dBd edB d2 B |
+c2 B c2 B c2 d e2 f | gfe agf gfe d2 d |
+eaa a2 b a2 g e2 d |1 c3 B3 A3 :|2 c3 B3 A2 ||
+AB | cBc A2 B cBc A>dc | BAB Gdc BAB G3 |
+c2 B c2 B c2 d e2 f | gfe agf gfe d2 B |
+cBc A2 B cBc A>dc | BAB G3 BAB G3 |
+eaa a2 b a2 g e2 d |1 c3 B3 A2 :|2 c3 B3 A3 :|
+S:https://www.folktunefinder.com/tunes/152478
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Slide (set dance)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

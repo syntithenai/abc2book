@@ -1,0 +1,26 @@
+X: 060178
+T: Flock of Budgies 
+N: 147
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: C|
+L: 1/8
+K: G
+(3DEF|"G"GBdB "Am7"cBAG|"Em7"EDEG "D7"FAdc|"G"Bdgd "C"cege|"Am7"agec "D7"dcAF |
+"G"GBdB "Am7"cBAG|"Em"EGFG EGBe|"G"dBgB "D"dcBA|"G"GB"D"AF "G"G2 :|
+(3DEF|"G"GBdg "Am"ecAc|"G"Bdga "Bm"bagf|"A"e^cac ecac|"A7"agfe "D"d2 (3def |
+"G"gdBd "Am"ecAc|"G"Bdga "Bm"bagf|"Em7"edBe "D"dcBA|"G"GB"D"AF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/158420
+S:http://www.qmcorp.net/tunes_online/147flock/147.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

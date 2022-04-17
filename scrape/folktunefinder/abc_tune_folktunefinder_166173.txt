@@ -1,0 +1,20 @@
+X:1
+T:I'm a Freeborn Man
+M:3/2
+L:1/4
+K:A
+ z4 A, C| E A E2 C3/2 A,/2| D E D2 B,2-|
+M:2/2
+ B,2 C D| E E G A| B c B G|
+M:3/2
+ A2 E2 G A| B c B2 A G| A E F2 E- C| D F E E D B,| =G,2 A,2 z2|
+S:https://www.folktunefinder.com/tunes/166173
+S:http://back.numachi.com:8000/dtrad/abc/FREBRNMN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

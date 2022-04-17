@@ -1,0 +1,32 @@
+X:1
+T:Gloryflower
+C:Cliff Stapleton
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Transkription nach einer MC unbekannter Herkunft
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D dorian
+DEFG AFAc | GBdA e2d2 | f2e2 d2c2 | BcBA GAFE |
+DEFG AFAc | GBdA e2d2 | f2e2 d2c2 | ABced4 :|
+|:\
+AFED A3F | A2F2 c2Bc | d2c2 B2A2 | GAGF EFED |
+AFED A3F | A2F2 c2Bc | d2c2 B2A2 | GABGA4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/161419
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/gloryflower.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

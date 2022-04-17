@@ -1,0 +1,23 @@
+X:1
+T:Parson in His Boots
+C:Traditional
+R:jig
+G:fiddle jig, early 18th cent.
+T:Found in The Gow Collection of Scottish Dance Music
+M:6/8
+Q:3/8=120
+K:G
+%%MIDI gchord fccfcc
+"G"G3 G2c| "Em"B2G (B/c/d)B| "G"G3 Bcd| "C"EFG "D"AFD| "G"G3 G2c|\
+     "Em"B2G (B/c/d)B|
+"G"gfe "Bm"dcB| "Am"ABG "D"FED :| "G"Bcd ded| ded dcB| "C"cde efe|
+efe edc| "G"Bcd ded| ded def| "G"gfe "Bm"dcB| "Am"ABG "D"FED :|
+S:https://www.folktunefinder.com/tunes/159018
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/ParsonInHisBoots.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,49 @@
+X:10631
+T:Kom, skal vi klippe sauen
+T:(Shearing the sheep)
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Children's song, springdans hambo
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/klippe-sauen-d/klippe-sauen-d-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:3/4
+L:1/8
+Q:1/4=135
+K:D
+V:1
+a2 af df|a2 af d2|e2 ge ce|d2 fd A2|
+V:2
+[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|
+%
+V:1
+a2 af df|a2 af d2|e2 ge ce|d2 d4|
+V:2
+[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|
+%
+V:1
+A2 B2 c2|d2 e2 f2|g2 gf e2|f2 fe d2|
+V:2
+[D,6D6]|[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|
+%
+V:1
+A2 B2 c2|d2 e2 f2|g2 ge ce|d2 d4|]
+V:2
+[D,6D6]|[D,6D6A6]|[D,6D6A6]|[D,6D6A6]|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170477
+S:http://abc.musicaviva.com/tunes/norway/klippe-sauen-d/klippe-sauen-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/klippe-sauen-d/klippe-sauen-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/klippe-sauen-d/klippe-sauen-d-ddad1.abc
+% Rhythm Children%27s song, springdans hambo
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

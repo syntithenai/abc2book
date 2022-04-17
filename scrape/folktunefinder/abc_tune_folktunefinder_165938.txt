@@ -1,0 +1,27 @@
+X: 22
+T: Jack Smith's Favorite -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N: 307
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:C
+u(gf)|\
+ecBc GcBc | ecge .c2(de) | .f(d^cd) .A(dcd) | fdaf .d2(gf) |
+ecBc AcBc | ecge .c2(fg) | afge fdec | GcBd c2:|
+|:ugf|\
+ef.g2 ef.g2 | efge .c2(de) | fg.a2 fg.a2 | fgaf .d2(gf) |
+ef.g2 ef.g2 | efge cefg | afge fdec | GcBd c2:|
+S:https://www.folktunefinder.com/tunes/165938
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/IJ.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

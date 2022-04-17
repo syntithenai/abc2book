@@ -1,0 +1,40 @@
+X:1
+T:Duo en sol majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle04.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:C
+L:1/8
+K:G
+V:1
+"^Allegro"g4(gd)(ef)|g2g2a2a2|b4(ag)(ab)|g2g2d4|
+g4(ag)(fe)|(fe)(fg) (ab)(^c'd')|b2g2e2^c2|(e4d2)z2:|
+|:a4(^ga)(bg)|a2a2e4|c'2b2a2g2|(g4f2)d2|
+e2e2f2f2|g2g2a2b2|c'4(bd')(c'b)|a2a2a2z2|
+(d^c)(de) (fg)(ab)|=c'2c'2b4|a2a2(fd)(ef)|(a4g4):|
+V:2
+(BG)(AB)c4|(Bd)(BG) (FA)(FD)|(GA)(Bc)d2d2|B2z2(BA)(GA)|
+(BG)(AB)^c4|(d^c)(de) (fg)(af)|g2B2G2E2|(E4F2)z2:|
+|:(=cd)(ec)B4|(cd)(ed) (cd)(cB)|A2B2c2^c2|d2D2d2z2|
+c(cBc) (Ac)(dc)|BB(dg) (fd)(gd)|(ad)(ef)g2G2|d2d2d2ed|
+=c4(cB)(AG)|(FD)(EF) (GA)(BG)|(cA)(Bc)d2c2|(c4B4):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155040
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle04.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle04/devienne-nouvelle04.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle04/devienne-nouvelle04.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T:Josephin's Waltz
+M:3/4
+L:1/4
+R:Waltz
+O:transcr. by N. Ullmann
+K:G
+"G" D G A |B d>c | B A G | D2 E | "C" C>C C | E G F | E3 | "D" D3 |!
+"G" D G A | B d>c | B A G | D2 E | "C" C>C C | "D" D F G | A3- |1 A3
+ :|2 A B c|!
+|:"G" d B d | g2 f | "C" e3 | "G"d3|"Am" c e d | c>B A |"G" B>c B | 
+"D" A B c :|!
+"G" B>A G | "D7"F2 G | "G"G3 | "C" C D C |"G" B, D G |"D7"F>E F |"G"
+ G3-|G3|]
+% Output from ABC2Win  Version 2.1 i on 1/13/2006
+S:https://www.folktunefinder.com/tunes/168811
+S:http://internet.cybermesa.com/~keating/music_abc/JOSEPHN2.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

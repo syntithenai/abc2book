@@ -1,0 +1,25 @@
+X:22
+T: Graf und Nonne (Die Nonne)
+N: Q0155U
+O: Mitteleuropa, Oesterreich, Burgenland, Pamhagen
+R: Ballade, Standesunterschied, Werbung, Liebe, Glueck
+M: 4/4
+L: 1/4
+K: G
+GB | ddcd | B2
+GB | ddcd | B2
+AA | BB^cA | dd
+AA | BB^cA | dd
+gd | dcBc | d2
+dc | BBAA | G2
+S:https://www.folktunefinder.com/tunes/161942
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe, glueck
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

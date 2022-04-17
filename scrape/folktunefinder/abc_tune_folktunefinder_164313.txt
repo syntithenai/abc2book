@@ -1,0 +1,28 @@
+X: 082217
+T: Hill of Hoath
+S: Fitzmaurice Collection
+N: "Hoath" is the phonetic spelling of "Howth"
+N: D# in measure 10 is in the original but I think
+N: C# makes more sense
+L: 1/8
+M: 4/4
+R: hornpipe
+Q: 1/4=160
+K: D
+(3A/B/c/| d2d2d2 ef | ABAG F3A | BAGF E2 FA | B2 c2 d4 |
+d2d2d2 ef | ABAG F3A | BAGF E2 FA | B2 c2 d3 :|
+(3A/B/c/| dcde f2 f2 | gfe^d d2 fg | agfe d2 cd | BABc A4 |
+agfe d2 ef | ABAG F3A | BAGF E2 FA | Bgec d3 :|
+S:https://www.folktunefinder.com/tunes/164313
+S:http://www.qmcorp.net/webabc/h/082217.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

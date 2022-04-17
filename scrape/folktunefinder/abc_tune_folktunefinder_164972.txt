@@ -1,0 +1,44 @@
+X: 1
+T:The House of the Rising Sun
+C:Traditional
+S:Lewis Music Publishing Co.
+M:3/4
+L:1/4
+K:F
+A | "Dm"D2 (E/2D/2) | "Dm6"F "Gm" (G/2^G/2) | "A7"A (F/2E/2) |
+"Dm"D2 "A7"A | "Dm"d2 A | "Am"c "C7"(A/2G/2) | "F"A3- |
+"A7"A2 ^c/2d/2 | "Dm"d- "Bb"d "Dm"D | "Bb"F/2 "Bo"F3/2 "A7"A/2 | "Dm"A/2
+A/2 A "Dm7"F/2E/2 | "Bb"D2 "Gm6"G | "Dm"A2 A |
+"A7"A2 (F/2E/2) | "Dm"D2- "Gm"D- | "Dm"D z z | "F#7"z "C7"z2 | "B7"z3 |
+z z =B ||
+K:G
+"Em"E2 F/2E/2 | "Em6"G/2 G3/2 "Am"A/2^A/2 | "B7"B2 G/2A/2 ||
+"Em"E2 "B7"B | "Em"e2 B | "Bm"d2 "D7"B/2A/2 | "G"B3- | "B7"B2 ^d/2e/2 |
+"Em"e- "C"e "Em"E | "C"g "Co"G "B7"B | "Em"B/2B/2 B "Em7"G/2F/2 |
+"C"E2 "Am6" A | "Em"B2 B | "B7"B2 G/2F/2 | "C"E2- "E7"E- | "Am"E2 "Am6"A
+ |
+"Em"B2 B/2B/2 | "B7"B2 G/2F/2 | "Em"E2- "Am6"E- | "Em"E2 z :|
+%
+W:1. There is a house in New Orleans
+W:they call the Rising Sun.
+W:It has been the ruin of many a poor young girl,
+W:and I, Oh, Lord, was one.
+W:If ...
+W:
+W:2. Go speak to my ba-by sis-ter and say
+W:"Don't do as I have done.
+W:Stay away from places like this one in New Orleans
+W:they call the Rising Sun."
+W:Now ...
+S:https://www.folktunefinder.com/tunes/164972
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/HouseOfTheRisingSun.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/HouseOfTheRisingSun.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/HouseOfTheRisingSun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

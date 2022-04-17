@@ -1,0 +1,27 @@
+X: 1
+T: Honesty Bar, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+dfe dAF| FEF DFA| dfe dAF| EFA ~B3|!
+dfe dAF| FEF DFA| Bcd BAF| AFE E2A|!
+dfe dAF| BAF EFA|dfe dAF|EFA ~B3|!
+def a2 a|afe edB| dfe dAF| EDB, D3||!
+M: 9/8
+~B3 dAF EFA |~B3 dAF EFD|~B3 dAF EFA |~B3 dAF E2 z |!
+~B3 dAF EFA |~B3 dAF EFD|~B3 dAF EFA |~B3 dBd efe||!
+d2 f ~a3 edB |d2 f a2 f efe | d2 f ~a3 edB| d2 f edB DFA|!
+d2 f ~a3 edB |d2 f a2 f efe | def edB AFE| DEF DEF ABc||
+S:https://www.folktunefinder.com/tunes/164689
+S:http://www.thesession.org/tunes/display/7767
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

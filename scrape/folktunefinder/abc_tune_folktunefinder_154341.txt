@@ -1,0 +1,58 @@
+X: 1
+T: A Dreidele Far Alle - Freilachs
+O: Abe Schwartz Orchestra (March 1929)
+R: Freilach
+M: 2/4
+L: 1/16
+K: F
+"C7"C2 \
+|: "F"F8- | FCFG ^GAFC \
+| "C7"{^F}G8 | zG^FG ^GAB=B \
+| "F"c2Bc B2A2 | TA2GA G2F2 \
+| =Bcc2 _edc2 | "C7"_B2{cB}A2 ^G2A2 |
+| "F"F8- | FCFG ^GAFC \
+| "C"{^F}G8 | zG^FG "-> Coda"^GAB=B \
+| "F"c2Bc B2A2 | "C7"A2G2 BAG2 \
+|1 "F"F8 | f8 \
+:|2 "A7"E2F2 ^G2A2 | A^GF2 FED2 ||
+[| "Dm"z2DE F2^G2 | A2=B2 cBA2 \
+| =B2c6- | c8  \
+| d2c2 =B3A | ^GA=BA GFED \
+| ^G2A2- A4- | A4 "A7"zA,=B,^C |
+| "Dm"D2DE F2^G2 | A2=B2 cBA2 \
+| ^c2d6- | d8 \
+| d2c=B cBA2 | ^GAG2 FED2 \
+| D8- | D4 "A7"zA,=B,^C |]
+[| "Dm"D2DE F2^G2 | A2=B2 cBA2 \
+| =B2c6 | "(A7)"zA^GA _B=Bc^c \
+| "Dm"dc=BA cBA^G | =BA^GF GFED \
+| ^G2A6- | A4 "A7"zA,=B,^C |
+| "Dm"D2DE F2^G2 | A2=B2 cBA2 \
+| ^c2d2- d4- | d8 \
+| "(E7)"d2c2 =B2A2 | "A7"A^GF2 FED2 \
+| D8- | D2D2 F2A2 ||
+|: "Dm"d2Ad c=BA2 | ^G2{AG}F2 FED2 \
+| ^G2A2- A4 | z2DF ADFA \
+| d2c2 =B2A2 | A^GF2 FED2 \
+| E2F2- F4 | z2D2 F2A2 |
+| d2Ad c=BA2 | A^GF2 "(D7)"FED2 \
+| "Gm"^F2G2- G4 | B8 \
+| "Dm"^GA=B2 AGF2 | "A7"A^GF2 FED2 \
+|1 "Dm"D8 | z2D2 F2A2 \
+:|2 "Dm"D4 _D4 | "C7"C4 "d.C."z2 y8 |]
+"Coda"\
+|| "F"c2Bc B2A2 | "C7"zc=Bc ^cd^de \
+| "F"Hf4 "C7"Hc4 | "F"HF8 |] \
+S:https://www.folktunefinder.com/tunes/154341
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/DreideleFarAlle2_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/DreideleFarAlle2_F.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/C/DreideleFarAlle2_F.abc
+% Rhythm Freilach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

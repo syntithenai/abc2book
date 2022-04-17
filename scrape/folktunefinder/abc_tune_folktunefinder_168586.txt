@@ -1,0 +1,28 @@
+X:15
+T:John of Paris
+C:from the Knots of May repertoire
+N:Shoosmith MS
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d2c|B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2B|A2B A2B|A3d2c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2G G2B||
+d2c Bcd|e2f g2a|b2a gfe|d2c Bcd|
+e2e ecA|d2d dBG|c2A B2G|A2F D2c|
+B2B BAB|d2B BAB|c2e g2e|d2B BAB|
+c2A AGA|B2G G2F|Eed cBA|B2G Gdc|]
+S:https://www.folktunefinder.com/tunes/168586
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/JohnOfParis.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

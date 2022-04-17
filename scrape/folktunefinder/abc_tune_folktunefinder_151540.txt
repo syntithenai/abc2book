@@ -1,0 +1,26 @@
+X:11
+T: Koenig und Marquise
+N: Q2035C
+O: Mitteleuropa, Frankreich
+N: Verzierung (Vorschlag) in der letzten Zeile. Franzoesische Version
+N: der Ballade.
+R: Ballade, Frauenraub
+M: 2/4
+L: 1/16
+K: E
+A2=GA | B2e2=d2=c2 | B4
+A2=GA | B2e2=d2=c2 | B4
+B2=c=d | e2e2=d3=c | B4
+=d2=cB | A2=G2A2GF | E4
+A2=GA | B2e2=d2B=cB | A4
+S:https://www.folktunefinder.com/tunes/151540
+% Rhythm Ballade, frauenraub
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

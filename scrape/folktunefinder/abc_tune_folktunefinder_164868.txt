@@ -1,0 +1,30 @@
+X: 1
+T: Jenny Dang the Weaver
+S: Capercaillie "Crosswinds"
+Z: Hiroyuki Yamada
+R: reel
+M: 4/4
+L: 1/8
+T: Horo Ghoid Thu Nighean
+D: Mary Jane Lamond "Suas e!"
+N: This tune derives from Scottish stepping song "Horo Ghoid Thu Nighean." The three-part setting of the tune is known as "The Longford Tinker" in Ireland.
+Z: Contributed 20050117155834 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Dmaj
+dA ~A2 AFAB | dA ~A2 f2 ef | dB ~B2 BABd | ABde faef:|
+d2fd efge | defd e2 dB | d2fd efge| aA~A2 f2ef|
+d2fd efge | defd e2 dB | d2fd efge| abag fgef||
+S:https://www.folktunefinder.com/tunes/164868
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/HoroGhoidThuNighean.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/JennyDangTheWeaver.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HoroGhoidThuNighean.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/JennyDangTheWeaver.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

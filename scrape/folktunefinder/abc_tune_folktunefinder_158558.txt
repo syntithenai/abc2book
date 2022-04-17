@@ -1,0 +1,22 @@
+X:1
+T:Flowers of Edinburgh, The
+R:hornpipe
+L:1/8
+M:4/4
+K:G
+GE|"G"D2DE ~G3A|BABd cBAG|"D"FGFE DEFE|"D7"D2cA BAGE|
+"G"D2DE GFGA|BGBd "C"efge|"G"dcBA "D"GFGA|"G"B2G2 G2:|
+(3def|"G"g2gf gbag|"D"f2fe fagf|"C"edef gfed|"Em"Beed e2ge|
+"G"dBGB d2 (3Bcd|"C"egfa g2ge|"D"dcBA GFGA|"G"B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/158558
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/hornpipes/flowers_of_edinburgh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/music/session/abc/hornpipes/flowers_of_edinburgh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

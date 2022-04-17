@@ -1,0 +1,21 @@
+X:1
+T:Eloise
+C:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:waltz
+M:3/4
+L:1/8
+K:G
+g>d B>G B>g | f>d A>F A>f | e>c G>E G>c | d>B G>B D>B |
+c>E E>c (3cde | B>g B>d g>d | f>d (3fga a>g |1 b>g d>B g>f :|2 (3fga a>b g2 |:
+F>A d>c B>A | G>B g>f e>c | A>F [A,D]>[DF] [AF]>d | (3Bcd e>c >fd |
+g>b g>d B2 | G>=F e>A ^F>B |1 G>e c>A d>B | E>c A>F G2 :|2 G>e c>A d>g | E>c A>F G2 |]
+S:https://www.folktunefinder.com/tunes/156001
+S:http://music.gordfisch.net/tradmusic/pub/cache/Eloise_2d1714.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T:Jig
+R:Jig
+O:Ireland
+M:6/8
+L:1/8
+K:DMix
+D|DFA BFA|Bcd AFA|DFA BFA|B2c d2D|!
+DFA BFA|Bcd AFA|fed edc|B2c d2:|!
+|:A|d2f g2f|e2B B2d|c2e efd|c2A ABc|!
+d2f g2f|e2B B2d|cec ABc|d3 d2:|!
+S:https://www.folktunefinder.com/tunes/167716
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ji/Jig_5.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

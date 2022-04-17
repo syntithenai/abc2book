@@ -1,0 +1,18 @@
+X:1
+T:Git Back Blues
+M:4/4
+L:1/4
+K:G
+ B| B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B B G|\
+ B/2 B3/2 G/2 G3/2| z B A/2 G3/2| B3 z| B B B/2^A/2 B/2A/2| B B/2B/2 G/2G/2G/2-E/2|\
+ z/2 B G/2 B B| G D E G| _B3 G/2 G/2-| G D E G| ^A/4- B3/4- B2 G3.99999962500005/11.9999985000002 G3.99999962500005/11.9999985000002 G3.99999962500005/11.9999985000002-|\
+ G D E G| _B/4- A3/4- A2 =B| G/2 E/2- E2 G/2 G/2-| G G/2 G/2- G G/2 G/2-|\
+ G G/2 G/2- G||
+S:https://www.folktunefinder.com/tunes/161140
+S:http://back.numachi.com:8000/dtrad/abc/GITBACK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

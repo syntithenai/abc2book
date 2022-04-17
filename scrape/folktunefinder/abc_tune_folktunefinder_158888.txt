@@ -1,0 +1,33 @@
+X:1
+T:The Fool's Jig
+M:2/2
+C:
+S:Bacon (MDT)
+N:
+A:Bampton
+O:English
+R:Reel
+%P:A.(AB)$^4$.A
+P:A.(AB)4.A
+K:G
+%:
+%:
+Q:1/2=108
+P:A
+BA | GFGD B,2 G2 | AGFE D2 c2 | BcdB G2 G2 | AGFE  DcBA |\
+     GFGD B,2 G2 | AGFE D2 c2 | BcdB ecAF  | G2 G2 G2   ||\
+P:B
+B2 | cedB G2  d2 | gage c2 Bc | dedB G2 G2 | AGFE  DcBA |\
+     GFGE D2  G2 | AGFE D2 c2 | BcdB ecAF  | G2 G2 G2   ||
+S:https://www.folktunefinder.com/tunes/158888
+S:http://www.ucolick.org/~sla/morris/music/Bampton/fooljig.lbG.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

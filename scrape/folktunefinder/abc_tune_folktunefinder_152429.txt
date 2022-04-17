@@ -1,0 +1,28 @@
+X: 1
+N: Dean Bridge of Edinburgh
+N: 8x32S 3C (RSCDS Book 23)
+P: The Dean Brig o' Edinburgh
+C: Airchie Allen
+C: Hunter Collection, arr. T. Traub 5-4-06
+M: 4/4
+L: 1/8
+R: Strathspey
+K: Eb
+G|"Eb"B>cB<e B<GG>F|"Eb"E>F "Bb"E/F/G/F/ "Eb"EE"Eb"B,>E "Bb"A,>E"Eb"G,>E|\
+  "Fm"C<F"F"F>E "Bb"D/E/F/D/ B,2|
+"Eb"B>cB<e B<GG>F|"Eb"E>F "Bb"E/F/G/F/ "Eb"EA"Eb"B,>G "Fm"A,>F"Eb"G,>c|\
+  "Bb"B>c B[A,D] "Eb"[E2-G,2]E ||
+f|"Eb"g<ee>g "Bb"ff|"Cm"e<d"F7"c>=a "Bb"b_d|"Ab"c<AA>c "Eb"B<GG>B|\
+  "Fm"c<F"F"F>E "Bb"D/E/F/D/ B,>F|
+"Eb"G<E[EG,]>G "Bb"F<D[DB,]>F|"Cm"E<C"F7"C>=A "Bb"B<B, B,2|\
+  "Ab"C>A"Eb"B,>G "Bb"A,>F"Eb"G,>c| "Bb"B>c B[A,D] "Eb"[E2-G,2]E |]
+S:https://www.folktunefinder.com/tunes/152429
+S:http://terrytraub.org/abc/DeanBrigOEdinburghS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:100
+T: Verschlafener Jaeger
+N: Q0152Q
+O: Mitteleuropa, Deutschland (BRD) , Baden, Ortenau, Meissenheim
+N: Zweistimmig notiert, Oberstimme kodiert. Pausen am Ende der 4. und 6.
+N: Zeile eingefuegt.
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 6/8
+L: 1/16
+K: G
+D2 | G4A2_B4G2 | d6-d2c2
+_B2 | A4G2F2F2G2 | A6-A2z2
+G2 | d4d2_B4G2 | g6d4
+c2 | _B3AG2A3GF2 | G6-G2z2
+G2 | d4d2_B4G2 | g6d4
+c2 | _B3AG2A3GF2 | G6-G2z2
+S:https://www.folktunefinder.com/tunes/153053
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

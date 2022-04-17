@@ -1,0 +1,28 @@
+X:0907
+T:"The Fat Man's Fancy" (jig)      0907
+C:after Sg't Stack
+N:added repeats:  appears to be typesetting error.
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM))
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+E|A3BAB|(c3/2e/2f/2g/2) agf|gec BAG|AcA BGE|
+A3BAB|(c3/2e/2f/2g/2) agf|gec BAG|AcB A2:|
+|:c|f2f fec|efg agf|agf edc|BcB Bce|
+f2f fec|efg a2b|c'ba gba|gfg a2:|
+S:https://www.folktunefinder.com/tunes/157453
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0907-FatMan.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/0907-FatMan.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0907-FatMan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

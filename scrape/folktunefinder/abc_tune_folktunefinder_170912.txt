@@ -1,0 +1,32 @@
+X: 1
+T:The Lady in the Sun
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+N:See #347 for history
+H:There were some irregularities in the phrasing, which I corrected.
+R:song air
+A:Limerick
+O:Irish
+L:1/8
+M:3/4
+K:G
+"Slow"\
+((5G/A/B/c/d/)|\
+e2 edcd|e2 A2 AB|cABGAF|G2 E2 E2|E4 AB|
+c2 cedA|d2 e2 ag|e2 A2 ((6G//E//D//E//F//G//)|E2 A2 A>B|A6||
+((6A/B/c/d/e/f/)|\
+gagede|gagede|abaged|c>d B2 A2| G4 ((6B/d/e/f/g/a/)|
+bgafge|fdcABG|A2 dcAF|G2 E2 E2|E4 AB|
+c2 cedA|d2 e2 ag|e2 A2 ((6G//E//D//E//F//G//)|E2 A2 A>B|A4||
+S:https://www.folktunefinder.com/tunes/170912
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/la/Lady_in_the_Sun_1.abc
+% Rhythm Song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

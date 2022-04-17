@@ -1,0 +1,112 @@
+X:1
+%
+%%topmargin 3.0cm
+%%topspace -1.2cm
+%%staffsep 30pt
+%
+T:Guardame las vacas
+C:Luys de Narvaez
+Z:abc transcription by Taco Walstra
+Z:Facsimile edition is available from Minkoff
+L:1/4
+M:C
+K:CM italian7tab
+%
+%%tabrhstyle diamond
+%%tabfontitalian itBorrono
+%%tabaddflags 0
+%%tabfontsize 11
+%%tabfontscale 1.2
+%
+%1
+Q:"Primera Diferencia"
+[a,,,d2] ,b| ,,d ,,b | ,,,c ,,,,d | [,a,,,d] ,d | ,a ,,b | ,,,a ,,,,,d | ,,,,a [,b,c]|\
+    [,a,,,d] [,b,ca]|
+%2
+,d1 ,b ,a ,,d | [,,c,,a] ,,a ,,c ,,d | ,a2 ,,,c | ,,,,c ,,,,,a | [a,,,d] ,b | ,,d ,,b |\
+    ,,,c ,,,,d | [,a,,,d] ,d |
+%3
+ ,a2 ,,b | ,,,a ,,,,,d | [,a,ca1] ,d ,b ,a | ,,d ,,c [,,d,a2] | [,,,c,a] ,,c | [,,d,a4]|]
+Q:"Segunda Diferencia"
+%1
+[a,,,d2] ,b1 ,d | a ,d [b,,,d] a | ,d ,b ,a ,,d | [,a,,,d] ,,a ,,b ,,d | ,a ,,d ,a ,c |\
+    [,d,,,d] ,c ,d ,a | [,b,,a],a ,b ,d | 
+%2
+a1 ,d [b,,,a] a| ,d ,b ,a ,,d | [,,c,,a] ,,a ,,c ,,d | ,a2 ,,,c | ,,,,c ,,,,,a |\
+    [a,,,d] ,b1 ,d| a ,d [b,,,d] a | 
+%3
+,d1 ,b ,a ,,d | [,a,,,d] ,,a ,,b ,,d | ,a ,,d ,a ,c | [,d,,,d] ,c ,d ,a | \
+    [,b,,a] ,a ,b ,d | a c e f | [e,,,,a2] ,f | [f,,,a4]|]
+Q:"Tercera Diferencia"
+%1
+,,,,d2 a1 c | d2 ,,,c1 ,,a | ,,b2 ,,,,d | ,,,,,f ,a1 ,c | ,d2 ,,,,c1 ,,,,e | ,,,a2 ,,,,,d |\
+    [,,g,a] f1 h |
+%2
+i2 ,,d1 ,,f | [f,g,a2] ,d | [eff,,a] ,,c1 ,,d| ,a2 ,,,,,e1 ,,,,a | ,,,,c2 ,,,,,a|\
+    ,,,,d ,f1 ,g | d ,g [f,,,d] d |
+%3
+,g1 ,f ,d ,,g | [,,f,,d] ,,g ,d ,,g | ,,f ,,d ,,,f ,,,d | ,,,c ,,,a ,,,,d ,,,,c |\
+    ,,,,a2 [,b,c] | [,a,,,d] [,,d,,b]|[,a,,,a] ,,c | [,,d,a4]|]
+Q:"Quarta Diferencia"
+%1
+[a,,,d2] ,,,,a1 ,,,,c | ,,,,d ,,,a ,,,c2| ,,b1 ,,d ,a ,c | ,d2 ,,,,,d1 ,,,,a |\
+    ,,,,c ,,,,e ,,,a2| ,,,,c ,,,,,d |[,b,,a] ,,d1 ,a | ,b ,d a2| c1 e f h |
+%2
+[e,,,,a2] ,,,c1 ,,a | ,,c ,,d ,a2| ,,,c ,,,,c | [a,,,d] ,,,,a1 ,,,,c | \
+    ,,,,d ,,,a ,,,c ,,a | ,,b ,,d ,a ,c | ,d a c e | f i h2 |
+%3
+,,,f2 ,,,,,d | [ab,ca] ,,a1 ,,c | ,,d ,,c ,,d2 | [aad,,a] ,,c | \
+    [,,d,a1] ,,,,c ,,,,d ,,,a | ,,,c2 ,,,,d | ,,,,a [ab]| [bd] [ab]| [,df] [,bd] |\
+    ,a [,,cc] |
+%4
+[,,ddf2] [,,,cd] | [,,,ac] [,,,,df] | [,,,,ce] a | [b,,,a] [a,b,d] | [,df,,d] [,bd,a]|\
+    [,adc,a] ,,c | [,,d,a4]|]
+Q:"Otras tres diferencias hechas pozotra parte"
+Q:"Primera Diferencia"
+%1
+[bd,a3] ,b1 | ,,d ,,b ,,d2 |[b,,a1] ,,b ,,d ,a| [ab,,d3] ,a1 | ,,b ,,a ,,b2 |\
+    [a,,,d1] ,,a ,,b ,,d | [,dea2] ,,d | ,,e ,,d |
+%2
+[,dea] ,,b | [,cd,a] ,,b1 ,,,d | ,,,c ,,,a ,,,c ,,,d | [,c,ca] ,,,a ,,,c ,,,d |\
+    [bd,a3] ,b |[b,da] ,,b ,,d2 |
+%3
+[b,,d1] ,,b ,,d ,a|[ab,,d] ,d ,b ,a | ,,b ,,a ,,b2| [a,,,d1] ,,a ,,b ,,d |\
+    [,de,,d2],,d | ,,e ,,b1 ,,e|
+%4
+[,cd,a] ,,b ,,d ,,c | [,d,a2] ,,d | [,dda] ,,,a |[b,,a1] a ,d ,b | [,a,,,d] ,,d ,a ,,d |\
+    ,a ,c [,d,,b2] | [,,,ca] ,c | [,dda4]|]
+Q:"Segunda Diferencia"
+%1
+,,,a1 ,c ,d a | b d [f,,a2]|[b,,a1] a b d | [a,,,d2] ,b1 ,d| a ,d a c | \
+    [d,,,d] c d a | [b,,a] a b d |
+%2
+f1 d b a | [,d,a] b a ,d | [a,,,a] b a ,d | ,c ,a ,c ,d | [a,,,a] ,d a ,c |\
+    ,,,a ,c ,d a | b d f2|
+%3
+[b,,a1] a b d | [a,,,d] c d b | a ,d [b,,a] a | ,d ,b ,a ,,d | [,a,,,d] ,,a ,,b ,,d|\
+    ,a ,c [,d,ab2]| [,,,ca] ,c|
+%4
+,,,a1 ,c ,d a | [b,,a] a [b,,a] a | ,d ,b ,a ,,d | [,a,,,d] ,,a ,,b ,,d | ,a ,c [,d,ab]|\
+    [,,,ca] ,c |[,dda4]|]
+Q:"Tercera Diferencia"
+%1
+f2 ,,,a1 ,,,,e| ,,,a ,,,c ,,,d ,,,f | [f,d] ,,,f ,,d ,,f | [db2] ,,,,d ,,,,c|\
+    ,,,,d ,,,a ,,,c ,,a |[d,b] ,,d ,a ,c |[bd2] ,,,a1 ,,,,e |
+%2
+,,,a1 ,,,,e ,,,a ,,,c |[bd,d] ,,,c ,,,d ,,b|[acd2] ,,,,a1 ,,,,,e | ,,,,a ,,,,c ,,,,e ,,,a|\
+    [ac,c] ,d a ,c | [,d,a] ,c ,d a | [b,,a] [d,,c] [f,,d] ,,,c| ,,,d ,,,f ,,d ,,f |
+%3
+[db] ,a ,b ,d | [df] [cd] [df] c | d c [df] [ac] | [bd] d b a | ,d ,c [,de2] |\
+    [a,d1] ,d a ,c | [,d,a] ,c ,d a |
+%4
+[b,,a] a [b,,a] a | ,d ,b [,a,a] ,,d | [,a,,,d] ,,a ,,b ,,d | ,a ,c [,d,ab2] |\
+    [,,,ca] ,c | [,d,a4]|]
+S:https://www.folktunefinder.com/tunes/162647
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Narvaez/guardame.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Narvaez/guardame.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

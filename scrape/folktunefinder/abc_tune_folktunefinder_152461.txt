@@ -1,0 +1,28 @@
+X:1
+T:La Debardeuse
+C:Maxou Heintzen
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+z |\
+FF F/E/F/G/ | BA AB/c/ | dF BA/G/ | F/G/A/B/ A/G/F/E/ |
+FF F/E/F/G/ | BA AB/c/ | dF BA/G/ | F/G/F/E/ D :|
+|: d/c/ |\
+BF BA/G/ | FE AG/F/ | E>F G/A/B/c/ | BA Ad/c/ |
+BF BA/G/ | FE AG/F/ | E>F GF/E/ | DF D :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152461
+S:http://simonwascher.info/TradArchiv_polka/la_debardeuse.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

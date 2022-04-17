@@ -1,0 +1,23 @@
+X:1
+T:Istanbul
+C:Jonas Ohlsson
+C:Roger Tallroth
+Z:Erik Ronstrm, 2008-09-01
+D:"P Tre Man Hand", Amigo 1993
+M:4/4
+L:1/16
+K:Dm
+"Dm"a4 a2gf gaf2 d2dd|fdfg a2=b2 "E/D"^g4 g2^fe|"F/D"a4 a2gf gaf2 d4|"Am"Tf3e d2c2 "Dm"d2e2 f2g2|
+"Dm"a4 a2gf gaf2 d2dd|fdfg a2=b2 "E/D"^g4 g2^fe|"F/D"a4 a2gf gaf2 d4|"Am"A2c2 "Dm"d3f fed2 z4:|
+|:"C"c2cG c2cG "Dm"d2dA d2dA|"C"c2cG c2cd "G"=BAG2 "A"A4|"Dm"d2dA d2dA "C"c2cG c2cG|"Bb"_B2Bd "C"cBc2 "F"A3^c "A/E"defg|
+"Dm"a2af a2af "E"^g2ge g2ge|"Dm"a2af a2gf "Am"edc2 "Dm"d4:|
+S:https://www.folktunefinder.com/tunes/166740
+S:http://www.folkwiki.se/pub/cache/Istanbul_b0d828.latin.abc
+S:http://www.folkwiki.se/pub/cache/Istanbul_b0d828.abc
+S:http://www.folkwiki.se/pub/cache/Istanbul_b0d828.abcm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

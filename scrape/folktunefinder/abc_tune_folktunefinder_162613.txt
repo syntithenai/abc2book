@@ -1,0 +1,25 @@
+X:0507
+T:"The Groves Of Blarney"       (air)       0507
+C:Unattributed
+C:slow, with expression
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"(G3/2A/2)|B2g2(e3/2d/2)|(d B3)(G3/2A/2)|B2(cB) ({B}A3/2G/2)|G4(G3/2A/2)|
+B2g2({f}e3/2d/2)|(d B3)(G3/2A/2)|B2(c3/2B/2) ({B}A3/2G/2)|G4||
+(d3/2B/2)|g2(g3/2f/2) ({f}e3/2d/2)|(d2B2)(d3/2B/2)|g2(gfe^d)|~e2Hg2(G3/2A/2)|
+B2g2({f}e3/2d/2)|(d B3)(G3/2A/2)|B2({d}c3/2B/2) ({B}A3/2G/2)|G4|]
+S:https://www.folktunefinder.com/tunes/162613
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0507-GrovesBlarney.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0507-GrovesBlarney.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

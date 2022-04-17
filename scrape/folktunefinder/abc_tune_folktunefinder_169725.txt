@@ -1,0 +1,33 @@
+X: 1
+T:Kid on the Mountain
+S:Bothy Boys
+M:9/8
+K:Em
+P:A
+B|"Em"E2E FEF G2F|"Em"E2E "Am"cBA "Em"BGE|"Em"E2E "D"FEF "G"G2G/2A/2|\
+"C"BAG FAG "D"FED:|
+P:B
+"G"BGB "D7"AFA "G"G2(3D/2E/2F/2|"G"GAB dge "D7"dBA|"G"Bcd "D7"cBA "G"G2A|\
+"C"BAG FAG "D"FED:|
+P:C
+"Em"g2g eBe e2e/2f/2|"Em"gfg efg "D"afd|"Em"g2g eBe e2(3f/2g/2a/2|\
+"C"bag fag "D"fed:|
+P:D
+"Em"eBB e2f g2f|"Em"eBB efg "D"afd|"Em"eBB e2f g2g/2a/2|"C"bag fag "D"fed:|
+P:E
+"G"edB "D7"dBA "G"G2(3D/2E/2F/2|"G"GAB dge "D7"dBd|"G"edB "D7"dBA "G"G2A|\
+"C"BAG FAG "D"FED:|
+P:F
+"Em"B,EE eBG E3|"Em"B,EE EFG "D"AFD|"Em"B,EE eBG E2(3F/2G/2A/2|\
+"C"BAG FAG "D"FED:|
+S:https://www.folktunefinder.com/tunes/169725
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ki/Kid_on_the_Mountain_5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

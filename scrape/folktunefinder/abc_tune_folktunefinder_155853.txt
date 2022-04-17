@@ -1,0 +1,31 @@
+X:1
+T:Eins, zwei, drei, lustig ist die Schaeferei
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Die Sackpfyf schoen Macht siss gethoen", 4 3 Volkstaenze u. Schaeferlieder aus Schwaben, compilation G.Balling, publisher Schwaebischer Albverein, Stuttgart 1997
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+dd |\
+d2g2 d2BB | c2e2 c2cc | c2e2 d2c2 | c2B2 B2dd |
+d2g2 d2BB | c2e2 c2dd | d2d2 e2f2 | g2g2g2 :|
+K:C
+|: ee |\
+e2g2 e2ee | f2g2 f2ff | f2f2 g2f2 | f2e2 e2ee |
+e2g2 e2ee | f2g2 f2ff | g2f2 e2d2 | c2c2c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155853
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/eins,_zwei,_drei.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

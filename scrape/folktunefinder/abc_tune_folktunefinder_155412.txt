@@ -1,0 +1,23 @@
+X: 1
+T: Early One Morning
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Tune trad; dance by Scott Higgs
+B: Barnes p.33
+M: 2/4
+L: 1/8
+K: F
+|| "F"F2 FF | FA cc | "Bb"dB GF | "C7"EG EE \
+|  "F"F2 FF | FA cc | "Bb"dB "C7"GE | "F"F4 ||
+|: "C"G2 AB | "F"cA F2 | "C"G2 AB | "F"cA F2 \
+| FA cf | "Bb"ed cB | "C7"AG FE | "F"F4 :|
+S:https://www.folktunefinder.com/tunes/155412
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/EarlyOneMorning.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/EarlyOneMorning.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

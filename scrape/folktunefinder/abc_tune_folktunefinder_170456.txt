@@ -1,0 +1,53 @@
+X:1
+T:Kolo from Ripanj
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/8=225
+M:2/4
+L:1/8
+K:C
+P:Tres Bouncy
+%%MIDI channel 1
+%%MIDI program 1 21
+%%MIDI chordprog 25
+%%MIDI bassprog 32
+|:"C".c.c cc/B/ | _B=B cc/B/ | cc/B/ _B=B | c2 c2 |
+ ^ff/g/ fg |ec c/B/_B/=B/ |"G7" c/B/_B/=A/ B=B |"C" c2 c2 :|
+|:"C" cc/B/ _BB/=B/ | c^f/g/ fg |"G7"a/g/^f/=f/ ^fg | =f/e/f/d/ "C"e2 :|
+%%MIDI program 1 56
+|:"C" [G2_B2] [G_B]c/B/ |"F" [F2A2][FA]_B/A/ |"G7" [D2F2] [DF]G/F/ |"C"[C2E2][C/E/]F/G/A/ |
+ [G2_B2] [G_B]c/B/ |"F" [F2A2][FA]_B/A/ |"G7" [D2F2] [DF]G/F/ \
+ |1 "C".[CE].[CE][C/E/]F/G/A/ :|2 "C".[CE].[CE][C/E/]F/^F/G/ ||
+%%MIDI program 1 21
+|:"G7"A/G/~^F-F G |=FD "C"E2 |"G7"E/F/F- FD |"C"E2 E/F/^F/G/ |
+ "G7"A/G/~^F-F G |=FD "C"E2 |"G7"E/F/F- FD \
+ |1"C"E2 E/F/^F/G/ :|2"C"E2 E2 ||
+%%MIDI program 1 56
+|:"G7"[FD][F/D/][E/C/] [FD][DB,] |"C"[E2C2] [G2E2]\
+ |"G7"[FD][F/D/][E/C/] [FD][DB,] |"C"[E2C2] [E2C2] :|
+P:Last time:
+%%MIDI program 1 21
+ "C".c.c cc/B/ | _B=B cc/B/ | cc/B/ _B=B | c2 c2 |
+ ^ff/g/ fg |ec c/B/_B/=B/ |"G7" c/B/_B/=A/ B=B |"C" c2 c2 |
+.c.c cc/B/ | _B=B cc/B/ | cc/B/ _B=B | c2 c2 |
+ ^ff/g/ fg |ec c/B/_B/=B/ |^ff/g/ fg |ec c/B/_B/=B/ |^ff/g/ fg |ec c/B/_B/=B/ |
+ "G7" c/B/_B/=A/ B=B |"C" c2 c2 |"G7" c/B/_B/=A/ B=B |"C" c2 c2 |\
+ "G7" c/B/_B/=A/ B=B |"C" .c.G .c\
+%%MIDI gchordoff
+ z ||
+W:Arrangement Copyright (C) 2000 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/170456
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/KoloFromRipanj.abc
+S:http://people.csail.mit.edu/jaffer/Music/KoloFromRipanj.abc
+S:http://voluntocracy.org/Music/KoloFromRipanj.abc
+S:http://www.voluntocracy.org/Music/KoloFromRipanj.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

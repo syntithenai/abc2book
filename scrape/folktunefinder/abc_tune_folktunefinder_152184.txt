@@ -1,0 +1,23 @@
+X:152
+T: Der Meierin Sohn
+N: Q1083B
+O: Suedosteuropa, Rumaenien, Siebenbuergen
+N: Melodievergleich zu Q0083, anderes Lied.
+R: Abschieds - Lied
+M: 3/4
+L: 1/8
+K: F
+C2 | F4F2 | F2E2F2 | G2A2G2 | F2F2
+G2 | A2G2A2 | B2A2GF | A2A2G2 | F2F2
+S:https://www.folktunefinder.com/tunes/152184
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Abschieds - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

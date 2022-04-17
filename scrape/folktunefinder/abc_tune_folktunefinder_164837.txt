@@ -1,0 +1,33 @@
+X:1
+T:Horizonto
+C:Paul James 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:Gm
+ded cdB | cAB GAF | D2G GAB | A2F FGA |\
+B3 BcB | A2F FGA | BAG AGF | D=EF G3 :|
+|:\
+E2G GAB | E2G GAB | D2G GAB | D2G GAB |\
+E2G GAB | E2G GAB | ded cdB | cAB GAF |\
+E2G GAB | E2G GAB | D2G GAB | D2G GAB |\
+E2G GAB | E2G GAB | ^E2G GAB | ^E2G GAB :|
+|:\
+e2d- dcB | A3- ABc | d2c- cBA | G3- GAB |\
+c2B- BAG | ^F3- FGA | B2c2^c2 | d3- dcd |\
+e2f- fe2 | A3- ABc | d2e- ed2 | G3- GAB |\
+c2B- BAG | ^F3- FGA | B2G- GGF | G2z z3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164837
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/horizonto.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

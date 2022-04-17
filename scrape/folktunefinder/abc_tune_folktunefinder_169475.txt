@@ -1,0 +1,30 @@
+X:0736
+T:"Kelly The Rake"      (jig)      0736
+C:Unattributed
+N:Transposed up two steps
+N:added first part after second to show keychange and continuation of tune.
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+|:aec aec|aec a2b|c'ba aga|bge e^de|
+aec aec|aec a2b|c'ba gab|[1a3a2z:|[2a3=g2z
+K:C
+|:gec {d}cBc|gcc acc|gec {d}cBc|dBG GBd|
+gec {d}cBc|gcc acc|gc'b agf|[1edc BAG:|[2edc BGe
+K:A
+|:aec aec|aec a2b|c'ba aga|bge e^de|
+aec aec|aec a2b|c'ba gab|a3a2z:|
+S:https://www.folktunefinder.com/tunes/169475
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0736-KellyRake.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Galopp
+R:Galopp
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Michael Kellner, Regensburg 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d2 |\
+dc BA | GA B2 | AB c2 | Bc d2 |
+dc BA | GA B2 | d>c BA | G2 :|
+|: B2 |\
+cB A2 | BA G2 | FD AF | GD BG |
+cB A2 | BA G2 | FD AF | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159862
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_galopp/galopp.dcBAGAB2.abc
+% Rhythm Galopp
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

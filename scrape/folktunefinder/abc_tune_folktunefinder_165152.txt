@@ -1,0 +1,27 @@
+X: 6
+T:Humfidifixan
+S:Polka frn Lappfjrd
+A:Lappfjrd, sterbotten
+O:Finland
+M:2/4
+L:1/16
+Q:1/4=120
+K:D
+"D"A2df a2f2|"D"A2df a2f2|"A7"{fg}f2ef g2e2|"D"dcde f2d2|\
+"D"A2df a2f2|"D"A2df a2f2|"A7"{fg}f2ef gece|"D"e2d2 d4::\
+K:A
+"A"{ef}e3d c2Ac|"A"efed c2Bc|"E7"d2E2 E2((3BcB)|"A"A2a2 g2f2|\
+"A"e3d c2Ac|"A"efed c2Bc|"E7"d2E2 E2((3BcB)|"A"A2c2 A4:|]
+% Output from ABC2Win  Version 2.1 h on 2000-04-19
+S:https://www.folktunefinder.com/tunes/165152
+S:http://homepage.calypso.net/~ci-18034/finland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/finland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

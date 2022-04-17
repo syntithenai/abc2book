@@ -1,0 +1,25 @@
+X:1
+T:Gilderoy
+% Nottingham Music Database
+N:from a file called &quot;ReelsD-G&#x002e;abc&quot; that I had lying about -
+N:transposed, chords removed, default note length halved&#x002e;
+S:via PR
+M:4/4
+L:1/8
+K:E Minor
+B,2|E2 EF GFGA|BcBG A2GA|BAGF  EFGE|F^DB,B, B,2B,D|
+    E^DEF GFGA|BcBG A2GA|Be^de BAGF|G2 E2   E2   :|
+Bc |d2 de dcBc|dcBG A2GA|BAGF  EFGE|F^DB,B, B,2B,D|
+    E^DEF GFGA|BcBG A2GA|Be^de BAGF|G2 E2   E2   :|
+S:https://www.folktunefinder.com/tunes/160956
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg03347.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

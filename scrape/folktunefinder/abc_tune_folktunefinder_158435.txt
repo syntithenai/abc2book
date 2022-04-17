@@ -1,0 +1,22 @@
+X:1
+T: Flogging Reel, The
+M:4/4
+L:1/8
+R: reel
+K:Gmaj
+|:dc | BG G2 BGdc | BG G2 (3Bcd gd | BG G2 (3BAG dB | AD F2 ABcA |
+BG G2 BGdc | BG G2 (3Bcd gd | BG G2 (3BAG dB | AFDF ABcA ||
+|:g3d BGBd | g3e fgaf | (3gfe dc BcdB | AD F2 ABcA | 
+g3d BGBd | g3e fgaf | bgaf (3gfe dB | AFDF ABcA ||
+|:(3Bcd gd (3Bcd gd | (3Bcd gd BG G2 | (3ABd fd (3ABd fd | (3ABd fd BG G2 |
+(3Bcd gd (3Bcd gd | (3Bcd ef g3a | bgaf (3gfe dB | AFDF ABcA ||
+S:https://www.folktunefinder.com/tunes/158435
+S:http://www.thesession.org/tunes/display/195
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

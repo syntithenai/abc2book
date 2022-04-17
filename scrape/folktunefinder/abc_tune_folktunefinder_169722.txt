@@ -1,0 +1,25 @@
+X: 1
+T: The Kid on the Mountain
+R: slipjig
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: Em
+|: "Em"~E3 FEF G2F | E2B B"(#)"cA "(D)"BGD | "Em"~E3 FEF G2A | BAG "D"FAG FED :|
+|: "G"BGG "D"AFF "G"G2D | GAB dge dBG | BGG B2A G2A | BAG "D"FAG "D"FED :|
+|: "Em"~g3 eBe e2f | ~g3 efg "D"afd | "Em"~g3 eBe ega | bag "D"fag fed :|
+|: "G"eBB "D"dBA "G"G2D | GAB dge "D"dBd | "G"edB "D"dBA "G"G2A | BAG "D"FAG FED :|
+S:https://www.folktunefinder.com/tunes/169722
+S:http://trillian.mit.edu/~jc/music/book/500/KidOnTheMountain.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

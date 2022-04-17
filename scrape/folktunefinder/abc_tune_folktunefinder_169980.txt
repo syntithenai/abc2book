@@ -1,0 +1,46 @@
+X:16
+T:King of the Fairies
+C:Traditional
+S:The Fiddle Player's Tunebook
+Z:From the playing of Dave Swarbrick
+M:4/4
+L:1/8
+Q:100
+K:G
+|:B,2 |\
+"Em"E2 EF GFGA |\
+"G"B2 B2 GFGA |\
+"Em"B2 E2 EFGE |\
+"D"FGFE D2 B,2 |\
+"Em"E^DEF GFGA |\
+"G"BAGB d2 dc |\
+"Em"B2 E2 "D"GFE^D |\
+"Em"E6 :|\
+B2 |\
+"Em"e2 e2 Bdef |\
+"Am"gagf edef |\
+"Em"e2 B2 BAB^c |\
+"Bm"ded^c B^cd/^c/B |\
+"Em"e2 B2 Bdef |\
+"Am"gagf efed |\
+"Em"Bde/f/g "Bm"fed/e/f |\
+"Em"e3 f e2 ef |\
+"Am"g2 ge f2 fd |\
+"Am"edB^c d2 de |\
+"D"dBAF "G"GAB^c |\
+"D"dBAF "G"GFED |\
+"Em"B,2 E2 EFGA |\
+"Em"B2 ef e2 ef |\
+"Em"edBA "D"GEFD |\
+"Em"E2 F/E/D E2 ||
+S:https://www.folktunefinder.com/tunes/169980
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/KingOfTheFairies.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

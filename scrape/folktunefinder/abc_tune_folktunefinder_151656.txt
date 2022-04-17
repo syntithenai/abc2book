@@ -1,0 +1,23 @@
+X:127
+T: Die elfjaehrige Markgraefin
+N: Q1053E
+O: Mitteleuropa, Oesterreich, Salzburg, Mondsee
+N: Verzierung (Nachschlag) in der ersten Zeile. Melodievergleich
+N: zu Q0053 , anderes Lied. Takteinteilung chaotisch. Hier Taktwechsel
+N: kodiert.
+R: 
+M: 4/4
+L: 1/8
+K: F
+FF2c2 | A2F2F2G2 | F2F
+FA2B2 | c2f2e2d2 | c3
+cf2f2 | c4c2c4c2 | AAz2
+c2c2 | F4F2A4B2 | A4c4A4 | G4F2G2 | F3
+S:https://www.folktunefinder.com/tunes/151656
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

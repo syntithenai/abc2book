@@ -1,0 +1,32 @@
+X:1797
+T:"The Garden Of Dasies" (1st setting)  (longdance) 1797
+C:after Mr. Hartnett
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+fg|a2b2g3/2b/2a3/2g/2|f2a2g3/2f/2e3/2f/2|(TRdc)d3/2e/2 f3/2d/2e3/2c/2|dedc AGFG|
+A3B ABAG|FEFG ABcA| (TRdc)de f3/2d/2e3/2c/2|d2d3/2d/2 d2:|
+(3ABc|d2e2fefg|a3f d2ga|b3g a3f|g3e c2(de)|
+f3e f2a2|g2f2efec|dcde fdec|dedc A2(fg)|
+a2b2g3/2b/2ag|f2a2g3/2f/2ef|(TRdc)de f3/2d/2e3/2c/2|dedc AGFG|
+A3B ABAG|FEFG ABcA|(TRdc)de fdec|d2d3/2d/2 d2||
+(3ABc|d2e2f2g2|a2a3/2a/2 a2(fg)|a2b2a2g2|e2a2g2e2|
+(TRdc)de fdec|dedc A2(fg)|a2b2a2g2|
+e2a2g2e2|(TRdc)de fdec|dedc AGFG|A2AB ABAG|
+F2G2ABcA|d2de fdec|d2d3/2d/2 d2|]
+S:https://www.folktunefinder.com/tunes/160457
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1797-GardenDasies1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1701-1800/1797-GardenDasies1st.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1797-GardenDasies1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

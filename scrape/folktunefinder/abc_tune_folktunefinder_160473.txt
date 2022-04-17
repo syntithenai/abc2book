@@ -1,0 +1,37 @@
+X: 2
+P: Garofitsa (Jig)
+O: German Goldenshteyn
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Em
+"A"[|]\
+E G2B \
+| "Em"^d2{f}e e2c | B3 Bc^c | "D"dcB "(Am)"cBA | "D"AGF "Em"E3 \
+| "Em"^d2e e2=d | dcB "Am"ABc | "Em"B6- | Bz E G2B |
+| "Em"^d2{f}e e2c | B3 Bc^c | "D"dcB "(Am)"cBA | "D"AGF "Em"E3 \
+| "Am"G2A A2F | "Em"GFE "Dm"DE=F | "Em"E6- | Ez :|
+"B"\
+|: E =F2^G \
+| "Am"^G2A A2G | A2^G A3 | ^dee e=dc | "G"B2{cB}A G3 \
+| "Dm"d2^c d2e | =fed ^cde | "Dm"^cd2- d3 | "G"g6 |
+| "Am"^G2A A2G | A2G A3 | ^dee e=dc | "G"B2{cB}A G3 \
+| "Am"G2A A2F | "Em"G2E "Dm"=F2D | "Em"E6- | Ez :|
+K:E^d^G
+"C"\
+|: "E"GAG FGF | FED EGB | GAG FGF | FED E3 \
+|     GAG FGF | FED EGB | GAG "(Dm)"FGF |1 "E"FED E3 :|2 "E"E2 |]
+S:https://www.folktunefinder.com/tunes/160473
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/Garofitsa_B.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/Garofitsa_B.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

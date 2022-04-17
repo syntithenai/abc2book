@@ -1,0 +1,22 @@
+X:7
+P:The Mill-Ennium Jig
+C:Anselm Lingnau
+M:6/8
+K:G
+D|"G"B2 G dcB|"Am"ecA "D"FED|"C"EFG "G/B"DFG|"Am"ABA "D"A2 d|\
+ "G"B2 G Bcd|
+ "C"ecg "D"fed|"Am"efg "D7"afd|"G"g3 g2:|\
+g|"C"e2 c gfe|"G"d2 B G2 d|
+ "Am"c2 A "D"F2 e|"G"ed^c d2 d|\
+ "C"e2 c gfe|"G/B"d2 B G2 d|"Am"c2 A "D"FED|
+ "G"G3 G2 g|\
+ "C"ecc gfe|"G/B"dBG GBd|"Am"cAA "D"FAc|"G"ed^c "G7"d2 d|
+ "C"ecc gfe|"G/B"dBG GBd|"Am"efg "D7"afd|"G"g3 g2|]
+S:https://www.folktunefinder.com/tunes/163813
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tm.informatik.uni-frankfurt.de/pmtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

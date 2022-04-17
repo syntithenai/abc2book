@@ -1,0 +1,34 @@
+X:1
+T:Daughters of Feminists
+M:6/8
+L:1/8
+K:Bb
+ FBB BFF| FBB BFF| Gcc cGG| Gcc cdc| F3 z DF| B3 z2 F| G3 z2 z| z4 z2|\
+ FBB BFF| FBB BFF| Gcc cGG| Gcc cdc| F3 z DF| B3 z2 F| G3 z2 z| z4 z2|\
+ BBB B=A=G| BBB B=A=G| BBB B=A=G| BBB e =d2| ccc cdc| ccc cde| f6|\
+ z4 z2| FBB BFF| FBB BFF| Gcc c2 G| d3 z2 z| ddd dcB| ddd dcB| FFF FGA|\
+ B6| z4 z2| g3- gf g| a3 z2 g| f6| B3 z2 z| e3/2 e3/2- e2 g| f3 z2 e|\
+ d6| F3 z2 z| c3- c^B c| e3 z2 d| B6| g3 z2 z| =ddd dcB| =ddd d d2|\
+ =ddd dcB| z2 z f2 b| g6-| g6| f6-| f3 z2 z|
+K:D}
+ A2 d d2 A| A2 d d2 A| B2 e e2 B| f6| f2 f fed| f2 f fed| A2 A ABc|\
+ d3 =F3-|
+K:Bb}
+ F2 B B2 F| F2 B B2 F| G2 c c2 G| d6| d z d dcB| d z d dcB| F2 F FGA|\
+ B3 G3|
+K:C}
+ Gcc cGG| G2 c cGG| Add dAA| e3 z2 z| eee edc| eee e3| eee edc| G3 z|\
+ z2||| z2 z| eee edc| eee edc| GGG GAB| B c2- c3| z4 z2| a3- ag a|\
+ b3 z2 a| g2- a- g2- c| c3 z2 c| f3/2 f3/2- f2 a| g3 z2 f| e6| G3 z2 z|\
+ d3- d^c d| f3 z2 e| c6| a3 z2 z| g3 f2 e| f3 e2 d| f3 e2 d| b3 a2 g|\
+ c'3 z2 z|
+S:https://www.folktunefinder.com/tunes/152281
+S:http://back.numachi.com:8000/dtrad/abc/DAUGHTFM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key A-sharp
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

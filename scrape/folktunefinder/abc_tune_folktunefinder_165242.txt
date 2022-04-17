@@ -1,0 +1,26 @@
+X: 8
+T: SANDY BUCHANAN'S -- STRATHSPEY
+M:C
+L:1/8
+R:Strat:hspey
+S:Ryans Mammoth Collection (1883)
+Z:AK/Fiddlers Companion
+K:A Minor
+(E<A) (A>.G) (E<G) (G>.A) | (c>.d)(e>.d) (c<A) (A>.c) |\
+(E<A) (A>.G) (E<G) g2 | "SEGUE"e>cd>e c2 [E2c2] |
+(E<A)A>G (E<G)G>A | c>de>d (c<A)A>c |\
+(E<A)A>G (E<G) g2 | e>cd>e c2 [E2c2] |]
+(e<g) g2 (e<a) a2 | (e>.d)(c>.e) "SEGUE"d>B G2 |\
+(e<g)g2 (e<a)a2 | e>cd>e c2 [E2c2] |
+(e<g)g2 (e<a)a2 | e>dc>e d>cA>G |\
+(E<A)A>G (E<G)g2 | e>cd>e c2 [E2c2] |]
+S:https://www.folktunefinder.com/tunes/165242
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Strat:hspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

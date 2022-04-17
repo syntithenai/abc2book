@@ -1,0 +1,31 @@
+X: 1
+T: Eddie's Reel
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"EAce a2a2 | EAce a4 \
+| EAce agfe | "Bm"d3e dcBG \
+| "E7"EGBe g2g2 \
+| "E7"EGBe g2f2 \
+|1 e2e2 fafd | "A"c6 z2 :|
+|2 "E7"e2e2 dBGB | "A"A4- A2e2 \
+[| "A"[c'3e][c'e] [c'2e][b2d] | [a4c]- [a2c][b2d] \
+| "A"[c'3e][c'e] [b2d][a2c] | "E7"[g6B] [a2c] \
+| [b3d][bd] [b2d][a2c] | "E7"[g4B] [g2B][f2A] \
+| [e2G][e2G] fafd | "A"[A4c4]- [A2c2]e2 |]
+[| "A"[c'3e][c'e] [c'2e][b2d] | [a4c]- [a2c][b2d] \
+| "A"[c'3e][c'e] [b2d][c'2e] | "D"[d'6f] [gB][ac] \
+| "E7"[b3d][bd] [b2d][a2c] | [g4B] [g2B][f2A] \
+| "E7"[e2G][e2G] dBGB | "A"[A6A6] |]
+S:https://www.folktunefinder.com/tunes/155668
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/EddiesR_A3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/reel/EddiesR_A3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

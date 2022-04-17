@@ -1,0 +1,30 @@
+X:4
+T:Kadril van Brussel
+T:Vierde figuur
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABC
+L:1/16
+M:2/4
+K:C
+P:Voorspel
+G2E2 C2E2 | G2cd e4 | dedc BGAB | c2 z2 c2 z2 ||
+P:A
+G2E2 C2E2 | G2cd e4 | dedc BcBA | GAGF E2C2 | G2E2 C2E2 | G2cd e4 | dedc BGAB | c2 z2 c2 z2 :|
+P:B
+K:F
+A2A2 c2c2 | cdcA c4 | AcBA G2G2 | GBAG F2F2 | A2A2 c2c2 | cdcA c4 | =B2G2 d2G2 | c2cc c2c2 |
+A2A2 c2c2 | cdcA c4 | AcBA G2G2 | GBAG F2F2 | A2A2 c2c2 | BABc d4 | c2c2 E2E2 | F2 z2 f2 z2 |]
+P:C
+K:C
+G2E2 C2E2 | G2cd e4 | dedc BcBA | GAGF E2C2 | G2E2 C2E2 | G2cd e4 | dedc BGAB | c2 z2 c2 z2 :|
+S:https://www.folktunefinder.com/tunes/152936
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Brussel.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

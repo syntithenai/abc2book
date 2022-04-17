@@ -1,0 +1,21 @@
+X:5
+T:Harry Cox's Schottische
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+|:d2 (3dcB A2G2|E3/2A/2A3/2G/2 F3/2E/2 D2|
+d2 (3dcB A2G2|E3/2A/2G3/2F/2 G2G2:|
+|:B3/2A/2  (3GFE D3/2B,/2 D2|G3/2F/2 G/2B3/2 A2A2|
+B3/2A/2  (3GFE D3/2B,/2 D2|E3/2A/2G3/2F/2 G2G2:|
+S:https://www.folktunefinder.com/tunes/163416
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/HarryCoxsSchottische.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

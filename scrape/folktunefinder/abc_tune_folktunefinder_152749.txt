@@ -1,0 +1,39 @@
+X:1
+T:Den Bremberg
+T:mars
+C:Jan Alexander STRYCKERS
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:= The Broom Mountain / la genist-monto
+M:C|
+L:1/4
+P:(AABB)n AA coda
+Q:1/2=70
+R:march
+K:C
+V:1 name=G-bagpipe
+P:[A]
+|: g4-| gf/e/f2 | ecdc | ega2 | g3f/e/ | fec2 | de/d/cB | c4 :|
+P:[B]
+|: d2f2 | e2-e/g/e/c/ | d2f2 | a2ge | d2f2 | [1e3g | abc'g-| gfef :| [2e3g | fedc | g4 |]
+P:[coda]
+de/d/cB | c4-| c4 | c4-| c4 |]
+V:2 name=G-bagpipe
+|: c2d2 | e2c2 | c2B2 | c2c2 | c2d2 | c2B2 | A2G2 | GA3 :|
+|: A2B2 | c2_B2 | A2c2 | c2c2 | A2B2 | [1c4 | c3d | ec2A :| [2c4 | c2A2 | BcAB |]
+ G2G2 | A4-| A4 | G4-| G4 |]
+V:3 name=C-bagpipe
+|: E2G2 | c2A2 | G2G2 | G2F2 | E2G2 | A2G2 | F2ED | F4 :| 
+|: F2G2 | G4 | F2A2 | F2EG | F2G2 | [1A2G2 | FGAB | cAG2 :| [2GA_B2 | AGF2 | GAGF |]
+F2ED | F4 | D/E/F3 | E4-| E4 |]
+S:https://www.folktunefinder.com/tunes/152749
+S:http://music.gordfisch.net/tradmusic/pub/cache/Den_Bremberg_6551a6.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

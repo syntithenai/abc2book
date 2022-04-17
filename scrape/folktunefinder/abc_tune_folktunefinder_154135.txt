@@ -1,0 +1,59 @@
+X:18
+T:Perfidious Amerikay
+R:odd
+O:New Zealand
+M:8/8
+C:Mark Fitzsimons
+K:Dmin
+A,DE F2 EDB,|B,DE A,2G,A,B,|CFE D2 CDE|DCB, A,2 G,A,B,|
+M:9/8
+CEF G2G2AG|BBA G2 GF GF|\
+M:8/8
+EDE F2 GFE|GFE D2 z2z:|
+M:7/8
+AGF E2 E2|\
+M:10/8
+DEF GAB A2A2|\
+M:7/8
+BAG F2F2|\
+M:10/8
+EDEF2Gc2B2|
+M:9/8
+AGF E2 EDED|BBA G2 GFGF|\
+M:8/8
+EDE F2 GFE|GFE D2 z2z:|
+dcB A2 GAB|\
+M:7/8
+dcB A2A2|\
+M:8/8
+dcB A2 GAB|\
+M:7/8
+dcB A2A2|
+M:8/8
+|1 AGF E2 DEF|\
+M:7/8
+BAG E2E2|G2GF GFE|\
+M:8/8
+GAE D2z2z:|
+M:8/8
+|2AGF E2 DEF| BAG E2 DEF|EDE F2 GFE|GFED2z2z:|
+W:
+W:
+W:Copyright Mark Fitzsimons March 2000
+W:mark@greenmanhumming.com
+S:https://www.folktunefinder.com/tunes/154135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/ABC.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/mark/ABC.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/Perfidious_Amerikay.abc
+% Rhythm Odd
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 7/8
+% Time_signature 8/8
+% Time_signature 9/8
+% Time_signature 10/8
+% Has_accompaniment_chords No chords

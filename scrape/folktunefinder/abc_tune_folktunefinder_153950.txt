@@ -1,0 +1,28 @@
+X: 4
+T:Wonderful Thing
+M:6/8
+L:1/8
+Q:200
+C:Words and music by Rhonwen y Llysieuyddes (m.k.a. Julia West) (c) 1978
+S:From "A Breeze Through the CONduit"
+B:A Breeze Through the CONduit, (c) 1992 by Julia West
+N:This was written for an SCA bawdy ballads contest in 1978.
+W:He isn't the handsomest lad in the world,
+W:And he's not as rich as a king,
+W:But it doesn't matter because he is good
+W:At one very wonderful thing.
+K:Ab
+D | "G" _G G G G F E | D E D B,2 D | _G G G G F _G | "D" A4-A  _G | 
+"D7" F F F F E F | "G" _G F E D2 D | "C" E _G "D7" E F A F | 
+"G" _G4 z||
+S:https://www.folktunefinder.com/tunes/153950
+S:http://www.sff.net/people/julia.west/songs/westabc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

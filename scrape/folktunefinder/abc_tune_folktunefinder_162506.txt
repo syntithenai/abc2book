@@ -1,0 +1,23 @@
+X:5
+T:The Ground
+L:1/4
+M:C
+K:Bb -8 treble8
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .75 in
+%
+[Bbd']> c' d'e'|ff'c'f|[Gbd] ABc|d>d'ad|[Bbd']> c' d'e'|ff'c'f|[gbd']g'[dad']c'|\
+        [G2gd'g'] [g2d'g']:|
+%abctab2ps format
+%
+S:https://www.folktunefinder.com/tunes/162506
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

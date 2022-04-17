@@ -1,0 +1,22 @@
+X:1
+T:Flop-Eared Mule (II)
+M:C|
+L:1/8
+K:D
+A2|"D"^e2f2c2d2|ABAF D2F2 | "A7"EDEF GECE |"D"DEFG A4|
+"D"^e2f2c2d2|ABAF D2F2 | "G"EDEF "A7"GABc |"D"d2f2d2:|
+K:A
+|:c>d|"A"efec efec |efec A2c2 |"E7"BABc dBGE |"A"ABcd e2 cd|
+"A"efec efec |efec A2c2 |"E7"BABc defg |"A"[a2c2][a2c2][a2c2]:|
+S:https://www.folktunefinder.com/tunes/158461
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/FlopEardMule.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

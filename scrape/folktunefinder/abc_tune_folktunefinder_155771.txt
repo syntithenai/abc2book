@@ -1,0 +1,41 @@
+X:1
+T:Egerlaendischer Landla
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+S:sammlung Rittersberg
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:D
+A/G/ |\
+F/A/d/A/e/A/ | A/f/f/A/g/f/ | fe/d/c/e/ | d/c/d/B/A/G/ |\
+F/A/d/A/e/A/ | A/f/f/A/g/f/ | fe/d/c/e/ | dD :|
+|: g/f/ |\
+fe/d/c/e/ | d/c/d/A/g/f/ | fe/d/c/e/ | d/c/d/B/A/G/ |\
+F/A/d/A/e/A/ | A/f/f/A/g/f/ | fe/d/c/e/ | dD :|
+K:G
+|: d/c/ |\
+B/d/g/d/a/d/ | d/b/b/d/c'/b/ | ba/g/f/a/ | g/f/g/e/d/c/ |\
+B/d/g/d/a/d/ | d/b/b/d/c'/b/ | ba/g/f/a/ | gG :|
+|: c'/b/ |\
+ba/g/f/a/ | g/f/g/d/c'/b/ | ba/g/f/a/ | g/f/g/e/d/c/ |\
+B/d/g/d/a/d/ | d/b/b/d/c'/b/ | ba/g/f/a/ | gG :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155771
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/egerlaendischer_landla.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

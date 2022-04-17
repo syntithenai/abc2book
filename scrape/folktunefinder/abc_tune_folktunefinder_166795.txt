@@ -1,0 +1,29 @@
+X:0568
+T:"It Is Sickly I Am"    (air)    0568
+C:after Chief F.  O'Neill
+C:slow
+N:fermata to taste
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_VB"(de)|(=f3/2e/2) fg fedc|B2 {B}A3/2G/2 G2(de)|=f3/2e/2fg (fedB)|d2eg g3g|
+=f2(fg)  {f}e2dB|B2(AG) G2(GA/2B/2)|c2=f2e2dB|A2GG G2||
+(d3/2c/2)|.B2.A2.G2(G3/2A/2)|B2 {B}AG G2(GA)|B2(=fe) d2cB|c2de =f2dc|
+.B.B .A.A .G2(GA)|B2(de/2f/2) Hg2(d3/2c/2)|B3G TRA3G|G4G2|]
+S:https://www.folktunefinder.com/tunes/166795
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0568-ItsSickly.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0568-ItsSickly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

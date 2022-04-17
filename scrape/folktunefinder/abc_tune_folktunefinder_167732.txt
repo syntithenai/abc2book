@@ -1,0 +1,33 @@
+X:536
+T:Jig
+C:anon.
+O:Ireland
+R:Single jig
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/jig01.abc
+M:6/8
+L:1/8
+Q:3/8=128
+K:Gm
+"Gm"d2GG2A|"Gm"d2cA2c|"Gm"d2GG2A|"F"F2GA2c|
+"Gm"d2GG2A|"Gm"d2cA2c|"F"d2cf2A|"Gm"G3G2 z:|
+|:"Gm"d2c d=ef|"Gm"g2af2d|"F"c2Ac2d|"F"c2Ac2f|
+"Gm"d2c d=ef|"Gm"g2af2d|"F"c2Af2A|"Gm"G3G2 z :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/167732
+S:http://abc.musicaviva.com/tunes/ireland/jig01.abc
+S:http://abc.musicaviva.com/tunes/ireland/jig01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/jig01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/jig01.abc
+% Rhythm Single jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

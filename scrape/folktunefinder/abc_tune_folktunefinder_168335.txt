@@ -1,0 +1,24 @@
+X:407
+T:John McNeill's Highland Fling
+C:James Scott Skinner
+B:Harp & Claymore
+Z:Nigel Gatherer scots-l 2002-8-5
+M:4/4
+L:1/8
+K:A
+a | e>A A/A/A  a>Ac<a      | c/d/e =g>d  B>GG>f    |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     :|
+e | a/g/f e>A  a>Ac<a      | =g/f/e d>G  g>GB<g    |
+    a/g/f e>A  a>Ae>d      | c/d/e  a>e  c>AA>e    |
+   (3agf (3edc (3agf (3edc | (3gfe (3dcB (3gfe d>f |
+    e>A A/A/A  a>Ac<a      | c/d/e  a>e  c>AA     |]
+S:https://www.folktunefinder.com/tunes/168335
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/JohnMcNeillsHighlandFling_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/fling/JohnMcNeillsHighlandFling_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/JohnMcNeillsHighlandFling_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

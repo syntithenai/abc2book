@@ -1,0 +1,40 @@
+X:1
+T:s' Hanserl
+C:traditionell
+R:Zwiefach
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Dagmar Zach; gedaechtnis-niederschrift
+%%endtext 
+F:http://simonwascher.info/homepage_abc.htm
+Z:abc transcription Simon Wascher
+M:3|4/4
+L:1/4
+K:G
+g>gg | f2a2 | g>gg | f2a2 |\
+g>gg | f2a2 | c'2f2 | g3 :|
+|:\
+g>gg | fac' | g>gg | fac' |\
+g>gg | f2a2 | g>gg | f2a2 |\
+g>gg | f2a2 | c'2f2 | g3 :|
+W:Han-serl sag a, e, Han-serl sag a, e,
+W:Han-serl sag a, e, i, o, u.
+W:schauts euch des Han-serl an, wie des sche' tan-zen kann,
+W:Han-serl sag a, e, Han-serl sag a, e,
+W:Han-serl sag a, e, i, o, u.
+W:
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/163131
+S:http://simonwascher.info/homepage_abc.htm
+S:http://simonwascher.info/TradArchiv_zwiefach/s_hanserl.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

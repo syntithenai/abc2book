@@ -1,0 +1,31 @@
+X: 1
+T: Judy and Jim's Wedding
+I: Judy and Jim's WeddingW-42Dwaltz
+C: W-42
+C: \2511988 Larry Unger
+B: The Curvy Road to Corinth
+Z: transcribed by Mary Lou Knack 6-Jul-1999
+M: 3/4
+% %musicspace 12pt
+K: D
+"D"D3E FG| "Em7"A2d3c| "F#m7"A2d2fd| "G"G4de| \
+"D"d3c BA| "Bm"B2A2D2| "G"FG FE DE| "A7"D2C2A,2|
+"D"D3E FG| "Em7"A2d3c| "F#m7"A2d2fd| "G"G4de| \
+"D"f3e dc| "G"d2c2B2| "A7"A2d3c| "D"d4de|]
+\
+"D"f3e df| "A7"e2d2c2| "Bm"d3e dc| "G"c2B2FG| \
+"D"A2d3A| "Em7"G2d3G| "D"F2d2F2| "A7"E4de|
+"Bm"f3e df| "Em7"e2d2e2| "F#m7"f2a2ef| "G"g2f2de| \
+"D"f3e dc| "G"d2c2B2| "A7"A2d3c| "D"d6|]
+%%text 1/20/02.  From "The Curvy Road to Corinth".
+S:https://www.folktunefinder.com/tunes/168889
+S:http://roaringjelly.org/music/waltz/W042_Judy_and_Jims_Wedding.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/waltz/W042_Judy_and_Jims_Wedding.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/waltz/W042_Judy_and_Jims_Wedding.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

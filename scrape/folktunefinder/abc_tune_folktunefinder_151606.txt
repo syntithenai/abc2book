@@ -1,0 +1,23 @@
+X:77
+T: Graf Friedrich
+N: Q0048C
+O: Mitteleuropa, Deutschland (DDR) , Sachsen, Erzgebirge, Rittersgruen
+N: Grundton in der zweigestrichenen Oktave.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 4/4
+L: 1/8
+K: C
+G,2 | C2B,A,G,G,CE | D2C2z2
+G,2 | C2B,A,G,2CE | D2C2z2
+G,2 | E2EEE2EE | GGFED3
+C | B,2B,2G3F | E2D2C2
+S:https://www.folktunefinder.com/tunes/151606
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

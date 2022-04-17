@@ -1,0 +1,28 @@
+X: 1
+T:The Goodbye Waltz
+R:waltz
+C:Composed by Gavin Atkin
+M:3/4
+L:1/4
+Q:150
+K:G
+|: .d/2 (3d/2e/2f/2 | "C" g2 g | "D" f2 g |
+ "Em7" d2 d | "Bm" B c  ^c | "G" d2 e/2d/2 | "Am" ~c B A |
+ "G" B/2B/2 G ~E | "D" D "D7" .d (3d/2e/2f/2 |
+ "C" g2 g | "D" f2 g | "Em7" d2 d | "Bm" B c  ^c |
+ "G" d2 e/2d/2 | "Am" ~c B A | "G" G G/2A/2 G |
+ "G" G2
+"D7" .d/2d/2 |"Am" ~c A .d | "D7" ~c A .d |
+ "G" B G .d/2d/2 | "Em7" B G .d | "Am" ~c A .d/2 d/2 |
+ "D7" ~c A .d |"G" g "Bm" ~f "C" e | "D" d2 "D7" d |
+ "C" g2 g | "D" f2 g | "Em7" d2 d | "Bm" B c  ^c |
+"G" d2  e/2d/2 | "Am" c ~B A | "G" G G/2A/2 ~G | "G" G2 :|
+S:https://www.folktunefinder.com/tunes/161745
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/go/Goodbye_Waltz_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

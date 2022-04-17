@@ -1,0 +1,30 @@
+X: 11
+T: Gladiat:or -- Reel
+R:reel
+C:G.L.TRACY
+B:Ryan's Mammoth Collection
+N:286
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:G
+uD2"^Segno"|\
+G2(GA) BAGB | .c2.e2 .g3e | d2(Bd) cBAc | BAGB .A2.D2 |
+G2(GA) BAGB | .c2.e2 g3e | d2(Bd) cBAG | FDEF G2H:|
+|:vFA|\
+d2(^cd) Bd^cB | AFGA B^cde | f2(ef) d2(fe) | dB^c^A B=AFA |
+d2(^cd) BdcB | AFGA B^cde | \
+f2(ef) dkf2e |1 dB^c^A B2:|2 dB^c^A B=cB=A "^Segno"|]
+S:https://www.folktunefinder.com/tunes/158234
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

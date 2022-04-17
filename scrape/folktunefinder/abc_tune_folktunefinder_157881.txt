@@ -1,0 +1,40 @@
+X:1154
+T:Fiol i spann
+T:Svenska L\aatar, Sk\aane nr 1282
+C:anon.
+O:Sweden
+B:Svenska L\aatar, Sk\aane nr 1282
+R:Folia
+Z:efter Ola Olsson Feuer. Transcribed by Sigfrid Lundberg
+F:http://abc.musicaviva.com/tunes/sweden/feuer-fiol-i-spann.abc
+%Posted May 29th 2000 at abcusers by Sigfrid Lundberg
+M:3/4
+L:1/8
+K:G
+G2 DG AB | c>A B2 G2| {B}d>c - Bc de|e>d d2 d2:|
+%G2 DG AB | c>A B2 G2| {B}d>c - Bc de|e>d d2 d2|
+{d}e>d dc  c>B|A>B c2-c2|e>c - A2 F>D|D>G B2 - B2 |
+(3 B{cB}AB - cA FD|GB de fg|(3 B{cB}AB - cA FD|GB de fg|
+ee ef (3g-fe|ed d2-d2|(3d-cc ceec|cB B2 A2|
+ee ef ge|ed de/2-f/2 gf|ed cB cA|AG G2 - G2|]
+%
+%Sigfrid Lundberg translates "Fiol i spann" as "Violin in a bucket"
+%(it can also mean "Violet in a bucket"). The strange title is simply
+%a Swedish approximation to the orginial title "Folia d'Espagne".
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/157881
+S:http://abc.musicaviva.com/tunes/sweden/feuer-fiol-i-spann.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sweden/feuer-fiol-i-spann.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sweden/feuer-fiol-i-spann.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/sweden/feuer-fiol-i-spann.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/sweden/feuer-fiol-i-spann.abc
+% Rhythm Folia
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

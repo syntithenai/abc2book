@@ -1,0 +1,24 @@
+X:25
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q0041G
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Ziegenhain, Willingshausen
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 3/4
+L: 1/8
+K: G
+D2 | G3GG2 | E2F2G2 | A2d3c | B2z2
+D2 | G3GG2 | E2F2G2 | A2d3c | B2z2
+Bc | d2B2d2 | d2B2e2 | d4B2 | G2z2
+GG | e2e2dd | c2c2A2 | d4c2 | B2z2
+Bc | d2B2d2 | d2B2e2 | d4B2 | G2z2
+GG | e2e2dd | c2c2A2 | d4c2 | B2z2
+S:https://www.folktunefinder.com/tunes/151554
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

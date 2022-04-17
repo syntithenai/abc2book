@@ -1,0 +1,25 @@
+X:3
+T:J'ai le rebours
+S:Tenor
+C:Pierre Certon
+M:C|
+L:1/4
+%%MIDI transpose -12
+K:F -8va
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+f2 d e f f g > f e f d2 e4
+f2 d e f f g > f e f d2 e4
+f2 f e d3 d c A B B A 
+|: A/ B/ c c c A/ B/ c c c c d > c B A G2 HF :|
+S:https://www.folktunefinder.com/tunes/167215
+S:http://www.laymusic.org/music/certon/rebours/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

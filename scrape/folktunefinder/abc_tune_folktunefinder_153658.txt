@@ -1,0 +1,20 @@
+X: 1
+T: Doc Boyd's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+d |: dcd AFA | dfb a2f | gbg Bcd | cec ABc |
+dcd AFA | dfb a2f | gec ABc |1 d3 ABc :|2 d3-d2a ||
+|: b2b ba^g | aba a=gf | ggg gfe | a2f d2a |
+b2b ba^g | aba a=gf | gec ABc |1 d3 fga :|2 d3-d2 ||
+S:https://www.folktunefinder.com/tunes/153658
+S:http://www.thesession.org/tunes/display/6592
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

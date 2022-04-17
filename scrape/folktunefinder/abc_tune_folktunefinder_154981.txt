@@ -1,0 +1,24 @@
+X:1
+T:Dunkeld Harmitage
+C:Neil Gow
+R:reel
+G:fiddle reel, early 18th cent.
+M:C|
+Q:1/2=120
+K:Emin
+%%MIDI chordprog violin
+%%MIDI gchord czczczcz
+B| "Em"E2B2 "G"GEBG|"Bm"FdAd "D"FDAF| "Em"E2B2 GEBG| "Bm"AFdF "Em"E2E B|
+E2B2 GEBG| "Bm"FdAd "Bm"FDAF| "Em"E2B2 GEBG| "D"AFdF "Em"E2E :|
+g|"Em"e2g2 bege| "D"d2fd adfd| "Em"e2g2 "G"bege| "D"dBdF "Em"E2E
+g|"Em"e2g2 "G"bege|"Bm"d2fd "D"adfd|"Em"gbfa "Bm"efde| "Bm"BFdF "Em"E2E :|
+S:https://www.folktunefinder.com/tunes/154981
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/DunkeldHarmitage.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/DunkeldHarmitage.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

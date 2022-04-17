@@ -1,0 +1,29 @@
+X:18
+T: Das mannstolle Maedchen
+N: Q0126E
+O: Mitteleuropa, Deutschland
+N: Pausen am Ende der zweiten, sechsten und letzten Zeile eingefuegt.
+N: Anhaengesel an mehreren Zeilen.
+R: Ballade, Werbung, Betrug
+M: 2/4
+L: 1/16
+K: A
+E2 | A2B2=c2A2 | B2B2A2
+=c2 | B2A2=G2F2 | E4^D2E2FDE2 | E4z2
+E2 | A2B2=c2A2 | B2B2A2
+=c2 | B2A2=G2F2 | E4^D2E2FDE2 | E4
+A4 | B2=cBc2A2 | =G2F2E4
+=c4d4 | e4e2d=c | B2A2A2G2 | A6z2
+A2BA | A2G2A4 | A2E2E2=FG | A4z2
+S:https://www.folktunefinder.com/tunes/151940
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, werbung, betrug
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

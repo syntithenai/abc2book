@@ -1,0 +1,50 @@
+X:2817
+T:Der k\"uhle Maien
+C:Johann Hermann Schein
+O:Germany
+N:1628
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schein-johann-hermann/schein-kuhle-maien.abc
+V:1 Program 1 74 %Recorder
+V:2 Program 1 72 %Piccolo
+V:3 Program 1 71 %Clarinet
+M:3/4
+L:1/4
+Q:1/4=228
+K:G
+V:1
+ded|d3|d2d|e2c|
+w:Der k\"uh-le Mai-en tut Hirt und
+V:2
+BcB|B3|B2B|c2G|
+w:Der k\"uh-le Mai-en tut Hirt und
+V:3
+GGG|G3|G2G|C2E|
+w:Der k\"uh-le Mai-en tut Hirt und
+%
+V:1
+d2e|c2e|d2B|A2G|
+w:Sch\"a-fe-lein mit sei-nen Bl\"u-me-
+V:2
+A2B|c2c|B2G|F2E|
+w:Sch\"a-fe-lein mit sei-nen Bl\"u-me-
+V:3
+=F2G|C2C|G2G,|D2E|
+w:Sch\"a-fe-lein mit sei-nen Bl\"u-me-
+%
+V:1
+A2B|c3|BA2|G3|
+S:https://www.folktunefinder.com/tunes/153062
+S:http://abc.musicaviva.com/tunes/schein-johann-hermann/schein-kuhle-maien.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schein-johann-hermann/schein-kuhle-maien/schein-kuhle-maien.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schein-johann-hermann/schein-kuhle-maien/schein-kuhle-maien.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

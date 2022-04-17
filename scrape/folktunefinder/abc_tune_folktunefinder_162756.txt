@@ -1,0 +1,25 @@
+X:1
+T:Guten Abend, gut Nacht
+C:Johannes Brahms
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:3/4
+L:1/8
+K:D
+FF |\
+A3 FF2 | A4FA | d2c3B | B2A2EF |
+G2E2EF | G4EG | cBA2c2 | d4 :|
+|:DD |\
+d4BG | A4FD | G2A2B2 | A4DD |
+d4BG | A4FD | GA/G/F2E2 | D4 :|
+S:https://www.folktunefinder.com/tunes/162756
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/guten_abend_gut_nacht.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

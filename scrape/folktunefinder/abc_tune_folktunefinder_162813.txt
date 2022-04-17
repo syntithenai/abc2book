@@ -1,0 +1,33 @@
+X: 1
+T: H\aarga dur
+O: Sweden
+R: hambo
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+N: Usually played in Gm or Am
+N: Efter Andrea Hoag
+S: printed MS by Karen Myers
+M: 3/4
+L: 1/8
+K: A
+|: "A"e2 ef e>d \
+| d>c c2 A>c \
+| "E7"c>B B>E G>B \
+|1,3 "A"A>G A>B c>d \
+:|2,4 "A"A2 "fine"A4 :|
+|: "A"c>d e2 c2 \
+| "D"d>e f4 \
+| "E7"g2 g>{agf}g a>f \
+|1 f>e "A"e4 \
+:|2 "E7"f>e "d.C."e4 |]
+S:https://www.folktunefinder.com/tunes/162813
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/HaargaDur_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/hambo/HaargaDur_A.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

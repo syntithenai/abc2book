@@ -1,0 +1,26 @@
+X:68
+T: Die Rheinbraut
+N: Q0047E
+O: Mitteleuropa, Deutschland (DDR) , Thueringen, Greiz
+N: Grundton in der zweigestrichenen Oktave.
+R: Ballade, Braut - Werbung, Todesahnung, Tod
+M: 6/8
+L: 1/8
+K: D
+A, | A,2A,E2F | EDz3
+A, | A,2A,E2F | EDz3
+D | D2DE2D | C2B,D2
+B, | B,2A,C2B, | A,2G,F,2
+D | D2DE2D | C2B,D2
+B, | B,2A,C2B, | A,2G,F,2
+S:https://www.folktunefinder.com/tunes/151597
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, todesahnung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

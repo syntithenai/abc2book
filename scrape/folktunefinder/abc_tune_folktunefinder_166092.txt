@@ -1,0 +1,29 @@
+X:0264
+T:"I Leave You To Guess "        (air)         0264
+C:after Sg't J. O'Neill
+C:slow, then fast
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:This makes no sense at all to me!
+Q:1/4=70
+Z:(IN CONFUSION) FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:5/4
+L:1/8
+K:D
+"_vb"D FA|d3e fd A3(F/2A/2)|G3E FD zD2FA|d3e fd A3(F/2A/2)|G3c ed z||
+Q:1/4=120
+M:6/8
+K:G
+F2F F2F|EFE E2F|D2D D2F|A3d3|
+F2F F2F|EFE E2F|D2F A2F|D3D2|]
+S:https://www.folktunefinder.com/tunes/166092
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0264-Left-ME-Guessing.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Time_signature 5/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

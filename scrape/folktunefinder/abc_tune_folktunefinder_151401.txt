@@ -1,0 +1,19 @@
+X: 1
+T: Dans Uit Brest
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+d | (edc BAG) | ~B3 B2 d | (edc BAG) | ~A3 A2 d | (edc BAG) | ~B3 B2 d | (edc BAG) |1 B2 A G2 : |2 B2 A ~G3 : |
+| : g2 f ~e3 | gfe ~d3 | (d^cd =cBc | edc ~B3) {G} | g2 f ~e3 | gfe ~d3 | (d^cd =cBc |1 cBA) ~G3 : | 2 cBA ~G3) :|
+S:https://www.folktunefinder.com/tunes/151401
+S:http://www.thesession.org/tunes/display/7204
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

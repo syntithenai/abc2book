@@ -1,0 +1,23 @@
+X:128
+T:King Charles's Jig
+R:jig/set dance
+B:
+M:6/8
+L:1/8
+K:D
+G|FDF AFA|BGB AFD|E3 D2 G|
+FDF AFA|Bcd edc|d3 D2::c|
+def efg|fed faf|e3 E2 G|
+FDF AFA|Bcd edc|d3 D2:|
+S:https://www.folktunefinder.com/tunes/169941
+S:http://www.sligo-man.com/abc/index2/128.abc
+% Rhythm Jig/set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

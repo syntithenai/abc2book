@@ -1,0 +1,23 @@
+X:18
+T: Die Unbestechliche
+N: Q0144C
+O: Osteuropa, Tschechoslowakei, Slowakei
+N: Transkription einer Tonaufnahme. Viele Verzierungen (Vor- und
+N: Nachschlaege) . Schlusspause gestrichen.
+R: Ballade, Liebes - Handel
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G4A6dd | c2B2A2
+G2 | G2B2A2GG | F2E2D2
+D2 | G4G4A6GG | B4c2F4G4
+S:https://www.folktunefinder.com/tunes/152971
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - handel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

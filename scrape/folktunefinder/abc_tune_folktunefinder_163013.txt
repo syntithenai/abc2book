@@ -1,0 +1,36 @@
+X: 1
+T: hamburg.abc
+M: 2/2
+L: 1/4
+%%staves (1 2) (3 4)
+K: F
+V: 1
+ F2 F G | A2 G A | B2 A G | A4 |
+ A2 A A | B2 A G | F2 E F | G4 |
+ F2 F G | A2 G A | B2 A G | A4 |
+ A2 A A | G2 F2 | G2 A G | F4 |
+V: 2
+ C2 C E | F2 G ^F | G2 F E | F4 |
+ F2 F F | F2 F E | F2 C2 | E4 |
+ C2 C E | F2 G ^F | G2 F E | F4 |
+ F2 F F | E2 F2 | F2 E2 | F4 |
+V: 3
+ A,2 A, C | C2 D2 | D2 C2 | C4 |
+ C2 C C | D2 C2 | C2 B, A, | C4 |
+ A,2 A, C | C2 D2 | D2 C2 | C4 |
+ C2 C C | C B, A,2 | D2 C B, | A,4 |
+V: 4
+ F,2 F, C, | F,2 B, A, | G,2 C,2 | F,4 |
+ F,2 F, F, | F,2 F, B, | A,2 G, F, | C,4 |
+ F,2 F, C, | F,2 B, A, | G,2 C,2 | F,4 |
+ F,2 F, F, | C,2 D,2 | B,,2 C,2 | F,4 |
+S:https://www.folktunefinder.com/tunes/163013
+S:http://www.formulus.com/hymns/hamburg_abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

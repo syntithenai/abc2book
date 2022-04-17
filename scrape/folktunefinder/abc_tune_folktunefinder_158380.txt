@@ -1,0 +1,35 @@
+X:1
+T:Flickorna Svensson
+C:Pelle Svensson
+R:Gnglt
+Z:Patrik Mnsson, 2008-07-24
+O:Sverige
+M:2/4
+L:1/16
+Q:1/4=100
+K:G
+V:1
+D2 | G2G2 G2AG | G2FE D2EF | G2AB cBAG |[M:3/4] F2EF G6 D2 |[M:2/4] G2G2 G2AG |
+G2FE D2EF | G2AB cBAG |[M:3/4] F2EF G6 Bc |:[M:2/4] d2d2 d2ed | d2cB A2Bc | d2d2 d2ed |
+d2cB A2D2 | E2G2 FGAF | G2B2 ABcA | B2AG F2EF |[1 G6 Bc :|[2 G8 ]| 
+V:2
+G,A, | B,2B,2 B,2CB, | B,2A,G, A,2G,A, |
+B,2CD EDCB, |[M:3/4] A,2G,A, B,6 G,A, |[M:2/4] B,2B,2 B,2CB, |
+B,2A,G, A,2G,A, | B,2CD EDCB, |[M:3/4] A,2GA, B,6 GA |:[M:2/4]
+B2B2 B2cB | B2 AG F2GA | B2B2 B2cB |
+B2AG F2D2 | C2E2 DEFD | D2G2 FGAF |
+G2FE D2C2 |[1 B,6 GA :|[2 B,8]|
+S:https://www.folktunefinder.com/tunes/158380
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_344cf7.latin.abc
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_344cf7.abc
+S:http://www.folkwiki.se/pub/cache/Flickorna_Svensson_344cf7.abcm.abc
+% Rhythm Gnglt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

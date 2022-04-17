@@ -1,0 +1,24 @@
+X: 1
+T:Hanter dro : Derrire chez mon pre
+Z:Roger Ngaret (Septembre 99)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+"G"G4 A2B2 "C"c4 "G"d4 | "C"c8 | "G"d4 "C"e2d2 c4 e4 |1 "G"d4 d4 :|2 d8 ||
+d4 d2d2 d4 f4 | "C"e8 | "G"d4 d2c2 B4 A4 | G8 |: 
+G4 A2B2 "C"c4 "G"A2B2 | "C"c8 | "G"d4 "C"e2d2 c4 e4 | "G"d4 d4 |
+G4 A2B2 "C"c4 "G"A2B2 | "C"c8 | "G"d4 d2c2 B4 A4 | G8 :|
+S:https://www.folktunefinder.com/tunes/163190
+S:http://termen.free.fr/danses/termen/HanterdroDerrierechezmonpere.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

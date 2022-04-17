@@ -1,0 +1,24 @@
+X: 2
+T: Gan Ainm
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|: F |\ 
+E2 E EFA | c2 e cBA | B2 c BAF | AFc BAF |
+EFE EF/G/A | c2 e cBA | a2 f ecA | B2 A A2 :|
+|: e |\
+a2 a afe | f2 a fec | EFA c2 E | FEc BAF |
+[1 aba afe | f2 a fec | EF/G/A cec | BAG Ac :|
+[2 EE/E/E EFA | ceB cBA | a2 f ecA | BA/B/A A2 |]
+S:https://www.folktunefinder.com/tunes/160322
+S:http://www.thesession.org/tunes/display/8383
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

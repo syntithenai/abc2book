@@ -1,0 +1,71 @@
+X:5
+T:Prelude 5
+L:1/4
+M:C
+K:CM frenchtab
+%%stretchstaff false
+%%staffsep 35pt
+%%text /a = Eb
+.[,,dca2] {,,,a}1.,a |\
+[,bdca1],d/.a :b1.,,,,c |\
+[ab,,d1],,,a/.,,,c [f,,d1].,d |\
+[d,,c1][ab] [b,da][,df] |\
+[ab,,d1].d f.h |\
+[if{,a}2] :,b1.,d |\
+[a,,,d/].,da.,b d1[b,,a] |\
+[a,,c/].,,,a,,,c.,,,,d [,db].a[b,,,,d].d |
+% Takt 9
+[a,,,a/].,b,,d.,a ,b.,da.b |\
+[d,,,,d/].,a,,b.,,d ,a.,b,d.a |\
+[b,,,,b/].d:f1 [da{a}].b |\
+:a/{,a}:,,d.b ,d.,,,,c,,c.a |\
+,b/.,,,,a,,a.,d :,a.,,,,,d,,,c.,b |\
+,,d/.,,,,,b,,,a.,a ,,c.,,,,,a,,,c.,,,a |
+% Takt 15
+,,,,d/.,,d,,,a.,a ,,,c.,b,,,d.,d |\
+,,,c/.a,b.,d [,a,,,a].,d[,acc1] |\
+[,cdca1]>[,d,,c] [a,d,e1][bdda] |\
+[acd,a1].f {,,,a}/.dc.a |\
+b/.,,da.,,b ,,a.,,,c,,,d.,d |\
+[,c,c/].,a,b.,,,a ,,,,d.,,,,c,,,,a.,a |\
+,b/.,d:a.,,,,c ,,,,d.,,,a,,,c.,d |
+% Takt 22
+a/.bd.,,,a ,,,c.,,,d,,b.a |\
+,d/.,a,b.,,d ,,b.,,,c,,,d.f |\
+[d,,c/].a[b,d].,,,,a [a,,,,d].,,,,,a,,,,,b.,,d |\
+[,,b,,a/].,,,c,,,d.,,,,a ,,,c.,,,,c,,,,d.,,,c |\
+,,,d/.,,,c,,,,,d.,,,c ,,,a.,,,,d,,,a1 |\
+[,,,,d{,a}/].,,b,,d.,a ,b.,,,,d,,,a.,,,c |
+% Takt 28
+,,,d/.,,d,b.,d :a.,,,,a,,,,d.,,,a |\
+,,,c/.,,,,,a,,c.,,d :,a.,,,,,a,,,,,e.,,,,a |\
+,,,,c/.,dc.d :f,,,,a//.d c.a,d.,b |\
+[,ab/]d//.c a.,d,b.,a [,,dd/]b//.a ,d.,b,a.,,d |
+% Takt 32
+[,,bc/]a//.,d ,b.,a,,d.,,b [,,aa/],d//.,b ,a.,,d,,b.,,a |\
+[,,,cd/],,a//.,,c ,,d/.,a ,,,a.,,d,,,c.,,c |\
+[,,d,a//].,,,c,,a.,,c ,,d.,a,b.,d a.,,d,a.,b ,d.ab.d |\
+[f,,d/],,d//.,a ,b.,da.b [d,,c/],,b//.,,d ,a.,b,d.a |
+% Takt 36
+[b,,a/],,,d//.,,b ,,d.,a,b.,d [a,,,d/],,,c//.,,a ,,b.,,d,a.,b |\
+[,d,,c/],,,a//.,,,c ,,,d.,,b,,d.,a [,b,,a/],,,,d//.,,,a ,,,c.,,a,,b.,,d |\
+[,a,,,d//].,b,d.,b ,a.,,d,,b.,,a ,,,c.,a,,d.,,b ,,a.,,,c,,,a.,,,,d |
+% Takt 39
+,,,,c//.,a,b.,d [a,,,d].cd.a [c,,,a].da.c [,e,,c].a,c.,e |\
+[a,,,,a//].cd.c a.,d,b.,a [,,d,a].,a,b.,a ,,d.,,b,,a.,,,c |\
+[,d,a//].ab.a ,d.,b,a.,,d [,,c,,a].,,d,a.,,d ,,c.,,a,,,c.,,,a |
+% Takt 42
+[,b,,d//].,da.,d ,b.,a,,d.,,b [,,a{a}].,,b,,d.,,b ,,a.,,,c,,,a.,,,,d |\
+[,a,,c//].,b,d.,b ,a.,,d,,c.,,a [,,,cd].,,a,,b.,,d ,a.,b,d.a |\
+,,,a//.ab.a ,d.,b,a.,,d [,,c,,a/].a ,,,c//.,d,a/ |\
+[,cdca1].f {,,,a}/.d.[ba1] |\
+H[acdca4] |]
+S:https://www.folktunefinder.com/tunes/156975
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

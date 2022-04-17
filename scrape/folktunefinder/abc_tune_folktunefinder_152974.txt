@@ -1,0 +1,23 @@
+X:21
+T: Die Unbestechliche
+N: Q3144F
+O: Mitteleuropa, Frankreich
+N: Melodievergleich zu Q0144C, anderes Lied.
+R: Ballade, Liebes - Handel
+M: 3/4
+L: 1/8
+K: G
+ | c4c2 | B4B2 | G4B2 | cBA2z2
+A4G2 | F4F2 | F4E2 | F4z2
+E4F2 | G4A2 | A2G2GF | G4z2
+S:https://www.folktunefinder.com/tunes/152974
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - handel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

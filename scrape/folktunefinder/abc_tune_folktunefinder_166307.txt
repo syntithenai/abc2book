@@ -1,0 +1,25 @@
+X: 1
+T: the Indian Queen
+O: 1701
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Barnes p. 57 (dated 1701); Hunt p.12 #39 (in C)
+M: 2/4
+L: 1/16
+K: E
+|: ga \
+| "E"b2g2 e2g2 | "B7"f4 B4 | "E"G2B2 B2g2 | "B7"f4- f2ga \
+| "E"b2g2 e2g2 | "B7"f4 B4 | "E"G2B2 "B7"B2g2 | "E"e6 :|
+|: de \
+| "B"fedc B2f2 | "G#m"g2d2 "C#m"e2c2 | gab2 "F7"c'2^a2 | "B"b4- b2fg \
+| "A"agfe "B"d2b2 | "A"c2a2 "E"B2ga | "Fm"f2e2 "B7"f2d2 | "E"e6 :|
+S:https://www.folktunefinder.com/tunes/166307
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/IndianQueen_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/IndianQueen_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

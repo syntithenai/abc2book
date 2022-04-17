@@ -1,0 +1,31 @@
+X:1
+T:Larid\'e 1
+G:Kazimodal
+R:Larid\'e
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=140
+P:A5
+M:12/8
+K:Am
+P:A
+L:1/8
+Q:C3=140
+M:12/8
+%%MIDI gchord czfczfc3fzf
+%%MIDI chordprog 105
+%%MIDI chordvol 60
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 73
+|: "Em"E2 E "Am"A2 B c2 B "F"A3 | A2 A "G"B2 A A2 G "Em"E3 :|
+|: "Em"E2 E "Am"A2 B c2 A "G"d2 c | B3 "F"ABc "G"A2 "Em"G "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/152883
+S:http://kazimodal.trad.org/partitions/larides_8/LE_laride_8/LE_laride_8.abc
+% Rhythm Laride?
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

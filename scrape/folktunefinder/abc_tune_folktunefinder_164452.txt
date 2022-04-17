@@ -1,0 +1,24 @@
+X:2
+T:Willow's
+R:Jig
+C:Rick Mohr
+L:1/8
+M:6/8
+K:DMixolydian
+B|"C"cBA "D"dAB|"C"cBA "D"d2B|"C"cBA "G"GFG|"D"A2D DAB|
+"C"cBA "D"dAB|"C"cde "D"fed|"C"cAG "Em"EGE|"D"D3 D2:|
+e|"D"f2e def|aba afd|"C"ece gag|ecc cde|
+"D"f2e def|aba afd|"C"ece "G"gfe|"D"d3 d2:|
+S:https://www.folktunefinder.com/tunes/164452
+S:http://rickmohr.net/rick.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/by/RickMohr/rick.abc
+S:http://rickmohr.net/rick.abc.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

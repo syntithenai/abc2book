@@ -1,0 +1,28 @@
+X: 1
+T: THE FOOL'S JIG
+S: MDT
+O: Bampton
+P: A.(AB)4.A
+Q: 1/2=108
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: A
+P: A
+cB | AGAE C2A2 | BAGF E2d2 | cdec A2A2 | BAGF EdcB |
+     AGAE C2A2 | BAGF E2d2 | cdec fdBG | A2A2 A2  ||
+P: B
+c2 | dfec A2e2 | abaf d2cd | efec A2A2 | BAGF EdcB |
+     AGAF E2A2 | BAGF E2d2 | cdec fdBG | A2A2 A2  ||
+S:https://www.folktunefinder.com/tunes/158886
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Fools_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

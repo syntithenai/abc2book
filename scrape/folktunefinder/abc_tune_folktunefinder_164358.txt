@@ -1,0 +1,25 @@
+X: 1
+T: Hills of Glenurchie -- Jig
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000421034742 by John Chambers jcsd:world.std.com
+K: Em
+ud \
+| BGE EFE | BAB d2B | AFD DED | AFA ded |
+| BGE EFE | BAB d2e | dBd AFD | EFE E2 :|
+|: uB \
+| efe edB | efg gfe | ded dAB | def fed |
+| efe edc | efg gfe | dBd AFD | EFE E2 :|
+S:https://www.folktunefinder.com/tunes/164358
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/HillsOfGlenurchieJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/HillsOfGlenurchieJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:Gavotte pourlet 3
+%%scale 0.75
+Z:Roger Ngaret (3 juin 99)
+R:gavotte
+C:Trad.
+S:'N droiad fest mod Pourlet
+A:Bretagne
+M:4/4
+L:1/8
+Q:1/4=156
+K:Eb
+G3/2z/2 F/2G/2F EC F3/2z/2|G/2F/2G EC B,3/2z/2 C3/2C/2|G3/2z/2 F/2G/2F EC F3/2z/2|G/2F/2G EC B,3/2z/2 C3/2C/2|
+G3/2z/2 F/2G/2F EC F3/2z/2|G/2F/2G EC B,3/2z/2 C3/2C/2|GA BA/2B/2 BA GF|GA B3/2z/2 BA G3/2z/2|
+FG/2F/2 EC D/2C/2D/2E/2 F3/2z/2|GE CB, C3/2z/2 C3/2z/2|G3/2z/2 F/2G/2F EC F3/2z/2|G/2F/2G EC B,3/2z/2 C3/2C/2|
+G3/2z/2 F/2G/2F EC F3/2z/2|G/2F/2G EC B,3/2z/2 C3/2C/2|GA BA/2B/2 BA GF|GA B3/2z/2 BA G3/2z/2|
+FG/2F/2 EC D/2C/2D/2E/2 F3/2z/2|GE CB, C3/2z/2 C3/2z/2|EE/2F/2 GE FG FD|EE/2F/2 GE DF E3/2z/2|
+EE/2F/2 GE FG FD|EE/2F/2 GE DF E3/2z/2|GG/2<F/2 GA GF EE|GG/2<F/2 GA FA G3/2z/2|
+GG/2<F/2 G3/2B/2 AF GD/2<E/2|FA DF E3/2z/2 E3/2z/2|GG/2<F/2 GA GF EE|GG/2<F/2 GA FA G3/2z/2|
+GG/2<F/2 G3/2B/2 AF GD/2<E/2|FA DF E3/2z/2 E3/2z/2|EE/2F/2 GE FG FD|EE/2F/2 GE DF E3/2z/2|
+EE/2F/2 GE FG FD|EE/2F/2 GE DF E3/2z/2|GG/2<F/2 GA GF EE|GG/2<F/2 GA FA G3/2z/2|
+GG/2<F/2 G3/2B/2 AF GD/2<E/2|FA DF E3/2z/2 E3/2z/2|GG/2<F/2 GA GF EE|GG/2<F/2 GA FA G3/2z/2|
+GG/2<F/2 G3/2B/2 AF GD/2<E/2|FA DF E3/2z/2 E3/2 |]
+S:https://www.folktunefinder.com/tunes/160648
+S:http://termen.free.fr/danses/cornouaille/Gavottepourlet3.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

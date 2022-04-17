@@ -1,0 +1,23 @@
+X: 1
+T: the Directors
+R: jig
+M: 6/8
+K: G
+"D7" GBd | "G"e2d "F#m"^c2d |"G" B3 GBd |"G" e2d "F#m"^c2d | "Am"c3-c3 | "D7"f3 e2z |
+"D7"f3 e2z |1 "D" f2e d^c=c | "G"B3 :|2 "D7"d2d def | "G"g3 gf=f || 
+K:C
+"C"e3 ^d2e |G3 G3 |"C" GAB "D7"cBA | "G7"B3-B2 G | "Dm"f3 e2f |"G7" G3 G3 | 
+"G7"GAB "F#dim7"cd^d |"C"e3- e3 | "C"e3 ^d2e | G3 GAB | "C7"c2c cde | "F"f3 f3 |
+"F7" A^GA "Bdim7"e2d |"C"G^FG "Am"d2c | "Dm"BAG "G7"fed | "C"c3 |]
+S:https://www.folktunefinder.com/tunes/153557
+S:http://users.rcn.com/ladysmyth/tunes/Directors.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T: Holm Band Jig
+M: 4/4
+L: 1/8
+%Q:1/4=110
+S: Ian King  scots-l 2001-6-23
+K:A
+V:1
+| EA3/2A/2A c3/2B/2AF3/2 | F/2Fd3/2 z/2 fe3/2c/2A | G3/2A/2Bc3/2A/2cB3/2 z/2
+| EA3/2A/2A c3/2B/2AF3/2 |
+F/2Fd3/2 z/2 fe3/2c/2A | G3/2A/2Bc3/2A/2A | A3/2 z4-z
+E | A3/2A/2Ac3/2B/2AF3/2F/2 |
+Fd3/2 z/2 f e3/2c/2AG3/2 | A/2Bc3/2A/2cB3/2 z/2
+E | A3/2A/2Ac3/2B/2AF3/2F/2 | Fd3/2 z/2 f e3/2c/2AG3/2 |
+A/2Bc3/2A/2AA3/2 z/2 E | A3/2c/2ea3/2g/2ae3/2c/2 | Ad3/2 z/2 f
+e3/2c/2AG3/2 | A/2Bc3/2A/2cB3/2 z/2 E |
+A3/2c/2ea3/2g/2ae3/2c/2 | Ad3/2 z/2 f e3/2c/2AG3/2 | A/2Bc3/2A/2AA3/2 z/2
+E | A3/2c/2ea3/2g/2ae3/2c/2 |
+Ad3/2 z/2 f e3/2c/2AG3/2 | A/2Bc3/2A/2cB3/2 z/2
+E | A3/2A/2Ac3/2B/2AF3/2F/2 | Fd3/2 z/2 f e3/2c/2AG3/2 |
+A/2Bc3/2A/2AA3/2 |
+S:https://www.folktunefinder.com/tunes/164588
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/HolmBandJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/HolmBandJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

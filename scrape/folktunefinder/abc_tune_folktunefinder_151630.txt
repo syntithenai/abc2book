@@ -1,0 +1,25 @@
+X:101
+T: Die Todesbraut
+N: Q2049M
+O: Suedosteuropa, Jugoslawien, Slovenien
+N: Slovenische Fassung der Ballade.
+R: Ballade, Hochzeit, Unfall, Tod
+M: 6/8
+L: 1/8
+K: G
+d | B2de2d | dcBz2
+d | B2de2d | dcBz
+cA | G2Bd2B | BAGz
+cA | G2Bd2B | A3G2
+S:https://www.folktunefinder.com/tunes/151630
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

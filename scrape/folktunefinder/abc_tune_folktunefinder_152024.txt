@@ -1,0 +1,26 @@
+X:102
+T: Der schwatzhafte Junggeselle
+N: Q1139Q
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Grafschaft Glatz,
+N: Melodievergleich zu Q0139M, anderes Lied.
+R: Legenden - Lied, geistlich
+M: 4/4
+L: 1/8
+K: G
+D2 | G3AB2c2 | d2dcB2A2 | G4z2
+D2 | G3AB2c2 | A4d2dc | B4A4 | G4z2
+B2 | B2B2d2B2 | c4z2B2 | A2B2c2A2 | B4z2
+A2 | G3AB2c2 | A4d2dc | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/152024
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Legenden - lied, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X:2  % Leighs_Knobby_Hornpipe.abc
+T:Leigh's Knobby Hornpipe
+C:Barry Schwartz
+R:hornpipe
+H:Written January 30 and 31, 2004.  Revised February 15, 2004.
+H:Chords, and MIDI settings for percussion trio, added February 16, 2004.
+N:Copyright  2004 by Barry B. Schwartz
+%%abc-copyright Copyright (C) by Barry B. Schwartz
+% $Revision: 1.11 $   $Date: 2004/03/19 20:38:38 $
+%%MIDI channel 1
+%%MIDI bassprog 12 % Marimba
+%%MIDI bassvol 50
+%%MIDI chordprog 13 % Xylophone
+%%MIDI chordvol 50
+%%MIDI program 9 % Glockenspiel
+%%MIDI beat 127 120  90 4
+%%MIDI ratio 2 1
+Q:1/4=134
+M:C|
+L:1/8
+N:Composer's website: http://www.winternet.com/~trashman/Music.html
+K:C lydian
+|:zG|"C"cGeF "G"GBdF|GBdG "C"cG(3eab|
+c'fgc' "G"bfgc'|bfgb "C"c'ag2|"Am"ag(3baf "G"gagc|
+"G/B"dedG "G/D"BcdA|"Am/C"cdeG "G"BcdG|"C"c2d2c2:|
+|:(3gab|"C"c'gd'c' "Em/B"egbc'|egbc' "C"afg2|
+c'gd'c' "Em/B"egbc'|"D/A"dfac' "G/B"bag2|"Am"afc'b "G"geba|
+"G/B"dcdg "G/D"BAB=f|"Am/C"dedG "G"BcdG|"C"c2d2c2:|
+S:https://www.folktunefinder.com/tunes/165884
+S:http://www.winternet.com/~trashman/hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 2
+M: 6/8
+L: 1/8
+K: Dm
+O: Scottish
+S: The Folk Song Society, Edinburgh @ 1982
+A, |: 
+DEF E2 D | d2 e f2 g | agf edc | AcA GEC |
+DEF E2 D | d2 e f2 g | afd efe | d3 d3 :|
+|: fga fga | fga agf | efg efg | efg gfe |
+fga agf | efg gfe | fdf e=ce | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/160341
+S:http://www.thesession.org/tunes/display/3140
+% Titles No title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

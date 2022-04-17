@@ -1,0 +1,24 @@
+X: 1
+T: Gort met stroop
+C: Trad.
+O: Nederland
+M: C
+L: 1/8
+K: F
+F2 c2 A3 A | BABc d2 c2 | F2 c2 A3 A |1 cBAG F4 :|2Bcde f4 ||
+f2 e2 d3 c | dcBA c2 B2 | G2 AB c2 G2 | G2 AB A4 |
+f2 e2 d3 c | dcBA c2 B2 | G2 AB c2 B2 | A2 G2 F4 ||
+S:https://www.folktunefinder.com/tunes/161851
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/AlSadenu.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GortMetStroop.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ItalianPolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ItalianPolka.abc--
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ItalianPolka.abc-
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

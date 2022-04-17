@@ -1,0 +1,33 @@
+X:01
+T: Far Away
+C: Pete Jung
+O: Brattleboro
+S: Jenelle, a fiddler in Ft. Collins, CO
+R: waltz
+M: 3/4
+L: 1/8
+Z: Contributed 20010927211732 by Zina Lee zlee@ntw.net
+K: Bmin
+FA |:B2 BA Bd |cA F2 FA |B2 BA B/c/d3/4 |c4 dc |
+B2 BA B3/4c/d3/4 |cB A2 de |fe dc BA |B3 A FA |
+B2 BA Bd |cA F2 FA |B2 BA B3/4c/e3/4 |c4 dc |
+B2 BA B3/4c/d3/4 |cB A2 de |fe dc BA |B3 c de |
+f2 fe f3/4g/a3/4 |ec A2 de |f2 fe f3/4g/a3/4 |e4 de|
+fd Be cA |dB Gd BG |F2 B2 BA |B3 c de |
+f2 fe f3/4g/a3/4 |ec A2 de |f2 fe f3/4g/a3/4 |e4 de |
+fd Be cA |dB Gd BG |F2 B2 BA |B3 A FA :|]
+S:https://www.folktunefinder.com/tunes/157005
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/FarAway.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/FarAway.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/zlee%3Antw.net/FarAway.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/FarAway.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

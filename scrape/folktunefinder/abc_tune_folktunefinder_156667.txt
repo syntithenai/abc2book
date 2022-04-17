@@ -1,0 +1,22 @@
+X: 1
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A | "D"f2f fgf | "A"ecA ecA | "* G"Bcd "A"ecA | "G/B"Bcd "A/C#"efg|
+| "D"f2f fgf | "A"ecA ecA | "G"Bcd "A"ecA | ABc "D"d2 :|
+|: =c | "G"B2B B=cB | G2B B=cB | "D"ADD dDD | cDD =cDD |
+"G"B2B B=cB | G2B B=cB | "A"A2A ABc | "D"dAF D2 :|
+x|x|x[|"*Alt. Meas 3 & 4"B2c2d2|e2f2g2|]
+S:https://www.folktunefinder.com/tunes/156667
+S:http://users.rcn.com/ladysmyth/tunes/FairJenny.abc
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/FairJenny.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

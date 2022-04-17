@@ -1,0 +1,29 @@
+X: 1
+T: Hundred Pipers
+R: jig, march
+O: trad Scotland
+B: 
+D: 
+Z: \251 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+N: (*) G chords give even more "bagpipey" version.
+M: 6/8
+L: 1/8
+K: G
+|: GA \
+| "G"B2D D>ED | "C"E2G G2e | "G"d2B "Em"B>AG | "Am"B2A "D7"A>GA \
+| "G"B2D D>ED | "C"E2G G2e | "G"d2B "D7"A>GA | "G"G3- G :|
+|: Bc \
+| "G"d2d dBd | "C"e2g gfe | "G"d2B "Em"B>AG | "Am"B2A "D7"ABc \
+| "G"d2d dBd | "C"e2g gfe | "G"d2B "D7"A>GA | "G"G3- G :|
+S:https://www.folktunefinder.com/tunes/165666
+S:http://www.strathspey.org/list/strathspey/archive/thread/12678/
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

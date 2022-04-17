@@ -1,0 +1,35 @@
+X: 1
+T:The Kamikaze Ceilidh Band
+C:Bob Massie
+H:1995
+N:Written when I was playing with a great Highland ceilidh band, The Kerry
+N:lues.
+D:"The Old Verdi" - Melanie Simpson
+M:4/4
+Q:1/4=180     %Tempo
+K:A
+E2 c3/4c/c3/4 cB A2 |c2 e3/4e/e3/4 ec Ac |e2 a3/4a/a3/4 af ec |cB Ac BA
+FA |
+E2 c3/4c/c3/4 cB A2 |c2 e3/4e/e3/4 ec Ac |e2 a3/4a/a3/4 af ec |BA cB A4
+|
+f2 a3/4a/a3/4 af e2 |f2 af ec BA |E2 c3/4c/c3/4 cB AB |cA ec B2 cB |
+A2 a3/4a/a3/4 af e2 |f2 af ec BA |E2 c3/4c/c3/4 ce fc |BA cB A4 |
+E2 c3/4c/c3/4 cB A2 |c2 e3/4e/e3/4 ec Ac |e2 =g3/4g/g3/4 g2 f3/4f/f3/4 |
+f2 e3/4e/e3/4 ec A2 |
+E2 c3/4c/c3/4 cB A2 |c2 e3/4e/e3/4 ec Ac |A2 af ec BA |B2 cB A4 |
+A2 a3/4a/a3/4 af e2 |fa ef ae fa |A2 a3/4a/a3/4 ae fa |ec BA B3 c |
+A2 a3/4a/a3/4 ae fa |ef ae fa fc |A2 EA c2 ec |BA Bc A4 |
+A2 a3/4a/a3/4 ae fa |ef ae fa ec |E2 c3/4c/c3/4 cB AB |cA fA BA FA |
+E2 c3/4c/c3/4 cB A2 |c2 e3/4e/e3/4 ec Ac |e2 a3/4a/a3/4 af ec |BA cB A4
+|]
+% Output from ABC2Win  Version 2.1 h on 03/11/2001
+S:https://www.folktunefinder.com/tunes/169181
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/KCBAND.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

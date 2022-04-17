@@ -1,0 +1,21 @@
+X: 1
+T:Kohler's Hornpipe
+M:C|
+L:1/8
+C:Kohler's repository
+R:hornpipe
+K:C
+(3GAB|"C"c2cB cdef|"C"g^fga gedc|"F"AGAB cdcA|"C"GEcA GECE|!
+"F"FEFG AGAB|"C"cBcd egag|"F"fedc "G"AcBd|"C"eccB c2:|!
+gf|"C"egcg egcg|"G"dgBg dgBg|"Am"ceAe ceAe|"C/Em"GcEc GcEc|!
+"F"FEFG AGAB|"C"cBcd egag|"F"fedc "G"AcBd|eccBc2:||
+S:https://www.folktunefinder.com/tunes/170442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ko/Kohlers_Hornpipe_2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

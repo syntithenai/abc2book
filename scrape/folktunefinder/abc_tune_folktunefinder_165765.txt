@@ -1,0 +1,23 @@
+X: 1
+T:Hura for the Bonnets of Blue
+M:6/8
+L:1/8
+S:Armitt MS
+N:Key signature is given as D flat on second line down, A flat in 3rd
+N:space down. *.Lower part of bottom stave is missing, so note lengths in
+N:last  5 bars and last 4 notes are guesswork.
+K:B_ major
+D|BcB (def)|FGF FGA|B2g fdB|(c3c2)F|BcB (def)|FGF F2g|fed cBc|(B3B2):||:
+B|(ABc) (cdc)|(F3F2)B|(ABc) cd=e)|f3fe|dcd BGA|B2cd2g|(gec) (BcA)|(G3G2)
+F|BcB"*" dfd|(B3B2)F|B2g gdB|(c3c2)e|dcd Bcd|(efg)f2g|fed c2c|(B3B2)||
+S:https://www.folktunefinder.com/tunes/165765
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hu/Hura_for_the_Bonnets_of_Blue_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

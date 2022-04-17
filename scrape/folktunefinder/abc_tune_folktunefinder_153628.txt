@@ -1,0 +1,37 @@
+X:1
+T:Dixieme Angelique                                                      
+C:Robert Ballard 
+B:Premier livre de tablature de luth, 1611  
+Z:abc revision/facsimile-check Taco Walstra 
+L:1/4
+K:CM frenchtab
+%%tabrhstyle modern
+%tabfontfrench frBaroqml
+%%scale 0.55
+[M:3] ,,,,,,,,,a1 |[,cdc2] ,,,,,,a1 |[,daa2] ,,,,,,,,,a1 |[acd2] ,,,,,,a1 |[cdd3/2] [a/] ,d [a] |[c,,a1] [ac,,a3/2] ,d// [a] |
+%Staffnumber 2
+[,d,a2] ,,,,,,,,,a1 |[,cdc] ,,,,a ,,,,,d |[,dda,c] ,,,,,a ,,,,,,a |[af,,,,,a1] [f] d |,,,,,,a [dd] [c] |,,,,,,,,,a [cd,,a] [ac] |
+%Staffnumber 3
+[,dda2] ,,,,,d1 |[,dff2] ,,,,a1 |[,cdc2] ,,,,,a1 |[,acc2] ,,,,,,,a1 |[acd3/2] ,d/ [,c,,,,a] [,a] |[,cd1] [,a] [,,,,,a3/2/] [,a//] |[,,d,a1] ,,,c [,,a] |
+%Staffnumber 4
+,,,,,d [,aba] [,,,c] |,,,,,c1 ,,d [,,,b] |[,,cc] ,,,,,,,a [,,d] |[,,aa,,a] [,df] [,cd] |[,ac,,a] [,cd] [,ac] |[,,dca2] ,,,,,,,,,a1 |[,cdc] [,cdc] ,a/ [,c] |
+%Staffnumber 5
+[,dda,,a1] ,,,a ,c/ [,d] |[acd,a1] ,,,,,,,,,a ,d/ [a] |[cdda1] ,,,,,,a [,a,,,d/] [,c] |,d/ [,,a] [,,,ca] [,d] ,c1 |
+%Staffnumber 6
+[,d,a] ,,,,,,a ,,d/ [,a] |,,,,a [,c] ,,d [,,b] ,,a [,,,c] |,,,,,,a [,da] ,,,c [,,,a] ,,,,e [,,,,c] |,,,,a [a] ,c [,,a] ,,b [,,d] |
+%Staffnumber 7
+,,,,,,a [c] [,a,a] [,c] ,d [a] |c/ [,d] a ,,,,a [,dd] [,c] |[,d,a1] ,,,,,,a ,d |,,,,,d [,,ff] [,f] |,,,,,,,,,a [,c,c] [,,a] |
+%Staffnumber 8
+,,,,,a [,acc/] ,,,,,,a [,c,,,,,a1] |,,,,,,a [,,aa/] [,,,,e] [,,c,ca1] |[,,d,e] [,adcca] [,,c] |,,,,,,,,,a/ [,,d] ,,,c [,,,a] ,,,c [,,a] |,,,,,d/ [,a] ,,,,c [,,,,e] ,,,a [,,,,c] |
+%Staffnumber 9
+,,,,,c [,,d] ,,,b [,,,,e] ,,,b [,,d] |,,,,,a [,,c] ,,,c ,,,,,,a ,,,,,,,a [,,d] |,,,,,,a [,,aa] ,,f [,d] ,,d [,c] |\
+,,,,,a [,ac] ,,d [,c] ,,c [,a] |[,,d,a2] ,,,,,,,,,a1 |]
+S:https://www.folktunefinder.com/tunes/153628
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ballard/angel10.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Ballard/angel10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

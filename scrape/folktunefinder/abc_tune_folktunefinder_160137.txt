@@ -1,0 +1,26 @@
+X: 1
+T:Gan Ainm
+R:Reel
+S:Tulla Ceilidh Band, Clare
+D:Tulla Ceilidh Band, 'Ireland Green' (label missing)
+Z:Bernie Stocks
+M:4/4
+K:G
+cE~E2 cded | cE~E2 G2AB | cE~E2 cded | cABG A3B | cE~E2 cded |
+cE~E2 G2AB | c2cd eged | cABG ABcd || eaag efed | cdef g2fg |
+eaag eged | cABG ABcd | eaag efed | cdef g2fg | afge fded | cABG A3B ||
+S:https://www.folktunefinder.com/tunes/160137
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_282.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_92.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_282.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_92.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:1
+T:The Drummer Boy of Shiloh
+M:4/4
+L:1/4
+K:G
+ D| B3/2 A/2G/2 F/2 E/4 G3/4| D3 D| G3/2 G/2 F ^D| E3 =D| B3/2 A/2 G/4 c3/4 E/4 G3/4|\
+ D2 z G| F/4- A3/4 A AE/2-F/2| D3 D| ^C D B A| A/2G/2 G z G| E G c B|\
+ A3 D| d3/2 c/2B/2-A/2G/2-F/2| A G E3/2 G/2| D G A3/2 ^A/2| B2- c D|\
+ B3/2 A/2G/2 c/2E/2 G/2| G2 z E| D G B3/2 A/2| G4| z2 z||
+S:https://www.folktunefinder.com/tunes/154672
+S:http://back.numachi.com:8000/dtrad/abc/DRUMRBOY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DRUMRBOY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

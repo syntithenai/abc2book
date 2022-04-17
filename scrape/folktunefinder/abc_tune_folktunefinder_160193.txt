@@ -1,0 +1,31 @@
+X: 1
+T:Gan Ainm
+R:Jig
+S:Jim McKillop, Antrim (fiddle)
+N:As played
+D:From RTE 'The Pure Drop'
+Z:Bernie Stocks
+M:6/8
+L:1/8
+K:G
+FDD ADD|BDD cBA|Bcd ecA|ABG FED|!
+FDD ADD|BDD cBA|Bcd ecA|AGF G2A|!
+FDD ADD|BDD cBA|Bcd ecA|ABG FED|!
+GFG AGA|B^AB c-^c2|d^cd ecA|AGF G2B||!
+def gdB|gdB {d}cBA|Bcd ecA|ABG FED|!
+def gdB|gdB {d}cBA|Bcd ecA|AGF G2B|!
+def gdB|gdB {d}cBA|Bcd ecA|ABG FED|!
+GFG AGA|BAB cBc|d^cd ecA|AGF G2A||!
+S:https://www.folktunefinder.com/tunes/160193
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_108.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_108.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

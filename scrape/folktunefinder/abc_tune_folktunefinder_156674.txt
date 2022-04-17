@@ -1,0 +1,21 @@
+X: 2
+T: Fair Jenny's Jig
+C: Peter Barnes
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+Q: 3/8=120
+K: D
+A | f3 fgf | ecA ecA | Bcd ecA | Bcd e2A |
+    f3 fed | ecA ecA | Bcd e2A | ABc d2 :|
+A | B3 B=cB | GBB B=cB | ADD dDD | cDD ADD |
+    B3 B=cB | GBB B=cB | AEA ABc | dAF D2 :|
+S:https://www.folktunefinder.com/tunes/156674
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/FairJennysJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

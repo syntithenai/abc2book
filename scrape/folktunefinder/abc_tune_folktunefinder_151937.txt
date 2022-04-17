@@ -1,0 +1,28 @@
+X:15
+T: Das mannstolle Maedchen
+N: Q0126B
+O: Mitteleuropa, Deutschland
+N: Rekonstruktion der Balladenmelodie aus einem mehrstimmigen Satz von
+N: Orlando di Lasso.
+R: Ballade, Werbung, Betrug
+M: none
+L: 1/8
+K: G
+D2 | A2B2 | A2G2 | cBAA | G2z
+d | d2d2^c2d2 | B2c2A2z2
+G2 | BBAA | B2Az2
+B2 | BABG | A2z2
+GGB | d2d2^cd2c | d2z2
+dd | c2B2A2B2 | c2A2G4
+S:https://www.folktunefinder.com/tunes/151937
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, werbung, betrug
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

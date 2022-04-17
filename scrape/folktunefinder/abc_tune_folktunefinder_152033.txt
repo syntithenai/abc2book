@@ -1,0 +1,25 @@
+X:1
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q0072
+O: Mitteleuropa, Deutschland / Niederlande
+N: Vermutlich Melodie der Ballade. Geistliche Kontrafaktur 
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr, geistlich
+M: none
+L: 1/8
+K: D
+A | A2=c2B2d2 | d2B2A4z
+A | d2=c2c2A2 | A2G2=F2E4z
+D | =F2GA2A_B2GA2 | A2G2=F2E4z
+E | =FFD2E2G2 | G2=F2E2D4
+S:https://www.folktunefinder.com/tunes/152033
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

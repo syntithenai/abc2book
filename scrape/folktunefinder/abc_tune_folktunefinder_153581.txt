@@ -1,0 +1,23 @@
+X:0508
+T:"The Dissipated Youth"     (air)     0508
+C:after Chief F. O'Neill
+N:gracefully
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_VB"(E/2F/2)|(G3/2A/2B) (BAB)|G3(E2F)|(G3/2A/2B) (dBG)|(A3A2)(B/2d/2)|e2(e d2)(d|c2)(c B)(AG)|({c}BAB GED)|(E2F) G2||
+(F/2E/2)|(DB,).D (DB,).D|G3G2z|(DB,).D (DB,).D|A3A2z|e2(e d)(ed|c2)(c B)AG|({c}BAB GED)|(E2F) G2|]
+S:https://www.folktunefinder.com/tunes/153581
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0508-DissipatedYout.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T:Kate's Kitchen
+M:4/4
+L:1/8
+Q:120
+C:Stephen P. McNally
+S: 1997
+R:Hornpipe
+N:For Kate and Dorothy Crossley of West Wales
+H:
+K:G
+|:(3d^c=c|B>GD>G B>dg>d|^G>A (3Bcd e4|c>ea>g f>d^c>d|(3efe(3d^c=cB2(3d^c
+=c|
+B>GD>G B>dg>d|^G>A (3Bcd e4|^d>ea>g f>=de>f|(3ggg(3dBdg2:|
+|:(3gf=f|e>cG>c e>a(3gfe|d>BG>Bd3d|c>AF>A c>f-f>e|(3d^cd(3ed=cB2(3gf=f|
+e>cG>c e>a(3gfe|d>BG>Bd3d|^c>da>g f>de>f|(3ggg(3dBdg2:||
+S:https://www.folktunefinder.com/tunes/169304
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ceilidhband.org/tunes/kates-kitchen.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

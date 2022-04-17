@@ -1,0 +1,36 @@
+X:1
+T:Friedrich
+C:traditionell
+R:mazurka
+A:'Matzdorf' (Zips; deutsche sprach-insel), Slowakei
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 56/57, Deutsche Volkstaenze aus der Slowakei, Karl Horak und Karl Schwartz, Baerenreiter, Basel, Paris, London, New York 1963
+N:im buch s. 21
+N:im buch ganz in C, 1. ton g'
+S:im buch mit der angabe: Aufzeichnung: Sauter (1941)
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+(G2 ed e2) | (G2 ed ef) | g2 c2 e2 | d6 |\
+(G2 dc d2) | (G2 dc de) | f2 A2 B2 | c6 |
+(G2 E2 c2) | B6 | (F2 D2 A2) | G6 |\
+(G2 E2 G2) | e6 | f2 A2 B2 | c6 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159369
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/friedrich.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

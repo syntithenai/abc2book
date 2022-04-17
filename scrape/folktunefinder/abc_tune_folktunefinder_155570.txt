@@ -1,0 +1,22 @@
+X: 1
+T: Ebb Tide, The
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+d^c|:BE~E2 {G}EDB,A,|D2FE DA,~A,2|B,EED EFGA|{d}B2eB dBAc|
+BE{G}ED EDB,A,|D2FE DA,~A,2|B,E{G}ED EFGA|B2AF GE{G}E2:|
+{a}g2eg bgeg|f2df afdf|{a}g2eg bgeg|fedB e3d|
+{a}g2eg bgeg|f2df afdf|eB{d}BA ~B3^c|d^cdf e2ef|
+gbeg begb|{a}f2df afdf|g2eg bgeg|fedB e3f|
+{a}g2eg bgeg|f2df afdf|eB{D}BA ~B3^c|d^cdf e2d^c|
+S:https://www.folktunefinder.com/tunes/155570
+S:http://www.thesession.org/tunes/display/1821
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

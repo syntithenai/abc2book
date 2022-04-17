@@ -1,0 +1,28 @@
+X:9
+T: Die schoene Magdalena
+N: Q0125D
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Kleinere Melodievarianten aus anderer Quelle abgedruckt.
+N: Vierte Zeile = refrainartig auf Wortwiederholungen.
+R: Ballade, verbotene Liebe, Flucht
+M: 6/8
+L: 1/16
+K: G
+D2 | G3A_B2A2G2F2 | G2A2_B2A4
+A2 | d3dd2c2B2c2 | d6z4
+_B2 | d2d2d2_e2d2c_B | A_Bc2
+BAG2B2BA | G3A_B2A4
+GG | d2d2c2d2_B2A2 | G6z4
+S:https://www.folktunefinder.com/tunes/151931
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

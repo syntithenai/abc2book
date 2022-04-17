@@ -1,0 +1,35 @@
+X:1
+T:Der Rongger
+C:traditionell
+R:
+A:Vorarlberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material von Eberhard Kummer aus dem besitz von Hubert Sielecki: Kopiertes hand-geschriebenes loses blatt, gemeinsam mit: "Langaus", "Der pascherte Zwoaschritt", "Laendler in D (O.Oe., 1779)", "Leirer - Tanz"(Anna Ecker), "Leirer Tanz"(Blade Buam), "4.Dt. Tanz (W.A.Mozart)"
+N:dort ganz in C (und G), einstimmig
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+L:1/8
+M:3/4
+K:C
+(eg) |\
+(gf) d2 b2 | (c'/b/c')z (eg) | (gf) d2 b2 | c'2 z2 (eg) |
+(gf) d2 b2 | (c'/b/c')z (eg) | (gf) (dB) (GB) | c6 :|
+G3 (BdB) | (ce) g2 eg | (gf) (af) (dB) | (dc) (Bd) c2 |
+G3 (BdB) | (ce) g2 (eg) | (gf) (af) (dB) | c6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153101
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/der_rongger.(g2f2)d4b4.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

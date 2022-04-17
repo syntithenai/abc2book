@@ -1,0 +1,36 @@
+X:3
+T:An den yaouank studiet
+G:Kazimodal
+R:Larid\'e
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=140
+P:F5
+M:4/4
+K:Em
+P:E
+E
+P:F
+%%MIDI gchord fcffcfcz
+%%MIDI chordprog 42
+%%MIDI chordvol 60
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 
+|: "Am"A>B cA "Em"GA EE/2F/2 |1 "C"G>"D"A G"Em"E "Am"A2 c"Em"B :|2\
+"C"G>"D"A G"Em"E "Am"A2 AE ||
+|: "Am"A>B cB "G"d2 (cA) | "F"c2 BA "Em"B3 E |
+"Am"A>B cB "G"d2 (cA) | "F"Bc "G"A>"Em"G "Am"A3 E :|
+%|: "Am"A>[GB] [Ac]B "G"d2 (cA) | "F"c2 BA "Em"B3 E |
+%"Am"A>[GB] [Ac]B "G"d2 (cA) | "F"Bc "G"A>"Em"G "Am"A3 E :|
+%%text Fin en la majeur
+S:https://www.folktunefinder.com/tunes/152885
+S:http://kazimodal.trad.org/partitions/larides_8/LE_laride_8/LE_laride_8.abc
+% Rhythm Laride?
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

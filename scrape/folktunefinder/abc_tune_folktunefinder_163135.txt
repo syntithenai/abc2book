@@ -1,0 +1,27 @@
+X: 1
+T:Hanter-dro 1
+G:Kazimodal
+R:Hanter-dro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=116
+P:A5
+M:3/4
+S:Tonio Breizh-Izel 1926 (Pleuigner)
+K:G
+P:A
+|: "G"{GA}GF/2G/2 "Am"(Ac) "Bm"{Bc}BG | "C"(AB/2)c/2 "D"dc "Em"{Bc}BG |\
+"G"{GA}GF/2G/2 "Am"(Ac) "Bm"{Bc}BG | "C"(AB/2)c/2 "D"d{cB}c A2 :|
+|: "G"{Bc}BA/2B/2 "Am"dd "Em"(BG) | "C"{GA}GF/2G/2 "Am"(BA/2)G/2 "D"A2 |\
+"G"{Bc}BA/2B/2 "Bm"dc "Em"(BG) | "C"{GA}GF/2G/2 "D"(AB) "G"G2 :|
+S:https://www.folktunefinder.com/tunes/163135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ha/Hanter_dro_1_2.abc
+% Rhythm Hanter-dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

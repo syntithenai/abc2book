@@ -1,0 +1,18 @@
+X:1
+T:Donnybrook Fair
+M:6/8
+L:1/8
+K:D
+ A,| DFA A2 F| EDC D2 D| DFA d2 d| c2 B A2 A| B2 A B2 c| d3 d2 B| AFF FED|\
+ EFG FED| FFF FED| F A2- A3| B3 d3| B A2- A2 G| FED EDC| D3- D2||
+S:https://www.folktunefinder.com/tunes/153917
+S:http://back.numachi.com:8000/dtrad/abc/DONNYBRK.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DONNYBRK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

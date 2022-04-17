@@ -1,0 +1,26 @@
+X:1151
+T:I'm the Boy for Bewitching Them.
+B:O'Neill's Music of Ireland
+N:O'Neill's - 1151
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+Z:Fermata (Fine) above repeat sign.
+Z:D.C. under last bar-line.
+M:9/8
+R:slipjig
+K:G
+B | G>AG G<ge dBG | A>BA ABd e2 g | G>AG gfe dBG | A>Bc BAB "Fine"E2 :|
+d | g>dg gag fed | efe efg a2 b | gdg gag fed | gfe dcB A2 d |
+g>dg gag fed | efe efg a2 g/a/ | bgb afa gfe | def gdB "D.C"A2 ||
+S:https://www.folktunefinder.com/tunes/166243
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1151_sf.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

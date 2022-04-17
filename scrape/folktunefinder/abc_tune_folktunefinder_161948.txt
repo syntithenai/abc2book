@@ -1,0 +1,24 @@
+X:28
+T: Graf und Nonne (Die Nonne)
+N: Q0155a
+O: Mitteleuropa, Deutschland (BRD) , Franken, Haselbach v.d. Rhoen
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 2/4
+L: 1/16
+K: Bb
+F2 | B3FD2F2 | B2d2d2
+f2 | c3BA2B2 | c4z2
+Bc | d3dd3d | d2f2e2
+dd | c3ee3e | e2g2f2
+fe | d2d2c2c2 | d4z2
+S:https://www.folktunefinder.com/tunes/161948
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

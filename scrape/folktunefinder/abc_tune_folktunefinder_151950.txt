@@ -1,0 +1,26 @@
+X:28
+T: Das Maedchen und der Faehnrich
+N: Q0127I
+O: Osteuropa, Polen, Mittelpolen, Kr. Nessau, Gross Rudzk
+R: Ballade, verbotene Liebe, Flucht
+M: 6/8
+L: 1/16
+K: G
+B2 | d4B2d4d2 | c4c2c4
+c2 | B4B2d3cB2 | A6G4
+B2 | c4B2A2A2G2 | c4B2A4
+d2 | e3dc2B4B2 | A6G4
+B2 | c4B2A2A2G2 | c4B2A4
+d2 | e3dc2B4B2 | A6G4
+S:https://www.folktunefinder.com/tunes/151950
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

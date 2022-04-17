@@ -1,0 +1,25 @@
+X:46
+T: Graf und Nonne (Die Nonne)
+N: Q0155s
+O: Osteuropa, Ungarn, Felsoeszentivan, Csavoly
+N: Eingeklammerte Noten (Strophenvariante) nicht gespielt.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 6/8
+L: 1/8
+K: E
+ | =G2FE2E | BB2z2
+B | A2Bee=c | B3z2
+B | eeB=d=cB | A3B2
+=D | =GGGAGF | E3z2
+B | eeB=d=cB | A3B2
+=D | =GGGAGF | E3z3
+S:https://www.folktunefinder.com/tunes/161966
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

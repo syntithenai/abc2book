@@ -1,0 +1,26 @@
+X:2
+T:Go Sammy Go Counterpoint
+C:copyright 1998 Jim Thompson
+R:Jig
+E:14
+M:6/8
+K:Amix
+\bigskip              % a bit of space
+|:a3 e'3|c'ba abc'|d'c'b b3|e'd'c' bab|
+|a3 e'3|c'ba abc'|d'c'b b3|c'ba gab:|
+K:C
+|:=c'3 g3|edc gfe|bag d'3|edc BAB|
+|=c3 g3|edc gfe|bag d'3|1 c'ba gab:|2 c'ge b3|]
+T:Last time only
+|c3 g3|edc gfe|bag d'3|c'ge c'3|]
+S:https://www.folktunefinder.com/tunes/161856
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/rosie-counterpoint.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:Garrett Barry's
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+DEF ~G3|AGA c2A|dcA d2e|=fed cAG|
+~F3 GFG|AGA cde|dcA GEA|1 DED D2A:|2 DED DFA|]
+dcA d2e|=fed e=fe|dcA c2d|egc ecA|
+dcA d2e|=fed e=fe|dcA GEA|DED D2d|
+dcA d2e|^fag efe|dcA c2d|egc ecA|
+dcA d2e|^fag efe|dcA GEA|DED dAF|]
+S:https://www.folktunefinder.com/tunes/160507
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_garrett_barry_s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

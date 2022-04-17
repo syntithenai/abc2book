@@ -1,0 +1,27 @@
+X:42
+T: Lieber ins Wasser
+N: Q0132
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kr. Forbach,
+R: Ballade, Noetigung, Flucht
+M: 6/4
+L: 1/8
+K: E
+=D2 | E4=D2E4DD | =G2A2BAG4
+=D2 | =G2G2AA=c2B2A2 | =G2A2B2A4
+AG | A4=d2=c2B2A2 | =G4E2=F2E2
+E2 | =F2E2=D2=G2^F2G2A4F2 | E6E4
+A=G | A4=d2=c2B2A2 | =G4E2=F2E2
+E2 | =F2E2=D2=G2^F2G2A4F2 | E6E4
+S:https://www.folktunefinder.com/tunes/151964
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, noetigung, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 0
+T: John McAlpine
+R: strathspey
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+|: A/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>F A>B "E7"c-<B BA/B/ \
+| "A"c2 c>B "D"A-<F F>A | "A"E>A e>c "E7"B2 "A"A :|
+|: d \
+| "A"c-<e e>f e>f a>f | e-<c c>a  e-<c "E7"B2 \
+| "A"c-<e e>f e>f a>f | e-<c c>A "E7"B2 "A"A :|
+S:https://www.folktunefinder.com/tunes/168314
+S:http://trillian.mit.edu/~jc/music/book/500/JohnMcAlpineS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

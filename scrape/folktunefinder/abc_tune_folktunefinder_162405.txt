@@ -1,0 +1,21 @@
+X: 1
+T:the Green Man Hornpipe
+M:3/2
+L:1/8
+K:G
+P:1
+g4       d3 c    B4    | edcB  AGFE D4    | dcBA GFED  C4  | AGFE  DCB,A, G,4|
+G,B,A,G, A,CB,A, B,DCB,| CEDC  DFEG F4    | GBAG AcBA  BdcB| cedf  egfa   g4 ||
+P:2
+b4       a3 g    f4    | g2 ba gfed ^c4   | dBAG Fd^cB AGFE| F2 d2 E2 ^c2 d4 |
+GBd=c    BAG=F   F2 E2 | Aced  cBAG G2 ^F2| gdcB ecBA  dBAG| cABG  D2  F2 G4|]
+S:https://www.folktunefinder.com/tunes/162405
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Green_Man_Hornpipe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

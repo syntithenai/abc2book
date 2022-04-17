@@ -1,0 +1,23 @@
+X: 1
+T: Donald MacLennan's Tuning Phrase
+M: 6/8
+L: 1/8
+R: jig
+K: Amix
+|:efc dBc|ABG A3|ABA c3|ABA c3|
+efc dBc|ABG A3|A2e efd|e3 e3:|:
+efg faf|efd c3|efc dBc|ABG A3|
+efg faf|efd c2B|A2e efd|e3 e3:|
+A3 c3|dcB c3|efc dBc|ABG A3|
+A3 c3|dcB c2B|A2e efd|1e3 e3:|2e3 e2A|:
+efA faA|efA c3|efc dBc|ABG A3|
+efA faA|efA c2B|A2e efd|1e3 e2A:|2e3 e3|
+S:https://www.folktunefinder.com/tunes/153804
+S:http://www.thesession.org/tunes/display/1572
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

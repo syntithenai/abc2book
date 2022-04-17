@@ -1,0 +1,22 @@
+X: 29
+T: Victoria -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:A
+(ucB)|"0"A>A,C>E A>c"4"e>c|(3.d."4"e.d (3.c.B.A G>B E>d|c>"4"ed>c d>f"4"e>d|c>ed>c B>dc>B|
+"0"A>A,C>E A>c"4"e>c|(3.d."4"e.d (3.c.B.A G>B E>d|c>ed>c d>bB>d|c>eG>B A2:|
+|:(u"4"ed)|c>A"4"e>c a>"0"ec>A|f>FA>c f>ed>c|d>Bf>d g>fd>B|d>gb>a g>fe>d|
+c>Ae>c a>"0"e"3"c'>"1"a|"0"e'>"3"c'"1"a>"2"e "3"c'>"1"a"0"e>"2"c|a>fd>B f>dc>B|A>cE>G|A2:|
+S:https://www.folktunefinder.com/tunes/163609
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/UV.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

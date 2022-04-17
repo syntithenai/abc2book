@@ -1,0 +1,25 @@
+X:1711
+T:The Fiddlers' Contest
+M:C|
+L:1/8
+N:"collected by Cronin"
+B:O'Neill's 1711
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:A
+   (cd) | e^def ecAc | defg agaf | eagf ecAc | BABc  B2 (cd) |
+          e^def ecAc | defg agaf | eagf edcB | A2 a2 A2     :|
+|: (AF) | EAAB  cAec | FBBc dBfB | defg agaf | edcB  AEFG    |
+          EAAB  cAeA | BABc defg | agaf edcB | A2 a2 A2     :|
+S:https://www.folktunefinder.com/tunes/157654
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1711_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Da Slockit Light
+C: R-127
+C: Tom Anderson
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+FE| "D"D3F A2d2| fedc d2A2| "G"B2d2 "D/F#"A2d2| "G"BAGF "A"EGFE|
+    "D"D3F A2d2| fedc "Bm"d2A2| "G"B2G2 "A"AGFE| "D"D4- D2:|
+\
+g| "D"f2a2 "A"e3c| "Bm"d3e "A"dcBA| "D"f2a2 "E"e2^g2| "A"a4- a2=g2|
+   "D"f2a2 "A"e3c| "G"d3e "D/F#"dcBA| "G"B2G2 "A"AGFE| "D"D4- D3g|
+   "D"f2a2 "A"e3c| "Bm"d3e "G"dc"D/F#"BA| "G"B2d2 A2d2| BAGF "A"EGFE|
+   "D"D3F A2d2| "A"fedc "Bm"d2A2| "G"B2G2 "A"AGFE| "D"D4- D2|]
+%%text 9/1/98.  Formerly W-15
+S:https://www.folktunefinder.com/tunes/151920
+S:http://roaringjelly.org/music/reel/R127_Da_Slockit_Light.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R127_Da_Slockit_Light.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R127_Da_Slockit_Light.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

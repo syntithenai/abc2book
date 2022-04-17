@@ -1,0 +1,44 @@
+X:1
+T:An dro :  Saint Nazaire vient d'arriver
+Z:Roger Ngaret (Mai 2000)
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=96
+M:2/4
+L:1/16
+K:D
+"Em"e2fe "D"d2B2 | "A"e2dc "D"B2e2 | defe d2B2 | "A"e2dc "D"B4 ::
+"Em"e2f2 g4 | "D"fefg f2f2 | "Em"e2f2 g3e | e2d2 e4 :|
+%%rm
+%%rm  1.  Saint Nazaire vient d'arriver-er               ]
+%%it     Vive les marins, oh beau marinier                ] bis
+%%rm
+%%rm     Trois beaux navires                              ]
+%%it     Lon dire laridaine                               ]
+%%rm     Trois beaux navires chargs de bl               ] bis
+%%rm
+%%rm  2. Trois jeunes filles s'en vont le marchander-er
+%%rm     Marchand, marchand // combien ton bl 
+%%rm  3. Trois francs l'avoine, six francs le bl-
+%%rm     C'est bien trop cher // d'une moiti
+%%rm  4. Je l'donnerai-ai pour un baiser-er
+%%rm      ce prix-l // je prends ton bl
+%%rm  5. V'nez dans ma barque et vous verrez-ez
+%%rm     Madame Marvel // eut le pied lger
+%%rm  6. Et dans la barque elle a saut-
+%%rm     Et quand la belle // fut embarque
+%%rm  7. Le marinier-er a dmarr-
+%%rm     Arrte, arrte // beau marinier
+%%rm  8. Je suis la femme d'un conseiller-er
+%%rm     Et quand la femme // du roi seriez.
+S:https://www.folktunefinder.com/tunes/154583
+S:http://termen.free.fr/danses/vannetais/AndroASaintNazairevientdarriver.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

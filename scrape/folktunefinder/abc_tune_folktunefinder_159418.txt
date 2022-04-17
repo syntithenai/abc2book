@@ -1,0 +1,30 @@
+X:1
+T:Froggy's First Jump
+M:C
+L:1/8
+C:Dave Whetstone
+S:Over the Water
+N:
+A:Bampton
+%O:Oxon.
+O:Albion Band
+R:Reel
+P:A.(A2B2)4.A
+Q:1/4=138
+K:G
+"A"[|] dedc  BGBd  | c2 B2 A3 c |1 BcBA G2 B2 | A2 FG A4 :|2 BcBG E2 F2 |\
+ G4 G4 "B"|:
+AFGA  B2 A2 | G3  A G3 A | BGAB c2 e2 | d6 Bc | d4 c4 | B4 A3 c | BcBG E2 F2 |\
+G4    G4    :|
+S:https://www.folktunefinder.com/tunes/159418
+S:http://www.mit.edu/~jcb/Red_Herring/dances/froggys-first-jump.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

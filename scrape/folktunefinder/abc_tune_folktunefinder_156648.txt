@@ -1,0 +1,30 @@
+X: 1
+T:Fairie's Hornpipe
+M:4/4
+L:1/8
+Q:180
+C:Traditional
+S:From Stanton Taylor
+R:Hornpipe
+N:Second in set with "Off to California" and "Ships are Sailing
+K:G
+(3DEF|:"G"GFGA BGcB|"D7"AGAB "G"G2 Bc|dgfg edcB|"C"cedB "D" A2 Bc|!
+"G"d2 g2 g2 (3gfe|dedc B2 B2|"D7"ABcA dcAF|1"G"GA GF G2 (3DEF:|2"G"GA GF
+ G2 (3ABc||!
+"G"d2 g2 g2 (3gfe|dedc B2 B2|"Am"ABcA edcB|"D7"A2 d2 dcBc|!
+"G"dggf g2 (3gfe|dedc B2 B2|"D7"ABcA dcAF|1"G"GA GF G2 (3ABc:|2"G"GA GF
+G2 (3DEF||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/156648
+S:http://www.blackflute.com/music/tunes/hornpipes/faeries.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

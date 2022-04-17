@@ -1,0 +1,23 @@
+X: 3
+T: Obelisk -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:G
+v"4"DC|B,DGA BGDB,|CEAB cAFD|\
+B,DGA BGcB|((3ABA) ((3GFE) ((3DED) ((3CB,A,)|
+B,DGA BGDB,|CEAB cAFD|B,DGB ADEF|G2B2G2:|
+|:vga|bgeg dgBg|dgBg dgBg|bgeg dgBg|fgab a2(ga)|
+bgeg dgBg|cBAB cdef|gdBG EcAF|G2B2G2:|
+S:https://www.folktunefinder.com/tunes/158641
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

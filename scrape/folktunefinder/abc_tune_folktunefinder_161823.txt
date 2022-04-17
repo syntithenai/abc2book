@@ -1,0 +1,22 @@
+X: 1
+T: The Goofy Newfie
+C: Jacob Howley
+M: 4/4
+L: 1/8
+Z: Contributed 20050131032355 by Jacob Howley howleyj@gmx.de
+K: A
+|: Afe(c c)BAB | c=cA(E E)CA,C | B,FFE EFCE | FAf=c BAFE |
+| Afe(c c)BAB | c=cA(E E)CA,C | B,FFE EFCE | (3DEF =cB A2EF :|
+|: A2cB AFEF | A2ce fece | fbaf eAce | ^dea=g fecB |
+|1 A2ce BAFE | ABce feae | faga fecA | (3EF=G AB A2EF :|
+|2 cee2 fece | faa2 bafa | ecAE FB,B,A, | (3B,CE FGA2 ||
+S:https://www.folktunefinder.com/tunes/161823
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/howleyj:gmx.de/GoofyNewfie.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GoofyNewfie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

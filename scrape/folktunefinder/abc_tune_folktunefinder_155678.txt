@@ -1,0 +1,25 @@
+X: 2
+T: Gasp\'e Reel
+I: Gaspe ReelR-30Dreel
+M: C|
+R: reel
+K: D
+"D"f2ef e2dB| AFAF B2A2| "A7"g2fg f2ed| BABc (3BcBA2|
+"D"f2ef e2dB| AFAF B2A2| "A7"g2fg f2ed| B2c2 "D"d4 :|
+|:\
+"A7"e2f2 g2fe| "D"f2g2 a4| "A7"e2f2 g2e2| "Em"BABc "A7"(3BcBA2|
+"A7"e2f2 g2fe| "D"f2g2 a4| "A7"e2f2 gfed| B2c2 "D"d4 :|
+%%text Roaring Jelly  R-30
+S:https://www.folktunefinder.com/tunes/155678
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set03.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set03.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

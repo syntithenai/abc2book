@@ -1,0 +1,20 @@
+X: 1
+T: Johnny Boyle's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+g2 f efg | d2 B BAB | c2 A AGA | BAB GBd |
+ g2 f efg | d2 B BAB | A2 a agf |1 g3 def :|2 g2 f g2 a ||
+b2 g gfg | b2 g gfg | a2 f fef | a2 f dfa |
+ b2 g gfg | b2 g gfg | eaa agf |1 g2 f g2 a :|2 g3 def ||
+S:https://www.folktunefinder.com/tunes/168398
+S:http://www.thesession.org/tunes/display/3382
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

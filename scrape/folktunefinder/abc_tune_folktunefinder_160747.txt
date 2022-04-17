@@ -1,0 +1,29 @@
+X:7921
+T:The gentle maiden
+C:anon.
+O:Ireland
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/gentle-maiden.abc
+M:6/8
+L:1/8
+K:G
+"^Moderato"D|(G>AG) (FE)D|d3 (ef)g|(d>c)B (A2G)|E3- E2D|(G>AG) (FE)D|d3 (efg)|(dcB) (A2G)|G3- G2d|
+(de)f g2g|g3 (gf)e|(d>c)B (A2G)|E3- E2F|(G>AG) (FE)D|d3 efg|(d>cB) A2G|G3-G2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/160747
+S:http://abc.musicaviva.com/tunes/ireland/gentle-maiden.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/gentle-maiden.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/gentle-maiden.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ireland/gentle-maiden.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

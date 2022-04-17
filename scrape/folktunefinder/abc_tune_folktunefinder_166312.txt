@@ -1,0 +1,26 @@
+X: 1
+T:Indian Summer
+C: 1999 Harry Bolick -  harry@bolick.net- www.bolick.net
+R:breakdown
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:300
+K:D
+(3(ABc) |: "D" d2f2e2f2 | "G" B2 (eg) ed (cA) |"D" (dc)de (fe)fg |"A"  b2e2 e(ABc) |
+ "D" d2f2e2f2 |"G" B2 (eg) ed (cA) | "A" (a^ga^g) a=g ec |1 "D" (d4 d) (ABc):|2 "D" (d4 d3) E ||
+K:A
+|: "D"F2d2 cB A2 | "E"G2 B4 B2 | "A"c2  cc (BA) AB | c2  cc (BA) GD| 
+"D" F2d2 cB A2 | "E" G2 B4 B2 | "A" c2  cc (BA)  GD  | "D" F3 G A4 :|
+S:https://www.folktunefinder.com/tunes/166312
+S:http://www.bolick.net/sound/IndianSummer.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

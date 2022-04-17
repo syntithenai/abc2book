@@ -1,0 +1,27 @@
+X:1
+T:Horsais : Suite Moulinet
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:C
+P:A
+Q:1/4=106
+M:4/4
+L:1/16
+K:C
+gf | "C"e2g2 c2gf e2g2 c4 | e2e2 g2e2 "G"f2d2 d2dd | 
+B2d2 d2dd B2d2 d4 | "C"g3a g2f2 e2c2 c2 |]
+P:B
+"C"cccc c2GG "G"A2A2 "C"G4 | eeee e2dc "G"B2c2 d2dd |
+"C"c2e2 G2ee "G"d2e2 "C"G4 | g3a g2ff e2d2 c4 |]
+S:https://www.folktunefinder.com/tunes/164884
+S:http://termen.free.fr/danses/termen/HorsaisSuiteMoulinet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

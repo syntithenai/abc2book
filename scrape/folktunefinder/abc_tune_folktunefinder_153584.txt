@@ -1,0 +1,30 @@
+X:1
+T:Inganss
+R:march
+C:Hugh Inkster
+D:Laments and Merry Melodies, Theresa Morrison
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+L:1/8
+M:C
+K:D
+FG|A2 FA d2 Ad|f2 ec d2 A2|d2 A2 BAGF|G2 E2 E2 FG|
+A2 FA d2 Ad|f2 ec d2 A2|d2 A2 BAGE|F2 D2 D2:|
+|:zf|a2 fd A2 d<f|e2 cA d2 F2|G2 B2 AFdA|1F2 E2 E2 fg|
+a2 fd A2 d<f|e2 cA d2 F2|G2 B2 AFdA|F2 D2 D2:|
+[2F2 E2 E2 AG|F2 DF ADFA|d>FA<d f2 ec|dcdA BAGE|F2 D2 D2||
+|:AG|F2 DF ADFA|d>FA<d f2 ec|dcdA BAGF|G2 E2 E2 AG|
+F2 DF ADFA|d>FA<d f2 ec|dcdA BAGE|F2 D2 D2:|
+|:fg|a2 fd A<dd<f|e2 cA d2 F2|GFGB AFdA|1F2 E2 E2 fg|
+a2 fd A<dd<f|e2 cA d2 F2|GFGB AFdA|F2 D2 D2:|
+[2F2 E2 E2 AG|F2 DF ADFA|d>FA<d f2 ec|dcdA BAGE|F2 D2 D2|]
+S:https://www.folktunefinder.com/tunes/153584
+S:http://cranfordpub.com/tunes/abcs/TheresaMorrison.abc
+S:http://www.cranfordpub.com/tunes/abcs/TheresaMorrison.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

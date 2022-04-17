@@ -1,0 +1,32 @@
+X:1
+T:Fabulettes : En cueillant des pommes
+C:Anne Sylvestre, fichier abc : Bernard Loffet
+L:1/8
+Q:460
+K:C
+M:2/2
+|: [A2A,,2]A,c [e2A,,2][a2A,2] | [f2D,,2]D,e [d2D,,2][c2D,2] | [B2E,,2]E,c [d2E,,2][e2E,2] | \
+ [c2A,,2][d2A,2] [e2A,,2]A,2 | [A2A,,2]A,c [e2A,,2][a2A,2] | [f2D,,2]D,e [d2D,,2][c2D,2] | \
+ [B2E,,2][c2E,2] [d2E,,2][e2E,2] | [A2A,,2]A,2 A,,2A,2 :| [a2A,,2]A,c' [b2A,,2][a2A,2] | \
+ [g2G,,2]G,b [a2G,,2][g2G,2] | [f2F,,2]F,a [g2F,,2][f2F,2] | [e2E,,2][d2E,2] [e2E,,2]E,2 | \
+ [a2A,,2]A,c' [b2A,,2][a2A,2] | [g2E,,2]E,b [a2A,,2][g2E,2] | [^f2B,,2][B2B,2] [g2G,,2][f2B,2] | \
+ [e2E,,2]E,2 E,,2E,2 |: [e2A,,2][e2A,2] [e2A,,2][d2A,2] | [e2A,,2]A,2 [a2A,,2]A,2 | \
+ [e2E,,2]E,2 E,,2E,2 | E,,2E,2 E,,2E,2 :|: [A2A,,2]A,B [c2A,,2][d2A,2] | [e2C,,2][eC,]d [e2C,,2][c2C,2] | \
+ [z2D,,2]D,2 [d2D,,2][c2D,2] | [d2E,,2]E,2 [e2E,,2]E,2 | [A2A,,2]A,2 A,,2A,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/156542
+S:http://diato.ifrance.com/diato/tablat/167.abc
+S:http://diato.ifrance.com/tablat/167.abc
+S:http://diato.org/tablat/167.abc
+S:http://perso.wanadoo.fr/diato/tablat/167.abc
+S:http://pro.wanadoo.fr/diato/tablat/167.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/167.abc
+S:http://www.diatonique.net/tablat/167.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

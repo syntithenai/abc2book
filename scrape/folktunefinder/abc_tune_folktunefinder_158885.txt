@@ -1,0 +1,25 @@
+X: 1
+T: Fool's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+D2E D2F|A2F DEF|G2F G2B|A2F DEF|
+G3 .B2G|F3 .A2 F|E2D E2F|E2G F2E|
+D2E D2F|A2F DEF|G2F G2B|A2F D2z|
+d2c d2B|A2G F2E|F3 D3|1 D3- D2z :|2 D2z ABc||
+.d2A .F2A|B2A .F2A|.d2A .F2A|B2A G2F|
+G3 .e2G|F3 .d2F|E2D E2F|E2G F2E|
+D2E D2F|A2F DEF|G2F G2B|A2F D2z|
+d2c d2B|A2G F2E|F3 D3| D3 .dz2|
+S:https://www.folktunefinder.com/tunes/158885
+S:http://www.thesession.org/tunes/display/792
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

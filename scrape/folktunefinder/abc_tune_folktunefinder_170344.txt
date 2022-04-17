@@ -1,0 +1,29 @@
+X:3
+K:G
+M:3/4
+L:1/8
+T:Klockstapelsvalsen efter Byss-Kalle (nr 57)
+S:efter Byss-Kalle
+Z:2007-12-14
+B: 57 ltar efter Byss-Kalle nr 57
+R:Vals
+D: Skivan "Byss-Calle" med Nyckelharporkestern utgiven p Drone, spr 12
+O:efter Byss-Kalle, Uppland
+D2 | (G2 B2) d2 | (3dBd (gd) BG | A2 AB c2   | (3cBc (ed) BA | 
+     (G2 B2) d2 | (3dBd (gd) BG | A2 (Ac) BA | G4 ::
+D2 | (G2 B2) d2 | (gf)  ga   b2 | (ag) fg a2 | (gf) ef g2 | (dc) BA G2 |
+     (G2 B2) d2 | (gf)  ga   b2 | (ag) (fa) d'f | g4 :: (dc) | B2 (Bd) g2 | (BG) Bd g2 |
+     A2 (Ac) ec | (AF) (Ac) ed  | B2   Bd   g2  | (BG) Bd g2 | A2  Ac  BA | G4        :|
+S:https://www.folktunefinder.com/tunes/170344
+S:http://www.folkwiki.se/pub/cache/Klockstapelsvalsen_efter_ByssKalle_nr_57_de5eaf.latin.abc
+S:http://www.folkwiki.se/pub/cache/Klockstapelsvalsen_efter_ByssKalle_nr_57_de5eaf.abc
+S:http://www.folkwiki.se/pub/cache/Klockstapelsvalsen_efter_ByssKalle_nr_57_de5eaf.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: The Devil and the Dirk
+C: J.S.Skinner
+Z: John Chambers <jc@trillian.mit.edu>
+N: The Harp and Claymore, p.84 (with variations by Gavin Greig).
+N: The Caledonian Companion, Alastair J. Hardie, 1981, p.110.
+N: SV p.3
+N: SFT p.15
+M: C|
+L: 1/8
+K: D
+|: d | "D"~D2FD ADd2 | ADFD "A7"CE-EF | "D"~D2FD ADd2 | "A7"AFGE "D"FDD :|
+[| c | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "Em"GFEG "D"FEDF | "E7"EB,ED "A7"CEAc |
+     | "Bm"dcBd "A7"cBAc | "G"BAGB "D"AGFA | "A7"GEAG "D"FAdB | "A7"AFGE "D"FDD |]
+S:https://www.folktunefinder.com/tunes/153232
+S:http://trillian.mit.edu/~jc/music/book/500/DevilAndTheDirk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

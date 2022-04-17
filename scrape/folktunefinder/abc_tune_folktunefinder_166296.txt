@@ -1,0 +1,23 @@
+X: 1
+T: Indian Point
+R: jig
+C: Rick Mohr  4/89
+Z: Translated to abc by Debbie Knight
+M: 6/8
+K: F#m
+|:"F#m"CFG A2B | cBA GFE | "D"DFG A2B | cBA cBA | 
+| "E"GFE B,2E | GFG BAG |1 "F#m"FGA cBA | "E" G3 GFE :| \
+[2 "F#m"AGF "E"GFE | "F#m"F3 F2 || 
+|:"F#m"cfg agf | "D"dfg agf | "E"ega bag | "F#m"agf "E"gfe | 
+| "F#m"cfg agf | "D"dfa "Bm"b2b | "F#m"c'ba "C#7"gag | "F#m"f3 f3 :|
+S:https://www.folktunefinder.com/tunes/166296
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/IndianPoint_Fsm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

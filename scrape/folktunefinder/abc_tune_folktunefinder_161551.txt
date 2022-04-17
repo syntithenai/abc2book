@@ -1,0 +1,28 @@
+X:0480
+T:"The Goat's Song"      (air)       0480
+C:Unattributed
+C:moderate
+N:Fermatas to taste
+N:(Goats  Goats   Yecchh!)
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_vb"d|B3/2d/2e dBG|(B/2c/2d).B dAd|B3/2d/2e dBG|TRg2f TRe2d|
+B3/2d/2e dBG|(B/2c/2d)B dAd|B3/2A/2G BgHb|agf {f}e2:|
+|:g|{e}dBB {a}gBB|{a}bBB {e}dAA|{e}dBB {a}gBB|{a}bg^d e2g|
+[1{e}dBB {a}gBB|{a}bBB dAd|B3/2A/2G BgHb|agf {f}e2:|
+[2def gab|agf {a}gfe|d3/2B/2G BgHb|agf {f}e2|]
+S:https://www.folktunefinder.com/tunes/161551
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0480-GoatsSong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Hllestrand
+R:Engelska
+C:Jonas Brunskog
+O:Skne
+Q:1/4=90
+M:2/4
+L:1/16
+K:G
+|:GDCD (B,A,)G,2|GDCD =F4|GDCD (B,A,)G,2| GAG^F G4:|
+|:GAcd (cA)G=F|GAcd g4|GAcd (cA)G=F| GAG^F G4:|
+S:https://www.folktunefinder.com/tunes/164470
+S:http://www.folkwiki.se/pub/cache/H%e4llestrand_e1cc19.latin.abc
+S:http://www.folkwiki.se/pub/cache/H%E4llestrand_e1cc19.abc
+S:http://www.folkwiki.se/pub/cache/H%e4llestrand_e1cc19.abcm.abc
+% Rhythm Engelska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,63 @@
+X:1850
+T:The Fox Chase
+M:C
+L:1/8
+B:O'Neill's 1850
+Z:"collected by Tuohy"
+Z:should G in 2nd bar of first Horns part be sharp
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+(DE) | G2  GB   d2  d2  |   dedB   d3   z   | G2 GB (ed)BG | A4 G2 ((3def) |
+       g2 (fe)  f2 (ed) |  (ed)BG  A2 (GE)  | GABG   A^GAB | G4 G2        :|
+(DE) | G2  GA   B2  B2  |   c2 c2  B2  B2   | c2 c2  B2 BG | A4 G2 ((3def) |
+       g3  a   (gf)(ed) | (ed)(BG) A2 (GE)  | GABG   A^GAB | G4 G2    z2  ||
+       G2  GB   d2  g2  |   e2 g2  d2  g2   | G2 GB  dedB  | A4 G2 ((3def) |
+      (gf)(ga) (gf)(ed) |   e2 dB  A2  GE   | GABG   A^GAB | G4 G2    z2  ||
+       DEGA    .B.G.G.G | .A.G.G.G .B.G.G.G | AGBG   cGBG  | A4 G2 ((3def) |
+       g2  ba  (gf)(ed) | (ed)(BG) A2 (GE)  | GABG   A^GAB | G4 G2    z2  ||
+"Horns"A3 (^G/A/) A3 (G/A/)| A3 G/A/  A3 G/A/ | d3 ^c/d/ d3 c/d/ | d3 ^c/d/ d3 c/d/ | F/E/ F3 F/E/ F3 | F/E/ F3 F/E/ F3 |
+L:1/16
+"Cry of the hounds"FDED FDED FDED FDED| FDdD FDED FDED FDGD|fded fded fded fded|
+fdgd fded fdgd fded | gdgd fdfd gdgd fdfd |\
+.g2.g2.g2 z2 .f2.f2.f2 z2 | .e2.e2.e2 z2 .f2.f2.f2 z2 |
+L:1/8
+"Horns"A3 ^G/A/ A3 G/A/ | A3 ^G/A/ A3 ^G/A/ | d3 ^c/d/ d3 c/d/ |\
+d3 ^c/d/ d3 ((3A/B/c/) ||
+K:D
+M:3/4
+       d2 F2  A2  | d4     fe    |  d2   F2   A2  | {d}=c4 (BA) |\
+       B2 F2  A2  | B2  dc   BA  |  B2   F2   A2  |     B4  A2  |
+       F2 d2  d2  | F2 (dc) (BA) |    (BdcBAG)    |     F4 (FE) |\
+       D2 F2  A2  | B4    (ed)   |  c2   A2   c2  |     d4     ||
+(de) | f2 f2 (af) | f2  e2   d2  |  f2   d2   B2  |     B4  A2  |\
+       f2 f2 (af) | f2  e2   d2  | (dc) (de) (fd) |     e4  A2  |
+       A2 d2  d2  | F2 (dc) (BA) |    (BdcBAG)    |     F4 (FE) |\
+       D2 F2  A2  | B4     ed    |  c2   A2   c2  |     d4     ||
+K:G
+M:C
+   D2   | GABc  d2 d2 | dedB  d2 BA | GABc  dedB | A4 G2    ||
+((3def) | g2 g2 f2 ed | g2 B2 A2 GE | GABG A^GAB | G4 G2 z2 ||
+M:6/8
+|: DEF DEF | DEF DEF | DEF DEF | DEF DEF :|
+M:C
+|: DEFE DEFE | DEFE DEFE | DEFE DEFE | DEFE DEFE :|
+          GABc  d2 d2 | dedB  d2 (BA) | GABc dedB  | A4 G2    ||
+((3def) | g2 g2 f2 ed | g2 B2 A2 (GE) | GABG A^GAB | G4 G2 z2 ||
+M:9/8
+|: (FGF)  F2 D  G2 E | (FGF) F2 D E2 D | (FGF)  F2 D  G2 B | (AFD) D2 F E2 D :|
+|: (BcB) (BAG) (FGA) | B2 E  E2 F G2 B | (ABc) (dcB) (ABc) | d2 D  D2 F E2 D :|
+|: (fgf)  f2 d  g2 e | (fgf) f2 d e2 d | (fgf)  f2 d  g2 b | (afd) d2 f e2 d :|
+|: (gfe) (dcB) (AGF) | B2 E  E2 F G2 B | (ABc) (dcB) (ABc) | d2 D  D2 F E2 D :|
+S:https://www.folktunefinder.com/tunes/159091
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1850_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

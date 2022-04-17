@@ -1,0 +1,24 @@
+X: 1
+T: Dan's Request
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+F>G |: A>DF>A d2 (3efg | f>de>c d>AF>A | B>GE>F G>Bd>B | A>GF>G E2F>G | 
+A>DF>A (3ded c>d | B>eg>f g>ec>e | d>DF>A B>ge>c |1 (3ded c>e d2 F>G :|2 (3ded c>e d>ef>g |]
+[| (3aba ^g>b a>fd>B | A>DF>A d>fa>f | (3gag f>a g>ec>A | E>Ac>e g2f>g |
+(3aba ^g>b a>fd>B | A>DF>A d>fa>f | g>ec>A ^G>AB>c | (3ded c>e d>ef>g | 
+(3aba ^g>b a>fd>B | A>DF>A d>fa>f | (3gag f>a g>ec>A | E>Ac>e g2f>e | 
+d>f (3edc d>AF>A | B>eg>f g>ec>e | d>DF>A B>ge>c | (3ded c>e d2 F>G |]
+S:https://www.folktunefinder.com/tunes/151396
+S:http://www.thesession.org/tunes/display/8670
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

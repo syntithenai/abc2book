@@ -1,0 +1,35 @@
+X:1
+T:Kost ar c'hoat : Leuelan / Perred / Leskoed (1413)
+Z:Roger Ngaret (Novembre 99)
+C:Trad.
+S:Tonio Breizh-Izel (Polig Monjarret)
+A:Bretagne
+M:6/8
+L:1/8
+Q:160
+K:Bb
+P:
+B3 d2 B | d2 e f3 | def g2 b |1 a2 g f2 d :|2 a2 g f3 |:
+P:
+b3 f2 e | dcd B2 d |1 f3 agf | g2 a bfd :|2
+f3 a2 g | f3 f3 |:
+P:
+f2 g f2 d | e2 f g2 f | e2 f edc | d2 e f3 | 
+d2 e d2 B | c2 d e2 c | A2 c  cdc | B3 B3 :: 
+P:
+B3 f2 f | e2 g f3 |1 edc d2 B | c2 A B2 f :|2 def d2 B|
+c2 A B3 |: 
+P:
+bab f3 | ede f3 | gfg e2 d | c2 d e3 | bab f3 |
+def g2 b | a2 g fga |1 b3 f3 :|2 b3 b3 |]
+S:https://www.folktunefinder.com/tunes/170520
+S:http://termen.free.fr/danses/termen/KostarchoatLeuelanPerredLeskoed1413.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

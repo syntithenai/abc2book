@@ -1,0 +1,33 @@
+X:1
+T:Kerstins brudpolska
+R:Polska
+C:Kjell-Erik Eriksson
+Z:Robert Bostrm 2008-02-02
+M:3/4
+L:1/8
+K:G
+||:"G"d3/2g/2 b/2a3/2 g3/2f/2|g/2d3/2 d6/2 d|"C"e2 c/2d/2c/2B/2 c3/2c/2|
+"G"d2B/2c/2B/2A/2 B2|d3/2g/2 b/2a3/2 g3/2f/2|g/2d3/2 d6/2 d|
+"C"e3/2d/2 c/2d/2c/2B/2 c3/2e/2|1 "(D)"g/2f3/2 "G"g2 z2:|2 "(D)"g/2f3/2 "G"(g4|
+|: "G"g3/2)d/2 g/2f3/2 e3/2d/2 |"C"c3/2B/2 A/2G3/2 (E2| E3/2)G/2 "(D)"F/2A3/2 "G"G3/2B/2|
+"D"(3AFA "G"G2 (B2| B3/2)d/2 g/2f3/2 e3/2d/2|"C"c3/2B/2 A/2G3/2 (E2|
+E3/2)G/2 "(D)"F/2A3/2 "G"G3/2B/2|"D"(3AFA "G"G2 z2| B3/2d/2 g/2f3/2 e3/2d/2|
+"C"c3/2B/2 A/2G3/2 (E2| E3/2)G/2 "(D)"F/2A3/2 "G"G3/2B/2|"D"(3AFA "G"G2 (B2|
+ B3/2)d/2 g/2f3/2 e3/2d/2|"C"c3/2B/2 A/2G3/2 (E2|E3/2)G/2 "(D)"F/2A3/2 "G"G3/2B/2|
+"D"(3AFA "G"G6/2 F||: "C"E2 E3/2F/2 G3/2A/2 |"G/B"B2 B2 z2|
+"D/A" BA/2B/2 c3/2A/2 F3/2A/2 |"G"dc "/A"B/2c/2B/2A/2 "/B"GF|"C"E2 E3/2F/2 G3/2A/2 |
+"G/B"B2 B2 z2|"D/A"BA/2B/2 c3/2A/2 F3/2A/2 |1 "G"G2 G6/2 F:||
+|2 "G"G2 G2z2||
+S:https://www.folktunefinder.com/tunes/169602
+S:http://www.folkwiki.se/pub/cache/Kerstins_brudpolska_941e07.latin.abc
+S:http://www.folkwiki.se/pub/cache/Kerstins_brudpolska_941e07.abc
+S:http://www.folkwiki.se/pub/cache/Kerstins_brudpolska_941e07.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

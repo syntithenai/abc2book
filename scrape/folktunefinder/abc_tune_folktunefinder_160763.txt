@@ -1,0 +1,21 @@
+X:1 
+T:Gently_how_she_goes/Modified by Achazia 
+C:Beowulf Soundtrack 
+N:Flute 
+Q:1/4=110 
+V:1 
+M:4/4 
+L:1/8 
+K:E 
+z8 |z8 |z8 |z8 |z8 |F4 EF G2 |AG F2 E4 |D3 B, C4 |D3 B, C4 |F4 EF G2 |AG F2 E4 |E3 C D3 B, |C8 |F4 EF G2 |AG F2 E4 |D3 B, C4 |D3 B, C4 |F4 EF G2 |AG F2 E4 |E3 C D3 B, |C6 z2 |[C4F4] [B,4E]F G2 |[AA,4] G F2 [G,4E4] | 
+[F,3D3] B, C4 |[F,3D3] B, [G,4C4] |[C4F4] [EB,4] F G2 |[A,A]G F2 [G,4E4] |[E,3E3] C [D3F,4] B, |[G,4C4] z4 |] 
+[b]STEP 2.) Create a folder called MUSIC in your LOTRO root folder (i.e. the one you find in C:\Documents and Settings\<yourname>\My Documents\the lord of the rings online). All of your music files should be saved into this folder so that you can play them in-game.
+S:https://www.folktunefinder.com/tunes/160763
+S:http://community.codemasters.com/forum/archive/index.php/t-268403.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

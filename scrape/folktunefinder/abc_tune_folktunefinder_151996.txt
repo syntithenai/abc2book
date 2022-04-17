@@ -1,0 +1,25 @@
+X:74
+T: Nachtigall als Warnerin
+N: Q0137I
+O: Mitteleuropa, Deutschland / Polen, Schlesien
+N: Gedruckte, "bereinigte" Fassung von Q0137J. Verzierung (Vorschlag) .
+R: Ballade, Allegorie; lyrisch ()
+M: 3/4
+L: 1/8
+K: G
+ | GDG2G2 | FGA3
+A | BAG2A2 | cBA2z
+c | BdA3c | BdG3
+A | BGd2BG | A2G2z2
+S:https://www.folktunefinder.com/tunes/151996
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, allegorie; lyrisch ()
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

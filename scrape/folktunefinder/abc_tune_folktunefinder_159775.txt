@@ -1,0 +1,23 @@
+X:2
+T: London Pride (1st version)
+C: Trad.
+S: CJS MSS
+Z: From Bacon's Handbook of Morris dances (transposed).
+M: C|
+L: 1/8
+K: ADor % 1 sharp
+P:A
+ BA | G2 e2 e2 g2 | dddB G2A2 | B2 e2 edcB | A3 B A2 :||
+P:B
+ z2 | e3 f g2 e2 | a2 af d2 d2 | e2 ef g2 e2 | a3 g e4 |
+e2 ef g2 e2 | d2 dB G2 A2 | B2 e2 edcB | A3 B A4 ||
+S:https://www.folktunefinder.com/tunes/159775
+S:http://tomkeays.com/morris/tunes/withington/withington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

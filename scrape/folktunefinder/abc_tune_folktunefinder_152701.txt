@@ -1,0 +1,23 @@
+X:15                          % number
+T:Quam Pulchra Es            % title
+C:John Dunstable             % composer
+O:http://www.upv.es/coro/victoria/varios.html % origin.
+M:3/4                        % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:C                          % key
+V:1 name="Altus" sname="A."                         % voice 1
+V:2 name="Tenor" sname="T."
+V:3 name="Bassus" sname="B." clef=bass
+%====1=======2======3=======4========5===============7=============8===================9
+V:1
+C2 E | D F>E | G2 G | A2 F  | G G E  | E/ E/ E D/C/  | F/E/ C d/F/-|F/E/ C B,/A,//B,// |
+S:https://www.folktunefinder.com/tunes/152701
+S:http://kittybriton-abc.blogspot.com/2007_11_01_archive.html
+S:http://kittybriton-abc.blogspot.com/2007/11/getting-word-out.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

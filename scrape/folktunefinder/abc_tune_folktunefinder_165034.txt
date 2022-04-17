@@ -1,0 +1,23 @@
+X:1
+T:Howl at the Moon Harmony 1
+C:copyright 1998 Jim Thompson
+N:To be played with Kaubells tune ``Howl at the Moon''
+R:Jig
+E:18
+M:6/8
+K:E
+|:g3 a=f=c|g3 a=f=c|g3 gfe|f3 bc'b|
+g3 a=f=c|g3 a=f=c|g3 a=f=c|d3 efg:|
+|:gab b3|agf f3|gab b3|agf z3|
+gab b3|agf fdf|=f=ga fga|fgf e3:|
+S:https://www.folktunefinder.com/tunes/165034
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/howl-harmony.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

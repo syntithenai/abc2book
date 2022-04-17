@@ -1,0 +1,33 @@
+X: 1
+T: Old Wheel Of Fortune, The
+M: 4/4
+L: 1/8
+R: strathspey
+K: Dmaj
+|: c>B | 
+A<Fd>F E<A,C>E | F>Ad>D c>DB>D |
+A<Fd>F E<A,C>E |1 F>A (3GFE D>d :|2 F>d (3Bcd A2 A>f ||
+K: Amaj
+e>ca>c (3efe e>f | e>ca>c f>e (3fga |
+e>ca>c (3efe c>e | d>ec>d B>cd>f |
+e>ca>c (3efe e>f | e>ca>c f>ef>g  |
+a>fe>c a>fe>c | (3ded (3cdc B>d |]
+K: Dmaj
+|: (3dcB | 
+A<Fd>F E>A,C>E | F<Dd>D c>DB>D |
+A<Fd>F E<A,C>E |1 F>A (3GFE D2 :|2 F>A (3GFE D>Ad>f ||
+K: Amaj
+e<Ac>A e>Ad>f | e<Ac>A B>^AB>f |
+e<Ac>A (3efe (3edc | (3ded (3cdc (3BcB A>f |
+e<Ac>A (3efe ^d>f | e<Ac>A f>^ef>g |
+a>fe>c A<ec>e | d2 (3cdc B>A ||
+S:https://www.folktunefinder.com/tunes/159215
+S:http://www.thesession.org/tunes/display/7297
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

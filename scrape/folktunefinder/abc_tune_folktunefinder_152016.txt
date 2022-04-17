@@ -1,0 +1,26 @@
+X:94
+T: Der schwatzhafte Junggeselle
+N: Q0139I
+O: Mitteleuropa, Oesterreich / Italien, Sued - Tirol, Bez. Sterzing,
+N: Anhaengsel an Zeile 1 und 2.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 2/4
+L: 1/8
+K: G
+D2 | G2FE | D2B2 | A2G2 | d2B2 | z2
+D2 | G2FE | D2B2 | A2G2 | d2B2 | z2
+d2 | BBBB | B3d | edcB | A3
+A | AAAA | d3c | BBAA | G2
+d2 | BBBB | B3d | edcB | A3
+A | AAAA | d3c | BBAA | G2
+S:https://www.folktunefinder.com/tunes/152016
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:1
+T:The Island of Mull 
+C:Scottish
+R:jig
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+|:A/2B/2|({AB}c3/2)B/2A AFE|ECE ECE|
+c3/2B/2A A/2e3/2c|cBB B2A/2B/2|({AB}c3/2)B/2A AFE|
+ECE ECE|Aec B3/2A/2B|cAA A2:|
+|:E/2D/2|CEA AcA|EGB BdB|Ace edc|cBB B2c/2d/2|
+ecA AcA|BGE E2D|CEA B3/2A/2B|cAA A2:|
+S:https://www.folktunefinder.com/tunes/166719
+S:http://www.stolaf.edu/people/hend/IsleMull.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

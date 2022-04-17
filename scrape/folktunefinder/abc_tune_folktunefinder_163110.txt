@@ -1,0 +1,25 @@
+X: 080031
+T: Hangman's Rope
+C: F. MacCallum
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+(3DEF | G2 BG DGBd | g2 fg d3 e | =f2 fe fdcA |\
+c2 cB cAFD |
+G2 BG DGBd | g2 fg d3 e | (3=fgf ef dc (3ABc |\
+B2 G2 G2 :|
+Bc | dg (3ggg dgBg | dgBg a2 ga | bagf gdBd |\
+cBAG A2 Bc |
+dg (3ggg dgBg | dgBg a2 ga | bagf gd (3ABc |\
+B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/163110
+S:http://www.qmcorp.net/webabc/h/080031.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

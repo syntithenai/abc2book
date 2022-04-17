@@ -1,0 +1,34 @@
+X:1
+T:Fraenkischer Dreher
+R:dreher
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.auflage, eigenverlag, Schluechtern 1989
+N:dort ganz in G, einstimmig mit harmonie-buchstaben, seite 208 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+B4 BABc | d2B2d2B2 | c2A2A2 GA | B2G2 G4 |
+B4 BABc | d2B2d2B2 | c2A2A2 BA | G6 ||
+D2 |\
+D2F2A2c2 | B2e2 d4 | c2A2A2 GA | B2G2G2 D2 |
+D2F2A2c2 | B2e2 d4 | c2A2A2 BA | G4 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159157
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/fraenkischer_dreher.B4BABcd.abc
+% Rhythm Dreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

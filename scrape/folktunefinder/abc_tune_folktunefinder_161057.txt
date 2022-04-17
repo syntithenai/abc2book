@@ -1,0 +1,23 @@
+X: 2
+T:Greasy String
+M:4/4
+L:1/8
+R:Reel
+K:G
+"G" D2 ED G2 A2 | "G" B2 d2 "Em" B4 | "C" A2 G2 "D" EDEG | "G" A(G G2) G
+4 | "G" D2 ED G2 A2 | "G" B2 d2 "Em" B4 | "C" A2 G2 "D" EDEG | "G" A(G G
+2) G4 :||: "G" g4 g2 d2 1 "G" edBA G2 fg | "D" agfg a2 ab | "D" agfe d4
+| "G" g2 ba g2 d2 | "G" e(d d2) "Em" B4 | "C" A2 G2 "D" EDEG 1 "G" A(G G
+2) G4 :||
+% Output from ABC2Win  Version 2.1 k pre2 on 11/12/2004
+S:https://www.folktunefinder.com/tunes/161057
+S:http://internet.cybermesa.com/~keating/music_abc/GIRLGREA.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:15
+T: Vermont Jig
+C: Eamon Flynn
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D |: G,B,D GDB,|CEG cBc|dBG cAF |1\
+GDC B,CA, :|2 AGF G2 ||
+B|dgb afd|gdB cBc|dBG cAF|GDE FGA |
+dgb afd|gdB cBc|dBG cAF|AGF G2 ||
+B|dgb afd|gdB cBc|dBG cAF|GDC B,CA, |
+G,B,D GDB,|CEG cBc|dBG cAF|AGF G2 :|
+S:https://www.folktunefinder.com/tunes/152891
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/v.abc
+S:http://www2.redhawk.org:8080/irish/zouki/v.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/v.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

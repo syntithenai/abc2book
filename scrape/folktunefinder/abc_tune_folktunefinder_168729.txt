@@ -1,0 +1,26 @@
+X: 102051
+T: Jolly Old Jim
+C: BB 12/05
+N: 214
+N: MIDI file: www.Qmcorp.net/tunes_online/214jolly/214.mid
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: D
+A | "D" dcd "Bm" Bcd | "D" ABA AFD |"D" dcd "G" BGB | "A7" AGF E2 E |
+"Bm" DFB "D"AFD | "G"GFG Bcd |"D" ABA "A7" GFE | "D" FDD "D" D2 :|
+A | "D" dcd fed | "Bm" fef fga |"G" bag "D" fed | "Em" Bef "A" e2 e |
+"D" dcd fed | "Bm" fef fga |"G" bag "D" fgf | "A" ece "D" d2 :|
+S:https://www.folktunefinder.com/tunes/168729
+S:http://www.qmcorp.net/tunes_online/214jolly/214.abc
+S:http://www.qmcorp.net/webabc/j/102051.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

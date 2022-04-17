@@ -1,0 +1,19 @@
+X:1
+T:A Fool Such As I
+M:4/4
+L:1/4
+K:A
+ C E| A2 B c| G =F B A| ^F A, D F| E2 A, B,| C2 =C ^C| F- E D C| B,4-|\
+ B, z F G| A2 B c| G =F B A| ^F A, D F| E2 A, B,| C2 =C ^C| D2 C B,|\
+ A,4-| A, z E =F| ^F2 G A| B2 A F| E A A, B,| C2 z C| B, G E B,| A, F ^D B,|\
+ E F =D C| B,2 C E| A2 B c| G =F B A| ^F A, D F| E2 A, B,| C2 =C ^C|\
+ D2 C B,| A,4-| A, z||
+S:https://www.folktunefinder.com/tunes/158889
+S:http://back.numachi.com:8000/dtrad/abc/FOOLSUCH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

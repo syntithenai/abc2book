@@ -1,0 +1,26 @@
+X: 1
+T: I Leave You To Guess
+B: O'Neill's 264
+N: "Slow"
+N: "Collected by J.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: The notes don't add up in bar 2.
+M: 5/4
+L: 1/8
+K: D
+D FA \
+| d3e fd A3 (F/A/) | G3E FDz D2FA | d3e fd A3 (F/A/) | G3c edz ||
+M: 6/8
+|| "Lively"D \
+| F2F F2F | EFE E2F | D2D D2F | A3 d3 \
+| F2F F2F | EFE E2F | D2F A2F | D3 D2 ||
+S:https://www.folktunefinder.com/tunes/166091
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ILeaveYouToGuess.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 5/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

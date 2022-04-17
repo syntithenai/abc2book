@@ -1,0 +1,25 @@
+X: 1
+T:The Errant Apprentice
+M:6/8
+L:1/8
+Q:90
+C:Words: Bill Watkins, Music: Andy M. Stewart/Gerry O'Beirne
+K:G
+(DE)F |"G"G2 G G2 G|"G/C"E2 G z2 E|"G"D2 B, A,2 B,|"G-C"A,2 G, E,2 D,|"G
+" G,2 A, B,2 C|"Bm" D2 B, z DE|"Em" G2 E "D" D2 E|"C"G3 z (BA)|"G"G2 G G
+2 D|"G/C"E2 G2 GE|"G"D2 B, A,2 B,|"G/C"A,2 G, z G,G,|"G"G,2 G G2 G|"G/C"
+E2 G z GE|"D"D2 B, A,2 G,|"G"(G,3G,)GG|G2 B A G2|"D"F/2G/2 A2 z FD|"A"E2
+ E E2 D|"C"E/2F/2 G2 z GA|"G"B2 A "Em"G2 E|"Bm"DB,(G, "C"G,2) A,|"G"B,2
+D D2 E|"D"(A,3 A,3|A,3 A,2) B,|"G"F,2 F, F,2 F,|"Em"(F,/2G,/2) (B,2 B,2)
+ D|"C"E2 E E2 D|"Am7"(E/2F/2) (G2 G2) A|"G"B2 A G2 d|"Em"(B/2A/2A)(G G2)
+ D|"C"E2 "D"G G2 {F}G|"G"(G3 G3|G3)
+% Output from ABC2Win  Version 2.1 i on 4/22/2000
+S:https://www.folktunefinder.com/tunes/156359
+S:http://andymstewart.com/errant-app.abc
+S:http://www.andymstewart.com/errant-app.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

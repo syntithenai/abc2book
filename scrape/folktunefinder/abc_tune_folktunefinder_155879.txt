@@ -1,0 +1,54 @@
+X: 1
+T: Ekkol\aaten
+C: Egil Storbekken
+R: shottish
+M: 2/4
+L: 1/16
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+%%continueall 0
+K: C
+V: 1 achords=1
+a/g>f "A"\
+|  "C"e2eg G>GcB | "F"A2Ac "Dm"F>FBA \
+| "G7"G2dc B2ed  | "C"e2a2    g>ag>f \
+|  "C"e2eg G>GcB | "F"A2Ac "Dm"F>FBA |
+| "G7"G2dc B2ed  |1 "C"c4- c3/2 :|2 "C"c4- c2 gf \
+"B"\
+|:  "C"e2gf e2gf | efed     cdcB \
+|   "F"A2cB A2cB | ABAG "Dm"FGFE | "G7"D3E  F2G2 |
+|1  "G7"B3c d2de | f2fd B2G2 | "C"c3d e2gf \
+:|2 "G7"B3c d2de | "C"e2g2 "G7"fdBd | "C"c4- c2 g2 \
+"C"\
+|: "C"e6 G2 | c6 G2 \
+| c2d2 e2f2 |
+| "G7"e2d2 f2 a2 | f6 B2 \
+|1      d6 G2 |    G2B2     d2f2 | "C"f2e2 g2 g2 \
+:|2 "G7"d6 f2 | "C"e2g2 "G7"fdBd | "C"c4   z |]
+V: 2 achords=1
+f/e>d "A"\
+|  "C"c2G2 E2EG | "F"F2F2 "Dm"A3F \
+| "G7"G2BA G2GF | "C"E>Gcf e>fe>d \
+|  "C"c2G2 E2EG | "F"F2F2 "Dm"A3F \
+| "G7"G2BA G2GF |1 "C"E4-  E3/2 :|2 "C"E4- E2 ed \
+"B"\
+|: "C"c2ed cGEG | GAGF EFEG \
+|  "F"F2AG F2AG | F4 "Dm"D2FG | "G7"B4 B4 \
+|1  "G7"G4 G4   | G4 G2F2 | "C"E3F Gced \
+:|2 "G7"G4 B2G2 | "C"Gce2 "G7"GBGF  | "C"E4- E2z2 \
+"C"\
+|: "C"z2 g2e2 z2 | z2 G2c2 z2 \
+| E2F2 G2A2 | "G7"G2B2 G2z2 \
+| z2 a2f2 z2 \
+|1      z2 B2d2 z2 |    f2d2     B2G2 | "C"B2c2 e2z2 \
+:|2 "G7"z2 B2d2 z2 | "C"c2e2 "G7"dBGF | "C"E4   z |]
+S:https://www.folktunefinder.com/tunes/155879
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Ekkolaten_C.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

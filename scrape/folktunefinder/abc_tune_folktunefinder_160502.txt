@@ -1,0 +1,21 @@
+X:66
+T:Garrett Barry's
+R:jig
+Z:id:hn-jig-38
+M:6/8
+K:Dmix
+DEF ~G3|AGE c2A|dcA d2e|fed cAG|~F3 GFG|AGA cde|dcA GEA|1~D3 D2A:|2~D3 D2d||
+|:dcA d2e|fed efe|dcA c2d|egc edc|dcA d2e|fed efe|dcA GEA|1~D3 D2d:|2~D3 D2A||
+S:https://www.folktunefinder.com/tunes/160502
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/GarrettBarrys.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/Garrett_Barrys_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/rigel.csuchico.edu/GarrettBarrys.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

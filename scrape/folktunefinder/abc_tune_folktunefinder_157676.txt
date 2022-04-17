@@ -1,0 +1,23 @@
+X: 1
+T: the Fiddlers' Welcome to Los Angeles
+C: Colin Gordon
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: AB || "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB | "A"c2BA "F#m"e2dc | "Bm"c2B2 "E7"B2AB |
+y8 | "A"c2BA {g}a2e2 | "D"fgaf "E7"e2AB | "A"c2e2 "E7"efed | "A"c2A2 A2 :|
+|: fg || "F#m"agfa "E"gfeg | "D"fedf "E7"e2AB | "A"c2e2 "F#m"efeA | "Bm"c2B2 "E7"B2AB |
+y8 | "A"c2BA {g}a2e2 | "D"fgaf "E7"e2fg | "F#m"a2A2 "E7"B2AB | "A"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/157676
+S:http://trillian.mit.edu/~jc/music/book/500/FiddlersWelcomeToLosAngeles.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

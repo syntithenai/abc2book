@@ -1,0 +1,48 @@
+X:1
+T: Gallant Hussar
+C: Trad.
+Z: From Barrand 
+H: A and B parts from Bledington version as shown in Bacon.
+M: 6/8
+L: 1/8
+K: G
+P:A
+D | G2 B ABc | dBe c2 A | GAB cBd | G3 F2 D |
+ G2 B ABc | dBe c2 A | GAB cBd | G3 G2 ||
+P:B
+B/c/ | dBd g2 g | ecA c2B | ABc dBA | G3 F2 D |
+ G2 B ABc | dBe c2 A | GAB cBd | G3 G2 ||
+P:C
+z | \
+M:3/8 
+L: 1/8
+B2c | \
+M:6/8 
+d2 c B2 d | \
+M:3/8
+L:1/8
+g2 g |  \
+M:6/8 
+ecA c2 z | 
+M:3/8
+L:1/8
+c2 B | \
+M:6/8 
+A2 B c3 |  \
+M:3/8
+L:1/8
+d2 d | \
+M:6/8 
+G3 F2 D |
+ G2 B ABc | dBe c2 A | GAB cBd | G3 G2 ||
+S:https://www.folktunefinder.com/tunes/159774
+S:http://tomkeays.com/morris/tunes/withington/withington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has history text
+% Has_accompaniment_chords No chords

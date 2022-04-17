@@ -1,0 +1,25 @@
+X: 1
+T: Pr\"astens lille kr\aaka
+T: Grannens gamla kr\aaka
+R: masurka
+S: Forsmark III
+M: 3/4
+L: 1/8
+K: C
+|: "C"c>B c>d e>d | "F"A^G AB c>A | "C"G>G G>G "G7"AF | F2 "C"E2 z2 :|
+w: Pr\"as-tens lil-le kr\aa-ka skul-le ut att \aa-ka; in-gen ha-de hon som k\"or-de.
+|: "C"[E2G2] G>G G2 | "F"[F2A2] A>A A>A | "G7"[G2B2] B>G A>B | "G7"d2 "C"c2 z2 :|
+w: \"An bar det hit, \"an bar det dit, och s\aa bar det ner i di-ket.
+%P: Second melody:
+%K: G
+%|: gf ga ba | gf ef ge | dB GA Bc | e2 d4 :|
+%|: Bd Bd Bd | ce ce ce | gf de fg | ((3aba) g4 :|
+S:https://www.folktunefinder.com/tunes/162123
+S:http://trillian.mit.edu/~jc/music/abc/Scand/barn/Prastens_gamla_kraka_Cw.abc
+% Rhythm Masurka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T:Johnny Cope
+M:4/4
+L:1/8
+R:March
+K:Gm
+DF|"Gm"G3 G G2 Ac|"Gm"d3 G G2 F<D|"F"F2 F2 F<G AB|"F"c<d cB A2 GF|"Gm"B3
+ B c2 c2|
+"F"d2 f2 A2 GF|"Gm"G2 g2 "D"dc BA|"Gm"G4 G2:||:GA|"Bb"B2 B<B BF DF|"Bb"B
+c d<e f2 cB|
+"F"A2 G<F c2 F2|"F"AB cd c2 BA|"Gm"BA Bc dc df|"Bb"fd cB "F"A2 GF|
+"Gm"G2 g2 "D"dc BA|"Gm"G4 G2:||
+S:https://www.folktunefinder.com/tunes/168405
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/jo/Johnny_Cope_2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

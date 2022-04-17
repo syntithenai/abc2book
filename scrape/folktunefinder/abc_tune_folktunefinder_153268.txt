@@ -1,0 +1,34 @@
+X: 3
+T: Old French
+I: Old FrenchR-6Dreel
+%C: R-6
+%C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+(3ABc|: \
+"D"d2cd BdAF | DFAd f2ed| "A"cdef gece| "D"defd A2 (3ABc|
+"D"d2cd BdAF | DFAd f2ed| "A"cdef gece|1 "D"d2f2 d2 (3ABc :| \
+                                      [2 "D"d2f2 d2 |]
+|:\
+cd| "A"efed c2A2| AEAc e2dc| "G"BGBd gfed |1 "A"cAce a2 :|2 "A"c2A2 A2 |]
+|:\
+cd| "A"efed c2A2| AEAc e2dc| "G"BGBd gfed |1 "A"cAce a2 :|2 "A"c2A2 B2c2 |]
+%%text Roaring Jelly R-6
+%%text 1/28/02
+% %%newpage
+%%leftmargin     3.0cm
+%%staffwidth     15.50cm
+S:https://www.folktunefinder.com/tunes/153268
+S:http://roaringjelly.org/music/sets/Set65.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set65.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set65.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

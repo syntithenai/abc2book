@@ -1,0 +1,38 @@
+X:1
+T:Dour\'o dunque morire
+C:Giulio Caccini
+Z:abc transcription Taco Walstra (walstra@wins.uva.nl)
+Z:first version based on SPES facsimile edition
+Z:second version based on A Musical Banquet (Robert Dowland),
+Z:facsimile Performers Edition, Broude Brothers
+L:1/4
+M:C
+K:Dm 
+%%tabrhstyle modern
+%%indent 1.5cm
+%%barnumberfont Times-Italic 10 box
+%%wordsfont Times-Italic 10
+%%
+V:F clef=treble name=Voice
+V:B clef=frenchtab name=Lute
+%staff1
+[V:F]B C d3 d2 G | G4 A4 | d A/A/ c > G B ^F A > E |
+w:Dou-r\'o dun-que mo-ri-re Pria-che di nuovo io mi-ri, Voi bra-
+[V:B][aa,c1] ,,,e [,dff] [a,,e/] ,,,c [ca,b2] [,abc]|[,a,ce2] ,,e1 a [,efec4] |\
+[,df,c2] [,cd,,c1] [,cd,a] [,abc,a] [,aa,c] [,,eeec] ,,,e|
+%staff2
+[V:F]G D/D/ F1 > F A1 > E E2 | D4 d > c B2 | A1 > F G2 A2 A G/^F/|
+w:ma-ta ca-gion de miei mar-ti-ri mio per-du-to te-so-ro non po-tr\'o
+[V:B][,abc,a2][,aa,c1] ,,,a [,,f,ec2] ,,e1 ,,,c | [,aabc4] [,dff1] [,d,e] [,d,c] ,c |\
+[,dda1] [,,b,c/] ,a [,a,cd1] ,,d/ a [,efec2] [,aabc] |
+%staff3
+[V:F]G D E G c2 A A | d2 =B B (d4 | d4) A4 =B4 d3 G |
+S:https://www.folktunefinder.com/tunes/154085
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Caccini_G/douro_morire.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Caccini_G/douro_morire.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:23
+T:Georgiana Moon
+O:Bluegrass
+B:The Fiddler's Fakebook
+Z:chords modified by MB
+R:Waltz
+M:3/4
+L:1/8
+K:Bb
+B df \
+|:"Bb"b6|"F"a6|"Eb"g3 f dB|"Bb"F4 z2|g2 f2 d2|B4 c2|"F"c4-cd|c4 z2|
+| "F"a6|"Eb"g6|"F"f3 d cA|F3 F Af|c3 =B cf|"Bbm"_d3 F "F"Ff|"Bb"=d4-de|d4 z2|
+| "Bb"b6|"F"a6|"Eb"g3 f dB|"Bb"F3 E DF|B3 F Bd|"Bb7"c3 B Bb|"Eb"g3 e "(Gm)"(3dgd|
+|"Cm"c4 B2|"Eb"b3 g eB|"Ebm"_g6|"Bb"f3 d BG|"G"e3 f ff|"C"d3 c AF|"F"d3 c AF|
+|1 "Bb"B3 D GG|"F"F3 B df :|2 "Bb"(3BAB (3d^cd (3f=ef| [d6b6] |]
+S:https://www.folktunefinder.com/tunes/160816
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/GeorgianaMoon_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/MosheBraner/GeorgianaMoon_Bb.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

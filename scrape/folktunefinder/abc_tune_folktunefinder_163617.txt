@@ -1,0 +1,20 @@
+X:1
+T:Have a Nice Day
+M:4/4
+L:1/4
+K:C
+ D| D3/2 E/2 F E| D D C A| A c d c| A2 z| c| d c A3/2 G/2| F D A F|\
+ D F E D| C2 z| D| D E F E| D D C A| A c d c| A2 z| c| d3/2 c/2 A G|\
+ F D A F| D F E C| D2| A/2A/2 c| d4-| d z e/2d/2 c| A2 z c| d c A G|\
+ F D A F| D F E D| C2 z D| D E F E| D C2 A| A c d c| A2 z c| d3/2 c/2 A G|\
+ F D A/2G/2 F| D4-| D z z||
+S:https://www.folktunefinder.com/tunes/163617
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/NICEDAY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

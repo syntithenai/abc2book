@@ -1,0 +1,28 @@
+X:01
+T: Galway Bay
+S: Kane Sisters, The Well Tempered Bow
+M: 4/4
+L: 1/8
+Z: Contributed 20040218231811 by Zina Lee zlee@ntw.net
+K: G min
+GA|B3 c dcdg|{a}g2 dg ga (3bag|fdbg fdcd|{d}BAGA GFD2|
+|G3 A B3G|FCFG AGF{GF}D|GABc dcBA|(3BcB G2 G3 A|
+|BABc dcdg |{a}g2 dg ga(3bag |fdbg fdcd|BAGA GFD2|
+|DFGA BABG |FCFG AGF{GF}D|GABc dcBA|(3BcB G2 G3 g||
+|gfdf gabg|gfde dBGA|BFBc df (3=efg|fcdB AGFA|
+|BGdB AFcA|BfdB Acfc|dfga bagf|d2 g2 g3  g:||
+final ending: |dfga bagf|dcBA G4 ||
+S:https://www.folktunefinder.com/tunes/159887
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/GalwayBay.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GalwayBay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/zlee%3Antw.net/GalwayBay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/GalwayBay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:91
+T: Verschlafener Jaeger
+N: Q0152H
+O: Mitteleuropa, Oesterreich / Italien, Sued - Tirol, Feldthurns
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 3/8
+L: 1/16
+K: G
+BB | B2A2G2 | G2F2G2 | A2F2
+c2 | c2B2A2 | A2G2A2 | B2G2
+d2 | B2B2B2 | B2A2G2 | d4
+c2 | B2B2B2 | A2A2A2 | G4
+S:https://www.folktunefinder.com/tunes/153044
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

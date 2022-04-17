@@ -1,0 +1,24 @@
+X:1
+T:Suite d'en dro
+M:4/4
+L:1/8
+K:Emin
+||:&quot;Em&quot;EB BA/B/ &quot;D&quot;cB AF/G/|&quot;C&quot; AF BA/G/ &quot;B7&quot;FE FG|
+|  &quot;Em&quot;EB BA/B/ &quot;D&quot;cB AF/G/|&quot;C&quot; AF BA/G/ &quot;B7&quot;F/E/F/G/ E2:||
+||:&quot;Em&quot;EE/E/ &quot;D&quot;FF/F/ &quot;Em&quot;EE/E/ &quot;D&quot;F>G|AF &quot;E&quot;BA/G/ &quot;D&quot;FE/F/ &quot;E&quot;GF|
+|  &quot;Em&quot;EE/E/ &quot;D&quot;FF/F/ &quot;Em&quot;EE/E/ &quot;D&quot;F>G|AF &quot;E&quot;BA/G/ &quot;D&quot;F/E/F/G/ &quot;E&quot;E2:||
+||:&quot;Em&quot;EG/A/ &quot;G&quot;B>A &quot;Bm&quot;Bd &quot;Em&quot;e2|ed/c/ &quot;Bm&quot;B>A &quot;D&quot;FA &quot;Em&quot;GF|
+|  &quot;Em&quot;EG/A/ &quot;G&quot;B>A &quot;Bm&quot;Bd &quot;Em&quot;e2|ed/c/ &quot;Bm&quot;B>G &quot;D&quot;FG &quot;Em&quot;E2:|
+||:&quot;Em&quot; B/c/B/A/ &quot;D&quot;FF/A/ &quot;Bm&quot;FF/A/ &quot;Em&quot;BG | B/c/B/A/ &quot;D&quot;FF/A/ &quot;Bm&quot;Bd &quot;Em&quot;BA|
+|  &quot;Em&quot; B/c/B/A/ &quot;D&quot;FF/A/ &quot;Bm&quot;FF/A/ &quot;Em&quot;BG | B/c/B/A/ &quot;D&quot;FF/A/ B/A/G/F/ &quot;Em&quot;E2:||
+S:https://www.folktunefinder.com/tunes/154512
+S:http://www.thesession.org/tunes/display/7739
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

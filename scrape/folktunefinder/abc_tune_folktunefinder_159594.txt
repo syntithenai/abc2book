@@ -1,0 +1,23 @@
+X:3
+T:Progress March
+M: 6/8
+L: 1/4
+Q: 1/4=200
+K: G
+ g3/2e3/2 | dB/2cd/2 | ez/2(f3/2 | g)z/2dc/2 |: B3/2B3/2 | B3/2B3/2 | Bc/2d3/2- | dz/2ef/2 | g3/2f3/2 | e3/2d3/2 |
+ c3- | cz/2ed/2 | c3/2c3/2 | c3/2c3/2 | cd/2e3/2- | ez/2fe/2 | d3/2d3/2 | e3/2d3/2 |1 B3- | Bz/2dc/2 :|2 g3- | gz/2gz/2 |
+K: C
+ |: c3 | d3 | ef/2g3/2- | g3/2f3/2 | e3 | d3 | c3- | cz/2A3/2 | d3 | e3 | fg/2a3/2- | a3/2g3/2 |
+ f3 | e3 | d3- | dz/2ef/2 | g3/2g3/2 | g3/2f3/2 | ef/2g3/2- | g3/2g3/2 | a3/2a3/2 | a3/2g3/2 |
+ fe/2d3/2-| dz/2G3/2| c3 | d3 | ef/2g3/2- | g3/2f3/2 | e3 | d3 |1 c3- | cz/2G3/2 :|2 c3- | c z/2z|]
+S:https://www.folktunefinder.com/tunes/159594
+S:http://homepages.inf.ed.ac.uk/s0570628/Music/lesson%2025.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

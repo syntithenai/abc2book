@@ -1,0 +1,21 @@
+X:1
+T:Der Winter ist ein strenger Gast
+T:(vierstimmiger Satz, Text)
+C:Melodie und Text nach einem Volkslied
+C:Satz von Michael Praetorius (1571-1621)
+Z:Laurenz Wiskott 2003-05-25
+M:3/4
+L:1/4
+Q:180
+K:F
+%%staves [1 2 3 4]
+%
+V:1 clef=treble
+G | G2 G | d2 d | (d> c) B | A2 G | c2 c | d2 c | (B A2) | G2
+S:https://www.folktunefinder.com/tunes/153139
+S:http://itb.biologie.hu-berlin.de/~wiskott/Music/Deutscher_Folk/Der_Winter_ist_ein_strenger_Gast.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

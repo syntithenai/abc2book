@@ -1,0 +1,31 @@
+X: 1
+T:Klezmer(Am)
+M:2/4
+L:1/8
+Q:1/4=100
+O:Israeli
+K:Am
+K:Am
+|:"Am"A2 c2|e2  dc|A2 c2|"Em"B2 "Am"E2|A2 c2|e2 "Dm"dc|"Bbm"gg "Dm"ff|"A
+m"e4|
+"Dm"d2 f2-|ff "Am"ed|a2 A2-|Ac "Dm"BA|"Am"AE Ac|ee "Dm"dc|dd "Am"cB|A4:|
+"Am"ae ee|"Dm"fe "Am"ee|ae ee|"Dm"fe "Am"ee|"Dm"a2 "Bbm"g2|\
+"Dm"f2 "Am"e2|"Dm"dd d/e/f/e/|d2 de|
+"Am"cece|"Dm"d3 d|Ad Ad|"Am"c2 c2|"Dm"gf "Am"ed|cd cB|"Dm"A4|
+K:Dm
+|:"Dm"z A,B,A,|D2 F2-|F A GF|D2 F2|E2 CA,|D2 F2-|F AGF|"Am"cc BB|
+"Am"A4|"Bbm"G2 B2-|Bd cB|"Dm"dd D2-|"Dbm"D G"Abm"FE|"Db"DA, DF|\
+"Ab"AA "Eb"GF|"Bbm"GG "Dm"FE|"Dm"D4:|
+"Dm"dA AA|BA A2|dA AA|BA A2|d2 "Am"c2|"Gb"B2"Am"A2|\
+"Em"GG "Am"G/A/B/A/|"Em"G3 A|"Db"FA"Ab"FA|
+"Eb"G3 G|"Bbm"DG DG|"Dm"F4|"Am"cB "Dm"AG|"Dm"FG FE|"Dm"D4|
+S:https://www.folktunefinder.com/tunes/170293
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/kl/Klezmer_Am_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/kl/Klezmer_Am_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

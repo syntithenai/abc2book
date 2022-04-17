@@ -1,0 +1,25 @@
+X:14
+T: Das mannstolle Maedchen
+N: Q0126A
+O: Mitteleuropa, Luxemburg
+R: Ballade, Werbung, Betrug
+M: 2/4
+L: 1/8
+K: G
+D2 | G3F | G2AB | G2GF | G2
+c2 | B2AB | G2B2 | A4 | z2
+AB | c3B | ABcA | B3G | A2z2
+B2AG | FEDE | F2
+G2 | FEDE | F2
+S:https://www.folktunefinder.com/tunes/151936
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, werbung, betrug
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

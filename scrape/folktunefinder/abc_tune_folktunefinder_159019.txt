@@ -1,0 +1,26 @@
+X:1
+T:Hey to Cupar
+T:Found in The Gow Collection of Scottish Dance Music
+C:Traditional
+R:jig
+G:fiddle jig, early 18th cent.
+M:6/8
+Q:3/8=120
+K:D
+%%MIDI gchord cccccc
+A,| "D"DED "Bm"F2G| "A"A2d "D"AFD| "G"G2e "Bm"F2d| "D"EFD "A"CB,A,| 
+"D"DED "Bm"F2G| "A"A2d "G"BAG| "Bm"FdF "A"Edc| "D"d3 D2 :|
+%
+A| "D"ded "Bm"f2g| "A"a2g "D"fed| "Em"BcB "D"c2d| "G"efd "A"cBA| 
+"D"ded "Bm"f2g| "A"a2g "D"fed |[1 "G"B/c/dB "A"c/d/ec| "D"d3 D2:|[2 "G"Bgf "A"edc| "D"d3 D2|]
+S:https://www.folktunefinder.com/tunes/159019
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/HeyToCupar.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/HeyToCupar.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

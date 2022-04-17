@@ -1,0 +1,24 @@
+X:1
+P: Morpeth Rant
+C: from R. Miller/New England Fiddlers Repertoire
+C: Arr. T. Traub 8-10-03
+R: reel
+M: 4/4
+K: D
+L: 1/8
+|: A2|"D"d2 AG FDFA|"G"BGBd "A"cAce|"D"f2 fd "G"gfed|"A"c2 e2 e2 (3ABc|"D"d2 AG FDFA|
+"G"BGBd "A"cAce|"D"f2 fd "G"gfed|"A"A2 d2 "D"d2 :||: A2|"D"dfaf dfaf|"Em"gfef g2 ef|
+"A7"gfed cdeg|"D"fefg f2 fe|"D"dfaf dfaf|"G"gfef g2 ef|"Em"gfed "A"caag|"D"f2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/157244
+S:http://terrytraub.org/abc/ReelSet3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/ReelSet3.abc
+S:http://terrytraub.org/abc/MorpethRantR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MorpethRantR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X: 1
+T:Jockey to the Fair
+M:6/8
+C:
+S:Bacon (RD ex Blunt)
+N:
+A:Adderbury
+O:English
+R:Jig
+L:1/16
+I:speed 600
+K:G
+P:A
+D2 | G4 A2   B4 c2  | d4 g2  d4 c2 | B2d2G2 G2F2G2  | A2c2B2 A4 \
+A2 | A2B2^c2 d2e2f2 | f2a2f2 d4 g2 | f2e2d2 A2B2^c2 | d6     d4 ||\
+P:B
+d2 | g4 d2   g4 d2  | c2B2c2 B4 d2 | dg3 d2 dg3 d2  | c2B2c2 B4 \
+d2 | e4 f2   g3fe2  | d2c2B2 A4 d2 | e3dc2  B4 A2   | AB3 G2 E4 \
+F2 | G4 G2   G3Bd2  | e4 f2  g3fe2 | d3BG2  B4 G2   | E4 F2  G4 \
+A2 | B2c2d2  c2B2A2 | G6 G4 ||
+S:https://www.folktunefinder.com/tunes/168007
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/jo/Jockey_to_the_Fair_4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

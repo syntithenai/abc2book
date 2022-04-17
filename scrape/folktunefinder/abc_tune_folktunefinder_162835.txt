@@ -1,0 +1,72 @@
+X:1
+T:Haest uw' o Herderkens
+C:Anonymous, ca. 1645
+C:B.c. lute version: Jelma van Amersfoort
+Z:This music has been printed in 'De Tabulatuur' dec. 1999
+Z:Orig. music edition (without lute) KVNM, Utrecht
+Z:abc version Taco Walstra, dec. 2000
+L:1/4
+M:C|
+K:Cm
+%%indent 1.5cm
+%%barnumberfont Times-Italic 10 box
+%%wordsfont Times-Italic 10
+%%tabrhstyle modern
+%%
+V:F clef=treble 
+V:B clef=bass 
+V:L clef=frenchtab
+%1
+[V:F] z/ G/G/ G/ c B/ B/ | E F/G/ G2 |z/ G/ G/A/ B G/G/| F F/E/ E2 |
+[V:B] c c/c/ c G | "5"A "6"A/G/ G2 | z/ e/e/e/ d e | B > E E2 |  
+[V:L] [,bdca1] [,bd,a/] [,bd,a] [,bd,a1] [,ab,,a] | [,,dd,b] [,,d,,b/] [,a,,,a]\
+    [,ad,,a1] ,,c | z/ ,,,,d/ [,bbcd] ,,,,d [,db,c1] [,bb,d]|\
+    [,ab,,d1]>,,,,d [,bbcd2]|
+%2
+[V:F] F F/F/ G E/E/ | D2 C2 :: C/D/ E/D//C// B G | c E/F/ G2 |
+[V:B] B B/B/ e c | G2 c2 :: c c G G | "5"A > "6"A G2|
+[V:L] [,aba,d1] [,ab,,d/] [,ab,,d] [,bb,d1] [,bd,a] | [,adc,a1] ,,c [,cdca2] ::\
+    [,bdca1] [,,d,a] [,abc,a] [,,b,,a] | [,,dd,b1] > [,a,,,b] [ad,,a1] ,,c |
+%3
+[V:F] z/ c/ c/c/ B G | F > E E B/>A/ | G/G/ F/>E/ D2 | z/ F/ F/G/ C/D/ E/F/ | \
+    D > C C2 ::
+[V:B]z/ c/c/d/ e e | B > E (E2 | E) "6"F G > =A| B B c C | G > C C2 ::
+[V:L]z/ ,,,,a/ [,bd,a] ,,,,c [,bb,d1] ,,,,d | [,ab,,d1] > ,,,,d [,bbcd2] |\
+    z1 [,a,a1] [,acc] ,,,,,a/ ,,,,,c | [,aba,d1] ,,,,,d [,bd,a] ,,,,a | [aad,,a1]\
+    ,,c/ ,,,,a [,cd,a2] ::
+W:
+W:Haest uw' o Herderkens, comt uyt den Stal,
+W:Siet de dry Coninghen met groot ghetal,
+W:Comen dit Kintjen aenbidden.
+W:Siet de Sterre blijft staen recht boven den stal,
+W:De Kemels knielen 't haest hem al,
+W:Men bereyt tot offerhand',
+W:Gout Myrr' en Wierook wt rijck mooren landt
+W:
+W:Maria neemt Jesus op haeren schoot
+W:De Coninghen die ontdecken haer hooft,
+W:Knielen en doen offerhanden.
+W:'t Cleyne Kindeken lacht haer vriendelijck aen.
+W:Het grabbelt in de goude schael,
+W:En  met sijn cleyn handeken,
+W:Geeft sijnen seghen aen de Coninghen.
+W:
+W:Daer naer het Kindeken kreegh grooten dorst,
+W:Het keert hem om naer sijns liefs Moeders borst,
+W:Siet het begint daer te suyghen.
+W:De dry Coninghen siende,
+W: 't suyghende kindt,
+W:Roepen met vreucht den Coningh drinckt,
+W:En alsoo met blij gheschal,
+W:Vertrecken haer uyt desen armen stal.
+W:  From: Cantiones Natalitiae, Koninklijke Vereniging voor Muziekgeschiedenis,
+W:  Utrecht, Netherlands
+S:https://www.folktunefinder.com/tunes/162835
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Christmas/haest.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Christmas/haest.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

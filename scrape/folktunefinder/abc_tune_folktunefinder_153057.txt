@@ -1,0 +1,23 @@
+X:104
+T: Verschlafener Jaeger
+N: Q0152U
+O: Mitteleuropa, Schweiz, Graubuenden
+N: Zugehoerigkeit zu dieser Balladengruppe ungeklaert.
+R: Ballade, Verfuehrung, 
+M: 2/4
+L: 1/16
+K: G
+G2 | G3BB2B2 | A3Bc3
+A | A3cc2c2 | B3cd3
+d | B4B2B2 | A2B2c2
+e2 | d2d2c2d2 | B4z2
+S:https://www.folktunefinder.com/tunes/153057
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung,
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+P: Harmony part
+R: Waltz
+M: 3/4
+K: Dm
+L: 1/8
+|: A2|F3 GAd|B3 AGF|E4 ^c2|d4 A2|d2 A2 F2|c2 G2 E2|D4 D2|^C2 D2 E2|
+F3 GAd|B3 AGF|E4 ^c2|d4 A2|F4 A2|d4 B2|A4 AG|F4 :|
+|: f2|fd AF Ad|fd AF Ad|f2 e3 d|^c4 e2|e^c AE Ac|e^c AE Ac|e2 f3 g|a4 f2|
+fd AF Ad|fd AF Ad|^f2 g3 a|g4 g2|g2 a3 g|f4 d2|^c2 AB AG|F4 :|
+S:https://www.folktunefinder.com/tunes/163385
+S:http://terrytraub.org/abc/HokpersValsW.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/HokpersValsW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

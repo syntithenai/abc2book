@@ -1,0 +1,26 @@
+X:1
+T:Detournement de (Mode) Mineur
+C:Thierry Mirebeau
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:Gm
+d2d | d2d | dcB | A3 |\
+^F/G/AG/A/ | BA/B/c |1 dcA | BA^F :|\
+                    [2 dAB | G3 ||
+|:\
+^F/G/=E/F/D/G/ | B2B | BAG | BBB |\
+^F/G/=E/F/D/G/ | B2B |1 BAG | ^F3 :|\
+                     [2 d/e/fB | A3 ||
+S:https://www.folktunefinder.com/tunes/153173
+S:http://simonwascher.info/TradArchiv_walzer/detournement_de_mode_mineur.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

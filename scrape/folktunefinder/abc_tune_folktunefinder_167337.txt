@@ -1,0 +1,25 @@
+X: 1
+T: Janine's Shell
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Cmaj
+|:C>DE>G c2 B>c|d>cB>c D>EF>D|
+C>DE>G c2 d>c|(3BcB (3ABA (3 GAG (3FED|
+C>DE>G c2 B>c|d>cB>c D>EF>D|
+C>DE>G c>GE>G|1F>DC>B, C2 E>D:|2F>DC>B, C3 D||
+|:E>GA>B (3AAA A>c|B>cd>e f>ed>c|
+E>GA>B (3AAA Ac|B>AG>B A2 A>G|
+E>GA>B (3AAA A>c|B>cd>e f>ed>c|
+E>GA>B (3AAA A>c|1B>AG>B A2 E>D:|2B>AG>B A2 E>D||
+S:https://www.folktunefinder.com/tunes/167337
+S:http://www.thesession.org/tunes/display/5579
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

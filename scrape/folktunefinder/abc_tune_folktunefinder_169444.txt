@@ -1,0 +1,17 @@
+X:1
+T:Keep on the Sunny Side  (#201)
+C:J Howard Entwisle
+M:4/4
+L:1/8
+K:D
+V:1 clef=treble
+|A3/2A/2|"D""^Verses"d2 d3/2e/2 f3/2d/2 B3/2d/2|A6 f3/2g/2|a2 a3/2a/2 a/2g3/2 d2
+S:https://www.folktunefinder.com/tunes/169444
+S:http://gulfweb.net:34043/~rlwalker/abc/keep.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/keep.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

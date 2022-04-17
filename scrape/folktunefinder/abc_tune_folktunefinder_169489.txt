@@ -1,0 +1,25 @@
+X:1
+T:Kemp's jig
+C:anon.
+O:England
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com abcusers 2002-3-1
+N:Slightly simplified version
+M:C
+L:1/4
+K:D
+"D"f>e f"A"e|"Bm"d>e d"A"c|"G"B"D"A "G"B"A"c|"D"d3z:|
+|:"D"fa fa|"D"fa/g/ f2|"C"eg eg|"C"ed/=c/ "G"B"A"^c|
+"D"dAFA dAFA|"G"B"D"A "G"B"A"c|"D"d3z:|
+S:https://www.folktunefinder.com/tunes/169489
+S:http://trillian.mit.edu/~jc/music/abc/England/misc/KempsJig_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/KempsJig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

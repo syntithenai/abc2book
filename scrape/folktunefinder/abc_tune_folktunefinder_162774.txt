@@ -1,0 +1,34 @@
+X: 1
+T: Gypsy
+C: Dave Tarras
+S: printed MS of unknown origin
+Z: 2007 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Dphr^F
+A (3AB^c \
+"A"\
+| "D"d2 A6 | "Gm"B3 A GF G^G \
+| "D"A2 F3 D FA | "Cm"c4 BA (3GFG | "D"A4 zA (3AB^c |
+| "D"d2 A6 | "Gm"B3 A GF G^G \
+| "D"A2 F3 D FA | "Cm"G2 F2 E2 F2 | "D"D4 z :|
+D FA \
+"B"\
+| "Cm"=B2 c2 c2 c2 | c4 z=B _BA \
+| "Gm"A2 B2 B2 B2 | B4 z A/B/ c/B/A/G/ |
+| "D"A2 F6 | "Cm"zd cB AG (3FG^G \
+| "D"A6 (3DFA | "Cm"=B2 c2 c2 c2 |
+| "Cm"e4 dc (3BAG | "D"A2 F3 D FA \
+| "Cm"G2 F2 E2 F2 | "D"D4 "fine"z |]
+S:https://www.folktunefinder.com/tunes/162774
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Gypsy_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Gypsy_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

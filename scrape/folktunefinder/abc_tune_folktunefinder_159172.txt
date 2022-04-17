@@ -1,0 +1,21 @@
+X: 1
+T: Frailach
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Amin
+^D2|&quot;Am&quot;EAcA Acec|&quot;Dm&quot;d2dc dec2|&quot;C&quot;cege cege|&quot;G7&quot;d2dc &quot;C&quot;dec2|
+ &quot;E7&quot;cddc cBB_B|&quot;Am&quot;A4 Adc2|&quot;E7&quot;cddc cBB_B|&quot;Am&quot;A6:|
+ |:e2 |&quot;Am&quot;a6 gf|e6 e2|aeae a2{ba}gf|e6 e2|
+ a6 g2|b6 a2|aeae &quot;Dm&quot;a2{ba}gf|&quot;Am&quot;e4 e2|
+ &quot;C&quot;cdef efef|efef &quot;Dm&quot;e2d2|&quot;Dm&quot;dAAd dAAd|dAAd &quot;C&quot;d2{ed}c2|
+ &quot;E7&quot;cddc cBB_B|&quot;Am&quot;A4 Adc2|&quot;E7&quot;cddc cBB_B|1 &quot;Am&quot;A2A2 c2:|2 &quot;Am&quot;A2z2 a2||
+S:https://www.folktunefinder.com/tunes/159172
+S:http://www.thesession.org/tunes/display/445
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

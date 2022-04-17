@@ -1,0 +1,29 @@
+X:1
+T:Kringpolka
+C:Trad.
+O:Deutschland
+Z:Bart Vanhaverbeke 
+P:ABC
+L:1/8
+M:2/4
+K:G
+P:A
+D | BB/^A/ B=A| GF GE | DE FG | ^GA AD | BB/^A/ B=A| GF GE | DE FG | G2 z :|]
+P:B
+K:D
+F2 A2 | f3 e | ed dc | cB B2 | E2 G2 | c3 B |1 BA AG | GF F2 :|2 BA Bc | d4 |]
+P:C
+K:G
+g>f ed | c/B/A/G/ FE | D2 c>B | A2 z2 | g>f ed | c/B/A/G/ FE |1 G2 Be | d2 z2 :|2 G2 B>c | G2 z2 |]
+S:https://www.folktunefinder.com/tunes/170567
+S:http://user.online.be/volksdans/abc/Kringpolka.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kringpolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

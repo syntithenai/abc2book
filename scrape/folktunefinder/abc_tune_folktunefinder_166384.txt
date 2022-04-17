@@ -1,0 +1,22 @@
+X:1
+T:yangIn olur biz yangiIna gideriz
+O:Turkish
+M:9/8
+L:1/8
+Q:1/4=120
+N: b-half-flat 
+K:C _b
+P:Intro
+GA/A/ Ac Bc A2G|A2B2d2c2B|cB BAA2-A3|
+P:Verse
+|:A3ee2(ed c)|d2e2(fg) (ed c)|(cB) (BA)A2-A3:|
+S:https://www.folktunefinder.com/tunes/166384
+S:http://www.khafif.com/rhy/abc/yangin_olur.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

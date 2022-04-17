@@ -1,0 +1,18 @@
+X:1
+T:Echo Canyon
+M:3/4
+L:1/4
+K:E
+ B,/2B,/2| B, E E| E F G/2G/2| B c3/2 B/2| B2 G/2G/2| G F F| A D D|\
+ E E E| G2 B,| B, E E| E FG/2-G/2| B c3/2 B/2| B2G/2-G/2| G F F| A D D|\
+ F E3/2 E/2| E2 E| A2 A| c- c c| c B3/2 G/2| B2G/2-G/2| G3/4 G/4 F F|\
+ A D D| E2 E/2E/2| G2 G| A2 A| c c c| c B3/2 G/2| B2 G/2G/2| G3/4- G/4 F F|\
+ A D D| F3/2 E/2 E| E2||
+S:https://www.folktunefinder.com/tunes/155581
+S:http://back.numachi.com:8000/dtrad/abc/ECHOCNYN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

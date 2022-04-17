@@ -1,0 +1,21 @@
+X: 16
+T:Kirkgate Hornpipe,The
+M:4/4
+L:1/8
+S:Kidson
+Z:C.G.P
+K:G
+g>d|:B2B2B>cA>B|G2G2G2B>c|d>Bd>B e>dc>B|c>BA>G F>AF>D|!
+B2B2B>d^c>e|d2d2d2a>g|f>af>d e>ge>^c||1d2d2d2g>d:|2d2d2d2A>B|| !
+:c2c2c2A>B|c>BA>G F2D2|d2d2d2e>f|g>fe>d c>BA>G|!
+e2e2e>gf>g|d2d2d>gf>g|d>Be>c B>AG>F||1G2B2G2A>B:|2G2B2G4||
+S:https://www.folktunefinder.com/tunes/170058
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/KirkgateHornpipeThe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

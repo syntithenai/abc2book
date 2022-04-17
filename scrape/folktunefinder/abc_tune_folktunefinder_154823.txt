@@ -1,0 +1,23 @@
+X: 2
+T: Trip to Dublin, The
+M: 4/4
+L: 1/8
+R: reel
+K: ADor
+|: cB |\ 
+ABcd e2 fe | dABG E2 Gc | A2 B/c/d efed | cAAG A2 cB |
+AEcE effe | dABG E3 G | ecdB cABG | c/B/A BG A2 :|
+|: B/c/d |\ 
+ecAc GcEc | dBAB GBdB | cAAG A2 c/B/c | ecED E2 cd |
+ec c/c/c Gc c/c/c | dB B/B/B G2 B/B/d |[1 A2 B/c/d efed | c/B/A BG A2 :|
+[2 ec d/c/B cA B/G/E | c/B/A BG A2 |]
+S:https://www.folktunefinder.com/tunes/154823
+S:http://www.thesession.org/tunes/display/8818
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

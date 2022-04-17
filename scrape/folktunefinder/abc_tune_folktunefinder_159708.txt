@@ -1,0 +1,23 @@
+X:1
+T:Le Gadeliderot
+C:Jean Duval
+M:2/2
+L:1/8
+R:reel
+K:D
+DFAd BGBG | ABAG F3D | EDEF GFGA | BAGF E3A | DFAd BGBG | ABAG F3D |1
+ DEFG EDCB, | CDEF D3A :|2 DEFG AGAB | cdef d3e |: fdAe fdAf |
+edef gece | fdAe fdAf | edcB A3A | Bdgd ceae | dfbf g2 fe |
+defg edcB |1 cdef d3e :|2 cdef d3c || cBcd edef | gfed e3d | cBcd edef |
+edcB c3A | cBcd edef | gfga e3d | cBcd edef | edcB AGFE |]
+S:https://www.folktunefinder.com/tunes/159708
+S:http://music.gordfisch.net/tradmusic/pub/cache/Le_Gadeliderot_4bca23.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

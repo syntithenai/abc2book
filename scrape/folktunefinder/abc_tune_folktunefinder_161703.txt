@@ -1,0 +1,29 @@
+X: 2
+T:THE GOLD RING
+M:6/8
+L:1/8
+R:JIG
+K:G
+d/2| "A"cAG GFG| cAG "G"G2 d| "A"cAG GFG| cAG "D"F2 d|
+"A"cAG GFG| cAG A2 G| "D"FGA fed| cAG "G"G2:|
+d/2| "A"cAd cAd| cAG "G"G2 d| "A"cAd cAd| cAG "D"F2 d|
+"A"cAd cAd| cAG A2 G| FGA fed| cAG "G"G2:|
+(3def| "G"gag gdc| BGG G2 d/2e/2| "D"fgf fcB| "Dm"A=FF F2 d|
+"G"gag gdc| BGG G2 d/2| "Dm"=fgf fed| cAGG "G"G2:|
+(3def| "G"gdd "D"fdd| "G"gdd "D"fdd| "G"gdd "D"fdd| cAG G2 (3d/e/f/|
+"G"gdd "D"fdd| "G"gdd "D"fdd| f/2g /2ag f2 d/2| cAG "G"G2:|
+D/2| "G"Gdd Gdd| "A"cAG "G"G2 A/2| B2 G/2 "A"A2 G/2| cAG "D"F2 A/2|
+"G"B2 G/2 "A"A2 G/2| "D"B2 G/2 "A"A2 G/2| "D"FGA fed| cAG "G"G2:|
+G/2A/2| "G"BGB "A"AGA| "D"DED FED| Add fed| cAG FGA|
+"G"BGB "D"AGA| DED FED| Add fed| cAG "G"G2:|
+G/2A/2| "G"BAB "D"DED| AFA DED| Add fed| "C"cAG FGA|
+"G"BAB "D"DED| AFA DED| Add fed| cAG "G"G2:|
+S:https://www.folktunefinder.com/tunes/161703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/GOLD_RING_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

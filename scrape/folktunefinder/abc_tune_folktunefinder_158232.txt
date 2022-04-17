@@ -1,0 +1,33 @@
+X: 9
+T: "Get on the Train" -- Jig
+R:reel
+C:FRANK LIVINGSTONE
+B:Ryan's Mammoth Collection
+N:114 644
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:A
+v."_P""^4"A2.G2 .A2.E2 | "_mf"Ac2f ecBA | "_p".B2.^A2 .B2.F2 |\
+"_mf"Bg2f edcB |
+"_p""4".A2.G2 .A2.E2 | "_mf"Bd2f ecBA | "_p".B2.^A2 .B2.F2 |\
+"_f"k(f2e)z "_ff"ku(=F2E)z :|
+|:v"_mf"(3ccc u(c>.f) vecBA | (3ccc c>f ecBA | "_ff"aa2f a4  |\
+"_p"AA2F A4  |
+"_mf"(3ccc c>f ecBA | (3ccc c>f ecBA | agae gfed |
+c"4"edB A2z2 :|
+|:"_mf""4"v.A2"_cres".G2 .A2.E2 | ((3A,CE (3Ac"4"e) "04"a4  |\
+.B2.^A2 .B2.F2 | ((3EGB (3eg"4"b) "04"e'4  |
+.A2.G2 .A2.E2 | .B2.^A2 .B2.F2 |\
+dg2f edcB |1 Az"_ff"(E2 =F2E2) :|2 A2 a2 A2z2 | |]
+S:https://www.folktunefinder.com/tunes/158232
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

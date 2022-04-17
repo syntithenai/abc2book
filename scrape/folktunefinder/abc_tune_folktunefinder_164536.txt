@@ -1,0 +1,26 @@
+X: 1
+T: Hole in the Wall
+R: minuet
+Z: John Chambers <jc@trillian.mit.edu>
+B: Playford Ball
+B: Douglas and Helen Kennedy, 1929
+M: 3/4
+L: 1/8
+N: Longways duple minor, (AAB)n
+K: F
+|: "F"A>B A/B/c "C7"Gc | "Dm"F>G F/G/A "A7"EA | "Bb"D>E D/E/F "F"CA | "C7"GF- FE "F"F2 :|
+[| "Dm"f>e d/e/f ed | "A7"^c>d c/d/e Ae | "Dm"f>e d/e/f ed | "A7"ed- d^c "Dm"d2 |
+| "Bb"D>E D/E/F "C7"E/F/G | "F"F>G F/G/A "C7"G/A/B | "F"A>B A/B/c Cc | "C7"BA- AG/A/ "F"F2 |]
+S:https://www.folktunefinder.com/tunes/164536
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/HoleInTheWall_F.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

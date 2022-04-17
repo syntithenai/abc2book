@@ -1,0 +1,26 @@
+X:31
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q0041M
+O: Mitteleuropa, Deutschland (BRD) , Rheinprovinz, Niederrhein
+N: "Loser Zusammenhang zur Ballade"
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 3/4
+L: 1/8
+K: A
+=G=cd | e2d=fed | =c3
+=Gcd | e2d=fed | =c3
+BAB | =cAdecB | A3
+GAB | =cAdecB | A2z
+S:https://www.folktunefinder.com/tunes/151560
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

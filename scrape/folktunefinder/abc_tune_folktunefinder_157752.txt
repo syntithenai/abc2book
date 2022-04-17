@@ -1,0 +1,30 @@
+X: 1
+T:Fig For A Kiss, A
+M:9/8
+L:1/8
+Q:100
+C:Traditional
+S:O 88
+R:Slip Jig
+N:First in set with The Butterfly and Swallowtail Jig
+Z:Donna Diekof
+K:Em
+"Em"G2B E2B BAG|"D"F2A D2F AGF|
+"Em"G2B E2B BAG|BdB "D"AGF "Em"~E3:|!
+||"Em"g2e g2e edB|"D"f2d d^cd fed|
+"Em"g2e g2e edB|"D"dBG GBd e2f|!
+"Em"g2e g2e edB|"D"f2d d^cd fed|
+"EM"gfe "D"fed "Em"edB|"Em"BdB "D"AGF "Em" ~E3||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/157752
+S:http://www.blackflute.com/music/tunes/slipjigs/fig.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

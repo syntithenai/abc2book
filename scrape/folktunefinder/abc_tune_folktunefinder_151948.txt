@@ -1,0 +1,27 @@
+X:26
+T: Das Maedchen und der Faehnrich
+N: Q0127G
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg, Charlottenburg
+N: Taktart entsprechend der Takteinteilung in 2/4 geaendert.
+R: Ballade, verbotene Liebe, Flucht
+M: 2/4
+L: 1/16
+K: G
+G2 | B2BAG2Bc | d2dcB2
+d2 | e2e2A2d2 | c4B2
+G2 | B2BAG2Bc | d2dcB2
+d2 | e2e2A2d2 | c4B2
+G2 | e3ce2ge | d3Bd2
+ed | c2cBc2d2 | c4B2
+S:https://www.folktunefinder.com/tunes/151948
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

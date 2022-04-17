@@ -1,0 +1,19 @@
+X: 1
+T: Up and Down Again
+S: O'Neill's
+M: 9/8
+L: 1/8
+K: G
+|: GAB ~E3 ~E3 | GAB ~E3 AFD | GAB ~E3 ~E3 | FED AdB AFD :||
+|: GAB BdB BdB | ~G3 BdB AFD | GAB BdB ~B3 | cBA AdB AFD :||
+S:https://www.folktunefinder.com/tunes/165628
+S:http://www.thesession.org/tunes/display/1023
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

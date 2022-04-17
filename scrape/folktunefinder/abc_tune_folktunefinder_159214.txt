@@ -1,0 +1,26 @@
+X: 1134
+T: The Laird o' Thrums
+C: J. Scott Skinner
+M: 4/4
+L:1/8
+R: Schottische / Strathspey
+K: A Major
+|: g | 
+(3agf (3.e.f.g a2 e>d | c<eA>a (cB) (B>g) |
+[1 (3agf .e.f.g a2 e>d | d>fB>e {cd}c>AA>g :|
+[2 (3.a.g.f (3.g.f.e (3.f.e.^d e>c | d<fB>e ({cd}cA)A ||
+c | 
+f2 c>f A>fc>f | (3cfg (3.a.g.f (3[cc']fg (3.a.g.f | 
+{^d}e2 B>e G>eB>e | (3Bef (3.g.f.e (3.b.e.f (3.g.f.e |
+a2 e>a c>eA>g | (3agf (3gfe (3fe^d (3e=dc | 
+(3def (3Bcd (3cde (3ABc | (3 def (3efg ({g}a2 a) |]
+S:https://www.folktunefinder.com/tunes/159214
+S:http://www.thesession.org/tunes/display/7284
+% Rhythm Schottische / strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

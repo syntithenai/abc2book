@@ -1,0 +1,38 @@
+X: 1
+T: John O'Shea's March
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+R: march
+|: BA |
+G2 B,C D2 E/F/G | A3 B d2 BA | G>E DE G2 G2 | G6 AB |
+c3 d e2 dc | B2 G2 A2 Bc | dc BG FD E^C | D6 A>B |
+c2 cd e2 dc | B3 G A2 Bc | d>c BG F>D E^C | D6 BA |
+G2 B,C D2 EG | A3 B d2 BA | GE DE G2 G2 | G6 :|
+K: Dmaj
+|: g/f/e |
+d2 FG A2 Bd | e2 ef a2 fe | dB AB d2 e2 | d6 d/e/f |
+g3 a bc'/b/ ag | f2 d2 e2 fg | ag f/e/d cA B/A/^G | A6 ef |
+g>d ga b2 ag | f2 d2 e2 fg | ag fd cA B^G | A>B AG A2 fe |
+d2 fg a2 B/c/d | e3 f ab/a/ fe | d>B AB d2 c2 | d6 :|
+K: Amaj
+|: cB |
+A2 cd e2 FG/A/ | B3 c e2 cB | AF EF A2 G2 | A6 Bc |
+d3 e f2 ed | c2 A2 B2 cd | e/f/e/d/ cA G/A/G/E/ F^D | E6 Bc |
+d2 Ad f2 ed | c2 Ac e2 B/c/d | ed cA GE F/E/^D | E2 ^D2 E2 cB |
+A2 CD E2 F/G/A | B3 c e2 cB | AF EF A2 A2 | A6 :|
+S:https://www.folktunefinder.com/tunes/168604
+S:http://www.thesession.org/tunes/display/4770
+% Rhythm March
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

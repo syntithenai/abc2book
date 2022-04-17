@@ -1,0 +1,25 @@
+X: 2
+T:Reel Saint Antoine
+M:C
+L:1/8
+R:Reel
+K:A
+e2 | "A" a2 a(a a)ece | "A" a2 a(a a)ece | "A" agfe dcBA | "E" GABc defg
+ |!
+"A" a2 a(a a)ece | "A" a2 a(a a)ece | "A" agfe dcBA | "E" GABG "A" A2 :|
+|!
+AB | "A" c2 c(c c)Bce | "A" dcBA GABc | "D" d2 d(d d)cdf | "E" edcB AAEA
+ |!
+"A" c2 c(c c)Bce | "A" dcBA GABc | "D" defg afed |1 "E" cABG "A"A2 :||2
+"E" cABG "A  last time" ABcd ||
+% Output from ABC2Win  Version 2.1 i on 2/4/2006
+S:https://www.folktunefinder.com/tunes/164673
+S:http://internet.cybermesa.com/~keating/music_abc/REELSTA.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

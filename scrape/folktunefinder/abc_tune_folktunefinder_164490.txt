@@ -1,0 +1,16 @@
+X:1
+T:Hobo's Lullaby
+M:4/4
+L:1/8
+K:D
+ d6 e f-| f2 A2 d2 c c-| c B3- B4| z8| g6 e c-| c2 A2 d2 d f-| f8|\
+ z8| d6 e f-| f2 f a- a2 g2| g B3- B4| z8| c6 B A-| A g3 f2 e d-| d8|\
+ z8|
+S:https://www.folktunefinder.com/tunes/164490
+S:http://back.numachi.com:8000/dtrad/abc/HOBOLULL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

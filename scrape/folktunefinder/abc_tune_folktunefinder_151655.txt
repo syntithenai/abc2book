@@ -1,0 +1,25 @@
+X:126
+T: Die elfjaehrige Markgraefin
+N: Q2053D
+O: Mitteleuropa, Niederlande, Ost - Flandern, Nevele
+N: Niederlaendische Fassung der Ballade.
+R: Ballade, Braut - Werbung, Hochzeit, Minderjaehrige, Tod
+M: 6/8
+L: 1/16
+K: G
+G2A2G2F2 | G4c2cdc2B2 | c4
+ccc2G2c2 | d2c2d2e2d2c2 | d6
+d2c2c2 | c2c2d2e4d2 | cBA4
+d3cBA | G4ABc4B2 | A2G2
+S:https://www.folktunefinder.com/tunes/151655
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, hochzeit, minderjaehrige, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

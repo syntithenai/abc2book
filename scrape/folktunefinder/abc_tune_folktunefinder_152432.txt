@@ -1,0 +1,28 @@
+X:0130
+T:"The Dear Black Cow "    (air)     0130
+C:Unattributed
+C:very slow
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=50
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/8
+L:1/16
+K:G
+"_vb""_forte"(E3/2F/2)|(G4F2)|E3/2E/2 H^D2 (E3/2F/2)|(G4F2)|E2 z2(D3/2E/2)|
+(F4E2)|(D3/2B,/2A,3/2B,/2D3/2E/2)|"_piano"(F4E2)|D2 z2(E3/2F/2)|
+(G4F2)|E3/2E/2 H^D2 (E3/2F/2)|(G4A2)|G3/2F/2 F4|
+(EFGAB3/2d/2)|e2 He2  (3(cBA)|(G4F2)|E4|]
+S:https://www.folktunefinder.com/tunes/152432
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/130-DearBlackCow.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/130-DearBlackCow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-101-200/130-DearBlackCow.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

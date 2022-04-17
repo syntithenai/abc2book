@@ -1,0 +1,23 @@
+X:83
+T: Graf Friedrich
+N: Q0048I
+O: Mitteleuropa, Deutschland / Polen, Schlesien
+N: Grundton in der zweigestrichenen Oktave.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 4/4
+L: 1/8
+K: C
+G,2 | C2C2G,2G,2 | E,2G,E,C,2
+G,2 | C2C2G,2G,2 | E,2G,E,C,2
+G,2 | D2D2G,G,G,G, | E2E2ED
+G,2 | D2D2DDG,2 | E2D2C2
+S:https://www.folktunefinder.com/tunes/151612
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

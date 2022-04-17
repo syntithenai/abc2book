@@ -1,0 +1,29 @@
+X:1
+T:Kuckuckspolka
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Elisabeth und Christoph Huspeka
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+B |\
+d2 d>d | dB e2 | d>d dB | c3d |
+^F>F fe | dc f>e | dc BA | G3 :|
+|: d |\
+gf ed | BB zd | d>d eB | c3d |
+gf ed | cc zd | d>d ef | g3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170596
+S:http://simonwascher.info/TradArchiv_polka/kuckuckspolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

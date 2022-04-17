@@ -1,0 +1,29 @@
+X: 1
+T:Garrett Barry's Jig
+M:6/8
+L:1/8
+Q:110
+C:Trad
+S:H. J. Clarke
+R:Jig
+B:The New Approach to Uilleann Piping
+N:Contributed by Phil Sexton
+K:ADor
+|:A|DEF ~G3|{d}AGE c2A|.d.c.A d2e|(3.g.f.e d cAG|!
+~E3 ~G3|AGE (3.B.c.d e|dcA GEA|DED {A}D2:|!
+|:A|.d.c.A d2e|(3.g.f.e d (3efg e|dcA c2d|egd ecA|!
+d.A.A d2e|{g}fed e (3.g.f.e|dcA GEA|DED {A}D2:||!
+S:https://www.folktunefinder.com/tunes/160516
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Garrett_Barrys_Jig_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Garrett_Barrys_Jig_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:2
+%%staffsep 41pt
+T: Gordon Cot\'e
+I: Gordon CoteR-121Areel
+C: Jerry Holland
+M: C|
+R: reel
+K: A
+E| "A"A2cA    EACE| A,CEA caga| "D"fdBd "A"ecAc| "Bm"BFBA "E"GBEG|
+   "A"A/A/AcA EACE| A,CEA caga| "D"fdBd "A"ecAc| "E"BEFG "A"A3 :|
+|:g| "A"abag aece| "D"fefg "A"aece| "D"fdBd "A"ecAc| "Bm"BFBA "E"GBEg|
+   "A"abag aece| "D"fefg "A"aecA| "D"FAdf "A"ecae| "E"dEFG "A"A3 :|
+%%text Roaring Jelly R-121
+S:https://www.folktunefinder.com/tunes/161837
+S:http://roaringjelly.org/music/reel/R121_Gordon_Cote.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R121_Gordon_Cote.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R121_Gordon_Cote.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

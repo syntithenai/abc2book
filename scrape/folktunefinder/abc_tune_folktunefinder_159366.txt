@@ -1,0 +1,31 @@
+X:0010
+T: "The Friar's Hill"       (air)        0010
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after Chief F. O'Neill
+C:moderate
+Q:1/4=90
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"D|D2G2G2|B2A2G2|(TRG2F2G2)|(A2F2D2)|
+D2G2G2|{c}B2 G2B2|{d}c4 A2|F4A2|
+D2G2G2|(TRB2A2G2)|{G}F2 G2A2|A2B2c2|
+(TRd2c2A2)|{B}(A2G2F2)|G6|G2z2||
+Bc|.d2.e2.d2|.B2.A2.B2|.c2.B2.c2|(A2B2)c2|
+d2e2d2|{c}B2 G2B2|A4F2|D4(Bc)|
+d2e2d2|B2A2B2|{d}(c2B2c2)|A2B2c2|
+{g}f2 e2d2|TRc2A2F2|G6|G2z2|]
+S:https://www.folktunefinder.com/tunes/159366
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/10-FriarsHill.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/10-FriarsHill.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1-100/10-FriarsHill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

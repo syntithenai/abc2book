@@ -1,0 +1,29 @@
+X: 1
+T: Gladstone
+C: James Scott Skinner
+M: 4/4 (from 2/4)
+L: 1/8
+R: reel
+K: A Major
+d |\
+cAdB efga | A/A/A cA BGEd | cAdB efga | gfe^d e2 e=d |
+cAdB efga | A/A/A cA BGEd | cAdB efga | ecdB A2 A ||
+g |\
+afba geag | fdgf ecfe | dBed cAdc | BAGA Befg |
+afba geag | fdgf ecfe | dBed ceaf | ecdB A2 A || 
+d |\
+cAdB efga | A/A/A cA BGEd | cAdB efga | gfe^d e2 e=d |
+cAdB efga | A/A/A cA BGEd | cAdB efga | ecdB A2 A ||
+g |\
+a/a/a fa g/g/g eg | f/f/f df e/e/e ce | d/d/d Bd c/c/c Ac | BAGA Befg |
+afba gbeg | fdaf eace | dBed ceAa | ecdB A2 A |]
+ID: JSS0243
+S:https://www.folktunefinder.com/tunes/161200
+S:http://www.thesession.org/tunes/display/1744
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

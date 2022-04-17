@@ -1,0 +1,25 @@
+X: 1
+T: Kennedy's Jig
+C: J-10
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Em
+B| "Em"BEE BEE| BAG FEF| "D"DED FDF| AB^c dfd|
+   "Em"BEE "D"def| "Em"gfe "Bm"fdB| "D"AFA AdF| "Em"FEE E2 :|
+|:\
+e| "Em"e/f/ge "D"fed| "Em"e/f/ge "D"fed| d/e/fe dAF| DFA def|
+   "Em"edB "D"def| "Em"gbg "Bm"edB| "D"AFA AdF| "Em"FEE E2 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/169507
+S:http://roaringjelly.org/music/jig/J010_Kennedys_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J010_Kennedys_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J010_Kennedys_Jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

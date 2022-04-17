@@ -1,0 +1,25 @@
+X: 2
+T: K\"ayn ahon laitaa
+C: Juha Vainio
+M: C|
+L: 1/4
+K: D
+| "D"F^E FE | FA, DF | "Em"FE E^D | E3 z \
+| "A7"E^D ED | EA, CE | "D"ED DC | D3 z |
+| "D"F^E FE | "B7"FB, ^DF | "Em"FE EF | Gz "E7"^G2 \
+| "A7"AA A=G | "E7"F2 "A7"E2 | "D"D4- DA, DF |
+| "D"A2 A2- | AA GF | "Em"G2 E2- | "A7"EA, CE \
+| "Em"G2 G2- | "A7"GG F^E | "D"F4- | FA, DF |
+| "D"A2 A2- | "F#m"AA "B7"GF | "Em"G2 E2- | "A7"EA, CE \
+| "Em"G2 G2- | "A7"GG FE | "D"D2 "B7"z2 | "Em"z2 z2 \
+|1 "A7"Ta4- | a4 :|2 "A7"zA Bc | "D"dz Kdz |]**
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/158213
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/humppa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

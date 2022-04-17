@@ -1,0 +1,22 @@
+X: 1
+T: Gigue  La Cardeuse
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+G2 | bGbb afgz1/2G1/2 | bG b < d e2d2 | bGbb azdz | edef g2G2 |
+bGbb afgd | bG b < d e2d2 | bGbz azdz | edef g2G2 |
+dGdz ezdG | BGBG AAG2 | dGdz ezdG | edef g2G2 |
+dGdz ezdG | BGBG AAG2 | dGdz e g1/2d1/2 cG | BGAG G4 |
+BGBG ccBG | BGGG A4 | BGBG cGcG | BGAG G4 |
+BGBG cGcG | BGGG A2G2 | BGBG c g1/2d1/2 cG | BGAG G4 |
+gGgG a2gz | BABG A2Gz | gGgG eedG | edef g2z2 |
+S:https://www.folktunefinder.com/tunes/160942
+S:http://www.thesession.org/tunes/display/5084
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:40
+T: Graf und Nonne (Die Nonne)
+N: Q2155m
+O: Mitteleuropa, Niederlande, Zeeland, te Oost - Souburg
+N: Niederlaendische Fassung der Ballade. Verzierung: Glissando. Unteren
+N: Anfangston kodiert. Schluss rhythmisch korrigiert und Pause ergaenzt.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage, Tod
+M: 6/8
+L: 1/8
+K: G
+D | G2Bd2d | e2ed2
+d | e2ef2f | g3-g2
+d | ggge2e | d3Bz
+d | deddcB | A3
+eee | d2GB2c | d3
+eee | d2GB2A | G2z3
+S:https://www.folktunefinder.com/tunes/161960
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

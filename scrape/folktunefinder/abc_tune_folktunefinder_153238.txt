@@ -1,0 +1,26 @@
+X:1828
+T:"The Devil In Dublin"  (march)  1827
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+G2B d2B|e2c A3|BdB GBG|FAF D3|
+G2B d2B|e2c ABc|dBG EAF|G3G2z:|
+|:AGA FGA|BAB GAB|{d}cBc ABc|dge d2B|
+cde ABc|Bcd GAB|{d}cAF DEF|G3G2z:|
+S:https://www.folktunefinder.com/tunes/153238
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1827-DevilInDublin.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1801-1850/1827-DevilInDublin.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1827-DevilInDublin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

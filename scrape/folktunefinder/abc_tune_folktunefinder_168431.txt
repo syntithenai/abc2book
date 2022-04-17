@@ -1,0 +1,26 @@
+X:8
+T: Johnny, Don't Get Drunk
+I: Johnny, Don't Get DrunkR-95Dreel
+%%musicspace0.0cm
+M: C|
+R: reel
+K: D
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"fefg a2g2| "A7"fdec "D"d4| "G"BABc d2g2| "A7"fdec "D"d4 :|
+|:"D"F2A2 A4| FA2F A4| "G"BABc dBAG| "A7"F2E2 E4|
+"D"FA2F A4| "G"BABc d4| BABc d2g2| "A7"fdec "D"d4 :|
+%%text Roaring Jelly  R-95
+%%text 1/20/02
+S:https://www.folktunefinder.com/tunes/168431
+S:http://roaringjelly.org/music/reel/R095_Johnny_Dont_Get_Drunk.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R095_Johnny_Dont_Get_Drunk.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R095_Johnny_Dont_Get_Drunk.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:1
+T:Kost ar c'hoat : Ti Jaz
+Z:Roger Ngaret (Septembre 99)
+R:
+C:Ti Jaz
+S:
+A:Bretagne
+K:C
+T:
+M:2/4
+L:1/16
+K:C
+ee | e3d "Am"c2A2 | B2c2 "F"d2e2 | "G"f2e2 d2c2 | "C"g4 g2ee |
+e3d "Am"c2A2 | B2c2 "F"d2e2 | "G"f2e2 d2e2 |1 "C"c6 :|2 c4 c4 |: 
+c4 "F"A4 | A2G2 d4 | e2f2 "G"g4 | g2f2 "C"e2c2 | d2e2 "F"f2e2 | 
+d2c2 (3e2"C"e2e2 | d2c2 "G"B2d2 |1 "C"c4 c4 :|2 c4 c2 |]
+T:Variante 2ime phrase
+c2c2 "F"a4 | a2g2 ^f2d2 | e2^f2 (3g2"G"g2g2 | g2f2 "C"e2c2 |
+d2e2 "F"f2e2 | d2c2 (3e2"C"e2e2 | d2c2 "G"B2d2 |1 "C"c6 cc :|2 c6 |]
+S:https://www.folktunefinder.com/tunes/170526
+S:http://termen.free.fr/danses/cornouaille/KostarchoatTiJaz.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

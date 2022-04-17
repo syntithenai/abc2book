@@ -1,0 +1,73 @@
+X: 1
+T:Greensleeves
+C:Traditional (Attrib. to Henry VIII)
+S:MySheetMusic.com (What Child Is This)
+Z:ABC by Thornton Rose, December 2001
+N:Original score in C.
+R:Jig
+M:6/8
+L:1/8
+K:G
+A | "Am"c2 d "D7"e>fe | "G"d2 B "Em"G>AB | "F"c2 A A>^GA |
+"E"B2 ^G E2 A | "Am"c2 d "D7"e>fe | "G"d2 B "Em"G>AB |
+"F"c>BA "E7"^G>FG | "Am"A3 A3 || "C"g3 g>fe | "Bm"d2 B "Em"G>AB |
+"Am"c2 A "F"A>^GA | "E"B2 ^G E3 | "C"g3 g>fe | "G"d2 B "Em"G>AB |
+"F"c>BA "E7"^G>FG | "Am"A3 A2 |]
+W:Alas, my love, you do me wrong,
+W:To cast me off discourteously.
+W:For I have loved you well and long,
+W:Delighting in your company.
+W:Greensleeves was all my joy
+W:Greensleeves was my delight,
+W:Greensleeves was my heart of gold,
+W:And who but my lady greensleeves.
+W:
+W:Your vows you've broken, like my heart,
+W:Oh, why did you so enrapture me
+W:Now I remain in a world apart
+W:But my heart remains in captivity. (Chorus)
+W:
+W:I have been ready at your hand,
+W:To grant whatever you would crave,
+W:I have both wagered life and land,
+W:Your love and good-will for to have. (Chorus)
+W:
+W:If you intend thus to disdain,
+W:It does the more enrapture me,
+W:And even so, I still remain
+W:A lover in captivity. (Chorus)
+W:
+W:My men were clothed all in green,
+W:And they did ever wait on thee;
+W:All this was gallant to be seen,
+W:And yet thou wouldst not love me. (Chorus)
+W:
+W:Thou couldst desire no earthly thing,
+W:but still thou hadst it readily.
+W:Thy music still to play and sing;
+W:And yet thou wouldst not love me. (Chorus)
+W:
+W:Well, I will pray to God on high,
+W:that thou my constancy mayst see,
+W:And that yet once before I die,
+W:Thou wilt vouchsafe to love me. (Chorus)
+W:
+W:Ah, Greensleeves, now farewell, adieu,
+W:To God I pray to prosper thee,
+W:For I am still thy lover true,
+W:Come once again and love me. (Chorus)
+S:https://www.folktunefinder.com/tunes/162492
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/Greensleeves.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/Greensleeves.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/Greensleeves.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

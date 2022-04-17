@@ -1,0 +1,33 @@
+X:1
+T:Galopp
+C:traditionell
+R:galopp
+A:Hofs
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Die Sackpfyf schoen Macht siss gethoen", 43 Volkstaenze u. Schaeferlieder aus Schwaben, compilation G.Balling, publisher Schwaebischer Albverein, Stuttgart 1997 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d |\
+ed ed | c>c cd | ed ed | B>B Bd |
+ed ed | f>f fg | (3fed (3cBA | G2 G :|
+|: d |\
+g>d dd | e>c cc | AA d>c | B/c/B/A/ Gd |
+g>d dd | e>c cc | AA d>f | g2 g :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159863
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_galopp/galopp.e2d2e2d2c3cc2d2.abc
+% Rhythm Galopp
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

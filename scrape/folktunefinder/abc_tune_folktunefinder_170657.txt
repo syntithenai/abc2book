@@ -1,0 +1,26 @@
+X: 1
+T: L\aangdans fr\aan Soller\"on
+O: Sweden
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Dm
+V: 1
+|: "A7"A2 ^c2 "Dm"d2 | "A7"e3 g "Dm"f2 | d2 fe "A7"d^c | "Dm"d3 ^c "A7"A2 \
+|  "A7"A2 ^c2 "Dm"d2 | "A7"e3 g "Dm"f2 | d2 fe "A7"d^c | "Dm"d4        d2 :|
+|: "A7".a2 .g2 .e2 | g3 e "Dm"f2 | .f2 "A7".a2 .g2 | .e2 ge "Dm"f2 | "A7"d2 fe d^c | "Dm"d4- d2 :|
+V: 2
+|: "A7"AG [A2E2] "Dm"[AF][GA] | "A7"A^c ec "Dm"[d2D2] | F2 DE "A7"FG | "Dm"F2 B2 "A7"AG \
+|  "A7"F2 [A2E2] "Dm"[A2F2] | "A7"B2 A^c "Dm"[d2D2] | F2 D2 "A7"B2 | "Dm"AG FE [A2D2] :|
+|: "A7".[f2A2] .[e2A2] .^c2 | A^c ec "Dm"d2 | DE "A7"F2 B2- | B2 A^c "Dm"[d2D2] \
+| "A7"[B2D2] [A2D2] [A-G][AE] | "Dm"[A4F4][A2D2] :|
+S:https://www.folktunefinder.com/tunes/170657
+S:http://trillian.mit.edu/~jc/music/abc/Scand/misc/LaangdansFrSolleron_2V.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

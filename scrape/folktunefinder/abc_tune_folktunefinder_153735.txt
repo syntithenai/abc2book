@@ -1,0 +1,23 @@
+X: 1
+T: Doherty's Fancy
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+~G3 BAG|dB/c/d ~g3|~G2 d BGd|AFD cBA|
+~G3 ~B3|dB/c/d ~g3|e2 e dBG|1 cAF G2 D:|2 cAF G2 d||
+~g3 efg|eag fed|~g3 ~e3|daf g2 e|
+gfe dcB|edc BAG|~e2 g dBG|cAF G2 e|
+~g3 bag|~a2 g fga|g{a}gf efg|eaf g2 e|
+gfe dcB|edc BAG|~e2 g dBG|cAF dcA||
+S:https://www.folktunefinder.com/tunes/153735
+S:http://www.thesession.org/tunes/display/5132
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

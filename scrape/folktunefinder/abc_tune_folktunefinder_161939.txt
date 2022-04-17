@@ -1,0 +1,26 @@
+X:19
+T: Graf und Nonne (Die Nonne)
+N: Q0155R
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Giessen, Crumbach
+R: Ballade, Standesunterschied, Werbung, Liebe, Glueck
+M: 6/8
+L: 1/16
+K: G
+D2 | B4A2G4E2 | D4B2B4
+BB | A4A2c2B2A2 | B8z2
+B2 | d4B2e4d2 | c4B2A4
+G2 | F4A2d4c2 | B8z2
+B2 | c4e2d4c2 | B4A2G4
+G2 | F4A2d4c2 | B6-B4
+S:https://www.folktunefinder.com/tunes/161939
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe, glueck
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

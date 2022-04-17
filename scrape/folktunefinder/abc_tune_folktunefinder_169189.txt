@@ -1,0 +1,16 @@
+X:1
+T:A Kangaroo Sat on an Oak
+M:2/4
+L:1/8
+K:C
+ D| DE FG| AA F D/2D/2| EC E/2E/2 F| D2 DD| D E/2E/2 FG| AA F D/2D/2|\
+ EC E/2E/2 F| D2 D2| A3/2 B/2 cA| d/2d/2 cB G| A3/2 B/2 cA| d A2 z|\
+ AA AA| G/2A/2 G/2F/2 EC| Dc A/2G/2 E| D2 D3/2||
+S:https://www.folktunefinder.com/tunes/169189
+S:http://back.numachi.com:8000/dtrad/abc/KANGROO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

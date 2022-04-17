@@ -1,0 +1,25 @@
+X:1
+T:Kriebel
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:G
+P:Voorspel
+z |"D7" c2 c>B | BA d>d | dc BA | "G"(G2 G) |]
+P:A
+D || "G"[G2D2B,2] D2 | [G2D2B,2] z G | [B2G2D2] G2 | [B2G2D2] z B/c/ | "D7"BA AA/B/ | "G" AG GG/A/ | 
+"D7"GF EF | "Gdim" [E2^C2] "G"D B/c/ |"D7"BA AA/B/ | "G"AG GG/A/ | "D7"GF EF |1 [G2D2B,2] z D :|2 [G2D2B,2] z |]
+P:B
+"G" B2 B>A | AG G>G | GF GA | "D7" G2 F2 | c2 c>B | BA A2 | DF Ac | "G"[B2G2] G2 |
+B2 B>A | AG G>G | GF GA | "D7"G2 F2 | c2 c>B | BA d>d | dc BA | "G"(G2 G) D |]
+S:https://www.folktunefinder.com/tunes/170566
+S:http://user.online.be/volksdans/abc/Kriebel.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kriebel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:14
+T:Horse's Brawl (Branle des Chevaux)
+C:From Arbeau, Orchesographie, 1689
+Q:1/4=180
+I:abc2nwc
+M:2/2
+L:1/8
+K:G
+G3A B2B2|c2B2A2c2|B2A2G2F2|E4D4|
+G3A B2B2|c2B2A2c2|B2G2G2F2|G4G4||
+d2cB A2AB|c2BA G2B2|A2G2F2G2|A4A4|
+d2cB A2AB|c2BA G2B2|A2G2G2F2|G4G4||
+K:Gdorian
+B2AG B2AG|F2G2A4|D2E2F2G2|A2B2A2G2|
+B2AG B2AG|F2G2A4|D2E2F2G2|G2^F2G4|]
+S:https://www.folktunefinder.com/tunes/164899
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/HorsesBrawlBranleDesChevaux.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

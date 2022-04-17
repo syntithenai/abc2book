@@ -1,0 +1,22 @@
+X:4
+T:Eglise du Seigneur - K128
+C:Prose ancienne N.D. de Paris
+M:6/8
+L:1/8
+K:Eb
+"Dom"C3 C2D|[M:9/8]E2E "Fam"F2F "Sib"FEF|"Mib"G3 "Dom"c3 "Do"c2B|"Fam"A2G "Sib"FGA "Solm"B2B|\
+"Dom"E3G2G GFE|
+"Sib"D2E "Fam"F2G "Sib"AGF|[M:12/8]"Dom"G3 "Mib"E3 "Sib"F3 "Sol"G3|"Dom"C6"FIN":"Solm"G3G2"Re"=A|[M:9/8]"Solm"B2B"Re9"=A2G^F2G|\
+"Re"D3 "Solm"G3 "Dom"c2B|
+"Fam"_A2=F "Sib"B2AG2F|"Mib"E2E "Sol"G3 "Dom"GFE|"Sib"D2E "Fam"F2G "Sib"AGF|[M:12/8]"Dom"G3E3"Sib"F3"Sol"G3|[M:9/8]"Dom"HC3|]
+S:https://www.folktunefinder.com/tunes/155617
+S:http://moinejf.free.fr/messe/messeE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Time_signature 9/8
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

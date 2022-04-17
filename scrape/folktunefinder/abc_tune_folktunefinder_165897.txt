@@ -1,0 +1,42 @@
+X:1
+T:The Idiot
+M:4/4
+C:Stan Rogers
+S:Berkeley Morris (1988 May 1)
+N:
+A:Field Town
+O:Canada
+R:Reel
+%P:AAB(AC)$^3$
+P:AAB(AC)3
+K:G
+I:speed 400
+P:A
+GA | B2 d2   d2    cB | AG A2 B2 G2 | E2 G2 G2 F2 | E4  E2 \
+D2 | E2 G2   G2    FE | D2 G2 G3  A | Bc d2 c2 B2 | A4  A2 \
+GA | B2 d2   d2    cB | AG A2 B2 G2 | E2 G2 G2 F2 | E4  E2 \
+D2 | E2 G2   G2    FE | D2 G2 G3  A | Bc d2 B2 A2 | G4  GA ||\
+P:B
+Bd | e2 e2   e2    dc | Bc d2 d2 c2 | BA G2 G2 A2 | E4  E2 \
+Bd | e2 e2   e2    dc | Bc d2 d2 c2 | BA G2 c2 B2 | A4  A2 \
+GA | B2 d2   d2    cB | AG A2 B2 G2 | E2 G2 G2 F2 | E4  E2 \
+D2 | E2 G2   G2    FE | D2 G2 G3  A | Bc d2 B2 A2 | G4  G2 ||\
+P:C
+d2 | e4 e4 | e4 d2 c2 | Bc d2 d2 c2 | BA G2 G2 A2 | E4  E2 \
+d2 | e4 e4 | e4 d2 c2 | Bc d2 d2 c2 | BA G2 c2 B2 | A4  A2 \
+GA | B2 d2   d2    cB | AG A2 B2 G2 | E2 G2 G2 F2 | E4  E2 \
+D2 | E2 G2   G2    FE | D2 G2 G3  A | Bc d2 B2 A2 | G4  G2 ||
+S:https://www.folktunefinder.com/tunes/165897
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/idiot.bk.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/FieldTown/idiot.bk.abc
+S:http://www.ucolick.org/%7Esla/morris/music/FieldTown/idiot.bk.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

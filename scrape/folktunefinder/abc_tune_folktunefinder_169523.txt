@@ -1,0 +1,38 @@
+X:8276
+T:Kerfank 1870
+C:anon.
+O:France
+A:Bretagne
+N:octave shifts ad lib
+N:tempo unknown, seems to work at any speed
+R:Andro, an dro
+Z:Transcribed by Jack Campin
+F:http://abc.musicaviva.com/tunes/france/kerfank-1870.abc
+%Posted February 27nd 2002 at abcusers by Jack Campin who asked
+%for information about the tune.
+M:2/4
+L:1/16
+K:E Minor
+E2B2 B2AB|c2B2 AGFG|A2A2 B2A2|GFEF G2F2|
+E2B2 B2AB|c2B2 AGFG|A2A2 B2A2|GFEF E4 :|
+E2E2 F2GF|E2E2 FEFG|A2A2 B2A2|GFEF G2F2|
+E2E2 F2GF|E2E2 FEFG|A2A2 B2A2|GFEF E4 :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/169523
+S:http://abc.musicaviva.com/tunes/france/kerfank-1870.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/france/kerfank-1870.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/france/kerfank-1870.abc
+% Rhythm Andro, an dro
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

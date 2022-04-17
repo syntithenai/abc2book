@@ -1,0 +1,23 @@
+X: 64
+T: Parry's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+vbf|d2d2 decA|B2B2B2 (de)|f=efd gf_ed|cdec BAGF|
+d2d2 dfeg|f2f2f2 (ba)|gfed cBAc|B2B2B2:|
+|:(ucd)|eded .e2(cd)|edcB BAGF|f=efe .f2(ga)|bagf _edcB|
+gfed egbg|fedc dfbg|fbag fedc|B2B2B2:|
+S:https://www.folktunefinder.com/tunes/158702
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

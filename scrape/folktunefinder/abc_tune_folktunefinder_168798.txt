@@ -1,0 +1,35 @@
+X:1
+T:Josefin's Dopvals
+C:Roger Tallroth (1993)
+%S:Waltz Book 3 (The)
+%N:Copyright 1993, Roger Tallroth, All Rights reserved. Used by permission.
+%N:We learned this waltz from Jon Singleton and Chris Roe in Seattle, the day
+%N:after it was played at the funeral of John Denyes, a well-loved musician 
+%N:and dancer.  This was his favorite tune and so it has special significance
+%N:for all of us who knew him.  This version, folk-processed into the key of
+%N:G with simplified harmonies, is popular both in Seattle and in New England.
+%N:You can hear a nice version of this on "My Joy," available from Hanneke 
+%N:Cassell at POB 231080, Boston, MA 02123.
+M:3/4
+L:1/4
+K:G
+%%staves{RH1}
+V:RH1 clef=treble
+|:"G"D G A|B d c|B A G|D2 D|"C"C3/2 C/2 C
+|E G F|"Am"E3|"D"D3|"G"D G A|B d c|B A G|D2 E
+|"C"C3/2 C/2 C|D F G|1 "D"A3-|A3 :|2 "D"A3-|A B c
+|:"G"d B d|g2 f|"C"e3|"G/B"d3|"Am"c e d
+|c B A|"G"B3/2 c/2 B|"D"A B c|"G"d B d|g2 f
+|"C"e3|"G/B"d3|"Am"c e d|c B A|"G"B3/2 c/2 B|"D"A B c
+|"Em"B A G|F2 G|"C"G3|C D C|"G"B, D G
+|"D7"F E F|1 "G"G3-|G B c:|2 "G"G3-|G3||
+S:https://www.folktunefinder.com/tunes/168798
+S:http://gulfweb.net:34043/~rlwalker/abc/josefinsG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:1
+T:Kas ar barc'h Le Fon-Lhart
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:andro
+S:Le Fon-Lhart
+Q:1/4=53
+P:A
+M:4/4
+L:1/8
+K:C
+AB/A/ cc/c/ d^f ec|AB A/e/^f/e/ AB/A/ cc/c/|1d^f ec AB A2:|2
+d^f eA/B/ c/A/B/c/ A2||
+ee/e/ cc/e/ dd/e/ cA|ee/e/ cc/e/ dc/B/ A2|e^f/e/ cc/e/ dd/e/ cA|
+e^f/e/ cc/e/ dB/c/ Ae|:BA/B/ cc BA/B/ c>c |d^f ed c/d/c/A/ e/^f/e|
+c/B/A/B/ cd BA/B/ c>c |1d^f ec AB A2:|2d^f eA/B/ c/d/c/B/ A2|]
+P:B
+K:C
+EF/E/ GG/G/ A^c BG|EF E/B/^c/B/ EF/E/ GG/G/|1A^c BG EF E2:|2
+A^c BE/F/ G/E/F/G/ E2||
+BB/B/ GG/B/ AA/B/ GE|BB/B/ GG/B/ AG/F/ E2|B^c/B/ GG/B/ AA/B/ GE|
+B^c/B/ GG/B/ AF/G/ EB|:FE/F/ GG FE/F/ G>G |A^c BA G/A/G/E/ B/^c/B|
+G/F/E/F/ GA FE/F/ G>G |1A^c BG EF E2:|2A^c BE/F/ G/A/G/F/ E2|]
+S:https://www.folktunefinder.com/tunes/169278
+S:http://termen.free.fr/danses/vannetais/KasarbarchLeFeonLehart.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

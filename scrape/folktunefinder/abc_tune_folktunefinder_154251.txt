@@ -1,0 +1,19 @@
+X: 1
+T: Downton Bridge
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: Ddd Dcc | BGE D3 | DFA cBA | GBe d3 |
+Ddd Dcc | BGE D3 | DFA cBA | GBA G3 :|
+|: ceg gfe | dBG D3 | DFA cBA | GBe d3 |
+ceg gfe | dBG D3 | DFA cBA | GBA G3 :|
+S:https://www.folktunefinder.com/tunes/154251
+S:http://www.thesession.org/tunes/display/7626
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

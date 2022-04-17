@@ -1,0 +1,23 @@
+X: 1
+T: Gabon Doinuak
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;G&quot;B2B &quot;Am7&quot;c>Bc | &quot;Em7/B&quot;d3 &quot; Em&quot;G3 | &quot;C&quot;e2e &quot;Am&quot;e>dc | &quot;Bm&quot;d3-&quot;Em&quot;d3 |
+&quot;Am7&quot;c2c &quot;D&quot;c>dc | &quot;B7/D#&quot;B2A &quot;Em&quot;G>AB | &quot;Am7&quot;c2&quot;G&quot;B-&quot; C6 C#dim&quot;BA>G | &quot;D11&quot;A3-&quot;D7&quot;A3 |
+&quot;G&quot;B2B &quot;Am7&quot;c>Bc | &quot;Em7/B&quot;d3 &quot; Em&quot;G3 | &quot;C&quot;e2e &quot;Am&quot;e>dc | &quot;Bm&quot;d3-&quot;Em&quot;d3 |
+&quot;C&quot;c>de &quot;D&quot;d>ef | &quot;G/B&quot;g>dc &quot;Em&quot;B>cd | &quot;Am7&quot;c2&quot;G/B C D7&quot;B-BG>A | &quot;G&quot;G3-G3 |
+&quot;C6/G&quot;A2A &quot;D/G&quot;A>Bc | &quot;D6/G&quot;d3&quot;G6&quot;G3 | &quot;Am7&quot;c2d &quot;Am/D&quot;c>BA | &quot;D6/G G7&quot;B3-B3 |
+&quot;Am7&quot;A2A &quot;D7&quot;A>Bc | &quot;Bm7&quot;d3&quot;Gdim&quot;g3 | &quot;Am7&quot;e2&quot;G/B&quot;d &quot;C6 C#dim&quot;c>BG | &quot;D7&quot;A3-A3 |
+&quot;G&quot;B2B &quot;Am7&quot;c>Bc | &quot;Em7/B&quot;d3 &quot; Em&quot;G3 | &quot;C&quot;e2e &quot;Am&quot;e>dc | &quot;Bm&quot;d3-&quot;Em&quot;d3 |
+&quot;C&quot;c>de &quot;D&quot;d>ef | &quot;G/B&quot;g>dc &quot;Em&quot;B>cd | &quot;Am7&quot;c2&quot;G/B C D7&quot;B-BG>A | &quot;G&quot;G3-G3 |]
+S:https://www.folktunefinder.com/tunes/159701
+S:http://www.thesession.org/tunes/display/7503
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

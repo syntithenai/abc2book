@@ -1,0 +1,32 @@
+X:7680
+T:Glade, gode skal vi v\aere
+C:anon.
+O:Norway
+R:Rundsang, round, canon
+F:http://abc.musicaviva.com/tunes/norway/glade-gode/glade-gode-voca4.abc
+M:C
+L:1/4
+K:F
+"^1"c>BAF|"^2"FGFA|
+w:Gla-de, go-de skal vi v\ae-re
+"^3"GBAc|"^4"CEFF:|
+w:he-le li-vet inn-til d\"o-den.
+W:
+W:Glade, gode skal vi v\aere
+W:hele livet inntil d\"oden.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/161191
+S:http://abc.musicaviva.com/tunes/norway/glade-gode/glade-gode-voca4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/glade-gode/glade-gode-voca4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/glade-gode/glade-gode-voca4.abc
+% Rhythm Rundsang, round, canon
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

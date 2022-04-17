@@ -1,0 +1,33 @@
+X:1
+T:Jungsaechsisch
+C:traditionell
+R:polka
+A:Siebenbuergen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 12
+N:im buch ganz in F, einstimmig, 1. ton c', ambitus c' - f''
+S:im buch mit der angabe: Die weise stammt von Herman Kirchner und gehoert zu dem lied von Ernst Thullner "Et wor emol en recklich Maed"
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C %Transposed from G
+g>a ge | ce Ge | d>e fd | ea g2 |\
+g>a ge | ce Ge | de ^fg | ab g2 :|
+f>f fe | d4 | a>a ag | f3 g |\
+c'3 e | d3 a | g>f ed | c2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169051
+S:http://simonwascher.info/TradArchiv_polka/jungsaechsisch.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

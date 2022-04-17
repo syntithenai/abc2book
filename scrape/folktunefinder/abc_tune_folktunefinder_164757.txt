@@ -1,0 +1,20 @@
+X:2
+T:Hoppa Kona
+T:(use for bondpolska fraa Overharde)
+R:polska
+Z:from Bengt Jonnson '92 trip
+M:3/4
+L:1/8
+K:G
+|: "G"G>B d3 c | "G"B>A GB D2 | "D7"c>B A2 e2 | "D7"d>c B/c/B/A/ G2 \
+|  "G"G>B d3 c | "G"B>A GB D2 | "D7"c>B Af Af | "G"g2 g4 :|
+|: "G"d>g b2 b2 | "D7" d>f a2 a2 | "D7"c>B AG FE | "G"D>C B,/C/B,/A,/ G,2 \
+|  "G"d>g b2 b2 | "D7" d>f a2 a2 | "D7"c>B Af Af | "G"g2 g4 :|
+S:https://www.folktunefinder.com/tunes/164757
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/HoppaKona.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

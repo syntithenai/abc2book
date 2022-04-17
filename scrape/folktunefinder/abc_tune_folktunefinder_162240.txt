@@ -1,0 +1,26 @@
+X:1557
+T:"The Greencastle Hornpipe"      1557
+C:after Chief F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+N:As found in the book... also see 1557A
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+(dc)|BGDG BGDG| (3(gag) fg e2(dc)|BGDG BGDG|dcBc A2(dc)|
+BGDG BGDG| (3(gag) fg e2(dc)|Bdfe dcAF|G2GG G2:|
+(ga)|bagf efga|bagf e2(fg)|agfe defg|agfe d2 (3(def)|
+gfgd e2d2|{d}cBAB cdef|gfgd ecAF|G2GG G2:|
+S:https://www.folktunefinder.com/tunes/162240
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1501-1600/1557-Greencastle1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1501-1600/1557-Greencastle1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:108
+T: Das Bauerntoechterlein
+N: Q0051
+O: Mitteleuropa, Oesterreich, Salzburg, am Mondsee
+N: Zweistimmig notiert. Unterstimme kodiert.
+R: Ballade, Hochzeit, Tod
+M: 6/4
+L: 1/4
+K: A
+E | A2AAGA | c2ccB
+A | GGGBAG | AAAA2
+A | AAAABc | BAGA2
+S:https://www.folktunefinder.com/tunes/151637
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:2
+T:Familie sekstur
+R:jig
+O:Danmark
+Z: John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+K:D
+[| A | "D"F2A B2A | F2A d2A | F2A f2e | d3- d2c | "G"B2e f2g | "D"a2f d2B | "A7"A2c e2f | "D"d3- d2 |]
+P:
+K: A
+[| f | "E7"e2d B2d | "A"c2A E2E | "B7"F2F B2A | "E"G3- G2F | EGB "A"Ace | "E7"EGB "A"Ace | "D"f2d "E7"B2G | "A"A3- A2 |]
+P:
+K: D
+[| f | "D"d2f a2f | d3- d2f | d2f a2b | agf "A7"e2e | "D"fef "G"g2g | "D"aga "G"b2b | "D"agf "A7"gea | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/156873
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Familiesekstur.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianWilson/Familiesekstur.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

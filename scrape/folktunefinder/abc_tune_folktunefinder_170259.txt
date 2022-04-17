@@ -1,0 +1,55 @@
+X:384
+T:Kjerringa med staven
+C:anon., arr. Ludvig Mathias Lindeman
+O:Norway
+R:Springdans
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/kjerringa-g/kjerringa-g-pno2.abc
+V:1 Program 1 0 up %Piano
+V:2 Program 1 0 merge down %Piano
+V:3 Program 1 0 bass %Piano
+M:3/4
+L:1/8
+Q:1/4=140
+K:G
+V:1
+Ld2d2  B> B|Ld4  B2|Ld2 d>   d B> B|
+w:Kj\ae-rin-ga m\ae Sta-ven h\"ogt o-pi Hak-ke-
+V:2
+B4 G2|B4 G2|B4 G2|
+V:3
+(G,,2 B,,2 D,2|G,2 B,2 D2)|G4 D2|
+%
+V:1
+Ld4 B2|G> A B>  c d> B|A> B c> d B2|
+w:da-len. Ot-te Pot-ter R\"om-me, Fi-re Mar-ker Sm\"or,
+V:2
+B4 G2|G6-|G2 F2 G2|
+V:3
+G4 D2|(B, z LG,2 B,2|D) z (LD,2 G,2|
+%
+V:1
+(G>A) B> c d> B|A> B c> d B2|G2 B2 A> F|G4 G2|]
+w:Saa_ kji-na Ka-ri, O-le had-de f\^or. Kj\ae-rin-ga m\ae Sta-ven.
+V:2
+G6-|G2 F2 G2|D4 C2|B,6|]
+V:3
+B,) z (LG,,2 B,,2|D,) z (LD,,2 G,,2|B,,) z (LD,,4|G,,) z LG,,,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170259
+S:http://abc.musicaviva.com/tunes/norway/kjerringa-g/kjerringa-g-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/kjerringa-g/kjerringa-g-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/kjerringa-g/kjerringa-g-pno2.abc
+% Rhythm Springdans
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

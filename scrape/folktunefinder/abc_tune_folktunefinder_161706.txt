@@ -1,0 +1,21 @@
+X: 1
+T:Gold Ring
+M:6/8
+R:jig
+K:D
+DB,|: ~A,3 DFA|dfd ecA|~B3 AFD|EGF EDB,|~A,3 DFA|dfd ecA|B/2c/2dB AFA|
+|1 Bdc d2B, :|2 Bdc d2B|: AFA dfa|bgb afd|~g3 ~f3|ede fdB|AFA dfa|
+bgb afd|BGB AFA|1 Bdc d2B :|2 Bdc dfe|: dAF AFE|DB,A, DFA|~d3 ede|
+fdB B2c|dAF AFE|EDC DFA|dcd e/2f/2gf|1edc dfe:|2edc d2B|: AFA dfd|
+~B3 dAF|DEF EDE|FDB, B,2B|AFA dcd|~B3 dAF|DEF EDE|1FDC D2B:|2FDD D2B,|
+S:https://www.folktunefinder.com/tunes/161706
+S:http://www.thesession.org/tunes/display/1351
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

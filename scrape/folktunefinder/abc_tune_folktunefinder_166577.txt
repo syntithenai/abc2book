@@ -1,0 +1,19 @@
+X:1
+T:Irish Mazurka, The
+R:mazurka
+L:1/8
+M:3/4
+K:G
+DG|"G"B2 BA GB|d2 dB AB|"C"c2 ce dc|"D"(3Bcd g2 DG|
+"G"B2 BA GB|d2 dB AB|"C"c2 cA "D"FA|1 "G"G4:|2 "G"G3 g gf|]
+"C"e2 ce ce|"G"d2 dB AB|"D"c2 cA FA|"G"B2 Bg gf|
+"C"e2 ce ce|"G"d2 dB AB|"D"c2 cA FA|1 "G"G3 g gf:|2 "G"G4|]
+S:https://www.folktunefinder.com/tunes/166577
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/mazurkas/irish_mazurka.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

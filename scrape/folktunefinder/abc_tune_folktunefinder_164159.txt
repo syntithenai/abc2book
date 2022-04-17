@@ -1,0 +1,27 @@
+X:1
+T:The Highlandman
+R:Highland
+S:Mairead Ni Mhaonaigh & Frankie Kennedy, "Altan"
+Z:Philippe Varlet  irtrad-l 2001-12-24
+N:Irish variant of Scottish tune "The Highlandman Who Kissed His Mother/Grannie"
+M:4/4
+L:1/8
+Q:180
+K:D
+A2 A/2A/2A B/2c/2d ec | ABce dBGB | A2 A/2A/2A B/2c/2d eg | af{a}ge dBGB:||
+K:G
+cg~g2 af{a}ge | ce{a}ge dBGB | cg~g2 afgb | af{a}ge dBGB :||
+S:https://www.folktunefinder.com/tunes/164159
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/highland/Highlandman_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/Highlandman_1.abc
+% Rhythm Highland
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: The Drumnagarry Strathspey
+T: The Fisher's Rant
+C: J.Hardy
+N: in H&C p.56 and Skye p.74 and p.100
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+R: strathspey
+D: Altan: Island Angel
+M: C|
+K: G
+|: "G"G>D CB,A,G, B,<D GD | "Am"E<A, F>A, "D7"G>A, F>A, | "G"G>D CB,A,G, B,<D G>D | "Am"(3EFG (3ABc "D7"(3BAG (3FED |
+| "G"G>D CB,A,G, B,<D GD | "Am"E<A, F>A, "D7"G>A, F>A, | "G"G>D CB,A,G, B,<D G>A | "Am"E>A "D7"GFED "G"G3 |]
+[| Bc \
+| "G"d>B A<G g>d B<G | "C"(3cec "G"(3BdB "D7"A>B c>e |  "G"d>B A<G g>d B<G | "C"(3ced "D7"cBA "G"(3GDC (3B,A,G, ||
+| "G"d>B A<G g>d B<G | "C"(3cec "G"(3BdB "D7"A>B c>e |  "G"(3dcB "D7"(3ABc "G"(3BAG "Am"(3FGA | "G"(3GFE "D7"(3DEF "G"(3GDC (3B,A,G, |] "G"G,4 |]
+S:https://www.folktunefinder.com/tunes/154702
+S:http://trillian.mit.edu/~jc/music/book/500/Drumnagarry.abc
+S:http://trillian.mit.edu/~jc/music/book/500/FishersRant.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/Drumnagarry.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/FishersRant.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

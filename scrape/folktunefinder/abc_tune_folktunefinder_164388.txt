@@ -1,0 +1,27 @@
+X:1
+T:Himmelfahrt Boarisch
+C:Simon Wascher
+R:schottisch
+A:Oesterreich
+Q:260
+M:2/4
+L:1/16
+K:C
+(3GAB |\
+c2e2 eceg | A2f2 f3e | eddc cBBA | G2gf eGAB |\
+c2e2 eceg | A2f2 f3e | eddc cBAG | "fine"c2edc2 :|
+|:\
+gecd e2fg |afde f3e | d3c B3A | G2g2 e3f |\
+gecd e2fg |afde f3e | d3c BGdB | c2cB c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164388
+S:http://simonwascher.info/TradArchiv_schottisch/himmelfahrt_boarisch.abc
+% Rhythm Schottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

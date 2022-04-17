@@ -1,0 +1,25 @@
+X:95
+T: Die Todesbraut
+N: Q1049G
+O: Suedosteuropa, Jugoslawien, Gottschee
+N: Melodievergleich zu Q0049B, anderes Lied.
+R: Brauchtums - Lied, religioes
+M: 3/4
+L: 1/4
+K: A
+A | BAG | AAB | BAB | A2
+B | =cBA | GAB | A2G | A2
+A | BAG | AAB | BAB | A2
+B | =cBA | GAB | A2G | A2
+S:https://www.folktunefinder.com/tunes/151624
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Brauchtums - lied, religioes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

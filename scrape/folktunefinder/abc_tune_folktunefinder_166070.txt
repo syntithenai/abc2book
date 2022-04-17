@@ -1,0 +1,22 @@
+X: 1
+P: unknown hornpipe that I have played many times
+R: reel
+M: C|
+L: 1/8
+K: C
+|: gf|"C"egec "G"dfdB| "C"cdec G2 Bc| "Dm"dcde "F"fedc|"G"B2 g2 g2 gf|\
+"C"egec "G"dfdB| "C"cdec G2 cB| "F"Aagf "G"edcB|"C"c2 e2 c2 :|
+|: EF|"C"GEGc "F"AFAc|"G"BcdB "C"c2 de|"Dm"fefg "F"agfe|"D"dcBA "G"G2 GG|\
+"F"AGAF "G"BABG |"Am"cBcA "G"d2 cB|"F"Aagf "G"edcB|"C"c2 e2 c2 :|
+S:https://www.folktunefinder.com/tunes/166070
+S:http://terrytraub.org/abc/UnknownHornpipeH.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/UnknownHornpipeH.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

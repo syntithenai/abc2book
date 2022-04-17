@@ -1,0 +1,27 @@
+X:40
+T: Visitors [The]
+R: jig
+M: 6/8
+L: 1/8
+C: J.Derrane
+D: "The Tie That Binds" [Shanachie]
+Z: B.Black
+K: D
+A|def edc|dcd FGA|=cde dcA|GED =C2E|
+DFA GBd|Ace gfe|fed cBA|GEA D2 :|
+d|fdc dfa|baf afd|gfg Bed|cBc Aag|
+fce dAB|=cE=F Gce|dcd BAF|GEA D2 :|
+S:https://www.folktunefinder.com/tunes/152896
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/v.abc
+S:http://www2.redhawk.org:8080/irish/zouki/v.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/v.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

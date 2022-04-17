@@ -1,0 +1,25 @@
+X: 2
+T: The Dark Island
+C: Iain McLaughlin
+R: waltz
+Q:175
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+B \
+| "Em"e>Be "Bm"d>ed | "G"B>AG "D"A2 d/e/ | "D"f>ed "Bm"d<aA | "G"f>af "A7"e2B |
+| "Em"e>Be "Bm"d>ed | "G"B>AG "D"A2 d/e/ | "D"f>Aa/f/ "A7"e>Af/e/ | "G"d3 "D"d2 :|
+|: f/g/ \
+| "D"a>AA "D7"f>ed | "G"B<GB "D"A2 d/e/ | "D"f>ed "Bm"d<aA | "G"f>af "A7"e2B |
+| "Em"e>Be "Bm"d>ed | "G"B>AG "D"A2 d/e/ | "D"f>Aa/f/ "A7"e>Af/e/ | "G"d3 "D"d2 :|
+S:https://www.folktunefinder.com/tunes/151486
+S:http://ale.physics.sunysb.edu/~mcgrew/music/other/TheDarkIsland.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/other/TheDarkIsland.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

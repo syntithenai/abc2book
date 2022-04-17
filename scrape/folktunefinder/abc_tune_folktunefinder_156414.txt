@@ -1,0 +1,46 @@
+X:8014
+T:Estudio (5)
+C:Dionisio Aguado
+O:Spain
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/aguado-dionisio/aguado-estudio05-gtr1.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:C
+L:1/16
+K:Am -8va
+V:1
+A,cec Acec Bded ^GBeB|Acec A,cec Acec ceee|Bded Eded ^GBeB Eded|Acec Ecec Ccec Ecec|
+V:2
+A,4 A4 B4 ^G4|A4 A,4 A4 c4|B4 E4 ^G4 E4|A4 E4 C4 E4|
+%
+V:1
+A,cec Acec Bded ^GBeB|Acec A,cec A^cec Gcec|Fdfd Ddfd EBeB E,^GdG|A,AcA EAcA A,4 z4:|
+V:2
+A,4 A4 B4 ^G4|A4 A,4 A4 G4|F4 D4 E4 E,4|A,4 E4 A,4 z4:|
+%
+V:1
+|:^GBeB EBeB E,BeB Bded|Acec Ecec E,cec ceee|ceee Bded Bded Acec|^GBeB EBeB E,4 z4|
+V:2
+|:^G4 E4 E,4 B4|A4 E4 E,4 c4|c4 B4 B4 A4|^G4 E4 E,4 z4|
+%
+V:1
+^GBeB EBeB E,BeB Bded|Acec Ecec A,AcA CAcA|DABA FABA E^GBG E,GdG|A,AcA EAcA A,4 z4:|
+V:2
+^G4 E4 E,4 B4|A4 E4 A,4 C4|D4 F4 E4 E,4|A,4 E4 A,4 z4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/156414
+S:http://abc.musicaviva.com/tunes/aguado-dionisio/aguado-estudio05-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/aguado-dionisio/aguado-estudio05/aguado-estudio05-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/aguado-dionisio/aguado-estudio05/aguado-estudio05-gtr1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/aguado-dionisio/aguado-estudio05/aguado-estudio05-gtr1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

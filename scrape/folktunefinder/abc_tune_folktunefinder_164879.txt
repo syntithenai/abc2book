@@ -1,0 +1,25 @@
+X:1
+T:Horren e Munkberg
+R:Polska
+Z:Patrik Mnsson, 2008-11-03
+O:Barsebck, Skne
+S:efter Per Munkberg, SvL. Skne 766
+B:Omtyckta Sknska Allspelsltar
+M:3/4
+L:1/8
+K:Dm
+(A |: A2) d>(^c d)e | [fA]2 [fA]g e>^g | a2 a(^g a)d | f2 e^c A[AF] | A2 d>(^c d)e |
+[fA]2 [fA]g e>^g | a2 a(^g a)[fd] | (3(Ace) (d2 [dD]2) :: a2 ab ga | f2 fg e^g | a2 a^g ad |
+fe e^c A[AF] | A2 d>(^c d)e | [fA]2 [fA]g e>^g | a2 a(^g a)[fd] | (3(Ace) (d2 [dD]2) :|
+S:https://www.folktunefinder.com/tunes/164879
+S:http://www.folkwiki.se/pub/cache/Horren_e_Munkberg_6950dc.latin.abc
+S:http://www.folkwiki.se/pub/cache/Horren_e_Munkberg_6950dc.abc
+S:http://www.folkwiki.se/pub/cache/Horren_e_Munkberg_6950dc.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

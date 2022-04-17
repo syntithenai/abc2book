@@ -1,0 +1,39 @@
+X:1
+T:Dill Pickle Rag
+C:Charles L Johnson, 1906
+M:4/4
+L:1/8
+%V:1 treble clef
+K:G
+%|"^Intro"D E/2 F E/2 D z D, E,/2 F, E,/2|D, DD-DDE DE|=F ^F3 D3|
+|:"G"!segno!"^A part"de gd eg de|gd eg-ge d2
+|"A7"GA BG AB GA|BG AB-B AG-G
+|"D7"DE FD EF DE|FD EF-FE D-D
+|1"G"G-G GF "E"EF GA|"A"BA "D"Bd-de "^To Coda"d-d:|
+|2BA Bd-dB A-A|"G"G2 G2 F2 E2|
+|3!coda!BA Bd-dB A-A|"G"G2 B2 d2 !fine!g2||
+|"D7""^B part"D-D ^DE-E=F ^F-F
+|"G"G-G ed-de d-d|"D7"F-F ed-de d-d
+|"D7"D-D ^DE-E=F ^F-F|"G"G-G ed-de d-d
+|1"A7"fe fa-ab ag|"D7"f-f d-e ^cd z-z::
+|2"A7"fe fa-af d-d|"G"g4 "G7"G-G (3GAB
+|"C""^C part"c4 g4|c-c cd cB AG
+|E-E EG ED CD|E-E G-G A-A B-B
+|c-c cd cB AG|EG EC-CD E-E
+|"D"DE FD EF DE|"G7"GF GB-BA G-G
+|"C"c-c cd cB AG|EG EC-CD E-E
+|"F"A,B, CD ED CD|"C"C-C c-c B-B _B-_B
+|"F"A_A =Ac-cB cd|"C"ed "A7"eb-b-b a-a
+|"D7"ed e"G"g-ge d-d|"C"c2 ^C2 "D7"d2 !D.S.!z2||
+S:https://www.folktunefinder.com/tunes/153443
+S:http://gulfweb.net:34043/~rlwalker/abc/dill.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/dill.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/dill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

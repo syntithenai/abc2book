@@ -1,0 +1,27 @@
+X:1
+T:Fisherman's Harvest, fichier abc : Bernard Loffet
+C:Reel
+L:1/8
+Q:460
+M:2/2
+K:C
+|: [C2C,,2][EC,]G c2C,G | [AF,,]G[FF,]A GE[E2C,2] | [FD,,]D[DD,]C DE[FD,]G | [AG,,]c[dG,]c BG[GG,]f | \
+ [eC,,]c[c2C,2] dc[BG,]d | [c2F,,2][BF,]c AG[FF,]E | [DD,,]E[FD,]G Ac[dD,]c | [BG,,]G[FG,]D DC[CC,]D :|: [eC,,]c[c2C,2] GE[E2C,2] | \
+ [CC,,]E[GC,]c e2[dG,]e | [fD,,]d[d2D,2] fe[dD,]B | [cG,,]e[dG,]c BG[FG,]D | [CC,,]E[E2C,2] Gc[BG,]c | \
+ [AF,,]f[f2F,2] dc[BF,]A | [GG,,]c[eG,]g fe[dG,]c | [BG,,]G[FG,]D DC[C2C,2] :| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/158052
+S:http://diato.ifrance.com/diato/tablat/127.abc
+S:http://diato.ifrance.com/tablat/127.abc
+S:http://diato.org/tablat/127.abc
+S:http://perso.orange.fr/diato/tablat/127.abc
+S:http://perso.wanadoo.fr/diato/tablat/127.abc
+S:http://pro.wanadoo.fr/diato/tablat/127.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/127.abc
+S:http://www.diatonique.net/tablat/127.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

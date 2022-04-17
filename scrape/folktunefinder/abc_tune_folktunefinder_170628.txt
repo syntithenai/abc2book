@@ -1,0 +1,22 @@
+X: 1
+T: Kv\aernengsreinlender
+R: shottish
+O: Norway
+M: 2/4
+L: 1/16
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+K: G
+|: "G"D2B2 BAB2 | D2B2 BAB2 | G2Bd g3f | "C"f2e2 e^de2 \
+| "D7"D2F2 FEFE | D2F2 FGAB | [e2c2][e2c2] d^cdF | "G"A2G2 G4 :|
+|: "G"B2d2 d3c  | "D7"B2AG [AF]GAB | "C"c2e2 e3d | "G"c2BA [BG]ABc \
+    | d2ef g4   | "C"f2ed [e4c4] | "G"BdBG "C7"BcAF | "G"A2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/170628
+S:http://trillian.mit.edu/~jc/music/abc/Scand/shottish/Kvaernengsreinlender_G.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

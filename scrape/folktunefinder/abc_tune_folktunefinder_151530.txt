@@ -1,0 +1,25 @@
+X:1
+T: Vriesken
+N: Q0032
+O: Mitteleuropa, Deutschland / Niederlande
+N: Melodie = geistliche Kontrafaktur. Kleinere Melodievariante aus
+N: anderer Quelle abgedruckt.
+R: Ballade, Ehebruch, Zweikampf, Tod
+M: none
+L: 1/8
+K: D
+D2 | D4D2 | A4A2 | =F4G2 | A4
+A2 | A4A2 | =c4A2 | =F4E2 | =F4z2
+F2 | =F2F2 | E2D2 | ED=F3ED4C2 | D4z4
+D2 | A4A2 | =c2c2A2 | =F4E2 | =F4z6
+F2 | =F2FFE2D2 | ED=F3ED4C2 | D6
+S:https://www.folktunefinder.com/tunes/151530
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, ehebruch, zweikampf, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

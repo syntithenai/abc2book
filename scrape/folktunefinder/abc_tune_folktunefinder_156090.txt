@@ -1,0 +1,28 @@
+X:1
+T:Wistful Waltz
+C:copyright 1997 Kaubells
+R:Waltz
+% E:22
+M:3/4
+K:Dm
+\bigskip
+de|:"Dm"f4 (3efe|d2c2d2|"Am"e4A2|"Am7"c4 de|
+"Dm"f4 (3efe|d2c2d2|"Am"e6-|e2 z2 de|
+"Dm"f4 (3efe|d2c2d2|"Am"e4A2|"Am7"c2z2c2|
+"Bb"d2c2B2|"Gm"A2G2FG|1"F"A6-|A2z2de:|2F6-|F4A2|]
+"Gm7"B2c2d2|"C13"f2e2zd|"F"e4A2|"Am"c4A2|
+"Bb"B2c2d2|"C13"f2e2zd|"F"e6-|e4A2|
+"Gm7"B2c2d2|"C13"f2e2zd|"F"e4A2|"Am"c4A2|
+"G7"=B2c2d2|"E7"f2e2d2|"A7"e6-|e2z2de|]
+T:End after A part.
+S:https://www.folktunefinder.com/tunes/156090
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/waltz1.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

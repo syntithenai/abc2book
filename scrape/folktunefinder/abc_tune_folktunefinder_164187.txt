@@ -1,0 +1,33 @@
+X:1
+T:Highland Mary
+M:4/4
+C:
+S:Bacon (MDT)
+N:
+A:Bampton
+O:English
+R:Reel
+%P:A.(AB$^2$)$^4$
+P:A.(AB2)4
+K:A
+%:NoTeX
+%:NoWWW
+Q:1/2=96
+P:A
+(3EFG  | A2 BA  GF  E2 | A2   Bc  d2    cd  | e2 ef  edcB   | A2 c2  E3 \
+F/2G/2 | A2 BA  GF  E2 | A2   Bc  d2    cd  | e2 ef  edcB   | A2 G2  A2 ||\
+P:B
+z2     | ABcd   e2  e2 | fe   ec  (3ded cB  | e2 ef  edcB   | ABcA   E3 \
+F/2G/2 | A2 BA  GF  E2 | A2   Bc  d2    cd  | e2 ef  edcB   | A2 G2  A4 ||
+S:https://www.folktunefinder.com/tunes/164187
+S:http://www.ucolick.org/~sla/morris/music/Bampton/himary.lb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

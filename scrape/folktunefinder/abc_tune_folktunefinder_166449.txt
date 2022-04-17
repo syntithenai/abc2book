@@ -1,0 +1,29 @@
+X:3
+T:
+T:Variation I.
+M:3/4
+L:1/8
+K:C
+%1
+G>F | (3E-Gc e>c (3BcA | (3G^FA (3GEC G,>C | (3B,DF B2 (3dDF |
+%2
+(3EGc e2 G>F | (3EGc e>c (3BcA | (3G^FA (3GEC G,>C | (3B,DF (3GBd (3fBd |
+%3
+c4 || e2 | {E}(3dcA ^FDF A>F | G~B d > d | (3edc (3AD^F A>F |
+%4
+(3GBd g > e | {E}(3dcA (3^FDF A>F | G~B  d3  d | (3edc AD^F A>F |
+%5
+G4 G>F | (3EGc e>c (3 BcA | (3G^FA (3GEC G,>C | (3B,DF B2 (3dDF |
+%6
+(3EGc | e2 G>F | (3EGc "(1)"e3 c2 (3BcA | (3G^FA (3GEC G,>C | (3B,DF (3GBd (3fBd | c4 |]
+N: sic.  In other words, this one measure is in 4/4 instead of 3/4, but not notated that way.
+S:https://www.folktunefinder.com/tunes/166449
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-trp.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-trp.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

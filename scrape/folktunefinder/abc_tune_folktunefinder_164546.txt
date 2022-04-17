@@ -1,0 +1,21 @@
+X:39
+T:The Holey Halfpenny
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+d |: B2G GBG | d2 G GBG | B2G GBG |
+d3 edc | B2G GBG | d2c BAG |
+A2f fef | c3 edc :: B2g gfg |
+d2g B2g | B2g gfg | c3 edc |
+B2g gfg | d2g B2g | A2f fef | c3 edc :|
+S:https://www.folktunefinder.com/tunes/164546
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Holey_Halfpenny.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

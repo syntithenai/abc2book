@@ -1,0 +1,26 @@
+X:61
+T: Graserin und Reiter
+N: Q0149I
+O: Osteuropa, Ungarn, Budapest, Budakeszi
+N: Transkription einer Tonaufnahme. Taktart in Taktwechsel geaendert.
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 2/4
+L: 1/16
+K: G
+D2 | G2A2B2c2 | d2d2d2
+d2 | e2f2g2e2 | e4d4z2
+d2 | e2f2g2e2 | e4d4z2
+g2 | d2B2A2cc | c2B2G2
+B2 | B2A2c2F2 | G2B2d4z2
+g2 | d2B2A2cc | c2B2G2
+B2 | B2A2c2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/153014
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

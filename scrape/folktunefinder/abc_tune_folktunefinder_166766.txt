@@ -1,0 +1,29 @@
+X:1
+T:Italiener
+C:traditionell
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:4 3 2/4
+L:1/4
+K:G
+d2 | gd | e/d/c/e/ |
+d2 | gd | e/d/c/e/ |
+de/d/c/B/ | cd/c/B/A/ |1 BG :|\
+                         [2 G2 ||
+|:\
+Dd/c/d | Af/e/f | gdce | d2 |
+Dd/c/d | Af/e/f | gd/B/Ad | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/166766
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/italiener.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

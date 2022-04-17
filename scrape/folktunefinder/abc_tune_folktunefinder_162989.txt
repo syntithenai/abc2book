@@ -1,0 +1,24 @@
+X: 1
+T: Hambo efter Bengt Jonsson
+O: Bengt Jonsson 
+S: Bengt Jonsson [6/95] NY
+Z: 2007 John Chambers <jc@trillian.mit.edu> from printed ms by Karen Myers
+M: 3/4
+L: 1/8
+K: G
+z2 \
+| "G"(B>d) g>(B d)>c | "G"(B>d) g>(B d)>B \
+| "D7"((3cdc) (A>f) A>f |1,3 "G"g3 (f>e) d>c :|2,4 "G"g2 g2 :|
+|: B>d \
+| "D7"c2 B2 A2 | "G"(G>B) D>(G B)>(G \
+| "D7"F<A) D>(F A)>F |1,3 "G"(G>B) (D>G) B>d :| "G"G2 G2 :|
+S:https://www.folktunefinder.com/tunes/162989
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hambo/BengtJ_H2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

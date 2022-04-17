@@ -1,0 +1,41 @@
+X:1
+T:Hanter dro : A dix heures dans la plaine
+Z:Roger Ngaret (Octobre 99)
+R:hanterdro
+C:Gilbert Hervieux
+A:Bretagne
+S:
+M:3/4
+L:1/16
+K:G
+%%rm
+"G"B2BA B2c2 "D"A2G2 | "G"B2BA B2c2 "D"A2G2 | "G"B2BA B2c2 "D"A4 ::
+"G"G2GG G2d2 d2d2 | "D"c2cd c2B2 A4 | A2AA "G"d3c B2B2 | "D"A2BA F2A2 "G"G4 :| 
+%%rm
+%%rm A dix heures dans la plaine
+%%rm Au pied d'une fontaine
+%%rm J'ai rencontr ma mie
+%%rm
+%%rm A dix heures dans la plaine
+%%rm Au pied d'une fontaine
+%%rm J'ai rencontr ma mie
+%%rm
+%%rm Rossignolet sauvage
+%%rm Va faire des envieux
+%%rm Que le printemps arrive
+%%rm Amusons-nous tous deux
+%%rm
+%%rm Rossignolet sauvage
+%%rm Va faire des envieux
+%%rm Que le printemps arrive
+%%rm Amusons-nous tous deux
+S:https://www.folktunefinder.com/tunes/163177
+S:http://termen.free.fr/danses/termen/HanterdroAdixheuresdanslaplaine.abc
+% Rhythm Hanterdro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

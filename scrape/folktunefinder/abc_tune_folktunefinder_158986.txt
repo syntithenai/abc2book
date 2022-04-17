@@ -1,0 +1,21 @@
+X: 1
+T: Forth Brig, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: B>c^c>d g>fe>d | c>d^d>e a>gf>e | f>c'b>a g>fe>f | (3gba (3gfe ~d2 dc |
+B>c^c>d g>fe>d | c>d^d>e a>gf>e | f>c'b>a g>fe>f | [1 (3gdb (3gdB G2 dc :| [2 g2 b2 g2 B2 ||
+|: b>gf>e ^d>fB>c' | b>ag>f e>fg>^g | a>fe>d ^c>eA>g | f>ed>^c d>^de>f |
+g>dB>G F>G=F>G | E>Gc>e g>ed>c | B>c^c>d D>_E=E>F | [1 (3GDB (3GDB, G,2 B2 :| [2 G2 [B2D2] [G2B,2] dc ||
+S:https://www.folktunefinder.com/tunes/158986
+S:http://www.thesession.org/tunes/display/9073
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

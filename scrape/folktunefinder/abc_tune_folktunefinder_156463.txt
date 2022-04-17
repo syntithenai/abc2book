@@ -1,0 +1,39 @@
+X:1
+T: Everlasting Life : SOPRANO \'i\'e
+Z: Contributed 2009-01-30 16:30:04 by ming tsang tsang94@rogers.com
+K:
+%%MIDI program 1 0
+%%measurenb  0
+%%measurebox  1
+M:3/4
+L:1/4
+Q:1/4=100
+V:ss clef=treble name="Soprano" sname="S"
+K:C
+[V:ss]  z3 | z3 | z3 |
+[V:ss]  z3 | z3 | z3 |
+[V:ss]  E3 | E D > D | G3 - |G2 z |
+[V:ss]  G3 | G ^F > F | B3 - |
+[V:ss]  B A G | c2 B | B A G |
+[V:ss]  F2 E | A z A | d d c | B c A |
+[V:ss]  A G E | c2 z | C2 F |
+[V:ss]  F E z | E2 d |d B A |
+[V:ss]  G c e | e2 d | c3 - | c z c/c/ |
+[V:ss]  [M:4/4] c3 B | d c2 c | c3 B |
+[V:ss]  (d c) z c | d3 ^c | e d2 d |
+[V:ss]  d3 ^c | e d z d | e3 ^d |
+[V:ss]  f e z/ c/ d/e/ | f4 -  |f z e f | e3 d |
+[V:ss] [M:3/4] c3 | z3 | z c f | f2 e |
+[V:ss]  d2 c | (B3  | c2) A | G2 z |
+[V:ss]  G3 | A G> G | c3 - | c2 z |
+[V:ss]  E3 | E D> D | G3 - | G2 z |
+[V:ss]  E3 | E D E | C3 - | C3 ||
+S:https://www.folktunefinder.com/tunes/156463
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/EverlastingLifeSoprano.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

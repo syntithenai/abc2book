@@ -1,0 +1,27 @@
+X: 1
+T: John Stenson's #2
+R: reel
+M: C|
+L: 1/8
+K: A
+|: c-B \
+|  "A"ABcA B2cB | ABcA "E"BAFE | "A"ABcA B2ef | "E"e2cA BAFE |
+   "A"ABcA B2cB | ABcA BAFE | "D"d2dc "A"dfed | "E"cdBc A2 :|
+|: ef \
+|  "A"e2cd e2cd | edcA BAFE | "F#m"e2cd edcA | B2Bc BAFE |
+   "D"e2cd edcd | edcA BAFA | "Bm"d2dc "D"dfed | "E"cdBc A2 :|
+N:Portland Collection, pg 115 - adapted by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:A Major
+S:https://www.folktunefinder.com/tunes/168649
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/JohnStensonsNo2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

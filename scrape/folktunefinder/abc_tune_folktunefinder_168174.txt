@@ -1,0 +1,26 @@
+X: 1
+T: John D. Burgess
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:fAA eAA|dcB A3|d2e f2a|agf ede|
+fAA eAA|dcB A3|Adf a2g|fge d2e:|
+|:fed edc|dcB A3|d2e f2a|agf ede|
+fAA gfe|d3 c2B|Adf a2g|f2e d3:|
+|:Adf a2g|fde f3|Ace g2f|eBc dcB|
+Adf a2g|fde f3|Adf a2g|f2e d3:|
+aaa a2g|f2x d2x|d2e faa|agf efg|
+aaa a2g|f3 dcB|Adf a2g|f2e d3|
+aaa a2g|f2x d2x|d2e faa|agf efg|
+fAA gfe|d3 c2B|Adf a2g|f2e d3||
+S:https://www.folktunefinder.com/tunes/168174
+S:http://www.thesession.org/tunes/display/4648
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

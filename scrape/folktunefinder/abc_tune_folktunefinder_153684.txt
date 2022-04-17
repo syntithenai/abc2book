@@ -1,0 +1,27 @@
+X: 1
+T: Doctor O'Neill
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+A|:dcd AFD|E2F G2 A|BGB Bcd|AGF EFA|dcd AFD|\
+E2 F G2 A|BGB Bcd|AFD D2 A:| 
+|:dcd ceA|dfe dcB|AFA Bcd|AGF E2A|dcd ceA|dfe dcB|AFA Bcd|1AFD D2 A:|2AFD D2 g|
+|:fef afd|ded fed|gfg faf|gee e2 g|
+fef afd|ded fed|gbg fag|fdd d2 g:|
+|:fdf ece|dcB AFA|AFd AFD|AGF E2 g|fdf ece|dcB AFA|
+AFA Bcd|1AFD D2 g:||2AFD D2 G|
+|:FAF GBG|FAG FED|FAF GBG|AGF E2G|
+FAF GBG|FAG FED|BGB Bcd|1AFD D2 G:|2AFD D3||
+S:https://www.folktunefinder.com/tunes/153684
+S:http://www.thesession.org/tunes/display/1304
+S:http://gregdahms.ca/Tunes/DoctorONeill.abc
+S:http://www.gregdahms.ca/Tunes/DoctorONeill.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

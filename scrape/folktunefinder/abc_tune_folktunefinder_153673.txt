@@ -1,0 +1,27 @@
+X: 1
+T: Doctor MacLeod Of Alnwick
+M: 4/4
+L: 1/8
+R: barndance
+K: Amix
+|: a<f | 
+e2 cB AEAB | cBA<c e2 ge | d2 BA GDGA | B<AG<B d2 af |
+e2 cB AEAB | cBA<c e2 af | gedc BG (3Bcd | e2 A2 A2 :|
+|: (3Bcd | 
+e2 a2 a2 g<f | e2 d<B e2 d<c | B2 g2 g2 g<a | gfe<c d2 cd |
+e2 a2 a2 g<f | e2 d<B e2 af | gedc BG (3Bcd | e2 A2 A2 :|
+|: a<f | 
+eAcA eAc>A | ceA<c e2 ge | dGBG dGBG | B<dG<B d2 af |
+e2 cA eAcA | ceA<c e2 a<f | gedc BG (3Bcd | e2 A2 A2 :|
+|: cd | 
+ea^ga e<AcA | ceAc e2 dc | Bgfg dGBG | B<dG<B d2 cd |
+ea^ga eAcA | ceA<c e2 a<f | gedc BG (3Bcd | e2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/153673
+S:http://www.thesession.org/tunes/display/6515
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

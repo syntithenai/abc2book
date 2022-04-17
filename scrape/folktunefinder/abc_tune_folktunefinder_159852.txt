@@ -1,0 +1,46 @@
+X: 1
+T:Galopede
+T:(also known as Yarmouth reel or Persian dance)
+C:Trad, countemelody by Laurie Griffiths
+Z: posted by Laurie Griffiths 9/99
+L:1/8
+M:4/4
+K:G
+V:1
+dc | "G"B2Bc "D"A2AB | "G"G2G2G2AB |\
+"Am"cB c d ed c B | "D"A2A2A2dc |\
+"G"B2Bc "D"A2AB | "Em"G2G2G2AB |\
+"Am"cB A G "D7"FG A F | "G"G2G2G2:|
+dc | "G"B2gf "C"e2e2| "G"dc B c "D7"A2BA |\
+"G"G2gf "Am"ed c B | "D"A2A2A2BA |\
+"G"G2gf "C"e2e2| "G"dc B c "D"A2dc |\
+"G"Bd c B "D7"Ac B A | "G"G2G2G2
+Bc |
+"G"d2d2d2g2| "G"d2d2d2g2|\
+"G"d2d2"Am"ed c B | "D7"A2A2A2Bc |\
+"G"d2d2d2g2| "G"d2d2d2g2|\
+"C"ed c B "D7"dc B A | "G"G2G2G2||
+V:2
+L:1/8
+M:4/4
+K:G
+BA | G2G2F2D2| G2B2B2cB |\
+AG A B cB A G | F2D2D2BA |\
+G2G2F2D2| G2B2B2AG |\
+FG A B cd e f | g2B2B2:|
+Bc | d2d2c2c2| Bc d e f2f2|\
+gf e d cB A G | F2D2D2F2|\
+d2d2c2c2| Bc d e f2f2|\
+gf e d fe d c | B2B2B2
+GA | B2B2B2d2| B2B2B2d2|\
+B2B2cB A G | F2D2D2GA |\
+B2B2B2d2| B2B2B2d2|\
+gf e d cd e f | g2B2B2||
+S:https://www.folktunefinder.com/tunes/159852
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Galopede_1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

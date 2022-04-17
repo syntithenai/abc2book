@@ -1,0 +1,21 @@
+X: 1
+T: Kitchenpiper, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+AddA d2Ad|defd edBA|GBdg fedf|eAcB A2ef|
+AddA ~d3A|defd edBA|gGBg fAdf|1 eddc d2dB:|2 eddc defg||
+aAAf AAdA|AfAA aAfA|GBdg fedf|eAcB A2fg|
+aAAf AAdA|AfAA aAfA|gGBg fAdf|eddc defg|
+aAAf AAdA|AfAA aAfA|GBdg fedf|eAcB A2ef|
+AddA ~d3A|defd edBA|gGBg fAdf|eddc d2dB||
+S:https://www.folktunefinder.com/tunes/170135
+S:http://www.thesession.org/tunes/display/2012
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

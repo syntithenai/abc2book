@@ -1,0 +1,23 @@
+X:73
+T: Die Rheinbraut
+N: Q0041P
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Neisse, Waltdorf
+N: Anderes Lied "Ulinger - Ballade" (Kontaminationsform) Q0041, deshalb
+N: dieser Ballade zugeordnet.
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 2/4
+L: 1/16
+K: D
+D2F2D2 | F2F2A2
+F2 | F2E2FEE2 | E2E2G2
+E2 | D2D2D2A2 | F4E4 | D2
+S:https://www.folktunefinder.com/tunes/151602
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

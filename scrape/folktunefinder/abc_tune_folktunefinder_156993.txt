@@ -1,0 +1,37 @@
+X:7915
+T:Farah Fezah
+C:anon.
+O:Turkey
+N:19th Century
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/turkey/farah-fezah.abc
+M:3/4
+L:1/8
+K:Em
+"^Allegro"(g4f2|g4)g2|(a2b2a2)|(g2f2e2)|(e6|^d4)e2|
+(g2f2e2)|e6:|b6|b4a2|(a3ba2)|(g2f2e2)|
+(e6|d4)=f2|(e2d2c2)|(B2A2d2|)d6|(ded2)c2|
+(d2e2)d2|(c2B2)(AG)|(c2B3A)|(G2F2E2)|(GFE2^D2|E6)|
+g2(gagf)|(e2b2)b2|(c'2b2^a2|b6)|g2(gagf)|(g2f2e2)|
+(fagfe^d|e6)|:b4(ab|c'2b2a2)|a4(ga|b2a2g2)|
+(g3fe2|f2e2^d2|[1e2)(f2g2|a2b4):|[2e6-|e6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/156993
+S:http://abc.musicaviva.com/tunes/turkey/farah-fezah.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/turkey/farah-fezah.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/turkey/farah-fezah.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/turkey/farah-fezah.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/turkey/farah-fezah.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

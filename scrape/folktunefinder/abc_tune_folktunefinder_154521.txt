@@ -1,0 +1,34 @@
+X:1
+T:An dro : Patrice Corbel
+E:12
+Z:Roger Ngaret (94-95)
+R:andro
+C:Patrice Corbel
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=176
+"Am"A4 c2A2 a2A2 c2e2 | "G"d2G2 B2d2 "Am"e4 e2e2 |1\
+"F"f2e2 d2c2 "G"B4 A2B2 | "F"c2A2 B2c2 "Em"B8 :|2\
+"F"f2e2 d2c2 "G"B4 A2B2 | "F"c2A2 B2c2 "Am"A8 |: \
+A4 G2F2 "Em"E4 B2E2 | c2E2 d2E2 "Am"e8 |1 \
+e4 d2c2 "G"B4 A2B2 | "F"c2A2 B2c2 "Em"B8 :|2\
+"Am"e4 d2c2 "G"B4 A2B2 | "F"c2A2 B2c2 "Am"A8 |: \
+A2B2 c2d2 e2A2 c2e2 | "F"d2e2 (3f2e2d2 "Am"e4 A4 |1 \
+"F"a4 g2f2 "C"e4 d2c2 | "G"B2c2 d2e2 "Em"B6B2 :|2\
+"F"a4 g2f2 "C"e4 d2c2 | "Em"B2d2 B2G2 "Am"A6A2 |: \
+A6c2 "G"B6A2 | G2A2 B2G2 "F"A2B2 A2G2 |1 "Am"E4 A2c2 "G"B6A2 |\
+"Em"G2A2 B2G2 "Am"A6E2 :|2 E4 A2c2 "G"B6A2 | "Em"G2A2 B2G2 "Am"A6A2 |]
+S:https://www.folktunefinder.com/tunes/154521
+S:http://termen.free.fr/danses/vannetais/AndroPatriceCorbel.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: Ger the Rigger
+C: Kevin Burke, If the Cap Fits
+R: reel
+M: C|
+L: 1/8
+K: A
+|: "A"e2A2 e2A2 | efed c2A2 | "D" d4 defg | "E"a2e2 f2e2 |
+   "A"e2A2 e2A2 | efed c2A2 | "D" d4 "A"c4 | "E"BABc "A"A4 :|
+|: "A"a2e2 fece | a2e2 fece | "D" d4 defg | "E"a2e2 f2e2 |
+   "A"a2e2 fece | a2e2 fece | "D" d4 "A"c4 | "E"BABc "A"A4 :|
+N:www.mne.psu.edu/lamancusa/tunes/gertherigger.pdf - abc by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:A Major
+S:https://www.folktunefinder.com/tunes/160853
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/GerTheRigger.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Hanter dro : Suite de Trbabu
+Z:Roger Ngaret (Mai 2001)
+R:
+C:Trad.
+S:Toniou Breiz Izel de Polig Monjarret
+A:Bretagne
+M:3/4
+L:1/16
+K:C
+B2dc A2c2 B2G2 | B2dc A2c2 B4 :: B2Ac B2G2 B2A2 |
+B2AB d2c2 A2c2 | B2AG A2A2 G4 :: c2cd c2B2 A2G2 |
+c2cd e2c2 d4 :: d2ef f2f2 d2g2 | c2de f2e2 d4 |
+d2ef g2f2 d2g2 | c2Bc d2e2 c4 :: c2BA B2G2 c2c2 |
+d2ef g2f2 d2^fe :: c2BA B2G2 c2c2 | d2e^f g2^f2 d4 |
+e2ed c2e2 gfd2 | c2eg f2e2 d4 | e2ed e2g2 c3e | dcBd c8 :|
+S:https://www.folktunefinder.com/tunes/163198
+S:http://termen.free.fr/danses/vannetais/HanterdroSuitedeTrebabu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:3
+K:G
+M:3/4
+L:1/16
+T:Isbrytaren, polska efter Byss-Kalle (nr 24)
+R:Slngpolska
+O:Uppland
+S:efter Byss-Kalle
+Z:2007-12-14 
+B: 57 ltar efter Byss-Kalle nr 24
+O:efter Byss-Kalle, Uppland
+DG |               G2dB G2bg  d2gd  | !pralltriller!B2dB G2Bd (cB)AG | (FG)AB !pralltriller!c2ed (cB)AG | (FG)BA (GF)GE D4 | 
+     !pralltriller!G2dB G2bg  d2gd  | !pralltriller!B2dB G2Bd (cB)AG | (FG)AB               c2ed (cB)AG | (FG)AF G6       :| 
+dc | B2dB g4    B2d2  | c4   edcB  A2c2  | B2d2   e4   A2B2   | c4 (dc)BA  B2dc  |
+     B2dB g4    B2d2  | c4   edcB  A2c2  | B2d2   g2b2 (ab)ag | (fg)af g6       :|
+g2 | (fg)af (ef)ge (gf)ed | (^cd)ec d2AF  D2>G2  | (GB)dg (ge)ce (ed)Bd | 
+     (dc)Ae (dc)Ad g2>g2  | (ge)ce (ed)Bd (dc)Ac | (BA)GF G4 G2dc       |
+     (BG)Bd (BG)Bd (ed)cB | (AF)Ac (AF)Ac (dc)BA | (GB)dg (ge)ce (ed)Bd |
+     (dc)Ae (dc)Ac g2>g2  | (ge)ce (ed)Bd (dc)Ac | (BA)GF G6           :|
+S:https://www.folktunefinder.com/tunes/166697
+S:http://www.folkwiki.se/pub/cache/Isbrytaren_polska_efter_ByssKalle_nr_24_3aacc5.latin.abc
+S:http://www.folkwiki.se/pub/cache/Isbrytaren_polska_efter_ByssKalle_nr_24_3aacc5.abc
+S:http://www.folkwiki.se/pub/cache/Isbrytaren_polska_efter_ByssKalle_nr_24_3aacc5.abcm.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

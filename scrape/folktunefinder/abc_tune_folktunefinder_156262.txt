@@ -1,0 +1,28 @@
+X:1
+T:Entre-deux
+C:Eric Elsener\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:Dm
+A2d2A2 | B3AG2 | A2B2c2 | B4G2 |
+A2d2A2 | B3AG2 |1 A2B2c2 | A4D2 :|\
+               [2 A4D2 | A6 ||
+|:\
+A2GAGF | E3FE2 | D2E2F2 | E4D2 |
+A2GAGF | E3FE2 |1 D3CD2 | E6 :|\
+               [2 E3FG2 | A6 |]
+S:https://www.folktunefinder.com/tunes/156262
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/entre-deux.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:209
+T: Die verkaufte Muellerin
+N: Q0086H
+O: Suedosteuropa, Rumaenien, Sathmar
+N: Zweistimmig notiert, Oberstimme kodiert, auch die eingeklammerte Note.
+R: Ballade, Menschenhandel, Rettung, Hinrichtung
+M: 6/4
+L: 1/8
+K: G
+D2 | G2G2B2d2d2B2 | A4d2c4
+B2 | A2A2d2A4G2 | F2G2B2A4
+GA | B2B2Bed4BG | A6G4
+GA | B2B2Bed4BG | A6G4
+S:https://www.folktunefinder.com/tunes/152241
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, menschenhandel, rettung, hinrichtung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

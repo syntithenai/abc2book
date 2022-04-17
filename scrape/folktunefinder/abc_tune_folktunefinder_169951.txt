@@ -1,0 +1,26 @@
+X:1
+T:King George IV
+C:as played by Deirdre Havlin on Daenta's &quot;Ready for the Storm&quot; (track 1,tune 1)
+M:4/4
+R:Reel
+K:Ador
+|:.A2.A2A3B|cBAB ~e3d |~A3d ~e3A|dedB BAGB|
+.A2Ad ~e3A|Bc d2 ~e3d|AB d2 {f}g2 e|dedB BAGB|
+.A2Ad ~e3A|Bc d2 ~e3d |~A3d ~e3A|dedB BAGB|
+.A2Ad ~e3A|Bc d2 ~e3d|AB d2 {f}g2 e|dedB BAG2|
+e4 A3B|cBAB(3efe d2|e4 a3f|g2 agfedf|
+e2 ee A3B|cBAB (3efe d2|B2 d2 ~g2 e|dedB BAGB|
+e2 e2 {B}A3B|cBAB (3efe d2|{d}e2e2 {b}a3f|g2 {b}agfedB|
+a3 f ~g3 e |~f3d (3BcB A2 |B2 d2~g3 e|dedB BAGB:||
+Note, the grace notes are meant to be played as cuts! The first grace note on bar |{d}e2e2 {b}a3f| is meant to be played as a slur upwards from d to e. The emphasis on the e of course.
+S:https://www.folktunefinder.com/tunes/169951
+S:http://www.thesession.org/tunes/display/1114
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

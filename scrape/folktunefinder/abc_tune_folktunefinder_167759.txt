@@ -1,0 +1,25 @@
+X: 1
+T: Jig In A
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+B|[c3e3]{d}cBA|BAF ECB,|~A,3 CA,C|ECE FEC|
+A,2 c cBA|BAF ECB,|~A,3 CA,C|EAG A2 B|
+cec cBA|BAF ECB,|~A,3 CA,C|ECE FEC|
+A,2 e cBA|BAF ECB,|~A,3 CA,C|EAG A2 E||
+A/B/cE GBE|Ace a2 e|faf ecA|cB_B =BcB|
+A/B/cE GBE|Ace a2 e|faf ecB|{d}BAG AcB|
+A/B/cE GBE|Ace a2 g|~f3 ecA|cB_B =BcB|
+A/B/cA GFE|Ace a2 e|faf ecB|{d}BAG A2 B||
+S:https://www.folktunefinder.com/tunes/167759
+S:http://www.thesession.org/tunes/display/4328
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

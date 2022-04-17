@@ -1,0 +1,29 @@
+X:1
+T:Homeless Wassail
+M:2/2
+L:1/4
+K:C
+ E| A3/2 B/2 c e d B/2A/2| G3/2 B/2 c A B A/2G/2|
+M:3/2
+ E G| A3 E|
+M:2/2
+ A3/2 B/2 c e| d B/4- A3/4 G3/2 B/2| c AB/2-A/2| G| E G A3| G
+M:2/2
+| c c cB/2-c/2| d d e3/2 d/2| c A B/2- A G/2| A GE/2-F/2 G| c c cB/2-c/2|\
+M:3/2
+ d3/2 d/2| e3 e/2d/2| c/2c/2 A B A/2G/2 E G|
+M:2/2
+ A3||
+S:https://www.folktunefinder.com/tunes/164630
+S:http://back.numachi.com:8000/dtrad/abc/HOMEWASS.abc
+S:http://sniff.numachi.com/abc/HOMELESS.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/HOMELESS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

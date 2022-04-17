@@ -1,0 +1,27 @@
+X: 2
+T:Hewlett
+T:Planxty Hewlett
+M:3/4
+L:1/8
+C:Turlough O'Carolan
+K:D
+AF \
+|: "D"D2 DE FG | "A"AB c2 A2 | "Bm"d2 f2 fg | "G"fe d3B |
+   "D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "A"D2 |[1 "D"D4 AF :|[2 "D"D4 AB ||
+|: "D"A2 F2 AB | "(Dm7)"A2 F2 AB | "(D6)"A2 d2 d2 | "Bm"dc BA GF |
+   "Em"G2 E2 GA | G2 E2 EF | "A"GF GB AG | "D"AF D3E |
+   "D"FE F2 G2 | "A"AB c2 A2 | "Bm"fe fg ag | "G"fe d3B |
+   "D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "A"E2 |[1 "D"D4 AB :|[2 "D"D4 AF |]
+N:The Waltz Book, pg 28 - adapted by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/164018
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/Hewlett.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

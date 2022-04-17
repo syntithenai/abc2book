@@ -1,0 +1,18 @@
+X:1
+T:Farewell to Old Bedford
+M:3/4
+L:1/4
+K:C
+ A| A G A| E DC/2-A,/2|C/2-A,/2 C D| E G G-|(3A3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002B3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002B3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002 G A|\
+ A/2c/2 A A| G/2G/2 E D| D2 G| G A A| c2 c3/4 d/4| e dc/2-A/2| A G G|\
+ A/2 A3/2 c| d3/2- A/2 c3/4 d/4|e/2-d/2 c/2-A/4-G/4 A| A2|
+S:https://www.folktunefinder.com/tunes/157144
+S:http://back.numachi.com:8000/dtrad/abc/OLDBDFRD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

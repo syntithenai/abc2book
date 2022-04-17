@@ -1,0 +1,17 @@
+X:1
+T:John Ball
+M:4/4
+L:1/8
+K:C
+ ee cA G3 E| FG AF G4| e2 cA G2 Bc| dc Bcd-e f2| ee cA G3 E| FG AF G2 GG|\
+ A2 FA fe dc| B4 c4| d2 d2 d3 e| dc BA G4| e2 eef-e dc| e2- f2 g2 gf|\
+ e2 cA G3 E| FG AF G2 GG| A2 FA fe dc| B4 c4|
+S:https://www.folktunefinder.com/tunes/168114
+S:http://back.numachi.com:8000/dtrad/abc/JOHNBALL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

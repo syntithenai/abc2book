@@ -1,0 +1,23 @@
+X: 3
+T: Dick Sands'
+M: 4/4
+L: 1/8
+R: clog / hornpipe
+K: Gmaj
+(3def |\ 
+gd (3Bcd GBed | cBAG FA (3DEF | GABc ^cded | Ad (3^cde d2 (3def |
+g2 dB G2 ed | c2 (3BAG (3FGA DF | GBdB ecAF | G2 g2 G2 :|
+|: cB |\ 
+A2 (3BAG F2 (3DEF | GABc ^cded | cBcG edcB | Ad (3^cde d2 (3def |
+(3gbg dB (3ege (3cBA | (3d^cd BG cA (3FGA | GBdg ez (3cAF |[1 Gz Dz G,z :|[2 G2 d2 g2 |]
+S:https://www.folktunefinder.com/tunes/153357
+S:http://www.thesession.org/tunes/display/8364
+% Rhythm Clog / hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

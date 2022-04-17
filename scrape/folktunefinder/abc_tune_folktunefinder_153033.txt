@@ -1,0 +1,25 @@
+X:80
+T: Der Jaeger im Tannenholz
+N: Q0151C
+O: Suedosteuropa, Jugoslawien, Batschka, Vinkovci, Neudorf
+R: Ballade, abgewiesener Freier, Abschied
+M: 6/8
+L: 1/16
+K: C
+E2 | E4E2F4E2 | E6D4
+A2 | A4G2D2E2F2 | E6z4
+EE | C2E2G2c4d2 | c4A2B4
+A2 | G2G2D2F4E2 | C6z4
+EE | C2E2G2c4d2 | c4A2B4
+A2 | G2G2D2F4E2 | C6z4
+S:https://www.folktunefinder.com/tunes/153033
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, abgewiesener freier, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

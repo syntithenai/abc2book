@@ -1,0 +1,35 @@
+X: 1
+T: Iltat\"ahti [Gm]
+T: Evening Star
+C: S\"av. Onni Laihanen
+C: San. M Maja
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: copy of printed page of unknown origin
+M: 2/4
+L: 1/16
+K: Gm
+DE \
+| "Gm"DG/G/GB/B/ Bd/d/dB | d2kd2- dDGB \
+| dd/d/de d_dcB | "D7"A2A2- AD^FA |
+| cc/c/cc cedc | "Gm"BB/B/BB BdcB \
+| "A7"AA/A/ AA AB=B^c | "D7"dd/d/ de d4 |
+| "Gm"DG/G/GB/B/ Bd/d/dB | d2kd2- dd^cd \
+| "G7"GG/G/G_A G_GF=E | "Cm"_E2 E6 |
+|: "Cm"[c'2e2G2]z2 z4 | "Gm"[b2d2G2]z2 z4 \
+| "D7"[a2d2^F2]z2 z4 |1 "Gm"g4 z4 :|2 "Gm"g2 ("D7"[d2c2^F2] "Gm"[g2d2B2G2]) D2 \
+|: "Gm"[d8-B8-] | [dB]DGB de2d \
+| "D7"cA2B c4- | c2 D2E2D2 |
+| "Gm"[B8-G8-] | [BG][A^F][BG][cA] [dB][c2A2][BG] \
+| "D7"[A8-^F8-] | [A2F2] d2e2d2 \
+| "G7"=BG2A B4- | B2 [_A2F2][G2E2][F2D2] |
+| "Cm"[E8-C8-] | [EC] G2c2e2 \
+| "Gm"dB2G B2G2 | "D7"cA2^F A2F2 \
+|1 "Gm"G6 "Cm"E2 | "D7"D6 D2 :|2 G2z2 z4 | z2 "D7"([d2c2^F2] "Gm"[g2d2B2G2]) |]
+S:https://www.folktunefinder.com/tunes/156457
+S:http://trillian.mit.edu/~jc/music/abc/Finland/tango/IltaTahti_Gm.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

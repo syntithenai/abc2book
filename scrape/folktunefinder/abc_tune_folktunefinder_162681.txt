@@ -1,0 +1,35 @@
+X:22
+T:Gubbstt
+T:efter Pelle Fors
+O:Vikbolandet, stergtland
+S:efter Pelle Fors
+B:Ltar efter Pelle Fors
+R:Gubbstt
+Z:Bjrn Ek 2009-01-01
+N:Nr 22 i Ltar efter Pelle Fors
+M:3/4
+L:1/8
+K:C
+%
+|:c2 G>^F G2|A2 F>E F2|D>E F>G A>c|e2 c>B c2|
+c2 G>^F G2|A2 F>E F2|DE FG AB|c2 c4:|
+%
+|:A>^G A2 c2|!trill!c2 B>G E2|e3 d B>d|c>d c>B A2|
+(c/d/c/B/)c2 e2|e2 d>B G2|(G/A/G/^F/) G2 e>d|c2 c4:|
+%
+|:C>E G2 c2|!trill!c>BB3 A|G2 G>f e>d|e2 c>B c2|
+C>E G2 c2|!trill!c>BB3 A|G2 G>f e>d|c2 c4:|
+%
+S:https://www.folktunefinder.com/tunes/162681
+S:http://www.folkwiki.se/pub/cache/Gubbst%f6t_f21afe.latin.abc
+S:http://www.folkwiki.se/pub/cache/Gubbst%f6t_f21afe.abcm.abc
+% Rhythm Gubbstt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T:Drowsy Maggie
+S:Eric Foxley
+M:4/4
+L:1/4
+K:Em
+G/2F/2|\
+P:segno
+"Em"EB/2E/2 d/2E/2B/2E/2|"Em"EB/2E/2 "D"A/2F/2D/2F/2|"Em"EB/2E/2 d/2E/2B/2E/2|\
+"Em"B/2A/2B/2^c/2 "D"d/2B/2A/2F/2|
+"Em"EB/2E/2 d/2E/2B/2E/2|"Em"EB/2E/2 "D"A/2F/2D/2F/2|"Em"EB/2E/2 d/2E/2B/2E/2|\
+"Em"B/2A/2B/2^c/2 "D"d/2A/2F/2A/2|
+"D"df/2d/2 "A7"^ce/2c/2|"D"d/2e/2f/2g/2 "A7"a/2f/2g/2e/2|\
+"D"df/2d/2 "A"^ce/2c/2|"G"B/2A/2B/2^c/2 "D"d/2A/2F/2A/2|
+"D"df/2d/2 "A7"^ce/2c/2|"D"d/2e/2f/2g/2 "A7"a/2f/2g/2e/2|\
+"D"a/2f/2"c#"g/2e/2 "b"f/2d/2"a"e/2^c/2|"G"B/2A/2B/2^c/2 "D"d/2A/2
+P:D.S.
+F/2D/2||
+S:https://www.folktunefinder.com/tunes/154619
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drowsy_Maggie_10.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drowsy_Maggie_10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 2
+T: Liza Jane
+I: Liza JaneR-99Areel
+M: C|
+R: reel
+K: A
+ef| "A"a2f2 e2ce| fecB A4| a2f2 e2c2| "D"f4 f2ef|
+     "A"a2f2 e2ce| fecB A2AB| "D"cBAF "E"E2F2| "A"A6 :|
+|:\
+BA| "A"c4 c3A| B2(A2 A)ABA| c2B2 A2E2| "D"(F6 F)E|
+     "D"F2A2 "E"B3A| BAcA B2AB| "D"cBAF "E"E2F2| "A"A6 :|
+%%text Roaring Jelly  R-99
+S:https://www.folktunefinder.com/tunes/168433
+S:http://roaringjelly.org/music/sets/Set05.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set05.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set05.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

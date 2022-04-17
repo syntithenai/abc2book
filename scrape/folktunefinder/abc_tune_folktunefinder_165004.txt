@@ -1,0 +1,44 @@
+X:1
+T:Ma Yofus
+T:How Beautiful
+C:Trad.
+O:Klezmer
+D:Klezmer Pioneers, 1905-1952 (Rounder)
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=80
+M:2/4
+L:1/16
+P:ABCA
+K:Bb
+P:A
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 42
+%%MIDI chordvol 50
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+|:"D"(DE^FG ABAG) |.^F2(FD) "Gm".G2.G2 |"Cm".A2.A2 (cBAG) |"D".^F2(FD) "Gm".G4 |
+  "D"(DE^FG ABAG) |.^F2(FD) "Gm".G2.G2 |"Cdim".^F2.F2 (ED)(EC) |"D".D4 z4 :|
+P:B
+|:"Bb".B2 .d4 .d2 |"F".c2.c2 .F4 |(FGAB cdec) |"Bb".d4 "D"(dcBA) |
+  "Gm".G2 .B4 .B2 |"D".A2.A2 .D4 |(DE^FG ABFA) |1"Gm".G4 "F".F4 :|2"Gm".G8 ||
+P:C
+|:"D"^F3(D FDFD) |"Gm"G3(D GDGD) |"D"^F3(D FDFD) |"Cm".G4 (cBAG) |
+  "D"^F3(D FDFD) |"Gm"G3(D GDGD) |"Cdim".^F2.F2 (ED)(EC) |"D".D8 :|
+W:
+W:
+W:Arrangement Copyright (C) 2000 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/165004
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/MaYofus.abc
+S:http://people.csail.mit.edu/jaffer/Music/MaYofus.abc
+S:http://voluntocracy.org/Music/MaYofus.abc
+S:http://www.voluntocracy.org/Music/MaYofus.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

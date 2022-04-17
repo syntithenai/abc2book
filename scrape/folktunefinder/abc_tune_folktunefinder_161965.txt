@@ -1,0 +1,25 @@
+X:45
+T: Graf und Nonne (Die Nonne)
+N: Q0155r
+O: Osteuropa, Ungarn, Kalocsa, Hajos
+N: Anhaengsel an der zweiten Zeile.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 4/4
+L: 1/8
+K: F
+C2 | F3CA,2C2 | F2A2A2
+A2 | G3FE2F2 | G2CCC2
+FG | A3AA3A | A2c2BA
+GA | B3BB2B2 | B2d2c2
+cB | A2A2G2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/161965
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

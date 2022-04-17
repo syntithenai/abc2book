@@ -1,0 +1,27 @@
+X: 1
+T: Fiddler Crabs
+C: John Turner 2006
+R: hornpipe
+N: In tribute to "Sailor" Hector McNeill, founder of Red Springs, NC
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: e2 \
+| "Am"a2ed cBAc | "E"BA^GB "Am"A2ce | "Dm"fedf "Am"edce | "Dm"dcBA "E"B2e2 | "Am"a2ed cBAc |
+| "E"BA^GB "Am"A2c2 | "E"Bcdf "Am"ed"E"cB | "Am"c2A2 A2 || ED | "Am"A,B,CD EcBA | "E"^GEGA B2GB |
+| "Am"AEAB cBAc | "E"B2^G2 E2e2 | "Am"a2ed cBAc | "E"BA^GB "Am"A2c2 | "E"Bcdf "Am"ed"E"cB | "Am"c2A2 A2 :|
+S:https://www.folktunefinder.com/tunes/157642
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/John_Turner/FiddlerCrabs_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/h16/FiddlerCrabs_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/h16/FiddlerCrabs_Am.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

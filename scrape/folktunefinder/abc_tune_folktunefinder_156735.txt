@@ -1,0 +1,29 @@
+X: 3
+T:Frank's Reel
+M:C
+L:1/8
+C:John McCusker
+R:reel
+K:A
+E|:"A"AcBA "D"F2 AF |"A"EFAB {d}cABc | "D"d3 f "A"{g}eAce| "D"(3fga ec "
+E"(3Bcd cB|!
+ "A"AcBA "D"F2 AF | "A"EFAB {d}cABc| "D"d3 f "A"{g}ecAc |1"E"BAGB "A"A3
+E:|2"E"BAGB "A"Aefg||!
+"A"aAA"E"g AA"D"fA| "A"ef {a}fe cABc |"D"d3 f "A"{g}eAcA |"E"Bcde "D"fef
+g |!
+ "A"aAA"E"g AA"D"fA| "A"ef {a}fe cABc |"D"d3 f "A"{g}ecAc |"E"BAGB "A"Ae
+fg |!
+"A"aAA"E"g AA"D"fA| "A"ef {a}fe cABc | "D"d3 f "A"{a}eAce| "D"(3fga ec "
+E"(3Bcd cB|!
+"A"AcBA "D"F2 AF| "A"EFAB {d}cABc | "D"d3 f "A"{g}ecAc| "E"BAGB "A"A3||
+% Output from ABC2Win  Version 2.1 i on 12/28/2004
+S:https://www.folktunefinder.com/tunes/156735
+S:http://internet.cybermesa.com/~keating/music_abc/FAIRWILF.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

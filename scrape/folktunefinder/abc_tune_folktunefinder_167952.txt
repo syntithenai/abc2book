@@ -1,0 +1,30 @@
+X: 1
+T: JJ's Reel
+C: George Meikle
+N: for the Homecoming Dance, published by the RSCDS in January 2009
+F: http://www.rscds.org/homecoming-2009/The%20Homecoming%20Dance%20-%20music.pdf
+R: reel
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+D2 \
+|:"G"G2DB, G,B,DB, | "C"CDEF "Am"G2FE | "G"D2GA "Em"BGdB | "Am"ABAG "D7"FDEF  |
+| "G"G2DB, G,B,DB, | "C"CDEF "Am"G2FE | "G"D2GB "D7"ADFA |1 "G"G4   GD"D7"EF :|2 "G"G4 GD"D7"GA ||
+[|"G"BDDB  DDBD    | "C"cEEc "Am"EEcE | "G"BDDB     DDBD | "Am"ABAG "D7"FDGA  |
+| "G"BDDB  DDBD    | "C"cEEc "Am"EEcE | "G"BAGB "D7"AGFA |  "G"G4   GD"D7"GA |]
+[|"G"BDDB  dDBD    | "C"cEEc "Am"eEcE | "G"BDDB     dDBD | "Am"ABAG "D7"FDEF  |
+| "G"G2DB, G,B,DB, | "C"CDEF "Am"G2FE | "G"D2GB "D7"ADFA |  "G"G2G2     G4   |]
+S:https://www.folktunefinder.com/tunes/167952
+S:http://www.rscds.org/homecoming-2009/The
+S:http://www.rscds.org/homecoming-2009/The
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/JJsReel_G.abc
+% Rhythm Reel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

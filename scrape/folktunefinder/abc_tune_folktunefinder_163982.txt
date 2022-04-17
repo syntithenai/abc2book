@@ -1,0 +1,45 @@
+X:1
+T:Herzlich tut mich verlangen
+C:H.L. Hassler (1564-1612)
+C:Harm: J.S. Bach
+L:1/4
+%%staves {(1 2) (3 4)}
+M:C
+K:Am
+V:1 treble
+%%MIDI program 17
+E|AGFE|D2HEB|ccBB|HA3:|
+V:2 treble
+%%MIDI program 17
+B,|EED^C|D2^CE|^DE^FE/=D/|C3:|
+V:3 bass
+%%MIDI program 17
+^G,|A,_B,A,G,|A,/G,//F,// G,/D,/A,=B,|A,A,A,^G,|A,3:|
+V:4 bass
+%%MIDI program 17
+D,|C,^C,D,E,|F,_B,,HA,,G,|^F,E,^D,E,|HA,,3:|
+V:1
+c|BGAB|c2HcG|AGAF|HE3
+V:2
+E/^F/|GDEF|GFEG|FE/D/ED|^C3
+V:3
+A,|DB,CD|C/_B,/A,G,C|C^C/D/A,A,|A,3
+V:4
+A,|G,F,E,D,|E,F,HC,E,|F,_B,^C,D,|HA,,3
+V:1
+=c|B/c/dcB|A2HBE|FEDG|HE3|]
+V:2
+D|DG-G/^F/G|G^FGG|DCCB,/C/|DCB,|]
+V:3
+A,|G,/A,/B,CD|EDDC/B,/|A,G,A,G,/A,/|B,A,^G,|]
+V:4
+^F,|G,G,,A,,B,,|C,D,HG,,C,|D,E,^F,G,|^G,A,HE,|]
+S:https://www.folktunefinder.com/tunes/163982
+S:http://moinejf.free.fr/messe/messeH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

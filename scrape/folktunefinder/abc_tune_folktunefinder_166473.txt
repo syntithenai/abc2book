@@ -1,0 +1,21 @@
+X: 6
+T:
+T:Variation IV.
+M:3/4
+L:1/16
+%%MIDI transpose -24
+K:G bass
+%1
+z4 | GBdgbd' bgdBdB GBdgbd' 
+%Error : Bar 1 is 9/8 not 3/4
+| GBdgbd' bgdBdB GBdgbd' 
+%Error : Bar 2 is 9/8 not 3/4
+|
+S:https://www.folktunefinder.com/tunes/166473
+S:http://www.laymusic.org/music/arban/tyrolienne-d.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

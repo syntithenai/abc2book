@@ -1,0 +1,31 @@
+X: 1
+T:Grandfather Clock
+M:4/4
+C:
+S:Berkeley Morris
+N:dance by Anton Cepernich
+A:Field Town
+O:
+R:Reel
+P:A((AB)2C2)2C
+K:G
+I:speed 500
+P:A
+|: DD | G2 FG A2 GA | B2    cB E2 AA | G2 GG FE F2 | G4     G2    :|\
+P:B
+   Bc | d2 BA G2 FG | AG    FE D2 Bc | d2 BA GF G2 | A4     A2      \
+   DD | G2 z2 A2 z2 | (3BBB cB E2 AA | G2 GG FE F2 | G4     G2    ||\
+P:C
+   DD | G2 DD E2 DD | B,2   DD E2 DD | G2 DD E2 DD | B,2 DD E2      \
+   DD | G2 z2 A2 z2 | (3BBB cB E2 AA | G2 GG FE F2 | G4     G2    ||
+S:https://www.folktunefinder.com/tunes/162063
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Grandfather_Clock_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

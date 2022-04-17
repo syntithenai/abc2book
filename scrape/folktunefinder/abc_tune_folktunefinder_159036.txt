@@ -1,0 +1,19 @@
+X:1
+T:Four Green Fields
+M:3/4
+L:1/4
+K:G
+ G3| F2 E| D3-| D z D/2D/2| E3| C3| B,/2 D/2- D2-| D z2| G3| F2 E|\
+ D3-| D z D| E2 E| E/2 F3/2 G| F3| z E D| B3| A3| G3-| G z2| B2 G|\
+ c2 B| B/2 A/2- A2-| A z D| B3| A3| G3-| G z D| E2 E| E F G| A3| z D D|\
+ d3| c3| B3-| B z B| B2 G| c2 B| B/2 A/2- A2-| A z D| E3| G3| D3-|\
+ D z c| B3/2 A/2 G| A2 F| G3-| G2 z|
+S:https://www.folktunefinder.com/tunes/159036
+S:http://back.numachi.com:8000/dtrad/abc/FOURGREE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FOURGREE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

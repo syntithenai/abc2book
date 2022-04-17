@@ -1,0 +1,45 @@
+X:1
+T:Duo en la mineur
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle02.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:2/4
+L:1/8
+K:Am
+V:1
+"^Allegretto"e2a2-|a2^g2|e2d'2-|d'2c'2|a2g2|f2a2|g2f2|
+V:2
+ABcA|BdBA|^GBEG|A^GAB|cAB^c|dDd=c|BGAB|
+%
+V:1
+e2e2-|e2d2|gg2f-|fe2f|ccc2::g2c'2-|c'2b2|
+V:2
+cBAG|FFFF|E2A2|G2F2|EEE2::cdec|dfdc|
+%
+V:1
+d2g2|(f2e2)|e2a2-|a2^g2|B2e2|(d2c2)|ff2e|
+V:2
+BGAB|cdcB|ABcA|BdBA|^GBEG|A^GAA|D2E2|
+%
+V:1
+dd2c|BB2c|B2ze|aaaa|aaaa|b2^g2|aaa2:|
+V:2
+F2E2|DEF^D|E^GBd|cBAB|cdef|dBeE|AAA2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155031
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle02.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle02/devienne-nouvelle02.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle02/devienne-nouvelle02.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

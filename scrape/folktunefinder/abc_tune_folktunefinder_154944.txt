@@ -1,0 +1,66 @@
+X: 57
+T: Dunafalut Leanytanc
+O: Hungary
+S: Andor Czompo, Hungarian Folk Dance Music, AC Publications
+M: 4/4
+L: 1/8
+K: Am
+P:A
+Q:1/4=90
+%%MIDI gchord fzfz
+%%MIDI bassprog 25
+%%MIDI program 64
+  "a" A2 A2 "e" G2 E2    |"a" A2 A2 "e" G2 E2   |\
+  "f" F2 F2 "c" E2 F2    |"e" E6 E/F/G/^G/      |
+P:B
+Q:1/4=90
+  "a" A2 E2 "b" G2 F2    |"c"  E4   "d"  D3B,   |\
+  "a" B,A,4 z E/F/G/^G/  | "f"   A6B2           |\
+  "g" c2 A2     G2 E2    | FD2E3 "g" E/F/G/^G/  |
+  "a"     A6B2           |"c"  c2A2 "g" G2E2    |\
+  FD2E3 E/F/G/^G/        |A2E2 G2F2             |\
+  E4D4                   |B,A,3 -A,2 E/F/G/^G/  |
+  A6B2                   |"f" c2A2  "g" G2E2    |\
+  "c" FD2E3 "e" E/F/G/^G/|"a" A2E2  "b" G2F2    |\
+  "d" E4B,4              |"a" A,8               |
+P:C
+Q:1/4=120
+M:2/4
+L:1/8
+|"Am"A,2 A,/B,/^C\
+|:"Dm"D4                 | "Gm"G3F              |\
+  "Dm"ED2D-              | D2D/E/F              |\
+  "Am" A4                | d3c                  |\
+  BA2A-                  |A2D/E/F               |
+  A4                     | "Dm"d3e              |\
+  fd3                    |"Am"c4                |\
+  "Dm" d2cB              | cBAG                 |\
+  AD3                    |"Gm"G3 F              |\
+  EDD2                   |[1 "Dm"D2 D/E/F       :|[2D4|
+P:D
+K:Dm
+|:"Dm"GBAG               |A2G^F                 |\
+  GBAG                   |A2G^F                 |\
+  "Gm"GDDC               |F2FG                  |\
+  "Dm"GDDC               |D4                    :|
+P:E
+K:Gm
+|:"Gm"G>ABB              |cBAG                  |\
+  G>ABB                  |cBAG                  |\
+  "F"cGFE                |CDE2                  |\
+  "C"GGFE                |"Gm"C4                :|
+S:https://www.folktunefinder.com/tunes/154944
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Dunafalut_Leanytanc.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Dunafalut_Leanytanc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

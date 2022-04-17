@@ -1,0 +1,23 @@
+X:9
+T: Devlin's
+I: Devlin'sJ-46Bmjig
+M: 6/8
+R: jig
+K: Bm
+"Bm"d2B BAB| F2B BAB| "G"d2B Bcd| "A"cBc ABc|
+"G"d3 "A"e3| "Bm"f2b afe| "G"dcB "A"AFE| "Bm"FBB B2c:|
+|:"D"a3 f3| "A"e2A cBA| c2A cBA| "F#"cde f2e|
+"Bm"d2B BAB| F2B Bcd| "G"efg "A"fef| "Bm"dBB B3:|
+%%text Roaring Jelly  J-46
+S:https://www.folktunefinder.com/tunes/153292
+S:http://roaringjelly.org/music/jig/J046_Devlins.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J046_Devlins.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J046_Devlins.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

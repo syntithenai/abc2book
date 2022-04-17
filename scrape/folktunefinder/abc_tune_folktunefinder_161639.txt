@@ -1,0 +1,47 @@
+X: 1
+T: die Goldene Khasene
+T: the Golden Wedding
+R: bulgar
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: EDor
+EGB \
+"A"\
+|: "Em"e2Be- | eB/e/ d/c/B | eB3- | B2 (3dcB \
+| (3^ABc (3dcB | (3B^AG (3GFE | ^AB3- | BE GB |
+| "Em"e2Be- | ed "E7"cB | "Am"eA3 | =c3 B \
+| "Em"(3^ABc (3dcB | "B"(3B^AG (3GFE | "Em"E4- |1 EE GB :|2 "A"EE Ac ||
+"B"\
+|| "A"e4- | e_e d=c | "Am"{^df}e2 ee- | e4 \
+| ~fe ~fe | ~fe ~fe | g4- | g4 |
+| "Am"fe e^d | ^d=c cB | "B"^d4- | d3 B \
+| B=c ^de | ^d=c/d/ c/B/A | "Em"B4- | B^A/B/ =B/c/d/^d/ ||
+"A"\
+|| "Em"e2Be- | eB/e/ d/c/B | eB3- | B2 (3dcB \
+| (3^ABc (3dcB | (3B^AG (3GFE | ^AB3- | BE GB |
+| "Em"e2Be- | ed "E7"cB | "Am"eA3 | =c3 B \
+| "Em"(3^ABc (3dcB | "B"(3B^AG (3GFE | "Em"E4- | E4 || [K:Em]
+"C"\
+|: "Em"EG/G/ GG | ~FE GB | ~^AG AG | ^AG FE \
+| "B7"^DF B,D | FA GF |1"Em"EF GA | B4 :|2 "Em"E4- | E2 "E7"e2 ||
+"D"\
+|: "Am"c4- | c2 e2 | "Em"B4- | BB AG \
+| "B7"F3 G | AF GA | "Em"B4- | B2 "E7"e2 |
+| "Am"c4- | c2 e2 | "Em"B4- | BB AG \
+| "B"FG ^AB | B/^A/G/A/ G/F/E |1 "E"E4- | EE AB :|2 "Em"E4- | E4 |]
+S:https://www.folktunefinder.com/tunes/161639
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/GoldeneKhasene1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/GoldeneKhasene1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/GoldeneKhasene_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/GoldeneKhasene_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/GoldeneKhasene1_Em.abc
+% Rhythm Bulgar
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

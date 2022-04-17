@@ -1,0 +1,23 @@
+X:157
+T: Die neue Muehle
+N: Q0084
+O: Suedosteuropa, Jugoslawien, Gottschee, Rieg
+N: Grundton in der zweigestrichenen Oktave. Moeglicherweise
+N: schon kodiert.
+R: Ballade, Entfuehrung, Mord
+M: none
+L: 1/8
+K: C
+E4G4 | D4G4 | E2C2B,2z6
+G,4 | CDE2CDE2 | DDC4z2
+S:https://www.folktunefinder.com/tunes/152189
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Earl Of Mansfield's March, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: f<e |\ 
+d3 e d2 A2 | d>ef>g a2 g<f | e3 f e2 A2 | c>de>f g2 f<e |
+d3 e d2 A2 | d>ef>g a2 g<f | g2 e2 c2 A2 | d4 d2 :|
+|: a>g |\ 
+f3 g f2 A2 | d>ef>g a2 g<f | e3 f e2 A2 | c>de>f g2 f<e |
+f3 g f2 A2 | d>ef>g a2 g<f | g3 e c2 A2 | d4 d2 :|
+|: ag |\ 
+f2 d2 d2 a>g | f2 d2 d2 e<f | g2 A2 c2 e2 |
+[1 c2 A2 A2 a>g | f2 d2 d2 a>g | f2 d2 d2 e<f | g2 e2 c2 A2 | d4 d2 :|
+[2 c2 A2 A3 B/c/ | d3 e d2 A2 | d>efg a2 g<f | g2 e2 c2 a2 | d4- d2 |]
+S:https://www.folktunefinder.com/tunes/155365
+S:http://www.thesession.org/tunes/display/8052
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

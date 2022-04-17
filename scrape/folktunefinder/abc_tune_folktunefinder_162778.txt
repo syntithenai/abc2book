@@ -1,0 +1,28 @@
+X:1
+T: Gypsy Bulgar
+B: Kammen 9 #9
+C: (Kammen 9#9)
+R: Bulgar
+Z: John Chambers <jc:trillian.mit.edu>
+%%musicspace 8
+M: 2/4
+L: 1/8
+K: Amix
+|: "A"[ce][ce] [ce][ce] | [df][eg] [df][ce] | ed2 c | "E7"e/d/c/d/ "A"c :| [K:=f=c][K:Am] \
+|: "Am"[Ac][Ac] [Ac][Ac] | ^de dc | cB2 A | "E7"c/B/A/^G/ "Am"A2 :|
+|: "Am"cc cB | "F"BA2 A | "Am"cc cB | "F"BA2 A | "Am"Bc dc | "E7"_ed2 c | "Am"(3=edc (3cBA | [Ac]A Bc :|
+|: "Dm"d2 A(d | d)d cB | "Am"c2 A(c | c)c BA | "E7"B2 ^G(B | B)B A^G | "Am"A2 E(A | A) z3 :|
+S:https://www.folktunefinder.com/tunes/162778
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Bulgar_Kam9-9_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/Bulg_Kam9-9_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bulg_Kam9-9_A.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

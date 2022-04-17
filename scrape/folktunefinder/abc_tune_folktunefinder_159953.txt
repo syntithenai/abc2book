@@ -1,0 +1,42 @@
+X:7853
+T:Gammal vals fr\aan Delsbo
+T:Old waltz from Delsbo
+C:anon.
+O:Sweden
+A:Delsbo
+R:Vals
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/sweden/gammal-vals-delsbo.abc
+M:3/4
+L:1/8
+K:Dm
+"Dm"A4D2|"Gm"BAGFED|"A7"^CEAGFE|"Dm"F4D2|
+"Dm"A4D2|"Gm"dcBAGF|"C7"EGcBAG|"F"A4F2|
+"Dm"A4D2|"Gm"BAGFED|"A7"^CEAGFE|"Dm"F4D2|
+"Bb"f4d2|"F/C"cdcBAG|"Dm"FGFE"A7"E^C|"Dm"D4D2||
+"Dm"f3efg|"A7"e3^def|"Dm"d3^cde|"A7"c4A2|
+"Dm/F"a3^gab|"A7/E"g3^feg|"Dm"=fgfefg|"A"e2a2A2|
+"Dm"f3efg|"A7"e3^def|"Dm"d3^cde|"A7"c4A2|
+"Gm"B3AGB|"Dm/A"A3GF2|"A7"EEE2^C2|"Dm"D4D2|
+|:"F"FAcfag|"Bb/F"fegfef|"F"dc=Bcdc|"F"(A4F2)|
+"C7"CEGceg|"C7"bagfed|"C7"dc=Bcde|[1"F"fgafcA:|[2"F"f4z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159953
+S:http://abc.musicaviva.com/tunes/sweden/gammal-vals-delsbo.abc
+S:http://abc.musicaviva.com/tunes/sweden/gammal-vals-delsbo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sweden/gammal-vals-delsbo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sweden/gammal-vals-delsbo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/sweden/gammal-vals-delsbo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/sweden/gammal-vals-delsbo.abc
+% Rhythm Vals
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

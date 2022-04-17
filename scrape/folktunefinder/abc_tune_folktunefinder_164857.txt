@@ -1,0 +1,37 @@
+X:2598
+T:The Soldier's joy
+T:(Hornpipe)
+C:anon., arr. Frank Nordberg
+O:Ireland
+B:O'Neill 1001 no. 868
+R:Hornpipe
+Z:(C) 2001 Arranged by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/oneill-1001/0868/oneill-1001-0868-hrp2.abc
+M:C|
+L:1/8
+Q:1/2=118
+K:D
+(FG)|AFDF AFDF|A2d2 d2(cB)|AFDF AFDF|G2E2 E2(FG)|
+AFDF AFDF|A2d2 d2(de)|fafd (3efg ec|d2d2d2::(de)|
+fdfd fagf|edcd efge|fdfd fagf|edcB A2(de)|
+fede fagf|ecAc efge|fafd (3efg ec|d2d2d2:|
+V:2 clef=bass
+z2|d8|d8|d8|a8|
+d8|d8|d4 a4|d'2d2 d2::z2|
+d2d'6|a8|d2d'6|a4 a' a3|
+d2d'2 d4|a8|d'4 a4|d'2d2 d2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/164857
+S:http://abc.musicaviva.com/tunes/ireland/oneill-1001/0868/oneill-1001-0868-hrp2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/so/soldiers-joy-d/soldiers-joy-d-hrp2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/so/soldiers-joy-d/soldiers-joy-d-hrp2.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

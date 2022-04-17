@@ -1,0 +1,18 @@
+X:1
+T:John Henry
+M:4/4
+L:1/8
+K:D
+ z4 z2 ef| f f3 af af| a f- f4 ef|a-fa-ff-fe-c| c6 ce| a2f-e ff ec|\
+ ecA-F F2 EF|A-FA-FF-FE-E| F6 EF|A-FA-FF-FE-E| F6 z2|
+S:https://www.folktunefinder.com/tunes/168240
+S:http://back.numachi.com:8000/dtrad/abc/JHNHENRY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/JHNHENRY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

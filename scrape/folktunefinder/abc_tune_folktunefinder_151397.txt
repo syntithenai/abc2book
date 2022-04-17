@@ -1,0 +1,28 @@
+X:1
+T:Dans rond de schout
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:AABBC x3
+L:1/8
+M:2/4
+K:G
+P:Voorspel
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 |]
+P:A
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ dB | "D7"BA A2 | "G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 :|]
+P:B
+"D"AB/c/ dd | cB AD | "D"AA/A/ "G"Bc | "A7"A2 A2 | "D"AB/c/ dd | cB AA | "G"BG/B/ "A7"^cA | "D"d2 d2 :|]
+P:C
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ dB | "D7"BA A2 | "G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 |]
+P:Tussenspel
+"D7"[d3/c3/D3/][d/c/D/] [d3/c3/D3/][d/c/D/] | [d3/c3/D3/][d/c/D/] [d2c2D2] |]
+S:https://www.folktunefinder.com/tunes/151397
+S:http://user.online.be/~bvanhaverbeke/abc/Dans%20rond%20de%20schout.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

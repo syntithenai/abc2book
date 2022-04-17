@@ -1,0 +1,19 @@
+X:1
+T:Dublin City (Spanish Lady)
+M:4/4
+L:1/4
+K:A
+ z2 z E| E E EF/2-G/2| A A A/2A/2 B/2c/2| d B c A| F E/2E/2 E2| E E/2E/2 E G/2G/2|\
+ A AA/2-B/2 c| d/2d/2 B c A| F E E2| c e e c/2c/2| B A A B| c c/2c/2 e c|\
+ B A B3/2 E/2| c c e c| B/2B/2 A AB/2-c/2| d B c A| F E E2| E E/2E/2 E F|\
+ A AA/2-B/2 c| d B/2B/2 c A| F E E2| E E/2E/2 E F| A AA/2-B/2 c| d B/2B/2 c A|\
+ F E E z|
+S:https://www.folktunefinder.com/tunes/154774
+S:http://back.numachi.com:8000/dtrad/abc/DUBLNCTY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DUBLNCTY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

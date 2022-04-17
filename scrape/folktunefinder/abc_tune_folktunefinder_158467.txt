@@ -1,0 +1,36 @@
+X: 1
+T:Florida Rag
+S:Michael Falk
+M:4/4
+L:1/8
+Q:150
+C:John Hartford
+S:The playing of Norman Blake
+N:Norman Blake plays it AABACABACA on the CD "Norman and Nancy Blake"
+K:F
+(3cde|f2 fe fagf|cAFA c=Bdc|A^GAB A=GEG|F2 FF F2 c2|f2 fe fagf|cAFA
+c=Bdc|Acfa gfeg|ef f2 f2(3cde|f2 fe fagf|cAFA c=Bdc|A^GAB A=GEG|F2 FF
+F2 E2|D^CDF BdcB|A^GAd f2 f2|Acfa gfeg|1f2 ff f2:|2f2 ff f2 ef||
+K:C
+g^fga gecd|e^def e=dcG|cBcd cGEF|FG G2 G2 Bc|dBde dBGD|BABd BGAB|cdcB
+cdef|g2 gg g2 ef|g^fga gecd|e^def e=dcG|cBcd cGEF|G2 GG G2 AB|cGec ge
+c'a|geae gecd|e^deg e=dBG|c2 cc c2 (3cde||
+K:D
+ceAc FABc|defe cBAF|EFAE =FGAB|Bc c2 c2 z2|ceAc FABc|defe cBAF|EFAE
+=FGAB|Bc c2 =c2 (3cde||
+S:https://www.folktunefinder.com/tunes/158467
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Florida_Rag_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Florida_Rag_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Florida_Rag_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Florida_Rag_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

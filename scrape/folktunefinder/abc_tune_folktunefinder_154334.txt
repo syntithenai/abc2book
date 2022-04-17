@@ -1,0 +1,38 @@
+X:1
+T:Dreher
+R:dreher
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Michael Kellner, Regensburg 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+DG |\
+B2 B2 | Bc/B/ AG | d2 d2 | de/d/ cB |
+c2 c2 | cd/c/ BA | B2 B2 | B2 DG |
+B2 B2 | Bc/B/ AG | d2 d2 | de/d/ cB |
+c2 c2 | cd/c/ BA | Bd cA | B2 :|
+|: D2 |\
+c2 Ac | B2 GB | AD FA | GB d2 |
+c2 Ac | B2 GB | AD FA | G2 :|
+|: d2 |\
+B2 d2 | BB ed | d2 c2 | A2 c2 |
+A2 c2 | AA dc | B2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154334
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/dreher.B4B4B2cBA2G2.abc
+% Rhythm Dreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

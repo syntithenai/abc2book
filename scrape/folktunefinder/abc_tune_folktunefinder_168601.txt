@@ -1,0 +1,25 @@
+X:0645
+T:"John O'Reilly The Active"      0645
+C:Turlough O'Carolan
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:Did this guy know ANYONE who sat still
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+"^vb"D|DGG (GF3/2)G/2|cAG F2(G/2A/2)|(B/2d3/2)B (c/2A3/2)B|G3/2A/2G GDD|
+DGG GFG|c3/2A/2G F2GA|(c/2A3/2)d (c/2A3/2)d|G3/2A/2G G2:|
+|:G|G=ff f2f|=fdd cAA|Ggg g^fg|a=fd d2(c/2B/2)|
+cde =fef|ecB A2(B/2c/2)|dcd (d/2e/2=f)(e/2d/2)|cAG G2|]
+S:https://www.folktunefinder.com/tunes/168601
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/645-JohnReillyActive.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

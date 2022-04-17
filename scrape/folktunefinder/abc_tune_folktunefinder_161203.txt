@@ -1,0 +1,31 @@
+X: 120
+T: Gla'lten
+S: efter Pekkos Helmer
+O: Dalarna, Bingsj
+R: Pols
+Z: Hkan Lidn, 2008-09-27
+M: 3/4
+L: 1/8
+K: A
+V:1
+e | a2 e/f/e/d/ c>e | a2 ag/a/ b>g | a2 fe/d/ c>A | B2 B3 e |
+a2 e/f/e/d/ c>e | a2 ag/a/ b>g | a2 fe/d/ c>A | B<G A3 :: c | d>f e>d c>A | 
+B<G A2 B>c | d>f e>d c>A | B2 B3 c | d>f e>d c>A | B<G A2 B>c | 
+d>f e>d c>e | a2 ag/a/ b>g | a2 fe/d/ c>A | B<G A3 :|]
+V:2
+d | c2 c/d/c/B/ A>B | c2 cB/c/ d>B | c2 dc/B/ A>F | G2 G3 d |
+c2 c/d/c/B/ A>B | c2 cB/c/ d>B | c2 dc/B/ A>F | DA G>F E>C |
+DE | F>A G>F E>F | G2 G3 A | F>A G>F E>C | DE | 
+F>A G>F E>A | c2 cB/c/ d>B | c2 dc/B/ A>F | D<B, C3 :|]
+S:https://www.folktunefinder.com/tunes/161203
+S:http://www.folkwiki.se/pub/cache/_Glal%E5ten_0e7ae5.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

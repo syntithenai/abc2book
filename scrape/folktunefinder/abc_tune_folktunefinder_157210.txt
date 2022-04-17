@@ -1,0 +1,28 @@
+X:382
+%%topmargin 3cm
+U:~=!turn!
+T:Farewell to Whisky
+C:Neil Gow
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+N:"Whisky" is the spelling preferred in Great Britain.
+R:Strathspey
+M:C
+L:1/8
+K:Bb
+D | B,2 {/c}B/(TA/B/)d/ cG~G>B | FB {/d}c/B/c/d/ fd ~d>f | ga/b/ g/f/(e/d/) (e/d/)(c/B/) (cd) | FB (d/c/).B/.c/ {Bc}dB B :|
+g | {/g}f>d b>d {/f}e/d/c/B/ ~cd | f>db>d fbbf | ga/b/ fd (e/d/)(c/B/) cd | B,B (d/c/).B/.c/ {Bc}dBTB>g |
+f>dbd (e/d/)c/B/ c(d/e/) | x x x x  f/b/b/c'/ d'/g/a/b/ & f>g g/f/e/d/ fb g>f | ga/b/ d3/2~g//f// e/d/c/B/ cd | B,B (d/c/).B/.c/ {Bc}dB B |]
+S:https://www.folktunefinder.com/tunes/157210
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Farewell_to_Whisky.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0382.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

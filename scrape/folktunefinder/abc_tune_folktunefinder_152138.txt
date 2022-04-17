@@ -1,0 +1,23 @@
+X:106
+T: Die misshandelte Schwiegertochter
+N: Q3076B
+O: Mitteleuropa, Niederlande, flaemisch
+N: Melodievergleich zu Q0076, anderes Lied "Auf den Tod Philipps des
+N: Schoenen" . Verzierung (Vorschlag) in der letzten Zeile.
+R: Ballade, Tod
+M: 3/4
+L: 1/8
+K: A
+=GAG | =c2c2cB | A2
+AABA | =c2c2c2 | A2z
+S:https://www.folktunefinder.com/tunes/152138
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

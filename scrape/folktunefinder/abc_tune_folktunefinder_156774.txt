@@ -1,0 +1,20 @@
+X:5
+T:Fais paratre ton jour - Y53
+C:J. Berthier
+M:C
+L:1/8
+K:F
+"Rem"z2 DD DD EE|F4 G2 FE|D2 DD CC CC|A,6 z2|
+z2 FF FF GG|A4 B2 AG|F2 FF GG FG|A6 z2|
+z2AA AA cc|c4 B2 AG|F2 AA cc dc|A4 A2 A2|
+L:1/4
+"Fa"A2 Gc|F2 EE|D2 CG|A2 G2-|Gz AA|
+A2 Gc|F2 zE|DF FE|F2 z2||
+S:https://www.folktunefinder.com/tunes/156774
+S:http://moinejf.free.fr/messe/messeF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

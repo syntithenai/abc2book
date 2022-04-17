@@ -1,0 +1,23 @@
+X: 1
+T: Khazi
+M: 6/8
+L: 1/8
+R: jig
+K: Gmin
+BAc BFE|DEF B2c-|cdB c2B|(3ABc A FGA|
+~B3 BFE|DEF Bdf|gfd edc|1cBA Bdc:|2cBA Bz2||
+c3 cAB|cdA c2F-|FAc f2=e|dcA BAB|
+~c3 cAB|cdA ~c3|~c3 =EFG|GF=E FAB|
+c3 cAB|cdA c2F-|FAc f2=e|dcA BAB|
+cFF dFF|cdA ~c3|~c3 =EFG|GF=E FGA||
+S:https://www.folktunefinder.com/tunes/169670
+S:http://www.thesession.org/tunes/display/1108
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

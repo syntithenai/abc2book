@@ -1,0 +1,32 @@
+X: 1
+T:Jenny's Welcome To Charlie
+M:4/4
+L:1/8
+Q:200
+C:Traditional
+S:OO 687
+R:Reel
+N:First in set with "The Broken Pledge"
+K:G
+""||"(a) D"D3 B AGEF|"C"GEcE dEcE|"Dm"D2 dc AGEG|"C"(3ABA AG "Dm"EFGE |!
+"D"D3 B AGEF|"C"GEcE dEcE|"Dm"D2 dc AGEG|"C"(3ABA AG "Dm"EDD2||!
+""||"(b) F"d3 e dcAB|"C"cAdA cAGB|"F"Addc dcdB|"Am"cAGE ED D2 |!
+"F"dcde dcAB|"C"cAdB cAGE|"Dm"D2 (3EFG AddB|"C"cAGE ED D2||!
+""||"(c) Dm"eaag agef|"C"geaf gedf|"Dm"eaag agaa|"C"agea "Dm"e2 d2|!
+"Dm"eaag agef|"C"geaf gedB|"Dm"A2 (3Bcd e2 d B|"C"cAGE ED D2||!
+""||"(d) Dm"dfec dfed|"C"cAAB c2 AG|"Dm"Addd dcdd|"C"eaag "Dm"e2 d2|!
+"Dm"dcdc dfed|"C"cAAB cdcA|"Dm"GAcd (3efe de|"C"cAGc "Dm"(3ABA GE||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/167614
+S:http://www.blackflute.com/music/tunes/reels/jencharl.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

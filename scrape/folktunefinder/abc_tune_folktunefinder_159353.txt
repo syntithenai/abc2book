@@ -1,0 +1,25 @@
+X:1
+T:Fresk Skyss
+R:polka
+O:Oddvar Nygaard
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:2/4
+L:1/16
+K:D
+|: F2G2 \
+| "D"A2(3ABA F2G2 | A2(3ABA F2A2 | B4 A2F2 | "A7"A2EE E2E2 \
+| E2F2 G2A2 | c6 B2 |1 "D"A2G2 F2B2 | A4 :|2 "A7"A2G2 F2E2 | "D"D6 :|
+|: F2G2 \
+| "D"A2(3ABA F2A2 | "D7"f4 d4 | "G"B2(3BcB G2B2 | "Em"g4 B4 \
+| "A7"A2cc c2B2 | A2cc c2B2 |1 "D"A2G2 F2B2 | A4 :|2 "A7"A2G2 F2E2 | "D"D6 :|
+S:https://www.folktunefinder.com/tunes/159353
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/FreskSkyss.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianWilson/FreskSkyss.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

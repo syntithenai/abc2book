@@ -1,0 +1,23 @@
+X: 12
+T: Flowers of Edinburgh
+S: &quot;Henry Livingstons manuscript copybook&quot;, late 1700s
+M: 4/4
+L: 1/8
+K: G Major 
+|: B/c/d |\ 
+D3 E G3 A | BGdG B2AG | F3 E DEFG | AFdF E3 F | 
+D3 E G3 A | B2 d2 e2 (3efg | B2 AG A2 GA | B2 G2 G2 :|
+|: d2 |\ 
+gfga (3gab ag | fefg (3fga gf | edef gfed | B2 e2 e2 (3efg | 
+B2 AG d2 Bd | edef (3gab ag | B2 AG A2 GA | B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/155715
+S:http://www.thesession.org/tunes/display/2549
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,46 @@
+X: 2
+T:It Came Upon a Midnight Clear [D]
+C:Edmund H. Sears, Richard S. Willis
+S:MySheetMusic.com
+Z:ABC by Thornton Rose, December 2001
+N:Original score in C.
+M:3/4
+L:1/4
+K:D
+A | f2 c | e d B | A2 B | A2 A | B c d | d e f | e3- | e2
+A | f2 c | e d B | A2 B | A2 A | B2 B | c B A | d3- | d2
+f | f2 F | F ^G ^A | B2 c | d2 f | e d c | B c B | A3- | A2
+A | f2 c | e d B | A2 B | A2 A | B2 B | c B A | d3- | d2 :|
+%
+W:1. It came upon the midnight clear, that glorious song of old,
+W:From angels bending near the earth to touch their harps of gold
+W:Peace on the earth, goodwill to men, from heav'n's all gracious king
+W:The world in solemn stillness lay to hear the angels sing.
+W:
+W:2. Still through the cloven skies they come with peaceful wings unfurled
+W:And still their heavenly music floats, O'er all the weary world.
+W:Above its sad and lowly plains they bend on hovering wing
+W:And ever o'er its Babel sounds the blessed angels sing.
+W:
+W:3. O, ye beneath life's crushing load, whose forms are bending low
+W:Who toil along the climbing way with painful steps and slow
+W:Look now for glad and golden hours come swiftly on the wing
+W:O rest beside the weary road and hear the angels sing.
+W:
+W:4. For lo the days are hastening on, by prophets seen of old
+W:When with the ever circling years shall come the time foretold
+W:When the new heaven and earth shall own the prince of peace their King
+W:And the whole world send back the song which now the angels sing.
+S:https://www.folktunefinder.com/tunes/166771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/ItCameUponAMidnightClear.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/ItCameUponAMidnightClear.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/ItCameUponAMidnightClear.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

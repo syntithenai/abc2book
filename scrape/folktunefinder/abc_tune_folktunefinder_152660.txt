@@ -1,0 +1,56 @@
+X:29
+T:Ma maistresse, ma bonne amye
+R:Chanson
+C:Tielman Susato
+H:1544
+N:
+A:Anvers
+B:Premier livre des chansons
+O:Flandres
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+L:1/4
+Q:1/4=110
+%%measurenb 0
+M:C|
+K:C
+V:1
+%%MIDI channel 1
+%%MIDI program 60       % General MIDI french horn
+%%MIDI transpose 0
+z4 | G2 GG | A/G/A/B/c d-|
+d/c/ c2 B | c>B AG/F/ | E>F G2 | z GGG | 
+ABGc-|c B/A/ B2 | zGGG | ABGc-|
+c/B/A/G/ A B-|B/A/ G2 ^F | G4 | zG>FE/D/ |
+ Cc2 B/A/ | GABd-|d/c/B/A/ GA-|AG c2 |
+B3G | Ac2B | AGF2 | E4 | zEED | EGGF | E4 | zGGF | G z/B/BA | BcA G/F/ | E/C/ c2B | c2 zG |
+BBAB | [M:3/2] c3/ B/4A/4 GB A2 | [M:2/2] G4 | 
+[M:3/2] zGB BAB | [M:2/2] c B/A/ GA |
+V:2
+%%MIDI channel 2
+%%MIDI program 69       % General MIDI english horn
+%%MIDI transpose 0
+D2DD | E/D/E/F/ G E | FFED |
+ED/C/D2 | CC DE-|E/D/ C2 B,| C2zC | CDEC | E>FG2 | E2 CC | CDEC |
+V:3
+%%MIDI channel 3
+%%MIDI program 70       % General MIDI bassoon
+%%MIDI transpose -12
+K:C bass
+z2 g2 | c'3c | f>g ab | 
+c'ag2 | z cfe | 
+W:Ma maistresse, ma bonne amye,
+W:Tres humblement je vous supplye, (2x)
+W:Que de moy ayez souvenance,
+S:https://www.folktunefinder.com/tunes/152660
+S:http://anamnese.online.fr/abc/susato.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

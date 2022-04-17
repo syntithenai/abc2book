@@ -1,0 +1,31 @@
+X: 2
+T: Hobbled Horse, The
+M: 12/8
+L: 1/8
+R: slide
+K: G Dorian
+|: d |\ 
+B2 G ^FGA G2 =F D2 A | B2 d c2 A B2 G F2 d | 
+B2 G ^FGA G2 =F D2 A | B2 d cBA G3 G2 :|
+|: d |\
+g3 ^fga g2 =f d2 B | c2 A f2 A c2 A de^f | 
+g2 b ag^f g2 =f d2 c |  B2 d cBA G3- G2 :|
+K: A Dorian
+|: e |\ 
+c2 A ^GAB A2 =G E2 B | c2 e d2 B c2 A G2 e | 
+c2 A ^GAB A2 =G E2 B | c2 e dcB A3 A2 :|
+|: e |\
+a3 ^gab a2 =g e2 c | d2 B g2 B d2 B ef^g | 
+a2 c' ba^g a2 =g e2 d |  c2 e dcB A3 A2 :|
+S:https://www.folktunefinder.com/tunes/164483
+S:http://www.thesession.org/tunes/display/8199
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 58
+T: Hewitson's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:F
+((3ucde)|vgfcB ABcA|BcdB .G2(GF)|EFGE CDEC|FGAB =Bcde|
+fcag fedc|dBba gfed|cfdB AFGE|F2F2F2:|
+|:(uAB)|{d}vc=BcA Fafc|d^cdB Gbge|fcag fedc|BAGF ECDE|
+FEFG Fafc|dBba gfed|cfdB AFGE|F2F2F2:|
+S:https://www.folktunefinder.com/tunes/158281
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

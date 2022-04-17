@@ -1,0 +1,25 @@
+X: 1
+T: De'ils In The Fish
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+(3DEF|GDB,D GDBA|GDEF GDBA| GDEF GABc| d^cfe d=cBA|
+GDB,D GDBA|GDEF GDBA|Gedc BAGF| G2 G2 G2:|
+DE|ABAF D2 GA| BcBG D2 AB|cecA BdBG| Ad^cd D=cBA|
+GFGB ADEF| GABc dedc|BAcB AGBA|G2 G2 G2:|
+GA|(3BcB (3ABA GDEF|GABA G2 AB|(3cdc (3BcB ADEF|GABc dedc|
+(3BcB (3ABA G2 AB|(3cdc(3BcB A2 Bc|(3ded (3cdc (3BcB (3ABA|(3GBA (3GBd g2:|
+FG|(3ABA (3GAE DFAc|(3BdB(3GBG DGBD|(3cec (3AcA (3BdB (3GBG| FAdd dcBA|
+G/A/B FA GBdB|G/A/B FA GBdB|(3ABc (3Bcd (3cde (3def| gGBA G2:|
+S:https://www.folktunefinder.com/tunes/152636
+S:http://www.thesession.org/tunes/display/7058
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

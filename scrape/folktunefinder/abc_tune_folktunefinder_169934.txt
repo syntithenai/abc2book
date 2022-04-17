@@ -1,0 +1,26 @@
+X: 1
+T: Le Roi
+T: The King
+O: France
+M: C|
+L: 1/8
+K: C
+"Intro"\
+| "C"gfe2 "Am"gfe2 | "Dm"agfe "G7"dcBA \
+"A"\
+|: "C"G2c2 "Am"ABc2 | "Dm"d3e "G7"d2d2 | "C"G2c2 "Am"ABc2 | "G7"d3c "C"Hc4 :|
+"B"\
+[| "C"e2dc "G7"d2d2 | "C"eedc "G7"d2d2 | "F"fedc "G7"d2d2 | "F"fedc "G7"d2d2 | "C"edc2 "Am"edc2 | "Dm"fedc "G7"g4 |]
+S:https://www.folktunefinder.com/tunes/169934
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/LeRoi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/France/tune/LeRoi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/LeRoi_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/France/tune/LeRoi_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/LeRoi_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

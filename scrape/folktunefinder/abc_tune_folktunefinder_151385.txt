@@ -1,0 +1,23 @@
+X:20
+T:Donne-leur, Seigneur, le repos ternel
+C:L. Deiss
+M:2/4
+L:1/8
+%%leftmargin 1.2cm
+%%rightmargin 1.2cm
+K:Eb
+P:Antienne
+SEEFG|G2GF|E2CE|[M:3/4]E2z2GG|[M:2/4]
+w:Don-ne leur Sei-|gneur, le re-|pos -ter-|nel, Et que|
+c2cc|B2GB|BAGE|F2E2||
+w:bril-le sur|eux, la lu-|mi-re de ta|fa-ce.|
+P:Versets
+S:https://www.folktunefinder.com/tunes/151385
+S:http://moinejf.free.fr/messe/messeD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

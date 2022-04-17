@@ -1,0 +1,34 @@
+X:1
+T:Der Siebmschritt (II. Melodie)
+C:traditionell
+R:volkstanz
+A:aus dem Steyrischen Salzkammergute
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Altoesterreichische Volkstaenze , Raimund Zoder, Oesterreichisches Volksbildungsamt, Oesterreichischer Schulbuecherverlag, Wien, 1922
+S:
+N:im buch zweistimmig plus gitarren-griffe
+N:quelle einstimmig
+N:im buch s. 5 nr. 6a
+N:im buch ganz in G erster ton d', ambitus d' e''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+V:1
+(DG) GG | F (F/A/) Gz | (DB) BB | A (A/c/) Bz |\
+dd ez | cc dz |
+S:https://www.folktunefinder.com/tunes/153125
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/siebmschritt.steyrisc_zoder.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

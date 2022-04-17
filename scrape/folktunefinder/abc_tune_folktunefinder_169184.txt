@@ -1,0 +1,65 @@
+X:1
+T:Kanasztancok ket hegedun
+H:Swineherds' dance
+O:Hungary
+A:Somogy
+C:Trad.
+D:Muzsikas, "The Bartok Album", HNCD 1439
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:AABCA
+Q:1/2=110
+M:4/4
+L:1/4
+K:C
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord fcfc
+P:A
+%%MIDI beat 120 110 95 1
+"D"d2 (c/B/A) |(c/B/A) G z/ (^F/|"Dm"G)A F(D/E/) |(F/E/D) "C"Cz |
+"D"d2 (c/B/A) |(c/B/A) G/z/ (G/^F/|"Dm"G)A F(D/E/) |(F/E/D) "C"Cz |
+K:Dm
+%%MIDI beat 110 120 95 1
+ "Dm"z D A,D |A, (D/E/)F (F/E/) |(F/E/D) "C"CG, |C (D/E/)F "F"(F/E/) |\
+ (F/E/D) "C"CG, |C (D/E/)F "F"(F/E/) |(F/E/D) "C"C^C |"D"Dz D2 |
+ "Dm"A,DA,D |A, (D/E/)F (F/E/) |(F/E/D) "C"CG, |C (D/E/)F "F"(F/E/) |\
+ (F/E/D) "C"CG, |C (D/E/)F "F"(F/E/) |(F/E/)D "C"C^C |"D"Dz D2 ||
+%%MIDI beat 120 110 95 1
+P:B
+K:G
+ "D"d2Ad |cBAz |G<G FG |"Am"A2 A (B/c/) |
+"D"ddAd |cBA (F/G/) |(A/G/F/G/) (A/G/F/G/) |"Am"A2 Az |
+ |:"G"dGGA |"D"FEFz |G(F/G/) (A/G/F/G/) |"Am"A2 A (B/c/) |
+ "G"dGGA |"D"FE Fz |"G"D(D/E/) F E |"D"D2 Dz :|
+P:C
+"D"dc (B/4c/4B/A) |GE Fz |D (F/G/) (A/G/F/G/) |"Am"A2 A (B/c/) |
+"D"(d<c)(B/4c/4B/A) |(G/F/E) Fz |"G"D(D/E/) (F/E/D/E/) |"D"D2 Dz |
+"G"DGDG |"D"FEFz |"C"GGFG |"A"A2 A (B/c/) |\
+"D"(d<c)(B/4c/4B/A) |(G/F/E) Fz |"G"D(D/E/) FE |"D"D2 Dz |
+"G"DGDG |"D"FEFz |"C"FGFG |"A"A2 A (B/c/) |\
+"D"(d<c)(B/4c/4B/A) |(G/F/E) Fz |"G"D(D/E/) (F/E/D/E/) |"D"D2 Dz ||
+W:Arrangement Copyright (C) 2002 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/169184
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/SwineherdsDance.abc
+S:http://people.csail.mit.edu/jaffer/Music/SwineherdsDance.abc
+S:http://voluntocracy.org/Music/SwineherdsDance.abc
+S:http://www.voluntocracy.org/Music/SwineherdsDance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

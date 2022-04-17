@@ -1,0 +1,26 @@
+X: 1
+T: It Came Upon a Midnight Clear [C]
+Z: John Chambers <jc@trillian.mit.edu>
+R: waltz, jig
+M: 6/8
+L: 1/8
+K: C
+G \
+| "C"e2B "F"dcA | "C"G2A G2G \
+| "F"ABc "D7"cde | "G"d3- d2G \
+| "C"e2B "F"dcA | "C"G2A G2G \
+| "F"A2A "G7"BAG | "C"c3- c2e |
+| "E7"e2E E=F^G | "Am"A2B c2e \
+| "G"dcB "D7"ABA | "G"G3- "G7"G2G \
+| "C"e2B "F"dcA | "C"G2A G2G \
+| "F"A2A "G7"BAG | "C"c3- c2 :|
+S:https://www.folktunefinder.com/tunes/166775
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/ItCameUponAMidnightClear_C.abc
+% Rhythm Waltz, jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

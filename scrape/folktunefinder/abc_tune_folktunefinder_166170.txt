@@ -1,0 +1,29 @@
+X:1
+T:Il tait une fois dans l'Est
+C:B. Loffet
+L:1/8
+Q:360
+M:7/8
+K:C
+|:[d2D,2D2]c[B2D,2D2][A2D,2D2]|[AD,D]Bc[d2D,2D2][c2D,2D2]|[e2G,2G,2]d[c2G,2G,2][BG,G,]G|[BA,A,]AA[A2A,2A,2][A,2A,2]|[d2D,2D2]c[B2D,2D2][A2D,2D2]|[AD,D]Bc[d2D,2D2][c2D,2D2]| \
+[e2G,2G,2]d[c2G,2G,2][BG,G,]G|[A3A,3A,3][A,2A,2][A,2A,2]:|:[a2D,2D2]g[^f2D,2D2][e2D,2D2]|[dD,D]e^f[f2D,2D2][d2D,2D2]|[f2F,2F2]e[dF,F]e[cF,F]B|[c2C,2C2]d[e2C,2C2][g2C,2C2]| \
+[a2D,2D2]g[^f2D,2D2][e2D,2D2]|[dD,D]e^f[f2D,2D2][d2D,2D2]|[f2F,2F2]e[dF,F]e[cF,F]B|[A3A,3A,3][A,2A,2][A,2A,2]:| \
+Z:Created with TablEdit http://www.tabledit.com/, abc file by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/166170
+S:http://diato.ifrance.com/abc/53.abc
+S:http://diato.ifrance.com/diato/tablat/53.abc
+S:http://diato.ifrance.com/tablat/53.abc
+S:http://diato.org/tablat/53.abc
+S:http://perso.orange.fr/diato/tablat/53.abc
+S:http://perso.wanadoo.fr/diato/tablat/53.abc
+S:http://pro.wanadoo.fr/diato/abc/53.abc
+S:http://pro.wanadoo.fr/diato/tablat/53.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/53.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/53.abc
+S:http://www.diatonique.net/tablat/53.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

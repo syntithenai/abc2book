@@ -1,0 +1,19 @@
+X:1
+T:Et se resservir.
+C:Paroles : St\'ephane Susana. Musique : Nicolas Graner.
+N:Paroles et musique palindromiques.
+M:C
+L:1/4
+Q:90
+K:G
+G | F/E/ D2 G | c2 e/g/ d | e2 c/A/ e | B c2 A |
+S:https://www.folktunefinder.com/tunes/156427
+S:http://graner.net/nicolas/OULIPO/resservir-exp.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

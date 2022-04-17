@@ -1,0 +1,31 @@
+X: 1
+T:The Walk of the Two Penny Postman
+M:6/8
+T:Gary Owen
+C:
+S:Bacon (RKS (MSS))
+N:
+A:Field Town
+O:Irish
+R:Jig
+%P:A.(AB)$^4$
+P:A.(AB)4
+K:ADor
+I:speed 300
+P:A
+g2 f | edc  BAG  | BcB Bgf  | edc  BAG  | ABA  Agf  |\
+       edc  BAG  | BcB B2 c | def  gdB  | A3        ||\
+P:B
+A2 B | d2 B d2 B | d2 B dgf | e2 c e2 c | e2 c      \
+e2 f | g2 a b2 a | gfe d2 d | def  gdB  | A3        ||
+S:https://www.folktunefinder.com/tunes/160567
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/wa/Walk_of_the_Two_Penny_Postman_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

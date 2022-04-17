@@ -1,0 +1,25 @@
+X:1
+T:The Gallows Tree
+M:4/4
+L:1/8
+K:C
+ G| EG c2 AA| d3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 G4|\
+ c3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 G2 EC|\
+M:4/4
+ DC A,4 CD|E G, C2 D2
+M:4/4
+| EG c2 A- c2- G|
+M:3/4
+ AG E2 C2|
+M:4/4
+ ED C4 z||
+S:https://www.folktunefinder.com/tunes/159831
+S:http://back.numachi.com:8000/dtrad/abc/HANGMAN4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

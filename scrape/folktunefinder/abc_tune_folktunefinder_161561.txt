@@ -1,0 +1,25 @@
+X:0844
+T:"The Gobby-O"         (jig)     0844
+C:after  Chief  F. O'Neill
+N:"(Just what The devil IS a Gobby, Then)"
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+(A/2B/2)|c2A AGA|E2A ABc|BAB GAG|dBG GAB|
+c2A AGA|E2a a2b|age {f}edB|{d}cAA A2:|
+|:E|A2B c2d|e2f g3|agf {a}gfe|dBG G2E|
+A2B c2d|efg a2b|age {f}edB|{d}cAA A2:|
+S:https://www.folktunefinder.com/tunes/161561
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0844-GobbyO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

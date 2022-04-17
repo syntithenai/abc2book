@@ -1,0 +1,26 @@
+X: 19
+T: Kesh Jig
+I: Kesh JigJ-18GjigSet 15
+I: Kincora JigJ-18GjigSet 15
+M: 6/8
+R: jig
+K: G
+D| "G"G3 GAB| "D"ABA ABd| "G"edd gdd| edB "D"dBA|
+   "G"G3 GAB| "D"ABA ABd| "G"edd gdB| "D"AGF "G"G2 :|
+|:\
+A| "G"B3 dBd| "C"ege "G"dBG| BAB dBG| "Am"ABA AGA|
+   "G"B3 dBd| "C"ege "G"dBd| "C"g3 "D"aga| "G"bgg g2 :|
+%%text Roaring Jelly  J-18
+S:https://www.folktunefinder.com/tunes/164354
+S:http://roaringjelly.org/music/sets/Set15.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set15.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set15.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

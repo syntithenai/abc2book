@@ -1,0 +1,26 @@
+X: 81
+T:Ikariotikos
+O:Greece
+M:4/4
+L:1/8
+Q:1/4=180
+K:Cm
+"Cm"C2 GG "Gm"G2 G2| "Bb"FGFE "Gm"D2 G2|\
+"Cm"C2 GG "Gm"G2 G2| "Bb"FGFE "Gm"D2 G2|
+"Cm"C2 GG "Gm"G2 G2| "Bb"FGFE "Gm"D2 G2|\
+"Cm"C2 GG "Gm"G2 G2| "Bb"FGFE "Gm"D2 G2|
+"Gm"B,2 CD "Cm"EDEF|"Gm"D3E "Cm"DE C2|\
+"Gm"B,2 CD "Cm"EDEF|"Gm"D3E "Cm"DE C2|
+"Gm"B,2 CD "Cm"EDEF|"Gm"D3E "Cm"DE C2|\
+"Gm"B,2 CD "Cm"EDEF|"Gm"D3E "Cm"DE C2|
+S:https://www.folktunefinder.com/tunes/166079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Ikariotikos.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Ikariotikos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

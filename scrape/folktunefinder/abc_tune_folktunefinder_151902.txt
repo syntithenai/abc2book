@@ -1,0 +1,21 @@
+X:1
+T:Dashing White Sergeant
+M:2/4
+L:1/16
+K:D
+F-E| D2D2 DE FG| A2A2 A2f-e| d2B2 A2F2| B2E2 E2|F-E| D2D2 DE FG| A2A2 A2f2|\
+ e2d2 c2B2| A^G AB AG| FE| D2D2 DE FG| A2A2 A2f-e| d2B2 A2F2| B2E2 E2|\
+F-E| D2D2 DE FG| A2A2 A2f2| e2d2 c2B2| A4- A2| E2| A2 AB c2 cd| ef ec A2A2|\
+ B2 Bc d2 de| fg fd B2| B2| c2 AA d2 AA| e2 AA f2 AA| g2f2 e2d2| c2B2 A2|\
+ G2| F2d2 dc de| d2A2 A4| B2e2 e^d ef| e2B2 B2| z2| A2d2 dc de| f2d2 dc de|\
+ f2 z2 a2 z2| d6||
+S:https://www.folktunefinder.com/tunes/151902
+S:http://back.numachi.com:8000/dtrad/abc/DASHWHIT.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DASHWHIT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

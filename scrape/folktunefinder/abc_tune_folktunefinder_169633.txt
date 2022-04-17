@@ -1,0 +1,23 @@
+X: 2
+T:The Kesh Jig (D maj)
+M:6/8
+L:1/8
+C:Traditional
+R:Jig
+O:Ireland
+K:D
+|: "D"D2D DEF | "A"E2E EFA | "G"BAA dAA | BAF "A"AFE | \
+"D"D2D DEF | "A"E2E EFA | "D"BAA dAF | "A"EFE "D"D3 ::\
+"D"F2F AFA | "G"B2B "D"AFD | F2F AFD | "C"E3 E z2 |\
+"D"F2F AFA | "G"B2B "D"AFA | "G"d2d "A"ede | "D"fdd d3 :|
+% Output from ABC2Win  Version 2.1 i on 7/16/2001
+S:https://www.folktunefinder.com/tunes/169633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/KeshJig.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

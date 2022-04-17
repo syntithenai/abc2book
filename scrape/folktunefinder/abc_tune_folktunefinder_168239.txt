@@ -1,0 +1,22 @@
+X: 1
+T:John Henry
+M:2/4
+L:1/8
+C:Traditional
+R:blues
+K:G
+GE | D D2 E | G2 GE | G G2 E | G3 G | B2 B2 | GEDE | G4- |
+G2 GE | D D2 E | G2 GE | G G2 E | G3 d | e d2 c | BGED |
+B2 B2 | G3 d | e d2 c | BGED | G4- | G2 z2 |]
+S:https://www.folktunefinder.com/tunes/168239
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/JohnHenry.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/JohnHenry.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/JohnHenry.abc
+% Rhythm Blues
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X:1
+T:Hambo p logen
+C:Karl Salomonsson
+R:Hambo
+O:Skne
+M:3/4
+L:1/8
+K:G
+|: D2 D>E D>C | B,2 D>G B2 | G2 G>A G>E | G2 F4 | D2 D>F E>F |
+D2 F<A d2 | d2 d>e d>c | c2 B4 | D2 D>E D>C | B,2 D<G B2 |
+G2 G>A G>F | F2 E4 | c2 c>B A>c | B2 B>A G>B | A2 A>F D>F | G2 G4 :|
+|: B>c d2 dB | GA B4 | G>A B2 A>G | G2 F4 |
+S:https://www.folktunefinder.com/tunes/163006
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_c762c7.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_341360.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_578641.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bacbe2.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_e8864b.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_7f31bd.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_694f62.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_47fdd7.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_98162f.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_ad89a4.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_c762c7.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_341360.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_578641.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bacbe2.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_e8864b.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_7f31bd.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_694f62.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_47fdd7.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_98162f.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_ad89a4.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_c762c7.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_341360.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_578641.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bacbe2.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_e8864b.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_7f31bd.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_694f62.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_47fdd7.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_98162f.abcm.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_ad89a4.abcm.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

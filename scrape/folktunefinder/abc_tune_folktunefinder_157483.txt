@@ -1,0 +1,24 @@
+X: 1
+T:Fearghas Mac Con Uladh
+M:3/4
+L:1/4
+Q:50
+C: 2002, Stephen P McNally
+N:I was unable to get this to display correctly, check the PDF for the
+N:correct version
+K:AMix
+|:e>Aa|e>d c/2A/2|B>A c/2A/2| e>c f/2d/2|c>Aa| e>d c/2A/2|B>A c/2B/2|1 A
+3:|2 A2 A/2B/2|
+|:c>BA| f>A e/2A/2|B>A c/2A/2| e>c f/2d/2|c>BA1| f>A e/2A/2|B>A c/2B/2|1
+ A2
+A/2B/2:|2 A3||
+% Output from ABC2Win  Version 2.1 i on 23/11/2004
+S:https://www.folktunefinder.com/tunes/157483
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ceilidhband.org/tunes/fearghas-mac-con-uladh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

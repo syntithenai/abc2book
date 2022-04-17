@@ -1,0 +1,45 @@
+X:1
+T:Gruss von Schloss Weissenstein
+C:
+R:walzer
+A:Bayern
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:C
+A3 | (E2c) | A3- | A2z |\
+c3 | (G2e) | c3- | c2z |
+g3- | g(fd) | e3 | c3 |\
+g3- | g(FD) | C3- |1 Czz :|\
+                  [2 Cz(G ||
+|:\
+e)ze- | ed>c | eze- | ed>c |\
+eze- | ed>c | a3 | g3 |
+fzf- | fe>d | fzf- | fe>d |\
+fzf- | fe>d | b3 | a3 ||
+eze- | ed>c | eze- | ed>c |\
+eze- | c'3 | b3- | bzb- |
+ba>g | bzb- | ba>g | ed>c |\
+d'3 | ^f3 |1 g3 | (g^f=f) :|\
+          [2 g3- | gzG ||
+|:\
+GB/d/f- | fed | ({d}^c)z/e/d- | d2G |\
+GB/c/e- | e(dc) | ({c}B)z/d/c- | c3 |
+a3 | g3 | f3 | g3 |\
+f3 | e2^d | e3- | ezG ||
+GB/d/f- | fed | ({d}^c)z/e/d- | d2G |\
+GB/c/e- | e(dc) | ({c}B)z/d/c- |
+c3 | a3 | g3 | f3 |\
+e3 | f3 | g2b |1 c3- | czG :|\
+              [2 c'e'/c'/g/e/ | czz |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/162643
+S:http://simonwascher.info/TradArchiv_walzer/gruss_von_schloss_weissenst.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

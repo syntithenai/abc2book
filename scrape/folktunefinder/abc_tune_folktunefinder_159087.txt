@@ -1,0 +1,16 @@
+X:1
+T:The Fox
+M:4/4
+L:1/4
+K:D
+ F| A A A F| F D/2D/2 D D| F F/2F/2 F A| E E E| F/2G/2| A A/2A/2 A3/2 F/2|\
+ D D D3/2 E/2| F F E A| F2 D2| G2 E2| C2 A,2-| A,2 F G| A A/2A/2 A3/2 F/2|\
+ D D D3/2 D/2| F F E A| F2 D||
+S:https://www.folktunefinder.com/tunes/159087
+S:http://back.numachi.com:8000/dtrad/abc/FOXOUT5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

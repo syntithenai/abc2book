@@ -1,0 +1,24 @@
+X: 1
+T:John MacDonald's Exercise (AMix version)
+M:6/8
+L:1/8
+R:jig
+K:Amix
+%
+|:cee Aee|cee a2e|cee Aee|a2e fee|
+cee Aee|cee a2e|faf Afe|fcc dBB:|
+|:cee aee|faa f2e|cee a2e|fa=g fee|
+cee aee|faa f2e|faf Afe|fcc dBB:|
+|:efc efA|ceA efc|faf Aff|aee fcc|
+efc efA|ceA efc|faf Afe |fcc dBB:|
+|:~c3 caa|dff cee|~c3 caa|dff fed|
+~c3 caa|dff cee|faf Afe|fcc dBB:|
+S:https://www.folktunefinder.com/tunes/168309
+S:http://www.thesession.org/tunes/display/4229
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

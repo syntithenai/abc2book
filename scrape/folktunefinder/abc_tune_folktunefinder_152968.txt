@@ -1,0 +1,22 @@
+X:15
+T: Die Unbestechliche
+N: Q0144
+O: Osteuropa, Tschechoslowakei, Maehren, Dt. Proben, Kremnitz
+R: Ballade, Liebes - Handel
+M: 2/4
+L: 1/16
+K: G
+D4 | G4B4 | A6d2 | c2B2A2
+G2 | G2B2A2G2 | F2E2D2
+DD | G2B2A2G2 | c4c2A2 | G4
+S:https://www.folktunefinder.com/tunes/152968
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - handel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:Home with the girls in the morning
+M:C|
+L:1/8
+K:C
+P:AABAAB
+P:A
+G2|"Dm"A2d2d4|"C"cdcB A2G2|"Dm"A2d2 de d2|"Am"c2 (A2A2) G2|!
+"Dm"A2d2d4|"C"cdcB A2 A(B|cB)A(G "Am"FD) EF|"Dm"D6:|]!
+P:B
+DE|"Dm"F2F2"C"E2E2|"Dm"DEDC A,2 DE|F2F2 "C"ED C2|"Dm"D6 DE|!
+"Dm"F2F2"C"E2E2|"Dm"DEDC A,2 A(B|"C"cB)A(G "Am"FD) EF|"Dm"D6 DE|!
+"Dm"F2F2"C"E2E2|"Dm"DEDC A,2 D(E|FE)D(F "C"ED) C2 |"D"^F6 DE|!
+"Dm"=F2F2"C"E2E2|"Dm"DEDC A,2 A(B|"C"cB)A(G "Am"FD) EF|"Dm"D6|]!
+P:A
+G2|Ac d2d4|cded c2B2|A2d2 de d2|e2 (a2a2) g2|!
+f2d2d4|cded c2 cd|edcB AGFE|D6:|]!
+P:B
+DE|"Dm"F2[A,2F2]"C"E2[C2E2]|"Dm"DEDC A,2 DE|F2F2 "C"ED C2|"Dm"D6 DE|!
+"Dm"F2[A,2F2]"C"E2[C2E2]|"Dm"DEDC A,2 A(B|"C"cB)A(G "Am"FD) EF|"Dm"[A,6D6] DE|!
+"Dm"[A,2F2][A,2F2]"C"[C2E2][C2E2]|"Dm"DEDC A,2 D(E|FE)D(F "C"ED) C2 |"D"[A,6^F6] DE|!
+"Dm"[A,2=F2][A,2F2]"C"[C2E2][C2E2]|"Dm"DEDC A,2 A(B|"C"cB)A(G "Am"FD) EF |"Dm"D6|]!
+S:https://www.folktunefinder.com/tunes/164665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/HomeWithTheGirlsInTheMorning.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

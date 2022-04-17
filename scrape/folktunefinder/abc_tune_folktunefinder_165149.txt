@@ -1,0 +1,29 @@
+X: 3
+T:Vals frn Jeppo - "Viktors vals"
+S:(efter Viktor Andersson)
+N:Efter Viktor Andersson, Jeppo
+A:Jeppo (sterbotten)
+O:Finland
+Z:Lennart Sohlman
+M:3/4
+L:1/8
+Q:1/4=170
+K:Em
+(cB)|A2 c2 e2|g4 (fg)|a2 f2 d2|(e=f) (ed) (cB)|\
+(AB) (cd) (ef)|g4 (fg)|a2 f2 d2|[1e4 (cB):|[2e4 e2|:\
+a2 (ec) (eg)|f2 (ed) c2|B2 (AG) (AB)|(AB) (cd) e2|\
+a2 (ec) (eg)|f2 (ed) c2|B2 (AG) (AB)|[1A4 e2:|[2A6|]
+S:https://www.folktunefinder.com/tunes/165149
+S:http://homepage.calypso.net/~ci-18034/finland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/finland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

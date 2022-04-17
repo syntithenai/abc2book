@@ -1,0 +1,27 @@
+X:10
+T:Hunt the Squirrel
+C:Sussex Archaeological Soc MS
+M:4/4
+L:1/8
+Z:abc2nwc
+K:G
+"March"G2d2d2e2|d4B4|G2AB A2G2|G2AB A2G2|
+G2d2d2e2|d4B4|G2AB A2G2|G8:|
+|:c2d2e2de|c2d2e2de|c2d2e2f2|g6fe|
+d2B2d2B2|d2B2d4|G2AB A2G2|G8:|
+|:[M:6/8]"Jig"G2d d2e|d3B3|GAB A2G|GAB A2G|
+G2d d2e|d3B3|GAB A2G|G3-G3:|
+|:c2d ede|c2d ede|c2d e2f|g3-g fe|
+d2B d2B|d2B d3|GAB A2G|G3-G3:|
+S:https://www.folktunefinder.com/tunes/165762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/HuntTheSquirrel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

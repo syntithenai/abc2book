@@ -1,0 +1,30 @@
+X: 1
+T:Greensleeves
+M:6/8
+C:
+S:Bacon (Williams MSS)
+N:
+A:Stanton Harcourt
+O:English
+R:Jig
+%P:(A).(AB$^2$)$^4$.A
+P:(A).(AB2)4.A
+K:Am
+I:speed 300
+P:A
+c3   cce | d2 B BAB | c2 A A2 A | G2 E E3    |\
+c3   cce | d2 B BBB | c2 A B2 G | A3   A3    ||\
+P:B
+g2 g gag | e2 d B3  | a3   aba  | g2 e e2 ^f |\
+g2 g gag | e2 d BAB | c2 A B2 G | A3   A3    ||
+S:https://www.folktunefinder.com/tunes/162472
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Greensleeves_8.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Fireworks
+M:6/8
+L:1/8
+Q:C3=69
+C:Jeff Bigler
+A:Field Town
+P:A.(A2B2)4.A
+K:G
+"A"|: A | B>cB A>GF | G2 E D2 G | B>AG A>GF |1 G3 G2 :|2 G3 G2 E |
+D3 D>EF | G3 G2 \
+"B"|: A | B3 B>AG | A3 G2 A | B2 d d>BG | A3 G2 A |
+B2 c d>cB | c2 d e>dc | B2 c d>cB | B3 A2 G | F2 D D>EF | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/157928
+S:http://www.mit.edu/~jcb/Red_Herring/dances/fireworks.abc
+S:http://www.mit.edu/%7Ejcb/Red_Herring/dances/fireworks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

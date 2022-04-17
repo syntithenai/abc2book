@@ -1,0 +1,26 @@
+X: 3
+T:Old Frog Dance, Oddington
+M:6/8
+L:1/8
+A:Oddington
+P:B(ABC3B)4
+K:D
+P:A
+G|FED AGA|BcB A2A|dcd B<ed|d3  A2||
+P:B
+G|FED AGA|BcB A2A|dcd B<ed|cBc d2||
+P:C
+d|cde efe|ecA ABc|ded dcB |BGG G3|
+FGA D3 |GAB E3 |FGA Bed |cBc d2||
+S:https://www.folktunefinder.com/tunes/164204
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Oddington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Oddington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

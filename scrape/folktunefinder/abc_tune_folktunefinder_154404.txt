@@ -1,0 +1,22 @@
+X:3
+T:Dr. McPhail's Reel
+F:http://www.hiico.com/.abc/dr_mcphails_reel.abc
+D:Capercaille, Delirium
+K:A Mix
+M:4/4
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 23 August, 2004
+|: e2 de Aede | AB{c}BA G2 Bd | e2 de Aede | a2 ge fd{e}dg | e2 de Aede | AB{c}BA GABG | ~A2 aA g2>e |[1 fedf eA {B}Ad :|[2 fedf eA ~A2
+|: gA ~A2 gAfA | eA (3Bcd efga | gA ~A2 gfed | ed (3Bcd eA ~A2 | gA ~A2 gAfA | ed (3Bcd efge | a3f g3e | fedf eA ~A2 :|
+|: {A}GA{B}Ad eGAG | {A}GA{B}Ad e2 AG | {A}GA{B}Ad e2 de | a2 ge fd {e}dA | GA{B}Ad eGAG | {A}GA{B}Ad eGAG | {A}GA{B}Ad edea |[1 gedB {c}BA{B}AG :|[2 gedB {c}BA{B}Af
+|: g2>a {b}agea | {b}agB=c defe | g2>f efge | (3agf ge fdef | g2>a {b}agea | {b}agB=c defe | ~A2 aA g2>e | fedf eA ~A2 :|
+S:https://www.folktunefinder.com/tunes/154404
+S:http://www.hiico.com/.abc/dr_mcphails_reel.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

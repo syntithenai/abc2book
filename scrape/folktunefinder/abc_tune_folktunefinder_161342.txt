@@ -1,0 +1,28 @@
+X: 1
+T:Glen Road to Carrick, The
+R:reel
+H:See also "The Chorus Reel", #486.
+N:The 2nd part in the variations is optional.
+D:The Brass Fiddle
+D:Sean Keane: Jig It in Style
+Z:id:hn-reel-336
+M:C|
+K:Dmix
+FD~D2 FDGD|FDFG ABAG|FD~D2 FDGF|1 EdcA GBAG:|2 EdcA G2FG||
+Addc AGFG|Addc A2AG|Addc AGFG|EdcA GEFG|
+Addc AGFG|Addc A2AB|defd AGFG|EdcA G2eg||
+fd~d2 fdgd|fdfg abag|fd~d2 fdef|~g2bg efge:|
+fde^c dBAG|FADF A2AB|defd AGFG|1 EdcA G2eg:|2 EdcA GAB^c||
+dD~D2 AD~D2|dD~D2 A2B^c|1 dD~D2 AGFD|EdcA GAB^c:|2 defd AGFG|EdcA GBAG||
+S:https://www.folktunefinder.com/tunes/161342
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gl/Glen_Road_to_Carrick_The_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

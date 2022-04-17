@@ -1,0 +1,53 @@
+X:36
+T:Stone Chapel
+T:(Heysham in Lancashire)
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+Z:If you ever visit Heysham Chapel have a look at the stone graves,they ar
+Z:very unusual.
+M:3/4
+L:1/8
+K:G
+GA |\
+"G"B3 d cB |\
+"C"E4 EG |\
+"Am"E3 D CE |\
+"G"D4 GA |\
+"Em"B2 d2 gf |\
+"C"e3 d eg |\
+"D"a6 -|\
+"Dsus4"a3 D GA |\
+"G"B3 d cB |\
+"C"E4 EG |\
+"Am"E3 D CE |\
+"G"D4 GA |\
+"Em"B3 E FG |\
+"D"AF D3 F |\
+"Em"E3 F ED |\
+"C"E4 |: G2 |\
+"G"B2 d2 gf |\
+"C"e4 cB |\
+"D"A2 a2 fe |\
+"G"d4 b2 |\
+"Em"e4 fg |\
+"D"af d3 f |\
+"Em"e3 f ed |\
+"Em"e4 ef |\
+"C"g3 f e2 |\
+"G"d3 g B2 |\
+"D"A3 B G2 |\
+"C"E4 D2 |\
+"Am"E3 G B2 |\
+"D"A3 F D2 |\
+"Em"E3 F ED |\
+"C"E4 :|
+S:https://www.folktunefinder.com/tunes/164053
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/StoneChapel.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

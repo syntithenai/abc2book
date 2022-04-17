@@ -1,0 +1,34 @@
+X:1
+T:Donkey Riding
+R:hornpipe
+H:Used for the Hounds dance "Northern Star"
+H:Tune is the same as used for the Bledington-style dance
+H:  composed by the Binghamton Morris Men
+M:4/4
+L:1/4
+Q:1/4=132
+K:G
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+E G B B | c A B2 |1 B A A G | B A A G :|2 B G A F | E2 E2 |]
+P:B
+|: e2 d2 | c A B2 | B A A G | B A A G |
+e2 d2 | c A B2 | B G A F | E2 E2 :|
+S:https://www.folktunefinder.com/tunes/153890
+S:http://www.mit.edu/~jcb/MOTley/abc/donkey-ride.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/donkey-ride.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/donkey-riding-tune.shtml
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

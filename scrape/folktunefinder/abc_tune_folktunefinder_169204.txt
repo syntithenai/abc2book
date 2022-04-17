@@ -1,0 +1,25 @@
+X: 1
+T: Karagouna
+Z: Originally transcribed by Deborah Jones, VIFD
+O: Greece
+M: 4/4
+L: 1/8
+Q:1/4=120
+K: ADor
+"Am" A2 A2 B<c ^d<e| e8| g<f g<f g<f g<a| ~f3e e^dcB|
+A2 z2 (3cBA (3Bc^c| "Dm" d6 Bc| "Am" ^deed cBcB| A4 A2 z2|
+"Am" A2 A2 Bc^de| e8| e2 e2 e2 e2| ^d4 cB A2| A2 A2 Bc d2|
+"Dm" d6 Bc| "Am" e2 e^d cBcB| A4 A2 G2|
+|:"Am" cB A2 z2 G2| cB A2 z2 Bc| e2 e^d edcB|[1 cB A2 z2 G2:|[2 cB A4 z2|
+agfe ^defe|agfe ^dcBA| agfe ^defe| a3e A2 z2|
+agfe ^defe|agfe^dcBA| z Bc^d edcB| Aef^G A2 z2|
+S:https://www.folktunefinder.com/tunes/169204
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ka/Karagouna_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

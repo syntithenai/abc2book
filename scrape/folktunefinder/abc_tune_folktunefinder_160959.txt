@@ -1,0 +1,28 @@
+X: 1
+T:Gillan's Apples
+C:Trad
+S:O'Neill's
+I:speed 280
+M:6/8
+K:G
+M:6/8l
+|:ef |
+M:6/8
+ggg B2A | GAG GBd | efe edB | dBA A3 |
+GBd gdB | GBd g2 a | bag fge | ed^c d2:|
+M:6/8l
+|:eg |
+M:6/8
+faa faa | faa afd | gbb gbb | gbb bag |
+faa faa | faa afa | bag fge | ed^c d2:|
+S:https://www.folktunefinder.com/tunes/160959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gi/Gillans_Apples_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/gi/Gillans_Apples_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

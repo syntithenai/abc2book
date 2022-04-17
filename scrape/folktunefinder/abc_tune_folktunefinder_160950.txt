@@ -1,0 +1,22 @@
+X:1
+T:Gilderoy
+M:4/4
+L:1/8
+K:C
+ E2| A2 AB cB cd| ef ec d2 cd| ed cA ^GA BA| ^G2 E2 E2| E2| A2 AB cB cd|\
+ ef ec d2 cd| ea ^ga ed cB| c2 A2 A2|| ef| g3 ag fe f| gf ec d2 cd|\
+ ed cA ^GA BA| ^G2 E2 E2| E2| A2 AB cB cd| ef ec d2 cd| ea ^ga ed cB|\
+ c2 A2 A2||
+S:https://www.folktunefinder.com/tunes/160950
+S:http://back.numachi.com:8000/dtrad/abc/GILDEROY.abc
+S:http://back.numachi.com:8000/dtrad/abc/GILDROY.abc
+S:http://sniff.numachi.com/abc/GILDEROY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GILDEROY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

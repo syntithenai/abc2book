@@ -1,0 +1,26 @@
+X:1
+T:Grandma's Salty Crackers
+C:Sarah Mazur
+R:Reel
+M:4/4
+L:1/8
+K:Em
+|:D2|\
+"Em"EBef gfeB|E2E2 E2ED|EBef gfed|"D"BddB "C"dBAF|
+"Em"EBef gfeB|E2E2 E2ED|"C"EGFE "D"DB,GF|"Em"E6:|
+|:G2|\
+"G"BedB "D"AcBA|"C"cBAG "Em"E2AB|"C"cBAG "Em"EDCB,|"D"D4 G2F2|
+"G"BedB "D"AcBA|"C"cBAG "Em"E2A2|"Am"BedB "D"AGFD|"Em"E6:|
+S:https://www.folktunefinder.com/tunes/162086
+S:http://math.dartmouth.edu/~doyle/docs/abc/mazur.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/abc/mazur.abc
+S:http://math.dartmouth.edu/%257Edoyle/docs/abc/mazur.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

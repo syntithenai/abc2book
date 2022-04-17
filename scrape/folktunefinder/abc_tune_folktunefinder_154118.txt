@@ -1,0 +1,30 @@
+X:1
+T:Snake in the Cittern
+S:Mark Fitzsimons
+R:Jig
+O:New Zealand
+M:6/8
+I:speed 450
+C:Mark Fitzsimons
+A:Auckland
+K:Amin
+A|:"a"BcG ABc|dGc BFG|"a"Aee "d"Add|"a"Acc "E"^GAB|
+"a"cGA Bcd|GcB FGA|^Gee dcB| "E"A^GB "a"A2:|
+|:"a"a2e ^cBA|a2e B^cA|a2e ^cBA|"E"^GAB "f#"AB^c|
+"D"d2A ^FED|d2A E^FD|"D"E^FG "e"ABG|"F"=cBA "G"GBd|"e"e2B "(B)"d^cB|"A"^cAA A3:|
+W:
+W:Copyright Mark Fitzsimons 1995
+W:mark@greenmanhumming.com
+S:https://www.folktunefinder.com/tunes/154118
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/ABC.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/mark/ABC.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/greenmanhumming.com/Snake_in_the_Cittern.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X: 1
+T:Herald of Bores
+O:England
+N:1993
+M:7/8
+C:Andy Hornby
+A:Lancaster
+K:D
+efg f2 e2 |deB c2 A2| Bcd c2 A2| \
+M:8/8
+Bcd cde e2| \
+M:7/8
+efg f2 e2|deB c2 A2|
+Bcd c2 A2 \
+M:8/8
+| BAG A3-A2:: \
+M:6/8
+F3 G3 | \
+M:4/4
+F2 ED CD ED | \
+M:6/8
+F3 G3 | \
+M:4/4
+F2 ED FG AB|
+M:6/8
+F3 G3 | \
+M:4/4
+F2 ED CD ED | \
+M:6/8
+F3 G3 | \
+M:4/4
+F2 ED EC D2:|
+W:Copyright (C) Grian Music
+S:https://www.folktunefinder.com/tunes/163928
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/he/Herald_of_Bores_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 7/8
+% Time_signature 8/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

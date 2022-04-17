@@ -1,0 +1,23 @@
+X:10
+T: Koenig und Marquise
+N: Q3035B
+O: Mitteleuropa, Frankreich
+N: Franzoesische Melodievariante von Q0035: anderes Lied.
+R: Matrosen - Lied
+M: 6/8
+L: 1/16
+K: E
+B2B2A2=G2 | A4A2=d4d2 | B4
+B2B2A2=G2 | A4A2=d4d2 | B4
+B2e4e2 | =d4e2B4A2 | =G2z2
+B2B3AG2 | A3BA2=G4F2 | E4
+S:https://www.folktunefinder.com/tunes/151539
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Matrosen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

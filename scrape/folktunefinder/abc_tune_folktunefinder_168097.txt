@@ -1,0 +1,58 @@
+X:15
+T:Jogger's Waltz
+R:waltz
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:3/4
+L:1/8
+K:D
+|:FG |\
+"D"AB AG FG |\
+"D"AB AG FG |\
+"D"A2 d2 cB |\
+"A"c2 E2 EF |\
+"A"GA GF EF |\
+"A"G2 A2 c2 |\
+"A"cd cB AG |\
+"D"F2 D2 FG |\
+"D"AB AG FG |\
+"D"AB AG FG |\
+"D"A2 d2 cd |\
+"G"e2 B2 B2 |\
+"G"B2 gf ed |\
+"D"A2 fe dc |\
+"A"c2 Ac ec |\
+"D"d4 ::
+K:A
+cB |\
+"A"A2 c2 e2 |\
+"A"a4 ga |\
+"D"f3 e e2 |\
+"A"e4 ef |\
+"E"e2 d2 B2 |\
+"E"G4 ef |\
+"A"fe ce ce |\
+"A"A4 cB |\
+"A"A2 c2 e2 |\
+"A"a4 ga |\
+"D"b3 f f2 |\
+"D"f4 a2 |\
+"E"g3 g g2 |\
+"E"g2 ef \
+%Slide
+ge |\
+"A"af ec "E"B/c/B |\
+"A"A4 :|
+S:https://www.folktunefinder.com/tunes/168097
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/JoggersWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

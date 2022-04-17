@@ -1,0 +1,43 @@
+X:3
+T:Homme au milieu des hommes - A220-1
+C:J. Berthier
+M:6/8
+L:1/8
+%%staves 1 [2 3]
+K:Fm
+Q:"Lourd et lent" 1/8=116
+V:1
+!segno!z6|z6|AGF C2C|AGF C2C|AGF DDD|AGF D2D|
+V:2
+[F,2A,2C2]z [F,2A,2C2]z|/|/|/|[F,2A,2D2]z [F,2A,2D2]z|/|
+V:3
+[F,,2C,2]z [F,,2C,2]z|/|/|/|[D,,2A,,2]z [D,,2A,,2]z|/|
+%
+V:1
+(A3B3)|!breath!c6|B2B AAB|(G3 C3)|
+V:2
+[C3F3] [E3G3]|!breath![C6A6]|[E3G3] [C2F3]=D|[C6=E6]|
+V:3
+[F,3A,3] [E,3B,3]|[A,,6E,6]|[E,3B,3] [F,3A,3]|[C,6G,6]|
+%
+V:1
+C2C EEE|FFF C3||C2C EEE|FFF C3|
+V:2
+[A,3C3F3] [G,3C3G3]|[A,3C3A3] [G,3C3G3]|//|
+V:3
+[F,,3C,2] [C,3E,3]|[F,,3C,2] [C,3E,3]|//|
+%
+V:1
+C2C EEE|FFF C3|C2C EEE|FFF HC3!segno!||
+V:2
+[A,3C3F3] [G,3C3G3]|[A,3C3A3] [G,3C3G3]|//||
+V:3
+[F,,3C,2] [C,3E,3]|[F,,3C,2] [C,3E,3]|//||
+S:https://www.folktunefinder.com/tunes/163984
+S:http://moinejf.free.fr/messe/messeH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 2
+T: Mr. Charles Graham's Welcome Home
+I: Mr. Charles Graham's Welcome HomeJ-41A Dorjig
+C: Wm. Gow
+M: 6/8
+R: jig
+K: ADor
+A/G/| "Am"EAA A2G| BAA A2B| "G"d2e dBg| BGG G2A/G/|
+      "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2 :|
+\
+e| "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| d>BA "Am"A2e|
+   "Am"a>^ga a2e| a>^ga a2e| "G"=g>bg e>ge| dBG G2A/G/|
+   "Am"EAA A2G| BAA A2B| "G"d2e dBg| "Am"BAA A2|]
+%%text Roaring Jelly  J-41
+S:https://www.folktunefinder.com/tunes/156679
+S:http://roaringjelly.org/music/sets/Set08.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set08.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set08.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

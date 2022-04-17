@@ -1,0 +1,27 @@
+X: 1
+T:Ekremov Cocek
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M:7/8
+K:Bb
+L:1/8
+R:Cocek
+|: [Ac][Bd][Bd] [Bd][Ac] [B2d] | [GB][Ac][Ac] [Ac][GB] [Ac] \
+|  [^FA][GB][GB] [GB][FA] [GB][FA] | [EG][D^F][EG] [F2A] zD | [G3B] [A2c] [B2d] |
+| [c2e][Bd] [A2c] [G2B] | [^FA][Ac][GB] [FA][EG] [EG][DF] | ([D3^F] [D2F]) z2 :: [D3^F] [E4G] \
+| [^F/A][G/B][F/A][E/G][DF] [EG] z2 | [B2d][Bd] [A2c] [G2B] |
+| [^F2A] [GB] [A2c] z2 | [B2d][Bd] [A2c] [G2B] | [^F2A] [GB] [A2c] [G2B] \
+| [^FA][Ac][GB] [FA][EG] [EG][DF] |1 ([D3^F] [D2F]) z2 :|2 [D3^F] GA Bc :|
+|: [^F3A] [B4d]| [^F3A] [A4c] | [EG][EG][EG] [G2B] [GB][^FA] \
+|  [EG][D^F][EG] [F2A] z2 | [^FA][Ac][GB] [FA][EG] [EG][DF] | ([D3^F] [D4F]) | z7 :|
+S:https://www.folktunefinder.com/tunes/155885
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ek/Ekremov_Cocek_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ek/Ekremov_Cocek_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ek/Ekremov_Cocek_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ek/Ekremov_Cocek_2.abc
+% Rhythm Cocek
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

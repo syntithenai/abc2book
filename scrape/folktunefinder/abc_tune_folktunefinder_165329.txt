@@ -1,0 +1,22 @@
+X: 95
+T: THREE MERRY SISTERS -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: C|
+L: 1/8
+Z: Contributed 20010523163018 by John Chambers jc:trillian.mit.edu
+K: EDorian
+"^Segno"|:\
+v.B.E((3FED) BdcA | .B.E((3FED) dAFA | .B.E((3FED) BdcA | (dD)(3DDD ADFA :|
+|: Beec d2cA | Beec dAFA | Beec d2cA | BABc dAFA :|
+|: BdcA BFAF | .B.E(3EEE BEFA | BdcA BFAF | (dD)(3DDD ADFA |
+|  BdcA BFAF | .B.E(3EEE BEFA | DFAc d2eg | fdec dAFA "^Segno"[|]:|
+S:https://www.folktunefinder.com/tunes/165329
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

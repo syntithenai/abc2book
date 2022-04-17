@@ -1,0 +1,29 @@
+X:4
+T:Valsounette
+C:Jacky Mollard
+D:Penno Skoulm #1
+O:Breizhat
+%Q:C4=45
+Q:1/4=45
+M:6/8
+L:1/16
+K:Am
+% Tamm kentan
+E:10
+|:EAcBAG FAcBA^G|ABceab c'3c'ba|gebage ^f3^gaf|^geedBA ^GAB^G=F2|*
+EAcBAG FAcBA^G|ABceab c'3abc'|d'c'bad'c' b3efb|e^gbec'b|1 a2BAGA:|2 a4^ga||*
+% Eil tamm
+E:9
+b^ggeeb b^ggeec'|c'aaeec' c'aaeeb|b^ggeeb b^ggee2|FEFGAB (3cBc(3dcd(3e^ga|*
+E:10
+b^ggeeb b^ggeec'|c'aaeec' c'aaebc'|d'c'bad'c' b3efb|e^gbec'b |1 a4^ga:|2 a2BAGA|**
+% Diwezh
+S:https://www.folktunefinder.com/tunes/156118
+S:http://moinejf.free.fr/dansou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

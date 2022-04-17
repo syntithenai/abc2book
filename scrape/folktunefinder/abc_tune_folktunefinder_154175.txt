@@ -1,0 +1,29 @@
+X:1
+T:Downfall of Paris
+B:Bruce & Emmett
+M:2/4
+L:1/8
+Q:1/8=200
+K:D
+%K:D t=8
+|: (3A/B/c/ |dd/e/ dd/e/|dd g/f/e/d/|ee/f/ ee/f/ |ee a/g/f/e/|
+ff/g/ ff/g/ |ff b/a/g/f/|ee/f/ ee/f/|e/f/g/e/ c/A/B/c/|
+dd/e/ dd/e/|dd g/f/e/d/|ee/f/ ee/f/ |ee a/g/f/e/|
+f/e/f/g/ a/b/a/g/|f/e/f/g/ a/b/a/g/|f/a/f/d/ e/g/e/c/|dfd :|
+|: f| a3 a|afba|gg/f/ gg/f/|gg/f/ g2|
+g3 g|geag|ff/e/ ff/e/|ff/e/ f/g/a/f/|
+dd/e/ dd/e/|dd g/f/e/d/|ee/f/ ee/f/ |ee a/g/f/e/|
+f/e/f/g/ a/b/a/g/|f/e/f/g/ a/b/a/g/|f/a/f/d/ e/g/e/c/|dfd :|
+|: A|A/B/c/d/ d/c/B/A/|F/G/A/B/ A/G/F/E/|Dd/f/ ee/g/|ff e2|
+A/B/c/d/ d/c/B/A/|F/G/A/B/ A/G/F/E/|Dd/f/ ee/g/|fed :|
+|: d|c/A/d/A/ e/A/f/A/|g/A/f/A/ e/A/d/A/|c/A/d/A/ e/A/f/A/|g/A/f/A/e2|
+A/B/c/d/ d/c/B/A/|F/G/A/B/ A/G/F/E/|Dd/f/ ee/g/|fed :|
+S:https://www.folktunefinder.com/tunes/154175
+S:http://www.drumband.org/music/downfall.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,116 @@
+X:1
+T: Introduction et variations
+C: Henri Tomasi
+O:
+M:9/8
+L:1/8
+Q:"Lent"  3/8=54 
+K:Bb
+V:1
+z9 | z9 | (FGf d2f B2G | G6 - G2z) |
+z9 | (FGf d2f B2G | B6-B2)z | z9 |
+[M:3/4] ((3F/B/d/f g4- | g2-g)z z2 | ((3F/B/d/f g3f | f/d/f/e/ c4) |
+"Cadence"(3FBd (3Bdf (3f>ag (3fed ((3e/d/c/)((3d/c/B/) ((3c/B/A/)((3B/A/G/) (3AG^F (3F/A/d/Hd | [Q:3/8=54] z9 |
+((3_E_G_B) HB2 ((3^FAd (3A/d/^f/Hf) | [Q:3/8=54] Hz9 || [M:9/8][Q:3/8=54 "lent"] (_E_GB ddd d2c | f2e dcB c3- |
+c2)z z2z Hz3 || (3Bdf (3f>ag (3fed ((3e/d/c/)((3d/c/B/) ((3c/B/A/)((3B/A/G/) (A/4B/4c/4d/4e/4f/4g/4a/4) bz/F/ dg f>B Bc G>F FG HB2 || [M:9/8]
+V:2 clef=perc stafflines=1
+B>BB BB2 B2B | B>BB BB2 BBB | Bzz z2z z2z | B>BB BB2 B2B |
+B>BB BB2 BBB | B zz z2z z2z | B>BB BB2 B2B | B>BB BBB BBB |
+[M:3/4](3Bzz (3z2B (3B2B | (3B>BB (3BBB (3BBB | (3Bzz (3z2z (3z2z | (3z2z (3B>BB (3BHB2 |
+z24 | [M:6/8] B>BB BB2 |
+z8 | B>BB BHB2 || z9 | z9 |
+B>BB BB2 HB3 || z26 |
+V:1
+z9 || [M:2/4] z4 | z4 | z4 |
+V:2
+B>BB BB2 BBB | [M:2/4] BBBB | BBBB | BBBB |
+T:VARIATION I
+V:1
+z2 (d/B/)d/B/ |:  bBdc | f>e d/d/c/B/ | cd e/e/d/c/ | (BF) (d/B/)d/B/ |
+bBdc | f>e d/d/c/B/ | .c.d f/f/e/c/ |1 Bz (d/B/)d/B/ :|2 Bz .d/.d/.d/.d/ |:
+d/c/f/e/ d/d/c/B/ | (cG) d/d/d/d/ | (d/c/)f/e/ d/c/B/A/ |1 B2 d/d/d/d/ :|2 Bz F/F/B/d/ ||
+(fg) F/F/B/d/ | (fg) F/F/B/d/ | f/g/f/d/ f/f/f/e/ | c2 f/F/B/d/ | (fg) f/F/B/d/ |
+(fg) f/F/B/d/ | f/g/f/d/ f/f/e/c/ | b2 d/d/d/d/ || [M:3/4] d/c/f/e/ d/c/B/A/ (BF) || [M:2/4]
+b2 d/d/d/d/ || [M:3/4] d/c/f/e/ d/c/B/A/ B2 || [M:2/4] b2 d/d/d/d/ || [M:2/4] d/c/f/e/ d/c/B/A/ (BF) || [M:2/4]
+b2 d/d/d/d/ || [M:3/4] d/c/f/e/ d/c/B/A/ B/A/G/F/ | F6- | !breath!FG/A/ B/c/d/e/ Hf2 || [M:9/8]
+V:2
+BBBB |: BBBB | BBBB | BBBB | BBBB |
+BBBB | BBBB | BBBB | BBBB :|BBBB |:
+BBBB | BBBB | BBBB | BBBB :|BBBB ||
+BBBB | BBBB | BBBB | BBBB | BBBB | 
+BBBB | BBBB | BBBB || BBBBBB ||
+BBBB || BBBBBB || BBBB || BBBBBB ||
+BBBB || BBBBBB | BBBBBB | Bz z2 Hz2 ||[M:9/8]
+T:VARIATIONS II
+V:1
+[Q:3/8=60] z9 || [M:6/8] [P:Forlana] (B>EE _G>EB | _A>_Bc B2B) | (B>EE _G>EB |
+_A>_GF E3) | (E>_GB d>dd | d>cf e>dc) || [M:9/8] (d>cB) (cB_A) B3 || [M:6/8]
+(B>EE) (^F>=Ad) | (B>AG A2A) | (^F>Ad) (G>Be) | (Ad^f Hf3) |
+(B>EE _G>EB | _A>Bc B2B) | (E>_GB ddd | d2c f2e) || [M:3/4]
+V:2
+B>BB BB2 B2B || B2B B2B | B2B B2B | B2B B2B | 
+B2B B2B | B2B B2B | B2B B2B || B2B B2B B2B ||
+B2B B2B | B2B B2B | B2B B2B | B2B HB3 |
+B2B B2B | B2B B2B | B2B B2B | Bzz z2z ||[M:3/4]
+T:VARIATION III AIR
+V:1
+[Q:1/4=100]((LdG)L(dA)(LdB) | Ld(AG^F)(LcA)) | (L=f(ABc)(Lec) | (LdB)(LcA)(LBG)) | ((Lc^F)(LcG)(LcA) |
+Lc(BAG)(LdG)) | ((Le^F)(LdG)(LcA) | LB3) (=FBd | Lf(FGA)(LgB) | Lf(ABc)(Lec) | 
+Ld(BAG)(LdG)) | ((Ld^F)(LcG)(LdA) | (LfB)(LeG)(LcA) | L^F3) (=FBd | Lf(FGA)(LgB) |
+Lf(ABc)(Lec)) | (Ld(BAG)(LdG) | (Ld^F)(LcG)(LdA) | (LfB)(LeG)(cHA)) || [M:3/8]
+T:VARIATIONS IV
+V:1
+[Q:3/8=100] z3 | z3 | z3 | [P:giocoso] Ld.d.d | Ld.c/.c/.f/.e/ | Ld.d/.d/.c/.B/ |
+Lc.c.c | Lddd | Ldc/c/f/e/ | (Ld/c/d/f/e/c/) | LB3/(F/B/d/) | (Lfg/)(F/B/d/) | 
+(Lfg/)(F/B/d/) | (Lf/g/f/d/f/e/) | c3/(F/B/d/) | (Lfg/)(F/B/d/) |(Lfg/)(F/B/d/) |
+(Lf/f/g/f/f/g/) | Lb3/(F/B/d/) | (Lfg/)(F/B/d/) | (Lfg/)(F/B/d/) | (Lf/g/f/d/f/e/) |
+c3/(F/B/d/) | (Lfg/)(F/B/d/) |(Lfg/)(F/B/d/) | (Lf/f/g/f/f/g/ | Lb3)- | bzz |]
+V:2
+LBBB | LBBB | LBBB | LBBB | LBBB | LBBB | 
+LBBB | LBBB | LBBB | LBBB | LBBB | LBBB | 
+LBBB | LBBB | LBBB | LBBB | LBBB | 
+LBBB | LBBB | LBBB | LBBB | LBBB | 
+LBBB | LBBB | LBBB | LBBB | LBLBLB | LBzz |]
+T:ROMANCE (Tristesse de Mireille)
+V:1
+[M:3/4][Q:1/4=60] z6 | z6 | (FGB2B2 | B4 AG | GFG2A2 |
+(6B/c/B/A/G/F/ G4) | z6 | z(G B2 B/A/B/c/ | c2B2AG | GFGABA |
+(3GAF F4) | z6 | (c2d2e2 | f4f2 | (3edc d2 (5Md/e/f/e/d/ |
+cBc4) | (MB2 (d/c/)(e/d/) ed | {d}c2B2) ((3Bcd | (cB)(B_A)(AG) | (G/_A/B/A/) A4) |
+z6 | z(G B2 (3Bcd | c2B2_A2 | GF_E2FG | (5_A/B/A/G/F/ E4) | z6 |
+(FG B2B2 | B4 =AG | GFG2A2 | (6B/c/B/_A/G/F/ G4- | HG6) |]
+V:2
+[M:3/4]BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | 
+BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | 
+BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | 
+BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | 
+BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | 
+BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 | BBB2B2 |]
+T:FARANDOLE
+V:1
+[M:6/8][P:Giocoso] [Q:3/8=120] z6 | z6  | z2z (LBd)f |: Lfzf {f}Lazg | (Lfe)f (Led)e |
+(Ldc)c cBc | (Ld2B) (LBd)f | Lfz.f {f}Lazg | (Lfe)f (Led)e | Ldcd Lfec |1
+B2z (LBd)f :|2 B2z LBBc |: Ldcd Lezd | c2z Leed | Lccc LcBc |
+(d2B) LBBc | Ldcd Lezd | c2z Leed | Lccc LcBA |1 B2z LBBc :|2
+B2z (LFdg) || f3 (LFdg) | f3 (LFdg) | (LfBc) (LGFG) | (LB2F) (LFdg) | f3 (LFdg) | 
+f3 (LFdg) | Lfff Lgfg | Lb2z (LFdg) | f3 (LFdg) | f3 (LFdg) |
+(LfBc) (LGFG) | (LB2F) (LFdg) | f3 (LFdg) | f3 (LFdg) | Lfff Lgfg | Lb2z z2z |]
+V:2
+[M:6/8] B2BB2B | B2BB2B | B2BB2B |: B2BB2B | B2BB2B | 
+B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2BB2B | 
+B2BB2B :| B2BB2B |: B2BB2B | B2BB2B | B2BB2B | 
+B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2BB2B :| 
+B2BB2B ||  B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2BB2B | 
+B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2BB2B | 
+B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2BB2B | B2zz2z |]
+S:https://www.folktunefinder.com/tunes/156996
+S:http://michel.bellon.free.fr/Musique/abc/LeTombeauDeMireille.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 6/8
+% Time_signature 3/8
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

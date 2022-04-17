@@ -1,0 +1,24 @@
+X:1
+% MIDI CHAN=1
+M:4/4
+T:forirlnd
+L:1/8
+|
+Q:100
+K:CMaj
+"C"E E3 "C"E3 C|"G"D6 E2|"F"F4 "C"ED C2|"Am"A,3 G, "Am"A,2 B,2|*
+"C"C8|"C"E E3 "C"E3 C|"G"D6 E2|"F"F3 F "C"E2 C2|*
+"Am"A,3 G, "Am"A,2 B,2|"C"C6 z2|"F"F3 F "G"F2 G2|"Am"A3 G "G7"G3 F|*
+"C"E C3 "C"C3 C|"C"C6 DE|"G"D8|"G"F G3 "Am"A3 G|*
+"C"G2 E2 "C"C3 E|"Em"E3 F "C"G C3|"G"B,3 C "G"D3 F|"G"F3 G "Am"A3 A|*
+"C"G2 C2 "G"D3 E|"F"F3 F "C"E2 C2|"Am"A,2 B,2- "C"C8 z/2| |*
+|
+S:https://www.folktunefinder.com/tunes/158951
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mudcat.org/thread.cfm%3fthreadid=35658
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Gort A' Charn
+M: 6/8
+L: 1/8
+R: jig
+K: Ddor
+|:DFA d2f|edc dAF|GFG AGA|cBA GEA|
+DED F2A|dfe dcA|GFG cBA|GEA D2A:|
+|:DFA dfa|gec dAF|GFG AGA|cBA GFG|
+[1AGA dfa|gec dAF|GFG cBA|GEA D2A:|
+[2fed cBA|cBA GFG|AGA cBA|GEA D3||
+S:https://www.folktunefinder.com/tunes/161849
+S:http://www.thesession.org/tunes/display/6573
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

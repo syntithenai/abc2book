@@ -1,0 +1,30 @@
+X:1
+T:Eierdans
+C:'t Kliekske
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:(AABBAACCDC)x3
+L:1/8
+M:6/8
+K:C
+P:A
+G | c>de e>dc | d2 d d2 G | c>de e>dc | (d3 d2) G :|
+P:B
+c>dc c>BA | B>cB B>AG | c>dc c>BA | (G3 G2) G :|
+P:C
+M:4/4
+L:1/8
+G2 cB A2 dc | B2 cd c2 G2 | G2 cB A2 dc | B2 cd c4 :|
+P:D
+egec dcBc | egec dcBc | egec B2 A2 | B2 cd c4 |]
+S:https://www.folktunefinder.com/tunes/155796
+S:http://user.online.be/volksdans/abc/Eierdans.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Eierdans.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

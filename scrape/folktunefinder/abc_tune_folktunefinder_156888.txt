@@ -1,0 +1,27 @@
+X:1
+T:Too Much Chocolate
+C:copyright 1997 Kaubells
+R:Reel
+E:20                   % note spacing
+M:C
+K:Am
+"Am"c2A2A2z2|AGAB c2A2|"G"B2G2G2z2|"Em"BABc d2B2|*
+E:16
+"Am"c2A2A2z2|AGAB c2A2|"G"B2G2 (3E"Em"F^F G2|1 "...Am"A2>B2 A2c2-:|2 "...Am"A2>B2 A2 "Dm"=f2-|
+T:The fancy chords below can be dropped in favor of simpler ones.
+E:20
+"Dm11"=f2d2 "Dm7"d2z2|"Dm11"fefg "Dm7"a2f2|"Csus"g2e2 "C"e2z2|"Am9"edef "Am"g2e2|
+"Dm11"f2d2 "Dm7"d2z2|"Dm11"fefg "Dm7"a2f2|"C"g2e2 "Am"AB c2|"Dm"d2>e2 d4|]
+% That first triple really should have "Em" in front of the first
+% note, but I haven't been able to make abc accept any version of
+% that.  Similarly for the other triple.
+S:https://www.folktunefinder.com/tunes/156888
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/too-much-chocolate.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

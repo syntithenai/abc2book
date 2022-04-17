@@ -1,0 +1,49 @@
+X:1
+T:Eirigh Suas a Strn
+M:3/4
+C:Traditional
+B:Folk Songs of Britain and Ireland
+K:A dorian
+AAA2BA|G2B2AG|E2D2D2|D6|
+D2D2D2|d2d2ed|c2BAGB|A6|
+D2D2D2|d2d2ed|c2BAGB|A4Bc|
+d2A2GE|G2B2AG|E2D2D2|D6||
+W:
+W: irigh suas a Stirn mur' bfhuil t 'do shu
+W: Foscail a' doras agus lig mis' 'un t
+W: T buidal im aice 'bharfas deoch do mhnaoi'n toigh'
+W: Is t sil 'gam nach ndiltuigheann s m f n-a nion
+W:
+W: Nuair a irm 'mach ar maidin agus dhearcaim uaim siar
+W: 'Gus dhearcaim ar a' bhail' ud a bhfuil agam le ghabhil ann
+W: Titeann na dera ina srite liom sos
+W: Agus nmse mle osna bos cosil le cumhaidh
+W:
+W: I ngleanntn na coilleadh beothortha is lag brnach a bm
+W:  Dhomhnach go Domhnach 's m ag cathamh mo shaoil
+W: 'M a' feitheamh 'ach trathnna
+W:  c rachadh 'n rd n thiocfadh 'un t
+W: Is gan aon n ar an domhan mhr a thgfadh mo chro
+W:
+W: Nach aoibhinn don anlaith a iros gach l
+W: 'S a luos arst ar an aonchraoibh amhin
+W: N h- sin domh fin 's do mo chad mhle gr
+W: Is i bhfad i bhfad  chile bos r n-ir gach l
+W:
+W: (The following verse replaces the last one here in Clannad's
+W: version of the song.)
+W:
+W: A mhil a chadsearc na trig thusa m go brch
+W: Nach bhfuil m do dhiaidh gach aon l fa mhalaidh na n-ard
+W: is t cruithneach ar mhn ireann
+W:  is t an parla 't doiligh 'fhil
+W: is dar mhionna mo bhil n brag  go bhfuil m leatsa i ngr
+S:https://www.folktunefinder.com/tunes/155858
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/eirigh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/eirigh.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

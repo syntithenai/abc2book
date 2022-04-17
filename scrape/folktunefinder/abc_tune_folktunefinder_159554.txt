@@ -1,0 +1,31 @@
+X:1 % 19
+T:Fuereinander
+R:Jodler
+A:Bad Ischl, Salzkammergut
+C:
+B:"Pfeifermusik aus Bad Ischl", Lois Blamberger, 3. Auflage, Bad Ischl 1990
+S:dort Nr. 25 mit der Angabe:Sammlung Lois Blamberger
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+GD BDG2 | AE cE A>G | FD cD FD | GD BDG2 |\
+GD BDG2 | AE cE A>G | FD cD FD | G4z2 :| 
+V:2
+z4z2 | cA eA c>B | cF dF cF | BG dGB2 |\
+BG dGB2 | cA eA c>B | cF dF cF | B4z2 :| 
+V:3
+z4z2 | z4z2 | Dc Dc Dc | DB "1)"GB d2 |\
+DB GB D2 | Ec Ace2 | dc FA Dc | D4z2 :| 
+W:1) im buch fis'
+S:https://www.folktunefinder.com/tunes/159554
+S:http://simonwascher.info/TradArchiv_iodler/fuereinander.GDBDG2AEcEA_G.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

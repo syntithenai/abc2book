@@ -1,0 +1,25 @@
+X:4
+T:Perigord
+R:Reel
+C:Rick Mohr
+L:1/8
+M:C|
+K:Am
+"Am"EAAG A2EA|"G"GEDF "Am"EA,A,B,|"C"C2EC "G"B,EDB,|G,A,B,D "Em"EDB,D|
+"Am"EAAG A2EA|"G"GEDF "Am"EA,A,B,|"C"C2EC "G"B,EDB,\
+|1"Em"G,A,B,G, "Am"A,3D:|2"Em"G,A,B,G, "Am"A,3e|]
+"A"ae^ce aeea|"G"gede geeg|"Am"ae=ce BeA^F|"G"G^FGA "Em"Bdeg|
+"A"ae^ce aeea|"G"gede geed|"F"=c3A "Em"BABc\
+|1"G"dBGB "Am"cAAe:|2"G"dBGB "Am"cAAG|]
+S:https://www.folktunefinder.com/tunes/164454
+S:http://rickmohr.net/rick.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/by/RickMohr/rick.abc
+S:http://rickmohr.net/rick.abc.html
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

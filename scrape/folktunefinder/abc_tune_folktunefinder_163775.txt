@@ -1,0 +1,29 @@
+X:4
+T:Hector the Hero
+M:3/4
+L:1/4
+Q:150
+C:J. S. Skinner
+Z:John Chambers <jc@trillian.mit.edu>
+K:F
+FG |: "F" A3/2 G/2 F | "Bb"d2 c/2A/2 | "F"c2-c/2d/2 |
+"F"c2F/2G/2 | "Dm"A2G/2F/2 | "Bb"d2c/2A/2 | "Gm"G2-G/2A/2 |
+"C"G2A/2c/2 | "Dm"A3/2G/2F | "Bb"d2c/2A/2 | "F"c2F |
+"Bb"f2d | "F"c2F/2A/2 | "C"G2F | "F"F3- | "F"F :|
+Ac | "Bb"d2B/2d/2 | "Bb"f2e/2d/2 | "F"c2-c/2d/2 |
+"F"c2A/2c/2 | "Dm"d2c/2A/2 | "Dm"c2F/2A/2 | "Gm"G2-G/2A/2 |
+"C"G2A/2c/2 | "Dm"d2B/2d/2 | "Bb"f2e/2d/2 |
+[1 "F"c2B/2A/2 | "Bb"f2B | "F"A2F/2A/2 | "C"G2F | "F"F3- | "F"F :|
+[2 "F"c2F | "Bb"f2d | "F"c2F/2A/2 | "C"G2F | "F"F3- | "F"F |]
+S:https://www.folktunefinder.com/tunes/163775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/HectorTheHero.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/HectorTheHero.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/HectorTheHero.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

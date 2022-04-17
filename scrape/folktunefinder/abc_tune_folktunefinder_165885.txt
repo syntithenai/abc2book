@@ -1,0 +1,41 @@
+X:3  % Marys_Hornpipe.abc
+T:Mary's Hornpipe
+C:Barry Schwartz
+R:hornpipe
+H:Written January 13 and 14, 2004.  Revised February 2, 2004.
+H:Variations 1 and 2 written February 6 and 7, 2004.
+N:Copyright  2004 by Barry B. Schwartz
+%%abc-copyright Copyright (C) 2004 by Barry B. Schwartz
+% $Revision: 1.14 $   $Date: 2004/03/19 20:39:31 $
+M:C|
+L:1/8
+N:Composer's website: http://www.winternet.com/~trashman/Music.html
+K:D mixolydian
+|:B2A2|defe d2a2|g4 c2B2|defe d2a2|b4 c'2b2|
+agab c'ba2|gfga bag2|fecA FGAB|1d4:|2d3e gab=f|
+|:fgag fede|fgab c'ba2|gfgb agde|
+f6 a2|edef gfe2|dcde =fedf|fecA FGAB|1d3e gab=f:|2d4|]
+%%text Variation 1 (particularly for C recorder)
+|:E2C2|DEFE D2A2|G4 C2E2|DEFE D2A2|B4 G2c2|
+AGAB cBA2|GFGA BAG2|FEAG cAGF|1D4:|2D3E GAB=F|
+|:FGAG FEDE|FGAB cdcA|GABc dcAG|
+F4 A2D2|EFGA GFE2|DE=FG FEDG|FEAG cAGF|1D3E GAB=F:|2D4|]
+%%text Variation 2 (the same as variation 1, but an octave higher)
+|:e2c2|defe d2a2|g4 c2e2|defe d2a2|b4 g2c'2|
+agab c'ba2|gfga bag2|feag c'agf|1d4:|2d3e gab=f|
+|:fgag fede|fgab c'd'c'a|gabc' d'c'ag|
+f4 a2d2|efga gfe2|de=fg fedg|feag c'agf|1d3e gab=f:|2d4|]
+S:https://www.folktunefinder.com/tunes/165885
+S:http://www.winternet.com/~trashman/hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

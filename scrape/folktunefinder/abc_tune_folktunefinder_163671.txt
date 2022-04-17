@@ -1,0 +1,17 @@
+X: 1
+T: Hazel Shrubbery, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Dmaj
+(3[eA][fA][=gA] |: [a2A2]) ([fA][bA]) ([=gA] [fA]|[eA])[dD] [cE]>[de] (3[eA][fB][=gB])|[a2A2] [fB]>[bB] [=g2B2]|[1 (e2 [A2E2]) (3([eA][fA][=gA] :| [2 (e2 e2) ([eA]>[aA] |: [fA])[fd] [fd]>[fd] ([fd] e)|([ec]A) A>A [c2E2]|[1 ([BE][B=G]) [B=G]>[B=G] ([BE][eE])|([ec][cA]) [cA]>[cA] ([eA][aA]) :| [2 ([BE][B=G]) [B=G]>[eB] (3[eB]e[ec]|(A2 A=G) (3([AD][BE][cE] |: d2) ([eB]e) ([ec][eB]|[eA])[A=G] [AF]>[A=G] (3([AD][BE][cE]|d2 [BE]>e [c2E2]| [1 A2 A<A ([AD][BE][cE] :| [2 A2 A<A ([AD]>[dD] |: [BE])[B=G] [B=G]>[B=G] ([B=G]A)| ([AF] [FD]) [FD]>[FD] F2|[1 ([EA,][E^C]) [E^C]>[AE] ([AE] A)|([AF][FD]) [FD]>[FD] [d2D2] :| [2 ([EA,][E^C]) [E^C]>[AE] (3[AE][A=G][AF]|(D2 D2) ([eA]>[aA] |: [fA])[fd] [fd]>[fd] ([fd]e)|([ec][A]) A>A [c2E2]| [1 ([BE][B=G]) [B=G]>[B=G] ([eB]e)|([ec]A) A>A ([eA]<[aA)] :| [2 ([BE][B=G]) [B=G]>[eB] (3[eB]e[ec]|(A2 A2) ([AD]>[dD] |: [BE])[B=G] [B=G]>[B=G] ([B=G]A)|([AF][FD]) [FD]>[FD] F2| [1 ([EA,][E^C]) [E^C]>[E^C] ([AE]A)|([AF][FD]) [FD]>[FD] [d2D2] :| [2 ([EA,][E^C]) [E^C]>[AE] (3[AE][A=G][AF]|
+[1 (D2 [FD]<D (3[eA][fA][=gA] | [2 (D3 F) [D2A,2] ||
+S:https://www.folktunefinder.com/tunes/163671
+S:http://www.thesession.org/tunes/display/3929
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,55 @@
+X:1
+T:Drei Schwedische
+C:traditionell
+A:Gruenbach bei Freistadt
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"A lustige Eicht - Mitteilungsheft des Oberoesterreichischen Volksliedwerkes", heft 27, 7. iahrgang, Linz September 1999
+S:Gottfried Affenzeller, Gruenbach b. Fr., sammlung Aug. Schwarz Herm. Derschmidt; Oberoesterreichisches Volkslied Archiv
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+P:1
+(G2A2) |\
+(B2A2B2) | (c2B2c2) | (d2b2)g2 | d6 |\
+(d2c'2)f2 | d6 | (d2b2)g2 | d6 |
+(B2A2B2) | (c2B2c2) | (d2b2)g2 | d6 |\
+(d2c'2)f2 | d4(ef) | g3gg2 | g2z2 :| z2 ||
+|:\
+(fc')c'2af | d6 | (db)b2gd | B6 |\
+(fc')c'2f2 | (db)b3g | (dc')c'2f2 |1 g6 :|\
+                                  [2 g4 ||
+P:2
+K:C
+(ef) |\
+(gfg) fef | (ede2)c2 | (def) GAB | (cd)efg2 |\
+(gfg) fef | (ede2)c2 | (def) GAB | c4 :|
+|: (eg) |\
+(ag)ec (GF) | (EG)ceg2 | (FG)Bdf2 | (EG)ceg2 |\
+(ag)ec (GF) | (EG)ceg2 | (FG)Bd (fB) | c4 :|
+P:3
+K:D
+|: (Af) |\
+(ef)(g3f) | e2Ace2 | (fg)(a3g) | (fA)daf2 |\
+(ef)(g3f) | e2Ace2 | (gA)cb (gc) | d4 :|
+|: z2 |\
+(fa)gba2 | (gA)ceg2 | (eg)(b3a) | (fA)dfa2 |\
+(fa)gba2 | (gA)(c3e) | (eg)(a3c) | d4 :|]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154346
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/drei_schwedische.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

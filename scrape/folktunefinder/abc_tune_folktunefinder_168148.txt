@@ -1,0 +1,26 @@
+X: 1
+T: John Byrne's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+D |:GFG BcA |BGF GBc |dBG cAF |GDC B,CA, |
+GFG BcA |BAG fed |cAG FGA |1BGF G2 D :|2BGF GBd ||
+|:gfg afd |cBc dBG |gfg afd |cBc def |
+gdg fdf |ece gfe |ded cBA |1(3BGF GBd :|\
+M:5/8
+L:1/16
+[2 B2 G2 F2 G4 |]
+S:https://www.folktunefinder.com/tunes/168148
+S:http://www.thesession.org/tunes/display/4884
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 5/8
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

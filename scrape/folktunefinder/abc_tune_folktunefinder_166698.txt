@@ -1,0 +1,36 @@
+X: 1
+T: I Schottische Lan Yr Wyddfa
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: f>a |
+b>a^g>a f2 d>f | a>gf<g B2 e>d | c>dB>c A>ce>g | b<a^g>a f2 d>f |
+b>a^g>a f2 (3def | a>gf>g B2 (3fed | c<dB>c A<ce>c | d2 f2 d2 :|
+|:(3BAG |
+F>Ad>A F>Ad>f | a>gf<g B3 d | c>dB>c A>ce>g | b>a^g<a f>dA>G |
+F>A d2 (3FGA d2 | a<gf>g B>fe>d | c>dB>c A>ce<c | d2 f2 d2 :|
+|: (3fga |
+b>a^g>a f2 d>f | a>gf<g B3 d | c>dB>c A>ce>g | b<a^ga f>d (3Adf |
+b<a^g>a f2 (3def | a>gf<g B2 (3fed | c<dB>c A<ce>c | d2 f2 d2 :|
+|: A>G |
+F>Ad>A F>Ad>f | a>gf>g B>ee>d | c>ea>e (3cde a>^g | b>a^g>a f2 (3BAG |
+(3FGA d>A (3FGA d>f | a<gf>g B>ba>g | f>de>c (3ABc e>c | d2 A2 D2 :|
+K: G Maj
+|: (3GB/c/d |
+e>d^c>d B2 (3GAB | d>cB>c E2 A>G | (3FGA E>F (3DEF A>c | e>d^c>d B2 (3GBd |
+(3efe d>c B2 G>B | (3ded c>A E4 | F>A (3EFG D>F (3AGF | G2 g2 G2 :|
+|: d>c |
+B>DG>D (3Bcd G>B | d>cB>c E>AA>G | F>Ad>A (3FGA d>^c | e>d^c>d B3 G |
+D>G (3BAG D2 (3GAB | d>cB>c E2 A2 | (3FGA (3EFG (3DEF (3AGF | G2 (3ggg G2 :|
+S:https://www.folktunefinder.com/tunes/166698
+S:http://www.thesession.org/tunes/display/5043
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

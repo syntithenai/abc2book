@@ -1,0 +1,24 @@
+X: 1
+T: Kilcar, The
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+|: b>g d2 B2 | G>B e2 g2 | f>d c2 A2 | G>B d2 g2 |
+b>g d2 c2 | A>c e2 g2 | f>e d2 f2 |1 a2 g3 a :|
+2 a2 g3 d ||
+|: B>d g2 e2 | f>g a2 g2 | f>g e2 f2 | g>e d2 c2 |
+B>d g2 e2 | f>g a2 g2 | f>g e2 f2 |1 a2 g3 d :|
+2 a2 g3 a ||
+S:https://www.folktunefinder.com/tunes/169760
+S:http://www.thesession.org/tunes/display/3286
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

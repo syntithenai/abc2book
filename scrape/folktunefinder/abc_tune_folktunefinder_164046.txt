@@ -1,0 +1,30 @@
+X: 1
+T: Hey Jude (F)
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: F
+c3 \
+| "F"A6- | A2A c2d | "C"G6 | z3 "C7"G2A \
+| B3 f3- | f2f e2c | "F"dcB A3- | A3 c3 |
+| "Bb"d2d- d2d | g2f efd | "F"c6 | F2G A2d \
+| "C7"c3- c2c | B2A E2F- | "F"F6 "->Coda"| z6 |]
+[| "F"z2F fd2 | dc2 c2B | "Bb"d3 f2d- | "/A"d3 f2B- \
+| "Gm"B3 f2d- | "/F"d2c B2c- | "C7/E"c3 d2c- |
+| "C7"c3 B2A- | "F"A2G F3- |1 F6 :|2 "F"F2F c2d | "F7"_e2d e3 | "C7"=e2f g3- | g3 "d.C."|]
+"Coda"\
+|: "F"[F6C6] | [A3F3] [c3A3] | "Eb"[g_e][fd][ge] [f3-d3-] | [f3d3] z3 \
+| "Bb"[g_e][fd][ge] [f3-d3-] | [f3d3] [_e2c2][dB] | "F"[c6-A6-] | [c6A6] :|
+S:https://www.folktunefinder.com/tunes/164046
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/HeyJudeJ_F.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

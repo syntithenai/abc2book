@@ -1,0 +1,26 @@
+X:15
+T: Emo University
+C: J.O'Sullivan
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: G
+d | Bdgd egdB | cAFA G3 A | BGdG eGdG |\
+EAAG A3 d |
+(3Bcd gd egdB | cAFA G3 A | BGAG EGDG |\
+DEGA BG G :|
+d | gd d2 a3 f | gedc BG G2 | ceae c3 b |\
+ab (3gfe d2 de |
+gd d2 a3 f | gedc BG G2 | ceae cbag | fgaf g3 :|
+S:https://www.folktunefinder.com/tunes/155459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/e.abc
+S:http://www2.redhawk.org:8080/irish/zouki/e.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/e.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

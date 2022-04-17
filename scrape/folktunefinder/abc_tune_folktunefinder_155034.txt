@@ -1,0 +1,40 @@
+X:1
+T:Duo en r\'e majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle07.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:C|
+L:1/8
+K:D
+V:1
+"^Allegro".f.g|(ba)(d'c') (ba)(gf)|(ag).g.g.g2.e.f|(ag)(e'd') (c'b)(ag)|
+(gf).f.f.f2.f.g|(af).e.d (dc).e.g|(fa).f.d (dc).e.|(fa)(d'c') (ba)(gf)|(f4e2):|
+|:.e.f|(ag).g.g .g(a/g/) .e.f|(ag).g.g.g2.f.g|(ba).a.a .a(b/a/) .f.g|
+(ba).a.a.a2.f.g|(af).e.d (dc).e.g|(fa).f.d (dc).e.g|(fa)(d'b) (af)(eg)|
+(g4f2).f.g|(af).e.d (dc).e.g|(fa).f.d (dc).e.g|(ge)(d'b) (af)(ge)|(e4d2):|
+V:2
+.d.e|(gf)(fa) (gf)(ed)|(fe).e.e.e2.c.d|(fe)(c'b) (ag)(fe)|
+(ed).d.d.d2.d.e|f2F2E2c2|d2.A.FE2.c.e|d2(fe) (gf)(ed)|(d4c2):|
+|:.c.d|(fe).e.e .e(f/e/) .c.d|(fe).e.e .e2.d.e|(gf).f.f .f(g/f/) .d.e|
+(gf).f.f.f2.d.e|f2F2E2c2|d2.A.FE2.c.e|d2(fg) (fd)(ce)|
+(e4d2).d.|f2F2E2c2|d2.A.FE2.c.e|(ed)(bg) (fd)(ec)|(c4d2):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155034
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle07.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle07/devienne-nouvelle07.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle07/devienne-nouvelle07.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

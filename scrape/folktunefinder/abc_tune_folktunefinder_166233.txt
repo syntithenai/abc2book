@@ -1,0 +1,100 @@
+X:1
+%%tabrhstyle modern
+%%tabaddflags 0
+%%tabfontsize 12
+%%tabfontscale 1.26
+%%tabflagspace 7
+%%stretchstaff false
+%%staffsep 35pt
+T: nach einer Improvisation am Keyboard mit vernderten Wiederholungen
+C: Werner v. Hrsten
+C: 12.06.2004
+M: 4/4
+L: 1/8
+K:C frenchtab
+%%text langsam
+[a,d4] ,c2.a |\
+,,c2.,a ,d,c1.,a |\
+[,cd3].,d1 a2,d1.,c |\
+[,a,c3].e1 f2.h |\
+[k,,h2].,l ,,l.k |\
+% Takt 6
+[h,,g2].e ,f.h |\
+[f,a4] [c,,,c] |\
+[e,,c3].c1 a2.,,,a |\
+[f,,,e4] ,,,,a2.k |
+[,h,a6][e,,,e1].f |\
+% Takt 11
+[h,,,,h3].f1 e2.,h |\
+[,g,,e2].,,,g ,,h[,a,,c1].,c |\
+[c,,,a2]:,d1.,c [e,,,,e/].,,,,,f,,,,,e1:,,h2 |\
+[f,,,,,e3].h1 k2.,l |\
+,,,,,,a4 [e,,,,a] |\
+% Takt 16
+.[ffh4] ,,,,,,,,a ||\
+[a,d1].,da2 ,c1.,da2 |
+,,c2,a1,a/.,c ,d2.,c1,a |\
+[,cd3],d/.c a2.,d1,c |\
+[,a,c3].e1 f/.ef1h2 |\
+% Takt 21
+[k,,h2].,l ,,l/.,lh1k2 |\
+[h,,g2].e ,f/.,h,f1h2 |\
+[f,a1]h/.k h.f:h1 [,h,,,h2]:h1.f |
+[e,,c3].c1 ,f/.,d,f1,,,a2 |\
+[f,,,e3]:e/.c [a,,,a2] :k/.hk1 |\
+% Takt 26
+[,h,a2].,,,h ,,i/.,,h,,i2[,k,,,k1].,l |\
+[h,,,,h/].gh2.f1 e2.,h |\
+[,g,,e2],,,g1,,e/.,,g ,,h2[,a,,c1].,c |\
+[c,,,a2]:,d1.,c [e,,,,e/].,,,,,f,,,,,e2,,f1.,,h |
+[f,,,,,e3].h1 k/.hk1:f2 |\
+% Takt 31
+[c,,,,,a1].,c,d.c [e,,,,a2].,a |\
+.[ffh4] ,,,,,,,,a ||\
+[,cde4] [c,,a] |\
+[,gh,e6][,h,,,h1].h |\
+[,l,,a2].,h [,g,,,,g]:l1.k |\
+% Takt 36
+[h,,,,,e1]:f2.e1 :c2,,,,,,a |\
+[a,,,,a3].,d1 [,c,,,e2].,a |\
+[,c,,a3].,,,c1 ,,d2[c,da] |
+[,adc4] [a,c,,a2].,d |\
+[,cd,a3].,a1 ,,d4 |\
+% Takt 41
+[,a,c3].,c1 [,dc2]c1.a |\
+[,ad1],c4,1[,ea1].a |\
+[,ef3].a1 [,h,,,h].hf.,h |\
+[e,,c3].c1 a2.,,,a |\
+[f,,,e3]:e/.c [a,,,a2].k |\
+% Takt 46
+[,h,a3].a1 ,d.,c[,a,c].,,d |
+[,,de2].,,,a ,,,c[,,c,,a] |\
+[,,dca8] ||\
+[,cde1].,a,c2 [c,,a] ,/.f/:e.c |\
+[bc,,e2] ,/,,c/.,,d,a ,,,d2[,h,,,h1].h |\
+% Takt 51
+[,l,,a3/].,k/ ,h1.,,h [,g,,,,g2][l,,,i1].k |\
+[h,,e,,e/]:f2,/.e1 :c2,,,,,,a |\
+[,f,,,a/].,e,f2,a1.,d [,c,c,e2].,a |
+[,c,,a/].,a,c1,,,c,,a/.,,c ,,d.,,c,,d1[c,da2] |\
+[,adc2] ,/.,c/:,a.,c [,dc,,a1];ca.,d |\
+% Takt 56
+[,dd,a/],c2,/.,a1 ,,d4 |\
+[,a,c/].,,d,a2,c1 [,dc/].,c,d2c1.a |\
+[,ad/],c2.,,c/,,a.,,,c ,,,e2,e1.a |
+[,ef/].,c,e1,,a.a [c,,,c].h[f,,,g].,h |\
+[e,,c/].ce1,a.c a2.,,,a |\
+% Takt 61
+[f,,,e/].ef1,,,ce/.c [a,d,a1],,i/.,,l k2 |\
+[k,,a/],h3/,1.a1 ,d[,c,,e][,a,a][,,dc] |\
+[,,de2],,,a1.,a [,,dc2][,,c,,a] |\
+[,,dca8] |]
+S:https://www.folktunefinder.com/tunes/166233
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Wvhoersten/LautenkompositionmP.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Wvhoersten/LautenkompositionmP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

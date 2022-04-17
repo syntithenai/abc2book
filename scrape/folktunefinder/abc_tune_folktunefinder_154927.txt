@@ -1,0 +1,29 @@
+X: 1
+T:Dulamon
+M:4/4
+L:1/8
+Q:240
+R:Reel
+K:Em
+|:"Am"eAef eAef|"G"gfgd "Em"Bggf|
+"Am"eAef eAef|1"Em"gedc "Am"A2 gf:|2"Em"gedc "Am"A4||!
+"Am"cBAc gedc|"G"BAGF GB d2|
+"C"cBAc gedc|"Em"BGdB "Am"A2 A2 |!
+"Am"cBAc gedc|"G"BAGF GB d2|
+"C"(3BcB G2 "Am"(3ABA FA|"Em"GB "Am"AF "G"G4||!
+"Am Variation"cBAB cedc|"G"BAGF GBcB|
+"C"cBAB cedc|"Em"BGAB "Am"A4 |!
+"Am"cBAB cedc|"G"BAGF GBdB|
+"C"(3BcB G2 "Am"(3ABA F2|"Em"GB "Am"AF "G"G4||!
+% Output from ABC2Win  Version 2.1  on 2/20/98
+S:https://www.folktunefinder.com/tunes/154927
+S:http://www.blackflute.com/music/tunes/reels/dulamon.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

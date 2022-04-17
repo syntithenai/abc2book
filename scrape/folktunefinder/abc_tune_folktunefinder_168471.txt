@@ -1,0 +1,27 @@
+X: 2
+T:Johnny, Johnny, Don't Get Drunk
+R:reel
+L:1/8
+M:C|
+K:D
+|: "D"fa-a2 a2g2 | fd-ec- d3A | "G"B(ABc) dBAG | "A"FE-E2 E4 |
+   "D"fa-a2 a2g2 | fd-ec- d3A | "G"B(ABc) dBAG | "A"F(DEF) "D"D4 :|
+|: "D"FA-A2 A2A2 | F-GA-B A3A | "G"B(ABc) dBAG | "A"FE-E2 E4 |
+   "D"FA-A2 A2d2 | "G"BA-Bc- "D"d3A | "G"B(ABc) dBAG | "A"F(DEF) "D"D4 :|
+N:Portland Collection, pg 115 - adapted by Peter Ostapenko.
+N:Last update - PO 6/3/2007.
+N:D Major
+%Chords from Kirk Pickering - Pegram Jam Chord Chart Book
+% - Version 44 October 2006
+S:https://www.folktunefinder.com/tunes/168471
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/JohnnyJohnnyDontGetDrunk.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

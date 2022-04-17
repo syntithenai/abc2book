@@ -1,0 +1,25 @@
+X:1
+T:Harry Cott's Jig
+M:6/8
+L:1/8
+Q:120
+C:(c) Greg Anderson, 24 Nov 1999
+R:Jig
+H:A jig that came from somewhere in the midst of dinner preparations
+K:Em
+B|:efe Bde|d2 ^c B2 A|Bde f2 d|e2 d B2 d|efe Bde|d2 ^c B2 A|!
+BdB AGF|1E3- E2 A:|2E3- E2 E|:FGF DEA|G2 F E3|ABA FGc|!
+B2 G E2 G|FEF DEF|GAB e2 d|BdB AGF|1E2 F G2 A:|2E3- E2 A||
+S:https://www.folktunefinder.com/tunes/163415
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/HarryCottsJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

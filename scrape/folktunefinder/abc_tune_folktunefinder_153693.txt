@@ -1,0 +1,25 @@
+X:1
+T:Doctors Oberek
+N:this GIF was REALLY fuzzy...
+N:not sure what the key is, looks like A but sounds like D
+N:some of the |x4y2| bars may be |x2y4|
+M:3/4
+L:1/8
+K:D
+|: "D"Ad f2 f2 | "A7"ef g2 g2 | "D"Ad f2 f2 | "A7"ef g2 g2 | "D"a6 | a4 gf |
+  "A7"e6 | efedcB | Ac e2 e2 | ef g2 g2 | Ac e2 e2 | ef g2 g2 |
+  "A7"a4 g2 | f4 e2 |1 "D"d6 | "A7"abagfe :|2 "D"d6-|dfefg^g ||
+  "A7"a4 g2 | a4 g2 | a6-|a4 ga   | "D"g4  f2 | d4 e^e | f6 | z2 fefg   |
+  "A7"f4 e2 | c4 d2 | e6 | ABcdef | "D"g4  f2 | d4 e^e | f6 | z f^efg^g |
+  "A7"a4 g2 | a4 g2 | a6-|a4 ga   | "D"g4  f2 | d4 e^e | f6 | z2 fefg   |
+  "A7"f4 e2 | c4 d2 | e6-|e6 | A2 ^G2 A2 | f4 e2 | "D"d2 zd d2 | d2 z4 |]
+S:https://www.folktunefinder.com/tunes/153693
+S:http://trillian.mit.edu/~jc/music/abc/mirror/yagelski.com/sbox/music/doctorsoberek.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

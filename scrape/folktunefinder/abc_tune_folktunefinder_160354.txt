@@ -1,0 +1,29 @@
+X: 1
+T: Gan Ainm
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: BA | 
+GDG BGB | dBd g3 | f3 e2 c | A3 A2 G | 
+FDF AFA | cAc f3 | e3 edB | G3 GBA |
+GDG BGB | dBd gag | f3 e2 c | e3 e2 f |
+gag fed | edB GBd | ede f2 d | g3 Bc^c ||
+d^cd edB | d^cd edB | GBd f2 e | c3 c2 d |
+e^de fec | e^de fec | FAc e2 d | B2 ^A Bc^c |
+d^cd edB | d^cd edB | GBd gf=f | e3 e2 f |
+gag fed | edB GBd | e^de f2 =d | g3 g2 a ||
+bfa g2 f | gfg d2 B | gfg bgd | c3 cBA |
+DFA DFA | DFA f3 | e3 edB | G3 GBd |
+bfa g3 | gfg d3 | gfg bgd | c3- c3 |
+DFA D2 A | DFA f2 e | e^de e=dB | G3- G ||
+S:https://www.folktunefinder.com/tunes/160354
+S:http://www.thesession.org/tunes/display/4715
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

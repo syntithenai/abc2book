@@ -1,0 +1,38 @@
+X:1
+T:Gathering Peascods
+M:C|
+C:Trad.
+S:Playford
+N:DM I: 1651-1690, transposed from A to G
+A:
+O:English
+R:Reel
+%P:(ABC)$^3$
+P:(ABC)3
+%:
+%:
+K:G
+Q:1/2=116
+P:A
+|:\
+   z2 | d4    d2 d2 | B3 c d2 d2 | e2 d2 c2 B2 | A6 B2 | A2 G2 G2 F2 | G6 :|\
+P:B
+|:\
+   G2 | F2 D2 F2 G2 | A4   B2 A2 | GA B2 A2 G2 | F6 F2 | E2 D2 E3 D  | D6 :|\
+P:C
+|:\
+   d2 | B2 G2 G2 AB | c6      c2 | B2 G2 G2 AB | c6 d2 |\
+B2 G2 G2 AB | c3 d e2 dc | B2 cB A3 G  | G6    :|
+S:https://www.folktunefinder.com/tunes/160602
+S:http://www.ucolick.org/~sla/morris/music/Playford/peascods.G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

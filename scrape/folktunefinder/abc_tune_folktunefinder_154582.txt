@@ -1,0 +1,32 @@
+X:1
+T:An dro : Sacr Nouna
+E:12
+Z:Roger Ngaret (94-95)
+R:andro
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=180
+E2 | "Am"A4 c4 | "G"B6A2 | B4 G4 | "Em"E6E2 | \
+"Am"A4 c4 | "G"B6A2 | B4 G4 | "Am"A6 :|\
+A2 | A4 A4 | "G"G6A2 | "F"A4 A4 | "Em"E6E2 | "D"A4 B4 |\
+"C"c6d2 | "F"c4 "G"B4 | "Am"A6 :|
+%%rm
+%%rm  Y'a bien 10 ans, sacr Nouna, 
+%%rm  Que l'on disait on l'enterrera.
+%%rm  On l'enterrera et tra la la, 
+%%rm  La vie de ce jeune homme,
+%%rm  On l'enterrera et tra la la, 
+%%rm  La vie de ce jeune homme l.
+S:https://www.folktunefinder.com/tunes/154582
+S:http://termen.free.fr/danses/vannetais/AndroSacreNouna.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

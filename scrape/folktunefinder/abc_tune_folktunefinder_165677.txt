@@ -1,0 +1,28 @@
+X: 1
+T: The Hungry Rock
+C: Liam Kelly, Dervish
+S: Playing with Fire
+Z: Eliot Jacobson, teliot@cs.ucsb.edu
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20030508211848 by Eliot Jacobson teliot@cs.ucsb.edu
+K: Edor
+z EB GEB|EFF dAf|z EB GEB|EFD E{F}ED|
+z EB GEB|EFF dAf|z {f}gf edB|ABd EE{F}D :|
+z AF AB/c/d|efe dAB|z AF AB/c/d|efg fed|
+z AF AB/c/d|efe dAB|z {f}gf edB|AB/c/d ede/f/ :|
+z EF {F}GFE|EFF {F}GFE|z EF {F}GFE|{c}BGE cEd|
+z EF {F}GFE|EFF {F}GFE|z {c}BG Ec(A|d)Ag {f}gfe :|
+S:https://www.folktunefinder.com/tunes/165677
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/teliot:cs.ucsb.edu/HungryRock.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HungryRock.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

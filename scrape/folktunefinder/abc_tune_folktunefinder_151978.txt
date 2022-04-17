@@ -1,0 +1,24 @@
+X:56
+T: Der Gluecksjaeger
+N: Q0134C
+O: Suedosteuropa, Rumaenien, Bukowina, Eichenau
+N: Grundton in der zweigestrichenen Oktave.
+N: Dritte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Jagd, Flucht, Verfuehrung
+M: 3/8
+L: 1/16
+K: C
+G,2 | C4C2 | E3DC2 | D3CB,2 | D3CB,2
+D2D2DD | D4A,A, | A,3G,G,2 | A,3G,G,2
+C2B,2C2 | G,2A,2G,2 | C2B,2C2 | G,2A,2G,2
+C2C2CC | E3CC2 | D3ED2 | C4
+S:https://www.folktunefinder.com/tunes/151978
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, verfuehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

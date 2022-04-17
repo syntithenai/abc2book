@@ -1,0 +1,27 @@
+X: 1
+T: Gavotte
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+&quot;D&quot;abaf &quot;A7&quot;gage | &quot;D&quot;d2{c'}d'2d2z2 | &quot;A7/C#&quot;gage &quot;D&quot;fgfd | &quot;A&quot;e2{^g}a2A2z2 |
+&quot;D&quot;abaf &quot;A7&quot;gage | &quot;D&quot;d2{c'}d'2d2z2 | &quot;bm&quot;f2dB&quot;E7&quot;d2B^G | &quot;A&quot;A2{^g}a2&quot;A7&quot;A2z2 :|
+&quot;A7/C#&quot;egfa &quot;A7/E&quot;gfed | &quot;A7/C#&quot;c2e2&quot;A7&quot;g2z2 | &quot;D&quot;fagb &quot;D/A&quot;agfe | &quot;D&quot;d2f2&quot;D/A&quot;a2z2 |
+&quot;G&quot;baag &quot;G/B&quot;gffe | &quot;em&quot;e2g2&quot;em/G&quot;b2z2 | &quot;D/A&quot;afcd &quot;A7&quot;geBc | &quot;D&quot;d2{c'}d'2d2z2 |]
+|: &quot;D&quot;f2f2&quot;A7/E&quot;g2g2 | &quot;D/F#&quot;ad'c'd'a2z2 | &quot;D/F#&quot;d2d2&quot;A&quot;e2e2 | &quot;D&quot;f/a/^g/a/ b/a/=g/f/ &quot;A&quot;eAcA |
+&quot;G&quot;B2dBb2B2 | &quot;D/F#&quot;A2dAa2A2 | &quot;A7/C#&quot;{e}gzA2&quot;D&quot;{d}fzA2 | &quot;A&quot;e2e/f/g/f/e2z2 :|
+|:&quot;A&quot;g2g/f/e/d/ czc'z | &quot;D&quot;d'zA zd2z2 | &quot;A&quot;g2g/f/e/d/ czc'z | &quot;D&quot;d'zdz f2z2 |
+&quot;G&quot;Bzd/c/B/A/ Gzbz | &quot;D&quot;AzA/B/A/G/ Fzaz | &quot;G&quot;gzb/a/g/f/ &quot;A7&quot;ezc'z | &quot;D&quot;d'2d2D2z2 :|
+&quot;D&quot;abaf &quot;A7&quot;gage | &quot;D&quot;d2{c'}d'2d2z2 | &quot;A7/C#&quot;gage &quot;D&quot;fgfd | &quot;A&quot;e2{^g}a2A2z2 |
+&quot;D&quot;abaf &quot;A7&quot;gage | &quot;D&quot;d2{c'}d'2d2z2 | &quot;bm&quot;f2dB&quot;E7&quot;d2B^G | &quot;A&quot;A2{^g}a2&quot;A7&quot;A2z2 |
+&quot;A7/C#&quot;egfa &quot;A7/E&quot;gfed | &quot;A7/C#&quot;c2e2&quot;A7&quot;g2z2 | &quot;D&quot;fagb &quot;D/A&quot;agfe | &quot;D&quot;d2f2&quot;D/A&quot;a2z2 |
+&quot;G&quot;baag &quot;G/B&quot;gffe | &quot;em&quot;e2g2&quot;em/G&quot;b2z2 | &quot;D/A&quot;afcd &quot;A7&quot;geBc | &quot;D&quot;d2{c'}d'2d2z2 |]
+S:https://www.folktunefinder.com/tunes/160635
+S:http://www.thesession.org/tunes/display/7970
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

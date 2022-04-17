@@ -1,0 +1,44 @@
+X: 1
+T: Give Me Your Hand
+T: Tabhair Dom Do Lamh
+C: Ruainn "Rory" Dall O Cathain (-1653)
+R: air, waltz
+M:6/8
+L:1/8
+K:G
+D \
+| "C"EGG "G"G2D \
+| "C"EGG "G"G2D \
+| "C"EGG "G"GAB \
+| "D"Bed "Em"B2 A/G/ \
+| "Am"AA e/d/ "G"B2 d/B/ \
+| "Am"AA/B/A/G/ "C"E2D |
+| "C"EGG "G"G2D \
+| "C"EGG "G"G2D \
+| "C"EGG "G"GAB \
+| "D"D3/B/A/B/ "G"G2D \
+| "C"EGG "G"GAB \
+| "D"Bed "Em"B2 A/G/ \
+| "Am"AA e/d/ "G"BB d/B/ |
+| "Am"A2 (3B/c/d/ "C"e2 d/B/ \
+| "G"dde "Em"g2 e/d/ \
+| "C"eeg "D"a2 [g/d/]e/ \
+| "G"gg d/e/ "Em"gg d/e/ \
+| "C"gg"D"a "G"b3 \
+| "G".b.b.b "Em"b2 a/g/ \
+| "Am"aa/g/a/b/ "D"a2 g/f/ |
+| "C"ee g/e/ "G"dd g/d/ \
+| "Em"B2 d/B/ "D"A2 B/A/ \
+| "G"G2 B/d/ "F"=f2 e/d/ \
+| "C"eeg e2 d/B/ \
+| "G"dd g/d/ "Em"BB d/B/ \
+| "D"AA/c/B/A/ "G"G2 |]
+S:https://www.folktunefinder.com/tunes/161151
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/air/GiveMeYourHand.abc
+% Rhythm Air, waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

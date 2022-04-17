@@ -1,0 +1,22 @@
+X:106
+T: Die erzwungene Ehe
+N: Q0050D
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Zweite Zeile = Kurzzeile aus Textwiederholung.
+R: Ballade, Hochzeit; Schwank
+M: 3/4
+L: 1/4
+K: F
+C | FFF | FFG | EED | Cz
+C | FFG | Az
+A | GGc | BAG | DDG | Fz
+S:https://www.folktunefinder.com/tunes/151635
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit; schwank
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

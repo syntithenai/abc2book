@@ -1,0 +1,24 @@
+X:2
+T:Kristian Oskarssons hambo
+R:hambo-polska
+C:Kristian Oskarsson
+D:Dansbart  B-18
+O:Bj\"or Kede, Kall, J\"amtland
+Z: John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+|: "G"(3dBd gd | "Am"(3cBc e<c A>G | "D7"F>G A<c B>A |1 "G"G>F G<B d2 :|2 "G"G2 G4 :|
+K: D
+|: "D" a>A a<A a>a | ba f2 f>f |1 "A7"ag e2 (3efg | "D"b<a f2 f2 :|2 "A7"a<g e<c (3ABc | "D"d2 d4 :|
+S:https://www.folktunefinder.com/tunes/170570
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/KristianOskarssonshambo.abc
+% Rhythm Hambo-polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

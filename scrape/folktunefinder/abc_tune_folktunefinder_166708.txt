@@ -1,0 +1,36 @@
+X:1
+T:Is Iomaidh Coiscim Fada
+M:6/8
+C:Traditional
+B:Folk Songs of Britain and Ireland
+K:G
+B2GE2F|G2FE2D|E2GA2B|G6|
+G2AB2c|d2BA2F|G2AB2c|A6|
+GGAB2c|d2BA2F|G2AB2c|A3G2A|
+B2GE2F|G2FE2D|E2GA2B|G6||
+W:
+W: 'S iomaidh coiscim fada eadar mise 'gus mo ghr
+W: Fuair m sos an bealach agus chaoin m mo shith
+W: Connaic m cailn dathil agus ise 'g teach n bhd
+W: Och, an bhfaca t mo Phada n an bhfuil s ar an bhd
+W:
+W: 'S iomaidh coiscim fada eadar mise 'gus mo ghr
+W: Labhair an cailn dathil liom: T Pada ar an bhd
+W: 'S iomaidh cailn deas, monuar, a tfidh s ar an bhd
+W: O, is m bh crtha crite nuair a mhoithigh m mo shith
+W:
+W: 'S iomaidh coiscim fada eadar mise 'gus mo ghr
+W: Thinig m 'na bhaile n n rabh s ar an bhd
+W: Shuigh m cois na tineadh agus chaoin m mo shith
+W: O, is mairg gan m in Albain n'n Sasain go brth
+S:https://www.folktunefinder.com/tunes/166708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/iomaidh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/iomaidh.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

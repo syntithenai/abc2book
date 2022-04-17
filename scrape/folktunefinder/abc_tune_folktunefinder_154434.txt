@@ -1,0 +1,25 @@
+X: 1
+T:An dro
+C:Trad 4, 3
+M:4/4
+L:1/8
+K:G
+G2BA G2d2| ddec d3B|\
+BcAB G2d2 |ddec d4|\
+G2BA G2d2| cdec dcBA|
+GBBA G2d2 |ddec d4||\
+d2ef g2(3dgd| c2(3BdB A3G||\
+B2BG A2AG |BcBG A2AG|
+dedc B2B2 |ABcA G3A|\
+B2BG A2AG |BcBG A2AG|\
+dedc B2B2 |ABcA G4||
+S:https://www.folktunefinder.com/tunes/154434
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/dro_10.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/dro_10.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

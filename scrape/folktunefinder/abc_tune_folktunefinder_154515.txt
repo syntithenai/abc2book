@@ -1,0 +1,29 @@
+X:1
+T:Droneless
+C:cercle, comp. Lawrence Morgan-Anstee. Fichier ABC par Bernard Loffet
+L:1/8
+Q:392
+M:6/8
+K:C
+ [A2A,,2][AA,] A,,G[EE,] | [G2E,,2][GE,] z2[EE,] | [G2E,,2][GE,] z2[AA,] | [FD,,]E[DD,] [D2D,,2]D, | \
+ [A2A,,2][AA,] A,,G[EE,] | [B2E,,2][BE,] EG[AA,] | [B2E,,2][cE,] BA[GE,] | [A3F,,3F,3] [G,,G,]zG | \
+ [A2A,,2][AA,] A,,G[EE,] | [G2E,,2][GE,] z2[EE,] | [GE,,]G[GE,] G2[AA,] | [FD,,]E[DD,] [D2D,,2][AD,] | \
+ A,,2[AA,] A,,G[EE,] | [B2E,,2][BE,] EG[AA,] | [B2E,,2][cE,] BA[GE,] | [A3F,,3F,3] [G,,3G,3] | \
+|: [EA,,]A[BA,] cB[AA,] | [FF,,]c[BF,] cB[AF,] | [GG,,]B[AG,] BA[GG,] | [EE,,]G[AA,] BA[GE,] | \
+ [EA,,]A[BA,] cB[AA,] | [FF,,]c[BF,] cB[AF,] | [GG,,]B[AG,] BA[GG,] |1 [B2E,,2][c2E,,2][B2E,,2] :|2 [B6E,,6] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/154515
+S:http://diato.ifrance.com/diato/tablat/239.abc
+S:http://diato.ifrance.com/tablat/239.abc
+S:http://diato.org/tablat/239.abc
+S:http://perso.orange.fr/diato/tablat/239.abc
+S:http://perso.wanadoo.fr/diato/tablat/239.abc
+S:http://pro.wanadoo.fr/diato/tablat/239.abc
+S:http://www.diatonique.net/tablat/239.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:55
+T: Graf und Nonne (Die Nonne)
+N: Q21551
+O: Osteuropa, Ungarn, Komitat Komarom, Oroszlany
+N: Ungarische Fassung der Ballade.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 6/8
+L: 1/8
+K: G
+ | _BAGBAG | d3z2
+d | g2=f_B2c | d2z4
+_eeed2A | c3_B2
+G | _B2dA2B | G3z3
+S:https://www.folktunefinder.com/tunes/161975
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Down The Back Lane
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+d | cAG  A2 G | FDE F2 d | cAA BAG | Ade fed |
+ cAG  A2 G | FDE F2 G | Add fed | ecA  G3 |
+ABG  A2 G | FDE F2 d | cAA BAG | Ade fed |
+cAG  A2 G | FDE F2 G | Add fed | ecA  G3 |
+|: Add  fed | cAB  cAG | Add fed | ecA  G3 |
+Add   fed | cAB  cde | fag efd | cAF  G3 :|
+%variations
+d | AAA  A2 G | FDE F2 d | cAA BAG | Add fdd |
+cAG  A2 G | FDE F2 G | Add fed | ecA  ~G3 |
+(3AcAA  A2 G | FDE F2 d | cAA BAG | Ade fed |
+cAG  (3AcAA | FDE FF G | Add fed | ecA  ~G3 |
+|: Add  fdd | cAA  BAG | Add fed | ecA   ~G3 |
+AA d  fed | cAB  cde | (3fag f ged | cAF  ~G3 :|
+S:https://www.folktunefinder.com/tunes/154205
+S:http://www.thesession.org/tunes/display/1496
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

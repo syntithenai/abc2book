@@ -1,0 +1,21 @@
+X: 1
+T: Tripping Down The Stairs
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|: BG~G2 BGcG | BGDC B,CDC | (3B,A,G, B,D ECEG | (3FED EF GFGA|
+BG~G2 BGcG | BGDC B,CDC | (3B,A,G, B,D ECEG |1 (3FED EF G2GA :|2 FDEF G2ga ||
+|: bg~g2 egde | cdBc ABGA | FGEF DECD | B,CA,B, G,2 B,D |
+GABc dBGB | AB (3cBA BGDC | (3B,A,G, B,D ECEG |1 (3FED EF G2ga :|2 (3FED EF G2GA ||
+S:https://www.folktunefinder.com/tunes/162356
+S:http://www.thesession.org/tunes/display/760
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

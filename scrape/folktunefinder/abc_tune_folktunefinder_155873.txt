@@ -1,0 +1,49 @@
+X:602
+T:Ejercicio
+C:Jos\'e Ferrer
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-em/ferrer-ejercicio-em.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:C
+L:1/8
+Q:1/4=60
+K:Em -8va
+V:1
+"^Andante mosso"z [G2B2] [G2B2] [G2B2] [GB]|F[AB] [A2B2] z [AB][AB][AB]|\
+z [A2B2][A2B2][A2B2][AB]|E[GB][G3B3][GB][GB][GB]|
+V:2
+E2 G>F E2 B,2|F3E^D4|^D2 F>E D2 B,2|E3B,E,4|
+%
+V:1
+E[GB][G2B2] F[AB][A2B2]|z [B2e2][B2e2][c2e2] (e/f/)|\
+B[eg][e2g2] B,[Af][A2f2]|E[G-e-][G4e4] z2:|
+V:2
+E3EF3F|G2^G2A2^A2|B3B B,3B,|E2B,G,E,2 z2:|
+%
+V:1
+|:D[cd][c3d3][cd][c2d2]|G[Bd][B3d3][Bd][Bd][Bd]|\
+B,[AB][A3B3][AB][A2B2]|E[GB][G3B3][GB] eg|
+V:2
+D3E F2ED|G3D G4|B,3^C ^D2CB,|E3B, E4|
+%
+V:1
+=D[e^g][e2g2] ^C[ea][e2a2]|=C[df][d2f2] B,[dg][d2g2]|\
+C[ca] A,[ec'] D[gb] D[da]|G[B-g-][B4g4] z2:|
+V:2
+D3D ^C3C|C3C B,3B,|C2A,2D2D2|G2 DB, G,2 z2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155873
+S:http://abc.musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-em/ferrer-ejercicio-em.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ferrer-jose/ferrer-ejercicio-em/ferrer-ejercicio-em.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ferrer-jose/ferrer-ejercicio-em/ferrer-ejercicio-em.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

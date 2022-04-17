@@ -1,0 +1,36 @@
+X:1
+T:Joseph est bien marie
+R:Noel
+A:France
+L:1/8
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:2/2
+K:G dorisch
+V:1
+D2 G2 |\
+""^F2 ED G2 A2 | B4 c2 B2 | ""A2 G2 A2 ""^F2  | G4 :|
+V:2
+dcBc |\
+""A3 A B2""^F2 | G4 A2 G2 | ""^F2 G2 c2 ""A2 | G4 :|
+V:1
+d2 d2 |\
+A2 B2 c2 B2 | A4 d2 d2 | AGAB c2 B2 | B2 A2 D2 G2 |
+""^F2 ED G2 A2 | B4 c2 B2 | ""A2 G2 A2 ""^F2  | G4 :|
+V:2
+B2 B2 |\
+^F2 G2 A2 G2  | ^F4 B2 B2 | ^FE^FG A2 G2 | G2 ^F2 dcBc |
+""A3 A B2""^F2 | G4 A2 G2 | ""^F2 G2 c2 ""A2 | G4 :|
+S:https://www.folktunefinder.com/tunes/168805
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/joseph_est_bien_marie.abc
+% Rhythm Noel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

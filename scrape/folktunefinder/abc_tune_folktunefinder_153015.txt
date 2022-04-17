@@ -1,0 +1,24 @@
+X:62
+T: Graserin und Reiter
+N: Q0149J
+O: Mitteleuropa, Deutschland
+N: Blaustorchenweise. Zusammenhang zur Balladenmelodie angenommen.
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 6/4
+L: 1/4
+K: D
+A | A2AA=c_B | A2AGG
+G | d2=c2_BG | A2DA2
+A | A2_B2=cA | G3D2
+E | =F2F2EE | D2A,D2
+S:https://www.folktunefinder.com/tunes/153015
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

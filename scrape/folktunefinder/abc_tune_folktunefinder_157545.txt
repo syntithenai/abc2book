@@ -1,0 +1,18 @@
+X: 3
+T: The Fergus Reel
+L: 1/8
+M: 4/4
+R: reel
+K: Dmaj
+|: fd ~d2 edcA | BGEF GBAG | ~F3 A ~G3 B |[1 ABde gbag :|[2 Adag fd d2 ||
+|: fd ~d2 fdfa | ge (3.e.e.e gebe | fdAF G2 AG |[1 FAdf gbag :|[2 F2 ag fd d2 |]
+S:https://www.folktunefinder.com/tunes/157545
+S:http://www.thesession.org/tunes/display/8343
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

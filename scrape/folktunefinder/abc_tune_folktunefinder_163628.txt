@@ -1,0 +1,22 @@
+X: 1
+T: Hawick Playground
+R: hornpipe
+C: &quot;Dow&quot;
+M: 4/4
+L: 1/8
+Q: 1/4=144
+K: G
+(3DEF|GB,DG BGcA|dg (3fga g2dg|e2ce d2bd|caBg ADFA|
+GB,DG BGcA|dg (3fga g2dg|(3efg ec ADBA|G2GF G2:|[K: D]
+FG|AFdA fdaf|e^deg B2ba|gecA Ecba|afdA F^EFG|
+AFdA fdaf|e^deg B2ba|(3^gba =ge cAfe|d2dc d2:|
+S:https://www.folktunefinder.com/tunes/163628
+S:http://www.thesession.org/tunes/display/8477
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

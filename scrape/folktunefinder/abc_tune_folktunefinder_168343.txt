@@ -1,0 +1,28 @@
+X: 1
+T: John Murphy's Swedish
+M: 3/4
+L: 1/8
+R: mazurka
+K: Emin
+|:B3c B2 | G2 E2 E2 | B3c B2 | G2 E2 E2 | 
+F4 G2 | A2 AG F2 | E2 EF GA | B4 B2 |
+B3c B2 | G2 E2 E2 | B3c B2 | G2 E2 E2 | 
+F4 G2 | A2 AG F2 | E2 EF E2 | E4 E2 ||
+|:e4 e2 | e3d c2 | B3c B2 | B3A G2 |
+F4 G2 | A3G F2 | E2 EF GA | B4 B2 |
+e4 e2 | e3d c2 | B3c B2 | B3A G2 |
+F4 G2 | A3G F2 | E3F E2 | E4 B2 ||
+|:c3B AG | F3G A2 | B3G F2 | E4 E2 |
+d3c B2 | A2 G2 A2 | B3G F2 | E4 B2 |  
+c3B AG | F3G A2 | B3G F2 | E4 E2 |
+g2 f2 e2 | B2 g2 f2 | e2 B2 G2 | E4 E2 ||
+S:https://www.folktunefinder.com/tunes/168343
+S:http://www.thesession.org/tunes/display/8997
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

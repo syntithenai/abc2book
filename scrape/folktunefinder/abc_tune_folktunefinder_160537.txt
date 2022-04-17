@@ -1,0 +1,23 @@
+X: 1
+T:Garry Owen
+M:6/8
+L:1/8
+K:D
+d | BAG FED | F2 F F2 d | BAG FED | E2 E E2 d | BAG FED |
+F2 F F2 A | ABc dAF |  [1 E2 E E2 d | [2 E2 E E2 (F/2G/2) :|
+(A2 F) (A2 F) | (A2 F) (Adc) | (B2 G) (B2 G) | (B2 G) B2 c |
+d2 e f2 e | dcB A2 A |  [1 ABc dAF | E2 E E2 F/2G/2 |
+[2 ABc cde | d2 d d2 z :|
+S:https://www.folktunefinder.com/tunes/160537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/GaryOwen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/GaryOwen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/GaryOwen.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/mindspring.com/%7Ethornton.rose/GaryOwen.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/troseandassociates.com/abc/GaryOwen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

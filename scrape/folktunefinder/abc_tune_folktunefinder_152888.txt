@@ -1,0 +1,23 @@
+X: 1
+T: Denys'
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:DFA d3|fed edB|DFA d3|BAF AFE|
+DFA d3|fed efa|baf edB|AFD EFE:|
+|:d3 faf|d3 dBA|d3 faf|edB AFE|
+d3 faf|fed efa|baf edB|AFD EFE:|
+|:fed B2 B|fed BAF|fed BAB|AFD EFE|
+fed B2 B|fed efa|baf edB|AFD EFE:|
+S:https://www.folktunefinder.com/tunes/152888
+S:http://www.thesession.org/tunes/display/6589
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

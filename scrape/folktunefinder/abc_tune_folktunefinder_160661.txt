@@ -1,0 +1,41 @@
+X:1
+T:Gavotte ton doubl
+C:traditionnel (appris de Pevar Den), fichier abc : Bernard Loffet
+L:1/8
+Q:466
+K:C
+M:9/8
+ [c2C,,2]B [c2C,2]d [e2C,2]f | [d3D,,3] [cD,]BA [c2D,2]B | \
+M:6/8
+ [G3G,,3] [G3G,3] | \
+M:9/8
+ [c2C,,2]B [c2C,2]d [e2C,2]f | [d2D,,2]d [c2D,2]A [c2D,2]B | \
+M:6/8
+ [G3G,,3] [G3G,3] | \
+M:9/8
+|: [c2C,,2]B [c2C,2]d [e2C,2]f | [d3D,,3] [cD,]de [f2D,2]g | \
+M:6/8
+ [e2G,,2]f [d3G,3] | \
+M:9/8
+ [c2A,,2]B [c2A,2]d [e2A,2]f | [d2D,,2]d [c2D,2]A [c2D,2]B | \
+M:6/8
+ [G3G,,3] [G3G,3] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/160661
+S:http://diato.ifrance.com/diato/tablat/203.abc
+S:http://diato.ifrance.com/tablat/203.abc
+S:http://diato.org/tablat/203.abc
+S:http://perso.orange.fr/diato/tablat/203.abc
+S:http://perso.wanadoo.fr/diato/tablat/203.abc
+S:http://pro.wanadoo.fr/diato/tablat/203.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/203.abc
+S:http://www.diatonique.net/tablat/203.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

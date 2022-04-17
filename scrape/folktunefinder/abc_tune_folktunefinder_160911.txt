@@ -1,0 +1,21 @@
+X: 1
+T:Giga
+C:La Ciapa Rusa: ten .. 1d
+M:6/8
+L:1/8
+K:G
+Bcd|B2d B2d|d2c ccd|c2d c2d|e2d Bcd|\
+B2d B2d|d2c d^cd|f2d cBA|G6-|G3:|
+|:d2d|f3e3|d2B ded|d2c cdc|c2B d^cd|\
+f3e3|d2B ded|d2c cBA|G6-|G3:|
+S:https://www.folktunefinder.com/tunes/160911
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gi/Giga_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/gi/Giga_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

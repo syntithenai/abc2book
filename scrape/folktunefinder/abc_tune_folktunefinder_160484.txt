@@ -1,0 +1,36 @@
+X: 3
+P: Hommage \`a Joseph Bouchard
+O: Qu\'ebec
+C: Philippe Bruneau
+M: 6/8
+L: 1/8
+K: D
+"A7"A3 \
+|: "D"F3 "(G)"FGB \
+| "D"A3 "A7"ABc \
+| "D"dcd "G"edB \
+| "D"A2A FAd \
+| "A7"c2c Ace \
+| g2g Ace |
+| "A7"c'ba gfe \
+|1 "D"ded "A7"cBA \
+:|2 "D"d3- "/C#"dBc \
+|: "Bm"d2d dcd \
+| BFF FBc \
+| d2d dcd |
+| "F#7"cFF F3 \
+| e2e ede \
+| cFF F^Ac \
+|1 "F#7"fFF "/G#"eFF \
+| "/A"dFF " /A#"cBc \
+:|2 "F#7"fgf edc \
+| "Bm"B3 |]
+S:https://www.folktunefinder.com/tunes/160484
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KJ08_B.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/KJ08_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

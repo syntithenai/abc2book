@@ -1,0 +1,21 @@
+X: 17
+T:Drowsy Maggie
+M:4/4
+L:1/8
+Q:1/8=390
+K:G
+|:"Em"E2BE dEBE|E2BG "D"AFDF|"Em"E2BE dEBE|"G"BAB^c "D"dAFD|!
+"Em"E2BE dEBE|E2BG "D"AFDF|"Em"E2BE dEBE|"G"BAB^c "D"dAFA:|!
+K:D
+|:"D"d2fd "A7"cdec|"D"defd faaf|d2fd "A7"cdec|"G"BABc "D"dAFD|!
+"D"d2fd "A7"cdec|"D"defd faa2|bgaf gfed|"G"BAB^c "D"dAFD:|
+S:https://www.folktunefinder.com/tunes/154611
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/DrowsyMaggie.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/co-mando.com/DrowsyMaggie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

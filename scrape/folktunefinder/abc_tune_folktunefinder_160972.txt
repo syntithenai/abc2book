@@ -1,0 +1,27 @@
+X:37
+%%topmargin 3cm
+T:Gillie Calum
+T:Gille Callum
+T:The Lad Malcolm
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+e |: AAc>e {/B}d2 B>=G | AAc>e {/B}d2 c>A | B>EB>e {/B}d2 B>=G | AAc>e {/c}d>B e2 :|
+AAce {/f}=g2 B>G | AAc>e {/f}a2 {/d}c>A | {/g}a2 {/d}c>A =g2 B>G | AAc>e {/c}d>B e2 |
+AAc>e {/f}=g2 (B>G) | AAc>e {/g}a>ba>f | {/f}=g>ag>e {/c}d>=gB>G | AAc>e {/B}d>B Te2 |]
+W:Generally played as a Strathspey and Reel for the sword dance.
+S:https://www.folktunefinder.com/tunes/160972
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Gille_Callum_.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Gillie_Calum.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Lad_Malcolm.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

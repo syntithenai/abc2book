@@ -1,0 +1,68 @@
+X:1
+T:Drobe de Guingamp
+Z:Roger Ngaret (94-95)
+R:derobee
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+K:Eb
+T:Promenade No 1
+Q:3/8=180
+M:6/8
+L:1/16
+K:Eb
+"Cm"e2e2e2 e2d2e2 | "Bb"f2e2f2 "Cm"g4 g2 | 
+e2e2e2 "Ab"e2d2e2 | "Gm"f2e2d2 "Cm"c6 ::
+T:... drobe
+e2f2g2 "Bb"d4 f2 | f2e2d2 "Ab"e2d2c2 | 
+"F"e2f2g2 "Gm"d4 f2 | f2e2d2 "Cm"c6 :|
+T:Promenade No 2
+"Eb"g4 a2 g4 f2 | "Ab"e2g2f2 "Gm"e2d2c2 | 
+"Eb"g4 a2 g4 f2 | "Gm"e2d2e2 "Cm"c6 ::
+T:... tourniquets
+c2d2e2 c2d2e2 | "Bb"f4 d2 "Ab"e4 c2 | "Eb"g4 a2 g4 f2 |1 
+"Ab"e2d2c2 "Gm"g6 :|2 e2d2e2 "Cm"c6 |]
+T:Promenade No 3
+g2a2g2 g4 f2 | "Ab"f2g2f2 f4 e2 | "F"e2d2c2 "Gm"g4 g2 | f2e2d2 "Cm"c6 ::
+T:... traverses
+"Eb"e2e2e2 e4 B2 | e4 g2 b4 g2 |1 e2e2e2 e2d2e2 | "Ab"f2a2g2 "Bb"f6 :|2
+"Eb"e2B2e2 g4 b2 | "Bb"a2g2f2 "Eb"e6 |]
+%%newpage
+%%rm
+%%rm
+%%rm
+T:Promenade No 4
+K:Bb
+"Bb"B2A2B2 f4 f2 | f2c2d2 "F"e2f2e2 | "Bb"d2c2B2 "F"e4 d2 |1
+c2B2c2 "Bb"d4 B2 :|2 "F"c2B2A2 "Bb"B6 ::
+T:... saluts
+"Cm"c2d2e2 e2d2c2 | "Bb"d4 e2 "Ab"c2d2e2 | 
+c2d2e2 "F"e2d2c2 | "Gm"d4 e2 "Cm"c6 :|
+T:Promenade No 5
+K:Eb
+"Eb"B2e2g2 b4 b2 | "Bb"a4 a2 "Eb"g4 g2 | B2e2g2 b4 b2 |1 
+"Bb"a2g2f2 "Eb"e2d2c2 :|2 "Bb"a2g2f2 "Eb"e4 b2 |:
+T:... pont
+b2a2b2 e4 e2 | "Bb"f2g2a2 "Eb"g2f2e2 | b2a2b2 e4 e2 |1
+"Bb"f2e2d2 "Eb"e4 b2 :|2 "Bb"f2e2d2 "Eb"e6 |]
+T:Promenade No 6
+K:Bb
+"Bb"d6 f6 | "F"e2d2c2 "Bb"d4 B2 | d4 d2 f4 f2 | "F"e2d2c2 "Bb"B6 ::
+T:... pont-drobe
+f2e2d2 f2e2d2 | "F"g4 g2 "Bb"f4 f2 | "F"g2a2b2 "Bb"f2g2f2 |1
+"F"e2d2c2 "Bb"d4 B2 :|2"F"e2d2c2 "Bb"B6 |]
+S:https://www.folktunefinder.com/tunes/154462
+S:http://termen.free.fr/danses/tregor/DerobeedeGuingamp.abc
+% Rhythm Derobee
+% Titles Over ten titles
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

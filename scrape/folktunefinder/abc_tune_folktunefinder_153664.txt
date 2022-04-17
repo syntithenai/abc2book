@@ -1,0 +1,39 @@
+X: 1
+T:Dockedansen
+N:It means "Puppet dance", apparently
+O:Sweden
+R:Waltz
+M:3/4
+K:Dm
+V:1
+(A^c)|\
+e2f2(de) | (^cA)(=Bc)de | d2d2 |:\
+(A^c) |\
+e2f2 (de)| (^cA)(=Bc)de | d2^c2(Ac) |\
+e2f2 (de)| (^cA)(=Bc)de | d2d2(fg)|\
+a2 (fa) ag| e2 (^cd) gf |\
+d2 (=B^c)de | ^c2 (A=B)cd|\
+e2f2(de)| (^cA)(=Bc)(de)| d2z2:|
+V:2
+F2 |\
+E2D2B,2 | A,2FG FE |\
+[D2A2][D2A2] |:\
+F2 |\
+E2D2B,2 | A,2 (FG) FE | F2E2G2 |\
+E2D2B,2 | A,2 (FG) FE | [D2A2][D2A2](FE) |\
+D2(FA) de | ^c2A2 BA |\
+G2G2^G2 | A2=G2F2 |\
+E2D2B,2 | A,2 (FG) (FE) | [D2A2]z2 :|
+S:https://www.folktunefinder.com/tunes/153664
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dockedansen_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dockedansen_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

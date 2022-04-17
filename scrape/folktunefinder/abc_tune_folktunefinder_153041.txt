@@ -1,0 +1,26 @@
+X:88
+T: Verschlafener Jaeger
+N: Q0152E
+O: Mitteleuropa, Deutschland
+N: Stimme aus einem mehstimmigen Quodlibetsatz von Melchior Franck.
+N: Taktart entsprechend den Taktsrichen als 6/4 interpretiert und
+N: Schlusspause eingefuegt.
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 6/4
+L: 1/8
+K: G
+G2 | G4B2A4B2 | G3FE2D4
+d2 | d4c2B3AG2 | F4G2A4
+c2 | B4G4A2A2 | G4z6
+S:https://www.folktunefinder.com/tunes/153041
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

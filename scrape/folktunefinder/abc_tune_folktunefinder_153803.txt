@@ -1,0 +1,45 @@
+X: 1
+T: Donald MacLean's Farewell To Oban
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: G>A |
+B2 A<G d2 e>d | B<dG>A B2 g>e | d2 g>e d<eG>B | d>BA>G D2 G>A |
+B2 A<G d2 e>d | B<dG>A B2 g2 | e>dg>e d2 G>A | B2 G2 G2 :|
+|: (3ABc |
+d2 B>c d2 e>=f | e3 f g3 f | e<dg>e d<eG>B | d>BA>G A2 B>c |
+d2 B>c B<de>f | g2 e>f e<g-g>f | e>dg>e d<eG>A | B2 G>F G2 :|
+|: G>A |
+B<GB>c d<GB>d | e<Gd<G B2 e>f | g<GB>c d<GB>c | d>BA>G A2 G>A |
+B<GB>c d2 (3Bcd | e>Gd>G B2 (3def | g<Gg>e d<eG>A | B>G (3GGG G2 :|
+|: (3ABc |
+d2 g>d B2 gd | e>fg<e c2 g>e | d2 e>d B2 G>B |
+[1 d>BA>G A2 B>c |d2 g>d B2 g>d | e>fg>e c2 g2 | e>dg>e d<eG>A | B<G G>F G2 :|
+[2 d>BA>G D2 G>A |B<dc<e d>BAG | c>BA<G B2 ge | d2 g>e d<eGA | B2 G2 G2 ||
+K: Amaj
+|: A>B | 
+c2 B>A e2 f>e | c<eA>B c2 a>f | e2 a>f e>cA>c | e>cB>A B2 A>B |
+c2 B>A e2 f>e | c<eA>B c2 a>f | e2 a>f e>fA>B | c2 A2 A2 :|
+|: c>d | 
+e2 c>d e2 f>g | f<af>g f<aa>f | e2 a>f e>cA>c | e<cB>A B2 c>d |
+e2 c>d e<Af>g | a2 f>g f<aa>f | e3 f e>fA>B | c2 A2 A2 :|
+|: A>B | 
+c<Ac>d e>Ac>e | f>ec>d e2 f>g | a>ec>e f>ec>d | e>cB>A B2 A>B |
+c<Ac>d e2 c>e | f>ec>d e2 f>g | a3 f e>fA>B | c2 A2 A2 :|
+|: c>d | 
+e2 a>e c2 a>e | f>ga>f d3 f | e2 f>e c2 A>c |
+[1 e>cB>A B2 c>d |(3efe a>e c2 a>e | f>da>f d>Aa<f | e>ca>f (3efe A>B | c2 A2 A2 :|
+[2 e>cB>A B2 A>B |c>ed>f e<cA>c | d>cB>A c2 a>f | e3 f e<fA>B | c3 A A2 ||
+S:https://www.folktunefinder.com/tunes/153803
+S:http://www.thesession.org/tunes/display/4806
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

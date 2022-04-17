@@ -1,0 +1,30 @@
+X: 1
+T:Geese in the Bog, The
+T:Old Geese in the Bog, The
+R:jig
+H:Played in C or D
+D:Music at Matt Molloy's
+Z:id:hn-jig-248
+M:6/8
+K:C
+cEE GEE|cEE GAB|cEE GED|EAA A2B|
+cEE GEE|cEE GAB|cBA GED|EAA A2B:|
+|:cde g2e|gea ged|cde ged|eaa age|
+cde g2e|gea ged|cBA GED|EAA A2B:|
+K:D
+|:dFF AFF|dFF ABc|dFF AFE|FBB B2c|
+dFF AFF|dFF ABc|dcB AFE|FBB B2c:|
+|:def a2f|afb afe|def afe|fbb baf|
+def a2f|afb afe|dcB AFE|FBB B2c:|
+S:https://www.folktunefinder.com/tunes/160705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ge/Geese_in_the_Bog_The_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ge/Geese_in_the_Bog_The_2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

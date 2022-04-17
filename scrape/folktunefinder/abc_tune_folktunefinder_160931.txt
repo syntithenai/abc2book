@@ -1,0 +1,24 @@
+X: 1
+T: Gigue Bourassa
+O: trad Qu\'ebec
+R: jig
+Z: 2007 John Chambers <jc:trillian.mit.edu> from Pascal Gemme's blog
+M: 6/8
+L: 1/8
+K: G
+   D \
+| BAB cBc | dgf edc | BAG  DGB | cBc AFD \
+| BAB cBc | dgf edc | BAG  DGB | cAF G2 :|
+|: F \
+| GEE EFE | CEE GFE | DA,D FDF | AFA dAF \
+| GEE EFE | CEE GFE | DFA  dAF | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/160931
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/jig/Gigue_Bourassa_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

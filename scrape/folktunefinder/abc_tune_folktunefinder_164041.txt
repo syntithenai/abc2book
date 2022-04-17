@@ -1,0 +1,29 @@
+X:1
+T:Hey Jude !
+C:Beatles, abc file by Bernard Loffet
+L:1/8
+Q:140
+M:4/4
+K:C
+z6G2|[E2C,2]C,2[zC,]E[GC,]A|[D2G,2]G,2[z2G,2][DG,]E|[F2G,2][c2G,2]G,c[BG,]G|[AF,]G/F/[E2C,2]C,2[zC,]G|[AF,]AF,A[d/F,/]cB/F,/c/A|[G2C,2]C,2[CC,]D[EC,]A| \
+G,GG,G[FG,]E[B,G,]C|C,2C,2C,2[G2C,2]|[E2C,2]C,2[zC,]E[GC,]A|[D2G,2]G,2[z2G,2][DG,]E|[F2G,2][c2G,2]G,c[BG,]G|[AF,]G/F/[E2C,2]C,2[zC,]G|[AF,]AF,A[d/F,/]cB/F,/c/A| \
+[G2C,2]C,2[CC,]D[EC,]A|G,GG,E[FG,]E[C2C,2]|[C2C,2]C,2[z2C,2]C,2|:[zC,]C[cC,]A[AG,]G[GC,]F/A/|F,z[cF,]AF,2[cF,]F|F,2[cF,]AF,G[FF,]G|1G,2[AG,]GG,2[FG,]E| \
+C,D[C2C,2]C,2[z2C,2]:|2G,2[AG,]GG,FG,E|C,D[C2C,2]C,C[GC,]A|[_B2F,2][B2F,2][=BG,]c[d2G,2]|G,2G,2[z2G,2]G,2|[C2C,2]C,2[E2C,2][G2C,2]|[d/C,/]c/d[c2C,2]C,2C,2| \
+[d/F,/]c/d[c2F,2]F,2[_BF,]A|[G2C,2]C,2C,2C,2|[C2C,2]C,2[E2C,2][G2C,2]|[d/C,/]c/d[c2C,2]C,2C,2|[d/F,/]c/d[c2F,2]F,2[_BF,]A|[G2C,2]C,2C,2C,2| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/164041
+S:http://diato.ifrance.com/abc/44.abc
+S:http://diato.ifrance.com/diato/tablat/44.abc
+S:http://diato.org/tablat/44.abc
+S:http://perso.wanadoo.fr/diato/tablat/44.abc
+S:http://pro.wanadoo.fr/diato/abc/44.abc
+S:http://pro.wanadoo.fr/diato/tablat/44.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/44.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/44.abc
+S:http://www.diatonique.net/tablat/44.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

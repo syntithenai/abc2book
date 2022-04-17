@@ -1,0 +1,46 @@
+X:4315
+T:Kleines Lied
+C:August Eberhard M\"uller
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/muller-august-eberhard/muller-kleines-lied/muller-kleines-lied-pno1.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:F
+V:1
+ ("^Andantino"A2BA|G2AB|F2Ac|G2)G2|
+V:2
+ "^p"[F,4C4]|[B,4C4]|([A,2C2]F,2|C2)z2|
+%
+V:1
+(A2BA|G2AG|F2GA|F4)||
+V:2
+[F,4C4]|[C,4B,4]|([F,2A,2][C,2B,2]|[F,4A,4])||
+%
+V:1
+|:(f2ed|d2)(Ac|f2ed|c2)(=B_B|
+V:2
+|:"^f"(D2CB,|A,2)(F,A,|D2CB,|B,2)z2|
+%
+V:1
+A2BA|G2AG|F2GA|F4):|
+V:2
+[F,4C4]|[C,4B,4]|([F,2A,2][C,2B,2]|[F,4A,4]):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170290
+S:http://abc.musicaviva.com/tunes/muller-august-eberhard/muller-kleines-lied/muller-kleines-lied-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/muller-august-eberhard/muller-kleines-lied/muller-kleines-lied-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/muller-august-eberhard/muller-kleines-lied/muller-kleines-lied-pno1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

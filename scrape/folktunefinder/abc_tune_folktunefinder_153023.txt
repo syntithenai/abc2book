@@ -1,0 +1,27 @@
+X:70
+T: Graserin und Reiter
+N: Q0149R
+O: Mitteleuropa, Deutschland / Polen, Schlesien
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 3/4
+L: 1/8
+K: G
+D | GA_B2c2 | A2G2z
+G | _BBc2c2 | d4z
+c | _Bcd2d2 | c_BA2z
+A | GA_B2A2 | G4z
+A | _Bcd2d2 | c_BA2z
+A | GA_B2A2 | G4z
+S:https://www.folktunefinder.com/tunes/153023
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,46 @@
+X:1
+T:The Gallant Hussar
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A(AB)$^2$(AC)$^2$A
+P:A(AB)2(AC)2A
+K:G
+Q:C3=96
+P:A
+D         | G2 B ABc  | dBe c2 A | GAB cBd | G3 F2 \
+D         | G2 B ABc  | dBe c2 A | GAB cBd | G3 G2 ||\
+P:B
+|: B/2c/2 | dBd g2 g  | ecA c2 B | ABc dBA | G3 F2 \
+D         | G2 B ABc  | dBe c2 A | GAB cBd | G3 G2 :|\
+P:C
+|: z |\
+M:3/8
+L:1/8
+B2 c |\
+M:6/8
+d2 c B2 d | g3  g3   | e2 c A2 B |\
+M:3/8
+L:1/8
+c2 c |\
+M:6/8
+ABc  dBA  | G3  F2 D |\
+G2 B ABc  | dBe c2 A | GAB cBd | G3 G2   :|
+S:https://www.folktunefinder.com/tunes/159773
+S:http://www.ucolick.org/~sla/morris/music/Bledington/galhus.lb.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Bledington/galhus.lb.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Bledington/galhus.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

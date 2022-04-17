@@ -1,0 +1,35 @@
+X:1
+T:Edgar and Ellen
+M:2/4
+L:1/4
+K:Bb
+(3d3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002c3.99999962500005/11.9999985000002|\
+ B2 B3/4 c/4| d2 B| e e2-|
+M:2/4
+ e e|
+M:3/4
+ f2 e| c3/2- c3/4 ^c/4
+M:3/4
+| d3-|
+M:2/4
+ dd/2-c/2|
+M:3/4
+ B2 c| d- c B| e e2-|
+M:2/4
+ e e|
+M:3/4
+ f2 e| c- A c| B3-|
+M:2/4
+ B z|
+S:https://www.folktunefinder.com/tunes/155695
+S:http://back.numachi.com:8000/dtrad/abc/JEALOVR3.abc
+S:http://sniff.numachi.com/abc/JEALOVR3.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/JEALOVR3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

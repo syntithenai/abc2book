@@ -1,0 +1,23 @@
+X:10
+T:The Darling Waltz
+C:Johnny Cunningham
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+B,2D3D|E2G2G2|A3B AG|E2D2DC|B,2D2D2|E2G2G2|A2B2G2|A4DC|
+B,2D2D2|E2G2G2|A3B AG|E2D2B2|c3B A2|B2A2G2|E2D2C2|D6:|
+|:B2d3c|B2A2G2|E2c3E|E2D4|B2d3c|B2A2G2|A2B2d2|e4f2|
+gf ef ge|f2d2B2|ed cd ec|d2B2G2|cB AB cA|B2G2E2|E2D2C2|D6:|
+S:https://www.folktunefinder.com/tunes/151522
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/DarlingWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/DarlingWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

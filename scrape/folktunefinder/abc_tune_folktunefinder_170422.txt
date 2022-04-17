@@ -1,0 +1,23 @@
+X: 1
+T: Knot Colouring
+M: 4/4
+L: 1/8
+R: barndance
+K: Emin
+M:7/8
+E2G ^AB GF|GFE DE DC|B,EG ^AB =AG|F^dF ^cF B2|
+E2G ^AB GF|GFE DE DC|B,EG ^AB =AF|^CE=C B,D E2:|
+|:eBB gf ed|cAA ag fe|dBG ed cA|BcB dB ^dB|
+e2B eg ^ab|=agf ec A^A|B,CD EF GA|BcB dB e2:|
+S:https://www.folktunefinder.com/tunes/170422
+S:http://www.thesession.org/tunes/display/8184
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

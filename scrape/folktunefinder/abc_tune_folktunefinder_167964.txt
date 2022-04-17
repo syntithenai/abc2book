@@ -1,0 +1,23 @@
+X: 1
+T: Joanie's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: A |
+DEF EE/F/G | FAd fdf | gec ABc | dAG FGE|
+DEF EFG | FAd f3 | gec A>Bc | d3- d2 :|
+|: g |
+f3 g3 | afd def | gec A2 c | dAG F2 A |
+f^ef ge/f/g | afd d2 f | gec AA/B/c | d3- d2 :|
+S:https://www.folktunefinder.com/tunes/167964
+S:http://www.thesession.org/tunes/display/5608
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

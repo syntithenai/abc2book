@@ -1,0 +1,18 @@
+X:1
+T:Garbage
+M:4/4
+L:1/8
+K:C
+ AB| cc cc dc BA| cc cc dc BA| cc cc dc BA| G^G GA B3 c| dd dd ed cB|\
+ dd dd ed cB| dd dd ed cB| AA AB c2 AA| ^GG GG A2 BA| AA AB c2 cc|\
+ dd de fe dc| BB Bc d4| ^GA| ^GA B| cc cc B2 A2| ^GB| ^GB| d2 dd c2 cc|\
+ BB BB A2 ^G3/2 G/2| ^GA z2 z4| z6||
+S:https://www.folktunefinder.com/tunes/160441
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GARBGE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

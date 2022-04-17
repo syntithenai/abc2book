@@ -1,0 +1,19 @@
+X:1
+T:I'll Take You Home Again, Kathleen
+M:4/4
+L:1/8
+K:F
+ C2| A3 AB Gd =B| c6 A2| A3 G^F G A3/2 G/2| F6| C2| A3 AB Gd =B| c6 A2|\
+ G3 cd =BA G| c6| c2| d3 cB AB =B| c6 c2| e3 dc BG B| A6| A2| A3 dA AB B|\
+ A6 A2| G3 GA GA =B| c6| c2| A3 AB Gd =B| c6 A2| A3 G^F GA G| F6| c2|\
+ c3 AG FD F| d6e-d| c3 AG AB E| F6||
+S:https://www.folktunefinder.com/tunes/166148
+S:http://back.numachi.com:8000/dtrad/abc/KTHLEN.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/KTHLEN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

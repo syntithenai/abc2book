@@ -1,0 +1,26 @@
+X:1
+P: Muckin' o' Geordie's Byre
+C: Scotland
+C: from R. Miller/New England Fiddlers Repertoire
+C: Arr. T. Traub 8-10-03
+R: Jig
+M: 6/8
+K: D
+L: 1/8
+|: cB| "D"ABA AFA|"D"d2 e f2 a|"G"g2 e "D"f2 d|"G"e2 d Bcd|"D"ABA AFA|
+"Bm"d2 e "D"f2 g|"D"afd "A"efe|"D"d3 d :||: ef|"G"g2 g gab|"D"f2 f fga|
+"A"efe ede |"Bm"fed "G"Bcd|"D"ABA AFA |"Bm"d2 e "D"f2 g|"D"afd "A"efe|"D"ded d :|
+S:https://www.folktunefinder.com/tunes/167800
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/JigSet2.abc
+S:http://terrytraub.org/abc/MuckinOGeordiesByreJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MuckinOGeordiesByreJ.abc
+S:http://terrytraub.org/abc/JigSet2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

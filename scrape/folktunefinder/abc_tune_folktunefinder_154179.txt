@@ -1,0 +1,29 @@
+X: 1
+T: Downfall Of Paris, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3DEF|G2G>A G2G>A|G2A>B c>BA>G|A2A>B A2A>B|A2A>B c>BA>G|
+B2B>A B2B>A|B>dg>f e>dc>B|A2A>B A2A>B|A>Bc>A (3GFE (3DEF|
+G2G>A G2G>A|G2A>B c>BA>G|A2A>B A2A>B|A2A>B c>BA>G|
+B>AB>c d>ed>c|B>AB>c d>ed>c|(3Bcd B>G (3ABc A>F|G2 B2 G2:|
+|:B>c|d2d>B d2d>B|e2 d2 c2 B2|c2c>B c2c>B|d2 c2 B2 A2|
+B2B>A B2B>A|B>dg>f e>dc>B|A2A>B A2A>B|A>Bc>A (3GFE (3DEF|
+G2G>A G2G>A|G2A>B c>BA>G|A2A>B A2A>B|A2A>B c>BA>G|
+B>AB>c d>ed>c|B>AB>c d>ed>c|(3Bcd B>G (3ABc A>F|G2 B2 G2:|
+|:B>c|d2e>f g>fe>d|B>dg>f e>dc>B|G2 Gz A2 Az|B2 Bz A2 B>c|
+d2e>f g>fe>d|B>dg>f e>dc>B|G2 (3ABc B>GA>F|G2 B2 G2:|
+|:(3BAG|F2 G2 A2 B2|c2 B2 A2 G2|F2 F>G A2 B2|c2 B2 A2 B>c|
+d2e>f g>fe>d|B>dg>f e>dc>B|G2 (3ABc B>GA>F|G2 B2 G2:|
+S:https://www.folktunefinder.com/tunes/154179
+S:http://www.thesession.org/tunes/display/5021
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

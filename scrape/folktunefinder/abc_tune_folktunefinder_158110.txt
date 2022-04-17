@@ -1,0 +1,31 @@
+X: 1
+T: FISHER'S -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000427185618 by John Chambers jchambers:casc.com
+N:
+N: FISHER'S HORNPIPE -- First couple down the outside, back; down the centre,
+N: back; cast off; swing 6 hands quite round; right and left.
+K: F
+uc2 \
+| fcAc BdcB | AcAc BdcB | AFAF BGBG | AFAF G2c2 |
+| fcAc BdcB | AcAc BdcB | ABcd efge | f2f2f2 :|
+|: (uef) \
+| gece gebg | afcf afba | gece gebg | gfed c2(Bc) |
+| dBFB dBfd | cAFA cAfc | dgfe dBAG | F2F2F2 :|
+S:https://www.folktunefinder.com/tunes/158110
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/FishersHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/FishersHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/FishersHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/FishersHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

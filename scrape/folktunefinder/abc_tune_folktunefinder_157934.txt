@@ -1,0 +1,29 @@
+X:1
+T:Twinkle Toes
+C:copyright 1999 Kaubells
+E:12                   % note spacing
+M:C
+K:Am
+\bigskip              % a bit of space
+|:"Am"abc'b agfe|"Dm"defe "Dm6"dcBA|"E7"^G2E2 e2E2|"Am"ABcA "E7"Be^f^g|
+E:10                   % note spacing
+"Am"abc'b agfe|"Dm"defe "Dm6"dcBA|(3B"E7"cB _B=B e2 E3/2B/|1"...Am"A4 "  E7"ze^f^g:|2"...Am"A2ec A4||
+T:First B Part
+E:12                   % note spacing
+|:"C"eg/e/ cd "C7"ecB_B|"F"A_B/A/ ^GA "Dm"f4|"G7"de/d/ ^cd "F"fd(3B"G7"=cd|"C"cd/c/ Bc e4|
+"C"eg/e/ cd "C7"ecB_B|"F"A_B/A/^GA "F"f4|"Dm"a=bc'd' "C"c'2 "A"a2|1"...Dm7"d'2 "G13"[g2e'2] "C"[e4c'4]:|2(3b"Bm7"c'd' c'b "E7"[.e4.e'4]:|
+T:Second B Part
+|:"A7"a2a2 agfe|"Dm"fgaf def^f|"G7"g2ga g=fed|"C"cdef "E7"e2^f^g|
+"A7"a2a2 agfe|"Dm"fgaf "Dm6"dcBf|"E7"e2e^f ^gabc'|1"...Am"a2a2 A4:|2"...Am"a2a2 "  E7"e2  e'2||
+T:Last time only
+E:20
+"Dm7"d'2 "G13"[g2e'2] "C"c'2 [e2c'2]|]
+S:https://www.folktunefinder.com/tunes/157934
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/twinkle-toes.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

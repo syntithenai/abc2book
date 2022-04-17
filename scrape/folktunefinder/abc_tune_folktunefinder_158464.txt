@@ -1,0 +1,35 @@
+X:1
+T:Flora-Mars
+C:Jan Alexander STRYCKERS
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+H:Flora estas la nomo de nia hundo / Flora is the name of our dog
+R:march
+M:C|
+L:1/4
+Q:1/2=66
+K:G
+V:1 name=G-bagpipe
+|: G2A2 | B>AGG | B2c2 | d4 | B2c2 |
+ d4 | c>dec/d/ | edcB/c/ |dGcB | A4 :|
+|: A2B2 | c>BAA | B2c2 | d4 | A2B2 |
+ c>BAA | B2c2 | d3B/c/ | dedB/c/ | dgdB/c/ |
+ de/d/cB | A2d2 | de/d/cB | AB/c/ d/A/B/c/ | dc/B/A>G | G4 :|]
+V:2 name=D-bagpipe
+|: G2D2 | G2DD | G2A2 | BAGD | G2A2 |
+ BAG2 | E2GE | G2E2 | GDEG | FED2 :|
+|: DFG2 | A>GFD | G2A2 | BAG2 | FDDG |
+ A>GFD | G2A2 | B2G2| BcBG/A/ | BcBG/A/ |
+ Bc/B/AG | FED2 | Bc/B/AG | FEDG/A/ | BA/G/F>G | G4 :|
+S:https://www.folktunefinder.com/tunes/158464
+S:http://music.gordfisch.net/tradmusic/pub/cache/FloraMars_be4a71.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

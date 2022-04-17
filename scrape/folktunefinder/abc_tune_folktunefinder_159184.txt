@@ -1,0 +1,29 @@
+X: 1
+T: King Of The Pipers
+M: 6/8
+L: 1/8
+R: jig
+S: Altan: Harvest Storm
+K: Dmix
+A2F B2F|A2G FED|A2F B2F|GFG GFD|
+A2F B2F|A2G FED|GAB cAF|GFG AFD:|
+|:dfa afd|d^cd ecA|GAB =cAF|GFG AFD|
+dfa afa|geg fdA|GAB cAF|GFG AFD:|
+|:d2e d2A|d2e dcA|d2e dcA|GFG AFD|
+d2e d2A|d2e dcA|GAB cAF|GFG AFD:|
+|:def def|def e^cA|def def|GFG AFD|
+def def|def e^cA|GAB =cAF|GFG AFD:|
+|:Ddd Dcc|DBB Dcc|Ddd Dcc|GFG AFD|
+Ddd Dcc|DBB DAA|GAB cAF|GFG AFD:|
+Flute and fiddle have a nice turnaround from the final bar back into the A-part: |GAG GFG||A...
+S:https://www.folktunefinder.com/tunes/159184
+S:http://www.thesession.org/tunes/display/31
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

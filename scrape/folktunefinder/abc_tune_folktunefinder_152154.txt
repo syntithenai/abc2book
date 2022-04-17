@@ -1,0 +1,26 @@
+X:122
+T: Die Schlangenkoechin
+N: Q2079M
+O: Nordeuropa, Schweden
+N: Schwedische Fassung der Ballade.
+N: Zweite, vierte und fuenfte Zeile = Refrain.
+R: Ballade, Mord; Reigen - Tanz, antiphonal
+M: 6/8
+L: 1/8
+K: G
+G | G2A_B2F | ^c3d2z
+d2cd2_B | A3z3
+A2_Bc2d | A3_B2z
+G3G2G | F3z3
+G3A3 | _B3A2B | G2G2z
+S:https://www.folktunefinder.com/tunes/152154
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord; reigen - tanz, antiphonal
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

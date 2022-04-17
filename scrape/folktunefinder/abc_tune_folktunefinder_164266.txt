@@ -1,0 +1,23 @@
+X: 1
+T: High Road to Linton
+B: Skye p.22, Hunter 234, Williamson p.51, Chambers R5, BSFC I-24 and III-5 and VI-21
+D: Fiddlers Live CD 7 following The Ale is Dear
+N: Sometimes only the first two parts are played.
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: AMix
+|: "A"ceef {f}a2ae | "G"{f}g2fe "D"faa2 | "A"ceef {f}a2ae | "D"faec "E"B2"A"A2 :|
+|: "A"ceeg "D"fddf | "A"ecce "E"fBBd | "A"ceeg "D"fddf | "A"ecac "G"B2"A"A2 :|
+|: "A"{^g}a2{g}a2 efa2 | efae faef | {^g}a2{g}a2 efae | "D"faec "E"B2"A"A2 :|
+|: "A"cdec "D"defd | "A"cdec "G"BcdB | "A"cdec "D"def"(#)"g | "A"afec "G"B2"A"A2 :|
+S:https://www.folktunefinder.com/tunes/164266
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/HighRoadToLinton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 2
+T: Drummond Castle
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+K: Am
+E |: "Am"A>BA a3 | a>ge "G"g3 | "C"c2c e>dc |  "G"B>dg dBG |
+ "Am"A>BA a3 | a>ge "G"g3 | "C"e>ge "G"deg | "Em"edB "Am"A3 :|
+|: "C"c2c c>ec | "G"d2d d>ed | "C"c2c e>dc | "G"B>dg dBG|
+"C"c2c e>dc | "G"d>eg "F"a2g | "C"e>ge "G"deg | "Em"edB "Am"A3 :|
+S:https://www.folktunefinder.com/tunes/154689
+S:http://users.rcn.com/ladysmyth/tunes/DrummondCastle.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

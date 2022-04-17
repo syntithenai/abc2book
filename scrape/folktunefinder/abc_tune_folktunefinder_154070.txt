@@ -1,0 +1,19 @@
+X: 1
+T: Douglas Hyde, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:DFA dcA|(3Bcd A G2g|fdd (4BcdB|cAG fdc|
+DFA dcA|(3Bcd A G2 g|fdc BGG|ABG fdc:|
+|:dgf a2a|abg afe|(3Bcd f gfe|bag fdc|
+def bgg| abg fdc| b3 abg| fdc BGG:|
+S:https://www.folktunefinder.com/tunes/154070
+S:http://www.thesession.org/tunes/display/7552
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

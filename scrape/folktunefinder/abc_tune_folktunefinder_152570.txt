@@ -1,0 +1,29 @@
+X:1
+T: Petronella
+%C: R-13
+%C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+dA| "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "E"e2d2| "A"cdBc A2dA|
+    "D"F2AF "A"E2AF| "D"D2D2 D2FA| d2cd "A"e2c2| "D"d6 :|
+|:\
+dA| "D"F2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec A2ge| "D"f2fd AdAF|
+    "D"D2fd "D7"A2af| "G"g2gf "Em"edcB| "A"A2ec Agec| "D"d6 :|
+%%text Roaring Jelly R-13
+%%vskip 28pt
+S:https://www.folktunefinder.com/tunes/152570
+S:http://roaringjelly.org/music/sets/Set64.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set64.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set64.abc
+S:http://roaringjelly.org/music/sets/Set64A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set64A.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set64A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

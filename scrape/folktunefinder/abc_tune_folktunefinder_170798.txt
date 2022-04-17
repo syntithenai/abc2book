@@ -1,0 +1,22 @@
+X: 1
+T: Lads Of Alnwick, The
+M: 3/2
+L: 1/8
+R: three-two
+K: Amaj
+|:{g}a4 e2fg agfe|(3cdcA2 .a2(A2 cdec)|a4 e2fg agfe|d2B2 {g}.f2(B2 d2f2):|
+|:ABcd (3efec2 (3efec2|ABcd (3efec2 e2{g}a2|ABcd (3efec2 (3efec2|Bcde {g}.f2(B2 d2f2):|
+|:(e2.a2) (cdec .a2)(c2|e2.a2) cdec d2(3fgf|(e2.a2) (cdec .a2)c2|Bcde {g}.f2(B2 d2f2):|
+|:ABcd efed cdec|efed cdec e2{g}a2|ABcd efed cdec|Bcde {g}.f2(B2 d2f2):|
+S:https://www.folktunefinder.com/tunes/170798
+S:http://www.thesession.org/tunes/display/1194
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

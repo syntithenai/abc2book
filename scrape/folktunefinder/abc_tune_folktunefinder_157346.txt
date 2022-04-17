@@ -1,0 +1,22 @@
+X: 1
+T: Father Bernie's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Cmaj
+|: (3G,A,B, | CEGc ecBc | AFDE FGAc | Bg~g2 ^fg=fd | ecBc dBGF |
+(3EFE (3DED CEGc | AFDE FGAc | Bg~g2 ag^fg |1 ecGE C2 :|2 ecdB c2 :||
+|: cd | ecBc ecBc | fcAc fcAc | ^fcAc fdef | (3gag ^fg =fdBd |
+ecGE ~F2 DC | B,DGB ~c2 BA | GBdg ag^fg |1 ecdB c2 :|2 ecGE C2 :||
+S:https://www.folktunefinder.com/tunes/157346
+S:http://www.thesession.org/tunes/display/995
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

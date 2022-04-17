@@ -1,0 +1,30 @@
+X: 1
+T:Hramofon
+H:H. Tantsyur
+S:A. Humenyuk
+R:Polka
+Q:72
+M:2/4
+L:1/16
+A:village of Zyatkivtsi, Vinnyts'kiy
+K:CLyd
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | G2B2G2 z2 ::
+A4A4 | AGFG A4 | A2G2 GFG2 | B2A2 AGA2 | \
+A4 A4 | AGFG A4 | A2G2F2E2 | D2 z2 D2 z2 :|
+D2B2 BAG2 | FGAB c2A2 | B2A2 AGA2 | B2G2 GFG2 | \
+D2B2 BAG2 | FGAB c4 | B2A2 AGA2 | G2F2E2D2 |:
+G4 E2C2 | A4 F2D2 | B2B2 B^AB2 | c2c2 cBc2 | \
+G4 E2C2 | A4 F2D2 | GAG2 FGAB | c2 z2 c2 z2 :|
+S:https://www.folktunefinder.com/tunes/165061
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hr/Hramofon_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

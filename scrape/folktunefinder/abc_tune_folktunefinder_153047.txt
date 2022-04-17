@@ -1,0 +1,31 @@
+X:94
+T: Verschlafener Jaeger
+N: Q1152K
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0152L und M, anderes Lied.
+N: Die letzten vier Zeilen = Refrain , z.T. auf sinnfreie Silben.
+R: 
+M: 6/8
+L: 1/8
+K: C
+G | G2GG2G | G3E2
+G | c2ccBc | e2dcB
+A | G2GGAB | c3-cz
+G | G2GGAB | c3-cz
+G | G2GG2G | G2ec2
+B | A2AA2A | A2fd2
+c | B2BBcd | e3fe
+d | c2cB2B | c3z2
+G | GEGc2c | cGce2
+e | d2dB2B | c3-cz
+G | GEGc2c | cGce2
+e | d2dB2B | c3-cz
+S:https://www.folktunefinder.com/tunes/153047
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:Eng. Pols
+T:(Totakt-pols, nr. EJ-47)
+S:efter Erik Jensen
+R:Totakt-pols
+O:Boes, rhus amt, Danmark
+N:Lt nr. 4 p CD:n "Totakt-pols" av ke Persson, Ethel Wieslander m fl. Noterna kommer frn nothftet som fljer med CD:n s vissa avvikelser kan frekomma. Lten har dr beteckningen EJ-47. Danmark|Fler ltar frn Danmark...
+M:2/4
+L:1/8
+K:A
+|: aaee | d2 B2 | Aceg | aecA | aaec | d2 B2 | AcBG | G2 A2 :|
+|: EE E2 | AA A2 | AcBd | d2 c2 | aaec | d2 (Bd) | cABG | G2 A2 :|
+|: Agfd | ce e2 | cABG | AA A2 | Agfd | ce e2 | cABG | A4 :|
+S:https://www.folktunefinder.com/tunes/156217
+S:http://www.folkwiki.se/pub/cache/Eng_Pols_955b31.latin.abc
+S:http://www.folkwiki.se/pub/cache/Eng_Pols_955b31.abc
+S:http://www.folkwiki.se/pub/cache/Eng_Pols_955b31.abcm.abc
+% Rhythm Totakt-pols
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

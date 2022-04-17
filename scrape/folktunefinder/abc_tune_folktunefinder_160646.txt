@@ -1,0 +1,50 @@
+X:1
+T:Gavotte pourlet 1
+Z:Roger Ngaret (3 juin 99)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/8
+Q:1/4=156
+K:Bb
+B,/2A,/2B,/2D/2 CB, A,B, DD/2C/2|B,F E/2F/2E/2D/2 E3/2z/2 F3/2z/2|
+B,D CB, A,B, D3/2z/2|CE D/2C/2D B,3/2z/2 B,3/2z/2|
+F/2G/2F/2D/2 B,D F/2G/2F/2D/2 B,B,/2D/2|FB AG FG/2A/2 B<F|
+F/2G/2F/2D/2 B,D F/2G/2F/2D/2 B,B,/2C/2|DB, C/2B,/2C/2A,/2 B,3/2z/2 B,3/2z/2|
+F/2G/2F/2D/2 B,D F/2G/2F/2D/2 B,B,/2D/2|FB AG FG/2A/2 B<F|
+F/2G/2F/2D/2 B,D F/2G/2F/2D/2 B,B,/2C/2|DB, C/2B,/2C/2A,/2 B,3/2z/2 B,3/2z/2|
+B,D CB, B,/2A,/2B, D3/2z/2|B,F F/2E/2D E3/2z/2 F3/2z/2|
+B,D CB, B,/2A,/2B, D3/2z/2|B,F F/2E/2D E3/2z/2 F3/2z/2|
+B,D C/2D/2C/2B,/2 A,B, CE|DB, C/2B,/2C/2A,/2 B,3/2z/2 B,3/2z/2|
+B,D C/2D/2C/2B,/2 A,B, CE|DB, C/2B,/2C/2A,/2 B,3/2z/2 B,3/2z/2|
+FD B,D FD B,D|FB A/2B/2A/2G/2 FB FD|ED/2E/2 CD E/2D/2E C3/2z/2|
+E/2F/2E/2D/2 CF/2E/2 D/2E/2C/2D/2 B,3/2z/2|
+FD B,D FD B,D|FB A/2B/2A/2G/2 FB FD|ED/2E/2 CD E/2D/2E C3/2z/2|
+E/2F/2E/2D/2 CF/2E/2 D/2E/2C/2D/2 B,3/2z/2|
+B,D CB, A,B, DD/2C/2|B,F ED E3/2z/2 F3/2z/2|Bd cB B/2A/2B cB|
+AF G/2F/2G/2A/2 B3/2z/2 B3/2z/2|
+B,D CB, A,B, DD/2C/2|B,F ED E3/2z/2 F3/2z/2|Bd cB B/2A/2B cB|
+AF G/2F/2G/2A/2 B3/2z/2 B3/2z/2|
+FD B,B,/2D/2 FD B,D|FB BA/2G/2 FB FD|
+ED/2E/2 CF A/2G/2A BF|EE/2D/2 CD E/2D/2C/2D/2 B,3/2z/2|
+FD B,B,/2D/2 FD B,D|FB BA/2G/2 FB FD|ED/2E/2 CF A/2G/2A BF|
+ED/2E/2 FA G/2F/2G/2A/2 B3/2z/2|
+B,D FB AG FB|FD ED/2E/2 F3/2z/2 D3/2z/2|B,D FB AG FB|
+F/2E/2D/2E/2 CD B,D/2C/2 B,3/2z/2|
+B,D FB AG FB|FD ED/2E/2 F3/2z/2 D3/2z/2|B,D FB AG FB|
+F/2E/2D/2E/2 FG/2A/2 Bz B3/2z/2|
+FD B,D FD B,D|FB A/2B/2A/2G/2 FB FD|ED CD ED CB,|AG F/2G/2F/2E/2 DF B,D/2E/2|
+FD B,D FD B,D|FB A/2B/2A/2G/2 FB FD|ED CD ED CB,|
+AG F/2G/2F/2E/2 D/2E/2D/2C/2 B,D/2F/2|B3/2z3/2B4-B-|B2- B/2 |]
+S:https://www.folktunefinder.com/tunes/160646
+S:http://termen.free.fr/danses/cornouaille/Gavottepourlet1.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

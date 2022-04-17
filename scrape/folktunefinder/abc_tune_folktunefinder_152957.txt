@@ -1,0 +1,25 @@
+X:4
+T: Vater und Tochter
+N: Q0142C
+O: Osteuropa, Polen, Galizien
+N: Zweite Zeile refrainartig.
+R: Ballade, Verfuehrung, Verwechslung
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | GBD2
+B,2D2 | G2z
+G | AGAA | AcB
+G | AGFE | EDB,
+D | DDDG | B3
+G | AADF | G2z
+S:https://www.folktunefinder.com/tunes/152957
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verwechslung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1
+T:En attendant  (cercle ou mixer)
+C:Gilles Pquignot du groupe "Au gr des vents".  Fichier ABC par Bernard Loffet
+L:1/8
+Q:368
+M:6/8
+K:C
+|: [^cA,]c[cA,] [=c2A,2][BA,] | [BE,]B[BC] [cA,]B[AA,] | [^cA,]c[cA,] [B2G,2][cC] | \
+ [^c2D,2][cC] [c2A,2]A, | [^cA,]c[cA,] [=c2A,2][BA,] | [BE,]B[BC] [cA,]B[AA,] | [AA,]B[cA,] [B2D,2][BC] | \
+ [B2D,2][AC] [A2A,2]A, :|: [^cA,]c[cA,] [cD,]c[cC] | [cA,]^c[=cA,] [B2E,2][BC] | [BE,]B[BC] [B2E,2][BC] | \
+ [BE,]B[BC] [^c2A,2]A, | [^cA,]c[cA,] [cD,]c[cC] | [cA,]^c[=cA,] [B2E,2][BC] | [BE,]B[BC] [B2E,2][BC] | \
+ [B2E,2][AA,] [A2A,2]A, :| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/156081
+S:http://diato.ifrance.com/diato/tablat/94.abc
+S:http://diato.ifrance.com/tablat/94.abc
+S:http://diato.org/tablat/94.abc
+S:http://perso.orange.fr/diato/tablat/94.abc
+S:http://perso.wanadoo.fr/diato/tablat/94.abc
+S:http://pro.wanadoo.fr/diato/tablat/94.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/94.abc
+S:http://www.diatonique.net/tablat/94.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

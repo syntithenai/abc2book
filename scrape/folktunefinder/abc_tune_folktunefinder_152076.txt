@@ -1,0 +1,26 @@
+X:44
+T: Schoen Adelheid
+N: Q2074G
+O: Mitteleuropa, Niederlande
+N: Niederlaendische Fassung der Ballade.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Wiederfinden
+M: none
+L: 1/8
+K: F
+F2A | c3cBc | d2cB3-B2
+cBAB | d2c
+F2GAGA | B2AG3
+G | AGF2G | EF2
+S:https://www.folktunefinder.com/tunes/152076
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, wiederfinden
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

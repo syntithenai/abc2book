@@ -1,0 +1,23 @@
+X:3
+T: Tzadik Katamar  % -----
+C: from Israel
+M: C|
+L: 1/4
+K: C
+C | "C"E<GG>A | "Am"E<DC>E | "Dm7"FFF<G | "G"D4 | "C"E<GG>A | "Em"B<EE>E |
+ "F"FGAE | "Dm"FGA<B | "C"G4 |
+ "Dm"DEFD | "Em"E<G B2 | "F"ABcA | "G7"B3 G || "C"c3 c | "E7"B3 B |
+ "F"AAAE | "Dm"FFFD | "G"G<A B>G |
+ "C"c3 c | "E7"B3 B | "F"AAAB | "C"G2 "Am"E2 | "Dm7"FFFG | "C"E<D "Am"C>E |\
+      "Dm"DF "G"A<B | "C"c4 ||
+E: one
+S:https://www.folktunefinder.com/tunes/156310
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/mtunes2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/mtunes2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/mtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

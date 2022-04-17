@@ -1,0 +1,26 @@
+X:86
+T: Graf Friedrich
+N: Q0048L
+O: Suedosteuropa, Rumaenien, Sathmar
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 4/4
+L: 1/16
+K: E
+E2G2 | B2c2B2A2G2F2G2B2 | A4G4F4
+E2G2 | B2c2B2A2G2F2G2B2 | A4G4F4
+B,4 | E4E2G2F3FF4 | G2F2G2B2A4
+c4 | B2A2G2B2A2G2F2A2 | G4F4E4
+B,4 | E4E2G2F4F4 | G2F2G2B2A4
+c2c2 | B2A2G2B2A2G2F2A2 | G4F4E4
+S:https://www.folktunefinder.com/tunes/151615
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

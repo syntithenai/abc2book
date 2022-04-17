@@ -1,0 +1,40 @@
+X:10626
+T:Halling
+C:anon., arr. Frank Nordberg
+O:Norway
+A:\Osterdalen
+B:O. M. Sandvik: "\Osterdalsmusikken"
+R:Halling
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/halling-d/halling-d-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:2/4
+L:1/16
+Q:1/4=80
+K:D
+V:1
+a2fa a2gb|baafA4|a2fa a2gb|bafad'4|
+V:2
+[D,8-D8-A8-]|[D,6D6A6]z2|[D,8-D8-A8-]|[D,6D6A6]z2|
+%
+V:1
+Adfa e2af|d2fdA4|Acec d2fa|e2af d2fd|Acecd4|d8|]
+V:2
+[D,8-D8-]|[D,6D6]z2|[D,8-D8-]|[D,6D6]z2|[D,8D8]|[D,8D8A8]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/162934
+S:http://abc.musicaviva.com/tunes/norway/halling-d/halling-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/halling-d/halling-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/halling-d/halling-d-ddad1.abc
+% Rhythm Halling
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

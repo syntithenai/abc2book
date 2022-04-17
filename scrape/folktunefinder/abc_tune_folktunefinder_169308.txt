@@ -1,0 +1,42 @@
+X:1
+T:Katharina-Polka
+C:Hans Rossbach
+R:polka
+A:Losenstein, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:5.Spielheft fuer Okarina, Brigitte Dumfart, Oberoesterreichisches Volksliedwerk Linz, 1997
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+A |\
+A2 F2 | B2 A2 | A2 G2 | c3B |
+A2 G2 | B2 A2 | A2 F2 | d3A |
+A2 F2 | B2 A2 | A2 G2 | c3B |
+A2 G2 | B3A | G3c | dd d :|
+|: z |\
+c2 B2 | c2 B2 | B3A | F3A |
+A3G | E3B | B3A | F3A |
+^c2 B2 | c2 B2 | B3A | F3A |
+A3G | G2 E2 | GG A^c | dd d :|
+K:G
+|: z |\
+B2 BB | dB B2 | B3c | A4 |
+c2 BA | c3c | d2 cB | d3d |
+B2 BB | dB B2 | B3c | A4 |
+c2 BA | cc A2 | dc2d | BB B :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169308
+S:http://simonwascher.info/TradArchiv_polka/katharina-polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

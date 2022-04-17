@@ -1,0 +1,25 @@
+X:2
+T: Vater und Tochter
+N: Q0142A
+O: Osteuropa, Ungarn, Komitat Wessprim, Veszpremfajsz
+N: Zweite Zeile refrainartig.
+R: Ballade, Verfuehrung, Verwechslung
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2F2E2 | A4D4
+G4B,2C2 | D6
+D2 | G2A2B2B2 | B2A2A2
+A2 | A3GF2E2 | G2D2D2
+D2 | B,2D2G2A2 | B6
+B2 | c2A2F2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/152955
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verwechslung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

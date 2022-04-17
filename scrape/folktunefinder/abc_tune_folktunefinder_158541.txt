@@ -1,0 +1,28 @@
+X: 1
+T: FLOWERS OF EDINBURGH
+S: MDT
+O: Bampton
+P: A.(AB2)4
+Q: 1/2=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+DEFD G2A2 |  B2B2 BdcB  | AGFG EFGA | B2E2 E2GE |
+DEFD G2A2 |  B2B2 Bgge  | dcBA GFGA | B2G2 G4  ||
+P: B
+g6 ((3gag) | f6 ((3faf) | e2e2 efge | B2e2 efge |
+dBGB d2d2  | e2e2 efge  | dcBA GFGA | B2G2 G4  ||
+S:https://www.folktunefinder.com/tunes/158541
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Flowers_of_Edinburgh_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/MorrisRing/Flowers_of_Edinburgh_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

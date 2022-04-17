@@ -1,0 +1,23 @@
+X: 1
+T: Katie's Fancy
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+DEF G2 A | Bgf efg | dBG FGA | BAB cAF |
+DEF G2 A | Bgf efg | dBG FGA |1 BGG GFE :|2 BGG GBd ||
+gfe agf | gfe dBG | gfe dcB | AGA BGE |
+DEF G2 A | Bgf efg | dBG FGA | BGG GBd :|
+d2 g gfg  | eag fed | bgb afa  | gfe d2 =f |
+ece gfe | ded GBd | cAG FGA|1 BGG GBc :|2 BGG GFE ||
+S:https://www.folktunefinder.com/tunes/169341
+S:http://www.thesession.org/tunes/display/3701
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

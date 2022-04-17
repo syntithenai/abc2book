@@ -1,0 +1,36 @@
+X:1
+T:Dudelsackmelodie
+A:Gundschachen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J.,
+S:im buch mit der Angabe: "Volkslied, Volkstanz und Volksbrauch in Oesterreich", Wien 1950. Aufgezeichnet 1907 in Gundschachen, noerdlich von Gmuend in Niederoestrreich, jetzt CSFR (Heute Tschechische Republik - Anm. S.Wascher) von R. Zoder.
+N:Quelle ist einstimmig
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+(Bc) |\
+(dedc)(Bc) | (dedc)(Bc) | c2B2A2 | BABcd2 |
+(dedc)(Bc) | (dedc)(Bc) | c2B2A2 | G4 :| z2 |
+|:\
+(e2c2)c2 | (cd)e4 | (d2B2)B2 | (Bc)d4 |
+(c2A2)A2 | (AB)c2A2 | (dedc)(BA) | G6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154864
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/dudelsackmelodie.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

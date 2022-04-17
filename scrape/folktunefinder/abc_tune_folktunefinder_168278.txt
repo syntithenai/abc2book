@@ -1,0 +1,21 @@
+X: 1
+T: John Joe's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: ~f2 A AFA | BAF ADD | B/2c/2dB AFA | Bcd efg | 
+~f2 A AFA | BAF ADD | B/2c/2dB AFA |Bdc d2 e :|
+|: ~f3 efe | dBA d2e | ~f2a {b}afe | faa {b}aba |
+~f3 efe | dBA d2e | ~f2 A AFA | [1 Bdc d2 e |[2 Bdc d3 :|
+S:https://www.folktunefinder.com/tunes/168278
+S:http://www.thesession.org/tunes/display/4216
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

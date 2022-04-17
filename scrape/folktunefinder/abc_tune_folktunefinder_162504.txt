@@ -1,0 +1,27 @@
+X:3
+T:The Ground
+L:1/4
+M:C
+K:Bb frenchtab
+V:l name=Lute clef=frenchtab
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%indent 0.5 in
+%%leftmargin .75 in
+%%tabaddflags 1
+%
+[V:2]   |[,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|[,ab,,a] ,,,,,c ,,,,,d ,,,,a|\
+                ,,,,c3/2 ,a/ ,,a1 ,,,,c|[,ab,,d3/2] ,,d/ ,a1 ,c|\
+                |,,,a1 ,d ,,d ,,,a|[,abc] a [,aa,c] ,,d|[aac,,a2] [aac]:|
+%
+%%newpage
+%
+S:https://www.folktunefinder.com/tunes/162504
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

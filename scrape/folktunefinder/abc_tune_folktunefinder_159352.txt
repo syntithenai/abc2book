@@ -1,0 +1,20 @@
+X:1
+T:Fresh Air Harmony
+C:copyright 1998 Jim Thompson
+N:Flute harmony part for ``Fresh Air'' (Kaubells)
+E:22                   % note spacing
+M:C
+K:DMix
+|:f2a2a2f2|g2e2e2 fg|b2 fg b2 z2|f2a2d'2z2|
+f2a2a2f2|g2e2e2 fg|b4 g4|f8:|
+|:d'2^c'2=c'2e'2|^d'4z4|g4B4|^c4e2g2|
+d'2^c'2=c'2e'2|^d'4z4|g4B4|^ceg2f4:|
+S:https://www.folktunefinder.com/tunes/159352
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/fresh-air-harmony.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

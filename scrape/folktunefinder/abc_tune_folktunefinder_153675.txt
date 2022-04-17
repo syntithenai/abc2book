@@ -1,0 +1,27 @@
+X:1075
+T:"Doctor O'Halloran" (doublejig) 1075
+C:by  Sg't J. O'Neill
+N:Xposed from F
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+G|E2e ^def|g2e edc|BcB BAG|dBg dBG|
+E2e ^def|g2e fdB|cB^A BGF|EGF E2:|
+|:G|EBB BAG|Fdd dB^A|B2(B/2^A/2) B2(^c/2^d/2)|efe dBA|
+Bgg (g/2a/2b)a|gfe fdB|cB^A BGF|EGF E2:|
+S:https://www.folktunefinder.com/tunes/153675
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1075-DrOHalloran.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1075-DrOHalloran.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

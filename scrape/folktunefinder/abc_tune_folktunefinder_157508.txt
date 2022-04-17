@@ -1,0 +1,25 @@
+X:1
+T:Feliz Navidad
+C:Jose Feliciano, 1970
+M:4/4
+L:1/4
+K:D
+%%titlefont Times-Bold 14
+%%gchordfont Helvetica-Bold 12.0
+%%partsfont Times-Roman 11.0
+%%vocalfont Times-Bold 13.0
+%%wordsfont Times-Roman 12.0
+%%StrTabFont Times-Bold 14.0
+%%stretchstaff yes
+|A d c/2d/2|:"Em"B4-|"A7"B3/2 B/2 e d/2B/2
+S:https://www.folktunefinder.com/tunes/157508
+S:http://gulfweb.net:34043/~rlwalker/abc/feliz.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/feliz.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/feliz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

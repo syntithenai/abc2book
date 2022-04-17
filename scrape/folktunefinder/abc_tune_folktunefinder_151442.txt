@@ -1,0 +1,51 @@
+X: 1
+T: Dargai
+C: J.S.Skinner
+R: air, pibroch
+N: H&C p.146, SV p.42, Hunter #27
+M: 6/8
+L: 1/8
+Q: 1/8=80
+K: A
+| "A"c2A "E"B2A | "A"c2A He3 \
+| "A"c2A "E"B2A | "A"c2A "D"F2A |
+| "A"c2A "E"B2A | "A"c2A Ha2g/f/ \
+| "A"e2A e2c | "E7"HB3 "A"A2 ||
+c/d/ \
+| "A"e2A "D"f2A | "A"e2A Hc3 \
+| "A"e2A "D"f2A | "A"e2A "E"B2c/d/ |
+| "A"e2A "D"f2A | "A"e2A Ha2g/f/ \
+| "A"e2A e2c | "E7"HB3 "A"A2 z |]
+P: var 1
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) {A}He3 \
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) "D"(F2A) |
+| "A"({d}c2A) "E"({Bd}B2A) | "A"({d}c2A) H({g}a2g/f/) \
+| "A"(e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) i{Ad}Hc3 \
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) "E"({Bd}B2c/d/) |
+| "A"({f}e2A) "D"({fa}f2A) | "A"({f}e2A) ({A}Ha2g/f/) \
+| "A"({f}e2A) ({A}e2c) | "E7"{Ad}HB3 "A"A2 z |]
+P: var 2
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) {A}He3 \
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) "D"(F2{AdB}A) |
+| "A"({d}c2{AdB}A) ({d}c2{AdB}A) | "A"({d}c2{AdB}A) ({A}Ha2g/f/) \
+| "A"(e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 ||
+(c/d/) \
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) {d}Hc3 \
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) ({Bd}c2c/d/) |
+| "A"({f}e2{AdB}A) "D"({fa}f2{AdB}A) | "A"({f}e2{AdB}A) ({A}Ha2g/f/) \
+| "A"({f}e2{AdB}A) ({f}e2c) | "E7"{Ad}HB3 "A"A2 z |]
+S:https://www.folktunefinder.com/tunes/151442
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/Dargai.abc
+S:http://trillian.mit.edu/~jc/music/book/500/Dargai.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/Dargai.abc
+% Rhythm Air, pibroch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

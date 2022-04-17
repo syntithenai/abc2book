@@ -1,0 +1,27 @@
+X:2
+T:Earl Of Hyndford
+C:
+G:fiddle reel, early 1780s
+M:C
+L:1/8
+Q:1/4=120
+S:The Gow Collection of Scottish Dance Music
+%%MIDI gchord cccccccc
+K:Cmin
+G,| "Cm"C2 EG cdec| "Gm"BGFE "Bb"DB,B,D| \
+    "Cm"C2 EG cdec| "Bb"BGFD "Cm"ECCG,| 
+    "Cm"C2 EG cdec| "Bb"BGFE DB,B,D| \
+    "Ab"EC "Bb"FD "Gm"GE "Fm"AF| "Gm"GE "Bb"FD "Cm"ECC || G|
+    "Cm"cGEe cgec| "Bb"Bb "Gm"fg "Bb"dfBd| \
+    "Cm"ecge dBGc| "Eb"BEDG "Cm"ECCG| 
+    "Cm"cGEe cgec| "Gm"BdGB "Bb"DFBD| \
+    "Ab"EC "Bb"FD "Gm"GE "Fm"AF| "Gm"GE "Bb"FD "Cm"ECC |]
+S:https://www.folktunefinder.com/tunes/155355
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/EarlOfHyndford.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

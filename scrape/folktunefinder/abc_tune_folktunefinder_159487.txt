@@ -1,0 +1,43 @@
+X:1
+%%tabrhstyle modern
+%%barnumberfont Times-Italic 11 box
+%%sysstaffsep 30pt
+%%systemsep 65pt
+%%subtitlefont Times-Italic 8
+T:A Toy for two lutes
+T:From The Schoole of Musicke
+C:Thomas Robinson
+L:1/4
+M:C
+K:Am
+V:L1 clef=frenchtab  
+V:L2 clef=frenchtab 
+%1
+[V:L1]c1 d/c a,d ,c a|\
+    ,d/ acdf1h|\
+    f/cdac,da,c|\
+    ,d/,c//,a,,d,,b,,a,,,c,,,a/,,d,a/,c::
+[V:L2][,dda1],d[,cd,a/],da,c|\
+    [,d,a1],,d,,a[,ab/],c|\
+    [,da1][a,,c/],c[fd,a1][,c,,a/]d|\
+    [cdda1],d,,d/,c,da::
+%2
+[V:L1][,dda1],d[,cd,a/],da,d|\
+    [,daa1],,d,,a [,ab/],c|\
+    [,da1] [a,,c/] ,c [fd,a1] [,c,,a/] d|\
+    [cdda1] ,d ,,d/ ,c,da::
+[V:L2]c1d/ca,d,ca,dacdf1h|\
+    f/cdac,da,c|\
+    ,d/,c//,a,,d,,b,,a,,,c,,,a/,,d,a,c::
+%3
+[V:L1] c/ a//c d/caf//dca,d,c|\
+    ,d/,c//,d,f,d,c,a ,c/,a//,c,d/,c|\
+    ,a/h//fdca,d,c,a ,,e,,c,,e ,a,c,,e|\
+S:https://www.folktunefinder.com/tunes/159487
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Robinson/Toy.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Robinson/Toy.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

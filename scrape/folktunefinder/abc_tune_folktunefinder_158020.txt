@@ -1,0 +1,21 @@
+X: 1
+T: First Pint, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: dAB d2A | Bdf efd | ~B3 ede | faa g2f  |
+   dAB d2A | Bdf efd | ~B3 edB | AFE DFA :|
+|: ~B3 BAF | ABc d2B | ~A3 AFE | EFA DFA  |
+   ~B3 BAF | ABc d2c | ~d3 dBA | abg edc :|
+S:https://www.folktunefinder.com/tunes/158020
+S:http://www.thesession.org/tunes/display/3161
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

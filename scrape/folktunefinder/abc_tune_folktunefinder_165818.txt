@@ -1,0 +1,32 @@
+X: 1
+N: Joc Batranesc de la Niculitel
+C: Theodor Vasilescu
+O: Dobrogea
+Z: Aubrey Jaffer, modified by John Chambers
+P: I(AB)x5
+M: 4/4
+L: 1/8
+K: Am
+%Q: 1/4=112
+%%staffsep 60pt
+P: I
+ "Am" ~HA8 | ~HA,8 |
+P: A
+| "Am" ~A,3G, "G" ~A,3G, | "C" C3D "G"DC~B,G, | "C" C3D "D" ~E3D | "G" D3C ~CB,A,/2B,/2G, |
+| "F" ~A,3G, "G" ~A,3G, | "C" C3D "G"DC~B,G, | "Am" A,4- "D"A,4- | "Am"A,8 |
+| "Am" ~A3G "G" ~A3G | "C" c3d "G"dc~BG | "C" c3d "D" ~e3d | "G" d3c ~cBA/2B/2G |
+| "F" ~A3G "G" ~A3G | "C" c3d "G"dc~BG | "Am" A4- "D"A4- | "Am"A8 |
+P: B
+|: "G" g4 "F"~a3g | "G"g3f "C"~eddc | "D" e4 "G"~g3f | "C"e3d "G"dc~BG |
+| "F" ~A3G "G"~A3G | "C"~c3d "G"dc~BG | "Am" A8- |1 "D" A8 :|2 "Am" A8 |]
+S:https://www.folktunefinder.com/tunes/165818
+S:http://terrytraub.org/abc/JocBatranescDeLaNiculitel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

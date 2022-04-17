@@ -1,0 +1,26 @@
+X:1
+T:Kilty Town
+C:Charlie Lennon
+R:reel
+M:4/4
+L:1/8
+K:G
+A|BG~G2 d2cA|BdcA BG~G2|FD~D2 cD~D2|BD~D2 cBA2|
+BG~G2 d2cA|BdcA BG~G2|FAde f2eg|fdcA G3:|
+d|g3a gB~B2|eBfB eB~B2|dega b2ag|eaab agef|
+g2bg f2af|e3f edcB|c2ec B2dB|AGAB G3:|
+d|g3d BG~G2|FGAB cBcA|GBBA BABc|dAAG FAD2|
+G2BG F2AF|E3d edcB|c2ec B2dB|AGAB G3:|
+</abc>
+<abc>
+S:https://www.folktunefinder.com/tunes/169921
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:kilty_town&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+T: ~
+M: 9/8
+L: 1/8
+R: slip jig
+K: G Major
+|: A |\
+B2 B c>AG FED | B2 B cAB c2 A |
+B2 B c>AG FGA | B^AB c=AF G :|
+|: B |\
+ded c>AG FED | ded cAB c2 A | 
+ded c>AG FGA | B2 B cAF G :|
+S:https://www.folktunefinder.com/tunes/168487
+S:http://www.thesession.org/tunes/display/7400
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

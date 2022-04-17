@@ -1,0 +1,43 @@
+X: 8
+T: Sininen ja valkoinen
+C: Jukka Kuoppam\"aki
+Z: John Chambers <jc@trillian.mit.edu>
+R: tango
+M: C
+L: 1/8
+K: Am
+|: "Am"A,A,A,B, C2"Dm"D2 \
+| "Am"E8 \
+| "Dm"DDDE F2G2 \
+| A8 \
+| "G7"GGGA G2F2 \
+| "C"E8 \
+| "Dm"FFFF E2D2 \
+|1 "E7"E8 \
+:|2 "E7"HB8 ||
+|| "Am"cccc B2A2 \
+|     cccc (3B2A2G2 \
+| "Dm"[F4-D4] [F4-C4] \
+|     [F4-B,4] [F4A,4] \
+| "G7"BBBB A2G2 \
+|     BBBB (3A2G2F2 \
+| "C"[E4-C4] [E4-B,4] \
+|    [E4-A,4] [E4G,4] |
+| "F"AAAA G2F2 \
+|    AAAA (3G2F2E2 \
+| "B7"^D8- \
+| D8 \
+| "C"EEEE "D7"D2C2 \
+| "E7"B,B,2B, EE^F^G \
+| "Am"A8- \
+| A6 z2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/155428
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+N: The Sailor
+N: 8x32R 3C (RSCDS Bk 24)
+P: The Davy Hornpipe
+R: reel
+C: from B. McOwen, arr. by T. Traub 4-10-2005
+M: 4/4
+L: 1/8
+K: G
+|: dc|"G"BGBd gdcB|"Am"A2 a2 a2 ag|"D"fgfd cdcA|"Em"GFGA "D"B2 dc|"G"BGBd gdcB|
+"Am"A2 a2 agec|"G"BdBG "D"AcAF|"G"G2 G2 G2 :||: Bc|"G"dcBA GBdg|"C"e2 c2 c2 cd|"A"ed^cB Aaag|
+"D"f2 d2 d2 ef|"G"gaag "D"fgaf|"C"efge "D"dcBA|"G"BdBG "D"AcAF|"G"G2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/152326
+S:http://terrytraub.org/abc/DavyHornpipeR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

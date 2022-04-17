@@ -1,0 +1,27 @@
+X: 1
+T:Kesh Jig
+M:6/8
+L:1/8
+Q:220
+C:Traditional
+R:Jig
+N:second in set with "Jof Of My Life" and "Blackthorne Stick
+Z:
+K:G
+"G"GFG GAB|"D"AGA ABd|"G"edd gdd|"D"edB dBA|!
+"G"GFG GAB|"D"AGA ABd|"G"edd gdB|1"D"AGF "G"G3:|2"D"AGF "G"G3|:!
+"G"B2 d dBd|"C"ege "G"dBG|"G" B2 d dBG| "D"A2 A  AGA|!
+"G"B2 d dBd|"C"ege "G"dBG|"G"gfg "D" aga|1"G"bgf g3:|2"G"bgf g3|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/169621
+S:http://www.blackflute.com/music/tunes/jigs/kesh.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

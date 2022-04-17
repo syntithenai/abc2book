@@ -1,0 +1,22 @@
+X: 2
+T: Danzig Willie
+M: 3/4
+L: 1/8
+R: mazurka
+K: Amaj
+|: A>B |\
+c2 A>c d>f | e2 e>f e>d | c2 A>c d>c | B>G E2 A>B |
+(3cdc A>c (3def | e2 e>f e>d | c2 (3ABc B>G | A4 :|
+|: a>g |\
+f2 d>f A>d | (3efe A>c d>c | B2 E>G B>d | c2 A>G A>a |
+(3faf d>f (3Adf | e2 c>A d>c | (3BcB E>G (3BAG | A4 :|
+S:https://www.folktunefinder.com/tunes/151419
+S:http://www.thesession.org/tunes/display/9127
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

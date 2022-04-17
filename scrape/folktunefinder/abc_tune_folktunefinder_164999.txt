@@ -1,0 +1,24 @@
+X:0890
+T:"How Are You Kitty"  (jig)    0890
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+(A/2F/2)|EAA cAA|eAA cAA|EAA cBA|dBB B2c|
+A3cAA|eAA cBA|EFA Bcd|cAA A2:|
+|:(c/2e/2)|a3gfe|cef ecA|EAA cBA|dBB Bce|
+a3gfe|c2e dBA|EFA Bcd|cAA A2:|
+|:(c/2d/2|e2)(a/2e/2 c2)(e/2c/2|A2)(c/2A/2 E2)z|A3cBA|
+cBB B2(c/2d/2|e2)(a/2e/2 c2)(e/2c/2|A2)(c/2A/2 E2)z|A3Bcd|cAA A2:|
+S:https://www.folktunefinder.com/tunes/164999
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0890-How...Kitty.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

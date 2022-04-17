@@ -1,0 +1,21 @@
+X:1
+T:Kermisdans van Rupelmonde
+C:Hullebroeck
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABB x3 B
+L:1/8
+M:6/8
+K:F
+P:Voorspel
+d | "B"d2 G "C7"G2 c | "F" c2 F "Dm"F2 F | "Gm" B2 B A>GF | "C7" (G6 |"F"F2) z z2 |]
+P:A
+C | "F"A2 A "Dm" F2 F | "Gm"B2 B "C7"G2 G | "F" A2 A "B" B2 d | "B" d3 "F" c z d |
+S:https://www.folktunefinder.com/tunes/169540
+S:http://user.online.be/~bvanhaverbeke/abc/Kermisdans%20van%20Rupelmonde.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

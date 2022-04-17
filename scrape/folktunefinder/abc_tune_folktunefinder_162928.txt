@@ -1,0 +1,20 @@
+X: 1
+T:Halling
+R:Halling
+O:Norway
+M:2/4
+K:DDor
+DE |\
+F2d2 E2e2|d2~c2 A2DE|F2d2 E2e2|d2^c2 d2:|
+|: DE|\
+F2FD C2CA,|B,2B,^C D2DE|F2FD C2CA,|B,^C3 D4:|
+S:https://www.folktunefinder.com/tunes/162928
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ha/Halling_4.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Les filles des Forges
+C:Traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:430
+M:2/4
+K:C
+ z3E |: [E2A,2] [A2A,2] | [A2A,2] A,A | [A2A,2] [c2A,2] | [B2A,2] [A2A,2] | [G2G,2] G,2 | \
+|1 [E2A,2] A,E :|2 [E2A,2] A,2 |: [A2A,2] A,2 | [B2A,2] A,c | [^c2A,2] [=c2A,2] | \
+ [B2G,2] [AG,]B | [B2G,2] [B2G,2] |1 [A2A,2] [E2A,2] :|2 [A2A,2] A,2 |: [^c2A,2] A,2 | \
+ [^c2A,2] A,c | [^c2A,2] [c2A,2] | [B2G,2] [BG,]B | [B2G,2] [B2G,2] |1 [^c2A,2] [c2A,2] :|2 [^c2A,2] A,2 | \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/157771
+S:http://diato.ifrance.com/diato/tablat/118.abc
+S:http://diato.ifrance.com/tablat/118.abc
+S:http://diato.org/tablat/118.abc
+S:http://perso.orange.fr/diato/tablat/118.abc
+S:http://perso.wanadoo.fr/diato/tablat/118.abc
+S:http://pro.wanadoo.fr/diato/tablat/118.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/118.abc
+S:http://www.diatonique.net/tablat/118.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

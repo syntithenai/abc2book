@@ -1,0 +1,33 @@
+X: 1
+T: THE FLOWERS OF EDINBURGH JIG (KNUCKLE DOWN)
+S: RD from Arnold Woodley
+O: Bampton
+P: A(AB)2.CB
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K:  G
+P: A
+   DEFD G2GA | B2B2 BdcB | AGFG EFGA | B2E2 E2GE |
+   DEFD G2A2 | B2B2 Bgfe | dcBA GFGA | B2G2 G4  ||
+P: B
+{ef}g6    ag | f8        | edef gfed | B2e2 e2ge  |
+   dBGB d2dd | edef g2fe | dcBA GFGA | B2G2 G2e<f |
+   g2g2 gbag | f2f2 fagf | e2ef gfed | B2e2 e2ge  |
+   dBGB d2dd | edef g2fe | dcBA GFGA | B2G2 G4   ||
+P: C
+   E8         | D2E2 F2D2 | G4   A4   | B4   B4   |
+   (Bd3) c2B2 | A2G2 F2G2 | E2F2 G2A2 | B4   E4   |
+   E6      GE | DEFD G2A2 | B2B2 Bgfe | dcBA GFGA | B2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/158555
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Flowers_of_Edinburgh_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

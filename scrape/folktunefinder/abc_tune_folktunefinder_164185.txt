@@ -1,0 +1,36 @@
+X: 1
+T:Highland Mary
+M:4/4
+C:
+S:Bacon (Jour 1934 (RKS))
+N:
+A:Bledington
+O:English
+R:Reel
+%:
+%:
+%P:A/2.AB.(CB)$^2$
+P:A.AB.(CB)2
+L:1/8
+K:G
+I:speed 400
+P:A
+D2|:G2 AG F2 D2|G2 AB c2 Bc|d2 d2 AcBA|1 G4  F2 D2:|2 G3 F G2||\
+P:B
+z2|e2 d2 c2 B2|AcBA  B2 c2|e2 e2 AcBA|G4   F2 D2|\
+G2 AG F2 D2|G2 AB c2 Bc|d2 d2 AcBA|G3 F G2||\
+P:C
+z2|D4 G4|A2 G2 F4|D4 G4|A2 B2 c2 Bc|d2 d2 Ac BA|G4   F2 \
+z2|D4 G4|A2 G2 F4|D4 G4|A2 B2 c2 Bc|d2 d2 AcBA|G3 F G2||
+S:https://www.folktunefinder.com/tunes/164185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hi/Highland_Mary_9.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

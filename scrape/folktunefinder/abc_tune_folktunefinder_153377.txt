@@ -1,0 +1,19 @@
+X:1
+T:Dido, Fido
+M:4/4
+L:1/8
+K:G
+ G2 A2| B2 AA GG GF| E2 DC D2 DD| DG GE D2 EF| G4| z2 A2| B2 AA GD z D|\
+ EF GE DB, z D| EG GE DD EF| G2| D2 G2 A2| B2 B2 A2 A2| D2 DC B,2 z2|\
+ D2 FE D2 EF| G2 z2 G2 A2| B2 AG GD GF| EF GE DB, z2| D2 F3/2 E/2 DD EF|\
+ G4||
+S:https://www.folktunefinder.com/tunes/153377
+S:http://back.numachi.com:8000/dtrad/abc/DIDOFIDO.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DIDOFIDO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

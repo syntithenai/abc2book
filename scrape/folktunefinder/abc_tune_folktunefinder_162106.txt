@@ -1,0 +1,25 @@
+X: 1
+T: THE GRAND SPY -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: C|
+L: 1/8
+Z: Contributed 20000515182348 by John Chambers jchambers:casc.com
+K: D
+vE2~E2 EG~G2 | AcGc AcGc | E2~E2 EG~G2 | ((3ABc).G.A EDD2 |
+ E2~C2 EG~G2 | AcGc AcGc | E2~C2 EG~G2 | ((3ABc).G.A EDD2 |]
+"Segno"|]\
+(e2e2) d3c | AcGc AcGc | e2(3.e.e.e d2c2 | ((3ABc).G.A EDD2 |
+(e2e2) d3c | AcGc AcGc | eddB cBAG | ((3ABc).G.A EDD2 |]
+ef{a}gf gagf | eaag abag | e2dB cded | eaag edd2 |
+ef{a}gf gagf | ea{b}ag abag | e2dB cded | eaag edd2 "Segno"|]
+S:https://www.folktunefinder.com/tunes/162106
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/GrandSpyReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

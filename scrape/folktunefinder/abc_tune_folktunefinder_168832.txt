@@ -1,0 +1,43 @@
+X:8240
+T:Jovano, Jovanke
+C:anon.
+O:Turkey
+N:*1 Optional held measures.
+N:The instrumental phrases are from two different recordings.
+R:lesnoto
+Z:Transcribed by John Chambers
+F:http://abc.musicaviva.com/tunes/turkey/jovano-jovanke-e/jovano-jovanke-e-2m.abc
+%Posted July 18th 2001 at abcusers by John Chambers as an example of non-standard key signatures.
+M:7/16
+L:1/16
+K:Ephr^G
+"Vocal"\
+|: "E"G3 "(Dm)"AGF2 | "E"E7- | "*1"E7 \
+| "E"[B2G2][dB] "(Dm)"[cA][BG][AF][G/E/][A/F/] | "E"[B7-G7-] | "*1"[B7G7] :|
+|: "Am"[e2c2][ec] [e2c2][e2c2] | [ec][dB][ec] "Dm"[f2d2][fd][ec] \
+| "G"[d2B2][dB] [d2B2][d2B2] | [dB][cA][dB] "C"[e4c4] |
+| "Am"[c2A2][cA] [c2A2][dB][ec] | "Dm"[fd][e2c2] [d2B2][c2A2] \
+| "E"[B2G2][BG] [cA][BG][cA][dB] | [B2G2][dB] [cA][BG][A2F2] | [G7-E7-] | "*1"[G7E7] :|
+"Instr.1"\
+|: "E"BcA B2AG | GAF G2FE |1 EFD EFGA | BcA B2z2 :|2 "Dm"EFD EFGD | "E"E7- | "*1"E7 :|
+"Instr.2"\
+|: "E"d2e dcB2 | "Am"c2d cBA2 | "E"G2A BcBA |1 G2A B4 :|2 G2F E4 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/168832
+S:http://abc.musicaviva.com/tunes/turkey/jovano-jovanke-e/jovano-jovanke-e-2m.abc
+S:http://abc.musicaviva.com/tunes/turkey/jovano-jovanke-e/jovano-jovanke-e-2m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/turkey/jovano-jovanke-e/jovano-jovanke-e-2m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/turkey/jovano-jovanke-e/jovano-jovanke-e-2m.abc
+% Rhythm Lesnoto
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

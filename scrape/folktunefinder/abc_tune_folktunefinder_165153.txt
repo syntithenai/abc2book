@@ -1,0 +1,46 @@
+X:584
+T:Tr\"allerliedchen
+T:(Humming song) Op. 68 no. 3
+C:Robert Schumann
+O:Germany
+B:Schumann: "Album for the young" no. 3
+F:http://abc.musicaviva.com/tunes/schumann-robert/schm068-03/schm068-03-pno1.abc
+V:1 Program 1 0 up %Piano
+V:2 Program 1 0 merge down %Piano
+V:3 Program 1 0 bass %Piano
+M:C
+L:1/8
+K:C
+V:1
+e2d2c2d2|e2f2g4|f2g2e2f2|d2f2c2d2|
+e2d2c2d2|e2f2g4|f2g2e2f2|d4c2z2|
+B2A2G2A2|B2c2d4|c2d2B2c2|A2c2G2A2|
+B2A2G2A2|B2c2d2e2|c2d2B2c2|[^F4A4]GBcd|
+V:2
+x8|x8|x8|x8|
+x8|x8|x8|x8|
+BDAD GDAD|BGcG dG^FG|cGdA BGcG|ADcD GDAD|
+BDAD GDAD|BGcG dGeG|cGd^F BGcG|x8|
+V:3
+CGB,G A,GB,G|CGDG EGEG|DGB,G CGA,G|B,GDG A,GB,G|
+CGB,G A,GB,G|CGDG EGEG|DGB,G CGA,G|B,GB,F[C2E2]z2|
+G,2^F,2E,2F,2|G,2A,2B,4|E,2^F,2G,2E,2|^F,2A,2E,2F,2|
+G,2^F,2E,2F,2|G,2A,2B,2C2|A,2B,2G,2E,2|[D,4C4][G,B,]G,A,B,|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/165153
+S:http://abc.musicaviva.com/tunes/schumann-robert/schm068-03/schm068-03-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schumann-robert/schm068-03/schm068-03-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schumann-robert/schm068-03/schm068-03-pno1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

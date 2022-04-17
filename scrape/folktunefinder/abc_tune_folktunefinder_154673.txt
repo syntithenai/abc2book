@@ -1,0 +1,20 @@
+X: 1
+T:the Drummers
+R:Reel
+O:Scotland
+M:4/4
+K:ADor
+E|\
+ABcA E2EF|GABc dBGB|ABcA E2Ef|edcB A2A::B|\
+c2ce d2de|c2ce dBGB|
+c2ce d2df|edcB A2AB|\
+ccce ddde|ccce dBGB|ccce dddf|edcB A2A:|
+S:https://www.folktunefinder.com/tunes/154673
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drummers_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

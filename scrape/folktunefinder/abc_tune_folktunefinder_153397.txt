@@ -1,0 +1,36 @@
+X:1 
+T:"Die Rolltreppe"
+C:Ernst Spirk
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:collection Elisabeth und Christoph Huspeka
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+B3c d2d2 | e2e2 d2d2 | cdcB A2A2 | dedc B2B2 |
+B3c d2d2 |e2e2 d2d2 | cdcB A2A2 | d2c2 B4 :|
+|:\
+B8 | B8 | ABc2 ABc2 | e2d2 d4 |
+B8 | B8 | ABc2 ABc2 | d2c2 B4 :|
+|:\
+B2B2 BABc | d4 d2d2 | c2c2 cBcd | e4 e2e2 |
+dfdf cece |BdBd AcAc | BddB AccA | BABcd4 :|
+B2B2 BABc | d4 d2d2 | c2c2 cBcd | e4 e2e2 |
+dfdf cece | BdBd AcAc |BddB AccA | B2dcB4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153397
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/die_rolltreppe.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

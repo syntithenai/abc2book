@@ -1,0 +1,23 @@
+X:90
+T: Die dienende Schwester
+N: Q0075s
+O: Mitteleuropa, Deutschland (BRD) , Westfalen
+N: Einschiebsel am Anfang der dritten Zeile.
+R: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+M: 3/4
+L: 1/8
+K: F
+c2 | c4f2 | A4A2 | A4c2 | F4
+c2 | c4c2 | c4d2 | B4c2 | A2z2
+cf | f2zAAc | c4A2 | G4F2 | F4
+S:https://www.folktunefinder.com/tunes/152122
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, adelige als dienstmagd, tod; kinder - spiel, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

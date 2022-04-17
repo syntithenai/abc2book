@@ -1,0 +1,35 @@
+X:1
+T:Sabra
+T:For theorbo
+C:Philippe Malfeyt
+Z:abc transcription by Taco Walstra
+%
+L:1/4
+M:3
+K:G frenchtab
+%%tabrhstyle modern
+%%wordsfont Times-Italic 8
+%
+%
+(3[,,g{,,,a}/]hf a2 | (3[,,f,,a/] (f d) a2 | ([c,d,,,a///] d c a c3/2)  [,aba{,,a}1]|\
+    [a,d{,,,a}3]|
+(3[,,g{,,a}/] (h f) a2 | (3[,,f{4}/] (f d) a2 | [,,d{5}///] (d c a c3/2) [,aba{6}1]|\
+    [a,d{,,,a}3]|
+(3[,,l{,,a}//] (l i) (l/ l2)| (3[,,i{,,,a}/] (k h) k2| (3[,,h{4}/] (h f) h2 |\
+    (3[,,f{5}//] (f d f3/2) [ddf{6}1]|
+(3[,,g{,,,a}/] (h f) a2 | (3[,,f{4}/] (f d) a2 | ([c,d{5}///] d c a c3/2) [,aba{6}1]|\
+    H[,,dc{,,,a}]|]
+%%vskip 50mm
+W:This piece has been published before by the Dutch Lute Society. Philippe
+W:Malfeyt plays in the ensemble Luthomania which plays contemporary music.
+W:This piece is named after the baby of the oudplayer of the ensemble and bears her
+W:name. It's a lullaby and should be played freely. It's a suitable beginnerspiece for
+W:theorboplayers.
+S:https://www.folktunefinder.com/tunes/158988
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Malfeyt/sabra.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Malfeyt/sabra.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

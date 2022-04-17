@@ -1,0 +1,25 @@
+X:1
+T:An dro : BBC 1
+E:12
+Z:Roger Ngaret (94-95)
+R:andro
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=100
+M:2/4
+L:1/16
+K:C
+G2G2 A2B2 | A2G2 d4 | cdcB A2B2 | GBGB A4 |\
+G2G2 A2B2 | A2G2 d4 | cdcA B2G2 | BGAB G4 ||\
+G2AB A2Bc | d2B2 G4 | G2GA B2B2 |1 G2GB A4 :|2 AGAB G4 |]
+S:https://www.folktunefinder.com/tunes/154459
+S:http://termen.free.fr/danses/vannetais/AndroBBC1.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

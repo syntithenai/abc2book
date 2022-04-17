@@ -1,0 +1,30 @@
+X:74
+T: Der Jaeger auf koeniglicher Heide
+N: Q0150
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg, Cottbus, Peitz
+N: Kleinere Varianten zu den folgenden Strophen abgedruckt.
+N: Mehrere Pausen an Zeilenschluessen korrigiert.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 3/8
+L: 1/16
+K: F
+C2 | F2c2AGAG | F2c2A2
+cc | ddccBBAA | G4z2
+C2 | F2c2AGAG | F2c2A2
+cc | ddccBBAA | G4z3
+c | ccccccc | AcF2z
+F | ddddddd | c2B2A2
+F2 | GdcBA2G2 | F4z3
+c | ccccccc | AcF2z
+F | ddddddd | c2B2A2
+F2 | GdcBA2G2 | F4z2
+S:https://www.folktunefinder.com/tunes/153027
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

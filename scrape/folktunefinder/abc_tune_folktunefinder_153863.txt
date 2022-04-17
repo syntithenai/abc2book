@@ -1,0 +1,25 @@
+X: 1
+T:Donegal Reel
+M:4/4
+L:1/8
+Q:120
+S:played at local session in Hobart
+R:Reel
+K:D
+|:D2 DE FDFA|dFAF BFAF|E2 EF GFGA|BdAF EGFE|
+D2 DE FDFA|d~F3 ABde|(3fgf) (3efe) dBAG|1 FAEA D2 AF:|2 FAEA D2 AB||
+|:defg afdf|afdf a2 gf|edef gfed|cdef g2 fe|defg afdf|afdf abag|
+(3fgf) (3efe) dBAG|1 FAEA D2 AF:|2 FAEA D2 AB||
+S:https://www.folktunefinder.com/tunes/153863
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Donegal_Reel_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/do/Donegal_Reel_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

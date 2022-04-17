@@ -1,0 +1,27 @@
+X:154
+T: Der Meierin Sohn
+N: Q2083D
+O: Suedosteuropa, Jugoslawien, Slowenien, Reifnitz
+N: Slowenische Fassung der Ballade. Verzierung (Nachschlag) in der
+N: ersten Zeile.
+R: Ballade, Mord, Vergeltung, Heirat
+M: 4/4
+L: 1/8
+K: G
+D2G2A2 | _B4A4 | d2c_BA4 | z2
+D2G2A2 | _B3AG2FG | AFG6 | z2
+D2G2A2 | _B3AG2FG | AFG6 | z2
+S:https://www.folktunefinder.com/tunes/152186
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord, vergeltung, heirat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

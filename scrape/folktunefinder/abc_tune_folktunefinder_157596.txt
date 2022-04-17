@@ -1,0 +1,29 @@
+X:1
+T:Ferschen, Spitzchen
+C:traditionell
+A:Schwaben
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Die Sackpfyf schoen Macht siss gethoen", 43 Volkstaenze u. Schaeferlieder aus Schwaben, compilation G.Balling, publisher Schwaebischer Albverein, Stuttgart 1997
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+|:\
+dB dB | dB d2 | cA cc | Bd g/f/e/d/ |
+dB dB | dB d2 | cc f/e/c/A/ | GB/d/ g2 :|
+|:\
+dd/c/ BG | BB AA | cc/B/ AA/B/ | ee d2 |
+dd/c/ BG | BB AA | df/e/ d/c/B/A/ | GB/d/ g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/157596
+S:http://simonwascher.info/TradArchiv_polka/ferschen,_spitzchen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

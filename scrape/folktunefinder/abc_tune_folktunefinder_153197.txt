@@ -1,0 +1,43 @@
+X:1767
+T:Deutscher Tanz
+C:Franz Joseph Haydn
+O:Austria
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/haydn-franz-joseph/haydn-deutscher01/haydn-deutscher01-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:3/4
+L:1/4
+Q:1/4=160
+K:D
+V:1 
+"_f".d'.d'.d'|.a.a(f/g/|.a).a.d'|a2(a/f/| 
+V:2 
+.D.D.D|.A,.A,(F,/G,/|.A,).A,.D|A,2z| 
+V:1 
+.d).d(b/g/|.e).e(g/e/|d/c/B/A/B/c/|d3):| 
+V:2 
+[.F,.A,][.F,.A,]z|[.G,.B,][.G,.B,]z|[.A,,.G,][.A,,.G,][.A,,.G,]|[D,3F,3]:| 
+V:1 
+|:"_mp".a.a.a|(a/^g/f/e/f/g/|.a).a(^g/e/|a2)(a/f/| 
+V:2 
+|:[.A,.C.E][.A,.C.E][.A,.C.E]|[.B,.D.E][.B,.D.E][.B,.D.E]|[.A,.C.E][.A,.C.E][.B,.D.E]|[A,2C2E2]z| 
+V:1 
+"_cresc.".d).d(b/g/|.e).e(g/e/|d/c/B/A/B/c/|d3):| 
+V:2 
+[.F,.A,][.F,.A,]z|[.G,.B,][.G,.B,]z|[.A,,.G,][.A,,.G,][.A,,.G,]|[D,3F,3]:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/153197
+S:http://abc.musicaviva.com/tunes/haydn-franz-joseph/haydn-deutscher01/haydn-deutscher01-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/haydn-franz-joseph/haydn-deutscher01/haydn-deutscher01-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/haydn-franz-joseph/haydn-deutscher01/haydn-deutscher01-pno2.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

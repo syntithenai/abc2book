@@ -1,0 +1,28 @@
+X:1110
+T:"Gillan's Apples" (doublejig)   1110
+C:after Mr. Gillan
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+(3(A/2B/2c/2)|dAF FAF|FAF F2d|AFE EFE|
+EFE EFA|dAF FEF|DFA d2e|fed cdB|A3A2:|
+|:d|cAe cAe|cAe edc|dBf dBf|dBf fed|
+cAe cAe|cAe e2a|fed cdB|A3A2:|
+|:d|cBA BAF|dAF D2d|cBA BAF|AFE E2d|
+cBA BAF|DFA d2e|fed cdB|A3A2:|
+|:d|cAA eAA|(f/2g/2a)f edc|dBB fBB|(f/2g/2a)f fed|
+cAA eAA|fAA cea|fed cdB|A3A2:|
+S:https://www.folktunefinder.com/tunes/160970
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1110-GillansApples.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1110-GillansApples.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1110-GillansApples.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

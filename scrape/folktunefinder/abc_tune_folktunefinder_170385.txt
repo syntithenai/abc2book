@@ -1,0 +1,27 @@
+X: 1
+T: Knockawinna, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+DGF G2A | BdG ABc | dgf d2^c | ded cAF |
+DGF G2A | BdG ABc | dgf ded |1 cAF G2E :|2 cAF G2^G |]
+K: Dmaj
+AFA d2e | faf gec | d2f ecA | GFG AFG |
+AFA d2e | faf gec | a2a gec |1 edc d2B :|2 edc d^c=c |]
+K: Gmaj
+BAB GBd | gfg ece | dBd cAc | BGB AFD |
+d^cd GBd | gfa gfa | gdB cAF |1 AGF G2A :|2 AGF G2E |]
+S:https://www.folktunefinder.com/tunes/170385
+S:http://www.thesession.org/tunes/display/8542
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

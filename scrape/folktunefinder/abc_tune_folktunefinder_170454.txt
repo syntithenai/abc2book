@@ -1,0 +1,32 @@
+X: 1
+T: Kolev's Kopanitsa
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmin
+M:11/8
+|:F-GG-F ~A2-G G-FA-G|F-EE-D F-G-A F2F2|
+F-GG-F ~A2-F G-FA-G|F-EE-C ~D2-A, ~D2D2:|
+|:F-EE-C ~D2-A, =B,-C-D-E|F-EE-C ~D2-A, F-GG-A,|
+F-EE-C ~D2-A, =B,-C-D-E|F-EE-C ~D2-A, ~D2D2:|
+|:d-cc=B ABc ~d2dA|d-Af-e d-e-c ~d2dA|
+d-cc=B ABc ~d2dA|d-Af-e d-e-c ~d2d2:|
+|:d-Gf-e d-e-c d-G=B-c|d-Gf-e d-e-c d2g2|
+d-Gf-e d-e-c d-G=B-c|d-Gf-e d-e-c ~d2d2:|
+|:d-Gf-e d-e-c d-G=B-c|d-ef-g g-f-g ~f2f-c|
+f-ga-c a-g-f f-eg-f|f-ee-c ~d2G ~d2d2:|
+|:f-g-a-c a-g-f f-ca-c|f-g-a-c a-g-f ~f2fc:|
+|:F-GG-C A-G-F F-D~E2|E-C~D2 C-D-E F2G2|
+F-GG-C A-G-F F-D~E2|E-C~D2 C-D-G D2D2:|
+|:F-E-D-E C-D-E ~F2FC|F-E-D-E C-D-E ~D2DG,|
+F-E-D-E C-D-E ~F2FC|F-E-D-E C-D-E ~D2D2:|
+S:https://www.folktunefinder.com/tunes/170454
+S:http://www.thesession.org/tunes/display/3159
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Time_signature 11/8
+% Has_accompaniment_chords No chords

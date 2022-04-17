@@ -1,0 +1,20 @@
+X: 1
+T: Echo, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+dAFA D2 FA | dfec dcBc | A2 ce A2 ce | f2 ec dcBc |
+dAFA D2 FA | dfec dcBA | gfgb afdf |1 eABc dgfe :|2 eABc d2 B=c ||
+dg g2 bg g2| dgbg agfg | A2 ce A2 ce | f2 ec dcBc |
+dg g2 bg g2 | dgbg agfa | gfgb afdf |1 eABc d2 B=c :|2 eABc d4 ||
+S:https://www.folktunefinder.com/tunes/155591
+S:http://www.thesession.org/tunes/display/3630
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

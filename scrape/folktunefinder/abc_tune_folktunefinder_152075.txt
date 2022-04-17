@@ -1,0 +1,25 @@
+X:43
+T: Schoen Adelheid
+N: Q2074F
+O: Nordeuropa, Schweden
+N: Schwedische Fassung der Ballade.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Wiederfinden
+M: 4/4
+L: 1/16
+K: D
+D2 | D2E2=F2G2A4F2A2 | =c4G2G2G6
+G2 | G2A2_B2=c2d4c2A2 | _B4A4z6
+d2 | d3=c_B2A2G6d2 | =c3_BA2G2=F6
+E2 | D3DD2=F2A2A2F2F2 | E4D4z6
+S:https://www.folktunefinder.com/tunes/152075
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, wiederfinden
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

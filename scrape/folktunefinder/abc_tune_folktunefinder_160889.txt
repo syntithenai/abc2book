@@ -1,0 +1,26 @@
+X: 1
+T: Ghost
+C: Dave Reiner
+R: reel
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: C|
+L: 1/8
+K: Gm
+[| "Gm"DEGA BABc | dcBA GFED | "Cm"[E4C4] [D2=B,2][E2-C2-] | [E2C2][D2B,2] [E4C4] \
+|  "D7"D=E^FG AGAB | cdcB AG^FD | "Gm"[B4G4] [A2^F2][B2-G2-] | [B2G2][A2^F2] [B4G4] |]
+[| "Cm"e4 c4 | "Gm"d4 B4 | "D"D2D=E ^F2F^G | B2Bc d2d2 \
+|  "Cm"e4 c4 | "Gm"d4 B4 | "D"A2AB cBA2 | "Gm"G4 .[g2B2d2G,2]z2 |]
+S:https://www.folktunefinder.com/tunes/160889
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/Ghost_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/Ghost_Gm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

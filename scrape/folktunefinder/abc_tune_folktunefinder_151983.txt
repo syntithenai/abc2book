@@ -1,0 +1,29 @@
+X:61
+T: Gerstebinden
+N: Q0135C
+O: Mitteleuropa, Deutschland
+N: Tenor - Stimme in einem fuenfstimmigen Satz (cf.) von Ludwig Senfl.
+N: Grundton in der kleinen Oktave. Fuenfte Zeile = Refrain auf
+N: sinnfreie Silben.
+R: Ballade, Beischlaf, Leiden
+M: none
+L: 1/8
+K: G
+G2 | G2G2G2G2 | A2A2A4
+e4 | =f3ed4c4 | d4z2
+d2 | e4e2e4e2 | =f4e4
+d4c4A4 | B2c2d4
+d2d2c2B2 | G4z2
+G2 | A3B2cd4 | e2d2c4B2A4 | G8
+S:https://www.folktunefinder.com/tunes/151983
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, beischlaf, leiden
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

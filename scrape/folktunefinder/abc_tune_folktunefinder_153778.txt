@@ -1,0 +1,22 @@
+X: 1
+P: Donaghadee
+R: jig
+C: Scotland
+C: Kerr's Merry Melodies
+C: Arr. T. Traub 11-11-02
+L: 1/8
+M: 6/8
+K: C
+G|"C"c2 c c2 c|"C"edc efg|"C"c2 c "Am"c2 c|"Dm"dec "G"BAG|"C"c2 c c2 c|"C"edc efg|"F"a2 g f2 e|"D"dec "G"BAG ||
+"C"g2 g "C/B"g2 g|"Am"gag edc|"Dm"d2 d "D"d2 d|"G"ded BAG|"C"g2 g "C/B"g2 g|"Am"gag efg|"F"a2 g f2 e|1 "G"ded BAG :|2 "G"dcB "C"c2 |]
+S:https://www.folktunefinder.com/tunes/153778
+S:http://terrytraub.org/abc/DonaghadeeJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/DonaghadeeJ.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tastysoftware.com/abc/DonaghadeeJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

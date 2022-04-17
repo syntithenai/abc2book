@@ -1,0 +1,26 @@
+X:1
+T:Heer ontferm U
+T:Jacobus Mis
+C:Frans Visser, dec '08
+%%staves {(1 2)|3}
+%%MIDI program 1 53% Choir Oohs
+%%MIDI program 2 53% Choir Oohs
+%%MIDI program 3 53% Choir Oohs
+M:none
+L:1/4
+K:Am
+V:1
+(DEFGA2)GBBAGA2 (BcB)GA2 G2(AcB)AGFEDE4
+A2Bc(dcB)AGFG2(DE)(GF)E2(AcB2)AAGGDFE4
+(DEFGA2)GBBAGA2 (BcB)GA2 G2(AcB)AGFEDE4|]
+V:2
+(DEFGA2)EEEEDE2(G2F)CCED2(FGE)ECCB,A,B,4
+S:https://www.folktunefinder.com/tunes/155742
+S:http://home.quicknet.nl/qn/prive/agm.schoutsen/map/Jacobus%20Mis.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

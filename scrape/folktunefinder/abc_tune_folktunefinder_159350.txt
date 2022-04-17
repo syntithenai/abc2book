@@ -1,0 +1,16 @@
+X:1
+T:Frere Jacques
+M:4/4
+L:1/4
+K:C
+ c d e c| c d e c| e f g2| e f g2| g/2a/2 g/2f/2 e c| g/2a/2 g/2f/2 e c|\
+ c G c2| c G c2|
+S:https://www.folktunefinder.com/tunes/159350
+S:http://back.numachi.com:8000/dtrad/abc/FRERJACQ.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FRERJACQ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:21
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q2072T
+O: Osteuropa, Polen
+N: Polnische Fassung der Ballade. Letzte Zeile zweistimmig, obere
+N: Stimme kodiert. Verzierung (Vorschlag) .
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: 4/4
+L: 1/8
+K: G
+ | G2B2A2cB | AFG6
+d2g2e2gf | eed6
+d2g2e2cB | cAG6
+Bddd | AFG2
+S:https://www.folktunefinder.com/tunes/152053
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

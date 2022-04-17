@@ -1,0 +1,27 @@
+X: 1
+T: Inverness Gathering, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Amix
+|: e>c |
+d>cB>c A>Bc<A | a2 e2 e2 (3def | g2 B>A G>A (3BAG | g2 d2 d2 (3edc |
+d>cB>c A<B (3cBA | a2 e2 e3 a | g<ed>B G>Bd<B | e2 A2 A2 :|
+|: (3ef^g |
+a>ec<e a>e (3cde | a2 e2 e3 f | g>ag>f g>ag<e | d>=cB>A G3 d |
+(3cBA a>A (3cBA a>A | a2 e2 e2 a2 | g<ed>B G>Bd<B | e2 A2 A2 :|
+|: (3edc |
+d2 B>c A2 c<e | a>ec<e A2 (3def | g2 B<A G2 (3def | g2 B2 d2 e>c |
+d>cB<c A2 (3cBA | a2 e2 e2 a2 | g>ed<B G2 (3dcB | (3eee A2 A2 :| 
+|: (3dcB | 
+(3AAA a2 a/g/e/g/ a2 | (3AAA a>g e2 d<g | (3GGG g2 g/e/d/e/ g2 | (3GGG g>e d2 d<B |
+(3AAA a2 (3AAA a2 | (3AAA a>g e2 d<g | (3eee B<d g>Bd>B | e2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/166489
+S:http://www.thesession.org/tunes/display/5016
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

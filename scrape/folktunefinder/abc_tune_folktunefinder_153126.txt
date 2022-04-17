@@ -1,0 +1,36 @@
+X:1
+T:Der Siebmschritt (I. Melodie)
+C:traditionell
+R:volkstanz
+A:Ybbsitz in Niederoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Altoesterreichische Volkstaenze , Raimund Zoder, Oesterreichisches Volksbildungsamt, Oesterreichischer Schulbuecherverlag, Wien, 1922
+S:
+N:im buch zweistimmig plus gitarren-griffe
+N:quelle einstimmig
+N:im buch s. 5 nr. 6
+N:im buch ganz in E erster ton h', ambitus h' h''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G %Transposed from E
+(DG) GG | F/G/A/G/ F2 | (DA) AA | G/A/B/A/ G2 |\
+(Ec) c2 | (DB) B2 | (CA) AF | G/A/B/c/ d2 |\
+(Ec) c2 | (DB) B2 | (CA) AF | .G.G.G z :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153126
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/siebmschritt.ybbsitz.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

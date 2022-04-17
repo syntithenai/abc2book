@@ -1,0 +1,36 @@
+X:1
+T:John Barleycorn
+T:(The Drunken Idiot)
+H:Dance composed by the Hounds in the style of Red Stags
+C:Stan Rogers
+C:words by Jon Berger
+M:4/4
+L:1/8
+Q:1/4=76
+K:D
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+d/2e/2 | fa ag/2f/2 e/d/e fA | Bddc B3 A | Bd dc/2B/2 Ad d>e | f/g/a gf e3 d/2e/2 | fa ag/2f/2 e/d/e fA | Bddc B3 A | Bd dc/2B/2 Ad d>e | f/g/a fe d3 ||
+w: 1.~John_ | Bar-ley-corn to the sea_ has gone in~a | ship both stout and new, the | thirst to slake of_ Cap-tain Drake and | all_ his loy-al crew.  To_ | ven-ture brave o'er_ wind_ and wave, the | Span-iard for to halt, and | though he die of_ Span-ish grape, he'll live_ as Eng-lish malt. ||
+w:2.~John_ Bar-ley-corn's to the court--ing gone all | dressed in fine ar-ray, in | pew-ter clad from_ toe to head to | win_ a la-dy gay.  The | po-e-try that_ he_ dec-laims will | stand him in good stead, for~the | la-dies fair do_ all de-clare they | love_ it more than bread.
+w:3.~John_ | Bar-ley-corn's to the hang--man gone and~the | rea-son I'll un-fold: 'Tis~for | rob-bing hon-est_ Eng-lish-men of~their | sil--ver and their gold.  In a | grave un-known by_ cross_ nor stone John | Bar-ley will be lain, 'til~the | rain-y days have_ gone their ways~and he ris--es up a-gain.
+P:B
+d | bb ba/2g/2 aa a>g| f/e/d de f3 d | bb ba/2g/2 aa a>g | f/e/d gf e3 d/2e/2 | fa ag/2f/2 e/d/e fA | Bddc B3 A | Bd dc/2B/2 Ad d>e | f/g/a fe d3 |]
+w:So~we'll | cut him down and we'll bind him round~and we'll | serve_ him worse than that, for~we'll | grind his bones be--tween two stones and~we'll | bung_ him in a vat. Then we'll | drink his health in_ nut--brown ale, and~we'll | raise our glas-ses high, for~be- | fore that he can_ live a-gain John Bar--ley-corn must die!
+S:https://www.folktunefinder.com/tunes/154717
+S:http://www.mit.edu/~jcb/MOTley/abc/idiot.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/idiot.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/idiot-tune.shtml
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

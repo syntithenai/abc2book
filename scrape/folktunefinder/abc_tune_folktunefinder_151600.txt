@@ -1,0 +1,22 @@
+X:71
+T: Die Rheinbraut
+N: Q0047H
+O: Osteuropa, Tschechoslowakei, Ost - Boehmen
+N: Pause im Schlusstakt korrigiert.
+R: Ballade, Braut - Werbung, Todesahnung, Tod
+M: 2/4
+L: 1/8
+K: F
+c | ffed | dcc
+c | fccB | BAA
+G | A2B2 | cfdB | A2G2 | F2z
+S:https://www.folktunefinder.com/tunes/151600
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, todesahnung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

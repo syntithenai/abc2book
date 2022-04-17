@@ -1,0 +1,29 @@
+X: 1
+T:Gairsay
+R:March
+O:Scotland
+M:4/4
+A:Orkney
+K:D
+D2E2 | \
+F3G F2E2 | E2D2 F2A2 | d3e d2c2 | B4 B2c2 | \
+d3e d2B2 |1 \
+A2F2 F2G2 | A3B A2F2 | E4 :|2\
+A2F2 F2A2 | G2AG F2E2 | D4 :|\
+c2d2 |\
+e3f e2d2 | c2A2 d2e2 | f3g f2e2 | d4 d2c2 |\
+B3^A B2c2 | d3e d2B2 | A3B A2F2 | E4 D2E2 |\
+F3G F2E2 | E2D2 F2A2 | d3e d2c2 | B6 c2 |\
+d3e d2B2 | A2F2 F2A2 | G2AG F2E2 | D4 :|
+S:https://www.folktunefinder.com/tunes/159733
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gairsay_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gairsay_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

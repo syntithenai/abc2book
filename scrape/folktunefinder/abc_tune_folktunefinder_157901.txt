@@ -1,0 +1,24 @@
+X: 2
+T: Firefly, The
+M: 4/4
+L: 1/8
+R: clog
+R: hornpipe
+K: Gmaj
+|: (3DEF |\
+G3 D (3GAB A>G | F>GE>F D2 (3edc | B>dG>d e>c (3cBc | (3ABA (3GFE D3 F |
+G2 (3FGA G2 (3BAG | F2 (3GFE D>d^c>d | B>DG>B B>A (3AGF | G2 (3d^cd G2 :|
+|: (3edc |\
+(3BDG B>d (3GB/c/d g>f | a>gf>g e2 (3dcB | c2 (2Bcd c2 (3BAG | F>AE>G D>ed>c |
+(3BDG B2 (3GBd g2 | g>ff>e e>dd>c | c>BB>G F>Ad>c | B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/157901
+S:http://www.thesession.org/tunes/display/5426
+% Rhythm Hornpipe
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

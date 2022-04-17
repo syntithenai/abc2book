@@ -1,0 +1,26 @@
+X:1
+T:Drlette
+E:12
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=104
+"C"G2GG c2cc | e2d2 c4 | GGGG c2ce | "G"d2d2 "C"c4 |
+"G"d2dd d4 | "C"e4 "G"f2e2 | d2c2 B4 | ABA2 "C"G4 |
+cded cded | c2e2 e2d2 | cded cded | c2d2 "G"d4 |
+"C"cded cded | c2e2 e2d2 | c2d2 e2c2 | "G"d2B2 "C"c4 |]
+S:https://www.folktunefinder.com/tunes/154399
+S:http://termen.free.fr/danses/rennais/Drolette.abc
+% Rhythm Avantdeux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

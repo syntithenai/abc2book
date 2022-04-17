@@ -1,0 +1,18 @@
+X:1
+T:The Dutchman
+M:4/4
+L:1/8
+K:G
+ e| ed dc cB Bc| cB BA AG GF| EB BE z4| z ff ee d| dc| cB B2 z4| z4 z2 z e|\
+ ed dc cB Bc| cB BA AG| GF| EB BE z4| z ff ee dd c| cB B2 z GG F| Ec cE Fd|\
+ dc| cB AB z GG F| EE cB AA GF| G4 z2 AB| c2 cc c2| dc| c B3 z2 AB|\
+ c2 cB AF GA| B6 GF| E3 cc c| dc| c2 B2 z2 GF| E2 cB AA GF| G6 z2|\
+ z4 z2 z||
+S:https://www.folktunefinder.com/tunes/155123
+S:http://back.numachi.com:8000/dtrad/abc/DUTCHMN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

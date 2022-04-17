@@ -1,0 +1,28 @@
+X: 1
+T:First Set Tune
+S:Herb Archer, collected by John Meredith
+A:Ulan, near Gulgong, central New South Wales, Australia
+M:6/8
+L:1/8
+Z:Transcribed into ABC by John Furlonger
+K:D
+(3A,B,C|:D2 F A2 d|d2 f ecA|G2 A F2 G|E2 F GFE|
+D2 F A2 d|d2 f e2 f|g2 e dBc|d3 z3:|
+|:fgf d2 f|g2 f e3|fgf d2 f|edB A3|
+fgf d2 f|g2 f e3|f2 a g2 f|eBc d2:|
+S:https://www.folktunefinder.com/tunes/158022
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_5.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_Set_Tune_5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:5
+T:The Plank House
+R:Reel
+C:Rick Mohr
+L:1/8
+M:C|
+K:G
+Bc|"G"d2Bd gBaB|gBaB gagf|"C"ecfc gcfc|"(Am)"e3f edcB|
+"D"ABAG FGFE|DFAF BFAF|1"G"GABd "C"efge|"D"d3e dcBc:|
+[2"G"GABd "D"cBAF|"G"G2DE DCB,A,|]"G"G,2B,D EDB,D|GABA GDB,D|
+"C"EDCD EGAB|"Am"c3d cBAG|"D"FDA,D FAAB|defe dcAF|
+[1"G"GABd "C"efge|"D"d2DE DCB,A,:|2"G"GABd "D"cBAF|"G"G2GF GABc|]
+S:https://www.folktunefinder.com/tunes/164455
+S:http://rickmohr.net/rick.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/by/RickMohr/rick.abc
+S:http://rickmohr.net/rick.abc.html
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

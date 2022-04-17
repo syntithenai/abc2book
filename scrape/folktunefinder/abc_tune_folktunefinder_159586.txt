@@ -1,0 +1,29 @@
+X: 1
+T:Funen march
+R:March
+O:Denmark
+M:4/4
+B:Rasmus Storm
+K:D
+FG|\
+A2A2 A2Bc|d6 A2|B2d2 A2d2|G2AG F2A2|\
+Bdcd Adcd|A2G2 F2d2|
+c2cd e2ef|g6 fe|\
+f2ed c3d|d6::\
+de|\
+f2f2 f2ed|e2f^g a2Bc|
+d2d2 d2cB|c2f2 e2dc|\
+B2B2 Bcd2|A2AG F2A2|B2B2 Bcd2|A2AG F2A2|
+B2d2 A2d2|A2GA F2A2|Bdcd Adcd|A2GA F2d2|\
+c2cd e2ef|g6 fe|f2ed c3d|d6:|
+S:https://www.folktunefinder.com/tunes/159586
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fu/Funen_march_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fu/Funen_march_2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

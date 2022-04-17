@@ -1,0 +1,74 @@
+X:1
+T:Edler-Walzer
+C:Nach motiven vom Edler-Trio, bearbeitung Sepp Pichler
+R:walzer
+A:Steiermark
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Auf einem von Sepp Pichler geschriebenen notenblatt aus dem besitz von Luise Buisman mit dem vermerk:Nach motiven vom Edler-Trio, bearbeitung Sepp Pichler
+N:bei Pichler ganz in C, erster ton g'', zweistimmig.
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+V:1
+P:1
+g2 e3 d | c4 G2 | g2 e3 d | c4 G2 |\
+g2 e3 d | c4 e2 | de dc BA | G6 |
+V:2
+e2 c3 G | c4 cd | e2 c3 G | c4 cd |\
+e2 c3 G | A4 c2 | G6 | G2 GA Bc |
+V:1
+d2 B3 A | G6 | d2 B3 A | G6 |\
+d2 B3 A | G4 B2 | c6 | cB cd ef |
+V:2
+B2 G3 F | G4 Bc | B2 G3 F | G4 Bc |\
+B2 G3 F | G4 G2 | c6 | G4 cd |
+V:1
+g2 e3 d | c4 G2 | g2 e3 d | c4 G2 |\
+g2 e3 d | c4 e2 | de dc BA |G4 B2 |
+V:2
+e2 c3 G | c4 cd | e2 c3 G | c4 cd |\
+e2 c3 B | A4 c2 | G6 | G2 dc BA |
+V:1
+d3 e d2 | d2 e2 ^f2 | g2 B2 d2 | g4 d2 |\
+^f2 e3 d | c2 A2 d2 | G6 |1 G6 :|\
+                    [2 GA Bc de ||
+V:2
+B4 B2 | d2 cB Ac | B2 G2 A2 | B2 Bc BG |\
+A2 c3 d |e3 d e^f | g2 B2 d2 |1 g3 f ed :|\
+                    [2 g4 G2 ||
+V:1
+P:2
+|: f2 e2 d2 | f2 e2 d2 | e2 d2 c2 | e2 d2 c2 |\
+B3 c d2- | d2 G2 B2 | c3 d e2- | e2 Bc de |
+V:2
+|: G2 A2 B2 | G2 A2 B2 | c2 G2 c2 | c2 G2 A2 |\
+G3 A B2 | A2 GA GB | c3 B c2- | c2 GA Bc |
+V:1
+fe df ed | fe df ed | ed ce dc | ed ce dc |\
+B3 c d2 | f2 e2 d2 | c6 |1 c2 Bc de :|\
+                        [2 c2 z4 |]
+V:2
+dc Bd cB | dc Bd cB | c4 G2 | gf ec BA |\
+B3 A G2 | F2 G2 AB | c2 ef ed |1 e4 G2 :|\
+                              [2 e2 z4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155721
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/edler-walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

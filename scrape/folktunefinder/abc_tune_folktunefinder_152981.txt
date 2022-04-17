@@ -1,0 +1,28 @@
+X:28
+T: Winterrosen
+N: Q1145F
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0145G ff, anderes Lied.
+N: Pausen an den Enden der 4. und 8. Zeile korrigiert.
+R: 
+M: 2/4
+L: 1/8
+K: G
+D2 | G2BG | A2c
+A | BdcB | A2
+D2 | G2BG | A2c
+A | BdcB | A2z
+B | ccec | BdB
+G | AcAF | GBd
+B | ccec | BdB
+G | AcAA | G2
+S:https://www.folktunefinder.com/tunes/152981
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

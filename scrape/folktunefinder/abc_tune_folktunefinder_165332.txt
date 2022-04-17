@@ -1,0 +1,34 @@
+X: 98
+T: Tidal Wave -- Jig
+R:reel
+C:EDDIE FOX.
+B:Ryan's Mammoth Collection
+N:112 629
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:F
+"^Segno"v(C4 E4) | (A4 c4) | (d>.c)(B>.d) e>gf>g | vcAz2 vafz2 |=20
+(C4 E4) | (A4 d4) | f>d=3DB>a (3gag (3fed | (3cgf (3e_ed (3cBG (3FE_D |
+v(C4 E4) | (A4 c4) | d>cB>d e>gf>g | cAz2 afz2 |=20
+zb<(va>u.b) (3de^f g2 | zva(u^g.a) (3AB=3DB c2 | zvd(^c.d) =
+(E.=3Dc)(=3DBc) |\
+ (F.A)(c.e) f2 H|]
+K:C
+ua2|\
+(g>.f)(d>.B) A2>uG2 | ^F>Gc>e g2>ug2 | (=3Df>gB>)vg u(f>gB)>ug |\
+ v(e>gc)>"4"ve (E>Gc)>u"4"e |=20
+(g>.f)d>B A2>uG2 | ^FGce vg2>(u^g2 |\
+S:https://www.folktunefinder.com/tunes/165332
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

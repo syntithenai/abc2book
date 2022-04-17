@@ -1,0 +1,19 @@
+X:1
+T:The Debutante Ball
+M:4/4
+L:1/8
+K:C
+ z4 z2 GF| E2 E/2 E3/2 G/2 G3/2 FE| E D3- D2 z3/2 G,/2| DD D/2 E3/2 FA G G,|\
+ E4 z2 GF| E2 EE G/2 G3/2 FE| E D3 z G,D E| F3 G,F GE D| C8| z A A/2A/2 A/2A/2 A2 E/2E/2 E/2E/2|\
+ AG GE G/2- E3/2- E2| z A A3/2 E/2 AG G3/2 G/2| G4 z2 z G| A2 AA A2 A2|\
+ AG _ED C4| z F- F/2F/2 F D3/2E/2-E/2 E/2- D| C8| z4 z2 z G| A3/2 A/2 AA A2 AA|\
+ AG ED CC DE| FF F/2 F3/2 D3/2E/2-E/2 E/2- D-| C6 z2|
+S:https://www.folktunefinder.com/tunes/152547
+S:http://back.numachi.com:8000/dtrad/abc/DEBUBALL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DEBUBALL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

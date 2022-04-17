@@ -1,0 +1,37 @@
+X:1
+T:I'll Go and Enlist
+M:2/2
+C:
+S:Bacon (MDT)
+N:transposed from Gm to EDor
+A:Sherborne
+O:English
+R:Reel
+%P:A/2.A$^4$.(B$^2$A$^2$)$^2$
+P:A.A4.(B2A2)2
+K:EDor
+%:
+%:
+Q:1/2=96
+P:A
+E2 EF G2 A2 | B2 e2 B2 B c | d2 d2 d2 FG | A2 AF D2 D2 |\
+E2 EF G2 A2 | B2 e2 B2 B c | d2 F2 A2 GF | E4    E4    ||\
+P:B
+%Q:1/2=80 for FC
+%Q:1/2=76 for UC
+E4    E3 F  | G4    A4     | B4    e4    | B4    B3  c |\
+d4    d4    | d4    F3 G   | A4    A3 F  | D4    D4    |\
+E2 EF G2 A2 | B2 e2 B2 B c | d2 F2 A2 GF | E4    E4    ||
+S:https://www.folktunefinder.com/tunes/166125
+S:http://www.ucolick.org/~sla/morris/music/Sherborne/goenlist.lbBm.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Sherborne/goenlist.lbBm.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Sherborne/goenlist.lbBm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

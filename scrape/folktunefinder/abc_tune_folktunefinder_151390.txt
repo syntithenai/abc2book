@@ -1,0 +1,48 @@
+X:4
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1388 (Pleiber-Krist)
+M:4/4
+L:1/8
+Q:C2=112
+P:D4
+K:Dm
+P:D
+%%MIDI gchordon
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI bassvol 127
+%%MIDI program 73
+|:\
+M:4/4
+%%MIDI gchord fcf2fzc2
+"Dm"Ad "C"(c>d) cB "Bb"({AB}A)G |\
+M:5/4
+Ad "Gm"({cB}c)>d cB "Am"({AB}A4) :|\
+M:4/4
+"Dm"FG "F"A>G AB "C"AG |\
+M:5/4
+"Gm"EF G>A "Am"FE "Bb"D4 |
+M:4/4
+"Dm"DE "F"F2 "Gm"G2 "Am"A>G |\
+M:5/4
+({AB}A)d "Bb"d2 "C"c2 "Dm"d4 |\
+M:4/4
+"Dm"({FE}D)E F2 "C"(GF/2G/2) "F"A>A |\
+M:5/4
+({AB}A)d "Gm"d2 "Am"(ed/2)c/2 "Bb"d4 ||
+S:https://www.folktunefinder.com/tunes/151390
+S:http://kazimodal.trad.org/partitions/dans_leon/LA_dans_leon/LA_dans_leon.abc
+% Rhythm Dan?s leon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Time_signature 5/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

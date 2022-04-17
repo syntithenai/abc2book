@@ -1,0 +1,28 @@
+X: 1
+T: Derry, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|:AG|F2Ad fdAF|G2Bd gdBG|F2Ad fdAF|E2GB ecAG|
+F2Ad fdAF|G2Bd g2ag|fafd Bgec|d2 f2 d2:|
+|:fg|a2fd Adfa|g2ec Aceg|a2fd Adgf|(3efd (3cdB A2fg|
+a2fd Adfa|gece g2ag|fafd Bgec|d2 f2 d2:|
+|:AG|(3FED AD BDAD|dcdf ecAG|(3FED AD BDAD|EGFA GBAG|
+(3FED AD BDAC|dcdf eceg|(3fgf df gece|df (3edc d2:|
+|:(3efg|a^gab afdf|gfga gece|a^gab afdf|(3efd (3cdB A2 (3efg|
+a^gab afdf|gfef gbag|(3fgf df gece|df (3edc d2:|
+|:fg|(3aaa fd Adfd|(3aaa ec Acec|fdge afbg| ecdB A2 fg|
+(3aaa fd Adfd|(3ggg ec A2ag|fdAF Egec|d2 f2 d2:|
+|:FG|AFAd fedc|BGBe gfed|cAce agfe|fcdB A2 FG|
+AFAd fedc|BGBd g2ag|fafd Bgec|d2 f2 d2:|
+S:https://www.folktunefinder.com/tunes/153114
+S:http://www.thesession.org/tunes/display/3250
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

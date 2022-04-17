@@ -1,0 +1,25 @@
+X:0859
+T:"Hide and Go Seek"    (jig)        0859
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+N:(I've tried that more than once!  Haven't you)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d|BGE EGE|EGE BGE|DFA dcB|AFD DBc|
+BGE EGE|EGE dcB|ABA FGA|BGE E2:|
+|:B|eBe gfe|bge efg|ded fed|afd def|
+efe gfe|bge ega|BcB AGA|BGE E2:|
+S:https://www.folktunefinder.com/tunes/164079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0859-HideSeek.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

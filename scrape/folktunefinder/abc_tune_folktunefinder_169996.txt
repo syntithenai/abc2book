@@ -1,0 +1,24 @@
+X: 1
+T: King Of The Pipers
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+|:cAG A3| DED A2B| cAG A2A| DED GED|
+cAG A3| DED GED| F2F E2E| DEF GED:|
+K:D
+d2e faf| ecA ABc| dcd efg| faf gfe|
+d2e faf| ecA AGE| F2F E2E| DEF GED:|
+B2G A2G| BGE E2=c| B2G AGE| GED D3|
+B2G A2G| BGE E2c | dcd ABG| FDD D3:|
+S:https://www.folktunefinder.com/tunes/169996
+S:http://www.thesession.org/tunes/display/54
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

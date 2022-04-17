@@ -1,0 +1,20 @@
+X: 1
+T:Hanter Dro
+C:Trad 3, 25
+M:3/4
+L:1/16
+K:C
+e2ef ~e2d2 c4|e2dc B2Bd c3A|\
+edef ~e2d2 c4|1 e2dc B2B2 c3A:|2 e2dc B2B2 c4||
+A2AB cBcd e4|c2de f2df e4|c2de f2e2 d3B|d2ed c2B2 c2Bc|
+A2AB cBcd e4|c2de fgaf e4|c2de f2e2 d3B|d2ed c2B2 A4||
+S:https://www.folktunefinder.com/tunes/163168
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ha/Hanter_Dro_12.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

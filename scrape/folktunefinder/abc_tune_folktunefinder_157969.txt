@@ -1,0 +1,23 @@
+X: 1
+T: First month of Summer, The
+C:Trad
+S: The First Month of Spring, John Vesey and Paul Brady
+I:speed 250
+M:4/4
+K:G
+GE |: D2 B,D GABG | dG (3GGG AEGE | (3DED B,D GABG | AE (3EEE AEGE |
+(3DED B,D GABG | dG (3GGG AEGE | (3DED B,D GABG | AGEF GABc|
+dGBd efge | dcBG AGEG | dGBd efge | dBAF G2 (3DEF |
+GABd gfge | dB B2 AGEG | gfed (3efg dB | (3ABA GB AEGE:|
+S:https://www.folktunefinder.com/tunes/157969
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_month_of_Summer_The_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fi/First_month_of_Summer_The_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

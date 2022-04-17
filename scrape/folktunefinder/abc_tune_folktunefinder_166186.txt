@@ -1,0 +1,28 @@
+X:0599
+T:"I'm Asleep And Don't Awaken Me"         (air)          0599
+C:Unattributed (Touhey)
+C:moderate
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:F
+"_VB"(F3/2D/2)|(C3/2D/2) (.F2.F) z|F4F2|G2(F/4G/4A3/2) (A/4G/4F3/2)|D4C2|(D2F2).F2|(A2c2)(d/4c/4A3/2)|TR(G3F) (A/4G/4F3/2)|F4:|
+(c3/2d/2)|{d}e4(ef/2e/2)|{^c}d4 (d_e/2d/2)|{=B}c4 (d3/2e/2)|(d2c2).A2|"^natural roll""^="~c2(d2f2)|TRf4(d3/2c/2)|.A2.G2.F2|(F7/4G/4) (D7/4F/4) C2|
+{d}e4 (f7/4_e/4)|{^c}d4 (=c3/2A/2)|(c7/4d/4) (f7/4d/4) (c7/4A/4)|(G7/4F/4) (D7/4F/4) C2|"^sharped roll"""^#~D2(F2f2)|[D2d2](c7/4A/4) (G7/4F/4)|TR(G4F2)|F4||
+|:(F/4G/4A3/2)|B2(cB)(AG)|A2(BA)(GF)|(G7/4A/4) (c7/4G/4) (A7/4F/4)|TR(D4C2)|.D2.F2.f2|d2(c/4A7/4) (G/4F7/4)|TR(G4F2)|F4:|
+(C3/2D/2)|[C4_E4][CE] z|[B,4D4][B,D] z|C4C z|C2A,2C2|"^natural roll""^="~C2D2F2|"^sharped roll""^#"~F3G (F/4G/4A3/2)|AG (F/4G/4A3/2) (A/4G/4F3/2)|D4cd|
+[c4_e4][c2e2]|[B4d4](c/4A7/4)|(c7/4d/4) (f7/4d/4) (c7/4A/4)|(G7/4F/4) (D7/4F/4) C2|~D2F2f2|d2(cA)"^pp"(GF)|TRG3F (A/4G/4F3/2)|F4|]
+S:https://www.folktunefinder.com/tunes/166186
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0599-ImAsleep.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

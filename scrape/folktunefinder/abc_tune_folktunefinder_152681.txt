@@ -1,0 +1,63 @@
+X:1
+T:Invirtitas
+T:nvrtita (Yves')
+O:Romania
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+R:Invirtita
+Q:2/8=200
+M:7/8
+L:1/8
+K:Am
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord ff2czc2
+|:"Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Dm" ^GA^c de f^g |"Am" a^gf ed cz |
+  "Dm" {^g}a3 {^g}a2 ^gf | afe ed cB |"Am" cdc d2 B^G |"Am" A3-A2-A2 :|
+|:"Dm" ^GA^c de f^g | a^gf ed cz |"Dm" a3 a2 ^gf |"Am"a^gf ed cB |
+  "Dm" ^GA^c de f^g | a^gf ef ab |"Am" c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+|:"G" gab d'e' d'c' | bgb "C"c'b c'^c' |"G"d'2c' bg ab |"C"c'2d' e'b c'2 |
+  "G" gab d'e' d'b | c'bc' "C"e'g ab |"Am"c'ac' "E"be ^f^g |"Am"a3 [e4A4] :|
+%X:2
+T:nvrtita De La Sibiu
+%O:Romania
+%C:Trad.
+%Z:http://swiss.csail.mit.edu/~jaffer/Music
+%R:Invirtita
+Q:2/8=180
+M:7/8
+L:1/8
+K:A
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord ff2czc2
+|:"A"cde f^d e2 |f^de fd e2 |"D"(4dcBA BA B2 |cd2 "E"^d2 e2 |
+  "A"(4cdee f^d e2 |(4f^dee fd e2 |"D"(4dcBA "E"GE FG |"A"A3-A2-A2 :|
+|:"E"(4dedc dc BA |E3-E2-E2 |(4dedc dB =c^c |"A" e3-e2-e2 |
+  "E"(4dedc dc BA |E3-E2-E2 |(4dcBA GE FG |"A"A3-A2-A2 :|
+W:Arrangement Copyright (C) 2001 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/152681
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Invirtitas.abc
+S:http://people.csail.mit.edu/jaffer/Music/Invirtitas.abc
+S:http://voluntocracy.org/Music/Invirtitas.abc
+S:http://www.voluntocracy.org/Music/Invirtitas.abc
+% Rhythm Invirtita
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

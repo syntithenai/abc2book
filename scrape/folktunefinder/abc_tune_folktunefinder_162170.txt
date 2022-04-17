@@ -1,0 +1,25 @@
+X: 1
+T: Gravel Walks, The
+M: 4/4
+L: 1/8
+R: reel
+K: Ador
+|:vA2 ue(vA (3cBA) eA|A2 e(uA BA)GB|A2 e(vA (3Bcd) ef|(uge)dc BAGB:|
+A2 aA gAfA|A2 eA (BA)GB|A2 aA gAfA|gedc BAGB|
+(A2 a)A gAfA|A2 eA (BA)GB|(AB)cd (ef)ga|gedc BAG(B|
+|:(3cBA) BG A2 AB|(cA)Ad BAG(B|(3cBA) BG ABc(d|ef)ge dBG(B:|
+K:Cmaj
+|:c2 gc acgc|c2 gc (BA)G(B|c2) gc acga|ged(c BA)G(B|
+c2) gc acgc|c2 gc (BA)G(B|AB)cd efga|gedc BAGB:|
+S:https://www.folktunefinder.com/tunes/162170
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/GravelWalksThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GravelWalksThe.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

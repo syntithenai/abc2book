@@ -1,0 +1,27 @@
+X: 1
+T: Hambleton's Round O
+O: 1713
+R: minuet
+P: 3x(AAB)
+Z: John Chambers <jc@trillian.mit.edu>
+B: Barnes
+M: 3/2
+L: 1/4
+K: Dm
+"A"\
+|: "Dm"dA Ad "A7"^c2 | "Dm"dA Af "A7"e2 | "Dm"de/f/ "Gm"gf ed \
+|1 "A7"^c3 d e2 :|2 "A7"d3 ^c "Dm"d2 |]
+"B"\
+|| "F"fc-cf "C"e2 | "F"fc-cf "C"e2 | "F"fe/d/ cf "(Bb)"fa | "C7"f3 e "F"f2 |
+| "Dm"aa/g/ fa ba | "Gm"gg/f/ eg "(A7)"ag | "Dm"ff/e/ de/f/ "(Gm)"g/f/e/d/ \
+|1,2 "A7"^c3 d "da Capo"e2 :|3   "A7"^c3 d "Dm"d2 |]
+S:https://www.folktunefinder.com/tunes/162977
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/HambletonsRoundO_Dm.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

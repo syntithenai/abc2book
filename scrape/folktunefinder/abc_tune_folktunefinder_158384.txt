@@ -1,0 +1,23 @@
+X: 1
+T: The Flight
+S: Thompson 1777
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, October 15, 1996
+N:   http://www.sls.hawaii.edu/contra/
+M: 6/8
+L: 1/8
+K: C
+|: G | ced ced | c2G G2F | EGc ABc | dfe d2G |
+     | ced ced | c2G G2F | EGc GcB | c3-c2 :|
+|: g | g2e ceg | a2g def | g2c B2c | dBG G2g |
+       g2e ceg | a2f def | gec GcB | c3-c2 :|
+S:https://www.folktunefinder.com/tunes/158384
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/flight.abc
+S:http://www.sls.hawaii.edu/contra/dances/flight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:45
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q0041a
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg
+N: Eingeklammerte Note kodiert.
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 4/4
+L: 1/8
+K: G
+d2 | d3cB2B2 | B2G2G2
+B2 | A2AAABce | d2F2G2
+d2 | d3cB2B2 | B2G2G2
+B2 | A2AAABce | d2F2G2
+d2 | g2g2f2g2 | a3fg2
+d2 | d2gge2dc | B2A2G2
+S:https://www.folktunefinder.com/tunes/151574
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

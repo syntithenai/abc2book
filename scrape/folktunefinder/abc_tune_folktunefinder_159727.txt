@@ -1,0 +1,86 @@
+X:308
+T:Gaillarde
+T:Terpsichore no. \.iCCCVIII
+C:anon., arr. Michael Praetoriu\.is
+O:France
+B:Michael Praetorius: "Terpsichore" (1612) no. 308
+R:Gaillarde, galiiard
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/france/terpsichore-308/terpsichore-308-4m.abc
+V:1 Program 1 110 %Fiddle
+V:2 Program 1 42 %Cello
+V:3 Program 1 40 alto %Violin
+V:4 Program 1 43 bass %Double bass
+M:3/2
+L:1/4
+Q:1/2=200
+K:C
+V:1
+gf e2 a2|g3f e2|dc B2 A2|G3A BG|
+V:2
+c2 c2 c2|B4 c2|A2 G2 ^F2|GE2D D2|
+V:3
+EF G2 F2|D4 C2|D2 DD2C|B,3D B,2|
+V:4
+C2 C2 F,2|G,4 A,2|^F,2 G,2 D,2|E,3^F, G,2|
+%
+V:1
+c3d ec|g3f e2|fe dc B2|c6:|
+V:2
+A3G G2|G2 G4|C2 B,G G2|C6:|
+V:3
+E3D CE|D4 C2|C2 B,E D2|C6:|
+V:4
+A,3B, C2|B,4 C2|F,2 G,4|C,6:|
+%
+V:1
+|:G2 Gc2A|d3c Bc|d2 de2c|f3e/d/ cd|
+V:2
+|:E2 EE2^F|^F4 G2|=F2 FE2E|A3G ED|
+V:3
+|:C2 CG,2D|A,4 E2|A,2 A,C2C|C3B, CG|
+V:4
+|:C,2 C,C,2D,|D,4 E,2|D,2 D,A,2A,|F,3G, A,B,|
+%
+V:1
+e2 ef2d|ed cd ef|g2 g^f2^f|g6:|
+V:2
+G2 EA2A|A3B c2|G2 GA2A|B6:|
+V:3
+E2 GF2F|CD ED C2|D2 DD2D|D6:|
+V:4
+C2 CD2D|A,3B, C2|G,2 G,D,2D,|G,6:|
+%
+V:1
+|:cd ef gf|e3d c2|cB A2 fe|d3c B2|
+V:2
+|:EF GA B2|c2 C4|F2 C2 D2|D2 D4|
+V:3
+|:C2 B,A, G,2|G,4 A,2|A,4 A,2|B,2 B,4|
+V:4
+|:A,2 G,F, E,D,|C,4 F,2|F,3D, D,2|G,2 G,G,2F,|
+%
+V:1
+G/A/B/c/ d2 c/d/e|gG B/A/G ^FG|A/G/A/B/ c/d/e dc/B/|c6:|
+V:2
+D2 F2 EC|D3E A,E|CF E2 G2|E6:|
+V:3
+B,G, A,B, CA,|B,3B, DB,|A,/B,/C CA, B,2|G,6:|
+V:4
+E,2 D,2 A,2|G,3E, D,E,|F,3/G,/ A,/B,/C G,2|C,6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159727
+S:http://abc.musicaviva.com/tunes/france/terpsichore-308/terpsichore-308-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/france/terpsichore-308/terpsichore-308-4m.abc
+% Rhythm Gaillarde, galiiard
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

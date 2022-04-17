@@ -1,0 +1,29 @@
+X: 1
+T: Farewell to the Creeks
+C: J-23
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+A| "D"d2A "G"B2d| "D"A3 AFD| "G"G2B "D"F2A| "(Em)"AGF "A7"E2A|
+   "D"d2A "G"B2d| "D"A3 AFD| FGA AGF| "A7"E3 "D"D2 :|
+|:\
+"D"F3 "A"G3| "D"A2F FED| "G"G2B "D"F2A| "(Em)"AGF "A7"E2D|
+"D"F3 "A"G3| "D"A2F FED| FGA AGF| "A7"E3 "D"D3 :|
+%%begintext ragged
+%% 'I first heard this tune on a John Allan Cameron record as the song "Banks of
+%% Sicily", by Hamish Henderson, who set words to the old tune.  It is also recorded
+%% on Front Hall FHR08, "Alistair Anderson", played on Northumbrian small pipes.'
+%% 9/1/98
+%%endtext
+S:https://www.folktunefinder.com/tunes/157157
+S:http://roaringjelly.org/music/jig/J023_Farewell_to_the_Creeks.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J023_Farewell_to_the_Creeks.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J023_Farewell_to_the_Creeks.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

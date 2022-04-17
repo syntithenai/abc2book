@@ -1,0 +1,28 @@
+X: 1
+T: Echoes Of Oban
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: e | 
+d>BA A>AA | d>BB B2 G | d>BA A>AA | a>ff e2 f |
+d>BA A>AA | d>BB B2 A | c<af e2 f | e>dd d2 :|
+|: A | 
+d>ff a>ff | a>df B2 A | d>ff a>ff | a>ff e2 A | 
+d>ff a2 f | a>df B>AA | c<af e2 f | e>dd d2 :|
+|: F | 
+A>AA B>BB | G>dd B2 A | A>AA d>ff | a>ff e2 f |
+A>AA B>BB | G>dd B>AA | c<af e2 f | e>dd d2 :|
+|: f | 
+a>ff A>df | G>dd B2 A | a>ff A>df | a>ff e2 f |
+[1 a>ff a>df | G>dd B>AA | c<af e2 f | e>dd d2 :|
+[2 A>AA B>GG | G>dd B2 G | c<af e2 f | e>dd d2 |]
+S:https://www.folktunefinder.com/tunes/155583
+S:http://www.thesession.org/tunes/display/7728
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

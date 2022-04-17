@@ -1,0 +1,20 @@
+X: 1
+T: Hundred Pipers
+R: jig
+M: 6/8
+K: A
+|:A2B| "A"c2E EFE | "D"F2A A2f | "A"e2c "F#m"cBA | "Bm"BcB "E"BAB |
+"A"c2E EFE | "D"F2A A2f | "A"e2c "E"BcB |"A" A3 :|
+|: c2d|"A"e2e ece | "D"f2a agf | "A"e2c "F#m"cBA | "Bm"BcB "E"Bcd |
+"A"e2e ece | "D"f2a agf | "A"e2c "E"BcB |"A"A3 :|
+S:https://www.folktunefinder.com/tunes/165654
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/HundredPipers.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

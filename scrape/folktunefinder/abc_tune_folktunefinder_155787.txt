@@ -1,0 +1,26 @@
+X:1
+T:E hoari helegon
+C:Kas a barh, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:C
+|: [e2A,,2A,2][eA,,A,]f [e2A,,2A,2]d2 | [c2G,,2G,2][d2G,,2G,2] [e2A,,2A,2]d2 | [e2A,,2A,2][eA,,A,]f [e2A,,2A,2]d2 | \
+ [c2G,,2G,2][d2G,,2G,2] [e4A,,4A,4] :|: [e2A,,2A,2][eA,,A,]e [d2A,,2A,2]e2 | [c2F,,2F,2][AF,,F,]d [dG,,G,]cB2 | \
+ [e2A,,2A,2][eA,,A,]e [d2F,,2F,2]e2 | [cG,,G,]c[BG,,G,]c [A4A,,4A,4] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/155787
+S:http://diato.ifrance.com/diato/tablat/135.abc
+S:http://diato.ifrance.com/tablat/135.abc
+S:http://diato.org/tablat/135.abc
+S:http://perso.orange.fr/diato/tablat/135.abc
+S:http://perso.wanadoo.fr/diato/tablat/135.abc
+S:http://pro.wanadoo.fr/diato/tablat/135.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/135.abc
+S:http://www.diatonique.net/tablat/135.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 9
+T:Sir Roger de Coverley
+% Nottingham Music Database
+S:Trad
+M:9/8
+K:G
+P:A
+B/2A/2|:"G"G2G "C"G2e "G"dBG|"C"A2A "A7"ABG "D7"FED|"G"G2G "C"G2e "D7"def|\
+"G"g2G "A7"GAG "D7"FED:|
+"G"\
+P:B
+dBd "C"ece "G"dBG|"C"A2A "A7"ABG "D7"FED|"G"dBd "C"ece "G"def|\
+"G"g2G "A7"GAG "D7"FED:|
+S:https://www.folktunefinder.com/tunes/154557
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/slip.txt
+S:http://www.guitarnut.com/nmd/slip.txt
+S:http://abc.sourceforge.net/NMD/nmd/slip.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:4
+T:IX. TENOR. Daintie fine Bird
+S:Tenor
+T:From The First Set of Madrigals and Mottets of 5.Parts: 
+T:apt for Viols and Voyces. 1612.
+C:Orlando Gibbons
+N:Original clef, C on third line
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/2
+%%MIDI transpose -12
+K:A min -8va 
+z2 c3/2 B// A// e2 A/ d c/ G/ A/ E z/ c/ c/> d/ e/ f/
+S:https://www.folktunefinder.com/tunes/159480
+S:http://www.laymusic.org/music/gibbons/bird/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

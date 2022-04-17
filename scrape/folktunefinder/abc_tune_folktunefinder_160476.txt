@@ -1,0 +1,37 @@
+X: 1
+T: Garofitsa (freylach)
+O: German Goldenshteyn
+R: Freylach
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+"A"[|]\
+EGB \
+| "Em"^d{f}e ec B2 (3Bc^c | "D"(3dcB "(Am)"(3cBA "D"(3AGF "Em"E2 \
+| "Em"^de e=d (3dcB "Am"(3ABc | "Em"B4 zEGB |
+| "Em"^d{f}e ec B2 (3Bc^c | "D"(3dcB "(Am)"(3cBA "D"(3AGF "Em"E2 \
+| "Am"GA AF "Em"(3GFE "Dm"(3DE=F | "Em"E4 z :|
+"B"\
+|: E=F^G \
+| "Am"^G>A A>G A>G A2 | (3^dee (3e=dc "G"B>{cB}A G2 \
+| "Dm"d>^c d>e (3=fed (3^cde | "Dm"^c d3 "G"g4 |
+| "Am"^G>A A>G A>G A2 | (3^dee (3e=dc "G"B>{cB}A G2 \
+| "Am"GA AF "Em"GE "Dm"=FD | "Em"E4 z :| z3 
+K:E^d^G
+"C"\
+|: "E"(3GAG (3FGF (3FED (3EGB | (3GAG (3FGF (3FED E2 \
+|     (3GAG (3FGF (3FED (3EGB |1 (3GAG (3FGF (3FED E2 :|2 "E"(3GAG "Dm"(3FGF "E"E |]
+S:https://www.folktunefinder.com/tunes/160476
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/GarofitsaF_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/GarofitsaF_Em.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

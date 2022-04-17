@@ -1,0 +1,28 @@
+X:1
+T:Holly Doodle
+C:copyright 1997 Kaubells
+R:Jig
+E:12
+M:6/8
+K:C
+EF|:"C"G^FG EcB|"F"A^GA "(Dm)"=Fdc|"G7"B2B =GAB|"C(6)"cEA G EF|*
+"C"G^FG EcB|"F"A^GA "(Dm)"=Fdc|"G7"B2B =GAB|1"...C"c3 z EF:|2"...C"c3 z Bc|]*
+K:G
+E:16
+"G"d^cd BGE|D3 z B=c|d^cd BGE|"D7"F3 z EF|*
+"Em"GFG EFG|"A"AB^c e2g|"D"f2d "A7"e2^c|"D"d3 "D7"z B=c|*
+"G"d^cd BGE|D3 z B=c|dBG "G7"DE=F|"C"E3 "C/B"z cd|*
+"Am"ecA c2e|"G"d^cd "E7"e2B|"A7"AB=c "D7"DE^F|"G"G3 "G7"z3||*
+T:Last time only
+"Am"ecA c2e|"G"d^cd "E7"e2B|"A7"AB=c "D7"DE^F|"G"G3 g3|]*
+S:https://www.folktunefinder.com/tunes/164581
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/holly-doodle.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

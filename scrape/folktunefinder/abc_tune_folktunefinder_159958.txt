@@ -1,0 +1,39 @@
+X:10625
+T:Gammelmostri
+T:(The old mother)
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Springdans
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/gammelmostri/gammelmostri-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:3/4
+L:1/8
+Q:1/4=160
+K:D
+V:1
+d2 dA de|fe fg f2|d2 dA de|f6:|g2 gf ga|
+V:2
+[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]:|[D,4D4A4][D,2D2A2]|
+%
+V:1
+b2 ag f2|g2 gf ga|b2 ag f2|d2 fa ef|d6|]
+V:2
+[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]|[D,4D4A4][D,2D2A2]|[D,4D4A4]D,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159958
+S:http://abc.musicaviva.com/tunes/norway/gammelmostri/gammelmostri-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/gammelmostri/gammelmostri-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/gammelmostri/gammelmostri-ddad1.abc
+% Rhythm Springdans
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

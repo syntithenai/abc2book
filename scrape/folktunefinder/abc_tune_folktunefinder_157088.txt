@@ -1,0 +1,26 @@
+X: 1
+T: Farewell to Glasgow
+Z: Hiroyuki Yamada
+R: waltz
+M: 6/8
+L: 1/8
+D: Seamus Egan "When Juniper Sleeps"
+M: 3/4
+K: Edor
+B2 | e4 B2 | d4 ed | B3 A G2 | d4 ed | B3 A G2 | E4 D2 | E6- | E4 ||
+B2 | E4 E2 | G3 A B2 | d4 de | B4 Bd | e4 ef | e3 d B2 | d6- | d4 ||
+B2 | E4 E2 | G3 A B2 | d4 ed | B4 gf | e4 ef | e3 d B2 | d6- | d4 ||
+Bd | e4 B2 | d4 ed | B3 A G2 | d4 de | B3 A G2 | E4 D2 | E6- | E4 ||
+S:https://www.folktunefinder.com/tunes/157088
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/FarewellToGlasgow.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/FarewellToGlasgow.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/anon/FarewellToGlasgow.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

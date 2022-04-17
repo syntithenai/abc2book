@@ -1,0 +1,44 @@
+X:1
+T:Duo en si b\`emol majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle16.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:C|
+L:1/8
+K:Bb
+V:1
+"^Allegro"f2f2-f.b.f.d|(fe)(de)e2z2|e2e2-e.g.f.e|(ed)(^cd)d2z2|g2(fb) (ae')(c'a)|
+(bf)(fb) (ae')(c'a)|b2(f2e2)d2|(d4c2)z2|c'4(d'c')(ba)|g2Ta2b2z2|
+b4(c'b)(ag)|(c'3b)a2z2|(3(f=e).f (3(ga).b (3(ag).a (3(bc').d'|
+(3(c'd').c' (3(ba).g (3(f=e).d (3(cB).A|(db).a.g f2 Tg2|f2f2f2z2::c'2c'2-c'.a.b.c'|(c'b)bbb2z2|b2b2-b.e.a.b|
+(ba)aaa2z2|c'4^f4|g2d'2c'2b2|(ae').d'.c' (ba).g.^f|g2b2g2z2|a4(ba)(g=f)|
+b2f2(gf)(ed)|c2c'4b2|(b4a2)z2|f4(gf)(ed)|c2Td2e2z2|e4(fe)(dc)|
+(f3e)d2z2|(3(bd').c' (3(ba).g f2f2|(3(fd).e (3(fg).a (3(ba).g (3(fe).d|(ee')d'c' b2 Ta2{g/a/}|b2b2b2z2:|
+V:2
+z2B2d2B2|z2c2c2c2|z2A2c2A2|z2B2d2f2|(B4c4)|
+(d4e4)|d2d2c2B2|(B4A2)z2|(f=e)(dc) (BA)(GF)|(=Ec)(Fc) G(c=Bc)|
+(=ef)(gf) (ed)(cB)|(Af)(c=e)f2(FG)|A2 (3(=ef).g (3(fe).f (3(ga).b|
+a4A4|(Bd).c.Bc2c2|A2A2A2z2::z2f2a2f2|z2c2=e2g2|z2c2=e2c2|
+z2f2F2f2|_e4d2c2|B4A2G2|c4d4|B2d2B2z2|c8|
+(dB)(cd) (ed)(cB)|e2e4d2|(d4d2)z2|d4(ed)(cB)|(AF)(BF) (cA)(FA)|(cd)(cB) (AG)(FE)|
+(DF)(AF) (BA)(Bc)|d4(3(ed).c (3(cd).e|(3(dB).c (3(de).f (3(gf).e (3(dc).B|(eg)fe d2 Tc2 {B/c/}|d2d2d2z2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155037
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle16.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle16/devienne-nouvelle16.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle16/devienne-nouvelle16.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

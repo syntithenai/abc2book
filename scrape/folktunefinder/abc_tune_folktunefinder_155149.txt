@@ -1,0 +1,28 @@
+X: 1
+T: Each Little Thing
+M: 6/8
+L: 1/8
+R: march
+Z: &quot;domnull&quot;
+Z: chords and additional stupidness by Alistair Cassidy
+K: Emaj
+&quot;E&quot;B, | C>E&quot;B7&quot;F G&quot;E&quot;B2- | B2E F>GB | &quot;A&quot;ce2- e2f | e>dc &quot;E/G#&quot;B3- |
+B2c &quot;B7&quot;B>GF | &quot;E&quot;G3-G2 B, | C>&quot;B7&quot;EF G&quot;E&quot;B2- | B2E F>GB |
+&quot;A&quot;ce2- e2f | e>dc &quot;E&quot;B3- | B2G &quot;B7&quot;F>EE &quot;E&quot;E3-E2 :|
+b | g>&quot;B7&quot;fe g2 &quot;E&quot;g- | g2b g>&quot;B7&quot;fe | &quot;C#m&quot;[B3e3-] e2B | c>eg &quot;B7&quot;f3- |
+f2g f>eB | &quot;A&quot;c e2- e2f | e>dc B &quot;E&quot;e2- | e2c B>GF |
+&quot;C#m&quot;G3- G2B | G>FE &quot;B7&quot;C F2- | F2&quot;E&quot;G &quot;B7&quot;F>EE | &quot;E&quot;E3-E2 | b | g>&quot;B7&quot;fe g2 &quot;E&quot;g- | g2b g>&quot;B7&quot;fe | &quot;C#m&quot;[B3e3-] e2B | c>eg &quot;B7&quot;f3- |
+f2g f>eB | &quot;A&quot;c e2- e2f | e>dc B &quot;E&quot;e2- | e2c B>GF |
+&quot;C#m&quot;G3- G2B | G>FE &quot;B7&quot;C F2- | F2&quot;E&quot;G &quot;B7&quot;F>EE | &quot;no chord&quot;z8 | &quot;E&quot;E3-E2 |
+%%stretchlast
+S:https://www.folktunefinder.com/tunes/155149
+S:http://www.thesession.org/tunes/display/7121
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

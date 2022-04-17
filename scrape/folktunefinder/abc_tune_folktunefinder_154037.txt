@@ -1,0 +1,50 @@
+X:590
+T:The rakes of Kildare
+T:(Double jig)
+C:anon., arr. Frank Nordberg
+O:Ireland
+R:Double jig
+Z:(C) 1999 Arranged by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/ra/rakes-kildaire/rakes-kildaire-gtr2.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:6/8
+L:1/8
+Q:3/8=136
+K:G -8va
+V:1
+"^(5)=G, (6)=D"D|D2 G {A}GFG|ABc d2e|=fef ded|cAG F2D|
+V:2
+x|G,6|D,3D3|D,3A,3|D3D,3|
+%
+V:1
+DGG {A}GFG|ABc d2e|=fed cA^F|G3 G2::d|
+V:2
+G,6|D,3D3|D3D,3|G,2DG,2::x|
+%
+V:1
+{a}gfg def|gfg a2g|=fef ded|cAG F2d|
+V:2
+G,3D3|G,3D3|D,3A,3|D3D,3|
+%
+V:1
+{a}gfg def|gfg a2g|=fed cA^F|G3 G2:|
+V:2
+G,3D3|G,3D3|D2A,D,3|G,2D D2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/154037
+S:http://abc.musicaviva.com/tunes/ireland/ra/rakes-kildaire/rakes-kildaire-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/ra/rakes-kildaire/rakes-kildaire-gtr2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ireland/ra/rakes-kildaire/rakes-kildaire-gtr2.abc
+% Rhythm Double jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

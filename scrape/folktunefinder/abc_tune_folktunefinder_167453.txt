@@ -1,0 +1,25 @@
+X:1
+T:Pain de Dieu, pain de vie - D381
+C:J. Akepsimas
+M:4/4
+L:1/8
+%%freegchord 1
+K:F
+P:Refrain
+"Fa"A2A2"Do"c4|"Rem"F2F2"Lam"A4|"Sib"BB cB"Fa"A2GF|"Do"G8|"Fa"A2A2"Do"c4|\
+"Rem"F2F2"Lam"A4|"Sib"BB cB"Fa"A2"Do"GG|"Fa"F8||
+P:Couplet
+M:2/4
+zF GA|AG FE|"Sib"D2D2|"Solm"zG AB|BA GF|"Do"E4|"Lam"zA Bc|cB AG|"Rem"F2F2|
+zF GA|"Solm"B2"Do"B2|"Fa"A2A2|"Do"G4-G4|:"Fa"AA FF|"Sib"D2EF|"Do"G2AB|\
+"Fa"A4|"Do"G4!D.C.!:|
+S:https://www.folktunefinder.com/tunes/167453
+S:http://moinejf.free.fr/messe/messeP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,49 @@
+X:1
+%%topspace 0
+T:Prelude 1
+C:Punktsetzung und bertragung in abc: Werner v. Hrsten
+T:aus Nicolas Vallet: Le Secret des Muses Vol.1 (Amsterdam, 1615)
+L:1/4
+M:C
+K:CM frenchtab
+%%tabfontfrench frFrancisque
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.26
+%%tabflagspace 7
+%%stretchstaff false
+%%staffsep 25pt
+%%text /a = Eb
+[abd1].,,,,a {,,,a}.,d |\
+[,bdca1].,a ,b,,d/.,,,,,d |\
+[,dd,,b1].,,,,,a [,d,,,b]{a}/.,b |\
+[,ab,,d1].,,d [da],,b/.c |\
+[ab,,d1].,d a.,b |\
+:d1,,,,c/.,,,,a ,,,,c.,,,,,d,,,,d1 |\
+[d,,,c1],,,,,d/.b [a,,,d1],,,,c/.,,,,a |
+[,d,,c/].,,,,,d[,bd,d1] [,dd,c].,,c |\
+% Takt 9
+[a,d,a1],,c/.,,a [,,c,,a].,,,c,,d1 |\
+[a,c1].,,,c [abd,a],,,,,e/.,,,,,c |\
+,,,,,e/.,,,,,a,,,,a1 [a,,,,e],,,,,a/.,d |\
+[,b,,a1],a/.,,d [,a,,,a].,,c[,bd1] |\
+[,a,c1].,,d ,,c.,,,a |\
+[,,dce1].,,b [,d,d{a}].[,bd] |
+[,adc,a1],,c/.,,a ,,c,d//.,c ,a.,c,d.a |\
+% Takt 16
+[,c,,a//].,a,c.,d a.,d,c.,a ,,d.,a,c.,d a.bd.a |\
+:f1{,,,a}/.d b.,,d[a,b][,d,d] |\
+[,bdca/],d//.,b :,a/.,,,,,d ,,d.,,,,,b[,a,,,a]{a} |
+[,b{,a}/]:,,d//.,a ,b.,d:a/ [bd{a}].[ab][,df].[,bd] |\
+,,,,,a/[,b,c][,a,a][,,d,d] ,,,,c,,c//.,,a ,,c/.,d |\
+,,,,a/.a[bd1] [ac][,df] |\
+,,,,a1[,d,d] [,c,c/].,d[,a,a1] |\
+H[acdca4] |]
+S:https://www.folktunefinder.com/tunes/156971
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

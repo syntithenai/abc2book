@@ -1,0 +1,37 @@
+X: 1
+T: The Dressed Ship
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+N: Thompson, Twenty Four Country Dances, 1774
+N: Playford Ball
+M: C|
+L: 1/4
+Q: 116
+K: G
+|: d \
+| "G"BG DB | "C"c2 c/d/e | "G"dB gB | "Am"cA- "D7"Ad \
+| "G"BG DB | "C"ce "G"dg | "C"ec "D7"Ad | "G"BG2 :|
+|: e/f/ \
+| "G"gd BG | "C"e/f/g/e/ "G"dB | "C"ce "G"dB | "Am"cA- "D7"Ae/f/ \
+| "G"gd BG | "C"e/f/g/e/ "G"dB | "C"ec "D7"Ad | "G"BG2 :|
+%%sep 5 5 200
+K: A
+|: e \
+| "A"cA Ec | "D"d2 d/e/f | "A"ec ac | "Bm"dB- "E7"Be \
+| "A"cA Ec | "D"df "A"ea | "D"fd "E7"Be | "A"cA2 :|
+|: f/g/ \
+| "A"ae cA | "D"f/g/a/f/ "A"ec | "D"df "A"ec | "Bm"dB- "E7"Bf/g/ \
+| "A"ae cA | "D"f/g/a/f/ "A"ec | "D"fd "E7"Be | "A"cA2 :|
+S:https://www.folktunefinder.com/tunes/154352
+S:http://trillian.mit.edu/~jc/music/book/500/DressedShip.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/DressedShip.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,48 @@
+X:1
+T:Der Antonius
+C:traditionell
+R:polka
+A:Obermais/Meran, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch:in D (1.  2. teil) und G (3. teil) erster ton a'
+N:im buch s. 280, nr. 165
+N:im buch einstimmig
+S:tonband-aufnahme Q-0044(2) 2/A10, vom 30.07.1940
+S:ausfuehrende: Josef Stricker (33), Alfons Holzmann (31), Anton Kaufmann (57), Dorf Tirol
+S:besetzung: ziher, raffele, kontra-gitarre
+%%endtext
+Z:noten-transcription: Josef Dentinger
+Z:abc transcription: Simon Wascher
+Q:1/4=116 %im buch
+M:2/4
+L:1/8
+K:C %Transposed from D
+P:A
+G |\
+c>c eG | d>d fG | AG BG | c>c eG |\
+c>c eG | d>d fG | AG BG | c2 c :|
+P:B
+|: G |\
+e>e gG | f>f aG | d2 f2 | e>e gG |\
+e>e gG | f>f aG | d2 f2 | [e2c2] z :|
+P:C
+K:F
+|: c/c/ |\
+cA/c/ dA | cB/c/ e2 | d/c/B/c/ ec | d/c/A/c/ fc/c/ |\
+cA/c/ dA | cB/c/ e2 | d/c/B/c/ de | ff/f/f :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152915
+S:http://simonwascher.info/TradArchiv_polka/der_antonius.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

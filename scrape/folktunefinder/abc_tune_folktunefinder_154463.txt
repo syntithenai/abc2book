@@ -1,0 +1,21 @@
+X: 1
+T: Drobe
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: CDE CDE | FED E2D | CDE CDE |1 FED C2D :|2 GAB c3 ||
+|: G3 FGA | GFE FED | EDC G3 | FGA GFE |1 FED C2F :|2 FED [E3C3] |
+S:https://www.folktunefinder.com/tunes/154463
+S:http://www.thesession.org/tunes/display/3774
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

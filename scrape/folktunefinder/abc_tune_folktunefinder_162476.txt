@@ -1,0 +1,20 @@
+X:1
+T:Greensleeves
+M:6/8
+L:1/8
+K:G
+ z4 z E| G2 A B3/2- c/2 B| A2 F D3/2- E/2 F| G2 E E3/2- ^D/2 E| F2 ^D B,2 E|\
+ G2 A B3/2- c/2 B| A2 F D3/2- E/2 F| G3/2- F/2 E ^D3/2- ^C/2 D| E3 E2 z|\
+ d3 d3/2- ^c/2 B| A2 F D3/2- E/2- F| G2- E E3/2- ^D/2 E| F2 ^D B,3|\
+ d3 d3/2 ^c/2 B| A2 F D3/2- E/2 F| G3/2 F/2 E ^D3/2- ^C/2 D| E3 E2 z|\
+S:https://www.folktunefinder.com/tunes/162476
+S:http://back.numachi.com:8000/dtrad/abc/GRNSLVS.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GRNSLVS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

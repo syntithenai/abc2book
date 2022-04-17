@@ -1,0 +1,26 @@
+X:1
+T:Kadrilj Finkanett
+R:Kadrilj
+Z:Patrik Mnsson, 2008-10-06
+O:GEOGRAFISK HRKOMST
+M:2/4
+L:1/16
+K:G
+D2 |: G4 (BAFA) | G2B2 d2(Bd) | d2f2 a2f2 | g2(dB) (G2D2) | G4 (BAFA) | G2B2 d2(Bd) | d2f2 a2d2 |[1 g2g2 g2D2 :|[2 g2g2 g4 ]|
+|: d4 dedc | c2B2 B2(GB) | B2A2 A2(FA) | c2B2 B2GB | d4 dedc | c2B2 B2(GB) | B2A2 A2(BA) | G8 :|
+|: !segno!d4 d2(Bd) | g2B2 d2B2 | B2>c2 B2(GB) | d2G2 B2B2 | A4 A4 | (3(F2A2c2) [ec]4 | (3(d2e2d2) (3(c2B2A2) |[1 G4 z4 :|[2 !fine! G8]| 
+K:D
+|: F2AA A2dd | d2ff f2df | e2ee e2de | fede f2d2 | A2dd d2dd | d2ff f2gf | e2ee e2fe |[1 d4 z4 :|[2 d8 !D.S.!!segno!]| 
+K:G
+S:https://www.folktunefinder.com/tunes/169144
+S:http://www.folkwiki.se/pub/cache/Kadrilj_Finkanett_f56943.latin.abc
+S:http://www.folkwiki.se/pub/cache/Kadrilj_Finkanett_f56943.abc
+S:http://www.folkwiki.se/pub/cache/Kadrilj_Finkanett_f56943.abcm.abc
+% Rhythm Kadrilj
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

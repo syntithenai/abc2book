@@ -1,0 +1,33 @@
+X:1
+T:Galopp
+C:traditionell
+R:Galopp
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Arbeitshilfen zur Volksmusikpflege, nr. 8: Wildsau - Hundert Tanzmelodien fuer Dudelsack und Drehleier", ausgewaehlt und eingerichtet von Georg Balling, herausgegeben vom Bayerischen Landesverein fuer Heimatpflege e.V., Muenchen, 1993
+S:im buch mit der angabe: Bayerischen Landesverein fuer Heimatpflege e.V.(Hrsg.) 'Lied, Musik, Tanz in Bayern', nr. 26, Muenchen 1986
+N:im buch ganz in F, zweistimmig, nr. 60 in der quelle nr. 75 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+c2 f>e | d2 G2 | B2 e>f | c2 F2 |
+A2 d>c | BE E2 | cEEE | F2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159868
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_galopp/galopp.c4f3ed4G4.abc
+% Rhythm Galopp
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

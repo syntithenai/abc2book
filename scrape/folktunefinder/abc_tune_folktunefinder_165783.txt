@@ -1,0 +1,26 @@
+X: 1
+T: Hurry The Jug
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+D | EDE GFG | BAG FGE | DA,D FDF | ABF AFD |
+EDE GFG | BAG FGA | B/c/dA B/c/dA | EFD E2 D |
+EDE GFG | BAG FGE | DA,D FDF | ABF AFD |
+EDE GFG | BAG FGA | B/c/dA B/c/dA | EFD E2 |]
+[| B | AFA ~d3 | ~c3 dcd | AFA dcd | BAG FGA |
+EGB e2f | gfe fed | EGB e2f | gfe fdB |
+AFA ~d3 | ~c3 dcd | AFA dcd | BAG F2D |
+EDE GFG | BAG FGA | B/c/dA B/c/dA | EFD E2 ||
+S:https://www.folktunefinder.com/tunes/165783
+S:http://www.thesession.org/tunes/display/893
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

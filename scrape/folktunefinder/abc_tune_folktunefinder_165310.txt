@@ -1,0 +1,29 @@
+X: 76
+T: Syntha -- Reel
+R:reel
+C:JAS. HAND.
+B:Ryan's Mammoth Collection
+N:142
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:D
+(ag)|\
+faec .d2(cA) | BdAF EDB,A, | .D2(FB) .A2(FA) | BdAF .E2(ag) |
+.f2(ec) .d2(cA) | BdAF EDFA   | ABde .f2(ec) | dBAF D2     ::
+(fg)|\
+a3b afdf  | gfed cABc | d3f edfd  | BdAF .E2(fg) |
+afge fdec | defd edBA | {e}dcdA BdAF | GBAF D2:|
+S:https://www.folktunefinder.com/tunes/165310
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

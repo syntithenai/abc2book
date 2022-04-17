@@ -1,0 +1,18 @@
+X: 1
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: D
+|:"D"D2D2 "Bm"D4 | "Em"zDCB, "A7"CDE2 | "D"F2F2 "Bm"F4 | "Em"zFED "A7"EFG2 |
+S:https://www.folktunefinder.com/tunes/163712
+S:http://trillian.mit.edu/~jc/music/book/fake/B/HeartAndSoul_D.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/T/HeartAndSoul_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

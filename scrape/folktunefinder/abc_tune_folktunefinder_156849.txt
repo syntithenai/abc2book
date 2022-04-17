@@ -1,0 +1,22 @@
+X:105
+T:Lady Isabel and the Elf Knight
+C:Trad
+B:Bronson
+O:Sharp MSS., 4585/3208-9. Sung by Mrs. George McCormick,
+O:Garden City, N.C., September 9, I9I8.
+N:Sharp's notation was for the second verse.  He did not
+N:note how the irregularities of the other verses were accommodated.
+M:3/2
+L:1/8
+K:Gmix % Pentatonic ( -4 -7) Lydian/Ionian/Mixolydian [1]
+G2 AA B2 | d6 BA GG B2 | A2 G4 G2 AA B2 |
+S:https://www.folktunefinder.com/tunes/156849
+S:http://www.folkinfo.org/abcprojects/bronson/b4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

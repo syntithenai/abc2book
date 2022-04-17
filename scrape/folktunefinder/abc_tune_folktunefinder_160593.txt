@@ -1,0 +1,25 @@
+X: 1
+T: the Gates of Edinburgh [F]
+R: reel
+O: RSCDS 15-5
+B: RSCDS 15-5
+B: Rutherford "Rutherford's Complete Collection" c.1770
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+"C7"A2 \
+| "F"CDFG A2fd | "F"cAGF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 "C7"G2 || "F"A2Ac A2Ac |
+| "F"fcAF "C7"G2FD | "F"F2f2 "e/C"c2AG | "Dm"F2D2- D2 |[| "C7"c2 | "F"fefg fagf | "C7"gfga gbag | "F"fefg "Dm"fgaf |
+| "Gm"gfed "C7"c2fg || "F"agfa "C7"gfeg | "Dm"fedc f2fg | "Bb"agfe "C"dcAG | "Dm"F2D2- D2 |]
+S:https://www.folktunefinder.com/tunes/160593
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/GatesOfEdinburgh_F3_16.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

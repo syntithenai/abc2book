@@ -1,0 +1,30 @@
+X: 1
+A:Adam de la Halle
+T:H Diex! Quant verrai
+N: (condensed)
+M:3/4
+L:1/4
+Q:1/4=120
+K:F lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1]        C2 ((3:2:2F/G)|      A2   ((3G/F/E/)| D2  ((3:2:2E/F)|      G ((3G/E/D/) B, | C3  ||
+[V:2]        F2        F   |(3:2:2E/DE ((3E/D/C/)| B,2        C   |(3:2:2D/C  D       E  | F3  ||
+[V:3]        F,2       F,  |      A,2     A,     | G,2        A,  |      G,2          G, | F,3 ||
+S:https://www.folktunefinder.com/tunes/163676
+S:http://www.blindchicken.com/~ali/music/adam/rondeaux/he-diex-3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

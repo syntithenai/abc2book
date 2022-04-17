@@ -1,0 +1,37 @@
+X:1
+T:Eriksmla marknadsvals
+R:Vals
+S:efter Johan Fredrik Theandersson
+Z:Jan Erik Ekman, 2008-11-02
+O:Kosta, Ekeberga, Smland
+N:Sv. L. Sm. 139
+N:Smlands Spelmansfrbunds Allspelsltar nr.4
+N:Smlands Spelmansfrbunds "Bruna Prmen" nr. 11
+N:Sveriges Spelmns Riksfrbund, Allspelsltar sid. 40
+M:3/4
+L:1/4
+K:D
+D/2D/2|:DFA|dfe|
+dcB|A2B/2B/2|AEF|
+G2B/2B/2|BAB|A2D/2D/2|
+DFA|dfe|dcB|
+A2A|A/2(c/2e/2)(A/2c/2)e/2|A/2(c/2e/2)(A/2c/2)e/2|
+ddd|1d2D/2D/2:|2|:d2d/2f/2|
+aa/2a/2a|aa/2a/2a|b/2a/2g/2f/2e/2d/2|
+c2A|A/2B/2c/2d/2e/2f/2|g2e|
+d/2c/2d/2e/2f/2g/2|a2f/2g/2|aa/2a/2a|
+aa/2a/2a|b/2a/2g/2f/2e/2d/2|c2A|
+A/2B/2c/2d/2e/2f/2|g2b|b/2a/2f/2a/2g/2e/2:|d4/2|
+S:https://www.folktunefinder.com/tunes/156333
+S:http://www.folkwiki.se/pub/cache/Eriksm%e5la_marknadsvals_f33291.latin.abc
+S:http://www.folkwiki.se/pub/cache/Eriksm%e5la_marknadsvals_f33291.abc
+S:http://www.folkwiki.se/pub/cache/Eriksm%e5la_marknadsvals_f33291.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

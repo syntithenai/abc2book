@@ -1,0 +1,28 @@
+X:1
+T:Galop nantais
+Z:Roger Ngaret (Septembre 99)
+R:
+C:Trad.
+S:
+A:
+M:6/8
+L:1/8
+K:C
+T:Partie galop
+K:C
+G | A3- A2 A B3-B2 B c2 c |1 cAc B3- B2 :|2 cBA d3-d2 ||
+d | dBG d2 d dBG d2 G A2 A d2 d |1 B3 G2 :|2 G6 |]
+T:Partie polka
+M:2/4
+L:1/8
+K:C
+ec c/B/c/d/ | cB B2 | BA A/G/A/B/ | AG G2 |
+ec c/B/c/d/ | cB B>G | AA BB | c4 |]
+S:https://www.folktunefinder.com/tunes/159857
+S:http://termen.free.fr/danses/termen/Galopnantais.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

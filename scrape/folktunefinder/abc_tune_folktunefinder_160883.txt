@@ -1,0 +1,26 @@
+X:1
+T:G g g laridaine (un dez oan e promen)
+C:Hanter dro traditionnel. La mineur, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:3/2
+K:C
+|: [e2A,,2A,2][eA,,A,]d [c3A,,3A,3]d [e2A,,2A,2]d2 | [e2F,,2F,2][eF,,F,]d [c3F,,3F,3]d [e2F,,2F,2]d2 | \
+ [e2D,,2D,2][eD,,D,]d [c2D,,2D,2]A2 [e4E,,4E,4] :| [e2C,,2C,2][eC,,C,]e [g3C,,3C,3]g [d4D,,4D,4] | \
+ [d2D,,2D,2][dD,,D,]d [e3E,,3E,3]e [A2A,,2A,2]e2 |: [eA,,A,]e[eA,,A,]e [g3G,,3G,3]f [e2C,,2C,2]c2 | \
+ [dD,,D,]d[dD,,D,]d [e3E,,3E,3]e [A4A,,4A,4] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/160883
+S:http://diato.ifrance.com/diato/tablat/248.abc
+S:http://diato.ifrance.com/tablat/248.abc
+S:http://diato.org/tablat/248.abc
+S:http://perso.orange.fr/diato/tablat/248.abc
+S:http://perso.wanadoo.fr/diato/tablat/248.abc
+S:http://pro.wanadoo.fr/diato/tablat/248.abc
+S:http://www.diatonique.net/tablat/248.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

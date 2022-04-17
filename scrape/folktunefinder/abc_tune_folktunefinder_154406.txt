@@ -1,0 +1,24 @@
+X: 1
+T: Drme\vs iz Zden\vcine (in A)
+O: Croatia
+R: drmesh
+M: C|
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: A
+|: [cA] \
+| "E"[dB][cA][BG][AE] "A"[c3A3][AE] | "E"[AE][BG][cA][dB] "A"[e3c3][cA] \
+| "E"[dB][cA][BG][AE] "A"[c3A3][AE] | "E"[BG][AE][BG][cA] "A"[A3E3] :|
+|: [cA] \
+| "D"[dA][cA][dA][fd] "A"[e3c3][cA] | "D"[dA][cA][dA][fd] "A"[e3c3][cA] \
+| "D"[dA][cA][dA][fd] "A"[e3c3][cA] | "E"[dB][cA][B2G2] "A"[A3E3] :|
+S:https://www.folktunefinder.com/tunes/154406
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/DrmesIzZdencine_A.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/DrmesIzZdencine_A.abc
+% Rhythm Drmesh
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Fyrtur efter Enninger
+T:(SvL Skne nr. 519)
+S:John Enninger
+R:Fyrtur
+Z:Patrik Mnsson, 2008-12-28
+O:Hr, Skne
+B:Svenska Ltar
+M:2/4
+L:1/16
+Q:1/4=100
+K:D
+|: "D"d2fd A2d2 | "A7"cege "D"d2fa | "D"d2fd A2d2 | "A7"cege "D"d2 z2 :|
+|: "D"dfa2 afdf | "A7"g2e2 "D"efd2 | "D"dfa2 afdf | "A7"egec "D"d2 z2 :|
+S:https://www.folktunefinder.com/tunes/159653
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_Enninger_557fe6.latin.abc
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_Enninger_557fe6.abc
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_Enninger_557fe6.abcm.abc
+% Rhythm Fyrtur
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:01
+T: Gan Ainm
+O: from James Kelly's Traditional Irish Music
+M: 4/4
+L: 1/8
+Z: Contributed 20030108225434 by Zina Lee zlee@ntw.net
+K: D mix
+|: A3F GFED | (3EFG AB c2 BA | GBdg (3efg dB | GBAF GFED |
+(3EFG AF GFED | (3EFG AB c2 BA | GBdB c2 BA |1 GEDE GABG :|2 GEDE GABd||
+|: g3e fddf | efge fedf | eB ~B2 efge | fdef gfef |
+gabg efge | dedc BcBA | GBdB c2 BA | GEDE GAB[Gd] :|
+S:https://www.folktunefinder.com/tunes/160178
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/GanAinm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/zlee%3Antw.net/GanAinm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

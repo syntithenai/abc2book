@@ -1,0 +1,84 @@
+X:1
+T:Intrada 8
+C:Johann Pezel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-08.abc
+V:1 Program 1 56 %Trumpet
+V:2 Program 1 56 %Trumpet
+V:3 Program 1 56 %Trumpet
+V:4 Program 1 56 bass %Trumpet
+V:5 Program 1 56 bass %Trumpet
+M:C
+L:1/8
+Q:1/2=60
+K:C
+V:1
+c>dc>d c>dc>d|e>fe>f e>fe>f|g2g2g4|z ggg gggg|
+V:2
+z8|c>dc>d c>dc>d|e2e2e4|z eee dddd|
+V:3
+G2G2G2G2|G2G2G2G2|G2G2G4|z GcG BGGG|
+V:4
+E>FE>F E>FE>F|C2C2C2C2|C>C,E,>G, C4|z CG,C G,G,G,G,|
+V:5
+C,2C,2C,2C,2|C,2C,2C,2C,2|C,2C,2C,4|z C,C,C, B,,B,,B,,B,,|
+%
+V:1
+f4 z eee|d4 z ccc|c4B4|z ccc deee|fggg eaaa|
+V:2
+c4 z BBB|A4 z GGG|G3^F G4|z GGG ABBB|cddd cfcA|
+V:3
+A4 z BGE|F4 z EEE|E2D2D4|z EEE DGGB|AGGG GFFF|
+V:4
+C4 z EEE|A,4 z CCC|C2A,2B,4|z G,CC A,G,B,E|CB,DD ECCC|
+V:5
+A,4 z G,G,G,|F,4 z E,E,E,|A,,4G,,4|z E,E,E, F,G,G,G,|A,,B,,B,,B,, C,F,,F,,F,,|
+%
+V:1
+d2d2d4|c8::B/A/B/c/ d/e/d/c/B2A2|G2 z d BeAd|
+V:2
+ABc2c3B|c8::GGA2BG^F2|G2^FF GcFB|
+V:3
+FGA2G4|G8::D2D2D2D2|D2DD EEDG,|
+V:4
+CB,A,2 DEF2|E8::z4 B,/A,/B,/C/ D/E/D/C/|B,2A,B, B,CA,B,|
+V:5
+G,,2^F,,2G,,4|C,8::G,,2^F,,2G,,2D,2|G,,2D,B,, E,C,D,B,,|
+%
+V:1
+Gc/B/A2G4|e/d/e/f/ g/a/g/f/e2d2|c2 z g eadg|ced2c2 z e/f/|
+V:2
+EA/G/ G^F G4|G2G2G2G2|G2Be cfBe|Ac2Bc2 z c/d/|
+V:3
+ECD2D4|z4 E/D/E/F/ G/A/G/F/|E2DG AAGG|FG/D/D2E,2 z G|
+V:4
+G,A,A,2B,4|ECD2ECB,2|C2B,B, EDDC|C2G,2G,2 z G,|
+V:5
+C,A,,D,2G,,4|C,2B,,2C,2G,,2|C,2G,,E, A,F,G,E,|F,E,/F,/G,2C,2 z C,|
+%
+V:1
+g>ag>a g>ag>a|g/f/g/a/ gg g2 z e/d/|e>fe>f e>fe>f|e/d/e/f/ eee4:|
+V:2
+e>fe>f e>fe>f|e/d/e/f/ eee2 z c/B/|c>dc>d c>dc>d|c/B/c/d/ ccc4:|
+V:3
+E2C2E2G2|E2CCC2 z G|E2C2E2G2|G2GGG4:|
+V:4
+C2G,2C2E2|C2G,G,G,2 z G,|C2G,2C2E2|E2EEE4:|
+V:5
+C,2C,2 z2 C,2|C,3C,C,2 z C,|C,2C,2 z2 C,2|C,3C,C,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/166444
+S:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/pezel-johann/pezel-intrada-08/pezel-intrada-08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/pezel-johann/pezel-intrada-08/pezel-intrada-08.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

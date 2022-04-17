@@ -1,0 +1,30 @@
+X: 1
+T: Hoolie In The Hub
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3def|:g2d>g e>d B>G|(3ABA G>B A>G E>D|G,>A,B,>D E>D B,>A,|(3G,A,B,D>E G>A B>G|
+A>B d.B g.d g.a|b>g e>a g>e d>e|g>e d>g e>d B>G|1(3ABA G.f G2 e>f:|2 (3ABA G>F G2 A2||
+B2 G>B d>G B>d|g>d g>a b>g e>a|g>e d>g e>d B>d|(3ege d>B A>B G>A|
+B>A G>B d>G B>d|g>d g>a b>g e>a|g>e d>g e>d B>G|(3ABA G>F G2 A2|
+B2 G>B d4|g>d g>a b4|g>e d>g e>d B>d|(3ege d>B A>B G>A|
+B>A G>B d>G B>d|g>d g>a b>g e>a| g>e d>g e.d B>G|(3ABA G>F G2 e>f|
+g2d>g e>d B>G|(3ABA G>B A>G E>D|G,>A,B,>D E>D B,>A,|(3G,A,B,D>E G>A B>G|
+A>B d.B g.d g.a|b>g e>a g>e d>e|g>e d>g e>d B>G|1 (3ABA G.f G2 e>f:|2  (3ABA G>F G2 A2||
+B2 G>B d>G B>d|g>d g>a b>g e>a|g>e d>g e>d B>d|(3ege d>B A>B G>A|
+B>A G>B d>G B>d|g>d g>a b>g e>a|g>e d>g e>d B>G|(3ABA G>F G2 A2|
+B2 G>B d4|g>d g>a b4|g>e d>g e>d B>d|(3ege d>B A>B G>A|
+B>A G>B d>G B>d|g>d g>a b4| g>e d>g e>d B>G|(3ABA G>F G2zg|
+S:https://www.folktunefinder.com/tunes/164726
+S:http://www.thesession.org/tunes/display/5475
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

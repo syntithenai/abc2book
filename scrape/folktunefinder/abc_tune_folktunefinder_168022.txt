@@ -1,0 +1,38 @@
+X: 1
+T: JOCKIE TO THE FAIR
+S: MDT
+O: Headington
+P: A.A(BC)2B(C)
+Q: 3/8=108
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+P: A
+e |\
+  A2B c2d | eca e2d | cec AGA  | Bdc Bcd |
+  e2e fga | b2g e2a | gfe Bc^d | e3  e3 ||
+P: B
+f/g/ |\
+  a2e  a2e | d>ed cde | a2e a2e | d>ed cde |
+  f2g  aba | fed  cde | fed c2B | A2G  f2e |
+  A>BA Ace | f2g  agf | ecA BcB | f2G  A2B | c2a  c2B | A3 A2 ||
+P: C
+E |\
+  A3 B3 | c3 d3 | e3 a3 | e3 d3 |
+  ((2ce) c3 | A3 ((2GA) | d3 c3 |[M:3/8]B2e |
+ [M:6/8]\
+  e^de fga | b2g e2a | gfe Bc^d | e3 e2 ||
+S:https://www.folktunefinder.com/tunes/168022
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Jockey_to_the_Fair_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

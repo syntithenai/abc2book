@@ -1,0 +1,24 @@
+X:23
+T: Das Schwabentoechterlein
+N: Q0073A
+O: Mitteleuropa, Deutschland / UdSSR, Ostpreussen, Kr. Pr. - Eylau,
+R: Ballade, Weglaufen, Schwangerschaft, Rueckkehr
+M: 3/4
+L: 1/8
+K: C
+C2 | EDC2G2 | G^FG2
+G2 | cBc2d2 | cBA2
+G2 | cBc2E2 | FAG2
+F2 | ECG2E2 | D2C2
+S:https://www.folktunefinder.com/tunes/152055
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, weglaufen, schwangerschaft, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

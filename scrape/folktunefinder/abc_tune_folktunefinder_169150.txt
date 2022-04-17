@@ -1,0 +1,30 @@
+X:1
+T:Kadril van Maldegem
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+L:1/8
+M:6/8
+K:C
+P:A
+G/G/ | "C" G2 [ec] [e2c2] G/G/ | G2 [ec] [e2c2] e | "G7"edc d2 d | "C" dcB c2 G/G/ |"C" G2 [ec] [e2c2] G/G/ | G2 [ec] [e2c2] e | "G7"edc ded | "C" c2 z [c2G2E2] |]
+P:B
+"C" [G3E3] [E2C2] [GE] | [c3G3E3] [G2E2] [ec] | "G7"[e2c2] d/c/ [d2B2] [dB] | [d2B2] c/B/ "C"c3 | "C" [G3E3] [E2C2] [GE] | [c3G3E3] [G2E2] [ec] |"G7"edc ded | "C" c2 z [c2G2E2] |]
+P:C
+M:2/4
+L:1/8
+"C"EG EG |Gc e2 | "G7"ed AB | "Cdim"[A2^F2C2] "C"[G2E2C2] | "C" EG EG |Gc e2 | "G7"ed AB | "C" cc [cGE] |]
+W:1ste figuur : AA BB CC AA BB
+W:2de figuur  : AA BB C
+W:3de figuur  : AA BC AA BC
+W:4de figuur  : AA BBB CCC x2
+W:5de figuur  : AA BB CC
+S:https://www.folktunefinder.com/tunes/169150
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Maldegem.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

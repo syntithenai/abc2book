@@ -1,0 +1,20 @@
+X: 1
+T: Jackson's Fancy
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:DFA def|edc dAF|DFA dAF|GEE E2F|
+DFA def|edc dAF|DFA deg|fdc d3:|
+|:fed faf|gbg faf|fed faf|gee eag|
+fed faf|gbg faf|fed eag|fdd d3:||
+S:https://www.folktunefinder.com/tunes/167107
+S:http://www.thesession.org/tunes/display/1102
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

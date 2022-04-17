@@ -1,0 +1,27 @@
+X:1
+T:Funeral March of a Marionette Harmony
+C:copyright 1999 Kaubells
+N:To be played with Gounod's Hitchcock Theme
+E:24                   % note spacing
+M:6/8
+K:Dm
+"Dm"d3 f3|"A7"e3 aba|"Dm"d3 f3|"A7"e3 aba|
+"Dm"d3 "A7"^c3|"Dm"d3 "C7"e3|"F"f3 "E7"^g3|"A"a6|
+"Dm"d3 f3|"A7"e3 aba|"Dm"d3 f3|"A7"e3 aba|
+"Dm"d3 "C7"e3|"F"f3 "Eb/G"g3|"Dm/F"a6|a3 "Dm"d'3||
+"A"^c'6|"Dm6/A"d'6|"A"^c'6|"Dm6/A"d'6|
+"A"^c'3 "Bb/A"e'2d'|"A"^c'3 "Bb/A"e'2d'|"A"^c'3 "Dm/F"d'3|"Em7"e'3 "A75".a'3|
+"Dm"d3 f3|"A7"e3 aba|"Dm"d3 f3|"A7"e3 aba|
+"Dm"d3 "C7"e3|"F"f3 "Eb/G"g3|"Dm/F"a6|a3 "Dm"d'3||
+T:Last time only
+"Dm"d3 "C7"e3|"F"f3 "Eb/G"g3|"Dm/F"a6|a2^c' "Dm".d'3|]
+S:https://www.folktunefinder.com/tunes/159589
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/hitchcock-harmony.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

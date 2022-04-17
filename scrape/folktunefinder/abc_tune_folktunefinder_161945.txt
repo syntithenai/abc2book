@@ -1,0 +1,27 @@
+X:25
+T: Graf und Nonne (Die Nonne)
+N: Q0155X
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Eder, Kleinern
+N: Schlusspause korrigiert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe
+M: 3/4
+L: 1/16
+K: Eb
+E4 | G6G2G2G2 | F2B2B4
+G3F | E6F2G2B2 | F6
+E2E2F2 | B4G3Bc3B | B2A2F4
+c2c2 | B6G2A2F2 | E6
+E2E2F2 | B4G3Bc3B | B2A2F4
+c2c2 | B6G2A2F2 | E6z2
+S:https://www.folktunefinder.com/tunes/161945
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

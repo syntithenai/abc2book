@@ -1,0 +1,26 @@
+X:1
+T:Jig : Saddle the pony
+Z:Roger Ngaret (Juillet 2000)
+R:
+C:Trad.
+S:Blackflute 
+A:Irlande
+M:6/8
+L:1/8
+K:G
+"D" z3 z2 D |: "G"GBA G2 B | def gdB | GBA G2 B |
+"D"AFD AFD | "G"GBA G2 B | def gfg | "Em"ege dBG |1
+"G"ABA G2 D :|2 "G"ABA G2 d |:
+"Em"ege edB | "G"def gfg | "Em"ege edB |1
+"D"dBA A2 d :|2 "G"ABA G2 d :|3 "D"dBA A2 d :|4 "G"ABA G2 D |]
+S:https://www.folktunefinder.com/tunes/167797
+S:http://termen.free.fr/danses/termen/JigSaddlethepony.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

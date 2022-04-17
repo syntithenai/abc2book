@@ -1,0 +1,46 @@
+X:1
+T:Marachines : Suite ABCD
+Z:Roger Ngaret (94-95)
+R:maraichine
+C:Trad.
+S:
+A:Vende
+K:C
+T:Marachine A
+Q:1/4=130
+M:2/4
+L:1/16
+K:C
+"C"c2g2 g2e2 | g2fe "G"d2d2 | "C"c2gg g2e2 | g4 "G"d4 ::
+d2e2 f3e | d2e2 "C"c4 | "G"d2g2 f2e2 |1 
+d2cd "C"e2c2 :|2 "G"d2ed "C"c4 |]
+T:Marachine B
+"C"c4 "G"B2A2 | B2c2 d4 | "C"c2de "G"d2c2 |1 A2B2 A2G2 :|2
+A2B2 "C"c4 |: c2de "G"d2c2 | A2B2 A2G2 | "C"c2de "G"d2c2 | A2B2 "C"c4 :|
+T:Marachine C
+"C"c2de "G"f2e2 | d2c2 d4 | "C"c2BA G2AB |1 c2d2 e2c2 :|2
+c2d2 c4 |: c2BA G2AB | c2d2 e2c2 | c2BA G2AB | c2d2 c4 :|
+T:Marachine D
+"C"g2e2 g2e2 | g2fe "G"d2ef | "C"g2e2 g2e2 | g4 "G"d4 ::
+"C"c2e2 "G"d2e2 | f2ed "C"e2e2 | c2e2 "G"d2e2 | f2ed "C"c4 :|
+T:Lac de Grand-Lieu
+%%rm
+%%rm Dans le lac de Grand Lieu
+%%rm Tous les poissons lvent la tte
+%%rm Dans le lac de Grand Lieu
+%%rm Tous les poissons lvent la queue
+%%rm
+%%rm Tous les poissons lvent la tte  ]
+%%rm Tous les poissons lvent la queue ] bis
+S:https://www.folktunefinder.com/tunes/170675
+S:http://termen.free.fr/danses/autres/MaraichineSuiteABCD.abc
+% Rhythm Maraichine
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

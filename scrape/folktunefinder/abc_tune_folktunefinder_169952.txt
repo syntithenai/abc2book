@@ -1,0 +1,24 @@
+X: 1
+T:King George IV's Army
+M:4/4
+L:1/8
+R:Strathspey
+K:Am
+B,|"Am"A,<A, A,>B, C>B, A,>E|"Am"A,<A, A,>C "G"B,>A, G,>B,|"Am"A,<A, A,>
+B, "C"C>D E>C|"G"B,>D G>E D/C/B,/A,/ G,>:|
+K:A
+|:d|"A"c>eA>e c>e d/c/B/A/|"A"c>eA>e "G"d/c/B/A/ G>B|"A"c>eA>e c>d e>f|"
+Em"g>g a/g/f/e/ "G"d/c/B/A/ G>B|
+"A"c>eA>e c>e d/c/B/A/|"A"c>eA>e d/c/B/A/ G>B|"Am"=c<e "G"B<d "Am"A>B E>
+A|"Em"G>AG>E "G"D/=C/B,/A,/ G,:|
+S:https://www.folktunefinder.com/tunes/169952
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ki/King_George_IVs_Army_1.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

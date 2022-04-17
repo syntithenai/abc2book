@@ -1,0 +1,48 @@
+X:8266
+T:The Heights of Dargai
+C:anon.
+O:Scotland
+Z:Transcribed by Jack Campin
+F:http://abc.musicaviva.com/tunes/scotland/heights-of-dargai.abc
+%Posted December 14th 2001 at abcusers by Jack Campin who says:
+%Here are two ways of representing it.  The first is what I use.  The
+%second has an ABC layout exactly corresponding to the book, and plays
+%correctly in BarFly, but I can't use it yet because the program still
+%prints the part labels in the wrong place (fixable by a crude hack if
+%you write the barline on the wrong side of the "[P: ]", but I'm not
+%about to perpetrate ABC like that where anybody else might read it)
+%and also doesn't yet display the header P: line anywhere.
+%
+%[snip]
+%
+%I can't remember what the book was.  The Scots Guards book takes four
+%lines over it.
+%
+%An additional complication is that some bands play each part twice,
+%i.e. the header would have  "P:ABAC ABAC DBDC DBDC".
+%
+%As played by non-pipers, the last two notes of each line are always
+%tied.
+M:9/8
+L:1/8
+K:Hp
+T:The Heights of Dargai
+M:9/8
+L:1/8
+K:Hp
+e|A>Bc e3 c2e |f>df e3 c3|a>gf e3 [1 A>ce|f>ec B3 B2:|\
+                                  [2 B2e |c>Bc A3 A2||
+B|A>Be f3 f>df|a>gf e3 c3|a>gf e3 [1 A>ce|f>ec B3 B2:|\
+                                  [2 B2e |c>Bc A3 A2|]
+S:https://www.folktunefinder.com/tunes/163800
+S:http://abc.musicaviva.com/tunes/scotland/heights-of-dargai.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/heights-of-dargai.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/heights-of-dargai.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

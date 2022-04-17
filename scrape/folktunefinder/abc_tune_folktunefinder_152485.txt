@@ -1,0 +1,25 @@
+X:110
+T: Old Brown Slipper
+S: "Ag Deanamh Ceoil" (CCE)
+Z: B.Black
+L: 1/8
+M: 9/8
+R: slipjig
+K: G
+B3 B2A GED|B2g g2e dBA|B3 B2A GED|EGG G2A G3 :|
+B2g g2e fed|B2e efe dBA|B2g g2e fed|Bee e2d e3|
+e2f g2e fed|B2e efe dBA|B3 B2A GED|EGG G2A G3 ||
+S:https://www.folktunefinder.com/tunes/152485
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

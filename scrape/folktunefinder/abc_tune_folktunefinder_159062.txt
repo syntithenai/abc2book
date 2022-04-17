@@ -1,0 +1,20 @@
+X:1
+T:Four potatoes
+M:6/8
+L:1/8
+K:G
+C:Larry Ungar
+D |"G"G2G BAG | "F"ABc ABc |"G"B2G GDG| "F"=F2D D2F|!
+"G"G2G BAG | "F" ABc ABc |"G"dBG "F" cA=F | "G"G2G G2z:|]!
+"F"=f3 "C" e3 | "G"d2G GAB | "F" cA=F FGA | "G" Bdc Bde|!
+"F"=f3 "C"e3 | "G" d2G GAB | "F" cBA G=FD | "G" G2G G2z:|]!
+S:https://www.folktunefinder.com/tunes/159062
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/FourPotatoes.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/FourPotatoes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

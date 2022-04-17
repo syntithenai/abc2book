@@ -1,0 +1,25 @@
+X:6
+T: Graf und Nonne (Die Nonne)
+N: Q0155E
+O: Mitteleuropa, Deutschland (BRD) , Nordrhein - Westfalen, Siegen
+N: Grundton in der zweigestrichenen Oktave.
+R: Ballade, Standesunterschied, Werbung, Liebe
+M: 3/4
+L: 1/8
+K: C
+C2 | C2G,2EF | E2C2
+G2 | A2G2FG | E2z2
+CC | A2A2AA | AGG2
+GG | AGFEGE | D2D2
+G2 | A2G2FG | E2z2
+S:https://www.folktunefinder.com/tunes/161926
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

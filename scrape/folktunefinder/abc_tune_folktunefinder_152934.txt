@@ -1,0 +1,37 @@
+X:2
+T:Kadril van Brussel
+T:Tweede figuur
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABCDDE of ABCBDE
+L:1/8
+M:6/8
+K:C
+P:Voorspel
+EGA GAB | cBA G3 | G^FG ^GAB | (c3 c2) z |]
+P:A
+EGA GAB | cBA G3 | FEF d3 | E^DE c3 | EGA GAB | cBc A3 | G^FG =fed | c2 z c2 z |]
+P:B
+K:G
+B2 z d2 z | dcB A3 | A2 z c2 z | cBA G3 | B2 z d2 | cBc e3 | fed cBA | G2 z G2 z |]
+P:C
+K:C
+EGA GAB | cBA G3 | FEF d3 | E^DE c3 | EGA GAB | cBc A3 | G^FG =fed | c2 z c2 z |]
+P:D
+K:F
+A2 z G2 z | (F3 F)Ac | (d3 d)fd | (c3 c2) z | B2 z d2 z | c3 AFG | (A2 c) G2 c | F2 z f2 z :|
+P:E
+K:C
+EGA GAB | cBA G3 | FEF d3 | E^DE c3 | EGA GAB | cBc A3 | G^FG =fed | c2 z c2 z |]
+S:https://www.folktunefinder.com/tunes/152934
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Brussel.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

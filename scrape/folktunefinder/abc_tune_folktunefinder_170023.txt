@@ -1,0 +1,25 @@
+X:1
+P: The King's Reel [1X]
+C: as played by Buddy MacMaster
+C: Dunlay/Greenberg Collection
+C: Arr. T. Traub 7-10-03
+R: reel
+M: 4/4
+K: D
+L: 1/8
+|: B,|"A"G,A,EA, FA,EB,|"A"G,A,ED CA,A,B,|"A"G,A,EA, FA,EF|"G"G2 D=C B,G,G, :|
+d|"A"(3cBA eA aeed|"A"(3cBA eA cAAd|"A"(3cBA eA agef|"G"gdd=c BGGB|
+"A"(3cBA eA aeed|"A"(3cBA eA cAAB|"C"=c2 dc "G"B2 Gc|"G"Bgdg BGGB||
+|: B,|"A"G,A,EA, FA,EB,|"A"G,A,ED CA,A,B,|"A"G,A,EA, FA,EF|"G"G2 D=C B,G,G, :|
+d|"A"cA A/A/A eaed|"A"cAeA cAAd|"A"cA A/A/A agef|"G"gedg BGGB|
+d|"A"cA A/A/A eaed|"A"cAeA cAAc|"D"dfed "A"c2 Ac|"G"Bgdg BGG z |]
+S:https://www.folktunefinder.com/tunes/170023
+S:http://terrytraub.org/abc/KingsReelR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/KingsReelR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T:Fasten the Leg
+M:6/8
+L:1/8
+R:jig
+K:G
+A||:~B3 {d}BAB|GBd gdB|A{d}BA AGA|Bee dBA|~B3 {d}BAB|GBd g2f|efg eag|1 f
+dd d2c :|
+2 fdd def ||: ~g3 ~f3|e{a}fe dBA|~G3 AGA|Bee def|~g3 ~f3|e{a}fe dBd|efg
+eag|1 fdd def :|
+2 fdd d2 c ||
+S:https://www.folktunefinder.com/tunes/157320
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Fasten_the_Leg_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Fasten_the_Leg_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

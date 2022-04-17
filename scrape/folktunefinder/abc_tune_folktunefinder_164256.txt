@@ -1,0 +1,21 @@
+X:1
+T:High Reel
+C:Traditional
+M:2/2
+K:D
+|: {ag}a2 ga ec{g}AB | {g}cd{g}ed {g}cA {d}A2 | {ag}a2 ga ec{g}Ac | {g}Bc{g}dc {g}BG {d}G2 |
+%
+| {ag}a2 ga ec{g}AB | {g}cd{g}ef {gf}g2 {a}fg | af {a}(3gfe {g}fd{g}ec | {g}Bc{g}dc {g}BG [1{d}G2 :| [2{d}GB |
+%
+|: {g}(3cBA {g}eA {g}fA{g}eA | {g}(3cBA af {g}ec{g}AB | {g}(3cBA {g}eA {g}fA{g}eA | {g}Bc{g}dc {g}BG{d}GB |
+%
+| {g}(3cBA {g}eA {g}fA{g}eA | {g}cd{g}ef {gf}g2 {a}fg | af {a}(3gfe {g}fd{g}ec | {g}Bc{g}dc {g}BG [1{d}GB :| [2 {d}G2 |
+S:https://www.folktunefinder.com/tunes/164256
+S:http://www.thesession.org/tunes/display/44
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

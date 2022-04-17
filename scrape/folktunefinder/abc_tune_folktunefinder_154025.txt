@@ -1,0 +1,148 @@
+X:2
+%%stretchstaff false
+%%staffsep 35pt
+T:Fuge
+C:BWV997/2
+L:1/8
+M:6/8
+K:Cm frenchtab
+,1.,,d1,a ,b.,da|\
+,,,d1.,,,c,,,a [,,a,d].,,,,c,,,,a|\
+[,,b,c1].,,,d,,,c [,,ca].,,,,d,,,,c|\
+[,,d,d1].,,,c,,d ,,,,c,,c/.,,a,,c1|\
+[,b,,a1].,,,c,,d ,a,,b/.,,a[a,b1]|\
+,,d1.,,,e,,,c ,,,b,a/.,,d,,b.,,a|
+% Takt 7
+[,,bc1].a[c,d] [da][f,a][h,,f]|\
+[,,g,a1].,,f,,d [,cb].,,a[,,,ca]|\
+[,daa1].,b,a [,ed].,,b[,,a,c]|\
+[a,bc1].,a[a,,,d] [,,a,a],e/.,c[,e,,c1]|\
+[d,,c,a1].,,,,c,,,c c,,,a/.,,,,d[h,,a1]|\
+:e1[a,,,d][f,gd] [,a,a][d,,c/].b[df,,,a1]|
+% Takt 13
+[,c,,a1].,,d[bd,,b] [a,,,,d][,b,,a/].,a[f,g,h1]|\
+[,da1][,,fa/].,,d[,ab1] [,bd][,d,d/].,,,c[,,dd1]|\
+,a1[d,,c][,bd] [b,,a][,,ff/].,,d[,a,,,d1]|\
+[a,,,,,,a1].,,,c[,,d,d] [,d,,c],,c/.,,a.[,,c,,a1]|\
+[,bd,,,,,,a1][ab,,a][,df,c] ,,,,d[,bda][,acc]|\
+[,,d,,b1].,,,c,,,a [,,,,dc].,,,,c[,d,,a]|
+% Takt 19
+[,,,,cd1][,a,d][,b,c] [,a,a,e].,,,,d,,,,c|\
+[,,,,df1][,,d,,a/].,,c[,,d,a1] [,d,,c],,,,,e/.,,,,,c,,,,,e1|\
+{,,,a}1.[,b,,a/].,a[,b,,c].,d [a,,,d1].,,,a,,,c|\
+,,,d1[,d,a/].,b[,d,,d].a [b,,,c1].,,,,a,,,,,d|\
+,,,,d1[d,,c/].b[a,,d].,d [a,b1][c,d][da,,c]|\
+[,,,,df1].h:f [d,,,e].c[a,,,a]|
+% Takt 25
+[c,,a,,a1].i:h [f,,,g].,i[,h,,,h]|\
+[d,,c1].,a[a,,,d] [c,,,a],e/.,c[,e,,c1]|\
+[d,,c1].ab d[f,,d][g,,f]|\
+[,cd,a1].,,e[,dd,c] [a,,fe].,,,d,,,c|\
+[,,,df1].,d:a [b,,,,,a][d,,,,a][f,,,,,d]|\
+[,a,,,d1].,,d[,bb,a] [,d,dc].,,,c,,,a|
+% Takt 31
+[,,,cd1].,,b:,b ,,,,,d[,a,a/].,,d[,ab1]|\
+[,,da1],,,d/.,,,c[,d,d].,,b [,,,ca1],b/.,a[,bd1]|\
+[,a,c1][h,,g/].,,,e[,f,g1] [i,,ha/].h[f,,,c].d[b,,,d].a|\
+[b,,,,,a/].a[,d,,,a].,b[,a,,,b].,,d [,a,,,d].,,d[,,b,a].,,,d[,,,cc].,,,a|\
+[,,,c,,,a1].[if][h,i] .[f,g].,,,,,b,,,,,a|\
+,,,,,,a1.[h,i][f,g] [ea].,,,c,,,a|
+% Takt 37
+,,,,d1.f[df,,e] [b,,a].,d[ab,c]|\
+[,d,d1].,a,,d ,,c[,b,c][,a,a]|\
+[a,d,d1][,d,,c][,b,,a] [b,d,,,a][a,,,,a][,d,,,b]|\
+[,bd,,a1][,d,,,,a][,ac,,a] [,,d,,b]:f/.db.a|\
+[,d,d/].ab.a,d.,b [,a,,,b].,b,d.,b,a.,,d|\
+[a,,,,a1].,,,c,,a ,,c.,,d,a|
+% Takt 43
+,,,,d1.,,,,a,,,,c ,,,,d[c,,a].[e,,c]|\
+[f,,,,,d1].,,d,,f ,,g.[hd][if,,,a]|\
+[b,d,,,a1].,,,c,,,a [c,d,d].,,,,c,,,,a|\
+[dd,,c1].ba [ed,c].,b,a|\
+[fb,,a1].a[fb,,,b] [,a,,,,a][e,,,,a/].c[e,,,,,a1]|\
+[ff,,,,,a1][,,d,,,d][,d,,,,a] [,b,,,a/].,a[,#ac3/].,,d/|
+% Takt 49
+"fine"[,,dcd,,,,a1]||.,,,,,a1[,b,,a] :,a/.,b[,d,,,e].,g:,f.,d|\
+[L:1/16][,b,,a1].,a:,,d.,,c[,,d,,,,a].,,,c [,,,a,,,,a].,,,d:,,,c.,,,a[,,,,da].,,,,c |\
+[,,,a,,,,,a1].,,,,d[,,,,ca].,,,,a[a,,,df2] [,d,,,b1].a[b,,,c,a].f[d,,,,d].b |\
+[a,,,d,,a1].,d:,b.,a[,b,,,a].,,b [,,d,,b].,b[,a,,,,a].,,d[,,b,,d].,,,d |
+[,,,d,,,a1].,,,c:,,,a.,,,,d[d,,,,a].,,b [,,e,,b].,,d:,,b.,,,d[b,,,,,a].,,d |\
+% Takt 54
+[,b,,,d1].,a:,,d.,,b[a,,,,e].,a [,d,,a].,b[,a,,c].,,d[f,,,d2] |\
+[fea,c2],,,,e1.d[c,,b].f [d,,c].c[a,a].,d[,bb].,a |\
+% Takt 56
+[,b,,a1].,,,,d[h,,,a].,,,,d[f,,,a].,,,,d [d,,,b].,,,,e[c,,,b].,,,,e[a,,,b].,,,,e |
+[,e,,c1].,,,,g[i,,,,h].,,,,g[h,,,,h].,,,,g [f,,,d].,,,c[d,,,d].,,,c[c,,,d].,,,c |\
+[d,,,e1].c[a,,,c].,e[a,,,b].,,b [,,a,c].,,,c,,a.,,d[a,,,,,,,a].,e |\
+[L:1/8][a,,,,a1].,a,,d ,,b[,,a,,c][,,,c,d] |\
+[L:1/16][,e,,,c1].,,g[,a,,,e].,,d[,,c,a].,,d [,d,,,e].,a[,,d,a].,,c[,,a,c].,,c |
+% Takt 61
+[,cd,,,,,,a2].,,,,a,,b [,ba1].,a[,,dc].,,c[,,db].,,a |\
+[,acc2][a,,a][,,d,d] ,,,d[,a,a1].,b[,d,c].,a |\
+[,b,,a1].,a[,b,c].,d[,a,a].,b [,,d,df2][,,,,cd][,d,,ab] |\
+[,dc,ca1].b[a,,,e].,d[,c,a].,d [,,,fe,,,,a];a[,d,a].,c[,a,c].,c |
+% Takt 65
+[,da,a,a2][,,da][,d,,d] [,,,db1].a[,d,,a].,c[,d,,,e].,a |\
+[,c,ca2][,,d,,d][f,,a,b] :,a[,c,c,a1].,,,d[,,b,a].,,,c |\
+[,d,d,,a1].,,b:,,,d.,,,c:,,,d.,,d :,d.,,,f[,,,df].,,,c[,,,dd].,,d |\
+[,,,ab1].,,b[,,a,a].,,,c[,,a,,d].,,d [,b,,,c].,,b[,,a,a].,,,c[,,a,,,a].,,d |
+% Takt 69
+[,,,a,d1].,b:,a.,,d:,a.,d :d.,b[,ab].,,d[,a,d].,d |\
+[,,bc1].,b[,a,a].,,d[,a,,d].,d [b,,,c].,b[,a,a].,,d[,a,,,d].,d |\
+[,,b,d1].b[a,,,,,,a].,d[a,,,,,,,a].,i [i,,,,,,,,a].h[f,,,d].e[f,,,a].i |\
+[,d,d1].a[,d,,c].,b[,d,,a].,g [h,,,,d].f[d,,,c].b[d,,,,d].h |
+% Takt 73
+[,b,c1].,d[,b,,a].,a[,b,,,d].a [f,,,,b].d[b,d].a[b,,d].f |\
+[,a,a1].,b[,a,d].,,d[,a,a].,d [b,,,c].,,d[,,ca].,,a[,,c,c].,a |\
+[,,,c,e1].,,,c[a,,a].,,,c[c,,,d].,,,a [e,,,c].,,,a[f,,,a].,,,a[h,,,,e].,,,a |\
+[,b,,a1].,,d:,,b.,,e,,,d.,,d [,c,c].,,b,,,,a.,,,d,,,,,d.,,,c |
+% Takt 77
+[,d,,,b1].,a:,,d.,b:,,b.,a [,ea].,,d,,,,c.,,b,,,,a.,,a |\
+[a,,,cd2].,a[a,,,d] ,,,,a[,e,,c1].a[c,,,,,,,a].,e |\
+[d,,,,a2].,a[a,,,,,,a] [c,,,,,,,,a][,e,,,,,,a1].a[c,,,,,,,,a].,e |\
+[,a,,,d1].c[a,b].,e[a,,,d].,a [,,d,,c].a[,d,,c].,b[,d,,,,,,a].,,d |
+% Takt 81
+[,,b,,a1].,d[,b,c].,a[,b,,a].,,b [,,a,,,a].,b[,a,a].,,d[,a,,,d].,,a |\
+[,,,c,,,a1].,a:a.,d:,b.,a [,,dcd];d:c.a:,e.a |\
+[L:1/8][,ea,c1].[ce][df] .[fh][,,g,h].[,,f,g] |\
+,,,,,,,,a1.[df][fh] [hi][,ed][a,b] |
+% Takt 85
+[L:1/16],,,,c2,,g1.f,,f.d ,,d.c[,,b,c].a[,,a,a].,e |\
+[,d,c,e1].,f[,d,,,c].,f[,d,,,a].,f [a,h,a].,f[,,h,,,,,,a].,f[,,h,a].,f |\
+[,eg,a1].,h[,,g,,,,,,a].,h[,,g,a].,h [,df,a];e[,,f,,,,,,a].e[,,f,a].e |\
+[f,g,a1].a[,b,c].a[,a,a].,f [,,d,e].a[b,,,c].,d[d,,,a].,c |
+% Takt 89
+[b,,,,,a1].,d[,a,a].b[,,d,d].b [,,b,c].,d[,b,,a].b[,a,,,d].b |\
+[a,,,,,,a1].,b[,,d,d].a[,,b,c].a [,,,da].,b[,,e,,d].a[,,d,,b].a |\
+[,d,,,,,,a1].,a[,,c,c].,d[,,,da].,d [,,,c,e].,a[,,d,,c].,d[,,c,,a].,d |\
+[,b,,,,,,,a1].,,d[,,,da].,b[,,,c,d].,b [,,,a,b].,,,d[,,d,,a].,b[,a,,,,a].,d |
+% Takt 93
+[L:1/8][,,c,,a1].[ea][f,g] [h,i][,g,h][,f,g] |\
+,,,,h1[f,g][h,i] [if][,,ig][,,gh] |\
+[L:1/16],,,,,a2:,d1.b:,b.a :,a.,d[,,dc].,b[,,ca].,a |\
+[,,,fe1].,,d[,,b,c].,,d[,,b,a].,,d [f,aa].,,d,,,e.,,d,,,e.,,d |
+% Takt 97
+[e,,d{a}1].,a,,,d.,a,,,d.,a [d,,c{a}].,c,,,c.,c,,,c.,c |\
+[b,,,,,a1].,,,a,,,,d.,,,b,,,,b.,,,a [c,,,a].,,,,d,,,,,,a.,,,,b,,,,,,,a.,,,,a |\
+[d,,,,,,,,b1].,,,c:,,,a.,,,d,,,,d.,,,c [e,,,c].,,,a,,,,,a.,,,,d,,,,,,a.,,,,c |\
+[f,,,,a,a2].a[f,,d] ,,,a[e,,c1].f[h,,,,a].e |
+% Takt 101
+[i,,,a2].a[f,,,,,d] [h,,,,,a][e,,,,a1].f[h,,,,,a].e |\
+[a,,,,,,a1].h[f,,,d].e[f,,d].,f [,d,,c].f[d,,c].b[d,,,,a].,d |\
+[,b,,a1].d[b,d].a[b,,a].,b [,a,,,d].b[a,b].,d[a,,,d].,a |\
+[,,d,,b1].a:f.d:b.a :,d.,b:,a.,,d:,,c.,,d |
+% Takt 105
+[,dfg,a2],,,,,c1.,b[,a,,,e].,d [,b,,a].,a[,,d,c].,,c[,,d,d].,b |\
+[,,,df1].,,,d[a,,,f].,,,d[,d,,f].,,,d [,b,b].,,a[,a,b].,,a[,,db].,,a |\
+[,,c,,a1].,,c[b,,c].,,c[a,,c].,,c [,d,d].,,d[,b,d].,,d[,a,d].,,d |\
+[,ba1].,e[c,,c].e[f,,b].,b [,a,c].,,d,a.,d[f,,,,a].e |\
+"da capo al fine"[f,,,,,,,,a1]||
+S:https://www.folktunefinder.com/tunes/154025
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

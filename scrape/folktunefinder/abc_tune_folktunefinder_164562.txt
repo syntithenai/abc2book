@@ -1,0 +1,23 @@
+X:1
+T:Holly and the Ivy, The
+C:collected by Maud Karpeles and Pat Shaw
+%
+%%measurebox true           % measure numbers in a box
+%%measurenb 0               % measure numbers at first measure
+%%barsperstaff 0            % number of measures per staff
+%%gchordfont Times-Bold 14  % for chords
+%
+M:3/4
+L:1/4
+Q:130
+K:F %Transposed from G
+%
+F/ | (A/G/) F/ (C/F/) G/ | F/ F2 c/ | (c/A/) F/ G  A/ | G3/2-G c/ |
+S:https://www.folktunefinder.com/tunes/164562
+S:http://tomkeays.com/music/xmas/holly_and_ivy_karpeles.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

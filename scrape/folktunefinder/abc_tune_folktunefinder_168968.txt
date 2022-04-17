@@ -1,0 +1,25 @@
+X:1
+T:Julien
+C:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:G
+|: BdB GAB | ABc E3 | ABc eag | fef d2c | 
+Bcd GFG |1 cde A2G | FAd faf | ed^c d2=c :|2 
+cde A3 | DFA cde | fba g3 :|
+AFF Adc | BGD B,3 | CEG cBG | Afe def |
+gdB Bcd | ecA E3 | CEG cdB | AFE DCA, |
+B,GB, CGC | DAF dBG |FdF GBd | ^cef d2e |
+fgd BBc | dec AE2 | CEG B,DG | FED [G3B,3] |]
+S:https://www.folktunefinder.com/tunes/168968
+S:http://music.gordfisch.net/tradmusic/pub/cache/Julien_3c82fa.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

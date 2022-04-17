@@ -1,0 +1,163 @@
+X:20
+%%topspace 0
+T:Passemeze 3
+L:1/4
+M:C
+K:GM frenchtab
+%%stretchstaff false
+%%staffsep 13pt
+,,,c1.,,a |[aab,,a1]>.,,d :,a1.,,,,,c |\
+[aa,,,d1].,,,,a .[,ea,c]{,,a} |\
+[aab,,a1]>.c d1[c,d] |\
+[a,b1][,da] [,c,c/].,da.,c |\
+[,dda1]c/.d f1.,,d |\
+[da,c1].c [acd,a]:f/.d |\
+[c,,a1],,a/.,,b ,,d1.,,,,a |\
+[,,b,c1][,,a,a] [,,,c,d][,,,b,c] |
+% Takt 9
+[,,,c,a1]:a/.c d1.,,b |\
+[c,d1].a [,ef/].ac1 |\
+[aa,c1],,,,,a/.,,,,,c ,,,,,d1:,a/.,c |\
+,d1[,c,,a] [,da,c][a,d,d] |\
+[caa{,,a}1].h c[da] |\
+[c,a1][a,b] [,ea][,c,c] |\
+[,ea,c1].,a ,,a[,,b,c] |\
+[,,d,,c1][,a,,,d] [,b,,a][,,d,,c] |\
+[,aba,d1].d ,d[a,b] |\
+[,d,a1][,b,c] [,a,a][,,d,d] |
+% Takt 19
+[,ab,,d1].,,b ,,,a[d,,c] |\
+[,d,a1][a,,,e] [c,,a][d,,c] |\
+[c,,a1].,d ,,d[,a,a] |\
+[,,d,a1][,,b,c] [,,a,a][,,,c,d] |\
+[,,aa{a}1].f ,a.d |\
+[c,d1][a,b] ,,a.,e |\
+[aabc1].h a[ca] |\
+[da,c1][c,a] [a,b].,,d |\
+[,ea,c1].c ,a[,ca] |\
+[,ea,c1][aa,,,d] [,cd,a][,ea,c] |\
+[aac,,a1].,a ,,c[,,d,,c] |
+% Takt 30
+[,a,,,e1][,,c,,a] [,,d,,c][,,ab] |\
+[,,cc,a1].h [ef][fc] |\
+[ha1][ef] [fc].[ce] |\
+[eff,,a2] :a1.c "2."||\
+[da,,,a1],,,c/.,,a ,,b.,,d,a.,c |\
+,a/.,c,e.a [,e,,c].ac.,e |\
+[aab,,a1],,b/.,,d ,a.,,d,,b.,,a |\
+,,,c/.,,a,,b.,,d ,a.,c,d.a |
+% Takt 38
+[cdd{a}1][,,d,,c] [,a,,,d][,,b,,a] |\
+[,,d,,c1].,,,a [,ab,,d/].,d[,cdca1] |\
+[,dda{a}1]:,,d/.,,b ,,a.,,,c,,,a.,,,,e |\
+,,,,c/.,,,,e,,,a.,,,,e ,,,,c.,,,,a,,,,,d.,,,,,c |\
+[aab,,a1].,,,c ,,b[,,d,,c] |\
+.[,ab1],,,,,d/.,,,,a ,,,,c1[,aab] |\
+[aab,,a1]:,d/.,b ,a.,,d,,b.,,a |\
+,,,c/.,,a,,b.,,,c ,,,a.,,,c,,,a.,,,,d |
+% Takt 46
+[caabc1]{,,a} .[caa].,,,,e |\
+,,,b1.,,,c [ccee].,,,,,c |\
+[ca,,c/].a,e.,c ,a.,,,,a,,,,,d1 |\
+[,b,,a1][,a,,c] [,,d,d/].,,b[,daa1] |\
+[,ab,,d3/],,d//.,a ,,b1[,b,,a] |\
+[,a,,c1][,,d,d/].,,b [,,a{a}].,,b,,d.,,a |\
+[,aba,d1].d ,a[c,d] |\
+[a,b1][,da] [,,bc].,c |\
+[,dda1].,,d ,,a[,a,,,d] |\
+[,,d,,c1].,,,a [,,b,,a].,,,,e |
+% Takt 56
+[,daa{a}1].[a,b] [c,a][d,,c] |\
+[c,,a1][,d,,c] [a,,,e][c,,b] |\
+[da,,,a1],,,c/.,,a ,,b.,,d,a.,b |\
+:,a1,,,,,a/.,,,,,c ,,,,,d.,,,,a,,,,c.,,,,d |\
+,,,,c1,a/.,c ,e.ac.d |\
+c/.,a,,d.,,b [,,a{,,a}].,,,c,,a.,,,b |\
+[aac,,a1],,,c/.,,a ,,c1[,,d,,a/].,,,,,c |\
+[,a,,,e1][,c,,a] [,aabc]{,,a}/.,,d |
+% Takt 64
+[,,cc,a1].a [,cd].[,ea] |\
+[aacc,a2] :a1.c "3."||\
+[da,,,a3/]:c//.d a1[,ab] |\
+[c,d1].a [,ea,c/];ac.,e |\
+[aab,,a1],,d/.,a ,,b.,,,c,c.,d |\
+[a,,c/].cd1 [c,d].[a,b] |\
+[cdd{a}/].df1 [da][c,d] |\
+[a,b1][,da] [,c,c/].,d[a,,,a].,c |
+% Takt 72
+[,dda{a}1]:,a/.,c ,d.a,d.,c |\
+[,a,a1][,,d,d] [,,b,c][,,a,a] |\
+[aab,,a1].,a h>.f |\
+[da1]c/.,,d [a,b1].[,ea] |\
+[aab,,a1]:,d/.,b ,a.,,d,,b.,,a |\
+,,,c/.,,,a,,,,d.,,,,c [aa,,d],,d//.,,b ,,d1 |\
+[,ea,c1].,a c.,e |\
+[ha{,,a}1].c [da][c,b/].a |\
+[,ea,c1].,a c/.a,e.,c |
+% Takt 81
+,a/.,c[,d,,,d].a [,b,,a1][,d,,,c/].,b |\
+[,a,,,d1].,,b d,a/.c |\
+[ab/].c.[da1] [f,,,a/].hi.f |\
+[h,,,,,f1]:,a/.,b [,d,,c].a[,b,,d].,d |\
+[,a,a/].,,d[,b,c].,a [,,d,e].,a,,b.,,d |\
+[,,a{a}1].,,,a [cd][df] |\
+[fh1][cd] [df][ac/].,a |\
+[c,da1][a,b/].c [,da].a[,b,c].,d |
+% Takt 89
+[,a,a/].,b[,,d,d].,a [,,b,c].,,d,,a.,,,b |\
+[,ab,,a1][,,d,d/].,a [,,b,c].,,d[,,a,a1] |\
+[da,,,a1]:f/.d [cd].d.[ab1] |\
+[,ea,c1].,a dc/.,,d |\
+,,b/.,aa.c [,ea,c1].,,,,a |\
+[aa,c,e1]>.,d [,b,,a].,a,,d.,,b |\
+[,,abc1][da,c] [caa,c].,e |\
+[aacc1],,,a/.,,,,d ,,,,c.,,,,,e,,,,a.,,,,c |
+% Takt 97
+[aaccca2] ,,,c/.,aa.c "4."||\
+[da,,,a1].a [ha/]f//.d c.a,d.,c |\
+,a//.,c,d.,c ,a.,,d,,b.,,a ,,,c/,,,a//.,,,,d ,,,,c.,,,,a,,,,,d.,,,,,c |\
+,,,,,a/.,aa.c d.,,,c,,b.,,d |\
+,a/,,,c//.,,a ,,b.,,d,a.,b ,a.,,d,,b.,,d ,a.,c,d.a |
+% Takt 102
+[c{a}/].,,d,d.a c.,,,a,,a.,,b |\
+,,d/.ca.,d ,c.,d,,,,a.,c |\
+[,daa{a}/]:,c//.,a ,,d.,a,,b.,,d ,,a.,,,c,,a.,,b ,,d.,,b,,a.,,,c |\
+,,,a/f//.d c.a,d.,c ,a.,,d,a.,b ,a.,,d,,b.,,a |
+,,,,,a/.a,a.,b ,,b.d[c,d].,a |\
+,,,c/.a,,,a.,,,,d ,,,,c[a,b],,a.,e |\
+% Takt 107
+[aab,,a/]:,d//.,b ,a.,,d,a.,b ,a.,,b,,d.,a ,,d.,,a,,b.,,d |\
+[aab,,a/].,,a,,b.,,,a ,,,,d,,d//.,,b ,,d.,a:,,d/ |\
+[,aab{,,a}/].ch[c,a] [da][c,a][a,b][,cd] |
+[,ea,c/],a//.,c ,e.ac.d [c,a/],f//.,d ,c.,a,c.,,e |\
+% Takt 111
+[,aa{,,a}1]:c/,,,,c//.c :d/.,,,,d:a,,,,a//.a |\
+:c/.,,,,c:,d,,,,,d//.,d :a/.,,,,d[f,,,a].,,,a |\
+[dab,,d1][,d,,c/].,,b [a,,,d].,,d[,b,,a].,,a |\
+[,d,,c/].,,b[,a,,,d].,,,c [,b,,a].,,a[,,d,,c].,,,a |
+[,ab,,d/],,d//.,a ,b.,da.c [da/].,,b[cd].,a |\
+% Takt 116
+[ab/].,,d[,da].,,,a [,ab].,,,c[,cd].,,,,a |\
+[,dda{a}/]:,c//.,a ,,d.,,b,,a.,,,c ,,,a.,,,c,,a.,,b ,,d/,a//.,c |\
+,d//.ac.d f.dc.a ,d.ac.d c.a,d.,c |
+,a/,c//.,d a.,d,c.,a ,,d.,a,c.,d ,c.,a,,d.,,b |\
+% Takt 120
+,,a//.,,b,,d.,a ,,d.,,b,,a.,,,c ,,,a/,,d//.,a ,c.,da.c |\
+[da,,,a/],,,c//.,,a ,,b.,,d,a.,b ,a/.,,b,,,c.,,,,c |\
+,,,,,a/.,,a,,b.,,,,,c ,,,,,d.,,a,,,c.,,,,a |
+,,,,c/.c,a.,,a ,,,,,d.a,a.,,b |\
+,,,,a/.a,b.,,d ,,,,c//.dc.a ,e.ac.,e |\
+% Takt 125
+[a,,,,a/].,a,,b.,,,c hf//.d c/.f |\
+[da,,,a/]:f//.d c.d:a/ {,,a}//.c,e.a c.,a,c.,e |
+,,,,,a//.a,d.,b ,d.a,d.,b ,a.,b,a.,,d ,,c.,,d,,c.,,a |\
+H[aaccca4] |]
+S:https://www.folktunefinder.com/tunes/156990
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

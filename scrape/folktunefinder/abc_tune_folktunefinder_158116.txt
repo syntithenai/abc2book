@@ -1,0 +1,24 @@
+X: 1
+T:The Fishers Rant or the Lasses of Ancrum
+M:4/4
+L:1/8
+Q:90
+B:Calvert Collection Page 22
+Z:P Whittaker 2001
+K:D Minor
+c | Ac Ac/2d/2 d<e | c>def g/2f/2e/2d/2 ce
+  | Ac Ad2 c/2A/2 | {A} B>GA>F D/2D/2 DD ||
+c | f>g a/2g/2f/2e/2 fdec | A>B AGF>G Ac
+  | f>g a/2g/2f/2e/2 fd e c/2A/2 | {A}B>GA>F D/2D/2 DDc
+  | f>g a/2g/2f/2e/2 fdec | A>B AGF>G Ag
+  | a>fg>e f>de>c | {A} B>GA>F D/2D/2 DD ||
+S:https://www.folktunefinder.com/tunes/158116
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/FishersRantOrTheLassesOfAncrum_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

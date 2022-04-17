@@ -1,0 +1,23 @@
+X: 1
+T:Glengarry's March
+S:KCC p5, via EF
+M:4/4
+L:1/4
+K:A
+P:A
+e/2d/2|"A"cA AB/2c/2|"E7"dB Be/2d/2|"A"cA AB/2c/2|"G"d/2=c/2B/2A/2 =Ge/2d/2|
+"A"cA AB/2c/2|"E7"dB Be/2d/2|"A"cA/2c/2 "G"B=G/2B/2|"A"A3:|
+P:B
+e/2d/2|"A"ce e=g|"G"d/2B/2=G/2B/2 de/2d/2|"A"ce ef/2g/2|\
+"A"a/2g/2f/2e/2 "E7"ae/2d/2|
+"A"ce e=g|"G"d/2B/2=G/2B/2 de/2d/2|"A"cA/2c/2 "G"B=G/2B/2|"A"A3:|
+S:https://www.folktunefinder.com/tunes/161308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gl/Glengarrys_March_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

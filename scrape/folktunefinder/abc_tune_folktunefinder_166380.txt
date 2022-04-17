@@ -1,0 +1,40 @@
+X:1
+T:Innviertler Waldjaeger
+C:traditionell
+R:volkstanz
+A:Innviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"(1.) Spielheft fuer Okarina", Volker Derschmidt, Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d |\
+g>f ed | fe c2 | f>e dc | ed B2 |
+e>e dB | cd f2 | c>d fc |1 Bd g :|\
+                        [2 gg g ||
+|: d |\
+B>d gb | c'b a2 | c>d fa | ba g2 |
+g>d dB | cf f2 |1 f>e dc | Bg g :|\
+               [2 f>e de/f/ | gg g ||
+K:C
+|: G |\
+e>d ce | fe d2 | G>d cB | cA GG |
+e>d ce | f>e dc | B>A GA/B/ | ce c :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/166380
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/innviertler_waldjaeger.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

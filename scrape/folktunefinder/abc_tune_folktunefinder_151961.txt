@@ -1,0 +1,25 @@
+X:39
+T: Der Werber und der Jude
+N: Q0131
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kr. Saargemuend,
+R: Ballade, Braut - Werbung, Erpressung
+M: 4/4
+L: 1/8
+K: G
+D2 | G3AB2c2 | A3BG2
+D2 | G3AB2c2 | A2ABG2
+B2 | d2d2d2ee | d4A2
+A2 | d2c2B2A2 | G2E2D2
+D2 | G2A2B2c2 | A4G2
+S:https://www.folktunefinder.com/tunes/151961
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, braut - werbung, erpressung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

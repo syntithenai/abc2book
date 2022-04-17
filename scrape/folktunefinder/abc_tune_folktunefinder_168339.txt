@@ -1,0 +1,28 @@
+X: 1
+T: John Murphy's
+M: 12/8
+L: 1/8
+R: slide
+K: Dmaj
+|: A2 d F2 G A3 Bcd | e2 d cBA B2 A EFG |
+A2 d F2 G ABA Bcd |[1 e2 d cBc d3- d2 B :|[2 e2 d cBc d3- d2 e || 
+|: f2 A ABA Bcd e3 | e2 d cBA B2 A FGA |
+[1 f2 A ABA Bcd e3 | e2 d cBc d3- d2 e :|
+[2 A2 d F2 G ABA Bcd | e2 d cBc d3 |]
+K: Gmaj
+|: B2 c | d2 g B2 c d3 efg | a2 g fed e2 d B2 c |
+d2 g B2 c d3 efg | a2 g fef g3 :|
+|: b2 a | b2 d ded efg a3 | a2 g fed e2 d b2 a |
+b2 d ded efg a3 |[1 a2 g fef g3 :|[2 a2 g fef g3- g3 |]
+S:https://www.folktunefinder.com/tunes/168339
+S:http://www.thesession.org/tunes/display/7997
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

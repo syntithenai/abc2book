@@ -1,0 +1,36 @@
+X: 1
+T: Kolomeike
+O: Ukraine
+B: Kammen v.1 #20 p.22
+M: 2/4
+L: 1/16
+%%slurgraces 1
+K: Em
+"B"\
+|:"Em"Begb ^abgb | ^abgb agfe \
+| Begb ^abga | b4 k[e'4b4g4] \
+| "Em"Begb ^abgb |
+| ^abgb agfe | "B7"gf=ag fefg \
+|1"Em"e2z2 k[e4B4G4] :|2 "Em"e4 z2e2 \
+"C"\
+|:"Am"e2 a4 {b}a^g | a2 a4 {b}a^g |
+| a2 a4 a2 | "Em"{b}a2g2 b4 \
+| "C"^abag "B7"fefg | "Em"e2eB e2e2 \
+| "C"^abag "B7"fefg |1 "Em"e2z2 [e4B4G4] :|2 "Em"e6 |
+"D"\
+|: b2 \
+| "Em"[e'6g6] "B7"[^d'a]f' | "Em"[e'6g6] "B7"[^d'a]f' \
+| "Em"[e'2g]"B"[^d'a]f' "Em"[e'2g]"B"[^d'a]f' | "Em"[e'2g]"B"[^d'a]f' "Em"[e'2g2]z2 \
+| "Em"e'=d'd'^c' c'bbe' | e'd'd'^c' c'bbe' |
+|     e'd'd'^c' c'bb^a | ^a3g b4 \
+| "Am"e2ag "B7"fefg | "Em"e2eB e2e2 \
+| "Am"e2ag "B7"fefg | "Em"e6 :|
+S:https://www.folktunefinder.com/tunes/170462
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kolomeike1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ukraine/tune/Kolomeike1_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

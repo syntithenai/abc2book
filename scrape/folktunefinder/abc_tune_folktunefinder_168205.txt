@@ -1,0 +1,25 @@
+X: 1
+T: John O'Dwyer Of The Glen
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmix
+|: d>e |\ 
+f3 g a2 (3ge^c | f>de>^c d>cd>e | (3fed (3cAG A2 A>B | 
+c3 d e>d (3cAG | A>d (3cAF G2 (3GFG | A3 A A2 :|
+|: A>B |\ 
+c2 A>B c2 (3def | g2 (3efg a3 b | a>b (3agf g3 a | 
+f2 f>g a>f (3gfe | f>de>^c d>ed>=c | (3ABA G>c A2 d>e |
+f2 g>e a2 g>e | f>de>^c d3 e | (3fed (3cAG A2 A>B | 
+c2 c>d e2 (3cAG | (3AdB (3cAF G2 F>G | A2 A2 d2 :|
+S:https://www.folktunefinder.com/tunes/168205
+S:http://www.thesession.org/tunes/display/6554
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

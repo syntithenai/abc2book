@@ -1,0 +1,31 @@
+X: 1
+T:Hey Diddle Dis
+M:6/8
+C:
+S:Bacon (Jour 1932)
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A/2(AB)$^{\infty}$
+P:A.(AB)8
+L:1/8
+K:G
+I:speed 250
+P:A
+|:g>fg a>gf|g>fe d>ef|g>fg e>dc|B2 A G3:|\
+P:B
+A>Bc B>AG|A>Bc d>ef|g>fg a>gf|g3   g3||
+S:https://www.folktunefinder.com/tunes/164033
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/he/Hey_Diddle_Dis_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X:1
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1363 (Logeginer)
+M:4/4
+L:1/8
+Q:C2/1=112
+P:A4
+K:G
+P:A
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI program 73
+%%MIDI bassvol 127
+|:\
+M:4/4
+%%MIDI gchord fcf2fzc2
+"G"GA "Em"({Bc}B>G) (B"Am"c) AB |\
+M:5/4
+"Bm"dd "C"c2 B2 "D"A4 ::\
+M:4/4
+"G"GB "Bm"d>d cB "Am"(AB/2)c/2 |\
+M:5/4
+"Bm"dc "C"B2 "D"A2 "G"G4 :|
+%%text 2: guitare accords ouverts
+S:https://www.folktunefinder.com/tunes/151387
+S:http://kazimodal.trad.org/partitions/dans_leon/LA_dans_leon/LA_dans_leon.abc
+% Rhythm Dan?s leon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 5/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

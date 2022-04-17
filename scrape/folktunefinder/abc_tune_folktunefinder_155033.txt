@@ -1,0 +1,38 @@
+X:1
+T:Duo en r\'e majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle09.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:2/4
+L:1/16
+K:D
+V:1
+("^Allegretto"af).d'.c' .b.a.g.f|g4z4|(ge).e'.d' .c'.b.a.g|f4z4|
+(a^g).b.a (=gf).e.d|(c4d4)|(ed).e.f (ga)(fg)|e2e2e4:|
+|:(ed).c.d (ef).g.e|d2d2d4|(ed).c.d (ef).g.a|f2f2f4|
+(ba).g.a (bc').d'.b|a4d'4|(ab)(ga) (fg)(ef)|d2d2d4:|
+V:2
+d4z2.d2|(ef).g.f (ed).c.B|A4z2.c2|(de).f.g (af).e.d|
+(c4d4)|(a^g).b.a (=gf)e.d|(cB).c.d (ef)(de)|c2c2c4:|
+|:G8|(FE).F.G (AB).c.d|c8|(dc).B.A (GF).E.D|
+G4g4-|g2.f.e (fe).d.e|(fg)(ef) (AB)(GA)|F2F2F4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155033
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle09.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle09/devienne-nouvelle09.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle09/devienne-nouvelle09.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

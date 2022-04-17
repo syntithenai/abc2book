@@ -1,0 +1,25 @@
+X: 2
+T: Fair Jenny's Jig
+C: Peter Barnes (@Copyright 1977, Peter Barnes)
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A \
+|: "D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | "G"Bcd "A"efg |
+   "D"f3 fgf | "A"ecA ecA | "G"Bcd "A"ecA | ABc "D"d3 :|
+|: "G"B3 B=cB | GBB B=cB | "D"ADD dDD | cDD =cDD |
+   "G"B3 B=cB | GBB B=cB | "A7"ABA ABc | "D"dAF D3 :|
+N:Portland Collection, pg 74 - abc by Peter Ostapenko.
+N:Last update - PO 3/17/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/156677
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/FairJennysJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

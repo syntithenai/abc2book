@@ -1,0 +1,29 @@
+X:5
+T: Graf und Nonne (Die Nonne)
+N: Q0155D
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Kanth
+R: Ballade, Standesunterschied, Werbung, Liebe, Glueck
+M: 2/4
+L: 1/8
+K: D
+G | BAGA | G2F
+F | AGEA | F2z
+F | AFEF | G2F
+F | AFEF | G2F
+D | DDDD | d2c
+B | BFBG | G2F
+F | AFEG | G2F
+F | AFEG | G2F
+D | DDDD | d2c
+B | AFBG | G2F
+S:https://www.folktunefinder.com/tunes/161925
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe, glueck
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

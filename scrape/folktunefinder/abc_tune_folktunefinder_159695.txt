@@ -1,0 +1,23 @@
+X:25
+T: You'll Go A-Hunting No More
+S: "Roche Collection of Traditional Irish Music" 45/106
+L: 1/8
+M: 6/8
+R: jig
+K: G
+B | dBB BGG | DGG G>AB | cee dBG | FAA A>Bc |
+dBB BGG | DGG G>AB | cee dcA |1 BGG G2 :|2 BGG G2 B/d/ ||
+gfe dBA | Bee e2f | gfg eag | fdd d>ef |
+gfe dBA | Bee e2f | gfg aga |1 bgg g2 e/f/ :|2 bag gfe ||
+S:https://www.folktunefinder.com/tunes/159695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/xyz.abc
+S:http://www2.redhawk.org:8080/irish/zouki/xyz.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/xyz.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

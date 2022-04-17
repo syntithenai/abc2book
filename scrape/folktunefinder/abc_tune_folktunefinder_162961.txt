@@ -1,0 +1,24 @@
+X: 1
+T: The Halloween Jig
+C: Jean Duval (Montreal)
+O: Montreal, Canada
+S: Wednesday Night at O'Reagans
+Z: Robin Beech robin.beech@mcgill.ca
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20040208063300 by Robin Beech robin.beech@mcgill.ca
+K: D
+F |:B3 Bcd |c2 A ABc |B2 G GAB |A2 F FEF |B3 Bcd |c2 A ABc |def edc |1B3 BAF :|2B3 Bde ::f2 f fed |cde Adc |Bcd dcB |cFF Fde |f2 f fed |cde Adc |Bcd cBA |1B3 Bde :|2B3 B3 :|
+S:https://www.folktunefinder.com/tunes/162961
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/HalloweenJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HalloweenJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

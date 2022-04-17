@@ -1,0 +1,40 @@
+X:805
+T:The Kesh Jig
+T:Kerrigan's Jig
+C:anon.
+O:Ireland
+S:John B. Walsh Session Tunes
+R:Jig
+Z:Robert Bley-Vroman, chord notation upgraded to modern ABC by Frank Nordberg
+F:http://abc.musicaviva.com/tunes/ireland/kesh-jig-101198.abc
+%Posted Tue, Nov 10th 1998 by Robert Bley-Vroman at abcusers during a
+%discussion about chord notation, and modified by Frank Nordberg with
+%the chord notation system that eventually ended up as the standard
+%for ABC.
+M:6/8
+K:G
+P:A
+|:D|"G"~G3 GAB|"D"ABA ABd|"G"edd gdd|"G"edB "D"dBA|
+    "G"~G3 GAB|"D"ABA ABd|"G"edd gdB|"D"AGF "G"G2:|
+P:B
+|:A|"G"~B3 dBd|"C"ege "G"dBG|"G"~B3 dBG|"D"ABA AGA|
+    "G"BAB dBd|"C"ege "G"dBd|"G"gfg "D"aga|"G"bgf g2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/169545
+S:http://abc.musicaviva.com/tunes/ireland/kesh-jig-101198.abc
+S:http://abc.musicaviva.com/tunes/ireland/kesh-jig-101198.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/kesh-jig-101198.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/kesh-jig-101198.abc
+% Rhythm Jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

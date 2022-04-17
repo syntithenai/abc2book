@@ -1,0 +1,28 @@
+X: 1
+T:Gracelands
+R:Air
+C:Phil Cunningham
+M:C
+L:1/8
+K:G
+BA|G3 A B B,3 | D6 E2| G4 A3 B/2c/2| B G3 g2 f2|
+e3 d c3 B| d G3 c3 B| A G3 E3 G| A4 B3 A|
+G3 A B B,3 | D4 D3 E| G4 A3 B/2c/2| B G3 g2 f2|
+e3 d c3 B| A G3 B3 A|1 (G8|G6) :|2 (G8|G4)||
+| d'3 c'|b3 a g3 f|d3 c B d3| c4 B3 c| d4 d'3 c'|
+b3 a g3 f| d3 c B d3|(c8|c6) B2 A2| G3 A B B,3|
+D4 D3 E| G4 A3 B/2c/2| B G3 g2 f2| e3 d c3 B|
+A G3 B3 A|1 (G8|G4) :|2 (G8|G6) ||
+S:https://www.folktunefinder.com/tunes/161904
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/PhilCunningham/Gracelands.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Gracelands.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Gracelands.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

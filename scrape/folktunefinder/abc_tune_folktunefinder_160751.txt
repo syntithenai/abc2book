@@ -1,0 +1,34 @@
+X: 3
+T: Gentle Maiden
+C: Irish Trad (O'Neill's Music of Ireland, #282)
+R: waltz
+M: 3/4
+L: 1/4
+K: G
+|: D \
+||"G"G>AG | "D"FED | "G"d>^cd | "C"efg |
+  "G"dcB  | "Em"ABG | "C"EAG | "D7"F>ED |
+  "G"G>AG | "D7"FED | "G"d>^cd | "C"efg |
+  "G"d>cB | "D7"A2F | "G"G3- | G2 :|
+|: d \
+||"G"d>ef | "Em"g>ag | "C"g>ag | "Am"g>fe |
+  "G"d>cB | "Em"ABG | "C"EAG | "D7"F>ED |
+  "G"G>AG | "D"FED | "G"d>^cd | "C"efg |
+  "G"d>cB | "D7"A2F | "G"G3- | G2 :|
+N:Also played as a jig.
+N:HOI - abc by Peter Ostapenko.
+N:(Also see The Waltz Book, pg 25)
+N:Last update - PO 2/24/2008.
+N:G Major
+S:https://www.folktunefinder.com/tunes/160751
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/GentleMaiden.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

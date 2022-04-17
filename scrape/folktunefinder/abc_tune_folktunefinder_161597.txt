@@ -1,0 +1,28 @@
+X:1
+T:Going to a Wedding
+T:A Wedding Song for Chaya and Benjamin
+C:Robbie Wedeen (Dec 30, 2001)
+%%staffsep 35
+M:4/4
+L:1/8
+N:Words on a separate page.
+N:This was out at klezmer session at NEFFA (New England Folk Festival) April 21, 2002
+Z:John Chambers <jc:trillian.mit.edu> 2002-4-22 from handwritten MS
+N:Robbie, Chaya and Benjamin would probably be pleased to hear that you've sung
+N:their song at your wedding.  Here's the contact info for the composer:
+N:Robbie Wedeen, 574 S. Forest Drive, Teaneck NJ (USA) 07666 201-692-0836 rwedeen:i-opener.net
+K:Am
+[| "Am"cc2B A2A2 | "E7"BB2^G E4 | BB2B c2B2 | "Am"Ac2B A4 |
+|: "Dm"dd2f a2f2 | "Am"cc2d e2c2 | "E7"BB2B ed cB |1 "Am"Ac2B A2Bc \
+                                                 :|2 "Am"Ac2B A2A2 ||
+|: "A7"ee2e a2g2 | "Dm"gf2e g2f2 | "G7"dd2d g2f2 | "C"fe2^d f2e2 |
+|  "E7"BB2B e2d2 | "Am"AA2c e2c2 | "E7"BB2B edcB |1 "Am"Ac2B A2A2 \
+                                                :|2 "Am"A2EE A2A2 |]
+S:https://www.folktunefinder.com/tunes/161597
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/GoingToAWedding_Am.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

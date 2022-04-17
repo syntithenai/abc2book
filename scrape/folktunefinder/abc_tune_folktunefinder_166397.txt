@@ -1,0 +1,30 @@
+X: 1
+T:Robin Hood
+M:4/4
+L:1/4
+S:Thomas Weelkes 1608
+B:C
+Z:p
+K:F
+F|ccde|f/e/fgf|edc>B|AF2c|dddc/B/|A>Bcf|edc>B|A2F||
+M:6/4
+L:1/4
+2ef2c|d>dcd2A|B2AB2F|G>FGA2c/c/|d/c/d/e/fed>d|
+M:4/4
+L:1/4
+c4||
+zf2e|f>cd>B|c>A =B/B/d|efg2|f2e2|d>ef>c|_e>Bd>A|BGA A/B/|c/A/B/G/Ac/d/|e
+/f/
+d/e/(f2|f4)||
+S:https://www.folktunefinder.com/tunes/166397
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/robin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

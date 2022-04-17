@@ -1,0 +1,24 @@
+X:23
+T: Winterrosen
+N: Q0145A
+O: Mitteleuropa, Deutschland / Polen, Pommern, Stettin, Sandfoerde
+N: Dritte Zeile = Refrain auf sinnfreie Silben. Grundton in der kleinen
+N: Oktave. Pause am Anfang der vierten Zeile weggelassen.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 2/4
+L: 1/8
+K: Bb
+f | gfff | gff
+f | gfed | d2c2
+Bddf | f4 | dffb | d4 | z
+dbg | f3a | c4 | b3
+S:https://www.folktunefinder.com/tunes/152976
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

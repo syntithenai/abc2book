@@ -1,0 +1,23 @@
+X:3
+T:Elselein
+C:Glogauer Liederbuch, No. 250
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:3/2
+L:1/2
+N: original clef, C on fifth line
+K:D dor bass
+%%MIDI transpose -24
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+"(1)"a a2 a A c B A2 e A2 a g2 c e3/2 d// c// B A6 z2 z a2 g a2 b c' c B A2 d G A2 a8 |]
+S:https://www.folktunefinder.com/tunes/156008
+S:http://www.laymusic.org/music/glogauer/250/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

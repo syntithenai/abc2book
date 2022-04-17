@@ -1,0 +1,41 @@
+X:1
+T:Karnaval
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABCDAB
+L:1/8
+M:6/8
+K:G
+P:Voorspel
+D | G2 G GFG | A2 A A^GA | c3 F3 | (G3 G) z D ||
+P:A
+G2 G GFG | A2 A A^GA | [M:2/4] c2cB c2e2 | (d4 d2)cB | [M:6/8] A2 e d2 c | 
+B2 d B2 G | A2 G F2 E |1 (D3 D) z D :|2 [M:2/4] (D4 D) z D2 ||
+P:B
+M:2/4
+L:1/8
+GG FG | A2 D2 | AA GA | B2 G2 | BB Bc | dd de | 
+dc BA | d2 z2 | BB Bc | dd de | dc BA |1 G2 z D :|2 G2 z2 ||
+P:C
+M:6/8
+L:1/8
+B2 B BBB | B2 B BBB | d2 d cBA | B3 G3 | B2 B BBB | B2 B BBB | d2 d cBA | (G3 G) zz |
+B2 B BBB | B2 B BBB | d2 d cBA | B3 G3 | B2 B BBB | B2 B BBB | d2 d cBA | (G3 G) zz |
+K:D
+(A3 A)Bc | (d3 d2) B | A2 G F2 E | F3 D3 | (A3 A)Bc | (d3 d2) B | A2 A B2 c | (d3 d) zz |
+(A3 A)Bc | (d3 d2) B | A2 G F2 E | F3 D3 | (A3 A)Bc | (d3 d2) B | A2 A B2 c | d3 =c3 :|
+P:D
+K:G
+B2 B BBB | B2 B BBB | d2 d cBA | B3 G3 | B2 B BBB | B2 B BBB | d2 d cBA |1 (G3 G) zz :|2 (G3 G) z |]
+S:https://www.folktunefinder.com/tunes/169245
+S:http://user.online.be/volksdans/abc/Karnaval.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Karnaval.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

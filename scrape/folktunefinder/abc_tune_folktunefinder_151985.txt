@@ -1,0 +1,27 @@
+X:63
+T: Kornschneiden
+N: Q0136A
+O: Mitteleuropa, Niederlande
+N: Instrumentalstueck nach der Balladenmelodie.
+R: Ballade, Beischlaf, Schwangerschaft, Moral
+M: 3/4
+L: 1/4
+K: G
+D | G2D | G2A | BAB | A2
+D | G2F | G2A | B3 | A2
+D | G2D | G2A | BAB | A2
+D | G2F | G2A | B3 | A2
+A | B2c | d2d | cBc | B2
+B | ABA | EFG | F3 | E2
+S:https://www.folktunefinder.com/tunes/151985
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, beischlaf, schwangerschaft, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

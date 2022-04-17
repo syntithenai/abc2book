@@ -1,0 +1,24 @@
+X:5
+T:Enrico
+C:Traditional
+N:Sussex Tune Book
+M:4/4
+L:1/8
+K:D
+|:A2|d2fe dcdB|ABAG F2A2|d2ef gfed|c2a2a2f2|
+d2fe dcdB|ABAG F2A2|B2gf edec|d2d2d2:|
+|:fg|a2ag fgfe|dedc B2B2|gagf efed|cdcB A2A2|
+d2d2cecA|d2d2cecA|d2f2edec|d2d2d2:|
+S:https://www.folktunefinder.com/tunes/156245
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Enrico.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/Enrico.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

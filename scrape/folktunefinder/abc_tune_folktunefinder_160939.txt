@@ -1,0 +1,29 @@
+X:1
+T:Gigue efter Johan Eric Blomgren
+Z:Jonas Brunskog, 10/7 2008
+O:Hsslunda, Skne
+S:efter Johan Eric Blomgren
+N:Folkmusikkommissionens notsamling, http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=Ma13a&bildnr=00012|Bild: 12 Volym: Ma 13a Datering: 1780-. Nummer 34
+R:Gigue
+M:6/8
+L:1/8
+K:D
+D|:d>AF D>FA|d>DD D2A|d/e/f2 e/f/g2|f>ed d2f|e>^ga e2e|
+e>dc d2d|d{d}^gb d2d|d>cB c>e^g|[1a2A A2D :|[2a2A A2A |]
+|:a>ec A>ce|a>AA A2f|f>ed c/d/eB|^A/B/cF F2B|b>fd B>df|b>BB B2g|
+f>ed F>B^A |B2B B2c|d/e/fd e2A|e/f/ge f2A|f/g/ag f>ed|
+c/d/eA A2A|F>Ac A2A|A>GF G2G|G>FE F2A|(d/e/)fd e/f/ge|
+f/g/aa a2g|f>ed A>dc|[1 d2D D2A:|[2d2D D2z |]
+S:https://www.folktunefinder.com/tunes/160939
+S:http://www.folkwiki.se/pub/cache/Gigue_efter_Johan_Eric_Blomgren_967018.latin.abc
+S:http://www.folkwiki.se/pub/cache/Gigue_efter_Johan_Eric_Blomgren_967018.abc
+S:http://www.folkwiki.se/pub/cache/Gigue_efter_Johan_Eric_Blomgren_967018.abcm.abc
+% Rhythm Gigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

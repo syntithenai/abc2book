@@ -1,0 +1,43 @@
+X:1
+T:Drahdium - Walzer
+C:traditionell
+R:walzer
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Arbeitshilfen zur Volksmusikpflege, nr. 8: Wildsau - Hundert Tanzmelodien fuer Dudelsack und Drehleier", ausgewaehlt und eingerichtet von Georg Balling, herausgegeben vom Bayerischen Landesverein fuer Heimatpflege e.V., Muenchen, 1993
+S:im buch mit der angabe:Thiel, Helga: "Die deutschen Volkstaenze in Boehmen, Maehren und Schlesien, Marburg 1970.
+N:im buch ganz in F, zweistimmig, nr. 31. in der quelle nr. 232
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G %Transposed from F
+D2 E2 F2 | G3 B D2 | G3 BAG | F3 c D2 |\
+D2 E2 D2 | F3 A D2 | F3 cBA | G2 B2 D2 |
+D2 E2 F2 | G3 B D2 | G3 BAG | F3 c D2 |\
+D2 E2 D2 | F2 A2 D2 | d2 c2 F2 | G2 z2 z2 :|
+G3 E D2 | B2 A2 G2 | F3 E D2 | c6 |\
+F3 E D2 | c2 B2 A2 | G3 E D2 | B6 |
+G3 E D2 | B2 A2 G2 | F3 E D2 | c6 |\
+F3 E D2 | d4 F2 | G3 G G2 | G6 :|
+z2 .d.d.d.d | .B2 .D2 .G2 | z2 B,D G2 | F3 E D2 |\
+z2 .d.d.d.d | c2 D2 F2 | z2 (CDFA) | G3 E D2 |
+z2 .d.d.d.d | .B2 .D2 .G2 | z2 B,D G2 | F3 E D2 |\
+z2 .d.d.d.d | c2 D2 F2 | D2 E2 F2 | G3 G G2 | G6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154297
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/drahdium_-_walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

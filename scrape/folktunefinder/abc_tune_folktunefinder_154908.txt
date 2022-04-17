@@ -1,0 +1,30 @@
+X:1
+T:The Duke of Perth
+C:Trad. Ecosse, fichier ABC par Bernard Loffet
+L:1/8
+Q:286
+M:4/4
+K:G
+B | [G/G,,/]A/[B/G,/]c/ d[BG,] [gE,,][BE,] d[BE,] | [gC,,][BC,] d[BC,] [aD,,][AD,] A[BG,] | \
+ [G/G,,/]A/[B/G,/]c/ d[BG,] [gE,,][BE,] d[BE,] | [cA,,][AA,] [dD,,][cD,] [BG,,][GG,] G[BG,] | \
+ [G/G,,/]A/[B/G,/]c/ d[BG,] [gE,,][BE,] d[BE,] | [gC,,][BC,] d[BC,] [aD,,][AD,] A[BG,] | \
+ [G/G,,/]A/[B/G,/]c/ d[BG,] [gE,,][BE,] d[BE,] | [cA,,][AA,] [dD,,][cD,] [BG,,][GG,] G[fD,] | \
+ [gE,,]E,/a/ g[eE,] [aA,,]A,/b/ a[fA,] | [gE,,]E,/a/ g[eE,] [bE,,][eE,] e[fE,] | [gE,,]E,/a/ g[eE,] [aA,,]A,/b/ a[fA,] | \
+ [gG,,][dG,] [eC,,]C,/c/ [BG,,][GG,] G[fD,] | [gE,,]E,/a/ g[eE,] [aA,,]A,/b/ a[fA,] | \
+ [gE,,]E,/a/ g[eE,] [bE,,][eE,] e[fE,] | [gE,,]E,/a/ g[eE,] [aA,,]A,/b/ a[fA,] | [gG,,][dG,] [eC,,]C,/c/ [BG,,][GG,] GG, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/154908
+S:http://diato.ifrance.com/diato/tablat/233.abc
+S:http://diato.ifrance.com/tablat/233.abc
+S:http://diato.org/tablat/233.abc
+S:http://perso.orange.fr/diato/tablat/233.abc
+S:http://perso.wanadoo.fr/diato/tablat/233.abc
+S:http://pro.wanadoo.fr/diato/tablat/233.abc
+S:http://www.diatonique.net/tablat/233.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

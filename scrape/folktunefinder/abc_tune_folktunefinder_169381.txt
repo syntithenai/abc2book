@@ -1,0 +1,24 @@
+X:1
+T:Katushka Counterpoint
+C:copyright 1999 Jim Thompson
+N:A flute part
+R:Reel
+E:28
+M:2/4
+K:Am
+|: e4a2g2 | a2g2f2e2 | f2e2d2c2 | d4B4 |
+| d4d2e2 | f2e2f4 | d2e2f2^g2 | e8 :|
+|: c'4e'2c'2 | b4d'2b2 | a4g2f2 | a8 |
+| f2g2f2d2 | e2f2e2c2 | d2e2^f2^g2 | a8 :|
+S:https://www.folktunefinder.com/tunes/169381
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/katushka-counterpoint.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

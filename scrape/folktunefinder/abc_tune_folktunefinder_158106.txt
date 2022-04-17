@@ -1,0 +1,26 @@
+X: 1
+T: Fisher's Hornpipe
+C: R-19
+C: British Isles, American
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: F
+c2| "F"fcAc "Bb"BdcB| "F"AcAc "Bb"BdcB| "F"AFAF "Bb"BGBG| "F"AFAF "C"G2c2|
+    "F"fcAc "Bb"BdcB| "F"AcAc "Bb"BdcB| "F"ABcd "C"efge| "F"f2f2 f2 :|
+|:\
+ef| "C"gece gebg| "F"afcf afba| "C"gece geba| "G"gfed "C"c2Bc|
+    "Bb"dBFB dBfd| "F"cAFA cAfc| "Bb"dfed "C"cBAG| "F"F2F2 F2 :|
+%%text 9/1/98.  Usually played in D (see R-24).
+S:https://www.folktunefinder.com/tunes/158106
+S:http://roaringjelly.org/music/reel/R019_Fishers_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R019_Fishers_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R019_Fishers_Hornpipe.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:1
+T:Der zrissnae Kiedl
+C:traditionell
+R:Zwiefach
+A:Franken, Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer Drehleier", Barbara Behringer (anm: verh. Grimm), Der Verlag mit der  Blume, 4.Auflage, Nuernberg 1988
+N:dort ganz in C, einstimmig, Seite 45
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 4/4
+L:1/4
+K:C
+G |\
+c2 e2 | d2 f2 | G>A B | c2 :|
+g |\
+f d g | e c g | f d g | e c G |
+c2 e2 | d2 f2 | G>A B | c2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153141
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/der_zrissnae_kiedl.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

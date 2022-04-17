@@ -1,0 +1,42 @@
+X:2873
+T:Frykdals=dans Rheinlender.
+T:(Schottish Pas de Quatre)
+C:anon.
+O:Norway
+S:Eidsvollmusikk II no. 81
+R:Reinlender, scottish, pas de quatre
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/frykdals-dans/frykdals-dans-1.abc
+M:C
+L:1/16
+K:G
+"^Moderato""_f"G4B3c d4e4|(e4d4)F8|A8c4d4|Hf8||
+M:2/4
+L:1/16
+"^Dans""_pp"G2B>c d2e2|(Me2d2)d4|G2B>c d2g2|(Mg2f2) f3e|
+d>ef>g a3b|c'>bc'>b a3f|d>ef>g a>bc'>b|
+(Ma2g2)[g4B4]::[g2g'2](bd') (gb)(dg)|f>ga>b c'2c'2|[e2e'2](ac')
+ (fa)(df)|({a}g)fgb d'2d'2|[g2g'2](bc') (gb)(dg)|f>ga>b c'2c'2|
+[e2e'2](ac') (fa)(df)|[1g2g2g2 z2:|[2g2g2"_Fine"g2||Hx2 (EG)|:\
+K:C
+e2ed (cB)ce|
+a2af d3c|Bcde fGAB|cdef gfdG|e2ed
+(cB)ce|a2af d3c|Bcde fgab|[1c'2c'2c'2 (eg):|[2c'2c'2c'2z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159544
+S:http://abc.musicaviva.com/tunes/norway/frykdals-dans/frykdals-dans-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/frykdals-dans/frykdals-dans-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/frykdals-dans/frykdals-dans-1.abc
+% Rhythm Reinlender, scottish, pas de quatre
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

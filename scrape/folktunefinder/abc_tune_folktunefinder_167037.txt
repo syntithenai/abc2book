@@ -1,0 +1,23 @@
+X: 1
+T: Jack on the Green
+R: slipjig
+B: Rutherford's Compleat Collection, London 1756
+B: Kate Van Winkle Keller & George A Fogg, "No Kissing Allowed in School!" A Virginia Dancing School in 1784
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: G
+|:"G"G2A G/A/BG "D7"A/B/cA |  "G"B2d "D7"dAc "G"B2G \
+| "G"G2A G/A/BG "D7"A/B/cA | "D7"f2g     gdc "G"B2G :|
+|:"G"g2b "D7"afd "C"e/f/ge |  "D"f2a "A7"aeg "D"f2d \
+| "G"g2b "D7"afd "C"e/f/ge |  "D"f2g     gdc "G"B2G :|
+S:https://www.folktunefinder.com/tunes/167037
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/slipjig/JackOnTheGreen_G.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

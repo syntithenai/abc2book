@@ -1,0 +1,28 @@
+X:9
+T: Koenig und Marquise
+N: Q1035A
+O: Mitteleuropa, Deutschland
+N: Geistliche Melodie, Ursprung der Balladenmelodie 
+N: Schlusstakt rhythmisch korrigiert.
+R: geistlich
+M: 6/8
+L: 1/16
+K: E
+B2 | B4A2=G4E2 | B2=d4B4
+=c2 | B2B2A2=G4E2 | B2=d4B4
+B2 | e4e2=d4B2 | =d4=c2B4
+c2 | B2B2A2=G2G2E2 | B2=d4B4
+B2 | e4e2=d4B2 | =d4=c2B4
+c2 | B4A2B3A=G2 | F4=G2E4F2
+=D4E2E2E4 | E6-E4
+S:https://www.folktunefinder.com/tunes/151538
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

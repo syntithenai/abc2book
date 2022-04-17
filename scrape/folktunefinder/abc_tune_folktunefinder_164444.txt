@@ -1,0 +1,28 @@
+X:1
+T:Hirtenpolka
+C:traditionell
+R:polka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:von Simon Wascher eingerichtet nach: "Die Sackpfyf schoen Macht siss gethoen", 43 Volkstaenze u. Schaeferlieder aus Schwaben, compilation G.Balling, publisher Schwaebischer Albverein, Stuttgart 1997
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+g>d gb | g>d gb | a/b/c' f2 | g/a/b g2 |
+g>d gb | g>d gb | a/b/c' f>a | gb gz :|
+|:\
+df fe | ed b2 | dc a2 | cB g2 |
+ge e2 | gd d2 | f>e de | gb g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164444
+S:http://simonwascher.info/TradArchiv_polka/hirtenpolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

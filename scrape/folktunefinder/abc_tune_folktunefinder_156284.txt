@@ -1,0 +1,36 @@
+X:1
+T:Epscher
+C:traditionell
+R:polka schnell
+A:'Obersdorf', Galizien (Ukraine)
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 7
+N:im buch ganz in C, einstimmig, 1. ton e'', ambitus g' - c'''
+%%endtext
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+uc |\
+(g3 f) | (e3 d) | cc ag | f3 d |\
+(f3 e) | (d3 c) | Ba gB | c3 :|
+g |\
+ag fd | ec cg | c'a fa | g2 zg |\
+c'g (f/e/)d | ec cg | ad fB | c3 :|
+c |\
+G2 e2 | d2 g2 | g(^f/g/) ba | g2 e2 |\
+G2 e2 | d2 g2 | (g>a) (g/f/e/d/) | c3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/156284
+S:http://simonwascher.info/TradArchiv_polka/epscher.abc
+% Rhythm Polka schnell
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:Goudsche Pijpendans
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P: AB AB AC AC AB AB AB
+L:1/8
+M:6/8
+K:D
+P:A
+f>ga a>gf | e2 c d2 e | f2 e d2 e | f>ga d3 | f>ga a>gf | e>fd c>BA | B>cd e>dc | d3 D3 :|
+P:B
+B2 B e2 e | c2 e A3 | e2 e a2 g | f>ga d3 | e2 f g2 f | e2 d c2 A | B>cd e>dc | d3 D3 :|
+P:C
+a | f3 d2 a | f3 d3 | B>cB B>cd | efd cBA | ede efg | aga bag | fed e>dc | d3 D2 :|
+S:https://www.folktunefinder.com/tunes/161888
+S:http://user.online.be/~bvanhaverbeke/abc/Goudsche%20pijpendans.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

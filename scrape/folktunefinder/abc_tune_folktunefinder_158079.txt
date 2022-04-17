@@ -1,0 +1,23 @@
+X: 1
+T: Fisher's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3def|:gdBd cedc|BGBd cedc|BGBd Bedc|
+BdcB AB (3def|gdBd cedc|BGBd cedc|
+defg agfa|1 g2 b2 g2 (3def:|2 g2 b2 g2 fg||
+|:afdg afdg |bgdg bgdg|afdf ad'_d'b|
+agfe dg=fg|ecGc egfe |dBGB dgfe|
+defg fgaf|1 g2 b2 g2 fg:|2 g2 b2 g2||
+S:https://www.folktunefinder.com/tunes/158079
+S:http://www.thesession.org/tunes/display/872
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T:Jig
+R:Jig
+O:Ireland
+M:6/8
+K:D
+D|\
+ABA D2d|d=cA AGE|ABA ABc|dAB cde|\
+ABA D2d|d=cA AGE|ADA Ade|fdc d2::
+e|\
+fdd edc|Add cde|fdd edc|ABc def|\
+g2e age|ed=c cAG|ABA Ade|fdd d2:|
+S:https://www.folktunefinder.com/tunes/167715
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ji/Jig_9.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

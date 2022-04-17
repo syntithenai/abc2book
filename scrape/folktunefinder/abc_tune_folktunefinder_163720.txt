@@ -1,0 +1,25 @@
+X:0499
+T:The Heart Bowed Down    (air)     0499
+C:Maestro Michael Balfe (1808-1870)
+C:slow
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+N:NOTE:First Section is TEN Bars
+Q:1/4=70
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_vb"D2|B2(.B2.B2.B2)| (3(BAD) A4d2|d2B2d3/2c/2  (3(AEF)|G4z2D2|B2(.B2.B2.B2)|
+ (3(BAD) A4d2|d2B2^c2  {dc}BA|A2^A2B2(^cd)|(dF) "^rall."(BA)  (3(^ABC) HF3/2E/2|D6z2||
+A2(.A2.A2.A2)| (3(AGB,) D4G2|F2F2G2 d2B2d2(cA)|_B6G2|
+=B3B c3A|(^d4 He2)(GA)|B3A Hc3B|G4z2|]
+S:https://www.folktunefinder.com/tunes/163720
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0499-HeartBowedDown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

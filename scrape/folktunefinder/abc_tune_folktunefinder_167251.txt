@@ -1,0 +1,19 @@
+X: 1
+T:James Byrne's
+M:9/8
+K:D
+L:1/8
+L:1/8
+A | "D"dfa adf dcd | "G"Bcd "A7"efd cBA | "D"dfa adf dcd |1)
+"G"Bcd "A7"edc "D"d3 :|2)  "G"Bcd "A7"edc "D"def |\
+"A7"ecA ABA ecA | "D"d2e fef agf |  "A7"ecA ABA ecA  |1)
+"D"d2e "A7"fdc "D"d2f :|2) "D"d2e "A7"fdc "D"d3|
+S:https://www.folktunefinder.com/tunes/167251
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/James_Byrnes_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

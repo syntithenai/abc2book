@@ -1,0 +1,25 @@
+X:1
+T:Gabriel
+C:Valse traditionnelle Cajun, abc file by Bernard Loffet
+L:1/8
+Q:200
+M:3/4
+K:C
+z4[GG,]G|[c2C,2][cC,]c[dG,]d|[e2C,2]C,2[eC,]f|[g2C,2][gC,]g[eC,]c|[d2G,2]G,2[dG,]e|[f2F,2][fF,]f[fF,]f|[f2F,2]F,2[fF,]f|[e2C,2][eC,]e[dG,]d|[c2C,2]C,4| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/159703
+S:http://diato.ifrance.com/diato/tablat/85.abc
+S:http://diato.ifrance.com/tablat/85.abc
+S:http://diato.org/tablat/85.abc
+S:http://perso.orange.fr/diato/tablat/85.abc
+S:http://perso.wanadoo.fr/diato/tablat/85.abc
+S:http://pro.wanadoo.fr/diato/tablat/85.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/85.abc
+S:http://www.diatonique.net/tablat/85.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/tablat/85.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

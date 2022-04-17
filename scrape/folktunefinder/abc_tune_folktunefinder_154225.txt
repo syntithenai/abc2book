@@ -1,0 +1,29 @@
+X:502
+%%topmargin 3cm
+U:~=!turn!
+U:n=!diminuendo(!
+U:p=!diminuendo)!
+T:Down the Burn Davie Lad*
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:C
+L:1/8
+K:D
+"Slow with feeling."!1!d>!2!e | {/d}!3!f>!2!e!1!d!1!B !4!A!2!F!1!E>!0!D "X"| {/D}!2!F!4!A !2!Ad d3 e "X"| ~!3!f>!2!e!3!f!0!a A!3!d!4!g!3!f | !3!f2 !2!e2 z2 d>e | f>edB AFE>D | FA Ad d3 e |
+!3!f>efa A!3!d!3!f>e | !2!e2 !1!d2 z2 f2 | !2!e!1!d!2!e!3!f !1!B3 f | !2!edef LB3 c | !3!dedB A!3!dg>f | f2 e2 z2 de "a"| !3!f>!4!g!3!f>!3!d B>c d2 "b"| !3!g>!4!a!3!g>!2!e !2!c>!3!d !4!e2 |
+"c" !3!a>!4!b!3!a>f !1!d>!2!e!3!f!3!d | A!3!d!3!f>e e2 d z "d"| !f!(!2!F!1!E !0!D2) !p!!1!d!2!e !p!f2 "e"| !f!(!3!G!2!F !1!E2) !p!!2!e!3!f !p!!4!g2 "f" | !f!(!0!A!3!G !2!F2) HLfg !0!a>!4!g | !f!!3!f>e!f!f<!0!a !p!d>B!p!AF |n !2!A!1!d!3!f>!2!e e2 pd2 |]
+xxxx [|] xxxx "X"| D2 FA !2!A2 B/3c/3B/3A/3B/3c/3 !0!d3 e "X" |xxxx [|] xxxx
+S:https://www.folktunefinder.com/tunes/154225
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Down_the_Burn_Davie_Lad_.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0502.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

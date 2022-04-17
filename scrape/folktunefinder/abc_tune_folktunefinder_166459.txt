@@ -1,0 +1,18 @@
+X:6
+T:
+T:Variation IV.
+M:3/4
+L:1/16
+%%MIDI transpose -24
+K:Bb bass
+%1
+z4 | B,DFBdf dBFDFD B,DFBdf | B,DFBdf dBFDFD B,DFBdf |
+S:https://www.folktunefinder.com/tunes/166459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

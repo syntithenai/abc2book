@@ -1,0 +1,18 @@
+X:1
+T:Early One Morning
+M:4/4
+L:1/4
+K:C
+ c2 c c| c- e g g| a f d c| B- d G2| c2 c c| c e g g| a- f d B| c4|\
+ d2 e f| g- e c2| d2 e f| g- e c2| c- e g c'| b- a g- f| e- d c B|\
+ c4|
+S:https://www.folktunefinder.com/tunes/155409
+S:http://back.numachi.com:8000/dtrad/abc/EARLY1AM.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/EARLY1AM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

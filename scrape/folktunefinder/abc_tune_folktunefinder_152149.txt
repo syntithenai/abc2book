@@ -1,0 +1,26 @@
+X:117
+T: Die Schlangenkoechin
+N: Q2079H
+O: Osteuropa, Tschechoslowakei, Slowakei
+N: Slowakische Fassung der Ballade. Verzierung (Nachschlag) in der
+N: zweiten Zeile. Zweite, vierte und sechste Zeile = Refrain.
+R: Ballade, Mord; Reigen - Tanz, antiphonal
+M: 2/4
+L: 1/8
+K: D
+ | AAAA | A2=F2
+=cc_BG | A2z2
+=FED2 | GG2A | _BAG2 | =FA2A
+DEFE | D2z2
+=FED2 | GG2A | _BAG2 | =FA2A
+DEFE | D2z2
+S:https://www.folktunefinder.com/tunes/152149
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord; reigen - tanz, antiphonal
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

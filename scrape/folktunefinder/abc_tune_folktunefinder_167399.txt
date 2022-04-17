@@ -1,0 +1,29 @@
+X:1
+T:Jean de la Lune
+C:Chanson enfantine traditionnelle, fichier abc : Bernard Loffet
+L:1/8
+Q:300
+M:6/8
+K:G
+ [GG,,]G[GG,] [GG,,]D[GG,] | [B2G,,2][GG,] [D2G,,2]G, | [BG,,]B[BG,] [BG,,]G[BG,] | \
+ [d2D,,2][BD,] [G2G,,2]G, | [GG,,]G[GG,] [GG,,]D[GG,] | [B2G,,2][GG,] [D2G,,2]G, | \
+ [D2D,,2][dD,] [D2D,,2][dD,] | [G2G,,2]G, [DG,,]G[BG,] | [d2D,,2]D, D,,2D, | [B2G,,2]G, [DG,,]G[BG,] | \
+ [d2D,,2]D, D,,2D, | [G2G,,2]G, G,,2G, | \
+K:C
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/167399
+S:http://diato.ifrance.com/diato/tablat/149.abc
+S:http://diato.ifrance.com/tablat/149.abc
+S:http://diato.org/tablat/149.abc
+S:http://perso.orange.fr/diato/tablat/149.abc
+S:http://perso.wanadoo.fr/diato/tablat/149.abc
+S:http://pro.wanadoo.fr/diato/tablat/149.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/149.abc
+S:http://www.diatonique.net/tablat/149.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

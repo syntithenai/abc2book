@@ -1,0 +1,20 @@
+X: 1
+T: Ka-Foo-Za-Lum
+R: shottish, reel
+Z: John Chambers <jc@trillian.mit.edu>
+N: Children's song known through out the British Isles.
+M: C|
+L: 1/8
+K: G
+|: "G"d2 d>c B>c d2 | "D7"A>B c>B A>B c2 | "G"d2 d>c B>c d2 | G>A B>G "D7"A2 "G"G2 :|
+|: "G"B>G D>G B>G B2 | "Am"c>A E>A "D7"c>A c2 | "G"B>G D>G B>G B2 | G>A B>G "D7"A2 "G"G2 :|
+S:https://www.folktunefinder.com/tunes/169157
+S:http://trillian.mit.edu/~jc/music/book/500/KaFooZalum.abc
+% Rhythm Shottish, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

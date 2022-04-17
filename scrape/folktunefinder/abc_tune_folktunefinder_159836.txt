@@ -1,0 +1,31 @@
+X:1
+T:Galop du Coglais
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:C
+T:Galop
+Q:3/8=180
+M:6/8
+L:1/16
+K:C
+G2 | "C"(G6 G4) G2 | (G6 G4) e2 |: e2d2c2 G4 e2 | e2d2c2 G4 e2 |1\
+"G"d4 c2 d4 g2 | "C"e6 c4 e2 :|2 "G"d4 c2 d4 B2 | (c6 c6) |]
+T:polka
+M:2/4
+L:1/16
+K:C
+"C"e4 "G"d2c2 | B2A2 "C"G4 | e4 "G"d2c2 | B2c2 d4 | "C"g4 g2f2 |1\
+e2d2 e2c2 :|2 e2d2 c4 |]
+S:https://www.folktunefinder.com/tunes/159836
+S:http://termen.free.fr/danses/rennais/GalopduCoglais.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

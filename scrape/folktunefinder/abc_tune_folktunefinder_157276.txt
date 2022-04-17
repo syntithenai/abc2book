@@ -1,0 +1,23 @@
+X:2
+T:Polska fr{\aa}n V\"armland
+R:polska K1
+A:V\"armland
+Z:id:hn-k1-2
+M:3/4
+L:1/8
+K:A
+(3efg a2 a>b | (3agf e2-e>e | f2 de c>d | e<f Pfe e>c |
+S(3dBd (3cAc B>G | S(3ABc [B4E4] | (3efg a2 a>b | (3agf e2-e>e |
+f2 de c>d | e<f Pfe e>c | S(3dBd (3cAc B>G | S(3ABc A4 :| 
+|: cB Ac E>A | ec df e>c | S(3dBd (3cAc B>G | S(3ABc [B4E4] | 
+cB Ac E>A | ec df e>c | S(3dBd (3cAc B>G | S(3ABc A4 :|
+S:https://www.folktunefinder.com/tunes/157276
+S:http://www.norbeck.nu/abc/s/hnk1p0.abc
+% Rhythm Polska k1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

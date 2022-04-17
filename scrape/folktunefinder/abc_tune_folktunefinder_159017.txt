@@ -1,0 +1,25 @@
+X: 1
+T:Foul Weather Call
+C:Welch MS
+N:bar14 as per STB. 1st note G not F# in the version I copied
+N:Changed back to G in my version BC
+M:4/4
+L:1/8
+K:D
+gfed e2a2|gfed dcBA|d2A2BcdB|g2f2e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2D4:|
+|:GFED A2A2|Bcde dcBA|d2A2BcdB|g2f2e4|
+gfed e2a2|gfed dcBA|d3A BcdG|F2E2D4|
+:|
+S:https://www.folktunefinder.com/tunes/159017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fo/Foul_Weather_Call_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fo/Foul_Weather_Call_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 3
+T: Lapin  tango
+C: Unto Mononen (1964)
+R: tango
+M: C
+L: 1/8
+K: Am
+"I"\
+[|"Am"C/D/C A,C FE {FE}CA, | "Dm"F/G/F DF BA {BA}FD | "E7"^G/A/G EG cB {cB}GE \
+|1 "Am"BA {BA}EC "E7"ED {ED}B,^G, :|2 "Am"A2 "E7"E2 "Am"A2 |]
+EF \
+"A"\
+| "Am"E2 ^DE "A7"A2 EF | "Dm"E2 D4 B,C | "E7"B,2 ^A,B, E2 B,D | "Am"C6 EF \
+| "Am"E2 ^DE "A7"A2 EF | "Dm"E2 D4 B,C | "E7"B,2 ^A,B, E2 B,C | "Am"A,6 |]
+|: AA \
+"B"\
+| "G7"G2 DE F2 E^D | "C"F2 E4 cc | "B7"B2 ^F^G A2 GA | "E7"B6 EF \
+| "Am"E2 ^DE "A7"A2 EF | "Dm"E2 D4 B,C | "E7"B,2 ^A,B, E2 B,C | "Am"A,2 E2 F2 E2 |]
+"C"\
+[| "Am"A,3 B, C4- | "Am"C2 ^DE F3 C | "Dm"E4 D4- | D2 D2 E2 D2 \
+| "E7"^G,3 A, B,4- | B,2 D^D E3 B, | "Am"C8- | C2 A,2 "Gm6"_B,2 "A7"A,2 |
+| "Dm"D3 E F4- | "G7"F2 D2 E2 F2 | "C"F4 E4- | E2 C2 D2 E2 \
+| "Am6"E4 "B7"^D4- | D2 ^DE ^F2 EF | "E7"^G8- | G6 |]
+EF \
+"D"\
+| "Am"E2 ^DE "A7"A2 EF | "Dm"E2 D4 B,C | "E7"B,2 ^A,B, E2 B,D | "Am"C6 EF \
+| "Am"E2 ^DE "A7"A2 EF | "Dm"E2 D4 B,C | "E7"B,2 ^A,B, E2 B,C |1 "Am"A,6 :|2 "Am"A,2 z2 "E75"H[E4C2] |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/155423
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tango.abc
+% Rhythm Tango
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

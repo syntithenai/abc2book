@@ -1,0 +1,22 @@
+X:1
+T:The Fife Hunt
+C:William Gow
+R:reel
+G:fiddle reel, early 18th cent.
+M:C|
+Q:1/2=120
+K:C
+f| ec c2 GE E2| D d2 ^c d2 df| ec c2 GE E2| G c2 B c2-cf|
+   ec c2 GE E2| D d2 ^c d2 df| ec c2 GE E2| A c2 B c2-c:|
+f| ecgc acgc| D d2 ^c d2-df| ecgc acgc| G c2 B c2 cf|
+   ecgc acgc| D d2 ^c d2-df| egcg fadf| G c2 B c2 c:|
+S:https://www.folktunefinder.com/tunes/157722
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/TheFifeHunt.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/TheFifeHunt.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

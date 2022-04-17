@@ -1,0 +1,60 @@
+X:8298
+T:H\"okpers vals
+C:Lars H\"okper, arr. John Chambers
+O:Sweden
+A:Sv\"ardsj\"o
+N:Harmony by John Chambers <jc@trillian.mit.edu>
+R:Vals, waltz
+Z:1997 by John Chambers <jc@trillian.mit.edu>
+F:http://abc.musicaviva.com/tunes/hokper-lars/hokpers-vals.abc
+%Posted April 10th 2002 at abcusers by John Chambers
+M:3/4
+L:1/8
+K:Dm
+V: 1
+|: A2 \
+| "Dm"d3 efa | "Gm"g3 fed | "A7"^c2 A3G | "Dm"F4 D2 \
+| "Dm"F2 EF AG | "C"E4 c2 | "G"=B2 GA Bd | "A7"A4 ^c2 |
+V: 2
+|: z2 \
+| "Dm"F3 GA2 | "Gm"B3 AGF | "A7"E4 ^c2 | "Dm"d4 A2 \
+| "Dm"d2 A2 F2 | "C"c2 G2 E2 | "G"D4 D2 | "A7"^C2 D2 E2|
+V: 1
+| "Dm"d3 efa | "Gm"g3 fed | "A7"^c2 A3G | "Dm"F4 "A7"E2 \
+| "Dm"D2 ^CD EF | "Gm"AG G3E | "A7"F2 E2 D^C | "Dm"D4 :|
+V: 2
+| "Dm"F3 GA2 | "Gm"B3 AGF | "A7"E4 ^c2 | "Dm"d4 A2 \
+| "Dm"F4 A2 | "Gm"d4 B2 | "A7"A4 AG | "Dm"F4 :|
+V: 1
+|: A2 \
+| "Dm"AF FD FA | AF FD FA | A2 G2 zF | "A7"E4 G2 \
+| GE E^C  EG | GE E^C  EG | G2 A2 zE | "Dm"F4 A2 |
+V: 2
+|: f2 \
+| "Dm"fd AF Ad | fd AF Ad | f2 e2 zd | "A7"^c4 e2  \
+| e^c AE Ac | e^c AE Ac | e2 f2 zg | "Dm"a4 f2 |
+V: 1
+| "Dm"AF FD FA | AF FD FA | "D7"A2 d3c | "Gm"B4 B2 \
+| B2 c2 zB | "Dm"A4 F2 | "A7"GF E2 D^C | "Dm"D4 :|
+V: 2
+| "Dm"fd AF Ad | fd AF Ad | "D7"^f2 g3 a | "Gm"g4 g2 \
+| g2 a2 zg | "Dm"f4 d2 | "A7"^c2 AB AG | "Dm"F4 :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/164513
+S:http://abc.musicaviva.com/tunes/hokper-lars/hokpers-vals.abc
+S:http://abc.musicaviva.com/tunes/hokper-lars/hokpers-vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/hokper-lars/hokpers-vals.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/hokper-lars/hokpers-vals.abc
+% Rhythm Vals, waltz
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

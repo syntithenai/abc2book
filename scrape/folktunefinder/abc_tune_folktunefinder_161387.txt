@@ -1,0 +1,20 @@
+X:13
+T:Gloire au Christ, Parole ternelle - A7
+M:3/4
+L:1/8
+%%staves {1 2 3}
+K:G
+"Re"D2D|A2A|"Do"GFG|"Fa"A2B|"Lam"cBc|"Re"A3||A2G|A2c|A3||
+V:2
+D3|F3|C3|C3|E3|F3||F2E|F2G|F3||
+V:3
+D,3|D,3|E,3|=F,3|A,,3|D,3||[D,,3D,3]|[D,,3D,3]|[D,,3D,3]||
+S:https://www.folktunefinder.com/tunes/161387
+S:http://moinejf.free.fr/messe/messeG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:930
+T:Minuet
+T:(Flute duet version)
+C:Ludwig van Beethoven
+O:Germany
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be-min01-2fl/be-min01-2fl.abc
+%This is the version for two flutes. The other versions of the same
+%piece at Musica Viva are basically just transpositions and clef
+%variations so I have not bothered to make ABCs of each one.
+%The dynamics etc. in this ABC has been formatted to work with BarFly.
+%See below for an abc2ps version of the file.
+V:1 Program 1 73 %Flute
+V:2 Program 2 73 %Flute
+M:3/4
+L:1/4
+Q:138
+K:G
+V:1
+"mf".d|.b.c'.d'|(d'>bg)|.f.g.a|(a>fd)|"cresc."(g/f/g/a/b)|
+S:https://www.folktunefinder.com/tunes/158759
+S:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be-min01-2fl/be-min01-2fl.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+% Rhythm Minuet
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

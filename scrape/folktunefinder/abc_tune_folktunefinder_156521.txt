@@ -1,0 +1,19 @@
+X: 1
+T: Il bianco e dolce cigno
+T: (excerpt)
+C: Jacob Arcadelt (1514 - 1557)
+M: C|
+L: 1/4
+K: F
+B>AGc|ABG G/ G/ |c>BA>G|FAd>c|B>AGc|
+w: mort' il d\`i sa-rei con-ten-to, di mil-le mort' il d\`i, \
+w: di mil-le mort' il d\`i sa-
+> However, abcm2ps does not support the &quot;\c c&quot; notation
+> that appeared in your table. You probably meant &quot;\cc&quot; 
+S:https://www.folktunefinder.com/tunes/156521
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07076.html
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

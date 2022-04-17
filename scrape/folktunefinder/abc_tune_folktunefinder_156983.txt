@@ -1,0 +1,126 @@
+X:13
+T:Fantasye 1
+L:1/4
+M:C|
+K:CM frenchtab
+%%stretchstaff false
+%%staffsep 35pt
+%%text /a = Eb
+,d2 ,b1.,a |\
+,,d1.,b [,ab].,,a |\
+,,,c1[,ab] [fc,e].,e |\
+[da,c1].c [a,d][da] |\
+[c,,a1].,,d [a,,,d][,ac,c] |\
+[,b,ca1][,,d,d] ,,,,c[,dc] |\
+[b,d,a1].a ,,,,d[,daa/].,b |\
+[,acc1].,b ,,,d/.,,d,d1 |\
+,,b/.,,,c[,bd1] [,a,c].,,c |
+% Takt 10
+[,,dca1].,b [,ab,,d].,,,,,c |\
+[a,b,,a1][,a,,,d] [,dd,,c].,b |\
+,,,,,a/.,d[,ab1] [,,d,d].,b |\
+[ba,a1][a,,c] [,bdd].,d |\
+,,,c/.,d[,bd,a1] [,a,c].,,,,,e |\
+[,,d,a1].,b ,,b/.,a[,ca].,d |\
+[a,,c/].,,a[,ab].,c [,da1][,b,c] |\
+[,,,df1].,,f [f,d,a],,b/.,,a |\
+[d,,c1][c,a] [a,b/].,,d[da].,c |
+% Takt 18
+[cd,a1].,,d [a,,,d/].,b[,d,,c].,,c |\
+[,b,,a/].,d[a,,,d].c :d.,,,,c,,,,d.,,,,a |\
+[,a,,c/].cd.a [b,,,a].a,b.,d |\
+[,a,c/].,b[,,dd].,a [,,cc].,,,a[,,d,d].,,,,c |\
+[,b,,a/].,,,,,d[,d,,,b].,,,,,a [,,d,,b].,a,b.,d |\
+[a,b,,a/].,,d,a.,,b [,b,,,a].,,,,,c[,a,,,e].,,,,,a |
+% Takt 24
+[,b,,a/].,d[a,,c].,b [b,d].,a[ab].,,d |\
+f/.,,a,,,a.d :c[a,,,d][,ea,c].,,,,a |\
+[aa,,,e/].,d[,bdca].,,,,c [,,d,d][,a,a],,,c[,,dd] |\
+[,,cc,a1][,,da,c] :,d/.,,,,,d[,cdca1] |\
+[,ddd{a}1][,,da,b] [,b,c,a].[,ac] |\
+[,,d,e1].f ,,,a/.d[b,d].,a |\
+[ab1][i,,h] ,,g/.h[f,i1] |
+% Takt 31
+[df1][a,,c] ,,b/.,d[,bd1] |\
+.[,af1][d,,,,a] ,,,,,d/.[ca][ab,,a1] |\
+[,ea,c1][ha,,,h] ,,,a/.f[dc,c1] |\
+[cd,a1].,,,,c [,da/].,,,,a[aa,,,d1] |\
+[,ed,,c1][a,,c,a] ,,b/.,,,a[,,d,d1] |\
+[,aa,c1],e/.,,,,a [aa,,,d1][c,d,,c] |\
+[d,,,,a1].[,ab] ,d/.,,a[a,bc1] |\
+[,da,c1][,ab] [,b,ca][,,de] |
+% Takt 39
+[,ab,,d1].[,ab] ,d/.,,a[aa,c1] |\
+[ca,b/].,,d[d,bc1] [,a,,c/].c[abb,d1] |\
+[,d,,,d/].,,a[,b,c1] ,,,a.[,ab] |\
+[,bbc{,a}1].a d.,,,c |\
+[,bd/].,da.,,b ,,,d,d//.,b ,d1 |\
+[ab,c/].,a,,b[,,de] [,ab].,d[,b,c].,a |\
+[,,dd/].,a[,b,c].,,,,d [,a,a].,,,,c[,,d,d].,,,a |
+% Takt 46
+[,,bc/].,b,,d[,a,a] [,,cc][,,d,a],,,,,a.,,c |\
+[,,dca{,,,a}/]:,a//.,b ,d.ac.e [f,,,a/]:e//.c a.,d,b.,a |\
+[,bd//].,da.,b [,d,,c].ab.d [a,,,d].da.b d.,b,d.a |\
+[bbd,,b1].a [,dgf,d].,,f |
+% Takt 50
+[,fg{,a}1].a [,db/][a,,c][,b,d][,d,a] |\
+.[,a,c1][,b,c{,a}] [,a,a{a}/].[,b,c][,,d,d][,a,a] |\
+[,,bc,a1].[da] [cd/][da][ab][c,d] |\
+[,ea,c1][a,,,,e/].,a [,b,,a].,d[,a,,,a].,b |\
+[,,da,b/]:,a//.,b :,d/.,,,,,a {a}//.ab.d b/.,a |
+% Takt 55
+[abb{,a}1][,d,,c/][,b,,a] [,db,,d].,,,,,b[,bb,,a].,a |\
+[,,dd,b/].,,,,,a[,aaa{a}][,,d,d] [,,ccca1]:a/.,d |\
+[,cdca1][b,d] [a,b][f,,d] |\
+[df,,d1][i,,,a] [ha,,,a].,,,g |\
+[abd1][f,,,a] [caa,c].,e |\
+[aa,,,e/]>.,d ,b.,d,a/ [,b,,a//].,,a,,b.,,d ,a.,b,d.,b |
+% Takt 61
+[,a,,,a//].,,,c,,a.,,c ,,d.,a,b.,d [a,,,,d].,,a,,b.,,d ,a.,b,d.,a |\
+,,,,d//.,a,b.,d a.bd.a [b,,a].a,d.,b ,a.,,d,,c.,,a |\
+,,,c//.,,,a,,,,d.,,,,c ,,,,a.,,,,,d,,,,,b.,,,,,a {a}/:,d//.,b [,a,,,a].,,d,a.,,c |
+% Takt 64
+[,,dca{,,,a}1].a c[f,d] |\
+[da1],d/.c [ab1],,,c/.,a |\
+[,dde1][,bd] [,ab],,,,c/.,,a |\
+[,,,cd1][aa,c] [c,,a][f,d/].,,,,d |\
+[da,,c1],d/.c .[ab1],,,,,a/.,a |\
+[,,d,,c1][,,,ca/].,,a [,,b,,d].,,,c:,a.,,,,,c |\
+[,b,,,a1][a,,c] [,da],,d/.,b |\
+.[,ab1],,,,,d/.,,a [,,,ca1][a,,,d] |
+% Takt 72
+[cd,,c1][f,a,a] [,db,,d].[da/].,,,,,c |\
+[,,b,,a/].c[a,,,d1] [,dda].,,,d |\
+.[,a,c1][a,b{,a}] [,d,d{a}][,,,a,b] |\
+[,b,c,a1]:,a/{a} [,,dc{,a}1][,ba{,,,a}] |\
+[,ac,,a1][,,dca{,,,a}] [,ad,,a].[a,c] |\
+[,,d,,c/].,d[,b,,a1] [,a,,,e][,a,c] |\
+[,b,,a1][a,,c] [,d,d].,,d |\
+[,bb,,a1][,a,,,d] [,,da][,d,,,c] |
+% Takt 80
+[,,ba,d/];,a[,d,,c1] [,bd,d][,,bc] |\
+[,aab1].c [d,,c][a,b/].,,d |\
+[,ef1],,,,c/.,,d [a,b,d1][,,d,a] |\
+[,a,c,e1][acd,a] [cdd{a}].f |\
+[eff,,a1].,d [fcd,,c][dab,,d] |\
+[,dd{a}1]:c/.,b .[dab1],,,,,d/.c |\
+[a,d,a1][,,b,d] [,db],,,,c/.,,,d |\
+[,bbcd1]{,a} [,a,d{a}][,,da,b] |
+% Takt 88
+[,,cc,a1]:,a/{a} [,b,c{,a}1][a,d{,,,a}] |\
+.[,dda1]{a}/.,b [,ab,,a1][,,,a,d] |\
+[,,da,b1].,,,,,a [,ddd{a}].[,bd] |\
+[,a,c,a1].[a,d] ,,b/.,d,,,d.,b |\
+[,,,c,a/].,a,b.,,d ,,c.,,,a,,,,d.,,d |\
+[aaccca1],,,,d/[,d,a] ,,,c.,b.[,ac1] |\
+[,cdc{,,,a}1][,gd,f] [,f,,e/].,,,f[,ddd{a}1] |\
+H[acdc{,,,a}4] |]
+S:https://www.folktunefinder.com/tunes/156983
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T: Jackson's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DED DdB |AGF FdB |AGF dAF |E3/2E/E GFE |
+DED DdB |AGF FdB |AGF BGE |DED D z A, |
+DED DdB |AGF dcB |AGF (dA)F |E/E/EE GFE |
+DED dcB |AGF dcB |AGF BGE |DED Dag |
+fed dA[BG] |efe efg |fed d(AB) |(de)d dBA |
+fed dAB |efe efg |a3 gec |d/d/dd d z e |
+fed dA[GB] |efe efg |fed d(AB) |(de)d dBA |
+fed dAB |efe efg |afd gec |fdB AFE |
+D/D/DD DdB |AGF [A,F] z B |AGF dAF |E3/2E/E GFE |
+DED dcB |AGF dcB |AGF BGE |DED A,A,/A,/A, |
+DED DdB |AGF [FA,] z B |AGF dAF |E3/2E/E GFE |
+DED DdB |AGF FdB |AGF BGE |DED Dag |
+fed dA[GB] |efe efg |fed d(AB) |(de)d dBA |
+fed dAB |efe efg |a2 a gec |dfe d z e |
+fed dA[GB] |efe efg |fed d(AB) |(de)d dBA |
+fed dAB |efe efg |a2 a gec |dfe d2 z |]
+S:https://www.folktunefinder.com/tunes/167079
+S:http://www.thesession.org/tunes/display/5442
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

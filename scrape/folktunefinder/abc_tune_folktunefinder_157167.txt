@@ -1,0 +1,30 @@
+X: 1
+T: Farewell to the Tay
+O: Old pipe tune
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+e \
+|: "A"A>AA cBA | e2A "D"fec \
+|  "A"A>AA "F#m"cBA | "D"fec "E7"B2 e \
+|  "A"A>AA cBA | e2A "D"fec \
+|  "A"a2e "F#m"fec | "E7"edB "A"A2 :|
+e \
+|| "A"a2e fec | Ace "D"fec \
+|  "A"a2e "F#m"fec | "Bm"Bce "E7"f2e \
+|  "A"a2e fec | Ace "D"fec \
+|  "A"a2e "F#m"fec | "E7"edB "A"A2e ||
+|| "A"a2e fec | Ace "D"fec \
+|  "A"a2e "F#m"fec | "Bm"Bce "E7"f2e \
+|  "A"A>AA cBA | e2A "D"fec \
+|  "A"a2e "F#m"fec |1 "E7"edB "A"A2 |]2 "E7"efg "A"a2 |]
+S:https://www.folktunefinder.com/tunes/157167
+S:http://trillian.mit.edu/~jc/music/book/500/FarewellToTheTay.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/FarewellToTheTay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

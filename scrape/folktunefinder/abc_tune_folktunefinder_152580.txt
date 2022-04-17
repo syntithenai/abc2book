@@ -1,0 +1,36 @@
+X:3
+T:Polka voor Acht
+O:Elewijt
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek I
+M:2/4
+L:1/8
+Q:1/4=80
+K:Dm
+P:A
+A |: Ad dd | d/e/f z a | ad dd | d/c/B z B |
+Bg gg | g/f/e e/d/^c | z A/^c/ ea | ba/f/ dA |
+Ad dd | d/e/f z a | ad dd | d/c/B G/A/B/c/ |
+d>d cB | A/d/f ed | ^c/e/a A/c/e |1 dd dA :|2 dd d z |
+P:B
+Q:1/4=120
+|: dz/d/ cz/c/ | az/a/ f/g/a/b/ | gz/g/ e/f/g/a/ | fz/f/ A/B/=B/c/ |
+dz/d/ cz/c/ | az/a/ f/g/a/b/ | a/g/^f/g/ de | fff z :|
+P:C
+Q:1/4=120
+K:Bb
+F/F/ |: FA/c/ ed/c/ | Bg fF/F/ | FA/c/ eF/F/ | FB/d/ fF/F/ |
+FA/c/ ed/c/ | Bg fF/F/ | FA/c/ fA |1 BBB F/F/ :|2 BBB z ||
+S:https://www.folktunefinder.com/tunes/152580
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre2.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre2.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre2.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

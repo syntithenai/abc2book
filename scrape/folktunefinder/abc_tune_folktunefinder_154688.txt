@@ -1,0 +1,21 @@
+X: 1
+T:Drummond Castle
+M:6/8
+L:1/8
+R:Jig
+K:Am
+E|"Am"A>BA a3|"Am"a>ge "G"g3|"C"c2 c e>dc|"G"Bdg dBG|"Am"A>BA a3|"Am"a>g
+e "G"g3|"C"e>ge "Dm"deg|"Em"edB "Am"A2:||:B|"C"c2 c c>ec|"G"d2d d>ed|"Am
+"c2c e>dc|"G"B>dg dBG|"C"c2 c e>dc|"Dm"d>eg "F"a2 g|"C"e>ge "Dm"deg|"Em"
+edB "Am"A2:||
+S:https://www.folktunefinder.com/tunes/154688
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drummond_Castle_16.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drummond_Castle_16.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

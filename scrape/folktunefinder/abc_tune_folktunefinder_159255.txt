@@ -1,0 +1,22 @@
+X:1
+T:Frank's Reel
+M:C|
+L:1/8
+K:A
+"A"AcBA "D"F2 A(F|"A"EF)A(B cA)Bc|"D"d3f "A"eAce|"A"(3(fga) ec "E"(3(Bcd)cB|!
+"A"AcBA "D"F2 A(F|"A"EF)A(B cA)Bc|"D"d3f "A"ecA(c|1"E"BA)GB"A"A3E:|2"E"BA)GB "A"Aefg|]!
+"A(F#m)"aAA"E"g AA"D"fA|"A(C#m)"efe(d cA)Bc|"D(Bm7)"d3f "A"eAc(A|"E"Bc)d(e fe)fg|!
+"A(F#m)"aAA"E"g AA"D"fA|"A(C#m)"efe(d cA)Bc|"D(Bm7)"d3f "A"ecA(c|"E"BA)GB "A"Aefg|!
+"A(F#m)"aAA"E"g AA"D"fA|"A(C#m)"efe(d cA)Bc|"D(Bm7)"d3f "A"eAce|(3(fga) ec "E"(3(Bcd) c(B|!
+"A"Ac)BA "D"F2 A(F|"A"EF)A(B cA)Bc|"D"d3f "A"ecA(c|"E"BA)GB "A"A3|]
+S:https://www.folktunefinder.com/tunes/159255
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/FranksReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/FranksReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

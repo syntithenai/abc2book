@@ -1,0 +1,30 @@
+X:13
+T:The Drunken Piper
+R:march
+D:Donald Maclellan, Dusky Meadow
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:288
+L:1/8
+M:C|
+K:Amix
+a2|A>AA>B e2 e>f|e>dB>d e2 g2|G>GG>B d2 d>e|d>BG>B d2 e2|
+A>AA>B e2 e>f|e>dB>d e2 fa|g2 f<a e>fg>G|B2 A2 A2:|
+|:(3(efg)|a4 e2 a2|e>de>f g2 f>a|1G2 G>B d2 d>e|d>BG>B d2 e2|
+a4 e2 a2|e>de>f g2 f>a|g2 f>d e>fg>G|B2 A2 A2:|[2G>GG>B d2 d>e|
+d>BG>B d>Bd<e|A>AA>B e2 e>f|e>dB>d B2 (3(fga)|g2 f<a e>fg>G|B2 A2 A2:|
+|:a2|A>AA>B e>AB>d|e>fe>d B>ed>B|G>GG>B d>GB>d|e>dg>d B>ed>B|
+A>AA>B e>AB>d|e>Ae>d B2 A>G|A2 a2 e>fg>g|B2 A2 A2:|
+|:(3(efg)|a>ee>a g>ef>d|e<eg>d e2 g2|g2 g>B d3 e|[1d>Bg>B d2 e2|
+a>ee>a g>ed>B|d>eg>d e2 e>B|BA a2 e>fg>G|B2 A2 A2:|
+[2d>BG>B d>Bd<e|A>AA>B e2 e>f|e>dB>d e2 a2|g2 f<a e>fg>G|B2 A2 A2|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/154084
+S:http://cranfordpub.com/tunes/abcs/SAN9.abc
+S:http://www.cranfordpub.com/tunes/abcs/SAN9.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

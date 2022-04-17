@@ -1,0 +1,41 @@
+X:1
+T:Der Spazier-Deutsche
+C:traditionell
+R:volkstanz
+A:Kaernten
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Oesterreichische Volkstaenze - Dritter Teil, Raimund Zoder, Oesterreichischer Bundesverlag, Wien, 1955
+S:
+N:im buch einstimmig
+N:quelle einstimmig
+N:im buch s. 34
+N:im buch ganz in F erster ton c'
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+C2 |\
+FF GG | A>G FA | GG Bd | c2zC |\
+FF GG | A>G FA | GG c>E | Fz |
+M:3/4
+c2 |\
+(B2 G2) .c2 | (A2 F2) .c2 | (B2 G2) .E2 | (FGAB)c2 |\
+(B2 G2) .c2 | (A2 F2) .c2 | (B2 G2) .E2 |  F2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153127
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/spazier-deutsche_zoder.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

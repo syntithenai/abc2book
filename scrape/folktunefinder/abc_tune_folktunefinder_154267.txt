@@ -1,0 +1,29 @@
+X:1
+T:Down Yonder (#26)
+C:
+M:4/4    %(3/4, 4/4, 6/8)
+L:1/8    %(1/8, 1/4)
+%V:1 treble clef
+P:Play Intro - A - B - A - C - A - B - A - Endz
+K:D    %(D, C)
+|"D""^Intro"d c d e d4|d c d e d4|"A"A A2 A B2 =c2|"D"c4 A4||
+|"D""^A Section"F8|E2 D2 z2 E2|F2 A2 F2 D2|z2 d2 c2 =c2
+|"G"B8|A2 G2 z2 A2|B2 d2 B2 G2-|G6 z2|
+|"D"F2 DD E2 D2|FF DD E2 D2|F2 A2 F2 A2-|A6 z2||
+|"D""^B Section"F2 DD E2 D2|FF DD E2 D2|F2 A2 F2 A2|z8
+|"E"^G2 z6|z2 FF E2 z2|^G2^G2 z6|z2 F2 E2 z2
+|"A"A2 B2 A2G2|G2 F2 E4|"A7"A,2 B,2 A,2 G,2|G,2 F,2 E4||
+|"G""^Section C"B2 c2 d2 "A"e2-|e2 c2 A4|"D"d2 z6|d4 d2 d2||
+|"G""^Section End"B2 c2 d2 "A"e2-|e2 c2 A4|"G"B2 c2 d2 "A"e2-|e2 c2 A4
+|"G"B2 c2 d2 "A"e2-|e2 c2 A4|"D"d2 "A"A2 "D"d4||
+S:https://www.folktunefinder.com/tunes/154267
+S:http://gulfweb.net:34043/~rlwalker/abc/down.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/down.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/down.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

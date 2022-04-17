@@ -1,0 +1,197 @@
+X:1
+T:Praeludium et Fuga BWV 539
+T:Praeludium
+C: J.S. Bach
+M:C
+L:1/8
+%%header "Praeludium et Fuga BWV 539$P / 8"
+%%staffsep 1.5cm
+%%sysstaffsep 1.0cm
+%%titlespace 0.0cm
+%%composerspace 0.0cm
+%%maxshrink 0.88
+%%continueall 1
+%%staves {1 2 3}
+K:Dm
+V:1
+%%MIDI program 16
+x4d4-|d2^c=Bc4|z(&D^FA=c4-|c2
+&x2A-A4-|A2&) BA G=FED|^CDEF(&G4-|G2
+   &z2E2-|E2&)[E2G2]F4|
+E4-EA^GA|=B4-BBAB|^c4-cA=Bc|d^cde[d4f4]-|[d4f4-]ffed|c=BA^G ABcA|d8-|
+d2d2c4|=B4-B4-|Bdc=Be4-|edc=BA4-|Ac=BAd4-|dfed=b4-|b2a^ga2e2|
+f8-|ffed c=BA^G|!shturn!A3=BTB3A|A4A4-|Ac=BAd2F2-|F2E2c4-|cedcf2A2-|
+A2G2e4-|egfea2c2|=B4g4-|g4-g2f2-|f2f2e2d2|^c4z4|zA=B^cd4-|d2^c=Bc4|
+zD^FAc4-|c2BA G=FED|^CDEFG4-|G2G2F4-|FE^G=B dfed|^c_BA=G FED^C|!shturn!D3ETE3D|D8|]
+V:2
+%%MIDI program 16
+[D4F4-A4-][F4A4]|[E4G4]-[E4G4]|
+xD3-D4-|D4x4|^C4z2C2|A,4D4-|
+DD=C=B,C4|D2=B,2E4-|[E4-A4]EA3-|A6A2|=B4z2^G,2|A,2=B,2E,2A,2|z2^F2^G2A2|
+=B2(&B4A2-|AA^G^FG4-|G2x6
+    &E6-|E4-E4-|E2z2z2^G2&)|A4zGFE|D4zc=BA|(&x6[e2^g2]-|[e2g2]x4c2-|cedc
+    &^G4z2d2|c4z2A2-|A2x2&)
+=BA^GA|=B4z2D2|C2F2E2D2-|D2C2F4-|F4z2D2-|D2C2A4-|A4z2F2-|
+F2E2c4-|c4z2A2-|A2G2zfed|(&x6d2|_B4-B4-|B2
+  &ed^ceA4-|A2A2G4-|G2&)AG AGFE|xA3-A4
+&F4-F4|[E4G4]-[E4G4]|
+(&x3A-A4-|A2G2x4|x6E2-
+ &xD3-D4-|D4x4|x4z2C2&)|E2E2D4-|Dxx2x4|x2z2z2=G,2|F,2B,2A,4|[F,8A,8]|]
+V:3
+%%MIDI program 16
+D,4-D,D,^C,D,|E,4-E,E,D,E,|^F,4-F,D,E,F,|G,^F,G,A,B,4-|B,4-B,B,A,G,|F,E,D,^C, D,E,F,G,|
+A,2E,2A,4-|A,2^G,^F,G,4|zA,,^C,E,=G,4-
+&xA,,3x4|G,2F,E, D,=C,=B,,A,,|^G,,A,,=B,,C,D,4-|D,2D,2C,4-|C,E,D,C, =B,,A,,^G,,^F,,|
+^G,,A,,=B,,G,, A,,B,,C,D,|E,4-E,E,D,E,|C,4-C,C,D,E,|F,4-F,E,D,C,|=B,,4-=B,,B,,C,D,|E,4-E,D,C,=B,,|A,,^G,,A,,=B,, C,A,,B,,C,|
+D,C,D,E, F,D,E,F,|^G,,2^G,2A,2(&=B,2|A,6^G,2|A,4-
+       & E,2|F,2D,2E,4|A,,4&)A,A,=G,A,|=B,4-=B,B,A,B,|C2C,2zC=B,C|D4-DDCD|
+E2E,2zEDE|F4-FFEF|GFED ED^C=B,|^C2A,2DD,E,F,|G,F,G,A, B,A,B,G,|A,G,A,=B, ^CA,B,C|D2D,2-D,D,^C,D,|E,4-E,E,D,E,|
+^F,4-F,D,E,F,|G,^F,G,A,B,4-|B,4-B,B,A,G,|(&A,4-A,4|z2=B,,2E,4-|E,2x4E,2|D,6^C,2|D,8
+   &F,E,D,^C, D,E,F,D,|^G,,6G,,2|A,,2^C,2D,2A,,2|B,,2G,,2A,,4|D,,8&)|]
+T:Fuga
+%%staves {1 2 3 4} 5
+V:1
+%%MIDI program 16
+z8|z8|z8|z4zaaa|ag/f/ ge fz fz|
+ez ez zfff|fe/d/ e/g/^c/d/ cz z/d/z|z/E/^G/=B/ =c/e/A/=G/ z/A/c/_e/ d/c/_B/A/|B/D/G/A/ B/d/G/=F/ z/G/B/d/ c/B/A/G/|
+A/E/F/^C/ D/F/A z/D/F/A/ G/E/F/D/|^C/E/G/B/ A/G/F/E/ F/D/A- A/A/d|^c/=B/c/e/ ff fe/d/ ee|\
+_e/d/e/^c/ d=c B/A/A/G/ G/=F/F/_E/|
+_E/^C/C/D/ D/A,/G,/F,/ z/D/G/B/ z/D/=E/^C/|Daaa ag/f/ ge|fz bz ez a2-|aggg gf/e/ fd|\
+ez az dz g2-|
+gfff fe/d/ ef/e/|dzg2-gf/e/ fg/f/|ez az az =gz|cz fz ecde|fed2-d/d/c/=B/c2|
+z/c/=B/A/ B^GA2z/AA/-|A/^G/^F/G/ G3/A/ Azz2|z8|z4zGGG|GF/E/ FG/F/ Ez Az|
+A=B/c/ B/A/^G/A/ Gz Az|z=BBB zeee|ed/c/ dd dc/=B/ cc|f/g/f/e/ e/f/e/^d/ de- e/=d/^c/=B/|\
+^cd- d/=c/=B/A/ B/d/c- c/B/A/^G/|
+A/f/_B- B/A/^G/A/ Gf/d/e2-|ef//e//^d/ e^g a/_b/a/=g/ g/a/g/f/|f/g/f/e/ e^g ga ad|d3/e/ c=B B4-|\
+B4edec|d4-dcd=B|
+[Ac][^G=B][Ac][=Bd] [ce][df][ce][Bd]|[Ac][^G=B][Ac][Bd] [ce][Bd][ce][A^f]|^g^fga =bc'ba|\
+^g^fga =babg|[c/a/]A/c/e/ a/e/c/A/ E/a/=g/f/ g/e/^c/A/|f/D/F/A/ d/A/F/D/ A,/d/=c/_B/ c/A/^F/D/|
+B/G/B/d/ g/d/B/G/ D/g/=f/e/ f/d/=B/G/|e/G/c/d/ _e/c/A/F/ d/F/_B/c/ d/B/G/_E/|c/A/^F/D/ B/G/_E/C/ _A/=F/D/B,/ G/E/C/=A,/|\
+z/A,/C/^F/ A/F/C/A,/ z/A,/C/F/ A/F/C/A,/|z/A,/B,/D/ G/D/B,/A,/ z/A,/B,/D/ G/D/B,/A,/|
+z/A,/B,/D/ G/D/B,/A,/ z/A,/B,/D/ G/D/B,/A,/|z/A,/^C/E/ G/E/C/A,/ z/A,/C/E/ G/E/C/A,/|\
+z/A,/B,/D/ G/_B/_A/^F/ G/=f/_e/^c/ d/=c/=B/c/|^fz gz gz fa|d2zd dc/B/ d/c/B/A/|
+c/B/A/G/ B/_A/G/^F/ G3/=A/ F3/G/|Gzz2z4|z8|zccc cB/A/ BG//A//B/|Afff [_Af][G/e/][F/d/] e^f|
+gggg [Bg][A/f/][G/e/] fg/d/|ef/=c/ de/d/ cd/A/B2-|B[FA][FA][FA] [FA]B/A/ G/d/F/d/|\
+Eccc cd/c/ B/A/G/A/|
+A/d/e/f/ f/e/d/c/ fc B/A/G/F/|F/A/G/A/ z/AA/ z/AA/ z/AA/|z/A/d/c/ B/A/G/F/ z/GG/ z/GG/|\
+z/G/e/G/ F/E/F/D/ E/d/=c/_E/ D/C/D/B,/|C/B/A/C/ B,/A,/B,/G,/ A,/G/F/A,/ B,/A/G/=B,/|
+^C//=B,//A,/E//D//C/ G//F//E/_B//A//G/ ^c/G/e/c/ B/A/G/F/|z/G/^c/G/ c/G/e/G/ z/G/c/G/ c/G/e/G/|\
+z/F/A/F/ A/F/d/F/ z/F/A/F/ A/F/d/F/|z/E/^c/A/ c/A/g/A/ z/A/c/A/ c/A/g/A/|
+z/A/d/A/ d/A/f/A/ z/A/d/A/ d/A/f/A/|z/^G/=B/G/ B/G/f/G/ z/G/B/G/ B/G/f/d/|d/^c/=B/A/ aa ag/f/ gg|\
+gf/e/ ff f/g/f/e/ e/f/e/d/|^c/e/d- d/=c/=B/A/ B/g/c- c/_B/A/G/|
+A/F/B/A/ B/d/f/A/ ^G/=B/e/G/ A/c/e/=G/|^F/_e/d/c/ d/A/_B/F/ G/e/d/c/ d/A/B/G/|^C/=E/G/B/ A/G/e/G/ A/B/E/=F/ G/C/D/E/|\
+A,AAA AG/^F/ Ge/^c/|GG/=F/ Ge/^c/ FF/E/ F/A/d/e/|
+f3/e/ d/^c/d/e/c2d2-|d2^c2=c2=B2|_B2Af d_e/d/ e/^c/d|^cz zc defc|^cd dd d3/e/ c3/d/|
+d/D/F/A/ d/A/F/D/ E/d/=c/B/ c/A/^F/D/|z/D/G/A/ B/G/_E/D/ ^C/B/A/G/ A/F/D/=C/|z/B,/D/^F/ G/B/_E/D/z2G/_B/^c/e/|\
+z2A/^c/d/f/z2B/d/e/g/|
+z/g/f/A/ ^G/f/e/=G/ ^F/e/d/=F/ E/d/c/_E/|D/c/B/D/ ^C/B/A/=C/ =B,/A/G/^F/ G/_B,/A,/G,/|\
+^c2-Hc-c///d///e///c///d///e///G///A/// B///G///A///B///E///F///G///E///F///G///^C///D///E///C///D///E/// z[=Bd]|\
+d/-d//e//d//^c//d///=B///c// Pc3/d/Hd4|]
+V:2
+%%MIDI program 16
+z8|z8|zddd dc/B/ cA|B4Az Az|Bz Az ed/^c/ dz|
+dz ^cz ed/c/ dA|Bz Gz G/B/A/G/ FE/D/|x4^Fz Fz|Gz z2Ez Ez|
+Cz zz/=C/ B,z x2|x4xz/E/ F3/G/|A2zd d2z=c|c2z2Gz Dz|
+B,z z2zB, B,A,|A,zx2x4|zddd dc/B/ cA|BB/A/ BG Az dz|dccc cB/A/ BG|
+AA/G/ AB/A/ Gz cz|c_B/A/ Bc/B/ Azd2-|dc/=B/ cd/c/ Bz Bz|Az ^Gz z/AA/ z/AA/|z/AA/ z/A/^G/^F/ Gz z/G/A/E/|
+F2z/FE/- E/E/D/C/ D=B,|C/=B,/A,/B,/ B,3/A,/ A,A,A,A,|=B,z z^C DDDD|D=C/_B,/ CA, _B,z =B,z|\
+^Cz Dz D=C/=B,/ CD/C/|
+=B,zz2B,z Ez|Az ^Gz A3/d/ c/=B/A/^G/|Az zA ^Gz zA|Az Az Az ^Gz|=Gxx2x4|
+x4x2z^G|Azx2x4|x2xd dc c=B|=B2AAA4|^G4A4-|[FA][E^G][FA][D^F]^G4|
+x8|x2xF Ax3|=BABc dedc|=BABc dcdB|x8|x8|
+x8|x8|C2B,2_A,2x2|x8|x8|
+x8|x8|x8|cz _Bz Az Ac-|c/A/B/^F/ GG Gz zF|
+Gz zD/C/ B,=A,- A,C|B,xx2x4|z2Ez Fz zG|GF/E/ Fz Fz zE|F[Ac][Ac][Ac] =Bc G=A|
+_B[Bd][Bd][Bd] ^cd A/F/B-|B/G/A- A/F/G- G/E/F- F/G/E/C/-|C CCC CD/C/ B,A,|xc/B/ A/G/F/E/F2CC|
+DCB,G CFFE|Fz FE DCB,A,|Dzz2ED^C=B,|x8|x8|
+x8|x8|x8|x8|
+x8|x8|z4zd d^c/=B/|^ccdd dz ^Gz|=GF/E/ FF FE/D/ EE|
+_ED/C/ DD DC/=B,/ CC|Czz2x4|x8|A,z =Cz B,B,/A,/ B,z|A,E/D/ Ez ED/^C/ Dz|
+dz zGA4-|A4-A3G/^F/|G2=FF Fz zG|G_B/G/ AE FB/G/ AE|EF FE F3/G/ E2|
+Fxx2x4|x8|x8|x8|
+x8|x8|[E2G2]x2x2zF|A4A4|]
+V:3
+%%MIDI program 16
+zAAA AG/F/ GE|Fz Bz Ez Az|AG/F/ GE Fz Ez|D2-D/F/E/F//G// ^Cz Dz|Dz ^Cz Dz Dz|
+Ez Ez Az Az|Gz Ez Ezx2|x8|x8|
+x2xA, G,x xB,|A,z zA, A,xx2|x2zA G2zG|F2-F/F^F/x4|
+x4E,F, G,2|F,zz2x4|x8|x8|x8|
+x8|x8|x8|x8|x8|
+x8|x8|x8|x8|x8|
+x8|Ez Ez [CE]zz2|x8|x8|x8|
+x8|x8|D/E/D/=C/ C/D/C/=B,/ x4|x4E4-|E4-E3F|x4D3D|
+Czx2x4|x8|x8|x8|x8|xA,F,D, E,A,^F,D,|
+G,zz2z2zD|C_B,A,C B,A,G,B,|zA,G,2F,2G,2|x8|x8|
+x8|x8|x8|zDDD DC/B,/ CA,|B,z zD Dz zD|
+Dzx2x4|xG,G,G, A,z z=B,|CCCC C_B,/A,/ B,G,|A,A,/G,/ A,A, A,G,/F,/ G,C|Cz zC DEz2|
+xzzB,z2Dz|x8|x8|G,F,A,C DB, x2|
+x4A,CCC|Czx2x4|x8|A,z zA, A,z zF,|F,z zD, D,D,- D,E,-|E,G,_B,^C EGCE|A,EA,^C A,EA,C|\
+DD,F,A, DD,F,A,|^CEGE ^CEA,C|
+DFDA, DFDA,|=B,DFD =B,DF^G,|A,xx2x2xE|EA AG/F/ Gz Dz|x8|
+x8|x8|x8|D,z A,zx4|x8|
+Dz zDE2F2|E4D4|C3C Dzzx|x4x2xA,|G,A, A,=B,A,4|
+A,zx2x4|x8|x8|x8|
+x8|x8|A,2x2x2xD|[A,4E4]H[A,4D4]|]
+V:4
+%%MIDI program 16
+z8|zDDD DC/B,/ CA,|B,z B,z A,z A,2-|A,D,G,2-G,z F,z|E,z A,z D,z F,z|
+A,z A,z A,z Dz|Dz B,z A,zz2|A,z z2A,z A,z|G,z z2G,z G,z|
+F,z zD, D,z zG,|E,z zE, D,E,D,B,|E,2zDG,2zC|F,2B,C D/C/C/B,/ B,/A,/A,/G,/|
+G,/=E,/E,/F,/ F,E,/D,/ A,D,E,2|D,zz2z4|z8|z4zA,A,A,|A,G,/^F,/ G,E, F,G,/F,/ G,B,|
+E,^C, D,zz2zA|^FD zE ^CA, z=B|^GECA, Ez Ez|Fz =B,z z=GFE|DE FE/D/ E/=B,/A,/^G,/ A,/B,/C-|
+C/A,/D/C/ DC- C/C/=B,/A,/ B,^F,|E,2-E,D, C,zz2|A,=G,/F,/ G,E, F,z D,z|E,z z^F, G,z E,z|\
+A,zz2A,zz2|
+^D,zz2=D,z C,z|=B,,z [E,=B,]z E,z z[CE]|[A,C]z z[=B,D] [B,E]z z[A,E]|[A,D]z [CE]z [^F,^F]z [=B,E]z|\
+[A,E]z [D=F]z [DF]z [CE]z|
+[CE]z [A,D]z [=B,D]z z[B,D]|[A,C]z z[=B,D] [A,C]z [A,^C]z|A,zz2=B,/C/B,/A,/ A,/B,/A,/^G,/|\
+^G,E,EF=B,4-|B,3DC4|=B,4-B,A,B,E,|
+E,z z[=F^G] [EA]z z[^G,F]|[A,E]z z[F,D] [E,C]z z[A,C]|[=F,D]z z[E,E] [^G,F]z z[A,E]|\
+[=B,D]z z[A,E] [^G,F]z z[DF]|[CE] ECA, =B,E^C[A,E]|[A,D] zz2z2zA,|
+G,DB,G, A,D=B,G,|G,z zF, F,z z_E,-|E,D,- D,C,- C,B,,- B,,C,|[D,^F,]zz2[D,F,]zz2|[D,G,]zz2[D,G,]zz2|
+[D,G,]zz2[D,G,]zz2|[^C,G,]zz2[C,G,]zz2|[D,G,]zz2z4|A,z zG, A,z z^F,|G,z zB, A,z zA,|
+G,z zB,/A,/ G,/=F,/=E,D,2-|D,zz2G,F,/E,/ F,D,|E,z C,z D,z zE,|F,2F,z D,z zG,|F,z z[F,A,] F,G,z2|
+[G,D]z z[G,D] [G,D][A,E]z2|=Cz B,z A,z G,C,|F,/G,/A,/G,/ F,/E,/D,/C,/D,2E,F,|C,C,F,A, A,F,G,A,|
+B,A,G,B, zF,G,B,|A,z z/A,/G,/A,/ F,E,D,C,|F, z/A,/ D/C/B,/A,/ G,F,E,D,|^C,z zD, A,,z zB,,|\
+F,,z zG,, D,,z G,,z|
+A,,zz2z4|E,zz2E,zz2|A,zz2A,zz2|A,zz2A,zz2|
+A,zz2A,zz2|F,zz2F,zz2|E,z z[A,D] [_B,D]z zG,|A,z zA, Dz =B,z|[E,E]z z[F,D] [G,D]z z[G,C]|
+[F,C]z z[F,B,] [=E,=B,]z z[E,A,]|[D,A,]zz2[D,G,_B,]zz2|[B,,E,G,]zz2z4|A,,z D,z D,z G,z|\
+E,z [E,^C]z [F,A,]z [F,A,]z|
+[D,F,=B,]z z=G, G,A,/G,/ F,/E,/F,/D,/|A,4-A,D,G,2-|G,C,F,A, A,z z[G,D]|[E,A,E]z z[E,G,A,] [D,F,A,]z zE,|\
+E,D, D,=B,, F,D,A,,G,|
+F,z [F,A,]z [E,G,]z [^F,A,]z|[G,B,]z [=F,D]z [=E,G,]z [F,D]z|[G,B,]z [F,D]z =E,/G,/^C/=E/z2|\
+F,/A,/D/F/z2G,/B,/D/G/z2|
+A,A,,=B,,^C, D,=F,G,A,|B,G,E,^F, G,E,^C,E,|E,2z2z2A,=B,|E,F,G,2-G,^F,/E,/HF,2|]
+V:5
+%%MIDI program 16
+z8|z8|z8|z8|z4zA,A,A,|
+A,G,/F,/ G,E, F,z D,z|G,z G,,z A,,z z2|A,,z z2D,z D,,z|G,,z z2C,z C,,z|
+F,,z zF,, G,,z zG,,|A,,z z^C, D,=C,B,,2|A,,2zD,B,,2zC,|A,,2B,,A,,G,,4-|
+G,,2F,,G,,A,,4|D,,z D,z ^C,z A,,z|D,z G,z A,z ^F,z|G,z E,z ^C,z D,z|A,,z =C,z D,zz2|
+^C,A,,D,=C, =B,,C,/B,,/ C,z|zG,/^F,/ G,z zD,/^C,/ D,z|zA,/^G,/ A,z zE,E,E,|E,D,/C,/ D,=B,, C,A,,B,,^C,|\
+D,=C, =B,,z E,z zA,,|
+D,2zE,F,2z^D,|E,2E,,2A,,zz2|z8|z8|z8|
+z4zE,E,E,|E,D,/C,/ D,=B,, C,z zC,|F,z z=B,, E,z zA,,|D,z C,z =B,,z E,,z|A,,z A,z ^G,z A,z|
+F,z F,z E,z zE,|E,,z zE, F,z E,z|D,z zE, F,z zF,,|E,,^G,,A,,D, E,D,E,C,|D,C,D,=B,, C,B,,C,A,,|\
+=B,,z zB,, E,z zE,,|
+A,,8-|A,,8-|A,,8-|A,,8-|A,,z zA,, E,z zA,,|D,z zD,, A,,z zD,,|
+G,,z zG,, D,z zG,,|C,z zF,, B,,z z_E,|A,,D,G,,C, F,,B,,_E,,2|D,,zz2D,,zz2|D,,zz2D,,zz2|
+_E,,zz2E,,zz2|=E,,zz2E,,zz2|D,,zz2z4|D,,zz2D,,zz2|D,,zz2D,,z zD,|
+G,,B,,C,D, _E,^C,D,D,,|G,,zz2z4|z8|z2A,,z B,,z zC,|F,,/F,/C,/F,/ A,,/C,/F,,/A,,/ C,,zz2|
+z/G,/D,/G,/ B,,/D,/G,,/B,,/ D,,zz2|z8|zF,,A,,F,,B,,4-|B,,A,,C,A,, D,D,,E,F,|
+B,,zz2zA,,C,C,,|F,,zz2z4|B,,zz2z4|A,,zz2z4|z8|
+z8|A,,zz2A,,zz2|A,,zz2A,,zz2|A,,zz2A,,zz2|
+A,,zz2A,,zz2|A,,zz2A,,zz2|A,,z zF, B,,z zE,|A,,z zD, B,,z =B,,z|A,,z zD,, G,,z zC,,|
+F,,z zB,, E,,z zA,,|D,,zz2D,,zz2|E,,zz2z4|F,,z ^F,,z G,,z E,z|^C,z A,,z D,z =C,z|
+=B,,z z_B,, A,,A,A,A,|A,G,/F,/ G,E, ^F,G,/F,/ G,D,|E,=F,/E,/ F,A,, B,,z zB,,|A,,z zA,, A,,z zA,,|\
+B,,A,, A,,^G,,A,,4|
+D,,z F,,z G,,z D,,z|D,,zz2z4|D,,zz2=E,,zz2|F,,zz2G,,zz2|
+A,,zz2z4|z8|A,,2z2z2z^G,,|A,,4HD,,4|]
+S:https://www.folktunefinder.com/tunes/159558
+S:http://moinejf.free.fr/abc/prel-bwv539.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

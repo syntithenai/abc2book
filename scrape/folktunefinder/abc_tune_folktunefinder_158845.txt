@@ -1,0 +1,56 @@
+X:276
+T:Folias
+C:Gaspar Sanz
+O:Spain
+B:Sanz: Instruccion de Musica (1674)
+R:Folia
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/sanz-gaspar/sanz_folias.abc
+%Posted June 1st 2000 at abcusers by Frank Nordberg as an reply to
+%Sigfrid Lundberg's request for information about the Folia.
+V:1 Program 1 24 %Classical guitar
+M:3/4
+L:1/4
+Q:1/4=88
+K:Dm -8va
+V:1
+[Ddf]ed|[A,3/2M^c3/2e3/2]=B/c|[Dd]ef|[C3/2Me3/2]d/c|
+[Fcf]GA|[C3/2Me3/2]d/c|[Ddf]CB,|[A,3/2M^c3/2e3/2]=B/c|
+[Ddf]ed|[A,3/2M^c3/2e3/2]=B/c|[Ddf]ef|[C3/2Me3/2]d/c|
+[Fcf]GA|[C3/2Mc3/2e3/2]d/e|[Df][A,df]^c|[Ddf]||a/g/ f/e/|
+[DPf][CMe][PB,d]|[A,M^c]A/G/ F/E/|[Dd][MCMe][PB,d]|[CMe]G/F/ E/D/|
+[~Fa][Eg][DPf]|[CMe]f/e/ d/c/|[Dd][ce][B~d]|[A,M^ce]a/g/ f/e/|
+[DPf][CMe][PB,d]|[A,M^ce]A/G/ F/E/|[Dd][Ce][B,d]|[CMe]G/F/ E/D/|
+[Fa][Eg][Df]|[Bg]F/E/ D/C/|[B,d][A,^c]g|[D3d3f3]||
+DdMe|A,/=B/ ^c/d/ Me|DdPf|C/d/ e/f/ ~g|
+Fda|C/d/ e/f/ ~g|DdPf|A,/=B/ ^c/d/ Me|
+Dde|A,/=B/ ^c/d/ Me|DdPf|C/d/ e/f/ ~g|
+Fda|[G/=B/]A/ B/^c/ d|A,^ce|[D3d3f3]||
+[D/f/]e/ d/e/ f/d/|[A,/^c/e/]=B/ c/d/ e/c/|[D/d/]^c/ d/e/ f/g/|\
+[C/e/]d/
+c/g/ f/e/|
+[F/a/]E/ D/E/ F/D/|[E/g/]f/ e/f/ g/e/|[D/f/]e/ d/e/ f/d/|\
+[A,/^c/e/]=B/
+A/B/ c/A/|
+[D/f/]e/ d/e/ f/d/|[A,/^c/e/]=B/ c/d/ e/c/|[D/d/]^c/ d/e/ f/g/|\
+[C/e/]d/
+c/g/ f/e/|
+[F/a/]E/ D/E/ F/D/|[D/f/]e/ d/e/ f/d/|\
+[A,/^c/e/]d/ c/d/ e/c/|[D3d3f3]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/158845
+S:http://abc.musicaviva.com/tunes/sanz-gaspar/sanz_folias.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sanz-gaspar/sanz_folias.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sanz-gaspar/sanz_folias.abc
+% Rhythm Folia
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

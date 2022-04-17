@@ -1,0 +1,39 @@
+X:1
+T:Dreidam
+C:traditionell
+R:mazurka
+A:'Schwaebische Tuerkei' (deutsch-sprachige sprach-insel), Ungarn
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Ungarndeutsche Volkstaenze, Heft 2, gesammelt und aufgezeichnet von Karl Horak, zusammenstellung Helmut Heil, Stiftung Ungarndeutsches Volkstanzgut, Pecs - Fuenfkirchen 1992
+N:im buch s. 15
+N:im buch ganz in F, einstimmig, 1. ton a', ambitus c' - d''
+S:
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:F
+Ac |\
+F4 Ac | F4 Ac | c2 BABc | d2 cBAc |\
+F4 Ac | F4 A2 | GFEFGE | F4 :|
+|: CF |\
+EF G4 | FG A4 | BAGFGB | AGFE F2 |\
+EF G4 | FG A4 | cdcBAG | F4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154337
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/dreidam.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

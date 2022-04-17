@@ -1,0 +1,57 @@
+X:1
+T:Hora din Maurodin
+O:Romania
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:AABCDECD
+R:hora
+M:2/4
+L:1/16
+K:D
+P:A
+Q:1/4=110
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+%%MIDI gchord f2c2f2c2
+ |:"D"(^ga)(fd) (Ad)(fd) |"A"(fg)(ec) (Ac)(ec) | (AB)(c^d) (ef)(ge) \
+    |1 (fg)(ec) "D"(df)(aA) :|2"D"d2z2z4 ||
+P:B
+L:1/8
+ "G"{^ac'}b4 | {^ac'}b4 |"Gdim"{^ac'}b4 | {^ac'}b4 |\
+ "D"b>a d'/2=c'/2b/2a/2 | b>a gg/2f/2 |"A"f/2g/2(ee2 | e3) A |
+P:C
+ |:"D"d/2e/2f/2g/2 ag |"A" f>e dc |"D"cd/2c/2 d/2e/2f/2c/2 |  d2 a2 |\
+      d/2e/2f/2g/2 ag |"F#"f>e dc |"Bm"BB/2^A/2 B/2c/2d/2c/2 |1 B2 BA :|2 B3z ||
+P:D
+L:1/16
+ |:"Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd) |"Bm"Bcde f2B2 |
+   "Em"(fg)(ge) (e^d)(ef) |(e_b)(gf) (ed)(cB) |"F#"(cd)(dc) (cB)(cd)\
+  |[1"Bm"BF^G^A B2z2 :|[2 B2
+P:E
+L:1/8
+ f g^g |"D"{^g}a4 | {^g}a4 |{^g}a4 | {^g}a2 z A |
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/164793
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/HoraDinMaurodin.abc
+S:http://people.csail.mit.edu/jaffer/Music/HoraDinMaurodin.abc
+S:http://voluntocracy.org/Music/HoraDinMaurodin.abc
+S:http://www.voluntocracy.org/Music/HoraDinMaurodin.abc
+% Rhythm Hora
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

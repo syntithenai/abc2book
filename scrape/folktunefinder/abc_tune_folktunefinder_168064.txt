@@ -1,0 +1,32 @@
+X: 1
+T:Joe MacInnes
+M:4/4
+L:1/8
+Q:150
+C:Traditional
+S:From Stan Taylor
+R:Hornpipe
+K:D
+|:"D"D3 A F3 A|de fg a3 f|"Em"gfed "A7"cB AF|"G"GF E/2D3/2 E2 "A7"AF |!
+"D"D3 A F3 A|de fg a3 f|"Em"gfed "A7"cBAG|1"D"F2 D2 D2 AF:||
+2F2 D2 D2 fg||!
+|:"D"af d/2f3/2 a2 gf|"A7"ge ce g2 ag|"D"fd AF "Em"GE ed|"A7"c2 A2 A2 Bc
+|!
+"G"dB G/2B3/2 d2 cB|"D"AF DF A2 Bc|dA "G"BG "D"Fd "A7"AG|
+1"D"F2 D2 D2 fg:|2F2 D2 D2 AF ||!
+"Alternate Finale"Bc|"G"                               dB GB "A7"ec Ac|"
+D"fd Af "A7"GE AG
+|"D"fd ef "G"gb "A7"ag|"D"f2 [F2d2] [F4d4]||
+|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/168064
+S:http://www.blackflute.com/music/tunes/hornpipes/joemac.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

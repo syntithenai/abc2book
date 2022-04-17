@@ -1,0 +1,23 @@
+X: 1
+T: A Duck Walks Into A Pharmacy....
+M: 6/8
+L: 1/8
+R: jig
+K: Ddor
+DFA DFA|GEC EFG|DFA def|edc d2 e|
+~f3 fed|ecA AGF|EGc edc|1 AGE DFE :|2 AGE D^FA||
+K: D mix
+d3 def|afd fed|~c3 cde|gag fe^c|
+def def|afd fed|~c3 edc|1 AGE DFA:|2 AGE D=FE||
+S:https://www.folktunefinder.com/tunes/154858
+S:http://www.thesession.org/tunes/display/7316
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

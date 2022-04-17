@@ -1,0 +1,30 @@
+X:146
+T:The Gold Ring
+S:John B. Walsh
+Z:Walsh's collection
+M:6/8
+K:G
+d|:BAG A2d|cAG G3|BAG A2d|cDE F3|\
+BAG A2d|cAG G3|gbg afd|1 cAF G2 d:|2 cAF G2 A||
+B3 Bdc|A3 dcA|G3 GFG|AdB BAG|\
+B3 Bdc|A3 A2G|FDE F2d|1 cAF G2 A:|2 cAF G2 g ||
+fdd edd|fdd edd|fdd edd|cAF G2g|
+fdd edd|fdd edd|(4fgag fed|1 cAF G2 g:|2 cAF G2 d ||
+g3 f2d|cAG GBd|g3 f2 d|cDE F3|\
+g3 fad|g3 fad|gbg afd|1 cAF G2 d:|2 cAF G2 E ||
+DBB DBB|DAA DAA|G3 GBd|cAG FGA|\
+DBB DBB|DAA DAA|G3 GBd|1 cAF G2 E:|2 cAF G2 A ||
+B3 D3|A3 D3 |G3 GBd|cAG FGA|\
+B3 D3|A3 D3|G3 GBd|cAF G2 A:|
+B2G A2G|d2 G G2A|B2G A2G|cAG FGA|\
+BAG AGF|GFE FGA|(4fgag fed|1 cAF G2 A:|2 cAF G2 d ||
+S:https://www.folktunefinder.com/tunes/161700
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/GoldRing.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/Gold_Ring_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

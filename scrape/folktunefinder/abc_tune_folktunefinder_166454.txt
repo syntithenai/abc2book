@@ -1,0 +1,32 @@
+X:1056
+T:Variations on a Tyrolienne
+T:(tuba transcription)
+T:Introduction
+C:Joseph Jean Baptiste Laurent Arban
+B:From "Method for the Cornet"
+Z:Transcribed by Laura Conrad - http://www.world.std.com/~lconrad/
+F:http://abc.musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne-tba.abc
+%%partsfont Helvetica 12
+M:9/8
+L:1/8
+K:F bass
+%1
+"Andante moderato" F6 EA_D | E3 D2 z A,DF | A3-AFD BGE | D3 _D2 z z2 z |
+%2
+F5 F _G3 | {EF}G2 D B3-B2 A | A_AD F3 _A,3 | A,3-A,2 z z2 z | C3-CAG F{GF}E/F/B/A/ |
+%3
+_G3 =G3 B3/4A//G3/4_G//E3/4D// | D2 C C3 {DC=B,}C/E/G/B/d/c | B3 A3 z2 z | C {D/C/}=B,/C/D/C/ F/C/A/F/"rall."c-c/B/A/G/F/E/ | 
+%4
+_D-D//=D//E//D// A//B//c//B// _G//=G//A//G// D//E//D//_D// =D//E//_G//G// =G//_G//E//G// =G/A/B/=B/ | (3cc~_d (3H=d/c/=B/ (3_B/A/G/ (3F/E/D/ {D}(3~CHA>G | F3 |]
+S:https://www.folktunefinder.com/tunes/166454
+S:http://abc.musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne-tba.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

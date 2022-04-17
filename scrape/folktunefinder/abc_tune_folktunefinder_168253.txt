@@ -1,0 +1,25 @@
+X: 4
+T: Lady of the Lake
+I: Lady of the LakeR-83Greel
+M: C|
+R: reel
+K: G
+"G"G,B,DG B2Bc| dBGA B2AB| "C"c2cB AGFG| "D"AGFE DCB,A,|
+"G"G,B,DG B2Bc| dBGA B2AB| "C"c2cB AGFE|1 "D"DGGF "G"G4 :|2 "D"DGGF "G"G2|
+|:\
+Bc| "G"dcBd g2gd| "C"edce a2ae| "D"f2fg fedf| "A"ed^ce "D"d2Bc|
+    "G"dcBd g2gd| "C"edce a2ae| "D"fgfe dcBA| "G"G2B2 G2 :|
+%%text Roaring Jelly  R-83
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/168253
+S:http://roaringjelly.org/music/sets/Set21.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set21.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set21.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

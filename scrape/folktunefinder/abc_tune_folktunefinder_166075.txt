@@ -1,0 +1,80 @@
+X:1
+T:Rezijanka
+C:Trad.
+O:Slovenia
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+T:I
+Q:1/4=120
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 2
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord f4
+d>d\
+ |: "D"e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2 d2-d3/2G/2 ||\
+K:G
+|*
+|: "G" A>B B>c | A>G A>B | A>A G>F |1 G2 G>G :|2\
+%%MIDI gchord z4
+ G>A ||\
+K:D
+ ||*
+d>d \
+%%MIDI gchord f4
+|: "D"e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2 d>f d>d|*
+|: e>f f>g | e>d e>f | e>e d>c |1 d2 d>d :|2\
+%%MIDI gchord f3z
+ d2 z2 |\
+%%MIDI gchord f4
+ "G"HG4 |]**
+%
+T:II
+M:2/4
+L:1/8
+K:D
+%%MIDI gchord z4
+A>A\
+%%MIDI gchord f4
+ |: "D"d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2\
+%%MIDI gchord z4
+ d2 ||\
+K:G
+|*
+ G>G\
+%%MIDI gchord f4
+|: "G"G2B2 | A>G F>F | A>A A2 | B>c A>F |1 G>B G>G :|2\
+%%MIDI gchord z4
+ G>B ||\
+K:D
+ ||*
+A>A\
+%%MIDI gchord f4
+ |: "D"d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2 d>f d>d |*
+|: d2f2 | e>d c>c | e>e e2 | f>g e>c |1 d2 A>A :|2\
+%%MIDI gchord f3z
+ d2 z2 |\
+%%MIDI gchord f4
+ "G"HG4 |]**
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/166075
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Rezijanka.abc
+S:http://people.csail.mit.edu/jaffer/Music/Rezijanka.abc
+S:http://voluntocracy.org/Music/Rezijanka.abc
+S:http://www.voluntocracy.org/Music/Rezijanka.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

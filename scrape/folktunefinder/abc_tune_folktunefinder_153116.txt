@@ -1,0 +1,53 @@
+X:1
+T:Der schwarze Rapp
+C:traditionell
+R:polka
+A:Sarnthein, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: ganz in F,  erster ton a'' und c''
+N:im buch s. 290, nr. 175
+N:im buch vierstimmig (mit nachschlag und bass)
+S:tonband-aufnahme Q-0541(19) 19/B04, vom 01.12.1940
+S:ausfuehrende:Wangener Boehmische
+S:besetzung: 2 Es- u. B-klarinette, 2 fluegelhoerner, Es-trompete, 2 bass-fluegelhoerner, B-bass
+%%endtext
+Z:noten-transcription: Gernot Niederfringer
+Z:abc transcription: Simon Wascher
+Q:1/4=114 %im buch
+M:2/4
+L:1/8
+K:F
+V:1
+P:A
+a |\
+fz za | fz za | a>g gg | b>a aa |\
+fz za | fz za | ag ag |1 fff :|\
+                      [2 fff z|
+V:2
+c |\
+Az zc | Az zc | c>B BB | d>c cc |\
+Az zc | Az zc | cB cB | AAA :|
+V:1
+P:B
+|: z |\
+bb/b/ bb/b/ | ba  a>b | ag g>a | gf f2 |\
+bb/b/ bb/b/ | ba a2 | aa bc' | aa/a/a :|
+V:2
+|: z |\
+dd/d/ dd/d/ | dc  c>d | cB B>c | BA A2 |\
+dd/d/ dd/d/ | dc c2 | cc de | ff/f/f :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153116
+S:http://simonwascher.info/TradArchiv_polka/der_schwarze_rapp.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

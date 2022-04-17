@@ -1,0 +1,42 @@
+X:1
+T:Ladies' Pleasure
+M:6/8
+L:1/8
+O:Duns Tew
+P:AAB(AC)2A
+K:G 
+%
+P:A
+|:d|g2g  B2c|d2B  G2D|G>GG ABc|1B2A A2:|2B2A G2|]
+%
+P:B
+z|A>AA cBc|A>AA cBc|A>Bc def| gfe d2d|
+g2g  B2c|d2B  G2D|G>GG ABc| B2A G2 |]
+%
+P:C
+z|A>AA cBc|A>AA cBc|A>Bc def| gfe d3|
+M:3/8 
+L:1/8
+d3|\
+M:6/8
+g3g3|B3c3|d3B3|\
+M:3/8 
+L:1/8
+G2D|\
+M:6/8
+G>GG ABc|B2A G2|]
+</abc>
+S:https://www.folktunefinder.com/tunes/170728
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=1194353128
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=1194353478
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=1194367980
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=1194356641
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:duns_tew:ladies_pleasure&do=edit&rev=1194368083
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

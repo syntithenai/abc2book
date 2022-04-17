@@ -1,0 +1,47 @@
+X: 1
+T:Jogging to the Fair
+M:6/8
+C:
+S:Bacon (EDS 1951)
+N:EFDS News 1956 has slight differences in rhythm and decoration
+A:Bampton
+O:English
+R:Jig
+%P:A.AB.(C.B)$^2$
+P:A.AB.(C.B)2
+K:G
+I:speed 300
+P:A
+    D | G2 A B>Bc | d>fg dcd/2c/2 | {Bc}B>AG G>FG | A>cB   A>GA |\
+        B>cd e>fg | f>af d2g      | {fg}f>cB AB^c | d3     d2   ||\
+P:B
+    d | a>fd a>fd | c>Bc B>cd     | {ga}g2 d g2 d | c>Bc   B>cd |\
+        e2 f g>fg | e>dc B2 G     |     G>ed cBA  | G>FG   E2   \
+{FE}D | G2 G GBd  | e2 f g>fe     |     d>BG A>Bc | (3EFED G2   \
+    A | B>dg B2 A | G3   G2       ||\
+P:C
+M:3/8
+L:1/8
+D>EF |\
+M:6/8
+G3 A3 | B3 B2 c | d3 g3 |\
+(2d^c =c3 | B d2 G3 | (2GF G3 | A c2 B3 |\
+M:3/8
+L:1/8
+A>GA |\
+M:6/8
+B>cd e>fg | faf  d2g      | {fg}f>ed AB^c | d3     d2       ||
+S:https://www.folktunefinder.com/tunes/168100
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/jo/Jogging_to_the_Fair_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

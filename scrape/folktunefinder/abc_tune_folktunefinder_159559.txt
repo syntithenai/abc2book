@@ -1,0 +1,192 @@
+X:1
+T:Fuga II (G-dur)
+C:G.F. Hndel
+M:C
+L:1/8
+%%measurenb 0
+%%continueall 1
+%%maxshrink 0.94
+%%staves {1 2 3} 4
+K:G
+V:1
+z4zddd|B2G2A2B2|cCCC CCCC|FC-CB, A,GF2|GFGA B3c|
+V:2
+z8|z8|z8|z8|z4zGGG|
+V:3 bass
+z8|z8|z8|z8|z8|
+V:4 bass
+z8|z8|z8|z8|z8|
+V:1
+A2zdc3d/c/|BAGF ED^CB,|A,2A2G3A/G/|F2B2-BGc2-|cABcA4|
+V:2
+F2D2E2F2|GG,G,G, G,G,G,G,|^CG,-G,F, E,D^C2|D2zDE3D/E/|F2G2-G2F2|
+V:3
+z8|z8|z8|z8|z4zDDD|
+V:4
+z8|z8|z8|z8|z8|
+V:1
+zdcBc2d2|G2zGc3e|A2d2c3d/c/|B2-g2-g2f2-|f2e2-e2d2|
+V:2
+G2zG=F3G/F/|EDCB, A,G,F,E,|D,2zDE2D2|D2B2A4|G4F4|
+V:3
+B,2G,2A,2B,2|CC,C,C, C,C,C,C,|F,C,-C,B,, A,,G,F,2|G,G,,B,,C, D,E,F,D,|E,F,G,A, B,^CDB,|
+V:4
+z8|z8|z8|z8|z8|
+% (2)
+V:1
+^c2d4c2|d2B2=c2A2|BAGFG4|e2A2G3A/G/|F4E4|D4D4|
+V:2
+G2F2G4|zAGFG2F2|D4B4|E2D2E4-|E2D2-D2=C2-|C2B,2A,4|
+V:3
+E2D2E4|A,2zDC3D/C/|B,4ED^CB,|A,3A,B,2A,2|A,4B,2A,2-|A,2G,4F,2|
+V:4
+z4zG,G,G,|F,2D,2E,2F,2|G,G,,G,,G,, G,,G,,G,,G,,|^C,G,,-G,,F,, E,,D,C,2|D,E,F,D, G,E,A,G,|F,D,z2zD,D,D,|
+V:1
+zGGGF2D2|EAAAG2E2|FBBBA2F2|GA/B/c2-cB BA/G/|A4zggg|
+V:2
+B,2z2z4|z8|z8|z8|zdddB2G2|
+V:3
+G,2zB,A,3B,/A,/|G,2C2B,3C/B,/|A,2D2C3D/C/|B,G, [I:staff 1]EF/G/D4[I:staff 2]|D4D2^C2|
+V:4
+B,,2G,,2A,,2B,,2|C,2A,,2B,,2C,2|D,2B,,2C,2D,2|E,3D,/E,/F,2G,2-|G,2F,2G,2E,2|
+V:1
+f2d2e2f2|gGGG GGGG|^cG-GF Edc2|d4-dcBA|B2A2-A^GAB|c6c2|
+V:2
+A2B2cCCC|B,A,G,zz4|z8|zDDD DDDD|^GD-DCB,2E2|zEF^GA4-|
+V:3
+D2z2z4|z8|z2A,2G,3A,/G,/|F,E,D,zz4|z4zE,F,^G,|A,4-A,=G,F,E,|
+V:4
+D,2G,2C,2D,2|G,,2G,F, E,D,^C,B,,|A,,4z4|z2D,=C, B,,A,,^G,,F,,|E,,4z4|z8|
+% (3)
+V:1
+B3Be3f/e/|^dBg4f2|B4-Bd^cB|^c2f2e3f/e/|def2-fBe2-|
+V:2
+A2GF EF/^G/A2-|A2G2A4-|A2GFG4|F2z2z4|z2F2^G3F/G/|
+V:3
+^D,B,,E,=D,C,4|B,,2zB,^C2^D2|EE,E,E, E,E,E,E,|^A,E,-E,D, ^C,B,A,2|B,^CDD,E,3E,|
+V:4
+z8|z8|z8|z8|z8|
+V:1
+efde^c4|zbbb^gzz2|z4zddd|=c2A2Beee|d2B2^cfff|e2^c2de/f/g2-|
+V:2
+^A2B2-B2A2|B2z2z=ddd|^c=GGGF2z2|z2A2G3A/G/|F2B2A3B/A/|G3G FD B^c/d/|
+V:3
+F,2B,,2zFFF&x4F,4|[B,^D]2B,2E2^G,2|A,2^C2D2z2|z8|z8|z8|
+V:4
+z8|z8|z4z2D,2|E,2F,2G,2E,2|F,2G,2A,2F,2|G,2A,2B,3B,|
+V:1
+g2fge4|d2zdc3d/c/|BAGF GFED|E2A2G3A/G/|F=C-CB, A,GF2|G=F-FE DcB2|
+V:2
+A4z4|z8|z8|z8|z8|z8|
+V:3
+z4zGGG|F2D2E2F2|GG,G,G, G,G,G,G,|^CG,-G,F, E,DC2|D2D,2C,3D,/C,/|B,,2G,2=F,3G,/F,/|
+V:4
+^CA,D4C2|D2B,,2=C,2D,2|G,,2B,,2E,D,^C,B,,|A,,4A,,4|D,,2z2z4|z8|
+% (4)
+V:1
+cG-G^F Ed^c2|dA-AG Fe^d2|eBe2f3e/f/|g2B2^c3B/c/|d2d2e3d/e/|f2A2B3A/B/|
+V:2
+z8|z8|z8|z8|z8|z8|
+V:3
+E,2A,2G,3A,/G,/|F,2B,2A,3B,/A,/|G,2zG, F,E^D2|EE,-E,=D, ^C,B,^A,2|B,G,-G,F, E,D^C2|DD,-D,=C, B,,A,^G,2|
+V:4
+z8|z8|z8|z8|z8|z8|
+V:1
+cAe2d3e/d/|c2z=fe3f/e/|dDDD DDDD|dBc2B4|z2e2f3e/f/|g2f2e3f/e/|
+V:2
+z2zC B,A^G2|AE=F2G2A2|B2B2A3B/A/|^G2A2-A2G2|A2cBA2B2-|BBBBE2z2|
+V:3
+A,2z2z4|z2zDC3D/C/|B,2z2z4|z2A,2B,3A,/B,/|CA,-A,G, F,E^D2|EE,-E,D, ^C,B,^A,2|
+V:4
+z2A,,2B,,3A,,/B,,/|C,2D,2E,2=F,2|G,2G,2=F,3G,/F,/|E,2z2z4|z8|z8|
+V:1
+^d2z2zbbb|g2e2f2^g2|aAAA AAAA|^dA-AG Fed2|e2zAB2-BA/B/|c8|
+V:2
+zFFF^D2B,2|z2E2=D3E/D/|z8|z2B,2A,2-A,B,/A,/|^G,E,A,4G,2|A,2E2F2-FE/F/|
+V:3
+B,2B,,2z4|z8|CB,A,G, F,E,^D,^C,|B,,4z4|z8|z2C2D2-DC/D/|
+V:4
+z8|z8|z8|z4z2B,,2|C,2-C,B,,/C,/ D,B,,E,2|A,,2z2z4|
+% (5)
+V:1
+B2c2B2-Bc/B/|A2d2c2-cd/c/|B2c2-c2B2|A4G2z2|z8|z8|
+V:2
+G2C2D2E2|F2D2E2F2|G2-GF/E/A2G2-|G2F2G2G2|A2B2c2A2|B2c2dddd|
+V:3
+E2A,2G,2-G,A,/G,/|F,2B,2A,2-A,B,/A,/|G,4D2D2|D4D2B,2|A,2-A,B,/A,/ G,zC2|B,2-B,C/B,/A,2D2|
+V:4
+z2A,,2B,,2C,2|D,2B,,2C,2D,2|E,2-E,D,/E,/ F,D,G,2|zD,D,D, B,,G,G,G,|F,2D,2E,A,A,A,|G,2E,2F,2B,2|
+V:1
+z8|z4zaaa|g2e2f2g2-|g2f2e4|d4z4|z8|
+V:2
+c2A2B2e2|d2-de/d/^c2d2-|d2^c2dBe2|A2d4[A-^c]2|A2G2-G2F2|E4D4|
+V:3
+[K:treble]E2F2G2E2|F2G4F2|E2A4G2|F3G AEA2[K:bass]|x4A,4&z2D,2E,2F,2|G,2E,2F,2G,2|
+V:4
+A,2-A,B,/A,/G,2C2-|C2B,2A,4|z8|z4z2A,,2|B,,3A,,/B,,/ ^C,A,,D,2-|D,2^C,2D,2zD,|
+V:1
+z8|z8|z8|z8|z4zddd|B2G2A2B2|
+V:2
+z4z2G2|F3G/F/E2A2|G3A/G/F2B2-|B2A2-AD GA/G/|F2G4F2|z2G2F3G/F/|
+V:3
+A,2F,2G,A,B,^C|D2D2=C3D/C/|B,2E2D3E/D/|C3D/C/B,2C2-|CB,/A,/ B,CA,4|G,2z2z4|
+V:4
+=C,3D,/C,/ B,,E,E,E,|D,2B,,2C,2zA,,|B,,2C,2D,2B,,2|E,2F,2G,2E,2|D,4D,4|G,2z2zD,,D,,D,,|
+% (6)
+V:1
+cCCC CCCC|FC-CB, A,GF2|G2z2zGGG|A2c2B2A2|Gggg gggg|^cg-g=f- fe ef/g/|
+V:2
+E2z2z4|z2D2C2-CD/C/|D2B,2C2D2|E2z2z4|z8|z8|
+V:3
+z8|zD,D,D, D,D,D,D,|B,,2G,,2A,,2B,,2|C,2zC,D,3C,/D,/|E,2F,G, A,B,^CD|E2A,D_B,2G2|
+V:4
+E,,2G,,2F,,2E,,2|D,,2z2z4|z8|z8|z8|z8|
+V:1
+^c2a2g2-ga/g/|=f2zfg4-|g4aaaa|=fedcd3c/d/|e2z2z4|z8|
+V:2
+z4zAAA|_B2d2=c2B2|Aaaa=f2e2|A2zc BA^G^F|E2z2z4|z2e2d2c2|
+V:3
+z=FFFE2^C2&A,8|D4E4|z8|z8|[K:treble]z2E2D3E/D/|C2G2A3G/A/|
+V:4
+z8|z4zDDD|^C2A,2B,2C2|DD,D,D, D,D,D,D,|^G,D,-D,C, B,,A,G,2|A,E,E,E,F,2A,2|
+V:1
+z8|z4zddd|e2g2f2e2|d2f2e2d2|^c2e2d2c2|B2d2^c2B2|
+V:2
+B2d2c2B2|A2c2B2A2|G2B2A2G2|F2A2G2F2|E2G2F2E2|D2F2E2D2|
+V:3
+B2F2G3F/G/|A2FED2F2|E3B,^C3B,/C/|B,2z2z4|z8|z8|
+V:4
+G,D,D,D,E,2G,2|F,D,D,D,G,2D2-|D2G,2A,3G,/A,/|B,2zF,G,3F,/G,/|A,2zE,F,3E,/F,/|G,2zD,E,3D,/E,/|
+% (7)
+V:1
+^A2z2zfff|d2B2^c2^d2|eEEE EEEE|^AE-ED ^CBA2|B2z2zBBB|c2e2d2c2|B2z2zggg|
+V:2
+^CEB4A2|z2B2=A3B/A/|G2z2z4|z8|z2^D2E2F2|G4A4|G2d2c2B2|
+V:3
+zE2D^C4|B,4z4|z8|z8|z8|z2E2F2-FE/F/|G2D2E3D/E/|
+V:4
+F,8|B,,4zF,,F,,F,,|G,,2B,,2A,,2G,,2|F,,F,F,F, F,F,F,F,|^D,2B,,2^C,2D,2|E,2z2z4|z2B,,2C,3B,,/C,/|
+V:1
+f2d2e2f2|gGGG GGGG|^cG-GF Edc2|d2F2G2A2|B2-Bc/B/A2z2|z8|z4zAAA|
+V:2
+A2F2G2A2|D4z2E2|E2a2g3a/g/|f2D2E2F2|G2G2F2-FG/F/|E2A2G2-GA/G/|F2G2-G2F2|
+V:3
+F2D2C3D/C/[K:bass]|B,A,G,F, E,D,^C,B,,|A,,2z2z4|z4zDDD|B,2G,2A,2B,2|C2A,2B,2C2|D2B,2A,2D2|
+V:4
+D,2z2z4|z8|A,8|D,8-|D,8-|D,8-|D,8-|
+V:1
+z2d2e2-ed/e/|f2f2g2a2|b2g2a2b2|c'ccc cccc|cCCC CCCC|F2G2G2F2|G8|]
+V:2
+B2d2c2B2|A2c2B2A2|G2d2c2B2|A8|A,8|C2D2C2-CD/C/|[B,D]8|]
+V:3
+B,4A,2G,2|[I:staff 1]D8-|D2B2A2G2|F8|[I:staff 2]F,8|A,2B,2A,2D,2|[D,G,]8|]
+V:4
+D,8-|D,8|D8-|D2CB, A,G,F,E,|D,2C,B,, A,,G,,F,,E,,|D,,8|G,,8|]
+S:https://www.folktunefinder.com/tunes/159559
+S:http://moinejf.free.fr/abc/haendel-fugaII.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

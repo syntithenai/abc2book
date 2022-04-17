@@ -1,0 +1,37 @@
+X:1
+T:Deutsch-Polka
+C:traditionell
+R:Polka
+A:Tirol, Zillertal
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Zillertaler Musikanten" - eine volksmusikalische Dokumentation -  Karl Horak, hrsg. Bezirk Oberbayern und Land Tirol, Muenchen - Innsbruck, 1988
+N:im buch auf Seite 37 in F (1. 2.Teil) in der Quelle einstimmig
+S:mit dem vermerk: von Leo Lechler in Deutschland gehoert und ins Zillertal gebracht, aufgeschrieben von Hans Wurm - Muehlacher
+N:Kopie aus dem buch von Karl Horak
+N:Notenmaterial von Stefan Straubinger
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:C %Transposed from F
+ce |\
+g2gg g2ag | f2BB B2ag | f2BB B2ag | e2cc c2ce |
+g2gg g2ga | b2bb b2c'2 | e'3c' b2a2 | g2gg [g2B2] :|
+|: g2 |\
+e'3d' c'2b2 | b2a2 a2^ga | d'3c' b2a2 | a2g2 g2^fg |
+{b}c'4 g2e2 |1 f6 g2 | b4 ad | e6 :|\
+             [2 d2f2 a4 | g2bd' f'2b2 | [c'2e2][c'e][c'e] [c'2e2] |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153201
+S:http://simonwascher.info/TradArchiv_polka/deutsch-polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

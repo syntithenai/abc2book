@@ -1,0 +1,23 @@
+X:1
+T:House At Pooh Corner
+C:Kenny Loggins
+M:4/4
+L:1/8
+K:D
+V:1
+N:PLAY: INTRO, VERSE, CHORUS, VERSE, CHORUS, CODA#1, CHORUS, CODA #2
+|"D""^INTRO"d/2c/2|d A2 G-G F-F d/2e/2
+|f d2 A-A d-d a/2g/2|g-g f/2g/2 a/2b/2 a f/2e/2 d-
+|dA d/2e/2f/2g/2 ag f/2e/2f|d4||
+|"D""^VERSE"dd/2d/2-dc-"Em"cBBA-|"F#m"AABD-"Bm"DEFG-
+S:https://www.folktunefinder.com/tunes/164936
+S:http://gulfweb.net:34043/~rlwalker/abc/house.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/house.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Edgecombe
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+&quot;Em&quot;~EDE Bcd|EBc dec|~EDE Bcd|efg &quot;D&quot;aga|
+~EDE Bcd|EBc dec|&quot;D&quot;dBd &quot;C&quot;efd|1&quot;Em&quot;eBGE2D:|2&quot;Em&quot;eBGE2G||
+|:&quot;Am&quot;AAE &quot;Em&quot;BBE|&quot;A&quot;ccE &quot;D&quot;ddE|&quot;Em&quot;ede fef|&quot;D&quot;gfef2G|
+&quot;Am&quot;AAE &quot;Em&quot;BBE|&quot;A&quot;ccE &quot;D&quot;ddE|&quot;Em&quot;BeB &quot;D&quot;AcA|1&quot;Em&quot;BGFE2G:|2&quot;Em&quot;BGFE2D||
+S:https://www.folktunefinder.com/tunes/155697
+S:http://www.thesession.org/tunes/display/5683
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

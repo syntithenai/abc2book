@@ -1,0 +1,25 @@
+X:4
+T:Valse des montagnes
+B:Invitation a la Waltze
+O:Wallonie
+M:3/8
+L:1/16
+R:valse
+Q:C8=30
+K:C
+eg |: fg eg df | eg c2 eg | df G2 Bd | ce G2 eg |
+fg eg df | eg c2 eg | df G2 Bd | c2 z2 eg :|
+|: df G2 Bd | ce G2 eg | df G2 Bd | ce G2 eg |
+fg eg df | eg c2 eg | df G2 Bd |1 c2 z2 eg :|2 c4 ||
+S:https://www.folktunefinder.com/tunes/157792
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/valses.txt
+S:http://users.skynet.be/infants/musiques/abc/valses.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/valses.txt
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

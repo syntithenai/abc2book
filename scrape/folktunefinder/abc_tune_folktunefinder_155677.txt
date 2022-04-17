@@ -1,0 +1,25 @@
+X: 1
+T: Joys of Quebec
+I: Joys of QuebecR-41Areel
+M: C|
+R: reel
+K: A
+ee| "A"eccc c2ee| eccc c2ee| fAeA dAcA| "E7"dBBB B2dd|
+    "E7"dBBB B2dd| dBBc B2(3Bcd| |1 "E7"e2ee gfeg| "A"fe^df e2 :|2 \
+                                    "E7"e2ee fefg| "A"a6 |]
+|:\
+(3ABc| "A"[A4e4] "D"[A4f4]| "A"[e3A3][fA] [A2e2]AB| \
+       "A"[c4e4] "D"[d4f4]| "A"[c3e3]d [c2e2]Ac|
+       "A"B2A2 G2A2| "E7"B3c B2Bc|1 d2e2 gfeg| "A"fe^df e2 :|2 \
+                                "E7"d2e2 fefg| "A"afec A2 |]
+%%text Roaring Jelly  R-41
+S:https://www.folktunefinder.com/tunes/155677
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set03.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set03.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

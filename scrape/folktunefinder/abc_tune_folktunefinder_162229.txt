@@ -1,0 +1,21 @@
+X:49
+T:The Green Brechans o' Branton
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+g | f2B BdB | e2A AcA | f2B BdB |
+d3 g3 | f2B BdB | e2A AcA | Bcd ecA |
+d3 g2 :: g | fdB fdB | ecA ecA |
+fdB fdB | d3 g3 | fdB fdB |
+ecA ecA | Bcd ecA | d3 g3 :|
+S:https://www.folktunefinder.com/tunes/162229
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Green_Brechans_o_Branton.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

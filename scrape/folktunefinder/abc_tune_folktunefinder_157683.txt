@@ -1,0 +1,23 @@
+X: 1
+N: Fidget
+N: 8 x 32R 3C (RSCDS 16)
+P: Fidget
+C: RSCDS Book 16, arr. T. Traub 8-31-2005
+R: reel
+M: 4/4
+L: 1/8
+K: D
+A2|"D"d2 d2 dcBA|d2 d2 dcBA|d2 d2 a2 f2 |"Em"edef "A"e2 A2|"D"d2 d2 dcBA|"G"g2 g2 gfed|
+"Em"B2 B2 "A"dcBc|"D"dcde d2 || d2|"G"g2 bg "D"f2 af|"A"edef "D"d3 c|"G"B2 B2 "E"e3 d|
+"A"cBcd e3 f|"G"g2 bg "D"f2 af|"A"edef "D"d3 c|"G"B2 e2 "A"dcBc|"D"dcde d2 |]
+S:https://www.folktunefinder.com/tunes/157683
+S:http://terrytraub.org/abc/FidgetR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:2
+T:The Seven King's Daughters
+T:Lady Isobel and the Elf Knight
+B:Bronson
+O:Arthur Kyle Davis jr. "Traditional Ballads of Virginia",
+O:1929, pp. 551(Q) and 84 (Maxie).
+O:Sung by Mrs Dan Maxie (ne Holland), Altavista, Va., March
+O:23, 1914;  Learned from her mother.  Collected by Juliet Fauntleroy.
+N:I can't align the words. S in the abc represents end-of phrase.
+M:4/4
+L:1/8
+K:Gmix % Pentatonic ( -4 -7) Lydian/Ionian/Mixolydian [Pi 1]
+D2 | G2 D2 G2 A2 | B2 B2 AG E SD |
+G4 A4 | G6 SB2 | d2 B2 d2 e2 |
+B2 B2 AG SED | G2 G2 A2 BA | G6 z2 |]
+W:
+W:She picked him up so shyly,
+W:She hauled him in the sea.
+W:Lie there, lie there you false-eyed vilyun
+W:Instead of me.
+W:Six of the king's daughters you've drownded,
+W:And the seventh one you shall be.
+S:https://www.folktunefinder.com/tunes/156812
+S:http://www.folkinfo.org/abcprojects/bronson/b4.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:52
+T: Graf und Nonne (Die Nonne)
+N: Q2155y
+O: Mitteleuropa, Niederlande
+N: Niederlaendische Fassung der Ballade.
+N: Schlusston rhythmisch korrigiert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 6/8
+L: 1/16
+K: G
+D2 | G2G2A2_B4A2 | G6D4
+GG | _B2B2B2c2B2c2 | d6-d4
+d2 | d2d2d2_e4d2 | d4c2A4
+c2 | c4_e2d4d2 | d2c2_B2A4
+A2 | c2d2_e2G4A2 | G6-G4
+S:https://www.folktunefinder.com/tunes/161972
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

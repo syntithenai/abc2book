@@ -1,0 +1,24 @@
+X: 1
+T:Sstpankki valssi
+R:Vals frn Finland
+M:3/4
+L:1/4
+K:Dm
+A |"Dm"d A F|"A7"G F E|"Dm"D>D D|D E F|"Gm"G>G G|\
+[1"C7"G F G|"F"A>A A|"A"A2 :|[2"C7"G c B|"F"A>A A|"A7"A F G\
+|:"Dm"A>A A|"D7"A d c|"Gm"B>B B|B A G|\
+"Dm"F A>F|"A7"E D ^C|"Dm"D>D D|[1D F G:|[2D2|]\
+T:Komp\
+|:vDu[FA]u[FA]|vA,u[^CE]u[^CE]|vDu[FA]u[FA]|vDu[FA]u[FA]|\
+"etc"G,[B,D][B,D]|C[CE][CE]|A,[A,F][A,F]|A,[^CE][^CE]::\
+D[FA][FA]|D[^FA][^FA]|G,[B,D][B,D]|G,[B,D][B,D]|\
+D[FA][FA]|A,[^CE][^CE]|D[FA][FA]|[F3A3]:|
+S:https://www.folktunefinder.com/tunes/165147
+S:http://homepage.calypso.net/~ci-18034/finland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/finland.abc
+% Rhythm Vals frn finland
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

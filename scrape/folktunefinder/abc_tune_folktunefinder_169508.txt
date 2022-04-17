@@ -1,0 +1,19 @@
+X: 1
+T: Kenneth's Bridge
+M: 3/2
+L: 1/8
+R: three-two
+K: Dmaj
+|:B2  BB  AB  dF  FE  FA | B2  BB  AB  df  af  ed | B2  BB  AB dF  FE  F2 | D2  df  ec  dD  FE  FA :|
+|: G2  EF  GA  Bd  ea  fd | A2  FE  FA  dD  FE  FA |
+B2  EF  GA |  Bd  ea  fd | A2  FA  dD | FE  ED  E2 :|
+S:https://www.folktunefinder.com/tunes/169508
+S:http://www.thesession.org/tunes/display/8706
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

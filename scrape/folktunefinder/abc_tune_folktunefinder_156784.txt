@@ -1,0 +1,68 @@
+X:3571
+T:Menuet
+T:Fait par mons. B\"ohm
+C:Georg B\"ohm
+B:Anna Magdalena Bach
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/4
+Q:1/4=120
+K:G
+V:1
+G2A|FDA|cAF|{E}D3|
+V:2
+G,E,C,|D,2A,|CA,F,|D, z/ C/B,/A,/|
+%
+V:1
+Bd/c/B/A/|GB/A/G/F/|EcB|[1A3:|[2A3||
+V:2
+G,F,D,|E,D,B,,|C,A,,G,,|[1D,/^C,/D,/E,/F,/D,/:|[2D,3||
+%
+V:1
+|:d2e|^cAe|ge^c|A3|
+V:2
+|:D,B,,G,,|A,,2E,|G,E,^C,|A,,A,/B,/^C/D/|
+%
+V:1
+g2a|fde|Ad^c|d3|
+V:2
+E^CA,|DB,G,|F,G,A,|D,/^C,/D,/E,/F,/D,/|
+%
+V:1
+Bd/=c/B/A/|GB/A/G/F/|EcB|A3|
+V:2
+G,F,D,|E,D,B,,|C,A,,G,,|D,/D,,/D,/E,/F,/D,/|
+%
+V:1
+G2A|FDA|cAF|D3|
+V:2
+G,E,C,|D,2A,|CA,F,|D,>C, B,,/A,,/|
+%
+V:1
+Bd/c/B/A/|Bd/c/B/A/|GAF|[1G3:|[2G3|]
+V:2
+G,,B,,D,|G,F,D,|B,,C,D,|[1G,,/F,,/G,,/A,,/B,,/C,/:|[2G,D,G,,|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/156784
+S:http://abc.musicaviva.com/tunes/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/bohm-georg/boehm-menuet/boehm-menuet-pno2.abc
+% Rhythm Minuet
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

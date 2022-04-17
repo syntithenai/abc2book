@@ -1,0 +1,19 @@
+X:1
+T:I Will Set My Ship In Order
+M:3/4
+L:1/8
+K:D
+ Bd e2B/2-d/2 B| AF E2(2E3.99999962500005/5.99999925000009E3.99999962500005/5.99999925000009F3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009|\
+ Bde-d(3B3.99999962500005/5.99999925000009B3.99999962500005/5.99999925000009d3.99999962500005/5.99999925000009B3.99999962500005/5.99999925000009d3.99999962500005/5.99999925000009B3.99999962500005/5.99999925000009|\
+ AF B2B-A| F/2- A F/2 E2 DE| F/2- F E/2- EF-A A| Bd e-d/2-B/2 B/2 d- B/2|\
+ AF E2 z2|||
+S:https://www.folktunefinder.com/tunes/166895
+S:http://back.numachi.com:8000/dtrad/abc/SHIPORDR.1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Evie's Jig, or a Fiddle Should be Played On
+C:Paul Kirk
+C:17October2008
+M:6/8
+L:1/8
+Q:1/2=92
+Z: Contributed 2008-10-19 18:52:32 by Paul Kirk VictorianScript@aol.com
+K:D
+A|"D"dDD DFA|dFF AFE|DFA def|"G"edB "A"AFE|
+"D"DdD DFA|dFF DFA|"Em"Bdf "A"gec|"D"edd d2::d|
+faa aba|fdb "A"afe|"Bm"fBB "Em"gBB|"G"bgf "A"efg|
+"D"aff ~f3|fab afe|dfa "G"dba|"A"gfe "D"d2:|A|"D"dDD DFA|dFF AFE|DFA def|"G"edB "A"AFE|
+"D"DdD DFA|dFF DFA|"Em"Bdf "A"gec|"D"edd d2::d|
+faa aba|fdb "A"afe|"Bm"fBB "Em"gBB|"G"bgf "A"efg|
+"D"aff ~f3|fab afe|dfa "G"dba|"A"gfe "D"d2:|A|"D"dDD DFA|dFF AFE|DFA def|"G"edB "A"AFE|
+"D"DdD DFA|dFF DFA|"Em"Bdf "A"gec|"D"edd d2::d|
+faa aba|fdb "A"afe|"Bm"fBB "Em"gBB|"G"bgf "A"efg|
+"D"aff ~f3|fab afe|dfa "G"dba|"A"gfe "D"d2:|]
+S:https://www.folktunefinder.com/tunes/156483
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/EviesJigOrAFiddleShouldBePlayedOn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

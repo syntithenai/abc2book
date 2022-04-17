@@ -1,0 +1,24 @@
+X: 1
+T:Jamaica
+M:2/2
+L:1/8
+B:The Round Band Book of Playford
+K:F
+"F"F2A2 A2Bc | "Bb"d2"F"c2 "Bb"d4 | \
+"F"c2A2 "Dm"A2GF | "C7"G4 "F"F4 | \
+"F"F2A2 A2Bc | "Dm"d2"Am"c2 "Dm"d4 | \
+"Am"c2A2 "Bb"A2GF | "C7"G4 "F"F4 || \
+"Dm"f2f2 "Am"e2dc | "Bb"d2d2 "F"c2A2 | \
+"Dm"f2f2 "C"efg2 | "G7"d4 "C7"c4 | \
+"F"f2f2"C7"e2dc | "Dm"d2d2 "Am"c2A2 | \
+"Gm"Bcd2 "F"c2"Bb"BA | "C7"G4 "F" F4 ||
+S:https://www.folktunefinder.com/tunes/167227
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ja/Jamaica_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

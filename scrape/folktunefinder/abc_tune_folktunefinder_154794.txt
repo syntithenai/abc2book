@@ -1,0 +1,22 @@
+X: 1
+T: Dublin Lads, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|:g3d BG G2 | ABcA DFAd | g3d Bcde |fdcA GABd |
+g3d BG G2 | AB (3cBA DFAd |g3d Bcde |fdcA G4 ||
+|:c|BGAF DFEG | F2 eg fdcA | BGAF DFeg | fdcA G3c |
+BGAF DFEG | F2 eg fdcA | BGAF DFeg | fdcA GABc ||
+|:dg g2 dg g2 | dffe f3e | dg g2 d^cde | fdcA GABc | 
+dg g2 dg g2 | dffe f3e | defg abag | fdcA GABd ||
+S:https://www.folktunefinder.com/tunes/154794
+S:http://www.thesession.org/tunes/display/4994
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

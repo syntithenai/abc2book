@@ -1,0 +1,24 @@
+X: 7
+T: The Jumpy Jig
+M: 6/8
+R: Jig((HF0B20M15D0U0))
+Z: Frederick W. Faller
+Q:450
+D: The Heart of Cape Bretton, Smithsonian Folkways, Hinnon Beaton, Fiddle
+K:D
+f2 A ABA | f2 d ede | f2 A ABA | ded dBA | f2 A ABA | f2 d efg | aba f2 
+e | ded dBA :||
+f2 d e2 d |f2 d ede | f2 d e2 d | ded dBA | f2 d e2 d |f2 d efg | aba f2
+ e | ded dBA |
+fdf ede | fdf ede | fdf e2 d | ded dBA | fdf ede |fdf efg | aba f2 e | d
+ed dBA |]
+S:https://www.folktunefinder.com/tunes/166496
+S:http://fredmusic.pbwiki.com/f/Hinnons_Medley1.abc
+% Rhythm Jig((hf0b20m15d0u0))
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

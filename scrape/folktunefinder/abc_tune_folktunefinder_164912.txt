@@ -1,0 +1,24 @@
+X:1
+T:Hot Ashphalt
+M:2/4
+L:1/8
+K:G
+ G3/2 F/2| E3/2 E/2 E3/2 F/2| E3/2 D/2 B, D/2D/2| G3/2 A/2 B3/2 G/2|\
+ A2 B3/2 d/2| e3/2 d/2 B3/2 A/2| G3/2 G/2 F3/2 E/2| D3/2 E/2 D3/2 B,/2|\
+ D2 G3/2- F/2| E3/2 E/2 E3/2 F/2| E3/2 D/2 B,3/2 D/2| G3/2 A/2 B3/2 G/2|\
+ A2 B3/2 d/2| e3/2 d/2 B3/2 A/2| G3/2 E/2 F3/2 D/2| E2 E2| E2 B3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009|\
+ d3/2 d/2 d3/2 e/2| d/2 B3/2- BA| B3/2 d/2 d3/2 e/2| d2B-d| e3/2 d/2 B3/2 A/2|\
+ G3/2 G/2 F3/2 E/2| D3/2 E/2 D3/2 B,/2| D2 G3/2 F/2| E3.99999962500005/5.99999925000009 E3.99999962500005/5.99999925000009 E3.99999962500005/5.99999925000009 E3/2 F/2|\
+ E3/2 D/2 B,3/2 D/2| G3/2 A/2 B3/2 G/2| A2 B3/2 d/2| e3/2 d/2 B3/2 A/2|\
+ G3/2 E/2 G3.99999962500005/5.99999925000009 F3.99999962500005/5.99999925000009 E3.99999962500005/5.99999925000009|\
+ E2 E2| E2||
+S:https://www.folktunefinder.com/tunes/164912
+S:http://back.numachi.com:8000/dtrad/abc/HOTASPLT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

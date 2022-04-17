@@ -1,0 +1,32 @@
+X:1
+T:Four Lane End
+M:C
+L:1/8
+N:as played for MOTley Morris
+Q:1/4=132
+K:G Major
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+D2| G2 GB d2 cB | cedc BGDF | G2 GB d2 cB | cedB G2 gf | e2 ge dBGB |\
+ABcA Bcd2 | efge dBGB | BGAF GD ||
+P:B
+Bc | d2 c2 BGBc | dgdc BGBc | d2 c2 BGdB | ABAG FAde | d2 c2 BGBc |\
+dgdc Bdgf | e2 d2 c2 B2 | ABAG FAdc |:\
+"last time only play 3x"BGcA BGcA :| BGAF G2 |]
+S:https://www.folktunefinder.com/tunes/159043
+S:http://www.mit.edu/~jcb/MOTley/abc/four-lane-end.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/four-lane-end.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/four-lane-end-tune.shtml
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:0899
+T:"Jackson's Morning Brush"  (jig)  0899
+C:after   Mr. Delaney
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+D|DFE EFD|DFA AFA|BAB def|gfg e2D|
+DFE EFD|DFA AFA|BAB d2e|fdd d2:|
+|:g|fed faf|ede fdB|AFA def|gfg e2g
+fed faf|ede fdB|AFA d2e|fdd d2:|
+|:g|fdf ece|dBd AFA|DFA def|gfg e2g|
+fdf ece|dBd AFA|DFA d2e|fdd d2g:|
+|;fdf ece|dBd AFA|DFA def|gfg e2g|
+afd gec|dcB AFA|DFA d2e|fdd d2:|
+|:g|fed faf|gbg faf|fed faf|gfg e2g|
+fed faf|gbg faf|fed eag|fdd d2:|
+S:https://www.folktunefinder.com/tunes/167135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0899-JacksonsBrush.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0899-JacksonsBrush.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

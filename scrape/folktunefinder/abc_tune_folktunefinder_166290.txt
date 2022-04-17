@@ -1,0 +1,21 @@
+X: 1
+P: Independence Trail
+C: by Alasdair Fraser, "Dawn Dance" 1998
+C: arr Terry Traub, 6-20-2007
+M: 4/4
+L: 1/8
+R: strathspey
+K: G
+|: (3DEF|"G"G2 (3GAB "Am"c2 C>B|"D"(3ABA G>A "G"B>AG>F|"C"E2 e2 "G"d>BG>A|"G"B2 (3BAG "D"A>Bc>d|"C"e2 e<g "Bm"f>e (3def|"G"g2 f>d "C"e4|"Bm"d2 (3dcB "Am"c2 (3cBc|"G"d>BG>D "C"E<cc>B|"D"(3ABA (3AGF "G"G2 :|
+(3GBd|"G"g2 "Bm"f>d "C"e4|"Bm"d2 e<g "Em"B2 A>G|"C"E<G"D"G>F "G"G3 E|"G"D<G (3GAB "D"A2 ABd|"Em"g2 "Bm"f>d "C"e4|"Bm"d2 (3dcB "Am"c2 (3cBc|"G"d>BG>D "C"E<cc>B|"D"(3ABA (3AGF "G"G2|]
+S:https://www.folktunefinder.com/tunes/166290
+S:http://terrytraub.org/abc/IndependenceTrailS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

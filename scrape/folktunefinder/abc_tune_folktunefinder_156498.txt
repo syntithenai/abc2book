@@ -1,0 +1,31 @@
+X: 3
+T:Hommage \`a Edmond Pariso (Pariseau)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:B
+B Bcde|"B"fBBf BBfB | BBfB "E"g2fe | "B"dfBc dBfB | dfBd "B#dim"efed |
+"C#m"c3c cBcd| "F#7"c3f fgfe | "B" d2c2 BdcB |"F"F3 B Bcde|
+"B"fBBf BBfB | BBfB "E"g2fe | "B"dfBc dBfB | dfBd "B#dim"efed |
+"C#m"c3c cBcd| "F#7"f2e2 d2c2| "B"Bgfe "F"decd |"B"B2d2 "B7" c2 B2 |]
+|: \
+"E"b4 "Fm7/D#"g4 |"C#m7"e3B "F#7"e2g2 | "B" f3f "F/A#"fgfd | "G#m"B2d2 c2B2 |"C#m"c2cc cBcd |
+"F"f2e2 d2c2 |1 "B"dcBd "F"fdfg | "B"f2d2 "B/D#"c2B2 :|\
+[2 "B"Bgfe "F"d2c2| "B"B3 |]
+%%text Roaring Jelly R-157
+%%vskip 28
+S:https://www.folktunefinder.com/tunes/156498
+S:http://roaringjelly.org/music/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set74.abc
+S:http://roaringjelly.org/music/sets/Set74B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set74B.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set74B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:1
+T:I've Got Sixpence
+M:4/4
+L:1/8
+K:F
+ A2 F2 C F3| AA FF C F3| A2 F2 C F2 G| AA GF G2 FF| C C2 C F2 F2| D D2 D G3 F|\
+ E E2 DC BA G| F2- C2- F2E-F| G3 E C2 B2| A3- G F2 E2| DD DD G2 GF|\
+ E3- F G2 C2| F3/2 F/2 FF A3 F| D2- G2 B3 F| E3 EE BA G| F3- F2 z EF|\
+ G6 FG| A6 EF| G2 GG G2 cB| A2- c2- d2- e2| f3/2 F/2 FF A2 GA| B3/2 D/2 DD G3 F|\
+ E2 E2 EB AG| F8-| F4 z4|
+S:https://www.folktunefinder.com/tunes/166836
+S:http://back.numachi.com:8000/dtrad/abc/SIXPNCE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/SIXPNCE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

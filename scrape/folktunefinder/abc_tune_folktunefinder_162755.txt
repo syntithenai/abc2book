@@ -1,0 +1,21 @@
+X: 1
+T: Gusty's Frolics
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|:A,DD DCD ~F3|A,DD DFA GEC|A,DD A,DD FEF|~G3 E2F GFE:| 
+|FED AB^G A2=G|FDD ABc dAG|FED AB^G A=GF|GBG E2F GFE| 
+|FED AB^G A2=G|FDD ABc dAG|FED ~d3 AFD|GBG E2F GFE| 
+|:Add ded ~f3|Add dfa gec|Add ded ~f3|~g3 ecA gfe:| 
+|:dfd cec d2B|AFD DE/2F/2G AFD|GBd d=cB ~c2A|GE=C CEC GEC:|
+S:https://www.folktunefinder.com/tunes/162755
+S:http://www.thesession.org/tunes/display/169
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

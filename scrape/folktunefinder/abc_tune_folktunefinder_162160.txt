@@ -1,0 +1,31 @@
+X:1
+T:Gravel Walk
+M:4/4
+L:1/8
+Q:1/4=150
+R:Reel
+K:G
+"Am"A2eA BAeA|"Am"A2ed "G"BAGB|
+"Am"A2eA Bdef|"G"gedc BAGB:|
+"A"A2aA gAfA|"A"eAdc "G"BAGB|
+"A"A2aA gAfa|"G"gedc BAGB|
+"D"A2aA gAfA|"A"eAdc "G"BAGB|
+"F"ABcd "Em"egfa|"G"gedc BAGB|]
+|:"Am"cAAG A2AB|"Am"cAAG "G"BGBd|
+"Am"cAAG A2ef|"G"gfge dBGB:|
+"C"(3cBc gcac gc|"C"c2gc "G"BAGB|
+"C" (3cBc gc acga|"G"gedc BAGB|
+"C" (3cBc gc acgc|"C"c2gc "G"BAGB|
+"F"ABcd "Em"egfa|"G"gedc BAGB:|
+S:https://www.folktunefinder.com/tunes/162160
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/GravelWalk.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/GravelWalk.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/GravelWalk.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

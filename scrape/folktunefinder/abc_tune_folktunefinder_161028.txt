@@ -1,0 +1,22 @@
+X:13
+T:Gipsy's Hornpipe
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+"^Dotted"d2|gf ed ed Bd|ed  (3efg B2(BA)|GF GA BA Bd|e2A2A3d|
+gf ed ed Bd|ed  (3efg B2(BA)|GF GA Bc BA|G2E2E2:|
+|:(gf)|e2B2B2(gf)|e2B2B2(gf)|ed ef gf ga|b2e2e2(ga)|
+bg af g2gf|ed  (3efg B2(BA)|GF GA Bc BA|G2E2E2:|
+S:https://www.folktunefinder.com/tunes/161028
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/GipsysHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/GipsysHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

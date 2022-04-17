@@ -1,0 +1,25 @@
+X:7
+T:The Jackpike
+C:Neil Brookes
+Z: "Neil Brookes" <neil:brookes36.freeserve.co.uk> tradtunes 2001-01-24
+N:Play as a set after La Trombe
+M:4/4
+L:1/4
+Q:2/4=120
+K:Ddor
+| A>DAc=BGE2 | D/2E/2F/2G/2AGEG^FD | A>DAc=BGE2 | D/2E/2F/2G/2AGE2D2 |
+| A.D/2D/2Ac=BGE2 | D/2E/2F/2G/2AGEG^FD | A>DAc=BGE2 | D/2E/2F/2G/2AGE2D2 |
+| d>DdfecAz/2D/2 | Ac^=BGD/2E/2F/2G/2AG | AddfecA2 | a>agfecA2 |
+| d>DdfecAz/2D/2 | Ac=BGD/2E/2F/2G/2AG | A{g}a2gfede | fg/2f/2 ec d2d2 |
+S:https://www.folktunefinder.com/tunes/167042
+S:http://trillian.mit.edu/~jc/music/abc/by/NeilBrookes/Jackpike.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Jackpike.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Jackpike_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 2
+T:Stick Dance, Fanny Frail, Evesham
+M:C
+L:1/8
+Q:120
+C:Trad.
+S:Dommett
+A:Evesham
+P:A(AB)2AC
+B:Dommett, p. 21, 43
+K:C
+P:A
+E2G2 F2A2|G2cd e2c2|{g}f2e2 d2c2|{e}dcBA GFED|
+CEGE F2A2|G2cd e4  |   fedc BGAB|   d2c2 c4  ||
+P:B
+d2G2 d2G2|f2e2 dBG2|   f2e2 d2c2|{e}dcBA GFED|
+C2G2 F2A2|G2cd e4  |   fedc BGAB|   d2c2 c4  ||
+P:C
+g2|e6     g2|e6     g2|  c'2g2 f2e2|   d6   Bc  |
+dddd BBBB|dddd BBBB|   gggg ffdd|   c6       ||
+S:https://www.folktunefinder.com/tunes/163052
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Evesham.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Evesham.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Evesham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

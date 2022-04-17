@@ -1,0 +1,29 @@
+X:3
+T:Sparve Lille
+R:polska K1
+A:V\"armland
+Z:id:hn-k1-3
+M:3/4
+L:1/8
+K:D
+a|a2 fa fa|ag eg eg|af df ec|d>e fa (3^gfg|
+a2 fa fa|ag eg eg|af df ed|(3cBc d3:|
+|:A|A2 df ec|de fa (3^gfg|a2 fd ec|d2 ef dc/B/|
+A2 df ec|de fa (3^gfg|a2 fd ed|(3cBc d3:|
+"spelas \"aven s{\aa} h\"ar"
+[K:Dlyd]|:a|a2 fa fa|ag eg eg|af df ec|d>e fa (3gfg|
+a2 fa fa|ag eg eg|af df ed|(3cBc d3:|
+|:A|A2 df ec|d>e fa (3gfg|a2 fd ec|d2 ef dc/B/|
+A2 df ec|d>e fa (3gfg|a2 fd ed|(3cBc d3:|
+S:https://www.folktunefinder.com/tunes/157277
+S:http://www.norbeck.nu/abc/s/hnk1p0.abc
+% Rhythm Polska k1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

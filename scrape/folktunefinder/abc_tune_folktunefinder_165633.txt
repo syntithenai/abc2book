@@ -1,0 +1,30 @@
+X:1
+T:Humpa from Oaxaca
+R:set dance
+C:av George Smith, Bellevue WA USA
+M:2/4
+L:1/16
+Q:1/4=130
+K:Dm
+P:A
+| A2 d2e2|:"Dm" f z ag f2e2|d4 A4|"Gm" B2 B4 A2 |G6 F2 |"A7" E6 F2\
+| E2D2 C2B,2 |"Dm" A,8|A, z A2 d2e2 |f z ag f2e2|d4 A4\
+| "Gm" B2 B4 A2 |G6 F2 |"A7" E6 F2|G2A2 =B2^c2\
+|1 "Dm" d8-|d2 A2 d2e2 :|2 "Dm" d8-|d4 e4|
+P:B
+|: "Dm" f4 f4 |a6 f2|"Gm" g2 g4 f2|"A7" e8|a4 a4 |a3g f2g2\
+| "Dm" a8-|a8|"Gm" g2 g4 ^f2|g4 "A7"a4|"Dm" f2 f4 e2 \
+| f4 a4 |"Gm" g6 b2|"A7" a2g2 f2^c2\
+|1 "Dm" d8-|d4 e4:|2 "Dm" d4 a4|d'4 z4||
+S:https://www.folktunefinder.com/tunes/165633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/oaxaca.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/oaxaca.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

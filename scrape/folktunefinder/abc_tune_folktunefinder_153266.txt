@@ -1,0 +1,30 @@
+X:1
+T:Lady Anne Montgomery
+%C: R-145
+M:C|
+L:1/8
+K:D Major
+A| \
+"D"FADA FADA| FAdA "G"BAdA|"D"FADF "Em"EDEF| "A"DB,A,B, "D"D3E|
+"D"FADA FADA| FAdA BABc|"G"dBAF "Em"E3F|"A"DB,A,B, "D"D3:|
+|: e| \
+"D"f3f fede| fedB ABde|   f2fe "Bm"fede| "Em"fgaf "A"efde|
+"D"f3f fede| fedB ABde|"G"fded "Em"BdAd| "A"egfe "D"d3:|
+%%text Roaring Jelly R-145
+%%textfont Courier 10.0
+%%text Alternate chords/bass line for part B:
+%%text |: D - | - - | F#m/C# - | - - | Bm - | - - | Em G | A D :|
+%%vskip 28pt
+S:https://www.folktunefinder.com/tunes/153266
+S:http://roaringjelly.org/music/sets/Set65.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set65.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set65.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/sets/Set65.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

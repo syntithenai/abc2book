@@ -1,0 +1,20 @@
+X:42
+T:Elsey's Waltz
+Q:1/4=180
+I:abc2nwc
+L:1/8
+K:D
+AG|F3E F2|D2F2A2|B2G2d2|A4g2|f3e d2|d2c2d2|d2A2f2|
+e4AG|F3E F2|D2F2A2|B2G2d2|A4g2|f3e d2|A2B2c2|d6|d4|]
+[|A2|f3g fe|d2e2f2|g2B2g2|f4A2|f3g fe|d2c2d2|d2A2f2|
+e4AG|F3E F2|D2F2A2|B2G2d2|A4g2|f3e d2|A2B2c2|d6|d4|]
+S:https://www.folktunefinder.com/tunes/156010
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/ElseysWaltz.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Supp.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/ElseysWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

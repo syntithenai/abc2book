@@ -1,0 +1,23 @@
+X:1
+T: Green Hills of France (No Man's Land)
+M:3/4
+L:1/4
+K:G
+ D| D2 D/2D/2| G2 G| E/2 E3/2 C| A,2 G/2G/2| F3/2 F/2 G| A/2 B3/2 A|\
+ G3/2 C/2 E| D2 z/2 D/2| D2 D/2D/2| G2 G/2G/2| E3/2 E/2 C| A,2 G/2G/2|\
+ F/2 F3/2 G| A2B/2-A/2| G G3/2 A/2| G3| z2 d| d d3/2 d/2| d/2 c3/2 c/2B/2|\
+ A A B| c2 c/2B/2| A3/2 A/2 B| c/2 B3/2 A| G A B| A3-| A z d| d d d|\
+ d2 c/2B/2| A A G| E2 F/2G/2| A A3/2 B/2| c2 B/2A/2| G G A| G2 G/2G/2|\
+ A3/2 A/2 A| A B c/2c/2| c3/2 d/2 c|B/2-A/2 G G/2G/2| A3/2 A/2 A| A2 A/2B/2|\
+ c3/2 d/2 c| A3-| A z c3.99999962500005/11.9999985000002 c3.99999962500005/11.9999985000002 c3.99999962500005/11.9999985000002|\
+ c c3/2 c/2| c d3/2 c/2| c/2 B3/2- B-| B z B/2A/2| G2 G/2A/2| B2 c/2B/2|\
+ A3/2- G/2- F| G3-| G2||
+S:https://www.folktunefinder.com/tunes/162354
+S:http://back.numachi.com:8000/dtrad/abc/NOMANLD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/NOMANLD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

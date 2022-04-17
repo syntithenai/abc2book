@@ -1,0 +1,27 @@
+X:123
+T: ICH GING MAL UEBER NE BRUECKE
+N: K2174
+O: Europa, Mitteleuropa, Deutschland, Sachsen
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: F
+C | FGAB | c2Az
+B2G2 | F2z
+C | FGAB | c2Az
+B2G2 | F2z2
+BBGG | AAF
+C | BBGG | AAF
+C | FGAB | c2z
+B | AAGG | F2z
+S:https://www.folktunefinder.com/tunes/82483
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

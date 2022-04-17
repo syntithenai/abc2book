@@ -1,0 +1,26 @@
+X:1
+T:Gammal fbodpsalm
+R:Psalm
+Z:Klas Krantz, 2006
+O:Sverige
+S:efter Oskar Lindberg
+L:1/8
+M:C
+K:Am
+E^G | "Am" A3B A^G Ac | "E7" B3 ^G E2EG | "Am" A3BA2^F2 |
+"Em" G6E^G | "Am" A3G "A7" EF GA | "Dm" F3ED2C2 | "F6" D6E2 | "E7" E6 :|]
+B2 | "Am" c3d cB Ac | "E7" B3cB2^G2 | "Am" A3B cB cA | "E" B6E^G |
+"Am" A3B A=G Ac| "Em" B3G E2G2| "F" A4AG F2| "C" {EF}G6EG|
+"Am" A3G "A7" EF GA | "Dm" F3ED2C2 | "F6" D6E2 | "E" E6 |]
+S:https://www.folktunefinder.com/tunes/159949
+S:http://www.folkwiki.se/pub/cache/Gammal_f%E4bodpsalm_6a6ead.abc
+% Rhythm Psalm
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

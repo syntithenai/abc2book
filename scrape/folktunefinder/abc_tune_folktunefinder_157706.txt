@@ -1,0 +1,83 @@
+X:1
+% A: A-Area
+% B: B-Book
+C: Culebr\'on Timbal 
+C: Territorio
+D: Territorio
+% G: G-Group
+% H: H-History
+% N: N-Notes
+% O: O-Origin
+% S: S-Source
+T:Fierro Azul
+% Z: Z-Transcription note
+M:4/4
+L:1/8
+Q:"Rock"
+K:G
+V:1 name="Alto"
+%%MIDI program 65
+V:2 name="Tenor 1"
+%%MIDI program 65
+V:3 name="Tenor 2"
+%%MIDI program 65
+[V:1] Z4 |:
+[V:2] Z4 |:
+[V:3] Z4 |:
+% Measure 5
+[V:1] z ^D z3/ A/- A/A/^G/ z/ z2      | z8 | z ^D =D z z ^G =G z     |1 z8 :|2
+[V:2] z ^A, z3/ E/- E/E/^D z/ z2      | z8 | z ^A, =A, z z ^D =D z   |1 z8 :|2
+[V:3] z ^D, z3/ A,/- A,/A,/^G,/ z/ z2 | z8 | z ^D, =D, z z ^G, =G, z |1 z8 :|2
+% Measure 9
+[V:1] G2- G3/A/- A2 G/G/F/=F/         || E8  | Z5 | 
+[V:2] E2- E3/E/- E2 G/G/F/=F/       || G8  | Z5 |  
+[V:3] G,2- G,3/A,/- A,2 G,/G,/F,/=F,/ || B,8 | Z5 |
+% Measure 16
+[V:1] E/E/E/E/- E/E/D/E/ GB _B2    | E/E/E/E/- E/E/D/E/ GB _B2   | z8 |
+[V:2] B,/B,/B,/B,/- B,/B,/A,/B,/ DF =F2    | B,/B,/B,/B,/- B,/B,/A,/B,/ DF =F2    | z8 |
+[V:3] E,/E,/E,/E,/- E,/E,/D,/E,/ G,B, _B,2 | E,/E,/E,/E,/- E,/E,/D,/E,/ G,B, _B,2 | z8 |
+% Measure 19
+[V:1] E/GAdG/ c4     | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | 
+[V:2] B,/DEAD/ G4    | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | 
+[V:3] E,/G,A,DG,/ C4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 |
+% Measure 24
+[V:1] G4 =F4   | E2 ^D2 =D2 ^C2     | =C4 B,4   | z8 |
+[V:2] D4 =C4   | B,2 ^A,2 =A,2 ^G,2 | =G,4 F,4  | z8 |
+[V:3] G,4 =F,4 | E,2 ^D,2 =D,2 ^C,2 | =C,4 B,,4 | z8 |
+% Measure 28
+[V:1] E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | Z4 ||
+[V:2] B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | Z4 ||
+[V:3] E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | Z4 ||
+% Measure 34
+[V:1] E/E/E/E/- E/E/D/E/ GB _B2    | E/E/E/E/- E/E/D/E/ GB _B2   | z8 |
+[V:2] B,/B,/B,/B,/- B,/B,/A,/B,/ DF =F2    | B,/B,/B,/B,/- B,/B,/A,/B,/ DF =F2    | z8 |
+[V:3] E,/E,/E,/E,/- E,/E,/D,/E,/ G,B, _B,2 | E,/E,/E,/E,/- E,/E,/D,/E,/ G,B, _B,2 | z8 |
+% Measure 37
+[V:1] E/GAdG/ c4     | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | E^D z2 z4   | 
+[V:2] B,/DEAD/ G4    | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | B,^A, z2 z4 | 
+[V:3] E,/G,A,DG,/ C4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 | E,^D, z2 z4 |
+% Measure 42
+[V:1] G4 =F4   | E2 ^D2 =D2 ^C2     | =C4 B,4   | z8 |:
+[V:2] D4 =C4   | B,2 ^A,2 =A,2 ^G,2 | =G,4 F,4  | z8 |:
+[V:3] G,4 =F,4 | E,2 ^D,2 =D,2 ^C,2 | =C,4 B,,4 | z8 |:
+% Measure 46
+[V:1] Z8 :|
+[V:2] Z8 :|
+[V:3] Z8 :|
+% Measure 54
+[V:1] G4 =F4   | E2 ^D2 =D2 ^C2     | =C4 B,4   | z8 ||
+[V:2] D4 =C4   | B,2 ^A,2 =A,2 ^G,2 | =G,4 F,4  | z8 ||
+[V:3] G,4 =F,4 | E,2 ^D,2 =D,2 ^C,2 | =C,4 B,,4 | z8 ||
+% Measure 57
+[V:1] E^D=D z z4    | A^G=G z z4    | e^d=d z z4 | A^G=G z z4 |]
+[V:2] B,^A,=A, z z4 | E^D=D z z4    | B^A=A z z4 | A^G=G z z4 |]
+[V:3] E,^D,=D, z z4 | A,^G,=G, z z4 | E^D=D z z4 | A^G=G z z4 |]
+S:https://www.folktunefinder.com/tunes/157706
+S:http://abcmr.sourceforge.net/fierro-azul.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T:Diplodocus, The
+M:6/8
+L:1/8
+C:Liz Carroll
+S:From Trian: Trian
+R:Jig
+K:AMix
+AB |: cAA edB | cAA ABc | dff ~g3 | aee fed |
+!cAA A2G | EAA AGE | DFF G2A |1 BAA A2B :|2 BAA A2d ||
+!efe e2d | cAB AGE | ~G3 GEF | GAG FDD |
+!efe e2d | cAB AGE | DFF G2A | BAA A2d |
+!efe e2d | cAB AGE | ~g3 gef | gag fdd |
+!efe e2d | cAB AGE | DFF G2A | BAA Afg |:
+!aAA Aaf | ~g3 efg | ~f3 def | gfg efg |
+!aAA Aaf | ~g3 efg | fed e2/f2/ed |1 cAG Afg :|2 cAA A2B ||!
+!"var. on 2nd & 3rd measure of C part" ~g3 ege | ~G3 GBd ||
+S:https://www.folktunefinder.com/tunes/153541
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/di/Diplodocus_The_4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/di/Diplodocus_The_4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

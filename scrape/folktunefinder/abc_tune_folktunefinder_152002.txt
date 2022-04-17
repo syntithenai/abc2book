@@ -1,0 +1,24 @@
+X:80
+T: Maedchen und Hasel
+N: Q0138C
+O: Osteuropa, Tschechoslowakei, Deutsch - Proben, Sprachinsel
+R: Ballade, verlorene Unschuld, Moral
+M: 3/4
+L: 1/16
+K: E
+E2E2=G2 | B6^A2B2=c2 | A4z4
+=d2c2d2e2 | =d4B4
+B3B | =d6B2d3d | =G6
+A2B2B2 | =G6B2A2G2 | E4z2
+S:https://www.folktunefinder.com/tunes/152002
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verlorene unschuld, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

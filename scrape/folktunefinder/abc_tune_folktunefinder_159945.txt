@@ -1,0 +1,28 @@
+X:1
+T:Gamla Minnen
+R:Schottis
+S:Efter August Strmberg
+O:Jt, Smland
+M:4/4
+L:1/8
+K:Am
+EE ^GB dc B^G|AB cd e2 e2|a2 E2 c2 BA|^GA Bc d2 e2|
+EE ^GB dc B^G|AB cd e2 e2|a2 E2 c2 BA|^GA Bc A4:|
+ec ec e2 e2|dB dB d2 d2|cB A^G AB cd|e2 EE E2 E2|
+ec ec e2 e2|dB dB d2 d2|cB A^G Ac e^g|a2 A,2 A,4:|
+a^g ab c'b ac'|ba ^gb a2 e2|fe df ed ce|dc Bd c2 e2|
+a^g ab c'b ac'|ba ^gb a2 e2|fe df ed ce|E2 ^G2 A4:|
+S:https://www.folktunefinder.com/tunes/159945
+S:http://www.folkwiki.se/pub/cache/Gamla_Minnen_2a5725.latin.abc
+S:http://www.folkwiki.se/pub/cache/Gamla_Minnen_2a5725.abc
+S:http://www.folkwiki.se/pub/cache/Gamla_Minnen_2a5725.abcm.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

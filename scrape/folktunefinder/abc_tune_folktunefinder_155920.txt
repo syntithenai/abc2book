@@ -1,0 +1,55 @@
+X:1
+T:Eleno Mome
+O:Bulgaria
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=135
+M:7/8
+L:1/8
+P:ABCDE
+K:C
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI chordprog 21
+%%MIDI bassprog 58
+%%MIDI bassvol 100
+%%MIDI gchord fcfcfc2
+%%MIDI drumon
+%%MIDI drum d4d3dd2d2d2 41 43 37 41 37 37
+P:A
+|: "G"G2 AB "C"c/B/AG | "G"B2 Bd c/B/AG | G2 AB "C"c/B/AG | "G"B2 Bd c/B/AG |
+   "G"G2 BA GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz |
+"F"cc BA "G"GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz :|
+P:B
+|: "C"E2 FE ^D/E/FE | G2 AG ^F/G/AG | E2 FE ^D/E/FE | "G"G2 ^F/G/A/B/ "C"ccz :|
+P:C
+|: "C"G/^F/G/A/ G/F/G/A/ GE2 | "G"GG FF "C"E/F/Gz | G/^F/G/A/ G/F/G/A/ GE2 | "G"GG FF "C"EEz :|
+P:D
+K:G
+ "G"B2 cB/c/ "D"BA2 | "G"G2 G>D G/A/B2 | B2 cB/c/ "D"BA2 | "G"G2 G>D GGz |
+ "G"[B2d2] [ce][B/d/][c/e/] "D"[Bd][A2c2] | "G"[G2B2] [G3/2B3/2][D/G/] [G/B/][A/c/][B2d2] |\
+    [B2d2] [ce][B/d/][c/e/] "D"[Bd][A2c2] | "G"[G2B2] [G3/2B3/2][D/G/] [GB][GB]z ||
+P:E
+K:C
+  "G"GA _BA GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz |
+"F"cc BA "G"GF/E/D | "C"E2-E2 "F"cBA | "G"G2 BA GF/E/D | "C"E2-E2 McMcz ||
+W:
+W:
+W:Arrangement Copyright (C) 2007 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/155920
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/ElenoMome.abc
+S:http://people.csail.mit.edu/jaffer/Music/ElenoMome.abc
+S:http://voluntocracy.org/Music/ElenoMome.abc
+S:http://www.voluntocracy.org/Music/ElenoMome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

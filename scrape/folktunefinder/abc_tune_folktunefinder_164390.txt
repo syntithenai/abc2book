@@ -1,0 +1,38 @@
+X:1
+T:Hinach Yafa
+O:Israel
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+M:4/4
+L:1/8
+Q:1/4=135
+K:D
+%%MIDI channel 1
+%%MIDI program 1 71
+(A dAed|"D"f3)(egfed|"A7"cBce"D"d3)(e|fdfgaf)-f(d|"G"bg"D"af"A7"ge-)ef/2e/2|
+^defg"Em"e4-|e2 (ee fefg|"D"a3)a a2a2|\
+"A7"([a2f2][ge][df])([e2g2][df][ce])|"D"[d4A4]"A7"(agfe)|
+|:[M:4/4]"D"d2 A2 "A7"dd e2|"D"f4"D7"fgfe|"G"g3 a/2g/2"D"f4-|f2 e2 ff g2|"D7"a6 a2|
+"G"b3 a ggab|"D"a8-|"D"a2 (f2f2g2|a4) a2 ab|"G"g3 f"A7"e4-|e2 ed ee f2|
+g2 ag f2 g2|"D"a8-|a2 (f2"D7"g2a2|"G"b3)b b2 b2|"A7"abag"D(Bm)"f4-|f2 fe ff g2|
+"(Em)"a2 ba g2 f2|"A7"e8-|e2 ed c2 A2|"D"f8|[M:6/4]"A7"efed"D"d8:|
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/164390
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/HinachYafa.abc
+S:http://people.csail.mit.edu/jaffer/Music/HinachYafa.abc
+S:http://voluntocracy.org/Music/HinachYafa.abc
+S:http://www.voluntocracy.org/Music/HinachYafa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

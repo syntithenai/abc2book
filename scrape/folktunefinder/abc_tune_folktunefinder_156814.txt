@@ -1,0 +1,28 @@
+X:4
+T:The Outlandish Knight
+T:Lady Isobel and the Elf Knight
+B:Bronson
+O:"The Outlandish Knight" Sharp MSS., Clare College
+O:Library, Cambridge.  Also in C.J.Sharp, JFSS,
+O:IV (1910), p.120(6).  Sung by Mrs Ware, Over Stowey,
+O:Jan 23, 1907.
+N:Tune related to minor form of "The Miller of Dee"
+N:No words given in Bronson
+M:6/8
+L:1/8
+K:Gm
+D | G2 G FGA | BcB A3 |
+[M:3/8] c3 | [M:6/8] BAG DEF | G3-G2 D |
+G2 G FGA | BcB A3 | [M:3/8] d3 |
+[M:6/8] B2 G AGF | G3-G2 |]
+S:https://www.folktunefinder.com/tunes/156814
+S:http://www.folkinfo.org/abcprojects/bronson/b4.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

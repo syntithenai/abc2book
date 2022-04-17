@@ -1,0 +1,32 @@
+X:1
+T:Idbury Hill
+M:4/4
+C:
+S:Bacon (BC (RKS from Benfield, 1925))
+N:
+A:Bledington
+O:English
+R:Reel
+%P:A/2.(AB)$^4$
+P:A.(AB)4
+%:NoTeX
+%:NoWWW
+K:DDor
+I:speed 400
+P:A
+|: A2 AB c2 A2 | GFED C2 DE | F2 A2 AGFE  | D4   D4 :|\
+P:B
+|: A2 AB c2 A2 | dcBA G2 G2 | A2 AB c2 A2 | d3 c A4 |\
+   A2 AB c2 A2 | GFED C2 DE | F2 A2 AGFE  | D4   D4 :|
+S:https://www.folktunefinder.com/tunes/165890
+S:http://www.ucolick.org/~sla/morris/music/Bledington/idbury.lb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

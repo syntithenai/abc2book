@@ -1,0 +1,24 @@
+X:57
+T: Der Gluecksjaeger
+N: Q0134D
+O: Mitteleuropa, Deutschland (BRD) , Baden, Horben
+N: Dritte Zeile = Refrain auf sinnfreie Silben.
+R: Ballade, Jagd, Flucht, Verfuehrung
+M: 4/4
+L: 1/16
+K: C
+G2 | c4B2A2G4G2G2 | A4G2F2E4z2
+E2 | G4A2F2D3EF2D2 | E3FG2E2C4z2
+G2 | G2c2c2c2c3de2c2 | G2d2d2d2d3ef2
+g2 | e4d4c4z2
+S:https://www.folktunefinder.com/tunes/151979
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, verfuehrung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:1
+T:Gerlinde Walzer
+C:Rudi Pietsch und Ernst Spirk
+R:walzer
+A:Niederoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:nach der: "Grossrussbacher Auslese 1982", Zusammenstellung: G.Haid, R.Pietsch, Herausgeber: Oesterreichisches Volksliedwerk, Wien 1982,
+N:im buch ganz in C
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+dd |\
+b2g | a2f | g>Bd | ze/d/e/d/ |\
+c2A | ze/d/e/d/ | B2G | zdd |
+b2g | a2f | g>Bd | ze/d/e/d/ |\
+c2A- | Ac/d/e/f/ | G>gg | g :|
+|: zd |\
+de/d/^c/d/ | gBB | de/d/^c/d/ | fcc |
+de/d/^c/d/ | add | de/d/^c/d/ | bgg |\
+de/d/^c/d/ | gBB | de/d/^c/d/ | fcc |
+de/d/^c/d/ | fcc | de/d/e/f/ | g :|
+|: zd |\
+c/d/^c/d/=c | c/d/^c/d/=c | B/d/G/d/B | B/d/G/d/B |\
+c2d | e2f | a2g | dzd |
+c/d/^c/d/=c | c/d/^c/d/=c | B/d/G/d/B | B/d/G/d/B |\
+c/d/^c/d/=c | c/d/^c/d/=c/f/ | gdB | G :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/160826
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/gerlinde_walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

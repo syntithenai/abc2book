@@ -1,0 +1,28 @@
+X: 3
+T: Road to Boston
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+e2| "D"f6 ef| g2f2 e2d2| "A"c2d2 e2f2| "D"d2A2 F2A2|
+    "D"f6 ef| g2f2 e2d2| "A"c2d2 e2c2| "D"d6 :|
+|:\
+fg| "D"a6 ^ga| "B"b2a2 =g2f2| "Em"g6 fg| "A"a2g2 f2e2|
+    "D"f6 ef| "G"g2f2 e2d2| "A"c2d2 e2c2| "D"d2A2 d2 :|
+%%text Roaring Jelly R-9
+%%text 3/26/02
+% %%newpage
+S:https://www.folktunefinder.com/tunes/157192
+S:http://roaringjelly.org/music/sets/Set69.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set69.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set69.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

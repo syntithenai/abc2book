@@ -1,0 +1,30 @@
+X: 1
+T: Johnny from Gandsey
+Z: Hiroyuki Yamada
+R: reel
+M: 4/4
+L: 1/8
+T: Lead the Knave
+D: Maire O'Keeffe, John Faulkner, Jackie Daly, and Donal O'Connor "Re-Joyce"
+N: This is an Irish version of Scottish reel "John of Badenyon."
+Z: Contributed 20040716224434 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Bmin
+FBBA BdcB|AFEF A4|FB~B2 dBAF|ABde f3a|
+bafa bafe|dBAB d3e|fgfe dBAF|1 FEFA B3A:|2 FEFA B3a||
+bafa bafb|afef a3b|bafe dBAF|ABde f3a|
+bafa bafe|dBAB d3e|fgfe dBAF|1 FEFA B3a:|2 FEFA B3A||
+S:https://www.folktunefinder.com/tunes/168445
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/JohnnyfromGandsey.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/LeadtheKnave.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/JohnnyfromGandsey.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LeadtheKnave.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

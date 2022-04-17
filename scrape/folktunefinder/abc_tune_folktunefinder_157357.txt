@@ -1,0 +1,21 @@
+X: 1
+T: Father Dollard's Favourite
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DFA dcd|AFA BGE|DFA dcd|AFA gfe|
+DFA dcd|AFA BGE|afd bge|AFD TE2D:|
+fef gfg|afd AFD|fef gfg|DFA TB2A|
+fef gfg|afd bge|fga Bcd|AFD TE2D:|
+S:https://www.folktunefinder.com/tunes/157357
+S:http://www.thesession.org/tunes/display/4264
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

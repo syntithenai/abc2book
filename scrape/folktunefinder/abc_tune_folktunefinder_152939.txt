@@ -1,0 +1,32 @@
+X:3
+T:Kadril van Kampenhout
+T:Derde figuur "Appoel"
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABCDABCDA
+L:1/8
+M:6/8
+K:F
+P:A
+(3C/D/E/ | F2 A c2 f | e2 d G2 z | G2 A B2 e | d2 c A2 z | F2 A c2 f | e2 d g2 z | edc cde | f2 z F2 |]
+P:B
+K:Bb
+z | dcB BAG | (F3 F)D_E | FGA Bdc | (B3 A2) z | edc BAG | (F3 F)=EF | AGF | edc | B2 z B2 |]
+P:C
+K:F
+(3C/D/E/ | F2 A c2 f | e2 d G2 z | G2 A B2 e | d2 c A2 z | F2 A c2 f | e2 d g2 z | edc cde | f2 z F2 |]
+P:D
+M:2/4
+L:1/8
+z| (3FCF (3AFA | (3cAc (3fed | (3c=Bc (3^cde | (d2 c) z |(3FCF (3AFA | (3cAc (3fed | (3c=Bc (3^cde | f2 z F2 |]
+S:https://www.folktunefinder.com/tunes/152939
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Kampenhout.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

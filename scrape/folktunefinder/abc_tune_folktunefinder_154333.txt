@@ -1,0 +1,32 @@
+X:1
+T:Dreher
+R:dreher
+A:Kuhlaendchen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Noten-ausdruck von Ernst Kainzmeier, dort in F, mit dem vermerk: gelernt von Thomas Spurny auf Schloss Freiberg 2000 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:4/4
+L:1/8
+K:F
+F2G2 AcAF | GBGE FAcC | F2G2 AcAF | GBGE F3 C :|
+|: \
+B2BB AcAF | GBGE FAcC | B2BB AcAF |1 GBGE F2C2 :|\
+                                  [2 GBGE F4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154333
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/dreher.F2G2AcAFGBGEFAcC.abc
+% Rhythm Dreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

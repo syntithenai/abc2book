@@ -1,0 +1,37 @@
+X:1
+T:Egerlaender Walzer
+C:traditionell
+R:walzer
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+B/c/ |\
+dbb | dgg | f/g/aa | c2d/e/ |\
+dc'c' | dff | g/a/bb | B2B/c/ |
+dbb | dgg | f/g/aa | c2d/e/ |\
+dc'c' | dff | g>ba/f/ | g2 :|
+|: d |\
+e2c' | ec'e | d2b | dba/g/ |\
+g/f/f/A/c | cag/f/ | a/g/g/B/d | Bcd |
+e2c' | ec'e | d2b | dba/g/ |\
+g/f/f/A/c | cag/f/ | g>ba/f/ | g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155770
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/egerlaender_walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

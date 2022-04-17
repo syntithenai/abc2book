@@ -1,0 +1,36 @@
+X: 1
+T: der Heyser Bulgar
+Z: 2000 by John Chambers <jc:trillian.mit.edu>
+B: Henry Sapoznik, "The Compleat Klezmer".
+D: Naftule Brandwein Orchestra, 1923
+D: Dave Tarras "Khasene Nigunim" 1925
+N:
+N: 8 repeated bars deleted from A phrase.
+M: 2/4
+L: 1/8
+K: D_B_e^F
+DFG \
+|: "D"AA A2 | (3ABc "Cm"(3BAG | "D"AA F2- | FD FG | "D"A2 zd- | (3dAc "Cm"(3BAG | "D"AA F2- | FD FG |
+| "D"AG BA | GF ED | "Cm"GG C2 | zC EG | c/d/e/d/  c/B/A/G/ | A/B/c/B/ A/G/F/E/ | "(D)"F/G/A/G/ "Cm"F/E/D/C/ | "D"DDFG |]
+| "D"AG BA | GF ED | "Cm"GG CD | E4    | (3cBA  (3BAG | (3AGF (3GFE | "(D)"D4 |1 zDFG :|2 "D"DD GB |]
+[| "Gm"^cd- dd | d/^c/B B2 | A/=c/B BB | ~A>G FG | "D"FG AB | "Cm"cA/c/ (3BAG | "D"A6 | zD GB |
+|  "Gm"^cd- dd | d/^c/B B2 | A/=c/B BB | ~A>G FG | "D"FG AB | "Cm"c>B c/B/A/G/ | "D"F>E "Cm"F/E/D/C/ |1 "D"DD GB :|2 "D"Dz zA, |]
+[| "D"Dz z2 | Az "(Gm)"(3BAG | "D"(3FGA (3GFE | FG "A7"^GA | "D"Dz z2 | Az (3BAG | "D"(3FGA "Gm"(3BAG | "D"(3AGF "Cm"(3EDC |
+|  "D"Dz z2 | Az "(Gm)"(3BAG | FG ^GA | "Cm"=Bc3- | c4- | c4- | c4 \
+| c/d/e/d/  c/B/A/G/ | A/B/c/B/ A/G/F/E/ | "(D)"F/G/A/G/ "Cm"F/E/D/C/ |1 "D"D2 zA, :|2 "D"D2 D_D ||
+|: "Cm"C2 DE | DC G2 | (3FGA (3GFE | DC FG |1 "Cm"C2 DE | DC c2 | "Cm"(3cBA "Gm"(3BAG | "D"(3AGF "Cm"(3GFE \
+                                          :|2 "Cm"C2 DE | DC G2 | "D"(3FGA "Cm"(3GFE | "D"D |]
+S:https://www.folktunefinder.com/tunes/164050
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/HeyserBulg_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/HeyserBulgar_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HeyserBulg_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HeyserBulgar_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

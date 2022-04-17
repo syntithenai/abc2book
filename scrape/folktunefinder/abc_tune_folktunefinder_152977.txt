@@ -1,0 +1,26 @@
+X:24
+T: Winterrosen
+N: Q1145B
+O: Mitteleuropa, Deutschland
+N: Vergleich zu Q0145, anderes Lied mit gleichem Textinzipit.
+N: Wahrscheinlich KEINE zur Balladengruppe gehoerende Melodie.
+N: Letzten Notenwert rhythmisch korrigiert.
+R: , Lyrik
+M: 4/4
+L: 1/8
+K: F
+F2 | F2F2G2G2 | A2A2F2
+F2 | B2A2G2A2- | A2G2FEF2 | G8 | z2
+G2B4 | B2A4A2 | G2G2F3G | A3GF2ED | E4
+C4 | F2F2A4 | G2F2G4 | F6
+S:https://www.folktunefinder.com/tunes/152977
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm , lyrik
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

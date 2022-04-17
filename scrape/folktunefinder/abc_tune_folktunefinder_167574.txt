@@ -1,0 +1,26 @@
+X: 1
+T: Polly Put The Kettle On
+M: 4/4
+L: 1/8
+R: strathspey
+K: Dmaj
+f |: a>ba>g f<dd>f | g>fe>d c<AA>f | 
+a>ba>g f>d (3fga |[1 B2 c>A d2 d>f :|[2 B>dc>A d2 d>e || 
+|: f>dg>e f<dd>f | g>Be>d c<AA>e | 
+f>dg>e f>d (3fga |[1 B2 c>A d2 d>e :|[2 B>dc>A d2 |]
+K: Gmaj
+|: (3ABc | d2 d>c B<G G2 | cE (3BAG F<D D2 |
+d>G (3edc B>G (3Bcd | E2 F2 G2 :|
+|: D>G | B>Gc>A B<GD>G | c>EA>G F<D (3DDD |
+[1 B2 (3cBA B>G (3Bcd | E>A (3FED G2 :|
+[2 B>d (3cde B>g (3Bcd | e>cA<F G3 |]
+S:https://www.folktunefinder.com/tunes/167574
+S:http://www.thesession.org/tunes/display/8267
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

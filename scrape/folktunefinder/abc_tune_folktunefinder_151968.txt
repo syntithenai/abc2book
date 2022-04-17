@@ -1,0 +1,26 @@
+X:46
+T: Der Nachtjaeger
+N: Q0133B
+O: Mitteleuropa, Deutschland (DDR) , Pommern, Stralsund
+N: Anhaengsel an der ersten Zeile.  Dritte Zeile =  Refrain auf
+N: sinnfreie Silben.
+R: Ballade, Jagd, Flucht, Vergewaltigung, Tod
+M: 4/4
+L: 1/8
+K: G
+D2 | GFGABABc | d2cBA2zB | d2cBF2z
+A | ABAGFEFG | AGFED2z2
+d2B2B3B | c2A2A3
+A | GABcd2GA | B2A2G2
+S:https://www.folktunefinder.com/tunes/151968
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, vergewaltigung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

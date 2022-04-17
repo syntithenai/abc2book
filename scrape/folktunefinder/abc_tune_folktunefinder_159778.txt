@@ -1,0 +1,33 @@
+X: 5
+T: Gallant Hussar
+C: Trad.
+Z: From Bacon's Handbook of Morris dances (transposed).
+H: Longborough version
+H: C part would have to be modified for Withington stepping.
+M: 6/8
+L: 1/8
+K: G
+P:A
+D | G2 B ABc | e2 d d2 B| GGB AcB | G3 F2 D |
+ G2 B ABc | e2 d d2 B| GGB AcB | G3 G2 ||
+P:B
+d | dBd gfg | e2c c2B | ABc edB | G3 F2 D |
+ G2 B ABc | e2 d d2 B| GGB AcB | G3 G2 ||
+P:C
+"_N.B. must be modified for Withington stepping." | \
+M:3/8 
+L: 1/8
+d3 | \
+M:6/8 
+(2dB d3 | (2gf g3 | e3 c3 | c3 B3 | ABc edB | G3 F2 D |
+ G2 B ABc | e2 d d2 B| GGB AcB | G3 G2 ||
+S:https://www.folktunefinder.com/tunes/159778
+S:http://tomkeays.com/morris/tunes/withington/withington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has history text
+% Has_accompaniment_chords No chords

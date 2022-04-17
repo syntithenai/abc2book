@@ -1,0 +1,30 @@
+X:1 % 6
+T:Heduli oder Welser
+C:traditionell
+R:Jodler
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+Z:abc transcripton Simon Wascher
+M:4/4
+L:1/8
+K:G 
+V:1
+(G>Bd2)(G>Bd2) | (F>Ad2)F4 | (F>Ad2)(F>Ad2) | (G>Bd2)G4 |\
+(G>Bd2)(G>Bd2) | (F>Ad2)F4 | (F>Ad2)(F>Ad2) | (G>Bd2)G4 |\
+(G>Bd2)(G>Bd2) | (F>Ad2)F4 | (F>Ad2)(F>Ad)F | G6z2 |]
+V:2
+z8 | z8 | (A>df2)(A>df2) | (B>dg2)B4 |\
+(B>dg2)(B>dg2) | (A>df2)A4 | (A>df2)(A>df2) | (B>dg2)B4 |\
+(B>dg2)(B>dg2) | (A>df2)A4 | (A>df2)(A>d f)d | B6z2 |]
+V:3
+z8 | z8 | z8 | z8 |\
+(g>ab2)(g>ab2) | (c'>ba2)d4 | (d>fc2)(d>fc2) | d(g/d/ b>)a (g3d) |\
+(g>ab2)(g>ab2) | (c>ba2)d4 | (d>fc2)(df/d/) d'>f | g6z2 |]
+S:https://www.folktunefinder.com/tunes/163784
+S:http://simonwascher.info/TradArchiv_iodler/heduli_oder_welser.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

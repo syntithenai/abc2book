@@ -1,0 +1,29 @@
+X: 1
+T: A Good Night
+O: Hankus Netsky
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+|: "D"^F4 D2 | ^F4 D2 | "Cm"E2 D2 CE | "D"D6 \
+| D2 E2 ^F{A}G | A2 {c}B2 AG | A2 {G}A2 {G}A2 | {G}A4 D2 |
+| B3 A (3BAG | ^F3 D ^FA | G^F GF ED | C4 C2 \
+| A2 G2 ^FE | ^F2 E2 DC | D2 {E}D2 {E}D2 |1 {E}D2 z2 D2 :|2 D2 dc BA ||
+|: D2 G2 B2 | d4 B2 | d3 c BA | G4 D2 \
+| B2 A2 GB | A2 D2 ^FA | G2 {A}G2 {A}G2 | {A}G4 D2 |
+| B3 A (3BAG | ^F3 D ^FA | G^F GF ED | C4 C2 \
+| A2 G2 ^FE | ^F2 E2 DC | D2 {E}D2 {E}D2 | D4 z2 :|
+S:https://www.folktunefinder.com/tunes/153653
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/waltz/GoodNightW2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/waltz/GoodNightW2_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/GoodNightW2_D.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

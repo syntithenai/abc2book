@@ -1,0 +1,21 @@
+X: 6
+T:Miss Sarah Drummond of Perth [1]
+M:C
+L:1/8
+R:Strathspey
+S:MacDonald - Second Collection of Strathspey Reels (1789)
+Z:AK/Fiddler's Companion
+K:A Minor
+a | A<A "tr"e>d B<d "tr"e2 | d<gB<g d<gB<G | A<A"tr'e<d B<de<(g | a>)eg>B A2A :|
+g | a<ae<a c<a e2 | g<gd<g Bg d2 | a<ae<a c<ae<g | a<eg<B {B}A2 Ag | a<ae<a c<a "tr"e2 |
+g<gd<g B<g d2 | a<ae<a g<be<g | a<eg<B {B}A2A ||
+S:https://www.folktunefinder.com/tunes/164715
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/Tune27769.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+P: Glen Grant
+C: from Raymond Ellis "Dedicated to Mom and Dad"
+C: arr. T. Traub 4-30-99
+R: Strathspey
+M: 4/4
+K: A
+L: 1/8
+|: "A"A,2 A>E "D"F>E C<E|"F#m"A2 B>c "D"d/c/B/A/ "E"G/F/E/D/|"A"C<EA>E "D"F>E C<E|"E"B,2 A,2 "A"A2-A:|
+f|"A"e>Ac>A "D"d/c/B/A/ F>f|"A"e>Ac>A "D"(3efg a>f|"A"e>Ac>B "D"(3ABA F>A|"E"E<CE>F "A"A2-A f|
+"A"e>Ac>A "D"d/c/B/A/ F>f|"A"e>Ac>A "D"(3efg a>e|"D"f<a"A"c<e "D"A<cF>A|"E"E<CE>F "A"A2-A |]
+S:https://www.folktunefinder.com/tunes/161309
+S:http://terrytraub.org/abc/GlenGrantS.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/GlenGrantS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T:Harvest Home
+M:4/4
+L:1/8
+Q:140
+C:Traditional
+R:Hornpipe
+Z:Donna Diekoff
+K:D
+|:"D"DAFA DAFA|defe dcBA|"Em"eAfA gAfA|(3efe (3dcB "A"(3ABA (3GFE|!
+"D"DAFA DAFA|defe dcBA|"Em"eAfA "A"gecA
+|1"D"d2 {e}dc d2 AF:|2"D"d2 {e}dc d2 cd||!
+|:"A"eA ~A2 "D/A"fA ~A2|"A"gAfA eA ~A2|"A"eAfA "D/A"gAfA|"E"(3efe (3dcB 
+"A"(3ABA (3GFE|!
+"D"DAFA DAFA|defe dcBA|"Em"eAfA "A"gece
+|1"D"d2 {e}dc d2 cd:|2"D"d2 {e}dc d2 AF|!
+% Output from ABC2Win  Version 2.1 f on 3/11/98
+S:https://www.folktunefinder.com/tunes/163469
+S:http://www.blackflute.com/music/tunes/hornpipes/harvest.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

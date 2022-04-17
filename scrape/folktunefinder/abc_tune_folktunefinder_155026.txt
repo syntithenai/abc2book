@@ -1,0 +1,35 @@
+X:1
+T:Duo en fa di\`eze mineur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle11.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:3/4
+L:1/8
+K:F#m
+V:1
+("^Adagio"f2a2).c'2|(b3a)g2|c2(c^e)(gb)|(b2a2)z2|c'4(af)|(^e4f2)|
+(3(gag)b2a2|(a2g2)z2::c'2c'2c'2|(c'^b)b4|=b2b2b2|
+(ba)a4|(d'c')(ba)(gf)|(^e4f2)|(3(gab)a2Tg2|{g}f6:|
+V:2
+F6|(G3A)B2|^E2E2E2|F2 z .F.A.c|f4F2|(G4A2)|
+(3(^efe)g2f2|(f2^e2)z2::(c^e)(ce)(ce)|(^df)(df)(df)|(^eg)(eg)(eg)|
+f2zfcA|F6|(G4A2)|(3(Bcd)c2TB2|{B}A6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155026
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle11.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle11/devienne-nouvelle11.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle11/devienne-nouvelle11.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

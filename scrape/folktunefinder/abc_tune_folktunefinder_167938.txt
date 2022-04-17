@@ -1,0 +1,19 @@
+X:1
+T:Jingle Bells
+M:4/4
+L:1/4
+K:C
+ G/2G/2| G e d c| G3 G/2G/2| G e d c| A3 z/2 A/2| B f e d| B3 z/2 B/2|\
+ g g f d| e3 G/2G/2| G e d c| G3 G/2G/2| G e d c| A3 z/2 A/2| B f e d|\
+ g g g3/2 g/2| a g f d| c3 g| e e e2| e e e2| e g c3/2 d/2| e3 z| f f f3/2 f/2|\
+ f e e e/2e/2| e d d e| d2 g2| e e e2| e e e2| e g c3/2 d/2| e3 z|\
+ f f f3/2 f/2| f e e e/2e/2| g g f d| c3||
+S:https://www.folktunefinder.com/tunes/167938
+S:http://back.numachi.com:8000/dtrad/abc/JNGLBLL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/JNGLBLL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

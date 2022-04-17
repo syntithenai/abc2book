@@ -1,0 +1,29 @@
+X:225
+T:Hurtemor
+R:polska
+C:Romin
+S:Av Romin, uppt. efter klockaren Laugren i Alva.
+B:Gotlandstoner nr 225
+Z:Till abc 1999, Erik Ronstrm
+O:Gotland, Alva
+M:3/4
+L:1/16
+K:A
+LA,4 LC4 LE4|ABcB A2A,2C2E2|A2ce e2cA A2cA|B2dB e2dB B2dB|
+Acec Acec Acec|Bded Bded Bded|ceag fgfe dcBA|cABG A4 A,4::
+LA4 Lc4 Le4|abc'b a2e2c2e2|e2ac' c'2ac' e2ac'|
+e2bd' d'2bd' e2bd'|eac'a eac'a eac'a|ebd'b ebd'b ebd'b|
+d'2c'2 c'2b2 b2a2|e2a2 agaf f2e2|A2ce e2cA A2cA|B2de e2dB B2dB|
+Acec Acec Acec|Bded Bded Bded|ceag fgfe dcBA|cABG A4 A,4:|
+S:https://www.folktunefinder.com/tunes/165784
+S:http://www.folkwiki.se/pub/cache/Hurtemor_a27499.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hurtemor_a27499.abc
+S:http://www.folkwiki.se/pub/cache/Hurtemor_a27499.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

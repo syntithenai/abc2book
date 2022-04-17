@@ -1,0 +1,25 @@
+X:31
+T: Graf und Nonne (Die Nonne)
+N: Q0155d
+O: Suedosteuropa, Rumaenien, Sathmar, Arded, Scheindorf
+N: Schlusspause korrigiert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 4/4
+L: 1/16
+K: E
+ | B4A4G4B4 | A4G4F8
+B4A4G4F4 | E4F2G2F4
+B,4 | G3FE3DG2F2E4 | E4c4B4
+A4 | G2B2G4F2GEF4 | E8z8
+S:https://www.folktunefinder.com/tunes/161951
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

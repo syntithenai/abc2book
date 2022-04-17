@@ -1,0 +1,25 @@
+X:53
+T: Graf und Nonne (Die Nonne)
+N: Q2155z
+O: Nordeuropa, Norwegen
+N: Norwegische Fassung der Ballade.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 4/4
+L: 1/8
+K: G
+G_B | d2d2c2cd | _B2BAG2
+GB | d2ddc_Bc2 | d4z2
+_e2 | =f2fd_e2ed | dcc2c3
+d | _B2A2G3
+G | A3GF2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/161973
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

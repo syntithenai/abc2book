@@ -1,0 +1,25 @@
+X:53
+T: Graserin und Reiter
+N: Q0149A
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kreis Forbach
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 3/4
+L: 1/8
+K: G
+DG | G4G2 | G2A2B2 | A4F2 | D4
+D2 | G4G2 | G2A2B2 | A4
+AB | c2e2e2 | e2d2c2 | B4d2 | d2c2
+B2 | A4d2 | d2d2c2 | B4
+AB | c2e2e2 | e2d2c2 | B4d2 | d2c2
+B2 | A4d2 | d2d2c2 | B4
+S:https://www.folktunefinder.com/tunes/153006
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

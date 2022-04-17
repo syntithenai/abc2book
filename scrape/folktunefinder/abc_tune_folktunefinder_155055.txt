@@ -1,0 +1,24 @@
+X:2
+%
+%%scale         0.75
+%%stretchlast   no
+%%titleleft     yes
+%%textfont       Times-Roman 10.0
+%%
+%
+T:Durch Adams Fall ist ganz verderbt
+C:Text: Lazarus Spengler, 1524
+L:1/4
+M:none
+K:DDorian
+%
+A2 AA GA ED D2 A2 cd AB c2 A2 :|
+S:https://www.folktunefinder.com/tunes/155055
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Reymann/durch_adams_fall.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Reymann/durch_adams_fall.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

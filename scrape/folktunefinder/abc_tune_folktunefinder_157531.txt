@@ -1,0 +1,19 @@
+X: 1
+T: das Fenster (C/F)
+O: Trad German
+M: 2/4
+L: 1/16
+K: C
+c'b | "C"c'2c2 c2c'b | c'2c2 c2ga | g2c'2 "D7"b2a2 | "G"b2g2 g2c'b | "C"c'2c2 c2c'b | c'2c2 c2ga | g2c2 "D7"d2A2 |
+| "G"B2G2 G2 :: g^f | "G"g2G2 G2=fe | "G7"f2G2 G2f2 | "C"e2c2 "F"f2e2 | "G7"d2g2- g2c'b | "F"c'2c'b c'2c'b |
+| "C"c'2g2 "G7"g2f2 | "C"e2dc "G7"d2cB | "C"c4 "fine"z2 :|[K:CB]C2 |: "F"A_Bc2 "C7"G3B | "F"A2F2 FGAF | "C7"G2C2 c3B |
+| "F"A2FG ABcd | "C"efg2 "G7"d3f | "C"e2c2 cdec | "G7"d2G2 g3f |1."C7"efed cBAG :|2."C"efed "d.C."c2 |]
+S:https://www.folktunefinder.com/tunes/157531
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Fenster_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/Fenster_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

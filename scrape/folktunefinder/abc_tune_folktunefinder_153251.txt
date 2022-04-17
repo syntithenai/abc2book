@@ -1,0 +1,20 @@
+X: 1
+T: Devil In The Strawstack, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+&quot;Gm&quot;GFD(F GF)D(F|GF)DF &quot;F&quot;C4|&quot;Gm&quot;GFDF G2 d2-|&quot;Dm&quot;dcA(c dc)Ac|!
+&quot;Gm&quot;GFD(F GF)D(F|GF)DF &quot;F&quot;C4|&quot;Gm&quot;GFDF G2 d2-|&quot;Dm&quot;dcA2 &quot;Gm&quot;G4:|]!
+&quot;Gm&quot;d2g2g4|gagf d4|&quot;F&quot;fAgA fAgf|&quot;Dm&quot;dcAc d4|!
+&quot;Gm&quot;d2g2g4|gagf d4|&quot;F&quot;fAgA fAgf|&quot;Dm&quot;dcA2 &quot;Gm&quot;G4:|]!
+S:https://www.folktunefinder.com/tunes/153251
+S:http://www.thesession.org/tunes/display/2073
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

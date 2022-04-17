@@ -1,0 +1,25 @@
+X:0068
+T:"Hugh O'Neill's Lament"    (air)      0068
+C:after Sg't. J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850)  Lyon & Healy, Chicago  1903 ed.
+C:slow
+Q:1/4=70
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_vb"B3/2A/2|G2G3/2F/2 (FE)(EF)|(GAB^G) (A2GA)|(Be)(^de) c2B3/2A/2|G2(FE) D2(EF)|
+G2(AB) E2(ef)|g2(fe) d2(BA)|(^GA)(GA) (Be)(ef)|(ge)(f3/2e/2) e2||
+z(e/2f/2)|.g3/2.g/2(fe) fBBA|Gd"^shake"FE D2(EF)|G2(G3/2A/2) (Bef^d)|e3(e/2f/2) g3/2g/2fd|
+e2(cB) (AdFE)|D2(EF) (Ge)(ed)|(.B3/2.B/2)(AF) (GE)(F3/2E/2)|E4-E2|]
+S:https://www.folktunefinder.com/tunes/165110
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/68-HughONeilsLament.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

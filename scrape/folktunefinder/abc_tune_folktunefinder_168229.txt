@@ -1,0 +1,24 @@
+X: 1
+P: John Finlayson's Jig
+C: Andrew Rankine
+R: Jig
+B: The Complete Andrew Rankine Collection
+Z: arr. Terry Traub 3-3-02
+M: 6/8
+K: D
+L: 1/8
+B|: "D" ABA fed| A3-A2 B| ABA "Ddim" BAB|"A7"c3-c3|ABA gfe|
+B3-B2 d|1 cBc AE^E| F3-F2 B:|2 cBc ABc| "D"d3-d2 B||
+|: "D"AD^E FA^G| A3-A2 B| A^GA "Ddim" de=c| "A7"c3-c3|efg gae|
+g3-g2 f|1 edd cE^E|"D" F3-F2 B:|2 edd cBc| "D"d3-d3|]
+S:https://www.folktunefinder.com/tunes/168229
+S:http://terrytraub.org/abc/JohnFinlaysonsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

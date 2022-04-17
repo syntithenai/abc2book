@@ -1,0 +1,49 @@
+X:12
+T:Dieu nous veille  la foi
+C:F. Benoit - M. Barthes
+M:C|
+L:1/4
+%%continueall 1
+%%staves [(1 2) (3 4)]
+K:C
+V:1
+C2CD|E2DC|G2zG|c2G2|E2F2|E2DC|G2-Gz|
+V:2
+G,2A,B,|C2A,C|C2xD|C2B,2|C2CD|CB,A,2|CA,B,x|
+V:3 clef=bass
+E,2E,G,|G,2F,A,|G,2zG,|E,F,G,2|G,2F,2|G,2A,A,|G,2-G,z|
+V:4
+C,2C,G,,|C,E,F,F,|E,2xB,,|A,,2E,D,|C,B,,A,,2|G,,2^F,,F,,|G,,2-G,,x|
+V:1
+C-CDF|E2E2|^F2DF|G2zG|A2c2|B2B2|
+V:2
+CA,G,B,|CDE2|D2DD|D2xE|E2^F2|G2G2|
+V:3
+E,E,G,G,|G,2C2|A,2A,A,|D2zB,|A,2D2|D2D2|
+V:4
+A,,A,,B,,D,|C,B,,A,,C,|D,E,D,C,|B,,2xE,|C,2D,2|G,2=F,2|
+V:1
+c2GE|A2G2|FEFD|G2-G2|c2GE|
+V:2
+GEDE|FCC2|DA,D2|CDE2|EFDE|
+V:3
+C2DC|C2CG,|A,2G,B,|C2-C2|C2DC|
+V:4
+E,2B,,C,|F,2E,2|D,C,B,,F,|E,D,C,B,,|A,,2B,,C,|
+V:1
+A2G2|AccB|c4|]
+V:2
+F2C2|CAG2|G4|]
+V:3
+CB,CG|GFEF|E4|]
+V:4
+F,2E,2|F,F,G,G,,|C,4|]
+S:https://www.folktunefinder.com/tunes/151377
+S:http://moinejf.free.fr/messe/messeD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

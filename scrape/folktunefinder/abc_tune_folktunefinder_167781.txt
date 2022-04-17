@@ -1,0 +1,29 @@
+X: 1
+T:Jig of Slurs
+M:6/8
+L:1/8
+Q:224
+S:From Boys of the Lough; Johnny Cunningham
+R:Jig
+K:D
+|:"D"Add dcd|"G"Bdd "D"Add|"G"Bdd "D"Add|"Em"Bee "A7"edB|
+"D"Add dcd|"G"Bdd "D"Add|"G"Bdd "A7"cde|"D"fdc d2B:|!
+|:"D"A2f fef|"D"a2f fed|"G"B2e ede|"A"f2f edB|
+"D"A2f fef|"D"a2f fed|"G"Bdd "A"cde|"D"fdc d2B:||!
+K:G
+|:"G"G2g gfg|"Em"agf "G"gdB|"G"G2g gfg|"Em"agf "G"gab|
+"G"G2g gfg|"Em"agf "G"gdB|"Em"e2e "C"efg|"Bm"fed "Em"edB:|!
+|:"G"GBB Bdd|"G"dee "Em"edB|"G"GBB Bdd|"Em"dee efg|
+"G"GBB Bdd|"G"dee "Em"edB|"Em"e2e "C"efg|"Bm"fed "Em"edB:|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/167781
+S:http://www.blackflute.com/music/tunes/jigs/slurs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

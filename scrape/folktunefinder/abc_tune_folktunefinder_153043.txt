@@ -1,0 +1,25 @@
+X:90
+T: Verschlafener Jaeger
+N: Q0152G
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Forbach, Hellimer
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 3/4
+L: 1/8
+K: G
+D2 | G3AB2 | A2G2F2 | G3AB2 | A4
+D2 | G3AB2 | A2G2F2 | G3AB2 | A4
+G2 | G3Bc2 | d3ed2 | c2B2A2 | B6 | A4
+G2 | G3Bc2 | d3ed2 | c2B2A2 | G4
+S:https://www.folktunefinder.com/tunes/153043
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

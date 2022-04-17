@@ -1,0 +1,43 @@
+X:1
+T:Kupferschmiedpolka
+R:Polka
+A:Bad Ischl, Salzkammergut
+C:Josef Androschin
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus Bad Ischl", Lois Blamberger, 3. Auflage, Bad Ischl 1990
+S:im buch nr. 37 mit der Angabe: Aufgezeichnet von L.Blamberger
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+P:I
+B2 |\
+de dB | de dB | d>c cB | c3g |
+f>a e>g | f>a e>f | e>d dB | d3B |
+de dB | de dB | d>c cB | c3g |
+f>a e>g | f>a e>f | g>d fd | g2 :|
+P:II
+Bc |\
+d2b2 | b2a>g | g>f fd | f2AB |
+c2f2 | f3e | e>d dB | d2Bc |
+d2b2 | b2a>g | g>f fd | f2AB |
+c2d2 | f>e d>f | gd ba | gg/g/g2 ||
+P:III
+d/d/d/d/ dB | dB dB | d/d/d/d/ dc | dc dc |
+a/a/a/a/ ag | f/f/f/f/ fe | d/d/d/d/ dc | edB2 |
+d/d/d/d/ dB | dB dB | d/d/d/d/ dc | dc dc |
+a/a/a/a/ ag | f/f/f/f/ fe | d/d/d/d/ ef | ggg2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170618
+S:http://simonwascher.info/TradArchiv_polka/kupferschmiedpolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

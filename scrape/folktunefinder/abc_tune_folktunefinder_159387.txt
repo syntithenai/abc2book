@@ -1,0 +1,30 @@
+X:6
+T:the Friendly Visit
+R:hornpipe
+S:Nottingham Music Database
+N:Using "guitar chords" to generate an accompaniment.
+N:Also uses R:hornpipe to generate broken rhythm.
+M:4/4
+L:1/8
+K:G
+Q:1/4 = 200
+|: BA|\
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"g2df "C"ecAG|"Am"FGAB "D7"cAFD|
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2:: (3GBd|\
+"G"g2dB GBdg|"Am"e2cA FGAg|"D"f2ed "A7"^cdeg|"D7"(3fgf (3efe dcBA|
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2:|z2||
+S:https://www.folktunefinder.com/tunes/159387
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/FriendlyVisit.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/FriendlyVisit.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/FriendlyVisit.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/jcabc2ps/abc/FriendlyVisit.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

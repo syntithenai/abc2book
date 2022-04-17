@@ -1,0 +1,33 @@
+X:1
+T:Dar geiht nicks oewr die Gemuetlichkeit
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 47
+N:im buch ganz in C  1. ton g'
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+G |\
+Gc c/B/d/c/ | BAA f | B3 g | c2 zG |\
+Gc c/B/d/c/ | BAA f | B2-B/g/f/d/ | ccc z ||
+e/f/ g2 g | ad fB | d/e/ f2 f | gc ec |\
+e/f/ g2 g | ad fB | dg g/f/e/d/ |cec z ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/151446
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/dar_geiht_nicks_oe_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

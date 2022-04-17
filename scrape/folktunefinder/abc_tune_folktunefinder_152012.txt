@@ -1,0 +1,25 @@
+X:90
+T: Der schwatzhafte Junggeselle
+N: Q0139E
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Vogelsberg, Storndorf
+N: Letzten Notenwert der 2. Zeile rhythmisch korrigiert.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 2/4
+L: 1/16
+K: F
+C2 | F4E2D2 | C4A4 | G2E2F4- | F6
+C2 | F4E2D2 | C4A4 | G2E2F4- | F4
+F4 | F3GA2A2 | A4G2AA | B2B2c2A2 | G6
+G2 | G3GG3G | G2c2c2B2 | A2A2G2G2 | F4
+C4 | D2D2E2E2 | F6
+S:https://www.folktunefinder.com/tunes/152012
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

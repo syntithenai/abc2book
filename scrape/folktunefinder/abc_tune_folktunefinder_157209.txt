@@ -1,0 +1,26 @@
+X: 1
+T:Farewell to Whisky
+M:2/2
+L:1/8
+S:Armitt MS
+N:The key signature is actually written as second space down (C), second
+N:line down (D) and lowest line (E)  The key signature is repeated after
+N:the first quaver group in bar six, this time with F# instead of E#. The
+N:G in the penultimate bar is preceded by a sharp sign on the upper line
+K:A major
+AF EA cBAB|c2F2F2|AF EA ABcd|c2c2e|fgag fedc|dcBA B2 cA|E2A cBAB|c2A2A2:
+||:c2d ecac|dcBA B3|c2d2 ecac|e2a2a2^g|fgag fedc|dcBA B2 cA|E3 A c2B2A2B
+2|c2A2A2:||
+S:https://www.folktunefinder.com/tunes/157209
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Farewell_to_Whisky_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Farewell_to_Whisky_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

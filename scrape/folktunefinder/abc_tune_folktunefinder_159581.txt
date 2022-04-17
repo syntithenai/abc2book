@@ -1,0 +1,26 @@
+X: 1
+T: Ful' Tae The Heid O' Troots
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+|: &quot;Dm&quot; D3 ABA | D2 D cBA | &quot;C&quot; GEE c2 E| cdA GFE |
+ &quot;Dm&quot; D3 ABA | D2 D cBA | &quot;Am&quot; GEE c2 E|1 &quot;Gm/Bb&quot; GFE DCE :|2 &quot;Dm&quot; dAF D2 c ||
+|: &quot;Dm&quot; cde fed | &quot;C&quot; ec_c &quot;Bb&quot; BAf |\
+M:9/8
+fge &quot;F&quot; c2 A ABc |
+M:6/8
+&quot;Dm&quot; cde fed | &quot;C&quot; ec_c &quot;Bb&quot; BAf |1 fge &quot;F&quot; c2 A |
+ &quot;Am&quot; ABc cdd :|2 &quot;Bb&quot;  fge &quot;F&quot; Bce | &quot;Am&quot; a2 c cdd |]
+S:https://www.folktunefinder.com/tunes/159581
+S:http://www.thesession.org/tunes/display/8669
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:102
+T: Verschlafener Jaeger
+N: Q0152S
+O: Osteuropa, Tschechoslowakei, Sudetenland
+N: Zugehoerigkeit zu dieser Balladengruppe ungeklaert.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 4/4
+L: 1/4
+K: G
+D | BBdB | A2c
+D | ccec | B2d
+G | e2ee | d2B
+d | dced | B2z
+S:https://www.folktunefinder.com/tunes/153055
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

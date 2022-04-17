@@ -1,0 +1,40 @@
+X:1
+T:Gavotte : Suite d'Huelgoat
+E:12
+Z:Roger Ngaret (94-95)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+K:C
+T:Ton kentan
+Q:1/4=200
+M:12/8
+L:1/16
+K:Eb
+e2f2e2 d4 B2 c4 d2 e4 c2 | e4 f2 d4 B2 e6 e6 ::\
+f4 g2 a4 g2 f4 a2 g6 | f4 e2 d4 e2 f4 d2 B6 | \
+f4 g2 a4 g2 f4 d2 B6 | B4 e2 d4 f2 e6 e6 :|
+T:Tamm kreiz
+Q:3/8=100
+c2c2c2 g4 g2 f2g2a2 g4 f2 | d4 e2 g4 g2 f4 e2 d6 :|
+Q:3/8=200
+|: f2 f4 d2 e4 c2c2B2 c2 d4 | e2 f4 f2e2d2 c2 e4 d2 c4 | \
+c2d2e2 c6 c2B2c2 d4 e2 | f4 f2 e2d2c2 e4 d2 c6 :|
+T:Ton diwezhan : Dans ar podo fer
+Q:1/4=160
+M:4/4
+L:1/16
+B2d2 f2f2 e2d2 c4 | f2f2 f2d2 B4 B4 ::\
+B2d2 f2f2 (3e2d2c2 d2d2 :| B2d2 f2f2 e2d2 c4 | f2f2 f2d2 B4 B4 |]
+S:https://www.folktunefinder.com/tunes/160652
+S:http://termen.free.fr/danses/cornouaille/GavotteSuitedHuelgoat.abc
+% Rhythm Gavotte
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Eisenkeilnest (Bb)
+O: Bavaria
+M: 2/4
+L: 1/8
+K: Bb
+|: [F2F2] \
+| "Bb"[BD][AC] [BD][cF] \
+| [dB][cA] [dB][ec] \
+|[M:3/4][f2d2] [fd][=e^c] [fd][g_e] \
+| [f2d2] z[fd] [=e^c][fd] \
+|[M:2/4][g2e2] [f2d2] \
+| [e2c2] [d2B2] \
+|[M:3/4]"F7"[dB][cA] [cA][=B^G] [cA][d_B] |
+| [c2A2] z2 [f2A2] \
+|[M:2/4]"Bb"[d2B2] [B2D2] \
+|[M:3/4]"F7"[c2F2] z2 [f2A2] \
+|[M:2/4]"Bb"[d2B2] [B2D2] \
+|[M:3/4]"F7"[c2F2] z2 [A2F2] \
+| "Bb"[BD][AC] [BD][cF] \
+| [dB][cA] [dB][ec] \
+|[M:3/4]"F7"[fA][fA] [fA][eG] [dF][cE] \
+| "Bb"[B2D2] z2 :|
+S:https://www.folktunefinder.com/tunes/155862
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Eisenkeilnest_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Eisenkeilnest_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/zweif/Eisenkeilnest_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/zweif/Eisenkeilnest_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

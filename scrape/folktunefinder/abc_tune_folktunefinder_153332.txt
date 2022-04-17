@@ -1,0 +1,25 @@
+X:2
+T:Yellow Tinker, The
+R:reel
+H:See also #168
+D:Tommy Keane: The Piper's Apron
+Z:id:hn-reel-452
+M:C|
+Q:1/2=120
+K:G
+DGGF DEFA|DG~G2 dBcA|DGGF DEFD|1 cAFA c2BA:|2 cAFA c2Bc||
+dG~G2 dGBc|dg~g2 fdcA|dG~G2 defd|cAFA c2Bc|
+dG~G2 dGBd|g2de fgaf|g2de fgaf|gbag fdcA||
+|:d2BG (3Bcd BG|(3BcdBG c2Bc|1 d2BG (3Bcd BG|cAFA c2Bc:|2 dcde fafd|cAFA c2BA||
+S:https://www.folktunefinder.com/tunes/153332
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/TheYellowTinker.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/TheYellowTinker.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

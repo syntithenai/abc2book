@@ -1,0 +1,25 @@
+X:1024
+T:"The Fardown Farmer"  (jig)     1024
+C:after Sg't J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+A|BAB GED|EFG GAB|BAB GED|EAA ABc|
+BAB GED|EFG GAB|dfe dcA|(B/2G3/2)G G2:|
+|:A|Bcd ded|dge dBG|Bcd ded|efd g2d|
+Bcd ded|dge dBG|dfe dcA|(B/2G3/2)G G2:|
+S:https://www.folktunefinder.com/tunes/157012
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1024-Fardown.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1024-Fardown.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1024-Fardown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

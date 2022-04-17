@@ -1,0 +1,23 @@
+X:21
+T: Das Maedchen und der Faehnrich
+N: Q0127B
+O: Osteuropa, UdSSR, Ukraine
+R: Ballade, verbotene Liebe, Flucht
+M: 2/4
+L: 1/8
+K: B
+d | fffe | ddd
+c | BBgf | f2e
+c | eeed | ccc
+c | fedc | B2B
+S:https://www.folktunefinder.com/tunes/151943
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

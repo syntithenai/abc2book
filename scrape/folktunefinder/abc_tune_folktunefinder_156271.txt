@@ -1,0 +1,92 @@
+X:1
+T:Entree de luth - Ballet de la Reyne                                                               
+C:Robert Ballard                                                           
+B:Premier livre de tablature de luth, 1611  
+L:1/4
+M:C
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+Q:"Premier Chant"
+Q:"8 = es"
+[abdca2] [aa,c,e3/2] [,d/] |[,bdca1] [,a] ,,d2 |[fddd,,a] [ea,c,a3/2] c// [e] |\
+[f,,,a1] ,,,,,,,,,a [,,dc] [,a] |
+%Staffnumber 2
+[abd,a2] [cdda1] ,,,,d |[dd,ac1] ,,,,a ,,,,,d [b] |[abb,d1] [,,d] [,dff,d2] |\
+[,bbcd1] ,,,,,,,a ,,,c [,,a] |[,dff,d2] [,,ff1] [,,g] |[,df1] [,,d,,c] [a,b,,a] [c,d] |
+%Staffnumber 3
+[da,c1] [,c] [cef,c] ,,,,a |[af,,,e2] ,,,c1 [,d] |[,bdca1] [,a] ,b ,,,,,d |\
+[,dd,,b1] ,,,,,a [bdd,,,a] [,b] |[aac,,a1] [,,d,d] [,,c,c] [,d] |
+%Staffnumber 4
+[,cdca1] ,,,,,,,,,a [,,dc] [,a] |[abd1] ,,c/ [,,a] [,ac] [a] ,d [a] |\
+[,bd/] [,d] ,a [,b] ,,d [,,b] ,,,d [,,,c] |[f,,a/] [,,,c] ,,,d [,,,a] ,,,c [ea] ,,,a [,,,c] |
+%Staffnumber 5
+,,,,a/ [f] ,,a [,,b] ,,d [,a] ,b [,d] |a/ ,,,,a ,b [,,d] ,,,a [cd] ,b [,d] |\
+,,,,c/ [dd] ,,,,a ,,,,c ,,,,,d [d] b [d] |,,,,d/ [a,b] ,,,,c ,,,,a ,,,,,d [,db] ,b [,a] |
+%Staffnumber 6
+,,,,d/ [,bb] ,,,c [,,a] ,,b [,,d] ,a [,b] |,,,,,d/ [,d] ,b [,d] ,,b [,a] ,,d [,b] |\
+,,f/ [,d] ,,,,,c [,,d] ,,,,,a [a,b] ,,d [c] |,,,c [,a] d [,c] ,,,,c [c] ,e ,,,,a |
+%Staffnumber 8
+,,,,,e/ [a] ,a ,,,c ,,c [,,d] ,a [,,,c] |,,,,a/ [,b] ,,d [,a] ,b ,,,c [,,d] ,,,,,d |\
+,,,,,b/ [,,d] ,d ,,,,,a ,,,,,,a [,b,c] [,a,a] [,,d,d] |[,,ca,a1] [,,d,d] [aadcca] ,,c/ [,d] |\
+[,cdca2] ,,,,,,,,,a |]
+Q:"Second"
+[,,dca1] ,,,,,,,,,a/ [,a] [,b,,a] [,,d] [aa,c,e1] |[abdca2] [,db,c1] [d3/2/] [b//] |\
+[abb,d/] [b] d1 [,bdda/] [,,,c] [,aba,d1] |
+%Staffnumber 2
+[,bbcd1] a/ [b] [db,c1] [fa,d/] [,,d] |[da,c/] [,,b] ,b [b] [a,b,d] [,,d] [,dff,d1] |\
+[,bbcd1] ,,,,,,,a/ ,,,,d [,bbc1] ,,,,c |[abd,a1] ,,,,,,,,,a/ [,d] [,b,,a] [,d] [,a,,,e1] |
+%Staffnumber 3
+[,,dca/] ,,,,,,,,,a// [,a] ,b [,d] a/ ,,,,c [,db] [d3/2/] [b//] |[a,,,d/] ,,b ,,,c [,,b] \
+[,bdda] [,,,c] [,bba,d3/2/] [,a//] |,b/ ,,,,,,,a [a,,,d] [b,,a] [d,,c] ,,,,d [f,,d] ,,,a |
+%Staffnumber 4
+[d,,c/] ,,,,d [b,d] [a,b] [,d,d,d] [,b,c] [,bba,d3/2/] [,a//] |[,b,,d1] ,,,,,,,a/ \
+,,,,d [,bbc] [,d] a [b] |[dbb,d/] ,,,,,,,a [dbb] ,,,,c [if,ha1] [hf,g,a/] [,,i] |
+%Staffnumber 5
+[ffghhf1] ,,,h/ [,,f] [,fg] ,,,f [f,dd1] |[da,c1] ,,b/ [,b] [bd,a1] [af,,d] |\
+[,dff,d/] ,,,f [,df] ,,,d [d,bc1] [b,da/] [,a] |
+%Staffnumber 6
+[abb,d/] ,,,,,,,a [abb] [,d] [,bd,,,a1] [,ac,,a/] ,,d// [,a] |[,,d,a/] ,,,,,,,,,a \
+,,,,a ,,,c [,,dc1] ,,,,c |[,,,cd/] [,,a] ,,b ,,,,c [,b,,a] [,,,c] [,a,,,e] [,,,a] |
+%Staffnumber 7
+[,,d,df/] [,,,,f] ,,,,d [,,,,c] [,,,ca] ,,,,,d [,,dc,b] [,,,a] |,,,,,a/ [,,b] ,,,,c \
+[,,,,d] [,,dd,,a] [,a] ,,,,,,,a [,bbc] |,,,,,d/ [,,,a] [,ab] ,,,,,b \
+[,,b,,a] ,b [,ddd,,a] [,,f] |
+%Staffnumber 8
+,,,,,,,a/ ,,,,d [afg] [,d] [,bd,,,a] ,d// [,b] ,a/ ,,,,,a |[,,dca1] ,,,,,,,,,a/ ,,,,a [,,dc2] |]
+Q:"Troisieme"
+[M:3] ,,,,,,,,,a1 |[,bdc2] ,,,,,,a1 |[,ddd2] ,,,,,,,,,a1 |[,bdc2] ,,,,,a1 |\
+[,acc2] ,,,,,,,a1 |[abb2] ,,,,,,a1 |[,ddd2] ,,,,,,,,,a1 |
+%Staffnumber 2
+[,bdc1] ,a [,,,,,a/] > [,a] |[,,d,a1] ,,,,,,,,,a ,,,,a |[,bdc] > ,,,,,d ,,,,,b ,,,,,a |\
+,,,,,,a1 [,dda] ,,,,d/ ,,,,c |,,,,a1 [,bdc] ,,,,,d/ ,,,,,c |
+%Staffnumber 3
+,,,,,a1 [,acc] ,,,,,,a |,,,,,,,a1 [abb] [,a] |,,,,,,a1 [,dd] [,,f] |\
+[,bd1] [,ac,,a/]> ,,d [,a] |[,,d,a1] ,,,,,,,,,a ,,,,a |[abd2] ,d/ [a] |
+%Staffnumber 4 tot hier goed TW
+[bdda1] ,,,,,,a a/ [,d] |a/ ,,,,a ,,,c [,d] ,b [,d] |,,,,,a1 [,ac] ,,,,,,a |\
+,,,,,,,a1 [af] [f] |,,,,,,a1 [bdd] [,b] |[aac,,a1] [,,d,d] [,,c,c] |
+%Staffnumber 5
+[,,dca1] ,,,,,,,,,a ,,,,a |[ffgh2] ,,,,,,a1 |[fgi2] ,,,,a1 |[ffgh1]> h f1 |\
+,,,,,a1 [hf,g] ,,,,,,a |,,,,,,,a1 [if] [h] |
+%Staffnumber 6
+,,,,,,a1 [fgi] [h] |,,,,,a1 ,f/ [f] e [,d] |[f,,,a/] ,,,,,,,,,a ,,d [,a] ,b [,d] |\
+a/ ,,,,a ,b [,a] ,,d [,,b] |,,,,,,a/ b ,d [a] b [,d] |
+%Staffnumber 7
+a/ ,,,,a ,b [,a] ,,d [,b] |,a/ ,,,,,a ,,c [,,d] ,a [,,,c] |a/ ,,,,,,,a d [b] a [d] \
+|[b,,,,,a/] [,,,c] ,,,d [,,b] ,,d [,a] |,b/ [,d] a ,,,,,a ,,d [,,c] |
+%Staffnumber 8
+[,,dca2] H,,,,,,,,,a |]
+%
+%%vskip 0.5cm
+%
+W:From "Premier livre de tablature de luth, 1611"
+W:A facsimile edition is available from Fuzeau.
+S:https://www.folktunefinder.com/tunes/156271
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ballard/ballet_reyne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

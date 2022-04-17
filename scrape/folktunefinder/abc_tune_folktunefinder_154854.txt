@@ -1,0 +1,24 @@
+X: 1
+T:Ducks on the Pond
+M:4/4
+L:1/8
+R:Reel
+K:G
+"Am"[A,4E4] [A4e4] | edef g4 | "G" B2 Bc BAGA | BABc BA G2 |!
+"Am"[A,4E4] [A4e4] | edef gaba | "G"g2 e2 d2 B2 |1"Am"A3 B A4 :|
+2 "Am"A3 B A2|!
+: e2| "Am" aebe a2 g2 | edef g2-|"G"gfga bagf | edeg ag e2 |! 
+"Am"aebe a2 g2 | edef g2 ba | "G" g2 e2 d2 B2 |1 "Am" A3 B A2 :|2 "Am" A
+3 B A4||
+% Output from ABC2Win  Version 2.1 i on 12/28/2004
+S:https://www.folktunefinder.com/tunes/154854
+S:http://internet.cybermesa.com/~keating/music_abc/DUCKPOND.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

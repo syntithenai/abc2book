@@ -1,0 +1,39 @@
+X:1                          % number
+T:Sakura                     % title
+C:Anonymous                  % composer
+O:Gerald Walker              % origin.
+O:loulou2032@yahoo.com.sg
+M:C                          % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:G                          % key
+V:1                          % voice 1
+e e f2 | e e f2 | e f g f | e f/e/ c2 | B G B c |
+B B/G/ F2 | e f g f | e f/e/ c2 | B G B c | B B/G/ F2 | e e f2 |
+e e f2 | B c f/e/ c | B2 z2 |] X:3                          % number
+T:Kojo no Tsuki              % title
+C:Kati                       % composer
+O:Gerald Walker              % origin.
+M:C                          % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:F                          % key
+V:1                          % voice 1
+A A d e | f e d2 | B B A G | A3 z | A A d e |
+S:https://www.folktunefinder.com/tunes/152703
+S:http://kittybriton-abc.blogspot.com/2007_11_01_archive.html
+S:http://kittybriton-abc.blogspot.com/search/label/japan
+S:http://kittybriton-abc.blogspot.com/search/label/Sakura
+S:http://kittybriton-abc.blogspot.com/search/label/portugal
+S:http://kittybriton-abc.blogspot.com/search/label/cherry%20blossom
+S:http://kittybriton-abc.blogspot.com/search/label/japanese%20music
+S:http://kittybriton-abc.blogspot.com/search/label/juan%20mendes%20pinto
+S:http://kittybriton-abc.blogspot.com/search/label/portuguese%20explorers
+S:http://kittybriton-abc.blogspot.com/2007/11/home-is-sailor-home-from-sea.html
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

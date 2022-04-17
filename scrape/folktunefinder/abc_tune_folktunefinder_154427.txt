@@ -1,0 +1,25 @@
+X: 1
+T:An Dro
+R:An Dro
+C:D. Shepherd
+M:4/4
+L:1/4
+K:C
+c c B>A |B c A>c|c c B>A |B c A2 :|\
+|:A A c c |d c/2d/2 e>d|
+c B/2c/2 A>c|BGE2 |\
+A A c c |d c/2d/2 e>d|c B/2c/2 A>c|B G A2  :|
+S:https://www.folktunefinder.com/tunes/154427
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/an/An_Dro_8.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Dro_8.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/an/An_Dro_8.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Dro_8.abc
+% Rhythm An dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

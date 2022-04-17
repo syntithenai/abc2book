@@ -1,0 +1,46 @@
+X:1
+T: 't Is eender
+T:polka
+C:Jan Alexander Stryckers
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:= It's all the same / estas indiferente
+P: (AA BB AA CC)n AA
+R:polka
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+P:[A]
+|: "G"B2d2-| "D"dc/B/cA-| A2c2-| "G"cB/A/BG-| G2B2-| "C"BA/G/AG | [1"D"ABcA-| ABcd :| [2"D"AGAB | cd"G"!fine!G2 |]
+K:C
+P:[B]
+|: "C"e2g2-| "G"gf/e/fd-| d2f2-| "C"fe/d/ec-| c2e2-| "F"ed/c/dc | [1"G"defd-| defg :| [2"G"dcde | fg"C"c2 ||
+K:G
+P:[A]
+|: "G"B2d2-| "D"dc/B/cA-| A2c2-| "G"cB/A/BG-| G2B2-| "C"BA/G/AG | [1"D"ABcA-| ABcd :| [2"D"AGAB | cd"G"G2 ||
+K:C
+P:[C]
+|: "C"e2c2-| "G"cd/e/df-| f2d2-| "C"de/f/eg-| g2e2-| "F"ef/g/fg | [1"G"fedf-| fedc :| [2"G"fgfe | dg"C"c2 |]
+V:2
+|: g2b2-| baf2 | d2f2-| fgd2 | B2d2-| deg2 | [1fgaf-| fdef :| [2fefg | afg2 |]
+K:C
+|: c2e2-| edB2 | G2B2-| BcG2 | E2 G2-| GAc2 | [1BcdB-| BGAB :| [2BABc | dBc2 ||
+K:G
+|: g2b2-| baf2 | d2f2-| fgd2 | B2d2-| deg2 | [1fgaf-| fdef :| [2fefg | afg2 ||
+K:C
+|: c2G2-| GAB2 | d2B2 | G2c2 | e2c2 | A2c2 | [1dcBA | BGFE :| [2dedc | BGE2 |]
+S:https://www.folktunefinder.com/tunes/166699
+S:http://music.gordfisch.net/tradmusic/pub/cache/_t_Is_eender_52c23e.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

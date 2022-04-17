@@ -1,0 +1,19 @@
+X:1
+T:Female Rambling Sailor
+M:2/4
+L:1/4
+K:D
+ A,| F,3/2 A,/2| C3/2 B,/2| A, B,| C E| A3/2 F/2|D/2-E/2 C|B,/2-A,/2 F,|\
+ z| A,/2A,/2| F, B,| C3/2 B,/2| A,3/2 B,/2| C3/2 F/2| A3/2 F/2|E/2-F/2 C|\
+ B,2| B,2| z E| F B| B3/2 A/2|F/2-E/2 F| A2| B A/2F/2| E/2F/2 C| B,3/2- A,/2|\
+ F, E,| F, B,| C3/2 B,/2| A, B,| C E| A3/2 F/2|E/2-F/2 C| B,2| B,||\
+S:https://www.folktunefinder.com/tunes/157521
+S:http://back.numachi.com:8000/dtrad/abc/RMBSAIL3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X:1
+T:The Fireship
+M:4/4
+L:1/4
+K:D
+ A| d A F A| d f e d| e A A A| A3 A| d A F A| d f e d| e A A A| A3 A|\
+ e e f g| f/2e/2 d2 d| f g a f| g3 g| g e a3/2 g/2| f d g f/2f/2| e d c B|\
+ A2 A2| B2 c2| d d/2d/2 d d| d/2- a3/2- f d/2d/2| e e e3/2 d/2| c/2B/2 A3/2 A/2A/2 A/2|\
+ f2 a3/2 g/2| f/2 f3/2 a g| f/2 e d/2 e c| d3||
+S:https://www.folktunefinder.com/tunes/157917
+S:http://back.numachi.com:8000/dtrad/abc/FIRSHIP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

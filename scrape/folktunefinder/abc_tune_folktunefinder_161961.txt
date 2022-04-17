@@ -1,0 +1,27 @@
+X:41
+T: Graf und Nonne (Die Nonne)
+N: Q0155n
+O: Osteuropa, Tschechoslowakei, Boehmen, Egerland, Hostau, Muttersdorf
+N: Pause in der vierten und letzten Zeile ergaenzt.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage, Tod
+M: 6/8
+L: 1/8
+K: E
+B, | GFEEDE | FF2z2
+B, | AGFFEF | G3z2
+B, | GFEEDE | C2AAG
+F | EDEGFF | E3z2
+B, | GFEEDE | C2AAG
+F | EDEGFF | E3z2
+S:https://www.folktunefinder.com/tunes/161961
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

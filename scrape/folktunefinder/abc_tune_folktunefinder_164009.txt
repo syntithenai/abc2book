@@ -1,0 +1,19 @@
+X:1
+T:Heveynu Shalom Aleychem [Dm]
+Z:2008 John Chambers <jc:trillian.mit.edu>
+M:2/4
+L:1/8
+K:Dm
+A,DF \
+| "Dm"A4 | "A7"F3E | "Dm"E D3 | zDFA | "Gm"d4 | B3A | "Gm"A G3 | zGAB |
+| "A7"A3E | A3G | "Dm"G F3 | zEFG | "A7"A2 A2 | A2 A2 |1 "A7"A>G FG | A :|2 "A7"A>G FE | "Dm"D |]
+S:https://www.folktunefinder.com/tunes/164009
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/HeveynuShalomAleychem_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/HeveynuShalomAleychem_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/HeveynuShalomAleychem_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

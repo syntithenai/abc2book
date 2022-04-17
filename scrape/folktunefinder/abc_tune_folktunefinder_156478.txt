@@ -1,0 +1,37 @@
+X: 1
+T: Everything Stops For Tea [Bb]
+C: Maurice Sigler (tune)
+C: Al Goodheart (words)
+D: HMV BD-5005 (1935) - Jack Hylton and His Orchestra
+N: \251 1935
+N: Jack Buchanan's 1935 comedy film, "Come Out Of The Pantry" (Goodhart/Hoffman/Sigler)
+M: C
+L: 1/8
+K: Bb
+"(F7)"D>E \
+| "Bb"F2 F2 F2 F2 \
+| "F7"G2 F2 z2 D>E \
+| "Bb"F>F F>F "Ab/C"_A>A A>A \
+| "F7"F4 z2 F>F \
+| "Bb"B>B F>F "B7"_A2 G>G |
+| "Eb"F>E- E2 B4 \
+| "Bb"D>D F2 "F7"C2 D>B,- \
+| "Bb"B,4 !fine!z2 :| "(D7)"D>D \
+| "Gm"G>G G2 "D7"^F2 A>F \
+| "Gm"G2 D2 "D7"z2 D>D |
+| "Gm"(3G2G2G2 "D7"^F2 A2 \
+| "Gm"G4 z2 =E>D \
+| "C7"C>D =E>F G>E- E>C \
+| "F"F>G A>B c>A- A>B \
+| "C7"c2 B2 A2{_A} G2 \
+| "F"F4 !d.C.!z2 |]
+S:https://www.folktunefinder.com/tunes/156478
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/tune/Everything_Stops_For_Tea_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/tune/Everything_Stops_For_Tea_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

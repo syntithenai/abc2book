@@ -1,0 +1,25 @@
+X:5
+T:Faraway
+C:Pete Jung
+S:http://diato.org/tablat.htm
+Z:ABC version, with modified chords, by MB
+R:Waltz
+M:3/4
+L:1/8
+K:Am
+EG |: "Am"A2 AG Ac | "Em"BG E2 EG | "Am"A2 AG Ad | "G"B3G cB | "F"A3G Ac |
+"Em"BA G2 cd |1 "C"ed cB AG |"Am"A2 AG EG :|2 "C"ed cB AG |"Am"A2 AB cd ||
+|: "C"e2 ed eg | "G"dB GB cd | "C"e2 ed eg | "G"d3G cd | "Am"ec Ad "G"BG |
+"F"cA Fc AF | "Am"E2 A2 AG |1 "Am"A3B cd :|2 "Am"A2 AG EG |]
+S:https://www.folktunefinder.com/tunes/157002
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/Faraway_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/MosheBraner/Faraway_Am.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

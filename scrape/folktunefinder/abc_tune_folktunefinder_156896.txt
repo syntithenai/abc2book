@@ -1,0 +1,40 @@
+X:7908
+T:Fandango de Salamanca
+C:anon.
+O:Spain
+R:Fandango
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/spain/fandango-de-salamanca.abc
+M:3/4
+L:1/8
+K:Am
+"^Andantino"A3^GE2|A2A2B2|cdcBA2-|A4z2|
+B3A^G2|A2^G2^F2|^GAG^FE2-|E4z2|
+A3^GE2|A2A2B2|cdcBA2-|A4z2|
+B3cd2|e2d2e2|c2dcB2-|B2"^Slightly faster"^GGGA||
+|:B2B2c2|d2c2B2|cdcBA2|c2B2A2|BcBA^G2|
+A2^G2^F2|[1^G3^FE2|z2^GGGA:|[2^GAG^FE2-|E6||
+"^Slower"A3^GE2|A2A2B2|cdcBA2-|A4z2|
+B3A^G2|A2^G2^F2|^GAG^FE2-|E4z2|
+A3^GE2|A2A2B2|cdcBA2-|A4z2|
+B3cd2|e2d2e2|c2cBA2-|A6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/156896
+S:http://abc.musicaviva.com/tunes/spain/fandango-de-salamanca.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/spain/fandango-de-salamanca.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/spain/fandango-de-salamanca.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/spain/fandango-de-salamanca.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/spain/fandango-de-salamanca.abc
+% Rhythm Fandango
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

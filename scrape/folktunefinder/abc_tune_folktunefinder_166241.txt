@@ -1,0 +1,22 @@
+X: 1
+T: I'm Sleeping And Don't Wake Me
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:G2 G, G,A,G,|B,CD G2 D|EA,A, FA,A,|G2 FE2 F|
+G2 G, G,A,G,|B,CD G2 E|FGA DEF|1 G3 G2 D:|2 G3 G2 A||
+B2 GB2 d|g2 dB2 d|cdc BcB|A2 Bc2 d|
+B2 GB2 d|g2 dB2 G|FGA DEF|G3 G2 A|
+B2 GB2 d|g2 dB2 d|cdc BcB|A2 Bc2 e|
+dcB ABc|BAG FGA|GFE DEF|GDC B,A,G,|
+S:https://www.folktunefinder.com/tunes/166241
+S:http://www.thesession.org/tunes/display/526
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: the Dressed Ship
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+N: Thompson, Twenty Four Country Dances, 1774
+N: Playford Ball
+M: C|
+L: 1/4
+%Q: 116
+K: G
+|: d \
+| "G"BG DB | "C"c2 c/d/e | "G"dB gB | "Am"cA- "D7"Ad \
+| "G"BG DB | "C"ce "G"dg | "C"ec "D7"Ad | "G"BG2 :|
+|: e/f/ \
+| "G"gd BG | "C"e/f/g/e/ "G"dB | "C"ce "G"dB | "Am"cA- "D7"Ae/f/ \
+| "G"gd BG | "C"e/f/g/e/ "G"dB | "C"ec "D7"Ad | "G"BG2 :|
+S:https://www.folktunefinder.com/tunes/154351
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/DressedShip_G.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

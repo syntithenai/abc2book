@@ -1,0 +1,33 @@
+X: 2
+T:Evit Gabriel
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:F#m
+|"F#m"FGAG FGAG | FGAB c2Bc |"Bm"dcBA G2AB |"F#m"cBAc "C#7"G4 |
+"F#m"FGAG FGAG | FGAB c2Bc | "Bm"dcBA "C#7"GcAG | "F#m"FA"C#7"GE "F#m"F4 :|
+|: \
+"Bm"fBBf "E"edcd | "A"eAAe "D"dcBA | "G#m"GABd "C#"cBAG | "F#m"AGAB "F7"c2de |
+"Bm"fBBf "E"edcd | "A"eAAe "D"dcBA | "G#m"GABd "C#"cBAG| "F#m"AB"C#7"GA "F#m"F4 :|
+%%text Roaring Jelly R-156
+%%text
+%%text 4/13/03
+%%newpage
+%%textfont       Times-Bold 13.0
+%%text RJ Set 74 (cont'd)
+%%textfont       Times-Roman 7.0
+S:https://www.folktunefinder.com/tunes/156497
+S:http://roaringjelly.org/music/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set74.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/sets/Set74.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X:1
+T:Gavotte : Suite  Gaspard
+E:12
+Z:Roger Ngaret (94-95)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+K:C
+T:Ton kentan : Coateval
+Q:3/8=200
+M:12/8
+L:1/16
+K:C
+"F".c4 B2 .A4 B2 .c4 B2 A2B2A2 | "G".G4 A2 .B4 G2 "C"E6 E6 ::
+"Am".c4 B2 .A4 B2 .c4 B2 .A4 d2 | "G"d2c2B2 c4 d2 "Em"B6 B4 e2 | 
+"C"e4 e2 d4 B2 "F"c4 B2 A2B2A2 | "G"G4 A2 B4 G2 "Em"E6 E6 :|
+T:Tamm kreiz
+Q:3/8=80
+M:12/8
+L:1/16
+"Am"A2B2c2 "C"e6 d2c2B2 "Am"A6 | e2f2e2 "G"d4 e2 "F"d4 c2 "Em"B6 :|
+Q:1/4=200
+M:4/4
+L:1/16
+A2c2 "C"e2d2 c2B2 "Am"A4 | A2B2 "C"c2e2 (3e2d2c2 "Em"B4 |
+(3B2c2d2 e2d2 c2d2 "F"A4 | e2e2 d2c2 (3B2"G"c2B2 "Am"A4 |]
+T:Ton diwezhan : Pontivy
+Q:1/4=164
+M:4/4
+L:1/16
+K:G
+"G"G4 d4 B2d2 G2BB | B2A2 B2c2 "D"A2F2 "G"G4 :|
+(3G2B2G2 d2d2 c2d2 "F"e4 | c2e2 c2e2 "G"d2c2 B4 |
+(3B2B2B2 B4 A2B2 "F"c4 | "G"d2c2 B2G2 B2A2 G4 :|
+S:https://www.folktunefinder.com/tunes/160653
+S:http://termen.free.fr/danses/termen/GavotteSuiteaGaspard.abc
+% Rhythm Gavotte
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

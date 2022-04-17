@@ -1,0 +1,25 @@
+X: 1
+T: Jean's
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+(3DEF|:G3A BGBd|gB (3BBB eBdB|A3B AGEG|ABAG EDEF|
+G2 GA BGBd|gabg abge|d2 Bd gdBd|1cAFA G2 D2:|2cAFA G2 Bd||
+gBdg BdgB|dgBd gBdg|fdda fdaf|gfga baga|
+(3bag (3agf gfe^d|efgf edBd|d2 Bd gdBd|1cAFA G2 Bd:|2cAFA G3A||
+BD (3DDD B,D (3DDD|(3DDD BD (3DDD BD|AD (3DDD A,D (3DDD|dD^cD =cAFA|
+BD (3DDD (3DDD BD|GBDG BDGB|AD (3DDD dD^cD|1cAFA G3A:|2cAFA G2 Bd||
+gBdg BdgB|dgBd gBdg|fdda fdaf|gfga baga|
+(3bag (3agf gfe^d|efgf edBd|d2 Bd gdBd|cAFA G2 Bd|
+gBdg _Bdg=B|dg_Bd g=Bdg|fdda fdaf|gfga baga|
+(3bag (3agf gfe^d|efgf edBd|d2 Bd gdBd|cAFA G2||
+S:https://www.folktunefinder.com/tunes/167405
+S:http://www.thesession.org/tunes/display/255
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

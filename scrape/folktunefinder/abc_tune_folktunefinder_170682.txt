@@ -1,0 +1,28 @@
+X:1
+T:Lackstrms Polska
+R:Polska
+O:Trstad, Smland
+B:50 Smlndska ltar
+Z:Jonas Brunskog
+N:Ur en gammal handskrift frn Trstad, Blackstad
+N:nr. 8
+M:3/4
+L:1/8
+K:Dm
+|:A>d d^c de|e>f {a}(g/f/)e/^c/ d2|A>d d^c de|(e/f/)e/d/ (c/d/c/B/) (A/B/)c/A/|
+(A>d) d^c de|e>f {a}(g/f/)e/^c/ d2|d/f/a/f/ c/e/g/e/ d/f/a/f/|(a/g/)e/^c/ d4:|
+|:{e}d/e/f/g/ a2 a2|ag/a/ ba/g/ a2|(e>f) (f>g) (g>a)|(a/f/)e/f/ d4|
+A>d d^c de|e>f {a}(g/f/)e/^c/ d2|d/f/a/f/ c/e/g/e/ d/f/a/f/|(a/g/)e/^c/ d2 D2:|
+S:https://www.folktunefinder.com/tunes/170682
+S:http://www.folkwiki.se/pub/cache/Lackstr%f6ms_Polska_0cf0f6.latin.abc
+S:http://www.folkwiki.se/pub/cache/Lackstr%f6ms_Polska_0cf0f6.abc
+S:http://www.folkwiki.se/pub/cache/Lackstr%f6ms_Polska_0cf0f6.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

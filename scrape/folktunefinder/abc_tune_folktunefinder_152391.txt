@@ -1,0 +1,27 @@
+X: 1
+T:da Day Dawn
+O:Shetland
+M:4/4
+K:GMix
+AB| \
+c<d {c}BA c<d {c}BA | {c}B2 AG c<d {c}BA |\
+c<d {c}BA e2 AB |\
+c<d {c}BA c<d {c}BA | {c}B2 AG A2GE |
+DE FG {c}BA Bc | dc BA e2 || \
+AB | \
+A2 {g}a2 {f}e2 dc | {c}B2 AG A2 {g}a2 |
+{f}e2 dc e2 AB |\
+A2 {g}a2 {f}e2 dc | {c}BA BG A2 GE |\
+DE GA {c}BA Bc | dc BA e2 |]
+S:https://www.folktunefinder.com/tunes/152391
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/da/da_Day_Dawn_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/da/da_Day_Dawn_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:4
+T: Sangeslohn
+N: Q0124C
+O: Mitteleuropa, Deutschland
+N: Tonangabe zur Ballade "Sangeslohn" - moegliche Melodie () .
+R: geistlich
+M: 3/2
+L: 1/2
+K: F
+ | FFF | F2D | C2G | G2
+G | B2B | AG2 | F3
+BBB | B2A | G3 | G2
+A | c2c | B2A | G2
+G | B2B | AG2 | F3
+S:https://www.folktunefinder.com/tunes/151926
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

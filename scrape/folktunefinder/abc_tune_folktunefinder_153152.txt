@@ -1,0 +1,28 @@
+X:0556
+T:"Desmond's Song"     (air)     0556
+C:Unattributed
+C:mournful
+Q:1/4=40
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:D
+"_VB"(d3/2c/2)|(d2D2)(d3/2c/2)|({c}B2A2)(d3/2A/2)|({c}B2AF) (E3/2D/2)|D4(d3/2c/2)|
+d2D2(d3/2c/2)|(.B/2.c/2.d/2.e/2) Hf2(d3/2c/2)|{c}B2(AF) (E3/2D/2)|D4||
+(F3/2G/2)|(A3/2B/2) d2f3/2e/2|d2D2d3/2c/2|({c}B2A3/2F/2) (A3/2B/2c/2)|d4(f3/2e/2)|
+d2D2(d3/2c/2)|({c}B2A2)(d3/2A/2)|{c}B2(AF) (E3/2D/2)|D4|]
+S:https://www.folktunefinder.com/tunes/153152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0556-DesmondsSong.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0556-DesmondsSong.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0556-DesmondsSong.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

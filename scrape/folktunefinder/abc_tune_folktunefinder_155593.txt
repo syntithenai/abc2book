@@ -1,0 +1,37 @@
+X:1
+T:Eckerischer
+C:traditionell
+A:Oesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Elisabeth und Christophorus Huspeka
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+B/A/ |\
+GBd | BB/B/B | GBd | cc/c/c |\
+FAd | ff/f/f | ee/e/e | dd/d/d |
+GBd | BB/B/B | GBd | cc/c/c |\
+FAd | ff/f/f | edF | G2 :|
+P:Walzer
+|: D |\
+Ecc | c2B/A/ | AGG | D2D/G/ |\
+GFF | D2D/A/ | AGG | D2D |
+Ecc | c2B/A/ | AGG | D2D/G/ |\
+GFF | DB>A | G>GG | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155593
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/eckerischer.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

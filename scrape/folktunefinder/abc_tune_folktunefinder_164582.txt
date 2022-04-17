@@ -1,0 +1,27 @@
+X:1
+T:Holly Doodle Counterpoint
+C:copyright 1999 Jim Thompson
+N:Flute part for Kaubells tune ``Holly Doodle''
+R:Jig
+E:22
+M:6/8
+K:C
+|: c3 g3 | f3 a3 | gfedcd | e6 |
+c3 g3 | f3 a3 | gfedcd | ege c'3 :|
+K:G
+g6 | bge d3 | g6 | afd f3 |
+B6 | e3 ab^c' | d'^c'bagf | a3 c'3 |
+g6 | bge d3 | g6 | efc e3 |
+a3 abc' | b3 ba^g | e3 f3 | ged g3 |]
+S:https://www.folktunefinder.com/tunes/164582
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/holly-doodle-counterpoint.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

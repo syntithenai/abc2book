@@ -1,0 +1,32 @@
+X: 1
+T:The London Schottische
+M:2/4
+L:1/8
+Q:260
+C:Andy Cheyne
+R:Schottische
+N:Chords as played by Geckoes - well, mostly
+D:Geckoes "Geckoblaster"
+D:Token Women "The Rhythm Method"
+H:Written while watching "Rugby Special" on BBC2 one Sunday - hence the
+H:title
+Z:
+K:BMin
+|:"G"BGBd|"A"c2de|"D"f2a2|"A"e4|"D"fedc|"G"BcdB|"A"cdcA|"Fm"F4|!
+"G"BGBd|"A"c2de|"D"f2a2|"A"e4|"D"fedc|"G"Bd "A"cA|1"Bm" B4-|B4:|
+2"Bm"BdcA|B4|!
+|:"Bm"Bcda|"D"f4|"A"ecac|B2A2|"G"GABG|"A"ABcA|"D"defg|"A"a4|!
+"G"GABG|"A"ABcA|"D"defd|"A"c2A2|"Em"Gd2G|"F#m"c2BA|"Bm"B4-|B4:|
+S:https://www.folktunefinder.com/tunes/164284
+S:http://www.hulot.demon.co.uk/Geckoes.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+A:Adam de la Halle
+T:A Dieu comant/Adan se sont/Super te
+N: (with semi-breves)
+M:3/4
+L:1/4
+Q:1/4=90
+K:F Lydian
+%
+V:1 clef=treble-8 middle=B,
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       74 recorder
+%%MIDI program 2       72 piccolo
+%%MIDI program 3       70 bassoon
+%%sysstaffsep    28.0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% triplum %%%%%%%%%%%%%%%%%%%%%%%%%%%
+[V:1][K:C] 
+   C2  D  | E2 ((3E/D/C/)| F2  E |
+S:https://www.folktunefinder.com/tunes/153402
+S:http://www.blindchicken.com/~ali/music/adam/motets/super-te-3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

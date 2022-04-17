@@ -1,0 +1,31 @@
+X:1
+T:"Die Traenen des Hirsches"
+S:
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:6/4
+L:1/4
+K:G
+GA |\
+B3-Bdc | B3-Bdc | B2c A2B | GDG AcB |
+A3-AGA | B3-Bdc | B3-Bdc | B2c A2B |
+GDG ABA |  G3-G |
+|: FG |\
+A3-AcB | A3-AcB |[M:9/4] A2B G2GD2D |[M:6/4] GDG B2B |
+A3-AFG | A3-AcB | A3-AcB |[M:9/4] A2B G2GD2D |
+[M:6/4]GDG B2B | d3-d GA | B3-Bdc | B3-Bdc | 
+B2c A2B | GDG AcB | A3-AGA | B3-Bdc | 
+B3-Bdc | B2c A2B | GDG ABA | G3-G :|
+S:https://www.folktunefinder.com/tunes/153400
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/traenen_des_hirsches.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:Kantklossen
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:(AB)x4
+L:1/8
+M:6/8
+K:D
+P:Voorspel
+A | "D"AAA AAA | AAA F2 F | "G"BBB "A7"ABc | "D"d2 z z2 |]
+P:A
+A | "D"AAA AAA | AAA F2 F | "G"BBB BGB | dcB "D"A2 A |
+"D"AAA AAA | AAA F2 F | "G"BBB BGB | "A7"cAc "D"D2  |]
+P:B
+z | "D"d2 A A2 A | "A7"ABc "D" d2 A | "G"d2 B "D"A2 F | "A7"G2 E "D"D2 z |
+"D"d2 A A2 A | "A7"ABc "D" d2 A | "G"d2 B "D"A2 F | "A7"G2 E "D"D2 A |]
+z2 z "A7"A3 | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/169200
+S:http://user.online.be/volksdans/abc/Kantklossen.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kantklossen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

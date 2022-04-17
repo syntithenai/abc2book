@@ -1,0 +1,28 @@
+X: 71
+T: Peach Blossom -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:F
+(ucB)|A>cf>a ((3gab) ("0"eg)|((3fga) (fc) A>cA>F|\
+E>FG>A B>cd>B|c>AG>F E>G(cB)|
+A>cf>a ((3gab) ("0"eg)|((3fga) (fc) A>cA>F|\
+B>dc>B A>GF>E|F2"4"A2F2:|
+|:(uAB)|B>AG>F E>Gc>B|A>cf>c a>cf>c|\
+B>AG>F E>Gc>B|A>cB>d c2 (BA)|
+d>Bb>a g>fe>d|c>Ad>c B>AG>F|\
+E>dc>B A>GF>E|F2"4"A2F2:|
+S:https://www.folktunefinder.com/tunes/158709
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

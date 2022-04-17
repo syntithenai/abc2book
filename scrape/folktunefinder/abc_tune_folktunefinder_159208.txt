@@ -1,0 +1,30 @@
+X:1
+T:Fran Havero
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Encyclopedia Blowzabellica", The Blowzabella tune and dance book, Dragonfly music, Newbiggin by the Sea, 1987
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Dm
+D2DE FGFE | D2A2A4 | d^cde f2f2 | efe^c A2A2 |
+D2DE FGFE | D2A2A4 | d^cde f2f2 | e2e^cd4 :|
+|:\
+a2a^g a2a2 | f=g(3f/g/f/2e f2f2 | e2e^c A2A2 | FGFE (3EFED2 |
+a2a^g a2a2 | f=g(3f/g/f/2e f2f2 | e2e^c Acec | d2d2d4 :| 
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159208
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/fran_havero.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:0575
+T:"The Keepsake"         (air)          0575
+C:after Chief F. O'Neill
+C:gracefully
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_VB"(B/2c/2)|(de).d (de).c|.d(ge) (dBG)|(ceg) (ed).B|({c}BA).A A2(B/2c/2)|
+(de).d (de).c|(dge) (dBG)|gB.e (dBG)|({B}AG).G G2:|
+|:d|g3/2a/2g (gfg)|(afd) (d2e/2f/2)|g3/2a/2b (bag)|(afd) (d2e/2f/2)|
+(gag) (fgf)|(efe) (d2e/2f/2)|gBe (dBG)|({B}AG).G G2:|
+S:https://www.folktunefinder.com/tunes/169450
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0575-Keepsake.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0575-Keepsake.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

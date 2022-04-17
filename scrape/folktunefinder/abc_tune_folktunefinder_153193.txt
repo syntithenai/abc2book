@@ -1,0 +1,46 @@
+X:1
+T:Deutsche Muehlviertler Taenze nr. 6
+C:traditionell
+A:Muehlviertel, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus dem Muehlviertel", Rupert Azesberger, herausgegeben von A.Ruttner
+N:im buch ganz in G, nr. 44/6
+S: mit der angabe: Sammlung B.Derschmidt
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+D2 |\
+(GA) GF G2 | D2 G2 B2 | e2 d2 cB | e2 d2 B2 |\
+(GA) GF G2 | D2 G2 B2 | e2 d2 cA | [G4B,4] :|
+V:2
+G2 |\
+(Bc) BA B2 | G2 B2 d2 | g2 f2 ed | g2 f2 d2 |\
+(Bc) BA B2 | G2 B2 d2 | g2 f2 ed | B4 :|
+V:1
+DE |\
+(FE) DE (FG) | A2 A2(FG) | (AG) FG AB | [c4D4] D2 |\
+(GA) GF G2 | D2 G2 B2 | e2 d2 cA | [G4B,4] :|
+V:2
+FG |\
+(AG) FG (AB) | c2 c2 (AB) | (cB) AB cd | e4 A2 |\
+(Bc) BA B2 | G2 B2 d2 | g2 f2 ec | B4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153193
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/deutsche_muehlv_taenze_6.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

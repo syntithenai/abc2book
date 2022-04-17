@@ -1,0 +1,22 @@
+X: 2
+T:   
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: F>G |\
+A>FA>d f2 f2 | e>^de>g B2 e>=d  | c2 E>F G>FG>A | (3BcB A^G A>=GF>G |
+A>F (3FAd f2 f2 | e>^de>g B2 e>=d | c2 e>f g>eB>c | d2 f2 d2 :|
+|: (3a^ga |\
+f>dA>d f2 f2 | e>^de>g b2 ^a>b | c'>bg>e c2 (3ABc | (3dfe (3dcB A>a^g>a |
+f>d (3FAd f2 f2 | e>^de>g b2 ^a>b | c'>bg>e b>a (3gfe | d2 f2 d2 :|
+S:https://www.folktunefinder.com/tunes/153078
+S:http://www.thesession.org/tunes/display/8735
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

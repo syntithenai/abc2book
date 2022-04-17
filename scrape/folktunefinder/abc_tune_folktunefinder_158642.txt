@@ -1,0 +1,24 @@
+X: 4
+T: OCCIDENTAL -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20010912191821 by John Chambers jmchambers:rcn.net
+K: G
+uD2 \
+| GFGA GDB,D | GgdB GABG | cAed cBAG | FdcF DFAF |
+| GFGA GDB,D | GgdB GABG | cAec BAGF | G2G2G2 :|
+|: ud2 \
+| .g2.g2 fd^cd | a2(ag) fd^cd | c'afd cABG | FdAF .D2(3DEF |
+| .G2.G2 ECB,C | .A2(AG) FD^CD | gdcB AdFA | G2G2G2 :|
+S:https://www.folktunefinder.com/tunes/158642
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

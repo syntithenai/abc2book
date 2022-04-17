@@ -1,0 +1,22 @@
+X: 1
+P: High Level Hornpipe
+C: By James Hill
+C: from J. Scott Skinner "Scottish Violinist" colln.
+C: arr. T. Traub 11-22-2005
+R: reel
+M: 4/4
+L: 1/8
+K: Bb
+|: F>A |"Bb"BdFB DFBd|fbdf BdFB|"F"ceAc FACE|AFAc ecAc|"Bb"BdFB DFBd|fbdf BdFB|
+"Cm"G=Bcd "Eb"egfB|"F"AFGA "Bb"B2 :||: cB |"F"Afcf Afcf|AFAc fcAc|"Bb"dfBf dfBf|
+"Bb"dBdf bfdf|"C"=egcg egcg|=eceg bgeg|"F"fcaf "C"=ecge| [1 "F"f=efg f2 :| [2 f=efg f_edc |]
+S:https://www.folktunefinder.com/tunes/164226
+S:http://terrytraub.org/abc/HighLevelHornpipeR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:11
+T:Dorrington Lads
+S:Northumbrian Minstrelsy
+M:9/8
+L:1/8
+K:G
+e | dGB dB/c/d/B/ gdB | dGB dB/c/d/B/ cAe |
+dGB dB/c/d/B/ gdB | c2A AB/c/d/B/ cA :: e |
+d2g feg fdg | feg fdf ec/d/e/c/ |
+d2g feg fdf | c2A Ac/d/e/c/ cAe |
+dBg fdg f/e/d/f/g/e/ | dBg fdf ec/d/e/c/ |
+dBg fdg f/e/d/f/g/e/ | c/A/B/c/B/ Ac/d/e/d/ cA :|
+S:https://www.folktunefinder.com/tunes/153999
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Dorrington_Lads.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Dorrington_Lads.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

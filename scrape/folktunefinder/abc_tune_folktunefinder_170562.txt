@@ -1,0 +1,37 @@
+X:1
+T:Kreuzpolka
+C:traditionell
+R:volkstanz
+A:aus St. Margarethen im Burgenland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Elisabeth und Chistoph Huspeka
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+AA BA | G2 c2 | GG AG | F2 c2 |
+FF GA | BB E2 | cc BB | AA F2 |
+AA BA | G2 c2 | GG AG | F2 c2 |
+FF GA | Bc d2 | cA BG | F2 F2 :|
+|:\
+Ac Ac | Bd d2 | Bd Bd | Ac c2 |
+fe dc | cB B2 | ed cB | Ad c2 |
+Ac Ac | Bd d2 | Bd Bd | Ac c2 |
+fe fg | ag fg | aa gg | f2 f2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170562
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kreuzpolka.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

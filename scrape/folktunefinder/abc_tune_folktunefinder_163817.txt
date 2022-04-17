@@ -1,0 +1,35 @@
+X:1
+T:Heiluizer
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:C
+P:Voorspel
+GG AB | cc Bc | d2 B2 | c3 z |]
+P:A
+GG AB | cc BA | GG FE | F/E/F D2 | GG AB | cc Bc | de/d/ cB |1 c2 A2 :|2 (c2 c) G |]
+P:B
+M:6/8
+c2 c B2 B | A2 A G2 G | AAA G2 G | F2 F EEF | G2 G GFG | 
+A2 A AGA | B2 B A2 B |1\M:2/4\\L:1/8\ cc c G :|2\M:2/4\\L:1/8\ (c2 c) B/c/ |]
+P:C
+M:2/4
+L:1/8
+"vlugger"dcBA | GG z c | AA z d/c/ | BGAB | "rall." ccc G |]
+w:||||*** Al
+P:D
+M:6/8
+"Trager"c2 c B2 B | A2 A G2 G | AAA G2 G | F2 F EEF | G2 G GFG |
+S:https://www.folktunefinder.com/tunes/163817
+S:http://user.online.be/volksdans/abc/Heiluizer.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Heiluizer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

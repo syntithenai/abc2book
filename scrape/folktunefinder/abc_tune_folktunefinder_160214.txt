@@ -1,0 +1,24 @@
+X:3
+T:Tom Deming's
+M:6/8
+L:1/8
+R:Jig
+D:Dervish - At the End of the Day
+Z:John Norvell
+K:D
+|: DFA d2e | dcA ~G3 | AFD =c2d | ed=c B/2c/2dA |!
+ DFA dfe | dcA ~G3 | AdB cAG |1 ~E3 DFE :|2 ~E3 DFA |!
+|: d2e fed | c2A A2B | =c2d edc | B2G GAG |!
+ FAd fed | ceA AFG | AdB cAG |1 EDC DFA :|2 EDC DFE :|3 ~E3 AGE |]
+S:https://www.folktunefinder.com/tunes/160214
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg06121/KILAVILL.ABC
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/TomDemings_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

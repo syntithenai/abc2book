@@ -1,0 +1,53 @@
+X:1
+T:
+% --- start of displayed header in the book ---
+M:4/4
+K:D
+% --- end of header ---
+T:D = Dmajor = D maj
+DEFG ABcd|\
+K:Dmajor
+DEFG ABcd|\
+K:D maj
+DEFG ABcd|]
+T:D Lydian / D Ionian / D Mixolydian
+M:2/4
+K:D Lydian
+DEFG ABcd|\
+K:D Ionian
+DEFG ABcd|\
+K:D Mixolydian
+DEFG ABcd|]
+T:D Dorian / D Minor = Dm
+M:6/8
+K:D Dorian
+DEF/2G/2 ABc/2d/2|\
+K:D Minor
+DEF/2G/2 ABc/2d/2|\
+K:Dm
+DEF/2G/2 ABc/2d/2|]
+T:D Phrygian / D Locrian
+K:D Phrygian
+DEF/2G/2 ABc/2d/2|\
+K:D Locrian
+DEF/2G/2 ABc/2d/2|]
+% --- end of song ---
+S:https://www.folktunefinder.com/tunes/152420
+S:http://ftp.ktug.or.kr/tex-archive/info/examples/lgc2/9-3-11.abc
+S:http://www.nic.funet.fi/pub/TeX/CTAN/info/examples/lgc2/9-3-11.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key G
+% Key D-sharp
+% Key C
+% Key A
+% Key A-sharp
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

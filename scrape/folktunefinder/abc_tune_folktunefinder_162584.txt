@@ -1,0 +1,20 @@
+X: 1
+P: Grimstock
+O: Cecil Sharp, 1911
+M: 6/8
+L: 1/8
+Q: 96
+R: Jig
+P: (AAB)3
+K: G
+|: "G"g2d g2d | "Em"e>fg "D7"f2d | "G"B>cd "C"e2d | "Am"cdB "D7"A2"G"G | "G"g2d g2d | "Em"e>fg "D7"f2d |
+| "G"B>cd "C"e2d | "D7"c>BA "G"G3 :: "G"GGA BGA | BGA BG"(D)"D | "G"GGA BGA | "D7"BGA "G"G3 :|
+S:https://www.folktunefinder.com/tunes/162584
+S:http://trillian.mit.edu/~jc/music/book/500/Grimstock.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

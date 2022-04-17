@@ -1,0 +1,28 @@
+X:1
+T:Edelweiss
+M:3/4
+L:1/4
+F:http://www.polishfireball.com/sbox/music/edelweiss.abc 2002-03-27 21:14:05 UT
+K:D
+|: "D"F2[FA] | "A7"[G3e] | "D"[F2d][FA] | "G"G3 |\
+   "D"F2F    |     FGA   | "Em"B3       | "A7"[C3A] |
+   "D"F2[FA] | "A7"[G3e] | "D"[F2d][FA] | "G"G3 |\
+   "D"F2[FA] | "A7"ABc   | "D"[F3d]-|[F3d] |
+  "A7"[Ge] z/A/ A | [Ac]B[FA] | "D"F2[FA] | [F3d] |\
+   "G"[G2B][Bd] | "E"e2d | "A"[A3c] | [C3A] |
+   "D"F2[FA] | "A7"[G3e] | "D"[F2d][FA] | "G"G3 |\
+   "D"F2[FA] | "A7"ABc \
+ |1 "D"[F3d] | [F3d] :|2 "D"d[df][fa] | [f3d']-|[fd'] z2 |]
+S:https://www.folktunefinder.com/tunes/155689
+S:http://www.polishfireball.com/sbox/music/edelweiss.abc
+S:http://www.polishfireball.com/sbox/music/edelweiss.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/Edelweiss.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/Edelweiss.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/Edelweiss.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

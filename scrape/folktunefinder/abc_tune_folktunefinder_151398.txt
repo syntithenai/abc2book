@@ -1,0 +1,24 @@
+X: 1
+T: Dans rond de schout
+C: Trad.
+O: Vlaanderen
+M: 2/4
+L: 1/8
+K: G
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 |]
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ dB | "D7"BA A2 | "G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 :|]
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ dB | "D7"BA A2 | "G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 :|]
+"D"AB/c/ dd | cB AD | "D"AA/A/ "G"Bc | "A7"A2 A2 | "D"AB/c/ dd | cB AA | "G"BG/B/ "A7"^cA | "D"d2 d2 :|]
+"D"AB/c/ dd | cB AD | "D"AA/A/ "G"Bc | "A7"A2 A2 | "D"AB/c/ dd | cB AA | "G"BG/B/ "A7"^cA | "D"d2 d2 :|]
+"G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ dB | "D7"BA A2 | "G"d^c/d/ ee | dd "D7"cc | "G"B^A/B/ "C"c"D7"=A | "G"G2 z2 |]
+"D7"[d3/c3/D3/][d/c/D/] [d3/c3/D3/][d/c/D/] | [d3/c3/D3/][d/c/D/] [d2c2D2] |]
+S:https://www.folktunefinder.com/tunes/151398
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/DansRondDeSchout.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/DansRondDeSchout.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

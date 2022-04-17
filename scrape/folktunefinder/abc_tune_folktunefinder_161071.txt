@@ -1,0 +1,23 @@
+X:1
+T:The Girl on the Greenbriar Shore
+M:4/4
+L:1/8
+K:A
+ A,A, A,| E4- EEE/2-D/2 C|
+M:3/4
+ A,4- A, E/2E/2|
+M:2/4
+ FE F/2 A/2- A|
+M:4/4
+ E4 z AA F| E2 A,2- A, E/2E/2E/2-D/2 C| A,4 z A,/2A,/2 A,A,| E4- E E/2E/2E/2-D/2 C|\
+ A,4- A,||
+S:https://www.folktunefinder.com/tunes/161071
+S:http://back.numachi.com:8000/dtrad/abc/GRNBRIR3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

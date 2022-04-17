@@ -1,0 +1,27 @@
+X:2
+T:Resolution
+C:Robin Beech
+Z:robin.beech@mcgill.ca
+N:For Lisa Gilbert
+R:jig
+M:6/8
+L:1/8
+K:Dmin
+|: FDD DED | FDG ABG | AFD- DEF | GEB- BAG |
+Adf e2d- | d^c2 d2A | ABG A2F- | FE2 FD2 :|
+K:D
+DFA DGB | d2c -cA2 | G2A GFEF | EGB e2d- | dc2 AGE | DFA DGB | 
+d2c- cA2 | G2A GFEF |1 EGB e2d- | dcA GE2 :|2 EGB e2d- | 
+dc2 A2GE2 | z2 [D6- C6 G,6- F,6-] | [D6 G,6 B,6 F,6]|]
+S:https://www.folktunefinder.com/tunes/167789
+S:http://music.gordfisch.net/tradmusic/pub/cache/Jig_of_the_Living_Dead_62ff9e.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

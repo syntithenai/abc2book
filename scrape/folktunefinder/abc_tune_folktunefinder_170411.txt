@@ -1,0 +1,22 @@
+X: 1 
+T: Knocknoggin 
+C: James Peeples 
+H: Cnoc-na-gceann or Knocknagin; translates as "the hill of the heads; a place of execution"
+R: hornpipe 
+M: 4/4 
+L: 1/8 
+K: G 
+(3DEF|Gd BG D2 D2|E2 A2 A2 (3DEF|Gd BG D2 c2|A2 F2 F2 (3DEF|
+Gd BG D2 D2|E2 A2 A2 F2|Gd BG (3ABc AF|GD BD G2:|
+D2|dc BA G2 B2|A2 D2 D2 G2|dc BA G2 B2|A2 d2 d2 d2|
+e2 (3edc d2 (3dcB|c2 (3cBA B2 D2|GA Bc d2 D2|GD BD G2:|
+S:https://www.folktunefinder.com/tunes/170411
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:hornpipes:1_knocknoggin.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

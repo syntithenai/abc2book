@@ -1,0 +1,28 @@
+X:3
+T: Froggie on the Carport (R-171)
+M: C
+L: 1/8
+R: reel
+K: A
+cB|"A"Aceg aga2|Aceg aga2|"G"edef =gfgf|edef =gedB|
+"A"Aceg aga2 |Aceg aga2 |"E"efed cAB2|"A"A4 A2:|
+cB|:"A"ABcd efec|"D"d3e d2dB |"G"=GAB=c dedB|"C"=c3d c2cB|
+"A"ABcd ecAe|a2g2 "G"=g4 |"E"efed cAB2 |"A"A4 A2:|
+%%text Tag ending: Replace last measure with
+|"E"efed cAB2 |"E"efed cAB2|"A"A4 A2||
+%%text Also called Doggie on the Carpet or Doggie on the Carport.
+%%text 6/16/07
+S:https://www.folktunefinder.com/tunes/159410
+S:http://roaringjelly.org/music/reel/R171_Froggie_on_the_Carport.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R171_Froggie_on_the_Carport.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R171_Froggie_on_the_Carport.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/reel/R171_Froggie_on_the_Carport.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

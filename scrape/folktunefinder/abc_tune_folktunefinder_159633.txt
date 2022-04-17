@@ -1,0 +1,25 @@
+X:34
+%%topmargin 3cm
+T:The Fyket
+C:Very old
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+=g | fAeA aAe=g | fAeA B=GG=g | fAeA aAe=g | fde=c B=GG=g |
+fAeA aAe=g | fAeA B=GG=g | fAeA ceaf | =gde=c B=GG ||
+=g | (f/2^g/2a) ea {/d}cAA=g | (f/2^g/2a) (e=g) B=GGg | (f/2^g/2a) ea ceaf | =gde=c B=GGg |
+(f/2^g/2a) ea {/d}cAA=g | (f/2^g/2a) (e=g) B=GGg | faea ceaf | =gbeg B[=GB]G |]
+S:https://www.folktunefinder.com/tunes/159633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Fyket_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/RalphPalmer/Fyket_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

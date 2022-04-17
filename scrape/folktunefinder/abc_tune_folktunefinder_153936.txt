@@ -1,0 +1,30 @@
+X:1
+T:Run Rosie Run
+C:copyright 1997 Kaubells
+R:Jig
+E:16
+M:6/8
+K:A
+\bigskip              % a bit of space
+"E7"efe ded|"A"c2A A2^A|"B7"BcB =ABA|"E"G2E E2F|*
+E:12
+"G"=GBd "D7"DEF|"G"=GBd =g2A|"B"B^df "F#7"F^G^A|1"...B7"B^db =a3:|2"...B7"Bc^d "E7"e3:|*
+E:16
+"A"cde A2A|cde ABA|"G#"G2G ^A2^B|"C#m"c6|*
+"A"cde A2A|cde ABA|"G#"G2F "D7"=F2D|"C#7"C6|*
+"F#m"F2F G2F|AGF AGF|"C#m"C2C ^D2C|E^DC E^DC|*
+%T: Generally:
+"F#m"F2F G2F|AGF F2A|"B7"B,3 [.^D2.B2] B,|"E7"E6|]*
+%T: Last time only:
+%"F#m"F2F G2F|AGF F2A|"B7"B2c ^d2f|a3 z3|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/153936
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/rosie.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

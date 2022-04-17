@@ -1,0 +1,23 @@
+X:2
+T:If e'er ye do well it's a wonder
+S:Dow MS, fiddle part
+M:3/4
+L:1/8
+K:D
+(F>E)|D2   F2   A>B| A4 (3(Bcd)|(A2 B2) d2| e4 \
+(d>e)|f2   D2   F2 | A3   BAG  | F6       | d4||
+(d>e)|f2{a}gf{f}ed |Te4 (3(def)|(A2 B2) d2|Te4 \
+ de  |fd```gf```ed | A3   BAG  | F6       | d4
+ de  |fd```gf```ed | e4 (3(def)|(A2 B2) d2|Te4 \
+ de  |f2   D2   F2 | A3   BAG  | F6       | D4|]
+S:https://www.folktunefinder.com/tunes/166005
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg06459.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

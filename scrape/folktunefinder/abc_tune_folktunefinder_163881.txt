@@ -1,0 +1,30 @@
+X: 1
+T: Henchy's Delight
+S: Maeve Donnelly and Peadar O'Loughlin "The Thing Itself"
+Z: Hiroyuki Yamada
+R: jig
+M: 6/8
+L: 1/8
+T: Hinchy's Delight
+D: Catherine McEvoy and John McEvoy "The Kilmore Fancy"
+Z: Contributed 20050225132719 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Gmaj
+A|BAB GAG|FDE F2G|AGA fed|cAG FGA|
+BAB GAG|FDE F2G|AGA fed|cAF G2:|
+d|gfg afd|gfg a2f|gfg b2g|a2g fga|
+gfe fed|fed ^cde|fef ded|cAF G2:|
+S:https://www.folktunefinder.com/tunes/163881
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/HenchysDelight.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/HinchysDelight.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HenchysDelight.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HinchysDelight.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

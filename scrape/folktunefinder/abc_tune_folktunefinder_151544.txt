@@ -1,0 +1,26 @@
+X:15
+T: Der Mordknecht
+N: Q0037
+O: Mitteleuropa, Deutschland
+N: Keine ueberlieferte Melodie: Komposition mit parodistischer Absicht.
+N: Anhaengsel in der zweiten und letzten  Zeile.
+R: Ballade, Eifersucht, Mord; parodistisch
+M: 4/4
+L: 1/4
+K: Eb
+B | e_d_cB | A_GF
+e | f_gfe | _d_cBc | B2z
+B | _d_cBA | _G_FE
+A | _cBA_G | F2EB | F2E
+S:https://www.folktunefinder.com/tunes/151544
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, eifersucht, mord; parodistisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

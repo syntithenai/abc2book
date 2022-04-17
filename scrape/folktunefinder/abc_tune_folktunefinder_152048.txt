@@ -1,0 +1,26 @@
+X:16
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q2072O
+O: Mitteleuropa, Niederlande, Flandern
+N: Flandrische Fassung der Ballade.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: 3/4
+L: 1/8
+K: G
+BA | G2G2A2 | B2B2B2 | c2d2c2 | B2B2
+BA | G2G2A2 | B2B2B2 | c2d2c2 | B2z2
+FG | A2A2B2 | A2G2A2 | B4A2 | G2z2
+cB | A2B2GF | E2E2A2 | G4F2 | G2z2
+S:https://www.folktunefinder.com/tunes/152048
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

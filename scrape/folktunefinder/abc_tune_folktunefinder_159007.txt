@@ -1,0 +1,87 @@
+X:1
+%
+%%titleleft true
+%%tabrhstyle simple
+%%tabaddflags 1
+%%tabflagspace 1pt
+%
+T:Fortune, my Foe
+C:John Dowland
+Z:abc transcription by Christoph Dalitz
+L:1/2
+M:C
+K:CM frenchtab
+%
+[,aa,c1] [,aa/] [,ca,,c] |\
+[,da,c1] [,ca,,c] |\
+[,aa,c/] [c,,a] [ac,,a] [,d,,c] |\
+[,cee1] ,,,,,c |
+%
+[,aa,,,,a//] ,,d ,a ,c ,d a [,ca,,c/] |\
+[,aa,c//] ,c ,d a c a [,cee/] |\
+[,da,c//] a [c,,a] d [a,,,a] c [,d,,c] a |\
+[,c,e/] ,,e ,,a1 ||
+%
+[cdda3/4] ,a/// ,c ,d ,c ,d ,c ,d ,c ,a ,c |\
+,d/ ,,d ,,,a c |\
+[cd,a/] f e c |\
+[a,,,a] ,c ,,d1 |
+%
+[,cd,a/]>a f/ d |\
+[caa,c/]> a ,d/ c |\
+[da,,,a//] c a ,d [,ca,,c] ,a ,c/ |\
+[,aa,c/] ,,,b {,a}1 ||
+%
+[cdda//] ,,d ,a ,c ,d a c d |\
+[cd,a/] ,,d {,a}1 |\
+[cd,a/] f e// f [cd/] |\
+[ac,,a/] ,,d ,,,,a1 |
+%
+[fh,a//] h [df] f [cd] d [ac] c |\
+[,aa,,,,a//] ,c ,d a c ,d a c |\
+[da,,,a//] c a ,d [,ca,,c] ,a ,d ,c |\
+[,aa,c/] ,,,b {,a}1 ||
+%
+[,aa,,,,a//] c e g h ,,a ,,c ,,e |\
+[,aa,,,,a//] c e g h ,,a ,,c ,,e |\
+[,aa,,,,a/] [c,,a//] d [a,,,a] c [,d,,c] a |\
+[,c,e//] ,a ,,e ,a ,c ,,e ,,a/ |
+%
+[haa,,,,a/] f// d c a ,d ,c |\
+[,aa,,,,a//] h c d c a ,d ,c |\
+[,da,c//] a [c,,a] d [a,,,a] c [,d,,c] a |\
+[,c,e/] ,,e ,,a1 ||
+%
+[,dda//] a c/ c// d f/ |\
+[,,aa//] ,,b ,,d/ ,a// ,c ,d/ |\
+[,d,a//] > a c// d f/ c |\
+[,,d,a//] > ,a ,c// ,d ,f/ ,c |
+%
+[,,d,a//] ,a ,c/ ,c// ,d a/ |\
+[,aa,,,,a//] > ,c ,d// a c ,d a c |\
+[da,,,a//] c a ,d [,ca,,c] ,a ,d ,c |\
+[,aa,c/] ,,,b {,a}1 ||
+%
+[f,,a//] c c ,d c ,d ,d ,,d |\
+[,d,a//] ,,d ,a ,c ,d a c/ |\
+[f,,a//] c c ,d ,d a c ,d |\
+,,,,a// a f a c a ,c/ |
+%
+,,,,a// a f a c a ,d ,c |\
+[,aa,,,,a//] c h c d c a ,d |\
+[a,,,,a//] ,d ,c ,a [,ca,,c] ,a ,c/ |\
+[,aa,c/] ,,,b H{,a} |]
+%
+%%vskip 5mm
+%
+W:This version is a merge of two versions of this piece:
+W:Poulton's Dowland Edition and the K\"onigsberg Manuscript
+S:https://www.folktunefinder.com/tunes/159007
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dowland/fortune_my_foe.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dowland/fortune_my_foe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Geh I zum Bruennlein
+A:Niederoesterreich 1819
+B:nach "Es war einmal einmal ein Dudlsackpfeifer - ausgewaehlte Lieder und Taenze aus Oesterreich, Bayern und dem Egerland fuer Dudelsack(Bock)", R.Lughofer, Herausgeber: Volkskultur Niederoesterrich, Moedling 1997
+N:im buch in F im 3/4 Takt
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:2/4
+L:1/8
+K:G
+D2 |\
+G2GB | A2AF | G2AB  | cB dB |
+A4- | A2GB | d2ce | d2c2 |
+B2Ac | B2A2 | G4- | G2GB  |
+d2ce | d2c2 | B2Ac | B2A2 |
+G4- | G2 |]
+S:https://www.folktunefinder.com/tunes/160711
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/geh_i_zum_bruennlein.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

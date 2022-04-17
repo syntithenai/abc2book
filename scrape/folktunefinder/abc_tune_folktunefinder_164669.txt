@@ -1,0 +1,34 @@
+X:2
+T:Hommage a Doroth\'ee (Dm)
+C:Phillipe Bruneau
+D:Levy, Ostroushko, et al - First Generation
+N:On the CD it is played in Bm
+Z:transcribed by Moshe Braner, March 2001
+M:3/4
+L:1/8
+K:Dm
+P:A
+|: "Dm"D2 DE FD | "A7"E2 A2 A2 | "Dm"D2 DE FD | "A7"E2 A,2 A,2 |
+"Dm"D2 DE FD | "C7"E2 CE GB | "F"A6 |1 "A7"AB AG FE :|2 A2 "D7"DEF^F ||
+P:B
+|: "Gm"G2 GA BG | "D7"A2 d2 d2 | "Gm"G2 GA BG | "D7"A2 D2 D2 |
+"Gm"G2 GA BG | "F7"A2 FA c_e| "Bb"d6 |1 "D7"d_e dc BA :|2 d2 c2 B2 ||
+P:C
+"D7"A3 c c2-|c2 B2 A2 | "Gm"G3 B B2-|B2 A2 G2 |
+"A7"e6-|e4 B2 | A6 | AB AG FE |
+"Dm"D2 DE FD | "A7"E2 A2 A2 | "Dm"D2 DE FD | "A7"E2 A,2 A,2 |
+"Dm"D2 DE FD | "A7"E2-EGFE | "Dm"D2-DA,FE | D6 ||
+P:D
+|: "Dm"d2f2-fd | A6 | "Gm"G2B2-BG | "A7"E6 |
+   "A7"A,2^C2E2 | G2F2E2 |1 "Dm"D2-DEFG | A6 :|2 "Dm"D2-DA,FE | D6 ||
+S:https://www.folktunefinder.com/tunes/164669
+S:http://trillian.mit.edu/~jc/music/abc/by/PhillippeBruneau/HommageADorotheeDm.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/HommageADorotheeDm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

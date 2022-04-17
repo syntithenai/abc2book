@@ -1,0 +1,30 @@
+X:1
+T:Kas a barh
+C:Danse du pays Vannetais, abc file by Bernard Loffet
+L:1/8
+Q:280
+M:4/2
+K:G
+|:[G2G,2G,2][BG,G,]A[G2G,2G,2]d2[c2C,2C2][BC,C]c[AD,D]GAB|[G2G,2G,2][FD,D]G[A2D,2D2]AB[G2G,2G,2][GG,G,]B[AD,D]cBA|[G2G,2G,2][BG,G,]A[G2G,2G,2]d2[c2C,2C2][BC,C]c[AD,D]GAB| \
+[G2G,2G,2][FD,D]G[BG,G,]GAF[G2G,2G,2][BG,G,]d[G4G,4G,4]:|:[G2G,2G,2][FD,D]G[d3G,3G,3]e[dG,G,]B[cG,G,]d[e2C,2C2]=fe|[d2G,2G,2][BG,G,]d[G2G,2G,2]Bd[c2A,2A,2][B2A,2A,2][A4D,4D4]| \
+[G2G,2G,2][FD,D]G[d3G,3G,3]e[dG,G,]B[cG,G,]B[A2D,2D2]dB|[G2G,2G,2][FD,D]G[BG,G,]GAF[G2G,2G,2][BG,G,]d[G4G,4G,4]:| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/169273
+S:http://diato.ifrance.com/diato/tablat/39.abc
+S:http://diato.ifrance.com/tablat/39.abc
+S:http://diato.org/tablat/39.abc
+S:http://perso.orange.fr/diato/tablat/39.abc
+S:http://perso.wanadoo.fr/diato/tablat/39.abc
+S:http://pro.wanadoo.fr/diato/abc/39.abc
+S:http://pro.wanadoo.fr/diato/tablat/39.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/39.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/39.abc
+S:http://www.diatonique.net/tablat/39.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/2
+% Has_accompaniment_chords No chords

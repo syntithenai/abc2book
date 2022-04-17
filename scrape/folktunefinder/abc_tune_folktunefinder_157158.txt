@@ -1,0 +1,31 @@
+X: 1
+T: Farewell to the Creeks
+R: jig-time pipe march
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scots Guards p.95 #188
+N: The WWI ballad "Banks of Sicily" is based on this pipe march.
+M: 6/8
+L: 1/8
+K: G
+   g | "G"d2B BAB | "C"cde "D7"d2c | "G"Bcd "Em"GBd | "Am"dcB "D7"A2g \
+     | "G"d2B BAB | "C"cde "D7"d2c | "G"Bcd     dcB | "D7"A3   "G"G2 :|
+|| d | "G"dBd gfg | "C"ede "D7"cBc | "G"Bcd "Em"GBd | "Am"dcB "D7"A2d \
+     | "G"dBd gfg | "C"ede "D7"cBc | "G"Bcd     dcB | "D7"A3   "G"G2 ||
+|| d | "G"dBd gfg | "C"ede "D7"cBc | "G"Bcd "Em"GBd | "Am"dcB "D7"A2g \
+     | "G"d2B BAB | "C"cde "D7"d2c | "G"Bcd     dcB | "D7"A3   "G"G2 ||
+|: A | "G"Bz2 "C"c3  | "G"d2B  BAG | "C"c2e  "G"B2d |     dcB "D7"A2G \
+     | "G"Bz2 "C"c3  | "G"d2B  BAG | "G"Bcd     dcB | "D7"A3   "G"G2 :|
+|: d | "G"g2d "C"e2g | "G"d2e  dBG | "C"c2e  "G"B2d |     dcB "D7"A2d \
+     | "G"g2d "C"e2g | "G"d2e  dBG | "G"Bcd     dcB | "D7"A3   "G"G2 :|
+S:https://www.folktunefinder.com/tunes/157158
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/FarewellToTheCreeks_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/FarewellToTheCreeks_G.abc
+% Rhythm Jig-time pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

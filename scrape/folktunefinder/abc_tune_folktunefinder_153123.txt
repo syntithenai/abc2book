@@ -1,0 +1,36 @@
+X:1
+T:Der Siebenschritt
+C:traditionell
+R:volkstanz
+A:Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J.
+S:mit der angabe: Tiroler Volkstanzbuch, Karl Horak, Innsbruck, dort in G
+N:im buch einstimmig
+N:im buch s. 76 nr. 2
+N:im buch ganz in F erster ton c', ambitus c' d''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G %Transposed from F
+(D/G/)G GG | (F/G/)A/F/ G2 | (D/B/)B BB | (A/B/)c/A/ B2 |\
+dd e2 | (c/B/)c/e/ d2 | BB cc | AA B2 |\
+dd e2 | (c/B/)c/e/ d2 | BB cc |  FF G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153123
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/siebenschritt.tirol_pichler.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

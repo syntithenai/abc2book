@@ -1,0 +1,23 @@
+X: 1
+T:Eighth of August
+R:Jig
+C:Susan Lawlor
+M:6/8
+L:1/8
+K:EMin
+BFE ~A3|~B3 BcA|BFE A2G|FEG FEA|!
+BFE ~A3|~B3 Bcd|edB ABG|F2G AGF:|!
+Bcd ~e3|edB edA|Bcd edB|cAG FGA|!
+Bcd ~e3|edB edB|cAB cFG|A2G FGA:|!
+S:https://www.folktunefinder.com/tunes/155801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ei/Eighth_of_August_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ei/Eighth_of_August_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

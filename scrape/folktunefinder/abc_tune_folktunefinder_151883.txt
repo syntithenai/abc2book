@@ -1,0 +1,46 @@
+X:1
+T:Das Hiatamadl
+C:traditionell
+R:volkstanz
+A:Goessl im Steirischen Salzkammergut
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Altoesterreichische Volkstaenze , Raimund Zoder, Oesterreichisches Volksbildungsamt, Oesterreichischer Schulbuecherverlag, Wien, 1922
+S:
+N:im buch zweistimmig plus gitarren-griffe
+N:quelle einstimmig
+N:im buch s. 4 nr. 5
+N:im buch ganz in A erster ton e''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:A
+V:1
+e |\
+e3 c | d3 e | g>fed | c3 e |\
+e3 c | d3 e | g>fed | c2  ze |
+a>eec | deee | g>fed | ceee |\
+a>eec | deee | g>fed | c2 z |]
+V:2
+c |\
+c3 A | G3 B | e>dcG | A3 c |\
+c3 A | G3 B | e>dcG | A2  zc |
+e>ccA | GBBB | e>dcG | Accc |\
+e>ccA | GBBB | e>dcG | A2 z |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/151883
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/hiatamadl.goessl_zoder.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

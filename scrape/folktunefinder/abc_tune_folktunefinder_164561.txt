@@ -1,0 +1,23 @@
+X:1
+T:Holly and the Ivy, The
+C:collected by Cecil Sharp from Mrs. Clayton at Chipping Campden
+%
+%%measurebox true           % measure numbers in a box
+%%measurenb 0               % measure numbers at first measure
+%%barsperstaff 0            % number of measures per staff
+%%gchordfont Times-Bold 14  % for chords
+%
+M:3/4
+L:1/4
+Q:85
+K:G
+%
+G | G/G/ G e | (d B3/2) G/ | G/G/ G e | d2 (d/c/) |
+S:https://www.folktunefinder.com/tunes/164561
+S:http://tomkeays.com/music/xmas/holly_and_ivy_sharp.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

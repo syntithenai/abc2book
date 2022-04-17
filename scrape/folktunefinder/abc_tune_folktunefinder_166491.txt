@@ -1,0 +1,22 @@
+X: 2
+T: Traditional
+Q:380
+D:Heart of Cape Breton, Smithsonian Folkways, Hinnon Beaton, Fiddle
+M:3/4
+A: Cape Bretton
+R:  ((HF0B25M15D0U0))
+L: 1/8
+K: D
+ FG|:A2F A2d|f3 fef|g2f g2b|afd edB|A2F A2d|f3 g2b|afd efe| [1d3 (udcB) [2 d3(udef):|
+   |g3 gba|f3 faf|e2f ede|f2B Bcd|g3 gba|f3 faf|e2f gfe|aba agf|
+    g3 gba|f3 faf|e2f ede|f2B Bcd|A2F A2d|f3 g2b|afd efe|d3|
+S:https://www.folktunefinder.com/tunes/166491
+S:http://fredmusic.pbwiki.com/f/Hinnons_Medley1.abc
+% Rhythm ((hf0b25m15d0u0))
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:2
+T:Jones, Loftus
+M:4/4
+L:1/8
+K:G Major
+g4 f2e2|d3c BcdB|cBAF G2GA|BcBA G2GA|!
+BcdB cdec|d2cB cBAG|F2EF D2 (3DEF|GAGF Eccc|dedB cBAF|!
+GGDD EEFF|GGEE FFGG|AAFF GGAA|BBGG AABB|!
+c3A dedB|cBAG FGAF|GEDC B,2D2|[1 G,4-G,4:|[2 G,4-G,2|]!
+B2|A2F2 G2E2|F2D2 E3F|G2B2 F2B2|E4 F3D|!
+B2cB A2BA|GABc B2BA|GABc d2 (3cBA|GAF2 E2GE|!
+B,EGE B,EGE|DFFF DFAF|EGGG EGAG|FAAA FAAA|!
+GBBB GBBB|GBGB GBGB|efg2 f4|e4-edef|!
+gage fgfd|efge dedB|ccec BcdB|AGFE DEFD|!
+GEDC B,DGB|AGFE DddB|cBAG FGAF|[1 GDB,D G,2:|[2 GDB,D G,4|]!
+S:https://www.folktunefinder.com/tunes/161155
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/OCarolan.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/OCarolan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

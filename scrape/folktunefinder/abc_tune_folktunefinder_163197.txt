@@ -1,0 +1,55 @@
+X:1
+T:Hanter dro : N'hallan ket mui
+Z:Roger Ngaret (94-95)
+R:hanterdro
+C:Trad.
+A:Bretagne
+S:
+M:3/4
+L:1/16
+K:G
+"D"D2EF "G"G2A2 G4 | "D"A2BA "G"G2B2 "D"A2A2 | D2EF "G"G2A2 G4 |
+"D"A2BA "G"G2B2 "D"A4 | A2AA A2c2 "G"B4 | "D"A2AG F2E2 D4 :|
+D2EF "G"G2EF G4 | "D"A2BA "G"G2B2 "D"A2A2 | D2EF "G"G2EF G4 |
+"D"A2AG F2E2 D4 :| 
+%%rm
+%%rm Derrire chez mon pre,       ] 
+%%rm Les lilas sont fleuris        ] bis
+%%rm Tous les oiseaux du monde 
+%%rm Viennent y faire leur nid.
+%%rm
+%%it Je ne peux plus malura        ]
+%%it Dondaine ma jolie             ] 
+%%it Je ne peux plus malura        ]
+%%it Dormir ni jour ni nuit.       ] bis
+%%rm 
+%%rm La caille la tourterelle 
+%%rm Et la jolie perdrix
+%%rm Et la blanche colombe 
+%%rm Qui chantent jour et nuit.
+%%rm 
+%%rm Elles chantent pour les filles 
+%%rm Qui n'ont pas de mari
+%%rm Ne chantez pas pour moi 
+%%rm Car j'en ai un joli.
+%%rm 
+%%rm Il est dans la Hollande, 
+%%rm Les hollandais l'ont pris,
+%%rm Que donneriez-vous belle 
+%%rm Pour revoir vot' mari 
+%%rm 
+%%rm Je donnerais tout Rennes, 
+%%rm Paris et Saint Denis,
+%%rm Et autre chose aussi, 
+%%rm Ma chanson est finie.
+S:https://www.folktunefinder.com/tunes/163197
+S:http://termen.free.fr/danses/vannetais/HanterdroNhallanketmui.abc
+% Rhythm Hanterdro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

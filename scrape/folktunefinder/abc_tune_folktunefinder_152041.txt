@@ -1,0 +1,25 @@
+X:9
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q0072H
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Walschbronn
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: 3/8
+L: 1/8
+K: G
+G | GBB | BAG | A2B | Az
+B | BAG | A2d | cBA | Gz
+B | d2B | ded | cBA | Gz
+G | BBc | d2B | ABA | Gz
+S:https://www.folktunefinder.com/tunes/152041
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

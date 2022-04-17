@@ -1,0 +1,26 @@
+X: 27
+T: SILVER CLUSTER -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20010522204905 by John Chambers jc:trillian.mit.edu
+K: Bb
+((3uFGA) \
+| B3d cBcd | Bdfb (~g2f2) | (ba)gf gfdB | cdcB GBF2 \
+| (B3.d) cBcd | Bdfb (~g2f2) | (ba)gf gfdB | cBGA B2 :|
+|: "_f"uf2 \
+| ("_fz"g3.a) b2ag | (fb)df BdF2 | {d}c=Bcd e2A2 | {c}BABc d2f2 \
+| ("_fz"g3.a) b2ag | (fb)df BdF2 | {d}c=Bcd e2A2 | B2{c}BA B2 :|
+S:https://www.folktunefinder.com/tunes/165261
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

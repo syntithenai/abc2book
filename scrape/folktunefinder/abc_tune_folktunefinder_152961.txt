@@ -1,0 +1,25 @@
+X:8
+T: Der Nebenbuhler (Jan Willem en Betje)
+N: Q2143B
+O: Mitteleuropa, Niederlande, flaemisch
+N: Geistliche Kontrafaktur Letzten Notenwert rhythmisch korrigiert.
+N: Flaemische Fassung der Ballade.
+R: Ballade, Liebes - Klage; geistlich
+M: 6/4
+L: 1/4
+K: G
+G | G2Gc2c | B3A2
+A | BcdccB | c3-c2
+c | BAGAG=F | E3D2
+A | BBAGGF | G3-G2
+S:https://www.folktunefinder.com/tunes/152961
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - klage; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

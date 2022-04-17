@@ -1,0 +1,22 @@
+X: 1
+T:the Drunken Drummer
+M:6/8
+R:Jig
+K:G
+d|\
+BAG G2D| GAG B2d| BAG G2D| EFE E2d|\
+BAG G2D| GAG Bcd| efg dBG| "tr"A3 G2::
+A|\
+Bcd ded| ded dec| Bcd def| gdB A2G|\
+Bcd ded| ded def| gdB dBG| A3 G2:|
+S:https://www.folktunefinder.com/tunes/154710
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drunken_Drummer_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drunken_Drummer_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

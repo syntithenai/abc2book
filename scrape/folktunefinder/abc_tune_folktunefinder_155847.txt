@@ -1,0 +1,25 @@
+X:1
+T:Ein einzigs Hendl
+C:traditionell, Arr. S.Wascher
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 2/4
+L:1/4
+K:G
+GFA | GBG | Ae | d2 |
+GFA | GBd | cF | G2 :|
+|:\
+dcA | BGd | ce | d2 |
+dcA | BGd | cF | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155847
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/ein_einzigs_hendl.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

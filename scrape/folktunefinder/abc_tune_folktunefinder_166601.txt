@@ -1,0 +1,20 @@
+X:1
+T:Irish Soldier Laddie
+M:4/4
+L:1/4
+K:C
+ C E| G G G A| G2 E G| A B c B/2B/2| A G2 C/2E/2| G3/2 G/2 G A| G2 F E|\
+ E D D E| D2 C E| G G G A| G2 E G| A B c B| A G2 G| G G ^F G| B A F D|\
+ C4-| C2| B, C| D2 D3/2 E/2| F2 E D| C2 C D| E3 D| C C C D| E E D C|\
+ D4-| D2| C E| G2 F A| G2 E C| F G A B| c2 B3/2 A/2| G A B G| G F E D|\
+ C4-| C2||
+S:https://www.folktunefinder.com/tunes/166601
+S:http://back.numachi.com:8000/dtrad/abc/IRSLDLAD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

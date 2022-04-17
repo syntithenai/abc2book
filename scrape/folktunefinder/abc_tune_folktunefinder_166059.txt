@@ -1,0 +1,24 @@
+X: 1
+T:I Have a Bonnet Trimmed with Blue
+R:march
+M:2/4
+L:1/16
+K:D
+f2|A2(B>A) F2A2|(d2A2)f4|f2(e>f) g2e2|d>cd>e f2d2|!
+A2(B>A) F2A2|(d2A2) f4|f2(e>f) g2c2|(e2d2) d<d:|!
+e2(f>e) c2e2|(a2c2) e4|e2(f>e) d2B2|(f2e2) c4|!
+e2(f>e) c2e2|(a2c2) e4|e2(f>e) d2B2|B2A2 A<A:|!
+G2B2 B2d2|d2e>d B4|d2(e>d) c2A2|(e2d2) B4|!
+G2B2 B2d2|d2e>d B4|d2(e>d) c2F2|(A2G2) G<G:|!
+g2e2 e2g2|d2e>d B4|d2(e>d) c2A2|(e2d2) B4|!
+g2e2 e2g2|d2e>d B4|d2(e>d) c2F2|(A2G2) G<G:|!
+S:https://www.folktunefinder.com/tunes/166059
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/i_/I_Have_a_Bonnet_Trimmed_with_Blue_2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

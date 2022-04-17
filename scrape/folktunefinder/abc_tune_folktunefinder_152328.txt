@@ -1,0 +1,23 @@
+X:1     
+T: Davy Jones theme. Instr:Harp (part that is visible in chat window, Tip:It's good to see the instrument, because then you are able to see that members are picking the right file.)
+C:Pirates of the Carribean Soundtrack
+N:Harp/Lute: Mod.by Achazia
+Q:1/4=85 (You could change tempo manually)   
+V:1
+M:4/4   
+L:1/8    
+K:A
+z8 |z8 |[B2B,2F2] F2 [=G2c2] [B2B,2d2] |F2 [c2e2] [f2d2B,2] F2 |[fa][=ge] [B,2d2f2] F4 |[d2B,2f2] F2 [=g2e2] [A,2e2a2] |E2 b=g [B,2f4d2] F2 |[c2e2] [d2B,2f2] F4 |[E2e2=g2] [zB4] [gb] [f2a2] [B,2d2f2] |
+F2 [B2d2] [C2c2e2] [zE2] [e=g] |[_B,2d2f2] [=B,2=B2d2] F4 |[A,2c2] C2 [A2c2] [A,2F2c2] |C2 c2 [B,2F2B2] D2- |D2 [B,2F4B4] D4 |[B,2F2B2] F2 [=G2c2] [B,2B2d2] |F2 [c2e2] [B,2d2f2] F2 |[fa][e=g] [B,2d2f2] F4 |
+[B,2d2f2] F2 [e2=g2] [a2A,2e2] |E2 b=g [B,2d2f4] F2 |[c2e2] [B,2d2f2] F4 |[E2e2=g2] [zB4] [gb] [f2a2] [B,2d2f2] |F2 [B2d2] [C2c2e2] [zE2] [e=g] |[_B,2d2f2] [=B,2=B2d2] F4 |[A,2c2] C2 [A2c2] [A,2F2c2] |
+C2 c2 [B,2F2B2] D2- |D2 [B,2F2B2] D4 |]
+S:https://www.folktunefinder.com/tunes/152328
+S:http://community.codemasters.com/forum/archive/index.php/t-248814.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

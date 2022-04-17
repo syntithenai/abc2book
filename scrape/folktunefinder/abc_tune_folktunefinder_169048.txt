@@ -1,0 +1,23 @@
+X: 1
+T: June McCormack's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+A|:d2A d2A|e2A e2A|~f3 efg|fed edc|
+d2A d2A|e2A e2A|~g3 fag|fdc d2A:|
+|:~a3 fdA|~a3 fdA|~a3 ecA|~a3 ecA|
+~a3 fdB|~a3 fdB|~g3 fag|1fdc d2A:|2fdc d2B||
+|:~A3 D{F}ED|AFA D{F}ED|~G3 D{F}ED|GFG D{F}ED|
+~A3 D{F}ED|AFA D{F}ED|~g3 fag|1fdc d2B:|2fdc d2A||
+S:https://www.folktunefinder.com/tunes/169048
+S:http://www.thesession.org/tunes/display/9132
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

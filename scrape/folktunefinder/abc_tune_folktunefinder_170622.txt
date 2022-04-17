@@ -1,0 +1,34 @@
+X:1
+T:"Kurt Valsen"
+R:walzer
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:K.Bauer CD Transkription
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:Gm
+D |\
+G/^F/ G/A/ B/c/ | d>dd | edc | g>fe |\
+d>cB | A>BA |1 GG/A/B | A2 :|\
+            [2 GG/^F/ G/A/ | G2 ||
+|: d |\
+dgg | f>ec | c/d/ee | d>BG |\
+G/A/BB | A>^FD | D/c/BA | G/^F/ G/A/ B/c/ |
+dgg | f>ec | c/d/ee | d>BG |\
+G/A/BB | A>^FD | D/c/BA | G2 :|
+S:https://www.folktunefinder.com/tunes/170622
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/kurt_valsen.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

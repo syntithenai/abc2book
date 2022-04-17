@@ -1,0 +1,24 @@
+X:29
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q0041K
+O: Mitteleuropa, Deutschland / UdSSR, Ostpreussen, Koenigsberg
+N: Anhaengsel an der dritten Zeile.
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 4/4
+L: 1/8
+K: A
+e2 | A2A2A2Aa | a2a=fe2z
+d | =c3BA2Bc | ded=cBz
+B2 | e2e2d2e2 | =c3BA2Bc | ded=cB2
+B2 | e2e2d2e2 | =c3BA2
+S:https://www.folktunefinder.com/tunes/151558
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

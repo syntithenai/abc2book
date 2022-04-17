@@ -1,0 +1,35 @@
+X:3004
+T:Largo
+T:From "The new world"
+C:Antonin Dvorak
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/dvorak-antonin/dvorak-largo/dvorak-largo.abc
+M:C
+L:1/4
+K:C
+"C"EGG2|"C"EDC2|"G"DEGE|"G"D4|
+"C"EGG2|"C"EDC2|"F"DE"G"DC|"C"C4|
+"F"Acc2|"F"BGA2|"F"AcBG|"F"A4|
+"F"Acc2|"F"BGA2|"F"AcBG|"F"A4|
+"C"EGG2|"C"EDC2|"G"DEGE|"G"D4|
+"C"EGG2|"C"EDC2|"F"DE"G"DC|"C"C4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159485
+S:http://abc.musicaviva.com/tunes/dvorak-antonin/dvorak-largo/dvorak-largo.abc
+S:http://abc.musicaviva.com/tunes/dvorak-antonin/dvorak-largo/dvorak-largo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/dvorak-antonin/dvorak-largo/dvorak-largo.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/largoc.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/largoc.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/dvorak-antonin/dvorak-largo/dvorak-largo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/largoc.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

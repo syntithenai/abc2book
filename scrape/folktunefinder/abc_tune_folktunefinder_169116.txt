@@ -1,0 +1,33 @@
+X:1
+T:Kadrilj efter Bryngelsson
+R:Kadrilj
+Z:C-G Magnusson, 2008-09-29
+O:Dals-Ed, Dalsland
+S:efter Axel Norgren, Bcke
+B:Svenska Ltar
+N:Svenska Ltar, Dalsland nr 198\
+N:Tycker noterna ser OK ut, men ngot blir knas med uppspelningen i ABCexplorer. 
+M:2/4
+L:1/16
+K:Bb
+[B2D2]d2 B2d2 | (dc)(AB) G2(AB) | (cd)cB ABAG | A2A^F D4 |
+[B2D2]d2 B2d2 | (dc)(AB) G2(AB) | (c=e)dc (BA)G^F |1 G4 z4 :|2 G4 z2 ||:
+[F2A2] | B2d2 f2f=e | (d2{=ed})c2 z2 A2 | F2A2 c2(c=e) | =ed((3cdc) B2dc |
+B2d2 B2d2 | (dc)AB G2AB | (c=e)dc BAG^F | G4 z2 :||:
+(BA) | (GAG)^F G2(BA) | (GA)G^F G2AB | (cd)cA B2BG | A2(A^F) D2(BA) |
+(GAG)^F G2(BA) | (GA)G^F G2AB | (c=e)dc BAG^F |1  G4 z2 :|2 G4 z4 ||:
+g2>^f2 g2>=b2 | a2>^f2 d4 | d'd'd'd' c'c'c'c' | bbbb a2(BA) |
+(GAG)^F G2(BA) | (GA)G^F G2AB | (c=e)dc BAG^F | G4 z4 :|
+S:https://www.folktunefinder.com/tunes/169116
+S:http://www.folkwiki.se/pub/cache/Kadrilj_efter_Bryngelsson_50f0c7.abcm.abc
+% Rhythm Kadrilj
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

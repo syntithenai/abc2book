@@ -1,0 +1,28 @@
+X:1
+T:Espresso to Seattle
+M:C
+L:1/8
+Q:205
+C:(c) Greg Anderson, 23 March 2000
+R:Reel
+H:A tune inspired by an unexpected and urgent trip to Seattle, my
+H:family's home town, and the world capitol of drive-through espresso
+H:bars
+K:A
+A>c e a2 a aa|b>a =g>e- e>d ef|=g>a gf e>d ef|ed cd e2 dc|
+A>c e a2 a aa|b>a =g>e- e>d ef|=g>a gf e>d ef|1ed cA- A2 AA:|
+2ed cA- A2 cd|:e>d ce a>g fe|d>E E E2 E EE|B>c BA G>A BG|
+AB ce- ee ee|e>d ce a>g fe|d>E E E2 E EE|
+1GA GF ED CB,|A,6 cd:|2Bc BE ed cB A6 z2||
+S:https://www.folktunefinder.com/tunes/156395
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/EspressoToSeattle.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/GregAnderson/EspressoToSeattle.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

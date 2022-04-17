@@ -1,0 +1,26 @@
+X:1
+T:He's Gone Away
+M:4/4
+L:1/4
+K:G
+ D G G/2 d3/2| e/2e/2 d B/2 B A/2| G2 z G/2B/2| d/2d/2 B G/2A/2 B|\
+ G/2 G _E/2 D2-| D2 z z/2 D/2| G B B A| G3 z/2 G/2| B d =f e| d2 z z/2 G/2|\
+ B d/2 ^f e/2d/2 e/2| d B G _E| D2 z2| z2 z D/2D/2| G G B3/2 A/2| G3 z/2 G/2|\
+ B d f/4 e d2| z z/2 G/2 B d/2 f| e/2d/2 e/2 d B G| _E D3| z z2 z|\
+ E/2D/2 G4| D G d/2 d3/2| e/2e/2 d B/2 B A/2| G2 z G/2B/2| d/2d/2 B G/2A/2 B|\
+ G/2 G _E/2 D2| z E/2D/2 G2-| G E/2D/2 G2-| G E/2D/2 G2| B/2A/2 B G z|\
+ G B D(3e3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002|\
+ d2 z z/2 B/2| d B d B| d/2d/2 B d/2B/2 d| B/2B/2 d B/2 d B/2| d B/2 B G/2 G|\
+ E D3| z E/2D/2 G2| E/2D/2 G d/2 d3/2| e/2e/2 d B/2 B A/2| G2 z G/2B/2|\
+ d/2d/2 B G/2A/2 B| G/2 G _E/2 D2-| D z z/2 E D/2| G B/2A/2 B G| G B d(3e3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002d3.99999962500005/11.9999985000002e3.99999962500005/11.9999985000002|\
+ d z G3/4 G/4 B| d B/2 d B/2 d| B/2 B3/2 G _E| D4| z E/2D/2 G2| D G d/2 d3/2|\
+ e/2e/2 d B/2 B A/2| G2 z G/2B/2| d/2d/2 B G/2A/2 B| G/2 G _E/2 D2-|\
+ D4-| D z z2|
+S:https://www.folktunefinder.com/tunes/163993
+S:http://back.numachi.com:8000/dtrad/abc/HESGONE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

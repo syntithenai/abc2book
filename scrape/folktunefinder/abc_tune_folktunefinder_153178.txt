@@ -1,0 +1,32 @@
+X: 1
+T:Det var en l\ordag aften
+C:anon.
+O:Denmark / Norway
+N:This is the "Norwegian" version in 3/4 time. The original Danish tune is in 2/4 time.
+R:Vals
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:3/4
+L:1/4
+Q:160
+K:D
+A|"D"d2d|"D"A2A|"D"f3|"D"d2f|"A7"e2c|"A7"A2c|"D"d3|"D"zzA|
+"D"d2d|"D"A2A|"D"f3|"D"d2f|"A7"e2c|"A7"A2c|"D"d3|"D"zzf|
+"D"f2f|"D""D"a2f|"A7"e2e|"A7"a2e|"G"d2d|"G"b2b|"A7"a3|"A7"zzg|
+"D"f2f|"D"a2f|"Em"f2e|"Em"g2e|"A7"d2c|"A7"B2c|"D"d3|"D"zz|]
+W:
+W::/: Det var en l\ordag aften jeg satt og ventet dig. :/:
+W::/: Du lovet mig at komme visst, men kom dog ei til mig. :/:
+W:
+W::/: Jeg lagde mig p\aa s\aengen og gr\aet s\aa bitterligt :/:
+W::/: Og hver en gang at d\oren gik, jeg trodde det var dig.
+S:https://www.folktunefinder.com/tunes/153178
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/de/Det_var_en_lordag_aften_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/de/Det_var_en_lordag_aften_1.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

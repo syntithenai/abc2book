@@ -1,0 +1,27 @@
+X:234
+T: Der Hammerschmiedssohn
+N: Q0088E
+O: Mitteleuropa, Deutschland (BRD) , Hessen - Darmstadt, Schlierbach
+N: Pause am Ende der 2. Zeile ergaenzt (siehe auch zweiten Druck der
+N: Melodie auf S. 360) .
+R: Ballade, Verfuehrung, Schwangerschaft, Mord
+M: 4/4
+L: 1/8
+K: C
+G2 | c3cc2c2 | e3dc2z2 | z4
+e4 | d4c4 | B4A4 | G3AG2
+F2 | E2G2E2G2 | e3dc2
+c2 | d4B4 | c4z2
+S:https://www.folktunefinder.com/tunes/152266
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

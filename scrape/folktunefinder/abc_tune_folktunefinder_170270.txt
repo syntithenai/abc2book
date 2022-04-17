@@ -1,0 +1,35 @@
+X:1
+T:Klara-Mars
+C:Jan Alexander STRYCKERS
+O: Lier VL-B
+Z:jan.stryckers@lycos.nl
+H: Klara estas la nomo de nia kato kaj ankau la nomo de la Flandra sendilo de klasika muziko.
+H: Klara is the name of our cat and also the name of the Flemish radiostation for classical music.
+M:C|
+L:1/4
+Q:1/2=66
+R:march
+K:G
+V:1 name=G-bagpipe
+|: G>ABA | G4 | B>cdc | B4 | de/f/g2 | de/f/gd | edcB | A4 :|
+|: AB/c/dB | A4 | de/f/ge | d4 | ec/e/g2 | dB/d/g2 | cA/c/ ec | B2A2 |
+ G>ABA | B>cdc | d>e=fe/d/ | c4 | eg/e/cB | ce/c/A2 |
+ G/A/B/c/BA | G/B/d/c/BA | [1G/A/B/c/BA | G/B/d/B/G2 :| [2G/A/B/A/ G/B/d/B/ | G4 |]
+V:2 name=D-bagpipe
+|:DE/F/GF | G4 | G>ABA | G4 | Bc/A/B2 | Bc/A/BB | cBAG | FED2:|
+|: FG/A/BG | D2FD | Bc/A/Bc | BAB2 | cGc2 | BGB2 | A/G/FGE | DEF2 |
+ G2GF | G2BA | B2GB | cGEG | ce/c/G2 | Gc/A/FD | D/F/G/A/GF | GB/A/GF |\
+[1G/F/G/A/GF |D/G/B/G/DE :|[2DGDG |G4|]
+S:https://www.folktunefinder.com/tunes/170270
+S:http://music.gordfisch.net/tradmusic/pub/cache/KlaraMars_8d4498.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:4
+T: Herr und Schildknecht
+N: Q0034A
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Konradsdorf
+N: Kleinere Melodievariante aus anderer Quelle abgedruckt.
+R: Ballade, Tod, Unfall, Herr und Knecht
+M: 2/4
+L: 1/16
+K: G
+D2 | G4d3c | B6c2 | B4A4 | G4z2
+G2 | B2B2d2B2 | A2c2B2
+G2 | B2B2d2B2 | A2c2B2
+D2 | G4d3c | B6c2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/151533
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, tod, unfall, herr und knecht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

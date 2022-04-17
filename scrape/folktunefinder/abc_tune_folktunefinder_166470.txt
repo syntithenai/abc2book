@@ -1,0 +1,49 @@
+X: 3
+T:
+T:Variation I.
+M:3/4
+L:1/8
+K:G bass
+%1
+d>c | (3B-dg b>g (3fge | (3d^ce (3dBG D>G | (3FAc f2 (3aAc |
+%2
+(3Bdg b2 d>c | (3Bdg b>g (3fge | (3d^ce (3dBG D>G | (3FAc (3dfa (3c'fa |
+%3
+g4 
+%Error : Bar 8 is 1/2 not 3/4
+|| b2 
+%Error : Bar 9 is 1/4 not 3/4
+| {B}(3age ^cAc e>c 
+%Error : Bar 10 is 7/8 not 3/4
+| d~f a > a 
+%Error : Bar 11 is 1/2 not 3/4
+| (3bag (3eA^c e>c |
+%4
+(3dfa d' > b 
+%Error : Bar 13 is 1/2 not 3/4
+| {B}(3age (3^cAc e>c | d~f a3 a | (3bag eA^c e>c 
+%Error : Bar 16 is 7/8 not 3/4
+|
+%5
+d4 d>=c | (3Bdg b>g (3 fge | (3d^ce (3dBG D>G | (3FAc f2 (3aAc |
+%6
+(3Bdg 
+%Error : Bar 21 is 1/4 not 3/4
+| b2 d>c 
+%Error : Bar 22 is 1/2 not 3/4
+| (3Bdg "(1)"b3 g2 (3fge 
+%Error : Bar 23 is 9/8 not 3/4
+| (3d^ce (3dBG D>G | (3FAc (3dfa (3c'fa | g4 
+%Error : Bar 26 is 1/2 not 3/4
+|]
+%Error : Field not allowed in tune body
+N:sic.  In other words, this one measure is in 4/4 instead of 3/4, but not notated that way.
+S:https://www.folktunefinder.com/tunes/166470
+S:http://www.laymusic.org/music/arban/tyrolienne-d.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

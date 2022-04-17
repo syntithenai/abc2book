@@ -1,0 +1,41 @@
+X:1
+T:Duo en si mineur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle08.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:3/4
+L:1/8
+K:Bm
+V:1
+"^Grazioso"f2e2d2|(c2^A2)B2|b4=a2|(agfg)g2|g2g2g2|
+V:2
+B2c2d2|(e4d2)|B2c2^d2|e2E2(ec)|^A2c2e2|
+%
+V:1
+f2(^a2b2)|f2e2d2|{d}c4z2::(c'b).^a.g.f.e|(df).e.d.c.B|(c'b).^a.g.f.e|
+V:2
+d2(c2B2)|(^A4B2)|F2f2F2::^A6|B6|^A6|
+%
+V:1
+(df).e.d.c.B|g2g2g2|f2(^a2b2)|(fe)d2c2|(c4B2):|
+V:2
+B6|(EDEFG^A)|(Bd)(ce)(df)|(EG)(FB)(F^A)|(^A4B2):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155038
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle08/devienne-nouvelle08.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle08/devienne-nouvelle08.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

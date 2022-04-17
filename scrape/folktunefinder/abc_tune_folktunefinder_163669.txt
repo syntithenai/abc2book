@@ -1,0 +1,26 @@
+X: 1
+T:The Hay (The Irish Hay)
+M:C
+L:1/8
+S:Dallis Lute Book Trinity coll., Dublin MS410 (1583)
+B:Sources of Irish traditional music, ed. A. Fleischmann,1998
+N:bars 11 & 12 repeated in M
+Z:p
+K:C
+GFEC|DFEC|GFED|DB,CG,|CDEC|FGEC|EFEC|CDEC|DE/F/ED/C/|GB,CG,|
+A,B,CD|DB,CG,|
+G2 EC|DFEC|
+G2 EC|DB,CE|DFEC|DB,CE|DFEC|G,C, C2||
+% Output from ABC2Win  Version 2.1 f on 11/07/2002
+S:https://www.folktunefinder.com/tunes/163669
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/irishhay.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/irishhay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

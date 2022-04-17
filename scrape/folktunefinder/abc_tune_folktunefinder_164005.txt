@@ -1,0 +1,55 @@
+X:1
+T:Heuhupfer Polka
+C:traditionell
+R:polka
+A:Oberbozen/Ritten, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: fuenf teile ganz in C erster ton g'
+N:im buch s. 293, nr. 178
+N:im buch einstimmig
+S:tonband-aufnahme Q-1221(44) 42/B08, vom 20.05.1941
+S:ausfuehrende: Josef Kofler (43) vulgo Goellner und Josef Gruber, Wangen
+S:besetzung: geige und gitarre
+%%endtext
+Z:noten-transcription: Franz Kofler
+Z:abc transcription: Simon Wascher
+Q:1/4=110 %im buch
+M:2/4
+L:1/16
+K:C
+V:1
+P:A
+G3 |\
+c2Gc e2ce | g2eg c'2g2 | g2ag eceg | ageg e2G2 |\
+c2Gc e2ce | g2eg c'2g2 | g2ag fdBd | c2ccc2 :|
+P:B
+g2 |\
+g2ag ^fgab | c'2ba g4 | gbba gfed | c2Gg ceeg |\
+g2ag ^fgab | c'2ba g4 | gbba gfed | c2ccc2"folgt teil A dann teil C" :|
+P:C
+g2 |\
+ageg e2e2 | agfg f2f2 | a4 g2ge | c'4 g2ge |\
+ageg e2e2 | agfe f2f2 | b4 a2g2 | c'2c'2c'2 :|
+P:D
+g2 |\
+g2ag e2c2 | cdcd G2G2 | g2ag fdBd | c2eg c2g2 |\
+g2ag e2c2 | cdcd G2G2 | g2ag fdBd | c2c2c2 :|
+P:E
+gg |\
+g2eg a2eg | g2fg d2d2 | g2fg a2gg | a2g2e2gg |\
+g2eg a2eg | g2fg d2d2 | g2fg a2g2 | c2ccc2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164005
+S:http://simonwascher.info/TradArchiv_polka/heuhupfer_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

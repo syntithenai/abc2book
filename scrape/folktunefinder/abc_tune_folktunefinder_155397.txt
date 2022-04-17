@@ -1,0 +1,22 @@
+X:6
+T:Peter Byrne's
+T:Peter Byrne's Fancy
+T:Peter O'Byrne's Fancy
+T:Peter O'Byrnes's Fancy
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+D3 AFD | c2 A BAG | A3  AFD | c2 A BGE |
+EDD AFD | cAA BAG | A3 cde |1 dcA AGE  :|2 dcA AGA ||
+|: d2 A cde | dcA AGE | c2 A cde | dcA AGE |
+EDD cde | dcA AGE | c2 d  fed | c2 A BGE :|
+S:https://www.folktunefinder.com/tunes/155397
+S:http://www.slainte.ch/abc/Moving.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

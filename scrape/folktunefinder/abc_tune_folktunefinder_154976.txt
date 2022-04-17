@@ -1,0 +1,28 @@
+X: 1
+T:Dungarthill
+R:March
+C:Trad., arr. Hamish Moore
+S:Hamish Moore's School of Piping
+Z:Transcribed by A. Upton
+M:2/4
+L:1/16
+K:D
+AB|c2BA d3f|efec B2AB|cAeA fedc|c2B2 B2AB|!
+c2BA a3f|efec B2AB|cBAa faea|c2A2 A2:|!
+|:ef|a2ef c2BA|efec B2ef|a2ef c2BA|c2B2 B2ef|!
+a2ef c2BA|efec B2AB|cBAa faea|c2A2 A2:|!
+|:AB|cAeA aAeA|cAae dcBA|cAeA aAeA|c2B2 B2AB|!
+cAeA aAeA|cAae dcBA|cBAa faea|c2A2 A2:|!
+|:ef|aece Aece|fece Aece|aece Aece|c2B2 B2ef|!
+aece Aece|fece Aece|faea caBa|c2A2 A2:|!
+S:https://www.folktunefinder.com/tunes/154976
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dungarthill_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dungarthill_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

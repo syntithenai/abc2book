@@ -1,0 +1,28 @@
+X: 1
+T: Fisherman's Horizon Concert
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: {G}A2F DFA | BGB {a}dcB | {G}A2F DFA | EFE EAG |
+{E}F2D DFA | BGB {c}dcB |[1 AFD EFE | D2D dcB :|
+[2 GAc efe | d2{a}d d2e |: f2d {a}d2f | g2e {a}e2g |
+f2d {a}def | e2c A>z g | f2d {a}d2f | g2e {a}e2g |
+f (3e{f}e d {d}edc |[1 d> dd {c}d2e :|[2 d2z dcB |
+K: Amaj
+|: AcB A2A | FED Ez2 | EGB dcB | {e}f2e c2B |
+AcB A2A | FED Ez2 | EGB dcB |[1 A> {G}AA A2E :|[2 A> {G}AA A2c |
+|: {d}e2c ABc | {a}dBd {a}dBd | {B}c2A ABc | {A}B2G EGB |
+[1 {d}e2c ABc | {a}dBd {a}fdf | {d}ecA {F}GFG | A> {G}AA A2c :|
+[2 {E}FAG AEA | {A}Bdc dBd | {B}cBA {F}GFG | A> {G}AA A2z |
+S:https://www.folktunefinder.com/tunes/158053
+S:http://www.thesession.org/tunes/display/5113
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

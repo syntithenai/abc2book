@@ -1,0 +1,25 @@
+X:338
+%%topmargin 3cm
+U:~=!turn!
+T:Double Kisses
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+e | {/B}c2 (GF) {/B}c2 (de) | {/B}c2 GF dDDe | {/B}c2 (GF) {/B}cdec | fagf {gf}ec c :|
+(e/f/) | (gc)ge | gcc(e/f/) | (gc)Tge add(e/f/) | (gc)Tge afge | (fa)gf ecc(e/f/)
+(gc)Tge gcc(e/f/) | gcTge add(f/g/) | {/g}(af){/f}ge fd ec | AaTgf {gf}ec c |]
+S:https://www.folktunefinder.com/tunes/154040
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Double_Kisses.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0338.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

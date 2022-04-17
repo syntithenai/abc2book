@@ -1,0 +1,32 @@
+X:920
+T:One Such
+T:Tune
+C:Robin Jowett, Whapweasel
+C:Transcription used with permission
+M:3/4
+L:1/8
+K:Dmix
+P:A
+AB|"C5"c2 cB AB|c2 cB AB|"G5"B2 BA GB|"D5"A4 DE|\
+F2 F2 G2|A2 AG FA|"C5"G2 GF E2|"D5"D4:|
+P:B
+|:DE|"D5"F2 F2 G2|A2 A2 B2|c2 cd e2|f4 DE|\
+F2 F2 G2|A2 AG FA|"C5"G2 GF E2|"D5"D4:|
+T:Harmony
+P:A
+z2|"C5"z2 [Ac][Ac] [Ac]z|z2 [Ac][Ac] [Ac]z|\
+"G5"z2 [GB][GB] [GB]z|"D5"[F4A4] [E2G2]|\
+z2 [DF][DF] [DF]z|z2 [DF][DF] [DF]z|\
+"C5"[C2E2] [B,2D2] [A,2C2]|"D5"[A,4D4]:|
+P:B
+|:z2|"D5"z2 [A,D][G,C] [A,D][CE]|[D2F2] [E2G2] [F2A2]|\
+[E2G2] [F2A2] [G2B2]|[A4d4] [c2e2]|\
+z2 [df][df] [df]z|z2 [df][df] [df]z|\
+"C5"[c2e2] [B2d2] [A2c2]|"D5"[A4d4]:|
+S:https://www.folktunefinder.com/tunes/163382
+S:http://users.rcn.com/ladysmyth/tunes/OneSuch.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

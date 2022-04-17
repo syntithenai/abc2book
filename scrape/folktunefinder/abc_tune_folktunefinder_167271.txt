@@ -1,0 +1,26 @@
+X: 100407
+T: James Gannon's Barn Dance
+T: Merry Priest
+M: 4/4
+L: 1/8
+R: hornpipe
+Z: B.Black
+K: G
+GA |: B2 AB e2 dB | d2 cA E3 G | AGAB cAFA |\
+GABG D2 B,2 |
+B2 AB e2 dB | d2 cA E3 G | AGAB cAFA |1\
+G2 GF G2 :|2 G2 g2 g2 f2 ||
+edef gfga | b2 d2 d3 B | cBcd edef |\
+g2 B2 B2 gf | 
+edef gfga | b2 d2 d3 B | cBAB cAFA |1\
+G2 g2 g2 f2 :|2 G2 GF G2 ||
+S:https://www.folktunefinder.com/tunes/167271
+S:http://www.qmcorp.net/webabc/j/100407.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

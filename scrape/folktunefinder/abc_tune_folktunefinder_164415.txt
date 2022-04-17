@@ -1,0 +1,23 @@
+X:10
+T:Var det, var det du
+R:vals
+A:H\"alsingland
+Z:id:hn-vals-10
+M:3/4
+L:1/8
+K:Am
+A3^G AB | c3 BA^G | A2 B2 ^GB | A4 c2 | e3^d e^f | g3 ^fe^d | e2 ^f2 ^df | e6 :|
+|: c3 dcB | c2 e2 g^f | d3 ed^c | d2 ^f2 ag | e3 dcB | c3 BA^G | A2 B2 ^GB | A6:|
+S:https://www.folktunefinder.com/tunes/164415
+S:http://www.norbeck.nu/abc/s/hnvals0.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X:1
+T:Gomori Friss Csa'rda's
+O:Paloc Hungary
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:A5(BC)2
+M:2/2
+L:1/4
+K:F
+P:A
+Q:1/2=120
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 50
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+|:"D"a/2<a/2-a a d'|"F"c'2 d'2 |"G"{d'}g d g2 |{d}=b/2<a/2-a g2 :|
+"C"c'bad' |"F"g2 f2 |"Dm"{f}fed2 |"A"{d}g/2>g/2-g a2 |
+"Dm"d/2>d/2-daa |"A"g2f2 |"Dm"{f}fed2 |"Dm"{e}d/2<e/2-"A"e "Dm"d2|
+P:B
+Q:1/4=208
+M:4/4
+L:1/8
+K:D
+"A"[Ae][Be][ce][de] [ce][Be][ce][Ae] | [Ae][Ae][Ae][Ae] [A3e3] [fe] |\
+ "Em"g~fed "A"cBcA | "D"e[Ae][Be][ce] [d3D3]f|
+|:"Em"gfed "A"cBcA | "A" [Ae][Ae][Ae][Ae] [A3e3] f|\
+ "Em"g~fed "A"cBcA |[1 "D"e[Ae][Be][ce] [d3D3]f :|[2 "D"e[Ae][Be][ce] [d3D3]e||
+P:C
+"A".[eA] A (c/2B/2A) .[eA] A (c/2B/2A) | .[eA] A (c/2B/2A) [e2B2] [e2A2] |\
+"E".[eA] A (c/2B/2A) .[eA] A (c/2B/2A) | .[eA] A (c/2B/2A) [e2B2] "A"[e2A2] |
+K:G
+|:"G"G2 B2 "C"c3 e |"G" a/2g/2f/2g/2 a/2g/2f/2g/2 "C"a2 a2 |\
+  "G"b2 d'2 "C"c'3d'/2e'/2 |"E7"d'/2c'/2b/2c'/2 b/2a/2^g/2b/2 "Am"a2 a2 :|
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/161723
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/GomoriFrissCsardas.abc
+S:http://people.csail.mit.edu/jaffer/Music/GomoriFrissCsardas.abc
+S:http://voluntocracy.org/Music/GomoriFrissCsardas.abc
+S:http://www.voluntocracy.org/Music/GomoriFrissCsardas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Key D
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

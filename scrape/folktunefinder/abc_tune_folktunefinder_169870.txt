@@ -1,0 +1,37 @@
+X: 1
+T: Killavil Postman, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: F>G | 
+A2 d2 d>ed>B | A>BA>F E>DE>F | D2 D2- D2 E2 | F6 (3EFG | 
+A2 d2 d3 B | A>BA>F E>DE>F | e2 e2- e2 f2 | B6 A>G |
+A2 d2 d>ed>B | A>BA>F E>DE>F | D2 D2- D2 E2 | F6 A2 |
+B2 B2 G>F E2 | A2 A2 F>ED>B, | A,2 D2- D2 E2 | D6 :|
+|: d>e | 
+f2 f2 d>c B2 | f2 f2 d>c B2 | f2 f2- f2 g2 | f6 d2 | 
+e2 e2 c>B A2 | e2 e2 c>BA>c | e2 e2- e2 f2 | B6 d>e |
+f2 f2 d>c (3Bcd | f2 f2 d>c B2 | f2 f2- f2 g2 | f6 d2 |
+f>d f2  e>c e2 | d>B d2 c4 | c>de>d c>de>d | c2 (3BcB A2 :|
+K: Gmaj
+Bc | 
+d2 g2- g2 e2 | dedc BAGE | D2 G2 G2 A2 | B4 B3 c |
+d2 g2 g2 e2 | dedc BA G/F/E | D2 a2- a2 b2 | a4 a4 |
+g2 b2 g3 e | dedc BAGE | D2 G2- G2 A2 | B4 B2 d2 |
+e2 e2 cB A2 | d2 d2 BAGE | D2 G2 G2 A2 | G6 a2 ||
+b2 b2 gf e2 | b2 b2 gf e2 | b2 b2- b2 c'2 | b4 g4 |
+a2 a2 fe d2 | a2 a2 fed/e/f | a2 a2- a2 b2 | f4- f4 |
+b2 b2 gfeg | b2 b2 gf e2 | b2 b2- b2 c'2 | b4 g4 |
+.b2 .b2 .a2 .a2 | .g2 .g2 f4 | f2 ag fgag | f/g/f e2 d2 ||
+S:https://www.folktunefinder.com/tunes/169870
+S:http://www.thesession.org/tunes/display/7317
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,83 @@
+X:1
+T:Sonate VI
+T:Finale
+C:F. Mendelssohn
+%%scale 0.58
+%%titlespace 0.0cm
+%%composerspace 0.0cm
+%%musicspace 0.0cm
+M:6/8
+L:1/8
+Q:"Andante" 1/8=100
+%%staves [(1 2) (3 4) 5]
+K:D
+V:1
+F-|FGE DFB|A2G FEA|d2c B2A-|AG>F E2E|FEG FED|FBd cBA-|
+V:2
+D-|DC2D3-|D2E DC2|DEF G2F-|FE>D C2C|DED C2B,|C^EB ^GEF-|
+V:3
+A,-|A,3x3|x6|x6|x6||x6|x6|
+V:4
+F,-|F,E,G, [F,D]C[G,B,]|[A,D]B,2 A,2G,|F,G,A, B,CD-|DA,2- A,2A,-|A,^A,B, CA,F,-|F,DF C3|
+V:5
+D,|A,,3 B,,A,,G,,|F,,G,,E,, A,,3-|A,,6|B,,C,D, A,,2A,,|D,C,B,, ^A,,F,,B,,|=A,,^G,,F,, ^E,,C,F,,|
+%2
+V:1
+A^GB F^EF|A^G>F F3-|F=GE DFB|A2G FEA|d2c B2A-|AG>F E2E|
+V:2
+F2B, D2C-|C3 C zD-|DC2 D3-|D2E DC2|DEF G2F-|FE>D C2C|
+V:3
+x6|x3x2A,-|A,3 DCB,|D2x x3|x6|x6|
+V:4
+D3 A,^G,A,|F,^E,B, A, xF,-|F,E,G, F,2G,|A,B,2 A,2G,|F,G,A, B,CD-|DA,2- A,2A,|
+V:5
+B,,3- B,,2A,,|C,3 F,, zD,|A,,3 B,,A,,G,,|F,,G,,E,, A,,3-|A,,6|B,,C,D, A,,2A,,|
+V:1
+FAd cBA|cfa ^gfe-|e^df c^Bc|e^d>c c3-|c[B=d][Ac] [^G2B2][Ac]|dfe [Bd][Ac][Ac]-|
+V:2
+DFB ^G2F|^GAF- F^DC-|C2F E^D^G-|G3- G z[EA-e-]|[F3-A2e] FE2|^GAB E2F|
+V:3
+x6|x6|x6|x6|x6|DCB,- B,Cx|
+V:4
+A,DF ^E2C-|C^B,C ^DB,C|A,3-A,2^G,|C^B,F Ezz|z2D- D2C|B,A,^G,- G,A, C|
+V:5
+D,C,B,, C,^E,F,|=E,^D,C, ^B,,^G,C,|F,3- F,2E,|^G,3 C, zC,|=D,3 E,3-|E,3 A,,2A,,|
+V:1
+[Ac]BA ^G3|AB^B [^E2c2]F-|F=GE DFB|A2G FEA|d2c B2A|^GAB cde|
+V:2
+F^GF- F^E2|F^E[^DF] C2C-|C3D3-|D2E DC2|DEF G2F|EF^G A2=G|
+V:3
+x6|x3 x2A,-|A,3 DCB,|x6|x6|x6|
+V:4
+D3- DC2-|CB,A, ^G,2F,-|F,=E,=G, F,2G,|[A,D]B,2 A,2G,|F,G,A, B,CD|E2D CB,C|
+V:5
+B,,3-B,,C,B,,|A,,^G,,F,, C,2z|A,,3 B,,A,,G,,|F,,G,,E,, A,,3-|A,,6-|A,,3- A,,2A,,|
+V:1
+f2e dcB|ABG FBd|g3-gec|a3-agf|edc dFB|AGE D2F-|
+V:2
+FGA BAG|FGE D2z|zzD- DCE-|EDC D3-|DE2 D3-|D2C D2D-|
+V:3
+x6|x6|x6|x6|x6|x6|
+V:4
+D2C B,CD-|D2C D2F-|FE2- E zG,|F,3- F,G,A,|B,2A,- A,z G,|F,E,G, F,A,=C|
+V:5
+D,E,F, G,3|A,3 B,3|zzE, A,3|zzF, B,2A,|G,3 F,B,G,|A,3D,3-|
+V:1
+FGE DFA-|ADG FA=c|B2^c dAG|F3- FDB,|A,DF- [D2F2][CE]|HD6|]
+V:2
+D2^C DA,=C|B,2^C D3-|D2E D3-|D3 z2z|A,3-A,3-|A,6|]
+V:3
+x6|x6|x6|x6|xF,2- F,2G,|x6|]
+V:4
+B,E,G, F,z F,-|F,G,E, D,F,A,-|A,G,2 A,F,G,|A,,D,F, A,zz|zF,D,- D,2E,|F,6|]
+V:5
+D,6-|D,3- D,z F,-|F,G,E, F,D,B,,|A,,3 z2z|z2z A,,3|D,,6|]
+S:https://www.folktunefinder.com/tunes/157795
+S:http://moinejf.free.fr/abc/mendels-sonateVI.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: Donald McLean Of Lewis
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+A>BG A3 | e>dg e>dB | A>BA G2 B | (d2e) e>d B |
+A>BG A3 | e>dg e>dB | G>Bg e>dB |[1 ({B}A3) A3 :|2 ({B}A3) A2 ||
+|: g | a>ee (e2g) | a>ee e>dB | A>BA G2 B | (d2e) e>dB |
+[1 a>ee (e2g) | a>ee e>dB | G>Bg e>dB | ({B}A3) A2 :|
+[2 A>BG A3 | e>dg e>dB | G>Bg e>dB | ({B}A3) A2 e ||
+|: A>ee d>ee | A>ee e>dB | A>BA G2 B | (d2e) e>dB |
+A>ee d>ee | A>ee e>dB | G>Bg e>dB |[1 ({B}A3) A2 e :|[2 ({B}A3) A2 G ||
+|: A>aa a>ga | g>ee e>dB | A>BA G2 B | (d2e) e>dB |
+[1 A>aa a>ga | g>ee e>dB | G>Bg e>dB | ({B}A3) A2 G :|
+[2 A>BG A3 | e>dg e>dB | G>Bg e>dB | ({B}A3) A3 ||
+S:https://www.folktunefinder.com/tunes/153807
+S:http://www.thesession.org/tunes/display/7353
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

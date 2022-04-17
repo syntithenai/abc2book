@@ -1,0 +1,19 @@
+X: 1
+T: Gan Ainm
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+|:ADD ~D3|ADD ABc|ADD DED|cDD BDD|
+ADD (4DDDD|ADD ABc|dDD cDD|AGF D2D:|
+|:cDD BDD|AGE DED|cDD BDD|AGE ~D3|
+cDD BDD|AGE ABc|dDD cDD|AGE (4DDDD:|
+S:https://www.folktunefinder.com/tunes/160224
+S:http://www.thesession.org/tunes/display/3436
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

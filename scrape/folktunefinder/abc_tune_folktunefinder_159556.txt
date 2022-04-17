@@ -1,0 +1,65 @@
+X:2720
+T:Fuga
+C:Johann Christoph Friedrich Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com abcusers 2001-8-31
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:C|
+L:1/4
+Q:1/4=134
+K:C
+V:1
+z4|z4|z4|z4|z4|
+V:2
+z4|z4|z4|^F2G2|C2=F2-|
+V:3
+B,2C2|F,2_B,2-|_B,A,C=B,|A,C_B,2-|_B,A,C=B,|
+V:4
+z4|z4|z4|z4|z4|
+%
+V:1
+z4|B2c2|F2_B2-|_BAc=B|cd_B2-|
+V:2
+FEG^F|G^FE2|_EDF=E|F2ED|D2EF|
+V:3
+C2A,2|G,2C_B,|A,2G,2|F,2G,2|A,2_B,2|
+V:4
+z4|z4|z4|z4|^F,2G,2|
+%
+V:1
+_BcA2|=Bc2c|cBd^c|d4-|d2c2-|
+V:2
+E2F2|G3A|G4-|GAGF|GFAG|
+V:3
+C2CD-|DCE_E|=EDFE|FB,=CD|EDFE|
+V:4
+C,2F,2-|F,E,G,^F,|G,4-|G,4-|G,4-|
+%
+V:1
+c2B2|c2F2|_B4|A4|c2=B2|Hc4|]
+V:2
+FEGF|E2F2-|FDFE|FEG^F|=FEGF|HG4|]
+V:3
+DCED|C_B,A,2|G,2C2-|C2D2|DCED|HE4|]
+V:4
+G,4|C,4|C,4-|C,4-|C,4-|HC,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159556
+S:http://trillian.mit.edu/~jc/music/abc/classical/Bach_J_S/Fuga_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Fuga_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/classical/Bach_J_S/Fuga_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/abcusers/Fuga_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

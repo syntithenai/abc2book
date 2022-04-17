@@ -1,0 +1,27 @@
+X:1
+T:Flogging Reel, The
+R:reel
+H:Originates from a Scottish reel called &quot;The Flagon Reel&quot;
+D:Chieftains: Live. Oisin: Over the Moor to Maggie.
+D:Mary Bergin: Feadoga Stain 2.
+Z:id:hn-reel-1
+M:4/4
+L:1/8
+K:G
+BG~G2 BGdG|BG~G2 Bdgd|BG~G2 BdcB|AGFG ABcA:|
+~g3d BGBd|~g3e faaf|g2gd BGBd|AGFG ABcA|
+~g3d BGBd|~g3e fa~a2|bgaf gedB|AGFG ABcA|]
+Bdgd Bdgd|Bdgd BG~G2|Adfd Adfd|Adfd BG~G2|
+Bdgd Bdgd|Bdef ~g3a|bgaf gedB|AGFG ABcA|]
+S:https://www.folktunefinder.com/tunes/158442
+S:http://www.tomkeays.com/music/wiki/irish/reels/flogging_reel?rev=1156292193
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

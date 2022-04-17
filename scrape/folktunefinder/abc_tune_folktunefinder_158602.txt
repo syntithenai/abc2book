@@ -1,0 +1,31 @@
+X:538
+T:The Flowers of the Forest
+M:C
+L:1/8
+Q:90
+B:O'Neill's 538
+N:"Slow with expression Irish Version" "collected by J. O'Neill"
+Z:Transcribed by Dave Wooldridge
+K:D
+A2 F>B ABd(e/2f/2) | gfed B(d/2c/2 B/2A/2G/2F/2) \
+| (EF)A>B ABd (3e/2f/2g/2 | f2 {g}e>d d2 z :| f | a>(g f/2e/2d/2c/2) d2 dB |
+| (Afe>d) B(d/2c/2  B/2A/2G/2F/2) \
+|1 a>(g f/2e/2d/2c/2) d2 dB | Afe>d d2 z \
+:|2 (3EFA A>B (ABd) (3e/2f/2g/2 | f2 {f}e>d d2 z ||
+e \
+| (fg)(ab) (af)(ed) | gfed B(d/2c/2 B/2A/2G/2F/2) \
+| (fgab) (af)(ed) | (B/2g/2f/2e/2) Bc d2 z e |
+| (fgab) (af)(ed) | (gfed) B(d/2c/2 B/2A/2G/2F/2) \
+| (3EFA A>B (ABd) (3e/2f/2g/2 | f2 {g}e>d d2 z |]
+S:https://www.folktunefinder.com/tunes/158602
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0538_dw.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/0538_dw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

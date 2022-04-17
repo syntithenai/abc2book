@@ -1,0 +1,38 @@
+X:1
+T:Gathering Peascods
+M:C|
+C:Trad.
+S:Playford
+N:DM I: 1651-1690
+A:
+O:English
+R:Reel
+%P:(ABC)$^3$
+P:(ABC)3
+%:NoTeX
+%:NoWWW
+K:A
+Q:1/2=116
+P:A
+|:\
+   z2 | e4    e2 e2 | c3 d e2 e2 | f2 e2 d2 c2 | B6 c2 | B2 A2 A2 G2 | A6 :|\
+P:B
+|:\
+   A2 | G2 E2 G2 A2 | B4   c2 B2 | AB c2 B2 A2 | G6 G2 | F2 E2 F3 E  | E6 :|\
+P:C
+|:\
+   e2 | c2 A2 A2 Bc | d6      d2 | c2 A2 A2 Bc | d6 e2 |\
+c2 A2 A2 Bc | d3 e f2 ed | c2 dc B3 A  | A6    :|
+S:https://www.folktunefinder.com/tunes/160601
+S:http://www.ucolick.org/~sla/morris/music/Playford/peascods.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

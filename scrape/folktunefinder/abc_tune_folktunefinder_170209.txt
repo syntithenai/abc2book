@@ -1,0 +1,28 @@
+X:0077
+T:"Kitty O'Neill"     (air)    0077
+C:Unattributed
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N:Transposed from Bb
+Q:1/4=90
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_vb"g|(g3f) (e3b)|(afed) (d2ef)|(g3a) (b2ag)|(fagf) (.e2z.g|
+(g3f) (e3b)|(afed) (d2ef)|g2b2(ag)(fg)|e6z||
+d|d2B2d2(ef)|(gfg).a .g(fed)|e2a2a2(ga)|(bagf) (e3d)|
+d2B2d2(ef)|(gf)(ga) (b3a)|(g2fe) (ba)(gf)|e6z|]
+S:https://www.folktunefinder.com/tunes/170209
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/77-KittyONeill.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/77-KittyONeill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

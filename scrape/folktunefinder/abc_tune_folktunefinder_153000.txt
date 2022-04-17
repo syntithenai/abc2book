@@ -1,0 +1,28 @@
+X:47
+T: Die Brombeerpflueckerin
+N: Q1147N
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0147M, anderes Lied.
+N: Vierte und siebte Zeile refrainartig.
+R: 
+M: 4/4
+L: 1/8
+K: G
+D2 | G2G2GFE2 | D2F2A2
+c2 | B2B2A4 | G4z2
+GA | B2B2B2B2 | A2d2c4
+A4A4 | B2c2d2
+c2 | B2B2A4 | G4z2
+GA | B2B2B2B2 | A2d2c4
+A4A4 | B2c2d2
+c2 | B2B2A4 | G4z2
+S:https://www.folktunefinder.com/tunes/153000
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X:1
+T:I'm My Own Granpa
+M:4/4
+L:1/4
+K:C
+ G,| C B, C D| E E D C| B, A, B, C| D2 G, G,| D D D E| F F E D| C B, C D|\
+ E3 E| E E E F| G G F E| F F F G| A3 G| F F F F| F G F E| D D E ^E|\
+ G3 G| E3 F| E2 D2| C4| z4| A3 _B| A2 ^F2| G4| z2 G A| c G A _B-| B2 z/2 G/2 A|\
+ A F G A-| A2 z D| E3 F| E2 D2| C4| z3||
+S:https://www.folktunefinder.com/tunes/166224
+S:http://back.numachi.com:8000/dtrad/abc/OWNGRNPA.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/OWNGRNPA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T:Follow the Drum
+M:6/8
+C:
+S:Chingford MM
+N:
+A:Chingford
+O:English
+R:Jig
+%P:A.(AB)$^5$
+P:A.(AB)5
+L:1/8
+K:G
+I:speed 300
+P:A
+D|G2 G G2 A|B2 G Bcd|GAG  G2 B|A2 B A3|\
+G2 G G2 A|B2 G Bcd|ged  edc|B2 A G2||\
+P:B
+z|:ABA  A2 B|c2 d e2 f|1 g2 d g2 d|cBA  d3:|2 ged edc|B2 A G2||
+S:https://www.folktunefinder.com/tunes/158882
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fo/Follow_the_Drum_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fo/Follow_the_Drum_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

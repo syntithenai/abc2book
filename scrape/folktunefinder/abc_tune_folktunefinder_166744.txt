@@ -1,0 +1,27 @@
+X:1
+T:Iste Kornbodsmarsch
+C:Peter "Puma" Hedlund
+Z:Bart Brashers, bart.brashers@nyckelharpa.org, following a hand-written version by Peter.
+Z:Chords added by John Chambers jc@ecf-guest.mit.edu
+D:V\"agen
+M:2/4
+L:1/16
+%Q:1/4=100
+F:http://www.nyckelharpa.org/music/istekorn.abc 2004-03-20 17:35:34 UT
+K:G
+  D2| "G"B2AB "D7"c2Bc | "G"d2cd "C"e2g2|"D7"f2df  "C"e2ce | "G"d4- "D7"d2c2 \
+    | "G"B2GB "D7"A2FA | "G"G2DG "C"E3D | "C"C2EG "D7"D2FA | "G"G6      :|
+|:G2|"D7"F2DF     A2Ac | "G"B2GB    d2d2|"A7"e2^ce    g2ba |"D7"f4-     fedc \
+    | "G"B2GB "D7"A2FA | "G"G2DG "C"E3D | "C"C2EG "D7"D2FA | "G"G6      :|
+S:https://www.folktunefinder.com/tunes/166744
+S:http://www.nyckelharpa.org/music/istekorn.abc
+S:http://www.nyckelharpa.org/music/istekorn.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/IsteKornbodsMarsch.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

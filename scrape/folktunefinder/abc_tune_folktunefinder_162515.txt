@@ -1,0 +1,23 @@
+X:14
+T:GREEN SLEEVES -- JIG.
+R:jig
+B:Coles pg. 75.6
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/17/02
+M:6/8
+L:1/8
+K:C
+(vA/B/|c2.c) cd"4"e | dBG GAB | cAA ABc | BGE E2 (A/B/ |
+ c2.c) cd"4"e | dBG GAB | cBA GE^G | "4"A3 A,2 :|
+(e/f/ | g)ag gfe | dBG GBd | aba aba | gee e2(e/f/ |
+g)ag gfe | dBG GAB | cBA GE^G | A3 A,2 :|
+S:https://www.folktunefinder.com/tunes/162515
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/walsh:math.ubc.ca/GreenSleevesJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/GreenSleevesJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

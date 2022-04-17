@@ -1,0 +1,35 @@
+X:10752
+T:Kemp's jig
+C:anon.
+O:England
+N:Slightly simplified version
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/kemps-jig-f/kemps-jig-f-1.abc
+%Posted March 1st 2002 at abcusers by Frank Nordberg to illustrate
+%the use of the term "jig" as a generic term for a lively dance tune.
+M:C|
+L:1/4
+K:F
+"F"a>g a"C"g|"Dm"f>g f"C"e|"Bb"d"F"c "Bb"d"C"e|"F"f3z:|
+|:"F"ac' ac'|"F"ac'/b/ a2|"Eb"gb gb|"Eb"gf/_e/ "Bb"d"C"=e|
+"F"fcAc fcAc|"Bb"d"F"c "Bb"d"C"e|"F"f3z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/169491
+S:http://abc.musicaviva.com/tunes/england/kemps-jig-f/kemps-jig-f-1.abc
+S:http://abc.musicaviva.com/tunes/england/kemps-jig-f/kemps-jig-f-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/kemps-jig-f/kemps-jig-f-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/england/kemps-jig-f/kemps-jig-f-1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

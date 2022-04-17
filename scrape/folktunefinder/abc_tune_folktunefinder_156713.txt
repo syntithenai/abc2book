@@ -1,0 +1,30 @@
+X:0252
+T: "The Fairy Cobbler "       (air)       0252
+C:after Chief  F. O'Neill
+C:with SPIRIT
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N:Transposed  from  Bb
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=130
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+"_vb"(f/2e/2)|d2B c2A|B2A F2G|A2G A2B|A3f2e|
+dcB cB^A|B2A FGE|F^G^A B2B|B3-B2||
+F|B2B d2e|f2e a2f|e2c A2c|e3-e2c|
+B2B d2e|f2b b2b|{^g}a2f d2e|f3-f2e|
+d2B cB^A|B2A FGE|F^G^A B2B|B3-B2|]
+S:https://www.folktunefinder.com/tunes/156713
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0252-FairyCobbler.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0252-FairyCobbler.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0252-FairyCobbler.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:Fluffy Jig
+C:copyright 2001 Kaubells
+E:12                   % note spacing
+M:6/8
+K:G
+[|"G"f2g .dzB|"C"cde "G"dzf|.gze ddB|"D7"c2A "G"G2z|
+"G"f2g .dzB|"C"cde "G"dzf|.gze ddB|"D7"c2A "G"G2z|
+"G"Bcd gzB|"C"cde azg|"D7"f2d b2a|"G"g2e d2z|
+"G"Bcd gzB|"C"cde azg|"D7"f2d b2a|g3 zg=f||
+|:"C"e2e "Am"efg|"D7"a^ga f=ga|"Em"g2e "Eb"g2z|"G"bge "G7"de=f|
+"C"e2e "Am"efg|"D7"a^ga f=ga|"Em"g2e "Bb"d2c|1"G"B3 zg=f:|2"G"B3 z3|]
+\bigskip
+T: From a doggie calendar:
+T: Fluffy, YES, we hear that a lot.
+T: We ARE quite fluffy and you are not.
+S:https://www.folktunefinder.com/tunes/158755
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/fluffy.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

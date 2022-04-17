@@ -1,0 +1,30 @@
+X:1
+T:Electric -- Hornpipe
+R:hornpipe
+C:G.L. Tracy
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+uE2|Acec dfaf|e"1"a"3"c'"1"a "0"ecAE|\
+FAdf ecAc|Bdgf edcB|
+Acec dfaf|eac'a ecAE|\
+FAdf edBG|A2c2A2:|
+K:E
+|:vBA|GB"4"eB cedc|Bege BGEG|\
+FABd fagf|dfec B2(BA)|
+GB"4"eB c"4"edc|Bege BGEG|\
+AcBc c"4"edf|e2g2e2:|
+S:https://www.folktunefinder.com/tunes/155916
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/ElectricHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/ElectricHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/bpuckette%3Amsn.com/ElectricHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/ElectricHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

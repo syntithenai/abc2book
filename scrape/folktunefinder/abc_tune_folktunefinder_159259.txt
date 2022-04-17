@@ -1,0 +1,26 @@
+X:1
+T:Frans Olssons Kadrilj
+C:Trad
+R:Kadrilj
+Z:Patrik Mnsson, 2008-10-30
+O:Skne
+B:Omtyckta Sknska allspelsltar
+M:2/4
+L:1/16
+K:D
+ag |: f2a2 d2f2 | edef g2ed | c2e2 Ace2 | defg a2ag | f2a2 d2f2 |edef g2ed | c2e2 cABc |[1 d4 z2 ag :|[2 d4 z2 A2 ]|
+|: d2dd E2F2 | D2d2 def2 | g2cd e2d2 | f2de f2d2 | d2dd F2E2 | D2d2 def2 | g2cd e2c2 |[1 d4 z2 A2 :|[2 d4 z2 a2]|
+|: d'2de f2g2 | a2d2 f4 | (3e2g2e2 (3c2e2c2 | dfAd f2a2 | d'2de f2g2 | a2d2 f4 | e2ge cec2 |[1 d4 z2 a2:|[2 d4 z2 f2 ]|
+|: g3e c2a2 | d2f2 a4 | (3g2e2c2 (3A2c2b2| (3a2f2d2 (3A2d2f2 | g3e c2A2 | d2f2 a4 | g2ec Ace2 |[1 d4 z2 f2 :|[2 d4 z4]|
+S:https://www.folktunefinder.com/tunes/159259
+S:http://www.folkwiki.se/pub/cache/Frans_Olssons_Kadrilj_112ac1.latin.abc
+S:http://www.folkwiki.se/pub/cache/Frans_Olssons_Kadrilj_112ac1.abc
+S:http://www.folkwiki.se/pub/cache/Frans_Olssons_Kadrilj_112ac1.abcm.abc
+% Rhythm Kadrilj
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

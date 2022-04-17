@@ -1,0 +1,21 @@
+X: 1
+T:Konyali
+O:Turkey
+M:2/4
+L:1/8
+Q:1/4=108
+K:Dm
+"Dm"D2 .F.A| D2 .F.A| D2 .F.A| D2 .F.A|
+"Gm"G A/A/ "Dm"A A| "Gm"G A/A/ "Dm"A A| "Gm"G A/A/ "Dm"A A| "Gm"G A/A/ "Dm"A A|
+"F"A/c/B/A/ "Gm"Gz| "F"A/c/B/A/ "Gm"Gz| "Dm"A>B "F"cd|"F"c B "Dm"A G
+|:"F"c>B "Dm"AG|"Gm"G2 "Dm"FE|"Dm"FG AA|"Gm"G2 G2:|
+|:"F"c>B "Dm"AG|"Gm"G2 "Dm"FE|"Dm"FG AA|"Gm"G2 G2:|
+S:https://www.folktunefinder.com/tunes/170483
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ko/Konyali_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:1
+T:Der Gmischte
+C:traditionell
+R:volkstanz
+A:suedliches Niederoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Oesterreichische Volkstaenze - Dritter Teil, Raimund Zoder, Oesterreichischer Bundesverlag, Wien, 1955
+S:
+N:im buch zweistimmig
+N:im buch s. 22
+N:im buch ganz in C erster ton G''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+V:1
+G2 |\
+cz c3 d | e3 c G2 | Ez A3 E | G4 F2 |\
+dz d3 e | f3 d B2 | G2 A2 B2 | c4 :|
+M:2/4
+|: G2 |\
+c>c cd | ec G2 | EE AE | G2 F2 |\
+dd de | fd B2 | GG AB | c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152951
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/gmischte_noe._zoder.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

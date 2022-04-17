@@ -1,0 +1,26 @@
+X: 040655
+T: Duet
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1 
+Z: B.Black
+R: hornpipe
+K: F
+AB|(3c=Bc dc Acfe|(3d^cd ed Bdgf|efga bc (3def|\
+gf (3fed c2 AB |
+(3c=Bc dc Acfe|(3d^cd ed Bdgf|(3edc (3bag (3fed (3cBG|\
+(3FGF EG F2 :|
+A2|Ad d2 fedf|eAag fedf|bagb agfa|gfed (3^cde a2 |
+Ad d2 fedf|eAag fedf|bagf (3edc (3BAG|(3FGF EG F2 :|
+S:https://www.folktunefinder.com/tunes/154870
+S:http://www.qmcorp.net/webabc/d/040655.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

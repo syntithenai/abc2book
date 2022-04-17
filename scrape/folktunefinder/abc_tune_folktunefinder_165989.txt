@@ -1,0 +1,39 @@
+X: 1
+T: R\'ugu\vo
+T: If [16-bar form]
+C: melody: T\'ai Zh\`ao-M\'ei
+%T: Rgu\'i
+%T: 
+%C: melody: Ti Zho-Mi (\'a\'e)
+%C: lyrics: Sh B-W (\~n)
+D: Vienna Teng
+D: T\'ai Zh\`ao-M\'ei (\'a\'e)
+N: This is a 32-bar version, arranged for 32-bar dances. The original song
+N: stretches the last 2 bars to 4, plus assorted interludes between verses.
+M: C
+L: 1/8
+K: D
+%%staffsep 45
+|:"D"FA3- A2AA | "G"Bd3- d2z2 | "D"AA2B A2F2 | "A7"E6 z2 |
+| "D"FA3- A2AA | "G"Bd3  B2zB | "D"A3F "A7"E3D | "D"D6 z2 ||
+||"D"d3d  d2e2 |    f4   A4    | "G"Bd2d "(Bm)"d2(cd) | "A7"e6 z2 |
+| "D"ff2g f2e2 | "G"zd2e d2{c}B2 | "D"A3A "A7"fe(dc) | "D"d6 z2 :|
+%
+%W:    \`a\"e\`e\,c\^a
+%W:\^a\'a\"e  \`a\"e\`e
+%W:\`a\'e\'e  \'e\`a\"e\`i
+%W:\`i\`a\"e  \`a  \`a
+%W:%
+%W:    \`a\"e
+%W:  \`a\"e\'e
+%W:\'e    \'e\`a\"e\`i
+%W:\`i\`a\"e  \`a  \`a\^i
+S:https://www.folktunefinder.com/tunes/165989
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/Ruguo_D_32_4.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

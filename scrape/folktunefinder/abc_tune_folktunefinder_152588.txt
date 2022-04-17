@@ -1,0 +1,27 @@
+X:1
+T:The Deep Green Pool
+M:6/8
+L:1/8
+R:set dance
+Z:Harry Seaman
+Z:To David James
+K:G
+(3DEF|G2G B,DG|EGc ecA|B,DG A,CF| G,B,D AFD|!
+G2G B,DG|Bdg bgd|ecA DFA|G3 G2:||!
+|:g/2a/2|bgd B2b|c'af dcA|A,A,C F2A|ccf afd|!
+bgb dBd|geg ecA|A,CF B,DB|cAF AFD|!
+G2G gdB|gdB cAF|DFA cAF|cAF afd|!
+bgb Bdg|ecA FAc|dBG DGB|cAF Dga|!
+bgd B2b|c'af dcA|B,DG A,CF|G,B,D G2:||
+S:https://www.folktunefinder.com/tunes/152588
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/set/DeepGreenPool.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/DavidJames/DeepGreenPool.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/set/DeepGreenPool.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/DavidJames/DeepGreenPool.abc
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

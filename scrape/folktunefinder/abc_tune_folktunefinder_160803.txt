@@ -1,0 +1,23 @@
+X: 1
+T: George Rowley's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Ador
+|: ed | 
+c2 B>c A>Bc>d | e2 A2 A2 e>d | c>dB>c A>B (3cBA | B2 G>F G2 e>d |
+c>dB>c A2 A>B | c2 (3Bcd e3 f | g>f (3gfe a>ge>d | c2 A2 A2 :|
+|: (3ef^g | 
+a>ge>g a>ge>d | (3cdc (3BcB A2 (3def | g>fg>a g>ed>c | B2 G2 G2 (3ef^g |
+a>ge>g a2 e>d | c>Bc>d e3 f | g2 g>e a>ge>d | c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/160803
+S:http://www.thesession.org/tunes/display/6468
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

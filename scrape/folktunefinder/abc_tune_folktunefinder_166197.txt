@@ -1,0 +1,24 @@
+X:1
+T:I'm Henery the Eighth, I Am
+M:6/8
+L:1/4
+K:C
+ G/2| c c/2 c c/2| A G/2 E G/2| c c/2 c B/2| A3/2 z3/2| c G/2 c/2c/2d/2|\
+ e d/2 c e/2| d c/2 B c/2| d3/2 z G/2| c c/2 c c/2| A G/2 E G/2| c c/2 B c/2|\
+ A3/2 z B/2| c G/2 c d/2| e d/2 c e/2| d c/2 B d/2| c3/2 z3/2| e3/2 A B/2|\
+ c B/2 A B/2| c d/2 B c/2| A3/2 z d/2| d d/2 d d/2| d e/2 d d/2| d A/2 B c/2|\
+ d3/2 z3/2| G3| A G/2 E F/2| G3/2 e3/2| c3/2 z3/2| c c/2 c c/2| d3/2 c3/2|\
+ A/2 c- c3/2| G3/2 z3/2| G3/2 G3/2| A G/2 E F/2| G G/2 e3/2| c3/2 z3/2|\
+ d3/2 A3/2| A B/2 c d/2| e3/2- e d/2| B3/2 G3/2| c3/2- c d/2| e3/2 d c/2|\
+ B c/2 d3/2| z3/2 z G/2| A ^G/2 A B/2| d c/2 B A/2| G3| z3/2 c d/2|\
+ e3/2 c3/2| d3/2 B3/2| c B/2 A3/2| z3| e ^d/2 e c/2| d3/2 B3/2| c3/2 z3/2|\
+ z3/2 z||
+S:https://www.folktunefinder.com/tunes/166197
+S:http://back.numachi.com:8000/dtrad/abc/HENERY8.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

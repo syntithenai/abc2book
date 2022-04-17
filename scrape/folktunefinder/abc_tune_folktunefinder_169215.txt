@@ -1,0 +1,26 @@
+X: 1
+T: Karapyet
+O: Russia
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: Em
+[| "Em"Be- ee | "B7"^d>c B2 | Bf- ff | "Em"g>f e2 \
+| "Em"Be- ee | "B7"^d>c B2 | Bf- ff | "Em"g>f e2 |]
+|: "Em"eb- bb | "Am"c'>b a2 | "D7"ac'- c'c' | "G"b2 g2 \
+| gb- bb | "B7"a>g f2 | ba gf | "Em"e4 :| [K:E]
+[| "B7"fz az | "E"g3 e | "B7"fg ab | "E"g/a/g/f/ eB \
+| "B7"fz az | "E"g3 e | "B7"ba cd | "E"e2 e2 |]
+|: "A"Ac- cc | "E"eB- BB | "B7"BA FA | "E"cB GE \
+| "A"Ac- cc | "E"eB- BG | "B7"B/c/B/A/ G/A/G/F/ | "E"E2 E2 :|
+S:https://www.folktunefinder.com/tunes/169215
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Karapyet_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/Karapyet_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/misc/Karapyet_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 78
+T: HOWARD -- REEL.
+R:reel
+B:Coles
+Z:John Walsh <walsh:mat:h.ubc.ca>
+M:C|
+L:1/8
+K:A
+vA2((3cBA) (c>e) (a>e)|(f>a) (e>a) (d>a) (c>a)|\
+B2 ((3dcB) d>fb>a|((3gag) ((3fe^d) ((3efe) ((3=dcB)|\
+A2((3cBA) (c>e) (a>e)|(f>a) (e>a) (d>a) (c>a)|\
+B2 ((3dcB) d>fb>a|((3gfe) ((3dcB) A2 A2||
+vF2 ((3GF^E) F>Ac>a|g>f^e>g f>g a2|F2 ((3GF^E) F>Ac>a|g>f ^e>g f2f2:| \
+E2 ((3GFE) E>Be>G|A2 ((3BAG) A>ca>c|B2 ((3^dcB) d>fb>a|\
+((3gag) ((3egf) ((3efe) ((3=dcB)"_D.C."|]
+S:https://www.folktunefinder.com/tunes/158301
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

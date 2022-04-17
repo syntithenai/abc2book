@@ -1,0 +1,22 @@
+X: 1
+T: First Of October, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:A,B,D E2 D|EFA B2 A|Bde dBA|G2 A F2 F|
+FED EDB,|B,A,G, A,3|A,B,D EDB,|D3 D3:|
+|:b2 b baf|a2 f e2 d|Bcd B2 A|1^GAB A2 a|
+b2 b a2 f|a2 f e2 d|Bcd BAF|EFE D3:|2^GAB A3|
+A,B,D E2 D|EFA B2 A|Bcd BAF|EFE D3||
+S:https://www.folktunefinder.com/tunes/158016
+S:http://www.thesession.org/tunes/display/5331
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

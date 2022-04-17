@@ -1,0 +1,24 @@
+X:2
+T:Go Sammy Go
+C:copyright 1997 Kaubells
+R:Jig
+E:14
+M:6/8
+K:Amix
+\bigskip              % a bit of space
+"A"cBA ABc|.az(3d/e/d/) c2A|"G"B2G GAB|"A"ABA "Em"EzE|*
+"A"cBA ABc|.az(3d/e/d/) c2A|"G"B2G GAB|1"...A"A3 z2 E:|2"...A"A3 z3|]**
+K:C
+"C"e=dc cde|.gz(3e/g/e/) d2c|"G"d2B GAB|"C"c2A GzG|*
+"C"edc cde|.gz(3e/g/e/) d2c|"G7"d2B GAB|1"...C"c3 z2 G:|2"...C"c3 "E7"z3|]*
+T:Do not play final E7 chord on last time through.
+S:https://www.folktunefinder.com/tunes/153937
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/rosie.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

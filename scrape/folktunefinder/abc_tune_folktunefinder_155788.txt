@@ -1,0 +1,44 @@
+X:1
+T:Ehrentanz
+C:traditionell
+R:walzer
+A:Oesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "Das Burgenlaendische Notenbiachl. Die ersten 24", Herausgeber: S.Gmasz u. F.Stockhammer, Eisenstadt 1983
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+B3 | BAB | d3 | dcB |\
+A3 | AGA | B>AB/e/ | d2D |
+B3 | BAB | d3 | dcB |\
+A3 | AGA | G>GG | G :|
+|: zB |\
+B/c/d2 | B/c/d2 | ee>d | c/d/c/B/A/G/ |\
+A/B/c2 | A/B/c2 | ff>e | d/e/d/c/B/A/ |
+B/c/d2 | B/c/d2 | ee>d | c/d/c/B/A/G/ |\
+A/B/c2 | A/B/c2 | f/e/d/c/B/A/ | G :|
+|: Bc |\
+d>^cd | Ged | B>BB | BcB |\
+A>GA | AGA | B>ed | dBc |
+d>^cd | ded | B>^AB | BcB |\
+A>GA | AGA | G>GG | G :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155788
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/ehrentanz.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

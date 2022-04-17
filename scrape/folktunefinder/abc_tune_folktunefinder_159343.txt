@@ -1,0 +1,25 @@
+X: 1
+T:French schottisch \#4
+R:Schottische
+O:France
+M:2/4
+L:1/8
+K:G
+GF GA|G2 D2|AG AB|A2 D2|BA Bc|B2 AG\
+|1 FG Ac|B2A2 :|2 FG AF|G4::
+GA Bc|d3 D|EF GA|D2 GF|EF GA|BG AB\
+|1 cB AG B2 A2 :|2 cB Ac|G4 :|
+S:https://www.folktunefinder.com/tunes/159343
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fr/French_schottisch_4_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fr/French_shottish_4_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fr/French_schottisch_4_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fr/French_shottish_4_1.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:Evesham
+S:
+N:
+H:abcTranscriber: Alex Boster 
+H:(as transcribed by Adger Williams from a Belles of the North performance)
+A:Ilmington
+O:English
+R:Reel
+P:A(AB)$^4$A
+%P:A(AB)4A
+%:
+%:
+K:D
+M:4/4
+L:1/8
+P:A
+ FG AF G2 B2 | A2 de f2 d2 | g2 f2 e2 d2 | edcB AGFE |
+ FG AF G2 B2 | A2 de f2 d2 | gfed cABc | d2 f2 d4 ||
+P:B
+ |: ec A2 ec A2 | g2 f2 ec A2 | g2 f2 e2 d2 | edcB AGFE |
+    FG AF G2 B2 | A2 de f2 d2 | gfed cABc | d2 f2 d4 :|
+S:https://www.folktunefinder.com/tunes/156480
+S:http://www.ucolick.org/~sla/morris/music/Ilmington/evesham_bon.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

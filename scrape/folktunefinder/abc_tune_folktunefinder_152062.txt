@@ -1,0 +1,24 @@
+X:30
+T: Das Schwabentoechterlein
+N: Q0073H
+O: Mitteleuropa, Deutschland
+N: Fassung aus einem Quodlibet von Melchior Franck. Eingeklammerte
+N: Noten gespielt. Schlusspause korrigiert.
+R: Ballade, Weglaufen, Schwangerschaft, Rueckkehr
+M: 2/4
+L: 1/16
+K: G
+G2 | G2G2G2G2 | A2A2A2
+A2 | B2d2c2B2 | A4A2
+A2 | d2d2B2B2 | G2G2c4
+c4d4 | e3ec2c2 | B2G2A2A2 | G6
+S:https://www.folktunefinder.com/tunes/152062
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, weglaufen, schwangerschaft, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

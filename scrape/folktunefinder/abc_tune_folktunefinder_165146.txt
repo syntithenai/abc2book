@@ -1,0 +1,45 @@
+X:1
+T:Humeurs
+C:Thierry Mirebeau
+R:walzer
+A:France
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:transcription von Simon Wascher
+D:CD "FUBU 81-86", ethnea ET 8805 AR
+N:im buch ganz in E-dur, arrangiert (diationsches accordeon, drehleier, cello, gitarre, clarinette)
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+L:1/8
+M:3/4
+K:D %Transposed from E
+F2 G2 A2 | E2 G2 A2 | DEFGAB | cdcABc |\
+d2 e2 d2 | c2 B2 A2 | GFEFGA | B4 A2 |
+F2 G2 A2 | E2 G2 A2 | DEFGAB | cdcABc |\
+d2 e2 d2 | c2 B2 A2 | GFGABc |1 d6 :|\
+                             [2 d4 ||
+de |\
+=f2 e2 d2 | e2 d2 =c2 | d2 AGcd | AGcdAG |\
+E2 G2 A2 | _B2 A2 G2 | A6- | A4 de |
+=f2 e2 d2 | e2 d2 =c2 | d2 AGcd | AGcdAG |\
+E2 C2 E2 | GEGABc |1 d6- | d4 :|\
+                  [2 d6- | d6 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/165146
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/humeurs.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

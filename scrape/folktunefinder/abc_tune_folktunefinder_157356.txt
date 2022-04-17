@@ -1,0 +1,26 @@
+X:0748
+T:"Father Dollard's Favorite" (jig) 0748
+C:by Fr. Dollard  (himself!)
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)fx
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+DFA dcd|AFA BGE|DFA dcd|AFA gfe|
+DFA dcd|AFA BGE|afd bge|AFD TRE2D:|
+|:fef gfg|afd AFD|fef gfg|DFA TRB2A|
+fef gfg|afd bge|fga Bcd|AFD TRE2D:|
+S:https://www.folktunefinder.com/tunes/157356
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0748-FrDollards.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0748-FrDollards.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0748-FrDollards.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

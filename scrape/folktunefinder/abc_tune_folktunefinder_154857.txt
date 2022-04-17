@@ -1,0 +1,23 @@
+X: 1
+T: Duck, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;G&quot;D2G &quot;G&quot;GAB|&quot;C&quot;A2G &quot;G&quot;GAB|&quot;C&quot;A2G &quot;G&quot;GAB|&quot;C&quot;A2G &quot;C&quot;ABB|
+&quot;G&quot;D2G &quot;G&quot;GAB|&quot;C&quot;A2G &quot;G&quot;GAB|&quot;C&quot;A2G &quot;G&quot;BAG|&quot;Em&quot;E2D &quot;Em&quot;EGG:|
+&quot;G&quot;D2d &quot;G&quot;B2A|&quot;C&quot;BGG &quot;G&quot;G2A|&quot;C&quot;BGG &quot;G&quot;G2A|&quot;G&quot;B2A &quot;C&quot;Bcd|
+&quot;G&quot;D2d &quot;C&quot;B2A|&quot;G&quot;BGG &quot;G&quot;G2A|&quot;D&quot;B2A &quot;D&quot;BAG|&quot;C&quot;E2D &quot;C&quot;EGG:|
+&quot;D&quot;D2F &quot;D&quot;FAB|&quot;Em&quot;A2F &quot;Em&quot;FAB|&quot;Bm&quot;A2F &quot;Bm&quot;FAB|&quot;C&quot;A2F &quot;C&quot;ABB|
+&quot;D&quot;D2F &quot;D&quot;FAB|&quot;Em&quot;A2F &quot;Em&quot;FAB|&quot;D&quot;A2F &quot;Bm&quot;BAF|&quot;C&quot;E2D &quot;C&quot;EFF:|
+&quot;G&quot;D2d &quot;G&quot;B2A|&quot;C&quot;Bcd &quot;G&quot;B2A|&quot;G&quot;BAd &quot;G&quot;B2A|&quot;C&quot;BAd &quot;C&quot;BAd|
+&quot;G&quot;D2d &quot;G&quot;B2A|&quot;C&quot;Bcd &quot;G&quot;B2A|&quot;G&quot;BAd &quot;Bm&quot;BAF|&quot;C&quot;E2D &quot;C&quot;EFF:|
+S:https://www.folktunefinder.com/tunes/154857
+S:http://www.thesession.org/tunes/display/3347
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

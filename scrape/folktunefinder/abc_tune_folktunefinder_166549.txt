@@ -1,0 +1,27 @@
+X:1
+T:The Irish Jubilee
+M:6/8
+L:1/4
+K:G
+ B/2| B3/2 A G/2| B3/2 A G/2| B B/2 A G/2| E F/2 G A/4A/4| B B/2 A G/2|\
+ B/2 B A G/2|
+M:9/8
+ G/2 G d3/2- d B/2| G B/2 G3/2 G- G/2|
+M:6/8
+ B3/2 A G/2| B B/2 A G/2| B B/2 A G/2| E F/2 G G/2| B3/2 A G/2| B B/2 A G/2|\
+ G/2 G d3/2-| d B/2 A B/2| G3/2- G z/2|
+M:6/8
+ B B/2 d d/2| B d/2 d d/2| B3/2 d d/2| B B/2 d B/4B/4| c c/2 A A/2|\
+ F F/2 A A/2| F/2 F A A/2| F3/2- D3/2| G- A/2
+M:6/8
+| B3/2 A G/2| B B/2 A G/2| B B/2 A G/2| E/2 E| G G/2| B B/2 A G/2|\
+ G/2B/2 d/2- d B/2| A B/2 G||
+S:https://www.folktunefinder.com/tunes/166549
+S:http://back.numachi.com:8000/dtrad/abc/IRSHJUB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

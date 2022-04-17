@@ -1,0 +1,30 @@
+X:105
+T: Die misshandelte Schwiegertochter
+N: Q2076A
+O: Mitteleuropa, Niederlande, flaemisch
+N: Flaemische Fassung der Ballade.
+R: Ballade, Adelige als Dienstmagd, boese Schwiegermutter
+M: 6/8
+L: 1/16
+K: A
+B2 | A4A2=c4c2 | e4e2e4
+d2 | =c2B2c2e6d4d2 | e3ed2B4
+A2 | B4=c2d4e2d4c2 | A6=G4
+ee | e4e2d4=c2 | B2=c2d2e4d2 | =c4B2A6z4
+A2 | B4=c2d4e2 | d4=c2A4B2 | A6=G4
+ee | e4e2d4=c2 | B2=c2d2e4d2 | =c4B2A6z4
+AA | B4=c2d4e2d2d2c2 | A6=G4
+ee | e2d2=c2B2c2d2e4d2 | =c4B2A4
+S:https://www.folktunefinder.com/tunes/152137
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, adelige als dienstmagd, boese schwiegermutter
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

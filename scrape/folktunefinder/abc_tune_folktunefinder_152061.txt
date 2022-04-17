@@ -1,0 +1,27 @@
+X:29
+T: Das Schwabentoechterlein
+N: Q1073G
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0073, D, E und F; anderes Lied "Viertes
+N: Geissler - Lied" .
+R: geistlich, Geissler - Lied, Brauchtum
+M: 4/4
+L: 1/8
+K: D
+d2 | d2d2e2d2 | e2=cBA4
+d4c2B2 | =c3BA2
+c2 | =c2B2c2A2 | G2=F2E2D2
+F2G2A2B2 | =c3BA4
+A2G2=F2G2 | =F2E2D2
+S:https://www.folktunefinder.com/tunes/152061
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Geistlich, geissler - lied, brauchtum
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

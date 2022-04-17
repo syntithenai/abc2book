@@ -1,0 +1,24 @@
+X:1
+T:Hills of Glenurchie Counterpoint
+C:c. 1999 Jim Thompson
+R:Jig
+N:A flute part for Hills of Glenurchie (trad.)
+E:24
+M:6/8
+K:Em
+\bigskip
+\bigskip
+|: e3 B3 | e3 gfe | d3 A3 | d3 agf |
+| e3 B3 | e3 gab | g3 f3 | e3 efg :|
+|: b3 g3 | b3 bag | a3 f3 | a3 bab |
+| b3 g3 | b3 bag | f3 b3 | e3 efg :|
+S:https://www.folktunefinder.com/tunes/164357
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/hills-counterpoint.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

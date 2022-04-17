@@ -1,0 +1,27 @@
+X:0498
+T:Killarney        (air)          0498
+C:Maestro Michael Balfe (1808-1870)
+C:slow
+Q:1/4=70
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_vb"(d3B) (A2 (3GED)|G2G2G3z|(d3{ed}c) B2 (3(ABd)|e2A2A3z|
+(d3B) (A2 (3GED)|G2G2G3z|(B3c) (d2Gc)|(B2A2)G3z||
+G2G2A2E2|G2G2(B d3)|B2(Bc) (dBAG)|(GE)(EG)A3z|
+"^>"e2"_>"A2"^>"d2"_>"G2|"^>"c2"_>"F2"^>"B2"_>"G2|(F3G) A2 (3(Bcd)|F2E2D4|
+(G3E) D2(EF)|G2G2A3z|c3c B2A2|dBAG E4|
+(E3_E) (D3E)|G2 (3(GBd) e4|G3A B Hg2B|A4G3z|]
+S:https://www.folktunefinder.com/tunes/169841
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0498-Killarney.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0498-Killarney.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

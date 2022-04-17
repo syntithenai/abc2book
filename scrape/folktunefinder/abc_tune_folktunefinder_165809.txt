@@ -1,0 +1,26 @@
+X: 1
+T: Hwylie
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|: A d>f | a2 a>b a>g | (3fgf d2 a>f|(3gag B2 B>c | e>d A>A d>f |
+a2 a>b a>g | f2 d2 a>f | g2 B2 B>c |1 d>D- D :|2 d4 ||
+|: e>d | c>e g>e c>e | d>f A2 (3fed | c>e A2 f>e | d>A F>A D>A |c>e g>e c>e |
+d>F A>d e>d |1 c>A g>A e>A | d2 D2 :|2 c>a ^g>a =g>e | d>D- D ||
+K: Gmin
+|: D G>B | d2 d>e d>c | (3BAB G2 d>B | (3cdc E2 E>F | A>G D>D G>B |
+d2 d>e d>c | B2 G2 d>B | c2 E2 E>F |1 G>G,- G, :|2 G4 ||
+|: A>G | F>A c>A F>A | G>B D2 A>G | F>A D2 B>A | G>D B,>D G,>D |F>A c>A F>A |
+G>B, D>G A>G |1 F>D c>D A>D | G2 G,2 :|2 ^F>d ^c>d =c>F | G>G,- G, ||
+S:https://www.folktunefinder.com/tunes/165809
+S:http://www.thesession.org/tunes/display/6391
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

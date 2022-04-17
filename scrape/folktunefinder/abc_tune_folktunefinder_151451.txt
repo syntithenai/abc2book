@@ -1,0 +1,24 @@
+X:1
+T:DarkEyes
+T:Otchi Tchornyia
+C:Traditional Russian Tune
+M:3/4
+L:1/4
+Q:1/4=80
+K:G
+V:1
+P:A Instrumental
+|!fermata!^A !fermata!B|"B"c3/2 B/2 B|z ^A B|c3/2 B/2 B
+|"Em"z B e|"Cdim"e3/2 ^d/2 "B7"d|"B"z f g|"Em"f3/2 e/2 e
+|"Cdim7"z e g|"Am7"g3/2 f/2 c|"F#m7"z g f|"Em"f3/2 e/2 B
+|"B7"z ^A B|c3/2 B/2 B|z f g|"Em"e3/2 e/2 e||
+P:B Vocal
+|:"B"z ^A B|c3/2 B/2 B|z ^A B|c3/2 B/2 B
+S:https://www.folktunefinder.com/tunes/151451
+S:http://everythingdulcimer.com/tab/darkeyes.abc
+S:http://www.everythingdulcimer.com/tab/darkeyes.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

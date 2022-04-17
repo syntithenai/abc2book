@@ -1,0 +1,43 @@
+X:1
+T:Dragaicuta
+O:Rumania
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:I2(AB)3I
+M:3/4
+L:1/4
+K:Bm
+P:I
+Q:1/4=120
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 50
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord f4z2
+"b"B B2 | B B2 | B B B | B B2|
+P:A
+%%MIDI gchord f2c3f
+|:"Bm"B, B>A|"C#m"^G/2A/2    B>^G|"Dm"A/2^G/2 =F/2E/2D |"E"^G/2A/2  B2 |
+   "E"B, B>A|"F"  ^G/2A/2 "E"B>^G|"Dm"A/2^G/2 =F/2E/2D |    E/2=F/2 D2 :|
+P:B
+|:"Dm"A/2^G/2 =F/2E/2 D|E/2=F/2 D/2^C/2 B,|"E"B, E>B,|"F" E/2=F/2 "E"^G2 |
+  "Dm"A/2^G/2 =F/2E/2 D|E/2=F/2 D/2^C/2 B,|"E"B, E E |"Em"E       "E" E2 :|
+W:Arrangement Copyright (C) 2002 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/154289
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Dragaicuta.abc
+S:http://people.csail.mit.edu/jaffer/Music/Dragaicuta.abc
+S:http://voluntocracy.org/Music/Dragaicuta.abc
+S:http://www.voluntocracy.org/Music/Dragaicuta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

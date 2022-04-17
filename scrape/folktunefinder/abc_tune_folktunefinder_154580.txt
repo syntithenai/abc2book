@@ -1,0 +1,55 @@
+X: 1
+T: Dror Yikra
+S: H.Kirsch : Songs and Folk Dances bk 10 (c) 1969 NEGEN
+O: Israel
+I: choreographer Moshiko, E. Gamliel
+M: 2/4
+L: 1/8
+Q: 1/4=80
+K: F#phr
+E \
+| "F#m" FF/E/ FG/F/ \
+| "Bm" B>c "F#m" A2 \
+| "Em" G/F/G "F#m" FE \
+| FF/E/ FG/F/ \
+| [M:3/4] \
+  "Bm" B/A/B/c/ "F#m" A2 "Em" G/F/G/F/ \
+| "F#m" F4-F E |
+| [M:2/4][L:1/8] \
+  "F#m" FF/E/ FG/F/ \
+| "Bm" B>c "F#m" A2 \
+| "Em" G/F/G "F#m" FE \
+| FF/E/ FG/F/ \
+| [M:3/4] \
+  "Bm" B/A/B/c/ "F#m" A2 "Em" G/F/G/F/ \
+| [M:2/4][L:1/8] \
+  "F#m" F4 ||
+||"F#m"zF/c/  cc \
+| c2 c/B/d/c/ \
+| "Bm" B2 "F#m" A>B \
+| cB AG \
+| F>G FE |
+| "F#m"FF/E/ FG/F/ \
+| "Bm" B2 "F#m" A2 \
+| "Em" G/F/G "F#m" FE \
+| FF/E/ FG/F/ \
+| [M:3/4] \
+  "Bm" B/A/B/c/ "F#m" A2 "Em" G/F/G/F/ \
+| [M:2/4][L:1/8] \
+  "F#m" F4- \
+| F3 |]
+S:https://www.folktunefinder.com/tunes/154580
+S:http://trillian.mit.edu/~jc/music/abc/Intl/Bb/DrorYikra_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/DrorYikra_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/Bb/DrorYikra_Fsm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/DrorYikra_Fsm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

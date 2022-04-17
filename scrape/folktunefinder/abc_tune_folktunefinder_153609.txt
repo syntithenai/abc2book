@@ -1,0 +1,38 @@
+X:11
+T:Ditchling Carol
+Q:1/4=180
+I:abc2nwc
+M:3/4
+L:1/8
+K:C
+"^Verse"c2|c4B2|c4B2|A4^G2|A4||
+E2|A4^G2|A4A2|B4A2|^G4||
+A2|A4^G2|A4B2|c4d2|e4||
+B2|c4c2|B4B2|A6|A4|]
+[|[M:2/2]"^Chorus"G2|c B3c3G|e d3e3c|c c3c3c|B3c d3||
+G|G3G c3c|c3c e3c|d d3B B3|c4c4||
+W:But oh remember gentles gay,
+W:For you who bask in fortunes ray
+W:The year is all a holiday,
+W:The poor have only Christmas
+W:
+W:(Chorus) Be merry all, be merry all, with holly deck the festive hall,
+W:Prepare the song, the feast, the hall, to welcome merry Christmas.
+W:
+W:When you with velvets mantled o\'ier
+W:Defy December\'is tempest roar
+W:O spare one garment from your store
+W:To clothe the poor at Christmas
+W:
+W:(Chorus)
+W:
+W:From blazing loads of fuel awhile
+S:https://www.folktunefinder.com/tunes/153609
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/DitchlingCarol.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

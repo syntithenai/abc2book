@@ -1,0 +1,28 @@
+X: 1
+T: The Duchess Tree
+C: J.S.Skinner
+R: air, strathspey
+B: The Scottish Violinist p.36
+Z: John Chambers <jc:trillian.mit.edu>
+N: Skinner's version is written an octave higher.
+M: C
+L: 1/8
+K: A
+A>B \
+| "A"c2 c2 c2 Bc | "D"d2 F2 F2 G>F |1 "A"E2 A2 e2 c2 | "E7"(c2B4) :|2 "A"EF GA "E7"c2 B2 | "A"A6 ||
+B>c \
+| "D"d2 d2 d2 A>B | "A"c2 c2 c2 A>F | "A"E2 A2 "F#m"e2 c2 | "Bm"c2B2- "E7"B2 \
+A>B \
+| "A"c2 c2 c2 B>c | "D"d2 F2 "E7"F2 GF | "A"EF GA "E7"c2 B2 | "A"A6 |]
+S:https://www.folktunefinder.com/tunes/154843
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/DuchessTree_A2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/DuchessTree_A2.abc
+% Rhythm Air, strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

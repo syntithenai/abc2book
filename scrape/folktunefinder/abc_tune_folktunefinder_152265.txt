@@ -1,0 +1,25 @@
+X:233
+T: Der Hammerschmiedssohn
+N: Q1088D
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0088, anderes Lied.
+R: geistlich, Triller
+M: 6/4
+L: 1/4
+K: C
+c | c2cB2B | cA2G2
+G | A2cB2A | G2FE2
+E | E2EG2F | ED2C2
+C | GAGG2G | FD2C2
+S:https://www.folktunefinder.com/tunes/152265
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Geistlich, triller
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

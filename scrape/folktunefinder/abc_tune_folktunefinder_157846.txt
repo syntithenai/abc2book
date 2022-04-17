@@ -1,0 +1,19 @@
+X:1
+T:Finnegan's Wake
+M:4/4
+L:1/4
+K:C
+ z2 z G| E/2E/2 E E D| E A A B| c/2c/2 B A G| E D D z| E E/2E/2 E D|\
+ E A A A/2B/2| c B/2B/2 A G| A/2A/2 B c z/2 c/2| c c/2c/2 c d/2d/2|\
+ c B A G/2G/2| c c/2c/2 c d| c B A z/2 G/2| c c c d/2d/2| c B A G/2G/2|\
+ A A/2G/2 A G| A B c3/2 z/2| E E/2E/2 E D| E A/2A/2 A B| c3/2 B/2 A G|\
+ E/2 D3/2 D2| E3/2 E/2 E D| E A A B| c3/2 B/2 A G| A/2A/2 B c2|
+S:https://www.folktunefinder.com/tunes/157846
+S:http://back.numachi.com:8000/dtrad/abc/FINNWAKE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FINNWAKE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

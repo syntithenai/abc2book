@@ -1,0 +1,28 @@
+X: 1
+T:Gypsy Princess
+R:Barn Dance
+D:Arcady
+M:4/4
+L:1/8
+K:G
+GA|B2B2 B2B2|ABAG E2D2|G3B d3B|dedB AGGA|!
+B2BB B2BB|ABAG E2D2|G3B dedB|[1 A2G2 G2:|[2 A2G2 G2Bc||!
+d3e g3e|dedB AGBc|d3e g3e|dedB A2Bc|!
+d3e g3e|dedB A2G2|G3B dedB|[1 A2G2 G2Bc:|[2 A2G2 G4|!
+K:A
+|c2c2 c2c2|BcBA F2E2|A3c e3c|efec BAAB|!
+c2cc c2cc|BcBA F2E2|A3c efec|[1 B2A2 A2AB:|[2 B2A2 A2cd||!
+e3f a3f|efec BAcd|e3f a3f|efec B2cd|!
+e3f a3f|efec B2A2|A3c efec|[1 B2A2 A2cd:|[2 B2A2 A2AB||!
+S:https://www.folktunefinder.com/tunes/162799
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gy/Gypsy_Princess_1.abc
+% Rhythm Barn dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

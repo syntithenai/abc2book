@@ -1,0 +1,29 @@
+X:1
+T:Les gars de Locmin
+C:Trad., abc file by Bernard Loffet
+L:1/8
+Q:440
+M:6/8
+K:C
+[e2A,2]e[e2A,2]e|[d3D,3][d3D,3]|[c2F,2]B[c2F,2]d|[e3E,3]E,3|[e2A,2]e[e2A,2]e|[d3D,3][d3D,3]|[c2F,2]B[c2F,2]d|[e3E,3]E,3|[A2A,2]A[A2A,2]A|[d3D,3][d3D,3]| \
+[d2D,2]e[d2D,2]c|[B3E,3]E,3|[A2A,2]A[A2A,2]A|[d3D,3][d3D,3]|[d2D,2]e[d2D,2]c|[B3E,3]E,3|[A3A,3][A3A,3]|[c3A,3]A,2B|[A2F,2]G[A2F,2]B|[c3A,3]A,2e|[e2C,2]e[e2C,2]f| \
+[e3C,3][e3C,3]|[d2D,2]e[d2D,2]c|[B3E,3][e3E,3]|[A3A,3][A3A,3]|[c3A,3]A,2B|[A2F,2]G[A2F,2]B|[c3A,3]A,2e|[e2C,2]e[e2C,2]f|[e2C,2]d[c2C,2]B|[c3E,3][B3E,3]| \
+[A3A,3]A,3| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/160556
+S:http://diato.ifrance.com/abc/41.abc
+S:http://diato.ifrance.com/diato/tablat/41.abc
+S:http://diato.ifrance.com/tablat/41.abc
+S:http://diato.org/tablat/41.abc
+S:http://perso.orange.fr/diato/tablat/41.abc
+S:http://perso.wanadoo.fr/diato/tablat/41.abc
+S:http://pro.wanadoo.fr/diato/tablat/41.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/41.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/41.abc
+S:http://www.diatonique.net/tablat/41.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: Easy Club
+C: Jim Sutherland
+R: reel
+B: BSFC X-20
+Z: John Chambers <jc@trillian.mit.edu>
+N: Who is this Sutherland How old is this tune Do we need permission
+M: C|
+L: 1/8
+K: A
+|: E2 \
+| "A"A2cA "E7"BcdB | "A"cdec "D"defg | "A"a2ae faec | "E7"dccB- BdcB |
+| "A"A2cA "E7"BcdB | "A"cdec "D"defg | "A"a2ae faec | "G"dB=GB "A"A2 :|
+|: ce \
+| "D"faad- daaa | "A"eaac- caaa | "D"faad- dffd | "A"ceeB- "E7"BdcB |
+| "A"A2cA "E7"BcdB | "A"cdec "D"defg | "A"a2ae faec | "G"dB=GB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/155534
+S:http://trillian.mit.edu/~jc/music/book/500/EasyClub_4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

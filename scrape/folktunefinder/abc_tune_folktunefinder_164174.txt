@@ -1,0 +1,31 @@
+X:1
+T:Highland Mary
+M:4/4
+C:
+S:Bordering on the Absurd
+N:Hunt the Dragon
+A:Border
+O:English
+R:Reel
+%P:
+K:G
+P:A
+|:\
+    D2 | G2 AG FE D2 | G2 AB c2 Bc | d2 de dcBA  | GA BG D3 \
+     F | G2 AG FE D2 | G2 AB c2 Bc | d2 de dcBA  | G2 F2 G2 :|\
+P:B
+|:  z2 | GABc  d2 d2 | ed cB c2 Bc | d2 de dc BA | GABG  D3 \
+     F | G2 AG FE D2 | G2 AB c2 Bc | d2 de dcBA  | G2 F2 G2 :|
+S:https://www.folktunefinder.com/tunes/164174
+S:http://www.ucolick.org/~sla/morris/music/Border/himary.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

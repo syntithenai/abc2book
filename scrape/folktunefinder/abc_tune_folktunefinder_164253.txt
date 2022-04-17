@@ -1,0 +1,17 @@
+X: 1
+T: The High Reel
+O: Trad
+M: C|
+L: 1/8
+K: Amix=g
+[| "A"a2fa ecA2 | cAeA fAeA | a2fa ecA2 | "G"Bcdc BGGB |  "A"a2fa ecA2 |
+| cdef "(G)"g2fg | afge fdec | "G"Bcdc BGGB |[| "A"(3cBA eA fAeA | (3cBA af ecA2 |
+| (3cBA eA fAeA | "G"Bcdc BGGB |  "A"(3cBA eA fAeA |cdef "(G)"g2fg | afge fdec | "G"Bcdc BGG2 |]
+S:https://www.folktunefinder.com/tunes/164253
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/Highreel_A16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

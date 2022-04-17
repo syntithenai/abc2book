@@ -1,0 +1,32 @@
+X: 1
+T:Dick Gossip's Reel
+M:4/4
+L:1/8
+Q:200
+C:Trad. arr. Diekoff
+S:From Bog Carrot
+R:Reel
+Z:Arr. Donna Diekoff
+K:D
+|:"D"f2af gfed | "D"f2af "G"gfed|
+"A"e2ef gfed |"A7"edef gfed |!
+"D"f2af gfed| "D"f2af "G"gfed |
+"A"cdef "A7"gece |1"D"df"A"ec "D"d2 e2:|2"D"df"A"ec "D"d2 ef||!
+|: "G"gB ~B2 gBaB | "G"gB ~B2 "Em"gfed |
+"A"(3cBA eA fAeA |"A7"(3cBA ef gfef |!
+"G"gB ~B2 gBaB | "G"gB ~B2 "Em"gfed |
+"A"cdef "A7"gece |1"D"df"A"ec "D"d2 ef:|2"D"df"A"ec "D"d2 e2||
+% Output from ABC2Win  Version 2.1 f on 3/14/98
+S:https://www.folktunefinder.com/tunes/153350
+S:http://www.blackflute.com/music/tunes/reels/dgossip.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:51
+T: Graf und Nonne (Die Nonne)
+N: Q0155x
+O: Suedosteuropa, Rumaenien, Siebenbuergen
+N: Vorletzten Takt der fuenften und sechsten Zeile gemaess der Taktart
+N: rhythmisch korrigiert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 4/4
+L: 1/8
+K: G
+D2 | G3A_BAG2 | d3cdc
+_B2 | c2d2_edc_B | A4z2
+d_e | =f_ed2dc_B2 | c3_Bc4
+B2d2BAG2 | A3GA2
+d2 | dc_BAG2F2 | G4z2
+d2 | dc_BAG2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/161971
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

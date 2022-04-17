@@ -1,0 +1,34 @@
+X:1
+T:Duo en sol majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle06.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:2/4
+L:1/8
+K:G
+V:1
+"^Allegretto"dd z g|ee z a|ff z d|gb d' z|dd z g|
+ee z a|ff z d|gbg z::aa z b|c'c' z a|
+bb z c'|d'd' z b|c'c' z a|bb z g|aa z f|gbg z:|
+V:2
+z GBG|z cec|z Adc|B z Bd|BGBG|
+z cec|z Adc|Bdbz::z dfg|z adf|
+z Gga|z be g|z adf|z GBe|z cdc|BdB z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155039
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle06.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle06/devienne-nouvelle06.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle06/devienne-nouvelle06.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

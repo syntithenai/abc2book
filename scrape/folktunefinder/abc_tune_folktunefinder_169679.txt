@@ -1,0 +1,26 @@
+X: 1
+T: Khosid dance
+O: Transylvania
+D: "Muszik\'as - The Lost Jewish Music of Transylvania (Hannibal 1373)
+Z: John Chambers <jc:trillian.mit.edu>
+R: cs\'ard\'as
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"B2e^d e2f2 | {a}g2g2 f2{gf}e2 | g2g2 f2{gf}e2 | gfga gfe2 |
+|      B2e^d e2f2 | g2{fg}ag f2{gf}e2 | {a}g2g2 "B7"fe^df |1 "Em"e2 e6 :|2 "Em"e2 e4 "D7"d2 ||
+|: "G"b2b2 ba^g2 | "D"a2a2 a2gf | "G"g2a2 gfef | "(Em)"g4 e2ga |
+|  "G"b2b2 ba^g2 | "D"a2a2 "(B7)"a2gf | "Em"g2a2 "(B7)"gagf |1 "Em"eB=c^d efga :|2 "Em"e2 e6 |]
+S:https://www.folktunefinder.com/tunes/169679
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/KhosidDance1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/KhosidDance1_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/KhosidDance1_Em.abc
+% Rhythm Csa?rda?s
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,54 @@
+X: 186
+T: Szenyeri paros
+T:Kucevacko Kolo
+S: Ciga Ivon Despotovic, Radio-Televizija Beograd
+M: 2/4
+L: 1/8
+K: C
+P:A
+Q:1/4=120
+%%MIDI gchord fzfz
+%%MIDI program 110
+|:"g"GG"e"EE  |"a"AA"g"G2 |"f"FF"d"DD  |"g" GG"f"F2 |\
+  "e"EE"c"CC  |"d"D2"e"E2 |"g"G2G2     |"g"G2EF     |
+  "g"GG"e"EE  |"g"G2"f"F2 |"e"EE"c"CC  |"d"D2"b"B,2 |\
+  "c"C4-      |C2zG/A/B/  |
+  "c"c2"g"G2  |"c"c2"b"_B2|"a"A2"g"G2  |"e"E2"c"C2  |\
+  "g"G4       |G2zG/A/B/  |
+  "c"c2"g"G2  |"c"c2"b"_B2|"a"A2"g"G2  |"e"E2"c"C2  |\
+  "g"G4       |"a"A4      |"e"EE"c"CC  |"d"DD"b"B,B,|"c"C4    |C4     :|
+P:B
+K:D
+Q:1/4=132
+|:"a"A2A2     |A2A2       |"b" (3ABA GF|"e" G2E2    |\
+  EFGA        |"a"GFED    |"f#"FDCD    |"a"E2A,2    |
+  "f#"D4      |"e"E4      |"c#"G4      |"a"A4       |\
+  "e"GFED     |"f#"C2A,2  |"g"G,4      |"a"A,4      |
+  "f"D4       |"e"E4      |"c#"G4      |"a"A4       |\
+  "e"GFED     |"f#"C2A,2  |"g"G,4      |"a"A,4      :|
+P:C
+K:G
+Q:1/4=120
+|:"b"zEGA     |"b"B2B2    |B2E2        |"a"A2A2     |GFE^D    |"e"E4  |E4 |
+  "b"Be3      |Be3        |"b" d2B2    |"a" c2A2    |"b"B4    |B4     |
+  "b"Be3      |Be3        |"b" d2B2    |"a" c2A2    |"b" B4   |"a"A4  |
+  zEGA        |"b"B2B2    |B2E2        |"a"A2A2     |"g"GFE^D |E4     |E4 :|
+P:D
+Q:1/4=180
+K:Bb
+|:"c".c2"g".G2|"c".c2z2   |"c".c2"g".G2|"c".c2z2    |\
+  "c".c2"g".G2|cz2c       |"g"dcBA     |"bb"B4      |"d".d2.d2|"c"c2zB|
+  "a"GABA     |"g"G4      |"f".F2.F2   |"bb".B2zB   |cBAB     |"eb"E3z|\
+  "g"G2G2     |"f"F2zE    |"g"CDED     |C4          :|
+S:https://www.folktunefinder.com/tunes/170594
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Szenyeri_paros.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Szenyeri_paros.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key A-sharp
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

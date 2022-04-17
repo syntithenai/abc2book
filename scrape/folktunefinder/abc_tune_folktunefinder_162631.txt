@@ -1,0 +1,26 @@
+X:3
+T:Grub Springs
+L:1/8
+R:reel
+M:C|
+K:A
+|: "A"v[E2A,2]A-B c2c-B | cBAF E2(u[E2A,2] | [E2A,2]AB) cBAB | cBAF E2(u[E2A,2] |
+   "A"[E2A,2]AB) c2c-B  | cBAF E2A2 |\
+   [c2E2][c2E2] [A4A4]- | "D"FE-F2 "A"[E2A,2][E2A,2] :|
+|: "A"v[e3A3][fA]- [e2A2]f2- | "D"f2f-a f-ec2  |\
+   "A"v[e3A3][fA]- [e2A2]f2- | "D"f(efg) v[a4A4]- |
+   "A"[e3A3][fA]- [e2A2][f2A2]- | "D"f2f-a f-ec2  |\
+   "A"[e2A2][e2A2] "E"[e2B2][e2B2] | c-BA-F "A"E4 :|
+N:Portland Collection, pg 91 - adapted by Peter Ostapenko.
+N:Last update - PO 7/24/2007.
+N:A Major
+S:https://www.folktunefinder.com/tunes/162631
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/GrubSprings.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

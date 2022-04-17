@@ -1,0 +1,26 @@
+X:71
+T: Graserin und Reiter
+N: Q0149S
+O: Osteuropa, Polen, Ost - Galizien, Sprachinselgruppe Neu - Sandetz
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 3/8
+L: 1/8
+K: G
+D | G2B | ded
+BGd | d2d | c2d | B2
+D | G2B | ded | BG
+d | d2d | c2d | B2
+d | B2G | A2d | BG
+d | B2B | A2A | G2
+d | B2G | AAd | BG
+d | B2B | A2A | G2
+S:https://www.folktunefinder.com/tunes/153024
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

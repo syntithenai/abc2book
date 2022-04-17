@@ -1,0 +1,27 @@
+X: 1
+T: Eleanor Rigby
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: Em
+"I"\
+|: "C"e3 efg | a2g f2e | "Em"BG2- GAB | GBF BEB :|
+"A"\
+|:"Em"GAB GE2 | GAB d^cB | ^cBA BAG | "C"A6 | GAB "Em"cB2 :|
+"B"\
+[|"Em"A2G A2B | GE2 z2E | "C"e2B AG2 | "Em"E6 \
+|     A2G A2B | GE2 z2E | "C"g2e BA2 | "Em"G6 |]
+S:https://www.folktunefinder.com/tunes/155910
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/EleanorRigbyJ_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/rapper/jig/EleanorRigbyJ_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

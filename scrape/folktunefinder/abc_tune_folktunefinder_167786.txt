@@ -1,0 +1,25 @@
+X: 1
+T: Jig Of Slurs, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:Add cdd|Bdd Add|Bdd Add|Bee edB|
+Add cdd|Bdd Add|Bdd cde|fec d3:|
+|:A2f fef|a2f fed|B2e ede|f2f edB|
+A2f fef|a2f fed|Add cde|fec d3:|
+K:Gmaj
+|:G2g gfg|aff gff|G2g gfg|aff g3|
+G2g gfg|aff gff|e2e efg|fed e3:|
+|:GBB Bdd|dee edB|GBB Bdd|dee efg|
+GBB Bdd|dee edB|e2e efg|fed e3:|
+S:https://www.folktunefinder.com/tunes/167786
+S:http://www.thesession.org/tunes/display/35
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:30
+T: Graf und Nonne (Die Nonne)
+N: Q0155c
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Forbach,
+N: Modulation in der letzten Zeile.
+R: Ballade, Standesunterschied, Werbung, Liebe, Glueck
+M: 4/4
+L: 1/8
+K: G
+D2 | B2B2G2B2 | B2A2G2z2
+c3BA2G2 | A2A2G2
+Bc | ddB2e2d2 | dcB2A2
+FG | AAA2B2BA | G2E2D2
+D2 | GGG2A2A2 | B4
+c4 | G2EFG2F2 | E4z2
+S:https://www.folktunefinder.com/tunes/161950
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe, glueck
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

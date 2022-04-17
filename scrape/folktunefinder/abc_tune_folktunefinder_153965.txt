@@ -1,0 +1,23 @@
+X: 1
+T: Don't Stop Running
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+||: ~f2B BAB | cdc BAB | ~f2B BAB | fgf edc |
+~f2B BAB | cdc BAB | ~f2B BAB | GBF BEB :||
+||: ~B2A FAB | cdc BAB | ~B2A FAB | cdc dcd |
+~B2A FAB | cdc BAB | ~B2A FAB | cdc ecd :||
+||: fbb aba | gfd efg | fbb aba | gfe dBB |
+fbb aba | gfd efg | fbb aba | gfd cGB :||
+S:https://www.folktunefinder.com/tunes/153965
+S:http://www.thesession.org/tunes/display/405
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Fyrtur efter Jns Persson
+T:("Vi roar oss i Roalv")
+R:Fyrtur
+Z:Patrik Mnsson, 2008-12-29
+O:Roalv, Skne
+S:efter Jns Persson
+N:Inspelad av Tom Thomat som lt nr 2 p Gingemusickanternas skiva "Det dansar en Ging 2" (2007) med text och sng av T. Tellving.
+M:2/4
+L:1/16
+Q:1/4=90
+K:G
+|: B2BA G2GE | DEDC B,2G,2 | d2dB cdec | ABAF G2G,2 |
+   B2BA G2GE | DEDC B,2G,2 | d2dB cdec | ABAF G4   :|
+   dBGB dBGB | cAFA GDB,D | dBGB dBGB | cAFA G2G,2 |
+   dBGB dBGB | cAFA GDB,D | dBGB dBGB | cAFA G4 ] |
+S:https://www.folktunefinder.com/tunes/159664
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_J%f6ns_Persson_9bff1e.latin.abc
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_J%f6ns_Persson_9bff1e.abc
+S:http://www.folkwiki.se/pub/cache/Fyrtur_efter_J%f6ns_Persson_9bff1e.abcm.abc
+% Rhythm Fyrtur
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: JENNY LIND
+S: RD, from Arnold Woodley
+O: Bampton
+P: A.(AB2)4
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: 2/2 meter indicated, but music is obviously 2/4.
+N: Alt.B part had 4/4 meter, notes twice as long, and missing final beat.
+M: 4/4
+L: 1/8
+K: G
+P: A
+   B2dB c2 ((3efe) | d2b2 bab2 | c2a2  ag ((3afe) | d2g2 g3d |
+   B2dB c2 ((3efe) | d2b2 bab2 | c'2a2 fgaf       | g2b2 g4 ||
+P: B
+   g2e2 egfe | d2B2 BcdB | c2A2 ABcA | B2G2 B2d2 |
+   g2e2 egfe | d2B2 BcdB | c2A2 ABcA | G2B2 G4  ||
+S:https://www.folktunefinder.com/tunes/167524
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Jenny_Lind_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

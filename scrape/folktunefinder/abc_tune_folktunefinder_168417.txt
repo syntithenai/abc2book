@@ -1,0 +1,31 @@
+X: 1
+T:Johnny Cope. HSJJ.027
+M:4/4
+L:1/8
+Q:180
+S:HSJ Jackson,Wyresdale,Lancs.1823
+R:Air
+O:England
+A:Lancashire
+H:1823
+Z:Chris Partington.
+K:C
+E2|A4ABcd|e2A2{B}A2GE|G4GABc|d2G2BAGF|!A4ABcd|e2A2BAGF|G2g2~edcB|A4A2:|!
+|:AB|c3dc2G2|cdefg4|B2G2d2G2|Bcde {e}d2cB|!cBcd efga|~gedcB2AB|G2g2edcB|
+A4A2:|!
+|:eg|a4~a2g-a|b2a2a2ge|degag3a|b2abg2eg|!a4a2ga|b2a4ge|g2d2~edcB|A4A2:|!
+|:E2|AGAB cBcd|e2A2BAGF|GFGAB2ge|dedcB2AG|!cBcd efga|gedcB2AB|G2g2edcB|A
+4A2:|]
+S:https://www.folktunefinder.com/tunes/168417
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/jo/Johnny_Cope_HSJJ_027_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

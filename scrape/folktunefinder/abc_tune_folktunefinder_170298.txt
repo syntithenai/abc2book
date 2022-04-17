@@ -1,0 +1,25 @@
+X: 2
+P: Mount Cashel's Brigade
+R: march
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+"E7"E2 \
+"A"\
+|  "A"A2 c>B "D"AB AF | "A"E>F ED C2 "(E)"E2 | "A"A2 c>B AB cd | "E7"B2 e>f ed cB |
+|  "A"A2 c>B "D"AB AF | "A"E>F ED C2 "(E)"E2 | "A"ed cB "E7"cB AG | "A"A2 "D"A>B "A"A2 (3Bcd  ||
+"B"\
+|| "A"e>f ed c>d cB | A2 A>B cA Bc | "Bm"d>e dc B>c BA | "E7"G2 E>F GE FG |
+|  "A"A2 A2 "E7"GB GE | "D"F>E "E7"FG "A"A2 "D"f2 | "A"e>f ec "E7"dB GE | "A"A2 "D"A>B "A"A2 z2 |]
+S:https://www.folktunefinder.com/tunes/170298
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR15_B.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

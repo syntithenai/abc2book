@@ -1,0 +1,31 @@
+X: 1
+T: A dreidele far alle
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS.
+D: Abe Schwartz Orchestra (March 1929)
+M: C
+L: 1/8
+K: F
+C2 "A"\
+|: "F"F4 zG AF | "Cm"G4 zA B=B | "F"cB BA AG GF | cd (3_edc BA GA |
+|  "F"F4 zG AF | "Cm"G4 zA B=B | "F"cB BA "C7"AG (3BAG |1 "F"F6 C2 :|2 "A7"EF ^GA (3AGF (3FED ||[K:=B]
+K: Ddor^G
+"B"\
+|: "Dm"zD/E/ FG AB (3cBA | {B}c8 | dc BA GF ED | {G}A8 \
+|  "Dm"zD/E/ FG AB (3cBA | d8 | dc BA "A7"GF ED | D8 :|
+"C"\
+|: "Dm"dc BA GF ED | {G}A8 | dc BA GF ED | {E}F8 \
+|  "Dm"dc BA "D7"GF ED | "Gm"G4 _B4  | "A7"(3GAB (3cBA (3GFG (3FED | "Dm"D8 :|
+S:https://www.folktunefinder.com/tunes/154338
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Freilach_DreideleFarAlle1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Freilach_DreideleFarAlle1_F.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

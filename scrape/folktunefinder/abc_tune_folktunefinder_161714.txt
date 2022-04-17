@@ -1,0 +1,31 @@
+X: 1
+T:Gold Ring, The
+R:jig
+M:6/8
+L:1/8
+K:G
+BAG ~A2d|cAG ~G2A|BAG A2d|cAG FGA|!
+BAG A2d|cAG GBd|~g3 afd|cAG G2A:|!
+|:~B3 Bdc|~A3 dcA|~G3 GFG|ADE FGA|!
+~B3 Bdc|~A3 dAG|FDE F2d|1 cAG G2A:|2 cAG G2g||!
+|:fdd edd|fdd edd|fdd edd|dcA GBd|!
+fdd edd|fdd ed^c|dfa ged|1 cAG G2g:|2 cAG GBd||!
+|:~g3 efd|cAG GBd|~g3 efd|cAG FED|!
+~g3 efd|~g3 efd|gfg afd|1 cAG GBd:|2 cAG G2E||!
+|:DBB DBB|DAA DAA|~G3 GBd|cAG FGA|!
+DBB DBB|DAA DAA|~G3 GBd|1 cAF G2E:|2 cAF G2A||!
+|:~B3 ~D3|~A3 ~D3|~G3 GBd|cAG FGA|!
+~B3 ~D3|~A3 ~D3|~G3 GBd|cAF G2A:|!
+|:B2G A2G|d2G G2A|B2G A2G|cAG FGA|!
+BAG AGF|GFD FGA|fag fed|cAF G2A:|!
+S:https://www.folktunefinder.com/tunes/161714
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/go/Gold_Ring_The_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

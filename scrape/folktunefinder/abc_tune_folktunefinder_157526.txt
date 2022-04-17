@@ -1,0 +1,31 @@
+X:1
+T:La femme du roulier
+C:Chanson paillarde, fichier abc : Bernard Loffet
+L:1/8
+Q:250
+K:C
+M:2/4
+ "Il"[e2A,,2A,2] "est mi-"[eA,,A,]f | "nuit, "[d2D,,2D,2] [D,,D,]"la"d | "femme"[dD,,D,]d "du rou-"[dD,,D,]e | \
+ "lier,"[c2A,,2A,2] [A,,A,]"s'en"c | "va"[cA,,A,]"de"c "port' en"[cA,,A,]d | "porte,"[B2E,,2E,2] [E,,E,]"de"B | \
+ "tavern'"[cF,,F,]B "en ta-"[AF,,F,]c | "ver-"[B2E,,2E,2] [E,,2E,2] | "ne,"[E2E,,2E,2] [E,,E,]"qui"E | \
+ "cherche son ma-"[AA,,A,]B [cA,,A,]d | "ri, tire-"[eC,,C,]e/e/ "li"[eC,,C,]"a-"e | \
+ "vec"[fD,,D,]"un-"e "ne"[dD,,D,]"lan-"e | "te-"[c2E,,2E,2] "er-"[B2E,,2E,2] | "ne,"[e2A,,2A,2] [A,,A,]"qui"e | \
+ "cherche son ma-"[AA,,A,]B [cA,,A,]d | "ri, tire-"[eC,,C,]e/e/ "li"[eC,,C,]"a-"e | \
+ "vec"[fD,,D,]"un-"e "ne"[dD,,D,]"lan-"e | "te-"[c2E,,2E,2] "er-"[B2E,,2E,2] | "ne."[A2A,,2A,2] [A,,2A,2] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/157526
+S:http://diato.ifrance.com/diato/tablat/199.abc
+S:http://diato.ifrance.com/tablat/199.abc
+S:http://diato.org/tablat/199.abc
+S:http://perso.orange.fr/diato/tablat/199.abc
+S:http://perso.wanadoo.fr/diato/tablat/199.abc
+S:http://pro.wanadoo.fr/diato/tablat/199.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/199.abc
+S:http://www.diatonique.net/tablat/199.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

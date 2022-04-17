@@ -1,0 +1,21 @@
+X:1
+T:I've Got Rings on my Fingers
+M:4/4
+L:1/8
+K:G
+ D| dd dc BB BD| Bc BA G2 z G| AB AF DD DD| AB cB A2 z D| dd dc B B2 D|\
+ Bc BA G2 z G| FA A/2G/2 F A2 z G| FA GF A2 z G/2G/2| FA GF A2 z F/2G/2|\
+ AG FE DD GB|
+M:4/4
+ d2 d4 c2| B2 B4 z2| B2 B4 A2| G6 z2| AB A4 F2| DE D4 D2| A2 B2 c2 B2|\
+ A6 d2| d2 d4 c2| B2 B4 d2| B2 B4 A2| G2 z2 e4| d2 B2 d2 B2| c2 A2 cB A2|\
+ G6 A2| G6 z2|
+S:https://www.folktunefinder.com/tunes/166834
+S:http://back.numachi.com:8000/dtrad/abc/RINGFING.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

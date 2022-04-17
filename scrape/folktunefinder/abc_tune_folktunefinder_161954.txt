@@ -1,0 +1,25 @@
+X:34
+T: Graf und Nonne (Die Nonne)
+N: Q0155g
+O: Mitteleuropa, Oesterreich / Italien, Suedtirol, Meran, Marling
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage, Tod
+M: 6/8
+L: 1/8
+K: G
+D | G2GF2G | A3D2
+D | A2AG2A | B3z2
+d | d2cE2c | c2BD2
+B | B2AE2F | G3z2
+d | d2cE2c | c2BD2
+B | B2AE2F | G3z2
+S:https://www.folktunefinder.com/tunes/161954
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

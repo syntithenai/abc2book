@@ -1,0 +1,26 @@
+X: 1
+T:The High Level
+S:Various keys, usually in B-
+M:4/4
+L:1/8
+R:Hornpipe
+K:G
+P:A
+BA|"G"GBDG B,DGB|"G"dgBd GBAG|"D7"AcFA DFAc|"D7"ed^cd ed=cA|
+"G"GBDG B,DGB|"G"dgBd GBAG|"C"EFGA Bc^cd|"D7"edcA "G"G2:|
+K:D
+P:B
+AG|"D"FdAd FdAd|"D"FDFA dAFA|"G"BdGd BdGd|"G"BGBd gdBd|
+"A7"ceAe ceAe|"A7"cAce gece|"D"dcdf "A7"egce|"D"dcde d2:|
+S:https://www.folktunefinder.com/tunes/164221
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hi/High_Level_2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

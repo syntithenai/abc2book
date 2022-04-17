@@ -1,0 +1,23 @@
+X: 1
+T: Korolenko's Backyard
+C: Jean-Paul Loyer 
+O: Qu\'ebec
+D: Jean-Paul Loyer "Ojnab"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+BA|:"G"G2G GFG|"D"D2D "G"DBA|G2G GFG | "C"G2E EAB |
+"Am"c3cBc | "G"d3dcB |1 "Am"A2A "D"AGA | "Em"BGE  "D"DBA :|2"D"AFD DBA|"G"G3 "G7" G2D ||
+|:"C"E2E E2E | E2F G2E |"G"DGG "D"AGA|"G"BAB dBG|
+"C"E2E E2E|E2F G2E|"G"DGG "D"FGA |1 "G"BGF G2D :|2 "G"BGF G2 |]
+W:revised 9/28/08
+S:https://www.folktunefinder.com/tunes/170503
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/Korolenko.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

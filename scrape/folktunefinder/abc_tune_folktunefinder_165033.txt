@@ -1,0 +1,24 @@
+X:1
+T:Howl at the Moon
+C:c. 1997 Kaubells (following an idea of Jim Thompson)
+R:Jig
+N:To be played following "Jump at the Sun"
+% E:18
+M:6/8
+K:E
+\bigskip
+\bigskip
+"E"EGB "F"B,2B,|"E"EGB "F"B,2B,|"E"EGB edc|"B7"BAG F2B,|*
+"E"EGB "F"B,2B,|"E"EGB "F"B,2B,|"E"EGB "F"=cA=F|"B7"B,^CD "E"E3:|*
+"E"B2E EDE|"B7"F2B, B,3|"E"B2E EDE|"B7"F3 "(HOWL!)"z3|*
+"E"B2E EDE|"B7"F2B, B,3|"F"=C2=F A2=c|"B7"B,^CD "E"E3:|*
+S:https://www.folktunefinder.com/tunes/165033
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/howl-at-the-moon.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

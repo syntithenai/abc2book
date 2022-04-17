@@ -1,0 +1,30 @@
+X:1
+N: A Jar of Honey
+N: 8 x 32J 2C
+P: A Jar of Honey
+C: Author
+C: Manuscript says "Devised for Winnie the Pooh"
+C: Arr. T. Traub 2003-06-16
+R: Jig
+M: 6/8
+K: G
+L: 1/8
+d|"G"B2 G "Am"c2 A|"D"def "G"gdc|"G"B2 G d2 B|"D"AFD Ddc|"G"B2 G "Am"c2 A|"D"def "G"gdB|"C"cag "D"fef|"G"gdB G2||
+d|"Am"c2 A a2 g|"D"fef def|"G"g2 d B2 d|"Am"cBc "D"A2 B|"Am"c2 A "D"a2 f|"G"gfe dBG|"Am"Aag "D"fef|"G"gdB G2|]
+Z: 1-8   1C and 2C dance 4H round and back
+Z: 9-16  1C and 2C dance 4H across and back
+Z: 17-24 1C lead down with RH, cross over between 2C, cast up round 2C on opposite sides, cross over giving LH and cast off one place on own sides.  2C move up on bars 23-24
+Z: 25-28 2C and 1C turn by RH once round
+Z: 29-32 2C and 1C turn by LH once round
+Z: repeat having passed a couple
+S:https://www.folktunefinder.com/tunes/167357
+S:http://terrytraub.org/abc/JarOfHoneyJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

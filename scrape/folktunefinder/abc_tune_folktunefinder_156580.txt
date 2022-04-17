@@ -1,0 +1,25 @@
+X: 1
+T:Fahy's jig #2
+R:jig
+C:Paddy Fahy
+S:Mulvihill's tune collection
+M:6/8
+L:1/8
+K:C
+|:DGA ~_B3|c_Bc d2g|{a}gdc Bcd|cAG =FE=F|!
+DGA ~_B3|c_Bc d2g|{a}gdc Bcd|1 cA^F G=F_E:|2 cA^F GBd|!
+|:~g3 ga^f|gdc Bcd|cAA ~=f3|ag^f de^f|!
+g2a _bag|^fdg ^fdc|A_BG Adc|1 AG^F GBd:|2 AG^F G=F_E||!
+S:https://www.folktunefinder.com/tunes/156580
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Fahys_jig_2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Fahys_jig_2_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:1
+T:Der Eckenfeger
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 46
+N:im buch ganz in G  1. ton g''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+g2 d>c | B3 B | cA AG | ed d2 |\
+g2 d>c | B3 B | cA AF | G3 :|
+A>B cA | Bc dB | AB cA | Bc d2 |\
+g2 d>c | B3 B | cA AG | ed d2 |
+g2 d>c | B3 B | cA AF | G2 G2 ||\
+d>e d>e | dB Bc | BA AB | AG GB |
+d>e d>e | dB Bc | Ac BA | G3 z ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152943
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/eckenfeger_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

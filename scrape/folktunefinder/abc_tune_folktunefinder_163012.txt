@@ -1,0 +1,29 @@
+X:1
+T:Hamburg
+R:Hamburska
+Z:C-G Magnusson, 2008-10-01
+O:Nssemark, Dalsland
+S:efter Karl Ludvig Magnusson, Nssemark
+B:Svenska Ltar
+N:Svenska Ltar, Dalsland nr 104
+M:2/4
+L:1/16
+Q:110
+K:D
+A2A2 d2cB | A2d2 f4 | f2ef g2e2 | eede fdA2 |
+A2A2 d2cB | A2d2 f4 | f2ef g2eg | f2d2 d4 :|
+|: f2f2 a2^gf | e2d2 f4 | f2ef g2{ag}eg | b2a2 a4 |
+f2f2 a2^gf | e2d2 f4 | f2ef g2{ag}eg | f2d2 d4 :|
+S:https://www.folktunefinder.com/tunes/163012
+S:http://www.folkwiki.se/pub/cache/Hamburg_6826c5.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hamburg_6826c5.abc
+S:http://www.folkwiki.se/pub/cache/Hamburg_6826c5.abcm.abc
+% Rhythm Hamburska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

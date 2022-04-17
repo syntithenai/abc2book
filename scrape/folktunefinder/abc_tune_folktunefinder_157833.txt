@@ -1,0 +1,44 @@
+X:1
+T:Finger - Polka 
+C:traditionell
+A:Bez. Mies, Staab, Pilsen, Tschechische Republik
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerl\"ander T\"anze", E. Baumann
+N:im buch nr. 11
+N:im ganz buch in F ,zweistimmig mit harmonie-buchstaben, 1. ton f'' und a', ambitus melodie e' - g''
+S:mit der angabe: Vorgespielt von Laurie Rauner 1984 in Puhoi/Neuseeland
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+V:1
+F>G AB | cd c2 | Ac B2 | Gd c2 |\
+F>G AB | cd c2 | Ac B>E | GF F2 :|
+V:2
+A,>B, FG | AB A2 | FA G2 | EB A2 |\
+A,>B, FG | AB A2 | FA G>G, | B,A, A,2 :|
+V:1
+|:\
+c=B/c/ dc | AAAz | c=B/c/ dc | GGGz |\
+eeez | dddz |1 c>A BE | GFFz :|\
+            [2 c>c de | gffz :|
+V:2
+|:\
+AA BA | FFFz | AA BA | EEEz |\
+cccz | BBBz |1 A>F GC | B,A, A,z :|\
+            [2 A>A Bc | BAAz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/157833
+S:http://simonwascher.info/TradArchiv_polka/finger-polka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

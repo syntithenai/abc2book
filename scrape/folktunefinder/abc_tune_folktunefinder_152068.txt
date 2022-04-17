@@ -1,0 +1,23 @@
+X:36
+T: Das Schwabentoechterlein
+N: Q0073N
+O: Mitteleuropa, Deutschland (DDR) , Sachsen - Anhalt
+R: Ballade, Weglaufen, Schwangerschaft, Rueckkehr
+M: 6/8
+L: 1/8
+K: G
+D | D2GG2G | G2DD2
+D | E2FG2E | E2DD2
+D | D2cc2D | D2BB2
+G | F2GA2F | A2GGz
+S:https://www.folktunefinder.com/tunes/152068
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, weglaufen, schwangerschaft, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

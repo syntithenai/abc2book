@@ -1,0 +1,55 @@
+X:1
+T:The Duellists
+C:Nigel Eaton
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:kopie eines noten-blatt-ausdruckes aus dem besitz von Nigel Eaton
+D:CD "The Duellists"
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+V:1
+V:2 bracketon
+V:3 bracketoff bass
+K:D
+V:1
+A2A^G ABG2 | A^GAB F4 | A^GAB FBAG | E2E2 F4 |\
+A2A^G ABAB |=c2BA F4 | FA^G2 E=GF2 |D8 :|
+V:2
+"D"[F4D4A,4] [F4D4A,4] | "Dmaj7"[F4C4A,4] [F4C4A,4] | "E9"[F4D4B,4^G,4] [F4D4B,4^G,4] | "Gmaj7" [F4D4B,4G,4] [F4D4B,4G,4] |\
+"F#m7"[F4E4C4A,4] [F4E4C4A,4] | "Am7"[G4E4=C4A,4] "D"[F4D4A,4] | "E7"[E4D4B,4^G,4] [E4D4B,4^G,4] | "G"[D8B,8G,8] :|
+V:3
+D,,8 | D,,4 z2D,,2 | E,,4 E,,4 | G,,4 G,,4 |\
+F,,4 F,,4 | A,,4 D,,4 | E,,4 E,,3F,, | G,,4 G,,4 :|
+V:1
+|:\
+d2dc dec2 | dcde A2ce | cBA2 FA^G2 | EGF2 E4 |\
+d2dc dede |f2ed A4 | FA^G2 E=GF2 |1 D8 :|\
+                                [2 D8 |]
+V:2
+|:\
+"D"[F8D8A,8] | "D"[F8D8A,8] | "A"[E8C8A,8] | "A"[E8C8A,8] |\
+"Bm7"[F8D8A,8] | "Bm7"[F8D8A,8] | "E7"[E8D8B,8^G,8] |1 "G/A"[D8B,8G,8] :|\
+                                                    [2 "G"[D8B,8G,8] |]
+V:3
+|:\
+D,,6 D,,2 | D,,6 D,,2 | A,,6 A,,2 | A,,6 A,,2 |\
+B,,4 B,,4- | B,,4 B,,4 | E,,4 E,,4 |1 A,,8 :|\
+                                   [2 G,,8 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154868
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_schottisch/the_duellists.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

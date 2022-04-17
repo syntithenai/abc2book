@@ -1,0 +1,17 @@
+X:1
+T:House of Gray
+M:6/8
+L:1/8
+K:Em
+E|"Am"A,A,A, =C2E|"G"DB,G, "Em"DB,G,|"Am"A,A,A, C2D|ECE ECA,|!
+"Em"GAG F2E|"G"DB,G DB,G,|"Am"A,A,A, CDE|"G"DB,G, "Am"A,2:|]!
+B,|"C"CCC G2C|ECE "G"DB,G,|"C"CCC G2C|ECE GEG|!
+"Am"AGA "Em"G2E|DB,G DB,G,|"Am"A,A,A, "C"CDE|"G"DB,G,"Am"A,2:|]!
+S:https://www.folktunefinder.com/tunes/164962
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/HouseOfGray.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

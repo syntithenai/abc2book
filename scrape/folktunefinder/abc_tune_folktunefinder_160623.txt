@@ -1,0 +1,26 @@
+X: 1
+T: Gavotte
+M:4/4
+L:1/8
+Q:220
+C:Tammless, arr. ()
+S:Chants, Danses, et Melodies de Bretagne
+R:reel
+K:ADorian
+|:a2 ge d2 ed|cA Bc BA3|a2 ge d2 ed |1 (3cBA Bc A4 :|2 (3cBA Bc A3 A||:
+AcBA G2 GF|GABc BA2 A|AcBA G2 (3GGF |1 GABc A3 A :|2 GABc A2 ed||:
+(3cBA Bc g3 f|eg fe d2 ed|(3cBA Bc g3 f |1 edcB A2 ed :|2 edcB A4||:
+A2 E2 A2 ed|(3cBA Bc BA3|A4 A2 ed |1 (3cBA Bc A4 :|2 (3cBA Bc A2 ed||:
+(3cBA Bc g3 f|eg fe d2 ed|(3cBA Bc g3 f |1 edcB A2 ed :|2 edcB A4||
+S:https://www.folktunefinder.com/tunes/160623
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gavotte_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

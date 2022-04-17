@@ -1,0 +1,30 @@
+X: 1
+T: Green Fields of America, The
+S: Sessions in Leeds, West Yorkshire
+Z: Hiroyuki Yamada
+R: jig
+M: 6/8
+L: 1/8
+T: Maid in the Meadow, The
+D: Davy Spillane & Kevin Glackin "Forgotten Days"
+Z: Contributed 20040423025241 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Gmaj
+B | cec BdB | AGA BGE | DEG AGA | BdB AGE |
+cec BdB | AGA BGE | DEG AGA | BGF G2:|
+D | GBd gfg | ede gdB | GBd gdB | AGA BGE |
+GBd gfg | ede gdB | GAB AGA | BGF G2:|
+S:https://www.folktunefinder.com/tunes/162272
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/GreenFieldsOfAmericaThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/MaidInTheMeadowThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GreenFieldsOfAmericaThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MaidInTheMeadowThe.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

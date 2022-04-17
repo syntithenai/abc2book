@@ -1,0 +1,56 @@
+X:1
+T:An dro : Matre de maison
+E:12
+Z:Roger Ngaret (94-95)
+R:andro
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=188
+"Am"c4 c4 "G"B6c2 | B4 G4 "F"A4 A4 | c4 c4 "G"B6c2 | B4 G4 "Am"A8 ::\
+A4 B4 "C"c6c2 | d4 e4 "D"e4 d4 | c4 B2c2 "F"A6c2 |1 \
+"G"B4 G4 "Em"E8 :|2 "G"B4 G4 "Am"A8 |]
+%%rm  1. Bonsoir maitre de maison  ] bis
+%%rm     Et  toute la compagnie   ]
+%%it     lantireli relanlira       ] bis
+%%rm
+%%rm  2. Je suis venu ici ce soir
+%%rm     Pour demander votre fille
+%%rm
+%%rm  3. Monsieur laquelle voulez-vous  
+%%rm     La grande ou bien la petite
+%%rm
+%%rm  4. La petite s'il vous plait
+%%rm     Car elle est la plus jolie
+%%rm
+%%rm  5. La grande est au coin du feu
+%%rm     Elle pleure, elle soupire
+%%rm
+%%rm  6. Ma fille pourquoi pleurez-vous 
+%%rm     Demain vous serez marie
+%%rm
+%%rm  7. Avec un riche marchand
+%%rm     Un marchand de mort subite
+%%rm
+%%rm  8. Il les vend toutes  Bordeaux
+%%rm      cheval sur une barrique
+%%rm
+%%rm  9. Bonsoir maitre de maison
+%%rm     Et  toute la compagnie
+%%rm
+%%rm 10. Je suis venu chez vous ce soir
+%%rm     C'est pour danser et pour rire
+S:https://www.folktunefinder.com/tunes/154505
+S:http://termen.free.fr/danses/vannetais/AndroMaitredemaison.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

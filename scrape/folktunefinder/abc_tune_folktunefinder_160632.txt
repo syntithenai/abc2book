@@ -1,0 +1,21 @@
+X: 1
+T: Gavotte
+M: 4/4
+L: 1/8
+K: Bmin
+(3dcB cd ef df|ec ed B2 Bd|(3dcB cd ef df|ec ed B2 Bf|
+|:fg fe de f2|(3fed cd ef df|B2 cd ef df|1ec ed B2 Bf:|2ec ed B2 B2||
+K: Emin
+(3GFE FG AB GB|AF AG E2 EG|(3GFE FG AB GB|AF AG E2 EB|
+|:Bc BA GA B2|(3BAG FG AB GB|E2 FG AB GB|1AF AG E2 EB:|2AF AG E2 E2||
+S:https://www.folktunefinder.com/tunes/160632
+S:http://www.thesession.org/tunes/display/4810
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

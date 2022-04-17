@@ -1,0 +1,34 @@
+X: 1
+T: Julia Clifford's
+M: 12/8
+L: 1/8
+R: slide
+K: Ador
+|: gf |
+e2 A ABd e2 d efg | eAA ABd edB Bgf |
+e3 AB/c/d e2 d e2 g | age g2 B d2 B d :|
+|: fg |
+e2 a aga aba aga | eaa aga efd efg |
+[1 e3 a^ga aba aga | edB g2 G d2 B d :|
+[2 aba gag fgf efe | dB/c/d g2 B d2 B def |
+e3 A6 z2 ||
+K: Edor
+|: d |
+B2 E E2 A B2 A Bcd | B2 E E2 F A2 F ABc |
+BEE E2 A BAA Bcd | edc d2 F A2 F A2 :|
+|: d |
+B2 e efe e2 d efe | Bee ede BAB dBA |
+[1 B2 e ede efe ede | age g2 G A2 F A2 :|
+[2 edc d2 B cBA B2 A | FEF d2 F A2 F A2 d |
+E6 z3 z2 ||
+S:https://www.folktunefinder.com/tunes/168926
+S:http://www.thesession.org/tunes/display/5162
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

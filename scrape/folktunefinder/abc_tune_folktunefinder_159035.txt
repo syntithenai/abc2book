@@ -1,0 +1,22 @@
+X: 1
+T:Four Forty Four
+C:Bill Quern 
+M:6/8
+R:Jig
+L:1/8
+K:Em
+ "Em"E2E G2G | BcB "D"AGF | "Em"EDE GFE |"D"D2B,D2B, | 
+ "Em"EDE GEG | BcB "D"AGF | "C"BcB "D"AGF |"Em"E3E3 :| 
+ "D"DFA d3 | "D"DFA"C"c3 | "D"DFA "G"Bdc |"Em"BAG "D"FED|
+ "Em"EDE GEG | BcB "D"AGF | "C"BcB "D"AGF |"Em"E3E3 :|
+S:https://www.folktunefinder.com/tunes/159035
+S:http://users.rcn.com/ladysmyth/tunes/FourFortyFour.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

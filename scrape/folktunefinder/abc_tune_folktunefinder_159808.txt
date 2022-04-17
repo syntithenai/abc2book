@@ -1,0 +1,21 @@
+X: 1
+T:The Gallowglass
+M:6/8
+L:1/8
+K:ADor
+AB|cBA eBd|cAA ABc|BAG efg|BGG GAB|
+cBA eBd|cea e2 d|cBA ^GAB|cAA A:|\
+ea|aga e=fd|cAA ABc|BAG efg|BGG G2 e|
+aga e=fd|cAA e2 d|cBA ^GAB|cAA A2 e|\
+aga e=fd|cAA ABc|BAG e^fg|BGG G2 e|
+aeg fdB|ecA BGE|ABc dBe|cAA A2||
+S:https://www.folktunefinder.com/tunes/159808
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gallowglass_4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gallowglass_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Glenn Towle
+C: R-33
+C: Dudley Laufman
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: A
+"A"A3B c2c2| "D"dcB2 "A"A4| "E7"G3A B2c2| d4 c2B2|
+"A"A3B c2c2| "D"dcB2 "A"A4| "E7"G2A2 B2G2| "A"A4 E4 :|
+|:\
+"A"c3d e2e2| "D"f2e2 "E7"d2cd| e2d2 "A"c2Bc| "E7"d2c2 B2E2|
+"A"c3d e2e2| "D"f2e2 "E7"d2cd| e2d2 c2B2| "A"A4 A4 :|
+|:\
+"A"c6 d2| "E7"e4 d4| "E"c4 B4| "A"A8| c6 d2| "E7"e4 d4| "A"c8| "E"B8|
+"A"c6 d2| "E7"e4 d4| "A"c4 "E"B4| "A"A4 B2c2| "E7"d4 "A"c4| "E7"B4 "A"A4| "E7"G8| "A"A8 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/161319
+S:http://roaringjelly.org/music/reel/R033_Glenn_Towle.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R033_Glenn_Towle.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R033_Glenn_Towle.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:60
+T: Gerstebinden
+N: Q1135B
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0135C, anderes Lied.
+R: Reigen - Lied
+M: 6/4
+L: 1/4
+K: G
+G | G2GG2G | A3A2
+A | _B2A=F2G | A3z2
+A | _B2cd2d | d2cA2
+c | _B2AG2G | =F2GA2
+A | _BA2G2=F | G3-G2
+S:https://www.folktunefinder.com/tunes/151982
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Reigen - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

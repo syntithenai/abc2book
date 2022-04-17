@@ -1,0 +1,23 @@
+X: 1
+T: Indian Summer
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+A|:ddd dAF|DFA dAF|GGG eGG|gGG eGG|
+ddd dAF|DFA dAF|GGG edc|1ddd d2 A:|2ddd dee||
+|:eff fed|eaa agf|eAA GAA|FAA EAA|
+eff fed|eaa agf|eaa agf|edc dee:|
+|:eff fdB|FBd fed|eAA GAA|FAA EAA|
+eff fdB|FBd fed|eee cBA|ABB BAA:|
+|:ABB FBB|GBB FBB|BBB dBB|eBB fBB|
+ABB FBB|GBB FBB|eee cBA|1ABB BAA:|2ABB B2||
+S:https://www.folktunefinder.com/tunes/166313
+S:http://www.thesession.org/tunes/display/2487
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

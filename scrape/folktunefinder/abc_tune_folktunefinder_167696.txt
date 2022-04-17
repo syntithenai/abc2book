@@ -1,0 +1,32 @@
+X: 1
+T:Jessie Kislin's Whistle
+M:6/8
+L:1/8
+C:David de la Barre
+R:jig
+N:Written for Jessie Kislin in honor of her creation of the silver
+N:Copeland whistle pendant ( not to mention her generous nature and kind
+N:disposition :-)
+N:
+N:Copyright  2001
+N:by David de la Barre
+N:All rights reserved
+K:G
+D| ~G3 AGA| Bge dBG| AGA BGD| EGF EDE|
+~G3 AGA| Bge dBG| AGA BGD| EGF G2:|
+A| ~B3 dBG| edc dBG| EcB AGA| BAB GED|
+~B3 dBG| edc dBG| EcB AGA| BGF G2:|
+% Output from ABC2Win  Version 2.1 i on 7/15/2001
+S:https://www.folktunefinder.com/tunes/167696
+S:http://mysite.verizon.net/vzeo7z4q/JESSIE.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

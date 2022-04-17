@@ -1,0 +1,22 @@
+X: 5
+T:Miss Drummond of Perth's Strathspey [1]
+R:strathspey
+M:C
+L:1/8
+B:Complete Tutor Violin (c. 1815)
+Z:Dr. Evan Jones, 2005
+K:C
+U:T=!trill!
+%%graceslurs false
+a | A<Ae>d B<d e2 | d<gB<g d<gBG | A<Ae>d B<de>(g | a)>eg>B {B}A2 A :|
+g | a<ae<a c<a e2 | g<gdg B<g Td2 | a<ae<a c<ae>g | a>eg>B {B} A2 Ag |
+a<ae<a c<ae>^f | g<gd<g B<gd<g | a<ae<a geg>B {B} A2 A |]
+S:https://www.folktunefinder.com/tunes/164714
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/Tune27769.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

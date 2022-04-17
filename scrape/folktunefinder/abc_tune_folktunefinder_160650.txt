@@ -1,0 +1,32 @@
+X:1
+T:Gavotte : Suite Ambroise
+K:G
+T:Ton kentan
+M:4/4
+L:1/8
+K:G
+BA FG AB A2|BA FG A2F2 :: BA FG AB A2|BA FE F2 E2:|
+BA FA BA FA|BA GE GA/2G/2 FA ::BA FA BA B2|(3ABA FD E2 D2 :|
+FG AB AB FE|FG BA G2 A2:: FG AB AB FA|AF GF E2 D2:|
+T:Tamm kreizh
+M:12/8
+L:1/8
+K:G
+AAF G3 ABA F3|DGF E2 F A2 F D3 :| ABA GAB ABA F2 D|GFG EFG A2 B F2 D|\
+ABA GAB ABA F2 D|GFG EFG A2 F D3|
+T:Ton diwezhan
+M:4/4
+L:1/8
+K:G 
+(3GFE FG Ac B2|AF AG F2 E2::(3GFE FG Ac B2|\
+(3BAB dc Ac B2|(3GFE FG Ac B2|A>F AG F2 E2:|
+S:https://www.folktunefinder.com/tunes/160650
+S:http://termen.free.fr/danses/cornouaille/GavotteSuiteAmbroise.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

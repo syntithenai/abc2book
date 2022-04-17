@@ -1,0 +1,18 @@
+X: 1
+T: Katy's Rambles
+T:Simplified Version
+R: jig
+M: 6/8
+K: Dm
+"Dm"A2d c2A |fga  "C"g3 |"Dm"d2d  "F"c2F |"Gm"GFG  "Dm"A3 |
+"Dm"A2d c2A |fga  "C"g3 | "Bb"d2d c2G | "A7"Ad^c "Dm"d3 :|
+|: "Dm"f3 f3 | fga a3 |  "C"e3 e3 |     efg  "A7"g3 |
+  "Dm"f2a "C"g2b | "Bb"a2d "Am"e3 | "Gm"f2d c2G | "A7"Ad^c "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/169390
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/KatysRamblesSimple.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

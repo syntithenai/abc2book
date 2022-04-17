@@ -1,0 +1,28 @@
+X:1
+T:Greensleeves (Jig)
+C:abc file by Bernard Loffet
+L:1/8
+Q:302
+M:3/8
+K:C
+zAB|[cA,]z[cA,]|[cA,]d[eA,]|[dG,]B[GG,]|[GG,]A[BD,]|[cF,]A[AF,]|[AF,]B[cF,]|[BE,]E[EE,]|[EE,]A[BA,]|[cA,]z[cA,]|[cA,]d[eA,]|[dG,]B[GG,]|[GG,]A[BD,]|[cF,]B[AF,]| \
+[BG,]z[GG,]|[AA,]z[AA,]|[AA,]e[fA,]|[gC,]z[gC,]|[gC,]f[eC,]|[dG,]B[GG,]|[G2G,2][zG,]|[aF,]z[aF,]|[aF,]b[aF,]|[gC,]e[cC,]|[cC,]e[fG,]|[gC,]c[eC,]|[gC,]f[eC,]| \
+[dG,]z[BG,]|[GG,]A[BD,]|[cF,]B[AF,]|[BG,]z[GG,]|[AA,]z[AA,]|[A3A,3]| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/162516
+S:http://diato.ifrance.com/diato/tablat/29.abc
+S:http://diato.ifrance.com/tablat/29.abc
+S:http://diato.org/tablat/29.abc
+S:http://perso.orange.fr/diato/tablat/29.abc
+S:http://perso.wanadoo.fr/diato/tablat/29.abc
+S:http://pro.wanadoo.fr/diato/abc/29.abc
+S:http://pro.wanadoo.fr/diato/tablat/29.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/29.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/29.abc
+S:http://www.diatonique.net/tablat/29.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

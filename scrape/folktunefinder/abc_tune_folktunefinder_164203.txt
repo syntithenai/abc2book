@@ -1,0 +1,25 @@
+X: 2
+T:Highland Mary, Oddington
+M:4/4
+L:1/8
+A:Oddington
+P:A(A2B2)3
+K:G
+P:A
+|:D2|G2AG F2D2   |G2AB c2Bc   |d2Bd c2BA|1G2FE F2 :|2G2F2 G2||
+P:B
+B2|d2d2 d2(3edB|c2c2 c2Bc   |d2d2 dcBA| G2FF D2D2|
+G2AG F2D2   |G2AB c2(3AcA|d2ed c2BA| G2F2 G2  ||
+S:https://www.folktunefinder.com/tunes/164203
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Oddington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Oddington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

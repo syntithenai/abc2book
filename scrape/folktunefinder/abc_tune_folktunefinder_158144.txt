@@ -1,0 +1,19 @@
+X:1
+T:Five in a Bed
+C:Andy Anderson
+M:C
+L:1/8
+K:G Major
+Bc "A"| dgfe d2 c2 | BABc B2 G2 | ABcA B2 A2 | Bcde d2 Bc | dgfe d2 c2 |\
+BABc B2 G2 | ABcA B2 A2 | G2 F2 G4 "B"|| FAAA GBBB | FAAA GBAG |\
+FAAA GBBB | FAGF G4 | FAAA GBBB | FAAA GBAG | FAAA GBBB | FAGF G4 Bc |]
+S:https://www.folktunefinder.com/tunes/158144
+S:http://www.mit.edu/~jcb/MOTley/dances/five-in-a-bed-tune.shtml
+S:http://www.mit.edu/%7Ejcb/MOTley/dances/five-in-a-bed-tune.shtml
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

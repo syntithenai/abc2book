@@ -1,0 +1,27 @@
+X:0189
+T:"Geraldine's Daughter"        (air)        0189
+C:Unattributed
+C:slowly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_vb"D3/2E/2|(G3A) (B3/2A/2)|G4(G3/2A/2)|B3/2c/2 d2d3/2c/2|B2B2e3/2f/2|
+g zg2(f3/2e/2)|d2(d3/2c/2) (B3/2c/2)|d g3(g3/2a/2)|g4g2||
+=f e3(d3/2c/2)|B2B2d2|e3/2f/2 g3/2a/2 b3/2a/2|g g3(e/2d/2c)|
+B2A2G2|F2G3/2A/2 B3/2c/2|d2c3/2B/2 A3/2G/2|G G3|]
+S:https://www.folktunefinder.com/tunes/160821
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/189-GeraldinesKid.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/189-GeraldinesKid.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-101-200/189-GeraldinesKid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

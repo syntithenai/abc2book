@@ -1,0 +1,20 @@
+X: 1
+T: Hop, The
+M: 12/8
+L: 1/8
+R: slide
+K: Dmaj
+|: A2F DFA B2A d2e | f2b afb afd e2f | 
+A2F DFA B2A d2e |1 f2b afd edB dcB :|2 f2b afd edB def ||
+|: a2a afd ede fdB | efe edf edf efg | 
+a2a afd ede f2e |1 dBA F2E DFA def :|2 dBA F2E DFA dcB ||
+S:https://www.folktunefinder.com/tunes/160305
+S:http://www.thesession.org/tunes/display/5748
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Dick's Maggot
+N: from the Nottingham Music Database
+S: Playford
+B: Cecil J Sharp "Country Dance Tunes" Set XI #15
+M: 3/2
+L: 1/8
+F: http://www.guitarnut.com/nmd/playford.txt
+K: G
+|: "G"g2d2-    d2B2- "D7"B2A2 |  "G"Bcd2 "D7"ABc2   "G"B4 \
+|  "G"g2d2-    d2B2-  "C"B2A2 | "Am"Bcd2 "D7"G2F2   "G"G4 \
+:: "D"f2a2-    a2f2-     f2d2 |  "G"gab2 "A7"efg2   "D"f4 |
+| "Fm"f2a2-    a2f2- "Bm"f2d2 | "Em"def2 "A7"AB^c2 "D7"d4 \
+|  "G"Bcd2 "G7"Bcd2   "C"e4   | "Am"efg2     efg2  "D7"f4 \
+|  "G"g2d2-    d2B2-  "C"B2c2 | "Am"A4-  "D7"A4     "G"G4 :|
+S:https://www.folktunefinder.com/tunes/153363
+S:http://www.guitarnut.com/nmd/playford.txt
+S:http://www.guitarnut.com/nmd/playford.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/DicksMaggot_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/DicksMaggot_G.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

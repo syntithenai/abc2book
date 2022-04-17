@@ -1,0 +1,36 @@
+X:1
+T:Heuboden
+C:traditionell
+R:Zwiefach
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort ganz in F, einstimmig mit harmonie-buchstaben, Seite 217
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 4/4
+L:1/8
+K:F
+C DE |\
+F4 c4 | A4 F4 | FEEC DE | GF FC DE |
+F4 c4 | A4 F4 | FE ECDE | F3 |
+|: A GF |\
+FE ECDE | GF FAGF | FE ECDE | GF FC DE |
+F4 c4 | A4 F4 |1 FE ECDE | F3 :|\
+              [2 c2 Bcde | f3 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164004
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/heuboden.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

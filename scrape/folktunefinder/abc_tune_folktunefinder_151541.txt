@@ -1,0 +1,26 @@
+X:12
+T: Koenig und Marquise
+N: Q0013C
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kr. Saargemuend,
+N: Melodievariante zu Q0035: anderes Lied "Graf Backenweil" , deshalb
+N: der Balladengruppe Q0013 zugeordnet.
+N: Kleinere Melodievarianten aus anderer Quelle abgedruckt.
+R: Ballade, Krieg, Gefangenschaft, Ehe, Heimkehr
+M: 3/4
+L: 1/16
+K: G
+B2B2A2 | G6G2A2A2 | B6
+B2B2A2 | G3GG2G2A2A2 | B4
+B2B2B2B2 | A6Bc | d6c2
+B4B2B2 | A2G2A2B2B2AG | A4
+A2dc | BGG2B2c2B2A2 | A4G2
+S:https://www.folktunefinder.com/tunes/151541
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, krieg, gefangenschaft, ehe, heimkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:the Terror of Death
+T:s eagal leam a mbas
+Z:Jack Campin  2006  http://www.campin.me.uk/
+S:Daniel Dow, Ancient Scotish Music, 1778 or 1783
+N:Dow attributes this to the harpist Rory Dall (who may have been two
+N:people, one of them Irish and one Scottish a hundred years apart, or
+N:they may both have been the same Irishman, there are several competing
+N:stories all asserted with utter authoritativeness).
+N:Dow printed it in a keyboard arrangement with a godawful bass line which
+N:I have left out.
+N:Works pretty well on the alto flute or the ud (it's quite similar to some
+N:classical Middle Eastern compositions); I haven't heard anyone but me play it.
+M:3/4
+L:1/8
+Q:1/4=100
+K:A Minor
+d|d>c (d/c/d/e/) f2| eAAA          A2| dGGG        G2             |    cFFF                  F2       |
+  GFEE           E2| DEFG          A2| G3         EDC             |   (C/D/E/F/) A   A,3              |
+  d>c (d/c/d/e/) f2| adaa          a2| gcgg        g2             |    agff                  f2       |
+  gfee           e2| defg          a2| g3         edc             |   (c/d/e/g/) a   A2          A-   |
+  AG   A/B/c/B/  A2| GAcA          G2|(FGAG)       F2             |({F}E2)   ({G}F2)         A2       |
+  G2   F2        E2| DA,       D3   E|(F/D/E/C/) D3         A     |    A2       (A/G/F/E/)  (D/E/F/G/)|
+  A2   E2        E2|(E/F/G/F/) E2  E2| F>GFE     (3D/E/F/ (3G/A/B/|    c2        G2          G2       |GA   cA   G2 |
+  FGAB           c2| GFEE          E2| DEFG        A2             |    G3            EDC              |CD (3EGA A,3|]
+S:https://www.folktunefinder.com/tunes/163684
+S:http://www.campin.me.uk/Music/Halloween.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

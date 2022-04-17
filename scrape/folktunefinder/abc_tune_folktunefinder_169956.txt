@@ -1,0 +1,19 @@
+X:1
+T:King Henry
+M:2/4
+L:1/16
+K:F
+ D2| D d3 dc A2|G-A c2A-G F2| D d3 c3 A| G4| F3 G|A-B A2A-G F2| D2D2D-E F2|\
+ G2G2A-G F2| C2- D6| z4 z2||
+S:https://www.folktunefinder.com/tunes/169956
+S:http://back.numachi.com:8000/dtrad/abc/KINGHNRY.abc
+S:http://sniff.numachi.com/abc/KINGHNRY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/KINGHNRY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

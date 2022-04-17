@@ -1,0 +1,60 @@
+X:3
+%%topspace 0
+%%stretchstaff false
+%%staffsep 18pt
+T:Sarabande
+C:BWV997/3
+L:1/8
+M:3/4
+K:Cm frenchtab
+[ffg,a3/]:h//.i [h,i,,,,,,a1].[f,g][ea,,,,,,,a].[f,g] |\
+[,dfda3/]:,,,,c//.,,,,d :,,,,c1.,,,,a:,,,,,e.,,,,a |\
+[L:1/16][,dfd,e1].,g:,f.,d [h,ig,,,,,a3].f1 [e,,,,,,,,a].,g:,f.,d |\
+[,b,,a1].,a:,b.,a :,,d.,,,c:,,d.,a :,b.,d:a.b |
+% Takt 5
+[d,,,a1].a.[,cb2] ,,,,,,,,,a1.,,e:,,d.,,b [,,d,,,,,,a].,,b:,,,d.,,,c |\
+[,,,da1].,c:,d.e [f,,,,,,,,a].,,,d:,,,c.,,,a [,,,c,,,,,a].,d:,b.e |\
+[f,,,a1].,,,c:,,,b.,,,,e [,,,b,,,,,a].,,a:,,d.,b [,a,,,,,,,a].,,c:,,d.c |\
+[,bdb,a4][,acc2].,,,a:,,,,d.,,,,c |
+% Takt 9
+[,b,,a1].,d:a.a [a,,,,d].b:d.d [d,,,,,d].f:g.g |\
+[g,,,,a1].d:d.a :a.,b[,bb].,,e [,,e,d].,,d[,,ec].d |\
+[,,dd1].,,e:,,g.,,g [,b,c].,d:a.a [a,,a].b:d.d |
+% Takt 12
+[d,,,e1].a:a.,c :,c.,,d[,,dc].,,b [,,b,a].,,,d[,,,fe].a |\
+[,,,df1].,,,c:,,,a.,,,c :,,,d.,,b[,,d,,,a].,a [,b,,,a].,a[,,d,,b].,b |\
+[,a,,,d1].,,d:,,b.,,d :,a.,b[,d,,,d].a [b,,,a].a[,d,,c].b |
+% Takt 15
+[a,,,d1].d[,g,,a].f [d,,,,a].,,g[,a,,,b].,b [b,,,,d].a[,db].,b |\
+[1[L:1/8][,bbc,,,a1].,,,,d:,,,,d.,,,,c:,,,,c.,,,,a :|\
+[2[,bbc,,,a6] |:\
+[abb,d3/]:b//.d [b,d,,,,a1].[a,,f][,d,d,,,a].[,b,c] |
+% Takt 19
+[c,dad3/]:,,,a//.,,,c :,,,a1.,,,,d:,,,,c.,,,,a |\
+[ddbac3/]:f//.h [f,,cd/].d:c.a [,daa].,a[,bd].f |\
+[,bda,d/].,a:,b.,d [,ab1].,,,,c[hi,,,a],,,,,,f |\
+,,,,,,,a1.[fh][fh][df].[df][ce,,a] |
+% Takt 23
+.[ce1][df,f/].f [,bde1].,,,c[,a,b]:,,,c/.,,a |\
+[L:1/16],,,,,d1.,c:,e.a [c,,,a].f:d.c [d,,,c].a:c.,e |\
+[L:1/8][aab,,a1].,,,c[d,,c][,,ea][,,ea][,,d,e] |\
+[L:1/16][,,dce1].b:a.a :a.,d[,c,,a].,c [,c,c].,a[,,d,e].,,d |
+% Takt 27
+[,,df1].,c[,c,c].a [a,,,e].d[d,,c].g [f,,,e].d[b,,,a].a |\
+[b,,a1].a:,d.,d :,d.,b[,a,,,,a].,a [,a,a].,,d[,,b,c].,,b |\
+[,,bd1].,a[,a,a].,d [,d,,c].b[b,,a].f [d,,,c].b[a,,,,d].,d |
+% Takt 30
+[a,,,d1].b:a.,d :,b.,a[,,dc].,,c [,,d,d].,b[a,,,a].,,b |\
+[,,,d,,a1].,d[,,,c,a].,b [,,,a,b].,a[,,,,da].,,d [,,,,c,a].,,c[,d,,,,,,a].b |\
+[a,,,,,,a1].e[f,,,,,,,a].b [,e,,,,,a].a[,,c,,b].,,d [,d,,,a].,b[,a,,,a].,,d |\
+[1[L:1/8][,,dcd,,,,a1].,,,,a:,,,,a.,,,,c:,,,,c.,,,,d :|\
+[2[,,dc,,,,,a6] |]
+S:https://www.folktunefinder.com/tunes/154026
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

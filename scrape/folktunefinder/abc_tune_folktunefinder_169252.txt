@@ -1,0 +1,26 @@
+X:1
+T:Kas a barc'h : Kleg live
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:andro
+C:Trad.
+S:Kleg live
+A:Bretagne
+M:4/4
+L:1/8
+K:C
+A2 cB A3 e | d2 cd BABc | A2 ^GA B2 Bc | A2 Ac B4 |\
+A2 cB A3 e | d2 cd BABc | A2 ^GA cAB^G | Acec A4 ::\
+A2 ^GA e3 f | ecde f2 gf | e2c2 A2 ce | d2 dc B4 |\
+A2 ^GA e3 f | ecdc B2 ec | A2 ^GA cAB^G | A2 ce A4 :|
+S:https://www.folktunefinder.com/tunes/169252
+S:http://termen.free.fr/danses/vannetais/KasabarchKleglive.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

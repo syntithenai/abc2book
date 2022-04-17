@@ -1,0 +1,22 @@
+X: 1
+T:Jig
+C:Henrik Norbeck
+R:jig
+N:April -91
+M:6/8
+K:Dmix
+~A3 dcA|dcA GED|~A3 dcA|dag edc|~A3 dcA|dcA cde|gag edB|1 cAA A2G:|2 cAA A2B||
+cee gee|aee ged|cee gee|aga ged|cee gee|aee geg|aba ged|cAA A2B|
+~c3 gcc|acc ged|~c3 gcc|aga ged|~c3 gcc|acc geg|aba ged|cAA A2G||
+S:https://www.folktunefinder.com/tunes/167725
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ji/Jig_13.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

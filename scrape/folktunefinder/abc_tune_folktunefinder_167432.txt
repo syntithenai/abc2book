@@ -1,0 +1,20 @@
+X:16
+T:Joyeuse Lumire
+M:none
+L:1/4
+%%staves (1 2)
+K:Eb
+V:1
+G(3AGA B2 (3:2:2G2G (3GFG (3AGA B2 G2|cc BAB2 "Rall"AAG2||
+V:2
+E(3FEF G2 (3:2:2E2E (3EDE (3FEF G2 E2|EE EEE2 EDE2||
+S:https://www.folktunefinder.com/tunes/167432
+S:http://moinejf.free.fr/messe/messeJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

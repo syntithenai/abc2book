@@ -1,0 +1,25 @@
+X: 1
+T:Kas a barc'h TradFrance
+Z:Roger Ngaret (Mai 2000)
+C:Trad.
+S:Site www.tradfrance.com
+A:Bretagne
+M:4/4
+L:1/8
+K:G
+%%rm
+"Em"E2 B2 B2 Bc | "G"A2 AB G4 | "F#dim"FG AF G2 E2 |1
+"Em"ED EF G2 F2 :|2 "Em"GE FD E4 ::
+"F#dim"FG AF G2 E2 | "Em"ED EF G2 F2 |
+"F#dim"FG AF G2 E2 | "Em"GE FD E4 :|
+S:https://www.folktunefinder.com/tunes/169257
+S:http://termen.free.fr/danses/vannetais/KasabarchTradFrance.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

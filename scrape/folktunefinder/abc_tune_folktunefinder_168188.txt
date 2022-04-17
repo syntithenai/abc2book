@@ -1,0 +1,30 @@
+X: 1
+T: John Doherty's
+M: 3/4
+L: 1/8
+R: mazurka
+K: Cmaj
+EF|:G^F G2 c2|d2 A2 dc|cB AG AB|AG E2 EF|
+G^F G2 c2|d2 A2 dc|cB AG AB|1 c4 EF:|2 c3d ed||
+K: Gmaj
+|:dc AF DF|GF GA Bc|ed ^cd =cA|BG D2 ed|
+dc AF DF|GF GA Bc|ed ^cd =cA|1 G2 c2 ed:|2 G2 c2 E=F||
+K: Cmaj
+|:G^F G2 c2|d2 A2 dc|cB AG AB|AG E2 EF|
+G^F G2 c2|d2 A2 dc|cB AG AB|1 c4 EF:|2 c6||
+K: Fmaj
+|:C3D E2|F3G A2|B2 G2 c2|A2 F2 c2|
+C3D E2|F3G A2|B2 G2 c2|1 F6:|2 F3F EF||
+S:https://www.folktunefinder.com/tunes/168188
+S:http://www.thesession.org/tunes/display/7125
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X: 1
+T: Johnny An Gabha
+M: 2/4
+L: 1/8
+R: polka
+K: Dmaj
+|: A |
+D2 FA | B>A FA | B2 B>c | BA FA |
+DC/D/ FA | BA F/G/A | Be Bc | ed d :|
+|: A |
+d2 c2 | BA FA | Be B>c | BA FA |
+de/d/ cd/c/ | BA FA | Be B>c | ed d :|
+K: Gmaj
+|: d/B/ |
+G>A B/c/d | ed Bd | ed ef | ed B/c/d/B/ |
+G2 BG/B/ | ed Bd | e>d ef | ag g :|
+|: B/d/ |
+g2 f2 | e>d Bd | ed ef | ed B/c/d |
+g2 GB/d/ | e/f/e/d/ Bd | e/f/e/d/ e>f | ag g :|
+K: Dmaj
+|: A |
+D2 FA | BA FA | Be B>c | BA FA |
+D2 FD/F/ | BA FA | Be Bc | ed d :|
+|: F/A/ |
+d2 c2 | BA FA | Be B>c | BA FA |
+[1 de/d/ c2 | BA FA | Be B>c | ed d :|
+[2 DC/D/ FD/F/ | B>A FG/A/ | B/c/e B>c | ed d ||
+S:https://www.folktunefinder.com/tunes/168394
+S:http://www.thesession.org/tunes/display/4763
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

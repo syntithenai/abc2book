@@ -1,0 +1,16 @@
+X:1
+T:The Echo Mocks the Corncrake
+M:4/4
+L:1/8
+K:F
+ D| D3 E F2G-A| c3 c F3 A| G3 ED D3| D4 z E| F3 E F2G-A| c3 c F3 A|\
+ G3 d c2d-e| d4 z2 z F| F3 E F2G-A| c3 c F3 A| G3 d c2d-e| d4 z2 AA|\
+ A3 d c3 F| F- A3 G3 E| D3 ED D3| D8|
+S:https://www.folktunefinder.com/tunes/155587
+S:http://back.numachi.com:8000/dtrad/abc/CORNCRK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

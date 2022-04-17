@@ -1,0 +1,32 @@
+X: 1
+T: Janet's Reel
+C: John Davidson (Perth)
+B: RSCDS 42-9
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"c2cB A2AG | "D"FEFA "E7"E2ED \
+|1,3 "A"CEAc "F#m"ecBA | "B7"c2B2 "E7"B2 \
+:|2,4 "A"CEAc "E7"dBed | "A"c2A2 A2 :|
+|: E2 \
+| "A"A2AE CA,CE | "D"FDFA "A"ECEA \
+|1,3 "D"FDFA "A"ECEA |"E7"G2B2 B2 \
+:|2,4 "E7"GBEG BGeB | "A"c2A2 A2 :|
+y2e2 \
+| "A"aecA ECA,E | "D"DCDF "A"ECEA \
+|1 "D"DCDF "A"ECEA |"E7"G2B2 B2 \
+:|2 "E7"GBEG BGed | "A"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/167335
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r40/JanetsReel_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r40/JanetsReel_A_AABBC.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/JanetsReel_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

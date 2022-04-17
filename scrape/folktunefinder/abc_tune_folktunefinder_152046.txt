@@ -1,0 +1,27 @@
+X:14
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q2072M
+O: Nordeuropa, Finnland (Schwedische Nationalitaet)
+N: Finno-schwedische Fassung der Ballade.
+N: Doppelter Refrain in Zeile zwei und vier.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: 2/4
+L: 1/16
+K: D
+D2 | D2E2=F2G2 | A2A2G2A2 | =c3_BA2^G2 | A2z2
+A2A2 | A8 | d8 | =c3_BA3^G | A4z2
+A2 | A2=c2c2_B2 | A4A2G2 | =F3EF3G | A4
+G2=F2 | D8 | A8 | =F3ED2C2 | D4z2
+S:https://www.folktunefinder.com/tunes/152046
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

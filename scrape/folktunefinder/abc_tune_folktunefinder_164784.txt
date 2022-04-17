@@ -1,0 +1,26 @@
+X: 1
+T: Hora Ca Din Caval
+S: Zamfir "Les Fl\^utes Roumaines"
+Z: 2007 John Chambers <jc@trillian.mit.edu> from printed MS by Barbara Pixton dated 1993
+M: 4/4
+L: 1/8
+K: Ador=c^d
+"A"\
+|: "Am"ABcd ede2 | cAc2 "Adim"d3c | "Am"ede2 cAc2 | "Adim"e3c "Am"e2z2 |
+|  "Am"ABcd "/g"ede2 | "/f#"cAc2 "/d#"d3c | "E"ede2 "/G#"cdec |1 "Am"Aece A2z2 :|2 "Am"A4 z4 ||
+"B"\
+|: "C"efgf aggf | feed "Aeim"d3c | "Am"ece2 cAc2 | "Adim"d3c e2z2 |
+| "Am"a2a2- "/g"a2g2 | "/f#"fefe "/d#"d3c | "E"ede2 "/G#"cdec |1 "Am"Aece A2z2 :|2 "Am"A4 A2z2 ||
+"C"\
+|: "Am"e2d2 e2e2 | cAc2 "Adim"d3c | "Am"e2e2 cAc2 | "Adim"d3c "Am"e2z2 |
+|  "Am"e2d2 "/g"e2e2 | "/f#"cAc2 "D#dim"d3c | "Am/E"e2e2 "D"cdec | "Am"A4 z4 :|
+S:https://www.folktunefinder.com/tunes/164784
+S:http://trillian.mit.edu/~jc/music/abc/Intl/hora/HoraCaDinCaval_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:1
+T:Duo en r\'e mineur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle14.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:2/4
+L:1/16
+K:Dm
+V:1
+"^Andante"d2d4(ef)|(e2^c2 d2)(df)|a2a4(gf)|{f4}e8|g2g4(ab)|a2a4((gf)|
+e2(gf) (ed)(^cd)|{f4}e8::(A2g2) z (gfe)|(f2d2) z (fed)|(A2g2) z (gfe)|
+(f2d2) z (dfa)|b2b4(ag)|f2a4(gf)|e2(gf) (ed)(^ce)|{e4}d8:|
+V:2
+F2F4(GA)|(G2E2 F2)z2|f2f4(ed)|{d4}^c8|e4d4|^c4d4|
+G2(BA) (GF)(ED)|A2A2A4::^c2e2A2c2|d2f2A2d2|^c2e2A2c2|
+d2f2a2 z2|^c4c4|d2f4(ed)|G2(BA) (GF)(EG)|{G4}F8:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155035
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle14.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle14/devienne-nouvelle14.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle14/devienne-nouvelle14.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

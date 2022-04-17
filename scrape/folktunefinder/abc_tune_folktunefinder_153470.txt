@@ -1,0 +1,22 @@
+X:2
+T:Dingle Regatta
+M:6/8
+L:1/8
+Z:id:dc-slide-9
+K:G Major
+d^cd e2d|BAB d2B|ABA AGA|B2A G2 B|!
+d^cd e2d|BAB d2B|ABA B2A|G3 G3:|!
+d2 d def| g2 g gfg| a2 a aga| b2a gfe|!
+d2 d def| g2 g gab|a2g f2e|def g3:|!
+g3 d2 d| BdB G3| FAF DEF| G2 B d3|!
+g3 d3| BdB G3| FAF DEF| ~G3 G3:|!
+S:https://www.folktunefinder.com/tunes/153470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/DingleRegatta_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

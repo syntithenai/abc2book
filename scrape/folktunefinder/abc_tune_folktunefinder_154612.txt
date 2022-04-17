@@ -1,0 +1,19 @@
+X: 1
+T: Drowsy Maggie
+R: reel
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: EDor
+|: "Em"E2BE dEBE | E2BE "D"AFDF | "Em"E2BE dEBE | BABc "D"dAFD :|
+|| "D"d2fd "A7"c2ec | "D"defg afge | "D"d2fd "A7"c2ec | "G"BABc "D"dAFA |
+|  "D"d2fd "A7"c2ec | "D"defg afge | afge "A"fdec | "G"BABc "D"dAFD |]
+S:https://www.folktunefinder.com/tunes/154612
+S:http://www.firepowr.com/abc/DrowsyMaggie.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

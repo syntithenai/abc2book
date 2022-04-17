@@ -1,0 +1,24 @@
+X:6
+T:O'Neill's March
+Z: id:dc-miscellaneous-4
+M:2/4
+L:1/8
+K:E Dorian
+Bg fa|eg g/f/e/d/|Bg fa|eg g/f/e/d/:|!
+ee f/e/d/B/|ee f/e/d/B/|ee f/e/d/B/|ee f/e/d/B/|]!
+K:A Dorian
+A>B G>B|Ae e/d/B|A>B G>B|Ae e/d/B:|!
+eA AB/d/|e>d Bd|eA AB|G>A Bd|!
+eA AB/d/|e>d Bd|ed gB|A2 A2:|!
+ea ag/a/|b>a ge|dB gB|d/c/B/A/ G/A/B/G/|!
+ea ag/a/|b>a ge|dB gB|A2 A2:|!
+S:https://www.folktunefinder.com/tunes/153834
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Misc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

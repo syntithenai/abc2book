@@ -1,0 +1,41 @@
+X:1
+T:Egerische Polka
+C:traditionell
+R:polka
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:E.Baumann, Alt-Egerlaender Taenze
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+D |\
+BD Bc/B/ | AD A>B | c>B cd | BB/A/ GD |
+BD Bc/B/ | AD A>B | de d/c/B/A/ | GG G :|
+|: z |\
+A>B c/B/c/d/ | ed/d/ dB | dc/c/ cA | BB/c/ d2 |
+A>B c/B/c/d/ | ed/d/ dB | dc/c/ cA | GG G :|
+K:C
+|: (3G/A/G/ |\
+EE EF | G2 c2 | AA Ac | G4 |
+dd d>c | BA G2 | gg g>f | ed c(3G/A/G/ |
+EE EF | G2 c2 | AA Ac | G4 |
+dd d>c | BA G2 | ^F/G/B/d/ g>B | cc c :|
+K:G
+z |\
+dB eB | dA c/B/A | dA c/B/A | dB eB |
+dA c/B/A | dA c/B/A | GB Gz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155769
+S:http://simonwascher.info/TradArchiv_polka/egerische_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

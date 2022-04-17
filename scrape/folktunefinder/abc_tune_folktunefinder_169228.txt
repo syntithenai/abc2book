@@ -1,0 +1,26 @@
+X: 1
+T: Karis Pers Polska
+I: Karis Pers PolskaM-7Dpolka
+C: M-7
+C: Hook Olof (Paul Backstrom)
+M: 3/4
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: D
+"D"A2 A>B A>G| G<F FD F>A| A<d d>e d>c| "G"cB B>G B2|
+"A"e2 e>f e>d| dc c>A c>e| a2 a>g f>e|1 "D"d>e f>g a2 :|2 "D"cB/c/ d4 |]
+\
+ "G"g2 eg e>g| "D"fe d>c d>f| "A"fe    e>A B>c| "D"d>e f>g a2|
+ "G"g2 eg e>g| "D"fe d>c d>f| "A"fe "D"e>A B>c|    c<d d2 |]
+%%text 9/1/98.  Formerly R-40
+S:https://www.folktunefinder.com/tunes/169228
+S:http://roaringjelly.org/music/march/M007_Karis_Pers_Polska.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/march/M007_Karis_Pers_Polska.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/march/M007_Karis_Pers_Polska.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

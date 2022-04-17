@@ -1,0 +1,22 @@
+X:8
+T:Sunset
+Z: id:dc-miscellaneous-5
+M:C
+L:1/8
+K:D Mixolydian
+ed|^cFF2 Bcdc|BGBd e2ed|cdeg d2Ad|dfed ^cded|!
+^cFF2 Bcdc|BGBd e2ed|cdeg fde^c|dfe^c d2:|!
+ag|fdfg a2gf|ecef g3a|fggf gfe^c|dfed ^cded|!
+^cFF2 Bcdc|BGBd e2ed|cdeg fde^c|dfe^c d2ag|!
+=fdfg a2gf|ece=f g3a|fggf gfe^c|dfed ^cded|!
+^cFF2 Bcdc|BGBd e2ed|cdeg fde^c|dfe^c d2|]!
+S:https://www.folktunefinder.com/tunes/153836
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Misc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

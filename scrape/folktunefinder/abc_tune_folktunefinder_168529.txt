@@ -1,0 +1,22 @@
+X: 1
+T: Johnny Sunshine
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+G,A,|:B,G D/2D/2D EFGE|EDB,A, G,A,B,C|{F}G3D EFGE|EDB,A, G,A,B,C|
+{F}G3D EFGE|EDB,G, CDED|{F}G3D EDEF|GEDB, C3 A,:|
+|:B,3 G EFGA|BGDB cAFA|{c}d3B c2dc|BAGD E2 DC|B,G D/2D/2D EFGA|
+BGDB cAFA|1 d3B cAAc|BGDF GEDC:|2 d3B cAdc|BGDF GABc|
+|:dg g/2g/2g fdgf|fdcA G2Ac|da a/2a/2a fdcA|FGAF DABc|
+dg g/2g/2g fdgf|fdcd edef|gd e/2e/2g dBcA|1 B/2B/2B AF DABc:|2 B/2B/2B AF GEDC||
+S:https://www.folktunefinder.com/tunes/168529
+S:http://www.thesession.org/tunes/display/6095
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

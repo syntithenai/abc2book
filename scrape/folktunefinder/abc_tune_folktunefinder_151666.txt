@@ -1,0 +1,25 @@
+X:137
+T: Die elfjaehrige Markgraefin
+N: Q1053O
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0053B, anderes Lied.
+R: geistlich
+M: 6/4
+L: 1/4
+K: F
+cccd | c2ffde | f2
+cffg | fedc2d | c2
+ccdc | AGAFDE | F2
+Acdc | AGAFDE | F2
+S:https://www.folktunefinder.com/tunes/151666
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

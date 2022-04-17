@@ -1,0 +1,28 @@
+X:97
+T: Der schwatzhafte Junggeselle
+N: Q2139L
+O: Mitteleuropa, Niederlande
+N: Schlusspause weggelassen. Niederlaendische Fassung der Ballade.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 6/8
+L: 1/16
+K: G
+G2 | G2D2B2B2G2d2 | d4dcB4
+d2 | d4e2e2d2e2 | d6z4
+d2 | d4g2g2f2g2 | d6B2z2
+d2 | d4c2c2B2c2 | B6z4
+B2 | B6A6 | B2c2d2g2f2e2 | d6c6 | B6z4
+d2 | g4fgd4e2 | d2g2
+f2e2d2c2 | B6A6 | G6-G4
+S:https://www.folktunefinder.com/tunes/152019
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

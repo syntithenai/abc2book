@@ -1,0 +1,27 @@
+X:1
+T:Karwochenlied
+A:Oberoesterreich
+B:"Volkslied u. Volksmusik in O.Oe., Heft 21, 29 Fasten-, Passions- u. Osterlieder", Zusammenstellung: A. Bloechl, Herausgeber: Oberoesterreichisches Volksliedwerk, Linz 1996
+N:eingerichtet von S.Wascher
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:6/4
+L:1/4
+K:Gm
+G |\
+B2A GFB/c/ | d2c/A/ B2G | B2A GFB/c/ | d2c/A/ B2 ||
+d |\
+ccd BGA | BGF G2d | ccd BGA | BGF G2 |]
+S:https://www.folktunefinder.com/tunes/169248
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/karwochenlied.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

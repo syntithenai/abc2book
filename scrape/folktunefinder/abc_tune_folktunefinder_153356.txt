@@ -1,0 +1,26 @@
+X: 2
+T: Dick Sands Clog Dance
+T: Dick Sands' Hornpipe
+B: Howes 1000 Jigs and Reels, 1867, page 31
+B: Ryan's Mammoth Collection of Fiddle Tunes, 1883, page 135
+B: O'Neill's Music of Ireland: 1850 Melodies, 1903, page 231, tune #1777
+B: Coles 1000 Fiddle Tunes, 1940, page 100 (identical to Ryans)
+M: 4/4
+L: 1/8
+R: hornpipe / clog
+K: Amaj
+|: (3efg |\ 
+a>ae>c A>cf>e | d>cB>A G>BE>G | A>Bc>d e>cA>c | B>e^d>f e>ef>g |
+a>ae>c A>cf>e | d>cB>A G>BE>G | A>ae>c f>dB>G | A2 c2 A2 :|
+|: d>c |\
+B>cB>A G>EF>G | A>Bc>d e>cA>c | d>cd>e f>ed>c | B>e^d>f e>ef>g |
+(3aba e>c (3fgf d>B | (3efd c>A (3ded B>G | A>ae>c f>dB>G | A2 c2 A2 :|
+S:https://www.folktunefinder.com/tunes/153356
+S:http://www.thesession.org/tunes/display/8364
+% Rhythm Hornpipe / clog
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

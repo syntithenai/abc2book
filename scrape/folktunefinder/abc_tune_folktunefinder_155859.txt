@@ -1,0 +1,31 @@
+X: 1
+T:Eirik Nirsas Vals
+R:Waltz
+O:Sweden
+N:from \AA{}s
+M:3/4
+C:Eirik Nirsa
+A:J\"amtland
+K:DDor
+|: A,2 | \
+A,2 A2 A2 | A2 ^GABA | A2 G2 G2 | G2 ^FGAG |\
+A,2 F2 F2 | F2 EFAG  | F2 E2 E2 | EGFED^C |
+A,2 A2 A2 | A2 ^GABA | A2 G2 G2 | G2 ^FGAG |\
+F2 AGFE   | D2 ^CDEG | FE D2 D2 | D4 :|
+|: A,2 | \
+A,2 D2 D2 | D2 E2 F2 | FE D2 E2 | ^C4 A,2 | \
+A,2 F2 F2 | F2 EFAG  | F2 E2 E2 | EGFED^C |
+A,2 D2 D2 | D2 E2 F2 | FE D2 E2 | ^C4 E2 |\
+F2 AGFE   | D2 ^CDEG | FE D2 D2 | D6 :|
+S:https://www.folktunefinder.com/tunes/155859
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ei/Eirik_Nirsas_Vals_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ei/Eirik_Nirsas_Vals_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

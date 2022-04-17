@@ -1,0 +1,41 @@
+X:1
+T:Lads a-Bunchun
+M:6/8
+C:
+S:Bacon (MDT)
+N:transposed from F to G
+A:Sherborne
+O:English
+R:Jig
+%P:A(AB$^3$)$^4$(AC$^3$)$^4$A
+P:A(AB3)4(AC3)4A
+%:
+%:
+K:G
+Q:C3=96
+P:A
+G2G BAG | B2c def | g2d edc | B2A FED |\
+G2G BAG | B2c def | g2d edc | B2A G3  ||\
+P:B
+dcB cde | dcB c2c | cAB cde | dcB c2d |\
+e2d e2f | g3  g2d | edc B2A | G3  G2z ||\
+P:C
+%Q:C3=84 for UC as a "D" part
+dcB cde | dcB c2c | cAB cde | dcB c2d |\
+e3  d3  | e3  f3  | g3  g3  | g3  d3  |\
+edc B2A | G3  G2z ||
+S:https://www.folktunefinder.com/tunes/170792
+S:http://www.ucolick.org/~sla/morris/music/Sherborne/ladsabun.lbG.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Sherborne/ladsabun.lbG.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Sherborne/ladsabun.lbG.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

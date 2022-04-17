@@ -1,0 +1,24 @@
+X:3
+T:Funesdalingen
+R:R\orospols
+N: Taught by Annar Gjelten in Boston, Oct 1995.
+N: Taught by Olav Nyhus, Seattle, March 1989.
+O:etter Harald Gullikstad
+Z: John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:A
+ E \
+|: "A"A2 Ac A>c | e2 ae c>c | "E7"(3cBc dB G>B |1 "A"B<A A<c E2 :|2 "A"~BA A4 |
+|: "D"A>f f2 f>f | "A"fe e4 | "E7"E>c d2 d>d | "A"dc c4 \
+|  "D"A>f f2 f>f | "A"fe e3a | "E7"g>f ed BG | "A"{G}A2 A4 :|
+S:https://www.folktunefinder.com/tunes/159591
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Funesdalingen.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

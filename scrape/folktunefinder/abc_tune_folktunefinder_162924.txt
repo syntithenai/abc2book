@@ -1,0 +1,29 @@
+X:1
+T: how can one recount
+M:4/4
+L:1/4
+Q:1/4=80
+Z: Contributed 2009-03-09 01:32:00 by ming tsang tsang94@rogers.com
+K:C
+G (E/C/ D/E/) (G/F/)  | E (D/C/) E D/C/ | c> c c E |
+G3   z/ C/ | (A/^G/) (A/B/) C> A | (G/E/) (G/A/) C> A |
+A/ D C/ (D/A/ G/E/) | D3 z |
+G (E/C/ D/E/) (G/F/) | A (E/D/) E (D/C/) | c> c c E/E/ |
+G3 z/ C/ | (A/^G/) (A/B/) c> c | (G/E/) (G/A/) C> A, |
+F (E/C/) D> D | C3 z |
+(A/^G/ A/B/) c> C | E/ G  A/ (3E/D/C/  z/ E/ | (E/D/) (C/C/) D> C |
+(E/A/) (A/G//E//) G2 | (A/^G/) (A/B/) c> d |
+c/ G G/ (3A/G/A/ G/E/ | F/F/ F/G/ E/ C A,/ |
+A,F/ F/G/ E/ C D | C3 z |
+S:https://www.folktunefinder.com/tunes/162924
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HallelujahSoprano2.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Soprano.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/PreciousCross.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HowCanOneRecount.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

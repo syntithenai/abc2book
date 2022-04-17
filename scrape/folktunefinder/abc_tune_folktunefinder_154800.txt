@@ -1,0 +1,25 @@
+X: 1
+T:Dublin Porter
+R:reel
+D:Paul McGrattan: The Frost Is All Over
+D:John McHugh & Barry Carroll: The Long Finger
+D:De Danann: Half Set in Harlem
+Z:id:hn-reel-466
+M:C|
+K:G
+~B3A BcdB|cBAB cdec|d2dc dcAG|(3FED AD BDAF|
+DBBA BcdB|cBAB cdef|g2fg ecAG|1 FGAF G2GA:|2 FGAF GABd||
+|:g2gf gdBd|g2fg eA~A2|eA~A2 eA~A2|fgaf gfef|
+g2gf gdBd|g2fg eA~A2|eA~A2 eA~A2|1 fgaf gdef:|2 fgaf gedc||
+S:https://www.folktunefinder.com/tunes/154800
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dublin_Porter_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/du/Dublin_Porter_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

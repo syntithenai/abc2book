@@ -1,0 +1,32 @@
+X:1
+T:Garoon Garoon
+O:Armenian
+M:2/4
+L:1/8
+Q:220
+W:U:O=D.C.
+K:Gm ^F
+P:intro
+GG/G/ GA|BB/B/ A/B/G|F/F/D FG|ABG2|
+GG/G/ GA|dd c/B/A/G/|F/F/D FG|[1A/G/A/B/ GG,:|[2A/G/A/B/ G/A/B/c/||
+P:verse
+M:4/4
+dd dd dd3|cc/d/ Bc A4|
+cc/c/ cc cc BA|BA Bc d4:|
+|:BB BB BB3|cd Bc A4|
+AA AA cc BA|BA GF [1G2D/F/G/A/:|[2G2z2||
+P:refrain
+M:2/4
+|:GG GA|BB (AG)|FF FG|ABG2|
+GG GB|ddc2|A3/G/ FG|AB!D.C.!G2:|
+W:
+W: maqam: Nahawand Nawa; iqa'at: Ayuub(intro/refrain) and Malfouf(verse)
+S:https://www.folktunefinder.com/tunes/160489
+S:http://www.khafif.com/rhy/abc/GaroonGaroon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

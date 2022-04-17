@@ -1,0 +1,27 @@
+X:0538
+T:"The Flowers Of The Forest"   (air)(Irish Verzion)  0538
+C:after Sg't. J. O'Neill
+C:slow, with expression
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:D
+"_VB"A2F3/2B/2 ABd(e/2f/2)|gfed B(d/2c/2 B/2A/2G/2F/2)|(EF)A3/2B/2 ABd  (3(e/2f/2g/2)|f2{g}e3/2d/2 d2z:|
+|:f|a3/2(g/2 f/2e/2d/2c/2) d2dB|(Afe3/2d/2) B(d/2c/2 B/2A/2G/2F/2)|[1a3/2(g/2 f/2e/2d/2c/2) d2dB|Afe3/2d/2 d2z:|[2 (3(EFA) A3/2B/2 (ABd)  (3(e/2f/2g/2)|f2{f}e3/2d/2 d2z||
+e|(fg)(ab) (af)(ed)|gfed B(d/2c/2 B/2A/2G/2F/2)|(fgab) (af)(ed)|(B/2g/2f/2e/2) Bc d2ze|
+(fgab) (af)(ed)|(gfed) B(d/2c/2 B/2A/2G/2F/2)| (3(EFA) A3/2B/2 (ABd)  (3(e/2f/2g/2)|f2{g}e3/2d/2 d2z|]
+S:https://www.folktunefinder.com/tunes/158606
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0538-FlowersForest-irish.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0538-FlowersForest-irish.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0538-FlowersForest-irish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:(Dreher )
+C:traditionell
+R:
+A:Grossmehring, Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Dokumente regionaler Musikkultur in Oberbayern", heft 6, Volksmusikarchiv des Bezirks Oberbayern, Muenchen 1994
+N:dort auf seite 16 mit einem # vorzeichen (ein (1. 2.Teil) mit satz von E.S. 1989, in der quelle einstimmig
+S:mit der angabe: handschrift des Alois sterzl, Grossmehring 1821, S.10 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+N:noten-material von Stefan Straubinger
+M:2/4
+L:1/8
+K:G %
+g2e2 | f2d2 | e2c2 | cdd2 |
+gg ee | ff dd | ee dd | c2z2 :|
+d2e2 | f2d2 | ee gf/e/ | e2d2 |
+gg ee | ff dd | ee dd | c2z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154335
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/(dreher).g2e2f2d2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

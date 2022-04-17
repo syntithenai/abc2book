@@ -1,0 +1,39 @@
+X:8263
+T:Hey lo, Seni
+C:anon.
+O:Turkey
+A:Kurdistan
+N:Bar 6 is (3B,/F/E/- E E/ D D< C- C (3D/(D/C/)| in the
+N:book, which doesn't add up so I'm assuming it's a typo.
+Z:Jack Campin 2001
+F:http://abc.musicaviva.com/tunes/turkey/hey-lo-seni.abc
+%Posted November 19th 2001 at abcusers by Jack Campin during a discussion about tempo indications.
+M:8/8
+L:1/8
+Q:"Moderato"
+K:B Minor
+  A        F2      A/F/ A  F2        A/F/      |
+  A        F2      A/F/ F  E> (D     E/)F/     |
+  F        E2      E/D/ D  C2        D/E/      |
+  F<       D    D< C    C< B,- B,  (3C/(D/C/)  |
+  E/D/     D/C/ C< B,-  B, B,  B,2             |
+(3B,/F/E/- E    E< D    D< C-  C   (3D/(D/C/)  |
+  F<       D    D< C    C< B,- B,  (3C/(D/C/)  |
+  E<       D    D< C    C< B,- B,- (3B,/B,/B,/|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/164048
+S:http://abc.musicaviva.com/tunes/turkey/hey-lo-seni.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/turkey/hey-lo-seni.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/turkey/hey-lo-seni.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 8/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

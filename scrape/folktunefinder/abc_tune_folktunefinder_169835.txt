@@ -1,0 +1,50 @@
+X:10629
+T:Killa bukk, killa blakk
+C:anon., arr. Frank Nordberg
+O:Norway
+R:B\aansull, lullaby
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/killa-bukk-dm/killa-bukk-dm-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:2/4
+L:1/8
+Q:1/4=70
+K:Dm
+V:1
+dda2|efd2|ddag|efd2|
+V:2
+z2zA-|A3A|[D,4-D4-A4-]|[D,3D3A3]A-|
+%
+V:1
+e2a2|e2f2|d2a2|e2f2|d2aa|
+V:2
+AA2A-|AA2A-|AA2A-|AA2A-|AA3-|
+%
+V:1
+e2f2|ddHa2|[M:3/4][L:1/8]ef ag fe|d4Hd2|]
+V:2
+AA2A-|A2H[D,2D2A2]|[M:3/4][L:1/8]z2z2z2|zADA H[D,2D2A2]|]
+W:
+W:Killa bukk, killa blakk,
+W:killa liten nevetapp.
+W:Rosa, Dokka, Nykla, Sokka.
+W:Storspena, Spjautill, Fagerleik,
+W:Spellemannen borti fjellom.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/169835
+S:http://abc.musicaviva.com/tunes/norway/killa-bukk-dm/killa-bukk-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/killa-bukk-dm/killa-bukk-dm-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/killa-bukk-dm/killa-bukk-dm-ddad1.abc
+% Rhythm B%C3%A5nsull, lullaby
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

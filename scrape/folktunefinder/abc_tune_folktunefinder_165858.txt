@@ -1,0 +1,61 @@
+X:1
+T:I Can Hew
+M:6/4
+C:song by David Dodds
+S:Seabright
+N:dance by Nat Case
+A:Adderbury
+%O:English
+R:Reel
+%abc2mtex: yes
+%:NoTeX
+%:NoWWW
+%P:B(AB)$^4$
+P:B(AB)4
+% the key is approximate because this dance is done a cappella
+K:Am
+I:speed 400
+L:1/8
+P:A
+   A2    B2    c2    A2     A2      A2    | ee    e2      e      f3   d2    z2|
+w: On    St.   Mon-  day's  day     it's, | well  I_      do     ad-  mire
+w: Well, I     likes my     whis-   key   | and_  I       likes  my   beer:
+w: Well, my    boy   he's   four-   teen, | he's_ a       strap- pin' lad,
+w: Oh,   and   when  I'm    dead,   *     | oh_   I       know   full well
+   c2    d2    e-e   ee     e-e     d2    | d2    c2      A2     G2   A2    z2|
+w: to    be    sit-tin' at_ home_   *     | by    my      own    coal fire.
+w: I'll  drink four - teen_ pints_  *     | and   I'll    not    feel queer;
+w: And   he'll go_   to the pit *   soon  | _     just    like   his  dad.
+w: I'll  not   go_   * to   hea- ven, *   | I     am      bound  for  hell;
+   A2    B2    c2    A-A    A-A     e2    | ee    e2      e      f3   d2    z2|
+w: Then  it's  down  to the pub_    *     | for_  a       glass  or   two
+w: I     can   hold  my_    li-quor *     | good  as_     an-    y    man,
+w: Then  when  Fri-  day_   comes_  *     | we'll_ pick   up     our  pay,
+w: And   my    pick  and_   sho-vel, Old- | Nick,_ he     will   ad-  mire,
+   c2    d2    e2    ee     e-e     e2    | d2    c-c     A2     G2   A2    z2||
+w: For   to    work  on a   Mon  -  day,  | that  would_  ne-    ver  do.
+w: And   I'll  dance and_   sing_   *     | as    long_   as     I    can.
+w: And   we'll drink_  to-  ge  -   ther  | to    round_  out    the  day.
+w: And   he'll set   me to  dig- gin'_    | coal  for his own    hell fire.
+P:B
+   A2    B2    c4           A4            | e2    e2      e      f3   d2   z2 |\
+w: I     can   hew,         boys,         | I     can     hack   it   out;
+   c2    d2    e3    e      e4            | d2    c2     .A2    .G2  .A2   z2 |
+w: I     can   hew   the    coal          | I     can     dance  and  shout.
+   A2    B2    c4           A4            | e2    e2      e      f3   d2   z2 |\
+w: I     can   hew,         boys,         | coal  that's  black  and  fine;
+   c2    d2    e2    e2     e4            | d2    c2      A3     G    A4      ||
+w: I'm   a     col-  lier   lad           | work- in'     down   the  mine.
+%
+S:https://www.folktunefinder.com/tunes/165858
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/icanhew.smsAm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:11
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q2072J
+O: Mitteleuropa, Deutschland (DDR) , Lausitz, Wenden
+N: Wendische Fassung der Ballade.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: 6/8
+L: 1/16
+K: G
+G2A2B2 | d4d2c2d2e2 | d4z2
+d2B2G2 | B2A2G2F2D2A2 | G4A2
+c2B2GA | B2A2G2F2D2A2 | G4z2
+S:https://www.folktunefinder.com/tunes/152043
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

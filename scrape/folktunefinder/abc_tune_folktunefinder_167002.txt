@@ -1,0 +1,105 @@
+X:1
+T:Jackie-ing
+M:4/4
+L:1/8
+Q: "Med. Up" 1/4=200  
+C:Thelonious Monk
+Z:Luis Pablo Gasparotto
+K:F
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+%
+[V:1] z8 | z6 FA   |: B2  F2  A2  z2 | e2 z2 d2 z2 | F8-        | F4 z4      |
+[V:2] z8 | z6 FA   |: F2  D2  F2  z2 | A2 z2 A2 z2 | B,8-       | B,4 z4     |
+[V:3] z8 | z6 F,A, |: D2  B,2 D2  z2 | F2 z2 F2 z2 | A,8-       | A,4 z4     |
+[V:4] z8 | z6 F,A, |: B,2 F,2 B,2 z2 | D2 z2 D2 z2 | F,8-       | F,4 z4     |
+[V:5] z8 | z8      |: "Bbmaj7"z8     | "Bbmaj7"z8  | "Bbmaj7"z8 | "Bbmaj7"z8 | 
+%
+[V:1] B2  F2  A2  z2 | e2 z2 d2 z2 | F2   z2 G4     | z4 B,DFA     |
+[V:2] F2  D2  F2  z2 | A2 z2 A2 z2 | B,2  z2 _E4    | z4 B,DFA     |
+[V:3] D2  B,2 D2  z2 | F2 z2 F2 z2 | G,2  z2 A,4    | z4 B,DFA     |
+[V:4] B,2 F,2 B,2 z2 | D2 z2 D2 z2 | _E,2 z2 F,4    | z4 B,,D,F,A, |
+[V:5] "Bbmaj7"z8     | "Bbmaj7"z8  | "Cm7"z4 "F7"z4 | "F7"z8       |
+%
+[V:1] B2  F2  A2  z f | e2 z2 d2 z2 | F4        G4      | A4      B2  F2    |
+[V:2] F2  D2  F2  z A | A2 z2 A2 z2 | D4        E4      | _E4     F2  B,2   |
+[V:3] D2  B,2 D2  z D | F2 z2 F2 z2 | _A,4      B,4     | C4      D2  A,2   | 
+[V:4] B,2 F,2 B,2 z F | D2 z2 D2 z2 | F,4       G,4     | A,4     B,2 F,2   |
+[V:5] "Bbmaj7"z8      | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+%
+[V:1] A2  z2 e4     | d2 z2 B4    | B4  B2  z2 |1 z6 FA      :|2 z8         |:
+[V:2] F2  z2 A4     | A2 z2 F4    | F4  F2  z2 |1 z6 FA      :|2 z8         |:
+[V:3] D2  z2 F4     | F2 z2 D4    | D4  D2  z2 |1 z6 F,A,    :|2 z8         |:
+[V:4] B,2 z2 D4     | D2 z2 A,4   | A,4 A,2 z2 |1 z6 F,A,    :|2 z8         |:
+[V:5] "Bbmaj7"z8    | "Bbmaj7"z8  | "Bbmaj7"z8 |1 "Bbmaj7"z8 :|2 "Bbmaj7"z8 |: 
+%
+[V:1] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        | "Bbmaj7"z8        | 
+[V:2] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        | "Bbmaj7"z8        | 
+[V:3] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        | "Bbmaj7"z8        | 
+[V:4] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        | "Bbmaj7"z8        | 
+[V:5] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        | "Bbmaj7"z8        | 
+%
+[V:1] "Bbmaj7"z8 | "Bbmaj7"z8  | "Cm7"z4 "F7"z4    | "F7"z8            |
+[V:2] "Bbmaj7"z8 | "Bbmaj7"z8  | "Cm7"z4 "F7"z4    | "F7"z8            |
+[V:3] "Bbmaj7"z8 | "Bbmaj7"z8  | "Cm7"z4 "F7"z4    | "F7"z8            |
+[V:4] "Bbmaj7"z8 | "Bbmaj7"z8  | "Cm7"z4 "F7"z4    | "F7"z8            |
+[V:5] "Bbmaj7"z8 | "Bbmaj7"z8  | "Cm7"z4 "F7"z4    | "F7"z8            |
+%
+[V:1] "Bbmaj7"z8 | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+[V:2] "Bbmaj7"z8 | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+[V:3] "Bbmaj7"z8 | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+[V:4] "Bbmaj7"z8 | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+[V:5] "Bbmaj7"z8 | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+%
+[V:1] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        |1 "Bbmaj7"z8      :|2 z6 FA      |   
+[V:2] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        |1 "Bbmaj7"z8      :|2 z6 FA      |
+[V:3] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        |1 "Bbmaj7"z8      :|2 z6 F,A,    | 
+[V:4] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        |1 "Bbmaj7"z8      :|2 z6 F,A,    |
+[V:5] "Bbmaj7"z8 | "Bbmaj7"z8  | "Bbmaj7"z8        |1 "Bbmaj7"z8      :|2 "Bbmaj7"z8 |
+%% text Play Ending 1 till last solo
+%% text 
+[V:1] |: B2  F2  A2  z2 | e2 z2 d2 z2 | F8-        | F4 z4      |
+[V:2] |: F2  D2  F2  z2 | A2 z2 A2 z2 | B,8-       | B,4 z4     |
+[V:3] |: D2  B,2 D2  z2 | F2 z2 F2 z2 | A,8-       | A,4 z4     |
+[V:4] |: B,2 F,2 B,2 z2 | D2 z2 D2 z2 | F,8-       | F,4 z4     |
+[V:5] |: "Bbmaj7"z8     | "Bbmaj7"z8  | "Bbmaj7"z8 | "Bbmaj7"z8 | 
+%
+[V:1] B2  F2  A2  z2 | e2 z2 d2 z2 | F2   z2 G4     | z4 B,DFA     |
+[V:2] F2  D2  F2  z2 | A2 z2 A2 z2 | B,2  z2 _E4    | z4 B,DFA     |
+[V:3] D2  B,2 D2  z2 | F2 z2 F2 z2 | G,2  z2 A,4    | z4 B,DFA     |
+[V:4] B,2 F,2 B,2 z2 | D2 z2 D2 z2 | _E,2 z2 F,4    | z4 B,,D,F,A, |
+[V:5] "Bbmaj7"z8     | "Bbmaj7"z8  | "Cm7"z4 "F7"z4 | "F7"z8       |
+%
+[V:1] B2  F2  A2  z f | e2 z2 d2 z2 | F4        G4      | A4      B2  F2    |
+[V:2] F2  D2  F2  z A | A2 z2 A2 z2 | D4        E4      | _E4     F2  B,2   |
+[V:3] D2  B,2 D2  z D | F2 z2 F2 z2 | _A,4      B,4     | C4      D2  A,2   | 
+[V:4] B,2 F,2 B,2 z F | D2 z2 D2 z2 | F,4       G,4     | A,4     B,2 F,2   |
+[V:5] "Bbmaj7"z8      | "Bbmaj7"z8  | "Ddim"z4 "Edim"z4 | "F7"z4 "Bbmaj7"z4 |
+%
+[V:1] A2  z2 e4     |1 d2 z2 B4    | B4  B2  z2 | z6 FA      :|2
+[V:2] F2  z2 A4     |1 A2 z2 F4    | F4  F2  z2 | z6 FA      :|2
+[V:3] D2  z2 F4     |1 F2 z2 D4    | D4  D2  z2 | z6 F,A,    :|2
+[V:4] B,2 z2 D4     |1 D2 z2 A,4   | A,4 A,2 z2 | z6 F,A,    :|2
+[V:5] "Bbmaj7"z8    |1 "Bbmaj7"z8  | "Bbmaj7"z8 | "Bbmaj7"z8 :|2
+%
+[V:1] d2 z2 B2  B2  | HB8        |] 
+[V:2] A2 z2 F2  F2  | HF8        |]
+[V:3] F2 z2 D2  D2  | HD8        |]
+[V:4] D2 z2 A,2 A,2 | HA,8       |]
+[V:5] "Bbmaj7"z8    | "Bbmaj7"z8 |]
+S:https://www.folktunefinder.com/tunes/167002
+S:http://abcmr.sourceforge.net/jackie-ing.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

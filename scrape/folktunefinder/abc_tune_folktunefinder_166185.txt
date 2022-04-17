@@ -1,0 +1,32 @@
+X:599
+T:I'm Asleep and Don't Awaken Me.
+T:ta me mo .codla.d 's na duisgui.g me.
+N:"Moderate."
+B:O'Neill's 599
+Z:"Transcribed by John Walsh (walsh@math.ubc.ca)
+M:3/4
+L:1/8
+%Q:110
+K:F
+(F>D)|(C>D) (.F2.F) z|F4 F2|G2(F/4G/4A3/2) (A/4G/4F3/2)|
+D4 C2|(D2 F2) .F2|(A2 c2) (d/4c/4A3/2)|T(G3F) (A/4G/4F3/2)|F4:|
+(c>d)|{d}e4 (ef/2e/2)|{^c}d4 (d_e/2d/2)|{=B}c4 (d>e)|(d2 c2) .A2|
+"~natural"c2 (d2 f2)|Tf4 (d>c)| .A2 .G2 .F2|(F>>G) (D>>F) C2|
+{d}e4 (f>>_e)|{^c}d4 (=c>A)|(c>>d) (f>>d) (c>>A)|(G>>F) (D>>F) C2|
+"~#"D2 (F2 f2)|[d2D2] (c>>A) (G>>F)| T(G4 F2)|F4||
+(F/4G/4A3/2)|B2 (cB)(AG)|A2 (BA)(GF)|(G>>A) (c>>G) (A>>F)|
+T(D4 C2)|.D2 .F2 .f2|d2 (c<<A) (G<<F)|T(G4 F2)|F4:|
+(C>D)|[_E4C4] [EC] z|[D4B,4] [DB,] z|C4 C z|C2 A,2 C2|
+"~natural" C2 D2 F2|"~"F3G (F/4G/4A3/2)|AG (F/4G/4A3/) (A/4G/4F3/2)|D4 cd|
+[_e4c4] [e2c2]|[d4B4] (c<<A)|(c>>d) (f>>d) (c>>A)|(G>>F) (D>>F) C2|
+"~"D2 F2 f2|d2 (cA) "pp"(GF)|TG3 F (A/4G/4F3/2)|F4||
+S:https://www.folktunefinder.com/tunes/166185
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0599_jw.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

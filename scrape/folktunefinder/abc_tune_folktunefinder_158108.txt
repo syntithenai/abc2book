@@ -1,0 +1,32 @@
+X: 1
+T:Fisher's Hornpipe
+M:4/4
+L:1/8
+C:Traditional
+S:From J&D Donaldson, Bill Holmes
+R:Hornpipe
+Z:Donna Diekof
+K:D
+(3ABc|:"D"dAFD "G"GBAG|"D"FDEF "G"GBAG
+|"D"FDFD "A7"GBAG|"D"FDFA "A7"E2(3ABc|!
+"D"dAFD "G"GBAG|"D"FDEF "G"GBAG
+|"D"ABcd "A7"cdec|1"D"d2f2 d2 (3ABc:
+|2"D"d2f2 d2 cd||!
+"A7"ecAc ecge|"D"fdAd fdaf|
+"A"ecAc ecgf|"E7"edcB "A"A2A2 |!
+"G"BGDG BdcB|"D"AFDF AFdA
+|"G"BdcB "A7"AGFE|1"D"D2F2 D2 cd:
+|2"D"D2F2 D2 (3ABc||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/158108
+S:http://www.blackflute.com/music/tunes/hornpipes/fishers.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

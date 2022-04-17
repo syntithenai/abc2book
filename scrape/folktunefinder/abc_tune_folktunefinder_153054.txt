@@ -1,0 +1,28 @@
+X:101
+T: Verschlafener Jaeger
+N: Q0152R
+O: Mitteleuropa, Deutschland / Frankreich, Elsass
+N: Sauf - Refrain in Zeile 5 und 6.
+R: Ballade, Verfuehrung, Versagen, Spott; Trink - Lied
+M: 4/4
+L: 1/16
+K: C
+G4 | E2G2G4E2E2G4 | A8A4
+F4 | D2D2F4D4D2F2 | G8G2
+c2c2c2 | c3cc4c3cc4 | A2c2B2c2d2c2B2
+A2 | G3Gc4e3ed4 | c12
+G3G | E4G3GE4G3G | A4A4A4
+F2F2 | D2D2F2D2D4F4 | G4G4G4
+c4 | c3cc4c3cc4 | A2c2B2c2d2c2B2
+A2 | G3Gc4e3ed4 | c12
+S:https://www.folktunefinder.com/tunes/153054
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott; trink - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

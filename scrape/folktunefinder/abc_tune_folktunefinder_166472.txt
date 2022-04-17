@@ -1,0 +1,19 @@
+X: 5
+T:
+T:Variation III.
+M:3/4
+L:1/16
+K:G bass
+%1
+d3c | BGB dBd gBd gdg bdd add 
+%Error : Bar 1 is 9/8 not 3/4
+| gbagfe dgfedc BdcBAG 
+%Error : Bar 2 is 9/8 not 3/4
+|
+S:https://www.folktunefinder.com/tunes/166472
+S:http://www.laymusic.org/music/arban/tyrolienne-d.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

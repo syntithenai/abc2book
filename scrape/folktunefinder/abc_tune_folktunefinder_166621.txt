@@ -1,0 +1,25 @@
+X: 1
+T:Irish Washerwoman
+M:6/8
+L:1/8
+Q:180
+C:Traditional
+S:OO 317
+R:Jig
+K:G
+|:"G"BGG DGG|"G"BGB dcB|"Am"cAA FAA|"Am"cAc edc|!
+"G"BGG DGG|"G"BGB dcB|"D"cBc Adc|1"G"BGG G2d/2c/2:|2"G"BGG G2f|!
+|:"G"gfg GBd|"G"gfg bag|"D"aff dff|"D"afa agf|!
+"C"egg "G"dgg|"C"cgg "G"Bgg|"D"cBc Adc|1"D"BGG "G"G2f:|2"D"BGG "G"G2d/2c
+/2|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/166621
+S:http://www.blackflute.com/music/tunes/jigs/irishww.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

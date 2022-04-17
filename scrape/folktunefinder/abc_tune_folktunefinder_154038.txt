@@ -1,0 +1,48 @@
+X:587
+T:Shandon bells
+T:(Double jig)
+C:anon., arr. Frank Nordberg
+O:Ireland
+R:Double jig
+Z:(C) 1999 Arranged by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/sh/shandon-bells/shandon-bells-gtr2.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:6/8
+L:1/8
+Q:3/8=136
+K:D -8va
+V:1
+"^(6)=D"B|:A(FD) (DF)A|de(d c)BA|BGE (EF)A|B2A (Bc)d|
+V:2
+x|:D,6|D6|G,6|G,6|
+%
+V:1
+A(FD) (DF)A|de(d c)BA|B(cd) ecA|[1 d3 (dc)B:|[2 d3 d2g|
+V:2
+D,6|D6|G,3A,3|[1 D,2A, D3:|[2 D,3 D,3|
+%
+V:1
+|:f2 d- ded|(fa)a (af)d|cAA eAA|(cB)c e(fg)|
+V:2
+|:D3 D,3|D3 D,3|A,3A,3|A,3A,3|
+%
+V:1
+f2 d- ded|(fa)a (af)d|(Bc)d ecA|[1 d3 d2g:|[2 d3 d2|]
+V:2                                                                    
+D,3 D3|D,3 D3|G,3 A,3|[1 D,2A, D,3:|[2 D,2A, D,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/154038
+S:http://abc.musicaviva.com/tunes/ireland/sh/shandon-bells/shandon-bells-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/sh/shandon-bells/shandon-bells-gtr2.abc
+% Rhythm Double jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

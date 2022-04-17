@@ -1,0 +1,25 @@
+X:1
+T:Kilavill Jig
+M:6/8
+L:1/8
+S:Dervish - At the End of the Day
+R:Jig
+Z:John Norvell
+K:EDor
+d2c |: BEE BEE | Bdf edB | BAF ~F3 | DFA dBA |!
+ BEE ~B3 | d2f edB | BAF dAF |1 FED E2D :|2 FED E2B |!
+|: e2f ~g3 | ~f3 edB | BAF ~F3 | DFA dBA | !
+Bef gfe | fed edB | BAF dAF |1 FED E2D :|2 FED d2c :|3 "next tune" FED
+A2G :|
+S:https://www.folktunefinder.com/tunes/169757
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/KilavillJig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

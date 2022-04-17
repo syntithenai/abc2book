@@ -1,0 +1,22 @@
+X:1
+T: Iron Legs
+M: 4/4
+L: 1/8
+K: Dmaj
+|: AG | "D"F2 AG "A"E2 AG | "D"FG"A"EF "D"D2 A2 | "G"B2 c2 "Bm"d2 (ed) | "A"cdB(c A2) AG || 
+        "D"F2 AG "A"E2 AG | "D"FG"A"EF "D"D2 A2 | "G"Bcd(e "A"fe)dc | "D"d4 d2 :|
+   [ad][ge] | "D"fgf(g "A"ef)ef | "D"fgf(g "A"ef)ef | "Bm"dede "A"(cd)(cd) | "Bm"dede "F#m"(cd)(cd) || 
+        "G"BcB(c "D"AB)AB | "G"(Bc)(Bc) "D"ABA(A | "G"Bc)de "A"fedc | "D"d4 d2 :|
+%%%%%
+% input file MOLLOXF.MID
+% format 1 file 2 tracks
+S:https://www.folktunefinder.com/tunes/166648
+S:http://www.oxfordfiddle.co.uk/iron_legs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

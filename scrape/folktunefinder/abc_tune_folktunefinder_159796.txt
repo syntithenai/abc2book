@@ -1,0 +1,28 @@
+X: 1
+T: Gallopede, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: d>c | B2 c>B A>c (3cBA | G2 F2 G2 A>B | c2 c>d e>d (3dcB | A>G (3GFE D>dc>d |
+B>dc>B A>cB>A | G2 G2 G2 A>B | c>BA>G F>G (3AGF | G2 D2 G2 :|
+d>c | B2 g>f e2 e>d | d>c (3Bcd A2 d>c | B>Gg>f e>dc>B | A2 F2 D2 d>c |
+B>Gg>f e>d^c>d | d>cB>c A2 d>c | (3Bcd c>B A2 (3cBA | G2 G2 G2 ||
+(3ABc | .d2 (3ddd .d2 g2 | .d2 (3ddd .d2 g2 | .d2 .d2 .e2 (3dcB | .A2 .A2 A2 B>c |
+.d2 (3ddd .d2 (3ggg | .d2 (3ddd .d2 g2 | .b2 .g2 a>g (3fga | g>d (3cBA G2 |]
+|: d2 | B2 B2 A2 AB | G2 G2 G2 AB | cBcd edcB | A2 A2 A2 dc |
+B2 Bc A2 AB | G2 GF G2 AB | cBAG FGAF | G2 G2 G2 :|
+|: d2 | B2 gf e2 ed | dcBc A2 dc | B2 gf edcB | A2 A2 A2 dc |
+B2 gf e2 ed | dcBc A2 dc | B2 dB AcBA | G2 G2 G2 ||
+|: B2 | .d2 .d2 d2 g2 | .d2 .d2 d2 g2 | .d2 .d2 edcB | .A2 .A2 A2 Bc |
+.d2 .d2 d2 g2 | .d2 .d2 d2 g2 | e>dcB dcBA | .G2 .G2 G2 |]
+S:https://www.folktunefinder.com/tunes/159796
+S:http://www.thesession.org/tunes/display/7205
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

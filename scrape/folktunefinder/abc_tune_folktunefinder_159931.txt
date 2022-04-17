@@ -1,0 +1,29 @@
+X:0745
+T:"Galway Tom" (2nd Setting) (jig) 0745
+C:after Mr. McFadden
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+Bcd dcd|dcd dcd|Bcd dcd|cBG GFG|
+Bcd dcd|dcd dcd|gfd dcB|dBG G2B:|
+|:FDF FDF|FDF F2B|GEG GEG|GEG GAB|FDF GEG|
+BGB cdf|gfd {e}dcB|[1dBG G2B:|[2dBG {A}GFG
+|:Bcd (fg/2f/2d)|(fg/2f/2d) (fg/2f/2d)|Bcd (fg/2f/2d)|edc dBG|
+Bcd f/2f/2fd|f/2f/2fd f2d|(e/2f/2ge) dfd|edc dBG:|
+|:FDB, B,DF|FDF F2B|GEC CDF|GEG G2B|FDF GEG|
+BGB cdf|gfd dcB|[1dBG G2B:|[2dBG {A}GFG
+|:B3dBB|cBB dBB|B/2B/2BB dBB|cBG GFG|
+B3dBB|cBB cdf|gfd dcB|dcB {A}GFG:|
+S:https://www.folktunefinder.com/tunes/159931
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0745-GalwayTom-2nd.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0745-GalwayTom-2nd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

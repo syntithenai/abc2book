@@ -1,0 +1,24 @@
+X:48
+T: Die Brombeerpflueckerin
+N: Q0147O
+O: Osteuropa, Ungarn, Kom. Tolnau, Nemetker
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 4/4
+L: 1/8
+K: G
+D2 | G3A_B2c2 | _B2A2G2
+ddd | a2d=f_edc2 | d4z2
+ddd | a2d=f_edc2 | d4z2
+BBc | d2d2d2d2 | c2_e2d2
+ccc | _B2B2A2d2 | G2d4
+ccc | _B2B2A2d2 | G4z2
+S:https://www.folktunefinder.com/tunes/153001
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

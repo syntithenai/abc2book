@@ -1,0 +1,27 @@
+X:49
+T: Graf und Nonne (Die Nonne)
+N: Q2155v
+O: Mitteleuropa, Niederlande
+N: Zusammenhang zur Balladengruppe unsicher. Geistliche Kontrafaktur.
+N: Taktart in FREI geaendert.
+R: Ballade, Standesunterschied, Werbung, Liebe; geistlich
+M: none
+L: 1/8
+K: G
+G2 | d2d2e2f2 | g2d
+e | =f3ae3d | d4z2
+d2 | =f3_BB2d2 | c4c4z2
+F2 | GA_BcA3G | G4z2
+d2 | =f3_BB2d2 | c4c4z2
+F2 | GA_BcA3G | G4
+S:https://www.folktunefinder.com/tunes/161969
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe; geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

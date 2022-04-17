@@ -1,0 +1,58 @@
+X:1
+T:Knives and Forks
+C:Trad., arr. Laura Conrad and Frank Nordberg
+S: 1726
+%%MIDI gchordoff
+%V:1 program 1 40
+%V:2 program 2 41
+%V:3 program 3 42 bass
+M:3/2
+Q:1/2=104
+L:1/8
+K:G
+V:1 name=S
+"G"g2 ag "D"f2  gf "C"efge | "D"f2 d4 f2 e2 d2 | "C"c2 dc "G"B2 cB "D"ABcd |"G"B2 G4 B2 A2 G2 ||
+"G"g2 ag "D"f2  gf "C"efge | "D"f2 d4 f2 e2 d2 | "C"c2 dc "G"B2 cB "D"ABcd |"G"B2 G4 B2 A2 G2 ||
+"G"GABc d2 G2 F4 | "Am"E2 A4 G2 "D"F2 ED | "G"GABc d2 G2 "D"F4 | "G" D2 G4 B2 A2 G2 ||
+"G"GABc d2 G2 F4 | "Am"E2 A4 G2 "D"F2 ED | "G"GABc d2 g2 "D"f4 | "G" D2 G4 B2 A2 G2 |]
+V:2 name=A
+K:G
+L:1/8
+B4 A2BA GABc|dcBA GFGA G2F2|E4G2AG F2GF|G2D2 B,2D2- DEFG||
+ABcB A2BA GABc|dcBA GFGA G2F2|E4G2AG F2GF|G2D2 B,2D2 D4||
+BAGA B4- Bcd2|c8 d2cB|BAGA G2E2 D4|D2EC B,2D2 C2B,2||
+B,2D2 FGAB c2B2|c8 d2cB|BAGA G2E2 D4|B,2DC B,8|]
+V:3 name=T
+K:G -8va
+%%MIDI transpose -12
+L:1/2
+D F G | A2 F          | G G F | D3 ||
+D F G | A/ B/ A/ G/ F | G G F | G3 ||
+D G2  | E2 F          | G B F         | G/ B/ G/ F/ E||
+D G2  | E2 F          | G/ A/ B/ c/ d | G3 |]
+V:4 name=B
+K:G bass
+%%MIDI transpose -24
+M:3/2
+L:1/2
+G d  c | d A d   | c d A | G D B ||
+G d  c | d A d   | c d A | G D B ||
+G d c   | A c d  | B B/ c/  d | B D G ||
+G d D/4E/4F/4G/4   |  A E D  | G B/ c/  d | G D G |]
+V:5 name=guitar
+L:1/2
+[GDB,][FD][CG]|[A2F2D2][FD]|[CEG][GDB,][FDA,]|[G3D3B,3]||
+[GDB,][FD][CG]|[A2F2D2][FD]|[CEG][GDB,][FDA,]|[G3D3B,3]||
+[GDB,][G2D2B2]|[A2E2C2][FD]|[D2G2][DF]|[G3D3B,3]||
+[GDB,][G2D2B2]|[A2E2C2][FD]|[D2G2][DF]|[G3D3B,3]|]
+S:https://www.folktunefinder.com/tunes/170381
+S:http://www.laymusic.org/music/dance/knivesforks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

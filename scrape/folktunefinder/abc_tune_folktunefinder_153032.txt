@@ -1,0 +1,23 @@
+X:79
+T: Der Jaeger im Tannenholz
+N: Q0151B
+O: Mitteleuropa, Deutschland (BRD) , Niedersachsen, Hadeln, Ottendorf
+R: Ballade, abgewiesener Freier, Abschied
+M: 6/8
+L: 1/16
+K: D
+G2 | F4G2G4F2 | F6E4
+A2 | B4A2E4G2 | F6z2
+D2D2 | D2D2F2A4d2 | f6d4
+c2 | B4AAA4G2 | F6z4
+S:https://www.folktunefinder.com/tunes/153032
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, abgewiesener freier, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

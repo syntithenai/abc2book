@@ -1,0 +1,49 @@
+X:1757
+T:\'Ecossaise
+C:Ludwig van Beethoven
+O:Germany
+R:Ecossaise
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be-eco01/be-eco01-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:G
+V:1 
+B/c/|dBAG|Fe2d|ABcd|A^A2B/c/| 
+V:2 
+z|G,[B,D][B,D][B,D]|D,[A,C][A,C][A,C]|D,[F,C][F,C][F,C]|G,[CD][CD][B,D]| 
+% 
+V:1 
+dBAG|Fe2d|ABcd|G z "^Fine"z|] 
+V:2 
+G,[B,D][B,D][B,D]|D,[A,C][A,C][A,C]|D,[F,C][F,C][F,C]|[G,B,]D,G,,|] 
+% 
+V:1 
+|:A/B/|[Ac][Ac][Ac][Ac]|[A/c/]d/c/B/A A/B/|[Ac][Ac][Ac][Ac]|[A/c/]d/c/B/A A/B/| 
+V:2 
+|:z|D,,D, F,,F,|A,,A, D,D|D,,D, F,,F,|A,,A, D,D| 
+% 
+V:1 
+[Ac][A2c2][GB]|[Ge][G2e2][Gd]|ABcd|G "^D.C. al fine"z z:| 
+V:2 
+[F,D][F,2D2][G,D]|C,C2B,|D,[F,C] D,[F,C]|[G,B,] D,G,,:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155610
+S:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be-eco01/be-eco01-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be-eco01/be-eco01-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be-eco01/be-eco01-pno2.abc
+% Rhythm Ecossaise
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

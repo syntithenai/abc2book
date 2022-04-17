@@ -1,0 +1,20 @@
+X: 1
+T: Jig For Tom King
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DFA dcd|edc d2A|~G3 BGd|~A3 cAe|
+DFA dcd|edc d2A|~G3 BGd|1Adc dAF:|2Adc d2e||
+|:f2d def|e2c cde|d2B Bed|cAA AGF|
+~G3 dcd|~F3 dcd|~E3 e2d|1cBc d2e:|2cBc dAF||
+S:https://www.folktunefinder.com/tunes/167745
+S:http://www.thesession.org/tunes/display/8936
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

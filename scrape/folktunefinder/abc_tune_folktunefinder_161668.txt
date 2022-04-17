@@ -1,0 +1,29 @@
+X: 1
+T: Golden Slippers
+R: reel
+M: C|
+L: 1/8
+K: D
+d-e \
+|: "D"f2f2 fede | f2f2 f2d-e | f2f2 g2f2 | "A" f2e2e2 c-d |
+   "A"e2e-f edcd | e2e-f e2c-d | e2g2 f2e2 |\
+[1 "D"e2d2 d2 d-e :|[2 "D"e2d2 d2B2 ||
+|: "D"A6 (de | f2)e2 d2=c2 | "G"B6 (ef | "Em"g2)f2 e2d2 |
+   "A"^c3B- c2d2 |\
+[1 e3f- e2c2 | "D"d3c- d2e2 | f2d2 c2B2 :|\
+[2 e4 g4 | "D"f2(fg "A"f2)e2 | "D"d6 d-e |]
+N:Fiddlers Fakebook, pg 123 - abc by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/161668
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/GoldenSlippers.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

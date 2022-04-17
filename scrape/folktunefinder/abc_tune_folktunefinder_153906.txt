@@ -1,0 +1,25 @@
+X: 1
+T:Donnegal Highland
+M:4/4
+L:1/8
+Q:240
+C:Traditional
+S:From Altan
+R:Reel
+K:G
+||:"Em"BEBE "Am/C"cBcA|"Em"BEBE "Em/D"cAFA|
+"Em"BEBE "Am/C"cBcA|1"D"ABdc "G"BGGA:|2"D"ABdc "G"BGGB|!
+|:"G"g2 fg "G/F#"B2 BA|"Em/C"GBag "D"fdef
+|1"G"g2 fg "G/F#"B2 BA|"Em"GBdc "G"BG GB:||2
+"G"GBdB "G/F#"cdef|"Em"gb(3agf "G"g4||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/153906
+S:http://www.blackflute.com/music/tunes/reels/donhigh.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

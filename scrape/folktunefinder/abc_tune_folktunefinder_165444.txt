@@ -1,0 +1,28 @@
+X: 1
+T:Humours of Ballyloughlin
+R:double jig
+M:6/8
+L:1/8
+K:C
+ABA AGE|GED EGD|c2c cAd|dcA GED|!
+ABA AGE|G3 cGE|DED DFA|DED D2:|!
+|:B|c2c cAB|cAG ABc|ded ded|dcA D^FA|!
+c2A dcB|cAG ^FGE|DED DFA|DED D2:|!
+K:D
+e|f2d ged|f2d ged|B/c/de/f/ ged|B/c/de/f/ ged|!
+1 f2d ged|f2d ged|cde gag|edc d2e:|!
+2 f2a ged|f/g/af ged|cde gag|edc d2c|!
+|:A2D ABG|FAF GED|E3 EFD|EFD EFG|!
+ABA dAG|FAF GEA|DED DFA|1 DED D2B:|2 DED D3||!
+S:https://www.folktunefinder.com/tunes/165444
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hu/Humours_of_Ballyloughlin_2.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Dermot McLoughlin's
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: B>c |
+d>Bd>g b2 g2 | a>ba>g e2 e>g | f<AA>B c>de>f | (3gba (3gfe d>cB>c |
+d>Bd>g b2 g2 | a>ba>g e2 e>g | f<AA>B c>de>f |1 (3gag f>a g2 :|
+2 (3gag f>a g>a ||
+K:Dmaj
+|: ^g>a |
+f>dA>d f2 f2 | e>^de>g b3 b | c'<ag>e c>AB>c | (3ded (3fdB A>a^g>a |
+ f>dA>d f2 f2 | e>^de>g b2 b2 | c'<ag>e c>AB>c |1 (3ded f>e d>a :|
+2 d2 f2 d2 ||
+S:https://www.folktunefinder.com/tunes/153076
+S:http://www.thesession.org/tunes/display/3542
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:73
+T: Graserin und Reiter
+N: Q2149U
+O: Mitteleuropa, Niederlande
+N: Niederlaendische Fassung der Ballade.
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 4/4
+L: 1/8
+K: E
+B2 | F2G2A2B2 | A2G2z2
+B2 | B3Bc3c | B2z6
+c4A2cc | BcBAGF
+GA | B2FGA2B2 | G2z6
+c4A2cc | BcBAGFG
+A | B2FGA2D2 | E4z2
+S:https://www.folktunefinder.com/tunes/153026
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

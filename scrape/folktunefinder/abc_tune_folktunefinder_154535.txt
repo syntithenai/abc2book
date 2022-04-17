@@ -1,0 +1,24 @@
+X:1
+T:Drops of Brandy
+C:traditionell 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:9/8
+L:1/8
+R:Jig
+K:G
+d2c BGB BGB | d2c BGB cBA | d2c GBG GBG | cBcA2B cBA :|
+GBd gdB GdB | GBd gDB cBA | GBd gdB gdB | cBcA2B cBA :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154535
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/drops_of_brandy.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

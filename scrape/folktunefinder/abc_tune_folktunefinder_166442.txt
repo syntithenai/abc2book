@@ -1,0 +1,107 @@
+X:1
+T:Intrada 6
+C:Johann Pezel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-06.abc
+V:1 Program 1 56 %Trumpet
+V:2 Program 1 56 %Trumpet
+V:3 Program 1 56 %Trumpet
+V:4 Program 1 56 bass %Trumpet
+V:5 Program 1 56 bass %Trumpet
+M:C
+L:1/8
+Q:1/2=60
+K:C
+V:1
+c2d2 e>f ed|cd e/f/e/d/ c2Gc|e2f2 g>a gf|ef g/a/g/f/ e2cd|
+V:2
+G2G2 G>G GG|c2BG G2GG|c2d2 e>f ed|cd e/f/e/d/ c2EG|
+V:3
+G2F2 E>D EF|EA GG/F/ E2EE|G2G2 G>F GG|EAG2 G2 z2|
+V:4
+E2D2 C>D CB,|CA,B,2 C2CG,|E2D2 C2G,B,|C2B,2C2ED|
+V:5
+C,2B,,2 C,2C,G,,|A,,F,,G,,2 C,2 z2|C,2G,,2 C,3G,,|A,,F,,G,,2 C,2 z2|
+%
+V:1
+e/f/e/f/ g/a/g/f/ e>d ec|e/f/e/f/ g/a/g/f/ e>d ec|e2g/f/g/a/ g/f/g/a/ g/a/f/g/|e8:|
+V:2
+c/d/c/d/ B2 c>B cG|c/d/c/d/ B2 c>B cG|c2e/d/e/f/ c2e/f/d/e/|c8:|
+V:3
+z4 E/F/E/F/ G/A/G/F/|EC DDE/F/E/F/ G/A/G/F/|E2cc G2GG|G8:|
+V:4
+CED2 G,>G, G.E/D/|C>G, G,G, G,>G, G,E/D/|C2CC E/D/E/F/ EB,|C8:|
+V:5
+C,2G,,2 C,2G,,2|C,2G,,2 C,2G,,2|C,2C,C, C,2G,,G,,|C,8:|
+%
+V:1
+M:3/4
+L:1/8
+Q:3/4=60
+|:GG cc e2|cc ee g2|c/d/c/d/ e/f/e/f/ g2|GG c/d/c/d/ e/f/e/f/|
+V:2
+M:3/4
+L:1/8
+Q:3/4=60
+|:EE GG c2|GG cc e2|z2 GG c/d/c/d/|G2 EE GG|
+V:3
+M:3/4
+L:1/8
+Q:3/4=60
+|:CC EE G2|EE GG c2|EE GG GG|z6|
+V:4
+M:3/4
+L:1/8
+Q:3/4=60
+|:G,G, E,C, C2|CC CE E2|G,G, C/D/C/D/ E/F/E/F/|G2 G,G, C/D/C/D/|
+V:5
+M:3/4
+L:1/8
+Q:3/4=60
+|:C,C,  C,C, C,2|C,C, C,C, C,2|C,C, C,C, C,2|C,C, C,C, C,2|
+%
+V:1
+M:C
+L:1/8
+Q:1/2=60
+g/a/g/f/ e/f/e/d/ c2 z g|g2 g/f/g/a/ g2 z2|g2 g/f/g/a/ g2 z2|gg ee/f/ gg/f/ ec|ec e/f/e/d/ cc c z:|
+V:2
+M:C
+L:1/8
+Q:1/2=60
+cc cG G2 z e|d2 z2 d2 z2|d2 z2 d2 z2|de cc/d/ ee/d/ cG|cG G/A/G GG G z:|
+V:3
+M:C
+L:1/8
+Q:1/2=60
+E/F/E/F/ G/A/G/F/ E2 z G|G2 z2 G2 D/C/D/E/|\
+D2 z2 G2 D/C/D/E/|GG GG GG/G/ GG|GE GG/F/ EE E z:|
+V:4
+M:C
+L:1/8
+Q:1/2=60
+CG, G,G, C2 z C|B,2 z2 B,2 z2|B,2 z2 B,2 z2|B,C C2 B,B,C2|G,C2G, G,G, G, z:|
+V:5
+M:C
+L:1/8
+Q:1/2=60
+C,C, C,C, C,2 z C,|G,,2 z2 G,,2 z2|G,,2 z2 G,,2 z2|\
+G,,C, C,2 G,,G,,C,2|C,2G,,2 C,C, C, z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/166442
+S:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-06.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/pezel-johann/pezel-intrada-06/pezel-intrada-06.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/pezel-johann/pezel-intrada-06/pezel-intrada-06.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

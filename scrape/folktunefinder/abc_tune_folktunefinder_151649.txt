@@ -1,0 +1,24 @@
+X:120
+T: Das Bauerntoechterlein
+N: Q1051L
+O: Mitteleuropa, Deutschland / Polen, Soldin, Adamsdorf
+N: Melodievergleich zu Q0051E, anderes aber textverwandtes Lied.
+N: Dritte und vierte Zeile Refrain, dritte Zeile auf sinnfreie Silben.
+R: Hochzeits - Lied
+M: 6/8
+L: 1/16
+K: G
+D2G2A2 | B3AGGA2A2 | D4
+F2A2B2 | c2B2A2B2B2 | D6
+G4B,2 | D2D2D2A4D2 | G2GAG2
+D2G2A2 | B2A2G2A2G2F2 | G4z2
+S:https://www.folktunefinder.com/tunes/151649
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Hochzeits - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

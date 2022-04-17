@@ -1,0 +1,25 @@
+X: 116
+T: Jump At the Sun
+I: Jump At the SunJ-50Gmjig
+C: John Kirkpatrick  \2511972
+M: 6/8
+R: jig
+K: Gm
+"Gm"GBd ^c2d| GBd ^c2d| gdd gdd| dcB "D"A3|
+"Gm"GBd ^c2d| GBd ^c2d| gdd "Cm"ed=c| "D7"BcA "Gm"G3:|
+|:\
+d| "Gm"gdd bag| "D7"add c'ba| "Gm"bag bag| "D"a^fd "D7"e2d|
+   "Gm"gdd bag| "D7"add c'ba| "Gm"gdd "Cm"edc| "D7"BcA "Gm"G2:|
+%%text Roaring Jelly  J-50
+%%text 03/24/99
+S:https://www.folktunefinder.com/tunes/169020
+S:http://roaringjelly.org/music/sets/Set51.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set51.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set51.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

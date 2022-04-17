@@ -1,0 +1,42 @@
+X:1
+T:Kontra mit Walzer
+C:traditionell
+R:
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort in G (1. 2.teil) und C (3.teil), einstimmig mit harmonie-buchstaben, seite 276
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:G
+D2 |\
+G2DGB2 | G2DGB2 | G2DGB2 | B2A2A2 |
+F2DFA2 | F2DFA2 | F2DFA2 | G4 :|
+|: D2 |\
+B2d2B2 | c2cde2 | A2c2A2 | B2Bcd2 |
+G2GFGA | B2A2A2 | GFEDEF | G4 :|
+K:C
+|: G2 |\
+g2gggg | e4 c2 | G2A2B2 | c2d2e2 |
+g2gggg | e4 c2 | G2A2B2 | c4 :|
+|: EF |\
+G4 G2 | c2B2A2 | G4 G2 | c2B2A2 |
+g3gg2 | e4 c2 | G2A2B2 | c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170480
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kontra_mit_walzer.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

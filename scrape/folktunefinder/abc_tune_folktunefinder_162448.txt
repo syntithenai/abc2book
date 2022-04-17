@@ -1,0 +1,22 @@
+X: 1
+P: Petronella
+R: Reel
+O: Trad
+C: from John Chambers, arr. T. Traub 9-30-02
+M: 4/4
+K: D
+Z: 1997 by John Chambers <jc@trillian.mit.edu>, extra chords by T. Traub 9-30-02
+|: dA | "D"F2AF "A7"E2AF | "D"D2D2 D2FA | "D" d2cd "Em"e2d2 | "A7"cdec ABAG |"D"F2AF "A7"E2AF|
+"D"D2D2 "Bm" D2FA | "G" d2cd "A7"e2c2 | "D"d4- d2 :||: dA| "D"F2fd A2af | "Em"g2gf edcB |
+"A7"A2ec Aceg | "D"f2fd AdAF | "D"D2fd A2af | "Em"g2gf edcB | "A7"A2ec Agec | "D"d4- d2:|
+S:https://www.folktunefinder.com/tunes/162448
+S:http://terrytraub.org/abc/ReelSet2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/ReelSet2.abc
+S:http://terrytraub.org/abc/PetronellaR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

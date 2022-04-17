@@ -1,0 +1,23 @@
+X: 1
+T: Gotlands Br\"ollopsmarsch
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/16
+K: G
+d2ef \
+| "G"g4 d3d d4 BGBd | "Am"d3c c2c2 "D7"c4 A2c2 \
+|1,3 "G"B2G2 B2d2 "C"e2d2 c2B2 | "D7"B3A A2A2 A4 \
+:|2,4 "G"G2g2 "C"fedc "G"B2AB "D7"c2F2 | "G"A3G G2G2 G4 :|
+|: "G7"G2AB \
+| "C"c4 c3c c4 "D7"cBAB | "G"B3d d2d2 d4 defg \
+| "D7"f4 f3f f2e2 d2ef | "G"g4 g2fg "D7"b2a2 d2ef |
+| "G"g4 d3d d4 BGBd | "Am"d3c c2c2 "D7"c4 A2c2 \
+| "G"G2g2 "C"fedc "G"B2AB "D7"c2F2 | "G"A3G G2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/161869
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/GotlandsBrollopsmarsch_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

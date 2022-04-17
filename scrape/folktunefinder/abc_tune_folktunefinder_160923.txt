@@ -1,0 +1,33 @@
+X:1
+T:Gigouillette
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=220
+M:4/4
+L:1/16
+K:C
+"C"G4 c4 e2e2 e2e2 | e4 f4 e4 c4 | G4 c4 "G"d2d2 d2d2 | d4 e4 "C"c8 :|
+Q:3/8=180
+M:6/8
+L:1/16
+|: G2c2e2 G2c2e2 | G2c2e2 e4 d2 | "G"A2B2d2 A2B2d2 | A2B2d2 "C"c6 :|
+%%rm  C'est la fille de la meunire
+%%rm  Qui dansait avec les gars.
+%%rm  Elle a perdu sa jarretire
+%%rm  Sa jarretire qui n'tenait pas.
+%%rm
+%%rm  En gigotant, gigotant d'la jambe,  ]
+%%rm  En gigotant, gigotant du mollet.   ] bis
+S:https://www.folktunefinder.com/tunes/160923
+S:http://termen.free.fr/danses/ploermel/Gigouillette.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

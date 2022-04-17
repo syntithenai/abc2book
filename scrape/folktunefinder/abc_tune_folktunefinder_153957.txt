@@ -1,0 +1,23 @@
+X:1
+T:Don't Pop My Balloon
+C:copyright 1999 Kaubells
+E:12                   % note spacing
+M:C
+K:Em
+ba|:"Em"g/a/gef gedB|"Am"c/d/cBc A2ag|"B7"f2B2 b2za|"Em"g/a/gfe f^dBa|
+"Em"g/a/gef gedB|"Am"c/d/cBc e2ag|"B7"f2B3/2c'/ bagf|1"...Em"g2e2e2ba:|2"...Em"g2e2e2zf||
+|:"G"gedB A/B/AGB|"Am7"ABce a2ag|"D7"f2d2b2 ba|"G"g/a/gfe "D"fdba|
+E:10                   % note spacing
+"G"gedB A/B/AGB|"Am7"ABce a2ag|"D7"f2d3/2c'/ bagf|1"...G"gedB Gzba:|2"...G"gfga "B7"bzba||
+T:Last time only:
+E:12                   % note spacing
+"G"gedB A/B/AGB|"Am7"ABce a2ag|"D7"f2d3/2c'/ bagf|"G"gedB G2[.B2.g2]|]
+S:https://www.folktunefinder.com/tunes/153957
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/dont-pop-my-balloon.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

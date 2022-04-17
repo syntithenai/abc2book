@@ -1,0 +1,30 @@
+X:1
+T:Ko Stjerna
+R:Polska
+Z:C-G Magnusson, 2008-11-01
+O:Skillingmark, Vrmland
+S:Efter Nils "Buern" Bryntesson
+N:Upptecknad av Nils Andersson, Sknnerud
+B:Sumlen 1981, sid 89
+M:3/4
+L:1/8
+Q:120
+K:G
+(G>B) d2 d2 | (G>B) d2 d2 | e>d ((3cBc) A2 | ((3fef) g2 g2 :|
+|: ba ((3gfg) e2 | ag ((3fef) d2 | ed (^cd) eg | ((3fef) g2 g2 :|
+|: (B6 | c>)c (c4 | B>)A (A4 | B>)G G4 | (B6 | c>)c c4 |
+B>A (A4 | B)A G4 :|
+S:https://www.folktunefinder.com/tunes/170536
+S:http://www.folkwiki.se/pub/cache/Ko_Stjerna_fad8d7.latin.abc
+S:http://www.folkwiki.se/pub/cache/Ko_Stjerna_fad8d7.abc
+S:http://www.folkwiki.se/pub/cache/Ko_Stjerna_fad8d7.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

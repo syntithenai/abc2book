@@ -1,0 +1,22 @@
+X: 32
+T: Village -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:D
+uA,2|v"4"D3uD "0"DFEF|DGAB .A2(Bc)|dcdB AFDF|DFEC .B,2.A,2|
+v"4"D3uD "0"DFEF|DGAB .A2(Bc)|dfab ageg|f2d2d2:|
+|:(ufg)|va3ub agef|gefd "4"edBc|dB{c}BA .B2(ab)|
+va3ub agef|gefd "4"edBc|dcdB AFDF|E2D2D2:|
+S:https://www.folktunefinder.com/tunes/163612
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/UV.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

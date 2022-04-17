@@ -1,0 +1,21 @@
+X: 1
+T: Jump At The Sun
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+DFA ^G2 A|DFA ^G2 A|dAA dAA|BAG F3|
+DFA ^G2 A|DFA ^G2 A|dAA BAG|FGE D3:|
+d2 e fed|e2 f gfe|d2 e fed|A^GA B2 A|
+d2 e fed|e2 f gfe|dAA BAG|FGE D3:|
+S:https://www.folktunefinder.com/tunes/169021
+S:http://www.thesession.org/tunes/display/736
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 107
+T:Kucevacko Kolo
+S: Ciga Ivon Despotovic, Radio-Televizija Beograd
+O: Serbia
+M: 2/4
+L: 1/8
+P:AABBCDD
+K: Gm
+Q: 1/4=240
+%%MIDI gchord fz
+%%MIDI bassprog 25
+%%MIDI program 64
+P:A
+|:"a" d2 de |f2 fg     |"e" a2 ab|a4     |
+"d" g2 ge   |"a" f2 fd |"e" e2 ec|"a" d4:|
+P:B
+|:"a" d2 d2-|"e"  d4   |"a" f2 f2-|f4    |
+[1"e" a2 gf |e2 g2     |"a" f3e   |def2 :|
+[2 "a" g2 fd|"e"  c2 e2|"a"     d4|   d4 |
+P:C
+|:"e"   GAd2|"a"   cde2|    d4    |  def2|
+  "e"  g2fe |   c2e2   |"a" d4    |  def2|
+  "e"  GAd2 |   cde2   |"a" d4    |  def2|
+  "e"  g2fe |   c2e2   |"a" d4    |  d4 :|
+P:D
+|:"g"  BdBd |"d" BcAc  |"g" BGBG   |"d" AFA2|
+  "g"  BABc |   dcBA   |"e" Gffc   |"g"  d4 |
+     dfcd   |"a" edcd  |"g" dBdB   |  c4  |
+     BABc   |   dcBA   |    Gffc   | "d" d4  :|
+S:https://www.folktunefinder.com/tunes/170593
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Kucevacko_Kolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Kucevacko_Kolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,206 @@
+X:1
+%%MIDI chordname 9sus 0 5 7 10 14
+%%MIDI chordname 7sus 0 5 7 10
+T:Goin' Home
+M:4/4
+L:1/8
+Q: "Med-Slow Funk" 1/4=86  
+C:Russell Ferrante
+Z:Luis Pablo Gasparotto
+K:C
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+V:6 name="Guitar"
+%%MIDI program 29
+%
+[V:1] z8                                 | z8    | z8                                | z8    |
+[V:2] z8                                 | z8    | z8                                | z8    |
+[V:3] z8                                 | z8    | z8                                | z8    |
+[V:4] z8                                 | z8    | z8                                | z8    |
+[V:5] "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |"D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |
+[V:6] "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |"D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |
+%
+[V:1] z8                                 | z8    | z8                                | z6 z/ G/c/d/ ||
+[V:2] z8                                 | z8    | z8                                | z8           ||
+[V:3] z8                                 | z8    | z8                                | z8           || 
+[V:4] z8                                 | z8    | z8                                | z8           || 
+[V:5] "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |"D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8        ||
+[V:6] "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |"D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8        ||
+%
+[V:1] .e2 z2 z e/d/ z/ e/ z | f2       d2       e2      c2     | d6 z .c   | d2      e2     c2 A3/G/ |
+[V:2] .G,2  z6              | A,2      ^G,2    A,2      G,2    | A,6 z .A, | C2      C2     A,2 F,2  |
+[V:3] .E,2  z6              | F,2      E,2     E,2      D,2    | E,6 z .^F,| _A,2    G,2    F,2 C,2  |
+[V:4] .C,2  z6              | C,2      B,,2    C,2      _B,,2  | C,6 z .D, | F,2     E,2    C,2 G,2  |
+[V:5] "C"z4 "G/C"z2 "C"z2   | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:6] "C"z4 "G/C"z2 "C"z2   | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+%
+[V:1] z/ e3/- e2 z e/d/ z/ e/ z | f2       d2      e3/a/ z/ g/z/d/ | z/ A/c- c4 (3zBc  | d2      e2    c2   A3/d/         |
+[V:2] z/ G,3/- G,2 z4           | A,2      ^G,2    A,2   z/ G,3/   | z/ ^F,/A,- A,4 z2 | _A,2    C2    A,2  G,3/B,/       |
+[V:3] z/ E,3/- E,2 z4           | F,2      E,2     E,2   z/ D,3/   | z/ C,/^F,- F,4 z2 | F,2     G,2   F,2  F,3/_A,/      |
+[V:4] z/ C,3/- C,2 z4           | C,2      B,,2    C,2   z/ _B,,3/ | z/ A,,/D,- D,4 z2 | C,2     E,2   C,2  C,3/F,/       |
+[V:5] "C"z4 "G/C"z2 "C"z2       | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8         | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:6] "C"z4 "G/C"z2 "C"z2       | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8         | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+%
+[V:1] z/ c3/- c4 (3zAc  | d-(3d/_e/d/ c2 z4       | z8               | z8               |
+[V:2] z/ A,3/- A,4 z2   | B,2 B,2 z4              | z8               | z8               |
+[V:3] z/ G,3/-  G,4 z2  | F,2 F,2 z4              | z8               | z8               | 
+[V:4] z/ E,3/- E,4 z2   | D,2 D,2 z4              | z8               | z8               |
+[V:5] "Am7"z8           | "Bb/F"z4  "F"z4         | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:6] "Am7"z8           | "Bb/F"z4  z c/c/- c/cG/ | z4 z c/c/- c/cG/ | z4 z c/c/ z/ c3/ |
+%
+[V:1] z8                            | z8                        | z8                | z4 z c/c/ z/ c3/ |
+[V:2] z8                            | z8                        | z8                | z8               |
+[V:3] z8                            | z8                        | z8                | z8               |
+[V:4] z8                            | z8                        | z8                | z8               |
+[V:5] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8                   | "C7/E"z4 "F7"z4   | "C7/Bb"z4 "F7"z4 |
+[V:6] g2 e2 f2 e3/d/                | z/ c3/- c2 z c/c/- c/c_e/ | z4 z ._e e/d/c/c/ | "C7/Bb"z4 "F7"z4 |
+%
+[V:1] g2       e2    f2      g2     | a4 z A/B/ z/ c/z/d/- | d.B .Gd/^c/ z/ A/z/c/ z/ e/z/g/ | 
+[V:2] C2       G,2   A,2     _B,2   | C4 z2  z3/      G,/- | G,2  z2 z/ A,/  z z/ ^C/  z     |
+[V:3] G,2      E,2   F,2     G,2    | A,4 z2 z3/      D,/- | D,2 z2  z/ E,/ z z/ A,/ z       |
+[V:4] E,2      C,2   D,2     D,2    | F,4 z2 z3/     B,,/- | B,,2 z2 z/ ^C,/ z z/ F,/ z      |
+[V:5] "C/E"z2 "C"z2 "Dm7"z2 "Gm7"z2 | "Fmaj7"z8            | "G/F"z4 "A/F"z4                 |  
+[V:6] "C/E"z2 "C"z2 "Dm7"z2 "Gm7"z2 | "Fmaj7"z8            | "G/F"z4 "A/F"z4                 |
+%
+[V:1] z/ f/ (3z/f/e/ f4 z/ G/c/e/ | f3/e/   z/ c/  z c2    d3/f/      |
+[V:2] z/ C/  z C4    z2           | C3/C/   z/ G,/ z A,2   B,3/D/     |
+[V:3] z/ A,/ z A,4   z2           | A,3/G,/ z/ E,/ z F,2   _A,3/B,/   |
+[V:4] z/ D,/ z D,4   z2           | F,3/E,/ z/ C,/ z C,2   F,3/_A,/   |
+[V:5] "Dm7"z8                     | "F/G"z2 "C/G"z2 "F/G"z2 "Abdim"z2 |
+[V:6] "Dm7"z8                     | "F/G"z2 "C/G"z2 "F/G"z2 "Abdim"z2 |
+%
+[V:1] z/ e3/- e4 z/ G/c/e/ |  f3/e/ z/ c/ z c2 d2              |
+[V:2] z/ C3/-  C4 z2       | C3/C/   z/ G,/ z _A,2 B,2         |
+[V:3] z/ A,3/- A,4 z2      | A,3/G,/ z/ E,/ z _E,2 F,2         |
+[V:4] z/ E,3/- E,4 z2      | F,3/E,/ z/ C,/ z C,2  D,2         |
+[V:5] "Am7"z8              | "F"z2 "C/F"z2 "Ab/Bb"z2 "Bb/Ab"z2 |
+[V:6] "Am7"z8              | "F"z2 "C/F"z2 "Ab/Bb"z2 "Bb/Ab"z2 |
+%
+[V:1] G3/e/- e4-  eG  | _A3/e/- e4  (3zGA |
+[V:2] C3/G/-  G4- GC  | C3/_A/- A4  z2    |
+[V:3] G,3/E/- E4- EG, | _A,3/F/- F4 z2    |
+[V:4] E,3/C/- C4- CE, | F,3/C/-  C4 z2    |
+[V:5] "C/G"z8         | "Fm7maj/G"z8      |
+[V:6] "C/G"z8         | "Fm7maj/G"z8      |
+%
+[V:1] =A3/e/- e4 z/ G/c/e/ | f3/e/ z/ c/ z    c2    d2       |
+[V:2] C3/A/- A4 z2         | C3/C/   z/ G,/ z A,2   B,2      |
+[V:3] =A,3/F/- F4 z2       | A,3/G,/ z/ E,/ z F,2   G,2      |
+[V:4] F,3/C/-  C4 z2       | F,3/E,/ z/ C,/ z C,2   D,2      |
+[V:5] "Fmaj7/G"z8          | "F/G"z2 "C/G"z2 "F/G"z2 "G/F"z2 |
+[V:6] "Fmaj7/G"z8          | "F/G"z2 "C/G"z2 "F/G"z2 "G/F"z2 |
+%
+[V:1] c4- (3c._B.A (3.G.D.C            | C8    | z8                                 | z8    |
+[V:2] G,2 A,2  C2 z2                   | G,8   | z8                                 | z8    | 
+[V:3] E,2 ^F,2 _A,2 z2                 | E,8   | z8                                 | z8    |
+[V:4] C,2 D,2  _E,2 z2                 | C,8   | z8                                 | z8    |
+[V:5] "C/E"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 | "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |
+[V:6] "C/E"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 | "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 |
+%% text 1rst Solo
+[V:1] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:2] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:3] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:4] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:5] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+[V:6] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z4 |
+%
+[V:1] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:2] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:3] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:4] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:5] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+[V:6] "C"z4 "G/C"z2 "C"z2 | "F/C"z2 "E7/B"z2 "Am7"z2 "Gm7"z2 | "D9/F#"z8 | "Fm6"z2 "C/E"z2 "F/G"z3 "Abdim"z |
+%
+[V:1] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:2] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:3] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:4] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:5] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+[V:6] "Am7"z8 | "Bb/F"z4  "F"z4 | "C7/E"z4 "F7"z4  | "C7/Bb"z4 "F7"z4 |
+%
+[V:1] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+[V:2] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+[V:3] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+[V:4] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+[V:5] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+[V:6] "C/E"z2 "C"z2 "Dm7"z2 "E7"z2 | "Am7"z8 | "C7/E"z4 "F7"z4 | "C7/Bb"z4 "F7"z4 |:
+%% text 2nd Solo
+[V:1] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+[V:2] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+[V:3] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+[V:4] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+[V:5] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+[V:6] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 | "G/F"z8 |
+%
+[V:1] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+[V:2] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+[V:3] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+[V:4] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+[V:5] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+[V:6] "Fmaj7"z8 | "G/F"z8 | "Fmaj7"z8 |1 "G/A"z2 "C/D"z2 "Gm7"z2 "C9sus"z2 :|2
+%
+[V:1] g2       e2    f2      g2     ||
+[V:2] C2       G,2   A,2     _B,2   ||
+[V:3] G,2      E,2   F,2     G,2    ||
+[V:4] E,2      C,2   D,2     D,2    ||
+[V:5] "C/E"z2 "C"z2 "Dm7"z2 "Gm7"z2 ||
+[V:6] "C/E"z2 "C"z2 "Dm7"z2 "Gm7"z2 ||
+%% text Play ending 1 till cue
+%% text 
+[V:1] a4 z A/B/ z/ c/z/d/- | d.B .Gd/^c/ z/ A/z/c/ z/ e/z/g/ | 
+[V:2] C4 z2  z3/      G,/- | G,2  z2 z/ A,/  z z/ ^C/  z     |
+[V:3] A,4 z2 z3/      D,/- | D,2 z2  z/ E,/ z z/ A,/ z       |
+[V:4] F,4 z2 z3/     B,,/- | B,,2 z2 z/ ^C,/ z z/ F,/ z      |
+[V:5] "Fmaj7"z8            | "G/F"z4 "A/F"z4                 |  
+[V:6] "Fmaj7"z8            | "G/F"z4 "A/F"z4                 |
+%
+[V:1] z/ f/ (3z/f/e/ f4 z/ G/c/e/ | f3/e/   z/ c/  z c2    d3/f/      |
+[V:2] z/ C/  z C4    z2           | C3/C/   z/ G,/ z A,2   B,3/D/     |
+[V:3] z/ A,/ z A,4   z2           | A,3/G,/ z/ E,/ z F,2   _A,3/B,/   |
+[V:4] z/ D,/ z D,4   z2           | F,3/E,/ z/ C,/ z C,2   F,3/_A,/   |
+[V:5] "Dm7"z8                     | "F/G"z2 "C/G"z2 "F/G"z2 "Abdim"z2 |
+[V:6] "Dm7"z8                     | "F/G"z2 "C/G"z2 "F/G"z2 "Abdim"z2 |
+%
+[V:1] z/ e3/- e4 z/ G/c/e/ |  f3/e/ z/ c/ z c2 d2              |:
+[V:2] z/ C3/-  C4 z2       | C3/C/   z/ G,/ z _A,2 B,2         |:
+[V:3] z/ A,3/- A,4 z2      | A,3/G,/ z/ E,/ z _E,2 F,2         |:
+[V:4] z/ E,3/- E,4 z2      | F,3/E,/ z/ C,/ z C,2  D,2         |:
+[V:5] "Am7"z8              | "F"z2 "C/F"z2 "Ab/Bb"z2 "Bb/Ab"z2 |:
+[V:6] "Am7"z8              | "F"z2 "C/F"z2 "Ab/Bb"z2 "Bb/Ab"z2 |:
+%
+[V:1] G3/e/- e4-  eG  | _A3/e/- e4  (3zGA |
+[V:2] C3/G/-  G4- GC  | C3/_A/- A4  z2    |
+[V:3] G,3/E/- E4- EG, | _A,3/F/- F4 z2    |
+[V:4] E,3/C/- C4- CE, | F,3/C/-  C4 z2    |
+[V:5] "C/G"z8         | "Fm7maj/G"z8      |
+[V:6] "C/G"z8         | "Fm7maj/G"z8      |
+%
+[V:1] =A3/e/- e4 z/ G/c/e/ | f3/e/ z/ c/ z    c2    d2       :|
+[V:2] C3/A/- A4 z2         | C3/C/   z/ G,/ z A,2   B,2      :|
+[V:3] =A,3/F/- F4 z2       | A,3/G,/ z/ E,/ z F,2   G,2      :|
+[V:4] F,3/C/-  C4 z2       | F,3/E,/ z/ C,/ z C,2   D,2      :|
+[V:5] "Fmaj7/G"z8          | "F/G"z2 "C/G"z2 "F/G"z2 "G/F"z2 :|
+[V:6] "Fmaj7/G"z8          | "F/G"z2 "C/G"z2 "F/G"z2 "G/F"z2 :|
+%
+[V:1] c4- (3c._B.A (3.G.D.C            | C8    | z8                                 | z/ B,3/- HB,4 z2 |]
+[V:2] G,2 A,2  C2 z2                   | G,8   | z8                                 | z/ G,3/- HG,4 z2 |] 
+[V:3] E,2 ^F,2 _A,2 z2                 | E,8   | z8                                 | z/ E,3/- HE,4 z2 |]
+[V:4] C,2 D,2  _E,2 z2                 | C,8   | z8                                 | z/ C,3/- HC,4 z2 |]
+[V:5] "C/E"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 | "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8            |]
+[V:6] "C/E"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8 | "D7sus"z2 "D7"z2 "Ab7"z2 "G9sus"z2 | "C"z8            |]
+S:https://www.folktunefinder.com/tunes/161614
+S:http://abcmr.sourceforge.net/goinghome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

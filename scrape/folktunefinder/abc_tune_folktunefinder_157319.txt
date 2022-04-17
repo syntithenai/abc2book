@@ -1,0 +1,34 @@
+X:1
+T:s-delta
+T:Fassung 1
+C:Arr.: Heinz Bohlen
+R:carol
+M:3/4
+L:1/4
+Q:1/4=90
+K:C
+%
+V:1
+%%MIDI program 71 % Clarinet
+%%MIDI beat 90 85 85 1
+=D | =D2 =D | =F2 =F |
+^G =B =c | =c2 =c | =F2 =F |
+=D2 =F | [M:C] ^G3 ^G | =c=d^d^d |
+=d/=c/=B/=A/ ^G =F | ^G =F =F ^D | =D3 ||
+V:2
+%%MIDI program 70 % Bassoon
+%%MIDI beat 90 85 85 1
+^C, | ^C,2 ^C, | ^C,2 ^C, |
+^C, =E, =G, | =G,2 =G, | ^A,2 ^A, |
+=D2 ^C | [M:C] =B,3 =B, | =G, =E, ^C, =G, |
+=E,2 ^C, ^A, | =G, =F =D ^C | =D3 ||
+S:https://www.folktunefinder.com/tunes/157319
+S:http://www.mail-archive.com/abcusers@yahoogroups.com/msg00153.html
+% Rhythm Carol
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:1  % Icy_Sidewalk.abc
+T:Icy Sidewalk, The
+C:Barry Schwartz
+R:hornpipe
+H:Written January 11, 2004.
+H:This piece reminded me of people walking on a slippery sidewalk.
+N:Copyright  2004 by Barry B. Schwartz
+%%abc-copyright Copyright (C) 2004 by Barry B. Schwartz
+% $Revision: 1.13 $   $Date: 2004/03/19 20:40:29 $
+M:C|
+L:1/8
+N:Composer's website: http://www.winternet.com/~trashman/Music.html
+K:G major
+|:d2|BBcB AABA|G2B2G2 dc|BBcB AABA|G2B2G2 d2|
+eege agfe|dded gfed|ccdc BABc|d2G2G2:|
+|:ga|bbag a(3bc'ba|ggab g2 d'c'|bbag a(3bc'ba|ggab g2 f2|
+eege agfe|ggfe dBcd|eecA FGAB|d2G2G2:|
+S:https://www.folktunefinder.com/tunes/165883
+S:http://www.winternet.com/~trashman/hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,127 @@
+X:1
+%
+%%tabrhstyle     diamond
+%%tabfontitalian itBorrono
+%%tabfontsize    11
+%%titleleft      yes
+%%staffsep       35pt
+%%topmargin      2.20cm
+%%titlespace    -1.00cm
+%
+T:Fantasia prima
+C:Jean Paul Paladin (1560)
+B:Premier Livre de Tablature de Luth
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:D italiantab
+%
+,a3 .,c1 | ,d1.,a ,d.a |\
+[c,a3] .,,c1 | [c,d1],,a ,,d,a |\
+[ac,,a3] ,,,,c1 | [ac,,e1],,,,a ,,,,e,,,a |\
+[aa,c,a3] ,,,,,c1 | [aa,c,e1],,,,,a ,,,,,e,,,,a |\
+[,a,ac1].,,e ,a.,c | [,daac1].,a ,d.a |
+%bar 11
+[c,a1],,,d ,,a,,c | [c,d1],,a ,,d,a |\
+[ac1],,d [ea].,c | [cd2] [fc] |\
+[ea1],,d [c,a],,d | ,,c1,,a [bac2] |\
+[c,,e2] ,,e1.,,c | [c,ee,c1].,,f2 .,,e1 |\
+[,efec2] [a,,c,e] | [,,a,a2] ,e1.,c |
+%bar 21
+[,ea,c1].a2 .c1 | [ea,,,a1].g h2 |\
+,,h2 g1.e | [g,h1].h2 .g1 |\
+[ha1]f/.e c.a,d.,c | [,df1],a/.,c ,d.ac.e |\
+[fca2] ,d1.e | [c,,a1].,c [aab2] |\
+[c,,e2] ,,e1.,,c | 
+%bar 30
+[c,ee1].,,f2 .,,e1 |\
+[,a,,c1].,c [cd].,a | ,d1.e [fca].c |\
+f1.,,c [,,da].,,a | [c,d1],,,c [,aa,c],,,a |\
+,,a1,,,,e [ca,a],,,,c | [,,da1].e [f,,,a].c |\
+.f1,,,,c [a,,ce],,,,a | ,,,,e1[,,aa] [aacc],,,c |
+%bar 39
+[,,c,c1].,c [,da].,a | ,d1.,,c [,cd,,c].,,a |\
+[c,d1],,,,,e ,,,,a,,,,,c | [ac,,a2] [,df,c1],,d |\
+[,cc,e2] [,aaa] | [,c,,e2] ,,,d |\
+[,,a,,c2] c | c2 .f |\
+e2 [ha] | ,a1.f [cd].f |\
+,c1.e .a2 | 
+%bar 50
+[ca2] [,da] |\
+[,ca2] ,,d | [,ac2] [,,a,c1].,c |\
+[,d,,c1].a [c,aa].,d | [a,c,e1],,a/.,,c [,cd2] |\
+[,d,,c1].,,c .,,a[,c,,a] | [,a,,,e2] ,,,d |\
+[,,ee,c2] ,a1.,c | [,d,ac1].a [c,a].e |\
+[f,a1].e [c,d2] | 
+%bar 60
+,,c2 .b |\
+[c,a2] ,,,,c1.a | [,d,,c1].,c [,aaa2] |\
+[,,,ce1],,e/.,,c ,,e1,a/.,c | [,da,c2] [,c,,ef] |\
+[,,,ac1].,a [,a,c,d2] | [,,e,ec1].,,c ,,f.,,e |\
+[,a,,c/].,,e,a.,c ,d.ac1 | ,,,a/.,c,d.a c.ef1 |
+%bar 69
+,,,,a/.,,c,,d.,a ,c.,ea1 | ,,,,,a/.,,,b,,,c.,,a ,,c.,,d,a1 |\
+,,,,c/.,,e,a.,c ,d.ac.e | [f,,e,c2] ,,d1.e |\
+.c1,a [bc].c | [ea1].f .e,,c |\
+,,d1.c [ca2] | ,,c2 a1.,d |\
+[,ce2] [,af] | 
+%bar 78
+.,c1,,e/.,,c ,,e1,a/.,c |\
+[,df1].,c [,da,c].a | .c1,,,,e ,,,a[,,cc] |\
+[,,de1].a c.e | [f,aa1].,,,c ,,a.,,c |\
+[,,d,a1],,,,c [a,,,e],,,a | [e,cc1].,,d ,a.,c |\
+[cd,,c1],,,,e ,,,a,,,c | [f,de1].,a ,c.,e |\
+[ef,c1].,,a ,,c.,,e | 
+%bar 88
+[cdf,c1],,,,e ,,,a,,,c |\
+[ccee2] ,,,,,c1.a | [,da,c2] [,cd,a] |\
+[,da,c1].,c [,ab,,a2] | ,,,,,d1.,c .,d,,,,a |\
+[,,a,c1],,,,e [,a,a],,,c | [,,ee1].,a .,c,,,c |\
+,,,a1.,a [,a,ac2] | [a,,ce2] [,cde,c1].,,c |\
+[,daac2] ,a1.,c | 
+%bar 98
+[,da1].a .c,,,,e |\
+,,,a1.a [a,cc2] | [,,de1].,d ,c.,a |\
+[,cde2] ,,,,,c | [,cde,c2] .,e |\
+[a,cce2] [,cdca] | [,daac1].,c [,abc,a2] |\
+[,,eeec1].,,f ,,e.,,c | [,,feec1],,e/.,,c ,,e2 |\
+[,aa,c2] .c1,,,,e | 
+%bar 108
+[,,aa1].e .f,,c |\
+[,,d,a1]e/.c a1,,c/.,,a | ,,,c1.c [d,,,,a].,,a |\
+,,b1c/.a [,d,,c1],,a/.,,,c | ,,,a1.a .c[e,,c] |\
+[f,a1].,,c ,,de/.c | [ac,,a1].c [ea,c][f,a] |\
+[h,,g1],,,h ,af/.e | c1.,,d [f,a].,,c |\
+,,d1e/.c a1.,,c | 
+%bar 118
+[d,,c1].,,a [,,b,,a]c/.a |\
+[,d,,c1],,a/.,,,c ,,,a1.,,,c | [,cde,c2] .f1,,,,,e |\
+[,,,ca1].c f2 | [ea,,,a2] a1.c |\
+e1.a [e,,c,a2] | [c,a,c2] .,d1,,,,e |\
+,,,a1.,a ,d.,,c | [,cd,a2] ,,d1.,a |\
+[,c,c1].,,d [,cd,,c2] | 
+%bar 128
+[,ab,,d2] .d1[,,d,,c] |\
+[,ab,,a1].a [d,,c].,c | [cdda2] ,d1.a |\
+c1.,d [cd,,c2] | [ac,,e2] ,,,,a1.,d |\
+[,cd1],,,,,c ,,,,a2 | [,a,a,d2] [,,,c,a1],,,,,c |\
+[,a,a,d1],,,,,a ,,,,,d.,,,c | [,,de,c2] .f1,,c |\
+[,,aa1].e .c[a,,,e] | 
+%bar 138
+[,daac2] [,cdca] |\
+[,,aac1].,a [,abc,a2] | [,,eeec1].,,c ,,f.,,e |\
+[,aa,c1].,c ,d.a | [ca,ac1].,d a.c |\
+[dab,,a3] .,,a1 | [da,c,a4] |\
+[da,cc2] ,,,b1,,,,e | [da,bc2] .c |\
+H[ca,bc4] |]
+%
+%%right transcribed from Minkoff Facsimile
+S:https://www.folktunefinder.com/tunes/156957
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Paladin/fantasia1_1560.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Paladin/fantasia1_1560.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 2
+P: da Guizers' March
+C: Gideon Stove
+O: Shetland
+M: C|
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+L: 1/8
+K: D
+[| A, \
+|| "D"D>E FA d2 Ad | "A7"c>d e/d/c/B/ "D"AD FA \
+|  "Em"GE "A7"A>G "D"FD DF | "Em"E/F/G/A/ B/A/G/F/ "A7"EAC[EA,] |
+|| "D"D>E FA d2 fd | "A7"c>d e/d/c/B/ "D"Ad F>D \
+|  "G"GB "Em"E>G "D"FD d>f | "A"e/d/c/B/ A/G/F/E/  "D"FD D |]
+[| f/g/ \
+|| "D"a>f dA "G"[B3G]d | "A7"c>d e/d/c/B/ "D"Ad fa \
+|  "G"bB "Em"g>b "D"aA d>f | "G"g/a/b/a/ "Em"g/f/e/d/ "A7"cA Af/g/ ||
+|| "D"a>f dA "G"[BG]>G Bd | "A7"c>d e/d/c/B/ "D"Ad fa \
+|  "G"b[BG] [BG]>b "D"a[AF] [AF]>a | "Em"g/f/e/d/ "A7"c/B/A/G/ "D"FD D |]
+S:https://www.folktunefinder.com/tunes/160672
+S:http://trillian.mit.edu/~jc/music/book/500/GayGordons1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/GayGordons1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

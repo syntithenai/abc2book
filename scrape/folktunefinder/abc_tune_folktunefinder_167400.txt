@@ -1,0 +1,28 @@
+X: 1
+T: Jeanette's
+M: 3/4
+L: 1/8
+R: waltz
+K: Dmaj
+&quot;D&quot;(dcdedc)|d3af2|(dcdedc)|
+&quot;G&quot;d3bg2|&quot;D&quot;(dcdedc)|d3af2|
+&quot;A7&quot;(dcd)(gfe)|[1 &quot;D&quot;d4(fe):|[2 &quot;D&quot;d4(FG)||
+&quot;D&quot;A3cA2|&quot;Em&quot;G6|&quot;D&quot;F3AF2|&quot;A&quot;E6|&quot;G&quot;G3AG2|
+&quot;D&quot;(FGFE)D2|&quot;A7&quot;C3DE2|&quot;D&quot;F6|
+&quot;D&quot;A3cA2|&quot;Em&quot;G6|&quot;D&quot;F3AF2|&quot;A&quot;E6|&quot;G&quot;G3AG2|
+&quot;D&quot;(FGFEDC)|&quot;A7&quot;(CB,C)(GFE)|&quot;D&quot;D6||
+&quot;D&quot;(AGAcAF)|&quot;Em&quot;G6|&quot;D&quot;(FEFAFD)|&quot;A&quot;E6|&quot;G&quot;(GFGBGE)|
+&quot;D&quot;(FGFEDC)|&quot;A7&quot;(CB,CDEF)|&quot;D&quot;F6|
+&quot;D&quot;(AGAcAF)|&quot;Em&quot;G6|&quot;D&quot;(FEFAFD)|&quot;A&quot;E6|&quot;G&quot;(GFGBGE)|
+&quot;D&quot;(FGFEDC)|&quot;A7&quot;(CB,CGFE)|&quot;D&quot;D6||
+S:https://www.folktunefinder.com/tunes/167400
+S:http://www.thesession.org/tunes/display/5333
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

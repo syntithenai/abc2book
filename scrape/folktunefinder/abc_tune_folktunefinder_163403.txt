@@ -1,0 +1,25 @@
+X:14
+T:Harrington  Polka
+R:polka
+C:Chris Perry
+S:Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+Q:70
+K:D
+|:B/c/ |
+"D"dA F3/2D/ |"G"GB E3/2D/ |"A"CE A3/2G/ |"D"FA "A"ce |
+"D"dA F3/2D/ |"G"GB E3/2D/ |"A"CE A/B/A/G/ |"D"FD D :: F |
+"E"E3/2^G/ BB |"A"Ac e3/2c/ |"E"df Bd |"A"c/d/c/B/ AF |
+"E"E3/2^G/ BB |"A"Ac e3/2c/ |"D"df "E"Be/d/ |"A"|1 cA A :|2\
+"A"cA A2 ||
+S:https://www.folktunefinder.com/tunes/163403
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/HarringtonPolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:4
+T:Hag at the Churn, The
+M:6/8
+L:1/8
+Q:100
+C:Trad
+S:Bothy Band
+R:Dbl Jig
+N:Contributed by Phil Sexton
+D:Out of the Wind Into the Sun
+K:G
+"D"A2G ADD|A2G "C"Adc|"D"A2G ADD|"C"EFG EFG:|
+"D"AdB "C"c3|"D"Add "A7"efg|"D"AdB "C"c3|"E"EDE "D"GED|
+"D"AdB "C"c3|"D"Add "A7"efg|"D"fge "Am"dcA|"C"GEF "D"GED|
+S:https://www.folktunefinder.com/tunes/162844
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/HagattheChurnThe_1.abc
+% Rhythm Dbl jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

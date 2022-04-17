@@ -1,0 +1,23 @@
+X: 9
+T: SARATOGA -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: 2/4
+L: 1/16
+Z: Contributed 20000426195618 by John Chambers jchambers:casc.com
+K: F
+vAB \
+| c=BcA d_Bfd | cAFA cAdc | BAGB AGFA | Gc=Bd c_BAB |
+| c=BcA d_Bfd | cAFA cdef | defg  efga | f2f2f2 :|
+|: (uef) \
+| aAgA fAeA | fAeA dAfA | eA^ce agfe | fgef defg |
+| aAgA fAeA | fAeA dAdf | efga bgeg | f2f2f2 :|
+S:https://www.folktunefinder.com/tunes/165243
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

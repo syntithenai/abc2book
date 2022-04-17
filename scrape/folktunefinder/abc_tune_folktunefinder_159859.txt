@@ -1,0 +1,33 @@
+X:1
+T:Galop Nantais
+C:Traditionnel du pays Nantais, fichier abc : Bernard Loffet
+L:1/8
+Q:380
+M:2/2
+K:C
+|: [e2C,,2][c2C,2][cC,,]B [cC,]d | [c2G,,2][B2G,2] [BG,,]A[BG,]c | [B2D,,2][A2D,2] [AD,,]G[AD,]B | \
+ [A2G,,2][G2G,2] [G2G,,2]G,2 | [e2C,,2][c2C,2] [cC,,]B[cC,]d | [c2G,,2][B2G,2] [B2G,,2]G,G | \
+ [A3D,,3D3]A [d3D,,3D3]d |1 [G8G,,8G,8] :|2 [G6G,,6G,6]zG | \
+M:6/8
+ [A3D,,3D3] z2A | [B3G,,3G,3] z2B | [c2C,,2C2]c [cC,,C]dc | [B3G,,3G,3] z2G | [A3D,,3D3] z2A | \
+ [B3G,,3G,3] z2B | [^c2A,,2A,2]c [cA,,A,]BA | [d3D,,3D3] z2[dD,] |: [dG,,]B[GG,] [d2G,,2][dG,] | \
+ [dG,,]B[GG,] [d2G,,2][GG,] | [A2D,,2][AD,] [d2D,,2][dD,] | [B2G,,2]G, [G2G,,2][dG,] | \
+ [dG,,]B[GG,] [d2G,,2][dG,] | [dG,,]B[GG,] [d2G,,2][GG,] | [A2D,,2][AD,] [d2D,,2][dD,] | \
+|1 [G2G,,2]G, G,,2[dG,] :|2 [G6G,,6G,6] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/159859
+S:http://diato.ifrance.com/diato/tablat/56.abc
+S:http://diato.ifrance.com/tablat/56.abc
+S:http://diato.org/tablat/56.abc
+S:http://perso.orange.fr/diato/tablat/56.abc
+S:http://perso.wanadoo.fr/diato/tablat/56.abc
+S:http://pro.wanadoo.fr/diato/tablat/56.abc
+S:http://www.diatonique.net/tablat/56.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

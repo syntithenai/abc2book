@@ -1,0 +1,55 @@
+X:2
+T:Deck the Halls [D]
+C:Music: Traditional, Words: J. P. McCaskey
+Z:ABC by Thornton Rose, December 2001
+N:Original scores in D and F.
+Q:1/4=140
+M:4/4
+L:1/4
+K:D
+"D"A>G F E | "Bm"D E F D | "A7"E/2F/2G/2E/2 "D"F>E | D "A7"C "D"D2 |
+"D"A>G F E | "Bm"D E F D | "A7"E/2F/2G/2E/2 "D"F>E | D "A7"C "D"D2 |
+"A7"E>F G E | "D"F>G A E | "D"F/2^G/2 A "Bm"B/2c/2 d | "A"c "E7"B "A"A2 |
+"D"A>G F E | "Bm"D E F D | "G"B/2B/2B/2B/2 "D"A>G | F "A7"E "D"D2 :|
+W:
+W:1. Deck the Halls with boughs of holly.
+W:Fa la la la la, la la la la.
+W:'Tis the season to be jolly.
+W:Fa la la la la, la la la la.
+W:Don we now our gay apparel.
+W:Fa la la la la, la la la la.
+W:Troll the ancient Yuletide carol.
+W:Fa la la la la, la la la la.
+W:
+W:2. See the blazing Yule before us.
+W:Fa la la la la, la la la la.
+W:Strike the harp and join the chorus.
+W:Fa la la la la, la la la la.
+W:Follow me in merry measure.
+W:Fa la la la la, la la la la.
+W:While I tell of Yuletide treasure.
+W:Fa la la la la, la la la la.
+W:
+W:3. Fast away the old year passes.
+W:Fa la la la la, la la la la.
+W:Hail the near year ye lads and lasses.
+W:Fa la la la la, la la la la.
+W:Sing we joyous all together.
+W:Fa la la la la, la la la la.
+W:Heedless of the wind and the weather.
+W:Fa la la la la, la la la la.
+S:https://www.folktunefinder.com/tunes/152555
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/DeckTheHalls.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/DeckTheHalls.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/DeckTheHalls.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/mindspring.com/%7Ethornton.rose/DeckTheHalls.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/troseandassociates.com/abc/DeckTheHalls.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

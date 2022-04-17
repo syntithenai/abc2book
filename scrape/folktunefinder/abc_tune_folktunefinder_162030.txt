@@ -1,0 +1,27 @@
+X: 1
+T:Grainne's Jig
+C:Tommy Peoples
+R:jig
+D:Deanta: Ready for the Storm
+Z:id:hn-jig-284
+M:6/8
+K:G
+dGF GDB,|G,2G, DB,D|EcB ABG|FED cBA|
+B/c/dB ~G3|EGE CEG|DGc BAF|1 AGF GBc:|2 AGF G2A||
+|:B2A Ggf|ecA EDE|~F3 ~f3|ed^c d2=c|
+B/c/dB Ggf|ecA EDE|DGc BAF|1 AGF G2A:|2 AGF G2D||
+|:GBd gfg|ecB c2B|Ace a2g|fd^c def|
+gdB Ggf|ecA ~E3|DGc BAF|1 AGF G2D:|2 AGF GBc||
+% Output from ABC2Win  Version 2.1 i on 12/24/2005
+S:https://www.folktunefinder.com/tunes/162030
+S:http://www.geocities.com/shanaway1/Grainne.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

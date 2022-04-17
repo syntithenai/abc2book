@@ -1,0 +1,28 @@
+X:1
+T:Draailieraroma
+C:Mart Heijmans
+A:Niederlande
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Dm
+A2 BA | ^G3A | d3/2f/2 ed | BG cB |\
+AF BA | ^G3A | G3/2F/2 ED |1 EF2G :|\
+                          [2 E4 ||
+K:G
+|:\
+F3/2G/2 AF | c3/2B/2 AG | ed cB | AG FE |\
+F3/2G/2 AF | c3/2B/2 AG | e3/2d/2 cB | A4 :|
+S:https://www.folktunefinder.com/tunes/154287
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree.A2BA^G3A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

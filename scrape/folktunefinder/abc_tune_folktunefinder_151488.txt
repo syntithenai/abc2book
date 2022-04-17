@@ -1,0 +1,29 @@
+X: 4
+T: The Dark Island
+C: Ian Maclachlan
+Z: Nigel Gatherer <gatherer@argonet.co.uk>
+K: G
+M: 3/4
+L: 1/8
+S: Various records
+E \
+| A3 E A2 | G3 A G2 | E3 D C2 | D4 GA |
+| B3 A G2 | B d3 D2 | B3 d B2 | A4 DE |
+| A3 E A2 | G3 A G2 | E3 D C2 | D4 GA |
+| B3 DdB | A3 DBA | G6 | G4 |]
+| Bc | d3 D D2 | B3 A G2 | E C3 E2 | D4 GA |
+| B3 A G2 | B d3 D2 | B3 d B2 | A4 DE |
+| A3 E A2 | G3 A G2 | E3 D C2 | D4 GA |
+| B3 DdB | A3 DBA | G6 | G4 |]
+S:https://www.folktunefinder.com/tunes/151488
+S:http://ale.physics.sunysb.edu/~mcgrew/music/other/TheDarkIsland.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/other/TheDarkIsland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

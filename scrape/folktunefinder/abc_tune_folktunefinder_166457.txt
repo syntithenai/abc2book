@@ -1,0 +1,23 @@
+X:4
+T:
+T:Variation II.
+M:3/4
+L:1/8
+K:Bb bass
+%1
+L:1/16
+F3 E | DFdc BDDF Bdgf | =eff_d d=ddA ABBF |
+EFFA AFFc cFFA | BFDE FdEc DBFE | DFdc BDDF Bdgf
+=eff_d d=ddA ABBF | EFFA AFFc cFFA | ABFD B,4 || d3c |  c=e GB =E4 d3c |
+cfAc F4 A3 c | c=EEd dEEc c3B | AffA AccF d3c | c=eGB =E4 d3c |
+cfAc F4 A3c | c=EEd dEEd {cd}"rall."c3E | F8 "Tempo I"F3 E | DFdc BDDF Bdgf |
+=eff_d d=ddA ABBF | EFFA AFFc cFFA | BFDE FdEc DBFE |
+DFdc BDDF Bdgf | =eff_d d=ddA ABBF | EFFA AFFc cFFA | ABFD B,4 |]
+S:https://www.folktunefinder.com/tunes/166457
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

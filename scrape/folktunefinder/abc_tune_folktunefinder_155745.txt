@@ -1,0 +1,23 @@
+X:4
+T:Lam Gods
+C:Frans Visser, dec '08
+%%staves {(1 2)|3}
+%%MIDI program 1 53% Choir Oohs
+%%MIDI program 2 53% Choir Oohs
+%%MIDI program 3 53% Choir Oohs
+M:none
+L:1/4
+K:C
+V:1
+(A2G2)(cG)(AFE2)D2(GF)GA(cB)AG(AF)E2D2(EFG)A(cdc)BA4
+S:https://www.folktunefinder.com/tunes/155745
+S:http://home.quicknet.nl/qn/prive/agm.schoutsen/map/Jacobus%20Mis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

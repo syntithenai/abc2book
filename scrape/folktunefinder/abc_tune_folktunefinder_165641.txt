@@ -1,0 +1,27 @@
+X:1
+T:Humppa
+C:Trad
+R:LTTYP
+Z:Sven Midgren, 25 nov. 2008
+O:Finland
+S:Utlrd av Ellinor Bjrnborg till Lustspel (Lunds Studentspelmanslag)
+M:C|
+L:1/8
+K:Dm
+A2F2  DA F(D | D)(A A)^G G4 | A,>=B, ^CD EG F(E | E)(^G G)=G F4 |
+B2(G2 G)B AG | A2 (F2 F)A GF | A,>=B, ^CD EG FE |1 D2 A,2 D4 :|2 D2 A,2 DD ^CD |
+|: E2 (E2 E)EDE | F2 (F2 F)FEF | G2 C2 c3B | A>G AB AA GA | B2 (G2 G)B AG |
+A2 (F2 F)A GF | A,>=B, ^CD EG FE |1 D2 A,2 DD ^CD :|2 D2 A,2 D4 :|
+S:https://www.folktunefinder.com/tunes/165641
+S:http://www.folkwiki.se/pub/cache/Humppa_ce38a9.latin.abc
+S:http://www.folkwiki.se/pub/cache/Humppa_ce38a9.abc
+S:http://www.folkwiki.se/pub/cache/Humppa_ce38a9.abcm.abc
+% Rhythm Lttyp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

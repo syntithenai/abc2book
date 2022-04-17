@@ -1,0 +1,21 @@
+X: 1
+T: Gweebarra Bridge
+M: 4/4
+L: 1/8
+R: reel
+K: Ador
+|:A2GB A2(3Bcd|e2dB G2(3Bcd|~e2eg agba|gedB BAAG|
+A2GB A2(3Bcd|e2dB G2(3Bcd|~e3g ~a3f|1gedB BAAG:|2gedB BA(3Bcd||
+|:eaad eaaf|gedB GA(3Bcd|gbba ~b3a|gedB BA(3Bcd|
+eaad eaaf|gedB GA(3Bcd|~b3a bc'ba|1gedB BA(3Bcd:|2gedB BAAG|
+S:https://www.folktunefinder.com/tunes/162762
+S:http://www.thesession.org/tunes/display/2206
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

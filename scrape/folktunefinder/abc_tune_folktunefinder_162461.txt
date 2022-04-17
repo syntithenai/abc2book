@@ -1,0 +1,23 @@
+X: 1
+T:Greensleeves
+M:6/8
+O:England
+A:North-West
+R:Jig
+K:ADor
+B|\
+c2c cde| dBG GAB| c2A ABc| BEE E2B|\
+c2c cde| dBG GAB| cBA BA^G| A3 A2::
+f|\
+g2g g=fe| dBG G2^g| a2a aba| ^gee e2f|\
+gag g=fe| dBG GAB| cBA BA^G| A3 A2:|
+S:https://www.folktunefinder.com/tunes/162461
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Greensleeves_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:90
+T: Die Todesbraut
+N: Q0049B
+O: Suedosteuropa, Jugoslawien, Gottschee, Graflinden
+R: Ballade, Hochzeit, Unfall, Tod
+M: 3/4
+L: 1/8
+K: B
+B2 | =d2c2d2 | B4
+B2 | =dcd2c2 | B4
+B2 | =d2c2d2 | B4
+B2 | B4A2 | B4
+S:https://www.folktunefinder.com/tunes/151619
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Jig In The Hopper, The
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmaj
+|: D | 
+G2 G BAG GdD | G2 G BAG A2 D | G2 G BAG Bdd | edB AFD G2 :|
+|: d | 
+e2 d dBG B/c/dG |1 e2 d dBG A2 d | e2 d dBG BdD | GFG BAF G2 :|
+[2 edd dBG A2 e/f/ | [M: 12/8] gfe dBG cBA BGD | [M: 9/8] G2 G B>AF G2 ||
+K: Cmaj
+|: G | 
+c2 c edc egG | c2 c edc d2 G | c2 c edc egg | age dBG c2 :|
+|: g | 
+a2 g gec e/f/gc |1 a2 g gec d2 g | a2 g gec egG | cBc edB c2 :|
+[2 agg gec d2 a/b/ | [M: 12/8] c'ba gec fed ecG | [M: 9/8] c2 c e>dB c2 ||
+S:https://www.folktunefinder.com/tunes/167760
+S:http://www.thesession.org/tunes/display/6262
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 9/8
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

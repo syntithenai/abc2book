@@ -1,0 +1,26 @@
+X:95
+T: Der schwatzhafte Junggeselle
+N: Q0139J
+O: Osteuropa, Ungarn, Solymar
+N: Transkription mit Verzierungen, Betonungen, etc. 6 weitere
+N: Strophenvarianten abgedruckt. Nur erste Strophe kodiert.
+N: Perkussionston im zweiten Takt durch "richtigen" Ton ersetzt.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 2/4
+L: 1/16
+K: G
+D2 | G4F4E4 | D4B4 | c6d2 | B4z2
+D2 | G4F4E4 | D4G4 | c6d2 | B4z2
+B2 | B3cd2d2 | d6B2 | c2d2e2d2 | c4z2
+A2 | c3cc2c2 | c4B2A2 | B3cd2c2 | B4z2
+S:https://www.folktunefinder.com/tunes/152017
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

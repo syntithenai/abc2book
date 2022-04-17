@@ -1,0 +1,36 @@
+X:1
+T:Hoogtij(d)
+T:wals
+C:Jan Alexander Stryckers
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:G-bagpipe / C-G harmonika
+N: =high tide ( high time) / fluso (urgxa tempo)
+M:3/4
+L:1/4
+P:(AB)n A
+Q:3/4=60
+R:waltz
+K:C
+P:[A]
+|: G3-| GAB | c3-| cde | f2e | d2c | c3 | B3 |
+A3-| ABc | d3-| def | gec | ABc | d3-| d3 |
+ G3-| GAB | c3-| cde | f2e | d2c | B3 | A3 |
+ d2e | fed | g2e | cdf | e3 | d3 |[1,2, c3-| cdB || [3 c3-| !fine!c3 |]
+K:G
+P:[B]
+|: GG/A/B | AA/B/c | Bc/de/ | d2d | edc | BAG |
+ =F2F-|=FF2 | GG/A/B | AA/B/c | Bc/de/ | d2d | edc |
+ [1fed | g2d-| dB2 :| [2BAG | Bc/AB/ | G3 |]
+S:https://www.folktunefinder.com/tunes/164723
+S:http://music.gordfisch.net/tradmusic/pub/cache/Hoogtijd_9e3c42.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

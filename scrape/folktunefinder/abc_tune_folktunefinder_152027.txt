@@ -1,0 +1,25 @@
+X:105
+T: Der schwatzhafte Junggeselle
+N: Q1139T
+O: Osteuropa, Ungarn
+N: Melodievergleich zu Q0139 ff., anderes Lied.
+R: Legenden - Lied, geistlich
+M: 3/4
+L: 1/8
+K: G
+D2 | G2F2E2 | D4G2 | A3BAF | G4
+D2 | G2F2E2 | D4G2 | A3BAF | G4
+BB | B2B2B2 | B2A2d2 | c4B2 | A4
+G2 | F2A2A2 | A2G2A2 | B4AF | G4
+S:https://www.folktunefinder.com/tunes/152027
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Legenden - lied, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

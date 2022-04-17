@@ -1,0 +1,22 @@
+X:1
+T:The Dying Nun
+M:3/4
+L:1/8
+K:C
+(2C3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009 D3.99999962500005/5.99999925000009|\
+ E3 GA| BA E- E2| FE ^G2 E2| ^FG
+M:4/4
+| A3 z z2 CD| E2 GA B
+M:3/4
+| A2 E2 FE| ^G2 E2 ^FG| A3 z z2|||
+S:https://www.folktunefinder.com/tunes/155140
+S:http://back.numachi.com:8000/dtrad/abc/DYINGNUN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

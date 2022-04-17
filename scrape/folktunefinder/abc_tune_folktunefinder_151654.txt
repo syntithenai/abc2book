@@ -1,0 +1,23 @@
+X:125
+T: Die elfjaehrige Markgraefin
+N: Q0053C
+O: Osteuropa, Tschechoslowakei, Sudetenland, Zips, Einsiedel
+N: Grundton in der kleinen Oktave. Modulation.
+R: Ballade, Braut - Werbung, Hochzeit, Minderjaehrige, Tod
+M: 6/4
+L: 1/4
+K: Bb
+d | f2fcde | d2AB2
+B | g2gbag | f2cd2
+f | bbbf_aa | gez3
+g | gggfff | e2fd2
+S:https://www.folktunefinder.com/tunes/151654
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, hochzeit, minderjaehrige, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

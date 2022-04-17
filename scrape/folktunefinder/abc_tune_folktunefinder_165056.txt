@@ -1,0 +1,21 @@
+X:1
+T:Hoy Memo
+N:rhythm=CurCurna
+M:10/16
+K:Am %Transposed from BM
+P:saz
+e3|:e2ded edc3|d2(ee)d cBcBA|A2ABB G2 cdA|
+d2d eded c3|d2(e e)d cB cBA|A3 e2 e2e3:|
+P:vocal
+e3|:e3 ed ed c3|d2 e d2 cB cBA|A2 (A B2) G2 {G2} d3|
+d2 d ed ed c3|d2 e d2 cB cBA|A3 e2 e2e3:|
+S:https://www.folktunefinder.com/tunes/165056
+S:http://www.khafif.com/rhy/abc/Hoy_Memo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 10/16
+% Text Has notes text
+% Has_accompaniment_chords No chords

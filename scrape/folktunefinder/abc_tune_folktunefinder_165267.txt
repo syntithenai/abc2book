@@ -1,0 +1,31 @@
+X: 33
+T: Skip Rope -- Clog
+R:clog
+B:Ryan's Mammoth Collection
+N: 158 941
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:C|
+L:1/8
+K:D
+"_p"u((3a^g=g)|\
+(f>.d)(A>.F) "^SEGUE"D>A,D>F | A>df>b a2g>f |\
+ g>ec>A G>EC>E | G>Ac>e g>ba>g |
+f>dA>F D>A,D>F | A>df>b a2(3a^ga | (3bbb =g>e c>AB>c |\
+ d2 [A2f2] [F2d2] H:|
+K:A
+"_mf"u((3cd^d)|\
+(3eee =d>B G>Bg>f | (3fff e>c ((3Ace) b>a |\
+ (3ggb (3ffa (3eeg (3ddf | e>ca>f e2((3cd^d) |
+(3eee =d>B G>Bg>f | (3fff e>c ((3Ace) b>a |\
+ g>fd>B G>EF>G | A2 c2 A2:|
+S:https://www.folktunefinder.com/tunes/165267
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

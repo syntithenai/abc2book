@@ -1,0 +1,23 @@
+X: 1
+T: Dean Brig O' Edinburgh
+M: 4/4
+L: 1/8
+R: strathspey
+K: Fdor
+|:E/4F/4G/4A/4| B3/2c/ .B/e3/2 B/G3/2{AG^F}G3/2.=F/|E3/2.F/{EF}G3/2.F/ E/B,3/2{CB,^A,} B,3/2=B,/|
+C3/2.E/B,3/2.E/ A,3/2.E/G,3/2E/|C3/2F{GF=E}F3/2_E/ D/E/F/D/ B,3/2G/|
+B3/2c/B/e3/2 B/G3/2{AG^F}G3/2=F/|E3/2.F/{EF}G3/2.F/ E/B,3/2{CB,=A,} B,3/2=B,/ |
+C3/2A/B,3/2G/ A,3/2F/G,3/2c/|B3/2c/B/D3/2 E2-E/:|
+|:f| .g/e3/2e3/2g/ .f/d3/2d3/2f/|.e/c3/2c3/2=a/ b/B3/2B_d|
+.c/A3/2A3/2c/ .B/G3/2GB|.c/F3/2{GF=E}  F3/2._E/ D/E/F/D/ B,3/2.F/|
+G/E3/2{FED}E3/2.G/ F/D3/2{EDC}D3/2.F/|E/C3/2{DC=B,}C3/2=A/ _B/B,3/2{CB,=A,}B,3/2.E/|
+C3/2A/B,3/2G/ A,3/2F/G,3/2c/|B3/2c/B/D3/2 E2-E:|
+S:https://www.folktunefinder.com/tunes/152430
+S:http://www.thesession.org/tunes/display/8290
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

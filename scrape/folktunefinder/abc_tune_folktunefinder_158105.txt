@@ -1,0 +1,23 @@
+X: 1
+T: Fisher's Hornpipe
+R: hornpipe, reel
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C|
+L: 1/8
+K: D
+(3A/B/c/ \
+| "D"dAFD "G"GBAG | "D"FDFD "G"GBAG | "D"FDFD "Em"GEGE | "D"FDFD "A7"EABc |
+| "D"dAFD "G"GBAG | "D"FDFD "G"GBAG | "D"FGAB "A7"cdec | "D"d2d2 d2 :|
+|: cd \
+| "A"ecAc egfe | "D"fdAd fagf | "A"ecAc efgf | "E7"edcB "A"A2A2 |
+| "G"BGDG BdcB | "D"AFDF AFdA | "G"BdcB "A7"AGFE | "D"D2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/158105
+S:http://www.firepowr.com/abc/FishersH.abc
+% Rhythm Hornpipe, reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

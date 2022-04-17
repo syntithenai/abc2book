@@ -1,0 +1,27 @@
+X:101
+T: Der schwatzhafte Junggeselle
+N: Q2139P
+O: Mitteleuropa, Frankreich, Savoie
+N: Franzoesische Fassung der Ballade. Zweistimmig notiert, Unter- bzw.
+N: Mittelstimme kodiert. Notenwert in der letzten Zeile rhythmisch
+N: korrigiert.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 2/4
+L: 1/16
+K: G
+D2 | G3FG2A2 | B6A2 | d3cB2A2 | A4G2
+D2 | G3FG2A2 | B6A2 | d3cB2A2 | A4G2
+d2 | d4d2c2 | B6B2 | d2d2c2B2 | A4z2
+D2 | G3FG2A2 | B2B2c4 | B3cB3A | G6
+S:https://www.folktunefinder.com/tunes/152023
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Kalamatianos
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+M:7/8
+|: D |G>(AB/c/) d^c d2 | def a.g .f.e|d2 e =fe dc|1 Bc^c d=c A :|2 B^AB Gz FG ||
+K:C 
+|: A2 A Ae dc | BAB cd BG |[1 (A2 G) ^FE FG:|2 A2 A A<e d^c||
+K:F
+|: BAG ^FG AB | ^c>de cB AB|[1 ^c3- c>e dc :|2 Aza Az z2 ||
+D^CD E2- ED | FED ^CB,/C/ B,/A,/G | d^cd ef ga | g>(fe/d/) ^cA BG |
+ABB B>e d^c | BAG ^FG AB | ^c3- c(e dc) | BAG ^F>G A=B || 
+K:C
+c2 B c_d cB | (c/_d/e/f/d) c=d (BG) | (BAB) (cd) (BG) | ABc d>G AB |
+c2 B c_d cB |g>(fe/d/) cd BG |ABd cd BG | A3 d^c _BA ||
+|: GA_B ^cd cB | ^c A2 dc _BA | GA_B ^cd cB |1 A A2 d^c _BA :|2 A A2 .g.f .e.d ||
+|: c2 B AG AB | cea .g.f .e.d | c2 B cd BG |1 A3 .g.f .e.d :|2 A>g^f/g/ az z ||
+S:https://www.folktunefinder.com/tunes/169165
+S:http://www.thesession.org/tunes/display/3870
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 6/8
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

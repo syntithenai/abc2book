@@ -1,0 +1,22 @@
+X:87
+T: Die dienende Schwester
+N: Q0075p
+O: Mitteleuropa, Deutschland / Polen, Pommern
+N: Einschiebsel am Anfang der dritten Zeile.
+R: Ballade, Adelige als Dienstmagd, Tod; Kinder - Spiel, Tanz
+M: 3/4
+L: 1/4
+K: F
+ | FFA | c2A | BdG
+GGA | B2G | AcF
+ABc | fff | f2A | GGF
+S:https://www.folktunefinder.com/tunes/152119
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, adelige als dienstmagd, tod; kinder - spiel, tanz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

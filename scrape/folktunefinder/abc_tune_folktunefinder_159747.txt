@@ -1,0 +1,24 @@
+X: 1
+T: Galician
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: {g}efe{g}cBA|{g}A{d}A{e}A{g}cBA|{g}efe{g}cBA|{g}A{d}A{e}A{gBd}B3|
+{g}efe{g}cBA|{g}A{d}A{e}A{g}cBA|{g}ABA{g}Bcd|{g}efe{AGAG}A3:|
+|:{g}ABc{g}def|{g}efe{g}cBA|{g}ABc{g}def|{g}efe{gcd}c3|
+{g}ABc{g}def|{g}efe{g}cBA|{g}efe{g}cBA|{g}BcB{g}A3:|
+|:a{g}a{g}aece|a{g}a{g}afdf|a{g}a{g}aece|{g}dBe{g}ecA|
+a{g}a{g}aece|a{g}a{g}afdf|a{g}a{g}aece|{g}dcB{g}A3:|
+|: {g}ABc{g}ABc|{g}ABc{g}d2B|{g}Bcd{g}d2B|{g}Bcd{gef}e2A|
+{g}ABc{g}ABc|{g}ABc{g}d2B|{g}Bcde{g}e{A}e|{g}dcB{g}A3:|
+S:https://www.folktunefinder.com/tunes/159747
+S:http://www.thesession.org/tunes/display/6961
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

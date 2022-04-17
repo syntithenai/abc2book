@@ -1,0 +1,34 @@
+X: 1
+T: Lady Bermingham
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+&quot;Andantino&quot;{GA}B2B/2A3/2 {A}FEFA|B2e2e2d/2B3/2|bagb agfa|gfeg f2B z|
+G/2F3/2G/2E3/2 {f}e/2d3/2e/2B3/2|A/2G3/2A/2F3/2f2ge|dBAG {GA}B2d/2B/2A|G2E2E2z2:|
+|:B3/2A/2GB A3/2G/2FA|GFEG D2 {^C}HB,2|B,EB,E DFDF|G2G/2F/2E B2B,2|
+B2e2efed|B2Bc BAGF|E2e2efed|e2 Tf2g3f|
+ed^cd {e}dcdf|edef {ef}g2fe|dBAG {GA}B2d/2B/2A|GF/2G/2 E2E2z2:|
+M:6/8
+K:G
+&quot;Allegro assai&quot;E2e G2e|d2B A2z|ded dBG|e3 Tf3|
+{a}bab GEE|{b}aga FDD|gfe g/2a/2bB|e3e3||
+EGB EGB|FAd FAd|GBg GBg|f3e3|
+ddg BBe|ddg BBe|d2B AFD|E3E3||
+M:3/4
+K:C
+&quot;Andante&quot;A/2|A3/2E/2 ED/2E/2 GE|c3/2B/2 {B}AG E3/2A/2|A3/2G/2 A/2B/2c/2B/2 A/2G/2E/2D/2|E2GG G3/2||
+G/2|G  (3A/2B/2c/2 e2e/2d/2c/2B/2|c3/2A/2 c/2B/2A/2G/2 E3/2d/2|dg/2e/2 dc/2B/2 c/2B/2A/2G/2|E2GG G3/2 |]
+S:https://www.folktunefinder.com/tunes/170851
+S:http://www.thesession.org/tunes/display/5878
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

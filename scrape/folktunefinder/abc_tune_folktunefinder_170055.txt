@@ -1,0 +1,29 @@
+X:1 % 5
+T:Kira-Ludler
+C:traditionell
+R:Jodler
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+B2d2G2 | B4z4 | d2e2A2 | c4z2 |\
+B2A3B | c2a2A>B | c2d2B2 | d2G2B2 | 
+B2d2G2 | B4z4 | d2e2A2 | c4z2 |\
+B2A3B | c2a2A>B | c2d4 | B4z2 |]
+V:2
+G2B2D2 | G4z4 | B2c2F2 | A4z2 |\
+G2F3G | A2c2F>G | A2F2G2 | B2D2G2 | 
+G2B2D2 | G4z4 | B2c2F2 | A4z2 |\
+G2F3G | A2c2F>G | A2F4 | G4z2 |]
+S:https://www.folktunefinder.com/tunes/170055
+S:http://simonwascher.info/TradArchiv_iodler/kira-ludler.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

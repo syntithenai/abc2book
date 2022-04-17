@@ -1,0 +1,24 @@
+X:14
+T: Graf und Nonne (Die Nonne)
+N: Q0155M
+O: Mitteleuropa, Oesterreich, Niederoesterreich, Goggendorf
+N: Grundton taucht nicht auf ! Grundton in der eingestrichenen Oktave.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage, Tod
+M: 6/8
+L: 1/16
+K: Bb
+f2 | f3dd2d2c2d2 | e2e2z6
+g2 | g4e2e2f2g2 | f6z4
+f2 | f3dd2d3cd2 | e4g2g4
+g2 | f2g2f2e4e2 | d4z6
+S:https://www.folktunefinder.com/tunes/161934
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

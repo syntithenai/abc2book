@@ -1,0 +1,24 @@
+X: 1
+T:The Free State Of Winston
+C: 2000 Harry Bolick-harry@bolick.net
+R:Breakdown
+O:United States
+A:Hastings On Hudson, New York
+M:4/4
+L:1/8
+Q:250
+K:D
+ D |: "C"=c2 "G" B2 "D"A/2B/2A/2G/2  =F/2E/2D/2E/2 | =F/2E/2D =c/2B/2 A d2 dD|
+     "C"=c2 "G" B2 "D"A/2B/2A/2G/2  =F/2E/2D/2E/2 |1 =F/2E/2D  a/2g/2 e d3 D :|2 =F/2E/2D  a/2g/2 e d3 d ||
+|:"G" gg dg "D" a3a | ba gd "C" e3 e | ge d "Am" e2 eg A |1 "C"=c/2B/2 A/2=c/2 B/2A/2 G "G" A3 A :|2 "C"=c/2B/2 A/2=c/2 B/2A/2 G "G" A4 ||
+S:https://www.folktunefinder.com/tunes/159316
+S:http://www.bolick.net/sound/FreeStateOfWinston.txt
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

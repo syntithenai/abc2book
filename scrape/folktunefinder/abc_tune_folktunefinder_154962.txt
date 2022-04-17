@@ -1,0 +1,26 @@
+X: 1
+T:Duncan's Barndance
+R:Schottische
+O:England
+M:4/4
+K:D
+F>G|\
+A2f2 A3A|B2g2B3B|cB cd ed cd|(3dcB dB AG FG|\
+A2f2 A3A|B2g2 B3B|
+cB cd ed cd|(3efe dc d2::\
+fg|\
+a2ba fe d2|cd ef g2 ef|
+gf ge cA Bc|de fg a2 fg|\
+a2ba fe d2|cd ef g2 ef|gf ge cA Bd|e2d2 d2:|
+S:https://www.folktunefinder.com/tunes/154962
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/du/Duncans_Barndance_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/du/Duncans_Barndance_1.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

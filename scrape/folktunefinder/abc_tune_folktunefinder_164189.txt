@@ -1,0 +1,34 @@
+X:1
+T:Highland Mary
+C:
+S:Bacon (MDT)
+N:transposed from A to G
+A:Bampton
+O:English
+R:Reel
+P:A.(AB$^2$)$^4$
+K:G
+%:
+%:
+Q:1/2=96
+P:A
+(3DEF |\
+G2 AG  FE  D2 | G2   AB  c2    Bc  | d2 de  dcBA   | G2 B2  D3 E/2F/2 ||
+G2 AG  FE  D2 | G2   AB  c2    Bc  | d2 de  dcBA   | G2 F2  G2        ||
+P:B
+z2 |\
+GABc   d2  d2 | ed   dB  (3cdc BA  | d2 de  dcBA   | GABG   D3 E/2F/2 ||
+G2 AG  FE  D2 | G2   AB  c2    Bc  | d2 de  dcBA   | G2 F2  G4        ||
+S:https://www.folktunefinder.com/tunes/164189
+S:http://trillian.mit.edu/~jc/music/book/500/HighlandMary_lbG.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

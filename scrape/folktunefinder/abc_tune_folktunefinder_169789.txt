@@ -1,0 +1,24 @@
+X:1
+T:Kilfenora Jig
+S:Girvan Festival
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:D
+F2A ABA | ABA FED | G2B B2A | B2A Bcd |
+F2A ABA | ABA ABc | dcB AGF | GFE D3 ::
+d2A F2A | dce dcB | dcB AGF | EFG ABc |
+d2A F2A | dce d3 | dcB AGF | GFE D3 :|
+S:https://www.folktunefinder.com/tunes/169789
+S:http://music.gordfisch.net/tradmusic/pub/cache/Kilfenora_Jig_803bef.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

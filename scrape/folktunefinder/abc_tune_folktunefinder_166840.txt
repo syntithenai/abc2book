@@ -1,0 +1,26 @@
+X: 1
+T: The Ivory and the Quill
+O: Sharon Shannon, Each Little Thing
+Z: Robin Beech robin.beech@mcgill.ca
+R: reel
+M: 4/4
+L: 1/8
+Z: Contributed 20040510160322 by Robin Beech robin.beech@mcgill.ca
+K: D
+d3 e fd AF |G2 FG Ad dd |AG FG Ad de |cA de fa g/f/e |fa g/f/e fa g/f/e |d2 df e2 dc |AG FG Ad dc |1d3 c AB c/B/A :|2d3 e fa g/f/e |:d3 d ce ge |fd dd ef g/f/e |dc df eA ce |cA de f2 ge |d3 d ce ge |fd dd AB ce |
+dc df eA Bc |d3 e fa g/f/e :|
+K:G
+df |:gB BB BA GB |dc BA GF GE |DE DG GF GA |Bd cB A3 g |gB BB BA GB |AG FG AB cA |Bc dB ca gf |ed ef g2 g z ::f2 cf Ac fa |gf dc cB GB |AD FD AB cA |dg e/f/g de fg |f2 cf Ac fa |gf dc cB GB |AD FD AB cA |1
+dg e/f/a g3 g :|2dg e/f/a g4 |]
+S:https://www.folktunefinder.com/tunes/166840
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/IvoryAndTheQuill.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/IvoryAndTheQuill.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

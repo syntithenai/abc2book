@@ -1,0 +1,24 @@
+X: 1
+T: Jenny And The Weazel
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+|: DDDA AGEF | GEcE dEcE | DDDA AGEG |[1 AAAG EAD2 |
+DDDA AGEF | GE E/2E/2E cE E/2E/2E | DDDA AGEG | AAAG EAD2 :|
+[2 c2cG EFGE | D3A AGEF | G/2F/2E cE dEcE | DDDA AGEG | AAAG EADA ||
+d3A ^dA=dA | c3A dAcA | d3A ^dA=dA | eaag e g1/2g1/2e A |
+^dA=dA ^dA=dA | c2cA dAcA | GAcd g/2f/2e dc | AAAG EFGE ||
+faag fedf | efgf edcg | faag fedf | eaag e g1/2g1/2d a |
+faag fedf | efgf g/2f/2e dA | GAcd g/2f/2e dc | A2AG EFGE ||
+d3e dcAB | cAdB cAGE | Addc Add2 | eaag e g/2e/d A |
+^dA=de dcAB | cAdB cAGE | D2 E/2F/2G A2GE | AAGA EFD2 |]
+S:https://www.folktunefinder.com/tunes/167504
+S:http://www.thesession.org/tunes/display/5194
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

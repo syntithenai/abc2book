@@ -1,0 +1,35 @@
+X: 1
+T:Down The Brae
+M:4/4
+L:1/8
+Q:200
+C:Traditional
+S:From J.R. Rhodebeck
+R:Reel
+K:Em
+||: "Em" E3 D E2  F2| G3 F G2 A2 |
+B4 e4|"G" d2 B4 A2 |
+"Em"G3 F G2 B2|"D"A2 F2 D2 E2 |
+"Bm"F4 E4|1"Bm"D2 B,4 B,2
+:||2"Em"E4 e2d2|!
+""||"Em"B4 e4 |e4 d2 e2|
+f4 e4 |"G"d2 B4 B2|
+"D"A3 G A2 B2 |d3 B d2 e2|
+d2 B2 A2 B2 |d4 B2 A2|!
+"Em"B4 e4 |e4d2 e2|
+f4 e4|"G"d2 B4 A2 |
+"Em"G3FG2B2|"D"A2F2D2E2 |
+"Bm"F4E4|"Em"E6 B,2 ||
+% Output from ABC2Win  Version 2.1  on 2/18/98
+S:https://www.folktunefinder.com/tunes/154210
+S:http://www.blackflute.com/music/tunes/reels/downbrae.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

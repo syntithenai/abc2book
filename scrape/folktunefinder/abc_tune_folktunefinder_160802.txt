@@ -1,0 +1,23 @@
+X: 2
+T: George Ross'
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj 
+|: B>c | 
+d>BG>F G>B (3dcB | c>A=F>E F>G (3ABc | B>AG>F G>B (3def | g>b (3agf g>fg>e |
+d>gd>B G>GA>B | c>=fc>A F>FA>c | (3BAG g>d e>cD>F | A>GG>F (G2 :|
+|: G)>A |
+B>cd>e =f>dc>A | d>DE>F G>FG>F | G>Ad>e f>d (3efg | a>gd>c d>f (3agf |
+g>dB>g e>cA>F | G>FG>B A>GE>G | (3FED A>B c>ed>F | A>GG>F (G2 :|
+S:https://www.folktunefinder.com/tunes/160802
+S:http://www.thesession.org/tunes/display/2001
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

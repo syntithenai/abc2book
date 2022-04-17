@@ -1,0 +1,29 @@
+X: 1
+T: HOW D'YE DO, SIR
+S: MDT
+O: Headington
+P: A.(A2B)4.A
+Q: 3/8=108
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+P: A
+|: c | f2c d2B | G>AB A>GF | f2c d2B | G>AG F2 :|
+P: B
+M: 9/8
+   c | "Lento"G>AB A3 HF3 | G>AB A3 HF3 |  G>AB A3 HF3 |[M:6/8] \
+       "Tempo primo"G>A=B c>dc | G>A=B c>de ||
+S:https://www.folktunefinder.com/tunes/165026
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/How_DYe_Do_Sir_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

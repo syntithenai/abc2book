@@ -1,0 +1,28 @@
+X:2
+T:Kadril van Kampenhout
+T:Tweede figuur "Vantkat"
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABCDA
+L:1/8
+M:2/4
+K:F
+P:A
+FC AF | c=B _BA | Gc de | (d2 c) z | FC AF | c=B _BA | Gc de | f z F z |]
+P:B
+A3 G | EG FD | (C4 | C)C DE | F3 A | c=B _BA | (G4 | D2) z2 |
+B3 A | GF ED | (C4 | C) z d2 | c3 B | AG DE | FG/A/ B/c/d/e/ | f z F z |]
+P:C
+FC AF | c=B _BA | Gc de | (d2 c) z | FC AF | c=B _BA | Gc de | f z F z |]
+P:D
+A3 G | EG FD | (C4 | C)C DE | F3 A | c=B _BA | (G4 | D2) z2 |
+B3 A | GF ED | (C4 | C) z d2 | c3 B | AG DE | FG/A/ B/c/d/e/ | f z F z |]
+S:https://www.folktunefinder.com/tunes/152938
+S:http://user.online.be/~bvanhaverbeke/abc/Kadril%20van%20Kampenhout.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:82
+T: Die Brombeerpflueckerin
+N: Q0147P
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Luetzelburg
+N: Sechste und neunte Zeile = refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 4/4
+L: 1/16
+K: G
+D4 | G4D4D3DG2G2 | E4E4E4
+G4 | F4A4d4d4 | B4z8
+D4 | G4D4D3DG2G2 | E4E4E4
+G4 | F4A4d4d4 | B4z8
+G2A2 | B6B2B4d4 | d4c4A4z2
+d2 | d6f2f6ee | e4d4B4
+d2e2 | d4c4A4d4 | B4z8
+G2A2 | B6B2B4d4 | d4c4A4z2
+d2 | d6f2f6ee | e4d4B4
+d2e2 | d4c4A4d4 | B4z8
+S:https://www.folktunefinder.com/tunes/153035
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

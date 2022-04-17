@@ -1,0 +1,25 @@
+X:50
+T: Der Nachtjaeger
+N: Q0133F
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Anhaengsel an der vierten Zeile.
+R: Ballade, Jagd, Flucht, Vergewaltigung, Tod
+M: 2/4
+L: 1/16
+K: D
+A2 | A4d2B2 | A3BA2F2 | G4G2B2 | A4z2
+A2 | A4d2B2 | A3BA2F2 | G4G2B2 | A4z2
+F2 | F2E2F2A2 | G2F2E2
+D2 | F2E2F2A2 | G2F2E2D2 | A4A4 | F4z2
+S:https://www.folktunefinder.com/tunes/151972
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, vergewaltigung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

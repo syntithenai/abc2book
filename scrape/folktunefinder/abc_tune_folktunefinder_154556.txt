@@ -1,0 +1,26 @@
+X: 8
+T:The Rocky Road To Dublin
+% Nottingham Music Database
+S:Toby Bennett
+M:9/8
+K:Am
+A|"Am"efe "G"dcB "Am"A3|"Am"E2A A2A "G"Bcd|"Am"efe "G"dcB "Am"A2c|\
+"G"B2A G2A Bcd|
+"Am"efe "G"dcB "Am"A3|"Am"E2A A2A "G"Bcd|"Em"e^fg "Bm"fga "Em"g2e|\
+"G"d2B G2A Bcd|
+"Am"e2a a2^f "G"g2b|"Am"e2a a2A "G"Bcd|"Am"e2a a2^f "G"g2e|"G"d2B G2A Bcd|
+"Am"e2a a2^f "G"g2b|"Am"e2a a2A "G"Bcd|"Em"e^fg "Bm"fga "Em"g2e|"G"d2B G2A Bcd\
+||
+S:https://www.folktunefinder.com/tunes/154556
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/slip.txt
+S:http://www.guitarnut.com/nmd/slip.txt
+S:http://abc.sourceforge.net/NMD/nmd/slip.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

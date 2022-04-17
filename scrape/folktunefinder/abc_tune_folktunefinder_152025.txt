@@ -1,0 +1,24 @@
+X:103
+T: Der schwatzhafte Junggeselle
+N: Q0139R
+O: Mitteleuropa, Deutschland (BRD) , Franken
+N: Zwei- und dreistimmig notiert, Oberstimme kodiert.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: none
+L: 1/8
+K: G
+D | G2FE | D2GB | A2G2z2
+D | G2FE | D2GB | A2G2z2
+d2 | BBBBB3d | edcBA2
+G | FAAAd3c | BBBBG2
+S:https://www.folktunefinder.com/tunes/152025
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

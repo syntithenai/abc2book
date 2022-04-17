@@ -1,0 +1,27 @@
+X:1
+T:Galizisch 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:Dm
+d2c |\
+ABA GAG | F2D DED | EFG A2G | F2D d2c |\
+ABA GAG | F2D DED | EFG F2E | D3 :|
+|: DFG |\
+A2A AGF | GFE EGA | B2B BcB | AGF FFG |\
+A2A AGF | GFE GAB | ABA GFE | D3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159753
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/galizisch.ABAGAGF2DDEDEFGA2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

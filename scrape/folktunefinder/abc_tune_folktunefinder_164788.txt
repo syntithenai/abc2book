@@ -1,0 +1,29 @@
+X: 74
+T: Hora de la Bascov
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P:A2B2C2
+K: F
+P:A
+%%MIDI program 41
+|:cBcA |_BABA |AFFG |ABcd   |
+  cBcA |_BABA |ABcA |[1FGAB :|[2 F2Bc|
+P:B
+  dzdz |dzdc  |cAB2 |BGAB   |\
+  AFAB |c2AB  |AFAB |cd2z   |
+  dzdz |dzdc  |cAB2 |BGAB   |\
+  AFAB |c2AB  |AFAF |F2z2   |
+P:C
+|:EFG2 |G2G2  |c2_AG|_AFG2- |\
+  G2c=B|c=Bc_A|GFGc |G4     :|
+S:https://www.folktunefinder.com/tunes/164788
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Hora_de_la_Bascov.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Hora_de_la_Bascov.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

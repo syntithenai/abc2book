@@ -1,0 +1,27 @@
+X: 3
+T: The King
+L: 1/8
+M: 6/8 
+R: jig
+K: G Major
+|: (3D/E/F/ |
+G2 G AGA | Bcd efg | G2 G AGA | BGE E2 D |
+G2 G AGA | Bcd efg | DcB AGA | BGG G2 :|
+|: f |
+gfg efg | fdd def | gfg aga | bge e2 f |
+gfg aga | bge efg | dcB cBA | BGG G2 :|
+|: D |
+DGG BGG | AGG BGG | efg dBG | AEE EFE |
+DGG BGG | AGG BGG | efg dBG | AGG G2 :|
+|: e |
+efg fBB | bag fBB | eBB fBB | gfe ^dBB |
+efg fBB | bag fBB | efg fe^d | e3- e2 :|
+S:https://www.folktunefinder.com/tunes/169938
+S:http://www.thesession.org/tunes/display/7514
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

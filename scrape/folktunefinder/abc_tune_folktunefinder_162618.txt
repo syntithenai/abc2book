@@ -1,0 +1,23 @@
+X: 1
+T: Growling Dogs
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+|:&quot;D&quot;A,2DEF2D2|FGAB&quot;C&quot;c4|&quot;G&quot;dB c/2B/A GBAG|
+&quot;D&quot;AFDB,&quot;C&quot;C2-CB,|&quot;D&quot;A,2DEF2D2|FGAB&quot;C&quot;c2Bc|
+&quot;G&quot;dB c/2B/A GBAF|[1&quot;D&quot;D8:|[2&quot;D&quot;D6(3ABc||
+|:d2dB&quot;C&quot;c2Bc|&quot;G&quot;dBGB&quot;D&quot;A2(3ABc|&quot;G&quot;dB c/2B/A GBAG|
+&quot;D&quot;AFDB,&quot;C&quot;C2-CB,|&quot;D&quot;A,2DEF2D2|FGAB&quot;C&quot;c2Bc|
+&quot;G&quot;dB c/2B/A GBAF|[1&quot;D&quot;D6(3ABc:|[2&quot;D&quot;D8||
+S:https://www.folktunefinder.com/tunes/162618
+S:http://www.thesession.org/tunes/display/8738
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

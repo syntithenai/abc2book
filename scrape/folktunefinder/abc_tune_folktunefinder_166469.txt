@@ -1,0 +1,24 @@
+X: 2
+T:
+T:Theme
+M:3/4
+L:1/8
+K:G bass
+%1
+"Andante"z2 d > c Bd b3-a | g-B d3 g | fAcdfa | gB d3-c |
+%2
+Bd b3-a | gB d3 g | fAcdfa | g4 z b | ag e3 ^c | df a3 a | bagA^ce |
+%3
+df d'3b | ag e3 ^c | df a3 a | bagA^ce | d4 d>=c | Bd b3 a | gB d3 g |
+%4
+fAcdfa | gBd3 c | Bd b3 a | gBd3 g | fac'dfa | g4 
+%Error : Bar 23 is 1/2 not 3/4
+|]
+S:https://www.folktunefinder.com/tunes/166469
+S:http://www.laymusic.org/music/arban/tyrolienne-d.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

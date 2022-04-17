@@ -1,0 +1,27 @@
+X:52
+T: Graserin und Reiter
+N: Q0149
+O: Mitteleuropa, Deutschland
+N: Tenor - Stimme (cf) aus einem vierstimmigen Satz von Heinrich Isaac.
+N: Notenwerte halbiert. Satzbedingte Pausen weggelassen.
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 2/2
+L: 1/4
+K: G
+G2 | _B2B2 | c2c2 | d2d2 | d4
+c3d | e2=f2 | ede2 | d4 | z2
+d2 | g2e2 | =f2d2 | c2_B2 | A4
+c2c2 | c2c2 | d2e2 | d4
+c3c | c2c2 | d2e2 | d2z2
+c2_B2 | c2A2 | G4- | G4 | G4 | z2
+S:https://www.folktunefinder.com/tunes/153005
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

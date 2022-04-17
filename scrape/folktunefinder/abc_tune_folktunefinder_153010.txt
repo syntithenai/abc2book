@@ -1,0 +1,27 @@
+X:57
+T: Graserin und Reiter
+N: Q0149E
+O: Osteuropa, Polen, Galizien, Mikulsdorf
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 6/8
+L: 1/8
+K: G
+D | G2GGA_B | A3D2
+D | G2GA2_B | d3z2
+D | G2GGA_B | A3D2
+D | G2GA2_B | d3z2
+D | d2_ed2c | _B3d2
+B | A2c_B2A | G3z2
+D | d2_ed2c | _B3d2
+B | A2c_B2A | G3z2
+S:https://www.folktunefinder.com/tunes/153010
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

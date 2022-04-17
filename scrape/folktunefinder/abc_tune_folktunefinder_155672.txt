@@ -1,0 +1,24 @@
+X: 1
+P: Eddie's Reel
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: A
+|| "A"EAce a2a2 | EAce a4 | EAce agfe | "Bm"d3e dcBG \
+| "E7"EGBe g2g2 | "E7"EGBe g2f2 | e2e2 fafd | "A"c6 B2 ||
+|| "A"EAce a2a2 | EAce a4 | EAce agfe | "Bm"d3e dcBG \
+| "E7"EGBe g2g2 | "E7"EGBe g2f2 | "E7"e2e2 dBGB | "A"A4- A2e2  ||
+|| "A"[c'3e][c'e] [c'2e][b2d] | [a4c]- [a2c][b2d] | "A"[c'3e][c'e] [b2d][a2c] \
+| "E7"[g6B] [a2c] | [b3d][bd] [b2d][a2c] | [g4B] [g2B][f2A] | [e2G][e2G] fafd | "A"[A4c4]- [A2c2]e2  ||
+|| "A"[c'3e][c'e] [c'2e][b2d] | [a4c]- [a2c][b2d] | "A"[c'3e][c'e] [b2d][c'2e] | "D"[d'6f] [gB][ac] \
+| "E7"[b3d][bd] [b2d][a2c] | [g4B] [g2B][f2A] | "E7"[e2G][e2G] dBGB | "A"[A6A6] |]
+S:https://www.folktunefinder.com/tunes/155672
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Reel_KlezContra09_B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

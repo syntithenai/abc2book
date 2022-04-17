@@ -1,0 +1,24 @@
+X: 1
+T: Green Bridge, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+DGBG FGAc | BcdB cdef | ~g2dg egdB |
+ cedB AGEG  | DGBG FGAc | BcdB cdef |
+~g2dg egdB |1 cAFA G2GE :|2 cAFA ~G2GA ||
+ ~B2dB eBdB | cdeg fgaf |~g2dg egdB |1 cedB AGEG |
+ ~B2dB eBdB | cdeg fgaf | ~g2dg egdB | 
+cAFA ~G3A :|2 cedB ~A2GF|GBdB cdeg |
+ fgaf ~g3a | bgdg egdB | cAFA ~G2GE ||
+S:https://www.folktunefinder.com/tunes/162234
+S:http://www.thesession.org/tunes/display/3173
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

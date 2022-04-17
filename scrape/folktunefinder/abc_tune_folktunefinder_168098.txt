@@ -1,0 +1,35 @@
+X: 1
+T: JOGGING TO THE FAIR
+S: EDS 1951
+O: Bampton
+P: A.AB.(CB)2
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+%%slurgraces 1
+M: 6/8
+L: 1/8
+K: G
+P: A
+D | G2A  B>Bc | d>fg dcd/c/ | {Bc}B>AG G>FG | A>cB A>GA |
+    B>cd e>fg | f>af d2g    | {fg}f>cB AB^c | d3   d2  ||
+P: B
+d | a>fd a>fd | c>Bc B>cd | {ga}g2d g2d | c>Bc B>cd |
+    e2f g>fg | e>dc B2G | G>ed cBA | G>FG E2{FE}D |
+G2G GBd | e2f g>fe | d>BG A>Bc | ((3E/F/E/)D G2A | B>dg B2A | G3 G2 ||
+P: C
+[M:3/8]D>EF |\
+[M:6/8]G3 A3 | B3 B2c | d3 g3 | ((2d^c) =c3 |
+       Bd2 G3 | ((2GF) G3 | Ac2 B3 |[M:3/8]A>GA |
+[M:6/8]B>cd e>fg | faf d2g | {fg}f>ed AB^c | d3 d2 ||
+S:https://www.folktunefinder.com/tunes/168098
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Jogging_to_the_Fair_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

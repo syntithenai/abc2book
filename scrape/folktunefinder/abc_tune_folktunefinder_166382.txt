@@ -1,0 +1,31 @@
+X: 1
+T: In Odess'
+R: freylach
+M: 2/4
+L: 1/8
+K: Ephr^G
+|: "E" GA B>d | "Dm"(3cBA "E"B2 | "E"(3GAB "Dm"(3AGF | "E"EG Be \
+|  "E" GA B>d | "Dm"(3cBA "E"B2 | "E"(3GAB "Dm"(3AGF | "E"E4 :|
+K: E
+|: "E"ez B>A | G/A/ B2 G | "B7"A/G/ F2 A | "E"GA "B7"^AB \
+|  "E"ez B>A | G/A/ B2 G | "B7"A/G/F- F/A/G/F/ |1 "E"E2 zB :|2 "E"EE "E7"AB |
+K: A
+|: "A"c4- | cB "E7"(3dcB | c A3 | zA B=c \
+|  "Am"^de d=c | "Am"^de d=c | "E"B4 | "E7"zE AB |
+|  "A"c4- | cB "E7"(3dcB | c A2 =c- | "Am"c3 B \
+|  "E"BA AG | GE/G/ "Dm"=FED |1 "E"E4 | "E7"zE AB :|2 "E"E4- | E4 |]
+S:https://www.folktunefinder.com/tunes/166382
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/In_Odess_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/In_Odess_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/In_Odess_E.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key C
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

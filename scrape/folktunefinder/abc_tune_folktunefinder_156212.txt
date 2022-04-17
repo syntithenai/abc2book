@@ -1,0 +1,51 @@
+X:3594
+T:English dance
+C:anon.
+O:England
+B:From an English lute ms. (1619)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/english-dance.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:2/4
+L:1/16
+Q:1/4=100
+K:C -8va
+V:1
+c2|B2G2 G2AB|c2c2 c2c2|B2G2 G2AB|c2c2 c2e2|
+V:2
+z2|[D8G,8]|[C6E6G6][C2E2G2]|[D8G,8]|[C6E6G6][C2G2]|
+%
+V:1
+defe dcBA|G4 G2 gf|e2dc BcdB|c3d c2::Bc|
+V:2
+G4 D4|z2 G,4 z2|[C4G4] [G,4D4]|[C6E6G6]::z2|
+%
+V:1
+d2d2 d2cd|e2e2 e2de|f2f2 f2ef|[B4g4] g2e2|
+V:2
+[G,8D8G8]|[C8G8]|[D8A8d8]|G2 G,4 z2|
+%
+V:1
+defe dcBA|G4 G2 gf|e2dc BcdB|c3d c2:|
+V:2
+G4 D4|z2 G,4 z2|[C4G4] [G,4D4]|[C6E6G6]:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/156212
+S:http://abc.musicaviva.com/tunes/england/english-dance.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/english-dance.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/england/english-dance.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/england/english-dance.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/england/english-dance.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

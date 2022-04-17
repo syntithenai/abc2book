@@ -1,0 +1,36 @@
+X: 1
+T: Kolomeike
+O: Ukraine
+B: Kammen v.1 #20 p.22
+M: 2/4
+L: 1/16
+%%slurgraces 1
+K: Dm
+"A"\
+|:"Dm"Adfa ^gafa | ^gafa gfed \
+| Adfa ^gafg | a4 k[d'4a4f4] \
+| "Dm"Adfa ^gafa |
+| ^gafa gfed | "A7"fe=gf edef \
+|1"Dm"d2z2 k[d4A4F4] :|2 "Dm"d4 z2d2 \
+"B"\
+|:"Gm"d2 g4 {a}g^f | g2 g4 {a}g^f |
+| g2 g4 g2 | "Dm"{a}g2f2 a4 \
+| "Bb"^gagf "A7"edef | "Dm"d2dA d2d2 \
+| "Bb"^gagf "A7"edef |1 "Dm"d2z2 [d4A4F4] :|2 "Dm"d6 |
+"C"\
+|: a2 \
+| "Dm"[d'6f6] "A7"[^c'g]e' | "Dm"[d'6f6] "A7"[^c'g]e' \
+| "Dm"[d'2f]"A"[^c'g]e' "Dm"[d'2f]"A"[^c'g]e' | "Dm"[d'2f]"A"[^c'g]e' "Dm"[d'2f2]z2 \
+| "Dm"d'=c'c'=b baad' | d'c'c'=b baad' |
+|     d'c'c'=b baa^g | ^g3f a4 \
+| "Gm"d2gf "A7"edef | "Dm"d2dA d2d2 \
+| "Gm"d2gf "A7"edef | "Dm"d6 :|
+S:https://www.folktunefinder.com/tunes/170461
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kolomeike1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ukraine/tune/Kolomeike1_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

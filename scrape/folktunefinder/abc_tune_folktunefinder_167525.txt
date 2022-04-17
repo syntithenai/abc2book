@@ -1,0 +1,32 @@
+X: 1
+T: JENNY LIND
+S: EDS Autumn 1969
+O: Bampton
+P: A.(AB2)4
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: 2/2 meter indicated, but music is obviously 2/4.
+N: Alt.B part had 4/4 meter, notes twice as long, and missing final beat.
+M: 2/4
+L: 1/16
+K: D
+P: A
+|  F2A2 G2B2 | A2f2 f2ef | G2e2 e2de | F2d2 d2cd |
+   F2A2 G2B2 | A2f2 f2ef | g2e2 egfe | d2f2 d4  ||
+P: B
+   g2f2 egfe | d2B2 B2AB | c2A2 A2GA | B2G2 G2AG |
+   g2f2 egfe | d2B2 B2AB | c2A2 AcBA | G2B2 G4 ||
+P: Alt.B
+|: Bc | d2B2 BdcB | A2F2 F2EF | G2E2 EGFE | E2D2 D2 :|
+S:https://www.folktunefinder.com/tunes/167525
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Jenny_Lind_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

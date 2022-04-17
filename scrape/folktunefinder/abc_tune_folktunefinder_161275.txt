@@ -1,0 +1,24 @@
+X: 1
+T: Glencoe
+T: The Glencoe Village Hall
+T: The Glencoe March
+S: Buddy MacMaster
+M: 4/4
+L: 1/8
+K: D Major
+|: F>G | 
+A2 d2 F2 d2 | A>FA<d f3 a | g3 e c>Ac<e | d>cd>B A2 F<G |
+A2 d2 F2 d2 | A>FA<d f3 a | g3 e c>Ac<e | d4 d2 :|
+|: f<g | 
+a3 g f>df<a | g3 e c>Ac<e | d>cd>e f>ef<a | g>fg<b a2 f<g |
+[1 a3 g f>df<a | g3 e c>Ac<e | d>cd>f e<a-a>c | d4 d2 :|
+[2 (3agf g>e f>de<c | d>BA>F D>FA<d | B>GB<d c>Ac<e | d4 d2 |]
+S:https://www.folktunefinder.com/tunes/161275
+S:http://www.thesession.org/tunes/display/6235
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

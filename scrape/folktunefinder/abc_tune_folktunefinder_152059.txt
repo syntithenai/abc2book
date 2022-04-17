@@ -1,0 +1,25 @@
+X:27
+T: Das Schwabentoechterlein
+N: Q2073E
+O: Nordeuropa, Daenemark
+N: Daenische Fassung der Ballade, mit "Die wiedergefundene Schwester"
+N: vermischt.
+R: Ballade, Weglaufen, Schwangerschaft, Rueckkehr
+M: 2/4
+L: 1/16
+K: D
+ | A2GGA2_BB | =c2d2A2
+G2 | A2G2AA_BB | d4A2
+A2 | =F2FGA2G2 | D2E=FD2
+D2 | E2=FFD2EE | =F4A2
+A2 | =F4A2A2 | =F2EED4
+S:https://www.folktunefinder.com/tunes/152059
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, weglaufen, schwangerschaft, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

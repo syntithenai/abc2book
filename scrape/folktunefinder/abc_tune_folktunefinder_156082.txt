@@ -1,0 +1,32 @@
+X:1
+T:En avant blonde
+C:Traditionnel Louisiane, abc file by Bernard Loffet
+L:1/8
+Q:320
+M:3/4
+K:C
+[A2A,2][c2A,2][d2A,2]|[e2A,2]A,2[e2A,2]|[G2G,2][B2G,2][c2G,2]|[d2G,2]G,2G,2|[d2G,2][c2G,2][B2G,2]|[A2F,2]F,2[c2F,2]|[B2G,2]G,2[G2G,2]|[A2A,2]A,2A,2|[A2A,2][c2A,2][d2A,2]| \
+[e2A,2]A,2[e2A,2]|[G2G,2][B2G,2][c2G,2]|[d2G,2]G,2G,2|[d2G,2][c2G,2][B2G,2]|[A2F,2]F,2[c2F,2]|[B2G,2]G,2[G2G,2]|[A2A,2]A,2A,2|[e2A,2][eA,]d[cA,]d|[e2A,2]A,2[c2A,2]| \
+[d2G,2][dG,]c[BG,]c|[d2G,2]G,2G,2|[e2F,2][eF,]d[cF,]d|[e2F,2]F,2[c2F,2]|[d2G,2][c2G,2][B2G,2]|[A2A,2]A,2A,2|[e2A,2][eA,]d[cA,]d|[e2A,2]A,2[c2A,2]|[d2G,2][dG,]c[BG,]c| \
+[d2G,2]G,2G,2|[e2F,2][eF,]d[cF,]d|[e2F,2]F,2[c2F,2]|[d2G,2][c2G,2][B2G,2]|[A2A,2]A,2A,2| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/156082
+S:http://diato.ifrance.com/abc/65.abc
+S:http://diato.ifrance.com/diato/tablat/65.abc
+S:http://diato.ifrance.com/tablat/65.abc
+S:http://diato.org/tablat/65.abc
+S:http://perso.orange.fr/diato/tablat/65.abc
+S:http://perso.wanadoo.fr/diato/tablat/65.abc
+S:http://pro.wanadoo.fr/diato/abc/65.abc
+S:http://pro.wanadoo.fr/diato/tablat/65.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/65.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/65.abc
+S:http://www.diatonique.net/tablat/65.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/abc/65.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/tablat/65.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

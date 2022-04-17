@@ -1,0 +1,22 @@
+X:1
+T:Faut Maritleken
+R:Polska
+O:lvdalen, Dalarna
+M:3/4
+L:1/8
+K:Em
+(3A2^c2d2 e^c/2|(3d2B2G2 B2-|(3B3/2 fgf e^c|d2 B4:|
+(3:2:4 B2G2FG A>F|(3:2:4F2EEG2 B2-|(3:2:4B2G2FG A>F|
+(3:2:4F2EEG2 B2-|(3:2:4B2G2FG A>F|F3/2E/2 E4:|
+S:https://www.folktunefinder.com/tunes/157454
+S:http://www.folkwiki.se/pub/cache/Faut_Maritleken_dccc40.latin.abc
+S:http://www.folkwiki.se/pub/cache/Faut_Maritleken_dccc40.abc
+S:http://www.folkwiki.se/pub/cache/Faut_Maritleken_dccc40.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

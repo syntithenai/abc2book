@@ -1,0 +1,34 @@
+X:4
+T:Prelude 4
+L:1/4
+M:C|
+K:CM frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+%%text /a = Eb
+.[,,dca2] {,,,a}1.,a |\
+[,bdca1].,d :a,,,,,d |\
+[,,dd,b1]:,d/.,b ,d1.,,d |\
+[,,bc,a1].,b [,,d{a}/]:,a//.,,d :,a1 |\
+[,bbc{,a}1].d f.i |\
+d1.,,,f [b,d][ab] |\
+[,dff1].,,,,,d [,bdca].,,,,d |\
+[,aba,d1]>.,,,,,b [,bb,,a1][,ddd{a}] |\
+% Takt 9
+[abb{,a}1][abd{,,,a}] [aadc,a].,,c |
+[acd,a1][b,d] [b,d][a,b] |\
+[b,d1],,,a/[a,b] [,dddf1][a,d,e] |\
+[bdda1]{a}/[a,,,d] [,d,,c].a[,bd,a].,d |\
+[,a,c,a/].,b[,,da,b];,a [,,c,,a].,,,c,,d.,a |\
+,,,,,a/.,a[,b,c][,d,a] :a.,,,,d[,d,,c][,b,,a] |\
+[,a,,,e/].,,,,,a[,b,c][,a,a] ,,,,,a[,,d,d][,,c,c].,d |\
+H[,cdca{,,,a}4] |]
+S:https://www.folktunefinder.com/tunes/156974
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

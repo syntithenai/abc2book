@@ -1,0 +1,23 @@
+X:1
+T:Hundred Pipers
+M:6/8
+L:1/8
+R:jig
+K:G
+G2 A |: B2 D DB,D | E2 G G2 e | d2 B BAG | B2 A AGA ||
+        B2 D DB,D | E2 G G2 e | d2 B ABA |1 G3 G2 A :|2 G3 B2 c ||
+        d2 d dBd | e2 g gfe | d2 B BAG | B2 A ABc ||
+        d2 d dBd | e2 g gfe | d2 B ABA | G3 B2 c |
+        d2 d dBd | e2 g gfe | d2 B ABA | B2 A AGA ||
+        B2 D DB,D | E2 G G2 e | d2 B ABA | G3 |]
+S:https://www.folktunefinder.com/tunes/165660
+S:http://www.oxfordfiddle.co.uk/hundred_pipers.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

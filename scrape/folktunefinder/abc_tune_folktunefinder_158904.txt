@@ -1,0 +1,22 @@
+X: 12
+T: For at v\aere som man b\"or
+R: S\"onderhoning
+M: 2/4
+L: 1/16
+K: D
+|: A3G F2A2 | (dc)(de) d4 | c3d e2c2 | dcde f2d2 \
+|  A3G F2A2 | dcde d4 | cdef g2[e2c2] | d4 d4 :|
+w: For at v\ae-re som* man* b\"or
+|: g2ga g2e2 | f2fg f2d2 | e2ef e2c2 | defg a2f2 \
+|  g2ga g2e2 | f2fg f2ed | cdef g2[e2c2] | d4 d4 :|
+S:https://www.folktunefinder.com/tunes/158904
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/For_at_vaere_som_man_bor_D.abc
+% Rhythm So?nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

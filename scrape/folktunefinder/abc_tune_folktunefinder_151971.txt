@@ -1,0 +1,23 @@
+X:49
+T: Der Nachtjaeger
+N: Q0133E
+O: Osteuropa, Tschechoslowakei, Boehmerwald, Muttersdorf
+N: Verzierungen (Glissandi) .
+R: Ballade, Jagd, Flucht, Vergewaltigung, Tod
+M: 4/4
+L: 1/16
+K: G
+d2 | d4B2g2g4f3e | e3dd2g2d4z2
+B2 | B3AA2e2e4d2A2 | c3BB2e2d4z2
+d2 | g3gg2b2a2b2c2a2 | f2d2e2f2g4z2
+S:https://www.folktunefinder.com/tunes/151971
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, vergewaltigung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

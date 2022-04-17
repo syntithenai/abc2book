@@ -1,0 +1,26 @@
+X:1
+T:Krouze : B
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=250
+M:4/4
+L:1/16
+K:C
+"C"c4 e4 g8 | "G"f4 e4 d8 | "C"c4 d2e2 "G"d4 c4 |1 B4 c4 d4 d4 :|2\
+B4 d4 "C"c4 z4 |: c4 d2e2 "G"d4 c4 | B4 c4 d4 d4 | \
+"C"c4 d2e2 "G"d4 c4 |1 B4 d4 "C"c4 z4 :|2 "G"B4 d4 "C"c4 G4 |]
+T:ralentir
+c4 d4 e8 | "G"d8 "C"c8 | "Am"f8 "C"e8 | "G"d8 "C"c8 |]
+S:https://www.folktunefinder.com/tunes/170588
+S:http://termen.free.fr/danses/penthievre/KerouezeeB.abc
+% Rhythm Avantdeux
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

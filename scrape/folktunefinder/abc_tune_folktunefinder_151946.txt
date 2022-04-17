@@ -1,0 +1,30 @@
+X:24
+T: Das Maedchen und der Faehnrich
+N: Q0127E
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg, Neustadt - Eberswalde
+R: Ballade, verbotene Liebe, Flucht
+M: 4/4
+L: 1/8
+K: G
+_B2 | c_BAG=F2GA | _B2B2B2
+B2 | c2_B2G2cB | G4G2
+_B2 | c_BAG=F2GA | _B2B2B2
+B2 | c2_B2G2cB | G4G2
+_Bc | d2d2d2_ed | c2_B2c2
+Bc | ddddd2_ed | c2A2=F2
+_Bc | d2c2d2_ed | c2_B2c2
+_ed | c2cccc_ee | d2_B2=F2
+Bc | dc_BAG2AB | c2c2c2
+cc | d2d2G2c_B | A4G2
+S:https://www.folktunefinder.com/tunes/151946
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

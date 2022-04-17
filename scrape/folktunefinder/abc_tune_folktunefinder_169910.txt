@@ -1,0 +1,22 @@
+X: 5
+T: The Kilnamona Barndance
+M: 4/4
+L: 1/8
+R: barndance
+K: D Major
+|: d>B |\
+(3ABA (3FGA D>E (3FGA | (3ABA G2 E3 F | G2 E2 B>EG>A | (3BcB A>G F>DC>D |
+ADFA DAFG | A2 G2 E3 F | G2 E2 B>A^G>A | D2 (3DDD D2 :|
+|: (3Ade |\
+f3 f fedf | e3 e e>dB>c | d>ed>B (3ABA (3FGA | B>e (3eee e>Ad>e | 
+f>A (3def A>f (3agf | e>Ac>e A>ec>e | d2 (3edB A2 (3FGA | B>d (3ddd d2 :|
+S:https://www.folktunefinder.com/tunes/169910
+S:http://www.thesession.org/tunes/display/163
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

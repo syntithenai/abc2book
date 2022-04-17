@@ -1,0 +1,38 @@
+X:1026
+T:Gypsy song
+C:anon.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/anon/gypsy-song-1.abc
+%Posted June 11th 2000 at abcusers by Frank Nordberg
+M:3/4
+L:1/8
+Q:1/4=144
+K:Am ^G
+ec|"Am"A4c2|"Am"e4c2|"E7"d2B4-|"E7"B2 z2 BA|
+"E7"G4B2|"E7"d2c2B2|"Am"A6-|"Am"A2 z2 ec|
+"Am"A4c2|"A7"e4a2|"Dm"a2f4-|"Dm"f2 z2 ed|
+"Am"c4e2|"E7"B4c2|"Am"A4-|"Am"A2 z4||
+M:2/4
+L:1/8
+Q:1/4=96
+"Am"e2e2|"E7"d3B|"Am"c2cA|"E"B2 z e|
+"Am"a2e2|"E7"d3B|"Am"cccA|"E"B2 z2|
+"Am"AA cc|"E7"BB ed|"Am"c2"Dm"d2|"E7"e2 z2|
+"Am"AA cc|"E7"BB ed|"Am"cc "E7"BB|"Am"A3 z|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/162805
+S:http://abc.musicaviva.com/tunes/anon/gypsy-song-1.abc
+S:http://abc.musicaviva.com/tunes/anon/gypsy-song-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/gypsy-song/gypsy-song-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/gypsy-song/gypsy-song-1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

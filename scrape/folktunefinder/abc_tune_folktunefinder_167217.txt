@@ -1,0 +1,28 @@
+X:1
+T:J'ai une bonne amie  Quimperl
+C:An dro, traditionnel, fichier ABC par Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:G
+ [GG,]A[BG,]c [B2G,2]G,B | [c2D,2][B2G,2] [A2D,2][A2D,2] | [GG,]A[BG,]c [B2G,2]G,B | \
+ [c2D,2][B2G,2] [A2D,2]D,2 | [GG,]A[BG,]c [B2G,2]G,B | [c2D,2][B2G,2] [A2D,2][A2D,2] | \
+ [GG,]A[BG,]c [B2G,2]G,B | [c2D,2][B2G,2] [A2D,2]D,B | [cD,]B[cD,]A [B2G,2]G,G | [G2G,2][FD,]G [A2D,2]D,B | \
+ [cD,]B[cD,]A [B2G,2]G,G | [A2D,2][F2D,2] [G2G,2]G,B | [cD,]B[cD,]A [B2G,2]G,G | [G2G,2][FD,]G [A2D,2]D,B | \
+ [cD,]B[cD,]A [B2G,2]G,G | [A2D,2][F2D,2] [G2G,2]G,2 | \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/167217
+S:http://diato.ifrance.com/diato/tablat/92.abc
+S:http://diato.ifrance.com/tablat/92.abc
+S:http://diato.org/tablat/92.abc
+S:http://perso.orange.fr/diato/tablat/92.abc
+S:http://perso.wanadoo.fr/diato/tablat/92.abc
+S:http://pro.wanadoo.fr/diato/tablat/92.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/92.abc
+S:http://www.diatonique.net/tablat/92.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

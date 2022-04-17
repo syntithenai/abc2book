@@ -1,0 +1,24 @@
+X: 109
+T: Pushee's -- Hornpipe
+R:hornpipe
+C:A. Pushee
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+uF2|B2Bc d2cB|Bdfg f2df|bfdf gfdB|cBcd cedc|
+B2Bc d2cB|Bdfg f2df|gbfd cBcd|B2d2B2:|
+|:vBA|(G2{A}G)^F (G2{A}G)F|G2GA B2Bc|(d2{e}d)^c (d2{e}d)^c|d=cBd f2Bd|
+fgfd f2df|g^fga g2bg|fdBd cedc|B2df b2:|
+S:https://www.folktunefinder.com/tunes/158747
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/OP.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/OP.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

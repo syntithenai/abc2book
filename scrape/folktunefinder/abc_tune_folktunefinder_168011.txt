@@ -1,0 +1,25 @@
+X: 17
+T:Jockey to the Fair
+C:Adderbury
+M:6/8
+L:1/8
+A:Adderbury
+P:A(AB)3
+K:G
+P:A
+D|G2A  B2c|d2g d2c | BdG  GFG | AcB A2A|
+AB^c def|fgf d2g | fed    AB^c| d3 d2 ||
+P:B
+d|g2d  g2d| cBc B2d |{d}g2d {d}g2d| cBc B2d|e2f g>fe |
+dcB A2d | e>dc   B2A| {A}B2G E2F|G2G G>Bd |e2f g>fe|  
+d>BG B2G| E2F G2A| Bcd  cBA|G3  G2 ||
+</abc>
+S:https://www.folktunefinder.com/tunes/168011
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:jockey_to_the_fair&do=edit&rev=1157480051
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

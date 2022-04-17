@@ -1,0 +1,25 @@
+X:1
+T: Demonstrator
+C:WychWeird
+M:C
+K:C
+F, G, A, B, C D E F| G A B c d e f g| a b c' d' z z|
+G2 A2 B2 c2| d2 e2 f2 g2|
+G4 A4| B4 c4| d4 e4| f4 g4|
+G8| A8| B8| c8| d8| e8| f8| g8|
+G/2 A/2 B/2 c/2 d/2 e/2 f/2 g/2|
+|:G2A2B2c2| [1 d2e2f2g2:|[2 g2f2e2d2|]
+^G2 ^A2 ^B2 ^c2| _G2 _A2 _B2 _c2|
+G2-A2 B2-c2| d2-e2 f2-g2|
+(G2 A2 B2 c2)| (d2 e2 f2 g2)|
+3GGG z 3BBB z|
+S:https://www.folktunefinder.com/tunes/152742
+S:http://community.codemasters.com/forum/archive/index.php/t-196776.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

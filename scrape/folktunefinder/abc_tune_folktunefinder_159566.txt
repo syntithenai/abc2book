@@ -1,0 +1,19 @@
+X: 1
+T: Full Length Metal Strap Handle Digging Spade
+M: 6/8
+L: 1/8
+R: jig
+K: Gmix
+g2d d2d  | G2d d2d |  c2d A2d | ccd A2d |
+g2d d2d | G2d A2d | ccd A2d | G2d G3 :|
+G3 AAA | D2G d3 | c2dc2d | edc A3 |
+d3 cdc | A2G E3 | D2E D2a | gdA G3 :|
+S:https://www.folktunefinder.com/tunes/159566
+S:http://www.thesession.org/tunes/display/7005
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

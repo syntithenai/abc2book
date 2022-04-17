@@ -1,0 +1,58 @@
+X:1
+T:Forgatos
+O:Hungary
+S:Susan Worland
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=100
+M:2/4
+L:1/16
+K:Amin
+%%MIDI channel 1
+%%MIDI program 1 110
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI gchord fcfc
+%%MIDI gracedivider 2
+"Am"{E^G}A4 {G}A4 | EF~=G4 E2 |"C"CD~E2 ~D2C2 |CD~E2 ~D2C2 |\
+"Am"{^G}A4 {G}A4 | E^D~E2- EEAB |cBAc "E7"BA^GB |"Am"A^G"E7"BG "Am"A4 :|
+|:"G"=GABc dcd2- |d2e2 "C"~c2Bc |"G"=GABc dcd2- |d2e2 "C"c2BA |
+"G"=GABc dcd2- |d2e2 "C"~c2AB |\
+"Am"cBAc "E7"BA^GB |1"Am"A8 :|2"Am"A4 "A"^c4- ||
+K:A
+"A"cde2 "E"BcdB |"A"cAEA c4- |cAGA "E"BcdB |"A"cAEA ~c4- |
+   cedc "E"BAGB |"A"ABcA c2>c2 |"E"Bcdc BAGB |"A"A2z2A4 ||
+"E"~B4-B4 |"A"cBAG ABc2 |"E"dcBA GEFG |"A"AGAB cBA2 |\
+"E"~B4 ~B4 |(3E2F2G2 "A"AGA2 |"E"Bcdc BAGB |"A"A4 A4 ||
+|:"E"EBdc B4 |"A"cAEA c4 :|"E"EBdc B4 |"A"cBAG ABc2 |"E"dcdc BAGB |"A"A4 A4 ||
+"E"~B4-B4 |"A"cBAG ABc2 |"E"dcBA GEFG |"A"AGAB cBA2 |\
+"E"~B4 ~B4 |(3E2F2G2 "A"AGA2 |"E"Bcdc BAGB |"A"A4 A4 ||
+"D"~d4 ~d4 |"A"cde2 ~d2cB |"E"Bcde d2cB |"A"ABc2 c4 |
+|:"D"de f4 ed |"A"cd e4 dc |"E"Bcde d2cB |"A"AB c4 c2 :|
+|:"D"de f4 ed |"A"cd e4 dc |"E"Bcde d2cB |1"A"AB c4 c2 :|2"A" A2 z3 EFG ||
+"A"AGAc "E"~B4 |"A"cBAG "E"A~B3 |"E"Bcdc BdcB |"A"ABcd cBAE ||
+|:"E"A~B3 ~B4 |"A"cBAG AB3 |"E"dcBA GEFG |1"A"ABcA cBAE :|2"A"A4\
+%%MIDI gchord z4
+z4 ||\
+%%MIDI gchord c3z
+"D"HF4z4 |"E"HG4z4 |"A"HA4z4 ||
+W:Arrangement Copyright (C) 2002 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/158934
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Forgatos.abc
+S:http://people.csail.mit.edu/jaffer/Music/Forgatos.abc
+S:http://voluntocracy.org/Music/Forgatos.abc
+S:http://www.voluntocracy.org/Music/Forgatos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

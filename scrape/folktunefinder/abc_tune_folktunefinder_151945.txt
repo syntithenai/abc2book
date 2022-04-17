@@ -1,0 +1,24 @@
+X:23
+T: Das Maedchen und der Faehnrich
+N: Q0127D
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Taktart entsprechend der Takteinteilung als 6/8 bezeichnet.
+R: Ballade, verbotene Liebe, Flucht
+M: 6/8
+L: 1/16
+K: G
+D2 | D2G2G2G4B2 | d4c2B4
+d2 | c4ccA2G2B2 | c4d2A4
+DD | D4G2F4B2 | d4d2B4
+d2 | d2c2c2A2B2c2 | c4d2B4
+S:https://www.folktunefinder.com/tunes/151945
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, verbotene liebe, flucht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

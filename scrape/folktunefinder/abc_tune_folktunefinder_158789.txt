@@ -1,0 +1,25 @@
+X: 1
+T: Flying To The Fleadh
+M: 9/8
+L: 1/8
+R: slip jig
+K: Bmin
+Bc|:~d3 Bcd cBA|~B3 c2d e2g|~f3 efg fed|~e3 a2e dce|
+~d3 B2d cBA|~B3 c2d e2g|~f3 efg fed|1 ede a2e dBc:|2 ~e3 a2e d2e||
+|:~f3 efa fed|~e3 a2e dcA|~B3 c2d e2g|~f3 c2A cde|
+~f3 efa fed|~e3 a2e dcA|B2d c2e d2f|1 edc aec d2e:|2 edc aec B2c||
+|:~d3 ~c3 dcB|~c3 ~B3 cde|~d3 ~c3 def|edc aec B2c|
+~d3 ~c3 dcB|~c3 ~B3 cBA|B2d c2e def|edc aec B2c:|
+S:https://www.folktunefinder.com/tunes/158789
+S:http://www.thesession.org/tunes/display/4370
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

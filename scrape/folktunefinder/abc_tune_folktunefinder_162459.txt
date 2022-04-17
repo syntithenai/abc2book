@@ -1,0 +1,23 @@
+X:0290
+T:"Green Shady Bowers"  (air)   0290
+C:Unattributed
+C:animated
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:A
+"_VB"(cB)|A3B (A2F2)|(F2E2) .E2(Bc)|.d2.d2 (c2B2)|c6AB|(c2f2) (f2e2)|(c3d) .e2(cB)|A3B c2^d2|e6AB|
+(c2f2) f2e2|c3d .e2(cB)|(B2A2) (F2E2)|E6(cd)|.e2.e2 .f2(ed)|c2A2 F2E2|E3F A2A2|A6|]
+S:https://www.folktunefinder.com/tunes/162459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0290-GreenShadyBowers.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0290-GreenShadyBowers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

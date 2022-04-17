@@ -1,0 +1,25 @@
+X: 1
+T: Dundee City Police Pipe Band
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+A|:d>fe (d2 A)|(Bd>)A B2 d|A>BA A>af|f>ed (e2 A)|
+d>fe (d2 A)|(Bd>)A B2 d|A>af e>de|1 d3 d2 A:|2 d3 d2 g||
+|:a>gf e>de|(fa>)A B2 d|A>BA A>af|
+[1 f>ed (e2 g)|a>gf e>de|(fa>)A B2 d|A>af e>de|d3 d2 g:|
+[2 f>ed (e2 A)|d>fe (d2 A)|(Bd>)A B2 d|A>af e>de|d3 d2 A||
+|:d>fe f>AA|d>fA (B2 d)|A>fe (f2 a)|f>ed (e2 A)|
+d>fe f>AA|d>fA (B2 d)|A>af e>de|1 d3 d2 A:|2 d3 d2 g||
+|:f>aa A>aa|(fa>)A B2 d|G>BB A>dd|
+[1 (fa>)f e2 g|f>aa A>aa|(fa>)A B2 d|A>af e>de|d3 d2 g:|
+[2 (fa>)f e2 A|d>fe f>AA|d>fA (B2 d)|A>af e>de|d3 d3||
+S:https://www.folktunefinder.com/tunes/154973
+S:http://www.thesession.org/tunes/display/3085
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

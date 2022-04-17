@@ -1,0 +1,23 @@
+X: 1
+T:Hewlett
+M:3/8
+L:1/8
+C:Turlough O'Carolan
+S:Fiddler's Fake Book
+R:Waltz
+K:D
+"D" DD(F/G/) | "A" (A/B/)cA | "D" df(f/g/) | "D" (f/e/) d>(B |"D" A)FF | "G" GG/B/A/G/ | "D" (A/F/DD |1 "D" D2 (3A,B,C :||2 D3 ||!
+ "D" AD(A/B/) | "D" AD(A/B/) | "D" Add | "D" (d/c/ B/A/) (G/F/) | "G" GG,(G/A/) | "G" GG,(G/A/) | GG/(A/B/)(G/ | "D" A/F/) D3(D/4E/4 |
+ "D" F/E/F)G | "A" (A/B/)cA | "D" (f/e/) (f/g/) (a/g/) | "D" (f/e/) (d>B | "D" A)FF | "G" GG/B/A/G/ | "D" A/F/DD | "D" D4 z2 |
+% Output from ABC2Win  Version 2.1 i on 12/11/2004
+S:https://www.folktunefinder.com/tunes/164016
+S:http://internet.cybermesa.com/~keating/music_abc/HEWLETT.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

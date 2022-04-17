@@ -1,0 +1,37 @@
+X:1
+T:Ein anderer Schwegelmarsch aus Hart
+A:Tirol
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus Tirol", Karl Horak, Edition Helbling, Innsbruck, 1982, traditionell
+N:im buch: s. 5 nr. 3
+N:in D, zweistimmig
+S:mit der angabe: aufgezeichnet 1948 von Karl Horak bei Franz Mauracher.            
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:D
+D/F/ |\
+AFA dcB | A2F F2G | AGA BAG | F3 F2D/E/ |\
+AFA dcB | A2F F2G | AGA BAG | F3 F2 ||
+D/F/ |\
+A2G EFG | B2A A2D/F/ | A2A ABA | F3 F2D/F/ |\
+A2G EFG | B2A A2D/F/ | A2A GFE | D3 D2 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155846
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/anderer_schwegelm._a._hart.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Fourth Gear
+C: R-100
+C: Paul Milde 1988
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+%%staffwidth 16cm
+K: D
+"D"fafe dfed| "G"BABd "D/F#"BAFE| "D"D2DE FEDE| "Bm"FDB2 "A"A2A2|
+"D"fafe dfed| "G"BABd "D/F#"BAFE| "D"D2DE FEDE| "A"FDE2 "D"D4 :|
+|:\
+"D"F3A FEDE| FDBF "A"A2de|  "D"fefe "G"dBAB| "D"dBAF "A"EFED|
+"D"F3A FEDE| FDBF "A"A2de|1 "D"fedB "G"dedB| "A"AFEF "D"D4 :|\
+                         [2 "D"fafe "G"dBdB| "A"AFEF "D"D4 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/159082
+S:http://roaringjelly.org/music/reel/R100_Fourth_Gear.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R100_Fourth_Gear.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R100_Fourth_Gear.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

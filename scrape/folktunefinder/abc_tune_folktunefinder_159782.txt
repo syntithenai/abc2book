@@ -1,0 +1,29 @@
+X:0894
+T:"Gallant Tipperary"      (jig)         0894
+C:after Mr. Cronin
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+(3(A/2B/2d/2)|ded FGA|B2A A2(B/2c/2)|d2d ede|f2d d2(e/2f/2)
+|gag fed|efd cBA|BAG FGA|B2A A2:|
+|:(f/2g/2)|aba def|gab efg|aba fed|e2A A2(f/2g/2)|
+aba fgf|efe d2A|BAG FGA|B2A A2:|
+|:A|dAF dAF|B2A ABc|dAF dAF|G2E E2 (3(A/2B/2d/2)|
+dAF BAF|Adf a2g|fed FGA|B2A A2:|
+|:(f/2g/2)|afd cBA|BGG G2g|bge efd|cAA A2(f/2g/2)|
+afd gfe|afd cBA|BAG FGA|B2A A2:|
+S:https://www.folktunefinder.com/tunes/159782
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0894-GallantTipperary.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0894-GallantTipperary.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0894-GallantTipperary.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

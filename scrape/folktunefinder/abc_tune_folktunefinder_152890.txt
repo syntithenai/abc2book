@@ -1,0 +1,29 @@
+X:10
+T: Vincent Harrison's
+S: Brian Conway
+Z: B.Black
+N: a/k/a "Tommy Peoples'"
+R: jig
+M: 6/8
+L: 1/8
+K: G
+dBG GDB, | G,3 G,B,D | EcB A2 G | FED cBA |
+BdB G2 F | EGE C2 E | DGB cAF | AGF G3 :|
+GBd g2 f | ecB c2 B | Adf a2 g | faf def |
+g2 B Ggf | ecA E3 | DGB cAF | AGF G3 :|
+BAB g2 f | e2 c cAE | FEF a2 g | f3 def |
+gdB GBd | ecA E3 | DGB cAF | AGF G3 :|
+S:https://www.folktunefinder.com/tunes/152890
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/v.abc
+S:http://www2.redhawk.org:8080/irish/zouki/v.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/v.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

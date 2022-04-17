@@ -1,0 +1,31 @@
+X:2522
+T:Four Seasons
+C:anon.
+O:England
+Z:C.G.P
+F:http://abc.musicaviva.com/tunes/england/four-seasons/four-seasons.abc
+%Posted at abcusers Jan 2nd 2001 by Johnny Adams.
+M:6/8
+L:1/8
+K:G
+d3 BGB|dcB A2D|G2D A2D|dcB A3|d3 BGB|dcB A2D|
+G2D A2D|BcA G3::FGF EFG|GFE F2D|FGF EFG|GFE F2A|
+FGF EFG|GFE F2D|FGF EFG|GFE D3::ABA d3|ABA F3|
+ABA GAG|EFG F2D|ABA d3|ABA F3|ABA GAG|EFE D3:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159072
+S:http://abc.musicaviva.com/tunes/england/four-seasons/four-seasons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/four-seasons/four-seasons.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/england/four-seasons/four-seasons.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,48 @@
+X: 1
+T:Hearts Ease
+M:6/8
+L:1/8
+Q:100
+R:Jig
+H:There are two distinct tunes named "Heartsease" and considerable
+H:differences of opinion as to whether any of the known lyrics fit either
+H:of them. The earliest lyric is "a songe to the tune of hartes ease"
+H:from Thomas Richardes' play on an Italian model, called "Misogonus" (c.
+H:1560).  Although it scans well, the text is arranged in short verses
+H:which would only use half the dance tune, implying that an earlier tune
+H:by this name may have had only one strain.
+H:
+H:Richard Dering's
+H:catch "Cries of London" is set to the A strain.
+H:
+H:Hearts-ease in
+H:16th century herbal culture was the little wild pansy, known today as
+H:Johnny-jump-up.  It was also called "Love in Idleness".
+W:Misogonus:
+W:Singe care away with sport & playe
+W:Pasttime is all our
+W:pleasure
+W:Yf well we fare, for nought we care
+W:In mearth our
+W:constant treasure ...
+W:
+W:Dering:
+W:A cooper I am, and have been
+W:long, and hooping is my trade
+W:And married man am I to as pretty a
+W:wench as ever God hath made
+K:GDor
+G|G>AB A2G|^F2G A2D|G2A B2c|1 d3-d2  :|2 d3-d2  d||
+ABc cdc|f2c c2A|B2A Bc2|d3-d2 d|c2B A>Bc|B2A dAB|A2G ^F>EF|G2||
+S:https://www.folktunefinder.com/tunes/163724
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/he/Hearts_Ease_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

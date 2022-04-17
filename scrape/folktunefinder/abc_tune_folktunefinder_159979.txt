@@ -1,0 +1,20 @@
+X: 1
+T:Gan Ainm
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+DFA dcA|AGE AGE|DFA dcA|AGE D2E|!
+~D3 DEG|AdB c2A|dfd AGE|AGE D3:|!
+|:DFA fed|dcA dcA|dAF DdB|~c3 cAG|!
+DEF EFG|AdB cAG|dfd AGE|AGE D3:|!
+S:https://www.folktunefinder.com/tunes/159979
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_158.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

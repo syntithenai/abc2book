@@ -1,0 +1,20 @@
+X: 1
+T: Knole Park
+O: 1788
+M: 2/4
+L: 1/16
+K: C
+|: EF \
+| "C"G3A G2E2 | G2c2 e2c2 | "F"A2de f2d2 | "G7"c2B2 A2G2 \
+| "C"G3A G2E2 | G2c2 e2c2 | "F"A3f "G7"d2B2 | "C"c2G2 C2 :|
+|: ef \
+| "C"g2e2 G2ge | "G7"f2d2 G2f2 | "Dm"f2e2 "D7"d2c2 | "G"B2A2 G2G2 \
+| "F"A2f2 "C"G2e2 | "G7"F2d2 "C"E2c2 | "Dm"D2f2 "G7"edcB | "C"c2G2 C2 :|
+S:https://www.folktunefinder.com/tunes/170418
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/KnolePark2_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

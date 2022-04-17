@@ -1,0 +1,21 @@
+X: 72
+T: Holme's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Eb
+uB,2|EDEF EB,G,B,|EeBG EFGE |AFcB AGFE|DBFD B,DFD|
+EDEF EB,G,B,|EeBG EFGE|AFcA GFED|E2G2E2:|
+|:uB2|.e2.e2 dB=AB|.f2(fe) dB=AB|afdB AFGE|DBFD B,2((3B,C"4"D)|
+.E2.E2 CA,G,A,|.F2(FE) DB,=A,B,|eBAG FADF|E2G2E2:|
+S:https://www.folktunefinder.com/tunes/158295
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

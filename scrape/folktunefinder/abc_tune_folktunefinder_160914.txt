@@ -1,0 +1,98 @@
+X:1
+%
+%%titleleft 1
+%%topmargin       3.00cm
+%%titlespace     -1.80cm
+%
+T:Giga
+C:Christofero Dalitio
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:6/8
+K:F italian7tab
+%
+%%tabaddflags 0
+%%tabfontsize 13
+%%tabrhstyle modern
+%%tabflagspace 2
+%%tabfontitalian Borrono
+%
+%staff 1
+,,d/ |\
+,d1 ,d/ ,d-,c[,a,a] |\
+[,cd1] [,cd/] [,cd][,ab][,,de] |\
+[,ab1] ,,b/ [,c(b][,,a)][,,,ca] |\
+[,daa1] ,,,a/ ,,,a,,,,e[,d,,c] |
+%staff 2
+[ff,,e1] f/ [fc,,a]-da |\
+    [cdda1] c/ [c{a}]-a,d |\
+[,a,,,d/],,b,a [d,,,,a]-ca |\
+[add,a3/2] ,c1 f/ |\
+[fdaa1] f/ f-dc |
+%staff 3
+[dd,,,a1] ,d/ ,d-,c,a |\
+    [dc,,a1] d/ d-ca |\
+[cc{a}1] ,c/ ,c-,a,,d |\
+[ca,,,d1] c/ c-a,d |\
+[aa{8}1] ,a/ ,a,,e,,c |
+%staff 4
+[a,e,,c1] a/ a,d[,ca] |\
+    [,df1] ,,f/ ,,f-,,d[,ac] |\
+[c,d1] c/ [c,a]-a,d |\
+[aac1] a/ a,d[,c,,,a] |\
+[,da,c1] ,,,,c/ ,,,,c-,,,,a[a,,,,e] |
+%staff 5
+[,c,,a/],,d,c a,ca |\
+    [cdd{a}1] c/ c-a,d |\
+[a{8}/],,da a,d,c |\
+[,d{9}/],,c,d ,d-,c,a |\
+[,c,,a/]-,da [cdda1] ,d/ |
+%staff 6
+[,c,c/]-,a,,d ,,,,,a1 ,,c/ |\
+    T,,d3/2 {10}1 ,,,,a/ |\
+,,,c1 ,,,c/ ,,,,e-,,,,f,,,c |\
+,,,,a3/2 z1 :: ,,,c/ |\
+,,d1 ,,d/ ,,d-,,c[,,a,a] |
+%%newpage
+%staff 7
+[,,cc1] ,,,c/ ,,,c-,,,a[,,d,e] |\
+    [,a,a1] ,a/ ,a,,d[,,cc] |\
+[,,de1] ,,,e/ ,,,e-,,,c[,a,a] |\
+[,c,c1] ,c/ ,c-,a[,,ee] |\
+[,ab1] ,,b/ ,,b-,,a,,,d |
+%staff 8
+,,,e1 ,,e/ ,a1 ,,,,,d/ |\
+    ,,,,,c1 ,,a/ ,a1 ,,e/ |\
+[,aaa{9}1] ,,,,c/ ,,,,c-,,,,a,,,,,c |\
+[aa,,,e1] a/ a,d,a |\
+[,cd,a1] ,,d/ ,,d-,,b,,,c |
+%staff 9
+[,da{a}1] ,d/ ,d-,b,,d |\
+    [,ab,,d1] ,a/ [d,,,,a]-ca |\
+[add,a3/2] ,c1 f/ |\
+[fdaa1] f/ f-dc |\
+[dc,,,a1] d/ d-ca |
+%staff 10
+[cd{a}1] c/ c-a,d |\
+[a{8}/],,da a,d,c |\
+[,d{9}/],,c,d ,d-,c,a |\
+[,c{10}/],,d,c a,ca |
+%staff 11
+H[dcdca3/2] x1 f/ |\
+[c,,a/]-a,d ,,,,a1 ,c/ |\
+T,d3/2 {a}1 ,,,,,c/ |\
+,,,,a1 ,,,,a/ ,,,,,c-,,,,,d,,,,a |\
+[,daa{a}3/2] z1 :|
+%
+%%vskip 5mm
+%%center From "Six Baroque Sonatas for an Archlute"
+%%center Facsimile available from TREE
+S:https://www.folktunefinder.com/tunes/160914
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dalitio/f_giga.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dalitio/f_giga.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

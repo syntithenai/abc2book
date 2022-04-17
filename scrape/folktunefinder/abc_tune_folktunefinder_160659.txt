@@ -1,0 +1,29 @@
+X:1
+T:Gavotte (ton doubl)
+C:Traditionnel.  Fichier ABC par Bernard Loffet
+L:1/8
+Q:420
+M:9/8
+K:G
+|: [dG,]ed [c2G,2]B [A2D,2]B | [G3E,3] [F2A,2]G [A2D,2]F | [G3G,3] [G3G,3] :|: [dG,]ed [c2G,2]B [A2D,2]B | \
+ [G3E,3] [F2A,2]G [A2A,2]B | [c2D,2]B [A3D,3] | [dG,]ed [c2G,2]B [A2D,2]B | [G3E,3] [F2A,2]G [A2D,2]F | \
+ [G3G,3] [G3G,3] :| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/160659
+S:http://diato.ifrance.com/diato/tablat/102.abc
+S:http://diato.ifrance.com/tablat/102.abc
+S:http://diato.org/tablat/102.abc
+S:http://perso.orange.fr/diato/tablat/102.abc
+S:http://perso.wanadoo.fr/diato/tablat/102.abc
+S:http://pro.wanadoo.fr/diato/tablat/102.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/102.abc
+S:http://www.diatonique.net/tablat/102.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

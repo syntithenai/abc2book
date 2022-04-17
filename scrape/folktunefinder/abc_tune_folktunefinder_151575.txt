@@ -1,0 +1,27 @@
+X:46
+T: Der betruegerische Freier
+N: Q0042
+O: Mitteleuropa, Deutschland (BRD) , Rheinprovinz
+N: Kleinere Melodievarianten aus anderer Quelle abgedruckt.
+N: Vierte Zeile = Refrain.
+R: Ballade, Braut - Werbung, Betrug; tragisch
+M: 2/4
+L: 1/16
+K: A
+E2 | A2=c2B2A2 | A2G2G2
+E2 | A2B2=c2d2 | B4z2
+A2 | =c2B2c2A2 | d4e4
+A3B=c2A2 | G2=F2E2
+B2 | =c2B2c2A2 | d4e2
+=c2 | B2A2G2B2 | A4z2
+S:https://www.folktunefinder.com/tunes/151575
+% Rhythm Ballade, braut - werbung, betrug; tragisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

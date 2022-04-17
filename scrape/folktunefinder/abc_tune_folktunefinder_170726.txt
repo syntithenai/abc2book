@@ -1,0 +1,53 @@
+X:1
+T:Ladies' Pleasure
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Bledington
+O:English
+R:Jig
+%:NoTeX
+%:NoWWW
+%P:A.AB.(CB)$^2$
+P:A.AB.(CB)2
+K:F
+Q:C3=100
+P:A
+c | f2 f A2 B | c2 A F2 C | F>FF GAB | A2 G G2   \
+c | f2 f A2 B | c2 A F2 C | F>FF GAB | A2 G F3   ||\
+P:B
+    G>GG BAB  | G>GG BAB  | G>AB cde | fed  c2 c |\
+    f2 f A2 B | c2 A F2 C | F>FF GAB | A2 G F3   ||\
+P:C
+M:3/8
+L:1/8
+c3 |\
+M:6/8
+f3 f3 | A3 B3 | c3 A3 |\
+M:3/8
+L:1/8
+F2 C |\
+M:6/8
+F>FF GAB | A2 G G3 |\
+M:3/8
+L:1/8
+c3 |\
+M:6/8
+f3 f3 | A3 B3 | c3 A3 |\
+M:3/8
+L:1/8
+F2 C |\
+M:6/8
+F>FF GAB | A2 G F3 ||
+S:https://www.folktunefinder.com/tunes/170726
+S:http://www.ucolick.org/~sla/morris/music/Bledington/ladiesp.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

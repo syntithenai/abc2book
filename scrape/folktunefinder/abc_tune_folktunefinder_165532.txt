@@ -1,0 +1,20 @@
+X: 1
+T: Humours Of Glynn, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: A | def A2A | DFA AFA | def A2A | DFA B2A |
+def A2A | DFA AFA | GBG FAF | EFA B2 :|
+|: A | dfd fdB | cec ecA | dfd fdB | AFA B2A |
+[1 dfd fdB | cec ecA | dcB cAF | EFA B2 :|
+[2 dfd cec | BdB AGF | GBG FAF | EFA B2 ||
+S:https://www.folktunefinder.com/tunes/165532
+S:http://www.thesession.org/tunes/display/9023
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

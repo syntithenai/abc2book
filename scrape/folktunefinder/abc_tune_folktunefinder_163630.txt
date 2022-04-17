@@ -1,0 +1,23 @@
+X: 1
+T: The Hawk
+C: James Hill
+R: hornpipe
+M: 4/4
+L: 1/8
+Z: Contributed 20010316192645 by Chuck Charles.D.Quick@can.dupont.com
+K: D
+(3ABc|d2 fd Adfe|dfeg fagf|e2 ge Begf|edcB ABcA|
+d2 fd Adfe|dfeg fagf|edef gABc|dAfe d2:|
+AA|Aafd Agec|Afdc dcBA|BAcB dced|fegf e2 ef|
+gafg efde|caBg AfGe|cd ef gABc|dAfe d2:|
+S:https://www.folktunefinder.com/tunes/163630
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/Charles.D.Quick:can.dupont.com/Hawk.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Hawk.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

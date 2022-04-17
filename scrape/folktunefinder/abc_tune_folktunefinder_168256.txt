@@ -1,0 +1,25 @@
+X: 2
+T: Mason's Apron
+I: Mason's ApronR-7Areel
+M: C|
+R: reel
+K: A
+ed| "A"c2A2 ABAF| EFAB dcBA| "Bm"d2B2 BcBA| Bcde gfed|
+    "A"c2A2 ABAF| EFAB dcBA| "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+|:\
+ed| "A"cAeA fAeA| cAeA fedc | "Bm"dBfB gBfB| dBfB "E"gfed|
+    "A"cAeA fAeA| cAeA fedc | "D"Bcde "Bm"fefa| "E"edcB "A"A2 :|
+%%text Roaring Jelly  R-7
+%%vskip .2cm
+S:https://www.folktunefinder.com/tunes/168256
+S:http://roaringjelly.org/music/sets/Set04.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set04.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set04.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

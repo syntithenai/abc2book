@@ -1,0 +1,23 @@
+X:1
+T:John O'Groats Jig
+B:Kohlers Violin repository - slightly adapted
+C:John Bain, Wick
+Z:Nigel Gatherer <gatherer@argonet.co.uk> irtrad-l 2000-3-02
+M:6/8
+L:1/8
+O:Scottish
+R:jig
+K:Dm
+A/G/|FGA DFA|dfd ecA|Agf edc|=Bed c=BA|
+FGA DFA|dfd ecA|Bgf ed^c|dDD D2:|
+A|dfa afd|gbg ecA|dfa afd|=Bed c=BA|
+dfa afd|gbg ecA|Bgf ed^c|dDD D2:|
+S:https://www.folktunefinder.com/tunes/168596
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/JohnOGroatsJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

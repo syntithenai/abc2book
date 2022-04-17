@@ -1,0 +1,75 @@
+X:1
+% A: A-Area
+% B: B-Book
+C: Culebr\'on Timbal
+D: Territorio
+% G: G-Group
+% H: H-History
+% N: N-Notes
+% O: O-Origin
+% S: S-Source
+T:Historias de la zona del trapero
+% Z: Z-Transcription note
+M:4/4
+L:1/8
+Q:Swing
+K:C
+V:1 name="Alto"
+%%MIDI program 65
+V:2 name="Tenor 1"
+%%MIDI program 65
+V:3 name="Tenor 2"
+%%MIDI program 65
+[V:1] |: z2 AG- G4-    | G6 z2  | z2 AG- G4-    | G6 z2  :| 
+[V:2] |: z2 ED- D4-    | D4 z2  | z2 ED- D4-    | D4 z2  :|
+[V:3] |: z2 A,G,- G,4- | G,6 z2 | z2 A,G,- G,4- | G,6 z2 :|
+% Measure 9
+[V:1] Z41 | Z18 | Z8 || Z2 | z4 z E GA    | Z5 |
+[V:2] Z41 | Z18 | Z8 || Z2 | z4 z B, DE   | Z5 |
+[V:3] Z41 | Z18 | Z8 || Z2 | z4 z E, G,A, | Z5 |
+%
+[V:1] z4 c4-  | c3 d- dc (3(de)e | Z4 | (3zz(_E  (3=EGA   (3_B=Bc- c2- |
+[V:2] z4 A4-  | A3 B- BA (3(AB)B | Z4 | (3zz(B,  (3=CDE   (3G^GA- A2-  |
+[V:3] z4 E4-  | E3 F- FE (3(DE)E | Z4 | (3zz(^G, (3=A,B,C (3D_E=E- E2- |
+%
+[V:1] c2) (A/B/A/G/ A/B/)G- G2    | Z2 | z4 G4-   | G4 (G/A/G/E/ G)A        |
+[V:2] A2) (^F/G/F/E/ F/G/)E- E2   | Z2 | z4 E4-   | E4 (C/D/C/A,/ C)C       |
+[V:3] E2) (C/D/C/B,/ C/D/)A,- A,2 | Z2 | z4 A,4-  | A,4 (G,/A,/G,/E,/ G,)A, |
+%
+[V:1] Z2 | z8             |  z8   | Z2 |
+[V:2] Z2 | z4 z A, (3CD_E | D6 z2 | Z2 | 
+[V:3] Z2 | z8             |  z8   | Z2 | 
+%
+[V:1] z6 z d- | d(3(_e/d/c/ d)(c d)(=e c)A  | Z2 || Z5 ||
+[V:2] z6 z A- | A(3(_B/A/G/ A)(A G)(=B G)E | Z4 || Z5 ||
+[V:3] z6 z C- | C(3(_E/D/C/ D)(C D)(=E C)A, | Z2 || Z5 ||
+%
+[V:1] z8            | z8        | z8                  | z8    | z8        || Z17 || Z4 |
+[V:2] z4 z C (3EAF- | F4 {GF}E4 | {EFED} E(C _E)A- A4 | D4 D4 | (3EDE- E6 || Z17 || Z4 |
+[V:3] z8            | z8        | z8                  | z8    | z8        || Z17 || Z4 | 
+%
+[V:1] z6 z d- | d(3(_e/d/c/ d)(c d)(=e c)A  | Z4 |
+[V:2] z6 z A- | A(3(_B/A/G/ A)(A G)(=B G)E | Z4 |
+[V:3] z6 z C- | C(3(_E/D/C/ D)(C D)(=E C)A, | Z4 |
+%
+[V:1] z6 z d- | d(3(_e/d/c/ d)(c d)(=e c)A  |:
+[V:2] z6 z A- | A(3(_B/A/G/ A)(A G)(=B G)E |:
+[V:3] z6 z C- | C(3(_E/D/C/ D)(C D)(=E C)A, |: 
+%
+[V:1] z2 AG- G4-    | G6 z2  | z2 AG- G4-    | G6 z2  :| 
+[V:2] z2 ED- D4-    | D4 z2  | z2 ED- D4-    | D4 z2  :|
+[V:3] z2 A,G,- G,4- | G,6 z2 | z2 A,G,- G,4- | G,6 z2 :|
+%
+[V:1] E(D E2) A(G A2)       | A(A G)E z4     | _e8 | c2 z6 |]
+[V:2] E(D E2) A(G A2)       | A(A G)E z4     | A8  | A2 z6 |]
+[V:3] E,(D, E,2) A,(G, A,2) | A,(A, G,)E, z4 | ^F8 | E2 z6 |]
+S:https://www.folktunefinder.com/tunes/164447
+S:http://abcmr.sourceforge.net/historias.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

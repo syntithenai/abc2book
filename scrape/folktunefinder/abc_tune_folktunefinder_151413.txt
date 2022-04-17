@@ -1,0 +1,34 @@
+X:1
+T:Roaring Barmaid, The
+R:jig
+C:Anthony Sullivan
+N:This transcription is from the band recordings of Danu and Lunasa (see
+N:Discography).  Note that both groups mistakenly call the tune "The
+N:Butlers of Glen Avenue".  Danu records the tune one half step higher
+N:than notated here.
+D:Danu "Think before you think..."
+D:Lunasa "Otherworld"
+Z:Ken Laberteaux
+M:6/8
+L:1/8
+K:G
+T:Danu Version
+~G3 EGD|~G3 EGD|~G3 BGG|dGG  BdA|
+~G3 EGD|~G3 EGD|GAB deg|deg edB:|
+|:deg b3|bab deg|b3 bag|edB deg|
+b3 bab|agg bgg|agg egg|deg edB:|
+T:Lunasa Version
+GFG EGD|GFG EGD|DEG BGG|dGG  BAB|
+GFG EGD|GFG EGD|GAB deg|deg edB:|
+|:deg b2b-|bab deg|b2 b2 ag|edB deg|
+b2 b2 ab|agg bgg|agg egg|deg edB:|
+S:https://www.folktunefinder.com/tunes/151413
+S:http://www.geocities.com/klaberte/tunes/roaringbarmaid.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

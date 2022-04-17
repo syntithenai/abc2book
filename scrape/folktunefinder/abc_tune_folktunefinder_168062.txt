@@ -1,0 +1,24 @@
+X:1
+T:Joelle
+C:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:D
+dfa g2e | fdd ecA | dfa g2e | fbb age |
+dfa g2e | fdd ecA | GBd cAA | cfe d3 ::
+cBA cee | GFE GBd | cBA cde | fdd g2f |
+cBA cBA | GFE GBd | cBA GFD |1 E2E2 AB :|2 E6 ||
+dfa g2e | fdd ecA | dfa g2e | fbb age |
+dfa g2e | fdd ecA | GBd cAA | cfe d3 |]
+S:https://www.folktunefinder.com/tunes/168062
+S:http://music.gordfisch.net/tradmusic/pub/cache/Joelle_e80321.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

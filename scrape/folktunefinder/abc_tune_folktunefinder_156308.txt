@@ -1,0 +1,31 @@
+X:1
+T: Fairfield Fancy    % -----
+C: Trad.   %haha
+S: Square dance tape
+M: 2/4
+K:Am
+P:Intro
+ME2>.E2 .A2.A2 | .c2.c2 e4 | edef edcB | A2E2 {Ec}[E2c2a2] EE |
+P:Melody
+|: "Am"EAA^G A2 AB | c2e2 f2e2 | "G"DGGF G2 GA | B2d2 e2d2|
+"Am"EAA^G A2 AB | cBAc edce | "C"gage "Am"dcAc |1 ecdB A2 EE :|2ecdB A2 ee|
+|:   "Am"ea^gb a2 ab | c'aba c'aba | "G"dgfa g2 ga | bgag bgag |
+"Am"ea^gb a2 ab | c'aba c'aba | "C"gage "Am"dcAc |1 ecdB A2 ee :|2 ecdB A2 EE|
+P:Harmony
+L:1/4
+|: (A,C | EA) | (GD | B,G,) | (A, C | E A) | c/G/ A/E/- | E/D/ C :|
+|: A2-  | A z  | G2- | G z  |A2-   | A z  | c/G/ A/E/- | E/D/ C :|
+|: A z |  (A/c/ d/c/ | B) z | (G/B/ c/B/ | A) z | A c | e/e/ A | (E A) :|
+|: (Ac | ea) | (gd | BG) | (Ac | ea) | (ge | cA) :|
+S:https://www.folktunefinder.com/tunes/156308
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/mtunes2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/mtunes2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/abcm2ps-3.7.21/mtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

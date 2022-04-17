@@ -1,0 +1,28 @@
+X:135
+T: Out in the Ocean
+S: "Sully's Irish Music Book"
+Z: B.Black (arr.)
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D2B BAG|BdB ABA|GED G2A|ABA AGE|
+D2B BAG|BdB ABA|GED G2A|1 BGG GFE :|2\
+BGG GBd||
+ege edB|ege edB|d^cd def|gfe dBA|
+G2A B2d|ege dBA|GED G2A|1 BGG GBd :|2\
+BGG GFE||
+S:https://www.folktunefinder.com/tunes/152490
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

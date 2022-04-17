@@ -1,0 +1,22 @@
+X: 1
+T: Gates Of Derry, The
+M: 6/8
+L: 1/8
+R: jig
+K: A Major
+|: E |\ 
+ABc E2 c | d2 c B2 E | ABc EFE | F3 A2 E |
+ABc E2 c | d2 c B2 E | ABc E2 E | F3 A2 :|
+|: E |\ 
+ABc e2 c | f2 c e2 c | ABc e2 d | c3 e3 |
+f2 d Bcd | e2 c A2 E | ABc EFE | F3 A2 :|
+S:https://www.folktunefinder.com/tunes/160588
+S:http://www.thesession.org/tunes/display/8247
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

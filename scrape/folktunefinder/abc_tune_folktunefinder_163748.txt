@@ -1,0 +1,35 @@
+X:12
+T:Heather in Your Eye
+M:4/4
+L:1/8
+R:Reel
+C:Gris Sanderson
+Q:450
+N:This tune was written for the scordatura tuning A,DAd and I 
+N:recommend trying it out on this one cos you get some 
+N:interesting string-crossing on the repeated notes. The easiest 
+N:thing to do is to retune your fiddle, then learn it by ear. If you 
+N:prefer to read you can copy it out as if you were fingering the 
+N:bottom and top strings a tone higher and lower respectively. 
+N:Sounds confusing ehIt is! 
+K:Ddor
+A,2B,C ^CDDD|~E2EF G^GA2|~B2BBcABc|^cdd e=cc d2:|
+aAgf ^fddd|cdgd fddd|c2dB Agfd|GAc^G AdB=G| 
+Aagf ^fddd|cdgd fddg|~f2dc AGFD|CDD FCC D2||
+|:d2cc ecd2|cBAc BB~B2|AG^GA FED2|CDFD CB,A,2:|
+AA,GF ^FDDD|CDGD FDDD|C2DB, A,GFD|GAc^G A2BG|
+AA,GF ^FDDD|CDGD FDDD|C2DB, A,GFD|CDD FCC D2||
+|:A2Bc ^cddd|~e2ef g^ga2|B,2B,B, CA,B,C|^CDD E=CC D2:|
+aAgf ^fdd2|CDGD FCD2|c2dB Agfd|GAc^G A2B=G|
+AA,GF ^FDD2|cdgd fcdg|~f2dc AGFD|CDD FCC D2||
+S:https://www.folktunefinder.com/tunes/163748
+S:http://www.grissanderson.com/x12.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

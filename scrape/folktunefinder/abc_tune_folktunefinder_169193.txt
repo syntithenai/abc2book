@@ -1,0 +1,251 @@
+X: 1
+T: Kanon und Gigue f\"ur 3 Violinen mit Generalba\ss
+%%topmargin 1cm
+C: Johann Pachelbel (1653-1706)
+M: C
+L: 1/16
+K: D
+V: 1
+| z16 \
+| z16 \
+| f4 e4 d4 c4 \
+| B4 A4 B4 c4 \
+| d4 c4 B4 A4 \
+| G4 F4 G4 E4 \
+| D2F2 A2G2 F2D2 F2E2 \
+| D2B,2 D2A2 G2B2 A2G2 \
+| F2D2 E2c2 d2f2 a2A2 \
+| B2G2 A2F2 D2d2 Td3c \
+| dcdD CAEF DdcB cfab \
+| gfeg fedc BAGF EGFE \
+| DEFG AEAG FBAG AGFE \
+| DB,Bc dcBA GFEB ABAG \
+| F2f2 e4 z2d2 f4 \
+| b4 a4 b4 c'4 \
+| d'2d2 c4 z2B2 d4 \
+| d6 d2 d2g2 e2a2 \
+| af/g/ af/g/ a/A/B/c/ d/e/f/g/ fd/e/ fF/G/ A/B/A/G/ A/F/G/A/ \
+| GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fd/e/ fe/d/ e/c/d/e/ f/e/d/c/ dB/c/ dD/E/ F/G/F/E/ F/d/c/d/ \
+| Bd/c/ BA/G/ A/G/F/G/ A/B/c/d/ Bd/c/ dc/B/ c/d/e/d/ c/d/B/c/ \
+| d2z2 c2z2 B2z2 d2z2 \
+| D2z2 D2z2 D2z2 E2z2 \
+| z2A2 z2A2 z2F2 z2A2 \
+| z2G2 z2F2 z2G2 z2e2 \GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fFGF Eefe dFDB AA,G,A, \
+| B,BcB AA,G,A, B,BAB cCB,C \
+| Dded cCDC B,BAB cCFE \
+| Ddeg fFAf dgfg eAGA \
+| FAAA AAAA FFFF FFAA \
+| GGGd dddd ddBB AAec \
+| Afff eeee dddd aaaa \
+| bbbb aaaa bbbb c'ccc \
+| dD/E/FD Cc/d/ec BB,/C/DB, CA/G/FE \
+| DG/F/EG FD/E/FA GB/A/GF EA/G/FE \
+| Fd/c/dF AA/B/cA Fd/e/fd ff/e/dc \
+| BB/A/Bc df/e/df gd/c/BB AEAA \
+| A6 A2 D6 A2 \
+| G4 A4 G2D2 TD3C \
+| D2d2 c4 B4 A4 \
+| D3E F4 B4 E3E \
+| F3f fgfe d3d dedc \
+| B4 d4 d=cBc A3A \
+| A3a abag f3f fgfe \
+| d=cBc A3A G2d2 ^c3c \
+| d2 d4 c4 B4 A2- \
+| A2 G4 F2- F3E E4 \
+| F2 f4 e2 d2 d'4 =c'2 \
+| b4 d'2a2 b4 a4 \
+| a4 A3G F4 f3e \
+| d6 d2 d4 c4 \
+| d2D2 C2c2 B2B,2 A,2A2 \
+| G2g2 f2F2 E2B2 E2e2 \
+| f2F2 E2e2 d2D2 C2c2  \
+| B2b2 a2A2 G3e A2A2 \
+| A4 z4 z8 |]
+%
+V: 2
+| z16 \
+| z16 \
+| z16 \
+| z16 \
+| f4 e4 d4 c4 \
+| B4 A4 B4 c4 \
+| d4 c4 B4 A4 \
+| G4 F4 G4 E4 \
+| D2F2 A2G2 F2D2 F2E2 \
+| D2B,2 D2A2 G2B2 A2G2 \
+| F2D2 E2c2 d2f2 a2A2 \
+| B2G2 A2F2 D2d2 Td3c \
+| dcdD CAEF DdcB cfab \
+| gfeg fedc BAGF EGFE \
+| DEFG AEAG FBAG AGFE \
+| DB,Bc dcBA GFEB ABAG \
+| F2f2 e4 z2d2 f4 \
+| b4 a4 b4 c'4 \
+| d'2d2 c4 z2B2 d4 \
+| d6 d2 d2g2 e2a2 \
+| af/g/ af/g/ a/A/B/c/ d/e/f/g/ fd/e/ fF/G/ A/B/A/G/ A/F/G/A/ \
+| GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fd/e/ fe/d/ e/c/d/e/ f/e/d/c/ dB/c/ dD/E/ F/G/F/E/ F/d/c/d/ \
+| Bd/c/ BA/G/ A/G/F/G/ A/B/c/d/ Bd/c/ dc/B/ c/d/e/d/ c/d/B/c/ \
+| d2z2 c2z2 B2z2 d2z2 \
+| D2z2 D2z2 D2z2 E2z2 \
+| z2A2 z2A2 z2F2 z2A2 \
+| z2G2 z2F2 z2G2 z2e2 \GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fFGF Eefe dFDB AA,G,A, \
+| B,BcB AA,G,A, B,BAB cCB,C \
+| Dded cCDC B,BAB cCFE \
+| Ddeg fFAf dgfg eAGA \
+| FAAA AAAA FFFF FFAA \
+| GGGd dddd ddBB AAec \
+| Afff eeee dddd aaaa \
+| bbbb aaaa bbbb c'ccc \
+| dD/E/FD Cc/d/ec BB,/C/DB, CA/G/FE \
+| DG/F/EG FD/E/FA GB/A/GF EA/G/FE \
+| Fd/c/dF AA/B/cA Fd/e/fd ff/e/dc \
+| BB/A/Bc df/e/df gd/c/BB AEAA \
+| A6 A2 D6 A2 \
+| G4 A4 G2D2 TD3C \
+| D2d2 c4 B4 A4 \
+| D3E F4 B4 E3E \
+| F3f fgfe d3d dedc \
+| B4 d4 d=cBc A3A \
+| A3a abag f3f fgfe \
+| d=cBc A3A G2d2 ^c3c \
+| d2 d4 c4 B4 A2- \
+| A2 G4 F2- F3E E4 \
+| F2 f4 e2 d2 d'4 =c'2 \
+| b4 d'2a2 b4 a4 \
+| a4 A3G F4 f3e \
+| d6 d2 d4 c4 \
+| d2D2 C2c2 B2B,2 A,2A2 \
+| G2g2 f2F2 E2B2 E2e2 \
+| f4 z4 z8 |]
+%
+V: 3 % clef=alto middle=c
+| z16 \
+| z16 \
+| z16 \
+| z16 \
+| z16 \
+| z16 \
+| f4 e4 d4 c4 \
+| B4 A4 B4 c4 \
+| d4 c4 B4 A4 \
+| G4 F4 G4 E4 \
+| D2F2 A2G2 F2D2 F2E2 \
+| D2B,2 D2A2 G2B2 A2G2 \
+| F2D2 E2c2 d2f2 a2A2 \
+| B2G2 A2F2 D2d2 Td3c \
+| dcdD CAEF DdcB cfab \
+| gfeg fedc BAGF EGFE \
+| DEFG AEAG FBAG AGFE \
+| DB,Bc dcBA GFEB ABAG \
+| F2f2 e4 z2d2 f4 \
+| b4 a4 b4 c'4 \
+| d'2d2 c4 z2B2 d4 \
+| d6 d2 d2g2 e2a2 \
+| af/g/ af/g/ a/A/B/c/ d/e/f/g/ fd/e/ fF/G/ A/B/A/G/ A/F/G/A/ \
+| GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fd/e/ fe/d/ e/c/d/e/ f/e/d/c/ dB/c/ dD/E/ F/G/F/E/ F/d/c/d/ \
+| Bd/c/ BA/G/ A/G/F/G/ A/B/c/d/ Bd/c/ dc/B/ c/d/e/d/ c/d/B/c/ \
+| d2z2 c2z2 B2z2 d2z2 \
+| D2z2 D2z2 D2z2 E2z2 \
+| z2A2 z2A2 z2F2 z2A2 \
+| z2G2 z2F2 z2G2 z2e2 \GB/A/ GF/E/ F/E/D/E/ F/G/A/B/ GB/A/ Bc/d/ A/B/c/d/ e/f/g/a/ \
+| fFGF Eefe dFDB AA,G,A, \
+| B,BcB AA,G,A, B,BAB cCB,C \
+| Dded cCDC B,BAB cCFE \
+| Ddeg fFAf dgfg eAGA \
+| FAAA AAAA FFFF FFAA \
+| GGGd dddd ddBB AAec \
+| Afff eeee dddd aaaa \
+| bbbb aaaa bbbb c'ccc \
+| dD/E/FD Cc/d/ec BB,/C/DB, CA/G/FE \
+| DG/F/EG FD/E/FA GB/A/GF EA/G/FE \
+| Fd/c/dF AA/B/cA Fd/e/fd ff/e/dc \
+| BB/A/Bc df/e/df gd/c/BB AEAA \
+| A6 A2 D6 A2 \
+| G4 A4 G2D2 TD3C \
+| D2d2 c4 B4 A4 \
+| D3E F4 B4 E3E \
+| F3f fgfe d3d dedc \
+| B4 d4 d=cBc A3A \
+| A3a abag f3f fgfe \
+| d=cBc A3A G2d2 ^c3c \
+| d2 d4 c4 B4 A2- \
+| A2 G4 F2- F3E E4 \
+| F2 f4 e2 d2 d'4 =c'2 \
+| b4 d'2a2 b4 a4 \
+| a4 A3G F4 f3e \
+| d6 d2 d4 c4 \
+| d4 z4 z8 |]
+%
+V: 4 clef=bass middle=d
+| "D"d4 "A"A4 "Bm"B4 "F#m"F4 \
+| "G"G4 "D"D4 "Em"G4 "A7"A4 \
+| "D"d4 "..."A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 A4 B4 F4 \
+| G4 D4 G4 A4 \
+| d4 z4 z8 |]
+S:https://www.folktunefinder.com/tunes/169193
+S:http://trillian.mit.edu/~jc/music/abc/classical/Pachelbel_Johann/KanonUndGigue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

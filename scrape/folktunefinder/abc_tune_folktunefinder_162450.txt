@@ -1,0 +1,45 @@
+X: 1
+T: Green Mountain Petronella
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: GE |
+D2 G2 GF G2 | D2 B2 B3 d | c2 A2 ABcd | e2 d2 d^cdB |
+D2 G2 GFGE | D2 B2 B2 d2 | c2 cA DEFG | A2 G2 G2 :|
+|:B/c/d |
+g2 g2 f2 f2 | efge d2 d2 | edef g2 B2 | B2 A2 A2 Bd |
+g2 g2 f2 gf | e2 ge dBGd | e2 ef gedc | B2 A2 G2 :|
+K: Amaj
+|: A/G/F |
+E2 A2 AGAF | E2 c2 cABc | d2 dc Bcde | f2 e2 e4 |
+E2 A2 AGAF | E2 c2 cABc | dedc BAGA | B2 A2 A2 :|
+|: ce |
+a2 a2 g2 g2 | fgaf e4 | fefg afed | c2 B2 B2 c/d/e |
+a2 a2 g2 g2 | fgaf e4 | fefg afed | c2 A2 A2 :|
+K: Gmaj
+|: G>E |
+D2 G2 G>F G2 | D2 B2 B3 d | c2 A2 A>Bc>d | e2 d2 d>^cd>B |
+D2 G2 G>FG>E | D2 B2 B2 d2 | c2 c>A D>EF>G | A2 (3GAG G2 :|
+|:B/c/d |
+g2 g2 f2 f2 | e>fg>e d2 d2 | e>de>f g2 (3BcB | B2 A>^G A2 B>d |
+g2 (3gag f2 gf | e2 g>e d>BG>d | e2 ef g>ed>c | B2 A2 G2 :|
+K: Amaj
+|: A/G/F |
+E2 A2 A>GA>F | E2 c2 c>AB>c | d2 d>c B>cd>e | f2 e2 e4 |
+E2 A2 A>GA>F | E2 c2 c>AB>c | d>ed>c B>AG>A | B2 A2 A2 :|
+|: ce |
+a2 (3aba g2 (3gbg | f>ga>f e4 | f>ef>g a>fe>d | c2 B2 B2 c/d/e |
+a2 a2 g2 g2 | f>ga>f e2 c>e | (3fgf f>g a>fe>d | c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/162450
+S:http://www.thesession.org/tunes/display/4695
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 1
+T: GETTING UPSTAIRS
+S: MDT
+O: Headington
+P: A.(A2B2)4
+Q: 1/2=116
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+P: A
+|: ed | c2A2 E2A2 | GABc d2ed | c2A2 E2A2 |1 GABG A2 :|2 GABG A4 ||
+P: B
+|: c3d  e2A2 | c2d2 e2A2 | f3e  d2c2 | B2c2 d2ed |
+   c2A2 E2A2 | GABc d2ed | c2A2 E2A2 | GABG A4  :|
+S:https://www.folktunefinder.com/tunes/160863
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Getting_Upstairs_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

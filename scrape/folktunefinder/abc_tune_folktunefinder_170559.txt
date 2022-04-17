@@ -1,0 +1,29 @@
+X: 1
+T: Kreutz K\"onig
+O: Germany
+S: Handwritten MS.
+M: 3/4
+L: 1/8
+K: G
+%%indent 12cm
+"Intro"| "G"G6 | B6 | "D7"d2 dc BA | "G"G2 z4 ||
+|:"G"D2 B2 B2 | "D7" cd cB A2 | DA AA AA | "G"d2 d2 B2 \
+| "G"D2 B2 B2 | "Am"cd cB AG | "D7"Fe dc BA | "G"G2 G2 z2 :|
+K: C
+|:"C"EG c2 e2 | "G7" f3 d B2 | GB d2 a2 | "C"g3 e c2 \
+| "C"EG c2 e2 | "G7"f3 d B2 | ba gf ed | "C"c2 c2 z2 :|
+|:"G"G2 B2 d2 | "D7"d2 c2 c2 | "G"B2 d2 B2 | "D7"B2 A2 A2 \
+| "G"DB BA GF | "Am"Ec cB AG | "D7"F2 E2 F2 | "G"G2 G2 z2 :|
+K: C
+|:"C"G3 EAG | "G7"FA DE F2 | FA DE FD | "C"CD EF G2 \
+| "C"G3 EAG | "G7"FA DE F2 | GG A2 B2 | "C"c2 C2 z2 :|
+S:https://www.folktunefinder.com/tunes/170559
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kreutz_Koenig_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

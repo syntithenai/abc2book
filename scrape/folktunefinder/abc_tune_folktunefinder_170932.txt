@@ -1,0 +1,27 @@
+X: 3
+T: Lady Madelina Sinclair
+S: Dance Music of Scotland, John Thomas Surenne, 1852
+M: C
+L: 1/8
+R: Strathspey
+K: G Major
+|: e | 
+d<GB>G B/c/d e2 | d>G e/d/c/B/ A3 e | 
+d>GB>G B/c/d e2 | d>GB>A G3 :| 
+e/f/ | 
+g>de>d e/f/g f/g/a | g/f/e/d/ g>B e2 de/f/ |
+g>de>d (3efg (3fga | g/f/e/d/ e/f/g/d/ g2 de/f/ | 
+g>ef>d e>cd>B | c<AB<g A3 G | 
+B/c/d e2 B/c/d g2 | G<GB>A G3 ||
+S:https://www.folktunefinder.com/tunes/170932
+S:http://www.thesession.org/tunes/display/7585
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

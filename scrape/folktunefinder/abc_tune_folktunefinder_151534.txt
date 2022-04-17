@@ -1,0 +1,24 @@
+X:5
+T: Herr und Schildknecht
+N: Q0034B
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Konradsdorf b. Haynau 
+N: Grundton in der zweigestrichenen Oktave
+R: Ballade, Tod, Unfall, Herr und Knecht
+M: 2/4
+L: 1/16
+K: C
+G,2 | C4G2F2 | E6F2 | E4D4 | C4z2
+E2 | E2E2G2E2 | D2E2F2
+D2 | DDEEFED2 | C2D2E2
+D2 | CCGFEEF2 | E4D4 | C4z2
+S:https://www.folktunefinder.com/tunes/151534
+% Rhythm Ballade, tod, unfall, herr und knecht
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X: 1
+T: Hare In The Corn, The
+M: 12/8
+L: 1/8
+R: slide
+K: Gmaj
+|: A | 
+B2 B A2 G BdB AGA | B2 e d2 B A3 AGA
+B3 AGA BdB AGA | B2 e d2 B G3 G2 :|
+|: d |
+e2 e e2 d e2 f g3 | B2 c d2 B A3 A2 d |
+e3 e2 d e2 f g2 B | B2 e d2 B G3 G2 :|
+|: A |
+B2 e d2 B BAB d2 B | BAB d2 B A3 AGA |
+B2 e d2 B BAB d2 B |1 BAB d2 B G3 G2 :|
+2 BAB d2 B G3 GB/c/d ||
+|: e3 e2 d e2 f g3 | BAB d2 B A3 ABd |
+efe edB e2 f g2 B |1 BAB d2 B G3 GBd :|
+2 BAB d2 B G3 ||
+|: d2 c | 
+BcB AGA BcB AGA | B2 e dcB A3 AGA |
+B3 AGA BcB AGA | Bce dBA G3 :|
+2 Bce dBA GB/c/d g2 ||
+|: d |
+efe edB e2 f g3 | BAB edB A3 ABd |
+e3 edB e2 f g2 B | BAB dBA G3 G2 :|
+|: A | 
+B2 B A2 G BdB AGA | B2 e d2 B ABA A2 c
+B3 AGA B/c/dB AGA | B2 e d2 B G3 G2 :|
+|: d |
+e2 e edB e2 f g3 |1 BcB d2 B A3 AB/c/d |
+e3 e2 d e2 f gec | BAB edB G3 G2 :|
+2 B2 c d2 B A3 AGA |
+BcB AGA B/c/dB AGA | B2 e d2 B G3 G2 ||
+S:https://www.folktunefinder.com/tunes/163338
+S:http://www.thesession.org/tunes/display/4579
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

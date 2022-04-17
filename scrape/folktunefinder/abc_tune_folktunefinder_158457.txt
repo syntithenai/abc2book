@@ -1,0 +1,33 @@
+X:1403
+T:Flop-eared mule
+C:anon.
+O:USA
+R:Reel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/usa/flop-eared-mule.abc
+M:2/4
+L:1/16
+Q:1/4=132
+K:D
+"D"f2ff d2dd|"D"A2AA F2FF|"A7"E2G2 F2E2|\
+[1"D"(DEFG) A4:|[2"D"D2F2 D4|:"A"({=c}[^c2e2])[ce][ce] ({=c}v[^c2e2])[ce][ce]|\
+"A"({=c}[^c2e2])[ce][ce] ({=c}[^c2e2])[ce][ce]|"E7"[B2e2][d2e2] [c2e2][B2e2]|\
+[1"A"[A2e2][c2e2][e4e4]:|[2"A""_Rep. ad lib"[A2e2][c2e2] [A4e4]||
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/158457
+S:http://abc.musicaviva.com/tunes/usa/flop-eared-mule.abc
+S:http://abc.musicaviva.com/tunes/usa/flop-eared-mule.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/usa/flop-eared-mule.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/usa/flop-eared-mule.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

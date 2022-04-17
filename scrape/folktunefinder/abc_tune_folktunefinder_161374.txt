@@ -1,0 +1,42 @@
+X:1
+T:Glockenpolka Nr.6
+C:traditionell
+R:polka
+A:Sand in Taufers, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: in G (1.  4. teil ), D (2. teil), C (trio),  erster ton g'
+N:im buch s. 292, nr. 177
+N:im buch einstimmig, trio zweistimmig
+S:tonband-aufnahme B-353(9) 19/A06, vom 29.11.1940
+S:ausfuehrende: Sander Boehmische (Sechser Musik)
+S:besetzung: klarinette, fluegelhorn, tenorhorn, 2 posaunen, bass
+%%endtext
+Z:noten-transcription: Robert Schwaerzer
+Z:abc transcription: Simon Wascher
+Q:1/4=96 %im buch
+M:2/4
+L:1/8
+K:C %Transposed from G
+P:A
+ee G>e | ff A>G | (Gg) (Gf) | (Ge) e/d/c/d/ |\
+ee G>e | ff A>G | (Gg) (BB) | cecz :|
+P:B
+K:C %Transposed from D
+|:\
+G e2 G | F d2 e | fG AB | c/d/e/c/ G2 |\
+G e2 G | F d2 e | fG AB | cc/c/ cc :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/161374
+S:http://simonwascher.info/TradArchiv_polka/glockenpolka_Nr.6.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,48 @@
+X:1
+T: Hallelujah : BASS
+Z: Contributed 2009-01-31 12:54:54 by ming tsang tsang94@rogers.com
+K:
+% %%MIDI program 1 0
+%%measurenb  0
+%%measurebox  1
+M:4/4
+L:1/4
+Q:1/4=120
+V:bb clef=bass name="Bass" sname="B"
+K:G
+    z4 | z4 | z4 | z2 z B,,/>D,/ |
+    G,2 D,2- | D,4- | D,2 z B,,/>D,/ |
+    G,2 D, B,,/>C,/ | C,2 D,2- | D,4 ||
+    D,4 | z4 | z4 |
+    z4 | z4 | z4 |
+    z4 | z4 | z4 | z4 ||
+[K:Ab] E, E, E, C, | A, A, G,2- | G,3 z |
+    F, F, E, A, | G, F, E, z | E, E, E, C, |
+    A, A, A,/ z/ A,/>B,/ | C2  B,2- |
+    B,2 z A,/>F,/ | F,2 E,2- | E,4 |
+    z4 | z4 | z4 ||
+[K:Bb] [Q:1/4=102] B, A, G, F, | E, E, D,2 | E, E, D, B,,|
+    C, C, F,2 | B, A, G, F, | E, E, D,/ z/ B,/>C/ |
+    D4 | C3 z | z4 |
+    z2 z B,/G,/ | (G,3 F,) || [K:C] [Q:1/4=108] G,4- | G,4 |
+    z4 | z4 || G, G, G, E, | C C B,2 |
+    A, A, G, C | B, A, G, z | G, G, G, E, |
+    C C C/ z/ C/>D/ | C2 B, C/>A,/ | A,2 G,2 |
+    z4 | z4 || [K:Db] z D,/E,/ F, A, |
+    D> A, A, z | G, G, F, D, | E, E, A, z |
+    D, D, D, D, | D, D, D,/ z/ F,/>A,/ |
+    D4 | A,2 z F,/>A,/ | D4 |
+    A,2 z F,/>A,/ | D4 | A,2 z2 |
+    z2 B, D | D4 | D4 | z4 ||
+S:https://www.folktunefinder.com/tunes/162923
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HallelujahBass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Key G
+% Key C
+% Key A-sharp
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

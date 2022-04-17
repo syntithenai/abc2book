@@ -1,0 +1,40 @@
+X: 1
+T:Down the Jubilee
+M:6/8
+C:
+S:Chingford MM
+N:based on Ashling
+A:Chingford
+O:English
+R:Jig
+%P:A.A.(AB)$^7$.A
+P:A.A.(AB)7.A
+L:1/8
+K:G
+I:speed 300
+P:A
+|:\
+G2 B AcA|B2 d cec|1 dgf edc|BAG FED:|2 dgf ed^c|d3-d3||\
+P:B
+e2 c ABA|d2 B GBG|cde EFG|ABG FED|\
+W:hold ad nauseum until pint hushed
+M:2/4
+L:1/8
+BA G2|cB A2|dc B2|ef g2-|g4|\
+M:6/8
+dcB AGF|GAG G3|BAG cBA|dcB efg|dcB AGF|GAG G3||
+S:https://www.folktunefinder.com/tunes/154234
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Down_the_Jubilee_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/do/Down_the_Jubilee_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

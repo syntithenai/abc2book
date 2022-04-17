@@ -1,0 +1,27 @@
+X:1
+T:Kermislief
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:ABB
+L:1/8
+M:3/4
+K:F
+P:Voorspel
+c>A | "F" F2 F2 A>F | C2 C2 F>A | "C7"c2 B2 E2 | "F" F4 |]
+P:A
+c>A | "F" F2 F2 A>F | C2 C2 F>F | "C" E2 E2 G2 | B4 B>G | E2 E2 G>E | "C7" C2 D2 E2 | "F" F2 F2 A2 | c4 fe |
+"Bb" d2 f2 f2 | f4 ed | "F" c2 A2 A2 | A4 dc | "C" B3 G E2 | "C7"C2 D2 E2 | "F" F2 A2 c2 | c4 fe |
+"Bb" d2 f2 f2 | f4 ed | "F" c2 A2 A2 | A4 dc | "C" B3 G E2 | "C7"C2 D2 E2 | "F" F2 F2 A2 | F4 |]
+P:B
+c>d || "F" c2 c>d c>d | c2 A2 c>f | "C"e2 c2 c>g |"F"f2 c2 c>d | c2 c>d c>d | c2 A2 c>f | "C7" e2 c2 g2 |1 "F"f4 c>d :|2 "F"f4 |]
+S:https://www.folktunefinder.com/tunes/169541
+S:http://user.online.be/volksdans/abc/Kermislief.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kermislief.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:8289
+T:Kitty Magee
+C:anon.
+O:Ireland
+R:Jig
+Z:Transcribed by A. LEE WORMAN
+F:http://abc.musicaviva.com/tunes/ireland/ki/kitty-magee/kitty-magee-gnchrd.abc
+%Posted March 6th 2002 at abcusers by Eric Forgeot as an example of AbcMus' auto-harmonisation function.
+M:6/8
+L:1/8
+K:G
+d|"D"d2 A "D"AFA|"D"d3 "C"efg|"D"f2 d "Am"e2 d|"Am"c2 A "Am"ABc|
+"D"d2 A "D"AFA|"D"d3 "C"efg|"D"f2 d "Am"e2 c|"D"d>ed "D"d2:|
+||A|"D"d2 f "D"a2 f|"Am"e2 f "G"g3|"D"f2 d "Am"e2 d|"Am"c2 A
+"D"A3|
+"D"aba "G"g2 f|"Am"e2 f "G"g3|"D"f2 d "Am"e2 c|"D"d>ed "D"d2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170184
+S:http://abc.musicaviva.com/tunes/ireland/ki/kitty-magee/kitty-magee-gnchrd.abc
+S:http://abc.musicaviva.com/tunes/ireland/ki/kitty-magee/kitty-magee-gnchrd.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/ki/kitty-magee/kitty-magee-gnchrd.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

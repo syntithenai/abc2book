@@ -1,0 +1,29 @@
+X: 1
+T:Hewlett
+T:Planxty Hewlett
+M:3/4
+L:1/8
+Q:160
+C:Turlough O'Carolan
+K:D
+AF \
+|: "D"D2 DE FG | "A"AB c2 A2 | "Bm"d2 f2 fg | "G"fe d3B |
+   "D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "A"D2 |[1 "D"D4 AF :|[2 "D"D6 ||
+|: "D"A2 F2 AB | "(Dm7)"A2 F2 AB | "(D6)"A2 d2 d2 | "Bm"dc BA GF |
+   "Em"G2 E2 GA | G2 E2 EF | "A"GF GB AG | "D"AF D3E |
+   "D"FE F2 G2 | "A"AB c2 A2 | "Bm"fe fg ag | "G"fe d3B |
+   "D"A2 F2 F2 | "G"G3B AG | "D"AF D2 "A"E2 |[1 "D"D6 :|[2 "D"D4 AF |]
+N:The Waltz Book, pg 28 - abc by Peter Ostapenko 3/16/2007
+N:D Major
+% another version at
+% http://www.blackflute.com/music/tunes/waltzes/hewlett.html 3/13/2007
+S:https://www.folktunefinder.com/tunes/164017
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/Hewlett.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

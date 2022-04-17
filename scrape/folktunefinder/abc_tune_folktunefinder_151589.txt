@@ -1,0 +1,23 @@
+X:60
+T: Die Bluthochzeit
+N: Q0046A
+O: Mitteleuropa, Deutschland (BRD) , Rheinprovinz, Siebengebirge
+R: Ballade, Entfuehrung, Mord, Vergeltung
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G3A_B2A2G2A2 | _B4c4d4z2
+d2 | d2c2c2c2c2_B2A2G2 | c2_B2A2G2A6
+d2 | =f2_e2d2^c2d6d2 | d4c2_B2A6
+d2 | d2c2c2_B2A4A2d2 | _B4A2A2G4
+S:https://www.folktunefinder.com/tunes/151589
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, entfuehrung, mord, vergeltung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

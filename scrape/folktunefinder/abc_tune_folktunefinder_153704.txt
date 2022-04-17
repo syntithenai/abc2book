@@ -1,0 +1,42 @@
+X:1
+T:Doei vasuffna Bauern
+C:traditionell
+R:Zwiefach
+A:aus der Gegend um Ansbach, Bayern, Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer Drehleier", Barbara Behringer (anm: verh. Grimm), Der Verlag mit der  Blume, 4.Auflage, Nuernberg 1988
+N:dort ganz in C, einstimmig, Seite 68
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2 3/4
+L:1/4
+K:C
+G |\
+c d | e f | g>g g | g2 a |
+g f | f d |f>e e | e2 g |
+f d | e2 g | f d | e2 G |
+ce | g2 | g2 | f d g |
+e2 z2 |]
+W:
+W:Wenn doei vasuffna Bauern niat warn,
+W:wer haett denn nou den Mist af da Karrn,
+W:doei Lumpn doei, doei Lumpn doei,
+W:vasaffn all ihr Kalber und Koeih.
+%%vskip
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153704
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/doei_vasuffna_bauern.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

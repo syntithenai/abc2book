@@ -1,0 +1,40 @@
+X:1
+T:Kikeriki(55)
+C:traditionell
+R:volkstanz
+A:Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"(1.) Spielheft fuer Okarina", Volker Derschmidt, Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d>d dd | ed Bd | g>g gg | f3z |
+d>d dd | ed cd | a>a aa | g3z ||
+|:\
+e2 a2 | d2 g2 | f>e df | g/f/g/a/ b2 |
+e2 a2 | d2 g2 | f>e df | gg g2 :|
+K:C
+|:\
+G>G GG | AG EG | c>c cc | B3z |
+G>G GG | AG FG | d>d dd | c3z ||
+|:\
+A2 d2 | G2 c2 | B>A GB | c/B/c/d/ e2 |
+A2 d2 | G2 c2 | B>A GB | cc c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169747
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kikeriki(55).abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

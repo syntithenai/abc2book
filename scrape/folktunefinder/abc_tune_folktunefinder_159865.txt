@@ -1,0 +1,40 @@
+X:1
+T:Galopp
+R:Galopp
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schlchtern 1989
+N:dort in G (1.  2.teil) und C (3.teil), einstimmig mit harmonie-buchstaben, Seite 247 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+(3BcB (3ABA | G2 zD | FD FA | GB d2 |
+(3BcB (3ABA | G2 zD | FD FA | G2 z2 :|
+|:\
+BD BD | Bc d2 | AD AD | AB c2 |
+BD BD | Bc d2 | ed cA | G2 zG :|
+K:C
+|:\
+c>B cA | G3 E | GF ED | CE G G |
+c>B cA | G3 E | GF ED |1  C2 zG :|\
+                      [2 C2z |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/159865
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_galopp/galopp.(3BcB(3ABAG2zD.abc
+% Rhythm Galopp
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

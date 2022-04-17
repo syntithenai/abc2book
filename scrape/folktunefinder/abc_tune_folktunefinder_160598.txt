@@ -1,0 +1,30 @@
+X: 352
+T:The Gathering of the Clans
+M:C
+L:1/8
+B:O'Neill's 352
+N:"Boldly."
+N:"collected by F. O'Neill"
+N:Ornament (~) is a mordent.
+Z:Transcribed by Chris Falt, cfalt@trytel.com
+F:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0352_cf.abc 2002-06-04 12:02:08 UT
+K:G
+GA | B3d cBAG | E>D ((3EFG) A2Bd | (ef/2g/2)dB ({d}c)BAG | (Bd)dd d2GA |
+B3d cBAG | E>D ((3EFG) A2Bd | (ef/2g/2)dB ({d}c)BAG | EGG>A G2 ||
+(~BA) | G>A Bc d2de | d>B AG g2ef | gf e/2f/2g/2a/2 gfed | Bdef g2((3def) |
+gfed B2((3gfe) | dBAG A2Bd | (ef/2g/2) dB ({d}c)BAG | EGG>A G2 ||
+S:https://www.folktunefinder.com/tunes/160598
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0352_cf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/GatheringOfTheClans.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/GatheringOfTheClans.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/GatheringOfTheClans.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

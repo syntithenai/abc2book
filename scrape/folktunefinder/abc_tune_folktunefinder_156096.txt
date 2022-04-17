@@ -1,0 +1,28 @@
+X:0950
+T:"The End Of The Day"  (jig)     0950
+C:after Sg't J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+A|:B3/2A/2B G2D|G3/2A/2G GBd|cBA GFG|Ade dcA|
+B3/2A/2B G2D|GAG GBd|gfe dcB|AFA cBA:|
+|:B2d ded|dBd gdc|B2d ded|ece afd|
+B2d ded|ded def|gfe dcB|AFA cBA:|
+|:c|(d3/2e/2d/2c/2) dec|dBG GAB|(c3/2d/2c/2B/2) cdB|cAF FGA|
+B3c3|dgg gab|^fge dec|BGG G2:|
+S:https://www.folktunefinder.com/tunes/156096
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0950-EndDay.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/0950-EndDay.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0950-EndDay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

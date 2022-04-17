@@ -1,0 +1,22 @@
+X: 3
+P: Od Yishoma #1
+C: S.Carlebach
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: Klez Camp 1998
+M: 2/4
+L: 1/8
+K: Dm
+|: "Dm"D2 D2 | A,D2D | F2 F>F | DF3 \
+| "Gm"G2 G2 | DG2B |1 "A7"AG FG | "Dm"A4 :|2 "A7"AG FE | "Dm"D4 |]
+|: "F"AB cA | dc2B | "D7"AB cA | "Gm"B2-B2 \
+| GA BG | "C7"cB2B |1 AG FG | "F"A4 :|2 "A7"AG FE | "Dm"D4 |]
+S:https://www.folktunefinder.com/tunes/170301
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR15_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

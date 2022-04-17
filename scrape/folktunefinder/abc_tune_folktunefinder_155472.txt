@@ -1,0 +1,28 @@
+X:80
+T: Eireann Go Brach
+S: "Johnny O'Leary of Sliabh Luachra" (#2)
+Z: B.Black
+Q: 300
+L: 1/8
+M: 6/8
+R: jig
+K: A
+e2d|: cAA BAA|aga e z d|cAA eAA|Bcd Bed|
+c/d/cA BAA|aga e/f/ed|c/d/ec BAB|1 cAG Aed :|2\
+cAA A2B||
+cBc ecA|dAd a3|cBc ecA|dcd B/c/BB|
+cBc ecA|dBd daa|c/d/ec BAB|1 cAA A/B/AB :|2\
+cAA Aed||
+S:https://www.folktunefinder.com/tunes/155472
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/e.abc
+S:http://www2.redhawk.org:8080/irish/zouki/e.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/e.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

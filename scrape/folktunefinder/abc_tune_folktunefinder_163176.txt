@@ -1,0 +1,31 @@
+X:1
+T:Hanter dro : A
+E:12
+Z:Roger Ngaret (94-95)
+R:hanterdro
+C:Trad.
+A:Bretagne
+S:
+Q:1/4=170
+M:4/4
+K:C
+|
+M:2/4
+L:1/16
+||
+"Am"A4 B2c2 A4 "G"G4 | "Am"A8 | A4 B2c2 "C"e4 "G"d4 | "F"c4 "Em"B4 | \
+"Am"A4 B2c2 A4 "G"G4 | "Am"A8 | A4 B2c2 "C"e4 "G"d4 | "Em"B8 ::\
+"Am"A4 B2c2 A4 e4 | "C"e8 | "D"d4 c2B2 "F"A4 B2c2 | "D"A4 "Em"G4 | \
+"Am"A4 B2c2 "C"e4 "G"d4 | "F"c4 "Em"B4 | "Am"A4 B2c2 "G"d4 "Em"B4 | "Am"A8 :|
+S:https://www.folktunefinder.com/tunes/163176
+S:http://termen.free.fr/danses/vannetais/HanterdroA.abc
+% Rhythm Hanterdro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

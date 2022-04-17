@@ -1,0 +1,25 @@
+X:13
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q2072L
+O: Osteuropa, UdSSR, Ukraine
+N: Ukrainische Fassung der Ballade. Vorsaenger - Chor.
+N: Taktarten 3/4 4/4 5/4 6/4 vorgezeichnet. In FREI geaendert.
+N: Phrasen - Einteilung und Tonart unklar.
+R: Ballade, Entfuehrung, Adelige als Dienstmagd, Rueckkehr
+M: none
+L: 1/8
+K: A
+AAA=F | =FA=c3_B
+A2e2e2=ge | =f2e2d2A2dB
+=c2_BA=g2g2 | AB=c2d2 | A4z2
+S:https://www.folktunefinder.com/tunes/152045
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, entfuehrung, adelige als dienstmagd, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 3
+T:Rambling Pitchfork
+M:6/8
+L:1/8
+R:Jig
+K:D
+E|~F3 AFF|dFF AFD|GFG ABc|ded cAG|FEF AFF|dFF AFD|GFG BAB|AFD D2  :||
+A|dcd efd|ecA AFA|dcd efg| (3fgaf gfe|dcd ~f3|ecA AGF|GFG BAB|AFD D2 :||
+% Output from ABC2Win  Version 2.1 h on 06/05/99
+S:https://www.folktunefinder.com/tunes/167670
+S:http://www.comhaltas.interweb.ie/media/abc/set5.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

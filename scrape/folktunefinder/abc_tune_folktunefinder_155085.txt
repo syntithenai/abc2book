@@ -1,0 +1,27 @@
+X:1
+T:Dusty Bob's Jig Counterpoint
+C:copyright 1998 Jim Thompson
+N:To be played with ``Dusty Bob's Jig''
+R:Jig
+E:20
+M:6/8
+K:G
+|:d'c'b d'3|c'ba c'3|gab abc'|bc'd' d'3|
+d'c'b d'3|c'ba c'3|gab fga|bag g3:|
+d'c'b b3|c'ba a3|gab c'd'e'|d'c'b a3|
+d'c'b b3|c'ba a3|d'c'b c'ba|bag g3|
+d'c'b b3|aba a3|gab c'd'e'|d'c'b a3|
+bag g3|c'ba a3|fde fga|bag g3|]
+\bigskip
+S:https://www.folktunefinder.com/tunes/155085
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/dusty-counterpoint.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T: the Dusty Miller
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|:"G"B>cd    BAG | "D"FAA "G"BAG | "G"B>cd BAG | "(D)"DGG "G"BAG :| "G"B<dd   gfg | "D"aAA "G"BAG |
+| "G"B<dd "D"gef | "G"gGG    BAG ||"G"B<dd gfg |  "D"aAA  "G"BAG  | "G"Bdg "D"fga | "G"gag    dBG |]
+S:https://www.folktunefinder.com/tunes/155093
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/DustyMillerJ_G.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/j16/DustyMillerJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

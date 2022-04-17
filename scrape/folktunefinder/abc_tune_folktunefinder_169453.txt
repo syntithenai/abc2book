@@ -1,0 +1,25 @@
+X:1
+T:Kegelaar
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:A (BC)x4 A
+L:1/8
+M:6/8
+K:C
+P:A
+G | "C"c2 G c2 G | cde "F"fed | "C"c2 G c2 G | cde "G7"d2 G | "C"c2 G "B"c2 G | "Bb"cde "A"f3 | "G"efe ded | "C"cGE C3 :|]
+P:B
+"C"c3 "G7"B3 | "C"cGE C3 | "G7"G^FG ^GAB | "C"cGE C3 | "G"G3 B3 | d3 B3 | "D"c3 A3 | "G"G3 z3 :|]
+P:C
+"C"e2 e e2 e | ede "G"fed | "C"e2 e e2 e | ede "F"f3 | "C"e2 e e2 e | ede "G"f3 | "C"efe "G"ded | "C"cGE C3 :|]
+S:https://www.folktunefinder.com/tunes/169453
+S:http://user.online.be/volksdans/abc/Kegelaar.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kegelaar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

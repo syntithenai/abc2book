@@ -1,0 +1,24 @@
+X:1107
+T:"Johnny The Jumper"   (jig)     1107
+C:after Sgt. J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:C
+(g/2f/2)|:eAA cBA|eAA ^f^ga|eAA c2e|dBG Bcd|
+eAA cBA|eAA B2A|GBG g^fg|dBG Bcd:|
+|:cBA a^ga|cBA Bcd|cBA g^fg|dBG Bcd|
+cBA a^ga|cBA B2A|GBG g^fg|dBG Bcd:|
+S:https://www.folktunefinder.com/tunes/168550
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1107-JohnnyJumper.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1107-JohnnyJumper.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

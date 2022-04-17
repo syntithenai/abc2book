@@ -1,0 +1,30 @@
+X: 14
+T:The Kingston Hornpipe
+C:Traditional
+M:4/4
+L:1/8
+K:G
+|: (3DEF|G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2|
+ (3ege c3/2e/2 d3/2B/2 G3/2B/2|c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2G/2 F3/2A/2 d3/2c/2 B3/2A/2|
+G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2| (3ege c3/2e/2 d3/2B/2 G3/2B/2|
+c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2E/2 F3/2D/2 G2:|
+|: (3AB^c|d3/2^c/2 d3/2f/2 a3/2f/2 d3/2f/2|
+a3/2b/2 c'3/2b/2 a3/2g/2 f3/2e/2|d3/2e/2 f3/2g/2 a3/2b/2 c'3/2b/2|
+a3/2g/2 f3/2e/2  (3ded  (3cBA|
+G3/2F/2 G3/2B/2 d3/2B/2 g3/2f/2| (3ege c3/2e/2 d3/2B/2 G3/2B/2|
+c3/2B/2 A3/2c/2 B3/2A/2 G3/2B/2|
+A3/2E/2 F3/2D/2 G2:|
+S:https://www.folktunefinder.com/tunes/170028
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/KingstonHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

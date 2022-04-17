@@ -1,0 +1,25 @@
+X:24
+T: Das Schwabentoechterlein
+N: Q0073B
+O: Osteuropa, UdSSR, Ukraine, Bukowina, Alt - Fratautz
+R: Ballade, Weglaufen, Schwangerschaft, Rueckkehr
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2GGG2 | G2D2D2
+D2 | E2E2G2E2 | E4D2
+D2 | c2c2c2D2 | B2B2B2
+B2 | A2A2cBA2 | e4d2
+D2 | c2c2c2D2 | B2B2B2
+B2 | A2A2cBA2 | A4G2
+S:https://www.folktunefinder.com/tunes/152056
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, weglaufen, schwangerschaft, rueckkehr
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

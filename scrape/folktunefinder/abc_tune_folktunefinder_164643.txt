@@ -1,0 +1,22 @@
+X: 2
+T:Home Ruler
+M:4/4
+L:1/8
+Q:125
+R:Hornpipe
+K:D
+AF|D2FA DAFA|dfed  B2dB|A2AB  AFDE|(3FED ED B,DA,B,|D2FA DAFA|dfed B2dB|
+A2AB AFDE|F2D2 D2 :|| 
+dB|Addc d3 f|afbf afed|efed BAFA|fded BdA2|Addc d3 f|afbf afed|efed BAdB
+|AFEF  D2:||
+% Output from ABC2Win  Version 2.1 h on 06/05/99
+S:https://www.folktunefinder.com/tunes/164643
+S:http://www.comhaltas.interweb.ie/media/abc/set3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

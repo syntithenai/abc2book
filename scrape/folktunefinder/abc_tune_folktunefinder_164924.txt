@@ -1,0 +1,23 @@
+X: 1
+T: Hot Tap, The
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+M:7/8
+dc|:BAF AF EF|AEF AB dc|BAF A2 AF|Adf e2 dc|
+BAF AF EF|AEF AB de|fag fe dc|1 Bdf e2 dc:|2 Bdf e2 de||
+faa bf af|gfe dB AB|dfd gd fd|edB A2 Bd|faf bf af|
+^gfe d2 cB|def ed BA|def ed BA|def ed BA|def e2 dc|
+S:https://www.folktunefinder.com/tunes/164924
+S:http://www.thesession.org/tunes/display/6187
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

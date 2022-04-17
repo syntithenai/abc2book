@@ -1,0 +1,21 @@
+X: 1
+T: Jamie Allen
+M: 4/4
+L: 1/4
+Z: John Chambers <jc@trillian.mit.edu>
+K: G
+|: G/A/ || "G"BG GA | "Em"B2 GA/B/ | "Am"cA AB | "D7"c2 BA \
+| "G"Gg "C"ge | "G"d2 B>c | "D7"dd  c/B/A | "G"G3 :|
+|:B/A/ || "G"Gg g>f | "Em"ed cB | "Am"Aa a>g | "D7"fd ef \
+| "C"g>a ge | "G"d2 B>c | "D7"dd c/B/A | "G"G3 :|
+S:https://www.folktunefinder.com/tunes/167313
+S:http://trillian.mit.edu/~jc/music/book/500/JamieAllen.abc
+S:http://trillian.mit.edu/~jc/music/book/500/JamieAllen_G4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

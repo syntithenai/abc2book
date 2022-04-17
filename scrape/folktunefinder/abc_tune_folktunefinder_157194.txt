@@ -1,0 +1,27 @@
+X: 26
+T: Temperance Reel
+I: Temperance ReelR-10Greel
+M: C|
+R: reel
+K: G
+(3DEF|:\
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA| "D"BGAF GFED|
+"G"G2GF GABc| dBge dBAc| "Em"BEED EFGA|1 "D"BdAF "G"G2(3DEF :|2 "D"BdAF "G"G2|]
+|:\
+B2| "Em"Beed e3f| geaf gfed| "D"Bdde d3e| geaf gfed|
+    "Em"Beed e3f| geaf gfed| BEED EFGA |1 "D"BdAF "G"G2 :|2"D"BGAF "G"GFED|]
+%%text Roaring Jelly  R-10
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/157194
+S:http://roaringjelly.org/music/sets/Set26.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set26.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set26.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:70
+T: Nachtigall als Warnerin
+N: Q0137E
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Nassau
+N: Zweistimmig notiert, Unterstimme kodiert.
+R: Ballade, Allegorie; lyrisch ()
+M: 3/4
+L: 1/8
+K: C
+G2 | E3EE2 | G4G2 | c4c2 | G4
+c2 | A2A2c2 | B4d2 | d6 | c4
+G2 | e2d2c2 | e2d2c2 | B4A2 | A4
+A2 | B4B2 | B4d2 | d6 | c4
+S:https://www.folktunefinder.com/tunes/151992
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, allegorie; lyrisch ()
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

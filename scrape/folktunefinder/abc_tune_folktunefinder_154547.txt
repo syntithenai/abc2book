@@ -1,0 +1,26 @@
+X:50
+T:Slip Jig
+% Nottingham Music Database
+P:AAB
+S:Anon
+M:9/8
+K:D
+P:A
+A|"D"F2A ABA "G"G3|"Em"G2e "E7"e2d "A7"cBA|"D"F2A ABA "G"G3|\
+"D"A2d "A7"d2A "D"FED:|
+P:B
+"D"faf f2d f2a|"G"b2e "E7"e2d "A7"cBA|"D"faf f2d f2a|"D"A2d "A7"d2A "D"FED|
+"D"faf f2d f2a|"G"b2e "E7"e2d "A7"cBA|"D"faf "A7"efe "D"d3|\
+"D"A2d "A7"d2A "D"FED||
+S:https://www.folktunefinder.com/tunes/154547
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/slip.abc
+S:http://www2.redhawk.org:8080/irish/nmd/slip.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/slip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:1
+T:La Grand'Bete
+C:Gilles Chabenat
+R:schottische
+M:2/4
+L:1/16
+K:F
+DEFG A2A2 | GABG A4 | FAGF EGFE | DEFG A4 | DEFG A2A2 |
+GABG A4 | c2=B2 A2G2 | EGFE D4 :: A4d4 | ^cdec d4 | ABcA cBAG |
+FEFG A4 | A4d4 | ^cdec d4 | ABcA cBAG | FGFE D4 :|
+S:https://www.folktunefinder.com/tunes/162039
+S:http://music.gordfisch.net/tradmusic/pub/cache/La_GrandBete_d37088.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

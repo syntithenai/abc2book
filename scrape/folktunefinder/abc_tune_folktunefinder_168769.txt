@@ -1,0 +1,23 @@
+X:0530
+T:"The Jolly Young Waterman"   (song)   0530
+C:Unattributed
+C:cheerfully
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:D
+"_VB"(f/2g/2)|(a3/2b/2)g (f3/2g/2e)|(dc).d (ec).A|(A3/2B/2A) (Adc)|
+(Bgf) e2(f/2g/2)|(a3/2b/2g) (f3/2g/2e)|dcd ecA|ABc deg|fge d2||
+d|(dg).b .b(ag)|(df).a .a(fd)|(dg).b .b(ag)|(d2f) (afd)|
+(gab) (bag)|(fga) (afd)|(Bgf) (edc)|d3d2|]
+S:https://www.folktunefinder.com/tunes/168769
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0530-JollyWaterman.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

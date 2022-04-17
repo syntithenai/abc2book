@@ -1,0 +1,23 @@
+X: 4
+T: Garrett Barry's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+|: D2 |\
+DEF GE/F/G | AGE c2 A | dcA d2 e | fed cAG |
+F^EF GFG | A^GA cde | dcA GEA | DED D- :|
+|: F/G/A |\
+dcA d2 g | fed eg/f/e | dcA c2 d | efe e^cA |
+dcA d2 e | fed efe | dcA GEA | DED D- :|
+S:https://www.folktunefinder.com/tunes/160513
+S:http://www.thesession.org/tunes/display/544
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

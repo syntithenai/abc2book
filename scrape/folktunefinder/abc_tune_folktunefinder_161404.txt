@@ -1,0 +1,27 @@
+X: 1
+T: GLORISHEARS
+S: MDT
+O: Bampton
+P: A.(A2B3)4
+Q: 1/2=96
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+P: A
+|: DEF=G A2A2 | B2c2 d2cd | e2 (3ABc d2c2 | B4   A4 :|
+P: B
+   d4    c3d  | B2e2 A4   | d2cB    A2=GF |=G2B2 E3F/E/ |
+   DEF=G A2A2 | B2c2 d2cd | e2 (3ABc d2c2 | B4   A4 ||
+S:https://www.folktunefinder.com/tunes/161404
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Glorishears_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

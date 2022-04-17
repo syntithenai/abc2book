@@ -1,0 +1,40 @@
+X:1
+T:Jessas, Jessas gaeih near her
+C:traditionell
+R:polka
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:E.Baumann, Alt-Egerlaender Taenze
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+B/A/ |\
+A/d/d/A/ F/A/B/A/ | A/c/c/A/ G/A/B/A/ | A/c/c/A/ A/c/c/A/ | A/d/d/A/ FB/A/ |
+A/d/d/A/ F/A/B/A/ | A/c/c/A/ G/A/B/A/ | A/c/c/A/ A/c/c/A/ | dd d :|
+|: z |\
+AF F/G/A | BG G/A/B | ^cA ^f>e | ed A2 |
+AF F/G/A | BG G/A/B | ^cA f>e | dd d :|
+K:G
+|: D |\
+dd dd | dc B2 | GB c>B | BA A/^G/A |
+cc cc | cB A2 | FA d>c | cB B/A/G |
+dd dd | dc B2 | GB c>B | BA A/^G/A |
+cc cc | cB A2 | D^D EF | GD/D/ D :|
+|: z |\
+A/E/E AG | GF F/=F/^F | FE E/^D/E | GF F/A, /=D/F/ |
+A/E/E AG | GF F/=F/^F | E/A/A ^CE | DD/D/ D :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/167679
+S:http://simonwascher.info/TradArchiv_polka/jessas,_jessas_gaeih_near.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

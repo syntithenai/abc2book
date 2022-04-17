@@ -1,0 +1,21 @@
+X: 1
+T: Good For The Tongue
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF | 
+G>AB>c d>GF>G | e>Gf>G g>GF>G | E>cD>B C>cF>G | A>Bc>A G>FE>D |
+G2 (3ABc dG (3GGG | e>Gf>G g>GF>G | E>cD>B C>c (3EFG | B>AG>F G2 :|
+|: Bc | 
+d>G (3GGG e>G (3GGG | g>f (3gfe d>BG>B | c>de>d c>B (3BAG | F>d^c>d (3=cBA F>D |
+G>D (3ABc d2 (3GFG | e>Gf>G g>G (3GGG | E>cD>B C>cF>G | (3BcB (3AGF G2 :|
+S:https://www.folktunefinder.com/tunes/161751
+S:http://www.thesession.org/tunes/display/6499
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

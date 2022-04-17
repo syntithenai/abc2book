@@ -1,0 +1,20 @@
+X: 1
+P: Holmes's Fancy
+C: Northumbrian Pipers tunebook (via Burt Feintuch)
+R: march
+C: arr. by T. Traub, 2-3-2004
+M: C|
+L: 1/8
+K: G
+B|"G"GB/c/ dB "C"ec"G"dB|"G"GB/c/ dB "C"cA "D"(3cde|"G"GB/c/ dB "C"ec"G"dB|"C"(3cde "D"dc "G"BGG :|
+|:g|"D"fd"C"ec "G"dB Gg|"D"fd"C"ec "G"d2 "C"(3efg|"G"GgAg Bgcg|"D"d>edB "G"G2 G :|
+S:https://www.folktunefinder.com/tunes/164596
+S:http://terrytraub.org/abc/HolmesFancyR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/HolmesFancyR.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

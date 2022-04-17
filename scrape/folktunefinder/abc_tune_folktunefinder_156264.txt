@@ -1,0 +1,40 @@
+X:1
+T:Entree de luth                                                                 
+C:Robert Ballard                                                               
+Z:abc revision/facsimile-check Taco Walstra 
+L:1/4
+M:C
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+%Staffnumber 
+Q:"Troisieme"
+Q:"8 = e"
+[,cdca1] ,,,,,,,,,a [,cdc] ,,,,c |[a,d,e2] [,daa] |[,dcc] [,cd] |[,cdc,a] [,acc1] ,,,,,,a |\
+[,,dc,,,a2] [,aa,,,,,a1] [,,c] |
+%Staffnumber 2
+[,cdca,,,,a] [,d] [acd] ,,,,,e |[a,d,,c2] ,e1 [,a] |[ae,,,a] [,a] [,,cc] [,,d] |\
+,a1 ,,,,c ,,,a [,,a] |,,d/ ,,,,e [,a,,c] [,,c] [,cdca1] [,a,,,e] |
+%Staffnumber 3
+[,,,,ea] [,,d] [,,,,ca] [a,c] |,,,,a [acd/] ,,,,,e [ccd,,c1] [,e] |\
+[eff,,a] ,,,,,,,a a [f] |[,,aa] h ,,,,h/ [,,,h] ,,,g1 |\
+[k,,ha] ,,,,,,,,,a ,,,,,,,a [h,,,,,a/] [f] |
+%Staffnumber 4
+[eff,,a1] [ff,,,,,a] [cdd,,,a] [aac,,a/] [,d] |[,cdca2] a1 ,,,,,e |\
+[ccd,,c2] [a,dc,,,a] |,,,,,,a1 [,da/] [,,c] ,,d [,,a] ,,f1 |[,dcc,a2] [,cdc] |
+%Staffnumber 5
+[aadcca] ,,c1 [,d] |[,cdca2] ,,,,,,,,,a |]
+%
+%%vskip 0.5cm
+%
+W:From "Premier livre de tablature de luth, 1611"
+W:A facsimile edition is available from Fuzeau.
+S:https://www.folktunefinder.com/tunes/156264
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ballard/entree03.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Ballard/entree03.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

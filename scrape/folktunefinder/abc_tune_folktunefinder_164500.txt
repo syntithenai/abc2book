@@ -1,0 +1,23 @@
+X:45
+T:The Hogmanay Jig
+C:Andrew Rankine
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+G/2A/2|B2B BcB|A2G G2A|B2B BAG|F2E E3|
+F2F FGF|E2D D2E|DFA d^cd|c2B BGA|B2B BcB|A2G G2A|
+B2B BAG|F2E E3|F2F FGF|E2D D2E|DFA cBA|G3-G2D||
+B2B A2A|G2G F2F|E2E EDE|F3-FDF|c2c B2B|
+A2A G2G|FGF EFE|D3-DCD|B2B A2A|G2G F2F|
+E2E EDE|F3-FDF|c2c B2B|ABA GAG|FED DEF|G3-G2|]
+S:https://www.folktunefinder.com/tunes/164500
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/HogmanayJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Supp.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

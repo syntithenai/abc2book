@@ -1,0 +1,30 @@
+X:103
+T: Verschlafener Jaeger
+N: Q0152T
+O: Suedosteuropa, Jugoslawien, Batschka, Vinkovci, Neudorf
+N: Zugehoerigkeit zu dieser Balladengruppe ungeklaert.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 4/4
+L: 1/8
+K: G
+GB | B2B2d2B2 | A3Bc2
+AB | c2c2e2c2 | B3cd2
+G2 | e3fg2e2 | d3cB2
+d2 | d2edc2dc | BABcd2
+GB | B2B2d2B2 | A3Bc2
+AB | c2c2e2c2 | B3cd2
+G2 | e3fg2e2 | d3cB2
+d2 | d2edc2dc | B4z2
+S:https://www.folktunefinder.com/tunes/153056
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

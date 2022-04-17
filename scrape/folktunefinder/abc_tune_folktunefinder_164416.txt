@@ -1,0 +1,25 @@
+X:11
+T:Vallpigan
+R:vals
+A:G\"astrikland
+Z:id:hn-vals-11
+M:3/4
+L:1/8
+K:Ador
+Ac | e2 ef df | e2 ec Ac | BA ^GA Bc | A^G AB cd |
+e2 ef df | e2 ec Ac | Be ^de B^G | A4 :|
+|: Ac | e>f e^d ef | g2 b2 g2 | fe ^de fg | B^d fa gf | e^d eb f^d | e4 c2 |
+BA ^GA Bc | E^G Bd cB | A^G Ae B^G | A4 :|
+|: AB | c4 Ac | B4 ^G2 | E^F ^GA Bc | d4 Bd |
+c4 Ac | B4 ^G2 | E^F ^GA Bc | A4 :|
+S:https://www.folktunefinder.com/tunes/164416
+S:http://www.norbeck.nu/abc/s/hnvals0.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:17
+T: Die Koenigstochter
+N: Q2040A
+O: Nordeuropa, Schweden
+N: Schwedische Fassung der Ballade.
+R: Ballade, Betrug, Ehe, Tod
+M: 4/4
+L: 1/8
+K: A
+E | AAAB=c2cc | BAAGE2z
+F | =GGGGG=FAF | E2z4-z
+E | B2Bdd=ccB | AGA=cB2z
+^D | EEAB=cBAG | A2z4-z
+S:https://www.folktunefinder.com/tunes/151546
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, betrug, ehe, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

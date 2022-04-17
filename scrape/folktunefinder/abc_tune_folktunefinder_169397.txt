@@ -1,0 +1,44 @@
+X:1
+T:Kaukasus-Walzer
+C:traditionell
+R:walzer
+A:Mittelpolen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 7
+N:im buch in F (1.  3. teil) und C (2. teil), einstimmig, 1. ton c'', ambitus g' - b''
+S:im buch mit der angabe: Die Weise wurse aus einer handschrift eines deutschen musikanten aus Mittelpolen ausgewaehlt
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:F
+c2 |\
+ag f3 A | (c2 B2) B2 | gf e3 G | (B2 A2) Ac |\
+ag f3 A | (c2 B2) B2 | gfedce | f2 z2 :|
+K:C
+|: g2 |\
+aa f2 dG | gg e2 cG | ff d2 BG | cdef  g2 |\
+aa f2 dG | gg e2 cG | ff d2 AG | c2 z2 :|
+K:F
+|: c2 |\
+f2 agfe | (ed) b3 g | eGBe g2 | fAcf a2 |\
+f2 agfe | ed b3 g | eGBege | f2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169397
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/kaukasus-walzer.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

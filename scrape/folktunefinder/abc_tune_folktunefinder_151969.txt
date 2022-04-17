@@ -1,0 +1,24 @@
+X:47
+T: Der Nachtjaeger
+N: Q0133C
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Nassau
+N: Dritte Zeile = Refrain auf sinnfreie Silben. Schlusspause korrigiert.
+R: Ballade, Jagd, Flucht, Vergewaltigung, Tod
+M: 2/4
+L: 1/16
+K: G
+GB | d4d2c2 | B2A2B2c2 | d2d2e2dc | B4z2
+GB | d6d2 | e4d2c2 | B4A4 | G4z4
+A4A2A2 | A6d2 | BBBBBABc | B4z2
+GB | d6d2 | e4d2c2 | B4A4 | G4z2
+S:https://www.folktunefinder.com/tunes/151969
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, jagd, flucht, vergewaltigung, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

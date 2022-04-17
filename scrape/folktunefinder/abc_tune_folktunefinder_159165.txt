@@ -1,0 +1,25 @@
+X:2
+T:Fraher's Jig
+R:jig
+C: as played by John Wynne on &quot;Pride of the West&quot;
+Z:transcribed by moritz
+M:6/8
+K:Dmix
+|A3 GEA|DED ~G3|AEA GEA|~D3 DE/F/G|A2A GEA|DAF GAB|A2A GEA|~D3 D3|
+AEA GEA|DED ~G3|AEA GEA|~D3 DE/F/G|A2A GEA|DAF GAB|AEA GEA|~D3 D3|
+(3ABc A d2A|dcA AGE|GAB c2A|BGE EDD|ddA d2f|dcA AGE|~A3 GEA|~D3 D3|
+(3ABc A dcA|dcA AGE|GAB c2B|BGE EDD|ddA f<fe|d2A AGE|AEA GEA|~D3 D3||
+| AEA GEA|D2D GDD|ADD GEA|~D3 DE/F/G|A2A GEA|DAF GAB|c2A GEA|~D3 D3|
+AEA GEA|DAD ~G3|A2A GEA|~D3 DE/F/G|A2A GEA|~D3 ~G3|AEA GEA|~D3 D3|
+(3ABc A dcA|d2c AGE|GAB c2 z/ B/-|BGE EDD|dAA d2f|dcA AGE|~A3 GEA|~D3 D3|
+(3ABc A dcA|d2c AGE|GAB cBA|BGE EDD|ddA =f2e|d2A AGE|A2A GEA|DFA d3|]
+S:https://www.folktunefinder.com/tunes/159165
+S:http://www.thesession.org/tunes/display/992
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

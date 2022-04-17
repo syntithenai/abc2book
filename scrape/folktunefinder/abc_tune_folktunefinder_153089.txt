@@ -1,0 +1,23 @@
+X:1
+T:La d\'erob\'ee tourniquet
+G:Skol Al Louarn
+R: Derobee
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=120
+P:A5
+M:12/8
+%%MIDI gchord fzcfzcfzcfzc
+K:G
+P:A
+|: "G"B2 B "Em"BAB "Am"cBA "Bm"d2 G | "Em"B2 B "Bm"BAB "C"c"D"BA "G"G3 :|
+|: "Bm"d3 "Am"A2 B "C"cBA "Em"B2 G | "Bm"d3 "Am"A2 B "C"c"D"BA "G"G3 :|
+S:https://www.folktunefinder.com/tunes/153089
+S:http://kazimodal.trad.org/partitions/divers/derobee_tourniquet/derobee_tourniquet.abc
+% Rhythm Derobee
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

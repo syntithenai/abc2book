@@ -1,0 +1,24 @@
+X: 2
+T:The Kesh Jig
+T:The Kincora Jig
+M:6/8
+L:1/8
+C:Traditional
+R:Jig
+Z:ABC by Thornton Rose, based on version by John Chambers, 2002
+K:G
+D | "G"G2G GAB | "D7"A2 A ABd | "G"edd gdd | "D7"edB dBA |
+"G"G2G "(Em)"GAB | "Am"A2A "D7"ABd | "G"edd gdB | "D7"ABA "G"G2 ::
+A | "G"B2B dBd | "C"ege "G"dBG | "G"B2B dBG | "Am"A3 "D7"AGA |
+"G"B2B dBd | "C"ege "G"dBd | "C"g2g aga | "D7"bgg "G"g2 :|
+S:https://www.folktunefinder.com/tunes/169624
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/KeshJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/KeshJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/KeshJig.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

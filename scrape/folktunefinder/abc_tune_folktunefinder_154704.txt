@@ -1,0 +1,32 @@
+X: 1
+T: Drums
+C: 
+M: 2/4
+L: 1/8
+K: C clef bass
+%%MIDI channel 10
+"Acoustic Bass Drum"B,,,2z2| "Bass Drum 1" C,,2z2|"Side Stick" ^C,,2z2|"Acoustic Snare" D,,2z2|
+"Hand Clap" ^D,,2z2|"Electric Snare" E,,2z2|"Low Floor Tom" F,,2z2|
+"Closed Hi Hat" ^F,,2z2|"High Floor Tom" G,,2z2|"Pedal Hi-Hat" ^G,,2z2|
+"Low Tom" A,,2z2|"Open Hi-Hat" ^A,,2z2|"Low-Mid Tom" B,,2z2|"Hi Mid Tom" C,2z2|
+"Crash Cymbal 1"^C,2z2|"High Tom" D,2z2|"Ride Cymbal 1" ^D,2z2|"Chinese Cymbal" E,2z2 |
+"Ride Bell"F,2z2|"Tambourine" ^F,2z2|"Splash Cymbal" G,2z2|"Cowbell"^G,2z2|
+"Crash Cymbal 2" A,2z2|"Vibraslap"^A,2z2|"Ride Cymbal 2" B,2z2|"Hi Bongo"C2z2|
+K:C clef treble
+"Low Bongo" ^C2z2|"Mute Hi Congo" D2z2| "Open Hi Conga" ^D2z2|"Low Conga"E2z2|
+"High Timbale" F2z2|"Low Timbale" ^F2z2|"High Agogo" G2z2|"Low Agogo"^G2z2|
+"Cabasa"A2z2|"Maracas" ^A2z2|"Short Whistle" B2z2|"Long Whistle" c2z2|
+"Short Guiro" ^c2z2|"Long Guiro" d2z2| "Claves" ^d2z2| "Hi Wood Block" e2z2|
+"Mute Cuica" f2z2| "Open Cuica" g2z2|"Mute Triangle" ^g2z2|"Open Triangle" a2z2|
+S:https://www.folktunefinder.com/tunes/154704
+S:http://anamnese.online.fr/abc/guide_abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T: Harmonika [Em]
+O: Israel
+M: 4/4
+L: 1/8
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+K:Em
+|: "Em"z B2 A B2 B2 | "Am"z A2 B "Em"G>F E2 | "Am"z F2 G "B7"A2 B2 | "Em"G/2F/2E-E6 :|
+|| "D"z D2 D d2 d2 | "D7"z c2 d "G"B>A G2 | "D"z D2 D "D7"d2 c2 | "G"B4- "B7"B4 ||
+|| "Em"z B2 A B2 B2 | "Am"z A2 B "Em"G>F E2 | "Am"z F2 G "B7"A2 B2 | "Em"E8 ||
+|| "Em"B2 AG B2 AG | BB "Am"cc "Em"BB AG | "Em"GG FE G2 "Am"A2 |1 "Em"GG FE "B7"B4 :|2 "Em"GG "B7"FF "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/163379
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/Harmonika_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

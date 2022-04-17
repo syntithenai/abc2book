@@ -1,0 +1,27 @@
+X:1
+T:Finkel Onne
+R:Schottis
+Z:C-G Magnusson, 2008-10-02
+O:Norrbotten
+D:Norrltar - Framtidshopp (1980)
+N:Tredje reprisen av Hans Alatalo
+Q:1/8=140
+M:2/4
+L:1/16
+K:G
+"G" D2G2 BBAG | "D" F2DD DDDD | "D" dd^cd e2dc | "G" B2GG GGGG :|
+|: "G" B2Bd c2BB | "Am" A2EE E2E2 | "D" FFFE D2EF |1 "G" G2B2 d2>c2 :|2 "G" G2G2 Geee |
+|: "G" edBG edBG | "D" dcAF- FAFA | "D" dcAF dcAF | "G" edBG- GBGB |
+"G" edBG edBG | "D" dcAF- Fddd | "D" dddd dcBA | "G" G2G2 G4 :|
+S:https://www.folktunefinder.com/tunes/157837
+S:http://www.folkwiki.se/pub/cache/Finkel_Onne_096d8b.latin.abc
+S:http://www.folkwiki.se/pub/cache/Finkel_Onne_096d8b.abc
+S:http://www.folkwiki.se/pub/cache/Finkel_Onne_096d8b.abcm.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

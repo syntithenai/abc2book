@@ -1,0 +1,25 @@
+X:541
+%%topmargin 3cm
+U:~=!turn!
+T:Lady Bromes*
+C:Robt. Macintosh
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:C aeolian
+G | E<CTc>=B c>CC>E | Dc B>B,B,>D | E<CG<c =B>df>a | g>fTe>d e<cc>G | E<Cc>=B c>CC>E |
+Dc B>B,B,>D | E<CF>D G>EA>F | G<gd>f ecc || d | (e/d/c) G>c E>cG>c | B<fd>f b>fd>B |
+(c/d/e/c/) G>c E>cG>c | =B>dG>g e<cc>d | (e/d/c) g>c G>cE>c | (B/c/d/e/) fd bBdf | g>eTd<c a>fe>d | gag fed ecc |]
+S:https://www.folktunefinder.com/tunes/170856
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lady_Bromes_.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0541.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

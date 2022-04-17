@@ -1,0 +1,19 @@
+X: 12
+T:Four Seasons
+M:6/8
+L:1/8
+Z:C.G.P
+K:G
+|:d3 BGB|dcB A2D|G2D A2D|dcB A3|d3 BGB|dcB A2D|!G2D A2D|BcA G3:|| :FGF
+EFG|GFE F2D|FGF EFG|GFE F2A|!FGF EFG|GFE F2D|FGF EFG|GFE D3:|| :ABA
+d3|ABA F3|!ABA GAG|EFG F2D|ABA d3|ABA F3|ABA GAG|EFE D3:||
+S:https://www.folktunefinder.com/tunes/159070
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/FourSeasons.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

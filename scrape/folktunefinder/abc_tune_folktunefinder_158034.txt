@@ -1,0 +1,25 @@
+X: 060072
+T: Fishamble Street 
+N: 095
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+B |"G"dBG "Am"ecA | "D7"fdc "G"BAG | "G"DGB "C"EGc | "D"FAd "G"G2 e |
+"Em"b2 g "Am"a2 e | "D"fga "G"gdc | "G"BGB "Am"ABc | "D"dAF "G"G2 :|
+[K:Gm] d | "Cm"ede c2 e | "Gm"dcd B2 f | "Gm"GAB "F"cdc | "Gm"dgg agg |
+"Gm"b2 g "F"a2 f | "Gm"gdc BAG | "Dm"ABc d^cd |"Gm"BGF "Gm"G2 :|
+S:https://www.folktunefinder.com/tunes/158034
+S:http://www.qmcorp.net/tunes_online/095fish/095.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Les filles de Joie
+C:Georges Brassens, abc file by Bernard Loffet
+L:1/8
+Q:320
+M:12/8
+K:C
+z8zz2E|[A2A,2]A[A2A,2]E[cA,]ccA,2A|[f2F,2]f[f2F,2]c[eE,]eeE,2e|[A2A,2]A[A2A,2]E[cA,]ccA,2A|[f2F,2]f[f2F,2]c[eE,]eeE,2e|[eC,]ee[eC,]ce[gG,]fe[d2G,2]A| \
+[fF,]ed[c2F,2]A[eE,]dc[B2E,2]e|[AA,]Bc[dG,]ed[c3F,3][B3E,3]|[A3A,3]A,3A,3A,3| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/157768
+S:http://diato.ifrance.com/diato/tablat/72.abc
+S:http://diato.org/tablat/72.abc
+S:http://perso.wanadoo.fr/diato/tablat/72.abc
+S:http://pro.wanadoo.fr/diato/abc/72.abc
+S:http://pro.wanadoo.fr/diato/tablat/72.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/72.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/72.abc
+S:http://www.diatonique.net/tablat/72.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/abc/72.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/tablat/72.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

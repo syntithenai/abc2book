@@ -1,0 +1,26 @@
+X:290
+%%topmargin 3cm
+U:~=!turn!
+T:The Hon. Lady Fraser of Lovat
+C:Robert Petrie
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+G | E<A, TE>D EA,TA,>C | B,>G E/D/C/B,/ {/B,}DB,G, {/^F}G | (TE<A,) TE>D EA,A,(B,/C/) | DE/F/ (E/D/).C/.B,/ CA,A, :|
+Tc/>B/ | .A.a.c.a Aa {/f}ed/c/ | GgBg Gg (e/d/).c/.B/ | Aaca Aa (f/e/).d/.c/ | B/(c/d/).B/ e/>c/d/>B/ cA ATc/>B/ |
+Aaca Aa (f/e/).d/.c/ | GgBg Gg (e/d/).c/.B/ | .A/.B/.c/.A/ .B/.c/.d/.B/ .c/.d/.e/.c/ .d/.e/.f/.d/ | e>E (e/d/).c/.B/ cAA |]
+S:https://www.folktunefinder.com/tunes/164708
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Hon_Lady_Fraser_of_Lovat.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0290.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

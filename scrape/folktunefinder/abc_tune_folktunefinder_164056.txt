@@ -1,0 +1,51 @@
+X:1
+T:Hiatermadl [1]
+C:traditionell
+R:volkstanz
+A:Gossensass/Brenner, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: ganz in Es,  erster ton g' uns h'
+N:im buch s. 355, nr. 237
+N:im buch teilweise zweistimmig
+S:tonband-aufnahme B-217(6) 12/A03, vom 17.10.1940
+S:ausfuehrende: Karl Bosin, Gossensass
+S:besetzung: Harmonika
+%%endtext
+F:http://simonwascher.info/
+Z:noten-transcription: Robert Schwaerzer
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription: Simon Wascher
+M:2/4
+L:1/8
+K:Eb
+V:1
+HB |:\
+e(B GB) | (A>B AB) | d(B AB) | (G>B G)G |\
+c3 c | B3 B | A3 A | G3 G |
+c3 c | B3 B | A3 A |1 G3 G :|\
+                   [2 G3 |
+V:2
+HG |:\
+e(B GB) | (A>B AB) | d(B AB) | (G>B G)G |\
+A3 A | G3 G | F3 F | E3 E |
+A3 A | G3 G | F3 F |1 E3 E :|\
+                   [2  E3 |
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/164056
+S:http://simonwascher.info/
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/hiatermadl.gossensass.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

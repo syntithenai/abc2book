@@ -1,0 +1,28 @@
+X: 1
+T:King Of The Faeries
+M:4/4
+L:1/8
+Q:160
+C:Traditional Arr. Diekoff
+S:From J&D Donaldson
+R:Hornpipe
+K:Em
+"Em"EDEF GFGA|"Em"B2BA G2E2|"Em"BEED EFGB|"D"AGFE D2B,2 |!
+"Em"EDEF GFGA|"Em"BAGB "G"d2d=c|"Em"B2E2 "D"GFED|"Em"E2{F}ED E4:||!
+"Em"e2e2 B2ef|"Em"gagf e2ef|"Em"eBBA B3^c|"D"ded^c BABd|!
+"Em"e2e2 B2ef|"Em"gagf e4|"Em"eged "D"BAGF|"Em"E2{F}ED E4||!
+"Em"g2(3gag "D"f2(3fgf|"G"edB^c d2 de|"G"dBAF EFGB|"D"d^cBA GFED |!
+"Em"B,EED EFGA|"Em"Beed "C"e3f|"Em"e2B2 "D"GFED|"Em"E2{F}ED E4||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/169968
+S:http://www.blackflute.com/music/tunes/hornpipes/king.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

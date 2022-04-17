@@ -1,0 +1,21 @@
+X: 1
+T:Dreischrittdreher
+O:Germany
+N:fast
+M:2/2
+Q:1/8=400
+A:Bavaria
+R:Zwiefache
+K:GMix
+B2B2d4|dccc edd2|B2B2d4|dccc B4:|
+|: eeee edd2|dccc edd2|B2B2d4 | dccc B4:|
+S:https://www.folktunefinder.com/tunes/154345
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Dreischrittdreher_1.abc
+% Rhythm Zwiefache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

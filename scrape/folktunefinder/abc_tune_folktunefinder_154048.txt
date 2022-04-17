@@ -1,0 +1,23 @@
+X: 1
+T: Double Rise, The
+M: 6/8
+L: 1/8
+R: jig
+K: Amix
+|: eAA gfe | faf def | gBB ded | GdG BAA |
+eAA gfe | faf def | gBB ded | BAG A2B :|
+|: c2A cde | f2d fga | gBB ded | GdG BAA |
+c2A cde | f2d fga | gBB ded | BAG A2B :|
+|: AAA eAa | AaA fAa | gBB ded | GdG BAA |
+AAA eAa | AaA fdb | gBB ded | BAG A2B :|
+|: cBA ecA | fdA aAa | gBB ded | GdG BAA |
+cBA ecA | fdA aAa | gBB ded | BAG A2B :|
+S:https://www.folktunefinder.com/tunes/154048
+S:http://www.thesession.org/tunes/display/7604
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

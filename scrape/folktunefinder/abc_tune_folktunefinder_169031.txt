@@ -1,0 +1,26 @@
+X:1
+T:Jump at the Sun Harmony 1
+C:copyright 1998 Jim Thompson
+N:To be played with John Kirkpatrick tune ``Jump at the Sun''
+R:Jig
+E:18
+M:6/8
+K:Em
+|:b3 _bge|=b3 _bge|=b3 gfe|a3 a=bc'|
+E:14
+b3 _bge|=b3 _bge|=b3 agf|1 agf e3:|2 b^c'^d' e'3||
+E:18
+|:b3 bag|a3 c'ba|b3 bag|a3 agf|
+b3 bag|a3 c'ba|b3 agf|[1 a3 bge:|2 b^c'^d' e'3|]
+S:https://www.folktunefinder.com/tunes/169031
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/jump-at-the-sun-harmony.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

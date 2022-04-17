@@ -1,0 +1,31 @@
+X:1
+T:Gynge Dantzen
+R:Vals
+Z:Patrik Mnsson, 2008-11-08
+O:Ginge, Skne
+S:Stig N 2002-03-13
+N:Melodin finns ursprungligen upptecknad i kyrkoherde Pehr Lovens avhandling De Gothungia (Om Ginge) som utgavs 1745. Dr omnmns den tillsammans med tv liknande danser, Tredantzen och Elfvaredansen. Den frsta utfres p tv stt, antingen fres en lng rad av dansande fram och tillbaka i kretsar av sina ledare och sndas drefter liksom under ett ok, eller utfr par av dansande danssteg som ej r mycket olika de danser som fransmnnen kalla "menuett".
+N:(Klla: "Ginge Musickanter. Det spelar en ging", 2002, ISBN 91-631-3024-6)
+M:3/4
+L:1/8
+K:C
+|: "Andante" d2 g2 ^f2 | g4 g2 | a2 d2 ^f2 | g4 g2 | a2 d2 ^f2 |
+g4 g2 | e2 f2 g2 | e2 d2 c2 | e2 f2 g2 | e2 d2 c2 |
+d2 G2 A2 | c4 c2 | d2 G2 B2 c6 :: "Presto" dg fg fg |
+g2 g2 g2 | ad gd fd | g2 g2 g2 | e2 ef g2 |
+e2 ed c2 | e2 ef g2 | e2 ed c2 | dG AG AG |
+c4 c2 dG AG AG | c6 :|
+S:https://www.folktunefinder.com/tunes/162769
+S:http://www.folkwiki.se/pub/cache/Gynge_Dantzen_fa4597.latin.abc
+S:http://www.folkwiki.se/pub/cache/Gynge_Dantzen_fa4597.abc
+S:http://www.folkwiki.se/pub/cache/Gynge_Dantzen_fa4597.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

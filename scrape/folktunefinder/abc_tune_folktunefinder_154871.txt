@@ -1,0 +1,110 @@
+X:546
+T:Duet in G
+C:Fran\ccois Devienne
+O:France
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-duet-g/devienne-duet-g.abc
+%Posted Nov 22nd 1999 at ABC-users by Frank Nordberg as an example of a tune
+%that needs different ABCs for printing and for playback.
+%This is the "display version", use the next ABC tune for playbacks.
+V:1 Program 1 73 %Flute
+V:2 Program 2 73 %Flute
+M:C
+L:1/8
+K:G
+V:1
+"1. Allegro"g4 (fd)(ef)|g2g2a2a2|b4 (ag)(ab)|g2g2d4|
+V:2
+(BG)(AB) c4|(Bd)(BG) (FA)(FD)|(GA)(Bc) d2d2|B4 (BA)(GA)|
+%
+V:1
+g4 (ag)(fe)|(fe)(fg) (ab)(^c'd')|b2g2e2^c2|(e4d2) z2:|
+V:2
+(BG)(AB) ^c4|(d^c)(de) (fg)(af)|g2B2G2E2|(G4F2) z2:|
+%
+V:1
+|:a4 (^ga)(bg)|a2a2e4|c'2b2a2g2|g4f2d2|
+V:2
+|:(=cd)(ec) B4|(cd)(ed) (cd)(cB)|A2B2c2^c2|d2D2 d2 z2|
+%
+V:1
+e2e2f2f2|g2g2a2b2|c'4 (bd')(c'b)|a2a2a2 z2|
+V:2
+c(cBc) (Ac)(dc)|B(Bdg) (fd)(gd)|(ad)(ef)g2G2|d2d2d2 (ed)|
+%
+V:1
+(d^c)(de) (fg)(ab)|c'2c'2b4|a2a2 (fd)(ef)|(a4g2) z2 :|
+V:2
+=c4 (cB)(AG)|(FD)(EF) (GA)(BG)|(cA)(Bc) d2c2|(c4B2) z2:|
+V:1
+M:3/4
+L:1/4
+K:Em
+"2. Grazioso"(B2e)|(gf)e|(fe)^d|(fe) z|
+V:2
+M:3/4
+L:1/4
+K:Em
+(GEG)|(BA)G|(AG)F|(AG)c|
+%
+V:1
+d2g|ec'b|agf|(ag) z:|
+V:2
+(BG)B|(ce)d|(cB)A|(cB) z:|
+%
+V:1
+|:d'2=f|e^ga|c'2_e|dfg|
+V:2
+|:BBA|(^G/B/)(e/d/)c|A(AG)|(F/A/)(d/c/)B|
+%
+V:1
+b (a/g/)(f/e/)|c'2b|(b/a/)gf|(fe) z:|
+V:2
+GGG|(A/B/c/^d/e/g/)|(g/f/)e^d|(^de) z:|
+V:1
+M:2/4
+L:1/8
+K:G
+"3. Allegro"(b/a/)|gdBd|g3(f/g/)|aaaa|(a>b) ad|bbbb|
+V:2
+M:2/4
+L:1/8
+K:G
+z|BBBB|BdBG|FFFF|FAFD|GBd^d|
+%
+V:1
+b(c'/b/ a)(b/a/|g2)(f/g/a/f/|g2) "Fine"z ||(g/f/)|eefg|a3 (g/f/)|
+V:2
+(e>d) (cd/c/)|BBAc|Bg G|| z |z ^cde|fAf (e/d/)|
+%
+V:1
+eefg|a3 (g/f/)|eefg|a(b/a/ g)(a/g/|f)(g/f/ e)(f/e/|
+V:2
+^ccde|fA/d/ f(e/d/)|^ccde|fFGB|AdA^c|
+%
+V:1
+d3)d|gggg|g3d|gdBG|d2 z/ (d/e/f/|
+V:2
+dDd=c|BdBd|BGBd|gdBG|dDdc|
+%
+V:1
+g)ggg|g3 (f/g/)|(a/g/f/a/) (f/e/d/^c/)|"D.C."d3|]
+V:2
+BdBd|BdBG|FGAA|FDd|]
+%%This is the "display version", use the next ABC tune for playbacks.
+S:https://www.folktunefinder.com/tunes/154871
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-duet-g/devienne-duet-g.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-duet-g/devienne-duet-g.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-duet-g/devienne-duet-g.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

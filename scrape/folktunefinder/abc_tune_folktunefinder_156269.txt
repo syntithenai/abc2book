@@ -1,0 +1,47 @@
+X:1
+T:Entree de luth
+C:Robert Ballard  
+Z:abc revision/facsimile-check Taco Walstra 
+L:1/4
+M:C
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+Q:"Premiere"
+Q:"8 = es"
+[,aaac1] ,,,,,,,,a [,a,a] [,c,c] |[,da,c] [,,,a] [,c,ca] [,,a] |\
+[,aa,,d] ,,,c/ [,,,a] ,,,c1 ,,,,c |[,a,a,c] ,,,c/ [,,,a] [,,eeec1] ,,,,,a |
+%Staffnumber 2
+[,aa,,,b] ,,,,c ,,a/ [,,b] ,,d [,,a] |[,,bc,a1] [,,a,,c/] [,,,c] [,,,a,d] [,,,,c] ,,,c1 |\
+[,,d,,c] ,,,b/ [,a] [,bb,,a1] ,a/ ,,,,,,a |
+%Staffnumber 3
+[aa,,,,,a1] ,,,c/ [,,a] ,,b [,,,c] ,,d1 |[,ea,,,,,a] [c] h ,,a/ [f] |\
+[,af] [d] c [,,d] ,,b [,a] [a,d] [,,b] |[,,de/] [a] ,e [,a] [ab,c1] ,a/ [,,d] |
+%Staffnumber 4
+[,,bc] [,,d] ,a [,,,a] [,,d,d1] [,a,,ce] |[,bdca/] ,,,,c [,,,cd] [,,aa] [,abc] ,,a ,,b1 |\
+,,d [,d,e] [,,bc] [db] |[cb,a] [da] [aa,,d] [c,d] |
+%Staffnumber 5
+[,ed,c] [a,,f] [,,,e,,,,a] ,e/ ,,,,a |[a,,c,e1] [,af] [,bdca] [,c] |\
+[,,ee,c] [,a,a,c] [ccf,,c] ,,e/ [a] |[,efec] ,,,,,,,,a [,af] [,c] ,e [a] [c,,,c] ,,,,a |
+%Staffnumber 6
+[,aba,d] ,,,,,c ,,,,,a [d] ,,,c [,a] [,,b,,a] [,c] |,,,,c [,d] ,,a [,,,a] ,,,,a \
+[,bd] ,,,c [,,a] | [,abc,a1] [a] [,,a,,,,,a] ,e/ ,,,,a |
+%Staffnumber 7
+[aab,,d] ,,,,,c [da,c,a1] [caa,,,b/] [,,d] [aab,,a1] |,,,,,,,,a [,f,f] [,e,e3/2/] a// \
+[,c,c3/2/] ,a/// ,c |[,e,,c/] ,,,,,,,,a ,,f [,,d] [a,b,,a] [,,a] ,,b [,,,c] |
+%Staffnumber 8
+[cef,c1] ,,,,,,,,a ,,,,,a/ [,,,c] [da] [,c] |[cef,c2] ,,,,,,,,a |]
+%
+%%vskip 0.5cm
+%
+W:From "Premier livre de tablature de luth, 1611"
+W:A facsimile edition is available from Fuzeau.
+S:https://www.folktunefinder.com/tunes/156269
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ballard/entree01.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Ballard/entree01.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

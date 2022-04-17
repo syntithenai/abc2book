@@ -1,0 +1,32 @@
+X:126
+T: Die Schlangenkoechin
+N: Q2079Q
+O: Westeuropa, England
+N: Englische Fassung der Ballade.
+N: Zweite und vierte Zeile = Refrain.
+R: Ballade, Mord; Reigen - Tanz, antiphonal
+M: 2/4
+L: 1/8
+K: G
+DDD | G2AF | G2B2
+d2ee | d2
+DDD | G2AF | G2B2
+d2cA | G2
+B2 | cdec | Bd
+dB | c2BA | GF
+ED | G2AF | G2
+Bc | d2cA | GF
+ED | G2AF | G2
+Bc | d2cA | G2
+S:https://www.folktunefinder.com/tunes/152158
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord; reigen - tanz, antiphonal
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

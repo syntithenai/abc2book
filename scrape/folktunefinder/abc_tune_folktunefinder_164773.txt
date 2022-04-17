@@ -1,0 +1,39 @@
+X:2884
+T:Hopsa
+C:anon.
+O:Norway
+R:Hopsa
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/hopsa/hopsa-1.abc
+P:ABACDCA
+M:2/4
+L:1/8
+K:D
+P:A
+ABAB|Accc|ABAB|Addd|
+ABAB|Accc|AABc|d2"_Hei!"d2||
+P:B
+efef|e^ggg|efef|eaaa|
+efef|e^ggg|eef^g|a2a2||
+P:C
+DEDE|DFFF|DEDE|DGGG|
+DEDE|DFFF|DDEF|G2G2||
+P:D
+G,A,G,A,|G,B,B,B,|G,A,G,A,|G,=CCC|
+G,A,G,A,|G,B,B,B,|G,G,A,B,|=C2C2|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/164773
+S:http://abc.musicaviva.com/tunes/norway/hopsa/hopsa-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/hopsa/hopsa-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/hopsa/hopsa-1.abc
+% Rhythm Hopsa
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

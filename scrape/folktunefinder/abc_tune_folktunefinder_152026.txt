@@ -1,0 +1,23 @@
+X:104
+T: Der schwatzhafte Junggeselle
+N: Q0139S
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Fremersdorf
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 3/8
+L: 1/16
+K: G
+D2 | G2F2E2 | A2B2A2 | G2D2
+D2 | G2F2G2 | A2B2A2 | G2D2
+B2 | G3BB2B2B6G2 | G2B2d2B2A6
+G2 | F3AA2AAA2d2d2c2 | B2B2A2A2G4z2
+S:https://www.folktunefinder.com/tunes/152026
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

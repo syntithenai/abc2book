@@ -1,0 +1,27 @@
+X:17
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q1072P
+O: Mitteleuropa, Deutschland / Polen, Schlesien
+N: Melodievergleich zu Q0072Q, anderes Lied "Edelmann im Habersack" .
+N: Fuenfte und sechste Zeile = Refrain auf sinnfreie Silben.
+R: Schwank - Lied
+M: 2/4
+L: 1/16
+K: F
+C2 | F2F2AAF2 | c2c2A2
+FF | c2BBG2GG | A4z2
+C2 | F2F2AAF2 | c2c2A2
+FF | c2BBG2GG | A2A2A2
+FF | G2GGG2FG | A2A2A2
+EF | G2G2G2FG | A4z2
+S:https://www.folktunefinder.com/tunes/152049
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Schwank - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

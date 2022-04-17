@@ -1,0 +1,30 @@
+X:1
+T:Gigue for Jenny
+T:(Greenholm)
+C:Dance 1975 by Daniel Herr
+M:6/8
+L:1/8
+K:G
+%%LY voices \property Staff.barCheckNoSynchronize=##f
+%%LY voices \partial 8
+|:d | "G"dBG GBd | "C"efg g2 e | "G" dBG GBG | "D"A3-A2
+%%LY voices \bar "empty" \break 
+d | "G"dBG GBd | "C" efg g2 e | "G"dBG "D"ABA | "G"G3 - G2 :|
+%%LY voices \bar "empty" \break 
+B/c/ | 
+%%LY voices |
+"G"d2 g gfg | "C"e2 g gfe | "G"dBG GBG | "D"A3 - A2 
+%%LY voices \bar "empty" \break 
+B/c/ | "G"d2 g gfg | "C"e2 g gfe | "G"dBG "D"ABA | "G"G3 - G2
+%%LY voices \bar "empty" \break 
+B/ c/ | "G"d2 g gfg | "C"e2 g gfe | "G"dBG GBG | "D" A3 - A2
+%%LY voices \bar "empty" \break 
+d | "G"dBG  GBd | "C"efg g2 e | "G"dBG "D"ABA | "G"G3 - G2 |]
+S:https://www.folktunefinder.com/tunes/160941
+S:http://www.mail-archive.com/lilypond-user@gnu.org/msg13397/jenny.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

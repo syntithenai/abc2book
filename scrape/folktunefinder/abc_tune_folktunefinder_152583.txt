@@ -1,0 +1,27 @@
+X:6
+T:Franse Polka
+O:Boortmeerbeek
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek II
+M:C|
+L:1/8
+K:G
+P:A
+D2 |: G2 G2 G2 G2 | G>F G>A B2-B z | B2 B2 B2 B2 | B>A B>c d2-d z |
+c>d e>c A2-A z | B>c d>B G2-G z | A>B c>A F2 D2 | G>A B>c d2-d z |
+c>d e>c A2-A z | B>c d>B G2-G z | A>B c>A F2 D2 |1 A4 G2 D2 :|2 G2 G2 G2 z2 |
+P:B
+|: G4 | D4 | B4 | G4 |
+d>d dd | ed cB |1 A z d>e | dc BA :|2 A z d2 | G2-G ||
+S:https://www.folktunefinder.com/tunes/152583
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre2.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre2.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre2.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

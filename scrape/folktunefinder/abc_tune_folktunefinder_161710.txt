@@ -1,0 +1,31 @@
+X:1
+T:Gold Ring, The
+R:jig
+M:6/8
+L:1/8
+K:G
+d|BAG A2d|cAG ~G3|BAG A2d|cDE ~F3|
+BAG A2d|cAG ~G3|gbg afd|cAF G2:|
+A|~B3 Bdc|~A3 dcA|~G3 GFG|AdB BAG|
+~B3 Bdc|~A3 A2G|FDE F2d|cAF G2:|
+g|fdd edd|fdd edd|fdd edd|cAF G2g|
+fdd edd|fdd edd|(4.f.gag fed|cAF G2:|
+d|~g3 f2d|cAG GBd|~g3 f2 d|cDE ~F3|
+~g3 fad|~g3 fad|gbg afd|cAF G2:|
+E|DBB DBB|DAA DAA|~G3 GBd|cAG FGA|
+DBB DBB|DAA DAA|~G3 GBd|cAF G2:|
+A|~B3 ~D3|~A3 ~D3 |~G3 GBd|cAG FGA|
+~B3 ~D3|~A3 ~D3|~G3 GBd|cAF G2:|
+A|B2G A2G|d2 G G2A|B2G A2G|cAG FGA|
+BAG AGF|GFE FGA|(4.f.gag fed|cAF G2:|
+S:https://www.folktunefinder.com/tunes/161710
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_gold_ring_the.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

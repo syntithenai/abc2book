@@ -1,0 +1,30 @@
+X:64
+T: Kornschneiden
+N: Q0136B
+O: Westeuropa, England ()
+N: Instrumentalstueck nach der Balladenmelodie.
+N: Taktart entsprechend der Takteinteilung festgelegt.
+R: Ballade, Beischlaf, Schwangerschaft, Moral
+M: 6/4
+L: 1/8
+K: G
+G4D2G4A2 | B3AB2A4
+F2 | G4D3DG2A2 | B6A6
+A4B2 | c4c2 | B4B2 | A4
+F2 | G4G2 | F4GF | E3D^C2D6
+GGFED=C | G4A2 | BGBcB2 | A4
+F2 | G4D2 | G4A2 | B3AB2 | A6
+A2FGAB | c4c2 | B3AB2 | FGA
+DEF | G4G2 | F4G2 | ^CDEDB,C | D6
+S:https://www.folktunefinder.com/tunes/151986
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, beischlaf, schwangerschaft, moral
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

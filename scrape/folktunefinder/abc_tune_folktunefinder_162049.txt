@@ -1,0 +1,20 @@
+X:1
+T:La Grande Chaine
+C:Trad. French Canadian Reel
+M:C|
+Q:1/2=120
+K:G
+|:B4 BAGB | d2 d2 BGBd | cdcB ADFA | dedc BDGA |
+B2B2 BAGB | d2d2 BGBd | cdcB ADFA |[1G3A G2 DG:|[2G3A G2 Bd 
+|: g2 gf efge | d2d2 BGBd | cdcB ADFA | dedc BGBd |
+g2 gf efge | d2d2 BGBd | cdcB ADFA |[1 G3A G2 Bd:|[2G3 A G2 z2|]
+S:https://www.folktunefinder.com/tunes/162049
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/LaGrandeChaine.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/LaGrandeChaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

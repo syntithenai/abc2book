@@ -1,0 +1,27 @@
+X:1
+T:Les grenouilles
+C:Rondeau trad. appris du groupe "Estrad", fichier abc : Bernard Loffet
+L:1/8
+Q:336
+M:12/8
+K:C
+ [a2A,,2][aA,] e2[^fA,] [g2G,,2][fA,] e2[eA,] | [a2A,,2][aA,] e2[^fA,] [g2G,,2][fA,] e2[eA,] | [c2C,,2][dC,] e2[^fG,] [g2C,,2][fG,] e2C, | \
+ [c2C,,2][dC,] e2[dC,] [c2C,,2][BC,] c2[BC,] | [A2A,,2][BA,] c2A, [dG,,]c[dG,] [e2A,,2]A, | [a2A,,2][bA,] a2[bA,] [a2A,,2][gG,] [e2E,,2]E, | \
+ [A2A,,2][BA,] c2[cA,] [dG,,]c[dG,] [e2A,,2]A, | [a2A,,2][bA,] a2[bA,] [a2A,,2][gG,] [a2A,,2]A, | \
+ [aA,,]a[aA,] e2A, [aA,,]a[aA,] [e2E,,2]E, | [aA,,]a[aA,] e2[eA,] [a2A,,2][aA,] [e2E,,2]E, | [A2A,,2][BA,] c2[cA,] [dG,,]c[dG,] [e2A,,2]A, | \
+ [a2A,,2][bA,] a2[bA,] [a2A,,2][gG,] [a2A,,2]A, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/162549
+S:http://diato.ifrance.com/diato/tablat/213.abc
+S:http://diato.ifrance.com/tablat/213.abc
+S:http://diato.org/tablat/213.abc
+S:http://perso.orange.fr/diato/tablat/213.abc
+S:http://perso.wanadoo.fr/diato/tablat/213.abc
+S:http://pro.wanadoo.fr/diato/tablat/213.abc
+S:http://www.diatonique.net/tablat/213.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

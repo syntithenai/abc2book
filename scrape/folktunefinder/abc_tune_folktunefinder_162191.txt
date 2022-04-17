@@ -1,0 +1,51 @@
+X:1
+T:Grean ist die Hollerstaudn-Walzer
+C:traditionell
+A:Burgenland, Oesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das Burgenlaendische Notenbiachl, Die zweiten 24",S.Gmasz,F.Pietsch, Eisenstadt 1984
+S:sammlung K.Horak,"...dessen Liedaufzeichnung 'Grean ist die Hollerstaudn' zu einem Walzer eingerichtet wurde."
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+D/G/G>A | BAG | FF>G | A2A |\
+AA>B | cBA |1 GG>A | B2 :|\
+           [2 c/B/A/c/B/A/ | G2 :|
+|: D |\
+G2B | d2G | F2A | D3 |\
+F2A | D2(3D/E/F/ |1 G2B | d2 :|\
+                 [2 G/G/G>F | G2 ||
+|: B |\
+B>dd | B>dd | edc/B/ | czA |\
+A>Bc | A>Bc | dc>B | BzB |
+B>dd | B>dd | edc/B/ | czA |\
+c>ee | c>ee | df/d/e/f/ | g2 :|
+|: d |\
+bag | fe/^d/e | fe/^d/e | ed/^c/d |\
+bag | fe/^d/e | fe/^d/e | d^c/d/e/f/ | g2 :|
+|:\
+B/c/d/e/d | B/c/d/e/d | dcc | edd |\
+B/c/d/e/d | B/c/d/e/d | dcc | B2 :|
+|: d |\
+dBd | dBd | cAc | B/A/B/c/d |\
+dBd | dBd | cAc | B2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/162191
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/grean_ist_die_hollerstaudn-.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

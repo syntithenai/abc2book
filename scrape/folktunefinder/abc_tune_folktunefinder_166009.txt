@@ -1,0 +1,27 @@
+X:1
+%%scale .90
+T:If Ever I Cease To Love
+C:
+M:4/4
+L:1/4
+K:D
+%%titlefont Times-Bold 14
+%%gchordfont Helvetica-Bold 12.0
+%%partsfont Times-Roman 11.0
+%%vocalfont Times-Bold 13.0
+%%wordsfont Times-Roman 12.0
+%%StrTabFont Times-Bold 14.0
+%%stretchstaff yes
+|:A/2 G/2|F F F F|F/2G/2 A A A|A/2 G/2 E/2 A G/2 E|D,/2 A,/2 D/2 A/2 d:|
+|F|E E E E|F/2G/2A/2D/2 F, A|D ^G/2^G/2F/2 ^G3/2|A =C E, A/2A/2|d c B A|G F E F
+|A/2A/2 G B, =C|D,/2A,/2D/2A/2 d A|F/2F/2 A A B|A F/2E/2 D A|B/2B/2 d d e
+|d F A, A/2A/2|d =c B E|G F E F|A/2A/2 G B, C|D,/2A,/2D/2d/2 a/2 d'/2||
+S:https://www.folktunefinder.com/tunes/166009
+S:http://gulfweb.net:34043/~rlwalker/abc/ifeverandry.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/ifeverandry.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

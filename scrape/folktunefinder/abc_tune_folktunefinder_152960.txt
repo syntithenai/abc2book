@@ -1,0 +1,27 @@
+X:7
+T: Der Nebenbuhler (Jan Willem en Betje)
+N: Q2143A
+O: Mitteleuropa, Niederlande, flaemisch
+N: Flaemische Fassung der Ballade.
+R: Ballade, Liebes - Klage
+M: 6/8
+L: 1/16
+K: G
+D2 | G2F2G2d2c2d2 | _B4A2G4
+G2 | A2G2A2d2c2d2 | A6z4
+A2 | _B2A2G2G2A2B2 | c6d4
+c2 | _B2A2G2FED2
+d2 | _B2c2B2A2G2F2 | G6z4
+S:https://www.folktunefinder.com/tunes/152960
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

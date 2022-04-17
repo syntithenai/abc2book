@@ -1,0 +1,21 @@
+X: 2
+T: Return From Fingal
+M: 4/4
+L: 1/8
+R: march
+K: Emin
+|: {ABc}BAGF EFGA | {c}BAGF E4 | AGFA d2 A2 | {Bc}B2 A2 B^c d2 | 
+{Bc}BAGF EFGA | {Bc}BAGF E4 | AGFA d2{ed} A2 | F2 E2 {F}E4 :|
+f2{gf} e2 e2 d^c | B2{^cB} A2 d3 A | B2{^cB} A2 d2 A2 | B2{^cB} A2 B^cde |
+f2{gf} e2 e2 d^c | B2{^cB} A2 d3 B | AGFA d2{ed} A2 |[1 F2{GF} E2 E2 g2 :|[2 F2{GF} E2 E4 |]
+S:https://www.folktunefinder.com/tunes/157828
+S:http://www.thesession.org/tunes/display/851
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

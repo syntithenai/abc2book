@@ -1,0 +1,21 @@
+X: 3
+T: Gan Ainm
+M: 4/4
+L: 1/8
+R: schottische
+K: DMaj
+|: F2 AF D2 FA | d2 d2 f4 | e2 ge c2 Bc | d2 fe dcBA |
+F2 AF D2 FA | d2 d2 f4 | e2 ge c2 Bc |[1 d2 d2 d4 :|[2 d2 d2 d2 ||
+|: fg |\ 
+a2 a>b (3aba g>f | g>d (3Bcd g2 e>f | g2 (3ggg g2 f>e | f2 a>f d2 A>G |
+F2 AF D2 FA | dA FA f4 | e2 ge c2 Bc |[1 d2 d2 d2 :|[2 d2 d2 d4 |]
+S:https://www.folktunefinder.com/tunes/160300
+S:http://www.thesession.org/tunes/display/8845
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:1
+T:Floating from Skerry
+G:Kazimodal
+R:Valse lente
+C:Lynn Tocken
+Q:C2=110
+P:A(BC)3B
+M:3/4
+S:The Kathryn Tickell Band
+K:Em
+%%MIDI gchord cff
+%%MIDI chordprog 41
+%%%MIDI chordvol 127
+%%MIDI bassprog 43
+%%%MIDI bassvol 127
+%%MIDI program 73
+P:A
+D2 \
+P:B
+|: !segno! "Em" E2 EF GA | "G"B3 {cB}A G2 | "D"A4 Bd | "C"e4 gf | "Em"e3 d B2 |\
+ B2 {cB} A2 G2 | "Bm"F2 {GF} D2 B,2 | B,4 D2 |
+"Em"E2 EF GA | "G"B3 {cB}A G2 | "D"A4 Bd | "C"e4 gf | "Em"e3 d B2 |\
+"Am"c2 {dc} B2 A2 | "Em"BG EG "D"(3FED \
+|1 "Em"E4 B,2 :|2 !coda! "Em"E4 B2 |
+%%text Rallentir sur la fin
+P:C
+|: "Em"e3 f ge | "D"a3 g fd | "C"e3 f (3gfe | "Bm"f2 d2 B2 | "Em"e3 f ge | "D"a3 g fd | "C"e6 |1 "Em"e4 B2 :|2 "Em"e4 !segno! D2 ||!coda!
+S:https://www.folktunefinder.com/tunes/158418
+S:http://kazimodal.trad.org/partitions/valses/Floating_from_Skerry/Floating_from_Skerry.abc
+% Rhythm Valse lente
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

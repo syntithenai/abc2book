@@ -1,0 +1,51 @@
+X:1
+T:Hanter dro : Kervignac
+Z:Roger Ngaret (94-95)
+R:hanterdro
+C:Trad.
+A:Bretagne
+S:
+Q:1/4=170
+M:4/4
+L:1/16
+K:C
+"Am"A4 c2B2 A4 G4 | A8 | "G"B4 B2B2 B4 e4 |1 "Em"e2d2 c2B2 :|2 e8 ||
+"Am"A4 A2A2 "G"d6c2 | "Em"B4 B4 | "Am"A4 A2A2 "G"d4 c4 | "Em"B8 |:
+e4 e2e2 e6f2 | "C"e4 e4 | "G"d4 c2B2 "Em"d6c2 | "Am"A8 :|
+%%rm
+%%rm Quand j'tais chez mon pre    ]
+%%rm Petite  la maison             ] bis
+%%rm On m'envoyait aux champs
+%%rm Les moutons  garder
+%%it Gu fa la la ridaine           ]
+%%it Gu fa la la ride             ] bis
+%%rm
+%%rm On m'envoyait aux champs       ]
+%%rm Les moutons  garder           ] bis
+%%rm Le long de ces forts
+%%rm J'allais m'y promener
+%%it Gu fa la la ridaine           ]
+%%it Gu fa la la ride             ] bis
+%%rm
+%%rm Et tandis que j'y fus un loup vint  passer
+%%rm
+%%rm Sa gueule tait si grande qu'il les a tous mangs
+%%rm
+%%rm Sa panse tait si grande qu'il pouvait plus marcher
+%%rm
+%%rm J'ai sorti mes ciseaux, me mis  l'dcouper
+%%rm
+%%rm Et je vendrai sa peau, le samedi au march
+%%rm
+%%rm J'en tirerai le prix d'un bel habit dor
+%%rm
+%%rm Et puis le soir au bal, je m'en irai danser.
+S:https://www.folktunefinder.com/tunes/163194
+S:http://termen.free.fr/danses/termen/HanterdroKervignac.abc
+% Rhythm Hanterdro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

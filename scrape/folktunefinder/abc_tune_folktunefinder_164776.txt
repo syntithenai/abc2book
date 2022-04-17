@@ -1,0 +1,34 @@
+X: 1
+T:Hopsa fr R\aa{}by
+R:Hopsa
+O:Denmark
+M:2/4
+L:1/8
+K:D
+F/F/|\
+FA, DF | AD FA | dF Ad | f2 ed |1 \
+ce EF | G2 cB | Ad FG | A3 F/F/ :|2 \
+ce EF | GA Bc | d2 d2 | d2 z :|
+|:\
+ce ce | a2 gf | e2 AB | c3 e| \
+dc Bc | de fg | ba gf ec d^d | \
+e2ce | a2 gf | e2 AB | c3e |
+dc Bc | de fg |\
+|1 a2a2 | ae/e/ ee:|2 a2a2 a2z2 |\
+K:D
+|:\
+f2 (3fec | d2 (3dcA | \
+A2 (3AFD | A,D FA |
+G2 (3GFG | EA ce | d2 (3dcd | fd A2 | \
+f2 (3fec | d2 (3dcB | \
+A2 (3AFD | A,D FA |\
+G2 (3GFG | EA ce | d2 d2 |1 dA/A/ AA :|2 d3 |]
+S:https://www.folktunefinder.com/tunes/164776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ho/Hopsa_fr_Raa_by_1.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: J'm'en Vas Chantant Riant
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gm
+   D2 \
+| "Gm"G2^FG A2B2 |  "D7"A6 B2 | "Cm"c4 B2A2 | c4 "Gm"B2D2 \
+| "Gm"G2^FG A2B2 |1 "D7"A6 B2 |  c4   cA^F2 | "Gm"G6 \
+                :|2 "D7"A6 G2 | ^F2D2 =E2F2 | "Gm"G6 |]
+|: A2 \
+| "Gm"B3G "D7"A2^F2 | "Gm"G6 B2 | G3^F G2A2 | "(D)"GAG^F "D7"D4 \
+| "D"A3G A2B2 | "Cm"G6 A2 | "Gm"BAG2 "D7"A2^F2 | "Gm"G6 :|
+S:https://www.folktunefinder.com/tunes/167955
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/JMEnVasChantantRiant_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

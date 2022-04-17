@@ -1,0 +1,35 @@
+X:1
+T:Dearest Dicky
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Field Town
+O:English
+R:Jig
+%P:A/2.(AB$^3$)$^2$.(AC$^3$)$^2$
+P:A.(AB3)2.(AC3)2
+K:G
+Q:C3=104
+P:A
+|: D   | G2 G BAB | cBc  def | gfg/2f/2 edc  | BAG  FED  |\
+ G2 G BAB | cBc  def | gfg      ABc  | d3   d2   :|\
+P:B
+B/2c/2 | dGB  cde | cAB  cBc | dGB      cde  | cAB  c2   \
+d      | e2 d eaf | g3   gfe | dcB      AGF  | GAG  G2   ||\
+P:C
+B/2c/2 | dGB  cde | cAB  cBc | dGB      cde  | cAB  c2   \
+d      | (2ed e3  | (2ea f3  | (2ga     g3   | (2gf e3   |\
+ (2dc B3  | (2AG F3  | (2GA     G3   | G3-G2     ||
+S:https://www.folktunefinder.com/tunes/152436
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/deardick.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

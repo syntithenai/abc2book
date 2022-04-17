@@ -1,0 +1,36 @@
+X: 1
+T:John the Balladeer
+M:4/4
+L:1/8
+Q:160
+C:Words and music by Catherine Faber, (c) 1991
+S:From "A Breeze Through the CONduit"
+A:Filk
+B:A Breeze Through the CONduit, (c) 1992 Julia West
+N:Inspired by the "Silver John" books by Manley Wade Wellman
+D:on the tape "A Breeze Through the CONduit"
+W:Often in the mountains I have heard the people say,
+W:"You needn't fear the dark my child, since John has passed this way."
+W:And when I press for details of this person who is gone,
+W:They tell another story of the wanderer called John.
+W:Chorus:
+W:Singing John, walking John, John who does not fear,
+W:Silver John, Honest John, John the Balladeer.
+K:C
+"freely" E2 E2 F2 G A-|A2 G2 F2 F2|E3 D C C3|D4 z2 G|
+E2 E2 F2 G A-|A2 G2 F2 F2|E3 E D D3|C4 z2 E2|
+E D2 C3 E2|F2 F2 G2 F2|E2 G2 G E3|D4 z2 G2|
+E2 D C3 E2|F F3 G2 F2|E2 E D3 D|C6 z2|
+"Chorus" G E2 C-C4|A G2 F-F4|E3 D C C3|D6 z2|
+G2 E C-C4|A G2 F-F4|E3 E D D3|C4 z4||
+S:https://www.folktunefinder.com/tunes/168671
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/jo/John_the_Balladeer_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

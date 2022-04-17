@@ -1,0 +1,36 @@
+X: 1
+T:Iron Man
+M:4/4
+L:1/8
+Q:150
+S:Winston Fitzgerald via Stan Taylor
+R:Strathspey
+K:A
+"A"A2 c3/2A/2 "E7"B3/2G2 "A"A/2B3/2|
+c e3/2c/2 "E7"d3/2B c/2e3/2d|
+"D"f2 df"A"e2 ce|"E7"(3dcB (3cBA B2 B/2c3/2|!
+"A"A2 c3/2A/2 "E7"B3/2G/2 "A"A/2B3/2|
+"A"c2 e3/2c/2 "E7"d3/2B/2 "A"c3/2e3/2|
+"D"f2 f2 "A"ea cA
+|1"E7"(3Bcd (3dcB c/2A3/2 "A"AE:|
+|2"E7"(3Bcd dcB "A" c/2A3/2 (3efg||!
+"A"aA gA fA eA| (3cBA (3efg a3/2A/2 (3cBA|
+"E7"dE cE BE cE|
+"A"(3dcB (3cBA "E7"(3Bcd (3efg|
+"A"aA gA fA eA|!
+(3cBA (3efg a3/2A/2 (3cBA|
+"D"d2 fd "A"(3eag (3fed
+|1"E7"(3cBA (3GAB "A"c/2A3/2 (3efg:|
+|2"E7"(3cBA (3GAB c/2A3/2 A2||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/166654
+S:http://www.blackflute.com/music/tunes/other/ironman.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

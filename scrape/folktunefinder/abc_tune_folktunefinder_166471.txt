@@ -1,0 +1,30 @@
+X: 4
+T:
+T:Variation II.
+M:3/4
+L:1/8
+K:G bass
+%1
+L:1/16
+d3 c | Bdba gBBd gbe'd' | ^c'd'd'^a abbf fggd |
+cddf fdda addf | gdBc dbca Bgdc | Bdba gBBd gbe'd'
+^c'd'd'^a abbf fggd 
+%Error : Bar 5 is 3/2 not 3/4
+| cddf fdda addf | fgdB G4 
+%Error : Bar 7 is 1/2 not 3/4
+|| b3a 
+%Error : Bar 8 is 1/4 not 3/4
+| a^c' eg ^c4 b3a |
+ad'fa d4 f3 a | a^ccb bcca a3g | fd'd'f faad b3a | a^c'eg ^c4 b3a |
+ad'fa d4 f3a | a^ccb bccb {ab}"rall."a3c | d8 "Tempo I"d3 =c | Bdba gBBd gbe'd' |
+^c'd'd'^a abbf fggd | cddf fdda addf | gdBc dbca Bgdc |
+Bdba gBBd gbe'd' | ^c'd'd'^a abbf fggd | cddf fdda addf | fgdB G4 
+%Error : Bar 24 is 1/2 not 3/4
+|]
+S:https://www.folktunefinder.com/tunes/166471
+S:http://www.laymusic.org/music/arban/tyrolienne-d.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

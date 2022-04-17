@@ -1,0 +1,25 @@
+X:236
+T: Der Hammerschmiedssohn
+N: Q0088G
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Baumbiedersdorf
+N: Strophenvariante zu Q0088F.
+R: Ballade, Verfuehrung, Schwangerschaft, Mord
+M: 2/4
+L: 1/8
+K: F
+C | F2EF | G3A | cBAB | G2z
+A | c2BA | G2A2 | F2FD | D2z
+G | GGG2 | F2B2 | A2GE | F2z
+S:https://www.folktunefinder.com/tunes/152268
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft, mord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

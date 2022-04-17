@@ -1,0 +1,66 @@
+X:1
+T:Der kleine Hittich
+C:traditionell
+R:polka
+A:Oberbozen/Ritten, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: drei teile ganz in F erster ton c'' und a'
+N:im buch s. 280, nr. 165
+N:im buch einstimmig
+S:tonband-aufnahme Q-0044(2) 2/A10, vom 30.07.1940
+S:ausfuehrende: Josef Stricker (33), Alfons Holzmann (31), Anton Kaufmann (57), Dorf Tirol
+S:besetzung: zither, raffele, kontra-gitarre
+%%endtext
+Z:noten-transcription: Josef Dentinger
+Z:abc transcription: Simon Wascher
+Q:1/4=116 %im buch
+M:2/4
+L:1/16
+K:G %Transposed from F
+V:1
+P:A
+dd |\
+d2B2 d2g2 | d6 B2 | A3B c2A2 | BABc d2dd |\
+d2B2 d2g2 | d6 B2 | A3B c2A2 |1 B2B2B2 :|\
+                             [2 B2B2B2 B2 |
+V:2
+BB |\
+B2G2 B2d2 | B6 G2 | F3G A2F2 | GFGA B2BB |\
+B2G2 B2d2 | B6 G2 | F3G A2F2 |1 G2G2G2 :|\
+                             [2 G2G2G2 G2 |
+V:1
+P:B
+|:\
+A3B c2A2 | B3c d2B2 | cccc c2A2 | B6 B2 |\
+A3B c2A2 | B3c d2B2 | cccc c2A2 |1 G2G2G2 B2 :|\
+                                [2 G2G2G2 dd |
+V:2
+|:\
+F3G A2F2 | G3A B2G2 | AAAA A2F2 | G6 G2 |\
+F3G A2F2 | G3A B2G2 | AAAA A2F2 |1 G2G2G2 G2 :|\
+                                [2 G2G2G2 BB |
+V:1
+P:C
+d2B2 d2g2 | b4 z2g2 | a4 z2f2 | g6 dd |\
+d2B2 d2g2 | b4 z2g2 | a4 z2f2 |1 g2g2g2 dd :|\
+                              [2 g2g2g2 |]
+V:2
+B2G2 B2e2 | z2dd d4 | z2cc c4 | z2BB B2BB |\
+B2G2 B2e2 | z2dd d4 | z2cc c4 |1 B2B2B2 BB :|\
+                              [2 B2B2B2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153061
+S:http://simonwascher.info/TradArchiv_polka/der_kleine_hittich.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

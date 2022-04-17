@@ -1,0 +1,39 @@
+X: 6
+T:Princess Royal, Oddington 2
+M:4/4
+L:1/8
+Q:1/4=120
+S:Shakespeare Morris Men
+A:Oddington
+P:A.AB(CB)2
+Z:vrh 05/03/0
+K:G
+P:A
+dc|BcAB G2d2 |BcAB G2d2|efed c2e2|d2dc B2d2|
+cBcB A2G2 |AGFE D2d2|B2AG A2F2|G4   G2 ||
+P:B
+d>e|f2d2 d2ef |g2G2 G2de|fgfe d2c2|dcBA G2D2|
+G2AB c2c2 |defd g3g |g2d2 e3e |d2G2 c4  |
+B2cB c2A2 |AGFE D2d2|B2AG F2A2|G4   G2 ||
+P:C
+M:2/4 L:1/8
+d3c|\
+M:4/4
+B3c  B2A2-|A2AB G4  |d3c  B3c |B2A4   AB|
+G4   d4   |e4   d4  |c3d  e2f2|d4   d3c-|c3c  B2d2 |
+c2B2 A2G2 |AGFE D2dc|B2AG F2d2|G4   G2 ||
+S:https://www.folktunefinder.com/tunes/164207
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Oddington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Oddington.abc
+S:http://www.themorrisring.org/sites/default/files/music/Oddington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

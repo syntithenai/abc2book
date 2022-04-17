@@ -1,0 +1,35 @@
+X:828
+T:Fortune
+C:anon.
+S:Karl Moore - Peach Bottom String Band
+Z:Converted from Nottingham Database format by Philip Rowe
+F:http://abc.musicaviva.com/tunes/anon/fortune/fortune-1.abc
+%Posted Oct 16th 1999 at abcusers by Philip Rowe in reply to a request from Rod
+%Smith for "old time tunes". See "Done Gone" for more information.
+M:4/4
+L:1/4
+K:D
+f/g/|"D"fff/e/d|"A"e/d/c"D"df/g/|fff/e/d|"A"e3 f/g/|"D"fff/e/d|
+"G"g[Bg]g[Bg]|"D"a/f/e/d/ "A"c/A/B/c/|"D"d/A/F/E/D::f/g/|"D"aaf/e/d|"A"e/d/c"D"df/g/|
+"D"aaf/e/d|"A"e3 f/g/|"D"aaf/e/d|"G"g/f/g/a/bb|"D"a/f/e/d/ "A"A/B/c|"D"d/A/F/E/D:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/158998
+S:http://abc.musicaviva.com/tunes/anon/fortune/fortune-1.abc
+S:http://abc.musicaviva.com/tunes/anon/fortune/fortune-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/fortune/fortune-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/fortune/fortune-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/anon/fortune/fortune-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/anon/fortune/fortune-1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

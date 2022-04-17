@@ -1,0 +1,26 @@
+X:83
+T: Verschlafener Jaeger
+N: Q0152
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Hainau, Conradsdorf
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 3/8
+L: 1/16
+K: G
+Bc | d3edc | B2A2B2 | c3BdB | A4
+Bc | d3edc | B2A2B2 | c3BdB | A4
+c2 | B3dB2 | A3GA2 | G3ABc | d4
+dc | B3dB2 | A3GA2 | G4
+S:https://www.folktunefinder.com/tunes/153036
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

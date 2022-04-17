@@ -1,0 +1,22 @@
+X: 3
+T:Maude Millar
+M:4/4
+L:1/8
+R:Reel
+K:G
+gf|edBA GEDE|G2BG DGBd|eBdB A2 GA|Beed efgf|edBA GEDE|G2BG DGBd|eBdB A2
+GA|Beed e2ge||
+dega bg (3gfg|agef g3e|dega bg (3gfg|aged eage|dega bg (3gfg|agef g3a|bg
+af gfed|Beed ef||
+% Output from ABC2Win  Version 2.1 h on 06/05/99
+S:https://www.folktunefinder.com/tunes/170840
+S:http://www.comhaltas.interweb.ie/media/abc/set4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

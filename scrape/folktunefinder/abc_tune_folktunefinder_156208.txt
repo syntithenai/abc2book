@@ -1,0 +1,34 @@
+X:1
+T:Englische Tenze
+C:vor 1821
+A:Grossmehring, Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Dokumente regionaler Musikkultur in Oberbayern", Heft 6, Volksmusikarchiv des Bezirks Oberbayern, Muenchen 1994
+N:dort auf seite 8 in C (1. 2.Teil) mit zweiter Stimme und Harmonie-Buchstaben von Wolfi Scheck 1988, in der Quelle einstimmig
+S:mit der Angabe: Handschrift des Alois Sterzl, Grossmehring 1821, S.80
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+N:Notenmaterial von Stefan Straubinger
+M:2/4
+L:1/16
+K:C
+g2g2 ag^fg | c'2g2 g4 | g2ga gfed | c2e2 c2G2 |
+g2g2 ag^fg | c'2g2 g4 | g2ga gfed | c4z2 :|
+d2f2 e2g2 | f2fg e2e2 | b2b2 a2g2 | f2e2 d4 |
+g2ga f2f2 | f2fg e2e2 | d2d2 cBAG | c4z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/156208
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/englische_tenze.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

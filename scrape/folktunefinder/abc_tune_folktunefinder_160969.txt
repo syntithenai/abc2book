@@ -1,0 +1,23 @@
+X: 1
+T: Gillan's Apples
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:dAF FAF|FAF F2d|BGE EFE|EFE EFA|
+dAF FEF|DFA d2e|fed cdB|1 cAA ABc:|2 cAA A2d||
+|:cAe cAe|cAe edc|dBf dBf|dBf fed|
+cAe cAe|cAe e2a|fed cdB|cAA A2d:|
+|:cBA BAF|dAF D2d|cBA BAF|AFE E2d|
+cBA BAF|DFA d2e|fed cdB|cAA A2d:|
+|:cAA eAA|fgf edc|dBB fBB|fgf fed|
+cAA eAA|fAA aAA|fed cdB|1 cAA A2d:|2 cAA ABc||
+S:https://www.folktunefinder.com/tunes/160969
+S:http://www.thesession.org/tunes/display/1854
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

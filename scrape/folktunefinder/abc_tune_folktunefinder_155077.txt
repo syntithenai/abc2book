@@ -1,0 +1,28 @@
+X: 3
+T: The Dusty Windowsills
+T: Dust On The Windowsill
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+|: "Am"A2B- cBA- | eAB- cBA | "Em"vFGG EGG | DGG EFG |
+   "Am" A2B- cBA- | e2d efg | "G"age dBA |[1 BAG "Am"A3 :|[2 BAG "Am"A2 e ||
+|: "Am"a2a ged | efg "G"~g3 | vg2f- ged | BAG GGG |
+   "(C)"vEGG "G"DGG | EGG ABc- | Bed BAG |[1 BAG "Am"A2e :|[2 BAG "Am"A3 ||
+|: "Am"ABA gAf | ABA edB | "G"GGG eGd | GGG edB |
+  "Am"ABA gAf | ABA efg | "G"age dBA |[1 BAG "Am"A3 :|[2 BAG "Am"[A3E3] |]
+N:Learned from Reuben Knutson in Valaszut 8/13/2001 - abc by Peter Ostapenko.
+N:Also see Smoke In Your Eyes, 4th ed, pg 158 (source of chords).
+N:Also see http://www.thesession.org/tunes/display/29.
+N:Last update - PO 8/27/2007.
+N:A Dorian
+S:https://www.folktunefinder.com/tunes/155077
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DustyWindowsills.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

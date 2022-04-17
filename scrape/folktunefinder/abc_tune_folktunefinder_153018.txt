@@ -1,0 +1,22 @@
+X:65
+T: Graserin und Reiter
+N: Q1149M
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0149K u.a., anderes Lied.
+R: 
+M: 6/8
+L: 1/8
+K: G
+G | GGGA_Bc | d3A2
+A | d2ddc_B | A3z2
+d | c2A_BAG | c3d2
+G | GA_BdBA | G3z2
+S:https://www.folktunefinder.com/tunes/153018
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:2
+T:The Fife Hunt
+C:William Gow
+R:reel
+Z:Arranged by C. McGrew
+M:C|
+Q:1/2=120
+K:C
+f| "C"ec c2 GE E2| "F"Ddd^c d2 df| "C"ec c2 GE E2| \
+   "G"GccB "C"c2 cf| "C"ec c2 GE E2|
+   "F"Ddd^c d2 df| "C"ec c2 "G"GE E2| Ac-cB "C"c2-c:| \
+f| "C"ecgc acgc| "F"Add^c d2-df| "C"ecgc acgc| 
+   "G"GccB "C"c2 cf| "C"ecgc acgc| "F"Add^c d2-df| \
+   "C"egcg "F"fadf| "G"ec-cB "C"c2-c:|
+S:https://www.folktunefinder.com/tunes/157723
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/TheFifeHunt.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/TheFifeHunt.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

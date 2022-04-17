@@ -1,0 +1,30 @@
+X: 1
+T:Hanter-dro 3
+G:Kazimodal
+R:Hanter-zas
+C:Traditionnel, arrangement en dorien Ronan Keryell http://kazimodal.trad.org
+Q:C2=100
+P:C2
+M:3/4
+S:Tonio Breizh-Izel 1910 (Plawour/An Oriant)
+K:C
+P:C
+|: EG/2F/2 EG {FG}F z | \
+        (A/2G/2)(A/2B/2) {GA}GA/2F/2 E z | \
+        EG/2F/2 EG {FG}F z | \
+        (A/2G/2)B/2A/2 {GA}G(F/2G/2) E z :|
+|: B(B/2c/2) AB {GA}GE | \
+        A(A/2B/2) FA (G/2F/2)(G/2A/2) | \
+        B(B/2c/2) AB {GA}GE | \
+        A(A/2B/2) {GA}GF E z :|
+S:https://www.folktunefinder.com/tunes/163148
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ha/Hanter_dro_3_2.abc
+% Rhythm Hanter-zas
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

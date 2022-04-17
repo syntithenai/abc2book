@@ -1,0 +1,22 @@
+X:146
+T: Die drei Hexen
+N: Q2080L
+O: Suedosteuropa, Jugoslawien, Ost - Serbien
+N: Serbische Fassung der Ballade.
+R: Ballade, Magie, Verwuenschung
+M: 3/4
+L: 1/4
+K: F
+ | ccc | A2A | GAB | GAB
+ccc | e2d | c2B | A3
+S:https://www.folktunefinder.com/tunes/152178
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, magie, verwuenschung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

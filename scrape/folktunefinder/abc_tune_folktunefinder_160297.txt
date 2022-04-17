@@ -1,0 +1,23 @@
+X: 1
+T: Gan Ainm
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;G&quot;d2 d dcB|&quot;F&quot;c2 c c3|&quot;G&quot;B2 B BAG|&quot;D&quot;A3 ABc|
+&quot;G&quot;d2 d dcB|&quot;F&quot;c2 c c3|&quot;G&quot;B3 &quot;D&quot;A3|&quot;G&quot;G6:|
+|:&quot;G&quot;B2 d BAG|&quot;F&quot;A2 c A3|&quot;G&quot;G2 G GEB,|&quot;D&quot;D6|
+&quot;G&quot;B2 d BAG|&quot;F&quot;A2 c A3|&quot;G&quot;GGG BAG|BAG G3:|
+|:&quot;G&quot;(B3 B)cB|&quot;F&quot;A6|&quot;G&quot;G3 &quot;D&quot;A3|&quot;G&quot;BAG &quot;D&quot;A3|
+&quot;G&quot;(B3 B)cB|&quot;F&quot;A6|&quot;G&quot;ded &quot;D&quot;cBA|&quot;G&quot;BGG G3:|
+|:&quot;Em&quot;e2 e g2 g|a2 a b2 b|bag e2 e|ged B3|
+e2 e g2 g|a2 a b2 b|bag &quot;D&quot;e2 d|&quot;Em&quot;e6:|
+S:https://www.folktunefinder.com/tunes/160297
+S:http://www.thesession.org/tunes/display/7967
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

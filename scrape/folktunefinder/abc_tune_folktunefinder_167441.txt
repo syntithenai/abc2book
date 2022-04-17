@@ -1,0 +1,18 @@
+X: 1
+T: Jeg gikk meg ut i lunden gr\onn
+O: Norway
+M: 2/4
+L: 1/16
+K: G
+D | "G"D2G2 G2-GA | "D"F2D2 F3G  | "C"E2C2    C2E2 | "D"~E2D2 D3 \
+D | "G"D2G2 G2-GA | "D"F2D2 F3G  | "C"E2C2 "D"D2F2 | "G"G4    z4 ||
+  | "G"G2GB d4    | "F"c2AA A2A2 | "F"=F2FA   c2dc | "G"B2G2  D4 \
+  | "G"D3G  G3A   | "D"F2D2 F3G  | "C"E2C2 "D"D2F2 | "G"G4    z3 |]
+S:https://www.folktunefinder.com/tunes/167441
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tune/JegGikkMegUt_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:7
+T:Felton Lonnin'
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+d | e2c dBG | "tr"B2G GBd | e2c dBG | "tr"c2A Acd |
+e2c dBG | B2G GAB | cec BdB | cAA Ac :: d |
+efg gfe | d<gB GBd | efg gfe | e<aA Acd |
+efg gfe | def gdB | cac BgB | cAA Ac:|
+S:https://www.folktunefinder.com/tunes/157514
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Felton_Lonnin.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Felton_Lonnin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:8
+T: Koenig und Marquise
+N: Q0035
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Saarburg,
+N: Kleinere Strophenvariante abgedruckt.
+R: Ballade, Frauenraub
+M: none
+L: 1/16
+K: D
+F2F2E2 | D4D2E2F2A2 | F4z2
+A2F2E2 | D4D2E2F2A2 | F4z2
+E2 | FFE2F2GG | A4F4z2
+A2F2E2 | D4D2D2E2F2GF | E4
+DEF2E2D2 | F2A2F2E2 | D6
+S:https://www.folktunefinder.com/tunes/151537
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, frauenraub
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

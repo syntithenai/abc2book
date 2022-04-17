@@ -1,0 +1,26 @@
+X: 1
+T: Dublin Coddle
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+B>A | 
+(3GAG D2 B>A | (3GAG D2 (3Bcd | (3efe d2 G2 | F4 A>G |
+(3FGF D2 A>G | (3FGF D2 (3Bcd | (3efe d2 A2 | G4 B>A |
+(3GAG D2 B>A | (3GAG D2 (3Bcd | (3efe dG (3efg | a2 e>^d e>f |
+g>B g>G (3gfe | (3ded B>d (3Bcd | f>F d>F c>F | G4 ||
+B>A | 
+G>D G>A (3Bcd | g>f g>b a>f | g>B g>G g>e | f4 A>^G |
+A>E A>B c>d | f2 f>g f>e | d>A d>D F>D | B2 B>d B>A |
+G>D G>A (3Bcd | g>f g>b a>f | g>B g>G gf | e2 e>^d e>f |
+g>f a>g (3gfe | (3ded B>d B>d | f>F d>F c>F | G4 ||
+S:https://www.folktunefinder.com/tunes/154776
+S:http://www.thesession.org/tunes/display/7133
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

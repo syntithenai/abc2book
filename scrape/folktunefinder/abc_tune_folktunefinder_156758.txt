@@ -1,0 +1,29 @@
+X: 1
+T: Fairy Queen, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Dmaj
+P:A
+d2 d2 BA | d4 BA | d2 d2 BA | d2 {f}e2 f2 | d2 d2 AB | F4 dc |
+B4 dc | d3 g f/2g/2f/2e/2 | d3 f  e/2f/2e/2d/2 | c3 f  e/2f/2e/2d/2 |
+B3 c BA | F3 g fe | {A}B3 d cB | A2 B2 dc | d6 | D4 ||
+P:B
+de | ~f3 e/2f/2 f2 | fefgfg | {f}e4 e2 | e2 f2 a2 | d4 a2 |
+c4 ac | B3 c B/2c/2B/2A/2 | F3 A Bc | d3 G F/2G/2F/2E/2 | E3 d cd |
+e3 d c/2d/2c/2B/2 | A3 g fd | B3 d c/2d/2c/2B/2 | A2 B2 dc | d6 | D4 ||
+P:C (octave up)
+Bc | d2 d2 A2 | d3 c B/2c/2B/2A/2 | F3 G FE | D4 Bc | dcdedc |
+BABcdB | e3 d c/2d/2c/2B/2 | A4 de | f2 f2 B2 | fefgfA | 
+{cd}e3 d c/2d/2c/2B/2 | A4 f2 | BcBcde | A2 B2 dc | {c}d6 | D4 |]
+S:https://www.folktunefinder.com/tunes/156758
+S:http://www.thesession.org/tunes/display/243
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

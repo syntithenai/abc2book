@@ -1,0 +1,24 @@
+X: 1
+T: DOUBLE SET-BACK
+S: Carey(MSS)
+O: Headington
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: G
+|: dedB G2FG | ABAB A2Bc | dgfe dcBA | B2G2 G2z2 :|
+P: B
+|: Bc |\
+   d2g2 d2Bc | d2g2 d2Bc | d2gf edcB |1 c2A2 A2Bc :|2 e2A2 A2 ||
+S:https://www.folktunefinder.com/tunes/154049
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Double_Set-Back_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

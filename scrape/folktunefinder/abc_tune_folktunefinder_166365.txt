@@ -1,0 +1,28 @@
+X: 1
+T:Innerst\aa{}frid'n (senpolska fr\aa{}n \"ostra J\"amtland)
+O:Sweden
+A:J\"amtland
+R:Senpolska
+R:Polska
+M:3/4
+D:\"Ostersunds Spelmanslag CD TLSCD1996
+K:Gm
+g2d3 c|e>d dc cA| B/A/B/c/ d2 Bc/B/| AB/A/ GA/G/ ^FD|\
+g>d d3 c|e>d dc cA|
+B/A/B/c/ d2 Bc/B/|1 A^F G4 :|2 A^F G3 |:\
+A|\
+B/c/B/A/ G>A Bc | d>g ^fg d2|
+g>^f gb ag| f>g fe d2|\
+{^f}g2d3 c|e>d dc cA| B/A/B/c/ d2 Bc/B/|1 A^F G3 :|2  A^F G4|]
+S:https://www.folktunefinder.com/tunes/166365
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/in/Innerstaa_fridn_senpolska_fr_aa_n_ostra_J_amtland_1.abc
+% Rhythm Senpolska
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,42 @@
+X:1
+T:Duo en ut majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle03.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:6/8
+L:1/8
+K:C
+V:1
+"^Allegretto"g3e3|c3(cd).e|f3d3|B3(GA).B|c2cd2d|
+V:2
+(EG).c (EG).c|(EG).c E2z|(GB).d (GB).d|(GB).d G2F|E2EB2B|
+%
+V:1
+e2ef2f|(ef).g (gf).e|{e}d6::(f2e)d2d|(ef).g (gf).e|
+V:2
+c2cd2d|(cd).e (ed).c|{c}B6::(d2c)B2B|(cd).e (ed).c|
+%
+V:1
+(f2e)d2d|(ef).g g2z|a3 (c'b).a|g2ga2a|(gf).e (dc).B|{d}c6:|
+V:2
+(d2c)B2B|(cd).e e2z|f3 (ag).f|e2ef2f|(ed).c G2G|{F}E6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155042
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle03.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle03/devienne-nouvelle03.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle03/devienne-nouvelle03.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 1
+T:Golden Slippers
+M:4/4
+L:1/4
+K:C
+||E|"G"D3G/A/|BA G<=F| "A"^c3^f/^g/|a^g ^f<e|
+|"Bb"=d>cd_e|fff>d| "C"cBcd| "D"BG^F||
+||^c|"E"B3e/^f/|^g^f e<=d|"F#"^A3^d/^e/|^f^e ^d<^c|
+|"G"=b>a "F#" ^ab|"E"BB "D"c>c|"C"(3A,A,_B, "B"(3B,B,^D|"Bb"[_B,D]2 "A7"[G,E]2||
+S:https://www.folktunefinder.com/tunes/161663
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/DemGoldenSlippers.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/GoldenSlippers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

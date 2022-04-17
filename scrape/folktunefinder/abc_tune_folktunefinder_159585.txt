@@ -1,0 +1,38 @@
+X: 1
+T: Fun der Khupe
+O: Khevrisa
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: From a printed transcription by Steve Rauch
+M: 2/4
+L: 1/16
+K: Dm 
+"A"\
+|: "Dm"D3A, DFAG | "Dm"F2FF F2F2 \
+|1,3 "Dm"FED2 "Gm"G2B2  | "Gm"B2AG "Dm"A4 \
+:|2,4  "F"FCCF "Eb"F_EED | "Dm"D4 z4 :|
+"B"\
+|:"Dm"D4- DC=B,C | "Dm"D4- DC=B,C \
+| "Dm"DC=B,C DCB,C | "Dm"DC=B,C D4 \
+| "Dm"D_EDC =B,2C2 | "Cm"_E2E2 "Dm"D4 |
+| "Dm"D_EDC =B,2C2 | "Cm"_E2E2 "Dm"D4 \
+|  "F"C2DE FGAB | "F"cAFA "G(m)"G4 \
+| "F"FCCF "Eb"F_EED | "Dm"D4 z4 :|
+"C"\
+|::: "C7"C2 \
+| "F"FGA2- A2A2 | "F"A2 A4 A2 \
+| "C7"G2G2 FEDE | "F"F4 z2 :::|
+"A7"E2 \
+"D"\
+|:"Dm"D4- DF"(A7)"AG | "Dm"F6 "(A7)"E2 | "Dm"D^CDF "Gm"E^DEG | "Dm"FEFA "Gm"GFED |
+| "Dm"D4- DF"(A7)"AG | "Dm"F6 "(A7)"E2 |  "F"FCCF  "Eb"F_EED | "Dm"D4 z2 :|
+S:https://www.folktunefinder.com/tunes/159585
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/FunDerKhupe_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/FunDerKhupe_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

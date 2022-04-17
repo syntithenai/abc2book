@@ -1,0 +1,23 @@
+X:2
+T:
+T:Theme
+M:3/4
+L:1/8
+K:Bb bass
+%1
+"Andante"z2 F > E DF d3-c | B-D F3 B | ACEFAc | BD F3-E |
+%2
+DF d3-c | BD F3 B | ACEFAc | B4 z d | cB G3 =E | FA c3 c | dcBC=EG |
+%3
+FA f3d | cB G3 =E | FA c3 c | dcBC=EG | F4 F>E | DF d3 c | BD F3 B |
+%4
+ACEFAc | BDF3 E | DF d3 c | BDF3 B | AceFAc | B4 |]
+S:https://www.folktunefinder.com/tunes/166455
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/tyrolienne/tyrolienne-tba.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

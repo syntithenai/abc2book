@@ -1,0 +1,29 @@
+X:1
+T:Grand Frise
+C:traditionell
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+Bd |\
+g3fed | f4AB | c3def | e2d2Bd |
+g3fed | f4AB | cBcd(3cBA | G4 :|
+|: GA |\
+B3AGB | d4ed | A3cBA | BAG2GA |
+B3AGB | d4ed | fedcBA | G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/162079
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/grand_frise.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

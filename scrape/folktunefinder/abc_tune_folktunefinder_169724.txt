@@ -1,0 +1,33 @@
+X: 1
+T:Kid On The Mountain
+M:9/8
+L:1/8
+Q:120
+C:Traditional
+S:O 85
+R:Slip Jig
+Z:Second in set with Rocky Road to Dublin
+K:Em
+|:"Em"EDE "D"FEF "Em"G2 F|"Em"EDE "D"BcA BGD|"Em"EDE "D"FEF "Em"G2 A|
+"D"BAG FAG FED:|!
+|:"G"BGB "D"AGF "G"G2 D|"G"GAB "D"dgf dBG|"G"BAB "D"AGF "G"G2 A|
+"D"BAG FAG FED:|!
+|:"Em"gfg eBe e2 f|"Em"gfg "D"efg afd|"Em"gfg efe e2 a|"D"bag fag fed
+:|!
+|:"Em"eBe e2 f gfg|"Em"eBe "D"efg  afd|"Em"eBe e2 f g2 a|"D"bag fa
+g fed:|!
+|:"G"edB "D"dBA "G"G2 D|"G"GAB "D"dge dcA|"G"edB "D"dBA "G"G2 A|
+"D"BAG FAG FED:|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/169724
+S:http://www.blackflute.com/music/tunes/slipjigs/kid.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:0127
+T:"I Saw Thy Form"     (air)     0127
+C:Unattributed
+N:(and it wasn't filled out correctly!)
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=80
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"_vb"(d3/2e/2)|f2"^shake"(f/2e/2d/2c/2) d2z.A|(.c.B.A.G) (GF) zA|(FA)(de) f2(ed)|d4(e/2f/2e) (d3/2e/2)|
+f2"^shake"(f/2e/2d/2c/2) d2zA|(cBAG) (GF) zA|(F/2A3/2) (d/2f3/2) (a/2f3/2) (e/2f3/2)|d2 (3(def) (e/2d3/2)||
+z2|(a2gf) (f/2e3/2) (e/2g3/2)|(fdBf) (f3/2g/4f/4) ef|g3f (f/2e/2g/2f/2) (ed)|d3^d e2(=de)|
+f2"^shake"(f/2e/2d/2c/2) d3A|(cBAG) (GF) zA|(F/2A3/2) (d/2f3/2) (a/2f3/2) (e/2f3/2)|d2 (3(def) (e/2d3/2)|]
+S:https://www.folktunefinder.com/tunes/166680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/127-SawThyForm.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/127-SawThyForm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

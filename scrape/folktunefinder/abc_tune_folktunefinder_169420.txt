@@ -1,0 +1,18 @@
+X: 1
+T: Keelman Ower The Land, The
+M: 6/4
+L: 1/8
+R: 6/4
+K: G
+||: d2  cBAG  d4  g2 | d2  cBAG  D4  g2 | e2  c2  A2  g2  c2  A2 | e2  c2  A2  e3  f  g2 | d2  B2  G2  G3  A  B2 | B2  g2  e2  d2  B2  G2 | ABcB  A2  Bcdc  B2 | e4  d2   e2  f2  g2 :||
+||: d2  d2  g2  d2  d2  g2 | d2  d2  g2  d3  c  B2 | e2  e2  a2  e2  e2  a2 | e2  e2  a2  e3  d   c2 | d2  d2  g2  d2  d2  g2 | G2  g2  e2  d2  B2  G2 | ABcB  A2  Bcdc  B2 | e4  d2  e2  f2  g2 :||
+||: dB  G2  G2  GB  G2 G2 | dB  G2 G2  GB  G2  G2 | ec  A2  A2   Ac  A2  A2 | ec  A2  A2  Ac  A2  A2 | d2  B2  G2  G3  A  B2 | B  g3  e2  d2  B2  G2 | ABcB  A2  Bcdc  B2 | e3  d   e2  f2  g2 :||
+S:https://www.folktunefinder.com/tunes/169420
+S:http://www.thesession.org/tunes/display/6185
+% Rhythm 6/4
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

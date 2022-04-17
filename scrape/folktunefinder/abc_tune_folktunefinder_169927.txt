@@ -1,0 +1,25 @@
+X: 1
+T: Kinclaven Brig
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: (3DEF | 
+G2 B2 D2 B2 | G2 B2 D3 G |
+B2 BA GABd | c2 E2 E3 G | F2 A2 E2 A2 |
+[1 F2 A2 d3 e | f2 e2 ABce | d2 B2 B2 :|
+[2 F2 A2 f3 e | d2 c2 EFBA | G2 D2 G2 ||
+Bc | 
+d2 B2 g2 B2 | gf e2 d4 | d2 dB GBdg | (3fgf e2 e2 AB |
+c2 A2 f2 A2 | e2 d2 F3 e | f2 fe ABce | d2 B2 B2 Bc |
+d2 B2 g2 B2 | gf e2 d4 | DGBd gfag | (3fgf e2 e3 g |
+faeg f2 f2 | fecA E2 E2 | FGAB cdef | g2 G2 G2 ||
+S:https://www.folktunefinder.com/tunes/169927
+S:http://www.thesession.org/tunes/display/7189
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

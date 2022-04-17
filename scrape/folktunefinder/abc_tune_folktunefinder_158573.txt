@@ -1,0 +1,25 @@
+X: 1
+T:The Flowers of Limerick
+S:via PR
+M:4/4
+L:1/4
+K:Gm
+G/2-F/2|"G"D/2G/2G/2^F/2 GG/2-A/2|"G"=B/2G/2d/2G/2 =e/2G/2d/2G/2|\
+"Dm"D/2F/2F/2=E/2 FF/2-G/2|"F"A/2F/2c/2F/2 d/2F/2c/2F/2|
+"G"D/2G/2G/2^F/2 GG/2-A/2|"G"=B/2A/2G/2A/2 B/2c/2d/2=e/2|\
+"Dm"f/2=e/2f/2d/2 "Am"c/2=B/2A/2c/2|"G"=B/2G/2"D7"A/2^F/2 "G"G::
+=B/2-c/2|"D7"d/2g/2^f/2a/2 "G"gg/2-a/2|"G"=b/2g/2a/2g/2 b/2g/2a/2^f/2|\
+"D"d/2^c/2d/2=e/2 ^f/2e/2f/2g/2|a/2^f/2g/2f/2 a/2-f/2g|
+"G"B/2g/2^f/2a/2 g/2f/2g/2a/2|"G"=b/2g/2a/2g/2 "D"^f/2d/2d/2=e/2|\
+"F"f/2=e/2f/2d/2 "Am"c/2=B/2A/2c/2|"G"=B/2G/2"D7"A/2^F/2 "G"G:|
+S:https://www.folktunefinder.com/tunes/158573
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flowers_of_Limerick_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fl/Flowers_of_Limerick_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

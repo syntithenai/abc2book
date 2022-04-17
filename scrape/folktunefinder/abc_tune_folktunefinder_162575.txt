@@ -1,0 +1,34 @@
+X:1
+T:Gries-Polka
+C:traditionell
+R:polka schnell
+A:Weststeiermark
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Handschrift des Josef Gries
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d2 d2 | B2 G2 | d>e dB | cD FA|
+d2 d2 | c2 F2 | d>e dc | BD GB |
+d2 d2 | B2 G2 | d>e dB | cD FA |
+d2 d2 | c2 F2 | DD EF | GB G2 :|
+|:\
+B3D | G3D | B>c BG | AD FA | A3D |
+F3D | DD EF | G/F/G/A/ BD |
+B3D | G3D | B>c BG | AD FA |
+A3D | F3D | DD EF | GB G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/162575
+S:http://simonwascher.info/TradArchiv_polka/gries-polka.abc
+% Rhythm Polka schnell
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

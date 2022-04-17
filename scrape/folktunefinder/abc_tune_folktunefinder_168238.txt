@@ -1,0 +1,23 @@
+X: 1
+T: John Harvey's Favourite
+C: Jenny's Pigs
+R: jig
+M: 6/8
+L: 1/8
+K: DMix
+"G"D | "G"~G3 AGF | "C"GAB  c2B/c/ | "G"GFG AGF |"Em"GED E2B/A/ |
+"G"GAB AGF | "Am"GAB c2B/c/ | "G"dcB cBA | "C"GEE c2 :||
+"D"B/c/ | "Bm"dd/c/d def |"G"gfe dBA | "D"dd/c/d def | "C"fge Bc2|
+"D" dd/c/d def |"G"gfe "D"dBA|"G"GF/G/B "Am"ABA | "Em" BA"G"G E2 :|
+S:https://www.folktunefinder.com/tunes/168238
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/JohnHarveysFavourite.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/JohnHarveysFavourite.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

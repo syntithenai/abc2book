@@ -1,0 +1,23 @@
+X:1
+T:The Gentleman Soldier
+S:Penguin Book of English Folksongs
+Q:100
+L:1/8
+M:6/8
+K:G mixolydian
+D| B,2D D D D|G3B A G|A2DD2A|(G3G2)D|\
+B,D D D D D|G3B2G|A2DD2A|(G3G2)G|\
+B2BB2G|A(c2c)zA|G2GG2B|(D3D2)B,|B,2D D D D|\
+G2AB2B|A D D D2A|(G3G)"Chorus" G A|B2B B A G|\
+A A A c B A|G2G (GA) B|(D3D) D D|\
+B,2DD2D|G2AB2B|A2D D D A|(G3G2)|]
+S:https://www.folktunefinder.com/tunes/160758
+S:http://chivalry.com/cantaria/music/gentleman-soldier.abc
+S:http://www.chivalry.com/cantaria/music/gentleman-soldier.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

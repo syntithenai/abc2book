@@ -1,0 +1,33 @@
+X:1
+T:Der Achttourige
+A:Lippe Detmold
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:G. Meyer, "Volkstaenze" Verlag B.G. Teubner, Leipzig u. Berlin 1921 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:F
+d2F F2F | ABc d2c | f2A d2c | BAG F3 |\
+f2A A2A | ABc d2c | f2A d2c | BAG F3 ||
+C2B BAG | C2A AGF | fed cBA | ABG A2F |\
+C2B BAG | C2A AGF | fed cBA | ABG F3 ||
+K:C
+G3 EGc | e3 c2e | dcd fdB | GAB c3 |\
+G3 EGc | e3 c2e | dcd fdB | GAB c3 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152908
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/der_achttourige.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

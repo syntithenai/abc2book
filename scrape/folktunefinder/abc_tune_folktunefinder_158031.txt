@@ -1,0 +1,52 @@
+X:1
+%
+%%titleleft
+%%staffsep 40pt
+%%topmargin 1.5cm
+%%topspace 0.3cm
+%
+%%tabaddflags 0
+%%tabfontsize 11
+%%tabfontscale 1.3
+%%tabflagspace 3pt
+%
+T:Gavotte de Jaquesson
+T:accord: /a = Fis
+C:arrang\'ee pour th\'eorbe
+C:par Christophe d'Alice
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:G frenchtab
+%
+%staff 1
+[,,dVd{a}1] {,a}/ d |\
+        '[b{a}1] d/b '[a,,,,d1] ,,,,b/,d |\
+        '[,c,,a1] ,,,,,b/,,,,a ,,,,b/,d ,,,,,da |\
+        U[bd,a1] Vd/,,d '[b{a}1] {7}/a |
+%staff 2
+[ac{,,,a}1] ,,,,a [,,dVd{a}1] {,a}/ d |\
+        '[b{a}1] ,,e/-,,d d/-b '[a,,,,d],d |\
+        '[,c,,a1] ,,,,,b/,,,,a ,,,,b/,d ,,,,,da |\
+        U[bd,a1] V[d{a}/],,d '[a,,,a1] {,,,a}/,d |
+%staff 3
+X[,d{a}1] {7} :: [b,da1] {a}/,,i |\
+        '[,,g,a1] ,,,,,c/,,d ,,,,,d/,,e ,,,,,a,,b |\
+        ,,,,,b/,,d b1 [,,e,,d/]-,,d d-b |\
+        '[a,,,a1] Vb/,d '[,c,,a1] {,,,a}/,d |
+%staff 4
+[ac,,a1] {,,,a} [,,d,,Xb1] {a}/,,i |\
+        '[,,g,a1] ,,,,,c/,,d ,,,,,d/,,e ,,,,,a,,b |\
+        ,,,,,b/,,d b1 [,,e{4}/]-,,d ,,bb |\
+        '[a{,,,a}1] [,d,,,b/],,,,,d [ad,,a1] {,,,a}/,c |\
+        V[,d{a}1] {7} :|
+%
+W:Original pour Lute Baroque, MS Saizenay, p. 191
+S:https://www.folktunefinder.com/tunes/158031
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Jaquesson/gavotte.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Jaquesson/gavotte.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

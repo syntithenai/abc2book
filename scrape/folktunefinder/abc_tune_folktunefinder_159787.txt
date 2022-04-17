@@ -1,0 +1,21 @@
+X:2
+T:Gallant Weaver (in G)
+M:C
+L:1/8
+C:Robert Burns
+P:A.(A2B3)4.A
+Q:1/4=126
+K:G
+"A"|: dedc Bc d2 | ef g2 d3 d | ef g2 f2 g2 |1 c'2 b2 a4 :|2 a4 g2 "B"|:
+ga | b2 c'b a2 ba | gbag gfed | ef g2 f2 g2 | c'2 b2 a4 | 
+dedc Bc d2 | ef g2 d3 d | ef g2 f2 g2 | a4 g2 :|
+S:https://www.folktunefinder.com/tunes/159787
+S:http://www.mit.edu/~jcb/Red_Herring/dances/gallant-weaver.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Finn-Pls polska
+R:Polska
+Z:C-G Magnusson, 2008-10-01
+O:sele, Lappland
+S:efter Karl Wiklund
+D:Burtrskar'a - Fre den stora flyttningen
+M:3/4
+L:1/8
+Q:120
+K:Gm
+"Gm" d>d cc BB | "D7" A/2B/2A/2^F/2 "Gm" G2 G,2 | "Gm" G>A Bc dg | "Gm" dc "D" d2 D2 |
+"Bb" d>d ff dd | "F" c>c ee dd | "Gm" B>B dd BG | "D" ^F/2G/2A/2F/2 "Gm" G2 G,2 :|
+|: "Gm" G>A Bc/2B/2 AG | "D" ^F/2G/2A/2F/2 "Gm" G2 G,2 | "Gm" G>A Bc dg | "Gm" dc "D" d2 D2 |
+"Bb" d>d ff dd | "F" c>c ee dd | "Gm" B>B dd BG | "D" ^F/2G/2A/2F/2 "Gm" G2 G,2 :|
+S:https://www.folktunefinder.com/tunes/157864
+S:http://www.folkwiki.se/pub/cache/FinnP%e5ls_polska_86180b.latin.abc
+S:http://www.folkwiki.se/pub/cache/FinnP%E5ls_polska_86180b.abc
+S:http://www.folkwiki.se/pub/cache/FinnP%e5ls_polska_86180b.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:1
+T:Idlewild Jig
+M:6/8
+K:D
+"D" D2D FED | F2A d2 A | "Em" Bcd A2F | E2D B,2A, |
+"F#m" D2D FED | F2A d2 A | "Em" Bcd A2F | E2F D3:|
+|: "Bm"B2F F^EF | d2 B B^AB | f2 d dcd | b2f f^ef |
+"G"g2e "D"f2d |"A"e2c "D"d2A |1"G"Bcd A2 c | "A"B2A F2A :|2"G"Bcd A2F | "A"E2D B,2A,|] 
+P:Last time -- transition to next tune
+%%stretchstaff 0
+|| "G"Bcd "A"A2 c | "D"d zz z2 |]
+S:https://www.folktunefinder.com/tunes/165915
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/Idlewild.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

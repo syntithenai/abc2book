@@ -1,0 +1,23 @@
+X:1
+T:Derriere chez nous
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Gmixo
+d2 dc | d3e | f3/2e/2 dc | d2 AB |\
+c2 cB | c3d | e3/2d/2 cB | A4 :|
+|:\
+G2 AG | d3c | A3/2B/2 AB | G2 dB |\
+G2 AG | d3c | A3/2B/2 AB | G4 :|
+S:https://www.folktunefinder.com/tunes/153095
+S:http://simonwascher.info/TradArchiv_bourree_2/derriere_chez_nous.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

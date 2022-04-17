@@ -1,0 +1,21 @@
+X:102
+T: Die erzwungene Ehe
+N: Q0050
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Garburg
+R: Ballade, Hochzeit, Tod
+M: 3/8
+L: 1/16
+K: E
+B2 | =G2F2E2 | =D2E2D2 | =G2B2A2 | B4
+B2 | B2A2=GF | E2E2=D2 | FA=G2F2 | E4
+S:https://www.folktunefinder.com/tunes/151631
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

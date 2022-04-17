@@ -1,0 +1,41 @@
+X:3
+T:Prelude 3
+L:1/4
+M:3
+K:GM frenchtab
+%%stretchstaff false
+%%staffsep 45pt
+,,d2 a [f,,,a] |\
+[da,c2] [a,d1].b ,,ba/.,d |\
+[a,,c1][,b,d] ,d,,,c/.,,,a [,b,c1].,a |\
+[,,dca{,,,a}1].,b [,a,,,a]:a/.,d [,b,,a1],d/.,b |\
+[,a,,,d/].,b,a.,,d [,,b,,a1][,d,,,b] :,,d{a}/.,b |\
+[,a,,,a1].,,,a [,,d,d],,,,c/.,,,,a ,,,,c1.,,c |
+% Takt 7
+[,,dca2] [abd1]>.,,b [bbdd1]>.a |\
+[,dff1]>[a,,c] [,bdd1].,,,c [,dda/];a,d.,b |\
+[,a,c1]>.,,d ,,c1.,,,a [,,d,d][,a,,c] |\
+[,b,,a1]>.,,,,,d [,d,,,b1][aa,,,a] [,,d,,b].,d |\
+[aacc,a1]:,d/.,b ,a.,,d,,c.,,a ,,,c.,,,a,,,,d.,,,,c |
+% Takt 12
+,,,,a/.,,,c,,a.,,c ,,d.,a,b.,d a.cd.f |\
+[d,,c/].,,a,,b.,,d [ca].,b,d.,a [ab].,d,b.,a |\
+[b,d/].a,b.,d [a,b].cd.a ,,,d.,d,b.,d |\
+[,,bc/].,b,a.,b ,,,d.,,d,a.,b [,d,a].ab.d |
+% Takt 16
+[a,,,d/].,,b,,d.,a ,b.,da.,b [b,,a].a,d.,b |\
+[,a{a}/].,b,,d.,a ,,c.,,,,,a:,d.,b ,a.,,,ca.,d |\
+M:C|
+[,cdca1]>[,d,,c] [a,,,e].,,d[b,,a].,a |\
+[ab,c/].,d[,bb].,a [fddd2] |\
+H[eff,,a4] |]
+S:https://www.folktunefinder.com/tunes/156973
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Vallet/vallet1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

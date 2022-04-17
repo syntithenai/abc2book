@@ -1,0 +1,22 @@
+X:55
+T:Staggering Home
+% Nottingham Music Database
+S:Phil Rowe via Toby Bennett
+M:9/8
+K:G
+"Em"e2e g2e "B7"^d2B|"Em"e2e gfe "B7"^def|"Em"e2e g2e "D"fga|\
+"C"g2e "B7"f2^d "Em"e3|
+F"Em"b2 bg2 eg2g|"B7"^d2B ^d2f agf|"Em"g2e " B7"^d2B c2^d|"Em"e2g "B7"fe^d e3|
+S:https://www.folktunefinder.com/tunes/154548
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/slip.abc
+S:http://www2.redhawk.org:8080/irish/nmd/slip.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/slip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

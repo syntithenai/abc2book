@@ -1,0 +1,29 @@
+X:1
+T:Valse : Le revenant
+E:12
+Z:Roger Ngaret (94-95)
+R:valse
+C:Trad.
+S:
+A:
+M:3/4
+L:1/16
+K:C
+Q:1/4=180
+"Am"e8 e4 | "F"f4 e4 d4 | "Am"c8 c4 | "D"d4 c4 B4 | "Am"A8 A4 |1
+"G"B4 c4 d4 | "C"e12 | "Em"d12 :|2 "G"B4 c4 B4 | "Am"A12 |
+A2B2 c4 d4 |: e2A2 c2e2 c2e2 | "F"f2e2 d2f2 e2d2 | "Am"c2E2 A2c2 A2c2 | 
+"D"d2c2 B2d2 c2B2 | "Am"A2A2 E2A2 E2A2 |1
+"G"B4 c4 d4 | "C"e2c2 G2e2 c2G2 | "Em"d2B2 G2d2 B2G2 :|2
+"G"B4 c4 B4 | "Am"A12 | A2B2 c2d2 e2f2 |]
+T:Fin
+"G"B4 c4 B4 | "Am"(A12 | A12) |]
+S:https://www.folktunefinder.com/tunes/157788
+S:http://termen.free.fr/danses/valses/ValseLerevenant.abc
+% Rhythm Valse
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T:Fiddler's Dream
+M:4/4
+L:1/8
+R:Breakdown
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/CFtunes1.abc
+K:G
+"G"BAGE DCB,A,|G,B,DG DFGA|Bdef gfga|"D"bgag edg2|!
+"G"bgag edef|"C"gedB AGEF|"D"GDED B,DGA|\
+1BGAF "G"G2A2:|2BGAF "G"G4||!
+K:D
+|:"D"A4 A4|ABde fedA|"A"cded cABc|"D"dcdB AGFE|!
+DF3 A4|ABde fedA|1"A"cded cABc|"D"d2[df][de][d2f2]B2:|\
+2"A"cdeg aedA|"D"d3e =c3d|]
+S:https://www.folktunefinder.com/tunes/157661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/Fiddlers_Dream_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fi/Fiddlers_Dream_1.abc
+% Rhythm Breakdown
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:0340
+T:"The Girl From Lower Ireland "    (damaged)  (air)         0340
+C:after  Sg't.  J. O'Neill
+C:gracefully
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N: TEN bars first section,  NINE bars sectond section.  Sheesh!
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+"_VB"A2|d2g2fe|"^shake"(dc) "^shake"(AG) FG|(AB {d}cA) GB|(A2d2)d2|d4A2|
+d2g2fd|c2(AG) FG|(Ad) d2FD|(E2{FE}D2D2)|D4||
+(FG)|B2B2ef|(ga g)(f ed)|d2(ed cA)|
+A4(FG)|A2A2(de)|(fa gf ec)|
+d3(c AG)|(E2{FE}D2D2)|D4|]
+S:https://www.folktunefinder.com/tunes/161039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0340-GirlLower.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

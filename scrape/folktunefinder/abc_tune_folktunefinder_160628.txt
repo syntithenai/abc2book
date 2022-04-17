@@ -1,0 +1,51 @@
+X:3959
+T:Gavotte
+C:Charles B\^aton
+R:Gavotte
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 72 %Piccolo
+M:C|
+L:1/8
+Q:1/2=93
+K:C
+V:1
+(e2g2|c2G2) f2(Med)|(d<e) (d<c) d2 (ec)|d2 e2 (fe)(dc)|TB2 (A<G) (e2g2|c2G2) f2(Med)|
+V:2
+z4|(e2g2 B2G2)|c3c B2A2|B2c2 (dc)(BA)|G4 z4|(e2g2 B2G2)|
+%
+V:1
+e2(d<c) d2(ef)|e2(^fg) (Tf3g)|g4::(GA)(Bc)|(d3e/f/) Te3f|d2(ef) (gf)(ed)|
+V:2
+c3c B2B2|(cd)(cB) (TA3G)|G4::z4|G(GAB) c3c|B2(GA) _B2B2|
+%
+V:1
+c2(de) (fe)(dc)|d2G2 (Ac)(Bd)|(ce)(df) (eg)(fa)|g4 (fe)(fd)|(ec)(fe) (de)(cd)|TB2G2 (3ABc (3Bcd|
+V:2
+A2(=Bc) (dc)(BA)|G2z2 z2G2|(Ac)(Bd) (ce)(df)|(ed)(ec) d2G2|(ge)(ag) (fg)(ef)|d2z2 z2G2|
+%
+V:1
+(3cde (3def (3efg (3fga|g4 (ab)(c'g)|(a_b)(ag) (fd)(ef)|(ga)(gf) (ec)(de)|(fg)(fe) (Td3c)|c4:|
+V:2
+(3ABc (3Bcd (3cde (3def|(ec)(de) f2e2|(fg)(fe) (d=B)(cd)|(ef)(ed) (cA)(Bc)|(de)(dc) (TB3c)|c4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/160628
+S:http://abc.musicaviva.com/tunes/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/baton-charles/baton-gavotte/baton-gavotte-2h.abc
+% Rhythm Gavotte
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

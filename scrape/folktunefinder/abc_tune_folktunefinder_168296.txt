@@ -1,0 +1,33 @@
+X: 100630
+T: John Kimmel's
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: Gdor
+D | GDG BGB | dBd g2 a | bag fdB | GcB AGF |
+GDG BGB | dBd gdg | bag fdc |1 BGG G2 D :|2\
+BGG G2 g/a/ ||
+bdd d2 a/g/ | fdd d2 g/a/ | bag fdB | GcB AGF |
+bdd d2 a/g/ | fdd d2 g/a/ | bag fdc |1 BGG G2 g/a/ :|2\
+BGG G2 z ||
+P: version in E minor
+K: Edor
+B, | EB,E GEG | BGB e2 f | gfe dBG | EAG FED |
+EB,E GEG | BGB eBe | gfe dBA |1 GEE E2 B, :|2\
+GEE E2 e/f/ ||
+gBB B2 f/e/ | dBB B2 e/f/ | gfe dBG | EAG FED |
+gBB B2 f/e/ | dBB B2 e/f/ | gfe dBA |1 GEE E2 e/f/ :|2\
+GEE E2 z ||
+S:https://www.folktunefinder.com/tunes/168296
+S:http://www.qmcorp.net/webabc/j/100630.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

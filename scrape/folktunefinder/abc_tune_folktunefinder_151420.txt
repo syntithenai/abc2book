@@ -1,0 +1,21 @@
+X: 3
+T: Danzig Willie
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+|: G>A |\ 
+(3BcB G>B c>e | d2 d>e d>c | (3BcB G>B c>B | A>F D2 G>A | 
+(3BcB G>B c>e | d2 d>e d>c | (3BcB G>B A>F |[1 G4  :|[2 G4 g>f  ||
+|: e2 c>e d>c | d2 G>B c>B | A2 D>F A>c | c>B A>G g>f |
+(3ege c>e d>c | d2 G>B c>B | (3ABA D>F A>F |[1 G2 g2 f2 :|[2 G4 |]
+S:https://www.folktunefinder.com/tunes/151420
+S:http://www.thesession.org/tunes/display/9127
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

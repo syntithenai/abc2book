@@ -1,0 +1,21 @@
+X: 1
+T: Gan Ainm
+M: 4/4
+L: 1/8
+R: strathspey
+K: Dmaj
+B|:A<DF>A d/c/B/A/ F>A | G>EF>D G/F/E/D/ B,>B |
+A<DF>A d/c/B/A/ F> A|1 d>ef<d {d}e2d>B :|2 d>ef<d {d}e2 d>a ||
+f<ae>f d>BA>F | D>A{B}d>A G/F/E/D/ B,>g | f>ae<f d>AF>A | d>ef<d {d}e2 d>g|
+f<ae>f d>BA>F | D>A{B}d>A G/F/E/D/ B, E | D>FE>G F>AG>B | A<FG<E D2 {B,}D2|
+S:https://www.folktunefinder.com/tunes/160237
+S:http://www.thesession.org/tunes/display/7683
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

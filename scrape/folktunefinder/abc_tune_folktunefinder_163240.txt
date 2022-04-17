@@ -1,0 +1,27 @@
+X: 1
+T: HAPPY MAN
+S: RD ex Blunt MSS
+O: Adderbury
+N: A part song.  Song does not begin till second firgure:
+N: sticktapping (with 2-step) in chorus only (FH).
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+P: A
+D2 | G2 G2 A2 | B4 A2 | B2 B2 ^c2 | d4 d2 |
+     B2 B2 B2 | A2 A2 d2 | B2 B2 B2 | A2 A2 d>d | d2 e2 ^c2 | d4 ||
+P: B
+d>c | B3 A G2 | d4 GF | E2 cB AG | G2 F2 DD |
+      G2 GA Bc | A4 cB | A3 G F2 | G4 ||
+S:https://www.folktunefinder.com/tunes/163240
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Happy_Man_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

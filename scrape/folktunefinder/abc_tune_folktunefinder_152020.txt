@@ -1,0 +1,26 @@
+X:98
+T: Der schwatzhafte Junggeselle
+N: Q0139M
+O: Mitteleuropa, Deutschland
+N: Stimme aus einem Quodlibet von Melchior Franck.
+N: Taktstriche entsprechend der Vorzeichnung gesetzt. Schlusspause
+N: weggelassen.
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 4/4
+L: 1/16
+K: G
+ | G4B4d6c2 | B4A4G4z2
+D2 | G4B4d6c2 | B4A4G4z2
+B2 | B2B2B2A2B4A2G2 | B2d2c2B2A4z2
+A2 | G2A2B2^c2d3dd2=c2 | B2B2A2A2G8
+S:https://www.folktunefinder.com/tunes/152020
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

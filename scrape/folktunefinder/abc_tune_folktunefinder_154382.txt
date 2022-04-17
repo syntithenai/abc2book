@@ -1,0 +1,34 @@
+X:1
+T:Dritthalm
+C:traditionell
+R:polka
+A:Bandrow, Galizien (Ukraine)
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 6
+N:im buch ganz in G, einstimmig, 1. ton d'', ambitus g' - g''
+S:im buch mit der angabe: S. a. Scharlach, Schwaebische Volkstaenze aus Galizien, Nr. 10
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+dB dB | dd ed | cA cA | dd B2 |\
+dB dB | dd ed | cA cA | GB G2 |
+GG Bd | gf e2 | cA cA | fe d2 |\
+GB dd | gf e2 | cA cA | GBG2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154382
+S:http://simonwascher.info/TradArchiv_polka/dritthalm.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

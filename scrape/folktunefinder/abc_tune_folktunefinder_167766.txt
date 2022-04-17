@@ -1,0 +1,25 @@
+X: 1
+T: Jig Of Beer
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+e|fAA fAA|gAA gAA|aa/a/a age|dcd deg|
+fAA fAA|gAA gAA|aa/a/a age|dce d2:|
+A|cde efg|age edc|d2c deg|a/a/ag e2d|
+cde efg|age edc|deg age|edc d2:|
+|=f|fAA fAA|gAA gAA|aa/a/a age|dcd deg|
+fAA fAA|gAA gAA|aa/a/a age|dce d2e|
+fAA AAA|gAA AAA|aa/a/a age|dcd deg|
+fAA fAA|gAA gAA|aa/a/a age|dce d2||
+A|cde efg|age edc|d2c deg|a/a/ag e2d|
+cde efg|age edc|deg age|dce d2:|
+S:https://www.folktunefinder.com/tunes/167766
+S:http://www.thesession.org/tunes/display/8294
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

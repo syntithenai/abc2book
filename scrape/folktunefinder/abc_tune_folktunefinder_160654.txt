@@ -1,0 +1,39 @@
+X:1
+T:Gavotte : Suite montagne
+E:12
+Z:Roger Ngaret (94-95)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:Eb
+T:Ton kentan
+Q:1/4=150
+c2e2 g2g2 a2g2 d4 | (3d2e2f2 g2f2 g4 g4 | c2e2 g2e2 g2e2 g4 | \
+(3d2e2f2 g2f2 g4 g4 | c2e2 g2g2 a2g2 d4 | (3d2e2f2 e2d2 c4 c4 | \
+c2e2 g2e2 g2d2 e4 | (3d2e2f2 e2d2 c4 c4 |]
+T:Tamm kreiz
+Q:C6=75
+M:9/8
+c2d2e2 f4 d2 B4 B2 | d4 e2 e4 d2 c6 | c2d2e2 f4 d2 B4 B2 | \
+d4 f2 e4 d2 ed c4 |
+Q:C6=150
+|: c2 g4 e2 f4 g4 g2 | f4 e2 d6 c6 | c2 g4 e2 f4 g4 g2 | f4 e2 d2e2d2 c6 :|
+T:Ton diwezhan
+Q:1/4=150
+M:4/4
+{BA}B2e2 d2e2 f2g2 e4 | e2c2 d2c2 B4 B4 ::\
+{BA}B2e2 d2e2 f2g2 e4 | e2a2 g2a2 f4 f2e2 | \
+d4 d2e2 f2g2 e4 | e2c2 d2c2 B4 B4 :|
+S:https://www.folktunefinder.com/tunes/160654
+S:http://termen.free.fr/danses/cornouaille/GavotteSuitemontagne.abc
+% Rhythm Gavotte
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

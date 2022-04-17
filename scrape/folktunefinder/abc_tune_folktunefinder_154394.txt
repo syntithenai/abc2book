@@ -1,0 +1,27 @@
+X:1
+T:Driving Bordeaux
+M:C
+L:1/8
+Q:210
+C:(c) Greg Anderson, 18 Nov 1999
+R:Reel
+H:Driving in Boston is good practice for driving in Bordeaux
+K:D
+dcB||AF DF BF DF|dA FE D2 DD|B,A, B,C DB, A,F-|FE FG FF G^G|
+AF DF BF DF|AB AD- D2 DD|E^D EF ^G2 B2|AA, B,A,- A,F G^G|
+AF DF BF DF|dA FE D2 DD|B,A, B,C DB, A,F-|FE FG FF G^G|
+AF DF BF DF|cB Ad- dc de|fe dB AF ED|D4- De dc
+|:BF- F3 G FE|DE CB,- B,4|CA, CD ED CE|DE CB,- B,e dc|BF- F3 F GF|
+ED EF- F2 FF|CD EA cB Ac|1BF dB- Be dc:|2BF dB- Bd cB||
+S:https://www.folktunefinder.com/tunes/154394
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/DrivingBordeaux.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/GregAnderson/DrivingBordeaux.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

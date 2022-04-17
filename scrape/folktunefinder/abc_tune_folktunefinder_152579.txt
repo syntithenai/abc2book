@@ -1,0 +1,31 @@
+X:2
+T:Mazurka van Hofstade
+O:Hofstade
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek I
+M:3/4
+L:1/8
+K:G
+P:A
+B>B B2 c2 | B>A c4 | A>A A2 B2 | A>G B4 |
+G>G G2 A2 | GF Fd d2- | dE Ec c2- | cD DB B2 |
+B>B B2 c2 | B>A c4 | A>A A2 B2 | A>G B4 |
+G>G G2 A2 | GF Fd d2- | dE Ec c>F | G2 G2 z2 |
+P:B
+Bc Be dc | BA GA BG | AG FG AF | GF EF GA |
+Bc Be dc | BA GA B^c | d2 Fd ^cF | B2 BB BB |
+Bc Be dc | BA GA BG | AG FG AF | GF EF GA |
+Bc Be dc |1 BA GA B^c | d2 ^c2 =c2 :|
+|2 BA GA BG | AG FA GF | E4 z2 ||
+S:https://www.folktunefinder.com/tunes/152579
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre2.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre2.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre2.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

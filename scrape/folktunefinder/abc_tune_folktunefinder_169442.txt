@@ -1,0 +1,21 @@
+X: 1
+T:Keeping up with Amy
+M:6/8
+L:1/8
+C:Stephen McNally
+S: 2001
+K:AMix
+|:a2a c>Ad|e>fe c>Ad|a2a c>Ad|B>GB d>gf|
+a2a c>Ad|e>fe c>Ad|B>GB d>gf|d>gf d>gf:|!
+|:c>Ad e>fe|c>Ad c>BA|c>Ad e>fe|B>GB d>gf|
+c>Ad e>fe|c>Ad c>BA|B>GB d>gf|d>gf d>gf:|
+% Output from ABC2Win  Version 2.1 i on 23/11/2004
+S:https://www.folktunefinder.com/tunes/169442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ceilidhband.org/tunes/keeping-up-with-amy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

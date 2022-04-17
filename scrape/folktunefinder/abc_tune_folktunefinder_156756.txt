@@ -1,0 +1,33 @@
+X: 1
+T: Fairy's Queen, The
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|:d4 A2 | c4 A2 | d4 A2 | dc de fe |
+d2 dc BA | F2 FE FA | B4 c2 | d4 fe |
+d2 d2 ed | c4 dc | BA Bc BA | F4 A2 |
+BA Bc dB |Af e4 | d6 | d6 :|
+|:f2 fe fg | fe fg fd | e2 ed ef | e2 f2 a2 |
+d4 ed | c4 dc | BA Bc BA | F4 (3ABc |
+d2 dc BA | F2 EF D2 | e2 ed cB | A4 de |
+f2 B2 e2 | A2 d2 dc | d6 | d6 :|
+|:d4 c2 | B2 A2 G2 | FA dF EF | D6 |
+d4 A2 | B2 c2 d2 | e2 ed cB | A4 de |
+f4 B2 | e4 A2 | d2 dc BA | F4 dc |
+BA Bc BA | FE DE FA | B6 | B6 :|
+|:d4 c2 | B2 A2 G2 | FA dF EF | D6 |
+d6 | e6 | f6 | f4 A2 |
+BA Bc Bc | dc de dc | BA Bc BA | F4 dA |
+BA Bc dB | Af e4 | d6 | d6 :|
+S:https://www.folktunefinder.com/tunes/156756
+S:http://www.thesession.org/tunes/display/7560
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

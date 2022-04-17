@@ -1,0 +1,37 @@
+X:1
+T:How d'Ye Do
+M:6/8
+C:
+S:Bacon (CJS MSS)
+N:
+A:Sherborne
+O:English
+R:Jig
+%P:A/2.(AB$^3$)$^4$.(AC$^3$)$^4$.A
+P:A.(AB3)4.(AC3)4.A
+K:D
+I:speed 300
+P:A
+|: z | FED FGA | BcB ABc | dcd Bed | cBc d2 :|\
+P:B
+   A | cde ecA | ecA ABc | ded dcB | AFD G3 |\
+       FGA D3  | GAB E3  | FGA Bed | cBc d2 ||\
+P:C
+   A | cde ecA | ecA ABc | ded dcB | AFD G3 | FGA D3 |\
+M:4/4
+FG A2 D2 D2 | GA B2 E2 E2 |\
+M:6/8
+FGA Bed | cBc d2 ||
+S:https://www.folktunefinder.com/tunes/165024
+S:http://www.ucolick.org/~sla/morris/music/Sherborne/howddo.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

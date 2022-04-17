@@ -1,0 +1,31 @@
+X:1456
+T:"Jenny's Welcome To Charley" (reel) 1456
+C:after Mr. McFadden
+N:Substituted Master Repeat for Da Capo command
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+D3B AGEF|GEcE dEcE|D2(dc) AGEG| (3(ABA) (AG) EFGE|
+D3B AGEF|GEcE dEcE|D2(dc) AGEG|(3(ABA) (AG) (TRED) D2||
+d2e dcAB|cAdB cAGB|Addc (TRdcd)d|cAGE (TRED) D2|
+(TRdcd)e dcAB|cAdB cAGE|D2 (3(EFG) AddB|cAGE TRED D2||
+eaa^g (TRage)f|=geaf gedg|eaa^g (TRaga)a|agea e2d2|
+eaa^g agef|=geaf gedB|A2 (3(Bcd) e2dB|cAGE TRED D2||
+dfec dfed|cAAB c2(AG)|Ad{e}dc (dcd)d|eaag e2d2|
+dcdB dfed|cAAB cdcA|GAcd (3(efe) de|cAGc (3(ABA) GE:|
+S:https://www.folktunefinder.com/tunes/167612
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1401-1500/1456-JennysWelcome.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1401-1500/1456-JennysWelcome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

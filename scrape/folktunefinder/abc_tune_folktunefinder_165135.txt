@@ -1,0 +1,23 @@
+X: 1
+T: Hull's Victory
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, July 1996
+N: http://www.lll.hawaii.edu/contra/
+M: 2/2
+L: 1/8
+K:F
+P:A
+|:c2 | f2fe f2fg | agfe f2AB | c2cd  c2B2  | ABGA F2c2 |
+       f2fe f2fa | g2g2 g2ag | fedc =Bcd=B | c2c2 c2  :|
+P:B
+|:c2 | f2fg agfe | d2B2 B2ef | g2ga bagf | e2c2 c2de |
+       f2fe f2fa | g2ge g2gb | agfa gfeg | f2a2 f2  :|
+S:https://www.folktunefinder.com/tunes/165135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/hu/Hulls_Victory_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

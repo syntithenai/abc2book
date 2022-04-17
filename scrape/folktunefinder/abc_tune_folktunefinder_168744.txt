@@ -1,0 +1,25 @@
+X:0386
+T:"The Jolly Plowman"  (1st Setting )   (song)     0386
+C:after Chief F. O'Neill
+C:moderate
+N:(Marked as "1st Setting" in book but no 2nd setting follows...)
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:A
+"_VB"E|A2(c3/2A/2) (d/2B3/2)AG|(Ac)e3/2e/2 (e2c3/2e/2)|(ed)Bd (dc)Ac|dBAG A2z:|
+e|(e3/2d/2)cd (eagf)|(e3/2d/2)cd e2a3/2a/2|(a2fa)a g2e|gfed .e(g/2f/2 e/2d/2c/2B/2)|
+A2(c3/2A/2) dBAG|(Ac e2)(e2c3/2e/2)|edBd dcAc|dBAG A2|]
+S:https://www.folktunefinder.com/tunes/168744
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0386-JollyPlowman1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

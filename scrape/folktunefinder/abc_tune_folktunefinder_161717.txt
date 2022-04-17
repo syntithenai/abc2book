@@ -1,0 +1,28 @@
+X: 1
+T: Gold Ring, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:BAG A2d|cAG G2A|BAG A2d|cAG FGA|
+BAG A2d|cAG GBd|gfg afd|cAF G3:|
+|:BGB Bdc|A2A dcA|GFG GBd|cAG FGA|
+B2B Bdc|A2A dcA|GFG GBd|cAF G3:|
+|:fdd edd|fdd edd|fdd edd|cAF G3|
+fdd edd|fdd edd|faf ged|cAF G3:|
+|:gfg afd|cAF GBd|gfg afd|cAG F3|
+gfg afd|Bdg fed|gfg afd|cAF G3:|
+|:BDB BDB|ADA ADA|GFG GBd|cAG FGA|
+BDB BDB|ADA ADA|G2G GBd|cAF G3:|
+|:BAB D2D|ABA D2D|GFG GBd|cAG FGA|
+BAB DED|ABA DED|G2G GBd|cAF G3:|
+S:https://www.folktunefinder.com/tunes/161717
+S:http://www.thesession.org/tunes/display/37
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

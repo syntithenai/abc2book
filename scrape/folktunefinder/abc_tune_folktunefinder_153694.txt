@@ -1,0 +1,24 @@
+X:4
+T:The Doctor's Prescription
+F:http://www.hiico.com/.abc/drs_rx.abc
+O:Scotland
+K:A
+M:6/8
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 24 August, 2004
+E | "A" A3 "A" E2c | "E" BGE "E" EFG | "A" AGA "E" BAB | "A" cBc "A" ABc | "D" dcd "D" fdB | "A" cBc "A" ecA | "D" Fdc "E7" BAG |[1 "A" A3 "A" A2E :|[2 "A" A3 "A" A2g
+|: "A" aga "A" ecA | "E" BGE "E" Bcd | "A" c~a "A" a2gf | "E" ebg "A" aec |[1 "D" dfd "A" cec | "E" BcA "E" GFE | "D" Fdc "E" BAG | "A" A3 "A" A2g :|
+[2  "Bm" dbd "A" cac | "E" BcA "E7" GFE | "D" Fdc "E" BAG | "A" A3 "A" Az2
+S:https://www.folktunefinder.com/tunes/153694
+S:http://www.hiico.com/.abc/drs_rx.abc
+S:http://www.hiico.com/.abc/drs_rx.abc
+S:http://www.hiico.com/.abc/drs_rx.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

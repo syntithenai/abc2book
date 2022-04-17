@@ -1,0 +1,25 @@
+X:1
+T:The Fatal Wedding
+M:3/4
+L:1/2
+K:F
+A/4-B/4| c A/2| d B/2| c/2 A| F E/2| D/2 B| D B/2| A3/2-| AA/4-B/4|\
+ c A/2| d B/2| c/2 A| F E/2| D/2 A| G F/2| G3/2-| G c/2| c A/2| d B/2|\
+ c/2 A| F E/2| D/2 B| D F/2| C3/2-| C C/2| F G/2| A B/2| c/2 A| d c/2|\
+ B G/2| D/2 E| F3/2-| F A/2| G ^F/2| G A/2| B/2 G| C D/2| E =F/2| G ^G/2|\
+ A3/2-| A ^F/2| =G ^F/2| G A/2| B/2 G| C D/2| E =F/2| A F/2| C3/2-|\
+ CA/4-B/4| c A/2| d B/2| c/2 A| G- F/2| D/2 B| D B/2| A3/2-| A A/4B/4|\
+ c A/2| d B/2| c/2 A| G F/2| B A/2| D/2 E| F3/2-| F A/4B/4| c A/2|\
+ d B/2| c/2 A| F E/2| D/2 B| D B/2| A3/2-| A A/4B/4| c A/2| d B/2|\
+ c/2 A| F E/2| D/2 A| G F/2| G3/2-| G c/2| c A/2| d B/2| c/2 A| F E/2|\
+ D/2 B| D B/2| C3/2-| C C/4C/4| F G/2| A B/2| c/2 A| d c/2| B G/2|\
+ D/2 E| F3/2-| F||
+S:https://www.folktunefinder.com/tunes/157339
+S:http://back.numachi.com:8000/dtrad/abc/FATALWED.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 2
+T: David's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF |\
+G>F G>D (3EFG D>E | G>B d>d d2 (3dcB | c>e a>g a>f d>c | B>d g>f g2 (3DEF |
+G>F G>D (3EFG D>E | G>B d>d d2 (3dcB | c>e a>g f>d e>f | g2 d2 g2 :|
+|: d>c |\
+B>d c>e d2 (3dBG | F>A (3DEF G2 (3dBG | F>A (3DEF G>A B>d | ^c>d (3edc d2 d>c | 
+=c>B c>e (3agf (3edc | B>A B>d (3gfe (3dcB | A>G A>d (3fed (3cBA | G2 B>d G2 :|
+S:https://www.folktunefinder.com/tunes/152311
+S:http://www.thesession.org/tunes/display/7016
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

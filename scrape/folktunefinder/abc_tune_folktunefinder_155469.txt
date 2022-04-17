@@ -1,0 +1,32 @@
+X:65
+T: Eclipse
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: A
+E | (3AcA EA ceae | fdBF DFBd | gfdB fecA |\
+(3BcB (3AGF E2 (3F^^FG |
+(3AcA EA ceae | fdBF DFBd |1 gfdB AB^df |\
+e^def (3efe (3=dcB :|
+|2 gfdB GEFG | Aaec A2 || ^de | fedB GEFG |\
+Aeca ec'ae' |
+fd'ec' dbca | B^dfb e2 de | fedB GEFG |\
+ae e2 aece |
+fd'bg ec'af | (3efe (3dcB A2 c2 || caga fc c2 |\
+f^efg ac c2 |
+aece f^ece | f^efg f=edc | Bgfg eB B2 |\
+(3gfe Bg (3f^dB AF |(3EGB (3egb e'2 E2 ||
+S:https://www.folktunefinder.com/tunes/155469
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/e.abc
+S:http://www2.redhawk.org:8080/irish/zouki/e.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/e.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

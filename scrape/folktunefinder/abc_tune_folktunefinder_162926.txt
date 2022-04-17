@@ -1,0 +1,48 @@
+X:1
+T: Hallelujah, What a Savoor : Tenor
+Z: Contributed 2009-01-31 13:15:32 by ming tsang tsang94@rogers.com
+K:
+%%MIDI program 1 0
+%%measurenb  0
+%%measurebox  1
+M:4/4
+L:1/4
+Q:1/4=120
+V:TT clef=bass name="Tenor" sname="T"
+K:G
+[V:TT] z4 | z4 | z4 |z2 z G,/>A,/ |
+B,2 A,2- | A,4- | A,2 z G,/>A,/ |
+B,2 A, G,/>E,/ | E,2 D,2 | D,4- ||
+- D4 | z4 | z4 |
+z4 | z4 | z4 |
+z4 | z4 | z4 | z4 ||
+[K:Ab] E, E, E, C, | A, A, G,2- | G,3 z |
+F, F, E, A, | G, F, E, z | E, E, E, C, |
+A, A, A,/ z/ A,/>B,/ | C2 B,2- |
+B,2 z A,/>F,/ |F,2 E,2- | E,4 |
+z4 | z4 | z4 ||
+[K:Bb] [Q:1/4=102] B, B, B, B, | G, G, (G, ^F,) | G, A, B, F, |
+B, B, (B, A,) | B, B, B, B, | G, G, B,/ z/ B,/>C/ |
+D4 | C3 z | z4 |
+z2 z B,/G,/ | (G,3 F,) || [Q:1/4=108][K:C] G,4- |G,4 |
+z4 | z4 || G, G, G, E, | C C B,2 |
+A, A, G, C | B, A, G, z | G, G, G, E, |
+C C C/ z/ C/>D/ | E2 E C/>A,/ | A,2 A,2 |
+z4 | z4 || [K:Db] z F,/A,/ D E |
+F> E E z | B, C D D | E D C z |
+D D D A, | A, B, A,/ z/ D/>C/ |
+D4 | C2 z D/>C/ | D4 |
+C2 z D/>C/ | D4 | C2 z2 |
+z2 B, D | E4 | F4 | z4 ||
+S:https://www.folktunefinder.com/tunes/162926
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HallelujahWhatASavoorTenor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Key G
+% Key C
+% Key A-sharp
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

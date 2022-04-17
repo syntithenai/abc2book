@@ -1,0 +1,62 @@
+X:1
+T:Intrada 10
+C:Johann Pezel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-10.abc
+V:1 Program 1 56 %Trumpet
+V:2 Program 1 56 %Trumpet
+V:3 Program 1 56 %Trumpet
+V:4 Program 1 56 bass %Trumpet
+V:5 Program 1 56 bass %Trumpet
+M:C
+L:1/8
+Q:1/2=60
+K:C
+V:1
+cecd ee/d/c2|egef gg/f/e2|z4 cc/d/ ed/e/|ffe>d dd/e/ fe/f/|
+V:2
+z8|cecd ee/d/c2|z4 AA/B/ cB/c/|ddc>c BB/c/ dc/d/|
+V:3
+G2G2 GG/F/E2|G2G2 EE/F/G2|EE/F/ GF/G/ AA G>G|F2 z2 z4|
+V:4
+E2E>D CB, CG,|E2ED CC/D/E2|CC/D/ ED/E/ FF E>E|DF,/G,/ A,G,/A,/ B,B,A,>A,|
+V:5
+C,2C,2C,G,, C,E,/D,/|C,2C,2C,G,,C,2|z8|D,D,/E,/ F,E,/F,/ G,G,F,>F,|
+%
+V:1
+ggf>f ee/f/ gf/g/|agg>fe4::gegg/f/e2 z2|ecee/d/c2 z2|
+V:2
+cG/A/ BA/B/ ccB>B|Aed2c4::ecee/d/c2 z2|cAcc/B/A2 z2|
+V:3
+z B,/C/ DC/D/ EEED|CC DGG4::z4 ECEE/D/|C2 z2 z4|
+V:4
+G,G,D2G,3G,|A,C2B,C4::z4CA,CC/B,/|A,2 z2 CA,CC/B,/|
+V:5
+E,E,D,>D, C,C,/D,/ E,D,/E,/|F,E,G,2C,4::z8|z4A,F,A,A,/G,/|
+%
+V:1
+afaa/g/ feff/e/|d2 z2 z4|gegg/f/ ecee/d/|cG/G/ GG/G/ GEG>G|G8:|
+V:2
+fdff/e/ dcdd/c/|B2 z2 z4|ecee/d/ cGcG|GE/E/ EE/E/ EED>D|E8:|
+V:3
+z2 z AA3A|D2 z2 GEGG/F/|E3E/F/ GEGG/F/|EC/C/ CC/C/ CCC>B,|C8:|
+V:4
+A,3F,F,3F,|G,A,B,B,/A,/G,3A,/B,/|C3C/D/E2CB,|CG,/G,/ G,G,/G,/ G,G,G,>G,|G,8:|
+V:5
+F,2 z2 z4|G,D,G,G,/F,/ E,C,E,E,/D,/|C, z C,G,, C, z C,G,,|\
+C,C,/C,/ C,C,/C,/ C,C,G,,>G,,|C,8:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/166436
+S:http://abc.musicaviva.com/tunes/pezel-johann/pezel-intrada-10.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/pezel-johann/pezel-intrada-10/pezel-intrada-10.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/pezel-johann/pezel-intrada-10/pezel-intrada-10.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

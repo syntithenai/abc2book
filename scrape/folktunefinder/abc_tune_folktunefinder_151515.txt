@@ -1,0 +1,29 @@
+X:0006
+T:"The Dark Woman Of the Glenn"          (air)             0006
+B:"O'Neill's Music Of Ireland the 1850"  Lyon & Healy, Cgo. 1903
+C:after Pat Tuohy
+C:Very Slow
+N:Uilleann Bagpipe tune... Mr. Tuohy was a famous piper
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+Q:1/4=50
+M:3/4
+L:1/8
+K:G
+(GE)|D2(EF)D(E/4F/4G/4A/4)|(BG/2E/2) (D/4E/4F/4G/4A/4B/4c/4d/4)e3/2f/2|g2(fg/2a/2) g3/2e/2|(3(fed) (3(edB) (3(dBA)||
+(B3/2G/4/B/4A2)(b/4c/4B/4c/4B/4c/4B3/4A/4)|(G/4F/4E/4F/4G3/4A/4G4)|D3/2B/2 .A/2.B/2.c/2.d/2 e3/2f/2|g2f/2e/2d/2e/2(f(3e/2f/2g/2)||
+a2bg f2|e3/2d/2 d2g2|(a/4g/4f/4g/4 e/4f/4e/4d/4 B/4A/4B/4d/4 e/4d/4e/4g/4f/4 g/4f/4g/4a/4 b/4a/4g/4f/4)|g2(fg/2a/2) g3/2e/2||
+(3(fed) (3(edb) (3(dBA)| B2 (3(GBA) G2| (G/4E/4D/4E/4F/4G/4A/4B/4) .c/2.d/2.e/2.f/2 g3/2a/2| g2(fg/2a/2) g3/2e/2||
+(3(fed) (3(edb) (3(dBA)| B2 (3(GED) (3(FGB)| A4(B/4c/4B/4c/4B/4c/4B3/4A/4)|(G/4F/4E/4F/4G3/4A/4 G4)|]
+S:https://www.folktunefinder.com/tunes/151515
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/6-DarkWoman.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/6-DarkWoman.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

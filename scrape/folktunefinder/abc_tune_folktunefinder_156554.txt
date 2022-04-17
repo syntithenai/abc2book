@@ -1,0 +1,26 @@
+X: 2
+T:Grub Springs
+M:C
+L:1/8
+S:trad.
+R:Reel
+K:A
+"A"[A,2E2] AB c2 cB | cBAF E2 " hold -"[A,2E2]|[A,2E2] AB cBAB | cBAF E2
+ [A,2E2]
+-|!
+"A"[A,2E2] AB c2 cB | cBAF E2 A2 | c4 A4 | "D"FE F2 "A"E4 :|!
+|:"A"e4 e4 | "D"f2 fa fe c2 | "A"e4 e4 | "D"fefg a4 |!
+"A"[c3e3] [de] [c2e2] [d2f2]-|"D"[d2f2] fa fe c2 | "A"e4 "E"[B4e4] | cBA
+F "A"E4 :|
+% Output from ABC2Win  Version 2.1 k pre2 on 10/6/2004
+S:https://www.folktunefinder.com/tunes/156554
+S:http://internet.cybermesa.com/~keating/music_abc/FADEGRUB.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

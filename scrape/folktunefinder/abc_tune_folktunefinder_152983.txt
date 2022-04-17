@@ -1,0 +1,24 @@
+X:30
+T: Winterrosen
+N: Q0145H
+O: Mitteleuropa, Deutschland (DDR) , Thueringen
+N: Pause am Ende der 2. Zeile ergaenzt.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 3/4
+L: 1/8
+K: G
+D | GBd2BG | FAA3
+D | GBd2BG | B2A2z
+d | dfafdc | Bdg3
+B | Ace2dA | c2B2z
+S:https://www.folktunefinder.com/tunes/152983
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:45
+T: Die Brombeerpflueckerin
+N: Q0147L
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Adorf
+N: Vierte Zeile refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 4/4
+L: 1/16
+K: G
+D4 | G4D4D3DG2G2 | E4E4E4
+G4 | F4A4d6c2 | B8z4
+D4 | G6A2B4G4 | A6B2c4z4
+A6B2c4z2c2 | B6d2d4z4
+G8G6G2 | e6e2e4
+e2e2 | d4d4c4F4 | G8z4
+S:https://www.folktunefinder.com/tunes/152998
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T:Ladykirk Bridge
+C:Muriel Johnstone
+M:4/4
+L:1/8
+R:Reel
+K:A
+c/2d/2| "A" e<c "D" f2 "Bm" d2 B>c|"E" dB| "F#m" c<A d>c "Bm" B>A G>F \
+  | "E7" E>G B<f "A" e2 c>d|
+|"A" e<c "D" f2 "Bm" d2 B>c|"E" dB A>G| "F#m" A<F c<A "Bm" d>c B>A \
+  | "E7" G<E e>B "A" A2 A||
+e/2| "A" (3agf (3ef=g "D" (3fa^g (3fed| "A" c<A e>A "E" ce \
+  |"A" (3agf (3ef=g "D" (3fa^g (3fed | "E7" c<A e>B "A" c<A A>e| 
+|"A" (3agf (3ef=g "D" (3fa^g (3fed| "A"(3cBA (3GFE "E7" (3DCB (3dcB \
+  | "A" c<A "D" f2 "Bm" d>c B>A| "E7" G<E e>B "A" A2-A|]
+S:https://www.folktunefinder.com/tunes/170918
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/LadykirkBridgeS.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

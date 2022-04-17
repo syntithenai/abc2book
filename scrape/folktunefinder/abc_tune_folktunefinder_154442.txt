@@ -1,0 +1,34 @@
+X:1
+T:Trikott : Vole vole vole
+Z:Roger Ngaret (94-95)
+R:hanterdro-andro
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+T:Hanter dro
+Q:1/4=160
+"Am"e2d2 e2f2 | "C"g4 g2f2 "Am"e4 c4 | e2d2 e2f2 | "C"g4 g2f2 "Am"e8 :|
+T:An dro
+M:2/4
+L:1/16
+A4 d2d2 | "G"d4 g2e2 | "F"c4 c2B2 | "Am"A4 A2c2 | \
+"G"d4 g2d2 | "Em"c4 B4 | "Am"A8 :|
+%%bf  Hanter dro :
+%%rm  Vole vole vole la feuille,
+%%rm  Pique pique pique le houx.
+%%rm
+%%bf  An dro :
+%%rm  a fait 10 ans j'allais  la fontaine
+%%rm  Et j'ai pris le plaisir d'aimer.
+S:https://www.folktunefinder.com/tunes/154442
+S:http://termen.free.fr/danses/vannetais/TrikottVolevolevole.abc
+% Rhythm Hanterdro-andro
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

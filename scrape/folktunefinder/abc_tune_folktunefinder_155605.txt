@@ -1,0 +1,30 @@
+X:7920
+T:\'Ecossaise
+T:WoO 86
+C:Ludwig van Beethoven
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be086-f/be086-f-1.abc
+M:2/4
+L:1/8
+K:F
+"^Allegro".F.F|A2AA|c2cc|f2ff|c4|(AcB).A|(FAG).F|G2(GA)|
+G2.F.F|A2AA|c2cc|f2ff|c4|(AcB).A|(FAG).F|G2(GA)|
+F2.F.G|(AcB).A|(FAG).F|(B2cd|c2).f.g|(ac'b).a|(g2=bc'|f2).F.G|
+(AcB).A|(FAG).F|(B2cd|c2).f.g|(ac'b).a|(fag).f|(g2=bc'|f2)z2|]
+W:
+W:Originally in E flat.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155605
+S:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be086-f/be086-f-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be086-f/be086-f-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be086-f/be086-f-1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Dans voor drie
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+P:AB x4
+L:1/8
+M:2/4
+K:Amin
+P:Voorspel
+"Dmin"DE FG | A>G A/G/F | "A7"GE "Dmin"D2 |]
+P:A
+"Dmin"DE FG | A>G A/G/F | "A7"G>F G/F/E | "Dmin" DE FG | A>G A/G/F | "A7"GE "Dmin"D2 :|
+P:B
+"Amin"AB cd | e>d c/B/A | "Dmin" dc BA | "E7"B>A ^G/F/E | "Amin"Ac "E7"B^G | "Dmin"A4 :|
+S:https://www.folktunefinder.com/tunes/151409
+S:http://user.online.be/~bvanhaverbeke/abc/Dans%20voor%20drie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

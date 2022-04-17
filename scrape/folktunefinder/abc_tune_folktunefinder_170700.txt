@@ -1,0 +1,21 @@
+X: 1
+T: Ladies' Choice #1
+M: 4/4
+L: 1/8
+R: barndance
+K: Amin
+A,2ED EA,{C}B,A,|G,2DC DG,B,G,|A,E~E2 A,ECE|G2^FG EDCB,|
+A,2ED EA,{C}B,A,|G,G^FG DG,B,G,|A,E~E2 A,ECE|1 GG,B,D EDCB,:|2 GG,B,D EA,A,B,||
+C2GC ECCE|FDAD FDB,D|CDEG cBcA|GEDC EA,A,G,|
+C2GC ECCE|FDAD FDB,D|CDEG cBcA|GEDF ECA,B,|
+C2G,C EGGE|D2AD FDB,D|CDEG cBcA|GEDC EA,A,G,|
+C2GC ECCE|FDAD FDB,D|CDEG cBcA|GEcE F2ED||
+S:https://www.folktunefinder.com/tunes/170700
+S:http://www.thesession.org/tunes/display/6079
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

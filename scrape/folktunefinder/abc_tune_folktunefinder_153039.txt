@@ -1,0 +1,25 @@
+X:86
+T: Verschlafener Jaeger
+N: Q0152C
+O: Osteuropa, UdSSR, Krim, Neusatz
+N: Grundton in der kleinen Oktave.
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 3/4
+L: 1/8
+K: G
+GB | d3gdc | B3ABd | dcB2dB | A2z2
+GB | d3gdc | B3ABd | dcB2dB | A2z2
+dd | B2d2A2 | A2edcA | G2g2ed | g2z2
+dd | B2d2G2 | A2edcA | G2z2
+S:https://www.folktunefinder.com/tunes/153039
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

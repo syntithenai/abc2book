@@ -1,0 +1,22 @@
+X: 1
+T:Fraher's Jig
+R:jig
+D:Paddy Glackin: In Full Spate
+D:Willie Clancy
+Z:id:hn-jig-125
+M:6/8
+K:Dmix
+~A3 GED|F2A GED|~A3 GEA|~D3 DEG|~A3 GED|FED GED|~A3 GEA|~D3 DEG:|
+ABA d2A|d2A AGE|GAB c2A|BGE EDD|Add def|dcA AGE|AcA GEA|~D3 DEG:|
+S:https://www.folktunefinder.com/tunes/159167
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fr/Frahers_Jig_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fr/Frahers_Jig_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

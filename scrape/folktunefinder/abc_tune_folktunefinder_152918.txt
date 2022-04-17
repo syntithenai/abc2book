@@ -1,0 +1,24 @@
+X: 3
+P: Pointe au Pic
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+afa \
+| "D"e2d2 c2B2 | A4 zafa  | e2d2  c2B2 | "A7"c4 zafa \
+|    e2d2 c2B2 | c4 za^ga | ba^ga bafd |  "D"A4 zafa |
+| "D"e2d2     c2B2 |    A4        zafa | "D7"e2d2     c2d2 | "G"B6 Bc \
+|    d2cd "E7"e2de | "D"f2=ef "B7"b2f2 | "Em"a2g2 "A7"gABc | "D"d4 z2c2 ||
+|| "Bm"B3c dcde | fb2f b2fb | fb2f b2fb | fb2f "E7"b4 \
+|   "A"A3B cAce | a3 a2 Bce | a3 a2 Bce | a^gab a=gfe |
+|  "Bm"B3c     dcde   |    fb2f      b2fb |     fb2f     b2fb | fb2f b2c'2 \
+|   "G"d'4 "E7"d'fg^g | "D"a^gab "B7"afde | "E7"fafd "A7"egec | "D"d4 z |]
+S:https://www.folktunefinder.com/tunes/152918
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR25_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

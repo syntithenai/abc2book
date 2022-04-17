@@ -1,0 +1,47 @@
+X:4326
+T:Gigue
+C:Georg Philipp Telemann
+O:Germany
+R:Gigue, jig
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/telemann-georg-philipp/telemann-gigue.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:6/8
+L:1/8
+K:G
+V:1
+B/c/|dBG ecG|dBG g3|f3 efg|fef d2B/c/|
+V:2
+G,|G,3 C3|G,3 E^CA,|DA,F, ^C3|D3 D,2G,|
+%
+V:1
+dBG ecG|dBG g3|f3 ed^c|dAF D2::A/B/|
+V:2
+G,3 C3|G,3 E^CA,|DA,F, G,2A,|DA,F, D,2::D,|
+%
+V:1
+cAF BGD|AFD z2A/B/|cAF BGD|AFD z2B/c/|
+V:2
+D,3 G,3|D,3 D,,2D,|D,3 G,3|D,3 D,,2G,/A,/|
+%
+V:1
+d3 d3|d3 d3|BAG AGF|GDB, G,2:|
+V:2
+B,G,D, A,F,D,|B,G,D, A,F,D,|G,2B,, C,2D,|G,D,B,, G,,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/160928
+S:http://abc.musicaviva.com/tunes/telemann-georg-philipp/telemann-gigue.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/telemann-georg-philipp/telemann-gigue.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/telemann-georg-philipp/telemann-gigue.abc
+% Rhythm Gigue, jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:39
+T: Die Brombeerpflueckerin
+N: Q0147E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Forbach, Bousbach
+N: Transkription einer Tonaufnahme. Verzierung (Glissando) .
+N: Vierte und siebte Zeile refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 4/4
+L: 1/16
+K: G
+D4 | G4G4G2G2E2E2 | E4D4D4
+D4 | D4c4B4A4 | G4z8
+G2A2 | B6G2B6d2 | d4c4A4z2
+d2 | d6d2d6c2 | c4B4G4
+B2B2 | B4A4D4F4 | G4A4B4
+G2A2 | B4z2B2B4z2d2 | d4c4A4z2
+d2 | d6d2d6d2 | d4c4B4
+D2c2 | B4B4c4F4 | G3GB2A2G4
+S:https://www.folktunefinder.com/tunes/152992
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

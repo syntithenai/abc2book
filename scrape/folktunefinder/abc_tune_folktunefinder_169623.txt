@@ -1,0 +1,24 @@
+X: 1
+T:The Kesh Jig
+T:The Kincora Jig
+C:Traditional
+Z:ABC by Thornton Rose, 2001
+M:6/8
+L:1/8
+R:Jig
+K:D
+|: "D"D2D DEF | "A"E2E EFA | "G"BAA dAA | BAF "A"AFE |
+"D"D2D DEF | "A"E2E EFA | "D"BAA dAF | "A"EFE "D"D3 ::
+"D"F2F AFA | "G"B2B "D"AFD | F2F AFD | "C"E3 E z2 |
+"D"F2F AFA | "G"B2B "D"AFA | "G"d2d "A"ede | "D"fdd d3 :|
+S:https://www.folktunefinder.com/tunes/169623
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/KeshJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/KeshJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/KeshJig.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

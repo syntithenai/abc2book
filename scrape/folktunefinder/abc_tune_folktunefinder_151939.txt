@@ -1,0 +1,27 @@
+X:17
+T: Das mannstolle Maedchen
+N: Q0126D
+O: Mitteleuropa, Deutschland
+N: Rekonstruktion der Balladenmelodie aus einem mehrstimmigen Satz von
+N: Melchior Franck. Schlusspause ergaenzt und Notenwert am Ende
+N: der ersten Zeile rhythmisch korrigiert.
+R: Ballade, Werbung, Betrug
+M: 2/4
+L: 1/16
+K: D
+A2 | A3AB2c2 | d4c2
+A2 | B2d2d2c2 | d4
+F2A2 | G2F2E2D2 | F2E2D4 | z6
+S:https://www.folktunefinder.com/tunes/151939
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, werbung, betrug
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

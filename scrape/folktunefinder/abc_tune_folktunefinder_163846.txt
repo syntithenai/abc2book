@@ -1,0 +1,28 @@
+X: 1
+T: Helma Urquhart's Fancy Jig
+C: Eric Allan
+N: from her husband Alleyne Reynolds
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+   e \
+| "A"aga ecA | "A"(E2A) "/C#"cBA | "Bm"(D2F) dcB | "E7"EGB efg \
+| "A"aga ecA | "D"(F2A) (d2f) | "Bm"Edc "E7"BAG | "A"A2z A,2 |]
+|: d \
+| "A"(c2d) ecA | "Bm"(D2F) (B2d) | "E7"(E2G) (B2d) | "A"cea "E7"(e2d) \
+| "A"(c2d) ecA | "D"DFA (d2f) | "A"ecA "E7"dBG | "A"A2z A,2 ||
+   d \
+| "A"(c2d) ecA | "Bm"(D2F) (B2d) | "E7"(E2G) (B2d) | "A"cea "E7"(e2d) \
+| "A"cde ecA | "D"FAd (f2a) | "A"ecA "E7"dBG | "A"A2z A,2 :|
+S:https://www.folktunefinder.com/tunes/163846
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j40/Helma_Urquharts_Fancy_A_40.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

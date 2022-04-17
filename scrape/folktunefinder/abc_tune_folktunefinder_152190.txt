@@ -1,0 +1,23 @@
+X:158
+T: Die Mordeltern
+N: Q0085
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen, Kr. Bolchen,
+R: Ballade, Habgier, Mord, Reue, Selbstmord
+M: 3/4
+L: 1/8
+K: A
+AEA | A3=GA=c | B3
+=G=cB | A3AEF | =G3z
+G2 | AE=FEDF | E3z
+B=c | d3B=cBA | =G2A
+S:https://www.folktunefinder.com/tunes/152190
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, habgier, mord, reue, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

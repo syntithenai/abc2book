@@ -1,0 +1,29 @@
+X:1
+T:Hanter dro : Fille de rose
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+A:Bretagne
+S:
+Q:1/4=170
+K:C
+|
+M:2/4
+L:1/16
+||   
+"Am"e4 e2f2 e4 d4 | c8 | e4 d2c2 "G"B4 d4 | "Em"c4 B4 |\
+"Am"e4 e2f2 e4 d4 | c8 | e4 d2c2 "G"B4 G4 | "Em"E8 ::\
+"Am"A4 A2B2 c4 d4 | e8 | "G"d4 e2f2 "F"a4 f4 | "Am"e8 |\
+c4 d2e2 "F"f4 e4 | "G"d8 | B4 c2d2 "Em"c4 B4 | "Am"A8 :|
+S:https://www.folktunefinder.com/tunes/163192
+S:http://termen.free.fr/danses/vannetais/HanterdroFillederose.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

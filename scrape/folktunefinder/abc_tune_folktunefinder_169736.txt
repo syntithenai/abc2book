@@ -1,0 +1,34 @@
+X:1
+T:Kiekbusch
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 43
+N:im buch ganz in C  1. ton g'
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+G |\
+cc ce | dd de | fd BG | ce gG |\
+cc ce | dd de | fd BG | c2 c2 |
+g2 ee | f2 dd | gg ee | ff dG |\
+cc ce | dd de | fd BG | ce gG |
+cc ce | dd de | fd BG | c3 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169736
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kiekbusch_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

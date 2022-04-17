@@ -1,0 +1,26 @@
+X: 1
+T: Kirkhill
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|:e|c<AA (A2e)|(f<ae) f>ga|c>AA (A2c)|(c<dA) (B2e)|
+c>AA (A2e)|(f<ae) f>ga|a>ec (a2B)|(c<eA) A2 :|
+|: e|f>ga (a2e)|(f<ae) f>ga|a>ec  (A2c)|(B<cA) (B2e)|
+[1 f>ga (a2e)|(f<ae) f>ga|A>ec (a2B)|(c<eA) A2 :|
+[2 c>AA (A2e)|(f<ae) f>ga|a>ec (a2B)|(c<eA) A2 ||
+|:e|A>AA (c2d)|c>dB A>ce|a>ec (A2c)|(B<cA) (B2e)|
+A>AA (c2d)|c>dB A>ce|a>ec (a2B)|(c<eA) A2 :|
+e|f>ea (f2e)|a>ec A>Bc|a>ec (B2c)|(B<cA) B>ce|
+f>ea (f2e)|a>ec A>Bc|a>ec (a2B)|(c<eA) A>ce|
+f>ea (f2e)|a>ec A>Bc|a>ec (A2c)|(B<cA) B2 e|
+c>dB (A2e)|f>ea A>Bc|a>ec (a2B)|(c<eA) A3 ||
+S:https://www.folktunefinder.com/tunes/170059
+S:http://www.thesession.org/tunes/display/3832
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

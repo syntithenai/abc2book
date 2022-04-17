@@ -1,0 +1,27 @@
+X: 1
+T: the Grinder's Hornpipe
+C: J Connachan
+R: hornpipe
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+(3GAB \
+| "C"c2GF ECEG | "F"AFAc "G7"BGBd | "C"cGce fedc | "D7"Bdba "G7"gfed \
+| "C"c2GF ECEG | "F"AFAc "G7"BGBd | "C"cagf "G7"edcB | "C"c2e2 c2 :|
+|: (3GAB \
+| "C"c2Gc edcB | "F"AFAc "Dm"fedc | "G"BGBd "G7"gfed | "C"cdcA "G7"G2AB \
+| "C"c2Gc edcB | "F"AFAc "Dm"fedc | "G"BGBd "G7"gfed | "C"c2e2 c2 :|
+|: "G7"GF \
+| "C"E2EG "Dm"F2FA | "C"G2e2 c3G | "Dm"F2d2 "G7"B3F | "C"Eedc "G7"BAGF \
+| "C"E2EG "Dm"F2FA | "C"G2e2 "F"c2BA | "C"Gedc "G7"BGAB | "C"c2e2 c2 :|
+S:https://www.folktunefinder.com/tunes/162587
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/hornpipe/GrindersHp_C_6.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:25
+T: Winterrosen
+N: Q1145C
+O: Nord - Amerika, Kanada, Saskatchewan, Saskatoon
+N: Melodievergleich zu Q0145B, anderes Lied: KEINE zur Balladengruppe
+N: gehoerende Melodie. Verzierungen (Glissandi) .
+N: Pause am Ende der dritten Zeile ergaenzt.
+R: geistlich
+M: 4/4
+L: 1/8
+K: F
+ | F4C2F2 | F2F2G2A2 | F4
+A4 | B2AGG2A2 | F2A2G4 | z2
+F2F2A2 | c4F2G2 | A2c2AF3 | z2
+C2F2A2 | c4A4 | G4F4
+S:https://www.folktunefinder.com/tunes/152978
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

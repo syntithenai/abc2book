@@ -1,0 +1,30 @@
+X:1
+T:Halling frn Frndefors
+R:Halling
+Z:C-G Magnusson, 2008-09-30
+O:Frndefors, Dalsland
+S:efter Erik Johan Svensson, Frndefors
+B:Svenska Ltar
+N:Svenska Ltar, Dalsland nr 301
+Q:100
+M:2/4
+L:1/16
+K:D
+{A}a4 {ga}g2fg | a2{b}a^g e4 | {A}a4 {ga}g2fg | a2{b}a^g e4 |
+(cd)ef (gf)ec | d2d2 c2c2 | d2ef {fg}f2ec | e2Bc A4 |
+d2ef (gf)ec | d2d2 c2c2 | d2ef {fg}f2ec | d4 z2 :|
+S:https://www.folktunefinder.com/tunes/162952
+S:http://www.folkwiki.se/pub/cache/Halling_fr%e5n_Fr%e4ndefors_b34bf6.latin.abc
+S:http://www.folkwiki.se/pub/cache/Halling_fr%e5n_Fr%e4ndefors_b34bf6.abc
+S:http://www.folkwiki.se/pub/cache/Halling_fr%e5n_Fr%e4ndefors_b34bf6.abcm.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 3
+T:Tobin's Favourite
+M:6/8
+L:1/8
+R:Jig
+K:D
+AF|DFA dcd|ecA cde|fdf gfg|ecA GFE|DFA dcd|ecA cde|(3fgaf gec|edc d:||
+d2|dfa agf|(3efge efg|fdf gfg|ecA GFE|DFA dcd|ecA cde|(3fgaf gec|edc d:|
+|
+% Output from ABC2Win  Version 2.1 h on 06/05/99
+S:https://www.folktunefinder.com/tunes/165523
+S:http://www.comhaltas.interweb.ie/media/abc/set2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

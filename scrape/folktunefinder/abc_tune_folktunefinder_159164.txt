@@ -1,0 +1,25 @@
+X:1
+T:FRAHERS JIG
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+~A3 AGA|~D3 FED|~A3 AGA|~D3 FED|
+~A3 AGA|~D3 EFG|~A3 AGA|~D3 FED|
+~A3 AGA|~D3 FED|~A3 AGA|~D3 FED|
+~A3 AGA|~D3 EFG|~A3 AGA|~D3 D3|
+~A3 d2A|d2A AGF|GAB c2A|B2G GFG|
+Add ded|cAA AGF|~A3 AGA|~D3 D3|
+~A3 d2A|d2A AGF|GAB c2A|B2G GFG|
+Add ded|cAA AGF|~A3 AGA|~D3 D3|
+S:https://www.folktunefinder.com/tunes/159164
+S:http://www.thesession.org/tunes/display/992
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

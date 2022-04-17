@@ -1,0 +1,21 @@
+X: 1
+T: Fruit At The Bottom
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+AF~F2 A2 {a}fe | ceAB cBBc | AF~F2 AFEF | DEFD ~E3  F |
+AF~F2 A2 {a}fe | ceAB cABc | dcBc defd | (3efe cA BdcB :|
+ABce ~a3  e | ~f3  e aecB | A2 af ecAB | cB~B2 BdcB |
+ABce ~a3  e | ~f3  e a2 ga | bagb a2 fe | cB~B2 BdcB :|
+S:https://www.folktunefinder.com/tunes/159537
+S:http://www.thesession.org/tunes/display/7375
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

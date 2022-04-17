@@ -1,0 +1,31 @@
+X:1
+T: Scots Mary
+T: Mary o' the Wisp
+T: the Fintown Reel
+N: Third part not always played
+Z: Bernard Chenery 
+Z: Merged with other versions by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: ADor
+  AB \
+| cE~E2 cded | cE ~E2 G2 AB | cE~E2 cded |cdBc A3B |
+| cEEE cded | cE ~E2 G2 AB |cBcd eged | cdBc A2 :|
+K: AMix
+|: ef \
+| gaag e=fed | cdef ~g2 fg |eaag e=fed | cdBc A2 ef |
+| gaag e=fed | cdef ~g2 fg |(3agf ge fded | cdBc A2 :|
+|: AB \
+| cded cded |=cE~E2 FGAB |cded cded |=cAGB A2AB \
+| cded cded |=cE~E2 FGAB |cdea fded |=cAGB A2 :|
+S:https://www.folktunefinder.com/tunes/157879
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/ScotsMary.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

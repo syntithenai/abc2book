@@ -1,0 +1,35 @@
+X: 1
+T:Josefin's Dopvals
+C:Roger Tallroth (1993)
+%S:Waltz Book 3 (The)
+%N:Copyright 1993, Roger Tallroth, All Rights reserved. Used by permission.
+%N:We learned this waltz from Jon Singleton and Chris Roe in Seattle, the day
+%N:after it was played at the funeral of John Denyes, a well-loved musician
+%N:and dancer.  This was his favorite tune and so it has special significance
+%N:for all of us who knew him.  This version, folk-processed into the key of
+%N:G with simplified harmonies, is popular both in Seattle and in New England.
+%N:You can hear a nice version of this on "My Joy," available from Hanneke
+%N:Cassell at POB 231080, Boston, MA 02123.
+M:3/4
+L:1/4
+K:F
+%%staves{RH1}
+V:RH1 clef=treble
+|:"F"C F G|A c B|A G F|C2 C|"Bb"B,3/2 B,/2 B,
+|D F E|"Gm"D3|"C"C3|"F"C F G|A c B|A G F|C2 D
+|"Bb"B,3/2 B,/2 B,|C E F|1 "C"G3-|G3 :|2 "C"G3-|G A B
+|:"F"c A c|f2 e|"Bb"d3|"F/A"c3|"Gm"B d c
+|B A G|"F"A3/2 B/2 A|"C"G A B|"F"c A c|f2 e
+|"Bb"d3|"F/A"c3|"Gm"B d c|B A G|"F"A3/2 B/2 A|"C"G A B
+|"Dm"A G F|E2 F|"Bb"F3|B, C B,|"F"A, C F
+|"C7"E D E|1 "F"F3-|F A B:|2 "F"F3-|F3||
+S:https://www.folktunefinder.com/tunes/168801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/josefinsF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

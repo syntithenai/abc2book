@@ -1,0 +1,30 @@
+X: 1
+T: Kerry Polka
+C: R-117
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+P: B Dorian
+K: BDor
+"Bm"B3c d2e2| f2b2 f3f| "A"e3c A2c2| "Bm"B2c2 "A"A4|
+"Bm"B3c d2e2| f2b2 f3f| "A"e3c A2c2| "Bm"d2B2 B4 :|
+\
+"Bm"b2b2 f3f| b2b2 f3f| "A"e3c A2c2| "Bm"B2c2 "A"A4|
+"Bm"b2b2 f3f| b2b2 f3f| "A"e3c A2c2| "Bm"d2B2 B4 |
+"Bm"b2b2 f3f| b2b2 f3f| "A"e3c A2c2| "Bm"B2c2 "A"A4|
+"Bm"B3c d2e2| f2b2 f3f| "A"e3c A2c2| "Bm"d2B2 B4|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/169584
+S:http://roaringjelly.org/music/polka/R117_Kerry_Polka.abc
+S:http://roaringjelly.org/music/reel/R117_Kerry_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/polka/R117_Kerry_Polka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R117_Kerry_Polka.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/polka/R117_Kerry_Polka.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R117_Kerry_Polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

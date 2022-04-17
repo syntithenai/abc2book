@@ -1,0 +1,32 @@
+X:3
+T:May Collean
+T:Lady Isobel and the Elf Knight
+B:Bronson
+O:William Motherwell, "Minstrelsy: Ancient and Modern"
+O:1827, Appendix 24.
+N:Tune similar to "Lord Robert and Fair Ellen", Petrie collection
+N:No. 795 from Dr Kelly, County Mayo.
+N:Not enough words given to fit the tune.
+N:Possibly each line is repeated
+M:6/8
+L:1/8
+K:G
+B | d2 d BAB | d2 e G2 SA |
+B>cB AGA | G3 z2 :| Sd |
+g2 f e2 e | f2 e/d/ B2 SB | g2 f e>de | d3 z2 SB |
+d2 d BAB | d2 e G2 SA | B2 B AGA | G3 z2 |]
+W:
+W:O heard ye e'er o' a bloody knight
+W:That lived in the West Countrie
+W:For he has stown seven ladies fair
+W:And drowned them a' in the sea.
+S:https://www.folktunefinder.com/tunes/156813
+S:http://www.folkinfo.org/abcprojects/bronson/b4.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

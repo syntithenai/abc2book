@@ -1,0 +1,25 @@
+X:8
+T:The French Assembly
+C:Welch MS
+M:3/8
+L:1/16
+Z:abc2nwc
+K:G
+c2cBcA|B2BABG|A2AFAF|G2E2E2|
+c2cBcA|B2BABG|A2AFAF|G6|
+c2cBcA|B2BABG|A2AFAF|G2E2E2|
+c2cBcA|B2BABG|A2AFAF|G6
+|:G2g2g2|G2g2g2|agfedc|BcdBG2|
+G2g2g2|G2g2g2|fafde^c|d6|
+c2cBcA|B2BABG|A2AFAF|G2E2E2|
+c2cBcA|B2BABG|A2AFAF|G6:|
+S:https://www.folktunefinder.com/tunes/159335
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/FrenchAssembly.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

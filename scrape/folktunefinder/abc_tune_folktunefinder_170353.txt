@@ -1,0 +1,116 @@
+X:1780
+T:Knecht Ruprecht
+T:(Knight Rupert) Op. 68 no. 12
+C:Robert Schumann
+O:Germany
+B:Album for the young
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schumann-robert/schm068-12/schm068-12-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass up %Piano
+V:3 Program 1 0 bass merge down %Piano
+M:2/4
+L:1/16
+K:Am
+V:1
+A,,B,,A,,B,, C,B,,C,B,,|A,,2B,,2 C,2E,2|A,2B,2 C2E2|[E2^G2B2][E2G2B2][E4A4c4]|
+V:2
+z8|z8|z8|z8|
+V:3
+A,,,B,,,A,,,B,,, C,,B,,,C,,B,,,|A,,,2B,,,2 C,,2E,,2|A,,2B,,2 C,2E,2|E,2E,2A,4|
+%
+V:1
+A,,B,,A,,B,, C,B,,C,B,,|A,,2B,,2 C,2E,2|A,2B,2 C2E2|[E2^G2B2][E2G2B2]A4|
+V:2
+z8|z8|z8|z8|
+V:3
+A,,,B,,,A,,,B,,, C,,B,,,C,,B,,,|A,,,2B,,,2 C,,2E,,2|A,,2B,,2 C,2E,2|E,2E,2A,4|
+%
+V:1
+_B,A,B,A, G,A,G,A,|_B,2G,2 G,2E,2|[_B2G2][G2E2] [G2E2][E2^C2]|[A,2^C2E2][A,2C2E2][A,4D4F4]|
+V:2
+z8|z8|z8|z8|
+V:3
+_B,,A,,B,,A,, G,,A,,G,,A,,|_B,,2G,,2 G,,2E,,2|^C,,2E,,2 E,,2G,,2|A,,2A,,2D,4|
+%
+V:1
+CB,CB, A,B,A,B,|C2A,2 A,2^F,2|[c2A2][A2^F2] [A2F2][F2^D2]|[^F2^D2][F2D2][B,4E4^G4]|
+V:2
+z8|z8|z8|z8|
+V:3
+C,B,,C,B,, A,,B,,A,,B,,|C,2A,,2 A,,2^F,,2|^D,,2^F,,2 F,,2A,,2|B,,2B,,2E,4|
+%
+V:1
+A,B,A,B, CB,CB,|A,2B,2 C2E2|A2B2 c2e2|[E2^G2B2][E2G2B2][E2A2c2][E2=G2A2^c2]|
+V:2
+z8|z8|z8|z8|
+V:3
+A,,B,,A,,B,, C,B,,C,B,,|A,,2B,,2 C,2E,2|A,2B,2 C2E2|E,2E,2A,2A,,2|
+%
+V:1
+[F4A4d4]FEFE|D2E2 F2A2|d2e2 f2a2|[B2e2^g2][B2e2g2][c4e4a4]|
+V:2
+z8|z8|z8|z8|
+V:3
+D,E,D,E, F,E,F,E,|D,2E,2 F,2A,2|D2E2 F2A2|E2E2A4|
+%
+V:1
+K:F
+AFAF AFGE|AFBG cAGE|AFAF AFGE|AFBG cAd=B|
+V:2
+K:F
+z8|z8|z8|z8|
+V:3
+K:F
+F,A,F,A, F,A,C,G,|F,A,G,B, A,CC,G,|F,A,F,A, F,A,C,G,|F,A,G,B, A,CG,D|
+%
+V:1
+ecec ecd=B|ecfd ged=B|ecec ecd=B|ecd=B cG_BG|
+V:2
+z8|z8|z8|z8|
+V:3
+CECE CEG,D|CEDF EGG,D|CECE CEG,D|CEDF E2z2|
+%
+V:1
+BGBG BGBG|BGBG BGBG|_AFAF AFAF|_AFAF AFAF|
+V:2
+z8|z8|z8|z8|
+V:3
+C,,6_D,,2|C,,2_A,,2G,,4|C,,6_D,,2|C,,2B,,2_A,,4|
+%
+V:1
+F6_E2|F2_G2_A2_E2|F2=G2_A2B2|cEBG ECB,G,|
+V:2
+_D_A,DA, DA,CA,|_DA,_GA, _AA,CA,|F_D=G=E _AFBF|z8|
+V:3
+_D,6 A,,2|_D,2_E,2F,2_A,,2|_D,2[D,2=E,2][D,2F,2][D,2F,2]|[C,2G,2]z2z4|
+%
+V:1
+AFAF AFGE|AFBG cAGE|AFAF AFGE|AFBG cAEF|
+V:2
+z8|z8|z8|z8|
+V:3
+F,A,F,A, F,A,C,G,|F,A,G,B, A,CC,G,|F,A,F,A, F,A,C,G,|F,A,G,B, A,CF,A,|
+%
+V:1
+d6c2|d2e2f2d2|c2A2 F2[D2B2]|[B,4E4][A,2F2]z2|]
+V:2
+BFBF BFAF|BFeFfFdF|cFAEz4|z8|]
+V:3
+B,6F,2|B,2C2D2B,2|A,2C2 D2G,2|C,4F,2z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170353
+S:http://abc.musicaviva.com/tunes/schumann-robert/schm068-12/schm068-12-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schumann-robert/schm068-12/schm068-12-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schumann-robert/schm068-12/schm068-12-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key F
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

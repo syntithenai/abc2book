@@ -1,0 +1,27 @@
+X: 1
+T: DOUBLE SET-BACK
+S: MDT
+O: Headington
+P: A.(AB2)4
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+B>c |\
+  d>ed>B G>AB>G | A>BA>F D2B>c | d2g>f e>dc>B | c<eA2 A2B>c |
+  d>ed>B G>AB>G | A>BA>F D2B>c | d2g>f e>dc>A | B2G2  G2   ||
+P: B
+|: B>c |\
+  d2g2   d2B>c  | d2g2   d2B>c | d2g>f e>dc>B | c<eA2 A2   :|
+S:https://www.folktunefinder.com/tunes/154051
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Double_Set-Back_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

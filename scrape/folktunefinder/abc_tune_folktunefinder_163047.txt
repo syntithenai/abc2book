@@ -1,0 +1,22 @@
+X:1
+T:The Handcart Song
+M:6/8
+L:1/8
+K:G
+ D B3/2 z/2 A G3/2 z/2| F G3/2 z/2 E D3/2 z/2| B, C3/2 z/2 C B,3/2 z/2|\
+ A, B,3/2 z/2 C D3/2 z/2| D E3/2 z/2 E G3/2 z/2| E D3/2 z/2 D G3/2 z/2|\
+ G F3/2 z/2 AD-E| F G3/2 z/2 G G3/2 z/2| D B3/2 z/2 A G3/2 z/2| F G3/2 z/2 E D3/2 z/2|\
+ B, C3/2 z/2 C B,3/2 z/2| A, B,3/2 z/2 C D3/2 z/2| D E3/2 z/2 E G3/2 z/2|\
+ E D3/2 z/2 D G3/2 z/2| G F3/2 z/2 AD-E| F G3/2 z/2 G G3/2 z/2| D B3/2 z/2 A G3/2 z/2|\
+ F G3/2 z/2 E D3/2 z/2| B, C3/2 z/2 C B,3/2 z/2| A, B,3/2 z/2 C D3/2 z/2|\
+ D E3/2 z/2 E G3/2 z/2| E D3/2 z/2 D G3/2 z/2| G F3/2 z/2 AD-E| F G3/2 z/2 G G3/2 z/2|\
+S:https://www.folktunefinder.com/tunes/163047
+S:http://back.numachi.com:8000/dtrad/abc/PUSHPULL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/PUSHPULL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

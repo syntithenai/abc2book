@@ -1,0 +1,22 @@
+X:210
+T: Die verkaufte Muellerin
+N: Q1086I
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0086H, anderes Lied "Sieben Straeuss" .
+R: 
+M: none
+L: 1/8
+K: G
+G2 | G2B2d3ed2 | A2B2c2z2
+dd | B2A2B2G2 | F2GBA2
+d3=f | e2d2dcBG | A4G2
+S:https://www.folktunefinder.com/tunes/152242
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

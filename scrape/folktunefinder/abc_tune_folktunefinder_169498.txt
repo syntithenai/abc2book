@@ -1,0 +1,23 @@
+X: 42
+T:Kendal Reel,The
+M:4/4
+L:1/8
+Q:200
+S:Wm Irwin MS
+R:Reel
+Z:C.G.P
+K:F
+c||:cBAG F2F2|F2Ac fcAF|BAG^F G2G2|GABc defd:|!
+|A2cef2fc|g2ge afcA|A2ce fcAF|B2dc BAGF|!A2cef2fc|g2ge afcA|cAcf
+dBdf|eg cef2|! |fg|afc'f affa|ecgef2fg|afc'f affa|ecgef2fg|!afc'f
+affa|ecbg ecce|fcgc a cbg|fefaf2f2|]
+S:https://www.folktunefinder.com/tunes/169498
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/KendalReelThe.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

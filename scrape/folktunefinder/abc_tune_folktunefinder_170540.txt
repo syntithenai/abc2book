@@ -1,0 +1,31 @@
+X:1
+T:Krajdunavski tanc
+Z:Erik Ronstrm 2008
+O:Bulgarien
+S:Knd genom Orientexpressen
+M:2/4
+L:1/16
+K:Dm
+"Dm"^cddD FDdD|"Gm"GGFE "A7"EDED|"Dm"^cddD FDdD|"Gm"GGFE "A7"EDED|
+"Dm"D2^cd D2cd|"Gm"GGFE "A7"EDED|"Dm"^cddD FDdD|"Gm"GG"A7"FE "Dm"D4:|
+|:"Dm"DEFD AFFE|DEFD AFFE|DEFD AFFE|"A7"AFFE "Dm"EDDA,|
+"Dm"DEFD AFFE|DEFD AFFE|DEFD AFFE|1 "A7"AFFE "Dm"D4:|2 "C7"BGGE "F"F4|
+[K:CLyd]
+|:"C"FGcG FGcG|FGcG "F#dim"FFFE|"C"^DEFG AFGE|"G7"FGGC "C"ECGC|
+"C"FGcG FGcG|FGcG "F#dim"FFFE|"C"^DEFG AFGE|"G7"FGGE "C"C4:|
+[K:Dm]
+"Dm"DEFD AFFE|DEFD AFFE|DEFD AFFE|"A7"AFFE "Dm"EDDA,|
+"Dm"DEFD AFFE|DEFD AFFE|DEFD AFFE|"A7"AFFE "Dm"D4|]
+S:https://www.folktunefinder.com/tunes/170540
+S:http://www.folkwiki.se/pub/cache/Krajdunavski_tanc_dcb776.latin.abc
+S:http://www.folkwiki.se/pub/cache/Krajdunavski_tanc_dcb776.abc
+S:http://www.folkwiki.se/pub/cache/Krajdunavski_tanc_dcb776.abcm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

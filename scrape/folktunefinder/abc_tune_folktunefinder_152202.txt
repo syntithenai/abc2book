@@ -1,0 +1,25 @@
+X:170
+T: Die Mordeltern
+N: Q0085L
+O: Osteuropa, Tschechoslowakei, Zips
+R: Ballade, Habgier, Mord, Reue, Selbstmord
+M: 4/4
+L: 1/4
+K: G
+D | GGGA | _BAG
+A | _B=FFG | =F_ED
+F | _EDCG | =F_ED
+_B | AGc_B | A2G
+S:https://www.folktunefinder.com/tunes/152202
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, habgier, mord, reue, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

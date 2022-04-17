@@ -1,0 +1,24 @@
+X:87
+T: Der schwatzhafte Junggeselle
+N: Q0139B
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Niederschlesien, Wohlau
+R: Ballade, Indiskretion, verweigerter Beischlaf
+M: 2/4
+L: 1/8
+K: G
+D2 | G2FE | D2GG | A2G2 | z2
+D2 | G2FE | D2G2 | A2G2 | z3
+G | GBBB | B2B
+B | ABcB | A2z2
+FAAA | A2B
+A | GABA | G2
+S:https://www.folktunefinder.com/tunes/152009
+S:http://ifdo.ca/~seymour/runabc/esac/ballad60.abc
+% Rhythm Ballade, indiskretion, verweigerter beischlaf
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

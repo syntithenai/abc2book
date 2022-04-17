@@ -1,0 +1,23 @@
+X:1
+T:The First Time Ever
+M:4/4
+L:1/8
+K:E
+ z4 z2 z B,| EF G A- A3G/2-F/2| E G, B,4 z B,|
+M:3/4
+ EF GF AG| B6-|c/2-B/2-A/2-G/2 A6| z G/2A/2 BE A4-| A G/2F/2 E3/2 G,/2 B,4|\
+ z B,/2C/2 =D3C/2-B,/2| A,3/2 B,/2
+M:4/4
+| E6- EE| G,6 z B,/2C/2| =D3C/2-B,/2 A,3 B,| B,8|
+S:https://www.folktunefinder.com/tunes/158028
+S:http://back.numachi.com:8000/dtrad/abc/FIRSTIME.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FIRSTIME.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

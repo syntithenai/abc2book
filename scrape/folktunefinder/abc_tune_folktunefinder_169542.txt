@@ -1,0 +1,33 @@
+X: 1
+T: Kerreg Beg An Treiz
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+EBA F2D|E ~E2 FGA|B2d cd/2c/2A|B2A F2D|
+EBA F2D|EEE FGA|Bcd cd/2c/2A| B3 BAF|
+EBA F2D|E~E2 FGA|B2d cd/2c/2A|B2A F2D|
+EBA F2D|EEE FGA|Bcd cd/2c/2A| B4 ze|
+edB A2B|d2c B2e|d2B Bc/2B/2A|~B3Bcd|
+A2F ~A3|B/2c/2dc A2E|FBA F2D|E4 ze|
+edB A2B|d2c B2e|d2B BA/2^G/2A|~B3Bcd|
+A2F ~A3|B/2c/2dc A2E|FBA F2D|(E3E2) z|
+F2A ~B3|e2d B2c|~d3d c/2B/2A|~B3 A2B|
+d2c B2A|FED E2F|A2cBc/2B/2A|F3 F2C|
+F2A ~B3|e2d B2c|~d3d c/2B/2A|~B3A2B|
+d2c B2A|FED E2F|A2cBc/2B/2A|F3 F2z|
+B2A ~B3|cBA ~F3| B2c~d3|e2d c2d|
+B2A ~B3|cBA ~F2D|E2FABA|F3 F2 z|
+B2A ~B3|cBA ~F3| B2c~d3|e2d B2c|
+AB/2A/2F~ A3|B/2c/2d c A2E| FBA F2D|(E3E2)z|
+S:https://www.folktunefinder.com/tunes/169542
+S:http://www.thesession.org/tunes/display/5832
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:167
+T: Die Mordeltern
+N: Q0085I
+O: Osteuropa, Tschechoslowakei, Sudetenland, Kuhlaendchen
+R: Ballade, Habgier, Mord, Reue, Selbstmord
+M: 3/4
+L: 1/8
+K: G
+D2 | DFG3A | _BB=F3
+B | _BBA2G2 | D_E=F3
+G | =F_ED2E2 | =F2D2z
+_B | A_BA2G2 | F2G2
+S:https://www.folktunefinder.com/tunes/152199
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, habgier, mord, reue, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

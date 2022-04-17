@@ -1,0 +1,32 @@
+X:5
+T: Erev Ba
+C: from Israel
+M: C|
+L: 1/4
+P: Second voice
+K:G
+"G"z4 | "Am"z4 | "D7"z4 | "G"z4 | z4 | "Am"z4 |
+"D7"z4 | "B7"z4 | "C"z4 | z4 | "Am"z4 | "D"z4 |
+"Em"G2Bd | "Am"c2 "D7"c/d/ B | "G"B>ABd | B>A G/A/ B| d2 z2 | "Am"A/B/c/B/ A/G/F/E/ |
+"D7"D2 z2 | "G"z/D/G/F/ G/A/B/c/ | d d/e/ d2| "Am"c/d/e/d/ c/B/A/G/ |\
+    "D7"F/G/A/G/ F/E/D/C/ | "B7"^D/B,/D/F/ B/A/G/F/ |
+"C"c2 e>e | d/e/d/c/ cB| "Am"A2 c>c| "D"B>A G/F/E/F/ |\
+     "Em"G/A/G/F/ E/D/C/E/ | "Am"A/B/c/^c/ "D7"d e/f/ |
+("G"g4|"G7"g2)z2|| [K:C]\ "C"GcB c/e/ | "Dm7"d3z | "G7"de f/g/ e| "C"e3z |
+GcB c/e/ | "Dm7"d3z | "G7"de f/g/ e| "E"e3z | "F"FAc>c | B/c/B/A/ Az |
+"Dm"DFA>A | "G"G>F E/D/C/D/ | "Am"c2 A2 | "Dm"d2 "G7"d/e/c | ("C"c4|c2) z2 |
+Gede/g/ | "Dm7"f>e f/e/d/c/ | "G7"Bcd/e/c| "C"c  c/B/ c/B/c/d/ |\
+     e e/f/ ee | "Dm7"f>e f/e/d/c/ |
+"G7"Bc d/e/ c | "E"B>A ^G/A/B/G/ | "F"F2 A2 | c2 FE | "Dm"D2 F2 | "G"B2 e2|
+"Am"e2c2 | "Dm"f2 "G7"f/g/ e | ("C"e4| "Dm"e2) "G7"f/g/ e | ("C"e4|e2) z2 |]
+S:https://www.folktunefinder.com/tunes/156315
+S:http://trillian.mit.edu/~jc/music/abc/src/jaabc2ps-1.1.0/release/mtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

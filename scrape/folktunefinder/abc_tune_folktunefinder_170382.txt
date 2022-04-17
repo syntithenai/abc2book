@@ -1,0 +1,36 @@
+X:1
+T:Knives and Forks
+C: Arr. Laura Conrad and Frank Nordberg
+S: 1726
+%%MIDI gchordoff
+M:3/2
+K:G
+L:1/8
+V:1 name=S
+|:"G"g2 ag "D"f2  gf "C"efge | "D"f2 d4 f2 e2 d2 | "C"c2 dc 
+"G"B2 cB "D"ABcd | "G"B2 G4 B2 A2 G2 :|
+|:"G"GABc d2 G2 F4 | "Am"E2 A4 G2 "D"F2 ED | "G"GABc d2 g2 
+"D"F4 | "G" D2 G4 B2 A2 G2 :|
+V:2 name=A
+K:G
+L:1/8
+|:B4 A2BA GABc|dcBA GFGA G2F2|E4G2AG F2GF|G2D2 B,2D2- DFGA :|
+|:BAGA B4- Bcd2|c8 d2cB|BAGA G2E2 D4|D2EC B,2D2 C2B,2:|
+V:3 name=T
+K:G 
+%%MIDI transpose -12
+M:3/2
+L:1/2
+|: G d  c | d A d   | c d A | g B D :|
+|: G d c   | A c d  | B B/ c/  d | B D G :|
+S:https://www.folktunefinder.com/tunes/170382
+S:http://mstation.org/notate.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

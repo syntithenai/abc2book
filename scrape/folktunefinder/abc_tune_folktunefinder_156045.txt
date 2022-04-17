@@ -1,0 +1,25 @@
+X: 1
+T: Emily's
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|:AF~F2 ABDF|EB~B2 EBdB|AF~F2 ABdf|
+efdB ~A2GB|AF~F2 ABdf|eB~B2 g2fg|
+gffg fdAF|1 GEAF GFEB:|2 GEAF GFE2||
+fdd/2d/2d fdgf|eB~B2 ~g3e|fdd/2d/2d fdga|b2af gfeg|
+fdd/2d/2d fdgf|eB~B2 g2fg|gffg fdAF|GEAF GFE2||
+~f3d fdgf|eB~B2 ~g3a|fdd/2d/2d fdga|b2af gfeg|
+~f3d fdgf|eB~B2 g2fg|gffg fdAF|GEAF GFE2|
+|:add/2d/2d Adbd|gG(3Bcd ~g3b|add/2d/2d Adga|
+b2af gfeg|add/2d/2d Adbd|gG(3Bcd ~g2fg|
+gffg fdAF|1 G2af gfeg:|2 G2AF GFEB||
+S:https://www.folktunefinder.com/tunes/156045
+S:http://www.thesession.org/tunes/display/763
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

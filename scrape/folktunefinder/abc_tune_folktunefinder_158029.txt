@@ -1,0 +1,69 @@
+X:1
+T:Hebrides Waltzes
+C:Trad.
+O:Scotland
+A:Hebrides
+S:Barbara McOwen
+R:waltz
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=160
+M:3/4
+L:1/4
+K:E
+%%MIDI channel 1
+%%MIDI program 1 21
+%%MIDI chordprog 21
+%%MIDI bassprog 21
+%%MIDI gchord f3zc3zc3z
+T:First Tune
+|:B |"E"BGB |"B"B2B |cBG |"G#m"B2B \
+|"A"cBc |"E"e2G |"F#m"[FF-][EF-][CF-] |"B"[FD][EE][FF] |
+ "E"[GG-][FG-][EG-] |[EG-][DG][CF] |"A"[EE-][DE][CC] |"Am"[E2=C2][FC] \
+|"E"[GB,-][B,B][EG] |"B"[D2F2][EE] |"E"E3- |E2 :|
+T:Mingulay Boat Song
+K:A
+ F |"A"[C3A3] |[C3A3] |[c2a2]e |[c3A3] \
+|[c3A3] |[c2e2][cA] |"D"[B2F2-][AF] |"D"[D3F3] \
+|"A"[A3c3] |"E"[E2B2-][BD] |"A"[C3A3] |[c2E2][DB] |
+ [C3A3-] |"F#m"[F3A3] |"D"[BE-][AE-]"E"[BE] |"F#m"[C3c3] \
+|"A"[E3E3] |"E7"[E2E2][DF] |"A"[C3A3-] |"F#m"[F3A3] \
+|"E"[BE-][AE-][BE] |"A"[c3C3] |"E"[G3B3] |"A"[c2E2][BD] |
+ [C3A3-] |"F#m"[F3A3] |"D"[BE-][AE-]"E"[BE] |"F#m"[c3F3] \
+|"A"[C3E3] |"E7"[E2D2-][FD] |"A"[C2A2][DF] |[E3C3] \
+|[c3C3] |[B2D2-]"E"[AD] |"A"[A3-C3-] |[A2C2]
+T:Third Tune
+K:D
+|:z |"D"[AA-][GA-][FA] |"G"[B2G2-][AG] |"A"A3- |"A7"[G3A3] \
+|"D"[F2A2][df] |"A"[f2a2][eg] |"D"[f3-d3-] |"Bm"[f3d3] |
+ "F#m"[f2c2-][ec] |"Bm"[d2B2][FF] |"A"[A3A3] |"Bm"[B3d3] \
+|"G"[e2B2-][fB] |"A"[G2e2][Fd] |"D"[d3-F3-] |[d2F2] :|
+T:Fourth Tune
+K:G
+|:[GG] |"G"[G2B2][cA] |[B3d3] |"D"[Ac][GB][DA] |"G"[G2B,2-][GB,] \
+|[G2B2][cA-] |[dA][eB][fc] |[g3B3-] |[d2B2][d=f] |
+ "C"[ec][g2e2] |"G"[d2B2][cA] |[B2G2-][GG] |"C"[c2E2][ce]\
+|"G"[B3d3] |"F"[=F2=F2][AA] |"G"([G3G3] |[G2G2]) :|
+W:
+W:Collected/Transcribed 1974 by Barbara McOwen
+W:
+W:
+W:Arrangement Copyright (C) 2001 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/158029
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/HebridesWaltzes.abc
+S:http://people.csail.mit.edu/jaffer/Music/HebridesWaltzes.abc
+S:http://voluntocracy.org/Music/HebridesWaltzes.abc
+S:http://www.voluntocracy.org/Music/HebridesWaltzes.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key E
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

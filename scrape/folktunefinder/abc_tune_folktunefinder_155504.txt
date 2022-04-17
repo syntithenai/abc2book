@@ -1,0 +1,31 @@
+X: 1
+T: Easter Thursday
+O: England
+M: 3/2
+L: 1/8
+K: Dm
+|: "Dm"d4 def2 e2d2 \
+| "Am"e2A4 c2B2A2 \
+| "Bb"B4 Bcd2 c2B2 \
+| "F"c2F4 c2B2A2 |
+| "Gm"GAB2 "Dm"AGF2 "Gm"GFE2 \
+| "Dm"FED2 "Am"FGA2 "Dm"D4 \
+:: "Dm"agfe f2a2 d2a2 \
+| "Gm"bagf "C"e2g2 c2g2 |
+| "F"agfe "Bb"d2f2 B2f2 \
+| "A7"gfed ^c2e2 A2F2- \
+| "Dm"F2G2- "Am"G2A2- "Dm"A2B2- \
+| "Gm"B2A2- "Dm"A2d2 "A7"e2^c2 :| "Dm"Hd8 |]
+S:https://www.folktunefinder.com/tunes/155504
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/EasterThursday_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/EasterThursday_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/tune/EasterThursday_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/EasterThursday_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:54
+T: Graserin und Reiter
+N: Q0149B
+O: Osteuropa, Tschechoslowakei, Eger
+N: Anhaengsel an der vierten Zeile.
+R: Ballade, Verfuehrung, Verlassen des Elternhauses
+M: 2/4
+L: 1/16
+K: C
+G2 | G2E2E2E2 | E2D2D2
+E2 | F2A2G2F2 | F4E2
+G2 | C2GGG2G2G2 | G2E2c2
+G2 | G2F2F2B2 | c2E2G2
+G2 | F2AAA2A2A2 | G4E2
+G2 | G2F2F2B2 | c4z2
+S:https://www.folktunefinder.com/tunes/153007
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlassen des elternhauses
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

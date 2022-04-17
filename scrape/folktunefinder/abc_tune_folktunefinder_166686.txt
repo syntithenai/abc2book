@@ -1,0 +1,33 @@
+X:1
+T:Isblommor
+C:Eric Welander
+R:Vals
+Z:Patrik Mnsson, 2008-12-27
+O:Skne
+N:Noten innehller anteckningen 93-01-03
+M:3/4
+L:1/8
+K:G
+| d2 e2 d2 | c2 B2 A2 | G3 G G2 | G4 z2 |: B2 G2 B2 | d2 c2 B2 |
+A2 F2 A2 | d3 d d2 | A2 F2 A2 | d3 d d2 | B2 G2 B2 | e3 e e2 |
+B2 G2 B2 | d2 c2 B2 | A2 F2 A2 | d3 d d2 | d2 c2 A2 | F2 E2 F2 |
+G3 G G2 | G4 G2 | E2 G2 c2 | e3 e e2 | D2 G2 B2 | d3 d d2 |
+d2 (c2 A2) | F2 (E2 F2) | G2 B2 G2 | D3 D D2 | E2 G2 c2 | e3 e e2 | D2 G2 B2 |
+d3 d d2 | d2 c2 A2 | F2 E2 F2 | G3 G G2 | G4 z2 :|   K:C 
+|: (c4 B2) | (A4 G2) |
+E2 (EF) G2 | C2 (CD) E2 | (c4 B2) | (a4 G2) | (B6 | B4) c2 | (d4 c2) |
+(B4 A2) | G6 | D6 | G2 B2 A2 | G2 (D2 _E2) | E2 (G2 A2) | (B2 A2 G2) | (c4 B2) |
+(A4 G2) | E3 F G2 | C2 D2 E2 | c4 B2 | (c4 ^c2) | (d6 | d4) c2 | d4 c2 | B4 A2 |
+(G6 | G4) A2 | G2 ^F2 G2 | A4 B2 | c3 c c2 | c4 z2 :|
+S:https://www.folktunefinder.com/tunes/166686
+S:http://www.folkwiki.se/pub/cache/Isblommor_4f2587.latin.abc
+S:http://www.folkwiki.se/pub/cache/Isblommor_4f2587.abc
+S:http://www.folkwiki.se/pub/cache/Isblommor_4f2587.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

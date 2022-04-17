@@ -1,0 +1,20 @@
+X:2
+T:Finnleken
+R:R\orospols
+C:Sven Nyhus
+Z:John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:D
+|: "D"d>f a2 a>b | a>g f2 d>d | "Em"e>f g>f g>a | "A7"g>f "(4X)"e4 :|
+|: "A7"{d}c>B A2 g>g | g>e "D"f2 d>d | "A7"(3dcB A2 g>g | (3gfe "D"f2 d>d | "A7" e>f (3geg (3fdf | (3ece "D"d4 :|
+S:https://www.folktunefinder.com/tunes/157863
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Finnleken.abc
+% Rhythm R%C3%B8rospols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

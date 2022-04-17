@@ -1,0 +1,23 @@
+X: 2
+T: Galway, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: GMaj
+|: (3DEF |\ 
+G2 B<d g>dB>G | F<GA>B c>AF>A | G2 B<d g>fg>b | (3aba (3gfe (3ded (3cBA |
+G2 B<d g>dB>G | F<GA>B c>AF>A | G>gf>e (3ded (3cBA | B2 G2 G2 :|
+|: g<a |\
+b>ab>c' b>ag>f | e>de>f e2 (3efg | a>ga>b a>gf>e | (3ded c<e d2 d<f |
+g>fg>a b>gd>B | c>Bc>d e>gf>e | G>gf>e (3ded (3cBA | B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/159925
+S:http://www.thesession.org/tunes/display/38
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

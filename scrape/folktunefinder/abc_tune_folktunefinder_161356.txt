@@ -1,0 +1,43 @@
+X: 1
+T: Glentrool
+C: Hugh Foss
+N: 2x3-bar phrases!
+M: 6/8
+L: 1/8
+K: C
+G3 \
+| "C"EFG G2c \
+| EFG G2e \
+| "G7"d3 "C"c2G \
+| "C"EFG G2G \
+| "Am"c2c G2E \
+| "Dm"F3 D2E \
+| "Dm"F2F D2D \
+| F2F DEF |
+| "G7"A3 G2F \
+| "C"EFG G2c \
+| EFG "G7"E2D \
+| "C"C3 E3 \
+|| "C"GFE G2E \
+| G2E G2A \
+| "Em"B3 G2A \
+| BAG B2G |
+| "Em"B2G B2c \
+| "D7"d3 B2c \
+| "G"dcB "G7"d2B \
+| "C"cde "D7"d2B \
+| "G"d3 B2B \
+| "C"cBA GFE \
+| "F"DEF "G7"E2D \
+| "C"C3 |]
+S:https://www.folktunefinder.com/tunes/161356
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/GlentroolJ_C24.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

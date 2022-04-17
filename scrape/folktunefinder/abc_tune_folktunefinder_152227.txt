@@ -1,0 +1,25 @@
+X:195
+T: Die Mordeltern
+N: Q0085k
+O: Mitteleuropa, Deutschland (BRD) , Nordbayern, Oberfranken
+R: Ballade, Habgier, Mord, Reue, Selbstmord
+M: 6/8
+L: 1/16
+K: G
+D2 | G4D2G4A2 | B4BAG4
+GA | B4A2B4ce | d4dcB4
+B2 | d4B2d4e2 | d4c2B4
+BG | A4B2d2c2B2 | A2B2A2G2z2
+S:https://www.folktunefinder.com/tunes/152227
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, habgier, mord, reue, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

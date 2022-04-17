@@ -1,0 +1,27 @@
+X:1
+T:Hambo p logen
+C:Karl Salomonsson
+R:Hambo
+O:Skne
+M:3/4
+L:1/8
+K:G
+|: D2 D>E D>C | B,2 D>G B2 | G2 G>A G>E | G2 F4 | D2 D>F E>F |
+D2 F>A d2 | d2 d d>e d>c | c2 B4 | D2 D>E D>C | B,2 D>G B2 |
+G2 G>A G>F | F2 E4 | c2 c>B A>c | B2 B>A G>B | A2 A>F D>F | G2 G4 :|
+|: B>c d2 dB | GA B4 | G>A B2 A>G | G2 F4 |
+A>B c2 c>B | AG F4 | F>G F2 E>F | E2 D4 | B,>C D2 DC |
+B,D G4 | F>G A2 A2 | G2 A2 B2 | c>d e2 c2 | B>c d2 B2 |
+A>B c>A F>A | G2 G4 :|
+S:https://www.folktunefinder.com/tunes/163004
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bb98c0.latin.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bb98c0.abc
+S:http://www.folkwiki.se/pub/cache/Hambo_p%e5_logen_bb98c0.abcm.abc
+% Rhythm Hambo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 3
+T: Durham Reel, The
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+A/B/ |\ 
+c2 E E>FE | F2 A A2 f | e2 c c>BA | B2 B B2 A/B/ |
+c2 E E>FE | F2 A A2 f | e2 c B>cB | A2 A A2 ||
+c/d/ |\
+e2 e e>ce | f2 a a2 f | e2 c c>BA | B2 B B A/B |
+c2 E E>FE | F2 A A2 f | e2 c B>cB | A2 A A2 |]
+S:https://www.folktunefinder.com/tunes/155067
+S:http://www.thesession.org/tunes/display/1232
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

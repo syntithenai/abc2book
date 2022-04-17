@@ -1,0 +1,26 @@
+X:1
+T:Elofabiten
+C:KOMPOSITR
+R:LTTYP
+Z:TRANSKRIPTION GJORD AV, DATUM
+O:GEOGRAFISK HRKOMST
+S:efter SPELMAN
+S:knd genom SPELMAN/GRUPP
+M:2/4
+L:1/16
+K:F
+|: C2CF B3F | F2E2 EGC2 | C2B2 BGE2 | F2c2 cAF2 | 
+   C2CF B3F | F2E2 EGC2 | C2B2 BGE2 | F2F2 F4 :|
+|: D2B2 BFBD | c2F2 A4 | C2EG BGEG | F2A2 c4 |
+   D2B2 BFBD | c2F2 A4 | C2EG BGEG | F2F2 F4 :|
+S:https://www.folktunefinder.com/tunes/155988
+S:http://www.folkwiki.se/pub/cache/Elofabiten_257a5e.latin.abc
+S:http://www.folkwiki.se/pub/cache/Elofabiten_257a5e.abcm.abc
+% Rhythm Lttyp
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,48 @@
+X: 1134
+T: Rakes of Kildare, The
+S: &quot;ONeill's Dance Music of Ireland: 1001 Gems&quot;, 1907, tune #108
+M: 6/8
+L: 1/8
+R: Jig
+K: G Major
+|: D |\
+D2 G GFG | ABc d2 e | =fef ded | cAG F2 D |
+DGG GFG | ABc d2 e | =fed cA^F | G3 G2 :|
+|: d |\
+gfg def | gfg a2 g | =fef ded | cAG F2 d |
+gfg def | gfg a2 g | =fed cA^F | G3 G2 :|
+K: G Dorian
+|: D |\
+D2 G GFG | ABc d2 e | fef ded | cAG F2 D |
+DGG GFG | ABc d2 e | fed cA^F | G3 G2 :|
+|: d |\
+gfg def | gfg a2 g | fef ded | cAG F2 d |
+gfg def | gfg a2 g | fed cA^F | G3 G2 :|
+K: A Dorian
+|: E |\
+E2 A AGA | Bcd e2 f | gfg efe | dBA G2 E |
+EAA AGA | Bcd e2 f | gfe dB^G | A3 A2 :|
+|: e |\
+aga efg | aga b2 a | gfg efe | dBA G2 e |
+aga efg | aga b2 a | gfe dB^G | A3 A2 :|
+K: A Dorian
+|: G |\
+E2 A A^GA | Bcd e2 f | gfg efe | dBA G2 D |
+EAA A^GA | BB/c/d e2 f | gfe dB^G | A3 A2 :|
+|: g |\
+a^ga ee/f/=g | a^ga b2 a | gfg ege | 
+[1 dB^A B2 g | a^ga efg | a^ga b2 a | gfe dB^G | A3 A2 :|
+[2 dBA GED | E2 A A^GA | Bcd e2 f | gfe dB^G | A3- A2 |]
+S:https://www.folktunefinder.com/tunes/159736
+S:http://www.thesession.org/tunes/display/84
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

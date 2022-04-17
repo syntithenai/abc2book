@@ -1,0 +1,17 @@
+X:1
+T:Diamond Joe
+M:3/2
+L:1/4
+K:F
+ C F F| A3 F/2F/2 G F| B2 z A B B/4- d3/4| c3 A F/4- G3/4 G| F2 z C F F|\
+ A3| F/2F/2 G F| B2 z A B/4 B3/4 B/4- d3/4| c3 A F/4- G3/4 G| F2 z C C/4- F3/4 F|\
+ A3 F3/4 A/4 G F| B2 z| A B B/4- c3/4| c3 A3/4 F/4 F/4- G3/4 G| F2 z C F A|\
+ c3 A G F| B2 z A B B/4- d3/4| c2- c/2A/2| A/2A/2 F/4- G3/4 G| F2 z||\
+S:https://www.folktunefinder.com/tunes/153321
+S:http://back.numachi.com:8000/dtrad/abc/DIAMONJO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:220
+T: Old Blackguard Barndance
+S: "Passing Time" (Jim & Mary Coogan & friends)
+N: "Recorded by Joe Derrane and the Irish All Stars in the
+N: early 50's"
+L: 1/8
+M: 4/4
+Q: 350
+R: hornpipe
+K: D
+(3ABc | d2 F2 A2 BA | G2 C2 E3 D | CDEF GFGA | BAAG A2 (3ABc |
+d2 F2 A2 BA | G2 C2 E3 f | gfed cABc | e2 dc d2 :|
+AG | F2 A2 dfed | c2 B2 G4 | c2 B2 GFGA | B2 A2 A2 AG |
+F2 A2 dfed | c2 B2 G4 | gfed cABc | e2 dc d2 :|
+S:https://www.folktunefinder.com/tunes/152507
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: G\aangl\aat efter Pers-hans Olsson
+O: R\"attvik
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: handwritten ms labelled "921211 Lars Pettersson"
+M: 2/4
+L: 1/16
+K: C
+G4 \
+| c3d cBcd | c2cG ECC2 | F3G FEFG | A2AF FccF \
+| G3A B2Bc | d2e2 f2fg | a3g g2f2 | Tf2ed e3G |
+| c3d cBcd | c2cG ECC2 | F3G FEFG | A2AF FccF \
+| G3A B2Bc | d2e2 f2fg | a2g2 gdBG | c4 :|
+|: B2c2 \
+| d3b gdd2 | B4 BGBd | e3d cdcB | A4 {^G}A3G \
+| F2FD FGFD | F2D2 F2A2 | G3A B2Bc | d3c B2Bc |
+| d3b gdd2 | B4 BGBd | e3d cdcB | A4 {^G}A3G \
+| F2FD FGFD | F2A2 d2ef | g2gb a2fa | g4 :|
+S:https://www.folktunefinder.com/tunes/159673
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Gang_Pers-Hans_Olsson_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

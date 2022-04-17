@@ -1,0 +1,39 @@
+X: 2
+T: di Goldene Khasene
+R: freylach
+Z: John Chambers <jc@trillian.mit.edu>
+D: Di bostoner Klezmer: "Nakhes fun Klezmer"
+D: H Kandel ...
+N: Handwritten MS by ; Transcription by S.Rauch
+N: Modified slightly for contra dance.
+N: The last 8 bars are usually repeated.
+M: 4/4
+L: 1/8
+K: Dm
+   zA,DF \
+| "Dm"A2d2 ^cd "(D7)"AB | "Gm"G4 zBA^G \
+| "A7"A4 zGFG | "Dm"A4 zA,DF \
+| "Dm"A2d2 ^cd "(D7)"AB | "Gm"G4 z2G^G |
+| "A7"A2 F2 GA/G/ FE | "Dm"D4 :| \
+|: z2"(A7)"A2 \
+| "Dm"f2 ed f2 ed | A4 z2A_A \
+| "Gm"G2 G2 G>A B/A/G | "Dm"A4 z2"(A7)"de |
+| f2 ed f2 "(D7)"ed | "Gm"B4 zGAB \
+| "A7"AG GF FE ED | "Dm"D4 :| \
+|: z2A2 \
+| "Dm"f/e/d f/e/d [dA][dA] [d2A2] | f/e/d f/e/d "Gm"GG G2 |
+| B2B2- BA cB | "Dm"A4 z2"D7"z2 \
+| "Gm"GA B2 EF G2 | "Dm"FG A2 DE FA \
+| "A7"AG GF FE ED |1 "Dm"F4 :|2 "Dm"D4 |]
+%%sep 0 1 8cm
+S:https://www.folktunefinder.com/tunes/161641
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/GoldeneKhasene2.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

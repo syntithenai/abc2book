@@ -1,0 +1,28 @@
+X: 1
+T:Frost is all over, The
+R:jig
+H:See also #67, #206
+H:There is another tune by the same name: #202
+D:Paul McGrattan: The Frost is all over
+Z:id:hn-jig-263
+M:6/8
+K:D
+def edc|dAF GFE|DFA DFA|Bcd edc|
+def edc|dAF GFE|DFA DFA|1 Bdc d2A:|2 Bdc d2e||
+~f3 afd|~g3 bag|~f3 afd|gfg efg|
+~f3 afd|~g3 bag|fga efg|fdc d2e|
+~f3 afd|~g3 bag|~f3 afd|~g3 e2g|
+fga efg|fdB AFA|Bcd ede|fdf gfe||
+S:https://www.folktunefinder.com/tunes/159522
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fr/Frost_is_all_over_The_8.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

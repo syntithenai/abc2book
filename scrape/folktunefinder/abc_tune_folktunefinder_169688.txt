@@ -1,0 +1,38 @@
+X: 1
+P: Khosid wedding dance
+O: Transylvania
+D: "Muszik\'as - The Lost Jewish Music of Transylvania (Hannibal 1373)
+Z: John Chambers <jc@trillian.mit.edu>
+R: cs\'ard\'as
+M: 2/4
+L: 1/16
+K: F
+cde \
+| "F"f2c2 f2g2 \
+| a2a2- a2fga \
+| "C7"b2a2 {a}g2gf \
+| "F"a2fa gfae |
+| "F"f2f2 c2f2 \
+| a2{b}a2- afga \
+| "C7"b2a2 gage |1 "F"fcAc f :|2 "F"f4z ||[K:Ddor]
+|: ef^g \
+| "Dm"a2a2 T^g3f \
+| ef^gf Te3d \
+| f2{ef}^gf "A7"Te3^c \
+| "Dm"defg aef^g |
+| "Dm"a2a2 T^g3f \
+| ef^gf Te3d \
+| f2{ef}^gf "A7"Ted^ce \
+| "Dm".d2d2z :|
+S:https://www.folktunefinder.com/tunes/169688
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KRXX_C.abc
+% Rhythm Csa?rda?s
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

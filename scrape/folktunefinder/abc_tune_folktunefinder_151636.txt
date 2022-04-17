@@ -1,0 +1,26 @@
+X:107
+T: Die erzwungene Ehe
+N: Q1050E
+O: Mitteleuropa, Deutschland / Frankreich, Lothringen
+N: Melodievergleich zu Q0050d, anderes Lied. Verzierungen (Vorschlaege)
+N: in den ersten Zeilen. Pause in der 2. Zeile korrigiert.
+R: Kilt - Lied
+M: 2/4
+L: 1/8
+K: D
+D | D=FED | =C2C2 | =FAAG | A2z
+D | D=FED | =C2C2 | =FAAG | A2
+=FG | AAA_B | A2G=F | G2
+G_B | A2DE | D2=C_B, | =C2
+EG | =F2EE | D2z
+S:https://www.folktunefinder.com/tunes/151636
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Kilt - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

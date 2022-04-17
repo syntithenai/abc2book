@@ -1,0 +1,21 @@
+X:1
+T:David's Jig
+D:Natalie MacMaster - &quot;Live&quot; 2002
+M:6/8
+L:1/8
+R:jig
+K:Gdorian
+|:G2 D GAB|AFD G2 B|AFF dFF|cBA Acf|
+|G2 D GAB|AFD G2 g|gfd cdf|cdf [1 cAF:|[2cdf||
+|:e2 d gab|gfd e2 a|fcc acc|gcc fga|
+|[1 g2 d gab|afd g2 a|fgf cdf|cAF G3:|
+|[2 gag gfc|dff fcA|Bdd dBG|Acc cAF|
+S:https://www.folktunefinder.com/tunes/152309
+S:http://www.thesession.org/tunes/display/2746
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

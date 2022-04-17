@@ -1,0 +1,28 @@
+X: 1
+T: De Loere
+C: Trad.
+O: Vlaanderen
+M: 2/4
+L: 1/8
+K: F
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" B/A/G/E/ | "F"FF F2 |]
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" BAGF | "C7"G/^F/G/A/ G.=F/.E/ | "F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7"B/A/G/E/ | "F"F/E/F/G/ F2 |]
+"F"cA AG/A/ | "Bb"BG G/^F/G/^G/ | "F"A=F FE/F/ | "C7"GE C2 | "F"cA AG/A/ | "Bb"BG G/^F/G/^G/ | "F"A=F "C7"E/F/=G/E/ | "F"F/E/F/G/ F2 |]
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" BAGF | "C7"G/^F/G/A/ G.=F/.E/ | "F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7"B/A/G/E/ | "F"F/E/F/G/ F2 |]
+"F"cA A/G/A/B/ | "Bb"dB B/A/B/=B/ | "F"cA A/F/G/A/ | "C7"G/A/B/A/ G2 | "F"cA A/G/A/B/ | "Bb"dB B/A/B/=B/ | "F"cA "C7"G/A/B/G/ | "F"F/E/F/G/ F2 |]
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" BAGF | "C7"G/^F/G/A/ G.=F/.E/ | "F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7"B/A/G/E/ | "F"F/E/F/G/ F2 |]
+"F"cA AG/A/ | "Bb"BG G/^F/G/^G/ | "F"A=F FE/F/ | "C7"GE C2 | "F"cA AG/A/ | "Bb"BG G/^F/G/^G/ | "F"A=F "C7"E/F/=G/E/ | "F"F/E/F/G/ F2 |]
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" BAGF | "C7"G/^F/G/A/ G.=F/.E/ | "F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7"B/A/G/E/ | "F"F/E/F/G/ F2 |]
+"F"cA A/G/A/B/ | "Bb"dB B/A/B/=B/ | "F"cA A/F/G/A/ | "C7"G/A/B/A/ G2 | "F"cA A/G/A/B/ | "Bb"dB B/A/B/=B/ | "F"cA "C7"G/A/B/G/ | "F"F/E/F/G/ F2 |]
+"F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7" BAGF | "C7"G/^F/G/A/ G.=F/.E/ | "F"FC A.G/.F/ | "C7"GC B.A/.G/ | "F"Ac "C7"B/A/G/E/ | "F"F/E/F/G/ F2 |]
+S:https://www.folktunefinder.com/tunes/152700
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/DeLoere.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/DeLoere.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

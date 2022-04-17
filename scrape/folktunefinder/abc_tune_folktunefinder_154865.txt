@@ -1,0 +1,36 @@
+X:1
+T:Dudelsackpolka ("Spazierpolka")
+C:traditionell
+R:polka
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E.Baumann
+N:Diese Melodie geht vermutlich zurueck auf die "Dudelsackpolka" ( nr. 16) in diesem buch
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+dB d2 | G/B/d B2 | BA A/B/c/d/ | ed d/c/B/c/|
+dB d2 | G/B/d B2 | BA A/B/c/d/ | Bd B2 :|
+|:\
+A>B AB | cc/d/ c/B/A | B>c Bc | dd/e/ d/c/B |
+A>B AB | cc/d/ c/B/A | B/c/d A/B/c | Bd B2 :|
+|:\
+dB e>d | dc c/B/A/B/ | cA d>c | B/c/d/e/ d2 |
+dB e>d | dc c/B/A | B/c/d A>c | Bd B2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154865
+S:http://simonwascher.info/TradArchiv_polka/dudelsackpolka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

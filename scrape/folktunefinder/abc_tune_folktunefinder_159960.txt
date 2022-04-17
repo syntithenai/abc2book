@@ -1,0 +1,41 @@
+X:7930
+T:Gammel polsdans
+C:anon.
+O:Norway
+N:After Karl Alexandersen
+N:This tune uses a quartertone notation not standardised in ABC:
+N:  ^/ = 1/4 tone sharp
+N:  ^3/ = 3/4 tone sharp
+N:  / = 1/4 tone flat
+N:  _3/ = 3/4 tone flat
+N:The quartertone notation might cause problems for some
+N:abc applications. If so, just remove them.
+R:Pols
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/gammel-polsdans01/gammel-polsdans01-1.abc
+M:3/4
+L:1/8
+K:Ddor
+"Dm"a2 (^/f>a) ^/f>a|"A7"a<^/g (e>^/g) e<^/g|("Dm/A"^/g<^/f) (d>^/f) "A7"e>(^c|"Dm"d>)(e ^/f2) "A7"e2|
+"Dm"a2 (^/f>a) ^/f>a|"A7"a<^/g (e>^/g) e<^/g|("Dm/A"^/g<^/f) (d>^/f) "A7"e>^c|[1"Dm"d2 d3 z:|[2"Dm"d2 d3 z/^/f/|
+("A7"^/f<e) (^/cd) e>^/f|("A7"^/f<e) (^/cd) e>^/f|("Dm/A"^/g<a) (^/fd) "A7"e>^/c|("Em"B<G) "A7"A3 z/^/f/|
+("A7"^/f<e) (^/cd) e>^/f|("A7"^/f<e) (^/cd) e>^/f|("Dm/A"^/g<a) (^/fd) e>^/c|[1{^c}"Dm"d2 d3 z/^/f/:|[2{^c}"Dm"d2 d4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159960
+S:http://abc.musicaviva.com/tunes/norway/gammel-polsdans01/gammel-polsdans01-1.abc
+S:http://abc.musicaviva.com/tunes/norway/gammel-polsdans01/gammel-polsdans01-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/gammel-polsdans01/gammel-polsdans01-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/norway/gammel-polsdans01/gammel-polsdans01-1.abc
+% Rhythm Pols
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

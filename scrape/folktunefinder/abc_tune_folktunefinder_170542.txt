@@ -1,0 +1,40 @@
+X:1
+T:Krauttreter
+C:traditionell
+R:mazurka
+A:Erl, Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Tiroler Volkstaenze - Notenteil, Karl Horak, Musikverlag Helbling, Innsbruck, 1974
+N:OeVLA: Z 1146
+N:tonart im buch: in F (1. teil) und C 2.teil),  erster ton c'' 
+N:im buch s. 17
+N:im buch zweistimmig in einer notenzeile
+S:
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription: Simon Wascher
+%Q:3/4=48 %im buch
+M:3/4 %im buch
+L:1/8
+K:F
+c>c A2 f2 | e>d d4 | B>B e2 d2 | d>c c4 |\
+c>c A2 f2 | e>d [b4d4] | c>c=B>cd>e | "ende"f2 f2 z2 :|
+K:C
+G>G A3 E | G>^F=F4 | B2 A2 F2 | A2 G2 E2 |\
+G>G c3 B | G>G f3 d | B>G^F>GA>B | c2_B4 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170542
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/krauttreter.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

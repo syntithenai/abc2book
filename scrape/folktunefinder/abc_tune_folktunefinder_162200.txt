@@ -1,0 +1,23 @@
+X: 1
+T: Great Exhibition, The
+M: 4/4
+L: 1/8
+R: hornpipe
+S: William Hall Lister ms. (1840-1860)
+K: Fmaj
+AB|c=Bcd cfac|cBdB G2cB|Acfe dgba|(3gaf (3efd c2AB|
+c=Bcd cfac|cBdB G2cB|AfcA Bbge|g2f2 f2:|
+|:AB|cdef gcde|fefg acfa|g2ba gfef|(3gaf (3efd c2AB|
+c=Bcd cfac|cBdB GdcB|AfcA Bbge|g2f2 f2:|
+I added some corrections to bars 4-5 of the B-part, which in the real manuscript are |(3gaf (3efd cbag|cBcd cfac|
+S:https://www.folktunefinder.com/tunes/162200
+S:http://www.thesession.org/tunes/display/7023
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 42
+T: HALF-PENNY -- REEL
+B:Ryan's Mammoth Collection of Fiddle Tunes
+R:reel
+Z:Contributed 20000419181953 by John Chambers jchambers:casc.com
+Z:Contributed by Ray Davies <ray:davies99.freeserve.co.uk>
+M:2/4
+L:1/16
+K:G
+(udc) |\
+.B(GFG) .D(GFG) | Bdef gedc | .B(GFG) .D(GFG) | cedB .A2(dc) |
+.B(GFG) .D(GFG) | Bdef g2(ga) | bagf gfed | egdB A2 :|
+|: (cd) |\
+e3f edBA | Bdef gedB | .G2(BG) (dG)(BG) | Bdef .g2(fg) |
+e3f edBA | Bdef .g2(ga) | bgaf gfed | egdB A2 :|
+S:https://www.folktunefinder.com/tunes/158265
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/GH.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/GH.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

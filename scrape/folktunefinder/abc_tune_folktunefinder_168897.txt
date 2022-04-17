@@ -1,0 +1,29 @@
+X:31
+T:Juggle by Lightning
+M:4/4,6/4
+L:1/8
+R:Slow reel
+C:Gris Sanderson
+Q:300
+N:This tune came out of the fire one night and into my viola 
+N:with its odd phrasing. Here I've transposed it for the violin, 
+N:so it's a 5th higher. To get the depth it really should be played 
+N:on the viola in E dorian. This tune is on the Waulk album 
+N:Um-Di-Um.The last two bars are meant to be in 6/4.
+K:Bdor
+AGA|:F2B,2-B,4|(3CDE FGB3c|A3B GEFC|A,B,CE EFAE|
+EFB,2-B,4|(3CDE FG c2ec|dBBcf4-|f3g ecBG|1EFGB c2GE:|2EFGB c2Bc||
+|:f3e3f2-|fecA B4|DEF EFG FG|ABce ~f4|
+g3f3g2|ecBG F2FE|(3FGA Bc e2f2-|1f3e cBAc B2ce:|2f3e cBAc BAGA||
+S:https://www.folktunefinder.com/tunes/168897
+S:http://www.grissanderson.com/x31.txt
+% Rhythm Slow reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

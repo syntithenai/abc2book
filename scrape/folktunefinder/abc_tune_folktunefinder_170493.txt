@@ -1,0 +1,20 @@
+X: 1
+T: Korobushka
+O: trad Russia
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: Gm
+[| "D7"D3^F | A2 ^FD | "Gm"G3 A | B2 AG | "D7"A3 B | c2 dc | "Gm"B2 G2 | G4 |]
+|: "Cm"c3 e| g2 fe | "Gm"d3 B | d2 cB | "D7"A3 B | c2dc | "Gm"B2 G2 | G4 :|
+S:https://www.folktunefinder.com/tunes/170493
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Korobushka_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Russia/misc/Korobushka_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

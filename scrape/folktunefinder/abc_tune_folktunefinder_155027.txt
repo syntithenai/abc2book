@@ -1,0 +1,34 @@
+X:1
+T:Duo en fa majeur\.i
+T:From "Nouvelle M\'ethode th\'eoretique et pratique"
+C:Fran\ccois Devienne\.i
+B:Devienne: Nouvelle M\'ethode (c. 1800)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle15.abc
+V:1 Program 1 73 %Flute
+V:2 Program 1 73 %Flute
+M:3/8
+L:1/8
+K:F
+V:1
+("^Presto"fe).f|g2z|(gf).g|a2z|c'c'c'|c'c'c'|(c'b).a|g2z:|
+|:(ga)b|c'2z|(ga)b|c'2z|(d'c').b|(ab).c'|(ba).g|f2z:|
+V:2
+F2z|(ce).g|c2z|(FA).c|(fg).a|(bg).b|(ag).f|e2z:|
+|:B3|(AF).A|B3|(Af).f|fff|fff|(gf).e|f2z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155027
+S:http://abc.musicaviva.com/tunes/devienne-francois/devienne-nouvelle15.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/devienne-francois/devienne-nouvelle15/devienne-nouvelle15.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/devienne-francois/devienne-nouvelle15/devienne-nouvelle15.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

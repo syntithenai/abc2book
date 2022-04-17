@@ -1,0 +1,26 @@
+X:80
+T:Down The Glen    Hornpipe  Allan's # 80  pg20
+C:Trad/Anon
+B:Allan's Irish Fiddler (pub. Mozart Allen,  Glascow) date unknown
+Z:FROM ALLAN'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN Dec. 2002 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+(c3/2B/2)|{A}D2F3/2A/2 B3/2G/2  (3(Bcd)|{A}D2F3/2A/2 d2c3/2d/2|
+e/2A3/2c3/2e/2 f3/2d/2  (3(fga)|e3/2d/2c3/2B/2 A3/2G/2F3/2G/2|{A}D2F3/2A/2 B3/2G/2
+(3(Bcd)|{A}D2F3/2A/2 d2c3/2d/2|e/2A3/2c3/2e/2 f3/2g/2e3/2c/2|d2f2d2:|
+|:(c3/2d/2)|(e/2A3/2)c3/2e/2 f3/2d/2  (3(fga)|(e/2A3/2)c3/2e/2 f3/2d/2  (3(fga)|
+e3/2a/2g3/2f/2 e3/2d/2c3/2B/2| (3(ABA) ^G3/2B/2 A2=G2|(3(FED) F3/2A/2 d3/2f/2a3/2f/2|
+g2B2b2a3/2g/2|(3(faf) d3/2f/2  (3(ege)c3/2e/2|d3/2f/2e3/2c/2 d2:|
+S:https://www.folktunefinder.com/tunes/154227
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Allans/ABCtxt/080-downtheglen.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

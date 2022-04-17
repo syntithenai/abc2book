@@ -1,0 +1,24 @@
+X:3
+T:Valse de Bastogne
+B:Invitation a la Waltze
+O:Wallonie
+M:3/4
+L:1/8
+R:valse
+Q:C8=30
+K:C
+G>G |: e4 d>c | c>B B z G>G | f4 e>d | d>c c z G>G |
+e4 d>c | c>B B z GB | A2 Ac Bd |1 c4 G>G :|2 c4 Gc |
+|: e2 Gc eg | g^f =f2 GB | d2 GB df | fe e2 Gc |
+e2 Gc eg | g^f =f2 GB | dG Bd fd |1 c4 Gc :|2 c4 ||
+S:https://www.folktunefinder.com/tunes/157791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/valses.txt
+S:http://users.skynet.be/infants/musiques/abc/valses.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/valses.txt
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

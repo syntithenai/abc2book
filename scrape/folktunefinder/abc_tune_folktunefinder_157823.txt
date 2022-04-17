@@ -1,0 +1,31 @@
+X: 2
+A:Adam de la Halle
+T:Fines amouretes ai
+N: (written out)
+M:3/4
+L:1/4
+Q:1/4=120
+K:F Lydian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       41 %viola
+%%MIDI program 2       42 %cello
+%%MIDI program 3       69 %englhorn
+%
+[V:1] F2 F/4E/4D/| C2  D/E/  |^F2  G    | A2        A/4G/4F/| E2        F |(E/D/E) F |(GF) E    | F3 ||
+[V:2] C2   B,    | C2  C     | B,2 B,   |(A,/G,/A,) B,      |(A,/G,/A,) F,| A,2    A,| G,2 G,   | F,3||
+[V:3] F,2  G,    | F,2 G,/A,/| B,2 C/B,/| A,2       G,      |(A,/B,/A,) C | A,2    C | D2  C/B,/| C3 ||
+S:https://www.folktunefinder.com/tunes/157823
+S:http://www.blindchicken.com/~ali/music/adam/rondeaux/fines-2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

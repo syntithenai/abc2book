@@ -1,0 +1,25 @@
+X:96
+T: Verschlafener Jaeger
+N: Q0152M
+O: Mitteleuropa, Deutschland / Polen, Schlesien, Peterwitz
+N: Rhythmische Veraenderung: Die Achtel am Ende der 3. Zeile sind
+N: eigentlich Teil einer Triole. Manipuliert.
+R: Ballade, Verfuehrung, Versagen, Spott
+M: 4/4
+L: 1/8
+K: C
+G2 | G2G2G2G2 | G2e2c2
+B2 | A2A2AAA2 | A2f2d2
+c2 | B2B2dcd2 | e4fe
+d2 | c2c2dcd2 | c4z2
+S:https://www.folktunefinder.com/tunes/153049
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, versagen, spott
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

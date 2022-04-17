@@ -1,0 +1,25 @@
+X: 1
+T:The Groves
+M:4/4
+L:1/8
+K:G
+|:D|G2 GF GABc|dGBG AFDE|F2 FE FGAB|cdfe dcAF|GAGF GABc
+|dGBG AGFA|(3def (3efg fdcd|AB/2A/2 GF~G3:|
+|:A|B2 BA Bcdg|fdcd A ~F3|D ~F3 A ~F3|ABcA B ~G3|B2 BA Bcdg|
+fdcd AGFA|(3 def (3efg fdcd|AB/2A/2 GF~G3:|
+|:B|d2 gf g2fg|a2 ag ~f3e|d^cde ~f3g|a2 ag faea|dggf g2fg|a2 ag ~f3e|
+(3d ef (3efg fdcd|AB/2A/2 GF~G3:| |:D|Gd (3Bcd Gd (3Bcd|Fc (3ABc Fc
+(3ABc|Gd (3Bcd GdBc|d2 de fd (3cAF| Gd (3Bcd Gd (3Bcd|Fc (3ABc Fc
+(3ABc|df (3efg fdcd|AB/2A/2 GF~G3:| |:d|gd (3Bcd gd (3Bcd|fc (3ABc fc
+(3ABc|gd (3Bcd gd (3Bcd|AGAB ADFA| dedB c3 A|BcBG ~A3 B|(3def (3efg
+fdcd|AB/2A/2 GF~G3:|
+S:https://www.folktunefinder.com/tunes/162606
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Groves_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

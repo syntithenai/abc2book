@@ -1,0 +1,28 @@
+X:0546
+T:"'Granu Waile' or 'Ma-Ma'"    (air)   0546
+C:Unattributed
+C:slow
+N:Transposed from Bb
+N:I wanna SEE this in ABC!
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:A
+"_vb"G|(.c.^d.e) (c/2B/2)(A/2G/2)(F/2^E/2)|(F2.F3/2) (F2G/2A/2)|(BGe) (c/2B/2)(A/2G/2)(F/2D/2)|E2E E2(c/2^d/2)|
+e^de (c/2B/2)(A/2G/2)(F/2^E/2)|(Ff).f f (f/2a/2)(g/2f/2)|({ef}e^de) (c/2B/2) (A/2G/2)(F/2^E/2)|(.F.F.F) F2:|
+(3(c/2^d/2e/2)|.f(c/2B/2)(A/2G/2) .f(c/2B/2)(A/2G/2)|(.F.F.F) (F2 (3B/2c/2^d/2|.eB/2A/2)(G/2F/2) e (B/2A/2)(G/2F/2)|(.E.E.E) (E2c/2^d/2)|
+.e  (3(^d/2e/2d/2) c .f  (3(e/2f/2e/2) d|.g  (3(f/2g/2f/2) ^e .f(f/2a/2)(g/2f/2)|({ef}e^de) (c/2 B/2)(A/2G/2)(F/2^E/2)|(.F2.F) F2|]
+S:https://www.folktunefinder.com/tunes/162137
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0546-GranuWaile.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

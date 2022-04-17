@@ -1,0 +1,26 @@
+X: 1
+T: Father Kelley's Reel
+C: Fr.P.J.Kelly
+Z: John Chambers <jc@trillian.mit.edu>
+R: reel
+M: C|
+L: 1/8
+K: G
+GA \
+|: "G"B2GB "C"AGEG | "D7"DGGF "G"GABd | "Am"c2AB cBAG | "D7"FGAG FDDA |  "G"B2GB "C"AGEG |
+| "D7"DGGF "G"GABd | "C"cdef "(G)"gedc | "D7"BGAF | "G"G4 :| Bc |: "G"d2Bd gdBd | d2Bd gdBd |
+| "Am"e2ce agfe | "D7"defg agfe |  "G"d2Bd gdBd | d2Bd gdBd | "Am"cBAc "G"BAGB | "D7"AGFA "G"G4 :|
+S:https://www.folktunefinder.com/tunes/157388
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/FatherKelleysR3.abc
+S:http://trillian.mit.edu/~jc/music/book/500/FatherKelleysR3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Ireland/reel/FatherKelleysR3.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/500/FatherKelleysR3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

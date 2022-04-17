@@ -1,0 +1,24 @@
+X:16
+T: Die Koenigstochter
+N: Q2040
+O: Nordeuropa, Daenemark, Nornissom
+N: Daenische Fassung der Ballade.
+R: Ballade, Betrug, Ehe, Tod
+M: 6/8
+L: 1/16
+K: E
+BB | B4AAB4BB | A2F2=G2E4
+E2 | B3AFFF2=G2A2 | B6z4
+A2 | B2=c2A2B2c2A2 | B2c2d2e4
+=G2 | F2=c2B2B2A2=G2 | E6z4
+S:https://www.folktunefinder.com/tunes/151545
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, betrug, ehe, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:181
+T: Die Mordeltern
+N: Q0085W
+O: Mitteleuropa, Deutschland (BRD) , Nordbayern, Roehn
+R: Ballade, Habgier, Mord, Reue, Selbstmord
+M: 3/4
+L: 1/8
+K: G
+DGA | B3cAB | G2z
+ABc | d3ecd | B2z3
+d | d3ccB | B2A2z
+e | e3edcB | A2Gz2
+d | d3ccB | B2A2z
+e | e3edcB | A2G
+S:https://www.folktunefinder.com/tunes/152213
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, habgier, mord, reue, selbstmord
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

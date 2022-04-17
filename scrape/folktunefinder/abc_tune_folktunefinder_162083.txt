@@ -1,0 +1,19 @@
+X:1
+T:Grandma Got Run Over By A Reindeer
+C:Randy Brooks
+M:4/4
+L:1/8
+K:F
+%%staves{RH1}
+V:RH1 clef=treble
+|"Db""^INTRO"[_AF][_AF] [_A2F2] [_AF][_AF] [_A2F2]|[_AF]_dFG "F"[=A-F-][=A-F-C][=A-F-=D][=AFE]
+|"F"[AF][AF][AF][AF] [AF][AF]GF|[CA][A3-F3-][A4F4]
+S:https://www.folktunefinder.com/tunes/162083
+S:http://gulfweb.net:34043/~rlwalker/abc/grandmaF.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/grandmaF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

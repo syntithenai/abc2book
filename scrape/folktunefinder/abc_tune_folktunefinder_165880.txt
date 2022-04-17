@@ -1,0 +1,50 @@
+X:2673
+T:Ich soll und mu\ss ein Bulen haben
+C:Ludwig Senfl
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/senfl-ludwig/senfl-ich-soll-und.abc
+V:1 Program 1 41 %Viola
+V:2 Program 1 68 %Oboe
+V:3 Program 1 42 alto %Cello
+V:4 Program 1 70 alto %Bassoon
+V:5 Program 1 43 bass %Double bass
+M:C|
+L:1/2
+Q:180
+K:F
+K:F
+V:1
+c>B GA2G/F/ GA B/A/G/F/ EA>GF/E/ DA>GF/E/ F2|
+V:2
+z8 z8 z4|
+V:3
+E>F GF2G EC G2 C>D EF>GA F3 E/D/|
+V:4
+C2 C2 C C2 C B,2 C2 A,2 F,2 A,3 B,|
+w:Ich soll und mu\ss ein Bu-len ha-ben, tra-be
+V:5
+C,>D, E,F,2 E,/D,/ E,F, G,G,, A,,>B,, C,D,>E, F,>E,D,/C,/ D,2|
+%
+V:1
+E2 z4 E2 C2D2 E3C|
+V:2
+G2G2 GG2G F2G2 E2C2|
+w:Ich soll und mu\ss ein Bu-len ha-ben,
+V:3
+E2D2 (B,2C2) A,2B,2 G,2A,2|
+V:4
+C2D4C4B,2 C4|
+S:https://www.folktunefinder.com/tunes/165880
+S:http://abc.musicaviva.com/tunes/senfl-ludwig/senfl-ich-soll-und.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/senfl-ludwig/senfl-ich-soll-und.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/senfl-ludwig/senfl-ich-soll-und.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

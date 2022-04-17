@@ -1,0 +1,35 @@
+X: 3
+P: Dave Wiesler's Compliments to Stella Fogg
+C: Dave Wiesler
+N: copyright Dave Wiesler  - 2004
+B: Between the Rivers, pg. 25
+N: As written the last note in bar 15 was preceded by a
+N: "natural" sign inside a pair of parentheses (i.e. (=)e ).
+N: I have interpreted this as an "e natural" grace note follwed
+N: by an "e sharp".
+N: Similarly the first note(in bar 17) was immediately preceded
+N: by a sharp inside a pair of parentheses ( (#)f ).
+N: Again I have interpreted this to as an f# grace note
+N: followed by the note "f".
+Z: transcribed by Peter Price, 2007/01/11
+L: 1/8
+M: 4/4
+R: strathspey
+K: G
+D |: "G"B3 c "D7"A3 B | "G"G2 B,2 "C"C3 D | "Am/C"E2 AG "Bm/D"F2 BA | "C/E"G2 cB "D/F#"A2 d2 |
+"G"b3 c' "D"ba gf | "Em"ge "/D"fg "A/C#"A3 g | "D"gf ed "A"A2 ^c2 |1 "D"d4 dc BA :|2 "D"d6 (D2||
+"Bb"D2) _B,C "C/Bb"D2 E2 | "F/A"=F3 G "F"A4 | "Gm"_B2 AB "C/E"G2 c2 | "F"_BA GA =F4 |
+"Eb"G2 _E=F G2 A2 | "Bb/D"_B3 c "Bb"D3 =e/e/ | "D/A"{^f}f2 "A7"A4 ^c2 | "D"(d4 d)c bA ||
+"G"B3 c "D7"BA GF | "G"GG, A,B, "C"C2 CD | "Am/C"EA "Bm/D"AG FB BA | "C/E"Gc cB "D/F#"A2 (d2 |
+"G"d)b bc' "D7"ba gf | "Em"gB "G/B"cd "C"e2 dc | "G/D"B2 g2 "D7"A2 ~f2 | "G"g2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/152297
+S:http://terrytraub.org/abc/DaveWieslersComplimentsToStellaFoggS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

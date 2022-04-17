@@ -1,0 +1,24 @@
+X: 2
+T: Kilfenora
+M: 12/8
+L: 1/8
+R: slide
+K: Gmaj
+|: D |\
+G2 B B^AB G2 B B2 D | G2 B BAG cBc E2 D |
+G2 B BAG E^DE c2 A | BAF DFA G3 G2 :|
+|: B |\
+d2 g gfg ee/f/g d2 B | GB/c/d dcB cBc A2 B |
+c2 a a2 g f/g/af d2 B | cAF DFA G3 G2 :|
+|: B |\
+A2 F DFB A2 F d2 B | AFF GG/F/E D3 E2 F |
+GDG B2 G E^DE c2 A | B>AF DFA G3- G2 :|
+S:https://www.folktunefinder.com/tunes/169787
+S:http://www.thesession.org/tunes/display/7541
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

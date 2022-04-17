@@ -1,0 +1,23 @@
+X: 2
+T: Horse Keane's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G Major
+|: d>c |\ 
+B>cA>B G>AB>d | e>EE>D E2 (3GFE | D>EG>A B>dd>B | B>AG>B A2 D2 |
+(3BcB (3ABA G>A (3Bcd | e>EE>D E2 (3GFE | D>EG>B A>DF>A | G2 (3AGF G2 :|
+|: (3Bcd |
+e2 e>f g>a (3gfe | d>bg>e d>B (3GAB | c2 c>e d>BG>A | B>AA>G A2 d>c |
+(3BcB (3ABA G>AB>d | e>EE>D E2 (3GFE | D>EG>B A>DF>A | (3GAB (3AGF G2 :|
+S:https://www.folktunefinder.com/tunes/164891
+S:http://www.thesession.org/tunes/display/1786
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

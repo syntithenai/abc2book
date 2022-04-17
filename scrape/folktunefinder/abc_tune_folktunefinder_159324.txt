@@ -1,0 +1,37 @@
+X: 1
+T: Freilach "SB6"
+R: freilach, bulgar
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS labelled "SB6"
+M: 4/4
+L: 1/8
+P: Play AABACC
+K: Ephr^G
+%%slurgraces 1
+z2B, \
+"A"\
+| "E"EFEF GAGF | AG3- G2zG | GAGA BcBA | cB3- B2E2 |
+| "Am"AGAB cB"A7"c^c | "Dm"dDFA d2 (3DFA | (3dBd (3cBA "E"(3BGB "Dm"(3AGF | "E"(3GAB "Dm"(3AGF "E"E :|
+EAc \
+"B"\
+| "Am"^de3 ze^dc | ^deee e3e | ^dedc BAGA | "E"B4 zD=GB |
+| "G"^c{e}d3 z2 (3fed | ^c{e}ddd d3e | "G7"fedc "Dm"dcBA | "E"B2 {^d}ez {^d}ez {^d}ez |]
+P: Play one A
+|: eBA \
+"C"\
+| "E"GAB2 zAGF | G>FE2 zeBA | GABc "Dm"dB/d/ (3cBA | "E"B4 zeBA |
+| "E"GAB2 zAGF | "Dm"EFD2 zDFA | (3dBd (3cBA "E"(3BGB "Dm"(3AGF | "E"(3GAB "Dm"(3AGF "E"E :|
+S:https://www.folktunefinder.com/tunes/159324
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/FreilachSB6_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/FreilachSB6_E.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/Bb/FreilachSB6_E.abc
+% Rhythm Freilach, bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:42
+T: Graf und Nonne (Die Nonne)
+N: Q0155o
+O: Osteuropa, Ungarn, Tata, Tatabanya
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage, Tod
+M: 6/8
+L: 1/16
+K: G
+D2 | G4G2G4B2 | A6A4
+DD | B2B2B2d2c2B2 | A6z4
+A2 | c2c2c2c2B2A2 | G4A2B4
+G2 | D2B2B2B4A2 | G6z4
+S:https://www.folktunefinder.com/tunes/161962
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

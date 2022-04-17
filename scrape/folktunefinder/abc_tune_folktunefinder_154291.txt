@@ -1,0 +1,19 @@
+X:1
+T:Draglines
+M:4/4
+L:1/4
+K:G
+ D2| G2 G D| E3 E| D3/2 E/2 D G,| C2 C C| B,3/2 B,/2B,/2-A,/2 G,| C3 D|\
+ D4| C3/2 D/2 E D| G2 G D| E3/2 E/2 E E| D3/2 E/2 D G,| C3 C| B, B,B,/2-A,/2 G,|\
+ C C C3/2 C/2| D D D3/2 D/2| C3/2 D/2 E D| B,3 z/2 B,/2| C3/2 C/2 B, B,|\
+ G,4-| G,4| B, B,2 B,| C2 C C| D/2D/2 D3| C D E D| G,3 B,| C/2 B,3/2 C D|\
+ D4| z2 F F| B,2B,/2-A,/2 G,| C2 C C| D/2D/2 D2 D| C D E D| G,2 B,/2A,/2 G,|\
+ C C B, B,| G,4-| G,2||
+S:https://www.folktunefinder.com/tunes/154291
+S:http://back.numachi.com:8000/dtrad/abc/DRAGLINE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:120
+T: Die Schlangenkoechin
+N: Q1079K
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0079A, anderes Lied. Kontrafaktur 
+R: geistlich, Gebet
+M: none
+L: 1/8
+K: G
+G4A2=F2G2 | _B2c2A4
+B2c2d4 | c2_B2A2z
+A | c2A2_B2G2 | _B2c2A4
+G2G2D4
+D2 | =F2G2A2AG | _B2c2d2z
+cB2BBcBAB | G2F2G4
+S:https://www.folktunefinder.com/tunes/152152
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Geistlich, gebet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

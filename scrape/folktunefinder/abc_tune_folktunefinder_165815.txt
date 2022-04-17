@@ -1,0 +1,66 @@
+X:2616
+T:Hymn of praise
+C:anon.
+O:USA
+R:Hymn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/usa/hymn-of-praise/hymn-of-praise-4m.abc
+V:1 Program 1 40 %Violin
+V:2 Program 1 110 %Fiddle
+V:3 Program 1 41 alto %Viola
+V:4 Program 1 42 bass %Cello
+M:4/4
+L:1/4
+K:D
+V:1
+DA,DG|FED2|ABEG|FED2|
+V:2
+DA,DG|FED2|DDCE|EDA,2|
+V:3
+D,A,,D,G,|F,E,D,2|F,B,A,A,|A,G,F,2|
+V:4
+D,A,,D,G,|F,E,D,2|F,G,A,C,|D,A,,D,2|
+%
+V:1
+DA,DG|FED2|ABEG|FED2|
+V:2
+DA,DG|FED2|DDEB,|D/A,/B,/C/ D2|
+V:3
+D,A,,D,G,|F,E,D,2|F,F,G,E,|F,G,F,2|
+V:4
+D,A,,D,G,|F,E,D,2|D,B,,E,E,,|A,,A,,D,2|
+%
+V:1
+AABc|d2A2|dcBA|A/G/F/G/E2|
+V:2
+DDDG|FGF2|FFGD|CDC2|
+V:3
+A,F,G,A,|A,B,D2|DDDA,|A,A,A,2|
+V:4
+F,D,G,E,|D,2D,2|B,A,G,F,|E,D,A,,2|
+%
+V:1
+|:FGA2|EFG2|FEDG|FED2:|
+V:2
+|:D2D2|EDC2|DCB,B,|DCD2:|
+V:3
+|:A,2A,2|A,2A,2|A,G,F,G,|A,G,F,2:|
+V:4
+|:D,E,F,2|C,D,E,2|D,A,,B,,E,|A,,A,,D,,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/165815
+S:http://abc.musicaviva.com/tunes/usa/hymn-of-praise/hymn-of-praise-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/usa/hymn-of-praise/hymn-of-praise-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/usa/hymn-of-praise/hymn-of-praise-4m.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

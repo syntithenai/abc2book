@@ -1,0 +1,25 @@
+X:1
+T:Jump at the Sun
+C:John Kirkpatrick 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:Dm
+DFA ^G2A | DFA ^G2A | dAA dAA | A=GF E3 |\
+DFA ^G2A | DFA ^G2A | dAA BA=G | FGE D3 :|
+|:\
+dAA fed | eAA gfe | fed fed | eAA B2A |\
+dAA fed | eAA gfe | dAA BAG | FGE D3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169016
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/jump_at_the_sun.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

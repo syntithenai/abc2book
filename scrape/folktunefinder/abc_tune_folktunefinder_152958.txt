@@ -1,0 +1,25 @@
+X:5
+T: Vater und Tochter
+N: Q0142D
+O: Suedosteuropa, Jugoslawien, Batschka, Backo - Dobropolje
+N: Zweite Zeile refrainartig.
+R: Ballade, Verfuehrung, Verwechslung
+M: 2/4
+L: 1/16
+K: G
+D2 | G2G2G2A2 | B2G2D4
+E4C2E2 | D4z2
+D2 | A2A2A2B2 | c2A2A4
+B3GG2E2 | E2D2D2
+D2 | B,2D2B,2D2 | G4B4
+c4A4 | F4E2F2 | G6
+S:https://www.folktunefinder.com/tunes/152958
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verwechslung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

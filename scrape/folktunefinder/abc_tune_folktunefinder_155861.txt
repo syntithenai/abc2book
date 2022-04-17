@@ -1,0 +1,30 @@
+X:1
+T:Eisenkeilnest
+C:traditionell
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 2/4
+L:1/4
+K:G
+D |\
+GA | Bc | d>dd | d2d |
+ed | cB | B>AA | A2d ||
+BG | A2d | BG | A2D |
+GA | Bc | dcA | G2 :|
+W:1) Im Wald drausst steht a Eisenkei(er)lnest, san 13, 14 Junge drin gwest, des Teufelsnest, des Teufelsnest, des Donners-, Teufels-, Eisenkeilnest.
+W:2) Hast du den schwarzbraun Michel net kennt, der Tag und Nacht die Dirndln/Menscher nachrennt Der Tag und Nacht, der Tag und Nacht,
+W:   der Tag und Nacht die Dirndln/Menscher nachrennt
+W:3) Der Michel is in Wald 'naus ganga, er moecht so gern a Keierl fanga, er moecht so gern, er moecht so gern, er moecht so gern a Keierl fanga.
+W:
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155861
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/eisenkeilnest.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

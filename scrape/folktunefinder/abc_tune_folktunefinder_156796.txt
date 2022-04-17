@@ -1,0 +1,27 @@
+X:4
+T:Falling Off a Moose
+C:Rick Barrows
+S:Bernie Waugh
+R:Rag
+M:4/4
+L:1/8
+Q:350
+K:A
+"A"[c3e3][c2e2]e^de|"E"fe^df "A"ecBc|"Bm"dcBd "F#m"cBAF|"B7"Ee^df "E"e^dcd|
+"A"[c3e3][c2e2]e^de|"E"fe^df "A"ecBc|1"Bm"dcBd "F#m"cBAF|"E"EGcB "A"ABcd:|2"Bm"dcBd "F#m"cBAc|"E"BAGF ED=CB,||
+K:Am
+"Am"A,4- "D"A,B,CD|"Am"EA2EA4|"F"[C2F2]z[C3F3][C2F2]|"E"[B,2E2]EF [B,E]DCB,|
+"Am"A,4- "D"A,B,CD|"Am"EA2E"F"A4|1"E"[B,2E2]EF [B,E]DCB,|"Am"A,4- A,2"G"[G,2D2]:|2"Bb"F_B2FB2FE|"E"DE^F^G AB^cd|]
+S:https://www.folktunefinder.com/tunes/156796
+S:http://users.rcn.com/ladysmyth/tunes/FallingOffaMoose.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

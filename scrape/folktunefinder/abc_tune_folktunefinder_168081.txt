@@ -1,0 +1,23 @@
+X: 1
+T: Joe's Tuxedo
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:A3 DFA|cdc BAF|ABA dAF|E3 EFG|
+ABA DFA|d(3Bcd edB|ABA dAF|EFE D3:|
+|f3 fed|B3 Bcd|ABA dAF|E2D EFA|
+dea fed|B3 Bcd|ABA dAF|EFE D3|
+f3 fed|B3 Bcd|ABA dAF|E2D EFG|
+ABA DFA|d(3Bcd edB|ABA dAF|EFE D3||
+S:https://www.folktunefinder.com/tunes/168081
+S:http://www.thesession.org/tunes/display/4138
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: Jane in the Lane
+C: J.Jensen
+R: 3/2 hornpipe
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: printed MS of unknown origin
+N: Recommended tune for Old Friends
+M: 3/2
+L: 1/8
+K: C
+|: cd "C"e2c2 \
+| "G"g4 "C"e2dc B2c2 | "Dm"d4 "G"G2GA B2G2 \
+| "C"c2B2 "F"A2G2 A2F2 | "Dm"d2c2 "G"B2A2 B2G2 |
+| "C"e2cd e2g2 "D7"g2^f2 | "G"g6 :: ef "C"g2e2 \
+| "F"a2f2 "G"d2g2 "C"e2c2 | "Dm"f2d2 "E"B2e2 "Am"c2A2 \
+| "G"d2B2 "C"G2c2 "D7"BAG^F |
+| "G"G6 cd "C"e2c2 \
+| "G"g4 "C"e2fg "F(Dm)"a2f2 | "G"d6 Bc d2B2 \
+| "C"G2c2 "F"A2f2 "G"edcB | "C"c6 :|
+S:https://www.folktunefinder.com/tunes/167329
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/JaneInTheLane_C.abc
+% Rhythm 3/2 hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Fremont Center
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+e4 A3G|EGAA e3c|d2dc dedc|ABAG EGAA|
+e4 A2AG|EGAA e3c|~d2dc d3c|ABAG EGAA|
+e4 A2AG|EGAA e3c|d2dc dedc|ABAG EGAA|
+e4 A4|e3c d3c|A2BA BcAG|EGAE GADC||
+|:A,2B,A, CECE|DFGG- GFDC|A,2B,A, CA,A,A|eAdA cAEC|
+A,2B,A, CECE|DFGG- GFDF|GAGF DFGA|1 eAdA cAEC:|2 eAdA cAcd||
+S:https://www.folktunefinder.com/tunes/159332
+S:http://www.thesession.org/tunes/display/9049
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

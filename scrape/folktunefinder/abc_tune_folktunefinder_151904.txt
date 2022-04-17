@@ -1,0 +1,42 @@
+X:2860
+T:Dashing White Sergeant
+C:anon.
+O:Ireland
+R:Reel
+F:http://abc.musicaviva.com/tunes/ireland/dashing-white-sergeant.abc
+%Nottingham Music Database
+%Posted at abcusers Feb 16th 2001 by Robert Bley-Vroman during adiscussion about chord notation.
+M:4/4
+L:1/8
+K:D
+"D" D2D2 DEFG |"D" A2A2  A2fe |"G" d2B2 "D" A2F2 |"Em" B2E2 "A7"EGFE |
+"D" D2D2 DEFG |"D" A2A2  A2f2 |"E7"e2d2 c2B2 |"A7"A^GAB AGFE |
+"D" D2D2 DEFG |"D" A^GAB A2fe |"G" d2B2 "D" A2F2 |"Em"B2E2 "A7"EGFE |
+"D" DCDE DEFG |"D" A^GAB A2f2 |"E7"e2d2 c2B2 |"A" A6E2 ||
+"A" A2AB c2cd |"A" e2ec   A4  |"Bm" B2Bc d2de |"Bm"f2fd  B4 |
+"A" c2AA "E7/b" d2AA |"A/c#" e2AA "D" f2AA |\
+"E7"g2f2 "f#" e2 "g#" d2 |"A7"c2 "g" B2 "f#" A2 "e" G2 |
+"D" F2d2 dcde |"D" d2A2  A4  |"Em"B2e2 edef |"A7"e2B2  B4 |
+"D" A2d2 dcde |"Bm"f2d2 dcde |"D" f4 "A7" a4|"D" d2cB AG ||
+W:
+W:The small letters in the chord symbols are bass notes, not chords!
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/151904
+S:http://abc.musicaviva.com/tunes/ireland/dashing-white-sergeant.abc
+S:http://abc.musicaviva.com/tunes/ireland/dashing-white-sergeant.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/dashing-white-sergeant.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/dashing-white-sergeant.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ireland/dashing-white-sergeant.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/ireland/dashing-white-sergeant.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,18 @@
+X:1
+T:Drill ye Tarriers, Drill
+M:4/4
+L:1/8
+K:F
+ DD F/2F/2 F D/2D/2 DF F/2G/2| AA A/2A/2 A A/2A/2 A/2A/2 A A/2A/2|\
+ D D/2D/2 F F/2F/2 DD FG| AA A/2A/2 A/2A/2 A A/2A/2 AG| FF E/2D/2 C D4|\
+ dd e/2d/2 c d2- d d/2e/2| fe dc A/2A/2 A/2A/2 A2| A3/2 A/2 A3/2 A/2 AA z G|\
+ FF E/2D/2 C D2 z A| D2 z A d4|
+S:https://www.folktunefinder.com/tunes/154363
+S:http://back.numachi.com:8000/dtrad/abc/DRILLTAR.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DRILLTAR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

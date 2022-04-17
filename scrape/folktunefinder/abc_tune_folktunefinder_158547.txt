@@ -1,0 +1,28 @@
+X:1
+T:Flowers of Edinburgh
+T:(Weobley Hanky)
+M:C
+L:1/8
+C:Traditional
+Q:1/4=138
+K:G Major
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+[|] D2|: G2 DG B2 GB |d2 B2 g3 e | d2 B2 BAGA |1 B2 G2 E2 D2 :|2 B2 G2 G2 ||
+P:B
+[|] f2 | g4 f3 e | B2 e2 e3 f | g2 g2 fafd | B2 e2 e2 ge |
+dBGB d2 d2 | edef g2 fe | d2 B2 BAGA | B2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/158547
+S:http://www.mit.edu/~jcb/MOTley/abc/flowers-of-edinburgh.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/flowers-of-edinburgh.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/flowers-of-edinburgh-tune.shtml
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:50
+T: Reiter und Hirtenmaedchen
+N: Q0148A
+O: Mitteleuropa, Deutschland (BRD) , Hessen, Taunus, Bechtheim
+N: Fuenfte und sechste Zeile = Refrain.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 6/8
+L: 1/8
+K: G
+D | GGGBBB | dddBBd | c3d3 | B2z3
+D | G2GBBB | dddB2d | c3d3 | B3z2
+B | BAAABc | cBBBz
+d | dcccde | eddd2z | z3
+d3 | BcddcB | B3d3
+BBBdcA | G2z3
+S:https://www.folktunefinder.com/tunes/153003
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

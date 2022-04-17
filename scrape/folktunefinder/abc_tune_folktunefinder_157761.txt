@@ -1,0 +1,25 @@
+X: 062230
+T: Figure of 3
+S: "Jackson's Celebrated Irish Tunes"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=160
+K: G
+G2A BcB |BAG c2A |G2E E/F/GE |G2E E/F/GE |
+G2A BcB |BAG c2A |GED D/E/FD |GED D/E/FD :|
+dcd ecA |BAG c2A |G2E E/F/GE |G2E E/F/GE |
+dcd ecA |BAG c2A |GED D/E/FD |GED DBc :|
+dBG cAF |dBG c2A |G2E E/F/GE |G2E EBc |
+dBG cAF |dBG c2A |GED D/E/FD |GED D/E/FD :|
+S:https://www.folktunefinder.com/tunes/157761
+S:http://www.qmcorp.net/webabc/f/062230.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,55 @@
+X:11
+T:Farewell to Ireland
+R:reel
+C:Traditional
+S:The Fiddle Player's Tunebook
+Z:From the playing of Martin Byrnes
+M:4/4
+L:1/8
+K:G
+|:G, |\
+"Am"A,2 A,C E2 EF |\
+"G"GEDB, G,B,A,G, |\
+"Am"A,2 A,C E2 EF |\
+"G"GEDB, CA,A,G, |\
+"Am"A,2 A,C E2 EF |\
+"G"GEDB, G,2 g2 |\
+"Em"edeg a2 ef |\
+"G"gedB "Am"cAA :: e |\
+"Am"a2 ab agef |\
+"Em"g2 ga gfed |\
+"Am"e a2 b agef |\
+"G"gedB "Am"cA A2 |\
+"Am"agef gage |\
+"G"d2 dB GABd |\
+"Em"cABG "F"AGEa |\
+"G"gedB "Am"cAA :: d |\
+"Am"eA (3cBA   "Am"eA  (3cBA |\
+"G"d2 dB "Em"GBdB |\
+"Am"eAcA "Am"eAca |\
+"G"gedB "Am"cA A2 |\
+"Am"eA (3cBA "Am"eA (3cBA |\
+"G"d2 dB "Em"GABd |\
+"Am"cABG "G"AGEa |\
+"G"gedB "Am"cAA :|\
+g |\
+"Am"aece "Am"aece |\
+"G"g2 gd "Em"BGBd |\
+"Am"aece "Am"a2 ef |\
+"G"gedB "Am"cA A2 |\
+"Am"agef gage |\
+"G"d2 dB GABd |\
+"Am"cABG AGEa |\
+"Em"gedB "Am"cAA :|
+S:https://www.folktunefinder.com/tunes/157105
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/FarewellToIreland.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ChrisWhistler/FarewellToIreland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

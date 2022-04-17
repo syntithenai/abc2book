@@ -1,0 +1,24 @@
+X: 1
+T: Hill of Cork
+C: Jim Creon (c. Clare)
+Z: Robin Beech robin.beech@mcgill.ca
+R: hornpipe
+M: 4/4
+L: 1/8
+Z: Contributed 20040129002714 by Robin Beech robin.beech@mcgill.ca
+K: G
+e3/2A/ A3/2B/ A3/2G/ E2 |c3/2d/ (3:2:1e(3:2:1d(3:2:1e g3/2e/ d2 |(3:2:1d(3:2:1e(3:2:1g a3/2b/ g3/2e/ d3/2B/ |(3:2:1c(3:2:1B(3:2:1A B3/2G/ A3/2G/ E2 |e3/2A/ A3/2B/ A3/2G/ E2 |c3/2d/ (3:2:1e(3:2:1d(3:2:1e g3/2e/ d2 |
+(3:2:1d(3:2:1e(3:2:1g a3/2b/ g3/2e/ d3/2B/ |D3/2E/ G3/2B/ A4 ::a3/2e/ (3:2:1a(3:2:1b(3:2:1c' a3 a/ z/ |g3/2d/ (3:2:1g(3:2:1a(3:2:1b g3/2e/ d2 |(3:2:1d(3:2:1e(3:2:1g a3/2b/ g3/2e/ d3/2B/ |(3:2:1c(3:2:1B(3:2:1A B3/2G/ A3/2G/ E2 |
+e3/2A/ A3/2B/ A3/2G/ E2 |c3/2d/ (3:2:1e(3:2:1d(3:2:1e g3/2e/ d2 |(3:2:1d(3:2:1e(3:2:1g a3/2b/ g3/2e/ d3/2B/ |D3/2E/ G3/2B/ A4 :|
+S:https://www.folktunefinder.com/tunes/164312
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/HillOfCork.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HillOfCork.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

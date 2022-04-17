@@ -1,0 +1,22 @@
+X:2
+T:The Miller of Drone
+C:Nathaniel Gow
+R:strathspey
+Z:John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+K:A
+|: c/B/ | A<F F>A E>F E<C | A,2 A,>c B3 c/B/ | A<F F>A E>F E<C | D<F E>G A3 c/B/ ||
+| A<F F>A E>F E<C | A,2 d>c B3 c/d/ | e>B c>G A>E F>C | E2 F>G A3 |]
+[| c/d/ | e<c c>a e>e f/e/d/c/ | e<c c>a f2 f>a | e<c c>a e>e f/e/d/c/ | d>B c>A F3 c/d/ |
+| e<c c>a e>e f/e/d/c/ | e>f a>g f2 f>g | (3agf (3efg (3aed (3cBA |1 d>B c>A F3 :|2 (3Bcd (3efg a3 |]
+S:https://www.folktunefinder.com/tunes/165798
+S:http://music.gordfisch.net/oregans/assets/abc/strathspeys.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

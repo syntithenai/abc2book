@@ -1,0 +1,31 @@
+X:1
+T:"German Schottische"
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Gedaechnisniederschrift(S.W.) gelernt von Gene, einem aelteren Geigenspieler aus England
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+Bc |\
+d2Bd c2Ac | B2G2 GFG2 | A2F2 FEF2 | B2G2 GFG2 |
+d2Bd c2Ac | B2G2 GFG2 | A2F2 FEF2 | G2B2G2 :|
+|:z2 |\
+G2Bd g3f | f2e2e4 | F2Ac f3e | e2d2d4 |
+G2Bd g3f | f2e2e4 | fga2 e3f | g2g2g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/160836
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/german_schottische.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

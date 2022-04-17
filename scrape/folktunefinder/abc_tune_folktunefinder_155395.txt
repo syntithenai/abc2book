@@ -1,0 +1,27 @@
+X:4
+T:In the Mountains of Holland
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+|:zDE  GAB |AB zz cA |BAB A2 G | z AG E2 G|
+| zDE  GAB |AB zz Bc |ABd g2 f-| fdB G2 A:|
+|:z d2 d2d |cd zz dB |Adz dcB  | c/2B/2AG GAB|
+| z dA d2d |cd zz dB |ABd g2 f-| fdB G2 A:|
+|:z dc dzd |zga  ged |edc B2c/2B/2|AGA BAG|
+| z dc dzd |ega  ged |cBd g2 f-| fdB G2 A:|
+| zde  g2f |de g-gfd |eaa a2 b |aga bag|
+|z c'b g2a |c'bg-gac' |bgz b2 a-|agf d2e|
+| zde  g2f |de g-gfd |eaa a2 b |aga bag|
+|z c'b g2a |c'bg-gac'|bgz a2b |agf dBG|
+S:https://www.folktunefinder.com/tunes/155395
+S:http://www.slainte.ch/abc/Moving.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

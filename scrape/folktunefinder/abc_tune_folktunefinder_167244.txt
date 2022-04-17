@@ -1,0 +1,32 @@
+X: 1
+T: James And The Giant Peach
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+G|AcA E2c|BGB dBG|AcA E2c|BGE DBG|
+AcA E2c|BGB deg|age dBG|EAA A2:|
+a|age aba|gef ged|cAG E2c|BGB deg|
+age aba|gef ~g3|age dBG|EAA A2a|
+age aba|gef ged|cAG E2c|BGE DBG|
+AcA E2c|BGB deg|age dBG|EAA A2||
+D|EAA DAA|EAD EAc|dDc BAG|AGE DFG|
+EAA DAA|EAD EAc|dgd BAG| EAA A2:|
+G|&quot;Am&quot;AcA &quot;Am&quot;E2c|&quot;Em&quot;BGB &quot;G&quot;dBG|&quot;Am&quot;AcA &quot;Am&quot;E2c|&quot;Em&quot;BGE &quot;G&quot;DBG|
+&quot;Am&quot;AcA &quot;Am&quot;E2c|&quot;Em&quot;BGB &quot;G&quot;deg|&quot;Am&quot;age &quot;G&quot;dBG|&quot;Am&quot;EAA &quot;Am&quot;A2:|
+a|&quot;Am&quot;age &quot;Am&quot;aba|&quot;Em&quot;gef &quot;Em&quot;ged|&quot;Am&quot;cAG &quot;Am&quot;E2c|&quot;Em&quot;BGB &quot;G&quot;deg|
+&quot;Am&quot;age &quot;Am&quot;aba|&quot;Em&quot;gef &quot;Em&quot;~g3|&quot;Am&quot;age &quot;G&quot;dBG|&quot;Am&quot;EAA &quot;Am&quot;A2a|
+&quot;Am&quot;age &quot;Am&quot;aba|&quot;Em&quot;gef &quot;Em&quot;ged|&quot;Am&quot;cAG &quot;Am&quot;E2c|&quot;Em&quot;BGE &quot;G&quot;DBG|
+&quot;Am&quot;AcA &quot;Am&quot;E2c|&quot;Em&quot;BGB &quot;G&quot;deg|&quot;Am&quot;age &quot;G&quot;dBG|&quot;Am&quot;EAA &quot;D&quot;A2||
+D|&quot;Am&quot;EAA &quot;D&quot;DAA|&quot;Am&quot;EAD &quot;Am&quot;EAc|&quot;D&quot;dDc &quot;Em&quot;BAG|&quot;Am&quot;AGE &quot;D&quot;DFG|
+&quot;Am&quot;EAA &quot;D&quot;DAA|&quot;Am&quot;EAD &quot;Am&quot;EAc|&quot;G&quot;dgd &quot;Em&quot;BAG| &quot;Am&quot;EAA &quot;D&quot;A2:|
+S:https://www.folktunefinder.com/tunes/167244
+S:http://www.thesession.org/tunes/display/4605
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

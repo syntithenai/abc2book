@@ -1,0 +1,65 @@
+X:8248
+T:Kvarten
+C:anon.
+O:Norway
+R:Drinking song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/anon-kvarten/anon-kvarten-1.abc
+%Posted September 8th 2001 at abcusers by Frank Nordberg
+M:3/4
+L:1/8
+Q:1/4=80
+K:Gm
+z>D "D7"^F>G|"D7"A2 c>B "Eb"G>G|"Bb"F2 D>D "D7"C>A,|
+w: \AA! kvar-ten, kvar-ten min ei-gen on-ge, n\aar skal du
+"Gm"B,2 B,>B, "Cm"C>C|"D7"D2 D z/D/ "D7"^F>G|"D7"A2 c>B "Gm"G>G|"Bb"F2 z>D "D7"C>A,|
+w:les-ke min t\or-re tun-ge For he-lan, hal-van og ter-sen rett nu ven-ter
+"Gm"B,2 B,>B, "Cm"C>C|"D7"D3 D C>A,|"Gm"B,2 "Cm"C>C "D"D>^F|"Gm"G2|]
+w:blot p\aa \aa bli kvar-tett, nu ven-ter blot p\aa \aa bli kvar-tett.
+W:
+W:\AA! kvarten, kvarten min eigen onge,
+W:n\aar skal du leske min t\orre tunge
+W:For helan, halvan og tersen rett
+W:nu venter blot p\aa \aa bli kvartett,
+W:nu venter blot p\aa \aa bli kvartett.
+W:
+W:
+W:This is the fourth verse of a well-known Scandinavian drinking
+W:song/drinking game. The idea is that you sing one verse, then drain
+W:a small glass of some very strong liquor, sing the next verse,
+W:drain another glass and so on. Everything is of course done in a decent
+W:and sophisticated way ;-)
+W:
+W:The verses of the song are:
+W: Helan
+W: Halvan
+W: Tersen
+W: Kvarten
+W: Kvinten
+W:The names are the traditional Scandinavian names for the first,
+W:second, third and so on drink.
+W:This variant of the song cycle is Norwegian, with the verses
+W:alternating between Norwegian and Swedish (or at least something
+W:resembling Swedish).
+W:
+W:I suppose there should be a sixth verse too, but I have not managed
+W:to find it. Henrik Norbeck did however come up with Septen (the seventh)
+W:from a Swedish variant.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/170629
+S:http://abc.musicaviva.com/tunes/norway/anon-kvarten/anon-kvarten-1.abc
+S:http://abc.musicaviva.com/tunes/norway/anon-kvarten/anon-kvarten-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/anon-kvarten/anon-kvarten-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/anon-kvarten/anon-kvarten-1.abc
+% Rhythm Drinking song
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

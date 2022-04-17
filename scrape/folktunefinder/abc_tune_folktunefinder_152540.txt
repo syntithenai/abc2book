@@ -1,0 +1,28 @@
+X: 35
+T: Debka Shachar
+M: 2/4
+L: 1/8
+K: Gm
+Q: 1/4=240
+%%MIDI program 25
+|:z2AB|c2A2|B4   |_A2G2-|G2B2 |B2c2 |dede|c4    |
+  z2AB|c2A2|B4   |_A2G2-|B2z2 |c2B2 |c2B2|_A2G2 :|
+Q: 1/4=120
+%%MIDI program 65
+  BB3 |cd3 |ef3  |dB3   |_A2c2|B2_A2|c2B2|G2z2  |
+  zB3 |cd3 |ef3  |dB3   |_A2c2|B2_A2|c2B2|G2z2  |
+  z2ff|f3e |f3g  |bagf  |g2zg |g2f2 |e2f2|g2z2  |
+  g2zg|g2f2|e2d2 |e2z2  |f2zf |f2e2 |d2c2|d2z2  |
+  _A3B|c2c2|B2_A2|G2z2  |c3_A |B2G2 |B3c |d2d2  |
+  c3_A|B2G2|B2_A2|G4    |c3_A |B2G2 |B3c |d2d2  |
+  c3_A|B2G2|B2_A2|G4    |
+S:https://www.folktunefinder.com/tunes/152540
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Israel/Debka_Shachar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

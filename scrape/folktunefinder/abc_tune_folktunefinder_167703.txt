@@ -1,0 +1,47 @@
+X: 1
+T: Jesus, Joy of Man's Desiring
+C: Words: Martin Janus, 1661; translated probably by Robert S. Bridges, 1844-1930.
+C: Music: 'Jesus bleibet meine Freude' Johann Schop, 1590-1664 and Johann S. Bach, 1723.
+C: Arranged by Brian J. Dumont, 2005.
+C: copyright: public domain.  Arrangement released into public domain 09 June 2005.
+C: This score is a part of the Open Hymnal Project, 2005 Revision.
+M: 9/4 % time signature
+L: 1/4 % default length
+V: Piano_Treble3V1 clef=treble name="Piano" sname="Piano"
+V: Piano_Treble3V2
+V: Piano_Bass4V1 clef=bass
+V: Piano_Bass4V2
+Z: Contributed 2008-07-03 22:31:51 by ming tsang tsang94@rogers.com
+K: G % key signature
+%
+%%MIDI program 1 52 % Choir Aahs
+%%MIDI program 2 52 % Choir Aahs
+%%MIDI program 3 52 % Choir Aahs
+%%MIDI program 4 52 % Choir Aahs
+%%MIDI program 5 0 % Piano 1
+%%MIDI program 6 0 % Piano 1
+%%MIDI program 7 0 % Piano 1
+%%MIDI program 8 0 % Piano 1
+%
+% 1
+%%staves {(Piano_Treble3V1) | (Piano_Bass4V1)}
+[V: Piano_Treble3V1] [Q:1/4=250] !p! z G A B d c c e d | d g f g d B G A B | c d e d c B A B G | F G A D F A c B A |
+[V: Piano_Bass4V1]  G,,3 G,3 E,3 | B,,3 E,3 E,,3 | A,,3 B,,3 C,3 | D,3 F,3 D,3 |
+% 5
+[V: Piano_Treble3V1]  B G A B d c c e d | d g f g d B G A B | E d c B A G D G F | G B d g d !crescendo(! B G B d  !crescendo)! [|]
+[V: Piano_Bass4V1]  G,3 E,3 C,3 | G,,3 E,3 D,3 | C,3 ^C,3 D,3 | G,,4- G,, G, E,2 B,,
+% 9
+V: Choral_Treble1V1 clef=treble name="Choir" sname="Choir"
+V: Choral_Treble1V2
+V: Choral_Bass2V1 clef=bass
+V: Choral_Bass2V2
+%%staves {(Choral_Treble1V1 Choral_Treble1V2) | (Choral_Bass2V1 Choral_Bass2V2)} | {(Piano_Treble3V1 Piano_Treble3V2) | (Piano_Bass4V1)}
+[V: Choral_Treble1V1 name="Choir"] |: [G6B6] yy [G3c3] | d6 [F3d3] | c6 B3 | [D3A3] [D6A6] | z3 z6 |
+S:https://www.folktunefinder.com/tunes/167703
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/JesusJoyOfMansDesiring.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/4
+% Has_accompaniment_chords Has chords

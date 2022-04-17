@@ -1,0 +1,27 @@
+X:81
+T: Der Jaeger im Tannenholz
+N: Q0151D
+O: Mitteleuropa, Deutschland (BRD) , Rheinland - Pfalz, Unterwesterwald,
+R: Ballade, abgewiesener Freier, Abschied
+M: 4/4
+L: 1/8
+K: G
+D2 | G3DD2G2 | E2D2z2
+G2 | A3GF2E2 | D2B2G2
+D2 | G3DD2G2 | E2D2z2
+G2 | A3GF2E2 | D2B2G2
+GA | B2BBB2B2 | B2d2B2
+Bd | c2c2A2d2 | B6
+GA | B2BBB2B2 | B2d2B2
+Bd | c2c2A2d2 | B6
+S:https://www.folktunefinder.com/tunes/153034
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, abgewiesener freier, abschied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

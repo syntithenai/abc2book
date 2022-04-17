@@ -1,0 +1,24 @@
+X:1
+T:Jig
+C:Trad.
+A:Much Wenlock, Shropshire
+S:Bacon (MK MSS)
+B:Bacon, p. 268; Dommett, p. 24, 43
+N:originally entered by Rich Holmes, 1996 Sept.
+M:4/4
+K:G
+L:1/8
+D | G>FG>F D2 G2 | A>GF>E D2 D2 | c2 A2  B2 G2  | A>GF>E D2 D2 |\
+    G>FG>E D2 G2 | A>GF>E D4    | c>BA>G F>DE>F | G2 B2  G3    ||
+S:https://www.folktunefinder.com/tunes/167728
+S:http://www.ucolick.org/~sla/morris/music/MuchWenlock/jig.lb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

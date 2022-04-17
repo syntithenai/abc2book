@@ -1,0 +1,37 @@
+X:1
+T:Eber Atkin's Tune
+M:2/4
+L:1/16
+Q:120
+S:Cyril Stinnett
+R:reel
+A:Missouri
+N:This tune has appeared under more names than any other I know. For fun
+N:rather than scholarship, a list follows:   Lead Out, Tommy Jackson;
+N:Ten Nights in a Barroom, Lyman Enloe; Liesel, Taylor McBaine; Too Young
+N:
+N:Marry, Tommy Jarrell; Soap Suds Over the Fence, Everett McGraw.
+H:This is a Scots tune which traces back to "My Love is But a Lassie
+H:Yet"
+H:- see Kerr's Caledonian Collection
+Z:B. Shull, trans.; R.P. LaVaque, ABCs
+K:D
+f(g|a2)fa (gf)eg|f2 d2 d2f(g|a2)fa (gf)ga|b2 e2 e2f(g|!
+a2)fa (gf)eg|f2 d2 g3(f|gf)ed (cd)(eg)|f2 d2 d2:|!
+(3(ABc|d2)AG (FGA(d|BA)Bc d2 A(c|d2)AG (FG)A(F|[EA][DA])[EA]([FA]
+[E2A2](Ac)|!d2AG|(FG)A(d|BA)Bc df(ef)|(gf)ed (cd)(eg)|f2 d2 d2:|!
+S:https://www.folktunefinder.com/tunes/155575
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/abc_e.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/galouvielle.free.fr/abc_e.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

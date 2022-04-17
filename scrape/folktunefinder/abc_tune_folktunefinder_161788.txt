@@ -1,0 +1,29 @@
+X: 1
+T: A Good Night #1
+O: Hankus Netsky
+R: waltz
+Z: John Chambers <jc:trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Gm
+D2 \
+| "D"^F4    D2   |    ^F4    D2 | "Cm"E3  D CE | "D"D6 \
+|     D3 E ^FG   |     A3 B  AG |     AB AB AB | A4 D2 |
+| "Gm"B3 A (3BAG | "D"^F3 D ^FA | "Cm"G3  F ED | C4 C2 \
+|     A2 G2 ^FE  |    ^F2 E2 DC |  "D"D2 {E}D2 {E}D2 | D3 :|
+|: DGB \
+| "Gm"d3  ^c dc    |     d3 ^c  dc |     d3  ^c BA | G4 D2 \
+|     B2  A2 GB    |  "D"A2 D2 ^FA | "Gm"G2  {A}G2 {A}G2 | {A}G4 D2 |
+| "Gm"B3   A (3BAG | "D"^F3  D ^FA | "Cm"G^F GF ED | C4 C2 \
+|     A2  G2 ^FE   |    ^F2 E2  DC |  "D"D2 {E}D2 {E}D2 | D3 :|
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/161788
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/GoodNight.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

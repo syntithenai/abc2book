@@ -1,0 +1,50 @@
+X:1956
+T:Hornpipe
+T:From "The Fairy Queen"
+C:Henry Purcell
+R:Hornpipe
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/purcell-henry/purcell-hornpipe-kbe.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/2
+L:1/8
+K:Gm
+V:1
+G2Bcd2=e^fg2ag|^f6=e2d2dc|Bed2Adc2GcB2|B6A2G4|
+V:2
+G,6G,A,B,2G,2|D6D,=E,^F,2D,2|G,4F,4E,4|D,4D,4G,,4|
+%
+V:1
+B2Bcd2def2ed|g2gab2ag fgf2|efe2ded2cdB2|B6A2B4:|
+V:2
+G,8F,4|E,8D,4|C,4B,,4E,4|F,4F,,4B,,4:|
+%
+V:1
+|:def2def2edcB|ABc2ABc2dcBA|GAB2GAB2cBAG|^F6GAD2=E^F|
+V:2
+|:B,8B,,4|F,8B,,4|E,8C,4|D,4D,4C,4|
+%
+V:1
+GDG2BGB2cAc2|dBd2fdf2g=eg2|a^fa2b^fgd ecdA|A6G2G4:|
+V:2
+B,,4G,,4F,,4|B,,4B,4G,4|D4B,4C4|D4D,4 G,,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159476
+S:http://abc.musicaviva.com/tunes/purcell-henry/purcell-hornpipe-kbe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/purcell-henry/purcell-hornpipe-kbe.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/purcell-henry/purcell-hornpipe-kbe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/purcell-henry/purcell-hornpipe-kbe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/purcell-henry/purcell-hornpipe-kbe.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,148 @@
+X:1
+T:fibonacci
+M:4/4:L:1/8
+N: 
+Z: 
+K:G
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB|
+C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G|
+G,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB|
+C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB|
+C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,e BC,dA|
+A,,GG,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB|
+C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,|
+eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, eBC,d| AA,,GG, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,eBC,| dAA,,G G,dAA,,| GG,eB C,dAA,,|
+GG,dA A,,GG,e| BC,dA A,,GG,e| BC,dA A,,GG,d| AA,,GG, eBC,d|
+AA,,GG, dAA,,G| G,eBC, dAA,,G| G,eBC, dAA,,G| G,dAA,, GG,eB|
+C,dAA,, GG,eB| C,dAA,, GG,dA| A,,GG,e BC,dA| A,,GG,d AA,,GG,|
+eBC,d AA,,GG,| eBC,d AA,,GG,| dAA,,G G,eBC,| dAA,,G G,eBC,|
+dAA,,G G,dAA,,| GG,eB C,dAA,,| GG,dA A,,GG,e| BC,dA A,,GG,e|
+BC,dA A,,GG,d| AA,,GG, eBC,d| AA,,GG, dAA,,G| G,eBC, dAA,,G|
+G,eBC, dAA,,G| G,dAA,, GG,eB| C,dAA,, GG,eB| C,dAA,, GG,dA|
+A,,GG,e BC,dA| A,,GG,d AA,,GG,| eBC,d AA,,GG,| eBC,d AA,,GG,|
+dAA,,G G,eBC,| dAA,,G G,e
+S:https://www.folktunefinder.com/tunes/157635
+S:http://pagesperso-orange.fr/jean-paul.davalan/divers/fibonacci/fibonacci.abc
+S:http://perso.orange.fr/jean-paul.davalan/divers/fibonacci/fibonacci.abc
+S:http://perso.wanadoo.fr/jean-paul.davalan/divers/fibonacci/fibonacci.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

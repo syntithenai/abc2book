@@ -1,0 +1,34 @@
+X:1
+T:Glorishears
+M:2/2
+C:
+S:Bacon (MDT)
+N:transposed from A
+A:Bampton
+O:English
+R:Reel
+%:
+%:
+%P:A/2.(AB$^2$)$^4$
+P:A.(AB2)4
+K:G
+Q:1/2=96
+L:1/8
+P:A
+|: CDE=F G2 G2 | A2 B2 c2 Bc | d2 (3GAB c2 B2  |  A4    G4        :|\
+P:B
+   c4    B3 c  | A2 d2 G4    | c2 BA    G2 =FE | =F2 A2 D3 E/2D/2 |\
+   CDE=F G2 G2 | A2 B2 c2 Bc | d2 (3GAB c2 B2  |  A4    G4        ||
+S:https://www.folktunefinder.com/tunes/161409
+S:http://www.ucolick.org/~sla/morris/music/Bampton/glor.lbG.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

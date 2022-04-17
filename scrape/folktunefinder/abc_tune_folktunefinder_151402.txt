@@ -1,0 +1,23 @@
+X: 1
+T: Dans Uit Brest
+M: 12/8
+L: 1/8
+R: jig / slide
+K: G Major
+|: d | 
+edc BAG BcB B2 d | e2 c BAG ABA A2 d | 
+edc BAG B2 c B2 d | e2 c BAG B2 A G2 : |
+|: d |
+g2 f e3 gfe d3 | d^cd =cBc edc B2 G | 
+g2 f ece gfe d3 | d^cd =cBc cBA G2 : |
+S:https://www.folktunefinder.com/tunes/151402
+S:http://www.thesession.org/tunes/display/7204
+% Rhythm Jig / slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

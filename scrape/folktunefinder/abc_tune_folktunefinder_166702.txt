@@ -1,0 +1,44 @@
+X:1
+T:Iseltaler Masolka
+C:traditionell
+R:mazurka
+A:Osttirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Tiroler Volkstaenze - Notenteil, Karl Horak, Musikverlag Helbling, Innsbruck, 1974
+N:OeVLA: Z 1146
+N:tonart im buch: ganz in F ,  erster ton c'' 
+N:im buch s. 17
+N:im buch zweistimmig in einer notenzeile
+S:
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription: Simon Wascher
+Q:3/4=44 %im buch
+M:3/4 %im buch
+L:1/8
+K:F
+cd |\
+c2 A2 cd | c2 A2 cd | cA cd cA | B2 B2 Bc |\
+B2 G2 Bc | B2 G2 Bc | edcA GB | A2 A2 :|
+z2 |\
+A2 c2 F2 | A2 G4 | E2 c2 B2 | B2 A4 |\
+c2 B2 A2 | A2 G4 |
+                   d2 c2 B2 | B2 G4 |\
+Bdfd B2 | Acfc A2 | GBdBGE | F2 F2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/166702
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/iseltaler_masolka.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

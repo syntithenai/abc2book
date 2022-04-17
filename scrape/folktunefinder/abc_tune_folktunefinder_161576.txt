@@ -1,0 +1,32 @@
+X: 1
+T: Gode\vcki \vCa\vcak
+Z: 1997 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+R: cacak
+M: 6/8
+L: 1/8
+K: DDor
+|: "Dm"C2A GFE | C2G FED | "C"C2D E2C | "Dm"D3 D3 \
+::  "C"CDC GFE | C2F E2D |    C2D E2C | "Dm"D3 D3 :|
+y2\
+|:  "C"C2D E2C | G2E FED |    C2D E2C | "Dm"~G3 FED \
+|   "C"C2D E2C | G2E FED |    C2D E2C | "Dm"~D3 D3 :|
+K:Bblyd
+||  "Bb"B3 F3  | F3  B3  | B3 FEF |    B3- B3 \
+|      d^cd B3 | FEF B3  | B3 FEF | "F"F3- F3 |
+|  "Bb"d^cd B3 | FEF B3  | B3 FEF |    B3- B3 \
+|        f3 B3 | F3  B3  | B3 FEF | "C"c3- c3 ||
+K:F=B_A
+|: "Fm"c2A G2A | G2A     "G"B3 | "Fm"c2A AGA | "G"B3- B3 \
+|  "Fm"F2c c2A | (4A/G/A/B/ c3 |     c2A GAG |    F3  F3 :|
+|: "Fm"c2A A2A | c2A A2A | F2A A2A | c2A A2A \
+|      F2A c2B | c2A A2A | c2B c2A | F3- F3 :|
+S:https://www.folktunefinder.com/tunes/161576
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/GodeckiCacak_Dm.abc
+% Rhythm Cacak
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

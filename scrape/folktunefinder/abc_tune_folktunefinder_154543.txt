@@ -1,0 +1,23 @@
+X:30
+T:The Lamppost
+% Nottingham Music Database
+S:Phil
+M:9/8
+K:G
+"G"g2d B2G "D"FGA|"D7"DFA cBA Bcd|"G"g2d B2G "D"FGA|"G"G2B "D"AGF "G"G3:|
+"G"g2g bag "D"fga|"D m"de=f "C"edc "G"BAG|"G"g2g bag "D"fga|"Bb"d2e =f3 e2d:|
+"G"B2c d2B G2D|"F"=F2A c2A F2^F|"G"G2B d2B G2D|"F"=FGA "G"G2D G3:|
+"G"d^cd g2g "F"=F3|"G"d^cd BAG "F"=F3|"G"d^cd g2g "F"_F3|\
+[1"C"e3 "Cm"_e3 "D7"d3| [2F"C"e3"F"=f3"D7"f3||
+S:https://www.folktunefinder.com/tunes/154543
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/slip.abc
+S:http://www2.redhawk.org:8080/irish/nmd/slip.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/slip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

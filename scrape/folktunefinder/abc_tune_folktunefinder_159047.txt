@@ -1,0 +1,18 @@
+X:1
+T:Four Loom Weave
+M:3/4
+L:1/4
+K:C
+ D/2D/2| A2 G| F D C| E3.99999962500005/11.9999985000002 E3.99999962500005/11.9999985000002 E3.99999962500005/11.9999985000002 C2|\
+ D2 A| c2 A| d2 A/2c/2| B A F| G2 A| c B c| d d A| B A G| D2 D| F2 E/2F/2|\
+ G/2 E3/2 C| D3/2 D/2 D| D2D/2-D/2| F E F| G2 E/2C/2| D3/2 D/2 D| D2 A|\
+ c c c/2c/2| d/2 d/2- d A| B/2B/2 A F| G2 A/2A/2| c B c| d/2 d/2- d A|\
+ B A G| D2 D/2E/2| F A A| G2 E/2C/2| D2 D/2D/2| D2||
+S:https://www.folktunefinder.com/tunes/159047
+S:http://back.numachi.com:8000/dtrad/abc/FOURLOOM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 94
+T: THREE LITTLE DRUMMERS' -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010527161414 by John Chambers jc:trillian.mit.edu
+K: Amix
+uA \
+| eAA eAA | BAG Bcd | eAA eAA | def g2f \
+| eAA eAA | BAG Bcd | eaf g2f | eAA A2 :|
+|: ue \
+| eaa {b}a^ga | e=gg {a}gfg | eaa eaa | def gdB \
+| eaa {b}a^ga | e=gg    g2e | def gdc | BAA A2 :|
+S:https://www.folktunefinder.com/tunes/165328
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/ST.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

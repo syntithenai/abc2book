@@ -1,0 +1,24 @@
+X: 11
+T: Flower of Edinburgh
+S: &quot;John Johnson's Twelve Country Dances for the Harpsichord&quot;, 1749.
+M: 4/4
+L: 1/8
+Q: 60  
+K: G Major
+(3GFE |\
+D3 E G3 A | BGBd B2 AG | F3 E DEFG | AFdF E2 FE |
+DEFD G3 A | (3BAG (3Bcd e3 g | dBAG E2 GA | B2 GA G2 ||
+d2 |\
+gfg>a f/a/b ag | fef>g f/g/a gf | edef gfed | B2 e2 e3 g/4f/4e/ |
+dBAG d2 cB | edef g3 g/4a/4b/ | cBAG E2 GA | B2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/155714
+S:http://www.thesession.org/tunes/display/2549
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:1
+T:Ein "Alter"
+A:Perchtoldsdorf, 1907
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J., 
+S:im buch mit der Angabe: Zeitschrift "Das deutsche Volkslied", 17.Jahrgang, 1915. Aufgezeichnet v. K.M. Klier, 1907
+N: im buch in F
+N:2.terzparalelle Stimme eine Terz hoeher
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+D2GFG2 | D2BABc | B2AGAB | A2GFG2 |
+D2GFG2 | D2BABc | B2AGAB | G6 :|
+|:\
+B2AGAB | A2GFG2 | B2AGAB | A2GFG2 |
+D2GFG2 | D2BABc | B2AGAB | G6 :|
+W:
+W:2.Teil ergaenzt von Sepp Pichler
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/155845
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/ein_alter.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

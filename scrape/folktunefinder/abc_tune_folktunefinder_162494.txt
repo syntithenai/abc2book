@@ -1,0 +1,74 @@
+X:1
+%
+%%titleleft 1
+%%topmargin 5pt
+%%staffsep 25pt
+%
+%%tabaddflags 0
+%%tabfontscale 1.2
+%%tabflagspace 2
+%
+T:Greensleeves
+C:Variations by Christoph Dalitz
+Z:abc transcription by Christoph Dalitz
+L:1/4
+K:CM frenchtab
+M:3
+%staff 1
+,,d/ |  [,b,,a1] [,d,,c/] [a,,,d/]>b a/ |\
+        [,d,,c/]>,,,,d [,a,a/] [,,bc/]>,,d ,a/ |\
+        [,b,,a1] ,,d/ ,,,,,b/ ,,c ,,d |\
+        [,ac,,a1] ,,c/ ,,,c1 ,,d/ |\
+        [,b,,a1] [,d,,c/] [a,,,d/] > b a/ |\
+        [,d,,c/] ,,,,d [,a,a] [,,bc/] ,,d ,a |
+%staff 2
+        [,bd,a/] > ,a ,,d/ [,,cc,a/] ,,d// ,,c ,,a ,,c |\
+        [,,dca1] ,,,c/ {,,a}1 || ,,d/ |\
+        [,bd,a/] ,,d// ,a ,b ,d [a,,,d//] d c a ,d ,b |\
+        [,a,a/] ,d// ,b ,a ,,d [,,bc//] ,,a ,,b ,,d ,a/ |
+%staff 3
+[,b,,a/]>,a ,,d/ [,,dd/] ,a// ,,d ,,c ,,d |\
+        [,a,c/] ,,,,,a ,,c ,,,c1 ,,d/ |\
+        [,b,,a//] ,a ,,d ,a ,b ,d [a,,,d//] c d a ,d ,b |\
+        [,a,a//] ,b ,d ,b ,a ,,d [,,bc//] ,,,c ,,a ,,b ,,d ,a |
+%staff 4
+[,b,,a//] ,d ,b ,a ,,d/ [,,cc/] ,,d// ,,c ,,d/// ,,c ,,a,,c |\
+        [,,dca/] {,,a} ,,,c [,,d3/2] ||\
+        [da,,,d/]>,,,,a ,,,,c/ [d,,,d/]>c a/ |\
+        [,d,,c/]>,,,,d [,a,a/] [,,bc/] ,,d ,a |\
+        [,b,,a/]>,a ,,d/ ,,,,,b/ ,,c ,,d |
+%staff 5
+[,a,,,a3/4] ,,d// ,,c ,,a [,,,c3/2] |\
+        [da,,,d/]>,,,,a ,,,,c/ [d,,,d/]>c a/ |\
+        [,d,,c/] ,,,,d [,a,a] [,,bc/]>,,d ,a/ |\
+        [,b,,a/] ,a ,,d [,,cc,a/] ,,d// ,,c ,,a ,,c |\
+        [,,dca1] {,,a}/ [,,dc1] || ,,d/ |
+%staff 6
+[,b,,a//] ,a ,,d ,a ,b ,d [a,,,d//] c d a f d |\
+        [c,,a//] a ,d ,b ,a ,,d [,,bc//] ,,a ,,b ,,d ,a ,d |\
+        [,b,,a//] ,a ,,d ,a ,b ,,d [,d,d//] ,,,c ,,,a ,,,c [,b,d] ,,,a |\
+        [,a,c//] ,b ,a ,,d ,,b ,,a ,,,c// ,,,d ,,,c ,,,a ,,,,d ,,,,c |
+%staff 7
+[f,,,a//] i h f ,i ,h [a,,,d//] d c a ,d ,b |\
+        [,a,a//] a ,d ,b ,a ,,d [,,bc//] ,,,c ,,a ,,b ,,d ,a |\
+        [,b,,a//] ,a ,,d ,a ,b ,,d [,,cc//] ,,d ,,,,,a ,,c ,,a ,,c |\
+        [,,dca/] {,,a} ,,,c [,,d3/2] ||
+%staff 8
+[da,,,d//] ,,,,a ,,,,c ,,,,,d ,,,,a ,,,,c [d,,,d//] .c :a .d :c .a |\
+        [,d,,c//] .a :,d [,b,,d] [,a,a] .,,d [,,bc//] .,,,c ,,a .,,b ,,d .,a |\
+        [,b,,a//] ,d ,b ,a ,,d/ ,,,d// ,,d ,a ,,d ,,c ,,d |\
+        [,a,c//] ,b ,a ,,d ,,c ,,a ,,,c/ ,,,,,a1 |
+%staff 9
+[da,,,d//] ,,,,a ,,,,c ,,,,,d ,,,,a ,,,,c [d,,,d//] c a d c a |\
+        [,d,,c//] a ,d [,b,,d] [,a,a] ,,d [,,bc//] ,,a ,,b ,,d ,a/ |\
+        [,bdca/]>,a ,,d/ [,,cc,a/] ,,a ,,c |\
+        [,,d,a//] ,,c ,,d ,a ,c ,d H[,cdc{,,a}] Z |]
+S:https://www.folktunefinder.com/tunes/162494
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dalitz/greensvar.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dalitz/greensvar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

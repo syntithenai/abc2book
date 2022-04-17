@@ -1,0 +1,22 @@
+X: 1
+T: Etruscan, The
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|: b>a | 
+f2 d2 b>a | f2 d2 f>a | g>e c>e A>c | d>f A2 b>a |
+f2 d2 b>a | f2 d2 f>a | g>e c>e A>c | d2 D2 :|
+|: c>d |
+^d>e c>A e>c | d>A f>d a>f | g>e c>A e>g | f>a ^g>a f>d |
+^d>e c>A e>c | d>A f>d a>f | g>e c>A B>c | d2 D2 :|
+S:https://www.folktunefinder.com/tunes/156426
+S:http://www.thesession.org/tunes/display/3708
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

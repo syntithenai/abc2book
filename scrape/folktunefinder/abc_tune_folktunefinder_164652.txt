@@ -1,0 +1,22 @@
+X: 1
+T: Homesteaders
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+D | GAB2G2D2 | E4 GAB2 | G2d2d4 | gfe6 |
+d4c2B2 | c2d2A4 | GAB2G2e2 | d4 BAG2 | A2B2E4 |
+|: GAB3AG2 | G2E3DD2 |[1 E2G2A4 :|[2 E2G2G4 ||
+|: gfe3fg2 | e4dcd2 | A2c2B4 | GAB2e3B |
+[1 B2d2BAG2 | A2B2A4 :|[2 B2A2G2E2-| E4G3 ||
+S:https://www.folktunefinder.com/tunes/164652
+S:http://www.thesession.org/tunes/display/6115
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

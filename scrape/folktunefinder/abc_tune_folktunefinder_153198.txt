@@ -1,0 +1,57 @@
+X: 1
+T:Deutscher Tanz
+C:Ludwig van Beethoven
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/beethoven-ludwig-van.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:3/4
+L:1/8
+K:F
+V:1
+CF|[C6A6]|[D4B4][C2A2]|{A}G2GFGE|FAC2FA|
+V:2
+z2|F,,2F,2F,2|F,,2F,2F,2|[G,2B,2][G,2B,2][G,2B,2]|[F,2A,2]z2z2|
+%
+V:1
+c4f2|d4g2|{f}e2edec|f2z2:|
+V:2
+[A,2C2F2][A,2C2F2]z2|[B,2D2G2][B,2D2G2]z2|[C2G2B2][C2G2B2][C2G2B2]|[F2A2]z2:|
+%
+V:1
+|:FA|cCcCdC|cCcC=BC|cCcCAC|BCBCGC|
+V:2
+|:z2|A,2A,2B,2|2A,2A,2^G,2|A,2A,2F,2|G,2G,2E,2|
+%
+V:1
+ACACFC|GCGCEC|FCGCEC|F2z2:|
+V:2
+F,2F,2A,,2|B,,2B,,2C,2|A,,2B,,2C,2|F,,2F,2:|
+%
+V:1
+|:c2|fafac'2|gbgbd'2|c'babge|f2a2c2|
+V:2
+|:z2|A2F2C2|B2G2C2|B2G2C2|A2F2C2|
+%
+V:1
+fafac'2|gbgbd'2|c'babge|f2z2:|
+V:2
+A2F2C2|B2G2C2|B2G2C2|[F2A2]z2:|
+%
+V:1
+|:c2|cgcgb2|cfcfa2|ceceg2|f2a2c2|
+V:2
+|:z2|E,2G,2C2|F,2A,2C2|G,2B,2C2|A,2C2F,2|
+%
+V:1
+cgcgb2|cfcfa2|g2b2e2|f2z2:|
+V:2
+E,2G,2C2|F,2A,2C2|B,2G,2C2|F,2z2:|
+S:https://www.folktunefinder.com/tunes/153198
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/de/Deutscher_Tanz_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

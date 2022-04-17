@@ -1,0 +1,28 @@
+X: 1
+T:Grimstock
+S:Playford 1651
+N:abc version by Michael Robinson at http://celtic.stanford.edu/pub/tunes/abc.tunes/Playford.abc
+N:   [access 14 October 1996]
+N: Modified for abc2midi by Robert Bley-Vroman, Contradancers of Hawaii, 14 October 1996
+N:   vroman@hawaii.edu
+N:   http://www.lll.hawaii.edu/contra/
+M:6/8
+L:1/8
+H:The A strain appears titled "CLIV Courante" in Michael Praetorius's
+H:"Terpsichore" (1612).
+K:G
+|:g2f g2d|e>fg f2d|B>cd e2d|cdB c2B|g2f g2d|e>fg f2d|B>cd e2d|c>BA G3:|
+|:GGA BGA|BGA BGA|GGA BGA|BGA G3:|
+S:https://www.folktunefinder.com/tunes/162582
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gr/Grimstock_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

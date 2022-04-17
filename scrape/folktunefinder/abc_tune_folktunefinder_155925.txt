@@ -1,0 +1,21 @@
+X: 1
+T: Eli Ata
+O: Chassidic
+M: C
+L: 1/8
+K: Am
+[| "Am"E2 A2 A2 A2 | "E"^GA BA B4 | "E"E2 ^G2 G3 E | "E"E^G BG "Am"A4 |
+|   "F"A2 c2 c2 c2 | "Am"cd ec "Dm"d4 | "Am"cB Ac "E"BA ^GB | "Am"A6 z2 |]
+[| "Am"c2 e2 e2 e2 | "Am"ce ge "Dm"d4 | "E7"B2 d2 d3 B | "E7"Bd fd "Am"c4 |
+|   "F"A2 c2 c2 c2 | "Am"cd ec "Dm"d4 | "Am"cB Ac "E"BA ^GB | "Am"A6 z2 |]
+S:https://www.folktunefinder.com/tunes/155925
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/EliAta_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/song/EliAta_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/EliAta_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

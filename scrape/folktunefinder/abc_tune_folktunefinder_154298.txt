@@ -1,0 +1,37 @@
+X:1
+T:An Draighnen Donn
+K:C
+M:3/4
+C:Traditional
+S:James Meenan, Baile Thiar, Tory Island, Donegal
+B:Folksongs of Britain and Ireland
+G CC/11|AG EG ce|c2EG CE|D3EC2|C4EG|
+c2 ec cd|edG2c2|A3G EG|G3E EG|
+c2 ec cd|edG2c2|A3G EG|G3G CC/11|
+AG EG ce|c2EG CE|D3EC2|C6|
+W:
+W: M thig t choche 'm iarraidh tar go cl an t
+W: Trthnna 'gus ar maidin mar bos an dricht ina lu
+W: 'Ach uile Dhomhnach bm ag smaointeamh go mr f mo chro
+W: Gur t mo chad-searc agus n fidir liomsa 'n chumhaidh 'chur dom
+W:
+W: Fear gan chill a bheadh ag drim leis an chaor 'bheadh ard
+W: Is caor seal lena thaoibh air a leagfadh s lmh
+W: Gidh gurb ard an crann caorthainn bonn s searbh ina bharr
+W: 'Gus fsfaidh smara 's blth sugh craobh ar an chrann is sle blth
+W:
+W: Sleann gach igbhean gur leo fin m nuir a laim lionn
+W: Nuair a shum sos bm ag smuainteamh ar a comhr liom
+W: Com is mne f dh n'n soda 't ar Shliabh Ui Fhloinn
+W: 'Gus t mo ghr-sa mar bhlth an n-irn ar an Draidhnen Donn
+S:https://www.folktunefinder.com/tunes/154298
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/draigh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/draigh.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

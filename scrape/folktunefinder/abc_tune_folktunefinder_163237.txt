@@ -1,0 +1,25 @@
+X:1
+T:Happy Man
+C:Adderbury
+M:3/4
+L:1/4
+A:Adderbury
+P:A(AB)6
+K:D
+P:A
+D|GGA|B2A|BBc|d2d|BBB|AAd|BBB|AAd3/4d/4|dec|d2||
+P:B
+K:G
+L:1/8
+d>c|B3AG2|d4GF|E2cBAG|G2F2DD|G2GA Bc|A4cB|A3GF2|G4||
+S:https://www.folktunefinder.com/tunes/163237
+S:http://www.tomkeays.com/morris/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:cotswold:adderbury:1_happy_man.abc
+S:http://www.tomkeays.com/morris/wiki/cotswold/adderbury/happy_man?rev=1157479575
+S:http://www.tomkeays.com/music/wiki/songs/happy_man?rev=1157945719
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

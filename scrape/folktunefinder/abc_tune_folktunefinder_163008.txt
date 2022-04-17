@@ -1,0 +1,26 @@
+X:1
+T:Skedvi bypolskan
+T:Hambo-polska e. Carl Norman, Saeter
+T:(for Hambopolksa fran Sodra Dalarna)
+R:hambo-polska
+Z:from printed music directions
+Z:upptecknad av Ingvar Norman, Saeter
+M:3/4
+L:1/8
+Q:1/4=130
+K:D
+|: "D"D2 D>F A>(d | "D"f2) ( (3f/g/f/e ) d>f |
+   "D"D2- DF AG | "G"B2 ( (3B/c/B/A ) G>B |
+   "A"E2- E>A c>e | "Em"g2 g>f e>d |
+   [1 "A7"c2 ( (3c/d/c/B) A>G | "D"F2 ((3F/G/F/E) FA :|
+   [2 "A7"c2 c>A Bc | ("D"cd) d4 ||
+|: "Bm"{f}(f>g) B2 B>c | ("D"df) A3 F | "Em"G3/(F/ E3/)(A/ "A"c3/)e/ |
+   [1 ("D"ed) (df) "A"A>>f :| [2 (ed) "D"d4 ||
+S:https://www.folktunefinder.com/tunes/163008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/SkedvibyPolskan.abc
+% Rhythm Hambo-polska
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

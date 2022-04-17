@@ -1,0 +1,32 @@
+X:1
+T:Dr. Ban's Hornpipe
+M:4/4
+L:1/8
+R:hornpipe
+C:D. Asherman
+N:Copyright 2002 Doug Asherman
+N: 
+N: Composed in gratitude to Dr. Agi Ban, who has 
+N: been instrumental in allowing me to play the
+N: fiddle without pain.
+N: 
+N: In addition to being a talented chiropractor,
+N: Ms. Ban is also an accomplished and respected
+N: Cajun fiddler.
+K:G
+cB|"A5"A2 AG ABcB|"G"A2 AB AGEG|"A5"A2 AG ABcB|"G"AGcB "A5"AGGB|
+"A5"A2 AG ABcB|"G"A2 AB AGED|"D"ADBD ADcB|"G"AGcB "A5"AGGB|
+"A5"A2 AG ABcB|"G"A2 AB "A5"AGEG|"A5"A2 AG ABcB|"G"AGcB "A5"AGGB|
+"F"A2 AG ABcB|"G"A2 AB AGED|"D"ADBD "C"ADcB|"G"AGcB "A5"AGGB|
+|:"Em"eBbB aBgB|"D"fedB AFAB|"Em"eBgB "G"fedB|"D/F#"AGcB "Em"AGGB|
+"Em"eBbB aBgB|"G"fedB "D/F#"AFAB|"Em"eBgB "D"fA.aB|"C"AGcB "Em"AGGB:|
+S:https://www.folktunefinder.com/tunes/154310
+S:http://trillian.mit.edu/~jc/music/abc/mirror/italcorner.com/drban.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

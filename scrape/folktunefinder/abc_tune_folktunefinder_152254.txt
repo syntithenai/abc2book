@@ -1,0 +1,24 @@
+X:222
+T: Die verkaufte Muellerin
+N: Q0086U
+O: Mitteleuropa, Deutschland (DDR) , Brandenburg
+N: Schlusspause korrigiert.
+R: Ballade, Menschenhandel, Rettung, Hinrichtung
+M: 3/4
+L: 1/8
+K: G
+d2 | BdGGd2 | BdG2z
+G | eeg2e2 | edd2z
+d | eeg2e2 | edd2z
+d | eeg2e2 | edd2
+S:https://www.folktunefinder.com/tunes/152254
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, menschenhandel, rettung, hinrichtung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T:Hewlett
+M:3/4
+L:1/8
+Q:160
+C:Turlough O'Carolan
+S:RWW 23
+K:D
+AA|:"D"D2 D2 FG|"A7"AB c2 A2|"D"d2 f2 fg|fe d3 B|
+A2 F2 F2|"G"G3 A BG|"D"AF D2 "A7"D2|1"D"D4 AA:|2"D"D4 AB||!
+"D"A2 D2 AB|A2 D2 AB|A2 d2 de|dc BA GF|"G"G2 G,2 GA|
+"G"G2 G,2 GA|G2 GA BG|"D"AF D2 D2|FE F2 G2|!
+"A7"AB c2 A2|"D"fe fg ag|fe d3 B|A2 F2 F2|"G"G3 A BG|
+"D"AF D2 "A7"D2|1"D"D4 AB:|2"D"D4 AA|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/164014
+S:http://www.blackflute.com/music/tunes/waltzes/hewlett.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

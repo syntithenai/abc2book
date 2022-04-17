@@ -1,0 +1,18 @@
+X:1
+T:Down by the Brazos
+M:3/4
+L:1/4
+K:G
+ D| G3/2 G/2 G| B A G| c c c/2e/2| d B G| d3/2 d/2d/2 d/2| d c B| A A A|\
+ d c A| G G G| B3/2 A/2 G| c3/2 d/2 e| d2 B| d3/2 d/2 d| d c B| A B A|\
+ G3| B3/2 B/2 B| c c c| B3/2 B/2 B| A3| B3/2 B/2 c| d d c| B B A| G3|\
+ B3/2 B/2 B| c3/2 c/2 c| B B B| A2 A| d3/2 d/2 d| d c B| A B A| G3|\
+S:https://www.folktunefinder.com/tunes/154146
+S:http://back.numachi.com:8000/dtrad/abc/RIVTEXAS.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/RIVTEXAS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

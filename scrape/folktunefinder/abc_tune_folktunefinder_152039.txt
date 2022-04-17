@@ -1,0 +1,26 @@
+X:7
+T: Die wiedergefundene Schwester (Suedeli - Ballade)
+N: Q3072F
+O: Mitteleuropa, Niederlande
+N: Melodievergleich zu Q0072C, anderes Lied.
+R: geistlich
+M: none
+L: 1/4
+K: D
+A | A2=cB2d | d2=c2BA
+c | dBdA2 | A2G2=FE2
+D | =FGAB=cAA | G2AG2=FE2
+D | =F2D2E2G | G2=F2ED4
+S:https://www.folktunefinder.com/tunes/152039
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

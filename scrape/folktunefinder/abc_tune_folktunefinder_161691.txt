@@ -1,0 +1,24 @@
+X:1280
+T:"The Goldfinch"      (reel)     1280
+C:after Mr. O'Reilly
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:A
+(Ac)|e2(ea) f2(af)|e2(ae) fece|e2(af) ecAc|{c}BABc BAFB|
+A2(ea) f2(af)|e2(ae) fecf|e2(af) ecAc|BABc A2||
+c2|ecBc A2(Ac)|B2(Bd) ceaf|ecBc A2(ce)|fbba geaf|
+ecBe A2(Ac)|B2Bd ceaf|ecBc A2(ce)|fage a2|]
+S:https://www.folktunefinder.com/tunes/161691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1280-Goldfinch.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1201-1300/1280-Goldfinch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

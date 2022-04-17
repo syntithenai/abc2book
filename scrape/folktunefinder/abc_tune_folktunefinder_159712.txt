@@ -1,0 +1,29 @@
+X:1
+T:The Gaelic Club
+C:Irish Jig, abc file by Bernard Loffet
+L:1/8
+Q:330
+M:6/8
+K:C
+z4z[A/A,/]B/|:[cA,]B[AA,][AA,]G[EA,]|[AA,]B[AA,][AA,]B[cA,]|[BG,]A[GG,][BG,]d[BG,]|[BG,]d[gG,][GE,]A[BE,]|[cA,]B[AA,][AA,]G[EA,]|[AA,]B[AA,][c2A,2][dA,]| \
+[eC,]f[eC,][dG,]c[BG,]|1[cA,]A[AA,][A2A,2][A/A,/]B/:|2[cA,]A[AA,][A2A,2][GG,]|:[cC,]e[gC,][gC,]e[cC,]|[cC,]e[gC,][dG,]B[GG,]|[cC,]e[gC,][gC,]e[cC,]|[BG,]G[GG,][G2G,2][A/A,/]B/| \
+[cA,]B[AA,][AA,]G[EA,]|[AA,]B[AA,][c2A,2][dA,]|[eC,]f[eC,][dG,]c[BG,]|1[cA,]A[AA,][A2A,2][GG,]:|2[cA,]A[AA,][A3A,3]| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/159712
+S:http://diato.ifrance.com/diato/tablat/57.abc
+S:http://diato.ifrance.com/tablat/57.abc
+S:http://diato.org/tablat/57.abc
+S:http://perso.orange.fr/diato/tablat/57.abc
+S:http://perso.wanadoo.fr/diato/tablat/57.abc
+S:http://pro.wanadoo.fr/diato/abc/57.abc
+S:http://pro.wanadoo.fr/diato/tablat/57.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/57.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/57.abc
+S:http://www.diatonique.net/tablat/57.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/tablat/57.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

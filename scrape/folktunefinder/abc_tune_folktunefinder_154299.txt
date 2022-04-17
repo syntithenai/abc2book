@@ -1,0 +1,24 @@
+X:8
+T:Drain the Bottle
+F:http://www.hiico.com/.abc/drain_the_bottle.abc
+O:Scotland
+K:Bm
+M:6/8
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 24 August, 2004
+F |: "Bm" B3 f3 | edc dcB | "A" Acd edc | aed cB^A | "Bm" B3 f3 | edc dcB | "A" efd edc |[1 "Bm" .Bz^A.BzF :|[2 "Bm" .Bz^A.Bzc
+| "Bm" dfB dbB | dcB fdB | "A" ceA caA | cBA edc | "Bm" dfB dbB | dcB fdB | "A" efd edc | "Bm" .Bz^A.Bzc | dfB dbB | dfB dbB | "A" ceA caA | ceA caA | "G" BdB "A" cec | "D" dfd "C" ege | "A" fgf edc | "Bm" .Bz^A.Bz2
+S:https://www.folktunefinder.com/tunes/154299
+S:http://www.hiico.com/.abc/drain_the_bottle.abc
+S:http://www.hiico.com/.abc/drain_the_bottle.abc
+S:http://www.hiico.com/.abc/drain_the_bottle.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:1
+T:Fire In the Hole
+M:4/4
+L:1/8
+K:E
+ z4 z2 B,3/2 B,/2| C3/2 C/2 C3/2 C/2 G2 G3/2 G/2-| G3/2 F/2 E3/2 C/2 B,2 z3/2 B,/2|\
+ D3/2 E/2 F3/2 E/2 D3/2 D/2- D3/2 E/2-| E3/2 D/2 C3/2 B,/2 C2 C3/2 B,/2|\
+ C3/2 C/2 C3/2 C/2 G3/2 G/2- G3/2 G/2-| G3/2 F/2 E3/2 C/2 B,2 z3/2 B,/2|\
+ E3/2 E/2 E3/2 E/2 E3/2 C/2 E3/2 C/2| F3/2 F/2 F3/2 G/2 F4| G2 G2 A4|\
+ G3/2 F/2 E3/2 C/2 B,4| F3/2 F/2 F3/2 E/2 G2 G3/2 F/2-| G3/2 F/2 E3/2 C/2 B,2 z3/2 B,/2|\
+ G2 G3/2 G/2 A2 A2| G3/2- F/2 E3/2 C/2 B,2 B,3/2 B,/2| F2 F3/2 E/2 G2 E2|\
+ C/2- E3/2 E3/2 F/2 E2 z2|
+S:https://www.folktunefinder.com/tunes/157905
+S:http://back.numachi.com:8000/dtrad/abc/FIREHOLE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FIREHOLE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

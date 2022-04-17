@@ -1,0 +1,34 @@
+X: 1
+T: Freilach: The Silver Wedding #1 [Am]
+O: Kammen 1#3
+R: Freilach
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+eab "A"\
+| "Am"c'4- c'e "E"ab | "Am"c'4- c'e "E"ab \
+| "Am"c'2 (3c'ba "E"b2 (3ba^g | ^g4- ge ^ga \
+| "E"b4- be ^ga | b4- be ^ga |
+| b2 d'2 (3d'c'b (3c'ba |1 "Am"a>^g (3agf e :|2 "Am"a8 :|\
+"B"\
+|:"E"EF ^GA Bc de  \
+| "Dm"[f4-d4-] [f4d4] | "Am"[e4-c4-] [e4c4] |
+| "E"[d4-B4-] [d4B4] | "Am"[c4-A4-] [c4A4] \
+| "E"[bed]z [^ged] "Am"[aec] z3 | "E"[bed]z [^ged] "Am"[aec] z3 \
+| "E"(3d'c'b "Am"(3c'ba "E"(3ba^g "Dm"(3agf | "E"e6 z2 :|
+"C"\
+|:"E"(3^gab (3agf ef ^gz | ze ^gb (3bag agf \
+| "E"(3^gab (3agf ef ^gz |1 (3ba^g agf e{d'}e' {d'}e'{d'}e' :|2 (3ba^g agf e |]
+S:https://www.folktunefinder.com/tunes/159325
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/SilverWedding1_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/SilverWedding1_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Klezmer/Bb/SilverWedding1_Am.abc
+% Rhythm Freilach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

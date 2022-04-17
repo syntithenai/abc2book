@@ -1,0 +1,37 @@
+X:2
+T:Fantasia Quarta.
+T:Tenor.
+C:Orlando Lassusio.
+O: Bicinia, sive Cantionis
+H: transcribed from the Musica Alamire facsimile of the original 
+H: printed in Antwerp by Petrum Phalesium, 1609
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C|
+L:1/4
+N:Original clef, C on fourth line
+K:G dor -8va
+z8 d6 c2 B2 e2 d4 z2 G2 B2 A2 B3 A/ G/ F4 z2 F G A B c A B2 A c "A"A2 "(1)"z4 D3 B
+N:(1) this rest is the editor's interpretation of a smudge
+A4 B4 z2 F2 B2 c2 d2 G2 B2 G2 z A B A d3 c =B c F4 z2 F2 E2 "B"F2 D E F G A4 B A B2 A2 c B A G
+F E D4 E2 F2 G2 d c B c A2 G2 D3 E ^F2 G2 A4 "C"G8 z2 B2 A2 d3 c2 B A2 G2 z d c A B2 z A
+D E F2 z c F G A2 z D F E F > G A/ B/ c > B A/ G/ F c B/ A/ G/ A/ B/ c/ d > c B A d c2 "D"B4
+z B B B G2 z A A G F2 z B B A G d2 c2 "(2)"_e2 d2 c2 B2 A2 G A2 z A d c A2 z c B G
+N:(2) Looks like a quarter note in the original
+d > c B A G F B A G F B A/ G/ F > G A/ B/ c2 G/ A/ B/ c/ d/ e/ "(3)"f d _e2 c d2 B c2 A B2 G A B
+N:(3) this and the next note look like eighths in the original
+c A B c d > c B/ A/ G c > A A > F B > G e > c c d/ c/ B/ d/ c/ B/ A/ c/ B/ A/ G/ F/ G e2 d > A
+c > G B > A A c > G B A G A2 G16 |]
+S:https://www.folktunefinder.com/tunes/156959
+S:http://www.laymusic.org/music/bicinia/quarta/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

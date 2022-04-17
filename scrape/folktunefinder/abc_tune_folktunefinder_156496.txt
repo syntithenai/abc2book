@@ -1,0 +1,31 @@
+X:1
+T:Set Am\'ericain (Bb inst)
+R:reel
+C:Th\'eodore Duguay
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:E
+(3Bcd|"E"eBGB EBGB | "B"FBFB "E"EBcd | "E"eBGB EBGB | eBeg "B"fd (3Bcd |
+"E"eBGB EBGB | "B"FBFB "E"EBcd |"E"edeg "B"fd (3Bcd |1 "E" eg"B"fd "E"e2 :|\
+[2 "E"egfd "G#"e2d2|]
+|: \
+"C#m"c3d edef| gfga "G#"gfed | "C#m"cBcd edcB | "F#m"AGAB "G#"A2G2 |
+"C#m"cGcd edef| gfga "G#"gfed| "C#m"cBcd "G#"edcB |1 "C#m"cc'ge "C#m"c2 "G#"ed  :|\
+ [2 "C#m"cc'ge c2 |]
+%%text Roaring Jelly R-155
+%%vskip 28pt
+S:https://www.folktunefinder.com/tunes/156496
+S:http://roaringjelly.org/music/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set74.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set74.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

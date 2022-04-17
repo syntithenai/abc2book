@@ -1,0 +1,43 @@
+X:14
+T:Gloria (de Guillou)
+C:L. Guillou
+M:C|
+%%staves (1 2)
+K:G
+V:1
+z4B,3C|D4E2F2|G4G2F2|G2A2(B2AG)|
+w:Glo-ri-|a Glo-ri-|a in ex-|cel-sis De-**|
+V:2
+x4B,3A,|B,4C2D2|E4E2D2|B,2C2D3E|
+V:1
+A4B,3C|D4E2F2|G4(GFGA)|B2B2c2(AF)|HG4||
+w:o! Glo-ri-|a Glo-ri-|a in*ex-*|cel-sis De-**|o!|
+V:2
+F4B,3A,|B,4C2D2|E4EDB,C|D2D2F4|D4|
+%%staves 1
+"Sol"D16CB,4|
+w:1.~Et~paix~sur~la~terre~aux~hommes qu'il aime|
+w:2.~Seigneur~Fils~unique,~Jsus\-Christ,~Seigneur~Dieu,~Agneau~de~Dieu,~le~Fils du Pre;|
+w:3.~Car~toi~seul es saint,|
+"Do"C16EE"Sol"D4|
+w:1.~Nous~te~louons,~nous~te~bnissons,~nous t'a-do-rons,|
+w:2.~Toi~qui~enlves~le~pch~du~monde,~prends~pi-ti de nous;|
+w:3~Toi~seul es Sei-gneur,|
+"Mim"G16BB"Sim"F4|
+w:1.~Nous~te~glorifions,~nous~te~rendons~grce~pour~ton~im-mense-se gloire,|
+w:2.~Toi~qui~enlves~le~pch~du~monde,~reois~no-tre pri-re;|
+w:3.~Toi~seul~es~le~Trs\-Haut,~Jsus\-Christ,~avec~le Saint Es-prit|
+"Do"E16"La"FG"Re"HA4|
+w:1.~Seigneur~Dieu,~roi~du~ciel,~Dieu~le~Pre tout puis-sant.|
+w:2.~Toi~qui~es~assis~~la~droite~du~Pre,~prends~pi-ti de nous.|
+w:3.~Dans~la~gloire~de~Dieu~le~Pre. A-*men!|
+S:https://www.folktunefinder.com/tunes/161388
+S:http://moinejf.free.fr/messe/messeG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

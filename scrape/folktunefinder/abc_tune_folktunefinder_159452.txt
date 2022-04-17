@@ -1,0 +1,33 @@
+X:3087
+T:N\aar l\ovsalen skygger
+T:From Elverh\oy
+C:Fr. Kuhlau
+O:Denmark
+F:http://abc.musicaviva.com/tunes/kuhlau-fr/kuhlau-naar-loevsalen.abc
+M:2/4
+L:1/8
+K:G
+"^Moderato"D|"G"D2GF|"C"F>E "E7"EE|"A7"A>G FE|"D"D3D|
+w:Nu l\ov-sa-len skyg--ger, og da--gen er lang; hver
+"G"D2GD|"D"D2"G"B,B,|"C"C2"D"DA,|"G"B,3D|
+w:sm\aa-fugl nu byg-ger i blom-stren-de vang, hver
+"G"D2GA|"G"Bd2"C"c|"G"B2"D7"A>G|"G"G3|]
+w:sm\aa-fugl nu byg-ger i blom-stren-de vang.
+W:
+W:Nu l\ovsalen skygger, og dagen er lang;
+W:hver sm\aafugl nu bygger i blomstrende vang.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/159452
+S:http://abc.musicaviva.com/tunes/kuhlau-fr/kuhlau-naar-loevsalen.abc
+S:http://abc.musicaviva.com/tunes/kuhlau-fr/kuhlau-naar-loevsalen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/kuhlau-friedrich/kuhlau-naar-loevsalen.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/kuhlau-friedrich/kuhlau-naar-loevsalen.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

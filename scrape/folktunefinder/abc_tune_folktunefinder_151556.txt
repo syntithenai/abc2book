@@ -1,0 +1,25 @@
+X:27
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q2041I
+O: Mitteleuropa, Niederlande, flaemisch
+N: Grundton in der zweigestrichenen Oktave. Pausen am Schluss der
+N: dritten und vierten Zeile ergaenzt. Flaemische Fassung der Ballade.
+R: Ballade, Verfuehrung, Mord, Mordversuch bzw. Rache
+M: 6/8
+L: 1/8
+K: D
+DB,B,=C | D2EDCD | B,2
+DE2D | =CB,CC2D | E3z3
+E3G2=F | D3=F2E | D=CED3 | z2
+E=F2G | E3=C2D | EDED3 | z2
+S:https://www.folktunefinder.com/tunes/151556
+% Rhythm Ballade, verfuehrung, mord, mordversuch bzw. rache
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

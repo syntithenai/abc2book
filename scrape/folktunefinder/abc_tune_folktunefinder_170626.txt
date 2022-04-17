@@ -1,0 +1,46 @@
+X:1
+T:Kussquadrille
+C:traditionell
+R:Bunte Taenze
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort ganz in G, einstimmig mit harmonie-buchstaben, seite 272
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+D2 |\
+G2G2 B2B2 | G2G2 B2B2 | A2A2 cAFA | G2B2G2D2 |
+G2G2 B2B2 | G2G2 B2B2 | A2B2c2B2 | G4 z2 :|
+|:de |\
+f2d2 ^cdec | d2f2d2 de | f2d2 ^cdec | Hd6 d2 |
+B2Bc A2d2 | B2Bc A2d2 | B2Bc A2AB | G2G2 A2d2 |
+B2Bc A2d2 | B2Bc A2d2 | B2Bc A2AB | G4 z2 :|
+|:D2 |\
+G4 G4 | G6 DG | B4 B4 | B6 d2 |
+d2B2 G2G2 | B2G2 D2D2 | E2G2 F2A2 |1 G4 z2 :|\
+                                   [2 G4 z4 ||
+M:3/8
+d2 B2 ge | d2 B2 ge | dBcA FA | GBdB ge |
+dBdB ge | dBdB ge | dBcA FA | G4 z2 |
+FAcAFA | GBdBGB | FAcAFA | GBdBge |
+dBdBge | dBdBge | dBcAFA | G4 z2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170626
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/kussquadrille.abc
+% Rhythm Bunte taenze
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

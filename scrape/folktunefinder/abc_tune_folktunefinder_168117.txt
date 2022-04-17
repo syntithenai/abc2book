@@ -1,0 +1,18 @@
+X:1
+T:John Barleycorn's a Hero Bold
+M:4/4
+L:1/4
+K:C
+ G| c cB/2-A/2 G| A GD/2-C/2 C| E/2 F3/2 E D| C3| G| c cB/2-A/2 G|\
+ A GD/2-C/2 C| E/2 F3/2 E D| C3| C| D E ^F D| G A B3/2 G/2| B/2 c3/2 B A|\
+ G3| G| c cB/2-A/2 G| A GE/2-D/2 C| E/2 F3/2 E D| C3| z| c2 c2| B A G2|\
+ A2 A2| G F E2| C D E F| G G B2| c2B/2-A/2 B| c3||
+S:https://www.folktunefinder.com/tunes/168117
+S:http://back.numachi.com:8000/dtrad/abc/JBARLEY2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

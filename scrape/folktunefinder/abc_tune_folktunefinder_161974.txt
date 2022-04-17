@@ -1,0 +1,29 @@
+X:54
+T: Graf und Nonne (Die Nonne)
+N: Q21550
+O: Nordeuropa, Schweden
+N: Schwedische Fassung der Ballade.
+N: Schlusspause und Pause in der zweiten Zeile rhythmisch korrigiert.
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 2/4
+L: 1/16
+K: G
+G4 | G2d2dc_BA | G4F3
+G | _B2B2c2c2 | d4
+G4 | G2d2dc_BA | G4F3
+G | _B2B2c2c2 | d4z2
+d2 | d3=ff3d | d3_BB3
+d | d2c2c3_B | A4z2
+A2 | _B3Bc2c2 | d3dG3
+A | _B2B2A2A2 | G4
+S:https://www.folktunefinder.com/tunes/161974
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

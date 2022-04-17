@@ -1,0 +1,23 @@
+X:151
+T: Der Meierin Sohn
+N: Q0083A
+O: Suedosteuropa, Jugoslawien, Gottschee, Lichtenbach
+N: Viele Verzierungen (Vorschlaege) . Sprechgesang (Tonhoehen angegeben)
+N: in der letzten Zeile. Dritte Zeile = Refrain 
+R: Ballade, Mord, Vergeltung, Heirat
+M: 2/4
+L: 1/8
+K: G
+D2 | G2A2 | _B4cA | d2c_B | A4
+D2 | G2A2 | _B4AG | FGAD | G4z2
+c'c'c'c' | c'c'c'c' | G2AD | G2
+S:https://www.folktunefinder.com/tunes/152183
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord, vergeltung, heirat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

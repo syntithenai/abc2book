@@ -1,0 +1,24 @@
+X: 1
+T:Jackson's Jig
+M:6/8
+L:1/8
+Q:180
+K:D
+D2F E2F|DFA AFA|BAB def|gfg ecA|D2F E2F|DFA AFA|BAB d2e|fdd d2z|
+W: D A7 D G D Em7 A7 D A7 D G A7 D
+D2F E2F|DFA AFA|BAB def|gfg ecA|D2F E2F|DFA AFA|BAB d2e|fdd d2z|
+W: D A7 D G D Em7 A7 D A7 D G A7 D
+fed faf|gbg faf|fed faf|gfg e2g|fed faf|gbg fed|BAB d2e|fee e2f|
+W: D G D D Bm Em7 A7 D G D G E7 A7
+fed faf|gbg faf|fed faf|gfg e2g|fed faf|gbg fed|BAB d2e|fdd d2z|
+W: D G D D Bm Em7 A7 D G D G A7 D
+S:https://www.folktunefinder.com/tunes/167122
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ja/Jacksons_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

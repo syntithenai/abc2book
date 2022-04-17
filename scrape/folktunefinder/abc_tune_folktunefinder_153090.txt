@@ -1,0 +1,35 @@
+X:1
+T:Der pascherte Zwoaschritt
+C:traditionell
+R:volkstanz
+A:Steiermark
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material von Eberhard Kummer aus dem besitz von Hubert Sielecki: Kopiertes hand-geschriebenes loses blatt, gemeinsam mit: "Langaus", "Der Rongger", "Laendler in D (O.Oe., 1779)", "Leirer - Tanz"(Anna Ecker), "Leirer Tanz"(Blade Buam), "4.Dt. Tanz (W.A.Mozart)"
+N:dort ganz in C (und ab takt 8 in G), einstimmig
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+L:1/8
+M:2/4
+K:C
+(Gc) (Bd) | (ce) (Gc) | (Bd)(GB) | (ce) d/c/B/A/ |
+(Gc) (Bd) | (ce) (Gc) | (Bd)(GB) | c2 z \
+g/g/ |
+"<(#) "(g2e) g/g/ | (g2e) g/g/ | gfdf | edc g/g/ |
+(g2e) g/g/ | (g2e) g/g/ | gf dB | c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153090
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/pascherter_zwoaschritt.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

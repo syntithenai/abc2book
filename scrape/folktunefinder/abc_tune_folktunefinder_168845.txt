@@ -1,0 +1,31 @@
+X: 1
+T:Joy Of My Life
+M:6/8
+L:1/8
+Q:220
+C:Traditional Arr. Diekoff
+S:O 26
+R:Jig
+N:First in set  with "Kesh Jig" and "Blackthorne Stick
+Z:
+K:G
+|:"G"GFG  "D"AGA|"Em"Bee "D"dBA|"G"BAB G2 B|"Em"AGE E2 D|!
+"G"GFG "D"AGA|"Em"Bee "D"dBA|"G"BAB G2 B|1"D"AGF "G"G2 D:|
+|2"D"AGF "G"G2f||!
+|:"G"gag "D"fgf|"Em"efe "D"dBA|"Em"Bee ede|"Em"Bed e2 f|!
+"G"gfg "D"agf|"Em"gfe "D"dBA|"G"BAB G2 B|1"D"AGF "G"G2  f:|
+|2"D"AGF "G"G4||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/168845
+S:http://www.blackflute.com/music/tunes/jigs/joy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

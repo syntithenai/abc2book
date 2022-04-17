@@ -1,0 +1,16 @@
+X:1
+T:Fox Hollow Song
+M:4/4
+L:1/4
+K:G
+ z3 D| D3/2 D/2 G G| B B B3/2 B/2| B E E E| E3 E/2E/2| C/2 C3/2 C C|\
+ G/2 G2 z/2 G/2E/2| E D D/2 D3/2| D2- D/2 z/2 D| D2 G G| B B2- B/2B/2|\
+ B E E E| E3 E/2E/2| C C C C| G G2 G/2E/2| E D D E| D3 z|
+S:https://www.folktunefinder.com/tunes/159093
+S:http://back.numachi.com:8000/dtrad/abc/FOXHOLLO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

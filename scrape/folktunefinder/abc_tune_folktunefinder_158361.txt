@@ -1,0 +1,36 @@
+X:1
+T:Fleckerlteppich Boarische
+C:traditionelle Melodien, zusammengestellt von S.Wascher 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+G2 |\
+BGBG cAcA | d2d2 B3g | f3ed2c2 | edBdG4 |
+BGBG cAcA | d2d2 B3g | fgfe dcBA | G2B2G2 :|
+|: B2 |\
+GGGB d2d2 | GGGB d2ed | d2c2 c2dc | c2B2B4 |
+GGGB d2d2 | GGGB d2ed | d2c2 c2dc | B2d2B2 :|
+K:C
+|: z2 |\
+c2e2 g2c'2 | b6c'2 | b3a g2f2 | e2G2 c2e2 |
+G2c2 e2g2 | f2G2 B2d2 |1 G2Bd g2f2 | e2G2 c2e2 :|\
+                         [2 G2Bd g2B2 | c2e2c2 ||
+K:G
+|: G2 |\
+dddG B2B2 | dddG B2cB | B2A2 A2BA | A2G2G4 |
+dddG B2B2 | dddG B2cB | B2A2 A2BA | G2B2G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/158361
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/fleckerlteppich.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

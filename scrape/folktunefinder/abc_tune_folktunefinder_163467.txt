@@ -1,0 +1,20 @@
+X:1
+T:Harvest Home
+R:hornpipe
+C:Syracuse session setting
+L:1/8
+M:4/4
+K:D
+AF|"D"DAFA DAFA|defe dcBA|"A"eAfA gAfA|(3efe (3dcB (3ABA (3GFE|
+"D"DAFA DAFA|defe dcBA|"A"eAfA gece|"D"d2 "G"dc "D"d2:|
+cd|"A"e>A (3AAA "D"f>A (3AAA|"G"gA "D"fA "A"e>A (3AAA|eAfA gAfA|(3efe (3dcB (3ABA (3GFE|
+"D"DAFA DAFA|defe dcBA|"G"eAfA "A"gece|"D"d2 dc d2:|
+S:https://www.folktunefinder.com/tunes/163467
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:hornpipes:1_harvest_home.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

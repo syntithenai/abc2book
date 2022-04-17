@@ -1,0 +1,39 @@
+X: 1
+T: John Kimmel's Accordion Fantasy
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|: d2d'>b (3afd a>g | (3fff f>e d>cB>A | B>c(3dcB (3Add (3dcd | (3fed (3Bcd (3cBA (3cBA | 
+d2d'>b (3afd a>g | (3fff f>e d>cB>A | B>c(3dcB (3Adf (3agf |1 (3gec (3ABc d2(3ABc :|2 (3gec (3ABc d3f |]
+K:A
+|: e3f a2a>f | e>fe>c B>AF>A | E>FA>B c>fe>c | c>BB>A B2(3Bcd | 
+e3f a2a>f | e>fe>c B>AF>A | E>FA>B c>fe>c |1 B>A(3BcB A2(3Bcd :|2 B>A(3BcB A2(3abc' |]
+K:D
+|: d'>b(3afd (3d'af (3afd | g4 f3d | B>c(3dcB (3Add (3dcd | (3fed (3Bcd (3cBA (3cBA | 
+d'>b(3afd (3d'af (3afd | g4 f3d | B>c(3dcB (3Adf (3agf |1 (3gec (3ABc d2(3abc' :|2 (3gec (3ABc d2f>B |]
+K:Bm
+|: B>f(3dcB f>dB>f | g>fe>f g>fe>g | f>Bc>g g2f2 | f>Bc>g g2f2 | 
+(3bbb (3bbb b>ag>f | (3gfe c>e (3gfe c>e | (3fff f>g f>ec>d |1 B>bf>d B2b2 :|2 B>bf>d B>AB>c |]
+K:D
+|: d2d>e f2f>g | a2a>b a>fe>d | d'2b2 a>fe>d | B>c(3dcB e>cB>A | 
+d2d>e f2f>g | a2a>b a>fe>d | d'2b2 a>fe>d | (3Bcd e>c d>AB>c :|
+|: d4 d'3c' | c'2b4 (3def | a4 f3d | e2c'>b (3aba (3gec | 
+d4 d'3c' | c'2b4 (3def | a>bc'>b (3aba (3gec |1 d2d>c d2B>c :|2 d2d>c d4 |]
+|: (3fff f>d e>df>e | (3dfa (3d'aa b>c'(3d'c'b | (3afd (3Adf (3baf (3dfd | (3ece c'>b (3aba (3gfe | 
+(3fff f>d e>df>e | (3dfa (3d'aa b>c'(3d'c'b | a>g(3fed (3cBA (3GFE |1 (3DFG (3ABc (3dAB (3cde :|2 (3DFG (3ABc d4 |]
+[| a>g(3fed (3cBA (3GFE | (3DFG (3ABc d2d'2 |]
+S:https://www.folktunefinder.com/tunes/168297
+S:http://www.thesession.org/tunes/display/8830
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key B
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

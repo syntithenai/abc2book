@@ -1,0 +1,19 @@
+X:1
+T:French Club
+M:6/8
+L:1/8
+K:G
+"G"d2 Be2 B | dBG DGB | d2 B edB | "C"cdB c2 A |!
+"D"DFA cBc | d^cd f2 e| |1"D" d^cd ed=c | "G"dBG "D"DGB:|]!
+|2 ded cBA | "G" GBd g2 d|] "G"g2 d "D" fed | "C" =cde "G" d2 g | "D" faa def |!
+"G" gbb def | g2 d "D(Bm)" fed | "C"cde "G" d2 g |"D" faa def |1"G"gdB GBd:|2 "G" gdB GAB|]!
+S:https://www.folktunefinder.com/tunes/159338
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/FrenchClub.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/FrenchClub.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

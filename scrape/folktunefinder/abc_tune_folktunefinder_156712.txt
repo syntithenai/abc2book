@@ -1,0 +1,27 @@
+X: 1
+T: the Fairy Cobbler
+B: O'Neill's 252
+N: "With spirit"
+N: "Collected by F.O'Neill"
+N: Adjusted to 32 bars by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Gm
+(d/c/) \
+| "Gm"B2G "F"A2F | "Eb"G2F "C7"D2=E | "F"F2=E "C7"F2G | "F"F3 "D7"d2c \
+| "Gm"BAG "D7"AG^F | "Gm"G2=F "Cm"DEC | "D7"D=E^F "Cm"G2G | "Gm"G3 z2 :|
+D \
+| "Gm"G2G B2c | d2c f2d | "F"c2A F2A | c3- "D7"c2A \
+| "Gm"G2G B2c | d2g g2=e | "Bb"f2d B2c | "D7"d3 "d.C."z2 |]
+S:https://www.folktunefinder.com/tunes/156712
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j32/FairyCobbler_Gm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/j32/FairyCobbler_Gm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

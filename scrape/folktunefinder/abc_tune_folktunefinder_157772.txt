@@ -1,0 +1,23 @@
+X:1
+T:Les Filles de St. Nicolas
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+B2 G2 | B3/2A/2 Bc | AA GA |\
+B2 G2 | B3/2A/2 Bc | A3D :|
+|:\
+d2 A2 | d3/2c/2 BA | GG/2^F/2 GA |\
+B2 AB/2c/2 | d3/2c/2 BA | G4 :|
+S:https://www.folktunefinder.com/tunes/157772
+S:http://simonwascher.info/TradArchiv_bourree_2/les_filles_de_st._nicolas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

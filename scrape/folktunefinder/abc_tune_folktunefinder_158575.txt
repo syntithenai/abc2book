@@ -1,0 +1,24 @@
+X:2
+T:FLOWERS OF LIMERICK -- REEL.
+R:reel
+Z:20020507 John Walsh <walsh:mat:h.ubc.ca>
+Z:version of The Bunch of Keys
+M:C|
+L:1/8
+K:G
+u(GF)|(DG)GF G2 G_B|A=FcF dFcF|(D=F)FE F2 (FG)|AFcF dFcF|
+D2 (GF) G2(GA)|_BABc d^cde|=fefd cAFA|_BdcA G2:|
+|:u[G2G,2]|[G3G,3] g gfga|_bgag bgag|F3 =f {g}fefg|afgf afgf|
+G3 g (gfg).a|_bgag bgag|{g}=fefd cAFA|_BdcA G2:|
+S:https://www.folktunefinder.com/tunes/158575
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/walsh:math.ubc.ca/FlowersOfLimerickReel.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/FlowersOfLimerickReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/walsh%3Amath.ubc.ca/FlowersOfLimerickReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

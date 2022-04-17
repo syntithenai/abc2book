@@ -1,0 +1,35 @@
+X:1
+T:Fougre
+E:12
+Z:Roger Ngaret (94-95)
+R:marche
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+Q:1/4=150
+"G"G2A2 B4 G4 A2A2 | G2A2 B4 G4 A2A2 | G2A2 B4 G4 A4 |:
+B4 B2A2 B2c2 d4 :: B2B2 B2d2 "D"c2B2 A4 | A2B2 c2B2 A4 G4 :|
+%%rm
+%%rm  La fougre est mre      ]
+%%rm  Il faudra la cueillir    ]
+%%rm  Il faudra la cueillir    ] bis
+%%rm
+%%rm  Toujours en reculant,    (N fois)
+%%rm  Jamais en avanant
+%%rm
+%%rm  Sassons la farine o gu  ]
+%%rm  Sassons la farine        ] bis
+S:https://www.folktunefinder.com/tunes/159013
+S:http://termen.free.fr/danses/ploermel/Fougere.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

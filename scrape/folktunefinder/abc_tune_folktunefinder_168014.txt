@@ -1,0 +1,29 @@
+X: 3
+T:Old Taylor, Ducklington 2
+M:4/4
+L:1/8
+A:Ducklington
+P:A(AB3C3)2(AB3D3)A
+K:D
+P:A
+|: A2A>G  F>GA2| G2F>G  E>FD2 |A2A>G F2FB  |A>GF>E D4:|
+P:B
+D>EF>G A2A2|d>cd>B A2d2|B3A GFGA  | B4 A2|
+P:C
+d>c|B2G2   G>AB>G|A2F2   F>GA>F|G2E2  E>FG>E|F2D2 D2A>G|\
+F3D    E2C2  |D4 D2:|
+P:D
+d3c    B4    |G4     G3A   |B3G   A4    |F4   F3G  |\
+A3F    G4    |E4     E3F   |
+G3E   F4    |D4   D2A>G| F3D    E2C2  |D4     D4   |]
+S:https://www.folktunefinder.com/tunes/168014
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ducklington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ducklington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ducklington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

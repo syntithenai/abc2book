@@ -1,0 +1,30 @@
+X: 1
+T: Kolomeike
+O: Ukraine
+B: Kammen v.1 #21 p.23
+M: 2/4
+L: 1/16
+%%slurgraces 1
+K: Dm
+"A"\
+|: "Dm"{a=b^c'}d'2 [a4f4] [a2f2] \
+|  "Gm"[g2e2][g2d2]   "A7"[a3^c3][ge] \
+|1 "Dm"[f2d2][e2^c2]  "A7"[f2d2][g2e2] \
+|  "Dm"[a2f2]z2          k[a4f4] \
+:|2"Dm"[f2d2][f2d2A2] "A7"[e2^c2G2][e2c2G2] \
+|  "Dm"[d2A2F2]z2         [d2A2F2]z2 |]
+"B"\
+|: "A7"e2A2  a3g \
+|  "Dm"f2ef  gfed \
+|  "A7"^c2de A2=Bc \
+|1 "Dm"d^cde f2d2 \
+:|2"Dm"d2z2 k[d2AF2]z2 |]
+S:https://www.folktunefinder.com/tunes/170459
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kolomeike2_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ukraine/tune/Kolomeike2_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:16
+T:The Fair Maid of Whickham
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+g | G2G GAB | cdc "tr"B3 | cBc Adc |
+BGG G2g | G2G GAB | cdc "tr"B3 |
+cBc Adc | BGG G2 :: B | cec BdB |
+A2A F2F | G2G GAB | cdc "tr"B3 | cec BdB |
+AcA F2f | gfg ABc | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/156694
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Fair_Maid_of_Whickham.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Fair_Maid_of_Whickham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

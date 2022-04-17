@@ -1,0 +1,22 @@
+X: 1
+T: Duncan Gray
+B: CDS Graded No.18
+R: March
+M: C
+L: 1/4
+K: G
+[| "G"DG FG | "D7"AB F2 | "G"G2 "D7"A>c | "G"BG G2 \
+|  "G"DG FG | "D7"AB F2 | "G"G2 "D7"A>c | "G"BG G2 |]
+[| "G"Bd  dc/B/ | "Am"cc cA/B/ | c>B "A7"AG | "D7"FE D2 \
+|  "G"dB "D7"cA | "G"BG "D7"A2 | "G"G2 "D7"A>c | "G"BG G2 |]
+S:https://www.folktunefinder.com/tunes/154953
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/m16/DuncanGray_G16.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/m16/DuncanGray_G16.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:17
+T: Die Unbestechliche
+N: Q2144B
+O: Mitteleuropa, Niederlande, flaemisch
+N: Melodie aus Strichnotation uebertragen. Pausen an den Zeilenenden
+N: weggelassen. Ursprung der Ballade
+R: Ballade, Liebes - Handel
+M: 3/4
+L: 1/4
+K: D
+d | _B2A | d2e | dAG | A2
+=F | A2=F | D=FG | A2
+d | _B2A | d2e | dAG | A2
+=F | A2=F | D=FG | A2
+d | _B2A | d2e | dAG | A2
+=F | A2=F | D=FG | A2
+d | =f2d | d2A | =F2E | D2
+d | =f2d | d2A | =F2E | D2
+S:https://www.folktunefinder.com/tunes/152970
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, liebes - handel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

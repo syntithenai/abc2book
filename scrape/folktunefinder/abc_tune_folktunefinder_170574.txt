@@ -1,0 +1,52 @@
+X:1
+T:Kritikos Syrtos (Syrto Haniotikos)
+T:Ta Mavra Rukha
+C:Trad.
+O:Greece
+A:Khania in western Crete
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=120
+M:4/4
+L:1/8
+K:F
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 2
+%%MIDI chordprog 24
+%%MIDI chordvol 50
+%%MIDI bassprog 24
+%%MIDI bassvol 50
+%%MIDI gchord fc2cf2c2
+|:"Gm"G8|G c2 B c2 BA|G B2 A B2 AG|"F"F B2 A Bc AF|"Gm"GABc "C"dccz|
+"Gm"   G c2 B c2 BA|G B2 A B2 AG|"F"F B2 A Bc AF|"Gm"G3F EF G2 \
+%%MIDI program 1 54
+ :|
+W:
+W:Akh, oso varun ta sidhera aman, aman
+W:         oso varun ta mavra rukha.
+W:Akh, etsi ta foresa kegho, aman aman
+W:         ya mya aghapi pu kha.
+W:Akh ikhya, ke isterithika aman aman
+W:         thimume ke stenazo.
+W:Akh, anikse yis mesa na vo, aman aman
+W:         kosmo na min kitazo.
+W:
+W:
+W:
+W:Arrangement Copyright (C) 1999, 2002 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/170574
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/KritikosSyrtos.abc
+S:http://people.csail.mit.edu/jaffer/Music/KritikosSyrtos.abc
+S:http://voluntocracy.org/Music/KritikosSyrtos.abc
+S:http://www.voluntocracy.org/Music/KritikosSyrtos.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

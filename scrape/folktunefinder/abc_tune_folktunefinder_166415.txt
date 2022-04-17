@@ -1,0 +1,22 @@
+X: 1
+T: In the Bleak Midwinter
+R: jig (originally 4/4)
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+[| "F"A2B c2A | "Dm"G3 F3 | "Gm"G2A     G2D | "C7"G6 \
+|  "F"A2B c2A | "Dm"G3 F3 | "Gm"G2A "C7"G2F |  "F"F6 |]
+[|"Bb"B2A B2c | "Dm"d3 A3 |  "F"c2A "Bb"G2F | "C7"E6 \
+|  "F"A2B c2A | "Dm"G3 F3 | "Gm"G2A "C7"G2F |  "F"F6 |]
+S:https://www.folktunefinder.com/tunes/166415
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/xmas/InTheBleakMidwinterJ_F.abc
+% Rhythm Jig (originally 4/4)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

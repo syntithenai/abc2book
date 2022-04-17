@@ -1,0 +1,27 @@
+X:3
+T:IX. QUINTUS. Daintie fine Bird
+S:Quintus
+T:From The First Set of Madrigals and Mottets of 5.Parts: 
+T:apt for Viols and Voyces. 1612.
+C:Orlando Gibbons
+N:Original clef, treble
+%%MIDI gchordoff
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C
+L:1/2
+K:A min
+z c3/2 B// A// e3/2 d// c// B c/ A/> B/ c/ B/ A/ ^G
+S:https://www.folktunefinder.com/tunes/159479
+S:http://www.laymusic.org/music/gibbons/bird/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

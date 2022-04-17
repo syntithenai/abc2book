@@ -1,0 +1,35 @@
+X: 1
+T: Masters in This Hall
+T: the Female Saylor
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:      Playford Ball
+N:      Barnes
+N:      Recu\"eil de Contredances (Feuillet)
+M: 6/8
+L: 1/8
+F:http://jc.tzo.net/~jc/music/abc/England/jig/FemaleSaylor.abc   2004-12-22 21:59:00 UT
+K: Gm
+|: "Gm"G2d d2c | B3 "(Cm)"c3 | "Gm"d2c B2A | B2A "D7"G2^F \
+|  "Gm"G2d d2c | B3 "Cm"c3  | "D7"d2c B2A | "Gm"G6 :|
+|: "Gm"b2a "D7"g2^f | "Gm"g3 d3 | "Gm"b2a "D7"g2^f | "Gm"g3 "G7"d2=f \
+|  "Cm"e2c "D7"d2A | "Gm"B2G B2c |1 "D7"d2d ^f2f | "Gm"g3 "D7"a3 :|2 "D7"d2d A2G | "Gm"G6 |]
+S:https://www.folktunefinder.com/tunes/157523
+S:http://jc.tzo.net/~jc/music/abc/England/jig/FemaleSaylor.abc
+S:http://jc.tzo.net/~jc/music/abc/England/jig/FemaleSaylor.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/FemaleSaylor.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/MastersInThisHall.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/FemaleSaylor.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MastersInThisHall.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/anon/FemaleSaylor.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/anon/MastersInThisHall.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/FemaleSaylor.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/MastersInThisHall.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

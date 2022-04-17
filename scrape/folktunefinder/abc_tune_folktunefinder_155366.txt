@@ -1,0 +1,33 @@
+X: 3
+T: The Earl of Mansfield
+C: J. McEwan ()
+M: 2/4
+L: 1/8
+R: march
+K: A Major
+|: c/B/ |\ 
+A>B AE | A/B/c/d/ ed/c/ | B>c BE | G/A/B/c/ dc/B/ | 
+A>B AE | A/B/c/d/ ed/c/ | dB GE | A3 :|
+|: e/d/ |\ 
+c>d cE | A/B/c/d/ ed/c/ | B>c BE | G/A/B/c/ dc/B/ |
+c>d cE | A/B/c/d/ ed/c/ | dB GE | A2 A :|
+|: e/d/ |\ 
+cA Ae/d/ | cA AB/c/ | dB GB |
+[1 GE Ee/d/ | cA Ae/d/ | cA AB/c/ | dB GB | A3 :|
+[2 GE Ec/B/ | A>B AE | ABcd e2 dc | dB GE | A3 |]
+As said previously, I feel that 4/4 (or 2/4) suits these marches much better than the density (blackiness) of transcribing them in 2/4, but that was the 'old' way.  You could also change the meter, K:, to any of these in the ABCs, to 4/4 or 2/4, and set the value length, L:, as 1/4, 1/8 or 1/16...  For this transcription in A, as one example, you could change it so:
+M: 4/4
+L: 1/4
+R: march
+K: A Major
+S:https://www.folktunefinder.com/tunes/155366
+S:http://www.thesession.org/tunes/display/8052
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

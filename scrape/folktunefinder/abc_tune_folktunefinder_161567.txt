@@ -1,0 +1,41 @@
+X:1
+T:God Bless America
+C:Irving Berlin (1939)
+N:Tune was written in the 1920s
+N:but not published until 1939
+M:4/4
+L:1/4
+Q:1/4=80
+K:D
+|"D"D4| C2 "A#dim"B,2|"A,7"C3/2 B,1/2 A,2-|A,4|E4| \
+w:  God bless     A-     mer- i-   ca, *  Land \
+  D2   E2|"D"F4-|"D7"F2    E     F|"G"G2   B,2-|B,2 G2| \
+w:that I     love,   *     Stand be-  side her,*  and \
+"D"F2-   F2|A,2 "Bm"D       E|"E9"F2     E    D| \
+w: guide *  her,   Through the   night, with the \
+"A7"E2     D    C|D4-| \
+w:  Light, from a-bove. \
+"D"D2   C3/2 D/2|"A7"E2     A,2-|   A,2 D3/2 E/2| \
+w: *    From the     moun-  tains, *  to   the \
+"D"F2   A,2-|  A,2 E3/2 F/2|"A7"G2 C2-|   C2 F3/2  G/2| \
+w: prai-ries, *  to   the     o- ceans, *  white with \
+"D"A4-|  A4|"G"B4|"D"A2 "A7"G2|"D"F "F#7"E "Bm7"D2-| \
+w: foam. *     God   bless  A-    mer-   i-     ca, \
+  D2 "Em7"G2|"D"F4|"A7"E4|"D7"A4-|  A4|"G"B4| \
+w:*       my    home   sweet  home. *     God \
+"D"A2 "A7"G2|"D"F "F#7"E "Bm7"D2-|D2 "Em7"G2| \
+w: bless  A-    mer-   i-     ca, *       my \  
+"D"F4|"A7"E4|"D"D4-|  D2 z2||
+S:https://www.folktunefinder.com/tunes/161567
+S:http://everythingdulcimer.com/tab/godblessamerica.abc
+S:http://www.everythingdulcimer.com/tab/godblessamerica.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

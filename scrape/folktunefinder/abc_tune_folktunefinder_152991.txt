@@ -1,0 +1,27 @@
+X:38
+T: Die Brombeerpflueckerin
+N: Q0147D
+O: Osteuropa, Tschechoslowakei, Slowakei, Dt. Proben, Kremnitz,
+N: Vierte und siebte Zeile refrainartig.
+R: Ballade, Verfuehrung, Schwangerschaft
+M: 6/8
+L: 1/8
+K: D
+F | A2AA2B | A2GF2
+A | d2dc2B | G2z3
+c | edBedB | A2dA2
+d | c2BAGA | F2z3
+A | edBedB | A2dA2
+d | c2BAGA | F2z3
+S:https://www.folktunefinder.com/tunes/152991
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, schwangerschaft
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

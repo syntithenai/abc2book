@@ -1,0 +1,27 @@
+X: 10
+%%leftmargin 1.8cm
+%%staffwidth 18.0cm
+T: Lassies of Dunse, The
+I: Lassies of Dunse, TheJ-47Djig
+M: 6/8
+R: jig
+K: D
+f/g/| "D"afd "A"ecA| "D"d2A A2=c| "G"BGB "D"AGF| "A"E2E E2f/g/| \
+      "D"afd "A"ecA| "D"d2A A2G| FDF "A"ECE| "D"D3 D2:|
+|:\
+F/G/| "D"AFA "G"BGB| "D"AFA d2A| "G"BGB "D"AGF| "A"E2E E2 f/g/| \
+      "D"afa "A"geg| "Bm"fdf "A"ecA| "G"B/c/dB "A"c/d/ec| "D"d3 d2:|
+%%text Roaring Jelly  J-47
+%%vskip 6pt
+S:https://www.folktunefinder.com/tunes/163082
+S:http://roaringjelly.org/music/sets/Set35.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set35.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set35.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

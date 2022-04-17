@@ -1,0 +1,20 @@
+X: 1
+T: Hairpin Bend, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:G2B D2B| G3 G2e | d2c ABc | ded cBA |
+G2B D2B| G3 G2e | dcB cBA | G3 G3:|
+|: g3 gfg | a2g fed | efg def | gdc BAG |
+g3 gfg | a2g fed | efg def | g3 g3 :|
+S:https://www.folktunefinder.com/tunes/162880
+S:http://www.thesession.org/tunes/display/1712
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

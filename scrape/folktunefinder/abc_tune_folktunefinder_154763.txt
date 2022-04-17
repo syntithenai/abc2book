@@ -1,0 +1,27 @@
+X: 1
+T:Drunken Tinker, The
+T:Yellow Tinker, The
+R:reel
+N:Played in Gmix or Amix
+D:Kevin Burke: If the Cap Fits
+Z:id:hn-reel-394
+M:C|
+K:Gmix
+DG~G2 DF~F2|DG~G2 dGcF|DGGF D3E|F2AF CFAF:|
+G2dG eGdG|G2dG cAFA|G2dG eGdB|c2AF CFAF|
+G2dG eGdG|eGdG cAFA|dcde fefd|c2AF CFAF||
+K:Amix
+EA~A2 EG~G2|EA~A2 eAdG|EAAG EDEF|G2BG DGBG:|
+A2eA fAeA|~A2eA dBGB|A2eA fAec|d2BG DGBG|
+A2eA fAeA|fAeA dBGB|edef gfge|d2BG DGBG||
+S:https://www.folktunefinder.com/tunes/154763
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drunken_Tinker_The_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/dr/Drunken_Tinker_The_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

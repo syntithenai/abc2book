@@ -1,0 +1,19 @@
+X:1
+T:Gray Goose Polka
+M:4/4
+L:1/4
+K:D
+   "A7"A2 A2 | AABc | "D"d2 f2 | ffgf | "A7"e2 A2 | egfe | "D"d2 f2 | ddcB |
+|: "A7"A2 A2 | AABc | "D"d2 f2 | ffgf | "A7"e2 A2 | egfe \
+ |1 "D"d2 f2 | ddcB :|2 "D"d2 "A7"A2 | "D"d3z ||
+|: "A7"A B/A/ ^G/A/ B/c/ | "D"dAFD | "A7"A B/A/ G E |  "D"A B/A/ F D |
+   "A7"A B/A/ ^G/A/ B/c/ | "D"dAFD | "A7"A B/A/ ^G/A/ B/c/ | "D"dAdz :|
+S:https://www.folktunefinder.com/tunes/162182
+S:http://trillian.mit.edu/~jc/music/abc/mirror/yagelski.com/sbox/music/graygoosepolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

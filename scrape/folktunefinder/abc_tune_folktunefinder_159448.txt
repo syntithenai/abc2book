@@ -1,0 +1,23 @@
+X:1
+T:From Clare to Here
+M:4/4
+L:1/4
+K:C
+ A B| c c d3/2 c/2| B B A3/2 A/2| G G G A| E- D2 B| c/2c/2 c d c| B2 A3/2 A/2|\
+ G G G3/2 A/2| E- D3-| D z E C| D2 D- E| D C A,3/2 B,/2| C2- B,2-|\
+ A,2 E C| D2 D- E| D C E G| A4-| A2 z/2 A/2A/2 B/2| c2 d- c| B3 A/2A/2|\
+ G G G3/2 A/2| E4-| E2 E C| D2 D- E| D C A,3/2 G,/2| A,4-| A,2||
+S:https://www.folktunefinder.com/tunes/159448
+S:http://back.numachi.com:8000/dtrad/abc/CLAREHER.abc
+S:http://back.numachi.com:8000/dtrad/abc/CLARHERE.abc
+S:http://chivalry.com/cantaria/music/clare_to_here.abc.txt
+S:http://sniff.numachi.com/abc/CLARHERE.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CLARHERE.abc
+S:http://www.chivalry.com/cantaria/music/clare_to_here.abc.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

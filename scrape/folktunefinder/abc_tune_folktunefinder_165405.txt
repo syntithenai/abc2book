@@ -1,0 +1,23 @@
+X:1
+T:The Humors of Whiskey
+M:6/8
+L:1/8
+K:C
+ G/2G/2| cGE CEG| Adc BAG| cBc def| edcB-A G/2G/2| cGE| CEG| Adc BAG|\
+ cBc def| ecB c2 G/2G/2| cGE CEG| Adc BAG| cBc def| edc B2 G| cGE CEG|\
+ Adc BAG| cBc def| ecB c2 d| ecd edc| dBc dcB| cBc Adc| BGG G2 G| AFG ABc|\
+ GEF GAB| cBc def| ecB c2||
+S:https://www.folktunefinder.com/tunes/165405
+S:http://back.numachi.com:8000/dtrad/abc/HUMWHISK.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/HUMWHISK.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/HUMWHISK.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/HUMWHISK.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/HUMWHISK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

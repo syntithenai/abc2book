@@ -1,0 +1,22 @@
+X: 1
+P: The Hills of Perth
+C: from Matt Petrie/B. McOwen
+C: arr. T. Traub 4-8-2001
+R: march
+M: 4/4
+L: 1/8
+K: A
+|: af|"A"e2 A2 e3 d|e2 a2 a2 gf|"G"g2 G2 B2 AG|B2 d2 d2 ge|"A"e2 A2 e3 d|e2 a2 a2 gf|"G"g2 e2 e2 dB|"A"A4 A2 :|
+gf|"A"e2 a2 a2 gf|"G"g2 fe "D"a3 f|"G"g2 G2 B2 AG|B2 d2 d2 gf|"A"e2 a2 a2 gf|"G"g2 fe "D"a3 f|"G"g2 e2 e2 dB|"A"A4 A2 ||
+gf|"A"e2 a2 a2 gf|"G"g2 fe "D"a3 f|"G"g2 G2 B2 AG|B2 d2 d2 gf|"A"e2 A2 e3 d|e2 a2 a2 gf|"G"g2 e2 e2 dB|"A"A4 A2 ||
+|: af|"A"e3 A c2 BA|edcd e2 ge|"G"d2 G2 B2 AG|"G"dcBc "E"d2 af|"A"e2 A2 c2 BA |"A"edcd e2 a2 |"G"g2 e2 e2 d2|"A"A4 A2 :|
+|: af|"A"eAce c2 BA|"A"eAce "D"g2 fe|"G"dGBd B2 AG|"G"dGBG "E"f2 ed|"A"eAce c2 BA |"A"e2 a2 a2 gf|"G"g2 e2 e2 d2 |"A"A4 A2 :|
+S:https://www.folktunefinder.com/tunes/164372
+S:http://terrytraub.org/abc/HillsOfPerthR.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

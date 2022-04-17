@@ -1,0 +1,29 @@
+X: 1
+T: Gathering Peascods (in A)
+O: England 1650
+N:
+N: J.Barlow p.22 #27
+N: Barnes (in A)
+N: Playford (in G)
+N: Keller p.38 (in A)
+N: Karpeles p.12 (in A)
+N: Raven p.22 (in A)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: A
+|: z | "A"e2 ee | c>d ee | "D"fe dc | "E7"B3 c | BA AG | "A"A3 :|
+|: A | "E"GE GA | B2 cB | "A"A/B/c BA | "E"G3 G | "B7"FE ~F>E | "E"E3 :|
+|: e | "A"cA AB/c/ | "D"d2 ze | "A"cA AB/c/ | "D"d2 ze  | "A"cA AB/c/ | "D"d>ef e/d/ | "A"cd/c/ "E7"~B>A | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/160606
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/GatheringPeascods_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/GatheringPeascods_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

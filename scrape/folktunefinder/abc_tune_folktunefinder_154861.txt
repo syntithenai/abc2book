@@ -1,0 +1,27 @@
+X:1
+T:Dudacka Polka
+C:traditionell
+R:polka
+A:Tschechische Republik
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+BB/A/ BB/A/ | B/A/B/c/ dd | ee/d/ cc | dd/c/ BB |
+BB/A/ BB/A/ | B/A/B/c/ dd | ee/d/ cc | Bd B2 :|
+|:\
+AA/B/ c/B/c/A/ | BB/c/ d/c/d/B/ | e/d/c/B/ cc | d/c/B/A/ BB |
+AA/B/ c/B/c/A/ | BB/c/ d/c/d/B/ | e/d/c/B/ cA | d/c/B/A/ G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/154861
+S:http://simonwascher.info/TradArchiv_polka/dudacka_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

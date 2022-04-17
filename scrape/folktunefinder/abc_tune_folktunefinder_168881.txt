@@ -1,0 +1,20 @@
+X:1
+T:Jubilate Deo
+M:4/4
+L:1/4
+K:G
+ G2 A2| B G G F| G E D3/2 C/2| B,- C A,2| G2 A2| B G G F| G E D3/2 C/2|\
+ G2 D3/2 D/2| G4| G2 A2| B G G F| B,- C A,2| G2 D3/2 D/2| G4| G2 A2|\
+ G E D3/2 C/2| B,- C A,2| G2 D3/2 D/2| G4| B G G F| G E D3/2 C/2| B,- C A,2|\
+ G2 D3/2 D/2| G2 A2| B G G F| G E D3/2 C/2| B,- C A,2| G4| G2 A2| B G G F|\
+ G E D3/2 C/2| G2 D3/2 D/2| G4| G2 A2| B G G F| B,- C A,2| G2 D3/2 D/2|\
+ G4| G2 A2| G E D3/2 C/2| B,- C A,2| G2 D3/2 D/2| G4| B G G F| G E D3/2 C/2|\
+ B,- C A,2| G2 D3/2 D/2| G4|
+S:https://www.folktunefinder.com/tunes/168881
+S:http://back.numachi.com:8000/dtrad/abc/JUBDEO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

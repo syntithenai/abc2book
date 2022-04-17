@@ -1,0 +1,61 @@
+X:1
+T:Tarentelle : Yann Dour
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:
+T:Introduction
+Q:C6=120
+M:6/8
+L:1/16
+K:G
+A2B2 |: c2d2c2 B4 A2 | "Em"B6 z2 B2c2 | d2e2d2 c4 B2 | "Am"A6 z2 A2B2 ::
+c2d2c2 B4 A2 | "Em"B4 B2 B4 c2 | d2e2d2 c4 B2 |1 "Am"A4 A2 A4 B2 :|2
+A4 A2 A6 |]
+T:Thme (4 fois)
+Q:C6=220
+A4 B2 c2d2c2 | B4 A2 "Em"e6 | e4 d2 c2d2c2 | B2c2B2 "Am"A6 :|
+T:Variation No 1
+A2B2c2 "D"d2c2B2 | A2B2A2 "G"G6 | B2c2d2 e4 d2 |
+c4 B2 "D"A6 | A2B2c2 d2c2B2 | A2B2A2 "G"B4 G2 |
+B2c2d2 e4 d2 | c4 B2 "D"A6 :| A2B2c2 d2c2B2 | A2B2A2 "G"G6 |]
+T:Variation No 2
+[G6e6] [G6B6] | [G6e6] "D"[F6d6] | [F6A6] [F6d6] |
+A2B2c2 "G"[G6d6] | [G6B6] [G6e6] | [G6B6] "D"[F6d6] |
+[F6A6] [F6d6] | c2B2A2 "G"[G6B6] :|
+T:Variation No 3
+B2c2d2 e4 d2 | B4 G2 "D"[A4d4] [A2d2] | 
+[A6d6] [A4c4] [A2c2] | [A6c6] "G"[B6d6] :|
+T:Variation No 4
+B2c2d2 e2d2c2 | B2c2d2 "D"d2c2B2 | A2B2c2 d2c2B2 |
+A2B2c2 "G"e2d2c2 | B2c2d2 e2d2c2 | B2c2d2 "D"d2c2B2 |
+A2B2c2 d2c2B2 | A2B2A2 "G"G6 :|
+B2c2d2 e2d2c2 | B2c2d2 "D"d2c2B2 | A2B2c2 d2c2B2 |
+A2B2c2 "G"e2d2c2 | B2c2d2 e2d2c2 | B2c2d2 "D"d2c2B2 |
+A2B2c2 d2c2B2 | A2B2A2 "G"G6 :|
+T:Variation No 5
+B2c2d2 "Em"e2d2c2 | B2c2d2 "Am"d2c2B2 | A2B2c2 "D"d2c2B2 |
+A2B2c2 "G"e2d2c2 | B2c2d2 "Em"e2d2c2 | B2c2d2 "Am"d2c2B2 |
+A2B2c2 "D"d2c2B2 | A2B2A2 "G"G6 :|
+T:Variation No 6
+g4 g2 g2g2g2 | g2g2g2 "D"e2f2f2 | f2f2e2 e2f2f2 | f2f2e2 "G"d6 :|
+g4 g2 g2g2g2 | g2g2g2 "D"e2f2f2 | f2f2e2 e2f2f2 | f2f2e2 "G"d6 :|
+T:Variation No 7
+[G6B6] [G6e6] | [G6B6] "D"[F6d6] | [F4A4] [F2A2][F4d4] [F2c2] |
+ z4 [F2A2] "G"[G4e4] [G2d2] | z4 [G2B2] [G4e4] [G2d2] | 
+z4 [G2B2] "D"[F4d4] [F2A2] | z4 [F2A2] [F6d6] | [F6c6] "G"[G6B6] :|
+T:Variation No 8
+d4 d2 d2B2G2 | d2B2G2 "D"F4 A2 | c4 c2 c2A2F2 |
+c2A2F2 "G"G6 | d4 d2 d2B2G2 | d2B2G2 "D"F2A2c2 |
+c2A2F2 c2A2F2 | c2A2F2 "G"G6 :|
+S:https://www.folktunefinder.com/tunes/166446
+S:http://termen.free.fr/danses/autres/TarentelleYannDour.abc
+% Titles Over ten titles
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

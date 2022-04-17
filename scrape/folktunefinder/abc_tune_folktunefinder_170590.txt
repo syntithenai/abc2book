@@ -1,0 +1,23 @@
+X: 1
+T: Krzyzok
+O: Poland
+S: handwritten MS from Mandala
+M: 3/4
+L: 1/8
+K: G
+"A slow"|: "G"(3DEF G2 G2 | "C"GF E2 E2 | "D7"DF A2 A2 |1,3 "G"AG B4 :|2,4 "G"AB G4 :|
+[K:C=f]\
+[M:2/4]\
+"B fast"|: "C"GA/B/ cc | "F"cB AA | "G7"GB dd |1,3 "C"dc e2 :|2,4 "C"de c2 :|
+S:https://www.folktunefinder.com/tunes/170590
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Krzyzok_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Poland/tune/Krzyzok_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

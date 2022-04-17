@@ -1,0 +1,24 @@
+X:1
+T:Garster's Dream
+R:Jig
+O:Shetland
+M:6/8
+Q:3/8=120
+K:G
+D|\
+G2B BGB|cdc BAG|FGA ABA|AdB AFD|\
+G2B BGB|cdc BAG|F2E DEF|G3 G2:|*
+|:d|\
+gag gdB|AcB AGE|gag gdB|ded def|\
+gag gdB|AcB AGE|G2E DEF|G3 G2:|
+S:https://www.folktunefinder.com/tunes/160559
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/GarstersDream.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/jig/GarstersDream.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

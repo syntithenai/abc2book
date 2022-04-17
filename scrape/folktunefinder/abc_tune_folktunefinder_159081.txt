@@ -1,0 +1,27 @@
+X: 1
+T: Fourth Floor, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+| dddf addd | fded ddfd | eccc ABcd | eaaf gece \
+| dddf addd | fded ddfd | eccc ABcd | eddc dBAB \
+| dddf addd | fded ddfd | eccc ABcd | eaaf gece \
+| dddf addd | fded ddfd | eccc ABcd | eddc d3 f \
+| fddd BdAd | fddd Adfa | eccc ABcd | eaaf gece \
+| eddd BdAd | fddd Adfa | eccc ABcd | eddc d3 f \
+| addd BdAd | fddd Adfa | eccc cddd | deee efff \
+| addd BdAd | fddd Adfa | eccc ABcd | eddc d3 e \
+| fA (3AAA BAdA | (3AAA fA (3AAA fA |  eA (3AAA BAeA | (3AAA eA (3AAA eA \
+| fA (3AAA BAdA | (3AAA fA (3AAA fA |  eA (3AAA eaaf | gecA ddde \
+| fA (3AAA BAdA | (3AAA fA (3AAA fA |  eA (3AAA BAeA | (3AAA eA (3AAA eA \
+| fA (3AAA BAdA | (3AAA fA (3AAA fA |  aAgA fAeA | cAeA d4 |]
+S:https://www.folktunefinder.com/tunes/159081
+S:http://www.thesession.org/tunes/display/1948
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 5
+T:New Haven Reel
+M:C|
+L:1/8
+Q:350
+D:The Heart of Cape Breton, Smithsonian Folkways recording
+R:  ((HT70B25M15D0U0))
+K:D
+AB | A2 FE DFAc | defd ecdB | A2 FE DFAF | GBAF EFGB |
+        A2 FE DFAc | defd ecdB | A<B dB A<B A<B  | A<FEF D2 :|
+fg | afaf dfaf | gfge cefg | afaf dfaf | e2 (3dcB A2 |
+fg | afaf dfaf | gfge cefg | afge fdec | dBAF D2 :|
+S:https://www.folktunefinder.com/tunes/161335
+S:http://fredmusic.pbwiki.com/f/Hinnons_medley2.abc
+% Rhythm ((ht70b25m15d0u0))
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:10
+T:What Child is This
+C: William C. Dix / traditional 16th century English melody (Greensleeves)
+M:6/8
+L:1/8
+Q:1/4=88
+%%staves [(1 2) (3 4)]
+K:G
+V:1 clef=treble
+E | G2 A B>c B | A2 F D>E F | G2 F F>^D E | F3 B,2 E |
+S:https://www.folktunefinder.com/tunes/157994
+S:http://www.guitarnut.com/folktablature/jsachristmas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

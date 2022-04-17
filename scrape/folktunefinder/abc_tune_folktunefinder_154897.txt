@@ -1,0 +1,24 @@
+X: 1
+T: the Duke of Gordon's Birthday
+C: Marshall
+R: strathspey
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: G
+|: B \
+| "G"G>D GD GB g>B "D7"A/A/A A>B \
+| "G"G>D GD Gc B>A "G"G/G/G G :|
+|: d \
+| "G"g>a b>g "(D)"d/d/d d2 | "G"g>a b>g "C"e/e/e e>f \
+| "G"gG A>B "G"G/G/G G :|
+S:https://www.folktunefinder.com/tunes/154897
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Nathaniel_Gow/DukeOfGordonsBirthday.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/William_Marshall/DukeOfGordonsBirthday.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T:Haste To The Wedding
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+S:John and Dorothy Donaldson
+Z:Third in set with Sid Chalmers and Muckin in Geordie's Byer
+K:D
+|:"D"AFA Adf|"A"ede fdB|"D"AFA AGF|"A"GFG EFG|
+"D"AFA Adf|"A"ede fdB|"D"AFA faf|"A"edc "D"d3:|!
+|:"D"afa afa|"G"gbb bag|"D"faa agf|"A"gfg efg|
+"D"afa faf|"G"ede fdB|"D"AFA faf|"A"edc "D"d3:|
+% Output from ABC2Win  Version 2.1  on 3/4/98
+S:https://www.folktunefinder.com/tunes/163533
+S:http://www.blackflute.com/music/tunes/jigs/haste.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

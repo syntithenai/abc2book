@@ -1,0 +1,23 @@
+X: 3
+T: Flowers Of Edinburgh, The
+M: 4/4
+L: 1/8
+R: reel
+K: G Major
+|: GE |\
+D2 DE G2 GA | BGBd cBAG | FGFE DEFG | AFdF E/F/E G/F/E |
+D3 E G3 A | BG B/c/d efge | dcBA GFGA | B2 G2 G2 :|
+|: d2 |\
+g2 g2 gbag | f^efd f/g/a gf | e^def gfe=d | B2 e2 e2 g/f/e |
+dBGB d4 | e^def g2 fe | dcBA G2 F/G/A | B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/155706
+S:http://www.thesession.org/tunes/display/2549
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

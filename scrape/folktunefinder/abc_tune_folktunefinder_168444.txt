@@ -1,0 +1,22 @@
+X:0468
+T:"Johnny Fill Up The Bowl"         (air)         0468
+C:after Chief F. O'Neill
+C:spirited
+Q:1/4=130
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:C
+"_vb"A/2G/2|E2A A2B|c2B c2A|G3-G2E|G3-G2A|E2A A2B|c2B c2d|e3-e2c|e3-e2(c/2d/2)|
+e2e edc|d2d d2B|c2c cBA|B2B B2(c/2d/2)|e2zd2z|c2zB2z|EAA A2^G|A3-A2|]
+S:https://www.folktunefinder.com/tunes/168444
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0468-JohnnyFillBowl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

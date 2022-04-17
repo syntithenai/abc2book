@@ -1,0 +1,20 @@
+X: 1
+T: Ki Hivshilu Eshkolot [C]
+O: Israel
+D: Moshiko "Israeli Folk Dance Party"
+M: 2/4
+L: 1/8
+K: C_B=e_A_d
+"A"|: "C"gg gf | ef g2 :|\
+"B"|: "C"cc cf | "Bbm"ed"C"c2 :|\
+"C"|: "C"cc cc | c2 "Bbm"B2 | "C"cc "(Bbm)"df | "Bbm"ed "C"c2 :|
+"D"|: "C"gg "Bbm"ff | "C"ee "Bbm"d/c/B | "C"cd "(Bbm)"fe | "Bbm"f2 f2 \
+   |  "C"gg "Bbm"ff | "C"ee "Bbm"d/c/B | "C"cd "(Bbm)"fe | "Bbm"d2 "C"c2 :|
+S:https://www.folktunefinder.com/tunes/169743
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/KiHivshiluEshkolot_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

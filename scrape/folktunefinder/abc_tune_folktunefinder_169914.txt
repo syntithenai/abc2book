@@ -1,0 +1,24 @@
+X: 1
+T: The Kilt is my Delight
+O: Trad
+R: reel
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: D
+dB \
+| "D"~A2AB "Bm"ABdf | "Em"edef "A7"edBd | "D"~A2AB "(Bm)"ABdf | "A7"edef "D"d2 :: ef | "G"g2ag "D"f2af |
+| "Em"edef "A7"edBd \
+|1 "G"g2ag "D"f2af | "Em"edef "A7"a2 \
+:|2 "D"~A2AB "(Bm)"ABdf | "A7"edef "D"d2 |]
+S:https://www.folktunefinder.com/tunes/169914
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/KiltIsMyDelight_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

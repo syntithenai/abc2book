@@ -1,0 +1,24 @@
+X:1
+T:The Gold Ring
+M:6/8
+L:1/8
+R:jig
+K:D
+FE |: DB,A, DFA | d3 ecA | B3 AFD | EDE FDB, |
+A,3 DFA | dfd ecA | B/c/dB AFE |1 FDC DFE :|2 FDC DdB |:
+AFA dfa | bgb afd | gbg faf | ede fdB |
+A3 dfa | bgb afd | B/c/dB AFA |1 Bdc dcB :|2 Bdc dfe |:
+dFF AFE | DFE DFA | d3 ede | fdB B2c |
+dFF AFE | DFE DFA | dfd e3 |1 fdc dfe :|2 fdc dcB |:
+AFA d3 | BAB dAF | DEF E3 | FDB, B,dB |
+AFA cdd | B3 dAF | DEF EDE |1 FDC DdB :|2 FDC D |]
+S:https://www.folktunefinder.com/tunes/161697
+S:http://music.gordfisch.net/tradmusic/pub/cache/The_Gold_Ring_242a05.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

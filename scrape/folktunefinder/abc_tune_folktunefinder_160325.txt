@@ -1,0 +1,26 @@
+X: 1
+T: Gan Ainm
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmaj
+|: G Bc |\ 
+d2 d^c de | d2 gf ed | B2 B^A Bc | B2 GB cB |
+A2 A^G AB | c2 A2 F2 | G2 GF GE | D2 DG Bc |
+d2 d^c de | d2 gf ed | B2 B^A Bc | B2 DG BD |
+A2 A^G AB | c/d/c A2 F2 | G2 GB dB | G3 :|
+|: G Bd |\ 
+e2 e^d e=d | c2 d2 e2 | d2 d^c d=c | B2 DG, B,D |
+A2 A^G AB | c2 A2 F2 | G2 GF GE | DG, DG Bd |
+e2 e^d e=d | c2 d2 e2 | d2 d^c d=c | B2 DG, B,D |
+A2 A^G AB | c/d/c A2 F2 | G2 GB dB | G3 :|
+S:https://www.folktunefinder.com/tunes/160325
+S:http://www.thesession.org/tunes/display/8842
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

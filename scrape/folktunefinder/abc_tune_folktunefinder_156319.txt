@@ -1,0 +1,25 @@
+X:1
+T:Erev Ba (D)
+O:Israel
+%Z:John Chambers <jc@trillian.mit.edu>
+M:4/4
+L:1/8
+%F:http://trillian.mit.edu/~jc/music/abc/Intl/program/NEFFA2005/ErevBaTune.abc 2006-09-17 06:56:56 UT
+K:D
+[|"D"A,2D2 C2DF | "Em"E8 | "A7"E2F2 GAF2 | "D"F8 \
+| "D"A,2D2 C2DF | "Em"E8 | "A7"E2F2 GAF2 | "F#7"F8 |
+| "G"G2B2 d3d | cdcB B4 | "Em"E2G2 B3B | "A7"ABAG "F#7"FEDC \
+| "Bm"D4 B,4 | "Em"E4 "A7"EFD2 | "D"D4- "G"D4- | "D"D8 |]
+S:https://www.folktunefinder.com/tunes/156319
+S:http://trillian.mit.edu/~jc/music/abc/Intl/program/NEFFA2005/ErevBaTune.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/program/NEFFA2005/ErevBaTune.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/ErevBaD.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/ErevBaD.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

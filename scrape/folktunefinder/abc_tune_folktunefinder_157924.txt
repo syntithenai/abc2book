@@ -1,0 +1,28 @@
+X: 3
+T:Over the Waterfall
+M:4/4
+L:1/8
+S:Fiddler's Fakebook
+R:Reel
+K:D
+de| "D"f2 (af) "A"gfe(c| "D"de)d(B ABde | f2 (af) "A"gf e2| "D"(ef2) (e
+fe)de|!
+f (af) "A"gfe(c | "D"de)d(B A2) (AB |"C"=c2 c2 B2 A2 |1 "G"G6 de :|2"G"G
+6 FG|!
+|: "D" A2 A2 "G"(BA)(Bd) | "D"ABA(G F2) FG| A2 d2 "A"cd e2 | "D"(e f2) (
+e f2) FG |!
+A2 A2 "G"(BA)(Bd) |"D"ABA(G F2) FG| A2 A2 "A"GF E2 |1"D"D6 FG :|2"D" D6
+|]
+% Output from ABC2Win  Version 2.1 i on 1/21/2006
+S:https://www.folktunefinder.com/tunes/157924
+S:http://internet.cybermesa.com/~keating/music_abc/firefalll.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:1
+T:Kolom
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+L:1/8
+M:C
+K:C
+G | c2 c2 c3 G | ce ge c3 e | ed df fe eg |1 g>f ed e2 c G :|2 g>f ed c2 d>e ||
+ff ef gg d>e | ff ed ec d>e | ff ef gg d>e |1 ff ed c2 d>e :|2 ff ed c3 |]
+S:https://www.folktunefinder.com/tunes/170458
+S:http://user.online.be/volksdans/abc/Kolom.abc
+S:http://user.online.be/~bvanhaverbeke/abc/Kolom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

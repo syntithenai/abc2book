@@ -1,0 +1,35 @@
+X: 1
+T: Epstein Bulgar (v.2)
+R: bulgar, freilach
+Z: John Chambers <jc@trillian.mit.edu>
+S: Rob Mendel <rammsw@email.msn.COM>
+M: 4/4
+L: 1/8
+K: Dm
+A^GA \
+| "Dm"B2 A2 G2 F2 | "A7"E4- EA,^CE \
+| ^G A2 ^G A/G/F F/E/D | "Dm"^G A3- AA ^GA |
+| "Dm"f2 e2 d2 "D7"c2 | "Gm"B2 A2 G3 B \
+| "A7"^GA2G A/G/F F/E/D | "Dm"D4 z :|
+|: ABA \
+| "A"^c3d eABA | "Dm"d3e fAdf \
+| "A7"^GA2G (3AGF (3FED |1 "Dm"^GA3 z :|2"Dm"D4 z || [K:D]
+|: z zA \
+| "D"dz zF Az zG | (3FGA GFE DA _AG \
+| FA BA dF AD | FA, DE FG/F/ ED | "A7"E>F GA FD ED |
+| "D"^GA3- A3A | FA f=f e_e dc \
+| =cB _BA _AG F=F | "A7"E>F GA FD ED |1 "D"^GA3 z:|2 "D"D4 z |]
+S:https://www.folktunefinder.com/tunes/156293
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/EpsteinBulgar_2_Dm.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/KC/klezmer/EpsteinBulgar_2_Dm.abc
+% Rhythm Bulgar, freilach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

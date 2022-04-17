@@ -1,0 +1,48 @@
+X:1
+T: Hallelujah : Soprano
+Z: Contributed 2009-01-31 04:29:53 by ming tsang tsang94@rogers.com
+K:
+%%MIDI program 1 0
+%%measurenb  0
+%%measurebox  1
+M:4/4
+L:1/4
+Q:1/4=120
+V:SS clef=TREBLE name="Saprano" sname="S"
+K:G
+    z4 | z4 | z4 | z4 |
+    z4 | z4 | z4 |
+    z4 | z4 | z4 |
+D D D B, | G G F2 | E E D G |
+F E D2- | D3 z | D D D B, |
+    G G G/ z/ G/>A/ | B2 A G/>E/ | E2 D2- |D4 |
+    [K:Ab] z4 | z4 | z4 |
+z4 | z4 | z4 |
+z4 | z4 |
+z4 | z4 | z4 |
+z4 | z4 | z4 ||
+[K:Bb] [Q:1/4=102] F F F D | B B A2 | G G F B |
+    A G F2 | F F F D | B B B/ z/ z |
+    z4 | z2 z B/>c/ | d4 |
+    c2 z B/G/ | G3 F || [K:C] [Q:1/4=108] G4 | G4 |
+    z4 | z4 | G G G E | c c B2 |
+    A A G c |B A G  z | G G G E |
+    c c c/ z  c/>d | e2 d2 c/>A/ | A2 G2 |
+    z4 | z4 || [K:Db] z F/A/ d e |
+    [fc] [eB] [eB] z | [dA] [eA] d A | c B A  z|
+    A A A F | d d d/ z/  d/>e/ |
+    [fd]4 | [ec]2 z  c/>d/  | [fd]4 |
+    [ec]2 z d/>e/ | [fd]4 | [ec]2 z2 |
+    z2 B d | [gd]4 | [ad]4  | z4 ||
+S:https://www.folktunefinder.com/tunes/162925
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HallelujahSoprano.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Key G
+% Key C
+% Key A-sharp
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

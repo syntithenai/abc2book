@@ -1,0 +1,33 @@
+X: 6
+T: The Flowers of Edinburgh Jig
+T: Knuckle Down
+S: Bacon (RD from Arnold Woodley)
+A: Bampton
+O: English
+M: 4/4
+L: 1/8
+R: Reel
+K: G Major
+P: A
+DEFD G2 GA | B2 B2 BdcB | AGFG EFGA | B2 E2 E2 GE |
+DEFD G2 A2 | B2 B2 Bgfe | dcBA GFGA | B2 G2 G4 |]
+P: B
+{ef}g6 ag | f8 | edef  gfed | B2 e2 e2 ge |
+dBGB d2 dd | edef  g2 fe | dcBA GFGA | B2 G2  G2 e<f |
+g2 g2 gbag | f2 f2 fagf  | e2 ef gfed | B2 e2  e2 ge |
+dBGB d2 dd | edef  g2 fe | dcBA GFGA | B2 G2 G4 |]
+P: C
+E4 | D2 E2 F2 D2 | G4 A4 | B4 B4 | (B d3) c2 B2 |
+A2 G2 F2 G2 | E2 F2 G2 A2 | B4 E4 | E6 GE |
+DEFD G2 A2 | B2 B2 Bgfe | dcBA GFGA | B2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/155709
+S:http://www.thesession.org/tunes/display/2549
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

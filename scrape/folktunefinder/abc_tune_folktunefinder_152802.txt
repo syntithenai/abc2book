@@ -1,0 +1,26 @@
+X:0703
+T:"Denis Delaney" (doublejig)     0703
+C:unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(d/2c/2)|BAG GBG|GBG A3/2B/2c|BAG GBG|{d}cAF Adc|
+BAG GBG|GBG A3/2B/2c|BAG dBG|cAF A2:|
+|:c|Bcd def|gfe fed|dBG gdB|cAF Adc|
+Bcd def|gfe fed|dBG gdB|cAF A2:|
+|:(B/2c/2)|dBG dBG|dBG ABc|dBG dBG|cAF A2d/2c/2|
+Bcd def|gfe fed|dBG gdB|cAF A2:|
+S:https://www.folktunefinder.com/tunes/152802
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0703-DenisDelaney.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0703-DenisDelaney.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

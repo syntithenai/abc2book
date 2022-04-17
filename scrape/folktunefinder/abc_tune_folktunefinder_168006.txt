@@ -1,0 +1,27 @@
+X: 1
+T: JOCKEY TO THE FAIR
+S: RD ex Blunt
+O: Adderbury
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K:  G
+P: A
+D | G2A B2c | d2g d2c | BdG GFG | AcB A2A |
+    AB^c def | faf d2g | fed AB^c | d3 d2 ||
+P: B
+d | g2d g2d | cBc B2d | {d}g2d {d}g2d | cBc B2d |
+    e2f g>fe | dcB A2d | e>dc B2A | {A}B2G E2F |
+G2G G>Bd | e2f g>fe | d>BG B2G | E2F G2A | Bcd cBA | G3 G2 ||
+S:https://www.folktunefinder.com/tunes/168006
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Jockey_to_the_Fair_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

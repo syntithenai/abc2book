@@ -1,0 +1,54 @@
+X:1
+%
+%%titleleft 1
+%
+T:Gavotta alla francese
+C:Christofero Dalitio
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:AM italian7tab
+%
+%%tabaddflags 0
+%%tabfontsize 12
+%%tabrhstyle modern
+%%tabflagspace 2
+%%tabfontitalian Borrono
+%
+c1 ,c | [,d,,c1] ,,,,,c/ ,c [,a,,,e] ,,d [,,c,c] ,,a |\
+        [,,a,e1] ,,,d [,c{8}] ,,c | [,,a{a}/] ,,c ,,d ,a T[,a,a3/2] ,c/ |\
+        [,cc,e1] ,,,,,e 
+%staff 2
+[c,,,,c1] ,c | [,d,,c1] ,,,,,c/ ,c [,a,,,e] ,,d [,,c,c] ,,a |\
+        [,,a,e1] ,,,d [,c,,,b] ,,c | \
+        [,,d,,c/]-,,c [,a{9}] ,,d T[,,c{8}3/2] ,,a/ | [,,a,,c2] ::
+%staff 3
+[a,,,,e1] ,a | [,c,,a1] ,,,,,a/ ,d [,c,,,b] ,a ,,d ,,c |\
+        [,,d,,c1] ,,a [c,,,b] ,c | [,d,,c/] c [a,,c] ,d T[,ca3/2] ,a/ |\
+        [,aaac/] ,,,,e ,,,,c ,,,,a
+%staff 4
+[a,,,,e1] ,a | [,c,,a1] ,,,,,a/ a [,d,,,c] ,c ,a ,,d |\
+        [,a,,,e1] ,,,c [f{8}] a | [c{a}/] a ,d ,c T[,a,,,a3/2] ,,d/ |\
+        [,,dca/] ,,,,c ,,,,a ,,,,,e
+%staff 5
+S[c,,,,c1] ,c | [,d,,c/] ,,,,e ,,,,c ,,,,a [a,,,,e1] ,a |\
+        [,c,,a1] ,,,,,a [,d,,,c] ,,d |\
+        [,a,,,e/] ,,,,a ,,,,,e ,,,,,c [,c,,,b1] ,,c |\
+        [,,d,,c/] ,,a ,,d ,c
+%staff 6
+[c,,,b1] ,c | [,d,,c1] ,,,,,c/ ,c [,a,,,e] ,,d [,,c] ,,a |\
+        [,,a,e1] ,,,d [,c,,,b] ,,c | \
+        [,,d,,c/]-,,c [,a{9}] ,,d T[,,c{8}3/2] ,,a/ | [,,a,,c2] :|
+%
+%%vskip 5mm
+%%center From "Six Baroque Sonatas for an Archlute"
+%%center Facsimile available from TREE
+S:https://www.folktunefinder.com/tunes/160618
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dalitio/gavotta.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dalitio/gavotta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

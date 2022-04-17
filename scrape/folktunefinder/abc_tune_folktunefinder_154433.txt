@@ -1,0 +1,20 @@
+X: 1
+T: An Dro
+M: 4/4
+L: 1/8
+K: G
+d| cB A2 A2 G2| cB A2 AG/2F/2 EF| GE A2 A2 GG|
+|cB AA G2 AG| EE A2 A2 G2| cB A2 AG/2F/2 EF|
+GE A2 A2 GG| cB AA G2 AE| AG AB cc Bc|
+dc BA c2BE|AG AB cc Bc| dc BA c2B2|
+S:https://www.folktunefinder.com/tunes/154433
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/AnDro.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/AnDro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

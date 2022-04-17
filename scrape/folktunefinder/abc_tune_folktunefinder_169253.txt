@@ -1,0 +1,55 @@
+X:1
+T:Kas a barc'h : La noce
+E:12
+Z:Roger Ngaret (94-95)
+R:andro
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=100
+M:2/4
+L:1/16
+K:C
+"G"c2cc c3d | e2c2 "Am"ddd2 | "G"c2cc "Am"d3d | A2B2 "G"e4 :: 
+c2BA G3d | "Am"d2Bf "G"e2c2 | c2BA G3d | "Am"d2AB "G"c4 :| 
+%%rm  1. Je suis venu vous demander dj dj
+%%rm     Je suis venu vous demander
+%%rm     De venir  ma noce lon lre
+%%rm     De venir  ma noce lon la
+%%rm
+%%rm  2.  votre noce je n'irai point
+%%rm     Mais j'irai voir la danse
+%%rm
+%%rm  3. Si vous ne venez que voir la danse
+%%rm     Ne changez pas de robe
+%%rm
+%%rm  4. La belle ayant mal entendu
+%%rm     Qu'elle en changea trois sortes
+%%rm
+%%rm  5. La premire tait violette
+%%rm     La deuxime tait verte
+%%rm
+%%rm  6. La troisime tait de satin blanc
+%%rm     Que tout le monde disait lon lre
+%%rm     Voici la marie lon la
+%%rm
+%%rm  7. La marie je ne suis point
+%%rm     Je suis la dlaisse
+%%rm
+%%rm  8. La dlaisse vous n'tes point
+%%rm     Car je suis votre aimant
+%%rm
+%%rm  9. Son amant la prend par sa main blanche
+%%rm     Et l'emmne  la danse
+%%rm
+%%rm 10. Ils ne firent pas trois tours de danse
+%%rm     Que la belle tomba morte.
+S:https://www.folktunefinder.com/tunes/169253
+S:http://termen.free.fr/danses/vannetais/KasabarchLanoce.abc
+% Rhythm Andro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

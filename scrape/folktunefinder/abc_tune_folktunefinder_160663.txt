@@ -1,0 +1,27 @@
+X:1
+T:Gavotte ton simpl
+C:traditionnel, jou par Diroll, fichier abc : Bernard Loffet
+L:1/8
+Q:426
+M:9/8
+K:C
+|: [BG,,]cd [B2G,2]c [d2G,2]e | [c2F,,2]B [c2F,2]d [B2F,2]c | [d3G,,3] [d3G,3] :| [B2G,,2]c [d2G,2]d [f2G,2]f | \
+ [d3G,,3] [B2G,2]d [c2G,2]B | [c3F,,3] [c3F,3] | [B2F,,2]c [d2F,2]d [f2F,2]f | [d3F,,3] [B2F,2]d [c2F,2]B | \
+ [c3F,,3] [c3F,3] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/160663
+S:http://diato.ifrance.com/diato/tablat/159.abc
+S:http://diato.ifrance.com/tablat/159.abc
+S:http://diato.org/tablat/159.abc
+S:http://perso.orange.fr/diato/tablat/159.abc
+S:http://perso.wanadoo.fr/diato/tablat/159.abc
+S:http://pro.wanadoo.fr/diato/tablat/159.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/159.abc
+S:http://www.diatonique.net/tablat/159.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

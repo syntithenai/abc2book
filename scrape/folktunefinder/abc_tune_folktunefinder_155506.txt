@@ -1,0 +1,19 @@
+X: 1
+T: Easter Thursday
+M: 3/2
+L: 1/8
+R: three-two
+K: Dmin
+|:&quot;Dm&quot;d4 de f2 e2 d2 |&quot;Am&quot;e2 A4 c2 B2 A2 |&quot;Bb&quot;B4 Bc d2 c2 B2 |
+&quot;F&quot;c2 F4 c2 B2 A2 |&quot;Gm&quot;GA B2 &quot;Dm&quot;AG F2 &quot;Gm&quot;GF E2 |&quot;Dm&quot;FE D2 &quot;Am&quot;FG A2 &quot;Dm&quot;D4 :|
+|:&quot;Dm&quot;agfe f2 a2 d2 a2 |&quot;Gm&quot;bagf &quot;C&quot;e2 g2 c2 g2 |&quot;F&quot;agfe &quot;Bb&quot;d2 f2 B2 f2 |
+&quot;A&quot;gfed ^c2 e2 A2 (F2|&quot;Dm&quot;F2) (G2&quot;Am&quot;G2) (A2&quot;Dm&quot;A2) (B2|&quot;Gm&quot;B2) (A2&quot;Dm&quot;A2) d2 &quot;A&quot;e2 ^c2 :|&quot;Dm&quot;Hd8 |]
+S:https://www.folktunefinder.com/tunes/155506
+S:http://www.thesession.org/tunes/display/8806
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

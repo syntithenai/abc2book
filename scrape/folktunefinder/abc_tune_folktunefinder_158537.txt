@@ -1,0 +1,27 @@
+X:1
+T:Flowers of Edinburgh
+M:4/4
+L:1/8
+K:G
+(3GFE|
+"G" D2DE G2GA|"G" BGBd cBAG|
+"D7" FG EF DE FG|"D" AFdF "C" E2 (3GFE|
+"G" D2DE G2GA|"G" BGBd "C" efge|
+"G" dcBA "D7" GFGA|"G" B2G2G2:|
+(3def|
+"G" g2gf gb ag|"D" f2fd fa gf|
+"C" ed ef gf ed|"Em" B2e2e2 (3gfe|
+"G" dBGB "G7" d2 (3Bcd|"C" ed ef g2fe|
+"G" dcBA "D7" GFGA|"G" B2G2G2:|
+S:https://www.folktunefinder.com/tunes/158537
+S:http://gulfweb.net:34043/~rlwalker/abc/FlowersOfEdinburgh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/FlowersOfEdinburgh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/FlowersOfEdinburgh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:52
+T: Der betruegerische Freier
+N: Q2042F
+O: Mitteleuropa, Frankreich
+N: Franzoesische Fassung der Ballade.
+R: Ballade, Braut - Werbung, Betrug
+M: 6/8
+L: 1/8
+K: A
+E | A2=cB2A | A2GE2
+E | A2=ce2d | =cB
+G | A2=cB2A | A2GE2
+E | A2=ce2d | =cB2
+cdBG2B | A3-Az
+S:https://www.folktunefinder.com/tunes/151581
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, braut - werbung, betrug
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

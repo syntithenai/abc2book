@@ -1,0 +1,23 @@
+X:100
+T: Die Todesbraut
+N: Q2049L
+O: Suedosteuropa, Griechenland
+N: Griechische Fassung der Ballade. Pause (Wiederholung) korrigiert.
+R: Ballade, Hochzeit, Unfall, Tod
+M: 7/8
+L: 1/8
+K: G
+c | c4G2=F | G2_AB2A2 | G4-Gz2
+G2_AA=F3 | G2_ABA=F2 | G4-Gz2
+G2_AA=F3 | G2_ABA=F2 | G4-Gz
+S:https://www.folktunefinder.com/tunes/151629
+% Rhythm Ballade, hochzeit, unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

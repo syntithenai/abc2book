@@ -1,0 +1,22 @@
+X:3
+T:Heilig
+C:Frans Visser, dec '08
+%%staves {(1 2)|3}
+%%MIDI program 1 53% Choir Oohs
+%%MIDI program 2 53% Choir Oohs
+%%MIDI program 3 53% Choir Oohs
+M:none
+L:1/4
+K:C
+V:1
+(ABAG)A2(ABcA)B2d2c2G2A2G2(FGA)G(cB)AG(ED)E2
+S:https://www.folktunefinder.com/tunes/155744
+S:http://home.quicknet.nl/qn/prive/agm.schoutsen/map/Jacobus%20Mis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

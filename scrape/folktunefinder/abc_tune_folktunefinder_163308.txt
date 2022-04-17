@@ -1,0 +1,49 @@
+X:1
+T:Hard Times Come Again No More
+C:Stephen C. Foster
+R:song
+L:1/8
+M:4/4
+K:D
+P:Moderato
+DE|"D"F2 FF F A2 F|"A7"EDDE "Bm"F2 "G"B>A|"D"A2 F2 FD "A7"E>E|"D"D4 z2|
+DE|F2 FF F A2 F|"A7"EDDE "D"F2 "G"B2|"D"A2 F2 FD"A7"EE|"D"D4 z2|]
+P:Chorus
+"D"FG|A2 zA A2 ^GA|"G"B4 "D"A2 z2|d2 A2 B2 A2|"E"FF E>D !fermata!"A7"E2|
+DE|"D"F2 FF F A2 F|"A7"EDDE "Bm"F2 "G"B2|"D"A2 F2 FD"A7"EE|"D"D4 z2|]
+%
+W:Let us pause in life's pleasures and count its many tears,
+W:While we all sup sorrow with the poor:
+W:There's a song that will linger forever in our ears;
+W:Oh! Hard times, come again no more.
+W:
+W:  Chorus:
+W:  It's  the song, the sigh of the weary;
+W:  Hard times, hard times come again no more;
+W:  Many days you have lingered around my cabin door.
+W:  Oh! Hard times, come again no more.
+W:
+W:While we seek mirth and beauty and music light and gay
+W:There are frail forms fainting at the door;
+W:Though their voices are silent, their pleading looks will say.
+W:Oh! Hard times, come a- gain no more.
+W:
+W:There's a pale drooping maiden who toils her life away
+W:With a worn heart whose better days are o'er.
+W:Though her voice would be merry, it's sighing all the day.
+W:Oh! Hard times, come a- gain no more.
+W:
+W:It's a sigh that is wafted across the troubled wave,
+W:It's a wail that is heard upon the shore;
+W:It's a dirge that is murmured around the lowly grave.
+W:Oh! Hard times, come a- gain no more.
+S:https://www.folktunefinder.com/tunes/163308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/songs/hard_times_come_again_no_more.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

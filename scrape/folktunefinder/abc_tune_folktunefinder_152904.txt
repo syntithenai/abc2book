@@ -1,0 +1,22 @@
+X: 1
+T: Dhow, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmin
+|: D=E>^F | 
+B3 A G3 D | G>d^c>d e>d=c>B | A3 G ^F3 E | D>d^c>d e>d (3=cBA |
+B>AB>A G>^FG>E | D>d (3^ccd e>d (3=ccB | A>ed>c A>D (3^FGA | G>BA>^F G :|
+|: g^f>g | 
+e>cG>c e>g^f>g | d>BG>B d>D^F>A | ^F>D (3FGA d>cB>A | G>D (3GAB d>g^f>g |
+e>cG>c e2 (3bag | d>BG>B d>DG>D | ^F>D (3FGA d>cB>A | G>BA>^F G :|
+S:https://www.folktunefinder.com/tunes/152904
+S:http://www.thesession.org/tunes/display/7094
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

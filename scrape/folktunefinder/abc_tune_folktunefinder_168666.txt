@@ -1,0 +1,26 @@
+X:1
+T:John Stewart's
+R:reel
+C:James Scott Skinner (1843-1927)
+S:Tommy McCarthy &amp; Louise Costelloe
+H:A version of the Scottish reel &quot;The Spey in Spate&quot;
+D:Paddy Glackin: In Full Spate
+Z:id:hn-reel-506
+M:C|
+K:D
+D2FD A,DFA|dcBA ^GAFD|E2GE B,EGB|edcB AGFE|
+D2FD A,DFA|dAcA BdAf|gefd ecdB|1 AFGE FDDC:|2 AFGE FDD2|]
+d2fd AdFA|DFAd fagf|e2ge BGED|CEAc egfe|
+d2fd ADFA|DFAd fdef|gefd ecdB|1 AFGE FDD2:|2 AFGE FDDC|]
+</abc>
+S:https://www.folktunefinder.com/tunes/168666
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:john_stewarts&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T: Easy Club
+Z: to be played occasionally in place of the usual A's
+M: C|
+R: reel
+K: A
+%%textfont       Times-Roman 10.0
+%%text to be played occasionally in place of the usual A's
+%%textfont       Times-Bold 10.0
+%%text alternate A
+V:RH clef=treble staves=2 brace=2
+A4 B4|c4 d4|e4 d4|c3B- B2z2|A4 B4|c4 d4|e4 c4|=G3A- A2z2:|
+% %text harmony
+V:LH clef=treble
+c4 d4|e4 f4|g4 f4|e3d- d2z2|c4 d4|e4 f4|g4 e4|B3c- c2z2:|
+S:https://www.folktunefinder.com/tunes/155532
+S:http://roaringjelly.org/music/reel/Easy_Club_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:60
+T: Old Fashioned Habit
+S: "Treoir"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+dc |: A2 AG FGAB | cBcG EFGB | (3AAA AD FGAc |\
+d2 eg fddc |
+(3AAA AG FGAB | cBcG ECEG | (3AAA AD FGAB |\
+d2 eg fd d2 :|
+d2 fd adfd|^cdef gage |d2 fd adfd|^cdeg fddA |
+d2 fd adfd|^cdef gage |abag fged|^cdeg fd d2 :|
+S:https://www.folktunefinder.com/tunes/152475
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/o.abc
+S:http://www2.redhawk.org:8080/irish/zouki/o.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/o.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

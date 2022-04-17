@@ -1,0 +1,25 @@
+X: 1
+T:Ducks On The Pond
+M:4/4
+L:1/8
+K:A
+(3ef^g|: "A"a2 b2 a2 =g3| edef "G"=g3d| =gaba g2 d2|
+"Em"ede=g "A"a2 eg|
+a2 b2 a2 (3=gag| "Em"edef "G"=gaba| =gfeB "Bm"d2B2 |1)
+"A"A3B A2 (3ef^g:||2) "A"A3B A4
+K:Amix
+|: "Am"E3d e2d2| edef "G"=g4| B3d BAGA| B3d BAG(D)|
+"Am"E3d e2d2| edef "G"gaba| "Em"gfec "D"d2B2|1) "Am"A3B A2:||2)
+"Am"A3B A2|\
+S:https://www.folktunefinder.com/tunes/154856
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Ducks_On_The_Pond_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

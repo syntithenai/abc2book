@@ -1,0 +1,24 @@
+X:31
+T: Winterrosen
+N: Q2145I
+O: Mitteleuropa, Deutschland (DDR) , Lausitz, sorbisch
+N: Sorbische Fassung der Ballade. Anhaengsel an der ersten Zeile.
+N: Refrain auf "hurra" in der letzten Zeile.
+R: Ballade, Verfuehrung, verlorene Ehre
+M: 6/8
+L: 1/8
+K: G
+ | DGGG2B | BAAAzd | B2z3
+B | d2dd2e | c2cc2
+d | B2BBAG | A2AA2
+B | B2BA2A | G2z4
+S:https://www.folktunefinder.com/tunes/152984
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Ballade, verfuehrung, verlorene ehre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

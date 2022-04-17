@@ -1,0 +1,24 @@
+X:33
+T: Graf und Nonne (Die Nonne)
+N: Q0155f
+O: Osteuropa, Polen, Galizien, Konstantynowka
+N: Anhaengsel in der dritten Zeile.
+R: Ballade, Standesunterschied, Werbung, Liebe, Glueck
+M: 4/4
+L: 1/8
+K: C
+C2 | G2A2G2F2 | E3ED3
+D | E2E2F2A2 | G4z2
+G2 | c2c2cBA2 | G2c2G2z2 | F4E2
+c2 | A2F2FED2 | C2z4
+S:https://www.folktunefinder.com/tunes/161953
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, werbung, liebe, glueck
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

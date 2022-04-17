@@ -1,0 +1,24 @@
+X: 2
+T: The King's Jig
+M: 6/8
+L: 1/8
+R: jig
+K: G Major
+|: G2 G AGA | B^cd efg | GFG AGA | BGE E2 D |
+G2 G AGA | B^cd efg | dcB AGA |[1 BGE G2 D :|[2 BGE GBd ||
+|: gfg e2 e | edB def | gfg aga | bag e2 f |
+gfg a2 a | bag efg | dcB AGA |1 BGE GBd :|2 AGE G2 E ||
+|: DGG BGG | AGG BGG | efg dcB | AGA AGE |
+DGG BGG | AGG BGG | efg dcB |1 AGE G2 E :|2 AGE G2 B ||
+|: efg fBB | bag fBB | eBB fBB | gfe fdB |
+efg fBB | bag fBB | efg fdB |1 e/f/gf e2 d :|2 e/f/gf edB |]
+S:https://www.folktunefinder.com/tunes/169937
+S:http://www.thesession.org/tunes/display/7514
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

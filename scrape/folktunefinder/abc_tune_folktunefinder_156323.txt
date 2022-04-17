@@ -1,0 +1,22 @@
+X: 1
+T: Erev shel shoshanim [Em]
+C: Melody: Yosef Hadar (1957)
+%C: Words: Moshe Dor
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Em
+[| "Em"E2 ED E2 G2 | "A"A6 E2 | "Am"A2 AG "D"A2 B2 | "Em"G6 z2 |
+| "C"G2 GF G2 A2 | "D"F3 E D4 | "Bm"F2 FE F2 G2 | "Em"E6 z2 ||
+|| "Em"B2 BA B2 G2 | "A"A6 E2 | "Am"A2 AG A2 B2 | "Em"G6 z2 |
+| "Am"A2 AG A2 B2 | "Em"G3 F E4 | "D"F2 FE D2 E2 | "Em"E6 z2 |]
+S:https://www.folktunefinder.com/tunes/156323
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/air/ErevShelShoshanim_Em4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/air/ErevShelShoshanim_Em4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

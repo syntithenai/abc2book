@@ -1,0 +1,64 @@
+X:1
+T:Hybo klack
+C:Eric \~nst
+O:Hlsingland
+R:Polska
+M:3/4
+Z:Bjrn Ek 2008-12-02
+L:1/16
+V:1 clef=treble
+V:2 clef=treble
+K:Bb
+%
+V:1
+|:B2B,A, B,CDE FDFB|dcBA Bcde f2E2 |[gB]3f edcB ABcd|edcB ABcA F^FGA    |
+B2B,A, B,CDE FDFB  |dcBA Bcde f2E2 |gbge dfdB cecA  |F^FGA [cE]4 [BD]4 :|
+V:2
+|:D2D2 D2F2 B2d2   |BAG^F GABc d2G2|e3d cBAG FGAB   |cBAG FGAC A,2C_E   |
+D2D2 D2F2 B2d2     |BAG^F GABc d2G2|egec BdBF AcAF  |D2EC [FA,]4 [FB,]4:|
+%
+V:1
+|:FGAB cAeA cAeA |Bdfd Bdfd Bdfd   |FGAB cAeA cAeA   |
+Bdfd Bdfd Bdfd   |GA=Bc dBgB dBgB  |cege cege cege   |
+GA=Bc dBgB dBgB  |cege cege cege   |Bbag fedc B2d2   |ceAc [cE]4 [BD]4         :|
+V:2
+|:A,CFG CFcF AFcF|DFBF DFBF DFBF   |A,CFG CFcF AFcF  |
+DFBF DFBF DFBF   |=B,DGA GD=BD GDBD|EGcG EGcG EGcG   |
+=B,DGA GD=BD GDBD|EGcG EGcG EGcG   |Dgfe dcBF D2[BF]2|[AF]2[FA,]2 [FA,]4 [FB,]4:|
+%
+V:1
+K:F
+|:FGAB cAcf agfe |dBdf bagf edc=B|cfeg fafc Acfc|Bcdc BcBA A2G2     |
+FGAB cAcf agfe   |dBdf bagf edc=B|cfeg fafc Acfc|BcdE [GB,]4 [FA,]4:|
+V:2
+K:F
+|:A,CFG AFAc fedc|BDFB dfBd cBAG |FAGB AcAF CFAF|GABA GAGF C2B,2    |
+A,CFG AFAc fedc  |BDFB dfBd cBAG |FAGB AcAF CFAF|GABc [ec]4 [fc]4  :|
+%
+%%newpage
+%
+V:1
+|:A2GB A4 d4   |A2A2 G2G2 F2D2|DFAd f2ef gfed  |^c2a2 ^gaec A4      |
+A2GB A4 d4     |A2A2 G2G2 F2D2|DFAd f2ef gfed  |^cdec d6z2         :|
+V:2
+|:F2EG F4 [AF]4|F2F2 E2E2 D2F2|A,DFA d2^cd edcB|A2^c2 =BcAE ^C2G2   |
+F2EG F4 [AF]4  |F2F2 E2E2 D2F2|FDFA d2^cd edcB |[AG]2[AG]2 [AF]6 z2:|
+%
+V:1
+|:a^gaf cfaf cfaf|g^fge cege cege|a^gaf cfaf cfaf|a^gae ^ceae A4   |
+fefd Bdfd Bdfd   |fefc Acfc Acfc |efde cdBc ABGA |[AF]4 [fA]4 z4  :|
+V:2
+|:fefc Acfc Acfc |e^dec EGec EGec|fefd FAfd FAfd |^cecA FAcA [EA,]4|
+d^cdB DFdB DFdB  |AcAF CFAF CFAF |GABc ABGA FGEC |[FA,]4 [FA,]4 z4:|
+%
+S:https://www.folktunefinder.com/tunes/165810
+S:http://www.folkwiki.se/pub/cache/Hybo_klack_7e2bb3.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

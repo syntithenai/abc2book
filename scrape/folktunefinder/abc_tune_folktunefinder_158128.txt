@@ -1,0 +1,40 @@
+X:1
+T:Fish in the Millpond
+M:4/4
+C:Dave Ricker (Dance: Doug Burger)
+S:Bruno
+N:obtain permission to perform from Pipe \& Bowl
+A:Chipping Under Oakwood
+O:Renaissance Pleasure Faire
+R:
+%:
+%:NoWWW
+%P:A(ABC)$^3$
+P:A(ABC)3
+K:G
+I:speed 300
+P:A
+|: D2 G2 G2 AB | cBAG  A2 Bc | dcBA G2 AG | E2 F2 G2-G2 :|\
+M:6/8
+P:B
+|: A>Bc  d>ed  | c>AB  c>BA  | d>BG E>cB  | A>GF  G2-G  :|\
+M:4/4
+P:C
+I:speed 300
+|: B2 d2 G2 AB | cd e2 A2 Bd | e2 e2 AcBA | B2 G2 G4    :|
+%  B2 d2 G2 AB | cd E2 A2 Bd | e2 e2 AcBA | B2 G2 G4    ||
+S:https://www.folktunefinder.com/tunes/158128
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/fishmill.co.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/FieldTown/fishmill.co.abc
+S:http://www.ucolick.org/%7Esla/morris/music/FieldTown/fishmill.co.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

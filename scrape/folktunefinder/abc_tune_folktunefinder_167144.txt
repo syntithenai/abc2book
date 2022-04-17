@@ -1,0 +1,22 @@
+X: 1
+T: Jackson's Rolling
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: A |\ 
+G3 B^AB | AFA cBA | GDG BGB | dcB c2 A |
+GDG B2 B | AF/G/A c2 A | GB/c/d g2 d | gdB c2 :|
+|: d |\ 
+gdc BG/A/B | AFA c2 A | gdc BGB | dcB c2 A |
+gdc B2 B | AF/G/A c2 A | GBd g2 d | gdB c2 :|
+S:https://www.folktunefinder.com/tunes/167144
+S:http://www.thesession.org/tunes/display/8786
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:1
+T:Happy Trails
+C:Dale Evans
+M:4/4
+L:1/4
+K:Eb
+%%staves{RH1}
+V:RH1 clef=treble
+|"Eb6""^Intro"E,B,CB, E,B,CB,|E,B,CB, E,B,CB,
+|"Eb6""^Tune"z B A B|"C7"c/2 B G/2-G2
+S:https://www.folktunefinder.com/tunes/163273
+S:http://gulfweb.net:34043/~rlwalker/abc/happytrailsEb.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/happytrailsEb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

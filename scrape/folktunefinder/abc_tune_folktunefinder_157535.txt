@@ -1,0 +1,22 @@
+X:41
+T:Fenwick O Bywell
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+g | edc BAB | GBG B2g | edc BAG |
+AfA c2g | edc BAB | GBG B2G | c>de/f/ gdB |
+AgA c2 :: e | GGd BBg | GGd "tr"B2g |
+GGd BBg | AgA c2e | GGd BBg |
+GGd B2G | c>de/f/ gdB | AgA c2 :|
+S:https://www.folktunefinder.com/tunes/157535
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Fenwick_O_Bywell.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Fenwick_O_Bywell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

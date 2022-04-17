@@ -1,0 +1,26 @@
+X: 2
+T: Green Willis
+M: C|
+R: reel
+K: D
+(3ABc \
+|: "D"d-Ad-A d2f-e | d-Ad-A d2g-f | "A"edcB ABcd | edc(B A2)(3ABc |
+   "D"d-Ad-A d2f-e | d-Ad-A d2g-f | "A"edc(uA BA)cA |\
+[1 "D"d2 d4  (3ABc :|[2  "D"d2 d4 (fg ||
+|: "D"ag)fg ag(fe) | d2d(c d2) ef | "G"gfga "(Em)"bagf | "A"edc(B A2)fg |
+   "D"agfg agfe | d-Ad-A "G"g3f | "A"vedc(uA BA)cA |\
+[1 "D"d2 d4 (fg :|[2 "D"d2 d4 (3ABc |]
+N:Fiddlers Fakebook pg 127 - adapted by Peter Ostapenko.
+N:Last update - PO 6/3/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/162528
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/GreenWillis.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

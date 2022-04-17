@@ -1,0 +1,27 @@
+X: 1
+T: Dio Kardies
+T: Two Hearts
+O: Greece
+R: kalamatianos
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin
+M: 7/8
+L: 1/8
+K: Gdor
+[GD][GD] \
+|:"Gm"[B2G2][AF] [BG][FA] [BG][cA] | "Dm"[A2F2][GE] [F2D2] [EC][EC] \
+|  "C"[G2E2][FD] [G2E2]   [A2F2]   | "Gm"[B3G3]     z2     [GD][GD] |
+| "Gm"[B2G2][AF] [BG][FA] [BG][cA] | "Dm"[A2F2][GE] [F2D2] [EC][EC] \
+|  "C"[G2E2][FD] [G2E2]   [A2F2]   |1"Dm"[F3D3]     z2     [GD][GD] |
+|:[2 "no chords"D3 C3z [|]| B,3 A,3z | A,2G, A,G, A,B, | C2B, DC/B,/ A,2 :|
+|: "Dm"[AF][AF][AF] [AF][GE] [GE][FD] | "Gm"{F}[G3-D3-] [G3D3]z \
+|  "Dm"[F2D2][EC] [F2D2] [A2F2] | "Gm"[G7D7] :|
+S:https://www.folktunefinder.com/tunes/153523
+S:http://trillian.mit.edu/~jc/music/abc/Greece/tune/DioKardies_Gm.abc
+% Rhythm Kalamatianos
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X: 2
+T: Horse Keane's
+S: Jerry O'Sullivan audio clip from Michael Burke's whistle web site, F whistle
+N: followed by The Blackbird
+Z: Bill Reeder
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G Major
+dc |\ 
+(3BcB (3ABA GABd | eE ~E2 E2 (3GFE | DEGA BddB | BAGB A2 z2 |
+(3BcB (3ABA GABd | eE ~E2 E2 (3GFE | DEGB ADFA | (3GAB (3AGF G2 z2 |
+BcAB GABd | eE ~E2 E2 (3GFE | DEGA BddB | BAGB A2 D2 |
+(3BcB (3ABA GABd | eE ~E2 E2 (3GFE | DEGB ADFA | G2 (3AGF G2 |]
+z2|\ 
+e2 ef ga (3gfe | dbge dB (3GAB | c2ce dBGA | BAAG A2 z2 |
+B2 AB GABd | eE ~E2 E2 (3GFE | DEGB ADFA | (3GAB (3AGF G2 (3Bcd |
+e2 ef ga(3gfe | dbge dB (3GAB | c2ce dBGA | BAAG A2 z2 |
+(3BcB (3ABA GABd | eE ~E2 E2 (3GFE | DEGB ADFA | (3GAB (3AGF G2 |]
+S:https://www.folktunefinder.com/tunes/164890
+S:http://www.thesession.org/tunes/display/1786
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

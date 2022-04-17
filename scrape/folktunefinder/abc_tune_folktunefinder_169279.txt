@@ -1,0 +1,43 @@
+X:1
+T:Kaserer (Mazurka)
+R:mazurka
+C:traditionell
+A:umgebung von Brixen, Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Instrumentale Volksmusik aus Tirol", K.Horak, Eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985
+N:im buch in F (1.  2. teil) und Bb (3. teil), einstimmig, erster ton f'
+N:im buch nr. 248 s. 228
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:F
+(Fc) A3 F | (Ec) B3 E | (Ec) B3 E | (Fc) A3 F |\
+(Fc) A3 F |(Ec) B3 E | (Ec) B3 E | F2 [f2A2] :|
+|:\
+c3 dcB | (Ac) (cf) (fc) | (Bc) (ce) (ec) | (Ac) (cf) f2 |\
+c3 dcB | (Ac) (cf) (fc) | (Bc) (ce) (ec) | f2 "ende"[f2A2] z2 :|
+K:Bb
+|:\
+(F2B4) | (f2d4) | F2 A2 c2 | (B2d4) |\
+(F2B4) | (f2d4) | F2 A2 c2 | B2 B,2 z2 :|
+|:\
+(ed).c.B.A.G | (FE).D.E.F.G. | (Fe) (eA) A2 | (Fd) (dB) B2 |\
+(ed).c.B.A.G | (FE).D.E.F.G. | (Fe) (eA) A2 | B2 B2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/169279
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/kaserer.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

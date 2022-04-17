@@ -1,0 +1,29 @@
+X:1
+T:First Night in Leadville -- Reel
+R:reel
+N:164
+N:I suspect the neutrals in the second part should be sharps
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:E
+uE2|\
+.E2(GB) .e2(fe) | defg .a2(ga) | bgaf gefd | Bagf ecBG |
+.E2(GB) .e2(ge) | defg .a2(ga) | bgaf gefd | Bagf e2::
+.f{c}.B((3B=AB) .g{c}.B((3BAB) | aBgB .f.B((3B=AB) |\
+efga bagf |Bagf ecBG |
+.E2(GB) .e2(fe) | defg .a2(ga) | bgaf gefd | Bagf e2:|
+S:https://www.folktunefinder.com/tunes/157981
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/ray:davies99.freeserve.co.uk/FirstNightInLeadvilleReel.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/FirstNightInLeadvilleReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/FirstNightInLeadvilleReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

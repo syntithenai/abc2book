@@ -1,0 +1,27 @@
+X: 27
+T: Vendome -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:F
+(uAB)|c>fe>f d>ba>g|((3fga) f>c ((3ABc) A>F|\
+E>FG>A B>cd>c|((3BAG) ((3AGF) E>dc>B|
+A>fe>f d>ba>g|((3fga) f>c ((3ABc) A>F|\
+E>dc>B ((3AGF) ((3GFE)|(3FAc (3fcA F2:|
+|:uA2|(3BAG (3AGF ((3EGB) ((3dcB)|((3c=Bc) ((3Acf) (3agf (3edc|\
+(3BAG (3AGF ((3EGB) ((3dcB)|((3c=Bc) ((3Acf) (3agf (3edc|
+((3d^cd) ((3g^fg) (3bag (3fed|((3c=Bc) ((3fef) (3agf (3edc|\
+(3dfe (3dcB (3AGF (3GFE|(3FAc (3fcA F2:|
+S:https://www.folktunefinder.com/tunes/163607
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/UV.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

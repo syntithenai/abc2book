@@ -1,0 +1,21 @@
+X: 3
+T: Union -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+Z:Bob Puckette  2003-3-8
+M:2/4
+L:1/16
+K:G
+uG2|DGBG dGBG|GFGA BABG|ABAF GFED|
+DGBG dGBG|efge dBAB|GBdg ecAF|G2G2G2:|
+|:ud2|gbeg dgBd|dBge dBAB|GBdB edcB|A^GAB .A2"4"DC|
+B,DGB d2(cB)|ABcd e2(ge)|dBGB AGFA|G2G2G2:|
+S:https://www.folktunefinder.com/tunes/163602
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/UV.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

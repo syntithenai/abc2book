@@ -1,0 +1,25 @@
+X: 3
+T:The First of October
+M:6/8
+L:1/8
+Q:122
+C:Chip Thompson
+R:Jig
+K:D
+A,B,D EDD|EFA BAA|Bdd edd|d/2G/2G d F2 D|FD{E}D ED{F}D|B,A,G, {B,}A,A,A,
+|A,B,D EDB
+,|{E}DDD D3:||
+abb {b}afe|e/2f/2af edB|Bdd BAA|1^GAB {B}A2 a|b{d'}b{a}b {b}afe|e/2f/2af
+ {f}edB|Bdd {c}BAF|EF
+E {E}DDD :|
+2^GAB {B}A2 A|A,B,D EDD|EFA BAA|Bdd BAF|EFE D2||
+S:https://www.folktunefinder.com/tunes/158014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/celticmusic.com/First_of_October.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

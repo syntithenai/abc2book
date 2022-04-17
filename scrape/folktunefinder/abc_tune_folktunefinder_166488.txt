@@ -1,0 +1,27 @@
+X:492
+%%topmargin 3cm
+U:~=!turn!
+T:Inverness Gathering
+C:Pipe Tune
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:March
+M:C
+L:1/8
+K:A
+!mf!e>c | d>cB>c A>Bc>A | .a2 .e2 Le2 (3def | .=g2 BA =G2 (3BAG | .=g2 .d2 Ld2 e>c | d>cB>c A>Bc>A | .a2 .e2 Le2 a2 |
+{/f}=g>ed>B =G>Bd>B | e2 .A2 LA2 :: !f!(3efg | a>(ec)>(e a)>(ec)>(e | .a2) .e2 Le2 f2 | =g>ag>f g>ag>e | d>=cB>A =G>AB>A |
+(3cBA .a.A (3cBA .a.A | {/g}.a2 .e2 Le2 a2 | {/f}=g>(ed)>(B =G)>(Bd)>(B | .e2) .A2 LA2 :: !mf!e>c | d>cB>c A>Bc>A | .a2 .e2 Le2 ((3def) | .=g2 BA =G2 (3BAG |
+.=g2 .d2 Ld2 e>c | d>cB>c A>Bc>A | .a2 .e2 Le2 a2 | =g>(ed)>(B =G)>(Bd)>(B |.e2) .A2 LA2 :: !f!c>B (3AAA a2 La/g/e/g/ a2 | (3AAA a>^g e2 d=g |
+(3=GGG =g2 Lg/e/d/e/ g2 | (3=GGG =ge d2 BG | (3AAA a2 a/g/e/g/ a2 | (3AAA a>g e2 d>(=g | e)>(dB)>(d =G)>(Bd)>(B | .e2) .A2 LA2 :|
+S:https://www.folktunefinder.com/tunes/166488
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Inverness_Gathering.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0492.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

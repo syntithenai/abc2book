@@ -1,0 +1,23 @@
+X: 1
+T: Gan Ainm
+M: 6/8
+L: 1/8
+R: jig
+K: D Dorian
+|: d2 c |\
+ADD ABc | ADD A/B/cA | GED ~E3 | GAc d2 c | 
+ADD ABc | ADD D/E/FD | E2 C A,B,C |[1 DFA :|[2 D2 E ||
+|: ~F3 |\ 
+ABc Ad^c | d2 e fed | edc dgg | a2 g fed |
+e2 f edc | Adc ADD | CA,G, A,DD |[1 D2 E :|[2  DFA |]
+S:https://www.folktunefinder.com/tunes/160359
+S:http://www.thesession.org/tunes/display/8141
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

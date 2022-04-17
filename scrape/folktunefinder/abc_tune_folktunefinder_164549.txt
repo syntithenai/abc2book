@@ -1,0 +1,29 @@
+X: 1
+T:Holland Is A Fine Place
+M:4/4
+L:1/8
+Q:80
+C:Traditional
+R:Slow March
+B:RWF 28
+K:A Dor
+cB|:"D"A2 {B}A2"G" B2 d2|"C"edef "G"{a}g2 ag|
+"Em"e2 dB "Am"A2 AB|"G"{GA}G6 cB|!
+"D"A4 "G"B2 d2|"C"edef "G"{a}g2 ba|
+"Em"gedB "Am"A2 A2|"D"{B}A6 (3def|!
+"G"gdBd ef g2|"D"{b}a3 f "G"g2 ag|
+"Em"{eg}e2 dB "Am" A2 AB|"G"{GA}G6 cB|!
+"D"A2 {B}A2 "G"B2 d2|"C"edef "G"g2 ag|
+"Em"e2 dB "Am"A2AG|"D"A6:|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/164549
+S:http://www.blackflute.com/music/tunes/other/holland.abc
+% Rhythm Slow march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

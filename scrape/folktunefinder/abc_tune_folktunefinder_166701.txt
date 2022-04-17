@@ -1,0 +1,27 @@
+X: 1
+T:I See the Moon
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song
+H:On the first appearance of the new moon, a number of children linked
+H:hands and danced, keeping time to the following verse:
+W:I see the moon, the moon sees me,
+W:God bless the moon and God bless me:
+W:There's grace in the cottage and grace in the hall;
+W:And the grace of God is over is over us all.
+L:1/8
+M:C
+K:F
+G2 GA B3 c|d2 d2 d3 e|f2 e2 d3 c|B2 G2 F2 DF|
+G2 GA B3 c|d2 d2 g3 f|g2 d2 d>edc|B2 A2 G3 z||
+S:https://www.folktunefinder.com/tunes/166701
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/i_/I_See_the_Moon_1.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

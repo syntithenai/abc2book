@@ -1,0 +1,23 @@
+X:8
+T:La Grande Chaine
+C:Trad. French Canadian Reel
+I:speed 300
+M:4/4
+K:G
+|:B4 BAGB | d2 d2 BGBd | cdcB ADFA | dedc BDGA |
+B2B2 BAGB | d2d2 BGBd | cdcB ADFA |[1G3A G2 DG:|[2G3A G2 Bd|
+|: g2 gf efge | d2d2 BGBd | cdcB ADFA | dedc BGBd |
+g2 gf efge | d2d2 BGBd | cdcB ADFA |[1 G3A G2 Bd:|[2G3 A G2 z2||
+%
+H: http://celtic.stanford.edu/pub/tunes/abc.tunes/xm
+S:https://www.folktunefinder.com/tunes/162053
+S:http://www.strathspey.org/list/strathspey/archive/msg/16966/
+S:http://www.strathspey.org/list/strathspey/archive/thread/16921/
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Eichelober (Bb)
+R: zwiefacher
+M: 23/44
+L: 1/4
+K: Bb
+|: F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] [dB] F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] z :|
+|: [BD] \
+| "Eb"[e-G] [e-E] [eB] | "Bb"[d-F] [d-D] [dB] || "Eb"[e-G] [e-E] [eB] | "Bb"[d-F] [d-D] F \
+| "Bb"[BD][dF] | [fB][dF] | "F7"[cA] [eF] [AE] | "Bb"[BD] z :|
+S:https://www.folktunefinder.com/tunes/155793
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Eichelober_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Eichelober_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/zweif/Eichelober_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/zweif/Eichelober_Bb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

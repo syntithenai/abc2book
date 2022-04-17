@@ -1,0 +1,29 @@
+X: 1
+T:Finlay M. MacRae - March
+C:Phil Cunningham
+M:6/8
+L:1/16
+Q:280
+K:C
+Bd2 |\
+   e3dB2 A3AA2 | a3ge2 g4 a2 | e3dB2 G3GG2 | g3ed2 eg3d2 |
+   e3dB2 A3AA2 | a3ge2 g4 a2 | e3dd2 eg3G2 | (A6 A3) :|
+eg2 |\
+   a3eg2 a4g2  | A3ag2 e3dd2 | eg3e2 d4 B2 | G3dA2 B3GG2 |
+[1 a3eg2 a4g2  | A3ag2 e3dd2 | eg3e2 d3GB2 | (A6 A3) :|
+[2 A3AA2 e3dB2 | A3ae2 g4 a2 | e3dd2 eg3G2 | (A6 A3)Bd2 ||
+|  e6    d4e2  | A3AA2 e3dB2 | d4 B2 A3BA2 | G3ge2 d3BG2 |
+   e6    d4e2  | A3AA2 a4 g2 | e3dd2 eg3G2 |1 A6- A6 :|2 A6- A3eg2 ||
+|  a3Ag2 a3Ag2 | Aa3g2 e3dd2 | eg3e2 d3AB2 | G3dA2 B3GG2 |
+[1 a3Ag2 a3Ag2 | Aa3g2 e3dd2 | eg3e2 d3GB2 | (A6 A3)eg2 :|
+[2 A3AA2 e3dB2 | Aa3e2 g4 a2 | e3dd2 eg3G2 | (A6 A6) ||
+S:https://www.folktunefinder.com/tunes/157840
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/PhilCunningham/Finlay_M_MacRae_March.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Finlay_M_MacRae_March.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Finlay_M_MacRae_March.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

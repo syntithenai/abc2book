@@ -1,0 +1,29 @@
+X: 1
+T: Irish Lamentation
+T: King James' March to Limerick
+O: England c.1735
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Compare O'Neill's 275 (&quot;The Forlorn Lover&quot;)
+N: Barnes (dates c.1735)
+M: 3/4
+L: 1/8
+K: Gmaj
+|: GA |\
+&quot;G&quot; B2 B2 Bc | B3 A G2 | &quot;Am&quot;{g}a2 A2 AB | &quot;D&quot; A4 GA |
+&quot;G&quot; B2 cB AG | &quot;C&quot;E3 GFE | &quot;D7&quot; DE G2 {G}A2 | &quot;G&quot; G4 :|
+|: GA |\
+&quot;G&quot; B2 d2 d2 | de dB AB | &quot;C&quot; {f}G2 g2 g2 | &quot;D7&quot; g3 fed |
+&quot;G&quot; B2 d2 d2 | de dB AB | &quot;C&quot; {f}G2 g2 g2 | &quot;D7&quot;g4 de |
+&quot;F&quot; =f>e fg fg | &quot;C&quot;e>d eg eg | &quot;G&quot; d2 ed cB | &quot;D7&quot; A4 GA | 
+&quot;G&quot; B2 cB AG | &quot;C&quot; E3 GFE | &quot;D7&quot; DE G2 G-A | &quot;G&quot; G4 :|
+N: Not a transcription of Liam O'Flynn's playing...
+S:https://www.folktunefinder.com/tunes/158957
+S:http://www.thesession.org/tunes/display/8973
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

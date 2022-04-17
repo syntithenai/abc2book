@@ -1,0 +1,22 @@
+X: 1
+T: Ivdu [Em]
+M: 2/4
+L: 1/8
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: Printed MS of unknown origin
+K: Em
+[| "Em"GE EE | EE EE | "B7"^DE FG | F2 "Em"E2 \
+| "G" BG GG | GG GG | "B7"FG AB | A2 "Em"G2 |]
+|: "Am"A3 (G/F/) | "Em"GG G2 | "B7"FE (FG) | "Am"(AB) "Em"(G/F/E) \
+| "Am"A3 (G/F/) | "Em"GG G2 |1 "Am"(FE) c2 | "B"B4 :|2 "Am"(FE) "B7"(FG) | "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/166831
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/Ivdu_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Ivdu_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T: THE FAIRY DANCE -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20010522205350 by John Chambers jc:trillian.mit.edu
+K: D
+vde \
+| f2fd f2fd | gfed cdeg | f2fa gfed | cABc d2de \
+| f2fd f2fd | gfed cdeg | f2fa gfed | cABc d2 :|
+|: fg \
+| a2a2 b3f | g2g2 a3g | f2(fa) gfed | cABc defg \
+| a2a2 b3f | g2g2 a3g | f2(fa) gfed | cABc d2 :|
+S:https://www.folktunefinder.com/tunes/156736
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/FairyDanceReel.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/FairyDanceReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/FairyDanceReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/FairyDanceReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

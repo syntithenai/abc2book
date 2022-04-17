@@ -1,0 +1,27 @@
+X: 1
+T:Fisher's Hornpipe
+R:Hornpipe
+O:Scotland
+M:4/4
+K:D
+(3ABc|\
+dA FA GB AG|FE DF GB AG|\
+FE DF GB AG|FE DF E2(3ABc|\
+dA FA GB AG|FE DF GB AG|\
+FA df ge ce|df ec d2::\
+d2|\
+ec Ac ec ge|fd Ad fd af|\
+ec Ac ec fe|dc Bc (3BAF A2|\
+BG DG BG dB|AF DF dc dB|\
+Ac ef ge ce|df ec d2:|
+S:https://www.folktunefinder.com/tunes/158090
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fi/Fishers_Hornpipe_2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

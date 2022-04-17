@@ -1,0 +1,21 @@
+X:1
+T:I Sliced Pastrami for the CIA
+M:4/4
+L:1/8
+K:C
+ c| cG AG EG z G| GG _GG F2 z2|||| G| GG ^FG AG z G| GG _GG F2 z| F|\
+ A G/2G/2 FD C2| z2 c2
+M:4/4
+| cG AG EG z G/2G/2| GG _GG F2 z2||| G| GG ^FG AG z G| GG _GG F2 z|\
+ F| AG/2-G/2 FD C z2| z2 G2
+M:4/4
+| G2 GG AG EF| z2 B/2 _B3/2 A2 z A| B2 _B A2 B2 B| A2 _A2 G2 cc| cB AG AG EC|\
+ B,2 C D3 z B| B2 A2 F2 D2| C4 z2||
+S:https://www.folktunefinder.com/tunes/166729
+S:http://back.numachi.com:8000/dtrad/abc/PSTRMCIA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:60
+T: Graf und Nonne (Die Nonne)
+N: Q01556
+O: Osteuropa, Tschechoslowakei, Sudetenland, Zips
+R: Ballade, Standesunterschied, vergebliche Werbung, Liebe, Klage
+M: 6/8
+L: 1/8
+K: G
+D | _B2BA2A | G3=F2
+F | _B2Bc2c | d3z2
+d | g2d_e2c | d3G2
+A | _BBBA2A | G3z2
+A | _BBBA2A | G3z2
+S:https://www.folktunefinder.com/tunes/161980
+S:http://ifdo.ca/~seymour/runabc/esac/ballad80.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad80.abc
+% Rhythm Ballade, standesunterschied, vergebliche werbung, liebe, klage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

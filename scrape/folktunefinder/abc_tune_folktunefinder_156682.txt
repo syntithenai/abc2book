@@ -1,0 +1,23 @@
+X: 17
+T: Squirrel in the Tree
+I: Squirrel in the TreeJ-39Gjig
+M: 6/8
+R: jig
+K: G
+d2c|: "G"BBB B2B| B2A GAB| "C"ccc c2B| c2d efg|
+      "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bdc:|2 "G"GBd "D"b2a| "G"g3 d2|]
+|:\
+g| "G"bbb b2b| b2a "C"gfe| "G"ddd d2e| d2c Bdg|
+   "D"fff fff| fed cBA|1 "G"GBd "D"e2d| "G"B3 Bd:|2 "G"GBd "D"bfa| "G"g3 g2|]
+%%text Roaring Jelly  J-39
+S:https://www.folktunefinder.com/tunes/156682
+S:http://roaringjelly.org/music/sets/Set19.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set19.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set19.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

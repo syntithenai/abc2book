@@ -1,0 +1,53 @@
+X:1
+T:Der Heyser Bulgar ("The Hot Bulgar")
+C:Traditional
+D:Itzhak Perlman / In The Fiddler's House , Angel Records, 1995
+Z:approximately transcribed by Moshe Braner, January 2000
+N:Played by the Klezmer Conservatory Band, attributed to 1920's
+N:recordings by Naftule Brandwein and Joseph Cherniavsky.
+N:Parts are repeated twice each, then all over again.
+N:The recording has a bunch of extra bars after the "c4" in part C,
+N:with the fiddle hanging out on some notes between c and g.
+N:Also lots of other variations, e.g., at end of part A:
+N: c/d/e/d/ c/B/A/G/ | A/B/c/B/ A/G/F/E/ | F/G/A/G/ F/E/D/C/ | D4 ||
+N:E,B flat, F sharp
+M:2/4
+L:1/8
+Q:1/4=165
+P:AABBCCDD ABBCCDA
+% Contributed 20000109165129 by Moshe Braner mbraner@zoo.uvm.edu
+K:Gm
+P:A
+       "D"D^FG |\
+        A2- AG |"(Cm)"A/B/c B/A/G | "D"AA   ^F2 |  z  D^FA |\
+        d2  A2 |  "Cm"A/B/c B/A/G | "D"AA   ^F2 |  z  D^FG |
+"(Gm/D)"A^F BA |  "Cm"G^F   ED    |    EG    CD |  E4      |\
+     "D"c>B AG |  "Cm"AG    ^FE   | "D"^F>E  DC |  .D D^FG |
+"(Gm/D)"A^F BA |  "Cm"G^F   ED    |    EG    CD |  E4      |\
+     "D"c>B AG |  "Cm"AG    ^FE   | "D"^F>E  DC | "fine"D4 ||
+P:B
+"Gm".d2 .d2 |     d/c/B B2 |    AB  BB | "Cm"AG  ^FG |\
+ "D"^FG  AB | "Cm"cB    AG | "D"A4     |     ^F2  A2 |
+"Gm".d2 .d2 |     d/c/B B2 |    AB  BB | "Cm"cB   AG |\
+ "D"^FG  AB | "Cm"cB    AG | "D"AG ^FE |     D2   z2 ||
+P:C
+"D".D2 z2 |   .A2  z G |    ^F>G  AB | "Cm"AG  ^FE |\
+"D".D2 z2 |   .A2  z G |    ^F>G  AB | "Cm"cB  AG  |
+"D".D2 z2 |   .A2  z G |    ^F>G  AB | "Cm"c4      |\
+"D"c>B AG | "Cm"AG ^FE | "D"^F>E  DC |     D4      ||
+P:D
+"Cm"C2 DE | DC G2 | "D"^F>G  AB |  AG ^FG |\
+"Cm"C2 DE | DC G2 | "D"c>B   AG |  AG ^FE |
+"Cm"C2 DE | DC G2 | "D"^F>G  AB |  AG ^FG |\
+"Cm"C2 DE | DC c2 | "D"A>G  ^FE | "D.C."D ||
+S:https://www.folktunefinder.com/tunes/152952
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/DerHeyserBulgarTheHotBulgar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

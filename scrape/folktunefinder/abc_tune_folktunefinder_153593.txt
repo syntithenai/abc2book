@@ -1,0 +1,28 @@
+X:10
+T:Glen Morrison
+R:jig
+C:Theresa Morrison
+D:Lake Bras D'Or
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+L:1/8
+M:6/8
+K:G
+G,B,D G2 B|AGA B2 A|GBd gdB|gdB A2 B|
+G,B,D G2 B|AGA B2 A|GBd gdB|[1ABA G2 G,:|[2ABA G2||
+||B|dBd gdB|ede g2 e|dBd gde|gdB A2 B|
+dBd gdB|ede g2 e|dBd gdB|ABA G2 B|
+dBd gdB|ede g2 e|g2 e dBd|egB A2 B|
+G,B,D G2 B|AGA B2 A|GBd gdB|ABA G2 G,|]
+S:https://www.folktunefinder.com/tunes/153593
+S:http://cranfordpub.com/tunes/abcs/TheresaMorrison.abc
+S:http://www.cranfordpub.com/tunes/abcs/TheresaMorrison.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

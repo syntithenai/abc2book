@@ -1,0 +1,27 @@
+X: 1
+T: Dovecote Park
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:f | A2A B2A | A>df a2g | f2f A>df | a>fd e2f |
+A2A B2A | A>df a2g | f>ga e>cA | d3 d2 :|
+g | f>ga d2e | f>ed a2f | e2e A>Bc | egf e2g | 
+f>ga d2e | f>ed a2g | f>ga e>cA | d3 d2g |
+f>ga d2e | f>ed a2f | e2e A>Bc | egf e2f |
+A2A B2A | A>df a2g | f>ga e>cA | d3 d2 ||
+|:f | A>df f>ef | A>df a2g | f>ed A>df | e3 e2f |
+A>df f>ef | a>fd B2g | f>ga e>cA | d3 d2 :|
+g | a>fd A>df | f>ed B2d | A>df a>fd | e3 e2f |
+a>fd A>df | f>ed B2g | f>ga e>cA | d3 d2g |
+a>fd A>df | f>ed B2d | A>df a>fd | e3 e2f |
+A>df f>ef | a>fd B2g | f>ga e>cA | d3 d2 |]
+S:https://www.folktunefinder.com/tunes/154087
+S:http://www.thesession.org/tunes/display/7051
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

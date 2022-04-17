@@ -1,0 +1,29 @@
+X:2
+T:Minuet
+%%gchordfont Times-Bold 12
+C:Ludwig van Beethoven
+O:Germany
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%abc2ps version. A version suitable for BarFly is also available.
+M:3/4
+L:1/4
+K:G
+V:1
+.d|.b.c'.d'|(d'>bg)|.f.g.a|(a>fd)|(g/f/g/a/b)|
+w: mf ||||| cresc.
+V:2
+z|"sempre staccato"B/d/B/d/B/d/|B/d/B/d/B/d/|c/d/c/d/c/d/|c/d/c/d/c/d/|B z G|
+S:https://www.folktunefinder.com/tunes/158760
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be-min01/be-min01-2fl.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

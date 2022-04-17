@@ -1,0 +1,31 @@
+X:1
+T:An dro Termen
+Z:Roger Ngaret (Janvier 2001)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:C
+P:Air 1
+M:2/4
+L:1/16
+K:C
+A2e2 e2ef | d2de c4 | BcdB c2A2 |1 AGAB c2B2 :|2
+cABG A4 ::BcdB c2A2 | AGAB c2B2 | BcdB c2A2 | cABG A4 :|
+P:Air 2
+ABcd e2ed | c2BA B2cd | B2cd e2ed | c2BA B4 ::
+efed c2e2 | d2de cBA2 | efed c4 | BdcB A4 :|
+P:Air 3
+A2c2 BAGA | B2c2 B2e2 | A2c2 BAGA | B2c2 A4 ::
+A2ee c2ee | c2e2 d3B | c2d2 e2A2 | A2G2 A4 :|
+S:https://www.folktunefinder.com/tunes/154587
+S:http://termen.free.fr/danses/termen/AndroTermen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

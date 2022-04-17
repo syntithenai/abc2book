@@ -1,0 +1,25 @@
+X:34
+T: Der Maedchenmoerder (Halewijn - Ulinger)
+N: Q2048N
+O: Osteuropa, Tschechoslowakei, Maehren
+N: Melodievariante zu Q0041H: anderes Lied, maehrische Variante der
+N: Graf Friedrich Ballade, deshalb Q0048 zugeordnet. Grundton in der
+N: zweigestrichenen Oktave.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 6/8
+L: 1/8
+K: D
+ | DDDD2E | D=CB,A,2z
+B,CDA,2B, | A,2G,=F,2z
+DEFD2E | =CB,CD2z
+S:https://www.folktunefinder.com/tunes/151563
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

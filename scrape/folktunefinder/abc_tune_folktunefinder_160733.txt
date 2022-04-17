@@ -1,0 +1,25 @@
+X:0648
+T:"The Generous Woman"            0648
+C:Turlough O'Carolan
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"^vb"(AB/2c/2)|d3e d2c2|B2A2F2zA|d3c d2e2|f2z2z2zA|
+d3e d2c2|{c}B2A2F2zA|B3d c2e2|{e}d4z2||
+(DE/2F/2)|G3A B2AG|F3G (AGFE)|D3E F2A2|B2A2z2A2|
+d3e (fedc)|B3c {c}Hd2AG|F3D FEDC|D4z2|]
+S:https://www.folktunefinder.com/tunes/160733
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/648-GenerousWoman.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:The Forsaken Mermaid
+M:3/4
+L:1/4
+K:F
+ C| F A G| F E F| D C C| B,- A, B,/2A,/2| G, A, B,| C D E| F G E| F2 E3/4 F/4|\
+ G C C| G2 G/2A/2| B A G| A- B c3/4 A/4| F FF/2-E/2| D DD/2-G/2| B B G|\
+ F- E D3/4 C/4| F- F- G3/4- A/4-| C3/2 D/2 C3/4 A,/4|
+M:4/4
+ B,- A,2 C3/4 C/4|
+M:3/4
+ D G| F| E2 C| F2 G3/4 A/4| B, B B3/4- A/4|A/2-G/2 F E| F2||
+S:https://www.folktunefinder.com/tunes/158968
+S:http://back.numachi.com:8000/dtrad/abc/FORSAKMM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

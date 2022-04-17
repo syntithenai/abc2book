@@ -1,0 +1,33 @@
+X: 1
+T:Gypsy Dance
+C:Joseph Haydn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0
+V:2 Program 1 0 bass
+M:2/4
+L:1/16
+K:C
+V:1
+c3e g3c'|c'bbag4|gff4f2|fedf e2ed|
+V:2
+[C,4E,4G,4][C,4E,4G,4]|[C,4E,4G,4][C,4E,4G,4]|[B,,4D,4G,4][B,,4D,4G,4]|[C,4E,4G,4][C,4E,4G,4]|
+V:1
+c3eg3c'|c'bbag3c'|c'bb4d'2|d'c'bd' c'2c'2|
+V:2
+[C,4E,4G,4][C,4E,4G,4]|[C,4E,4G,4][C,4E,4G,4]|[G,,4D,4F,4][G,,4D,4F,4]|[C,4E,4][C,4E,4]|
+V:1
+c'bb4d'2|d'c'bd' c'2c'e|edd4f2|fagf e2ec'|
+V:2
+[G,4D4F4][G,4D4F4]|[G,4C4E4][G,4C4E4]|[B,,4G,4][B,,4G,4]|[C,4E,4G,4][C,4E,4G,4]|
+V:1
+c'bb4d'2|d'c'bd' c'2c'e|fedf edce|dcBd c2c2|]
+V:2
+[G,4D4F4][G,4D4F4]|[G,4C4E4][G,4C4E4]|[B,,4D,4G,4][C,4E,4G,4]|[G,,4D,4F,4][C,4E,4]|]
+S:https://www.folktunefinder.com/tunes/162780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/gy/Gypsy_Dance_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

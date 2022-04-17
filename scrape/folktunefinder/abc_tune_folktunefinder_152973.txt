@@ -1,0 +1,24 @@
+X:20
+T: Die Unbestechliche
+N: Q1144E
+O: Mitteleuropa, Deutschland
+N: Melodievergleich zu Q0144C, anderes Lied. Eingeklammerte Vorzeichnung
+N: uebernommen. Pause am Ende der zweiten Zeile ergaenzt. Schon kodiert 
+R: geistlich
+M: 6/8
+L: 1/8
+K: G
+G | B2cd2d | cBdGz
+c | ddcAGB | GFGDz
+D | GFGB2c | AGAG2
+S:https://www.folktunefinder.com/tunes/152973
+S:http://ifdo.ca/~seymour/runabc/esac/ballad70.abc
+% Rhythm Geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Jig For Jimmy
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+G,CC EGc|dcB cAG|EFG AFD|DEC B,A,G,|
+G,CC EGc|dcB cAG|EFG AFD|G,B,D C2 A,|
+G,2 C EGc|dcB cAG|EFG AFD|DEC B,CD|
+E{G}EC F{G}FD|GcB cde|fdB dcB|GAB c2 d||
+ege {e}-f2 g|edc BAG|e/f/ge fed|cBA G2 g|
+e/f/ge f2 g|edc BAG|cGc ege|fdB c2 d|
+ege f2 g|edc BAG|e/f/ge fed|cBA G2 F|
+ECE F{G}FD|GcB cde|fdB dcB|GAB c2 G,||
+S:https://www.folktunefinder.com/tunes/167743
+S:http://www.thesession.org/tunes/display/4534
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

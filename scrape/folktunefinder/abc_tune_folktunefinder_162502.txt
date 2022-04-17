@@ -1,0 +1,67 @@
+X:1
+T:Greensleeves
+T:Treble Upon a Ground
+C:Anonymous (Folger Lib. MS 1610)
+Z:abc transcription Leonard Williams
+L:1/4
+M:C
+K:Bb
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%indent 0.5 in
+%%leftmargin .75 in
+%%tabaddflags 1
+%
+%use flags -N -k5 -c -a 0.8 in command line
+%
+V:1 clef=bass name=Cello
+V:2 clef=frenchtab name=Lute
+%
+%System 1
+[V:1] "A"[|]d'>e'd'd'|c'af g/a/|b>ag a/g/| a^fd2|d'>e'd'd'|\
+                c'af g/a/|
+[V:2]   [,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|[,ab,,a] ,,,,,c ,,,,,d ,,,,a|\
+                ,,,,c3/2 ,a/ ,,a1 ,,,,c|[,ab,,d3/2] ,,d/ ,a1 ,c|,,,a1 ,d ,,d ,,,a|
+%System 2
+[V:1]   b a/g/ ^f/g/a/f/|g/g/ d'=bg "B"||d'/d'/d'/d'/ f'd'|\
+                a/a/a/a/ c'a|g/g/g/g/ bg|a/a/ a^fd|
+[V:2]   [,abc] a [,aa,c] ,,d|[aac,,a2] [aac]||[,ab,,d3/2] ,,d/ ,a1 ,c|\
+                ,,,a ,d ,,d ,,,a|[,ab,,a1] ,,,,,c ,,,,,d ,,,,a|,,,,c3/2 ,a/ ,,a1 ,,,,c|
+%System 3
+[V:1]   d'/d'/ f'd'b|a/a/ c'af|g/a/b/g/ aa|=bgg2 "C"||B/A/B/c/ d/c/d/=e/|
+[V:2]   [,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|[,abc] a [,aa,c] ,,d|\
+                [aac,,a2] [aac]||[,ab,,d3/2] ,,d/ ,a1 ,c|
+%System 4
+[V:1]   f/=e/f/g/ a/g/a/f/|g/f/g/a/ g/b/a/g/|^f/=e/f/g/ fd|f/e/d/f/ \
+                e/d/c/e/|
+[V:2]   ,,,a ,d ,,d ,,,a|[,ab,,a] ,,,,,c ,,,,,d ,,,,a|,,,,c3/2 ,a/ ,,a1 ,,,,c|\
+                [,ab,,d3/2] ,,d/ ,a1 ,c|
+%System 5
+[V:1]   d/c/d/=e/ f/g/a/d/|=e/^f/g/=e/ f/g/a/f/|gGg2 "D"||f'2d'b|c'af2|\
+                b>a g a/g/|
+[V:2]   ,,,a ,d ,,d ,,,a|[,abc] a [,aa,c] ,,d|[aac,,a2] [aac]||\
+                [,ab,,d3/2] ,,d/ ,a1 ,c|,,,a1 ,d ,,d ,,,a|[,ab,,a] ,,,,,c ,,,,,d ,,,,a|
+%System 6
+[V:1]   a^fd d'/e'/|f'd'b a/b/|c'af g/a/|b a/g/ ^f/g/a/f/|g/a/=b/c'/ bg||
+[V:2]   ,,,,c3/2 ,a/ ,,a1 ,,,,c|[,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|\
+                [,abc1] a [,aa,c] ,,d|[aac,,a2] [aac]||
+%System 7
+[V:1]   "E"[|]B>c d>=e|f>g a>f|g>b a>g|^f3d|f>e d>f|g/a/ bad|
+[V:2]   [,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|[,ab,,a] ,,,,,c ,,,,,d ,,,,a|\
+                ,,,,c3/2 ,a/ ,,a1 ,,,,c|[,ab,,d3/2] ,,d/ ,a1 ,c|,,,a ,d ,,d ,,,a|
+%System 8
+[V:1]   =e/^f/ g f/g/ a|gGg2|]
+[V:2]   [,abc] a [,aa,c] ,,d|[aac,,a2] [aac]|]
+%
+%%newpage
+%
+S:https://www.folktunefinder.com/tunes/162502
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Traditional/Greensleeves_williams.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

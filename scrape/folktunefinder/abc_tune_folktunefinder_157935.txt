@@ -1,0 +1,27 @@
+X: 1
+T: First Century
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+cB |: AECB, A,CEA | Aceg a3 g | aece aece | GBBB B2 Bc |
+dcBA GFE^D | EGBe g3 f | e2 ^de fede | [c6e6] cB |
+AECB, A,CEA | Aceg a2-a2 | baga baga | fdAF D4 |
+f2 f2 fagf | e2 e2 aecA | B2 B2 BdcB |1 A2 A2 A2 cB :|2 A2 A2 A2 f=g ||
+K: Dmaj
+|: a2 ^ga bafd | Adfa bafd | a2 ^ga bafd | [c6e6] ef |
+g2 fg agec | Acef gecA | a2 ^ga baga | fdAG F2 FE |
+DFAF BFAF | dcde d3 A | d2 cd edcd | BGDC B,3 ^G, |
+A,CEA Aceg | a^gab a2 fg | aAgA fAeA |1 [d6f6] fg :|2 [d6f6] f f ||
+eAAA fAeA | eAgA fAeA | ^ga-ab a2 c2 | d6 ||
+S:https://www.folktunefinder.com/tunes/157935
+S:http://www.thesession.org/tunes/display/6771
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

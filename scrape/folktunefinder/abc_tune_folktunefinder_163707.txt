@@ -1,0 +1,20 @@
+X:1
+T:Hear Me Talkin' To Ya
+M:4/4
+L:1/8
+K:C
+ A A2 GG G E2| z AA G- G2 z2| z A A3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009 GE ^DE|\
+ G2 EC-C E2 C| D3/2 _E/2 D3/2 E/2 D C3| z _E E2 D C2 =E-| E2 z2 z4|\
+ z4 z3/2 G/2 A3/2 G/2| _B A2 GG G A3/2 G/2| A3/2 G/2 A3/2 A/2 G E2 C-|\
+ C4 z4| z8| AG GG z2 G/2G/2 A/2A/2| AA A G- G2 z2| AA AG G E2 E| G E2C-C _E2 C|\
+ D3/2 _E/2 D3/2 E/2 D C3| z2 _E2 D2 C2| =E4 z4| z4 z3/2 G/2 A3/2 G/2|\
+ _B A2 G G3/2 E/2 G3/2 E/2| A3/2 G/2 A3/2 A/2 G E2 C-| C4 z4|
+S:https://www.folktunefinder.com/tunes/163707
+S:http://back.numachi.com:8000/dtrad/abc/HEARTALK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Run Rosie Run Counterpoint
+C:copyright 1998 Jim Thompson
+R:Jig
+E:16
+M:6/8
+K:A
+\bigskip              % a bit of space
+|:b3 g3|agf edc|^d3 f3|e^dc BA^A|
+|B3 =d3|=g3 Bdf|f2b ^a2f|1 f3 f^df:|2 f3 gbg||
+|a3 c'd'e'|a3 c'd'e'|^d'c'^b d'c'b|e'3 c'ge|
+|a3 c'd'e'|a3 c'd'e'|^d'c'^b agf|=fe=f g^f=f|
+|cdc cdc|c6|gag gag|g6|
+|cdc cdc|c3 cAc|^dcB def|a6|]
+S:https://www.folktunefinder.com/tunes/161855
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/rosie-counterpoint.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

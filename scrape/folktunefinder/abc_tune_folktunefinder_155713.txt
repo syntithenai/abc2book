@@ -1,0 +1,25 @@
+X: 10
+T: Flowers of Edinburgh, The
+S: &quot;McGibbon's Scots Tunes, book II&quot;, page 59, 1746
+M: 4/4
+L: 1/8
+N: Slow
+K: G Major
+|: D2 |\ 
+D3 E G3 A | BGdG B2 AG | F3 E D>EFG | AFdF E3 F | 
+D3 E G3 A | B>AGd e2 e/f/g | cBAG A2 GA | B2 A>G G2 :|
+|: d/e/f |\ 
+g>fga g/a/b ag | f>efg f/g/a gf | edef gfed | B2 e>f e2 g2 | 
+B2 AG d2 cB | edef g>abB | cBAG A2 GA | B2 A>G G2 :|
+S:https://www.folktunefinder.com/tunes/155713
+S:http://www.thesession.org/tunes/display/2549
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

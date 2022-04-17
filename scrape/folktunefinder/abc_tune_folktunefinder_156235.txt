@@ -1,0 +1,20 @@
+X:1
+T:Enniskillin Dragoon
+M:3/4
+L:1/4
+K:G
+ z2 D/2D/2| G3/2 A/2 B|c/2-A/2 d3/2 B/2| A G G| G2 d3.99999962500005/11.9999985000002 e3.99999962500005/11.9999985000002 f3.99999962500005/11.9999985000002|\
+ g e g|f/2-e/2 d B| A B ^c| d2 d3.99999962500005/11.9999985000002 e3.99999962500005/11.9999985000002 f3.99999962500005/11.9999985000002|\
+ g/2g/2 e g|f/2-e/2 d B| A/2A/2 B c| d2 D| G3/2 G/2A/2 B/2| c/2A/2 d3/2 B/2|\
+ A G G| G2 z|
+S:https://www.folktunefinder.com/tunes/156235
+S:http://back.numachi.com:8000/dtrad/abc/ENNISDRG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ENNISDRG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T:Gan Ainm
+R:Jig (Slide)
+S:Jim Mulqueeny, Clare (fiddle).
+D:A mysterious tape
+H:'c's and 'f's very mobile
+H:Slightly strange sequence of parts. Below is what is actually fully played.
+Q:400
+M:6/8
+Z:Bernie Stocks
+K:G
+G2D GBd | edc (3BcBA | G2D GBd | e2f g2D | G3-GBd | gfe dBA | BGE GAB | cdc (3BcBA ||
+|: BGE EDE | GFE DB,D | BGE GAB | cdc (3BcBA | BGE EDE | GFE DB,D | GBG AGA | BGG G2A :|
+G2D GBd | edc (3BcBA | G2D GBd | e2f g2D | G2D GBd | edc (3BcBA | BGE GAB | cdc (3BcBA |
+G2D GBd | edc (3BcBA | G2D GBd | e2f g2D | G3-GBd | gfe dBA | BGE GAB | cdc (3BcBA ||
+S:https://www.folktunefinder.com/tunes/160209
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_313.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_313.abc
+% Rhythm Jig (slide)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

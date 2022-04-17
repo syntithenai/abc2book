@@ -1,0 +1,27 @@
+X:116
+T: Die Schlangenkoechin
+N: Q2079G
+O: Osteuropa, Tschechoslowakei, Maehren, Sued - Walachei, Tichov
+N: Maehrische Fassung der Ballade. Verzierungen (Nachschlaege) und
+N: Quintole. Quintole in Triole plus Viertelnote geaendert.
+N: Zweite und vierte Zeile = Refrain.
+R: Ballade, Mord; Reigen - Tanz, antiphonal
+M: 2/4
+L: 1/8
+K: D
+ | DEFG | A2G2
+AB=cB | A2z2
+d2=c2 | BAGF | GGD2
+GBAG | FGFE2 | D2z2
+S:https://www.folktunefinder.com/tunes/152148
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+% Rhythm Ballade, mord; reigen - tanz, antiphonal
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

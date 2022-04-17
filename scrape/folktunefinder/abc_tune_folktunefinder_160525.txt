@@ -1,0 +1,21 @@
+X: 1
+T: Garrykennedy Castle
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF |\ 
+G2 d>B e>d^c>d | B>G (3GGG D>GB>G | c>Bc>e a2 (3gfe | (3ded ^c>e d2 B>=c |
+d>g (3ggg b>gd>c | ^c2 e>c d>BG>B | A>D (3FGA d>^ce>d | c>D (3DEF G2 :|
+|: B>c |\ 
+d>g (3ggg d>gB>g | d>B (3BBB D>G (3Bcd | c>eA>G F>Ad>^c | e>d^c>e (3ded B>=c |
+d>gb>g d>GB>G | A>^GA>B (3cec a>=g | f>ed>^c =c>D (3DEF | (3GAG F>A G2 :|
+S:https://www.folktunefinder.com/tunes/160525
+S:http://www.thesession.org/tunes/display/9026
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

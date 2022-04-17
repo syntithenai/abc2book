@@ -1,0 +1,34 @@
+X:1
+T:Da "Trampla"
+R:Mazurka
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Arbeitshilfen zur Volksmusikpflege, Nr.8: Wildsau - Hundert Tanzmelodien fuer Dudelsack und Drehleier", ausgewaehlt und eingerichtet von Georg Balling, herausgegeben vom Bayerischen Landesverein fuer Heimatpflege e.V., Muenchen, 1993
+S:im buch mit der angabe: Der Lederschatz des Egerlandes, Albert Brosch, Nuernberg 1986
+N:im buch ganz in G, zweistimmig, Nr.:94 in der quelle Nr.:1443
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+d2(dc)B2 | c2(cB)A2 | c2(cB)A2 | d2(dc)B2 |\
+d2(dc)B2 | c2(cB)A2 | c2(cB)A2 | G2G2 z2 |
+(dg)(dB)G2 | (ce)A2A2 | (ce)(cA)F2 |(GB)d2d2 |\
+(dg)(dB)G2 | A2(Ac)e2 | Md2F2F2 | G2g2z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/152276
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/da_trampla.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

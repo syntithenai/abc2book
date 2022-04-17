@@ -1,0 +1,22 @@
+X:89
+T: Die Todesbraut
+N: Q0049A
+O: Mitteleuropa, Oesterreich, Niederoesterreich, Niederdonau, Weitra
+R: Ballade, Hochzeit, Unfall, Tod
+M: 3/4
+L: 1/8
+K: G
+DDF | GAB2AG | A3
+AAA | Acc2BA | B3
+GGB | dBd2cAc2 | B2z
+S:https://www.folktunefinder.com/tunes/151618
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad20.abc
+% Rhythm Ballade, hochzeit, unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

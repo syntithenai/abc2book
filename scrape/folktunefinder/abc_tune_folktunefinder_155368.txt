@@ -1,0 +1,28 @@
+X: 2
+T: Earl Of Mansfield's March, The
+N: minus all suggestions of swing or snap, for 'button'
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: fe |\ 
+d2 e2 d2 A2 | defg a2 gf | e2 f2 e2 A2 | cdef g2 fe |
+d2 e2 d2 A2 | defg a2 gf | g2 e2 c2 A2 | d4 d2 :|
+|: ag |\ 
+f2 g2 f2 A2 | defg a2 gf | e2 f2 e2 A2 | cdef g2 fe |
+f2 g2 f2 A2 | defg a2 gf | g2 e2 c2 A2 | d4 d2 :|
+|: ag |\ 
+f2 d2 d2 ag | f2 d2 d2 ef | g2 A2 c2 e2 |
+[1 c2 A2 A2 ag | f2 d2 d2 ag | f2 d2 d2 ef | g2 e2 c2 A2 | d4 d2 :|
+[2 c2 A2 A2 Bc | d2 e2 d2 A2 | defg a2 gf | g2 e2 c2 a2 | d4- d2 |]
+S:https://www.folktunefinder.com/tunes/155368
+S:http://www.thesession.org/tunes/display/8052
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

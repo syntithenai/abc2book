@@ -1,0 +1,31 @@
+X: 1
+T:Dorset Four Hand Reel
+P:(AABB)*2(CCDD)*2D
+S:Trad, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|"G"GB dc/2B/2|"C"ce ce|"G"GB d3/2c/2|"Am"BA "D7"AB/2A/2|
+"G"GB dc/2B/2|"C"ce ce|"G"GB "D7"d3/2c/2|"G"BG G:|
+P:B
+d|"G"gg "C"g/2f/2e|"G"dd "Em"d/2c/2B|"Am"A3/2B/2 cd|"D"ed de/2f/2|
+"G"gg "C"g/2f/2e|"G"dd "Em"d/2c/2B|"Am"AA/2B/2 "D7"cA|"G"G2 G:|
+K:A
+P:C
+c/2B/2|"A"Ac/2e/2 a/2e/2c/2A/2|"D"df df|"A"Ac/2e/2 a/2e/2c/2A/2|"E7"Be Be|
+"A"Ac/2e/2 a/2e/2c/2A/2|"D"df df|"E7"e/2a/2g/2f/2 e/2d/2c/2B/2|"A"Ac A:|
+P:D
+c/2d/2|"A"ec ec|"D"fd fd|"A"ec ec|"E7"Be e3/2e/2|
+"A""F#m"ec ec|"D""Bm"fd fd|"E7"e/2a/2g/2f/2 e/2d/2c/2B/2|"A"Ac A:|
+S:https://www.folktunefinder.com/tunes/154012
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/do/Dorset_Four_Hand_Reel_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

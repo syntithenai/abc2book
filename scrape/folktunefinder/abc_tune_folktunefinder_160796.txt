@@ -1,0 +1,26 @@
+X: 1
+T:George King's Hornpipe, 2nd setting
+M:3/2
+L:1/8
+K:D
+P:1
+C2 E4 A2 c4 | C2 E4   A2 F2 ED |\
+C2 E4 A2 c4 | BABc d2 A2 F2 ED ||
+P:2
+E2 e2 fedc dcBA | e2 E4 e2 F2 ED |\
+E2 e2 fedc dcBA | d2 D4 A2 F2 ED ||
+P:3
+GEGE GEGE c4 | E2 C4 A2 F2 ED |\
+GEGE GEGE c4 | d2 D4 A2 F2 ED |]
+S:https://www.folktunefinder.com/tunes/160796
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ge/George_Kings_Hornpipe_2nd_setting_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ge/George_Kings_Hornpipe_2nd_setting_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,59 @@
+X:601
+T:Ejercicio
+C:Jos\'e Ferrer
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-am.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:2/4
+L:1/8
+K:Am -8va
+V:1
+"^Allegro moderato"e|c e3|de e2|de ce|B e3|c e3|
+V:2
+z|A2 [^GB][Ac]|[B3d3][^A^c]|[B2d2][A2c2]|^GE ^FG|A2 [^GB][Ac]|
+%
+V:1
+de e2|Be de|ce z2:|^ca a2|da a2|Bg g2|cg g2|
+V:2
+[B3d3][Ac]|[^G2B2][E2d2]|[A2c2]A,2:|[A3^c3]G|[d3^F3-][Fc]|\
+[G3B3-][BF]|[c3E3-][E_B]|
+%
+V:1
+Af cd|G[ce] G[eg]|G[df] G[ce]|[B2d2] z g|gggg|g2g2|g2g2|
+V:2
+[F2A2][_A2c2]|G2G2|G2G2|G2 z2|z4|z2 [G2B2]|[A2c2][^A2^c2]|
+%
+V:1
+g z z2|[Bd^g] z z2|[ca] z z2|[Ac] z [Ad] z|[^G2e2] z e|fedc|z4|
+V:2
+[Bd] z z2|E z z2|F z z2|F z F z|E2 z2|z4|BA^GF|
+%
+V:1
+z4|z2 z e-|[B3-d3-e3][Bde-]|[A3-c3-e3][Ace-]|\
+[E4^G4B4e4]|z2 z e|c e3|
+V:2
+EDCB,|E2 z2|z2 E,2-|E,2E,2-|E,4|z4|A2 [^GB][Ac]|
+%
+V:1
+de e2|de ce|B e3|ce ^ca|da Bf|ce2d|c4|]
+V:2
+[B3d3][^A^c]|[B2d2][A2c2]|^GE ^FG|\
+[A2c2][G2^c2]|[F2d2][D2B2]|[E2c2]^G2|AEA,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/155874
+S:http://abc.musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-am.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ferrer-jose/ferrer-ejercicio-am.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ferrer-jose/ferrer-ejercicio-am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/ferrer-jose/ferrer-ejercicio-am.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

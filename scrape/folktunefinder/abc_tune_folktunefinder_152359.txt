@@ -1,0 +1,29 @@
+X:1
+M:4/4
+L:1/8
+T:Speed the Plough
+N:Simple version
+Z:Steve Mansfield 1/2/2000
+K:G
+GABc dedB | dedB dedB | c2ec B2dB | A2A2 A2 BA|
+GABc dedB | dedB dedB | c2ec B2dB | A2A2 G4 ::
+g2g2 g4 | g2fe dBGB | c2ec B2dB | A2A2 A4 |
+g2g2 g4 | g2fe dBGB | c2ec B2dB | A2A2 G4 :|
+S:https://www.folktunefinder.com/tunes/152359
+S:http://pmwiki.org/wiki/Cookbook/AbcMusic
+S:http://www.pmwiki.org/wiki/Cookbook/AbcMusic
+S:http://pmwiki.org/pmwiki/pub/cache/Speed_the_Plough_e5471f.abc
+S:http://www.pmwiki.org/pmwiki/pub/cache/Speed_the_Plough_e5471f.abc
+S:http://pmwiki.org/wiki/Test/AbcMusic
+S:http://pmwiki.org/wiki/Test/Abc2
+S:http://www.pmwiki.org/wiki/Test/AbcMusic
+S:http://www.pmwiki.org/wiki/Test/Abc2
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

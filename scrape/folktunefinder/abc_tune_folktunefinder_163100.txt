@@ -1,0 +1,42 @@
+X:10627
+T:Hanen stend p\aa stabburshella
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Canon
+F:http://abc.musicaviva.com/tunes/norway/hanen-stend-d/hanen-stend-d-ddad1.abc
+V:1 Program 1 25 up %Acoustic guitar
+V:2 Program 1 25 merge down %Acoustic guitar
+M:2/4
+L:1/16
+Q:1/4=70
+K:D
+V:1
+d2d2 ede2|[A2d2]A2 d2d2|f2f2 gfge|a8|
+V:2
+[D,8D8A8]|[D,8D8]|[D,8D8A8]|[D,8D8A8]|
+%
+V:1
+d'2a2 a2ga|f2a2 a2a2|A2AA cdec|d8|]
+V:2
+[D,8D8A8]|[D,8D8A8]|[D,8D8]|[D,8D8A8]|]
+W:
+W:Hanen stend p\aa stabburshella,
+W:bonden gjev honom konn.
+W:Rakkin skvakkar i bakkom nord,
+W:og hjuringen bl\aes i honn.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/163100
+S:http://abc.musicaviva.com/tunes/norway/hanen-stend-d/hanen-stend-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/hanen-stend-d/hanen-stend-d-ddad1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/hanen-stend-d/hanen-stend-d-ddad1.abc
+% Rhythm Canon
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

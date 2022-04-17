@@ -1,0 +1,22 @@
+X: 1
+T: Innocent Child, The
+M: 4/4
+L: 1/8
+R: reel
+K: Cmaj
+|:ec ~c2 GFDB,|C2 EG c3 d|~e3 f dcBG|c2 dc BGcd|
+ec ~c2 GFDB,|C2 EG c3 d|~e3 f dcBG|1 c2 dB c3 d:|2 c2 dB cdef||
+|:g2 ^fg ec ~c2|Gceg agfe|f2 ef d_B ~B2|F_Bdf agef|
+g2 ^fg ec ~c2|Gceg agfe|fedc Bdgf|1 ecdB cdef:|2 ecdB c3 d||
+S:https://www.folktunefinder.com/tunes/166373
+S:http://www.thesession.org/tunes/display/8661
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

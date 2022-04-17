@@ -1,0 +1,24 @@
+X:1
+T:Largo
+T:From "The New World Symphony "
+C:Antonin Dvorak
+M:4/4
+L:1/4
+K:D
+"D"FAA2|"D"FED2|"A"EFAF|"A"E4|
+"D"FAA2|"D"FED2|"G"EF"A"ED|"D"D4|
+"G"Bdd2|"G"cAB2|"G"BdcA|"G"B4|
+"G"Bdd2|"G"cAB2|"G"BdcA|"G"B4|
+"D"FAA2|"D"FED2|"A"EFAF|"A"E4|
+"D"FAA2|"D"FED2|"G"EF"A"ED|"D"D4|]
+S:https://www.folktunefinder.com/tunes/159486
+S:http://gulfweb.net:34043/~rlwalker/abc/largo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/largo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/largo.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

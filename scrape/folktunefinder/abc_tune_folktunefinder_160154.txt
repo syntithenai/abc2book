@@ -1,0 +1,25 @@
+X: 1
+T:Gan Ainm
+R:Jig
+S:Unknown flute player.
+D:Clare FM broadcast. From the Miltown Malbay flute recital
+Z:Bernie Stocks
+M:6/8
+L:1/8
+K:G
+|:D2B {d}BAG|Bdd dBG|cde dBG|ABA {B}AGE|!
+D2B {d}BAG|Bdd dBG|def gdB|{d}BAF G3:|!
+|:~b3 ~g3|dgb bag|~a3 ~f3|1 dfa {b}aga:|2 dfa g3:|!
+e2e edB|edB g3|gfg edB|cBc AGE|!
+D2B {d}BAG|Bdd dBG|def gdB|{d}BAF G3||!
+S:https://www.folktunefinder.com/tunes/160154
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ga/Gan_Ainm_115.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

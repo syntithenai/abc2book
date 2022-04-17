@@ -1,0 +1,97 @@
+X:1
+%%topspace 0
+%%tabrhstyle grid %modern
+%%tabaddflags 1
+%%tabfontsize 12
+%%tabfontscale 1.26
+%%tabflagspace 7
+%%stretchstaff false
+%%staffsep 25pt
+T:Prelude
+C:J.S.Bach  BWV997/1
+L:1/8
+M:C
+K:Cm frenchtab
+Z:transcription for a 10-chorus lute by Werner v. Hrsten see preface Fuhrmann - book
+%%text /a = Eb
+,,,,a1:,,d/.,a :,b1.a :e.f,,,,,d.f |\
+,,,,,b1:,,d/.,a :,b1.a :e.f,,,,,a.f |\
+,,,,,,a1:,,d/.,a :,b1.a :e.f,,,,,,,a.f |\
+[L:1/16],,,,,,a1.d:b.a :,d.,b:,a.,,d [,,c,,a].,,d:,a.,,,d :,,,c2.,d |
+% Takt 5
+[,b,,,,,,,a1].,a:,,d2 ,,,,d1.,,c:,,d.,a [,b,d].a:,d.,b [b,,,,,,,,a].a:,d.,b |\
+[,d,,,,,,a1].b:,,b2 ,,,a1.,,d:,a.,b [,db].b:a.,d [d,,,,,,,a].b:a.,d |\
+[a,,,,,,a1].,d:a.d [,a,d].,,d:,a.d [,b,c].,a:,b.d [,db].,b:,d.b |
+% Takt 8
+[a,,,,,,a1].,d:a.,b [a,,,d].,a:a.,,d [,,c,c].,,a:,,c.b [,,c,,a].a:,,c.,d |\
+[,b,,a1].,a:,b.a [f,,f2].i ,,a1.a:,e2 ,,,c1.a:c.d |\
+[f,,,g1].,,g:,,f2 ,,a1.,c:,e.a [c,,b].,,c:,,d2 ,,,,c1.,b:,a.,,d |
+% Takt 11
+[,,bc1].,a:a.,e [a,,,,,,,a].,a:,b.,,e [,a,b].,e:c.a [c,,,,,,,a].,a:,b.,,e |\
+[,a,c1].a:d.c [d,,,,,,,a].,a:,b.,,e [,a,b].c:f2 ,,,,,,,,a1.,b:,a.,,d |\
+[,,bc1].,a[a,,,d].c [d,,,a2][#c,,,c] [a,,,d1].,,d:,,c2 ,,,,c1.,a:,b.,d |
+% Takt 14
+[,b,,a1].,,,d:,,,c2 ,,,,,d1.,,b:,,d.,a [,,d,,c].,,,c:,,,b2 ,,,,,,,,a1.i:h.f |\
+[d,,,,a1].f[h,,,,d].a [d,,,a].c[a,,,c].,e [a,,,d].d[,,ec2] ,,,f1.,c[,a,,e].,,e |\
+[,a,b1].,c[,ea].a [c,,b2][,,d,c] [,,bc][a,,,d][,,a,a][,e,,c] |\
+,,,,,a2:,,,c1.,,a :,,b2.,a :,e.a,,,,,,a.a |
+% Takt 18
+,,,,,,,a2:,,,c1.,,a :,,b2.,a :,e.,f,,,,,,,,a.a |\
+,,,,,,,,,a2:,,,c1.,,a :,,b2.,a :,e.,f,,,,,d.a |\
+,,,,a1.,d:,b.,a :,,d.,,b:,,a.,,,c [,,,bc].,,,c:,,a.,,,,d ,,,,c2.,,d |\
+[,,b,,a1].,,a:,,,c2 ,,,,,d1.,,,b:,,,c.,,a [,,b,d].,a:,,d.,,b [,b,,,a].,a:,,d.,,b |
+% Takt 22
+[,,d,,b1].,b:,a.,,d [,,ca].,,d:,a.,b [,d,,c].b:a.,d [a,,,,e].,d:,b.,a |\
+[,b,,a1].,a:,,d2 ,,,,d1.,,c:,,d.,a [,b,d].a:,d.,b [b,,,a].a:,d.,b |\
+[,d,,c1].b:a.,d [,cb].,d:a.b [d,,c].g:f.d [f,,,e].d:,g.,f |
+% Takt 25
+[b,,a1].a:b.f [,c,,,d].,a:,c.f [,d,,,,d].,c:,d.f [a,,,a].,d:a.d |\
+[b,,,,,a1].a:,d.a [b,,a].,d:b.,b [,,e,,d].,,d[,,e,,,d].f [,,e,,a].d[,,e,,,a].,g |\
+[a,,,,,,a1].,d:,b.,d [a,,,d].,b:a.,,e [,,dd].,,b[,,dc].d [,,da].b[,,d,d].a |
+% Takt 28
+[,d,,b1].,b[,,e,a].,b [,d,,,d].,,e[,d,,,b].,,d [,,b,,a].,,,d[,,ba].b [,,,fe].a[,,bc].,d |\
+[,c,,,,,,,a1].,a:,,d2 ,,,,a1.,,,c:,,,d.,,,f [,,,,ea].,,e:,,d.,,,f [a,,,e].,,,f:,,,d.,,,c |\
+[,,,d,,,,,a1].,,d:,,b.,,,d [,d,,a].,,,d:,,,c.,,,a [,,,,ea].,,e:,,d.,,,f [a,,,e].,,,f:,,,d.,,,c |
+% Takt 31
+[,,,d,,a1].,,d:,,b.,,,d [,d,,,b].,,,d:,,,c.,,,a [,,,b,d].,,,d:,,,b.,,,a ,,,b.,,c[,,b,a].,,a |\
+[,,b,b1].,,c:,,b.,,a ,,b.,e[,d,,,a].,c [,d,,,b2][,,d,,,a] [d,,,a1].b[#a,,,,,,,,a].,d |\
+[,d,,,,a2]:b1.,d :,,d2[,,ea1].,,,,e ,,,a2:a1.b :f2[g,,,,,a] |\
+,,,,,,,a2:a1.,,g :,,,g2[,,d,d1].,,,,c ,,,,d2:,e1.a :e2[f,,,,,,a] |
+% Takt 35
+,,,,,,,,a1.d:b.a :,d.,b:,a.,,d [,,c,,a].,,d:,a.,,,d :,,,c.,d:,b.,a |\
+[,b,,,,,,,a1].,a:,b.a [,,ca].,,a:,,c.a [,,d,d].,,c:,,d.a [,a,c].,,d:,a.,d |\
+[,b,,a1].,a:,,d.,a [,b,,,,,,,a].,,d:,b.,,b [,,,d,,a].,,,c[,,,dd].a [,,,dc].,d[,,,da].,b |
+% Takt 38
+[,a,,,d1].,,d:,,b.,,d [,ab].,,,f:,a.,,,d [,,,c,,,a].,,,a[,,,cc].,d [,,,ca].,b[,,,c,d].,a |\
+[,,d,,b1].,,b[,,,d,a].,,b [,,d,,,a].,,,d[,,d,,,,a].,,,c [,,,b,,,,a].,,,,e[,,,ba].,b [,,,b,c].,a[,,,bc].,,d |\
+[,,c,,a1].,g:,f.,d [h,,,,a].,g:,f.,d [,,,g,a].,g:,f.,d :h.,g:,f.,d |
+% Takt 41
+[,c,,,,,,,a1].,,e:,,d.,,b [a,,,,,,,,a].,,e:,,d.,,b [,,,,e,,,,a].,,e:,,d.,,b :a.,,e:,,d.,,b |\
+[,,a,,,a1].,e:,d.,b [f,,,,,a].,e:,d.,b [,,a,,,a].,e:,d.,b :f.,e:,d.,b |\
+[,a,,,d1].,,,g:,,,f.,,,d [,d,,,d].,,,g:,,,f.,,,d [,,,,cd].,,,g:,,,f.,,,d :,d.,,,g:,,,f.,,,d |
+% Takt 44
+[,,,c,,,a1].,c:,b.,,e [d,,,,,,a].,c:,b.,,e [,,,c,,,a].,c:,b.,,e :d.,c:,b.,,e |\
+[,,d,,b1].,,c:,,d.,c [,d,d2].b ,,,,,,,,a1.,,d:,,c2 :,,,a1.,,d:,a.,b |\
+[,d,,,e1].,,,d:,,,c2 ,,,,c1.,,a:,,c.,,d [,a,,,a].,,,,e:,,,a2 ,,,,,e1.,,,d:,,,c.,,,a |
+% Takt 47
+[,,,,df1].,,,c:,,d.,,c [,,d,,a].,,,c:,,,d.,,,b [,,,c,e].,,c:,a.,,d [,a,,,a].,,,c:,,,d.,,,b |\
+[,,,ca1].,,d:,b.,a [,b,,,a].,,,c:,,,d.,,,b [,,,c,e].,a:,d2 ,,,,,a1.b:a.,d |\
+[,b,,a1].a[f,,,,b].h [i,,,,,a2][h,,,,a] [f,,,,b1].,d:,c2 ,,,,,a1.a:b.d |
+% Takt 50
+[b,,,,,a1].,,e:,,d2 ,,,,,,,a1.,b:,d.a [,d,,,,,,a].,,d:,,c2 ,,,,,a1.,,,d:,,,c.,,,a |\
+[,,,,d,,,,a1].,,,a:,,,,d.,,,,c :,,,,d.,,,d[,,,c,,,,a].,,,b [,,,c,,,a].,,,d:,,,c.,,,b :,,,c.,,e[,,d,,,a].,,c |\
+[,,d,,,,a2][,,,c,,,,,a] [,d,,,a1].,b[,a,,,a].,,d [,,db,c];,a:,b.,,d :,b.,a:,,d.,,b |
+% Takt 53
+[,,,edf1].,,,f:,,d.,,,e :,,d.,,,f:,,,e.,,,c [,,dbc,,,a4],4 |\
+[,,ccc,a4] ,1.,,,c1:,,a.,,c [,,dc,,,a];,a:,b.,d :a.,d:b.a |\
+[,d,cce1].,b:,a.,,d :,,c.,,,d:,,,c.,,,a [,,,,df2][f,,,,,d][,,,,c,a][e,,,,a] |\
+[L:1/8][ffgha,,,,a8] |]
+S:https://www.folktunefinder.com/tunes/154024
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bach/bwv997.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

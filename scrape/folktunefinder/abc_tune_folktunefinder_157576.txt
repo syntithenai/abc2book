@@ -1,0 +1,27 @@
+X: 1
+T:The Fern Glade
+M:4/4
+L:1/8
+Q:q
+C:=A9 Sean Kenan (28 Dec 1985) Australia
+R:Reel
+O:Australia
+Z:Alex Burke Canberra 10/01/2001
+K:G
+"G"G3 B "D"AGFA | "C"G~E3 "Em"B,~E3 | "G"G ~B3 dBGF | "D"DFAF AcFA |
+"G"GFGB "D"AGFA | "C"G~E3 "Em"BGEB | "G"(3(GFE) B,A, "Em"B,EEF |1 "G"GBFG "C"E2 DF :|2 "G"GBFG "C"E2GB ||
+"Em"eBef "G"~g2fg | "Em"ebge "G"bgeg | "D"~f3a "G"gfdB | "C"cBcd "D"A2GA |
+"G"B~G3 "D"cAFA | "G"BGED "Em"B, ~E3 | "G"(3(GFE) B,A, "Em"B ,EEF | "G"GBFG "C"E2GB :|
+% ABC2Win Version 2.1 10/01/2001
+S:https://www.folktunefinder.com/tunes/157576
+S:http://trillian.mit.edu/~jc/music/abc/mirror/TimShirley/FernGlade.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/TimShirley/FernGlade.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

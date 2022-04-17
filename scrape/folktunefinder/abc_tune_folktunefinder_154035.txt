@@ -1,0 +1,38 @@
+X:2595
+T:The rakes of Kildare
+T:(Double jig)
+C:anon., arr. Frank Nordberg
+O:Ireland
+R:Double jig
+Z:(C) 2001 Arranged by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/ireland/ra/rakes-kildaire/rakes-kildaire-hrp2.abc
+M:6/8
+L:1/8
+Q:3/8=136
+K:G
+V:1
+D|D2 G {A}GFG|ABc d2e|=fef ded|cAG F2D|
+DGG {A}GFG|ABc d2e|=fed cA^F|G3 G2::d|
+{a}gfg def|gfg a2g|=fef ded|cAG F2d|
+{a}gfg def|gfg a2g|=fed cA^F|G3 G2:|
+V:2 clef=bass
+z|g6|d3d'3|d3a3|d'3d3|
+g6|d3d'3|d'3d3|g2d'g2::z|
+g3d'3|g3d'3|d3a3|d'3d3|
+g3d'3|g3d'3|d'2ad3|g2d' d'2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/154035
+S:http://abc.musicaviva.com/tunes/ireland/ra/rakes-kildaire/rakes-kildaire-hrp2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/ra/rakes-kildaire/rakes-kildaire-hrp2.abc
+% Rhythm Double jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

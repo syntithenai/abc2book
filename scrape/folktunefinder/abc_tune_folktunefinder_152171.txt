@@ -1,0 +1,24 @@
+X:139
+T: Die drei Hexen
+N: Q1080E
+O: Suedosteuropa, Jugoslawien, Gottschee
+N: Melodievergleich zu Q0080, anderes Lied "Maria im Rosengarten" .
+R: Legenden- , Marien - Lied, geistlich
+M: 4/4
+L: 1/8
+K: F
+C2 | F2F2A2GA | c4B2c2 | A6
+c2 | BBc2AGF2 | A4G4 | F6
+S:https://www.folktunefinder.com/tunes/152171
+S:http://ifdo.ca/~seymour/runabc/esac/ballad40.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/ballad40.abc
+% Rhythm Legenden- , marien - lied, geistlich
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

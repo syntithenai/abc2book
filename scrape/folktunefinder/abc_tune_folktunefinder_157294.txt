@@ -1,0 +1,22 @@
+X:20
+T:Polska fr{\aa}n N{\aa}s
+R:polska K1
+A:N{\aa}s, Dalarna
+Z:id:hn-k1-20
+M:3/4
+L:1/8
+K:Dm
+A2 aa/a/ g>a|f2 fe/d/ e>f|Se>^c A<c d>e|S(3fdf e<^c A2-|
+A2 aa/a/ g>a|f2 fe/d/ e>f|Se>^c A<c d>f|S(3e^ce d4:|
+|:A2 A^c d>e|f2 fe/d/ e>f|Se>^c A<c d>e|S(3fdf e<^c A2-|
+A2 A^c d>e|f2 fe/d/ e>f|Se>^c A<c d>f|S(3e^ce d4:|
+S:https://www.folktunefinder.com/tunes/157294
+S:http://www.norbeck.nu/abc/s/hnk1p0.abc
+% Rhythm Polska k1
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

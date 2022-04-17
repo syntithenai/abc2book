@@ -1,0 +1,38 @@
+X:1
+T:Knappenschwerttanz
+C:traditionell, Leopold Khals
+R:volkstanz
+A:Salzkammergut
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte ausgabe, Verlag E. Friedhuber, Wels, 2000
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:4/4
+L:1/16
+K:D
+.f2.g2 ||\
+.a4 .f4 .a4 .f4 | a2(ga) .b2.a2 g4 .g2.a2 | c'4 .g2.a2 c'4 .g2.a2 | c'3b .a2.g2 f4 .f2.g2 |
+.a4 .f4 .a4 .f4 | a2(ga) .b2.a2 g4 .g2.a2 | c'4 .g2.a2 c'4 .g2.a2 | c'3b .a2.g2 f4 :|
+(f2g2) |:\
+.a2.f2.a2.f2 .a2.f2 a2(ba) | .g2.e2 g2(ag) .f2.d2 f2(fg) | .a2.f2.a2.f2 .a2.f2 a2(ba) |1 .g2.e2 g2(ag) .f2.f2.f2 (fg) :|\
+                                                                                      [2 .g2.e2 g2(ag) .f2.f2.f2 z2 ||
+d4 (efga) | (3b2b2b2 g4 | (3f2f2f2 (3e2e2e2 | (3d2d2d2 B4 |
+d4 (efga) | (3b2b2b2 g4 | (3f2f2f2 e2f2 |1 .g2.b2.g2 z2 :|\
+                                        [2 .g2.b2.g2 "_>dal segno"(fg) ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/170348
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/knappenschwerttanz.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

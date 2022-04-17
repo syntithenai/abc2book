@@ -1,0 +1,27 @@
+X:2
+T:Si Bheag, Si Mhor
+R:waltz
+C:Turlough Carolan
+O:Ireland
+M:3/4
+L:1/8
+K:D
+de |: f4      ed | d4   ed | B4    A2 | F4  FA |\
+      B3 A (3Bcd | e4   de | f4 (3efe | d4  f2 |
+      B4      e2 | A4   d2 | F4 (3EFE | D4  f2 |\
+      B4      e2 | A4   dc | d6       | d4  de :|
+      f4      ed | edef a2 | b4    a2 | f4  ed |\
+      e4      a2 | f4   ed | d4    B2 | A4  BA |
+      F4   (3EFE | D4   f2 | B4    e2 | A4  fa |\
+      bagf    ed | e4   dc | d6       |1 d4 de :|2 d6 |]
+S:https://www.folktunefinder.com/tunes/156935
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Ocarolan.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

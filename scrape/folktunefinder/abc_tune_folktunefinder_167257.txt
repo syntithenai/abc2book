@@ -1,0 +1,23 @@
+X:1
+T:Pretty Peg
+R:reel
+D:Altan: Harvest Storm
+D:Paddy Glackin: In Full Spate
+Z:id:hn-reel-459
+M:4/4
+L:1/8
+K:D
+defd ADFA|defd egfe|defd AFDF|1 FEED CEA,2:|2 FEED CEEG|]
+FDAD BDAD|FDAD CEEG|(3FED AD BDAD|FDAD A,DDE|
+FDdD cDBD|ADFD CEEG|FAdf ecdB|AFGE D2 (3ABc|]
+S:https://www.folktunefinder.com/tunes/167257
+S:http://www.tomkeays.com/music/wiki/irish/sets/reels_john_stewarts?rev=1156295198
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:reels:1_pretty_peg.abc
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:sets:1_pretty_peg.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

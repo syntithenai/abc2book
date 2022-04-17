@@ -1,0 +1,49 @@
+X:1
+T:Gavotte : Suite Termen
+%%scale 0.75
+Z:Roger Ngaret (Septembre 99)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:G
+T:Ton kentan A (noire=152)
+M:4/4
+L:1/16
+K:G
+"G"D2G2 G2E2 F2G2 "D"A4 | A2G2 F2E2 "G"D4 D4 :: 
+D2G2 G2E2 F2G2 "D"A2B2 | c2B2 A2F2 "G"G4 G4 :|
+T:Ton kentan B
+G2B2 d2d2 "D"c2d2 "G"B4 | G2B2 "D"c2A2 "G"B4 B4 :: 
+d2B2 G2G2 (3A2"Am"B2c2 "D"A4 | A2c2 B2A2 "G"G4 G4 :|
+T:Ton kentan C
+B2A2 G2A2 B2G2 "D"A4 | A2B2 (3c2B2A2 "G"B4 B4 :: 
+B2A2 G2A2 B2G2 "D"A2F2 | F2G2 (3A2B2A2 "G"G4 G4 :|
+T:Tamm kreiz
+K:C
+"Am"B2g2 g2g2 g2g2 e2d2 "Em"B6c2 d2e2 d2B2 "Am"c4 A4 :|
+M:6/8
+A4 B2 c6 | c2B2A2 "Em"B6 | B4 e2 e4 d2 | c4 B2 "Am"c4 A2 |
+A4 B2 c6 | c2B2A2 "Em"B6 | B4 e2 e4 d2 | c4 B2 "Am"A6 |]
+T:Ton diwezhan A (noire=156)
+K:G
+"G"G2B2 c2B2 G4 "D"F2G2 | A2B2 cBA2 "G"G2B2 A4 | 
+"D"A2B2 c2B2 G4 F2G2 | A2B2 cBA2 "G"G4 G4 :: 
+B2c2 d2e2 d2B2 d4 | dcB2 A2B2 G2B2 A4 | 
+B2c2 d2e2 d2B2 d4 | dcB2 A2B2 G4 G4 :|
+T:Ton diwezhan B
+G2F2 G2A2 B2c2 d4 | dcB2 A2B2 G4 G4 ::
+G2d2 c2d2 e2d2 "D"c2B2 | A2B2 cBA2 "G"B2c2 d2B2 |
+G2B2 A2B2 c2B2 "D"d4 | dcB2 A2B2 "G"G4 G4 :|
+S:https://www.folktunefinder.com/tunes/160657
+S:http://termen.free.fr/danses/termen/GavotteSuiteTermen.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

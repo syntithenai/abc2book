@@ -1,0 +1,22 @@
+X: 1
+T:Farmer's tune
+M:4/4
+L:1/8
+K:D
+Ac|\
+d2fe cece | defd A2Ad | B2b2bagf | gfed dcBA |\
+d2fd cece | defd A3A | Bbag fedc | e4 d2::\
+fg|\
+a2af afaf | bagf g2ef | g2ge gege | agfef3A |\
+d2fd cece | defd A2Ad | Bbag fedc | e4 d2:|
+S:https://www.folktunefinder.com/tunes/157267
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Farmers_tune_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/fa/Farmers_tune_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

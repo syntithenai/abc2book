@@ -1,0 +1,39 @@
+X:1
+T:Donkey Riding
+S:as played by Chris Newberry, Squash Beetle Morris
+N:
+H:abcTranscriber: Alex Boster 
+A:Bledington
+O:English
+R:Reel
+P:A(AB)$^4$
+%P:A(AB)4
+%:
+%:
+K:G
+M:4/4
+L:1/8
+P:A
+ G3 A B2 B2 | c2 A2 B4 | B2 A2 A2 GA | B2 A2 A2 d2 |\
+ G3 A B2 d2 | cBAG B4 | B2 A2 B2 ^c2 | d4 d4 ||
+P:B
+ |: e4 d4 | e2 g2 d4 | B2 A2 A2 GA | B2 A2 A2 d2 |\
+ e4 d4 | e2 g2 d4 | B2 A2 A2 BA | G4 G4 :|
+%P:A (as Newberry originally transcribed)
+% G3 A B2 B2 | c2 A2 B4 | B2 A2 A2 GA | B2 A2 A4 |
+% G3 A B2 B2 | c2 A2 B4 | B2 A2 B2 ^c2 | d4 d4 ||
+%P:B (as Newberry originally transcribed)
+% |: e4 d4 | e2 g2 d4 | B2 A2 A2 GA | B2 A2 A4 |
+% e4 d4 | e2 g2 d4 | B2 A2 A2 BA | G4 G4 :|
+S:https://www.folktunefinder.com/tunes/153892
+S:http://www.ucolick.org/~sla/morris/music/Bledington/donkey_sbm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

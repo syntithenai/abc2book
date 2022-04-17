@@ -1,0 +1,23 @@
+X:74
+T: Graf Friedrich
+N: Q0048
+O: Suedosteuropa, Rumaenien, Siebenbuergen, Schoenbirk
+N: Anhaengsel in der letzten Zeile.
+R: Ballade, Hochzeit, Mord / Unfall, Tod
+M: 3/4
+L: 1/8
+K: D
+D | DDAGA2 | G=FE2z
+D | =FED2A2 | G=FF2
+FE | D2A2D=F | =FED
+DDE | =F2D2FE | D2zAG=FE | D2z3
+S:https://www.folktunefinder.com/tunes/151603
+% Rhythm Ballade, hochzeit, mord / unfall, tod
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords
