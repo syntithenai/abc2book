@@ -1,0 +1,21 @@
+X:3
+T:Harvest Home
+R:hornpipe
+O:Ireland, Scotland, England
+M:4/4
+L:1/8
+K:D
+AF | "D" DAFA DAFA | defe "(G)" dcBA | "A" eAfA "(G)" gAfA | "A" (3(efe) (3(dcB) (3(ABA) (3(GFE) |
+     "D" DAFA DAFA | defe "(G)" dcBA | "A" eAfA       gece | "D/G" d2 f2 "D" d2 :|
+cd | "A" eA ~A2 fA ~A2 | "(G)" gAfA "A" eA ~A2 | eAfA "(G)" gAfA | "A" (3(efe) (3(dcB) (3(ABA) (3(GFE) |
+     "D" DAFA DAFA | defe "(G)" dcBA | "A" eAfA       gece | "D/G" d2 f2 "D" d2 :|
+S:https://www.folktunefinder.com/tunes/142609
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

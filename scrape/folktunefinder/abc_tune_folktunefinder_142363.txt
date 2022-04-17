@@ -1,0 +1,34 @@
+X: 1
+T:Sot terne
+G:Kazimodal
+R:Bourr\'ee 2 temps
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=145
+P:A4
+M:4/4
+%%MIDI gchord c2ffccf2
+%%MIDI chordprog 105
+%%MIDI chordvol 80
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 69
+K:EPhr
+P:A
+|: "Em"E>F GA BG EB | "Dm"A>G FD E>F ED |\
+"Em"E>F GA BG EB | "F"AG FD "Em"E>E E2 :|
+K:Dm
+|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF |\
+ "Gm"BA Gd "Am"c>B AG | "Bb"B>A GF "C"G>G- G>G :|
+S:https://www.folktunefinder.com/tunes/142363
+S:http://kazimodal.trad.org/partitions/bourrees_2/saut_terne/saut_terne.abc
+% Rhythm Bourre?e 2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

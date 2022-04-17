@@ -101,6 +101,8 @@ function domInit() {
       var abc = json2abc(tune.songNumber,tune)
       console.log('abc half ',abc)
       $('#editor').val(abc)
+      $('#editor').keyup()
+      $('#wizards').hide()
   })  
   $('#halvenotelengthsbutton').click(function(e) {
       e.stopPropagation()
@@ -109,7 +111,8 @@ function domInit() {
       var abc = json2abc(tune.songNumber,tune)
       console.log('abc half ',abc)
       $('#editor').val(abc)
-      //$('#editor').keyup()
+      $('#editor').keyup()
+      $('#wizards').hide()
   })  
   
   

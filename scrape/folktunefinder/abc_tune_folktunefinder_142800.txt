@@ -1,0 +1,31 @@
+X: 1
+T: The Boys of Wexford
+C: R-25
+C: British Isles
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: G
+D4| "G"G6 A2| "C"G2F2 "D7"E2D2| "G"d6 e2| "D7"d4 c4|
+    "G"B4 G4| "Em"B2A2 G2F2| "C"E8-| E4 "D7"F4 |
+    "G"G6 A2| "C"G2F2 "D7"E2D2| "G"d6 e2| "D7"d4 c4|
+    "G"B6 A2| "A7"G2A2 B2^c2| "D"d8-| d6 |]
+\
+d2| "C"e6 c2| g4 e4| "G"d6 c2| "Em"B4 d4|
+    "Am"c4 "(Em)"B4| "Am"A4 "(Em)"G4| "C"E8-| E4 "D7"F4|
+    "G"G6 A2| "C"G2F2 "D7"E2D2| "G"d6 e2| "C"d4 "D7"c4|
+    "G"B4 G4| "Am"B2A2 "D7"G2F2| "G"G8-| G4|]
+%%text 9/1/98.  Hornpipe.
+S:https://www.folktunefinder.com/tunes/142800
+S:http://roaringjelly.org/music/reel/R025_Boys_of_Wexford.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R025_Boys_of_Wexford.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R025_Boys_of_Wexford.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

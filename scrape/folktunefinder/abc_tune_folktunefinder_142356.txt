@@ -1,0 +1,31 @@
+X:1
+T:Bourres du Prigord
+Z:Roger Ngaret (94-95)
+R:bourree
+C:Trad.
+S:
+A:Prigord
+Q:3/8=120
+M:6/8
+L:1/16
+K:C
+T:A
+K:C
+G2 | "C"c4Bc d4 e2 | "G"f2e2d2 "C"e2c2G2 | c4Bc "G"d4 e2 |
+f2e2d2 "C"c4 :: g2 | g4ag "G"f2d2e2 | f2e2d2 "C"e2c2g2 |
+g4ag "G"f2d2e2 | f2e2d2 "C"c4 :|
+T:B
+G2 | "C"c2e2e2 "G"d2 fe dc | B2d2d2 "C"c2e2G2 |
+c2e2e2 "G"d2 fe dc | B2d2d2 "C"c4 :: 
+ef | g2g2a2 "G"d4de | f2 gf ed "C"e2c2 ef |
+g2g2a2 "G"d4de | f2 gf ed "C"c4 :|
+S:https://www.folktunefinder.com/tunes/142356
+S:http://termen.free.fr/danses/termen/BourreesduPerigord.abc
+% Rhythm Bourree
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

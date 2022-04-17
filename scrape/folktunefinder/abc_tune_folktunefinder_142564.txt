@@ -1,0 +1,27 @@
+X:1
+T:Rolling in the Barrel
+R:reel
+C:traditional Irish
+D:An Historic Recording of Irish Music
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+N:
+H:
+L:1/8
+Q:333
+M:C|
+K:Eminor
+E2 ~E2 B(E ~E2)|TB2 AF DEFD|E2 ~E2 B(E ~E2)|(3(BcB) Ad BE[1{G}(ED):|[2E2||
+||e2 (3(gfe) be (3(gfe)|~d3 f a2 fd|e2 ge be (3(gfe)|dBAc B(E ~E2)|
+e2 (3(gfe) be (3(gfe)|~d3 f a2 fd|efge fdeB|(3(dcB) Ac B(E ~E2)|]
+S:https://www.folktunefinder.com/tunes/142564
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

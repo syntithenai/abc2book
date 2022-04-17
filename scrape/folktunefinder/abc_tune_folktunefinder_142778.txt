@@ -1,0 +1,24 @@
+X:3
+T:King Billy's March
+M:6/8
+R:Jig
+L:1/8
+Q:180
+N:From Feldman and O'Doherty's "The Northern Fiddler"
+N:As played by Simon Doherty
+K:D
+|:Bcd|eAA BAA|eAA Bcd|eAA fed|BGG Bcd|
+eAA BAA|eAA Bcd|faf {f}gfe|dBG:||
+|:BdB|{AB}A3 a3|ged {g}e2A|A2A a2{A}B BAG BdB|
+{AB}A2A a2a|gef g2f|gba {ga}g2e|dBG:||
+S:https://www.folktunefinder.com/tunes/142778
+S:http://paythereckoning.com/tnf.txt
+S:http://www.paythereckoning.com/tnf.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

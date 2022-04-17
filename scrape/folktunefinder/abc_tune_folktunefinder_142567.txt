@@ -1,0 +1,28 @@
+X:4
+T:Bunker Hill
+R:reel
+C:traditional Irish
+D:An Historic Recording of Irish Music
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:Dmix
+|:cA|G(E ~E2) D3 D|(3(EFG) AB c2 BG|ABAG E(G ~G2)|ABcA d2cA|
+G(E ~E2) D3 D|(3(EFG) AB c2 BG|ABAG E(G ~G2)|ABcA d2:|
+|:cA|G(c ~c2) e(c~c2)|GccB cBAG|A(d~d2) f(d~d2)|Addc dcAG|
+(3(EFG) AB cedB|cedB c2Bc|dBcA BGEG|ABcA d2:|
+|:ag|f(d ~d2) fdad|fadf a2 gf|ge e/e/e gebe|gbeg b2 ag|
+f(d ~d2) A(d ~d2)|dcAB c2Bc|dBcA BGEG|ABcA d2:|
+S:https://www.folktunefinder.com/tunes/142567
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

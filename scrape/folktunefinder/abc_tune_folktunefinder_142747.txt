@@ -1,0 +1,26 @@
+X: 4
+T: Stan Chapman's
+C: Jerry Holland
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: 3/8=112
+K: A
+|: F \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | ecA "E"BAF \
+| "A"E3 EFA | "E"B3 Bce | "A"fea fec | "E"ecA "A"A2 :|
+|| f\
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "A"cAA A2 ||
+|| f\
+| "A"e2e ecA | "D"f2f fga | "A"fec "E"BAB | "F#m"cAF "D"F2f \
+| "A"ecA ecA | "D"fdf fga | "A"fec "E"BAB | "A"cAA A2 |]
+S:https://www.folktunefinder.com/tunes/142747
+S:http://www.ericdancepiano.com/MNAS/MNASsupp.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

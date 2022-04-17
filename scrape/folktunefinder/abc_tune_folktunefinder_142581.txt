@@ -1,0 +1,31 @@
+X:18
+T:The Pipe on the Hob
+R:jig
+O:Ireland
+D:An Historic Recording of Irish Music
+N:Fiddle uses some  neutral 3rds & neutral 7ths.
+H:Not to be confused with ONMI #705(3 part Am jig,  same title)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>                          
+L:1/8
+Q:300
+M:6/8
+K:D
+A|{e}dcd A2 G|F2 D DED|~E3 =cBc|EDC D2 A|
+d=cB cBA|BAG A2 G|EDE =cBc|E2 D D2:|
+|:e|f2 d dcd|f2 d dcd|edB =c2 d|ede age|
+[1f2 d dcd|f2 d dcd|ede age|edc d2:|
+[2fef gfg|afa ~g2 e|fed eag|edc d2|]
+S:https://www.folktunefinder.com/tunes/142581
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -56,7 +56,7 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
                 + tune.abccomments + "\n"
     
     
-    console.log('ABC OUT', tune, songNumber, tweaked)
+    //console.log('ABC OUT', tune, songNumber, tweaked)
     return tweaked
   } else {
     return ''

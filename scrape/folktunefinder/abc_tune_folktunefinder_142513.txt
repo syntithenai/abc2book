@@ -1,0 +1,53 @@
+X:0
+T: Boys of Ballisadare
+K: G
+M: 4/4
+L: 1/8
+C: Reel
+P:1
+dG (3G/2G/2(G d)(GeG)|dGG(A BA)AB|dG (3G/2G/2(G d)ed
+B|AcBA G(E{G}ED)|dG (3G/2G/2(G d)(GeG)|dGG(A BA)AG|E
+FG
+B edBG|AcBA G(E{G}ED)||
+P:2
+{f}g3(a (3bag) (3(agf)|(gf)g(a bg)df|gfga bgaf|gfed
+Bde(f|{a}g2)ga bgaf|gfg(a bg)df|gbag f(edB|A2) B
+A G(E{G}ED)||
+P:3
+Bd (3d/2d/2(d B)dg(d|Bd)gd BAAc|Bd (3d/2d/2(d e)Bd
+B|AcBA G(E{G}ED)|Bd (3d/2d/2(d B)dg(d|Bd)gd BAAB|e
+~B3
+e(BdB|A2) BA G(E{G}ED)|]
+T:Mary Finn's
+M:4/4
+L:1/8
+R:Reel
+C:Traditional
+K:D Ionian
+d2fd e~A3 | BAFA BAFB | ABde faaf | g2fg egfe |
+~d3f e~A3 | BAFA BAFB | ABde faaf | gece ~d3e ::
+fgaf ~d3e | fgaf e~A3 | BAFB Adfa | bfaf feea |
+b~f3 a~f3 | defd efdB | ABde faaf | gece d3e :||
+T:Soldier's Joy
+M:4/4
+L:1/8
+R:Reel
+C:Traditional
+S:Chris Williscroft
+K:D Ionian
+AB | AGFE DEFG | Ad2d d2AB | AGFE DEFG | EE2E E2AB |
+AGFE DEFG | Ad2d d2ag | fedf edce | d2 [d4f4] :||
+dc | defg abaf | edef gfec | defg abaf | edcB A2Bc |
+defg abaf | edef geag | fedf edce | d2 [d4f4] :||
+S:https://www.folktunefinder.com/tunes/142513
+S:http://trillian.mit.edu/~jc/music/abc/mirror/uk.msnusers.com/BoysofBallisadare.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

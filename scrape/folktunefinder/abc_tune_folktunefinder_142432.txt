@@ -1,0 +1,30 @@
+X:18
+T:Young Catherine
+R:harp tune
+D:Snug in the Blanket,P.O'Brien,J.Gans,D.Sproule
+C:O'Carolan
+N:insead of using a pause symbol, an eighth note was added to the pick up
+B:O'Neill'Music of Ireland (A minor setting)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:196
+M:C
+K:Gdor
+D2 G>F G3 A|B2 {cB}A(B/A/) G2 AB|c3 d cA GA|F3 GA2 GF|
+D2 G>F G3 A|B2 {cB}AB/A/ G2 gf|d2 cB/A/ Bc (A/B/A)|G2 GD d4:|
+||[M:3/8]D GA|[M:C]B>c de f3 f/g/|fd cd f2 cB|A2 f>d cA GA|F2 FG A2 GF|
+B2 {cB}A>F G3 D|G>A Bc B/c/d cA|de f>g fd cA|G2 GD d4||D2 G>F G4|]
+S:https://www.folktunefinder.com/tunes/142432
+S:http://cranfordpub.com/tunes/abcs/GansOBrien.abc
+S:http://www.cranfordpub.com/tunes/abcs/GansOBrien.abc
+% Rhythm Harp tune
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:1
+T:The Boys of the Town
+C:traditional, Ireland
+Z:Laurenz Wiskott 2003-06-07
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+|: D | \
+"G"(G{A}G{F}G) GBd | "G"edB "G"dBG         | (G{A}G{F}G) GBd | "Em"edB "D"AFD | 
+"G"(G{A}G{F}G) GBd | "G"edB "G"(g{a}g{f}g) | "Em"edB  "D"AGA | "G"BGG G2 :| B
+|: "D"def "G"(g{a}g{f}g) | "D"afd "Em"edB | "D"def "G"(g{a}g{f}g) | "D"afd "Em"e2d |
+[1 "D"def "G"gfg | "D"afd "Em"efg | "Em"edB "D"AGA | "G"BGG (G{A}G{F}G) :|
+[2 "D"def "G"gbb | "D"faa "Em"efg | "Em"edB "D"AGA | "G"BGG G2 |]
+%
+% version with intro and without chords to make a midi and to practice with
+%D3 D3 DDD DD |: D | \
+%(G{A}G{F}G) GBd | edB  dBG        | (G{A}G{F}G) GBd | edB AFD | 
+%(G{A}G{F}G) GBd | edB (g{a}g{f}g) | edB        AGA | BGG G2 :| B
+%|: def (g{a}g{f}g) | afd edB | def (g{a}g{f}g) | afd e2d |
+%[1 def gfg | afd efg | edB AGA | BGG (G{A}G{F}G) :|
+%[2 def gbb | faa efg | edB AGA | BGG G2 :|
+%
+W:
+W:___________________________________________________________________________
+W:Set in abc-notation by Laurenz Wiskott (http://itb.biologie.hu-berlin.de/~wiskott/).
+W:Source: O'Neill's Music of Ireland (over 1,000 Fiddle Tunes), Miles Krassen, 
+W:\   Oak Publications, New York, 1976, ISBN 0.8256.0173.8, p. 29.
+W:Copyrights: none.  All information without any warranty.
+S:https://www.folktunefinder.com/tunes/142775
+S:http://itb.biologie.hu-berlin.de/~wiskott/Music/Irish_Folk/The_Boys_of_the_Town.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

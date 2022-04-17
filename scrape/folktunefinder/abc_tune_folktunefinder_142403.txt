@@ -1,0 +1,32 @@
+X: 1
+T: Boy-Girl Tune
+M: 5/4
+L: 1/8
+R: jig
+K:F#min
+|:FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA|
+[M:5/4]FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA:|
+|:[M:6/8]FG/A/B/ BAB|[M:7/8]c2E BEAc|B2E AEGB|[M:6/8]ABc GAG|
+FG/A/B/ BAB|[M:7/8]c2E BEAc|B2E AEGB|[M:6/8]ABc GAG:|
+|:[M:5/4]FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA|
+[M:5/4]FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA:|
+|:[M:6/8]FG/A/B/ BAB|[M:7/8]c2E BEAc|B2E AEGB|[M:6/8]ABc GAG|
+FG/A/B/ BAB|[M:7/8]c2E BEAc|[1 B2E AEGB|[M:6/8]ABc GAG:|[2 B2A G/A/BG|[M:7/8]AcA B=GGF|
+|:[M:6/8]Bcd dcd|[M:7/8]f2d efed|[M:6/8]c2E AEe|[M:7/8]EAE cdcF|
+[M:6/8]Bcd dcd|[M:7/8]f2d efed|[M:6/8]c2E ABc|[M:7/8]B2=G GAGF:|
+[M:6/8][K:Gmin]^FGA AGA|[M:7/8]c2A BcBA|[M:6/8]GAB BAB|[M:7/8]f2B ^cdcB|
+[M:6/8]AGA AGA|[M:7/8]c2A BcBG|[M:6/8][1 A2D FGA|[M:7/8]G2_E EFED:|[M:6/8][2 A2D FGA|[M:7/8]G2_E EFD2||
+S:https://www.folktunefinder.com/tunes/142403
+S:http://www.thesession.org/tunes/display/3366
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Time_signature 7/8
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

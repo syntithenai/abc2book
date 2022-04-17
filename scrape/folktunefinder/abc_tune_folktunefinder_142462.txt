@@ -1,0 +1,26 @@
+X:0260
+T: "The Boyne Water"       (air)       0260
+C:after Chief  F. O'Neill
+C:moderate
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_VB"AG|E2e2efge|dcBA G2AB|c2BA edcB|ABAG E3D|
+E2e2efge|dcBA G2AB|c2BA edcB|A4A2||
+^cd|e2a2a2b2|a^ge^c d2cd|e2a2^gabg|a3^g e2f2|
+=gfga g2fe|dcBA G2AB|c2BA edcB|A4A2|]
+S:https://www.folktunefinder.com/tunes/142462
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0260-BoyneWater.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0260-BoyneWater.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

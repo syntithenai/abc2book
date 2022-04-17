@@ -1,0 +1,28 @@
+X: 1
+T:Boys Of Bluehill
+M:4/4
+L:1/8
+Q:180
+C:Traditional
+R:Hornpipe
+K:D
+FA|:"D"BAFA D2 FA|"G"BA (3Bcd "A"e2 d e|"D"fagf "A"egfe|"D"dfed "G"B2 dB
+|!
+"D"BAFA D2 FA|"G"BA (3Bcd "A"e2 de| "D"fagf "A"egfe|1"D"dedc d2 FA:|2"D"
+dedc d2 fg|:!
+"D"afdf (3aba gf|"G"gfga (3bc'b ag|"D"fagf "A"egfe|"D"dfed "G"B2 dB|!
+"D"BAFA D2 FA|"G"BA (3Bcd "A"(3efe de|"D"fagf "A"egfe|1"D"d2 dc d2 fg:|2
+"D
+"d2 dc d4 |
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/142600
+S:http://www.blackflute.com/music/tunes/hornpipes/boysblue.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

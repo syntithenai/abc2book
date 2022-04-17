@@ -1,0 +1,29 @@
+X:19
+T:Dunphy's Hornpipe
+R:hornpipe
+O:Ireland
+D:An Historic Recording of Irish Music
+B:O'Neills Mui o Irelan
+H:first recorded by James Morrison
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>                         
+L:1/8
+Q:300
+M:C
+K:G
+(3(DEF)|GDBA G2 g2|f2 ed ecAG|F2 DE FGAc|BGAF GFED|
+GDBA G2 g2|f2 ed ecAG|FAdB cAFG|AGGF G2:|
+|:Bc|dcBd gdBd|(3(gfe) af gdBd|gafg edcd|(3efe d^c d2 ef|
+gedc B2 GB|ecAG FADF|GBdB cAFG|AGGF G2:|
+S:https://www.folktunefinder.com/tunes/142582
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

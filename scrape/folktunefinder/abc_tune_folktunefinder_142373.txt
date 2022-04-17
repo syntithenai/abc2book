@@ -1,0 +1,18 @@
+X:1
+T:The Bowery Grenadiers
+M:4/4
+L:1/8
+K:G
+ d3/2 d/2| ed ^cd B B2 d/2d/2| ed ^cd B3 d/2d/2| ed ^cd B B2 B/2B/2|\
+ Ad ^ce d3 d| ed ^c d/2d/2 B3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009- B d/2d/2|\
+ ed ^cd B3 B/2B/2| A3/2 A/2 d3/2 e/2 ff f3/2 g/2| ag fe d2 d^d| e3/2 ^d/2 e3/2 d/2 e2 fe|\
+ ed dg d3 d/2d/2| d d/2d/2 d/2d/2 d/2d/2 dd d/2d/2 d/2d/2| dd fe d2 d3/2 ^d/2|\
+ e3/2 c/2 Gc e2 fe| ed ^cd g3 B/2=c/2| dd dd d/2d/2 ^cd d/2^d/2| fe cA G3||\
+S:https://www.folktunefinder.com/tunes/142373
+S:http://back.numachi.com:8000/dtrad/abc/BOWRYGRN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

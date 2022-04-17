@@ -1,0 +1,32 @@
+X:12
+T:Doctor O'Neill
+R:jig
+O:Ireland
+D:An Historic Recording of Irish Music
+B:O'Neills Music of Ireland
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>                         
+L:1/8
+Q:300
+M:6/8
+K:D
+dcd AFD|E2 F G2 A|BGB Bcd|AGF EFA|
+dcd AFD|E2 F G2 A|BGB Bcd|1AFD DFA:|2AFD D2||
+|:A|~d3 ceA|dfe dcB|AFA Bcd|AGF EFA|
+~d3 ceA|dfe dcB|AFA Bcd|AFD D2:|
+|:e|~f3 afd|dcd fed|gbg (f/g/af)|gfg eag|
+~f3 afd|dcd fed|gbg fag|fdc d2:|
+|:g|fdf ece|dcB AFA|AFc AFd|AGF E2 g|
+fdf ece|dcB AFA|BGB Bcd|AFD D2:|
+|:E|FAF GBG|FAF FED|(F/G/A)F GBG|AFD E2 D|
+FAF GBG|FAF FED|B2 B Bcd|AFD D2:|
+S:https://www.folktunefinder.com/tunes/142575
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:1
+T:The Boys of Bluehill
+R:hornpipe
+O:Ireland
+M:4/4
+L:1/8
+K:D
+FA | "D" BAFA    D2    FA | "G" BA (3(Bcd) "A" e2 de | "D" fagf "A" egfe | "D" dfed "G" B2 dB |
+     "D" (3(ABA) FA D2 FA | "G" BA (3(Bcd) "A" e2 de | "D" fagf "A" egfe | "D" d2 {e}dc    d2 :| 
+fg | "D" afdf    a2    gf | "G" efga      b2      ag | "D" fagf "A" egfe | "D" dfed "G" B2 dB |
+     "D" (3(ABA) FA D2 FA | "G" BA (3(Bcd) "A" e2 de | "D" fagf "A" egfe | "D" d2 {e}dc    d2 :|
+S:https://www.folktunefinder.com/tunes/142607
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Hornpipes.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

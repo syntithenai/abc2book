@@ -1,0 +1,22 @@
+X:64
+T:Walsh's
+Z: id:dc-hornpipe-56
+R:Hornpipe
+M:C|
+L:1/8
+K:AMaj
+cB|(3ABc EF Ace2|(3def Bc def2|fece aecA|(3Bcd cA BAF2|!
+(3ABc EF Ace2|(3def Bc def2|fece aecA|(3Bcd cB A2:|!
+(3efg|aece fece|aece fecB|ABce fecA|(3Bcd cA BAF2|!
+(3ABc EF Ace2|(3def Bc def2|fece aecA|(3Bcd cB A2:|!
+S:https://www.folktunefinder.com/tunes/142543
+S:http://pagesperso-orange.fr/dylo/abc/HornDCB.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

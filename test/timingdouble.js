@@ -12,6 +12,39 @@ dd B/c/d/B/|[M:2/4]AF Ad/e/|[K:Gm] fd ec|1 d2 d2:|2 d2 dd/e/||
 |:fd de/f/|gf ed/e/|fd Ad|fd/f/ a2|
 fd de/f/|gf ed/e/|fd ec|1 d2 dd/e/:|2 d2 d2||`
 
+abc=`
+X: 1
+T: 1. SO FAHREN DIE DAMEN SO REITEN DIE HERREN
+M:3/4
+L:1/8
+O: Europa, Mitteleuropa, Deutschland, Berlin
+K:G
+R: Kinder -, Schaukel -, Knierreiter -, Spiel - Lied
+D2 | G3AB2 | A2D2
+D2 | A3Bc2 | B2G2
+D2 | D2D2D2 | D2D2
+D2 | D2D2D2 | D2D2
+D2 | G2G2G2 | G2G2
+D2 | G2G2G2 | G2G2z2
+d2D2D2 | D2D2D2
+d2D2D2 | D2D2
+% abc-sessionorg_id undefined
+% abc-sessionorg_setting 0
+% abc-sessionorg_setting_id undefined
+% abc-boost 0
+% Rhythm Kinder -, schaukel -, knierreiter -, spiel - lied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords
+
+
+
+`
+
  
 function isOctaveModifier(letter) {
     return (letter === ',' || letter === "'") 

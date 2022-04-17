@@ -1,0 +1,32 @@
+X:90
+T:Clancy's Jig
+S:The Pipering of Willie Clancy. Vol. 1
+D:Claddagh CC32CD, 1980
+N:1st time through, transcribed by Alan Ng
+Z: id:ng-other-18 Transcribed by Alan Ng alan@alan-ng.net 7 Sept. 2001
+K:GMaj
+M:9/8
+g2e|:d2B G2G AGE|G2E D2G BAG|\
+M:6/8
+A3 B2d|\
+M:9/8
+d2B G2A AGE|G2E D2G BAG|\
+M:6/8
+[1A3 G2B:|2A3 G2{A}G||*
+c2d e2f|gg2 e2d|B2d g2e|d2B G2B|c2d e2f|g2f g2e|d2B G2A|A3 A2G||*
+c2d e2f|gg2 e2d|Bcd g2e|d2B G2B|c2d e2f|g2z g2z|g2z G2B|A/2B/2AG g2e||*
+S:https://www.folktunefinder.com/tunes/142666
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/ng/ng-other.abc
+S:http://www2.redhawk.org:8080/irish/ng/ng-other.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:23
+T:The Boys of Ballysodare
+R:reel
+O:Irish
+D:An Historic Recording of Irish Music
+H:first recorded by Micheal Coleman
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>                        
+L:1/8
+Q:333
+M:C|
+K:G
+dG G/G/G dGeG|dG G/G/G BAAc|dG G/G/G dedB|AcBA GEDE|
+dG G/G/G dGeG|dG G/G/G BAAc|d^cdf eBdB|AcBA GED||
+||a|g3 a bg (3(agf)|gfga bgef|g2 dg bgaf|gfed (3(Bcd) ef|
+gfga bg (3(agf)|gfga bgdg|bgaf gedB|AcBA GED||
+||c|B(d ~d2) Bdgd|Bdgd BAAc|Bd d/d/g eBdB|AcBA GEDc|
+B(d ~d2) Bdgd|Bdgd BAAf|eBBA B2 dB|AcBA GEDE|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/142586
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T:Bourre Valse d'Issoudun
+Z:Roger Ngaret (Novembre 2000)
+R:
+C:Trad.
+S:Tablature de Bernard Loffet
+A:
+M:3/8
+L:1/16
+K:C
+%%rm
+"Em"G2 |: c4 B2 | c4 "Am"Bc | d2e2c2 | d4 G2 | d4 e2 |
+d4 "Em"cB | "Am"A2B2A2 |1 "Em"G4 G2 :|2 G4 e2 |: e2g2e2 |
+"Am"d2f2d2 | "Em"c2 cBcd | e2c2e2 | e2g2e2 | "Am"d2f2d2 |
+"Em"cB "Am"A2B2 |1 "Em"c4 e2 :|2 c4 |]
+S:https://www.folktunefinder.com/tunes/142360
+S:http://termen.free.fr/danses/termen/BourreeValsedIssoudun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

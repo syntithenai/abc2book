@@ -1,0 +1,33 @@
+X:6
+T:Small Potatoes
+R:reel
+C:Chris Langan
+B:Move Your Finger's, The Life and Music of Chris Langan
+S:http://www.cranfordpub.com/books/chris_langan_book.htm
+N:This setting is slighthly different - more fiddle oriented
+Q:333
+L:1/8
+M:C|
+K:G
+d|G2 GB ABGE|G2 gf egdB|GFGB AGBd|(e/f/g) dB cBAB|
+GFGB ABGA|Bdgf g3 d|efgd e2 dB|(e/f/g) dB cBA:|
+|:d|~g3 d edBc|dG ~G2 dGBd|gfgd edBd|egdB cBAd|
+gfgd edBd|g2 bg edBd|efgd e2 dB|(e/f/g) dB cBA:|
+|:d|~G3 B dBGB|gBGB dBGB|~G3 B dBGd|e/f/g dB cBAB|
+~G3 B dBGB|dBGd ~g3d|efgd e2 dB|(e/f/g) dB cBA:|
+|:e|dG G/G/G dGBG|g2 dg egdg|dG G/G/G  dGBd|(e/f/g) dB cBAe|
+[1dG G/G/G dGBG|g2 dB g2 Bd|efgd e2 dB|(e/f/g) dB cBA:|
+[2dG G/G/G  dG G/G/G |dG G/G/G  g2 dg|efgd e2 dB|e2 dB cBA|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/142785
+S:http://www.cranfordpub.com/tunes/abcs/langan.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

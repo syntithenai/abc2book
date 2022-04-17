@@ -1,0 +1,30 @@
+X: 1
+T: Boy-Girl Tune
+M: 5/4
+L: 1/8
+R: jig
+K:F#min
+|:FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA|
+[M:5/4]FCF c2B cdc2|[M:6/8]Bcd d2c|AcA B2G|[M:2/4]BAGA:|
+|:[M:13/8]FG/A/B/ BAB c2E BEAc|B2E AEGB ABc GAG|
+FG/A/B/ BAB c2E BEAc|B2E AEGB ABc GAG:|
+|:FCF c2B cdc2|[M:4/4]Bcd d2c AcA B2G BAGA|[M:5/4]FCF c2B cdc2|[M:4/4]Bcd d2c AcA B2G BAGA:|
+|:[M:13/8]FG/A/B/ BAB c2E BEAc|B2E AEGB ABc GAG|
+FG/A/B/ BAB c2E BEAc|[1 B2E AEGB ABc GAG:|[2 B2A G/A/BG AcA B=GGF|
+|:Bcd dcd f2d efed|c2E AEe EAE cdcF|Bcd dcd f2d efed|c2E ABc B2=G GAGF:|
+[K:Gmin]^FGA AGA c2A BcBA|GAB BAB f2B ^cdcB|AGA AGA c2A BcBG|[1 A2D FGA G2_E EFED:|[2 A2D FGA G2_E EFD2||
+S:https://www.folktunefinder.com/tunes/142401
+S:http://www.thesession.org/tunes/display/3366
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F-sharp
+% Key G
+% Time_signature 2/4
+% Time_signature 13/8
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:1
+T:I'll Buy Boots for Maggie
+T:B Part transposed octave lower
+O:Ireland
+M:C|
+L:1/8
+K:Am
+"Am"A3B c2d2|"C"eg3 g2a2|"Em"e2g>e "(G)"d2B2|"Am"A2B2 "G"G2E2|
+"Am"A3B c2d2|"C"eg3 g2a2|"Em"e2g>e "(G)"d2B2|"Am"B2A2A4:|
+|:"Am"E2A2 A2B2|c2 (3BcBA4|"F"FA3 A2B2|c2 (3BcBA4|
+"Am(D)"E2A2 A2B2|"F"c2B2 A2G2|"Em"E2GE "G"D2B,2|"Am"B,2A,2 A,4:|
+S:https://www.folktunefinder.com/tunes/142816
+S:http://www.thursdaycontra.com/~spuds/tunes/reels/BootsMaggieTrans.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

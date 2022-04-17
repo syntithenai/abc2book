@@ -1,0 +1,29 @@
+X:1
+T:Bourre valse d'Issoudun, abc file by Bernard Loffet
+C:Traditionnel
+L:1/8
+Q:228
+M:3/8
+K:G
+z2D|:[GG,]G,[FD,]|[GG,]G,[F/D,/]G/|[AD,][BG,][GG,]|[AD,]D,[DG,]|[AD,]D,[BG,]|[AD,]D,[G/G,/]F/|[ED,][FD,][ED,]| \
+|1[DG,]G,[DG,]:|2[DG,]G,[BG,]|:[BG,][dG,][BG,]|[AD,][cD,][AD,]|[GG,][G/G,/]F/[G/G,/]A/|[BG,][GG,][BG,]| \
+[BG,][dG,][BG,]|[AD,][cD,][AD,]|[G/G,/]F/[ED,][FD,]|1[GG,]G,[BG,]:|2[GG,]G,G,| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/142361
+S:http://diato.ifrance.com/abc/63.abc
+S:http://diato.ifrance.com/diato/tablat/63.abc
+S:http://diato.ifrance.com/tablat/63.abc
+S:http://diato.org/tablat/63.abc
+S:http://perso.orange.fr/diato/tablat/63.abc
+S:http://perso.wanadoo.fr/diato/tablat/63.abc
+S:http://pro.wanadoo.fr/diato/abc/63.abc
+S:http://pro.wanadoo.fr/diato/tablat/63.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/63.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/63.abc
+S:http://www.diatonique.net/tablat/63.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

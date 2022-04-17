@@ -1,0 +1,26 @@
+X:10
+T:Kitty's Gone a Milking
+R:reel
+O:Ireland
+D:An Historic Recording of Irish Music
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>                     
+L:1/8
+Q:333
+M:C|
+K:G
+(3(ABc)|d(G ~G2) d2 cA|d(G ~G2) FG (A/B/c)|d(G ~G2) d2 eg|fdcA G2:|
+|:Bc|d(g ~g2) a(g ~g2)|d(g ~g2) d2 cA|d(g ~g2) a(g ~g2)|dcAB c2 Bc|
+d(g ~g2) a(g ~g2)|d(g ~g2) d2 cA|defg abag|fdcA G2|]
+S:https://www.folktunefinder.com/tunes/142573
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

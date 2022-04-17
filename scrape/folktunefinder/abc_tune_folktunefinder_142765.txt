@@ -1,0 +1,28 @@
+X:1
+T:Boys of the Lough, The
+R:reel
+D:Matt Molloy: First Album
+Z:id:hn-reel-512
+M:4/4
+L:1/8
+K:D
+AF~F2 AFAB|d2fd efdB|AF~F2 dBAF|~E3F EFGB|
+AF~F2 AFAB|defd efdB|AF~F2 dFAF|EDEF D4:|
+dfaf gfef|defd BcdB|AF~F2 dFAF|~E3F EFGE|
+dfaf gfef|defd BcdB|AF~F2 dFAF|EDEF D4|
+dfaf gfef|defd e2dB|AF~F2 ABde|fdgf e2fg|
+afge f2ec|defd BcdB|AF~F2 dFAF|EDEF D4|]
+</abc>
+<abc>
+S:https://www.folktunefinder.com/tunes/142765
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:boys_of_the_lough&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

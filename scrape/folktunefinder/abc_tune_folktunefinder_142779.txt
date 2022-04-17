@@ -1,0 +1,27 @@
+X:4
+T:The Boys Of The Town
+M:6/8
+R:Jig
+L:1/8
+Q:180
+N:From Feldman and O'Doherty's "The Northern Fiddler"
+N:As played by John McKeown
+K:G
+|:f|ged {Bc}B2A|BGE G2A|BdB ABA|GBd e2f|
+ged {Bc}B2A|{c}BGE {Bc}G2A|BdB {B}AGA|BGG G2:||
+|:B|def {ga}gfg|eaa eaa|bag {ef}e2d|efg efg|
+def {ga}gfg|afd efg|edB AGA|1 BGG G3:||
+2 BGG [G,3 G3]
+S:https://www.folktunefinder.com/tunes/142779
+S:http://paythereckoning.com/tnf.txt
+S:http://www.paythereckoning.com/tnf.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Boy-Girl Tune
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+M:26/8
+|:EB,E BBA BcBz ABc ccB GBG AAF AGFG|
+EB,E BBA BcBz ABc ccB GBG AAF AGFG:|
+|:EF/G/A AGA BBD ADGB AAD GDFA GAB FGF|
+[1 EF/G/A AGA BBD ADGB AAD GDFA GAB FGF:|
+[2 EF/G/A AGA BBD ADGD AAG F/G/AF GBG A=FFE|| 
+|: ABc cBc e2c dedc B2D GD dD GD BcBE|
+ABc cBc e2c dedc B2D GAB A2=F FGFE:|
+K:Cmin
+|:=EFG GFG BzG ABAG FGA AGA _eeA =BcBA|
+[1 GFG GFG BzG ABAF GzC EFG FF_D DEDC:|
+[2 GFG GFG BzG ABAF GzC EFG FF_D DECz||
+S:https://www.folktunefinder.com/tunes/142400
+S:http://www.thesession.org/tunes/display/3366
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key C
+% Time_signature 6/8
+% Time_signature 26/8
+% Has_accompaniment_chords No chords

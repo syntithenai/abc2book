@@ -1,0 +1,27 @@
+X:1
+T:Bourre : J'avais une bonne amie
+C:traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:220
+M:3/8
+K:G
+ z2[DG,] |: [GG,][BG,][G/G,/]B/ | [BG,][BG,][BG,] | [cD,][AD,][cD,] | [BG,][GG,][DG,] | \
+ [GG,][BG,][G/G,/]B/ | [BG,][BG,][BG,] | [cD,][AD,][FD,] |1 [GG,]G,[DG,] :|2 [GG,]G,[B/G,/]c/ | \
+|: [BG,][cD,][A/D,/]c/ | [BG,][GG,][BG,] | [AD,][FD,][AD,] | [BG,][GG,][B/G,/]c/ | \
+ [BG,][cD,][A/D,/]c/ | [BG,][GG,][BG,] | [AD,][FD,][DG,] |1 [GG,]G,[B/G,/]c/ :|2 [GG,]G,2 | \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/142344
+S:http://diato.ifrance.com/diato/tablat/106.abc
+S:http://diato.ifrance.com/tablat/106.abc
+S:http://diato.org/tablat/106.abc
+S:http://perso.orange.fr/diato/tablat/106.abc
+S:http://perso.wanadoo.fr/diato/tablat/106.abc
+S:http://pro.wanadoo.fr/diato/tablat/106.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/106.abc
+S:http://www.diatonique.net/tablat/106.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

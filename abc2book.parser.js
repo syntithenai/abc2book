@@ -73,7 +73,7 @@ function singleAbc2json(abc) {
       tune.useSetting = 0
       //tune.forceTitle = forceTitle
       tune.boost = boost
-      console.log('ABC2JSON single',tune)
+      //console.log('ABC2JSON single',tune)
       return tune
     //}
   }
@@ -377,6 +377,7 @@ function generateAbcFromMeasures(measures) {
 
 // eg /4 becomes 0.25, /2 becomes 0.5, 4 becomes 4.0
 function symbolsToNumber(a,b,c) {
+    console.log('symbolsToNumber',a,b,c)
     if (isSlash(a)) {
         if (isDigit(b)) {
             if (isDigit(c)) {
@@ -407,6 +408,7 @@ function gcd(a, b) {
 }
 
 var decimalToFraction = function (_decimal) {
+    console.log('decimalToFraction',_decimal)
     if (_decimal == parseInt(_decimal)) {
         return {
             top: parseInt(_decimal),
@@ -434,6 +436,7 @@ var decimalToFraction = function (_decimal) {
 }
 
 function abcFraction(fraction) {
+    console.log('abcFraction',fraction)
     if (fraction.bottom === 1) {
         if (fraction.top === 1) {
             return ''

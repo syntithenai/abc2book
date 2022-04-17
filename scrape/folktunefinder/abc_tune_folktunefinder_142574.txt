@@ -1,0 +1,31 @@
+X:11
+T:Music in the Glen
+R:reel
+O:Ireland
+D:An Historic Recording of Irish Music
+B:O'Neills music of Ireland
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+N:In Cape Breton fiddlers play in key A
+H:                          
+L:1/8
+Q:333
+M:C|
+K:G
+(3(DEF)|G2 BG (E/F/G) DC|B,DGB AGAB|c2 ~c2 B2 ~B2|(3(cBA) BG AE{G}ED|
+G2 BG (E/F/G) DC|B,DGB AGAB|cdef gfge|dcBA G2:|
+|:GA|B/A/G dG eGdG|BGdB cA A/A/A|BGdG edef|gdBG AGEG|
+G/G/G dG edef|~g2 gb afdf|gafg (e/f/g) dB|cABG AE{G}ED|
+G/G/G dG eGdG|BGdB cAFA|BGdG edef|gdBG AGEG|
+G/G/G dG edef|~g2 gb afdf|gafg (e/f/g) dB|cABG AE{G}ED|]
+S:https://www.folktunefinder.com/tunes/142574
+S:http://cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+S:http://www.cranfordpub.com/tunes/abcs/Historic-Canny_Hayes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

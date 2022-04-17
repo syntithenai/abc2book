@@ -1,0 +1,56 @@
+X:1
+T:Bourr\'ee "Le Crabe Noir"
+C:Jea Blanchard 
+R:bourree
+A:France
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:kopierte handschriftliche noten-blaetter von Maxou Heintzen
+Q:3/8=66
+N:metronom-angabe laut quelle
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:G mixo
+V:1
+|:"1"\
+df de f2 | ef ec df | de c2 cd | ec df de |\
+f2 ef ec | d2 de dc | d6 :|
+V:2
+|:"2"\
+A2 A2 A2 | A2 G2 A2 | A2 G2 G2 | G2 A2 A2 |\
+A2 A2 G2 | A6 | B6 :|
+V:3
+|:\
+F2 A4 | C4 D2 | A2 G4 | C2 F4 |\
+C6 | D6 | G6 :|
+V:1
+|:\
+de d2 c2 | B2 A2 G2 | cB c2 cB | A2 AB c2 |\
+de d2 c2 | B2 A2 G2 | cB c4 :|
+V:2
+|:"unison avec 16.1"\
+ |  |  |  |\
+ |  |  |  :|
+V:3
+|:\
+G6 | D6 | A6 | E6 |\
+G6 | D4 E2 | G6 |
+W:
+S:https://www.folktunefinder.com/tunes/142347
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/le_crabe_noir.abc
+% Rhythm Bourree
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords
