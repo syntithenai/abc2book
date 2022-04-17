@@ -1,0 +1,42 @@
+X:6347
+T:The dancing master
+C:Daniel Gottlob T\"urk
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+A|dddA|FFFA|GFGF|E2 z E|
+V:2
+z|FFF z|DDD z|EDED|CA,A, z|
+%
+V:1
+AAAE|ccce|AA c/B/A/B/|A2 z:|
+V:2
+CCC z A,A,A, z|C,C,D,E,|A,,2 z:|
+%
+V:1
+|:A/B/|c/d/e/d/ c A/B/|c/d/e/d/ c A/B/|c/d/e/d/ c/d/e/d/|c/d/e/d/ c A|
+V:2
+|:z|EGE z|EGE z|EGEG|EGE z|
+%
+V:1
+dddA|FFFA|DD F/E/D/E/|D2 z:|
+V:2
+FFF z|DDD z| F,F,G,A,|D,2 z:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/151068
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/turk-daniel-gottlob/turk-dancing-master.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/turk-daniel-gottlob/turk-dancing-master.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

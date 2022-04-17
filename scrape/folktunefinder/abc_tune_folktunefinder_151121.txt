@@ -1,0 +1,23 @@
+X:1
+T:DANDY MIKE'S -- REEL.
+R:reel
+Z:20020507 John Walsh <walsh:mat:h.ubc.ca>
+M:2/4
+L:1/16
+K:G
+v.g2(dc) .B2(AG)|FGAB cAAf|.g2(dc) .B2(AG)|DFAc (BG).G2|
+g2(dc) .B2(AG)|FGAB cAAf|.g2(dc) .B2(AG)|DFAc (BG).G2:|
+|:DGBG AGBG|DGBG cAAc|Bdef gedc|((3Bcd) (Ac) (BG).G2|
+DGBG AGBG|DGBG cAAc|Bdef gedc|((3Bcd) (Ac) (BG).G2:|
+S:https://www.folktunefinder.com/tunes/151121
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/walsh:math.ubc.ca/DandyMikesReel.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/DandyMikesReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/walsh%3Amath.ubc.ca/DandyMikesReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/DandyMikesReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

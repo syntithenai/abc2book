@@ -1,0 +1,30 @@
+X:3
+T:Cup of Tea, The
+M:C|
+L:1/8
+R:reel
+K:D
+P:A
+|: "Em"BAGF GEEF | GEBE GEE2 | BAGF GEEG | "D"FDAG FDD2 |
+   "Em"BAGF GEEF | GEBE GEE2 | "G"BAGF "A7"GABc | "D"dBAG FDD2 :|
+P:B
+|: "D"d2de fdec | dcde "Bm"fBBc | "D"d2de "G"fdec | "A7"dBAG "D"FDD2 |
+   "D"d2de fdec | dfaf "G"g2fg  | "D"afge "G"fdec | "A7"dBAG "D"FDD2 :|
+P:C
+|: "D"FAdA FAdA | FAdA "A7"FEE2 | "D"FAdA "G"FABc | "A7"dBAG "D"FDD2 |
+   "D"FAdA FAdA | FAde "Em"feeg | "D"fdec "G"dBAF | "A7"GBAG "D"FDD2 :|
+N:HOI - abc by Peter Ostapenko.
+N:Play AABC for contra dances.
+N:Last update - PO 6/19/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/150723
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/CupOfTea.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

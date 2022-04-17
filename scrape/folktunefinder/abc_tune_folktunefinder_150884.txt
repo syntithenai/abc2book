@@ -1,0 +1,32 @@
+X: 3
+T:Full Rigged Ship
+M:6/8
+L:1/8
+Q:100
+C:Traditional
+S:From The Boys of the Lough
+R:Jig
+O:Boys Of The Lough
+A:Shetland
+D:Boys of the Lough "Wish You Were Here"
+K:G
+|:e2a aea|aea b2a|e2f~g3|eag fed|
+e2a aea|aea b2a|~g3 edB|A3A3:|!
+|:efe edB|A2Bc3|BAG BAG|BcdE3|
+efe edB|A2Bc2d|efe dBG|A3A3:|!
+|:EFE EFE|EFE c3|EFE E2D|E2=F GEC|
+EFE EFE|EFE c2d|efe dBG|A3A3:|
+S:https://www.folktunefinder.com/tunes/150884
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/DaFullRiggedShip.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/DaFullRiggedShip.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/tunes/Jig/DaFullRiggedShip.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/jig/DaFullRiggedShip.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

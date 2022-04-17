@@ -1,0 +1,26 @@
+X:6
+T: Rosestock, Holderbl!
+N: T0007A
+O: Europa, Mitteleuropa, Deutschland
+N: bekannt
+R: Barbara]
+M: 3/4
+L: 1/16
+K: C
+ | e6d2c2E2 | A4G2F2D4 | A4G2F2D4 | A4G2E2C3z
+e6d2c2E2 | A4G2F2D4 | G4A4B4 | c8z4
+f3ed4z4 | e3dc4z4 | G4A4B4 | c2B2c2d2e4
+f4ed4z3 | e3dc4z4 | G4A4B4 | c8z4
+S:https://www.folktunefinder.com/tunes/150505
+S:http://ifdo.ca/~seymour/runabc/esac/test1.abc
+% Rhythm Barbara]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

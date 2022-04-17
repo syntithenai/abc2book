@@ -1,0 +1,24 @@
+X: 030490
+T: Custom House
+S: "Treoir" 
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig 
+K: D
+A |: BAF ADD | FDD ADD | BAF ADD | FED EFA |
+BAF ADD | FDF d2 e | fed dcB | AGF EFA :|
+de/f/e d2 B | AFd AFA | de/f/e d2 f | ede fdB |
+de/f/e d2 B | AFA ABd | gfe fdB | AGF EFA :|
+S:https://www.folktunefinder.com/tunes/150780
+S:http://www.qmcorp.net/webabc/c/030490.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:2
+T:Scottisch
+T:Danse des moissons
+R:Scottish
+O:France
+A:Alsace
+M:C|
+L:1/8
+K:C
+e>d |: c2E2E3c | B2A2A3c | B2B2A2B2 | (cB)cde2e>d |
+c2E2E3c | B2A2A2z2 | fed2Bcd2 |1 c2e2c2 e>d :|2 c2e2c2z2 |:
+[K:G] Bded B2d2 | d2c>B A4 | A2A>B c2d2 | (e4d4) |
+Bded B2d2 | f2e2e2z2 | F2A2e3d |1 G2B2G2z2 :|2 G2B2G2e>d |:
+[K:C] c2E2E3c | B2A2A3c | B2B2A2B2 | (cB)cde2e>d |
+c2E2E3c | B2A2A2z2 | fed2Bcd2 |1 c2e2c2 e>d :|2 c2e2c2(A^G) |:
+P:Trio
+K:F
+A6AB | c4-cc=Bc | f2f2e3d | B2G2G2(G^F) | G6(GA) |
+B6(Bc) | ee dd cB AB | d2c2c2A^G | A6AB | c6de | f2c2B3A | G6f>f |
+e2B2B2e>d | c2A2A2(Ad) | (cB)A2GBAG |1 F2A2F2A^G :|2 F2A2F2 |]
+S:https://www.folktunefinder.com/tunes/151245
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/ReveDAmour.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/galouvielle.free.fr/mercredi/ReveDAmour.abc
+% Rhythm Scottish
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

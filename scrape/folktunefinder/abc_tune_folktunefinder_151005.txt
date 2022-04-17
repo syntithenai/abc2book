@@ -1,0 +1,19 @@
+X: 1
+T:Dance in Queen Mab.
+M:6/8
+L:1/8
+K:G
+A| B2c     ded| c2B     ABc| dBG      E2A    |FDF G2||
+A| B2G     c2A| B2G     A2g| dBG      E2A    |FDF G2::
+d| g2d     gdB| g2B     a2c| Bcd      E2A    |FDF G2::
+A|(B/c/dB) c2e|(A/B/cA) B2d|(G/A/cA) (A/B/cA)|FDF G2:|
+S:https://www.folktunefinder.com/tunes/151005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/da/Dance_in_Queen_Mab_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/da/Dance_in_Queen_Mab_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

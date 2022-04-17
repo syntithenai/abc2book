@@ -1,0 +1,34 @@
+X:1
+T:Da Klatscha
+C:traditionell
+R:polka
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:E.Baumann, Alt-Egerlaender Taenze
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+DG/G/ GG | Gd BG | Dc AF | G/A/B/c/ d2 |
+DG/G/ GG | Gd BG | Dc AF | G2 G2 :|
+|:\
+{B}d2 Bd | {c}e2z2 | {A}c2 Ac | {B}d2 z2 |
+{G}B2 AG | {G}c2 BA | {c}d2{D}F2 | {D}G2 z2 :|
+K:C
+|:\
+c/B/c/d/ ee | e/d/e/f/ gg | gf dB | ce GG |
+c/B/c/d/ ee | e/d/e/f/ gg | gf dB | c2z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/150940
+S:http://simonwascher.info/TradArchiv_polka/da_klatscha.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

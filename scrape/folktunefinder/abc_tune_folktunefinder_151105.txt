@@ -1,0 +1,25 @@
+X: 2
+T: Dan Curtin's
+M: 12/8
+L: 1/8
+R: slide
+K: A Major
+|: E |\
+ABc B2 c A2 G A2 B | ABc BAF E3 E2 G |
+ABc B2 c A3 A2 E | A2 c e2 c d3- d2 :|
+K: D Major
+|: g |\ 
+f2 e d2 f a3 a2 f | efg f2 d g3 g2 e |
+f2 e d2 f a2 ^g a2 f | e2 g f2 e d3- d2 :|
+S:https://www.folktunefinder.com/tunes/151105
+S:http://www.thesession.org/tunes/display/8081
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

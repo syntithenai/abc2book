@@ -1,0 +1,23 @@
+X:23
+T:Cuddy Clauder
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/16
+K:G
+G2| B3cd2 "tr"d2BcdB | d2 "tr"g4 "tr"B4 G2 | B3cd2 "tr"d2BcdB |
+A2 "tr"f4 "tr"A4 e2 | B3cd2 "tr"d2BcdB | g2d2e2 g2d2B2 |
+cBABcA dcBcdB | A2 "tr"d4 "tr"A4 :: e2 | g2d2e2 g2d2B2 |
+d2 "tr"g4 "tr"B4 G2 | g2d2e2 g2d2B2 | A2 "tr"f4 "tr"A4 e2 |g2d2e2 g2d2B2 |
+d2efge g2d2B2 | cBABcA dcBcdB | A2 "tr"f4 "tr"A4 :|
+S:https://www.folktunefinder.com/tunes/150603
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Cuddy_Clauder.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Cuddy_Clauder.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

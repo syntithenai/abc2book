@@ -1,0 +1,49 @@
+X:1371
+T:Daldalan Delluce
+C:anon.
+O:Turkey
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/turkey/daldalan-delluce.abc
+P:(ABB)2 (CDEECC)2
+M:5/8
+L:1/16
+Q:1/8=192
+K:Am
+P:A
+~e4 .e2~e3d|~d2ec ~d2dBcA|~e4 .e2~e3d|ddec .d2 z4|
+~e4 .e2~e3d|~d2ec ~d2dBcA|~e3A eg~e3d|ddec .d2 z4||
+P:B
+Bc.d2 .d2~d4|cBcd Bc~A3G|~c3B cd~B3A|~A3d Ad~A3G|
+Bc.d2 dg~d2B|cBcd Bc~A3G|~c3B dc~B3A|~A3G AG.A2 z2||
+M:7/16
+L:1/16
+P:C
+.G2cB .A3|.A2.A2 ~A2B|.G2cB .A3|.A2AB G^FG|
+GGcB .A3|.A2.A2 ~A2B|GGcB .A3|.A2AB G^FG||
+P:D
+.G2.G2 ~d2d|.d2.d2 ~d2c|.d2ed ~c2B|._B2BA BAG|
+.G2.G2 ~d2d|dcde ~d2c|.d2ed ~c2B|._B2BA BAG||
+P:E
+.G2.G2 ~c2c|c_Bcd  c2B|.c2dc ~_B2A|._B2BA BAG||
+W:
+W:Part order: ABBABBCDEECCCDEECC
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/150948
+S:http://abc.musicaviva.com/tunes/turkey/daldalan-delluce.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/turkey/daldalan-delluce.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/turkey/daldalan-delluce.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/turkey/daldalan-delluce.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/turkey/daldalan-delluce.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 7/16
+% Time_signature 5/8
+% Has_accompaniment_chords No chords

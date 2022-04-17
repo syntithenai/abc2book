@@ -1,0 +1,43 @@
+X:2798
+T:Two At Once
+T:(Dancing Feet / Devil in the Kitchen)
+C:anon.
+O:Scotland
+Z:Transcribed by Jack Campin
+F:http://abc.musicaviva.com/tunes/scotland/two-at-once.abc
+%Posted at abcusers Dec 23rd 2000 by Jack Campin.
+%Jack says:
+%This gave one version of BarFly an interesting time.  Phil fixed it
+%pretty quick.  Harriet and I arrived at it by accident - she started
+%playing Dancing Feet and I mistook it for the other tune.  We decided
+%we liked the effect, a sort of Scots-traditional-meets-Steve-Reich.
+M:C|
+L:1/8
+K:Amix
+V:1 % Dancing Feet
+a2 ea caAe|a2 ea caBc|a2 ea caAe|[1 faea caBe:|\
+                                 [2 faea caBc||
+V:2 % Devil in the Kitchen
+e>AA2 e>A (3fed|e>AA2 g2f<a|  e>A   A2  e>A (3fed|[1 B>GB2 g2f<a:|\
+                                                  [2 B>GB2 g2f<g||
+V:1
+eA~A2 ceAc|eA~A2 ceBc|eA~A2 ceAe|[1 faea caBc:|\
+                                 [2 faea caBe|]
+V:2
+a>AA2 e>A   A2 |a>AA2 g2f>g|[1 a>A   A2  e>A (3fed|B>G B2  g2f>g:|\
+                            [2 (3agf g>e f/af/ e>c|B>c d>e g2f<a|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/151057
+S:http://abc.musicaviva.com/tunes/scotland/two-at-once.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/two-at-once.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/two-at-once.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

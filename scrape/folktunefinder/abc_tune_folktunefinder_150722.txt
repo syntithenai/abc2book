@@ -1,0 +1,31 @@
+X:2
+T:Cup of Tea, The
+M:C|
+L:1/8
+R:reel
+K:D
+P:A
+|: "Em"BAGF G-E (3.E.E.E | GEBE G-EE-A | BAGF G-E (3.E.E.E | "D"FDAG F-DD-A |
+   "Em"BAGF G-E (3.E.E.E | GEBE G-EE-A | BAGF G-AB-c | "D"dBAG F-DD2 :|
+P:B
+|: "D"d2e-g "A"fdec | "D"d2e-g "Bm"f-BB-c | "D"d2e-g "G"fdec |\
+         "A"d-BA-G "D"F-DD-A |
+   "D"d2e-g "A"fdec | "D"d-fa-f "G"g2f-g | "D"afge fdec | "A"d-BA-G "D"F-DD2 :|
+P:C
+|: "D"FAdA FABA | FAdA "A"F-EE-G | "D"FAdA FABc | "A"d-BA-G "D"F-DD2 |
+  "D"FAdA FABA | FAde "Bm"f2d-e | "G"f2e(c d)BAF | "A"G-BA-G "D"F-DD2 :|
+N:Portland Collection: Volume 2 pg 46 - abc by Peter Ostapenko 4/1/2007
+N:Play AABC for contra dances.
+N:Bowing from Peter Ostapenko 4/29/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/150722
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/CupOfTea.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

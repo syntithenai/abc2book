@@ -1,0 +1,24 @@
+X:18
+T:Cumberland
+R:waltz
+C: Larry Unger
+M:3/4
+Q:1/4=180
+K:E
+EG|"A"A2 A2 AG|"E"B4 EG|"D"AB AG EG |"E"E4 EG|"A"A2 A2 AG|"E"B4 AB|=d6-|=d4EG|
+"A"A2 A2 AG|"E"B4 EG|"D"AB AG EG |"E"E4 e2|=d2B2 AB|"D"A2G2A2|
+"E"B6|"A"A4 e2|"E"=d2B2 AB|"D"AG E2 G2|"E"E6-|E4z2||
+"E"G2B2AB|"D"A2G2B2|"E"AB AG BA|E6|G2B2AB|=d2B2A2|B6-|"D"B6|
+"E"G2B2AB|"D"A2G2B2|"E"AB AG BA|E4e2|=d2B2AB|"D"A2G2A2|
+"E"B6|"A"A4e2|"E"=d2B2AB|"D"AG E2 G2|"E"E6-|E4||
+S:https://www.folktunefinder.com/tunes/150664
+S:http://www.larryunger.net/tunes/cumberland.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1134
+T: &quot;The Stage Hornpipe&quot;
+M: 4/4
+L: 1/8
+R: Hornpipe
+K: G Major
+|: G>A |
+B>GF>G (3EFG D>B | G>FG>B c>BA>E | A>^GA>B c2 c>B | A>G (3GFE D2 (3dcB | 
+A>^GA>B c2 (3Bcd | e>de>f g2 (3gfe | d>bA>a G>gf>g | e>cA>F G2 :|
+|: (3def | 
+g>a (3gfe d>gb>d | ^c>ea>=c B>dg>d | B>GD>B c>Aa>g | f>gf>e d>ef>a | 
+g>a (3gfe d>g b2 | ^c>e a2 B>d g2 | (3gag f>g e2 (3gfg | e>cA>F G2 :|
+S:https://www.folktunefinder.com/tunes/150662
+S:http://www.thesession.org/tunes/display/1249
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

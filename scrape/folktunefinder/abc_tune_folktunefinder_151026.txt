@@ -1,0 +1,22 @@
+X: 3
+T: Dancing In Kinvara
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: (3DEF | 
+(3GGG B2- B>dB>G | c2 D2 A3 G | F>GA>B c>de>f | g>fa>f g>d^c>d |
+(3BAB G2 D>Gc>B | (3ABA D2 A3 G | F>GA>B c>AF>A | (3GGG F>A G2 :|
+|: d2 |
+B2 d>B c2 e>c | d2 b2 b>d (3efg | a>gf>e d>cB>A | G2 (3ggg g2 (3def |
+g2 d>B e2 c>A | d2 B>G E>BA>G | F>GA>B c>AF>A | (3GGG F>A G2 :|
+S:https://www.folktunefinder.com/tunes/151026
+S:http://www.thesession.org/tunes/display/2380
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

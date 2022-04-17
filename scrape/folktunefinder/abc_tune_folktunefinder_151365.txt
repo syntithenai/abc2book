@@ -1,0 +1,37 @@
+X:2
+T:Da\~ns Kef (bal)
+G:Kazimodal
+R:Bal da\~ns kef
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+P:CD6
+M:12/8
+K:G
+P:C
+D \
+P:D
+Q:C3=90
+%%MIDI gchord czffzcfzcfzz
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 68
+|: "G"G2 G "Em"G2 A "Bm"B2 B B2 c |1 "Am"d2 e "D"d2 B ABA "C"G2 D :|2\
+"Am"d2 e "D"d2 B ABA "C"G3 ||
+Q:C3=164
+%%MIDI chordprog 21
+%%MIDI chordvol 127
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "G"B3 "D"A2 G F2 G "C"A3 | ABc "D"B2 A "G"B2 c d2 G |\
+"Em"B3 "Am"A3 GFG "Bm"A3 | ABc "C"B2 "D"A "C"G3 "G"G3 :|
+S:https://www.folktunefinder.com/tunes/151365
+S:http://kazimodal.trad.org/partitions/divers/dans_kef/dans_kef.abc
+% Rhythm Bal dan?s kef
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

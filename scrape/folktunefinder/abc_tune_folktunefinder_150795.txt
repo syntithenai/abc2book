@@ -1,0 +1,18 @@
+X:1
+T:Cut time practice
+M:C|
+K:C
+L:1/4
+Q:1/2=100
+  cc/2c/2cz | dd/2d/2dz | ee/2e/2ez | ff/2f/2fz |
+  cc/2c/2cc | dd/2d/2dd | ee/2e/2ee | ff/2f/2ff |
+  c/2c/2c/2c/2cz | d/2d/2d/2d/2dz | e/2e/2e/2e/2ez | f/2f/2f/2f/2fz |
+  c3/2c/2cc | d3/2d/2dd | e3/2e/2ee | f3/2f/2ff |
+S:https://www.folktunefinder.com/tunes/150795
+S:http://homepages.inf.ed.ac.uk/s0570628/Music/practice%20cut%20time.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

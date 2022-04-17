@@ -1,0 +1,26 @@
+X: 4
+T: Woodchopper's Reel
+I: Woodchopper's ReelR-73Dreel
+M: C|
+R: reel
+K: D
+"D"afdB AdFA| DFAd f2ef| "A"(3gfe cB Aceg| a^gab a2f=g|
+"D"afdB AdFA| DFAd f2ef| "A"(3gfe cB Acec| "D"dfec d4 :|
+|:\
+"D"DFAd (3BdB AF| DFAd (3BdB Az| "A"A,CEA ceaf| gfed cBAF|
+"D"DFAd (3BdB AF| DFAd (3BdB Az| "A"A,CEA ceaf| (3gfe cA "D"d4 :|
+%%text Roaring Jelly  R-73
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/151042
+S:http://roaringjelly.org/music/sets/Set25.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set25.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set25.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

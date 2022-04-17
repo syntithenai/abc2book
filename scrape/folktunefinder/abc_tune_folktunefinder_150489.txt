@@ -1,0 +1,25 @@
+X:4
+T: Ta4i ya2ng chu1 la2i xi3 ya2ng ya2ng
+N: C0013
+O: Asien, Ostasien, China, Sichuan
+R: Grundton liegt in der zweigestrichenen Oktave; Verzierung
+M: 2/4
+L: 1/8
+K: E
+EFE=D | E2Fz
+=DEFE- | E=DB,z
+A,B,DB, | EEB,2 | A,2B,z
+=DB,ED- | DB,E2- | E4
+S:https://www.folktunefinder.com/tunes/150489
+S:http://ifdo.ca/~seymour/runabc/esac/teste.abc
+S:http://ifdo.ca/~seymour/runabc/esac/testd.abc
+% Rhythm Grundton liegt in der zweigestrichenen oktave; verzierung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

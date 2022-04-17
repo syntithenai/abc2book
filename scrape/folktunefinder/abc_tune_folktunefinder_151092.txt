@@ -1,0 +1,34 @@
+X: 1
+T: Dancin' Nancy
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmin
+D |: 
+G2 GA B/A/G | A2 AB cA | G^F GA Bc | d2 g2 d2 |
+ec ec eg | ge dB AG |1 AD ^FA d^c | d^c de dB :|
+2 AD ^FA dF | G2 G2 ||
+gf |: 
+e2 ec eg | ge dB AG | AD ^FA d^c | d^c de dB |
+e2 ec eg | ge dB AG |1 AD ^FA dF | G2 G2 :|
+2 AD ^FA d^c | d^c de d ||
+K: Gmaj
+D |: 
+G2 GA B/A/G | A2 AB cA | GF GA Bc | d2 g2 d2 |
+ec ec eg | ge dB AG |1 AD FA d^c | d^c de dB :|
+2 AD FA dF | G2 G2 ||
+gf |: 
+e2 ec eg | ge dB AG | AD FA d^c | d^c de dB |
+e2 ec eg | ge dB AG |1 AD FA dF | G2 G2 :|
+2 AD FA d^c |1 d^c de d ||
+S:https://www.folktunefinder.com/tunes/151092
+S:http://www.thesession.org/tunes/display/4503
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:The Custom House -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:Dmix % one sharp in the book
+uA"^Segno"|:vBAF ADD|FDD ADD|BAF ADD|FEE EFA|\
+BAF ADD|(FD)F d2e|fed dcB|AGF EFA :|
+|:v(d/e/f)u.e d2B|AFA AFA|(d/e/f).e d2f|ede fdB|\
+(d/e/f).e d2B|AFA ABd|gfe fdB|AGF EFA"^Segno""_D.S.":|
+S:https://www.folktunefinder.com/tunes/150781
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/ray:davies99.freeserve.co.uk/CustomHouseJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CustomHouseJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/ray%3Adavies99.freeserve.co.uk/CustomHouseJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

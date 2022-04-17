@@ -1,0 +1,24 @@
+X:2
+T: Et wassen twe Knigeskinner,
+N: T0004A
+O: Osteuropa, Ungarn
+N: Variante bekannt
+R: Barbara
+M: 4/4
+L: 1/8
+K: F
+C2 | A2AAA2GG | G3FF2
+C2 | B2BBBAcA | A2G2z2
+C2 | c2ccc2BB | A4cB
+AG | F2FFAGG2 | F4
+G2B2 | A2AAcBAG | F4z2
+S:https://www.folktunefinder.com/tunes/150487
+S:http://ifdo.ca/~seymour/runabc/esac/teste.abc
+% Rhythm Barbara
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

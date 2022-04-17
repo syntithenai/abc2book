@@ -1,0 +1,31 @@
+X:2
+T:Crow Creek
+L:1/8
+R:reel
+M:C|
+K:A
+P:A \
+e-f \
+[| "A"e2c2 c2e-f | e2c2 c2e-f | e2c2 e-cB-A | "E"c2[B2E2] [B2E2]e-f |
+   "A"e2c2 c2e-f | e2c2 c2e-f | e2c2 e-cB-A | "E"[B4E4] [B2E2]e-f |
+   "A"e2c2 c2e-f | e2c2 c2e-f | e2c2 e-cB-A | "E"c2[B2E2] [B2E2]e-f |
+   "A"e2c2 c2e-f | e2c2 c2c-d | "E"e-fe-d c-AB2| "A"[e6A6] F2 |]
+P:B
+|: "A"E-FA-B c3B | "D"A2 [A4F4] F2 | "A"E-FA-B c3B | "E"c2 [e4A4] A-F |
+   "A"E-FA-B c3B | "D"A2[A2F2] [A2F2]e-f | "E"e2c2 B-cB2 |\
+   [1 "A"[e6A6] F2 :|[2 "A"[e6A6] e-f |]
+N:abc by Peter Ostapenko.
+N:Last update - PO 2/29/2008.
+N:A Major
+S:https://www.folktunefinder.com/tunes/150419
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/CrowCreek.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

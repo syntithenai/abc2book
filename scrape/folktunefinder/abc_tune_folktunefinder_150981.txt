@@ -1,0 +1,32 @@
+X:1
+T:Da Naglschmied
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer boehmischen Bock", Band I, R.Lughofer, Eigenverlag, Kremsmuenster 1998
+N:dort ganz in F, zweistimmig, Seite 52
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 4/4
+L:1/4
+K:G
+GGB | A>Bc | d>cB | A3 |
+GGB | A>Bc | d>cB | A3 |
+GDBG | ddF | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/150981
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/da_naglschmied.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:1
+T:Dancing Up A Storm
+C: Charlene Thomson (March 31, 2003)
+R: jig
+M: 6/8
+L: 1/8
+K: A minor
+"Am"ABc "E"E^F^G | "Am"A3 A2A  | "F"AGF AGF | "E"E3 E3 |
+"Dm"DFA FAd |  "Am"c3 A2A | "B7"B2B BcB | "E"B3-B3 ||
+"Am"cBA "E"BA^G | "Am"A3 E2A| "Dm"FED FAF | "Am"E3- E2 A |
+"Dm"FAd fed | "Am"edc cBA| "E7"B^GE E^FG | "A"A3 A,3 ||
+K:A
+|| "E"E2E EFG | "A"A3 A2A | "E"B2e B2e | "A"c3 A3 |
+ "D"d2d dcB | "A"cBA AGF | "E"EFE "E7"EFG | "A"A2c e3 ||
+ "E"E2E EFG | "A"A3 A2A | "E"B2e B2e | "A"c3 A3 |
+ "D"F2F FGA | "A"EAE C2E | "E"EGB "E7"dcB | "A"A3 a3 |]
+N:The ECD "Dancing Across the Atlantic", Loretta Holz (2005) is for this tune.
+N:abc by Peter Ostapenko.
+N:Last update - PO 8/18/2007.
+N: A - A Minor, B - A Major
+S:https://www.folktunefinder.com/tunes/151091
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/DancingUpAStorm.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

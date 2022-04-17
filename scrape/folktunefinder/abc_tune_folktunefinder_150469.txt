@@ -1,0 +1,26 @@
+X:0254
+T:"The Cruiskeen Lawn "      (air)        0254
+C:after Sg't.  J. O'Neill
+C:with expression
+N:Transposed from Bb
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N:I think I'm going nuts.  10 bars in "A" and 6 bars in "B" sections
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"_VB"(B/2^A/2)|(F/2B3/2)(Bc) d2(cd)|.e.d.c.B A3(FE)|(F/2B3/2)(Bc) (d3/2c/2)(de)|f6zf|(f3/2d/2)(d/2f3/2) a2(gf)|
+.e.d.c.d"_H"e2(de)|(f3/2e/2)(d/2B3/2)"^>"f2"^>"F2|"^>"B2"^>"c2"^>"d2de|(f3/2e/2)(d/2B3/2)"^>"f2F2|B6z||
+(B/2c/2)|(d3/2c/2)(d/2f3/2) (a/2f3/2) a2|(e3/2c/2)(A/2c3/2) (e/2c3/2) e2|(f3/2e/2)(d/2B3/2)"^>"f2"^>"F2|
+"^>"B2"^>"c2"^>"d2de|(f/2b3/2)(f3/2e/2)"^>"d2c2|B6z|]
+S:https://www.folktunefinder.com/tunes/150469
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0254-CruiskeenLawn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

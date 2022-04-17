@@ -1,0 +1,26 @@
+X:0960
+T:"The Dancingmaster"   (jig)     0960
+C:after Chief  F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:C
+(A/2B/2)|cAA eAA|cBA eAA|BGG dGG|gfe dcB|
+cAA eAA|cBA e2^f|g=fe dcB|cAA A2:|
+|:d|e^f^g a2b|a2b age|e^f^g a2b|age g2d|
+e^f^g a2b|a2b age|gfe dcB|cAA A2:|
+S:https://www.folktunefinder.com/tunes/151069
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0960-Dancingmaster.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/0960-Dancingmaster.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0960-Dancingmaster.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

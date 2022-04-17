@@ -1,0 +1,26 @@
+X:24
+T:Georgiana Moon
+T:transposed to the key of C
+O:Bluegrass
+B:The Fiddler's Fakebook
+Z:transposed, chords modified by MB
+R:Waltz
+M:3/4
+L:1/8
+K:C
+c eg \
+|:"C"c'6|"G"b6|"F"a3 g ec|"C"G4 z2|a2 g2 e2|c4 d2|"G"d4-de|d4 z2|
+| "G"b6|"F"a6|"G"g3 e dB|G3 G Bg|d3 ^c dg|"Cm"_e3 G "G"Gg|"C"=e4-ef|e4 z2|
+| "C"c'6|"G"b6|"F"a3 g ec|"C"G3 F EG|c3 G ce|"C7"d3 c cc'|"F"a3 f "(Am)"(3eae|
+|"Dm"d4 c2|"F"c'3 a fc|"Fm"_a6|"C"g3 e cA|"A"f3 g gg|"D"e3 d BG|"G"e3 d BG|
+|1 "C"c3 E AA|"G"G3 c eg :|2 "C"(3cBc (3e^de (3g^fg| [e6c'6] |]
+S:https://www.folktunefinder.com/tunes/150832
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/GeorgianaMoon_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/TransposedToTheKeyOfC.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/MosheBraner/GeorgianaMoon_C.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

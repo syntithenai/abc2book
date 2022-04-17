@@ -1,0 +1,21 @@
+X:1
+T:Danny Boy (Londonderry Air)
+M:4/4
+L:1/4
+K:F
+ E F G| A3 G| A d c A| G- F D2-| D| F A B| c3 d| c A F A| G4-| G| E F G|\
+ A3 G| A d c A| G- F D2-| D| E F G| A3 B| A G F G| F4-| F| c d e| f3 e|\
+ e d c d| c- A F2-| F| c d e| f3 e| e d c A| G4-| G| c c c| a3 g| g f d f|\
+ c- A F2-| F| E F G| A d c A| G F D E| F4-| F||
+S:https://www.folktunefinder.com/tunes/151196
+S:http://back.numachi.com:8000/dtrad/abc/DANNYBOY.abc
+S:http://sniff.numachi.com/abc/DANNYBOY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/DANNYBOY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

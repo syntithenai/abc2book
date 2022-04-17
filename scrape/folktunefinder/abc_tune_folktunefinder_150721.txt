@@ -1,0 +1,30 @@
+X:1
+T:Cup of Tea, The
+M:C|
+L:1/8
+R:reel
+K:D
+P:A
+|: "Em"BAGF GE (3.E.E.E | GEBE GEEA | BAGF GE (3.E.E.E | "D"FDAG FDDA |
+   "Em"BAGF GE (3.E.E.E | GEBE GEEA | BAGF GABc | "D"dBAG FDD2 :|
+P:B
+|: "D"d2eg "A"fdec | "D"d2eg "Bm"fBBc | "D"d2eg "G"fdec | "A"dBAG "D"FDDA |
+  "D"d2eg "A"fdec | "D"dfaf "G"g2fg | "D"afge fdec | "A"dBAG "D"FDD2 :|
+P:C
+|: "D"FAdA FABA | FAdA "A"FEEG | "D"FAdA FABc | "A"dBAG "D"FDD2 |
+  "D"FAdA FABA | FAde "Bm"f2de | "G"f2ec dBAF | "A"GBAG "D"FDD2 :|
+N:Portland Collection: Volume 2 pg 46 - abc by Peter Ostapenko.
+N:Play AABC for contra dances.
+N:Last update - PO 4/1/2007.
+N:D Major
+S:https://www.folktunefinder.com/tunes/150721
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/CupOfTea.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

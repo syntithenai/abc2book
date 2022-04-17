@@ -1,0 +1,29 @@
+X:1
+T:Danse des Baguettes
+C:Trad. Bretagne, abc file by Bernard Loffet
+L:1/8
+Q:336
+M:4/4
+K:G
+[B,G,]G[GG,]B[BG,]G[G2G,2]|[FD,]G[AD,]A[GG,]A[BG,]B|[B,G,]G[GG,]B[BG,]G[G2G,2]|[FD,]G[AD,]A[GG,]F[G2G,2]|[BG,]c[dG,]d[cD,]B[cD,]c|[AD,]B[cD,]c[BG,]A[B2G,2]| \
+[BG,]c[dG,]d[cD,]B[cD,]c|[AD,]B[cD,]c[BG,]A[G2G,2]| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/151243
+S:http://diato.ifrance.com/diato/tablat/71.abc
+S:http://diato.ifrance.com/tablat/71.abc
+S:http://diato.org/tablat/71.abc
+S:http://perso.orange.fr/diato/tablat/71.abc
+S:http://perso.wanadoo.fr/diato/tablat/71.abc
+S:http://pro.wanadoo.fr/diato/abc/71.abc
+S:http://pro.wanadoo.fr/diato/tablat/71.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/71.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/71.abc
+S:http://www.diatonique.net/tablat/71.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/abc/71.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ifrance.com/diato/tablat/71.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

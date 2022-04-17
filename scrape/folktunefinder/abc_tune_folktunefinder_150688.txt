@@ -1,0 +1,29 @@
+X: 1
+T: Frieze Breeches, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:FED EFG| Add cAG| A2A BAG| F2F GED|
+FED EFG|Add cAG|F2F GEA| DED D3:|
+|:d2e fed| faf gfe|d2e fed| dcA dcA|
+d2e fed|fed cAG| F2F GEA|DED D3:|
+K:Dmix
+|:DED c3| AdB cAG|ABc ded| ded cAG|
+DED c3| AdB cAG| F2F GEA| DED D3:|
+K:Dmaj
+|:d2e fed| Add fed| c2d ecA| fed ecA|
+d2e fed| Add fed|faf gfe| dfe d3:|
+|:fed ecA| ded cAG| A2A BAG| F2F GED|
+fed ecA| ded cAG| F2F GEA| DED D3:|
+S:https://www.folktunefinder.com/tunes/150688
+S:http://www.thesession.org/tunes/display/34
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

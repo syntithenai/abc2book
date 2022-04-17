@@ -1,0 +1,23 @@
+X: 5
+T: Swallowtail, The
+M: 6/8
+L: 1/8
+R: jig
+K: A Dorian
+|: A/B/ |\ 
+cAA EAA | cAc edc | BGG DGG | BG/A/B d2 B |
+cAA E2 A | cA/B/c e2 f | gfg dcB | cA^G A2 :|
+|: e |\
+ef^g a2 b | a2 b age | efg a2 b | age g3 |
+ee/f/^g a2 b | a2 b age | gfg d2 B | cA^G A2 :|
+S:https://www.folktunefinder.com/tunes/151078
+S:http://www.thesession.org/tunes/display/106
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

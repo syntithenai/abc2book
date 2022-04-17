@@ -1,0 +1,54 @@
+X: 2
+T: The Dancing Dustman
+S: Angus Fitchet
+M: 6/8
+R: Two-Step
+N: AABBACC
+N: Intro ~ G3 | FAc f2 e | d2 c B2 A | E^EF B2 A | G3 ||
+K: G Major
+P: A
+|: d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 ^A | B^AB e2 B | d3 d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 A | E^EF B2 A | G3 :|
+P: B
+|: G3 |
+d2 G GAB | A2 G d3 | e2 A ABc | B2 A e3 | 
+f2 c cde | f2 f f3 | e2 G GAB | e2 e e3 |
+d2 G GAB | A2 G d3 | e2 A ABc | B2 A e3 | 
+f2 f fde | f2 f fde | fed cBA | G3 :|
+P: A
+d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 ^A | B^AB e2 B | d3 d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 A | E^EF B2 A | G3 ||
+P: C
+K: C Major
+|: EF^F |
+G2 A G^F=F | E2 G c2 e | d^cd f2 d | A3 A3 |
+B2 ^A B2 c | d2 ^c d2 ^d | e^de a2 e | g3 EF^F |
+G2 A G^F=F | E2 G c2 e | d^cd f2 d | A3 A3 |
+B2 ^A B2 d | a2 g A2 B | c3 e3 | c3 :|
+N: Finishing ~
+P: A
+K: G
+d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 ^A | B^AB e2 B | d3 d3 |
+bgd B2 c | edB G2 B | A^GA c2 A | E3- E3 |
+FAc f2 e | d2 c B2 A | E^EF B2 A | G3 g3 |]
+S:https://www.folktunefinder.com/tunes/151052
+S:http://www.thesession.org/tunes/display/7238
+% Rhythm Two-step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:1
+T:Da Naglschmied
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:mitgeteilt von Ute Walther mit dem vermerk: Noten: Notenbuch fuer Max Muenzl, Text: gefunden bei Rene Senn
+N:bei Muenzl ganz in C, einstimmig
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3 4/4
+L:1/4
+K:G
+D |\
+G>AB | A>Bc | d e/d/c/B/ | A2 D |
+G>AB | A>Bc | d e/d/c/B/ | A3 ||
+A>Bc | B/c/B/A/G | A>Bc | B/c/B/A/G |
+BA "*"| cA | d>cA | G3 :|
+P:Schluss:
+BA "*"| cA | d>DE/F/ | G3 :|
+W:* taktstrich von mir eingefuegt
+W:
+W:I hei-rat koan SChnei-da does is mir a Schand.
+W:I hei-rat koan Kre-ma da mueast i auf's Land.
+W:Hei-rat an Na-gl-schmied weil der gibt koa Fried.
+W:G'ni-glt, g'na-glt, g'na-glt, muass sei.
+%%vskip
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/150982
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/da_naglschmied2.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

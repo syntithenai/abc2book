@@ -1,0 +1,42 @@
+X:2
+B:Jardins d'amour
+O:Wallonie
+M:6/8
+L:1/8
+Q:C8=40
+K:C
+C2 E | G2 G G2 G | G2 G A2 G | F2 E E2 D |
+C2 z C2 E | G2 G G2 G | G2 G A2 G | F2 E E2 D |
+C2 z c3 | G3 c3 | G2 z C2 E | GGG G2 A |
+G2 G C2 E | G2 G G2 A | G2 c c2 G | G2 E E2 D |
+C2 c c2 G | G2 E E2 D | C2 ||
+W:Un si beau bouquet de fleurs,
+W:A qui le donnerai-je 
+W:A Mam'zelle qui tend sa main
+W:Ce beau present lui f'rai-je
+W:Sautez, dansez,
+W:Mad'moiselle, entrez dans la danse,
+W:Faites si bien la reverence
+W:A celui que vous aimez bien
+W:A celle que vous aimez le mieux
+M:2/4
+L:1/8
+Q:C8=30
+K:C
+|: CE | G2 c2 | G2 FE/D/ | CC DD |
+E2 CE | G2 c2 | G2 FE/D/ | CC GG | C2 :|
+W:Et embrassez-vous
+W:Dans ce petit jardin d'amour
+W:Et embrassez-vous
+W:Dans ce petit jardin d'amour
+S:https://www.folktunefinder.com/tunes/151247
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/jardins.txt
+S:http://users.skynet.be/infants/musiques/abc/jardins.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/jardins.txt
+% Titles No title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

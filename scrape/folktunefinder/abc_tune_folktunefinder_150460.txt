@@ -1,0 +1,24 @@
+X:1
+T:The Cruel Mother
+M:6/4
+L:1/4
+K:F
+ C| F/2F/2 F E F|
+M:6/4
+ E/2- D B,/2 C2 z2|
+M:4/4
+ F3/2 F/2 G A/2B/2|A/2-G/2 A c2| z B A/4- G3/4 A| c3 F/2F/2| G/4- E3/4 C B,2|\
+ z2 _E3/2 D/4C/4| B, C
+M:6/4
+| F3/2 F/2 F- C3| z2 z||
+S:https://www.folktunefinder.com/tunes/150460
+S:http://back.numachi.com:8000/dtrad/abc/CRUELMOT.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CRUELMOT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

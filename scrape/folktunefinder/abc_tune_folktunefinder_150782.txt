@@ -1,0 +1,19 @@
+X:1
+T:Customized decorations
+M:C
+K:C treble-8
+!biga!y!fp!"C"C!t2ub!C !cresc!"D"D!t3tab!D !decresc!"E"E!ubt3ta!E !dimin!"F"F!tbt3!F|\
+!mp!"G"G!t2ta!G !(p)!A!t3b!c !b!T!(pp)!A2 !#!P!(f)!B2|!=!M!(ff)!c8|
+K: clef=treble
+!8(!!riten!EF !-!G2 !ped!GA!ped-end!B!8)!c|!8b(!!bigb!CDE!()!F GAB!8b)!!alcoda!c|\
+CD!-(!E2!-)!!/!"free text"c4|
+S:https://www.folktunefinder.com/tunes/150782
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/deco.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/deco.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

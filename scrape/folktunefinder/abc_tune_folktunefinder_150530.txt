@@ -1,0 +1,31 @@
+X:1
+T:Cuckold out o' Nest
+M:2/2
+C:
+S:Chingford MM
+N:
+A:Chingford
+O:English
+R:Reel
+%P:A.(AB)$^4$.A
+P:A.(AB)4.A
+K:G
+I:speed 400
+P:A
+|:\
+   GA | BcBA  G2 ge | dedB  c2 Bc | dcBA  GFGA  | B2 G2 G2 :|\
+P:B
+   Bc | d2 d2 d2 ed | c2 A2 A2 B2 | c2 c2 c2 dc | BcBA  G2 \
+   GA | BcBA  G2 g2 | dedB  c2 Bc | dcBA  GFGA  | B2 G2 G2 ||
+S:https://www.folktunefinder.com/tunes/150530
+S:http://www.ucolick.org/~sla/morris/music/Chingford/cucknest.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

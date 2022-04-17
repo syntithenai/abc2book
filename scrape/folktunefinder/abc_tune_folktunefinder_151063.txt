@@ -1,0 +1,81 @@
+X: 1
+T: Dancing in the Barn, Schottische
+R: shottish
+O: c.1878
+C: Tom Turner & Ed W Orrin
+N: Pub. Walter Street, Montreal
+F: http://www.ragtimepiano.ca/rags/can8.htm
+F: http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+M: C
+L: 1/8
+K: Am
+"A"
+|:"Am"(3eee d>c B>A E2 \
+| "E7"E>E ^G>B (f2 e)z \
+| "E7"ed3- d>d c>B \
+| "Am"A2 (3EEE F2 E2 |
+| "Am"(3eee d>c B>A E2 \
+| "E7"E>E ^G>B (f2 e)z \
+| "E7"E>E ^G>B f>e B>c \
+|1 "Am"A2 [a2c2] A2 c>d \
+:|2 "Am"A2 [aec]>[aec] "fine"[a2e2c2] |]
+A>B "B"\
+| "Am"c>c c>A "E7"B2 c>B \
+| "Am"AE3- E2 e2 \
+| "Dm"f2 {gf}ef [af]>[af] [ge]>[fd] \
+| "Am"[e4c4] z2 f>e |
+| "E7"(dB3) z2 e>d \
+| "Am"cA3 z2 A>B \
+| "F"c>c c>c [d2A2] [^d2A2] \
+| "E"[e2^G2] (3EEE F2 E2 |
+||"Am"ckc2A "E7"B>B c>B \
+| "Am"AE3- E2 e2 \
+| "Dm"f>f f>f [af]>[af] [ge]>[fd] \
+| "Am"[e4c4] z2 f>e |
+| "E7"(dB3) z3 e>d \
+| "Am"(cA3) z2 A>B \
+| "Am"c2 {dc}B>A "E7"B2 e2 \
+| "Am"A4- A2 |]
+"G7"k[G2F2] "C"\
+| "C"[cE]ke2c a2 g2 \
+| "C"e6 d>e \
+| "G7"fB d4 cd \
+| "C"eG c4 G>G |
+| "C"c ke2 c a2 g2 \
+| "C"e6 c2 \
+| "Am"c2 (3ccc "F"(3dcd (3_ede \
+| "E7"[=e2^B2] (3EEE F2 E2 |
+| "Am"cc2A "E7"B2 c>B \
+| "Am" AE3- E2 e2 \
+| "Dm"f2 {gf}e>f [af]>[af] [ge]>[fd] \
+| "Am"[e4c4] z2 f>e |
+| "E7"(dB3) z2 e>d \
+| "Am"(cA3) z2 A>B \
+| "Am"c2 {dc}B>A "E7"B2 e2 \
+| "Am"A4- A2 |]
+"G7"G2 "D"\
+| "C"(3cBc (3e^de (3g^fg c'>c' \
+| "F/c"(3aaa c'2 "C"(3ggg c'2 \
+| "C"(3cBc (3e^de (3g^fg c'>c' \
+| "Dm7"d'>^c' d'>e' "G7"d'>b a>g |
+| "C"(3cBc (3e^de (3g^fg c'>c' \
+| "F/c"(3aaa c'2 "C"(3ggg c'2 \
+| "Am"(3agf "E7"(3e^f^g "Am"a>b c'>d' \
+| "E7"e'>d' c'>b "Am"a2 "d.C."z2 |]
+S:https://www.folktunefinder.com/tunes/151063
+S:http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+S:http://www.nlc-bnc.ca/obj/m5/f2/csm8247.pdf
+S:http://www.ragtimepiano.ca/rags/can8.htm
+S:http://www.ragtimepiano.ca/rags/can8.htm
+S:http://trillian.mit.edu/~jc/music/abc/Intl/shottish/DancingInTheBarn_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/shottish/DancingInTheBarn_Am.abc
+% Rhythm Shottish
+% Link Link to PDF
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

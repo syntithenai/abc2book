@@ -1,0 +1,62 @@
+X:1
+T:Gavotte : Sib - Mehu, Plounevez, Scrignac
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret (Avril 99)
+E:12 
+M:4/4
+L:1/8
+K:Bb
+T:Ton kentan : Marcel Mehu (Plsidy)
+"Bb"fd Bd (3fdB "Eb"g2 | gb "F"ag "Bb"f2 f2 ::\
+fd Bd (3fdB "C"c2 | cd (3cdc "Bb"B2 B2 :|
+T:Variante RN 1
+fd Bd bb "Eb"a2 | gb (3b"Bb"ag f2 f2 ::\
+fd Bd (3fdB "C"c2 | Ac cc "Bb"B2 B2 :|
+T:Gavotte du Lorzh
+Bd df fb b2 | fg/f/ ed cB A2 | Ac ce eg g2 |1 fg/f/ ec d2 d2 :|2 \
+fg/f/ ec B2 B2 |: Bd df fb b2 | ff dd B2 B2 :| \
+Bd df fb b2 | ff dd BB A2 | Ac Ac Ac g2 | fg/f/ ec B2 B2 |]
+T:Tamm kreiz : Plonevez-ar-faou
+Q:3/8=90
+M:12/8
+L:1/8
+K:Eb
+c2 e d2 e c2 d e2 c | d2 e f2 g f2 d e2 c/B/ |\
+c2 e d2 e c2 d e2 c | d2 f e2 c d2 B c3 ||
+Q:3/8=120
+|: e2 f g2 g a2 g f2 e | d2 e f2 d g2 f e3 |\
+c2 d e2 c f2 e d2 c | B2 c d2 B c3 c3 :|
+%%newpage
+T:Ton diwezhan : Scrignac (Yves Menez)
+d | dbab g^fgd | edfe d2 d :| \
+d | dgfe dc d2 | g2 gg fedd | dgfe dcde | dedc BA G2 G2 |\
+B2 BA cA B2 | BA BA G2 (3GAB | c2 cc BA B2 | BA BA G2 G |]
+T:Montagne A
+K:Dm
+A=Bcd efde | fdef d z d2 | A=Bcd efde | fdef d z d2 |\
+A=Bcd efde | fdef gg a2 | A=Bcd efde | fdef d z d2 ||
+(3aga bg afde | fdef gg a2 |(3aga bg afde | fdef d z d2 ::\
+ad' (3c'ba gbag | (3fed ef gg a2 |ad' (3c'ba gbag | fagf d z d2 :|
+T:Dans ar podo fer
+M:4/4
+L:1/16
+K:Eb
+B2d2 f2f2 e2d2 c4 | f2f2 f2d2 B4 B4 ::\
+B2d2 f2f2 (3e2d2c2 d2d2 :| B2d2 f2f2 e2d2 c4 | f2f2 f2d2 B4 B4 |]
+S:https://www.folktunefinder.com/tunes/151232
+S:http://termen.free.fr/danses/cornouaille/GavotteSibMehuPlounevezScrignac.abc
+% Rhythm Gavotte
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

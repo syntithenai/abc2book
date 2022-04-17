@@ -1,0 +1,23 @@
+X: 1
+T: Dance! Dance!
+M: 4/4
+L: 1/8
+R: reel
+K: Dmin
+|:AB^cd efed|^c2^cA d2d2|e2e2 gfed|^c2^cA d4|
+AB^cd efed|^c2^cA d2d2|^c2^c2 BABG| A8:|
+|:fga2 a2a2|gage ^c4|^cdef gabg|a4 agfe|
+def2 f2f2| efe^c A4|A=B^cd ef^ce|d8:|
+|:A2^c2 A2^c2|d2d2 gfed|^c2^c2 d^cdf|e2a2 a4|
+A2^c2 A2^c2|&quot;last time to CODA&quot;d2d2 gfed|^c2^c2 BABG| A8:|
+&quot;CODA&quot;d2d^c defg|a2A2 e2E2|D8|
+S:https://www.folktunefinder.com/tunes/151001
+S:http://www.thesession.org/tunes/display/8084
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Daly's
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+B,D|:&quot;G&quot;G2 B-A GDB,D|GABG cBAG|&quot;D&quot;FAFA cAFA|cA(3BcB AFDF|
+&quot;G&quot;G2 B-A GDB,D|GABG cBAG|&quot;D&quot;FAFA cAFA|[1(3BcB AF &quot;G&quot;G2 B,D:|[2AFDF &quot;G&quot;GABd||
+&quot;C&quot;e3 g ecAG|EDCD EGAc|d^cde dBGD|B,DGF GDB,D|&quot;D&quot;CDFGA2A2|
+&quot;G&quot;B,DGA B2B2|[1&quot;D&quot;AFAB cAFA|&quot;G&quot;GFGA GABd:|[2&quot;D&quot;AFAB cAFD|&quot;G&quot;GABd G4||
+S:https://www.folktunefinder.com/tunes/150957
+S:http://www.thesession.org/tunes/display/1361
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

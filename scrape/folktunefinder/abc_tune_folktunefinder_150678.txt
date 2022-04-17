@@ -1,0 +1,19 @@
+X:1
+T:Cumberland's Crew
+M:6/8
+L:1/8
+K:G
+ B,| EFE/2-^D/2 E B,3/2 B,/2| GFE FB, B,/2B,/2| D3/2 E/2 D| DB,G,|\
+ A,B,^D E2 B,| EFE/2-^D/2 E B,3/2 B,/2| GFE FB, B,/2B,/2| D3/2 E/2 D DB,G,|\
+ A,B,^D| E2 B,| EGA B3/2 B/2A/2 G/2| A3/2 B/2 A GEB,| E/2E/2 GA B2 A/2G/2|\
+ ABG E2 G| B,3/2- C/2B,/2-A,/2| B,G,B,| D3/2 E/2 DD B, B,/2B,/2| GFE EB,G,|\
+ A,B,^D E2||
+S:https://www.folktunefinder.com/tunes/150678
+S:http://back.numachi.com:8000/dtrad/abc/CUMBCREW.2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

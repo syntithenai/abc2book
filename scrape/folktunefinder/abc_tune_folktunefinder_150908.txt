@@ -1,0 +1,23 @@
+X: 1
+T:Daichovo horo
+O:Bulgaria
+M:9/8
+Q:1/8=240
+K:ADor
+e d e ~d3/2|d c/d/ e ~c3/2|\
+c B/c/ d ~B3/2|G A ~A A3/2:|
+|:F/G/ A/D/ F/G/ ~AG/| \
+A/B/ c/B/ c/d/ ~BG/|\
+F/G/ A/D/ F/G/ ~AG/|\
+c c/B/ ~B/A/ A3/2:|
+S:https://www.folktunefinder.com/tunes/150908
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/da/Daichovo_horo_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/da/Daichovo_horo_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

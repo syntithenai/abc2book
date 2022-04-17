@@ -1,0 +1,21 @@
+X: 3
+T: Cuckoo
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+dc |:\
+BABd cBcA | (3dcd (3gfe dBGF | EcBc AGFG | (3ABA (3GFE DCB,D |
+BABd cBcA | (3dcd (3gfe dBGF | EcBc AGFG |[1 ADFA G3 A :|[2 ADFD G2 ga ||
+|: bg (3gfg dgBd | bg (3gfg dgBg | c'a (3aga eaca | c'a (3aga eaca |
+bg (3gfg dgBd | bg (3gfg dgBg | (3aba (3gag (3fgf (3efe |[1 decd Bdga :|[2 decd Bdgd |]
+S:https://www.folktunefinder.com/tunes/150536
+S:http://www.thesession.org/tunes/display/573
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,62 @@
+X:2032
+T:Dance with me
+T:from Op. 27
+C:Robert Volkmann
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/volkmann-robert/volkmann-dance-with-me.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:F
+V:1
+c>AcA|GFF2|f2d2|c4|
+V:2
+F,[A,2C2][A,C]|F,[A,2C2][A,C]|F,[A,2C2][A,C]|F,[A,C]F,[A,C]|
+%
+V:1
+c>AcA|GFF2|f2d2|c4|
+V:2
+F,[A,2C2][A,C]|F,[A,2C2][A,C]|F,[A,2C2][A,C]|F,[A,C]F,[A,C]|
+%
+V:1
+dddd|d>BAG|dddd|d>BAG|
+V:2
+^F,[A,D]G,[B,D]|A,[C^F]B,D|^F,[CD]G,[B,D]|E,[B,C]D,[B,D]|
+%
+V:1
+BAGA|FAc2|BAGA|FA cd/e/|
+V:2
+[B,4C4E4]|[A,4C4]|[B,4C4E4]|[A,4C4]|
+%
+V:1
+f2d2|c4|c>AcA|GFF2|
+V:2
+[D,4F,4B,4]|[E,4G,4B,4]|F,[A,2C2][A,C]|F,[A,2C2][A,C]|
+%
+V:1
+f2d2|c4|c>AcA|GFF2|
+V:2
+F,[A,2C2][A,C]|F,[A,C]F,[A,C]|F,[A,2C2][A,C]|F,[A,2_E2][A,E]|
+%
+V:1
+[A2d2][G2B2]|[G2c2][F2A2]|c2E2|F4|]
+V:2
+[^F,2C2D2][G,2B,2D2]|[=E,2B,2C2][=F,2A,2C2]|[C,2-F,2A,2][C,2G,2B,2]|[F,4A,4]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/151035
+S:http://abc.musicaviva.com/tunes/volkmann-robert/volkmann-dance-with-me.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/volkmann-robert/volkmann-dance-with-me.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/volkmann-robert/volkmann-dance-with-me.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/volkmann-robert/volkmann-dance-with-me.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/volkmann-robert/volkmann-dance-with-me.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

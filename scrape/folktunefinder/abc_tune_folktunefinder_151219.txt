@@ -1,0 +1,25 @@
+X: 1
+T: A Thousand Farewells
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: fe |
+dAF E3 DB,A, D2 E | FGF BAF dAF EFA |
+dAF E3 DB,A, D2 E |1 F3 BAF EDC D :|
+2 F3 BAF EDC D3 ||
+|: d3 f3 a2 f edB | A2 F DFA BAF EFA |
+dcd fef a2 f edB |1 A2 F DFA Bdc d3 :|
+2 A2 F DFA B/c/dc d ||
+S:https://www.folktunefinder.com/tunes/151219
+S:http://www.thesession.org/tunes/display/3739
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

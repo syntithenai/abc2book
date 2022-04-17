@@ -1,0 +1,24 @@
+X: 1
+T: Cuddle The Dragon
+M: 6/8
+L: 1/8
+R: jig
+K: Fmaj
+c3 ~c2d | c2B A2F | G2F E2A, | B,3 z3 |
+G3 ~G2A | B2d B2A | G2E C2A, | B,2C E2G |
+c3 ~c2d | c2B A2F | G2F E2A, | B,3 z3 |
+G3 ~G2A | B2d c2B | A2F G2E  | ~F3 z3 ||
+AcG F2E | FAE DFA, | DGA BAG | GED CEG |
+AcG F2E | FAE DFA, | B,GC DFA, |1 B,FE F2G :|2 B,FE F2z||
+S:https://www.folktunefinder.com/tunes/150601
+S:http://www.thesession.org/tunes/display/7711
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

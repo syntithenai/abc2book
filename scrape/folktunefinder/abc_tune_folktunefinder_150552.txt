@@ -1,0 +1,20 @@
+X:1
+T:Cuckoo is a Pretty Bird
+M:3/4
+L:1/8
+K:E
+ C3/2 C/2| C2 c2 B3/2 G/2| F3/2 D/2 B,2 C3/2- D/2| E2 G2 F3/2 E/2|\
+ C4 C3/2- B,/2| C2 c2 B3/2- G/2| F3/2- D/2 B,2 C3/2- D/2| E2 G2 F3/2- E/2|\
+ C4 C3/2- D/2| E3 FG-E|F-E F2 F3/2 G/2| A3/2- B/2 c2 G3/2- F/2| G3G-A B|\
+ c2 c3/2- d/2 c3/2 B/2| G3/2- F/2 E3/2- F/2 G2| F3 C E3/2 B/2| C4||\
+S:https://www.folktunefinder.com/tunes/150552
+S:http://back.numachi.com:8000/dtrad/abc/CUCKBIRD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CUCKBIRD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

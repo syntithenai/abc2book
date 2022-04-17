@@ -1,0 +1,35 @@
+X: 1
+T:The Cuckoo's Nest
+M:4/4
+C:
+S:Radford
+N:
+A:Adderbury
+O:English
+R:Reel
+%P:A(AB)$^4$
+P:A(AB)4
+K:G
+%
+%
+I:speed 400
+P:A
+|:\
+        BcBA  G2 g2 |  dedB  c2  Bc |  dcBA  GFGA  |  B2 G2 G4 :|\
+%
+%
+P:B
+|:      d2 d2 d2 ed |  c2 A2 A2  AB |  c2 c2 c2 dc |  B2 G2 G4 |\
+        BcBA  G2 g2 |  dedB  c2  Bc |  dcBA  GFGA  |  B2 G2 G4 :|
+S:https://www.folktunefinder.com/tunes/150572
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/cu/Cuckoos_Nest_11.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

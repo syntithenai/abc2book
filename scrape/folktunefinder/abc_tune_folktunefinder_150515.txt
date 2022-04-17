@@ -1,0 +1,26 @@
+X:16
+T: ES WAR EIN MARKGRAF UEBERN RHEIN
+N: Z0007
+O: Europa, Mitteleuropa, Deutschland, Rheinland
+M: 3/4
+L: 1/8
+K: G
+DDD | G3_BAG | F2z
+A_Bc | d3c_BA | G2z
+DDD | G3_BAG | F2z
+A_Bc | d3c_BA | G2z
+ddd | d3A_BG | A2z
+DG_B | A3c_BA | G2z
+ddd | d3A_BG | A2z
+DG_B | A3c_BA | G2z
+S:https://www.folktunefinder.com/tunes/150515
+S:http://ifdo.ca/~seymour/runabc/esac/test1.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/test1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

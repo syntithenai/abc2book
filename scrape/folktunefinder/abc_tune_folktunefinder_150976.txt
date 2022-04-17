@@ -1,0 +1,27 @@
+X:1
+T:Dammet Lttar
+R:polska
+Z:Erik Ronstrm
+O:Gotland
+D:Gunnfjauns Kapell, "Sjelvar"
+M:3/4
+L:1/16
+K:D
+a3g f2d2 f2a2|a2gf g2ab e2fg|g2fe d2B2 c2d2|e2dc d2cB A2Bc|
+d2AG F2ED B4|A2Bc d2A2 F2D2|(aA)(aA) (bA)(bA) (c'A)(c'A)|(aA)(aA) d'2a2 f2d2|
+ABcd efge b2g2|egec d8::e3d d2c2 c3e|efed cdcB c2A2|
+ABA^G A2B2 c2d2|e2f^g a2ed c2BA|A3B =c4 ^c3d|c2BA B2dB G4|
+B2G2 G2B2 B2d2|d2^cd edcB A4|(aA)(aA) (bA)(bA) (c'A)(c'A)|(aA)(aA) d'2a2 f2d2|
+ABcd efge b2g2|egec d8:|
+S:https://www.folktunefinder.com/tunes/150976
+S:http://www.folkwiki.se/pub/cache/Dammet_L%e4ttar_a978ab.latin.abc
+S:http://www.folkwiki.se/pub/cache/Dammet_L%e4ttar_a978ab.abc
+S:http://www.folkwiki.se/pub/cache/Dammet_L%e4ttar_a978ab.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

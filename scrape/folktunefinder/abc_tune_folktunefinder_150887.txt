@@ -1,0 +1,21 @@
+X: 1
+T: Da Full Rigged Ship
+M: 6/8
+L: 1/8
+R: jig
+K: Amin
+e|(e2 a) (aea)|(aea) (aba)|e2 ^f g2 g|(gag) (^f2 d)|
+(e2 a) (aea)|(aea) (aba)|g2 e e(dB)|A3 E3:|
+(efe) (edB)|(A2 B) c3|B2 G B2 G|(Bcd) E3|
+(efe) (edB)|(A2 B) (c2 d)|(efe) (dBG)|1A3 A3:|2 A3 (A2 E)||
+(EGE) (EGE)|(EGE) c3|(EGE) (E2 D)|(E2 F) (GEC)|
+(EGE) (EGE)|(EGE) (c2 d)|(efe) (dBG)|1A3 (A2 G):|2 A3 A2||
+S:https://www.folktunefinder.com/tunes/150887
+S:http://www.thesession.org/tunes/display/878
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

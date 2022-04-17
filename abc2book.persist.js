@@ -374,18 +374,18 @@ function loadIndex(callback) {
 
 function searchIndex(text, callback) {
   $('#waiting').show()
-  //console.log('sesarch index',text)
+  console.log('sesarch index',text)
   loadIndex(function(index) {
-    //console.log('sesarch index loaded',index)
+    console.log('sesarch index loaded',index)
     var matches = {}
     var cleanText = stripText(text)
     var parts = cleanText.split(" ")
-    //console.log('sesarch tokens',parts)
+    console.log('sesarch tokens',parts)
     parts.forEach(function(part) {
-      //console.log('sesarch tokens P',part, index.tokens)
+      console.log('sesarch tokens P',part, index.tokens)
       if (index.tokens.hasOwnProperty(part) && Array.isArray(index.tokens[part])) {
         index.tokens[part].forEach(function(matchItem) {
-          //console.log('handlepart',part,matchItem,matches,matches[matchItem])
+          console.log('handlepart',part,matchItem,matches,matches[matchItem])
           if (matches[matchItem] > 0) {
             matches[matchItem] = matches[matchItem] + 1
           } else {

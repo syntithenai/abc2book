@@ -1,0 +1,24 @@
+X: 1
+T: Dancin' With My Sweetie
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: a2 ^g2 =g2 |\ 
+f2 f>g f>e d2 | f>^ef>g f>=ed>f | e>^de>f g>fg>e | B2 e2 ^d2 =d2 | 
+c2 c>d c>B A2 | c>=c^c>d c>BA>c |[1 d>cd>e f>ed>B | A2 :|[2 d>cd>e f<ed>c | d2 ||
+|: A2 ^G2 =G2 |\ 
+F>DA,>D F2 F2 | E>^DE>G B2 B2 | c>=c^c>B A>ce>c |
+[1 d>cd<f a>A^G>=G | F>DA,>D F2 F2 | E>^DE>G B>ed>=d | c>=c^c>B A>gf>e | d2 :|
+[2 d>cd<f A>a^g>=g | f>dA>d f>Aa>f | g>ec>e b2 ^a>b | (3aba c'>b (3aba (3gfe | d2 |]
+S:https://www.folktunefinder.com/tunes/151093
+S:http://www.thesession.org/tunes/display/8851
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

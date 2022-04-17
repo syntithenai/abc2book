@@ -1,0 +1,24 @@
+X:5
+T:De ton peuple rassembl (Kyrie)
+M:2/4
+L:1/8
+%%freegchord 1
+K:F
+z2"Soliste"A,A,|DD EF|GA GF|E2ED|F2DC|D3"Assemble"D|
+w:De ton|peu-ple ras-sem-|bl par ta pa-|ro-le, Sei-|gneur, prends pi-|ti. Sei-|
+F2DC|D2"Soliste"DD|GG AB|AG FG|A3A|
+w:gneur, prends pi-|ti. De ton|peu-ple sanc-ti-|fi par ton Es-|prit; |
+c2AG|A3"Assemble"A|c2AG|A2"Soliste"AA|dd AG|
+w:Christ, prends pi-|ti. |Christ, prends pi-|ti. De ton|peu-ple ra-che-|
+F2GA|E3D|F2DC|D3"Assemble"D|F2DC|D4||
+w:t par ton|sang, Sei-|gneur, prends pi-|ti. Sei-|gneur, prends pi-|ti.|
+S:https://www.folktunefinder.com/tunes/151370
+S:http://moinejf.free.fr/messe/messeD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

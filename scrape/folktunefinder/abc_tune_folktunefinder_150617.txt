@@ -1,0 +1,18 @@
+X:4
+T:O'Keefe's Slide
+R:slide
+M:12/8
+L:1/8
+K:G
+"Am" A2 e e2 d BAB   "G" dBG | "Am" A2 e e2 d "G" B2  G GAB | "Am" A2 e e2 d "G" BAB d3 | "Em" BAB "G" d2 e "Am" B2 A A3 :|
+"Am" e2 a a2 b a2 g "G" e2 d | "Am" e2 a a2 b "G" a2 g e2 f | "Em" g2 g g2 e dBA  G2  A | "Em" BAB "G" d2 e "Am" B2 A A3 :|
+S:https://www.folktunefinder.com/tunes/150617
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Slides.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

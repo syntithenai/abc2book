@@ -1,0 +1,22 @@
+X:4
+T: Da New Rigged Ship
+C: Trad.
+O: Shetland 
+S: Aly Bain
+M: 6/8
+Q: 3/8=120
+L: 1/8
+K: A dorian
+|| "Am"e2a aea | aea b2 a | e2 f "C"g2g | gag "D"f2 d |
+"Am"e2 a aea | aea b2 a | "C"g2 e "Em"edB | "Am"A3 A3:|
+|| "Am"efe "Em"edB | "Am"A2 B c3 | "Em"B2 G B2 G | "G"Bcd "Am"E3 |
+"Am"efe "Em"edB | "Am"A2 B c2 d | efe "G"dBG | "Am"A3 A3:|
+S:https://www.folktunefinder.com/tunes/150886
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/DaFullRiggedShip.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

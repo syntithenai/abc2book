@@ -1,0 +1,33 @@
+X:1
+T:Rve d'amour
+R:Scottish
+O:France
+A:Alsace
+M:C|
+L:1/8
+P:ABACA
+K:C
+G2 G>A B4 | B2B>c d4 |  {de}f2e2d2c2 | B2G>GG2z2 |: [P:A] (GAG2)e2c2 |
+(GAG2)e2c2 | e2ed cB AG | G2F2F4 | (GF)D2 d2B2 | (GF)D2 d2B2 |
+G2(GB) (Bd) (df) | {g}f2e2e2z2 | (GAG2)e2c2 | (GAG2)e2c2 | EGG2 (ce) (eg) |
+{a}ag2f2f2z2 | fed2 (GB)B2 | edc2 (Gc)c2 | g2fe dfed | c2e2c2z2 ::
+P:B
+K:G
+B2B>d d4 | (eg)fe d4 | A2{c}d2A2{c}d2 | (B=c) BA G2z2 |
+B2B>d d4 | (eg)fe d4 | (ed)A2 e3d | G2B2G2z2 ::
+P:C
+K:F
+A^GAB c=Bcf | a6g2 | {g}f2e2d3A | G6z2 | G^FGA BABc | g6f2 |
+e2B2d3c | A2-A4z2 | (A^GAB) (c=Bcf) | a6g2 | {g}f2e2d3A | B6(Bf) |
+(eBGB) e2d2 | (cA)(FA) d2c2 | (dc)c2 G3A | F2A2F2z2 :|
+S:https://www.folktunefinder.com/tunes/151244
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/mercredi/ReveDAmour.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Da Slokit Light
+M: 4/4
+L: 1/8
+R: reel
+Q:200
+D: Moving Cloud, "Foxglove"
+K:D
+FE|D3F A2d2|fedc d2A2|B2d2 A2d2|BAGF EGFE| D3F A2d2|
+fedc d2A2|B2G2 AGFE|D6:|g2|f2a2 e3c|d3e dcBA|f2a2 e2^g2| 
+a6 g2|f2a2 e3c|d3e dcBA|B2G2 AGFE|D4- D3g|f2a2 e3c|d3e dcBA|
+B2d2 A2d2|BAGF EGFE| D3F A2d2|fedc d2A2|B2G2 AGFE|D6|]
+S:https://www.folktunefinder.com/tunes/150420
+S:http://fredmusic.pbwiki.com/f/fredmusic1.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

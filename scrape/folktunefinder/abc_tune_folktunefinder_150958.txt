@@ -1,0 +1,23 @@
+X: 1
+T: Damascus Drum, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmin
+&quot;A&quot;GA A/A/A BA^cd | &quot;A&quot;eAde ^c4 | &quot;A&quot;^cA A/A/A GABA | &quot;A&quot;A/A/A GA A4 |
+&quot;A&quot;GA A/A/A BA^cd | &quot;A&quot;eAde g4 | &quot;Dm&quot;fd d/d/d &quot;A&quot;e^c c/c/c |1 &quot;Bb&quot;dB B/B/B &quot;A&quot;A4 :|2 &quot;Bb&quot;dB B/B/B &quot;A&quot;^c4 |]
+|: &quot;Dm&quot;^cd d/d/d edfd | &quot;Dm&quot;d/d/d gd a4 | &quot;Dm&quot;a(3g/a/g/ fd &quot;A&quot;e^c c/c/c | &quot;Bb&quot;dB B/B/B &quot;A&quot;^c4 |
+&quot;Dm&quot;^cd d/d/d edfd | &quot;Dm&quot;d/d/d gd a4 | &quot;A&quot;GA A/A/A A/A/A BA | &quot;A&quot;A/A/A GA A4 :|
+|: &quot;A&quot;GA A/A/A BA^cd | &quot;A&quot;edgf e4 | &quot;A&quot;eAde ^cA A/A/A | &quot;Gm&quot;d(3^c/d/c/ BG &quot;A&quot;A4 |
+&quot;A&quot;GA A/A/A BA^cd | &quot;A&quot;edgf e4 | &quot;A&quot;eAde gAaA | &quot;A&quot;A/A/A ga a4 :|
+|: &quot;A&quot;aA A/A/A gA&quot;Dm&quot;fd | &quot;Dm&quot;d/d/d fe &quot;A&quot;^c4 | &quot;A&quot;^cA A/A/A GABA | &quot;A&quot;A/A/A GA A4 |
+&quot;A&quot;aA A/A/A gAaA | &quot;A&quot;A/A/A ga &quot;Dm&quot;a(3g/a/g/ fd | &quot;Dm&quot;d/d/d fe &quot;A&quot;^cc/c/ ce | &quot;Bb&quot;dB B/B/B &quot;A&quot;A4 :|
+S:https://www.folktunefinder.com/tunes/150958
+S:http://www.thesession.org/tunes/display/7675
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

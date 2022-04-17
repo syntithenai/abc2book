@@ -1,0 +1,28 @@
+X:0436
+T:"Curly Locks"      (air)       0436
+C:after Chief  F. O'Neill
+C:moderate
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_vb"G3/2E/2|D3/2E/2GA B3/2A/2GA|Bdef g3e|dBAB G2AB|{d}cBAG E2GE|
+D3/2E/2GA BAGA|Bdef g3e|d3/2B/2AG A3/2c/2BA|G2G2G2||
+GA|Bdef g3a|bgfe d3e|dBAG G2AB|{d}cBAG E2GE|
+D3/2E/2GA BAGA|Bdef g3e|d3/2B/2AG A3/2c/2BA|G2G2G2|]
+S:https://www.folktunefinder.com/tunes/150755
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0436-CurlyLocks.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0436-CurlyLocks.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0436-CurlyLocks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
