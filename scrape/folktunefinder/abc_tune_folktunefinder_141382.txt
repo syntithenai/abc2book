@@ -1,0 +1,35 @@
+X: 1
+T: BONNETS SO BLUE
+S: MDT
+O: Bucknell
+B: Morris Ring
+P: AA2(BC)2
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+Q: 3/8=100
+K: C
+P: A
+G | c>cc cde | G>GG GAB | cea gec | d>ed d2e |
+    c>cc cde | G>GG G2a | gfe ded | c3 c2 ||
+P: B
+c |\
+   Bcd  ded | G>GG G2c | Bcd def | g3 g2f |
+   e2d  c2B | A2B  c2d | efe dcB | A3 A2G |
+   c>cc cde | G>GG G2c | Bcd def | g3 g2f |
+   e2d  cde | fga  g2a | gfe dcB | c3 c3 ||
+P: C
+[M:3/8]G3 |[M:6/8]\
+   c2B c3 | e2f g3 | G2A G3 | G2A B3 |
+   c2e a3 | g2e c3 | d2e d3 |[M:3/8]d2e |
+[M:6/8]c>cc cde | G>GG G2a | gfe ded | c3 c2 ||
+S:https://www.folktunefinder.com/tunes/141382
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bonnets_So_Blue_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

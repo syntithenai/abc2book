@@ -1,0 +1,24 @@
+X:12
+T:Passant par Brisfort
+R:Bourre  2 temps
+O:France
+C:La Chavanne de Montbel
+A:
+M:2/4
+L:1/16
+K:G
+B3A c2B2|F3G A2B2|c6d2|c3B A2G2|B3A c2B2|F3G A2B2|c2A2- A2F2|G8:|:
+B2A2- A2B2|G4E2A2|D3E F2D2|G3E A2G2|B3A- A2B2|G4E2c2|B3A G2F2|G8:|
+%%footer $D   Galouvielle-MBe 2005 \nBourre  3 temps --
+S:https://www.folktunefinder.com/tunes/140695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

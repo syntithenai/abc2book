@@ -1,0 +1,29 @@
+X: 1
+T: BONNY GREEN
+B: The Morris Ring
+A: Bucknell
+S: MDT
+Z: John Chambers 2004-6-20
+M: 6/8
+L: 1/8
+Q: 3/8=100
+P: 1/2 A.ABC
+K: D
+A\
+"A"|: dcd efe | dcB ABc | dcd BAG |FGE D3 :|
+"B"|: EFG FED | EFG ABc | dcd BAG | FGE D3 :|
+"C"|:[M:3/8] D3 |[M:6/8] d2c d3 | e2f e3 | d2c B3 \
+| A2B c3 | d2c d3 | B2A G3 |(2FG E3 |[M:3/8] D3 :|
+S:https://www.folktunefinder.com/tunes/141529
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/BONNY_GREEN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

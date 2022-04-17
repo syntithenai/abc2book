@@ -1,0 +1,23 @@
+X: 6
+T:Cuckoo's Nest, Sherborne
+M:2/2
+L:1/8
+A:Sherborne
+P:A(AB)5A
+K:GDOR
+P:A
+|:BcBA G2g2| d2d2 c2d2| AcAG F2GA|B2c2 G4:|
+P:B
+|:g2g2 g2ag|^f2d2 d3e |=f2f2 f2gf|e2c2 c4 |
+  BcBA G2g2| d2d2 c2d2| AcAG F2GA|B2c2 G4:|
+S:https://www.folktunefinder.com/tunes/140507
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

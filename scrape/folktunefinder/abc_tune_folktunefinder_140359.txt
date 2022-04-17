@@ -1,0 +1,29 @@
+X:180
+T: Rocky Shore
+S: Reavy Collection: "Music of Corktown"
+Z: B.Black
+N: variant of "The Wise Maid"
+M: 4/4
+L: 1/8
+R: reel
+K: D
+DE|: (3FGF EG FEDC|DFAB AGFA|d2 eg fdec|dAFA BGEG|
+(3FGF EG FEDC|DFAB AGFA|d2 eg fdec|1 dBAG FDDE :|2\
+dBAG FD||
+Dc|d2 AG (3FED FA|dfaf gfeg|fedf edcA|Bcdf ecA=c|
+BAGB AGFA|dfaf gfed|Bdce dBAG|1 (3FGF EG FD :|2\
+F2 EG FD D2||
+S:https://www.folktunefinder.com/tunes/140359
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

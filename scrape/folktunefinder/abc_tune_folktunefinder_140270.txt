@@ -1,0 +1,27 @@
+X:8
+T:Rathcroghan Reel
+R:reel
+D:Catherine McEvoy
+N:melodic code 5353 5355
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:Dmix
+A2 FD ADFD|ADFD ABAG|EG ~G2 AG ~G2|EGGF GABd|
+A2 FD ADFD|ADFD G2 FG|AGAB cded|cAGE D2 (3(EFG):|
+|:Add^c d2 cd|~a3 g egdB|A3 B AG F2|AGGF EFGB|
+Add^c d2 cd|eaag e2 dg|a2 ge dged|cAGE DEFG:|
+S:https://www.folktunefinder.com/tunes/140270
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

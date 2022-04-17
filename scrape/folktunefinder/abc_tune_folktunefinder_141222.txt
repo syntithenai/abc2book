@@ -1,0 +1,27 @@
+X:9
+T:Old Joe
+C:Trad, Am. (after CW)  
+M:4/4
+L:1/8
+Q:1/2=116
+K:C
+|: c3 d cAG2 | AGAB cBcd | eg2 g-g4  | agab aged |
+ c3 d cAG2 | AGAB cBcd | eg2a g2 ag | edcA c4 :||
+|: A,4 C3D | EDCE DCA,G, | A,2 A,2 C2 D2 | EDC2 D4 | 
+A,2 A,2 C2 D2 | EDCE DCA,G, | C2 c2-c A GF | ECDB, C4 :||
+%%%%  Taken from Rodney Miller's Airplang, revised by CW.
+%%%%  -- eric  10/02/00
+%%%%  Switches to Am in the second turn.
+%%%%  See Chorus.abc for notes on construction
+S:https://www.folktunefinder.com/tunes/141222
+S:http://ericdancepiano.com/abc/DanceList.abc
+S:http://www.ericdancepiano.com/abc/DanceList.abc
+S:http://www.latinsquares.com/abc/DanceList.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

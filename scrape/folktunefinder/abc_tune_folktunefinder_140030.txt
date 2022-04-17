@@ -1,0 +1,31 @@
+X: 1
+T:Blarney Pilgrim
+M:6/8
+L:1/8
+C:Traditional
+R:Jig
+S:Step One: Play Pennywhistle, Peter Pickow
+Z:ABC by Thornton Rose, 2001
+K:G
+"G"DED DEG | "D"A2 D ABc | "G"BAG "C"AGE | "G"G2 G "D"GED | "G"DED DEG |
+"D"A2 D ABc | "G"BAG "C"AGE | "D"GED D3 ::
+"G"ded "Em"dBG | "D/Am"AGA "G/B7"BAG | "Em"ded "Bm"dBG | "D/C"ABA "G"GBd |
+"Em"g2 e "Bm"dBG | "D/C"AGA "G/B7"BAG | "Em"B2 G "C"AGE |
+[1 "D/A7"GED "D"D3 :| [2 "D"GED "C"DEG |:
+"D/Am"A2 D "G/Bm"B2 D | "D/C"A2 A "D"ABc | "G"BAG "D"AGE | "G"GAG "C"GED |
+"D/Am"A2 D "G/Bm"B2 D | "D/C"A2 A "D"ABc | "G/Em"BAG "C/A7"AGE |
+[1 "D"GED "C"DEG :| [2 "D"GED D3 |]
+S:https://www.folktunefinder.com/tunes/140030
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/BlarneyPilgrim.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/BlarneyPilgrim.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/BlarneyPilgrim.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

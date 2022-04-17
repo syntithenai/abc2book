@@ -1,0 +1,29 @@
+X: 1
+T: Boibriker Freilach
+M: 2/4
+L: 1/16
+K: Ephr=F^G
+|: "E"GAGF E2E2 | GAGF E2E2 \
+| GEGB "Am"A2Ac | "E"B4 e4 \
+|  "E"GAGF E2E2 | GAGF E2E2 |
+| E2E2 "Dm"FED2 | "E"E8 :: "Am"E2E2 A2A2 | "E"G3F E4 \
+| "Am"E2E2 A2A2 | "E"G3F E4 \
+| "Am"E2E2 A2A2 | c2 c4 BA | "E"B2 B4 A2 |
+| G2E2 G2B2 |1 "Am"A4 G2F2 \
+:|2 "Am"A6 B2 |: "C"c4 c4 | c8- \
+| c2Bc e2d2 | d2c2 c2B2 \
+| "E"B4 B4 | B8- |
+| B2^AB d2c2 \
+| c2B2 B2A2 | "Am"A4 A4 | A8- \
+| A2c2 B2A2 | "E"G2F2 E4 \
+|1 "Am"A2A2 "G"B2A2 | "C"B2 c6 \
+:|2 "E"E2E2 "Dm"FED2 | "E"E8 |]
+S:https://www.folktunefinder.com/tunes/141033
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/BoibrikerFreilach_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BoibrikerFreilach_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

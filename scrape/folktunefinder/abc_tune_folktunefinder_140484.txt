@@ -1,0 +1,30 @@
+X:1
+T:The Blue-Eyed Stranger (Bucknell)
+R:Reel
+M:4/4
+L:1/8
+S:Bacon (CJS (MSS))
+A:Bucknell
+O:England
+P:A.(AB)3.A
+K:G
+ A "A"\
+| d2D2 D2GF | EFGA B2A2 \
+| B2d2 cBAG | E3F  G3 :|
+ z "B"\
+| GABc d2d2 | edcB A4 |
+| GABc d2d2 | B3c  d4 \
+| GABc d2d2 | edcB A2G2 \
+| A2Bc BAGF | E3F  G3 |]
+S:https://www.folktunefinder.com/tunes/140484
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Blue_Eyed_Stranger_Bucknell_.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

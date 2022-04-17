@@ -1,0 +1,26 @@
+X:230
+T: Rathmore Farmer
+S: B.Breathnach: "Ceol Rince na hEireann" II/78 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 6/8
+R: slide
+Q: 375
+K: D
+(3d/c/B/|A2F FEF|A2F F2E|FAF E2D|EFE EDB,|
+A2F FEF|A2F F2E|FAF EDE|D3 D2 :|
+e|fef d2f|edB A2f|gfg e2d|cec A2A|
+fef d2f|edB A2e|faf ede|d3 d2 :|
+S:https://www.folktunefinder.com/tunes/140369
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

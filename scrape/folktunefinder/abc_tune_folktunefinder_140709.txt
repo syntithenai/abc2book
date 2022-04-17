@@ -1,0 +1,33 @@
+X:27
+T:Valse  Pangault
+R:Valse
+C:Limousin
+Q:3/4=80
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+V:1
+B6|B6|B2A2G2|d4B2|c6|c6|c2B2A2|e6|d6|d2e2f2|
+g2f2e2|d2c2B2|A6|e6|A2B2c2|d2e2d2|c2B2c2|d2e2d2:|
+|:B2BA GA|B2BA GA|B2e2d2|c2B2A2|c2cB AB|
+c2cB AB|c2f2e2|d4B2B2BA GA|B2BA GA|
+B2e2d2|c2B2A2|c2cB AB|c2cB AB|c2f2d2|g6:|
+V:2
+g6|f6|e6|d6|a6|g6|f6|e6|d6|B2c2d2|e2d2c2|
+B2A2G2|F6|B6|F2G2A2|B2A2G2|D2G2D2|B,6:|
+|:d2dc Bc|d2dc Bc|d2g2f2|e2d2c2|e2ed cd|
+e2ed cd|e2a2g2|f4d2d2dc Bc|d2dc Bc|
+d2g2f2|e2d2c2|e2ed cd|e2ed cd|e2a2f2|b6:|
+%%footer $D   Galouvielle-MBe 2005 \nValse France
+S:https://www.folktunefinder.com/tunes/140709
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T:Blue Sausage Island
+T:Bluesaussis
+M:C|
+L:1/8
+Q:1/4=200
+C:Cliff Stapleton
+R:Schottisch
+K:C
+"Dm"DEF^G A^GAB|"Am"c2B2 "Dm"A^GAB|"Am"cABc "Dm"d2e2|f4 "Am"e2d2|!
+"Dm"DEF^G A^GAB|"Am"c2B2 "Dm"A^GAB|"Am"cABc "Dm"d2e2|"Dm"d4 A2d2:|!
+"Dm"dfAd fAdf|"Am"e2d2 cdec|"Dm"dfAd fAdf|"Am"e2d2 c4|!
+"Dm"dfAd fAdf|"Am"e2d2 cdec|"Dm"d^cAd "F"=c2F2|[1 "Dm"^GAFA "Am"E2D2:|[2
+ "Dm"^GAFA "Am"E4|]
+S:https://www.folktunefinder.com/tunes/140662
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blue_Sausage_Island_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blue_Sausage_Island_2.abc
+% Rhythm Schottisch
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

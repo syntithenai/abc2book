@@ -1,0 +1,30 @@
+X:385
+T: Return of Spring
+S: Treoir 36/2
+D: James Morrison
+L: 1/8
+M: 2/4
+R: polka
+Q: 1/4=140
+K: G
+B | d>d dB | G>G GD | G>B ed | dc cB |
+c2-cA | F2-FD | FA ed | dc Bc |
+d>d dB | G>G GD | G>B ed | dc c>B |
+Af f>f | Ae e^c | dB c/B/A | GF G2 ||
+g>g ge | ff f>d | ee eB | d2 dB |
+GB/d/ ed |F3 D | F>A ed | G3 B/d/ |
+g>g ge | ff f>d | ee eB |d3 B |
+GB/d/ ed | F3 e/f/ | gf ef |g2 g>e |:
+dB g>f | ee ag | fd ef |ed BG/B/ |
+dB g>f | ee a>g | fd ef |g2 g2 :|
+S:https://www.folktunefinder.com/tunes/140400
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

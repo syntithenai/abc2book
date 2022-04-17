@@ -1,0 +1,28 @@
+X: 1
+T: BOBBING AROUND
+S: MDT
+O: Bampton
+P: A.(AB2)4
+Q: 3/8=96
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+P: A
+E | A2B c2d | e2a a>ec | {e}d>cB e>cB | A2G F2E |
+    A2B c2d | e2a a>ec |    d>cB BeG  | A3  A2 ||
+P:B
+c/e/ | f2B B>cd | e>cA ABc  | d2B  c2A | B2G E>cd |
+       e2c d>cB | c>BA B>cd | e>cA B2G | A3  A2  ||
+S:https://www.folktunefinder.com/tunes/140822
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bobbing_Around_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

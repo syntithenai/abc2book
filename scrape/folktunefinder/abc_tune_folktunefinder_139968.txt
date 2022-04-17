@@ -1,0 +1,22 @@
+X:5
+T:Blackthorn Stick, The
+R:jig
+M:6/8
+L:1/8
+K:Gmaj
+|:GED  DDD |  GFG  c2e | dBG  GAB |  AGE  ~E3 | 
+| GED  ~D3 |  GFG  c2e | dBG  GAB |  AGF  G3 :| 
+|:gdB  GBd  | gdB  c2e | dBG  GAB |  AGE  ~E3 |
+| gdB  GBd  | gdB  c2e | dBG  GAB |  AGF  G2D|
+| gdd  gdd  | gdB  cde | dBG  GAB |  AGE  ~E3 |
+| GED  ~D3  | GFG  c2e | dBG  GAB |  AGF  G3 |
+S:https://www.folktunefinder.com/tunes/139968
+S:http://www.slainte.ch/abc/first.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

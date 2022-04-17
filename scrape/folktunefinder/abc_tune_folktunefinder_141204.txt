@@ -1,0 +1,22 @@
+X:5
+T:The Fairie's Hornpipe
+R:hornpipe
+O:Ireland
+M:4/4
+L:1/8
+K:G
+D2 | "G" GFGA      BdcB | "D" AGAB "G" G2 Bc | "G" dgfg "Am" edcB | "C" cedB "D" A2 Bc |
+     "G" dgfa "C" g2 fe | "D" dedc "G" B2 AG | "Am" ABcA "D" dcAF | "G" G2    GG    G2 :| 
+Bc | "G" dggf     g2 fe | "D" dedc "G" B2 AG | "Am" ABcA "C" edcB | "D" A2  dd   d2 Bc |
+     "G" dggf     g2 fe | "D" dedc "G" B2 AG | "Am" ABcA "D" dcAF | "G" G2    GG    G2 :|
+S:https://www.folktunefinder.com/tunes/141204
+S:http://www.slowplayers.org/Music/abc/Hornp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

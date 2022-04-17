@@ -1,0 +1,32 @@
+X:6
+T:Pekkos Pers storpolska
+R:polska J
+H:efter Hjort Anders Olsson
+H:Bingsj\"o, Dalarna
+A:Bingsj\"o, Dalarna
+Z:id:hn-jp-6
+M:3/4
+L:1/16
+K:D
+D2 | F3A d2d2 fafd | cdec [A6A6]A2 | ABcd e2ce {fg}f2ef |
+gagf efed c3d | efec [d6D6]D2 | F3A d2d2 {fg}f2ef |
+g2g2 fgfe d3c | {cd}c2B2 [B6E6]B2 | {Bc}B2AG A2d2 {fg}f2ed | 
+c3e a2a2 {cd}c3d |1  efec [d6D6] :|2  efec [d8D8] ||
+|: [f3A3D3]f d2d2 f2a2 | efed cBcd e2f2 | [g4B4D4G,4] gagf efed |
+cdcB ABAG FDFA | d2fd {cB}c2ec {dc}d2f2 | efed cBcd e2f2 |
+[g2B2]gb abag {fg}f2ef | gagf efed {cd}c3d |1  efec [d8D8] :|
+[2 efec [d6D6] |: D2 | F3A d4 {edc}d4 | [A2F2][A2F2] [A4A4] [A4A4] |
+[EA,]FED [E2A,2][F2A,2] [G4G,4] | [B4G4] {Bc}B2AG [A4F4] | 
+[A2D2][A2D2] [d2D2][d2D2] fgfe | d2{cd}c2 [B6E6]d2 |
+cdef {gf}g2ag {fg}f2ed | cdec [d6D6] :|
+S:https://www.folktunefinder.com/tunes/140072
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

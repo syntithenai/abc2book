@@ -1,0 +1,37 @@
+X: 06084
+T: Saletan Special
+C: Bob McQuillen 15 Nov 82
+B: Bob's Note Book 6 #84
+Z: 1998 Mary Lou Knack, 2005 John Chambers
+N: Tony Saletan is always nice to me whenever our paths meet, and besides that
+N: he  is  a damn good piano player, and that rates him a tune of his own, you
+N: see - I hope you like this one, Tony!
+M: C
+L: 1/8
+R: march
+%%continuous
+K: G
+G,2 B,2C2 \
+| D3E D2G2 | B2G2 E3G | E2D2 D3E | D4 B,2C2 | D3E D2G2 | B2G2 D2B,2 | A,8- | A,4 A,2B,2 |
+| C3D C3D | C2A,2 A,3B, | C4 A,4- | A,4 D2E2 | F3G A2F2 | E2D2 d2c2 | B8- | B2 \
+| G,2 B,2C2 |
+| D3E D2G2 | B2G2 E2G2 | E2D2 D3E | D4 G2A2 | B3A G2B2 | d2B2 A2G2 | E8 | E4 E2F2 |
+| G3F E2D2 | E2F2 G2A2 | B2 d6- | d4 B,2D2 | E3F G2E2 | F3G A2B2 | G8- | G2 ||
+|| A2 B2c2 \
+| d3e d2B2 | e2d2 B2G2 | E2 D6- | D4 G2A2 | B3d B2d2 | e2d2 B2d2 | A8- | A2B2 A2B2 |
+| c3B c2d2 | e2d2 c2B2 | c2 A6- | A4 d2e2 | f3g a2g2 | f2e2 d2c2 | B4 d3e |
+| d2c2 B2c2 | d3e d2B2 | e2d2 B2G2 | E2 D6- | D4 B2c2 | d3e d2B2 | A2G2 g2f2 | e8- | e4 e2f2 |
+| g4 g3f | e2f2 g2a2 | g2 d6- | d4 B2d2 | e3d e2g2 | f2d2 f2a2 | g8- | g2 |]
+%%sep 1 1 500
+S:https://www.folktunefinder.com/tunes/140899
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book06.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

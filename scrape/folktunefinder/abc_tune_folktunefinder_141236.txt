@@ -1,0 +1,40 @@
+X: 208
+T: Glise de Sherbrooke
+I: Big Ship, The        R-23    G       reel
+C: French Canadian
+%% Z: Transcribed to abc by Mary Lou Knack
+Z: Lifted from Randy Miller's book instead
+R: reel
+M: C|
+L:1/8
+%% Q: 1/2=108
+K: G
+%% D2| "G"G2GA BABc| d2dc B2G2| "D7"c2cB AFA2| "G"dedc B2D2|
+%%     "G"GFGA BABc| dedc B2G2| "D7"cdcB AGFA| "G"G2B2G2 :|
+%% |:\
+%% d2| "C"g2gf "C"efge| "G"d2dc B2G2| "D7"c2cB A2A2| "G"dedc B2d2|
+%%     "C"g2gf efge| "G"dedc B2G2| "D7"cdcB AGFA| "G"G2B2G2 :|
+|: "G"B2 B2 "C"cBce | "G"d2 dc BABd | "D7"cdcB A2 A2 | "G"dedc BAGA |
+| "G"B2 B2 "C"cBce | "G"d2 dc B2 d2 | "D7"cdcB AFDF | "G"GBAF G2 G2 :|
+|: "C"g2 gf efge | "G"d2 dc BGBd | "D7"c2 cB AFAc | "G"dedc BGBd |
+| "C"gagf efge | "G"d2 dc BGBd | "D7"cdcB A2 F2 | "G"GBAF G4 :|
+%% text 9/1/98.  Also known as "The Big Ship".
+%% eric changed the B1 chord to C
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/141236
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+S:http://ericdancepiano.com/MNAS/tunes/Reel2.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Reel2.abc
+S:http://www.latinsquares.com/MNAS/tunes/Reel2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

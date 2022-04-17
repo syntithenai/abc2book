@@ -1,0 +1,27 @@
+X:15
+T:Trollet i Sk\"akten
+R:polska J
+A:H\"alsingland
+Z:id:hn-jp-15
+M:3/4
+L:1/16
+K:D
+A,2DD D2D2 F2ED|E2A,2 A,2A,2 G2FE|DEFG ABcd e2f2|g2ec d2dA GFED|
+A,2DD D2D2 F2ED|E2A,2 A,2A,2 G2FE|DEFG ABcd e2f2|g2ec d8:|
+|:a3g fgfe dedB|A2A2 AGEG F4|a3g fgfe dedB|A2A2 AGEG F4|
+DEFG F2F2 E2E2|DEFG F2F2 E4|DEFG F2F2 E2E2|DEFG F2F2 E4|
+DEFG ABcd e2f2|g2ec d8:||:[a3d3][d'f] [d'4f4] [d'3f3][d'f]|
+[d'2f2][c'e][c'e] [c'2e2][c'2e2] [c'3e3][c'e]|
+[c'2e2][bd][bd] [b2d2][b2d2] [b2d2][b2d2]|[b3d3][ac] [a4c4] [a4c4]|
+A4 g4 g4|a2gf edcB AGFE|DEFG F2F2 E2E2|DEFG F2F2 E4|DEFG F2F2 E2E2|
+DEFG F2F2 E4|DEFG ABcd e2f2|g2ec d8:|
+S:https://www.folktunefinder.com/tunes/140081
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

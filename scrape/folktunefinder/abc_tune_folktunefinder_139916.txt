@@ -1,0 +1,25 @@
+X: 1
+T:Blackthorne Stick
+T:% Nottingham Music Database
+M:6/8
+L:1/8
+Q:260
+C:Traditional
+R:Jig
+K:G
+d|\
+"G"gfg "C"ege|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BGB "D7"A2d|
+"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BGF G2:|!
+d|\
+"G"edd gdd|"G"edd gdd|"G"ede "C"gfg|"Am"edB "D7"A2d|
+"G"gfg "C"age|"G"dBG "C"AGE|"G"DGG "D7"FGA|"G"BGF G2:|
+% Output from ABC2Win  Version 2.1  on 3/3/98
+S:https://www.folktunefinder.com/tunes/139916
+S:http://www.blackflute.com/music/tunes/jigs/btstick.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

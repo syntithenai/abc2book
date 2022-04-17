@@ -1,0 +1,23 @@
+X: 18
+T: I'M LOOKING OVER A FOUR-LEAF CLOVER
+C: H.Woods
+M: C|
+L: 1/4
+K: D
+[| "D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+"A7"c2 BA | c B2 A | "D"BB "Am"BB- | "B7"B4 |
+"E"e2 cB | e c2 B | "A7"AA AA- | A4 ||
+"D"d2 AF | E D2 E | F2 A2 | d c2 "Dm"d |
+"E7"e2 EF | ^G2 B2 | e4- | e4 |
+"Em"e2 dc | "Gm"e d2 B | "D"c2 "A7"c2 | "B7"c B2 A |
+"E7"B2 cd | "A7"e2 A2 | "D"d4- | d2 z3 |]
+S:https://www.folktunefinder.com/tunes/140581
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

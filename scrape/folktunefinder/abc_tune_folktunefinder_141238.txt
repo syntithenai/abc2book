@@ -1,0 +1,27 @@
+X:105
+T:Spootiskerry
+C:SOCAN, Sc.  
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:G 
+ |: "G"G2 DE GDEG | DEGA B2 AB | "G"G2 DE GABd | "C"eged "D"B2 AB |
+"G"G2 DE GDEG | DEGA B2 AB | "C"g2 ed "Am"edBA |1 "D7"B2 G2 "G"G2 DE :|2 "D7"B2 G2 "G"G2 ef |
+  |: "Em"g2 ed ed B2 | BABG "C"E2 DE | "G"GABd eged | "D7"B2 A2 A2 ef |
+  "Em"g2 ed ed B2 | BABG "C"E2 DE | "G"GABd eged | "D7"B2 G2 G2 "B7"ef |
+  "Em"g2 ed ed B2 | BABG "C"E2 DE | "G"GABd eged | "D7"B2 A2 A2 DE |
+  "G"G2 DE "D/A"GDEG | "G/B"DEGA "Em"B2 AB | "Am"g2 ed "D7"edBA | "D7"B2 "G"G2 G4 ||
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/141238
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

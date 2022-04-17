@@ -1,0 +1,34 @@
+X: 06100
+T: YANKEE INGENUITY
+C: Bob McQuillen  17 Jan 82
+B: Bob's Note Book 6 #100
+N: That's the name of that great Contra Dance Band from the Boston area.   Donna
+N: Hinds  &  Mary  Lea,  fiddles;  Tony  Parkes, caller; Joyce Desmarais, hammer
+N: dulcimer, and Peter Barnes, piano.  It sure is fun playing  music  with  this
+N: gang!! Love ya!!
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+AB \
+| d2DE FDB,D | A,B,DE D2FD | EFAB cAde | f2d2 d2AB |
+| d2DE FEDB, | A,B,DE F2AF | EFAB dBed | c2A2 A2de |
+| fedf edBA | G2E2 E2FG | ABdf efdB | c2A2 A2AG |
+| FAdA dAFD | EFGA BdcA | Bdce dfeg | f2d2 d2  ||
+|: de \
+| fedB AFBA | G2E2 E2ef | gfed cdef | e2A2 A2AG |
+| FAGE FDFA | GBGF GBed | cedB cABc | d2D2 D2  :|
+S:https://www.folktunefinder.com/tunes/140900
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book06.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book06/06100_YankeeIngenuity.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

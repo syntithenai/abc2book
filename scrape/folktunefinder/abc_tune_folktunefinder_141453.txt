@@ -1,0 +1,27 @@
+X: 10
+T:Russian Dance,The. ASH.10
+M:2/4
+L:1/8
+Q:200
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Country dance
+O:England
+A:Derbyshire
+Z:vmp.Chris Partington, 2003
+K:C
+  g/f/ | ecBd | c C2 F | EGAc | Bd2 g/f/ |!
+ ecBd | c C2 F | EG eB | c3 :|!
+|:B/c/ | dBGf | e g2 (3a/g/f/ | ecBd | g G2F |!
+ EGcE | F a2 g/f/ | ecGB |c3  :|]
+S:https://www.folktunefinder.com/tunes/141453
+S:http://www.village-music-project.org.uk/abc/ashover.abc
+% Rhythm Country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

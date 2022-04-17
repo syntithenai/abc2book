@@ -1,0 +1,23 @@
+X:1
+T:Blue Jig
+C:Joel Mabus 1994 
+M:6/8
+L:1/8
+K:Am
+"A7"A3 cBA| cBA a3| age ^d=dc| "D7"d^de d=dc|
+"A7"A3 cBA| cBA a3| age "D7"cAG| "E7"_EDC "A"A,3:|
+|:"D7"^FAB cBA| ^FAB cBA| "A7"^ce^f gfe| ^ce^f gfe|
+"D7"^FAB cBA| ^FAB cBA| "A7"age "D7(C7)"cAG| "E7(B7)"_EDC "A(Bb7)"A,3 :|
+W:Harmony for B Part
+|:Acd ^d=dc |Acd ^d=dc |ega ^a=ag |ega ^a=ag |
+Acd ^d=dc |Acd ^d=dc | age cAG| _EDC A,3 :|
+S:https://www.folktunefinder.com/tunes/140539
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/BlueJig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

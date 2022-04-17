@@ -1,0 +1,29 @@
+X:1
+T:"La boite  bois"
+C:Scottish de N. Pfister, fichier abc : Bernard Loffet
+L:1/8
+Q:330
+K:C
+M:4/4
+|: [e2A,,2] [cA,]e [AA,,]e [cA,]e | [dD,,]e [f/D,/]e/d [e2A,,2] [e2A,2] | [dD,,]e [f/D,/]e/d [eC,,]d [cC,]e | \
+ [dG,,]B [BG,]c [dG,,]e [fG,]d | [e2A,,2] [cA,]e [AA,,]e [cA,]e | [dD,,]e [f/D,/]e/d [e2A,,2] [e2A,2] | \
+ [dD,,]e [f/D,/]e/d [eC,,]d [cC,]e | [dG,,]c [BG,]G [A2A,,2] A,2 :|: [gC,,]c [eC,]g [aF,,]g [fF,]e | \
+ [dG,,]e [f/G,/]e/d [e2C,,2] [c2C,2] | [dG,,]e [f/G,/]e/d [eC,,]d [cC,]e | [dG,,]B [BG,]c [dG,,]e [fG,]d | \
+ [gC,,]c [eC,]g [aF,,]g [fF,]e | [dG,,]e [f/G,/]e/d [e2C,,2] [c2C,2] | [dG,,]e [f/G,/]e/d [eC,,]d [cC,]e | \
+ [dG,,]c [BG,]G [A2A,,2] A,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/141059
+S:http://diato.ifrance.com/diato/tablat/181.abc
+S:http://diato.ifrance.com/tablat/181.abc
+S:http://diato.org/tablat/181.abc
+S:http://perso.orange.fr/diato/tablat/181.abc
+S:http://perso.wanadoo.fr/diato/tablat/181.abc
+S:http://pro.wanadoo.fr/diato/tablat/181.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/181.abc
+S:http://www.diatonique.net/tablat/181.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

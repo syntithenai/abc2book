@@ -1,0 +1,21 @@
+X: 3
+T: BY THE LIGHT OF THE SILVERY MOON
+C: Edwards (1909)
+M: C
+L: 1/8
+K: F
+A2 B2 | "F"c8 | z2 fg ag f2 | "G7"d8 | z2 g2 f2 d2 |
+"C7"e8 | z2 cd ed c2 | "F"d4 "G7/B"A4 | "C7"c4 A2 B2 |
+"F"c8 | z2 fg ag f2 | "Bb"d4- "D7"d4 | "Gm"z2 g2 "C7"a2 b2 | "F"a2 f2 "G7"g2 "Bbm"b2 |
+"Dm"a2 fg ag f2 | "A7"a4- "D7"a4 | "G7"z2 fg "C7"af g2 | "F"f4- "Bb"f4- | "F"f2 z2 |]
+S:https://www.folktunefinder.com/tunes/140599
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

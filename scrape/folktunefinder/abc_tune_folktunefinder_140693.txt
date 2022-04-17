@@ -1,0 +1,22 @@
+X:10
+T:Bourre de Marakech
+R:Bourre  2 temps
+C:Anonyme
+I:abc2nwc
+M:2/4
+L:1/16
+K:Bb
+d3c d2e2|g2e2 d2c2|d3c d2e2|d4(cdcA)|d3c d2e2|g2e2 d2c2|d3c d2e2|d4c4:|
+|:c3B c2d2|c3B A2c2|B2G2 G2A2|B4A2B2|c3B c2d2|c3B A2c2|B2G2 A2[F2A2] |G8:|
+%%footer $D   Galouvielle-MBe 2005 \nBourre  2 temps France
+S:https://www.folktunefinder.com/tunes/140693
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

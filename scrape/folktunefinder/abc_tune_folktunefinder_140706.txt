@@ -1,0 +1,26 @@
+X:24
+T:Scottish de la gardette
+R:Scottish
+C:Rigodon sauvage
+A:Dauphin
+O:France
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+B2d2 d2cB|A2G2 A4|AFAc BdcB|[1AGAc B2G2:|
+[2AFAF G4|B2BG BGB2|c2cA c4|dfed c2cB|
+c2ed B2G2|B2BG BGB2|c2cA c4|dfed cedc|BAF2 G4
+|:DFAc B2G2|DFAc d4|dcBA BGAB|[1cBAG F2D2:|[2cBA2 G4
+|:BcBG BcBG|BcBG F4|Bcdc BAGB|[1AGAB c2A2:|[2AGF2 G4|]
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+S:https://www.folktunefinder.com/tunes/140706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

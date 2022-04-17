@@ -1,0 +1,25 @@
+X: 47
+T:North Skelton 3, v 1
+% Nottingham Music Database
+S:Trad, via EF
+M:4/4
+L:1/4
+K:D
+G|"D"F2 DF|"G"G2 EG|"D"F2 DF|"A7"EF GE|"D"F2 DF|"G"G2 EG|"D"FA "A7"GE|\
+"D"D2 "A7"E2|
+"D"FA dc|"G"B2 AG|"D"FA/2F/2 dF|"A7"GF E2|"D"DF/2A/2 dA|"G"B2 AG|"D"FA "A7"GE|\
+"D"D3||
+S:https://www.folktunefinder.com/tunes/141975
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

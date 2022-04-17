@@ -1,0 +1,25 @@
+X: 7
+T:Mountains of Mourne, The
+M:3/4
+L:1/8
+R:Waltz
+K:D
+A[|A2 f3 f|f2 e3 f|e2 d3 c|d4 zB|
+B2 A3 A|A2 B2 c2|e2 d3 c|d4 zA|!
+A2 f3 f|f2 e3 f|e2 d3 c|d4 zB|
+B2 A3 A|A2 B2 c2|e2 d3 c|d4 zA|]!
+A2 g3 g|g2 a3 g|g2 f3 e|f4 zA|
+A2 d2 f2|a2 g3 f|f2 e3 d|e4 zA|!
+A2 f3 f|f2 e3 f|e2 d3 f|d4 zB|
+B2 A3 A|A2 B2 c2|e2 d3 c|d4 zA|]!
+% Output from ABC2Win  Version 2.1 i on 5/13/2003
+S:https://www.folktunefinder.com/tunes/140448
+S:http://www.geocities.com/novairishsession/bw/bwwaltzs.txt
+S:http://www.novasession.com/bw/bwwaltzs.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

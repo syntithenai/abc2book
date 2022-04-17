@@ -1,0 +1,25 @@
+X: 5
+T:Blue-Eyed Stranger, Winster (Hkf)
+M:4/4
+L:1/8
+A:Winster
+P:A(ABA)8
+K:G
+P:A
+G2BF|G2 D4  D2|E3F  G2BA|G2D2 D2D2|E3F  G2BF|
+G2 D4  D2|EDEF G2A2|B2d2 cBAF|E3F  G4  ||
+P:B
+G2BF|GABc d2d2|B2c2 d4  |GABc d2d2|B2c2 d4  |
+GABc d2d2|edcB A2GA|B2d2 cBAF|E3F  G4  ||
+S:https://www.folktunefinder.com/tunes/140527
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Winster.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Winster.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Winster.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

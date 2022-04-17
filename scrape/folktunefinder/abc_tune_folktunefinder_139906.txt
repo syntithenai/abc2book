@@ -1,0 +1,22 @@
+X:80
+T:The Carraroe Jig
+C:Trad.
+D:"Cooley", track 11b
+M:6/8
+R:jig
+K:D
+DED ~F2A|dfe ~d2A|BAF Adf|afd ~e2f|
+DED ~F2A|dfe ~d2A|(3BcdB AFA|1 A,DF ~E2F:|2 dAF ~E2D||
+dfa afa|bge edB|dfa afa|bge ~e2f|
+dfa afa|bge edB|~d2B AFA|1 A,DF ~E2D:|2 dAF ~E2F||
+S:https://www.folktunefinder.com/tunes/139906
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cooley/cooley_cd.abc
+S:http://www2.redhawk.org:8080/irish/cooley/cooley_cd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:36
+T:Bold Benjamin
+C:The Penguin Book of English Folk Song, London 1959. page 2.
+C:collected ca. 1907 by Ralph Vaughn Williams and A.L. Lloyd
+C:from Mr. Taunton Corscombe in Dorset England
+N:Mudcat DT file names: BOLDBENJ and BENBOWMR
+Q:1/4=100
+M:3/4
+L:1/8
+K:G
+z4 D2 |G2 G3/2A/ B3/2c/ |d3/2c/ B3/2A/ G2 |
+M:2/4
+L:1/16
+B3A G3F |
+M:3/4
+L:1/8
+G2 D2 D2 |G2 G3/2A/ B3/2c/ |d2 B2 e2 |d4 z d |d3/2c/ B3/2c/ df |
+M:2/4
+L:1/16
+e2d2 c2B2 |
+M:3/4
+L:1/8
+A4 d3/2c/ |B2 A2 G2 |F2 G3/2F/ E2 |D4 B2 |c2 d2 e2 |d2 cB A2 |G4 :|
+S:https://www.folktunefinder.com/tunes/141071
+S:http://trillian.mit.edu/~jc/music/abc/mirror/DavidKidd/Bold_Benjamin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Boarischer
+C:Simon Wascher 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+GA |\
+B2d2 G2B2 | A2c2 E2G2 | AGFE DABc | B2e2 d3c |
+B2d2 G2B2 |A2c2 E3G | FEDB cdFA | G2B2G2 :|
+|: z2 |\
+d4 g4 | B4 d4 | cEAc BDGB | AGFE E2D2 |
+d4 g4 | B4 d4 |cEAc BDGB | AEFDG2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140726
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarischer.B2d2G2B2A2c2E2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

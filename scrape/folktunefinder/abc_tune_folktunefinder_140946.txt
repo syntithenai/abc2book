@@ -1,0 +1,22 @@
+X: 1
+T: Bodhran Bob's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+G2 A |: {d}BGD B,CD |    GAB     {d}c{B}cA |    Bcd ecA |
+        {d}ABG  FED |    {d}BGD       B,CD |    GAB {d}c{B}cA |
+        Bcd     ecA | [1 {d}AGF       G2A :| [2 {d}AGF G2D |:
+        {A}GBd  edB |    {A}GBd  {d}c{B}cA |    Bcd ecA |
+        {d}ABG  FED |    {A}GBd        edB |    {A}GBd {d}c{B}cA |
+        Bcd     ecA | [1 {d}AGF       G2D :| [2 {d}AGF G3 |]
+S:https://www.folktunefinder.com/tunes/140946
+S:http://www.thesession.org/tunes/display/2906
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

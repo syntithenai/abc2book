@@ -1,0 +1,31 @@
+X:6
+T:Tonra's Jig
+T:aka Tone Rowes
+R:jig
+C:Brenden Tonra
+D:Catherine McEvoy, Andy McGann
+O:20th century Irish
+H:Originally from county Sligo, fiddler Brendan Tonra lives near Boston
+N:melodic code 3525L 345535
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:6/8
+K:D
+E|F2 F AFE|EDB, A,B,D|FEF GFG|ABF AFE|
+F2 F AFE|EDB, A,B,D|FEF GFG|BAF D2:|
+|:e|~f3 dcd|edc Bcd|f2 d dcd|ABF ~A3|
+f2 f dcd|edc Bcd|faf gec|dAF D2:|]
+S:https://www.folktunefinder.com/tunes/140268
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

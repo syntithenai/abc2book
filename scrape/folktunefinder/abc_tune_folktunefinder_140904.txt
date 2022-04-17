@@ -1,0 +1,31 @@
+X: 1
+T: Fourth of July
+C: Bob McQuillen
+R: march
+M: 4/4
+L: 1/8
+%%%%%Q: 2/4=112
+K: G
+P:A
+D2E2 || G4 B3A | G2A2 B2c2 | d4 g4 | d4 B2d2 | e4 g4 | d4 g4 | d3e d2B2 | A2c2 B2A2 |
+     |  G4 B3A | G2A2 B2c2 | d4 g4 | d4 B2d2 | e4 g4 | d3e d2B2 | A4 G2F2 | G4 G2A2||
+P:B
+    || B4 G4 | B4 d4 | g3g f2e2 | d4 G2A2 | B4 G4 | B4 d4 | e2g2 d2B2 | A4 G2A2 | 
+     |  B4 G4 | B4 d4 | g3g f2e2 | d4 B2d2 | e3f g2e2 | d2g2 d2B2 | A4 G2F2 | G4 Z4 ||
+%%text
+%%text
+%%
+%%
+S:https://www.folktunefinder.com/tunes/140904
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

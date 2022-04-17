@@ -1,0 +1,29 @@
+X:1
+T:Bouree a Soulie
+C:traditionell
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C minor
+cd |\
+e4g2 | d6 | edcded | cdedcd |
+e4g2 | d6 | edcded | c4 :|
+|: c2 |\
+f4f2 | e4e2 | dcdfed | c=Bcede |
+f4f2 | e4e2 | dcdfde | c4 :|
+S:https://www.folktunefinder.com/tunes/142123
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bouree_a_soulie.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

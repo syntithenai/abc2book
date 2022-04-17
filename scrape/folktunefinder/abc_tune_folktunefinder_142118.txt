@@ -1,0 +1,21 @@
+X:1
+T:Bouree de la Brande d'Ardentes
+C:Trad.
+R:B2
+M:2/4
+K:D
+A3F D2F2|G6 d2|c3A B2c2|d3e f2d2|A3F D2F2|G6 d2|c3A B2c2|d8:|*
+K:G
+|: G4 B4|d3c A4|B3c A2F2|G3E F2D2|G4 B4|d3c A4|B3c A2F2|G8:|**
+\vfill
+\eject
+S:https://www.folktunefinder.com/tunes/142118
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ipsi.fraunhofer.de/oasys/misc/music/fcf_p3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

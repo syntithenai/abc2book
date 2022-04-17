@@ -1,0 +1,25 @@
+X:7
+T:Shingly Beach
+C:Tom Anderson
+M:4/4
+L:1/8
+R:air
+K:G
+D |G4 c4 |Bd cA F2 D2 |G2 Bd E2 Ac |D2 FA C2 FA |
+G4 c4 |B2 AG A2 D2 |G2 B2 E2 A2 |D2 GF G4 |
+z7 D |G4 c4 |Bd cA F2 D2 |G2 Bd E2 Ac |D2 FA C2 FA |
+G4 c4 |B2 AG A2 D2 |G2 B2 E2 A2 |D2 GF G4 |
+d2 cB c2 f2 |g2 dB c2 d2 |B2 d2 A2 c2 |B2 AG A2 c2 |
+d2 cB c2 f2 |g2 dB c2 d2 |cB AG E2 A2 |D2 GF G3 e |
+d2 cB c2 f2 |g2 dB c2 d2 |B2 d2 A2 c2 |B2 AG A2 D2 |
+G4 c4 |Bd cA F2 D2 |G2 B2 E2 A2 |D2 GF G4 |]
+S:https://www.folktunefinder.com/tunes/141304
+S:http://music.gordfisch.net/oregans/assets/abc/airs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

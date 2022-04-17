@@ -1,0 +1,38 @@
+X:1
+T:Boarisch
+R:Schottisch
+A:Muehlviertel, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Tanzheft fuer Pfeifer", V.Derschmidt, Herausgegeben von A.Ruttner, Verlag Friedhuber, Wels 1970
+N:dort Nr.8/1
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d(d |\
+.b2).b2 bag(d | .f2).f2 e3d | .f2.f2 e3c | e2e2 d2d(d |
+.b2).b2 bag(d | .f2).f2 e3d | d2ed ^cdef | g2b2g2 :|
+K:C % transposed from D
+|: g2 |\
+.a2.a2 .g2"^_"c2 | .B2.a2 g4 | .B2Ba g4 | .c2ca .g2"^_"g2 |
+.a2.a2 .g2"^_"c2 | .B2.a2 g4 | .B2Ba .g2"^_"B2 | .c2.c2.c2 :|
+.e2.e2"^_"c2"^_"e | f2f2 B4 | g4 g3g | .a2.a2 g4 |
+.e2.e2"^_"c2"^_"e | f2f2 B4 | g4 g3g | c'2c'c' c'2 :||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140722
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarisch.B2)AGFAGE(ED)GB.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 4
+T:Constant Billy, Bucknell
+M:6/8
+L:1/8
+S:CJS
+A:Bucknell
+P:A(AB)2AC
+K:G
+P:A
+|:G2d BGB |c2A AFD|BAG E2E|AGF  G3:|
+P:B
+Gee e>de|ABc dBG|ABc dBG|ABc  d3 |
+G2d BGB |c2A AFD|BAG E2E|DEF  G3||
+P:C
+Gee e>de|ABc dBG|ABc dBG|ABc  d3 |
+G2d BGB |c2A AFD|\
+(2BA G3 |(2EF G3|(2DE F3|G6     ||
+S:https://www.folktunefinder.com/tunes/140488
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bucknell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

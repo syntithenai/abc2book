@@ -1,0 +1,25 @@
+X:36
+T:Polka de Grandfontaine
+R:polka
+C:trad.
+A:Alsace
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+G|:e2 e>d|ed cG|e2 e>d|ed cG|ee ed|e2 cc|1df ed|cA G2:|2df ed|c3a|
+M:6/8
+|:gea gea|g2f e2g|gfe ded|1c2AG2a:|2c3 c2 z||
+S:https://www.folktunefinder.com/tunes/141360
+S:http://www.tradfrance.com/matf08.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

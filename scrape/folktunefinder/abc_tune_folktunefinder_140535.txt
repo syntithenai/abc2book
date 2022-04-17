@@ -1,0 +1,38 @@
+X:1
+T:Bluehende Rose
+C:traditionell
+R:
+A:'Dobruscha' (deutsch-sprachige sprach-insel)
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 25
+N:im buch ganz in G, einstimmig, 1. ton b'
+S:im buch mit der angabe: nach Hans von der Au, Deutsche Volkstaenze aus der Dobruscha 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:G
+B3 cBc | d3 g3 | G3 AGA | BcB A3 |\
+B3 cBc | d3 g3 | B3 AGA | (G3 G2) ||
+d |\
+d2c ABc | d2B G2d | d2c ABc | d2B G2d |\
+e2c g2e | d2B g2d | ded cBA |  (G3 G2) |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140535
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/bluehende_rose.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

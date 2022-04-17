@@ -1,0 +1,24 @@
+X:1
+T: Both Meat and Drink
+C: Ed Reavy
+R: Jig
+Z: Juergen.Gier@post.rwth-aachen.de
+M: 6/8
+L: 1/8
+K: G
+|: DGB ~d3 | edB dcA |  GBd ~g3 | bag  faf  | \
+|  geg fdf | ece gfe |  ~f3 agf | gdB  cAF :|
+|: G2g gbg | dBG GBd | ~=f3 fcf | ag=f ag^f | \
+|  ~g3 bag | faf gdB |  cAG FGA |1 AGF GBd :|2 AGF GFE :|
+S:https://www.folktunefinder.com/tunes/141829
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/jig/BothMeatAndDrink.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/irtrad-l/BothMeatAndDrink.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

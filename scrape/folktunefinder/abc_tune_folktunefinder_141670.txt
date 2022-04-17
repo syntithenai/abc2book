@@ -1,0 +1,22 @@
+X:2
+T:BooBooHead Jig
+C:copyright 1997 Kaubells
+E:14                   % note spacing
+M:6/8
+K:F
+"C7"c|"F"agf "C7"gf(3d/f/d/)|"F"cdf A2(3c/d/c/)|"Bb"Bcd "C7"ede|"F"fAd c2c|*
+"F"agf "C7"gf(3d/f/d/)|"F"cdf A2(3c/d/c/)|"Bb"Bcd "C7"ede|1"...F"f3 z2 c:|2"...F"f3 z2 G|]*
+K:C
+|:"C"~c2=B c2e|~g2e g3|"G7"gfd Bc(3d/e/d/|"C"cea gzG|*
+"C"~c2B  c2e|~g2e g3|"G7"gfd Bcd|1"...C"c3 z2 G:|2"...C"c3 z3|]*
+S:https://www.folktunefinder.com/tunes/141670
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/dog-in-the-park.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

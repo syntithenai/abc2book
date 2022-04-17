@@ -1,0 +1,60 @@
+X:3
+T:Kadril
+O:Putte
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek II
+M:2/4
+L:1/8
+P:I
+P:ABAC ABAC ABAC ABAC A
+P:A
+K:C
+cc/c/ cc | cB AG | BB/B/ BB | BA GB |
+dd/d/ dd | dc BA | G^G AB | c z c z |
+P:B
+K:G
+Bd G>A | B3 B | c>A E>A | c3 c |
+f>e d>c | cB AB | ed c>A | G z G z |
+P:C
+K:F
+A3 c | FA cf | e3 d | B4 |
+B3 G | e>d cB | AG D>E | F z F z |
+P:II
+P:ABAC ABAC ABAC ABAC A
+M:6/8
+A2 A A2 A | A2 A A2 A |
+P:A
+c2 d c2 d | c3-cAB | c2 d c2 =B | B3-BGA |
+B2 c B2 c | B3-Bcd | edc BAG | F z2 F z2 |
+P:B
+K:C
+G3-G^FG | E3-EDE | F2 G B2 A | G3 E3 |
+G3-G^FG | E3-Edc | BAG FED | C2 z C2 z |
+P:C
+K:Bb
+f2-f=ef | d3-dcd | e2 d e2 g | f3 d3 |
+f2-f=ef | d3-dcd | e2 d e2 c | B2 z B2 |
+P:III
+M:2/4
+L:1/8
+K:C
+P:A
+ed/c/ G2 | ed/c/ G2 | ed/c/ GA | Bc de |
+fd/B/ G2 | fd/B/ G2 | G^G AB | c z2 c z2 |
+P:B
+Gc E>F | G4 | Gc G>c | B2 A2 |
+GA Bc | d3 c | BA G>F | E4 |
+Gc E>F | G4 | Gc G>c | B2 A2 |
+dc BA | G3 ^F | GB e>d | c z2 c z2 |
+P:I
+S:https://www.folktunefinder.com/tunes/140963
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre1.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

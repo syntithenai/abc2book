@@ -1,0 +1,30 @@
+X:2
+T:O'Donnell's Hornpipe
+R:hornpipe
+D:Catherine McEvoy
+B:O'Neill's Music of Ireland
+H:learned in 1972 from Josie MacDermott
+N:melodic code 5156 3522
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:C|
+K:G
+B>c|d>g (3gfe d>Be>d|B>Gd>B A2 A>G|F>GA>B c>de>f|(3gba (3gfe d2 B>c|
+d>g (3gfe d>Be>d|B>Gd>B A2 A>G|F>GA>B c>de>f|g2 (3agf g2:|
+|:(3def|g>ba>g f>ag>f|e>f (3gfe f>d B2|Tg2 b>g f2 a>f|e>f (3gfe f>d B>d|
+c/c/c A>c B/B/B G>B|A/A/A F>A E>A D2|D>EF>G A>Bc>A|(3GBd (3gdB G2:|
+S:https://www.folktunefinder.com/tunes/140264
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

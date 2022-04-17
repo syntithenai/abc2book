@@ -1,0 +1,28 @@
+X: 9
+T:Trunkles, Sherborne
+M:4/4
+L:1/8
+A:Sherborne
+P:A(AB3C3)2(AB3D3)2A
+K:G
+P:A
+|:z|d3c  B2d2|c2A2 B2G2|d3B  c2e2|dcBA G3:|
+P:B
+B|c2c2 c2c2|dddc B2g2|e3d  c2A2|d4   d3||
+P:C
+g|e2c2 c2e2|d2B2 B2d2|\
+c2A2 A2Bc|dcBA G2c2|B2AG A2d2|G4   G3  ||
+P:D
+g|e4   c4  |c4   e4  |d4   B4  |B4   d4  |c4   A4  |A4   B2c2|dcBA G2c2|B2AG A2d2|G4   G3  ||
+S:https://www.folktunefinder.com/tunes/140510
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

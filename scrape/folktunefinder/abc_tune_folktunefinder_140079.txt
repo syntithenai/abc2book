@@ -1,0 +1,26 @@
+X:13
+T:Nyckelharpspolska
+R:polska J
+H:efter Per Ferm, Delsbo
+A:H\"alsingland
+Z:id:hn-jp-13
+M:3/4
+L:1/16
+K:D
+A2 | A2d2 ABAG F2E2 | DEFG A2Bc d2A2 | ABcd e3f g2f2 |
+g3b f2a2 e2c2 | d2a2 ^gaba A4 | A2d2 ABAG F2E2 | DEFG A2Bc d2A2 |
+ABcd e3f g2f2 | g3b f2a2 e3g | fedc d6 :||: g2 | fgfe d2G2 B3A |
+ABA[^GD] [A2D2][F2D2] d2cd | e2A2 c2e2 g2e2 | b2g2 agec d2g2 | 
+fgfe d2G2 B3A | ABA[^GD] [A2D2][F2D2] d2cd | e2A2 c2e2 g2e2 |
+bgec d6 :|
+S:https://www.folktunefinder.com/tunes/140079
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

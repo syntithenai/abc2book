@@ -1,0 +1,31 @@
+X: 9
+T:Saturday Night, Bucknell
+M:6/8
+L:1/8
+Q:144
+A:Bucknell
+P:A(AB)6
+K:Bb
+P:A
+|:dcB Bff|fcc c3 |dcB GGG|cBA B3:|
+P:B
+  cFF F3 |ccd e3 |dcB def|FBA B3 |\
+  cFF F3 |ccd e2d|
+M:3/8
+e3|\
+M:6/8
+d2c B3|d2e f3|\
+M:9/8
+(2FB A3 B3||
+S:https://www.folktunefinder.com/tunes/140493
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bucknell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Time_signature 3/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

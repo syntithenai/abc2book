@@ -1,0 +1,21 @@
+X: 8
+T:Countrodanso n4
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:C
+ce/2f/2|:gg gf|ed ef/2e/2|dc dd|ec ce/2f/2|gg gf|ed ef/2e/2|dc de| [1 c2 ce/2f/2 :| [2 c2
+ec|:ec e/2f/2e/2d/2|dB dB|dB d/2f/2e/2d/2|ec ec|ec e/2f/2e/2d/2|dB dB| [1 dB d/2f/2e/2d|c2 ec:| [2 dB dd|c2 c2|:
+f>e dc|A2 A2|dc BA|B/2A/2G G2|cd dd|e2 de|g>f ed|| [1 c2 c2:| [2 c2
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+S:https://www.folktunefinder.com/tunes/142152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ValVaraite.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

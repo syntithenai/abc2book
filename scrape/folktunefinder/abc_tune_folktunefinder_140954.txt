@@ -1,0 +1,44 @@
+X:1
+T:Boehmischer Wind
+C:traditionell
+R:Zwiefach
+A:Oberpfalz, Bayern, Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer Drehleier", Barbara Behringer (anm: verh. Grimm), Der Verlag mit der  Blume, 4.Auflage, Nuernberg 1988
+N:dort ganz in C, einstimmig, Seite 65
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2 3/4
+L:1/4
+K:C
+c>d (e/f/) | g2 c' | a a | g2 |
+a a | g2 |
+g>f (d/f/) | e2 c/c/ |
+d d | c2 | d d | c2 :|
+W:
+W:1.) Hob i mein Weiz ind' leitn gsaat leitn gsaat,
+W:hot man der boehmische Wind verwaht, Wind verwaht.
+W:2.) Boehmischer Wind, i bitt di schoei, bitt di schoei,
+W:lo mae den Weiz af da leitn stoeih, leitn stoeih.
+W:3.) Wenn i ka Geld im Beitl hob, Beitl hob,
+W:Gaeih i in Wald, schneid Reiser ab, Reiser ab.
+W:4.) Nou gaeih i ham, mach Besn draus, Besn draus,
+W:graeich ibald wieder a Geld ins Haus, Geld is Haus.
+W:
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140954
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/boehmischer_wind.c3d(ef)g4c.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

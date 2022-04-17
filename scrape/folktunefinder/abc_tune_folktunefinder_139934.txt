@@ -1,0 +1,29 @@
+X:1
+T:The Blackthorn Stick
+C:Traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:360
+M:6/8
+K:C
+ z4z[GC,] |: [c2C,,2][cC,] [AF,,]c[AF,] | [GC,,]E[CC,] [DG,,]C[A,G,] | [G,C,,]C[CC,] [B,G,,]D[DG,] | \
+ [CC,,]E[EC,] [D2G,,2][GC,] | [c2C,,2][cC,] [dF,,]c[AF,] | [GC,,]E[CC,] [DG,,]C[A,G,] | \
+ [G,C,,]C[CC,] [B,G,,]D[DG,] | [EC,,]C[CC,] [C2C,,2][GC,] :|: [AF,,]G[GF,] [cC,,]G[GC,] | \
+ [AF,,]G[GF,] [cC,,]G[GC,] | [AF,,]G[GF,] [c2C,,2][AG,] | [GC,,]E[CC,] [D2G,,2][GC,] | \
+ [c2C,,2][cC,] [dF,,]c[AF,] | [GC,,]E[CC,] [DG,,]C[A,G,] | [G,C,,]C[CC,] [B,G,,]D[DG,] | \
+|1 [EC,,]C[CC,] [C2C,,2][GC,] :|2 [EC,,]C[CC,] [C3C,,3] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/139934
+S:http://diato.ifrance.com/diato/tablat/138.abc
+S:http://diato.ifrance.com/tablat/138.abc
+S:http://diato.org/tablat/138.abc
+S:http://perso.orange.fr/diato/tablat/138.abc
+S:http://perso.wanadoo.fr/diato/tablat/138.abc
+S:http://pro.wanadoo.fr/diato/tablat/138.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/138.abc
+S:http://www.diatonique.net/tablat/138.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

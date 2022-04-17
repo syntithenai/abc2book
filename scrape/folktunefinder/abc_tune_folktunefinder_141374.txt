@@ -1,0 +1,40 @@
+X:1
+T:Bonnets O' Blue
+M:6/8
+C:
+S:Bacon (Col. by TM from Benfield (BC))
+N:
+A:Bledington
+O:English
+R:Jig
+%:NoTeX
+%:NoWWW
+%P:A/2(AB)$^2$(AC)$^2$(A)
+P:A.(AB)2(AC)2(A)
+K:F
+Q:C3=96
+P:A
+|: CDE  F2 G | ABA GAG       | FDE  F2 G | A>GF F3   :|\
+P:B
+|: AGA  c2 A | AGF G2 F/2G/2 | AcA  GFG  | AGF  D3   |\
+   CDE  F2 G | ABA GAG       | FDE  F2 G | A>GF F3   :|\
+Q:C3=84
+P:C
+|: (2AG A2 B | c3  A3        | (2AG F2 A | G3   (2FG |\
+   (2Ac A3   | G3  (2FG      |\
+Q:C3=96
+   AGF  D3   |\
+   CDE  F2 G | ABA GAG       | FDE  F2 G | A>GF F3   :|
+S:https://www.folktunefinder.com/tunes/141374
+S:http://www.ucolick.org/~sla/morris/music/Bledington/bonnblu.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 07125
+T: WHIRLWIND
+C: Bob McQuillen  27 Mar 90
+B: Bob's Note Book 7 #125
+N: Over in Portsmouth, N.H., there's a great outtfit by the  name  of  Whirlwind
+N: Productions  putting  on  great  concerts (Altan, Patty Larkin, et al).  info
+N: 603-436-1031 - Check it out!
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+AB \
+| dfdA BAFE | DFAd fdBA | dfaf edfe | dBAF E2fe |
+| dfdA BAFA | defd edBA | dfaf gecd | e2d2 d2  :|
+|: de \
+| fafd edBd | ABdf edBA | dBAF DFAd | fafd e2de |
+| fafd edBd | ABde fdBA | dBAF BAFD | EDEF D2  :|
+S:https://www.folktunefinder.com/tunes/140903
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book07.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/BobMcQuillen/book07/07125_Whirlwind.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

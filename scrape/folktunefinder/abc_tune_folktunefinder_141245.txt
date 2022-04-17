@@ -1,0 +1,29 @@
+X: 216
+T: Reel de Montreal
+O: Trad
+R: reel
+M: 4/4
+L: 1/8
+%% Q: 3/8=108
+K: G
+|: "G"g2 fe dcBA | GBDG B2AG | "D7"FADF AcBA | "G"GBDG Bdef |
+| "G"g2 fe dcBA | GBDG B2AG | "D7"FGAB cdef | "G"g2gf g2 z2 :|
+K: D
+|: "D"A2 FA d2Ad | f2df a2ab | "A7"a2g2 efga | "D"b2a2 f2d2 |
+| "D"A2 FA d2Ad | f2df a2ab | "A7"a2g2 eABc |1 "D"d4 B4 :|2 "D"d2d2 "D7"e2f2 |
+S:https://www.folktunefinder.com/tunes/141245
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+S:http://ericdancepiano.com/MNAS/tunes/Others.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Others.abc
+S:http://www.latinsquares.com/MNAS/tunes/Others.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

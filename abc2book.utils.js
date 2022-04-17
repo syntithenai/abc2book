@@ -1,8 +1,8 @@
 function ensureText(val, defaultVal) {
-    if (val && val.trim && val.trim().length > 0) {
+    if (val !== null && val !== undefined && val && val.trim && val.trim().length > 0) {
       return val.trim()
     } else {
-      return defaultVal ? defaultVal.trim() : ''
+      return defaultVal && defaultVal.trim ? defaultVal.trim() : ''
     }
 }
 

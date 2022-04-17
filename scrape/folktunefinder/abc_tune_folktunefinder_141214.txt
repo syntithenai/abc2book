@@ -1,0 +1,26 @@
+X:1
+T:Off She Goes 
+C:Trad, Ir. (after CW)  
+M:6/8
+L:1/8
+Q:3/8=116
+K:D 
+ G |: F2 A G2 B | ABc d2 A | F2 A GAB | AFD E2 D | 
+  F2 A G2 B | ABc d2 e | fed g2 f |1 edc d2 G :|2 edc d2 g |
+ |: faf def | gbg e2 g | faf def | ecA A2 g |
+   faf def | gbg e2 g | f2 d g2 f | edc d3 :|
+%%%%  From memory, after Cathie Whitesides.
+%%%%  -- eric  10/02/00
+%%%%  See Chorus.abc for notes on construction
+S:https://www.folktunefinder.com/tunes/141214
+S:http://ericdancepiano.com/abc/DanceList.abc
+S:http://www.ericdancepiano.com/abc/DanceList.abc
+S:http://www.latinsquares.com/abc/DanceList.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

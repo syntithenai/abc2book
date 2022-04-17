@@ -1,0 +1,23 @@
+X: 1
+T: Boules Et Guirlandes
+M: 3/2
+L: 1/8
+R: three-two
+K: Edor
+M: 6/4
+E>F G>B A2 G>A B>G E>D | E>F G>B (3ABA G>A B>G E2 |
+E>F G>B (3ABA G>A B>G E>D | E>F G>B (3ABA G>A B>G E>E ||
+c2 A>c B>A G>F E>F G>B | c2 A>c B>A G>F G>B A>B | 
+c2 A>c B>A G>F E>F G>B | c2 A>c B>A G>F G>B A>D |]
+S:https://www.folktunefinder.com/tunes/142095
+S:http://www.thesession.org/tunes/display/9038
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

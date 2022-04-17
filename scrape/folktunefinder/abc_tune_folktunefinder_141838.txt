@@ -1,0 +1,25 @@
+X: 1
+T: THE BOTTLE OF BRANDY -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000830141436 by John Chambers John.Chambers:weema.com
+K: G
+vd/c/ \
+| BGG AGA | BGA GED | EAA A2G | EAA A2c \
+| BGG AGA | BGA GED | EGG G2E | DEF G2 :|
+|: uc \
+| Bcd ABc | BGA GED | EAA A2G | EAA A2c \
+| Bcd ABc | BGA GED | DEG Bcd | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/141838
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/BottleOfBrandyJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/BottleOfBrandyJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

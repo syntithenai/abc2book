@@ -1,0 +1,30 @@
+X: 1
+T:the Bluebell polka
+R:Polka
+P:ABACA
+O:England
+M:4/4
+K:G
+P:A
+b2b2 gf ge|de dc B3G|FG AB c2d2|ed ^cd B2dg|\
+b2b2 gf ge|d2d2 B3G|FG AB cd ef|g2g2 g4::\
+P:B
+K:D
+A2A2 FA df|a2a2 f4|a2 (3^gag =g2e2|b2a2 f4|\
+A2A2 FA df|a2a2 f4|a2 (3^gag =g2e2|d2f2 d4::\
+P:C
+K:G
+B2B2 Bcd2|B2B2 Bcd2|cB cd cBA2|cB cd cB A2|\
+B2B2 Bc d2|B2B2 Bcd2|cB cd cB A2|G2B2 G4:|
+S:https://www.folktunefinder.com/tunes/140401
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Bluebell_polka_2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

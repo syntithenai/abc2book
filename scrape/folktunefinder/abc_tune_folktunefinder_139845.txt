@@ -1,0 +1,29 @@
+X: 314
+T: Road to Fort Coulonge
+C: Reg Hill
+M:6/8
+R:jig
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:G
+G>E|"G"DEF GAB|def g2e|ded cBA|"D7"F3 F2E|
+DE=F ^FAB|de=f ^f2e|ded cBA|"G"B3 B2D|
+"G"DEF GAB|def g2e|ded dcB|"C"c3 c2B|
+ceg gec|"G"Bdg gdB|"D7"ABA DEF|"G"G3 !fine!G2E|]
+K:D
+"D"DCD FDF|AFA dcd|Adf fed|"A7"c3 c2B|
+ABA GAG|EGE C2B,|A,CE GFE|"D"F3 F2E|
+"D"DCD FDF|AFA dcd|Adf fed|"G"B3 B2^A|
+Bdg gdB|"D"Adf fed|"A7"cec ABc|"D"d3 "DC al""Fine"z||
+S:https://www.folktunefinder.com/tunes/139845
+S:http://www.alfwarnock.info/alfs/abc/accw04.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

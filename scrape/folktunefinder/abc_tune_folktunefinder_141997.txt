@@ -1,0 +1,24 @@
+X: 69
+T:The Piper O' Dundee
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:Am
+P:A
+E|"Am"A3/2B/2 c3/2A/2|"Am"E2 E3/2^F/2|"G"G3/2A/2 B3/2c/2|"G"d3/2B/2 G3/2B/2|\
+"Am"A3/2B/2 c3/2A/2|"Am"E2 E3/2f/2|"E7"e3/2d/2 c3/2B/2|"Am"A3:|
+P:B
+A/2B/2|"C"c3/2c/2 c3/2e/2|"G"d3/2d/2 d3/2e/2|"C"c3/2c/2 c3/2e/2|"G"d2 d3/2B/2|\
+"C"c3/2c/2 c3/2e/2|"G"g3/2G/2 G3/2f/2|"E7"e3/2d/2 c3/2B/2|"Am"A3:|
+S:https://www.folktunefinder.com/tunes/141997
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

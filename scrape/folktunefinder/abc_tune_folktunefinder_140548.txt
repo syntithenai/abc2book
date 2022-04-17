@@ -1,0 +1,114 @@
+X:1
+T:Blue Monk
+M:4/4
+L:1/8
+Q:"Blues" 1/4=120
+C:Thelonious Monk
+Z:Luis Pablo Gasparotto
+K:Bb
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+%
+[V:1] DE=EF-     F4  | G^GAB-     B4  | FGF=E     _EF,^CD-     | D  _D2  C-  C4   |
+[V:2] z8             | z8             | z8                     | z8               |
+[V:3] B,C^CD-    D4  | E=EFG-     G4  | DED_D      CE,A,B,-    | B,  B,2 _A,- A,4 |
+[V:4] z8             | z8             | z8                     | z8               |
+[V:5] "Bb"z8         | "Eb7"z8        | "Bb7"z4   "F7"z4       | "Bb"z4 "Bb7"z4   |
+%
+[V:1] G^GAB-     B4   | B=Bc_d-   d4 | FGF=E     _EF,^CD-     | D6  (3FFF     |
+[V:2] z8              | z8           | z8                     | z8            |
+[V:3] E=EFG-     G4   | G_A=AB-   B4 | DED_D      C=D,A,B,-   | B,6 (3DDD     | 
+[V:4] z8              | z8           | z8                     | z8            |
+[V:5] "Eb"z8          | "Edim7"z8    | "Bb7"z4   "F7"z4       | "Bb"z8        | 
+%
+[V:1] F  F,3-  F,4  | FGF=E     _EF,^CD-     | D2  FG   F=E_EF,     | ^C  D3-  D4  ||
+[V:2] z8            | z8                     | z8                   | z8           ||
+[V:3] C  C,3-  C,4  | DED_D      C=D,A,B,-   | B,2 DE   D_DC=D,     | B,  B,3- B,4 ||
+[V:4] z8            | z8                     | z8                   | z8           ||
+[V:5] "F7"z8        | "F7"z8                 | "Bb"z8               | "Bb"z8       || 
+%
+[V:1] DE=EF-     F4  | G^GAB-     B4  | FGF=E     _EA,FF-      | F   F2  F-  F4   |
+[V:2] DE=EF-     F4  | G^GAB-     B4  | FGF=E     _EF,^CD-     | D  _D2  C-  C4   |
+[V:3] B,C^CD-    D4  | E=EFG-     G4  | DED_D      C=D,A,B,-   | B,  B,2 _A,- A,4 |
+[V:4] F,G,A,B,-  B,4 | B,=B,C^C-  C4  | _A,B,A,A,  G,=A,,F,F,- | F,  F,2 F,- F,4  |
+[V:5] "Bb"z8         | "Eb7"z8        | "Bb7"z4   "F7"z4       | "Bb"z4 "Bb7"z4   |
+%
+[V:1] G^GAB-     B4   | B=Bc_d-   d4 | FGF=E     _E=A,FF-     | F6  (3BBB     |
+[V:2] G^GAB-     B4   | B=Bc_d-   d4 | FGF=E     _EF,^CD-     | D6  (3FFF     |
+[V:3] E=EFG-     G4   | G_A=AB-   B4 | DED_D      C=D,A,B,-   | B,6 (3DDD     | 
+[V:4] B,=B,C^C-  C4   | =EF_G=G-  G4 | _A,B,A,A,  G,=A,,F,F,- | F,6 (3_A,A,A, |
+[V:5] "Eb"z8          | "Edim7"z8    | "Bb7"z4   "F7"z4       | "Bb"z8        | 
+%
+[V:1] A  A,3-  A,4  | FGF=E     _E=A,FF-     | F2  fg   f=e_eF      | ^c  d3- d4 |
+[V:2] F  F,3-  F,4  | FGF=E     _EF,^CD-     | D2  de   d_dc=D      | B   B3- B4 | 
+[V:3] C  C,3-  C,4  | DED_D      C=D,A,B,-   | B,2 AB   AAGA,       | F   F3- F4 |
+[V:4] A, A,,3- A,,4 | _A,B,A,A,  G,=A,,F,F,- | F,2 FG   F=E_EF,     | ^C  D3- D4 |
+[V:5] "F7"z8        | "F7"z8                 | "Bb"z8               | "Bb"z8     | 
+%
+[V:1] |: "Bb"z8 | "Eb7"z8 | "Bb7"z4 "F7"z4 | "Bb"z4 "Bb7"z4 |
+[V:2] |: "Bb"z8 | "Eb7"z8 | "Bb7"z4 "F7"z4 | "Bb"z4 "Bb7"z4 |
+[V:3] |: "Bb"z8 | "Eb7"z8 | "Bb7"z4 "F7"z4 | "Bb"z4 "Bb7"z4 |
+[V:4] |: "Bb"z8 | "Eb7"z8 | "Bb7"z4 "F7"z4 | "Bb"z4 "Bb7"z4 |
+[V:5] |: "Bb"z8 | "Eb7"z8 | "Bb7"z4 "F7"z4 | "Bb"z4 "Bb7"z4 |
+%
+[V:1] "Eb"z8 | "Edim7"z8 | "Bb7"z4 "F7"z4 | "Bb"z8 | 
+[V:2] "Eb"z8 | "Edim7"z8 | "Bb7"z4 "F7"z4 | "Bb"z8 | 
+[V:3] "Eb"z8 | "Edim7"z8 | "Bb7"z4 "F7"z4 | "Bb"z8 | 
+[V:4] "Eb"z8 | "Edim7"z8 | "Bb7"z4 "F7"z4 | "Bb"z8 | 
+[V:5] "Eb"z8 | "Edim7"z8 | "Bb7"z4 "F7"z4 | "Bb"z8 | 
+%
+[V:1] "F7"z8 | "F7"z8 | "Bb"z8 |1 "Bb"z8 :|2 
+[V:2] "F7"z8 | "F7"z8 | "Bb"z8 |1 "Bb"z8 :|2 
+[V:3] "F7"z8 | "F7"z8 | "Bb"z8 |1 "Bb"z8 :|2 
+[V:4] "F7"z8 | "F7"z8 | "Bb"z8 |1 "Bb"z8 :|2 
+[V:5] "F7"z8 | "F7"z8 | "Bb"z8 |1 "Bb"z8 :|2 
+%
+[V:1] "Bb"z8 ||
+% %% text Play Ending 1 till last solo
+% %% text
+[V:2] "Bb"z8 ||
+% %% text Play Ending 1 till last solo
+% %% text
+[V:3] "Bb"z8 ||
+% %% text Play Ending 1 till last solo
+% %% text
+[V:4] "Bb"z8 ||
+% %% text Play Ending 1 till last solo
+% %% text
+[V:5] "Bb"z8 ||
+%% text Play Ending 1 till last solo
+%% text
+[V:1] DE=EF-     F4  | G^GAB-     B4  | FGF=E     _EA,FF-      | F   F2  F-  F4   |
+[V:2] DE=EF-     F4  | G^GAB-     B4  | FGF=E     _EF,^CD-     | D  _D2  C-  C4   |
+[V:3] B,C^CD-    D4  | E=EFG-     G4  | DED_D      C=D,A,B,-   | B,  B,2 _A,- A,4 |
+[V:4] F,G,A,B,-  B,4 | B,=B,C^C-  C4  | _A,B,A,A,  G,=A,,F,F,- | F,  F,2 F,- F,4  |
+[V:5] "Bb"z8         | "Eb7"z8        | "Bb7"z4   "F7"z4       | "Bb"z4 "Bb7"z4   |
+%
+[V:1] G^GAB-     B4   | B=Bc_d-   d4 | FGF=E     _E=A,FF-     | F6  (3BBB     |
+[V:2] G^GAB-     B4   | B=Bc_d-   d4 | FGF=E     _EF,^CD-     | D6  (3FFF     |
+[V:3] E=EFG-     G4   | G_A=AB-   B4 | DED_D      C=D,A,B,-   | B,6 (3DDD     | 
+[V:4] B,=B,C^C-  C4   | =EF_G=G-  G4 | _A,B,A,A,  G,=A,,F,F,- | F,6 (3_A,A,A, |
+[V:5] "Eb"z8          | "Edim7"z8    | "Bb7"z4   "F7"z4       | "Bb"z8        | 
+%
+[V:1] A  A,3-  A,4  | FGF=E     _E=A,FF-     | F2  fg   f=e_eF      | ^c  d3- Hd4 |]
+[V:2] F  F,3-  F,4  | FGF=E     _EF,^CD-     | D2  de   d_dc=D      | B   B3- HB4 |] 
+[V:3] C  C,3-  C,4  | DED_D      C=D,A,B,-   | B,2 AB   AAGA,       | F   F3- HF4 |]
+[V:4] A, A,,3- A,,4 | _A,B,A,A,  G,=A,,F,F,- | F,2 FG   F=E_EF,     | ^C  D3- HD4 |]
+[V:5] "F7"z8        | "F7"z8                 | "Bb"z8               | "Bb"z8      |]
+S:https://www.folktunefinder.com/tunes/140548
+S:http://abcmr.sourceforge.net/bluemonk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

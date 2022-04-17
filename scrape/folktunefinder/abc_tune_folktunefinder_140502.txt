@@ -1,0 +1,27 @@
+X: 1
+T:Constant Billy, Sherborne
+M:6/8
+L:1/8
+S:CJS (MDT)
+A:Sherborne
+P:A(AB2)5A
+K:G
+P:A
+|:D|G>Bd B>AG|cBc AFD|B>AG EFG|DEF G2:|
+P:B
+G|Bcd  ecB |ABc dBG|Bcd  ecB|ABc d3|
+G>Bd B>AG|cBc AFD|B>AG EFG|DEF G2||
+S:https://www.folktunefinder.com/tunes/140502
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

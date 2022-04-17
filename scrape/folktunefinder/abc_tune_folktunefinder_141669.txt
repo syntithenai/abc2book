@@ -1,0 +1,27 @@
+X:1
+T:Dog in the Park
+C:copyright 1997 Kaubells
+E:14                   % note spacing
+M:6/8
+K:GMix
+"G"dBG {e}d2B|{d}"Dm"c2A FGA|"G"G2D B2(3G/A/B/)|"Dm"A2F edc|*
+"G"dBG {e}d2B|{d}"Dm"c2A FGA|"G"G2D D3|[1 "...D7"DE^F "G"G3:|[2 "...D7"DE^F "G"G^F=F|]*
+K:G
+E:16
+"E7"EzE E^F^G|"A"AzE ^C3|"E7"EzE EF^G|"A"A3 "A7"=G3|*
+"D7"DzD DEF|"G"=GzD B,3|"D7"DzD DEF|"G"G3 gf=f|*
+"E7"eze e^f^g|"A"aze ^c3|"E7"eze ef^g|"A"a3 "A7"z3|*
+E:14
+"D7"dzd def|"G"=gzd B3|"D7"dAd "C#7"^c^G^c|1"...F"=c2A "D7"D2=c:|2"...C"=c3 z3|]*
+\bigskip
+\bigskip
+S:https://www.folktunefinder.com/tunes/141669
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/dog-in-the-park.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

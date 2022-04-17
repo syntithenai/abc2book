@@ -1,0 +1,33 @@
+X:120
+T:Tulloch Gorm (#100)
+M:4/4
+L:1/8
+S:Officer William Walsh
+R:Strathspey
+K:C
+a|c<Ae>A dG B2|c<Ae>A cAea|c<Ae>A d>G B2|c<Ae>A c2 B<a|
+c<Ae>A dG B2|c<Ae>A cAea|cAeA dG B2|c<Ae>A c2 Bc||
+A<a (3efg d>G B2|A<ae>a caea|ca (3efg d>G B2|A<ae>a c2 Bc|
+A<a (3efg dG B2|A<ae>f g>ea>e|g>ag>e d>GB>g|a>eg>e a3||
+%
+% Sometimes written "Tulloch Gorum" or Tullagorum", this famous
+% strathspey first published in Robert Bremner's Collections of Scots
+% Reels, or Country Dances, Edinburgh 1757" was composed by
+% William Marshall, butler and house stewart in the service of the Duke
+% of Gordon for thirty years. His tunes were plagiarized ruthlessly by
+% comtemporaries. In the words of Robert Burns, Marshall was:
+%        "the first composer of strathspeys in the age".
+% The grace notes peculiar to pipe music are omitted in the setting.
+% A clergyman at Linshart, Rev. John Skinner composed songs to
+% "Tulloch Gorum" and several others of Marshall's tunes.
+S:https://www.folktunefinder.com/tunes/141632
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

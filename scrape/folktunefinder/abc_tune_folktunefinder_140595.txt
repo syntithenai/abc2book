@@ -1,0 +1,19 @@
+X: 32
+T: UP A LAZY RIVER
+C: H.Carmichael
+M: C
+L: 1/8
+K: F
+|: "D7"D>^F A>_e d>c ^C>D | "D7"c2 "Db7"_c2 "C7"B3 "(D/F#)"A | "G7"=B,>D F>A G>F ^A,>=B, | "G"E2 "Ab"_E2 "G9"D4 |
+[1 "C7"E>d c>=B _B2 ^C>D | "C"A2 "Db7"_A2 "C7"G4 | "F"^G>A C>=B, "C7"_B,>=G "Bdim"D>E | "F"F2 A,C- C4 :|
+[2 "Bb"d>c B>A "Bdim"_A4 | "F"f>e "E7"d>_d "Eb6"c2- "D7"c2 | "G9"d>f d>A "C7"cA2C |
+"F"F>F "E7"E>F "D7"^F4 | "G9"d>f d>A "C7"cA2 C | "F Eb6 Eb F6"F6 z2 |]
+S:https://www.folktunefinder.com/tunes/140595
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

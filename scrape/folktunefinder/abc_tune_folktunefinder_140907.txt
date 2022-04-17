@@ -1,0 +1,30 @@
+X:4
+T:Gobby-O, or Jefferson and Liberty
+C: Traditional
+R:jig
+M:6/8
+L:1/8
+%%%%%Q:3/8=112
+K:Ador
+P:A
+B |: c2A A^GA | E2A A2c | B2G GBc | dBG GAB |
+   |  c2A A^GA | E2A A2e | edc BAB | c2A A2B :|
+P:B
+   |: A2B c2d | e2f g3 | e2^f g2e | dBG G2B |
+   |  A2B c2d | efg a3 | edc BAB | c2A A2B :|
+%%text
+%%
+%%
+S:https://www.folktunefinder.com/tunes/140907
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

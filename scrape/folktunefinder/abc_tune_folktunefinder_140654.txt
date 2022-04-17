@@ -1,0 +1,23 @@
+X: 1
+T: Blue Pool, The
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+|:G>A|:B2 B>A G>B|d2 d>B G>B|c2 c>A F>A|d2 d>B G>A|
+B2 B>A G>B|d2d>B G>B|c2 c>A F>A|1G4 G>A:|2G4 g>f||
+|:e>c e>f g>e|d2 d>B G>B|c2 c>A F>A|d2 d>B G>g|
+e>c e>f g>e|d2 d>B G>B|c2 c>A F>A|1 G4 g>f:|2G4 G>A||
+|:_B2 _B>A G>_B|d2 d>_B  G>_B|c2 c>A  =F>A|d2 d>_B G>A|
+_B2 _B>A G>_B|d2 d>_B G>_B|c2 c>A =F>A|1G4 G>A:|2G4 g>f||
+|:e>c e>f g>e|d2 d>B G>B|c2 c>A F>A|d2 d>B G>g|
+e>c e>f g>e|d2 d>B G>B|c2 c>A F>A|1 G4 g>f:|2G4 G>A||
+S:https://www.folktunefinder.com/tunes/140654
+S:http://www.thesession.org/tunes/display/3313
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

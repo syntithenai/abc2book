@@ -1,0 +1,31 @@
+X:135
+T:Shaun Truish Willichan (#103)
+M:4/4
+L:1/8
+S:Preston's Reprint of Bremner's Collections, London 1789
+K:C
+A,|D/2D/2D D>F "tr"E2 A,>F|F2 "tr" ED G/2F/2E/2D/2 CE|
+D/2D/2D D>F E2 A,E|"tr"F2 ED C>A,A,:|
+|:G|A>cAG G>AGF|F>GFD G/2F/2E/2D/2 CG|
+A>cAF G>AGE|FD G/2F/2E/2D/2 CA,A,:|
+|:A|d/2d/2d d>f "tr"e2 c>e|f2 "tr"ed g/2f/2e/2d/2 ce|
+d/2d/2d d>f e2 Ae|fd g/2f/2e/2d/2 c>AA:|
+|:g|aa _b/2a/2g/2f/2 gg a/2g/2f/2e/2|ff g/2f/2e/2d/2 eccg|
+aa _b/2a/2g/2f/2 gg a/2g/2f/2e/2|fe g/2f/2e/2d/2 cAA:||
+%
+% With this tune is associated a special Highland dance, commonly
+% referred to as "Sean Truis", but occasionally as "Willichan".
+% The full name as above given is the same in Glenn's Analytical
+% Table , and in "Bremner's Collections of Scots Reels, or Country
+% Dances 1757-61". After Robert Bremner's death in 1789 his
+% collections were reprinted by Preston, a great London publisher.
+S:https://www.folktunefinder.com/tunes/141635
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

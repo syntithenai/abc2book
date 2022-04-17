@@ -1,0 +1,26 @@
+X: 4
+T:Morris Gallop, Winster
+M:4/4
+L:1/8
+A:Winster
+P:A(A2B2C)8A
+K:G
+P:A
+(3dcB|G2B2 G2dA|G2B2 G2dA|G2B2 G2dA|G2e2 d3B|
+c2e2 e2dc|B2d2 d4  |A2B2 c2ed|B2G2 G2||
+P:B
+c2|d6     d2|e6     e2|d6     d2|A6   A2 |\
+d6     d2|e6     e2|dedc B2A2|g6     ||
+P:C
+ef|g2f2 e2d2|g2f2 e2d2|g2f2 e2d2|c2B2 A4 |
+f2e2 d4  |f2e2 d4  |d4   A3c |B2G2 G2||
+S:https://www.folktunefinder.com/tunes/140526
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Winster.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Winster.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Winster.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

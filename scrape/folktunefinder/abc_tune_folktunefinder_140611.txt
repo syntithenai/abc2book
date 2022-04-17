@@ -1,0 +1,22 @@
+X: 15
+T: I'M IN THE MOOD FOR LOVE
+C: J.McHugh
+M: C
+L: 1/8
+K: Bb
+|: "Bb"(3D2E2D2 C2B,2 | "Cm7"C8 | "F7"(3C2D2E2 F2G2 | "Bb"A2B6 |
+ "Bb"cA2c "Bdim"A2_A2 | "Cm7"G2 B6 | "F7"GF2G F2A,2 |1 "Bb"F8 :|2 "Bb"B,8 ||
+ "Cm7"CD2E "F7"D2C2 | "Bb"F2 F2- "G7"F4 | "Em"CD2E "F7"D2C2 | "Bb"F8 |
+ "Gm6"=EF2G "A7"F2E2 | "Dm"A2 A6 | "Bm"AB2A "C7"c4 | "Em"CD2C "F7"E4 |
+ "Bb"(3D2E2D2 C2B,2 | "Cm7"C8 | "F7"(3C2D2E2 F2G2 | "Bb"A2B6 |
+ "Bb"cA2c "Bdim"A2_A2 | "Cm7"G2 B6 | "F7"GF2G F2A,2 | "Bb"B,8 |]
+S:https://www.folktunefinder.com/tunes/140611
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

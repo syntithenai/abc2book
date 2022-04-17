@@ -1,0 +1,28 @@
+X: 21
+T: IT HAD TO BE YOU
+C: Jones
+%%%staffsep 30
+M: C
+L: 1/8
+K: C
+|:"G7"z3G, "G"A,G,A,B,- | "C"B,4- "G"B,4 | "C"z3B, CB,C^C- | "A7"C8 |
+%
+z3^C DCDE- | "D7"E6=C D^CDE- | E3=C D^CDE- | E8 |
+%
+[1 z3D EDEG- | "G7"G8 | z3E "E7"DEDC- | "Am"C8 |
+%
+z3C CB,CD- | "D7"D4 CB,CD- | D4 EAED- | "G7"D4- "Ab7-5"D4 :|
+%
+[2 z2E2 "Am"EFGA- | "Dm"A4 A,B,CD- | "Ddim"D4 "G7"DEFG- | "C"G4 "E7"DEDC-  |
+%
+"Am"C3B, "Cdim"A,G,A,B,- | "G7"B,4 "Cdim"A,G,A,B,- | "G7"B,4 EGEC- | "C"C8- | C6 z2 |]
+S:https://www.folktunefinder.com/tunes/140617
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

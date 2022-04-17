@@ -1,0 +1,29 @@
+X: 9
+T:Humors of Listivain (#85)
+M:6/8
+L:1/8
+S:Aird's Selections 1782-97
+K:C
+EAA AGA|BAB GAB|eAA AGA|BAB g3|egg dee|
+Bdd GAB|eAA AGA|BAB g3|egg dff|BEG A3:|
+|:eaa aga|bab g3|aga e3|gfg d3|ee/2f/2e/2d/2 BB/2c/2B/2G/2|
+AA/2B/2A/2G/2 E3|EAA AGA|BAB g3|egg dff|BEG A3:||
+%
+% The above setting of which there are several variants, is no
+% doubt the original. In O'Farrell's National Irish Music for the
+% Union Pipes, 1797-1800, a tune named "Jerry's Rambles"
+% closely follows it. More distinct variants are "The Jolly Old
+% Woman" and "The Humors of Bandon", the latter as
+% printed in O'Neill's Dance Music of Ireland being the
+% arrangement favored by modern dancers.
+S:https://www.folktunefinder.com/tunes/141585
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-3.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/HumorsOfListivain85.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0085.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

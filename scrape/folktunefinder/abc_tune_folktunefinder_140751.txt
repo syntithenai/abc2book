@@ -1,0 +1,26 @@
+X:60
+T:Wassail 3
+% Nottingham Music Database
+S:Trad
+M:6/8
+K:G
+G|"G"G2A B2A|"G"G2A B2A|"G"G2d d2d|"D7"d3 -d2:|
+d|"C"e2e "G"d2B|"G"d3 c2B|"Am"A2G A2B|"D7"c3 ||
+M:4/4
+L:1/4
+Bc |"G"d2 "C"ge|"G"d2 "D7"Bc|"G"dd "C"ge|"G"d2 "D7"Bc|"G"d2 "Em"eB|
+"Am"cA "D7"GF|"G"G3/2A/2 BG|"C"c2 "D7"Bc|"G"d2 "Em"eB|"Am"cA "D7"GF|"G"G4-|\
+"G"G3||
+S:https://www.folktunefinder.com/tunes/140751
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/xmas.abc
+S:http://www2.redhawk.org:8080/irish/nmd/xmas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

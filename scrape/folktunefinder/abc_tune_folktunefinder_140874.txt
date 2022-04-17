@@ -1,0 +1,28 @@
+X: 1
+T:Bob Horn's Hornpipe.WM005
+M:4/4
+L:1/8
+Q:200
+S:Wm.Mittell,1799
+R:Hornpipe
+O:England
+A:Kent
+N:Needs Csharp in bar 6
+Z:C.G.P
+K:G
+GBdB GBdB|c2e2-e2.c2|BdBG cecA|F2A2-A2.A2|GBdB GBdB|!e2g2-g2ag|{f}f2ed{e
+}e2d-c|d2d2-d2.d2:|
+|:defe defe|e2c2-c2.c2|!efgf efgf|f2d2-d2.d2|GBdB GBdB|c2e2-e2.c2|BdBA e
+cBA|G2G2-G2.G2:|]
+S:https://www.folktunefinder.com/tunes/140874
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bob_Horns_Hornpipe_WM005_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

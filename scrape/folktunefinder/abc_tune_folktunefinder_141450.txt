@@ -1,0 +1,31 @@
+X: 7
+T:Polygon,The. ASH.07
+M:6/8
+L:1/8
+Q:110
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Country dance
+O:England
+A:Derbyshire
+N:Quaver rest at beginning of B strain not in MS
+Z:vmp.Mick Peat , 2003
+Z:Mick Peat
+Z:Mick Pea
+K:D
+  f/g/|afd ecA|dBG {G}F2E|DFA Bgf|efd {e}c2f/g/|!
+afd ecA| dBG {G}F2E|DFA Bgf|edc d2:|!
+|:"*"z|Ace gec|Adf afd| Ace gec|Bed {d}c3|!
+Ace gec|Adf afd|AcA Bgf|edc d2:|]
+S:https://www.folktunefinder.com/tunes/141450
+S:http://www.village-music-project.org.uk/abc/ashover.abc
+% Rhythm Country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

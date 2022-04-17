@@ -1,0 +1,40 @@
+X:1
+T:Boarischer
+A:St.Wolfgang, Oberoesterreich
+R:Schottisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G %Transposed from D
+V:1
+.D2.B2 .D2.A2 | D2(GF)G2 D2 | D2F2 F3D | B,2(GF) G4 |
+.D2.B2 .D2.A2 | D2(GF)G2 D2 | D2F2 D2(EF) | "fine"G2G2 G4 :|
+V:2
+MB2.d2 .A2.c2 | G(BA)B2 G2 | A2c2 c3F | G2(BA) B4 |
+MB2.d2 .A2.c2 | G(BA)B2 G2 | F2c2c2d | "fine"B2B2 B4 :|
+V:1
+|:\
+MB2.G2.E2.D2 | MB2.G2.E2.D2 | D2(FA) c2D2 | (GFGA) B4 |
+MB2.G2.E2.D2 | MB2.G2.E2.D2 | D2(FA) c2F2 | G2(GF)"d.c." G4 :|
+V:2
+|:\
+Md2.B2.c2.B2 | Md2.B2.c2.B2 | F2(Ac) d2c2 | (BABc) d4 |
+Md2.B2.c2.B2 | Md2.B2.c2.B2 | F2(Ac) d2c2 | B2B2"d.c." B4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140731
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarischer.D2.B2.D2.A2D2(G.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

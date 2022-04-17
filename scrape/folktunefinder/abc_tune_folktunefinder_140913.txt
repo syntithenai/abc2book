@@ -1,0 +1,31 @@
+X:11
+T:Cathie's Waltz
+C: Bob McQuillen
+M:3/4
+L:1/8
+%%%%%Q:1/4=120
+K:Em
+P:A
+  GF |: "Em"E2 GAGF | E2 GABc | "Am7"B2 A3 G | "Am6"F4 AG |
+      | "B7"FGABAG | F2 AcBA | "Em"G2 E2 ED | E4 EG |
+      | BGEGBd | "Em7"BGE2 GB | "Am7"d2 edcB | "Am6"B2 A2 Bc |
+      | "Em"B2 BGEG | "B7"F2 AcBA | "Em"G2E3D |1 E4 GF :|2 E4 "D7"DE |
+P:B
+      |: "G"G6 | "G#dim"B4 e2 | "Am"d2 edcB | "Am7"B2 ABAG |
+      | "D7"F4 A2 | c4 e2 | "G"e2 d3 B | d4 Bd |
+      | "G"g2 d2 dd | "G7"g2 d2 ag | "C"f2 e3 c | "Am"E2 G2 c2 |
+      | "G"B2 D2 B2 | "D7"A4 G2 | "G"G6 |1 G4 DE :|2 G4 Z2 ||
+%%textfont - 16
+%%centre Note:  the final G is tied
+S:https://www.folktunefinder.com/tunes/140913
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:1
+T:Branle de la Montarde
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0181.gif
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-22
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/2
+L:1/2
+Q:1/2=220
+K:Bb
+GABG cABG GGGG FEDC | GABG cABG | FG/F/ED/C/ C D/ B,/ C z ::
+ c d/c/ BABGF2 ::c d/c/ BABGF2 ::c d/c/ BABGF2 ::
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/141646
+S:http://michel.bellon.free.fr/Musique/abc/_BalMB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Bal%2520MB.abc
+% Rhythm Bransle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

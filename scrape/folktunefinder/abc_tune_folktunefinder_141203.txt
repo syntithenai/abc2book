@@ -1,0 +1,26 @@
+X:4
+T:Cronin's Hornpipe
+R:hornpipe
+S:Keenan and Glackin
+E:7
+M:C|
+L:1/8
+K:G
+BA|GABc dBde|gage dega|bage dBGB|cABG A2BA|!
+GABc dBde|gage dega|bage dBAB|G2G2 G2:|!
+fg|afd^c d2ga|bged e2ga|(3bag  (3agf gedB|(3cBA AG AcBA|!
+GABc dBde|~g3e dega|bage dBAB|G2G2 G2:|!
+S:https://www.folktunefinder.com/tunes/141203
+S:http://www.slowplayers.org/Music/abc/Hornp.abc
+S:http://mirrors.ctan.org/macros/latex/contrib/abc/abc.dtx
+S:http://sf.ccewest.org/music/abc/Hornp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

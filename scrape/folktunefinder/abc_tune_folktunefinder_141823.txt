@@ -1,0 +1,29 @@
+X:2
+T:Sergeant Cahill's Favourite
+C:Traditional
+N:Play 3 times through
+N:The Ballyvourney Jig Set, figure 2, tune 1 of 1
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Slide
+M:12/8
+L:1/8
+K:Dmix
+D2 E G2 A BAB d2 A  | BAB d2 B A2 G E2 G |\
+D2 E G2 A BAB d2 B | ABA B2 A G3 G3 :||
+g2 d e2 d g2 d e2 d | B3 BAG A3 AGE |\
+D2 E G2 A BAB d2 B | ABA B2 A G3 G3 :||
+S:https://www.folktunefinder.com/tunes/141823
+S:http://theflow.org.uk/text/flow_ballyv.txt
+S:http://www.theflow.org.uk/text/flow_ballyv.txt
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T:Blarney Pilgrim, The
+N:Setting from, and transcribed by, Alan Ng. Chord symbols added by Dave Fallow
+Z: id:ng-jigs-27 transcribed by Alan Ng agng@facstaff.wisc.edu 27 Jan. 2001
+R:jig
+M:6/8
+K:DMix
+"G"DED DEG|"D"ABA ABc|"G"BAG AGE|"C"GEc E{G}ED|\
+"G"DED DEG|"D"ABA ABc|"G"BAG AGE|"C"GED "D"D3:|*
+E:10
+|:"G"~d3 dBG|"C"AGA BGE|"G"~d3 dBG|"D"AGA B2d|\
+"G"g2e d2B|"Am"AGA BGE|"C"B2G AGE|"D"DGG "G"G3:|*
+E:9
+|:"D"ADD BDD|ADD ABc|"G"BAG AGE|"Am"GEc E{G}ED|\
+"D"ADD BDD|ADD ABc|"G"BAG AGE|"C"GED "G"D3:|**
+S:https://www.folktunefinder.com/tunes/140041
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blarney_Pilgrim_The_7.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

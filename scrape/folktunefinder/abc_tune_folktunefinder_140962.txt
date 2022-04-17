@@ -1,0 +1,29 @@
+X:2
+T:Streep
+O:Nederokkerzeel
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek II
+M:2/4
+L:1/8
+K:F
+P:A
+f4 | e4 | d>^c d>e | c4 |
+B>d c>B | A>c B>A | G>B A>G | A2 F z |
+f4 | e4 | d>^c d>e | c4 |
+B>d c>B | A>c B>A | G>B A>G | F2-F z |
+P:B
+|: Ac F2 | Ac F2 | GA BG | d2 c2 |
+Ac F2 | Ac F2 | GA BG | F2 F2 :|
+S:https://www.folktunefinder.com/tunes/140962
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre1.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

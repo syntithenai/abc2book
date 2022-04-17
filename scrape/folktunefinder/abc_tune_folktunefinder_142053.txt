@@ -1,0 +1,23 @@
+X:8
+T:Boulangre des Plainauds
+O:Vende
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+%%continueall 1
+P:A
+D>D DG | B3G | Bd BG | A2A2 |1 D>D DF | A3B | cB cA | B2G2 :|2 A>A AB | c3c | dc BA | [M:2/4] d2 ||
+P:B
+d>c BA | Bc d2 | cB c2 | BA BG | d>c BA | Bc d2 | cB cA | GB/d/ g2 |]
+%%footer $D   Galouvielle-MBe 2007 \nBransle (France)
+S:https://www.folktunefinder.com/tunes/142053
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

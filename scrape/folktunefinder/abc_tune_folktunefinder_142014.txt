@@ -1,0 +1,28 @@
+X: 22
+T:Clap Dance (Miss McLeod)
+% Nottingham Music Database
+S:McCusker Brothers, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|:"G"G-G/2B/2 dB/2G/2|"G"B/2d/2B/2A/2 "D7"B/2c/2B/2A/2|\
+"G"G-G/2B/2 dB/2G/2|"Am"A/2B/2A/2G/2 "D7"A/2^A/2B/2=A/2|
+"G"G-G/2B/2 dB/2G/2|"G"B/2d/2B/2A/2 Bd|"C"e/2f/2e/2d/2 B/2d/2e/2f/2|\
+"Am"g/2e/2d/2B/2 "D7"A/2^A/2B/2=A/2:|
+P:B
+"G"Gg/2f/2 e/2f/2g/2d/2|"G"BB/2A/2 "D7"B/2c/2B/2A/2|\
+"G"Gg/2f/2 e/2f/2g/2d/2|"Am"AA/2G/2 "D7"A/2^A/2B/2=A/2|
+"G"Gg/2f/2 e/2f/2g/2d/2|"G"BB/2A/2 Bd|"C"e/2f/2e/2d/2 B/2d/2e/2f/2|\
+"Am"g/2e/2d/2B/2 "D7"A/2^A/2B/2=A/2:|
+S:https://www.folktunefinder.com/tunes/142014
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

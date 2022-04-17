@@ -1,0 +1,26 @@
+X: 15
+T:Shepherds' Hey, Bucknell (BC)
+M:2/2
+L:1/8
+R:Hornpipe
+A:Bucknell
+P:A(AB)4
+K:F
+P:A
+ABcA B2B2|ABcA G4|ABcA B2AB|c2C2 F4||
+P:B
+A2F2 G4  |A2F2 G4|A2c2 B2d2|c2C2 F4||
+S:https://www.folktunefinder.com/tunes/140499
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bucknell.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:104
+T:Mairi's Wedding
+C:Trad, Sc.  
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:G 
+ E2 |: "G"D3E D2 E2 | G2 A2 B4 |  "C"A2 G2 "C"E2 G2 | "D"B2 A2 "D"Bd3 | 
+  "G"D3E D2 E2 | G2 A2 B4 |  "C"A2 G2 E2 C2 | "D"D4 D4 :| 
+ |: "G"d3e d2 e2 | d2 c2 "Em"B4 |  "C"A2 G2 "Am"E2 G2 | "D"B2 A2 Bd3 |
+  "G"d3e d2 e2 | d2 c2 "Em"B4 |  "C"A2 G2 E2 C2 | "D"D4 D4 :|
+%%newpage
+%%text
+%%text
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/141233
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

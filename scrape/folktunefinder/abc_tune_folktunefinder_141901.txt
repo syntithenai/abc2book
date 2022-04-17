@@ -1,0 +1,26 @@
+X:265
+T:Old Joe's Ife
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:A
+E|"A"EA/2c/2 B/2A/2a/2f/2|"A"e/2c/2B/2d/2 "D"c/2A/2F/2A/2|\
+"A"EA/2c/2 B/2A/2a/2f/2|"E7"e/2c/2B/2c/2 "A"AE|
+"A"EA/2c/2 B/2A/2a/2f/2|"A"e/2c/2B/2d/2 "D"c/2A/2F/2A/2|\
+"A"EA/2c/2 B/2A/2a/2f/2|"E7"e/2c/2B/2c/2 "A"Ae||
+"A"a/2g/2a/2f/2 e/2a/2c/2e/2|"D"d/2B/2c/2A/2 "E7"B/2A/2F/2A/2|\
+"A"a/2g/2a/2f/2 e/2a/2c'/2a/2|"D"b/2a/2b/2c'/2 "E7"ba/2b/2|
+"A"c'/2a/2f/2a/2 e/2a/2c/2e/2|"D"d/2B/2c/2A/2 "E7"B/2A/2F/2A/2|\
+"A"EA/2c/2 B/2A/2a/2f/2|"E7"e/2c/2B/2c/2 "A"A||
+S:https://www.folktunefinder.com/tunes/141901
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsM-Q.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsM-Q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

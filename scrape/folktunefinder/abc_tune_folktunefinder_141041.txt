@@ -1,0 +1,26 @@
+X:0884
+T:"Boiled Goats' Milk"   (jig)         0884
+C:after  Mr.. Cronin
+N:GOATS MILK   Yecch!
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d/2c/2|BGA B2d|cAG A2B|cAF G2B|def gdc|
+BGA B2d|cAG A2c|(B/2c/2d)B cAF|AGG G2:|
+|:d|(g/2f/2e)g fdc|BAB dBG|gag fdc|BAB def|
+(g/2f/2e)g fdc|BAB dBG|(B/2c/2d)B cAF|AGG G2:|
+S:https://www.folktunefinder.com/tunes/141041
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0884-BoiledGoatsMilk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

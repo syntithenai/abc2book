@@ -1,0 +1,26 @@
+X:100
+T: Ross Hornpipe
+C: Noel Strange
+S: Treoir 32/4
+Z: B.Black
+M: 4/4
+L: 1/8
+R: hornpipe
+K: D
+AF|(3DED A,E DFAd|fdBc dBAF|(3DED A,E DFAF|GBFA E2 AF|
+(3DED A,E DFAd|fdBc dBAG|FdBG FAGE|(3DED CE D2 :|
+Bc|d2 ce dAFD|d2 fa gfed|c2 Ac B2 GB|BAFD A,GFE|
+(3DED A,E DFAd|fdBc dfAG|FdBG FAGE|(3DED CE D2 :|
+S:https://www.folktunefinder.com/tunes/140343
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

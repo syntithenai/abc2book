@@ -1,0 +1,42 @@
+X: 3
+T:Knight of St. Patrick Lancers (#81-C)
+M:6/8
+L:1/8
+S:CONTINUATION FROM #81-B
+K:G
+B|e3 gfe|fb>b b2 a|g>fe fe^d|efg B2 B|
+e3 gfe|fbb b2 a|gfe fe^d|e3-e z|
+d'/2c'/2|ged g2 g|g3-g2 b|age a2 a|a3-abc'|
+d'>c'b d'>c'b|gfe d2 b/2a/2|ged g2 g|g3-g2||
+B|e3 gfe|fb>b b2 a|gfe {g}fe^d|efg B2 B|
+e3 gfe|fbb b2 a|g>fe fe^d|e3-e z||
+e|dGG AGG|dGG Gge|d>cB BAG|FAA A2 B/2c/2|
+dGG AGG|dGG e2 d/2c/2|B>cd def|gGG G2||
+K:D
+M:2/4
+L:1/16
+dB|AFdB ABAF|DFAF E2 EB|AFAd BGBd|cABc dcdB|
+AFdB ABAF|DFAF E2EB|AFAd BGBd|cABc defg||
+a2fd fafd|fafd e2ef|gfef gbag|fedc defg|
+a2fd fafd|fafd e2ef|gfef gbag|fedc d2||
+K:G
+M:6/8
+L:1/8
+(3d/2e/2f/2|g>ag gdB|d>ed def|g>ag gdB|A>aa a2 b|
+g>ag gdB|d>ed d'2 c'|b>ab ged|egg g2||
+(3b/2a/2g/2|gbd' d'bg|faa a2 (3a/2g/2f/2|gbd' d'bg|b2 a a2 (3a/2g/2f/2|
+gbd' d'bg|faa a2 c'|bab ged|egg g2||
+S:https://www.folktunefinder.com/tunes/141579
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-3.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/KnightOfStPatrickLancers81C.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0081-C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

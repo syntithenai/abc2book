@@ -1,0 +1,24 @@
+X: 1
+T:Boda Polska
+M:3/4
+L:1/8
+R:Polska
+R:Hambo
+O:Sweden
+Z:Carol Turner
+K:D
+Ad2c d>e | ff2e d>f | aa2^g/2a/2 ba | ag2f e>d |\
+cB A4 | Ad2c d>e | ff2e d>f | aa2^g/2a/2 ba | \
+ag2f e>d | cB/2c/2 d4:: \
+FF2A, D>F | AG2BA2 | FF2A, D>F | AG2BA2 | A>c d>f e>d | cB/2c/2 d4:|
+S:https://www.folktunefinder.com/tunes/140940
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Boda_Polska_1.abc
+% Rhythm Hambo
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

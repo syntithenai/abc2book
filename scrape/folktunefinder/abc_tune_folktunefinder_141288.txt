@@ -1,0 +1,25 @@
+X: 1
+T: Bond Store, The
+R: reel
+S: Session in Cleary's back room, Miltown Malbay 1991
+Z: id:hn-reel-304
+M: C|
+F: http://www.norbeck.nu/abc/i/hnr3.abc 2005-12-21 06:31:34 UT
+K: A
+Ac~c2 eAce|df~f2 ecAc|df~f2 edcA|~B2cA BAFE|
+Ac~c2 eAce|df~f2 ecAc|df~f2 edcA|1 B2cB AdcB:|2 B2cB ABcd||
+|:ea~a2 fecf|eAcA BAFA|ea~a2 fece|fBBA Bcde|
+aece Aece|dBBA BAFA|df~f2 edcA|1 BABc ABcd:|2 BABc AdcB||
+S:https://www.folktunefinder.com/tunes/141288
+S:http://www.norbeck.nu/abc/i/hnr3.abc
+S:http://www.thesession.org/tunes/display/5332
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

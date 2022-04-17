@@ -1,0 +1,28 @@
+X:205
+T: Roland's Return
+R: jig
+S: "Ace and Deuce" (C.McCarthy, A.McCormack, E.O Donoghue)
+Z: B.Black
+M: 6/8
+L: 1/8
+K: F
+CDF FAF|cAF AGF|G2A Bfd|cAF GFD|
+CDF FAF|cAF AGF|G2A BAG|AFD DED|
+CDF FAF|cAF AGF|G2A Bcd|fdc AGF|
+DFF CFF|B,FF A,FF|DGA BAG|AFD DFA||
+d2d fed|efe A=B^c|d2e fef|agf gec|
+d2d fed|efe AG^F|G2A BAG|AFD DED|
+d2d fed|efe A=B^c|d2e fef|aga def|
+afd gec|fed cAF|G2A BAG|AFD D3||
+S:https://www.folktunefinder.com/tunes/140364
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:10
+T:The Old Grey Cat
+C:Trad, Sc.  (from M.V-E.)
+R:reel
+M:C|
+L:1/8
+Q:1/2=116
+K:Em
+ ^d2 |: "Em" e2 e2 E3 F | GFGA BABc d2 d2 | D3 E FAdB AFED | 
+ e2 e2 E3 F | GFGA BABc | dcBA BAGF | G2 E2 E4 :||
+ ed |: B2 e2 e3 d | Bdef gfeB | A2 d2 d3 B | ABde fedf |
+ e2 B2 g2 B2 | a2 B2 b3 a | gfed BAB^d | e4 e4 :||
+%%%% The d#s are my own, after Erin Shrader's playing.
+%%%% They underscore the imperative to 
+%%%% play a B7 at this point, *not* a Bm.
+S:https://www.folktunefinder.com/tunes/141223
+S:http://ericdancepiano.com/abc/DanceList.abc
+S:http://www.ericdancepiano.com/abc/DanceList.abc
+S:http://www.latinsquares.com/abc/DanceList.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

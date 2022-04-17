@@ -1,0 +1,24 @@
+X:2
+T:Bob Dunsire
+R:jig
+C:Gord MacDonald
+M:6/8
+K:HP
+L:1/8
+e | {g}de{A}e {gAGAG}A2e | {g}eAe {g}efg | G{d}BA {g}G2{d}B | {gdedG}d2B {G}B{d}AG |
+{g}de{A}e {gAGAG}A2e | {g}eAe {g}efg | {a}Gge {g}dBG | {g}B{d}A{e}A {gAGAG}A2 :|
+|: g | G{d}G{e}G {g}G2{d}B | {g}BdB {g}B{d}AG | {g}A{d}A{e}A {GAG}A2{d}B | {g}Ae{A}e {g}efg | 
+G{d}G{e}G {g}G2{d}B | {g}BdB {g}B{d}AG | {g}Gge {g}dBG | {g}B{d}A{e}A {gAGAG}A2 :|
+|: e | {g}de{A}e {g}Ae{A}e | {a}ge{A}e {g}edB | {a}G{d}B{e}A {g}G2{d}B | {g}d{G}dB {G}B{d}A{g}G | 
+{g}de{A}e {g}Ae{A}e | {a}ge{A}e {g}edB | {g}Gge {g}dBG | {g}B{d}A{e}A {gAGAG}A2 :|
+|: f | gGg {f}gfg | {a}gG{g}G {a}gfg | aAa {g}aga | {g}aA{g}A aef | 
+gGg {f}gfg | {a}gG{g}G {g}BAG | {g}Gge {g}dBG | {g}B{d}A{e}A {gAGAG}A2 :|
+S:https://www.folktunefinder.com/tunes/140871
+S:http://bagpipejourney.com/media/BobDunsire-MacDonaldTunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

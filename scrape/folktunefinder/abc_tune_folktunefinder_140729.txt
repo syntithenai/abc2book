@@ -1,0 +1,35 @@
+X:1
+T:Boarischer
+C:vom Wimmer Lipperl
+A:Bad Ischl, Salzkammergut
+R:Schottisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+dd |\
+d2B2 B3d | d2c2c2 dd | d2d2e2f2 | (ag)fe d2Bc |
+d2B2 B3d | d2c2c2 dd | d2d2e2f2 | g4 z2 :|
+|: dd |\
+d4 g4 | f4 a4 | e2(eg) f2e2 | d8 |
+(B4 A2B2) | c2c2 F2cc | c2c2B2c2 | d4 z2dd |
+d4 g4 | f4 a4 | e2(eg) f2e2 | d8 |
+d2d2d2d2 | e2e2 a4 | f4 e2f2 | g4 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140729
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarischer.d2B2B3dd2c2c2dd.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

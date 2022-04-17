@@ -1,0 +1,20 @@
+X: 7
+T: DREAM
+C: J.Mercer
+M: C
+L: 1/8
+K: C
+|:"C"c8- | c2dc d2c2 | "B7"B8- | B8 | "C"A8- | A2BA B2A2 | "A7"G8- | G8 | "F"F8- | F2GF "Fm"G2F2 |
+[1"C"E2G2 A2B2- | B8 | "D7"^F2A2 B2c2- | c6 B2 | "Dm7"A2B2 c2d2- | "G7"d4 e4 :|
+[2"C"E2G2 "E7"A2[B2-^G2-E2-] | [B4^G4E4] "Am7"[c4A4E2] | "Dm"[d8A8F8] | "G7-9"[e8_A8F8] | "C"[c8-G8-E8-] | [c6G6E6] z2 |]
+S:https://www.folktunefinder.com/tunes/140570
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

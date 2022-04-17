@@ -1,0 +1,21 @@
+X: 1
+T: Le Bon Chien
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: CDC E2E | CDC [G2C2]G | C3 DEF | FED FED |
+CDC E2E | CDC [G2C2]G | C3 DEF | FDE C3 :|
+|: C3 G3 | AGF G3 | AGF GFE | FDE FED |
+C3 G3 | AGF GAB | cAF GFD | FDE C3 :|
+S:https://www.folktunefinder.com/tunes/141267
+S:http://www.thesession.org/tunes/display/3852
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

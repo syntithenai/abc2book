@@ -1,0 +1,43 @@
+X:8273
+T:Bonnie Kate
+C:anon.
+O:Scotland
+B:Pete Cooper: Mel Bay's Complete Irish Fiddle Player, p. 144
+N:The slurs in this tune are almost impossible to deal with
+N:correctly.  Note the slur from the d in bar 7, which should
+N:be drawn to the A in the first repeat bar AND to the A in
+N:the second repeat bar, so we have a slur with one start and
+N:two ends.  Note also the slur from the g in the first repeat
+N:bar of part B.  This crosses the repeat and goes to the a2
+N:at the beginning of that part.
+R:reel
+Z:Transcribed by Phil Taylor
+F:http://abc.musicaviva.com/tunes/scotland/bonnie-kate.abc
+%Posted January 30th 2002 at abcusers by Phil Taylor.
+M:C|
+K:D
+P:A
+d(uB|A2)dA (3Bc(vd A)(F|DF)AF EGF(E|DF)AF GBed|cAB(c d2) d(uB|
+A2)dA (3Bc(vd A)(F|DF)AF EA,CE|DFAF GBe(d|1 cA)B(c d2):|2 cA)Bc def(g|]
+P:B
+a2)fd vAdfa|~g3e cde(f|g2)gf vgba(g|fg)fe def(g|
+a2)fd vAdf(a|gf)ge cdef|gfed vc(bag)|1 fgfe def(g:|2 fgf(e d2)|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/141437
+S:http://abc.musicaviva.com/tunes/scotland/bonnie-kate.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/bonnie-kate.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/bonnie-kate.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

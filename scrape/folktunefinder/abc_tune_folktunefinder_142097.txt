@@ -1,0 +1,21 @@
+X: 2
+T: Boules Et Guirlandes
+M: 6/4
+L: 1/8
+R: larid  six temps
+K: Gmaj
+G>d d>B d2 A>B c>d c>B | G>d d>B (3ded A>B c>d G2 |
+G>d d>B (3ded A>B c>d c>B | G>d d>B d2 A>B c>d c>B ||
+G2 F>G B>c B>G F>G A>F | (3GAG F>G A>G c>d c>B G>F |
+(3GAG F>G B>c B>G F>G A>F | G2 F>G A>G c>d c>B G>F |]
+S:https://www.folktunefinder.com/tunes/142097
+S:http://www.thesession.org/tunes/display/8956
+% Rhythm Larid  six temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

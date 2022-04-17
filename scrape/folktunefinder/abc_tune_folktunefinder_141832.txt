@@ -1,0 +1,19 @@
+X:1
+T:Both Sides the Tweed
+M:3/4
+L:1/8
+K:C
+ z4 A,B,| C2 B,3 A,| C3 D E2| A6-| A4| AA| G3 E C2| C3 D E2| G,6-|\
+ G,4 A,B,| C3 B, A,2| D2 D2 E2| A6-| A4 BA| G E3 z C| D2 B,3 G,| A,6-|\
+ A,4 EG| A4 AA| A2 G3 E| G6-| G4 AG| E3 D C2| C D3 E2| G,6-| G,4|A,-B,|\
+ C2- B,3 A,| C3 D E2| A6-| A4B-A| G E3 z C| D2 B,3 G,| A,6-| A,4 z2|\
+S:https://www.folktunefinder.com/tunes/141832
+S:http://back.numachi.com:8000/dtrad/abc/BTHTWEED.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

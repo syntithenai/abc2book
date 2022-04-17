@@ -1,0 +1,23 @@
+X:60
+T:The Skylark
+C:Trad.
+D:"Cooley", track 9b
+M:4/4
+R:reel
+K:D
+fg|:agfg efdB|A~F3 DFAF|B~G3 EFGE|FAAG FAA2|
+agfg efdB|A~F3 DFAd|B~G3 G2ag|fgeg fdd2:|
+|:a2fd Adfd|efed BAA2|a2fa bged|B~e3 efge|
+~f3a ~g3a|fgef dBAF|FA~A2 G2ag|fgeg fdd2:|
+S:https://www.folktunefinder.com/tunes/139902
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cooley/cooley_cd.abc
+S:http://www2.redhawk.org:8080/irish/cooley/cooley_cd.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

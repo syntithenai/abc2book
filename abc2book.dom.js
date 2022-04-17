@@ -95,10 +95,20 @@ function domInit() {
   })
 
   $('#doublenotelengthsbutton').click(function(e) {
-    $('#editor').val(multiplyAbcTiming(2,$('#editor').val()))
+      e.stopPropagation()
+      var tune = singleAbc2json($('#editor').val())
+      tune.settings[tune.useSetting] = multiplyAbcTiming(2,$('#editor').val())
+      $('#editor').val(json2abc(tune.songNumber,tune))
+      $('#editor').keyup()
   })  
   $('#halvenotelengthsbutton').click(function(e) {
-    $('#editor').val(multiplyAbcTiming(0.5,$('#editor').val()))
+      e.stopPropagation()
+      var tune = singleAbc2json($('#editor').val())
+      tune.settings[tune.useSetting].abc = multiplyAbcTiming(0.5,$('#editor').val())
+      var abc = json2abc(tune.songNumber,tune)
+      console.log('abc half ',abc)
+      $('#editor').val(abc)
+      //$('#editor').keyup()
   })  
   
   

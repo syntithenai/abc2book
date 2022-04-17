@@ -1,0 +1,24 @@
+X:3
+T:Ronde des lavandires
+A:Ile-de-France
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-23
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+%%continueall 1
+d | G2A B2c | d3 d3 | ABc B2A | G3- G2d |
+G2A B2c | d3 d2d | e2e d2c | d3 d2B |
+d2c B2c | A6 | ABc B2A | B3  G2D | 
+G2A B2c | d6 | ABc B2A | G6 |]
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/142048
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

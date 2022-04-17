@@ -1,0 +1,23 @@
+X: 5
+T:Young Collins, Sherborne
+M:2/2
+L:1/8
+A:Sherborne
+P:A(AB)4
+K:G
+P:A
+|:D2|G2GB d2d2|c2c2 B2d2|c2Ac B2G2|A2F2 G2:|
+P:B
+|:D2|E2E2 E2D2|F2F2 F3 D|G2G2 ABcB|A2d2 d4 |
+G2GB d2d2|c2c2 B2d2|c2Ac B2G2|A2F2 G2:|
+S:https://www.folktunefinder.com/tunes/140506
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

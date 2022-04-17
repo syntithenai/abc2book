@@ -1,0 +1,28 @@
+X:1
+T:Peter Gray
+R:reel
+C:J. Scott Skinner
+B: The Scottish Violinist
+H:learned from a recording of her grandfather, Donald Angus Beaton
+D:Andrea Beaton, Cuts (called "Traditional Reel")
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:G
+D|G2 DC B,DGF|EGAG FAdc|BGFG EGDB,|CEDF GG,G,:|
+||A|Bdgf edcB|ceag fedc|Bdgf edcB|Ad^ce d2 d=c|
+Bdgf edcB|ceag fedc|BGFG DB,A,g|dBcA BGG|]
+S:https://www.folktunefinder.com/tunes/141475
+S:http://cranfordpub.com/tunes/abcs/AndreaBeaton.abc
+S:http://www.cranfordpub.com/tunes/abcs/AndreaBeaton.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 1
+T:The Blue-Eyed Stranger
+M:4/4
+C:
+S:Bacon (CJS (MSS))
+N:
+A:Bucknell
+O:English
+R:Reel
+%P:A/2.(AB)$^3$.A
+P:A.(AB)3.A
+L:1/8
+K:G
+I:speed 400
+P:A
+|:A|d2 D2 D2 GF|EFGA B2 A2|B2 d2 cBAG|E3 F G3:|\
+P:B
+% the B needs a rest to start it
+GABc  d2 d2|edcB A4|GABc d2 d2|B3 c d4|\
+GABc  d2 d2|edcB A2 G2|A2 Bc BAGF|E3 F G3||
+S:https://www.folktunefinder.com/tunes/140476
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blue_Eyed_Stranger_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

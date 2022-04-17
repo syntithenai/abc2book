@@ -24,7 +24,8 @@ function singleAbc2json(abc) {
   if (abc && abc.trim().length > 0) {
     var meter = ensureText(getMetaValueFromAbc("M",abc))
     //var noteLength = getMetaValueFromAbc("L",abc)
-    var key = ensureText(getMetaValueFromAbc("K",abc).trim())
+    var key = ensureText(getMetaValueFromAbc("K",abc))
+    //console.log('PARSE KEY ',key, ';',getMetaValueFromAbc("K",abc),abc)
     var type = ensureText(getMetaValueFromAbc("R",abc).trim())
     
     var id = ensureText(getKeyedCommentFromAbc('sessionorg_id',abc))
@@ -147,7 +148,7 @@ function getNotesFromAbc(abc) {
     } catch(e) {
         notes = noteLines
     }
-    console.log('Gna',abc,noteLines)
+    //console.log('Gna',abc,noteLines)
     return notes.join("\n")
 }
 
@@ -170,25 +171,28 @@ function getAliasesFromAbc(abc) {
 
 
 function getMetaValueFromAbc(key,abc) {
+    var found = null
     try {
-        var parts = abc.split("\n"+key+":")
-        var isFirst = abc.indexOf(key + ":") === 0
-        if (isFirst || parts.length > 1) {
-            if (part[0] === 'T') {
-                return stripLeadingNumber(parts[1].split("\n")[0].trim())
-            } else {
-                return parts[1].split("\n")[0].trim()
+        var parts = abc.split("\n")
+        for (var partKey in parts) {
+            var part = parts[partKey]
+            if (part.startsWith(key + ':')) {
+                if (part[0] === 'T') {
+                    found = stripLeadingNumber(part.slice(2).trim())
+                } else {
+                    found = part.slice(2).trim()
+                }
+                break;
             }
-        } else {
-            return ''
         }
     } catch (e) {
-        return ''
+        console.log(e)
     }
+    return found
 }
 
 function getKeyedCommentFromAbc(key,abc) {
-    if (!abc) return
+    if (!abc) return null
     var first = abc.indexOf('% abc-'+key)
     if (first !== -1) {
         var parts = abc.slice(first + 6 + key.length).split("\n")
@@ -470,28 +474,31 @@ function isSlash(a) {
 
 function getTuneName(tune) {
     if (tune && tune.meta && tune.meta.hasOwnProperty("T")) {
-        return ensureText(stripLeadingNumber(tune.meta.hasOwnProperty("T")),tune.name)
-    }
+        return ensureText(stripLeadingNumber(tune.meta["T"]),tune.name)
+    } else return tune.name
 }
 
 function getTuneType(tune) {
     if (tune && tune.meta && tune.meta.hasOwnProperty("R")) {
-        return ensureText(tune.meta.hasOwnProperty("R"),tune.type)
-    }
+        return ensureText(tune.meta["R"],tune.type)
+    } else return tune.type
 }
 
 function getTuneNoteLength(tune) {
     if (tune && tune.meta && tune.meta.hasOwnProperty("L")) {
-        return ensureText(tune.meta.hasOwnProperty("L"),'1/8')
-    }
+        return ensureText(tune.meta["L"],'1/8')
+    } else return '1/8'
 }
 function getTuneMeter(tune) {
+    //console.log('getmetyer',tune.meta, tune.type)
     if (tune && tune.meta && tune.meta.hasOwnProperty("M")) {
-        return ensureText(tune.meta.hasOwnProperty("M"),timeSignatureFromTuneType(tune.type))
-    }
+        var meter = ensureText(tune.meta["M"],timeSignatureFromTuneType(tune.type))
+        //console.log('getmetyerRES',meter)
+        return meter
+    } else return timeSignatureFromTuneType(tune.type)
 }
-function getTuneSource(tune) {
-    if (tune && tune.meta && tune.meta.hasOwnProperty("S")) {
-        return ensureText(tune.meta.hasOwnProperty("S"))
-    }
-}
+//function getTuneSource(tune) {
+    //if (tune && tune.meta && tune.meta.hasOwnProperty("S")) {
+        //return ensureText(tune.meta.hasOwnProperty("S"))
+    //}
+//}

@@ -1,0 +1,24 @@
+X: 2
+T:Processional, Wheatley
+M:4/4
+L:1/4
+A:Wheatley
+P:A(AB)6
+K:G
+P:A
+e|dBA>E|EED>D|GBAG |A2e2|\
+dBA>G|AED>D|GBAG |d2G||
+P:B
+z/B/|Bdg>e|dBA>G|Bdg>d|e2g>e|\
+dBA>E|EED>D|GBAG |d2G  ||
+S:https://www.folktunefinder.com/tunes/140816
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Wheatley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/sites/default/files/music/Wheatley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

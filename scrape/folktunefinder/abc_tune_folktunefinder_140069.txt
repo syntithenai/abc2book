@@ -1,0 +1,22 @@
+X:3
+T:Polska
+R:polska J
+Z:id:hn-jp-3
+M:3/4
+L:1/16
+K:Gm
+D2|G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G3A|B2AG G^FAF D4|
+G3B d4 g3b|(3aba^fa g4 d3c|B2dc AcA^F G2BG|D^FAF G6:|
+|:c2|d3c BABc d2de|c3A =F=EFA c2cd|BcBA G^FGA B2dB|B2AG G^FAF D4|
+d3c BABc d2de|c3A =F=EFA c2cd|dBBA G^FGA d3B|(3ABAG^F G6:|
+S:https://www.folktunefinder.com/tunes/140069
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

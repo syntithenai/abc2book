@@ -1,0 +1,29 @@
+X:2
+T:Planxty Irwin
+C:Turlough O'Carolan
+H:Played in G or D
+Z:id:hn-carolan-2
+M:3/4
+L:1/8
+K:G
+d | g2f | e>fg | ddc | B>AG | c2A | B>cd | F2G | A2d |
+g2f | e>fg | ddc | B>AG | c2A | B/c/dd | G2A | G2 :|
+|: d | g2g | g>fg | a>ba | afd | b2b | a>bg | f>ge |
+d>ef | g2f | e>fg | ddc | B>AG | c2A | B/c/dd | G2A | G2 :|
+K:D
+|: A | d2c | B>cd | A2G | F>ED | G2E | F>GA | C2D | E2c |
+d2c | B>cd | A2G | F>ED | G2E | F>GA | D2E | D2 :|
+|: A| d2d | d>cd | e>fe | ecA | f2f e>fd | c>dB | ABc |
+d2c | B>cd| A2G | F>ED | G2E | F>GA | D2E | D2 :|
+S:https://www.folktunefinder.com/tunes/140138
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hncar0.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

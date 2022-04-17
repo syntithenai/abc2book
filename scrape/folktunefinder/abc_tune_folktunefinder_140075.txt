@@ -1,0 +1,26 @@
+X:9
+T:Polska efter Pekkos Per
+R:polska J
+N:* \"ar en kvartston mellan g och g#
+A:Bingsj\"o, Dalarna
+Z:id:hn-jp-9
+M:3/4
+L:1/16
+K:Dm
+f/g/f/e/f2 d2(3^cd^c A4 | f/g/f/e/f2 f2ed e4 |
+e2(3=B^c=B A=BAG ^F2A^F | G2=BG =BA3 A4 :| 
+|: {fg}f3e fa3 "*"g/a/g/f/g2 | =c/d/c/B/c2 eg3 agfe |
+[1 e2f2 (3ded(3^cd^c A3e | ^ga3 (3ba^g(3a^ga a4 :|
+[2 e2f2 d2(3^cd^c A3^c | ^cd3 d8 ||
+S:https://www.folktunefinder.com/tunes/140075
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

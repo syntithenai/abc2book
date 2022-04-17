@@ -1,0 +1,27 @@
+X: 3
+T:Blue-Eyed Stranger, Bucknell
+M:4/4
+L:1/8
+A:Bucknell
+P:A(AB)3A
+K:G
+P:A
+|:A|\
+d2D2 D2GF|EFGA B2A2|B2d2 cBAG|E3F G3:|
+P:B
+z|\
+GABc d2d2|edcB A4  |GABc d2d2|B3c d4 |
+GABc d2d2|edcB A2G2|A2Bc BAGF|E3F G3 |
+S:https://www.folktunefinder.com/tunes/140487
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bucknell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -232,7 +232,7 @@ function updateTuneSearchText(songNumber, newSearchText) {
                 updateTuneIdLink(songNumber, tune.id); 
                 return false; 
               })
-            var option = $('<li class="list-group-item tune_selector_option" ><span>'+getTuneName(tune)+'</span></li>')
+            var option = $('<li class="list-group-item tune_selector_option" ><span>'+tune.name+'</span></li>')
             var buttonBlock=$('<div style="float: left" ></div>')
             buttonBlock.append(loadButton)
             buttonBlock.append(linkButton)
@@ -263,6 +263,8 @@ function updateTuneSearchAbcText(songNumber, newSearchText) {
       var songSetting = tune.useSetting > 0 ? tune.useSetting : 0
       $('#waiting').show()
       searchIndex(newSearchText, function(searchRes) {
+        console.log('SEARCH RES', searchRes)
+        
         if (searchRes) {
           $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
           if (searchRes && searchRes.length > 0 && searchRes[0].id) {
@@ -278,7 +280,7 @@ function updateTuneSearchAbcText(songNumber, newSearchText) {
                 return false; 
               })
               
-              var option = $('<li class="list-group-item tune_selector_option" ><span>'+getTuneName(tune)+'</span></li>')
+              var option = $('<li class="list-group-item tune_selector_option" ><span>'+tune.name+'</span></li>')
               var buttonBlock=$('<div style="float: left" ></div>')
               buttonBlock.append(loadButton)
               buttonBlock.append(grabButton)

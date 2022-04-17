@@ -1,0 +1,26 @@
+X: 1
+T: BONNY GREEN GARTERS
+S: MDT
+O: Bampton
+Q: 3/8=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A | d>cd AFA | B>AB ABc | d>cd efg | faf ede |
+    d>cd AFA B>AB ABc | d>cd efg | f3 e3 ||["Last time"f3 d3 ||
+P:Alt bar 4
+  | f3 e3 |
+S:https://www.folktunefinder.com/tunes/141533
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bonny_Green_Garters_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

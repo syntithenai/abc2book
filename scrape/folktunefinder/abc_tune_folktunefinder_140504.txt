@@ -1,0 +1,25 @@
+X: 3
+T:Old Woman Tossed Up, Sherborne 2
+M:6/8
+L:1/8
+A:Sherborne
+P:A(A2B2)5A
+K:D
+P:A
+z|DEF  G2A|BAG F2E|DEF G>AG|FDD D2||
+P:B
+d|B>cd Bcd|Bcd e2d|cAA ABc |dcB A2F|
+DEF  G2A|BAG F2E|DEF G>AG|FDD D2||
+S:https://www.folktunefinder.com/tunes/140504
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 1
+T: Blind Mary
+C: O'Carolan
+B: O'Neill's 655
+Z: 1977 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N: "Very slow"
+N: collected by F.O'Neill.
+M: 2/4
+L: 1/8
+K: D
+A \
+| d2 d>c | {c}B2 A(F/G/) | A>B AF | E3 (FG) \
+| (Af) (f>e) | (dB) A(D/E/) | (F>G) ({F}E>D) | D3 ||
+|| (d/e/) \
+| f>g fB | e>c (AB/c/) | d>D D(E/F/) | E3 (A/G/) \
+| (F>G) Ad | f>e d (D/E/) | (F>G) ({F}E>D) | D3 |]
+S:https://www.folktunefinder.com/tunes/140135
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blind_Mary_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blind_Mary_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

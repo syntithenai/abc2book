@@ -1,0 +1,119 @@
+X:1
+%%MIDI chordname m7(b5) 0 3 6 10
+%%MIDI chordname 7(#9) 0 4 7 10 15
+T:Blue Bossa
+M:4/4
+L:1/8
+Q:1/4=120
+C:Kenny Dorham
+Z:Luis Pablo Gasparotto
+K:Eb
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+%
+[V:1] z2 || z2 E z z E z E    | z2 E z z E z E    | z2 A z z A z A | z2 A z z A z A |
+[V:2] z2 || z2 C z z C z C    | z2 C z z C z C    | z2 F z z F z F | z2 F z z F z F |
+[V:3] G,2|| G3 F E D2 C-      | C6 B,2            | A,4- A,G- G2   | F8             | 
+[V:4] z2 || C,2 G,C, C,G,C,G, | C,2 G,C, C,G,C,G, | F,2 CF, F,CF,C | F,2 CF, F,CF,C |
+[V:5] z2 || "Cm"z8            | "Cm"z8            | "Fm"z8         | "Fm"z8         |
+%
+[V:1] z2 A z z A z A      | z2 =B z z B z B    | z2 E z z E z E       | z2 E z z E z E     |
+[V:2] z2 F z z F z F      | z2 G z z G z G     | z2 C z z C z C       | z2 C z z C z C     |
+[V:3] F3 E D C2 =B,-      | =B,6 A,2           | G,4- G,F- F2         | E8                 |
+[V:4] D,2 DD, D,DD,D      | G,2 EG, G,EG,E     | C,2 G,C, C,G,C,G,    | C,2 G,C, C,G,C,G,  |
+[V:5] "Dm7(b5)"z8         | "G7(#9)"z8         | "Cm"z8               | "Cm"z8             |
+%
+[V:1] z2 B z z B z B      | z2 F z z F z F        | z2 A z z A z A       | z2 A z z A z A     |
+[V:2] z2 _G z z G z G     | z2 C z z C z C        | z2 F z z F z F       | z2 F z z F z F     |
+[V:3] E3 _D C B,2 A,-     | A,6 _G,2              | _G,2 F,B,- B,2 F,A,- | A,8                | 
+[V:4] E,2 EE, E,EE,E      | A,,2 A,A,, A,,A,A,,A, | _D,2 _DD, D,DD,D     | _D,2 _DD, D,DD,D   |
+[V:5] "Ebm"z8             | "Ab7"z8               | "Dbmaj7"z8           | "Dbmaj7"z8         |
+%
+[V:1] A2  GB-   B2  A2    | A2   GB-   B2  A2  | G8-                  | G4        z G3         ||
+[V:2] F2  EF-   F2  F2    | F2   DG-   G2  F2  | E8-                  | E4        z D3         ||
+[V:3] C2  B,D-  D2  C2    | =B,2 B,D-  D2  C2  | C8-                  | C4        z =B,3       ||
+[V:4] A,2 G,B,- B,2 A,2   | A,2  G,B,- B,2 A,2 | G,8-                 | G,4       z G,3        ||
+[V:5] "Dm7(b5)"z8         | "G7(#9)"z8         | "Cm"z8               | "Dm7(b5)"z4 "G7(#9)"z4 ||
+%
+[V:1] !segno!g3 f e d2 c- | c6 B2              | A4-  Ag-  g2         | f8                 |
+[V:2] !segno!e3 d c B2 G- | G6 G2              | F4-  FE-  E2         | C8                 |
+[V:3] !segno!c3 B G G2 E- | E6 D2              | C4-  CB-  B2         | A8                 |
+[V:4] !segno!G3 F E D2 C- | C6 B,2             | A,4- A,G- G2         | F8                 |
+[V:5] !segno!"Cm"z8       | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+%
+[V:1] f3 e d c2 =B-       | =B6  A2            | G4-  Gf-  f2         | e8                 |
+[V:2] d3 C A A2 G-        | G6  F2             | E4-  Ed-  d2         | c8                 | 
+[V:3] A3 G F F2 D-        | D6  =B,2           | C4-  CA-  A2         | G8                 |
+[V:4] F3 E D C2 =B,-      | =B,6 A,2           | G,4- G,F- F2         | E8                 |
+[V:5] "Dm7(b5)"z8         | "G7(#9)"z8         | "Cm"z8               | "Cm"z8             | 
+%
+[V:1] e3 _d c   B2  A-    | A6  _G2            | _G2  FB-   B2  FA-   | A8                 | 
+[V:2] B3  B _G  G2  E-    | E6  E2             | E2   _DF-  F2  DF-   |  F8                | 
+[V:3] _G3 F E   E2  C-    | C6  C2             | C2   A,_D  D2  A,D-  | _D8                |
+[V:4] E3 _D C   B,2 A,-   | A,6 _G,2           | _G,2 F,B,- B,2 F,A,- | A,8                | 
+[V:5] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+%
+[V:1] A2  GB-   B2  A2    | A2   GB-   B2  A2  | G8-                  | G4                  z4 !coda!|:
+[V:2] F2  EF-   F2  F2    | F2   DG-   G2  F2  | E8-                  | E4                  z4 !coda!|:
+[V:3] C2  B,D-  D2  C2    | =B,2 B,D-  D2  C2  | C8-                  | C4                  z4 !coda!|:
+[V:4] A,2 G,B,- B,2 A,2   | A,2  G,B,- B,2 A,2 | G,8-                 | G,4                 z4 !coda!|:
+[V:5] "Dm7(b5)"z8         | "G7(#9)"z8         | "Cm"z8               | "Dm7(b5)"z4 "G7(#9)"z4 !coda!|:
+%
+[V:1] "Cm"z8              | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+[V:2] "Cm"z8              | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+[V:3] "Cm"z8              | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+[V:4] "Cm"z8              | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+[V:5] "Cm"z8              | "Cm"z8             | "Fm"z8               | "Fm"z8             |
+%
+[V:1] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               | "Cm"z8             | 
+[V:2] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               | "Cm"z8             | 
+[V:3] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               | "Cm"z8             | 
+[V:4] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               | "Cm"z8             | 
+[V:5] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               | "Cm"z8             | 
+%
+[V:1] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+[V:2] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+[V:3] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+[V:4] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+[V:5] "Ebm"z8             | "Ab7"z8            | "Dbmaj7"z8           | "Dbmaj7"z8         |
+%
+[V:1] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               |1 "Dm7(b5)"z4 "G7(#9)"z4 :|2 
+[V:2] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               |1 "Dm7(b5)"z4 "G7(#9)"z4 :|2 
+[V:3] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               |1 "Dm7(b5)"z4 "G7(#9)"z4 :|2 
+[V:4] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               |1 "Dm7(b5)"z4 "G7(#9)"z4 :|2
+[V:5] "Dm7(b5)"z8           | "G7(#9)"z8           | "Cm"z8               |1 "Dm7(b5)"z4 "G7(#9)"z4 :|2  
+%
+[V:1] z4 z G3            !D.S.!|]
+[V:2] z4 z D3            !D.S.!|]
+[V:3] z4 z =B,3          !D.S.!|]
+[V:4] z4 z G,3           !D.S.!|]
+[V:5] "Dm7(b5)"z4 "G7(#9)"z4 !D.S.!|]
+%% text Repeat Ending 1 till last solo
+%% text
+[V:1] !coda!A2  GB-   B2  A2    | A2   GB-   B2  A2  | G8-                  | G4        z G3         |
+[V:2] !coda!F2  EF-   F2  F2    | F2   DG-   G2  F2  | E8-                  | E4        z D3         |
+[V:3] !coda!C2  B,D-  D2  C2    | =B,2 B,D-  D2  C2  | C8-                  | C4        z =B,3       |
+[V:4] !coda!A,2 G,B,- B,2 A,2   | A,2  G,B,- B,2 A,2 | G,8-                 | G,4       z G,3        |
+[V:5] !coda!"Dm7(b5)"z8         | "G7(#9)"z8         | "Cm"z8               | "Dm7(b5)"z4 "G7(#9)"z4 |
+%
+[V:1] HG8                       |]
+[V:2] HE8                       |]
+[V:3] HC8                       |]
+[V:4] HG,8                      |]
+[V:5] "Cm"z8                    |]
+S:https://www.folktunefinder.com/tunes/140459
+S:http://abcmr.sourceforge.net/bluebossa.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 6
+T: DEEP PURPLE
+C: P. de Rose
+M: C|
+L: 1/4
+K: Eb
+ B,C | "Eb"B2 B,C | "Bbdim"_D2 B,=B, | "Fm"CF Ac |
+ "Bb7"B2 ^FG |"Eb"fe BG | "Bbm"F^F Gc | "C7"C4- |
+ C2 =B,C |"Fm"B2 =A_A | "Abm"G_G F2 | "Eb"F2 =E_E |
+[1 "Cdim"D_D C2 | "Bb7"C2 =B,_B, | F2 "Bb"^Fc | "Eb"B4- | Bz :|
+[2 "Cdim"d_d c2 | "Fm7"c2 =B_B | "Bb7"F2 ^FG | "Eb"B4- | Bz |]
+S:https://www.folktunefinder.com/tunes/140602
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

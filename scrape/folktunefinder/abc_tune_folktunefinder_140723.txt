@@ -1,0 +1,42 @@
+X:1
+T:Boarisch
+C:Franz Koessler
+A:Hallstatt, Salzkammergut
+R:Schottisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+(Bc) |\
+.d2.b2 .c2.a2 | B2gg g4 | d2f2 (fe)dc | (BA)Be (dc)Bc |
+d2b2 c2a2 | B2gg g4 | d2fe (dc)BA | G2B2G2 :|
+|: z2 |\
+(cB)A^G A2A2 | (BA)GF G4 | d2ed (^cd)ef | (gf)ed d2d2 |
+(cB)A^G A2A2 | (BA)GF G4 | d2ed (^cd)ef | "fine"g2g2g2 :|
+K:C % transposed from D
+P:Trio
+z2 |\
+e2e4 (ef) | g2c2 (cBc2) | edc2 edc2 | B2A2 (A^GA2) |
+a2a2d4 | g2g2c4 | (Bcde) (fgab) | c'2c'2c'2 :|
+|: z2 |\
+G2(AG) G2(AG) | G2(AG) G2(AG) | G2ddd2 (GA) | G2eee2 (GA) |
+G2(AG) G2(AG) | G2(AG) G2G2 | (fe)fd (BA)BG | "d.c. al fine"c2c2c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140723
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarisch.d2.b2.c2a2.B2ggg4.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

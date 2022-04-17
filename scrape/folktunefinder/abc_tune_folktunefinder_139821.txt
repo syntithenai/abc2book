@@ -1,0 +1,28 @@
+X:0025
+T: "The Black Slender Boy"  (2nd setting)  (air)       0025
+C:Unattributed
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:tenderly
+N:The nontuptlet will NOT sound correctly in NWC.
+Q:1/4=80
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"(G/2A/2) Bc|d3/2g/2 (g/2f/2d/2c/2) B(c/2A/2)|B3/2A/2 G(F/2G/2) (A/2B/2c/2A/2)|(dg) (g/2f/2d/2 c/2) A3/2G/2|G3(G/2A/2) Bc|
+(dg) (g/2f/2d/2c/2) B(c/2A/2)|B3/2A/2 G(F/2G/2) (A/2B/2c/2A/2)|dg (d/2f/2d/2c/2) A3/2G/2|G3||
+(B/2c/2) dd|b2a(b/2a/2) (g/2f/2)(b/2a/2)|g3/2f/2 (dc) d(d/2e/2)|(=fa) (g/2f/2d/2c/2) (d/2g/2)(^f/2a/2)|g2(9(G/4A/4B/4c/4d/4e/4f/4g/4a/4) (ba)|
+(ga)  (3(b/2a/2g/2)  (3(f/2d/2c/2) B(c/2A/2)|B3/2G/2 G(FG) (A/2B/2c/2A/2)|dg (g/2f/2)d/2c/2 A3/2G/2|G3|]
+S:https://www.folktunefinder.com/tunes/139821
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/25-BlackSlender2nd.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/25-BlackSlender2nd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

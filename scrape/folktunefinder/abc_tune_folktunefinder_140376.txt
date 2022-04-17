@@ -1,0 +1,26 @@
+X:265
+T: Rising Sun (D)
+T: \'Eir\'i na Gr\'eine
+S: B.Breathnach: "Ceol Rince na hEireann" II/214iii
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+fe|d2 FB A2 FA|(3Bcd ef gfef|dedB AGFD|EFGE D2 fe|
+dADB ADFA|(3Bcd ef gfef|dedB AGFD|EGFE D2 :|
+(3ABc|: defg afed|(3cBA eA fAeA|defg abaf|1 gfef dcBA :|2\
+geaf d2 ||
+S:https://www.folktunefinder.com/tunes/140376
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

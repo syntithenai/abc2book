@@ -1,0 +1,21 @@
+X:1
+T:Kyrie, Mass IX
+P:A3B3A2C
+M:none
+N: 9th century Gregorian chant
+N: if using BarFly, you can remove the % from the line below
+N: to display it in Gregorian notation
+K:AAeo %Doh2
+P:A
+ef ed e3/A3/ (Rcd)(ef)(edc)(BA) GA A3/ x2|
+S:https://www.folktunefinder.com/tunes/141497
+S:http://www.talkaboutthemusic.com/group/uk.music.folk/messages/104600.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

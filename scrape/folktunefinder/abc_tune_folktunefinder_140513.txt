@@ -1,0 +1,25 @@
+X: 12
+T:I'll Go and Enlist, Sherborne
+M:2/2
+L:1/8
+A:Sherborne
+P:AA4(B2A2)2
+K:GDor
+P:A
+G2GA B2c2|d2g2 d2de|f2f2 f2AB|c2cA F2F2|
+G2GA B2c2|d2g2 d2de|f2A2 c2BA|G4   G4 ||
+P:B
+G4   G3A |B4   c4  |d4   g4  |d4   d3e |\
+f4   f4  |f4   A3B |c4   c3A |F4   F4  |
+G2GA B2c2|d2g2 d2de|f2A2 c2BA|G4   G4 ||
+S:https://www.folktunefinder.com/tunes/140513
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

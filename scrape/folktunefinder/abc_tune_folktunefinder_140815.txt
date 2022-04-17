@@ -1,0 +1,25 @@
+X: 1
+T:Constant Billy, Wheatley
+M:6/8
+L:1/8
+S:CJS (MSS)
+A:Wheatley
+P:A(AB)4A
+K:A
+P:A
+|:E|A2e cAc|d2B BGE|c2A FGA|EFG A2:|
+P:B
+z|cde f2d|Bcd ecA|cde f2d|Bcd e2G|
+A2e cAc|d2B BGE|c2A FGA|EFG A2||
+S:https://www.folktunefinder.com/tunes/140815
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Wheatley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/sites/default/files/music/Wheatley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

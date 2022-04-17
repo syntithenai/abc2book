@@ -1,0 +1,27 @@
+X: 1
+T: Boil The Coffee Early
+M: 2/4
+L: 1/8
+R: polka
+K: Dmaj
+P:ABACA
+P:A
+A/ | FE/D/ FE/D/ | F>A A>A | FE/D/ FE/D/ | F>E E>A |
+FE/D/ FE/D/ | F>A A>A | (3ABc dB/G/ | F>E D> ||
+P:B
+A/ | d>c d>A | F>G A>F | G>A B>c | d>A G>A |
+d>c d>A | F>G A>F | G>A B>c | (3dAF D> ||
+P:C
+F/ | DE/F/ DE/F/ |  E>A G>A | GA/B/ AB/c/ | d>A F>A |
+d>c d>A | F>E D>E | (3AFE D>E | F>E D> ||
+S:https://www.folktunefinder.com/tunes/141046
+S:http://www.thesession.org/tunes/display/316
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X: 1
+T: Bonnie George Campbell
+R: waltz
+O:
+B:
+D:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:
+M: 3/4
+L: 1/4
+K: D
+A/G/ \
+| "D"F>GF | "A"EFA | "G"B>cB | "D"A3 | "G"d>cB | "D"AFD | "Bm"D>FD | "A7"E3 |
+| "D"F>GF | "A"EFA | "G"B>cB | "D"A3 | "G"d>cB | "D"AFD | "A7"E>FE | "D"D3 ||
+|: "Bm"{FA}d>cB | BFF | "(G)"B>cB | "A"A3 | "Bm"BAF | d2F | "(D)"F>ED | "A7"EAG |
+| "D"F>GF | "A"EFA | "G"B>cB | "D"A3 | "G"d>cB | "D"AFD | "A7"E>FE | "D"D3 :|
+%%sep 5 5 234
+K:C
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+S:https://www.folktunefinder.com/tunes/141417
+S:http://trillian.mit.edu/~jc/music/book/500/BonnieGeorgeCampbell_x.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

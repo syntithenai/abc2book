@@ -1,0 +1,29 @@
+X:1
+T:La Bobine
+C:Patrick Bouffard\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:G
+B2A2G2 | BAG4 | BAGABc | d2AdAF |
+A2G2F2 | AGF4 |1 dedcAc | B4G2 :|\
+              [2 dedcBA | G6 ||
+|:\
+B3AG2 | FGABcd | e2d2A2 | c2B2G2 |
+ABA2G2 | F3DFA | d2^c2d2 |1 B4G2 :|\
+                         [2 G6 |]
+S:https://www.folktunefinder.com/tunes/140876
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/la_bobine.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

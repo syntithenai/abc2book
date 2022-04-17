@@ -1,0 +1,24 @@
+X:9
+T:Valse  Bouffard
+R:Waltz
+O:France
+M:3/4
+C:Patrick Bouffard
+F:http://gradcenter.marlboro.edu/~mahoney/abc/abc/French.abc 2007-03-29 06:08:12 UT
+K:D
+F4E2|D2F2D2|A2A^GAB|A6|\
+B4c2|d2c2B2|1 A2ABAB|G2F2E2:|2 d2e2c2|d6||
+F2A2d2|F2A2d2|G2B2d2|G2B2d2|A2c2e2|A2c2e2\
+|1 d2dcde|f2d2A2:|2 d2dcfe|d6||
+S:https://www.folktunefinder.com/tunes/142042
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/French.abc
+S:http://michel.bellon.free.fr/Musique/abc/bouffard.abc
+% Rhythm Waltz
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

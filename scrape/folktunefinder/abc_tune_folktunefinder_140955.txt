@@ -1,0 +1,27 @@
+X:1
+T:Boehmische Weise
+S:Notenmaterial von Michael Kellner
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:2/4
+L:1/8
+K:G
+Bc |\\.i
+d2 Ac | BB d/c/B | AG AB | A2 Bc |
+d2 Ac | BB d/c/B | AG AB | A2 ||
+|:d/c/B/A/ |\
+GFGA\.i| GD GA | BA Bc | B2 A2 |
+GG GD | GF GA | B2 A2 | G2 |]
+S:https://www.folktunefinder.com/tunes/140955
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/boehmische_weise.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,49 @@
+X:1
+T:Blauwe Vlucht
+C:Jan Alexander Stryckers
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:=Blue Flight / Blua Fugxo
+M:4/4
+L:1/4
+Q:1/4=90
+R:air
+K:C
+V:1 name=G-bagpipe
+|: e/f/e/c/ e/de/ | d<ce2 | gf/g/ d/e/g/f/ | g/f/_e/g/f2 |
+ e/f/e/c/ e/de/ | d<ce2 | gf/g/ d/e/g/f/ | e4 :|
+M:3/4
+|: d/e/fd | cec | dfe | e3 | d/e/fd | cec | dfg/a/ | g3 |
+ [1ge2 | fd2 | e2c | ded | c2e | B2d | A2c | Bcd :|
+ [2ge2 | fd2 | e2c | d2e | dcd |[M:4/4] e2d2 | ^f2e2 | g4 |
+|: gc'bg | _bag2 | gc_eg | ^f4 | gc'bg |
+ _baf2 | [1_ecGA-| Acc2 :| [2_ecGA-| A2c2 | c4 |]
+V:2 name=G-bagpipe
+|: cBA2 | GA2c | _ec2e-| e_Bdc | cBA2 | GA2c | _ec2e | c4 :|
+M:3/4
+|: AdA | GcA | Ad2 | d2c | AdA | GcG | Adf | fe2 |
+[1ec2 | c3 | c2B | AB2 | GA2 | FG2 | FEF | G3 :|
+[2ec2 | c3 | c2B | AB2 | A3 |[M:4/4] c2_B2 | d2c2 | ded2 |
+|: dgg2 | _e2d2 | _eGce | d4 | dgg2 |
+ _e2d2 | [1c2F2-| F2A2 :| [2 _ecGA-| A2c2 | G4 |]
+V:3 name=C-bagpipe
+|: G2F2 | E-E/G2A/ | _BAGB-| _BGA2 | G2F2 | E-E/G2A/ | _BAGB | G4 :|
+M:3/4
+|: FAG | EAG | FA2 | B2A | FAG | EAG | FAd | c2B |
+ [1B2A | A2F | G3 | F3 | E2G | D2F | C2E | FEF :|
+[2B2A | A2_A-| _AG2 | F3 | E3 |[M:4/4] G2F2 | A2G2 | c4 |
+|: c_ed2 | c2G2 | c_EGc | A4 | c_ed2 |
+ c2A2 | [1G2C2-| C2F2 :| [2G2C2-| C4-| C4 |]
+S:https://www.folktunefinder.com/tunes/140053
+S:http://music.gordfisch.net/tradmusic/pub/cache/Blauwe_Vlucht_4f536b.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

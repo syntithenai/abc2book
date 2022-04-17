@@ -1,0 +1,32 @@
+X: 1
+T:Bonnets of Blue, Handkerchief Dance, Upton-On-Severn
+M:6/8
+L:1/8
+Q:1/4=120
+A:Upton-on-Severn
+P:A(ABC)5
+K:G % 1 sharps
+P:A
+zD|G2G BdB|G4 zD|G2G BdB|A4 zD|\
+G2G BdB|c3 e3|dcB AGF|G4||
+zz|G2zB2z|G2zD2D|G2zB2z|A2zD2D|G2zB2z|C2zE2z|DzDDEF|G4|||
+P:B
+FG|A2A ABA|D4   zG|F2A ABc|d4 zc|\
+B2A G2F|E2F G2A|BcB AGF|E3 D3||
+zG|AzAAzA|DzDDzG|AzA AzC|D4zC|\
+B3G3      |E3G2A   |B3A GF|E3D3||
+P:C
+G2G BdB|G4  zD |G2G BdB|A4 zG|\
+B3  G2B|c3  e3 |dcB AGF|G4   ||
+G2zB2z|G2zD2D|G2zB2z|A2zD2D|\
+G2zB2z|C2zE2z|DzDDzD|G4||
+S:https://www.folktunefinder.com/tunes/141375
+S:http://www.themorrisring.org.uk/more/Tunes/abc/UptonOnSevern.abc
+S:http://www.themorrisring.org/more/Tunes/abc/UptonOnSevern.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/UptonOnSevern.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

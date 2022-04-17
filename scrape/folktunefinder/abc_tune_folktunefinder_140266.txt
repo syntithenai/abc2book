@@ -1,0 +1,31 @@
+X:4
+T:The Blooming Meadows
+R:jig
+D:Catherine McEvoy, Tulla Ceili Band
+B:O'Neill's Music of Ireland
+N:melodic code 5134 7572
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:6/8
+K:G
+F|D2 G G2 A|B2 d cAG|FGF D2 E|F2 G AFD|
+D2 G G2 A|BAG ABc|ded cAF|[1~G3 G2:|[2~G3 GBd||
+|:g2 g dBd|g2 a bag|~f3 dAd|f2 g afd|
+[1~g3 dBd|g2 a bag|fed cAF|~G3 GBd:|
+[2g2 e f2 d|fed cde|fed cAF|~G3 G2:|
+|:A|B2 d c2 A|B2 d cAG|FGF D2 E|F2 G AFD|
+B2 d c2 A|BAG ABc|ded cAF|~G3 G2:|
+S:https://www.folktunefinder.com/tunes/140266
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

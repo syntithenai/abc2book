@@ -1,0 +1,34 @@
+X:130
+T:May Day (Miss McLeod's Reel)
+% Nottingham Music Database
+S:F1/24, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|:"G"Gg "C"e/2d/2e/2g/2|"G"BB/2A/2 "D7"B/2c/2B/2A/2|\
+"G"Gg "C"e/2d/2e/2g/2|"Am"AA/2G/2 "D7"A/2c/2B/2A/2|
+"G"Gg "C"e/2d/2e/2g/2|"G"B/2c/2B/2A/2 Bd|"C"e/2f/2e/2d/2 B/2d/2e/2f/2|\
+"Em"g/2e/2d/2B/2 "D7"A/2c/2B/2A/2:|
+P:B
+"G"G/2A/2B/2c/2 d/2B/2G/2A/2|"G"BB/2A/2 "D7"B/2c/2B/2A/2|\
+"G"G/2A/2B/2c/2 d/2B/2G/2B/2|"Am"AA/2G/2 "D7"A/2c/2B/2A/2|
+"G"G/2A/2B/2c/2 d/2B/2G/2A/2|"G"B/2c/2B/2A/2 Bd|"C"e/2f/2e/2d/2 B/2d/2e/2f/2|\
+"Em"g/2e/2d/2B/2 "D7"A/2c/2B/2A/2:|
+P:B alt
+"G"GB/2G/2 D/2G/2B/2G/2|"G"BB/2A/2 "D7"B/2c/2B/2A/2|"G"GB/2G/2 d/2G/2B/2G/2|\
+"Am"A/2B/2A/2G/2 "D7"A/2c/2B/2A/2|
+"G"GB/2G/2 D/2G/2B/2G/2|"G"B/2c/2B/2A/2 Bd|"C"e/2f/2e/2d/2 B/2d/2e/2f/2|\
+"Em"g/2e/2d/2B/2 "D7"A/2c/2B/2A/2:|
+S:https://www.folktunefinder.com/tunes/141874
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsM-Q.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsM-Q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

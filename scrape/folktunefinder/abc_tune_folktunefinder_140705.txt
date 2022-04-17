@@ -1,0 +1,26 @@
+X:23
+T: Scottish
+R:Scottish
+O: Berry
+M: 2/4
+L: 1/8
+Q: 1/4=120
+K: D
+V: 1
+D/A/G/F/ AG/F/|G/F/G/A/ BA|A/d/A/F/ GF/E/|[1 F/A/F/D/ E2:|[2 FE D2|:
+dA dd/c/|B/A/B/c/ dA|AA AG/F/|[1 E/F/G/A/ B/A/B/c/:|[2 E/F/G/E/ D2|]
+V: 2
+F/F/E/D/ FE/D/|E/D/E/F/ GF|F/F/E/D/ ED-|[1 D^C A,2 :|[2 D^C D2|:
+fd ff/e/|d/c/d/e/ fd|dd dc/B/|[1 A/A/B/c/ d/c/d/e/ :|[2 A/A/B/c/ d2|]
+%%footer $D   Galouvielle-MBe 2005 \nScottish France
+S:https://www.folktunefinder.com/tunes/140705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

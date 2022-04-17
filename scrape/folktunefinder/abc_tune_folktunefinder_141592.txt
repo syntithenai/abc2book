@@ -1,0 +1,27 @@
+X: 16
+T:Fingalians' Dance (#92), The
+M:4/4
+L:1/8
+S:The Hibernian Muse 1787
+K:G
+B2 G2 G2 Bc|d2 G2 d2 G2|B2 G2 G2 Bc|d4 {c}B4|
+c2 A2 A2 cd|e2 A2 e2 A2|c2 A2 A2 cd|e4 {d}c4||
+G2 g2 g2 fg|agfe dcBA|A2 a2 "tr"a2 ga|bagf dcBA|
+G2 g2 "tr"g2 fg|f2 ga D2 g2|f2 ga D2 g2|f4 {e}d4||
+%
+% An identical setting with variations was printed in
+% Burk Thumoth's Twelve English and Twelve
+% Irish Airs, London 1743.
+S:https://www.folktunefinder.com/tunes/141592
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-3.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/FingaliansDance92The.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0092.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/T/FingaliansDance92The.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/waifs/X/0092.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

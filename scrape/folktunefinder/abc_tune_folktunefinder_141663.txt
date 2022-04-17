@@ -1,0 +1,40 @@
+X:18
+T:Ronde de St Veran
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+%%MIDI program 21 %Accordian
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:400
+K:G
+V:1
+z4zD|:G2 AB2c | d2G,[e2D,2]D,|[c2D,2][cD,][e2D,2][eD,]|1[d2G,2]G,G,2[DG,]:|2[d2G,2]G,G,2[BG,]| \
+[d2G,2][dG,][dG,]c[BG,]|[c2D,2]D,[A2D,2][AD,]|[c2D,2][cD,][cD,]B[AD,]|[B2G,2]G,[G2G,2][DG,]| \
+[G2G,2][AD,][B2G,2][cD,]|[d2G,2]G,[e2D,2]D,|[d2G,2][cD,][B2G,2][AG,]|[G2G,2]G,G,2G,| \
+V:2
+K:C
+G:Flute
+%%MIDI program 74 %Flute
+z4zD|:G2DG2A|B3c3|A2Ad2c|1B2zz2D:|2B2zz2G|B2BBAG|A2z^F2E|D2DDE^F|G2ED2D|G2DG2A|B3c3|A2Ad2c|B2zz3| \
+V:3
+z4zD|:G,2D,D,2D,|[d2G,2]G,[e2D,2]D,|[c2D,2][cD,][e2D,2][eD,]|1[d2G,2]G,G,2[DG,]:|2[d2G,2]G,G,2[BG,]| \
+[d2G,2][dG,][dG,]c[BG,]|[c2D,2]D,[A2D,2][AD,]|[c2D,2][cD,][cD,]B[AD,]|[B2G,2]G,[G2G,2][DG,]| \
+[G2G,2][AD,][B2G,2][cD,]|[d2G,2]G,[e2D,2]D,|[d2G,2][cD,][B2G,2][AG,]|[G2G,2]G,G,2G,| \
+%%footer $D   Galouvielle-MBe 2007 \nTrimazo (France)
+S:https://www.folktunefinder.com/tunes/141663
+S:http://michel.bellon.free.fr/Musique/abc/_BalMB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Bal%2520MB.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

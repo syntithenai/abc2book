@@ -1,0 +1,54 @@
+X:11
+T:Chorus Jig
+C:Trad, Eng.  
+M:4/4
+L:1/8
+Q:1/2=112
+K:D 
+P:A
+ AG |: F2 DF ABAG | FADF  A2 d2 | D3 F ABAF |1 GFEF  G2 AG :|2 GFEF G2 B=c |
+K: G 
+P:B
+dBcA BGFG | Ad^cd A2 Bc | dBcA  BGFG | AcBA G2 Bc |
+dBcA BGFG | ABcd efge | dBcA BGFG | AcBA G2 ag |
+K: D 
+P:C
+|: fddd fddd | fefg a2 ag | fddd fddd |1 =cdef g2 ag :|2 =cdef g2 B=c |
+K: G 
+P:D
+dBcA BGFG | Ad^cd A2 Bc | dBcA  BGFG | AcBA G2 Bc |
+dBcA BGFG | ABcd efge | dBcA BGFG | AcBA G4 ||
+%%%%  Adapted from memory.  Four-part tune.
+%%%%  The pickup notes going into the A part are crucial.
+%%%%  -- eric  10/02/00
+%%%%  NOTES on construction:
+%%%%  line spacing corresponds to staff lines
+%%%%  spacing between note letters corresponds to bars
+%%%%  accidentals:  ^, =, _
+%%%%  - is a tie or slur
+%%%%  X == 
+%%%%  T == title
+%%%%  C == copyright or author
+%%%%  M == meter
+%%%%  L == length of shortest note (count of one)
+%%%%  Q == tempo
+%%%%  -- yaps wants M,L,Q in that precise order
+%%%%  K == key
+%%%%  Getting the key signature switch right is a pain.
+%%%%  The new key signature must be on a  line by itself,
+%%%%  the next measure must start with a bar, 
+%%%%  and the preceding line cannot close with a double bar.
+%%%%  Or, embed the key signature with backslashes.
+S:https://www.folktunefinder.com/tunes/141224
+S:http://ericdancepiano.com/abc/DanceList.abc
+S:http://www.ericdancepiano.com/abc/DanceList.abc
+S:http://www.latinsquares.com/abc/DanceList.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

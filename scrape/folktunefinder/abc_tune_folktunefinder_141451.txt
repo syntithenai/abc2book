@@ -1,0 +1,29 @@
+X: 8
+T:Spanish Dance. ASH.08
+M:2/4
+L:1/16
+Q:100
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Reel
+O:England
+A:Derbyshire
+N:Bar 3, 3rd Strain,first two "F" s should be broken rythm,but nasty abc
+N:wouldn't allow.Cont.
+N:also, tune reads correctly but won't play back properly.
+Z:vmp.Mick Peat, 2003
+K:D
+DAFA DBGB | D2ef gff[Ae] | DAFA Defg | fedc {c} d4 :|!
+|:ecAg fdAa | ecAg [d2f2]eA | afdA BcdG | F2E2 D4:|!
+|:ABcd dcBA | efgf f2e2 |"*" f2f2 e^GAB | cBA^G {G}A4:|!
+|:e3c  A2d2 | BAGF {F}E4 | Begf ecdg | fedc {c}d4:|]
+S:https://www.folktunefinder.com/tunes/141451
+S:http://www.village-music-project.org.uk/abc/ashover.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

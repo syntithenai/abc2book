@@ -1,0 +1,19 @@
+X: 24
+T: IT'S BEEN A LONG, LONG TIME
+C: J.Styne
+M: C
+L: 1/8
+K: F
+A | "F"F>A c>F E>A c>E | D>E (3DED- D>C D>C | D4 "Cdim"^D4  | "C7"E8 |
+"Gm"G>B d>G ^F>B d>F | =F>G (3FGE- "C7"E>C D>C | "Gm7"G4 "C"^G4 | "F"A4 z>AB>=B |
+"F"c>d c>d "Cm"_e>d e>d | c2 c4 z>D | "Gm"B>c B>c "Bbm"_d>c d>c | B2 B4 "C7"z>A |
+"F"F>A c>F E>A c>E | D>E (3DED- D>c B>A | "Gm"d4 "C7"E4 | "F"F6 z |]
+S:https://www.folktunefinder.com/tunes/140620
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:33
+T:Getingen
+R:polska J
+H:efter Hans Dalfors
+A:Ore, Dalarna
+D:Ola B\"ackstr\"om
+Z:id:hn-jp-33
+M:3/4
+L:1/16
+K:A
+=f  |: e3d cdef g2a2 | b2=c'2 a4 =g3g | =f2ed cdef =g2ag |
+=f2ed f2e2 e3f | e3d cdef g2a2 | b2=c'2 a4 =g3g |
+=f2ed cdef =g2ag |[1 =f2ed f2e2 e3f :|[2 =f2ed f2e2 e3d |
+|: c3c d2d2 c2e2 | e3d BdBG B2A2 | c3c d2d2 c2e2 |
+dcdf e6 d2 | c3c d2d2 c2e2 | e3d BdBG B2A2 |
+c3c d2d2 c2e2 | dcdf e4 a3a | g2eg f2ed c2BA |
+[1 GABc B2A2 A3d :|[2 GABc B2A2 A2 z2 |]
+S:https://www.folktunefinder.com/tunes/140099
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

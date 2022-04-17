@@ -1,0 +1,31 @@
+X: 1
+T: Blue Bonnets
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+   D \
+| "D"D>DD F2A | d2d d2A | "C"=c>dd "G"d2B | "D"A>FD "A7"E>FE \
+| "D"D>DD F2A | d2d d2A | "G"B>AG "D"FGA | "Em"B<dF "A7"E2 :|
+|: D \
+| "D"D>FA AFD | "G"BAG "D"FED | D>FA "Bm"Bcd | "Em"D>EF "A7"E2D \
+| "D"D>FA AFD | "G"BAG "D"FED | "G"d>cB "D"AFD |  "Em"D>EF "A7"E2 :|
+%%sep 5 5 234
+K:C
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+S:https://www.folktunefinder.com/tunes/140451
+S:http://trillian.mit.edu/~jc/music/book/500/BlueBonnetsJ2_x.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

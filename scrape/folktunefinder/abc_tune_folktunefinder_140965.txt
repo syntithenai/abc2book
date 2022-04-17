@@ -1,0 +1,36 @@
+X:5
+T:Polka-Sjarleston
+O:Nederokkerzeel
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek I
+M:2/4
+L:1/8
+P:ABB ABB ABB A
+K:G
+P:A
+G A | (3B/c/B/ A/G/ B/G/ d/G/ | (3B/c/B/ A/G/ B/G/ d/G/ |
+(3B/c/B/ A/G/ B/c/ d/e/ | (3d/e/d/ c/B/ AF/G/ |
+(3A/B/A/ F/G/ A/F/ d/F/ | (3A/B/A/ F/G/ A/F/ d/F/ |
+(3A/B/A/ F/G/ A/B/ c/d/ | d/c/B/A/ GG/A/ |
+(3B/c/B/ A/G/ B/G/ d/G/ | (3B/c/B/ A/G/ B/G/ d/G/ |
+(3B/c/B/ A/G/ B/c/ d/e/ | f/e/c/A/ EA/B/ |
+(3c/d/c/ A/B/ c/A/ c/e/ | (3d/e/d/ ^c/d/ e/d/ B/G/ |
+F/A/ c/e/ d/c/ B/A/ | (3G/F/G/ B/d/ g z |
+K:D
+P:B
+|: AF dc/B/ | AF fe/d/ | cB (3c/d/c/ B l BA (3B/c/B/ A |
+AF dc/B/ | AF fe/d/ | cA Bc |1 dd d z :|2 d z =c2 ||
+S:https://www.folktunefinder.com/tunes/140965
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre1.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

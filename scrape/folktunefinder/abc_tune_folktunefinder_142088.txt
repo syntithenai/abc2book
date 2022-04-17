@@ -1,0 +1,23 @@
+X:27
+T:Trimazo
+R:Trimazo
+O:France
+A:Lorraine
+C:Trad
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+z2c2 e2f2|g2gf e2d2|c2c2 e2f2|g2gf e2d2|c4c2d2|c2B2 A2B2|c2G2 c2d2|c2B2 A2B2|
+c6g2|e4d4|c4e2c2|d2dd d2f2|e4e2c2|d2dd d2B2|c4e2c2|d2dd d2f2|e4d4|c6g2|e4d4|c8|]
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+S:https://www.folktunefinder.com/tunes/142088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/enfants/RepertoireEnfants.abc
+% Rhythm Trimazo
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

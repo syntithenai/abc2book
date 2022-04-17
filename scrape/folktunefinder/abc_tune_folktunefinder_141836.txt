@@ -1,0 +1,35 @@
+X:1
+T:Les Bottes
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+T:Chant
+Q:1/4=180
+"G"d2c2 d2e2 d2c2 B2A2 | G4 G4 G2F2 G2A2 |1 \
+B4 B4 B2A2 B2c2 | "D"A4 A4 A8 :|2\
+"G"B4 B4 "D"A2G2 A2B2 | "G"G4 G4 G8 |: \
+G2A2 B2c2 d4 B2d2 | g4 B4 B8 |1\
+c4 A4 "D"A6c2 | "G"B4 G4 G8 :|2 c4 A4 A4 B2A2 | G4 B4 G8 |]
+T:Contre-chant
+B2A2 B2c2 B2A2 G2F2 | G2A2 B2c2 d8 |1 d2c2 d2e2 d4 d4 | \
+"D"c2d2 c2B2 A2B2 c4 :|2 "G"d2c2 d2e2 "D"A4 A4 | \
+"G"d2c2 d2c2 B8 |: B8 B2A2 B2c2 | B2A2 G2A2 G4 |1\
+B4 d4 "D"c8 | "G"d2c2 B2A2 B8 :|2 B4 A4 G4 F4 | d2c2 B2A2 G8 |]
+T:Variante du chant
+d2c2 d2e2 d2c2 B2A2 | G4 G4 B8 |1 "D"A4 A4 c6c2 | "G"B4 d4 d8 :|2 \
+d4 d4 "D"e4 f4 | "G"g4 g4 g8 |: d2B2 d2B2 d4 B2d2 | g4 B4 d8 |1\
+d4 A4 "D"A6c2 | "G"B4 G4 G8 :|2 d4 d4 "D"e4 f4 | "G"g4 g4 g8 |]
+S:https://www.folktunefinder.com/tunes/141836
+S:http://termen.free.fr/danses/rennais/LesBottes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

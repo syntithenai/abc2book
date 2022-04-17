@@ -1,0 +1,33 @@
+X:1
+T:Boehmische Dudelsackweise
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Michael Kellner, Regensburg
+H:Gespielt von der Egerlaender Dudelsackmusik Heidelberg 1982.
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+G>B dd | d2 d/e/d/c/ | cB B/A/B/c/ | B2 B/d/c/B/ |
+B>A AA | Ae d/e/d/c/ | cB B/A/B/c/ | B4 :|
+|:\
+GB B/A/B/c/ | BA/G/ A2 | Ac c/B/c/d/ | cB/A/ B2 |
+B>A B/A/B/c/ | dd d/e/d/c/ | Bd Ad | Bd B2 :|
+|:\
+ee/d/ c2 | dd/c/ B2 | c/d/c/B/ A/c/B/A/ | B/A/B/c/ dB/d/ |
+ee/d/ c2 | dd/c/ B2 | c/d/c/B/ A/c/B/A/ | GB G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140952
+S:http://simonwascher.info/TradArchiv_polka/boehmische_dudelsackweise.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

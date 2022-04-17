@@ -1,0 +1,24 @@
+X: 4
+T:Blue-Eyed Stranger, Sherborne
+M:4/4
+L:1/8
+A:Sherborne
+P:A(A2B2)5A
+K:G
+P:A
+d3=c  B2B2|ABAG  F2FG|A2D2 D2A2|F3E  D4||
+P:B
+d3B  =c2A2|d=cdB c2A2|d2dc B2e2|cdcB A4|
+d2d=c B2B2|ABAG  F2FG|A2D2 D2A2|F3E  D4||
+S:https://www.folktunefinder.com/tunes/140505
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

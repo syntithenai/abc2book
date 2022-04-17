@@ -1,0 +1,33 @@
+X: 1
+T: Bold Doherty
+S: Session tape, Doolin 1987
+D: Josephine Marsh &quot;Bold Doherty&quot;
+N: Josephine Marsh said:  &quot;I heard this well-known folk song played as a
+N: jig at the Willie Clancy festival and liked the eery feeling it created.&quot;
+Z: Bernie Stocks
+M: 6/8
+L: 1/8
+R: jig
+F: http://www.trad-music.com/retreat-jigs2.abc
+K: Emin
+EFG ABc|B2E FGA|cBA BdB|AGE E2B| 
+EFG A2A|BEF GAB|cBA BdB|AGE E3:| 
+Bee edB|dBA GAe|Bee edB|dBA A3|
+Bee edB|dBA GAe|cBA BdB|AGE E3|
+Bee edB|dBA GAe|Bee edB|dBA A3|
+G2g dee|dBA GAc|cBA BdB|AGE E3||
+S:https://www.folktunefinder.com/tunes/141080
+S:http://www.trad-music.com/retreat-jigs2.abc
+S:http://www.thesession.org/tunes/display/8344
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

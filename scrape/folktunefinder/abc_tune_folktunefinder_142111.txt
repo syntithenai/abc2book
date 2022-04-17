@@ -1,0 +1,23 @@
+X:1
+T:la bourbonnaise
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+A3/2B/2 cd | A3/2B/2 cd | A3/2G/2 FE | F2 D2 |\
+A3/2B/2 cd | A3/2B/2 cd | A3/2G/2 FE | D4 :|
+|:\
+A3F | D4 | B3G | E4 | A3F | D3B |\
+A3/2G/2 FE |1 F2 D2 :|\
+           [2 D4 |]
+S:https://www.folktunefinder.com/tunes/142111
+S:http://simonwascher.info/TradArchiv_bourree_2/la_bourbonnaise.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

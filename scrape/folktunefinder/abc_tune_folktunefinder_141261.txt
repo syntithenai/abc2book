@@ -1,0 +1,27 @@
+X:1
+T:Bonaparte's Retreat
+M:2/4
+L:1/8
+K:D
+P:Play ABC-ABD-A - and repeat
+|"D""^PART A"F4 z3/2 E/2 DF|A2 F2 E2 D2|"A"E4 E3/2D/2 EF|"A7"G2 F/2G/2F E2 D2
+|"D"F4 F3/2E/2 DF|A2 F2 E2 D2|"A"E2 FG F2 E2|"D"D6 z2||
+%%vskip 0
+|"D""^PART B"F4 z3/2 E/2 DF|A2 F2 E2 D2|"A"E4 EDEF|G2 F/2G/2F E2 D2
+|"D"F4 z EDF|A2 F2 E2 D2|"A"E2 F3/2G/2 F E|"D"D4 z A3/2B/2||
+%%vskip 0
+|"D""^PART C"d4 d3/2e/2 f3/2e/2|d2 d2 A2 A3/2B/2|d2 B2 A2 F2|D6 A3/2B/2
+|"D"d4 d3/2e/2 fe|d2 d2 A2 AB|d2 B2 A3/2B/2 AF|D6 D2||
+%%vskip 0
+|"Am""^PART D"=c4 "G"B4|"Am""^Hootchy Kootchy"A4 A2 B2|"Am"=c2 d2 "G"B2 c2|"Am"A4 A2 B2
+|"Am"=c4 "G"B4|"Am"A4 A2 B2|"Am"=c2 d2 "G"B2 c2|"Am"A8||
+S:https://www.folktunefinder.com/tunes/141261
+S:http://gulfweb.net:34043/~rlwalker/abc/Bonapartes%20Retreat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

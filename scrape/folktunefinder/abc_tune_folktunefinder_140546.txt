@@ -1,0 +1,27 @@
+X: 1
+T: Blue Kujawiak
+M: 3/4
+L: 1/8
+K: Am
+%%indent 300
+| "E7"{^d}e4 e2 | {^d}e4 e2 |{^d}ee eeee | eeeeee ||
+"A"\
+|: "E7"(3E^F^G B2 {c}~B>G | "Am"A>^G A>B c>e |1,3 "Dm"(3d^de f2 ~f=d | "Am"e^d ec BA \
+                                            :|2,4 "E7"dc B2 ~BG | "Am"Ac B^G A2 :|
+"B"\
+|: "Dm"f4 {e_e}d2 | "Am"e4 {_ed_d}c2 | "E7"Bc Bc B^G |1,3 "Am"A^G AB ce :|2,4 "Am"A2 a2 "fine"z2 :|
+K:A
+"C"\
+|: "D"(3^f=g^g a>g a>f | "A"e>a e2 e>{ae}c |1,3 "E7"de ~d2 BG | "A"Ac e^d e=f \
+                                          :|2,4 "E7"e_e dc BG | "A"A2 A2 z2 :|
+S:https://www.folktunefinder.com/tunes/140546
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kujawiak_Blue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

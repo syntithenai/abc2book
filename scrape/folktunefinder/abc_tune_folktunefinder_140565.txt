@@ -1,0 +1,30 @@
+X: 2
+T: BLUE MOON
+C: R.Rodgers
+M: C|
+L: 1/8
+K: D
+%
+[| "A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A4- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F4- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"D4- "Bm"D4- | "Em"D4 ||
+%
+"A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A A3- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F F3- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"DD3- "(G)"D4- | "D"D4 ||
+%
+zDDD | "Em7"EEEE "A7"F2F2 | "D"DD3 zDDD | "Em7"EEEE "A7"F2F2 | "D"D4 zD"D7"DD |
+%
+  "Gm"DDDD "C7"E2E2 | "F"=CC3 zCCC | "A"^CCCC "E7"E2E2 | "Em7"A4  ||
+%
+"A7"z2A2 | "D"A4- "Bm"A4- | "Em"AGAB "A7"AAGA- | "D"A4- "Bm"A4- | "Em"AEFG "A7"FFEF- |
+%
+  "D"F4- "Bm"F4- | "Em"FDEF "A7"DDDD- | "D"D4- "(G)"D4- | "D"D4 |]
+S:https://www.folktunefinder.com/tunes/140565
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_B.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

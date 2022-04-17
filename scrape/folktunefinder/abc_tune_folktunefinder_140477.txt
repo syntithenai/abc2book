@@ -1,0 +1,27 @@
+X: 1
+T: THE BLUE-EYED STRANGER
+O: Headington
+S: Carey(MSS)
+P: A.(A2B2)4
+Q: 1/4=104
+Z: John Chambers 2004-6-20
+B: Morris Ring
+M: 4/4
+L: 1/8
+K: G
+P: A
+|: G>F | E2E>F  E2D2 | G>FG>B A2G>A | B2B2 B>AG>F | E2E>F G2 :|
+P: B
+|: z2  | G>AB>c d2B2 | e>dc>B A2A2  | G>AB>c d2d2 | B4    d4  |
+         G>AB>c d2B2 | e>dc>B A2G>A | B2B2 B>AG>F | E2E>F G2 :|
+S:https://www.folktunefinder.com/tunes/140477
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Blue-Eyed_Stranger_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

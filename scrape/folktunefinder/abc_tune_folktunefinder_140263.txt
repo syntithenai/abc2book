@@ -1,0 +1,28 @@
+X:1
+T:Grogan's Jig
+R:jig
+D:Catherine McEvoy
+H:Catherine learned the tune from Pasty Hanley. Source was Dermot Grogan
+N:melodic code 1734 1753
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:6/8
+K:Eaeo
+z|e3 dBA|~G3 AGE|ege dBA|BAB GED|
+e2 e dBA|GFG AGE|(e/f/g)e dBA|Bee e2:|
+|:B|e2 b ebb|ebb baf|dfa dfa|dfa agf|
+gfg aga|bag fga|bge dBA|Bee e2:|
+S:https://www.folktunefinder.com/tunes/140263
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

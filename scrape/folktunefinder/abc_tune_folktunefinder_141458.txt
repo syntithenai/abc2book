@@ -1,0 +1,32 @@
+X: 15
+T:Gavot,A. ASH.15
+M:4/4
+L:1/8
+Q:200
+S:Harrison & Wall MS,Ashover,Derbyshire,1762-75
+R:Gavotte
+O:England
+A:Derbyshire
+Z:vmp.Chris Partington, 2003
+W:
+K:D
+d2c2d2A2 | B2c2d4 | g2f2b2a2 |\
+ gfed c4 | (df) (eg) (fe) (ge) |!
+ f2g2a4 | fd ec dB ac | dBA^G A4 |\
+d2d2ecBA | ceag f4 |!
+ babf gefg | fedc B4 |d2c2d2A2 |\
+ Bagf f4 |  b2B2c2d2 |!
+ egfe ~c4 | FAde GBeg | Acfa Bdgb |\
+ gfga bceg | fedc d4 |]
+S:https://www.folktunefinder.com/tunes/141458
+S:http://www.village-music-project.org.uk/abc/ashover.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

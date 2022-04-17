@@ -1,0 +1,23 @@
+X:225
+T: Redican's
+T: Reddigan's
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+B2 AF B2 AF|EDEF EDB,D|B2 AF B2 AF|DFAF FE E2|
+B2 AF BFAF|EDEF EDB,A,|B,E E2 DEFA|BFAF FE E2 :|
+eB B2 egfe|fd d2 Adfd|eB B2 egfe|dBAF FE E2|
+eB B2 egfe|fd d2 Adfd|BABd egfe|dBAF FE E2 :|
+S:https://www.folktunefinder.com/tunes/140368
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

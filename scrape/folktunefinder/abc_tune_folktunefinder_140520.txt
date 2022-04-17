@@ -1,0 +1,25 @@
+X: 13
+T:Sherborne Jig, Sherborne
+M:6/8
+L:1/8
+A:Sherborne
+P:AA2(B2A2)4
+K:G
+P:A
+|:G|G2d BAG|G2d ABc|d2G cAF|G3  G2:|
+P:B
+M:3/4 
+L:1/8
+z|g2f2 e2|d3c  B2|e2d2 c2|B3A G2|\
+g2f2 e2|d3c  B2|cdecAF |G3- G2||
+S:https://www.folktunefinder.com/tunes/140520
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T:Blackwell Court
+C:Phil Cunningham
+M:2/4
+L:1/8
+K:D
+|:D>E B,A,| B,/>A,/B,/<D/ F E/>D/|E>F EF/<A/|B/>A/B/<d/ FE/>F/|
+D>E C B,/<A,/| B,/>A,/B,/<D/ F E/>D/| Ee d/>B/A/<F/|1 E2 E2 :|
+[2 E2 EF<A||B2 B>A|B/>A/B/<d/ FE/>D/|E>F EF/<A/|
+B/>A/B/<d/ AF/>A/|1 B2 B>A| B/>A/B/<d/ FE/>D/|
+Ee d/>B/A/<F/| E2 EF/<A/ :|2 B2 B>A|
+A/>B/c/<d/ FE/>D/|Ee d/>B/A/<F/| E2 E2||
+S:https://www.folktunefinder.com/tunes/139994
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Blackwell_Court.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Blackwell_Court.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

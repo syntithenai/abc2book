@@ -1,0 +1,26 @@
+X: 1
+T: Bojarka
+C: Serbia
+S: Aman Folkraft
+M: 3/4
+L: 1/8
+Q: 1/4=192
+F: http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc 2007-10-29 16:20:30 UT
+K: Bm
+|: "C#dim"e2f2g2 | "D"f2edef | "A"d2c2A2 | "Em"B2edeg | "D"f2edef | "D"d2c2A2 | "Bm"B4e2 | "Bm"B6 :| 
+|: "A"    A2B2c2 | "D"d2gfef | "A"d2c2A2 | "Bm"B2edeg | "D"f2edef | "A"d2c2A2 | "Bm"B4e2 | "Bm"B6 :|
+S:https://www.folktunefinder.com/tunes/141065
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/balk1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Bojarka_Bm.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

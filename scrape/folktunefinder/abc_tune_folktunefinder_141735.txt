@@ -1,0 +1,26 @@
+X: 1
+T:Tant pire
+M:3/8
+L:1/16
+S:Joseph Perrier
+R:Bourre
+D:Violoneux et chanteurs traditionelles en Auvergne
+Z:Stoney
+K:D
+"(xrefers to notes plucked with the left hand)"(efgagf)|(efgfed)|(cdef
+ed)|((3cdc A2  d2)  |(efgagf)|(efgfed)|(fdegec)|1d6      |(d3   e d2)  :
+|2d6     | [F2d2]  z2 "x"e2 || (dcBABc)|(d2   e2)   "x"e2 |(dcBABc)|d2
+z2   "x"e2 | (d2  A2)  "x"e2 |(d2  A2)  "x"e2 | (dcBABc)| d6   |"D.C."(d
+3  e d2)||
+S:https://www.folktunefinder.com/tunes/141735
+S:http://www.unet.univie.ac.at/~a8702257/abc/centfr.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

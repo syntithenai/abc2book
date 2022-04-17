@@ -1,0 +1,24 @@
+X: 12
+T:Mazourco
+R:---
+O:Val Varaita, Italie
+M:3/4
+L:1/8
+K:G
+BAGABc|B2G2 B>c|A2F2 A>B|[M:2/4]B2 G2|[M:3/4]BAGABc|B2G2 B>c|A2 A>c B>A|G2 G2
+B>c|:d2 d>c B>c|d2 d2 c>B|A2 A>c B>A|B2 G2 B>c|d2 d>c B>c|d2 d2 c>B|A2 A>c B>A|G2G2
+c>c|c2(3BcB A>B|A2G2 c>B|A2 (3GAG E>E|E2E2 B>c|d2c2 c>d|{/d}c2 (3BcB A>B|[M:2/4]A2G2|
+[M:3/4] BAGFED|ED C2C2|EDC GAc|B2G2 B>B|A2F2A>c|[M:2/4]B2G2|[M:3/4]BAGABc|
+B2G2B>c|A2A>cB>A| [1,2,3 G2G2 B>c :| [4 d2 g2g2
+S:https://www.folktunefinder.com/tunes/142144
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Val%2520Varaite.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

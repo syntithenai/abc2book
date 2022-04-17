@@ -1,0 +1,23 @@
+X: 1
+T: Blake's Hornpipe #2
+R: hornpipe
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+B: The Great Northern Tune Book v.2 #387
+M: C|
+L: 1/8
+K: Bb
+|: BFdB  fdfg | ecAc BAGF | GEDE CBcd   | ef ge/c/ {B}A4 |
+|  BFdB  fdbg | ecAc BAGF | GEDE CB,A,c | ecBA  B4 :|
+|: DB,FD BFdB | egec BAGF | GBeG Afcb   | agf=e f4 |
+|  gede  fABF | (3GAB (3edc BAGF | BFDE (3FGA  (3Bcd | ecBA B4 :|
+S:https://www.folktunefinder.com/tunes/140006
+S:http://trillian.mit.edu/~jc/music/abc/England/hornpipe/Blakes_Hornpipe_2_Bb.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

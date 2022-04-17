@@ -1,0 +1,23 @@
+X:25
+T:Ramalinho
+R:---
+C:Portugal
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+g2g2 g3e|g2e2 d4|g2g2 g3f|e2d2 c4|g2g2 g3e|
+g2e2 d4|g2g2 g3f|e2d2 c4|c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|
+c2B2 c4|c2d2 e2fe|d2c2 d2B2|B2c2 d2ed|c2B2 c4|]
+%%footer $D   Galouvielle-MBe 2006 \nRonde (France)
+S:https://www.folktunefinder.com/tunes/142086
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/enfants/RepertoireEnfants.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

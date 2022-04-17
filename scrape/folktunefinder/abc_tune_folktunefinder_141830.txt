@@ -1,0 +1,28 @@
+X: 1
+T: Both Meat And Drink
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+K: Dmaj
+|: A,DF A^GA | BAF GEC | DFA dcd | fed cec |
+dBd cAc | BGB dcB |c^Bc edc | dAF GEC :|
+|: dcd dcd |AFD DCD |=cBc cBc |edc Aec |
+dcd fed | cec dAF | GED CDE | EDC D3 :|
+K:Gmaj
+|: DGB d^cd | edB cAF | GBd gfg | bag faf |
+geg fdf | ece gfe | f^ef agf | gdB CBF :|
+|: gfg gfg | dBG GFG | =fef fef | agf daf |
+gfg bag | faf gdB | CAG FGB | BGF G3 :|
+S:https://www.folktunefinder.com/tunes/141830
+S:http://www.thesession.org/tunes/display/6553
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

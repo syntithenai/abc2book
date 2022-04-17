@@ -1,0 +1,27 @@
+X:50
+T: Nova Scotia
+S: Luke O'Malley vol 1
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+B/A/ | GG,B, DGB | d^ce dBG | cBc ABc | dgd B2 A |
+GG,B, DGB | d^ce dBG | cBc ABc |1 edF G2 B/A/ :|2\
+edF G2 d ||
+gfg Bdg | bag fed | cBc ABc | dgd B2 d |
+gfg Bdg | bag fed | cBc ABc |1 edF G2 d :|2\
+edG G2 z ||
+S:https://www.folktunefinder.com/tunes/141796
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/n.abc
+S:http://www2.redhawk.org:8080/irish/zouki/n.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

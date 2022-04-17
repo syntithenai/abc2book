@@ -1,0 +1,31 @@
+X: 15
+T:McQuillen's Squeezebox
+% Nottingham Music Database
+S:Chris's Dad, via EF
+M:4/4
+L:1/4
+K:C
+EF |"C"G3/2A/2 "G7"GF|"C"EG "F"cA|"C"G3/2A/2 "G7"GF|"C"E2 DE|"Dm"F3/2G/2 FE|\
+"G7"DG Bd|
+"C"c3/2d/2 "F"cA|"G7"GF EF|"C"G3/2A/2 "G7"GF|"C"EG "F"cA|"C"G3/2A/2 "G7"GF|\
+"C"E2 DE|
+"Dm"F3/2G/2 FE|"G7"DG Bd|"C"c3/2d/2 "G7"cB|"C"cB "G7"cd|"C"e3/2f/2 "G7"ed|\
+"C"cG "G7"cd|
+"C"e3/2f/2 "G7"ed|"C"c2 Bc|"Dm"d3/2e/2 fe|"G"dG Bc|"Dm"d3/2e/2 fe|"G7"d2 cd|\
+"C"e3/2f/2 "G7"ed|
+"C"cG "G7"cd|"C"e3/2f/2 "G7"ed|"C"c2 Bc|"Dm"d3/2e/2 fe|"G"dG Bc|"Dm"dc "G7"ed|\
+"C"c2 ||
+S:https://www.folktunefinder.com/tunes/141943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

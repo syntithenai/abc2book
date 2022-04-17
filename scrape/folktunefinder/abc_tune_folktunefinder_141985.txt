@@ -1,0 +1,28 @@
+X: 57
+T:The Ornithologist's Retreat
+% Nottingham Music Database
+S:By Hugh Barwell, via PR
+M:4/4
+L:1/4
+K:D
+"D"DF/2A/2 dc/2d/2|"G"Bd GB|"A7"Ac/2e/2 ag|"D"fa dz|
+"B7"^DF/2A/2 =cB/2A/2|"Em"Be GB|"A7"cA gf/2e/2|"D"df dz::
+"Bb"_B/2=c/2d ^cd|"F"=f=c Ac|"Gm"_B/2=c/2d "C7"G/2A/2B|"F"A=c =F2|\
+"Bb"_B/2=c/2d ^cd|"D"fd B_B|
+"A7"Ag fe|"D"d/2e/2f/2e/2 "D7"d/2=c/2B/2A/2|"G7"B/2c/2d cd|"D"Ad AF|\
+"Em"GA/2B/2 "A7"AG|
+"D"FA FD|"G"B/2c/2d cd|"D"af "Bm"dA|"Em"Bd "A7"e/2d/2e|"D"d2 d2:|
+S:https://www.folktunefinder.com/tunes/141985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

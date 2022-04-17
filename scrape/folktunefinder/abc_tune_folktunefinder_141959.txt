@@ -1,0 +1,29 @@
+X: 31
+T:Morpeth Rant
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+A|"D"dA/2G/2 F/2D/2F/2A/2|"G"B/2G/2B/2d/2 "A7"c/2A/2c/2e/2|\
+"D"ff/2d/2 "G"g/2f/2e/2d/2|"Em"ce "A7"eA|
+"D"dA/2G/2 F/2D/2F/2A/2|"G"B/2G/2B/2d/2 "A"c/2A/2c/2e/2|\
+"Bm"ff/2d/2 "A7"g/2f/2e/2d/2|"D"Ad d:|
+P:B
+f/2e/2|"D"d/2f/2a/2f/2 d/2f/2a/2f/2|"Em"g/2f/2e/2f/2 ge/2f/2|\
+"A7"g/2f/2e/2d/2 c/2d/2e/2g/2|"D"f/2e/2f/2g/2 "A"f3/2f/2|
+"D""Bm"d/2f/2a/2f/2 d/2f/2a/2f/2|"Em"g/2f/2e/2f/2 ge/2f/2|\
+"A7"g/2f/2e/2d/2 c/2e/2a/2g/2|"D"fd d:|
+S:https://www.folktunefinder.com/tunes/141959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

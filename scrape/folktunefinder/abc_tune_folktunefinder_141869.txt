@@ -1,0 +1,27 @@
+X:105
+T:The Minstrel Boy
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:G
+D|"G"G3"D7"A|"G"cB AG|"G"B2 "D/f"d2|"Em"g2 "D"fg|"C"e2 "G/b"d2|"G"Bc dB|\
+"D7"A4|
+"G"G2 D2|"G"G3"D7"A|"G"cB AG|"G"B2 "D/f"d2|"Em"g2 "D"fg|"C"e2 "G/b"d2|\
+"G"Bc dB|"D7"A4|
+"G"G2 d2|"Em"g2 "B7"f2|"Em"e2 "A7"fg|"D"f2 "A7"e2|"D"d3d|"Em"e3B|"Bm"B2 d2|\
+"Em"e2 "D7"f2|"G"g3g|
+"G"G3"D7"A|"G"cB AG|"G"B2 "D/f"d2|"Em"g2 "D"fg|"C"e2 "G/b"d2|"G"Bc dB|"D7"A4|\
+G3||
+S:https://www.folktunefinder.com/tunes/141869
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsM-Q.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsM-Q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:15
+T:Daniel O'Connell
+C:Trad.
+D:"Cooley", track 3
+R:jig
+M:6/8
+K:D
+Bc|:d2D FED|AdA AFD|GBG FAF|EFG ABc|
+dDD FED|AdA AFD|(3G-BBG FAF|EFE DFA|
+dDD FED|AdA AFD|(3G-BBG (3F-AAF|EFG ABc|
+dDD FED|AdA AFD|GBG FAF|EFE D2A|
+|ABc dcd|efe edB|AFA ede|fdd d2A|
+ABc (3dcdA|BdB AFD|GBG FAF|EFE D2A|
+ABc dcd|e^de edB|AFA ede|fdd d2A|
+ABc (3dcdA|BdB (3AFDF|G3 FAF|EFG ABc:|
+S:https://www.folktunefinder.com/tunes/139893
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cooley/cooley_cd.abc
+S:http://www2.redhawk.org:8080/irish/cooley/cooley_cd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

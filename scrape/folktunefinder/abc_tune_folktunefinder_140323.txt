@@ -1,0 +1,17 @@
+X:1
+T:Bluebeard
+M:4/4
+L:1/8
+K:D
+ F| DD DD FF FF| EE EE AA AA,| DD DD FF FF| EE EE A,3 A,| DD DD FF FF|\
+ EE EE AA AA,| DD DD FF FF| EE FE D4| G G2 G B2 d2-| dd dd B- A3| DD DE F2 A2|\
+ F F2 E D4|
+S:https://www.folktunefinder.com/tunes/140323
+S:http://back.numachi.com:8000/dtrad/abc/BLUBEARD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BLUBEARD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

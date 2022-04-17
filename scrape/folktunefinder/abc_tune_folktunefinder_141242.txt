@@ -1,0 +1,28 @@
+X:213
+T: Old Joe Clark
+C: Southern Trad.
+R: reel
+M: C|
+L: 1/8
+%% Q: 1/2=118
+K: Amix
+|: "A"e2f2 g2f2 | e2d2 c4 | e2f2 g2f2 | "E"e4 z4 | 
+"A"e2f2 g2f2 | e2d2 c4 | A2c2 "G"B2G2 | "A"A4 z4 :|
+|: "A"A3A A4 | e2d2 c4 | A3A A2A2 | "G"G4 z4 | 
+"A"A3A A4 | e2d2 c4 | A2c2 "G"B2G2 | "A"A4 z4 :| 
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/141242
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+S:http://ericdancepiano.com/MNAS/tunes/Reel5.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Reel5.abc
+S:http://www.latinsquares.com/MNAS/tunes/Reel5.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

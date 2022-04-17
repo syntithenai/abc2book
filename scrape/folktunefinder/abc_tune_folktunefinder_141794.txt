@@ -1,0 +1,24 @@
+X:40
+T: Night Cap
+S: "Treoir" 32/3
+Z: B.Black
+M: 6/8
+L: 1/8
+Q: 325
+R: jig
+K: D
+D |: FAA A2 D | FAA AFD | GBB B2 D | GBB dBA |
+FAA A2 D | FAA AFD | FAA d2 B | AFF E2 D :|
+FED ADD | BAF ADD | FED ADD | BAG FED |
+FED ADD | BAF ADD | FAA d2 B | AFF E2 D :|
+S:https://www.folktunefinder.com/tunes/141794
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/n.abc
+S:http://www2.redhawk.org:8080/irish/zouki/n.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

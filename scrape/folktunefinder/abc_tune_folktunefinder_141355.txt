@@ -1,0 +1,24 @@
+X:31
+T:Bonjour chre Pauline
+R:Polka pique valse
+A:Aquitaine
+O:France
+M:4/4
+L:1/8
+Q:1/4=160
+K:D
+F2 A>D DD DC|E2 F>C CC D2:|
+M:6/8
+Q:80
+FFA AGF|EFG F3|DEF E2E|EDE F2D|
+FFA AGF|EFG F3|DEF E2 F|AGE D3||
+S:https://www.folktunefinder.com/tunes/141355
+S:http://www.tradfrance.com/matf08.txt
+% Rhythm Polka pique valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

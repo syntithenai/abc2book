@@ -166,7 +166,7 @@ function finishLoadTunes() {
 function generateAndRenderSingle(songNumber, tune) {
   //console.log('generateAndRenderSingle', songNumber, tune)
   // update abc short
-  if (tune && tune.settings.length > tune.useSetting) {
+  if (tune && tune.settings && tune.settings.length > tune.useSetting) {
     
     var shortParts = $('#shortabc').val().trim().split("X:").slice(1)
     var shortabc = json2shortabc(songNumber, tune)

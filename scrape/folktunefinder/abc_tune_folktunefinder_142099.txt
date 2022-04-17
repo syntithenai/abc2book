@@ -1,0 +1,23 @@
+X:1
+T:Boulevard Garibaldi
+C:Thierry Mirebeau
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Gm
+B2 dB | G/2^F/2G/2A/2 D/2=E/2F/2D/2 | G^F/2G/2 AB | A/2G/2A/2B/2 AG |\
+B2 dB | G/2^F/2G/2A/2 D/2=E/2F/2D/2 | G^F/2G/2 AF | G4 :|
+|:\
+A2 AB | A3G | D/2=E/2^F/2G/2 A/2B/2c/2d/2 |\
+cB AG | A2 AB | A3G | D/2=E/2^F/2G/2 AF | G4 :|
+S:https://www.folktunefinder.com/tunes/142099
+S:http://simonwascher.info/TradArchiv_bourree_2/boulevard_garibaldi.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

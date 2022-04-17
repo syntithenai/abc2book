@@ -1,0 +1,30 @@
+X: 1
+T: BLUE MOON
+C: R.Rodgers
+M: C|
+L: 1/8
+K: Bb
+%
+[| "F7"z2f2 | "Bb"f4- "Gm"f4- | "Cm"fefg "F7"ffef- | "Bb"f4- "Gm"f4- | "Cm"fcde "F7"ddcd- |
+%
+  "Bb"d4- "Gm"d4- | "Cm"dBcd "F7"BBBB- | "Bb"B4- "Gm"B4- | "Cm"B4 ||
+%
+"F7"z2f2 | "Bb"f4- "Gm"f4- | "Cm"fefg "F7"ffef- | "Bb"f f3- "Gm"f4- | "Cm"fcde "F7"ddcd- |
+%
+  "Bb"d d3- "Gm"d4- | "Cm"dBcd "F7"BBBB- | "Bb"BB3- "(Eb)"B4- | "Bb"B4 ||
+%
+zBBB | "Cm7"cccc "F7"d2d2 | "Bb"BB3 zBBB | "Cm7"cccc "F7"d2d2 | "Bb"B4 zB"Bb7"BB |
+%
+  "Ebm"BBBB "Ab7"c2c2 | "Db"_AA3 zAAA | "F"=AAAA "C7"c2c2 | "Cm7"f4  ||
+%
+"F7"z2f2 | "Bb"f4- "Gm"f4- | "Cm"fefg "F7"ffef- | "Bb"f4- "Gm"f4- | "Cm"fcde "F7"ddcd- |
+%
+  "Bb"d4- "Gm"d4- | "Cm"dBcd "F7"BBBB- | "Bb"B4- "(Eb)"B4- | "Bb"B4 |]
+S:https://www.folktunefinder.com/tunes/140597
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

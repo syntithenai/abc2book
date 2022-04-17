@@ -1,0 +1,22 @@
+X:16
+T:Polska efter Kus Nisse
+R:polska J
+A:H\"alsingland
+Z:id:hn-jp-16
+M:3/4
+L:1/16
+K:D
+A3F DEFG AB=cA | B2G2 G2B2 Bd^cd | e3c ABcd efge | f3d d2f2 f2d2 | 
+cdef gfga b2g2 | fedc [d8D8] :||: [a2A2][A2F2] [A2F2][a2A2] agfa |
+[g2B2][B2G2] [B2G2][g2B2] [g4B4] | e3c ABcd efge | f3d d2f2 f2d2 | 
+cdef gfga b2g2 | fedc [d8D8] :|
+S:https://www.folktunefinder.com/tunes/140082
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

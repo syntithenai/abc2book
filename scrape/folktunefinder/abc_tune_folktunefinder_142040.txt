@@ -1,0 +1,31 @@
+X:7
+T:Valse  Bouffard
+C:Patrick Bouffard
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+F:http://simonwascher.info/TradArchiv_walzer/valse_a_bouffard.abc 2007-03-29 06:08:10 UT
+K:D
+F2E | D2F | A3 | A3 |\
+B2c | dcB | ABA | GFE |
+F2E | D2F | A3 | A3 |\
+B2c | dec | d3 | d3 :|
+|:\
+FAd | FAd | GBd | GBd |\
+Ace | Ace | d>c d/e/ | f2d |
+FAd | FAd | GBd | GBd |\
+Ace | Ace | dc/d/ e/c/ | d3 :|
+S:https://www.folktunefinder.com/tunes/142040
+S:http://simonwascher.info/TradArchiv_walzer/valse_a_bouffard.abc
+S:http://michel.bellon.free.fr/Musique/abc/bouffard.abc
+% Rhythm Walzer
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

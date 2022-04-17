@@ -1,0 +1,29 @@
+X:5
+T:Bob's Own
+C: Bob McQuillen
+R:jig
+M:6/8
+L:1/8
+%%%%%Q:3/8=112
+K:A
+P:A
+ A2B |: c2c cdc | A2E EAB | cde efe | e2c BAB |
+   |  c2c cdc | A2E ECE | FGA B2c |1 A3 A2B :|2 A3 c2d |
+P:B
+  |: e2a faf | e2c c2d | eaa faf | ecA Bcd |
+     | e2a faf | e2c cAB | cec B2A |1 A3 c2d :|2 A3 Z3 |
+%%text
+%%
+%%
+S:https://www.folktunefinder.com/tunes/140908
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

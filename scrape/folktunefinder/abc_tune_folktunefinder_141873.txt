@@ -1,0 +1,24 @@
+X:125
+T:Miss Lyall
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:D
+P:A
+A|"D"DF Ad|"D"f/2f/2f/2e/2 d2|"D"DF Ad|"A7"c/2c/2c/2B/2 A2|"A7"A,C EA|
+"A7"c/2c/2c/2B/2 A2|1"A7"A,C EA|"D"F/2F/2F/2E/2 D2:|2"A7"Ac/2B/2 A/2G/2F/2E/2|\
+"D"DD :|
+"D"A2 BA|"D"F2 GF|"D7"D2 ED|"G"B,3^A,|"A7"A,C EA|"A7"c/2c/2c/2B/2 A2|\
+"A7"A,C EA|"D"F/2F/2F/2E/2 D2:|
+"A7"Ac/2B/2 A/2G/2F/2E/2|"D"DD :|
+S:https://www.folktunefinder.com/tunes/141873
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsM-Q.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsM-Q.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

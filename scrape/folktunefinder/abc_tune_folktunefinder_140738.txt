@@ -1,0 +1,39 @@
+X:1
+T:Boarisch-Schottisch
+C:Sammlung Leopold Khals
+A:Bad Aussee, Salzkammergut
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+R:Schottisch
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+(Bc) |\
+d2b2 c2a2 | B2(gf g2)(dB) | c2(fe f2)(dc) | B2(gf g2)(Bc) |
+d2b2 c2a2 | B2(gf g2)(dB) | A2(fg a2)f2 | g2b2g2 :|
+|: (ga) |\
+""b2g2""g2d2 | ""b2g2""g2d2 | d2(fg a2)f2 | (gfga) b4 |
+""b2g2""g2d2 | ""b2g2""g2d2 | d2(fg a2)f2 | g2b2g2 :|
+K:C % transposed from D
+P:Trio
+(G^FGc) e2e2 | (G^FGc) e4 | a3f g3e | f2f2B4 |
+(G^FGB) d2d2 | (G^FGB) d4 | g3e f3B |1 c2(edc4 ) :|\
+                                    [2 c2e2c2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140738
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/boarisch-schott.d2b2c2a2B2.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

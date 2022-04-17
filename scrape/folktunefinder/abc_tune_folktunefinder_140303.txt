@@ -1,0 +1,18 @@
+X:1
+T:Blow the Wind Southerly
+M:6/8
+L:1/8
+K:G
+ B3/2 A/2 G DB,D| ECE DB,D| B3/2 A/2 G DB,D| EAF G3| B3/2 A/2 G DB,D|\
+ ECE DB,D| B3/2 A/2 GD-B, D| EAF G2 B| BBd AAd| GAG FED| BBd AAd| ^cBc d2 d/2d/2|\
+ eee ddd| ccc BAG| B3/2 A/2 G EcB| AGF G3|
+S:https://www.folktunefinder.com/tunes/140303
+S:http://back.numachi.com:8000/dtrad/abc/BLWSOUTH.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BLWSOUTH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

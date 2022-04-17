@@ -1,0 +1,31 @@
+X: 1
+T:An Bouchail Caol Dubh
+T:The Black Slender Boy
+B:Joyce, P. W.; "Old Irish Folk Music and Songs"
+R:song air
+L:1/8
+N:  Dr. Petrie gives three settings for this beautiful air in his Ancient
+N:Music of Ireland: all instrumental.  I give here, from memory, the Munster
+N:vocal rendering--very much simpler--as I heard it from the old singers
+N:hundreds of times.
+A:Munster
+O:Irish
+M:3/4
+K:D
+DE|\
+FG A2 GA/B/|FG/E/ F>E DD/E/|FG A>G EF|DD D2 DE|
+FG A2 d/>c/A/G/|FG/>E/ F>E DD/E/|F/E/F/G/ A>d c/A/G/E/|DD D2||FG|
+Ad/>e/ f2 ed|d/e/f/d/ e>d c/A/G/F/|\
+GA/B/ =c2 {A}d/c/A/G/|Ad3/4{f}e// d3 d/e/|
+fe d>c AG|FG/>E/ F>E DD/E/|F/E/F/G/ A>d c/A/G/E/|DD D2||
+S:https://www.folktunefinder.com/tunes/139824
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bouchail_Caol_Dubh_1.abc
+% Rhythm Song air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:7
+T:Gigue 2
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+%%measurenb 4
+K:Am
+V:1
+AB |: c2c cde | dBG GAB | cAA ABc | BEE EAB | c2c cde | dBG GAB | cBA BAG |1 A3- AAB :|2 A3- Aef |:
+g2g gfe | dBG G3 | a2a aba | gee eef | gce gfe | dBG GAB | cBA BAG |1 A3- Aef :|2 A3- A |]
+V:2
+x2 |: x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 |: 
+x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 | x6 |
+%%footer $D   Galouvielle-MBe 2007 \n-- (Vende)
+S:https://www.folktunefinder.com/tunes/142052
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

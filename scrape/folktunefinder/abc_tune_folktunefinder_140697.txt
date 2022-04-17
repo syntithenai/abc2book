@@ -1,0 +1,24 @@
+X:14
+T:Bourre du placard
+O:France
+A:Lot
+R:Bourre  3 temps
+C:Trad.
+N:Collecte par Xavier Vidal
+M:3/8
+L:1/8
+K:G
+D|:"G"G A/B/ (3c/B/A/|ddd|"C"c/B/ce|"D"dd/c/B/A/|"G"G A/B/ (3c/B/A/|ddd|[1 "C"c/B/ce|"D"d2D:|[2 "C"c/B/cB|"D"A2D|:
+"G"GAB/A/|G2d|"Am"c/B/AD|"G"GDD|GAB/A/|G2d|"Am"c/B/AD|[1 "G"G2 D:|[2 "G"GGD||G/A/B/c/d|d/d/e/f/g|g/g/gg|]
+%%footer $D   Galouvielle-MBe 2005 \nBranle populaire France
+S:https://www.folktunefinder.com/tunes/140697
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

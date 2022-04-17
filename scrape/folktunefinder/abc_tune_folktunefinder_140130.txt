@@ -1,0 +1,25 @@
+X:0655
+T:"Blind Mary"                    0655
+C:Turlough O'Carolan
+C:very slow
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#182 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=50
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+"^vb"A2|d4d3c|{c}B4A2(FG)|A3B A2F2|E6(FG)|(A2f2) (f3e)|(d2B2) A2(DE)|(F3G) {F}(E3D)|D6||
+(de)|f3g f2B2|e3c (A2Bc)|d3D D2(EF)|E6(AG)|(F3G) A2d2|f3e d2 (DE)|(F3G) {F}(E3D)|D6|]
+S:https://www.folktunefinder.com/tunes/140130
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/655-BlindMary.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

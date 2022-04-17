@@ -1,0 +1,28 @@
+X:1
+T: Booth (Trad. version from Bruce Molsky)
+R:reel
+Z:transcribed to ABC by Debby Knight
+M:C|
+L:1/8
+K:A
+%%text Shuffle in (A, C# and E are good notes to use)
+AF|"A"ECEF E3E|"D"FA2B A3A|"A"ABcB AcBA|"F#m"F3 F3 AF|
+"A"ECEF E3E|"D"FA2B A3f|"A"e2cB "E"AcBG|[1"A" A3 A3 AF:|[2 "A"A3 A3 AB ||
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB AcBA|"F#m"F3 F3 AB|
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB "E7"AcBG|"A"A3 A3 AB
+"A"ce2f e3e|"D"fa2ba3f|"A"e2cB AcBA|"F#m"F3 F3 AF|
+"A"ECEF E3E|"D"FA2B A3f|"E7"e2cB AcBG |["normal" "A"A6||["alt" "A"A4 "D"F4 ||
+%%text Alt ending may be used occasionally.  (Skip the pickup notes when you use it!)
+S:https://www.folktunefinder.com/tunes/141723
+S:http://roaringjelly.org/music/reel/Booth.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/all/Booth.abc
+S:http://trillian.mit.edu/~jc/music/abc/OldTimey/reel/Booth.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

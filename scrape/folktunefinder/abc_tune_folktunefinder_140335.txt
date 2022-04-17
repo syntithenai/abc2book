@@ -1,0 +1,24 @@
+X:60
+T: Rafferty's Mustache
+S: Willie Kelly
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+E |: FEFA G2 AG | FDFA d2 af | g3 e fd d2 | AB=cA EFGE |
+FEFA G2 AG | FDFA d2 af | g3 e fd d2 | =cAGE ED D :|
+A | defd g2 ag | fdfa g2 ag | fdAF G2 FG | AB=cA dcAc |
+defd g2 ag | fdfa g2 ag | fd d2 AB=cA | EFGE FD D :|
+S:https://www.folktunefinder.com/tunes/140335
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/r.abc
+S:http://www2.redhawk.org:8080/irish/zouki/r.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

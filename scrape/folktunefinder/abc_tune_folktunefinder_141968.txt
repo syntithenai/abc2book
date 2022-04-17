@@ -1,0 +1,24 @@
+X: 40
+T:Needle Case
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:D
+"D"D/2E/2F/2G/2 A/2F/2D/2F/2|"G"G/2BB/2 BB|"D"AA/2B/2 AF|"A"EE/2F/2 EE|
+"D"D/2E/2F/2G/2 A/2F/2D/2F/2|"G"G/2BB/2 BB|"A"A/2B/2c/2d/2 e/2f/2e/2d/2|\
+"A"c/2A/2B/2c/2 "D"dd::
+"D"ag fe|"G"A/2BB/2 BB|"D"ag fe|"G"B/2A/2B/2c/2 "D"df|"D"ag fe|
+"G"A/2BB/2 BB|"A"A/2B/2c/2d/2 e/2f/2e/2d/2|"A"c/2A/2B/2c/2 "D"dd:|
+S:https://www.folktunefinder.com/tunes/141968
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsM-Q.txt
+S:http://www.guitarnut.com/nmd/reelsM-Q.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

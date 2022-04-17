@@ -1,0 +1,22 @@
+X: 30
+T: (I FOUND A) MILLION-DOLLAR BABY
+C: Warren
+%%staffsep 40
+M: C
+L: 1/8
+K: Eb
+|: "Eb"z>B,C>B, E>DF>E | "Eb"G2 G6 | "Eb"z>B,C>B, E>DF>E | "F7"G8 |
+  "F7"z>FG>F G>FG>F | "Bb7"B2 B4 F>G |1 "Bb7"B2B2 B,2"Bb"C2 | "Eb"G8 :|2 "Bb7"B2B2 A2D2 | "Eb"E4 D>EF>^F ||
+  "G7"G4 A4 | "G7"z>G^F>G d2 =B2 | "Cm"G4- "G7"G4- | "Cm"G4 C>DE>=E |
+  "F7"F4 G4 | "F7"z>F=E>F c2G2 | "Fm7"F8- | "Bb7"F2B>B G2F2 ||
+   "Eb"z>B,C>B, E>DF>E | "Eb"G2 G6 | "Eb"z>B,C>B, E>DF>E | "F7"G8 |
+  "F7"z>FG>F G>FG>F | "Bb7"B2 B4 F>G | "Bb7"B2B2 A2D2 | "Eb"E6 z2 |]
+S:https://www.folktunefinder.com/tunes/140626
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

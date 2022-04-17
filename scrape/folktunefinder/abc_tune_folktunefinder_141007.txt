@@ -1,0 +1,23 @@
+X: 1
+T: B\"ohmischer Winde (G)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: G
+|: "G"G2G[AF] [BG][cA] | [d4B] [d2B] \
+| "C"[e2c][e2c] "G"[d4B] | "C"[e2c][e2c] "G"[d4B] \
+| "D7"[c3A] [cA] [A2F] | "G"[B4G] G2 \
+| "D7"[A2F][A2F] "G"[G4G] | "D7"[A2F][A2F] "G"[G4G] :|
+|: "D7"[d3F] [cF] [A2F] | "G"[B4G] [d2B] \
+| "C"[e2c][g2e] "G"[d4B] | "C"[e2c][g2e] "G"[d4B] \
+| "D7"[d3F] [cF] [A2F] | "G"[B4G] G2 \
+| "D7"[A2F][A2F] "G"[G4G] |1 "D7"[A2F][A2F] "G"[G4G] :|2 "D7"[d2F][f2c] "G"[g4B] ||
+S:https://www.folktunefinder.com/tunes/141007
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/BoehmischerWinde_G.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

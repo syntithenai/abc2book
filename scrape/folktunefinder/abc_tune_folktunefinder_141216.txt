@@ -1,0 +1,29 @@
+X:3
+T:Paddy in London (aka Mug of Brown Ale)
+C:Trad, Ir. (after CW)  
+M:6/8
+L:1/8
+Q:3/8=116
+K:G 
+ g2f |: eAA fAA | gfg age | dBA G2 A | B2 A Bcd |
+ eAA fAA | gfg age | dBB gBB |1 ABA A2 f :|2 ABA A2 e |
+ |: efg a2b | aba age | def g2a | gag ged |
+ efg a2b | aba age | dBB gBB |1 ABA A2 e :|2 ABA A2 f |
+%%%%  From memory, after Cathie Whitesides.
+%%%%  Fixed up to emphasize the pickups.  The opening pickup
+%%%%  is much stronger than the pickups during the tune (there's
+%%%%  more time), but the pickups during the tune are very important.
+%%%%  The key is A "modal";  the F# is necessary.
+%%%%  -- eric  10/09/00
+%%%%  See Chorus.abc for notes on construction
+S:https://www.folktunefinder.com/tunes/141216
+S:http://ericdancepiano.com/abc/DanceList.abc
+S:http://www.ericdancepiano.com/abc/DanceList.abc
+S:http://www.latinsquares.com/abc/DanceList.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

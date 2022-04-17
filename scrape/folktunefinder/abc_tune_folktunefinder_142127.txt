@@ -1,0 +1,20 @@
+X: 2
+T:Bouree de Concours
+M:2/4
+L:1/8
+Q:1/4=100
+K:Gm
+d2 ^cd | B3 A | G>A BG | AD ED |
+d2 ^cd | B3 A | G>A BG | A4:|!
+D>E ^FD|G>A BG|^F>G AF|G>B A^F|
+D>E ^FD|G>A BG|^F>G AF|G2 G2:|!
+S:https://www.folktunefinder.com/tunes/142127
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/morisq.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

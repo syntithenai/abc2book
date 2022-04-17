@@ -1,0 +1,47 @@
+X:01
+T:THE BLUE CLOUD
+C:Adam Quinn/Arr. PM Robert Hoogenhout
+R:JIG
+U:z="@ "
+L:1/8
+M:12/8
+Q:104
+K:HP
+%%EPipes[SP=20,LP=225,MA=Y]
+ [|{g}A{d}A{e}A- c2A- c2d {g}c{d}A{e}A|{g}G{d}G{f}G {g}cd{c}d {g}edc {g}dcB|\
+{g}A{d}A{e}A- c2A- c2d {g}c{d}A{e}A|{g}G{d}G{e}G {g}efe {g}c{d}c{e}c {G}A2e|
+%%EPipes[LP=224]
+ ] {g}A{d}A{e}A- c2A- c2d {g}c{d}A{e}A|{g}G{d}G{f}G {g}cd{c}d {g}edc {g}dcB|\
+{g}A{d}A{e}A- c2A- c2d {g}c{d}A{e}A|{g}G{d}G{e}G {g}efe {g}c{d}c{e}c {G}A2B|]
+%%EPipes[LP=223]
+ [|{g}ce{A}e {g}efe {gf}g2f {g}edB-|c2B- c2A {g}G{d}G{e}G {g}BAG|\
+{g}ce{A}e {g}efe {gf}g2f {g}edB|{g}G{d}G{e}G {g}efe {g}c{d}c{e}c {G}A2B|
+%%EPipes[LP=222]
+ ] {g}ce{A}e {g}efe {gf}g2f {g}edB-|c2B- c2A {g}G{d}G{e}G {g}BAG|\
+{g}ce{A}e {g}efe {gf}g2f {g}edB|{g}G{d}G{e}G {g}efe {g}c{d}c{e}c {G}A2e|]
+%%EPipes[LP=242]
+ [|{g}G{d}G{e}G {d}BG{d}B {g}dBd {g}fed|{g}B-c>A {g}A{d}A{e}A {GAG}A2G {g}cB{G}A|\
+{g}G{d}G{e}G {d}BG{d}B {g}dBd {g}fed|{g}ce{A}e {g}efa c{d}c{e}c {G}A2e|
+ ] {g}G{d}G{e}G {d}BG{d}B {g}dBd {g}fed|{g}B-c>A {g}A{d}A{e}A {GAG}A2G {g}cB{G}A|\
+{g}G{d}G{e}G {d}BG{d}B {g}dBd {g}fed|{g}ce{A}e {g}efa B-c2 {g}cea|]
+ [|B-c>a {AGAG}A3 {g}c{d}c{f}c {g}edc|{g}BG{d}B {g}BG{d}B {g}B{d}B{e}B {g}edc|\
+{g}B-c>a {AGAG}A3 {g}c{d}c{f}c {g}edc|{g}ce{A}e {g}efa c{d}c{f}c {g}cea|
+ ] B-c>a {AGAG}A3 {g}c{d}c{f}c {g}edc|{g}BG{d}B {g}BG{d}B {g}B{d}B{e}B {g}edc|\
+{g}B-c>a {AGAG}A3 {g}c{d}c{f}c {g}edc|{g}ce{A}e {g}efa c{d}c{e}c {G}A2e|]
+ [|{g}G{d}G{e}G {gf}g2e {g}dBd {g}GBd|{g}A{d}A{e}A {ag}a2f {g}ef{e}f {g}fga|\
+G{d}G{e}G {gf}g2e {g}dBd {g}GBd|{g}ce{A}e {g}efa c{d}c{e}c {g}cea|
+ ] {g}G{d}G{e}G {gf}g2e {g}dBd {g}GBd|{g}A{d}A{e}A {ag}a2f {g}ef{e}f {g}fga|\
+G{d}G{e}G {gf}g2e {g}dBd {g}GBd|{g}ce{A}e {g}efa B-c2 {g}cea|]
+ [|B-c>a B-c>a B-c>a cBA|{g}cd{c}d {g}dcd {g}dcd {g}dcB|\
+{g}B-c>a B-c>a B-c>a cBA|{g}ce{A}e {g}efa B-c2 {g}cea|
+ ] B-c>a B-c>a B-c>a cBA|{g}cd{c}d {g}dcd {g}dcd {g}dcB|\
+{g}A{d}A{e}A- c2A- c2d {g}c{d}A{e}A|{g}G{d}G{e}G {g}efe {g}c{d}c{e}c {G}A3|]
+S:https://www.folktunefinder.com/tunes/140462
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/SuiteDeCongosDapresMarcelLagardere.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

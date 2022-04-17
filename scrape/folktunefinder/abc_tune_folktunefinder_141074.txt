@@ -1,0 +1,29 @@
+X:1791
+T:"The Bold Deserter" (longdance) 1791
+C:after Mrs. Cantwell
+N:2nd anacrucis corrected
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+"_vb"(f/2e/2)|dA B(A/2F/2)|A/2B/2d/2e/2 f/2e/2d/2B/2|A/2F/2d/2B/2 A/2F/2D/2F/2|EE/2E/2 E/2G/2F/2E/2|
+dA B(A/2F/2)|A/2B/2d/2e/2 f/2e/2d/2B/2|A/2F/2d/2B/2 A/2F/2E/2F/2|DD/2D/2 D:|
+|:(D/2E/2)|FA d(e/2f/2)|g/2f/2g/2e/2 d(d/2e/2)|f/2e/2d/2B/2 A/2F/2E/2F/2|AA/2A/2 A(D/2E/2)|
+FA d(e/2f/2)|g/2f/2g/2e/2 d(d/2e/2)|f/2e/2d/2B/2 A/2F/2D/2F/2|EE/2E/2 E/2G/2F/2E/2|
+dA B(G/2F/2)|A/2B/2d/2e/2 f/2e/2d/2B/2|A/2F/2d/2B/2 A/2F/2E/2F/2|DD/2D/2 D:|
+S:https://www.folktunefinder.com/tunes/141074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1791-BoldDeserter.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1701-1800/1791-BoldDeserter.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

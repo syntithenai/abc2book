@@ -1,0 +1,26 @@
+X:0291
+T:"The Bold Deserter"     (air)      0291
+C:after Mrs. Cantwell
+C:moderate
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"_VB"(fe)|d2A2B2(AF)|(AB)(de) (fe)(dB)|(AF)(EF) D2D2|D6||
+(DE)|F2A2d2(ef)|g2f2e2(de)|(fe)(dB) (AF)(EF)|A6(DE)|
+F2A2d2(ef)|g2f2e2(de)|(fe)(dB) (AF)(EF)|A6(fe)|
+d2A2B2(AF)|(AB)(de) (fe)(dB)|(AF)(EF) D2D2|D6|]
+S:https://www.folktunefinder.com/tunes/141073
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0291-BoldDeserter.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0291-BoldDeserter.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 56
+T:Opera Reel
+% Nottingham Music Database
+S:Vancouver, via EF
+M:4/4
+L:1/8
+K:D
+AF|"D"D2D2 FEFA|"D"D2D2 "A7"EDB,A,|"D"D2D2 FEFA|\
+"G"BdAF "A7" E2:|
+(3ABc|"D" d2 dc dAFA|"D" Adcd "A7" egfe| d2 dc dAFA| BdAF E2 :|
+"C"fg|"D"afaf "G" gfge|"D"faec "A7" dcBA|"D" afaf "G"gfge|"A7" faec "D"d2 :|
+(3ABc|"D" defd "A7" efge| "D" faec "A7" dcBA| "D" defd "A7" efge|"A7"faec "D"d2:|
+S:https://www.folktunefinder.com/tunes/142020
+S:http://abc.sourceforge.net/NMD/nmd/reelsm-q.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

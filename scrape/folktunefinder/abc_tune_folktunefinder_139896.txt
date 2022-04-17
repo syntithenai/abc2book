@@ -1,0 +1,26 @@
+X:30
+T:Crowley's Reel
+C:Trad.
+D:"Cooley", track 5a
+R:reel
+Z:Played on D/D# accordion
+M:4/4
+K:D
+dB|~A2FA ~B2dB|AD (3FED AD (3FED|A3d B=BBc|dfeg fddB|
+AFdA BBdB|AD (3FED ADFD|A3d B=BBc|dfeg fddB
+AFdA ~B2dB|AD (3FED ADFD|A3d B=BBc|dfeg fddB|
+A~d3 B2dB|AD (3FED ADFD|A3d B=BBc|dfeg fdd2|
+fafa g2fg|eA (3cBA eA (3cBA|A~f3 g2fg|afge fddd|
+fdfa ~g2fg|eA (3cBA eA (3cBA|A~f3 g2fg|afge fd d2|
+(3fga (3fga g2fg|eA (3cBA eA (3cBA|A~f3 g2fg|afge fddd|
+fAfa g2fg|eA (3cBA eA (3cBA|A~f3 g2fg|afge fd d2|
+S:https://www.folktunefinder.com/tunes/139896
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cooley/cooley_cd.abc
+S:http://www2.redhawk.org:8080/irish/cooley/cooley_cd.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:4
+T:  Vaam Jan - Boda Polska          % name
+C: e. Rjaas Jonas (cf Vaar Erik)     % composer
+N: Taught by Thomas Westling, 2/20/05; transcr. by Karen Myers, 2/05 Scandia Festival, Petaluma CA     % info
+Q:1/4=105     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:A
+(c>e) a2-a>d- | de/f/ =g2-g(g- | =g)f/g/ b>(b a>)f |f{=gf}e/^d/ (e2-e>)(=d:|
+K:Am
+c2) (e>d) c>B | A2 (a>g) (e2 | c2) (e>d) B>d | c2 A2 [E2 A,2]-|
+A,2 (e>d) c>B | A2 (a>g) (e2 | c2) (e>d) B>d |[1 c2 A2-A>(B :|[2 c2 A4 |]
+S:https://www.folktunefinder.com/tunes/140944
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/T_Westling_Swedish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

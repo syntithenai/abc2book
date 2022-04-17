@@ -1,0 +1,31 @@
+X: 1
+T: the Bonnie House of Airlie
+R: march
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+F: http://cityofoaks2.home.netcom.com/tunes/BonnieHouseOfAirlie.gif
+M: 4/4
+L: 1/8
+K: HP
+e |\
+{g}A2 {GdGe}AB {Gdc}d2 {g}d>c | {gBd}B{e}A {g}B<d {g}e2 (3{g}def |\
+{g}A3 B {Gdc}df {g}ed | {gBd}B4 {G}A3 G |
+{g}A2 {GdGe}AB {Gdc}d2 {g}d>c | {gBd}B{e}A {g}B<d {g}e2 (3{g}def |\
+{g}A3 B {Gdc}df {g}ed | {gBd}B4 {G}A3 ||
+d |\
+{gef}e2 {GdG}ef {ag}a3 f | {gf}g>f {g}ef {Gdc}d4 |\
+{g}e2 {GdG}ef {ag}a3 g | {a}f3 g/f/ {gef}e3 d |
+{gef}e2 {GdG}ef {ag}a3 f | {gf}g>f {g}ed {gef}e2 (3{g}def |\
+{g}A3 B {Gdc}df {g}ed | {gBd}B4 {G}A3 |]
+S:https://www.folktunefinder.com/tunes/141421
+S:http://cityofoaks2.home.netcom.com/tunes/BonnieHouseOfAirlie.gif
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/march/BonnieHooseOfAirlie1_HP.abc
+% Rhythm March
+% Link Link to Image
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

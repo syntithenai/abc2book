@@ -1,0 +1,28 @@
+X:7
+T:Norsk Reil\"ander
+R:reil\"ander
+H:Se \"aven #11
+A:Norge
+Z:hn-schottis-7
+M:C|
+K:Dm
+DEFG A2A2|A=BG=B A2F2|FEGE F2DF|ED^CE D2A,2|
+DEFG A2A2|A=BG=B A2F2|FEGE F2DF|1 ED^CE D4 :|2 ED^CE D2ag||
+K:D
+|:f2d2 dfed|c2A2 A3F|GFEF GABd|c2A2 A2ag|
+f2d2 dfed|c2A2 A3F|GFEF GECE|1 D2F2 D2ag:|2 D2F2 D4||
+K:Dm
+|:d2d2 c3B|AGAB AFDE|F2F2 GABG|ABAG A=B^cA|
+d2d2 c3B|AGAB AFDE|F2F2 EDCE|D2D2 D4:|
+S:https://www.folktunefinder.com/tunes/141131
+S:http://www.norbeck.nu/abc/s/hnsch0.abc
+% Rhythm Reila?nder
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 13
+T:Shepherds' Hey, Bucknell (ALP)
+M:4/4
+L:1/8
+A:Bucknell
+P:AB4
+K:G
+P:A
+BddB e2B2|BddB A4|d2B2 AGGA|B2A2 G4||
+P:B
+d2A2 B2G2|d2A2 B4|d2B2 AGGA|B2A2 G4|
+B2G2 c4  |B2G2 A4|B2AB c2Bc|d2A2 G4||
+S:https://www.folktunefinder.com/tunes/140497
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Bucknell.abc
+S:http://www.themorrisring.org/sites/default/files/music/Bucknell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:La Boulangre
+E:12
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:G
+Q:1/4=120
+"G"G2BA G2A2 | B2c2 d4 | d3e d2c2 |1 B2A2 G4 :|2 B2A2 G2 |]
+T:X fois
+M:6/8
+L:1/16
+B2 | B6 "D"A2B2c2 | "G"B4 A2 G4 B2 | B6 "D"A2B2c2 | A6 "G"G4 |]
+%%rm  La boulangre a des cus et moi je n'en ai gure
+%%rm  Elle voudrait bien s'y marier mais ne sait comment faire
+%%rm
+%%rm  J'ai vu la boulangre, oh oui, j'ai vu la boulangre (N fois)
+%%rm  ... aux cus!
+S:https://www.folktunefinder.com/tunes/142092
+S:http://termen.free.fr/danses/ploermel/LaBoulangere.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

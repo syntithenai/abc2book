@@ -1,0 +1,29 @@
+X:2
+T:BooBooHead Jig Harmony 1
+C:copyright 1998 Jim Thompson
+N:To be played with Kaubells tune ``BooBooHead Jig''
+E:20                   % note spacing
+M:6/8
+K:F
+|:c'3b3|a3f3|bag gab|c'3agf|
+c'3b3|a3f3|bag bag|agf f3:|
+K:C
+|:gef gab|c'd'e' e'3|b3f'3|e'd'c' g'3|
+E:14
+gef gab|c'd'e' e'3|bd'f' f'e'd'|[1\
+\qsk \qsk \qsk
+e'd'c' c'3:|2\
+\qsk \qsk \qsk
+c'3 "  -- 8Va -----  "c'3|]
+S:https://www.folktunefinder.com/tunes/141672
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/dog-harmony.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

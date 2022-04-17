@@ -1,0 +1,41 @@
+X: 1
+T:Bonnets O' Blue
+M:6/8
+C:
+S:Bacon (Col. by TM from Benfield (BC))
+N:
+A:Bledington
+O:English
+R:Jig
+%:
+%:
+%P:A/2(AB)$^2$(AC)$^2$(A)
+P:A.(AB)2(AC)2(A)
+L:1/8
+K:G
+Q:C3=96
+P:A
+|:DEF  G2 A|BcB ABA|GEF  G2 A|B>AG G3:|\
+P:B
+|:BAB  d2 B|BAG A2 G/2A/2|BdB  AGA|BAG  E3|\
+DEF  G2 A|BcB ABA|GEF  G2 A|B>AG G3:|\
+Q:C3=84
+P:C
+|:(2BA B2 c|d3  B3|(2BA G2 B|A3   (2GA|\
+(2Bd B3|A3  (2GA|\
+Q:C3=96
+BAG  E3|\
+DEF  G2 A|BcB ABA|GEF  G2 A|B>AG G3:|
+S:https://www.folktunefinder.com/tunes/141371
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bonnets_O_Blue_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

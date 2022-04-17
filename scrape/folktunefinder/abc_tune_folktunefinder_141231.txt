@@ -1,0 +1,31 @@
+X:103
+T:Rocks of Brae (aka March of the Clans)
+C:Trad, Sc.  
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:Em 
+P:A
+ B,2 || "Em"E3 D E2 F2 | "G"G3 F G2 A2 | "Em"B4 "C"e4 | "G"d2 B4 A2  | 
+ "G"G3 F G2 B2 |  "D"A2 F2 D2 E2 | "D"F4 "A"E4 | "Bm"D2 A,4 D2 | 
+ "Em"E3 D E2 F2 | "G"G3 F G2 A2 | "Em"B4 "C"e4 | "G"d2 B4 A2  | 
+ "G"G3 F G2 B2 |  "D"A2 F2 D2 E2 | "Bm"F4 "B7"E2 D2 | "Em"E3 z e2 d2 ||
+P:B
+ "Em"B2 e4 e2 | e4  d2 e2  | "Bm"f4 e4 |  d2 B4 d2 |
+ "D"A3 B A2 B2 | d4 d2 e2 | "D"d2 B2 A2 B2 | "Bm"d4  "B7"B2 A2 |
+ "Em"B2 e4 e2 | e4  d2 e2  | "Bm"f4 e4 |  d2 B4 A2 |
+ "G"G3 F G2 B2 | "D"A2 F2 D2 E2 | "Bm"F4 E2 D2 | "Em"E4 z4 ||
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/141231
+S:http://ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.ericdancepiano.com/MNAS/MNASdl.abc
+S:http://www.latinsquares.com/MNAS/MNASdl.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

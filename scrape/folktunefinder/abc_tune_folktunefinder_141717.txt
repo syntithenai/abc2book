@@ -1,0 +1,24 @@
+X: 1
+P: The "Boorach"
+C: Bert Murray
+C: arr. T. Traub 6-27-03
+R: Waltz
+M: 3/4
+K: F
+L: 1/4
+"C7"c|"F"A > B c|"F7"c2 f|"Bb"d e f|"C"c2 d/e/|"Dm"f > e d|"Am"c A c|"G"d c A|"C7"G2 c|
+"F"A > B c|"F7"c2 f|"Bb"d e f|"F"c2 A/c/|"Bb"d > e f|"F"c A "Dm"F|"C7"B A G|"F"F2 A||
+"C7"G > A B|"C7"B A G|"F"A > B c|"D7"c3|"G"=B > c d|"G7"e d =B|"C"c d ^d|"C7"e2 c|
+"F"A > B c|"F7"F2 f|"Bb"d B d|"C"c2 d/e/|"Bb"f > e d|"F"c A "Dm"F|"C7"B A G|"F"F3 |]
+S:https://www.folktunefinder.com/tunes/141717
+S:http://terrytraub.org/abc/BoorachW.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/BoorachW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

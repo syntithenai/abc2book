@@ -1,0 +1,42 @@
+X: 1
+T:Blanchland Races
+C:Trad
+S:Northumbrian Minstrelsy
+M:Cl
+K:G
+D2| G4 BAG2\
+M:C
+dGBG| dGgG fGeG| dG \
+M:Cl
+BAG2 \
+M:C
+dGBG| FDAD BDAD| G2\
+M:Cl
+BAG2 \
+M:C
+dGBG| dGgG fGeG| dedB dgdB| AGAB G2 G:: G| F2 \
+M:Cl
+FED2 \
+M:C
+ADFD| ADBD cDAD | G2 \
+M:Cl
+BAG2 \
+M:C
+dGBG| dGgG fGeG| dG \
+M:Cl
+BAG2 \
+M:C
+gGeG| dG \
+M:Cl
+BAG2 \
+M:C
+gGeG| dBed cBAG| FGAG FDEF:|
+S:https://www.folktunefinder.com/tunes/140011
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Blanchland_Races_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:3
+T:  Boda Polska          % name
+C:  e. Rjaas Jonas, Boda, Dalarna          % composer
+N: Taught by Thomas Westling, 2/20/05; transcr. by Karen Myers, 2/05 Scandia Festival, Petaluma CA     %Tune infos
+Q:1/4=105     %Tempo
+M:3/4     %Meter
+L:1/8     %
+K:C
+c>(e g>^f) g>b | a2 f2-f>d- | d>(e f>g) a>b | g2 e4 :|
+|:G2 (c>d) e>e | f2 (d>f) a2- | a2 (g>e) f>d | (d c) (A>B) G2- |
+G2 (c>d) e>e | f2 (d>f) a2- | a2 (g>e) f>d | (dB) c4 :|
+S:https://www.folktunefinder.com/tunes/140943
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/T_Westling_Swedish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

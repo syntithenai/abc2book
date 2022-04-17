@@ -1,0 +1,30 @@
+X: 1
+T: Bonnets So Blue
+O: England
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Karpeles & Schofield p.4 (in C), p.41 (in D)
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d>ed fga | "A7"A>BA ABc | "D"d>fa afd | "A7"e2f age \
+| "D"d>ed fga | "A7"A>BA A2a | a>gf edc | "D"d3- d2 ||
+|| d \
+| "A"c>de efe | A3- A2d | "A7"c>de efg | a3- a2g \
+| "D"f2e d2c | "Bm"B2c d2e | "F#7"f>gf edc | "Bm"B3- "(A7)"B2 ||
+|| A \
+| "D"d>ed fga | "A7"A>BA ABc | "D"d>fa "Bm"afd | "Em"e2f "A7"age \
+| "D"d>ed fga | "A7"A>BA A2a | "(D)"a>gf "(A7)"edc | "D"d3- d2 |]
+S:https://www.folktunefinder.com/tunes/141381
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/BonnetsSoBlue.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

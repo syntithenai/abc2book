@@ -1,0 +1,34 @@
+X: 3
+T: Scotty O'Neil
+C: Bob McQuillen
+R: march
+M: 4/4
+L: 1/8
+%%%%%Q: 2/4=112
+K: D
+P:A
+AG |: F2D2 A2F2 | dedc BABc | d2A2G2F2 | F2E4 AG |
+     | F2D2 A2F2 | dedc BABc | d2A2 ABAG | F2D4 AG :|
+P:B
+ |: F2A2 f3e | d2c2 B3c | d2A2 G2F2 | F2E4 AG | 
+     | F2D2 f3e | dedc BABc | d2A2 ABAG | F2 D4 AG :|
+%%newpage
+%%text
+%%text
+%%textfont - 30
+%%centre JIG SET
+%%
+%%
+S:https://www.folktunefinder.com/tunes/140906
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

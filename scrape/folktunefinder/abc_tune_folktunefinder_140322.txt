@@ -1,0 +1,22 @@
+X: 1
+T: Blue Ball, The
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|: B,FE DCA, | B,EF A,B,D | B,EF A,B,D | CCC B,A,F     | 
+   B,FE DCA, | B,EF A,B,D | CDC EFA,   |1 CB,A, B,2A, :|2 CB,A, B,3||
+| F2B, DCB,  | CCB, FA,B, | E2D2CB,    | CDC CB,A,     |
+  F2B, DCB,  | CCB, FA,B, | CCB, FA,B, | CB,A, B,3     |
+  F2B, DCB,  | CCB, FA,B, | E2D2FD     | ^GEG AGE      |
+  F2B, DCB,  | CCB, FA,B, | CCB, FA,B, | CB,A, B,3     |
+S:https://www.folktunefinder.com/tunes/140322
+S:http://www.thesession.org/tunes/display/4444
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

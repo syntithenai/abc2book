@@ -1,0 +1,22 @@
+X:1
+T:Bob Dunsire's Jig
+R:jig
+C:Gord MacDonald
+M:6/8
+K:HP
+L:1/8
+{Gdc}d2A {g}def | {g}Ad{G}d {g}dAd | {g}Bg{f}g {a}gfg | {AGAG}A3 {g}Adc |
+[1 {g}Bg{f}g {a}Gge | {g}Af{e}f {g}Afd | {gef}e2d {g}BeB | {g}c2 {Gdc}d2 e2 :|
+[2 {g}Bg{f}g {a}Gge | {g}Af{e}f {g}Afd | {g}edc {g}Bce | {Gdc}d3 {gdG}d3 ||
+|: {g}Bg{f}g {a}gfg | {a}gdB {g}Gdg | {a}Af{e}f {g}fef | {g}fdA {g}Adf |
+[1 Ae{A}e {g}ecg | {a}ec{G}c {g}Ace | {g}dcd {g}ede | {g}f3 {g}fed :|
+[2 {g}Bg{f}g {a}Gge | {g}Af{e}f {g}Afd | {g}edc {g}Bce | {Gdc}d3 {gdG}d3 |]
+S:https://www.folktunefinder.com/tunes/140870
+S:http://bagpipejourney.com/media/BobDunsire-MacDonaldTunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

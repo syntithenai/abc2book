@@ -1,0 +1,31 @@
+X: 1
+T:Valse Nouvelle - Valse/Walzer/Waltz
+C:Patrick Bouffard
+Z:abc transcription Simon Wascher
+N:please mail errors to simon.wascher@chello.at
+M:3/4
+L:1/4
+F:http://www.novosaires.com/Partituras%20y%20midis/abc/u-v.abc 2007-03-28 07:03:14 UT
+K:Gm
+B>AG|d2B/c/|B>AG|e2c/d/|
+e>dc|A3|ABc|cB/c/B/A/|
+B>AG|dc/d/c/A/|B>AG|e2c/d/|
+e>dc|ABc|cB/c/B/A/|1G3:|2G/A/BG||
+|:g>ec|Ace/g/|f>dB|GBd/f/|
+e>cA|^FAc/e/|dc/d/c/B/|A/B/c/d/e/f/|
+g>ec|Ace/g/|fd/f/d/B/|GBd/f/|
+e>cA|^F/G/A/^F/A/c/|cB/c/B/A/|G3:|
+%%continueall 1
+S:https://www.folktunefinder.com/tunes/142034
+S:http://www.novosaires.com/Partituras
+S:http://michel.bellon.free.fr/Musique/abc/bouffard.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

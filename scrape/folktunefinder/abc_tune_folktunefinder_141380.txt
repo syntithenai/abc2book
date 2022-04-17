@@ -1,0 +1,32 @@
+X:1
+T:Bonnets So Blue
+C:Trad.
+A:Evesham, Worcestershire
+S:Dommett
+B:Dommett, p. 22, 43
+%P:A(ABC)$^\infty$
+P:A(ABC)8
+N:originally entered by Rich Holmes, 1996 Sept.
+M:6/8
+K:F
+L:1/8
+I:speed 450
+P:A
+C | F3  AcA | F3-F2C  | F3  AcA | G3-G2C |\
+    F3  AcA | F2C C2d | cBA GDE | F3-F2G ||\
+P:B
+    G3  GAG | C3-C2G  | G3  GAB | c3-c2B |\
+    A2G F2E | D2E F2G | ABA GFE | D3-D2E ||\
+P:C
+C | F3  AcA | F3-F2C  | F3  AcA | G6     |\
+    A3  F3  | B3  d3  | cAF GFE | F3-F2  ||
+S:https://www.folktunefinder.com/tunes/141380
+S:http://www.ucolick.org/~sla/morris/music/Evesham/hanky.rd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 2
+T:I erun un i eron dos
+M:3/8
+L:1/16
+S:Joseph Perrier
+R:Bourre
+D:Violoneux et chanteurs traditionelles en Auvergne
+Z:Stoney
+K:D
+fg|a4   fg|a4   ef|g2 agfe|f2  d2  fg|a4   fg|a4  ef|g2  agfe|[D4d4]
+A2||!
+[D2d2]  (3(faf f)d|e4   ef|g2  agfe|(3(fgf)  d2  A2  |d2  (3(faf f)d|e4
+  ef|"         last time:al"g2  agfe |" Coda"[D2d2]  z2  ||!
+    " Coda"   dAdfaf|d2  z2  A2|d2  ||
+S:https://www.folktunefinder.com/tunes/141736
+S:http://www.unet.univie.ac.at/~a8702257/abc/centfr.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

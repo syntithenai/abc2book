@@ -1,0 +1,27 @@
+X:3
+T:Katie Taylor
+T:Paddy Taylor's
+R:reel
+C:Paddy Taylor
+D:Catherine McEvoy
+N:melodic code 1345 3313
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:D
+D2 FA GEAG|FDFA d2 fa|geag fddc|AB=cA EFGE|
+D2 FA GEAG|FDFA d2 fa|geag fdd=c|(3ABA GE FDD z:|
+fdfa g2 ag|fdfa ga{b}ag|fd=cA G2 FG|AB=cA dcAB|
+~f3 a ~g3 z|fdfa ga{b}ag|fddc AB=cA|EFGE FDD z:|
+S:https://www.folktunefinder.com/tunes/140265
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

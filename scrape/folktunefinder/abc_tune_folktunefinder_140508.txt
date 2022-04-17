@@ -1,0 +1,30 @@
+X: 7
+T:Lads A-Bunchun, Sherborne
+M:6/8
+L:1/8
+A:Sherborne
+P:A(AB3)2(AC3)2A
+K:F
+P:A
+|:F2F AGF|A2B cde|f2c dcB|1A2G ED\
+:|2A2G F3||
+P:B
+cBA Bcd|cBA B2B|BGA Bcd| cBA B2c |
+d2c d2e|f3  f2c|dcB A2G| F3  F3  ||
+P:C
+cBA Bcd|cBA B2B|BGA Bcd| cBA B2c |
+d3  c3 |d3  e3 |\
+f3  f3 |f3  c3 |dcB A2G| F3  F3  ||
+S:https://www.folktunefinder.com/tunes/140508
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

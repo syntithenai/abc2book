@@ -1,0 +1,24 @@
+X: 1
+T: B\"ohmischer Winde (Ab)
+R: zwiefacher
+M: 34/44
+L: 1/8
+K: Ab
+|: "Ab"[A2C] [AC][BE] [cA][dB] | [e4c] [e2c] \
+| "Db"[f2d][f2d] "Ab"[e4c] | "Db"[f2d][f2d] "Ab"[e4c] \
+| "Eb7"[d3B] [dB] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] | "Eb7"[B2D][B2D] "Ab"[A4C] :|
+|: "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] E2 \
+| "Db"[F2D][A2F] "Ab"[E4C] | "Db"[F2D][A2F] "Ab"[E4C] \
+| "Eb7"[e3G] [dG] [B2G] | "Ab"[c4A] [A2C] \
+| "Eb7"[B2D][B2D] "Ab"[A4C] |1 "Eb7"[B2D][B2D] "Ab"[A4C] :|2 "Eb7"E2[G2D] "Ab"[A4C] ||
+S:https://www.folktunefinder.com/tunes/141002
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/BoehmischerWinde_Ab.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/BoehmischerWinde_Ab.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

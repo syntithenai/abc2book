@@ -1,0 +1,33 @@
+X:2
+T:Bonnets of Blue, above, but in abc version received (where is this from)
+M:6/8
+L:1/8
+Q:1/4=120
+A:Upton-on-Severn
+P:A(ABC)5
+K:G % 1 sharps
+P:A
+zD|G2G BdB|G4 zD|G2G BdB|A4 zD|
+G2G BdB|c3 e3|dcB AGF|G4||
+zz|G,,2zB,,2z|G,,2zD,,2D,,|G,,2zB,,2z|A,,2zD,,2D,,|G,,2zB,,2z|C,2zE,2z|D,zD,D,,E,,F,,|G,,4||
+|
+P:B
+FG|A2A ABA|D4   zG|F2A ABc|d4 zc|
+B2A G2F|E2F G2A|BcB AGF|E3 D3||
+zG,,|A,,zA,,A,,zA,,|D,,zD,,D,,zG,,|A,,zA,, A,,zC,|D,4zC,|\
+B,,3G,,3      |E,,3G,,2A,,   |B,,3A,, G,,F,,|E,,3D,,3||
+P:C
+G2G BdB|G4  zD |G2G BdB|A4 zG|
+B3  G2B|c3  e3 |dcB AGF|G4   ||
+G,,2zB,,2z|G,,2zD,,2D,,|G,,2zB,,2z|A,,2zD,,2D,,|
+G,,2zB,,2z|C,2zE,2z|D,zD,D,,zD,,|G,,4||
+S:https://www.folktunefinder.com/tunes/141376
+S:http://www.themorrisring.org.uk/more/Tunes/abc/UptonOnSevern.abc
+S:http://www.themorrisring.org/more/Tunes/abc/UptonOnSevern.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/UptonOnSevern.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

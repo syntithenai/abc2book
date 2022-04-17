@@ -1,0 +1,17 @@
+X: 11
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: C
+|:"C"C2C2 "Am"C4 | "Dm"zCB,A, "G7"B,CD2 | "C"E2E2 "Am"E4 | "Dm"zEDC "G7"DEF2 |
+S:https://www.folktunefinder.com/tunes/140639
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/ballroom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

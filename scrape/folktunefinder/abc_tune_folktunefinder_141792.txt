@@ -1,0 +1,27 @@
+X:30
+T: Night I Spent Down at Brady's (The)
+S: J.O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+D | D2 G GFG | ABc d2 e | =fef ded | cAG =FDC |
+D2 G GFG | ABc d2 e | =fed BA^F | G3 G2 :|
+f | gfg def | gfg a2 g | =fef ded | cAG =F2 f |
+gfg def | gfg a2 g | =fed cA^F | G3 G2 :|
+f | gfg def | gfg a2 g | =fef ded | cAG =FDC |
+DGG GFG | ABc d2 e | =fed cA^F | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/141792
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/n.abc
+S:http://www2.redhawk.org:8080/irish/zouki/n.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

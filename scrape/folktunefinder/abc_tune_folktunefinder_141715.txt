@@ -1,0 +1,28 @@
+X:1
+T:Boom Cyk Cyk Oberek
+Z:this GIF was really fuzzy, lots of guesswork...
+M:3/8
+L:1/8
+K:D
+|: "D"Ad/c/d/f/ | a>gf | (3a/g/a/ "G"b>a | "A"gg/f/e |
+   "A"Ac/A/c/e/ | a2 a | "G"ba>^g        | "D"a>gf   |
+   "D"Ad/c/d/f/ | a>gf | (3a/g/a/ "G"b>a | "A"gg/f/e |
+   "A"Ac/A/c/e/ | a2 a | gfe |1 "D"d2 e :|2 "D"d2 d ||
+K:A
+|: "A"EA/G/A/c/ | e>dc  | (3e/d/e/ "D"f>e  | "E"dd/c/B | EG/E/G/B/ |
+   "E"e>_de |1 fe_d | "A"e>dc :|2 "E"dcB | "A"A2 "fine"A ||
+K:D
+|: "D"f/=f/^f/a/g/f/ | "A"e/^d/e/f/g | g/f/g/b/a/g/ | "D"f/=f/^f/g/a |
+   "D"f/=f/^f/a/g/f/ | "A"e/^d/e/f/g | a/b/a/g/f/e/ | "D"dd "D.C."z :|
+S:https://www.folktunefinder.com/tunes/141715
+S:http://trillian.mit.edu/~jc/music/abc/mirror/yagelski.com/sbox/music/boomcykcykoberek.abc
+S:http://www.yagelski.com/sbox/music/boomcykcykoberek.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

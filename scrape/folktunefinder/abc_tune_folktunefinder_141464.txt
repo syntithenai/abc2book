@@ -1,0 +1,28 @@
+X:428
+%%topmargin 3cm
+U:~=!turn!
+U:t=!tenuto!
+T:The Bonnie Lass O' Bonaccord
+C:J. Scott Skinner
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+"Slow Strathspey"E | !4!LA>B {AB}c>B A.A,.C.E | "2nd pos."A{BAG}A/f/ e/c/{/c}B/A/ {/A}(tB2 B)c | "1st pos."A>B {AB}c>B .A.C.E.=G | (LF/D/F/A/) (LG/E/F/B/) !2!(tA2 A) :|
+{efg}a>c d>f eA a(g/f/) | eA (f/e/)(d/c/) {/c}(tB2 B)((3e/f/g/) | a>c (df) (e/A/c/A/) !4!!0!(a=G) | (LF/D/F/A/) (LG/E/G/B/) !2!(tA2 A) ((3e/f/g/) |
+a>c .d.f .e.A a(g/f/) | eA (f/e/)(d/c/) {/c}(tB2 B)>c | (A,/!1!C/!2!E/!2!A/) !4!c>B AC HE>=G | (LFDFA) (LGEGB) (tA2 A) ||
+|: E | {/B}(A/G/A/B/) {AB}(c/B/A/G/) (A/"7 up"A,/B,/C/ D/E/F/G/) | {/B}"3rd pos."(A/G/)(A/f/) (e/c/){/c}(B/A/) {/A}!3!(tB2 B>)c | (LA/G/A/B/) (c/B/A/G/) (A/"7 up"A,/B,/C/ D/E/F/=G/) |
+S:https://www.folktunefinder.com/tunes/141464
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bonnie_Lass_O_Bonaccord.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0428.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

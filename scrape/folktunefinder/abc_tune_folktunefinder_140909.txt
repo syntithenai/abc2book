@@ -1,0 +1,33 @@
+X:6
+T:Swallowtail
+C: Traditional
+R:jig
+M:6/8
+L:1/8
+%%%%%Q:3/8=112
+K:Edor
+P:A
+  |: GEE BEE | GEE BAG | FDD ADD | dcd AGF | 
+   | GEE BEE | GEE B2c | dcd AGF | GEE E3 :|
+P:B
+  |: Bcd e2f | e2f edB | Bcd e2f | edB d3 |
+   | Bcd e2f | e2f edB | dcd AGF | GEE E3 :|
+%%newpage
+%%text 
+%%text 
+%%textfont - 30
+%%centre REEL SET
+%%
+%%
+S:https://www.folktunefinder.com/tunes/140909
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

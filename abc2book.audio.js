@@ -315,10 +315,10 @@ function clickListener(abcElem, tuneNumber, classes, analysis, drag, mouseEvent)
 }
 
 function selectionChangeCallback(start, end) {
-  if (abcjsEditor) {
-    var el = abcjsEditor.tunes[0].getElementFromChar(start);
-    console.log(el);
-  }
+  //if (abcjsEditor) {
+    //var el = abcjsEditor.tunes[0].getElementFromChar(start);
+    //console.log(el);
+  //}
 }
 
 

@@ -1,0 +1,27 @@
+X:45
+T: Nolan's
+S: Luke O'Malley vol 1
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: D
+A/G/|FAF DFA | ded BGB | AFA dAF | A,CE GFE |
+FAF DFA | ded BGB | AFA dAF |1 GEC D2 :|2\
+GEC D2 ||
+g|fef dfa | gfg ecA | dcd fdB | cec A2 A/G/ |
+FAF DFA | ded BGB | AFA dAF |1 GEC D2 :|2\
+GEC D2 z ||
+S:https://www.folktunefinder.com/tunes/141795
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/n.abc
+S:http://www2.redhawk.org:8080/irish/zouki/n.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

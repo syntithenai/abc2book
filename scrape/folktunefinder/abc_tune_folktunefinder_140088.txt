@@ -1,0 +1,23 @@
+X:22
+T:Polska efter Hultkl\"appen
+R:polska J
+Z:id:hn-jp-22
+M:3/4
+L:1/16
+K:Dm
+A2=B^c d4 A4|(3fgfed e4 A4|fefg agfe gfed|fed^c d2A2 (3FGFED|
+A2=B^c d4 A4|(3fgfed e4 A4|fefg agfe gfed|fed^c d8:|
+|:a3a f2a2 f3a|bagf e2g2 e3g|agfe d2f2 a3f|gfed ^cdec A4|
+a3a f2a2 f3a|bagf e2g2 e3g|agfe d2f2 a3f|gfed ^cdec A4|
+A2=B^c d2f2 e2a2|fed^c d8:|
+S:https://www.folktunefinder.com/tunes/140088
+S:http://www.norbeck.nu/abc/s/hnjp0.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Booth Shot Lincoln
+R:reel
+M:C|
+L:1/8
+K:A
+P:A
+|: "A"ECEF E2E2 | "D"FA- AB A2A2- | "A"ABcB ABcB | "D"A[AF]-[A2F2] [A4F4] |
+  "A"ECEF E2E2 | "D"FA- AB A2f2 | "A"e2c2 "E"BcB2 | "A"A4 A4 :|
+P:B
+| "A"ce- ef e4 | "D"fa- a2 a2f2 | "A"e2c2 BcBA | "D"[A3F3][AG] [A4F4] |
+  "A"ce- ef e4 | "D"fa- a2 a2f2 | "A"e2c2 "E"BcB2 | "A"A4 A2BA ||
+| "A"ce- ef e4 | "D"fa- a2 a2f2 | "A"e2cA BcBA | "D"[A3F3][AG] [A4F4] |
+  "A"ECEF E2E2 | "D"FA- AB A2f2 | "A"e2c2 "E"BcB2 | "A"A4 "D"[A4F4] |]
+N:Portland Collection: Volume 2, pg 29 - abc by Peter Ostapenko.
+N:Last update - PO 7/1/2007.
+N:A Major
+S:https://www.folktunefinder.com/tunes/141722
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/BoothShotLincoln.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

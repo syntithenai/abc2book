@@ -1,0 +1,22 @@
+X: 4
+T:Shepherds' Hey, Wheatley
+M:4/4
+L:1/8
+A:Wheatley
+P:A(AB)4A
+K:G
+P:A
+|:A|BdeB d2d2|BdeB A2G2|GBB(3B/c/B/ A2e2|d2D2 G3:|
+P:B
+|:A|B2e2 d4  |B2e2 A4  |c2 (3BcB    A2e2|d2D2 G3:|
+S:https://www.folktunefinder.com/tunes/140818
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Wheatley.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Wheatley.abc
+S:http://www.themorrisring.org/sites/default/files/music/Wheatley.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

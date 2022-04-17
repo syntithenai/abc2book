@@ -1,0 +1,25 @@
+X: 12
+T:Farandole de la Grand Combe
+O:France
+A:Cvennes
+R:Farandole
+C:Trad.
+M:6/8
+Q:3/8=90
+K:Dmaj
+d|g2g gfe|d3 B2B|A2A ABc|B3 G2G|ABc ABc|Bcd GAB|ABc FGA|B3 G2d| 
+g2g gfe|d3 B2B|A2A ABc|B3 G2G|ABc ABc|Bcd GAB|ABc FGA|G3-G2A 
+AFA AFA|d3- dfe|dcB AGF|(G3 E2)G|GEG GEG|c3- cBc|edc BAG|F2B A2A|
+AFA AFA|d3- dcd|fgf edc|B3- B2B|BAB dcB|d2A F2D|EFG ABc|d6|]
+%%footer $D   Galouvielle-MBe 2007 \nDanse trad. (France)
+S:https://www.folktunefinder.com/tunes/142057
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,60 @@
+X:9
+T:Pays de Haut
+C:Traditional
+R:reel
+M:4/4
+L:1/8
+%%%%%Q:1/2=112
+K:D
+P:A
+  fg |: afaf d2ef | gfge c2ef | gfed cABc | defg a2 fg |
+      | afaf d2ef | gfge c2ef | gfed cABc |1 d2f2 d2 fg :|2 d2f2 d2A2 |
+P:B
+     |: FAdA FAdA | GBdB GBdB | ABcd efec | defg a2 A2 |
+      | FAdA FAdA | GBdB GBdB | ABcd efec | d2f2 d2 A2 :|
+%%newpage
+%%text 
+%%text 
+%%text 
+%%text 
+%%vspace 0.5in
+%%textfont - 30
+%%centre WALTZ
+%%
+%% 
+%%%%%X:10
+%%%%%T:Cathie's Waltz
+%%%%%C: Bob McQuillen
+%%%%%M:3/4
+%%%%%L:1/8
+%%%%%%%%%%Q:1/4=120
+%%%%%K:Em
+%%%%%P:A
+%%%%%  GF |: E2 GAGF | E2 GABc | B2 A3 G | F4 AG |
+%%%%%      | FGABAG | F2 AcBA | G2 E2 ED | E4 EG |
+%%%%%      | BGEGBd | BGE2 GB | d2 edcB | B2 A2 Bc |
+%%%%%      | B2 BGEG | F2 AcBA | G2E3D |1 E4 GF :|2 E4 DE |
+%%%%%P:B
+%%%%%      |: G6 | B4 e2 | d2 edcB | B2 ABAG |
+%%%%%      | F4 A2 | c4 e2 | e2 d3 B | d4 Bd |
+%%%%%      | g2 d2 dd | g2 d2 ag | f2 e3 c | E2 G2 c2 |
+%%%%%      | B2 D2 B2 | A4 G2 | G6- |1 G4 DE :|2 -G4 Z2 ||
+%% this last measure is a tie
+%%
+%% 
+%%text 
+%%text
+S:https://www.folktunefinder.com/tunes/140912
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

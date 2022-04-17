@@ -1,0 +1,27 @@
+X: 1
+T: Bonaparte's Retreat
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+F2 F/E/F/G/ | AF ED | E2    E/D/E/F/ | GF ED |
+F2 F/E/F/G/ | AF ED | EF/G/ FE       | D4- | D4 :|
+d2 f>e | d/e/d/B/ AB/c/ | d>B AF | ED F>E | D4- | D4 :|
+F2 F/E/F/G/ | AF ED | E2    E/D/E/F/ | GF ED |
+F2 F/E/F/G/ | AF ED | EF/G/ FE       | D4- | D4 :|
+d2 f>e | d/e/d/B/ AB/c/ | d>B AF |[M:1/4] ED |
+M:2/4
+B4- | B4 | d2 f>e | d/e/d/B/ AB/c/ | d>B AF | ED F>E | D4- | D4 :|
+S:https://www.folktunefinder.com/tunes/141263
+S:http://www.thesession.org/tunes/display/2080
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

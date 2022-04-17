@@ -1,0 +1,31 @@
+X: 1
+T:Bonny Green Garters
+M:6/8
+C:
+S:Bacon (MDT)
+N:commonly used as B  C parts of recessional
+A:Headington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$
+P:A.(AB)4
+K:G
+P:A
+%Q:C3=100
+d |: d>cB AGF | G>AB cde  | d2d  dcB |1 B3  A2 d :|2 A3  G2 ||\
+P:B
+d |  d>cB AGF | G3   A2 d | d>cB AGF | G3 A2 \
+d |  d>cB AGF | G>AB cde  | d2d  dcB | A3 G2 ||
+S:https://www.folktunefinder.com/tunes/141535
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bonny_Green_Garters_4.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

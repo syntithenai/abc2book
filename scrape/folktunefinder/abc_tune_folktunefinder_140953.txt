@@ -1,0 +1,38 @@
+X:1
+T:Boehmischer Wind
+C:traditionell
+R:Zwiefach
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort ganz in G, einstimmig mit harmonie-buchstaben, Seite 217
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2 3/4
+L:1/8
+K:G
+D2 G2 B2 | d4 d2 | e2 eg | d4 |
+e2 eg | d4 ||
+d2 c2 A2 | B4 G2 | A2 AF | G4 |
+A2 AF | G4 ||
+d2 c2 A2 | B4 d2 | (egfe) | d4 |
+(egfe) | d4 ||
+d2 c2 A2 | B4 G2 | (FAdF | GBdG |
+FAdF) | G4 |] 
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/140953
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/boehmischer_wind.D2G2B2d4d2.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

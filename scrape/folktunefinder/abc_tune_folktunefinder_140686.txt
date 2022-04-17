@@ -1,0 +1,21 @@
+X:3
+T:Pat Hogan's #2
+M:4/4
+L:1/4
+Q:120
+R:March
+K:D
+"D"D>DFA|dcBA|"Em"BEEF|"A"GA/2G/2FE|
+"D"D>DFA|dcBA|"Em"Be"A"Bc|"D"d2-d2::
+"Em"eBeB|eBB>c|"D"dAdA|dAA2|
+"Em"eBeB|eBB>c|"G"dB"D"AF|"Em"E2-E2:|
+%%footer $D   Galouvielle-MBe 2005 \nRondeau --
+S:https://www.folktunefinder.com/tunes/140686
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

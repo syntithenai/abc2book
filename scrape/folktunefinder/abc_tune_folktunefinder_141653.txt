@@ -1,0 +1,21 @@
+X:8
+T:La boulangre a des cus
+C:Paroles : Nicolas Gallet
+C:Musique anonyme (env. 1720)
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:G
+|: "G"GGG "C"c2c | c2c c2c | "D"d2d A2B | "C"(c2B) "D"A2z :| A2AA2c |
+"C"B2A G2G | "D"F2E F2G | ABA "G"D2G | "D"F2E F2G | "D7"(B2A) "G"G3 |]
+%%footer $D   Galouvielle-MBe 2007 \n--- (--)
+S:https://www.folktunefinder.com/tunes/141653
+S:http://michel.bellon.free.fr/Musique/abc/_BalMB.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Bal%2520MB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X: 1
+T: Blue Bonnets Over the Border
+T: Lesley's March to Scotland
+R: jig, march
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+N: Published in Watt's Musical Miscellany 1731, and Oswald 1755.
+N: Sir Walter Scott wrote the song "Blue Bonnets over the Border" to this tune.
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"~G3 "C"~G3 | "G"G>BA GED | "Em"G>EE "G"E2D | "G"e>dB "D7"~A3 \
+| "G"~G3 "C"~G3 | "G"G>BA GED |  "C"G>FE "D7"DEF | "G"G>AB "D7"A2 :|
+|: D \
+| "G"G>Bd dBG | "C"edB "G"BAG | "G"G>Bd "D7"efg | "Em"G>AB "D7"A2D \
+| "G"G>Bd dBG | "C"edB "G"BAG | "C"G>FE "D7"DEF | "G"G>AB "D7"A2 :|
+%%sep 5 5 234
+K:C
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+x4 x4 x4 x4 x4 x4 x4 x4 |
+S:https://www.folktunefinder.com/tunes/140458
+S:http://trillian.mit.edu/~jc/music/book/500/BlueBonnetsJ1_x.abc
+% Rhythm Jig, march
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

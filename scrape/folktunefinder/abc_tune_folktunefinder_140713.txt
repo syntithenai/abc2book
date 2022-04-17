@@ -1,0 +1,26 @@
+X:31
+T:Valse cossaise
+R:---
+C:Ecosse
+Q:3/4=60
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+V:1
+A2||f4e2|d4c2|B2c2d2|A4A2|f4e2|d4c2|B6-|B4A2|
+f4e2|d4c2|B2c2d2|A4A2|B2e2d2|c2f2e2|d6-|d4A2
+|:f4A2|f4A2|f4e2|d4A2|[1e4A2|e4A2|e2d2e2|f4A2:|[2B2e2d2|c2f2e2|d6-|d6|]
+V:2
+A2||a4g2|f4e2|d2e2f2|e4A2|a4g2|f4e2|(d6|
+c2)z2A2|a4g2|f4e2|d2e2f2|e4d2|g4g2|a4g2|f6-|f4d2|:|]
+%%footer $D   Galouvielle-MBe 2005 \nReel Shetland
+S:https://www.folktunefinder.com/tunes/140713
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Vide.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

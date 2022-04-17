@@ -1,0 +1,19 @@
+X:1
+T:The Bonnie Ship the Diamond
+M:4/4
+L:1/4
+K:C
+ z3A/2-A/2| A A E ^F| G3/2 ^F/2 E A/2A/2| A A E ^F| G2 z A/2A/2| A A E ^F|\
+ G3/2 F/2 E C| D ED/2-C/2 B,| A,2 z A/2A/2| A A E ^F| G3/2 ^F/2- EA/2-A/2|\
+ A A E ^F| G2 z A/2A/2| A A E ^F| G3/2 F/2 E C| D ED/2-C/2 B,| A,2 A, B,|\
+ C2 B, B,| A,2 E ^F| A2 E/2 ^F3/2| A2 z E/2^F/2| A E G3/2 ^F/2| E A, B, G,|\
+ A, A, B, G,| A,2 z2|
+S:https://www.folktunefinder.com/tunes/141474
+S:http://back.numachi.com:8000/dtrad/abc/BDIAMOND.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BDIAMOND.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

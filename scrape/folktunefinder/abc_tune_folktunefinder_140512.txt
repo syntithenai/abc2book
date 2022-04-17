@@ -1,0 +1,24 @@
+X: 11
+T:Monks' March, Sherborne
+M:2/2
+L:1/8
+A:Sherborne
+P:A(AB2)4A
+K:A
+P:A
+|:E|A2A>c B2B>d|c2a>f e3d |cecA  BdBG|A2A2  A3:|
+P:B
+z|e>fed c2c2 |d>edc B2B2|e>fed c2c2|d>edc B4 |
+A2A>c B2B>d|c2a>f e3d |cecA  BdBG|A2A2  A3||
+S:https://www.folktunefinder.com/tunes/140512
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Sherborne.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Sherborne.abc
+S:http://www.themorrisring.org/sites/default/files/music/Sherborne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

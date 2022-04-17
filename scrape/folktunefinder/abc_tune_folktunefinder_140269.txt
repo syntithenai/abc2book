@@ -1,0 +1,30 @@
+X:7
+T:The Haunted House
+R:jig
+C:Vincent Broderick
+D:Catherine McEvoy, Andy McGann
+O:20th century Irish
+N:melodic code 3525L 345535
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:244
+M:6/8
+K:G
+~G3 AGA|BGE EDE|GBd egd|ege {g}edB|
+~G3 A2 A|BGE EDE|GBd ege|dBA G2 z:|
+GBd e2 d|ege edB|GBd ded|ded dBA|
+[1G2 d e2 d|ege edB|GBd ege|dBA G2 z:|
+[2~G3 AGA|BGE EDE|GBd Tg2 e|dBA G2 z:|
+S:https://www.folktunefinder.com/tunes/140269
+S:http://cranfordpub.com/tunes/abcs/McEvoy.abc
+S:http://www.cranfordpub.com/tunes/abcs/McEvoy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

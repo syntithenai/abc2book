@@ -1,0 +1,37 @@
+X: 1
+T: Bonnie Mulligan
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+&quot;A&quot;a2ed cdeg|aece degb|a2ed cdec|&quot;E&quot;~B3c defg|
+&quot;A&quot;a2ed cdeg|aece degb|a2ed cdec|1 &quot;E&quot;~B3d cAAg:|2 &quot;E&quot;~B3d cAAc||
+&quot;D&quot;defd &quot;A&quot;cdec|&quot;E&quot;B3c B2Ac|&quot;D&quot;defd &quot;A&quot;cdec|&quot;E&quot;B3c dcBc:|
+&quot;A&quot;Acec &quot;D&quot;defd|&quot;A&quot;cdec &quot;E&quot;dcBc|&quot;A&quot;Acec &quot;D&quot;defg|&quot;A&quot;afed cdef|
+&quot;G&quot;=g3f g2ag|&quot;D&quot;fddc defg|&quot;A&quot;a2ed cdec|&quot;E&quot;~B3d cAAF||
+K:Amix
+&quot;A&quot;E3F ECA,C|EFGE &quot;D&quot;D2AF|&quot;A&quot;~E3F ABcf|&quot;E&quot;ecAc BcAF|
+&quot;A&quot;E3F ECA,C|EFGE &quot;D&quot;D2AF|&quot;A&quot;E3F &quot;G&quot;G3F|EDCE DB,G,B,:|
+K:Ador
+&quot;C&quot;C2EC &quot;G&quot;B,CDB,|&quot;Am&quot;B,A,A,G, A,4|A,2EA, GA,FA,|EFGE &quot;G&quot;DB,G,B,|
+&quot;C&quot;C2EC &quot;G&quot;B,DGD|&quot;Am&quot;B,A,A,G, A,4|&quot;A&quot;A,^CEC &quot;D&quot;DFAF|1 &quot;E&quot;E^GBd &quot;A&quot;^cAAB,:|2 &quot;E&quot;E^GBG &quot;G&quot;[B4=G4]||
+K:A
+&quot;Bm&quot;[B3e3]c dcBA|&quot;E&quot;[B3e3]c defg||
+&quot;F#m&quot;a2ed cdeg|&quot;D&quot;aece degb|&quot;Bm&quot;a2ed cdec|&quot;E&quot;~B3c defg|
+&quot;F#m&quot;a2ed cdeg|&quot;D&quot;aece degb|&quot;Bm&quot;a2ed cdec|&quot;E&quot;~B3d cAAg|
+&quot;A&quot;a2ed cdeg|aece degb|a2ed cdec|&quot;E&quot;~B3c defg|
+&quot;A&quot;a2ed cdeg|aece degb|a2ed cdec|&quot;E&quot;[B3e3]d czBz|
+&quot;E&quot;[B3e3]d czBz|&quot;A&quot;[A8E8]||
+S:https://www.folktunefinder.com/tunes/141467
+S:http://www.thesession.org/tunes/display/6841
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

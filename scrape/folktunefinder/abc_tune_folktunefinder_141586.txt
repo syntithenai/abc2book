@@ -1,0 +1,24 @@
+X: 10
+T:Morgiana in Ireland (#86)
+M:6/8
+L:1/8
+S:O'Farrell's Pocket Companion 1804-10
+K:G
+D2 D G2 G|AGA B3|D2 D G2 A|B2 c BGE|
+D2 D G2 G|AGA Bcd|edc BcA|G2 G BGE:|
+d2 d dcB|e2 f g3|d2 d dcB|e2 f gdB|
+ded dcB|efe efg|dec BcA|G2 A BGE:|
+|:GFG B2 d|AGA c2 e|GFG G2 A|B2 c BGE|
+GFG B2 d|c2 e B2 d|f2 g B2 d|G2 A BGE:||
+S:https://www.folktunefinder.com/tunes/141586
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-3.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/MorgianaInIreland86.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0086.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

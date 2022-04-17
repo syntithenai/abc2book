@@ -1,0 +1,37 @@
+X: 301
+T: MacDonald's Waltz
+C: Lloyd Tattrie
+M:3/4
+R:waltz
+L:1/8
+Z:Alf Warnock - alf0@rogers.com
+K:D
+V:1
+de|:"D"f3a fe|"D7"d2 c2 =c2| "G"B3d BA|"Em"G6|\
+"A7"A,C EA ce|g2 f2 g2| "G"b2 a2 g2| "D"f4 A2|
+f3a fe|d2 c2 "D7"=c2| "G"B3d BA|"Em"G6|\
+"A7"A,C EA ce|g2 f2 e2| "D"d3c de|d4 A2:|
+"D"F6| F2 "Db"=F2 "D"F2| "G"B4 "Bb""dim"^A2| "D"A6|\
+"A7"G6| G2 F2 G2| "G"B2 A2 G2| "D"F4 D2|
+"D"F6| "D"F2 "Db"=F2 "D"F2| "G"B4 "Bb""dim"^A2| "D"A6|\
+"A7"A,2 C2 G2| "Em9"F4 E2| "D"D3C DE|[1 D4 A,2:|[2 !fine!D4 de|]
+V:2
+Bc|d3c dA|F2 A2 F2|G3F GF|E6|
+CE GF FG|c2 A2 c2|d2 c2 B2|A4 E2|
+d3c dA|F2 A2 F2|G3F GF|E6|
+CE GF FG|c2 A2 G2|F3=F FG|F4 F2:|
+D6|D2 C2 D2|G4 G2|F6|
+E6|E2 ^D2 E2|G2 F2 E2|D4 A,2|
+D6|D2 C2 D2|G4 G2|F6|
+C2 E2 E2|A4 G2|F3=F FG|[1 F4 F2:|[2 F4 Bc|]
+S:https://www.folktunefinder.com/tunes/139832
+S:http://www.alfwarnock.info/alfs/abc/accw04.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:6
+T:Gigue
+C:Steve Waring
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-10-06
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+F:http://simonwascher.info/TradArchiv_sechsachteltakt/gigue.cBAGABA2EA2BcBAd3-d.abc 2006-10-06 05:23:46 UT
+K:A minor
+E |\
+A2B cBA | GAB A2E | A2B cBA | d3-d cB | A2B cBA | GAB AEF | GFG E2B | A3-A3 :|
+eae dgd | c2B cBA | eae dgd | c2B A3 :: cde cBA | cde cBA | cde cBA |1 GAB A2A :|2 GAB A2 |]
+%%footer $D   Galouvielle-MBe 2007 \n-- (--)
+S:https://www.folktunefinder.com/tunes/142051
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/gigue.cBAGABA2EA2BcBAd3-d.abc
+S:http://simonwascher.info
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Link Link to ABC
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

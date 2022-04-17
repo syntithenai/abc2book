@@ -1,0 +1,28 @@
+X:11
+T:La fricasse
+O:Provence - tradition militaire
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+P:Intro
+V:1
+D | G>A BG | c2 Bd | BG AF | G2 zD |
+P:A
+G>A BG | c2 BA | GF EF | A/G/F/E/ DD |
+G>A BG | c2 Bd | BG AF | G2 zB/c/ |
+P:B
+dd cB | c2 zB/c/ | dd cB | A2 zB/c/ |
+dd cB | cd ed | cB AG | A/G/F/E/ DD |]
+%%footer $D   Galouvielle-MBe 2007 \nFarandole (France)
+S:https://www.folktunefinder.com/tunes/142056
+S:http://michel.bellon.free.fr/Musique/abc/Sceaux2007.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

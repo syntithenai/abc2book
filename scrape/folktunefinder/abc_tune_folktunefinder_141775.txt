@@ -1,0 +1,45 @@
+X:2
+T:The Boston Two-Step
+M:6/8
+Q: 350
+N: mss copy by Evelyn Lamond via George Fogg
+Z: abc transcription by Ishmael the Fiddler, ijs@alum.mit.edu
+L: 1/8
+K:G
+P:A
+z3d3||bgd Bdg|a2g B2d|fe^d e2c'|(e3 e2)e|c'af dfc'|b2a c2d|faf eA^A|B2^A B2d|
+bgd Bdg|agd B2B|A^GA c2d|(e3 e2)e|c'ba gfe|faf A2B|c^cd b2a|g2z g'2z||
+P:B
+K:D
+FG^G ABc|de^e f2f|f^ef g2f|B3B3|ege dgd|c2g B3|cgc BgB|B2f A3|
+FG^G ABc|de^e f2f|f^ef b2a|(g3 g2)B|B^AB bge|A^GA afd|cBg f2e|d2z d'zd|
+P:A
+K:G
+bgd Bdg|a2g B2d|fe^d e2c'|(e3 e2)e|c'af dfc'|b2a c2d|faf eA^A|B2^A B2d|
+bgd Bdg|agd B2B|A^GA c2d|(e3 e2)e|c'ba gfe|faf A2B|c^cd b2a|g2z g'2z||
+P:C
+K:C
+e2[ec] e2[eB]|e2[eA] [e3G]|EF^F GeG|(F3 F3)|f2f f2f|f2f f3|FGB dGF|(E3E3)|
+e2e e2e|e2e e3|A^ce aeg|(f3f2)z|d^cd b2a|age c2e|ed^c d2e|c2z c'2z|
+P:D
+K:G
+d3 ^c2d|e3d3|b2b c'2b|ba^g a3|c3 B2c|d3 c3|c'2c' c'2c'|c'b^a b3|
+d3 ^c2d|e3d3|d'bg =fgb|d'3 c'3|b3c'2b|bag e2a|b2a b2a|g2zg'2z||
+P:C
+K:C
+e2[ec] e2[eB]|e2[eA] [e3G]|EF^F GeG|(F3 F3)|f2f f2f|f2f f3|FGB dGF|(E3E3)|
+e2e e2e|e2e e3|A^ce aeg|(f3f2)z|d^cd b2a|age c2e|ed^c d2e|c2z c'2z|
+S:https://www.folktunefinder.com/tunes/141775
+S:http://web.mit.edu/people/ijs/abc/BostonTwoStep.abc
+S:http://www.mit.edu/people/ijs/abc/BostonTwoStep.abc
+S:http://www.mit.edu/~ijs/abc/BostonTwoStep.abc
+S:http://www.mit.edu/%7Eijs/abc/BostonTwoStep.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

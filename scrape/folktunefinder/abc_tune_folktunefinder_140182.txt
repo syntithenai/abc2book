@@ -1,0 +1,23 @@
+X:11
+T:Hewlett
+Z: id:dc-ocarolan-17
+M:3/4
+L:1/8
+K:D Major
+AF|D2 DE FG|AB c2 A2|d2 f2 fg|fe d2 dB|!
+A2 F2 FA|G3 A BG|AF D2 DE|D4:|!
+AB|A2 D2 AB|A2 D2 AB|A2 d3 e|dc BA GF|!
+G2 GF GA|G2 GF GA|G3 A BG|AF D3 E|!
+FE F2 G2|AB c2 A2|d2 f2 fg|fe d2 dB|!
+A2 F2 FA|G3 A BG|AF D2 DE|D4:|!
+S:https://www.folktunefinder.com/tunes/140182
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Ocarolan.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Ocarolan.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Ocarolan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

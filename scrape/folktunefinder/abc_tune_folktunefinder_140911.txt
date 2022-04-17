@@ -1,0 +1,30 @@
+X:8
+T:Robertson's Reel
+C: Tom Anderson
+R:reel
+M:4/4
+L:1/8
+%%%%%Q:1/2=112
+K:A
+P:A
+  AB |: c2Bc e2cB | ABAF E2AB | c2Bc ecAc | B6 AB |
+       c2Bc e2cB | ABAF E2AB | cBce BABe |1 A6 AB :|2 A6 cd |
+P:B
+     |: e2ce a2a2 | fecd e2cd | e2ce a2g2 | f6 e2 |
+       a2A2 A2cB | ABAF E2AB | cBce BABe | A6 cd :|
+%%
+%% 
+%%text
+S:https://www.folktunefinder.com/tunes/140911
+S:http://ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.ericdancepiano.com/CathieAlumniPages.abc
+S:http://www.latinsquares.com/CathieAlumniPages.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

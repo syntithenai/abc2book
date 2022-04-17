@@ -38,7 +38,7 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
     }
     // TODO
     var boost = tune.boost > 0 ? tune.boost : 0
-    var tweaked = "\nX: "+songNumber + "\n" 
+    var tweaked = "\nX: "+songNumberForDisplay(songNumber) + "\n" 
                 + "T: " + songNumberForDisplay(songNumber) + ". "  + getTuneName(tune) + "\n" 
                 + "M:"+getTuneMeter(tune)+ "\n" 
                 + "L:" + getTuneNoteLength(tune) + "\n" 
@@ -72,6 +72,8 @@ function renderOtherHeaders(tune) {
         return key + ": "+tune.meta[key] + "\n"
       }
     }).join("")
+  } else {
+     return "" 
   }
 }
 

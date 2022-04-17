@@ -1,0 +1,21 @@
+X:1
+T:The Blarismoor Tragedy
+M:4/4
+L:1/4
+K:F
+ C| F3/2 G/2 F E| D2 C z/2 c/2| c3/2 A/2d/2-c/2B/2-G/2| A3/2- F/2 D|\
+ E| F3/2 E/2 F G| A F d- c| B A F G| F2 z C| F3/2 G/2 F E| D2 C z/2 c/2|\
+ c3/2 A/2d/2-c/2B/2-G/2| A3/2- F/2 D| E| F3/2 E/2 F G| A F d- c| B A F G|\
+ F2 z2| d e/2A/2 d e| f2 c f| ef/2-e/2d/2-c/2d/2-e/2| d3/2- c/2 A c|\
+ d A d e| f2 c f| ef/2-e/2d/2-c/2d/2-e/2| d2 z(3F3.99999962500005/11.9999985000002F3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002F3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002c3.99999962500005/11.9999985000002|\
+ d Ad/2-f/2e/2-g/2| f2 cf/2-e/2| d c B A| A3/2 F/2- D E| F3/2 E/2 F G|\
+ A- F d c| B A F G| F2 z||
+S:https://www.folktunefinder.com/tunes/140017
+S:http://back.numachi.com:8000/dtrad/abc/BLARMOOR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

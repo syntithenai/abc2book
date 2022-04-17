@@ -1,0 +1,38 @@
+X: 8
+T:Trunkles, Bucknell
+M:4/4
+L:1/8
+A:Bucknell
+P:A(ABC3)4(ABD3)2
+K:G
+P:A
+|:d3B  c2e2|dBcA  B2G2|d3B      c2e2|dcBA G4:|
+P:B
+  d3^c d2g2|eee^c d2g2|ee(3ed^c B2c2|d4   d2z2|
+  d3^c d2g2|eee^c d2g2|ee(3ed^c B2c2|d4   d2z2|
+  d3^c d2g2|eee^c d2g2|ee(3ed^c B2c2|d4   d2gf||
+P:C
+  e2c2 cBce|d2B2  BGBd|c2A2     AGAc|B2G2 G2d2|\
+  c2BA G2A2|G4    G4||
+P:D
+M:2/4
+L:1/4
+g3f|\
+M:4/4
+e4 c4|c2B2 c2e2|d4 B4|B3A B2d2|
+c4 A4|A3G A2c2|B4 G4|\
+M:2/4
+L:1/4
+G2 d2|\
+M:4/4
+c2BA G2A2|G4 G4||
+S:https://www.folktunefinder.com/tunes/140492
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Bucknell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

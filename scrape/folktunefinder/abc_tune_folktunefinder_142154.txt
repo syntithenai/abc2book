@@ -1,0 +1,23 @@
+X: 10
+T:La gigo (1)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:C
+g2|: ag gf/2e/2|dc cB/2c/2|dc de|gf fg|ag gf/2e/2|dc cB/2c/2|dc de| [1 c2 g2:| [2 c2 c2|:
+fe f/2e/2f/2e/2|dc cd/2e/2|dc de|gf ff|fe f/2e/2f/2e/2|dc cd/2e/2|dc de| [1 gf ff:| [2 c2 cd|:
+e>e ee|fe dc|d>d dd/2e/2|dc cd|e>e ee|fe dc|d>f ed| [1 c2 cd :| [2 c2 c2|:
+f>e dc|A2A2|d>c BA|B/2A/2G G2|c>B cd|e2 de|gf ed| [1 c2 c2:| [2 c2
+%%footer $D   Galouvielle-MBe 2006 \n--- (Val Varaita, Italie)
+S:https://www.folktunefinder.com/tunes/142154
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ValVaraite.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

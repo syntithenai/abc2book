@@ -1,0 +1,25 @@
+X: 3
+T:Morris Reel, Winster
+M:6/8
+L:1/8
+A:Winster
+P:A(A2B)2A
+K:A
+P:A
+E|A>BA B2c |d>cB e>dc|A>BA B2c |dBG  A2 ||
+P:B
+|:E|a>gf e>dc|B>cd c>BA|a>gf e>dc|B>cd c2e|
+a>gf e>dc|B>cd c>BA|a>gf e>dc|B>AB A2:||
+S:https://www.folktunefinder.com/tunes/140525
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Winster.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Winster.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Winster.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

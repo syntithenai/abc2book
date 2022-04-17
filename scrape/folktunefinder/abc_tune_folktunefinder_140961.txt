@@ -1,0 +1,36 @@
+X:1
+T:Polka Poortjes
+O:Heist-op-den-Berg
+O:Vlaanderen
+B:Lange Wappers Dansboekskens
+B:Muziek III
+M:2/4
+L:1/8
+P:ABAC ABAC ABAC ABAC 
+P:A
+K:F
+cA AA | A2 F/A/c/f/ | aa aa | g2-g z |
+BG GG | G2 E/G/c/e/ | gg gg | f2-f z |
+cA AA | A2 F/A/c/f/ | aa aa | g2-g z |
+BG GG | G2 E/G/c/e/ | gg gg | f z f z |
+P:B
+c z =B z | c z a z | g z f z | ef g z |
+B z A z | B z g z | f z e z | fg a z |
+c z =B z | c z a z | g z f z | ef g z |
+g2 f2 | e2 d2 | e2 eg | fff z |
+P:C
+K:Bb
+F | d3 f | d3 B | BA B=B | c3 F |
+c3 e | A3 c | BA Bc | d FGF |
+d3 f | d3 B | BA B=B | c3 F |
+c3 e | A3 c | BA Bc | BBB ||
+S:https://www.folktunefinder.com/tunes/140961
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://users.skynet.be/infants/musiques/abc/flandre1.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/flandre1.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

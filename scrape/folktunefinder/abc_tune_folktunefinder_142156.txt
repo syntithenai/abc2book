@@ -1,0 +1,25 @@
+X: 12
+T:Courente (1)
+R:---
+O:Val Varaita, Italie
+M:2/4
+L:1/8
+K:C
+(3GAB|(3GAB (3GAB|d2 d>e|dc BA|B/2A/2G (3GAB|(3GAB (3GAB|d2 de|dc BA|G2
+de|:d>c BA|B/2A/2G de|d>c BA|B/2A/2G (3GAB|(3GAB (3GAB|d2 de| [1 dc BA|G2 de:| [2 dc de |c2
+cd/2e/2|gg gg|ag fe|dg fg/2f/2|ec ce/2f/2|gg gg|ag fe|dg f/2e/2d|c2
+gf/2e/2|:dg fg/2f/2 |ec gf/2e/2|dg fg/2f/2|ec ce/2f/2|gg gg|ag fe|dg f/2e/2d| [1 c2 gf/2e/2:| [2 c2
+(3GAB|(3GAB (3GAB|d2 d>e|dc BA|B/2A/2G (3GAB|(3GAB (3GAB|d2 de|dc BA|G2
+"pizz.".d .d|:.d "grco"G BA/2B/2|B/2A/2G "pizz.".d .d|.d "grco"G BA|B/2A/2G GA/2B/2|cc de| [1f/2e/2d d/2e/2f/2e/2|dc BA|G2 .d .d:|
+ [2 f/2e/2d ef/2e/2|dc de|c2
+S:https://www.folktunefinder.com/tunes/142156
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ValVaraite.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 8
+T:Nos Galan
+% Nottingham Music Database
+P:AABA
+S:Vic
+M:4/4
+L:1/4
+K:F
+P:A
+"F"c3/2B/2 AG|"F"FG AF|"Bb"G/2A/2B/2G/2 "Gm"A3/2G/2|"C7"FE "F"F2:|
+P:B
+"C7"G3/2A/2 BG|"F"A3/2B/2 "C7"cG|"F"A/2B/2c "Bb"d/2e/2f|"G7"ed
+P:dc
+"C7"c2||
+S:https://www.folktunefinder.com/tunes/140760
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/xmas.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

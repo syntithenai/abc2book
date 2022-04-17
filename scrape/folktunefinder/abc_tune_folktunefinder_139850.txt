@@ -1,0 +1,36 @@
+X: 319
+T: Smile the While
+T: 'Til we meet again
+M:3/4
+R:waltz
+L:1/8
+Z:added by Alf warnock alf0@rogers.com
+K:D
+"D"f4 d2| A4 f2| "A7"e3^d e=d|c6|\
+e4 c2| A4 g2| "D"f3=f ^fe|d6|
+"G"d4 c2| B4 d2| "D"A4 d2| f6|\
+"E7"f4 e2| d4 B2| "A7"c4 d2| e4 "Fdim"=f2|
+"D"f4 d2| A4 f2| "A7"e3^d e=d|c6|\
+e4 c2| A4 g2| "D"f3=f ^fe|d6|
+"G"d4 c2| B4 d2| "D"A4 d2| f6|\
+"E7"e4 B2| "A7"c4 A2O| "D" d2 c2 B2| "A7"AB cd e=f!D.C.!|]
+O|((3dcd)(A2F2)|H[D6A6]|]
+%%text Harmony - E. Fraser
+"D"d4 A2| F4 d2| "A7"c3=c ^cB|A6|\
+c4 A2| c4 e2| "D"d3c dA|F6|
+"G"B4 A2| G4 =F2| "D"^F4 G2| A6|\
+"E7"^G4 F2| ^G4 E2| "A7"A4 B2| c4 "Fdim"c2|
+"D"d4 A2| F4 d2| "A7"c3=c ^cB|A6|\
+c4 A2| c4 e2| "D"d3c dA|F6|
+"G"B4 A2| G4 =F2| "D"^F4 G2| A6|\
+"E7"^G4 G2| "A7"A4 c2O| "D"B2 A2 G2| "A7"FG AB cA!D.C.!|]
+O|((3FAF) (f2e2)|H[A6D6]|]
+S:https://www.folktunefinder.com/tunes/139850
+S:http://www.alfwarnock.info/alfs/abc/accw04.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

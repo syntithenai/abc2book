@@ -1,0 +1,26 @@
+X: 25
+T:Bojarka
+C:Serbia
+S:Aman Folkraft
+M:3/4
+L:1/8
+Q:1/4=192
+K:GMin
+%%MIDI gchord fzz
+|:"f"c2 d2 e2 |"c"d2cBcd   |"d"B2A2F2 |"g"G2 cBce |
+  "f"d2 cBcd  |"c"B2 A2 F2 |"g"G4c2   |"g"G6      :|
+|:"f"F2 G2 A2 |B2 edcd     |B2A2F2    |"g"G2 cBce |
+  "d"d2 cBcd  |"f"B2 A2 F2 |"g"G4c2   |"g"G6      :|
+S:https://www.folktunefinder.com/tunes/141063
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Bojarka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Bojarka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

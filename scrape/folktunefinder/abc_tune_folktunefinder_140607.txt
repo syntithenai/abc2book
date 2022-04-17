@@ -1,0 +1,23 @@
+X: 11
+T: HEART AND SOUL
+C: H.Carmichael
+%%staffsep 30
+M: C|
+L: 1/8
+K: Eb
+|:"Eb"E2E2 "Cm"E4 | "Fm"zEDC "Bb7"DEF2 | "Eb"G2G2 "Cm"G4 | "Fm"zGFE "Bb7"FGA2 |
+"Eb"B4 "Cm"E4 | "Fm"zcBA "Bb7"G2F2 | "Eb"E4- "Cm"EFGA |1 "Fm"B2AG "Bb7"F4 :|2 "Eb"B2E2- "Eb7"E4 ||
+"A"zcBA "G7"G2F2 | "C7"=E4 "F7"F4 | "Bb7"D4 "Eb7"_E4 | "D7"C4 "G7"D4 |
+"A"zcBA "G7"G2F2 | "C7"=E4 "F7"F4 | "Bb7"D4 "Eb7"_E4 | "D#7"C4 "Bb7"D2B,2 ||
+"Eb"E2E2 "Cm"E4 | "Fm"zEDC "Bb7"DEF2 | "Eb"G2G2 "Cm"G4 | "Fm"zGFE "Bb7"FGA2 |
+"Eb"B4 "Cm"E4 | "Fm"zcBA "Bb7"G2F2 | "G7"G4-"C7"G4 | "Fm"zAGF "Bb7"E2D2 | "Eb"E8- | E4 z4 |]
+S:https://www.folktunefinder.com/tunes/140607
+S:http://trillian.mit.edu/~jc/music/book/fake/FakeBook_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

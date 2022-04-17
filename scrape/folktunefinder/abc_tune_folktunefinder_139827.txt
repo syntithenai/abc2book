@@ -1,0 +1,27 @@
+X: 3
+T: The Blacksmith
+M: 4/4
+L: 1/8
+R: reel
+K: C Major
+GE E/E/E GEcE | GEEG DEFA | GE E2 GECE | F2 EF DE F/G/A |
+GE E2 GEcE | E2 GE DEFD | GE E2 GECE | F/F/F EF DFED ||
+C2 EC G,CEC | C/C/C EC B,CDB, | CDEC G,CEC | F/F/F EF DFED |
+C2 EC G,CEC | C/C/C EC B,CDB, | C2 EC G,CEC | F2 EF DE F/E/D |]
+GE E/E/E GEcE | GEEE DEFD | GE E/E/E GECE | F2 EF DEFD |
+GE E2 GEcE | GEEG DEFD | G3 ^F GECE | F/F/F EF DFED ||
+C2 EC G,CEC | C/C/C EC B,CDB, | CDEC G,CEC | F/F/F EF DFED |
+C2 EC G,CEC | C/C/C EC B,CDB, | C2 CC CEEE | F/F/F EF DEFD |]
+GE E2 GEcE | GEEc DEFD | G3 ^F GECE | F2 EF DEFD |
+GE E/E/E GEcE | dEcE BEAE | GE E/E/E GECE | F/F/F EF DFED ||
+C3 E G,C C/C/C | C/C/C EC B,CDB, | C2 CE G,CCC | F/F/F EF DFED |
+C3 C G,C C/C/C | C2 CC B,3 D | C2 CC G,CCC | F/F/F EF DEFD || G8 |]
+S:https://www.folktunefinder.com/tunes/139827
+S:http://www.thesession.org/tunes/display/3636
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
