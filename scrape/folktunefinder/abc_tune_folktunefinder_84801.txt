@@ -1,0 +1,27 @@
+X:32
+T:Mill-field
+R:Jig
+M:6/8
+L:1/8
+Q:110
+K:G
+G|A2B c>BA|B>AG d2B|A2F D2G|F>EF G2||
+G|A2F D2d|B2G G2B|A2F D2G|F>EF G2||
+S:https://www.folktunefinder.com/tunes/84801
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Mill_field.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Mill_field_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Mill_field.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Mill_field_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:25
+T:Cantiga 318
+R:Danse XIIIe
+O:XIIIe s
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:
+K:C
+P:A
+G | G A c | c2 d/c/ | d2e | e d c |1 e d c/B/ | A2G | A2c | B A :|2 e d c/B/ | A B G | A2 c/B/ | A2!fine! ::
+P:B
+G | G A c | c2 d | d2 e | e2 e | ^f2 g/f/ | e2 d | e d c/B/ | A2 :|
+%%footer $D   Galouvielle-MBe 2005 \nDanse XIIIe XIIIe s
+S:https://www.folktunefinder.com/tunes/84301
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Danse xiiie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

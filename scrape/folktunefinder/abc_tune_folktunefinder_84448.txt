@@ -1,0 +1,37 @@
+X: 43
+T: Debka Tomer
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=240
+P: AABBC
+K: Am
+P:A
+|:E2Dz  |D2Ez  |E2C2-  |C2E2  |\
+  E2Dz  |D2Ez  |[1C4-  |C2z2  :|\
+  [2C2z2|z2B,2 |
+  B,2Cz |C2Dz  |D2C2   |A,4-  |\
+  A,2B,z|B,2Cz |C2B,2  |z4    |
+P:B
+%%MIDI drum dzzz 35
+%%MIDI drumon
+|:A,4   |E2Ez  |D2Dz   |E4    |\
+  A,4   |E2Ez  |D2Dz   |E4    :|
+  B,2Cz |C2Dz  |D2C2   |A,4-  |\
+  A,2B,z|B,2Cz |C2B,2- |B,2A,z|
+P:C
+  A,2B,z|B,2Cz |C2B,2- |B,2A,z|\
+  G,2A,z|A,2B,z|B,2A,2-|A,2G,z|
+  F,2F,z|G,2G,z|A,2A,z |B,2B,z|\
+  A,4-  |A,4   |D2Dz   |E2E2- |E4|
+|:e2e2  |d2e2  |c2d2   |e2z2  |\
+  e2e2  |d2e2  |c2d2-  |d2z2  :|
+S:https://www.folktunefinder.com/tunes/84448
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:349
+T:Dans l'pot, dans l'sabot dans la grille
+R:Jigue
+C:trad.
+A:Nivernais
+O:France
+Z:S. Piron
+M:6/8
+L:1/8
+Q:1/4=190
+K:C
+e2c|d2effd|e2ce2c|d2effd|c2 z e2c|d2effd|e2ce2c|d2effd|
+c2 ze3|e2de2f|e2de2c|d2effd|e2ce3|e2de2f|e2de2c|d2effd|c3||
+W:
+W:Dans l'pot, dans l'sabot dans la grille
+W:Dans l'pot, dans l'sabot du grillot
+W:Dans l'pot, dans l'sabot dans la grille
+W:Dans l'pot, dans l'sabot du grillot
+W:
+W:Grill' grille ma mie grille
+W:Dans l'pot, dans l'sabot dans la grille
+W:Grill' grille ma mie grille
+W:Dans l'pot, dans l'sabot du grillot
+S:https://www.folktunefinder.com/tunes/83213
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Jigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

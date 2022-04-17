@@ -1,0 +1,31 @@
+X:155
+T:Odessa Bulgarish
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+A df  |:"Dm" a2 "D" ^g2 a2 b2 |"Dm" c'2 "D" b2 a^g "D" f2 |"Dm" ^g/b/a aa a^g f^g |
+ab a^g fe f^g |"Dm" a2 "D" ^g2 "Dm" a2 "D" b2 |"Dm" c'2 "D" b2 a^g "D" f2 |"A7" ef a/^g/f ^g2 a2 |
+"Dm" d3 aa/^g/ ff2 |"A7" ef a/^g/f ^g2 a2 |1 "Dm" d4 zA df :|2 "Dm" d8 ||
+|:"Dm" zd' d'd' d'd' d'd' |"E7" d'c' bd' "Am" c'b ac' |"E7" ba ^gb "Dm" a^g f2 |"A7" ef a/^g/f ^g2 a2 |
+d3 aa/^g/ ff2 |"A7" ef a/^g/f ^g2 a2 |"Dm" d8  :| |:"Dm" .d.d za a/^g/f f2 |
+"A7" f/e/d ef "Dm" ^ga f/e/d |"Dm" .d.d za a/^g/f f2 |1 "A7" ed ef "Dm" d4 :|2 "A7" ed ef d||
+V:2          %2nd voice
+z3  |:.F2 .E2 .F2 .^G2 |.A2 .^G2 FE D2 |D4 F4 |
+D4 F4 |.F2 .E2 .F2 .^G2 |.A2 .^G2 FE D2 |A^G2 A^G2 F2 |
+F3 FF/E/ DD2 |A^G2 A^G2 F2 |1 D4 z4 :|2 D8 ||
+|:z[(F3(A3][F4)A4)]|[^G4B4][A4E4]|[^G4E4][F4A4]|A2 F2 E2 F2 |
+D3 DD/E/ FF ^G|A2 F2 E2 F2 |D8 :| |:.F.F z6 |
+A2 F2 E2 F2 |.F.F z2 z4 |1 E2 ^G2 A4 :|2 A2 E2 F||
+S:https://www.folktunefinder.com/tunes/84032
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

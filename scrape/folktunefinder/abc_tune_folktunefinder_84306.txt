@@ -1,0 +1,30 @@
+X:30
+T:Saltarello
+O:France
+R:Saltarello
+C:Trad.
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-05
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/4
+Q:1/4=200
+K:G
+cd | eA | eA | eA | e2 | dB/c/ | d/c/B/c/ | Ae | A2 | AB | c/B/c/A/ | Gd | G2 | A2 | d>B | B/c/B/A/ |1 
+B/A/G/A/ | B2 | F2 | B2 :|2 B/A/B/G/ | A2 | e2 | A2 || c/B/c/A/ | Bc | dA | dA | dA | d/c/B/c/ | Ae | A2 | AB |:
+cd | eA | eA | eA | e2 | dB/c/ | d/c/B/c/ | Ae | A2 | AB | c/B/c/A/ | Gd | G2 | A2 | d>B | B/c/B/A/ |1
+B/A/G/A/ | B2 | F2 | B2 :|2 B/A/B/G/ | A2 | e2 | A2 |: fg | a2- | az/g/ | f/g/a/g/ | f/g/f/e/ | f/g/a/f/ |
+a/f/ (a/4g/4f/4g/4) | e>d | c/B/c/d/ | eA | eA | eA | e2 | dB/c/ | d/c/B/c/ | Ae | A2 | AB |
+c/B/c/A/ | Gd | G2 | A2 | d>B | B/c/B/A/ |1 B/A/G/A/ | B2 | F2 | B2 :|2 B/A/B/G/ | A2 | e2 | A2 || 
+fg | af | ae | ag | ae | ab | a2 |: fg | a2- | az/g | f/g/a/g/ | f/g/f/e/ | f/g/a/f/ | a/f/ (a/4g/4f/4g/4) | e>d | c/B/c/d/ | eA | eA | eA |
+e2 | dB/c/ | d/c/B/c/ | Ae | A2 | AB | c/B/c/A/ | Gd | G2 | A2 | d>B | B/c/B/A/ |1 B/A/G/A/ | B2 | F2 | B2 :|2 B/A/B/G/ | A2 | e2 | A2 |]
+S:https://www.folktunefinder.com/tunes/84306
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Saltarello
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

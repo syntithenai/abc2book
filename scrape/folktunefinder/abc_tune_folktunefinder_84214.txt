@@ -1,0 +1,28 @@
+X: 73
+T:Tobin's Favorite
+M:6/8
+L:1/8
+C:Tobin.
+R:Jig
+B:O'Neill's Music of Ireland
+N:O'Neill's - 775
+Z:Transcribed by Stephen Foy (shf@access.digex.net)
+Z:abc 1.6
+Q:300
+K:D
+A/F/|"D"DFA dcd|"A"ecA cde|"D"fdf "G"{a}gfg|"A7"ecA GFE|\
+"D"DFA dcd|"A"ecA efg|"D"(f/g/a)f "G"gec|"A7"edc "D"d2:|
+||d|"D"dfa agf|"A7"(e/f/g)e efg|"D"fdf "G"{a}gfg|"A7"ecA GFE|\
+"D"DFA dcd|"A7"ecA efg|"D"(f/g/a)f "A7"gec|"D"edc d2:|
+S:https://www.folktunefinder.com/tunes/84214
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

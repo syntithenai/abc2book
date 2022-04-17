@@ -1,0 +1,39 @@
+X:85
+T:Newcastle
+R:jig
+H:Simpson feels that the surviving tune is not the one which had some
+H:currency in Elizabethan days. He points out that wrenchings of accent
+H:are necessary to accomplish the fit of Playford's dance tune to a
+H:curious fragment of text found in the 18th century Percy folio MS, a
+H:source of dubious authenticity itself.
+H:__ Came you not from Newcastle __
+H:__ Came yee not there away &c __
+H:It is quite possible that this dance was inspired by William,
+H:Duke of Newcastle, a royalist who remained in London and bent
+H:his interests towards the theatre during the interregnum.
+M:4/4
+L:1/8
+Q:200
+K:G
+B2d2 G2A2|G3A G2D2|B2d2 G2d2|e2g4 fe|d2B2A2G2|
+E2e4 dc|d2B2 A2>G2|1 G8 :|2 G6ef||
+gfed g3B|A2 g4 A2|G3A B2F2|E2 e4 f2|gfed
+g3B|A2A2 c3d|e2B2 A3G|G8||
+S:https://www.folktunefinder.com/tunes/84807
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Newcastle_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Newcastle_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

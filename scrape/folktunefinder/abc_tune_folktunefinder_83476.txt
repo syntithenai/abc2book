@@ -1,0 +1,29 @@
+X: 218
+T:Bourre
+M:3/8
+L:1/4
+Q:100
+C:trad
+S:Raymond Berg
+R:Bourre
+O:France
+A:Morvan
+Z:S Piron
+K:C
+G|c>B A|G2c|B/2c/2df|ecG|c>B A|G2c|B/2c/2dB|c2:|
+|:e/2f/2|g>fe|g2f|dfd|ece/2f/2|g>fe|g2f|dfe|c2:||
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83476
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Rhythm Bourre
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

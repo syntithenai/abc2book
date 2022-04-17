@@ -1,0 +1,27 @@
+X: 132
+T: Oranges and Lemons
+M:4/4
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:D
+d2 e2 afed|e3 d B3 A|d3 f afed|e3 f d4|d2 e2 afed|e3 d B3 A|d3 f afed|e3
+ f d2::\
+ga|b6 fg|a4 fe|d3 f afed|e3 d B3 A|d3 f afed|e3 f d2 ga|b6 fg|a6 fe|d3 f
+ afed|\
+e3 d B3 A| d3 f afed|e3 f d4:|
+S:https://www.folktunefinder.com/tunes/85296
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/playf.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

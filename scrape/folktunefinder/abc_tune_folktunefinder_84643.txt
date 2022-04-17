@@ -1,0 +1,30 @@
+X: 14
+T:Grimstock
+M:6/8
+L:1/8
+Q:95
+R:Jig
+H:The A strain appears titled "CLIV Courante" in Michael Praetorius's
+H:"Terpsichore" (1612).
+K:G
+g2f g2d|e>fg f2d|B>cd e2d|cdB c2B|g2f g2d|e>fg f2d|B>cd e2d|c>BA G3||
+GGA BGA|BGA BGA|GGA BGA|BGA G3||
+S:https://www.folktunefinder.com/tunes/84643
+S:http://ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Playford.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/~flip/contrib/dance/playford.abc
+S:http://www.firepowr.com/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/%7Eflip/contrib/dance/playford.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

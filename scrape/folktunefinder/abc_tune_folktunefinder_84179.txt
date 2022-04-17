@@ -1,0 +1,25 @@
+X: 38
+T:Kerry Polka #1
+M:C
+L:1/8
+C:R-108
+R:polka
+Z:Transcribed to abc by Mary Lou Knack
+Q:300
+K:A
+"A"a4 a3f| e2c2 a3f| e2c2 a2c2| "D"B2A2 "E"F2E2|
+"A"a4 a3f| e2c2 a3e| c2e2 "E"B2Bc| "A"B2A2 A4:|
+|:\
+"A"c2e2 e2c2| "D"d2f2 f2d2| "A"c2e2 "E"B2Bc| "D"B2A2 "E"F2E2|
+"A"c2e2 e2c2| "D"d2f2 f2fd| "A"c2e2 "E"B2Bc| "A"B2A2 A4 :|
+%%text 9/1/98
+%  ABC2Win Version 2.1 7/17/2002
+S:https://www.folktunefinder.com/tunes/84179
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

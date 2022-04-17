@@ -1,0 +1,26 @@
+X: 78
+T: Hora Medura
+O: Israel
+I: Dance taught by Yo'av Ashriel
+M: 2/4
+L: 1/8
+Q: 1/4=144
+K: Em
+%%MIDI program 22
+%%MIDI bassprog 117
+%%MIDI gchord ff
+  "f" FA "a" A2  |"a" AA A2|"f" G/F/E2E|"a" FG A2 |
+  "a" FA2A       |AA A2    |"e" G/F/E2E|E2     E2 |
+|:"f" B, "c" E2G |"c" EEE2 |"f" B2B2   |"c"EEE2   |
+  "f"  B, "c" E2G|"c" EEE2 |"f" BBAA   |"c"GFE2   :|:
+  "f" FA "a" -A2 |"a" AA A2|"f" G/F/E2E|"a" FG A2 |
+  "a" FA3        |AA A2    |"e" G/F/E2E|E2     E2 :|
+S:https://www.folktunefinder.com/tunes/84483
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

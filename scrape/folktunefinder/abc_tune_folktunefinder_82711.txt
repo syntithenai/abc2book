@@ -1,0 +1,29 @@
+X:7
+T:Przeworska
+O:poland
+C:Trad.
+M:2/4
+L:1/8
+Z:Aubrey Jaffer <jaffer@ai.mit.edu>
+%E:10
+K:Bb
+"Bb"(3_bag fd |\
+L:1/16
+B2BB dBdf | "F"F2FF AFAc | "Bb"B2BB dBdf |
+L:1/8
+"Bb"(3_bag fd |\
+L:1/16
+B2BB dBdf | "F"F2FF AFAc | "Bb"B2z2B4 |
+L:1/8\
+%E:20
+|: "Gm"GB GB | "D"AD2D | "Gm"GB GB | "D"d z d2 |
+"Gm"GB GB | "D"A D2 D | dc BA | "Gm"G z G2 :|
+S:https://www.folktunefinder.com/tunes/82711
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X:1
+T:Admiral Benbow
+M:4/4
+L:1/8
+K:C
+ E2| A2 A2^G-AB-G| E4 C2 E2| G4 D2 B2| d6|c-B| c2B-A^G-AB-G| A4 C2 E2|\
+ A6A-B| c2 c2 e2 e2| d4| c2- B2| c2B-Ad-cB-A| ^G4 z2 DD| E2 A2 B2 d2|\
+ c2-B-Ac-BA-^G| A4 E2 ^G2| A6 DD| E2 A2 B2 d2| c2-B-Ac-BA-G| A4 E2 ^G2|\
+ A6||
+S:https://www.folktunefinder.com/tunes/84137
+S:http://back.numachi.com:8000/dtrad/abc/ADBENBOW.2.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ADBENBOW.2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

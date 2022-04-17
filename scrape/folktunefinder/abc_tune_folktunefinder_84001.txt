@@ -1,0 +1,42 @@
+X:122
+T:Freylekhs fun der khupe
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+"Cm" c2 d/e/^f/e/ |^fg gg |b/a/g g/^f/e |"G7" g/^f/e e/d/d/c/ |
+"Cm" c2 d/e/^f/e/ |^fg gg |~c'3 g|c' b"G7" ~a g|
+"Cm" c2 d/e/^f/e/ |^fg gg |b/a/g g/^f/e |"G7" g/^f/e e/d/c |
+"Cm" b/a/b/a/ b/a/g | (3c'ba  (3g^fe |1 "G7" a/g/^f e/d/c |"Cm" c3 G:|2
+finea/"G" g/ ^fe/c/ d/e/|"Cm" c2 z/g/^f/g/ ||  |:"Cm" ~c'3 g|~c'3 g|
+~c' g~c' g|~c' gc'  (3c/e/g/ |c'b ag |~^f3/2 e/^f/e/d/ c/|
+"Cm" c'b ag |^f/a/(g g)z |c'b ag |~^f3/2 e/^f/e/d/ "G" c/|
+|1 dd e/d/c/=B/ |c2 "Cm" z/g/^f/g/ :|2 "G" dd e/d/c/=B/ |c2 "Cm" z2 ||
+|:"C" =eg "Bb" g/f/f/=e/ |"C" =eg "Bb" g/f/f/=e/ |"C" g/^f/g/a/ b/a/g/^f/ |gz c'z |
+"C" =eg "C7" g/f/f/=e/ |"F" f3 ^f|"G" a/g/ ^f/e/^f/e/ d/e/|"Cm" c3 G:|
+"Cm" c' z"G" g z|"Cm" c' zz2 |]
+V:2          %2e stem
+z2 |  8  |:e2 g2 |^fe dc |
+g/^f/e e/d/c |e/d/c c/=B/=B/G/ |e2 g2 |^fe dc |
+~c3 e|c d~e g|e2 g2 |^fe dc |
+g/f/e e/d/c |e/d/c c/=B/G |g/^f/g/^f/ g/^f/e | (3agf  (3edc |
+|1 =B2 d2 |e3 c:|2 =B2 d2 |e2 z/c/=B/c/ || |:
+~c3 e|~c3 e|~c e~c e|~c ec z|
+c de g|~a3/2 g/a/g/f/ e/|cd eg |az b/a/g/^f/ |
+cd eg |~a3/2 g/a/g/^f/ e/|1 ^f^f g/^f/e/d/ |e2 z/g/^f/g/ :|2
+ff g/f/e/d/ |e2 z2 || |:c=e =e/d/d/c/ |c=e =e/d/d/c/ |
+=e/d/=e/^f/ g/^f/=e/d/ |cz Gz |c=e =e/d/d/c/ |c3 e|
+^f/e/ d/c/d/c/ =B/c/|e3 e:|e zd z|e zz2 |]
+S:https://www.folktunefinder.com/tunes/84001
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

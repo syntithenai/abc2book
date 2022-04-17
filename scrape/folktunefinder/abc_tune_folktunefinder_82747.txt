@@ -1,0 +1,24 @@
+X: 13
+T:La Fitz James
+C:Nouvelle mthode de galoubet, Chdeville, Paris, vers 1800
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+V:1
+d2c | BGB cAc | B2G d2c | BGB cAF | G3 :: g2d | BAG ABc | B2G g2d | BAG ABA | G3 :|
+G2A | BAB cBc | d3 cdc | BcB ABA | B2G G2A | BAB cBc | d3 cdc | BcB ABA | G3 ||
+g2d | g2G ABc | BAG g2d | g2G ABA | G3 g2d | g2G ABc | BAG g2d | g2G ABA | G3 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/82747
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

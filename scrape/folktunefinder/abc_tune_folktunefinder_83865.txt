@@ -1,0 +1,27 @@
+X: 57
+T:Rondeau de Mirepoix
+O:France
+C:Trad.
+A:Gascogne
+R:Rondeau
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:Cmaj
+"C"GAB cdc | "G"BAB "C"c2c | "C"GAB cdc | "G"BAB "C"c2z |\
+"C"GAB cdc | "G"BAB "C"c2c | "C"GAB cdc | "G"BAB "C"c2z||
+"C"e2e "F"d3 | "F"f2f "C"e3 | "G"g2g gfe | "G"dBd "C"e2c |\
+"C"e2e "F"d3 | "F"f2f "C"e3 | "G"g2g gfe | "G"dBd "G"c3|]
+S:https://www.folktunefinder.com/tunes/83865
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

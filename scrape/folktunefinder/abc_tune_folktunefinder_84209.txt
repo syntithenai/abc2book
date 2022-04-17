@@ -1,0 +1,21 @@
+X: 68
+T:Smash the Windows
+M:6/8
+L:1/8
+Q:300
+K:D
+|:"D"DED F2 A|d2 f ecA|"G"G2 B "D"F2 A|"A"E2 F GFE|\
+"D"DED F2 A| d2 f ecA|"G"Bgf "A"edc|"D"(d3 d2) :|
+|: "D"a|a2 f d2 f|A2 a agf|"G"g2 e "A"c2 e|A2 g gfe|\
+"D"f2 d "G"g2 e|"D"a2 f "G"bag|"D"fed "A"edc|"D"(d3 d2) |
+!"D"agf fed| Adf afd| "G"gfe ecA|Ace gfe|
+"D"fed "G"gfe|"D"agf "G"bag| "D"fed "A"cde|"D" d4|
+S:https://www.folktunefinder.com/tunes/84209
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

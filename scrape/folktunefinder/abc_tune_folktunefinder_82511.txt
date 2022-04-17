@@ -1,0 +1,27 @@
+X:151
+T: ICH HAB EIN KLEINES MURMELTIER
+N: K2256
+O: Europa, Mitteleuropa, Deutschland, Brandenburg
+R: Kinder - Lied, Reigen, Tanz, Nachahmungs - Spiel
+M: 2/4
+L: 1/8
+K: F
+F | cccd | cBA
+F | cccd | c2A
+F | cccd | cBA
+F | dcBA | G2F
+F | cccd | c2A
+F | cccd | cBA
+F | dcBA | G2F
+F | cccd | cBA
+F | dcBA | G2F
+S:https://www.folktunefinder.com/tunes/82511
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz, nachahmungs - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

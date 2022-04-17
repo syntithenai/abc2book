@@ -1,0 +1,22 @@
+X:182
+T:Tshiribim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+"Em" B,E GG GG G3/2 G/|"A" AG FE "Em" AG2 B,|B, EG GG GG3/2 G/|"A" AG "B7" FE "Em" F/G/E "D7" zD |
+"G" DG BB BB B3/2 B/|"C" cB AG "G" cB2 D|D G/G/B B"D" d AA A/G/|"Em" F E"B7" A G"Em" F Ez [E/G/][F/A/]||
+"Em" [G3B3][E/G/][F/A/][G3B3][E/G/][E/G/]|"Am" [Ac]"Em" [GB][FA][EG][F/A/][A/c/][G2B2][E/G/][F/A/]|[G3B3][E/G/][F/A/][G3B3][E/G/][F/A/]|"Am" [Ac]"Em" [GB][FA][EG][F/A/]"E7" [G/B/][EG]z2 |
+"Am" [A/c/]"Em" [A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][B/d/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/]|"B" [A/c/]"Em" [F/A/][F/A/][F/A/][F/A/][F/A/][F/A/][F/A/][GB]"E7" [EG][B2G2]|"Am" [A/c/]"Em" [A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][A/c/][B/d/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/][G/B/]|GD "Dm" E=F "Em" .E2 z/D/E/=F/ |
+.E2 z/D/E/=F/ =FE z"B7" B, |"Em" E2 z2 z4 |]
+S:https://www.folktunefinder.com/tunes/84059
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

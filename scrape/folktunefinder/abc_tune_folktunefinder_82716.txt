@@ -1,0 +1,31 @@
+X:12
+T:Kukulecka
+O:poland
+C:Polen
+M:3/4
+L:1/8
+Q:1/4=143
+K:G
+V:1
+"D" DF A2 A2 |"G" d2 B4 |"D" cB A2 d2 |"G" B2 G4 |
+"D" DF A2 A2 |"G" d2 B4 |"D" cB A2 d2 |"G" B2 G4 |]
+"G" g2 d4 |z6 |"D" fe d4 |z6 |
+"G" BB B3 G|G FG BA G|"D" F GA DE F|"G" G2 G4 |]
+"G" g2 d4 |g2 d4 |"D" fe d4 |fe d4 |
+"G" BB B3 G|G FG BA G|"D" F GA DE F|"G" G2 G4 |]
+V:2          %2e stem
+A,D F2 F2 |B2 G4 |AG F2 B2 |G2 D4 |
+A,D F2 F2 |B2 G4 |AG F2 B2 |G2 D4 |]
+z6 |G2 D4 |z6 |FE D4 |
+GG G3 G|D DE GF E|F GA BB A|G2 G4 |]
+BB B3 G|G FG BA G|F GA3 D|D FA cB A|
+B BB3 G|G FG BA G|F GA DE F|G2 G4 |]
+S:https://www.folktunefinder.com/tunes/82716
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

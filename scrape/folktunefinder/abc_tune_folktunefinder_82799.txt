@@ -1,0 +1,28 @@
+X:9
+T:Le bon messager
+R:chanson
+N:p.241
+N:la partition indique M:3/4
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+B A G2 | B2 DD | GG BA | G2B2 | DD G2 | BA G2 | B2DD | G2z2 | BB BA |
+Bc | dd | de dc | BG A2 || B A/G/ AA | DD GG | B A/G/ AA | DD G2 ||
+W:J'ai une amie dans le monde et ne sais o la trouver, et ne sais o la trouver.
+W:J'ai un message  lui faire et ne sais qui le fera. 
+W:La violettte double double, la violette doublera.
+S:https://www.folktunefinder.com/tunes/82799
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

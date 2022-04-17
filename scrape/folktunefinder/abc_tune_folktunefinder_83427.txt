@@ -1,0 +1,32 @@
+X: 169
+T:Tour
+M:2/4
+L:1/8
+Q:150
+C:trad.
+R:En dro
+A:Bretagne
+W:Y'a bien dix ans, tout le li, tout le long
+W:Y'a bien dix ans mais tout le long du bois
+W:O tais-tu, tais-tu dis-le moi
+W:O tais-tu mais tout le long du bois.
+K:C
+E2 AB c2 AB|cc BAG4|E2 AB cA AB|c2B2A4:|
+|:c2 AB c2 AB|cc dc B4|cc AB cA AB|c2B2A4:||
+W:Y'a bien dix ans, tout le li, tout le long
+W:Y'a bien dix ans mais tout le long du bois
+W:O tais-tu, tais-tu dis-le moi
+W:O tais-tu mais tout le long du bois.
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83427
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Rhythm En dro
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 10
+T:Speed the plough
+O:Angleterre
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/2
+L:1/8
+Q:1/2=88
+K:C
+P:A
+cd ef ga g^f | ga g^f ga ge | =f2ff e2ee | de fe dB GB | 
+cd ef ga g^f | ga g^f ga ge | =fg eg dg cg | GB dB c2 z2::
+P:B
+c2(3dcB c2 e>g | c'2 b>a g>e c>e | f2a>f e2 g>e | d>e f>e d>B G2 |
+c>e g>b c'>g e2 | a>g f>a g>e c2 | fg eg dg cg | G2B2c2z2 :|
+%%footer $D   Galouvielle-MBe 2006 \n-- (France)
+S:https://www.folktunefinder.com/tunes/82744
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

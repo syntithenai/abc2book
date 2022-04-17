@@ -1,0 +1,38 @@
+X:148
+T:Mitzva tants
+O:klezmer
+C:Arr: Trudi Broekema
+M:2/4
+L:1/8
+Q:1/4=96
+K:Dm
+V:1
+"Dm" z(a a)^g/a/ |~^gf e/f/d |z(a a)^g/a/ |^ga d'2 |
+"Dm" z(a a)^g/a/ |~^gf e/f/d |1 "Dm" ~fd/f/ ~_ec/"Cm" _e/ |"Dm" d3 "A" z:|2
+"Dm" a ^g/a/b/"A" b/ c'/^c'/|Hd' HaHd z||  |:"Dm" A/d/ ^c/e/d2 |d/f/e/g/ f2 |
+"Dm" fe/d/ "A" ed/^c/ |"Gm" d^c/B/ "A" ^cA |A/d/^c/e/ d2 |d/f/e/g/ f2 |
+"Dm" aa "Gm" ~ga/b/ |"A" a/g/f/e/ "Dm" d2 :| |:"F" f/g/a/b/ ag |ff f2 |
+f/g/a/b/ ag |ff f2 |"A" e/f/g/a/ ~gf |ee e2 |
+"Dm" d/e/f/g/ "A" fe |1 "Dm" da fd :|2 d3 z|| |:A ff ~e/d/|
+"Gm" d ^c/B/"A" ^c A|A ff ~e/d/|"A" e/f/ g/e/"Dm" f2 |Af f~e/d/ |
+"Gm" d~^c/B/ "A" ^cA |"Dm" aa g"Gm" a/b/ |"A" ~a/g/f/e/ "Dm" d2 :|
+V:2          %2e stem
+z(f f)e/f/ |~ed ^c/d/A |z(f f)e/f/ |ef a2 |
+z(f f)e/f/ |~ed ^c/d/A |1 ~dB/d/ ~cA/c/ |A3 z:|2
+z4 |z4 || |:(d2 d/)f/e/g/ |(f2 f/)a/g/b/ |
+d^c/B/ ^cB/A/ |BA/G/ A^c |(d2 d/)a/a/a/ |(f2 f/)d/d/d/ |
+dd ~B^c/d/ |^c/B/A/G/ F2 :| |:A/B/c/d/ cB |AA A2 |
+A/B/c/d/ cB |AA A2 |^c/d/e/f/ ~ed |^c^c ^c2 |
+A/^c/d/e/ d^c |1 da fd :|2 A3 z|| |:F dd ~^c/B/|
+B A/G/A F|F dd ~^c/B/|^c/d/ e/^c/d2 | (3A2B2^c2 |
+B2 ^c2 |~f~f d2 |f/e/d/^c/ d2 :|
+S:https://www.folktunefinder.com/tunes/84025
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

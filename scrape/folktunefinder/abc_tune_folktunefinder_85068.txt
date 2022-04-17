@@ -1,0 +1,25 @@
+X: 89
+T:Lady Banbury's Hornpipe
+M:3/2l
+L:1/8
+Q:180
+S:Playford
+K:F
+BA| c2 cd c2 AB G2 AB|cAcA c3 A F2 AB| c2 cd c2 AB G2 AB |cAcA c3 A F2:|
+|: fg a2 gf g2 ed c2 fg| a2 gf g3 e c2 fg | agag f2 c2 d2 AB| cAcA c3 A F2 :|
+S:https://www.folktunefinder.com/tunes/85068
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/LadyBanburysHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/LadyBanburysHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/Playford/LadyBanburysHornpipe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

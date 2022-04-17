@@ -1,0 +1,40 @@
+X:142
+T:Mazltov
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=148
+K:Am
+V:1
+EA c |:segno"Am" e2 e2 |_e2 e2 |cB (A2 |
+A)E Ac |e2 e2 |_e2 e2 |"Am" ^fg (e2 |
+"E7" e)e ^f^g |az e2 |_e2 e2 |"Am" cB (A2 |
+A)A Bc |_e3 c|"E7" e/_e/ cc/B/ A|"Am" A4 |
+|1 zE "E" Ac :|2 fine"Am" zG "G" ce || |:"C" g2 g2 |^f2 g2 |
+~ed (c2 |c)G ce |g2 g2 |^f2 g2 |
+"C" a_b (g2 |"G" g)g ab |"C" .c'z g2 |^f2 g2 |
+"C" ~ed (c2 |c)A Bc |"Dm" d/f/(d d)c |"E7" e/_e/c c/B/A |
+"Am" A4 |1 zG "G" ce :|2 "Am" zE "E" Ac || |:"Am" _e3 e|
+(3e_ec  (3cBA |"B7" B4 |zg ^fe |_e3 e|
+"Am"  (3e_ec "E7"  (3cBA |1 "Am" e4 |zE Ac :|2 "Am" A4 |
+z^c "E7" dB ||  |:
+K:A
+"A" c2 c2 |cB BA |c2 c2 |cE AB |
+c2 d2 |cB BA |e4 |"G" [za4].c.d .B|
+"A" c2 c2 |cB BA |e4 |z_e ef |
+(3=gfe  (3e_e=c | (3e_e=c  (3=cBA |1 A4 |z.c .d.B :|2
+"E7" A2 e2 |"Am" aE A=c ||
+K:Am
+"E" z/e/_e/e/ f/^f/g/^g/ |"Am" a2 z2 |"E" e2 z2 |"Am" HA4 |]
+|]
+S:https://www.folktunefinder.com/tunes/84020
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

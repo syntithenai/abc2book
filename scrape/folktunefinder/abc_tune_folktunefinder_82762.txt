@@ -1,0 +1,38 @@
+X:28
+T:Ballade irlandaise
+C:Trad.
+O:Irlande
+R:Valse
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:1/4=130
+K:C
+V:1
+c/d/ |: "C"e2G | G>AG | "F"A2c | c2a | "C"g2e | e>dc | "G"d2d | d2c/d/ | 
+"C"e2G | G>AG | "F"A2c | c2a | "C"g2e | "G"d>ed | "C"c2c | "C"c2c/d/ ::
+"C"g2g | g>eg | "F"a2c' | c'2a | "C"g2e | e>dc | "G7" d2d | d2c/d/ |
+"C"e2G | G>AG | "F"A2c | c2a | "C"g2e | "G"d>ed | "C"c2c | c3 :|
+V:2
+C:Arr. J.-M. Pion
+z |: g2e | c>dc | f2a | a2f | e2c | c>BA | G2B | B2z |
+g2e | c>dc | f2a | a2f | e2c | c>BA | G2A | c3 ::
+E/G/ A/c/ c | G/A/ B/c/ e | F/A/ c/d/ f | FAc | E/G/ A/c/ e | G/B/ c/d/ e | G/B/ d/e/ f | B2 A/B/ |
+c2c | c>ec | c2f | f2c | e2c | B>cB | e c/B/ A/G/ | G3 :|
+V:3
+z |:E/G/ E/G/ E| E>FE | F/A/ F/A/ F | F2A | c/g/ c/g/ c| A>GE | GBG | G3 |
+E/G/ E/G/ E/G/ | E>FE | A/F/ A/F/ A/F/ | F2A | g/e/ c/B/ A/G/ | B>cB | e/d/ c/B/ A/G/ | e3 ::
+ecG | G>EG | F2A | A2F | EGc | c>BA | G2A/B/ | G2 A/B/ |
+ceg | g>eg | f2f | fed | c2c | f>gf | g2g | ecG :|
+%%footer $D   Galouvielle-MBe 2006 \nValse (Sude)
+S:https://www.folktunefinder.com/tunes/82762
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

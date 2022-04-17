@@ -1,0 +1,26 @@
+X: 1
+T: Adir Hu
+C: Shlomo Carlebach
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu>
+K: E^G
+"A"|:z2 | "E"(GA) (Bc) B4 | (GA B)c B2 B2 | (GA B)c "Dm"d(d2 c) | BA GF "E"E2 :|
+"B"|:z2 |  "E"E2 B2 B4 | "Dm"(BA) (cB) "Am"A3 A |1 "F"(A2 B2) (G2 A2) | "E"B6 :|2 "F"(A2 B2) (G2 F2) | "E"E6 ||
+"C"|:e>d | "E"e6 e>d | "C"e6 ze | "Dm"f2 e2 d2 c2 | "E"B6 :|
+"B"|:z2 | "E"E2 B2 B4 | "Dm"(BA) (cB) "Am"A3 A |1 "F"(A2 B2) (G2 A2) | "E"B6 :|2 "F"(A2 B2) (G2 F2) | "E"E6 |]
+|: "E"GA Bc B4 | GA Bc B2 B2 | GA Bc "Dm"dd2 c | BA GF "E"E4 :|
+|: "E"E2 B2 B4 | "Dm"BA cB "Am"A3 A |1 "F"A2 B2 G2 A2 | "E"B6 z2 :|2 "F"A2 B2 G2 F2 | "E"E6 e>d ||
+|: "E"e6 e>d | "C"e6 ze |1 "Dm"f2 e2 d2 c2 | "E"B6 e>d :|2 "Dm"f2 e2 d2 c2 | "E"B6 z2 ||
+|: "E"E2 B2 B4 | "Dm"BA cB "Am"A3 A |1 "F"A2 B2 G2 A2 | "E"B6 z2 :|2 "F"A2 B2 G2 F2 | "E"E6 z2 |]
+S:https://www.folktunefinder.com/tunes/83908
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/AdirHu_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/AdirHu_EH.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/AdirHu_EH.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

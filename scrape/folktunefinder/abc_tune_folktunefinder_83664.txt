@@ -1,0 +1,27 @@
+X: 81
+T:Russian,The. JC.079
+T:Opera Hat,aka. JC.079
+M:2/4
+L:1/8
+Q:240
+C:Opera Hat,aka.
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Country-dance
+O:England
+A:Northamptonshire
+N:
+Z:vmp.P. Headford
+K:G
+.D.G|B2.D.G|A2DG|(cd)(Bc)|A2.D.F|A2.D.F|A2(dc)|(Bc)(AB)|G2:|!
+|:dc|B2(BA)|G2(gf)|(e^d)(ef)|e2cA|.A2(AG)|(EA)dF|(GF)(GA)|G2:|!
+|:DG|(BG).d.g|bg .DB|(cd) (Bc)|(BA) .D.F|(AF) .d.f|(af) .g.c|Bc AB|G2:|!
+|:d>c|(BG) (BA)|.Gfg(f|e)^d(ef)|e2cB|AFAG|FAdF|GFGA|G2:|]
+S:https://www.folktunefinder.com/tunes/83664
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Country-dance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

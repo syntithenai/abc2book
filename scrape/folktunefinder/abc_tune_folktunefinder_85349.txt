@@ -1,0 +1,22 @@
+X: 8
+T: The Banks of Allan
+M:6/8
+L:1/8
+Q:200
+C:Playford
+O:Playford
+A:English
+K:D
+A|FGF FED|FAA A2 d|Bdd Add|Bdd Add|FGF FED|FAA A2 d|BdB AGF|FAA A2d|Bdd
+Add|\
+Bdd Add|FGF FED|FAA A2 d|BdB AGF|GEE E2|| g|fgf {g}fed|faa a2 g|fgf fed|
+\
+fbb bag|f>ga efg|def fed|BdB {b}agf|GEE E2:|
+S:https://www.folktunefinder.com/tunes/85349
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

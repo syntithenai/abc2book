@@ -1,0 +1,52 @@
+X:86
+T:A dreidele far alle
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+G |:segno"C" c4 |zd _e/e/c |"Dm" d4 |
+z(^c/d/ _e/e/f/^f/) |"G" gf/g/ fe |~ed/e/ dc |"C" ^fg _b/a/g |
+~fe _ee |"C" c4 |z/G/c/d/ {_e/}ec |{^c/}"Dm" d4 |
+z(^c/d/ _e/e/f/^f/) |1 "G" gf/g/ fe |~ed f/e/d |"C" c4 |
+c'3 G:|2 fine"G7" g f/g/f e|~e d/e/d c|"C" B c_e e|
+"E7" e/_e/ cc/B/ A||  |:"Am" A3/2 B/cd |e^f g/^f/e |^f(g (g2) |
+g4) |ag ~^f3/2 e/|_e/e/^f/ e/_e/c/B/ A/|_e(e e2) |
+a4 |"Am" A3/2 B/cd |e^f g/^f/e |^f(g (g2) |
+g4) |1 "Am" ag/^f/ g/^f/e |"E7"  (3_ee_e  (3cBA |"Am" A4 |
+z_E/E/ F/^F/G/^G/ :|2 "Am" ag ~^fe |"E7" e/_e/c c/B/A |"Am" A4 |
+zA ce || |:"Am" .ae/a/ g/^f/e |~_ec c/B/A |_e(e e2) |
+zA/c/ e/A/c/e/ |.a.g ^f.e |"Am" e/_e/c c/B/A |B(c c2) |
+zA ce |"Am" ae/a/ g/^f/e |"Am" ~_ec "A7" c/B/A |"Dm" ^c(d d2) |
+f4 |"E7" _e/e/f e/_e/c |e/_e/c c/B/A |1 "Am" A4 |
+zA ce :|2 "Am" A2 "G#" ^G2 |"G7" G2 zG ||"C" gf/g/ fe |
+ed/e/ "G" dg |"C" Hc'z "G" Hgz |"C" Hc4 ||
+V:2          %C-klarinet
+c4 |  |z |:C3/2 E3/2 G|
+C3/2 E3/2 G|D2 ~a2 |~a2 ~a2 |GA B/c/d |
+ef g/a/b |(c'4 |c'4) |C3/2 E3/2 G|
+C3/2 E3/2 G|D2 ~a2 |~a2 ~a2 |1 G/A/B/c/ de/f/ |
+~gf/e/ dB |e4 |z4 :|2 fineG/A/B/c/ de/f/ |
+~gf/e/ f2 |e3 c|B2 ^G2 || |:A4 |
+c2 e2 |c'/d'/c'/b/ c'/d'/c'/b/ |c'/d'/c'/b/ c'/d'/c'/b/ |^fe ~_e3/2 c/|
+B/c/_e/ c/B/A/^G/ A/|B(c c2) |c'/d'/c'/b/ c'/d'/c'/b/ |A4 |
+c2 e2 |c'/d'/c'/b/ c'/d'/c'/b/ |c'/d'/c'/b/ c'/d'/c'/b/ |1 ^fe/_e/ e/_e/c |
+B3 ^G|A4 |z4 :|2 ^fe ~_ec |
+c/B/A A/G/A |A4 |a4 || |:A4 |
+c2 e2 |^f/g/a/b/ c'2 |c'2 c'2 |A4 |
+c2 e2 |d/e/^f/g/ a2 |a2 a2 |A4 |
+c2 e2 |A3/2 d3/2 f| (3a_ba  (3gag |^g4 |
+e2 d2 |1 c4 |z4 :|2 A2 ^G2 |
+G2 zz ||z4 |z4 |z4 |
+z4 ||
+S:https://www.folktunefinder.com/tunes/83965
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

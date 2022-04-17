@@ -1,0 +1,20 @@
+X:65
+T:Kitty McGee
+M:6/8
+L:1/8
+K:D
+"D" d2 d AFA | d3 "A7" efg | "D" f2 d "E7" e2 d | "A7" cec ABc |
+"D" d2 d AFA | d3 "G"  efg | "D" f2 d "A7" e2 c | "D" ddd d2 A ||
+|: "D" d2 f "B7" agf | "Em" e2 f "A7" g3 | "D" f2 d "G" e2 d | "A7" cec A3 |
+"D" a2 a "B7" g2 f | "Em" e2 f "A7" g3 | "D" fed "A7" edc | [1 "D" ddd d2 A :| [2 "D" ddd d z2 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84906
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

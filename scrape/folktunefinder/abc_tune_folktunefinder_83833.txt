@@ -1,0 +1,32 @@
+X: 250
+T:Nightingale,The. JC.255
+M:C|
+L:1/8
+Q:120
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Air
+O:England4
+A:Northamptonshire
+N:MR Bars 1.2.3.5.,the dots are moved from before the qu's,as in ms to
+N:after as here.Bars 9.11.19.crot in MS given as dotted crot.
+Z:vmp.P. Headford
+K:D
+a2|f3e d<e d<e|f3e d<e d<e|f<g f<e d<e f<g|a3ba2|!
+|"qu"f2|a2aga>ba2a>g|g>f g>a g>fg>a|b2B4c>d|!
+e3d cBA2|a2ed cBA2|a3b ag fg|e3dd2|!
+|g>a|b2g2g2g>a|b2gag2ga|bg bg bg bg|ce ce ce ce|!
+a2ed cBA2|a2ed cBA2|a3b ag fg|e2d2"qu"d2||!
+ga|bg gg gg gg|bg gg gg gg|bg bg bg bg|f>d f>d f>d f>d|\
+b2e>d c>BA2|]
+S:https://www.folktunefinder.com/tunes/83833
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

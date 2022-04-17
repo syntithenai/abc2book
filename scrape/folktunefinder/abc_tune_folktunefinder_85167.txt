@@ -1,0 +1,25 @@
+X: 2
+T:Althea
+M:6/8
+L:1/8
+Q:120
+C:Playford
+S:Manuscript
+O:Playford
+A:English
+K:Gm
+d/2e/2| f2 f f2 f| f3 d>ef| g2 g f2 e| d3 d2 d| c3 F2 d| c3 GAB| c B2 B2
+ A|B3 B2::
+B|c3 c3 | Bcd e2 G| cdc c2 B| c3 c2 f|f3 f c2| d3 d G2| c B2 B2 A| B3 B2
+ B::
+S:https://www.folktunefinder.com/tunes/85167
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/playf.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

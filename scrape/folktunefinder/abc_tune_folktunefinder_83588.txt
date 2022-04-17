@@ -1,0 +1,29 @@
+X: 5
+T:Moll i' the Wad. JC.005
+M:6/8
+L:1/8
+Q:120
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Jig
+O:England
+A:Northamptonshire
+N:MS key sig is C.
+Z:vmp.P. Headford
+K:C
+f|ede c2B|A2Bc2d|ede c2e|dBGG2f|!
+edec2B|A2Bc2d|ede gfe|dBGG2:|!
+|:f|edeg2f|eceg2f|ece gfe|addd2f|!
+ecea2g|ece gab|c'ba gfe|dBGG2:|]
+W:Song text exists. See Deacon.|
+S:https://www.folktunefinder.com/tunes/83588
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

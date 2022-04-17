@@ -1,0 +1,25 @@
+X:0519
+T:"The Advice"     (air)     0519
+C:after Sg't.  J. O'Neill
+C:moderate
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:2/4
+L:1/16
+K:G
+"_vb"(D2G2).G2 (AB)|D2E2=F2 (G3/2F/2)|(D2G2).G2 (AB)|B2(c3/2B/2) A2G2|
+(D2G2).G2 (AB)|D2E2 =F4|(D2G2).G2 (AB)|B2(cB) {B}A2G2||
+G2(B3/2c/2) d3d|e2(c3/2e/2) d4|G2(B3/2c/2) d2B2|d2(cB) B2A2|
+G2(B3/2c/2) d2=f2|e2(c3/2e/2) d3B|(c2B2).A2 (G3/2B/2)|d2BG TRA2G2|]
+S:https://www.folktunefinder.com/tunes/85478
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0519-Advice.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0519-Advice.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

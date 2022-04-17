@@ -1,0 +1,27 @@
+X: 17
+T:Be'er Basadeh
+O:Israel
+M:2/4
+L:1/8
+Q:1/4=180
+K:Fdor
+%%MIDI program 1
+%%MIDI drum dd3 44 32
+%%MIDI drumon
+|:"Fm"FEF2     |FEF2    |FEFG     |AGA2        |\
+  FEF2         |FGAG    |FEF2     |F4          :|
+  ABc2         |c2F2    |GA"Eb"B2-|B4          |\
+  "Fm"AGAG     |FE"Eb"G2|"Fm"A2F2-|F4          |
+  GA"Eb"B2     |B2B2    |"Fm"c2A2 |"Eb"G2"Fm"F2|\
+  "Eb"E2"Fm"F2-|F4      |
+S:https://www.folktunefinder.com/tunes/84422
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

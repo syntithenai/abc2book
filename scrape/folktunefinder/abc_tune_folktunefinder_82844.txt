@@ -1,0 +1,25 @@
+X:36
+T:Hanter Dro "Clam" No 2
+R:Hanter Dro "Clam"
+C:Traditionnel
+A:Bretagne
+O:France
+Z:J.M. HENRY
+M:3/4
+L:1/16
+Q:1/4=100
+K:C
+|:e2dc d2e2 c2A2 | e2dc d2e2 c2A2 | e2dc d2e2 c4 :|
+A2Bc d2d2 c4 | e2dc B2c2 A4|A4 zz |A2Bc d2d2 c4 | e2dc B2c2 A4||
+% Output from ABC2Win  Version 2.1 f on 17/01/99
+S:https://www.folktunefinder.com/tunes/82844
+S:http://www.tradfrance.com/matf05.txt
+% Rhythm Hanter dro %22clam%22
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

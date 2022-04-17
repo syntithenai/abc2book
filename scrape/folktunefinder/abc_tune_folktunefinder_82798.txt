@@ -1,0 +1,32 @@
+X:8
+T:Adieu donc ma chre Nanon
+R:chanson
+N:p.227
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:3/4
+L:1/8
+Q:1/4=100
+K:C
+E | E A A3 B | A ^G A B3 A | G F E3E | E A A3 B |
+A ^G A B3 A | G F E3E | E A A B A (A/B/) |
+c c c c c/ c/ d/ c/ | B/ A/ ^G/ A/ B3 E |
+A B c c d c | A/ B/ ^G/ F/ E/ F/ G/ B/ A3/2 z |
+W:J'ai fait une matresse, trois jours n'y a pas longtemps,
+W:je m'suis loign d'elle, je n'la vois pas souvent.
+W:J'irai la voir dimanch' n'aura-t-elle pas chang de sentiment 
+W:Je n'en sais rien ; je me suis engag pour sept ans, 
+W:adieu donc, ma chre Nanon.
+S:https://www.folktunefinder.com/tunes/82798
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

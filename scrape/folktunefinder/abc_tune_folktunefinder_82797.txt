@@ -1,0 +1,29 @@
+X:7
+T:La demande en mariage
+R:chanson
+N:
+N:p.1179
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=120
+K:A
+z4 z A B c | d3 d d d A B | (c2B) z 
+     A B c | d3 d d d A B | (c2B) || 
+z B B e | e2 c2 A2 =c2 | d4 =c>d e d | B A B d =c3 B2 | A3 z || 
+z B B e | e2 ^c2A2 =c2 | d4 =c>d e d | B A B d =c3 B2 | A3 z ||
+S:https://www.folktunefinder.com/tunes/82797
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

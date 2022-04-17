@@ -1,0 +1,25 @@
+X:20
+T:Branle de la Montarde
+C:Thoinot Arbeau
+O:16e sicle
+M:8/2
+L:1/2
+Q:1/2=220
+K:Fmaj
+V:1
+[P:A]|: d>efd gefd  dddd cBAG | defd gefd |
+cd/2c/2BA/2G/2 G A/2 F/2 G zfine :: [P:B1,B2] g a/2g/2 fefdc2 :: [P:B3,B4]g a/2g/2 fefdc2 ::
+V:2
+|: d>cBA dcdB  B/2A/2B/2c/2B/2A/2B/2c/2 GddB | dcBA dcdB |
+eg/2e/2fe/2d/2 dd/2c/2d z :: dd/2d/2 dg a/2g/2a/2f/2 e2 :: d/2e/2d/2c/2 dg/2a/2 dd/2f/2 e2 ::
+%%text B est est jou autant de fois que de danseurs dans une chaine.
+S:https://www.folktunefinder.com/tunes/83863
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 8/2
+% Has_accompaniment_chords Has chords

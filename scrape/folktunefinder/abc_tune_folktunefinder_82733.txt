@@ -1,0 +1,29 @@
+X:1
+T:Adele Blanc-Sec
+C:Frederic Paris
+A:France 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Dm
+FEFA GFGB | A2E2 E2FG | A3c BABc | A4A4 |
+FEFA GFGB | A2E2 E2FG | A2GF EFGA |1 D4-D4 :|\
+                                  [2 D2EF GABc ||
+|:\
+d2cB ABcd | GABcA4 | B2AG E3B | AGEG F2D2 |
+d2cB ABcd | GABcA4 | B2AG E3B | AGEFD4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/82733
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/adele_blanc-sec.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:13
+T:Lve le pied
+R:chanson 
+N: 
+N:p.378
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=80
+K:F
+E F | G c G/ G/ E/ F/ | G c G G/ G/ |
+     G c B/ _A/ G/ A/ | F c F =A/ B/ | 
+     c f/ c/ c/ d/ c/ B/ | A G c A/ B/ |
+     c f/ c/ c/ d/ c/ B/ | A G F2 ||
+W:Nous tions trois filles bonnes  marier,
+W:nous nous en allmes dans un pr danser.
+W:Lve le pied, ma compagne oh ! qu'il fait bon danser (2x)
+S:https://www.folktunefinder.com/tunes/82807
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

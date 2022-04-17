@@ -1,0 +1,23 @@
+X: 27
+T:Jamie Allen
+R:polka
+Z:id:hn-polka-26
+M:4/4
+L:1/4
+Q:300
+K:G % transposed from D
+"G"(G/4A/4B/4)G G G/2A/2|B2 A A/2B/2|"Am"c A AB|"D"cd/c/ BA|
+"C"Gg ge| "G"d2 B B/2c/2|"D" d d  c/2B/2 A|"G" G2 G>A:|
+|"G"Gg gf|ed cB|"Am"Aa ag|"D" f d e f|"C"g>a g e|
+"G"d2 B B/2c/2| "D"d d c/2B/2|"G"G4:|
+S:https://www.folktunefinder.com/tunes/84169
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

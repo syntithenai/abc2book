@@ -1,0 +1,27 @@
+X:21
+T:Estampie et ungaresca
+C:Anonyme
+O:Moyen-ge
+M:6/8
+L:1/8
+K:C
+%%continueall 1
+%%maxshrink 0.65
+c2B c2d | e3 e2f | g3 g2f | e3 e3 :|
+e2g e2g | f3 d2e | f2d e2c | d3 B2c | d2d B2c | d6 | e2g e2g | f3 d2e | f2d e2c | d3 B2c | d2e c2B | c6 |]
+T:Ungaresca
+M:2/4
+cc dc | cG GA/B/ | cc dc | G2G2 :: ee ed/e/ | fe dc | ee ed/e/ | fe df | ec dc/B/ | c2c2 ::
+M:6/8
+c2c d2c | c2G G>AB | c2c d2c | G3G3 :: e2e e>de | f2e d2c | e2e e>de | f2e d2f | e2c d>cB | c3c3 :|
+%%newpage
+%%text Voici maintenant une suite de rondeaux de Gascogne
+S:https://www.folktunefinder.com/tunes/83864
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

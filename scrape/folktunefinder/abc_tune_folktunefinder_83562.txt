@@ -1,0 +1,29 @@
+X: 304
+T:Bourree Lozrienne
+M:3/8
+L:1/16
+S:L'accordon en Auvergne
+R:bourree
+P:4
+K:C
+"Intro" [G2B2]|[G4c4]  [G2B2]|[G4c4]  [G2B2]|[G4c4]   |: G2|| c2dedc|Bdc
+4   |dedef2|ded2G2|c2dedc|Bd c4  |dedef2|d4   G2||c2Bcde|f2d2e2|c2dedc|B
+2 G4   |c2Bcde|f2d2g2|egfedB|c4   g2 || agegfe|def2d2|g2egfe|d4  gg|ageg
+fe|def2d2|g2egfe|d4   G2||c2Bcde|f2d2e2|c2dedc|B2 G4   |c2Bcde|f2d2g2 |e
+gfedB|c4   :| "Coda" ![G2B2] [G4c4]    ||
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+% Output from ABC2Win  Version 2.1 i on 14.04.2001
+S:https://www.folktunefinder.com/tunes/83562
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

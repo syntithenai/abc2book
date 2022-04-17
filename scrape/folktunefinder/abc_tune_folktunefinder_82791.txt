@@ -1,0 +1,44 @@
+X:1
+T:Les sabots d'Anne de Bretagne
+R:chanson
+N:p.7
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=150
+K:Bb
+      G2G | B2B A2A | G2G B2B | c2c(d3 |\
+d2) z G2G | B2B A2A | G2G B2B | c2c(d3 |
+d2) z d2d | d2e (d3 | d2)cc2B | G2AB2B |\
+A2GA2A | G2B(d3 | d2) z c2e | d2c HB2A | G3-G2 z ||
+W:C'tait Anne de Bretagne - avec des sabots (bis)
+W:Revenant de ses domaines,
+W:en sabot mirlitontaine, ah ! ah ! ah !
+W:Vive les sabots de bois !
+W:
+W:Revenant de ses domaines - avec des sabots (bis)
+W:Entoure de chtelaines
+W:en sabot mirlitontaine (...)
+W:
+W:Voil qu'aux portes de Rennes,
+W:L'on vit trois beaux capitaines
+W:offrir  leur souveraine
+W:Un joli pied de verveine
+W:s'il fleurit tu seras reine
+W:Elle a fleuri la verveine
+W:Anne de France fut reine
+W:les breton sont dans la peine
+W:Ils n'ont plus de souveraine.
+S:https://www.folktunefinder.com/tunes/82791
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

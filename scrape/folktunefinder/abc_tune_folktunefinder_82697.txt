@@ -1,0 +1,33 @@
+X:4                          % number
+T:Belle qui tients ma vie    % title
+C:Thoinot Arbeau             % composer
+N:Thoinot Arbeau was an anagram of Jehan de Tabourot
+N:A professor of mathematics
+O:Orchsographie             % origin.
+S:Transcribed from an arrangement by Karl Aloritias.
+M:C|                         % meter
+L:1/4                        % length of shortest note
+Q:                           % tempo
+K:F                          % key
+V:1 name=Soprano sname=sop.  % voice 1
+V:2 name=Alto sname=alt.
+V:3 name=Tenor sname=ten.
+V:4 name=Bass sname=bass clef=bass
+[V:1]|: G2 G ^F | G A B2 | B d c B | B A B2 :|
+S:https://www.folktunefinder.com/tunes/82697
+S:http://kittybriton-abc.blogspot.com/search/label/free%20sheet%20music
+S:http://kittybriton-abc.blogspot.com/search/label/pavane
+S:http://kittybriton-abc.blogspot.com/search/label/bransle
+S:http://kittybriton-abc.blogspot.com/2008_03_01_archive.html
+S:http://kittybriton-abc.blogspot.com/2008/03/invitation-to-dance.html
+S:http://kittybriton-abc.blogspot.com/search/label/Renaissance
+S:http://kittybriton-abc.blogspot.com/search/label/dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

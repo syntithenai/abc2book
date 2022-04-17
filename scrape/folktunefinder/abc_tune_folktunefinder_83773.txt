@@ -1,0 +1,33 @@
+X: 190
+T:Black Ey'd Susan. JC.192
+M:3/4
+L:1/4
+Q:80
+C:words,John Gay,tune, R Leveridge
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Air
+O:England
+A:Northamptonshire
+N:
+Z:vmp.P. Headford
+K:G
+Be"tr"f|(gf)e|e^d/e/f|c3|cBA|(GF)E|!
+(G3/4A/4)B"tr"A{G/4A/4}|c3|Be"tr"f|\
+(gf)e|(g3/4a/4 b)"tr"a{^g/4}|b3|!
+bag|d2g|{b/}(ag)"tr"f|{e/4f/4}g3|\
+ba"tr"g|(ag)f|!
+gfe|^def|B3|\
+Gc^c|(d^c)B|!Bef|(gf)b|B2e|(fe)"tr"^d|e3|]
+W:Song text exists. See Deacon.|
+S:https://www.folktunefinder.com/tunes/83773
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:393
+T:Rondeau de M. Lalanne
+R:rondeau
+C:trad.
+A:Landes
+O:France
+Z:S. Piron
+M:6/8
+L:1/8
+Q:1/4=170
+K:C
+e|:c2cc2e|g2gg2e|d2dd2e|1fgfede:|2fedc3|
+|:efgefg|efgg2f|1defdef|deff2d:|2defa2g|fedc2e||
+S:https://www.folktunefinder.com/tunes/83257
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

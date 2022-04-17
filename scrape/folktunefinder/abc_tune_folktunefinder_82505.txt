@@ -1,0 +1,25 @@
+X:145
+T: SEHT IHR MEINE HERREN
+N: K2242
+O: Europa, Mitteleuropa, Deutschland, Westfalen, Hoerde
+R: Kinder - Lied, Reigen, Tanz, Nachahmungs - Spiel
+M: 2/4
+L: 1/8
+K: D
+ | DEFG | A2A
+A | BBdB | A2z2
+GGGG | FFFF
+EEEE | DFAA
+dAAA | dAA
+A | DEFG | A2z
+G | FFEE | D2z2
+S:https://www.folktunefinder.com/tunes/82505
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz, nachahmungs - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

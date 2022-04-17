@@ -1,0 +1,40 @@
+X:87
+T:A glezele yash
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" CC CE |"G" G2 GF |"Cm" G2 c2 |G4
+|"C7" GB GG |"Fm" F4 |"Bb" BG GF |1 "Eb" (G2 "G7" G2) :|2
+"Eb" E2 "G7" G2 ||  |:c2 G2 |"Ab" ed c2 |"Bb" BG GG |
+"Eb" B4  |"C7" Bc "Fm" G/G/F |"G7" zG "Cm" C2 |1 "Ab" EE "G7" DD |
+"G7" G4 :|2 "Ab" EE "G7" DD |"Cm" C4 ||
+V:2          %2e stem (acc.)
+C4 C8 C8 C8 |c4 |=B4 |c3 B|
+G G^F F|=E4 |FG GF |G2 G[GF]|
+|1 B2 =B2 :|2 E2 D2 || |:C4 |E4 |
+F4 |GF ED |=E2 FG |=B2 c2 |
+|1 G2 G2 |=B4 :|2 G2 =B2 |c4 ||
+V:3          %2e stem (sax)
+c4 c4 c4 c4 |C3 C|E3 F|G4 |
+cB GG |=E4 |CD EF |D4 |
+|1 GF ED :|2 GF ED || |:E2 G2 |c2 e/d/e |
+d2 B2 |G2 E/D/E |zE zF |zG c2 |
+|1 G2 =B2 |d2 =B2 :|2 G2 =B2 |c4 ||
+V:4          %2e stem
+c4 c4 c4 c4 |C3 C|E3 F|G4 |
+cB GG |=E4 |CD EF |D4 |
+|1 GF ED :|2 GF ED || |:E2 G2 |c2 e/d/e |
+d2 B2 |G2 E/D/E |G2 F2 |G2 E2 |
+|1 C2 F2 |GF ED :|2 C2 D2 |E4 ||
+S:https://www.folktunefinder.com/tunes/83966
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

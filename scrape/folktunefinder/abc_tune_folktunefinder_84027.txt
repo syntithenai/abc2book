@@ -1,0 +1,21 @@
+X:150
+T:Nigun 13
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" F3/2 E/DD DD DD |"Gm" DG GF/E/ "Dm" F2 F2 |"Dm" A3/2 G/FF FF FF |"Gm" DG "A7" GF/E/ "Dm" D2 D2 :| |:
+"Dm" AG AG GF/E/ F2 |FE "Gm" DG GF/E/ "Dm" F2 |"Dm" AG AG "Gm" GF/E/ F2 |1  (3FED "C7" BB "F" A4 :|2
+"Dm"  (3FED "A7" EE "Dm" D4 ||
+|]
+S:https://www.folktunefinder.com/tunes/84027
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

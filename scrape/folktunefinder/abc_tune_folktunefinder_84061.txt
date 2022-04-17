@@ -1,0 +1,24 @@
+X:184
+T:Tsu dayn geburtstog
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+V:1
+"D" D2 D3/2 D/D2 A,2 |DA, DF A4 |"A7" E3/2 E/G3/2 G/F2 E2 |"D" DC DB, A,2 z2 |
+"D" D2 D3/2 D/D2 A,2 |DA, DF A4 |"E7" ^G3/2 ^G/^G^G ^GE F^G |"A" A2 A2 A2 zA |
+"D" AF DF "A" EC A,A |"D" AF DF "A" EC A,A |"D" Ad AF "A7" G2 E2 |"D" D6 z2 |]
+V:2          %Onderterts
+A,2 A,2 A,2 A,2 |A,2 D2 F4 |C2 E2 D2 C2 |A,2 B,2 C2 z2 |
+A,2 A,3/2 A,/A,2 A,2 |A,A, A,D F4 |E2 E2 D2 D2 |C2 [C2E2][G2E2 C2]zF |
+D2 [F2D2][G2C2][A2C2]|D2 [D2F2][C2G2][C2A2]|D2 [D2F2][G2C2 E2][C2c2 A2]|[d6F6 D6 A6]z2 |]
+S:https://www.folktunefinder.com/tunes/84061
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

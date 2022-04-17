@@ -1,0 +1,37 @@
+X:118
+T:Drei Dreidele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:F
+V:1
+"Dm" FA AA |AA A2 |"G" AG GG |"Gm"  (3GFE G2 |
+"F" GF2 A|c2 B2 |"F" B(A3 |"A7" A4)
+|"Dm" Ad dd |"F" c/B/A c2 |"Am" F/A/G "C" GG |"C7" G/F/E G2 |
+"Dm" F(F "Bb" F)D |"A" F2 "A7"  (3EDE |"Dm" (D4 |D2) "A7" z2 |
+:| |:"Dm" D3/2 E/FE |DD DC |"F" F3/2 G/AG |FF FF |
+F3/2 A/"C7" cB |"F" AG FG |1 "A7" AG FE |"Dm" D2 D2 :|2
+"A7" AB B^c |"Dm" d2 d2 || |] "Dm" d^c cB |BA ^GA |
+"Gm" BA ^GA |"A7" BA ^GA |"Dm" d^c cB |BA ^GA |
+"A7"  (3A/B/A/ ^G/A/B A|"A7" z ^c"Dm" d2 |]
+V:2          %2e stem
+d2 |  |8  |:F4 |
+F4 |B,4 |B,4 |A,4 |
+E4 |zF FF |E/F/E/D/ ^C2 |zA AA |
+zF FF |zE EE |B4 |A2 d2 |
+^c2 e2 |zd dd |d/^c/d/e/ fe :| |:F3/2 G/AG |
+FF FG |A3/2 B/cB |AA AA |A3/2 c/ed |
+cB AG |1 ^C^C DE |F4 :|2 AG FE |
+D2 D2 ||
+D4 |F4 |G4 |E4 |
+D4 |D4 |^C2 E2 |zE D2 |]
+S:https://www.folktunefinder.com/tunes/83997
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

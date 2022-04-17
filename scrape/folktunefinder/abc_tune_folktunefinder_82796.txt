@@ -1,0 +1,28 @@
+X:6
+T:Les trois gas de guer
+R:chanson
+N:
+N:p.145
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+C C D | E2 G2 | D C C D | E2 G2 | D3E | E D D (A,/C/) |
+w:Il -tait| trois bons | gas, il -tait | trois bons | gas de | la vil-le de * |
+(3DDD D>E | E D C B,/ C/ | D2 C z ||
+w:Guer_ lon la, du | bourg de Ca-ren *|toir_.
+S:https://www.folktunefinder.com/tunes/82796
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

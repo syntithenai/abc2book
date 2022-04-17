@@ -1,0 +1,37 @@
+X:277
+T: To Life
+O:klezmer
+Z: 1998 John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+N:
+N: 64-bar contradance arrangement by John Chambers
+L: 1/4
+M: 4/4
+K: Dm
+A \
+|: "E7"fzze | "A7"dzz^c | "Dm"dAz2 | z2zA | "D"d_e2d | cB2A | "Gm"Bzz2 | "G7"zG_GF | "C7"Ec2B |
+| "F"A^GA2 | "Bb"DB2A | "Eb"G^FG2 |1 "Bb"zd2d | "Cm"_ed2e | "A"=e4- | e2zA :|2 "Cm"z_e2e | "A7"=e^d2e | "D"^f4- | f2z2 ||
+|: "Gm"d2 d2 | ^cd=cB | "Dm"A2A2 | ^GA=GF | "E7"E2E2 |1 "A7"EFG^G | "Dm"A4- | "D7"A2z2 :|2 "E7"FE^DE | "A7"A4- | A2zA ||
+|| "E7"fzze | "A7"dzz^c | "Dm"dAz2 | z2zA | "D"d_e2d | cB2A | "Gm"Bzz2 | "G7"zG_GF |
+| "C7"Ec2B | "F"A^GA2 | "Bb"DB2A | "Eb"G^FG2 | "Cm"z_e2d | "A7"^cHf2e | "Dm"d4- | d2z2 |]
+%%sep 5 5 50
+P: Bb instruments:
+K: Em
+B \
+|: "F7"gzzf | "B7"ezz^d | "Em"eBz2 | z2zB | "E"e=f2e | dc2B | "Am"czz2 | "A7"zA_AG | "D7"Fd2c |
+| "G"B^AB2 | "C"Ec2B | "F"A^GA2 |1 "C"ze2e | "Dm"=fe2f | "B"^f4- | f2zB :|2 "Dm"z=f2f | "B7"^f^e2f | "E"^g4- | g2z2 ||
+|: "Am"e2 e2 | ^de=dc | "Em"B2B2 | ^AB=AG | "F7"F2F2 |1 "B7"FGA^A | "Em"B4- | "E7"B2z2 :|2 "F7"GF^EF | "B7"B4- | B2zB ||
+|| "F7"gzzf | "B7"ezz^d | "Em"eBz2 | z2zB | "E"e=f2e | dc2B | "Am"czz2 | "A7"zA_AG |
+| "D7"Fd2c | "G"B^AB2 | "C"Ec2B | "F"A^GA2 | "Dm"z=f2e | "B7"^dHg2f | "Em"e4- | e2z2 |]
+S:https://www.folktunefinder.com/tunes/84120
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

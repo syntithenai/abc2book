@@ -1,0 +1,29 @@
+X: 50
+T:Metsakukkia (Woodland Flowers)
+M:3/4
+L:1/8
+O:Trad Finland
+Z:1998 by John Chambers <jc@trillian.mit.edu>
+Q:300
+K:Gm
+| "Gm"D2 G2 A2 | B2 A2 G2 | d6- | d6 \
+| D2 G2 A2 | B2 A2 G2 | "Cm"e6- | e6 \
+| c2 d2 e2 | e2 d2 c2 | "Gm"d4 B2 | G6 |"D" D2 ^C2 D2|B4 A2|1"Gm" G6-|G6
+ D2:|2 G6|G z g2 ^f:
+| "F"=f3> f f2 | f2 g2 e2 | "Bb"d4 d2 | d2 e2 d2 \
+| "Cm"c3 c c2 | c2 d2 c2 | "Gm"B4 B2 | B2 c2 ^c2 |
+| "Gm"d2 z2 dd | d2 c2 B2 | "A"A6- | A4 D2 \
+| "D"D2 ^C2 D2 | B4 A2 |1 "Gm"G6- | G z g2 ^f2:|2 G6-|G2 z g^f:|!
+| "Gm"g2 z2 ~d^c | d2  z2 ~BA | B2 G2 ^F2 | G2 B2 d2
+| "Cm"e4 d2 | c2 e2 g2 | "Gm"d6- | "Gm"d4 D2
+| "D"D2 ^F2 G2 | A4 D2 | "Gm"D2 G2 A2 | B4 D2
+| "D"D2 ^C2 D2 | B4 A2 |1 "Gm"G6- | G z z2 g2^f2:|2"Gm" G6-|G4:|
+S:https://www.folktunefinder.com/tunes/84191
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

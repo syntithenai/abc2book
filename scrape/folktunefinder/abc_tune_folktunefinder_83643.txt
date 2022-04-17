@@ -1,0 +1,32 @@
+X: 60
+T:March in Ladoiska. JC.058
+M:C
+L:1/8
+Q:140
+S:John Clare,Poet,Helpston. (1793-1864)
+R:March
+O:England
+A:Northamptonshire
+N:MR.Bar 7,a dot has been added to the first quaver.Bar 16, a quaver rest
+N:in the Ms has been omitted. Bar 23, 2nd note, qu in MS, is given as
+N:semi qu, and the QU REST CHANGED TO A CROTCHET REST.
+Z:vmp.P. Headford
+K:D
+d4z>AB>c|e4z>AB>c|d2~e2{(de)}f>ed>f|e>dc>B A>Bc>A|!
+d4z>AB>c|d4z>AB>c|d2~e2{(de)}f>ed>f|e2z2A>Bc>d|!
+.e2.a2.a2.a2|a>gf>e d>ef>d|.A2.A2.A2B>c|d>cd>e f>ed>f|!
+ezazazaz|a>gf>ed2d'2|d2d'2a>gf>e|(d4d'2)z2|!
+.A2.a2.a2.a2|a>gf>e d>ef>d|A2A2A2B>c|d>cd>e f>ed>f|!
+ezazazaz|a>gf>ed2{c'}d'2|d3/2 {c'}d/'z2a>gf>e|d6z2|]
+S:https://www.folktunefinder.com/tunes/83643
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:194
+T:Yoshke fort avek
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" Ec BA |Ec BA |Bc cc |c4
+|"Dm" Bc de |dc BA |"E" BB BB |B4
+|:"Dm" (BA) (A^G) |(^GF) (FE) |"E" E^G ^G^G |^G4
+|"Dm" BA A^G |^GF FE |1 "E" ^GE EE |E3 z:|2
+"E" .e EE E|E3 z||
+V:2          %2e stem
+z zz z|8 |E4 |^F4 |
+^G4 |A4 |^GA Bc |BA ^GF |
+^G2 B2 |d4  |:(^GF) (FE) |(ED) (DC) |
+B,2 D2 |E4 |^GF FE |BA A^G |
+|1 B2 c2 |d3 z:|2 .^G .A.B .d|e3 z||
+S:https://www.folktunefinder.com/tunes/84071
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

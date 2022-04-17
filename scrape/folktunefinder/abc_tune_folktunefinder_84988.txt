@@ -1,0 +1,26 @@
+X: 9
+T:Barrack Hill
+M:6/8
+L:1/8
+Q:180
+C:Playford
+S:Manuscript
+O:Playford
+A:English
+K:G
+e2 A A2 B| e2 d B2 d| e2 A A2 B| G2 A B2 d| e2 A A2 B |e2 d B2 d| e2 d g2 B |A3 A3 :|
+|: e2 d efg| a2 b g2 e| d2 B d2 e| d2 B d2 g| e2 d efg | a2 b g2 e| d2 B g2 B| A3 A3 :|
+S:https://www.folktunefinder.com/tunes/84988
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/BarrackHill.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/BarrackHill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

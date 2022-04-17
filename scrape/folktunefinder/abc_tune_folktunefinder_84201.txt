@@ -1,0 +1,28 @@
+X: 60
+T:Priscilla's Jig
+M:6/8
+L:1/8
+C:Bob McQuillen
+R:Jig
+B:Bob's note book #3
+Q:300
+K:G
+D| "G"GAB BAB| GFE DGA| BAB  "C"cde|"G" dBG GBd|
+ "C" e2c ABc| "G" d2B GAB| "A7" cde dcB| "D7" AFD DEF|
+ "G"GAB BAB| GFE DGA| BAB  "C"cde|"G" dBG GBd|
+ "C" e2c ABc|"G" dBG GAB| cAF DEF|GGG G2A ||
+"D" |
+[K:D]
+ FAA BAA| Ade "C" fAA|"G" gAA "D" fAA|
+"A7" efe dcB| "D" AFA BAF| Ade fAA| "A7" gfg ede|fdd d2:|
+S:https://www.folktunefinder.com/tunes/84201
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

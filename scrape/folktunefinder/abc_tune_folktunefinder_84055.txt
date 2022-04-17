@@ -1,0 +1,37 @@
+X:178
+T:Sonya & Anoushka
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc "Bb" dc dc |"Eb" (G4 "C7" G4) |
+"Fm6" GD DD DG GF |"Cm" G2 E3/2 F/4E/4D2 C2 |"G" D3 D/D/"D7" D ED ^C|"G7" D8 |
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc "Bb" dc dc |"Eb" (G4 "C7" G4) |
+"Fm" F3/2 c/ (3ccc  (3cFF FF |"Cm" Gc GE "G" D3 C|"G7" D2 DD F2 DE |"Cm" C8
+:| |:"Cm" C3/2 D/EE FE2 G|E ED/C/ =B,/D/C4 |"Fm" F3/2 G/GG BG2 c|G GG/F/ =E/G/F4 |
+"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |1 "Cm" C6 G2 :|2
+"Cm" (C4 C)D EF ||  |:"Cm" G2 FE2 GF E|G2 FE2 GF E|"Fm" G2 GF2 CG G|
+F8 |"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |
+|1 "Cm" (C4 C)D EF :|2 "Cm" C8 ||
+V:2          %gitaar
+C8 |.() |8 |e2 e2 e2 e2 |
+f3/2 g/gf e4 |f3/2 g/gg bg bg |(e4 =e4) |ff ff ff ed |
+e2 c3/2 d/4c/4d2 e2 |=B3 =B/=B/=B c=B B|=B2 =bc' =bg gf |e2 e2 e2 e2 |
+f3/2 g/gf e4 |f3/2 g/gg bg bg |(e4 =e4) |f3/2 g/ (3ggg  (3gdd cd |
+eg ec =B3 c|=B2 =Bc d2 =B2 |c8 :| |:z3/2 z/zz zz2 z|
+z zz/z/ z/z/z4 |z3/2 z/zz zz2 z|z zz/z/ z/z/z4 |z3/2 z/zz zz z2 |
+z3/2 z/z/z/z/ z/zz z2 |z2 z3/2 z/zz zz |1 z6 z2 :|2 z4 zz zz || |:
+z2 zz2 zz z|z2 zz2 zz z|z2 zz2 zz z|z8 |
+z3/2 z/zz zz z2 |z3/2 z/z/z/z/ z/zz z2 |z2 z3/2 z/zz zz |1 z4 zz zz :|2
+z8 ||
+S:https://www.folktunefinder.com/tunes/84055
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

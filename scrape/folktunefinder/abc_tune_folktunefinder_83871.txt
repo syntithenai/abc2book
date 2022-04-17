@@ -1,0 +1,20 @@
+X:140
+T:Tablature chromatique
+M:none
+L:1/4
+K:C
+E F ^F G ^G A _B =B c ^c d ^d e f ^f g ^g a _b =b c' ^c' d'
+%%text
+%%text Pour mmoire cette tablature inusite, et pourtant ...
+S:https://www.folktunefinder.com/tunes/83871
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

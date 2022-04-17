@@ -1,0 +1,23 @@
+X:180
+T: EINS ZWEI DREI VIER FINKELSTEIN
+N: K2371
+O: Europa, Mitteleuropa, Deutschland, Siegerland
+R: Kinder - Lied, Tanz -, Lauf - Spiel
+M: 2/4
+L: 1/8
+K: F
+ | ccAA | ccA2
+ccdd | ccA2
+ccdd | ccA2
+c2d2 | c2z2
+S:https://www.folktunefinder.com/tunes/82540
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, tanz -, lauf - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

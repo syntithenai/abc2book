@@ -1,0 +1,34 @@
+X: 257
+T:Off She Goes. JC.262
+M:6/8
+L:1/8
+Q:120
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Jig
+O:England4
+A:Northamptonshire
+N:No Key sig in MS...Although this exists as a Broadside, Deacon says he
+N:cannot trace it as such from any oral sources.Since it exists very
+N:commonly in tune books, the inference must be that it was generally
+N:known as only a dance
+N:tune.CGP.
+Z:vmp.P. Headford
+K:D
+F2AG2B|ABcd3|F2AG2B|AFD"crot"E3|!
+F2AG2B|ABc"crot"d3|def agf|edc"crot"d3:|:!
+faf def|eae cde|faf def|ecA"crot"A3|!
+faf def|eae cde|faf gec|"crots"d3d3:|]
+W:Song text exists. See Deacon. |
+S:https://www.folktunefinder.com/tunes/83840
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 50
+T:Butcher's Hornpipe. WCa.50
+M:C|
+L:1/8
+Q:160
+S:Wm. Calvert MS, 1812, Leyburn, Yorks.
+R:hornpipe
+O:England
+A:North Yorkshire
+N:Also appears in Vicker's MS, in a partially different version with some
+N:dotted rhythms.
+Z:vmp.Chris Partington, May 2003
+K:G
+GG/G/G FE DC (B,/A,/)|G,A,B,G, GG/G/G (c/B/)|\
+AGFE DEFD|!
+GG/G/G (F/E/) DCB,A,|G,3c BdBG|AcAF GG/G/G3/4::!
+dd/d/d ef ed (c/B/)|ABcB BB/B/B (d/B/)|AGFE D3|!
+CD/C/ B,D/B,/ A,D/A,/|G,3c BdBG|AcAF GG/G/G3/4:||!
+zzzz|zzzz|zzzz|zzzz|!
+"Version Edited by CGP"|:G2GGG2FE| DCB,A, G,A,B,G,|\
+G2GGG2cB|AGFE DEFD|!
+G2GGG2FE|DCB,A, G,3c |BdBG AcAF|G2GGG4::!
+d2ddd2 ef|edcB ABcA|B2BBB2 dB|AGFE D4|!
+C2DC B,2DB,|A,2DA, G,3c|BdBG AcAF|G2GGG4:||
+S:https://www.folktunefinder.com/tunes/84272
+S:http://www.village-music-project.org.uk/abc/calvert.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

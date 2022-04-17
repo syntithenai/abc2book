@@ -1,0 +1,23 @@
+X:12
+T:ROND DE LOUDEAC 6
+Z: Yves Belotteau
+M:4/4
+L:1/8
+Q:1/4=150
+K:C
+|cABc de3/2 z/2 d|eeed edcB3/2 z/2 |ABcd e3/2 z/2 de|eede dcB3/2 z/2 |
+e3/2 z/2 ed ecA3/2 z/2 |ddcA3/2 z/2 GAB|dddc Bc3/2 z/2 |A3/2 z/2 dd cA3/
+2 z/2 G|
+ABdd dcBc3/2 z/2 |A3/2|
+S:https://www.folktunefinder.com/tunes/85584
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf03.abc
+S:http://www.tradfrance.com/matf03.txt
+S:http://www.tradfrance.com/matf12.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

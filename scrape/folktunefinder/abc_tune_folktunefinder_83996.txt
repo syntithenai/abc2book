@@ -1,0 +1,24 @@
+X:117
+T:Dona dona
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+"Dm" A2 D2 "A7" EF G2 |"Dm" A2 D2 "A7" EF G2 |"Dm" A2 D2 "Gm" B2 AG |1 "A7" F2 G2 A4 :|2
+"A7" F2 E2 "Dm" D4 |]"C" c2 c2 c3 B|"F" A GF4 z2 |"C" G2 G2 c2 cB |
+"F" A8 |"C" c2 c2 c3 B|"A7" A2 G2 "Dm" F2 FG |"A7" A3 GF E3 |
+"Dm" D8 ||"A" EE EE G2 G2 |"Dm" FG A4 z2 |"C" GG GG c2 B2 |
+"F" A8 |"A" EE EE G2 G2 |"Dm" FG A4 z2 |"A7" AE FG F2 E2 |
+"Dm" D8 |]
+S:https://www.folktunefinder.com/tunes/83996
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

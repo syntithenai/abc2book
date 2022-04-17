@@ -355,3 +355,20 @@ function downloadShortAbc() {
   generateShortAbcFromTunes()
   download('tunebook_cheatsheet.abc', $("#shortabc").val())
 }
+
+
+
+
+function renderSonglistPicker() {
+   var pickerItems = $('<ul class="list-group"  ></ul>')
+   Object.keys(getSongLists()).map(function(listName) {
+       pickerItems.append('<li class="list-group-item" ><a href="#" onClick="selectSongList(\''+listName+'\'); " >'+listName+'</a></li>')
+   })
+   $('#songlistpicker').html(pickerItems.html())
+   $('#songlistpickerbutton').click(function(e) {
+      e.stopPropagation()
+    })
+   
+   
+}
+

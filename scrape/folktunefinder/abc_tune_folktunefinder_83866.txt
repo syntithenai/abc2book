@@ -1,0 +1,27 @@
+X: 58
+T:Rondeau tourn
+O:France
+A:Gascogne
+C:Trad.
+R:Rondeau
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-08
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=110
+K:Cmaj
+"G"e2d "C"c3 | "C"GAB cBc | "G"e2d "C"c3 | "C"GAB c3 |\
+"G"e2d "C"c3 | "C"GAB cBc | "G"e2d "C"c3 | "C"GAB c3 ||
+"G"c2d "C"e2e | ede "F"f2f | "G"efe d2d | dcd "C"e2c |\
+"G"c2d "C"e2e | ede "F"f2f | "G"efe d2d | ded "C"c3 |]
+S:https://www.folktunefinder.com/tunes/83866
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

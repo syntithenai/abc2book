@@ -1,0 +1,26 @@
+X: 1
+T: Admiral Nelson
+O: Niel Gow
+B: RSCDS 19-8(I)
+R: reel, hornpipe
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: F
+cB \
+| "F"A2F2 FAGF | "C7"EGB2 BdcB |1,3 "F"Acde "Dm"fagf |"C7"e2c2 cdcB \
+                              :|2,4 "F"Acdf "C7"ecdB | "F"A2F2 F2 :|
+|: (3cde \
+| "F"fcAc fagf | "C"gece gbag | "F"af"C"ge "G7"fdgf | "C"e2c2 c2fe |
+| "Bb"dcBA "Gm"B2gf |  "C7"edcB "F"A2(3cde | "C7"fcdB cABG | "F"A2F2 F2 :|
+S:https://www.folktunefinder.com/tunes/84141
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/reel/AdmiralNelson_F3.abc
+% Rhythm Reel, hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

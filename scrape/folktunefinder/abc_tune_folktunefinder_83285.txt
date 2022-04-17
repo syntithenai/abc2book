@@ -1,0 +1,29 @@
+X: 27
+T:Quand j'tais chez mon pre
+M:3/4
+L:1/4
+R:Bourre  3 temps
+O:France
+A:Auvergne
+K:C
+C/2D/2|EEE|ECC/2D/2|EEE|D2D/2E/2|FFF|EEE/2E/2|DDD|C2G|
+G2F|E2E|DDD|ECG|G2F|E2E|DDD|C2||
+W:Quand j'tais chez mon pre
+W:Apprenti pastoureau
+W:Il m'a mis dans la lande
+W:Pour garder les troupiaux
+W:Troupiaux, troupiaux
+W:Je n'en avais gure
+W:Troupiaux, troupiaux
+W:Je n'en avais biaux.
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83285
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

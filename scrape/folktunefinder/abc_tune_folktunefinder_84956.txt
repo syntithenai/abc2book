@@ -1,0 +1,27 @@
+X:115
+T:Scotland the Brave
+T: a la Three Left Feet
+W:Rhythm Instruments: Drone a G5 chord ("power chord")
+W:G and D without B, on as many strings as possible.
+M:C|
+L:1/4
+K:G
+G2 G> A | B G B d | g2 g> g | g d B G | c2 e> c | \
+B d B G | A2 d> d | d2 d/c/B/A/ | G2 G> A |
+B G B d | g2 g> g | g d B G | c2 e> c | \
+B d B G | A2 G> A | G2 B d |]
+g2 g> g | g d B G | g2 g> g | g d B G | \
+c2 e> c | B d B G | A2 d> d | d2 d/c/B/A/ |
+%A2 e> A | B d B G | A2 d> d | d2 d/c/B/A/ |
+G2 G> A | B G B d | g2 g> g | g d B G | \
+c2 e> c | B d B G | A2 G> A | G2-G z |]
+%
+%
+%
+S:https://www.folktunefinder.com/tunes/84956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

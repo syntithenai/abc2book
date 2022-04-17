@@ -1,0 +1,21 @@
+X:177
+T:Sonya
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=76
+K:Cm
+V:1
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc dc dc |"Cm" G8 |
+"Fm6" GD DD DG GF |"Cm" G2 E3/2 F/4E/4D2 C2 |"G" D3 D/D/D ED ^C|"G7" D8 |
+"Cm" G2 G2 G2 G2 |"Fm" G3/2 B/cG "Cm" G4 |"Fm" G3/2 B/cc dc dc |"Cm" G8 |
+"Fm" F3/2 c/ (3ccc  (3cFF FF |"Cm" Gc GE "G" D3 C|"G7" D2 DD F2 DE |"Cm" C8 |]
+S:https://www.folktunefinder.com/tunes/84054
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

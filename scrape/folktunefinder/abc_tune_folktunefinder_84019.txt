@@ -1,0 +1,31 @@
+X:140
+T:Mayn tayere Odessa
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+DF A |:"Dm" d2 z2 A2 |"Gm" B2 z2 G2 |"Dm" ^GA3 F2 |
+"A7" ^FG3 E2 |"Dm" F2 z2 D2 |"A7" DE3 A,2 |"Dm" D3 EF G|
+G A3 z2 |^cd3 A2 |"Gm" AB3 G2 |"Dm" GA3 F2 |
+"A7" ^F/G3/2 zA, DE |"Dm" F2 z2 E2 |"Cm" FG3 _E2 |1 "Dm" D2 zA, F,A, |
+.D2 zD FA :|2 "Dm" (D6 |D2) zF D^C ||  |:C3 CF G|
+A3 GG F|A3 FG E|F2 z2 C2 |c3 d (3_edc |
+B3 AG F|B2 (c4 |c6) |C3 CF G|
+A3 GG F|A2 z2 G3/2 F/|F2 z2 E2 |"Dm" F4 FE |
+"Cm" FG3 _E2 |1 "Dm" (D6 |D2) z2 ^C2 :|2 "Dm" (D6 |
+D2) z2 A2 ||  |:"Gm" AB3 B2 |B4 AG |"Dm" G(A A2) A2 |
+A4  (3BAG |"Gm" F2 G2 G2 |G3 G (3BAG |"Dm" A2 z2 d2 |
+D2 z2 A2 |"Gm" AB3 B2 |B4 AG |"Dm" GA z2 A2 |
+{d}A2 zA, DE |"Dm" F4 E2 |"Cm" FG3 _E2 |1 "Dm" (D6 |
+D2) z2 A2 :|2 "Dm" (D6 |D2) ||
+S:https://www.folktunefinder.com/tunes/84019
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

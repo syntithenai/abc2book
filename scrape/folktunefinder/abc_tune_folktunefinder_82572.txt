@@ -1,0 +1,22 @@
+X:212
+T: EINS ZWEI DREI VIER FUENF SECHS SIEBEN
+N: K3047
+O: Europa, Mitteleuropa, Deutschland, Saarland
+R: Kinder - Lied, Auszaehl - Reim
+M: 4/4
+L: 1/4
+K: G
+ | DGGG | GFAz
+DAAA | AGBz
+GBdz | eedz
+ccBB | AAGz
+S:https://www.folktunefinder.com/tunes/82572
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, auszaehl - reim
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

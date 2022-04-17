@@ -1,0 +1,38 @@
+X:15
+T:Mazur
+O:poland
+M:3/8
+L:1/8
+Q:1/4=80
+K:D
+V:1
+A3/4 A/4A_B |BG E|C3/4 D/4EC |A,A z|]
+A3/4 A/4AB |Ad A| (3A/A/A/ AB |Af d|
+A3/4 G/4EG/B/ |A/F/D F/A/|A3/4 G/4EG/B/ |AA _B|
+B B3/2 A/|G3/4 F/4GE |AA3/2 G/|F3/4 E/4FD |
+F3/4 A/4d2 |G3/4 B/4d2 |E/F/ (3G/A/G/ F/E/|D dz  |:
+EF ^G|A2 c|B3/4 _B/4Bd |c/z/A2 |
+F^G _B|B2 d|c3/4 =c/4ce |d/z/B2 |
+(3G/A/G/ E/G/B/E/ |G3/4 F/4DF/A/ | (3A/B/A/ A/c/e/c/ |d2 F/A/|
+(3G/A/G/ E/G/B/E/ |G3/4 F/4DF/A/ | (3A/B/A/ A/c/e/c/ |dd z:|
+K:G
+g3/4 g/4gg |gg g|d3/4 ^c/4d/g/B/c/ |d3/4 ^c/4dB/G/ |
+(3A/B/A/ FD |G2 B|d3/4 ^c/4d/g/B/c/ |d3/4 ^c/4dB/G/ |
+A3/4 g/4fe |d3/4 a/4fd |d3/4 ^c/4d/g/B/^c/ |d3/4 ^c/4dB/G/ |
+(3A/B/A/ FD |G2 B|d3/4 ^c/4d/g/B/c/ |d3/4 ^c/4dB/G/ |
+(3A/B/A/ FD |Gg z |:B BB |c3/4 B/4AG/F/ |
+(3E/F/G/ B3/2 G/|FB,2 |B,_E/B,/ _E/F/|E/F/  (3G/A/G/ F/E/|
+F3/4 _E/4B,3/2 _E/|E3/4 F/4GE |D3/4 F/4DF/A/ |GB d|
+(3c/d/c/ Ac/e/ |dB G| (3F/G/F/ DF/A/ |GB d|
+A/B/  (3c/d/c/ B/A/|G Gz :|
+S:https://www.folktunefinder.com/tunes/82719
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

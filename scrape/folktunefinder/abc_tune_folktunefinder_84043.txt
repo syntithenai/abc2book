@@ -1,0 +1,29 @@
+X:166
+T:Rusishe Sher
+O:klezmer
+C:Kandel's Orchestra 1918
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+V:1
+"D" d2 z/c/B/c/ | (3_e/=f/_e/ dd d|"Cm" c/f/ f/c/c/f/ f/c/|c/f/ f/_e/_e/d/ d/c/|
+"D" d2 z/c/B/c/ | (3_e/=f/_e/ dz a/g/|f/g/ a/g/"Cm" ~f3/2 _e/|1 "D" d/_e/f/ g/"Cm" f/_e/d/ c/:|2
+fine"D" _e/d/(d d)z ||  |:"D" f/f/f/f/ "Gm" g/g/g/g/ |"D" a/_b/a/g/ a2 |"Gm" _ba/g/ "D" ag/f/ |
+"Cm" gf/_e/ "D" f/_e/d |"D" f/f/f/f/ "Gm" g/g/g/g/ |"D" a/_b/a/g/ ac' |"Cm" c'/_b/a/g/ f/g/f/_e/ |
+"D" _e/d/(d d)z  :| |:
+K:C
+"C" eg g/f/f/e/ |g2 zc' |c'/_b/_b/a/ a/g/g/^f/ |^f/a/g/^f/ _e/d/c |
+eg g/f/f/e/ |"F" f2 za/g/ |1 "D" ^f/g/a/g/ "Cm" ^f3/2 _e/|"D" _e/d/(d d)z :|2
+"D" ^f/g/a/g/ ^f/"Cm" g/^f/_e/ |"D" _e/d/(d d)z ||
+S:https://www.folktunefinder.com/tunes/84043
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

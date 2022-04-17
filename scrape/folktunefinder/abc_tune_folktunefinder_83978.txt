@@ -1,0 +1,27 @@
+X:99
+T:Bessarabyanke/Shalom Aleichim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" zA2 Bc2 c2 |c2 B2 ~c4 |_ee2 e_e cB A|"E" B2 B2 e4 |
+z^G2 AB2 B2 |B2 B2 B4 |ee2 e_e cB ^G|1 "Am" A6 z2 :|2
+"Am" A6  (3cd_e || |:
+K:A
+{f/}"A" e2 a2 c3 c|"E7" B dc B"A" A B=c c|{f/}e2 a2 c3 c|"E7" B dc B"A" A4 :| |:
+K:Dm
+"Dm" A4 F3 E|E D3 zD FA |"Gm" d4 B3 A|A G3 zG AB |
+"A" A2 E2 A3 G|"Dm" G F3 zF ED |"A" .A2 .A2 "A7" .A2 .A2 |AG FE "Dm" D.A, .D.F :|
+S:https://www.folktunefinder.com/tunes/83978
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

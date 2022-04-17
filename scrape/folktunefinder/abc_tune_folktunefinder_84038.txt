@@ -1,0 +1,44 @@
+X:161
+T:Ot Azoy
+O:klezmer
+C:arr: Jeff Warschauer
+M:2/4
+L:1/8
+Q:1/4=102
+K:Dm
+V:1
+"Dm" d2 ~a3/2 g/|~g(f f)g |~ag fg |"A7" ~ag fe |
+"Dm" d2 ~a3/2 g/|g(f f)e |"Cm" fc d_e |1 "Dm" dc/B/ A/G/F/E/ :|2
+d3 g/f/|| |:"C" e/f/ (gg) f|"A7" ~a/g/ ~f/e/"Dm" f2 |"C" d/c/c/d/ d/f/f/g/ |
+"F" ~g/f/~f/e/ f2 |"C" e/f/(g g)f |"A7" a/g/f/e/ "Dm" d2 |"Cm" d/c/c/f/ f/d/ (3_e/d/c/ |
+|1 "Dm" dD Dd :|2 "Dm" d2 cf ||  |:"F" f4 |f4 |
+f2 f2 |f2 f2 |"F" ~a"C" g "F" f2 |z4 |
+"Gm" ~b"D" a "Gm" g2 |z3  (3g/a/b/  |"C7" c'(b b)(a |a)(g g)f |
+gf ~ag |fe dc  :|"Gm" dg/g/ g/g/g/g/ |"F" gf ed |
+cf/f/ f/f/f/f/ |f_e dc |"Dm" d3 e/f/|f/_e/ _e/d/"Gm" g2 |
+"Dm" d4 |f_e dc |fine"Dm" d3 e/f/||f/_e/ _e/d/"Gm" g2 |
+"A" fc d_e |"Dm" d3 A |] "Dm" f/_e/ _e/d/g/a/4^g/4 a/4b/4c'/4^c'/4|"Dm" d'2 z2 |
+"A7" a2 z2 |"Dm" Hd4 |]
+V:2          %2e stem
+d2 f3/2 e/|e(d d)e |fe de |fe d^c |
+d2 f3/2 e/|e(d d)e |c(G G)G |1 dc/B/ A/G/F/E/ :|2
+d3 d|| |:c (cc) c|B ^cd2 |d/c/c/d/ d/f/f/g/ |
+cc f2 |e/f/g gc |^cA d2 |d/c/c/f/ f/d/ (3_e/d/c/ |
+|1 d3 d:|2 d2 cc || |:A4 |A4 |
+A2 A2 |A2 A2 |fe f2 |AG F2 |
+g^f g2 |BA G2 |c(c c)(c |c)(c c)c |
+cc ee |fe dc :|BB/B/ B/B/B/B/ |BA G2 |
+FA/A/ A/A/A/A/ |AG F_E |F3 G/A/|A/G/ G/F/B2 |
+F4 |AG F_E |fineF3 G/A/||A/G/ G/F/B2 |
+FC D_E |D4 |] A/G/G/F/ B/A/4^G/4A/4B/4c/4^c/4 |d2 z2 |
+A2 z2 |HD4 |]
+S:https://www.folktunefinder.com/tunes/84038
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

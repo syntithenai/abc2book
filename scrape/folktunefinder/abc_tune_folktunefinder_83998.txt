@@ -1,0 +1,26 @@
+X:119
+T:Essen esst zich
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=76
+K:Em
+V:1
+"Em" EB, E2 E2 |EB, E2 E3/2 E/|"C" EG "B" F3 E/E/|_E/_E C/B,4 |
+FB, F2 F2 |FB, F2 F3/2 F/|FA "Em" G2 FE | (3GGG E"B" F "C" G"D7" A |
+"G" BG B2 B2 |"Em" BG B2 B3/2 B/|"Em" Bd "F#" ^c3 B/B/|_B/_B G/F3 A|
+"F#" A FA2 A2 |"B7" AF A2 A3/2 A/|Ac "Em" B3 A/A/|"B7"  (3GGF "Em" E4 :|
+V:2          %2e stem
+GE GA BA |GE GA Bc |de cB AG |FE _EE FG |
+A_E AB cB |A_E AB c_e |f_e ec BG | (3BBB GA Bc |
+dB de dB |eB ef ga |gf ef ed |^c3/2 B/^c3 z|
+_e ef e_e c|_e fa ba g|f _ee fg f| (3_efa g4 :|
+S:https://www.folktunefinder.com/tunes/83998
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

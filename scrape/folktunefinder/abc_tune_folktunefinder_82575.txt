@@ -1,0 +1,36 @@
+X:1
+T:Fenella
+R:marching air
+C:Paul Cranford
+O:Cape Breton Island
+S:http://www.cranfordpub.com
+D:The Lighthouse, Paul Cranford, 1996
+B:The Lighthouse Collection (Paul Stewart Cranford), The Balnain Collection
+Z:psc, (re-formatted,updated 9/20/04)
+N:Composed for Fenella Nicholson
+H:                                                    copyrights Cranford Publications, SOCAN
+Q:196
+L:1/8
+M:C|
+K:D
+"marching air" DE|:F2>E2 DEFA|d2>c2 B4|A>BA>F G>FED|F2E2 EA,(DE)|
+[1F2>E2 DEFA|d2>c2B4|A>BA>F G>FED|F2D2 DA,(DE):|
+[2F2>E2 DEFA|d2>c2B4|"final 2 bars for B part"A>BA>F G>ABg|f2d2 d4||
+|: a2>f2 b<aaf|g>ef<g f2fg|a>fg<a b>ag<f|[1 f2e2e4|
+a2>f2 b<aaf|g>ef<g f2(e/f/g)|f>ed>B A>FE<G|F2D2 D4:|
+[2 e>dcGF<E|F2>E2 DEFA|d2>c2B4|"final 2 bars use A part end"A>BA>F G>FED|F2D2 D2|]
+S:https://www.folktunefinder.com/tunes/82575
+S:http://cranfordpub.com/tunes/abcs/lighthouse_CD.abc
+S:http://www.cranfordpub.com/tunes/abcs/lighthouse_CD.abc
+% Rhythm Marching air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:17
+T:Cansoun de Magali
+T:Chanson de Magali
+M:6/8
+L:1/8
+K:Bb
+%%continueall 1
+ddd d2c | f2e dcHB | ccc cd2 | (edc) HB3 ::
+FBd (f2g) | (f2e) d2d | (dcd) f2e | c6 |
+FBd (f2g) | (f2e) dcd | fec B3 |]
+%%newpage
+%%text Un peu de musique mdivale et Renaissance ...
+S:https://www.folktunefinder.com/tunes/83891
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab_Bb.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

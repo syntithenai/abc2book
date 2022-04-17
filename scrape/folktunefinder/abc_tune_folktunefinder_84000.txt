@@ -1,0 +1,22 @@
+X:121
+T:Freitog nokh'n tsimes
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+{^g}"Am" a2 {^g}a {^g}a A3 g|g/f/ ee/_e/ cc/B/ Ag2 |za ^ga A3 g|g/f/ ee/_e/ cc/B/ AA2 :| |:
+z"Am" e _ee "Em" B3 g|"Am" g/f/ ee/_e/ cc/B/ Ae2 |"Am" ze _ee "Em" B3 g|"Am" g/f/ ee/_e/ cc/B/ AA2 :| |:
+K:A
+"A" z (3A/B/A/ GA ~BA ~cA |~dA ~cA BA e2 |z (3A/B/A/ GA ~BA ~cA |~dA ~cA BA A2 :|
+S:https://www.folktunefinder.com/tunes/84000
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

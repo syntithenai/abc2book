@@ -1,0 +1,25 @@
+X:113
+T:Der Yid in Yerusholayim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=148
+K:Eb
+V:1
+"G" d3 c=B/c/ dg e|d3 c=B G=B c|d3 c=B/c/ dg e|d3 gg ^fg e|
+d3 Ge dc =B|"Cm" (c6 c)=B/c/ |"G" d3 =B/d/"Fm" c2 =BG |"G" G3 F/G/"Fm" G3 G/G/
+|"G" =B3 G/=B/"Cm" c3 =B/c/|"G" d3 =B/d/"Fm" c2 =BG |1 "G" G8 :|2 "G" G3 GG2 G2 ||
+|:"G" fe dc =BG G=B |"Cm" c4 c3 d/e/|f "Fm" ed c=B "G" GG =B|"Cm" c4 c3 =B/c/|
+"G" d3 =Bc "Fm" d/c/=B G|"G" G3 F/G/"Fm" G3 G/G/|"G" =B3 G/=B/"Cm" c3 =B/c/|"G" d3 =B"Fm" c d/c/=B G|
+"G" G3 GG2 G2  :| |:"Eb" Gz2 gg2 g2 |"Bb" fg gf "Eb" g4 |"G7" fe ed dc =Bc |
+d3 cd/e/ d/c/=B G|G z2 f"Fm" f ee d|"G" d3/2 c/c=B =BG GG |"Fm" F3 GG c=B/c/ =B/G/|
+"G" G3 GG2 G2 :|
+S:https://www.folktunefinder.com/tunes/83992
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

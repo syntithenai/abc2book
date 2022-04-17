@@ -1,0 +1,27 @@
+X: 283
+T:La Rotta
+M:2/4
+L:1/8
+Q:100
+C:anonymous
+H:XIV eme siecle
+K:C
+A/B/cB/c/A|dd/c/B/c/A|A/G/G/F/E/F/D/E/|F/D/EzE|A/B/cB/c/A|
+dd/c/B/c/A|A/G/G/F/F/E/E/D/| \
+D/C/Dz2|A/B/cB/c/A|dd/c/B/c/A|
+A/G/G/F/F/E/E/D/|C/D/Ez2|A/B/cB/c/A|dd/c/B/c/A|A/G/G/F/F/E/E/D/| \
+D/C/Dz2|D/E/FF/G/A|A/B/cB/c/A|A/G/G/F/F/E/E/D/|C/D/EzD/E/|FF/G/AA/B/|
+cB/c/AA/G/|G/F/F/E/E/D/D/C/| \
+D4| \
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83541
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

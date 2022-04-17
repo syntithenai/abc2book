@@ -1,0 +1,34 @@
+X:14
+T:Grimstock
+R:Jig
+H:The A strain appears titled "CLIV Courante" in Michael Praetorius's
+H:"Terpsichore" (1612).
+N:Playford in G
+N:Playford Ball in A
+O:Cecil Sharp, 1911
+P:(AAB)3
+M:6/8
+L:1/8
+Q:96
+K:G
+g2f g2d|e>fg f2d|B>cd e2d|cdB c2B|g2f g2d|e>fg f2d|
+B>cd e2d|c>BA G3||GGA BGA|BGA BGA|GGA BGA|BGA G3||
+S:https://www.folktunefinder.com/tunes/84771
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Grimstock_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Grimstock_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

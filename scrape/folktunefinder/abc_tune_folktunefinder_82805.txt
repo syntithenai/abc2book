@@ -1,0 +1,27 @@
+X:12
+T:La fille du boulanger de Rennes
+R:chanson 
+N:not tel qu'il tait crit
+N:p.286
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:F
+c | f2 f f2 f | f2 e f f a2 | f3 z2 c |
+    f2 f f2 f | f2 e f g g | g3 z2 g |
+  b2 a2 g2 a2 | f2 e f g a2 | g3-g2 g |
+ b2 a2 f2 a | f2 e f g | f4 ||
+S:https://www.folktunefinder.com/tunes/82805
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

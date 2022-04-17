@@ -1,0 +1,27 @@
+X:210
+T: der Badchen Freylach (high)
+O:klezmer
+M: 2/4
+L: 1/16
+B: Stacy Phillips, Mel May's Klezmer Collection p.79.
+K: Edor^A
+|: "Em"eBeg abag | {a}b2{a}b2 gfe2
+| eBeg abag | {a}b4 b4-
+| bBeg abge | {a}b2{a}b2 gfe2 |
+| "B7"fgag fefg | "Em"e8
+:: "Em"bc'd'c' e'd'c'b | abc'd' b4
+| e'd'c'b abc'd' | b4 b4 |
+| bc'd'c' e'd'c'b | abc'd' b4
+|1 bc'd'c' "B7"bc'((3gfe) | "Em"fge2- e4
+:|2 abc'b "B7"abgf | "Em"e8 |]
+S:https://www.folktunefinder.com/tunes/84083
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

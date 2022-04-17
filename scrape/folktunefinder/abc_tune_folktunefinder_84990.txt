@@ -1,0 +1,21 @@
+X: 11
+T: Black Jack
+K:F
+M:6/8
+d| c2 A F>GA| B2 G G2 B| c>dc A>GF| c3 A2 d|  c2 A F>GA| B2 G G2 B| c>dc A>GF| c3 A2 :|
+|: A|d2 e f>ed| c>BA G2 d| c>dc A>GF| c3 A2 A| d2 e f>ed| c>BA G2 d| c>dc A>GF| c3 A2 A3:|
+S:https://www.folktunefinder.com/tunes/84990
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/BlackJack.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/BlackJack.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

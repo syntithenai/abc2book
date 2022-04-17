@@ -1,0 +1,32 @@
+X:335
+T:J'entends la caille
+R:Bourree 2 temps
+C:trad.
+A:Morvan
+O:France
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+A>c|BdcB|A^GA>c|BdcB|A2e>d|cAB^G|E2 e>d|
+cAB^G|E2 A>c|BdcB|A^GA>c|BdcB|A2||
+W:
+W:J'entends la caille dans la paille
+W:J'entends la caille dans le bl
+W:Et le rat sur le grenier
+W:Et le rat sur le grenier
+W:Bichez donc vos filles garons
+W:Bichez donc vos filles.
+S:https://www.folktunefinder.com/tunes/83199
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Bourree 2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

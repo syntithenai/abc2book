@@ -1,0 +1,43 @@
+X: 1
+T: Sonata Nr 1 in F
+T: \`a deux fl\^utes \`a bec
+C: Georg Philip Telemann
+N: Published in Hamburg in 1727
+M: 4/4
+L: 1/16
+P: Dolce
+K: F
+V: 1
+K: F
+[| fgab c'2d'e' f'2f2 z2e2 | defg a2bc' d'2d2 z2c2 | Bcde f2ga b2B2 z2A2 |
+GdcB bdcB egfe bgfe | aAGF cAGF bagf d'c'ba | b4 z2ag abc'd' Te3f |
+fgab c'2d'e' f'2f2 z2e2 | dcd=B cBcA BAG2 z2^f2 | g^fgd gfgg ge=f2 z2f2 |
+fefG feff fde2 z2e2 | edeA dcd=B cgc'd' T=b3c' | c'4 z4 z2ef gefd |
+edc2 z2^c2 defg ab/=c'/ba | bd'ad' bd'^fd' g2f2g2a2 | bd'ad' bd'ad' baga Ta3g |
+g4 z4 cdef gabc' | abc'2 zabg fgab c'2d'e' | f'2f2 z2e2 defg a2bc' |
+d'2d2 z2c2 Bcde f2ga | b2G2 z2a2 gfge fefd | edc2 z2c2 dcdB dcdf |
+efg2 zfge cefc fefF | B4- BABG Aefb Tg3f | fd^cd d'd=c=B ecBc c'c_BA |
+dBAB bBAG cAGA aAGF | Bbab d'bab e'4 zbag | aefd Te3f f4 z4 |]
+V: 2
+K: F
+[| z8 fgab c'2d'e' | f'2f2 z2e2 defg a2bc' | d'2d2 z2c2 Bcde f2ga |
+bBAG dBAG bedc gedc | FcBA acBA d'c'ba bagf | edc2 z2fe fcdB c2c2 |
+F4 z4 fgab c'2d'e' | f'2f2 z2e2 dcd=B cBcA | =BAG2 z2g2 agaf agac' |
+=bc'd'2 zc'd'b gbc'g c'bc'c | f4- fefd ecef g2G2 | c2ef gefd edc2 z2B2 |
+cdef ga/_b/ag fed2 z2^f2 | g2^f2g2a2 bd'ad' bd'^fd' | g2^f2g2f2 gd_ec d2d2 |
+GA=Bc d=e=fg efg2 zfge | fgab c'2d'e' f'2f2 z2e2 | defg a2bc' d'2d2 z2c2 |
+Bcde f2ga b2B2 z2a2 | gfge fefd edc2 z2=b2 | c'=bc'g c'bc'c' c'a_b2 z2b2 |
+babc babb bga2 z2a2 | agad gfge fcdB c2^c2 | dfef =B=bag  cede cagf |
+Bdcd Ggfe AcBc Ffed | Gg^fg bgfg c4 zg=fe | fcdB c2c2 F4 z4 |]
+S:https://www.folktunefinder.com/tunes/82775
+S:http://gulfweb.net:34043/~rlwalker/abc/DuetSonata_1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_1_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/DuetSonata_1_F.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

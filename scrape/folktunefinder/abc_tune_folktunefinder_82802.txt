@@ -1,0 +1,24 @@
+X:12
+T:Sous un tilleul un bal s'est donn
+R:chanson 
+N:
+N:p.121
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:G
+B | B G D2 | A2 (A>G) | A B G B | B G D2 | A2 (A>G) | A B G2 ||
+S:https://www.folktunefinder.com/tunes/82802
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

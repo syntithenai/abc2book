@@ -1,0 +1,29 @@
+X:4
+T:Branle de la Montarde
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0181.gif
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+M:8/2
+L:1/2
+Q:1/2=220
+K:F
+GABG cABG GGGG FEDC | GABG cABG | FG/F/ED/C/ C D/ B,/ C z ::
+ c d/c/ BABGF2 ::c d/c/ BABGF2 ::c d/c/ BABGF2 ::
+%%footer $D   Galouvielle-MBe 2006 \nQuadrille (France)
+S:https://www.folktunefinder.com/tunes/82738
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Bransle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

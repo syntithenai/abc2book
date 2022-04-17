@@ -1,0 +1,22 @@
+X:143
+T:Les dames de Paris
+A:Ile de France
+O:FRANCE
+M:6/8
+L:1/8
+Q:1/4=160
+K:G
+DDD|B2BA2A|G2 z BBB|
+d2d c2c|B2 z ddd|e2e c2c|
+B2cBBB|c2A AAA|D2D GGG|
+G2DBBB|B2G d2e|
+d2d cBA|G3||
+S:https://www.folktunefinder.com/tunes/83007
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

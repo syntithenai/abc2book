@@ -1,0 +1,28 @@
+X:18
+T:Hit and misse
+R:Jig
+M:6/8
+L:1/8
+Q:100
+K:C
+c2d ecA|G>AB/2c/2 dBG|e2f gec|fdB cGE||
+ccc cd/2e/2f|e3 e>dc|B>cd d>ef|g3 e2c||
+ed2 B2G|gf2 e2c|e2d f2e|g3 e2c||
+S:https://www.folktunefinder.com/tunes/84778
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Hit_and_misse.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Hit_and_misse_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Hit_and_misse.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Hit_and_misse_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

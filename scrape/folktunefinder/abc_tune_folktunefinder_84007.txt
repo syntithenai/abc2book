@@ -1,0 +1,46 @@
+X:128
+T:Hopkele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=140
+K:C
+V:1
+GA B|"C" c _BA G|"F#" _B AG ^F|"C" .G zE (C|
+C) CD E|"G7" .F zD (B,|B,) FE D|"C" E zF z|
+^F zG G|"C" c _BA G|"F#" _B AG ^F|"C" .G zE (C|
+C) CD E|"Fm" F3/2 G/^G/G/F |"C" EC "G7" DB, |"C" C4 |
+zC EG  |]{A}"C7" (_B4 |_B4) |{A}(_B4 |
+_B3) z|"C7" _B3/2 A/GA |_BA G^F |.GE3 |
+zC FG |{G}"F" (A4 |A4) |{G}(A4 |
+A3) F|"Fm" .^G .^G.G .F| (3Bcd  (3cB^G |"G7" G4 |
+zG AB |"C" c_B AG |"F#" _BA G^F |"C" .Gz E(C |
+C)C DE |"G7" .Fz D(B, |B,)F ED |"C" Ez "G7/h" Fz |
+"D#o/a" ^Fz "G7/g" GG |"C" c_B AG |"F#" _BA G^F |"C" .Gz E(C |
+C)C DE |"Fm" F3/2 G/^G/G/F |"C" EC "G7" DB, |"C" HCz "G7" [HFG]z|
+"C" [HcGE]|]
+V:2          %2e Stem
+zz z|A GF E|G ^FE _E|.E zC (G,|
+G,) G,B, C|.D zB, (G,|G,) DC B,|C zD z|
+_E zE G|A GF E|G ^FE _E|.E zC (G,|
+G,) G,B, C|D3/2 E/F/E/D |C2 B,2 |C4 |
+zC CD  |](E4 |E4) |(E4 |
+E3) z|G3/2 F/EF |GF E_E |.EC3 |
+zC DE |(F4 |F4) |(F4 |
+F3) D|.F .F.E .D| (3GAB  (3AG^F |F4 |
+zE FG |AG FE |G^F E_E |.Ez C(G, |
+G,)G, B,C |.Dz B,(G, |G,)D CB, |Cz Dz |
+_Ez EG |AG FE |G^F E_E |.Ez C(G, |
+G,)G, B,C |D3/2 E/F/E/D |C2 B,2 |HCz HB,z |
+HC|]
+S:https://www.folktunefinder.com/tunes/84007
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

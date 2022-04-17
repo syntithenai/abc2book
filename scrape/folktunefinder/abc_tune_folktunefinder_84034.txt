@@ -1,0 +1,47 @@
+X:157
+T:Oif'n Pripetshok
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Eb
+V:1
+"Cm" CD EE E2 |"G7" DF "Cm" ED C2 |"Cm" ED "Ab" E2 "Bb7" F2 |"Eb" G6 |
+"Cm" cG "Bb7" BG FD |"Fm" FG "Cm" GE C2 |"G7" DF E2 F2 |"Eb" (G4 "G7" G2) |
+"C7" cG "Fm" BG FD |GG "Cm" GE "Ab" C2 |"Fm6" DF "Cm" E2 "G7" D2 |"Cm" C4 z2 |]
+=B,C D=B, G,2 |{(=B,/}D)F "Cm" ED C2 |"Cm" ED "Ab" E2 "Bb7" F2 |"Eb" G6 |
+"Cm" cG "Fm" BG FD |FG "Cm" GE C2 |DF "Cm" E2 D2 |"Cm" C4 z2 ||
+"C7" cG "Fm" BG FD |FG "Cm" GE C2 |"Fm" DF "Cm" E2 "G7" D2 |"Cm" C4 z2 |]
+|]
+V:2          %Gitaar Capo-III
+z2 |  | |
+K:C
+"Am" AB cc c2 |"E7" Bd "Am" cB A2 |"Am" cB "F" c"G7" d |"C" e|
+"Am" a e"G7" g fd B|"Dm" d f"Am" e cA |"E7" Bd "Am" c"G7" d |"C" (e"E7" e) |
+"A7" ae "Dm" gf dB |ff "Am" ec "F" A|"Dm6" B d"Am" c2 "E7" B2 |"Am" Az2 |]
+"E7" ^GA B^G E|B d"Am" c BA |"Am" cB "F" c2 "G7" d2 |"C" e|
+"Am" a e"Dm" g fd B|d f"Am" e cA |"Dm6" Bd "Am" c"E7" B |"Am" Az2 ||
+"A7" ae "Dm" gf dB |df "Am" ec A|"Dm" B d"Am" c "E7" B|"Am" A z2 |]
+|]
+V:3          %2e stem
+z2 |() 8 8 |
+K:Eb
+E FG2 B2 |=BG G2  (3GFE |C3 ED2 |E4  (3B,CD |
+{D}E2 {E}D4 |{C}D2 {D}E4 |F2 E2 D2 |{D}E2 B,C DE |
+{E}=E2 {=E}F4 |F2 G2 G2 |{c}d2 {d}c2 {c}=B2 |{=B}c4 z2 |]
+DE FD =B,2 |FG GF E2 |GF G2 {G/}G/G/G |{G}B4 =B/c/d/e/ |
+{f}e2 {e}d4 |{e}d2 {d}e4 |{G}=B2 G2 F2 |{D}(E4 E/4)F/4^F/4G/4G/4B/4=B/4c/4 ||
+{d/}c3 dc2 |{d/}c3 dc2 | (3ded  (3c=Bc  (3=BG=B |c4 z2 |]
+|]
+S:https://www.folktunefinder.com/tunes/84034
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:116
+T:Di Zilberne Kasene
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+Ad e |:"Dm" f4 zA de |ff3 zA de |f2 ed ee d^c |
+"A" a4 zA ^cd |e4 zA ^cd |ee3 zA ^cd |e2 g2 fe f/e/d |
+|1 "A" ^c/d/e "Bb" d/^c/B "A" AA de :|2 "A" ^c/d/e "Bb" d/^c/B "A" A2 z2 || |:"A" AB ^cd ef ga |"G" [b8e8 ^c8 g8]|
+"Dm" [a8f8 d8]|"A7" [g8^c8 e8]|"Bb" [(f4(d4 (B4][f2)d2) B2)]z2 |"A7" eA ^ce "Dm" d2 z2 |
+"A7" eA ^ce "Dm" dz ef |"Gm" g/f/e "Dm" f/e/d "A" e/d/^c "Bb" d/^c/B |"A" A8 :| |:"A" ^c/d/e d/^c/B AB (^c2 |
+^c)B ^ce d^c BA |^c/d/e d/^c/B AB ^cz |"A"  (3ed^c  (3d^cB A2 z2 :|
+S:https://www.folktunefinder.com/tunes/83995
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

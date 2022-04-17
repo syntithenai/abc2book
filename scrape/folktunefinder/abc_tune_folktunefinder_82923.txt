@@ -1,0 +1,28 @@
+X:59
+T:Bourre patine
+R:Bourre  3 temps
+C:trad
+A:Morvan
+O:France
+Z:S. Piron
+M:3/4
+L:1/4
+Q:1/4=190
+K:C
+c|ABc|d2 d/2e/2|fg/2f/2e/2d/2|ecc|
+ABc|d2 d/2e/2|fg/2f/2e/2d/2|c2:|
+|:e/2f/2|ggc'|g2 e/2f/2|g/2a/2g/2f/2e/2d/2|
+ece/2f/2|ggc'|g2 e/2f/2|g/2a/2g/2f/2e/2d/2|c2:||
+S:https://www.folktunefinder.com/tunes/82923
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+S:http://www.tradfrance.com/matf04.txt
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

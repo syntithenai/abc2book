@@ -1,0 +1,26 @@
+X: 43
+T:Marche  Compagnon
+M:2/4
+L:1/4
+Q:1/4=120
+O:France
+A:Morvan
+K:C
+G A/2B/2|c B/2c/2|e d/2c/2|g2|f e/2d/2|g3/2 f/2|e/2d/2
+A3/4B/4|AG|
+G A/2B/2|c B/2c/2|e d/2c/2|g2|f e/2d/2|g3/2f/2|e/2d/2 A3/4B/4|c
+c:|
+|:G/4A/4B/4c/4 d/2d/4c/4|d/2e/2 d/2c/2|G/2c/2e/2d/4e/4|f/2e/2 d|
+G/4A/4B/4c/4 d/2d/4c/4|d/2e/2 c/2e/2|g/2f/2 A3/4B/4|c2:||
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83301
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

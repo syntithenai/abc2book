@@ -1,0 +1,25 @@
+X:165
+T: DIE MEIERSCHE BRUECKE
+N: K2305
+O: Europa, Mitteleuropa, Deutschland, Kassel
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 6/8
+L: 1/8
+K: D
+A | AAAFDB | A2AFD
+A | AAAFD
+B | A3F2B | A3F2
+D | A2AB2B | A3F2
+D | AAAB2B | A2GFD
+B | A2GF2B | A2GF2
+A | BBBAAG | FDz3
+S:https://www.folktunefinder.com/tunes/82525
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

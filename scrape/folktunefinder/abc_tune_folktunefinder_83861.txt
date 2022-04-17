@@ -1,0 +1,23 @@
+X:18
+T:Les Bouffons
+C:Thoinot Arbeau
+O:16e sicle
+M:C|
+L:1/4
+K:G
+V:1
+GABB | c2c2 | BABG | A2A2 | GABB | c2c2 | BGAA | G2G2 ::
+d2ed | c2c2 | BABc | d2d2 | d2ed | c2c2 | BGAA | G2G2 :|
+V:2 clef=perc stafflines=1 staffscale=0.7
+[K:none]B4 | B4 | B4 | B4 | B2B2 | B2B2 | B2B2 | B2B2 ::
+B2BB | B2BB | B2BB | B2BB | B2BB | B2BB | B2BB | B2B2 :|
+S:https://www.folktunefinder.com/tunes/83861
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

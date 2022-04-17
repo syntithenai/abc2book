@@ -1,0 +1,18 @@
+X: 1
+T: Ad\'e zur guten Nacht
+O: Volkslied
+M: C
+L: 1/8
+K: D
+  A,2 | "D"D4 "A7"E2G2 | "D"F2FE     D2E2 | "D"F4 "Em"G2B2 | "A7"A2AG "D"F2A2 | "Em"A2GF "A7"G2A2 | "D"F4 z2 ||
+|: A2 | "D"F4     A2d2 | "G"B2BA "Em"G2G2 | "A7"E4    G2B2 |  "D"A2AG    F2A2 | "Em"A2GF "A7"G2A2 | "D"F4 z2 :|
+S:https://www.folktunefinder.com/tunes/82788
+S:http://trillian.mit.edu/~jc/music/abc/Germany/tune/Ade_zur_guten_Nacht_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 106
+T: Nitzotz Ha ahava
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=160
+K: Am
+%%MIDI program 70
+%%MIDI bassprog 27
+%%MIDI gchord fz
+|:z3^C|"Am"E2 E2|E2 E2|F3 E    |D3 ^C |D2 FE  |D3 ^C |^C_B, A,2 :|
+|:z3^C|F2 FE    |D3^C |D^C_B,2-|_B,3A,|_B,2D^C|_B,3A,|A,4       :|
+S:https://www.folktunefinder.com/tunes/84511
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

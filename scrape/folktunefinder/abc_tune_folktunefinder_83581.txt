@@ -1,0 +1,24 @@
+X:2
+T:Adieu mes amours
+T:Altus
+C: Josquin des Prez
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N:Original clef, C on third line
+%%MIDI transpose -12
+K:G dor -8va
+g4 f2 g3 f d2 e f g2 f3 e/ d/ c2 d2 e2 f2 B > c e d > c c2 B c > d e/ f/ g > f f2 e f
+S:https://www.folktunefinder.com/tunes/83581
+S:http://www.laymusic.org/music/josquin/adieu/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

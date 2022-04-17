@@ -1,0 +1,26 @@
+X:180
+T:Thalassa
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Gm" D GD GD GB/A/ G|D GD GD GB/A/ G|"Bbm" F BF BF B^c/c/ B|"A" [A^F]"F" [BG][cA][^cB][.cA]z z/e/f/g/ |
+"Db" ^g/g/f/e/ ^c/c/B/A/ G/d/^c/d/ G2  :| |:"Gm" [ec][f2d2][fd][ec][dB][^cA][BG]|[^cA][d2B2][^cA][d/B/][^c/A/][B/G/][^c/A/][B/G/][A/F/][GE]|[ec][f2d2][fd][ec][dB][^c/A/][d/B/][e/c/][f/d/]|
+[g3e3][bg][.ge][.fd][.e^c][.dB]|[ec][f2d2][fd][ec][dB][^cA][BG]|[^cA][d2B2][^cA][d/B/][^c/A/][B/G/][^c/A/][B/G/][A/F/][GE]|"A" [A^F]"F" [BG][cA][^cB][.cA]zz/e/ f/g/|
+"Db" ^g/g/ f/e/^c/c/ B/A/"Gm" G/d/ ^c/d/G2 :|
+V:2          %viool
+G2 | 8 8 |{(c/}[d4)G4]{(c/}d4) |{(c/}[d4)G4]{(c/}d4) |
+{(c/}[^c4)F4]{(c/}^c4) |c2 A^F Fz z/E/_E/D/ |^C2 F^C DG B2 :| |:AB2 BA GF D|
+F G2 FG/F/ E/F/E/D/ ^C|G4 F4 |E4 F2 G2 |{(A/}B4) {(F/}G4) |
+{(F/}G4) {(F/}G3) B|c2 A^F Fz z/E/_E/D/ |^C2 F^C DG B2 :|
+S:https://www.folktunefinder.com/tunes/84057
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 4
+T:Al Gimali
+O:Israel
+I:taught by Moshe Eskayo
+Z:seymour.shlien@crc.doc.ca
+L:1/8
+M:4/4
+Q:1/4=120
+K:Gm
+"Gm"d3 c "Cm"e2 f2|"Gm"d2 BG AF G2         |d3 c "Cm"e2 f2|"Gm"d2 BG "Dm"A4|\
+"Cm"c3 B "Bb"d2 ef|"Gm"d3e dcd2            |dccB BABc     |d8              | 
+"Cm"c3 B "Bb"d2 ef|"Gm"d3e dcd2            |dccB BAAG     |G8              |\
+"Gm"g3f "Cm"gfe2  |"Gm"d2 c/B/c d/e/d/c/ d2|g3 f b2 a2    |g2 dc d4        |
+g3 f ef g2        |Bcde dc d2              |dc cB BA Bc   |d8              |\
+"F"ABcB "Gm"BAAG  |G6 z2                   |
+S:https://www.folktunefinder.com/tunes/84409
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

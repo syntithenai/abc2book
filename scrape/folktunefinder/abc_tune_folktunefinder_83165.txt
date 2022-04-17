@@ -1,0 +1,31 @@
+X:301
+T:Ductie
+R:danse royale
+C:trad.
+H:Danse royale - Moyen Age
+N:to be played ABAC - DBDC - EBEC
+O:France
+Z:S. Piron
+P:ABAC - DBDC - EBEC
+M:3/4
+L:1/4
+Q:1/2=110
+K:C
+G2G|G2 F/2E/2|F3|F2 z|A2A|A2 G/2F/2|G3|G2 z||
+C2D|F2F|G F/2E/2 F|F2 z||
+C2D|F2E|D2E|D2 z||
+c2B|A2G|A3|A2 z|A2D|D2E|C3|C2 z||
+F2G|A2A|G2A|D2 z|F2G|F/2E/2FD|E3|E2 z||
+S:https://www.folktunefinder.com/tunes/83165
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Danse royale
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

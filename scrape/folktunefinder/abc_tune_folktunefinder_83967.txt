@@ -1,0 +1,26 @@
+X:88
+T:Albukerke
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+D=E ^F |:"Gm" G AB/A/ GA B2 d|^c d (3f=ed ^cd2 d|"Gm" .g .f.=e .d.^c .BB/A/ G|
+"Gm" G ^F/G/B A/B/d ^c/d/g2 |GA B/A/G AB2 d|^c d (3f=ed ^cd2 d|g f=e d"D7" d/^c/ BB/A/ G|
+|1 "Gm" G4 zD =E^F :|2 G4 zF GA || |:"Bb" BF/B/ dB/d/ fd/f/  (3^ggf |=ef2 f2 fg f|
+"Bb" .b .^g.g .f.e .d.^c .d|"Bb" =e f (3^ggf ed ^cd |"Bb" BF/B/ dB/d/ fd/f/  (3^ggf | (3=efg  (3^ggf =ef3/2 d/e/=e/|
+"F7" f d/f/e/d/ cd dc/d/ c|1 "Bb" B4 zF GA :|2 "Bb" B4 zc/B/ AB || |:"Cm" c3 Bc BA G|
+"Gm" G4 zA Bc |"Bb" d3 e"F" f e/d/c B/c/|"Bb" d4 zd ^cd |"Gm" g3 ab a/g/f/e/ d|
+"Cm" g cc (c2 c/)A/B/d/ ^c|"D7" d ^c/d/c BB/A/ BA G|1 "Gm" G4 zB AB :|2 "Gm" G4 z||
+S:https://www.folktunefinder.com/tunes/83967
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

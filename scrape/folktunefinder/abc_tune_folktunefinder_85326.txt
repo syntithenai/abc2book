@@ -1,0 +1,26 @@
+X: 162
+T: Sion House
+M:6/4
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:F
+F2 c2 A2 GF c4|f3 e d2 g2 e2 dc|f2 c2 d2 cB A2 d2|B2 e2 d4 c4|F2 c2 A2 G
+F c4|\
+f3 e d2 g2 e2 dc|f2 c2 d2 cB A2 d2|B2 e2 d4 c4::g3 g g2 fe d2 e2|\
+f2 c4 d2 B2 A2| B3 A B2 c2 d2 A2|A6 G2 G4|c2 A4 d2 c2 f2|B2 g4 d2 e2 dc|
+\
+f2 c4 b2 a2 g2|g6 f f4:|
+S:https://www.folktunefinder.com/tunes/85326
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/playf.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

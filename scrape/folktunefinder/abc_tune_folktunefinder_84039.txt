@@ -1,0 +1,22 @@
+X:162
+T:Papirossen
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=107
+K:Cm
+V:1
+C |:"Cm" CE EG Gc cd|ee dc G3z|ed dc "C7"cB BA|
+"Fm" AG "C7"GF "Fm"F3 F|"G7" FG Gd dc c=B |=BA AG GF FE|
+"Ab" EF FE "G7" GF ED|1 "Cm" E6 z C:|2 "Cm" (C4 C)G "G7" cd||
+|:"Cm" e3d"G7" ed c=B|"Cm" c2 G6 |c=B c=B "C7" c_B AG |"Fm" GA F6 |
+"G" FG Gd dc c=B |"G7" =BA AG GF FE |"Ab" EF FE "G7" GF ED |1 "Cm" (E4 E)G "G7" cd :|2"Cm" C8 ||
+S:https://www.folktunefinder.com/tunes/84039
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

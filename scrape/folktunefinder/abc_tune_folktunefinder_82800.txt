@@ -1,0 +1,32 @@
+X:10
+T:En revenant de Nantes
+R:chanson
+N:les barres de mesures ont t recopie telles quelles
+N:p.255
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=100
+K:C
+z4 z2 g | g3 f _e d | c3 G2 G | c B d c c z g | g3 f _e d |
+c z c B d | c z d _e f2 | g3 z2 g | g3 f _e d | c3 G2 z ||
+z4 z c B d | c z d _e d | c8 | 
+W:En revenant de Nantes, verde, verde, verde, 
+W:en revenant de Nantes, o mon bonnet, o mon bonnet.
+W:Je rencontre un' fille, verde, verde, verde,
+W:Je rencontre un' fille, o mon bonnet, o mon bonnet.
+S:https://www.folktunefinder.com/tunes/82800
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

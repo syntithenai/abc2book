@@ -1,0 +1,22 @@
+X: 103
+T:Mall Peatly
+M:6/8
+L:1/8
+S:Playford
+K:F
+d3 f3 | A2 B c>BA| d2 e f>gf| e2 d d3| d3 f3 A2 B cBA| d2 e f>gf e2 d d2 :|
+|: e|f>gf cAF| f3 de^f| g>ag edc| g2 f/2e/2 d2 e| f2 g a2 A |^c2 A a2 A| ^c2 A a2 A |^c2 A f2 g| a>fd e>d^c| d3 d2:|
+S:https://www.folktunefinder.com/tunes/85082
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/MallPeatly.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/MallPeatly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

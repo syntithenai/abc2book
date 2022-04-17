@@ -1,0 +1,24 @@
+X:26
+T:Cantiga 77
+R:Danse XIIIe
+O:XIIIe s
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/8
+K:Dm
+P:A
+E>D E>F | G2C2 | E>F (3EDC | B,3z |{C}E>D E>F | G2C2 | E>D (3CDB, | C2-Cz :|
+E>F G>F | (G/F/E/D/) C>B, | E>D C>B, | E2 Ez | E>F G>F | (G/F/E/D/) C>B, | E>D C>B, | C2 Cz |]
+%%footer $D   Galouvielle-MBe 2005 \nDanse XIIIe XIIIe s
+S:https://www.folktunefinder.com/tunes/84302
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Danse xiiie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

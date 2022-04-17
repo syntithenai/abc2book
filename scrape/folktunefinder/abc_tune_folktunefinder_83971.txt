@@ -1,0 +1,34 @@
+X:92
+T:Arum dem fayer
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=71
+K:Dm
+V:1
+A,D F |:"Dm" A2 A2 |"Gm" zB/A/ GB |"Dm" A2 A2 |
+"Gm" zA GD |"Dm" F2 F2 |"E7" zE/F/ "A7" GE |"Dm" D2 D2 |
+|1 zA, DF :|2 "F7" zA Bc || |:"Bb" (d4 |"D7" d)c BA |
+"Gm" B/A/G G2 |zG AB |"C" c2 c2 |"C7" zB AG |
+"F" A/G/(F F2) |zF GA |"Gm" (B4 |B)A GF |
+"E7" G/F/(E E2) |zE FG |"A7" (A4 |A)G FE |
+"Dm" F/E/(D D2) |1 "F7" zA Bc :|2 z||
+V:2          %2e stem
+F, A,D  |:F2 F2 |zG/F/ EG |F2 F2 |
+zF EB, |D2 D2 |zB,/D/ E^C |D2 D2 |
+|1 zF, A,D :|2 zA G^F || |:F4 |^F4 |
+G4 |z4 |C4 |E4 |
+F4 |zc BA |(G4 |G4) |
+(^G4 |^G2) B2 |(^c4 |^c)B AG |
+F4 |1 zA G^F :|2 z||
+S:https://www.folktunefinder.com/tunes/83971
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

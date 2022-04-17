@@ -1,0 +1,32 @@
+X: 225
+T:Lincolnshire March. JC.230
+M:C|
+L:1/8
+Q:140
+S:John Clare,Poet,Helpstone (1793-1864)
+R:March
+O:England230
+A:Northamptonshire
+N:
+Z:vmp.P. Headford
+K:G
+Q:1/8=140
+((3def)|g2d>dd2c2|B2G>GG2((3ABc)|\
+BGcA dBgB|A2AAA2((3def)|!
+g2d>dd2c2|B2G>GG2((3ABc)|\
+((3Bcd)((3efg) f2e2|d2d>dd2|!
+|((3def)|edcBc2((3cde)|dcBAB2((3def)|\
+gfed cBAG|d2d>dd2((3ABc)|!
+B2G>GG2((3GAB)|c2A>AA2"not in MS"((3ABc)|\
+((3Bgf) ((3edc) B2A2|G2G>GG2|]
+S:https://www.folktunefinder.com/tunes/83808
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

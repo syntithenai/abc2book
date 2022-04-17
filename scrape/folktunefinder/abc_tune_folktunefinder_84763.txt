@@ -1,0 +1,24 @@
+X:33
+T:The fine Companion
+R:jig
+P:AABB
+M:6/8
+L:1/8
+Q:110
+K:Dm
+d2f dda|c>de f>ed|a2g aag|ae2-e2 d|eee e2d|c>de A2e|f2d c>de|1 d3 f3:|2 d3 f2d||
+cAA e2d|cAB A2e|fde fde|f3 g3|aaa c>de|ffe fda|ccd eca|d3 f3||
+S:https://www.folktunefinder.com/tunes/84763
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

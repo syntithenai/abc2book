@@ -128,7 +128,7 @@ function updateTuneAbc(songNumber, tuneIds) {
           if (tune === null)  {
             tune = singleAbc2json(abcText) 
             tune.meta = cleanMetaData(tune.meta)
-            time.id = oldTune.id
+            tune.id = oldTune.id
           // collate settings
           } else {
             var settingTune = singleAbc2json(abcText) 
@@ -157,102 +157,105 @@ function updateTuneAbc(songNumber, tuneIds) {
 }
 
 
-function updateTuneAbcGrab(songNumber, tuneId) {
-  var oldTune = getTuneFromCache(songNumber)
-  //console.log('updateTussneAbc',songNumber, tuneIds, oldTune)
-  $('#waiting').show()
-  var promises = []
-  if (Array.isArray(tuneIds)) {
-    tuneIds.forEach(function(tuneId) {
-      var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
-      promises.push($.get(p))
-      var tune = null
-      Promise.all(promises).then(function(abcTexts) {
-        var tunes = loadLocalObject('abc2book_tunes')
-        abcTexts.forEach(function(abcText) {
-          var key = ensureText(getMetaValueFromAbc("K",abcText).trim())
-          //var tune = abc2Tune(abcText)
-          //if (tune && tune.format)  {
-          oldTune.useSetting = 0
-          oldTune.settings = [
-            {
-                "key": key,
-                "abc": getNotesFromAbc(abcText),
-                "member": {
-                },
+//function updateTuneAbcGrab(songNumber, tuneId) {
+  //var oldTune = getTuneFromCache(songNumber)
+  ////console.log('updateTussneAbc',songNumber, tuneIds, oldTune)
+  //$('#waiting').show()
+  //var promises = []
+  //if (Array.isArray(tuneIds)) {
+    //tuneIds.forEach(function(tuneId) {
+      //var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
+      //promises.push($.get(p))
+      //var tune = null
+      //Promise.all(promises).then(function(abcTexts) {
+        //var tunes = loadLocalObject('abc2book_tunes')
+        //abcTexts.forEach(function(abcText) {
+          //var key = ensureText(getMetaValueFromAbc("K",abcText).trim())
+          ////var tune = abc2Tune(abcText)
+          ////if (tune && tune.format)  {
+          //oldTune.id = null
+          //oldTune.setting_id = null
+          //oldTune.boost = null
+          //oldTune.useSetting = 0
+          //oldTune.settings = [
+            //{
+                //"key": key,
+                //"abc": getNotesFromAbc(abcText),
+                //"member": {
+                //},
                 
-            }
-          ]
+            //}
+          //]
         
-          if (oldTune && oldTune.format)  {
-            tunes[songNumber] = oldTune
-          }
-        })
-        saveLocalObject('abc2book_tunes',tunes)
-        generateAndRenderSingle(songNumber, tune)
-        generateIndexesFromTunes()
-        renderIndexes()
+          //if (oldTune && oldTune.format)  {
+            //tunes[songNumber] = oldTune
+          //}
+        //})
+        //saveLocalObject('abc2book_tunes',tunes)
+        //generateAndRenderSingle(songNumber, tune)
+        //generateIndexesFromTunes()
+        //renderIndexes()
         
-        $('#waiting').hide()
-        $('#wrong_tune_selector_'+songNumber).hide()
-        $('#controls_'+songNumber+' .stopplayingbutton').hide()
-        preventClickThrough()
-        scrollTo('controls_'+songNumber)
-      }).catch(function(e) {
-        $('#waiting').hide()
-        console.log('ERR',e)
-      })
-    })
-  }
-}
-
-function updateTuneAbcGrab(songNumber, tuneId) {
-  var oldTune = getTuneFromCache(songNumber)
-  //console.log('updateTussneAbc',songNumber, tuneId, oldTune)
-  //if (oldTune && oldTune.format) {  
-    console.log('PATHsss')
-    $('#waiting').show()
-    var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
-    console.log('PATH',p)
-    $.get(p).then(function(abcText) {
-        console.log("RES",abcText)
-        var key = ensureText(getMetaValueFromAbc("K",abcText).trim())
-        //var tune = abc2Tune(abcText)
-        //if (tune && tune.format)  {
-        oldTune.useSetting = 0
-        oldTune.settings = [
-          {
-              "key": key,
-              "abc": getNotesFromAbc(abcText),
-              "member": {
-              },
-              
-          }
-        ]
-        //tune.setting_id = oldTune.setting_id
-        //tune.forceTitle = oldTune.forceTitle
-        //tune.boost = oldTune.boost
-
-        var tunes = loadLocalObject('abc2book_tunes')
-        tunes[songNumber] = oldTune
-        saveLocalObject('abc2book_tunes',tunes)
-        generateAndRenderSingle(songNumber, tune)
-        generateIndexesFromTunes()
-        renderIndexes()
-        
-        $('#waiting').hide()
-        $('#wrong_tune_selector_'+songNumber).hide()
-        $('#controls_'+songNumber+' .stopplayingbutton').hide()
-        scrollTo('controls_'+songNumber)
-        
-    }).catch(function(e) {
-      $('#waiting').hide()
-      console.log('ERR',e)
-    })
-  //} else {
-    //console.log('MISSING OLD TUNE')
+        //$('#waiting').hide()
+        //$('#wrong_tune_selector_'+songNumber).hide()
+        //$('#controls_'+songNumber+' .stopplayingbutton').hide()
+        //preventClickThrough()
+        //scrollTo('controls_'+songNumber)
+      //}).catch(function(e) {
+        //$('#waiting').hide()
+        //console.log('ERR',e)
+      //})
+    //})
   //}
-}
+//}
+
+//function updateTuneAbcGrab(songNumber, tuneId) {
+  //var oldTune = getTuneFromCache(songNumber)
+  ////console.log('updateTussneAbc',songNumber, tuneId, oldTune)
+  ////if (oldTune && oldTune.format) {  
+    //console.log('PATHsss')
+    //$('#waiting').show()
+    //var p = '/abc2book/scrape/folktunefinder/abc_tune_folktunefinder_'+tuneId+'.txt'
+    //console.log('PATH',p)
+    //$.get(p).then(function(abcText) {
+        //console.log("RES",abcText)
+        //var key = ensureText(getMetaValueFromAbc("K",abcText).trim())
+        ////var tune = abc2Tune(abcText)
+        ////if (tune && tune.format)  {
+        //oldTune.useSetting = 0
+        //oldTune.settings = [
+          //{
+              //"key": key,
+              //"abc": getNotesFromAbc(abcText),
+              //"member": {
+              //},
+              
+          //}
+        //]
+        ////tune.setting_id = oldTune.setting_id
+        ////tune.forceTitle = oldTune.forceTitle
+        ////tune.boost = oldTune.boost
+
+        //var tunes = loadLocalObject('abc2book_tunes')
+        //tunes[songNumber] = oldTune
+        //saveLocalObject('abc2book_tunes',tunes)
+        //generateAndRenderSingle(songNumber, tune)
+        //generateIndexesFromTunes()
+        //renderIndexes()
+        
+        //$('#waiting').hide()
+        //$('#wrong_tune_selector_'+songNumber).hide()
+        //$('#controls_'+songNumber+' .stopplayingbutton').hide()
+        //scrollTo('controls_'+songNumber)
+        
+    //}).catch(function(e) {
+      //$('#waiting').hide()
+      //console.log('ERR',e)
+    //})
+  ////} else {
+    ////console.log('MISSING OLD TUNE')
+  ////}
+//}
 
 
 /**
@@ -271,14 +274,14 @@ function updateTuneSearchText(songNumber, newSearchText) {
       $('#waiting').show()
       $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+newSearchText).then(function(searchRes) {
         // cache search results
-        console.log(searchRes)
+        //console.log(searchRes)
         var searchCache = loadLocalObject('abc2book_search')
         searchCache[safeString(newSearchText)] = searchRes.tunes
         saveLocalObject('abc2book_search',searchCache)
         $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').html('')
         if (searchRes && searchRes.tunes && searchRes.tunes.length > 0 && searchRes.tunes[0].id) {
           searchRes.tunes.map(function(tune) {
-              var loadButton = $('<button style="margin-right: 0.5em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" role="image" ><title>Load from thesession.org</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>')
+              var loadButton = $('<a style="margin-right: 0.5em" ><span>'+tune.name+'</span></svg></a>')
               loadButton.click(function(e) {
                 updateTuneId(songNumber, tune.id); 
                 return false; 
@@ -288,10 +291,10 @@ function updateTuneSearchText(songNumber, newSearchText) {
                 updateTuneIdLink(songNumber, tune.id); 
                 return false; 
               })
-            var option = $('<li class="list-group-item tune_selector_option" ><span>'+tune.name+'</span></li>')
-            var buttonBlock=$('<div style="float: left" ></div>')
-            buttonBlock.append(loadButton)
+            var option = $('<li class="list-group-item tune_selector_option" ></li>')
+            var buttonBlock=$('<div style="float: right"  ></div>')
             buttonBlock.append(linkButton)
+            option.append(loadButton)
             option.append(buttonBlock)
             $('#wrong_tune_selector_'+songNumber+ ' .wrong_tune_selector_items').append(option)
           })
@@ -325,7 +328,7 @@ function updateTuneSearchAbcText(songNumber, newSearchText) {
           $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').html('')
           if (searchRes && searchRes.length > 0 && Array.isArray(searchRes[0].ids)) {
             searchRes.map(function(tune) {
-              var loadButton = $('<button style="margin-right: 0.5em" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" role="image" ><title>Load tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg></button>')
+              var loadButton = $('<a style="margin-right: 0.5em" ><span>'+tune.name+'</span></a>')
               loadButton.click(function(e) {
                 updateTuneAbc(songNumber, tune.ids); 
                 return false; 
@@ -336,10 +339,10 @@ function updateTuneSearchAbcText(songNumber, newSearchText) {
                 return false; 
               })
               
-              var option = $('<li class="list-group-item tune_selector_option" ><span>'+tune.name+'</span></li>')
-              var buttonBlock=$('<div style="float: left" ></div>')
+              var option = $('<li class="list-group-item tune_selector_option" ></li>')
+              var buttonBlock=$('<div  ></div>')
+              //buttonBlock.append(grabButton)
               buttonBlock.append(loadButton)
-              buttonBlock.append(grabButton)
               //buttonBlock.append(grabButton)
               option.append(buttonBlock)
               $('#wrong_abc_selector_'+songNumber+ ' .wrong_abc_selector_items').append(option)
@@ -374,18 +377,18 @@ function loadIndex(callback) {
 
 function searchIndex(text, callback) {
   $('#waiting').show()
-  console.log('sesarch index',text)
+  //console.log('sesarch index',text)
   loadIndex(function(index) {
-    console.log('sesarch index loaded',index)
+    //console.log('sesarch index loaded',index)
     var matches = {}
     var cleanText = stripText(text)
     var parts = cleanText.split(" ")
-    console.log('sesarch tokens',parts)
+    //console.log('sesarch tokens',parts)
     parts.forEach(function(part) {
-      console.log('sesarch tokens P',part, index.tokens)
+      //console.log('sesarch tokens P',part, index.tokens)
       if (index.tokens.hasOwnProperty(part) && Array.isArray(index.tokens[part])) {
         index.tokens[part].forEach(function(matchItem) {
-          console.log('handlepart',part,matchItem,matches,matches[matchItem])
+          //console.log('handlepart',part,matchItem,matches,matches[matchItem])
           if (matches[matchItem] > 0) {
             matches[matchItem] = matches[matchItem] + 1
           } else {
@@ -406,15 +409,16 @@ function searchIndex(text, callback) {
     var seen = {}
     var final = []
     fullMatches.forEach(function(a) {
-      if (!seen[a.name]) seen[a.name] = {ids:[]}
-      seen[a.name].ids.push(a.id)
+      var lowerName = a.name.toLowerCase()
+      if (!seen[lowerName]) seen[lowerName] = {ids:[]}
+      seen[lowerName].ids.push(a.id)
     })
     Object.keys(seen).forEach(function(seenName) {
       final.push({ids: seen[seenName].ids, name: seenName})
     })
     //final.push()
         
-    console.log('full matches', matches, final)
+    //console.log('full matches', matches, final)
     $('#waiting').hide()
     callback(final)
   })

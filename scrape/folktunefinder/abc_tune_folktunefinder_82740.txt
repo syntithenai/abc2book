@@ -1,0 +1,25 @@
+X:6
+T:Valse de Monoblet
+R:Valse
+O:France
+A:Cvennes
+M:3/4
+L:1/4
+Q:1/4=180
+K:G
+B |: "G"dBd | edc | "Am"A2c | "D"d2B | "G"dBd | edc | "D"A2d | "G"G2B :| "G"dBG | "D"FAB | "Am"cAc | "G"BGB | dBG |
+ "D"F2E | DEF | "G"G2B | "G"BcB | "D"d3 | "C"c3 | "G"B2B | "G"dBG | "C"EDE | "D"FGA | "G"G2 d | "G"dBd | "C"ece |
+ "D"fe/f/e/f/ | "G"gdB | gdB | "D"fec | fec | "G"d2 B/d/ |
+ gdB | "D"fec | fe/f/e/f/ | "G"g2 B/d/ | gdB | "D"Aed | cBA | "G"G3 | "G"B3 | "C" c3 | "A7"^c3 | "D"d2 |]
+%%footer $D   Galouvielle-MBe 2006 \nMarche (France)
+S:https://www.folktunefinder.com/tunes/82740
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

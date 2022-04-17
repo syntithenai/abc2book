@@ -1,0 +1,24 @@
+X: 111
+T: Reiach Menta
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=192
+K: Am
+%%MIDI program 65 
+%%MIDI drum dddd 36 41 41 41 80 60 70 50
+%%MIDI drumon
+|:ABcd.e2.e2 |e3d ede2|dgfg e2z2|edec c2z2 :|
+|:z2.d2.d2.d2|c3B A2z2|cdcB cdcB|c2dzc2dz  |
+  z2 dd d2 e2|c3B A2z2|cBcd cBBA|A4 z4     :|
+S:https://www.folktunefinder.com/tunes/84516
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

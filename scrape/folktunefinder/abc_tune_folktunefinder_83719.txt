@@ -1,0 +1,30 @@
+X: 136
+T:Kiss my Lady. JC.136
+M:2/4
+L:1/8
+Q:180
+S:John Clare,Poet,Helpstone (1793-1864)
+R:Country-dance
+O:England
+A:Northamptonshire
+N:MR.Bars 1,2,5,6, 1st note crot in MS given here as dotted crots.,Qu
+N:rest added after 1st 2nd 3rd double bar lines.Bar 15, 4 qu's in MS
+N:given here as semi-qu's.Bar 31, 4th,5th notes,semi qu's in MS.
+Z:vmp.P. Headford
+K:G
+D|G3B|A3c|Ad (d/c/B/A/)|(G/F/G/A/) GD|G3B|A3B|Bd (d/c/B/A/)|G2G:|!
+|:z|GdBd|Gece|DcAc|GdBd|GgdB|GecA|Bd (d/c/B/A/)|G2"crot"G:|!
+|:z|d2Bc|"semi-qu's"dddd|c3A|B3G|F3F|AAAd|edcB|G2A:|!
+|:z|cc/d/ cA|BB/d/ BG|cc/d/ cA|BB/c/ BG|!
+eeec|dgec|(c/A/B/A/4G/4) B/A/G/F/|G2"crot"G:|]
+S:https://www.folktunefinder.com/tunes/83719
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Country-dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:45
+T: Od Yishoma #2
+O:klezmer
+C: S.Carlebach
+M: 2/4
+L: 1/8
+K: Bm
+| "Bm"B,F EF | "Em"G2 E2 | "Bm"F4- | "F#7"F4 \
+| "Bm"B,F EF | "A7"G2 E2 | "D"F4- | "F#7"F4 |
+| "G"Bd cB | d2 B2 |  "Em"zd cB | A2 G2 \
+| "A7"zA GA | B2 G2 | "D"F4- | "F#7"F4 |
+|: "Bm"Bd2 d | d2 cd | "Em"e2 d2 | "F#7"d2 c2 \
+| Fc2 c | c2 Bc | d2 c2 |1 "Bm"c2 B2 :|2 "Bm"B4 |]
+S:https://www.folktunefinder.com/tunes/83944
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

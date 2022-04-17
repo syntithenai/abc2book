@@ -1,0 +1,35 @@
+X:269
+T: Di Rayze Nukh Amerike
+O:klezmer
+N: Arranged for contra dance by John Chambers
+M: 2/4
+L: 1/16
+K: Em
+P: Form: (AABB)(AACD)...
+P: A
+B,2 \
+|| "Em"E2F2 G2A2 | B2c2 B2e2 | B8- | B6 B,2 | E2F2 G2A2 | "E7"B2d2 c2B2 | "Am"A8- | A8 || "D7"A2e2 e2e2 |
+| "G"dedc B2A2 | "C"G2c2 c2c2 | "B7"BcBA G2F2 |1 "Em"E4 G2F2 | E2G2 B2e2 | B8- | B8 :|2 "Em"E2G2 B2e2 | "B7"dcBA G2F2 | "Em"E8 |
+P: B
+"G"z2d2 c2B2 \
+|: "G"d2d2 d4 | z2d2 c2B2 | "Am"A2A2 E4 | z2E2 A2c2 | "D7"e2 e4 e2 | efef e2f2 | "G"d8 |
+| z2d2 c2B2 | d2d2 d4 | z2 d2 c2B2 | "C"e2e2 e4 | z2e2 ^d2e2 | "G"g2>>B2 d2>>G2 | B2>>D2 G2B2 | "D7"A8 |1 "G"G2d2 c2B2 :|2 "G"G2BB "B7"B2B2 |]
+P: AA
+P: C
+M: 6/8
+|| "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2B ^A2B | E2F G2E | "B"FB,B, B,B,B, | BBB BBB |
+|  "Em"G2G G3- | GGG BAG | "B7"A2A A3- | AAA FE^D | "Em"E2^D E2F | "C"G2F G2A | "B7"BAG AGF | "Em"E3/2(B,/=C/^D/E3) ||
+P: D
+| "G"G2G GFE | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"B^AB G2B |B^AB G3 | BAG "G7"=F2F | "D7"=F3 z3 |
+| "G"G2B BAG | D3 G3 | "Em"G2G GFE | B,3 E3 | "G"DB,D G3 | GDG B3 | "D7" dcB ABA | "G"G3 z3 |]
+S:https://www.folktunefinder.com/tunes/84115
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

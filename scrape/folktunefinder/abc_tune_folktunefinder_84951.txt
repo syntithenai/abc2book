@@ -1,0 +1,19 @@
+X:110
+T:Saint Martins
+M:C|
+L:1/4
+K:G
+E | "Am" A/B/ c "G" B/c/ d | "C" c2 "D" c d | "C" e/f/ g "D" f> e | "E" e3 e/f/ | "Em" g f/e/ "G" d d/e/ | "Dm" =f e/d/ "Am" c c/d/ | "C" e d/c/ "E" B > A | [1 "A" A3 :| [2 "A" A4 ||
+|: "G" B "(C)" e "G" B "(Am)" c | "Em" B > A G/F/ E | "C" c/d/e/=f/ "D" d>e | "C" c3 e/f/ | "G" g d/e/ "Dm" =f c/d/ | "C" e B/c/ "G" d c/d/ | "C" e d/c/ "E" B > A | [1 "A" A4 :| [2 "A" A3 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84951
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

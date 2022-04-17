@@ -1,0 +1,51 @@
+X:96
+T:Belz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=86
+K:Dm
+V:1
+(3A,DE |"Dm" FD zD "Gm"  (3GGD |"Dm" F4  (3A,DE |"Dm" FD z2  (3DCD |
+(C2 C3/2) C/"C7"  (3CFG |"F" AF2 Ac/c/ B/A/|"Gm" G3 G (3dDD |"Dm" D/D/D zF "Eb"  (3GG_E |
+"Dm" D3 A (3cBA |"F" c3 A"C"  (3G/F/G/ F/G/|"F" F3 Ac/c/ d/c/|f3 cc/B/ A/B/|
+A3 A"D7"  (3BAG |"Gm" B3 A (3AGF |"Dm" A3 G (3GFE |"A7" G4 "Bb"  (3FED |
+"A" A3 A (3BAG |"Gm" B3 A (3AGF |"Dm" A3 G (3GFE |"A" G4  (3^GAF ||
+M:2/4
+"Dm" D2 z2 |z4 ||"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm"  (3GGD |
+"Dm" F4 |z/A/c/B/ "A7" A/B/A/G/ |"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm" FG |
+"Dm" (D4 |D)z "C7" z2 |"F" AA "Bb" B/A/B |"F" c2 "Bb" d/c/B |
+"F" AF "C" GC |"F" F2 zF |"F" AA "Gm" B/A/B |"F" cc H^c/c/B |
+"F" AA "Gm" G/F/G |"A7" A4 |"Dm" (F4 |F)F "Gm" G/F/G |
+"Dm" (F4 |F)F "Gm" G/F/G |"F" AG/A/ "Gm" GF/G/ |"Dm" F/E/D "Gm"  (3BBA |
+"Dm" (d4 |d2) z2 :|
+V:2          %2e stem
+M:3/4
+z2 |{^C/}D2 z2 {D/}E2 |{^C/}D4 z2 |{^C/}D2 z2 {^C/}D2 |
+{C/}E4 E2 |{E/}F4 ^F2 |{G/}{^G/}{A/}B4 G2 |{E/}F2 z2 {D/}_E2 |
+{E/}F4 G2 |{G/}A4 {A/}B2 |{G/}A4 FG |{G/}A4 G2 |
+{E/}F4 ^F2 |{^F/}G4 {A/}B2 |{E/}F4 {C/}D2 |{A,/}^C4 D2 |
+^C4 ^F2 |G2 F2 E2 |D2 C2 B,2 |^C4  (3EFD ||
+M:2/4
+A,2 z2 |z4 ||(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |FE/F/ ED/E/ |D2 E2) |
+D4 |z4 |(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |{B/}c2 {A/}B2 |{G/}A2 {F/}G2 |
+{E/}(F4 |F)z z2 |FF G/F/G |A2 B/A/G |
+F2 E2 |A2 zA |FF G/F/G |AA HB/A/G |
+FF E/D/E |^C4 |(D4 |D)D E/D/E |
+(D4 |D)D E/D/E |{E/}F2 {D/}E2 |{^C/}D2 {F/}G2 |
+{E/}(F4 |F2) z2 :|
+S:https://www.folktunefinder.com/tunes/83975
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 20
+T:Butterfly
+M:2/4s
+L:1/8
+K:A
+c2 d d |e c A2 |a2 g f| f e e2| c2 d d | e2 (3fga| c2 d B| A2 A2:|
+|: B>B B B|c B B2|B>B B B|c B B2|B>B B B|c>c c c|d>d d d| A4:|
+S:https://www.folktunefinder.com/tunes/84999
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Butterfly.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Butterfly.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:28
+T:Estampie
+T:Trotto
+O:France
+R:Estampie
+C:XIVe sicle
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=126
+K:G
+A2A eAe | e2d cBc | AGA BAB | G3 A2B | cBA B2F | B3 z2z | A2A eAe | e2d cBc |
+AGA BAB | G3 A2B | d2e d2c | BAB GA2 !fine! || (d/c/B)c d2e  | (d/c/B)c AGA | (c/B/A)B c2d | (d/c/B)c AGA | 
+(d/c/B)c d2e | (d/c/B)c AGA | a2g f3 | (a/g/f)g e2A | eAe e3 | A2A eAe | e2d cBc | AGA BAB | 
+G3 A2B | cBA B2F | B3z2z | A2A eAe | e2d cBc | AGA BAB | G3A2B | d2e d2c | BAB GA2 |
+(a2g/f/ e2f/g/ | a2g/f/ e3) |  a2g f3 | (a/g/f)g e2A | eAe e3 !D.C.! |]
+%%footer $D   Galouvielle-MBe 2005 \nMarche France
+S:https://www.folktunefinder.com/tunes/84304
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Estampie
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

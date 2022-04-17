@@ -1,0 +1,36 @@
+X:208
+T:PLINN 5
+R:Plinn
+C:Yves BELOTTEAU
+O:BRETAGNE
+Z: Yves BELOTTEAU
+M:4/4
+L:1/8
+Q:150
+K:C
+P:1
+|:ez f/2 e3/2 d/2|c3/2 d/2 e2|az b3/2 a/2| g3/2 f/2 e2:|!
+|:ez f/2 e3/2 d/2 e3/2 c/2 Az|Az A/2 B/2 c/2 dz dz| ez f/2 e3/2 d/2 e3/2
+ c/2 Az|A3/2 G/2 ^F3/2 G/2 Az A2:|!
+P:2
+L:1/4
+Q:85
+|:c/2B/2 c/2 A c e/2 d/2 B/2 d/2 c/2 B/2 A A G/2 F/2 E:|
+Q:150
+|:a a g/2 f/2 e|e/2 d/4 c/4 B/2 d/2 c/2 B/2 c/2 A/2|a a g/2 f/2 e|e/2 d/
+4 c/4 B/2 d/2 c A:|!
+P:3
+|:e e f/2 g/2 a|a a g/2 f/2 e:|
+|:e e f/2 e/2 d|d/2 e/2 d/2 c/4 B/4 c/2 d/2 e/2 c/2|c c B/2 A/2 B|
+B/2 d/2 d/2 c/4 B/4 c/2 B/2 A:|!
+S:https://www.folktunefinder.com/tunes/85780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf03.abc
+% Rhythm Plinn
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

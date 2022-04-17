@@ -1,0 +1,41 @@
+X:8
+T:The New Exchange
+T:The New Royal Exchange
+R:Jig
+H:One of two tunes commemorating a large commercial building built in
+H:1609 in competition with the Royal Exchange. Because there was another
+H:tune by this title, it was renamed "The New New Exchange" (1665) and
+H:"The New Royal Exchange" (1670).
+M:6/8
+L:1/8
+Q:100
+K:GDor
+D|G3/2A/2B/2c/2 BA2|G3 G2G|A>Bc cB2|A3 A2A|A>Bc d2G|FFE F2D|G3/2A/2B/2c/2 BA2|G3 G2||
+W:I'll go no more to the New Exchange, there is no room at all
+W:It is so throng'd and crowded by the gallants of Whitehall
+W:But I'll go to the Old Exchange, where old things are in fashion
+W:For now the Kew's become the shop of this blessed Reformation
+W:Come, my new Courtiers, what d'ye lack Good consciences I you do
+W:Here's long and wide, the only wear, the straight will trouble you
+S:https://www.folktunefinder.com/tunes/84805
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/New_Exchange.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/New_Exchange_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/New_Royal_Exchange.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/New_Royal_Exchange_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/New_Exchange.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/New_Exchange_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/New_Royal_Exchange.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/New_Royal_Exchange_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

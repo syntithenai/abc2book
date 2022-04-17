@@ -1,0 +1,50 @@
+X:14
+T:Le coeur m'y bat
+R:chanson 
+N: 
+N:p.383
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+F G A D | E D D2 ||: F G A D | E D D2 :|
+A A B A | ^G A (B A) | A A d A | G F E2 | z D E D |
+D2 E2 | D D E F | D2 E2 | E2 z2 ||
+W:Excusez si j'entre en danse, c'est pour un amant chercher ;
+W: je me tourne et je me vire je n'en trouve point  mon gr ;
+W:le coeur m'y bat, gai, gai, le coeur m'y bat gament.
+%%%%%%%%%%%%%%%%%%%
+% % % % % % % % % %
+%%               %%
+%        *        %
+%%      ***      %%
+%      * * *      %
+%%   *********   %%
+%      * * *      %
+%%       *       %%
+%        *        %
+%%      ***      %%
+%       ***       %
+%%     *****     %%
+%      *****      %
+%%    *******    %%
+%    *********    %
+%%  * * *** * *  %%
+%    *   *   *    %
+%% % % % * % % % %%
+%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/82808
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:224
+T: The Huntsmen's Chorus
+O:klezmer
+R:reel
+M:2/4
+L:1/8
+K:A
+|: E || "A"AE A/B/c/d/ | e2 c2 |  "E7"Be Be | "A"c/d/c/B/ AE \
+| "A"AE A/B/c/d/ | e2 "D"d2 | "A"c/B/A/B/ "E7"cB | "A"A3 :|
+|: B || "A"c>c cB | "Fm"A2 Bc | "Bm"d>d dc | "E7"BG FE \
+| "A"cc/B/ A/B/c/d/ | e2 "D"d2 | "A"c/B/A/B/ "E7"cB | "A"A3 :|
+S:https://www.folktunefinder.com/tunes/84097
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

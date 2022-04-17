@@ -1,0 +1,29 @@
+X:175
+T:Simchas Toyre
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+c |:segno"Cm" c {B/}{f/}^c c3/2 c/4^c/4|~c{B/} {f/}^cc3/2 c/|cd/ c/"Bb7" Bc/ d/|
+"Eb" e3 z/f/|"Bb"  (3f/g/f/ d/f/"Eb" e2 |"Bb"  (3f/g/f/ d/f/"Eb" e3/2 e/|"Cm" e/d/{f/} e"Bbm" ^c/B/ {e/}^c|
+|1 "Cm" c2 G3/2 c/:|2 "Cm" c2 ze || |:"Eb" ef "C7" ~g3/2 f/|"Fm" f/c/f/ c/fz |
+f3/2 e/{g/}|"Cm" g g|{g/}{g/} "Fm" f2 z"Bb"  (3B/c/d/ |"Eb" ef "C7" g3/2 f/|
+"Fm" f/c/{g/} f/c/f z|1 "Bb" ~b2 "Bb7" g/g/g |"Eb" g2 z3/2 B/:|2 "Cm" e/d/c "Bb" ff |
+"Eb" e3 z/B/|| |:"Cm" =A/B/ (cc) c/{g/}f/|{g/} {g/}f/e/e/ d/e3/2 z/|=A/B/(c c)c/e/ |
+"F" d/4e3/4 c/d/"Bb" B3/2  (3B/4c/4B/4 |"Cm" =A/B/(c c)c/f/ |g/f/f/e/ "Fm" e/4f/4f3/2 |"Cm" e/d/e "Bbm" ^c/B/^c |
+|1 "Cm" c2 G3/2 B/:|2 "Cm" cB "Bb" ef || |:"Eb" g4 |g3 b||
+{b/}g/ f/f/e/e3/2 =a/|{c'/}b/g/ {b/}g/g/g3/2 z/|g/f/{g/} f/e/"Bb" ~e/d/ e/d/|"Eb" e2 ef |
+~g/f/~f/e/ e2 |"Fm"  (3f/g/f/ e/d/"Cm" c z|g/(e/ {g/)}f/(d/{f/)} "Bbm" e/(c/{e/)}^c/ B/|1 "Cm" cB ef :|2
+"Cm" c2 G2 ||
+S:https://www.folktunefinder.com/tunes/84052
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

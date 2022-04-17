@@ -1,0 +1,24 @@
+X:156
+T: IST DIE SCHWARZE KOECHIN DA
+N: K2267
+O: Europa, Mitteleuropa, Deutschland, Dresden
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 2/4
+L: 1/8
+K: D
+ | AABB | AGF2
+A2B2 | A2z2
+AABB | AGFD
+AABB | AGFD
+A2B2 | A2z2
+S:https://www.folktunefinder.com/tunes/82516
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

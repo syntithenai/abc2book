@@ -1,0 +1,30 @@
+X: 41
+T:Betty Brown. JC.040
+M:C|
+L:1/8
+Q:120
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Air
+O:England
+A:Northamptonshire
+N:Most of the quavers are separated in the MS , but i have beamed them
+N:for clarity. It makes no difference to the tune.CGP.
+Z:vmp.P. Headford
+K:G
+DD|G2Bdc2AF|(DF) AFG3A|B2GBA2Bg|(fe) dcd3d|!
+g2d=fe2ce|(dB) AGA3d|B2cde3g|B2cAG4|!
+g2fed4|e2dc{c}B3c|(dB) AGe2fg|B2BAG2|]
+W:Song text exists. See Deacon.|
+S:https://www.folktunefinder.com/tunes/83624
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

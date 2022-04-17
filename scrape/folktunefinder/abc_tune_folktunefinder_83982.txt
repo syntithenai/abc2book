@@ -1,0 +1,22 @@
+X:103
+T:Broyges Tantz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+{^G/4}"Dm" ~A/A/A/A/ {A/}{d/}A {G/}{c/}G/F/ |G/A/F/F/ {D}F2 |"A7" E/F/^G/A/ ~^G/F/E/D/ |"Dm" ~E/F/D/D/ {E/4}{G/4}"A7" E2 |
+{A/4}{d/4}|"Dm" AA/ A/{A/4}{d/4}A G/F/|~G/A/ ~F/F/{E/}F2 |"A7" ~E/F/^G/A/ ~^G/F/ (3F/E/D/ |
+"Dm" ~E/F/~D/D/ {^C/}~D2  |:~A,/D/4A,/4D/A,/ ~D2 |"Bb" ~D/F/4D/4F/D/ ~F2 |"A7" ~E/F/^G/A/ ~^G/F/ (3F/E/D/ |
+|1 "Dm" ~E/F/D/D/ {D/4}"A7" E2 :|2 "Dm" ~E/F/D/D/ {^C/4}~D2 ||
+S:https://www.folktunefinder.com/tunes/83982
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

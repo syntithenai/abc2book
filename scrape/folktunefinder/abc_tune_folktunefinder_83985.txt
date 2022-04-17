@@ -1,0 +1,27 @@
+X:106
+T:Chava
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Am
+V:1
+"Am" A2 c2 |ze dc |A2 c2 |"E" zE FE |
+"Am" A2 c2 |ze dc |"G" g2 f/e/f |"C" e2 "A7" e2 |
+"Dm" d2 f2 |"B" zf ed |"Am" aa A2 |"G" zd cB |
+"F" AE Ac |"D" ee dc |"E7" dd cB |1 "Am" AE F^G :|2
+"Am" A2 ze || |:"Am" ae ee |fe2 e|c ee e|
+f ef g|"A7" a2 g2 |f2 e2 |"Dm" dd d/e/f/e/ |
+d3 d|"Am" c ec e|"D" d3 A|"Dm" A dc B|
+"Am" A3 e|"G" g fe d|"E7" c dc B|"Am" (A4 |
+A4) :|
+S:https://www.folktunefinder.com/tunes/83985
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 44
+T:Little Judique
+R:Reel
+M:4/4
+L:1/8
+Q:300
+K:D
+fg|"D" a^gab a2 f2|d2 A2A2 fg|a^gab a2 f2|!d6 ef|
+"A"gfga g2 e2|  c2A2A2 ef|gfga g2 e2|c4 f>g|!
+"D" a^gab a2 f2|d2 A2A2 fg|a^gab a2 f2|d4 g>a|!
+"G"b2 gb "D"a2 fa |"A"g2 eg "D"f2 ed|"A"c2 Ac a2 c2|"D"d4||!
+K:A|
+"A"e4 e>f|e2c2B2A2|"D"agab a2 f2|"A"e6 fg|"D"a>b a2 f2|
+"A"e2c2a2f2|1"B"e2c2B2A2|"E"B4c2d2|2"E"e2c2B2c2|A6:|
+S:https://www.folktunefinder.com/tunes/84185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

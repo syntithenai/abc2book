@@ -1,0 +1,22 @@
+X:95
+T:Oranges and Lemons
+M:2/2
+L:1/8
+K:G
+%
+%
+"D" d2 e2 afed | "G" e3 d "(A)" B3 A | "D" d3 f afed | [1 "A" e3 f "D" d4 :| [2 "A" e3 f "D" d2 ga |]
+"G" b6 fg | "D" a6 fe | d3 f afed | "G" e3 d "(A)" B3 A | "D" d3 f afed | "A" e3 f "D" d2 ga |
+"G" b6 fg | "D" a6 fe | d3 f afed | "G" e3 d "(A)" B3 A | "D" d3 f afed | [1 "A" e3 f "D" d2 ga :| [2 "A" e3 f "D" d4 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84936
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

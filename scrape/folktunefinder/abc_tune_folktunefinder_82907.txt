@@ -1,0 +1,25 @@
+X:43
+T:Bourre  huit
+R:bourre  3 temps
+C:trad
+O:France
+M:3/8
+L:1/8
+Q:1/4=100
+K:G
+d2^c|d2A/2B/2|cBA|BGD|d2^c|d2A/2B/2|cBA|1G3:|2G2|
+|:D|GFG|D2G|A>d B/2A/2|BGD|GFE|D2G|A2F|1G2:|2G3||
+S:https://www.folktunefinder.com/tunes/82907
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+S:http://anamnese.online.fr/abc/favoris.abc
+S:http://www.tradfrance.com/matf04.txt
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

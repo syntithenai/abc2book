@@ -1,0 +1,24 @@
+X: 34
+T:Jump at the Sun(Dm)
+M:6/8
+L:1/8
+C:John Kirkpatrick
+S:Nottingham Music Database
+R:Jig
+Q:300
+K:Dm
+F/2E/2|"Dm"DFA ^G2A|DFA ^G2A|dAA dAA|"Gm"AGF "A7"E2F|
+"Dm"DFA ^G2A|DFA ^G2A|dAA "Gm"BAG|"A7"FGE "Dm"D2:|
+dAA fed|"A7"eAA gfe|"Dm"fed fed|"A7"ecA B2A|
+"Dm"dAA fed|"A7"eAA gfe|dAA "Gm"BAG|"A7"FGE "Dm"D2:|
+S:https://www.folktunefinder.com/tunes/84175
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

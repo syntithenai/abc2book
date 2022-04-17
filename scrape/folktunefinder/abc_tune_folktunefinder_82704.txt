@@ -1,0 +1,31 @@
+X: 1
+T: Ada's Kujawiak #1
+T: Na Wierzbowym Listku
+M: 3/4
+L: 1/8
+K: Am
+| "E7"{^d}e6 | {^d}e6 |{^d}ee e2 e2 | [e2d2] [e2c2] [e2B2] \
+|: "Am"A>c e>^d e>d | e>f e2 dc |
+| "Dm"d>^c d>c d>c | "E7"d>e d2 cB \
+| "Am"c>B "/G#"c>B "G"c>B | "/F#"c>d "F"c2 BA \
+| "E7"B>c B2 A^G |1 "Am"A4 {^G=G^F=F}E2 :|
+|2 "Am"A2 A2 z2 \
+|: "E7"B>c B>^G EB | "Am"c>d c>B Ac \
+| "G7"d>e d>B GB | "C"c>c d2 ^d2 \
+| "E7"e>c' b2- ba |
+| "Dm"^g>b f2- fd \
+| "E7"c>e B2 e2 | "Am"A2 "fine"A2 z2 :|[K:A]\
+|: "A"c>e A2 ce | "Bm"d>f B2 df |
+| "E7"g>b e2 (3efg | "A"a2 ae cA \
+| "A"(3cde A2 ce | "Bm"(3def B2 df \
+| "E7"e>f g>a bg | "A"a2 a2 z2 :|
+S:https://www.folktunefinder.com/tunes/82704
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Kujawiak_Adas1.abc-save
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

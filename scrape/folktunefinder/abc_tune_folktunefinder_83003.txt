@@ -1,0 +1,26 @@
+X:139
+T:Les filles de Dunkerque
+A:FLANDRE
+O:FRANCE
+M:2/4
+L:1/8
+Q:1/8=220
+K:F
+F2FA|c2BA|GcAF|F2FA|c2BBA|GcF2|A2AG|A2B2|
+cAF2||
+M:9/8
+F2FBFFFBFEF|G2GG2cc2B|
+M:2/4
+A2B2|cAF2|
+M:9/8
+F2AG2GF3||
+S:https://www.folktunefinder.com/tunes/83003
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

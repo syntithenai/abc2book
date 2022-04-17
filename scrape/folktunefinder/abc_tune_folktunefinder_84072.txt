@@ -1,0 +1,22 @@
+X:195
+T:Zog Maran
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=105
+K:Cm
+V:1
+"Cm" C3/2 E/G3 G|G3/2 E/G2 G2 |"Fm" F3/2 C/F3 G|"G7" G F"Cm" C2 CG  |:
+"C7" G3/2 G/"Fm" F4 |"Bb7" F3/2 G/"Eb" E2 E2 |"Cm" E3/2 F/"G7" D3 D|D3/2 E/"Cm" C2 CG :|
+"Cm" c3/2 B/c3 e|"Bb" d3/2 B/"Cm" c2 c2 |"Cm" c=B ce "D7" dc |"G7" G2 G4  |:
+"C7" c3/2 B/"Fm" G3 F|"Bb7" B3/2 G/"Eb" G2 E2 |"D" DG GF "G7" ED |"Cm" C2 C4 :|
+"D" DF "Cm" GG "D7" c=B |"G7" d6 |"Cm" c6 |]
+S:https://www.folktunefinder.com/tunes/84072
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

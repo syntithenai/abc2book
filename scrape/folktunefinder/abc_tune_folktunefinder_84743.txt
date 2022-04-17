@@ -1,0 +1,31 @@
+X:73
+T:Aye me
+T:The Simphony
+H:Symphony in this period means a harmony or concord, rather than a
+H:specific musical form.
+M:C|
+L:1/8
+Q:200
+K:C
+g4e4|d2BAG2AB|c2c2d2d2|e6ee|e2fga2cc|c2def2AA|BGe2d3c|c8||
+A2ABc2Bc|d2G2G2ee|e2de efed|d6gg|a2eef2^ff|g2dcB2gg|a2e2d3c|c8||
+S:https://www.folktunefinder.com/tunes/84743
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Aye_me.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Aye_me_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Simphony.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Simphony_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Aye_me.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Aye_me_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Simphony.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Simphony_1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

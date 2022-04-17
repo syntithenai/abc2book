@@ -1,0 +1,31 @@
+X:127
+T: BLAUER BLAUER FINGERHUT
+N: K2187
+O: Europa, Mitteleuropa, Deutschland, Oberdiebach am Rhein
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: Eb
+ | BBcc | BBG2
+BBcc | BBG2
+eGGG | G2F2
+BBcc | BBG2
+BBcc | BBG2
+BBeB | B2G2
+BBeB | B2G2
+eGcB | BBG2
+eGGG | G2F2
+BBcc | BBG2
+eGGG | G2F2
+BBcc | BBG2
+eGcB | G2E2
+S:https://www.folktunefinder.com/tunes/82487
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

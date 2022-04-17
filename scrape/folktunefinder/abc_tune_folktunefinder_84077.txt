@@ -1,0 +1,24 @@
+X:203
+T: Bulgar (Russian)
+O:klezmer
+C: Abe Schwartz
+R: bulgar
+D: Naftule's Dream Music
+M: 2/4
+L: 1/8
+K: GMix
+|: "G"B_A G2 | B_A G2 | B_A GA | "Fm"GF F2 | EF G_A | Bc B_A |1 "G"G2 B2 | d2 g2 :|2 "G"G4- | G4 |]
+[| "G"G2 _e2 | dc Bc | d3 c | B_A G2 | "G"G2 _e2 | dc Bc | d4 | g4 |
+| "Fm"c>B c>B | cB _AG | F2 G_A | G F3 | f_e dc | BF G_A | "G"G4- | G4 |]
+S:https://www.folktunefinder.com/tunes/84077
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

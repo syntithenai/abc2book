@@ -1,0 +1,30 @@
+X:4
+T:La jeune batelire
+R:chanson
+N:
+N:p.114
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=100
+K:G
+G | G2 A A | G (3F/G/A G>G | A>B c/ B/ A/ G/ | A>A G2 | A A G (3F/G/A/ |
+G>G A>B | c/ B/ A/ G/ A>A | A (B/G/) A A/ B/ | (c/B/) A/ B/ G (F/G/) |
+A B/ G/ A A/ B/ | c/ B/ A/ B/ (B/>F/) G-|G2 z2 ||
+W:Ce sont trois garons de la cour, qui s'en vont tous trois fair' l'amour
+W:*Iles* s'en vont tout le long des rivires  deux trois pas de la jeune batelire.
+S:https://www.folktunefinder.com/tunes/82794
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

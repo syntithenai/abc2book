@@ -1,0 +1,16 @@
+X:16
+T:Se canto
+T:Si je chante
+M:3/4
+L:1/4
+K:C
+%%continueall 1
+G | c c e/d/ | c !breath!c c/d/ | e2e | !breath!d2 d/e/ | f2f | e !breath!e c/e/ | d2G | c2 |]
+%%begintext justify
+S:https://www.folktunefinder.com/tunes/83859
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

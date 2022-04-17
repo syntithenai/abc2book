@@ -1,0 +1,20 @@
+X:62
+T:Jenny Pluck Pears
+M:6/8
+L:1/8
+K:G minor
+D3 |: "Gm" G2 G "F" A>Bc | "Gm" B>AG "Dm" F2 D | "Eb" G2 G "F" A>Bc | "Gm" B>AG "Dm" F2 D |
+"Bb" d2 d "F" c2 A | "Gm" B>AG "Dm" F2 D | "C" =E>FG "Dm" F>EF | [1 "Gm" G3 G3 :| [2 G3 G3 ||
+"Gm" G2 d2 c2 | B4 A2 | G2 B2 A2 | G2 =E2 F2 | "Gm" G2 B2 c2 | B3 A G2 | "F" F3 =E F2 | "Gm" HG6 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84903
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

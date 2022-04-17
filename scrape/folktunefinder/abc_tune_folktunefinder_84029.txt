@@ -1,0 +1,22 @@
+X:152
+T:Nig'n no 6
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Em
+V:1
+"Em" EE/E/ EF |GG/G/ GA |BB/B/ BA |1 GF EB, :|2
+GF E2 || |:"Am" A2 A3/2 G/|FA FA |"Em" G2 G3/2 F/|
+EG EG |"Am" A2 A3/2 G/|FA FA |1 "B" B3/2 A/GA |
+B2 z2 :|2 "B7" B3/2 A/GF |"Em" E2 z2 ||
+S:https://www.folktunefinder.com/tunes/84029
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 16
+T: MOULINET
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:G
+|:GABG ABGA|Bc3/2 z/2 A FGAF|GAcB AB3/2 z/2 G:|
+ G3/2 z/2 A3/2 z/2 G3/2 z/2 |G3/2Bd3/2 dBAG|
+A3/2 z/2 AB cBAA/2B/2|cBAB3/2 G<GB|d3/2dBAGA3/2 z/2 |ABcB AA/2B/2cB|
+AB3/2G/2c BAG3/2 z/2 |A3/2 z/2 G3/2 z/2 Bdgg|ecA3/2 z/2 AcAc|ed/2c/2BA B
+3/2GBd|
+ggec A3/2 z/2 Ac|Aced/2c/2 BAB3/2|GBAG3/2 z/2 A3/2 z/2 G3/2 z/2 |G3/2 z/
+2 G3/2 z/2 G3/2 z/2 G3/2 z/2 |
+A3/2 z/2 A3/2 z/2 G3/2 z/2 G3/2|
+S:https://www.folktunefinder.com/tunes/85548
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/rennais.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

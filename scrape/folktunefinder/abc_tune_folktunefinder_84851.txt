@@ -1,0 +1,20 @@
+X:10
+T:The Black Nag
+T:The Galloping Nag
+M:6/8
+L:1/8
+K:G
+E | "Am" A>B-A "G" B>A-B | "Am" c>B-c "G" B>c-d | "Am" e>d-c "E" B>A-B | "Am" A3-A z E |
+"Am" A>B-A "G" B>A-B | "Am" c>B-c "G" B>c-d | "Am" e>d-c "E" B>A-B | "Am" A3-A z ||
+|: A | "Em" BGE BGE | BGE BGE | "Am" ecA ecA | ecA ecA |
+"Em" BGE BGE | BGE B>c-d | "Am" e>d-c "E" B>A-B | "Am" A3 - A z :|
+%
+%
+S:https://www.folktunefinder.com/tunes/84851
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

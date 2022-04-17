@@ -1,0 +1,33 @@
+X:336
+T:Lavou la femme a Colin
+R:Bourree 2 temps
+C:trad.
+A:Morvan
+O:France
+M:2/4
+L:1/8
+Q:1/4=110
+K:Bb
+d>cde|dcBd|d>cde|dc Bz:|
+d>eff|edcd|edcB|d2cz|d>cde|dcBd|d>cde|dc Bz||
+W:
+W:Lavo la femme  Colin
+W:Colin y la demande (bis)
+W:
+W:Al est sur un' meule de foin
+W:Qu'al y joue d'la jambe
+W:
+W:Lavo la femme  Colin
+W:Colin y la demande.
+S:https://www.folktunefinder.com/tunes/83200
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Bourree 2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

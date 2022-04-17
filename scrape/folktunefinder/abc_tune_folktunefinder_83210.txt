@@ -1,0 +1,36 @@
+X:346
+T:A Paris sur le petit pont
+C:trad.
+O:France
+M:2/4
+L:1/8
+Q:1/4=70
+K:F
+A A/2A/2 GF|cc FF/2G/2|AAGF|1c2A2:|2c2AF/2G/2|AAGF|GGCF|CFCF|G2G2|
+|:FGAF|G/2F/2E/2D/2Cc|c>B AB|G2F2:||
+W:
+W:A Paris sur le Petit Pont
+W:Sur le bord d'une fontaine
+W:Mon pre a fait btir maison
+W:Tuton, tuton, tutaine,
+W:
+W:(refrain)
+W:Levez, belle votre cotillon
+W:Il est si long qu'il trane.
+W:
+W:L'a fait btir  trois pignons
+W:Par quatre-vingt jeunes maons.
+W:Ils m'ont tous demand mon nom.
+W:Marguerite c'est mon nom.
+W:Que portes-tu dans ton giron
+W:C'est un pat de trois pigeons
+W:Assieds-toi nous le mangerons
+S:https://www.folktunefinder.com/tunes/83210
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

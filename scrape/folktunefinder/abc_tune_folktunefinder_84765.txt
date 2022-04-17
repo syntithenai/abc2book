@@ -1,0 +1,37 @@
+X:96
+T:Gathering Peascods
+N:
+N:J.Barlow p.22 #27
+N:Barnes (in A)
+N:Playford (in G)
+N:Keller p.38 (in A)
+N:Karpeles p.12 (in A)
+N:Raven p.22 (in A)
+O:1650
+Z:John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/, 1998 redone in G by Norman Bradley <normanb@ix.netcom.com>
+P:Play 3 times
+M:C|
+L:1/4
+K:G
+d2dd|B>cdd|edcB|A3B|AGGF|1 G4:|2 G3G
+|:FDFG|A2BA|G/2A/2 BAG|F3F|EDE>D|1 D3G :|2 D3d||
+BGG A/2B/2|c3c|BGG A/2B/2|c3d|BGG A/2B/2|c>de d/2c/2|B c/2B/2 A>G|1 G3d :|2 G3 z||
+S:https://www.folktunefinder.com/tunes/84765
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Gathering_Peascods.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Gathering_Peascods_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Gathering_Peascods.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Gathering_Peascods_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

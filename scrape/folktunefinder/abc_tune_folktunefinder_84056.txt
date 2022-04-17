@@ -1,0 +1,26 @@
+X:179
+T:Tantz,Tantz Yidelekh
+O:klezmer
+C:Naftule Brandwein
+M:2/4
+L:1/8
+Q:1/4=105
+K:Dm
+V:1
+"A" A/B/^c/d/ e/f/e/d/ |^c^c/A/ "Dm" dd |"Gm" ee "G#" g/f/e/d/ |"A7" ^c^c/A/ "Dm" d2 |
+"A" A/B/^c/d/ e/f/e/d/ |"A7" ^c^c/A/ "Dm" dd |"A" ^c^c "Gm" B/A/B/G/ |1 "A" A4 :|2
+"A" A3 "C7" c|| |:"F" f/g/ (aa) a|"C7" g/a/ g/e/c2 |c/d/e/f/ g/a/b/g/ |
+"F" a3 "A7" a|"Dm" d/e/ (ff) f|"A" e/f/ e/^c/A2 |"A7" A/B/^c/d/ e/f/^c/e/ |
+|1 "Dm" d3 "C7" c:|2 "Dm" d4 ||  |:"A7" A^c A^c |"Dm" dd g/f/e/d/ |
+"A" ^c^c "Dm" d/^c/d/f/ |"A" ea a2  |"A7" A^c A^c |"Dm" dd g/f/e/d/ |
+"A" ^c^c "Gm" B/A/B/G/ |"A" A4 :|
+S:https://www.folktunefinder.com/tunes/84056
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

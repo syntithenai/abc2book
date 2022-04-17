@@ -1,0 +1,24 @@
+X:72
+T:Bourre tournee a trois
+C:trad.
+A:Morvan
+O:France
+M:3/8
+L:1/16
+Q:1/8=240
+K:C
+G2|c2d2e2|f2e2d2|c2Bcdc|B2A2G2|c2d2e2|f2e2d2|c2BcdB|c4:|
+|:g2|fed2f2|edc2e2|dcB2c2|d4g2|fed2f2|edc2e2|dcB2d2|c4:||
+S:https://www.folktunefinder.com/tunes/82936
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+S:http://www.tradfrance.com/matf04.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

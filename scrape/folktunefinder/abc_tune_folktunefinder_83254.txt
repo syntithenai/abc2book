@@ -1,0 +1,25 @@
+X:390
+T:Rondeau de Gascogne
+R:rondeau
+C:trad.
+A:Gascogne
+O:France
+Z:S. Piron
+M:6/8
+L:1/8
+Q:1/4=190
+K:C
+c2gf2e|defg2g|c2gf2e|defg3:|
+|:cBcd2d|g2gf2d|gagf2e|1defg2g:|2dedc3||
+S:https://www.folktunefinder.com/tunes/83254
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

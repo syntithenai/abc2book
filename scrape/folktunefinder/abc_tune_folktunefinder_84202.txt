@@ -1,0 +1,26 @@
+X: 61
+T:Reel Saint-Joseph
+R:Reel
+S:Portland collection
+M:4/4
+L:1/8
+Q:300
+K:D
+"D"defd "A"cdec|"A"defd A2 dc|"G"B2 gf edcB|"A" Aaab agfe|
+"D"defd "A"cdec|"A"defd A2 dc|"G"B2 gf edcB|1 "A"Agec "D"d4|2"A"Agec "D"
+d2:|
+e2|"D" f2 fg fedc|"G"BA G2 "Em"g3 f|"A"e2 ef edcB|Aaab agfe|
+"D" f2 fg fedc|"G"BA G2 "Em"g3 f|"A"e2 ef edcB|1"A"Agec "D"d2|2"A"Agec "
+D"d4:|
+S:https://www.folktunefinder.com/tunes/84202
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

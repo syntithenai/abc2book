@@ -1,0 +1,28 @@
+X:191
+T:Vi shlekht un vi biter
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=99
+K:Em
+V:1
+B,|"Em" E2 EG |BB AG |"Am" A2 "B7" GF |
+"Em" GF HEB, |E2 EG |"G" B2 AG |"D" A2 GA |
+"B7" B3 B,|"Em" E2 EG |B2 AG |"Am" A2 "B7" GF |
+"Em" GF E2 |E2 EG |"G" B2 AG |"Am" A2 "B7" GF |
+"Em" E2 e2 ||"G" B2 dc |BA G2 |"D" A2 "B7" BA |
+"Em" GF E2 |"C" G2 EG |"D7" A2 GA |"G" (B4 |
+"B7" B4) |"G" B2 dc |BA G2 |"Am" A2 "B7" BA |
+"Em" GF E2 |"C" G2 EG |"B7" A2 GF |"Em" (E4 |
+E3) |]
+S:https://www.folktunefinder.com/tunes/84068
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

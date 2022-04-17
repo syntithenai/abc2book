@@ -1,0 +1,23 @@
+X: 42
+T:Lauries Bird
+R:Reel
+C:Bob McQuillen
+M:C|
+L:1/8
+Q:300
+K:G
+DE|:"G" G2 G2 B3 A|GFGA B2 G2|"D7"A2 A2 c3 B|ABAG F2 D2|
+"G" G2 G2 B3 A|GFGA B2 d2|"C"e2 g2 "D7"fedc|"G"B2 G2G2 GF:|
+"Em"E2 EF GAGF|EFGA "E7"B2G2|"Am"A2 e2 c3 B|ABcd e2c2|
+"Em"B2 Bc BAGF|EFGA "E7"B2e2|"Am"cedc "B7"BAGF|"Em"G2 E2E2:|
+S:https://www.folktunefinder.com/tunes/84183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:15
+T:Fumo ta pipo
+T:Fume ta pipe
+R:Farandole
+M:6/8
+L:1/8
+K:C
+V:1
+c2e g2a | g2e c3 | cBc d2d | dcd e2c | 
+c2e g2a | g2e c3 | cBc d2f | e2d c3 ::
+ggg g2e | ggg g2e | ggg a2g | f2e f3 | 
+fff f2d | fff f2d | fff g2f |1 e2d e3 :|2 e2d c3 |]
+V:2 clef=perc stafflines=1 staffscale=0.7
+K:none
+B2B B2B | B2B BBB | B2B B2B | B2B BBB | B2B B2B | B2B BBB | B2B B2B | B2B B3 ::
+B2B B2B | B2B B2B | B2B B2B | B2B BBB | B2B B2B | B2B B2B | B2B B2B | B2B BBB  :| B2B B3 |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/83858
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Rhythm Farandole
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

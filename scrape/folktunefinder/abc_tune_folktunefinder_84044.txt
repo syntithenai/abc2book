@@ -1,0 +1,26 @@
+X:167
+T:Schwartz's Sirba
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+"Am" a4 |a4 |a2 a2 |a2 a2
+|:"Am" _b/a/g/^f/ g/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c(c c/)A/B/c/ |Aa Aa |
+"Am" _b/a/g/^f/ "Am/g" g/^f/g/a/ |"D/f#" _b/a/g/^f/ "Dm/f" _e/d/c/B/ |"E" c(c c/)A/B/c/ |"Am" A2 A2 :| |:
+"Am" c3/2 c/c/A/B/ c/|A/B/c/ d/e/d/c/ B/|c3/2 c/c/A/B/ c/|Aa Aa |
+"Am" c3/2 c/c/A/B/ c/|"D/f#" A/B/c/ d/"Dm/f" e/d/c/ B/|"E" c(c c/)A/B/c/ |"Am" A2 AA :| |:
+"C" c3 G|e/d/ c/B/c g|c3 G|e/d/ c/B/c2 |
+"Cm" (c'4 |c'2) c'/^f/g/a/ |_b/a/g/^f/ _e/d/c/B/ |c/d/B/c/ "Am" A2 :|
+S:https://www.folktunefinder.com/tunes/84044
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Adieu les filles de mon pays
+A:France
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:4/4
+L:1/4
+K:D %Transposed from G
+D2F>E | D2F>E | DEFG | A2-A2 |
+F2F>A | AFDE |1 F3G | E2-E2 :|\
+                               [2 F2E2 | D2-D2 ||
+A2d>c | B3G | G2B2 | A2-A2 |
+F2F>A | AFDE |1 F3G | E2-E2 :|\
+             [2 F2E>D | D2-D2 |]
+S:https://www.folktunefinder.com/tunes/83574
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/adieu_les_filles.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

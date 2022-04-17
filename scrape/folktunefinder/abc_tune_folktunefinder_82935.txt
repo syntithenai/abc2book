@@ -1,0 +1,23 @@
+X:71
+T:Bourree a quatre du Carni
+C:trad.
+A:Morvan
+O:France
+M:3/8
+L:1/16
+Q:1/8=180
+K:C
+defdef|e2c2c2|Bcdfed|e2c2c2|defdef|e2c2c2|Bcd2B2|c4c2:|
+|:BcdcBA|G4e2|defdef|e2c2c2|BcdcBA|G4e2|def2B2|c6:||
+S:https://www.folktunefinder.com/tunes/82935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+S:http://www.tradfrance.com/matf04.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

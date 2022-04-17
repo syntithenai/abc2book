@@ -1,0 +1,30 @@
+X:59
+T:Rondeau de Casteljaloux
+R:Rondeau
+C:Trad.
+A:Gascogne
+O:France
+N:Rondeau
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-08-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=110
+L:1/8
+K:C
+g || \
+"C"e2c e2g | "F"fef "G"d2g | "C"e2c e2g | "C"f3 "G"d2g |\
+"C"e2c e2g | "F"fef "G"d2g | "C"e2c e2g | "C"f3 "G"d3 ||
+"C"g2g g2g | "G"fgf "C"e3 | "C"c2d e2g | "F"fed "C"e2c |\
+"C"g2g g2g | "G"fgf "C"e3 | "C"c2d e2g | "F"fed "C"c3 |]
+S:https://www.folktunefinder.com/tunes/83867
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab.abc
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

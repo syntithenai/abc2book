@@ -1,0 +1,25 @@
+X:176
+T: HAENSCHEN WILLST DU TANZEN
+N: K2358
+O: Europa, Mitteleuropa, Deutschland, Oberdiebach am Rhein
+R: Kinder - Lied, Reigen, Tanz - Spiel
+M: 4/4
+L: 1/4
+K: F
+ | ccAd | c2A
+F | cccc | f2z2
+ccAd | c2A
+F | cccc | f2z
+c | cFFd | ccA
+A | cccd | ccA
+F | cccc | F2z2
+S:https://www.folktunefinder.com/tunes/82536
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,54 @@
+X:5
+T:Quadrille de Saulieu
+R:Quadrille
+O:France
+A:Morvan
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+%%continueall 0
+L:1/8
+K:C
+T:Chaine anglaise
+c/c/c/c/ eg | c/c/c/c/ eg | c/c/c/c/ eg | c'2a2 | a4 | d/d/d/d/ ef | d/d/d/d/ ef | d/d/d/d/ ef | b2a2 | g>a g/f/e/d/ | 
+c/c/c/c/ eg | c/c/c/c/ eg | c/c/c/c/ eg | c'2a2 | a4 |: A>B cd | ec G2 | Ac B/c/B/A/ | GA G2 | A>B cd | ecG2 | Ac Bd | c2c2 :|
+T:Avant deux
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=120
+GAB cd_e | e3 g3 | d3 g3 | c2B A2B | GAB cd_e | e3 g3 | d3 g3 | c2B A2B | c6 |
+e2d c2B | A3 Gdd | d2c B2A | G2A Gee | e2d c2B | A3 Gdd | dfd GAB | c3c3 ::
+T:Pastourelle des Vieux
+z2g a2g | c'3 e2- | egg gag | f2e d3- | d2e f2d | bdf bdf | b2g gag | e6 - | 
+e2g a2g | c'3 e2- | egg gag | f2e d3- | d2e f2d | bdf bdf | b2g a2b | c'6- | c'de f2e |
+d2a a3- | ade f2e | d2c' c'3 | g3 f2e | a2g f2d | ede f2e | d2a a3- | ade f2e | d2c' c'3 | g3 f2e | a2g f2d | ceg c3 :|
+T:Pastoutelle des Jeunes
+z2g a2g | c'3 e2- | [T:Coup de bichement] [M:2/4] gfed | gfed | gfed |
+T:En avant deux
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+Q:3/8=120
+|: GAB cd_e | e3 g3 | d3 g3 | c2B A2B | GAB cd_e | e3 g3 | d3 g3 | c2B A2B | c6 |
+e2d c2B | A3 Gdd | d2c B2A | G2A Gee | e2d c2B | A3 Gdd | dfd GAB | c3c3 :|
+T:Galop
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+ce/g/ ce/g/ | ce/g/ c2 | c/B/c/d/ e/d/e/f/ | g/f/e/d/ cB | 
+Bd/f/ Bd/f/ | Bd/f/ B2 | G/A/B/c/ d/c/d/e/ | f/e/f/a/ g/f/e/d/ | 
+ce/g/ ce/g/ | ce/g/ c2 | c/B/c/d/ e/d/e/f/ | g/f/e/d/ cB | 
+c'/b/a/g/ f/e/d/c/ | c'/b/a/g/ f/e/d/c/ | a/g/f/e/ d/c/B/d/ | ce/g/ c2 |]
+%%footer $D   Galouvielle-MBe 2006 \nValse (France)
+S:https://www.folktunefinder.com/tunes/82739
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Quadrille
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

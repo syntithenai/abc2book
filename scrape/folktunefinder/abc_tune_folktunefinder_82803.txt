@@ -1,0 +1,29 @@
+X:12
+T:Coq mill' brill'
+R:chanson 
+N:4me mesure erreur original : 3 croches et 1 croche pointe = 4.5 tmps
+N:p.266
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=120
+K:F
+F F/ G/ | A B G A | F2 F A | G F> G A | F2 A A/ B/ |
+c c B A | G c B A | G c B A | G c B A | G A B G |
+A F F G | A F G E | F2 F G | A F G E | F2 z2 ||
+W:Mon pre a fait btir maison coq mill' brill' haridons,
+W:Par quatre-ving-dix-neuf maons, /.../
+S:https://www.folktunefinder.com/tunes/82803
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:108
+T:Chupen tanz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+A/d/d/^c/ ^c/e/e/d/ |d/f/f/e/ e/g/g/f/ |f/a/a/g/ g/b/b/a/ |a/g/f/g/ "D7" a2 |
+"Gm" g/b/b/e/ e/g/g/e/ |fine"Dm" f/a/a/d/ d/f/f/d/ |A/^c/e/g/ ~f3/2 e/|1 "Dm" ed zA :|2
+"Dm" ed z/c/d/e/ || |:"F" ~f3 .a|"F" ~f3 .a|"F" .f .a.f |]
+.a|.f .a|] b/a/ g/|] f/|
+"C" ~e3 g|~e3 c'|c'/b/ b/a/a/g/ g/f/|1 "F" g/a/ fz "C" c:|2
+"F" g/a/ (ff) z|| |:"F" ~a3/2 f/"A/e" ~g3/2 e/|"Dm" ~f3/2 d/"A/c#" ~e3/2 ^c/|d/^c/d/ e/f/e/d/ f/|
+"A" e/d/^c/ B/Az |"Gm/hb" b/a/g/b/ "Dm/a" a/g/f/a/ |"A/c#" g/f/e/g/ "Dm" f/e/d |"A" a/^g/^g/f/ f/e/e/d/ |
+"Dm" e/f/d zA :|"Dm" f/a/a a2 |"Dm" d'z "A" az |"Dm" dz z2 |]
+V:2          %Boventerts
+z2 | | 8 |D/F/F/E/ E/G/G/F/ |
+F/A/A/G/ G/B/B/A/ |A/c/c/B/ B/d/d/c/ |c/B/A/B/ c2 |B/d/d/G/ G/B/B/G/ |
+A/c/c/F/ F/A/A/F/ |^C/E/G/B/ A3/2 G/|1 GF zD :|2 GF z/E/F/G/ || |:
+~A3 .c|~A3 .c|.A .c.A .c|.A .cd/c/ B/A/|
+~G3 B|~G3 e|e/d/ d/c/c/B/ B/A/|1 B/c/ Az/E/ F/G/:|2
+B/c/ (AA) z|| |:c2 ^c2 |d2 e2 |f2 ed |
+^cA ^cz |d/c/B/d/ c/B/A/c/ |B/A/G/B/ A/G/F |EA BB |
+^cd z2 :|d/f/f f2 |Az ^cz |dz z2 |]
+S:https://www.folktunefinder.com/tunes/83987
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

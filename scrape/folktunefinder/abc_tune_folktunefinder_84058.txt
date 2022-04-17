@@ -1,0 +1,33 @@
+X:181
+T:Tish Nigun
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=90
+K:Gm
+V:1
+d||"Gm" b ag2 zd "Eb7" gb |"D7" ag ^f2 z2 d2 |"Gm" g^f ga ba "Eb7" gb |
+"D7" a3 ^fd2 d2  |"Gm" ba g2 zd "Eb7" gb |"D7" ag ^f2 z2 d2 |"Gm" g^f ga "D7" ba g^f |
+fine"Gm" g4 z2 "D7" zd   |:"Gm" dg ga b2 bg |"Gm7" b2 bg "Gm6" b3 =b|"Cm" .c'3 b"D7" b aa g|
+|1 "Gm" g b"D7" a c'"Gm" b3 d:|2 "Gm" g4 z2 "F7" f2 || |]"Bb" d'c' bc' "Bb" b3 f|"Bb6" d' c'b c'"Bb" b3 d'|
+"Bb" d' c'c' b"Cm7" b aa g|"Bb" a c'b2 z2 "F7" zf  |"Bb" d'c' bc' "Bb" b3 f|"Bb6" d' c'b c'"Bb" b3 d'|
+"Bb" d' c'c' b"Eb7" b a"D7" a g|"Gm" a bg2 z2 z"D7" d   |:"Gm" dg ga b2 bg |"Gm7" b2 bg b3 =b|
+c'3 bb aa g|1 "Gm" g b"D7" a c'b3 d:|2 "Gm" a bg2 ||
+V:2          %2e stem
+d||d cB2 z2 d2 |cB A2 z2 A2 |BA Bc dc Bd |
+d2 e2 dc BA |dc B2 z2 d2 |cB A2 z2 A2 |B2 d2 dc BA |
+G4 z2 zd  |:GB Bc d2 dB |d2 dB d4 |.e3 dd cc B|
+|1 B dc ed3 D:|2 B4 z4 |]F4 ^F4 |G4 ^F4 |
+F6 z2 |zf ed cB AG |F4 ^F4 |G4 ^F4 |
+fe ed dc cB |cd B2 z3 d|| |:G BB cd2 dB |d2 dB d4 |
+e3 dd cc B|1 B dc ed3 D:|2 c dB2 ||
+S:https://www.folktunefinder.com/tunes/84058
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

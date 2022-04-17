@@ -1,0 +1,23 @@
+X: 129
+T: Tapuach Hineni
+O: Israel
+M: 4/4
+L: 1/8
+Q: 1/4=120
+K: C
+%%MIDI gchord fzfz
+|:"C" G4- "G" G2F2|"C"E4-"G"E4   |"C"G3A"G"G2F2|\
+  "C"E2C2 "F"A2A2 |"C"G3A"G"G2F2 |"C"E4-"G"E4  :|
+  "G"F3G"F"A2A2   |"F"A4"G"G2F2  |"C"G3A"G"G2F2|"C"E4-"G"E4|
+  "G"F3G"F"A2A2   |"F"A2A2"G"G2F2|"C"EFG2-"G"G4|EFG6       |
+S:https://www.folktunefinder.com/tunes/84534
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

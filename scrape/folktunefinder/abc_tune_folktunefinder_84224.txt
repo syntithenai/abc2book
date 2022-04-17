@@ -1,0 +1,26 @@
+X: 2
+T:Merrily Dance The Quaker. WCa.02
+M:6/8
+L:1/8
+Q:120
+S:Wm. Calvert MS, 1812, Leyburn, Yorks.
+R:jig
+O:England
+A:North Yorkshire
+Z:vmp.Chris Partington, May 2003
+K:G
+A|(GAB)D2B|c2BA2G|(GAB)D2D|E3G2::!
+e|dcB edc|dcB ABc|dcB efg|B3d3|!
+dcB gfe|dcBG2A|GABD2D|E3G2:||
+S:https://www.folktunefinder.com/tunes/84224
+S:http://www.village-music-project.org.uk/abc/calvert.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

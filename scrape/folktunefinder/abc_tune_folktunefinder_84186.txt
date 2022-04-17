@@ -1,0 +1,27 @@
+X: 45
+T:Margarets Waltz
+R:Waltz
+C:Pat Shuldham Shaw
+O:Shetland
+Z:Richard Robinson <richard@beulah.demon.co.uk>
+M:3/4
+L:1/8
+Q:300
+K:G % transposed from A
+G>E|"G"D3E G>A|"G"B4 GB|"C"A>G E2G2|"D7"A4 G>E|\
+"G"D3E G>A|"G"B4 d>G|"D7"B4 A2|"G"G4:|
+B>c|\
+"Bm"d2e2f2|"Em"g2f2g2|"Am"e>dc2e2|"D7"d3G (3BAG|
+"G"G3A B>c|"Em"d4 B>G|"Am"e>d c>BzB/d/|"D7"A4 B>c|
+"Bm"d>G e>G f>G|"Em"g>G f>G e>G|"Am"d>G c>G B>G|"D7"A4 G>E|
+"G"D3E G>A|"G"B4 d>G|"D7"B4 A2|"G"G4|]
+S:https://www.folktunefinder.com/tunes/84186
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

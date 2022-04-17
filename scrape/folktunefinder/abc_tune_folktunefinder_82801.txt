@@ -1,0 +1,29 @@
+X:11
+T:Le gars de Ruffigr
+R:chanson (Ronde)
+N:
+N:p.392
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+A A/ A/ c | (c2F2) | G G/ G/ G G | F2 z2 | c c/ c/ c c | (f2c) c | c d c B |
+A A A2 | A A/ G/ F F/ G/ | A G G F | A A/ G/ F F/ G/ | A G F2 ||
+W:Il tait un bon drle, du bourg de Ruffign,
+W:qui allait voir les filles, les files de Roug mes gars !
+W:trali dera, li de ra la lre,
+W:tra li de ra, li de ra la la !
+S:https://www.folktunefinder.com/tunes/82801
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson (ronde)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

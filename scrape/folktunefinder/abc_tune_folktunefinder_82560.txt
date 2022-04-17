@@ -1,0 +1,22 @@
+X:200
+T: DER ABT IST NICHT ZU HAUSE
+N: K2562A
+O: Europa, Mitteleuropa, Deutschland, Thueringen
+R: Kinder - Lied, Gesellschafts - Spiel
+M: 2/4
+L: 1/8
+K: G
+D | GGGG | G2D
+D | BBBB | B2Gz
+ddde | dcc2
+BBBc | BAG2
+S:https://www.folktunefinder.com/tunes/82560
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, gesellschafts - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

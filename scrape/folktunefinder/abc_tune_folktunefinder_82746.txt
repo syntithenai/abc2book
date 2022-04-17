@@ -1,0 +1,45 @@
+X:12
+T:Sternpolka
+C:Trad.
+%%staves (1 2)
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:C
+P:A
+V:1
+Q:1/4=132
+GGE2 | AAG2 | GGFE | F2z2 | BBA2 | BBA2 |1 AAGF | E2z2 :|2 GGAB | c2z2 ||
+V:2
+EEC2 | EEE2 | EEDC | D2x2 | GGF2 | GGF2 | FFED | C2x2 | FFFF | E2x2 ||
+P:B
+V:1
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+Q:1/4=100
+E2G2c2GE | F2G2 B4 | F2G2 B2AG | E2G2 c4 | E2G2 c2GE | F2G2 B4 | F2G2 B2AB | c2c>c c2z2 ||
+V:2
+C2E2E2EC | D2F2G4 | D2F2G2FE | C2E2E4 | C2E2E2EC | D2F2G4 | D2F2G2FF | E2E>EE2x2 ||
+P:C
+V:1
+Q:1/4=116
+L:1/4
+K:F
+fedc | edB2 | edcB | dcA2 | ddcA | Bce2 | ccde | fff2 ||
+V:2
+L:1/4
+K:F
+AcBA | cBG2 | cBAG | BAF2 | BBAF | GBc2 | BBBc | AAA2 ||
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/82746
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

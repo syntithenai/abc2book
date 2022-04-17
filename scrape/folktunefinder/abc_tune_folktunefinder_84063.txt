@@ -1,0 +1,30 @@
+X:186
+T:Unser Toirele
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+"A" (A/B/)^c ^c(^c/A/) |"Dm" (^c/e/)d dd |"A" ^c3/2 d/(e/f/)(d/ f/)|e2 a2 |
+"A" (A/B/)^c ^c^c |"Dm" (^c/e/)d dd |"Gm" ^c/(G/A/B/) ^c3/2 B/|"A" (A/B/A) z2 :|
+"A" (g/f/)e e2 |(e/d/)^c ^ce |(e/d/)(d/^c/) "Gm" (^c/B/)(B/A/) |"A" A^c ea |
+(g/f/)e e2 |(e/d/)^c ^ce |"Gm" (e/d/)(d/^c/) ^c3/2 B/|"A" A2 z2  |:
+"Dm" (^c/e/)d dd |"Gm" (d/^c/)(B/A/) G2 |~(^F/G/)~(A/B/) ~(^c/d/)~(e/^f/) |"A" ~(g/f/)~(e/d/) "Gm" ~(^c/B/)~(A/G/) |
+"Dm" (^c/e/)d dd |"A" (g/f/e/d/ ^c)e |"A" (e/d/)(d/^c/) "Gm" (^c/A/)(B/G/) |1 "A" A4 :|2
+"A" A2 zA ||"Dm" d4 |d4 |d2 d2 |
+d2 d2 || |:"Dm" (f/e/)d da |(a/g/)f f2 |(gf) (gf) |
+fg (f/e/)d |"Dm" (f/e/)d da |(a/g/)f f2 |(f/e/)(e/f/) "Cm" (f/_e/)(_e/d/) |
+"Dm" d4 :| |:"A" ^c3/2 A/"Gm" (e/d/^c/ B/)|"A" ^cA EA |"A" (^c/d/)e "Gm" d/^c/B |
+"A" ^cA EA |^c3/2 A/"Gm" (e/d/^c/ B/)|"A" ^cA EA |"A" (^c/d/)e "Gm" (d/^c/)B |
+"A" A4 :|
+S:https://www.folktunefinder.com/tunes/84063
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

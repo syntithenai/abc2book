@@ -1,0 +1,29 @@
+X:64
+T:Chirping of the Nightingale
+R:Jig
+M:6/8
+L:1/8
+Q:110
+K:G
+g2g g>fe|f2g a>ba|g>ag g>fe|d2c BG2||
+B>cd e2d|g2d BG2|B>cd e2d|g2d BG2|B>cd efd|g>fe dec|B>AB A2G|G3-G3||
+S:https://www.folktunefinder.com/tunes/84754
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Chirping_of_the_Nightingale.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Chirping_of_the_Nightingale_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Chirping_of_the_Nightingale.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Chirping_of_the_Nightingale_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/Playford/Chirping_of_the_Nightingale.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/Playford/Chirping_of_the_Nightingale_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

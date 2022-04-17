@@ -1,0 +1,26 @@
+X: 229
+T:Mazurka d'Auvergne
+M:3/4
+L:1/8
+Q:140
+C:trad
+O:France
+A:Auvergne
+Z:S.Piron
+K:C
+G>c c>B c2|G>e e>d e2|f>e d>c B>c|d>c B>A A>G|
+G>c c>B c2|G>e e>d e2|f>e d>c B>d|1c4 z2:|2c4 ef|
+|:g2 ga gf|e2c2 de|fe fg fe|d4 ef|
+g2 ga gf|e2c2 de|fe dc Bd|1c4 ef:|2c4 z2||
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83487
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

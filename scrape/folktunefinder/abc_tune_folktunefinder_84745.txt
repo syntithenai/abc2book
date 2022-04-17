@@ -1,0 +1,42 @@
+X:5
+T:The Begger Boy
+R:Jig
+H:The tune name may derive from the song "The Begger Boy of the North"
+H:(c. 1630)
+N:This tune is in the rare Phrygian mode--suggested chords are given
+M:6/8
+L:1/8
+Q:90
+K:APhry
+AAAf2f|ec2d2c|AF2G2G|A2B cA2||
+AAAf2f|ec2d2c|Ac2ede|fA2G3|
+Acc e>dc|dfg/2f/2 efd|cAF G2G|A2B cA2||
+W:From ancient pedigree, by due descent
+W:I well can derive my generation
+W:Throughout all Christendome, and also Kent
+W:My calling is known both in terme and vacation
+W:My parents old taught me to be bold
+W:Ile never be daunted, whatever is spoken
+W:Where e're I come, my custome I hold
+W:And cry, Good your worship, bestow one token!
+W:--Roxburghe Ballads
+S:https://www.folktunefinder.com/tunes/84745
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Begger_Boy.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Begger_Boy_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Begger_Boy.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Begger_Boy_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

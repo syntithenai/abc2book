@@ -1,0 +1,28 @@
+X:160
+T:Oj Tate
+O:klezmer
+C:Frankl's Orchestra 1919
+M:2/4
+L:1/8
+Q:1/4=76
+K:Gm
+V:1
+"D" ^F3/2 E/DD |"Cm" E/D/C/E/ "D" D2 |D/E/^F/G/ A/B/A/G/ |A3/2 G/^F/E/D |
+^F3/2 E/DD |"Cm" E/D/C/E/ "D" D2 |D/E/^F/G/ "Cm" A/G/^F/E/ |"D" ^F/E/D3 :| |:
+"D" ^F/G/A2 G|^F/G/ ^F/E/D2 |^F/G/^F/G/ BA/G/ |^F/G/(A A/)G/^F/E/ |
+^F/G/A2 G|^F/G/ ^F/E/D2 |"Cm" C/E/E/C/ A/G/^F/E/ |"D" ^F/E/D2 D:| |:
+"Gm" G/G/ G/G/B A/G/|"D" A/A/ A/A/A3/2 E/|D/D/D/ D/"Cm" G^F/ E/|"D" ^F/^F/^F/ ^F/^F2 |
+"Cm" C/C/C/C/ ED/C/ |E/E/E/E/ G^F/E/ |"D" ^F/G/A/G/ "Cm" ^F3/2 E/|"D" ED2 D:| |:
+"Gm" G/A/ BB B|"Cm" c c"Gm" B2 |"Cm" c2 G"Gm" G |B/c/B/A/ "Gm" G3/2 G/|
+"D" ^F/G/A2 c|"Cm" c/B/ A/G/"D" A3/2 G/|^F/G/A/ G/"Cm" ^F3/2 E/|"D" ED3 :|
+S:https://www.folktunefinder.com/tunes/84037
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X:17
+T:Polonez Warszawski
+O:poland
+M:3/4
+L:1/8
+Q:1/4=88
+K:F
+V:1
+"C" CC/C/ CC CC |"Gm" D6 |"C" CC/C/ CC CC |"Gm" F6 |
+"C" CC/C/ CC CC |"Gm" G6 |"C" cc/d/ cd cd |c3/2 d/cB "A" AG |]
+"F" C3 FA F|C3/2 D/C4 |C3 FA F|"C" C3/2 D/C4 |
+"F" C3 FA c|"Gm" c3/2 B/B3 A|"C7" G3/2 ^F/GA Bd |"F" B2 c4 |
+C3 FA F|C3/2 D/C4 |F3 Ac A|"Bb" F3/2 G/F4 |
+"G" G3 FE D|"F" C3/2 D/C4 |"C7" D3/2 D/BA GA |G2 "F" F2 "A7" E2  |:
+"Dm" A3/2 F/D3 E|"A7" D3/2 ^C/E4 |A3/2 B/AG _EE |"Dm" G2 F4 |
+"D" ^F3/2 A/d3 c|1 "Gm" B3/2 A/B4 |"C" G3/2 G/cd cG |"F" B2 A2 "A7" G2 :|2
+"Gm" B3/2 A/G4 |"Dm" A3/2 B/AD "A" F^C |E2 "Dm" D2 "C7" C2 |]
+V:2          %2e stem
+G,G,/G,/ G,G, G,G, |B,6 |G,G,/G,/ G,G, G,G, |D6 |
+G,G,/G,/ G,G, G,G, |E6 |AA/B/ AB AB |A3/2 B/AG FE |]
+A,3 CF D|A,3/2 B,/A,4 |A,3 CF D|A,3/2 B,/A,4 |
+A,3 CF A|A3/2 ^G/G3 F|E3/2 _E/EF GB |^G2 A4 |
+A,3 DF D|A,3/2 B,/A,4 |_E3 FA F|D3/2 E/D4 |
+D3 ^G,G, ^G,|A,3/2 B,/A,4 |B,3/2 B,/GF EF |B,2 A,2 A,2  |:
+F2 F3 G|F3/2 E/G4 |E2 D2 _E^C |E2 D4 |
+D4 ^F2 |1 G3/2 F/G4 |E3/2 E/AB AE |G2 F2 E2 :|2
+G3/2 F/E4 |F3/2 G/A4 |G2 F2 E2 |]
+V:3          %Contrabas
+C,2 C,2 C,2 |G,2 G,G, G,2 |C,2 C,2 C,2 |G,2 G,G, G,2 |
+C,2 C,2 C,2 |G,2 G,G, G,G, |C,2 C,D, C,D, |C,2 D,2 E,2 |]
+F,4 C,2 |F,2 F,2 z2 |F,4 E,D, |C,2 E,2 z2 |
+F,4 ^F,2 |G,4 D,2 |C,4 E,2 |F,2 F,2 z2 |
+F,4 C,2 |F,2 F,2 z2 |F,4 A,2 |B,2 B,2 z2 |
+B,4 G,2 |F,2 F,2 z2 |C,4 E,2 |zF, F,2 ^C,2  |:
+D,4 F,2 |A,2 G,2 E,2 |A,4 E,2 |D,2 F,2 A,2 |
+D,4 ^F,2 |1 G,4 D,2 |C,2 E,2 G,2 |zF, F,2 ^C,2 :|2
+G,4 B,2 |D,4 A,2 |zA, D,2 C,2 |]
+S:https://www.folktunefinder.com/tunes/82721
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

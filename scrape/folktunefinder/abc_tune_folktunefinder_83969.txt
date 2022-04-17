@@ -1,0 +1,23 @@
+X:90
+T:Anushka
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" C3/2 D/EE FE2 G|E ED/C/ =B,/D/C4 |"Fm" F3/2 G/GG BG2 c|G GG/F/ =E/G/F4 |
+"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |1 "Cm" C6 G2 :|2
+"Cm" (C4 C)D EF || |:"Cm" G2 FE2 GF E|G2 FE2 GF E|"Fm" G2 GF2 CG G|
+F8 |"Cm" E3/2 F/GG "Fm" FG F2 |"Cm" E3/2 F/G/G/G/ F/ED C2 |c2 C3/2 D/"Ab" EF "G7" ED |
+|1 "Cm" (C4 C)D EF :|2 "Cm" C8 ||
+S:https://www.folktunefinder.com/tunes/83969
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

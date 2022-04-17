@@ -1,0 +1,23 @@
+X:184
+T: NIX IN DER GRUBE
+N: K2407
+O: Europa, Mitteleuropa, Deutschland, Thueringen, Schlesien
+R: Kinder - Lied, Tanz -, Lauf - Spiel
+M: 2/4
+L: 1/8
+K: C
+ | G2GA | G2E
+E | GGGA | G2Ez
+GGGA | G2E
+E | GGGA | G2Ez
+G2G2 | c4
+S:https://www.folktunefinder.com/tunes/82544
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, tanz -, lauf - spiel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

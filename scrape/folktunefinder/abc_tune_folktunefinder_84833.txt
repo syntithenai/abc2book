@@ -1,0 +1,41 @@
+X:87
+T:Sta(i)nes Morris
+H:First printed in the "William Ballet Lute Book" (1595). It is not known
+H:that the town of Staines, on the Thames, had any connection with this tune.
+N:Morris-dance tune.
+N:There is much disagreement over which e's should be flat or natural. Older
+N:books all show Eb throughout, but this could just be an result of using "proper"
+N:classical notation. Current practice seems to be to play it mostly in Dorian
+N:mode.
+N:Barnes (dated 1650)
+N:E. Hunt #32
+N:Playford
+N:Raven (in Em)
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M:C|
+L:1/8
+K:GDor
+d2g2 e2^f2|g2=fe d3e|fgf_e d2cB|AGAB G4||
+Bcd_e d2cB|AGAB G4|Bcd=e d2cB|AGAB G4||
+B2B2 F2F2|GABc d3e|fgfe d2cB|AGAB G4||
+S:https://www.folktunefinder.com/tunes/84833
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Sta_i_nes_Morris.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Sta_i_nes_Morris_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Sta_i_nes_Morris.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Sta_i_nes_Morris_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

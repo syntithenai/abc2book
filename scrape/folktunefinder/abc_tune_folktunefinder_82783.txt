@@ -1,0 +1,37 @@
+X: 1
+T: Sonata Nr 3 in C
+T: \`a deux fl\^utes \`a bec
+C: Georg Philip Telemann
+N: Published in Hamburg in 1727
+M: 6/8
+L: 1/8
+P: Siciliana
+K: C
+V: 1
+c/d | e>fe Td>cd | c2g c>de | A>Bc B2c | G2z e>de | f2z d2z | e2z f>ef | B>cd G>AB | c2F G2g |
+e>dc ^f2^F | G3 z>bc' | d'>e'd' Tc'>bc' | b3 z>c'd' | g>ab c'>d'b | Tb2a z2d' | e'>^fg ^f'>fg | g'>^fg e'3- |
+e'2c ^f2c' | b>ag g>a^f | g>a_b a>bg | f>ed z2^c | d2_b a>bg | f>ga g>af | e>^c'd' f>c'd' | g>^c'd' f>c'd' |
+%
+e2_b a>bg | a>^c'd' f>ge | d3 z>e^f | g>fg G>AB | c3 z>de | =f>ef F2e | d2e f>ef | e3 z>^f^g |
+a2d e2e' | c'>d'e' a>bc' | g>ag Tf>ef | e3 z>fg | c>de f>ge | Te2d z2g | a>Bc b>Bc | c'>Bc a3- | a>gf d'2f | e>dc c>dB |
+c3 z>de | f>ef F>d^c | d3 z>e^f | g>^fg G2=f | e2d ^c>de | d2=c B>cd | c2a g>af | e>dc z2B | c>de d>ec | G>de G>fe |
+G>de G>fe | G2f e>fd | g>bc' e>fd | c2g f>ge | d>bc' e>bc' | f>bc' e>bc' | d2a g>af | e>dc G2Tb | c'3 z3/ |]
+V: 2
+e/f | g>ag Tf>ef | e3 z>fg | c>de f>ge | Te2d z2g | a>Bc b>Bc | c'>Bc a3- | a>gf d'2f | e>dc d>eB |
+c>de d>ec | B>dg G>ga | b>c'b Ta>ga | g2d' g>ab | e>^fg f2g | d2z b>ab | c'2z a2z | b2z c'>bc' |
+^f>ga d>ef | g2c d2d' | b>ag ^c'2^c | d2_b a>bg | f>ed z2^c | d>ef e>fd | A>ef A>gf | A>ef A>gf |
+%
+A2g f>ge | f>ed A2g | ^f>ga d2c' | Tc'2b z2f | e>fg c2_b | T_b2a z>=bc' | b>c'b a>^ga | ^g>^fe d'>c'b |
+c'>ba a>b^g | a3 z2a | e>fe Td>cd | c2g c>de | A>Bc B2c | G2z e>de | f2z d2z | e2z f>ef | B>cd G>AB | c2F G2g |
+e>fg c2_b | T_b2a z2a | ^f>ga d2c' | Tc'2=b z>c'd' | g>a_b a>bg | f>ga g>af | e>dc z2B | c2a g>af | e>fg f>ge | d>bc' e>bc' |
+f>bc' e>bc' | d2a g>af | e>dc G2f | e>fe d>ec | G>de G>fe | G>de G>fe | G2f e>fd | g>bc' e>fd | c3 z3/ |]
+S:https://www.folktunefinder.com/tunes/82783
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_3_C.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

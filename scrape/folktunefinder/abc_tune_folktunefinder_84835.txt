@@ -1,0 +1,50 @@
+X:10
+T:Stingo
+T:The Oyle of Barly
+T:Cold and Raw
+R:Jig
+H:Refer to the notes for "Lulle me beyond thee"
+H:Many lyrics were set to the tune, all having in common the metaphorical
+H:themes of strong ale, and of "selling barley", the feminine equivalent
+H:of "sowing wild oats"
+H:In 1688 a "new Scotch song" set to the tune appear. Written by D'Urfey, it
+H:began "Cold and raw the North did blow".
+M:6/8
+L:1/8
+Q:110
+K:GDor
+G2G d2B|cA2 F2F|G2G d2B|G3 B3||
+B2B B2A/2B/2|c2c c2c|d2d g2g|d3 f3|B2B B2A/2B/2|c2c c>d_e|dc>B cA2|G3 B3||
+W:Be merry, my friends, and list a while
+W:Unto a merry jest
+W:It may from you produce a smile
+W:When you heare it exprest
+W:Of a young man lately married
+W:Which was a boone goode fellow
+W:This song in's head he alwaies carried
+W:When drink made him mellow
+W:I cannot go home, nor will I go home
+W:It's long of the oyle of Barly
+W:I'le tarry all night for my delight
+W:And go home in the morning early
+W:--Humour,
+W:Wit and Satire (1647)
+S:https://www.folktunefinder.com/tunes/84835
+S:http://pryanksters.org/music/playford.abc
+S:http://rgoldman.org/pryanksters/music/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/book/playford/playford.abc.txt
+S:http://www.pryanksters.org/music/playford.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/save/playford.abc.txt
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Cold_and_Raw_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Oyle_of_Barly_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Stingo_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Cold_and_Raw_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Oyle_of_Barly_1.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/Stingo_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

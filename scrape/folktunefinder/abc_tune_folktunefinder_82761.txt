@@ -1,0 +1,23 @@
+X:27
+T:Valse cossaise
+R:Valse
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-09
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+%%continueall 0
+K:C
+G | e2d | c2B | ABc | G2G | e2d | c2B | ABc | d2G | 
+e2d | c2B | ABc | G2G | Adc | Bed | c B/c/ e/d/ | !breath!c2G | 
+e2G | e2G | ege | c2G | d2G | d2G | dcd | ecG | 
+e2G | e2G | ege | c2G | Adc | Bed | c B/c/ e/d/ | c2 |]
+%%footer $D   Galouvielle-MBe 2006 \nValse (Irlande)
+S:https://www.folktunefinder.com/tunes/82761
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

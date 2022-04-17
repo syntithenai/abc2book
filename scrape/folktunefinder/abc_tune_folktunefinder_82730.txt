@@ -1,0 +1,32 @@
+X:1
+T:Ada's Kujawiak
+O:poland
+C:Polen (3x)
+M:3/4
+L:1/8
+Q:1/4=108
+K:Gm
+V:1
+{^c}"D" d4 d2 |{^c}d4 d2 |{^c}d dd2 d2 |d2 d2 d2
+|:"Gm" G3/2 B/d3/2 ^c/d3/2 ^c/|de ~d2 c3/2 B/|"D" c3/2 =B/c3/2 =B/c3/2 =B/|cd ~c2 B3/2 A/
+|"G" B3/2 A/"F#" B3/2 A/"F" B3/2 A/|"E" Bc "Eb" B2 A3/2 G/|"D7" AB A2 G3/2 ^F/|1 "Gm" (G2 G/)F/=E/E/ D2 :|2
+"Gm" G2 G2 z2 ||  |:"D" A3/2 B/A^F DA |"Gm" B3/2 c/BA GB |"F" c3/2 d/cA FA |
+"Bb" BB "A" c2 "Ab" ^c2 |"D" d3/2 b/(a2 a)g |"Cm" ^f3/2 a/e2 ec |"Gm" B3/2 d/"D" A2 d2 |
+"Gm" G2 G2 z2  :| |:
+K:G
+"G" B3/2 d/G2 Bd |"Am" c3/2 e/A2 ce |"D" f3/2 a/d2 d/e/=f/f/ |"G" g3/2 b/gd BG |
+"G" B/c/^c/d/ G2 Bd |"Am" cd/e/ A2 ce |"D" d3/2 e/fg af |"G" g2 g2 z2
+:|
+K:Gm
+"D" d4 d2 |d4 d2 |d3/2 d/=e2 ^f2 |"G" g2 g2 z2 |]
+S:https://www.folktunefinder.com/tunes/82730
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

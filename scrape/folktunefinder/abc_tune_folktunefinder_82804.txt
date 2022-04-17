@@ -1,0 +1,32 @@
+X:12
+T:La fille  marier
+R:chanson 
+N:
+N:p.269
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:6/8
+L:1/8
+Q:1/4=120
+K:Bb
+F F B c !segno! || d d e d c | B2  F F B c | d d e d c | HB2 ||
+d d d | d3 c d e | f2 z d d d | d3 c d e | f2 z c c c | f2 f e2 d |
+c f f e2 d | c f f e2 d | Hc2 || F F B c !segno!||
+W:Il est pourtant temps, pourtant temps, ma mre
+W:Il est pourtant temps de me marier.
+W:Ma fille, nous n'avons point d'argent (2x)
+W:Ma mre nous avons du froment, 
+W:que n'le vendez-vous  Que n'me mariez vous 
+W:Il est pourtant temps...
+S:https://www.folktunefinder.com/tunes/82804
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

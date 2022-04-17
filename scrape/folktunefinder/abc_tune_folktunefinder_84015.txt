@@ -1,0 +1,42 @@
+X:136
+T:Klez
+O:klezmer
+C:Naftule Brandweins Orchestra (1924)
+C:Arr: Trudi Broekema (klar)
+M:4/4
+L:1/8
+Q:1/4=120
+K:Dm
+V:1
+Ad e |:"Dm" f2 ff2 ff/e/ d|"A7" d ee e2 ee d|^c/d/ e"Bb" f/e/ d"A" e/d/ ^cd/^c/ B|
+^c4 zA de |f2 ff2 ff/e/ f|g2 gg2 gg f|"G#" e f^g a"A7" a/^g/ ff/e/ d|
+|1 "Dm" d4 "A7" zA de :|2 "Dm" (d4 "C7" d)c fg ||  |:a2 aa2 gb/a/ g/a/|f2 ff2 cf g|
+a2 a(a a)b c'b |a2 a2 a2 a2 |b2 bb2 bb/a/ g/f/|"Dm" g aa a2 aa/^g/ f|
+"Gm" f g2 f"G#" a/^g/ f"A7" f/e/ d|1 "Dm" d4 zc fg :|2 d4 z4 ||  |:"Dm" dd Ad fe d2 |
+"F" cc FA cB AG |"C7" FG2 FA/c/ BA/G/ F/G/|"F" [z4A8]"A7" z4 |dd Ad fe d2 |
+"F" cc FA cB AG |FG2 F"G#" A/^G/ F"A7" F/E/ D|"Dm" D8 :|
+V:2          %acc.2e stem
+CF G |:A2 AA2 AA/G/ F|F GG G2 GG F|E/F/ GA/G/ FG/F/ EF/E/ D|
+E4 z^C FG |A2 AA2 AA/G/ A|B2 BB2 BB z|e (ee) d^c/B/ AA/^G/ F|
+|1 F4 zE FG :|2 (F4 F)G AB ||  |:c2 cc2 Bd/c/ B/c/|A2 AA2 GA B|
+c2 c(c c)d ed |c2 c2 c2 c2 |d2 dd2 dd/c/ B/A/|c dd d2 dd/c/ A|
+A B2 A^c/B/ AA/G/ F|1 F4 zG AB :|2 F4 z4 ||  |:FF EF AG F2 |
+AA FA cB AG |AB2 Ac/e/ dc/B/ A/B/|c8 | (3def  (3def  (3def  (3def |
+a6 F[GE]|[B4D2 F2][^G2B2 F2 D2][G2^c2 E2]|[F8d8 D8 A8]:|
+V:3          %klar. 2e stem
+cf g |:a6 a/g/f |~g3 ~g3 gf |a2 b2 ^c'2 d'2 |
+~^c'2 ^c'^c'2 b (3bag |a6 a/g/a |~b3 ~b3 ba |gf ed ^cB A/^G/F |
+|1 F4 zc fg :|2 (F4 F)e ab ||  |:~c'4 ~c'2 ~c'2 | (3aga  (3aga a2 ab |
+~c'4 ~c'2 ~c'2 |c'2 b2 a2 ^f2 |g2 gg2 gg/f/ e/d/|e ff f2 ff/e/ d|
+A B2 A^c/B/ AA/^G/ F|1 F4 zG AB :|2 F4 z4 ||  |:FF EF AG F2 |
+AA FA cB AG |AB2 Ac/e/ dc/B/ A/B/|~a8 |[(3df][e(3g][fa][(3df][e(3g][fa][(3df][e(3g][fa][(3df][e(3g][fa]|
+[~a8c'8]|[g2d'2][^g2b2]a/^g/f f/e/d |d8 :|
+S:https://www.folktunefinder.com/tunes/84015
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

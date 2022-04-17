@@ -1,0 +1,19 @@
+X:43
+T:Grimstock (1)
+M:6/8
+L:1/8
+K:G
+"G" g2 f g2 d | "C" e>fg "D" f2 d | "Em" B>cd "C" e2 d | "D7" c2 "G" B "D7" A2 "G" G |
+"G" g2 f g2 d | "C" e>fg "D" f2 d | "G" B>cd "C" e2 d | "D" c>BA "G" G3:|
+|:"G"GGA BG"D"A | "Em" BGA BG"D"[AD] | "Em"GGB BG"D"A | "Em"BG"D"[AD] "G"G3 :|
+%
+%
+S:https://www.folktunefinder.com/tunes/84884
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

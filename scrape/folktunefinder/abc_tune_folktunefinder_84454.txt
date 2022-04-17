@@ -1,0 +1,28 @@
+X: 49
+T: Elem Vesusato
+C: E. Netzer (1959)
+O: Israel
+M: 4/4
+L: 1/8
+K: Dm
+Q: 1/4=166
+%%MIDI gchord ff2zf2f2
+%%MIDI program 22
+%%MIDI bassprog 117
+%%MIDI bassvol 120
+  "f"C D2 F AF G>F | EF GE FG F/E/D  |C D2 F AF G>F|EFED D2 D2|
+|:Ad2 d cd d2      |z d2 d cd c/=B/A |Ad2 d ec d2  |[1 c2 =BG A4:|\
+[2c2 G=B A4        |
+|:"d"FG AB AG/F/ G2|FG2F ED/E/C2     |DEFG E2 ED   |[1E4z4      :|\
+[2D4z4      |
+S:https://www.folktunefinder.com/tunes/84454
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

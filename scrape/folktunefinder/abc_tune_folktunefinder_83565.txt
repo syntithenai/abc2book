@@ -1,0 +1,40 @@
+X:173
+T:Rondeau
+C:Adam de la Halle
+H:XIV eme siecle
+O:France
+Z:S. Piron
+M:3/4
+L:1/4
+Q:1/4=120
+K:C
+c2 (3:2:3c/2B/2A/2|(3:2:2GF/2 E F|GA (3:2:2Bc/2|dd(3cd/2|e2 (3d/2c/2B/2|(3:2:2AG/2 AB|
+|c2 (3c/2B/2A/2|(3:2:2GF/2 E F|GA (3:2:2Bc/2|(3:2:2dc/2 BA|c2 z||
+|:c2 (3c/2B/2A/2|(3:2:2GF/2 E F|GA (3:2:2Bc/2|dd(3:2:2cd/2|e2 (3d/2c/2B/2|1(3:2:2AG/2 AB:|2A2 
+z||
+W:
+W:A Dieu comant amouretes
+W:Car je m'en vois
+W:Soupirant en terre estrange.
+W:
+W:Dolans lairai les douchetes
+W:Et mout destrois.
+W:
+W:J'en feroie ronetes
+W:S'estoie roys,
+W:Coment que la chose empraigne.
+W:
+W:A Dieu comant amouretes
+W:Car je m'en vois.
+S:https://www.folktunefinder.com/tunes/83565
+S:http://www.tradfrance.com/matf01.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

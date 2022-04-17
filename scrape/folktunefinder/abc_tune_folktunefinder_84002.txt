@@ -1,0 +1,39 @@
+X:123
+T:Freylekhe mekhutonim
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+"Gm" G4 B4 |"A7" A3/2 G/^FG "D" A4 |"D7" A4 c4 |"Gm" B3/2 A/GB d4 |
+"Cm" ze/d/ cd ed c2 |"Gm" dG AB "G" ^c3/2 B/B/A/G |"Eb" AB2 G"D7" B/A/ G^F/G/ A|1 "Gm" G4 zD =E^F :|2
+"Gm" G4 zD GA ||  |:"Gm" BA G2 zA Bc |BA G2 zd ed |"Cm6" cB A2 zA Bc |
+"Gm" B/A/G d3 BB/A/ G|"Cm" e dc2 zA Bc |"Gm" dc B2 zD GA |"Eb" AB2 G"D7" B/A/ G^F/G/ A|
+|1 "Gm" G4 zD GA :|2 "Gm" G6 z2 || |:
+K:G
+"G" B/d/^c/d/ e/d/^c/d/ gd cB |"D" AB c/B/A "G" A{c/}B3 |B/d/^c/d/ e/d/^c/d/ gd cB |1 "D" AB c/B/A "G" GD GA :|2
+"D" AB c/B/A "G" G3 D||
+V:2          %Boventerts
+D |  |8 |
+K:Gm
+B,4 D4 |^C3/2 B,/A,B, C4 |C2 D2 E2 ^F2 |G8 |
+zG/F/ EF GF E2 |G2 F2 =E4 |E4 D2 C2 |1 B,4 z4 :|2
+B,4 z4 || |:DC B,2 zC DE |DC B,2 zF GF |ED C2 zC DE |
+D/C/B, D3 DD/C/ B,|G FE2 zC DE |FE D2 z.G .F.=E |E4 D2 C2 |
+|1 B,4 z4 :|2 B,6 z2 || |:
+K:G
+G/B/_B/B/ c/B/_B/B/ dB AG |FG A/G/F FG3 |G/B/_B/B/ c/B/_B/B/ dB AG |1 D_E EF G3 A:|2
+D _EE FG3 z||
+S:https://www.folktunefinder.com/tunes/84002
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

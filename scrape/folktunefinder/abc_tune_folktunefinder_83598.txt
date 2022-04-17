@@ -1,0 +1,30 @@
+X: 15
+T:Woodpecker. JC.015
+M:2/4
+L:1/16
+Q:60
+S:John Clare,Poet,Helpston. (1793-1864)
+R:March
+O:England
+A:Northamptonshire
+N:b5 4SQs are 4Qs in MS. b13,21,23 ,the last notes, Quavers in the MS,
+N:are given as Semi Quavers to match other bars.MR.
+Z:vmp.P. Headford
+K:D
+A2|d2dd defd|e2ee e3e|f2ed d2(cd)|ec d3B A2AA|!
+d2dd edcd|e2ee e2zA|a2fd B2GG|A2Bc (defg)|!
+a2fd B2GG|A2Bc d2 AA|A2GF E2 BB|B2AG F2 ff|!
+f2f2f2zf|(fe)(dc) B2BB|d2dd B2BB|e2ee c2cc|!
+f2fe d2ef|ag ge e2 dd|d2c=c BBzA|ee d2c2 AA|!
+a2fd BBzG|A(ABc) d(efg)|a2fd BBzG|A2Bc d4|]
+S:https://www.folktunefinder.com/tunes/83598
+S:http://www.village-music-project.org.uk/abc/clare_j.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

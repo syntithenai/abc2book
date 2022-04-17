@@ -1,0 +1,35 @@
+X:52
+T:The Broken Window
+R:jig
+C:Otis Tomas
+O:20th Century Cape Breton
+S:http://www.cranfordpub.com
+D:The Lighthouse, Paul Cranford, 1996
+B:The Lighthouse Collection, Paul Stewart Cranford
+Z:psc, (re-formatted,updated 9/20/04)
+N:http://www.fiddletree.com, Otis Tomas Stringed Instruments 1-902-929-2766
+H:                                                    copyrights Otis Tomas, SOCAN
+Q:300
+L:1/8
+M:6/8
+K:F
+D|C3 A,B,C|DFA GAc|dfd cAF|GFG AFD|
+C3 A,B,C|DFA GAc|dfd cAG|AFF F2:|
+|:A|cFA cde|fdB c2 A|BAG Bdf|bag afd|
+[1 c3 cde|fdB c2 A|BFD fdc|AFF F2:|
+[2 fcc cBc|dcB c2 A|BFD fdc|AFF F2|]
+S:https://www.folktunefinder.com/tunes/82626
+S:http://cranfordpub.com/tunes/abcs/lighthouse_CD.abc
+S:http://www.cranfordpub.com/tunes/abcs/lighthouse_CD.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

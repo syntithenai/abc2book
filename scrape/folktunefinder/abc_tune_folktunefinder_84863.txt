@@ -1,0 +1,23 @@
+X:22
+T:Confess (His Tune)
+T:The Court Lady
+M:6/8
+L:1/8
+K:G minor
+%
+V:1
+D3 | "Gm" G2 A B2 c | "Gm" d2 d d2 d | "Cm" e3 "Gm" d2 d | "Eb" g3 "D" ^f3 |
+"Gm" G2 A B2 c | "Gm" d2 d d2 d | "Cm" e3 "Bb" d2 d | "Eb" g3 "D" ^f3 ||
+|: "Dm" a2 =f "Gm" b2 g | "Dm" a f2 "Bb" d2 e | "Dm" f d2 "Cm" c2 d | "F" d c2 "Bb" d3 |
+"Gm" B2 c d>ed | "Cm" e d2 "F" c3 | "Bb" d2 g "Eb" ^f2 g | "D" a ^f2 "Gm" g3 :|
+%
+%
+S:https://www.folktunefinder.com/tunes/84863
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

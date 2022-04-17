@@ -1,0 +1,30 @@
+X:120
+T:Freilag
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=131
+K:Gm
+V:1
+"D" d ^f/^f/^f/^f/ ^f/^f/|^f d/^f/a g|^f/g/ a^f/g/ a|^f e/^f/"Cm" e/d/ c|
+"D" d ^f/^f/^f/^f/ ^f/^f/|^f d/^f/a g|^f/g/ a"Cm" ^f/e/ d/c/|"D" (d2 d2) :| |:
+"D" db ag |^f2 g2 |ag ba |"Gm" g4 |
+zb ab |"Cm" c'2 b2 |ag ^fg |"D" a4 |
+zb ag |^f2 g2 |ag ba |"Gm" g4 |
+"Cm" c'4 |c'b ag |^fc de |"D" (d4 |
+d4)  :| |:"Gm" G3 A/B/|G3 A/B/|G A/B/G A/B/|
+G4 |"Cm" Bc cc |cB/c/ BA |"Gm" AB BB |
+BA/B/ AG |GF FG |"F7" Gc BA |"Bb" B4 |
+f4 |"Cm" Bc cc |cB/c/ BA |"Gm" AB BB |
+BA/B/ AG |"Eb" Ge dc |"Cm" Bc "D7" AB |"Gm" (G4 |
+G4) :|
+S:https://www.folktunefinder.com/tunes/83999
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 172
+T: Three Meet
+M:6/8
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:D
+A|F2 A d2 A|B2 B e2 d|d2 d cBc|d2 d f2 A|F2 A d2 A|B2 B e2 d|d2 d cBc|d3
+ d3::
+f2 a e2 a|fed cBA| d2 d ede|fAf e3|b3 a3|g3 f3|ede fed|B2 c d3:|
+S:https://www.folktunefinder.com/tunes/85336
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/playf.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

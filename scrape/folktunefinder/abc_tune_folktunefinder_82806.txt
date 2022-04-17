@@ -1,0 +1,28 @@
+X:12
+T:Les gas de Locmin
+R:chanson 
+N:
+N:p.306
+B:Chanson de la Haute-Bretagne - Adolphe Orain - 1902
+O:France
+A:Pays Gallo
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4 Allegro
+L:1/16
+Q:1/4=120
+K:Bb
+d ^c d e | d2 c B c B c | d2 !accent!d2 d ^c d e | d3 c B c B A | G4 G2 G2 ||
+  "Refrain." B3 A G ^F G A | !accent!B4 d ^c d e | d3 c B c B A | G2 d2 G2 G2 | 
+             B3 A G ^F G A | !accent!B4 d ^c d e | d3 c B c B A | G4 z2 ||
+S:https://www.folktunefinder.com/tunes/82806
+S:http://anamnese.online.fr/abc/orain.abc
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

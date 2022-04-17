@@ -1,0 +1,25 @@
+X: 36
+T:The Spanyard
+M:6/8
+L:1/8
+Q:100
+R:Jig
+K:DMix
+fdd dc/2d/2A|ddc/2d/2 e2A|fdf fe/2f/2d|fgf/2g/2 a3||
+eee cB/2c/2A|fe/2f/2d g2a|bag a>2 gf/2e/2|fed/2e/2 d3||
+S:https://www.folktunefinder.com/tunes/84665
+S:http://ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Playford.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/~flip/contrib/dance/playford.abc
+S:http://www.firepowr.com/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/%7Eflip/contrib/dance/playford.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:100
+T: The Bush on the Hill
+M: C
+L: 1/8
+B: O'Neill's 520
+N: "Moderate" "collected by F. O'Neill"
+Z: Transcribed by Dave Wooldridge
+K: G
+G \
+| (dBAG) (g2 fe) | (dBAG) (B2 AB) | (cdef) (gfed) | f3 e d2 z G |
+d2 (cB) e3 d | (cBAG) A3 B | (cdef) (gdec) | B2 (A>G) G2 z ||
+G \
+| g>acb g(fe)d | B>AB>c B3 d | e(fg)a g(fe)d | B(dg)f e2 ge |
+(dB)(AG) B(dg)e | (dB)(AG) {B}A3 B | (c>Bcd) ~e>fHge | dBA>G G3 ||
+S:https://www.folktunefinder.com/tunes/85447
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/0501-0550_dw.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

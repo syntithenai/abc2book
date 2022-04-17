@@ -1,0 +1,37 @@
+X:176
+T:Sirba
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=115
+K:Dm
+V:1
+"Dm" ^C/D/F/D/ ^C/D/F/D/ |^C/D/F/A/ "Dm7" c2 |"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|
+"Dm" ^C/D/F/ D/^C/D/F/ D/|^C/D/F/ A/"Dm7" c2 |"Dm" c/B/A/^G/ B/A/^G/B/ |1 Az d2 :|2
+A2 z/D/F/A/ || |:"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|c/B/A/ ^G/B/A/^G/ B/|
+A2 d2 |"Dm" c/B/A/^G/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|c/B/A/ ^G/B/A/^G/ B/|
+|1 A2 z/D/F/A/ :|2 A2 z/A/^G/G/ || |:
+K:D
+"D" F/G/^G/A/ A/F/G/E/ |"A7" F3/2 E/"D" E/D/A |"D" F/G/^G/A/ A/F/G/E/ |"A7" F3/2 E/"D" E/D/A,/ D/|
+"D" F/G/^G/ A/A/F/G/ E/|"A7" F3/2 E/"D" E/D/A |"D" F/G/^G/A/ A/F/G/E/ |1 "A7" F/D/E/C/ "D" D3/2 F/:|2
+"A7" F/D/E/ C/"D" D/D/=F/ A/|| |:
+K:Dm
+"Dm" (d4 |d3) ^c|^c2 {(e}d2) |d2 d2 |
+d/c/B/A/ d/c/B/A/ |B/c/B/A/ d/c/B/A/ |^G/A/B/c/ d/c/B/A/ |d/A/f/e/ d/c/B/A/ |
+"Dm7" B2 c2 |c2 c2 |(c4 |c4) |
+"Dm" d/c/B/A/ ^G/F/E/D/ |^C/D/E/F/ ^G/A/B/c/ |d/c/B/A/ B/A/^G/F/ |^G3/2 F/^G/F/E/ D/|
+E2 F2 |F2 {(G}"Dm" F2) |(F4 |F4) |
+d/c/B/A/ ^G/F/E/D/ |^C/D/E/F/ ^G/A/B/c/ |d/c/B/A/ ^G/F/E/D/ |1 E/F/D z/D/F/A/ :|2
+"Dm" E/F/D z2 ||
+S:https://www.folktunefinder.com/tunes/84053
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

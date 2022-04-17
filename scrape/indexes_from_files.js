@@ -14,19 +14,74 @@ const abcjs = require('abcjs');
     //"lookups": {"1001": "joe cat", "1004": "cat my arse", "1003": "who cat", "1002": "dog gone"}
 //}
 
+
+function isAliasLine(line) {
+    return (line.startsWith("N: AKA: "))
+}
+
+function isMetaLine(line) {
+    if (line[1] === ":" && line[0] !== "|" && line[2] !== "|" ) {
+        // avoid alias lines
+        return isAliasLine(line) ? false : true
+        
+    } else {
+        return false
+    }
+}
+
+
+function getNotesFromAbc(abc) {
+    if (!abc) return ''
+    var parts = abc.split('\n')
+    var noteLines = []
+    parts.forEach(function(line) { 
+        //console.log('try',line)
+        if (line !== undefined && line !== null && !line.startsWith('% ') && !isMetaLine(line) && !isAliasLine(line) && (line.trim().length > 0)) {
+            //console.log('try OK', line.startsWith('% ') , isMetaLine(line), isAliasLine(line))
+            noteLines.push(line)
+        }    
+    })
+    var notes = noteLines
+    try {
+        notes = abcjs.extractMeasures(noteLines.join("\n"))
+        if (notes.trim().length === 0) {
+            notes = noteLines
+        }
+    } catch(e) {
+        notes = noteLines
+    }
+    //console.log('Gna',abc,noteLines)
+    return notes.join("\n")
+}
+
 function stripText(text) {
-  return text ? text.trim().replace(/[^\w\s]/g,'').toLowerCase() : ''
+    var result = ''
+    if (text && text.trim) {
+        result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
+    }
+   return result
 }
 var settings={}
 function pushSetting(title,id) {
     if (!Array.isArray(settings[title])) settings[title] = []
     settings[title].push(id)
 }
-
+const cyrb53 = function(str, seed = 0) {
+    let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
+    for (let i = 0, ch; i < str.length; i++) {
+        ch = str.charCodeAt(i);
+        h1 = Math.imul(h1 ^ ch, 2654435761);
+        h2 = Math.imul(h2 ^ ch, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ (h1>>>16), 2246822507) ^ Math.imul(h2 ^ (h2>>>13), 3266489909);
+    h2 = Math.imul(h2 ^ (h2>>>16), 2246822507) ^ Math.imul(h1 ^ (h1>>>13), 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1>>>0);
+};
 var index = {tokens: {}, lookups: {}}
 var files = []
 var count = 0
 var limit = 50000000
+var seenNotesHash = {}
 var dir = __dirname+'/folktunefinder/'
 var fileNames = fs.readdirSync(dir)
 for (var filenameKey in fileNames)  {
@@ -43,16 +98,26 @@ for (var filenameKey in fileNames)  {
         var data = null
         try {
           const data = fs.readFileSync(dir + filename, 'utf8')
-          //console.log(data)
-          var parts = data.split("\nT:")
-          if (parts.length > 1) {
-            var innerParts = parts[1].split("\n")
-            var title = innerParts[0].trim()
-            if (title.length > 0 && id && id.length > 0) {
+          //
+          var tunebook = new abcjs.TuneBook(data)
+          //console.log(tunebook)
+          tunebook.tunes.forEach(function(tune) {
+            //console.log(tune)  
+          //var parts = data.split("\nT:")
+          //if (parts.length > 1) {
+            //var innerParts = parts[1].split("\n")
+            var title = tune.title //innerParts[0].trim()
+            var notes = getNotesFromAbc(tune.abc)
+            // skip if notes have been seen before
+            var hash = cyrb53(notes)
+            //console.log(title,notes)
+            if (!seenNotesHash[hash] && title && title.length > 0 && id && id.length > 0) {
+                seenNotesHash[hash] = true
                 index.lookups[id] = title
                 var titleParts = title.split(' ')
                 titleParts.forEach(function(tokenDirty) {
-                    var token  = stripText(token)
+                    var token  = stripText(tokenDirty)
+                    //console.log(tokenDirty,"R", token)
                     var existing = index.tokens[token]
                     if (!Array.isArray(existing)) {
                         existing = []
@@ -62,7 +127,7 @@ for (var filenameKey in fileNames)  {
                 })
                 pushSetting(stripText(title), id)
             }
-          }
+          })
         } catch (err) {
           console.error(err)
         }

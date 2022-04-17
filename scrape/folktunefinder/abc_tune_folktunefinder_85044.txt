@@ -1,0 +1,25 @@
+X: 65
+T:Heartsease
+M:6/8
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:Gm
+G|G>AB A2 G|^F2 G A2 D|G2 A B2 c|d3 d3 G|G>AB A2 G|^F2 G A2 D|G2 A B2 c| d3 d2:|
+|: d|ABc c>dc|f2 c c2 A|B2 A B2 c|d3 d2 d|c2 B A>Bc|B2 A dAB|A G ^F>=GF|G3 G2:|
+S:https://www.folktunefinder.com/tunes/85044
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/playf.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/playford_bath_exxhf.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/Heartsease.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/HeartsEase.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

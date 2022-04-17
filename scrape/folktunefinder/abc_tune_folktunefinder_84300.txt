@@ -1,0 +1,28 @@
+X:24
+T:Au renouviau
+R:Danse XIIIe
+O:France
+A:Provence
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+L:1/8
+K:C
+P:A
+D>C D>E | F>G E>F (3EDC D>E |1 A,2 A,z :|2 D2 D>C | |:
+P:B
+D>E E>F | D>C D>E |1 D2D>C :|2 D2D2  ||
+P:C
+D>A A>F | G>F E>E | D>A A>F | G>F  E>E | D>C D>E | D2 D2 |]
+%%footer $D   Galouvielle-MBe 2005 \nDanse XIIIe XIIIe s
+S:https://www.folktunefinder.com/tunes/84300
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Danse xiiie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

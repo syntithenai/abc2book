@@ -1,0 +1,33 @@
+X:101
+T:Bobover wedding march
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:G
+V:1
+DE HF|"G" G3/2 A/B2 B2 B2 |"G" B/c3/2 "D" A/B3/2 "G" G4 |"D" A3/2 G/AB c(B "D7" B)A/G/ |
+"G" B4 B/c/B/A/ G/F/E/F/ |"G" G3 AB2 B2 |B/c3/2 "D" A/B3/2 "G" G4 |"D" (A2 A/)G/A/B/ c/(B3/2 "D7" B/)A/d |
+"G" G4 G/F/G/A/ B/A/B/c/  |:"G" B3 cd2 d2 |d/e3/2 d3/2 c/{d}c2 B2 |"D" c3/2 B/cB "D7" d2 ~cB/c/ |
+|1 "G" B4 B2 B/c/B/A/ :|2 "G" B4 B/A/G/F/ "G7/h" G/A/B/G/ ||
+Bd c2 c2 c/B/c/^c/ |"G" dB3 A2 G2 |"D" (A2 A/)G/A/B/ "D7" c/(B3/2 B/)A/G |"G" B4 B/d/c/B/ "G7/h" A/G/A/B/ |
+"G7/h" Bd "C" c2 c2 c/B/c/^c/ |"G" dB3 "A7" A2 G2 |"D" A3/2 G/AB "D7" cB A/d3/2 |"G" G4 z/D/E/F/ "A7" G/A/B/^c/ |]
+K:D
+"D" d3/2 e/f2 f2 f2 |"D" f/g3/2 "A" e/f3/2 "D" d4 |"A" e3/2 d/ef g(f "A7" f)e/d/ |"D" f4 f/g/f/e/ d/c/B/c/ |
+"D" d3 ef2 f2 |f/g3/2 "A" e/f3/2 "D" d4 |"A" (e2 e/)d/e/f/ g/(f3/2 "A7" f/)e/a |"D" d4 d/c/d/e/ f/e/f/g/  |:
+"D" f3 ga2 a2 |a/b3/2 a3/2 g/{a}g2 f2 |"A" g3/2 f/gf "A7" a2 ~gf/g/ |1 "D" f4 f2 f/g/f/e/ :|2
+"D" f4 f/e/d/c/ "D7" d/e/f/d/ ||
+"D7" fa g2 g2 g/f/g/^g/ |"D" af3 e2 d2 |"A" (e2 e/)d/e/f/ "A7" g/(f3/2 f/)e/d |"D" f4 f/a/g/f/ "D7" e/d/e/f/ |
+"D7" fa g2 g2 g/f/g/^g/ |"D" a2 f2 "E7" e2 d2 |"A" e3/2 d/ef "A7" gf e/a3/2 |"D" Hd6 |]
+S:https://www.folktunefinder.com/tunes/83980
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

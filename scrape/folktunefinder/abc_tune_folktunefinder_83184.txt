@@ -1,0 +1,42 @@
+X:320
+T:Plainte des papetiers
+C:trad.
+A:Angoumois
+O:France
+Z:S. Piron
+M:6/8
+L:1/8
+Q:1/2=40
+K:G
+B,E2B|B2GA2A|B2B,E2F|G2AB2B|A2GE3|z2 GG2G|G2GA2A|
+B2Ad2c|B2GA2A|B2EE2E|G2AB2B|A2GF2G|G2AG2E|F2GE3|B3d2c|B2GA2B|E6||
+W:
+W:C'est un Picard, c'est un Normand
+W:Un Champenois nomm la Ruine
+W:Un Champenois nomm la Ruine
+W:Qu'on veut faire compagnon
+W:Savez-vous bien qu' l'ordinaire
+W:S'en va toujours en reculant (bis)
+W:
+W:Il semble  tous ce matres l
+W:Qu'il n'y a pas d'ouvrage en France
+W:Nous en irons dans la Provence
+W:Du ct de Sisteron;
+W:Nous en irons  Carcassonne
+W:Petite ville de grand renom (bis)
+W:
+W:Il faudrait  ces matres l
+W:Des ouvriers faits  leur guise
+W:Des ouvriers faits  leur guise
+W:Travaillant et jour et nuit
+W:Qu'on leur demande de faire la rente
+W:Ils vous envoient  M'sieur le puits (bis)
+S:https://www.folktunefinder.com/tunes/83184
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

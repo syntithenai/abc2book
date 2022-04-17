@@ -1,0 +1,22 @@
+X:66
+T:La Rotta
+O:Italy
+M:2/4
+L:1/8
+K:C
+%P:
+%Q:
+|: z z AB | c2 Bc | A2 d2 | dcBc | [1 A2 AG | GFEF | DEFD | E4 | E2 z z :| [2 A2 AG | GFFE | EDDC | D8 |]
+|: z z AG | F2 FE | FEFG | AGFE | D2 AG | [1 GFFE | EDCD | E4 | E4 :| [2 GFFE | EDDC | D8 |]
+|: D4 | D2 DE | F2 FG | A2 AB | c2 Bc | A2 AG | [1 GFFE | EDDC | E4 E4 :| [2 GFFE | EDDC | D8 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84907
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

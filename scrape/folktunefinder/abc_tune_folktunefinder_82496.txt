@@ -1,0 +1,26 @@
+X:136
+T: AUF EINER HOHEN MAUER
+N: K2224
+O: Europa, Mitteleuropa, Deutschland, Berlin
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/16
+K: D
+A2 | A2A2B2B2 | A4F2
+F2 | G2G2E2G2 | F4z2
+A2 | A2A2B2B2 | A4F2
+F2 | G2G2E2G2 | D4z2
+F2 | A2A2B2B2 | A4z2
+A2 | A2A2B2B2 | A4z2
+FF | G2G2E2EE | F2F2D2
+DD | E2E2C2C2 | D4z2
+S:https://www.folktunefinder.com/tunes/82496
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

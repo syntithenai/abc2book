@@ -1,0 +1,37 @@
+X: 1
+T: Sonata Nr 3 in D
+T: \`a deux fl\^utes
+C: Georg Philip Telemann
+N: Published in Hamburg in 1727
+M: 6/8
+L: 1/8
+P: Siciliana
+K: G
+V: 1
+G/A | B>cB TA>GA | G2d G>AB | E>FG F2G | D2z B>AB | c2z A2z | B2z c>Bc | F>GA D>EF | G2C D2d |
+B>AG ^c2^C | D3 z>fg | a>ba Tg>fg | f3 z>ga | d>ef g>af | Tf2e z2a | b>^cd ^c'>cd | d'>^cd b3- |
+b2G ^c2g | f>ed d>e^c | d>e=f e>fd | c>BA z2^G | A2=f e>fd | c>de d>ec | B>^ga c>ga | d>^ga c>ga |
+%
+B2=f e>fd | e>^ga c>dB | A3 z>B^c | d>cd D>EF | G3 z>AB | =c>Bc C2B | A2B c>Bc | B3 z>^c^d |
+e2A B2b | g>ab e>fg | d>ed Tc>Bc | B3 z>cd | G>AB c>dB | TB2A z2d | e>FG f>FG | g>FG e3- | e>dc a2c | B>AG G>AF |
+G3 z>AB | c>Bc C>A^G | A3 z>B^c | d>^cd D2=c | B2A ^G>AB | A2=G F>GA | G2e d>ec | B>AG z2F | G>AB A>BG | D>AB D>cB |
+D>AB D>cB | D2c B>cA | d>fg B>cA | G2d c>dB | A>fg B>fg | c>fg B>fg | A2e d>ec | B>AG D2Tf | g3 z3/ |]
+V: 2
+B/c | d>ed Tc>Bc | B3 z>cd | G>AB c>dB | TB2A z2d | e>FG f>FG | g>FG e3- | e>dc a2c | B>AG A>BF |
+G>AB A>BG | F>Ad D>de | f>gf Te>de | d2a d>ef | B>^cd c2d | A2z f>ef | g2z e2z | f2z g>fg |
+^c>de A>Bc | d2G A2a | f>ed ^g2^G | A2=f e>fd | c>BA z2^G | A>Bc B>cA | E>Bc E>dc | E>Bc E>dc |
+%
+E2d c>dB | c>BA E2d | ^c>de A2g | Tg2f z2c | B>cd G2=f | T=f2e z>=fg | f>gf e>^de | ^d>^cB a>gf |
+g>fe e>f^d | e3 z2e | B>cB TA>GA | G2d G>AB | E>FG F2G | D2z B>AB | c2z A2z | B2z c>Bc | F>GA D>EF | G2C D2d |
+B>cd G2=f | T=f2e z2e | ^c>de A2g | Tg2=f z>ga | d>e=f e>fd | c>de d>ec | B>AG z2F | G2e d>ec | B>cd c>dB | A>fg B>fg |
+c>fg B>fg | A2e d>ec | B>AG D2c | B>cB A>BG | D>AB D>cB | D>AB D>cB | D2c B>cA | d>fg B>cA | G3 z3/ |]
+S:https://www.folktunefinder.com/tunes/82771
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_3_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

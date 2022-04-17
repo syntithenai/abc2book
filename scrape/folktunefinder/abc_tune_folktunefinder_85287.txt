@@ -1,0 +1,24 @@
+X: 123
+T: Newcastle
+M:4/4
+L:1/8
+Q:160
+S:Playford
+O:Manuscript
+A:English
+K:G
+B2 d2 G2 A2|G3 A G2 D2|B2 d2 G2 d2|e2 g4 fg|d2 B2 A2 G2|E2 e4 dc|d2 B2 A
+2 G|G6::\
+ef|gfed g3 B|A2 g4 A2|G3 A B2 F2|E2 e4 f2|gfed g3 B|A2 A2 c2 d|e2 B2 A3 
+G| G6:|
+S:https://www.folktunefinder.com/tunes/85287
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/playf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X: 4
+T:
+P: Allegro
+M: 6/8
+L: 1/8
+K: Bb
+V: 1
+f |\
+bab fba | b3- bag | fgf ede | d3 z2c | dfF dfF | ceF ceF | dfF ceF | dcd Bdf |
+  =egG egG | dfG dfG | =egG dfG | =ede ceg | ac'c ac'c | gbc gbc | ac'c gbc | aga fac' |
+  d'2d c'2d | =b3- bc'd' | f3- f=ef | =bc'd' gab | c'2c _b2c | a3- abc' | _e3- ede | abc' fga |
+  bc'a gaf | gaf =efd | bc'a gaf | =edc z2g | _aga f=ef | _a3- afg | _aga f=ef | _d'3- d'2c' |
+  b=ab _d'c'=b | c'_ba b_ag | _agf _gf=e | b3- b_a=g | _agf cf=e | B3- B=AG | Acf Gf=e | F3 z2 :|
+c' |\
+  f'=e'f' c'f'e' | f'3- f'=e'd' | c'd'c' bab | a3 z2g | ac'c ac'c | gbc gbc |
+  ac'c gbc | aga fga | bd'd bd'd | ac'd ac'd | bd'd ac'd | bab gbd' | e'ed cde | d'2d b2B |
+  c'cB ABc | b2B d'2d | e'ed cde | d'2d b2B | c'cB ABc | bag c'ba | d'3- d'2c' | bag dg^f |
+  g3 z3 | =f3- f2_a | g2f =e2f | =efg ceg | =efg cgb | =efg ce2 | f3 z3 | _e3- e2g |
+%
+  f2e d2e | dBc def | gef gab | g=ef gab | afg abc' | d'bc' d'=e'f' |
+  g'2g f'2g | =e'3- e'f'g' | b3- bab | =e'f'g' c'd'e' | f'2f _e'2f | d'3- d'e'f' | _a3- aga | d'e'f' bc'd' |
+  e'f'd' c'd'b | c'd'b =abg | e'f'd' c'd'b | agf z2c' | _d'c'd' bab | _d'3- d'bc' | _d'c'd' bab | =d'3- d'c'd' |
+  e'd'e' =e'd'e' | f'=e'f' _e'_d'c' | _d'c'b _c'b=a | e'3- e'_d'c' | _d'c'b fba | e3- edc | dfb cba | B3 z2 |]
+V: 2
+z |\
+  z3 z2f | dcd B2e | d2z c2z | Bdf B2A | BdF BdF | AcF AcF | BdF AcF | B3 z2=B |
+  c=eG ceG | =BdG BdG | c=eG =BdG | c3 z2=e | fac fac | =egc egc | fac =egc | f3 z2_e |
+  d2z ^f2z | G=f=e fef | =Bdc dcd | G2f =efd | c2z =e2z | F_ed ede | AcB cBc | F2e dec |
+  B3 z2a | bc'a gaf | gaf =efd | c3 z2=e | f3 z3 | _d3 z3 | c3 z3 | B3 z3 |
+  g3 z2f | =e2f d2e | c2_d B2c | _dcB c=d=e | f2B cBc | G3- G2=e | F2A B2c | F3 z2 :|
+z |\
+  z3 z2c' | aga f2b | a2z g2z | fac' f2=e | fac fac | =egc egc |
+  fac =egc | f3 z2^f | gbd gbd | ^fad fad | gbd ^fad | g3 z2b | c'cB ABc | b2B g2G |
+  aAG ^FGA | g2G b2B | c'cB  ABc | b2B g2G | aAG ^FGA | g2z a2z | bag ^f=ed | g2c d2c |
+  =Bcd GBd | =Bcd Gdf | =Bcd G2B | c3 z3 | _b3- b2d' | c'2b a2b | abc' fac' | abc' fc'e' |
+%
+  abc' f2a | bde fed | egf efg | =egf efg | fag fga | bd'c' bc'd' |
+  g2z =b2z | c_ba bab | =egf gfg | c2b abg | f2z a2z | B_ag aga | dfe fef | B2_a gaf |
+  e3 z2d' | e'f'd' c'd'b | c'd'b abg | f3 z2a | b3 z3 | _g3 z3 | f3 z3 | _a3 z3 |
+  g2z b2z | a2f g2a | b2_d e2f | _gfe f=ga | b2e fef | c3- cBA | B2d e2f | B3 z2 |]
+S:https://www.folktunefinder.com/tunes/82782
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_2_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

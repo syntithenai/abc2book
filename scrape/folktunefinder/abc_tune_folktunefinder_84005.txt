@@ -1,0 +1,39 @@
+X:126
+T:Roumanian Hora & Bulgar
+O:klezmer
+M:3/8
+L:1/8
+Q:1/4=76
+K:Dm
+V:1
+"Dm" ~^G3/2 A/B/A/|"D" ~^G3/2 F/E/D/|"Dm" A zA |A3/2 D/F/A/|
+~d3/2 c/B/A/|"D" ~^G3/2 F/E/D/|"Dm" A zA |Az A
+|~^G3/2 A/B/A/|~^G3/2 F/E/D/|"Gm" G GG |B3 |
+"Dm" ~A3/2 D/F/G/|"D" ~^G3/2 F/E/F/|"Dm" D3/2 d/A/F/|1 D zA :|2
+Dz A,||  |:"Dm" (D3 |D3) |FF E/D/|
+F FE/D/ |"A7" (^C3 |^C3) |A,B, ^C/D/|
+E F^G/A/ |"Dm" D2 A|"D" ^G FE/D/  |"Dm" FF E/D/|
+F FE/D/ |"Gm" ~G3 |~B3 |"Dm" ~A3/2 D/E/A/|
+"D" ~^G3/2 F/E/F/|"Dm" D3/2 d/A/F/|1 D2 A,:|2 D2 z||
+M:2/4
+|:!segno!"Dm" ~^G AB A|^G FE D|A AA A|A DF A|
+~d cB A|^G FE D|~A3 A|A3 A
+|~^G AB A|^G FE D|"Gm" G G2 G|B4 |
+"Dm" ~AD FA |"D" ~^GF EF |1 "Dm" ~Dd AF |Dz A2 :|2
+"Dm" (D4 |D2) A,2 ||  |:"Dm" D4 |D4 |
+FF ED |FF ED |"A" ^C4 |^C4 |
+A,B, ^CD |EF ^GA |"Dm" D3 A|A/^G/ FF/E/ D|
+F FE D|F FE D|"Gm" G4 |B4 |
+"Dm" AD FA |"A" ^GF EF |"Dm" DA FD |1 zA,2 :|2
+Dz [A2G2 ^C2]||"Dm" Hdz "A" HAz |"Dm" HD4 ||
+S:https://www.folktunefinder.com/tunes/84005
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

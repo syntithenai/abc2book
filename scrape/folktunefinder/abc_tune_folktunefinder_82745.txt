@@ -1,0 +1,30 @@
+X:11
+T:Cochinchine  Mireille
+C:
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-11
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/8
+Q:1/4=168
+P: ABACA
+K:G
+P:A
+|: d2dd BG Bd | BG Bd dc A2 | d2dd BG Bd | dc AF | G4 ::
+B2BB GEE2 | c2cc AFF2 | d2dd BG Bd | dc AF G4 :|
+P:B
+|: [K:Gm] d2dd BG Bd | BG Bd dc A2 | d2dd BG Bd | dc A^F | G4 ::
+B2BB GDD2 | c2cc A^FF2 | d2dd BG Bd | dc A^F G4 :|
+P:C
+|: de dc BB Bd | cB AG A2 DD | de dc BB Bd | cB A^F G4 ::
+B2 AG AA D2 | c2 BA BB G2 | de dc BB Bd |1 cB AG A2 D2 :|2 cB A^F G4 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/82745
+S:http://michel.bellon.free.fr/Musique/fenitra/MariageSylvainetFenitra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

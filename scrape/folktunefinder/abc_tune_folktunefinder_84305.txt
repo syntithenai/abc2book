@@ -1,0 +1,28 @@
+X:29
+T:Marche de noce
+R:Marche
+O:France
+A:Corrze
+S:F. Etay
+%%continueall 1 
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2
+K:C
+[P:A] EF/G/ AB | AG FE | A/G/A/B/ AG |1 FE/D/ E2 :|2 FE/C/ DE/F/ |: [P:B] GE/G/ FE/D/ |1 C/D/E/D/ C/D/E/F/ :|2
+C/D/E/C/ D2 :| [P:C] AA/B/ A/G/F/G/ | AA/B/ A/G/F/G/ | AA/B/ A/G/F/E/ |: DE/F/ GE/G/ | 
+FE/D/ C/D/E/D/ | C/D/E/F/ GE/G/ | FE/D/ C/D/E/C/ :|  HD2 |]
+%%footer $D   Galouvielle-MBe 2005 \nSaltarello France
+S:https://www.folktunefinder.com/tunes/84305
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

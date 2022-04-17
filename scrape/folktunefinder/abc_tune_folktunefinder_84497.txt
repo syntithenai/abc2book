@@ -1,0 +1,23 @@
+X: 92
+T:Li Lach
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=120
+K:Em
+|:"Em"B2 GA    |B2 E2      |ed"Am"cB   |cB A2       |A2 "Em"Bc    |\
+  d2 "Am"c2    |[1 "Em"BAGA|B4         :|[2 "Em"BAGF|E4           |
+|:"Em"e2 fg    |"Bm"f2 f2  |f2 f2      |"Em"g2 e2   |\
+  e2 ed        |"Am"cB A2  |"Em"A B2 A |[1 B2 B2    :|[2 E2 E2    |
+|:"Em"e3 B     |e3 g       |"Bm"fede   |"Em"B3 B    |\
+  "Am"A2 "Em"Bc|"Bm"d3 e   |dc"Em"BA   |[1 B4       :|[2 E4       |
+S:https://www.folktunefinder.com/tunes/84497
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

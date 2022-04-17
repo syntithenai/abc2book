@@ -1,0 +1,21 @@
+X:125
+T:Staines Morris
+M:4/4
+L:1/8
+K:F
+"Dm" A2 d2 "G" =B2 "A" ^c2 | "Dm" d2 =c_B "F" A3 B | "Am" cdcB "Dm" A2 GF | "C" EDEF "Dm" D3 z :|
+E | "Dm" FGAB A2 GF | "Am" EDEF "Dm" D3 E | "Dm" FGAB A2 GF | "C" EDEF "Dm" D3 E ||
+|: "F" F2 FF "C" C2 C2 | "Dm" DEFG "F" A3 B | "Am" cdcB "Dm" A2 GF | [1 "C" ED"Am"EF "Dm" D3 E :| [2 "C"ED"Am"EF "Dm" D4 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84966
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

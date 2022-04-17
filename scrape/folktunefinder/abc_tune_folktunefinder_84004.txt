@@ -1,0 +1,38 @@
+X:125
+T:Heyser Bulgar
+O:klezmer
+M:6/8
+L:1/8
+Q:1/4=
+K:Gm
+V:1
+D^F2 G|"D" A2 AA3 |AB c"Cm" B AG |"D" A2 A(^F3 |
+^F2) D^F2 G|"D" A3 z2 d|d Ac "Cm" BA G|"D" A2 A(^F3 |
+^F2) D^F2 G|"D" A2 GB2 A|G2 ^FE2 D|"Cm" G2 G(C3 |
+C2) CE2 G|c de dc B|A Bc BA G|^F GA "Cm" G^F E|
+"D" D2 DG2 B||"Gm" ^c (d2 d2) d|d ^cB B3 |Ac BB2 B|
+~A2 G^F2 G|"D" ^F2 GA2 B|"Cm" c Ac BA G|"D" A6 |
+z2 DG2 B|"Gm" ^c (d2 d2) d|d ^cB B3 |Ac BB2 B|
+~A2 G^F2 G|"D" ^F2 GA2 B|"Cm" c2 BB AG |G^F EE DC |
+"D" D2 zz2 A,|"D" D z2 z3 ||Az2 BA G|"D" ^F GA G^F E|
+^F2 G^G2 A|"D" D z2 z3 |Az2 BA G|"D" ^F GA "Gm" BA G|
+"D" A G^F "Cm" ED C|"D" D z2 z3 |Az2 BA G|^F2 G^G2 A|
+"Cm" =B (c2 c3) |cd ed cB |AB cB AG |^FG A"Cm" G ^FE |
+"D" D2 DD2 ^C|"Cm" C3 ^C2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 Cc3 |cB AB AG |
+AG ^FG ^FE |"Cm" C3 D2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 CG3 |"D" ^FG A"Cm" G ^FE |
+"D" D2 |] "Cm" C3 D2 E|E DC G3 |^FG AG ^FE |
+D2 C^F2 G|C3 D2 E|D2 CG3 |"D" ^FG A"Cm" G ^FE |
+"D" D2 |]
+S:https://www.folktunefinder.com/tunes/84004
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:207
+T:Sher
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=150
+K:Am
+V:1
+"Am" A4 c4 |"B7" B3/2 A/^GA "E" B4 |"E7" B4 d4 |"Am" c3/2 B/Ac e4 |
+"Dm" zf/e/ de fe d2 |"Am" eA Bc _e3/2 c/c/B/A |"F" Bc3 "E7" c/B/A ^G/A/B |1 "Am" A4 zE ^F^G :|2
+"Am" A4 zE AB ||  |:"Am" cB A2 zB cd |cB A2 ze fe |"Dm" dc B2 zB cd |
+"Am" c/B/A e3 cc/B/ A|"Dm" f ed2 zB cd |"Am" ed c2 zE AB |"F" cc3 "E7" c/B/A ^G/A/B |
+|1 "Am" A4 zE AB :|2 "Am" A4 ||
+S:https://www.folktunefinder.com/tunes/84080
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

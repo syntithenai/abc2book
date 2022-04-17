@@ -13,7 +13,7 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
       abc = getNotesFromAbc(tune.settings[tune.useSetting].abc)
       setting = tune.settings[tune.useSetting]
     }
-    //console.log('tweakabc',abc, tune, songNumber)
+    console.log('tweakabc',abc)
     //if (!abc) {
       //abc = ''
     //}
@@ -191,7 +191,11 @@ function songNumberForDisplay(songNumber) {
 }
 
 function stripText(text) {
-  return text ? text.trim().replace(/[^\w\s]/g,'').toLowerCase() : ''
+  var result = ''
+  if (text && text.trim) {
+      result = text.trim().replace(/[^a-zA-Z0-9 ]/g, ' ').toLowerCase().trim()
+  }
+  return result
 }
 
 

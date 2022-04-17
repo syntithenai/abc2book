@@ -26,7 +26,7 @@ function singleAbc2json(abc) {
     //var noteLength = getMetaValueFromAbc("L",abc)
     var key = ensureText(getMetaValueFromAbc("K",abc))
     //console.log('PARSE KEY ',key, ';',getMetaValueFromAbc("K",abc),abc)
-    var type = ensureText(getMetaValueFromAbc("R",abc).trim())
+    var type = ensureText(getMetaValueFromAbc("R",abc))
     
     var id = ensureText(getKeyedCommentFromAbc('sessionorg_id',abc))
     var setting = getKeyedCommentFromAbc('sessionorg_setting',abc)
@@ -129,7 +129,7 @@ function getCommentsFromAbc(abc) {
 }
 
 function getNotesFromAbc(abc) {
-    if (!abc) return
+    if (!abc) return ''
     var parts = abc.split('\n')
     var noteLines = []
     parts.forEach(function(line) { 
@@ -192,13 +192,13 @@ function getMetaValueFromAbc(key,abc) {
 }
 
 function getKeyedCommentFromAbc(key,abc) {
-    if (!abc) return null
+    if (!abc) return ''
     var first = abc.indexOf('% abc-'+key)
     if (first !== -1) {
         var parts = abc.slice(first + 6 + key.length).split("\n")
-        return parts[0].trim()
+        return ensureText(parts[0].trim())
     } else {
-        return null
+        return ''
     }
 }
 

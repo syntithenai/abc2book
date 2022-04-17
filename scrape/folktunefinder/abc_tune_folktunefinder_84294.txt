@@ -1,0 +1,35 @@
+X:18
+T:Alle, psallite cum luya
+O:France
+C:Manuscript de Montpellier
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-03-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+K:C
+V:1
+d3c3 | d2c B2c | d3 (c/B/)A2 | A3 z2z | A3 G3 | A3 z2z | d3 (c2d) |
+e2e d2B | c2A B2c | d3 (c/B/)A2 | A3 z2z | B3 B3 | A3 G3 | A3 z2z |
+d3 (c2d) | e2e d2e | f2d e2c | d2c B2c | d3 (c/B/)A2 | A3 z2z | B3 d2B |
+c2d B2c | A2G B2G | A3 z2z | d3 (c2d) | e3 (d/c/Bc) | Hd6 :|
+V:2
+A3 z2z | A3 G3 | A3 z2z | d3 c3 | d2c B2c | d3 (c/B/)A2 | A3 z2z |
+B3 B3 | A3 G3 | A3 z2z | d3 (c2d) | e2e d2B | c2A B2c | d3 (c/B/)A2 |
+A3 z2z | B3 d2B | c2d B2c | A2G B2G | A3 z2z | d3 (c2d) | e2e d2e |
+f2d (ed) c | d2c B2c | d3 (d/B/A2) | A3 A2 B | B3 (AG2) | HA6 :|
+V:3
+D3 F2E | D3 E3 | D3 z2z | D3 F2E | D3 E3 | D3 z2z | D3 F3 | 
+E3 G3 | F3 E3 | D3 z2z | D3 F3 | E3 G3 | F3 E3 | D3 z2z |
+D3 F3 | E3 G3 | F2G E2F | D2C E3 | D3 z2z | D3 F3 | E3 G3 | 
+F2G E2F | D2C E2C | D3 z2z | D3 F3 | E6 | HD6 :|
+%%footer $D   Galouvielle-MBe 2005 \n-- France
+S:https://www.folktunefinder.com/tunes/84294
+S:http://michel.bellon.free.fr/Musique/abc/MusiqueAncienne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 77
+T:Sapari Tamar
+O:Israeli
+L:1/8
+M:2/4
+Q:1/4=120
+K:Dm
+%%MIDI gchord f2z2
+c'3 f| g2f2|g2 ab|ag g2-|g4|c'4|f2g2|f2g2| abag| g4| a4|
+K:EDor
+|: "D"D2 "A"CD| EF E2| "D"D2 "A"CD| E4 :|\
+"D"EF G2-|G2 "D"F2|"D"A4|"A"E4\
+|:"D"A4|"D"D2 "G"E2|"D"D2 "G"E2|"D"FGFE|"E"E4-|E4:|
+S:https://www.folktunefinder.com/tunes/84385
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/isra.abc
+S:http://terrytraub.org/abc/israeli_dances.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

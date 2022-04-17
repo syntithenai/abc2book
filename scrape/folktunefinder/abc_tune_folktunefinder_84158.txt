@@ -1,0 +1,26 @@
+X: 16
+T:Fair Jenny's Jig
+M:6/8
+L:1/8
+Q:300
+C:Peter Barnes
+R:jig
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+Q:300
+K:D
+A \
+| "D"f3 f fed | "A7"ecA ecA | "G"Bcd "A7"ecA | "G"Bcd "A7"eag \
+| "D"f3 f fed | "A7"ecA ecA | "G"Bcd "A7"ecA | ABc "D"d2 :|
+|: A \
+| "G"B3 B=cB | GBB B=cB | "D"ADD dDD | ^cDD =cDD \
+| "G"B3 B=cB | GBB B=cB | "A7"A3A ABc | "D"d4:|
+S:https://www.folktunefinder.com/tunes/84158
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

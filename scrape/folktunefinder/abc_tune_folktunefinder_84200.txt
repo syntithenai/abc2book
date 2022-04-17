@@ -1,0 +1,26 @@
+X: 59
+T:Prince William
+R:Reel
+N:Smooth, balance A1,B
+M:4/4
+L:1/4
+Q:300
+K:A
+|"A" A2 c B/2A/2|"E" B EE d|"A"c2 "E"B2| "A" A/2G/2A/2B/2 A B|
+c A E c|"E"B3 A|G e "B7"B ^d|"E" e4 :|
+"A"e2  "D" f>  "A" e | "D" d c "E" Be|"D" d "A" c "E" B "A" A| "E" G B "
+E7"E2|
+"A" A G/2A/2 "E" B A/2B/2| "A"c B/2c/2 "D" d e|"A"c B/2A/2 "E7"E G|"A" A
+4:|
+S:https://www.folktunefinder.com/tunes/84200
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

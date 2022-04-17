@@ -1,0 +1,44 @@
+X:174
+T:Shver un shviger
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:Dm
+V:1
+"Dm" d2 a2 |"Gm" g/a/g "Dm" f2 |z"Gm" g/f/ ga |gf2 e|
+"Dm" d2 a2 |"Gm" g/a/g "Dm" f2 |z"Gm" g/f/ ga |"Dm" g"A7" f2 e |:
+"Dm" d b~a g|"F" f g~f e|"C7" d cd e|"F" f2 f"A7" e |
+"Dm" db ~ag |"Gm" fg ~fe |"A7" ~dc fe |fine"Dm" Hd4 |
+:|"F" a4 |a4 |a2 a2 |a2 a2 |
+|:"F" ab/a/ ab/a/ |ab/a/ ~ag |"Gm" (gd) (dg) |g4 |
+"C" ga/g/ ga/g/ |ga/g/ ~gf |"F" (fc) (cf) |f4 |
+"Dm" fg fg |"Dm" fg "A" ~fe |"Dm" d2 fd |"C" c4 |
+"F" f2 "C" g2 |"F" a2 g/"C" f/g |1 "F" f3 a|~c'4 :|2
+"Dm" f2 _e/"Cm" d/c/_e/ |"Dm" d4 || |:"Dm" dd b/a/g/f/ |"Gm" g4 |
+"Gm" dg g"A7" f/e/ |"Dm" f4 |"Gm" dg ~gf/g/ |"Dm" ~fe/f/ "A" ed |
+"Dm" d/e/f "A" e/f/g |1 "Dm" f3 e:|2 d4 ||
+V:2          %2e stem
+d4 d4 d4 d8 |a4 |b2 ~a2 |~b4 |
+z~^c'3 |d'4 |b2 a2 |~b4 |
+^c'4  |:D2 E2 |F2 G2 |A2 B2 |
+A2 AG |Fd ~cB |AB ~AG |~FE AG |
+fineHF4 :|z4 |z4 |z4 |
+z4  |:z4 |z4 |z4 |
+z4 |z4 |z4 |z4 |
+z4 |z4 |z4 |z4 |
+z4 |z4 |z4 |1 z4 |
+z4 :|2 z4 |z4 || |:z4 |
+z~d' ~d'~d' |z4 |~a4 |fb ~ba/b/ |
+~ag/a/ gf |f/g/a g/a/b |1 a3 g:|2 d'4 ||
+S:https://www.folktunefinder.com/tunes/84051
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

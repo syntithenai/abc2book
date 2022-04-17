@@ -1,0 +1,25 @@
+X:92
+T:Gavotte ton double
+R:Gavotte
+C:trad
+A:Bretagne
+O:France
+M:6/8
+L:1/8
+Q:1/4=250
+K:C
+A2GA2c|B2cA3|e2ed2c|BcBA3:|
+|:e2fg2g|e2dc3|c2de2d|c2de3|
+e2fe2d|c2Bc2c|A2c BcB|A3 A3:||
+S:https://www.folktunefinder.com/tunes/82956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

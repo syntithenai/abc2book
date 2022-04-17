@@ -1,0 +1,62 @@
+X:11
+T:Kujawiak-Oberek
+O:poland
+M:3/4
+L:1/8
+Q:1/4=120
+K:G
+V:1
+"D" d'6 |d'6 |d'd' d'2 d'2 |d'6  |:
+"G"  (3gfe dc BA |Bd gb ag |"Am" ac eg fe |"D" fA cf "D7" ed |
+"G"  (3gfe dc BA |Bd gb ag |1 "A7" ag fe d^c |"D" d2 d2 d2 :|2
+"A7" ag fd ef |"D" g2 g2 z2 || |:
+K:C
+"C" E2 E2 E2 |E2 E2 {G}c2 |"G7" F2 F2 {B}d2 |"C" E2 E2 {G}c2 |
+E2 E2 E2 |E2 E2 c2 |1 "F" a3/2 a/a2 a2 |a6 :|2
+"G7" cB AG AB |"C" c2 c2 z2 |]
+K:Am
+"E7" E4 E2 |E4 E2 |E_E EF ED |"Am" CB, CD CB, || |:
+"Am" e_e ef ec |"Dm" d3/2 e/f4 |"E" d^c de dB |"Am" c3/2 d/e4 |
+cB cd cA |"E" B3/2 c/d4 |1 E^G Bd fa |^g3/2 ^g/e4 :|2
+"E7" E^G Bd cB |"Am" A2 A2 z2 || |:
+K:Ab
+"C7" f3/2 =e/c=e g=e |"Fm" f3/2 =e/fg ^gg |"C7" f3/2 =e/c=e g=e |"Fm" f2 f3/2 =e/f2 :| |:
+"Bbm"  (3B,^CF ^G2 GF |"C" =E3 =E"Fm" F C|"Bbm"  (3B,^CF ^G2 GF |"C" =E3 =E"Fm" F2 :| |:
+"Fm"  (3FG^G c2 c2 |"Bbm" cB c^c cB |"Fm" ^G2 ^GG BG |1 FG ^Gc f2 :|2
+"Fm" F^G "C" G=E "Fm" F2 || |:"C7" G2 GB ^GG |"Fm" FG ^GB c2 |"C7" G2 GB ^GG |
+"Fm" F^G G=E F2 :|
+V:2          %Boventerts
+K:G
+"D" f'6 |f'6 |f'f' f'2 f'2 |f'6  |:
+"G"  (3bag fe dc |df bd' c'b |"Am" c'e gb ag |"D" ac ea "D7" gf |
+"G"  (3bag fe dc |df bd' c'b |1 "A7" c'b ag f=f |"D" f2 f2 f2 :|2
+"A7" c'b af ga |"D" b2 b2 z2 || |:
+K:C
+"C" G2 G2 G2 |G2 G2 {B}e2 |"G7" A2 A2 {d}f2 |"C" G2 G2 {B}e2 |
+G2 G2 G2 |G2 G2 e2 |1 "F" c'3/2 c'/c'2 c'2 |c'6 :|2
+"G7" ed cB cd |"C" e2 e2 z2 |]
+K:Am
+"E7" ^G4 ^G2 |^G4 ^G2 |^G^F ^GA ^GF |"Am" ED EF ED || |:
+"Am" a^g aa ^ge |"Dm" f3/2 ^g/a4 |"E" ^gf ^g^g fd |"Am" e3/2 f/a4 |
+ed ef ec |"E" d3/2 e/^g4 |1 ^Gc df ac' |c'3/2 c'/^g4 :|2
+"E7" ^Gc df ed |"Am" c2 c2 z2 || |:
+K:Ab
+"C7" ^g3/2 g/eg bg |"Fm" ^g3/2 g/^gb c'b |"C7" ^g3/2 g/eg bg |"Fm" ^g2 ^g3/2 g/^g2 :| |:
+"Bbm"  (3^CF^G c2 B^G |"C" G3 G"Fm" ^G E|"Bbm"  (3^CF^G c2 B^G |"C" G3 G"Fm" ^G2 :| |:
+"Fm"  (3^GBc e2 e2 |"Bbm" e^c ef e^c |"Fm" c2 cB ^cB |1 ^GB ce ^g2 :|2
+"Fm" ^Gc "C" BG "Fm" ^G2 || |:"C7" B2 B^c cB |"Fm" ^GB c^c e2 |"C7" B2 B^c cB |
+"Fm" ^Gc BG ^G2 :|
+S:https://www.folktunefinder.com/tunes/82715
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key A
+% Key G-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

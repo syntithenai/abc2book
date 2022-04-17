@@ -1,0 +1,23 @@
+X: 100
+T:Scotch Cap
+T:Edinburgh Castle
+M:6/8
+L:1/8
+Q:110
+R:Jig
+H:Refers to the Scots bonnet.
+K:DDor
+D2D d2d|e2d c2A|B2d B2A|1 B3 d3:|2 B3 d2 d/2e/2||
+f2A A2 d/2e/2|f2A A2 d/2e/2|f2A A2F|A3 d3|B2B A2F|G2G d2d|B2B AF2|E3 D3|
+|
+S:https://www.folktunefinder.com/tunes/84730
+S:http://www.contrib.andrew.cmu.edu/~flip/contrib/dance/playford.abc
+S:http://www.firepowr.com/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/%7Eflip/contrib/dance/playford.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

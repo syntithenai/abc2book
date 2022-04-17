@@ -1,0 +1,28 @@
+X: 288
+T:Dernire danse
+M:2/4
+L:1/8
+Q:1/4=140
+C:trad.
+R:branle
+O:France
+A:Alsace
+Z:S. Piron
+K:G
+B2GA|B2A2|G2Bc|d2e2|d2g2|d3c|B2A2|BG Bc|
+d3c|B2A2|B4|d2 GA|B2A2|G2 Bc|d2e2|d2g2|d3c|B2A2|
+BG Bc|d3c|B2A2|G4||
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/83546
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

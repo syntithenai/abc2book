@@ -1,0 +1,48 @@
+X:145
+T:Medyatsiner serie
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=
+K:Am
+V:1
+E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 E2 |"Am" A2 B2 c2 |"Dm" de/d/ c2 B2 |"Am" A3 c"E" B d|
+"Am" c4 E2 |"Am" (A2  (3A)GA "E7"  (3BAB |"Am" (c2  (3c)Bc  (3dcd |"Am" (c2 c)B Ac |
+"E" B4 e2 |e2 _e2 e/_e/c |"E7" c2 B2 .e.^G |"Am" A3 .c"E" .e .c|
+fine"Am" A4 G2 |]"C" G2 c2 e2 |g4 e2 |ec Bc "G" gf |
+"C" e4 G2 |G2 c2 e2 |g4 e2 |ec Bc "Cm" d_e |
+"D" d6 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" e_e ed cB |
+d2 "Am" c4 |"Cm" g^f g^f _ed |"D7" ^f_e d4 |"E7" ed dc cB |
+"Am" A4  |:
+M:2/4
+K:Cm
+"Cm" CC CE |"G" G2 GF |"Cm" G2 c2 |G4 |
+"C7" GB GG |"Fm" F4 |"Bb" BG GF |1 (G2 "G7" G2) :|2
+E2 "G7" G2 ||  |:"Cm" c2 G2 |"Ab" ed c2 |"Bb" BG GG |
+"Eb" B4 |"C7" Bc "Fm" G/G/F |"G7" zG "Cm" C2 |1 "Ab" EE "G7" DD |
+G4 :|2 "Ab" EE "G7" DD |C.=E .=A.c || |:
+M:4/4
+K:C
+"Am" e2 a2 ^ga ef |"Dm" d4 zf ~ed |"E" e4 z~d cd |"Am" e4 zE Ac |
+"Am" e2 a2 ^ga ef |"Dm" d6 "D#" _e2 |"E7" e2 c2 de/d/ cB |1 "Am" A4 zE Ac :|2
+"Am" A4 a4 || |:c'2 ~ba c'2 ~ba |e6 "A7" z_e |"Dm" d2 d2 d3/2 e/f/e/d |
+"Am" e6 ze |"Am" c'2 ~ba c'2 ~ba |"Dm" f6 "D#" z2 |"E" ~ed ~dc ~cB ~BA |
+|1 "Am" A6 e2 :|2 "Am" A6 ze || |:"Am" c'/b/a c'/b/a .a.a .a2 |c'/b/a c'/b/a "Dm" .d.d .d2 |
+{(d/}f2) f2 {(g/}f)e gf |"Am" e6 z2 |{(e}"Dm" d) ef2 "G" Bc d2 |"Am" cd e2 "F" AB c2 |
+"E" ~ed ~dc ~cB ~BA |{(A/}"Am" c4) zB/c/ d/c/B/A/ |"Dm" de f2 "G" Bc d2 |"Am" cd e2 "F" AB cd |
+"E" ~ed ~dc ~cB ~BA |1 "Am" A6 ze :|2 "Am" A4 zE Ac ||
+S:https://www.folktunefinder.com/tunes/84023
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

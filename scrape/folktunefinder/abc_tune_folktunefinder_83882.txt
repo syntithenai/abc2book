@@ -1,0 +1,21 @@
+X:9
+T:Adiu, paure carnavas
+T:Adieu pauvre Carnaval
+M:2/4
+L:1/8
+Q:"Allegro mosso"
+K:Gm
+BA G2 | B2 dd | (cB) A2 | BA G2 | (BA) GF | G2z2 :|
+Bc d2 | d2 ed | d2c2 | dc B2 | d2cB | A2z2 |
+BA G2 | B2 dd | (cB) A2 | BA G2 | (BA) GF | G2z2 |]
+%newpage
+%%text Exercice prparatoire  l'air qui suit.
+S:https://www.folktunefinder.com/tunes/83882
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab_Bb.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -439,7 +439,7 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, 
         // search for settings that have chords
         var useSetting = 0
         var usableSettings = []
-        for (var setting in tune.settings) {
+        for (var setting in tune.settings.reverse()) {
             // seek chords as text in abc string
             if (tune.settings[setting] && tune.settings[setting].abc && tune.settings[setting].abc.indexOf('"') !== -1) {
               var chords = getInnerStrings(tune.settings[setting].abc)
@@ -497,20 +497,5 @@ function iterateTunes(tunesList, songNumber, finishCallback, settingCallback) {
     $('#processingstatus').html('')
     finishCallback()
   }
-}
-
-
-
-function renderSonglistPicker() {
-   var pickerItems = $('<ul class="list-group"  ></ul>')
-   Object.keys(getSongLists()).map(function(listName) {
-       pickerItems.append('<li class="list-group-item" ><a href="#" onClick="selectSongList(\''+listName+'\'); " >'+listName+'</a></li>')
-   })
-   $('#songlistpicker').html(pickerItems.html())
-   $('#songlistpickerbutton').click(function(e) {
-      e.stopPropagation()
-    })
-   
-   
 }
 

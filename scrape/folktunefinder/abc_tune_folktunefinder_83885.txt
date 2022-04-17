@@ -1,0 +1,20 @@
+X:110
+T:Pr noun langui, long dou camin
+T:Pour ne pas s'ennuyer en chemin
+M:6/8
+L:1/8
+K:Cm
+c=Bc G2G | e2e d3 | cde c2d | c2=B c3 :|
+BBB e2B | B2B G2G | c2B A2G | F3 G3 |:
+GAF G3 | GAF G2G | c2e d2c | c2=B c3 :|
+%%newpage
+%%center $1Les notes hautes
+%%begintext justify
+S:https://www.folktunefinder.com/tunes/83885
+S:http://michel.bellon.free.fr/Musique/abc/methode_galoubet_tab_Bb.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

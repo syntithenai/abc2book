@@ -1,0 +1,37 @@
+X:156
+T:Oh Yossel Yossel
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=128
+K:Dm
+V:1
+A df |a2 b2 aa gf |ba4 Ad f|a2 b2 ag ba |
+"A7" g4 zA ^ce |g2 a2 gg fe |gg4 A^c e|g2 a2 gf ag |
+f4 zA df |a2 b2 aa gf |ba4 a"D7" b c'|d'2 d'2 c'b d'c' |
+b4 zb bc' |d'2 d'd'2 d'c' b|d' aa a2 aa b|a2 ef gg ab |
+a4 za "D7" bc' |d'2 d'(d' d')d' c'b |d'a aa2 aa b|a2 b2 b2 ^c'2 |
+d'4 z||
+V:2          %2e stem
+F Ad |f2 g2 ff ed |gf4 FA d|f2 g2 fe gf |
+e4 zE A^c |e2 f2 ee d^c |ee4 EA ^c|e2 f2 ed fe |
+d4 zF Ad |f2 g2 ff ed |g(f f4) z2 |^f^f2 ^fg2 a2 |
+g4 zg ga |b2 bb2 ba g|a ff f2 ff g|f2 ^c2 d2 e2 |
+f4 z^f ga |b2 b(b b)b ag |af ff2 ff g|a2 g2 f2 e2 |
+d4 z||
+V:3          %3e stem
+z3 |zg de f2 e2 |de fe d4 |zg de f2 e2 |
+^cd ed ^c4 |ze ^cd .e2 .d2 |^cd ed .^c2 z2 |ze AB ^c2 e2 |
+de fg a2 z2 |zf fe d2 d2 |ef f4 z2 |^F^F2 ^FG2 A2 |
+G2 D2 G2 z2 |B2 G2 D2 B2 |.a.g .f.e .d.^c .c.B |.A.B .A.^G .G.F .E._E |
+D2 F2 ^F4 |B2 G2 D2 B2 |A2 F2 D2 A2 |A2 G2 F2 E2 |
+D2 A,2 D||
+S:https://www.folktunefinder.com/tunes/84033
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

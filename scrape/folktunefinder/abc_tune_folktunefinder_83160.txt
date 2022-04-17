@@ -1,0 +1,23 @@
+X:296
+T:Valse a David
+R:valse
+C:trad.
+A:Morvan
+O:France
+M:3/4
+L:1/4
+Q:1/4=200
+K:G
+BAG|B3|BAG|c3|ABc|ABc|fed|1B3:|2G3|
+GBd|GBd|GBd|e3-|e3|Ace|Ace|Ace|d2B|d3|
+GBd|GBd|GBd|e3-|e3|f3-|fed|g3-|g3||
+S:https://www.folktunefinder.com/tunes/83160
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

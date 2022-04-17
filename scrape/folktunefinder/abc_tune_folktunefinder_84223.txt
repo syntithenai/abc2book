@@ -1,0 +1,27 @@
+X: 1
+T:Miller's Rant. WCa.01
+M:6/8
+L:1/8
+Q:127
+S:Wm. Calvert MS, 1812, Leyburn, Yorks.
+R:jig
+O:England
+A:North Yorkshire
+N:This has a different B strain to the same tune in Leadley..CGP
+Z:vmp.Chris Partington, May 2003
+K:G
+a|cAA eAA|cBA GAB|cAA eAA|dcBA2a|!
+cAA eAA|cBA GAB|A2ae2c|dcBA2::!
+B|G2g gdg|d^cd GAB|A2a aea|g2fe2f|!
+gagf2e|d^cd GAB|A2ae2c|dBGA2:||
+S:https://www.folktunefinder.com/tunes/84223
+S:http://www.village-music-project.org.uk/abc/calvert.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,117 @@
+X:13
+T:Lubelski
+O:poland
+M:2/4
+L:1/8
+Q:1/4=96
+K:G
+V:1
+"G" G Bd B|"D7" c A"G" B G|G Bd B|"D7" c A"G" G z:| |:
+"D7" D F"G" G B|"D7" A F"G" G B|"D7" D F"G" G B|"D7" A F"G" G2 :| |:
+K:C
+"G7" GA/B/ "C" ce |"G7" g^f/g/ "C" e/f/e |"G7" g^f/g/ "C" e/f/e |"G7" dB "C" c2 :| |:
+K:F
+"Dm" df/g/ af/a/ |"A7" ge/g/ "Dm" fd |df/g/ af/a/ |"A7" ge "Dm" d2 :| |:
+K:C
+"G7" GB "C" ce |"G7" dB "C" ce |"G7" GB "C" ce |"G7" dB "C" cz :|
+K:F
+"C7" c2 c2 |c4  |:"F" cc f2 |FF Ac |
+"C7" CC EG |1 "F" FF Ac :|2 "F" FF FF || |:"F"  (3FED  (3CDE |
+FF Ac |"C7" CC EG |1 "F" FF Ac :|2 "F" FF Fz |
+|| |:
+K:G
+"G" DG/G/ FG |B2 G2 |DG/G/ "D7" FA |"G" G4 :| |:
+"G7" Bd/d/ dd |"C" e2 c2 |"D7" Ac/c/ cc |"G" d2 HB2 |
+"Em" GB/B/ BB |"Am" c2 A2 |"D7" FF/F/ EF |Hz4 |]
+"G" gf][f=f][=fe][e_e]|[_e4d4]|]"G" DG FG |"C" AG FG |
+"D" DD EF |"G" G2 G2 |]"G" DG FG |AG FG |
+DG FG |AG FG  |:"D7" cB c2 |A2  (3FED |
+DA AA |FE D2 :|
+M:3/4
+K:F
+"Bb" d2 d^c de |"F" f2 c4 |"Bb" B2 "C" A4 |"C7"  (3GAG "F" F4 |]
+"F" c2 c4 |"C7" B2 "F" A4 |c2 A4 |"C7" G2 "F" F4 |
+c2 c4 |"C7" B2 "F" A4 |c2 A4 |"C7" G2 "F" F4  |:
+"F" A2 A4 |"C7" G2 "F" F4 |c2 c4 |"C7" B2 "F" A4 |
+"Bb" d2 d2 e2 |"F" f2 c4 |"Bb" B2 "C7" A4 |G2 "F" F4 :|
+M:3/8
+K:C
+"Cm" GG _e|d c2 |"G" Bc B/G/|F G2 |
+"Cm" G/G/G _e/_e/|d c2 |"G" Bc B/G/|F G2  |:
+"G" G/B/B c|B/G/ FG |G/B/B c|B/G/ FG |
+"Gm" _Bc _B/G/|"Dm" F "Cm" G2 :|
+M:4/4
+K:G
+"G" GB BB "D7" c2 A2 |"C" G8 |"G" Bd dd "C" g2 e2 |"D7" d8 |
+"G" gf ga g3 f|"C" a gf e"G" d2 B2 |GB BB "D7" c2 A2 |GB BB c2 A2 |
+"G" G6 z2 |]
+M:3/8
+"D7" d2 d|d2 d|d3/4 d/4dd |dd d|]
+"G" B/c/ dd |"C" d/e/"D7" A c|"G" d dz |"C" B/c/d d|
+d/e/ "D" Ac |"G" dd z|]"D7" A/B/ cB |A/F/D F|
+"G" G Bz |"D7" A/B/c B| (3F/A/F/ DF |"G" GG z|]
+"D7" A/B/ cB |A/F/D F|"G" G Bz |"D7" A/B/c B|
+(3F/A/F/ DF |"G" GG z|]
+V:2          %Boventerts
+|:
+M:2/4
+"G" B dg d|"D7" e c"G" d B|B dg d|"D7" e c"G" B z:| |:
+"D7" F A"G" B d|"D7" c A"G" B d|"D7" F A"G" B d|"D7" c A"G" B2 :| |:
+K:C
+"G7" Bc/d/ "C" eg |"G7" b_b/b/ "C" g/a/g |"G7" b_b/b/ "C" g/a/g |"G7" fd "C" e2 :| |:
+K:F
+"Dm" fa/b/ c'a/c'/ |"A7" bg/b/ "Dm" af |fa/b/ c'a/c'/ |"A7" bg "Dm" f2 :| |:
+K:C
+"G7" Bd "C" eg |"G7" fd "C" eg |"G7" Bd "C" eg |"G7" fd "C" ez :|
+K:F
+"C7" e2 e2 |e4  |:"F" ff a2 |AA cf |
+"C7" EE GB |1 "F" AA cf :|2 "F" AA AA || |:"F"  (3AGF  (3EFG |
+AA cf |"C7" EE GB |1 "F" AA cf :|2 "F" AA Az |
+|| |:
+K:G
+"G" GB/B/ AB |d2 B2 |GB/B/ "D7" Ac |"G" B4 :| |:
+"G7" df/f/ ff |"C" g2 e2 |"D7" ce/e/ ee |"G" f2 Hd2 |
+"Em" Bd/d/ dd |"Am" e2 c2 |"D7" AA/A/ GA |Hz4 |]
+"G" ba ag |g4 |]"G" GB AB |"C" cB AG |
+"D" FF GA |"G" B2 B2 |]"G" GB AB |cB AB |
+GB AB |cB AB  |:"D7" AG A2 |F2  (3EDC |
+Fc cc |AG F2 :|
+M:3/4
+K:F
+"Bb" B2 BA Bc |"F" c2 A4 |"Bb" d2 "C" c4 |"C7"  (3BcB "F" A4 |]
+"F" A2 A4 |"C7" G2 "F" F4 |A2 F4 |"C7" E2 "F" C4 |
+A2 A4 |"C7" G2 "F" F4 |A2 F4 |"C7" F2 "F" C4  |:
+"F" F2 F4 |"C7" E2 "F" D4 |A2 A4 |"C7" G2 "F" F4 |
+"Bb" B2 B2 c2 |"F" d2 A4 |"Bb" G2 "C7" F4 |E2 "F" C4 :|
+M:3/8
+K:C
+"Cm" BB ^f|f e2 |"G" de d/B/|A B2 |
+"Cm" B/B/B ^f/^f/|f e2 |"G" de d/B/|A B2  |:
+"G" B/d/d e|d/B/ AB |B/d/d e|d/B/ AB |
+"Gm" ^ce ^c/B/|"Dm" A "Cm" B2 :|
+M:4/4
+K:G
+"G" Bd dd "D7" e2 c2 |"C" B8 |"G" df ff "C" b2 g2 |"D7" f8 |
+"G" ba bc' b3 a|"C" c' ba g"G" f2 d2 |Bd dd "D7" e2 c2 |Bd dd e2 c2 |
+"G" B6 z2 |]
+M:3/8
+"D7" f2 f|f2 f|f3/4 f/4ff |ff f|]
+"G" d/e/ ff |"C" f/g/"D7" c e|"G" f fz |"C" d/e/f f|
+f/g/ "D" ce |"G" ff z|]"D7" c/d/ ed |c/A/F A|
+"G" B dz |"D7" c/d/e d| (3A/c/A/ FA |"G" BB z|]
+"D7" c/d/ ed |c/A/F A|"G" B dz |"D7" c/d/e d|
+(3A/c/A/ FA |"G" BB z|]
+S:https://www.folktunefinder.com/tunes/82717
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,56 @@
+X: 2
+T:
+P: Vivace
+M: 3/4
+L: 1/8
+K: G
+V: 1
+z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 | d4g2 | Tf4b2 |
+a2g2f2 | e2A2f2 | Te4d2 | e2A2f2 | Te4d2 | g6 | f2g2Te2 | d2defg |
+agfed^c | dAdefg | agfed=c | B2d2g2 | b2d'2z2 | B2d2g2 | b2d'2z2 | z2g=fed |
+cdedcB | ABcBAG | =FGAGFE | D2G2B2 | d2g2z2 | G4c2 | B2EDEF | GDGFGA |
+%
+BGAFGE | FAFDG2- | GEFDBG | FAFDG2- | GEFDBG | FAFDEF | G2C2D2 | G2z2G2 | F2z2F2 | E2z2E2 |
+Dagafa | eagaea | Dagada | ^cAcde2- | eefed^c |dBdef2- | ffgfed | e^cefg2- |
+ggagfe | f2BAB^c | d4g2 | Tf4b2 | a2g2f2 | e2A2f2 | Te4d2 | e2A2f2 |
+Te4d2 | g6 | f2g2Te2 | d2fga2 | z2gfg2 | z2fef2 | z2gfe^d | e2=fefe | =fGeded | eGdcdc |
+%
+dGedcB | c2E2A2 | c2e2z2 | C2E2A2 | c2e2z2 | z2defg | agfed^c | dAdefg |
+agfedc | B2d2g2 | b2d'2z2 | B2d2g2 | b2d'2z2 | c4=f2 | Te4a2 | g2=f2z2 |
+d2G2e2 | Td4c2 | d2G2e2 | Td4c2 | =f6 | e2=f2Td2 | cecBAG | A2^c2z2 |
+dfdcBA | B2^d2z2 | egedcB | c2e2z2 | fafgaf | d2f2z2 | G4c2 | B2EDEF |
+%
+GDGFGA | BGAFGE | FAFDG2- | GEFDBG | FAFDG2- | GEFDBG | FAFDEF | G2C2D2 |
+GdcdBd | AdcdAd | G2z2G2 | F2z2F2 | BdcdBd | AdcdAd | GdcdGd | FEDEFG |
+AGFGAB | cBABcd | edcdef | g2c'2z2 | b2agfe | d2cBAG | B2c2TA2 | Ggfedc | BedcBA | GcBAGF |
+EAGFED | c2B2z2 | e2d2z2 | g2fedc | TB2A2z2 | G2C2D2 | TB2A2z2 | g2fedc | B2c2TA2 | G6 |]
+V: 2
+G4c2 | TB4e2 | d2c2B2 | A2D2B2 | TA4G2 | A2D2B2 | TA4G2 | c6 | B2c2TA2 | G2GFGA | BGBAB^c | dAd^cde |
+fde^cdB | ^cecAd2- | dB^cAfd | ^cecAd2- | dB^cAfd | ^cecABc | d2G2A2 | F2A2d2 |
+f2a2z2 | F2A2d2 | f2a2z2 | z2GABc | dcBAGF | GDGABc | dcBAG=F | E2G2c2 |
+g2b2z2 | z2agfe | defedc | BcdcBA | GABAGF | E2EDEF | G4c2 | TB4e2 |
+%
+d2c2B2  |  A2D2B2 | TA4 G2  | A2D2B2  | TA4  G2 | c6     | B2c2TA2 |  GdcdBd | AdcdAd | GdcdGd |
+F2z2d2  | ^c2z2c2 | B2z2B2  | A^cAGFE | F2^A2z2 | BdBAGF | G2B2z2  | ^cecdec |
+A2^c2z2 |  d4 g2 | f2BAB^c | dAd^cde | fde^cdB |^cecAd2-| dB^cAfd | ^cecAd2-|
+dB^cAfd | ^cecABc | d2G2A2  | D2cBcB  | cDBABA  | BDAGAG | ADBAGF  |  G2Bcd2 | z2cBc2 | z2BAB2 |
+%
+z2cBA^G | A2ABcd | edcBA^G | AEABcd | edcBAG  | F2A2d2  | f2a2z2 | F2A2d2 |
+f2a2z2 | z2GABc | dcBAGF  | GDGABc | dcBAG=F | E2AGAB  | cGcBcd  | ecdBcA |
+BdBGc2- | cABGec | BdBGc2- | cABGec | BdBGAB  | c2=F2G2 | ECE=FG2-| GGAGFE |
+FDFGA2- | AABAGF | GEGAB2- | BBcBAG | AFABc2- | ccdcBA  | B2EDEF  | G4  c2 |
+%
+TB4e2 | d2c2B2 | A2D2B2 | TA4G2 | A2D2B2 | TA4G2 | c6 | B2c2TA2 |
+G2z2G2 | F2z2F2 | BdcdBd | AdcdAd | G2z2G2 | F2z2F2 | E2z2E2 | D2z4 |
+FEDEFG | AGFGAB | cBABcd | edcdef | g2c2z2 | B2AGFE | D2C2D2 | G2z4 | Ggfedc | BedcBA |
+GcBAGF | EAGFED | c2B2z2 | e2d2z2 | g2fedc | B2c2A2 | g2fedc | TB2A2z2 | G2C2D2 | G6 |]
+S:https://www.folktunefinder.com/tunes/82772
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_3_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

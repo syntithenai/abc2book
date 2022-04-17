@@ -1,0 +1,23 @@
+X: 39
+T:Debka Oud
+O:Israel 
+I:taught by Moshe Eskayo
+L:1/8
+M:4/4
+Q:1/4=144
+K:Am
+%%MIDI gchord f2zffzfz
+| "Am"z8          |z8                 |\
+|:"Am"Aeee e2 e2  |efde c2 B2         |Aeee e2 e2         |"C"g^fga "Am"^f2 e2|
+  Aeee e2 e2      |efde c2 B2         |Ac2c "Em"BAG2      |"Am"cdBA A4        :|
+|:"Am"G A2 A A2 A2|"C"G^FGA "Am"^F2 E2|G A2 A "Em"AG B/A/G| "Am"A8            |
+  "Am"G A2 A A2 A2|"C"G^FGA "Am"^F2 E2|efde cdBA          | A8                :|
+S:https://www.folktunefinder.com/tunes/84444
+S:http://ifdo.ca/~seymour/runabc/isra.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/isra.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

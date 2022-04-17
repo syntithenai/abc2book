@@ -1,0 +1,33 @@
+X: 19
+T:Confesse, his tune
+T:The Court Lady
+M:6/8
+L:1/8
+Q:105
+R:Jig
+H:Mr. Confesse was a court dancing master active in the early 17th
+H:century..
+K:GAeol
+G2A B2c|d2d d2d|e3 d2d|g3 ^f3||
+a2f b2g|af2 d2e|fd2 c2d|dc2 d3|B2c d>ed|ed2 c3|d2g ^f2g|a^f2 g3||
+S:https://www.folktunefinder.com/tunes/84648
+S:http://ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Playford.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Playford.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Playford.abc
+S:http://www.contrib.andrew.cmu.edu/~flip/contrib/dance/playford.abc
+S:http://www.firepowr.com/abc/Playford.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/Playford/ConfesseHisTune.abc
+S:http://trillian.mit.edu/~jc/music/book/playford/ConfesseHisTune.abc
+S:http://www.contrib.andrew.cmu.edu/%7Eflip/contrib/dance/playford.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/Playford/ConfesseHisTune.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X:37
+T:Quadrille de Grandchamp des Fontaines
+Z: YVES BELOTTEAU
+Z: Yves BELOTTEAU
+M:4/4
+L:1/8
+Q:1/4=120
+K:G
+P:1
+|BAB3/2 z/2 GFGE|BAB3/2 z/2 GFE3/2 z/2 |BAB3/2 z/2 GFGE|BAB3/2 z/2 GFE3/
+2 z/2 |
+EGFA AG/2F/2GG|EGFA AG/2F/2E3/2 z/2 |EGFA AG/2F/2GG|EGFA AG/2F/2E3/2|
+P:2
+|DGGA AB2B|BAGc3/2B/2A2A|Bd3/2c/2B dG3/2 z/2 G|BAGF GA2A|
+DGGA Ad3/2 z/2 c|BAGc3/2B/2A2A|Bd3/2c/2B dG2G|BAGF GAA/2A/2A3/2 z/2 |
+dd/2c/2BG AdBG|dd/2c/2BG FGA3/2 z/2 |dd/2c/2BG AdBG|dd/2c/2BG AFG3/2 z/2
+ |
+DGGA AB2B|BAGc3/2B/2A2A|Bd3/2c/2B dG3/2 z/2 G|BAGF GA2A|
+DGGA Ad3/2 z/2 c|BAGc3/2B/2A2A|Bd3/2c/2B dG2G|BAGF GAA/2A/2|
+A3/2 z/2 dd/2c/2 BGAd|BGdd/2c/2 BGFG|A3/2 z/2 dd/2c/2 BGAd|BGdd/2c/2 BGA
+F|
+G3/2|
+P:3
+|G3/2D/2GA B3/2 z/2 B3/2 z/2 |dcBG A3/2 z/2 G3/2 z/2 |G3/2D/2GA B3/2 z/2
+ B3/2 z/2 |dcBG A3/2 z/2 G3/2 z/2 |
+GBAB/2A/2 GBAA|GBAB/2A/2 GBA3/2 z/2 |A3/2 z/2 G3/2D/2 GABB/2B/2|B3/2 z/2
+ dc BGA3/2 z/2 |
+G3/2 z/2 G3/2D/2 GABB/2B/2|B3/2 z/2 dc BGA3/2 z/2 |G3/2 z/2 GA BA/2G/2AA
+|DDGA BA/2G/2A3/2 z/2 |
+G3/2 z/2 GA BA/2G/2AA|DDGA BA/2G/2A3/2 z/2 |G3/2 z/2 GA BA/2G/2AA|DDGA B
+A/2G/2A3/2 z/2 |
+G3/2 z/2 GA BA/2G/2AA|DDGA BA/2G/2A3/2 z/2 |G3/2 z/2 GA BA/2G/2AA|DDGA B
+A/2G/2A3/2 z/2 |
+G3/2|
+S:https://www.folktunefinder.com/tunes/85609
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf03.abc
+S:http://www.tradfrance.com/matf03.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

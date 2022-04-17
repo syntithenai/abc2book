@@ -1,0 +1,26 @@
+X:385
+T:Rondeau de Paul Lagardre
+R:rondeau
+C:trad.
+A:Landes
+O:France
+Z:S. Piron
+M:2/4
+L:1/8
+Q:1/4=95
+K:G
+A>B cd|e/2f/2e/2f/2 d/2e/2d/2e/2|A>B cd|e/2f/2e/2f/2 d2:|
+|:c>A BG|A/2B/2c/2A/2 B/2G/2A/2B/2|c>A BG|A/2B/2A/2F/2G2:||
+S:https://www.folktunefinder.com/tunes/83249
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Rondeau
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

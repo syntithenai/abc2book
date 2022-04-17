@@ -1,0 +1,25 @@
+X: 32
+T:No.1 Hornpipe. WCa.32
+M:C|
+Q:160
+S:Wm. Calvert MS, 1812, Leyburn, Yorks.
+R:hornpipe
+O:England
+Z:vmp.Chris Partington, May 2003
+K:F
+F>G|A>BA>F D>EF>G|A2(F2F2)A>c|d>ef>d cAGF|D2(G2G2)F>G|!
+A>BA>F D>EF>G|A>BA>B c>dc>A|d>ef>d c>AG>A|F2D2D2::!
+d>e|f>gf>d Aceg|a2f2f2a>f|g2g>a bagf|d2g2g2f>g|!
+agfef2fa|gfedc2de|fgfc ABAG|F2D2D2:||
+S:https://www.folktunefinder.com/tunes/84254
+S:http://www.village-music-project.org.uk/abc/calvert.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

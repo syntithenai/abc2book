@@ -1,0 +1,33 @@
+X:65                         % number
+T:Nobody loves a Fairy       % title
+C:Arthur Le Clerq            % composer
+O:http://www.raspberrytarts.com/fairyfifty.shtml % origin.
+P:ABABAB
+M:4/4                        % meter
+L:1/4                        % length of shortest note
+Q:120                        % tempo
+%%staves 1 { (2 3) 4 }
+V:1 clef=treble name="Voice" sname="Vc." % voice 1
+V:2 clef=treble name="Piano" sname="Pno."
+V:3 clef=treble
+V:4 clef=bass
+K:C                          % key
+[P:A verse]
+[Q: "allegro " 1/4=120]
+[V:1] Z5 |
+[V:2] G {B}c G {B} c       | [L:1/8] B>^ABd g4      | _A>_e A2 _A>_e A2     | [L:1/4] G {^c}d {^f}g z   | z [ECG,] z [ECG,] |
+[V:4] C, [ECG,] G,, [ECG,] | D, [FB,G,] G,, [FB,G,] | [_E2C2_G,2] [E2C2G,2] | [D3B,3F,3] (3G,,/A,,/B,,/ | C, z G,, z        |
+%============================================================================================================================
+[V:1]        z2 z E | "C" G G     "C6" A A      | "Cmaj7" B B "C6" A2   | "C" z4  | "G7" z2 z D |
+S:https://www.folktunefinder.com/tunes/82698
+S:http://kittybriton-abc.blogspot.com/search/label/free%20sheet%20music
+S:http://kittybriton-abc.blogspot.com/2007_12_01_archive.html
+S:http://kittybriton-abc.blogspot.com/search/label/pantomime
+S:http://kittybriton-abc.blogspot.com/search/label/Nobody%20loves%20a%20fairy%20when%20she%27s%20forty
+S:http://kittybriton-abc.blogspot.com/2007/12/oh-no-she-isnt-oh-yes-she-is.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

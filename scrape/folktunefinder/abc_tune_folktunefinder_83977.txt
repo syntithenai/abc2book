@@ -1,0 +1,30 @@
+X:98
+T:Bessarabyanke
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=50
+K:Am
+V:1
+"Am" z A2 Bc2 c2 |c2 B2 ~c4 |_ee2 e_e cB A|"E" B2 B2 e4 |
+z^G2 AB2 B2 |B2 B2 B4 |ee2 e_e cB ^G|1 "Am" A6 z2 :|2
+"Am" A6  (3cd_e || |:
+K:A
+{f/}"A" e2 a2 c3 c|"E7" B dc B"A" A B=c c|{f/}e2 a2 c3 c|"E7" B dc B"A" A4 :|
+V:2          %2e Stem
+K:Am
+zC2 DE2 G2 |^F2 F2 E4 |^FG2 G^F ED C|B,2 D2 E4 |
+zB,2 CD2 E2 |D2 E2 ^G4 |^GE2 DC ^CD _E|1 E2 F2 G2 ^GA :|2
+E6 z2 || |:
+K:A
+A2 E2 A3 E|D FE DC D_E E| (3A2G2F2 E4 | (3E2F2G2 A4 :|
+S:https://www.folktunefinder.com/tunes/83977
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,53 @@
+X:21
+T:La Millanoise              % title
+T:The Girl from Milan
+C:Thoinot Arbeau             % composer
+O:Orchsographie             % origin.
+M:6/2                        % meter
+L:1/4                        % length of shortest note
+Q:360                        % tempo
+K:F                          % key
+V:1                          % voice 1
+F G A2 G F G2 A B | A2 G F G2 A B A2 z2 | G4 F4 z2 G2 |
+G A B2 A G A2 B c B2 | A G A2 B c B2 z4 | A4 G4 z2 F2 |]X:19
+T:La Traditore my fa morire  % title
+T:The traitor, my killer
+C:Thoinot Arbeau             % composer
+O:Orchsographie             % origin.
+M:6/2                        % meter
+L:1/2                        % length of shortest note
+Q:360                           % tempo
+K:F                          % key
+V:1                          % voice 1
+|: d d d c B2 A | A G G F2 D | d d c B2 A | G G F G2 z :|
+|: A A A c2 c | c c c d2 d | d d c B2 A | G G F G2 z :|X:20
+T:Si J'Ayme ou non           % title
+T:Whether I love or not
+C:Thoinot Arbeau             % composer
+O:Orchsographie             % origin.
+M:6/2                        % meter
+L:1/2                        % length of shortest note
+Q:360                        % tempo
+K:F                           % key
+V:1                          % voice 1
+A A A z A A | F G A z B B | A G A F z G |
+F F E F z F | A G A F z F | D E F G z G |
+A G A F z G | F F E F z F |]
+S:https://www.folktunefinder.com/tunes/82696
+S:http://kittybriton-abc.blogspot.com/search/label/free%20sheet%20music
+S:http://kittybriton-abc.blogspot.com/2008_03_01_archive.html
+S:http://kittybriton-abc.blogspot.com/search/label/Renaissance
+S:http://kittybriton-abc.blogspot.com/search/label/dance
+S:http://kittybriton-abc.blogspot.com/search/label/Orchesographie
+S:http://kittybriton-abc.blogspot.com/search/label/Thoinot%20Arbeau
+S:http://kittybriton-abc.blogspot.com/search/label/priest
+S:http://kittybriton-abc.blogspot.com/search/label/reformation
+S:http://kittybriton-abc.blogspot.com/2008/03/scarlet-woman-is-hatching-egg-of-dragon.html
+S:http://kittybriton-abc.blogspot.com/search/label/music
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/2
+% Has_accompaniment_chords Has chords

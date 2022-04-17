@@ -1,0 +1,24 @@
+X:163
+T:Patsh Tantz
+O:klezmer
+M:2/4
+L:1/8
+Q:1/4=
+K:C
+V:1
+"Am" c2 c/d/d/c/ |c/d/d/c/ c/B/A/B/ |c2 c/d/d/c/ |c/B/B/A/ ~c2 |
+[c2e2][c/e/][d/f/][d/f/][c/e/]|[c/e/][d/f/][d/f/][c/e/][c/e/][B/d/][A/c/][B/d/]|[c2e2][c/e/][d/f/][d/f/][c/e/]|[c/e/][B/d/][B/d/][A/c/][A2c2]:|
+"C" e/f/g/f/ e2 |.c.c .c2 |"G" B/c/d/c/ d2 |.G.G .G2 |
+"C" g/f/e/d/ e2 |.c.c .c2 |"G" B/c/d/c/ d2 |"G7" .G.G .G.g/.f/  |:
+"C" [e/c2]_e/e/g/"G7" [d/B2]^c/d/f/|"C" [ec][.g/G].g/"G7" [.g/A].a/[.g/B].f/|"C" [e/c2]_e/e/g/"G7" [d/B2]^c/d/f/|1 "C" [e/c]f/"G7" [e/B]d/"C" [cG]"G7" [.g/B].f/:|2
+"C" [e/c/]f/ "G7" [e/B/]d/"C" [c2E2]||  |:"C" cB/c/ "D7" d/c/B/"G" A/ |G2 G2 |G2 cd |
+G2 :| |:.G.G2 "F" f|e/f/ "G7" g/f/e/d/ "C" .c|.c .c2 :|
+S:https://www.folktunefinder.com/tunes/84040
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

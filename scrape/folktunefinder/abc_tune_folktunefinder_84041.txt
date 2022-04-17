@@ -1,0 +1,24 @@
+X:164
+T:Regndl
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=140
+K:Dm
+V:1
+"Dm" D2 E2 F2 G2 |A2 F2 "A" E4 |"Bb" F2 E2 D2 ^C2 |"Gm" D2 B,2 "A7" A,4 |
+"Dm" D2 E2 F2 G2 |A2 F2 "Gm" E4 |"A7" E2 D2 ^C2 E2 |"Dm" D8  |:
+"D7" d^c d^c d2 c2 |"Gm" B8 |"C7" cB cB c2 B2 |"F" A8 |
+"Dm" A2 d2 A2 G2 |"A7" A2 G2 "Bb" F4 |1 "Gm" E2 DE "Bb" F2 "C" G2 |"F" (A4 "A7" A4)
+:|2 "Gm" E2 DE "A7" F2 E2 |"Dm" D8 ||
+S:https://www.folktunefinder.com/tunes/84041
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

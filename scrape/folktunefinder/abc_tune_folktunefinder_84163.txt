@@ -1,0 +1,30 @@
+X: 21
+T:Genevieve's Waltz
+M:3/4
+L:1/4
+Q:1/8=150
+C:Manus McGuire (Moving Cloud)
+R:waltz
+P:AABBAABB
+Z:Derek Bone 9th April 200 (irtrad-l 2001-04-28)
+Q:300
+K:A
+E\
+|: "A"c>dc "E"BAG | "F#m"A>Bc "C#m"E2E | "D"F>Ad "A"cEc | c>BA "E"B2E \
+| "A" c>dc "E"BAG |"F#m" A>Bc "C#m"E2E | "D"FAd "A"cEc |1 "E"B>AG "A"A2E
+ :|2"D" B>AG "A"A2e |
+|: "D"f>ff fga |"A" e2d c>BA | "D"d>ed "A"cBA |"F#m" FGA  "E"B2e \
+|   "D"f>ff fga |"A" e2d c>BA | "Bm"d>ed "A"cBA |"D" FAG "A"A2e \
+|   "D"f>ff fga |"A" e2d c>BA |"D" d>e{fg}a "A"ecA | "F#m"FGA "E"B2E \
+|   "A"c>dc "E"BAG |"F#m" A>Bc "C#m"E2E | "D"F>Ad "A"cEc |"E" B>AG "A"A3
+ |]
+S:https://www.folktunefinder.com/tunes/84163
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.insightbb.com/~otter256/dance/10thstreet.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:338
+T:En tout temps la galette est bonne
+R:Bourree 2 temps
+C:trad.
+A:Morvan
+O:France
+M:2/4
+L:1/8
+Q:1/4=120
+K:Bb
+GB|dc/2B/2 Ac|BBFB|dc/2B/2 Ac|B z B2|BGAB|c2cd|cBAG|
+GFB2|BGAB|c2ce|d c/2-B/2 Ac|B z FB|dc/2B/2Ac|BBFB|dc/2B/2Ac|B2||
+W:
+W:En tout temps la galette est bonne
+W:En tout temps y'a du beurr' dedans.
+W:Jamais je n'oublierai
+W:La fille du coupeur de paille
+W:Jamais je n'oublierai
+W:La fille du coupeur de bl
+W:En tout temps la galette est bonne
+W:En tout temps y'a du beurr' dedans.
+S:https://www.folktunefinder.com/tunes/83202
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/matf01.abc
+S:http://www.tradfrance.com/matf01.txt
+% Rhythm Bourree 2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

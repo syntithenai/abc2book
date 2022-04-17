@@ -1,0 +1,26 @@
+X:129
+T: PETERSILJE SUPPENKRAUT
+N: K2200
+O: Europa, Mitteleuropa, Deutschland, Sachsen; Hessen
+R: Kinder - Lied, Reigen, Tanz - Spiel, Brautwerbung
+M: 2/4
+L: 1/8
+K: G
+ | GGGB | GDD2
+EFGE | D2B,2
+GGGB | GDD2
+EFGE | D2D2
+cAA2 | BGG2
+AAFD | ddd2
+cAA2 | BGG2
+AAFD | G4
+S:https://www.folktunefinder.com/tunes/82489
+S:http://ifdo.ca/~seymour/runabc/esac/kinder0.abc
+% Rhythm Kinder - lied, reigen, tanz - spiel, brautwerbung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

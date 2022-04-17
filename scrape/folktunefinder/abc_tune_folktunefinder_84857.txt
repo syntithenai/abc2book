@@ -1,0 +1,19 @@
+X:16
+T:Charlotte Bransle
+M:C|
+L:1/4
+K:C
+"Am" A A c c | "G" d d "C" e2 | "Am" a z e z | "G" d B "Am" c "D" d | "G" e2 "Am" A2 :|
+"Am" A e e e | "G" d e "Am" c2 | "C" e z "D" d z | [M:6/4] [L:1/4] "Am" A B c d "Em" B A | [M:C|] [L:1/4] "Em" e z "D" d z |
+[M:6/4][L:1/4] "Am" A "G" B "Am" c "G" d B "Am" A | [M:C|][L:1/4] "Am" e z "D" ^f z | "Am" e "G" d "Am" c c | "Em" B B "Am" A2 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84857
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

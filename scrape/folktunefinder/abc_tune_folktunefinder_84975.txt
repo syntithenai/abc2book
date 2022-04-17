@@ -1,0 +1,23 @@
+X:134
+T:Wakefield Hunt
+M:6/8
+L:1/8
+K:G
+%
+"G" d3 B2 c | dBG "(C)" E2 D | "C" EFG "G" D2 B | "C" c2 B "D" A2 G |
+"G" d3 B2 c | dBG E2 D | "C" EFG "G" D2 c | "D" BcA "G" G3 :|
+|: "G" dBG "C" ecA | "G" dBG E2 D | "C" EFG "G" D2 B | "C" c2 B "D" A2 G |
+"G" dBG "C" ecA | "G" dBG E2 D | "C" EFG "G" D2 c | "D" BcA "G" G3 :|
+|: "G" D2 D "C" E2 E | "G" D2 B c2 B | "Am" Ace "G" dBG | "D(C)"F2 G "D" A3 |
+"G" D2 D "C" E2 E | "G" D2 B c2 B | "Am" Ace "C" dec | "D" BcA "G" G3 :|
+%
+%
+S:https://www.folktunefinder.com/tunes/84975
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

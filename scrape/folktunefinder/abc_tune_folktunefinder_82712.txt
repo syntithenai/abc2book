@@ -1,0 +1,28 @@
+X:8
+T:Krakov'yak
+O:poland
+H:H. Halahan, 188
+S:A. Humenyuk
+Q:72
+A:Krakow
+M:2/4
+L:1/16
+K:C
+dc | \
+B2d2f2a2 | (ag) e4 g2 | g2ag fefd | c2 e4 c2 | \
+B2d2f2a2 | (ag) e4 g2 | g2ag fefd | c2c2c2 z2 |:
+f2a2c'2a2 | (gf) e4 g2 | g2ag fefd | c2 e4 c2 | \
+e2a2c'2a2 | (ag) e4 g2 | g2ag fefd | c2c2c2 z2 :|
+S:https://www.folktunefinder.com/tunes/82712
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/poland.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/poland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

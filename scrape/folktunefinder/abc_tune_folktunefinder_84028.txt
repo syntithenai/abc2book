@@ -1,0 +1,25 @@
+X:151
+T:Nigun#4
+O:klezmer
+M:4/4
+L:1/8
+Q:1/4=
+K:Cm
+V:1
+"Cm" c3 de2 e2 |e2 d2 c4 |"G7" =B3 cd2 c2 |=B2 G2 G4 |
+=B2 G2 =B2 G2 |"Fm" f2 gf "G7" e2 d2 |1 "Cm" (e8 |e8) :|2
+"Cm" (c8 |c8) ||  |:segno"Eb" [e3g3][fg][g2b2][g2b2]|[g2b2][f2g2][e4g4]|
+"Fm" [f4g4][g2b2][f2g2]|"Cm" [e2g2][d2f2][c4e4]|[e2g2][c2e2][e2g2][c2e2]|"Fm" [f2g2]"G7" [gb][fg][e2g2][d2f2]|
+|1 "Eb" [(e8g8]|[e8)g8]:|2 "Cm" [(c8(e8)]|fine[c8)e8)]||
+|:"Eb" [(g8(b8]|[g2)b2)][e2g2][f2g2][e2g2]|[g8(b8]|[g2b2)][e2g2][f2g2][e2g2]|
+"Bb7" [b4d'4][g4c'4]|"Eb" [g4b4][f2g2][e2g2]|1 "Bb7" [fg]"Eb" [gb][(e6g6]|[e2)g2]Bc de fg :|2
+"Bb7" [fd]"Eb" [ge](e6 |e4) "G7" z4 ||
+S:https://www.folktunefinder.com/tunes/84028
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

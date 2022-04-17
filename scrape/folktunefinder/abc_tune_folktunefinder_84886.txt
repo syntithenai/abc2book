@@ -1,0 +1,20 @@
+X:45
+T:Half Hannekin
+M:6/8
+L:1/8
+K:G
+"G" B>cd d2 c | "Em" B>cB "D7" A2 G | "G" B>cd d>cB | [1 "D7" A>GF "G" G3 :| [2 "D7" A>GF "G" G3 ||
+"G" B3 "Am" c3 | "G" B3 "D7" A2 G | "G" B>AB "Am" c2 B | "D" A>GF "G" G3 |
+"G" B>AB "Am" c>Bc | "G" B>AB "D7" A2 G | "G" B>AB "C" c2 B | "D7" A>GF "G" G3 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84886
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

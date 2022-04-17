@@ -1,0 +1,22 @@
+X:109
+T:Rufty Tufty
+M:C|
+L:1/4
+K:G
+A | "D" d2 d "A" e | "D" f2 e f | "G" g g "A" f> e | "D" d3 "A" A |
+"Bm" d2 d e | f2 e f | "Em" g g "A7" f> e | "D" d3 ||
+|: "D7" e/f/ | "G" g f e d | "D" d c "G" B> c | d d "Am" c B | [1 "D" A2 "G" G :| [2 "D" A2 "G" G2 ||
+| "G" B > c d d | "C" e c "G" d2 | B > c d d | "C" e c "G" d B/c/ | d d "Am" c B | "D" A2 "G" G2 |
+ "G" B > c d d | "C" e c "G" d2 | B > c d d | "C" e c "G" d B/c/ | d d "Am" c B | "D" A2 "G" G2 |]
+%
+%
+S:https://www.folktunefinder.com/tunes/84950
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:105
+T:Chasene valtz
+O:klezmer
+M:3/4
+L:1/8
+Q:1/4=120
+K:Cm
+V:1
+G2  |:"Cm" c4 ce |"G7" d4 df |"Cm" ed (c4 |
+"C7" c4) c2 |"Fm" f4 fg |"Bb" g4 f2 |"Eb" (g6 |
+"G7" g4) g2 |"C7" c'4 gb |"Fm" gg f4 |"G7" g4 df |
+"Cm" ed c4 |"G" d3 de g|"G7" g3 fd e|"Cm" (g6 |
+g4) g2 |"C7" c'4 gb |"Fm" gg f4 |"G7" g4 df |
+"Cm" ed c4 |"Fm" d3 ef g|"G7" g3 fd e|1 "Cm" (c6 |
+c4) G2 :|2 "Cm" c6 |"Bb" B6 |
+S:https://www.folktunefinder.com/tunes/83984
+S:http://home.quicknet.nl/qn/prive/j.coolegem/abcfolder/klezmer.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/home.quicknet.nl/klezmer.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

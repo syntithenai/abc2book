@@ -1,0 +1,19 @@
+X:60
+T:Jack Pudding
+T:Merry Andrew
+T:Played for: Step Stately
+M:6/4
+L:1/4
+K:C
+E | "Am" A2 A "G" B2 G | "Am" c A2 "G" d2 B | "Am" e c2 "Em" B2 A | "Am" A3 A2 :|
+ a | "C" g e2 "G" f2 d | "C" e c2 "G" d2 B | "F" e A2 "G" B G2 | "C" c3-c2 c |
+ "Dm" d B2 "Em" e2 B | "E7" ^G E2 "Am" c2 d | "Am" e c2 "E7" d B2 | "Am" A3-A2 ||
+%
+%
+S:https://www.folktunefinder.com/tunes/84901
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~dmilewski/ecdp/3lfpublic.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

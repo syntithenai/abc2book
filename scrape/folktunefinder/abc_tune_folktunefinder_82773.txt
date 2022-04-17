@@ -1,0 +1,31 @@
+X: 3
+T:
+P: Andante
+M: 4/4
+L: 1/16
+K: Em
+V:1
+[| z2GA B2GA B2e2 d2c2 | B2GA B2GA B2AG  FcBA  | GFE2 z2g2- gAB^c def2- | fGAB ^cde2- eF^G^A Bedc  |
+   dBde f2de f2b2 a2g2 | f2de f2de f2ed ^cgfe | d2^cB T^A3B B2E2 F2F2 |
+   B4   z2BA ^G2G2 z2GF | E2E2 z2^G2 A2A=G =FED2 | E2^GE =FED2 E2GE BGd2 | z2B^G dB=f2 z2dB fdb^g |
+%
+   ac'bc' T^g3a aeab c'2e2 | dc'ba b2d2 cba^g a2c2 | Ba=gf gfe^d e2EF G2EF |
+   G2z2 F2z2 G2EF G2EF | G2FE ^D2^d2 eBAG FcBA | Ggfe T^d3e e2a^g a2a2 | z2c'b a2a2 z2^de f2A2 |
+   AFG2 z2c'2 ^def2 z2c'2 | ^def2 z2dB f2A2 z2AF | c2^D2 z2cA f^deA B2B2 | E4 z4 z8 |]
+V:2
+[| z2EF G2EF G2z2 F2z2 | G2EF G2EF G2FE ^D2^d2 | eBef g2B2  Agfe  f2A2  | Gfe^d e2G2  Fe=d^c dcB^A |
+   B2B^c d2Bc d2z2 c2z2 | d2B^c d2Bc d2cB ^A2^a2 | bfed ^cgfe d2cB T^A3B |
+   B2d^c d2d2 z2=fe d2d2 | z2^ga b2d2 dBc2 z2=f2 | ^GAB2 z2=f2 GAB2 z2GE | B^Gd2 z2BG dB=f2 z2dB |
+%
+   cA^GA e2E2 A4 z2c'2- | c'def gab2- bcde fga2- | aB^c^d eagf g2GA B2GA |
+   B2e2 d2c2 B2GA B2GA | B2AG FcBA G2FE ^D2^d2 | e2A2 B2B2 c2A2 z2fe | ^d2d2 z2d^c B2B2 z2^D2 |
+   E2ed cBA2 B2^dB cBA2 | B2^dB f2A2 z2AF c2^D2 | z2cA f^da2- afge T^d3e | e4 z4 z8 |]
+S:https://www.folktunefinder.com/tunes/82773
+S:http://trillian.mit.edu/~jc/music/abc/classical/Telemann/DuetSonata_3_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords
