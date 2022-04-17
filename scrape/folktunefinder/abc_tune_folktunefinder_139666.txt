@@ -1,0 +1,31 @@
+X:5
+T:Glorisher
+S:Bacon (MDT)
+A:Bledington
+O:English
+R:Reel
+P:(AB)4
+M:2/2
+Q:1/2=88
+K:D %Transposed from Bb
+L:1/8
+P:A
+A2 | d4 d3 e | d4 A4 | F2 G2 A2 B2 | A4 A4 |\
+d4 d3 e | d4 A4 | F2 G2 A2 B2 | A4 A4 |
+d4 d3 e | d4 d4 | c2 d2 e2 f2 | e4 e4 |\
+defe d2 ag | f2 e2 d4 |]
+P:B
+f2 f2 fgaf | g2 e2 e2 e2 | f2 fe d2 f2 | edcB A4 |
+d2 cB A2 d2 | e2 dc d2 e2 | f2 ed c2 e2 |1 d4 d4 :|2 d4 d2 |]
+S:https://www.folktunefinder.com/tunes/139666
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

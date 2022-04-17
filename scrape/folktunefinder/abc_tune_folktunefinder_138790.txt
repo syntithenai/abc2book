@@ -1,0 +1,27 @@
+X:17
+T:Bill Hart's 
+R:jig
+M:6/8
+K:Amix
+"A"~A3 ~e3|"D"fed "A"efe|"A"~A3 ~e3|"D"fed "G"BdB|
+"A"~A3 ~e3|"D"fed "A"efg|"Asus4"aba "G"g2e|
+1 "D"fed "Bm"BdB:|2 "D"fed "bm"B2A||
+"A"~a3 gag|"D"fed "A"efg|"A"aba "G"g2e|"D"fed "Bm"B2A|
+"A"agf gfe|"D"fed "A"efg|"Asus4"aba "G"g2e|"D"fed "Bm"B2A|
+"A"a2f g2e|"D"fed "A"efg|"A"aba "G"g2e|"D"fed "Bm"B2A|
+"A"agf gfe|"D"fed "A"efg|"Asus4"aba "G"g2e|"D"fed BmBdB||
+S:https://www.folktunefinder.com/tunes/138790
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

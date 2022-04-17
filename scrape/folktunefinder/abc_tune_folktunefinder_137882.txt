@@ -1,0 +1,23 @@
+X:6
+T:Inisheer
+Z: id:dc-waltz-4
+M:3/4
+L:1/8
+K:G Major
+D2|B3 A Bd|B3 A Bd|E3 B AB|D3 E GA|!
+B3 A Bd|B3 A Bd|G3 B AF|G4:|!
+Bd|e3 f ed|B3 A Bd|gf ed Bd|e3 f gf|!
+e3 f ed|B3 A Bd|G3 B AF|G4:|!
+S:https://www.folktunefinder.com/tunes/137882
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Waltzes.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

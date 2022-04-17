@@ -1,0 +1,23 @@
+X:42
+T:Peg Huglestones Hornpipe
+B:Walsh
+M:4/4
+L:1/8
+N:
+K:C
+GF| E2 A4 GA| c4 dcBA| c2 e2 dcBA| d2 B4 GF| E2 A4 GA| c4 cBcA| c2 e2 dcBA|\
+G2 E4:: gf| e2 g2 fedc| d2 g2 edcB| c2 e2 dcBA| d2 B6| e3 f gefg| fefg a4| \
+agfe dcBA| G2 E4::
+S:https://www.folktunefinder.com/tunes/138454
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

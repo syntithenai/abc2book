@@ -1,0 +1,32 @@
+X: 1
+T: Bessaraber Khusidl [Em]
+M: 2/4
+L: 1/16
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin, with [Composer] as the composer ;-)
+K: Em
+|: "Em"egeg egeg | "B7"g2 f4 f2 \
+| f2a2 ac'ba | "Em"ab e6 \
+| "Am"ac'ac' ac'ac' | "Em"c'2 b4 ag |
+| "B7"f2c'2 bagf |1 "Em"fa g4 f2 \
+:|2 "Em"a2 g4 ag | "B7"f2c'2 bagf | "Em"e8 \
+|: "Em"efge B4 | gagf e4 |
+| "B"^defg "(Am)"fedc | "B"cB B4 B2 \
+| "G"g2b2 d'2b2 | "Am"a2a4 _b2 \
+| "B"_baag gffe | "Em"fg e4 e2 :|
+|: "G"b6 ag | ab g4 g2 \
+| bc'bc' b2ag | ab g4 g2 \
+| "Am"a_bab agfg | a6 _b2 \
+| "B"_baag gffe | "Em"fg e6 :|
+S:https://www.folktunefinder.com/tunes/138347
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/BessaraberKhusidl_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BessaraberKhusidl_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

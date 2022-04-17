@@ -1,0 +1,27 @@
+X:47
+T:Glasis Hornpipe
+B: Walsh
+M:3/2
+L:1/8
+N:
+K:D
+d3 B ABAG F2 A2| G2 B2 =cBAG F2 A2| d3 B ABAG cBcA| d3 B ABAG F2 D2::\
+G2 B2 =cBAG F2 A2| B2 G2 gfed c2 A2|d2 f2 gfed cdec |A2 d2 cdecd2 D2 ::\
+f3 g fgaf b2 B2 | g3 f gfed c2 A2| d3 f gfed cdec|A2 d2 cdec d2 D2::\
+fedf edce dcBd| d2 ef gfed c2 A2| abag fagf egfe| fedf edce d2 D2::\
+BAGB AGFA F2 D2 | d2 ef gfed c2 A2 | d2 b2 c2 a2 B2 g2|bagf efga f2 d2::\
+A,B,CD DEFD E2 A,2| B2 G2 gfed c2 A2| dfbf gbge dfad| A2 d2 cdec d2 D2:|
+S:https://www.folktunefinder.com/tunes/138459
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

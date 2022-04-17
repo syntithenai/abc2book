@@ -1,0 +1,28 @@
+X:110
+T:Shores of Lough Gowna
+M:6/8
+L:1/8
+S:Dermy Diamond, Belfast (fiddle)
+R:Jig
+D:Private tape - Milltown Malbay 1985
+N:As played
+Z:Bernie Stocks
+K:D
+A~B2 {d}BAF | FEF DFA | B(3.G.G.G BAF | dze fed | BdB {d}BAF | FEF DFA |\
+def geg | fdB BdA | |BAA BAF | FEF DFA | BGG BAF | dze fed |\
+BdB {d}BAF | FEF DFA | def geg | fdB BdA |: def a2b | afb afe |\
+dFA def | ~g3 fdB | def A2a2b | afb afe | def geg | fdB BFA :|
+S:https://www.folktunefinder.com/tunes/137982
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book1.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

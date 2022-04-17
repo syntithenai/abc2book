@@ -1,0 +1,22 @@
+X:46
+T:New Wild Morris
+B: Walsh
+M:12/8
+L:1/8
+N:
+K:D
+d| def Bcd cde ABc|dcB AGF Edc d2 D| def Bcd cde ABc|dcB EA^G A3 A2::\
+a| agf fed gfe edc| fed dcB cde ^A2 f| gfe dcBB3 B2 c| dDd dcB efe edc|\
+fFf fed cde Aag| fed Adc d3 d2::
+S:https://www.folktunefinder.com/tunes/138458
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

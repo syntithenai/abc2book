@@ -1,0 +1,31 @@
+X:1
+T:La Belle Catherine
+S: See also versions printed in "Danse ce Soir" and "Crooked Tunes"
+S: "panda_baerchen" <adh16@columbia.edu> QueTrad 2003-8-21
+Q:300
+M:4/4
+L:1/8
+K:D
+||:DD FA d(fed)|cc Ac BBGB|A>B A>G FAdf|gg (fa) ec d2:|
+M:6/4
+|:(fa) (3aaa (fd)(ef) (gb) (3bbb|\
+M:4/4
+(fa) (3aaa (fd)(ef)|gbea fd dd|
+M:6/4
+|(fa) (3aaa (fd)(ef) (gb) (3bbb|\
+M:4/4
+(fa) (3aaa (fd)(ef)|g2 (fa) ec dd:||
+|:DD FA d(fed)|cc Ac BBGB|A>B A>G FAdf|gg (fa) ec d2:|
+|:DFA(F DF)AF|(DG)(BG) DGBG|DFA(F DF)AF|A,CE(C A,C)EC|DFA(F DF)AF|
+(DG)(BG) DGBG|
+|A>B A>G FAdf|gg(fa) ec d2:|
+S:https://www.folktunefinder.com/tunes/137714
+S:http://trillian.mit.edu/~jc/music/abc/mirror/QueTrad/LaBelleCatherine_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

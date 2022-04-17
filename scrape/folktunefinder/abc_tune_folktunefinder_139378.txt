@@ -1,0 +1,28 @@
+X: 15
+T: Reunion Jig
+I: Reunion JigJ-49Djig
+C: Bruce A. Randall
+M: 6/8
+R: jig
+K: D
+D| "D"FAB AFD| FAB cde| "Bm"fBA Bde| fBA "G"BdB|
+   "D"AFG AFD| FAB Ade| "Bm"fBA "G"BdB| "A"AFE "D"D2:|
+|:\
+d| "D"fga fdg| fag fdf| "Em"ega bge| geb geg|
+   "D"fda baf| def "A"edf| "Em"eBA "G"Bcd| "A"AFE "D"D2 :|
+%%text Roaring Jelly  J-49
+%%vskip 10pt
+S:https://www.folktunefinder.com/tunes/139378
+S:http://roaringjelly.org/music/sets/Set37.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set37.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set37.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

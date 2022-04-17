@@ -1,0 +1,28 @@
+X:18
+T:Bourre d'Arleuf
+R:Bourre  3 temps
+C:Trad.
+A:Morvan
+O:France
+Z:S Piron
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-05-12
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+Q:1/8=220
+K:C
+GAB|c>Bc|ede|c>Bc|ABc|d>ed|1cBA|A2G:|2GAB|c3|
+|:ege|dfe|dcd|e2c|ege|dfe|1dcd|d2c:|2dcB|c3||
+%%text 2 X
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (France)
+S:https://www.folktunefinder.com/tunes/138214
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

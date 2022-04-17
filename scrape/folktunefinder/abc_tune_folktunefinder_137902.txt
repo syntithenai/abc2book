@@ -1,0 +1,25 @@
+X:4
+T:Maskoto
+O:Macedoine (Mer Egee)
+M:7/4
+L:1/8
+K:F
+FGABcd ecde fdef | cdefga bgab c'abc' ||
+|: dc d2 e2 fdef g4 | dc d2 e2 fdef g4 |
+gf f4 d3 c B4 | gf f4 d3 c B4 |
+Bc d4 ef f2 c2 cB | Bc d2 z2 f4 c3 B |
+B2 B3 A G3 F d2 dc | B2 B3 A G3 F G4 |
+B2 B3 A G3 F d2 dc | B2 B3 A G3 F G4 :|
+|: gfefga bgaf (3gfe dc | gfefga bgaf g4 :|
+S:https://www.folktunefinder.com/tunes/137902
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/egee.txt
+S:http://users.skynet.be/infants/musiques/abc/egee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/egee.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

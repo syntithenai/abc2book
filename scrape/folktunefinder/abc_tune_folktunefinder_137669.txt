@@ -1,0 +1,30 @@
+X: 022092
+T: Belgrave Square
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+N: Uses dotted rhythm
+L: 1/8
+M: 4/4
+R: hornpipe
+Q: 1/4 = 160
+K: G
+ge | dBAB G2 GA | BGAG EGDE | GABd edBd | (3efg dB A2 ge |
+dBAB G2 DG | BGAG EGDE | GABd edBd | (3efg dB G2 :|
+BA | GABd edBd | (3efg dB AGEF | GABd edBd | (3efg dB A2 BA |
+GABd edBd | (3efg af gedB | dega bgag | (3efg dB G2 :|
+S:https://www.folktunefinder.com/tunes/137669
+S:http://www.qmcorp.net/webabc/b/022092.abc
+S:http://www.qmcorp.net/webabc/collections/liddy/belgrave_square.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

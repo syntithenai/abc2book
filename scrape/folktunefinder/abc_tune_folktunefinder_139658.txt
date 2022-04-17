@@ -1,0 +1,33 @@
+X:1
+T:The Black Joke
+M:6/8
+C:
+S:Gereg Blaiddlwyd
+N:
+A:Adderbury
+O:English
+R:Jig
+%P:A/2(AB)$^5$
+P:A.(AB)5
+K:G
+I:speed 600
+P:A
+%
+|: G | D2G  GFG      |\
+       A>cB AGF      | G>AB d>cB | A>cB AGF  | G3   E3   | DEF  G2   :|\
+P:B
+   c |\
+       B2d  d2d      | e>de d2c  | B2d  d2d  | e>de d2c  | B2B  B>AG |\
+       A>cB AGF      | G>AB d>cB | A>cB AGF  | G3   E3   | DEF  G2   ||
+S:https://www.folktunefinder.com/tunes/139658
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/blackj.gb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

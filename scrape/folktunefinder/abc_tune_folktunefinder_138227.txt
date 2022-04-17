@@ -1,0 +1,41 @@
+X:7
+T: la Nol,  la minuit
+C:Harmonisation
+C:Bernard Lallement
+C:
+O:Bas-Quercy (Quercy-Blanc)
+M:6/8
+L:1/8
+Q:"Bien allant"
+%%measurenb 1
+%%staves [1 2 3 4]
+K:Eb
+V:1 name=S
+"Solistes"GGG | c2d (ed)c | B3 ccc | G2F E2F |
+HG3 "Tutti" GGG | c2d (ed)c | B3 ccc | G2F E2F |
+G3- Gz G | "Solistes" G2A B2c | (cBA) G3 | (c/B/)cd e2e | d3-d "Tutti"zd |
+e2d c2{d}c | (B2A) G3 | (c/B/)cd e2B |1,2,3 Hc3 :|4 Hc6 |] 
+V:2 name=A
+GGG | G2B BA2 | G3 EEF | E2D EC2 |
+HB,3 EEE | E2G G2A | F3 AGF | E2C B,C2 |
+D3- Dz D | E2E F2A | (F2D) (E2F) | (G/F/)GA B2c | !breath!B3B3 |
+c2B A2A | (G2F/E/) D3 | (G/F/)GB B2B | HG3 :| B2A HG3 |]
+V:3 name=T
+eee | e2f (gf)e | d3 ccc | B2A GA2 |
+HB3 ccc | c2B (cd)e | d3 fec | B2A Gc2 |
+!diminuendo(!(c3 =B) !diminuendo)! z B | c2c d2e | (fec) (c2d) | (e/d/)cc B2f | !breath!g3 e3 |
+g2g e2e | (e2c) B3 | (c/d/)ef g2f | He3 :| f2d He3 |]
+V:4 name=B clef=bass
+CCC | C2B, E,F,2 | G,3 A,A,A, | E,2B,, C,A,2 |
+HE,3 CCB, | A,2G, (C,B,,)A,, | B,,3 A,,A,,A,, | E,2F, G,A,2 |
+G,3- G,z G, | C2C B,2A, | (B,2F,) C,3 | (C,/D,/)E,F, G,2A, | !breath!B,3 G,3 |
+C2G, A,2A, | (E,2F,) (G,2F,) | (E,/D,/)C,B,, E,2D, | HC,3 :| F,2F, HG,3 |]
+S:https://www.folktunefinder.com/tunes/138227
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

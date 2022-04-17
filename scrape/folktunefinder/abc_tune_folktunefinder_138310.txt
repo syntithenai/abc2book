@@ -1,0 +1,29 @@
+X: 1
+T: Bert Jamieson's Lancers
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: d |\ 
+B2 B B^AB | c2 c cBc | d2 d dcB | A3- A2 d |
+B2 B B^AB | cdc cBc | ded cBA | G3- G2 :|
+|: d |\ 
+g>fe dBG | c2 d e2 d | gg/f/e dBG | A3- A2 d |
+g2 e dBG | c2 d ege | d^cd =cAF | G3- G2 :|
+|: F |\ 
+G2 B B/c/dB | G2 B B2 d | e2 d dBG | A2 d ^c2 d |
+F2 A ABA | F2 A A2 d | edd cBA |[1 B2 ^A B2 :|[2 G3- G2 ||
+|: f |\ 
+g2 d B2 d | e2 f g2 a | b2 a gfe | d3- d^cd |
+e2 e gfe | d2 d d^cd |[1 A2 d ^c2 d | A3- A2 :|[2 fed cBA | G3- G2 |]
+S:https://www.folktunefinder.com/tunes/138310
+S:http://www.thesession.org/tunes/display/8172
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

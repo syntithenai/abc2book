@@ -1,0 +1,30 @@
+X:1793
+T:Blackbird, The
+T:An Londub
+C:"collected by J.O;Neill"
+S:1793 O'Neill's Music of Ireland
+N:Tilde (~) used for trill
+B:O'Neill's 1793
+Z:Transcribed by Robert Thorpe (thorpe@skep.com)
+Z:ABCMUS 1.0
+M:2/4
+L:1/16
+Q:100
+K:D
+d-c|B2d2 c2B2|ABAG ABcA|~d-cde dcAF|GAGF D2D-E|
+F2F-G A2f-e|~d-cde dcAF|GAGF D2D2|D6:|
+d-e|f2d2 f2g2|abag fgaf|g2{a}g-f gbaf|gagf d2d-e|
+f2de f2g2|abag fgaf|gagf d2d2|defg abag|
+fgaf gage|f2ed cA2B|c2de defg|a4 A3G|
+FGAB =c3e|d^cAF GAGF|D2D2 D2:|
+S:https://www.folktunefinder.com/tunes/139527
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1793_rt.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

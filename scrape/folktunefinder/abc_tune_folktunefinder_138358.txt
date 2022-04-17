@@ -1,0 +1,25 @@
+X: 6
+T:Goodmans Fields Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+Z:ps
+K:D
+B,4DEFE DCB,^A,|B,2GF EDCB,^A,4|f2bg afge fdec|d2gf edcB^A2F2|
+B,4DEFE DCB,^A,|B,2GF EDCB,^A,4|gede fdcd ecBc|dcdBf2^A2B4||
+D4FABc dcdA |Bcdc BAGF E4|E4GBcd edec|dfgf edcB^A4|b2ag fedc Bdfb|a2gf e
+d
+cB Acea|g2fe dcB^AB2fe|dcBd F2^A2B4||
+S:https://www.folktunefinder.com/tunes/138358
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T: Between The Strings
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:F | GAc BGG | deg edB | GBD BGG | cGB AGE |
+DEG BGG | deg edB |! e2B GDB | AGF G2 :|
+|: c | Bdd edB | d2g edc | Bdd edd | cGB AGE |
+Bdd edg | ae/2f/2g edB | e2B GDB | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/138521
+S:http://www.thesession.org/tunes/display/3879
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

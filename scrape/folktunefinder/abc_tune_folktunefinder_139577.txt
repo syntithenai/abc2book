@@ -1,0 +1,33 @@
+X: 3
+T:Northern Nanny. HA03
+M:6/4
+L:1/4
+Q:150
+S:Henry Atkinson MS,Hartburn,Northumberland,1694/5 trans. John Stokoe 1883
+R:Nanny!
+O:England
+A:Northumbria
+N:Clef and key signature missing:  Key chosen by reference to another
+N:version (Northern Nancy, modern reprint, no source given), last note
+N:and accidentals
+H:First in Playford 4th ed.,1670,though different in detail to any of
+H:Playford's versions
+Z:vmp.Cherri Graebe
+K:G Minor
+G |GAG^F2G|A2Bc2A|Bcd^F2G|A2^FG2:|!
+|:"*"z|f>edc>BA|B2cd2A|Bcd^F2G|A3G2:|]
+%added rest
+S:https://www.folktunefinder.com/tunes/139577
+S:http://www.village-music-project.org.uk/abc/henryatt.abc
+% Rhythm Nanny!
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

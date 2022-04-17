@@ -1,0 +1,31 @@
+X: 13
+T:Ceilidh House Polka (1)
+M:2/4
+L:1/8
+S:Willie Coyle, Kirkubbin, Down (Accordian)
+R:Polka
+D:Session tape, Bangor, Down 198
+Z:Bernie Stocks
+K:G
+G(2AGED | GBd2 | edBG | (4ABAG ED | G(2AGED | GBd2 | edBG  | AGG2 ::\
+d2d(2Bd | edBG | A2A(2Bd | edBG | d2d(2Bd | edBG | A(2Bc BA | G4 :|
+S:https://www.folktunefinder.com/tunes/138072
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

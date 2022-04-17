@@ -1,0 +1,25 @@
+X:80
+T: Kilfenora Lass
+S: "Treoir"
+C: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: Ador
+Bd |: e2 A BAG | EAA ABd | e2 A B2 A | BGG GBd |
+e2 A BAG | EAA ABd | efg dBA | BGG GBd :|
+g3 efg | eag fed | gfg eag | fdc def |
+|1 gfg efg | eag fed | efg dBA | BGG GBd :|
+|2 gfg aga | b2 a ged | efg dBA | BGF G3 ||
+S:https://www.folktunefinder.com/tunes/138575
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/k.abc
+S:http://www2.redhawk.org:8080/irish/zouki/k.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

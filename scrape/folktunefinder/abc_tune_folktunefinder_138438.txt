@@ -1,0 +1,23 @@
+X:30
+T:Bess Kings Jigg
+B:Walsh
+M:6/4
+L:1/8
+N:
+K:Gm
+ef| g6 f3 e d2| e2 g2 c2 =B3 c d2| e3 d c2 B3 _A G2| _A2 F3 E/2F/2 G4::\
+G_A| B3 c B2 e4 e/2f/2g| f2 edcB B4 b2| g3 f e2 d2 e2 dc| g6 g4 f2|\
+e2 d2 c2 =B2 c2 d2|e2 f2 g2 _a4 g2| f2 ed e2 G2 c2 =B2 |c6 c4:|
+S:https://www.folktunefinder.com/tunes/138438
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

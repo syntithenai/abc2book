@@ -1,0 +1,23 @@
+X:40
+T:White Fryars Hornpipe
+B:Walsh
+M:4/4
+L:1/8
+N:
+K:G
+B2|cBAG FGAF| GABG A2 D2| F2 D2 F2 A2-|A2 B2 cBAG| FGAF GABG| ABcd B2 G2| G3::\
+B2| cBcd e4 |g4 agfe| defd efge| a2 A2 A3 B| cBcd e4| g4 agfe| defd ABcd|\
+B2 G2 G2:|
+S:https://www.folktunefinder.com/tunes/138452
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

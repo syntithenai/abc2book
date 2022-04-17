@@ -1,0 +1,26 @@
+X:1
+T:Biscuit shuffle
+C:Cliff Stapleton 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D
+D2FA G2E2 | GGFG AFD2 | EFGA EGGF | EGBd c2A2 |
+D2FA G2E2 | GGFG AFD2 | EFGA EGGF | EDEF D4 :|
+d2d2 =c3B | A2AG A2GF | EFGA E2GF | EGBd cBA2 |
+d2d2 =c3B | A2AG A2GF | EFGA E2GF | EDEF D4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/139387
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/biscuit_shuffle.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

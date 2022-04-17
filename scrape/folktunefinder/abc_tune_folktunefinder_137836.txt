@@ -1,0 +1,22 @@
+X: 4
+P: Bellman's Jig
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GDG BGB | "(D7)"d2c B2A | "G"GDG A2B | "Am"c2B "D7"A2D \
+| "G"GDG BGB | d2c BcB | "Am"ABc "D7"DEF | "G"G2G G2 :|
+|: d \
+| "D7"cAA A2f | "G"gdd d2d | "D7"cAA A2f | "G"gdd d2B \
+| "C"cdc "G"BcB | "Am"ABA "Em"GAG | "D7"FGA DEF | "G"G2G G2 :|
+S:https://www.folktunefinder.com/tunes/137836
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Jig_Contra05.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

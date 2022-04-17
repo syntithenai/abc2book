@@ -1,0 +1,26 @@
+X:1
+T:Billy Nicolson
+C:Buddy MacMaster
+O:Cape Breton
+R:Reel
+M:C|
+Q:1/2=120
+K:G
+%%MIDI gchord czczczcz
+D2 | "G"G2 GA B2 AG| "Am"AEAB "D7"c2 Bc| "G"dgge "Em"dedB| cAGA "D7"GFED|
+     "Em"GDGA B2 AG| "Am"AEAB "D7"c2 Bc| "G"dgge "D7"dedc| "G"B2 G2 G2 :|
+d2 | "G"dggf "Em"g2 fg| "Am"eaa^g "D7"a2-af| "G"gage dedB| "D7"c2 A2 A4|
+     "G"dggf "Em"g2 fg| "Am"eaa^g "D7"a2-af| "G"gage "D7"dedB| "G"B2 G2 G2
+d2 | "G"dggf "Em"g2 fg| "Am"eaa^g "D7"a2-af| "G"gage dedB| "A"cAGA "D7"GFED|
+     "G"G2 GA "Em"B2 AG| "Am"AEAB "D7"c2 Bc| "G"dgge "D7"dedc| "G"B2 G2 G2 |]
+S:https://www.folktunefinder.com/tunes/139154
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/BillyNicolson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

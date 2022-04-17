@@ -1,0 +1,21 @@
+X: 1
+T: Bells of Norwich (D)
+O: England
+M: C|
+L: 1/8
+K: D
+|:"D"[d4F4] "A7"[A3E3][AE] | "D"[d2F2][f2A2] [gB][fA][eG][dF] \
+| [f2A2][d2F2] [f2A2]"G"[g2B2] |1 "A7"[a8c8] :|2 "D7"[a8=c8] |]
+[|"G"[b4G4] [g4d4] | "D"[a2f2][a2f2] [af][ge][f2d2] \
+| "A7"[e3c3][fd] [g2e2]"D"[f2d2] | "A7"[e2c2][c2A2] [A2-A2][A2G2] \
+| "D"[d4F4] [e2G2][f2A2] | "G"[gB][fA][e2-G2] "A7"[e2A2][c2G2] \
+| "D"[d8-F8-] | [d4F4] z4 |]
+S:https://www.folktunefinder.com/tunes/137859
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/BellsOfNorwich_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/BellsOfNorwich_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

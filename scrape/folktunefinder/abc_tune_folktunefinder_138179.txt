@@ -1,0 +1,22 @@
+X: 1
+T: la Berg\`ere de Couvandon
+O: Trad
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 2/4
+L: 1/16
+K: G
+|: "C"c4  B2c2 | "D"A6 Bc |  "D"d3c B2A2  |  "G"B4 G4 \
+|  "C"c4  B2c2 | "D"A6 Bc |  "D"d3c B2A2  |1 "D"d8    :|2 "G"G8 |]
+|: "D"A3B ABAG | "D"F6 G2 |  "D"A3B c2A2  |  "G"B4 G4 \
+|  "D"A3B ABAG | "D"F6 G2 |1 "D"A2AB c2A2 |  "D"d8    :|2 "D"A2B2 c2A2 | "G"G8 |]
+S:https://www.folktunefinder.com/tunes/138179
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/BergereDeCouvandon_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

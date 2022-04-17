@@ -1,0 +1,27 @@
+X:6
+T:Muireann's Jig
+R:jig
+C:Niall Vallely
+M:6/8
+K:Bm
+dBA ~B3|def ede|f2e ede|faf efe|
+dBA ~B3|def ede|fba fed|fee edB:||
+BAB e2B|BAB fef|Bba fed|fee edB|
+BAB e2B|BAB fef|baf aba|fee edB:||
+BAF E2F|FDE FDE|FAA ABB|Bdd edB|
+BAF E2F|FDE FDE|FAB def|1 fed edB:|2 fed e2e||
+fef b2f|fef ~a3|fba fed|fee ede|
+fef b2f|fef ~a3|baf aba|1 fee ede:|2 fee edB||
+S:https://www.folktunefinder.com/tunes/138779
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

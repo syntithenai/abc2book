@@ -1,0 +1,30 @@
+X: 022094
+T: Big Tree (The)
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+N: Uses dotted rhythm
+L: 1/8
+M: 4/4
+R: hornpipe
+Q: 1/4 = 160
+K: G
+(3DEF | GFGA BABd | edef g2 fe | dedB cdcA | (3Bcd BG FDEF |
+GFGA BABd | edef g2 fe | dgfg dBcA | B2 G2 G2 :|
+Bc | dg (3gfg dBGB | cdef g2 fe | dedB cdcA | (3Bcd BG A2 Bc |
+[1 dg (3gfg dBGB | cdef g2 fe | dgfg dBcA | B2 G2 G2 :|
+[2 dedB GBdg | ec (3dcB cege | dg (3gfg dBcA | B2 G2 G4 ||
+S:https://www.folktunefinder.com/tunes/138978
+S:http://www.qmcorp.net/webabc/b/022094.abc
+S:http://www.qmcorp.net/webabc/collections/liddy/big_tree.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

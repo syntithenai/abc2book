@@ -1,0 +1,30 @@
+X: 6
+T:Hey Boys! Up Go We. HA06
+M:4/4
+L:1/4
+Q:100
+C:As written!
+S:Henry Atkinson MS,Hartburn,Northumberland,1694/5 transcribed John Stokoe 1883
+O:England
+A:Northumbria
+N:This is at first pass a challenging tune, but it makes sense
+N:eventually. It first appears in Playford 6th ed. in 1679, and by the
+N:9th ed. in1695 has changed to being in 6/4. Atkinson's version is
+N:substantially that of eds.6 to 8, but differs in key and details
+Z:vmp.Cherri Graebe
+K:C
+C|CcBA|A/G/FE/F/G|FED>C|c3C|!
+CcBA|A/G/FE/F/G|FEDC|c3G|!
+cde/f/e|d/B/cA>G|GGA>G|G3d|!
+gfe/d/c|fe/d/BA/G/|cEDB|c2G||
+S:https://www.folktunefinder.com/tunes/139580
+S:http://www.village-music-project.org.uk/abc/henryatt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

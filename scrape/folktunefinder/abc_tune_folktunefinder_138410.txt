@@ -1,0 +1,23 @@
+X:2
+T:Tower Waits Hornpipe
+B:Walsh
+M:3/2
+L:1/8
+N:
+K:Gm
+g4 bag^f g4|edcB AGFE DCB,A,|B,4 GFED E2 G2|cded cABc ^F2 D2| g4 bag^f g4|\
+edcB AGFE DCB,A,|B,2 G2 A,2 G2 G,2 ^F2| GEDC B,GA,^F G,4::\
+f4 dBcA BFGE| E2 C2 E2 G2 c4| g4 ecdB cABG| ^F2 D2 ^F2 A2 d4|\
+d2 b2 BAGF E2 C2| c2 a2 AGFE D2 B,2| G,2 g2 ^fdec dAB^F| GEDC B,GA,^F G,4:|
+S:https://www.folktunefinder.com/tunes/138410
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

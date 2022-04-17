@@ -1,0 +1,33 @@
+X:1
+T:Besentanz
+C:traditionell
+R:
+A:Flandern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer Drehleier", Barbara Behringer (anm: verh. Grimm), Der Verlag mit der Blume, 4.Auflage, Nuernberg 1988
+N:dort ganz in C, einstimmig, seite 59
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+ef ge | ag g/f/e | gf f/e/d | ef g2 |
+ef ge | ag g/f/e | gf f/e/d | ce c2 :|
+ec aa | g/f/e g2 | gf f/e/d | ag g/f/e |
+ec aa | g/f/e g2 | gf ed | ce c2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/138321
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/besentanz.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

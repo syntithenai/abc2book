@@ -1,0 +1,20 @@
+X: 10
+T:SCOTTISH
+M:4/4
+L:1/8
+Q:1/4=60
+K:Bb % 2 flats
+|:ddd3/2c/2 B/2c/2d/2e/2c2|1AcB/2c/2B/2G/2 A/2c/2B/2A/2BG:|2AcB/2c/2B/2G
+/2 A/2c/2B/2A/2G2|!
+|:ddg/2f/2g/2a/2 f=e/2d/2c2|1ddG/2A/2B/2d/2 cB/2A/2BG:|2ddG/2A/2B/2d/2 c
+B/2A/2G2|
+S:https://www.folktunefinder.com/tunes/137744
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/scottish.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 5
+T:Cuckoo's Nest, Ilmington 1
+M:2/2
+L:1/8
+A:Ilmington
+P:A(AB)4A
+K:G
+P:A
+|:BcBA G2g2|BcBA G2g2| BcBA GFGc|B2G2 G4:|
+P:B
+|:g2g2 g2ag|f2d2 d3e |=f2f2 f2gf|e2c2 c4 |
+  BcBA G2g2|gedB c2d2| cBAG F2dc|B2G2 G4:|
+S:https://www.folktunefinder.com/tunes/139682
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

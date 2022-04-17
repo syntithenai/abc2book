@@ -1,0 +1,31 @@
+X:2
+T:Benedictus
+T:Tenor
+C: Isaac
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+M:C|
+L:1/2
+N:Original clef, C on third line
+K:G dor -8va
+z8 d3 c d B A2 G/ A/ B/ c/ d e f g2 "f"f g2 G2 A4 G4
+z8 B2 A B2 A/ G/ F2 G8 A d > c B A G2 "f"F G4
+z8 B3 A/ G/ F G/ A/ B A2 G2 F G > A B c B > c d e d2
+z g2 f d e f e/ d/
+c d2 c/ B/ c2 B8 B > A B G F B2 A B2 d > e f g f d > e f B > c d B f > e f B f g2 f2 e f d2 c d B2 A B G2 F G2
+z g2 f/ e/ d _e d B > c d/ e/ f e/ d/ c d c
+A > B c/ d/ _e d/ c/ B c B G > A B/ c/ d c/ B/ A B2 A/ G/ A2 G2
+z2 d3 d d2 c d G2 A2 G8 |]
+S:https://www.folktunefinder.com/tunes/137948
+S:http://www.laymusic.org/music/isaac/benedictus/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Bellmans polska
+R:Polska
+O:Gstrikland
+S:Efter Gustav Jernberg
+N:Jernberg sa sig ha lten efter en gammal hlsingespelman vid namn Bellman.
+M:3/4
+L:1/8
+K:D
+|:A3/2d/2d ded|Aff e/2f/2gf|A3/2d/2d ded|Aff e/2f/2gf|f3/2a/2a aba|
+a3/2g/2f gf2|e3/2f/2g bag|f3/2e/2d cdB|BA/2G/2F E/2F/2AA|[1 A,DD4:|[2A,D2<D2E/2C/2|]|:
+D2a2a>f|g/2f/2g/2a <ba/2 gf|e3/2f/2g bag|f3/2e/2d cdB|BA/2^G/2^G AA2|
+D2a2a>f|=g/2f/2g/2a <ba/2 gf|e3/2f/2g bag|f3/2e/2d cdB|BA/2G/2F E/2F/2AA|A,DD4:|
+S:https://www.folktunefinder.com/tunes/137839
+S:http://www.folkwiki.se/pub/cache/Bellmans_polska_ebc07a.latin.abc
+S:http://www.folkwiki.se/pub/cache/Bellmans_polska_ebc07a.abc
+S:http://www.folkwiki.se/pub/cache/Bellmans_polska_ebc07a.abcm.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

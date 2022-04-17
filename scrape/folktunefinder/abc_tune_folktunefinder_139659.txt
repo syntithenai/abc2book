@@ -1,0 +1,28 @@
+X: 1
+T: THE BLACK JOKE
+S: MDT
+O: Adderbury
+P: A.(A2B)6
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+P: A
+D | DGG GFG | AcB A2G/F/ | GAB d>cB | AcB AGF | G>AB "*"E>FG | DEF G2 :|
+P: B
+    Bdd d>dd | ede d3 | Bdd d>dd | ede d2c | B>BB BAG |
+    AcB AGF | GAB d>cB | A[cB][BG] [AF]>[GE][FD] | G>AB "*"E>FG | DEF G2 ||
+P: * In Mss bars 5(A) and 9(B) are:-
+ y6 | G3 E3 |
+S:https://www.folktunefinder.com/tunes/139659
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Black_Joke_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

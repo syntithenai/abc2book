@@ -1,0 +1,28 @@
+X: 1
+T:Evesham, Ilmington
+M:4/4
+L:1/8
+R:Reel
+A:Ilmington
+P:A(AB)4A
+K:D
+P:A
+FGAF G2B2 | A2de f2d2 | g2f2 e2d2 | edcB AGFE|
+FGAF G2B2 | A2de f2d2 | gfed cABc | d2f2 d4 ||
+P:B
+|:ecA2 ecA2 | g2f2 ecA2 | g2f2 e2d2 | edcB AGFE|
+FGAF G2B2 | A2de f2d2 | gfed cABc | d2f2 d4 :|
+S:https://www.folktunefinder.com/tunes/139678
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

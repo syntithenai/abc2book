@@ -1,0 +1,24 @@
+X: 9
+T:Jubilee Dance, Ilmington
+M:6/8
+L:1/8
+A:Ilmington
+P:A(AB2)4A
+K:G
+P:A
+ded B2G|A2F D3 |G3  A2c|d2B G3 |
+ded c2d|g2e c2e|d2d cBA|G3- G3||
+P:B
+B3  Bcd|e3  e3 |A3  ABc|d3  d3 |
+ded c2d|g2e c2e|d2d cBA|G3- G3||
+S:https://www.folktunefinder.com/tunes/139686
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

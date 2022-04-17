@@ -1,0 +1,40 @@
+X: 12
+T:Port Gordon (#62)
+M:4/4
+L:1/8
+S:O'Farrell's Pocket Companion 1804-1810
+K:F
+DE|F2 FG A2 GF|G2 GA c2 AG|FEFG A2 GF|G3 F D2 DE|
+F2 FG A2 GF|G2 GA c2 AG|A3 B A2 G2|A6 DE|
+F2 FG A2 GF|G2 GA c2 AG|A2 AB AGFG|A4 f2 DE|
+F2 FG F2 ED|EDEG A2 GE|D2 DE FED^C|D6||
+de|f3 g fg a2|FEFG F2 ED|f3 g f>g a2|GFGA G2 fg|
+a4 a2 gf|g4 agfe|fgfe defe|dA =cA/2G/2 A3 A|
+d2 dc defe|dedc A2 AB|c2 cA cded|dcAG A2 AG|
+F2 FG F2 ED|EDEG A3 c|dedc AGA^c|d6||
+%
+% In "Hardiman's Irish Minstrelsy Vol.1", "Port Gordon"
+% is listed as one of Carolan's compositions, and it is also
+% attributed to him in "O'Farrell's Pocket Companion for
+% the Irish or Union Pipes", from which the above setting
+% was copied. Bunting, however, includes "Port Gordon"
+% among the compositions of Rory Dall O'Cahan, a famous
+% harper of the Western Highlands. The fact is that Carolan
+% exercised his talents in retouching his predecessor's
+% composition according to his own personal fancy.
+% The setting which follows, taken from O'Neill's Music of
+% Ireland was found among Sergt. James O'Neill's
+% inherited manuscripts.
+S:https://www.folktunefinder.com/tunes/138677
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-2.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/PortGordon62.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0062.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

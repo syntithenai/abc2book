@@ -1,0 +1,31 @@
+X:264
+T:Flowers of Edinburgh
+R:Country Dance
+S:Scots Musical Museum, #13 (1787)
+Z:Transcribed by Bruce Olson
+M:C
+L:1/4
+Q:60
+K:F
+C/|C3/2 D/F3/2G/|(A/F/) (c/F/) {B/}AG/F/|\
+~E3/2D/ C3/4D/4 E3/4F/4|G/E/ c/E/ ~D3/2E/|\
+C3/2D/F3/2G/|~(A3/4G/4A/) c/d (d/4e/4f/)|\
+(B/A/) (G/F/) {A}/G (F/G/)|A~G3/4F/4F||(c/4d/4e/)|\
+(f3/4e/4f/) g/ (f/4g/4a/) ~(g/f/)|\
+~(e3/4d/4e/) f/ (e/4f/4g/) ~(f/e/)|\
+(d3/4c/4d/) e/ (f/e/) (d/c/)|Ad3/4e/4 d(d/4e/4) f/|\
+{c/}A G/F/c(B/A/)|d/c/d/e/ .g3/2 {g/a/} A/|\
+(B/A/) G/ F/ GF/G/|A~G3/4F/4F|]
+S:https://www.folktunefinder.com/tunes/139248
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/athol-eh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/athol-eh.abc
+% Rhythm Country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

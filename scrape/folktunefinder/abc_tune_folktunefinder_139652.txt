@@ -1,0 +1,32 @@
+X: 1
+T:The Black Joke
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Adderbury
+O:English
+R:Jig
+%P:A/2(AB)$^6$
+P:A.(AB)6
+K:G
+I:speed 600
+P:A
+|:\
+   D | DGG  GFG      |\
+       AcB  A2G/2F/2 | GAB  d>cB | AcB  AGF  | G>AB E>FG | DEF  G2   :|\
+P:B
+       Bdd  d>dd     | ede  d3   | Bdd  d>dd | ede  d2c  | B>BB BAG  |\
+       AcB  AGF      | GAB  d>cB | AcB  AGF  | G>AB E>FG | DEF  G2   ||
+S:https://www.folktunefinder.com/tunes/139652
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Black_Joke_3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

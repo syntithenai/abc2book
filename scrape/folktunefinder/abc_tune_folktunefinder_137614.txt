@@ -1,0 +1,23 @@
+X: 1
+T: Behind The Haystack
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+d2e fdB|d2e fdB|AFE ~E3|AFE EFA|
+d2e fdB|d2e fdB|AFD ~D3|AFD DFA:|
+|:~B3 BAF|ABc dcB|AFE ~E3|AFE EFA|
+~B3 BAF|ABc dcB|AFD ~D3|1 AFD DFA:|2 AFD D2f||
+|:~g3 faf|ede fdB|AFE ~E3|AFE E2f|
+~g3 faf|ede fdB|AFD ~D3|1 AFD D2f:|2 AFD DFA||
+S:https://www.folktunefinder.com/tunes/137614
+S:http://www.thesession.org/tunes/display/358
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

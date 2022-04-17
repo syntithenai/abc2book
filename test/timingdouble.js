@@ -7,13 +7,17 @@ R: polka
 M: 2/4
 L: 1/8
 K: Dmaj
-A|:dd "C"B/c/d/B/|AF AF|[c:hi there everywone]dd B/c/d/B/|AF ED|
+A|:d,d "C"B/c'/d/B/|AF AF|[c:hi there everywone]dd B/c/d/B/|AF ED|
 dd B/c/d/B/|[M:2/4]AF Ad/e/|[K:Gm] fd ec|1 d2 d2:|2 d2 dd/e/||
 |:fd de/f/|gf ed/e/|fd Ad|fd/f/ a2|
 fd de/f/|gf ed/e/|fd ec|1 d2 dd/e/:|2 d2 d2||`
 
+ 
+function isOctaveModifier(letter) {
+    return (letter === ',' || letter === "'") 
+}
 
-function multiplyTiming(multiplier,abc) {
+function multiplyAbcTiming(multiplier,abc) {
     var measures = abcjs.extractMeasures(abc)[0].measures
     var newMeasures = measures.map(function(m) {
       var abc = m.abc
@@ -44,19 +48,38 @@ function multiplyTiming(multiplier,abc) {
         var nextNextSymbol = null
         var nextNextNextSymbol = null
         if (!inQuote && !inCurlyBracket && !inSquareBracket && isNoteLetter(symbol)) {
-            if (c > abc.length + 1) {
+            if (c < abc.length + 1) {
                 nextSymbol = abc[c+1]
-                if (c > abc.length + 2) {
-                    nextNextSymbol = abc[c+2]
-                    
-                    if (c > abc.length + 2) {
-                        nextNextNextSymbol = abc[c+2]
+                if (isOctaveModifier(nextSymbol)) {
+                    var modifier = nextSymbol = abc[c+1]
+                    nextSymbol = nextSymbol = abc[c+2]
+                    if (c < abc.length + 3) {
+                        nextNextSymbol = abc[c+3]
+                        
+                        if (c < abc.length + 4) {
+                            nextNextNextSymbol = abc[c+4]
+                        }
                     }
+                    var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
+                    newAbc.push(symbol + modifier + abcFraction(decimalToFraction(result.number  * multiplier)))
+                    c = c + result.symbolsUsed  + 2
+                } else {
+                    if (c < abc.length + 2) {
+                        nextNextSymbol = abc[c+2]
+                        
+                        if (c < abc.length + 3) {
+                            nextNextNextSymbol = abc[c+3]
+                        }
+                    }
+                    var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
+                    newAbc.push(symbol + abcFraction(decimalToFraction(result.number  * multiplier)))
+                    c = c + result.symbolsUsed  + 1
                 }
+            } else {
+                newAbc.push(symbol)
+                c++
             }
-            var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
-            newAbc.push(symbol + abcFraction(decimalToFraction(result.number  * multiplier)))
-            c = c + result.symbolsUsed  + 1
+            
         } else {
             newAbc.push(symbol)
             c++
@@ -174,5 +197,5 @@ function isSlash(a) {
 
 
 
-console.log(multiplyTiming(process.argv[2] > 0 ? process.argv[2] : 1,abc))
+console.log(multiplyAbcTiming(process.argv[2] > 0 ? process.argv[2] : 1,abc))
 

@@ -1,0 +1,24 @@
+X:1
+P:Belfast Almanac, The
+R:Jig
+S:The Athole Collection
+M:6/8
+L:1/8
+K:F %Transposed from G
+N:Athole has it as a 3-part jig. This arrangement is for The Academy and omits the 3rd part
+C \
+| "F"F2F "C7"EDC | "Bb"D2E "C7"F2G | "F"A2F "C7"B2G | "F"A2F "C7"B2G || "F"A>Bc "Bb"D2D |
+| "G7"GAF "C7"EDC | "Bb"D>EF "C7"GEC | "F"F3 F2 |]| B | "F"ABc "C7"cde | "F"f2f f3 |
+| "F"A2A "F7"ABc | "Bb"d2d d3 || "F"cBA "Bb"Bcd | "F"cAc C2 C | "Bb"D>EF "C7"GEC | "F"F3 F2 |]
+S:https://www.folktunefinder.com/tunes/137649
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/Belfast_Almanac_F_16.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: Big John's Hard
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+E |:DEG GAB |ded dBG |B2A AGA |BGG G2 A |
+B2A ABd |ede ged |B2A AGA |BGG GFE :|
+DEG GAB |ded dBG |(3Bdef g2e |faf g2e |
+def g2e |fga bge |ebb eaa |g3 ged |
+eAA ABd|ede ged|def g2e |faf g2e |
+def g2e |fga bge |ebb eaa |g3 ged |
+eAA ABd|ede ged|B2A AGA |BGG G2A |
+B2A ABd| ede ged| B2A AGA| BGG G2||
+S:https://www.folktunefinder.com/tunes/138921
+S:http://www.thesession.org/tunes/display/9007
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

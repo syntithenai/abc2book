@@ -1,0 +1,40 @@
+X:4
+T:The Gallant Hussar
+S:Bacon (MDT)
+A:Bledington
+O:English
+R:Jig
+P:A(AB)2(AC)2A
+M:6/8
+Q:3/8=96
+K:G
+P:A
+D | G2 B ABc | dBe c2 A | GAB cBd | G3 F2 D | 
+G2 B ABc | dBe c2 A | GAB cBd | G3 G2 |]
+P:B
+B/2c/2 | dBd g2 g | ecA c2 B | ABc dBA | G3 F2 D | 
+G2 B ABc | dBe c2 A | GAB cBd | G3 G2 :|
+P:C
+M:3/8
+L:1/8
+z | B2 c |\
+M:6/8
+d2 c B2 d | g3 g3  | e2 c A2 B |\
+M:3/8
+L:1/8
+c2 c |
+M:6/8
+ABc dBA | G3 F2 D |\
+G2 B ABc | dBe c2 A | GAB cBd | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/139665
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

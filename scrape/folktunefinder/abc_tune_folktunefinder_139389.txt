@@ -1,0 +1,28 @@
+X: 23
+T:Biserka
+C:Serbia
+S:Aman-Folkraft
+M:3/4
+L:1/8
+Q:1/4=192
+K:GMin
+%%MIDI gchord f2z2z2
+|:"g"G4g2    |G4g2       |"d"d4d2     |"g"^c2B2A2|
+  "g"G4g2    |G4g2       |"c"c2d2e2   |"d"d6     |
+  "g"G4g2    |G4g2       |"d"d4d2     |"a"^c2B2A2|
+  "c"c2>B2 cd|"a"B2>A2 Bc|A2>G2 AB    |"g"G6     :|
+|:"d"d6      |"f"f4 ed   |"c""c"c3d ef|"d"d6     |
+  "d"d4 d2   |"g"g3f ed  |"c"c3d ef   |"d"d6     |
+  "d"d3G AB  |d3G AB     |d4 d2       |"c"^c3B AG|
+  "c"c3B cd  |"bb"B3A Bc |"d"A3G AB   |"g"G6     :|
+S:https://www.folktunefinder.com/tunes/139389
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Biserka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Biserka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

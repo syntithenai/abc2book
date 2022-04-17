@@ -1,0 +1,35 @@
+X:16408
+T:The Belfast hornpipe
+C:anon.
+O:Ireland
+A:Belfast
+R:Hornpipe
+F:http://abc.musicaviva.com/tunes/ireland/be/belfast-hnpe-d/belfast-hnpe-d-1.abc
+M:C
+L:1/8
+Q:1/4=180
+K:D
+ag|(3"D"faf df AdFA|"D"DFAd f2ed|"A7"gbec "D"dfAF|"Em"GABG "A7"E2ag|
+(3"D"faf df AdFA|"D"DFAd f2ed|(3"Em"gag ed "A7"cABc|"D"d2f2 d2:|
+|:(3DEF|"G"GFGA Bcde|"D"fgfe dcdB|"D"A2f2 fef2|"A7"G2e2 edeF|
+"G"GFGA Bcde|"D"fgfe dcdB|"D"Afed "A7"cABc|"D"df"A7"ec "D"d2:|
+|:(ag)|(3"D"fgf (3efe (3ded (3cdc|(3"G"BcB (3ABA G2ba|(3"A7"gag (3fgf (3efe (3ded|(3"A7"cdc (3BcB A2ag|
+(3"D"fgf (3efe (3ded (3cdc|(3"G"BcB (3ABA (3GAG (3FGF|"A7"Eged cABc|"D"d2f2 d2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/137654
+S:http://abc.musicaviva.com/tunes/ireland/be/belfast-hnpe-d/belfast-hnpe-d-1.abc
+S:http://abc.musicaviva.com/tunes/ireland/be/belfast-hnpe-d/belfast-hnpe-d-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/be/belfast-hnpe-d/belfast-hnpe-d-1.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:15
+T: Kilnaboy
+S: Jimmy Hogan (as "gan ainm")
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D | GBA G2 D | GBA G2 D | GBA GFG | BAA AFD |
+GBA G2 D | GBA G2 A | BdB AGA | BGG G2 :|
+A | B3 c3 | ded B2 A | G2 e dBG | EAA AGA |
+B3 c3 | ded B2 A | G2 e dBG | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/138562
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/k.abc
+S:http://www2.redhawk.org:8080/irish/zouki/k.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

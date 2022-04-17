@@ -1,0 +1,37 @@
+X: 27
+T:Johnny's Trip to France (#77)
+M:4/4
+L:1/8
+S:Capt. F. O'Neill
+R:March
+K:G
+gf|e2 A2 A2 Bd|edef "tr"gedB|G2 GA BAGA|B2 d2 d2 "tr"gf|
+e2 A2 A2 Bd|edef "tr"gedB|G2 GA BAGA|"tr"B2 A2 A2:|
+|:Bd|e2 a2 a2 ga|b2 ab a2 "tr"gf|edef gfga|bc'ba g2 ed|
+1e2 a2 a2 ga|b2 ab a2 "tr"gf|edef gag"tr"d|B2 A2 A2:|
+2a2 gf g2 fg|edef "tr"gedB|G2 GA BAGA|"tr"B2 A2 A2||
+%
+% The above fine marching tune tho' manifestly in the
+% Irish style is probably of Scotch origin because it comes
+% from the subconscious memory of the writer who
+% associated in Chicago nearly 50 years ago, with such
+% noted Highland pipers as McLean, Cant, and Monroe.
+% Of the four distinct tunes, named after Lochiel the
+% Jacobite hero to be found in old printed collections
+% I find that one specially arranged for the Highland
+% bagpipe is a variant of "Johnny's Trip to France";
+% dreamily remembered by the editor since early manhood.
+S:https://www.folktunefinder.com/tunes/138691
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/waif-2.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/T/JohnnysTripToFrance77.abc
+S:http://trillian.mit.edu/~jc/music/book/oneills/waifs/X/0077.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 2
+T:Belle of Lexington
+M:C|
+L:1/8
+S:Bruce Molsky, based on Emmett Lundy's original
+Z:AK/Fiddler's Companion
+K:D
+fe \
+|: d2 Bd A2 [F2A2] | {E/F/}EDFE D B,2 B, | A,B,DF dBAc | B(e e)e egfe |
+   d2 Bd A2 [F2A2] | {E/F/}EDFE D B,2 B, | A,B, D2 dBAF | D3 D D2 :|
+|: fg | a2 fa bafd | efdf edBd | AB d2 eafd | e2 e4 fg |
+   a2 fa bafd | efdf edBA | fe d2 dBAF | D6 :|
+N:http://www.ibiblio.org/fiddlers/BELL_BH.htm 6/3/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/137786
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/BelleOfLexington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

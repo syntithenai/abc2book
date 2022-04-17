@@ -1,0 +1,29 @@
+X:2
+T:The Cuckoo's Nest
+M:4/4
+S:Bacon (Benfield (Rollo Woods))
+A:Bledington
+O:English
+R:Reel
+P:A(AB)2(AC)2A
+K:Ador %Transposed from Gdor
+P:A
+B | c2 c2 A2 g2 | e2 dc d2 d2 | cB A2 GGAB | c2 A2 A2 :|
+P:B
+e2 | a2 a2 a2 b2 | a2 e2 e2 ef | g2 g2 g2 a2 | fgfe d2 d2 | 
+cdcB A2 g2 | e2 dc d2 d2 | cB A2 GGAB | c2 A2 A2 :|
+P:C
+e4 a4 | a4 a4 | b2 a2 g4 | e4 e4 | e2 f2 g4 | g4 g3 a | fgfe d2 d2 | 
+cdcB A2 g2 | e2 dc d2 d2 | cB A2 GGAB | c2 A2 A2 :|
+S:https://www.folktunefinder.com/tunes/139663
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

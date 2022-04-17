@@ -1,0 +1,24 @@
+X:1
+T:Bending Time
+C:Ali Ellacott 2006
+M:6/8
+L:6/8
+K:Dm
+A | "Dm"def "A7"ed^c | "Dm"dFG A3-| "Gm"ABA E3-| "A"EAG ^C2 A |\
+ "Dm"def "A"ed^c | "Dm"dFG "F"A2 A |
+ "Gm"GAB "A7"AGE | "Dm"F2 D-D2 :|\
+F | "C"E2 E-EDE | "Bb"F2 F-FEF | "Gm"G2 G-GFG | "A"A3 A2 F |
+ "C"E2 E-EDE | "Bb"F2 F-FEF | "Gm"GAB AGE | "Dm"F2 D-D2 F ||\
+ "A"E2 E-"c#"EDE | "Dm"F2 F-"f"FEF |
+ "Gm"G2 G-"E7/g#"GFG | "A"A3-A2 A |\
+ "A"aAa gGg | "(A)"fFf eEe | "Bb"def "A/c#"ed^c | "Dm"d2 D-D2 |]
+S:https://www.folktunefinder.com/tunes/137939
+S:http://www.thomasbending.co.uk/tunesdances/bendingtime.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

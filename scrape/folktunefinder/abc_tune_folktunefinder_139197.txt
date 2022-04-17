@@ -1,0 +1,21 @@
+X: 1
+T: Binomial Expansion
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+GA|:BE ~E2 FEDE|CE ~E2 FEDE|B,E ~E2 GEDE|GABG A2 GA|
+BE ~E2 FEDE|CE ~E2 B,E ~E2|GABG A2 dA|1 GBFB E2 GA:|2 GBFB E2 Bd||
+|:e2 gf eagf|bgea fdgf|e2 ~e2 fede|ce ~e2 d2 af|e2 gf eagf|
+bgea fdga|1 bagf edBA|GBFB E2 Bd:|2 eA ~A2 BcBA|GBFB E2 GA||
+S:https://www.folktunefinder.com/tunes/139197
+S:http://www.thesession.org/tunes/display/6525
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

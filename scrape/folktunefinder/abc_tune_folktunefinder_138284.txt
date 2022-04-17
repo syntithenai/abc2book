@@ -1,0 +1,30 @@
+X: 1
+T:The Berkeley Wassail
+M:3/4
+C:Jon Berger
+S:melody only
+N:Copyright (c) Jon Berger
+Z:Jon said to spread this around all you like, but keep his name with it.
+A:Berkeley Morris
+O:
+R:
+%:NoTeX
+K:F
+L:1/8
+Q:1/4=150
+%:
+T:melody
+   c2 | c2  A2  G2   | F2  F2 C2   | F2  B2  A2  | G4    \
+   c2 | d2  B2  d2   | c>A F2 A2   | G2  c2 =B2  | c4    \
+   c2 | d2  d2  e2   | f2  c2 A2   | B2  c2  A2  | G4    \
+|: z2 | z4      z2   | z4     G2   | A2  A2  cB  | A2 A2 \
+   c2 | f2  c2  d2   | cA  F2 FF   | A2  BA  G2  | F4    :|
+S:https://www.folktunefinder.com/tunes/138284
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/be/Berkeley_Wassail_2.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

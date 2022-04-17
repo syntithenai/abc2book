@@ -1,0 +1,49 @@
+X:9
+T:Ce soir est n, dans le froid
+C:Nol populaire de Bohme du XVIe s
+C:Harmonisation et libre adaptation franaise : Bernard Lallement
+M:3/4
+L:1/4
+%%staves [1 2 3 4]
+K:D
+V:1
+A F/E/ D | [M:2/4] F/G/A | [M:3/4] de c/A/ | BA2 |
+A B/c/ d | AG/F/E | GAF/D/ | !diminuendo(!ED2!diminuendo)! |
+AF/E/D | [M:2/4]F/G/A | [M:3/4] dec/A/ | BA2 |
+A B/c/ d | AG/F/E | GAF/D/ | !diminuendo(!ED2!diminuendo)! |
+!f!DE/F/G | =cB/A/G | de^c/A/ | B!crescendo(!A2 |!crescendo)! 
+AB/c/d | AG/F/E | GAF/D/ !diminuendo(! | E!diminuendo)!HD2 |]
+V:2
+A F/E/D | [M:2/4] D/E/F | [M:3/4] AcA/F/ | GE2 |
+(E/F/) G/ E/ A | F D/ D/ C | D F D/ D/ | CD2 |
+A F/E/D | [M:2/4] D/E/F | [M:3/4] AcA/F/ | GE2 |
+(E/F/) G/ E/ A | F D/ D/ C | D F D/ D/ | CD2 |
+!f!D E/F/G | GF/F/E | FAA/F/ | (G/E/)!crescendo(!F2 |!crescendo)!
+(F/E/)G/G/F | FD/D/C | EA,D/D/ | (D/C/)HD2 |]
+V:3
+AF/E/D | [M:2/4] A/A/A | [M:3/4] fee/c/ | dc2 |
+cd/e/f | dB/A/c | BdA/A/ | AA2 |
+AF/E/D | [M:2/4] A/A/A | [M:3/4] fee/c/ | dc2 |
+cd/e/f | dB/A/c | BdA/A/ | AA2 |
+!f!DE/F/G | ed/=c/B | !crescendo(!B^c!crescendo)!e/c/ | (d/B/)!crescendo(!c2 |!crescendo)!
+cd/e/(f/d/) | (c/d//c//) B/A/ c | BeA/A/ | AHA2 |]
+V:4
+A,F,/E,/D, | [M:2/4] D,/D,/ D, | [M:3/4] D,A,A,/A,/ | G,A,2 |
+A,G,/G,/F, | F,G,/D,/A, | G,D,D,/D,/ | A,,D,2 |
+A,F,/E,/D, | [M:2/4] D,/D,/ D, | [M:3/4] D,A,A,/A,/ | G,A,2 |
+A,G,/G,/F, | F,G,/D,/A, | G,D,D,/D,/ | A,,D,2 |
+!f!D, E,/F,/G, | =C, D,/D,/ E, | B,,A,,A,/A,/ | G, !crescendo(!F,2 |!crescendo)!
+(F,/A,/) G,/E,/ B, | F,G,/D,/ A, | E,C,D,/F,,/ | A,,HD,2 |]
+W:Harmonisation : Fontenay-aux-Roses, 13 avril 1988
+W:Adaptation franaise : Wolfenbuttel, 14 septembre 1997
+S:https://www.folktunefinder.com/tunes/138225
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

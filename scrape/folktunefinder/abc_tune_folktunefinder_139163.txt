@@ -1,0 +1,22 @@
+X: 1
+T: Billy's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+FDF AFD|ABc dAG|FDF AFD|EB,E GFE|
+FDF ABc|dfe ~d3|cBA GEC|1 EDC D2E:|2 EDC D2A||
+|:dcd AFD|~d3 ecA|=cBc GEC|~=c3 dBG|
+dcd ABc|dfe ~d3|cBA GEC|1 EDC D2A:|2 EDC D2E||
+S:https://www.folktunefinder.com/tunes/139163
+S:http://www.thesession.org/tunes/display/4102
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

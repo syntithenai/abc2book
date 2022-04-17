@@ -1,0 +1,25 @@
+X: 5
+P: Buffalo Gals
+R: reel
+O: American
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: C|
+L: 1/8
+K: A
+|: "A"A2A2 c2ee | f2ee c4 | "E7"e2dd B2e2 | "A" f2ee c4 \
+|  "A"A2A2 c2ee | f2ee c4 | "E7"e2ee dcB2 | "A"A8 :|
+|: "A"a2g2 f2e2 | f2ee c4 | "E7"e2dd B2e2 | "A" f2ee c4 \
+|  "A"a2g2 f2e2 | f2ee c4 | "E7"e2ee dcB2 | "A"A8 :|
+S:https://www.folktunefinder.com/tunes/137932
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR13_B.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:10
+T:The Old Woman Tossed Up
+M:6/8
+S:Bacon (CJS from Bond (RD))
+A:Bledington
+O:English
+R:Jig
+P:A(AB)4A
+K:G
+P:A
+D | GAB c2 d | edc BAG | ABc d2 c | BAG G2 :|
+P:B
+g | efg efg | efg fed | Bcd def | gfe d2 B | 
+GAB c2 d | edc BAG | ABc d2 c | BAG G2 :|
+S:https://www.folktunefinder.com/tunes/139671
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

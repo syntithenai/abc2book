@@ -1,0 +1,30 @@
+X:530
+%%topmargin 3cm
+U:~=!turn!
+U:k=!crescendo(!
+U:m=!crescendo)!
+U:n=!diminuendo(!
+U:p=!diminuendo)!
+T:A Bhean an taigh nach leig thu steach am fear a tha air fogairt*
+T:Good Wife, Admit the Wanderer*
+C:From Capt. Fraser's Collection
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Air
+M:2/4
+L:1/8
+K:Bb
+"Slow." ((3F/G/A/) | !p!.[DB]"_with expression of hesitation.".[Fd] .[DB] z/ (d//c//) | .[DB] .[Fd] .[DB] z/ (d//e//) | fdBF | G3 ((3F/G/A/) | .[DB] "_cres.".[Fd] .[DB] z2 (d//c//) | .B/.B/ .d/.d/ B (d/e/) | !pp![df][df][df][df] | [D3B3] :|
+((3B/c/d/) | !p!e>"_cres."fg>e | f>ed>f | {/d}e>d f>F | G3 ((3F/G/A/) | !p!.[DB] .[Fd] .[DB] z/ (d//c//) | .B/.B/ .d/.d/ B (d/e/) | !pp![df][df][df][df] | [B3D3] ((3B/c/d/) |
+"_cres."e>fg>e | {/d}b>gfd | fdBF | G3 ((3F/G/A/) | !f!B>F G/F/E/D/ k| (d/c/)(d/e/ f/g/a/)Hmb/ n| f>d Tc2{Bc}p | [D3B3] |]
+S:https://www.folktunefinder.com/tunes/138555
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Bhean_an_taigh_nach_leig_thu_steach_am_fear_a_tha_air_fogairt_.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Good_Wife_Admit_the_Wanderer_.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0530.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:4
+T:Le Christ est n ce soir
+O:Vannetais
+C:Harmonisation : Bernard Lallement
+C:Nol de Basse-Bretagne
+M:6/8
+L:1/8
+K:D
+V:1
+F | F2B B2A | B3 d3 | c2BA2B |
+F3 !breath! F2F | F2B B2A | B3d3 | c2B A2B | F3 F2z |
+B3 A2F | G2A F2G | F2E D2E | F3- !breath!F2F |
+F2B B2A | B3 d3 | c2e d2c | B6 |]
+V:2
+F | F2G G2F | F3 B3 | G2F E2(F/G/) |
+C3 !breath!C2D | D2G G2F | F3 B3 | G2F E2(D/C/) | B,3 B,2z |
+F3- FED | E2E D2D | D2C D2B, | !breath! C2A, B,2C |
+D3E3 | F3G3 | A2c B2A | F6 |]
+V:3
+d | d2d e2d | B3 f3 | e2B c2B !diminuendo(! |
+B3 !breath! !diminuendo)!A2B | B2d e2c | d3 f3 | e2B c2 (d/e/) !diminuendo(!| e3d2!diminuendo)! z |
+d3 c2A | B2c A2B | A2G F2B | (A3!breath!D2)F |
+F2G G2A | A2F B2e | (ef)g f2e | d6 |]
+V:4
+B, | B,2G, E,2F, | D,3 B,,3 | E,2D, C,2(D,/E,/) |
+F,3 !breath! F,2B, | B,2G, E,2F, | D,3 B,,3 | E,2D, C,2(B,,/A,,/) | B,,3 B,,2z |
+B,3 F,2F, | E,2A,, D,2G, | D,2A,, B,,2G,, | !breath!F,,2F,, G,,2A, |
+B,,3 C,3 | D,3 E,3 | F,2F, G,2A, | B,6 |]
+S:https://www.folktunefinder.com/tunes/138231
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

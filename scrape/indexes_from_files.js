@@ -17,7 +17,11 @@ const abcjs = require('abcjs');
 function stripText(text) {
   return text ? text.trim().replace(/[^\w\s]/g,'').toLowerCase() : ''
 }
-
+var settings={}
+function pushSetting(title,id) {
+    if (!Array.isArray(settings[title])) settings[title] = []
+    settings[title].push(id)
+}
 
 var index = {tokens: {}, lookups: {}}
 var files = []
@@ -55,7 +59,7 @@ for (var filenameKey in fileNames)  {
                     existing.push(id)
                     index.tokens[token] = existing
                 })
-                
+                pushSetting(title, id)
             }
           }
         } catch (err) {
@@ -67,6 +71,7 @@ for (var filenameKey in fileNames)  {
 
 //if (isFile) files.push({ filepath, name, ext, stat });
 };
+index.settings = settings
 fs.writeFileSync(__dirname.split("/").slice(0,-1).join("/") + "/textsearch_index.json"  , JSON.stringify(index));
 
 console.log('index', index)

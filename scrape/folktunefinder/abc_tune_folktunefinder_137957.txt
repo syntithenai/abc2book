@@ -1,0 +1,28 @@
+X:1
+T:Benjamin Deane
+M:4/4
+L:1/8
+K:C
+ dde|
+M:3/4
+ d3 GA G|
+M:4/4
+ F3 D/2E/2 FA G3/2 G/2|
+M:3/4
+ G3B/2-c/2 dg| g3g/2-a/2 gf| d3d/2-e/2 fg| d/2 B3/2
+M:3/4
+| c3 B/2c/2 dd| g3 ag f|
+M:4/4
+ d3 ef gd B| c3 cd/2-e/2 f d3| G A/2 G F/2-
+M:4/4
+| F3 D/2E/2 FA G3/2 G/2| G3 z||
+S:https://www.folktunefinder.com/tunes/137957
+S:http://back.numachi.com:8000/dtrad/abc/BENJDEAN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

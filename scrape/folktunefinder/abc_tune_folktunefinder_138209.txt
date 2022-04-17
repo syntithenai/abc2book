@@ -1,0 +1,26 @@
+X:13
+T:Bourre ronde de la Sole
+O:France
+A:Bas-Berry
+C:Trad.
+R:Bourre  2 temps
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-05-26
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+K:G
+g2d2 | B/c/B/A/ G2 | A>B cA | B>c d2 | g2d2 | B/c/B/A/ G2 | A>B cA |1 G2 G2 :|2 G3 d |:
+B>d Bd | e2c2 | e>g fe | d3d | B>d Bd | e2e2 | d>c BA |1 B2 Gd :|2 G2G2 |]
+%%text 2 X
+%%footer $D   Galouvielle-MBe 2007 \nBourre  2 temps (France)
+S:https://www.folktunefinder.com/tunes/138209
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:The Mug of Brown Ale
+C:Traditional
+N:Play 3 times
+N:The Derradda Set, Figure 1, Tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Jig
+M:6/8
+L:1/8
+K:AMix
+eAA fAA | gfg age | dBA G2 A | BAB def |
+eAA fAA | gfg age | dBB gBB | BAG ABd :||
+efg ~a3 | aba age | def ~g3 | gfg ged |
+efg ~a3 | aba age | dBB gBB | BAG A3 :||
+S:https://www.folktunefinder.com/tunes/139019
+S:http://theflow.org.uk/text/flow_derradda.txt
+S:http://www.theflow.org.uk/text/flow_derradda.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

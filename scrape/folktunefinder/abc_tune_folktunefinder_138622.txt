@@ -1,0 +1,21 @@
+X: 1
+T: Biddlestone, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+D2|G>d B>G F>A D2|E>G c>e d>B G>B|(3cde (3ABc (3Bcd G>B|A>B A>G F>A d>D|
+G>d B>G F>A D2|E>G c>e d>B G>B|(3cde (3ABc (3Bcd G>d|e>c A>F G2:
+|:(3def|g>d B>d f>a d2|(3efg c>e d>B G>B|(3cde (3ABc (3Bcd G>B|A>^c e>g f>d e>f|
+g>d B>g f>a d2|(3efg c>e d>B G>B|(3cde (3ABc (3Bcd G>d|e>c A>F G2:|
+S:https://www.folktunefinder.com/tunes/138622
+S:http://www.thesession.org/tunes/display/6339
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

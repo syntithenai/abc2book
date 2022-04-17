@@ -1,0 +1,40 @@
+X:1
+T:Lorsqu'en la saison qu'il gle
+C:Trad.
+C:Harmonisation : Bernard Lallement
+M:6/8
+L:1/8
+Q:"Avec bonhomie"
+%%measurenb 1
+%%staves [1 2 3 4]
+K:Am
+V:1 name=S
+d2d | c2e d2c | {Bc}B2A c2d | e2A B2{A}^G |
+!breath!A3 !p!A2A | A2G A2B | c3 A2A | F2A G2F |
+{EF}E2!breath!D (D2E) | F2F G>FG | !breath!A3A2A | F2AG2F |
+E2D (D2E) | F2F G>FG | !breath!A3 !crescendo(!A2B!crescendo)! | ^c2d ec2 !f!| Hc3 |]
+V:2 name=A
+A2A | (Ac)B (cB)A | (AG)E A2A | (Bc)A (FD)E |
+!breath!C3 E2E | E2E E2G | A3 E2E | D2(C/D/) E2D |
+C2!breath!A, (A,2D) | D2D E>FE | !breath!E3 E2E | D2F E2D |
+C2B, (A,2D) | D2D E>DE | !breath!F3 !crescendo(!A2A!crescendo)! | A2A GE2 !f!| H[A3D3] |]
+V:3 name=T clef=treble
+F2F | E2G (A/G/F)D | D2C E2F | (G/F/E)C D2 {C}B, |
+!breath!A,3 C2C | B,2B, C2D | E3 C2C | A,2A, C2A, |
+A,2!breath!F, (F,2G,) | A,2B, C>A,C | !breath!C3 C2C | A,2C B,2B |
+G,2G, (F,2G,) | A,2B, C>A,C | !breath!C3 !crescendo(! F2F !crescendo)! | E2D B,E2 !f!| HA,3 |] 
+V:4 name=B
+D,2F, | A,2G, (F,/E,/D,)F, | G,2A, A,2F, | (E,/D,/C,)F, (D,B,,)E, |
+!breath!A,,3 A,2A, | E,2(E,/D,/) C,2B,, | A,,3 A,,2A,, | D,2F, C,2D, |
+A,,2!breath!D, D,3 | D,2D, C,>D,C, | !breath!A,,3 A,,2A, | D,2D, G,,2G,, |
+C,2A,, D,3 | D,2D, C,>D,C, | !breath!F,3 !crescendo(! D,2D, !crescendo)! | A,2F, G,A,2 !f!| HD,3 |]
+S:https://www.folktunefinder.com/tunes/138228
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

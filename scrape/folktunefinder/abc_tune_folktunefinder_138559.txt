@@ -1,0 +1,35 @@
+X:1
+T:na Bhn
+K:C
+L:1/8
+M:6/8
+C|D2D(G2F/2D/2|(C3C))zE|D2C/2E/2(D2C/2B,/2)|(C3C)ZC|
+D2DG2G|(3(G2A2)B2|(c2Bc2)c/2d/2|(e3d2cd|c2BG>G)G/2G/2|
+(3G2A2B2|(c2Bc2)c/2d/2|(e3 d2)(c/2d/2)|(c2B G>FE/2F/2|
+G2F E>E E/2 E|D2C/2B,/2 C (C2|C3C)z||
+W:
+W: A na Bhin, a bhlith na ndlaoi mra,
+W: tar is do bhis de bharr droch-chomhairle,
+W: fach, a ghr, c acu a bh'fhearr den d chomhairle--
+W: an aon ghlaoch amhin is m in th na Donige.
+W:
+W: A na Bhin, mar rs i ngairdn th;
+W: mar choinnleoir ir ar bhord na bainrona th;
+W: ba chiliir is ba cheolmhar ag do na bhealaigh seo romham th.
+W: Is  mo sheacht maidne brnach nr psadh liom th.
+W:
+W: A na Bhin, is t a mhearaigh mo chiall;
+W: a na, is t a chuaigh go dlth idir m is Dia.
+W: A na, a chraobh chumhra, a libn chasta na gciabh,
+W: nrbh fhearr domsa a bheith gan sil n d'fheiceil ariamh
+S:https://www.folktunefinder.com/tunes/138559
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/una.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/una.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:3
+O:Macedoine
+M:C|
+K:C
+a4 g4 | ^fagf e3 d | egfe d2 a2 |
+gagf eded | egfe d2 a2 | gagf e3 d |
+egfe d2 a2 | gagf eded | efed cdcB |
+cBcd edef | gfed cdBc | A2 AE ABcd |
+efed cdcB | cBcd edef | gfed cdBc |
+|1 A2 AE A2 z2 :|2 A4 |
+S:https://www.folktunefinder.com/tunes/138990
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/biljana.txt
+S:http://users.skynet.be/infants/musiques/abc/biljana.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/biljana.txt
+% Titles No title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:3
+T:Behind The Haystack
+R:jig
+C:Traditional
+M:6/8
+L:1/8
+K:D
+|:A |\
+"D"d2 e fdB |\
+"Bm"d2 e fdB |\
+"A"AFE EDE |\
+"A"AFE E2 A |\
+"D"d2 e fdB |\
+"Bm"d2 e fdB |\
+"D"AFD E2 D |\
+"D"AFD D2 :: A |\
+"Bm"B2 B BAF |\
+"Bm"ABc dcB |\
+"A"AFE EDE |\
+"A"AFE E2 A |\
+"Bm"B2 B BAF |\
+"Bm"ABc dcB |\
+"D"AFD E2 D |\
+"D"AFD D2 :: f |\
+"G"gag "D"fgf |\
+"A"ede "Bm"fdB |\
+"A"AFE EDE |\
+"A"AFE E2 f |\
+"G"gag "D"fgf |\
+"A"ede "Bm"fdB |\
+"D"AFD E2 D |\
+"D"AFD D2 :|
+S:https://www.folktunefinder.com/tunes/137611
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/BehindTheHaystack.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

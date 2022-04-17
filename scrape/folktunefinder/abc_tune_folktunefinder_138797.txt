@@ -1,0 +1,27 @@
+X:24
+T:Sport
+R:jig
+M:6/8
+Q:3/8=110
+K:D
+"D"AdF ~A3|"Em"GBE ~G3|"D"AdF ~A3|"G"GBE "A"cde|
+"D"AdF ~A3|"Em"GBE ~G3|
+"A"cdc A2G|1 EAA "D"DE/F/G:|2  EAA "D"D2d||
+"A"~c3 "G"ded|"A"cec A2g|"D"fed ged|"A"cec A2g|
+"D"~f3 "G"~g3|"A"age d2e|
+"D"fdF "G"A2F|1 "A"GEA "D"D2d:|2 "A"GEA "D"D3||
+"Em7add11"AGG AEE|"Em7add11"AGE EDD|"Em7add11"AGE "A"cde|"D"dcA ~G3|
+"Em7add11"AGG AEE|"Em7add11"AGE EDD|
+"A"cdc "G"A2G|1 "A"EAA "D"D3:|2 "A"EAA "D"DE/F/G||
+S:https://www.folktunefinder.com/tunes/138797
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

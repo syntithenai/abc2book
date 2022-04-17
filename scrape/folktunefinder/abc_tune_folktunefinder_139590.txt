@@ -1,0 +1,26 @@
+X: 16
+T:Over The Hills And Far Away. HA16
+M:4/4
+L:1/4
+Q:100
+S:Henry Atkinson MS,Hartburn,Northumberland,1694/5 transcribed John Stokoe 1883
+N:Clef, key and time signatures are missing, but c/f other versions for
+N:key.  1st notes of bars 5, 9 missing, also 1st beat of bar  13, though
+N:enough can be sen to indicate quavers
+Z:vmp.Cherri Graebe
+K:DDorian
+G/A/|c>d c/d/e/d/|cAAG/A/|c>d c/d/e/c/|fd-dF/-G/|c>d c/d/e/d/|!
+cA-Ac|G>A G/A/c/d/|edd||e/f/|g>a g/e/d/e/|cAAe/f/|!
+g>a g/e/d/c/|ad-de/f/|g/f/ g/a/ g//e/d/e/|cAAc|G>A G/A/c/d/|edd:||
+S:https://www.folktunefinder.com/tunes/139590
+S:http://www.village-music-project.org.uk/abc/henryatt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

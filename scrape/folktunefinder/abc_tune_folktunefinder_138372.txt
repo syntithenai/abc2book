@@ -1,0 +1,27 @@
+X: 20
+T:Sunderland Hornpipe
+M:3/2
+L:1/8
+C:Ravenscroft
+S:Walsh 1731
+N:'superfluous' accidentals are as printe
+Z:ps
+K:D
+DEFG ABcAd4|fgaf e2dcB2A2|BcdBA2GFG2B2|egbg edcB AGFE|DEFG ABcAd4|fgaf e
+2dcB2A2|BcdB A2GFE2c2|dBAG FdEcd4||
+ABcd efgaf4|bagf gefg c2A2|DEFG AB^cdB4|egba gfed c2A2|afdB ^cedc B2A2|b
+g
+ec dfedc2A2|afge fdec dBAG|F2d2E2c2d2||
+S:https://www.folktunefinder.com/tunes/138372
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

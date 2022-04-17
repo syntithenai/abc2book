@@ -1,0 +1,51 @@
+X: 56
+T:Sigr. Geminianis minuet with his Graces
+M:3/8
+L:1/8
+S:Walsh 1731
+N:Trill's placed as printed. Where they occur over demi-semi=quavers they
+N:may be intended to indicate a trill ending with the demi-semi-quaver
+N:pair. A slur mark occurs over the note group and thus restricts the
+N:position of the trill mark
+Z:ps
+K:D
+d2c|d2c|de2|f2e|g2f|e2d|cd2|e3:||
+ecA|fdA|gec|a3|bge|cde|fe2|d3:||
+B2c|d2c|BAF|B2A|Ggf|e2d|cB2|F3:||
+A3|B3|c3|dcB|e3|fdc|BfF|B3:||
+L:1/16 
+d4"t"c>Bc/|d4c>Bc/|de e3"t"d/e/|egf2 e2|g3a/g/ f2|e3f/e/ d2|cd "t"d3c/d/
+|e6:||
+e2"t"cBcA|f2"t"dcdA|g2"t"fedc|a6|b/a/g/f/ g/f/e/d/ e/d/c/B/|c/A/B/c/ d/e
+/f/g/ a/g/
+f/e/|g/f/e/d/ e3"t"d/e/|d6:||
+dAdfec|dAdfec|dAabag|"t"f4e2|gabgaf|efgefd|cd d3"t"c/d/|e/a/^g/f/ e/d/c/
+B/ A2:||
+ec/B/cA/B/cd/e/|fd/c/dA/B/c/d/e/f/|g/f/e/d/ c/A/B/c/ e/d/f/^g/|a6|b/a/g/
+f
+/ g/f/e/d/ e/d/c/B/|c/A/B/c/ d/e/f/g/ a/c'/b/a/|d'd"t"e3d|d6:||
+d/A/B/c/ d/f/e/c/|d/A/B/c/ dfec|d/A/B/c/ d/e/f/^g/ a=g|"t"f4e2|gE g/b/a/
+g/ f
+D|eC e/g/f/e/ fd|cdd3"t"c/d/|e/c/A/c/ e/c/A/c/a2:||
+L:1/32 
+efed cAa>g|fgfe dAb>a|gagf efed cef^|agab agab a2=gf|gabg efge cdec |ABc
+A defd abc'a|d'2d2 e6d2|d12:||
+L:1/16 
+(3dAd (3fAf (3eAe|(3dAd (3fAf (3eAe|(3dAd (3eAe (3aAa|"t"f4e2|(3gba (3ba
+g (3agf|(3egf (3gfe (3fed|(3cBA (3dcd d>cd/|(3ea^g (3aed (3cBA:||
+(3ede (3cBA (3cBA|(3fef (3dcd (3ABA|
+(3gfe (3edc (3cBA|a6|(3bag (3gfe (3gfe|(3c'ba (3c'ba (3c'ba|(d'd e3d|d6:
+||
+% Output from ABC2Win  Version 2.1 f on 05/05/2004
+S:https://www.folktunefinder.com/tunes/138408
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

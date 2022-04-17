@@ -1,0 +1,18 @@
+X:1
+T:Scale
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+C D E F G A B c | c B A G F E D C | A, B, C D E F G A | A G F E D C B, A, |
+S:https://www.folktunefinder.com/tunes/138890
+S:http://www.asahi-net.or.jp/~mf4n-nmr/abc2abc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 6
+T:The Dawn
+M:4/4
+L:1/8
+S:Connie Connel, Cork (fiddle)
+R:Reel
+D:Session tape - Milltown Malbay 1983
+N:As played
+H:The phrase "~g3g ed" actually sounds more like "~g3g {g}ed" but this
+H:doesn't seem playable to me.
+Z:Bernie Stocks
+K:G
+G,2B,D ~C3E | DG,B,D ~G3B | ADBD cDBD | (3ABcBA GEDB, | G,2B,D ~C3E |\
+D2B,D GABd | edeg {a}gedB  |ceAc BGG2 :: ~g3g ed (3.B.c.d | ea{b}ae fedg |\
+fd(3.d.d.d bdag | {a}g2dg bgef | ~g3g edBA | c2AB cdef | ~g3g edBd | ceAc BGG2 :|
+S:https://www.folktunefinder.com/tunes/138065
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

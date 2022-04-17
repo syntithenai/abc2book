@@ -1,0 +1,31 @@
+X:1402
+T:Black mountain rag
+C:anon.
+O:USA
+R:Rag
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/usa/black-mountain-rag.abc
+M:2/4
+L:1/16
+Q:1/4=132
+K:Amix
+"^Very fast"ue|:"A"aaab agef|"G"gg(ga) g2ee|\
+"A"eeee eeee|[1"A"(fedB A3)e:|[2"A"(fedB) A4|:"A"AcBA cBAc|"A"BA(Bc) e2LA2-|\
+"A"AcBA cBAF|[1"E7"EFAB "A"A2 z2:|[2"E7""_Rep. ad lib"EFAB "A"A3e|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/139718
+S:http://abc.musicaviva.com/tunes/usa/black-mountain-rag.abc
+S:http://abc.musicaviva.com/tunes/usa/black-mountain-rag.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/usa/black-mountain-rag.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/usa/black-mountain-rag.abc
+% Rhythm Rag
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

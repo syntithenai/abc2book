@@ -1,0 +1,23 @@
+X:1
+T:Bill's Reel Birthday
+N:In Honor of Bill's \#80
+C:copyright 1997 Kaubells
+E:16                   % note spacing
+M:C
+K:G
+\bigskip
+"G"d4 e3f|g2b2dz(3ded|"C"c2A2E2F2|"G"GDA2 "D7"BGc2|
+"G"d4 e3f|g2b2dz(3ded|"C"c2A2d3F|"G"G8:|
+(3A"D"BA F2 "C#m"A2d2|"Bm"f2a2d2 (3^cdc|"Em"B^cdB G2 G2|"A7"^cdez b2a2|
+(3A"D"BA F2 "C#m"A2d2|"Bm"f2a2 (3ded ^c2|"Em"B^cdz "A7"e3A|1 "...D"d8:|2 "...D"d4 "D7"z4|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/139089
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/bill-mistakes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

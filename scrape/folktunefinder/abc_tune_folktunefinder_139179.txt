@@ -1,0 +1,24 @@
+X: 1
+T:Bimd ag l
+M:6/8
+L:1/8
+Q:139
+R:jig
+K:GMaj
+|:DGA ~B3|cBc ~d3|DGA B2 d|cAG AGF|
+!DGA ~B3|cBc def|~g3 afd|1cAF G2 E:|2cAF G2 D|
+!|:GBd ~g3|gfd ~f3|def ~g3|gfd cAF|
+!GBd ~g3|(3fga g fga|abg afd|cAFG2 D:|
+!(3EFG A A2 c|BAG cAG|(3EFG A ded|cAF G2 D|
+!(3EFG A cAG|Ade ~f3|gag fed|1cAF G2 D:|2cAF G3||
+S:https://www.folktunefinder.com/tunes/139179
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bi/Bim_d_ag_l_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

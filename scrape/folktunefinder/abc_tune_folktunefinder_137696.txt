@@ -1,0 +1,37 @@
+X:1
+T:Le Roi Renaud
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n1
+Z:anamnese@laposte.net
+M:6/8
+L:1/8
+Q:1/4=105
+K:C
+D D D | A3 A B B | G3 c c c | d3 c c B | A2 z D D D |\
+ A3 A A D | F3 A G _B | A3 G F E | D3-D2 z2 ||*
+W:Le roi Renaud de guerre revint,
+W:Portant ses tripes en sa main.
+W:Sa mre tait sur le crneau
+W:Qui vit venir son fils Renaud :
+W:Renaud, Renaud, rjouis-toi !
+W:Ta femme est accouche d'un roi.
+W:- Ni de ma femme, ni de mon fils
+W:Je ne saurais me rjouir.
+W:Allez ma mre, allez devant ;
+W:Faites-moi faire un beau lit blanc :
+W:Gure de temps n'y passerai,
+W:A la minuit trpasserai.
+W:Mais faites-le moi faire ici bas,
+W:Que l'accouche n'entende pas."
+W:Et quand ce vint sur la minuit
+W:Le roi Renaud rendit l'esprit. /.../
+S:https://www.folktunefinder.com/tunes/137696
+S:http://anamnese.online.fr/abc/davenson.html
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X:1
+T:Wachet auf, ruft uns die stimme % title
+C:Johann Sebastian Bach % composer
+O:Dirk Meineke-d.meineke@web.de % origin.
+M:C                          % meter
+L:1/8                        % length of shortest note
+Q:60                         % tempo
+%%staves (1 2)
+V:1 clef=treble name="Guitar" % voice 1
+V:2 clef=treble
+%
+K:C
+[V:1]       G2 | c/d/e ed fe GF | e/c/d FE Bc z G | c/d/e ed fe GF |
+[V:2][L:1/4] z | C     C  C  E, | F,    G, C    z | C     C  C  E, |
+%
+[V:1] e/c/d FE Bc z g | g2 f/e/d/c/ d/c/B/A/ GA/B/ | c/d/e/d/ f/e/d/c/ ed dG |
+[V:2] F,    G, C  z   | E, A,       G,       F,    | E,       C        G, B, |
+%
+[V:1] e^f fg c/B/c CA | ^fg ga c/B/c Dc'| b/a/g g/^f/g E/f/e/d/ c/B/A/G/ |
+[V:2] C   B, A,    C  | D   E  ^F    D  | G     ^F     E        D        |
+%
+[V:1] A/B/c c/B/c A,/^f/g/a/ g/f/e/d/ | gB     BA/G/ G/c/B/A/ B[GD] |
+[V:2] C     B,    A,         C        | B,/G,/ D/D/  E,/B,/   G,    |
+%
+[V:1] E>^F  F>G   [GD]3  G | c/d/e ed fe GF | e/c/d FE Bc z G |
+[V:2] C/A,/ D/A,/ [B,G,]>z | C     C  C  E, | F,    G, C  z   |
+%
+[V:1] c/d/e ed fe GF | e/c/d FE Bc z g | g2 f/e/d/c/ d/c/B/A/ GA/B/ |
+[V:2] C     C  C  E, | F,    G, C  z   | E, A,       B,       F,    |
+%
+[V:1] c/d/e/d/ f/e/d/c/ ed   B,c | ab bc' f/e/f  ca    | bc' c'd' f/e/f Fd |
+[V:2] E,       C        G/F/ B,  | B, D  G,/A,/ B,/F,/ | D   G    A     F  |
+%
+[V:1] e/d/c A/B/c c/_b/a/g/ f/e/d/c/ | d/e/f D/e/f G,/B/c/d/ c/B/A/G/ |
+[V:2] G     A     F/E/      D/C/     | B,    D     G,/A,/    G,/F,/   |
+%
+[V:1] gc     e/d/c/B/ c/f/e/d/ ec   | A>B  B>c       c4-| c8     |]
+[V:2] E,/A,/ F,/B,/   A,/B,/   C/E/ | F/D/ G/G,/ [GEC]2-| [GEC]4 |]
+S:https://www.folktunefinder.com/tunes/137796
+S:http://kittybriton-abc.blogspot.com/2008_03_01_archive.html
+S:http://kittybriton.multiply.com/journal/item/36
+S:http://kittybriton.multiply.com/journal/item/36/Organ_Prelude
+S:http://kittybriton-abc.blogspot.com/search/label/bach
+S:http://kittybriton-abc.blogspot.com/search/label/BWV565
+S:http://kittybriton-abc.blogspot.com/search/label/thunder
+S:http://kittybriton-abc.blogspot.com/search/label/toccata%20and%20fugue
+S:http://kittybriton-abc.blogspot.com/search/label/Easter
+S:http://kittybriton-abc.blogspot.com/search/label/organ
+S:http://kittybriton-abc.blogspot.com/2008/03/organ-prelude.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

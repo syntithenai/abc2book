@@ -1,0 +1,31 @@
+X: 53
+T:The First New Dutch Skipper
+M:6/4
+L:1/4
+N:p26 missing in my copy; this is John Offord's version
+Z:ps
+K:D
+D2AF2D|D2AF2D|ABcd2A|ABcd2D|D2AF2D|D2AF2D|ABcdCB|EF^GA3||
+e2ee2c|d2ef3|efgf3|efgf3|gfegfe|fedc2B|d2AF2B|A2dc2d|e2eagf|efcd3||
+M:6/8
+L:1/8
+K:dmin
+dDE FED|DDE FED|def eag|fed e^ca|dDE FED|DDE FED|def eag|fed edc|=BA^GA3
+||
+A_Bc cdc|cdA BAG|=Bcd ded|fed e^cA|afd e^cA|fede^cA|agf efg|Ad^cd2||
+K:D
+a|dcd ABc|dAFD2d|def eag|fed cBA|dcdABc|dAc eAe|fed cBA|AECA,2e|ecA ecA|
+efgg2f|efg gfe|dcB dcB|Bdf B/c/d/e/f|bfdB3|FGA FGA|dAF GFE|GBe GBe|Bcd c
+BA|defecA|def ecA|dcdABc|dAFD3||
+S:https://www.folktunefinder.com/tunes/138405
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

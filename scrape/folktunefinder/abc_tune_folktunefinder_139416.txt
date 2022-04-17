@@ -1,0 +1,24 @@
+X:1
+T:Le bistrot
+C:Georges Brassens, fichier abc : Bernard Loffet
+L:1/8
+Q:260
+M:3/4
+K:C
+ [A3/2A,,3/2]B/ [c3/2A,3/2]d/ [e2A,2] | [g3/2G,,3/2]d/ [B3/2G,3/2]G/ [d2G,2] | [f2F,,2] [z2F,2] [zF,]e | \
+ [d3/2E,,3/2]c/ [B2E,2] [z2E,2] | [A3/2A,,3/2]B/ [c3/2A,3/2]d/ [c2A,2] | [e3/2G,,3/2]B/ [G3/2G,3/2]D/ [B2G,2] | \
+ [c2F,,2] [z2F,2] [zF,]B | [A3/2A,,3/2]G/ [A2A,2] [z2A,2] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/139416
+S:http://diato.ifrance.com/diato/tablat/214.abc
+S:http://diato.ifrance.com/tablat/214.abc
+S:http://diato.org/tablat/214.abc
+S:http://perso.wanadoo.fr/diato/tablat/214.abc
+S:http://pro.wanadoo.fr/diato/tablat/214.abc
+S:http://www.diatonique.net/tablat/214.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

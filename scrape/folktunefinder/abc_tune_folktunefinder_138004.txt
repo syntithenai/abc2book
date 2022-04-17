@@ -1,0 +1,24 @@
+X:220
+T:Gan Ainm
+M:4/4
+L:1/8
+S:Ciaran Kelly, Moneymore, Derry (Accordian)
+R:Reel
+D:Session tape - Derrygonelly, Fermanagh 1993
+Z:Bernie Stocks
+K:D
+d2Ad cdAd | cdef g2fe | d2Ad cdAF | GEEF GABc | d2Ad cdAd | cdef g2fg |\
+afge fdec | d2AF GABc || d2fd Adfd | d2fa gece | d2fd Adfd |\
+ceAc eAce| d2fd Adfd | cdef g2fg | agfe fdec | d2AF GABc||
+S:https://www.folktunefinder.com/tunes/138004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/MR/Book1.abc
+S:http://www2.redhawk.org:8080/irish/MR/Book1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

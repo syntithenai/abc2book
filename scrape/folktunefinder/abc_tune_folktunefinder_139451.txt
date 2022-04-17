@@ -1,0 +1,26 @@
+X: 1
+T: Black Bear, The
+C: R-127
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+A2| "D"d2d2 fdaf| d2d2 fdaf| "G"e2B2 "E7"B2ed| "A7"cdBc ABcA|
+    "D"d2d2 fdaf| d2d2 "Bm"fdaf| "Em"e2e2 "A7"egfe| "D"d2f2 d2:|
+\
+e2| "A"A2AB "Bm"d2de| "Em"g2fe "D"fafd| "A"A2AB "Bm"d2de| "Em"g2fe "D"fafd|
+    "A"aAAA cAAA| "Em"dBBB "A"eccc| "D"d2d2 "Em"egfg| "A7"a2a2 agfe|
+    "D"d2d2 fdaf| d2d2 fdaf| "G"e2B2 "E7"B2ed| "A7"cdBc ABcA|
+    "D"d2d2 fdaf| d2d2 "Bm"fdaf| "Em"e2e2 "A7"egfe| "D"d2f2 d2|]
+%%text 9/1/98.  Formerly W-15
+S:https://www.folktunefinder.com/tunes/139451
+S:http://roaringjelly.org/music/reel/R127_Black_Bear_The.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R127_Black_Bear_The.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R127_Black_Bear_The.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

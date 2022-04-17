@@ -1,0 +1,27 @@
+X:9
+T:Scottish de Stockfish
+R:Scottish
+C:
+Q:1/2=100
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-06-17
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:C
+P:1
+ABcd e3f|edce d4|[1,3 e2e2A4|Bcdc B4:|[2,4 e2e2 A3c | BAGB A4 ::
+e2e2 g3e | d2c2 d4 | e2e2 A4| Bcdc B4 | e2e2 g3e | d2c2 d4 | e2e2 A3c | BAGB A4 ::
+[P:2]e2A2 A3c | B2G2 A4 | ABcd e2ee | d2cd e2e2 | e2A2 A3c | B2G2 A4 | ABcd e2dc | B2c2A4 :: 
+AcAc ecec | AcAc ecec | BcBc d3B | c2d2 e2e2 | AcAc ecec | AcAc ecec | BcBc d3B | c2B2 A4:|
+%%footer $D   Galouvielle-MBe 2007 \nBourre  2 temps (--)
+S:https://www.folktunefinder.com/tunes/138205
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X: 9
+T:Miss McLeods
+M:4/4
+L:1/8
+S:Charlie Harris, London (Accordian)
+R:Reel
+D:Private tape - Milltown Malbay 1985
+N:As played
+H:Very much a melodeon version (D row) removing a lot of the bellows work
+H:which would otherwise be needed.
+Z:Bernie Stocks
+K:A
+A2fA e2cB | AccB cecB | A2fA eAcA | BcBA GBEG | A2fA e2cB | AccB cde2 |\
+defa fece | afec BecB || (3.A.A.AAa fdaf | eccB cecB | (3.A.A.AAa fdaf |\
+ecBA BecB | (3.A.A.AAa fdaf | eccB cde2 | defa fece|afec BecB ||
+S:https://www.folktunefinder.com/tunes/138068
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

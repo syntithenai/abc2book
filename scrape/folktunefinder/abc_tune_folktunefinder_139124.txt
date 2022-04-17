@@ -1,0 +1,33 @@
+X:1
+T:Billy Boy
+M:6/8
+C:
+S:Bacon (Col. by TM from Charles Benfield (BC))
+N:transposed from F to G
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$(A)
+P:A.(AB)4(A)
+%:
+%:
+K:G
+I:speed 300
+P:A
+|: GBd  cAB | cBc  AFD | BAG  EDC  | DEF G3  :|\
+P:B
+|: c2 d ecA | B2 c dBG | Bcd  e2 c | ABc d3  |\
+   GBd  cAB | cBc  AFD | BAG  EDC  | DEF G3  :|
+S:https://www.folktunefinder.com/tunes/139124
+S:http://www.ucolick.org/~sla/morris/music/Bledington/billyboy.lbG.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

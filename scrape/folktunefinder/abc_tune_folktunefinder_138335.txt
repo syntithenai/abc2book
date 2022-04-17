@@ -1,0 +1,27 @@
+X:0603
+T:"Beside The White Rocks"    (air)    0603
+C:Unattributed
+C:animated
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=110
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+"_VB"(F/2G/2)|(A3/2B/2c) (d2e)|(f2d) (ecA)|(A3/2G/2E) (GAB)|=c3A2G|
+(A3/2B/2c) d3/2(e/2f/2g/2)|f2d (ecA)|(A3/2G/2E) (GAE)|D3D2||
+G|(AGE) (GAB)|=c2B A2G|(AGE) (GAB)|=c3A2G|
+(A3/2B/2c) d3/2(e/2f/2g/2)|f2d (ecA)|(A3/2G/2E) (GAE)|D3D2|]
+S:https://www.folktunefinder.com/tunes/138335
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0603-BesideWhiteRocks.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0603-BesideWhiteRocks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

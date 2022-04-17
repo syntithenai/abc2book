@@ -1,0 +1,23 @@
+X: 8
+T:Black Joke, Ilmington
+M:6/8
+L:1/8
+A:Ilmington
+P:A(A2B2)4A2
+K:A
+P:A
+E>AA A2A|B>cB B2B|c>dc cBA|B>cB BAG|A3 F3|E3 A3||
+P:B
+Ace  e2e|f>ga e2A|c>de e2e|fga  e3-|e3 d3|
+c>dc cBA|BcB  BAG|c>dc cBA|B>cB BAG|A3 F3|E3 A3||
+S:https://www.folktunefinder.com/tunes/139685
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

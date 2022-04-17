@@ -1,0 +1,27 @@
+X:9
+T:North Country Frisk
+B:Walsh
+M:3/2
+L:1/8
+N:triplets marked for first bar of last part
+K:A
+c4 Bd c>BA4|c2e2 B2d2 c2 B>A| F2 B2 E2 G2 F2 B2|F,2 D2 A2 c2 B2 A2::\
+c2 e2 d2 f2 c2 e2|B2 d2 c2 B>A F2 A2|E2 D2 C2 B,2 A,CB,A,|G,2D2 A2 c2 B2 A2::\
+ a2 c2 dcBA E2 B2| A2 D2 B2 D2 ce c>B| A2 G,4 B,2 A,2 G,2::\
+aedc BcdB cdef| edcB AcBA FABc| dcBA FGFE DCB,A,| G,2 D2 A2 c2 B2 A2::\
+CA3 D2 CA3 D2 CA3 D2|F2 B4 c2 dcBA|F2 E2 D2 C2 B,2 A,2|G,2 A4 c2 B2 A2|
+A,EAe:|
+S:https://www.folktunefinder.com/tunes/138417
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

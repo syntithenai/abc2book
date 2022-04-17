@@ -1,0 +1,39 @@
+X:2
+T:Eh ! Mon Dieu, la belle chose
+C:Trad.
+C:Harmonisation : Bernard Lallement
+M:6/8
+L:1/8
+%%measurenb 1
+%%staves [1 2 3 4]
+K:A
+V:1
+A2E | A2B cd2 | B2B A2E |
+A2B cd2 | !breath!B3 A2E | A2B cd2 | !breath!B3 A2G |
+F2E F2G | A2E A2G | F3 B>AB | 
+G2E A2G | F3 B>cB | A6- | A3 |]
+V:2
+A2E | A2B cd2 | B2B A2E |
+A2B cA2 | G3 A2E | A2G AB2 | !breath!G3 E2E |
+C2C A,2D | C2B, E2E | EDF F>ED |
+C2B, A,2E | ED>F G>FG | [A6E6]- | [A3E3] |]
+V:3
+A2E | A2B c2d | B2B A2E |
+A2e ef2 | e3 A2E | A2e ef2 | !breath!e3 c2B |
+A2G F2B | A2B c2c | A3 d>ef |
+e2e e2A | A3 d>ed | c6- | c3 |]
+V:4
+A,2E, | A,2B, CD2 | B,2B, A,2E, |
+A,2G, A,D,2 | E,3 A,2E, | A,2D CB,2 | !breath!E,3 A,2E, |
+F,2C, D,2B,, | F,2G, A,2A, | D,3 B,,>C,D, |
+E,2D, C,2C, | D,3 E,>E,E, | A,,6- | A,,3 |]
+S:https://www.folktunefinder.com/tunes/138229
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

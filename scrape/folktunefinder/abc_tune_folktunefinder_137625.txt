@@ -1,0 +1,46 @@
+X:1
+T:Beim Suppe Walzerlied
+C:Josef Eischiel
+R:walzer
+A:Mauthausen, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Oberoesterreichisches Volkslied-Archiv MVIII 10
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:C
+e |\
+eag | edc | e3 | eze |\
+eag | edc | g3 | fzf |
+fba | fed | f3 | fzf |\
+fba | fed | a3 |gge |
+eag | edc | e3 | eze |\
+eag | ^fed | c'3 | bzb |
+bag | ^fge | e3 | dzd |\
+def | ^fga | g3 | gz :|
+|: e |\
+g3 | gza | e3 | eze |\
+d2c | B2c | g3 | fzf |
+a3 | azb | f3 | fzf |\
+e2d | c2d | geg | c'ge |
+g3 | gza | e3 | eze/e/ |\
+e2g | b2c' | c'3 | dza |
+b3 | bza | g3 | gza |\
+g2f | e2d | c3 | c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/137625
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/beim_suppe_walzerlied.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:8
+T:Maid of the Mill
+M:6/8
+S:Bacon (BC (RKS MSS) (1925))
+A:Bledington
+O:English
+R:Jig
+P:A(AB)4A
+K:G %Transposed from F
+P:A
+D | DGG GFG | AGA B2 G | EEE DEF | G3 G2 :|
+P:B
+B/2c/2 | d2 d dcB | cAB c2 c | ABc dBG | G3 F2 D | 
+DGG GFG | AGA B2 G | EEE DEF | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/139669
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

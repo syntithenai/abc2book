@@ -1,0 +1,30 @@
+X:3
+T:Maggie in the Wood
+C:Traditional
+N:Play twice, then once through without repeats
+N:The Derradda Set, Figure 2, Tune 1 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+R:Polka
+M:2/4
+L:1/8
+K:G
+GD GG/A/ | Bd -de/f/ | gB B/A/G/A/ | BA AB/A/ |\
+GD G>A | Bd -de/f/ | gB AB | G2 GD :||
+Bd g2 | fe ef/e/ | dB B/A/G/A/ | BA AB/A/ |\
+Bd g2 | fe ef/e/ | dB AB | [1 G2 GD :|| [2 G2 GB ||
+gB aB | b2 -ba | gB aB | b2 -ba | ge e/g/f/e/ |\
+dB gf/e/ | dB AB | G2 GD :||
+S:https://www.folktunefinder.com/tunes/139021
+S:http://theflow.org.uk/text/flow_derradda.txt
+S:http://www.theflow.org.uk/text/flow_derradda.txt
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

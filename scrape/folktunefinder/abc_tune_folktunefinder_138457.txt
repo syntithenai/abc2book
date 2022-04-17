@@ -1,0 +1,23 @@
+X:45
+T:Northern Frisk, The
+B:Walsh
+M:3/2
+L:1/8
+N:
+K:C
+A2 e4 A2  ecBA| GABc d2 G2 B2 AG| A2 e4 A2 ecBA| E2 A4 c2 B2 A2::\
+edcB ABcd ecBA| GABc dcBA BcdB| AecA ceac| BA^G^F| E2 A4 c2 B2 A2::\
+e2 a2 d2 g2 c2 f2| BcdB GABG BcdB| ea^gb edcB ABcA| G2 A4 c2 B2 A2::\
+e2 e2 e2 e2 e4| dcBA G2 d2 BcdB| eaec AcBA ^GAB^G| E2 A4 c2 B2 A2:|
+S:https://www.folktunefinder.com/tunes/138457
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

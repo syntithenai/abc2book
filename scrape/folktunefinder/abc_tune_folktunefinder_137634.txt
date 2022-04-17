@@ -1,0 +1,20 @@
+X: 17
+T:Quick Step 71st. Regt.
+Z:rrobinson/Aird1.abc
+M:6/8
+L:1/16
+K:D
+d2f2d2 e2c2A2|d2f2a2 g2f2e2|d2f2d2 e2c2A2|d2e2d2 d6:|
+A2F2A2 B2G2B2|c2B2c2 d2e2d2|A2F2A2 B2G2B2|c2B2c2 d6:|
+The standard unit length specified by the L: field has been
+S:https://www.folktunefinder.com/tunes/137634
+S:http://ifdo.ca/~seymour/runabc/runabc.html
+S:http://ifdo.pugmarks.com/~seymour/runabc/runabc.html
+S:http://ifdo.pugmarks.com/%7Eseymour/runabc/runabc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

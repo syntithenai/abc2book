@@ -1,0 +1,23 @@
+X:30
+T:Fair Wind
+R:reel
+M:4/4
+K:D
+|:"D"A,DD CD2DE|"Bm7"FEDE FEE2|"D"A,DDC D2DE|
+1 "Bm7"FEDB, "A"B,A,A,B,:|2 "D"EFDB, "A"B,A,A,E
+|: "D"FAAF "Bm"D2DE|"A"F2FF GEEG|"D"FAAF "Bm"D2DE| \
+|1 "D"FEDB,B,A,A,E:|2 "D"FEDB,B,A,A,B,
+|: "Bm7"DB,B,2 "G"G2GE|"D"F2AF EGFE|"Bm7"DB,B,2 "G"G2GE|
+1 "D"FEDB,B,A,A,B,:|2 "D"FEDB,B,A,A,B,| \
+S:https://www.folktunefinder.com/tunes/138803
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

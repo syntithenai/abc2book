@@ -1,0 +1,29 @@
+X:8
+T:William Hardie's Waltzurka
+C:Jimmy Young
+S:Jimmy Young:Pipeworks
+M:6/8
+L:1/8
+R:mazurka
+Z:robin.beech@mcgill.ca
+K:G %Transposed from D
+B3 cBA | G4D2 | E2E FGE | D2 G2 A2 | B3 cBA | G2 A2 B2 | cd3BG | A3 D GA |
+B3 cBA | G4 D2 | E2E FGE | D4 DE | F3 EFG | A3 GFG | AcB AGF | G4 GA ::
+BDG BDG | B2c2 d2 | cEG cEG | cEG cEG | BDG  BDG | B2 c2 d2 | cBA BGA | FGE FDG |
+BDG BDG | B2c2 d2 | cEG cEG | c4 DE | F3 EFG | A3 GFG | AcB AGF |1 G4 GA :|2 G4 dd |:
+d2c dBd | G3 AB2 | d2 e2 d2 | d2 e2 d2 | d2c dBd | G3 AB2 | c3 BA2 | BGA Bcd- |
+d2c dBd | G3 AB2 | d3 ed2 | d4DE | F3 EFG | A3 GFG | AcB AGF |1 G4 dd :|2 G4 Bc |:
+dDG BdD | dcB AGF | EDE FGE | D2B2c2 | dDG BdD | dcB AG2 | d3 cBG | A2B2c2 |
+dDG BdD| dcB AGF | EDE FGE | D4DE | F3 EFG | A3 GFG | AcB AGF | G4 Bc :|
+S:https://www.folktunefinder.com/tunes/138304
+S:http://music.gordfisch.net/oregans/assets/abc/mazurkas.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

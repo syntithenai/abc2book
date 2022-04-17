@@ -1,0 +1,33 @@
+X: 1
+T:Billy Boy
+M:6/8
+C:
+S:Ruth Temple and Paul Turner
+N:as played for Seabright
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$(A)
+P:A.(AB)4(A)
+%:
+%:
+L:1/8
+K:G
+I:speed 300
+P:A
+|:D|GBd    BGB|cAG  FAD|BAG  EFG|DEF G2:|\
+P:B
+|:D|Bcd    ecB|ABc  dBA|Bcd  ecB|ABc dd[fdD]|\
+[Gg]Bd BGB|cAG  FAD|BAG  EFG|DEF G2:|
+S:https://www.folktunefinder.com/tunes/139119
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bi/Billy_Boy_3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

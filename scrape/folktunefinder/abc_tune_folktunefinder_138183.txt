@@ -1,0 +1,30 @@
+X:3
+T:Bergers et barons
+R:Branle
+C:Trad.
+H:XIII eme siecle
+A:Alsace
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-21
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:6/8
+L:1/8
+Q:3/8=120
+K:G
+d|:Bdd Bde|d2B c2d|B3B zd|Bdd Bde|
+d2 Bc2d|B2B BAG|B3 B z B|d2d c2c|B3 B z d:|
+%%begintext
+S:https://www.folktunefinder.com/tunes/138183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Chore2007.abc
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

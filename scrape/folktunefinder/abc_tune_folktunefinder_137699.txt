@@ -1,0 +1,37 @@
+X:8
+T:La Blanche Biche
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n8
+Z:anamnese@laposte.net
+M:6/8
+L:1/8
+Q:1/4=95
+K:F
+G | G3 A B c | d3-d2 d | g3 g d e | f2-e2 d d/-e/ |\
+ f3 g d c | B3-B2 B | c3 _e d c | B/-A/ G2-G z2 ||*
+W:Celles qui vont au bois, c'est la mre et la fille (2x)
+W:La mre va chantant et la fille soupire :
+W:Qu'av'vous  soupirer, ma fille Marguerite 
+W:- J'ai bien grand ire en moi, et n'ose vous le dire :
+W:Je suis fille le jour et la nuit blanche biche.
+W:La chasse est aprs moi, les barons et les princes,
+W:Et mon frre Renaud qui est encore bien pire.
+W:Allez, ma mre, aller bien promptement lui dire
+W:Qu'il arrte ses chiens jusqu' demain ressie.
+W:- O sont tes chiens, Renaud, et ta chasse gentille 
+W:- Ils sont dedans le bois  courre blanche biche.
+W:Arrte-les, Renaud, arrte, je t'en prie !"
+W:Trois fois les a corns O son cornet de cuivre ;
+W:A la troisime fois, la blanche biche est prise : /.../
+S:https://www.folktunefinder.com/tunes/137699
+S:http://anamnese.online.fr/abc/davenson.html
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

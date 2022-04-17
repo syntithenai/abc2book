@@ -1,0 +1,24 @@
+X:105
+T: Killaval #2
+S: B.Flaherty
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: D
+DFF AFF | BFF AFE | DFF AFF | EDE GFE |
+DFF AFF | BFF AFA | dcd ege | fdc d2 A :|
+Add fdd | add fdd | ace gfe | ace gfe |
+|1 Add fdd | add fdd | gfe dbB | E2 F GFE :|
+|2 f3 gfg | agf g2 e | fdB AGF | E2 F GFE ||
+S:https://www.folktunefinder.com/tunes/138580
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/k.abc
+S:http://www2.redhawk.org:8080/irish/zouki/k.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

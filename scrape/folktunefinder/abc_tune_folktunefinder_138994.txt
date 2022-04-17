@@ -1,0 +1,25 @@
+X:7
+O:Macedoine
+M:6/8
+K:C
+e3 f3 | e3 f3 | ^g3 a3 | ^g3 a3 | {b} c'3 c'bc' |
+d'2 c' c'ba | b2 a a^gf |1 ^g2 f fed :|2 a^gf e2 ||
+|: B3 e3 | cBA B2 E | cBA ^G2 A | BcA c2 E |
+B3 e3 | cBA B2 E | cBA ^G2 A | A^GF E3 :|
+|: Bcc cBc | d2 c cBA | B2 A A^GF | ^G2 F FED |
+E3 F3 | ^G3 A3 |1 B3 c3 | d3 e3 :|2 B2 A ^GAB | A^GF E3 ||
+|: Bcc cBc | d2 c cBA | B2 A A^GF | ^G2 F FED |
+EFF FEF | ^G2 A B2 A | ^G2 F FED |1 E2 F ^G2 A :|2 E2 A, E2 z ||
+E3 F3 | ^G3 A3 | B3 c3 | d3 e3 | e6 | e3 z3 ||
+S:https://www.folktunefinder.com/tunes/138994
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/biljana.txt
+S:http://users.skynet.be/infants/musiques/abc/biljana.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/biljana.txt
+% Titles No title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

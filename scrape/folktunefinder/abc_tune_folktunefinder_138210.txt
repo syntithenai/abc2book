@@ -1,0 +1,30 @@
+X:14
+T:Bourre carre de la Chtre
+R:Bourre  2 temps
+A:Berry
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-10-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=122
+K:G
+V:1
+G>A Bc|d2d2|e>f ge|d>c BA|G>A Bc|d2d2|e>f ge|d3 d:|
+|:B>G Bd|c/2d/2c/2B/2 AB|c>B ce|d/2e/2d/2c/2 Bd|B>G Bd|c/2d/2c/2B/2 AB|c>d ef|g3 d:|
+V:2
+x4 | x4 | x4 | x4 | x4 | x4 | x4 | x4 ::
+x4 | x4 | x4 | x4 | x4 | x4 | x4 | x4 :|
+%%text 2 X
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (--)
+S:https://www.folktunefinder.com/tunes/138210
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,39 @@
+X:11
+T:Suivant l'toile qui, du Ciel ...
+C:Musique : Adam Vaclav Michna
+C:Adaptation : Bernard Lallement
+M:3/4
+L:1/4
+Q:"Majestueusement"
+%%staves [1 2 3 4]
+K:C
+V:1 name=S
+ddd | d2A | B2^c | d3 | dA=c | cB2 | A2z |
+=ccc | _B2A | G2F | G3 | GA_B | (G/F/)E2 | D2z || [M:C|]
+(3EEE EE | EFG2 | GGG>F | A2A2 |
+(3AAA AA | A=Bc2 || [M:3/2] =Bcdd(^c3/ B//c//) | Hd4z2 :|
+V:2 name=A
+^FFF | ^F2D | D2E | ^F3 | ^FFE | EE2 | [E2^C2]z |
+FFF&A,CF | (D>E)F | E2D | E3 | EFG&E(D/C/)D | D(^C3/B,//C//) | D2z || [M:C|]
+(3^CCC CC | ^CDE2 | EEE>D | =F2F2 |
+(3^FFF FF | ^FGA2 || [M:3/2] DE=FFE2 H^F4z2 :|
+V:3 name=T
+AAA | A2A | G2G | A3 | A^FA | A(^G3/^F//G//) | A2z |
+AAA | G2F | c2A | c3 | cF_B | _B(EA) | A2z || [M:C|]
+(3AAA EA | AA=c2 | ccGc | c2c2 |
+(3ddd Ad | dd=f2&ddA2 || [M:3/2] dAAAA2&=BA/G/=FD(EA) | H[A4D4]z2 :|
+V:4 name=B
+D,D,D, | D,2^F, | G,2E, | D,3 | D,D,A,, | A,,E,2 | A,,2z |
+F,,F,,F,, | G,,2(A,,/_B,,/) | C,2D, | C,3 | C,(_B,,/A,,/) G,, | G,,A,,2 | D,2z || [M:C|]
+(3A,,A,,A,, A,,A,, | A,,D,=C,2 | C,C,C,C, | F,2F,2 |
+(3D,D,D, D,D, | D,G,=F,2 || [M:3/2] G,(=F,/E,/) D,D, A,,2 | HD,4z2 :|
+S:https://www.folktunefinder.com/tunes/138223
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:6
+%%maxsysstaffsep 25pt
+T:Valse des roses
+O:France
+R:Valse
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-09-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/4
+L:1/4
+Q:3/4=70
+K:G
+g2d | B>cd | g2d | B>cd | e2d | c2B | A3 | G3 ::
+B>cd | e2d | B>cd | e2d | e2d | c2B | A3 | G3 :|
+%%begintext
+S:https://www.folktunefinder.com/tunes/138186
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Chore2007.abc
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

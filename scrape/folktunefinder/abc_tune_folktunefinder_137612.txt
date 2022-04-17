@@ -1,0 +1,28 @@
+X: 1
+T: Behind the Haystack
+T: Leg of the Duck
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: handwritten MS dated 6/92
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d2e fdB | d2e fdB | "A7"AFE    E3  | AFE E2A \
+| "D"d2e fdB | d2e fdB | "A7"AFD "D"D2B | AFD D2 |]
+A \
+| "G"B3 BAF | "A7"ABc "Bm"d2B | "A7"AFE    E3  | AFE E2A \
+| "G"B3 BAF | "A7"ABc "Bm"d2B | "A7"AFD "D"D2B | AFD D2 |]
+f \
+| "G"gag "D"fgf | "Em"ede "Bm"fdB | "A7"AFE    E3  | AFE E2f \
+| "G"gag "D"fgf | "Em"ede "Bm"fdB | "A7"AFD "D"D2B |     AFD D2 |]
+S:https://www.folktunefinder.com/tunes/137612
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/BehindTheHaystack_D24.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

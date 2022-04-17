@@ -1,0 +1,23 @@
+X:1
+T:A Bird in a Gilded Cage
+M:3/4
+L:1/2
+K:Bb
+ d/2| c B/4F/4| D B/2| A G/2| C D/2| E F/4A/4| d c/2| F3/2-| F F/2|\
+ G ^F/4G/4| c/2 B/2 G/2| F G/2| A B/2| d c/4B/4| A G/2| c3/2-| c/2 z/2|\
+ d/2| c B/4F/4| D/2 F/2 B/2| A G/2| CC/4-D/4| E/2 F/2 A/2| c ^c/2|\
+ d3/2-| d d/4d/4| c/2 =B/2 c/2| G A/4_B/4| F B/2| d F/4^F/4| G A/4B/4|\
+ A G/2| c3/2-| c F/2| d ^c/4d/4| B A/4B/4| c E/2| G c/2| d c/4A/4|\
+ E c/2| B3/2-| B F/4^F/4| G G/2| c B/4G/4| F G/2| A B/2| d c/4B/4|\
+ A G/2| c3/2-| c F/2| d ^c/4d/4| B A/4B/4| c E/2| G c/2| d c/4A/4|\
+ E c/2| B3/2-| B/2 z/2 F/4^F/4| G ^F/4G/4| c B/4G/4| F B/2| d F/4^F/4|\
+ G A/4B/4| d c/2| B3/2-| B||
+S:https://www.folktunefinder.com/tunes/139328
+S:http://back.numachi.com:8000/dtrad/abc/GILDCAGE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:7
+T:Sulejmanovo Oro
+T:Danse de Suleiman
+O:Macedoine (Mer Egee)
+M:11/16
+L:1/8
+P:ABCAB
+K:Bb
+d/e/d/c/ dc/ dd/e/ | ff/g/ f=e/ f2 |
+ga b_a/ gg/f/ | g/f/e/d/ d3/- d2 :|
+|: f/g/g/f/ gf/ e/d/c | dc {B/A/} B3/ c2 |
+d/e/f/e/ dc/ Bc |1 d/e/e/d/ d3/- d2 :|2 d/c/c/B/ B3/- B2 ||
+K:Ab
+P:B
+{=e} f2-f3/-f2 | {=e} f2-f3/-f2 |
+P:C
+|: fe/f/ ed/ cB |  fe/f/ ed/ cB |
+fe/f/ ed/ cB | c/d/c/B/ A/G/A/ B2 :|
+S:https://www.folktunefinder.com/tunes/137905
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/egee.txt
+S:http://users.skynet.be/infants/musiques/abc/egee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/egee.txt
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Key G-sharp
+% Time_signature 11/16
+% Has_accompaniment_chords No chords

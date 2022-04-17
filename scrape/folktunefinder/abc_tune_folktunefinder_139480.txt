@@ -1,0 +1,21 @@
+X:2
+T:Blackberry Quadrille
+M:6/8
+L:1/8
+Z:abc2nwc
+K:D
+|:fg|a2a ba^g|a2f d2f|e2c A2g|fdB Afg|
+a2a ba^g|a2f d2f|e2c ABc|d3-d:|
+|:cB|A2B G2A|F2A def|g2e cBc|dfe dcB|
+A2B G2A|F2A def|g2e cBc|d3-d:|
+S:https://www.folktunefinder.com/tunes/139480
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/BlackberryQuadrille.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

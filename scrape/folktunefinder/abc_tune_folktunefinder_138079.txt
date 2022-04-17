@@ -1,0 +1,36 @@
+X: 20
+T:McKenna's No 2
+M:4/4
+L:1/8
+S:Dermy Diamond, Belfast (fiddle)
+R:Reel
+D:Private tape - Belfast 198
+H:'e3' in bar a unison
+N:As played
+Z:Bernie Stocks
+K:G
+e3d B2{d}BA | GABc AD{F}ED | GDGA BgeB | dBAd BGBd :|\
+fa{b}af gfed |(3Bcdef B2g2fg | eB~B2 gedB | {d}BAGA BAAg |\
+fdaf gfed | (3Bcdeg {a}gfga | bg~g2 gfed | e3g {a}gfgf ||
+S:https://www.folktunefinder.com/tunes/138079
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

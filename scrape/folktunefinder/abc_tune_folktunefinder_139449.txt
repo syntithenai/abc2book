@@ -1,0 +1,23 @@
+X: 1
+P: The Black Bear
+C: Scots Guards I
+C: arr. T. Traub 4-29-04
+R: reel
+M: 4/4
+L: 1/8
+K: D
+%%scale .68
+|: AB|"D"d2 d2 fdaf|"D"d2 d2 fdaf|"E"e2 B2 B2 ed|"A"cdBc ABcA|"D"d2 d2 fdaf|"D"d2 d2 "Bm"fdaf|"Em"e2 e2 "A7"egfe |"D"d2 f2 d2 :|
+e2|"A"A2 AB "D"d2 de|"G"g2 fe "D"fafd|"A"A2 AB "D"d2 de|"A7"g2 fe "D"fafd|"A"aAAA cAAA|"Bm"dBBB "A/C#"eccc|"D"dfdf "Em"egfg|"A"a2 a2 "A7"agfe||
+"D"d2 d2 fdaf|"D"d2 d2 fdaf|"E"e2 B2 B2 ed|"A"cdBc ABcA|"D"d2 d2 fdaf|"D"d2 d2 "Bm"fdaf|"Em"e2 e2 "A7"egfe |"D"d2 f2 d2 |]
+S:https://www.folktunefinder.com/tunes/139449
+S:http://terrytraub.org/abc/BlackBearR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/BlackBearR.abc
+S:http://terrytraub.org/abc/AustralianLadiesSet2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

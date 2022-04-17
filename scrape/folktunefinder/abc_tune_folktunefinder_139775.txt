@@ -1,0 +1,21 @@
+X: 1
+T:Black Robe, The
+R:jig
+I:speed 350
+M:6/8
+L:1/8
+K:D
+d|.cA=c {Bc}BGB|.cAA {BAG}A2d|.cA=c {Bc}BGB|{AB}AFD {A}D2d|!
+.cA=c {Bc}BGB|.cAA {BAG}A2F|~G3 {c}BGB|{AB}AFD {A}D2:|!
+e|~f3 ~g3|{b}afd {cd}cBA|~f3 ~g3|a.fd dfg|!
+{b}agf {a}gfe|fed {ged}e2d|cA=c {Bc}BGB|{AB}AFD {A}D2:|!
+S:https://www.folktunefinder.com/tunes/139775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Black_Robe_The_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

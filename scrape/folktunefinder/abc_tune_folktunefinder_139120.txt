@@ -1,0 +1,32 @@
+X:1
+T:Billy Boy
+M:6/8
+C:
+S:Bacon (RKS from Benfield (1925))
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$.(A)
+P:A.(AB)4.(A)
+%:
+%:
+K:G
+I:speed 300
+P:A
+|: GBd  cAB | c2 A AGA | B2 G E2 E | DEF G3  :|\
+P:B
+|: Bcd  ecA | B2 c dBG | Bcd  e2 e | ABc dcA |\
+   GBd  cAB | cBc  AFD | B2 G E2 E | DEF G3  :|
+S:https://www.folktunefinder.com/tunes/139120
+S:http://www.ucolick.org/~sla/morris/music/Bledington/billyboy.lb2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

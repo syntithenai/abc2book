@@ -1,0 +1,28 @@
+X: 1
+T:Bishop, The
+R:Jig
+H:Mr. Bishop was a dancer at Covent Garden Theatre in 1776-77.  He made
+H:his debut on Nov. 23 at Covent Garden dancing a "new pastoral dance"
+H:with a Miss Tinte, and at his benefit on Apr. 26, 1777, he danced a
+H:minuet with one of his pupils.
+B:Thompson's Compleat Collection v4 (1780)
+M:6/8
+L:1/8
+Q:110
+K:G
+g3 d3|B3 G2D|EGE FAF|GBc def|!
+g3 d3|B3 G2D|EGE FAF|G3 G,3:|!
+ded bgd|cdc afc|BcB gdB|AFD AFD|!
+ded bgd|cdc afc|BdB cAF|G3 G,3:|!
+S:https://www.folktunefinder.com/tunes/139410
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bi/Bishop_The_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

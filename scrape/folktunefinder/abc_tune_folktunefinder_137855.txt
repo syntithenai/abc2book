@@ -1,0 +1,28 @@
+X: 1
+T: Bells Of Gorbio, The
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|: Bff fed | e2d cBA | Bff fef | a2e f3 |
+Bff fed | e2d cBA | f<af fed | cBA B3 :|
+|: d2c B2f | d2c B2f | f<af fed | ede f3 |
+d2c B2f | d2c B2f | f<af fed | cBA B2f :|
+|: B3 Bdf | e2d cBA | B3 Bdf | a2e f3 |
+B3 Bdf | e2d cBA | f<af fed | cBA B2f :|
+|: B2d c2f | B<dd c2f | f<af fed | ede f3 |
+B2d c2f | B<dd c2f | f<af fed | cBA B3 :|
+aff f<af | ede f3 | B2d c2f | B<dd c2f |
+aff f<af | ede f3 | f<af fed | cBA B3 |
+aff f<af | ede f3 | fed c2f | B<dd c2f |
+B3 B<dB | c<ea f3 | f<af fed | cBA B3 ||
+S:https://www.folktunefinder.com/tunes/137855
+S:http://www.thesession.org/tunes/display/7516
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

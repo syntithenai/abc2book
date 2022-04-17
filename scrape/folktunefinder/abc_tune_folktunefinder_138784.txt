@@ -1,0 +1,36 @@
+X:11
+T:The Squirrel in the Hedge
+R:reel
+C:Tiennet Simonnin
+M:C|
+L:1/8
+K:G
+(3DEF|~G3A B~G3|~c3A ~B3G|c2cA (3B^cdgd|cBAG FDEF|
+~G3A B~G3|~c3A Bdfa|~g3f gedB|1 cBAF G2:|
+[2 cBAF G2(3B^cd||
+gfdB ~e3d|^cdef e~A3|gfdB ~e3d|^cdef a~f3|
+gfdB ~e3d|^cdef eA{d}AA|~g3a bafa|[1 gfe^c d2ef:|
+[2 gfe^c d2||
+(3DEF|"G"~G3A B~G3|"C"~c3A "G"~B3G|
+"C"c2cA "Bm7"(3B^cdgd|"Am7"cBAG "D7"FDEF|
+"G"~G3A B~G3|"C"~c3A "Bm7"Bdfa|
+"Am7"~g3f "C"gedB|[1 "D7"cBAF "G"G2:|
+[2 "D7"cBAF "G"G2(3B^cd||
+"Em7"gfdB "A"~e3d|^cdef "A"e~A3|
+"Em7"gfdB "A"~e3d|^cdef "Bm7"a~f3|
+"Em7"gfdB "A"~e3d|^cdef "A"eA{d}AA|
+"G"~g3a "D"bafa|[1 "A7"gfe^c "D"d2ef:|
+[2 "A7"gfe^c "D"d2||
+S:https://www.folktunefinder.com/tunes/138784
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

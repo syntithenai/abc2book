@@ -1,0 +1,25 @@
+X:6
+T:Goodmans Fields Hornpipe
+B:Walsh
+M:3/2
+L:1/8
+N:
+K:D
+B,4 DEFE DCB,^A,| B,2 GF EDCB, ^A,4| f2 bg afge fdec| d2 gf edcB ^A2 F2|\
+B,4 DEFE DCB,^A,| B,2 GF EDCB, ^A,4|gede fdcd ecBc| dcdB F2 ^A2 B4::\
+D4 FABc dcdA| Bcdc BAGF E4| E4 GBcd edec| dfgf edcB ^A4|\
+b2 ag fedc Bdfb| a2 gf edcB Acea| g2 fe dcB^A B2 fe| dcBd F2 ^A2 B4:|
+S:https://www.folktunefinder.com/tunes/138414
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

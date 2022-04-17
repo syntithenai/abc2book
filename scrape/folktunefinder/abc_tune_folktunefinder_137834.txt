@@ -1,0 +1,24 @@
+X: 1
+T: Bellman's Jig
+C: J-22
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: G
+D| "G"GDG BGB| d2c B2A| GDG A2B| "D7"c2B A2D|
+   "G"GDG BGB| d2c BcB| "Am"ABc "D7"DEF| "G"GGG G2:|
+|:\
+d| "D7"cAA A2f| "G"gdd d2d| "D7"cAA A2f| "G"gdd d2d |
+   "C"cdc "G"BcB| "Am"ABA "G"GAG| "D7"FGA DEF| "G"GGG G2:|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/137834
+S:http://roaringjelly.org/music/jig/J022_Bellmans_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J022_Bellmans_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J022_Bellmans_Jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

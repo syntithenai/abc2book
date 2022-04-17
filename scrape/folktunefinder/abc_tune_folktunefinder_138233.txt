@@ -1,0 +1,43 @@
+X:6
+T:Nol pour l'amour de Marie
+C:Harmonisation
+C:Bernard Lallement
+C:Mlodie de la fin du XVe sicle
+M:3/4
+L:1/4
+%%measurenb 1
+%%staves {1 2} [3 4 5 6]
+K:F
+V:1 name="Sopr. solo"
+CFG |: A2A | c2c !diminuendo(! | A2 !diminuendo)!G !crescendo(! | A!crescendo)!BB |  
+A3 | cBA | !breath!G3 | CFG | A3 | ccc d2!breath!d |
+cBA | G2G | (FG)G |1,2,3  !breath! F3 | CFG :|4 F3- | HF3 |]
+V:2 name="Alto solo"
+CA,C |: F2F | (ED)C !diminuendo(! | C2 !diminuendo)!B, !crescendo(! | C!crescendo)!DE |
+F3 | FGF | !breath!D3 | CA,C | C3 | AGF | (FE)!breath!D |
+FGA | D2C | F2E | !breath!F3 | CA,C :| F3- | HF3 |] 
+V:3 name=S
+z3 |: !p! CFF | (GF)C- | CCF | FD2 |
+!crescendo(! CDF !crescendo)! | F2F | F2F | !diminuendo(! (ED !breath! E) !diminuendo)! | CA,C | (FG)A | (AG)F |
+C!breath!DF | F2E | D2E | (ED)E !breath! | F3 :| (ED)E | HF3 |]
+V:4 name=A clef=treble
+z3 |: !p! CCD | (EF)G- | GFD | C2B, |
+!crescendo(! CFE !crescendo)! | D2C | (CB,)A, | !diminuendo(!G,F,!breath!C !diminuendo)! | EEF | C2A, | (DE)F |
+F!breath!DA, | (DB,)C | (A,B,)G, | (A,F,)G, | !breath! A,3 :|(A,F,)G, | HA,3 |]  
+V:5 name=T
+z3 |: !p! AAA | (cA)G | A2B | AFG |
+!crescendo(! A2A !crescendo)! | F2A | d2d | (cA!breath!G) | AcA | (AG)A | (FG)B |
+A!breath!Bc | d2e | (fd)c | c2B | !breath!c3 :| c2B | Hc3 |] 
+V:6 name=B
+z3 |: !p! F,E,D, | (C,D,)E, | (F,A,,)B,, | F,,2F,, | 
+!crescendo(! F,D,C, !crescendo)! | B,,2F,, | (G,,A,,)B,, | (C,D,!breath!C,) | A,,G,,F,, | (F,E,)F, | (B,,C,)D, |
+A,,!breath!G,,F,, | (B,,G,,)C, | (D,B,,)C, | (A,,B,,)G,, | !breath!F,,3 :|(A,,B,,)G,, | HF,,3 |]
+S:https://www.folktunefinder.com/tunes/138233
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

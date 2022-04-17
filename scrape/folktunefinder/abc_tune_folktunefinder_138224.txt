@@ -1,0 +1,25 @@
+X:10
+T:Quand nous voyons Marie
+C:Musique : Adam Vaclav Michna
+C:Adaptation : Bernard Lallement
+M:C|
+L:1/4
+%%staves [1 2 3 4]
+K:Gm
+V:1 name=S
+G | BABc | A2 (Ad) | GABc | A2(AA) | BBcc | dd/f/ed | cBA2 | G3z :|
+V:2 name=A
+D | DFGE | D2DD | DFGE | D2DD | DDFF | FF/F/CF | FDD2 | D3 z :|
+V:3 name=T
+B | BdGA | ^F2FA | BdGA | ^F2FF | G/A/BBA | BB/d/GB | AGG^F | G3z :|]
+V:4 name=B
+G, | G,F,E,C, | D,2D,^F, | G,F,E,C, | D,2D,D, | G,G,F,F, | B,,B,,/B,,/C,D,/=E,/ | F,B,,D,2 | G,,3z :|
+S:https://www.folktunefinder.com/tunes/138224
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

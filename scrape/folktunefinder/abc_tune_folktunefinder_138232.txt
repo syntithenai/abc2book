@@ -1,0 +1,42 @@
+X:5
+T:Bergers, qui tes ici-bas
+O:Haute-Bretagne (Pays de Gurande)
+C:Harmonisation
+C:Bernard Lallement
+C:
+N:Nol ancien recueilli  Batz
+M:C|
+%%measurenb 1
+%%staves [1 2 3 4]
+L:1/4
+K:C
+V:1 name=S
+GG/F/ GG | FF D2 | (G/F/)G/A/ GG |
+FF !breath!DA | A>G FG | AD zG |
+G>A G/F/G/A/ | G2 zA | A>G FG |
+AD zG | (G/F/)E FF | G4 |]
+V:2 name=A
+DD/E/ DD | DC B,2 | (D/C/)D/F/ DD | 
+DC !breath!B,F | F>D CD | FD zD |
+D>F D/C/D/F/ | D2 zF | F>D CD |
+FD zD | (D/C/)(E/D/) CC | D4 |]
+V:3 name=T
+BB/c/ BB | AA G2 | (B/A/)B/c/ BB |
+AA !breath! Gc | c>B AB | dA zB |
+B>c B/A/B/c/ | B2 zc | c>B AB |
+dA zB | (B/A/)G AA | B4 |]
+V:4 name=B
+G,G,/F,/ G,G, | D,D, G,2 | (G,/A,/)G,/F,/ G,G, |
+D,D, !breath!G,F, | F,>G, A,G, | D,F, zG, |
+G,>F, G,/A,/G,/F,/ | G,2 zF, | F,>G, A,G, |
+D,F, zG, | (G,,/A,,/)(C,/B,/) A,A, | A,4 |]
+S:https://www.folktunefinder.com/tunes/138232
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

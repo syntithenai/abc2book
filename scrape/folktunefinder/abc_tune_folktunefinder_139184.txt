@@ -1,0 +1,30 @@
+X:3091
+T:Bind deg ein blomekrans
+C:anon.
+O:Norway
+R:Catch, vals (Waltz)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/bind-deg-ein/bind-deg-ein-voca2.abc
+M:3/4
+L:1/4
+K:F
+"^1""F"CFF|"Gm"F>EG|"C7"CGG|"F"G>FA|
+w:Bind deg ein blo-me-krans, kom s\aa til leik og dans,
+"^2""F"FAA|"Gm"A>GB|"C7"GFE|"F"F2z:|
+w:fe-la ho l\aet no s\aa vak-kert i lund.
+|:"F"Acc|"Gm"c>Bd|"C7"GBB|"F"B>Ac|
+w:Sit ik-kje stur og tung, syn at du \'og er ung,
+"F"FAA|"Gm"A>GB|"C7"GFE|"F"F2 z:|
+S:https://www.folktunefinder.com/tunes/139184
+S:http://abc.musicaviva.com/tunes/norway/bind-deg-ein/bind-deg-ein-voca2.abc
+S:http://abc.musicaviva.com/tunes/norway/bind-deg-ein/bind-deg-ein-voca2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/bind-deg-ein/bind-deg-ein-voca2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/bind-deg-ein/bind-deg-ein-voca2.abc
+% Rhythm Catch, vals (waltz)
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

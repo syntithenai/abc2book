@@ -1,0 +1,27 @@
+X:9
+T:Bourre des jeunes
+R:Bourre  3 temps
+A:Berry
+O:France
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-05-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/8
+L:1/8
+Q:1/4=110
+K:C
+G|:e/2^d/2ec|B2 d/2e/2|f/2d/2f/2d/2f/2d/2|ecG|e/2^d/2ec|B2d/2e/2|f/2d/2f/2d/2B/2d/2|c2 G:|
+|:e/2^d/2e/2g/2e/2c/2|e/2^d/2e/2g/2e/2c/2|d/2^c/2d/2f/2e/2d/2|ecG|
+e/2^d/2e/2g/2e/2c/2|e/2^d/2e/2g/2e/2c/2|d/2^c/2d/2f/2e/2d/2|c2G:|
+%%footer $D   Galouvielle-MBe 2007 \nBourre  2 temps (--)
+S:https://www.folktunefinder.com/tunes/138189
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Chore2007.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

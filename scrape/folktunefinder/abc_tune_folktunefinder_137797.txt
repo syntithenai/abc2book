@@ -1,0 +1,24 @@
+X:68                          % number
+T: O'Rafferty's Motor Car     % title
+C:Tommie Connor              % composer
+O:Songs and Dances of Ireland% origin.
+M:6/8                        % meter
+L:1/8                        % length of shortest note
+P:AB
+Q:180                        % tempo
+K:C                          % key
+V:1                          % voice 1
+P:A
+G |: "C" ccc "F" ccc | "C" c2 G EFG | "D7" A2 c "G7" d2 B | "C" c3-c2 G |
+S:https://www.folktunefinder.com/tunes/137797
+S:http://kittybriton-abc.blogspot.com/2008_03_01_archive.html
+S:http://kittybriton-abc.blogspot.com/search/label/comic%20song
+S:http://kittybriton.multiply.com/journal/item/35
+S:http://kittybriton.multiply.com/journal/item/35/Saint_Patricks_Day_2008
+S:http://kittybriton-abc.blogspot.com/2008/03/saint-patrick-day-2008.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

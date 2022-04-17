@@ -1,0 +1,26 @@
+X: 2
+T: Blackbird, The
+M: 4/4
+L: 1/8
+R: set dance
+K: D Mixolydian
+|: cA |\ 
+B2 d2 c2 B2 | A2 AG ABcA | d^cde d=cAF | G2 AF D2 DE |
+FDFG A2 fe | d^cde fdAF | [M: 2/4] GAGF | [M: 4/4] D2 D2 D2- :|
+|: Dg |\
+fede fdfg | a2 ag fgaf | g2 gf gbaf | gagf d3 g |
+f2 de fefg | abag fgaf | gagf d2 d2 | defg abag |
+fgaf gage | f3 e dcAB | cBcd efge | a4 A2 AG |
+FGAB cBce | dcAF GAGF | D2 D2 D2- :|
+S:https://www.folktunefinder.com/tunes/139541
+S:http://www.thesession.org/tunes/display/1104
+% Rhythm Set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

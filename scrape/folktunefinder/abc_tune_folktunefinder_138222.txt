@@ -1,0 +1,35 @@
+X:12
+T:Joyeusement chantons Nol
+C:Musique : Adam Vaclav Michna
+C:Adaptation : Bernard Lallement
+M:3/4
+L:1/4
+Q:"Majestueusement"
+%%staves [1 2 3 4]
+K:C
+V:1 name=S
+Gcd | edf | d>cd | c2e | edc |
+d2G | A2B | c2z | cBc | dcB |
+A>GA | G2z | GAB | cde | d>cd | c3 :|
+V:2 name=A
+EEG | G2A | G2G | E2G | G2G |
+GDE | (AF)D | E2z | GGE | GcG&DEE |
+A>GF&^F>EF | G2z&D2x | GEG&EED | cGG&CGG | G3 | E3 :|
+V:3 name=T
+ccB | c2c | B>AB | c2c | cBA |
+B2c | d2d | c2z | edc | BAG |
+d3 | B2z | ccd | edc | B>AB | c3 :|
+V:4 name=B
+CA,G, | C,2F,, | G,,2G,, | C,2C, | C,2C, |
+G,2E, | (F,D,)G, | C,2z | C,G,,A,, | B,,C,C, |
+D,3 | G,2z | C,C,B,, | A,,B,,C, | G,,3 | C,3 :|
+S:https://www.folktunefinder.com/tunes/138222
+S:http://michel.bellon.free.fr/Musique/abc/Vilanelle2006.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

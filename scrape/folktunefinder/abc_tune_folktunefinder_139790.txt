@@ -1,0 +1,24 @@
+X:1
+T:Newmarket Polka, The
+S:Denis Brooks
+R:polka
+I:speed 450
+M:2/4
+K:G
+A|{c}B2.d2 d2e2|d2B2 {c}BABc|d2.B2 A2.B2 |d2.B2 G3A|{c}B2.d2 d2e2|d2B2 {c}BABc|d2G2 {c}B2A2|A2G2 {c}G3:|
+B|d2g2 {a} g2.ag|f2.e2 e4|{f} e2.d2 ^c2.d2|e2.d2|B3c|d2g2 {a} g2.ag|f2.e2 e3^d|d2G2 {c}B2.A2|A2G2 {c}G3:|
+S:https://www.folktunefinder.com/tunes/139790
+S:http://ceolas.org/pub/tunes/abc.tunes/pipersClub.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/pipersClub.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/pipersClub.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/pipersClub.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/pipersClub.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

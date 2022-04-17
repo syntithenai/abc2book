@@ -1,0 +1,25 @@
+X:6
+T:La fille au Roi Louis
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n6
+Z:anamnese@laposte.net
+M:6/8
+L:1/8
+Q:1/4=110
+K:G
+E E E | B3 A B G | E3 E F G | F3 E F D | B,2 z G G G |\
+ G3 D F G | B3 B c B | E3 D G F | E3-E2 z2 ||
+W:Le roi Louis est sur son pont,
+W:Tenant sa fille en son giron ; 
+W:Elle se voudrait bien marier
+W:Au beau Don, franc chevalier. /.../
+S:https://www.folktunefinder.com/tunes/137698
+S:http://anamnese.online.fr/abc/davenson.html
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

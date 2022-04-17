@@ -1,0 +1,26 @@
+X:1
+T:la Bergere de Coulandon
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+c2Bc | A3B/2c/2 | d3/2c/2 BA | B2 G3/2B/2 |\
+c2Bc | A3B/2c/2 | d3/2c/2 BA |1 d3 :|\
+                             [2 G4 ||
+|:\
+A3/2B/2 AG | F3G | A3/2B/2 cA | B2 G2 |\
+A3/2B/2 AG | F3G | A3/2B/2 AF |1 G4 :|\
+                              [2 G3 |]
+S:https://www.folktunefinder.com/tunes/138178
+S:http://simonwascher.info/TradArchiv_bourree_2/la_bergere_de_coulandon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

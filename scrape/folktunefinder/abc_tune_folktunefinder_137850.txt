@@ -1,0 +1,17 @@
+X:1
+T:Bell Ringing
+M:3/4
+L:1/4
+K:D
+ z2 A| d A F| G B A/2A/2| E AG/2-F/2| E A, A| D F A| G B A| E G F|\
+ D2 A/2A/2| d B c| c A d| G B A| E G F| D F A| G B A| E G F| D2 A/2A/2|\
+ d B d| A2 A| d B c| A2 A| D F A| G B A| E G F| D2 A/2A/2| d B d| c A c|\
+ d B d| c A F| D F A| G B A| E G F| D2 z|
+S:https://www.folktunefinder.com/tunes/137850
+S:http://back.numachi.com:8000/dtrad/abc/BELLRING.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

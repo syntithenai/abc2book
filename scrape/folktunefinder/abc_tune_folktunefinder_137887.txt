@@ -1,0 +1,25 @@
+X:11
+T:Waterford
+Z: id:dc-waltz-8
+M:3/4
+L:1/8
+K:D Major
+FG|A2 A2 d2|B4 e2|cB AB cA|d2 f2 a2|!
+A2 A2 d2|B4 e2|cB AB cA|d4:|!
+ef|ge Ac eg|fd Ad Fd|ce ge dc|d2 f2 af|!
+ge Ac eg|fd Ad Fd|ce ge dc|d4:|!
+FG|Ad Fd Ad|cd Gd Bd|ce ge dc|df af d2|!
+Ad Fd Ad|cd Gd Bd|ce ge dc|e2 d2:|!
+FG|A2 AB cd|B2 Gf ag|fd ge dc|ed cB AF|!
+A2 AB cd|B2 Gf ag|fd ge dc|e2 d2:|!
+S:https://www.folktunefinder.com/tunes/137887
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Waltzes.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

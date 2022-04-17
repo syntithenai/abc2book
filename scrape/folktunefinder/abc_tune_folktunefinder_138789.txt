@@ -1,0 +1,26 @@
+X:16
+T:Caliope House
+R:jig
+C:Dave Richardson
+M:6/8
+K:D
+"D"~a3 faa|"A7"eaa def|"G"~g3 fgf|"A"~e3 edB|
+"Bm"ABA A2F|"A"A2B d2e|[1 "Bm"~f3 fed|"A7"e2e efg:|
+[2 "Bm"~f3 efe|"D"d3 dAB||
+"D"dAA fAA|"A7"eAA fed|"Bm"Bee ~e2d|"A"efd "Bm"~B3|
+"D"ABA A2F|"D"A2B d2e|"Bm7"faf fed|"A7"~e3 edB|
+"D"Add fAA|"A7"eAA fed|"Bm"Bee ~e2d|"A"efd "Bm"~B3|
+"D"ABA A2F|"D"A2B d2e|"Bm7"faf edB|"D"d3 d2a||
+S:https://www.folktunefinder.com/tunes/138789
+S:http://perso.wanadoo.fr/shelta/tunes.htm
+S:http://perso.wanadoo.fr/shelta/repertoire.htm
+S:http://perso.wanadoo.fr/shelta/Images/shelta.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

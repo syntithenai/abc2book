@@ -1,0 +1,28 @@
+X:25
+T:Manchester Hornpipe
+B:Walsh
+M:3/2
+L:1/8
+N:
+K:Cm
+A2 F4 f2 f2 ed| e2 B4 A2 G2 FE| A2 F4 f2 a2 gf| f2 c4 B2 A2 GF ::\
+A2 F2 B2 G2 c2 A2| e2 B4 A2 G2 FE|A2 F2 B2 G2 c2 A2| e2 c4 B2 A2 GF::\
+fgaf g2 a2 b2 ag| a2 gf g2 a2 =e2 dc|fgaf g2 a2 b2 ag|f2 c4 B2 A2 GF::\
+FGAF A2 c2 A2 c2| EFGE G2 B2 G2 B2|FGAF ABcA cd=ec| f2 c4 B2 A2 GF::\
+f2 F4 fg a2 gf| g2 E4 ga b2 ag|a2 F4 Bc _d2 cB|c2 f4 B2 A2 GF::\
+c2 f4 g2 a2 gf|B2 f4 g2 a2 gf|A2 f4 g2 a2 gf| c2 f4 B2 A2 GF::\
+fgaf gabg fgaf| g2 e4 B2 G2 FE|fgaf gabg fgaf| f2 c4 B2 A2 GF::\
+AB c2 Bc _d2 cd e2| B2 G4 A2 G2 FG| AB c2 Bc _d2 cd =e2| f2 c4 B2 AG F2:|
+S:https://www.folktunefinder.com/tunes/138433
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:8
+T:Bevringsmarsch
+R:Marsch
+Z:Bjrn Ek 2008-12-31
+O:Vikbolandet, stergtland
+S:efter Pelle Fors
+B:Ltar efter Pelle Fors
+M:2/4
+L:1/8
+K:G
+%
+D|:G((3A/G/F/) GA|B((3c/B/A/) GB|d((3e/d/^c/) de|d2 A2 |
+B2 A2           |G2 F2         |EA/A/ AA       |1D3 D:|2D3 B||
+%
+|:dB cA|BG/G/ GG|G>G AA|d3 B  |
+G2A2   |Bd c2   |BG AF |1G3 B:|2G3||
+%
+S:https://www.folktunefinder.com/tunes/138524
+S:http://www.folkwiki.se/pub/cache/Bev%e4ringsmarsch_5a5a68.latin.abc
+S:http://www.folkwiki.se/pub/cache/Bev%e4ringsmarsch_5a5a68.abcm.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

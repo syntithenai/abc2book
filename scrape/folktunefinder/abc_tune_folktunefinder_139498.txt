@@ -1,0 +1,26 @@
+X: 1
+T: The Blackbird
+S: Paul Smyth "Up and Away"
+R: hornpipe
+M: 4/4
+L: 1/8
+D: Paul McGrattan "Keelwest"
+Z: Contributed 20050117154035 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Dmaj
+AG|FEFA GFD2|defd dcAF|G2GF GFDE|FGAF GBAG|
+F2FA GFD2|defd dcAG|Ad (3cBA GBAG|F2D2 D2:|
+fg|agfa gfeg|fdec dcA2|agfa gfde|(3fed gf e2fg|
+(3agf ge f2fe|d2de fdec|dcAF GBAG|F2D2 D2:|
+S:https://www.folktunefinder.com/tunes/139498
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/Blackbird.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Blackbird.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

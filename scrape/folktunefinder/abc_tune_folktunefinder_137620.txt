@@ -1,0 +1,19 @@
+X:4
+T:Hitotsu
+C:Traditional
+O:Mongolia ()
+D:Kaiki (Kodo)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:4/4
+L:1/4
+K:C
+c4|d2 g2|c2 cB|(G2 C2)|c3 d|B2 G2|G>F E(G|C4)|c4|F2 GB|(c4|(c2) ("_rall."B) c)|
+"_A tempo"F2 FG|B2 ce|G2 GF|D4|G2 GA|(G4|C3) E|"_rall."FGF(E|(C4)|C4):|
+S:https://www.folktunefinder.com/tunes/137620
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

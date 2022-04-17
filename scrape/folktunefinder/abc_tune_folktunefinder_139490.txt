@@ -1,0 +1,28 @@
+X:0199
+T:"The Blackbird" (1st Setting)      (air)       0199
+C:after Sg't.  J.  O'Neill
+C:very slow
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N: * tuplets will not sound correctly in NWC
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=50
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"_vb"(5(D/2E/2F/2G/2A/2)|B2(B{cB}A/2G/2) A2(A3/2B/4c/4)|"^shake"(dc)(dA) (G3/2A/4G/4) (FE)|(D3/2E/2)(FG) (A3/2"^shake"B/2A3/2).G/2|(F2D2)D2 (5(D/2E/2F/2G/2A/2)|
+B2(B{cB}AG) A2"^shake"(fe)|"^shake"(dc)(dA) (G3/2A/4G/4)"^shake"(FE)|D3/2E/2FG (A3/2"^shake"B/2A).G|F2D2D2||
+(D/2E/2F/2G/2)|(A/2d3/2)(d3/2e/2)"^shake"(fd) (e3/2f/4g/4)|"^shake"(fd)"^shake"(ec) "^shake"(dc)(A3/2G/2)|(A/2~d3/2)(d3/2e/2)"^shake"(fd) (ef/2{a}g/2)|f2d2defg|
+"^shake"(ag)(f/2a3/2)TRg2"^shake"(fe)|(d3/2c/2)(de)TRf2({a}gf/2e/2)|"^shake"(dcA/2G/2F) (G3/2"^shake"B/2A3/2)G/2|(F2D2)D2|]
+S:https://www.folktunefinder.com/tunes/139490
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/199-Blackbird1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/199-Blackbird1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

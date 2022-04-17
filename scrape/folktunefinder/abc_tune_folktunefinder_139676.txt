@@ -1,0 +1,38 @@
+X:15
+T:William and Nancy
+M:6/8
+S:Bacon (MDT)
+A:Bledington
+O:English
+R:Jig
+P:A(AB)2(AC)2A
+Q:3/8=96
+K:G %Transposed from F
+P:A
+D | G2 G GBd | e2 e dBG | A2 d BAG | E2 F G2 :|
+P:B
+d | e2 d B2 d | gfe d2 d | e2 d B2 d | gfe d2 c | 
+B2 B Bcd | e2 e dBG | A2 A BAG | E2 F G2 :|
+P:C
+M:3/8
+L:1/8
+z | d3 |\
+M:6/8
+e3 d3 | B3 d3 | (2gf e3 | d3 d3 | e3 d3 |\
+M:3/8
+L:1/8
+B2 d |
+M:6/8
+gfe d2 c | B2 B Bcd | e2 e dBG | A2 A BAG | E2 F G2 :|
+S:https://www.folktunefinder.com/tunes/139676
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

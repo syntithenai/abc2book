@@ -1,0 +1,28 @@
+X:16
+T:La Pronelle
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n16
+Z:anamnese@laposte.net
+M:C|
+L:1/8
+Q:1/4=100
+K:F
+A2 | A2 c2 (B3 A/G/|F2) G2 G3 F | E2 D2-D z d2 | d2 d2 (d2 cB|A2) d2 c2 B2 |
+A4-A z A2 | A2 c2 (B3 A/G/|F2) G2 G3 F | E2 D2-D z A2 |
+ A2 c2 (B3 A/G/|F2) G2 G2 ^F2 | G8 || 
+W:Av' vous point vu la Pronnelle que les gens d'armes ont emmene 
+W:Ils l'ont habille comme un page : c'est pour passer le Dauphin.
+W:Elles avait trois mignons de frres qui la sont alls pourchasser/
+W:Tant l'ont cherche que l'ont trouve  la fontaine d'un vert pr, /.../
+S:https://www.folktunefinder.com/tunes/137702
+S:http://anamnese.online.fr/abc/davenson.html
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

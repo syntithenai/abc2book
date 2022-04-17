@@ -1,0 +1,26 @@
+X:13
+T:Saturday Night
+M:6/8
+S:Bacon (RKS MSS (BC))
+A:Bledington
+O:English
+R:Jig
+P:A.(AB)12A
+L:1/8
+K:G %Transposed from F
+P:A
+BAB/2c/2 d2 D | EFG FED | BAB/2c/2 d2 D | DEF G3 :|
+P:B
+A>FD D2 D | DE/2F/2G FED | BAG Bcd | DEF G3 :|
+S:https://www.folktunefinder.com/tunes/139674
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

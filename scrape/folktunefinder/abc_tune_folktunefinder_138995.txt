@@ -1,0 +1,39 @@
+X:1
+T:Billar(d) Mazurka
+A:Gilgenberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:manuscript von Anton Gaisberger im Oberoesterreichischen Volkslliedarchiv Linz, MVIII 9,
+N:im manuscript zweistimmig, Teile in F(1), C(2) und Es (Trio)
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+d>gf2e2 | d>Be2d2 | cFB2A2 | AGFED2 |
+d>gf2e2 | d>Be2d2 | cFB2A2 | G2G2z2 :|
+|:\
+D>DD2B2 | D>cB4 | A>BA2D2 | G>AG2D2 |
+D>DD2B2 | D>cB4 | A>BA2F2 | GzG4 :|
+K:C
+|:\
+"Trio"(eG)c4 | (eG)c4 | (G2c3B) | (B4A2) |
+fGB4 | (fGB4) | (F2B3A) | (A4G2) |
+(eGc4) | (eGc4) | (G2c3B) | (B4A2) |
+fGB4 | fGB4 | ggg2B2 | c2c2z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/138995
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/billar(d)_mazurka.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

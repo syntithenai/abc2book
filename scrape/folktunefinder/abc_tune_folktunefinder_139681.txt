@@ -1,0 +1,25 @@
+X: 4
+T:Shepherds' Hey, Ilmington
+M:4/4
+L:1/8
+S:CJS
+A:Ilmington
+P:A(AB4)4A
+K:G
+P:A
+G|:BcdB c2(3cdc|BcdB A2D2|BcdB c2Bc|1d2D2 G3A:|2d2D2 G3||
+P:B
+A|B2G2 c3A    |B2G2 A3A |BcdB c2Bc|d2D2 G3  ||
+S:https://www.folktunefinder.com/tunes/139681
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

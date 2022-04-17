@@ -1,0 +1,30 @@
+X: 1
+T:Big John's
+M:4/4
+L:1/8
+Q:200
+S:From Altan
+R:Reel
+D:Altan "Island Angel
+Z:Donna Diekof
+K:D
+||:"D"DFAd fdAF|"Em"GFEF GABc|"D/f#"d2 fd edBd|"Em"E2 ED EGFE|!
+|"D"DFAd fdAF|"Em"GFEF GABc|"D/f#"d2 fd "G"edBc
+|1"A"(3ded ce "D"d2 "Em"GE:||2"Em"(3ded ce "D"d2 ef||!
+|:"Em"geBe geee|gebe "A"geee|"D"fdAd fddd|fdad "Bm"fddd|!
+"Em"geBe geee|gebe "A"gfeg|"D"fafd "Em"egec|1"D/f#"(3ded ce d2 "D"ef:||
+|2"D/f#"(3ded ce dA"Em"GE||!
+|"Last Time"ef                    |"Em"geBe geee|gebe "A"geee|"D"fdAd fd
+dd|fdad "Bm"fddd|!
+"C"geBe geee|gebe "A"gfeg|"G"fafd "A"egec|"D"(3ded ce dAFE|D8|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/138918
+S:http://www.blackflute.com/music/tunes/reels/bigjohn.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

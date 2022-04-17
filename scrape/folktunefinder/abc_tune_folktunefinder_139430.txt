@@ -1,0 +1,27 @@
+X: 1
+T: Bj\orkedalsvals (A)
+O: H\orkelgaddan
+R: waltz
+M: 3/4
+L: 1/8
+Z: 1998 by John Chambers <jc@trillian.mit.edu>
+K: A
+E2 \
+| "A"AG AB cd | e2 ce a2 | "D"f2 df (3agf | "A"e2 Ac c2 \
+| c2 Bc dB | cA GA Bc | "E7"EF GA BG | "A"A4 z2 :|
+|: cd \
+| "A"e2 fe dc | e2 fe dc | "D"d2 f2 a2 | a3 agf \
+| "A"e2 fe dc | "E7" c2 B2 B2 | Bd cB AB | "A"c3 Acd |
+| "A"e2 fe dc | e2 fe dc | "D"d2 f2 a2 | a3 agf \
+| "A"e2 fe dc | e2 fe dc | "E7"c2 BA GB | "A"A4 :|
+S:https://www.folktunefinder.com/tunes/139430
+S:http://trillian.mit.edu/~jc/music/abc/Scand/waltz/BjorkedalsV_A.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

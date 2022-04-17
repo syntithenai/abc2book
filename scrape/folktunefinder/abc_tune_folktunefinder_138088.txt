@@ -1,0 +1,41 @@
+X: 30
+T:Rakish Paddy
+M:4/4
+L:1/8
+S:James Byrne, Donegal (fiddle)
+R:Reel
+D:Session tape - Glencolumbcille
+N:As played
+H:Note two different versions of the second part, and variation at start
+H:of the first part. This is very much the Donegal version
+Z:Bernie Stocks
+K:G
+ AB |:(3cdcBd cdBc | ABGB ADD^c | d2{e}d^c F3d3e | fd(3efg fded |\
+(3cdcBd cdBc | ABGF ECB,C | DEFG AcBd | BAGc ADD2:: c2gc acg2 |\
+cagf edcA | d2ad bdad | dbag fedA | c2gc acg2 | cagf edcA | defg abag \
+|1 fage d4 :|2 fage dAB |: A2c2Bd (3cdcBc | ABGB ADD^c | d2{e}d^c d3e |\
+fd(3efg fded | (3cdcBd cdBc | ABGF ECB,C | DEFG AcBd |1 BAGc ADD2 \
+:|2 BAGc ADDg || efga (3gfeB2g2 | gagf edcA | d2ad bdad |\
+abag fddg |1 efga (3gfeB2g2| gagf edcA | defg abag |\
+fage d3g :|2 c2gc acgc | gagf ed^cA | defg abag| fage d4||
+S:https://www.folktunefinder.com/tunes/138088
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

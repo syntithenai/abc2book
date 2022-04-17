@@ -1,0 +1,19 @@
+X:1
+T:The Black Nag
+M:6/8
+L:1/8
+Z:abc2nwc
+K:C
+E|:A3/2B/2A B3/2A/2B|c3/2B/2c Bcd|e3/2d/2c B3/2A/2B|[1A3A2E:|[2A3A2A
+|:BGE BGE|BGE BGE|ecA ecA|ecA ecA|
+BGE BGE|BGE B2c/2d/2|e3/2d/2c B3/2A/2B|[1A3A2A:|[2A3A2E|]
+S:https://www.folktunefinder.com/tunes/139721
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/BlackNag.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol6.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

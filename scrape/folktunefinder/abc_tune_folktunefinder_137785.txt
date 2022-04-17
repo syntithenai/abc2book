@@ -1,0 +1,25 @@
+X: 1
+T:Belles of Lexington
+T:Belle of Lexington
+M:2/4
+L:1/4
+K:D
+(a2 \
+|: a) f/a/ b/a/f/d/ | e/f/d/f/ e/d/B/d/ | A/B/d/f/ e/a/f/d/ | e(e e)(a |
+   a) f/a/ b/a/f/d/ | d/f/d/f/ e/d/B/A/ | f/e/d/d/ d/B/A/F/ | \
+     [DA] [DA] [D2A2] :|
+f/e/ \
+|: dB/d/ A/A/F/D/ | E/D/F/E/ D/B,/ (3G,/B,/B,/ | \
+   A,/B,/D/c/ B/A/D/F/ | [E/A/][Ae][A/e/] [Ae]f/e/ |
+   dB/d/ A/A/F/D/ | E/D/F/E/ D/B,/ (3G,/B,/B,/ | \
+   A,/B,/D/D/ d/B/A/F/ | [DA][DA] [D2A2] :|
+N:http://www.ibiblio.org/fiddlers/BELL_BH.htm 6/3/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/137785
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/BelleOfLexington.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 8
+T:Scottish d'Alsace
+R:Scottish
+C:Trad.
+A:Alsace
+O:France
+Z:S. Piron
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-02-20
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/8
+Q:1/4=90
+K:Cmaj
+G|:c/2B/2c/2d/2 e/2d/2e/2f/2|ag g>e|1gf f>d|ag gG:|2gf fe/2d/2|cec2|
+|:c'g g/2f/2e|c'g g/2f/2e|1dd/2e/2 f/2e/2f/2g/2|agg2:|2B/2c/2d/2e/2 fe/2d/2|ce cc|
+|:a/2g/2f/2e/2 g/2f/2e/2d/2|c2 Ac/2c/2|1_B2Gd/2d/2|c2Ac:|2d/2d/2c/2d/2 e/2e/2d/2e/2|ff fc/2f/2|
+|:ee e_B/2d/2|cc cc/2c/2|1d/2d/2c/2d/2 e/2e/2d/2e/2|f/2f/2e/2d/2 cc/2f/2:|2d/2d/2c/2d/2 e/2e/2d/2e/2|fa f ||
+%%begintext
+S:https://www.folktunefinder.com/tunes/138188
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Chore2007.abc
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

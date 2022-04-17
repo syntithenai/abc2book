@@ -1,0 +1,25 @@
+X:4
+T:Blackberry Blossom
+M:2/4
+L:1/16
+Q:120
+R:reel
+P:AABB
+K:G
+P:A
+"G" gbag "D"fagf | "C"egfe "G"dBAG | "C"DEFG "G"ABcA | "G"GABc "D"d4|
+"G" gbag "D"fagf | "C"egfe "G"dBAG | "C"DEFG "G"ABcd | "G"B2[BG][BG] [B4G4] :|
+P:B
+"Em" [BE]eBe deBe | [BE]eBe deBe |  [BE]eBe deBe | "B7"fefg agfe |
+"Em" [BE]eBe deBe | [BE]eBe deBe | "C"cBcd ecde | "D"d^cdf "G"g4 :|
+S:https://www.folktunefinder.com/tunes/139463
+S:http://www.nigelgatherer.com/mando/comando/towdis/001/001.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

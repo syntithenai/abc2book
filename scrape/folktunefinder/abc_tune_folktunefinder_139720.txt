@@ -1,0 +1,27 @@
+X:1
+T:Black Mountain Reel
+S:via PR
+M:4/4
+L:1/4
+K:A
+A/2B/2 |\
+"A"cf/f/ e/c/A/B/ | cf/f/ e/c/A/B/ | "A"cf/f/ "D"e/c/A/B/ | "Bm"c/B/A/F/ "E"E/F/A/B/ | 
+"A"cf/f/ e/c/A/B/ | cf/f/ e/c/A/B/ | "A"cf/f/ "D"e/c/A/B/ | "E"c/B/A/F/ "A"A :| 
+A/B/\
+|: "A"[ce][c/e/][c/e/] [B/e/][c/e/][c/e/]c/ | "A"c/B/A/F/ E/F/A/B/ |\
+cc/c/ c/B/A/F/ | "E"E/F/E/D/ "A"C/B,/A, :| 
+"A"[C2E2] [CE][B,E] | "A"[A,2E2] [CE][EA] | "D"[F2A2] F/E/D/E/ | [F2A2] ED |\
+"A"[C2E2] [CE][B,E] | "A"[A,2E2] CE | "E"G2 A2 | B/c/B/A/ G/F/E/D/ |
+"A"[C2E2] [CE][B,E] | "A"[A,2E2] [CE][EA] | "D"[F2A2] F/E/D/E/ | [F2A2] GF |\
+"A"E2 CE | "E"DE FG | A2 -A2 | A2 -A ||
+S:https://www.folktunefinder.com/tunes/139720
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bl/Black_Mountain_Reel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

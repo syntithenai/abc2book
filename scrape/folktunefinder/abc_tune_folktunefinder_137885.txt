@@ -1,0 +1,21 @@
+X:9
+T:Spinning Wheel
+Z: id:dc-waltz-11
+M:3/4
+L:1/8
+K:G Major
+D|G2 B3 D|G2 B2 D2|G2 B2 d2|d2 c2 AG|F2 A2 D2|F2 A2 D2|F2 A3 c|c2 B4|!
+d3 B2 c|d6|e2 c3 e|d2 B4|c3 B c2|A3 G FG|A2 d3 c|[1 B2 G3:|[2 B2 G4|]!
+B3 A B2|G3 F G2|D2 G3 B|d2 c3 B|A3 G A2|F3 E F2|D2 F2 A2|c2 B4|!
+d3 B2 c|d6|e2 c3 e|d2 B4|c3 B c2|A3 G FG|A2 d3 c|B2 G3:|!
+S:https://www.folktunefinder.com/tunes/137885
+S:http://eceserv0.ece.wisc.edu/~cobb/irish/Waltzes.abc
+S:http://eceserv0.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+S:http://www.ece.wisc.edu/%7Ecobb/irish/Waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:2
+T:Krivoto
+O:Macedoine (Mer Egee)
+M:4/4
+L:1/8
+P:A B C B C D E C
+K:C
+P:A
+|: cd dd d2 ef | {d} e4 ed c2 | cd dd d2 ef | {d} e6 z2 :|
+P:B
+|: A_B AB c2 d2 | e3 d {f} g4 | A_B AB c2 d2 |
+|1 {d} e4 ed c_B :|2 {d} e6 z2 ||
+P:C
+|: {c} d2 dd d2 ef | {d} e4 ed c2 | cd dd d2 ef | {d} e6 z2 :|
+P:D
+|: ef gg g2 g2 | gf gf e3 f | g2 fe d2 ef | {d} e6 z2 :|
+P:E
+|: g2 fe d2 ef | e3 c efgc | g2 fe d2 ef | {d} e6 z2 ||
+S:https://www.folktunefinder.com/tunes/137900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/egee.txt
+S:http://users.skynet.be/infants/musiques/abc/egee.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/egee.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

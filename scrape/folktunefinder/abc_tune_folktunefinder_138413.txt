@@ -1,0 +1,22 @@
+X:5
+T:Porter's Jigg
+B:Walsh
+R:Hornpipe
+M:6/8
+L:1/8
+K:Gm
+g3 G2 =B| c2 C C3| cgc =Bgc| =B3 _A G2| ceg c_ag| _a2 F F3| Bdf Bgf| g2 E E3|\
+BdB BbB| BdB Bb_a| gfe fBd| e2 E E3:: bAB Bdf| f2 F F3| c'cc cef| g2 G G3|\
+cgc =Bgc| =B2 G G3|CGC ^B,GC |^B,2 A, G,3| gGc Dc=B| c2 C C3:|
+S:https://www.folktunefinder.com/tunes/138413
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

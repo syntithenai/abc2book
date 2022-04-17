@@ -1,0 +1,23 @@
+X: 16
+T:The Buffoon, Ilmington
+M:4/4
+L:1/8
+A:Ilmington
+P:A(AB2)4
+K:G
+P:A
+G2B2 B2AB|c2c2 c2B2|F2B2 c2AG|F2d2 d4|
+G2B2 B2AB|c2c2 c2B2|A2d2 dedc|B2G2 G4||
+P:B
+d2g2 g3 f|e2c2 c4  |A2a2 a3 g|f2d2 d4|
+d2g2 g3 f|e2c2 c4  |A2d2 dedc|B2G2 G4||
+S:https://www.folktunefinder.com/tunes/139693
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

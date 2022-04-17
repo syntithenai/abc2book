@@ -1,0 +1,154 @@
+X:1
+T: The Black Mages - Vamo Alla Flamenco (v1.0 Prosco)
+M: 6/8
+L: 1/8
+Q:1/4=250
+% Last note suggests minor mode tune
+K:C % 0 sharps
+x6|
+[B,/2-A,/2-E,/2-][E4-=C4-B,4-A,4-E,4-][E3/2-=C3/2-B,3/2-A,3/2-E,3/2-]| \
+[E4-=C4-B,4-A,4-E,4-][E=CB,A,E,]x| \
+[B,/2-A,/2-=F,/2-][E4-=C4-B,4-A,4-=F,4-][E3/2-=C3/2-B,3/2-A,3/2-=F,3/2-]| \
+[E4-=C4-B,4-A,4-=F,4-][E=CB,A,=F,]x|
+[B,/2-A,/2-^F,/2-][E4-=C4-B,4-A,4-F,4-][E3/2-=C3/2-B,3/2-A,3/2-F,3/2-]| \
+[E4-=C4-B,4-A,4-F,4-][E=CB,A,F,]x| \
+[B,/2-A,/2-=F,/2-][E4-=C4-B,4-A,4-=F,4-][E3/2-=C3/2-B,3/2-A,3/2-=F,3/2-]| \
+[E4-=C4-B,4-A,4-=F,4-][E=CB,A,=F,]x|
+[B,/2-A,/2-E,/2-][E4-=C4-B,4-A,4-E,4-][E3/2-=C3/2-B,3/2-A,3/2-E,3/2-]| \
+[E6-=C6-B,6-A,6-E,6-]| \
+[E3=C3B,3A,3E,3] x3| \
+E,^G,C, E,C,B,|
+[AAA,-][^G/2-A,/2][^G/2A,/2][AA,] [cE,][B^F,][A=F,]| \
+[B3/2-E,3/2][B/2E,/2][^GE,] [ED,][^F^G,][^GB,]| \
+[AA,-][^G/2-A,/2][^G/2A,/2][AA,] [cC,-][BC,][A=F,]| \
+[d2=G,2-][BG,] [G-G,][G-A,][GB,]|
+[cC,-][B/2-C,/2][B/2G,/2-][cG,] [eC,][dB,][cA,]| \
+[d-G,][dF,-][BF,] [GE,][AD,][BB,]| \
+[c-F,][cC,][B-F,] [BE,][A^G,][^GB,]| \
+[A3/2-A,3/2][A/2-A,/2][A-A,] [A-E,][A-^F,][A/2^G,/2-]^G,/2|
+[aAA,-][^g^GA,][aAA,] [ccA,-][bBA,][aAA,]| \
+[b2B2E,2][^g^GE,] [eEE,-][^f^FE,][^g^GE,]| \
+[aAA,-][^g^GA,][aAA,] [ccA,-][bBA,][aAA,]| \
+[d2d2=G,2][bBG,] [g-G-G,][g-G-A,][gGB,]|
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]| \
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]| \
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a2-A2-A,2-][a/2A/2A,/2-]A,/2|
+A,C[EA,] A-[AA,]A| \
+[^GE,]^F[^GE,] [A-A,]A[AA,]| \
+[BD,]A[BD,] [A=F,]B[AF,]| \
+[^GE,]^F[^GE,] [A-A,][AE,-][AE,]|
+A,c[eA,] a-[aA,]a| \
+[^gE,]^f[^gE,] [a-A,]a[aA,]| \
+[dD,]c[bD,] [a^D,]b[a^D,]| \
+[^g6-E,6]|
+[^g3E,3-] E,3| \
+E,6| \
+E,3- [e/2E,/2-]E,/2-[e/2E,/2-]E,/2-[e/2E,/2-]E,/2| \
+[ae-AA,-][^ge-^GA,][ae-AA,] [ce-cA,-][be-BA,][aeAA,]|
+[b2B2E,2][^g^GE,] [e=d-EE,-][^fd-^FE,][^gd^GE,]| \
+[ac-AA,-][^gc-^GA,][ac-AA,] [cc-A,-][bc-BA,][acAA,]| \
+[d2d2=G2-G,2][bBG-G,] [g-G-G,][g-G-A,][gGB,]| \
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]|
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]| \
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a/2-e/2A/2-A,/2-][a/2-A/2-A,/2-][a/2-e/2A/2-A,/2-][a/2-A/2-A,/2-][a/2e/2A/2A,/2-]A,/2| \
+[ae-AA,-][^ge-^GA,][ae-AA,] [ce-cA,-][be-BA,][aeAA,]|
+[b2B2E,2][^g^GE,] [ed-EE,-][^fd-^FE,][^gd^GE,]| \
+[ac-AA,-][^gc-^GA,][ac-AA,] [cc-A,-][bc-BA,][acAA,]| \
+[d2d2=G2-G,2][bBG-G,] [g-G-G,][g-G-A,][gGB,]| \
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]|
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]| \
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a2-A2-A,2-][a/2A/2A,/2-]A,/2| \
+A,[A/2E,/2-][^c/2E,/2][eA,] [a^G,][^gB,][^f^C,]|
+[=fD,][eA,][f^A,] [dB,][e^C,][fD,]| \
+[e-E,][e2=A,2] [=cE,][dA,-][eA,]| \
+[d-^A,][d-^A,][d=A,] [^A=G,][cF,][d^G,]| \
+=A,[A/2E,/2-][^c/2E,/2][eA,] [a^G,][^gB,][^f^C,]|
+[=fD,][eA,][fD,] [d=C,][eF,][fA,]| \
+[=g-G,][gF,][eG,] [e^D,][fE,][gC,]| \
+[aA,][gG,][aA,] [cF,][bG,][aA,]| \
+[^g3-E,3] [^g3-E,3]|
+[^g3-F,3] [^g3F,3]| \
+=G,3 F,3| \
+E,3 E,-[^g/2E,/2-][a/2E,/2-][^g/2E,/2-][^f/2E,/2]| \
+[^g3-E,3] [^g3-E,3]|
+[^g3-=F,3] [^g3F,3]| \
+=G,3 F,3| \
+E,3 E,3| \
+[AA,-][^G/2-A,/2][^G/2A,/2][AA,] [cE,][B^F,][A=F,]|
+[B3/2-E,3/2][B/2E,/2][^GE,] [E=D,][^F^G,][^GB,]| \
+[AA,-][^G/2-A,/2][^G/2A,/2][AA,] [cC,-][BC,][A=F,]| \
+[d2=G,2-][BG,] [G-G,][G-A,][GB,]| \
+[cC,-][B/2-C,/2][B/2G,/2-][cG,] [eC,][dB,][cA,]|
+[d-G,][dF,-][BF,] [GE,][AD,][BB,]| \
+[c-F,][cC,][B-F,] [BE,][A^G,][^GB,]| \
+[A3/2-A,3/2][A/2-A,/2][A-A,] [A-E,][A-^F,][A/2^G,/2-]^G,/2| \
+[aAA,-][^g^GA,][aAA,] [ccA,-][bBA,][aAA,]|
+[b2B2E,2][^g^GE,] [eEE,-][^f^FE,][^g^GE,]| \
+[aAA,-][^g^GA,][aAA,] [ccA,-][bBA,][aAA,]| \
+[d2d2=G,2][bBG,] [g-G-G,][g-G-A,][gGB,]| \
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]|
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]| \
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a2-A2-A,2-][a/2A/2A,/2-]A,/2| \
+A,C[EA,] A-[AA,]A|
+[^GE,]^F[^GE,] [A-A,]A[AA,]| \
+[BD,]A[BD,] [A=F,]B[AF,]| \
+[^GE,]^F[^GE,] [A-A,][AE,-][AE,]| \
+A,c[eA,] a-[aA,]a|
+[^gE,]^f[^gE,] [a-A,]a[aA,]| \
+[dD,]c[bD,] [a^D,]b[a^D,]| \
+[^g6-E,6]| \
+[^g3E,3-] E,3|
+E,6| \
+E,3- [e/2E,/2-]E,/2-[e/2E,/2-]E,/2-[e/2E,/2-]E,/2| \
+[ae-AA,-][^ge-^GA,][ae-AA,] [ce-cA,-][be-BA,][aeAA,]| \
+[b2B2E,2][^g^GE,] [e=d-EE,-][^fd-^FE,][^gd^GE,]|
+[ac-AA,-][^gc-^GA,][ac-AA,] [cc-A,-][bc-BA,][acAA,]| \
+[d2d2=G2-G,2][bBG-G,] [g-G-G,][g-G-A,][gGB,]| \
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]| \
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]|
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a/2-e/2A/2-A,/2-][a/2-A/2-A,/2-][a/2-e/2A/2-A,/2-][a/2-A/2-A,/2-][a/2e/2A/2A,/2-]A,/2| \
+[ae-AA,-][^ge-^GA,][ae-AA,] [ce-cA,-][be-BA,][aeAA,]| \
+[b2B2E,2][^g^GE,] [ed-EE,-][^fd-^FE,][^gd^GE,]|
+[ac-AA,-][^gc-^GA,][ac-AA,] [cc-A,-][bc-BA,][acAA,]| \
+[d2d2=G2-G,2][bBG-G,] [g-G-G,][g-G-A,][gGB,]| \
+[ccC,-][bBC,][ccC,] [eeC,-][ddC,][ccC,]| \
+[d2d2G,2][bBG,] [gGG,][aA=F,][bBE,]|
+[c-c-F,][ccC,][b-B-F,] [bBE,][aA^G,][^g^GB,]| \
+[a2-A2-A,2][a-A-A,] [a2-A2-A,2-][a/2A/2A,/2-]A,/2| \
+A,[A/2E,/2-][^c/2E,/2][eA,] [a^G,][^gB,][^f^C,]| \
+[=fD,][eA,][f^A,] [dB,][e^C,][fD,]|
+[e-E,][e2=A,2] [=cE,][dA,-][eA,]| \
+[d-^A,][d-^A,][d=A,] [^A=G,][cF,][d^G,]| \
+=A,[A/2E,/2-][^c/2E,/2][eA,] [a^G,][^gB,][^f^C,]| \
+[=fD,][eA,][fD,] [d=C,][eF,][fA,]|
+[=g-G,][gF,][eG,] [e^D,][fE,][gC,]| \
+[aA,][gG,][aA,] [cF,][bG,][aA,]| \
+[^g3-E,3] [^g3-E,3]| \
+[^g3-F,3] [^g3F,3]|
+=G,3 F,3| \
+E,3 E,-[^g/2E,/2-][a/2E,/2-][^g/2E,/2-][^f/2E,/2]| \
+[^g3-E,3] [^g3-E,3]| \
+[^g3-=F,3] [^g3F,3]|
+=G,3 F,3| \
+E,3 E,3| \
+[AA,-][^G/2-A,/2][^G/2A,/2][AA,] [cE,][B^F,][A=F,]| \
+[B3/2-E,3/2][B/2E,/2][^GE,] [E=D,][^F^G,][^GB,]|
+[AA,-][^G/2-A,/2][^G/2A,/2][AA,] [cC,-][BC,][A=F,]| \
+[d2=G,2-][BG,] [G-G,][G-A,][GB,]| \
+[cC,-][B/2-C,/2][B/2G,/2-][cG,] [eC,][dB,][cA,]| \
+[d-G,][dF,-][BF,] [GE,][AD,][BB,]|
+[c-F,][cC,][B-F,] [BE,][A^G,][^GB,]| \
+[A3/2-A,3/2][A/2-A,/2][A-A,] [A2-A,2-][A/2A,/2-]A,/2|
+S:https://www.folktunefinder.com/tunes/139706
+S:http://community.codemasters.com/forum/archive/index.php/t-295394.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:10
+T: Miss Hamilton
+D:John Williams - Steam
+M: C
+L: 1/8
+B: Williams
+Z: Jeff Welty (in process), 2003
+K: D
+Q:100
+|f2 a2 (g{ag}fed) | a>g (f/g/a) A4| {c}B2 {cB}AGFAdA| B{cB}AGF A4|
+|fg{g}a2 g{a}gf2 | ~edcd e2~cA | d3e {e}fedc| {A}B2>{c}B ABd2|
+|a<f e{fe}d {A}B<d A{BA}G|F2 E>{FE}D D4 |
+|f2 a2 (gfed) | a>g (f/g/a) A4| B2 AGFAdA| BAGF [A4E4]|
+|fga2 gafa | ~edcd {d}e2~cA | {c}dcde fedc| (3BcB ~A2 B>Bd2|
+|a<f ed {A}B<d AG|F2 E>{FE}D D4 |
+|  abag gfed|abag gfed|fad'a bagf|g{ag}fed e4|
+|fga2 gafa | edcd {d}e2cA | d3e fedc| (3BcB AG [G4d4]|
+|a<f ed B<d AG|F2 E>D D4 |
+S:https://www.folktunefinder.com/tunes/139041
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/williams.abc
+S:http://www2.redhawk.org:8080/irish/other/williams.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

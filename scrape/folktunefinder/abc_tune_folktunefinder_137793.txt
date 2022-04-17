@@ -1,0 +1,41 @@
+X:1
+T:Belle qui m'avez blesse
+C:Pierre Guedron
+C:Airs de cours
+Z:abc transcription by Taco Walstra (walstra@wins.uva.nl)
+L:1/4
+M:4/4
+K:Em
+%%scale 0.65
+%%tabrhstyle modern
+%%indent 1.5cm
+%%barnumberfont Times-Italic 10 box
+V:F clef=treble name=Voice staves=2
+V:L clef=frenchtab name=Lute
+%
+[V:F] D3/2 E/ F/D/ A1 A2 G2 A/B/ c1 F1 E1 F1  
+w:Bel-le qui - m'a-vez bles-s\'e - d'un trait si doux, 
+[V:L] [,bdc,,,,a2] [,bdca1] [,a,c,e] [,b,ca] .,,d [,d,,c] .,,b #,,,,d :[,b,(c/] [,,,,c)]\
+ ,,,,a1 [,dba,d] [,bbc,,,a]
+%staff2
+[V:F]A/B/ c1 d1 c1 B/A/ G/F/ G1 F4 :|
+w:H\'e - las! pour-quoy me - lais- - sez vous
+[V:L] [,bb,d/] ,,,a [,bbc1] ,,,d [,bbcd] ,,,,,,,a ,,,,,d ;[,aba] [,bbdc] ,,,,,,,a [,bbc2]:|
+%staff3
+[V:F] |:c2 f1 e1 d2 A1d1 c2 B1 A1 G2
+w:Moy qui lan- guis d'un cru-el d\'e-ses-poir
+[V:L] |: [,bbc(d1] > [,,,,c)] ,,,,a1 [,a,c,e] [ab,,a] .,,d ,,b #[,d,d] [,,bc] .,b \
+     [,dddf] ,,,,d [,aba,d] [,,,,,b]
+%staff4
+[V:F] c1 B1 A3/2 G/F/G/ E1 HD4:|
+S:https://www.folktunefinder.com/tunes/137793
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Guedron/Belle_blesse.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Guedron/Belle_blesse.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

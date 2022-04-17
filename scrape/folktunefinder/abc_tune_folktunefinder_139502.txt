@@ -1,0 +1,25 @@
+X:2
+T:The blackbird
+M:4/4
+L:1/8
+C:Andante
+R:Long dance, set dance
+O:Ireland
+B:Francis O'Neill: "The Dance Music of Ireland" (1907) no. 985
+K:D
+(d=c)| ~B3d =cABG| ABAG AB(3=cBA)| dcde dcAF| GBAF D2(DE)|
+(3FED) FG A2(fe)|dcde dcAF|GAGF D2D2|D6:||: (de)| fede f2g2|
+abag fg(3agf)| g2(gf) gbaf| gagf d2(de)| fd~d2 fdfg| abag fgaf|
+gagf d2d2| defg ~a3g| fgaf ~g3e| (3fga) e^c dcAG| FGAB defg| a4 A3G|
+FGAB =c3e|d^cAF GAGF| D2D2 D6:|
+S:https://www.folktunefinder.com/tunes/139502
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/blackbird_1.abc
+% Rhythm Long dance, set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

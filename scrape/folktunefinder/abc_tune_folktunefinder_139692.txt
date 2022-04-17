@@ -1,0 +1,26 @@
+X: 15
+T:Old Molly Oxford,  Ilmington
+M:4/4
+L:1/8
+Q:1/4=120
+A:Ilmington
+P:A(AB2)4A
+K:G
+P:A
+GABc d2c2|B2A2 G4  |GABc d2g2|f2g2 a4 |
+g3a  b2a2|g2e2 d2ef|g2d2 c2B2|A4   G4 ||
+P:B
+B2d2 B2d2|B2d2 d3B |c2e2 c2e2|c2e2 e3d|
+g3a  b2a2|g2e2 d2ef|g2d2 c2B2|A4   G4 ||
+S:https://www.folktunefinder.com/tunes/139692
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

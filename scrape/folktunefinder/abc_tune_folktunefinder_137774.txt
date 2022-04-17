@@ -1,0 +1,30 @@
+X: 44
+T:Le Porchier
+M:4/4
+L:1/4
+R:Scottiche/marche/valse
+O:France
+K:G
+d2A2AGF2|d2A2AGF2|
+M:6/8
+EGGF3:|\
+M:4/4
+|:E2G2F2A2|\
+M:6/8
+BAG AGF|\
+M:4/4
+E2G2F2A2|\
+M:6/8
+BAGF3:||
+S:https://www.folktunefinder.com/tunes/137774
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/scottish.txt
+% Rhythm Scottiche/marche/valse
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

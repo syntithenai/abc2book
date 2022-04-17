@@ -1,0 +1,24 @@
+X: 51
+T:Glassis Hornpipe
+M:3/2
+L:1/8
+S:Walsh 1731
+Z:ps
+K:D
+d3B ABAG F2A2|G2B2=cBAGF2A2|d3B ABAG ^cBcA|d3B ABAGF2D2||
+G2B2=cBAGF2A2|B2G2gfed^c2A2|d2f2gfed cdec|A2d2cdecd2D2||
+f3g fgafb2B2|g3f gfedc2A2|d3f gfed cdec|A2d2 cdecd2D2||
+BAGB AGFA F2D2|d2ef gfedc2A2|d2b2c2a2B2g2|bagf efgaf2d2||
+A,B,CD DEFD E2A,2|B2G2gfedc2A2|dfbf gbge dfaf|A2d2cdecd2D2||
+S:https://www.folktunefinder.com/tunes/138403
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/walsh.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

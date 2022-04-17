@@ -1,0 +1,34 @@
+X: 15
+T:Black and White Rag
+M:4/4
+L:1/8
+R:Ragtime
+P:ABAC
+K:G
+P:A
+d2 d2 ^c2 |: cdfc dfcd | fc d f2 c dc | ^ABeA BeAB | e^A B e2 dB G |
+          | cc B c2 B c2 | A^GAB cAFD | Gfag Bc^cd | BG E G3 d^c |
+          | cdfc dfcd | fc d f2 cd c| ^ABeA BeAB | e^A B e2 d BG |
+          | E2 ^GB edcB | A^GAc edcA | BD G B2 G A2 |1G2d2d2^c2:|2 G8|
+P:B
+K:C
+|:G2 ^F G2 F G2 | e2 ^d e2 d e2| d2 ^c d2 c d2| A6 ^G2|
+| FGBF GBFG | BF G B2 A GF| ^DEAD EADE| A^D E A2 c AE|
+|G2 ^F G2 F G2| e2 ^d e2 d e2| d ^c d2 c d2| A6 ^G2|
+| GABc defg|agfe dcBA| G^F G e2 c d2| c8:|
+P:C
+K:G
+|:BdgG BdDG | BB D G2 B dA| [A2F2] FC FF C2| F^G G A2 G A2|
+| cdfA ceFA|dFA c2 d fd| B2 DG BB G2| B^c c d2 c BA|
+| ^GBeB GEB,E| ^GB EG B4| A^ceE Ac^CE| AA ^CE A4|
+| BdgG BdDG| BB D B dB| FG A d2 A BB| [B8G8]:|
+S:https://www.folktunefinder.com/tunes/139446
+S:http://www.banjolin.co.uk/tunes/abcs/blackandwhiterag.abc
+% Rhythm Ragtime
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:The Black Rider
+C:Howard Shore
+Z:Merecraft of Laurelin
+Q:1/4=160
+M:4/4
+L:1/8
+K:F
+D,4 .D, z3 |z8 |D,4 .D, z3 |z8 |A,4 .A, z3 |z8 |(A,8 |A,8) |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |
+D,2 D,2 E,2 C,2 |D,2 B,2 C,2 A,2 |A,2 A,2 A,2 A,2 |A,2 A,2 A,2 A,2 |D,.B .c.d D,.c .d.e |.D,d ef .D,e fg |D,.B .c.d D,.c .d.e |D,d ef D,e fg |D,B cB D,B cB |
+D,B cB D,B cB |D,(B cB) A,2 G,2 |D, B,2 A,2 (A cd |.B)D, B,2 A,2 G,2 |D,.A, .B,.A, D,.A, .B,.A, |.D,A, B,A, .D,A, B,A, |.D,A, B,A, .D,A, B,A, |.D,A, B,A, .D,A, B,A, |
+D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,.A, .B,.A, D,.A, .B,.A, |D,2 .D,2 z4 |D,(B cB) z4 |D,2 .D,2 z4 |D,(B cB) z4 |D,(B cB) z4 |
+D,2 (G2 F2 E2) |D,2 (G2 F2 E2) |(D2 E2) (E2 F2) |F8 |]
+%End of file
+S:https://www.folktunefinder.com/tunes/139753
+S:http://community.codemasters.com/forum/archive/index.php/t-196990.html
+S:http://community.codemasters.com/forum/archive/index.php/t-200855.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:22
+T:Bourre de Nasbinals
+R:Bourre  3 temps
+O:France
+A:Auvergne
+C:Trad.
+M:3/4
+L:1/8
+Q:3/4=78
+K:C
+g3 a g2|f2 d2 g2|ed c2 d2|e2 d4|g3 a g2|f2 d2 g2|ed c2 d2|c4c2 :|:
+G2 c2 d2|e2 d2 f2|ed c2 d2|e2 d4|G2 c2 d2|e2 d2 f2|ed c2 d2|c4c2:|
+%%text 3 X
+%%footer $D   Galouvielle-MBe 2007 \nBourre  3 temps (France)
+S:https://www.folktunefinder.com/tunes/138218
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:75
+T: Kiss the Maid behind the Barrel
+S: "Treoir"
+C: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: G
+DG G2 AG G2 | DG G2 cAFA | DG G2 AGFA |1 defd AGFG :|2\
+defd cAFA |
+dg g2 bg g2 | dg g2 bgaf | df f2 af f2 | defd cAFA |
+dg g2 bgaf | d^cde f3 g | a2 ge fdec | d2 eg fdcA ||
+G2 dG eGdG | G2 dG cAFA | G2 dG G2 AB | cdfd cAFA |
+G2 dG G2 dG | G2 dB cAFA | B3 B ABcA | defd cAFA ||
+g2 bg agab | g2 bg defa | g2 bg ag g2 | defd cAFA |
+g2 bg agab | g2 bg defg | afge fdec | d2 eg fdcA ||
+(3Bcd BG (3ABc Af | G2 GB cAFA | (3Bcd BG ABcA |
+defd cAFA | B3 B ABcA | (3Bcd BG ABcA | defd cAFA ||
+G2 (3Bcd G3 D | GdBd cAFA | G2 (3Bcd G3 A | defd cAFA |
+GdBd GdBd | G2 Bd cAFA | B3 B ABcA | defd cAGF | G4 ||
+S:https://www.folktunefinder.com/tunes/138574
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/k.abc
+S:http://www2.redhawk.org:8080/irish/zouki/k.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

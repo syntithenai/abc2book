@@ -1,0 +1,31 @@
+X:1
+T:Bjrklingelten
+C:Anders Pettersson
+R:Snoa
+Z:Patrik Mnsson
+O:Skuttunge
+M: 2/4
+L: 1/16
+Q:1/4=100
+K:C
+|:G2 | c2(cB) c2e2 | c2G2 E2G2 | c2cB c2e2 | d6 (de) |
+f2e2 d2(3cBc | d2c2 B2A2 | G2(GA) G2F2 | E2C2 E2G2 | 
+c2(cB) c2e2 | c2G2 E2G2 | c2(cB) c2e2 | d6 (de) | 
+f2e2 d2(3cBc | d2c2 B2A2 | G2f2 d2B2 | c4 cBcd | c4 z2 :|
+|:(ce) | g6 (3ege | c2g2 e2c2 | e2d2 (d^c)de | d6 de | 
+f6 (3dfd | B2f2 d2B2 | d2=c2 (cB)cd | c2G2 (EG)ce | 
+g6 (3ege | c2g2 e2c2 | e2d2 (d^c)de | d6 de |
+f2e2 d2(3=cBc | d2c2 B2(3ABA | G2f2 d2B2 | c4 (cB)cd | c6 :|
+S:https://www.folktunefinder.com/tunes/139437
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_d3a805.latin.abc
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_d3a805.abc
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_d3a805.abcm.abc
+% Rhythm Snoa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

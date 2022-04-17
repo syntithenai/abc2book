@@ -1,0 +1,32 @@
+X: 75
+T:The Gallowglass
+M:6/8
+L:1/8
+S:Ciaran Kelly, Moneymore, Derry (Accordian)
+R:Jig
+D:Session tape - Belfast
+Z:Bernie Stocks
+K:D
+EF |: GFE BFA | GEE E2F | GFG Bcd | AFD DEF | GFE BFA | GBe B2A |\
+GFE DEF | GEE E3:| efe B2A | GEE E2F | GFG Bcd | AFD D3 | efe B2A |\
+GFE B2A | GFE DEF | GEE E3 | efe B2A | GEE E2F | GFG Bcd |\
+AFD D3 | eBe dAd | BGB AFD | GFE DEF | GEE E3 ||
+S:https://www.folktunefinder.com/tunes/138133
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

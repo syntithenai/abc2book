@@ -1,0 +1,37 @@
+X:1
+T:Behusher Chosid
+T:Earth
+C:Traditional
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+D:Kroke, "The Sound of the Vanishing Worlds", Oriente Musik Berlin, 1999
+M:C
+L:1/8
+Q:c3=72
+K:C
+% It's not in C, actually, but I don't have a clue about the key. 
+% If you can help me out I'd be much obliged.
+P:A
+Q:1/4=100
+% I
+|: "E"ee2f ^g/a/^g/f/ ^g/a/b | "E"ee2f ^g/a/^g/f/ e/f/d/f/ | "E"ee2f ^g/a/^g/f/ ^g/a/b/c'/ |
+[1 "Dm"d'd'/c'/ d'/4c'/4b/b/c'/ "E"be' e'2 :|[2 "Dm"de/f/ ^g>f "E"^g/f/(e e)A ||
+% II
+P:B
+|: "D"d>A de ^f(a a/)a/((3g/^f/e/) | "D"^f(a a)(a a)b/a/ g/^f/e/d/ | "D"d>A d/A/d/e ^f(a a/)a/((3a/b/a/) |
+[1 "Dm"^g/a/b/a/ ^g>f "E"f/e/(e e)A :| "Dm"^g/a/b/a/ ^g>f "E"f/e/(e e/)e/^g/a/ ||
+% III
+P:C
+("E"b2 b/)e/^g/a/ (b2 b/)e/^g/a/ | "E"b/e/^g/a/  b/e/^g/a/ be' e'/e/a/b/ |
+("Am"c'2 c'/)e/a/b/ (c'2 c'/)e/a/b/ | "Am"c'/e/a/b/ c'/e/a/b/ "Am"c'2 "D"d'c'| 
+% IV
+P:D
+|: "G"b>a d'/c'/b/a/ "Em"g/^f/(e e)((3d/e/^f/) |[1 gg/^f/ a/g/g/^f/ "D"e/^f/(d d)d :|\
+[2 "Em"g/^f/^f/g/ "Dm"g/f/f/e/ "Em"e4 |]
+S:https://www.folktunefinder.com/tunes/137617
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-tunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

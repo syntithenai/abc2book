@@ -1,0 +1,35 @@
+X:12
+T:Over the Water to Charlie
+S:Bacon (Jour 1934)
+A:Bledington
+O:English
+R:Jig
+P:A(AB)4A
+M:6/8
+K:G %Transposed from A
+P:A
+GBd dBd | efe d2G | A2A BAG | E2F G3 :|
+P:B
+efg fed | efe d2d | efg fed | e2f g2d | 
+gag fed | efg d2G | A2A BAG | E2F G3 :|
+%
+P:B (original)
+efg fed | efe d2d | efg fed |\
+M:3/8
+L:1/8
+e2f | 
+M:6/8
+gag f2d | efg d2G | A2A BAG | E2F G3 :|
+S:https://www.folktunefinder.com/tunes/139673
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T:Bill Cheathams
+R:Reel
+O:USA
+N:the 'chords' in bar 5 second part are alternative lines
+M:C
+K:D
+A,B,DE F2DE| FDEF EDB,A,| B,2G2 G2DE| =FDEF EDB,D|
+A,2^F2 F2DE| FDEF EDB,D| \
+GFGA BcdB|1 AGFE D4 :|2 AGFE D2FG|:
+AFAd BGBd| cABc d2Ac| dcdA BdAG| FAFD E2FG|
+[AA][DF][FA][Ad] [BB][DG][GB][Bd]|cABc d2Ac|\
+dcdA BdAG|1 F2E2 D2FG :|2 F2E2 D4|]
+S:https://www.folktunefinder.com/tunes/139012
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bi/Bill_Cheathams_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

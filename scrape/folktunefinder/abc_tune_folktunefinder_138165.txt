@@ -1,0 +1,29 @@
+X:1
+T:Billy in the Lowground
+R:reel
+Q:120
+C:Trad.
+S:Cyril Stinnett
+B:OTFR:#54; E. F. Adams' Old-Time Fiddler's Favorite Barn Dance
+B:Tunes (St. Louis, 1927):#42
+A:Missouri
+Z:B. Shull, trans.; R.P. LaVaque, ABCs
+M:2/4
+L:1/16
+K:C
+|:(G,B,)CD (EG)A(B|cB)cd (cA)Gc|(Ac)AG (ED)E(^F|G)ECE D(CA,C)|!
+(G,B,)CD (EG)A(B|cB)cd (cA)Gc|(Ac)AG (ED)E(^F|G)ECE DCC2:|!
+|:(eg2)(a g2)e(g|ag)ed (cA)Gc|ea2(b a2)a(g|ag)ed (cA)Gc|!
+(eg2)(a g2)e(g|ag)ed (cA)Gc|(Ac)AG (ED)E(^F|G)ECE DCC2:|
+S:https://www.folktunefinder.com/tunes/138165
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/abc_b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

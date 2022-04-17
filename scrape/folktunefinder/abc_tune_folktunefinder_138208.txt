@@ -1,0 +1,31 @@
+X:12
+T:Bourre ronde de la Brande d'Ardentes
+R:Bourre  2 temps
+C:Bas-Berry
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-02-04
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/4
+L:1/16
+K:G
+V:1
+d3B G2B2|c6g2|f3d e2f2|g3a b2g2|d3B G2B2|c6g2|f3d e2f2|g8::
+K:C
+c4e4|g2fe d4|e3f d2B2|c2BA B2G2|c4e4|g2fe d4|e3f d2B2|c8:|
+V:2
+B3d g2d2|e6e2|d4A2c2|B4G4|B3d g2d2|e6e2| d4 A2c2| e8 ::
+K:C
+c4G4 | e4 G2AB | c2>B2- B2G2 | f2d2- d2B2 | c4G4 | e2dc G4 | c2>B2- B2G2 | c8 :|
+%%footer $D   Galouvielle-MBe 2007 \nBourre  2 temps (France)
+S:https://www.folktunefinder.com/tunes/138208
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Bourre  2 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X: 29
+T:Denis Doody's
+M:4/4
+L:1/8
+S:Denis Doody, Kerry (Accordian)
+R:Reel (Barn dance)
+D:Session tape - Milltown Malbay 1985
+N:As played
+H:Dennis Doody, Milltown Malbay 1983 A unique musical experience due to
+H:the strange tonality of playing in A out of (I assume) a D box while
+H:the accompanying bouzouki stuck to straight A. NB two versions of
+H:second part.
+Z:Bernie Stocks
+K:A
+(3cecBe (3cecBe | (3cecBA FAEF | A3B cefe | afec B4 | (3cecBe (3cecBe |\
+(3cecBA FAEF | A3B cefe | afec A4 :| e4 e4 | BccB ABce | f4 f4 | BccB ABce |\
+e4 e4 | BccB ABce | fa2f ecAc | (3BcB A2 A4 | e=gc=g e=gc=g | e=gcB  ABce |\
+fada fada | fadc Bcdf | e=gc=g e=gc=g | e=gcB ABce | fa2f ecAc | (3BcB A2 A4 ||
+S:https://www.folktunefinder.com/tunes/138087
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel (barn dance)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

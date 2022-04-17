@@ -1,0 +1,26 @@
+X:6
+T:Ewe with the Crooked Horn, The
+R:strathspey
+S:Chris Norman
+M:C
+L:1/8
+Q:1/4=120
+K:C
+E<A A>c G>A B<G |E<A c3/2B/4c/4 d>B c<A |
+G/4A/4B3/2 d>c B>A G<E |E<A A>c B<G A2 :|!
+e<a a>c' g>a b<g| e<a a>b c'3/2b/4a/4 a2|
+e<a a>b c'b/a/ ba/g/| e<a c'>a b>g a2|!
+gg d>e B<G |A/B/c/d/ e>c d>B A>B|
+gg d>e B<G |A/B/c/d/ e>c d>B A2||
+S:https://www.folktunefinder.com/tunes/139348
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/SCAT2001.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/SCAT2001.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

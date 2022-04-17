@@ -1,0 +1,37 @@
+X:1
+T:The Big Ship
+T:(Circle Dance)
+M:4/4
+L:1/4
+C:Traditional
+% Nottingham Music Database
+N:as danced by MOTley Morris
+S:Nan Fleming Williams, via EF
+Q:1/4=138
+K:G
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+D |: "G"G G/2A/2 B/2G/2B/2c/2 |"G"d/2e/2d/2c/2 B d |1\
+"D7"c/2d/2c/2B/2 A A | "G"d/2e/2d/2c/2 "D7"B D :|2\
+"C"c/2d/2c/2B/2 "D7"A/2G/2F/2A/2|"G"GB G z |
+P:B
+|: "C"g g e e |"G"d/2e/2d/2c/2 B d |1"Am"c/2d/2c/2B/2 "D7"A A |\
+"G"d/2e/2d/2c/2 "D7"B z :|2 "C"c/2d/2c/2B/2 "D7"A/2G/2F/2A/2|"G"GB G:|
+S:https://www.folktunefinder.com/tunes/138949
+S:http://www.mit.edu/~jcb/MOTley/abc/big-ship.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/big-ship.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/big-ship-tune.shtml
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

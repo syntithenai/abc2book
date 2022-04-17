@@ -1,0 +1,25 @@
+X:15
+T:Gan Ainm
+Z: id:dc-waltz-9
+M:3/4
+L:1/8
+K:G Major
+d ^cd|ed Bd GB|D2 G3F|E3 C E2|D4 G2|!
+F3E F2|d4 c2|B3_B =Bc|B3 d ^cd|!
+ed Bd GB|D2 G3F|E3 C E2|D4 G2|!
+F3 E F2|B4 A2|G3 F GA|G3:|!
+A Bc|d2 e2 f2|g2 fg af|g2 f2 e2|B3 A Bc|!
+d2 de dB|c2 B2 A2|G2 GF GA|B3 A Bc|!
+d2 d^c d2|g2 fg af|g2 f2 e2|B3 A Bc|!
+d2 de dB|c2 B2 A2|GD (3EFG Bd|g3:|!
+S:https://www.folktunefinder.com/tunes/137870
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/cobb/Waltzes.abc
+S:http://www2.redhawk.org:8080/irish/cobb/Waltzes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

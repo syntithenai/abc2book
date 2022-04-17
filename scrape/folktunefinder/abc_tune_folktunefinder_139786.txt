@@ -1,0 +1,26 @@
+X:55
+T:Johnny Mickie's Slide
+S:Denis Brooks
+R:slide
+E:7
+Z:Goes well when transposed to G
+I:speed 350
+M:6/8
+K:D
+DE|FAF {AFE}F2 E|{c}D3 {c}D2 E|FGF {AFE}F2 D|E3 {D}E2 F|GAG {c}B2 G|FGF {c}A2 F|EFE {AFE}F2 E|{A}D3 {A}D2:|
+F|ABA {cAG}A2F|{G} A3{G}A2F|ABA{cAG}A2 F|G3{AGF}G2E|GAG {c}B2G|FGF{c}A2F|EFE {AFE}F2E|{A}D3{A}D2:|
+S:https://www.folktunefinder.com/tunes/139786
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/JohnWalsh/pipersClub.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/pipersClub.abc
+S:http://www2.redhawk.org:8080/irish/JohnWalsh/pipersClub.abc
+S:http://www2.redhawk.org:8080/irish/other/pipersClub.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X: 6
+T: Bela Rada
+R: 
+O: Srbija
+B: 
+D: 
+Z: John Chambers <jc@eddie.mit.edu> http://ecf-guest.mit.edu/~jc/music/
+M: 2/4
+L: 1/16
+K: G
+V:1
+|: "G"[B2G2][dB][dB] [d2B2][^c^A][dB] | [dB][ec][d2B2] [d2B2][B2G2] \
+| "D7"[d2B2][c2A2] [cA][BG][A2F2] | [cA][BG][A2F2] "G"[BG][AF][G2D2] :|
+|: "C"[c4A4] [cA][BG][A2F2] | "D7"[d2B2][A2F2] [AF][GD][AF][BG] \
+|  "C"[c4A4] [cA][BG][A2F2] | "D7"[d2B2][A2F2] [A4F4] :| 
+V:2
+|: "G"[B2G2][dB][dB] [d2B2][^c^A][dB] | [dB][ec][d2B2] [d2B2][B2G2] \
+| "D7"[d2B2][c2A2] [cA][BG][A2F2] | [cA][BG][A2F2] "G"[BG][AF][G2D2] :|
+|: "C"[c4A4] [cA][BG][A2F2] | "D7"[d2B2][A2F2] [AF][GD][AF][BG] \
+|  "C"[c4A4] [cA][BG][A2F2] | "D7"[d2B2][A2F2] [A4F4] :| 
+V:1 body was selected and  the "tools/replace chords/with
+S:https://www.folktunefinder.com/tunes/137640
+S:http://ifdo.ca/~seymour/runabc/runabc.html
+S:http://ifdo.pugmarks.com/~seymour/runabc/runabc.html
+S:http://ifdo.pugmarks.com/%7Eseymour/runabc/runabc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

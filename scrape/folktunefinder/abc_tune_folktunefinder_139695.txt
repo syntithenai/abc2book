@@ -1,0 +1,27 @@
+X: 18
+T:Lively Jig, Ilmington
+M:4/4
+L:1/8
+R:Hornpipe
+A:Ilmington
+P:A(A2B2)2A
+K:F
+P:A
+C2|FGAF  EFGE|FGAF  C2FE|DGGA BAGF |EGc=B c2C2|
+FGAF  EFGE|FGAF  C2FE|DdcB AGFE |F2F2  F2  ||
+P:B
+GF|EGC=B c2GF|EGC=B c2Bc|defe dc=BA|GAGF  G4  |
+ABAG  FAc2|GAGF  EGc2|cged cBAG |F2F2  F2  ||
+S:https://www.folktunefinder.com/tunes/139695
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

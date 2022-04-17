@@ -1,0 +1,18 @@
+X:1
+T:The Bells of St. Marys
+M:4/4
+L:1/4
+K:C
+ G| c c2 d| e g2 g| a a2 b| c' c'2 a| g g2 e| f f2 g| e e2 c| d3 G|\
+ c c2 d| e g2 g| a a2 b| c' c'2 g| c' b a g| c' b a g| c'2 d'2| c'4-|\
+ c'2 z||
+S:https://www.folktunefinder.com/tunes/137862
+S:http://back.numachi.com:8000/dtrad/abc/BELLSSTM.abc
+S:http://back.numachi.com:8000/dtrad/abc/BELLSTM.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BELLSSTM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

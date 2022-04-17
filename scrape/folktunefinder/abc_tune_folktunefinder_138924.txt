@@ -1,0 +1,24 @@
+X: 1
+T: Big Mon
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+D2 E2 F2 |: &quot;G&quot;GF GA BG AG | &quot;F&quot;=FE FG AG FE | &quot;G&quot;DE GA Bc de |
+=fe dc BA GA |GF GA BG AG | &quot;F&quot;=FE FG AG FE | &quot;G&quot;DE GA BG de |&quot;D&quot;dc BA &quot;G&quot;G2 DE :|
+&quot;G&quot;Gd BG d2 de | _BA G=F GF DC | D=F GD _B=B GF |GD =FG &quot;D&quot;A2 z2 |
+&quot;G&quot;Gd BG d2 de | _BA G=F GF DC | D=F GD _B=B GF |&quot;D&quot;DC _B,=B, &quot;G&quot;G,2 z2 |
+&quot;G&quot;Gd BG d2 de | _BA G=F GF DC | D=F GD _B=B GF |GD =FG &quot;D&quot;A2 z2 |
+&quot;G&quot;D2 d=f ^cd f_d | c_B _dc BG =FB | G=F _BG FD GF |&quot;D&quot;DC _B,=B, &quot;G&quot;G,2 z2 |]
+S:https://www.folktunefinder.com/tunes/138924
+S:http://www.thesession.org/tunes/display/5640
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

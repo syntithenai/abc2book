@@ -1,0 +1,26 @@
+X:1
+T:La Bergier
+C:Louys de Moy 
+C:From 'Le petit boucquet' (1631)
+L:1/4
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+Q:"8 = es"
+[M:3] [,bd,a1]> ,d ,a ,b | ,,d1 ,,,,,,,,,a a |[a,,,d1] [,d,,,d2]| [,bb,d2] ,,,,,,,a1|\
+    [a,,,d/] ,d a c d a |
+%2
+[ca,,c1]> d [a,,,d1]|[a,,,a1] [,ea,c2] | [af2] ,,,,,a1 :: [,da,c2] ,,,,,,d1 |\
+    [abb1] ,,,,,,,a ,d/ ,b | [,a,,,d1] ,b [,,d,,b] |
+%3
+[,acc,a1] ,,,c ,,d | [,a,,,d/] ,,d ,a ,b ,d ,a | [a,,,,,,a1] > ,d ,b ,a |\
+    [,b,,,,,a1] > [,a,,,a] ,,d ,a |,,d2 ,,,,,,,,,a1 ::
+S:https://www.folktunefinder.com/tunes/138234
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Moy/La_Bergier.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Moy/La_Bergier.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

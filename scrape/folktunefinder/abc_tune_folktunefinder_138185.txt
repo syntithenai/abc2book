@@ -1,0 +1,24 @@
+X:5
+T:Sarabande
+C:Trad.
+C:Chanson recueillie par J.-B. Weckerlin
+O:France
+A:Alsace - Sundgau - 1883
+R:Sarabande
+Z:Transcrit et/ou corrig par Michel BELLON - 2005-06-22
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:3/2
+L:1/8
+K:C
+C2>D2 C2 D2E4 | E2GG GFFEE4 "FIN" ::  CEE2 EGG2  |1 G2 E2 | DF AG F2 DE-E4 :|2 G2 E2 G2 E2 | DFAG F2 DE- EG,A,B, |]
+%%begintext
+S:https://www.folktunefinder.com/tunes/138185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/_Chore2007.abc
+S:http://michel.bellon.free.fr/Musique/abc/_Chore2007.abc
+% Rhythm Sarabande
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

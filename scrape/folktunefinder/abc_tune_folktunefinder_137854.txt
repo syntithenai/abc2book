@@ -1,0 +1,18 @@
+X:1
+T:The Bells of Aberdovey
+M:2/4
+L:1/8
+K:Bb
+ D3/2 E/2 DC| DFF,-E| D3/2 E/2 DC| DF F,E| DC ED| CF B, D/2B,/2| G,C F,A,|\
+ B,/2 B,3/2 z2| D2 B,2| F2 D2| B3 F| F3 E| DC ED| CF B, D/2B,/2| G,C F,A,|\
+ B,B, z2| D3/2 E/2 DC| B,D F3/2 F,/2| G,C A, F,| F,B, z2| D3/2 E/2 DC|\
+ B,D F3/2 D/2| CB, A, G,| F, F, z2| E3/2 D/2 CB,| CFF,-E| E3/2 D/2 CB,|\
+ CF F,E| DC ED| CF B, D/2B,/2| G,C F,A,| B,B, z2|
+S:https://www.folktunefinder.com/tunes/137854
+S:http://back.numachi.com:8000/dtrad/abc/BELLABER.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

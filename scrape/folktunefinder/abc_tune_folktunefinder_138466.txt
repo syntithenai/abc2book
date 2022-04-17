@@ -1,0 +1,19 @@
+X:1
+T:Bessy Bell
+M:6/8
+L:1/8
+K:F
+ G| E3/2- F/2 G G3/2- A/2 B| A3/2- G/2 A F2 F| E3/2- F/2 G G3/2- A/2 G|\
+ c3 e2 G| E3/2- F/2 G G3/2- A/2 B| A3/2- G/2 F f2 d| g2- f/2e/2 f2- e/2d/2|\
+ c3 e2 g| e3/2- d/2 e c3/2- d/2 e|f-d Bd-e f|g-e c c3/2- d/2 c| e3 f2e/2-f/2|\
+g-e ce-f g|f-d Bd-e f| g2- f/2e/2 f2- e/2d/2| c3 e2||
+S:https://www.folktunefinder.com/tunes/138466
+S:http://back.numachi.com:8000/dtrad/abc/BESSBELL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

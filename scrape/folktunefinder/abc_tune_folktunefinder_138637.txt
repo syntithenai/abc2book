@@ -1,0 +1,37 @@
+X:10
+T:Girl I Left Behind Me, The (#52)
+M:2/4
+L:1/16
+S:Rice_Walsh manuscript
+R:March
+K:G
+gf|edB^c dBA=c|BAGF EDEF|GFGA GABc|dedc B2gf|
+(3efg de (3Bcd Ac|BAGF EDEF|GFED EGFA|G4 G2:|
+|:BA|Bdef gfgb|agfe d2Bd|edef gfed|(3efg af g2fg|
+(3efg de (3Bcd Ac|BAGF EDEF|GFED EGFA|G4 G2:|
+|:gf|(3efg dB (3cde cA|(3Bcd BG FDEF|GBdB cdec|(3efg (3fga gfed|
+(3efg dB (3cde cA|(3Bcd BG FDEF|GFED EGFA|G4 G2:|
+|:GF|DGBd dcAB|cBGB BAFA|DGBd dcAg|(3fga gf gdBG|
+DGBd dcAB|cBGB BAFA|BAGA (3Bcd FA|G4 G2:|
+|:dc|BA (3Bcd ed (3efg|(3fga gf gdBG|BA (3Bcd ed (3efg|(3fga gf g2fg|
+(3efg dB (3cde cA|(3Bcd BG FDEc|(3BdB GB (3AcA FA|G4 G2:||
+%
+% Few tunes are more widely known than "The Girl I Left Behind Me",
+% or "The Spalpeen Fanach", as an air, march, or hornpipe. Even so,
+% no apology is needed for the introduction of this elaborate setting
+% with variations by Jeremiah Breen, a famous blind fiddler of North
+% Kerry of the past generation. His tunes noted down by a pupil,
+% Thomas Rice, were transcribed by a friend Sergt. James P. Walsh
+% of the Chicago Police.
+S:https://www.folktunefinder.com/tunes/138637
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

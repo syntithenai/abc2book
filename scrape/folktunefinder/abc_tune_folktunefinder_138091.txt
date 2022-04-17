@@ -1,0 +1,34 @@
+X: 33
+T:Gan Ainm
+M:4/4
+L:1/8
+R:Barn Dance
+D:Session tape - Derrygonelly, Fermanagh 1993
+Z:Bernie Stocks
+H:Technically the first bit of this could be 'D' but even with the C sharp
+H:the 'feel' is still 'G'
+M:4/4
+K:G
+A2B^c A2G2 | E2B^c B2A2 | FGAB ^cBcd | (3efg af g4 :: \
+bagf g2d2 | bagf g2d2 | gfeg fedB | (3cde BA G4 :|
+S:https://www.folktunefinder.com/tunes/138091
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Barn dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

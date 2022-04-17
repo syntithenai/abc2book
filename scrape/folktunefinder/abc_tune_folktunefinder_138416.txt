@@ -1,0 +1,24 @@
+X:8
+T:Polly Peachum's Hornpipe
+B:Walsh
+M:3/2
+L:1/8
+N:2 flats
+K:Gm
+d4 cBAG e2 d2| c2 ed cBAG ^F4| GDAD BDAD BDcD| dced cBAG ^F4| f4 edcb g2 f2|\
+e2 gf edcB A4| fBgB fBgB aBbf| edcB E2 A2 B4:: f4 edcB A4| Bcde f2 _A2 A2 G2|\
+g4 fedc =B4| cdef g2 B2 B2 A2| b4 ag^fg a2 d2| c2 ed cBAG ^F4|\
+ ecAc dBGB cA^FA | BGFB D2 ^F2 G4:|
+S:https://www.folktunefinder.com/tunes/138416
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/bath.ac.uk/exxhf/walsh.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/walsh.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/walsh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

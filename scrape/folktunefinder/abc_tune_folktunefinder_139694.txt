@@ -1,0 +1,34 @@
+X: 17
+T:Nelson's Praise, Ilmington
+M:4/4
+L:1/8
+A:Ilmington
+P:AAB(CB)2
+K:G
+P:A
+dc|B2A2 G2dc|BcBA G2d2|e2ed cdec|d2cB B2d2|
+c2B2 A2G2|F2E2 D2c2|B2AG A2F2|G4  G3 ||
+P:B
+z|g2g2 g2fg|a2d2 d4  |gfed cBAG|FAD2 D4 |
+E2EF GFGA|B2G2 g4  |g2d2 e4  |d2B2 c4 |
+c2B2 A2G2|FGAF D2dc|BABG A2D2|G4   G3 ||
+P:C
+dc|B4 A4|G4 d2c2|B4 A4 |G4 d4 |\
+e4 e2d2|c2d2 e2c2|d4 c2B2|
+M:2/4
+L:1/8
+B3d|\
+M:4/4
+L:1/8
+c2B2 A2G2|F2E2 D2c2|B2AG A2F2|G4 G3||
+S:https://www.folktunefinder.com/tunes/139694
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

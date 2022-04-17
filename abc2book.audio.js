@@ -272,14 +272,15 @@ function initialiseEditor (abc, songNumber) {
         console.log('keyup GO' )
         console.log(e.target.value)
         var tunes = loadLocalObject('abc2book_tunes')
-        if (tunes[songNumber] && tunes[songNumber].settings && tunes[songNumber].settings.length > tunes[songNumber].useSetting) {   
-          var notes = getNotesFromAbc(e.target.value)
-          console.log('set tune setting abc', meta)
-          tunes[songNumber].settings[tunes[songNumber].useSetting].abc =  notes
+        if (tunes[songNumber] ) {   
+          //var notes = getNotesFromAbc(e.target.value)
+          //console.log('set tune setting abc', meta)
+          tunes[songNumber] =  singleAbc2json(e.target.value)
+          console.log('SAVE TUNES', tunes)
+          saveLocalObject('abc2book_tunes',tunes)
+          generateAndRenderSingle(songNumber,tunes[songNumber])
+
         }
-        console.log('SAVE TUNES', tunes)
-        saveLocalObject('abc2book_tunes',tunes)
-        generateAndRenderSingle(songNumber,tunes[songNumber])
       },500)
   })
   abcjsEditor = new ABCJS.Editor("editor", {

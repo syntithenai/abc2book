@@ -1,0 +1,24 @@
+X:4
+T:John Ryan's Polka
+R:polka
+S:Session at Fleadh Ceol in Sligo, 1990
+O:Ireland
+M:2/4
+L:1/8
+K:Bm
+"D" dd "G" B/c/d/B/ | "D" AF    AF | "D" dd "G" B/c/d/B/ | "A" AF       ED | 
+"D" dd "G" B/c/d/B/ | "D" AF Ad/e/ | "D" fd       "A" ec |1 "D" d2      d2 :|2 "D" d2 dd/e/ ||
+"D" fd        de/f/ | "G" gf ed/e/ | "D" fd           Ac | "D"  fd/f/ aa/g/ | 
+"D" fd        de/f/ | "G" gf ed/e/ | "D" fd       "A" ec |1 "D" d2   dd/e/ :|2 "D" d2    d2 |]
+S:https://www.folktunefinder.com/tunes/139101
+S:http://www.slowplayers.org/CKSP/Music/CK_Polkas.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

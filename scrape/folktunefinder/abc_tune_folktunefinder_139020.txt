@@ -1,0 +1,31 @@
+X:2
+T:Dan Collin's Father's Jig
+T:Bill Collin's
+T:The Hearty Boys of Ballymote
+C:Traditional
+N:Play 3 times
+N:The Derradda Set, Figure 1, Tune 2 of 2
+Z:Gordon Turnbull, Edinburgh
+Z:gturnbull@theflow.org.uk
+Z:http://www.theflow.org.uk
+D:De Dannan, "Song for Ireland"
+R:Jig
+M:6/8
+L:1/8
+K:D
+d2 A BAB | def a2 f | aba f2 e | d2 B BcB |
+d2 A BAB | def a2 f | aba f2 e | f2 d ~d3 :||
+a | faa faa | afe f2 e | aba f2 e | d2 B BcB |
+d2 A BAB | def a2 f | aba f2 e | f2 d ~d3 :||
+S:https://www.folktunefinder.com/tunes/139020
+S:http://theflow.org.uk/text/flow_derradda.txt
+S:http://www.theflow.org.uk/text/flow_derradda.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

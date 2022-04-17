@@ -1,0 +1,28 @@
+X:1
+T:The Black Joke
+M:6/8
+S:Binghamton MM
+A:Bledington
+O:English
+R:Jig
+P:A(AB)4
+K:G
+P:A
+D | D>GG G>FG | A>cB A>GF | G>AB d>cB | 
+A>cB A>GF | G>AB E>FG | D>EF G2 :|
+P:B
+z | d3 c3 | B2d d2d | e>de d2c | B2d d2d | 
+e>de d2c | B2B B>AG | A>cB A>GF | G>AB d>cB | 
+A>cB A>GF | G>AB E>FG | D>EF G2 :|
+S:https://www.folktunefinder.com/tunes/139662
+S:http://tomkeays.com/morris/tunes/bledington/bledington.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

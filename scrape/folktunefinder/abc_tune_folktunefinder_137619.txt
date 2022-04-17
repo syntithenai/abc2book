@@ -1,0 +1,19 @@
+X:3
+T:Greensleeves
+C:Anonymous
+B:William Ballet's Lute Book, 1580 (England)
+Z:Bert Van Vreckem <http://flanders.blackmill.net/music/>
+M:6/8
+K:Am
+A|c2d e>fe|d2B G>AB|c2A A>^GA|B2^G E2A|c2d e>fe|d2B G>AB|c2BA ^G>^F^G|A2A A3|
+g3 g>^fe|d2B G>AB|c2A A>^GA|B2^G E3|g3 g>^fe|d2B G>AB|c2A ^G>^F^G|A3 A3||
+S:https://www.folktunefinder.com/tunes/137619
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/folk-tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

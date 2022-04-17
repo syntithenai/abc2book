@@ -1,0 +1,29 @@
+X:70
+T:Long John's Wedding March (#64)
+M:6/8
+L:1/8
+S:Capt. F. O'Neill
+R:March
+K:G
+dc|B2 G GBG|gfe d2 c|B2 G GAB|c2 B ABc|
+B2 G GBG|gfe d2 c|B2 G AFA|G3 G2:||
+D|G2 A B2 c|dcd d2 B|cBc ABc|d2 c BAG|
+e2 f gfe|d2 c B2 d|e2 d c2 B|A3 d3|
+G2 A B2 c|dcd d2 B|c2 B ABc|d2 c BAG|
+e2 f gfe|d2 g d2 c|B2 G AFA|G3 G2||
+%
+% The foregoing march is an elaboration of a Jig named
+% "Long John's Wedding", No. 233, O'Neill's Dance
+% Music of Ireland.
+S:https://www.folktunefinder.com/tunes/138649
+S:http://www2.redhawk.org:8080/irish/oneill/waifs/waif-2.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,92 @@
+X:1
+T:Bjrklingelten
+C:Anders Pettersson
+R:Snoa
+Z:Patrik Mnsson
+O:Skuttunge
+M: 2/4
+L: 1/16
+Q:1/4=100
+K:C
+G2| \
+c2 cB c2 e2| \
+c2 G2 E2 G2| \
+c2 cB c2 e2|
+d6 de| \
+f2 e2 d2  (3cBc| \
+d2 c2 B2 A2| \
+G2 GA G2 F2|
+E2 C2 E2 G2| \
+c2 cB c2 e2| \
+c2 G2 E2 G2| \
+c2 cB c2 e2|
+d6 de| \
+f2 e2 d2  (3cBc| \
+d2 c2 B2 A2| \
+G2 f2 d2 B2|
+c4 cB cd| \
+c6 G2| \
+c2 cB c2 e2| \
+c2 G2 E2 G2|
+c2 cB c2 e2| \
+d6 de| \
+f2 e2 d2  (3cBc| \
+d2 c2 B2 A2|
+G2 GA G2 F2| \
+E2 C2 E2 G2| \
+c2 cB c2 e2| \
+c2 G2 E2 G2|
+c2 cB c2 e2| \
+d6 de| \
+f2 e2 d2  (3cBc| \
+d2 c2 B2 A2|
+G2 f2 d2 B2| \
+c4 cB cd| \
+c6 ce| \
+g6  (3ege|
+c2 g2 e2 c2| \
+e2 d2 d^c de| \
+d6 de| \
+f6  (3dfd|
+B2 f2 d2 B2| \
+d2 =c2 cB cd| \
+c2 G2 EG ce| \
+g6  (3ege|
+c2 g2 e2 c2| \
+e2 d2 d^c de| \
+d6 de| \
+f2 e2 d2  (3=cBc|
+d2 c2 B2  (3ABA| \
+G2 f2 d2 B2| \
+c4 cB cd| \
+c6 ce|
+g6  (3ege| \
+c2 g2 e2 c2| \
+e2 d2 d^c de| \
+d6 de|
+f6  (3dfd| \
+B2 f2 d2 B2| \
+d2 =c2 cB cd| \
+c2 G2 EG ce|
+g6  (3ege| \
+c2 g2 e2 c2| \
+e2 d2 d^c de| \
+d6 de|
+f2 e2 d2  (3=cBc| \
+d2 c2 B2  (3ABA| \
+G2 f2 d2 B2| \
+c4 cB cd|
+c6
+S:https://www.folktunefinder.com/tunes/139439
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_835c20.latin.abc
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_835c20.abc
+S:http://www.folkwiki.se/pub/cache/Bj%f6rklingel%e5ten_835c20.abcm.abc
+% Rhythm Snoa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

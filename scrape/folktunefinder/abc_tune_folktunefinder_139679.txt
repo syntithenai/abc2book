@@ -1,0 +1,25 @@
+X: 2
+T:Constant Billy, Ilmington (CJS)
+M:6/8
+L:1/8
+S:CJS (MSS)
+A:Ilmington
+P:A(AB2)4
+K:G
+P:A
+|:D|G2d B>AB|c2A A>FD|B2G E>FG|D>EF G2:|
+P:B
+  z|B2c d>BG|B2c d3  |B2d g3  |B2c  d3|
+B2d B>AB|c2A A>GA|B2G E>FG|D>EF G2||
+S:https://www.folktunefinder.com/tunes/139679
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Ilmington.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Ilmington.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Ilmington.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

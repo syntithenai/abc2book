@@ -1,0 +1,35 @@
+X:3
+T:La Pernette
+R:Chanson
+O:France
+B:Le livre des Chansons (Henri Davenson) n3
+Z:anamnese@laposte.net
+M:6/8
+L:1/8
+Q:1/4=130
+K:Bb
+z G2 | d3 c d e | d3 c z c | d z =e-f z f | d3 {cd}c B c |\
+d3-d z G | d3 c d e | d3 c2 c | d2 c B2 A | G2 A B2 c |
+M:9/8
+d2 B d3-d z B |
+M:6/8
+c2 d B2 A | G6 ||
+W:La pernette se lve,
+W:Tra la, la-la, la la, la la la la ;
+W:La pernette se lve
+W:Trois heures avant le jour (3x)
+W:
+W:Elle prend sa quenouillette avec son petit tour
+W:A chaque tout qu'elle vire pousse un soupir d'amour.
+S:https://www.folktunefinder.com/tunes/137697
+S:http://anamnese.online.fr/abc/davenson.html
+% Rhythm Chanson
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

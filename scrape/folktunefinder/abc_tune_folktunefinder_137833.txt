@@ -1,0 +1,19 @@
+X: 180
+T: Bellman's Jig
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D | "G"GDG BGB | "D"d2c "G"B2A | "G"GDG "Em"A2B | "Am"c2B "D7"A2D|
+"G"GDG BGB | "G"d2c "Em"B2B | "Am"ABc "D7"DEF |"G"G3 G2 :|
+d | "D7"cAA A2f | "G"gdd d2B | "D7"cAA A2f | "G"gdd d2B|
+"C"cdc "G"BcB | "D(Am)"ABA "G(Em)"GAG | "D7"FGA DEF | "G"G2G G2 :|
+S:https://www.folktunefinder.com/tunes/137833
+S:http://users.rcn.com/ladysmyth/tunes/BellmansJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

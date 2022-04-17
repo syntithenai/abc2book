@@ -1,0 +1,35 @@
+X: 21
+T:Ben Lennon's
+M:4/4
+L:1/8
+S:Dermy Diamond, Belfast (fiddle)
+R:Reel
+H:G version of an tune in A associated with Ben Lennon
+D:Session Tape - Kitchen Bar, Belfast 198
+N:As played
+Z:Bernie Stocks
+K:G
+GECE D2B,D | G,3c BcBA | GECE (3.D.E.DB,D | G,3c BcBA :: GB~B2 GBde |dBdg eceg |\
+dB~B2 BcdB | cABc ABce | dB~B2 Bcd2 | dBdg e3g | {a}g2fg efge | dB~B2 cBcA :|
+S:https://www.folktunefinder.com/tunes/138080
+S:http://ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/Book1.abc
+S:http://www.archive.org/download/TheMicrophonesRambles/Book1.abc.txt
+S:http://www.ceolas.org/pub/tunes/abc.tunes/Book1.abc
+S:http://www.firepowr.com/abc/Book1.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Book1.abc
+S:http://www.firepowr.com/abc/Book1abc.abc
+S:http://www.archive.org/stream/TheMicrophonesRambles/Book1.abc.txt
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:50
+T: Kinard Polka
+S: M.Mulvihill
+Z: B.Black
+R: polka
+M: 2/4
+L: 1/8
+K: G
+A | BG G/A/G/F/ | DG G>A | BG GF/G/ |\
+Ad d/e/d/c/ |
+BG G/A/G/F/ | DG GB/d/ | ed cA | AG G :|
+A | Bd g2 | fe e2 | cd f2 | ed d/e/d/c/ |
+Bd g2 | fe a>g | fd ef ag g :|
+S:https://www.folktunefinder.com/tunes/138569
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/k.abc
+S:http://www2.redhawk.org:8080/irish/zouki/k.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

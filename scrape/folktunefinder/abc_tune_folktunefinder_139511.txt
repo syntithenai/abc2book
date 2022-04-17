@@ -1,0 +1,23 @@
+X:2
+T:The King of the Fairies
+R:hornpipe
+M:4/4
+L:1/8
+K:Edor
+B,2 | EDEF   GFGA | B=cBA    GFGA | B2 E2 EF (3GFE | FGFE  D2  B,2 |
+      EDEF   GFGA | BAGB    d3 =c | B2 E2     GFED | E2    ED   E2 :|
+B2  | efed   Bdef | gagf     efed | e2 B2     BABc | dedc Bc (3dcB |
+      e2 B2  Bdef | gagf     efed | Bd (3efg  fedf | e2  ed   e3 f |
+      g3 e   f3 d | edBc     d3 e | dBAF      GABc | dBAF     GFED |
+      B,2 E2 EFGA | B2 e2    edef | e2 B2     BAGF | E2    ED   E2 :|
+S:https://www.folktunefinder.com/tunes/139511
+S:http://www.slowplayers.org/Music/abc/Setdance.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

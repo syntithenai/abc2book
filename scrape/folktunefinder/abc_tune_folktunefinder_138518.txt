@@ -1,0 +1,26 @@
+X:12
+T:Bonnie Kate
+R:reel
+C:Howie MacDonald
+D:Howie, Dave  & Mac
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:D
+AFdF (B/c/d) AF|DFAF EA,CE|DFAF DGBd|[1ceAc defd:|[2ceAc defg||
+||({f/g/}a2) fd (f/g/a) fd|(f/g/a) fd cdef|g2 gf gbag|fdec defg|
+({f/g/}a2) fd (f/g/a) fd|(f/g/a) fd cdef|gdBd gbag|fdec defd|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/138518
+S:http://cranfordpub.com/tunes/abcs/HowieLive.abc
+S:http://www.cranfordpub.com/tunes/abcs/HowieLive.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,103 @@
+X:1
+%%titleleft
+%%staffsep 40pt
+%%topmargin 1.5cm
+%%topspace 0.3cm
+%
+%%tabaddflags 0
+%%tabfontsize 11
+%%tabfontscale 1.3
+%%tabflagspace 3pt
+%
+T:Les Bergeries de Couperin
+T:Rondeau
+C:arrang\'ee pour th\'eorbe
+C:par Christophe d'Alice
+Z:abc transcription by Christoph Dalitz
+%
+L:1/8
+M:6/8
+K:G frenchtab
+%
+Q:"Naivement"
+%
+% Rondeau
+"Rondeau"[cd{a}1] ,,,,a ['a,,,,a] |\
+        [,d,,,c/]-,c ,d a [,d,,,a] a U[c{a}1] ,,,,a ([a{,a}//] c d/) |\
+        (['c{a}3/2] a//c) [ac,,a1] [,,aa{a}/]-,,b [,,d,,c1] [a{,a}] |
+%
+[,,aa{a}/] [,,b,,a] [,,d,,c1] '[,,a{a}] '[,,,a{,,a}1] (3[a{,a}/]cd '[c{a}1] |\
+        ['a{,,,a}1] ,,,,a/ ,,,,c ,,,,e ,,,,a || [cd{a}1] ,,,,a ['a,,,,a] |\
+        [,d,,,c/]-,c ,d a [,d,,,a] a U[c{a}1] ,,,,a ([a{,a}//] c d/) |
+%
+(['c{a}3/2] a//c) [ac,,a1] [,,aa{a}/]-,,b [,,d,,c1] [a{,a}] |\
+        [,,aa{a}/] [,,b,,a] [,,d,,c1] '[,,a{a}] '[,,,a{,,a}1] (3[a{,a}/]cd '[c{a}1] |\
+        ['a{,,,a}1] ,,,,a/ ,,,,c-,,,,a ,,,,,d ||\
+        [,,d,,c/] ,d ,c-,d {5} ,d |
+%
+'[a{4}/] ,d ,c-,d a ,,a [a{,,,a}/] ,d [ac] [cd] [ac] [cd] |\
+        [da{,,a}/] ,,a-,,b ,,d ,,a ,,b [,,d{5}/] ,,,a ,,f-,,d ,,b-,,a |\
+        ['a{4}/] ,d [,c,a] ,d a ,,,a [Uc{,,,a}1] ,d/ d ['ac,,a1] |
+%
+[,d{a}/]-,c ,d a ,,a ,,b ||\
+        [,,d,,c/] ,d ,c-,d {5} ,d |\
+        '[a{4}/] ,d ,c-,d a ,,a [a{,,,a}/] ,d [ac] [cd] [ac] [cd] |\
+        [da{,,a}/] ,,a-,,b ,,d ,,a ,,b [,,d{5}/] ,,,a ,,f-,,d ,,b-,,a |
+%
+['a{4}/] ,d [,c,a] ,d a ,,,a [Uc{,,,a}1] ,d/ d ['ac,,a1] |\
+         [,d{a}1] ,,,,a {7} |]\
+% 1er Couplet
+        "1er Couplet"[,,a{a}/] ,,,,a ,,,,,d ,,,,a [,,d{,a}] ,,,,a |\
+        '[,,a{a}/] ,,,,a ,,,a ,,,,a a ,,,,a [,,a{a}/] ,,,,a ,,b ,,,,a [,,d{,a}] ,,,,a |
+%
+'[,,a{a}/] ,,,,a ,,,a ,,,,a a ,,,,a [,,a{a}/] ,,,,a ,,a-,,b [,,d{,a}] ,,,,a |\
+        '[,,a{a}/] ,,,,a ,,,a ,,,,a [a{,a}] ,,,,a U[c{a}1] [d{,a}/]-c '[a{,,a}] ,d |\
+        [,cd{,,,a}/] ,,,,,d ,,,,a ,,,,c ,,,,e ,,,,a ||\
+        '[,,a{a}/] ,,,,a ,,,,,d ,,,,a [,,d{,a}] ,,,,a |
+%
+[,,a{a}/] ,,,,a ,,,a ,,,,a a ,,,,a [,,a{a}/] ,,,,a ,,a-,,b [,,d{,a}] ,,,,a |\
+        '[,,a{a}/] ,,,,a ,,,a ,,,,a a ,,,,a [,,a{a}/] a ,,a-,,b [,,d{,a}] ,,,c |\
+        '[,,a{a}/] ,,,,a ,,,a ,,,,a [a{,a}] ,,,,a U[c{a}1] [d{,a}/]-c '[a{,,a}] ,d |
+%
+[,cd{,,,a}/] ,,,,,d ,,,,a ,,,,c ,,,,a ,,,,,d ||\
+% petit Reprise
+        [,,d,,c/] ,d ,c-,d {5} ,d |\
+        '[a{4}/] ,d ,c-,d a ,,a [a{,,,a}/] ,d [ac] [cd] [ac] [cd] |\
+        [da{,,a}/] ,,a-,,b ,,d ,,a ,,b [,,d{5}/] ,,,a ,,f-,,d ,,b-,,a |
+%
+['a{4}/] ,d [,c,a] ,d a ,,,a [Uc{,,,a}1] ,d/ d ['ac,,a1] |\
+        [,d{a}/]-,c ,d a ,,a ,,b ||\
+        [,,d,,c/] ,d ,c-,d {5} ,d |\
+        '[a{4}/] ,d ,c-,d a ,,a [a{,,,a}/] ,d [ac] [cd] [ac] [cd] |
+%
+[da{,,a}/] ,,a-,,b ,,d ,,a ,,b [,,d{5}/] ,,,a ,,f-,,d ,,b-,,a |\
+        ['a{4}/] ,d [,c,a] ,d a ,,,a [Uc{,,,a}1] ,d/ d ['ac,,a1] |\
+        [,d{a}1] ,,,,a {7} |]\
+% 3e Couplet
+        "3e Couplet"[c{a}/] ,a ,,,,b ,a [d,,,,a] ,c |
+%
+[c{a}/] ,a ,,,,b ,a [d,,,,a] ,c [c{a}/] d [c,,,,a]-a [,d,,,c]-,c |\
+        U[,d,,c1] ,,,,,c/ ,c [,a{,,a}1] [,,a,c/] ,d ,c-,d *,,f1 |\
+        [,,a,b/] ,c ,a-,c *,,h1 [,,a,c/] ,d ,c-,d *,,i1 |
+%
+[,,a,b/] ,c ,a-,c *,,h1 [,,a{,,a}/] ,d ,c-,d *,,i1 |\
+        [,,a{,,,a}/] ,,h ,,i-,,h [,,f{,,a}] ,,,h '[,,,g{,a}1]>,,,e ',,,d1 |\
+        [,,aUe,c/] a c d c a [,ea{,,a}/] c a-c ,,f c |
+%
+[,e/] ,,,,c ,,,,a-,,,,c ,,f ,a {,,a}/ c a-c ,,f c |\
+        '[d,,,,a3/2] c/ a {a} [a{,a}/] ,f ,d-,f ,,d a |\
+        '[,c/] ,,,,a ,,,,,d ,,,,a ,,d ,,,,a {,,,a}/ ,f ,d-,f ,,d a |
+%
+'[c{a}3/2] a/ ,d1 [,,aa{a}/] ,,d ,,b-,,a a ,d |\
+        [a{,a}/] d c-a ,d-,c [,d{,,a}/] c-a ,d ,c-,a |\
+        '[,c{,,,a}3/2] ,a/ ,c ,,,,a |]
+%
+%%text Rondeau da Capo
+S:https://www.folktunefinder.com/tunes/138180
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Couperin/Bergeries.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Couperin/Bergeries.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

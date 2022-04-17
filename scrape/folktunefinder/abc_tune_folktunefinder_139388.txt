@@ -1,0 +1,21 @@
+X: 17
+T: Bisdot Bet Lechem
+M: 2/4
+L: 1/8
+Q: 1/4=100
+K: Cm
+%MIDI gchord fzfz
+|:"Cm"C2 G,C  |"Gm"DEDC|"Cm"E4-   |E2 (3DEF|\
+  "Gm"G3 F    |E2D2    |"Cm" EDC2-|C4      :| "Fm"FzFz|FG/_A/GF|
+  "Cm"_AB/c/BA|_AGGF   |G2F/G/A   |G3F     |G3F       |\
+  E2D2        |[1EFG2- |G2z2      :|[2EDC2-|C4        |
+S:https://www.folktunefinder.com/tunes/139388
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Israel/Bisdot_Bet_Lechem.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

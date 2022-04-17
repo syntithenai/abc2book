@@ -1,0 +1,28 @@
+X: 1
+T:Billy Wilson
+R:reel
+L:1/8
+M:C|
+K:A
+|: "A"a2g2 a2e2 | "D"fgaf "A"edcA | "E"B2G2 B2G2 | "A"ABcd "E"e4 |
+   "A"a2g2 a2e2 | "D"fgaf "A"edcB | ABcd efed | "E"cAB2 "A"A4 :|
+P:B
+|: "A"ABcd efed | cBAc "E"B4 | "A"ABcd efed | "E"cAB2 "A"A4 :|
+P:C
+|: "A"A4 ABcA | "D"F3E F2E2 | "A"A2A2 cBA2 | e3f e4 |
+   "E"B4 BcBA | "D"F3E F2e2 | "A"a2g2 a2e2 | "E"ecB2 "A"A4 :|
+N:Play AABBC for contra dances.
+N:Portland Collection: Volume 2, pg 24 - abc by Peter Ostapenko 3/27/2007
+N:A Major
+S:https://www.folktunefinder.com/tunes/139176
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/BillyWilson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords
