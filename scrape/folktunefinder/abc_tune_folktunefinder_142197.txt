@@ -1,0 +1,24 @@
+X: 1
+T:Bourre  Bouscatel
+C:MCTB 1/53
+M:3/8
+L:1/16
+K:C
+a4g2|a4f2|efg2a2|f2d2g2|\
+a4g2|a4f2|egf2e2|1 d4g2:|2 d4ed||
+|:c4B2|A4f2|efg2a2|f2d2ed|\
+c4B2|A4f2|egf2e2|1 d4ed:|2 d4G2||
+|:c2cBcd|e2edef|g2f2e2|d2e2d2|\
+c2cBcd|e2edef|g2f2e2|d4g2:|
+|:f4d2|e4c2|Bcdefg|f2d2g2|\
+f4d2|e4c2|BcdedB|c4g2:|
+S:https://www.folktunefinder.com/tunes/142197
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bourr_e_Bouscatel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

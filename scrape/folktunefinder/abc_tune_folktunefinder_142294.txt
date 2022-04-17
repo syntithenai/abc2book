@@ -1,0 +1,23 @@
+X: 1
+T: Bourr\'ee de Chamberat
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+   D2 \
+| "G"G3A B2c2 | "D"d3c A4 | "G"B3c "D"A2B2 | "G"G3A "D"F2D2 \
+| "G"G3A B2c2 | "D"d3c A4 | "G"B3c "D"A2B2 | "G"G6 :|
+|: Bc \
+| "D"d3c A2B2 | "G"G3A "D"F2D2 | "D"F3G A2B2 | "A"G3A "D"F2D2 \
+| "D"d3c A2B2 | "G"G3A "D"F2D2 | "D"F3G ABAF | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/142294
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/BourreeDeChamberat_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

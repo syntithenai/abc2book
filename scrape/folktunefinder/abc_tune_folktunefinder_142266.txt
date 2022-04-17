@@ -1,0 +1,31 @@
+X:1
+T:Fil et bobine
+C:Jean Blanchard
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:D
+FG |\
+A2d2c2 | A3GAB | =c2B2G2 | ABAGFG |
+A2d2c2 | A3GAB | =c2B2G2 | A4 :|
+|: FG |\
+A2F2D2 | E3DEF | G2F2D2 | EFG2FG |
+A2F2D2 | E3DEF |1 G2F2D2 | E4 :|\
+               [2 G2F2E2 | D4 |]
+S:https://www.folktunefinder.com/tunes/142266
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bourree.A2d2c2A3GAB.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

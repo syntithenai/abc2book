@@ -1,0 +1,54 @@
+X:228
+T:Bourr\'ee
+T:from Suite BWV 996
+C:Johann Sebastian Bach
+O:Germany
+R:Bourr\'ee
+Z:ABC transcription by Laurie Griffiths
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-gtr.abc
+%Posted June 11th 2000 at abcusers by Laurie Griffiths.
+M:4/4
+L:1/8
+K:Em
+[K: transpose=-12][G,e][F, f] |\
+[E,2g2][A,f]e [B,2^d2][A,e]f |\
+[G,2B2][F,^c]^d [E,2e2][F,=d]=c |\
+[G,2B2][A,A]G [B,2F2][A,G]A |\
+[G,B]A [B, G] F [E,E]-[F, E] [G, e] [F, f] |\
+[E,2g2][A,f]e [B,2^d2][A,e]f |\
+[G,2B2][F,^c]^d [E,2e2][F,=d]=c |\
+[G,2B2][CA]G [D2F2][DD]G |\
+[G,6B,6D6G6]:|
+|: [G,B]G |\
+[F,2d2][DA]c [G,2B2][B,g]d |\
+[C2e2][^G,B]d [A,2c2][DB]A |\
+[E2^G2][A,A]B [E2c2][E,B]A |\
+[A,A]-[B, A] A, G, F,2[Dd]A |\
+[G2B2][B,g]d [C2e2][^G,B]d |\
+[A,2c2][^Ca]e [D2f2][^A,^c]e |\
+[B,2d2][E^c]B [F/^A/]-[F/ B/]-[F/ ^A/]-[F/ B/] F, B |\
+[B,B]^A, B, ^C ^D2[B,b]f |\
+[E2^g2][Df]e [C2a2][A,e]=g |\
+[D2f2][Ce]d [B,2g2][G,d]=f |\
+[C2e2][B,a]e [A,2f2][^A,^c]e |\
+[B,2^d2]B2-BC B, A, |\
+[G,e]B [A, c] E [Fd]A [G, B] ^D |\
+[Ec]G [F, A] ^C [DB]F [E,2G2]|\
+[A,F]E [B,2^D2][A,E]F [B,2G2]|\
+FE [E,4E4]:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142275
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-gtr.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0996-5/bwv0996-5-gtr.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-gtr.abc
+% Rhythm Bourre?e
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

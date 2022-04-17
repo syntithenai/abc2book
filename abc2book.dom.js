@@ -97,9 +97,10 @@ function domInit() {
   $('#doublenotelengthsbutton').click(function(e) {
       e.stopPropagation()
       var tune = singleAbc2json($('#editor').val())
-      tune.settings[tune.useSetting] = multiplyAbcTiming(2,$('#editor').val())
-      $('#editor').val(json2abc(tune.songNumber,tune))
-      $('#editor').keyup()
+      tune.settings[tune.useSetting].abc = multiplyAbcTiming(2,$('#editor').val())
+      var abc = json2abc(tune.songNumber,tune)
+      console.log('abc half ',abc)
+      $('#editor').val(abc)
   })  
   $('#halvenotelengthsbutton').click(function(e) {
       e.stopPropagation()

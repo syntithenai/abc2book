@@ -1,0 +1,36 @@
+X:1022
+T:Bourr\'ee
+T:from Suite BWV 996
+C:Johann Sebastian Bach
+O:Germany
+R:Bourr\'ee
+Z:Transcribed by Bryan Creer
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-bryan.abc
+%Posted June 10th 2000 at abcusers by Bryan Creer during a discussion
+%about modes.
+M:4/4
+L:1/8
+K:Em
+ef|g2fe ^d2ef|B2^c^d e2=d=c|B2AG F2GA|BAGF E2ef|
+g2fe ^d2ef|B2^c^d e2=d=c|B2AG F3G|[D6G6]:|
+|:BG|d2Ac B2gd|e2Bd c2BA|^G2AB c2BA|
+A6dA|B2gd e2Bd|c2ae f2^ce|d2^cB ^A3B|
+B6bf|^g2fe a2e=g|f2ed g2d=f|e2ae f2^ce|
+^d2B4eB|c2dA B2cG|A2BF G2FE|^D2EF G2FE|E6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142271
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-bryan.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0996-5/bwv0996-5-bryan.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0996-5/bwv0996-5-bryan.abc
+% Rhythm Bourre?e
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

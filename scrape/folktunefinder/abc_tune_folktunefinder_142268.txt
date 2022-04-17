@@ -1,0 +1,28 @@
+X:1
+T:Bourree
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Gmixo
+g3/2d/2 BG- | GB dg | f3/2c/2 _BA- | AG Ac |\
+e3/2c/2 AG | Ac ec | d2 cd- |1 de fd :|\
+                            [2 d_B AG ||
+K:Gdorian
+|:\
+d3/2c/2 Ad- | dc de | f3/2e/2 dg- | g^f ga |\
+=b3/2a/2 gf- | fe dc | B2 AB- |1 B2 AG :|\
+                              [2 G4 |]
+g3dB2G2-G2B2d2g2
+S:https://www.folktunefinder.com/tunes/142268
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree.g3dB2G2-G2B2d2g2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

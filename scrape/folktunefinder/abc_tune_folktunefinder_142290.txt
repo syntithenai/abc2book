@@ -1,0 +1,23 @@
+X:1
+T:La Bourree Carree de St. Chartier
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+D2 EF | G3B | A3/2G/2 FG | AB A2 |\
+D2 EF | G3B | A3/2G/2 FE | D4 :|
+|:\
+GA BA/2B/2 | cB A2 | BG FG | AF ED |\
+GA BA/2B/2 | cB A2 | BA/2G/2 FA | G4 :|
+S:https://www.folktunefinder.com/tunes/142290
+S:http://simonwascher.info/TradArchiv_bourree_2/carree_de_st._chartier.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

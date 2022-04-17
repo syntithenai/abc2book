@@ -1,0 +1,26 @@
+X: 2
+T:Kay's Mazurka 
+R:mazurka
+C:Jean-Marc HENRY
+M:3/4
+L:1/8
+Q:120
+K:C
+EGA |: "C"G2 (4GGGG) EGc|"C"e2 (4eeee) c"G"de|"G"d2 (4dddd) f"C"ed|[1 e2
+ cEGA:|[2 c3 EG
+A||
+|: "C"G2 (4GGGG) EGc|e2 (4eeee) c"G"de|d2 (4dddd) f"C"ed|[1 e2 cEGA:|[2 
+c3 egf||
+|:"C"e2 (4eeee) c"Em"Bc|"G"d2 (4dddd) c"Em"Bc|"G"d2 (4dddd) f"C"ed|[1 "C
+"e2 cegf:| [2 "C"c3  egf||
+|:"C"e2 (4eeee) c"Em"Bc|"G"d2 (4dddd) c"Em"Bc|"G"d2 (4dddd) f"C"ed|[1 "C
+"e2  cegf:|[2  c3 ||
+S:https://www.folktunefinder.com/tunes/142206
+S:http://site.voila.fr/diatomanche/abc/compo.txt
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

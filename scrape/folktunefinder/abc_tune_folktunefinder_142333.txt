@@ -1,0 +1,29 @@
+X:1
+T:"Bourree Parisienne"
+A:France 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Dm
+G3A BAG2 | c3B AG^F2 | d3c B2A2 | D2B2A4 |
+G3A BAG2 | c3B AG^F2 | d3c B2A2 | D2^F2G4 :|
+K:D
+|:\
+A2Bc d2c2 | A2B2F4 | D2EF G2A2 | B2c2 B2A2 |
+A2Bc d2c2 | A2B2F4 | D2EF G2A2 | B2c2d4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/142333
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/bourree_parisienne.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Bourree
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+ef | g^fgag=f | e2dcde | fedBdf | edc2ef |
+g^fgag=f | e2dcde | fedBdB |1 c4 :|\
+                           [2 c4de ||
+|:\
+dedcBc | dcdefg | fgfedc | Bcd2de |
+dedcBc | dcdefg | fgfedB | c4 :|
+S:https://www.folktunefinder.com/tunes/142264
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bourree.g^fgag=f.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

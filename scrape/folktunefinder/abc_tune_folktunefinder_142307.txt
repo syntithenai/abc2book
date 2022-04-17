@@ -1,0 +1,23 @@
+X:1
+T:Bourree dite Aurore Sand
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Gm
+D |\
+G3/2A/2 Bc | d3d | d3/2g/2 ^fg | d3d |\
+e3/2d/2 cA | B3/2A/2 GB | A3/2G/2 AB | G3 :|
+|: d |\
+d3/2c/2 Bc | d3/2c/2 Bc | d3/2c/2 de | d3/2c/2 Bc |\
+d3/2c/2 Bc | d3/2c/2 Bc | d3/2c/2 BA | G :|
+S:https://www.folktunefinder.com/tunes/142307
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree_dite_aurore_sand.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

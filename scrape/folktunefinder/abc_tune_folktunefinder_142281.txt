@@ -1,0 +1,25 @@
+X:1
+T:Bourree a Huit\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+g4^f2 | g4de | f2e2d2 | e2c2G2 |
+g4^f2 | g4de | f2e2d2 | c4G2 :|
+|:\
+c2B2c2 | G4c2 | d3ged | e2c2G2 |
+c2B2A2 | G4c2 | d4B2 | c4G2 :|
+S:https://www.folktunefinder.com/tunes/142281
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bourree_a_huit.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Bourr\'ee des Dindes
+T: the Turkeys' Bourr\'ee
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "D7"D4 E2F2 | "G"G8 | "Am"A3B c2B2 | A3G "(A7)"F2E2 \
+|  "D7"D4 E2F2 | "G"G8 | "Am"A3B c2B2 | "D7"A8 :|
+|: "Am"A3B c2B2 | A3B c2B2 | A3G "(A7)"F2E2 | "D"E4 D4 \
+|  "Am"A3B c2B2 | A3B c2B2 | "D7"A3G   F2A2 | "G"G8 :|
+S:https://www.folktunefinder.com/tunes/142304
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/BourreeDesDindes_G.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

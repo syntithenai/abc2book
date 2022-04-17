@@ -1,0 +1,27 @@
+X:1
+T:Bourre du p'tit coq
+C:Gilles Pquignot - Danyle Besserer (Au gr des vents), fichier ABC par Bernard Loffet
+L:1/8
+Q:400
+M:3/4
+K:C
+|: [DD,]A [zD,]D [zD,]A | [c2D,2] D,2 D,2 | [cD,]A [zD,]G [zD,]A | [E2C,2] C,2 C,2 | [DC,]A [zC,]D [zC,]A | \
+ [d2D,2] D,2 D,2 | [dD,]c [AD,]c [AD,]G | [A2D,2] D,2 D,2 :|: [DD,]E [GG,]A [cD,]d | [e2C,2] C,2 C,2 | \
+ [eC,]d [zC,]c [dC,]z | [A2D,2] D,2 D,2 | [DD,]E [GG,]A [cD,]d | [e2C,2] C,2 C,2 | [eC,]d [zC,]c [dC,]z | \
+ [^f2D,2] D,2 D,2 :| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/142221
+S:http://diato.ifrance.com/diato/tablat/89.abc
+S:http://diato.ifrance.com/tablat/89.abc
+S:http://diato.org/tablat/89.abc
+S:http://perso.orange.fr/diato/tablat/89.abc
+S:http://perso.wanadoo.fr/diato/tablat/89.abc
+S:http://pro.wanadoo.fr/diato/tablat/89.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/89.abc
+S:http://www.diatonique.net/tablat/89.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

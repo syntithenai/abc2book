@@ -1,0 +1,21 @@
+X: 1
+T: Bourr\'ee de Neris
+O: Trad
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G
+|: "G"B4 B2AB | "C"c2B2 A2G2 | "D7"B2A2 G2F2 |  "G"G2A2 B2G2 \
+|  "G"B4 B2AB | "C"c2B2 A2G2 | "D7"B2A2 G2F2 |  "G"G8 :|
+|: "G"d4 d2cd | "C(Em)"e2d2 c2B2 | "Am"c4   c2Bc |  "D7"d2c2 B2A2 \
+|  "G(Em)"B4 B2AB | "C(Am)"c2B2 A2G2 | "D7"B2A2 G2F2 |1 "G"G2A2 "(D7)"B2c2 :|2 "G"G8 |]
+S:https://www.folktunefinder.com/tunes/142300
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/BourreeDeNeris_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,57 @@
+X:718
+T:Bourr\'ee
+C:Johann Sebastian Bach
+O:Germany
+S:From Partita in A.
+R:Bourree
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bach-bourree-a/bach-bourree-a-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+K:A
+V:1
+A2|c2BAe2a2|g2fea2e2|f2b2e2a2|
+V:2
+z2|z2A,2C2B,A,|E2D2C2B,A,|D2CB,C2B,A,|
+%
+V:1
+d2e2dcBA|G2FEB2e2|c2BAc2f2|^d2cBf2b2|
+V:2
+B,2A,G,A,2D,2|E,2F,2G,2F,E,|A,2C2A,2G,F,|B,2C2^D2CB,|
+%
+V:1
+g2fea2gf|b2ef^d3e|e6::B2|G2FEB2e2|
+V:2
+E2^D2C2B,A,|G,2A,2B,2B,,2|E,6::^D,2|E,2F,2G,2F,E,|
+%
+V:1
+c2BAe2a2|f2b2g3f|^e2^dcf2c2|=d2B2G2c2|
+V:2
+A,2B,2C2B,A,|D2DCB,2G,2|C2B,2A,2G,F,|B,2A,G,C2C,2|
+%
+V:1
+A2GFc2f2|d2B2F2B2|G2FEB2e2|c2BAe2a2|
+V:2
+F,2G,2A,2G,F,|B,2B,,C,D,2C,B,,|E,2F,2G,2F,E,|A,2B,2C2B,A,|
+%
+V:1
+f2edf2b2|g2fea2e2|d2cdB3A|A6:|]
+V:2
+D2F2^D2CB,|E2=D2C2B,A,|G,2A,2E,2E,,2|A,,6:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142273
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bach-bourree-a/bach-bourree-a-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bach-bourree-a/bach-bourree-a-pno2.abc
+% Rhythm Bourree
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

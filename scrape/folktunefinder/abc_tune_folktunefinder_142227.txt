@@ -1,0 +1,24 @@
+X: 1
+T:Bourree (2 time)
+M:2/4
+L:1/8
+Q:50
+S:Eurojam
+R:Bourree
+Z:Steve Mansfield
+K:G
+dedc|A/G/F/G/ A2|D/E/F/G/ AG/A/|dcA2|dedc|A/G/F/G/A2|D/E/F/G/ A_B|AFG2:|
+:AA A/G/F/G/|AD  DE/F/|GF/G/ AG/A/|dc A2|AA A/G/F/G/|AD D2|D/E/F/G/ A_B|
+AFG2:|
+S:https://www.folktunefinder.com/tunes/142227
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bourree_2_time_3.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

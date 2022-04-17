@@ -1,0 +1,28 @@
+X:1
+T:Bourree "Les feuilles jaunes" ("Die gelben Blaetter")
+C:Ambros Schiffermueller, 13. 4. 2001
+R:bourree a trois temps
+F:http://simonwascher.info
+Z:abc transcription Helmut Eberl
+M:3/8
+L:1/8
+K:Cm
+g |\
+g2 f | e> d c | d G G | c/=B/c/d/e/f/ |\
+g2 f | e> d c | d G G | c2 :|  
+|: c |\
+d> e f | e> d c | d G G | c/=B/c/d/e/c/ |\
+d> e f | e> d c | d G G | c2 :|
+S:https://www.folktunefinder.com/tunes/142325
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/les_feuilles_jaunes.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Bourree a Malochet
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+F2 G2 | A3d | c3/2d/2 ec | d3/2e/2 fd |\
+F2 G2 | A3d | c3/2d/2 ec | d4 :|
+|:\
+f3/2e/2 df | e3/2d/2 ce | d3/2c/2 BG | A4 |\
+G3/2A/2 BG |1 F2 DF | E3/2F/2 GE | F4 :|\
+           [2 F2 Dd | c3/2d/2 ec | d4 |]
+S:https://www.folktunefinder.com/tunes/142285
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree_a_malochet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

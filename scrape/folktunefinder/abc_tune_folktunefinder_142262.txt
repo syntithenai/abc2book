@@ -1,0 +1,26 @@
+X:1
+T:Bourree
+C:Jean Blanchard\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+d2dc-cd | B2GABd | cBABAG | FGAGAc |
+d2dc-cd | B2GABd | cBAFDG | A4A2 :|
+|:\
+c2-cB-B2 | A2ABcd | cBABAG | FGABdB |
+c2-cB-B2 | A2ABcd | cBAGFG | A4A2 :|
+S:https://www.folktunefinder.com/tunes/142262
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bourree.d2dc-cdB2GABd.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

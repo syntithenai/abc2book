@@ -1,0 +1,23 @@
+X:1
+T: Bourree
+C: Simon Wascher
+M: 2/4
+L: 1/8
+Q:1/4=111
+E:12
+K:Gmixo
+A3/2G/2 A/2G/2A/2B/2|cB AG|A3/2G/2 A/2G/2A/2B/2|cd2B|\
+A3/2G/2 A/2G/2A/2B/2|cB AG|A3/2G/2 A/2G/2A/2B/2|c3B:|
+|:d/2c/2d/2e/2 f/2e/2f/2g/2|fe dc|d/2c/2d/2e/2 f/2e/2f/2g/2|f2 e2|d\
+/2c/2d/2e/2 f/2e/2f/2g/2|fe dc|d/2c/2d/2e/2 f/2e/2f/2g/2|g/2f/2e/2d/2 c/2B/2A/2G/2:||*
+S:https://www.folktunefinder.com/tunes/142267
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree.a3gagabc2b2a2g2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

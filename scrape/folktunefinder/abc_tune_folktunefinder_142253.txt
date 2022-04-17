@@ -1,0 +1,21 @@
+X:1
+T:Bourree
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Dm
+A2 GA | DEF2 | G3 c | AGA2 |\
+A2 GA | DEF2 | G>F Gc | A4 :| 
+G2d2  | c G- G B | A>G AB | AGFD | 
+G2d2  | c G- G B | A>G AB | A4 :|
+S:https://www.folktunefinder.com/tunes/142253
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree.A2GADEF2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

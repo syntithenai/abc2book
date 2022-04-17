@@ -1,0 +1,23 @@
+X:1
+T:Bourree de Cusset
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+A3B | G3G | FE FG | A/2G/2A/2B/2 AF/2G/2 |\
+A3B | G3G | FE GF | D4 :|
+|:\
+DE FG | A/2G/2A/2B/2 Ad | cd ed | A/2G/2A/2B/2 AF |\
+DE FG | A/2G/2A/2B/2 AA | GE GF | D4 :|
+S:https://www.folktunefinder.com/tunes/142296
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree_de_cusset.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T:Bourr\'ee la Tricotada
+R:Bourr\'ee
+M:3/8
+O:France
+K:C
+e2g2f2| e4d2| cdedef| efedc2|\
+e2g2f2| e4d2|1 cdedef| g6 :|2 cde2d2| c4||
+|:ed | \
+c2B2c2| d4d2| cdedef| e2d2c2|\
+c2B2c2| d4d2| cde2d2| c4 :|
+S:https://www.folktunefinder.com/tunes/142323
+S:http://sprezzaturra.com/abc/BourreeLaTricotada.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bo/Bourree_la_Tricotada_1.abc
+S:http://www.sprezzaturra.com/abc/BourreeLaTricotada.abc
+% Rhythm Bourre?e
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

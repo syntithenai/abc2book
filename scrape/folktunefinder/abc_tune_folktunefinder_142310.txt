@@ -1,0 +1,27 @@
+X:1
+T:Bourree Droite
+C:traditionell
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:G
+D2 | G2FGEF | D2G2B2 | A2c2F2 | A2G2D2 |
+G2FGEF | D2G2B2 | A2c2F2 | G4 :|
+|: Bc |\
+d2e2d2 | A4AB | c2AcAc | B2G2Bc |
+d2e2d2 | A4AB | c2AcAF | G4 :|
+S:https://www.folktunefinder.com/tunes/142310
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/bourree_droite.G2FGEFD2G2.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:Bourree a Mouret
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+B |\
+d2 AA | c2 GG | B3/2d/2 cB | A/2G/2A/2B/2 A/2c/2B/2c/2 |\
+d2 AA | c2 GG | B3/2d/2 cB | A3 :|
+|:\
+F/2G/2 | AA AA | A2 G/2F/2G/2A/2 | Bd Be |\
+^c3/2B/2 Ad | AF GA | B2 EF/2G/2 | AG/2F/2 E2 |\
+D3 :|
+S:https://www.folktunefinder.com/tunes/142286
+S:http://simonwascher.info/TradArchiv_bourree_2/bourree_a_mouret.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

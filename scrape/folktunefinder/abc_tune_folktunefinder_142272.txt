@@ -1,0 +1,50 @@
+X:2455
+T:Bourr\'ee
+C:Georg Friedrich H\"andel
+R:Bourr\'ee
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+K:G
+V:1
+d2|d2B2 cBAG|e2g4fe|d2cB ABcA|B2G4A2|
+V:2
+G,2|F,2G,2 D2E2|C,2C2 B,2C2|F,2G,2 C,2D,2|G,,2G,4D,2|
+%
+V:1
+B^cdB cdec|defd efge|fga2 A2^c2|d6::a2|
+V:2
+G,2F,2 E,2A,2|F,2D2 ^C2A,2|D2F,2 A,2A,,2|D,2D^C D2::D,2|
+%
+V:1
+a2f2 gfed|g2b4e2|^d2e2 f2ga|g2e4d2-|d2cB c2c2-|
+V:2
+D2A,2 D2C2|B,2G,A, B,2C2|B,2E,2 A,2B,2|E,2E4B,2|E,2^G,2 A,2A,,2|
+%
+V:1
+c2BA B2d2|efge fgaf|gabg abc'a|b2ag fgaf|
+V:2
+D,2F,2 G,2B,,2|C,2A,2 D2C2|B,2G2 F2D2|G,2B,2 D2D,2|
+%
+V:1
+gabg a2c2|B2AG FGAF|GABG ABcA|Bcd2 B2AG|G6:|
+V:2
+E,2C2 F,2D2|G,2B,2 D2C2|B,2G,2 F,2D,2|G,2B,2 D2D,2|G,6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/142272
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/handel-georg-friedrich/handel-bourree/handel-bourree.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/handel-georg-friedrich/handel-bourree/handel-bourree.abc
+% Rhythm Bourre?e
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

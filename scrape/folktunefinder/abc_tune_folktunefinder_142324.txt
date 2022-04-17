@@ -1,0 +1,28 @@
+X:1
+T:Bourree "Le merle chante" ("Die Amsel singt")
+C:Ambros Schiffermueller,  13. 4. 2001
+R:bourree a trois temps
+F:http://simonwascher.info
+Z:abc transcription Helmut Eberl
+M:3/8
+L:1/16
+K:C
+G2 |\
+c2 cdef | g2 egfe | f2 dfed | e2 c2 G2 |\
+c2 cdef | g2 egfe | f2 dfed | c4 :|  
+|: G2 |\
+.c2  .B2 .c2 | .d2 .d2 de | f2 dfed | e2 c2 G2 |\
+.c2 .B2 .c2 | .d2 .d2 de | f2 dfed | c4 :|
+S:https://www.folktunefinder.com/tunes/142324
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/le_merle_chante.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords
