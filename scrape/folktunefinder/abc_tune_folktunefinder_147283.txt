@@ -1,0 +1,24 @@
+X:21
+T:Mazurka de Bergerac
+R:mazurka
+C:trad.
+A:Prigord
+O:France
+Z:S. Piron
+M:3/4
+L:1/8
+Q:1/4=180
+K:C
+FE|:C4 EG|c4 Bc|d2 dcBc|d3 E FD|C4 EG|c4 Bc|dedcBd|1c4 FE:|2c4 ed|
+|:cBcdec|f4 e2|dc Bc df|e2c2 ed|cBcdec|f4e2|dedcBd|1c4 ed:|2c4 FD||
+S:https://www.folktunefinder.com/tunes/147283
+S:http://www.tradfrance.com/matf07.txt
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

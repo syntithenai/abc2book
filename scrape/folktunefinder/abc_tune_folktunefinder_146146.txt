@@ -1,0 +1,26 @@
+X:15
+T:Old King's Reel
+R:Reel
+S:Sandy MacIntyre
+Z:abc transcription wil macaulay wil@syndesis.com
+Z:http://www.interlog.com/~torocelt/tuneofthemonth.html
+A:Cape Breton
+M:C|
+L:1/8
+K:Am
+A| E<A,A,B, A,2 A,A | E<A,E^F GEDB, | A,<A,A,B, C2 CD | EGDC B,G,G,A |
+E<A,A,B, A,G,A,B, | A,/A,/A, A,^F GEDB, | A,<A,A,B, C/C/C CD| EGDC B,G,G,||
+d | ^cA A/A/A cded | ^cABc dBGB | BeAB =c3 e | gage d^cBe |
+^cA A/A/A cded | ^cABc dcBd | =c2 BG AcBA | GEDC B,G, G, ||
+S:https://www.folktunefinder.com/tunes/146146
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/setotm_archive.abc
+S:http://www2.redhawk.org:8080/irish/other/setotm_archive.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/other/setotm_archive.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

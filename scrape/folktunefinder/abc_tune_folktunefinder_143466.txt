@@ -1,0 +1,31 @@
+X:1
+T:Brighton Camp
+M:C
+C:
+S:Bacon (RD ex Blunt MSS)
+N:
+A:Adderbury
+O:English
+R:Reel
+%P:Ch A(AB)$^6$
+P:A A(AB)6
+%
+%
+%
+K:G
+I:speed 400
+L:1/8
+P:A
+   gf | e2   dc   B2    A2  | BB    G2  E2    F2 | G>G    G2 GA   Bc | d4 B2
+S:https://www.folktunefinder.com/tunes/143466
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/bricamp.lb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

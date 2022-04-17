@@ -1,0 +1,30 @@
+X: 1
+T:The Bracken Rigg Jig
+M:6/8
+L:1/8
+C:Geoff Wright (Bracken Rigg Band)
+N: Composed in the early 1980s - more info on the band at  http://brackenr
+N:g.co.uk
+K:G
+|:B,C^C DEF|GA^A B2d|e2d B2G|(F3 F3)|
+f=fe _ed^c|cB_B A_AG|DFA DFA|e2d d3|
+B,C^C DEF|GA^A B2d|gfg bag|(e3 e3)|
+e^de c'bc'|d^cd bag|fed cBA|1G3 FED:|2(G3 G3)|]
+K:C
+|:E^DE G^FG|cBc e^de|AG^A d^cd|
+fef a^ga|ba^b fef|d^cd B^AB|ced cBA|
+GAG FED|E^DE G^FG|cBc e^de|A^GA d^cd|
+fef A^GA|B^AB FEF|cBc EGc|BAG FED|(C3 C3):|
+% Output from ABC2Win  Version 2.1 h on 22/12/2001
+S:https://www.folktunefinder.com/tunes/142823
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/Bracken.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

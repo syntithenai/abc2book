@@ -1,0 +1,28 @@
+X: 63
+T: Miss McCloud's -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:223
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:G
+u{c}(BA)|\
+.G2.g2 edeg | B2{c}(BA) BcBA | .G2.g2 edeg | A2{B}(AG) AcBA |
+.G2.g2 edeg | B2{c}(BA) Bc.d2 | u(e3.f) edef | gedB A2 :|
+|:u{c}(BA)|\
+GABc dBGA | B2{c}(BA) BcBA | GABc dBGB | A2{B}(AG) AcBA |
+GABc dBGA | B2{c}(BA) Bc.d2 | u(e3.f) edef | gedB A2 :|
+S:https://www.folktunefinder.com/tunes/145809
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

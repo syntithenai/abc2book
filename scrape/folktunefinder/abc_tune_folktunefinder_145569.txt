@@ -1,0 +1,29 @@
+X: 1
+T:Canary Waltz
+M:3/4
+L:1/8
+Q:110
+C:Trad.
+S:Cyril Stinnett
+R:waltz
+A:Missouri
+Z:B. Shull, trans.; R.P. LaVaque, ABCs
+K:A
+|:AFE|[A,2E2] [C3/2E3/2][C/2E/2] [E2A2]|[A3A3](c BG)|A2 [c3/2e3/2][c/2e/
+2] [c2e2]|[e3e3](fe2)|!E3 G (Bc)|d2 g3 g|(3fgf e2) d2|[c3e3]([de]c)A|!
+[A,2E2] [C3/2E3/2][C/2E/2] [E2A2]|[A3A3] (c B)G|A2 [c3/2e3/2][c/2e/2] [c
+2e2]|[e3e3] (f e2)|!E3 G (Bd)|c3 G (AB)|A3 G AB|A3:|!
+|:A cB|A2 ce a2|c'3 e' c'a|a2 ec Ac|[e3e3] f e2|!E3 G Bc|d2 g3 g|(3fgf e
+2 d2|[c3e3] [de] cB|!A2 ce a2|c'3 e' c'a|a2 ec Ac|[e3e3]f e2|!E3 G Bd|c3
+ G AB|A2 G2 AB|A3 :|!
+S:https://www.folktunefinder.com/tunes/145569
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/abc_c.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

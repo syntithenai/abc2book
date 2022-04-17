@@ -1,0 +1,27 @@
+X:1
+T:Branle du rat
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:
+Q:1/4=110
+M:4/4
+L:1/16
+K:C
+"C"e2e2 e2de "G"f2e2 d4 | d2d2 d2ed "C"c2d2 e2c2 |\
+e2e2 e2de "G"f2e2 d4 | "C"g3a g2f2 e2d2 c4 ||
+Q:3/8=120
+M:6/8
+L:1/16
+e4 c2 e4 c2 | G2A2B2 "G"A4 G2 | "C"e4 c2 e4 c2 | G2A2B2 c6 | \
+e2c2c2 e2c2c2 | G2A2B2 "G"A2G2G2 | "C"e2c2c2 e2c2c2 | G2A2B2 c6 |]
+S:https://www.folktunefinder.com/tunes/142921
+S:http://termen.free.fr/danses/autres/Branledurat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 4
+T: Connaught-Man's Ramble
+I: Connaught-Man's RambleJ-1Djig
+M: 6/8
+R: jig
+K: D
+A/G/| "D"FAA dAA| "G"BAB "D"dAG| FAA dfe| "Bm"dBB BAG|
+      "D"FAA dAA| "G"BAB "D"def| "G"gfe "D"dfe| "Bm"dBB B2 :|
+|:\
+g| "Bm"fbb faa| "D"fed deg| "Bm"fbb faa| fed "A"e2g|
+   "Bm"fbb faa| "D"fed def| "G"gfe "D"dfe| "Bm"dBB B2 :|
+%%text Roaring Jelly  J-1
+%%vskip .2cm
+S:https://www.folktunefinder.com/tunes/145255
+S:http://roaringjelly.org/music/sets/Set12.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set12.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set12.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

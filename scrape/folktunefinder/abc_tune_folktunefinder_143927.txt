@@ -1,0 +1,23 @@
+X:2
+T:Brudpolska e. Kristian Oskarsson
+C:W. J\"amtland
+N: transcr by Jim Little
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8   %ref note value
+K:D
+(A>a) (a3g) |(g>f) (f>d) d>f |(f>e) (e>c) e>f |(3g(ag) (3f(ed) e>c |
+(A>a) (a3g) |(g>f) (f>d) d>f |(f>e) (e>c) e>f |(3g(ag) (3f(ed) (3c(Bc) |d2 d4 :|
+|:A>(^G A>)(B A>)=G | F>(E D>)(g f>)e |(3d(ef) (3g(ag) (3f(ed) |cc/c/ cB/B/ B>A |
+A>(^G A>)(B A>)=G | F>(E D>)(g f>)e |(3d(ef) (3g(ag) (3f(ed) |((3cBc) d4 :|
+S:https://www.folktunefinder.com/tunes/143927
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/Mostly_Medelpad_Group.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

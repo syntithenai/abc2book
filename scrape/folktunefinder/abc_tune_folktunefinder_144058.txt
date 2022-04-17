@@ -1,0 +1,23 @@
+X: 1
+T: Buckfast
+M: 4/4
+L: 1/8
+R: reel
+K: Bmin
+M:5/4
+Bd FE DE FA BA | Bd FE DE F2 F2 |
+Bd FE DE FA BA | FA BF ED E2 E2 |
+d2 dB de dB AB | dc BA FA B2 BA |
+dB de dB dB AB | FA BF ED E2 E2 |
+S:https://www.folktunefinder.com/tunes/144058
+S:http://www.thesession.org/tunes/display/3827
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

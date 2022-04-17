@@ -1,0 +1,47 @@
+X:1069
+T:Polonaise
+T:BWV anh. 119
+C:Johann Sebastian Bach\.i
+R:Polonaise
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva119-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:Gm
+V:1
+G>AB2c2|AA/B/c4|BB/c/dgcg|BA/B/G4:|
+V:2
+G,2G,2G,2|G,2^F,=E,F,D,|G,2G,,2C,2|D,2G,G,,B,,D,:|
+%
+V:1
+|:B>cd2f2|dc/B/ A/B/c/A/F2|fdBf g/f/e/d/|ecAe f/e/d/c/|
+V:2
+|:G,>A,B,2A,2|B,2F,2F,E,|D,2G,2E,2|C,2F,2D,2|
+%
+V:1
+dc/d/ edcB| A/B/c/A/B2B,2|d2e2G2|^FF/G/ ADFA|
+V:2
+B,,2G,2E,2|F,E,D,E,D,C,|B,,2C,2E,2|D,2D,2C,2|
+%
+V:1
+d2e2G2|^FF/G/ ADFA|dd/e/ dd/e/ dg|BA/B/G2G,2:|]
+V:2
+B,,2C,2E,2|D,4C,2|B,,2G,,2B,,2|D,2G,,4:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144596
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva119-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva119/bwva119-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva119/bwva119-pno2.abc
+% Rhythm Polonaise
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

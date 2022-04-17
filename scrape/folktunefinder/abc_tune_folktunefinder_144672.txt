@@ -1,0 +1,81 @@
+X:1
+% A: A-Area
+% B: B-Book
+C: Culebr\'on Timbal
+D: Territorio
+% G: G-Group
+% H: H-History
+% N: N-Notes
+% O: O-Origin
+% S: S-Source
+T:Cachaz\'u
+% Z: Z-Transcription note
+M:4/4
+L:1/8
+Q:1/4=100
+K:C
+V:1 name="Alto"
+%%MIDI program 65
+V:2 name="Tenor 1"
+%%MIDI program 65
+V:3 name="Tenor 2"
+%%MIDI program 65
+[V:1] Z5 |
+[V:2] Z5 |
+[V:3] Z5 |
+% Measure 6
+[V:1] c/c/ z z2 c/c/ z z/ _e3/ || c2 z6 | Z6 | z4 (_B/c)d/- d/f3/  ||
+[V:2] G/G/ z z2 G/G/ z z/ _B3/ || G2 z6 | Z6 | z4 (_E/F)G/- G/_B3/ ||
+[V:3] C/C/ z z2 C/C/ z z/ _E3/ || C2 z6 | Z6 | z4 (_B,/C)D/- D/F3/ ||
+% Measure 15
+[V:1] z2 d/dd/ z4 | z2 d3/d/ z2 d/d/ z | z2 d/dd/ z4 | z2 d3/d/ z2 d/d/ z |
+[V:2] z2 B/BB/ z4 | z2 B3/B/ z2 B/B/ z | z2 B/BB/ z4 | z2 B3/B/ z2 B/B/ z |
+[V:3] z2 F/FF/ z4 | z2 F3/F/ z2 F/F/ z | z2 F/FF/ z4 | z2 F3/F/ z2 F/F/ z |
+% Measure 19
+[V:1] z2   _B/cc/ z4 | z2   _B/cc/ z4 ||
+[V:2] F,F, G/AA/ z4  | F,F, G/AA/ z4  ||
+[V:3] F,F, D/_EE/ z4 | F,F, D/_EE/ z4 ||
+% Measure 21
+[V:1] Z5 |
+[V:2] Z5 |
+[V:3] Z5 |
+% Measure 26
+[V:1] c/c/ z z2 c/c/ z z/ _e3/ |: .c2 z6 | z4 c/c_e/ z2 | z8 | z4 _e/ed/ z2 | z8 | 
+[V:2] G/G/ z z2 G/G/ z z/ _B3/ |: .G2 z6 | z4 G/G_B/ z2 | z8 | z4 _B/BA/ z2 | z8 |
+[V:3] C/C/ z z2 C/C/ z z/ _E3/ |: .C2 z6 | z4 C/C_E/ z2 | z8 | z4 _E/ED/ z2 | z8 |
+% Measure 32
+[V:1] z2 c/c/ z z2 (_e/d/)c/c/ | z8 |
+[V:2] z2 G/G/ z z2 (_B/A/)G/G/ | z8 | 
+[V:3] z2 C/C/ z z2 (_E/D/)C/C/ | z8 |
+% Measure 34
+[V:1] z4 (_B/c)d/- d/f3/  ||
+[V:2] z4 (_E/F)G/- G/_B3/ ||
+[V:3] z4 (_B,/C)D/- D/F3/ ||
+% Measure 35
+[V:1] z2 d/dd/ z4 | z2 d3/d/ z2 d/d/ z | z2 d/dd/ z4 | z2 d3/d/ z2 d/d/ z |
+[V:2] z2 B/BB/ z4 | z2 B3/B/ z2 B/B/ z | z2 B/BB/ z4 | z2 B3/B/ z2 B/B/ z |
+[V:3] z2 F/FF/ z4 | z2 F3/F/ z2 F/F/ z | z2 F/FF/ z4 | z2 F3/F/ z2 F/F/ z |
+% Measure 39
+[V:1] z2   _B/cc/ z4 | z2   _B/cc/ z4 || Z5 |
+[V:2] F,F, G/AA/ z4  | F,F, G/AA/ z4  || Z5 |
+[V:3] F,F, D/_EE/ z4 | F,F, D/_EE/ z4 || Z5 |
+% Measure 41
+[V:1] c/c/ z z2 c/c/ z z/ _e3/ :| .c2 z6 | Z6 | z4 z e/d/ _b,/a,3/  |:
+[V:2] G/G/ z z2 G/G/ z z/ _B3/ :| .G2 z6 | Z6 | z4 z A/G/ _E/D3/    |:
+[V:3] C/C/ z z2 C/C/ z z/ _E3/ :| .C2 z6 | Z6 | z4 z E/D/ _B,/A,3/  |:
+% Measure 50
+[V:1] .c2 z2 z c- c/_B3/  | .A2 (_e/d/)c/c/ z2 e/d3/  | .c2 z2 z c- c/_B3/  |1 .A2 (_e/d/)c/c/ z2 e/d3/  :|2
+[V:2] .G2 z2 z G- G/F3/   | .E2 (_B/A/)G/G/ z2 B/A3/  | .G2 z2 z G- G/F3/   |1 .E2 (_B/A/)G/G/ z2 B/A3/  :|2
+[V:3] .C2 z2 z C- C/_B,3/ | .A,2 (_E/D/)C/C/ z2 E/D3/ | .C2 z2 z C- C/_B,3/ |1 .A,2 (_E/D/)C/C/ z2 E/D3/ :|2
+% Measure 54
+[V:1] .c2 _B3/c/ z4  |]
+[V:2] .G2 F3/G/ z4   |]
+[V:3] .C2 _B,3/C/ z4 |]
+S:https://www.folktunefinder.com/tunes/144672
+S:http://abcmr.sourceforge.net/cachazu.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

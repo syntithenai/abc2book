@@ -1,0 +1,23 @@
+X: 1
+T: Castle Dangerous
+M: 3/4
+L: 1/8
+R: waltz
+K: Dmaj
+|: d>e |\ 
+f2 a2 fd | G2 B2 d>B | A2 d2 fa | e4 d>e |
+f2 a2 fd | G2 B2 d>B | A2 f2 gc | d4 :|
+|: f>g |\
+a2 fa fd | G2 B2 d>B | A2 d2 fa | e4 f>g |
+a2 fa fd | G2 B2 d>B | A2 f2 gc | d4 :|
+S:https://www.folktunefinder.com/tunes/147145
+S:http://www.thesession.org/tunes/display/8159
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

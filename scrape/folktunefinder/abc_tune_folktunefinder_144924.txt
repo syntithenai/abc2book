@@ -1,0 +1,32 @@
+X:170
+T: Wee Johnny
+R: slip jig/double jig
+M: 9/8
+L: 1/8
+S: "Raise the Rafters" (PJ King, K.Crawford, M.O Malley)
+Z: B.Black
+K: D
+AFd AFd AFD|E2F GFG Eed|\
+M: 6/8
+cBc dcB|
+M: 9/8
+AFd AFd AFD|E2F GFG Eed|\
+M: 6/8
+cBc d3 :|
+Adf agf|efg B2A|cBc ABc|dAG FED|
+Adf agf|efg B2A|cBc ABc|dfe dcB :|
+S:https://www.folktunefinder.com/tunes/144924
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Slip jig/double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

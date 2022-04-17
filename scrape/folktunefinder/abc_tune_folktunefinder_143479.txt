@@ -1,0 +1,37 @@
+X:1
+T:Brighton Camp
+C:Adderbury
+M:C
+L:1/8
+A:Adderbury
+P:A(AB)6
+K:G
+P:A
+gf|e2dc B2A2|BBG2 E2F2|G>GG2 GABc|d4 B2gf|
+e2dc B2AA|B2G2 E2GG|F2A2  D2EF|G4 G4||
+P:B
+GF|G2Bc d2ef|g2d2 B2G2|B2d2  e2f2|g4 f4|
+M:3/8
+L:1/8
+g2f|\
+M:4/4
+L:1/8
+e2dc B2AA|B2G2 E2GG|F2A2  D2EF|G4 G4||
+W:
+W:Oh! let the night be ever so dark or ever so wet and windy,
+W:I must return to the Brighton camp, to the girl I left behind me.
+</abc>
+S:https://www.folktunefinder.com/tunes/143479
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:brighton_camp&do=edit&rev=1157479172
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:brighton_camp&do=edit&rev=1157495306
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:brighton_camp&do=edit&rev=1157495353
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:adderbury:brighton_camp&do=edit&rev=1157583096
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

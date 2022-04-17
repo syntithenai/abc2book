@@ -1,0 +1,28 @@
+X: 7
+T:Spanish Patriots,1810,The. Car.07
+M:C|
+L:1/8
+Q:160
+S:CarlisleMS,Anon.c1812.AGG's transcription
+R:Hornpipe
+O:England
+A:Carlisle
+N:Very early for dotted hornpipe (see also Miss Gayton's).CGP.
+Z:vmp.Chris Partington
+K:D
+((3ABc)|d>cd>A F>AF>A|d>cd>A F2((3d/e/f)|g>fg>e f>ef>d|c2A2 A2f>e|!
+d>cd>A F>AF>A|d>cd>A F2((3d/e/f)|g>fg>e f>ef>d|A2d2 d2:|!
+|:f>g|a3f a>fa>f|b>gb>g e2f>g|a3f ((3bag) ((3fed)|c2A2 A2f>g|!
+a3f a>fa>f|b>gb>g e2f>g|a>fa>f b>ge>c|A2d2 d2:|]
+S:https://www.folktunefinder.com/tunes/146708
+S:http://www.village-music-project.org.uk/abc/carlisle.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

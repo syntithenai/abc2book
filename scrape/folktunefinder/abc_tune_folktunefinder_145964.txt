@@ -1,0 +1,38 @@
+X:11
+T:Le Seigneur est mon berger - Z22
+C:J. Gelineau
+M:1
+L:1/4
+K:C
+z2C0C0|E4|G4|A4|z2A0A0|G2E0D0|E4|
+w:1*|~Le~Sei-|gneur~est~mon~ber-|ger,|je ne|man-que de|rien.|
+w:2~Il me|gui\-de~par~le|jus\-te~che-|min|pour l'a-|mour de son|nom.|
+zE0E0|G4|A4|c4|z2G0A0|G2E0F0|G4|
+w:1*|Sur~des~|prs~d'her\-be|fraiche|il me|fait re-po-|ser;|
+w:2~Pas-se-|rais\-je~un~ra-|vin~de~t-|nbres,|je ne|crains au-cun|mal;|
+z2C0C0|E4|G4|A4|zA0G0A0|(G0E0)D0C0|A,4|C4||
+w:1~vers les|eaux~du~re-|pos~il~me|m\-ne|pour y re-|fai_re mon|-|me.|
+w:2~prs de|moi~ton~b-|ton,~ta~hou-|let\-te|**sont|l qui me con-|so-|lent.|
+M:3
+L:1/8
+"Antienne"GG G3/F/ ED|C2 ED/C/ A,G,/A,/|[M:2]C4:|
+w:Le Sei-gneur est mon ber-|ger, rien ne sau-rait me man-|quer.|
+M:1
+L:1/4
+z2C0C0|E4|G4|A4|z2A0A0|G2E0D0|E4|
+w:3~De-vant|moi~tu~ap-|pr\-te~u\-ne|ta\-ble|fa -|ce~~mes ad-ver-|sai\-res;
+w:4*Gr\-~et~bon-|heur~m'ac\-com-|pa\-gnent|tous les|jours de ma|vi\-e;
+w:5~(Gloire au|P\-re,~au|Fils,~au~Saint~Es-|prit|main-te-|nant~et  ja-|mais;
+zE0E0|G4|A4|c4|zA0G0A0|(G0E0)D0C0|A,4|C4||
+w:3~d'une onc-|tion~tu~me~par-|fu\-mes~la|t\-te|*et ma|cou -pe d-|bor-|de.
+w:4~ma de-|meure~est~la~mai-|son~du~Sei-|gneur|et la lon-|gueur*des*|jours-.
+w:5~au~Dieu qui|est,~qui~-|tait~et~qui|vient|*dans les|si -cles des|si-|cles).
+S:https://www.folktunefinder.com/tunes/145964
+S:http://moinejf.free.fr/messe/messeL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

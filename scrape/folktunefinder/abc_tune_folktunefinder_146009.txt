@@ -1,0 +1,47 @@
+X:2 
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+T:IIII. Fantasie: Il doloroso
+C: Thomas Morley
+M:C
+K: F
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+T:Tenor
+K:F -8va
+L:1/8
+%%MIDI transpose -12
+N: Original clef: C on fourth line, so this is a tenor G clef, sounding an octave lower than written.
+%1
+z4 F6 G2 A2 F2 B4 A2 B4 G2 B2 c2 B2 G2 B2 c2 F2 f4 e2 d3 c d c B A G2 g2 \
+%2
+d2 e2 f4 c2 f4 e d e4 f8 f6 e2 d2 f2 B2 d3 c c4 =B2 c2 c4 A2 c2 F2 A2 d2 c3 B A2 G2 F2 f2   \
+%3
+e2 c2 d2 e2 f2 d2 e2 f4 e2 f4 F8 "A" E2 D2 A8 z4 A4 d3 d c2 A2B4 A2 F2 G3 G F2 D2 E4 D2 d4 ^c2 d2 f2 e4 \
+%4
+A4 d2 c2 B4 A2 d4 ^c2 d c B A G2 A2 D2 G4 ^F2 G A B c d4 G4 z2 g2 e2 f2 d4 c2 c2 f2 d2 e3 f \
+%5
+d4 c3 B A2 d2 G2 G2 c2 A2 B A B c d2 d2 c8 "B"F4 \
+z2 F2 B2 A2 B2 d2 G2 c2 B2 G3 A B c d c d e  \
+%6
+f e d c d2 A2 =B2 c2 G4 z2
+ g3 f d e f d f2 e4 d4 A4 B4 F4 G4 D4 F4 E4 D2 d4 ^c2 d2 A2 B2 c2 F2 f4 e2 
+K:F -8va
+%%MIDI nobarlines
+%7
+d2 A2 =B2 c4 =B2 c4 z2 f4 e2 d2 c B A2 B2 c4 F2 G2 A G F E D2 E2 F4 B4 c8 "C"F4 z2 F2 B2 A2 B2 d2 G2 c2 \
+%8
+B2 G3 A B c d c d e f e d c d2 A2 =B2 c2 G4 z2 g3 f d e f d f2 e4 d4 A4 B4 F4 G4 D4 F4 E4 \
+%9
+D2 d4 ^c2 d2 A2 B2 c2 F2 f4 e2 d2 A2 =B2 c4 =B2 c4 z2 f4 e2 d2 c B A2 B2 c4 F2 G2 A G F E D2 E2 F4 B4 c8 HF16 |]
+S:https://www.folktunefinder.com/tunes/146009
+S:http://www.laymusic.org/music/morley/doloroso/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

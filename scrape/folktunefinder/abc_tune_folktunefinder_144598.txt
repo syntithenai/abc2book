@@ -1,0 +1,63 @@
+X:1070
+T:Musette
+T:BWV anh. 126
+C:Johann Sebastian Bach\.i
+R:Musette
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva126-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:2/4
+L:1/8
+K:D
+V:1
+a2g/f/e/d/|a2g/f/e/d/|F/G/AGF|EAFD|
+V:2
+D,,D, D,,D,|D,,D, D,,D,|F,/G,/A, G,F,|E,A,F,D,|
+%
+V:1
+a2g/f/e/d/|a2g/f/e/d/|F/G/AGF|EAD2:|
+V:2
+D,,D, D,,D,|D,,D, D,,D,|F,/G,/A, G,F,|E,A,D,2:|
+%
+V:1
+|:c/d/e c/d/e|aee2|ae ae|d/c/B/A/ BE|
+V:2
+|:A,,A, A,,A,|A,,A, A,,A,|A,,A, A,,A,|A,,A, E,,E,|
+%
+V:1
+e^dE=d-|dca^g| e^dE=d-|dca^g|
+V:2
+E,,E, E,,E,|E,,E, E,,E,|E,,E, E,,E,|E,,E, E,,E,|
+%
+V:1
+e/^d/c/d/ e/d/c/d/|e^GAd|c/d/eAD|C/D/EA,2| 
+V:2
+E,,E, E,,E,|E,,E, C,D,|E,2A,,D,|C,/D,/E,A,,2| 
+%
+V:1
+a2g/f/e/d/|a2g/f/e/d/|F/G/AGF|EAFD|
+V:2
+D,,D, D,,D,|D,,D, D,,D,|F,/G,/A, G,F,|E,A,F,D,|
+%
+V:1
+a2g/f/e/d/|a2g/f/e/d/|F/G/AGF|EAD2:|]
+V:2
+D,,D, D,,D,|D,,D, D,,D,|F,/G,/A, G,F,|E,A,D,2:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144598
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva126-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva126/bwva126-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva126/bwva126-pno2.abc
+% Rhythm Musette
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

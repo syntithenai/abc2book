@@ -1,0 +1,28 @@
+X: 5
+T: Eclipse -- Hornpipe
+R:hornpipe
+B:Ryan's Mammoth Collection
+N: 135 784
+Z: Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:Bb
+vFE|\
+DFBF dFBF | DFBc d2f2 | edcB Acde | f=efg f_edc |
+DFBF dFBF | DFBc d2f2 | edcB AFGA | B2d2B2:|
+|:vde|\
+fbBd f=egf | _edcB vG2vFE | DFBd BcdB | edcB vc2vde |
+fbBd f=egf | _edcB vG2vFE | DFBd cBAc | B2d2B2:|
+S:https://www.folktunefinder.com/tunes/145582
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/EF.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/EF.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

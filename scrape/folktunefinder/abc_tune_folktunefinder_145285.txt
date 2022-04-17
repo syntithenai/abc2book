@@ -1,0 +1,29 @@
+X:1
+T:Camano Island In The Sea
+C:P/M David N. Siegel, Israel Pipes & Drums
+N:Code revised 11-19-06 - Andrew Lenz Jr.
+R:Slow Air
+L:1/8
+M:9/8
+%Q:90
+K:HP
+|:A|{g}B{Gdc}de {g}f3- f2 e|{gf}gf{Gdc}d {g}d {g}e2- e2 {G}A|\
+{g}AB{Gdc}d {g}d3 {g}e2 f|{g}edc {Gdc}d3- d2:|
+[|A|{g}fe{Gdc}d a3- a2 e|ag{a}e {g}f3- f2 d|{g}AB{Gdc}d {g}e3 {A}e2 f|\
+{g}edc {Gdc}d3- d2 A|
+{g}fe{Gdc}d a3- a2 e|ag{a}e {g}f3 {Gdc}d2 B|{g}AB{Gdc}d {g}e3 {G}A2 f|\
+{g}edc {Gdc}d3- d3|]
+M:12/8
+{g}AB{Gdc}d {g}d3 {g}e3- e2 {G}A|{g}e d2 c3 {Gdc}d3- d3|]
+S:https://www.folktunefinder.com/tunes/145285
+S:http://bagpipejourney.com/media/Camano-Island.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

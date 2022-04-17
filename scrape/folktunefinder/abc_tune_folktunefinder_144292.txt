@@ -1,0 +1,20 @@
+X:1
+T:Bundle and Go
+R:jig
+M:6/8
+K:Em
+|:D|"Em"E3 EDB,|"G"G3 GAB|"D"A3 ABA|"Bm"d3 d2e|
+"G"dBG GAB|"D"AFE DEF|"Em"GFE "D"FED |"Em"E3 E2 :|
+|:A|"Em"Bee edB|"D"Add def|"Em"~e3 edB|"D"d3 d2e|
+"G"dBG GAB|"D"AFE DEF|"Em"GFE"D" FED|"Em" ~E3 E2:|
+S:https://www.folktunefinder.com/tunes/144292
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/Bundle.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1303
+T:"Cahill's Courtship"  ((reel))    1303
+C:after Mr. Cahill
+N:And who should know better the bumpiness of it than Cahill, himself
+N:Added Segno at begining  Replaced fermata with FINE command   Added DS al Segno command at end
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+A,2"^Segno"||D2(FD) EDB,A,|D2(FD) dBAF|D2(FD) EDB,B|AGFE DGFE|
+D2(FD) EDB,A,|D2(FD) dBAF|D2(FD) EDB,B|AGFE D2"^Fine"||
+(3(ABc)|dAFA BAFA|dAFD EDB,A,|dAFA BAFB|AGFE D2 (3(ABc)|
+dAFA BAFA|dAFD EDB,A,|DEFG AdcB|AGFE DGF"^D.S. al Fine"E|]
+S:https://www.folktunefinder.com/tunes/144873
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1301-1400/1303-CahillsCourtship.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

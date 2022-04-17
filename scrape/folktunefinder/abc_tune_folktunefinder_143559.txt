@@ -1,0 +1,25 @@
+X:1
+T:Brllopsmarsch
+R:Marsch
+Z:Konverterad till ABC av Jon Magnusson 080704
+M:2/4
+L:1/8
+Q:1/4=100
+K:Dm
+A,=B,/2,^C/2|:D2 FE|D2 GF|E>D ^C=B,/2C/2|A,2 A,=B,/2^C/2|
+D2 FE|D>E FE/2D/2|^C>=B, A,G,/2=B,/2|[1 A,2 A,=B,/2^C/2:|[2 A,2 e^c/e/2|:
+a2 ag/2a/2|e2 fe|de/2f/2 ed/2^c/2|=BA e^c/2e/2|
+a2 ag/2a/2|e2 fe|de/2f/2 ed/2^c/2|=BA AG/2A/2|de/2d/2 ^ce/2c/2|[1 d2 e^c/2e/2:|[2 d4|]
+S:https://www.folktunefinder.com/tunes/143559
+S:http://www.folkwiki.se/pub/cache/Br%f6llopsmarsch_bf1c6f.latin.abc
+S:http://www.folkwiki.se/pub/cache/Br%F6llopsmarsch_bf1c6f.abc
+S:http://www.folkwiki.se/pub/cache/Br%f6llopsmarsch_bf1c6f.abcm.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

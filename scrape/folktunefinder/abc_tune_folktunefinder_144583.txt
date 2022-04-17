@@ -1,0 +1,203 @@
+X:1279
+T:Pr\"aludium und Fughetta
+T:BWV 899
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0899/bwv899.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:3/4
+L:1/16
+K:Dm
+V:1
+zd^cd A2B4AG|A6GFG4-|GFEFB4-BAB2|
+V:2
+x8x4|zFEF ^CDE2- EEDC|D4-DD^CD G3G-|
+V:3
+x8x4|x8x4|x8x4|
+V:4
+D,12-|D,12-|D,12-|
+%
+V:1
+A4d4-d^cde|f12-|ffede8-|
+V:2
+GFEF- FFGFE4|zd^cd ^GA=B4AG|A8-A_B=GA|
+V:3
+zD^CD A,2B,4A,G,|[A,4D4]zD^CD ^G,=B,D2-|D4-DD^C=B,C4|
+V:4
+D,12-|D,12|A,12-|
+%
+V:1
+eaga e2f4ed|e4-e2dcd4-|dcd=B c2B^c Mc3B/c/|
+V:2
+F4zc=BA^G4|zc=Bc ^GAB4AG|A12-|
+V:3
+D4zEDC =B,DCB,|C2DEF4-FEFD|E12|
+V:4
+A,12-|A,12-|A,A,^G,A, E,F,=G,4F,E,|
+%
+V:1
+dd^cd A_B=c4BA|B4-B2A=B MB3A/B/|c12-|
+V:2
+A12-|AG^FG DE=F2- F2ED|E4-EFEFG4|
+V:3
+D12-|D4z4z4|zC_B,C G,A,B,2- B,B,A,G,|
+V:4
+F,6E,^F, MF,3E,/F,/|G,12|C,6-C,D,E,4|
+%
+V:1
+cfef cd_e2- eedc|d12-|dg=fg def2-ffed|
+V:2
+F4-F3GA4-|A3B cBAG^F4|G4-G3A=B4-|
+V:3
+A,4-A,B,A,B,C4-|CDCD A,B,C2- CCB,A,|B,4-B,C=B,CD4-|
+V:4
+F,8-F,2F,2|^F,8D,4|G,8-G,2G,2|
+%
+V:1
+e12-|e8z4|zede _Bcd2-d4-|
+V:2
+=B3c dc=BA^G4|zA^GA E2F2- FFED|E4- E3^F ^GA=B2-|
+V:3
+DEDE =B,CD2- DDCB,|C4-CC=B,CD4-|DC=B,C ^G,A,B,2- B,2A,G,|
+V:4
+^G,8E,4|A,12-|A,4z4z4|
+%
+V:1
+d2B2 cfed ^cde2|A8d4-|d2c2- ccBAG4-|
+V:2
+=B2^G2 A2=G2-G4-|GFEF GFED- D2A2-|ABABG4-GF=EF|
+V:3
+A,4z4E,4-|E,D,^C,D, A,,_B,,=C,2- C,C,B,,A,,|\
+B,,G,^F,G, D,2_E,2- E,D,^C,D,|
+V:4
+zE,D,E, A,,2_B,,4A,,G,,|F,,8^F,,4|G,,12|
+%
+V:1
+G2F2 B2A2- Ad^cd|G4-G3FE4-|Ed^cd GAB2- BBAG|
+V:2
+E2D2 ^C3CD4-|D^C=B,C CA,CD= DDCE|A,4z2zD^C4|
+V:3
+^C,A,^G,A, E,=G,F,4E,D,|E,4F,4G,4|F,4-F,2E,D,E,4|
+V:4
+A,,12-|A,,12-|A,,12|
+%
+V:1
+F8-FFED|E4-E2D2- DD^C2|D12|]
+V:2
+zED^CD8|z4zA,2^G, A,3=G,|A,12|]
+V:3
+D,4z=CB,A, ^G,2=G,2-|G,B,A,G,F,4E,4|F,12|]
+V:4
+B,,8=B,,4|^C,4D,4A,,4|[D,,12D,12]|]
+M:3/8
+V:1
+x4x2|x4x2|x4x2|x4x2|A6|=B6|c6|=B6|
+V:2
+D6|E6|F6|E6|D4C2|D2=B,2E2|A,2E2A2-|A2^G^FED|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|
+%
+V:1
+A2e2a2-|a2^g^fed|c=BcdBc|dcdecd|edefde|
+V:2
+C=B,CDB,C|D2 z2 =B2-|=B2E2A2-|A2^G^FED|C6-|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+A,6|=B,6|C6|=B,6|A,2^G,2A,2|
+%
+V:1
+fgagfe|dcdecd|efgfed|c6-|c2B4-|
+V:2
+C2=B,2A,2|_B,6-|_B,2A,2G,2|A,BAGFE|D4G2|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+D,2E,2F,2|G,2F,2G,2|C,2D,2E,2|F,2G,2A,2|B,A,G,F,E,D,|
+%
+V:1
+B2A2G2|FEFGEF|GFGEFG|A2D2d2-|d2cBAG|
+V:2
+E6-|E2A,2D2-|D2CB,A,G,|F,G,A,CB,A,|G,F,G,2C2-|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+^C,=B,,C,D,B,,C,|D,6|E,6|F,6|E,4_E,2|
+%
+V:1
+^FEFGEF|G6|A6|B6|A6|
+V:2
+C2B,2A,2|B,A,B,CDE|^F=EFGEF|G2D2G2-|G2^FEDC|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+D,6-|D,2C,2B,,2|_E,2C,2D,2|G,,^F,,G,,A,,F,,G,,|A,,G,,A,,B,,G,,A,,|
+%
+V:1
+G2d2=F2|_E6-|_E2c2_E2|D6-|D=E^FGAB|
+V:2
+D6-|D2C2B,2|C6-|C2B,2A,2|B,2z2z2|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+B,,A,,B,,C,A,,B,,|C,D,_E,D,C,B,,|\
+A,,G,,A,,B,,G,,A,,|B,,C,D,C,B,,A,,|G,,6|
+%
+V:1
+cde^fga|dgabag|c^fgagf|g6|a6|b6|
+V:2
+z6|z6|z6|z6|z6|z6|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+A,,6|B,,6|A,,6|G,,A,,B,,C,D,E,|^F,G,A,B,CD|G,D_EFED|
+%
+V:1
+a6-|adgfed|^c2d2e2-|e2A2d2-|d2^c=BAG|
+V:2
+z6|D6|E6|F6|E6|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+^F,CD_EDC|B,6-|B,E,A,G,F,E,|D,E,D,C,B,,A,,|G,,2E,,2A,,2|
+%
+V:1
+F6-|FFED^C=B,|A,4-A,A,|G,4-G,G,-|G,G,F,3G,|
+V:2
+DEDCB,A,|x4x2|x4x2|x4x2|x4x2|
+V:3
+x4x2|G,6-|G,G,F,E,D,2-|D,F,E,D,^C,2|D,3D,E,2|
+V:4
+D,,6|E,,6|F,,6|E,,6|D,,6-|
+%
+V:1
+A,3B,C2-|CCB,3C|D3DG2-|GGF3E|D2zD2^C|D6|]
+V:2
+x4x2|x4x2|x4x2|x4x2|x4x2|x4x2|]
+V:3
+z^F,G,3F,|G,3G,A,2|zA,B,3B,|A,3A,G,2|zF, E,2E,2|F,6|]
+V:4
+D,,2D,C,B,,A,,|G,,6-|G,,2G,F,E,D,|^C,2D,2B,,2|^G,,2A,,2A,,2|D,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144583
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0899/bwv899.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0899/bwv0899.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0899/bwv0899.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

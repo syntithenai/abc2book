@@ -1,0 +1,26 @@
+X:0098
+T:"Cahirciveen"          (air)         0098
+C:after Chief  F. O'Neill
+C:slow with expression
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=70
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_vb"D|G3/2A/2G (FGA)|B3/2A/2G AD3/2E/2|FED (CB,C)|DG {B}A G2D|
+G3/2A/2G (FGA)|BAG AD3/2E/2|FED (TRCB,C)|DGA G2||
+(B/2c/2)|dBd cBA|GAG F/2D3/2 (B/2c/2)|dBd cBA| (TRGFG) B2A|
+G3/2A/2G FGA|B3/2A/2G AD3/2E/2|FED TRCB,C|DGA G2|]
+S:https://www.folktunefinder.com/tunes/144879
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/98-Cahirciveen.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/98-Cahirciveen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

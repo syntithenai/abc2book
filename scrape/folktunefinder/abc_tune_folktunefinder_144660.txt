@@ -1,0 +1,35 @@
+X: 1
+T: She Loves You
+T: CABABCABCC
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D \
+| "G"G2A B2c | "Em"d3 zde \
+| "Bm"f2d d2B | "D"dfd- d2 :| \
+"B"\
+[| d/d/ \
+| "G"eg2 zGA | B2B A2G \
+| "Em"E6 | z3 zBB \
+| "Cm"cc2 zcc |
+| "Cm"c2c _e2g | "D"f6- | f3 z2  |] \
+"C"\
+[| d \
+| "Em"e2g g3 | f3 e2d \
+| "A7"e2g g3 | f3 eBB \
+| "Cm6"c2c c2c \
+| "D7"[d2B2][dB] [c2A2][cA] \
+| "G"[cA][B2-G2-] [B3-G3-] | [B3G3] z2 |]
+S:https://www.folktunefinder.com/tunes/144660
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/SheLovesYou_G.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

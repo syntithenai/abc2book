@@ -1,0 +1,27 @@
+X: 1
+T:The Wreck of the Manuka
+M:6/8
+L:1/8
+C:Mike Moroney
+R:Jig
+A:Dunedin, New Zealand
+N:
+N:Written  originally as 4 bars per part, each part can be doubled
+N:(repeated twice) to make a standard 32 bar tune
+Z:
+K:D
+A |:"D" dAF Ade | f>ff fed |"A" ecA ABc |1 "D" dAF DFA :|2 "D" d>dd def
+|: "G" gdB GBc | "D" d
+AF DCB, | "A7" A,CE GFE
+ |1 "D" DFA def :|2 "D" D3 z2||
+S:https://www.folktunefinder.com/tunes/147339
+S:http://www.kiwifolk.com/tunes/manuka_set.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

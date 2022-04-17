@@ -1,0 +1,27 @@
+X: 1
+T:Brighams
+O:England
+A:North-West
+R:Hornpipe
+N:Bob Tysons 2nd of pair
+M:4/4
+K:G
+(3def|\
+gfgd BcBA| GFGe dgdB| cBcd edcB| A2d2 d2(3def|\
+gfgd BcBA| GFGe dgdB|
+cAec BAGF| A2G2 G2:|\
+|:FG|\
+AGAB cAec| Bdgd BgdB|
+ecdB cABG| (3FAd (3gfe (3ded (3cBA|\
+GBdB gdBG| cAae cafd| ecdB cAGF| A2G2 G2:|
+S:https://www.folktunefinder.com/tunes/143429
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/Brighams_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

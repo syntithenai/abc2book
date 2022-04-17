@@ -1,0 +1,58 @@
+X:1
+T:Gavotte : Suite montagne du Bagad Ergu Armel
+E:12
+Z:Roger Ngaret (94-95)
+R:gavotte
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/8
+K:Eb
+T:Ton kentan
+T:A
+Q:1/4=150
+ff (3efe dB c2 | Bf fg f2 f2 | ff (3efe dB c2 | \
+Bf fg f2 f2 | (3fgf ee dB cd | ef (3dcB d2 d2 | \
+(3fgf ee dB cd | ef (3dcB d2 d2 :|
+T:B
+(3dBd fd fg f2 | (3fed ef e2 d2 | (3dBd fd fg f2 | \
+(3fed ef e2 d2 | (3dBd fd fg f2 | (3fed ed c2 B2 | \
+(3dBd fd fg f2 | (3fed ed c2 B2 :|
+T:C
+(3fef aa ff e2 | (3edc de c2 c2 | (3fef aa ff e2 | \
+(3edc de c2 c2 | (3fef aa ff ef | (3edc ed B2 B2 | \
+(3fef aa ff ef | (3edc ed B2 B2 :|
+T:D
+d>e ff dB e>e | fg a>a f2 f2 | (3dcd ff dB (3ede | \
+fg a>a f2 f2 | d>e ff dc (3cBc | A2-Ae ec dd | \
+d>e ff dc (3cde | (c2 c)f fd e2 :|
+%%newpage
+T:Tamm kreiz
+Q:C3=75
+M:15/8
+e | d2 B B3 f3 g2 e f2 e | d2 B B3 f3 g2 e f2 :|
+Q:1/4=150
+M:4/4
+f>g a>g f>e c2 | f>f ed c2 B2 | (3fef g>f e>d c2 | Be e>d e>f e2 |]
+T:Ton diwezhan
+T:A
+Be d>e fg f>f | (3efe d>c B2 B2 | \
+Be d>e fg f>f | (3efe d>c B2 B2 |\
+Be d>e fg ee | fg a2 (3gfe g>f | e2 de fg ff | (3efe d>c B2 B2 |\
+Be d>e fg ee | fg a2 (3gfe g>f | e2 de fg ff | (3efe d>c B2 B2 :|
+T:B
+e>f gf ed e2 | (3edc ed B2 B2 | e>f gf ed e2 | \
+(3edc ed B2 B2 |: e>f gf ed ef | (3gfe fg a2 fe/d/ | \
+e>f gf ed ef | (3edc ed B2 B2 :|
+S:https://www.folktunefinder.com/tunes/144659
+S:http://termen.free.fr/danses/cornouaille/GavotteSuitemontagneduBagadErgueArmel.abc
+% Rhythm Gavotte
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 15/8
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

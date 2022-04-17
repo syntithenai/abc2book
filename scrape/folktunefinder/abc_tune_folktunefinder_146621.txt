@@ -1,0 +1,22 @@
+X: 34
+T:Sandy River Belles
+% Nottingham Music Database
+S:Version 1, via PR
+M:4/4
+L:1/4
+K:D
+E|:"D"A,/2B,/2D/2E/2 F2|ED BA|"D"A,/2B,/2D/2E/2 F2|"Em"ED "A7"B,A,|
+"D"A,/2B,/2D/2E/2 F2|"D"ED "A7"BA|"D"Ad/2B/2 "G"Ad/2B/2|"A7"A/2F/2E "D"D2::
+"D"Ad/2A/2 B/2A/2F|Af ed|"D"Ad/2A/2 B/2A/2F|"D"B/2A/2F "A7"e2|
+"D"Ad/2A/2 B/2A/2F|"D"A/2d/2f/2d/2 "G"e/2d/2B/2d/2|"D"Ad/2A/2 "G"B/2A/2d/2B/2|\
+"A7"A/2F/2E "D"D2:|
+S:https://www.folktunefinder.com/tunes/146621
+S:http://abc.sourceforge.net/NMD/nmd/reelsr-t.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

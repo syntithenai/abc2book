@@ -1,0 +1,86 @@
+X:1275
+T:Fughetta
+T:BWV 961
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0961/bwv0961.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:12/8
+L:1/8
+K:Cm
+V:1
+z12|z12|z12|
+V:2
+C,D,E, F,G,A, G,F,E, D,E,F,|ME,D,C, C=B,C MA,G,F, C=B,C|\
+MG,F,E, C=B,C F,G,A, D,G,F,|
+%
+V:1
+G=A_B cde dcB ABc|MB=AG g^fg edc g^fg|dcB g^fg cde =Adc|
+V:2
+E,3-E,2=A,,B,,2C,PD,2D,,|G,,3-G,,=A,,B,,C,3-C,B,,A,,|\
+B,,3-B,,=A,,G,,ME,2C,D,2D,,|
+%
+V:1
+B/d/c/e/d/=f/e3-edcd3-|dc=B cde fga dgf|efg cfe def Be_d|
+V:2
+G,,=A,,B,, C,D,E, F,G,_A, B,CD|EFGPA3-A2FPG2G,|C2B,A,2F,B,2A,G,2E,|
+%
+V:1
+Pc3=d3edc BcA|G2 z z2 z z6|EFG ABc BAG FGA|
+V:2
+A,B,C F,B,A,G,2A,B,2B,,|E,F,G, A,B,C B,A,G, F,G,A,|\
+G,3-G,F,E,D,2E,A,,2B,,|
+%
+V:1
+G=AB cde dcB ABc|Bcd efg fed cde|d/f/e/g/f/_a/g2B AGA AfG|
+V:2
+E,,3E,2=A,,B,,2C,D,2D,,|G,,3-G,,=A,,B,,A,,2B,,E,2F,|\
+B,,C,D, E,F,G, F,E,D, C,D,E,|
+%
+V:1
+TA3G/B/A/c/B/_d/ c/B/A/G/F/=E/ F/A/G/B/A/c/|\
+B/A/G/F/=E/D/ E/G/F/A/G/B/ A/c/f/c/B/A/ G/B/=e/B/A/G/|
+V:2
+D,C,B,, E,F,G, A,B,C D,=E,F,|G,A,B, C,D,=E, F,A,_D B,G,C|
+%
+V:1
+FGA Bc_d cBA GAB|MAGF f=ef _dcB f=ef|McBA f_ef Bc_d GcB|
+V:2
+_D,3=D,2G,,A,,2B,,C,2C,,|F,,3F,G,A,B,3-B,A,G,|A,3=A,G,F,G,2F,=E,2C,|
+%
+V:1
+A/G/A/c/=d/_e/ f/A/f/A/f/A/ G/F/G/B/c/d/ e/d/c/B/A/G/|\
+F/E/F/=A/=B/c/ d/B/F/d/B/F/ E2c {_B}_A2f|
+V:2
+F,2_E,D,2B,,E,2D,C,2E,|D,2C,=B,,2G,, C,D,E, F,G,A,|
+%
+V:1
+{c}=B2c- cB/=A/Bc3-c/e/d/f/e/c/|F3-F/e/d/f/e/c/E3-E/e/d/f/e/c/|
+V:2
+G,F,E, D,E,F, ME,D,C, C=B,C|MA,G,F, C=B,C MG,F,E, CB,C|
+%
+V:1
+a/g/f/e/d/c/ =B/d/e/f/e/d/ g/f/e/d/c/_B/ A/c/d/e/d/c/|\
+Mf3-f/a/g/f/e/d/ Mgf/e/d/c/ Gc~=B|Hc12|]
+V:2
+F,G,A, D,G,F, E,/G,/C/G,/E,/G,/F,2E,|\
+D,/F,/A,/F,/D,/F,/=B,,2G, E,A,F,G,2G,,|HC,,12|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144592
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0961/bwv0961.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0961/bwv0961.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0961/bwv0961.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

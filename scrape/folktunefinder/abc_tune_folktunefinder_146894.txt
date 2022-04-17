@@ -1,0 +1,25 @@
+X:21
+T:Morning Star
+T:Dance: Morning Star
+R:hornpipe
+H:Based on the Shropshire Bedlams' dance
+H:The Hounds use the Bledington version rather than the
+H:tune transcribedin John Kirkpatrick's "Opus Pocus"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+GA | BcBG E2 FG | ABAF D2 GA | BcBG E2 AF | D2 G2 G2 :|
+GA | B2 B2 d2 d2 | egfe dcBA | GABc d2d2 | egfe d4 |
+B2 Bc d2d2 | egfe dB G2 | ABcA FGAF | D2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/146894
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

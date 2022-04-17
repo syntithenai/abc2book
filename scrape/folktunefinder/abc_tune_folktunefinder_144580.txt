@@ -1,0 +1,69 @@
+X:1872
+T:Gavotte
+T:BWV 816 (French suite no. 5), 4th movement
+C:Johann Sebastian Bach
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0816-4/bwv0816-4-pno2.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+Q:1/4=160
+K:G
+V:1
+b2g2|d2ef g2e2|B4 e2c2|A2Bc dBcA|cBAG b2g2|
+V:2
+d2B2|A4 B2G2|F4 G2A2|F2 x2 A2 x2|G2 x2 d2B2|
+V:3
+G,2G2|F2F,2 E,2E2|D2D,2 C,2C2|D2A,2 F,2D,2|G,2D,2 G,,D,E,F,|
+%
+V:1
+e2ef g2e2|^c2de fdge|fda2 gf ef|d4::A2d2|
+V:2
+^c2cd e2c2|A8-|A2d4^c2|d4::F2F2|
+V:3
+G,A,G,F, E,D,E,F,|G,A,B,^C D2C2|D2F,G, A,2A,,2|D,4::D2A,2|
+%
+V:1
+[d4f4] x4|[d2g2]d2 [g2b2]g2|e2fg a2f2|^d4 B^cde|
+V:2
+A4 gfed|G2d2 d2B2|G2AB c2A2|F4 B4|
+V:3
+G,F,E,D, A,2C2|B,CB,A, G,A,B,G,|CDCB, A,B,CA,|B,2B,,2 z2 F2|
+%
+V:1
+x8|x8|x4 e2f^d|e4 B2e2|
+V:2
+gfge ^defg|abag fgab|c'ab2 G2A2|G4 G2B2|
+V:3
+^D2DE F2D2|B,2B,^C ^D2B,2|G,F,G,A, B,2B,,2|E,B,,G,,B,, E,,F,,G,,A,,|
+%
+V:1
+g4 cBAG|x4 ^FGAB|x8|A4 c'2a2|
+V:2
+=d4 x4|=fde2 x4|cABc dcde|F4 a2f2|
+V:3
+B,,C,D,E, =F,G,A,B,|CDCB, A,G,^F,E,|D,C,B,,A,, G,,A,,B,,C,|D,A,,F,,A,, D,,E,,F,,G,,|
+%
+V:1
+f2fg a2f2|d2de fgaf|gea2 Tf3g|g4:|
+V:2
+c4 c2A2|F4c4|B2c2 A4|B4:|
+V:3
+A,,B,,A,,G,, F,,G,,A,,B,,|C,D,C,B,, A,,B,,C,D,|E,2C,2 D,2D,,2|G,,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144580
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0816-4/bwv0816-4-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0816-4/bwv0816-4-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0816-4/bwv0816-4-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

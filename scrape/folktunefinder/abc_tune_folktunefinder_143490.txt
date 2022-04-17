@@ -1,0 +1,24 @@
+X: 5
+T:Cock of the North, Eynsham
+M:6/8
+L:1/8
+A:Eynsham
+P:A3BA2B2A2B3AB2
+K:G
+P:A
+dc|B2B BAG|B2d e2d|B2B BAG|A3 d2c|
+B2B BAG|B2d e2d|B2B ABA|G3-G  ||
+P:B
+d2|g2d e2d|g2d e2d|B2B BAG|A3-A2d|
+g2d e2d|g2d e2d|B2B ABA|G3-G  ||
+S:https://www.folktunefinder.com/tunes/143490
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Eynsham.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Eynsham.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Eynsham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

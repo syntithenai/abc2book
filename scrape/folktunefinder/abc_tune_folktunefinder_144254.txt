@@ -1,0 +1,33 @@
+X:1
+T:Bumpus O' Stretton
+M:6/8
+C:
+S:Bacon (Carey MSS)
+N:rationalized A/B transitions, transposed from F to G
+A:Ilmington
+O:English
+R:Jig
+%P:A/2.(AB$^2$)$^4$.A
+P:A.(AB2)4.A
+%:
+%:
+K:G
+I:speed 300
+Q:C3=96
+P:A
+|: D | G>FE D2 B | c2 B A2 D | G>AB A>GE  | D3 G2 :|\
+P:B
+   z | G>Bd d2 d | ege  d2 d | G>Bd d>^cd | B3 g3 |\
+       G>Bd d2 d | ege  d2 D | G>AB A>GE  | D3 G2 ||
+S:https://www.folktunefinder.com/tunes/144254
+S:http://www.ucolick.org/~sla/morris/music/Ilmington/bumpus.lb1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

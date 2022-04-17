@@ -1,0 +1,34 @@
+X:75
+T:Polska e Nylandspojkarna
+R:Polska
+O:Sweden
+M:3/4
+L:1/16
+A:Dalarna
+K:D
+((3ABA)FA {A}[B2D2]"tr"[B2D2] [A4D4]|\
+((3ABA)FA {A}[d2D2]"tr"[d2D2] [A4F4]|\
+[B3D3G,3]A [G2A2][F2A2] [E4A,4]|\
+[a3A3]g "tr"f2ef [d4D4]|
+((3ABA)FA {A}[B2D2]"tr"[B2D2] [A4D4]|\
+((3ABA)FA {A}[d2D2]"tr"[d2D2] [A4F4]|\
+[B3D3G,3]A [G2A2][F2A2] [A2E2]EC|A,CEC {C}D8:|
+|:\
+abaf ~d2ff [d2D2][f2A2]|\
+abae ~c2ee [c2A2][e2c2]|\
+{e}[f3A3D3][eA] [d2e2][c2e2] [B2e2]B^G|\
+E^GBG A2AE C2E2|
+abaf ~d2ff [d2D2][f2A2]|\
+abae ~c2ee [c2A2][e2c2]|\
+{e}[f3A3D3][eA] [d2e2][c2e2] [B2e2]B^G|\
+E^GBG {G}A8:|
+S:https://www.folktunefinder.com/tunes/142998
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

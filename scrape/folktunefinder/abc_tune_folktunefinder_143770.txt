@@ -1,0 +1,25 @@
+X: 1
+T: When The Tide Comes In
+C: James Hill
+M: 4/4
+L: 1/8
+R: hornpipe
+S: John Nichol Ms. (1840-1860)
+N: This version is identical to the one in the John Baty Ms except for triplet passage
+K: Gmin
+dc|BAG^F GABc|d2G2 G2bg|fedc BcdB|(3cdB (3ABG Fedc|
+BAG^F GABc|dg^fa gfgd|edcB ceAc|B2G2 G2:|
+|:ga|bgdB gdBG|DGBd gdbg|afcA fcAF|CFAc fcAc|
+BAG^F GABc|dg^fa gfgd|edcB ceAc|B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/143770
+S:http://www.thesession.org/tunes/display/1985
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

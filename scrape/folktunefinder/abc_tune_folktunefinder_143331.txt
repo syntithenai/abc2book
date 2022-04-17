@@ -1,0 +1,25 @@
+X:0255
+T:"Brian The Brave"        (air)        0255
+C:after Mr. McFadden
+C:tenderly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=80
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:A
+"_vb"(e3/2d/2)|c2A3/2B/2 A2(G  (3A/2B/2c/2)|(d3/2c/2) (AG/2F/2) G2(Ac/2d/2)|(e3/2d/2) (c/2A3/2) (d3/2c/2) (A/2G3/2)|A6:|
+(ef)|(gfga) g2(ef)|(gag)e d2 (3(efg)|(ab)(ag) ed  (3(efg)|a6(ba/2g/2)|
+f2(fe/2d/2) e2(ed/2c/2)|(dcde) (a3g)|(eage) d2(e/2d3/2)|c2A3/2G/2 A2|]
+S:https://www.folktunefinder.com/tunes/143331
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0255-BrianBrave.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0255-BrianBrave.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

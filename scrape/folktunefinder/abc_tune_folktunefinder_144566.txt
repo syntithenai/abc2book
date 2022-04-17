@@ -1,0 +1,44 @@
+X:3519
+T:Vergi\ss mein nicht
+T:BWV 505
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0505/bwv0505-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:Am
+V:1
+c2B2A^G|A6|f2d3g|e3d cB|
+w:Ver-gi\ss mein_ nicht, ver-gi\ss mein nicht, mein al--
+V:2
+A,,2D,2E,2|F,3E, D,^C,|D,2B,,2G,,2|=C,2D,2E,2|
+%
+V:1
+Ad B3c|c6|e2gf ed|^c2d2e2|
+w:ler--lieb-ster Gott! Ach h\"o--re_ doch_ mein
+V:2
+F,2G,2G,,2|C,2E,2G,2|C,2_B,A,G,B,|A,G,F,E,D,^C,|
+%
+V:1
+fefed2|f2B=c dB|^G2e2d2|cBcBA2|
+w:Fle----hen, ach la\ss_ mir_ Gnad_ ge-sche----hen,
+V:2
+D,2A,,2D,,2|D,E,F,2=B,,2|E,D,=C,B,,A,,^G,,|A,,2E,2A,2-|
+%
+V:1
+B2^D2E2|^FG/A/F3E|E6|B2cAd2|
+S:https://www.folktunefinder.com/tunes/144566
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0505/bwv0505-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0505/bwv0505-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0505/bwv0505-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

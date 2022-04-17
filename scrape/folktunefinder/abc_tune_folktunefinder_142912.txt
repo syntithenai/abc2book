@@ -1,0 +1,24 @@
+X:1
+T:Branle de Poitou
+C:Le Fox, 1568 
+Z:abc transcription Leonard Williams
+M:9/8
+L:1/8
+K:C treble
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .88 in
+%
+e>fg g a2 f2 g|e2e cdc e2 c|e>fg g a2 f2g|e>d(c c)d2c3|
+e/d/e/f/ g ga2f2g|e2 (e e)dc e2c|c/d/e/f/ g ga2f2f|
+e>d(c c)d2 "fin"c3|]|:e>fg ga2f2_b|a2g g^f2"(D.C.)"g3:|
+S:https://www.folktunefinder.com/tunes/142912
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Le_Fox/branle_de_poitou.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Le_Fox/branle_de_poitou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1
+T:Brudmarsch
+R:Marsch
+Z:Bjrn Ek 2009-01-0
+O:Vikbolandet, \~nstergtland
+S:efter Pelle Fors
+B:Ltar efter Pelle Fors
+M:2/4
+L:1/8
+K:G
+D\
+|:G>A Bc |d2 ((3BcB)   |A>c ed|d3 B |
+(dg) (gd)|(dB) {/B}(cA)|1DG BG|D3 D:|2DG BA|G3 B||
+%
+|:d>e dc|B2 ((5:4g/a/g/f/g/)|d3 d  |B3 G |
+G>B df  |a3 G               |G>B dg|(bg) (ge)|
+d>e dc  |B2 ((5:4g/a/g/f/g/)|d3 d  |B3 G |
+G>B df  |a2 b2              |1g3 B:|2g3  |]
+S:https://www.folktunefinder.com/tunes/143829
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_5c9ed4.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

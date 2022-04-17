@@ -1,0 +1,24 @@
+X: 1
+T: Carbrays Frolics
+S: &quot;ONeill Dance Music of Ireland: 1001 Gems&quot;, 1907, page 81, tune #407
+M: 6/8
+L: 1/8
+R: single jig
+K: D Major
+|: d |\
+c2 A Bcd | AGF E2 D | EFE E2 D | EFE E2 d |
+c2 A Bcd | AGF E2 D | F2D GEC | DED D2 :|
+|: F/G/ |\
+A3 AFD | FED AFD |EFE E2 D | EFE E2 F/G/ |
+A3 AFD | FED AFD | F2 D GEC | DED D2 :|
+S:https://www.folktunefinder.com/tunes/146412
+S:http://www.thesession.org/tunes/display/8024
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

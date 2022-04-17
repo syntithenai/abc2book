@@ -1,0 +1,28 @@
+X:309
+%%topmargin 3cm
+U:~=!turn!
+T:Calam breugach
+T:Callum breugach
+T:Lying Malcolm
+C:Very old.
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:E phrygian
+B | {/^F}G<EE>G D>E{/F}G>B | A/A/A e>A {AB}c>Ae>A | {/^F}G>EE>G D>E{/F}G>B | {AB}c>AB>G A/A/A e :|
+^f | g>g (a/g/).^f/.e/ (d/c/).B/.A/ {/^F}G>B | (A/B/).c/.d/ e>A {AB}c>Ae>^f | g>g (a/g/).^f/.e/ (d/c/).B/.A/ {/^F}G>B | c>AB>G A/A/A {^g}a2 |
+{/^f}gG D>E{/F}G>B | {AB}c>AB>^G A/A/A e ||
+S:https://www.folktunefinder.com/tunes/145011
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Calam_breugach.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Callum_breugach.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Lying_Malcolm.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0309.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

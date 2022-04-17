@@ -1,0 +1,19 @@
+X: 1
+T: Broken-legged Chicken, The
+M: 3/2
+L: 1/8
+R: three-two
+K: Gmaj
+efg2 .B2G2 ~B4|G2.g2 g2a2 g2e2|efg2 .B2G2 ~B4|A2.a2 a3g .f2d2|
+efg2 .B2G2 ~B4|ABcd efga .g2e2|efg2 .B2G2 ~B4|ABcd efge f2d2||
+efg2 .d2g2 B2g2|G2.g2 g2a2 g2e2|efg2 .d2g2 B2g2|A2.a2 a3g .f2d2|
+efg2 .d2g2 B2g2|ABcd efga .g2e2|efg2 .d2g2 B2g2|ABcd efge f2d2||
+S:https://www.folktunefinder.com/tunes/143648
+S:http://www.thesession.org/tunes/display/6878
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

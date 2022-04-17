@@ -1,0 +1,28 @@
+X:2 
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+T:VI. La Girandola
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/4
+K:F
+T:Tenor
+N: Original clef, treble
+L:1/4
+z4 z4 G2 d4 ^c2 d e f d e4 d2 g4 ^f2 g2 G A \
+S:https://www.folktunefinder.com/tunes/145995
+S:http://www.laymusic.org/music/morley/girandola/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

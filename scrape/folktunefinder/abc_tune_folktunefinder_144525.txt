@@ -1,0 +1,30 @@
+X: 1
+T:Butterfly, The
+M:9/8
+L:1/8
+Q:120
+C:Traditional Arr. Diekoff
+R:Slip Jig
+N:Second in set with A Fig For A Kiss and Swallowtail Jig
+N:Second in set with A Fig For A Kiss and Swallowtail Jig
+Z:Donna Diekoff
+K:G
+|:"G"B2B {Bc}B2A G2A|"G"B2{Bc}B BAB "C"dBA|
+"G"B2B {Bc}B2A G2A|"G"B2d g2e "C"dBA:|!
+|:"Em"B2E G2E"D" {FG}F2D|"Em"B2E G2E "D"{FG}FED|
+"Em"B2E G2E "D"{FG}F2D|"Em"B2^c d2B "D"AFD:|!
+|:"Am7"{Bc}B2B e2f {ga}g3|"Am7"{Bc}B2e {ga}g2e "D"dBA|
+"Am7"{Bc}B2B e2f {ga}g2a|"Am7"{bc'}b2a {ga}g2e "D"dBA:|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/144525
+S:http://www.blackflute.com/music/tunes/slipjigs/butrfly.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

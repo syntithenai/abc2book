@@ -1,0 +1,23 @@
+X: 1
+T: Bubba Martin's Old Time Kick About
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF |\ 
+G2 B>A G>Bd>B | e>cA>G F>AD>G | F2 A>F F2 c>A | F2 d>B (3cBA (3FED |
+G2 B>A G>Bd>B | e>cA>G F>AD>G | F2 c>A F2 d>B |(3cBA F>A G2 :|
+|: (3Bcd |\ 
+g>G (3Bcd g>fe>d | c>AF>E D2 ^c>d | e>Ac>e d>BG>d | (3cBA (3BAG A>fe>f |
+g>G (3Bcd g>ba>g | f>ec>A e2 ^c>d | e>c'a>f d>bg>d | (3fed (3cBA G2 :|
+S:https://www.folktunefinder.com/tunes/144041
+S:http://www.thesession.org/tunes/display/8737
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

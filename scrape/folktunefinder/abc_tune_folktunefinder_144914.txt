@@ -1,0 +1,27 @@
+X:120
+T: Whistling Postman
+M: 4/4
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+N: alternate m1 and m5: fd d2 edef
+R: reel
+K: D
+ag|fd d2 edge|dBAF E2 FE|D2 FD ADFD|ABdf g2 ag|
+fd d2 edge|dBAF EGFE|D2 FA defd|edBc d2 :|
+Ad|f2 dc dfaf|bfaf gfef|dfaf g2 bg|afdf e2 de|
+|1 f2 dc dfaf|bfaf gfeg|fdAG FAdf|edBc d2 :|
+|2 a2 ^gb afdf|gefd edBc|dBAG FAdf|edBc d2 ||
+S:https://www.folktunefinder.com/tunes/144914
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

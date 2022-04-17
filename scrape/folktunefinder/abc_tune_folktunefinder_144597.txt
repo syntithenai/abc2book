@@ -1,0 +1,51 @@
+X:3554
+T:March
+T:BWV anh. 124
+C:Carl Philipp Emanuel Bach
+R:March
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva124/bwva124-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+K:G
+V:1
+dGGG G[Af][Bg][ce]|[Bd]GGG G[Bd][ce][Ac]|[GB]GBd gd ga/b/|agfed2c2|
+V:2
+z G,,G,,G,, G,, z z2|z G,,G,,G,, G,, z z2|z2G,,2B,,2G,,2|D,2E,2F,2D,2|
+%
+V:1
+BGGg gGGg|g^ccg gAAg|f2edT^c3d|dAAF FAAF|D8:|
+V:2
+G,2G,,4F,2|E,2A,,4^C,2|D,2F,2A,2A,,2|D,A,A,F, F,A,A,F,|D,8:|
+%
+V:1
+|:dAAA dFFF|dDDD DEFG|AGAB =cBcd|{c}B2AB Gdef|
+V:2
+|:D,,2D,,2D,,2D,,2|D,,D,,D,,D,,D,,2E,,2|F,,2D,,4E,,F,,|G,,2D,2G,2D,2|
+%
+V:1
+gddd gBBB|gGGG GABc|dcde =fefg|{=f}e2 de cBcd|
+V:2
+G,,2G,,2G,,2G,,2|G,,G,,G,,G,,G,,2A,,2|B,,2G,,4A,,B,,|C,2G,2C2G,2|
+%
+V:1
+eccA A^ffg|dBBG Gffg|c2BATA3G|GDDB, B,DDB,|G,8:|
+V:2
+C,4 z2 C,2|B,,2 z2 z2 B,,2|A,,2G,,2D,2D,,2|G,,D,D,B,, B,,D,D,B,,|G,,8:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144597
+S:http://abc.musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva124/bwva124-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-carl-philipp-emanuel/bwva124/bwva124-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva124/bwva124-pno2.abc
+% Rhythm March
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

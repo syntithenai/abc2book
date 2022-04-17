@@ -1,0 +1,26 @@
+X: 87
+T: MOUNT YOUR BAGGAGE -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010526030438 by John Chambers jc:trillian.mit.edu
+K: Am
+uE \
+| ABA  ABd | ege dBG | BAB GAG | BAB GAB \
+| A>BA ABd | ede a2g | edc Bcd | ecA A2 :|
+|: u^g \
+| {b}a^ga ABA | {b}a^ga A2^f | g2G GAG | BAB GAB \
+|    cBc  dcd |    ecA  Bcd  | edc Bcd | ecA A2 :|
+S:https://www.folktunefinder.com/tunes/145833
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

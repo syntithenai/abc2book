@@ -1,0 +1,27 @@
+X: 32
+T:Year End Two-Step
+% Nottingham Music Database
+S:Ralph Page, via PR
+M:4/4
+L:1/4
+K:G
+GB |"G"d3/2e/2 d^c|dB GB|"G"d3/2e/2 d^c|d2 AB|"Am"c3/2d/2 cB|
+"D"cA FA|"G"d3/2e/2 d^c|d2 GB|"G"d3/2e/2 d^c|dB GB|"C"c3/2B/2 ce|
+g2 fe|"G"d3/2^c/2 de|"Em"dB GA|"Am"B3/2c/2 "D7"BA|"G"Gd ed||
+"G"g2 g3/2f/2|gd BG|"D"F2 -F2|Fd ed|"D"f2 f3/2e/2|"D"fe "D7"cA|"G"G2 -G2|\
+"G"Gd "D7"ed|
+"G"g2 g3/2f/2|gd BG|"C""c"c2 " ""c"e2|"G/dim""c#"g2 fe|"G""d"d2 "Em"d3/2e/2|\
+"Am"fd "D7"ef|"G"g2 -g2|g2 ||
+S:https://www.folktunefinder.com/tunes/146263
+S:http://abc.sourceforge.net/NMD/nmd/reelsu-z.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsU-Z.txt
+S:http://www.guitarnut.com/nmd/reelsU-Z.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

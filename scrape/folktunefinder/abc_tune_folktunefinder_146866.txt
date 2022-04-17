@@ -1,0 +1,24 @@
+X:19
+T:Donkey Ride
+R:hornpipe
+H:Used for the Hounds dance "Northern Star"
+H:Tune is the same as used for the Bledington-style dance
+H:  composed by the Binghamton Morris Men
+M:4/4
+L:1/4
+K:G
+E G B B/B/ | c A B B/B/ |1 B A A G/A/ | B A A F :|2 B G A F | E D E2 |]
+e e d B | c A B2 | B A A G/A/ | B A A2 |
+e e d B | c A B2 | B G A F | E D E2 :|
+S:https://www.folktunefinder.com/tunes/146866
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

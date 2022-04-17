@@ -1,0 +1,103 @@
+X:3553
+T:Fuga f\"ur die Orgel \"uber die Buchstaben des Namens BACH
+T:BWV Anh. 45
+C:Johann Sebastian Bach
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva045/bwva045.abc
+M:C
+L:1/16
+K:Bb
+V:1
+z16|z16|z16|z16|
+z16|z16|F4=E4G4^F4|z2 G2B2G2 =E=FGF EFDE|
+z2 F2_A2F2 D_EFE DECD|EFGF EDCB, =A,B,CB, A,G,F,E,|B4A4c4=B4|z2 c2e2c2 A_BcB ABGA|
+BAB=B cBcG z Bc^c =ded=c|_BABc dcdB c2B2 A4|Bcd=e fcAF z c_e^f g_ag=f|efed cdec f6 e2|
+d4c4_e4d4|z2 e2g2e2 cded cdBc|z2 d2f2d2 Bcdc BcAB|z2 c2e2c2 ABcB ABGA|
+z2 b4 =a2 z2 c'4 =b2|z2 c'2a2c'2 a_bc'b abga|z2 b2g2b2 gaba gafg|a2_a2 g4 =b2_b2 =a4|
+bc'ba gabg c'2b2 a4|b2 z2 z4 z8|z2 c2_e2c2 _Bcdc BcAB|c6 B2 ABcA Bc_AB|
+z2 e2 z f=AB z2 f2 z g_dc|c2 z2 fg_af b2 z2 z4|z4 efge _a2 z2 z4|z4 =defd g2 z2 z4|
+e4d4f4=e4|fg=ag fg=ef g6 f2|efgf efde f6 e2|
+d4c4e4d4|z2 e2g2e2 cded efga|[d4b4][c4a4][e4c'4][d4=b4]|
+=b4c'4=a4_b4|z _dcB _A_GF=E F4 z4|z16|D4^C4_E4D4|
+F4=E4G4_G4|^F4=G4=E4=F4|z4 _d4-d2_ed cd=Bc|
+e8-e2fe =de^cd|fe=de f4 =efgf ef^de|_e_dcd e4 =defe de^cd|
+_d=cBc _d8 d2d2|_dB=G=E z4 z8|z16|
+z16|B2A2 c2=B2 z2 =B2c2=A2|_B2 z2 g4 f4 A4|B8 z8|]
+V:2
+z16|z16|z16|z16|
+B,4A,4C4=B,4|z2 C2E2C2 A,_B,CB, A,B,G,A,|B,2=B,2C2G,2 z2 ^C2D2=C2|B,CB,A, G,A,B,G, C6 B,2|
+A,B,_A,G, F,G,A,F, B,6 _A,2|G,z z2 z4 z8|z DFD C4 z EGE D2GF|EFED CDEC F6 E2|
+F4=E4G4^F4|z2 G2B2G2 =E=FGE FG_EF|D4C4_E4D4|G_AGF EFGE CB,_A,B, CDB,C|
+B4A4c4=B4|z2 c2e2c2 A_BcB ABGA|z2 B2d2B2 GABA GA^FG|z2 A2c2A2 ^FGAG FGEF|
+B2^c2 d4 =c2^d2=e2d2|c=Bcd edec d8-|dc_Bc dcdB c8|c4_d2c2 =d4 _e2d2|
+d8c8|B4A4c4=B4|z4 z4 D2_BA GA^FG|G=F=EF GAFG F8|
+GG_A=A B2F2 z AB=B c2G2|FG_AG F2 z2 z FG_A _BAGF|EFGF E2 z2 z EFG _AGFE|DEFE D2 z2 z DEF GFED|
+z _AG^F z GFG z =AB^G z AGA|A=G=FG A4 dc=Bc d_ecd|GFEF G4 cBAB cdBc|
+B4A4c4=B4|z2 c2e2c2 ABcB cdec|f8g8|
+z fg_a gfe2 z efg fed2|z16|B,4A,4C4=B,4|_B,4A,4=C4=B,4|
+D4_D4D4C4|z C=DE DCB,2 z B,C_D CB,A,2|z2 _D2F2D2 _G8|
+z2 =A2_G2A2 _A8|_A8 =G8|_G8 F8|
+F8 B_A_GA B2B2|_D4 z4 z8|z16|
+z16|F4 G4 z2 _A2G2F2|F2 z2 B4 B4 [E4F4]|[D8F8] z8|]
+V:3
+z16|z16|F,4=E,4G,4^F,4|z2 G,2B,2G,2 =E,=F,G,E, F,G,_E,F,|
+D,2=E,2F,2C,2 z2 ^F,2G,2=F,2|_E,F,E,D, C,D,E,C, F,6 E,2|D,2_D,2 C,4 =E,2_E,2 =D,4-|D,4 z4 z2 =E,F, G,4|
+F,4 z4 z2 D,_E, F,4|G,_A,B,A, G,F,E,D, C,B,,=A,,B,, C,B,,=A,,C,|D,4 z F,A,F, E,4 z G,=B,G,|C4 z4 z8|
+D2_D2 C4 =E2_E2 =D4|G,4 z4 z8|z16|z16|
+F8G8-|G4 z4 z2 A,2C2A,2|DEFE DECD z2 G,2B,2G,2|CDED CDB,C z2 ^F,2A,2F,2|
+G4^F4A4^G4|z2 A2c2A2 ^FGAG FG=EF|z2 G2B2G2 =E=FGF EFDE|F4=E4G4 ^F4|
+z2 G2B2G2 =E=FGE FG_EF|DDE_E z F=B,C z ^FG_A z DG=F|_E4 z4 z2 G,2B,2G,2|=E,=F,G,F, E,F,D,E, F,2_E,2 D,4|
+E,4D,4F,4=E,4|z2 F,2_A,2F,2 =D,4 z4|z2 E,2G,2E,2 C,4 z4|z2 D,2F,2D,2 =B,,4 z4|
+C4=B,4D4^C4|z2 D2F2D2 =B,CDC B,CA,B,|z2 C2E2C2 =A,_B,CB, A,B,G,A,|
+z B,D=E z F=EF z G_A^F z GFG|CD_ED CDEC =F4 z4|B,,C,D,=E, F,C,A,,F,, z C,_E,^F, G,D,=B,,G,,|
+d4 e2 z2 c4 d2 z2|z16|z16|z16|
+B,12A,4|A,4 B,2 z2 G,4 A,2 z2|z2 B,2_D2B,2 E8|
+z2 _G2E2G2 F8|=DEFE DE^CD =E3D =CD=B,C|C_D_ED CD=B,C =D3C _B,CA,B,|
+B,C_DC B,C_A,B, B,C_DC B,C_A,B,|[=G,4B,4] z4 z8|B,4 =A,4 C4 =B,4|
+z2 C2E2C2 A,_B,CB, A,B,G,A,|=D2C2 E2D2 z2 D2E2C2|D2 z2 E4 D4 C4|B,8 z8|]
+V:4
+B,,4A,,4C,4=B,,4|z2 C,2E,2C,2 A,,_B,,C,B,, A,,B,,G,,A,,|B,,2=B,,2C,2G,,2 z2 ^C,2D,2=C,2|_B,,C,B,,A,, G,,A,,B,,G,, C,2B,,2 A,,4|
+B,,2G,,2 F,,4 z2 _A,,2G,,4|C,4 z4 z4 F,,4|B,,2G,,2C,2C,,2 z2 =A,,2=D,2D,,2|G,,4 z4 z4 C,4|
+F,,4 z4 z4 B,,4|E,,4 z4 F,,8|B,,4 z4 z8|z16|
+z16|z16|z16|z16|
+B,,C,D,=E, F,C,A,,F,, z C,_E,^F, G,_A,G,=F,|E,F,E,D, C,D,E,C, z2 F,2A,2F,2|B,CDC B,CA,B, z2 _E,2G,2E,2|A,B,CB, A,B,G,A, z2 D,2^F,2D,2|
+G,4 z4 z8|z16|z16|z16|
+z16|z4 F,4 =E,4 G,4|^F,4 z4 z8|z16|
+z16|z16|z16|z16|
+z16|z16|z16|
+z16|z16|B,,4F,,4C,4G,,4|z _AGF EDC2 z GFE DCB,2|B,_DCB, _A,_G,F,=E, F,8-|F,16-|F,16-|
+F,12_E,4|zE,=D,C, B,,A,,G,,2 z _D,C,B,, A,,G,,F,,2|z16|
+z16|z16|z16|
+z8 _G,_A,B,A, G,zF,G,|=E,4 _DB,G,=E, F,4 =E,4|G,4 ^F,4 z2 _A,2G,2=F,2|_E,F,E,D, C,D,E,C, F,6 E,2|[=D,2B,2]F,2 C,2G,2 F,4 E,4|D,2 z2 B,4 B,4 F,4|F,8 z8|]
+V:5
+z16|z16|z16|z16|
+z16|z16|z16|z16|
+z16|z16|z16|z16|
+z16|z16|B,,4A,,4C,4=B,,4|z2 C,2E,2C,2 A,,B,,C,B,, =A,,B,,G,,A,,|
+B,,4F,,4C,4G,,4|C,8F,8|B,,8_E,8|A,,8D,8|
+G,,4 z4 z8|z16|z16|z16|
+z16|z16|z16|z16|
+z2 C,2 B,,4 z2 _D,2C,2B,,2|_A,,2F,,2 z4 z2 B,,2=D,2B,,2|G,,4 z4 z2 _A,,2C,2A,,2|F,,4 z4 z2 G,,2=B,,2G,,2|
+C,4 z4 z8|z16|z16|
+z16|z16|z16|
+z16|B,,_D,C,B,, _A,,_G,,F,,=E,, F,,8-|F,,16-|F,,16-|
+F,,12 _E,,4|=D,,2 z2 G,,2 z2 C,,2 z2 F,,2 z2|B,,8=A,,8|
+C,8=B,,8|=B,,8C,8|=A,,8_B,,8|
+B,,C,_D,C, B,,C,_A,,B,, _G,,_A,,B,,A,, G,,A,,F,,G,,|=E,,4 z4 F,,4 z4|z16|
+z8 z4 F,,4|B,,2F,2 C,2G,2 F,4 E,4|D,2 z2 E,4 F,4 F,,4|B,,8 z8|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144601
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva045/bwva045.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva045/bwva045.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva045/bwva045.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

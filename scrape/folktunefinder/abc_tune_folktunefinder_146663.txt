@@ -1,0 +1,31 @@
+X:11
+T:Miss Elspeth Campbell
+R:pipe march
+C:T. Douglas
+O:Scottish
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:300
+K:Amix
+e>d|c<eA>B A>Bc>d|e>dc<A a2 e>f|g2 e>d B2 A<G|e>dB<A G2 e>d|
+c<eA>B A>Bc>d|e>dc<A a2 e>f|g2 e>d B>AB<G|A>A A/A/A A2:|
+|:f>g|a2 a>g a2 e>d|c>de<f g2 f>g|a2 e>d B2 A>G|[1e>dB<A G2 f>g|
+a2 a>g a2 e>d|c>de<f g2 f>g|a2 e>d B>AB<G|A>A A/A/A A2:|
+[2e>dB<A G2 e>d|c<eA>B A>Bc>d|e>dc<A a2 e>f|g2 e>d B>AB<G|A>A A/A/A A2||
+|:B<e|A<Ac>A e>Ac<A|e>dc<A e2 d>B|G2 B>G d>GB<G|e>dB<A G2 B<e|
+A<Ac>A e>Ac<A|e>dc<A g2 f>g|a2 e>d B>AB<G|A>A A/A/A A2:|
+|:f>g|a2 e<a c>Ae>a|c<Ac>d e2 dB|[1e>dB<A G2 f>g|
+a2 e<a c>ae>a|c<Ac>d e2 f>g|a2 e>d B>AB<G|A>A A/A/A A2:|
+[2e>dB<A G2 e>d|c<eA>B A>Bc>d|e>dc<A a2 e>f|g2 e>d B>AB<G|A>A A/A/A A2|]
+S:https://www.folktunefinder.com/tunes/146663
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Pipe march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

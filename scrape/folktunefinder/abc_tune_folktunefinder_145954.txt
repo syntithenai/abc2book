@@ -1,0 +1,23 @@
+X:1
+T:La graine de senev - U120
+C:J. Akepsimas
+M:6/8
+L:1/8
+%%continueall 1
+%%maxshrink 0.6
+K:G
+"^Refrain"y100DS|y"Sol"GGG ABc|B3"Si"A3|"Mim"G2G "La"BAG|"Re4/3"A3-A2D|\
+"Sol"G3ABc|[M:9/8]"Sol"B3"Re"A3-AA"Mi"B|[M:6/8]
+"Lam"c2c"Re"B2A|"Sol4/3"G6||"^Couplets;"y30"Sim"D2D DB,D|"Mim"EEE-E3|\
+"Sim"F2F FGA|"Mim"G3"Sim"F3|"Re"z2z "Sol"GAB|
+"Si"B2AG2F|"Do"E3"Sol"EFG|"La"G2AF2E|"Re"D3-D2DS||
+S:https://www.folktunefinder.com/tunes/145954
+S:http://moinejf.free.fr/messe/messeL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

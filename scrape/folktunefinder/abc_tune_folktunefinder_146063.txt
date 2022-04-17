@@ -1,0 +1,68 @@
+X: 1
+T: Canzon prima "La Spiritata"
+C: Giovanni Gabrielli (1557-1613)
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+V: 1 name=Canto
+V: 2 name=Alto
+V: 3 name=Tenore clef=alto middle=c
+V: 4 name=Bass   clef=bass middle=d
+%%indent 100
+K: Bb
+[V:1] z8   d2G2  d2e2 | f6     f2 edcB A2a2 | g2f2  e4  d8        |
+[V:2] G2D2 G2A2 B6 B2 | AGFE D2d2 cBAG F4   | Bcd4 ^c2  d8        |
+[V:3] z8 z8           | z8        z8        | z8        d2G2 d2e2 |
+[V:4] z8 z8           | z8        z8        | g2d2 g2a2 b6     b2 |
+%
+[V:1] z8  z8                | z8  z8            | z8  z8                    | d2G2 d2e2 f6     f2 |
+[V:2] z8  z8                | G2D2 G2A2  B6  B2 | AGFE D2d2 c2B2     A4     | B6     AG AGFE D2d2 |
+[V:3] f6     f2  edcB  A2d2 | ^c2  d4 c2 d6  B2 | c4   B2d2 e^f  g4     f2  | g6    =fe d8        |
+[V:4] agfe d2d'2 c'bag f2ed | e2f2 e4 dcBA G2g2 | f4   g2b2 c'd'_e'2 c'2d'2 | g8        z8        |
+%
+[V:1] edcB A2a2 g2f2  e4   | d8-       d8        | z8  z8               | d2G2 d2e2 f6     f2 |
+[V:2] cBAG F2A2 =B^c d4 c2 | d8        z8        | z8         G2D2 G2A2 | B6     B2 AGFE D2d2 |
+[V:3] z4   z2f2 ga_b2 g2a2 | d8        d2G2 d2e2 | f6     f2  e6     dc | d8        d8        |
+[V:4] z8  z8               | g2d2 g2a2 b6     b2 | agfe d2d'2 c'6    ba | g8        z8        |
+%
+[V:1] edcB A2a2 g2f2  e4   | d6   d2  c2B2  A4   | G8-G8 ||[M:3/2] B3c d2B2 G2B2 | A3B c2 d4 ^c2 | d12           |
+[V:2] cBAG F2A2 =B^c d4 c2 | d6   B2  A2 G4  ^F2 | G8-G8 ||[M:3/2] G8       G4   | F6     D2 E4  | D12           |
+[V:3] z4   z2f2 ga_b2 g2a2 | d6   f2 _e2 e4   d2 |=B8-B8 ||[M:3/2] z12           | z12           | B3c d2B2 G2B2 |
+[V:4] z8  z8               | z4 z2B2  cd_e2 c2d2 | G8-G8 ||[M:3/2] z12           | z12           | G8       G4   |
+%
+[V:1] z12           | z12           | z12           | B3c d2B2 G2B2 | A3B c2 d4 ^c2 |[M:C|] d2A2 Bcdf e2d2 c2B2 |
+[V:2] z12           | F3G A2F2 D2F2 | E3D E2 G4 ^F2 | G3A B2G2 D2E2 | F3G A2A2 A4   |[M:C|] F4   z2D2 EFGB A2G2 |
+[V:3] A3B c2 d4 ^c2 | d12           | c6    B2 A4   | d8       B4   | c6    f2 e4   |[M:C|] d4   z4   z8        |
+[V:4] f6    d2 e4   | d12           | z12           | g8       g4   | f6    d2 a4   |[M:C|] d8        z8        |
+%
+[V:1] A2c2 B2A2 G4   z4   | z4   z2A2 Bcdf e2d2  | c2B2 A4   G4   z4    |
+[V:2] F2E2 D4   z2D2 EFGB | A2 G4 ^F2 G2D2 E=FGB | A2 G4 ^F2 G2D2 E=FGB |
+[V:3] z2A2 Bcdf e2d2 c2B2 | c3G  B2A2 GABd c2B2  | c4   d2d2 GABd c2B2  |
+[V:4] z4   z2d2 efgb a2g2 | f2e2 d4   g4   z4    | z4   z2d2 efgb a2g2  |
+%
+[V:1] z2c2 defa g2f2  e2d2- | d2^c2 d3A   B=cdf _e2d2 | c2B2  A2G2 ^F2 G4 f2 |: GGBc d4-  d2B2 c4-  |
+[V:2] A2 G4  FF BcdA  c2G2  | A3E   FGAc  B2A2   G2B2 | A2G2 _E2D2  D8       |: DGGA B4-  B2G2 AGFE |
+[V:3] c3G  B2Ad G2zd  efgd  | f2e2  d4    z2A2   Bcdf |_e2d2  c2B2  A2G2 A4  |: G4   zGBc d4   c4   |
+[V:4] f2e2 d2d2 gabd' c'2b2 | a4    d2^f2 g2=f2  g4   | c8          d8       |: g4   zgga b4   a4   |
+%
+[V:1] c2B2 B2AG A2 B4 A2 | B4 d4 dd d4-  | d2d2 d2f2 _e2d2 c2B2 | A2d2 A2B2 ^F6    d2 | A2B2 ^F2G2 A2B2  c2d2 |
+[V:2] DE F4  E2 F8       | D4 B4 BB B4-  | B2B2 B2d2  c2B2 A2G2 | ^F6    G2 A4   D4   | D8         E6      A2 |
+[V:3] d6     cB c2d2 c4  | B8    f4 f2f2 | f8         z8        | z8        z2d2 A2B2 |^F2G2  A2B2 c2d2 e2=f2 |
+[V:4] b4   g4   f8       | B8    b4 b2b2 | b6     b2  c'4  c'4  | d'8       d8        | d8         a8         |
+%
+[V:1]
+[V:2]
+[V:3]
+[V:4]
+S:https://www.folktunefinder.com/tunes/146063
+S:http://trillian.mit.edu/~jc/music/abc/classical/Gabrielli/CanzoniPerSonarAQuatro_1_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/classical/Gabrielli/CanzoniPerSonarAQuatro_1_Bb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/2
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1
+T:The Captain's Waltz
+C:copyright 2001 Matthew Fox
+L:1/8
+Q:204
+M:3/4
+K:D
+ z6 | z4 ag |: "D"[f3A3D3]g fe | "A"[c2E2] d2 e2 | "Em"[g3B3E3]f ed | "G"[B2D2] c2 d2 | \
+ "D"[A3F3]c de | [f3A3F3]e d2 | "A"[a4c4E4] [a2c2E2] | [c'6e6A6] | "D"[d'2f2D2] [a2d2D2] "G"[g2B2D2] | \
+ "D"[f3A3D3]d ef | "G"[g3B3D3]a gf | "Em"[g3B3E3]c de | "D"[e/A/D/]f3/2 za fd | "A"[c2E2] d2 e2 | \
+ "D"[d2F2] [A2F2] [F2A,2] |1 [D4A,4] ag :|2 (3DEF (3GAB (3cde | "D"[f3A3D3]e d2 | \
+ "F#m"[f2c2F2] e2 d2 | "Bm"[f2B2F2] e2 d2 | "G"[B2D2] c2 d2 | "D"[f3A3D3]e d2 | [a2c2F2C2] ^g2 f2 | \
+ [e6B6E6^G,6] | [^g6B6E6B,6] | [a2c2E2A,2] [e2A2] [d2F2] | [c2E2] (3ABc (3def | [g3B3E3B,3]f ed | \
+ "G"[B2D2] c2 d2 | "D"[ADA,]B cd ef | "A"[a2c2E2] [b2d2D2] [c'2e2G2] | "D"[d'2f2A2] [a2d2D2] [f2A2D2] | \
+ [d4F4A,4] ag |3 [A6D6A,6] | \
+S:https://www.folktunefinder.com/tunes/146335
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/captainswaltz_mattfox.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

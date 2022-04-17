@@ -1,0 +1,28 @@
+X:14
+T:Johnny Cope
+R:March
+A:Scotland
+S:Sandy MacIntyre
+Z:Wil Macaulay 1999
+L:1/16
+M:C
+K:Gmin
+|: G4 (GABc) d2G2 (AG)(FD) | F4 (FGAB) c2F2 AGFD |G4 (GABc) d2G2 BAGF| D2f2 dcBA G4 G,4:|
+|: B4 B2B,2 Bcde f4| BAGF F2c2 ABcd BAGF| G2B2A2c2 B2d2 BAGF D2f2 dcBA G4G,4 :|
+|: G2G,2 GABc dcBA BGFD | F2C2 FGAf cAfc BAGF | G2FE DCB,A, G,A,B,C EDCB,| CDEG FDFA, G,4G,4 :|
+|: g4 g2fg a2g2 agfd | f4 Tf2>g2 {fg}a2gf f2a2 | g4 Tg2fg a2f2g2d2 | f2c2 dcBA G4 G,4 :|
+|: G^FGA GABc dedc BABG | A=FcF dFcF Acfc BAGF | BcBA G^FGD GABc dcdB | cdfg fdcA G4G,4:|
+|: gdgb gdgb GBdg bgdB | fcfa fcfa FAcf afcA | dBdf cAcf BGBd AFAc | (3dcB (3cBA (3BAG (3AG^F G4 G,4:| 
+% December 1999 Set of the Month
+% http://www.interlog.com/~torocelt/tuneofthemonth.html
+S:https://www.folktunefinder.com/tunes/146141
+S:http://trillian.mit.edu/~jc/music/abc/mirror/interlog.com/setotm_archive.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

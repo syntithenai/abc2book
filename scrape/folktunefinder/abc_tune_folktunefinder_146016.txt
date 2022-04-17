@@ -1,0 +1,25 @@
+X:1
+T:Il Bianco e dolce Cigno
+T:Cantus
+C: Giovanni Guidiccioni
+B: Il primo libro a note negre a due voci
+L:1/4
+M:C|
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI gchordoff
+% %%LY voices \property Voice.Slur \set #'dashed = #1
+%%LY voices \property Staff.automaticMelismata = ##f
+N:Original clef, C on first line
+K:F
+z8 F8 B6 A2 G A B c d2 d2 B4 A2
+S:https://www.folktunefinder.com/tunes/146016
+S:http://www.laymusic.org/music/guidiccioni/cigno/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

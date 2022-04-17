@@ -1,0 +1,50 @@
+X:1
+T:Buizerd
+C:Jan Alexander STRYCKERS
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+H:describes a buzzard circling in the air and finally alight and disappearing in the green  
+N:= buzzard / buteo
+N:if III with G-bagpipe: play G instead of E
+M:3/4
+L:1/4
+Q:3/4=52
+R:Air
+K:C
+V:1 name:G-bagpipe
+|: G3 | ABc | G3 | ABc | d3 | edc | BAB | cBA |
+G3 | ABc | G3 | ABc | d3 | efe | dcd-| dcB|
+G3 | ABc | G3 | ABc | d3 | efe| def| efe|
+d3 | efg | d3 | efg | deg | fed | gdg-| gdg |
+geg-| geg | fed-| def | geg-| geg | fed-| d2e |
+geg-| geg | fed-| def | [1,2gag | fed | edc |BcB :|
+[3gec | dBG | cAF-| F3-| F3-| F3-| F3-| F3-| G3-|  G3-| G3-| Gz2 |]
+V:2 name:G-bagpipe
+|: G3 | G3 | G3 | G3 | A2B | A3 | G3 | G3|
+ G3 | G3 | G3 | G3 | AB2 | c3 |  B3 |  A3 |
+ G3 | G3 | G3 | G3 | A2B | c3 | B3 | c3 |
+ B3 | c2d | cB2 | c2d | Bc2 | c3 | Bcd | c2d |
+ e3 | c3 | c3 | Bc2 | e3 | c3 | c3 | cB2 |
+ e3 | c3 | c3 | B3 |[1,2d3 | c3 | A3 | G3 :|
+[3ec2 | BG2 | ABc-| c3-| c3-| c3 | d3-| d3-| d3-| d3-| d3-| dz2 |]
+V:3 name:C-bagpipe
+|: E3 | F3 | E3 | F3 | G3 | F3 | G3 | F3 |
+ E3 | F3 | E3 | F3 | G3 | G3 | G3 | F3 |
+ E3 | F3 | E3 | F3 | G3 | G3 | G3 | A3 |
+ AG2-| GA2-| AG2-| GA2 | G2A | A3 |  GAB | A2B | c3 | B3 | A3 | G2A | c3 | B3 | A3 | G3 |
+ c3 | B3 | A3 | G3 |[1,2 _B3 | A3 | F3 | F3 :|
+[3cAG-| G2F-| F2A-| A3-| A3-| A3-| A3-| A3 | B3-| B3-| B3-| Bz2 |]
+S:https://www.folktunefinder.com/tunes/144163
+S:http://music.gordfisch.net/tradmusic/pub/cache/Buizerd_71c879.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

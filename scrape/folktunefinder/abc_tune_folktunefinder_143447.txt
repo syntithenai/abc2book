@@ -1,0 +1,33 @@
+X:1
+T:Bright Morning Stars
+M:4/4
+L:1/8
+K:A
+ z4 z2|C-E
+M:5/4
+| E4 A2 F2 E2|
+M:4/4
+F-A A4A-B|
+M:5/4
+ B3-c/2-B/2 A2c-B A2|
+M:4/4
+c-B B4C-E|
+M:5/4
+ E4 A2 F2 E2|F-A A4
+M:5/4
+| B3-c/2-B/2 A2c-BA-E|
+M:3/4
+ FA A2F-E|
+M:4/4
+ E4 z4|
+S:https://www.folktunefinder.com/tunes/143447
+S:http://back.numachi.com:8000/dtrad/abc/BRTMORNS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

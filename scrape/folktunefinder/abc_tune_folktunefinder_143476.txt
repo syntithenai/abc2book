@@ -1,0 +1,33 @@
+X: 2
+T: Odessa Bulgar #3
+R: Bulgar, Frailach
+O: Kammen 1#12
+B: Kammen 1#12
+M: 2/4
+L: 1/8
+K: Em
+|: "Em"e4- | "Am"ea "B7"gf | "Em"g4- | gg fe \
+| "E7"e4- | ec' ba | "Am"a4- | "D7"aa gf |
+| "G"g3 b | "D7"d'c' ba | "B7"ga gf | "Em"ef "B7"ga \
+| "Em"~bg "B7"~af | "Em"~ge "B7"~f^d |1 "Em"e3 g | "B7"(3bag (3gfe :|2 "Em"e4- | "fine"e ||
+B=c^d \
+|: "Em"ez Bz | gz "B7"Bz | "Em"e4- | ee fg \
+| "Am"ag fe | ^de dc | "B"B4- | B3z |
+| "B"B^d dd | ^dc/d/ cB | "Em"Be ee | e3z \
+| "Am"ag fe | "B7"^de fg |1 "Em"e4- | eB =c^d :|2 "Em"e4- | ez ||
+"D7"d2 \
+|: "G"gb bb | ba/b/ ag | gb bb | ba/b/ ag \
+| bz "(D7)"c'z | "G"d'c' bc' | "D7"a4 | (3c'ba (3agf |
+| "D7"fa aa | ag/a/ gf | fa aa | ag/a/ gf \
+| a2 b2 | ag fa |1 "G"gg' f'e' | "D7"d'c' ba :|2 "G"g4 | "B7"(3bag "d.C."(3agf |]
+%%sep 2 1 500
+S:https://www.folktunefinder.com/tunes/143476
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR16_B.abc
+% Rhythm Bulgar, frailach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

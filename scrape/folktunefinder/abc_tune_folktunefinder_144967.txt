@@ -1,0 +1,24 @@
+X:1
+T:Cairn Edward
+T:for the dance Cairn Edward, 8x24 Jig
+C:Hugh Foss
+R:Jig
+B:from Barbara McOwen
+Z:arr. Terry Traub 4-22-02, from Barbara McOwen
+M:6/8
+K:G
+L: 1/8
+|: d| "G" g2 g dBd |"G"B2 B "Em"BAG| "Am"B3 "D"A2 d|\
+  "G"g2 g dBd| "Em"B2 B "Am"BAG| "D"A3 "G"G d :|
+E|"G"D2 D "C"E2 E|"G"D2 B BAG| "Em"B3 "D"A2 E| \
+  "G"D2 D "C"E2 E|"G"D2 B BAG|"D"A3 "G"G2 E|
+"G"D2 D "C"E2 E|"G"D2 B BAG| "Em"B3 "D"A2 d| \
+"G"gfe "Em"dcB|"Am"ABc "D"B2 A|"G"G3 |]
+S:https://www.folktunefinder.com/tunes/144967
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/CairnEdwardJ.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

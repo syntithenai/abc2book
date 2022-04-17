@@ -1,0 +1,25 @@
+X: 1
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/8
+Q:3/8=72
+K:C bass
+P:Introduction
+"_p"g|"^Allegretto"g2(g {b}a2g)|c2(c f2e)|(e3- edG)|c2 z z2 (c|d2A
+e2A)|(g2f) e{g}fd|("   ~"c3 c2d)|
+W:p. 229
+B3-B z g|g2(g {b}a2g)|c2(c f2e)|(e3- edG)|c3-c2e|(d2b) b2b|(b2a)
+(e2^f)|("_>"a6|g)Hg2 z de|
+f2"_cresc."f f2f|f2(f b2a)|(^g3 {g/2a/2}g^fg)|a3-afe|(_e2cB2A|a2)
+((3c/2d/2c/2 "^rall."B2A)|He3-e2e|
+({e}d^cd b2a)|c2(c e2a)|(g3-g2f)|e6|({e}d^cd b2a)|(c2(3c/2d/2c/2
+B2c)|(G^FG "^rall."e2d)|c3-c z z ||
+S:https://www.folktunefinder.com/tunes/146742
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

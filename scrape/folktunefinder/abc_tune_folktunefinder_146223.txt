@@ -1,0 +1,24 @@
+X:130
+T:Winhams
+% Nottingham Music Database
+S:NPTB, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+D|"G"G/2A/2B/2A/2 GD|"C"EG "G"DG|"C"EG "G"DG|"A7""C"BA "D7""D"AB/2A/2|
+"G""Em"G/2A/2B/2A/2 G" ""d"D|"C"EG "G"DG|"C"EG "D7"Dd|"G"BG G:|
+P:B
+(3d/2e/2f/2|"G"gG Bg|"Am"fA "Am7"ce|"D"dD FA|"C"c/2B/2A/2B/2 "D7"c/2d/2e/2f/2|
+"G"gG Bg|"Am"fA "Am7"ce|"D7"dD Fd|"G"BG G:|
+S:https://www.folktunefinder.com/tunes/146223
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsU-Z.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsU-Z.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/reelsU-Z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

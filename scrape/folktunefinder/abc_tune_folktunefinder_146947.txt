@@ -1,0 +1,31 @@
+X:100
+T: JACS Reel
+C: Johnny Harling
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: Bdor
+B3 c BF F2 | B^ABc fdcd | cBA^G AE E2 | A3 c ecBA |
+B3 c d3 e | fbb^g a3 b | c'abc' afec | dfec dB B2 :|
+bf f2 dfaf | bafb afed | c2 Bc AE E2 | A3 c ecBc |
+d3 e fefb | afed cedc | BF F2 Bcdf | edcA B4 :|
+P: version in Am
+K: Ador
+A3 B AE E2 | A^GAB ecBc | BAGF GD D2 | G3 B dBAG |
+A3 B c3 d | eaaf g3 a | bgab gedB | cedB cA A2 :|
+ae e2 cege | agea gedc | B2 AB GD D2 | G3 B dBAB |
+c3 d edea | gedc BdcB | AE E2 ABce | dcBG A4 :|
+S:https://www.folktunefinder.com/tunes/146947
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

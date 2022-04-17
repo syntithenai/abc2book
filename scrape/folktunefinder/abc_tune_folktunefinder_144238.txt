@@ -1,0 +1,25 @@
+X:1
+T:Bumblebee Reel
+M:C
+L:1/8
+Q:205
+C:(c) Greg Anderson
+R:Reel
+H:For the first bumblebee sighting of the spring
+K:A
+ed cB A2 E2|EF A2 B4|BA Bc dB dB|cd ef e2 cd|ed cB A2 E2|EF A2 B4|
+BG Bc dB ed|cd BG A2 cd:|
+|:ef ec d2 d2|cd cA BG EG|AG AB cA EA|fb ag e2 cd|!
+ef ec d2 d2|cd cA BG EG|AG AB cA dc|1Bc BG A2 cd:|2fd BG A2 cd||
+S:https://www.folktunefinder.com/tunes/144238
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/BumblebeeReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

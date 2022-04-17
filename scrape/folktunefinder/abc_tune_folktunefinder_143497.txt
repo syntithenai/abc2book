@@ -1,0 +1,28 @@
+X:25
+T:Tarnbrook rant
+A:Wyresdale, Lancashire
+B:Winder collection
+L:1/8
+M:3/2
+N:A hamlet on the edge of the Forest of Bowland
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000602.html
+%%ID:00000602
+K:D min
+FEA2 Bcd2 gfed | e2E4 c2cBAG |\
+FEA2 Bcd2 gfef | d2D4 c2cBAG :|
+|:gfed gfa2 gfed | e2E4 c2cBAG |\
+gfed gfa2 gfed | e2E4 c2cBAG :|
+|:BGA2 Bcd2 G2FG | c2E4 c2 cBAG |\
+GFA2 Bcd2 GFA2 | d2D4 c2cBAG:|
+S:https://www.folktunefinder.com/tunes/143497
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_leftovers/Winder_leftovers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

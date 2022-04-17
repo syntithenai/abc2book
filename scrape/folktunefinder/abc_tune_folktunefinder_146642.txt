@@ -1,0 +1,23 @@
+X: 1
+T: Carew Cross
+M: 6/8
+L: 1/8
+R: jig
+K: Fmaj
+|:DED DCA,|FEF G2G|ABA GFE|FGF EDC|
+DED DCA,|FEF G2G|Adc BAG|AGF E3:|
+|:EA,A, FA,A,|DCD ECA,|EA,A, FA,A,|AcB AGF|
+EA,A, FA,A,|GFG d2d|AcB AGF|1 AGF E2D:|2 AGF EFG||
+|:AGF AGE|AFD DEF|Add ded|cAG Adc|
+AGF AGE|AFD DEF|AcB AGF|1 AGF EFG:|2 AGF E2D||
+|:EA,A, FA,A,|DA,A, GA,A,|AA,A, DA,A,|EGF EDC|
+EA,A, FA,A,|DA,A, GA,A,|AA,A, DA,A,|EDC D2D:|
+S:https://www.folktunefinder.com/tunes/146642
+S:http://www.thesession.org/tunes/display/1904
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:2
+T:XVI. Fantasie: La Caccia
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+N: Original clef C on fourth line
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI transpose -12
+M:C
+K:F -8va
+T: Tenor
+L:1/8
+%1
+c8 A4 c4 F2 f4 e2 f2 F G A B c A d3 c d e f d e2 f4 e2 f4 f8
+S:https://www.folktunefinder.com/tunes/145999
+S:http://www.laymusic.org/music/morley/caccia/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

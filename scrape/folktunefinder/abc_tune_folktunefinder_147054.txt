@@ -1,0 +1,25 @@
+X:645
+T: Jenny Prior's
+C: BB
+L: 1/8
+M: 4/4
+R: hornpipe
+Q: 1/4=165
+K: D
+FE|"D"DFAd "F#m"cBAF|"Bm7"ABde "D"f2 ef|"G"g2 eg "D"f2 df|"Em"efgf "A"ecBA|
+"D"DFAd "F#m"cBAF|"Bm7"ABde "D"f2 ef|"G"gfeg "D"fedf|"A"eAce "D"d2 :|
+e2|"D"fa"A7"eg "D"fd (3ded|"F#m7"faec "Bm"d2 ef|"G"g2 bg "D"f2 af|"Em"efgf "A"eAce|
+"D"fa"A"eg "D"fd (3ded|"F#m7"faec "Bm"d2 ef|"G"gfeg "D"fedf|"A"eAce "D"d2 :|
+S:https://www.folktunefinder.com/tunes/147054
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

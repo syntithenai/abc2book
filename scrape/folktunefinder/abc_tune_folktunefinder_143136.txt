@@ -1,0 +1,19 @@
+X:16
+T:Polka
+A:Zweden
+M:4/4
+L:1/8
+K:D
+"D"A2 d2 d3 c| "G"B2 e2 e3 d| "A"c2 A2 B2 c2|"D"dc de f2 d2|\
+ A2 d2 d3 c| "G"B2 e2 e3 d| "A"c2 A2 B2 c2|1 "D"d6 z B :|2 "D"d6 z f|:\
+"D"a2 af d2 d2 | f2 f2 "A"e3 f| g2 ge c2 c2| b2 b2 "D"a3 f|\
+ a2 af d2 d2 | f2 f2 "A"e3 f| g2 ge cd ec|1 "D"d2 d2 d3 f:|2 "D"d2 d2 d4||
+S:https://www.folktunefinder.com/tunes/143136
+S:http://accordionlinks.com/other/maandag.abc
+S:http://www.accordionlinks.com/other/maandag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

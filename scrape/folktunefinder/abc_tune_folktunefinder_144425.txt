@@ -1,0 +1,19 @@
+X:1
+T:Bus Stop Reel
+M:C|
+L:1/8
+K:Am
+"Am"(A2 e)(A dA) c2 | (AB)c(A "G"BA)GB | "Am"(A2 e)(A dA) c2 | "C"(cd)e^(f "G" ge)dB |!
+"Am"(A2 e)(A dA) c2 | (AB)c(A "G"BA) G2 | "F"(FG)A(c "G"BA)G(B |"Am"cA)BG A4 :|!
+"Am"e(a a)g edcB | ABcd e4 | e(a a)g "C"ed c2 | "D"de^fd "E"e4 |!
+"Am"e(a a)g edcB | ABcd e2 d(c |"G"BA)G(F EF)G(B|"Am"cA)BG A4:|!
+S:https://www.folktunefinder.com/tunes/144425
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/BusStopReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

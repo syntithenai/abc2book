@@ -1,0 +1,70 @@
+X:1
+T:Plin, bals
+R:
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret (Aot 98)
+Q:1/4=100
+M:4/4
+L:1/8       
+K:C
+T:A
+K:C
+a | ag f2 e2 da | ag fe d ::
+Q:1/4=180
+dd ee ff ee | dd ee ff ea |1 ag f2 e2 d2 :|2
+ag f2 e2 da | ag f2 e2 d |] 
+T:B
+Q:3/8=80
+M:6/8
+L:1/8
+K:Bb
+d | g2 a "Eb"b2 a | "F"f3 f2 d | "Eb"g2 a "Bb"b2 a | "F"(f3 f2) :|
+Q:1/4=160
+M:4/4
+L:1/8
+"Gm"ga gf ga g2 | "F"ff "Eb"ee dc "Gm"dd |\
+ga gf "Eb"ga g2 | "F"ff ee dc "Gm"d2 |]
+T:De kanin minores
+K:Bb
+Q:1/4=100
+(3Bdf d2 c2 B2 | (3Bdf d2 c2 B2 ::
+Q:1/4=180
+dc dg fe dc | dc dg fe dc | de d2 c2 B2 :|
+%%newpage
+%%rm
+T:Plomeur B (S:Gildas Moal et Ren Chaplain)(Mars 99)
+Q:1/4=100
+K:Eb
+f2 fg (3fed cB | g2 ga gf g2 :: 
+Q:1/4=180
+g2 ge fg ag | f2 ed cB c2 |
+g2 ge fg ag | f2 eg ge f2 |]
+T:Duro - Le Lay A (S:Stage Festival fisel aot 98)(Dcembre 98)
+Q:1/4=100
+K:Bb
+(3gfB ed c B3 | (3gfB ed c4 ::
+Q:1/4=180 
+Bc df fd e2 | c2 df fd f2 | (3edc e2 d2 c2 :|
+T:Duro - Le Lay B (S:Stage Festival fisel aot 98)(Dcembre 98)
+Q:3/8=100
+K:Bb
+M:6/8
+Bcd e2 d f3 | edc e2 d c3 ::
+Q:1/4=180   
+M:4/4
+Bc df fd e2 | c2 df fd f2 | (3edc e2 d2 c2 :|
+S:https://www.folktunefinder.com/tunes/144657
+S:http://termen.free.fr/danses/cornouaille/Plinbals.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Key A-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

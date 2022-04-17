@@ -1,0 +1,23 @@
+X:15
+T:Mologhata (Vertel eens)
+A:Griekenland
+M:9/4
+N:Bassen: \lqu\sei\sei\lqu\squ\lqu\sei\sei \lqu\squ\squ
+L:1/8
+K:C
+\def\userHl#1{\uptext{\llap{Fine}}}
+"C"cd ef gf fe "A"ed d^c "Dm"d6|"C"cd ef gf fe "G"ed dc "C"Hc6 ::\
+"Dm"fd ec d2 d2 fd ec d6| "C"c2 cc c2 e2 "G"dc dB c6 ::\
+%\mulooseness=1
+"C"c2 cc c2 c2 cB _B=B  c2 _BA G2| "C"c2 cc c2 c2 _AG A^F G6:|
+S:https://www.folktunefinder.com/tunes/143135
+S:http://accordionlinks.com/other/maandag.abc
+S:http://www.accordionlinks.com/other/maandag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

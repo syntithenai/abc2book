@@ -1,0 +1,25 @@
+X:62
+T:Polska
+R:Polska
+O:Sweden
+M:3/4
+D:Filarfolket
+C:e. Hans Brimi 
+K:DDor
+Df d<f e>^c|de {gfe}fa g>e|\
+(3:2f2d2f2 e>d |1 {^cB}c2 A4 :|2 {^cB}c2 d4::
+(3:2e2 ^g2 a2 b>c'|a>g e<d c>B|\
+A>G A<B c2|{d^c}d2 {ed}e2 {^fe}f2 \
+|1 {^gf}g2 e4 :|2 {^gf}g2 a4 :|
+S:https://www.folktunefinder.com/tunes/142985
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

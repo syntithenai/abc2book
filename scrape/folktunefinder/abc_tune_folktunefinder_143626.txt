@@ -1,0 +1,26 @@
+X:110
+T:Far Away
+M:3/4
+L:1/8
+Q:1/4=100
+C:Peter Jung
+R:waltz
+Z:
+K:Bm
+FA| "Bm"B3 F Bd| "F#m"cA F2 FA| "Bm"B3 F Be| "A"c4 dc|
+"G"B3 G Bd| "F#m"cA F2 de| "Bm"fe dc "A"BA|"Bm"B4 :|
+|:de| "D"f3 e (3fga| "A"ec A2 de| "D"f3e (3fga| "Em"e4 de|
+"D"f3 e (3fga| "A"ec A2 Bc| "D"d2 "A"c2 BA| "Bm" B4 de|
+"D"f2 fe (3fga| "A"ec A2 de| "D"f2 fe fa| "Em"e4 de|
+"Bm"fd Be "A"cA| "G"dB Gc "F#m"AF| "Bm"F2 B2 "F#m"A2| "Bm"B4 ||
+% C:\aaa\ABCcollections\Faraway.abc
+S:https://www.folktunefinder.com/tunes/143626
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmisc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

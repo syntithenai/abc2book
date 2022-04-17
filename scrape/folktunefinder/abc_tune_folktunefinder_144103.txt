@@ -1,0 +1,27 @@
+X: 1
+T: Buck Mountain
+C: R-138
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+M: C|
+K: D
+dB| \
+"D"[FA][F-A-][F2A2] [F2A2]dc| "G"[GB][G-B-][G2B2] [G3B3]e-| "A"efed cBAc| "D"dcde fedB|
+"D"[FA][F-A-][F2A2] [F2A2]dc| "G"[GB][G-B-][G2B2] [G3B3]e-| "A"efed cABc|1 "D"d6 :|2 "D"d8|]
+|:\
+"D"fafe dBA2| f3a f3f-| fafe dBA2| f3a f3g-| "G"gagf edB2|
+g3a g2fg|1 "A"a4 a2b2| a2g2 f2e2:|2 "A"abag fdec| "D"d6|]
+%%text 01/16/00.  From "The Portland Collection" - A & B parts reversed.
+S:https://www.folktunefinder.com/tunes/144103
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R138_Buck_Mountain.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R138_Buck_Mountain.abc
+S:http://roaringjelly.org/music/reel/R138_Buck_Mountain.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

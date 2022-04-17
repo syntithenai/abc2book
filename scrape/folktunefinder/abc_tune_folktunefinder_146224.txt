@@ -1,0 +1,25 @@
+X:135
+T:Winster Galop
+% Nottingham Music Database
+S:Eric Foxley
+M:4/4
+L:1/4
+K:G
+P:A
+d|"G"GB/2B/2 GB|"G"GB d2|"Am"A3/2c/2 "D7"BA|"G"GB "G7"d2|"C"ce fe|"G"dB "Em"d2\
+|"Am"A3/2c/2 "D7"BA|"G"G2 G:|
+P:B
+d|"G"gf ed|"G"gf ed|"G"gf ed|"Am"cB A2|"D"fe d2|"D"fe d2|"D7"d2 A3/2c/2|\
+"G"BG G:|
+S:https://www.folktunefinder.com/tunes/146224
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsU-Z.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsU-Z.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/reelsU-Z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

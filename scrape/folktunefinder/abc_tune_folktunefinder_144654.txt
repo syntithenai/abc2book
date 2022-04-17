@@ -1,0 +1,32 @@
+X:1
+T:Mazurka : Suite irlandaise
+E:12
+Z:Roger Ngaret (Aot 98)
+R:
+C:Trad.
+S:
+A:Irlande
+K:G
+T:A
+M:4/4
+L:1/16
+K:G
+G2B2 "G"d2B2 d4 | g2f2 "Am"e4 c4 | a2g2 "D"f2e2 d4 | A2c2 "G"B2A2 G4 | \
+B2c2 d2B2 G4 | D2G2 "Am"F2E2 E4 |1 A2B2 "D"c2A2 F4 | D2F2 E2D2 D4 :|2 \
+A2B2 c2A2 F2E2 | D2F2 E2F2 G4 |]
+T:B
+M:4/4
+L:1/16
+K:G
+D2G2 "G"B4 B2A2 | G2B2 d4 d4 |1 A2B2 "D"c2B2 c2e2 | \
+d2c2 "G"B4 A4 :|2 A2B2 "D"c2B2 c2A2 | F2A2 F4 G4 |: \
+g2f2 "Am"e4 e2g2 | f2e2 "G"d4 B4 | G2A2 B2G2 B2d2 |1 \
+c4 B4 A4 :|2 c4 "D"A4 G4 |]
+S:https://www.folktunefinder.com/tunes/144654
+S:http://termen.free.fr/danses/mazurkas/MazurkaSuiteirlandaise.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

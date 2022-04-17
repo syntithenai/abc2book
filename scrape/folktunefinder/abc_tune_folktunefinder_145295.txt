@@ -1,0 +1,22 @@
+X: 1
+T: Cambridge Caravan Catastrophy
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+|: f/2b3/2 b3/2g/2 a3/2f/2 g/2e3/2 | f/2g3/2 f3/2e/2 c3/2f/2 e/2c3/2 | f/2b3/2 b3/2g/2 a3/2f/2 g/2e3/2 | f/2g3/2 f3/2e/2 c/2f3/2 f3/2e/2 :|
+|: c/2f3/2 f3/2e/2 c/2f3/2 f3/2g/2 | a3/2f/2 g3/2e/2 c3/2f/2 e/2B3/2 | c/2f3/2 f3/2e/2 c/2f3/2 f3/2g/2 | a3/2f/2 g/2e3/2 f2 f3/2e/2 :|
+|: F/2B3/2 B3/2c/2 d3/2e/2 f3/2a/2 | g/2b3/2 e3/2g/2 f3/2g/2 e/2B3/2 | F/2B3/2 B3/2c/2 d3/2e/2 f3/2a/2 | g/2b3/2 e3/2g/2 f2 f3/2e/2 :|
+|: c/2f3/2 f3/2g/2 (3agf (3gfe | B/2e3/2 e3/2f/2 g3/2b/2 a/2g/2f/2e/2 | c/2f3/2 f3/2g/2 (3agf (3gfe | B/2e3/2 g3/2e/2 f2 f3/2e/2 :|
+|: fb bg a2 fa | gf eg fe ce | fb bg a2 fa | gf eg ef fe | fb bg a2 fa | gf eg fe ce | fb bg a2 fa | gf eg ef fe :|
+|: cf fc ff cf | fc fg ag fe | Be (3eee ce Be | Ae (3eee gf ef | cf fc ff cf | fc fg ag fe | Be (3eee gf eg | fe ce ef (3gfe :|
+|: FB Bc de fa | (3ggg eg fe cA | FB Bc de fa | gf eg ef fe | FB Bc de fa | (3ggg eg fe cA | FB Bc de fa | gf eg ef fe :|
+S:https://www.folktunefinder.com/tunes/145295
+S:http://www.thesession.org/tunes/display/3492
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

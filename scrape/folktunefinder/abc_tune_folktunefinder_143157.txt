@@ -1,0 +1,58 @@
+X:1
+T:Brd Bhn
+M:4/4
+L:1/8
+K:C
+D|DD DE D3 E|GG ABc2 d3c|A2GE D3E|D2C4 D2|
+L:1/16
+E4DD3
+L:1/8
+D3E|DE GA c2 dc|AA GE D3E|DD6d|
+L:1/16
+d6c2 A3B c2c2|d6c2 A3B cc3|
+d6c2 A2 A4 GE|D6E2 D4C2 D2|
+D2D2 E3D D6 E2|G2G2 A2B2 c2d6||
+M:2/4
+L:1/8
+d3c||
+M:4/4
+AG2ED3E|DD6||
+W:
+W: Brd BhnN h-ionann liomsa 'sliabh 's an bhaile 't 'mo dhiaidh
+W: Is, a Dhia, gan m arst ann
+W: Gan m sa teach mhr 't denta 'r thaobh an rid
+W: Agus m bheith ann gan bh gan chaora
+W: N bheinn in bhur gcr anois ar theacht an Domhnaigh
+W: Bheadh an tAifreann do mo chir 's mo dhaoin
+W: Is d mba liomsa ir' anuas  Loch irne
+W: Gur i dTeilionn a b'fhearr liom cna
+W:
+W: A Bhrd Bhn, a rn, glac misneach bheas mr
+W: Is n cluintear nos m th ag agaoint
+W: 'S nach bhfuil n ar an domhan d bhfaca t le feabhas
+W: Nach mbeidh againn in sa bhaile d 'mbeidh muid
+W: Caoirigh 'gus gabhair, caiple 'gus buaibh
+W: Agus uain mhaith' go bhfuighimist far daof'
+W: Nach r-deas an it seo i dtoradh 'gus i ngrin
+W: 'Gus an bradn ar an abhainn ag limnigh
+W:
+W: T na caoirigh 'nseo gan digh, crupn ar na buaibh
+W: Agus galar ar na gabhair sna h-altaibh
+W: Madaonn s mo bhrn, nl anseo ach min
+W: Is a' chb dhubh n airmse ina far 
+W: A' mid bradin agus isc dr shnmh 'gcuan Teilinn 'riamh
+W: Agus taradh siad aniar faoin gharra
+W: Ni thabarfainn thart mo shil le tuirse 'gus le cumhaidh
+W: O thinig m in bhur gclid ghrnna
+S:https://www.folktunefinder.com/tunes/143157
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/Bridbhan.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/Bridbhan.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

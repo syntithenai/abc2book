@@ -1,0 +1,28 @@
+X:1
+T:Gladstone Bill
+R:reel
+D:Brian McNamara. Fort of Jewels
+N:tune recorded in Key G mix, transposed to key Amix gives fingering for C pipes
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:Gmix
+d(G ~G2) FG (3ABc|dGGe fdef|d(G ~G2) FGAd|cAFA cffe|
+d(G ~G2) F2 (3ABc|dGGe f2 ef|d(G ~G2) FGAd|cAFA c2||
+||Bc|:~d3 e {e}dcBc|dedB c2 Bc|dcde dcBc|defd cF (3ABc:|
+||d(g ~g2) de f2|dgge f2 dc|d(g ~g2) defd|cAFA c2 Bc|
+d(g ~g2) de f2|dgge f2 fg|a2 ge fedc|dcde f2ef|]
+S:https://www.folktunefinder.com/tunes/146286
+S:http://cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+S:http://www.cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:96
+T:Polska fr J\"amtland
+S:Wendy Stewart/Alan James
+R:Polska
+O:Sweden
+M:3/4
+A:J\"amtland
+K:D
+(3A2A2B2 A>G | F>G (3ABA (3FDF |\
+(3F2F2E2 C>E | D>F (3EFE C>E |\
+(3D2A2B2 A>G | F>G (3ABA (3FDF |
+(3F2F2E2 C>E | (3DEF D4 :: \
+K:A
+(3A2A2B2 A>G | (3ABc d2 c>B | \
+(3A2A2c2 B>G | A>c (3BcB G>B |
+(3A2A2B2 A>G | (3ABc d2 c>B |\
+(3::2A2c4 B>G | (3ABc A4:|**
+S:https://www.folktunefinder.com/tunes/143019
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

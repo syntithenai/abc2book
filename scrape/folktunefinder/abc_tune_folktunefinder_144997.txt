@@ -1,0 +1,33 @@
+X:7
+T:Les Flemmes d'Enfer (3-button Version)
+R:two-step
+C:as Played by Steve Riley on his beginner Cajun Accordion CD
+N:This version (having no C and F notes at all) is played slowly at the end of the "Les flammes d'enfer" section.
+Z:From SteveRileyBeginner-02LesFlemmesDEnfer-05-3notesSlower.mpg
+M:8/4
+L:1/8
+Q:1/4=120
+K:Gmix
+"A part"z4 {A}Bz"3<"d2d2 {A}"23<"[B3d3]"3>"e |\
+"1>"G"2<"B"3<"d"3>"e "1>"GG "2<"B"3<"d2"2<"B "1<"A"3>"e G3 "3>"e | \
+GBde GG Bd2ABd {B}"13<"[A3d3]e | \
+GBde GG Bd2B Ae G3 e | 
+GBde GG {A}Bz d2d2 {A}"23<"[B3d3]e | \
+GBde GG Bd2B Ae G3 e  | \
+GBde GG Bd2ABd {B}[A3d3] e| \
+GBde GG Bd2B Ae G3 e  |] 
+|: "B Part"GBde GG edA"23<"[Bd] [Bd][Bd]{A}"23<"[B3d3] e | \
+GBde GG edAB Ae G3 e  | 
+GBde GG edA"23<"[Bd] [Bd][Bd]{B}"13<"[A3d3]e |1 \
+GBde GG edAB Ae G3 e :|2 \
+GBde GG ABdB Ae GzG.G G2 |]
+S:https://www.folktunefinder.com/tunes/144997
+S:http://members.chello.hu/nemethmik/cajun/valse99.abc
+% Rhythm Two-step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 8/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

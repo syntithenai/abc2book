@@ -1,0 +1,23 @@
+X: 1
+T:Castle Kelly
+M:C
+L:1/8
+Q:220
+O:tra
+Z:1997 by John Chambers <jc@eddie.mit.edu>
+Z:http://ecf-guest.mit.edu/~jc/music/abc
+K:ADor
+|: A2cA ABcA | GcEG- G4 | A2cA GAcd | ecdB cAA2|!
+ A2cA ABcA | GcEG- G4 | A2cA GAcd | ecdB cAA2:|!
+ agec d2ed | cAGE G4| agec d2cd | eaag a2ba |!
+ gedc d2ed |cAGE G2EG | A2cA GAcd | ecdB cAA2 :|
+S:https://www.folktunefinder.com/tunes/147193
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Castle_Kelly_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

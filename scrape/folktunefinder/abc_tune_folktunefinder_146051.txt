@@ -1,0 +1,96 @@
+X:1
+%
+%%titleleft 1
+%%topmargin 1.5cm
+%%topspace 0.3cm
+%
+%%gchordfont Times-Italic 12
+%%textfont Times-Italic 12
+%
+T:Canzona Prima detta l'Astarosta
+C:Pietro Paolo Melli
+C:Libro II, fol. 50
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:FM italian7tab
+%
+%%tabaddflags 0
+%%tabfontsize 13
+%%tabrhstyle diamond
+%%tabfontitalian Borrono
+%
+%staff 1
+Q:"8 = Es"
+f2 f1 f | b1 ,d/a b1 b |\
+[ab1] ,,d [ab] [cb] |\
+[da1] a/b d1 [dc] |
+%staff 2
+[bd1] ,,,a/,,,c ,,,d1 [,db] |\
+[abd,a1] ,,d [,,d,a] [,,d,a] |\
+[,db,c1] ,,,,,d/,,,,a [,db,c1] d/,,,,e |\
+[bd,a1] {a}/,,,,,a [,,d,,b1] ,d/,,,,,d |
+%staff 3
+[a,d,a1] ,b/,a ,b,,d a,,b | ,,,d/,d ,,,c,,,a [a,d,e]c df |\
+,,,a1 [,d,d] [,bbc] ,a/,,,a |\
+,,,,d/,,d ,,,a,,,,d ,,,,c,,,,a [,acc,a1] |
+%staff 4
+[,,d,a1] f f f |\
+[da1] a/b d1 [dc] |\
+[bd1] [bd,a] [bd,a] [bd,a] |\
+[a,d,d1] ,,,,a/,,,,c [,,d,d1] [a,d,d] |
+%staff 5
+[,d,,b1] ,,,,,d/,,,,a [,d,,b1] [,db,b] |\
+[,bd,a1] ,,d [,b,ca] [,b,d] | [,,ea,d1] "(1)",,,c/,,,a ,,,c1 ,,,,,d |\
+[b,d,,b1] ,,,d [,,dd] [,,dd] |
+%staff 6
+[,,bc1] a/b "(2)"[da1] [dc] |\
+[bd1] ,,,a/,,,c ,,,d1 [,db] |\
+[abd1] ,,,,a/,,,,,d ,,,,,b,a ,b,,d |\
+[,ab,,d/],b ,da b,,,,,d ,,,,,b,,,,,a |
+%staff 7
+{a}/d ba ,d{a} {8}{9} |\
+[f{10}1] d/b da b,d |\
+,,d1 a/,,b ,,,d,d ,,,c,,,a |\
+[add,a1] ,c/,a ,d//,c,d,c ,d,c,a,c |:
+%staff 8
+[,da{a}1] ,,,a/,,,c ,,,d1 ,,d |\
+,b1 ,,,,a/,,,,c ,,,,d1 ,,,c/,,a |\
+,,b1 a d ,,,c/,,,d |\
+,,,f1 ,,,,,d/,,,,a ,,,,b1 ,d |
+%staff 9
+b1 ,,,,b/,,,,d ,,,a1 {a}/,,,,,a |\
+,,,,,b1 ,,,d ,,d ,b/,,,,,d |\
+,,,,a1 ,,d/,,,,c ,,,,d1 .[ab/],,,a |\
+,,,c1 .[da/],,,d ,,,f1 .[,df] |
+%staff 10
+,,,a1 .[bd/],,,c ,,,d,,b [abd1] |\
+[,ab1] [,d,d] [dd,c] ,c |\
+[bd{a}/],,,,,a ,,,,,b,,,,,d ,,,,af db |\
+a/,,,,a ,,,,,d,,,,,b ,,,,,ad ba |
+%staff 11
+,d/,,,,,d ,,,,,b,,,,,a {a},b ,da |\
+b/{a} ,,,,,b,,,,,d ,,,,ab a,d |\
+,,,,a/,c ,,b,,,d ,,,,af db |\
+a/,,d ,b,,b ,,,d,d ,,,c,,,a |
+%staff 12
+,,,,a/f ab ,c,d ,aa |\
+{10}/,c ,,d,,b ,,,d,d ,,,c,,,a |\
+[add,a1] ,c/,a ,d//,c,d,c ,d,c,a,c :|\
+[,daa{a}4] |]
+%
+%%vskip 5mm
+%%begintext
+%%Notes:
+%%(1) quaver flag mising in original
+%%(2) second course "4" in original
+%%endtext
+S:https://www.folktunefinder.com/tunes/146051
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Melli/melli_II_f50.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Melli/melli_II_f50.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

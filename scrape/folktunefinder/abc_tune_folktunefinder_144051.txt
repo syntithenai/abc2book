@@ -1,0 +1,43 @@
+X: 1
+T: Bucimis
+Z: 1987 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: 87/8
+L: 1/8
+K: ADor
+P: A (4x)
+|: "Am"A2 de eA eA | ~e2d dc de | cE BE cE BE | "G"GFG "Am"~A2 AE :|
+P: B (4x)
+|: "Am"cE BE cE BE | "G"GFG "Am"AB cd | cE BE cE BE | "G"GFG "Am"~A2 "fine"AE :|
+P: C
+|: "Am"cd dB cA BG | A2B ~c2 cE | cd dB cA BG | ~A2e ~A2 A2 :|
+P: D
+K: Dm
+|: "A"[ge][fd] [e^c][d_B] [ec][cA] [dB][BE] \
+| [^cA][d_B][ec] ~[c2A2] [cA][BE] \
+| [AE][_BG] [^cA][dB] [ec][fd] ~[e2c2] \
+| "Gm"[d_B][^cA][BG] "A"~[c2A2] [cA][AE] :|
+P: E
+|: "A"[^cA][d_B] ~[e2c2] [ec][dB] ~[e2c2]  \
+| "Gm"[d_B][^cA][BG] "A"~[c2A2] [cA][BE] \
+| [AE][_BG] [^cA][dB] [ec][fd] ~[e2c2] \
+| "Gm"[d_B][^cA][BG] "A"~[c2A2] [cA][AE] :|
+P: F
+|: "A"[d_B][e^c] [ec][AE] [dB][ec] [ec][AE] \
+| "Gm"[fd][e^c][d_B] "A"~[c2A2] [BG][AE] \
+| [d_B][e^c] [ec][AE] [dB][ec] [ec][AE] \
+| "Gm"[fd][e^c][d_B] "A"~[e2c2] [ec][AE] :|
+P: G
+K: A
+|: "A"dE ~c2 dE ~c2 | AGA "E7"Bc de | "A"dE ~c2 dE ~c2 | "B7"AcA "E"B2 B2 :|
+S:https://www.folktunefinder.com/tunes/144051
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Bucimis_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Bucimis_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 87/8
+% Has_accompaniment_chords Has chords

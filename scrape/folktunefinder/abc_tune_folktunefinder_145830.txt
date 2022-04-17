@@ -1,0 +1,22 @@
+X: 84
+T: Morpeth -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+((3uFGA)|vB2vFuE DB,DF|GEGB AFAc|dBec fdcB|AcBG F2vGuA|
+vB2vFuE DB,DF|GEGB AFAc|Bbag fedc|B2B2B2:|
+|:((3ufga)|bfdB Aceg|fdcB BAGF|edec dcdB|AcBG F2(uG"4"_A)|
+GEGB edcB|AFAc fedc|Bbfd cBAc|B2B2B2:|
+S:https://www.folktunefinder.com/tunes/145830
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:93
+T:Miss Lyall - Strathspey
+R:Strathspey
+O:Scotland
+M:4/4
+L:1/16
+K:Am
+c3B |\
+A [A,3E3] {B,A,^G,}[A,3E3][B,E] C3D E3^F | \
+G4 B3A {^F}G4 c3B | \
+A [A,3E3] {B,A,^G,}[A,3G3][B,G] C3D E3A |\
+c3A B^G3 A4 A2cB | \
+A [A,3E3] [A,3E3][B,E] C3D E3F | \
+[G,4G4] B3A {^F}G4 G2cd | e3c d3B c3A B3G |\
+E3A cBA^G A4 || A2cB |\
+Aa3 a3b g3a bag^f | ea3 a3b g4 ^f3g |\
+ea3 a3b g3a bag^f | e3c dB3 {B}A4 A2cB |\
+Aa3 a3b g3a bag^f | ea3 a3b g4 ^f3g |\
+(3a2g2^f2 (3g2a2b2 (3e2d2c2 (3B2c2d2 |\
+e3c dB3 {cB}A4 ||**
+S:https://www.folktunefinder.com/tunes/145482
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

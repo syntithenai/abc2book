@@ -1,0 +1,18 @@
+X: 3
+T: &quot;~ song ~&quot; ~ 
+M: 3/4
+L: 1/8
+R: song
+K: E Dorian
+|: GE E^D E2 | G>E EG F/G/A | GE E^D E2 | F>D DG FA |
+Ee e^d e4 | E>e ef ge | Ee e/d/c d>B | AF DA BF :|
+S:https://www.folktunefinder.com/tunes/145338
+S:http://www.thesession.org/tunes/display/8145
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

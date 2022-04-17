@@ -1,0 +1,26 @@
+X: 3
+T: The Butcher's Row
+I: Butcher's Row, TheR-113Greel
+M: C|
+R: reel
+K: G
+d|: "G"BcdB G2gf| "C"edef gedc| "G"BcdB G2Bd| "D"cBAG F2D2|
+    "G"BcdB G2gf| "C"edef "G"gdef| "C"gfge "G"dedc| "D"BGAF "G"G2d2:|
+|:\
+"G"gfga b2b2| "D"abag f2d2| "C"edef "G"gdBd| "D"cBAG F2D2|
+"G"GFGB "D"AGAc| "G"BGBd "C"edef| gfge "G"dedc| "D"BGAF "G"G2z2:|
+%%text Roaring Jelly  R-113
+S:https://www.folktunefinder.com/tunes/144468
+S:http://roaringjelly.org/music/sets/Set38.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set38.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set38.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

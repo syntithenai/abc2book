@@ -1,0 +1,24 @@
+X:54
+T:Greensleeves (original)
+S:Ballet Lute MS
+Q:1/4=120
+L:1/4
+M:6/4
+K:C dorian
+C|E2FG3/2A/G|F2DB,3/2C/D|E2CC3/2=B,/C|D2=B,G,2z|\
+E2FG3/2A/G|F2D=B,3/2C/D|E3/2D/C=B,C=B,|C3G,3||\
+B3B2A/G/|F2DB,3/2C/D|E2CC3/2=B,/C|D2=B,G,2G,||
+B3B2A/G/|F2DB,3/2C/D|E2C=B,3/2A,/=B,3/2|(C3C2)|]
+% Output from ABC2Win  Version 2.1 f on 7/12/2002
+S:https://www.folktunefinder.com/tunes/142899
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/cincpas.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/cincpas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

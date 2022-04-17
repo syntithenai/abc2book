@@ -1,0 +1,22 @@
+X:100
+T:Keel Row
+C:via PR
+R:strathspey
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:G
+d-c|"G"B2GB "Am"c2Ac|"G"B2GB "D7"AFDc|"G"B2GB "Am"c2Ac|[1 "G"BG "D7"(3AGF "G"Gedc:|[2 "G"BG "D7" AF "G"G2dc||
+Bddg "C"e2dc|"G"B2GB "D7"AFDc|"G"Bddg "C"e2dc|"G"BG"D7"AF "G"Gedc|
+Bddg "C"e2dc|"G"Bddg "C"e2dc|"G"Bddg "C"fedc|"G"BG"D7"AF "G"G2||
+S:https://www.folktunefinder.com/tunes/143624
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmisc.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

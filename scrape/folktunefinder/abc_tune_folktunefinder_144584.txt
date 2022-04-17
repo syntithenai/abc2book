@@ -1,0 +1,307 @@
+X:1280
+T:Pr\"aludium und Fuge
+T:BWV 900
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0900/bwv900.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:C
+L:1/16
+K:Em
+V:1
+x16 | z2 e2f2e2 A2 z2 B2A2|
+V:2
+z geB caBg Af^dA BgAf|G2 z2 A2G2 F2 z2 G2F2|
+V:3
+E,,2[E,2G,2][^D,2F,2][E,2G,2] [F,2A,2] z2 [E,2G,2][F,2-A,2]|\
+[F,B,]E,G,C B,^D,^CE, ^DF,A,D CE,DF,|
+%
+V:1
+z FGB eAcG- GEFA dGB=F-|=FDEG cAcE d^FAc x4 |
+V:2
+x16 | x8 x4 fcac|
+V:3
+E2=D2=C2B,2 D2C2B,2A2|C2B,2A,2G,2 F,2E,2D,2F,2|
+%
+V:1
+BGB^D EBCB AFA^C ^DAB,A|G/F/E/F/G/A/B/=c/ x8 A/B/c/B/A/G/F/E/|
+V:2
+x16 | x4 F/c/B/A/^d/c/B/A/ G/B/c/=d/e/B/A/G/ x4 |
+V:3
+G,,2F,2C,2E,2 F,,2E,2B,,2^D,2|E,,2E,2^D,2B,,2 E,2=D,2MC,4|
+%
+V:1
+x16 | x16 |
+V:2
+e2^d2 eBfB g^A^cg BfAf|FBde f^A^gB ^a^cea gBac|
+V:3
+B,,F,B,F, G,EF,=D E,^C^A,E, F,DE,C|D,2F,2E,2D,2 ^C,2=G,2F,2E,2|
+%
+V:1
+b2f2=g4-g4f4-|f4e2d2 ^c3ce4-|
+V:2
+z4 z2 B2 e2A2 z2 A2|d2G2 z2 B2- B2A2 z2 ^c2|
+V:3
+D,^C,D,F, B,E,G,D,- D,B,,^C,E, A,D,F,=C,-|\
+C,A,,B,,D, G,E,G,B,, A,,^C,E,G, ^CG,EG,|
+%
+V:1
+e2d^c d4- d2^cB c4-|c2B=A f2[^D2F2A2] G/F/E/F/G/A/B/^c/ =d/B/c/d/^c/d/c/B/|
+V:2
+A2F2 z2 B2 G2E2 z2 ^A2|F4 z2 B,2 [B,E] x x2 x4 |
+V:3
+F,D,F,^A,, B,,F,G,,F, E,^C,E,^G,, A,,E,F,,E,|\
+D,/^C,/B,,/C,/D,/E,/F,/G,/ A,/F,/G,/A,/^D,/A,/G,/F,/ E,2B,2^G,2E,2|
+%
+V:1
+x16 | x16 |
+V:2
+^c/B/A/B/c/d/e/f/ g/e/f/g/c/g/f/e/ f2a2f2d2|gbgd ec'db cafc dbca|
+V:3
+A,2E,2^C,2A,,2 D,/C,/D,/E,/F,/G,/A,/B,/ =C/A,/B,/C/F,/C/B,/A,/|\
+B,2 z2 C2G,2 A,2D,2B,,2D,2|
+%
+V:1
+x16 | z2 g2a2g2 f2 z2 g2f2|
+V:2
+BgeB caBg AfdA BgAf|G2e2f2e2 A2 z2 B2A2|
+V:3
+G,,B,G,D, E,CD,B, C,A,F,C, D,B,C,A,|\
+B,,E,G,C B,^D,^CE, ^DF,A,D CE,DF,|
+%
+V:1
+e x x2 B^D^cE ^dFAd cEdF|\
+e/=d/=c/B/A/=G/F/E/ ^D/^C/B,/A,/G,/F,/E,/^D,/ E,2 z2 z4 |]
+V:2
+GEG=c x4 x8 | x16 |]
+V:3
+EG,B,E ^DF,EG, F,A,DF EG,FA,|\
+G2A,2B,2B,,2 E,=D,/=C,/B,,/A,,/G,,/F,,/E,,2 z2 |]
+%
+V:1
+M:3/4
+L:1/16
+K:Em
+x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 |
+V:2
+M:3/4
+L:1/16
+K:Em
+E2^D2E2B,2F2B,2|G4 z4 z4 |F2E2F2B,2G2B,2|A4 z4 z4 |\
+G2F2G2E2A2F2|B2G2B2F2E2c2|
+V:3
+M:3/4
+L:1/16
+K:Em
+x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 |
+%
+V:1
+x8 x4 | x8 x4 | x8 x4 |B2^F2B2E2^c2E2|D4 z4 z4 |
+V:2
+A2F2A2E2^D2B2|G2E2A2G2F2E2|^D2E2F2D2B,2A,2|\
+G,4^G,4^A,4|B,2^CD EDCB, EDCB,|
+V:3
+x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 |
+%
+V:1
+^c2B2c2F2d2F2|e4 z4 z4|d2^c2d2B2e2c2|f2d2f2^c2B2g2|e2^c2e2B2^A2f2|
+V:2
+G4^A,4B,4|^C2DE FEDC FEDC|B,4F4G4|B,4A4G4|B,4G4F4|
+V:3
+x8 x4 | x8 x4 |x8 x4 | x8 x4 | x8 x4 |
+%
+V:1
+d2B2e2d2^c2B2|^A2B2^c2A2F2E2|D4B8-|B2=cd edcB edcB|c4A8-|
+V:2
+B,4F4^E4|F4F,4^A,4|B,2^C2D2B,2^D2=A,2|G,4 z4 ^G,4|A,2B,2C2A,2^C2=G,2|
+V:3
+x8 x4 | x8 x4 | x8 x4 | x8 x4 | x8 x4 |
+%
+V:1
+A2Bc dcBA dcBA|B4^c4^d4|e2fg agfe agfe|c'4^d4e4|f2ga bagf bagf|
+V:2
+F,4 z4 F4|G4G4A4|B4 z4 z4 | z4 A4B4|^D4 z4 z4 |
+V:3
+x8 x4 |E,2^D,2E,2B,,2F,2B,,2|G,4 z4 z4 |F,2E,2F,2B,,2G,2B,,2|A,4 z4 z4 |
+%
+V:1
+e12-|e4d4c4-|c4c4B4-|B4F4G4|A4c4B4|
+V:2
+z4 B4c4|G12|F12|E4^D4E4|F4^D4F4-|
+V:3
+G,2F,2G,2E,2A,2F,2|B,2G,2B,2F,2E,2C2|A,2F,2A,2E,2^D,2B,2|\
+G,2E,2A,2G,2F,2E,2|^D,2E,2F,2D,2B,,2D,2|
+%
+V:1
+G12-|GGAB cBAG cBAG|F12-|
+V:2
+F2B,2 E=DCB, EDCB,|A,2 z2 z4 z4 | z EDC DCB,A, DCB,A,|
+V:3
+E,2F,2G,2E,2B,,2=D,2|C,2B,,2A,,2C,2E,2C,2|D,2E,2F,2D,2A,,2C,2|
+%
+V:1
+FFGA BAGF BAGF|EGAB cBAG AGFE|FABc dcBA BAGF|
+V:2
+G,2 z2 z4 z4 | x8 x4 | x8 x4 |
+V:3
+B,,2A,,2G,,2B,,2D,2B,,2|C,2E,2A,2E,2C,2A,,2|D,2F,2B,2F,2D,2B,,2|
+%
+V:1
+GBcd edcB cBAG|A2Bc defg a2c2|B4d4F4|GFGA BABc dcde|
+V:2
+x8 x4 | x8 x4 |G2F2G2D2A2D2|B4 z4 z4 |
+V:3
+E,2G,2C2G,2E,2C,2|F,G,F,E, D,C,B,,A,, G,,F,,E,,D,,|G,,4B,,4D,4|\
+G,2F,2G,2D,2B,2G,2|
+%
+V:1
+f8g4-|g2fe f2a2f2d2|g12-|g12-|
+V:2
+A2G2A2D2B2D2|c4 z4 z4 |B2A2B2G2c2A2|d2B2d2A2G2e2|
+V:3
+D4C4B,4|A,2B,C DCB,A, DCB,A,|G,A,B,C DCDG, EDEG,|=F4B,4C4|
+%
+V:1
+g4f4 z4 |g2d2e2d2c2B2|A4B4^c4|d2 z2 z4 z4 |
+V:2
+c2A2c2G2F2d2|B2G2c2B2A2G2-|GFEF z FEF z GFG| z ADE FGAB^cdef|
+V:3
+A,4D4D,4|G,4F,4G,4|D,2^C,2D,2A,,2E,2A,,2|F,4 z4 z4 |
+%
+V:1
+x8 x4 | x8 x4 | z EFG A2d2B2G2|
+V:2
+gfef gfed ed^cB|^cBAB cBAG AGFE|D12-|
+V:3
+E,2D,2E,2A,,2F,2A,,2|G,4 z4 z4 |F,2E,2F,2D,2G,2E,2|
+%
+V:1
+F2 z2 z4 z4 | x8 x4 | x8 x4 | x8 x4 |
+V:2
+D2DE FGA2- AB^cd|E2d2- d2^cB AGFE|DEF2- F2ED ^C2~D2|E2FG AGFE AGFE|
+V:3
+A,2F,2A,2E,2D,2B,2|G,2E,2G,2D,2^C,2A,2|F,2D,2G,2F,2E,2D,2|\
+^C,2A,,2C,2E,2C,2A,,2|
+%
+V:1
+x8 x4 | x8 x4 | x8 x4 |
+V:2
+F2D2F2A2F2D2|GABc dcBA dcBA|B2G2B2d2B2G2|
+V:3
+D,A,B,=C DCB,A, DCB,A,|B,2D,2F,2A,2F,2D,2|G,DE=F GFED GFED|
+%
+V:1
+x8 x4 | x8 x4 | x8 x4 |
+V:2
+cGAB cBA^G cBAG|AEF^G AGFE A=G=FE|D2^GAB8-|
+V:3
+EB,CD EDCB, EDCB,|C2C,2C8-|CCB,A, ^G,A,B,A, G,F,E,D,|
+%
+V:1
+x8 x4 | x8 x4 |A2^G2A2E2B2E2|c4 z4 z4 |
+V:2
+BABcd8-|dcBA ^GABA GFED|C4A,4^G,4|A,E,F,^G, A,E,F,G, A,B,CD|
+V:3
+C,E,D,C, B,,C,D,C, B,,A,,^G,,F,,|\
+E,,2^G,,2B,,2D,2E,2^G,2|A,4C,4E,4|A,,4 z4 z4 |
+%
+V:1
+B2A2B2E2c2E2|d4 z4 z4 |c2B2c2A2d2A2|e2c2e2B2A2=f2|
+V:2
+E4D4C4|B,A^GF EAGF EDCB,|A,2 z2 z4 z4 | z2 A,2C2E2 =F2 z2 |
+V:3
+z4 ^G,4A,4-|A,2B,A, ^G,2B,2G,2E,2|\
+A,2^G,F, E,A,G,F, E,D,C,B,,|A,4 z4 z2 A,2|
+%
+V:1
+d2B2d2A2^G2e2|c2A2d2c2B2A2|^G2 z2 z4 z4 | z2 e2c2A2a2e2|
+V:2
+z2 D2=F2D2 B,2 z2 | z2 C2B,2E2D2=F2|E2B2^G2E2e2B2|c2 z2 z4 z4 |
+V:3
+B,2 z2 z4 z2 ^G,2|A,2 z2 z4 z2 D,2|E,B,CD EDCB, CB,A,^G,|\
+A,E,F,^G, A,=G,=F,E, F,E,D,^C,|
+%
+V:1
+=f2 z2 z4 z4 | z2 d2B2G2g2d2|egag =fedc BdcB|
+V:2
+z2 A2=F2D2d2A2|B2 z2 z4 z4 | x8 x4 |
+V:3
+D,A,B,=C DCB,A, B,A,G,^F,|G,D,E,F, G,=F,E,D, E,D,C,B,,|\
+C,2B,,2C,2G,,2D,2G,,2|
+%
+V:1
+cded cBAG ^FEDC|B,A,G,A, B,CDE FAGF|GABc de=fg ^cgfe|
+V:2
+x8 x4 | x8 x4 | x8 x4 |
+V:3
+E,2G,2E,2C,2A,,2^F,2|G,2F,2G,2D,2A,2D,2|B,2D2B,2G,2E,2^C2|
+%
+V:1
+=fa_ba gfed ^cedc|de=fe d=cBA ^G^FED|CB,A,B, CDEF ^GBAG|
+V:2
+x8 x4 | x8 x4 | x8 x4 |
+V:3
+D,2^C,2D,2A,,2E,2A,,2|=F,2A,2F,2D,2B,,2^G,2|A,2^G,2A,2E,2B,2E,2|
+%
+V:1
+ABcd ef=ga ^dagf|gbc'b agfe ^dfed|efgf e=dcB AGFE|
+V:2
+x8 x4 | x8 x4 | x8 x4 |
+V:3
+C2E2C2A,2F,2^D2|E,2^D,2E,2B,,2F,2B,,2|G,4 z4 z4 |
+%
+V:1
+^d12-|^d^c^de dcde dcdf|B4e4^d4|e12-|
+V:2
+z ABc BABc BABc|F12-|F4E4F4|GABA GABA GBAG|
+V:3
+F,2E,2F,2B,,2G,2B,,2|A,4 z4 z4 |G,2F,2G,2E,2A,2F,2|B,2G,2B,2F,2E,2C2|
+%
+V:1
+e4=d8-|d4c4-cBcA|B8-BB^c^d|
+V:2
+FGAG FGAG FAGF|EFGF EGFEA4-|AGFE ^DEFG A z z2 |
+V:3
+A,2F,2A,2E,2^D,2B,2|G,2E,2A,2G,2F,2E,2|^D,2E,2F,2D,2B,,2A,,2|
+%
+V:1
+e2^d2e2B2f2B2|g4 z4 z4 |f2e2f2B2g2B2|a4 z4 z4 |
+V:2
+z4 B,4^D4| z2 E^D EFGA B^c^de|f2 z2 ^D4E4-|E2^DE FGAB ^c^def|
+V:3
+G,,4G,4B,4|E,4 z2 E,F, G,A,B,^C|^D4A,4G,4|F,4 z2 F,G, A,B,^C^D|
+%
+V:1
+gagf ge^de aede|bc'ba bgfg c'gfg|abag afef bf^df|
+V:2
+g2 z2 z4 z4 | z2 B2 e2^d2 e2 z2 | z2 e2 ^d2^c2 d2 z2 |
+V:3
+E2^D2E2B,2F2B,2|G8-G2AG|F8-F2GF|
+%
+V:1
+gagf ge^de agfe|^d4 z AF^D x4 | z2 [^A2^c2e2]e4M^d3e|[B4e4] z4 z4 |]
+V:2
+z4 E2G2F2A2-|AcAF ^D x x2 x4 | z2 G2[F8B8]|G4 z4 z4 |]
+V:3
+E2=D2C2B,2C2A,2|B,4 x4 B,A,G,F,|E,G,F,E,B,4B,,4|E,,4 z4 z4 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144584
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0900/bwv900.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0900/bwv0900.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0900/bwv0900.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

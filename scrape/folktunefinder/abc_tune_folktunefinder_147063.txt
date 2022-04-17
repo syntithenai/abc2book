@@ -1,0 +1,23 @@
+X:1
+T:Carrickfergus
+M:4/4
+L:1/8
+S:Ir-Trad, Dan Mozell, 3/97
+K:G
+% TUNEdb Number 4999
+g2 g2 f2|e4 A4-|A2 B2 c2 d2|B3 A G4-|G2 G2 A2 B2|| \
+c4 E4-|E2 F2 G3 A|1B8-| B2 :|2G8- | G2 g2 g2 f2|
+g8-|g2 a2 b2 g2 |a3 f d4-|d2 g2 g2 f2|g8-|g2 ab c'2 b2||
+a8-|a2 g2 g3 f|e4 A4-|A2 AB c2 d2|B3 A G4-| \
+G2 G2 A3 B|c4 E4-|E2 F2 G3 A|1 B8-|B2 |2 G8-|G2||
+S:https://www.folktunefinder.com/tunes/147063
+S:http://www.oxfordfiddle.co.uk/carrickfergus_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

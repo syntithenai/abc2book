@@ -1,0 +1,22 @@
+X: 11
+T:Rhubarb Sandwich
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:G
+"G"G3/2A/2 Bd|"G"gf ed|"Am"eA AB|"D7"cd/2c/2 BA|"G"G3/2A/2 Bd|"Em"gf ed|\
+"Am"ea "D7"ef|"G"g4::
+"Am"ae ae|"Am"ae e3/2f/2|"G"gd gd|"G"gd d3/2^g/2|"Am"ae ae|"Am"ae e3/2f/2|\
+"G"ge "Em"dB|"Am"A2 A2:|
+S:https://www.folktunefinder.com/tunes/146526
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsR-T.txt
+S:http://www.guitarnut.com/nmd/reelsR-T.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsr-t.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

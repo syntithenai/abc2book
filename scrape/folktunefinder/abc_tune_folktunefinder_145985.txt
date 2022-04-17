@@ -1,0 +1,25 @@
+X:1
+T:Die welt, die hat einen tummen sin
+T:Cantus
+C:Glogauer Liederbuch, No. 256
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:6/8
+L:1/2
+K:D dor
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+D A2 A c > B c/ B/ A2 G A c B c > _B A G A > G F2 E
+F > G A/ _B/ c2 _B A > G F E G F E D2 C F > D E > F G A2 _B c3/2 _B// A// G2 A > G
+F3/2 E// D// C F2 E F2 z A2 B c2 d c > A B/ c/ A G2 F E > D D2 ^C HD2 |]
+S:https://www.folktunefinder.com/tunes/145985
+S:http://www.laymusic.org/music/glogauer/256/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

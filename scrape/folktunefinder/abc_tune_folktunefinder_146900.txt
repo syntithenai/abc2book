@@ -1,0 +1,33 @@
+X:27
+T:Ring O' Bells
+T:Dance: Ring O' Bells
+R:Reel
+M:2/4
+S:Bacon (Jour EFDSS)
+A:Lichfield
+O:English
+P:(AB)2.A2B2
+H:Dance composed by Julie Schult
+H:transcribed by Steve Allen
+F:http://www.ucolick.org/~sla/morris/music/Lichfield/ringobel.lb.abc
+K:G
+I:speed 400
+P:A
+{A}B4  A4 | G2c2 B4   | A2G2 F2G2  | B4   A4 |
+   B4  A4 | G2c2 B4   | A2d2 d2^c2 | d8      |]
+P:B
+  d4  =c4 | B2g2 e4   | d4   c4    | B2g2 e4 |
+  d2G2 c4 | B2F2 G2c2 | B4   A3G   | G8      |]
+S:https://www.folktunefinder.com/tunes/146900
+S:http://www.ucolick.org/~sla/morris/music/Lichfield/ringobel.lb.abc
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Reel
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

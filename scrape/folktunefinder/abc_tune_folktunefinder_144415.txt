@@ -1,0 +1,23 @@
+X: 1
+T:Busker Brag
+S:Mick Peat
+M:4/4
+L:1/4
+K:C
+"G7"ff ed|ff/2f/2 ed|"C"c3/2A/2 G3/2A/2|cc AG|
+"G7"ff ed|f/2ff/2 ed|G/2A/2B/2c/2 d/2e/2f/2g/2|"C"ec c2:|
+K:C
+"C"C/2E/2G/2C/2 E/2G/2C/2E/2|G/2C/2E/2G/2 C/2E/2G/2E/2|\
+"F"C/2_E/2G/2C/2 E/2G/2C/2E/2|
+G/2C/2_E/2G/2 C/2E/2G/2E/2|"D"D/2^F/2A/2D/2 F/2A/2D/2F/2|\
+A/2D/2F/2A/2 D/2F/2A/2F/2|1"G(tacit)"_B/2=B/2g/2B/2 ^G/2A/2g/2A/2|
+^F/2G/2e _ee|1^c^A ^f^d|^c^A ^F3/2:|2"G"G/2A/2B/2c/2 d/2e/2f/2g/2|"C"ec c2||
+S:https://www.folktunefinder.com/tunes/144415
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Busker_Brag_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:80
+T: Jimmy McGreevy's
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: D
+A | "Bm"dBAF ABBF | "D"ABde fafe | "Bm"dBAF ABAF | "D"BdAF "A"E3 A |
+"Bm"dBAF ABBF | "D"ABde fdef | "G"gfeg "Bm"fedf | "A"ecAc "D"d3 :|
+D|"Bm"B,F (3FEF "A"CE (3EDE|"D"DFAd BAFD|"Bm"B,F (3FEF "A"A,E (3EDE|\
+"Bm"DB,A,B, D3 A,|
+"Bm"B,F (3FEF "A"CE (3EDE | "D"DFAd BAFA |"G"BAGB "D"AFDF |"A"EDCE "D"D3 :|
+e | "D"af (3fef "Bm"bf (3fef | "D"afed "Em"effg |"D"af (3fef "Bm"bafe |\
+"D"defd "A"e2 fg |
+"D"af (3fef "Bm"bf (3fef |"D"afed "Em"edBc |"Bm"dBAF ABAF |"A"EDCE "D"D3 :|
+S:https://www.folktunefinder.com/tunes/146943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

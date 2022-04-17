@@ -1,0 +1,47 @@
+X: 1
+T: Castletown Connors
+Z: Hiroyuki Yamada
+R: jig
+M: 6/8
+L: 1/8
+T: Tommy Mulhaire's
+T: O'Connell's Welcome to Parliament
+T: Ned Coleman's
+D: Alan & John Kelly "Fourmilehouse"
+D: Michael Rooney & June McCormack "Draiocht"
+D: John Williams "John Williams"
+Q: 300
+Z: Contributed 20040613220906 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: G
+F|EDE G2A|Bde dBd|edB GAB|~A3 AGF|
+EDE G2A|BAB dBd|edB GAB|AGF G2:|
+B|ded def|gfe fdB|~A3 ABd|egf e2f|
+g2e fed|edB ~g3|edB GAB|AGF G2B|
+ded def|g2a fdB|~A3 ABd|egf e2f|
+gfe fed|edB g2z|edB GAB|AGF G2||
+S:https://www.folktunefinder.com/tunes/147219
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/CastletownConnors.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/NedColemans.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/OConnellsWelcometoParliament.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/TommyMulhaires.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/CastletownConnors.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/NedColemans.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/OConnellsWelcometoParliament.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/TommyMulhaires.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/slainte_mha%3Ainfoseek.jp/CastletownConnors.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/slainte_mha%3Ainfoseek.jp/NedColemans.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/slainte_mha%3Ainfoseek.jp/OConnellsWelcometoParliament.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/slainte_mha%3Ainfoseek.jp/TommyMulhaires.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/CastletownConnors.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/NedColemans.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/OConnellsWelcometoParliament.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/TommyMulhaires.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

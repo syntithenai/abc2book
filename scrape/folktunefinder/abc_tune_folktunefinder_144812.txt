@@ -1,0 +1,35 @@
+X:455
+T:Lassie with the Yellow Coaty, The
+R:Reel
+S:McGlashan - Reels
+M:C
+L:1/8
+K:D
+D2 D>F A>BdA|B>ABd e>def|D2 D>F A>Bd>e|d>B A>F E>D B,2|
+D2 D>F A>Bd>c|B>ABd fdef|D2 D>F A>B f>e|dB/d/ AF/A/ G/F/E/D/ B,2||
+d>ef>d e>cd>A|FAA>B =c>dBA|d>ef>d e>cd>A|B>dA>F E>D B,2|
+d>efd ec d/f/d/A/|F/G/A/B/ A/^G/A/B/ =c/B/c/d/ c/d/B/A/|d>ef>d e>c d/f/d/A/|
+~Bd/c/ B/A/G/F/ G/F/E/D/ B,2||D2 D>F A/F/A/B/ A/B/d/A/|B>ABd e/d/e/f/ e/g/f/e/|
+D2 D>F A/F/A/B/ A/B/d/e/|d>BA>F E>D B,2|D/A,/D/F/ D/F/E/D/ A/F/A/B/ A/B/d/A/|
+B/A/B/d/ A/d/c/d/ e/d/e/f/ e/g/f/e/|D/A,/D/F/ D/E/F/G/ A/F/A/B/ A/B/d/A/|
+B/d/c/d/ B/A/d/F/ G/F/E/D/ B,2||d/c/d/e/ d/e/f/e/ f/e/d/e/ d/f/d/A/|
+F/G/A/B/ A/^G/A/B/ =c/B/c/d/ c/d/B/A/|d/c/d/e/ d/e/f/e/ f/e/d/e/ d/f/d/A/|
+B/A/d/c/ B/A/G/F/ G/F/E/D/ B,2|d/c/d/e/ d/e/f/e/ f/e/d/e/ d/f/d/A/|
+F/G/A/B/ A/^G/A/B/ =c/B/c/d/ c/d/B/A/|d/c/d/e/ d/e/f/e/ f/e/d/e/ d/f/d/A/|
+B/d/c/d/ B/A/F/A/ G/F/E/D/ B,2||D2 D>F A>BdA|B/B/B d>A B>ABd|D/D/D D>F
+A>Bde|dBAF E>D B,2|D2 D>F A>BdA|B/B/B d>A B>ABd|D/D/D D>F A>BdA|B/c/d A>F E>D
+B,2||d>efd ecdA|F(AA)B =c>dBA|d>efd ecdA|B/c/d AF E>D B,2|d>efd ecdA|
+FAAB =c>dBA|d>efd ecdA|BFdF E>D B,2||
+S:https://www.folktunefinder.com/tunes/144812
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/athol-il.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/athol-il.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

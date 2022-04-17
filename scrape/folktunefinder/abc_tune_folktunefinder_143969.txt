@@ -1,0 +1,31 @@
+X:36
+T:Polska efter Fritiof Mesch "Godnattl\aa{}ten"
+T:(the "Goodnight" tune)
+M:3/4
+L:1/8
+Q:1/4=136
+C:efter Johan Persa Bergstr\"om
+R:Polska
+O:Sweden
+A:H\"ogv\aa{}len, H\"arjedalen (Sweden)
+N:Pick Halvars godnattl\aa{}t, sista dansen p\aa{} danskv\"allen (the last tune
+N:played in a dance night)
+Z:L.Sohlman, \"Alta, Sweden
+K:Dm
+A|\
+d>^c d>e f>g|a>b a2 g2|a2 (f/g/f/e/) f>g|(ag) [e3e3]:|\
+g|\
+(fe) (d^c) df|e>(^c e)d (fa)|{ab}(ag) (ef) fd|e>^c A3 g|\
+(fe) (d^c) df|e>(^c e)d (fa)|{ab}(ag) (ef) fd|e>^c d3|]
+S:https://www.folktunefinder.com/tunes/143969
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

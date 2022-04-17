@@ -1,0 +1,22 @@
+X:1 
+T:Bundle and Go
+C:Sharon Shannon
+R:jig
+Z:C. McGrew
+M:6/8
+Q:3/8=120
+K:Em
+E2E EDB,| G3-GAB| A2A AGA| d3-d2 e|
+ dBG GAB| AFD DEF| GFE FED| E3 E3 :|
+Bee edB| d3 f3| e3 edB| d3-dde|
+dBG GAB| AFD DEF| GFE FED| E3 E3 :|
+S:https://www.folktunefinder.com/tunes/144290
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/BundleAndGo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

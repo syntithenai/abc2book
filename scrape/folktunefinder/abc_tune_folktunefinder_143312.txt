@@ -1,0 +1,29 @@
+X: 1
+T: Brian O'Kane's March
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+|: F>G | 
+A^GBA FAd>e | fdaf d2 e>f | gfed edc>d | edBd A2 F>G |
+A^GBA FAd>e | fdaf d2 e>f | gecA ^GABc | d2 d>c d2 :| 
+K: Gmaj
+|: c2 | 
+B>ABc dDGB | cCEG  D2 B,>C | DB,DG B/c/d c>B | ADFA d2 B>c | 
+dDGB cCEG | DB,DG B2 A>B | cAFD CDEF | G2 G>F G2 :|
+K: Amaj
+|: E2 | 
+c/B/A ec aecA | DFdB c2 cd | e2 e>f ecAB | c/B/A dc B2 cd | 
+e2 e>f ecBA | DFdB c2 cd | e2 g>f edcB | A2 A>B A2 :|
+S:https://www.folktunefinder.com/tunes/143312
+S:http://www.thesession.org/tunes/display/6879
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

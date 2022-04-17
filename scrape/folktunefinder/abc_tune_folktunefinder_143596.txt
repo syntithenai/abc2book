@@ -1,0 +1,24 @@
+X: 14
+T:The Glasgow Highlanders
+R:strathspey, shottish
+B:RSCDS 2-3(a)
+Z:1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music
+Z:bc/
+M:C
+L:1/8
+K:D
+|"D"D>E F>G A2 A2|"(A7)"A>c d>e "D"f2 a2|"A7"g>e f>d e>c d>B|A>B A>F E>G F>E|
+"D"D>E F>G A2 A2|"(A7)"A>c d>e "D"f2 a2|"Em"g>e f>d "A"e2 a2|"A7"~A2 B>c "D"d>e f>g|
+"D"a2 "A7"g2 "D"f3 e|d>f e>d "G"B4|"Em"g>e f>de2 d2|"E7"(3cfe (3dcB "A7"A>e f>g||
+"D"a2 "A7"g2 "D"f3 e|d>f e>d "G"B4|"Em"g>e f>d"A"e2 a2|"A7"~A2 Bc "D"d4|]
+S:https://www.folktunefinder.com/tunes/143596
+S:http://www.alfwarnock.info/alfs/abc/alfmisc.abc
+% Rhythm Strathspey, shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

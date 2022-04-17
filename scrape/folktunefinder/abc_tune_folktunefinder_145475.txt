@@ -1,0 +1,32 @@
+X:86
+T:Medieval Spanish Tune (2/2)
+R:Other
+Q:1/2=84
+O:Spain
+M:2/2
+K:G
+|:d2|\
+d2B2 c2d2| B3A G2d2| d2B2 c2d2| B3A G2AB| \
+cBAG A2d2| B3A G2AB| cBAG A2d2| B3A G2Bc||
+d2cd e2dc| B3A G2dc| B2AG ABcd| B3A G2Bc|\
+d2cd e2dc| B3A G2dc| B2AG FED2| "Fine"G6:|
+|:d2|\
+d2e2 d2c2| B4 A2G2| A2B2 c2A2| B4 G2d2| \
+d2e2 d2c2| B4 A2G2| F2G2 A2F2| G4:|
+|:G2A2|\
+B2AB cBcd| B4 c2B2| A2G2 G2A2| B2G2 G2d2|\
+d2e2 d2c2| B2AB c2B2| A2G2 A2F2| G4 d2d2|
+dedc d2c2| B2AB c2B2| A2G2 G2A2 |B2G2 G2d2|\
+d2e2 d2c2| B2AB c2B2| A2G2 "DC al Fine"A2F2| G4:|
+S:https://www.folktunefinder.com/tunes/145475
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

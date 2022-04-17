@@ -1,0 +1,27 @@
+X:14
+T:Ta hit en fiol
+S:Uppt. efter Viktor Andersson
+R:Minuet
+M:3/4
+L:1/16
+O:Finland
+A:Jeppo, \"Osterbotten (Finland)
+K:D
+{e}a2z(b a2)^ga b2a2 | fdfa {b}a2^ga b2a2 |\
+gfga b2a2 g2eg | f2ed e8 ::\
+{ef}e2zd c2d2 efed | cdef g2eg f2d2 |\
+efed cdef gfed | cdef g2eg f2ed |\
+g2zg b2b2 a2a2 | cdec d8 :|
+S:https://www.folktunefinder.com/tunes/143947
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

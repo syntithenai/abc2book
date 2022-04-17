@@ -1,0 +1,25 @@
+X: 1
+T:Bulgarian () 9
+O:Bulgaria 
+M:13/16
+L:1/16
+N:the turn symbol represents a trill
+K:Am
+"Am".A2.A2 "Dm"cdd2 d2 ~d2c|\
+"Am"(c2d2) (~e3d) (cB) ~A2A|\
+A2A2 "Dm"(cd)d2 d2 ~d2c    |\
+"Am".c2.d2 (~e3d) (cB) ~A2A|
+"G"(cd)G2 .G2.G2 (AB) (~c2B)|\
+"C"e2f2 (~g3f) (ed) (~c2B)  |\
+"G"(cd)G2 .G2.G2 (AB) c2B|\
+S:https://www.folktunefinder.com/tunes/144196
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Bulgarian_9_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 13/16
+% Text Has notes text
+% Has_accompaniment_chords Has chords

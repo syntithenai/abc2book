@@ -1,0 +1,18 @@
+X:1
+T:The Bricklayer's Dream
+M:4/4
+L:1/8
+K:F
+ C2| F2 AcF-E DC| D2 EG F2 AB| c2(2A3.99999962500005/5.99999925000009A3.99999962500005/5.99999925000009G3.99999962500005/5.99999925000009 F3.99999962500005/5.99999925000009G-E FD|\
+ C4 z2| A2| Bc dB c2 cA| FF AFD-C(2C3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009 E3.99999962500005/5.99999925000009|\
+ FF FA GF GA|B-cd/2-c/2 B- c2| dc| BA GF AG FE| F6||
+S:https://www.folktunefinder.com/tunes/143337
+S:http://back.numachi.com:8000/dtrad/abc/BRKDREAM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

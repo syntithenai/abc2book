@@ -1,0 +1,60 @@
+X:786
+T:Prelude
+T:BWV 931
+C:Johann Sebastian Bach
+O:Germany
+R:Prelude
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0931/bwv0931.abc
+%Posted Aug 18th at ABC-users by Frank Nordberg during a discussion
+%about ABC embedded in HTML documents.
+V:1 Program 1 19 up %Church organ
+V:2 Program 1 19 merge down %Church organ
+V:3 Program 1 19 bass up %Church organ
+V:4 Program 1 19 bass merge down %Church organ
+M:C
+L:1/8
+K:Am
+V:1
+[c4e4]d2f/ed/|x2e2xA/4B/4c/f2|B2[B2]c2zB|
+V:2
+A4B2B2|McMd z^G AA MB>A|^G2[G2E2]A2zG|
+V:3
+A,,2x2x4|x2 zE,F,4|x4C,OB,,/A,,/E,E,,|
+V:4
+x2A,4^G,2|A,2x2z2D,2|E,2zE,  x4|
+%
+V:1
+(Bc) (BA) B2zA|(AB) (AG) GA G^F|G2ABc2de|
+V:2
+^GA =G^FG2z^F|^FG FE EF E^D|E2^F^GA2B^c|
+V:3
+A,,2zD, B,,OA,,/G,,/ D,D,,|G,,2x2x4|x2C,B,,x4|
+V:4
+x8|x2zC A,G,/^F,/ B,B,,|E,D, x2 A,,=G, M=F,E,|
+%
+V:1
+f2^GA Bc d/cB/|c/4B/4A/B/c/ B>A[E4A4]|]
+V:2
+d2E^FG2A2-|A2^G2^C4|]
+V:3
+zD2 C,B,,2A,,2|E,4-E,E,A,2|]
+V:4
+D,3xx4|z2E,,2x4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144587
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0931/bwv0931.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0931/bwv0931.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0931/bwv0931.abc
+% Rhythm Prelude
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

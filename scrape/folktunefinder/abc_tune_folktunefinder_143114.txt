@@ -1,0 +1,48 @@
+X:2
+T:Bransle Gay
+C:Pierre Phalese (L\"owener Tanzbuch, 1571)
+M:6/4
+L:1/4
+K:G treble
+%%tabaddflags 1
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .88 in
+%%indent .50 in
+%%systemsep .4 in
+%%barsperstaff 4
+%
+V:1 clef=treble name=Recorder
+e|eg2e2e|eb2a2g|fe2f2f|eg2e2e|eb2a2g|af2e2e|eg2e2e|\
+eb2a2g|fe2f2f|eg2e2e|eb2a2g|af2e2e||eb2g2g|ac'2b2g|\
+af2e2e|eb2g2g|ac'2b2g|af2e2e|]
+%
+V:2 clef=frenchtab name=Lute
+[,,cce1]|[,,cce][,,cce2][,,ee,c][,,e,ec1]|\
+[,,e,ec1][,a,c,a2][,a,bc][,acc1]|\
+[,aa,c1][,,cce3/2][,,,b//][,,,,e][,,c,de2][,,c,de1]|\
+[,,cce1][,,cce2][,,ee,c][,,e,ec1]|\
+[,,e,ec1][,a,c,a2][,a,bc][,ac,,a1]|\
+[,,d,ec1][,,c,de2][,,,ce][,,,ce1]|\
+[,,cce1][,,cce2][,,ee,c][,,e,ec1]|\
+[,,e,ec1][,a,c,a2][,a,bc][,acc1]|\
+[,aa,c1][,,cce3/2][,,,b//][,,,,e][,,c,de2][,,c,de1]|\
+[,,cce1][,,cce2][,,ee,c][,,e,ec1]|\
+[,,e,ec1][,a,c,a2][,a,bc][,ac,,a1]|\
+[,,d,ec1][,,c,de2][,,,ce][,,,ce1]||\
+[,,cce1][,,cce2][,,cce][,cc,e1]|\
+[,ca,,c1][,ca,,c2][,a,b,e][,,d,ef1]|\
+[,,d,ec1][,,c,de2][,,,ce][,,,ce1]|\
+[,,cce1][,,cce2][,,cce][,cc,e1]|\
+[,ca,,c1][,ca,,c2][,a,b,e][,,d,ef1]|\
+[,,d,ec1][,,c,de2][,,,ce][,,,ce1]|]%abctab2ps format
+%
+S:https://www.folktunefinder.com/tunes/143114
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Phalese/bransle_gay.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Phalese/bransle_gay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

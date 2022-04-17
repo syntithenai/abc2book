@@ -1,0 +1,21 @@
+X:1
+T:Brave Wolf or The Battle of Quebec
+M:4/4
+L:1/4
+K:F
+ z3 A,| D3/2 E/2 F D| E3 A,| F E ^C D-| D z2 A,| D3/2 E/2 F D| E2 z A,/2A,/2|\
+ F E ^C D-| D z2 A| B B G E|
+M:5/4
+ C C G A G|
+M:4/4
+ c A2 A,| D3/2 E/2 F D| E A, F E| ^C D2 z|
+S:https://www.folktunefinder.com/tunes/143144
+S:http://back.numachi.com:8000/dtrad/abc/BRAVWOLF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

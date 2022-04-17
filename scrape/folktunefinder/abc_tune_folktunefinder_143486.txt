@@ -1,0 +1,26 @@
+X: 1
+T:Constant Billy, Eynsham
+S:CJS
+A:Eynsham
+M:6/8
+P:A2BA(AB)2
+K:G
+P:A
+|:G2d BGB|cBc ABc|dBG EFG|DEF G2D:|
+P:B
+  Bcd EFG|ABc dBG|Bcd EFG|ABc d2D|
+  G2d BGB|cBc ABc|dBG EFG|DEF G2z||
+S:https://www.folktunefinder.com/tunes/143486
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Eynsham.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Eynsham.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Eynsham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

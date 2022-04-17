@@ -1,0 +1,28 @@
+X:215
+T: Jimmy Giblin's
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: D
+A |: DFAB d2 ef | g2 fg edBd | DFAB dfed |\
+dBAF E2 D2 :|
+faaf d2 df | g2 fg edBd | faaf d2 df |\
+g2 fg e2 eg |
+faaf d2 df | g2 fg edBd | DFAB dfed |\
+dBAF E2 D2 ||
+S:https://www.folktunefinder.com/tunes/146970
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

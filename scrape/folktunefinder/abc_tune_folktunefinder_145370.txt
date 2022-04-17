@@ -1,0 +1,29 @@
+X:1
+T:Camp Meeting -- Hornpipe
+R:hornpipe
+C:Harry Carleton
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:C
+((3uGAB)|vk[c4E4]uk[d4G4]|k"0"[c2e2]k[c2E2] z2udve|\
+fedc dcBA|GABA GFED|
+vk[c4E4]uk[d4G4]|k"0"[c2e2]k[c2E2] z2udve|\
+fedc Bgfd|c2"4"e2c2:|
+|:(uef)|vg^fga g=fed|cd"4"ec G2(fg)|a^ga_b a=gfe|fgaf d2(fe)|
+d^cde fgba|cBcd efag|^fgba g=fed|c2"4"e2c2:|
+S:https://www.folktunefinder.com/tunes/145370
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/CampMeetingHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CampMeetingHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/bpuckette%3Amsn.com/CampMeetingHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CampMeetingHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

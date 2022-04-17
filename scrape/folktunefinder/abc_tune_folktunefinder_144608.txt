@@ -1,0 +1,21 @@
+X:1
+T:Byker Hill
+M:4/4
+L:1/4
+K:Eb
+ c c cB/2-c/2| e cc/2-B/2 G| F F FE/2-F/2| G B B- G| c c cB/2-c/2|\
+ e cc/2-B/2 G| cG/2-B/2 B c| GF/2-G/2 G z| c c cB/2-c/2| e cc/2-B/2 G|\
+ F F FE/2-F/2| G B B- G| c c cB/2-c/2| e cc/2-B/2 G|
+M:6/4
+ c G A c G F|
+M:4/4
+ G2 z z|
+S:https://www.folktunefinder.com/tunes/144608
+S:http://back.numachi.com:8000/dtrad/abc/BYKERHIL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

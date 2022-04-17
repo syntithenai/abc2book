@@ -1,0 +1,26 @@
+X:125
+T: Jerry Lynch's
+Z: B.Black
+N: "second Kilfenora"
+M: 12/8
+L: 1/8
+R: slide
+K: D
+F2 A ABA ABA AFD | G2 B B2 A B2 A Bcd |
+F2 A ABA ABA AFD | dcB AGF GFE D3 :|
+d2 A F2 A d2 e fef | d2 A F2 A GFG E3 |
+d2 A F2 A d2 e fef | dcB AGF GFE D3 :|
+S:https://www.folktunefinder.com/tunes/146952
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

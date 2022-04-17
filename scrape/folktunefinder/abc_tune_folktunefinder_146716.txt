@@ -1,0 +1,30 @@
+X: 15
+T:Miller of Drone,The. Car.15
+M:C
+L:1/8
+Q:120
+C:"No 2 in Irwin's Folio MS"
+S:CarlisleMS,Anon.c1812.AGG's transcription
+R:Air
+O:England
+A:Carlisle
+N:AGG writes at the end "repeat varied BG" but I think it must be "D.C."
+H:1/8
+Z:vmp.Chris Partington
+K:A
+c/B/|A<FF>A EFEC|E<Ed>c B2{d}Bc/B/|A<FF>A EFEC|DFEG {fed}A2 Ac/B/|!
+A<FF>A EFEC|E<Ed>c B2{d}Bc/B/|A<FF>A EFEC|E<EF>G A2 A||!
+f|e<cc>d ee f/e/d/c/|e<cc>e f2fg/a/|e<cc>d ee f/e/d/c/|d>Be>A F2Ff
+S:https://www.folktunefinder.com/tunes/146716
+S:http://www.village-music-project.org.uk/abc/carlisle.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

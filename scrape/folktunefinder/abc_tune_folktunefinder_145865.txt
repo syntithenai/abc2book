@@ -1,0 +1,24 @@
+X: 119
+T: Ned Kendall's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+Z:Bob Puckette  2003-3-8
+M:2/4
+L:1/16
+K:F
+uAB|cdcB AFAc|dcde fefd|cAfd cAFA|GFG"4"A G2(AB)|
+cdcB AFAc|dcde fefd|cagf ecde|f2a2f2:|
+|:(uAB)|.c2((3fef) .d2((3fef)|.c2((3fef) .a2((3fef)|gaba gfed|cfed cBAB|
+.c2((3fef) .d2((3fef)|.c2((3fef) .a2((3fef)|gagf ecde|f2a2f2:|
+S:https://www.folktunefinder.com/tunes/145865
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

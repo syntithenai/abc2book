@@ -1,0 +1,33 @@
+X:1
+T:Captain Locker
+T:Captain Lockhart of the Tartar
+R:reel
+O:Leitrim setting or an 18th century Scottish reel
+B:Bremner 1757 see - http://www.cranfordpub.com/tunes/abcs/Bremner.htm
+D:Brian McNamara. Fort of Jewels
+N:tune is orignally in Key C, transposed to key D gives fingering for C pipes 
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C|
+Q:333
+K:C
+c(G{A}G)E FEDC|D(d{e}d)e fede|cAGF E/F/G cA|GEcE C2 C/C/C|
+c(G{A}G)E F2 dc|~d3 e fede|cAGF E/F/G cA|GEcE C2 C/C/C||
+||(3efg cG ecGe|defg afde|(3efg cG ecGe|fdge c2 cf|
+(3efg cG ecGe|defg afde|egde cdAc|GEcE C2 C/C/C|]
+K:D %Transposed from C
+d(A{B}A)F GFED|E(e{f}e)f gfef|dBAG F/G/A dB|AFdF D2 D/D/D|
+d(A{B}A)F G2 ed|~e3 f gfef|dBAG F/G/A dB|AFdF D2 D/D/D||
+||(3fga dA fdAf|efga bgef|(3fga dA fdAf|geaf d2 dg|
+(3fga dA fdAf|efga bgef|faef deBd|AFdF D2 D/D/D|]
+S:https://www.folktunefinder.com/tunes/146285
+S:http://cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+S:http://www.cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

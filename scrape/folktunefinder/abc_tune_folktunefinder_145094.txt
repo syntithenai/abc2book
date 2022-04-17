@@ -1,0 +1,22 @@
+X: 75
+T: Cuckoo -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:D
+uA2|AFDF AGFG|AGFE D2(EF)|GECE GECE|GFED C3A,|
+DEFG A2d2|edcB A2G2|FAGF CDEG|F2D2D2:|
+|:vFG|A2d2d2 veud|cBA^G A2vAuB|c2c2c2 vduc|BAGF E2AG|
+FEFD fefd|cAGF E2AG|FEFD CDEG|F2D2D2:|
+S:https://www.folktunefinder.com/tunes/145094
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/CD.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

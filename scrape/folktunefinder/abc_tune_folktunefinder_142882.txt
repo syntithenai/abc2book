@@ -1,0 +1,29 @@
+X: 1
+T: The Braes of Tulliemet
+R: strathspey
+O:
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: EDor
+|: F | "Em"EA B>A B<d | "D"F>D A>D B>D A>F | "Em"EA B>A B<e | "D"d>B A>F "Em"~E3 :|
+|| B | "Em"e>B e<g e>B e<g | "D"d>A d<f d>A d<f | "Em"e>B e<g e>B e<g | "D"d>B A>F "Em"~E3B ||
+|| "Em"e>B e<g (3Beg (3bge | "D"d>A d<f (3Adf (3afd | "Em"ec "D"d>e f>e | d>B A>F "Em"~E3 |]
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/142882
+S:http://trillian.mit.edu/~jc/music/book/500/BraesOfTulliemetS_x.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

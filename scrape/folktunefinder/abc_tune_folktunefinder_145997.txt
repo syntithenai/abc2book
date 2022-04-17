@@ -1,0 +1,43 @@
+X:2 
+T:IX. Fantasie: La Rondinella:
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+K: F
+T:Tenor
+%%MIDI transpose -12
+K:F -8va
+L:1/8
+%1
+c8 A2 c3 B A G F4 c4 d2 e2 f2 d2 c2 f4 e2 d4 A2 A2 \
+%2
+B2 G2 ^F4 G A B c d4 G2 B4 A2 G2 D2 F4 C2 c4 B2 A4 G4 \
+%3
+F2 f4 e2 d2 A2 B2 c2 F2 A2 G4 C2 c2 B2 G3 A B2 A2 F2 B2 A2 G4 "A"F4 z2 F2 c3 c B2 G2 \
+%4
+d3 e f2 e2 d2 c2 d4 c2 c2 A3 G F4 z2 f2 d3 c B A B c d e f4 e2 f4 z2 F2 \
+%5
+A3 B c4 z2 G2 B3 c d2 _e2 d4 "B"G2 B4 G4 c3 B A2 G2 F2 E2 F2 C2 F G A B c d \
+%6
+e c d e f2 e2 d3 A c2 B2 A3 E G3 D F G E2 D2 d2 c A B2 A2 z G F D E2 D d c A \
+%7
+B c d e f2 e2 d3 A c2 B2 A2 d4 ^c2 d4 z2 D2 F3 G A2 B2 c2 A2 c4 F4 f6 e2 d2 f2 e c d e \
+%8
+f d e c 
+d e f2 e2 d4 c4 =B2 c2 C2 D2 E2 F2 f2 c2 d2 e3 f d4 c2 c2 F2 G2 A3 G A2 =B2 c2 C2 E2 F2 G2 A2 G4 \
+K:F -8va
+%9
+C2 c2 d2 e2 f e d c B A G2 A2 B2 c B A G F2 c2 d6 e2 f2 d2 e2 f4 e2 Hf8 |]
+S:https://www.folktunefinder.com/tunes/145997
+S:http://www.laymusic.org/music/morley/rondinella/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

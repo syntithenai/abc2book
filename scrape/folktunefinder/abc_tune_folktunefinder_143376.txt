@@ -1,0 +1,23 @@
+X: 1
+T: Bride's Forgotten Name, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+&quot;Dm&quot;D2 D &quot;A&quot;EDE | &quot;Dm&quot;F2 A, F2 A, | &quot;Dm&quot;F2 F &quot;Gm&quot;GFG | &quot;F&quot;A3- A2 d |
+&quot;Gm&quot;BdB BAG | &quot;F&quot;ABA AGF | &quot;Edim&quot;E2 E G2 E | &quot;A&quot;A3 A3/G/F/E/ |
+&quot;Dm&quot;D2 D &quot;A&quot;EDE | &quot;F&quot;F2 A, F3 | &quot;F&quot;F2 F &quot;Gm&quot;GFG | &quot;A&quot;A3- A2 d |
+&quot;Bb&quot;BdB BAG | &quot;F&quot;ABA AGF | &quot;Edim&quot;G2 E &quot;A&quot;^CA,C | &quot;Dm&quot;D3- D2 d |
+&quot;Gm&quot;B2 d BAG | &quot;Dm&quot;A3 AGF | &quot;A&quot;G2 G GEG | &quot;Dm&quot;A3- A2 d |
+&quot;Bb&quot;BdB BAG | &quot;F&quot;ABA AGF | &quot;Edim&quot;E2 E G2 E | &quot;A&quot;D3 ^C3 |
+&quot;Dm&quot;D2 A, &quot;A&quot;E2 A, | &quot;F&quot;F2 A, F2 E | &quot;F&quot;F2 F &quot;Gm&quot;GFG | &quot;A&quot;A3 A2 d |
+&quot;Bb&quot;BdB BAG | &quot;F&quot;ABA AGF | &quot;Edim&quot;G2 E &quot;A&quot;^CA,C | &quot;Dm&quot;D3 D3 |]
+S:https://www.folktunefinder.com/tunes/143376
+S:http://www.thesession.org/tunes/display/8166
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

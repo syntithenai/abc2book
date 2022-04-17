@@ -1,0 +1,25 @@
+X:60
+T: Wolftrap Promise
+C: J.Derrane
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+dBAG FBAF|DFAD B,EDB,|A,B,DE FD (3DDD|\
+AF (3FFF BF (3FFF |
+dBAG FBAF|DFAD B,EDB,|A,B,DE (3FGA Bd|cBAF B2 z c :|
+dB^AB FBdf|ec^Bc aecA|dB^AB FBdf|ecAc e2 z c |
+dBFD B,DCB,|A,CEA ce a2|fdcd edBc|1 dBFD B,2 z c :|2\
+dBFD B,2 z2||
+S:https://www.folktunefinder.com/tunes/144902
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

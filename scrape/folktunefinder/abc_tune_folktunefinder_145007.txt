@@ -1,0 +1,25 @@
+X: 1
+T: \vCakalarov [C]
+O: Makenonia - narodno
+S: printed MS of unknown origin
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 7/8
+L: 1/8
+K: C
+"B"|: e2f g2 f/e/d | e2f g2- gz | c'ba g>f ed |1 e2f e/f/e/d/ cG :|2 e3 e2 zc ||
+"C"|: e2d dc cd | efg e>d cd | e2e d>c Bd |1 cc/d/e/f/ g^f gc :|2 c3 zc' b/c'/a/b/ ||
+"D"|: g2e f>a gf | ef^f gc' b/c'//a/b/ | g2e f>a gf |1ecg cc' b/c'/a/b/ :|2 ecg cz ef ||
+      g3- g2- g2 | g3- g2- g2 \
+"E"|: gfe gf e2 | gfe gf e2 | gfe ed dc |1 cc/d/e/f/ g^f gc :|2 ceg cz ab ||
+"F"|: c'2c' b2 a2 | c'ba gf e2 | c'ba g>f ed |1 e2f efga/b/ :|2 ceg c2 z2 |]
+S:https://www.folktunefinder.com/tunes/145007
+S:http://trillian.mit.edu/~jc/music/abc/Intl/misc/Cakalarov_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 7/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

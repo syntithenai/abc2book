@@ -1,0 +1,30 @@
+X:650
+T: Jack's 32
+C: 
+N: This tune appeared in an MP3 file on my hard drive one
+N: morning. I don't recall how it got there. If anyone
+N: recognizes it, please let me know! (The MP3 file was
+N: of a box player and guitar backup, if that helps.)
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=180
+K: F
+F3A c2 Ac|fagf dcAB|c2 cA dcAF|ECEG BGEG|
+ABcA d^cde|fagf dcAF|CF ~F2 cFAF|CEGc AFF2 :|
+f3c d2cB|ABcB AF ~F2|Gc ~c2 =Bdfd|ecd=B c_BAG|
+F2AF BGEG|AFAc f2 fd|c2 cA dcAF|CEGc AFF2 :|
+%
+% Version in G:
+S:https://www.folktunefinder.com/tunes/147055
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

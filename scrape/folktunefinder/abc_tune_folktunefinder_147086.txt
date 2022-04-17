@@ -1,0 +1,24 @@
+X: 1
+T: Carthy's March
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:(3DEF|G2 G2 G2 DE|=F2 E=F DCB,C|DG G2 G2 AB|
+c2 Bc A2 (3ABc|d2 d2 d2 ed|c2 (3BcB AFDE|=F2 (3E=FE DCB,C|
+D2 GA B2 (3 cBA|G2D2 C2 B,G,|1A,2 A,2 A,2:|2A,2 A,2 A,2 (3efg||
+a2 a2 a4|g2 ef g4|a2 fe d2 ef|g2 g2 g4|
+f2 fe d^cAG|A2 A2 A4|f2 fe d^cAG|A2 eAfA gA|
+a2 a2 a4|g2 ef g4|a2 fe d2 ef|g2g2g4|
+=f2 =fe dcAG|A_BAG A4|fed^c AGA^c|d2 d2 d2||
+S:https://www.folktunefinder.com/tunes/147086
+S:http://www.thesession.org/tunes/display/6722
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

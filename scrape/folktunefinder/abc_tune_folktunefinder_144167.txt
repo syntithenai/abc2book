@@ -1,0 +1,31 @@
+X:1
+T: Bulgar: Charles Corman's
+C: Charles Corman (Kammen 9#15)
+B: Kammen 9 #15
+Z: John Chambers <jc:trillian.mit.edu>
+R: Bulgar
+M: 2/4
+L: 1/16
+K: Dm
+A,2B,2^C2 \
+|: "Dm"D2A,2 FED2 | D2A,2 FED2 | ^CE (D6 | D)D^CD ^DEF^F | "Gm"G2D2 BAG2 | G2D2 BAG2 |
+| ^FA (G6 | G2)^F2 G2^G2 | "A7"^G=B(A6 | A2)E2 F2G2 | "Dm"({G}F8 | F2)Ac B2A2 \
+| "(A7)"A2D2 E2F2 | "A7"(3A2^G2F2 (3F2E2D2 | "Dm"D8- | D2z6 :| [K:C]
+D2F2A2 \
+|: "Dm"d2c2 B2A2 | ^G2A2 Bdc2 | B2A2 ^G2F2 | E2F2 ^G2A2 | B2A2 ^G2F2 | ^G2F2 E2D2 | ^GB(A6 | A)A^GA "A7"^ABc^c |
+| "Dm"d2c2 B2A2 | ^G2A2 Bdc2 | B2A2 ^G2F2 | E2F2 ^G2A2 | B2A2 ^G2F2 | ^G2F2 E2D2 | EF(D6 |1 D2)"A7"A2 B2^c2 :|2 "D"D2z6 |]
+S:https://www.folktunefinder.com/tunes/144167
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/klezmer/Bulgar_Kam9-15_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Bulg_Kam9-15_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bulg_Kam9-15_Dm.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:600
+T: John Egan's Polka
+S: "Treoir" 34/2
+N: John Egan (1903-1989), flute player from Sligo
+L: 1/8
+M: 2/4
+R: polka
+K: D
+FA A>d | BG B>d | Ad f>d | ed B/c/d/B/ |
+FA A>d | BG B>d | Ad f>d | ed d2 :|
+Ad f>g | fe ed | ef ga | ba f2 |
+Ad f>g | fe ed | ef af | ed d2 :|
+S:https://www.folktunefinder.com/tunes/147045
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

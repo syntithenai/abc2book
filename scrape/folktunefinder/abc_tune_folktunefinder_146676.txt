@@ -1,0 +1,26 @@
+X:24
+T:The Shetland Fiddlers Society
+R:strathspey
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+C:Ronald Cooper
+O:Shetland
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:C
+Q:300
+K:D
+A,|D2 D>E D>F (3ABc|(3dcB (3ABc d>AF<D|E2 Ed|(3cde B>d c<AA>F|
+D2 D>E D>F (3ABc|(3dcB (3ABc d>AF<D|G>BE>G F<AD>F|G>B (3ABc d<DD:|
+|:g|(3fed (3edc d>AF<A|(3def e>g ff|(3gfe (3fe^d e>BG>=d|(3cde B>d c<AA>g|
+(3fed (3edc d>AF<A|(3def e>g f>dA<F|G>BE>G F<AD>F|G>B (3ABc d<DD:|
+S:https://www.folktunefinder.com/tunes/146676
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

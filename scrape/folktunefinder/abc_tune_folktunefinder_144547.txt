@@ -1,0 +1,23 @@
+X: 2
+T: Buttermilk Mary
+Z: John Chambers <~trillian.mit.edu>
+M: 6/8
+L: 1/8
+R: jig
+K: A Major
+|: AB |\ 
+c>AE FEC | E>Ac ecA | d>ef  edc | c>BB Bed |
+c>ea  ecA | d>fa ecA | e>dc efg |  a>ec A :|
+|: cd |\
+e>aa  agf | ecA Ace | f>bb b2a | g>ee efg |
+a>ba  gag | fgf ecA | d>ef edc | BFG A :|
+S:https://www.folktunefinder.com/tunes/144547
+S:http://www.thesession.org/tunes/display/8008
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T:Branle simple
+O:France
+C:Jacques Moderne
+I:16th century
+R:Branle simple
+M:C
+L:1/4
+Q:120
+K:F
+A A/2A/2AA|GFBc|c/2B/2A/2G/2 ^F2|A A/2A/2AA|GFE/2D/2G|G^FG2|
+B B/2B/2BB|A/2G/2F/2E/2DB|A/2G/2B/2A/2B2|G G/2G/2GG|EEF/2E/2G|G^FG2:|
+S:https://www.folktunefinder.com/tunes/143094
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/branle/Branle_simple_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/Branle_simple_2.abc
+% Rhythm Branle simple
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

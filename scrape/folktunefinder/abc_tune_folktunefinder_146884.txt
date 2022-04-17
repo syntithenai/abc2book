@@ -1,0 +1,23 @@
+X:11
+T:George Green's College Hornpipe
+T:Dance: Mister Dolly
+R:hornpipe
+H:A Red Stags Morris dance
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+((3DEF) | G>BA>G F2 ((3DEF) | G>BA>G F2 d2 | c>BA>G F>DE>F |1 A>GF>E D2 :|
+|2 G2 B2 G2 A2 || B2 d2 B2 d2 | e>dc>B c4 | c>BA>G F>DE>F | A>GF>E D2 ((3DEF) |
+ G>BA>G F2 ((3DEF) | G>BA>G F2 d2 | c>BA>G F>DE>F | G2 B2 G2 |]
+S:https://www.folktunefinder.com/tunes/146884
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:Budes-li Se Zenit
+A:Tschechien 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+DGGAAB | c2BGGB | BAAFFA | A2GFED |
+DGGAAB | c2BGGB | B2AFFA | G4G2 :|
+|:\
+B2AFFA | A2GFED | B2AFFA | A2GFED |
+DGGAAB | c2BGGB | B2AFFA | G4G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/144132
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/budes-li_se_zenit.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

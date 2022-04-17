@@ -1,0 +1,48 @@
+X:2
+T:Canzon II a 6
+S:Alto
+B:Canzoni e Sonate (1615)
+C:Giovanni Gabrielli (1557-1612)
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/4
+N:Original clef, C on first line
+K:A minor
+D E/ F/ G E F G/ A/ _B G A3 G/ F/ E e d > d c > c B2 A A G > G 
+F > F E2 D2 z2 z A > G E F2 F F E e d > d c3 B/ A/ e3 E
+^F G/ A/ _B G A > G F G E2 D2 z A A F E2 A,2 z E E2 E c B > B
+A > F G > E A4 ^F4 "f"^F G/ A/ =B ^G A B/ c/ d B ^c d/ e/ f d e4
+e2 z2 A A/ G/ FF E2 z2 z4 e e/ d/ c B/ A/ ^G A2 "f"^G z/ A/ A/ "f"=G/ F F 
+E2 z2 z/ e/ e/ d/ c A e2 E2 E A2 E/ ^F/ G D/ E/ F C/ D/ E/ ^F/ G2 "f"=F
+E2 D d2 "f"^c d A z A2 F/ G/ A2 - A/ c/ B/ A/ G2 z/ _B/ A/ G/ F/ A/ G/ F/ E/ F/ D/ E/
+^C D2 "f"^C D4 z ^F G/ A/ _B/ G/ A A, D > D ^C F E2 A A G > G 
+F3 _B A3 d A4 A2 z G A3 A G3 G G4 G4
+%P. 2
+z16 z16 z A A A G2 E2 ^F// E// "f"^F// G// A/ "f"^F/ ^G/ A "f"^G/ A3 "f"=G/ F/ E2 A,2
+E2 z2 A, B,/ ^c/ D B, "f"^C D/ E/ F D E ^F/ G/ A D A > B c A B2 E2
+E E E ^F G D D E F C C D E4 E c c3/2 B// A// B B B3/2 A// G//
+A A F F G2 E2 F2 D2 E4 A G/ A/ _B G A A D E A,2 z2 z4
+A, B,/ ^C/ D B, ^C D/ E/ F D E ^F/ ^G/ A "f"^F ^G A2 "f"^G A4 z16 E ^F/ G/ A D 
+A3 G/ "f"=F/ E3 A d c B > e e2 z c B > B A F G E A4 A2 
+A4 ^F2 A > "f"^F D8 z2 A3 A/ A/ A A2 A A ^G
+A4 z2 A3 A/ A/ A A2 A A A, E4
+M:3/2
+L:1/4
+E4 c2 B4 B2 A4 F2 G4 E2 A4 D2 A3 G/ F/ E2
+M:C|
+L:1/4
+^F4 z2 z A A6 A2 A3 G
+F3 E D2 F2 E4 A8 A8 A2 z2 z4 |]
+S:https://www.folktunefinder.com/tunes/146058
+S:http://www.laymusic.org/music/gabrielli/canzonII/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

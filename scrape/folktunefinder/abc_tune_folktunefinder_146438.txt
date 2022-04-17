@@ -1,0 +1,28 @@
+X:75
+T:Roberston's Reel
+% Nottingham Music Database
+S:Tom Anderson, via PR
+M:4/4
+L:1/4
+K:G
+G/2A/2|"G"BA/2B/2 dB/2A/2|"G"G/2A/2G/2E/2 "D"DG/2A/2|"G"BA/2B/2 d/2B/2G/2B/2|\
+"Am"A3"/@<.5D7"G/2A/2|
+"G"BA/2B/2 dB/2A/2|"G"G/2A/2G/2E/2 "D"DG/2A/2|"G"B/2A/2B/2d/2 "D7"A/2G/2A/2d/2\
+|"G"G3::
+B/2c/2|"G"dB/2d/2 gf/2g/2|"C"e/2d/2B/2c/2 "D7"dB/2c/2|"G"dB/2d/2 gf/2g/2|\
+"Am"e3"/@<.5D7"d/2e/2|
+"G"gG GB/2A/2|"C"G/2A/2G/2E/2 "D7"DG/2A/2|"G"B/2A/2B/2d/2 "D7"A/2G/2A/2d/2|\
+"G"G3:|
+S:https://www.folktunefinder.com/tunes/146438
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsR-T.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

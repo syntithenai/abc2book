@@ -1,0 +1,22 @@
+X: 121
+T: Dundee -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+Z:Bob Puckette  2003-3-8
+M:2/4
+L:1/16
+K:D
+vFG|AFDF AFdB|AdFA fedc|BdGB gefd|ecdB A2(FG)|
+AFDF AFdB|AdFA fedc|BdGB gefd|ecac d2:|
+|:ude|fdcd BdAd|FAde fdcd|"0"eAfA gAfA|ecdB A2(de)|
+fdcd BdAd|FAde fdcd|"0"eAfA gAfA|ecAc d2:|
+S:https://www.folktunefinder.com/tunes/145140
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/CD.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 6
+T:Brighton Camp, Eynsham
+M:4/4
+L:1/8
+Q:1/4=120
+A:Eynsham
+P:A(A2B2)2AB
+K:G
+P:A
+g2|e2dc B2GG|B2G2 E2DD|G2G2 GABc|d4 c2g2|
+d2c2 B2GG|B2G2 E2G2|F2D2 D2EF|G4 G2  ||
+P:B
+dd|B2d2 e2f2|g2dd B2dc|B2d2 e2f2|g4 f2g2|
+e2dd B2GG|B2G2 E2G2|F2A2 D2EF|G4 G2  ||
+S:https://www.folktunefinder.com/tunes/143491
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Eynsham.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Eynsham.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Eynsham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

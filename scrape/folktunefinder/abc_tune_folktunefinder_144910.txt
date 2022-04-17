@@ -1,0 +1,25 @@
+X:100
+T: Waddling Gander
+S: Jack & Charlie Coen: "The Branch Line"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+B/c/ |: BGG dGG | BGG ded | cAA eAA | cAc edc |
+BGG dGG | BGG ded | c2 d e2 f | ged B2 G :|
+g2 d B2 d | ged BAG | Aee ede | gee e2 d |
+g2 d B2 d | ged BAG | c2 d e2 f | ged BGA |
+Bdd dBG | Bdd d2 e | gee ede | gee e2 d |
+Bdd dBG | Bdd d2 e | c2 d e2 f | ged B2 G ||
+S:https://www.folktunefinder.com/tunes/144910
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

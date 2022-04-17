@@ -1,0 +1,26 @@
+X: 1
+T: Carrick's Rant
+T: The Smith'a a Gallant Fireman
+Z: John Chambers <jc@trillian.mit.edu>
+N: H&C p.87 (best setting); Skye p.44; BSFC VII-2 and I-55
+M: C|
+L: 1/8
+K: D
+[| "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D2 \
+ | "Em"~E2 E>G {G}B2 B>f | g>f e>d "A7"B>A B/c/d |
+ | "D"~D2 D>F {F}A2 A>B | A>B d>A F2 D>F \
+ | "G"GF G>A "A7"B>A B>c ||
+|| "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "Em"e2 g>f e<e e>f | "G"g>f e>d "A7"B>A B>c |
+ | "D"d2 f>e e<d d>B | A>B d>A F2 D2 \
+ | "G"GF G>A "A7"B>A B/c/d |]
+S:https://www.folktunefinder.com/tunes/147072
+S:http://trillian.mit.edu/~jc/music/book/500/CarricksRant.abc
+S:http://trillian.mit.edu/~jc/music/book/500/SmithsAGallantFireman.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

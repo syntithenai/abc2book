@@ -1,0 +1,28 @@
+X:2
+T:Carrickfergus
+R:air
+N:Chieftains
+Q:3/8=60
+I:abc2nwc
+M:6/8
+L:1/8
+K:Bb
+B|B2A G C2-|C3-C2D|E2F D2C|B,3-B,2B,|
+C2D E C2-|C3-CA,C|B,3-B,2A,|B,3-B,2B|
+B2A G C2-|C3-C2D|E2F D2C|B,3-B,2B,|
+C2D E2G|C3-CA,C|B,3-B,2A,|B,6-|B,2F F2F|
+B3-B2B/2c/2|d2c/2B/2 c2A|F6-|F2F F2F|
+B3-B2B/2c/2|d2e c3-|c3-c2B|B2A G C2-|C3-C2D|E2F D2C|
+B,3-B,2B,|C2D E2G|C3-CA,C|B,3-B,2A,|B,6-|B,3-B,2|]
+S:https://www.folktunefinder.com/tunes/146067
+S:http://pagesperso-orange.fr/dylo/abc/Airs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

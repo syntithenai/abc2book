@@ -1,0 +1,17 @@
+X:1
+T:Caledonia
+M:4/4
+L:1/8
+K:G
+ G| B3/2 B/2 Bd B2 AG|D-G G3/2 G/2 G3 d| e2 eg d2 dB|e-d e3/2 d/2 d2|\
+ z d| e3/2 e/2 eg dd Bd| e/2 e3/2 d3/2 B/2 A2 GE| G3/2 A/2 Bed-B AG|\
+ D3/2 E/2 GG G2||
+S:https://www.folktunefinder.com/tunes/145015
+S:http://back.numachi.com:8000/dtrad/abc/CALDONIA.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CALDONIA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

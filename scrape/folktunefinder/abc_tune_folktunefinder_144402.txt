@@ -1,0 +1,28 @@
+X:58
+T:"The Bush In Bloom"  (reel)     1242
+C:after  Mr. McFadden
+N:Added FINE command  to replace fermata
+N:Added DS al FINE command at end replacing plain Segno
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+ge"^Segno"|d2(BG) AGEF|G2(Bd) e(f {a}g)e|d2(BG) AGEd|eaag (fd)(e^c)|
+d2(BG) AGEF|G2(Bd) e(f {a}g)e|d2(BG) AGEF|GBAF G2"^Fine"||
+(ef) g2(fg) Bgdg|g2bg agef|g2(dg) Bgdg|egfa g2(ga)|
+b3/2g/2  (3.g.g.g agef|gage dega|bgaf gfed|edef gag"^D.S. al Fine"e|]
+S:https://www.folktunefinder.com/tunes/144402
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1242-BushBloom.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1201-1300/1242-BushBloom.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T: Buttermilk Mary
+O: Trad
+R: jig
+M: 6/8
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+N: Cole's p.64
+K: A
+   AB | "A"c>AE "(E7)"FEC | "A"E>Ac    ecA |  "D"d>ef  "A"edc | "Bm"c>BB "E7"Bed |
+   y4 | "A"c>ea       ecA | "D"d>fa "A"ecA | "E7"e>dc     efg |  "A"a>ec     A  :|
+|: cd | "A"e>aa    "D"agf | "A"ecA     Ace | "Bm"f>bb "B7"b2a | "E7"g>ee     efg |
+   y4 | "A"a>ba   "E7"gag | "D"fgf  "A"ecA |  "D"d>ef  "A"edc | "E7"BFG   "A"A  :|
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/144539
+S:http://trillian.mit.edu/~jc/music/book/500/ButtermilkMary_x.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,19 @@
+X: 4
+T: &quot;~ song ~&quot; ~ 
+M: 3/4
+L: 1/8
+R: song
+K: A Dorian
+|: cA A^G A2 | cA Ac B/c/d | cA A^G A2 | BG- Gc B/c/d |
+Aa a^g a2 | Aa- ab c'a | Aa a/g/f g2 | [M:4/4] dB Gd eB- B2 :|
+S:https://www.folktunefinder.com/tunes/145339
+S:http://www.thesession.org/tunes/display/8145
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

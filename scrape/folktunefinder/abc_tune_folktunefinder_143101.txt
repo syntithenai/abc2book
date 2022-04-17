@@ -1,0 +1,30 @@
+X:78
+T:Branohm #2
+R:reel
+C:Maire Breathnach
+D:Maire Breathnach: "Voyage of Bran", 2b
+M:C|
+L:1/8
+K:Ador
+c2Bc AGED|CDEF GABd|~c2Bc AGEF|GEDB, A,2AB|
+~c2Bc AGED|CDEF GABc|d~B3 BcBA|GEDB, A,2AB|
+~c2Bc AGED|CDEF GABd|B~c3 cBAG|EGDB, A,2AB|
+~c2Bc AGED|CDEF GABc|d~B3 BcBA|GEDB, A,2z2||
+K:Amix
+c3B ABcd|eAcd ~g2fg|e~a3 agea|gedB BAAB|
+~c2Bc ABcd|eAcd ~g3a|bagb agef|gedB BAAB|
+~c3B ABcd|eAcd g2fg|e~a3 agea|gedB BAAB|
+~c3B ABcd|eAcd ~g3a|bagb agea|gedB A2AB||
+S:https://www.folktunefinder.com/tunes/143101
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/20010813.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/Branohm2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

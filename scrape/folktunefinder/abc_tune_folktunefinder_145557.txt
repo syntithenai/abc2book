@@ -1,0 +1,19 @@
+X:1
+T:Canadian Club
+M:6/8
+L:1/8
+K:A
+"A" c3 cBA | E3 EAB | c3 cBA | e3 e2 c |"D" dfd dcB|!
+|1 "A" cec cBA |"B"B3 ^g2 f |"E" efd cdB:|2"A"Aaf ecA | "D" BcB EFG | "A" A3 Aag|]!
+"D"faf dfa |"A" ecA ABA | "E" BcB EFG |"A" AEA cBA |!
+"D" fdf agf | "A" eaf ecA |"E" BcB EFG |1"A"A3 Aag:|2"A"A3 [c3 e93 a3]|]!
+S:https://www.folktunefinder.com/tunes/145557
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/CanadianClub.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/CanadianClub.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

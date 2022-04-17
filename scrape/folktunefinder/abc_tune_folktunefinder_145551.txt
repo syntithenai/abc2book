@@ -1,0 +1,15 @@
+X:1
+%%MIDI program 21
+Q:1/4=126
+K:C
+[C][D][E\][F^] [G][Bbt][D1][E\1] | [C1][Bbt][G][F^] [G]4 |
+[C][D][E\][F^] [G][Bbt][A\][G]   | [C1][Bbt][D][E\] [C]4 |
+S:https://www.folktunefinder.com/tunes/145551
+S:http://tech.groups.yahoo.com/group/abcusers/messages/381?xm=1&m=e&l=1
+% Titles No title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

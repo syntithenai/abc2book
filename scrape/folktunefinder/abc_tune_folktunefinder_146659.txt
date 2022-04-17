@@ -1,0 +1,24 @@
+X:7
+T:Sheriff Muldoon
+R:jig
+O:Irish
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:G
+D|GBd gfg|ece d2B|GGG BAG|FAA A2 D|
+GBd gfg|agf e2 d|DEG Adc|[1BGG G2:|[2BGG GBc||
+|:dBG dBd|ece dBd|gfg dBG|FAA ABc|
+dBg dBG|AEF GDB,|G,B,D Adc|[1BGG GBc:|[2BGG G2|]
+S:https://www.folktunefinder.com/tunes/146659
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

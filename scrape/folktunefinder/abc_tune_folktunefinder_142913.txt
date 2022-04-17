@@ -1,0 +1,39 @@
+X:2
+T:Branle de Poitou
+C:Le Fox, 1568 
+M:9/8
+L:1/8
+K:C treble
+%%tabaddflags 1
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .88 in
+%%indent .50 in
+%
+V:1 clef=treble name=recorder
+e>fg g a2 f2 g|e2e cdc e2 c|e>fg g a2 f2g|
+e>d(c c)d2c3|e/d/e/f/ g ga2f2g|e2 (e e)dc e2c|
+c/d/e/f/ g ga2f2f|e>d(c c)d2 "fin"c3|:e>fg ga2f2_b|
+a2g g^f2"(D.C.)"g3:|
+%
+V:2 clef=frenchtab name=Lute
+[,,d,a3][,cd,a1][,dd,,,a2][,da,c][,ac,,a1]|[,,d,a2][,,,,a1]\
+[,,,c][,,c,,a2][,,d,a][,,,,,a1]|[,,d,a3][,cd,a1][,dd,,,a2]\
+[,da,c][,ac,,a1]|[,,d,a2][,,,c1][,,,,a][,,cc2][,,d,a][,,,c1]|\
+[,,d,a3][,cd,a1][,dd,,,a2][,da,c][,ac,,a1]|\
+[,,d,a2][,,,c1][,,,,a][,,c,,a2][,,d,a][,,,c1]|\
+[,,d,a3][,cd,a1][,dda2][,df,c][,ac,c1]|[,cd,a2][,,,c1][,,,,a][,,cc,a2]\
+[,,d,a][,,,c1]|:[,,d,a3][,cd,a1][,dd,,,a2][,d,ac][,db,,d1]|\
+[,daa2][,abc1][,cd,a][,aa,c2][,ac,,a][,,,c1]:|
+%abctab2ps format
+%
+S:https://www.folktunefinder.com/tunes/142913
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Le_Fox/branle_de_poitou.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Le_Fox/branle_de_poitou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

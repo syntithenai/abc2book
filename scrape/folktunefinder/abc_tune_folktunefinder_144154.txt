@@ -1,0 +1,21 @@
+X: 1
+T: Bugle Horn, The
+M: 2/4
+L: 1/8
+R: polka
+K: Amaj
+|: e |\ 
+ec cA | A2 E2 | AA B^A/B/ | c/B/c/d/ Bf |
+ec Bc/B/ | A2 EE | BB B/^A/B/c/ | A2 A :|
+|: c |\ 
+A2 Ec | A2 E2 | Ac Ac | A2 Ef |
+ec B/^A/B/c/ | A2 EE | BB B/^A/B/c/ | A3 :|
+S:https://www.folktunefinder.com/tunes/144154
+S:http://www.thesession.org/tunes/display/8140
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

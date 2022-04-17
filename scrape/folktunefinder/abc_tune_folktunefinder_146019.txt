@@ -1,0 +1,27 @@
+X:2 
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+T:III. Sweet Nimphe:
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+M:C
+K:F
+L:1/8
+T:Tenor
+N:Original clef, C on first line
+L:1/8
+%1
+z8 C4 D2 E2 F E D C D2 B, C D E F4 E2 F8 Z2 F2 A2 B2 \
+S:https://www.folktunefinder.com/tunes/146019
+S:http://www.laymusic.org/music/morley/nymph/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

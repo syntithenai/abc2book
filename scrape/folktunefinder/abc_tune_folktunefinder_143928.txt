@@ -1,0 +1,28 @@
+X:3
+T:Vals e. Spel Erik
+C:Medelpad
+N: taught by Eva Marqvardsen, 2/27/04
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8   %ref note value
+K:Gm
+d3  e dc |(B2G2) G2 |(G^F) (FA) dF |(G^F) (GA) BG |
+d3  e dc |(B2G2) G2 |(G^F) (FA) dF |G2 G4 :|
+K:Dm
+|:(AF) (DF) Ad |dd (^cd) (fd) |(d^c) (ce) ac |(d^c) (de) fd |
+(AF) (DF) Ad |dd (^cd) (fd) |(d^c) (ce) ac | d2 d4 :|
+K:D
+|:v(F2 A2) A2 |A2 (GF) GA |(_B2 G2) G2 |G4 d2 |
+(d2 c2) c2 |c3 e de |(=f2 d2) d2 |d4 ud2 |
+"pizz"[g2_B2D2G,2] z "arco"d _BA |G3 _B AG |(GF) FA (dF) |vG6 :|
+S:https://www.folktunefinder.com/tunes/143928
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/Mostly_Medelpad_Group.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

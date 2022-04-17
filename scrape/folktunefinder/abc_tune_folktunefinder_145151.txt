@@ -1,0 +1,23 @@
+X: 1
+T: Caledonian, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+D | GAG BcB | AGA G2 G | BAB GBd | e3 d2 e/f/ |
+gfe dgB | AGA BGE | DED DGB | A2 G GBd ||
+GGG GBG | ddd dBG | EAA AcA | eee ecA |
+^GGG GGG | AAA ^AAA |BBB Bd^c | dBG dBG ||
+K:C
+ede cdc | ede c2 c | cBc dBG | AGE G2 G |
+cBc EFG | AGA d2 e/f/ | gBc gec | dcd c3 ||
+S:https://www.folktunefinder.com/tunes/145151
+S:http://www.thesession.org/tunes/display/8424
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

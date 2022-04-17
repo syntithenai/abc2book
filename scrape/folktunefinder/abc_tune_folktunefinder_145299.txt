@@ -1,0 +1,21 @@
+X:14
+T:Westminster Chimes
+T:Cambridge Chimes
+N:hammer sequence from http://www.bhi.co.uk/hints/chimes.htm
+Z:transcribed to abc by Ishmael the Fiddler, 2003 June 05
+L:1/2
+K:G
+BAGD z z2 z2 z2
+GBAD z GABG z2 z2
+BGAD z DABG z BAGD z z2
+GBAD z GABG z BGAD z DABG z G,2G,2G,2G,2
+S:https://www.folktunefinder.com/tunes/145299
+S:http://web.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/~ijs/abc/misc.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

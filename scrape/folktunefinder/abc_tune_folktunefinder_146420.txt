@@ -1,0 +1,18 @@
+X:1
+T:CardsXXX or Tom Brown
+M:6/8
+L:1/4
+K:C
+ z z/2 G G/2| c c/2 c c/2| c3/2 e d/2| d c/2 d e/2| c3/2- c c/2| e c/2 c c/2|\
+ d c/2 c d/2| c d/2 c A/2| G3/2 E D/2| E3/2 G3/2| C3| G G/2 G G/2|\
+ G E/2 C3/2| G G/2 G G/2| G E/2 C3/2| G G/2 G G/2| G E/2 C E/2| F E/2 F G/2|\
+ A G/2 C B,/2| C E/2 G E/2| D3/2 C B,/2| C3/2 D3/2| G,3/2 F E/2| F3/2 G3/2|\
+ C3|
+S:https://www.folktunefinder.com/tunes/146420
+S:http://back.numachi.com:8000/dtrad/abc/CARDSONG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

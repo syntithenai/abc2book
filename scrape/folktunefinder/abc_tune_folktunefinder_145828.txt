@@ -1,0 +1,25 @@
+X: 82
+T: MORGAN RATTLER -- JIG
+R: jig
+B: Ryan's Mammoth Collection of Fiddle Tunes
+M: 6/8
+L: 1/8
+Z: Contributed 20000824194046 by John Chambers John.Chambers:weema.com
+K: D
+{uc}d "Segno"[|]\
+|] A>GF EFG | FEF D2 {c}d | AGF EFG | B2A Bcd \
+| AGF EFG | FEF D2{c}d | dcB ecA | B2A Bcd :|
+|: vD2d {e}dcd | E2e {f}ede | D2d {e}dcd | B2A Bcd \
+| D2d {e}dcd | E2d efg | agf edc | B2A Bcd "Segno"[|]:|
+S:https://www.folktunefinder.com/tunes/145828
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

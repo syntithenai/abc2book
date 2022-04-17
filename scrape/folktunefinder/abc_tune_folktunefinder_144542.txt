@@ -1,0 +1,25 @@
+X: 3
+P: the Rakes of Clonmel
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: ADor
+e/d/ \
+| "Am"cBA "Em"BGE | "Am"EAA A2B | cBc "D7"ABc | "G"BGG G2f \
+| "C"gfg ege | "G"dBG Bcd | "Am"ecA "G"dBG | "Am"EAA A2 :|
+|| ^g \
+| "Am"a^ga A2a | ecA A2f | "G"gfg G2g | dBG G2B \
+| "C"cBc C2c | "Dm"dcd D2d | "Am"edc "G"Bcd | "Am"ecA A2 ||
+|| ^g \
+| "Am"aea aed | cBc A2f | "G"gdg gdc | BAB GAB \
+| "C"cBc C2c | "Dm"dcd D2d | "Am"edc "G"Bcd | "Am"ecA A2 |]
+S:https://www.folktunefinder.com/tunes/144542
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Jig_Contra65.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

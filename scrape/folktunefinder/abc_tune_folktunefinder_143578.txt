@@ -1,0 +1,21 @@
+X: 1
+T: Broadway, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3DEF |: G2BG ABcA | defd gedc | BABd cBAG | FGAF DEFD |
+G2BG ABcA | defd gedc | BABd cBAG |1 DGGF G2 (3DEF :|2 DGGF G2Bd ||
+gfga gfd2 | gfga gfde | fefg afge | fde^c dcAF |
+G2BG ABcA | defd gedc | BABd cBAG |1 DGGF G2Bd :|2 DGGF G2 ||
+S:https://www.folktunefinder.com/tunes/143578
+S:http://www.thesession.org/tunes/display/5428
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

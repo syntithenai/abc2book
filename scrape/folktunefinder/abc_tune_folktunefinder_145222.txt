@@ -1,0 +1,23 @@
+X: 1
+T:Calleno Casturame
+M:6/4
+L:1/4
+S:BALLET LUTE BOOK (c1593)
+B:Sources of irish traditional Music
+N: Trinity Coll.Lib, Dublin, MS 40
+Z:p
+K:C
+e2ee2e|f2fe3|d2dd2d|e>ded3||efggfe|d>edB2G|A2de>fe|d>cdc2
+% Output from ABC2Win  Version 2.1 f on 14/07/2002
+S:https://www.folktunefinder.com/tunes/145222
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/calleno.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

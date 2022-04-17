@@ -1,0 +1,24 @@
+X:9
+T:Taimse 'im Chodladh
+R:Air
+Q:1/4=72
+I:abc2nwc
+L:1/8
+K:G
+A3{BA}F G3A B3/2c/2d f4f3/2e/2 d3B cA3/2F/2 G2{AG}F3/2A/2D4|
+D3/2E/2F/2G/2A B3c B3/2G/2 AA/2G/2A d3B cA/2F/2 G2G3A F3/2A/2 G4:|
+A3B c A2d f3f f3/2e/2 d2d3/2e/2f g3{agfg}a)d- d2|
+d3/2e/2 f3g af/2a/2 g2a3/2g/2e fg/2f/2 ed- dB cA/2F/2 G2A2{AGFA}G4)|
+d3e f2g a3/2f/2g/2a/2 g3/2e/2 f3/2g/2f/2e d2B c2A3/2F/2 G2{AG}F3/2A/2 D4|
+D/2E/2F/2G/2A B2c/2B/2 A3/2G/2 Ad- d3B c A2F G2 G2{AG}F A2G4|]
+S:https://www.folktunefinder.com/tunes/146071
+S:http://pagesperso-orange.fr/dylo/abc/Airs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

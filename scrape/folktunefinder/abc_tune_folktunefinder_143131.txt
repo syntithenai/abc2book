@@ -1,0 +1,31 @@
+X:11
+T:Polka's (``Boer daar ligt een kip'')
+A:Ierland
+M:2/4
+L:1/8
+K:D
+%1 
+"D"DE FG | AG FE| DE FG |"A"A2 A2|\
+"D"DE FG | AG FE| DE FD |"G"G2 G2::\
+"G"dB AG| "D"BA A2| DE FG | BA A2 |\
+"G"dB AG| "D"BA A2| DE FD |"G"G2 G2::\
+%2
+"D"A2 Af|ed "G"Bd| "D"A2 Af| ed "G"B2|\
+"D"A2 Af|ed "G"ef| "A"A2 a>f| "D"ed d2::\
+"D"fa "A"e>f| "D"ed "G"Bd| "D"fa "A"e>f| "D"ed d2 |\
+"D"fa "A"e>f| "D"ed "G"Bd| "A"A2 a>f | "D"ed d2::\
+%3
+"D"DF AF/2A/2| dc Bc| "A"EF GE/2G/2| "D"BA F2 |\
+"D"DF AF/2A/2| dc Bc| "A"EF GE| "D"DF D2::\
+"D"fA fA| fA f2|"A"eA eA | B/2c/2d e2|\
+"D"fA fA| fA f2|"A"eA B/2c/2d | "D"ed d2:|
+S:https://www.folktunefinder.com/tunes/143131
+S:http://accordionlinks.com/other/maandag.abc
+S:http://www.accordionlinks.com/other/maandag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

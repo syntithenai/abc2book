@@ -1,0 +1,42 @@
+X: 1
+T: Bulgar (I-15) in D #1
+R: bulgar
+M: 2/4
+L: 1/16
+K: E
+"A"\
+|: B,2"B7"C2D2 \
+| "E"E8 | z2B2 "B7"A3G | "E"^F2 G6 | z2 B,2 "B7"C2D2 \
+| "E"E2G2 F2E2 | G2B2 "B7"A2G2 | "E"^F2 G6 | z2 B,2 "B7"C2D2 |
+| "E"E3D E2F2 | "E7"G2E2 F2G2 | "Am"A8 | =c8 \
+| "E"^A2 B4 G2 | "B7"(3A2G2F2 B2B,2 | "E"E8 | z2 :|
+"B"\
+|: E2A2=c2 \
+| "Am"e8 | z2 e2 d3=c | B2 =c6- | c4 z2=c2 \
+| B2=c2 d2e2 | d2=c2 B2A2 | "E"B8 | z2 :|
+"A"\
+[| GB "B7"(3A2G2F2 \
+| "E"E8 | z2B2 "B7"A3G | "E"^F2 G6 | z2 B,2 "B7"C2D2 \
+| "E"E2G2 F2E2 | G2B2 "B7"A2G2 | "E"^F2 G6 | z2 B,2 "B7"C2D2 |
+| "E"E3D E2F2 | "E7"G2E2 F2G2 | "Am"A8 | =c8 \
+| "E"^A2 B4 G2 | "B7"(3A2G2F2 B2B,2 | "E"E8 | z2 |]
+"C"\
+|: z2 (3=d2c2B2 \
+| "E"^AcB6- | B8- | B8- | B8 \
+|     dfe6- | e8  | e2z2 {d}e2z2 | {d}e2z2  {d}e2z2 |
+| ^ABc=d c2{dc}B2 | ^ABc=d c2{dc}B2 | ^ABc=d c2{dc}B2 | ^ABc=d c2{dc}B2 \
+| ^Ac B4 B2 | "B7"=A2G2 F2E2 | "E"^A2 B6 | z2E2 F2G2 |
+| "Am"A4 A4 | A4 A4 | "B7"G3A ^A2B2 | "E"G2FG F2E2 \
+| ^A2 B4 G2 | "B7"AGF2 B2B,2 | "E"E8 | z2 :|
+S:https://www.folktunefinder.com/tunes/144188
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/BulgarI15_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/BulgarI15_E.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

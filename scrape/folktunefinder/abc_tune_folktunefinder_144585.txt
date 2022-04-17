@@ -1,0 +1,207 @@
+X:1278
+T:Pr\"aludium und Fughetta
+T:BWV 902a
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0902a/bwv0902a.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/16
+K:G
+T:Praeludium
+V:1
+GBAG dcBA GBAG| x8 GBAG|
+V:2
+x8 x4 |gBAG dcBA x4 |
+V:3
+G,2B,2B,2B,2B,2B,2|F,2B,2B,2B,2B,2B,2|
+%
+V:1
+x8 x4 |f2d2d2d2d2d2|f2c2c2c2c2c2|
+V:2
+gfed ^cbag fedc|d2F2F2F2F2F2|=c2F2F2F2F2F2|
+V:3
+E,2A,2A,2A,2A,2A,2|D,F,E,D, A,G,F,E, D,F,E,D,|\
+DF,E,D, A,G,F,E, D,F,E,D,|
+%
+V:1
+a2c2c2c2c2c2|BcBc BcBc BcBe|ABAB ABAB ABAe|
+V:2
+f2A2A2A2A2A2|G2G2G2G2G2G2|G2G2G2G2G2G2|
+V:3
+CB,A,G, F,EDC B,A,G,F,|G,2A,2G,2F,2E,2D,2|^C,2B,,2C,2^D,2E,2C,2|
+%
+V:1
+ABAB ABAB AcBA|G4 x8 |F4 x8 |
+V:2
+F2F2F2F2F4| z FE^DE4 z Ace| z ED^CD4 z GBd|
+V:3
+^D,2B,,2D,2F,2D,2B,,2|E,4 z B,G,E, C,2A,2|D,4 z A,F,D, B,,2G,2|
+%
+V:1
+E4 x8 |F2cB c2A2F2D2|BGAB cdef gabg|
+V:2
+z D=CB,C4 z EAc| x8 x4 | x8 x4 |
+V:3
+C,4 z G,E,C, A,,2F,2|D,F,E,D, A,G,F,E, D,CB,A,|G,B,A,G, DCB,A, G,=FED|
+%
+V:1
+e2_b2a2g2f2g2| x4 _efac' z4 |GBAG dcBA GBAG|
+V:2
+^CEDC G^FED C_BAG|DFA=c x8 | x8 x4 |
+V:3
+x8 x4 | x8 D,,4|G,,2G,2G,2G,2G,2G,2|
+%
+V:1
+x8 GBAG| x8 GBAG|^c2G2G2G2G2G2|
+V:2
+gBAG dcBA x4 |gBAG dcBA x4 |G2E2E2E2E2E2|
+V:3
+C,2G,2G,2G,2G,2G,2|D,2G,2G,2G,2G,2G,2|E,G,F,E, _B,A,G,F, E,G,F,E,|
+%
+V:1
+^c2G2G2G2G2G2|-c2F2F2F2F2F2|B2=F2F2F2F2F2|
+V:2
+G2E2E2E2E2E2|F2D2D2D2D2D2|=F2D2D2D2D2D2|
+V:3
+A,^C,B,,A,, E,D,C,B,, A,,C,B,,A,,|D,F,E,D, A,G,F,E, D,F,E,D,|\
+G,B,,A,,G,, D,C,B,,A,, G,,B,,A,,G,,|
+%
+V:1
+B4 x4 ABAG|[A4c4] z BAG FGFE|c2A2 z EFG AGAB|
+V:2
+E4 z dcB x4 |^F4 x8 |D4 x8 |
+V:3
+C,E,D,C, G,=F,E,D, C,D,C,B,,|A,,C,B,,A,, E,D,C,B,, A,,B,,A,,G,,|\
+F,,A,,G,,F,, C,B,,A,,G,, F,,G,,F,,E,,|
+%
+V:1
+x8 x4 |GBAG dcBA GBAG| x8 x4 |
+V:2
+cBAG Fedc BAGF| x8 x4 |^cedc gfed cedc|
+V:3
+D,,E,,F,,G,, A,,B,,C,D, E,F,G,A,|B,2B,2B,2B,2B,2B,2|_B,2B,2B,2B,2B,2B,2|
+%
+V:1
+x8 x4 |[f4a4] z2 z [cf][d4g4]| z2 z [ea][g4B4][A4f4]|[B12d12g12]|]
+V:2
+fagf =c'bag fgag|c4 z2 z A B4| z2 z c d8|G12|]
+V:3
+A,2A,2A,2A,2A,2A,2|_E,4 z2 z E, D,4| z2 z C, D,4 D,,4|[G,,12B,,12D,12G,12]|]
+%
+T:Fughetta
+V:1
+M:3/8
+L:1/16
+K:G
+z dBdgd|BdGdBd|ecAcFA|dBGBEG|cAFADF|
+V:2
+M:3/8
+L:1/16
+K:G
+x4 x2 | x4 x2 | x4 x2 | x4 x2 | x4 x2 |
+V:3
+M:3/8
+L:1/16
+K:G
+x4 x2 | x4 x2 | x4 x2 | x4 x2 | x4 x2 |
+%
+V:1
+BAGABc|dAB^cde|fedefg|a2 z2 a2|Ma2g2g2|
+V:2
+x4 x2 | x4 x2 | z GFAdA|FADAFA|BGEG^CE|
+V:3
+x4 x2 | x4 x2 | x4 x2 | x4 x2 | x4 x2 |
+%
+V:1
+g2f2f2|f2e2e2|egfede|fagfed|g2 z2 z2 |
+V:2
+AFDFB,D|GE^CEA,C|FEDEFG|ADEFGA|BAGABc|
+V:3
+x4 x2 | x4 x2 | x4 x2 | x4 x2 | z DB,DGD|
+%
+V:1
+z2 d2d2|c2c2c2|B2B2B2|A2A2A2|G2G2G2|
+V:2
+d2B2B2|B2A2A2|A2G2G2|G2F2F2|F2E2E2|
+V:3
+B,DG,DB,D|ECA,CF,A,|DB,G,B,E,G,|CA,F,A,D,F,|B,A,G,A,B,^C|
+%
+V:1
+F2F2F2|E2E2E2|F2 z2 z2 | z2 a2a2|adBdgd|
+V:2
+E2D2D2|D2^C2C2|D2 z2 z2 | z2 [c2f2][c2d2]|[Bd] z z2 z2 |
+V:3
+D^CB,A,G,F,|G,E,A,G,F,E,|D,A,F,A,DA,|F,A,D,A,F,A,|B,2 z2 z2 |
+%
+V:1
+BdGdBd|[B2e2] z2 z2 | z2 b2b2|beceae|ceAece|
+V:2
+z2 D2=F2|E2 z2 z2 | z2 [d2^g2][d2e2]|[ce] z z2 z2 | z2 C2C2|
+V:3
+z2 B,2A,2|^G,B,G,B,EB,|^G,B,E,B,G,B,|C2 z2 z2 | z2 [F,2A,2][E,2A,2]|
+%
+V:1
+f2 z2 z2 | z2 f2f2|f2e2^d2|e2g2g2|g2f2f2|
+V:2
+[F,2B,2] z2 z2 | z2 [A2^d2][A2B2]|[A2B2][G2B2][F2A2]|\
+[E2B2][B2e2][B2e2]|[A2e2][A2=d2][A2d2]|
+V:3
+^D,F,D,F,B,F,|^D,F,B,,F,D,F,|G,B,G,B,EB,|G,B,E,B,G,B,|CA,F,A,D,F,|
+%
+V:1
+f2e2e2|^def2f2|f2g2e2|e2=d^cde|fedfbf|
+V:2
+[G2d2][G2c2][G2c2]|[A2c2][A2B2][A2B2]|\
+[A2B2][G2B2][G2B2]|[F2B2] z2 z2 | x4 x2 |
+V:3
+B,G,E,G,C,E,|A,F,^D,F,B,,F,|G,F,E,F,G,A,|B,F,^G,^A,B,^C|D^CB,CDE|
+%
+V:1
+dfBfdf|ge^ceAc|fdBdGB|e^c^AcFc|dfBdfd|
+V:2
+F2D2B,2|EGAGFE|DFGFED|^CEFEDC| x4 x2 |
+V:3
+x4 x2 | x4 x2 | x4 x2 | x4 x2 |B,F,D,F,B,,2|
+%
+V:1
+BdFBdB|^GBEGBG|E^GB,EGD|=CEA,CEC|A,CE,A,CG,|
+V:2
+x4 x2 | x4 x2 | x4 x2 | x4 x2 | x4 x2 |
+V:3
+z2 D,2B,,2|E,B,,^G,,B,,E,,2| z2 ^G,,2E,,2|\
+A,,E,,C,,E,,A,,E,,|C,2B,,2A,,2|
+%
+V:1
+F,A,D,F,A,F,| x4 x2 | z2 g2f2|g2d2d2|d2c2c2|
+V:2
+x4 x2 | x4 x2 | z2 [B2d2][A2c2]|[G2d2][G2B2][G2B2]|[E2G2][E2A2][E2A2]|
+V:3
+D,2D,,2 z2 |D,F,A,,D,F,C,|B,,D,B,,D,G,D,|\
+B,,D,G,,D,B,,D,|E,C,A,,C,F,,A,,|
+%
+V:1
+c2B2B2|B2A2A2|[D2A2]EFGA|BGA4|[D6G6]|]
+V:2
+[D2F2][D2G2][D2G2]|[C2E2][C2F2][C2F2]|B,2 z2 z2 | z2 z EFD|B,6|]
+V:3
+D,B,,G,,B,,E,,G,,|C,A,,F,,A,,D,,A,,|B,,A,,G,,A,,B,,C,|\
+D,2C,2D,2|[G,,6B,,6D,6G,6]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144585
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0902a/bwv0902a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0902a/bwv0902a.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0902a/bwv0902a.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

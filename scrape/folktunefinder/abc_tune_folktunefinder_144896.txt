@@ -1,0 +1,27 @@
+X:30
+T: Waltzing Armadillo
+C: BB
+N: revised 11/4/03
+R: jig
+Q: 1/8=330
+M: 6/8
+L: 1/8
+K: G
+A | "G"Bcd gdd | "G"BGF G2 A | "Em"Bcd eBA | "Em"GED E2 A |
+"G"Bcd "Em"ede | "D"fdf "G"gab | "Am"age "D"fdA | "G"BGF G2 :|
+A|"G"BAG "Em"EBB|"D"DEF "G"G2 A | "G"Bcd "Em"ged | "G"BAG "D"A2 A |
+"G"BAG DBD | "Am"ecA "G"GBd | "G"bag "Am"ecA | "G"BGF "G"G2 :|
+e |"D"fdf "D7"fdf | "G"gba gfe | "D"fdf "D7"fdA | "G"BGF G2 e |
+"D"fdf "C"ece | "G"dBd "Em"efg | "G"bag "Am"ecA |"G"BGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/144896
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:6
+T:Harbourview Jig
+R:jig
+C:John Campbell
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:Edor
+g|fed e2 E|FED E2 F|BAB dcd|AFD D2 g|
+fed e2 E|FED E2 F|BAB dAF|BGE E2:|
+|:f|gfe efe|bge egb|afd dBA|[1Bdd d2 f|
+gfe efe|bge egb|afb afd|e3 e2:|
+[2Bdd def|g2 e f2 d|efe dBA|B2 G AFD|E3 E2|]
+S:https://www.folktunefinder.com/tunes/146658
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

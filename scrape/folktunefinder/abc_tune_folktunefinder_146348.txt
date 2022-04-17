@@ -1,0 +1,35 @@
+X: 1
+T:Captain William McLeod's Fancy
+C:William Marshall
+B:Pinewoods Scottish Music Collection [Alternates] (1986)
+B:Paddledoo Collectioon
+Z:2006 John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+F:http://trillian.mit.edu/~jc/music/abc/Scotland/CaptainWilliamMcLeodsFancy_F.abc 2006-12-21 21:09:24 UT
+K:D
+|: "D"d2A ABG | "D"F2E D3 \
+| "G"efg fed | "A7"c2B A3 \
+| "G"B2G g2G | "D"A2F f2F \
+| "Em"EFG FED | "A7"CED CB,A, |
+| "D"d2A ABG | "D"F2E D3 \
+| "G"efg fed | "A7"c2B A3 \
+| "G"B2G g2G | "D"A2F f2F \
+| "D"FED "A7"A,B,C | "D"D3- D3 :|
+|:"A7"A,A,A, A,2d | "A7"c{d}ec A2z \
+| "D"A,A,A, A,2d | "D"d{e}fd A3 \
+| "G"g2e "D"f2d | "A7"e2c "D"d2A \
+| "G"BAG "A7"FGE | "D"D3- D3 :|
+S:https://www.folktunefinder.com/tunes/146348
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/CaptainWilliamMcLeodsFancy_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/CaptainWilliamMcLeodsFancy_F.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/mcleods.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/mcleods.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

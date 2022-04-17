@@ -1,0 +1,33 @@
+X:1
+T:B-Schottisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:collection Elisabeth und Christoph Huspeka
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+B2Bc d2G2 | B2A2 A2B2 | c2cd e2F2 | A2G2 G2A2 |
+B2Bc d2G2 | B2A2 A2B2 | c2ce d2F2 | G2B2 G4 :|
+|:\
+d2FA c2e2 | d4 B2d2 | c4 A2c2 | B2A2 G4 |
+d2FA c2e2 | d4 B2d2 | c2B2 c2A2 | G2B2 G4 :|
+K:C
+c4 G2c2 | e4 c2e2 | d4 B2d2 | c2d2 e2G2 |
+c4 G2c2 | e4 c2e2 | d2A2 d4 | c8 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/144017
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/b-schottisch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

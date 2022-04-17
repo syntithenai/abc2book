@@ -1,0 +1,23 @@
+X: 1
+T: Cathkin Braes
+M: 4/4
+L: 1/8
+R: strathspey
+K: Amaj
+|:(E<A) A2 (c<A) A2|E>FE>D C<A, A,2|(F<B) B2 (d<B) B2|F>GF>E D<B, B,2|
+(E<A) A2 (c<A) A2|E>FE>D C<A, A,>C|D>EF>G A>Bc>d|e>fe>d (c<A) A2:|
+|:(c<e) e2 (a<e)e2|c>de>d (c<A) A2|(d<f) f2 (b<f) f2|d>ef>e (d<B) B2|
+(c<e) e2 (a<e)e2|c>de>d (c<A) A>c|d>ef>g a>ec>d|e>fe>d (c<A) A2:|
+K:D
+|: F2 E>D F2 E>D|F<A A>B A>Bd>e|f2 e>d f2 e>d|(B<d) A>F E2 A>G|
+F2 E>D F2 E>D|F<A A>B A>Bd>e|f>ed>A B<d A<d|1 F2 E>D D2 A>G :|2 F2 E>D D4||
+S:https://www.folktunefinder.com/tunes/147297
+S:http://www.thesession.org/tunes/display/6426
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

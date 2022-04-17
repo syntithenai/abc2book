@@ -1,0 +1,22 @@
+X:1
+T:The Butterfly
+R:slip jig
+O:Ireland
+M:9/8
+L:1/8
+K:Em
+"Em" B2  (E"C"G2)  (E"D"F3) | "Em"  B2  (EG2)   (E "D"F)ED | "Em" B2   (E"C"G2)   (E"D"F3)  | "G"(B2 d) (d2 B)  "D"AFD  :|
+"Em" (B2 c) ("C"e2 f) "G"g3 | "Em" (B2 d) ("C"g2 e) "D"dBA | "Em" (B2 c) ("C"e2 f) "G"g2 (a | "G" b2 a) (g2 e) ("D"dBA) :|
+"Em" B2 B B2   A   "C" G2 A | "Em"  B3  BAB  "D"dBA        | "Em" B2   B   B2   A  "C"G2  A |1 "G" B2  d  g2  e "D"dBA  :|2 "Em" B2 (E"C"G2) (E"D"F3) |]
+S:https://www.folktunefinder.com/tunes/144505
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_SlipJigs.abc
+S:http://www.slowplayers.org/CKSP/Music/CK_Slip-Jigs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,18 @@
+X:8
+T: Skunk in the Woods
+C: Larry Cusick
+M: C|
+K: G
+EF | GA,~A,2 E2EF | GA,~A,2 DB,EF |1 GA,~A,2 E2EF | GEDB, G,2 :|2 EDEF GAAG | GEDB, G,2 || 
+z2 | EAAG EDDF | EAAG E2ED |1 EAAG EDDF | GEDB, G,2 :|2 EDEF GAAG | GEDB, G,2 ||
+ef | gA~A2 e2ef | gA~A2 dBef |1 gA~A2 e2ef | gedB G2 :|2 edef gaag | gedB G2 || 
+z2 | eaag eddf | eaag e2ed |1 eaag eddf | gedB G2 :|2 edef gaag | gedB G2 ||
+S:https://www.folktunefinder.com/tunes/144378
+S:http://zimmer.csufresno.edu/~larryc/tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,41 @@
+X: 5
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/16
+Q:3/8=42
+K:C bass
+P:Variation III
+"^Andante"z "_dolce"(g^fg)|(a3g^fg c')(.b.a.g.=f.e)|g^f =f4 z2 z (^cde)|
+(f3ef^f) (g^gba=g=f)|f2 e4 z2 z g^fg|(a3g^fg c')(.b.a.g.=f.e)|
+g^f=f4 z2 z (^cde)|(f3ef^f) (g^gba=g=f)|f2 e4 z2z2 g2|
+g3(ef^f g^gabd'c')|c'2 b4 z2 z (g^fg)|(^g3=g^fg a^g=gf=fB)|d2c4 z2
+z2 g2|
+g3(ef^f g^gabd'c')|c'2 b4 z2 z (g^fg)|(^g3=g^fg a^g=gf=fB)|d2c4 z2
+z2 g2|
+(a/2g/2)g/2g/2 (a/2g/2)g/2g/2 (a>g) (f/2e/2)e/2e/2 (f/2e/2)e/2e/2 (f>e)|(g/2f/2)f/2f/2
+(g/2f/2)f/2f/2 (g>f) d2 (^c/2d/2)d/2d/2 (e/2e/2)e/2e/2|
+f2 (d/2e/2)e/2e/2 (f/2^f/2)f/2f/2 (a/2g/2)g/2g/2 (d'/2c'/2)b/2a/2
+(g/2f/2)e/2d/2|(e/2c/2)e/2g/2 (c'/2b/2a/2g/2) (g/2f/2e/2d/2) e2 z2 g2|
+(a/2g/2)g/2g/2 (a/2g/2)g/2g/2 (a>g) (f/2e/2)e/2e/2 (f/2e/2)e/2e/2 (f>e)|(g/2f/2)f/2f/2
+(g/2f/2)f/2f/2 (g>f) d2 (^c/2d/2)d/2d/2 (e/2e/2)e/2e/2|
+f2 (d/2e/2)e/2e/2 (f/2^f/2)f/2f/2 (a/2g/2)g/2g/2 (d'/2c'/2)b/2a/2
+(g/2f/2)e/2d/2|(e/2c/2)e/2g/2 (c'/2b/2a/2g/2) (g/2f/2e/2d/2) e2 z2 g2|
+(c'/2b/2).a/2.g/2 (b/2a/2).g/2.f/2 (a/2g/2).f/2.e/2 (g/2f/2).e/2.d/2 (f/2e/2).d/2.c/2
+(d/2c/2).B/2.A/2|G(A/2B/2 c/2d/2e/2f/2 g/2a/2b/2c'/2 d'2) z/2 (g/2^f/2g/2 a/2g/2f/2g/2)|
+(d'/2c'/2).b/2.a/2 (c'/2b/2).a/2.g/2 (b/2a/2).g/2.f/2 (a/2g/2).f/2.e/2
+(g/2f/2).e/2.d/2 (g/2f/2).e/2.d/2|c(G/2A/2 B/2c/2d/2e/2 f/2g/2a/2b/2 c'2) z2 g2|
+(c'/2b/2).a/2.g/2 (b/2a/2).g/2.f/2 (a/2g/2).f/2.e/2 (g/2f/2).e/2.d/2 (f/2e/2).d/2.c/2
+(d/2c/2).B/2.A/2|G(A/2B/2 c/2d/2e/2f/2 g/2a/2b/2c'/2 d'2) z/2 (g/2^f/2g/2 a/2g/2f/2g/2)|
+(d'/2c'/2).b/2.a/2 (c'/2b/2).a/2.g/2 (b/2a/2).g/2.f/2 (a/2g/2).f/2.e/2
+(g/2f/2).e/2.d/2 (g/2f/2).e/2.d/2|c(G/2A/2 B/2c/2d/2e/2 f/2g/2a/2b/2 c'2) z2 z2||
+S:https://www.folktunefinder.com/tunes/146746
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

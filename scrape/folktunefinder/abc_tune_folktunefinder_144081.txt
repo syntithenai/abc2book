@@ -1,0 +1,27 @@
+X: 7447
+T:Miss MacLeod's (Irish version)
+R:Reel
+O:Ireland
+O:England
+M:4/4
+K:G
+G2 BG dG BG|B2 BA Bc BA|\
+G2 BG dG BG|A2 AG Ac BA|\
+G2 BG dG BG|B2 BA B3 f|\
+gc cB cd ef| ge dB Ac BA:|\
+|:G2 gf ef gd|B2 BA Bc BA| \
+G2 gf ef ge|ag fe dc BA| \
+G2 gf ef gd|B2 BA B3 f| \
+gc cB cd ef|ge dB Ac BA :|
+%C:/music/abc/abcfiles/layton/big2.abc
+S:https://www.folktunefinder.com/tunes/144081
+S:http://ifdo.ca/~seymour/runabc/abcmatch_html/traveller.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/abcmatch_html/traveller.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

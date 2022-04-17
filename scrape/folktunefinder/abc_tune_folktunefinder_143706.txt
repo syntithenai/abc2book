@@ -1,0 +1,23 @@
+X:5
+T:Crossing the Channel
+R:slip jig
+S:Mike Long
+O:Ireland
+M:9/8
+L:1/8
+K:D
+"D" A2 A AFA "G" (B2 d) | "D" f2 f fed "A" (e2 f) | "D" aba afd "A" cBA | "D" def "A" gec "D" d3 :|
+"D" a2 a aba        fed | "G" gfa   ged   "A" cBA | "D" a2 a   aba  fed | "D" def "A" gec "D" d3 :|
+S:https://www.folktunefinder.com/tunes/143706
+S:http://www.slowplayers.org/Music/abc/SlipJigs.abc
+S:http://sf.ccewest.org/music/abc/SlipJigs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

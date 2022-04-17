@@ -1,0 +1,22 @@
+X:45
+T:Uncle Reuben
+% Nottingham Music Database
+S:via PR
+M:2/4
+L:1/4
+K:G
+d/2|"G"g/2g/2 e/2d/2|g/2g/2 G|"G"g/2g/2 e/2d/2|"D7"A2|"G"g/4g/4g/4g/4 e/2d/2|\
+"G"g/4g/4g/4g/4 e/2d/2|"D7"B3/4B/4 B/2A/2|"G"G3/2::
+d/2|"G"e/2d/2 B/2A/2|B3/4B/4 B/2A/2|"G"B3/4B/4 B/2A/2|B3/4B/4 B/2d/2|\
+"G"e/2d/2 B/2A/2|B3/4B/4 B/2A/2|"D7"B3/4B/4 B/2A/2|"G"G3/2:|
+S:https://www.folktunefinder.com/tunes/146432
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsR-T.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

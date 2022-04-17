@@ -1,0 +1,22 @@
+X: 1
+T:British Grenadiers
+M:4/4
+L:1/4
+K:G
+P:ABB
+P:A
+D|"G"G D G A|B2 "D"A B/c/|"G"d G "D7"B/A/ G/F/|"G"G3 D|
+"G"G D G A|B2 "D7"A B/c/|"G"d G "D7"B/A/ G/F/|"G"G3|
+P:B
+|:B/c/|d>e d c|B c d d|"Am"e e d/c/ B/A/|"G"G2 "D"F D/D/|
+"G"G F/G/ "D"A G/A/|"G"B A/B/ "D"c B/c/|"G"d G "D7"B/A/ G/F/|"G"G3:|
+S:https://www.folktunefinder.com/tunes/143538
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/British_Grenadiers_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

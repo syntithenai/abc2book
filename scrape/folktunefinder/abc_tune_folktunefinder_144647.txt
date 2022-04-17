@@ -1,0 +1,18 @@
+X:1
+T:By the Waters of Babylon
+M:4/4
+L:1/4
+K:C
+ A3/2-G/4-F/4 E F| G3/2-F/4-E/4 D E| F3/2-E/4-D/4 C D| E E A,2| c c c c|\
+ c- B2 B| B- A2 A| A ^G A2| E3/2 F/2 G A| D3/2 E/2 F G| C3/2 D/2 E F|\
+ E E A,2|
+S:https://www.folktunefinder.com/tunes/144647
+S:http://back.numachi.com:8000/dtrad/abc/BABYLN.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BABYLN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

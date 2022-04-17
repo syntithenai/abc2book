@@ -1,0 +1,139 @@
+X:1246
+T:Prelude
+T:BWV 943
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0943/bwv0943.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:3/4
+L:1/8
+K:C
+V:1
+zcBAGF|EFGCB,F|E3DEF|G2E2FG/A/|
+V:2
+x4x2|x4x2|x4x2|x4x2|
+V:3
+x4x2|x4x2|x4x2|x4x2|
+V:4
+x4x2|x4x2|zCB,A,G,F,|E,F,G,C,B,,F,|
+%
+V:1
+Ggfedc|BcdG^Fc|B3ABc|d2B2cd/e/|d6-|
+V:2
+x4x2|x4x2|x4x2|x4x2|zcBAGF|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+E,2C2^F,2|G,2B,2D2|G,G^FEDC|B,CDG,^F,C|B,2G,2B,2|
+%
+V:1
+ddcBAB|c3edc|B6-|BBABcg|^F4G2-|
+V:2
+E4A2-|AG^F4|zAG=FED|E6-|EEDCB,C|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+CB,A,G,^F,E,|D,E,D,C,B,,A,,|G,,2 zG,A,B,|CDCB,A,2|D2D,2E,2|
+%
+V:1
+G4^F2|GAB^cde|f6-|ffefgd|^c2deA2|
+V:2
+DEA,B,CD|B,2 zAB^c|d3c_BA|G6-|G4FG|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+C,2D,2D,,2|G,,2 zG,F,E,|D,D,,E,,F,,G,,A,,|_B,,C,B,,A,,G,,B,,|\
+A,,A,B,^CDE|
+%
+V:1
+d4^c2|d6-|ddcBAG|^FGA4-|AcBAG^F|
+V:2
+A_BEFGA|^F4G2|A2 z2 z2|z2 zDCE|D6-|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+FG,A,2A,,2|D,DCB,A,G,|^F,G,A,D,C,E,|\
+A,,D,C,B,,A,,G,,|^F,,2G,,A,,B,,2|
+%
+V:1
+E3Gc2-|c2 zedc|BcBABc|BGABcd|edca_bg|
+V:2
+DDCB,A,G|^FGAFGA|G4^F2|G z z2 z2|CDEFGE|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+C,B,A,G,^F,E,|D,E,^F,C,B,,D,|G,,C,D,2D,,2|G,,2 zG,A,B,|x4x2|
+%
+V:1
+a6-|[a2f2]gfef|g6-g2fede|
+V:2
+z2A2f2|d6-|d2cBAB|c6-|
+V:3
+x4x2|x4x2|x4x2|x4x2|
+V:4
+FGFEDC|B,CB,A,G,F,|E,F,E,D,C,B,,|A,,_B,,A,,G,,F,,E,,|
+%
+V:1
+f6-|f6-|f2e2d2|d2 zgc2|zcf4-|
+V:2
+cedcBA|B4A2|G2c4-|cAB3B|A2 zA dc|
+V:3
+x4x2|x4x2|x4x2|x4x2|x4x2|
+V:4
+D,,2E,,2F,,2|G,,G,A,B,CD|EDCGA^F|G3=F EG|FEDCB,A,|
+%
+V:1
+f2edc_B|A2=BcdB|G3Gc_B|AGF4-|FFEDE2-|
+V:2
+BAG4-|G2F4-|F2E4|F3EDC|B,2 x4|
+V:3
+x4x2|x4x2|x4x2|x4x2|x2 zG,C_B,|
+V:4
+G,2CDEC|FEDEDC|B,G,C_B,A,G,|F,E,D,2F,2|G,G,,C,_B,,A,,G,,|
+%
+V:1
+EEDEFC|B,2C4-|C2B,4|C2 z2 z2|z6|
+V:2
+x4x2|x4x2|x4x2|x4x2|EDCGAF|
+V:3
+A,6|G,3F,G,A,|D,E, F,A,G,F,|E,G,A,B,CD|x4x2|
+V:4
+F,,6-|F,,F,,E,,D,,E,,F,,|G,,6|C,,4 z2|zG,,A,,B,,C,D,|
+%
+V:1
+zGABcd|edcgaf|b3c'f2-|fgd3c|cBAGFE|
+V:2
+G6-|G2c4|f3ed2-|deB4|x4x2|
+V:3
+x4x2|x4x2|x4x2|x4x2|z2F,2A,2|
+V:4
+E,D,C,G,A,F,|G,F,E,2E2|DD,C,B,,A,,G,,|C,2G,2G,,2|C,6-|
+%
+V:1
+DEFCB,F|E6|DEFGAB|c4 zG|zEGBc2|]
+V:2
+x4x2|x4x2|D3EF2-|FFEDE2|C4 x2|]
+V:3
+F,2D,4|zDC_B,A,G,|F,G,A,E,D,_A,|G,6-|G,6|]
+V:4
+C,6-|C,6|C,6-|C,6-|C,4C,,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144589
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0943/bwv0943.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0943/bwv0943.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0943/bwv0943.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

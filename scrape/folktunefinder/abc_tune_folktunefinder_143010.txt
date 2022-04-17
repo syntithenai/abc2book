@@ -1,0 +1,31 @@
+X:87
+T:Polska fr Fyn
+S:Rasmus Storm book
+R:Polska
+O:Denmark
+M:3/4
+D:Rasmus Storm
+K:Dm
+[G2B2] [G,2D2] [A2c2] | \
+[GB][G,D] [GB][Bd] [Ac][FA] |\
+[G2B2] [G,2D2] [A2c2] |\
+[GB][G,D] [GB][Bd] [Ac][GB] |\
+[GB]>[FA] [FA][DF] [A,2D2] :|
+|: \
+[Ad]>[^ce] [df][eg] [fa][df] |\
+[gb]>[fa] [fa][df] [eg][fa] |\
+(3[df][eg][df] (3[^ce][Ac][ce] [E2A2] |
+[Ad]>[^ce] [df][eg] [fa][df] |\
+[gb]>[fa] [fa][df] [eg][fa] |\
+(3[df][eg][df] (3[^ce][Ac][ce] [D2d2]
+S:https://www.folktunefinder.com/tunes/143010
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

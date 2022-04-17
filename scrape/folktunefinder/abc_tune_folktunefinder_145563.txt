@@ -1,0 +1,29 @@
+X:1
+T:Le canal en octobre
+C:Frederic Paris
+A:France 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+GA |\
+B2B2 cBAG | B2B2 cBAG | EFGB A3G | FGEF D2GA |
+B2B2 cBAG | B3B cBAG | EFGB A3F | G2B2G2 :|
+|: Bc |\
+d2d2 cBAG | d2d2 cBAG | EFGB A3G | FGEF D2Bc |
+d2d2 cBAG | d2d2 cBAG | EFGB A3F | G2B2G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/145563
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/le_canal_en_octobre.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

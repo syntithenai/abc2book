@@ -1,0 +1,27 @@
+X:1
+T:Btsman Dck
+R:Vals
+Z:Patrik Mnsson, 2008-11-08
+O:Uppsala, Uppland
+S:Ceylon Wallin
+M:3/4
+L:1/8
+K:G
+|: "G" (D>G) (B>G) D>G | B2 B4 | {B}(c>B) (A>G) F>G | "D7" A2 A4 |
+"D7" (D>F) (A>D) F>A | c2 c4 | {c}(d>c) (B>A) G>A | "G" B2 B4 :|
+|: "C" f
+e2 (e>d) (c>e) | "G" d2 (d>c) B>d | "D7" (c>B) (A>G) F>A | "G" G2 (3(BGB) d>d |
+"C" e2 (e>d) c>e | "G" d2 (d>c) B>d | "D7" (c>B) (A>G) F>A | "G" G2 G4 :|
+S:https://www.folktunefinder.com/tunes/144022
+S:http://www.folkwiki.se/pub/cache/B%e5tsman_D%e4ck_6d1e85.latin.abc
+S:http://www.folkwiki.se/pub/cache/B%e5tsman_D%e4ck_6d1e85.abc
+S:http://www.folkwiki.se/pub/cache/B%e5tsman_D%e4ck_6d1e85.abcm.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

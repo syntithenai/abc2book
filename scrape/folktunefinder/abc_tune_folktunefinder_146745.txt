@@ -1,0 +1,33 @@
+X: 4
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/16
+Q:3/8=54
+K:C bass
+P:Variation II
+z .g.^f.g|(3aaa ag^fg (3=fff fe_e=e|(3ggg gfef d2 z ede|
+(3fff f^f=f^f (3aaa agfg|(3eee eg^fg e2 z gfg|(3aaa ag^fg (3=fff fe_e=e|
+(3ggg gfef d2 z ede|(3fff f^f=f^f (3aaa agfg|(3eee eg^fg e2 z2 g2|
+(3ggg (3^fff (3=fff (3ec'b (3agf (3edc|(3BGA (3Bcd (3efg (^g2=g2)
+(3ggg|(3bbb (3aaa (3ggg (3fff (3eee (3ddd|
+c2 (3ccc (3ddd (3eee (3fff (3^fff|(3ggg (3^fff (3=fff (3ec'b (3agf (3edc|(3BGA (3Bcd (3efg (^g2=g2) (3ggg|
+(3ddd (3eee (3fff (3ggg (3aaa (3bbb|(3c'c'c' (3ggg (3eee c2 z2
+(3ggg|(3agf (3edc (3ggg (3fed (3cBc (3eee|
+(3gfe (3dcB (3fff (3dGA (3Bcd (3eee|(3fd^c (3def (3^fff (3aBc (3def (3ggg|(3ecd (3ef^f (3ggg e2 z2 (3ggg|
+(3agf (3edc (3ggg (3fed (3cBc (3eee|(3gfe (3dcB (3fff (3dGA
+(3Bcd (3eee|(3fd^c (3def (3^fff (3aB=c (3de=f (3ggg|
+(3ecd (3ef^f (3ggg e2 z2 G2|(3ecd (3ef^f (3gab (3c'ba (3gf=f (3edc|(3Bcd (3efg (3abc' d'2 (3G^FG (3ABc|
+(3dAB (3cde (3fga (3bBc (3def (3gab|(3(c'b).a (3(ag).f (3(fe).d
+c2 z2 G2|(3ecd (3ef^f (3gab (3c'ba (3gf=f (3edc|
+(3Bcd (3efg (3abc' d'2 (3G^FG (3ABc|(3dAB (3cde (3fga (3bBc (3def
+(3gab|(3(c'b).a (3(ag).f (3(fe).d (3c2 (3z2 (3z2|]
+S:https://www.folktunefinder.com/tunes/146745
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

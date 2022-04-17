@@ -1,0 +1,25 @@
+X: 4
+T:March Past, Eynsham
+M:4/4
+L:1/8
+A:Eynsham
+P:A3BA2B2A2B3AB2
+K:G
+P:A
+A2|G4   G3 A|B2A2 Bd3 |G4   F3 A|B2d2 A4 |
+G4   G3 A|B2A2 B2d2|g4   g3 f|g2B2 A2-||
+P:B
+A2|B2d2 d2ef|g2d2 e2d2|B2d2 d2ef|g2B2 A4 |
+B2d2 d2ef|g2d2 e2d2|B2d2 d2ef|g3 f g2 ||
+S:https://www.folktunefinder.com/tunes/143489
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Eynsham.abc
+S:http://www.themorrisring.org.uk/more/Tunes/abc/Eynsham.abc
+S:http://www.themorrisring.org/more/Tunes/abc/Eynsham.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:0249
+T:"The Bride of Malahide"       (air)       0249
+C:Unattributed
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM))
+Q:1/4=90
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_VB"(d/2e/2f)|g2(gf)(ed)|d2(ed)(c{dc}B)|c2B2({B}A3/2G/2)|E4(A/2B/2d)|
+e2(fe)(dB)|(A3/2B/2) d2D2|E2{B}A3G|G2:|
+(D/2E/2F)|G2A2BA|B2B2AG|c2d2ef|g4(d/2e/2g)|
+a2b2(a/2g/2e)|d2e2(e/2d/2B)|A2dB AB|A4 {d}cB|
+c2d2ef|g2g2(gf/2e/2)|d2B2A3/2G/2|E4(D/2E/2F)|
+G2(FE)"^shake"(DC)|B,2A,3/2B,/2 G,2|E2{B}TRA3G|G4|]
+S:https://www.folktunefinder.com/tunes/143361
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0249-BrideMalahide.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0249-BrideMalahide.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

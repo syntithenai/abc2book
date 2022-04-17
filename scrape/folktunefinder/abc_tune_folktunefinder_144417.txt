@@ -1,0 +1,29 @@
+X:2
+T:Busserul
+R:polka
+Z:from Jonssonlinden (sp) tape
+Z:then from Brekken CD
+M:2/4
+L:1/8
+Q:120
+K:D
+P:A
+| "D"f>e fe | "D"f>e fe | "D"d>A FG | "D"A3 d
+| [1 "A7"c>A EF | "G"G3 B | "D"A>F DE | "D"~FE DA :|
+| [2 "A"c>B cd | "A7"e>d ef | "A7"gA Bc | "D"d2 d A ||
+P:B
+|: "D"D>D FA | "D"dD F2 | "D"F>F EF | "G"Gz "D"F2
+| "A"E>E FG | "A"A>A ce | "A7"g>g fe | [1 "D"ed d2 :| [2 "D"ed dA ||
+P:C
+|: "D"FA A/^G/A | "D"FA A/^G/A | "D"d>A FG | "D"A3 A :|
+|: "G"B>B GB | "D"BA F>F | "A7"GG/G/ EC | [1 "D"D2 DG :| [2 "D"D2 D2 ||
+S:https://www.folktunefinder.com/tunes/144417
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Busserul.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

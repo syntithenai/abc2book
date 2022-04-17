@@ -1,0 +1,25 @@
+X:3
+T:Crossing the Minch
+C:Trad
+S:Aly Bain Book
+I:speed 360
+M:4/4l
+K:D
+|:d3e | f3A (3AAA f4 e3f | g3 B (3BBB g4 a3g | f3A (3AAA f4 e3f | g3Be3d d3cd3e |
+f3A (3AAA f4 e3f | g3B (3BBB g4 a3g | f3ga3f g3ec3d | e4 d4 d4:|
+|:A3d | f3A (3AAA f3ga3f | g3B (3BBB g3aa3g | f3A (3AAA f3ga3f | g3Be3d d3cd3e |
+f3A (3AAA f3ga3f | g3B (3BBB g4 a3g | f3ga3f g3ec3d | e4 d4 d4 :|
+|:A3d | f3A (3AAA f3Ae3f | g3B (3BBB g3Ba3g | f3A (3AAA f3Ae3f | g3Be3d d3cd3e |
+f3A (3AAA f3Ae3f | g3B (3BBB g4 a3g | f3ga3f g3ec3d | e4 d4 d4:|
+|: A3d | f3A (3AAA f3A (3AAA | g3A (3AAA g3A (3AAA | f3A (3AAA f3A (3AAA| e3fe3d d3cd3e|
+f3A (3AAA f3A (3AAA | g3B (3BBB g3 a3g | f3ga3f g3ec3d | e4 d4 d4:|
+S:https://www.folktunefinder.com/tunes/146333
+S:http://ceolas.org/pub/tunes/abc.tunes/xsh
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xsh
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

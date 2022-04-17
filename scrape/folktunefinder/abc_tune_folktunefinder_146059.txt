@@ -1,0 +1,47 @@
+X:3
+T:Canzon II a 6
+S:Quinto
+B:Canzoni e Sonate (1615)
+C:Giovanni Gabrielli (1557-1612)
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/4
+K:A minor
+z16 z16 z4 A B/ c/ d B c d/ e/ f d e ^f/ g/ a "f"^f ^g a2 "f"^g
+a2 z2 z8 A B/ ^c/ d B ^c d/ e/ f d e4 ^c a g > g f > f e3
+d2 "f"^c d4 A B/ ^c/ d B ^c d/ e/ f d e "f"^f/ g/ a "f"^f ^^g a2 "f"^g
+a2 z2 z e d > d c e2 d > d c/ c/ B2 A4 z4 A B/ ^c/ d B
+^c d/ e/ f d e ^f/ g/ a f ^g a2 "f"^g a4 z4 z2 z a g > g f > f
+e3 d2 "f"^c d A z a2 e/ f/ g2 d/ e/ f c/ d/ e/ ^f/ g3 f e2 d4
+z16 z A d > d ^c2 f2 e a > g e ^f2 z g "f"=f3 f e3 e 
+d4 c2 z e2 d > d c B2 z g2 f > f e d e2 d e6
+z e d B > c d/ e/ c > d B2 A// G// A// B// c/ A/ z2 e// d// e// ^f// g/ e/ z2 z8
+%P. 2
+z A A A c2 c2 B4 A B/ ^c/ d B ^c d/ e/ f d e ^f/ g/ a "f"^f
+^g a2 "f"^g a4 z8 z4 a4 g3 g f3 f e4 A4 z4
+z a g > g ^f2 z2 z8 z4 E ^F/ "f"^G/ A "f"^F ^G A/ B/ c A B ^c/ d/ e c d e2 d 
+e4 z8 z4 A B/ ^c/ d B "f"^c d/ e/ f d e ^f/ "f"^g/ a "f"^f ^g a2 "f"^g a4
+z2 z a g > g f > f e2 d4 "f"^c2 d a > ^f d z2 d3/4 ^c/// d/// e3/4 d/// e///
+"f"^f3/4 e/// "f"^f/// g3/4 "f"^f/// g/// a d z2 a3 g/ f/ g f2 e/ d/ ^c d e2 z2 A B/ ^c/ d B
+"f"^c d/ e/ f d e ^f/ g/ a b ^g a2 "f"^g
+M:3/2
+L:1/2
+a3 z2 z z2 a g2 g f2 f e3 
+M:C|
+L:1/4
+d// e// ^f// g// a/ f/ d2 z2 z a a d f e d2 z a
+f/ g/ e/ f/ d z d// e// f// d// e// f// g// e// f z f// g// a// f//g// a// _b// g// a z a/ g// a//  g/ f/ e z
+A/ B// ^c// d/ B/ "f"^c z "f"^c/ d// e// f/ d/ e z e// f// d// e// ^c// d// B// c// A2 z/ e/ "f"^c/ A/ e2 z/ e/ ^f/ ^g/ a2 z4 |]
+S:https://www.folktunefinder.com/tunes/146059
+S:http://www.laymusic.org/music/gabrielli/canzonII/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

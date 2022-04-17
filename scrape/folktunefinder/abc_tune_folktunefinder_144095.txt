@@ -1,0 +1,23 @@
+X: 5456
+T:HUGHIE SMITH'S
+M:4/4
+L:1/8
+C:B.BLACK
+R:REEL
+K:Am
+E|A3 B c2 BA|GEEA GEE^F|G^FGA B3 A|G2 BG dGBG|
+A3 B c2 cd|edcB AGE^F|G^FGA Bdge|dBGB A3:|
+e|a^gab a=ged|eaag ea a2|g^fga gedB|G2 BG dG B2|
+a^gab a=ged|eaag eaab|g3 ^f efge|dBGB A3:|
+%C:/music/abc/abcfiles/layton/big5.abc
+S:https://www.folktunefinder.com/tunes/144095
+S:http://ifdo.ca/~seymour/runabc/abcmatch_html/traveller.abc
+S:http://ifdo.pugmarks.com/~seymour/runabc/abcmatch_html/traveller.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:8
+T:Maid on Green
+R:jig
+O:Irish
+D:John Campbell, Cape Breton Violin Music (1975-2006)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:300
+K:G
+a|:g2 d e2 d|Bge dBA|BGG dBA|BGB ABd|
+gag e2 d|Bge dBA|BGG dBA|[1BGG GAB:|[2BGG GBd||
+|:gfg afd|gfg a2 f|gbg eag|fdd dga|
+bgb afa|gfg e2 d|Bge dBA|[1BGG GBd:||[2BGG G2|]
+S:https://www.folktunefinder.com/tunes/146660
+S:http://cranfordpub.com/tunes/abcs/campbell.abc
+S:http://www.cranfordpub.com/tunes/abcs/campbell.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

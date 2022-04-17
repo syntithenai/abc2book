@@ -1,0 +1,57 @@
+X: 1
+T: Over the Waves
+T: Sobre las olas
+C: Juventino Rosas (1888)
+R: waltz
+Z: 2006 John Chambers <jc@...>
+N: Note the hemiola throughout part C.
+H: Mexican composer Juventino Rosas (1868-1894) was an Otomi Indian. This tune
+H: was composed in 1888 as one of a set of six waltzes. In Mexico the city
+H: were he was born is renamed after him: Santa Cruz de Juventino Rosas. He
+H: only wrote the tune; words in Spanish were written a few years later, and
+H: since then, many more lyrics have been written for this tune. It has also
+H: been used in a number of movies.
+M: 6/8
+L: 1/8
+P: AABBACCDDA
+K: G
+&quot;A&quot;\
+|: zz \
+| &quot;G&quot;B,3 ^A,B,D | G3- GFG | AGF GB,D | &quot;D7&quot;F3- Fzz \
+| C3 B,CD | F3- F^EF | GF^E FCF | &quot;G&quot;B,3- B,zz |
+| &quot;G&quot;B,3 ^A,B,D | G3- GFG | AGF GB,E | &quot;Am&quot;E3- Ezz \
+| E3 Ace | &quot;G&quot;d3- dcB | &quot;D7&quot;AGF EFA | &quot;G&quot;G3- G :|
+&quot;B&quot;\
+|: zB \
+| &quot;G&quot;{Bc}B^AB gf>e | g3- gfe | {Bc}B^AB ed>c | &quot;D7&quot;F3- Fzz \
+| {FG}F^EF ed>^c | e3- edc | {FG}F^EF cBA | &quot;G&quot;G3- Gzz |
+| &quot;G&quot;{Bc}B^AB gf>e | g3- gfe | &quot;E7&quot;{Bc}B^AB ed>c | &quot;Am&quot;E3- Ezz \
+| {EF}E^DE cBA | &quot;G&quot;G3- GF^E | &quot;D7&quot;FAc e2d | &quot;G&quot;G3- &quot;d.C. fine&quot;G :|
+K: D
+&quot;C&quot;\
+|: zz \
+| &quot;D&quot;F2 A2 B2 | c2 d2 B2 | c2 d2 B2 | &quot;A7&quot;c3- czz \
+| c2 d2 ^d2 | f2 e2 =d2 | cB B2 c2 | &quot;D&quot;A3- Azz |
+| &quot;D&quot;F2 A2 B2 | c2 d2 B2 | c2 d2 B2 | &quot;A&quot;c3- czz \
+| c2 e2 a2 | a2 e2 c2 | &quot;E7&quot;c2 B2 E2 | &quot;A&quot;A3- A :|
+K: F
+&quot;D&quot;\
+|: ^GA \
+| &quot;F&quot;f3- fef | f3- f^GA | f3- fef | &quot;C7&quot;B3- BAB \
+| e3- e^de | e3- eAB | e3- e^de | &quot;F&quot;A3- A^GA |
+| &quot;F&quot;f3- fef | f3- f^GA | &quot;D7&quot;d3- d^cd | &quot;Gm&quot;D3- D^CD \
+| d3- dcB | &quot;F&quot;A3- AGF | &quot;C7&quot;E3- EDE | &quot;F&quot;F3- F :|
+S:https://www.folktunefinder.com/tunes/145553
+S:http://tech.groups.yahoo.com/group/abcusers/messages/381?xm=1&m=e&l=1
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

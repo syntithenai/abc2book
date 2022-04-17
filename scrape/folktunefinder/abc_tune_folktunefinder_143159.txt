@@ -1,0 +1,20 @@
+X:1
+T:Bread and Fishes
+M:3/4
+L:1/8
+K:C
+ z4 C2| C4 EG| A F3 E2| D4 EF| G6-| G4 E2| C4 DE| F D3 DC| B,4 CD|\
+ C6-| C4 z2| C2 E3 G| A2 F3 E| D E4 F| G6-| G4 ED| C4 DE| F2 D3 C|\
+ B,4 CD| C6-| C4 Bc| d3 c A2| A G3 Bc| d3 c A2| G4 Bc| d2 c3 A| A2 G3 G|\
+ A c3 E2| D6-| D4 D2| C2 E3 G| A F3 FE| D4 EF| G6-| G4 E2| C4 DE| F D3 C2|\
+ B,4 CD| C6-| C4 z2|
+S:https://www.folktunefinder.com/tunes/143159
+S:http://back.numachi.com:8000/dtrad/abc/BRDnFISH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

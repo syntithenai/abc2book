@@ -1,0 +1,32 @@
+X:235
+T: Jackson's
+S: "Play 50 Reels" (Armagh Pipers' Club)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+A3 B AFDF|(3ABA FA GECE|A3 d BdAF|\
+ED (3DDD EFGB |
+AFAB AFDF|(3ABA FA GECE|A3 d BdAF|\
+ED (3DDD EFDG ||
+FD (3DDD FDGD |FD (3DDD GECE|FD (3DDD FDGF|\
+EDCD EFDG |
+FD (3DDD FDGD |FD (3DDD GECE|FD (3DDD FDGF|\
+EDCD EFGA ||
+df (3fff dffe|dcdB AFDA|ce (3eee ceec|\
+B2 GB AFDA |
+df (3fff dffe|dcdB AFDA|ce (3eee faec|\
+dcce d4 ||
+S:https://www.folktunefinder.com/tunes/146974
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

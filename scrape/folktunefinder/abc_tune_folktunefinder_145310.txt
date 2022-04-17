@@ -1,0 +1,19 @@
+X: 1
+T: Camel's Hump, The
+M: 4/4
+L: 1/8
+R: reel
+K: Cmaj
+D2 | B,E ~E2 B,E^GE | B,E^GA _BAFD | B,E ~E2 B,E^GA | _BAFD E2ED |
+B,E ~E2 B,E^GE | B,E^GA _BAFD | FE ~E2 ^GE ~E2 | _BAFD E2 :||
+d2 | eB~B2 ^gB ~B2 | (3cBA eA fAeA | eB~B2 ^gB ~B2 | &quot;Bill Black Plays afef e2fe&quot; _b3a g^f=fe |
+eB~B2 ^gB ~B2 | (3cBA eA fAeA | B^G~G2 AF~F2 | BA^GF E2 :|]
+S:https://www.folktunefinder.com/tunes/145310
+S:http://www.thesession.org/tunes/display/495
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

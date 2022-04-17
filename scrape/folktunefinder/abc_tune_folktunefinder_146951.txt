@@ -1,0 +1,24 @@
+X:120
+T: Jimmy Hogan's
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+K: G
+D|"G"GBd "Em"B2 A | "G"GBd "Am"cBA | "G"GBd gfg | "Am7"eag "D"fed |
+"G"GBd "Em"B2 A | "G"GBd "Am"cBA | "G"Bdg "D7"fdc | "G"BGF "G"G2 :|
+d|"Em7"ede "D"fdf | "G"gdc "Em"BAG | "G"BGG dGG | "Em7"edB "D"d^cd |
+"Em7"ede "D"fdf | "G"gab "C"gfe | "G"dcB "D7"Adc | "G"BGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/146951
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

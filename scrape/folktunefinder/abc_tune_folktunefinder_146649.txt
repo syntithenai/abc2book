@@ -1,0 +1,26 @@
+X:3
+T: Caribou
+R: reel
+M: C|
+K: Edor
+"Em"B2ED EFGA| B2ED EFGE| "D"D2FD DADD| BDDA DDFD|
+"Em"E2ED EFGA| Bdef g2fg| "C"afge "D"efec |1 "D"dBAF "Em"EdcA :|2 "D"dBAF "Em"E4|]
+|:\
+"Em"Be2B efed| Bdef edBd| "D"Ad2A d3e| fedf edBA|
+"Em"Be2B efed| Bdef g2fg| "C"afge "D"efec| dBAF "Em"E4 :|
+%%text Roaring Jelly  R-135
+%%text 3/24/99
+S:https://www.folktunefinder.com/tunes/146649
+S:http://roaringjelly.org/music/sets/Set50.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set50.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set50.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/sets/Set50.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

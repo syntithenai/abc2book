@@ -1,0 +1,30 @@
+X:1
+T:Brezon valse
+C:
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+GG/F/G/B/ | GG/F/G/B/ | GG/F/G/B/ | A/B/cA |\
+FF/E/F/A/ | FF/E/F/A/ | FEF | G2 :|
+|: d |\
+BB/A/B/d/ | c2B | AA/G/A/c/ | B/c/dB |\
+GG/F/G/B/ | A/B/cA | FF/E/F/A/ |1 G/D/G/B/ :|\
+                               [2 G2 ||
+|: D |\
+GG/F/G/A/ | BAG | DEF | E2D |\
+AA/G/A/B/ | cBA | DEF | G2 :|
+S:https://www.folktunefinder.com/tunes/143286
+S:http://simonwascher.info/TradArchiv_walzer/brezon_valse.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

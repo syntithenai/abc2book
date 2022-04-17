@@ -1,0 +1,19 @@
+X:1
+T:The Braes of Balquidder
+M:2/4
+L:1/8
+K:C
+ AA| D2E/2-^F/2 G| A2 AA| D3/2- E/2 ^FG| E D2 C/2C/2| D2E/2-^F/2 G|\
+ A2 A3/2 B/2| ccB/2-A/2 G| B A2 B/2c/2| d2 Ad|c-B AG| A3/2- B/2 A3/2 G/2|\
+ E D2 C/2C/2| D2E/2-^F/2 G| A2 G3/2 G/2| A A2 G| ED||
+S:https://www.folktunefinder.com/tunes/142857
+S:http://back.numachi.com:8000/dtrad/abc/BRAEBALQ.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BRAEBALQ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

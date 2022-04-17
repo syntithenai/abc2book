@@ -1,0 +1,26 @@
+X: 1
+T:Calliope House
+M:6/8
+L:1/8
+Q:220
+C:Dave Richardson
+S:From Bog Carrot
+R:Jig
+K:D
+|:"D"dAA fAA|eAA fAA|"Em"Bee e2 d|"Em"efd "G"BdB|!
+"D"ABA A2 F|A2 B d2 e|1"D"f2 a fed|"A"e3-e2 A:|2"D"faf "G"edB|"D"d3 d2 f
+|!
+|:"D"a3 faa|eaa faa|"G"g3 fgf|efe edB|!
+"D"ABA A2 F|A2 B d2 e|1"D"f2 a fed|"A"e3-e fg:|2"D"faf "G"edB|"D"d3-d2||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/145241
+S:http://www.blackflute.com/music/tunes/jigs/calhouse.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

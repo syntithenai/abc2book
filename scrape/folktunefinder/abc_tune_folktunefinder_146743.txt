@@ -1,0 +1,31 @@
+X: 2
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/8
+Q:3/8=54
+K:C bass
+P:Air
+"_p"g|a z g {g}(f2e)|{e}fd z z de|(f2^f {f}a2g)|{g}e2 z z2 g|(c'2g)
+{g/2a/2}gfe| {e/2g/2}fd z z de|
+(f2^f {f}a2g)|{g}e2 z z2 g|(gf)e (ed)c|(cB) z z de|(f2^f {f}a2g)|c2 z
+z2 g|
+(gf)e (ed)c|(cB) z z de|(f2^f {f}a2g)|c2 z z z/2
+(g/2^f/2g/2|a/2g/2^f/2g/2)(e/2g/2) (c/2e/2)(G/2c/2).e/2.a/2|
+L:1/16
+(g^fge=f^c) d2 z ("_<"g^fg|^g=g^fg^g=g "_>"agfg=fg)|(feag_e=e) e2 z (g^fg)|
+(ag^fg)(eg) (ce)(Gc).e.a|(g^fge=f^c) d2 z (g^fg|^g=g^fg^g=g
+agfg=fg)|(feag_e=e) e2 z2g2|
+(gc')(c'e)(eg) (gc)(ce).d.c|.B(Bd)(df)(fa2) z (g^fg)|(^g=g).g(bd')(g
+b)(fa)(df).B|(dcBc).e"^* (org Bb)".g c'4g2|
+(gc')(c'e)(eg) (gc)(ce).d.c|.B(Bd)(df)(fa2) z (g^fg)|(^g=g).g(bd')(g
+b)(fa)(df).B|(dcBc).e.g c'2 z2|]
+S:https://www.folktunefinder.com/tunes/146743
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

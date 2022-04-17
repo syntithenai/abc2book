@@ -1,0 +1,23 @@
+X:6
+T:Caddam Wood
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+dddd ^c2d2|e2d2 B4|DDDD G2B2|e2d2 c4|
+cccc B2c2|f2e2 d4|f2e2 c2A2|e2d2 ^c2d2|
+dddd ^c2d2|e2d2 B4|DDDD G2B2|e2d2 c4|
+cccc B2c2|f2e2 c4|fedc B2A2|G8||
+dddd .B2.B2|dddd .B2.B2|d4e3.d|.d2.^c2 =c4|
+cccc A2A2|cccc A2A2|f3e f2e2|e2d2 e2d2|
+d2d2 dedc|.B2.B2 B4|d4e3.d|d2^c2 =c4|
+c2c2 cdcB|A2A2 A4|dddd e2f2|g8|]
+S:https://www.folktunefinder.com/tunes/144676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/CaddamWood.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

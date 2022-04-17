@@ -1,0 +1,35 @@
+X:1
+T:Bygone Days
+M:3/4
+L:1/8
+K:G
+%%staves{RH1 RH2}
+V:RH1 clef=treble name="Melody"
+(ugf)|"G"ve2 d2 BA|"Em"G2 A2 BA|"C"E2 (F2 G2)| "G"D4 D2|\
+G3 (D GB)|"Em"e2 d2 BA|"A"G2 (A2 B2)| "D7"A4 (gf)|
+"G"e2 d2 BA|"Em"G2 A2 BA|"C"E2 (F2 G2)| c4 e2|\
+"G"d2 B2 GB|"D7"A2 E2 F2| "G"G3 (A GF)|G4 (Bd)|
+v((3ded) (B2 d2)| "Em"g2 f2 ef|"G"g3(a gd)|B4 (Bc)|\
+"G"v((3ded) (B2 d2)| "Em"g2 f2 ef|"C"g3(a gf)|"G"g3(a gf)|
+"G"e2 d2 BA|"Em"G2 A2 BA|"C"E2 (F2 G2)| c4 e2|\
+"G"d2 (B2 G2)| "D7"A2 (E2 F2)| "G"vG6| vg6|]
+V:RH2 clef=treble name="Harmony"
+dB|g2 f2 dc|B2 c2 dc|c2 c2 c2|B4 B2|\
+d3B Bg|g2 g2 gd|^c2 c2 c2|c4 BA|
+g2 f2 dc|B2 c2 dc|c2 d2 e2|e4 g2|\
+d2 B2 Bg|c2 c2 c2|B3c BA|B4 GB|
+(3BcB G2 B2|e2 d2 cd|e3f ef|g4 GA|\
+(3BcB G2 B2|e2 d2 cd|c3f ed|d3f ed|
+c2 B2 GF|B2 c2 dc|G2 A2 B2|e4 c2|\
+B2 G2 D2|c2 c2 c2|B6|B6|]
+S:https://www.folktunefinder.com/tunes/144604
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/bygone.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/Bygone%20Days.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

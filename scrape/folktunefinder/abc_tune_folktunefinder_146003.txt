@@ -1,0 +1,26 @@
+X:2 
+T:XXI. Fantaisie: La Torello
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/4
+K: F
+T:Tenor
+N: Original clef, C on third line, so this is a tenor G clef, sounding an octave lower than written.
+K:F -8va
+%%MIDI transpose -12
+z4 z4 G4 B2 =B2 c4 G2 g4 ^f2 g2 g3f f e/ d/ e4 d2 d2 f3 _e c d _e2 d2
+S:https://www.folktunefinder.com/tunes/146003
+S:http://www.laymusic.org/music/morley/torello/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

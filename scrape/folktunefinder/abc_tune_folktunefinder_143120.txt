@@ -1,0 +1,27 @@
+X:1
+T:Brautlied
+C:traditionell
+A:Apetlon, Burgenland
+S:gefunde\.in von Sepp Pichler im Jahrbuch des oesterreichischen Volksliedwerks, aufgezeichnet vo\.i K. M. Klier
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:6/8
+L:1/8
+K:Gm
+D |\
+G2A Bcd | c3 z2A | G2^F G2A | \.i3-D2z |
+Bcd cBc | d3 z2^F | G2d/c/ BcA | G3-G2 |]
+S:https://www.folktunefinder.com/tunes/143120
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/brautlied.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 3
+T: Lonesome, The
+M: 6/8
+L: 1/8
+R: jig
+K: A Major
+|: A,3 A,CE | EAA cea | fed ceB | cAF F3 |
+A,3 A,CE | EAA cea | fed ceB |[1 cAA A3 :|[2 cAA A2 E ||
+|: Ace a3 | f3 ecA | dfd cec | B3 cA[AE] | 
+Ace a3 | f3 ecA | dfd cec |[1 BAA A2 E :|[2 BAA A3 |]
+S:https://www.folktunefinder.com/tunes/144411
+S:http://www.thesession.org/tunes/display/1305
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

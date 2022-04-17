@@ -1,0 +1,24 @@
+X:50
+T:the Royal Review
+A:Wyresdale, Lancashire
+B:Winder collection
+L:1/8
+M:9/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000629.html
+%%ID:00000629
+K:D
+a2f faf b2g | g2e efd cBA | \
+a2f faf b2g | faf gec d3 :|
+|:FGA AFA BGB | g2e efd cBA |\
+FGA AFA B2g | faf gec d3 :|
+S:https://www.folktunefinder.com/tunes/143502
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_leftovers/Winder_leftovers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

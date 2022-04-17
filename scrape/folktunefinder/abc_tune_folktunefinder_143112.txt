@@ -1,0 +1,31 @@
+X:1
+T:Bransle d'Ecosse
+C:(bransle de la renaissance) d'aprs l'Orchesographie de Thoinot Arbeau, fichier abc : Bernard Loffet
+L:1/8
+Q:232
+M:2/2
+K:G
+|: [AA,,]B[cA,]A [BG,,]c[d2G,2] | [dG,,]c[BG,]A [cC,,]d[e2C,2] | [eC,,]g[fG,]e [dD,,]c[BD,]A | \
+ [AA,,]B[cA,]A [BG,,]c[d2G,2] | [dG,,]c[BG,]A [cC,,]d[e2C,2] | [dD,,]c[BD,]A [BE,,]G[A2A,2] :|: [e2A,,2][eA,]f [gG,,]a[gG,]f | \
+ [e2C,,2][e2C,2] [dG,,]c[BG,]A | [e2A,,2][dA,]c [B2G,,2][A2A,2] | [e2A,,2][eA,]f [gG,,]a[gG,]f | \
+M:1/2
+ [e2C,,2][e2C,2] | \
+M:2/2
+ [dD,,]c[BD,]A [BE,,]G[A2A,2] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/143112
+S:http://diato.ifrance.com/diato/tablat/261.abc
+S:http://diato.ifrance.com/tablat/261.abc
+S:http://diato.org/tablat/261.abc
+S:http://perso.orange.fr/diato/tablat/261.abc
+S:http://perso.wanadoo.fr/diato/tablat/261.abc
+S:http://pro.wanadoo.fr/diato/tablat/261.abc
+S:http://www.diatonique.net/tablat/261.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 1/2
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

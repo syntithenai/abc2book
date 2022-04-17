@@ -1,0 +1,24 @@
+X: 1
+T: Caher Rua
+T: Red-haired Charles
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+d3A BAFB|AFAB AFEF|DEFA BAFB|ABde fgfe|
+d3A BAFB|AFBF AFEF|DEFA BAFB|ABde fddc||
+% Repeat A-part and play 16 bars 1st time through tune but play as written thereafter
+|:dD~D2 DEFA|Adde fdef|~g3e fedf|(3efg fd edBc|
+dD~D2 DEFA|~d3e fdef|1 ~g3e fedB|AFEF DEFA:|2 ~g3e fedf|(3efg fd edBc||
+defd cdec|BcdB AFEF|DEFA BAFB|ABde fgfe|
+d3A BAFB|AFBF AFEF|DEFA BAFB|ABde fddc||
+S:https://www.folktunefinder.com/tunes/144869
+S:http://www.thesession.org/tunes/display/4858
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

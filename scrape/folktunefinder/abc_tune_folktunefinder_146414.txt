@@ -1,0 +1,21 @@
+X:2
+T:La Cardeuse
+F:http://www.hiico.com/.abc/la_cardeuse.abc
+O:Canada
+D:Patrick Street, Patrick Street
+K:G
+M:4/4
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 23 August, 2004
+GA |: B2 BB B2 GB | dedB cdcB | AGFG A2 AA | dedc BAGA | B2 BB B2 GB | dedB cdcB | AGFG A2 AA |[1 d2 F2 G2 GA :|[2 d2 F2 G2 Bc | dcBc d2 g2 | d2 g2 d2 g2 | D2 AB cBAB | c2 a2 c2 a2 | a2 a2 d2 Bc | dcBc d2 g2 | d2 g2 d2 g2 | D2 AB cBAB | c2 a2 c2 a2 | a2 a2 d2 Bc | dcBc d2 g2 | d2 g2 d2 g2 | D2 AB cBAB | c2 a2 g2 f2 | g2 g2 g2 z2 |: d2 ef g2 fe | d2 ef g2 B2 | c2 A2 ABcA | B2 G2 G2 z2 :||: BcBA GGBG | FFAF GFGA | BcBA G2 g2 | fdef g2 g2 :||: DEGA B2 AG | A2 B2 c4 | Bcdc B2 AB | cBAF G2 E2 | DEGA B2 AG | A2 B2 c4 | Bcdc B2 AB |[1 c2 F2 G2 E2 :|[2 c2 F2 G2 z2 |
+S:https://www.folktunefinder.com/tunes/146414
+S:http://www.hiico.com/.abc/la_cardeuse.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

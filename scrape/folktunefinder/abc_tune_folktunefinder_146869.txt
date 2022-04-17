@@ -1,0 +1,24 @@
+X:22
+T:Fandango
+R:jig
+H:Used as tune for Hounds dance "Not a Banana"
+Z:transcribed by Rich Holmes
+M:6/8
+K:D
+P:A
+"D"d2d dcd | "G"B2G "D"FGA | "D"d2d d3 | "Bm"fda f2 d |
+"D"d2d dcd | "G"B2G "D"FGA | "G"d2d d2g | "A"e2a "D"f2d  |]
+P:B
+"D"aba f2d | AFd AFd | aba f2d | "G"BGd BGd |
+"A"aba "D"f2d | "G"B2G "D"F2A | "G"B2d "A"e2c | "D"d6  |]
+S:https://www.folktunefinder.com/tunes/146869
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Br\ondums Hopsa
+R: hopsa
+O: Denmark
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+|: "G"B2 ~B2 | dB gB | "D7"cA af |1,3 "G"gf ed :|2,4 "G"g2 g2 :| [K:D] \
+| "A7"a2 ~a2 | "D"fe df | "A7"eA ce |1,3 "D"de fg :|2,4 "D"d2 d2 :| [K:G]
+|: "G"B2 Bc | d2 g2 | b2 a/g/f | g2 d2 | "A(m)"a2 ag |1,3 "D7"f2 e2 | ed ^cd | "G"B2 G2 \
+                                                    :|2,4 "D7"fa ef | "G"g2 g2 | g4 :|
+S:https://www.folktunefinder.com/tunes/143676
+S:http://trillian.mit.edu/~jc/music/abc/Scand/hopsa/BrondumsHopsa.abc
+% Rhythm Hopsa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

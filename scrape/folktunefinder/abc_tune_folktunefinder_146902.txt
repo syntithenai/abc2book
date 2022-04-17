@@ -1,0 +1,25 @@
+X:29
+T:Soldier O.
+T:Dance: Soldier O. Morris Processional
+M:6/8
+N:Processional dance by Ed Stern
+R:Jig
+%P:A(ABB)^nA
+K:G
+I:speed 300
+P:A
+"A.(ABB)^n.A" \
+D | G2 G GAB | A2 G E2 D | G-GG Bcd | d2 c A2 d |
+e2 d B2G | A2 G E2 E | D2 D DEF | G3 G2 |]
+P:B
+D | GGG  E2 D | GGG  E2 D | G2 G B2 d | d2 c A2 d |
+e2 d B2 G | A2 G E2 E | D2 D DEF | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/146902
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

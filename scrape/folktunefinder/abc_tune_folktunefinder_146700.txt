@@ -1,0 +1,35 @@
+X:1
+T:Rhenlndare
+T:efter Carl Gabriel Malmberg (SvL Skne 161)
+C:Carl Gabriel Malmberg
+R:Rhenlndare
+Z:Patrik Mnsson, 2008-10-24
+O:Trolle-Ljungby, Skne
+S:Svenska Ltar
+N:Svenska Ltar Skne 161
+N:Text: Se god dag, min far! 
+N:Sicken hstan han har
+N:sicka lr, sicka ben, sicka skutt han tar!
+N:Melodien var - i likhet med efterfljande rhenlndare - mycket knd och spelades av de flesta spelmn i Skne. 
+M:C
+L:1/8
+K:G
+|: ba | g2 f2 g2 ag | f2 e2 f2 ab | c'2 fg a2 dg | b2 d2 g2 ba |
+g2 f2 g2 ag | f2 e2 f2 ab | c'2 fg a2 df | g2 b2 g2 :|
+|: bc | d>dd>d d>ba>g | f>ee>e e2 cB | A>AA>A A>Bc>d |
+e>dd>d d2 Bc | d>dd>d d>ba>g | f>ee>e e2 cB |
+AB c2 de f2 | g2 b2 g2 :|
+K:C
+|: ef | e2 G2 c2 ga | g2 e2 c2 g2 | b3 a g>fe>f |
+a2 g2 e2 ef | e2 G2 c2 ga | g2 e2 c2 g2 | b3 a g>fe>d | c2 c'2 c2 :|
+S:https://www.folktunefinder.com/tunes/146700
+S:http://www.folkwiki.se/pub/cache/Rhenl%E4ndare_65d7fc.abc
+% Rhythm Rhenlndare
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

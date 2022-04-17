@@ -1,0 +1,37 @@
+X: 1
+T: Caledonia's Wail for Niel Gow Her Favorite Minstrel
+R: strathspey, air
+C: Captain Simon Fraser
+N: p.60, , H&C p.11, Skye p.183, Hunter 15, played by Pat Cormier on Music
+N: from SF Collection @40,  Alastair  Hardy  on  Jean  Redpath  tape,  Ron
+N: Gannella on Fiddle Gems tape
+N: The A# and E# notes should not be taken too seriously.
+Z: John Chambers <jc@trillian.mit.edu>
+K: Bm
+|: F \
+| "Bm"DC D>E {DE}FB | "D"A>F {DE}F>E DA, A,F/E/ \
+| "Bm"DC D>E {DE}Fg | "F#m"f>d (e/d/)c/d/ "Bm"B2 Bc/d/ |
+| "Bm"DC D>E {DE}FB | "D"A>F {DE}F>E DA, A,F/E/ \
+| "Bm"DC D>E {DE}Fg | "F#m"f>d (e/d/)c/d/ "Bm"B2- B :|
+|: f/^a/ \
+| "Bm"b>c' {bc'}d'>c' ~b>a f>d | "D"a<f {de}f>e dA Af/^a/ \
+| "Bm"b>c' {bc'}d'>c' ~b>a f/^a/b/c'/ | "D"d'f "(F#)"(e/d/)(c/e/) "Bm"B/d/f/d/ Bd/e/ |
+| "Bm"f[fd'] [fd']e/>d/ "A"c[ca] [ca]d/>c/ | "G"[DB]>c d/c/d/^e/ "F#"f[F^A] [FA] D/E/ \
+| "Bm"[DF][DF] [DF]C/D/ "A"[CE][CE] H[CE] D/C/ | "G"B,/C/D/^E/ "F#m"F>^A, "Bm"B,2- B, |]
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/145152
+S:http://trillian.mit.edu/~jc/music/book/500/CaledoniasWailForNielGow_x.abc
+% Rhythm Strathspey, air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,54 @@
+X:1
+T:Gavotte, tons diwezhan
+R:  
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret (Aot 98)
+M:4/4
+L:1/8
+K:C
+T:A
+K:G  
+GB dg e2 ge | d2 e>d B2 B2 | GB dg e2 ge | de d2 B2 B2 |: \
+B2 AG c2 Bc | AG BA GF G2 | B2 AG c2 Bc |1 AG BA G2 G2 :|2\
+AG BA G2 GB | BG Ac B2 A2 | BG Ac B2 AB | BG Ac B2 AB |\ 
+BG Ac B2 A2 |:B2 B2 AG FG | AB AG AB A2 | B2 B2 AG FG |\  
+AB Ac BA G2 :| 
+T:B
+K:Am
+E^FGA BcAB | cABc A z A2 | E^FGA BcAB | cABc A z A2 |\
+E^FGA BcAB | cABc dd e2 | E^FGA BcAB | cABc A z A2 ||
+(3ede fd ecAB | cABc dd e2 |(3ede fd ecAB | cABc A z A2 :|\
+ea (3gfe dfed | (3cBA Bc dd e2 |ea (3gfe dfed | cedc A z A2 :|
+%%newpage
+T:Patrick Lefvre A (S:Patrick Lefvre)
+K:Bm
+e | ecdB cA F2 | (3FGA BA B2 Be | ecdB cA F2 | (3FGA BA B2 B :|
+f| fe g2 (3fed cf | fe g2 (3fed ce | ecdB cA F2 | (3FGA BA B2 B :|
+T:Patrick Lefvre B (S:Patrick Lefvre)
+K:G
+DDGE FG A2 | AGEF D2D2 | DGGE FGAB | AGEF G2G2 ::\
+ddcA Bc d2 | ABcA B2B2 | ddcA Bc d2 | ABcA G2G2 :|
+T:Saint Andr
+K:F
+cA FA cA F2 | (3FGF EF G2 F2 ::
+cA FA cA F2 | (3FGF GA B2 G2 | (3cBA GB AF G2 | (3AGF EG F2 F2 :|
+T::Ton diwezhan Rachel
+K:C
+Gc cc de f2 | ed cB d2 c2 ::
+Gc cc de f2 | ef gf ed fe | c2 Bc de f2 | ed cB d2 c2 :|
+S:https://www.folktunefinder.com/tunes/144658
+S:http://termen.free.fr/danses/cornouaille/Gavottetonsdiwezhan.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key C
+% Key F
+% Key B
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

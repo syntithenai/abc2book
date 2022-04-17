@@ -1,0 +1,27 @@
+X:1
+T:Paddy Fahey's
+T:Fahey's Fiddle
+C:Paddy Fahey
+R:jig
+D:Brian McNamara. Fort of Jewels
+B:A Drop in the Ocean, Josephene Keegan (author of alternate title)
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+M:6/8
+Q:388
+K:D
+DFA d2 e|dcA ~G3|AFD =cBc|edc BdA|
+DFA fAe|dcA GAB|TA2 d AGE|[1EDC D2 z:|[2EDC D2||
+|:A|dcd fed|cA^G A2 B|=cBc edc|BGG GFG|
+Ade fed|cAG EFG|Adc AGE|[1EDC D2:|[2FGE F2 E|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/146291
+S:http://cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+S:http://www.cranfordpub.com/tunes/abcs/McNamaraBrian.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

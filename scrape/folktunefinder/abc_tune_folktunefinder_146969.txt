@@ -1,0 +1,30 @@
+X:210
+T: John Do(u)gherty's
+M: C|
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: A
+(3CEC A,E (3AcA EA|(3cec (3Ace ae^de|
+fe^df eG=dc|(3BcB (3AGF EcDB |
+(3CEC A,E (3AcA EA|(3cec (3Ace ae^de|
+fe^df eG=dc|1 BEFG A2 ED :|
+|2 BEFG A2 A,2||(3CEA (3CEA (3cBA (3GFE|
+(3DFA (3DFA dcBA|(3GBe gf edcB|
+(3AcB (3AGF E2 A2|(3CEA (3CEA (3cBA (3GFE|
+(3DFA (3DFA dcBA|(3GBe gf edcB|
+(3Ace (3aec A2 A,2 :|
+S:https://www.folktunefinder.com/tunes/146969
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

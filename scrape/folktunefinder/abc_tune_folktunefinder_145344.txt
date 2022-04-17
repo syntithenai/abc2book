@@ -1,0 +1,21 @@
+X:1
+T:The Campanero (or Campanyero)
+M:4/4
+L:1/8
+K:C
+ z2 G4 G2| G3/2 D/2D/2 D3/2 D/2 D3/2 z3/2 F/2| F3/2 F/2E/2 E/2 D3/2 z3/2 CE|\
+ G3/2 A/2 G3/2 A/2 G3/2 A/2 B3/2 c/2| D4 C2 z2| z2 G4 G2| G/2G/2 c3/2 c/2 d3/2 c/2 B3/2 z E/2|\
+ F/2F/2 F3/2 F/2 B3/2 A/2 G2 z| E3/2 D/2 C3/2 D/2 E3/2 F/2 G3/2 A/2|\
+ B3/2 c/2A-d G z G3/2 G/2| c3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009 c3.99999962500005/5.99999925000009 d3/2 c/2 B z EE|\
+ F3/2 F/2B/2 B/2A/2 G3/2 z CE| G3/2 A/2 G3/2 A/2 G3/2 A/2 B3/2 c/2|\
+ D4 C2 z2| z2 G4 G2| G3/2 D/2 D3/2 D/2 D z F3/2 F/2| F3/2 E/2 E3/2 D/2 E z E3/2 F/2|\
+ GG GG G3/2 A/2 GE| D4 G2 z G| G3/2 D/2 D3/2 D/2 D z F3/2 F/2| F/2F/2 EE D/2 E3/2 z CE|\
+ G3/2 A/2 G3/2 A/2 G3/2 A/2 B3/2 c/2| D4 C2 z2|
+S:https://www.folktunefinder.com/tunes/145344
+S:http://back.numachi.com:8000/dtrad/abc/CAMPNERO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

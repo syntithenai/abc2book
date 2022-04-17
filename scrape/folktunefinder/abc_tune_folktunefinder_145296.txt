@@ -1,0 +1,59 @@
+X:1
+T:Concerto in A minor for Violin
+T:First Movement - Allegro
+T:Vivaldi A minor Violin Concerto
+C:Antonio Vivaldi
+Z:from poor copy re- and over- annotated with changed bowings and slurs
+Z:ijs(at)alum.mit.edu 2001.xii.21
+Q:200
+M:4/4
+K:Amin
+L:1/8
+e|aaaa ac'/b/ ac'/b/|ac'/b/ ag/f/ ed/c/ Be|cA Ae aaaa|
+a/g/f/e/ fd gggg|g/f/e/d/ ec ffff|f/e/d/c/ dB eeee|
+e/d/c/B/ cA z/A/c/e/ aa|a/A/c/e/ aa a/A/c/e/ _bb|_ba/^g/ a=b d4|
+d/E/^G/B/ dd d/E/G/B/ dd|d/E/^G/B/ de cB/A/ fe/d/|ea E^g a2 ze|
+aaaa ac'/b/ ac'/b/|ac'/b/ ag/f/ ed/c/ Be|cA Ae eg/f/ ee|
+ag/f/ ee _bg/f/ ee|a^c dF Gd A,c|d2 zd df/e/ dd|
+gf/e/ dd af/e/ dd|gB cE Fc G,B|c2 ze ec/d/ ee|
+ec/d/ ee ef/g/ ag/f/|ed/c/ Be cA Ae|\
+L:1/16
+eABA eABA aABA EABA|
+AABA eABA gABA EABA|GABA eABA fABA DABA|FABA dABA f2ag f2f2|
+d'3c' bagf e2cd efga|d2Bc defg c2AB cdef|B2GA Bcde c2AB cdef|
+d2Bc defg e2cd efga|\
+L:1/8
+^dB ze eg/^f/ ee|ag/^f/ ee bg/f/ ee|
+c'^d eG Ae B,d|e2 z B eeee|eg/^f/ eg/f/ eg/f/ ed/c/|
+BA/G/ ^FB GE EB|eeee e/d/c/B/ cA|dddd d/c/B/A/ BG|
+cccc c/B/A/G/ A^F|BBBB B/A/G/^F/ GE|a^f/g/ aa a^f/g/ aa|
+a^f/g/ ab g3 f/e/|ba/g/ ^f/e/^d/f/ eE ze|ba/g/ ^f/e/^d/f/ eE zb/c'/|
+d'd'd'd' eb/c'/ d'd'|eb/c'/ d'c'/b/ c'A A, a/b/|c'c'c'c' da/b/ c'c'|
+da/b/ c'b/a/ bG G,g/a/|_bbbb eg/a/ bb|\
+L:1/16
+^cefg agfe f2d2 D2de|
+fd=cB gfed e2c2 C2cd|ecBA fedc d2B2 B,2Bc|dBA^G edcB c2A2 A,2cd|
+L:1/8
+e^f/^g/ ag/f/ eA A,c/d/|e^f/^g/ ag/f/ eA A,c/d/|\
+ed/c/ B/A/^G/B/ AA, ze|
+aaaa ac'/b/ ac'/b/|ac'/b/ ag/f/ ed/c/ B^g|\
+L:1/16
+acBA ecBA acBA EcBA|
+a^cBA ecBA acBA ag^fe|^f^FED AFED dFED A,FED|
+D^FED d=cBA BB,A,G, DB,A,G,|GB,A,G, dBAG gBAG g=fed|
+eGFE cGFE cAGF dAG^F|dBAG eBA^G ecBA =fcBA|
+fdcB =gdcB gedc aed^c|a^fed ba^gf gE^GB d2d2|
+dE^GB d2d2 dEGB d2e2|c2BA f2ed e2a2 E2^g2|a4 z2e2 a=gae agae|
+^fede fgaf gfgd g=fgd|edcd efge fefc fefc|
+dcBc defd edeB edeB|cAce a2a2 aAce a2a2|aAce _b2b2 b2a^g a2=b2|
+d8 dE^GB d2d2|dE^GB d2d2 dEGB d2e2|c2BA f2ed e2a2 E2^g2|a16|
+S:https://www.folktunefinder.com/tunes/145296
+S:http://web.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/~ijs/abc/misc.abc
+S:http://www.mit.edu/%7Eijs/abc/misc.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

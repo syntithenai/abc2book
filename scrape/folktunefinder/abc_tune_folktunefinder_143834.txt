@@ -1,0 +1,32 @@
+X:2
+T:Brudmarsch
+T:efter Pelle Fors
+O:Vikbolandet, stergtland
+S:efter Pelle Fors
+B:Ltar efter Pelle Fors
+R:Marsch
+Z:Bjrn Ek 2008-12-31
+N:Nr 2 i Ltar efter Pelle Fors
+M:2/4
+L:1/8
+K:G
+%
+D|:B2 (B>c)|B2 A2    |GB d>c|cB B2  |
+B2 (B>c)   |B2 A2    |AG B>G|GD D2  |
+B2 (B>c)   |B2 A2    |GB d>c|(cB) B2|
+GB dg      |(bg) (dB)|e>c AF|1G3 D :|2G3 (B/d/)||
+%
+|:gd BG|(DG) Bd |(e>c) AF|(AG) Bd    |
+gd BG  |DG Bd   |e>c AF  |1G3 (B/d/):|2G3||
+%
+S:https://www.folktunefinder.com/tunes/143834
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_92c158.latin.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_92c158.abcm.abc
+% Rhythm Marsch
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

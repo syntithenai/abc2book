@@ -1,0 +1,56 @@
+X:1068
+T:Menuett
+T:BWV anh. 116
+C:Johann Sebastian Bach
+O:Germany
+R:Minuet, menuett
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva116/bwva116-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:G
+V:1
+GBdgAf|g2G2G2|GBdgAf|g2G2G2|e2e2eg|d2d2dg|
+V:2
+G,4D,2|G,,B,,D,G,D,B,,|G,,4D,2|G,,B,,D,G,D,B,,|C,2G,2C,2|B,,2G,2B,,2|
+%
+V:1
+c2dcBc|A6|GBdgAf|g2G2G2|GBdgAf|g2G2G2|
+V:2
+A,,2F,2G,2|D,E,F,D,E,F,|G,4D,2|G,,B,,D,G,D,B,,|G,,4D,2|G,,B,,D,G,D,B,,|
+%
+V:1
+e2dcBA|d2cBAG|(3ABcD2F2|G6::GABAGF|G2E2E2|gfegfe|
+V:2
+C,2E,2G,2|B,,2D,2G,2|C,2C,2D,2|G,2D,2G,,2::E,2^D,2B,,2|E,2B,,2E,,2|E,2G,2B,2|
+%
+V:1
+f2B2B2|gfegfe|f2B2e2|(3fgaB2^d2|e2^def2|g2gfe=d|e2edcB|
+V:2
+B,,^D,F,B,F,D,|E,2G,2B,2|B,,2A,2G,2|A,2B,2B,,2|E,6|B,,2=D,2G,2|C,2D,2E,2|
+%
+V:1
+c2cBAG|F2EFD2|A2D2D2|B2D2D2|c2dcBc|A6|GBdgAf|
+V:2
+A,,2B,,2C,2|D,2A,,2D,,2|F,D,F,D,F,D,|G,D,G,D,G,D,|F,2D,2G,2|D,E,F,D,E,F,|G,4D,2|
+%
+V:1
+g2G2G2|GBdgAf|g2G2G2|e2dcBA|d2cBAG|ABD2F2|G6:|]
+V:2
+G,,B,,D,G,D,B,,|G,,4D,2|G,,B,,D,G,D,B,,|C,2E,2G,2|B,,2D,2G,2|C,4D,2|G,2D,2G,,2:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144594
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva116/bwva116-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva116/bwva116-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva116/bwva116-pno2.abc
+% Rhythm Minuet, menuett
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

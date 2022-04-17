@@ -1,0 +1,27 @@
+X: 1
+T:Lowther Castle. Car.01
+M:6/8
+L:1/8
+Q:90
+S:CarlisleMS,Anon.c1812.AGG's transcription
+R:Air
+O:England
+A:Carlisle
+Z:vmp.Chris Partington
+K:A
+E|A/B/cA d2B|c2d e2c|f2d B2e|{d}cBA GFE|!
+A/B/cA d2B|(c2d) (^d2e)|{d}cBA F2G|A3-A2:|!
+|:e|edc c/d/ec|efg aec|dcB (B/c/d).B|dfa c'gd|!
+cBA A/B/cA|~d2e f2g|aed cBA|(c3 B2)E|]
+S:https://www.folktunefinder.com/tunes/146702
+S:http://www.village-music-project.org.uk/abc/carlisle.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

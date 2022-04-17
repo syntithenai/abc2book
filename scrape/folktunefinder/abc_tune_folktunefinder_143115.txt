@@ -1,0 +1,28 @@
+X: 1
+T: Branten, polska efter Byss-Kalle (nr 7)
+S: efter Byss-Kalle
+B: 57 ltar efter Byss-Kalle nr 7
+N: Uppteckningen r ursprungligen hmtad ur Ruben Liljefors bok Uplndsk Folkmusik.
+N: I originalnoterna r terstllningstecknet i slutet av frstareprisen istllet ett b-frtecken.
+O: Uppland
+R: Slngpolska
+M: 3/4
+K: G
+L: 1/16
+bc' | d'2d'2 d2d2 d'2d'2 | c'2c'2 c2c2 c'2c'2 | b2b2 _B2A2 (a=b)c'a | (ba)gf (ga)bg d2bc' | 
+      d'2d'2 d2d2 d'2d'2 | c'2c'2 c2c2 c'2c'2 | b2b2 _B2A2 (a=b)c'a |1 (ba)gf g4 z2 :|2 (ba)gf g4 |]
+K: Gm
+!tenuto!A4 | (Bc)d2 !tenuto!F4 !tenuto!{GF=E}F4 | (GF)ED {EF}E4 D4 | Bcd2 ABc2 GAB2 | (cB)AG (^FG)AF D2A2 | 
+             (Bc)d2         F4         {GF=E}F4 | (GF)ED {EF}E4 D4 | Bcd2 ABc2 GAB2 |1 (BA)G^F G4 :|2 (BA)G^F G4 z2 |]
+S:https://www.folktunefinder.com/tunes/143115
+S:http://www.folkwiki.se/pub/cache/_Branten_polska_efter_ByssKalle_nr_7_207c15.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

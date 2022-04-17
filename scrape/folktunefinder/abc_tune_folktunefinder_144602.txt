@@ -1,0 +1,19 @@
+X: 1
+T: By Accident
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+ADD BDD|ADD A2 B|ADD BDD|ABd ABd|
+ADD BDD|ADD A2 B|def edB|AFE D3:|
+A2 A ABd|ABd ABd|A2 A ABd|fed BAF|
+A2 A ABd|ABd ABd|fed BAG|FED D3:|
+S:https://www.folktunefinder.com/tunes/144602
+S:http://www.thesession.org/tunes/display/5339
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

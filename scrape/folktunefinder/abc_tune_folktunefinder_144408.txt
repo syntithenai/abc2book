@@ -1,0 +1,28 @@
+X:0520
+T:"The Bush On The Hill"   (air)   0520
+C:after Chief F. O'Neill
+C:moderate
+N:fermata to taste
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_VB"G|(dBAG) (g2fe)|(dBAG) (B2AB)|(cdef) (gfed)|f3e d2zG|
+d2(cB) e3d|(cBAG) A3B|(cdef) (gdec)|B2(A3/2G/2) G2z||
+G|g3/2a/2cb g(fe)d|B3/2A/2B3/2c/2 B3d|e(fg)a g(fe)d|B(dg)f e2ge|
+(dB)(AG) B(dg)e|(dB)(AG) {B}A3B|(c3/2B/2cd) ~e3/2f/2 Hge|dBA3/2G/2 G3|]
+S:https://www.folktunefinder.com/tunes/144408
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0520-BushOnHill.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0520-BushOnHill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Bubble Gum Jig
+C:copyright 1997 Kaubells
+R:Jig
+E:22
+M:6/8
+K:D
+"D"def a2b|a2f d2c|"G"B2c "Em"d2e|"A7"c3 A3|*
+E:12
+"D"def a2b|a2f d2c|"Em"B2e "A7"c2A|1"...D"d3-d2 A:|2"...D"d3-d2 c:|*
+E:22
+"Bm"B3 [A3f3]|B3 [A3f3]|"F#m"edc B2c|d3 A3|*
+"Bm"B3 [A3f3]|B3 [A3f3]|"F#m"edc B2c|"C#m"a3 c3|*
+"Bm"B3 [A3f3]|B3 [A3f3]|"F#m"edc B2c|d3 A3|*
+"G"G2A B2c|d3 B3|"A7"A2B c2d|e3 c3|]*
+T: Last time only, if ending on this song.
+|"A7"A2B c2e|"A7"ABc "D"d3|]
+\bigskip
+S:https://www.folktunefinder.com/tunes/144044
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/bubble-gum.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

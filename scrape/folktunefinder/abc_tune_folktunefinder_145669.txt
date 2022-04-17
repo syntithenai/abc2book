@@ -1,0 +1,23 @@
+X: 19
+T: KITTY OF OULART -- JIG.
+R:jig
+B:Coles pg. 75.8
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/17/02
+M:6/8
+L:1/8
+K:F
+(uA/B/)|(kvc2.F) AGF | (c2.F) AGF | (">,fz"d2.B) (c2.A) | G"4"AG GAB|
+(kvc2.F) AGF | (">,fz"c2.F) AGF | (">,fz"d2.B) (c2.A)|FGF F2:|
+uc|vfef gab|agf edc|dfd cBA|(G2.G) (G2.c)|
+fef gab|agf edc|dfd cAc|(F2 .F) F2:|
+S:https://www.folktunefinder.com/tunes/145669
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/KL.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/KL.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

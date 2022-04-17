@@ -1,0 +1,28 @@
+X: 1
+T: Sonata in G for two flutes and continuo
+T: BWV 1039
+C: J.S.Bach (1685-1750)
+N: Also published as a sonata for viola da gambo and cembalo.
+N: Voice 2 is the gamba part.
+Q: &quot;Adagio&quot;
+M: 12/8
+L: 1/16
+K: G
+V: 1
+[| d24- | d12- d2 c6 B4- |
+| B2A4- A2d2F2 G6- GBA^cdA | FBAGFE F2D2EF/G/ F2AGFE FDA2B^c/d/ |
+| ^c2dcBA d2A2AB/=c/ B2cBAG A2d2FG/A/ | G2AGFE FEDEFG AGBAGF E4e2- |
+V: 2
+[| B2dcBA B2G2AB/c/ {c}B2dcBA BGd2ef/g/ | f2gfed g2d2de/=f/ {f}e2fedc d2a2Bc/d/ |
+| {d}c2dcBA BAGABc dcedcB AGFED2 | a24- |
+| a12- a2 g6 f4- | f2e4- e2a2T^c2 d6- dcedcB |
+S:https://www.folktunefinder.com/tunes/144562
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg06516.html
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

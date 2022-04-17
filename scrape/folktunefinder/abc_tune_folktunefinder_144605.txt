@@ -1,0 +1,26 @@
+X: 1
+T: Bygone Days
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+|:B>A | G4 B>d | g4 f>g | e4 d>c | d4 B>A |
+G4 B>d | d4 B>d | ef/e/ d2 B2 | A4 B>A |
+G4 B>d | g4 f>g | e4 d>c | d4 B>A |
+G4 B>d | d4 c>B | AB/A/ G2 F2 | G4 g>f |
+g4 a>b | a4 g>f | g2 f2 f>e | d4 B>d | 
+e3f g2 | d<B B2 B>d | ef/e/ d2 B2 |A4 g>f | 
+g4 a>b | a4 g>f | g2 f3e | d4 G>A |
+B<g g2 f>e | d<B B2 G>B | AB/A/ G2 F2 | G4 G>A |
+B<g g2 f>e | d<B B2 G>B | AB/A/ G2 F2 | G4 ||
+S:https://www.folktunefinder.com/tunes/144605
+S:http://www.thesession.org/tunes/display/7557
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

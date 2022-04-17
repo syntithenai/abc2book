@@ -1,0 +1,21 @@
+X: 1
+T: Captain Carswell
+M: 4/4
+L: 1/8
+R: strathspey
+K: Ador
+|:A2 A>B A2 B>d|e>dB<d e>dB>A|G>AB>A B2 G>B|d>ed<B e2 d>B|
+A2 A>B A2 B>d|e>dB<d e>dB>A|G2 A>B e2 d>B|1e2 d>B A2 A>G:|2e2 d>B A2 A>d||
+e>fe<d e2 a2|g>ef<d e2 d>B|d>BG>B d2 B>d|e>dB>d d2 B>d|
+e>fe<d e2 a2|g>ef<d e2 d>B|G2 A>B e2 d>B|1e2 d>B A2 A>d:|2e2 d>B A2 A>G||
+S:https://www.folktunefinder.com/tunes/146164
+S:http://www.thesession.org/tunes/display/3512
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

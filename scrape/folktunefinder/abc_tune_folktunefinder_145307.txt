@@ -1,0 +1,26 @@
+X:01
+%%topmargin 3cm
+T:Camel Hump
+C:Danny Noveck
+D:Wild Asparagus. Best of Wild Asparagus.
+D:Wild Asparagus. Call of the wild.
+R:reel
+Q:1/8=142
+M:4/4
+L:1/8
+K:B Aeolian
+B2 f2 df (3fgf | gfed f4 | eaag efgf | edcd (3efe dc |
+B2 f2 df (3fgf | gfed f4 | eaag efgf | [1 edcd cBFA :| [2 edce defa |
+|: bafe f2 df | bafb a4 | afef a2 ef | a2 ec afec | B2 f2 df (3fgf |
+[1 gfed eAce | a2 ag efgf | edce defa :| [2 gfed f4 | eaag efgf | edcd cBFA |]
+S:https://www.folktunefinder.com/tunes/145307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Camel_Hump_Bm.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

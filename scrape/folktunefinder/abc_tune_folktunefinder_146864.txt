@@ -1,0 +1,33 @@
+X:17
+T:Jenny Lind Polka
+R:polka
+H:Used as tune for "Hunt the Snark"
+M:2/4
+L:1/8
+K:D
+P:A
+FA GB | Af f/e/f | Ge e/d/e | Fd dA/G/ |
+FA GB | Af f/e/f | ge c/d/e/c/ | df d2 |]
+P:B
+dB B/c/d/B/ | AF F/G/A/F/ | GE E/F/G/E/ | FD DF/A/ |
+dB B/c/d/B/ | AF F/G/A/F/ | GE E/F/G/E/ | DF D2 |]
+P:C
+AA dF | AGG/F/G | AA gc | ed d/c/d |
+AA dF | AGG/F/G | AA gc | df d2 |]
+P:D
+K:G
+B/c/d B/c/d | eF F/E/F | eF F/E/F | ge d2 |
+B/c/d B/c/d | eF F/E/F | eF DF | GB GA/G/ |]
+S:https://www.folktunefinder.com/tunes/146864
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has history text
+% Has_accompaniment_chords No chords

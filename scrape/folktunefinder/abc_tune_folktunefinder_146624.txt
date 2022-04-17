@@ -1,0 +1,26 @@
+X: 40
+T:Service !
+% Nottingham Music Database
+S:Chris Dewhurst (1983), via PR
+M:4/4
+L:1/4
+K:C
+G"G7"A B|"C"cc de|dd/2c/2 -c2|"Dm"dd eA/2d/2-|"Dm"d4|"G"ee dd|
+cc/2B/2 -B2|"C""e"dc "Eb/dim"BA|"G""d"GG/2A/2 B/2c/2d/2^d/2|"C"ee de|\
+"C7"dd/2c/2 -c2|
+"F"ee dc|"Fm"de/2d/2 -d2|"C""e"dc "Am"BA|"D7"c2 "G7"d2|"C"c2 -"F7"c2|"C"cB c^c\
+||
+"D7"d3/2d/2 ec|d3/2d/2 ec|"G""d"dd eB|"Em""d"dd eB|"Am""d"dd eB|"D7"cd e^f|\
+"G"zg2^f|
+"Dm"=fd/2"G"B^A/2=A/2G/2|"C"cc de|dd/2c/2 -c2|"D7"ee dc|de/2d/2 -d2|\
+"Dm"dc BA|"G7"e2 e2|"C"c4-|c||
+S:https://www.folktunefinder.com/tunes/146624
+S:http://abc.sourceforge.net/NMD/nmd/reelsr-t.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

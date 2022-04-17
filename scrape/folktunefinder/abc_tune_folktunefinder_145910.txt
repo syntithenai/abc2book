@@ -1,0 +1,33 @@
+X:3
+T:Smash the Windows
+T:Roaring Jelly
+S:One Thousand English Country Dance Tunes, Michael Raven
+C:Trad
+M:6/8
+L:1/8
+Q:1/8=400
+K:D
+|:A|DED F2A|d2f ecA|G2B F2A|E2F GFE|DED F2A|d2f ecA|Bgf edc|d3-d2:|
+a|a2f d2f|A2a agf|g2e c2e|A2g gfe|f2d g2e|a2f bag|fed edc|d3-d2a|
+agf fed|Adf agf|gfe ecA|Ace gfe|fed gfe|agf bag|fed edc|d3-d2z||
+% Four-part arrangement using V: for multiple voices
+%
+S:https://www.folktunefinder.com/tunes/145910
+S:http://abc.sourceforge.net/abcMIDI/original/demo.abc
+S:http://home.tele2.fr/studyvox/tablavox/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/abcMIDI/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcmidi.1.8.5/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcmidi.36/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/demo.abc.dos
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/abcMIDI-2005-10-10/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcMIDI/demo.abc
+S:http://abc.sf.net/abcMIDI/original/demo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/galouvielle.free.fr/demo.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

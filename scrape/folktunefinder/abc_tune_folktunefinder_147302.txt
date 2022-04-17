@@ -1,0 +1,22 @@
+X: 2
+T: Rural Felicity
+M: 12/8
+L: 1/8
+R: slide
+K: G Major
+|: d |\
+gfg a2 g f2 A ABc | e2 e d2 c B2 G GB/c/d |
+gfg a2 g f2 A ABc | d2 d cBA G3 G2 :|
+|: A |\
+B2 d g3 f2 d c3 | ded c2 A e2 d B2 ^A |
+B2 d g3 f2 d c2 B | AA/B/c def g3 g2 :|
+S:https://www.folktunefinder.com/tunes/147302
+S:http://www.thesession.org/tunes/display/157
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

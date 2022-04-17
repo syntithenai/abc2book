@@ -1,0 +1,28 @@
+X:1
+T:Brother, Can You Spare a Dime
+M:4/4
+L:1/8
+K:Eb
+ z3/2 C/2 D3/2 C/2 G3/2 E/2 C3/2 G,/2| A,C G F- F4| z3/2 C/2 D3/2 C/2 GE C A-|\
+ A4- A z z2| z3/2 G/2 A3/2 =A/2 B3/2 G/2 E3/2 C/2| D D2D-D =F2 E| D D2 D- D3/2 ^C/2- D3.99999962500005/5.99999925000009 G3.99999962500005/5.99999925000009 =F3.99999962500005/5.99999925000009|\
+ D6 z2| z3/2 C/2 D3/2 C/2 G3/2 E/2 C3/2 G,/2| A,C G F- F4| z3/2 C/2 D3/2 C/2 GE C B-|\
+ B4- B A2 F| G2 B2 BG E2| =B8| z2 c2 c21.333334/16 G21.333334/16 E21.333334/16|\
+ G6 z2| C3/2 D/2 E3/2 F/2 G c3| =B2 G _B- B4| A2 F_A-A B A2| G8| F3/2 E/2 D3/2 E/2 F G3|\
+ E2 C E- E4| D3/2 C/2 =B,3/2 C/2 D E2 C-| C8| C3/2 D/2 E3/2 F/2 G c3|\
+ =B2 G _B- B4| =A2 F_A-A B A2| G8| F3/2 E/2 D3/2 E/2 F G3| E2 C E- E4|\
+ D3/2 C/2 =B,3/2 C/2 D E2 C-| C8| C3/2 D/2 =E3/2 F/2 G4| B21.333334/16 A21.333334/16 G21.333334/16 G4|\
+ B21.333334/16 A21.333334/16 G21.333334/16 _d3/2 c/2 B3.99999962500005/5.99999925000009 B3.99999962500005/5.99999925000009 A3.99999962500005/5.99999925000009|\
+ G8| C3/2 D/2 E3/2 F/2 G3 =A| B21.333334/16 =A21.333334/16 G21.333334/16 G4|\
+ B3/2 =A/2 G3/2 c/2- cB =A d-| d8| e3/2 d/2 c3/2 =B/2 c G2 c| =B2 G _B- B4|\
+ =A2 F _A2 B A2| G8| F3/2 E/2 D3/2 E/2 F G3| e2 c e- e4| d3/2 c/2 =Bc d e2 c-|\
+ c8| c6 z2|
+S:https://www.folktunefinder.com/tunes/143750
+S:http://back.numachi.com:8000/dtrad/abc/BRODIME.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

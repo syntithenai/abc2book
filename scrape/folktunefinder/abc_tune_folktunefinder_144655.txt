@@ -1,0 +1,35 @@
+X:1
+T:Valse des Moulinerien
+Z:Roger Ngaret (Novembre 98)
+R:
+C:Roger Ngaret
+S:
+A:Bretagne
+P:Jouer AABACD
+K:C
+T:A
+M:3/4
+L:1/16
+E4 | "Am"c6d2 c4 | "G"B4 c4 B4 | "Em"E8 E4 | "F"A6B2 A4 |
+"G"G4 D4 F4 | "Em"E8 E4 | D6D2 D4 | "Am"A4 A4 A4 | E8 A,4 |
+C12 | "G"B4 c4 d4 | "Am"c8 E4 | (A12 | A8) |]
+T:B
+G4 | "C"g8 e2d2 | "Am"c4 d4 e4 | "Em"e8 g2e2 | "G"d8 e2d2 |
+"F"c4 A4 c4 | "G"d8 e2d2 | "F"c4 A4 c4 | "G"G8 G4 | "D"A6B2 c4 |
+d4 e4 g4 | "G"d6c2 B4 | E8 E4 | "Am"A6B2 A4 | "C"G4 c4 G4 |
+"F"F4 A4 F4 | "Em"E8 |]
+T:C
+G4 |: "C"e6g2 e4 | "G"d4 G4 d4 | "F"c4 A4 c4 | "Em"B4 G4 E4 | "C"e6g2 e4 |
+"G"d4 G4 d4 | "Am"c4 B4 A4 | "Em"B12 :|
+T:D
+B6c2 B4 | "Am"A4 B4 A4 | "Em"G4 E4 B4 |1 "Am"A4 G4 E4 | "D"^F8 E4 :|2
+"Am"^F4 B4 ^F4 | "Em"E12- | E8 |]
+S:https://www.folktunefinder.com/tunes/144655
+S:http://termen.free.fr/danses/valses/ValsedesMoulinerien.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

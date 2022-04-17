@@ -1,0 +1,19 @@
+X:18
+T:L'esprit de Dieu sme en nous
+C:M. Scouarnec
+M:6/8
+L:1/8
+K:Cm
+"^Refrain"yC|"Dom"C2G GFE|"Fam"F3-F2C|"Dom"E2F"Solm"D2E|"Dom"C3-C2E|"Mib"E2B BAG|"Lab"A3A2B|
+[M:3/8]"Dom"GFE|[M:6/8]"Sib"F3F2G|"Dom"E3"Fam"F3|"Solm"G3G2G|"Mib"G3"Solm"B3|"Dom"c3-c3||
+"^Couplets;"y"Dom"C2C"Lab"E3|"Solm"DED"Dom"C2C|"Dom"E3"Sib"F2F|"Sol"G3-G2G|"Dom"c2c"Mib"B2A|
+"Sol"G3G2G|"Dom"c2c"Mib"B2A|"Sol"G6|:"Dom"G3A2B|"Fam"F3F2F|"Mib"E2E"Fam"F2F|"Sol"G3G3:|
+S:https://www.folktunefinder.com/tunes/145971
+S:http://moinejf.free.fr/messe/messeL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:3560
+T:March
+T:BWV anh. 127
+C:Johann Sebastian Bach
+R:March
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva127/bwva127.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+K:Eb
+V:1
+EG|B2cdeBg2|gfede2[A2c2]|[A2c2][G4B4][F2A2]|(3GFEE4g2|
+(3fed dd dfed|(3edc cc cedc|(3def [df][df][df][df] bd|(3cde [ce][ce][ce][ce] c'e|
+(3db=a (3gfe (3dcBTc2|B6::Bd|f2edcB_a2|Ta2g4G2|
+(3edc (3fed (3gfe ac|Tc2=B4GG|=BGdG GFFF|=BGdF FE ce|
+gc (3fed Td4|c6ed|eBg4_d2|T_d2c4=d2|
+(3efg (3agf (3gfe be|(3dcBB4A2|(3GAB [GB][GB][GB][GB] eG|(3FGA [FA][FA][FA][FA] fA|
+(3GAB [GB][GB] gBAG|(3FGA [FA][FA] fAGF|(3Ged (3cBA (3GFETF2|E6:|
+V:2 %15ma
+E,2|G,2A,F,G,2E,2|B,,2B,2E,2A,2|B,4B,,4|E,2G,F,G,2E,2|
+D,2B,2B,,2B,2|F,,2[F,2=A,2][F,2A,2][F,2A,2]|[F,2B,2][F,2B,2][F,2B,2][F,2B,2]|[F,2=A,2][F,2A,2][F,2A,2][F,2A,2]|
+B,2E,2F,2F,,2|B,,2F,,2B,,,2::B,,2|B,,2C,2D,2B,,2|E,,2E,D, E,F,E,D,|
+C,2D,2E,2F,2|G,,2G,^F,G,2G,,2|G,,2G,,2G,,2G,,2|G,,2G,,2C,2C,2|
+E,2A,2G,2G,,2|C,2C2_B,A,G,F,|G,2E,F,G,2E,2|A,,2A,G,A,2F,2|
+G,2D,2E,2G,2|B,2B,,C,D,2B,,2|E,2E,2E,2E,,2|B,,2[B,,2D,2][B,,2D,2][B,,2D,2]|
+[B,,2E,2][E,B,,-][B,,E,][B,,2E,2][B,,2E,2]|[B,,2D,2][B,,2D,2][B,,2D,2][B,,2D,2]|E,2A,2B,2B,,2|E,2B,,2E,,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144599
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva127/bwva127.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva127/bwva127.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva127/bwva127.abc
+% Rhythm March
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

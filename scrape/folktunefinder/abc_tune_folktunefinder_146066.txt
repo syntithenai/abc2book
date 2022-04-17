@@ -1,0 +1,30 @@
+X:4
+T:Inisheer
+C:Waltz 
+N:Buttons and Bows, First Month of Summer
+R:waltz
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+D2|:"G"B3A B/2d3/2|"Bm"B3A B/2d3/2|"C"E3B AB|
+"D7"D3B A/2G3/2|"G"B3A B/2d3/2|"Bm"B3A B/2d3/2|
+"G/D"G3B "D7"A/2G/2F|[1"G"G4D2:|[2"G"G3A Bd||
+"C"e3f e/2d3/2|"G"B3A Bd|"C"ef ed Bd|
+"Am"e4Bd|"C"e3f e/2"D7"d3/2|"G"B3A B/2d3/2|
+"G/D"D3B "D7"A/2G/2F|"G"G3A Bd|"C"e3f e/2d3/2|
+"G"B3A Bd|"C"gf ed Bd|"Am"e4Bd|"C"e3f "D7"ed|
+"G"B3A B/2d3/2|"G/D"D3B "D7"A/2G/2F|"G"G4|]
+S:https://www.folktunefinder.com/tunes/146066
+S:http://pagesperso-orange.fr/dylo/abc/Airs.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:15
+T:Schottis
+Z:Lennart Sohlman, \"Alta, Swede
+O:Sweden
+M:2/4
+L:1/16
+C:Fritiof Mesch
+R:Schottische
+A:Sveg, H\"arjedalen
+K:Gm
+d2d2 (cB)AB | A2G2 G2(Bd) |\
+f2f2 f2dB | d2d2 d4 | \
+(cd)cA F2(FA) | (BA)G^F G2BG|\
+A2A2 (AG)=F=E | D2D2 D4 |\
+d2d2 (cB)AB | A2G2 G2(Bd) |\
+f2f2 f2=ec | d2d2 d2(d^f)|\
+g2g2 (=fg)fd | (cd)cA c2dB | \
+G2G2 (^FD)FA | G2G2 G4 ::
+=B2(Bc) (de)(fg) | _a2g2 ((3gag) fd |\
+e2c2 (=BG)(Bd) | c2cG (EG)(EC) |\
+F2FG (AB)cd | (ed)eg (fe)dc |
+d2B2 (FA)cA | (BA)Bc d2d2 |\
+d2de (dc)BA | (G^F)AF D4 |
+(^FA)ce (d^c)dB | (GA)G^F A4 |\
+(G^F)GA (BA)Bc | (d^c)dg  d2d2 |\
+(D=E)^FG (AB)AF | G2G2 G4:|
+S:https://www.folktunefinder.com/tunes/143948
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

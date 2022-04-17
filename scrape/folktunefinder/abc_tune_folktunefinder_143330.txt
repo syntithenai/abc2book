@@ -1,0 +1,23 @@
+X: 1
+T: Brian's Bairns
+C: David Sturgeon
+B: 5 Anniversary Dances, Edingurgh Branch RSCDS 1999
+M: 6/8
+L: 1/8
+K: G
+D2 \
+| "G"d2e "D7"d2c | "G"B3 "Em"G3 | "Am"c2d c2B | "D7"A6 \
+| "B7"B2c B2A | "Em"G3 B3 | "A7"A2G F2E | "D"D3- D2D ||
+|| "C"E2F GE2 | "D7"F2G AF2 | "G"G2A BG2 | "C"e3- e2e \
+|  "G"d2e "D7"d2c | "G"B3 "Em"G3 | "Am"A2c "D7"B2A | "G"G3- G |]
+S:https://www.folktunefinder.com/tunes/143330
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j16/BriansBairnsJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/BriansBairnsJ_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

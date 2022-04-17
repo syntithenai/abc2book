@@ -1,0 +1,24 @@
+X: 1
+P: Kesh Jig (Kincora Jig)
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+E \
+| "A"~A3 ABc | "E7"~B3 Bce | "A"fee aee | "E7"fec ecB \
+| "A"~A3 "(F#m)"ABc | "Bm"~B3 "E7"Bce | "A"fee aec | "E7"BAG "A"A2 :|
+|: B \
+| "A"~c3 ece | "D"faf "A"ecA | "A"~c3 ecA | "Bm"~B3 "E7"BAB \
+| "A"~c3 ece | "D"faf "A"ece | "D"~a3 bab | "E7"c'ag "A"a2 :|
+S:https://www.folktunefinder.com/tunes/144180
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KJ01_B.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

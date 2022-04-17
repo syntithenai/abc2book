@@ -1,0 +1,21 @@
+X: 1
+T: Carrickalinga Crab Dance, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+A |:DEF G2^G | A2c c2A | c2^c ^c2^c | ^c2d d2A |
+DEF G2^G | A2c c2A | d2c cAG | F2D D3 :|
+|: dcA c2^c | d2f f2d | f2g g3 | ^g=gf gfd  |
+dcA c2^c | d2f f2d | d2c cAG | F2D D3 :|
+S:https://www.folktunefinder.com/tunes/147059
+S:http://www.thesession.org/tunes/display/6680
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

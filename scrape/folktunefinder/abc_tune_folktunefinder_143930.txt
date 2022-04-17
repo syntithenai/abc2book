@@ -1,0 +1,23 @@
+X:5
+T:Vals fr. Tuna, Medelpad
+C:fr. Eva Marqvardsen
+N:transcribed by Marie Kay Hanssen
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8   %ref note value
+K:Dm
+|: DE |:"3X, inner repeat"FE D^C DE |FE D^C DF |1 "1st & 3rd"A4 A2[] [] [] [] :|2 E4 E2 :|
+ A2 G2 B2 |A4 A2 |A2 G2 F2 |E4 E2 |FA AG FE |"outer repeat"D4  :|
+|:DE | F2 DF DF |E2 ^CE CE |DE FG A=c |B2 GB A2 |
+F2 DF DF |E2 ^CE CE |DE FE D^C |D4  :|
+S:https://www.folktunefinder.com/tunes/143930
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/Mostly_Medelpad_Group.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

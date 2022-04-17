@@ -1,0 +1,26 @@
+X:5
+T:King of the Fairies
+R:Air
+C:Fiddler's Fakebook, via PR
+S:Nottingham Music Database
+M:4/4
+L:1/8
+K:Em
+B,2|"Em"EDEF GFGA|BcBA GFGA|BEE2 EFGE|"D"FGFE D2B,2|
+"Em"EDEF GFGA|BAGB "D"dedc|"Em"B2E2 "D"GFED|"Em"E6:|
+d2|(3ege B2 Bdef|gagf edef|e2B2 B2B^c|"D"ded=c BcdB|
+"Em"e2B2 Bdef|gagf efed|Bd (3efg "D"fe (3def|"Em"e6ef||
+"G"g2g2 "D"f2f2|"G"edBc "D"d2de|dBAF "G"GABc|"D"dBAF GFED|
+"Em"B,2E2 EFGA|B2ef edef|e2B2 "D"BAGF|"Em"E6|]
+S:https://www.folktunefinder.com/tunes/146768
+S:http://www2.redhawk.org:8080/irish/warnock/abc/Alfairs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

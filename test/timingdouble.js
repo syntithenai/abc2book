@@ -1,4 +1,5 @@
 const abcjs = require('abcjs');
+const Fraction = require('fractional').Fraction ;
 var abc = `X: 8
 T: John Ryan's
 Z: NfldWhistler
@@ -14,33 +15,18 @@ fd de/f/|gf ed/e/|fd ec|1 d2 dd/e/:|2 d2 d2||`
 
 abc=`
 X: 1
-T: 1. SO FAHREN DIE DAMEN SO REITEN DIE HERREN
-M:3/4
+T: 1. Drowsy Maggie
+M:4/4
 L:1/8
-O: Europa, Mitteleuropa, Deutschland, Berlin
-K:G
-R: Kinder -, Schaukel -, Knierreiter -, Spiel - Lied
-D2 | G3AB2 | A2D2
-D2 | A3Bc2 | B2G2
-D2 | D2D2D2 | D2D2
-D2 | D2D2D2 | D2D2
-D2 | G2G2G2 | G2G2
-D2 | G2G2G2 | G2G2z2
-d2D2D2 | D2D2D2
-d2D2D2 | D2D2
-% abc-sessionorg_id undefined
-% abc-sessionorg_setting 0
-% abc-sessionorg_setting_id undefined
+K:Edorian
+R: reel
+N: AKA: Drowsey Maggie, Drowsie Maggie, Drowsy Maggy, Maggie Tuirseach, Maggie's Drowsy
+"Em"E2BE E2BE|E2BE "D"AFDF|"Em"E2BE B2Bc|dedB "D"AFDF||! "Em"EEBE dEBE|EEBE "D"AFDF|"Em"EEBE dEBE|dedB "D"AFDF||! "Em"EEB,D EB"D"AF|"Em"GABe "D"dBAF|"Em"EEB,D EB"D"AF|"Em"GAGF EDB,D||! EEB,D EB"D"AF|"Em"GABe "D"dBAF|"Em"EEB,D EB"D"AF|"Em"GAGF EDB,G,||! "Am"A,2EA, A,2EA,|A,2EA, "G"DB,G,B,|"Am"A,2EA, E2EF|GAGE "G"DB,G,B,||! "Am"A,A,EA, GA,EA,|A,A,EA, "G"DB,G,B,|"Am"A,A,EA, GA,EA,|DEDB, "G"DB,G,B,||! "Am"A,A,=CE AGE=C|A,A,=CE AGE=C|A,A,=CE ABAE|=cd=cA "Em"EDCB,||! "Am"A,A,=CE AGE=C|A,A,=CE AGE=C|A,A,=CE AB=cd|ed=ce "Em"BAGF||
+% abc-sessionorg_id 27
+% abc-sessionorg_setting 8
+% abc-sessionorg_setting_id 12413
 % abc-boost 0
-% Rhythm Kinder -, schaukel -, knierreiter -, spiel - lied
-% Titles One title
-% Transcriptions Only 1 transcription
-% Mode major
-% Key G
-% Time_signature 3/4
-% Text Has notes text
-% Has_accompaniment_chords No chords
-
+undefined
 
 
 `
@@ -80,11 +66,13 @@ function multiplyAbcTiming(multiplier,abc) {
         var nextSymbol = abc[c+1]
         var nextNextSymbol = null
         var nextNextNextSymbol = null
+        var modifier = ''
+                    
         if (!inQuote && !inCurlyBracket && !inSquareBracket && isNoteLetter(symbol)) {
             if (c < abc.length + 1) {
                 nextSymbol = abc[c+1]
                 if (isOctaveModifier(nextSymbol)) {
-                    var modifier = nextSymbol = abc[c+1]
+                    modifier = abc[c+1]
                     nextSymbol = nextSymbol = abc[c+2]
                     if (c < abc.length + 3) {
                         nextNextSymbol = abc[c+3]
@@ -93,8 +81,15 @@ function multiplyAbcTiming(multiplier,abc) {
                             nextNextNextSymbol = abc[c+4]
                         }
                     }
-                    var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
-                    newAbc.push(symbol + modifier + abcFraction(decimalToFraction(result.number  * multiplier)))
+                    var result = symbolsToFraction(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
+                    //var f = decimalToFraction(result.number)
+                    var asFraction = new Fraction(result.number.top,result.number.bottom)
+                    var m = decimalToFraction(multiplier)
+                    var multiplierFraction = new Fraction(m.top,m.bottom)
+                    var finalFraction = asFraction.multiply(multiplierFraction)
+                    
+                    //console.log("multiply", [symbol ,nextSymbol, nextNextSymbol, nextNextNextSymbol], result.number ,"by multiplier ",multiplier, ' is ' ,finalFraction)
+                    newAbc.push(symbol + modifier + abcFraction(finalFraction.numerator, finalFraction.denominator))
                     c = c + result.symbolsUsed  + 2
                 } else {
                     if (c < abc.length + 2) {
@@ -104,8 +99,19 @@ function multiplyAbcTiming(multiplier,abc) {
                             nextNextNextSymbol = abc[c+3]
                         }
                     }
-                    var result = symbolsToNumber(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
-                    newAbc.push(symbol + abcFraction(decimalToFraction(result.number  * multiplier)))
+                    
+                    var result = symbolsToFraction(nextSymbol, nextNextSymbol,nextNextNextSymbol) 
+                    //var f = decimalToFraction(result.number)
+                    //console.log('RES',result)
+                    var asFraction = new Fraction(parseInt(result.number.top),parseInt(result.number.bottom))
+                    //console.log('RESasf',asFraction)
+                    var m = decimalToFraction(multiplier)
+                    var multiplierFraction = new Fraction(parseInt(m.top),parseInt(m.bottom))
+                    var finalFraction = asFraction.multiply(multiplierFraction)
+                    //console.log("multiply", [symbol ,nextSymbol, nextNextSymbol, nextNextNextSymbol], result.number ,"by multiplier ",multiplier, ' is ' ,asFraction, finalFraction)
+                    var abcf = abcFraction(finalFraction.numerator, finalFraction.denominator)
+                    //console.log("multiply", finalFraction,modifier,abcf)
+                    newAbc.push(symbol + abcf)
                     c = c + result.symbolsUsed  + 1
                 }
             } else {
@@ -118,6 +124,7 @@ function multiplyAbcTiming(multiplier,abc) {
             c++
         }
       }
+      console.log(newAbc)
       m.abc = newAbc.join('')
       return m 
     })
@@ -132,28 +139,28 @@ function generateAbcFromMeasures(measures) {
 }
 
 // eg /4 becomes 0.25, /2 becomes 0.5, 4 becomes 4.0
-function symbolsToNumber(a,b,c) {
+function symbolsToFraction(a,b,c) {
     if (isSlash(a)) {
         if (isDigit(b)) {
             if (isDigit(c)) {
                 var combined = parseInt(b + '' + c)
-                return {symbolsUsed: 3, number: 1/combined}
+                return {symbolsUsed: 3, number: {top: 1, bottom: combined}}
             } else {
-                return {symbolsUsed: 2, number: 1/b}
+                return {symbolsUsed: 2, number: {top: 1, bottom: b}}
             }
         } else {
-            return {symbolsUsed: 1, number: 1/2}
+            return {symbolsUsed: 1, number: {top: 1, bottom: 2}}
         }
     } else {
         if (isDigit(a)) {
             if (isDigit(b)) {
                 var combined = parseInt(a + '' + b)
-                return {symbolsUsed: 2, number: 1/combined}
+                return {symbolsUsed: 2, number: {top: combined, bottom: 1}}
             } else {
-                return {symbolsUsed: 1, number: 1/a}
+                return {symbolsUsed: 1, number: {top: a, bottom: 1}}
             }
         } else {
-            return {symbolsUsed: 0, number: 1}
+            return {symbolsUsed: 0, number: {top: 1, bottom: 1}}
         }
     }
 }
@@ -163,12 +170,15 @@ function gcd(a, b) {
 }
 
 var decimalToFraction = function (_decimal) {
+    //console.log('DECIMALTOFRACTION',_decimal)
     if (_decimal == parseInt(_decimal)) {
-        return {
+        var a = {
             top: parseInt(_decimal),
             bottom: 1,
             display: parseInt(_decimal) + '/' + 1
         };
+        //console.log('DECIMALTOFRACTION ret a',a)
+        return a
     }
     else {
         var top = _decimal.toString().includes(".") ? _decimal.toString().replace(/\d+[.]/, '') : 0;
@@ -181,26 +191,33 @@ var decimalToFraction = function (_decimal) {
         }
 
         var x = Math.abs(gcd(top, bottom));
-        return {
+        var a = {
             top: (top / x),
             bottom: (bottom / x),
             display: (top / x) + '/' + (bottom / x)
         };
+        //console.log('DECIMALTOFRACTION ret a',a)
+        return a
     }
 }
 
-function abcFraction(fraction) {
-    if (fraction.bottom === 1) {
-        if (fraction.top === 1) {
+function abcFraction(top, bottom) {
+    //console.log('abcfraction',top, bottom)
+    if (bottom === 1) {
+        if (top === 1) {
+            //console.log('abcfraction ret empty top 1')
             return ''
         } else {
-            return fraction.top
+            //console.log('abcfraction ret top '+fraction.top)
+            return top
         }
     } else {
-        if (fraction.bottom === 2) {
+        if (bottom === 2) {
+            //console.log('abcfraction ret bottom is 2 ret /')
             return "/"
         } else {
-            return "/" + fraction.bottom
+            //console.log('abcfraction ret bottom '+fraction.bottom)
+            return "/" + bottom
         }
     }
 }

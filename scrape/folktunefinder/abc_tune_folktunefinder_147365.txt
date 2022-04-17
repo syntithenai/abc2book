@@ -1,0 +1,30 @@
+X: 1
+T: Cat that Ate the Candle, The
+Z: Hiroyuki Yamada
+R: jig
+M: 6/8
+L: 1/8
+T: Cow that Ate the Blanket, The
+D: John Carty & Brian McGrath "The Cat that Ate the Candle"
+Z: Contributed 20040716222256 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Gmaj
+A|B2A BGD|GAG GBd|ege dBG|ABA ABc|
+B2A BGD|GAG GBd|ege dBG|AGF G2:|
+d|gfg efg|fag fed|gfg edB|BAG ABc|
+B2A BGD|GAG GBd|ege dBG|AGF G2:|
+S:https://www.folktunefinder.com/tunes/147365
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/CatthatAtetheCandleThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/CowthatAtetheBlanketThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/CatthatAtetheCandleThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/CowthatAtetheBlanketThe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/slainte_mha%3Ainfoseek.jp/CowthatAtetheBlanketThe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/CatthatAtetheCandleThe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/CowthatAtetheBlanketThe.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

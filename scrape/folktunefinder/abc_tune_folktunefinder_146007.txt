@@ -1,0 +1,43 @@
+X:2
+T:Sopra la battaglia
+T:Tenor
+C:Bernhardino Lupachino, c. 1550
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+%%MIDI ratio 2 1
+%%MIDI gchord off
+M:C
+L:1/4
+%%MIDI transpose -12
+K:F -8va
+z4 f6 f2 f > e d > c B2 A d2 c d e f2
+z F/ G/ A/ B/ c2 =B 
+c2 z F2 G2 A2 F2 G2 A2 B2 G2 F2 G2 A2 B2 G d c f > e d/ c/ B/ A/ B/ A/ G/ F/ G4
+F2 f2 f3 e d f e d c d e d f f e d f2
+z2 z A G B A f e d
+f > e c2 d > c A/ B/ c/ A/ B > A G2 F2
+z F2 F c2 A F f > e d/ c/ B c d > c c B2
+A f f f d d e e f c > d e/ f/ g G > A B/ G/ d A c2 F/ G/ A/ B/ c c2 c F G A B G2
+F2 z [c C] [f F] [d/ D/] [e/ E/] [F/ f/] [c/ G/] A/ B/ c2 B2 A2 G2
+M:3/2
+L:1/2
+F2 F f2 f e2 d c2 =B
+M:C
+L:1/4
+c > d e e
+f d e f d e f f B f f f B F F F B F F F B F2 A > G A/ B/ A F f/ e/ f/ g/ f d
+c c c c f F > G A/ B/ c c c c f > e d d c c c c f > e d d c c c c F2 c2
+d2 e2 f c > d e/ f/ g G > A B/ G/ d2 c A B2 c2 F f2 e d B > c d c2
+z G A2 B2 c2 A2
+B2 c2 F2 f > e d/ c/ B/ A/ B/ A/ G/ F/ G A B c F2 c2 B2 G2 A2 c2 B2 G2
+A2 G2 F2 [d2 D2] [e2 E2] [g2 G2] [f2 F2] [d2 D2] [e2 E2] c2 B2 G2 A c > B A/ G/ B/ A/ G/ F/ [g/ G/] [f/F/] [e/E/] [d/D/]
+[eE] [f2F2] [eE] [f2 F2] f > e d/ c/ B/ A/ B/ A/ G/ F/ G F c2 d > c A B2 A B2 F8 |]
+S:https://www.folktunefinder.com/tunes/146007
+S:http://www.laymusic.org/music/lupachino/battaglia/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

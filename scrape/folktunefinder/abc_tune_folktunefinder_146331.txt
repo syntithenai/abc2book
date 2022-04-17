@@ -1,0 +1,27 @@
+X:1 
+T:Pumpherston hornpipe, The
+C:Big Jim Sutherland
+S:Gerald Trimble, First Flight
+I:speed 400
+M:12/8
+K:Dm
+A,=B,^C | D^CD A,2F E2D ^C2G |FGA f2e d2c B2A | ^G2A ^G2A E2F D3 |
+ EFG FED ^C2A A,=B,^C |
+D^CD A,2F E2D ^C2G | FGA f2e d2c B2A |^G2A EF=G FGA D2F | ED^C A2A, D3 D2e ||
+fed fed e2 a4 | fed fed e2 a4 | fed edc dcB cBA |BAG ^GAF E2D ^C3 |
+DEF DEF ^G2A ^G2A | DEF DEF ^G2A ^G2A|DEF ^CDE FGA GFE | FED A2A, D3 D2e |
+fed fed e2a4 | fed fed e2a4 | fed edc dcB cBA |BAG ^GAF E2D ^C2A, | 
+D^CD A,2F E2D ^C2G | FGA f2e d2c B2A |^G2A EF=G FGA D2F | ED^C A2A, D3 A,=B,^C |
+S:https://www.folktunefinder.com/tunes/146331
+S:http://ceolas.org/pub/tunes/abc.tunes/xsh
+S:http://www.ceolas.org/pub/tunes/abc.tunes/xsh
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

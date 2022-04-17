@@ -1,0 +1,27 @@
+X:0032
+T: "The Brown Thorn"   (2nd setting)   (air)      0032
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after  Sgt.  J.  O'Neill
+C:slow
+Q:1/4=70
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:D
+"_vb"(DE)|(F3/2E/2 F)(ABc)|d3c (BA/2F/2)|(TRE4D2)|{E}HD2 z2(AB/2c/2)|
+d2d3/2e/2 (fd)|{f}e2 d3/2c/2 (BA)|F3/2A/2 B3c|B3/2A/2 A2(AB/2c/2)|
+d2d3/2e/2 (fd)|{f}e2 d3/2c/2 (BA)|FA Bd (c/2d/2e/2f/2|d2z2)(A,3/2B,/2)|
+(D3/2E/2 F3/2E/2) FA|(Bc) d3/2c/2 (BA/2F/2)|(TRE4D2)|HD4|]
+S:https://www.folktunefinder.com/tunes/143798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/32-BrownThorn2nd.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/32-BrownThorn2nd.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

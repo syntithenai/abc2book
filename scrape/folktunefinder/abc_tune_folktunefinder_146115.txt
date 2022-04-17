@@ -1,0 +1,98 @@
+X:565
+T:Capriccio
+T:Op. 26 no. 1
+C:Matteo Carcassi
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:3/4
+L:1/16
+Q:400
+K:C -8va
+V:1
+CGce EGce CGce|CGdf B,Gdf DGdf|G,GBf B,Gdf G,Gdf|CGde EGce CGce|
+V:2
+C4   E4   C4  |C4   B,4   D4  |G,4   B,4   G,4  |C4   E4   C4  |
+%
+V:1
+CGcg EGcg E_Bcg|FAcg FAcf FAce|^Fcdc acdc Dcda|GBdg G,2FG EGDG|
+V:2
+C4   E4   E4   |F4   F4   F4  |^F8        D4  |G4   G,2 F2E2D2|
+%
+V:1
+CGce EGce CGce|CGdf B,Gdf DGdf|G,Gdf B,Gdf G,Gdf|CGde EGce CGce|
+V:2
+C4   E4   C4  |C4   B,4   D4  |G,4   B,4   G,4  |C4   E4   C4  |
+%
+V:1
+CGcg EGcg E_Bcg|FAcg FAcf ^Fc_ea|Gc=ec gcec G,FGB|CEGc C4 z4|
+V:2
+C4   E4   E4   |F4   F4   ^F4   |G8         G,4  |C4   C4 z4|
+%
+V:1
+E,^GeG ^F,AeA ^G,BeB|A,cec B,BeB CAeA|D^GeG fGeG DGeG|CAeA fAeA CAeA|
+V:2
+E,4    ^F,4   ^G,4  |A,4   B,4   C4  |D8         D4  |C8        C4  |
+%
+V:1
+E,^GeG ^F,AeA ^G,BeB|A,cec B,BeB CAeA|C^FdF eFdF CFdF|B,GdG eGdG B,GdG|
+V:2
+E,4    ^F,4    ^G,4   |A,4   B,4   C4  |C8         C4  |B,8        B,4  |
+%
+V:1
+G,GfG A,GfG B,GfG|CGeG DGdG EGcG|G,GfG A,GfG B,GfG|CGeG DGdG EGcG|
+V:2
+G,4   A,4   B,4  |C4   D4   E4  |G,4   A,4   B,4  |C4   D4   E4  |
+%
+V:1
+Acfc gcfc Acfc|Gcec fcec Gcec|^Fcdc acdc Dcda|GBdg G,2FG EGDG|
+V:2
+A8        A4  |G8        G4  |^F8        D4  |G4   G,2 F2E2D2|
+%
+V:1
+CGce EGce CGce|CGdf B,Gdf DGdf|G,GBf B,Gdf G,Gdf|CGde EGce CGce|
+V:2
+C4   E4   C4  |C4   B,4   D4  |G,4   B,4   G,4  |C4   E4   C4  |
+%
+V:1
+CGcg EGcg E_Bcg|FAcg FAcf ^Fc_ea|Gc=ec gcec G,FGB|CGcG eGEG DGCG|
+V:2
+C4   E4   E4   |F4   F4   ^F4   |G8         G,4  |C6     E2D2C2 |
+%
+V:1
+B,Gdg eGG,G A,GB,G|CGcG eGcG A,Ace|F,FAF dFAF G,DGB|CGcG eGEG DGCG|
+V:2
+B,6      G,2A,2B,2|C8        A,4  |F,8        G,4  |C6     E2D2C2 |
+%
+V:1
+B,Gdg eGG,G A,GB,G|CGcG eGcG A,Ace|F,FAF dFAF G,DGB|CGEG gGEG eGEG|
+V:2
+B,6      G,2A,2B,2|C8        A,4  |F,8        G,4  |C8        e4  |
+%
+V:1
+cGEG E,GEG G,GEG|CGEG gGEG eGEG|cGEG E,GEG G,GEG|[E12G12c12]|
+V:2
+c4   E,4   G,4  |C12           |c4   E,4   G,4  |C12        |
+%
+V:1
+[E4G4c4][G4c4e4][E4G4c4g4]|[e12g12c'12]|[G12c12e12]|H[E12G12c12]|]
+V:2
+C4      C4      C4        |C12         |[C12E12]   |[E,12C12]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/146115
+S:http://abc.musicaviva.com/tunes/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/carcassi-matteo/carc-26-01/carc-26-01-gtr2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

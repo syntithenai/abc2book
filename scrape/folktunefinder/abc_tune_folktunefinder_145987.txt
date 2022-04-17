@@ -1,0 +1,25 @@
+X:3
+T:Die welt, die hat einen tummen sin
+T:Tenores
+C:Glogauer Liederbuch, No. 256
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:6/8
+L:1/2
+K:D dor bass
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -24
+a f > g a2 f2 f c g f2 g f c f g f d f c2
+c'2 f a2 g f d2 c2 c' b > g a g/ "(1)"c'  b/ b/ a/ c' > a g c'2 _b a f e c f g
+d/ c/ d f d c2 c' >  f a/ _b/ c'2 d' c' a g a g > a f c/ e c/ d A/ B/ c d A2 Ha2 |]
+N:(1) Modern edition I transcribed from has a dot on this note, which causes the "measure" to be the wrong length.
+S:https://www.folktunefinder.com/tunes/145987
+S:http://www.laymusic.org/music/glogauer/256/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

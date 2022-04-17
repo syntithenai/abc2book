@@ -1,0 +1,21 @@
+X: 1
+T: Braeroy Road
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DB,|: ~A,3 A,B,D | E2D F2E | DFE DFA | ~B3 ABc |
+d2d cBA | cdB AFE | ~D3 EDE |1 FEE EDB, :|2  FDC ~D3 ||
+|: DFA DGB | DAc d2e | fed ecA | cdB ABc | ~d3 cBA |
+BdB AFE | ~D3 EDE |1 FEE EFE :|2 FDC ~D3 ||
+S:https://www.folktunefinder.com/tunes/142841
+S:http://www.thesession.org/tunes/display/8982
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

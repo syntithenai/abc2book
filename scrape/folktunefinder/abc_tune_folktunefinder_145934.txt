@@ -1,0 +1,66 @@
+X: 1
+T: Canon
+C: C:Johann Pachelbel (1653-1706)
+S: Paul Busman (Chiff and Fipple)
+Z: Transcribed from scanned copy
+M: C
+L: 1/4
+T:Variations on a Ground Bass
+G:For 3 tenor recorders.
+N:There are 4 voices: bass (optional) and 3 melody voices.
+N:Each of the voices starts when the previous one has played
+N:two complete measures, to create the canon effect.
+N:All voices stop together, at the end. The stopping points of
+N:each melody voices are marked with fermatas at the end of the score.
+Z: Contributed 20031112221149 by Glauber Ribeiro theglauber@yahoo.com
+K: D
+"(Bass starts)"z4 | z4 | f e d c | B A B c | d c B A | G F G E | \
+L:1/8
+DF AG FD FE | DB DA GB AG |
+FD Ec df aA | BG AF Dd Td>c | \
+L:1/16
+dcdd cAEF DdcB cfab | gfeg fedc BAGF EGFE |
+DEFG AEAG FBAG AGFE | DBBc dcBA GFEB ABAG | F2f2 e4 z2d2 f4 | B4 A4 B4 c4 |
+d2d2 c4 z2B2 d4 | d6d2 d2g2 e2a2 | \
+L:1/32
+a2fg a2fg aABcdefg f2de f2FG ABAGAFGA |
+G2BA G2FE FEDEFGAB G2BA B2cd ABcdefga|f2de f2ed ecdefedc d2Bc d2DE FGFEFdcd|
+B2dc B2AG AGFGABcd B2dc d2cB cdedcdBc | \
+L:1/8
+dz cz Bz dz | Dz Dz Dz Ez |
+zA zA zF zA | zG zF zG ze | \
+L:1/16
+fFGF Eefe dFDB AAGA |
+BBcB AAGA BBAB ccBc | Dded ccdc BBAB ccfe |
+ddeg fFAf dgfg eAGA | FAAA AAAA FFFF FFAA |
+GGGd dddd ddBB AAec | Afff eeee dddd aaaa |
+bbbb aaaa bbbb cccc | dD/E/FD cc/d/ec BB/c/dB cA/G/FE |
+DG/F/EG FD/E/FA GB/A/GF EA/G/FE | Fd/c/dF AA/B/cA Fd/e/fd ff/e/dc |
+BB/A/Bc df/e/df gd/c/BB AEAA | \
+L:1/8
+A3A D3A | G2 A2 Gd d>c | dd c2 B2 A2 |
+D>E F2 B2 E>E | F>f f/g/f/e/ d>d d/e/d/c/ | B2 d2 d/=c/B/c/ A>A | \
+A>a a/b/a/g/ f>f f/g/f/e/ |
+d/=c/B/c/ A>A Gd ^c>c | dd2c B2 A- | AG2F- F>E E2 | Ff2e dd2=c | B2 dA B2 A2 |
+A2 A>G F2 f>e | d3d d2 c2 | "stop #3"Hdd cc BB AA | Gg fF EB Ee | \
+"stop #2"HfF Ee dD cc |
+Bg aA G>e AA | "stop #1"HA2 z3 |] x8 \
+K:D clef=bass
+|: "Bass"d2 A2 B2 F2 | G2 D2 G2 A2 :|
+S:https://www.folktunefinder.com/tunes/145934
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/Canon.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/VariationsOnAGroundBass.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Canon.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/VariationsOnAGroundBass.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/theglauber%3Ayahoo.com/Canon.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/theglauber%3Ayahoo.com/VariationsOnAGroundBass.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/Canon.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/VariationsOnAGroundBass.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

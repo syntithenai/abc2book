@@ -1,0 +1,36 @@
+X:1
+T:Buerstenbinder
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 44
+N:im buch ganz in C  1. ton g''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+G |:\
+ee cc | d>e ff | dd BB | c>e gg |\
+ee cc | d>e ff | dd BG |1 c3 g :|\
+                       [2 c3 d/e/ ||
+|:\
+ff df | ee ce | dd BB | c>e g d/e/ |\
+ff df | ee ce | dd BG |1 c3 d/e/ :|\
+                      [2 c3 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/144135
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/buerstenbinder_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

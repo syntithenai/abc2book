@@ -59,7 +59,7 @@ for (var filenameKey in fileNames)  {
                     existing.push(id)
                     index.tokens[token] = existing
                 })
-                pushSetting(title, id)
+                pushSetting(stripText(title), id)
             }
           }
         } catch (err) {

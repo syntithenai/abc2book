@@ -1,0 +1,26 @@
+X:0639
+T:"Bumper Squire Jones"  (Thos. Morres Jones) 0639
+C:Turlough O'Carolan
+C:spirited
+Q:1/4=130
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+N:(#65 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+M:6/8
+L:1/8
+K:D
+"^vb"A|{G}FDD D2E|{G}FDD D2E|(F/2G/2A).F (G/2A/2B).A|BEE G2A|
+FDD d2e|e(g/2f/2)(e/2d/2) edc|dBe cAc|dDD D2||
+a|a(f/2g/2)(a/2f/2) d(f/2g/2)(a/2f/2)|b(g/2a/2)(b/2g/2) e(g/2a/2)(b/2g/2)|afd (e/2f/2g).e|cAA A2g|
+(f/2g/2a).f geg|a(f/2g/2)(a/2f/2) geg|fed cBc|dDD D2|]
+S:https://www.folktunefinder.com/tunes/144251
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/639-Bumper_Squire_Jones-ONOC.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

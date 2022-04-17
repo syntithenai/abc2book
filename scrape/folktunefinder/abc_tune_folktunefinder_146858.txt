@@ -1,0 +1,26 @@
+X:11
+T:Morning Star
+R:hornpipe
+H:Used as tune for Shropshire Bedlams' "Morning Star"
+H:The Hounds use the Bledington version rather than the one transcribed
+H:in John Kirkpatrick's "Opus Pocus"
+C:Traditional.
+M:4/4
+L:1/8
+K:G
+GA | BcBG E2 FG | ABAF D2 GA | BcBG E2 AF | D2 G2 G2 :|
+GA | B2 B2 d2 d2 | egfe dcBA | GABc d2d2 | egfe d4 |
+B2 Bc d2d2 | egfe dB G2 | ABcA FGAF | D2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/146858
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 17
+T: Kitty in the Lane -- Reel
+R:reel
+B:Ryan's Mammoth Collection
+N:389
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+M:2/4
+L:1/16
+K:Dmix
+vfe"^Segno"|\
+|]d^cAB =cBcA | GFEG c2ce | d^cAB =cBcA | GFcE EDD2 |
+d^cAB =cBcA | GFEG c2ce | d^cAB cBcA | GFcE EDD2 H |]
+K:D
+|:Adde f2ed | cdef g2fe | dcde f2ed | faeg fdd2 |
+dcde f2ed | cdef g2fg | afge fded | cdeg fdec "^Segno"|]
+S:https://www.folktunefinder.com/tunes/145667
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/KL.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/KL.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

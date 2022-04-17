@@ -1,0 +1,24 @@
+X:490
+T:Lord Kelly's
+R:Reel
+S:Northern Fiddler (appears as an untitled tune)
+S:John Doherty
+M:4/4
+L:1/8
+K:G
+AG|EAAB {d}-c2 BA|GBdc BAGD|EAAB cdef|gedB eA{B}-AG|!
+EAAB {d}-c2 BA|GBdc BGGD|EAAB cdef|{a}-gedB eAAg:||!
+ea{b}-ag edBd|g2 bg edBd|(3ggg bg efge|dBgB {c}-BAAg|!
+ea{b}-ag edBd|(3ggg bg edBd|fabf efge|dBgB {d}-cBAG:||
+S:https://www.folktunefinder.com/tunes/144847
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/athol-il.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/athol-il.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

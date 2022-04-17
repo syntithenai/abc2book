@@ -1,0 +1,41 @@
+X:1
+T:IX. Fantasie: La Rondinella:
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+K: F
+T:Cantus
+L:1/8
+%1
+z8 c8 A2 c3 B A G F2 G2 A2 B2 c2 A2 G4 F2 f4 e2 d4 A2 A2 B2 G4 ^F2 \
+%2
+G4 D4 z2 B4 A2 G2 E2 D4 C2 c4 B2 A4 G4 F2 f4 e2 d2 c4 =B2 c2 G3 A B3 A F3 G A2 \
+%3
+G2 F4 E2 "A"F2 C2 F3 F E2 C2 G4 F E F G A B c2 =B2 c4 =B2 c4 z2 c2 A3 G F4 \
+%4
+z2 f2 d3 c B2 A2 G4 A2 F2 A3 B c4 z2 G2 B3 c d2 G2 ^F2 G4 ^F2 "B"G4 \
+%5
+z2 B4 G4 c3 B A2 G2 F2 E2 F2 C D E F G A B G A B c G B2 A3 E G D F2 E3 D \
+%6
+D4 ^C2 D4 z2 d2 c A B2 A d2 ^c d2 z A G E F G A B c2 B2 A4 G2 A2 F2 E4 z2 D2 \
+%7
+"(1)"F3 G A2 A,2 C3 D E2 F4 E2 F2 c4 B2 A2 c2 B2 A2 G A B G A B c2 B2 A2 G2 F2 \
+%8
+E4 D4 C2 c2 F2 G2 A3 G A2 =B2 c2 c4 =B2 c2 e2 d4 c2 f2 c2 d2 e3 d B2 d2 \
+N: (1) original has F2, quarter note.
+%9
+=B2 c4 =B2 c2 c2 F2 G2 A G F E D2 G2 F2 D2 E2 c2 d2 e2 f e d c B A G2 A2 =B2 c2 A2 G4 HA8|]
+S:https://www.folktunefinder.com/tunes/145996
+S:http://www.laymusic.org/music/morley/rondinella/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

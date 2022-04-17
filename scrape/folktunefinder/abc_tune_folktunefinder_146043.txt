@@ -1,0 +1,21 @@
+X: 1
+T: The Canty Auld Man
+B: Kerr's Violin #1
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: D | "G"G>AG GAB | "C"cee e2g | "G"dBG dBG | "D7"FAA A2D \
+     | "G"GAG GAB | "C"cee e2g | "G"dBG "D7"d2c | "G"BGG G2 :|
+|| A/B/ | "D"cdc AFD | "G"d2B dBG | "C"e2c "G"dBG | "D7"F>AA A2B \
+        | "D"cdc AFD | "G"d2B dBG | "C"efg "D7"dec | "G"B>GG G2 ||
+|| B/c/ | "G"dBG D2B | "D7"cAF D2c | "G"BGB "D7"cAc | "Em"BGB "D7"ABc \
+        | "G"dBG D2B | "D7"cAF D2c | "G"BGB "Am"cAc | "D7"BcA "G"G2 |]
+S:https://www.folktunefinder.com/tunes/146043
+S:http://trillian.mit.edu/~jc/music/book/500/CantyAuldMan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

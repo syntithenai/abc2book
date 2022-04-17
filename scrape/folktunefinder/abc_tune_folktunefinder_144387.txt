@@ -1,0 +1,24 @@
+X: 8
+T: Fluters, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|: B |\
+ABdB AF ~F2 | AFAB ~f3 a | afef dB ~B2 | dBAF E2 ED |
+ABdB AF ~F2 | AFAB ~f3 a | afef dB ~B2 | A2 fe ~d3 :|
+|: e |\
+f2 ed BAFB | ABdf a2 fa | g2 fg edBc | dBAF E2 ED |
+ABdB AF ~F2 | AFAB ~f3 a | afef dB ~B2 | A2 fe ~d3 :|
+(rolls '~' have been added and the notation, as an example, changed from A F3 to AF ~F2...  Also, the lead-ins have been added, for example, from A2 fe d3 e to |: e |\ ~ 'c')
+S:https://www.folktunefinder.com/tunes/144387
+S:http://www.thesession.org/tunes/display/1871
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

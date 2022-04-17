@@ -1,0 +1,22 @@
+X: 1
+T: Carter Bar, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+d>B|(3ABA F>A f>e d>c|B<d [Bg]>B B>AA2|B>c d>B B>A d>f|a>g f>g [A2e2]d>B|
+(3ABA [FA]>A f>e d>c|B<d [Bg]>B B>AA2|B>c d>B c>d e>c|d2 [d2f2] [F2d2]:|
+e>f|g>B A>B g>f e>g|f>d c>d B>A [FA]>A|A>B d>A B>A [FA]>A|[GA]>[FA] [EA]>[DA] [E2A2] e>f|
+g>B A>B g>f e>g|f>d c>d B>A [FA]>A|A>B d>B c>d e>c|d2 [d2f2] [F2d2] e>f|
+g>B A>B g>f e>g|f>d c>d B>A [FA]>A|A>B d>A g>f e>d|(3efe (3dcB A2 d>B|
+(3ABA [FA]>A f>e d>c|B<d [Bg]>B B>AA2|B>c d>B c>d e>c|d2 [d2f2] [F2d2]|]
+S:https://www.folktunefinder.com/tunes/147084
+S:http://www.thesession.org/tunes/display/6453
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

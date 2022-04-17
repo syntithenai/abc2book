@@ -1,0 +1,30 @@
+X:73
+T:Polska (Offerdals polska)
+R:Polska
+O:Sweden
+N:needs abc2mtex for the modal keysig
+M:3/4
+C:e. Gustav Persa
+A:J\"amtland
+K:DLydian
+A>f f<d e>c|(3def (3fed (3efg|1\
+ a>f f<d e>c|(3def fd e2 :|2\
+ a>f f<d e>d|(3{cd}cBc d4:|
+|:\
+(3ABA G<A F>A|cB/A/ (3GAB A2|\
+(3ABA G<A F>A|cB/A/ (3GAB A2|
+(3ABA G<A F>A|cB/A/ (3GAB A>d|\
+d>e (3fgf e>c|d2 d4:|
+S:https://www.folktunefinder.com/tunes/142996
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

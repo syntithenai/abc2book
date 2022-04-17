@@ -1,0 +1,87 @@
+X:1
+T:La B\'ete Blanche.
+C:Jean Blanchard 
+R:
+A:France
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:kopierte handschriftliche noten-blaetter von Maxou Heintzen
+Q:3/4=58
+N:metronom-angabe laut quelle
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:C dor
+V:1
+|:\
+e2d | c2g | g2f | e3 |\
+e2d | c2B | e3 | d3- |\
+d3 |
+V:2
+|:\
+C3 | G3 | E2F | G3 |\
+C3 | F3 | F3 | B3- |\
+B3 |
+|:\
+V:3
+C3 | E2D | C2D | E3 |\
+G3 | A2F | A3 | G3- |\
+G3 |
+%
+V:1
+e2d | c2g | g2f | e3 |\
+e2d | c2B | d3 | c3- |\
+c3 :|
+V:2
+C3 | G3 | E2F | G3 |\
+C3 | F3 | G3 | G3- |\
+G3 :|
+V:3
+C3 | E3 | C2D | E3 |\
+G3 | A3 | D3 | G3- |\
+G3 :|
+%
+V:1
+|:\
+g2a | b2c | b2a | f3 |\
+f2=e | d2c | f3 | d3- |\
+d3 |
+V:2
+|:\
+G3 | F3 | E3 | F3 |\
+A3 | =E2G | B3 | G3- |\
+G3 |
+V:3
+|:\
+G3 | D3 | G3 | D3 |\
+C3 | G3 | D2=E  | G3- |\
+G3 |
+V:1
+g2a | b2c | b2a | f3 |\
+f2=e | d2c | B3 | c3- |\
+c3 :|
+V:2
+G3 | F3 | E3 | F3 |\
+A3 | G2=E| F3 | G3- |\
+G3 :|
+V:3
+B3 | D3 | B3 | D3 |\
+C3 |E>E D/C/ | D3  | C3- |\
+C3 :|
+W:
+W:
+S:https://www.folktunefinder.com/tunes/144018
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/la_bete_blanche.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

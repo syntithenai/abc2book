@@ -1,0 +1,20 @@
+X: 1
+T:Butcher's March
+R:jig
+M:6/8
+L:1/8
+K:G
+~d3 BAB|dBA A2B|ded ~B3|dBA G2B|!
+ded BAB|dBA A2g|faf gfe|1 dBG G2B:|2 dBG GBd||!
+|:eAA fed|eAA ABd|eAA gfe|dBG GBd|!
+eAA fAA|eAA efg|faf gfe|1 dBG GBd:|2 dBG G2B||!
+S:https://www.folktunefinder.com/tunes/144459
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Butchers_March_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

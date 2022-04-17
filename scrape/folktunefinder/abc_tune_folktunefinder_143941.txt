@@ -1,0 +1,33 @@
+X:8
+T:Polska efter Olle Thor, Fun\"asdalen
+Z:Lennart Sohlman, \"Alta, Sweden
+R:Polska
+O:Sweden
+Q:148
+M:3/4
+L:1/8
+A:H\"arjedalen
+K:Dm
+DE ((3FDF) (E^C) | DF A2 (^cd) | \
+((3efe) (df) e^c | ((3^cec) A2 (A2| \
+D)E ((3FDF) (E^C) | DF A2 (^cd) |
+((3efe) (df) e^c |[1 ((3A=B^c) d4 :|[2 \
+((3A=B^c) d3 (e \
+|: f>e) (de) fe | ((3^cec) A2 A>g |
+(f>e) (de) fe | (^c>e) a2 ag | \
+(f>e) (de) fe | ((3^cec) A2 (A2 | \
+D)E ((3FDF) (E^C) | \
+L:1/16
+([^CE][D3D3]) [D8D8] :|
+S:https://www.folktunefinder.com/tunes/143941
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

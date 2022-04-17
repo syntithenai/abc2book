@@ -1,0 +1,28 @@
+X: 81
+T:The Tipsy Parson
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:D
+e|"D"fA fA|f/2g/2f/2e/2 d/2^d/2e/2f/2|"Em"gB gB|\
+"A7"g/2a/2g/2f/2 e/2^d/2e/2=f/2|
+"D"fA fA|"D"f/2g/2f/2e/2 dc/2d/2|"A7"e/2f/2e/2d/2 c/2A/2B/2c/2|\
+"D"d/2f/2e/2c/2 d::
+F/2G/2|"D"AA/2B/2 A/2G/2F/2E/2|D/2F/2A/2d/2 f/2d/2A/2F/2|\
+"D"AA/2B/2 A/2G/2F/2E/2|"A"E3/2E/2 EF/2G/2|
+"D"AA/2B/2 A/2G/2F/2E/2|D/2F/2A/2d/2 fe/2f/2|"Em"g/2f/2e/2d/2 "A7"c/2A/2B/2c/2\
+|"D"d/2f/2e/2c/2 d:|
+S:https://www.folktunefinder.com/tunes/146596
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsR-T.txt
+S:http://www.guitarnut.com/nmd/reelsR-T.txt
+S:http://abc.sourceforge.net/NMD/nmd/reelsr-t.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

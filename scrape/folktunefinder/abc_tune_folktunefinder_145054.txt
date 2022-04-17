@@ -1,0 +1,27 @@
+X: 35
+T: Christmas -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+N:CHRISTMAS HORNPIPE. -- First lady balance to 1st and 2d gents, 3 hands round;
+N:First gent balance to 1st and 2d ladies, 3 hands round; First couple down the
+N:centre, back, cast off; right and left 4.
+L:1/16
+K:Bb
+vFE |\
+ DF kB4 (kFE) | DF kB,4 (kFD) | CE (kc2c)u.d.c.B | Ac kF4 (cd) |
+ edef gebg | dcde fdbf | egce AcFA | B2d2B2 :|
+|: (kFE) |\
+ DFBF GFED | ECcB "4"AGFE | DFBd edcB | AcBG F2(FG) |
+"4"AGAB c=Bcd | edef kg2((3ufed) | fbdf BdFA | B2d2B2 :|
+S:https://www.folktunefinder.com/tunes/145054
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/CD.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

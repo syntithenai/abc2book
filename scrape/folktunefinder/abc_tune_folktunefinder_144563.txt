@@ -1,0 +1,56 @@
+X:3339
+T:War Gott nicht mit uns diese Zeit
+T:BWV 257
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0257/bwv0257-pno2.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:C
+L:1/8
+K:Am
+V:1
+c2|cB AB cd e2|d2 d2 Hc2 c2|B2 AB c2 d2|
+V:2
+A2|G2 F2 ED C2|DE F2 HE2 ^F2|G2 ^F^G A2 A=G|
+V:3
+E2|ED C2 CB, A,G,|A,2 B,2 HC2 C2|D2 D2 E2 A,2|
+V:4
+A,2|E,2 F,G, A,B, C2|F,2 G,2 HC,2 A,2|G,2 D2 A,G, F,E,|
+%
+V:1
+B4 HA2 :|d2|e2 e2 Bc d2|c2 c2 HB2 c2|
+V:2
+F2 ED HC2 :|G2|G2 G2 D3E|^F^G A2 HG2 A2|
+V:3
+A,2 ^G,2 HA,2 :|=G,2|C2 G,A, B,2 A,B,|CD E2 HE2 E2|
+V:4
+D,2 E,2 HA,,2 :|B,,2|C,D, E,F, G,2 ^F,^G,|A,B, CD HE2 A,G,|
+%
+V:1
+d2 AB c2 B2|A2 A2 HG2 c2|B2 AB c2 dc|B4 HA4|]
+V:2
+AG ^F2 E2 DE|F2 F2 HE2 A2|G2 A2 ^GB A=G|F2 ED H^C4|]
+V:3
+D2 D2 G,A, B,2|CB, CD HE2 _E2|D2 D2 E2 A,2|A,2 ^G,2 HE,4|]
+V:4
+^F,E, D,2 E,F, G,2|A,G, A,B, HC2 ^F,2|G,2 F,2 E,C, F,E,|D,B,, E,2 HA,,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144563
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0257/bwv0257-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0257/bwv0257-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0257/bwv0257-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

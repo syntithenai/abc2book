@@ -1,0 +1,23 @@
+X:5
+T:Merrily Kiss the Quaker's Wife
+R:jig
+O:Ireland
+M:12/8
+L:1/8
+K:G
+D | "G" GAB   D2   B "C" c2 A "G" BGE | "G" GAB      DEG "D" A2 A AGE |\
+    "G" GAB   D2   B "C" c2 A "G" BGE | "G" GAB "D" D2 E "G" G3   G2  :|
+c | "G" BGG  "D" AGG "G" BGG  "C" AGE | "G" GAB      DEG "D" A2 A AGA |\
+    "G" BGG  "D" AGG "G" BGG  "C" AGE | "G" GAB "D" D2 E "G" G3   G2  :|
+d | "G" g2 g "D" aga "G" bge      dBd | g2     g     gab "D" a2 a agf |\
+    "G" g2 g "D" fgf "C" efe  "D" dBA | "G" GAB "D" D2 E "G" G3   G2  :|
+S:https://www.folktunefinder.com/tunes/143726
+S:http://www.slowplayers.org/Music/abc/Slides.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

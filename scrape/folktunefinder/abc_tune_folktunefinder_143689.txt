@@ -1,0 +1,35 @@
+X: 1
+T: The Musical Priest
+T: The Broom of the Cowdenknowes
+R: reel
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: This tune is known in Ireland and Scotland under different names.
+N: There is also an unrelated ballad tune called "Broom of the Cowdenknowes".
+M: C|
+L: 1/8
+K: Bm
+|: BA \
+| "Bm"FB~B2 BABd | "A"cBAf ecBA | "Bm"FB~B2 BABd | "A"cBAc "Bm"B2 :|
+|: Bc \
+| "D"d2dc dfed | (3cBA eA fAeA | "Bm"dcBc defb | "A"afec "Bm"B2 :|
+|: Bc \
+| "Bm"dB~B2 bafb | "A"afec ABce | "Bm"dB~B2 bafb | "A"afec "Bm"B2Bc |
+| "Bm"dB~B2 bafb | "A"afec ABce | "Bm"dcBc defb | "A"afec "Bm"B2 :|
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+x8 x8 x8 x8 x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/143689
+S:http://trillian.mit.edu/~jc/music/book/500/BroomOfTheCowdenknowesR_x.abc
+S:http://trillian.mit.edu/~jc/music/book/500/MusicalPriest_x.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

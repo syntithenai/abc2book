@@ -1,0 +1,27 @@
+X: 1
+T:Cape Breton Reel
+M:4/4
+L:1/8
+Q:220
+C:Traditional
+S:From Stanton Taylor
+R:Reel
+Z:Stanton Taylo
+K:D
+|:"D"a2f2b2a2|abaf d2 ed|"A7"c2A2B2c2|"D"dcde f3 fg|!
+a2f2b2a2|abaf d2ed|"A7"c2A2B2c2|1"D"d4 d2 fg:||2"D"d6 AG||!
+|:"D"F2D2E2F2|"G"GFGA B3 ed|"A7"c2A2B2c2|"D"dcde f2 AG|!
+F2D2E2F2|"G"GFGA B2 ed|"A7"c2A2B2c2|1"D"d4 d2 AG:||2"D"d6 fg||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/146092
+S:http://www.blackflute.com/music/tunes/reels/cbreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

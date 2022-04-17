@@ -1,0 +1,41 @@
+X:8
+T:Les Flemmes d'Enfer (with Chords)
+R:two-step
+C:as Played by Steve Riley on his beginner Cajun Accordion CD
+N:This is the first slowed-down version in the "Les flammes d'enfer" section.
+Z:SteveRileyBeginner-02LesFlemmesDEnfer-03-slowerWithChords.mpg
+M:8/4
+L:1/8
+Q:1/4=120
+K:Gmix
+"A part"z2z2 z2"23<"[Bd] "14<"[.D2.d2][.D2.d2] {A}["14<"D3B3]"3>"e | \
+"1>"G"2<"B"3<"d"3>"e "1>"GG "2<"B"13<"[D2d2]"2<"B "1<"A"1>"G G3 "3>"e |\
+GBde GG B[D2d2]"3<"d"2<"Bd "12<"[D3A3]e | \
+GBde GG B[D2d2]B AG {e}"14>"[G3g3] e  | 
+GBde GG "23<"[Bd]z "14<"[D2d2][D2d2] "13<"[D3B3]e | \
+GBde GG B[D2d2][Bd] AG G3 e  |\
+GBde GG B[D2d2]dBd [A3d3] e | \
+GBde GG B[D2d2]B AG [G,3G3] e |] 
+"B part"GBde GG eda"14<"[db] [db][db]{a}"14<"[d3b3] e | \
+GBde [Gg][Gg] eda"14<"[db] [db][db] AG2 e | \
+GBde GG eda"14<"[db] [db][db]{a}"14<"[d3a3] e | \
+GBde [Gg][Gg] ed A[Bd]Ae [G3g3] e |
+GBde GG eda"14<"[db] [db][db]{a}"14<"[d3b3] e| \
+GBde [Gg][Gg] ed A[Bd]Ae [G3g3] e | \
+GBde [Gg][Gg] eda"14<"[db] [db][db]{a}"14<"[d3a3] e | \
+GBde [Gg][Gg] ABdB Ae {e}[G3g3] e|]
+"A part"GBde "4>"gg "23<"[Bd]z "14<"[D2d2][D2d2] {A}"13<"[D3B3]e | \
+GBde2 GB[D2d2]B AG {e}"14>"[G3g3] e  | \
+GBde [Gg][Gg] B[D2d2]dBd [A3d3] e | \
+GBde [Gg][Gg] B[D2d2]B AG [G,3G3] e | \
+GBde [G4g4] "And so on"z4z4 |]
+S:https://www.folktunefinder.com/tunes/144998
+S:http://members.chello.hu/nemethmik/cajun/valse99.abc
+% Rhythm Two-step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 8/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

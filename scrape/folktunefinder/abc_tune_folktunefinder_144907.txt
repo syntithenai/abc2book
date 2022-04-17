@@ -1,0 +1,25 @@
+X:85
+T: Westmeath
+S: "Treoir"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+D | EFG A2 B | cBc E2 D | DEF GFA | GED GED |
+EFG A2 B | cBc EFG | ABA GFE | FDD D2 :|
+e | fed cde | fdd d2 e | fgf e2 d | cAA ABc |
+def gfg | age dec | ABA GFE | FDD D2 :|
+S:https://www.folktunefinder.com/tunes/144907
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

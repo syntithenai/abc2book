@@ -1,0 +1,40 @@
+X:1
+T:Canario 
+C:G. Kapsberger
+Z:abc transcription Taco Walstra (walstra@wins.uva.nl)
+L:1/4
+M:6/4
+K:CM italian7tab
+%%staffsep 2cm
+%%tabrhstyle diamond
+%%barnumberfont Times-Italic 11 box
+%%wordsfont Times 8
+%staff1
+::[,d,a1] > a c1 [,d,a] a c | d ,,,,,d c [a,,,a2] [,d,a1]::[,d,a1]>a c1 ,d ,,,,a ,c |\
+        [,a,,,d1] > ,c ,d1 [,d,,a] ,c [,d,,,,a]::
+%staff2
+[,,aa,,a1] > ,,b ,,d1 c d,,d | [,a,a,d1]>,c [,d,,c1] [ac,,a2] [,,aa1]::\
+        [,d,,,,a1] ,,,,a ,,,a ,,,,,c ,,,,a ,,,a | ,,,,,d1 ,a a [a,,,a][,c,c] [,,aa]::
+%staff3
+[,d,,,,a1]>,,d ,,a1 ,,,a ,,,,a ,,,,,c | [,a,a,d1]>,d ,a1 [a,,,a] [,c,c] [,,aa]::\
+        [,d,,,,a] ,,d/ d c ,,,c ,,a a ,,,a ,c ,a ,,,,a |[,a,,,d],,,f/ ,,a a ,,,a [ac,,a2] [,d,a1]::
+%staff4
+[,,a,,,a1] ,,,a ,,i ,,,h ,h ,,,a|,,,,c ,,,,,d a [,c,c] ,,,,a [,,aa]::\
+        [,,da,,a1]>,,b ,,a1 [,a,a] [,c,c][,,aa]|[a,b,,d1]>,,d ,,b [,,aaa] [,c,c] [,,aa]::
+%staff5
+[,d,a,,a1]>,,,,,a ,,,,,c1 ,,,,,,a ,,,a ,,,,a|[,a,,,d1]>,,,,a ,,,,c1 [a,,,a] ,c [,,aa]::\
+        [,d,a,,a1] ,,d d c ,,,a ,,,,d|[,a,a,d1] d c [a,,,a] [,c,c] [,d,a]::
+%staff6
+[,,aa,,a1]>,,b ,,d1 [,d,a] a c | [,,ba,d1]> ,,d ,,f1 [,c,,a] ,,d [,,aa]::\
+        [,d,a1] ,,,,,,a ,,,,a ,,,a ,d ,b| [da] ,,,,,d [,,aa] [a,d,a] ,,b [,,aa]::
+W:From 'Libro Quarto d'Involatura di Chitarrone'
+W:Facsimile edition available by SPES, Firenze
+S:https://www.folktunefinder.com/tunes/145567
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Kapsberger/canario.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Kapsberger/canario.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

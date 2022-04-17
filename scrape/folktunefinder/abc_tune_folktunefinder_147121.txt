@@ -1,0 +1,25 @@
+X: 1
+T:Casseys Jig
+N:Irish
+M:6/8
+R:Jig
+K:G
+"Not too fast" c3 B3| AGA BGE| DEG (G/A/B).G| "tr"AGA BGE|\
+cec BdB| AGA BGE|
+DEG AGA| BGG G3::\
+g3 edc| Bdg dBG| g2e dBG| ecA A2d|
+(ge/f/g/).e/ (fd/e/f/).d/| ecg dBG| DEG AGA| "tr"BGG G3::\
+(GB).d (GB).d| (Gc).e (Gc).e|
+(GB).d (GB).d| ecA "tr"A3|\
+(GB).d (GB).d| (Gc).e (ef).g| DEG "tr"A>GA| BGG G3:|
+S:https://www.folktunefinder.com/tunes/147121
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Casseys_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Casseys_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

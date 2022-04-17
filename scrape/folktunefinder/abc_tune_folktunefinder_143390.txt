@@ -1,0 +1,20 @@
+X: 1
+T: Bridge Of Athlone, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmin
+|: (3FGA | B>dA>B F>Bd>=B | c>=Bc>d e>dc>_B | A>Bc>d c>BA>G | (3FAc f>g f>ed>c |
+B2 F>B D>F B/d/d/f/ | e>gc>e G>c (3edc | (3Bdc (3BAG F2 G>A | [D2B2] [F2A2] [D2B2] :|
+|: A>B | c>fa>g (3f=eg f>e | d>gb>a g2 g2 | (3=edc (3dcc (3acc (3cAG | (3FAc f>g f>ed>c |
+B2 F>B D>F B/d/f/f/ | e>gc>e (3Gcc (3edc | (3Bdc (3BAG F2 G>A | [D2B2] [F2A2] [D2B2] :|
+S:https://www.folktunefinder.com/tunes/143390
+S:http://www.thesession.org/tunes/display/6534
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

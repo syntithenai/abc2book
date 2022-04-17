@@ -1,0 +1,120 @@
+X:1277
+T:Fuge
+T:BWV 953
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0953/bwv0953.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:C
+L:1/16
+K:C
+V:1
+z4 zcBc AcBc GcBc|FcBc EcBc DcBc BcAB|cedc B2 z2c2 z2B2 z2|
+V:2
+x16|x16|z4 zG^FG EGFG DGFG|
+V:3
+x16|x16|x16|
+%
+V:1
+e2 z2d2 z2c2A2 d2c2|B2 z2c2 z2c2 z2c2 z2|c2 z2c2 z2f2d2 g2f2|
+V:2
+CG^FG B,GFG A,GFE FGEF|GAG=FE2 z2F2 z2E2 z2|A2 z2G2 z2A2 z2d2 z2|
+V:3
+x16|z4 zCB,C A,CB,C G,CB,C|F,CB,C E,CB,C D,CB,A, B,CA,B,|
+%
+V:1
+e2c2 f2e2 d2B2 e2d2|c2A2 d2c2 BcBA Gg^fg|eg^fg dgfg cgfg Bgfg|
+V:2
+G2 z2c2 z2^F2 z2B2 z2|E2 z2A2 z2D2 z2 z4|z16|
+V:3
+C,B,A,G, A,B,G,A, B,,A,G,^F, G,A,F,G,|\
+A,,G,^F,E, F,G,E,F, G,F,G,A, B,G,A,B,|C2C,2 B,,2B,2 A,2A,,2 G,,2G,2|
+%
+V:1
+Ag^fg fgef G=fed efde|Fedc decd EdcB cdBc|DcBA BcAB ^GAG^F Eede|
+V:2
+z16|z16|z16|
+V:3
+C,2A,,2 D,2C,2 B,,2G,,2 C,2B,,2|\
+A,,2F,,2 B,,2A,,2 ^G,,2E,,2 A,,2=G,,2|\
+F,,2D,,2 D,2B,,2 E,2^F,2 ^G,2E,2|
+%
+V:1
+cdcB A2^c2 d2 z2=c2 z2|f2 z2e2 z2dcBA Bfed|cd^cB cd=Bc dfed e_bag|
+V:2
+z4 zAGA FA^GA EAGA|DA^GA CAGA B,AG^F GAFG|A=FED E_BAG FD^C=B, CDB,C|
+V:3
+A,2=G,2=F,2E,2 D,2 z2A,2 z2|A,2 z2A,2 z2A,2 z2 z4|A,2 z2 z4A,2 z2 z4|
+%
+V:1
+fed^c de=cd Bg^fe fc'ba|g^fgab4a4g4-|g2^f2- f2e2a6a2|
+V:2
+DGFE FGEF ^DED^C DECD|E^DE^F G2g2- g2^f2- f2e2|c4B4c2A2^f4-|
+V:3
+A,2 z2 z4A,2 z2 z4|z4 zE^DE CEDE B,EDE|A,E^DE G,EDE ^F,ED^C DECD|
+%
+V:1
+g8-g4-g2g2|^f8-ffe^d ef=de|^c4=c4-ccBA BcAB|
+V:2
+^ffe^d ef=de ^c2A2e4-|eed^c de=cdB8-|BBAG ABGA^F8-|
+V:3
+E,2^F,2G,2E,2 A,D^CB, CDB,C|D,2E,2^F,2D,2 G,2F,2^G,2E,2|\
+A,=G,^F,E, F,G,E,F, ^D,2^C,2D,2B,,2|
+%
+V:1
+G4-G^FGA BAcB AGAF|G4A2B2c8-|c2 z2G2A2B8-|
+V:2
+^FFE^DE4-E6^D2|zE^DE zE2E- E2E2A2G2|^FD^CD zD2D- D2D2G2^F2|
+V:3
+E,2B,,2 =C,2^F,,2 G,,2A,,2 B,,2B,2|\
+E,2E,,2^F,,2G,,2 A,,G,A,G, ^F,A,E,A,|\
+D,2D,,2E,,2^F,,2 G,,^F,G,F, E,G,D,G,|
+%
+V:1
+BcBc ^fcgca8-|a2d2 ga^fg egfg dgfg|cg^fg Bgfg Agfe fgef|
+V:2
+E2 z2 z4 z2A2d2c2|B^FGF EGDG CB,A,B, DB,A,B,|\
+EB,A,B, DB,A,B, CB,A,G, A,B,CA,|
+V:3
+C,2E,2 A,,2C,2 ^F,,CDC B,DA,D|G,4 z4 z8|z16|
+%
+V:1
+Bag^f gafg cbag abga|b2g2 z2Bd g2c2 B2d2|g2A2 G2b2 c'2a2 d2c'2|
+V:2
+DCB,A, B,CDB, EDCB, CDE^F|GABc BAG^F EGFG DGFG|\
+CG^FG B,GFG A,GFE FGEF|
+V:3
+z16|z16|z16|
+%
+V:1
+b2g2 c2_b2 a2f2 =B2a2|g2e2 A2g2 f2d2 B2f2|edcBc12-|
+V:2
+G,=FED EFDE F,EDC DECD|E,DCB, CDB,C D,CB,A, B,CA,B,|C4 zEDE FEDE GEDE|
+V:3
+z16|z16|z4 zC,B,,C, A,,C,B,,C, G,,C,B,,C,|
+%
+V:1
+c8d8-|dGFGc4 zG^FG=f4|zGc2- cc2BH[G8c8]|]
+V:2
+AEDE GEDE F2D2G2F2|E4 zAGAB4 zdcd|e3E D2F2HE8|]
+V:3
+F,,C,B,,C, E,,C,B,,C, D,,C,B,,A,, B,,C,A,,B,,|\
+C,2D,2E,2^F,2 G,2G,,2A,,2B,,2|C,2E,,2F,,2G,,2HC,,8|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144591
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0953/bwv0953.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0953/bwv0953.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0953/bwv0953.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

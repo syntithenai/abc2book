@@ -1,0 +1,23 @@
+X: 1
+T:Bride's Favourite
+M:6/8
+L:1/8
+C:Trad
+R:Jig
+K:G
+G2 A |: ~B3 ~A3 | BdB BAG | B2 B dcB | ABA DFA | ~B3 ~A3 | GBd gdB | A2
+A cB
+A | [1 GFA G2 A :| [2 GFA G2 d :|]
+|: dcB gdB | GBd gdB | cBc ecA | GBd g2d | B2B ABA | GBd gdB | AAA cBA
+ | [1 GFA G2 d :| [2 GFA  [G3B3d3]|]
+S:https://www.folktunefinder.com/tunes/143373
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/Brides_Favourite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

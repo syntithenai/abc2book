@@ -1,0 +1,28 @@
+X:1
+T:Brudmarsch frn Forsheda
+R:Brudmarsch
+Z:C-G Magnusson, 2008-10-31
+O:Forsheda, Smland
+C:D. Forsni
+N:Tempo
+M:C|
+L:1/8
+K:D
+A | "D" a2 ((3aAD) f2 ((3fAD) | "Em" d2 ((3dDG,) B4 | "A7" A2 c>a ge cA | "D" dA/d/ fd/f/ a3 A |
+"D" a2 (3aAD f2 (3fAD | "Em" d2 (3dDG, B4 | "A7" A2 c>a ge cA |1 "D" d2 "A7" d>d "D" d3 :|2 "D" d2 "A7" d>d "D" d4 ||
+|: "G" g2 gg B2 gg | "D" f2 fe d2 ff | "A7" e2 ed ca ge | "D" dA/d/ fd/f/ a3 a |
+"G" g2 gg B2 gg | "D" f2 fe d2 ff | "A7" e2 ed ca ge | "D" d2 "A7" d>d "D" d4 :|
+|: "D" f4 ba fd | "A7" c2 a2 c4 | "A7" g4 c'b ag | "D" f2 b2 a4 |
+"D" f4 ba fd | "A7" c2 a2 "Em "B4 | "A7" A2 c>a ge cA | "D" d2 "A7" d>d "D" d4 :|
+S:https://www.folktunefinder.com/tunes/143853
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_fr%e5n_Forsheda_87a20d.latin.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_fr%e5n_Forsheda_87a20d.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_fr%e5n_Forsheda_87a20d.abcm.abc
+% Rhythm Brudmarsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

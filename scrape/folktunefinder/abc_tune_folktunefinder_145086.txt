@@ -1,0 +1,23 @@
+X: 67
+T: COSMOPOLITE -- REEL., THE
+R:reel
+Z:20020507 John Walsh <walsh:mat:h.ubc.ca>
+M:2/4
+L:1/16
+K:D
+u((3ABc)|.d2.f.d .c2.e.c|(dc).d.B A2FA|.G2EG .F2DF|EDCE D3A,|
+A,B,CD E">4"A2A,|A,B,CD E">4"A2A,|A,B,CD EFGA|1 BAGF E2:|2">"B2">"c2">"d2 H||
+K:A
+|:(cd)|">"e(cAc) ">"e(cAc)|">"e(aga) .f.e.c.d|">"e(cAc) ">"e(cAc)|">"B(GEG) ">"B(GEG)|
+">"e(cAc) ">"e(cAc)|">"e(aga) .f.e.c.d|">"e(cAc) ">"e(cAc)|.B.A.G.B "D.C."A2 :|
+S:https://www.folktunefinder.com/tunes/145086
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/CD.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

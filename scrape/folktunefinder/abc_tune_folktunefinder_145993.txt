@@ -1,0 +1,26 @@
+X:2 
+T:XVIII. Fantasie: La Sampogna
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+K: C
+T:Tenor
+N: Original clef, C on first line
+L:1/4
+C4 E4 D2 F4 E2 C > D E/ F/ G/ A/ B/ A/ B/ c/ d3 c/ B/ A B c3 B \
+S:https://www.folktunefinder.com/tunes/145993
+S:http://www.laymusic.org/music/morley/sampogna/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

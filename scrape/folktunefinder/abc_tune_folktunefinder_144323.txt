@@ -1,0 +1,29 @@
+X:4
+T:Good Friday
+C:Rob Lindauer, chords by Kasha Breau
+M:3/4
+L:1/8
+R:Waltz
+N:I wrote this waltz on Good Friday, 2001, for the wedding of two Hartford
+N:area dancer-musicians, John Kalinowski and Nancy Murphy. The wedding was
+N:May 25, 2001 -- another good Friday. -RL 
+S:for John & Nancy's Wedding
+K:G
+DF|:"G"G3 F GB|"Em"E2 D2 AF|"C"G3 F GB|"G"c2 B2 Bc|"Bm"d3 B dg|
+"C"ed c2Bc|1"Bm"d2 dc Bc|"C"B2 A2 "D"GF:|2"D"d2 cB AF|"G"G4 FG||
+"D"A3 F Ac|"G"BA G2 FG|"D"A3F Ad|"G"Bc d2 cB|"Am"A3 c BA|
+"Bm" Bc d2 cd|1"C"ef g2 fe|"D"dA FD FG:|2"C"ed cB
+"D"AF|"G"G6|]
+S:https://www.folktunefinder.com/tunes/144323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/conntras.org/conntune.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

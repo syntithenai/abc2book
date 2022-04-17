@@ -1,0 +1,35 @@
+X:1198
+T:Carraig's Rant
+C:anon.
+O:Scotland
+S:NLS MS.21744, tunebook of John McKillop, fifer in the 42nd, 1813
+Z:Jack Campin 1998-2000
+F:http://abc.musicaviva.com/tunes/scotland/carraigs-rant.abc
+%Posted June 29th 2000 at abcusers by Jack Campin during a discussion
+%about tune identification algorithms.
+%  Jack said:
+%"Here's a set of tunes that for a dead cert are genetically related.
+%Do any of the tune-matching algorithms suggested here detect that"
+M:4/4
+L:1/8
+K:D
+D3 F A/A/A AB|ABdA F/F/F FD|EFEF     B/B/B Bf|gfed  B2      A/B/d  |
+D3 F A/A/A AB|ABdA F2    ED|GBGB     FAFA    |EFGA TB2     (A/B/d):|
+dedf d/d/d dA|BAdA F/F/F FD|e>fef    e/e/e ef|gfed  B/B/B (TBA)    |
+d3 f d/d/d dA|BAdA F/F/F FD|G/G/G GB F/F/F FA|EFGA TB2     (A/B/d):|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/146920
+S:http://abc.musicaviva.com/tunes/scotland/carraigs-rant.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/carraigs-rant.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/carraigs-rant.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

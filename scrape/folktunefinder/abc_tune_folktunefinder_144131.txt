@@ -1,0 +1,30 @@
+X: 1
+T:Buddy's Jig
+M:6/8
+L:1/8
+Q:112
+C:Glenn Booth (glenn@fiddlebooth.com)
+S:www.fiddlebooth.com
+R:jig
+K:GMaj
+d | "G" BAG dBG | "C" AGE "D" D2 E |
+"Em" GAB dge | "Bm"dBd "C"e2 e |
+"D" def "G" gdB | "C" cde "G" d2 G |
+"Am"  ABc BAG | "D" DFA "G" G2:|
+FE | "D7" DED DEF |
+"G" GBd dBd | "C" ece "G" dBd |
+"D7" cAA FAE | "D7" DED DEF |
+"G" GBd dBG | "Am" ABc BAG |
+"D" DFA "G" G :|
+S:https://www.folktunefinder.com/tunes/144131
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/bu/Buddys_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

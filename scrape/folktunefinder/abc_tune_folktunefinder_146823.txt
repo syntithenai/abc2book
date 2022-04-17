@@ -1,0 +1,25 @@
+X: 1
+T:Carolan's Welcome
+M:3/4
+L:1/8
+C:O'Carolan
+R:waltz
+N:Arranged from The Waltz Book I
+K:G
+GF| "Em" E2 GA B2| E GA B2| "D"AB AG FE| "Bm"D/2E/2F D2 B,2|"Em" G3 F E2| "D"A3 G F| "Bm" GB B, D| "Em"E4 GF|!
+ "Em" E2 GA B2| E2 GA B2| "D" AB AG FE| "Bm" D/2E/2F D2 B,2|"G" d3 c B2| "Am"e3 d BA | "Bm" GB AG FG| "Em" E4 E2|:!
+"Em"B2 ef g2| B2 ef g2| "C"gf ed ef| "G"g2 B2 B2|"Am"c2 ec BA| "G" B2 dB AG| "D"A2 B2 d2| "Em" e6|!
+"C"ed Bd e2| "G"dB AB d2| "Em"BA GA  BG| "D" A2 F2 D2|"Em" G3 F E2| "D"A3 E F2| "Bm"GB B,2 D2|1 "Em" E4 E2:|2 "Em"E4||
+% Output from ABC2Win  Version 2.1 i on 11/28/2004
+S:https://www.folktunefinder.com/tunes/146823
+S:http://internet.cybermesa.com/~keating/music_abc/CAR_WELC.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

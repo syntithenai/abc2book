@@ -1,0 +1,23 @@
+X:90
+T:Polska fr J\"amtland
+R:Polska
+O:Sweden
+M:3/4
+A:J\"amtland
+K:DDor
+D2 E>F (3FED|^C>D E2 F>A|(3GAG (3FED E>^C\
+|1 D>E (3FED E>^C :|2 ^C<D D4::
+A2 (3^GAB A>F|D2E2 F>A|(3GAG (3FED E>^C\
+|1 D>E (3FED E2 :|2 ^C<D D4 :|
+S:https://www.folktunefinder.com/tunes/143013
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

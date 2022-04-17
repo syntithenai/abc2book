@@ -1,0 +1,33 @@
+X:1
+T:Brudmarsch frn Jmtland
+C:Alf Rnnqvist
+R:Marsch
+O:Jmtland
+M:2/4
+L:1/16
+K:G
+V:1
+D4 |: G4 GABc | d4 g2f2 | e2ef g2fe | d6 B2 | c2E2 ^D2E2 | c4 d2c2 |
+B3c BAGB | A6 D2 | G4 GABc | d4 g2f2 | e2ef g2fe |
+D6 D2 | e4 E2E2 | F4 F2F2 | G4 G2G2 |[1 G6 D2 :|[2 !fine!G4 z4]|
+|: B2d2 d2cB | A2c2 c2BA | G2B2 B2AG | FGAF D4 |
+d2f2 f2ed | ^c2d2 e2fe | d4 d2d2 |[1 d6 z2 :|[2 d6 ef ]|
+g4 f2e2 | d4 c2B2 | e4 d2c2 | B6 B2 | e4 E2E2 | F4 F2F2 | G4 G2G2 | "Da capo al Fine" G4 z4 |
+V:2
+D4 |: B,4 B,DGA | B4 E2d2 | c2cd e2dc | B2A2 G2 D2 | E2C2 C2C2 | F2D2 F2A2 |
+G3D DCB,D | D2E2 F2C2 | B4 BDGA | B4 e2d2 | c2cd e2dc |
+B2A2 G2F2 | E2D2 C2A,2 | D2E2 D2C2 | B,4 C2E2 |[1 [DB,]6 D2 :|[2 [DB,]4 z4 ]|
+|: G2B2 B2AG | F2A2 A2GF | E2G2 G2FE | DEFD DFAd |
+f2a2 a2gf | e2f2 g2ag | f2d2 a2G2 |[1 F2G2 F2E2 :|[2 F2G2 A2c2 ]|
+c4 A2c2 | B4c2d2 | c4 F2A2 | ^G4 =F2E2 | [EC]4 [CA,]2C2 | D2E2 D2C2 | B,4 C2E2 | [GD]4 z4 |
+S:https://www.folktunefinder.com/tunes/143857
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_fr%e5n_J%e4mtland_eeced6.abc
+S:http://www.folkwiki.se/pub/cache/Brudmarsch_fr%e5n_J%e4mtland_eeced6.abcm.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

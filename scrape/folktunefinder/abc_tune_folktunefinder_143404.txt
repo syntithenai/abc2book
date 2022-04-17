@@ -1,0 +1,20 @@
+X:1
+T:Bridge Over Troubled Water
+M:4/4
+L:1/4
+K:C
+ F/2F/2| E- D/2 C/2- C2| z2 z F/2 G/2-| G E2 z| z A _B| A| G3 c/2 A/2-|\
+ A3 A| G/2E/4-D/4 C3-| c3| z| z E D C/2 D/2-| D3- D/2 G/2-| G3/2 G/2(2E15.9999925000037/23.999988000006E15.9999925000037/23.999988000006D15.9999925000037/23.999988000006 C15.9999925000037/23.999988000006|\
+ C3/4- D/4- E3| z G e d| c2 d3/2 d/2-| d2 e d| c2 B A| A/2 G3/2 E/2 G3/2|\
+ z A/2c/2 d e| c2 e d| c2 B A| A/2 G3/2 E/2 G3/2| z A/2c/2 d e| c3||\
+S:https://www.folktunefinder.com/tunes/143404
+S:http://back.numachi.com:8000/dtrad/abc/BRIDTRBL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/BRIDTRBL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

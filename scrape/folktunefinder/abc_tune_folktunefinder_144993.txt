@@ -1,0 +1,23 @@
+X:3
+T:High Point Two Step
+R:Two-Step
+M:8/4
+L:1/8
+Q:1/4=160
+K:C
+[Cc][Cc] [Dd][Dd] [Ee][Ee]|[F3f3][Ff] [F2f2][F4f4] [Ff][Ff] [Ee][Ee] [Ff][Ff] |\
+ [G3g3][Ee] [E2e2][E4e4] [Ee][E2e2][Ee][F2f2] |\
+ [G3g3][Dd] [D2d2][D4d4] [Ff][Ff] [Ee][Ee] [Dd][Dd] | [C3c3][Cc] [C2c2][C4c4] :|
+[cc'][cc'] [Bb][Bb] [cc'][cc']|[A3a3][Aa] [A2a2][A4a4] [cc'][cc'] [Bb][Bb] [Aa][Aa] |\
+[G3g3][Ee] [E2e2][E4e4] [Gg][Gg] [Aa][Aa] [Gg][Gg] |1 [G3g3][Dd] [D2d2][D4d4] [Gg][Gg] [Aa][Aa] [Gg][Gg] |\
+[G3g3][Ee] [E2e2][E4e4] :|2 [G3g3][Dd] [D2d2][D4d4] [Ff][Ff] [Ee][Ee] [Dd][Dd] |[C3c3][Cc] [C2c2][C4c4] ||
+S:https://www.folktunefinder.com/tunes/144993
+S:http://members.chello.hu/nemethmik/cajun/valse99.abc
+% Rhythm Two-step
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 8/4
+% Has_accompaniment_chords No chords

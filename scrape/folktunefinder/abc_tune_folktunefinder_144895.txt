@@ -1,0 +1,25 @@
+X:25
+T: Windsor Terrace
+C: B.McComiskey
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: D
+(3ABc|dAFD GFEC|DCDF Adfd|(3gfe dc BA^GB|\
+AECE A2 (3ABc |
+dAFD GFEC|DCDF Adfd|gfec Acec|(3dcd (3edc d2 :|
+(3ABc|dcde f2 (3def|edcB A2 EA|cAEA CA^GB|AECE ABcA |
+dAFD GFEC|DCDF Adfd|gfec Acec|(3dcd (3edc d2 :|
+S:https://www.folktunefinder.com/tunes/144895
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

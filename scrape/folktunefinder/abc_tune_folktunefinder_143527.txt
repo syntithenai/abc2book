@@ -1,0 +1,24 @@
+X:15
+T:Bung Your Eye.
+B:Aird's Airs and Melodies vol 1
+L:1/8
+M:6/8
+Z:Transcriptions by Jack Campin, July 1999.
+%%FILEURL:http://www.purr.demon.co.uk/jack/Music/Aird-v1.abc
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000000f.html
+%%ID:0000000f
+K:AMin
+E|ABA c2d|edc B2A |GAG B2c |dge dB
+G|ABA c2d|edc Bcd |e2A BA^G|A3  A2:|
+G|cde g2a|gec gec |GAG B2c |dge dB
+G|cde g2a|gec de^g|a2A BA^G|A3  A2:|
+S:https://www.folktunefinder.com/tunes/143527
+S:http://www.thesession.org/tunes/display/1153
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

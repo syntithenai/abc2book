@@ -1,0 +1,26 @@
+X:1
+T:Breton Liberation Song
+M:3/4
+L:1/8
+K:C
+ EA B|
+M:3/4
+ c2 A2 GG|
+M:2/4
+ AD AB|
+M:3/4
+ c2 A2 GG| A3 cc d|
+M:2/4
+ ee dc| B2 z| AB c A/2A/2|
+M:3/4
+ A G/2G/2 A2 E2| AB c A/2A/2 AG| A2 z||
+S:https://www.folktunefinder.com/tunes/143277
+S:http://back.numachi.com:8000/dtrad/abc/BRETNLIB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

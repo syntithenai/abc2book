@@ -1,0 +1,26 @@
+X: 2
+T: MAGGIE BROWN'S FAVORITE -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000824210641 by John Chambers John.Chambers:weema.com
+K: G
+ug \
+| dBG GAB | E2E E2c | AFD DEF | G2G G2g \
+| dBG Bcd | E2E E2c | AFD DEF | G3- G2 :|
+(g/a/) \
+| bgb afd | efg gfe | dBg dBG | AFD D(ga) \
+| bgb afd | efg gfe | faf ge^c | d2d de=f |]
+(ec).e (dB).d | (ca).c (Bg).B | Ace dBG | FAF DEF \
+| GAB EFG | ABc def | (gd).B (cA).F | G3- G2 |] "D.C."[|]
+S:https://www.folktunefinder.com/tunes/145753
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/MN.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Sets/MN.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

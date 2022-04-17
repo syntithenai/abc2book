@@ -1,0 +1,35 @@
+X: 6
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/32
+Q:3/8=42
+K:C bass
+P:Variation IV
+G4|A(g^fg agfg) G(gfg) F(gfg agfg) E(gfg)|G(g^fg agfg) F(gfg)
+D(gfg agfg) E(gfg)|
+F(g^fg agfg) ^F(gfg) A(gfg agfg) G(gfg)|E(g^fg agfg) G(gfg) E4
+z4 G4|
+c(g^fg) B(gfg) A(gfg) G(gfg) F(gfg) _E(gfg)|G(g^fg agfg) F(gfg)
+D(gfg agfg) E(gfg)|
+F(g^fg agfg) ^F(gfg) A(gfg agfg) G(gfg)|c(g^fg agfg) G(gfg) c4
+z4 g4|
+g(g^fg) =f(g^fg) e(gfg) e(gfg) d(gfg) c(gfg)|B(g^fg) =f(g^fg)
+d(gfg) B(gfg) d(gfg) e(gfg)|
+f(g^fg agfg) b(gfg) d(gfg agfg) G(gfg)|(cG)GG (Ge)ee (eg)gg c'4
+z4 g4|
+g(g^fg) =f(g^fg) e(gfg) e(gfg) d(gfg) c(gfg)|B(g^fg) =f(g^fg)
+d(gfg) B(gfg) d(gfg) e(gfg)|
+f(g^fg agfg) b(gfg) d(gfg agfg) b(gfg)||"^Coda"(c'g)gg gggg
+(bg)gg (c'g)gg gggg (bg)gg|
+(c'g)gg gggg (bg)gg (c'g)gg gggg (bg)gg|\
+L:1/16
+c'c'/2c'/2 c'c'c'c' c'egc'eg|c4 z e e4 z c|Hc12|]
+S:https://www.folktunefinder.com/tunes/146747
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

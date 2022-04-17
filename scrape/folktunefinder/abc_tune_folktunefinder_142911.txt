@@ -1,0 +1,44 @@
+X:2
+T:Branle de Malte
+C:Adrian le Roy (1589)
+M:6/8
+L:1/8
+K:G treble
+%%tabaddflags 1
+%
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .88 in
+%%indent .50 in
+%%systemsep .40 in
+%
+V:1 clef=treble name=Recorder
+zAB|c2c B>AG|F3Z AB|c>dc B>AG|F3Z>dc|
+B>AB G>AB|cBc ABc|BAG FGF|G3Z>dc|
+B>AB GAB|cBc A2A|B>AG F/E/F/G/F|G3 z AB|
+c2c B>AG|F3Z AB|c2c Bc/B/A/G/|F/E/F/G/(F F)dc|
+B>AB G>AB|c>Bc A>Bc|BAG F>GF|G6|]
+%
+V:2 clef=frenchtab name=Lute
+z3|[,cde2][,ede1][aa,c3]|[,ef,c3][,,a]|\
+[,c,,,c2][,e1][aa,,,a3]|[,ef,c3][,,a]|\
+[aa,c2][a,cc1][a,c,e2][,cc,e1]|[,cde3][,dda2][,dda1]|\
+[,a,c3][,aa,c2][,aa,c1]|[,a,c3][,a]|\
+[aa,c2][a,cc1][a,c,e2][,cc,e1]|[,cde3][,dda/][,c][,d][a][,d,a1]|\
+[,a,c3][,aa,c2][,aa,c1]|[,a,c3][,a]|\
+[,cde2][,ede1][aa,c3]|[,ef,c3][,,a]|\
+[,cde2][,ede1][aa,c3]|[,ef,c2][,ef,c1][,,a3]|\
+[aa,c2][a,cc1][a,c,e2][,cc,e1]|[,cd,,c3][,dda2][,dda1]|\
+[,a,c3][,aa,c2][,aa,c1]|[,a,c,a6]|%abctab2ps format
+%
+S:https://www.folktunefinder.com/tunes/142911
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Le_Roy/branle_de_malte.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Le_Roy/branle_de_malte.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

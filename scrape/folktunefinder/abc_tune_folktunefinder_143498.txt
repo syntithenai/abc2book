@@ -1,0 +1,38 @@
+X:30
+T:the Young Man's Fancy
+A:Wyresdale, Lancashire
+B:Winder collection
+L:1/8
+M:4/4
+N:Em version of "the Cuckoo's nest". Various versions exist
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000060b.html
+%%ID:0000060b
+K:E min
+BA |\
+GFGE g2fe | dBAG c2BA | \
+GFGE DEFD | d2A2 A2BA | \
+GFGE g2fe | dBAG c2BA |
+GFGE DcBA | G2E2 E2 :: \
+B2 |\
+e2e2 efgf | e2B2 B2Bc | \
+d2d2 defe | d2A2 A2gf |
+edef g2fe | dBAG c2BA | \
+GFGE DcBA | G2E2 E2 :: \
+GA | \
+BGEG BGEG | BAGF E2FG |
+AFDF AFDF | AGFE D2GA | \
+BGEG BGEG | BGFE g2fe | \
+dBAG AcBA | G2E2 E2 :|
+S:https://www.folktunefinder.com/tunes/143498
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_leftovers/Winder_leftovers.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

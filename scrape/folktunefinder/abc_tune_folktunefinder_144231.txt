@@ -1,0 +1,44 @@
+X: 1
+T: Bulgar: "Mazl Tov"
+O: Kammen 1-1
+Z: John Chambers <jc:trillian.mit.edu>
+B: Kammen 1 #1
+R: Bulgar
+M: 2/4
+L: 1/8
+K: Dphr^F
+"A"\
+|:"D"~dc =Bc | [dF]z "(Cm)"[eG]z \
+| "D"[d4-F4-] | [d4F4] \
+| "D"~fe de | [fd]z [ge]z \
+| [a4-f4-d4-] | [a4f4d4] |
+| "D"[af][bg] [c'a]z | [c'a]z [c'a]z \
+| [c'a][bg] [bg][af] | [af][ge] [ge][fd] \
+| "D"[fd][ge] [af]z | [af]z [af]z \
+| [af][ge] [ge][fd] | [fd][ec] [ec]d |
+| "Cm"c=B cd | eg fe | "D"d4- | d2 z2 :|\
+"B"\
+|:"Gm"G3 D/G/ | B3 G/B/ \
+| [d4B4] | [d4B4] \
+| [dB][cA] [cA][BG] | [BG]A AG |
+| "D"A4- | A4 \
+| A3 B | c3 d |\
+"Cm"[e4c4G4] | [e4c4G4] \
+| "D"[dF][cE] [cE][BD] | [BD][AC] [AC][GB,] \
+|1 "Gm"[B4D4] | (3dcB (3BAG :|
+|2 "Gm"[G3B,3] A/B/ | [G3B,3] z2 \
+"C"\
+|:"D"[ac][gB] k[f2A2] | [fA][eG] k[d2F2] \
+| "Gm"[dB][gB] [fB][gB] | "D"[afA]z k[d'fd]z \
+| [ac][gB] k[f2A2] | [fA][eG] k[d2F2] \
+| "Cm"[eG][dG] [cG][gG] | "D"[d3F3] z :|
+S:https://www.folktunefinder.com/tunes/144231
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Bulg_MazelTov_Kam1-1_D_harm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bulg_MazelTov_Kam1-1_D_harm.abc
+% Rhythm Bulgar
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

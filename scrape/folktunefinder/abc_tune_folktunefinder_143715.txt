@@ -1,0 +1,25 @@
+X:14
+T:The Rocky Road to Dublin
+R:slip jig
+S:Mike Long
+O:Ireland
+M:9/8
+K:G
+"Am" e=fe "G" d2 B "Am" A3 | "Am" E2 A   A2  A "G" Bcd | "Am" e=fe "G" d2 B "Am" A2 c | "G" B2 A G2 A Bcd :|
+"Am" e2 a {b}a2  f  "G" g3 | "Am" e2 a {b}a2 A "G" Bcd | "Am" e2  a  {b}a2  f  "C" g3 | "G" d2 B G2 A Bcd |
+"Am" e2 a {b}a2  f  "G" g3 | "Am" e2 a {b}a2 A "G" Bcd | "Em/C"    efg    fga    gfe  | "G" d2 B G2 A Bcd ||
+"Am" ecA    ecA    A2    a | "Am" ecA   ecA    "G" Bcd | "Am" ecA    ecA    a2    c   | "G" d2 B G2 A Bcd |
+"Am" ecA    ecA    A2    a | "Am" ecA   ecA    "G" Bcd | "Em/C"    efg    fga    gfe  | "G" d2 B G2 A Bcd |]
+S:https://www.folktunefinder.com/tunes/143715
+S:http://www.slowplayers.org/Music/abc/SlipJigs.abc
+S:http://sf.ccewest.org/music/abc/SlipJigs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

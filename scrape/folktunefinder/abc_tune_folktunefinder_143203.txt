@@ -1,0 +1,29 @@
+X:161
+T:Breestheen Mira
+R:single jig/song air
+N:See #286 for history
+A:Kilkenny
+B:
+O:Irish
+M:6/8
+L:1/8
+K:G
+"With spirit"\
+D|\
+G2 A B2 c|d2 g fdc|ded d2 c|B2 d cAF|
+G2 A B2 c|d2 g fdc|B2 d cAF|GAG G2 z:|
+|:g2 a b2 g|a2 g fdc|ded d2 c|B2 d cAG|
+d2 c BAG|d2 c Bcd|efg dcB|ABA A2 e|
+d2 c BAG|d2 c Bcd|efg d2 B|GAG G2 z:|
+S:https://www.folktunefinder.com/tunes/143203
+S:http://www.sligo-man.com/abc/index2/161.abc
+% Rhythm Single jig/song air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

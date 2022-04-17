@@ -1,0 +1,26 @@
+X: 125
+T: DUXBURY -- HORNPIPE
+C: N. Sampson
+B: Cole's 1000 Fiddle Tunes
+R: hornpipe
+M: C|
+L: 1/8
+Z: Contributed 20000628205606 by John Chambers John.Chambers:weema.com
+K: F
+vAB \
+| cAFA cAfd | cfAc agfe | fgdg bagf | (3gag (3fed c2AB \
+| cAFA cAfd | cfAc agfe | fgdg bage | f2a2f2 :|
+|: vfg \
+| afdg bgec | GABd fcAF | CFAc dfeg | fage c2fg \
+| afdg bgec | GABd fcAF | CFAc dfeg |  fede f2 :|
+S:https://www.folktunefinder.com/tunes/145144
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/CD.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Canarios
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: de | fef gfg | f3 edc | Bcd ~edc |1 d3-d :|2 d3 |
+|: fgf | efe ded | cdc AGA | Bcd efg |1 f3 :| f2d-dA2 |
+|: B2B c2c | d2dzF2 | G2GA2A | F2D-DA2 |
+B2B c2c | d3za2 | g2ga2a |1 d2d-dA2 :|2 d2d-dzz |
+|: dB=c BAG | F3-Fze | fgf edc | d3-d2z :|
+|:dcd cdc | BcB ABA | BAB AGA | F2D-DzA :|
+|: dcd efg | f2fzzd | Bcd cdc |1 d3-dzA :|2 d3-d2 |]
+S:https://www.folktunefinder.com/tunes/145568
+S:http://www.thesession.org/tunes/display/6956
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

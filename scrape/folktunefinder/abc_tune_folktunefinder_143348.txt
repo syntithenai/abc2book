@@ -1,0 +1,28 @@
+X: 2
+P: The Bridal Jig
+Z: John Chambers <jc:trillian.mit.edu>
+B: Cole p.58
+R: jig
+M: 6/8
+L: 1/8
+K: A
+"E7"E \
+| "A"A2A cAc | "E7"efg "A"aga | "D"fdB "A"ecA | "E7"GBA GFE \
+| "A"A2A cAc | "E7"efg "A"aga | "D"fdB "A"ecA | "E7"dBG "A"A2 :|
+K: F#m
+|: c \
+| "Fm"c2f fec | "E"efg "Fm"a2b | c'ba "E"bag | "Fm"f2f fec \
+| "Fm"c2f fec | "E"efg "Fm"a2b | c'ba "E"bag | "Fm"f2f f2 :|
+S:https://www.folktunefinder.com/tunes/143348
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KJ03_B.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Jig_KlezContra03_B.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F-sharp
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

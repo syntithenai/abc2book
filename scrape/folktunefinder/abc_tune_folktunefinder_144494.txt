@@ -1,0 +1,32 @@
+X: 1
+T: Buttered Peas
+M: 2/4
+L: 1/8
+R: polka
+K: Amaj
+|: ce ec | df f2 | ce ec | dB B2 |
+ce ce | df df | ce B/c/d | cA A2 :|
+Ac ea | a/g/f/g/ af | ec cA | dB Bc |
+Ac ea | ag af | ec d/c/B | cA A2 :|
+K: Dmaj
+|: FA AF | GB BG | FA AF | G/F/E/D/ ED/E/ | 
+F/G/A A2 | G/A/B B2 | FA E>G | FD D2 :|
+|: D>F Ad | d/c/B/c/ dB | AF- FD | GE EF/E/ |
+D>F Ad | d/c/B/c/ dB | AF GE | FD D2 :|
+K: Gmaj
+|: Bd d/c/B | ce ed/c/ | Bd D/G/B/d/ | cA FD | 
+B/c/d B/c/d/B/ | ce e2 | Bd A/B/c/A/ |1 BG GG/A/ :|2  BG- GF ||
+|: GB dg | g/f/e/f/ ge | d/B/G/B/ d/B/G/B/ | cA AB/A/ |
+GB dg | g/f/e/f/ g2 | d/B/G/B/ c/A/F/A/ | BG G2 :|
+S:https://www.folktunefinder.com/tunes/144494
+S:http://www.thesession.org/tunes/display/6341
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

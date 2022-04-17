@@ -1,0 +1,21 @@
+X:7
+T: Burnt Potatoes
+C: Larry Cusick
+M: C|
+K: D
+FEDB, A,B,DE | F2AF BFAF | EFAB edef | gfec dBAF |
+FEDB, A,B,DE | F2AF BFAF | EFAB edef | gfec d4 :|
+fd~d2 fdfg | af~f2 bfaf | ge~e2 geae | ABcd efge |
+fd~d2 fdfg | af~f2 bfaf | ge~e2 geae | gfec d4 :|
+S:https://www.folktunefinder.com/tunes/144377
+S:http://zimmer.csufresno.edu/~larryc/tunes.abc
+S:http://zimmer.csufresno.edu/%7Elarryc/tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

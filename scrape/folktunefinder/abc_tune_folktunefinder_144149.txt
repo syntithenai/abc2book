@@ -1,0 +1,26 @@
+X:1
+T:Buffoon, The
+C:Adderbury
+M:2/2
+L:1/8
+A:Adderbury
+P:A(AB)5A
+K:F
+P:A
+F3G  AGFG|A2c2 c4  |F3G  AGFG|A2G2 G4|
+F3G  AGFG|A2c2 c4  |c2BA G2cB|A2F2 F4||
+P:B
+d3e  d2c2|d2F2 F4  |d3e  d2c2|d2F2 F4|
+d3e  d2c2|B3c  B2A2|c2BA G2c2|A2F2 F4||
+S:https://www.folktunefinder.com/tunes/144149
+S:http://www.tomkeays.com/morris/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:cotswold:adderbury:1_buffoon_the.abc
+S:http://www.tomkeays.com/morris/wiki/cotswold/adderbury/buffoon?rev=1157479286
+S:http://www.tomkeays.com/morris/wiki/cotswold/adderbury/buffoon?rev=1157506230
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

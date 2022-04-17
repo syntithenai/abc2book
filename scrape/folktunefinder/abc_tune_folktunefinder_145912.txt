@@ -1,0 +1,32 @@
+X:6
+T:The Friendly Visit
+R:hornpipe
+S:Nottingham Music Database
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+|: BA|\
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"g2df "C"ecAG|"Am"FGAB "D7"cAFD|
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2::
+(3GBd|\
+"G"g2dB GBdg|"Am"e2cA FGAg|"D"f2ed "A7"^cdeg|"D7"(3fgf (3efe dcBA|
+"G"(3GFG DG BGBd|"C"(3cBc AB "D7"cdef|"G"gdBG "D7"FAdc|"G"B2G2 G2:|z2||
+S:https://www.folktunefinder.com/tunes/145912
+S:http://abc.sourceforge.net/abcMIDI/original/demo.abc
+S:http://home.tele2.fr/studyvox/tablavox/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/abcMIDI/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcmidi.1.8.5/demo.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcmidi.36/demo.abc
+S:http://abc.sf.net/abcMIDI/original/demo.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/galouvielle.free.fr/demo.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

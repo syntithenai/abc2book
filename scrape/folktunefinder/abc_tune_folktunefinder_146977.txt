@@ -1,0 +1,26 @@
+X:250
+T: Jim's Red Car
+M: 6/8
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+R: jig
+K: G
+d | ged BAG | EGF EDB | DEG BAG | dBG ABd |
+ged BAG | EGD GED | D2 G BdB | AFD G2 :|
+A | DEG Bcd | ege dBG | DEG BAG | dBG A2 A |
+DEG Bcd |1 ege dBG | DEG BdB | AFD G2 :|
+|2 ege dBd | g2 g agf | gba g2 ||
+S:https://www.folktunefinder.com/tunes/146977
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/j.abc
+S:http://www2.redhawk.org:8080/irish/zouki/j.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/zouki/j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1
+T:Calarem, calarem pas
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+ef |\
+g2efg2 | c2G2c2 | dcd2d2 | e2c2ef |
+g2efg2 | c2G2c2 | dcdedB | c4 :|
+|: cd |\
+e2dcd2 | G4c2 | dcd2d2 | e2c2cd |
+e2dcd2 | G4c2 | BcdedB | c4 :|
+S:https://www.folktunefinder.com/tunes/145013
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/calarem,_calarem_pas.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

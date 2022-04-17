@@ -1,0 +1,24 @@
+X:2
+T:The Brosna Slide #2
+R:slide
+S:Mike Long
+O:Ireland
+M:12/8
+L:1/8
+K:G
+G2 A | "G" B2 B cBA G2 E D2 D | "C" EFG A2 B "D" c2 B AGA |\
+       "G" B2 B cBA G2 E D2 D | "C"   EFG "D" AFD  "G" G3 :|
+GEF  | "G" D2 B BAB  d2 B BAB | "D" D2 F A2 B    c2 B AGA |\
+       "G" D2 B BAB d2 B  BAG | "D/C" A2 A "D" DEF "G" G3 :|
+S:https://www.folktunefinder.com/tunes/143723
+S:http://www.slowplayers.org/Music/abc/Slides.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

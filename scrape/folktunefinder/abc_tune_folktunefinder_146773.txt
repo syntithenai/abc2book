@@ -1,0 +1,26 @@
+X:30
+T:Niel Gow's Lament for the Death of his Second Wife
+R:Air
+C:Niel Gow
+S:unknown, photocopy
+M:3/2
+L:1/8
+K:D
+DB,|A,3B,D2 D3ED2|E2F2A2 B4d2|A2F2D2 E3DE2|{DE}F2D2B,2 B,4DB,||
+A,3B,D2 D3ED2|E2F2A2 d4cB|A2F2D2 {C}B,4A,2|B,2D2D2 D4:|
+(3ABc|d2f2d2 e2c2.A2|BABc{Bc}d2 BAGFED|E3DE2 {DE}F3ED2|F2D2B,2 B,4 (3ABc|
+d2f2.d2 e2c2.A2|BABc{Bc}d2 BAGFED|E3DE2 {DE}F2D2B,2|A,2D2D2 D4 (3ABc|
+d2f2.d2 e2c2.A2|BABc{Bc}d2 BAGFED|FDAFdA BAGFED|{DE}FE2E2E4DB,|
+A,3B,D2 D3ED2|E2F2.A2 d4cB|A2F2D2 {C}B,4A,2|B,2D2D2 D4|]
+S:https://www.folktunefinder.com/tunes/146773
+S:http://www2.redhawk.org:8080/irish/warnock/abc/Alfairs.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

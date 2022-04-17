@@ -1,0 +1,38 @@
+X:29
+T:Polska efter Olof Johansson, N\"asteln
+R:Polska
+Q:148
+N:"Hins polska"
+M:3/4
+L:1/8
+O:Sweden
+A:N\"asteln, S.J\"amtland
+K:Am
+(c/|\
+A>)B {B}c2 (ce) | ((3dBd) ((3cAc) B>(^G | \
+A>)B {B}c2 (ce) | ((3dBd) ((3cAc) B>^G | \
+A2 (a>^g) e2 | ((3dBd) ((3cAc) B>(^G | \
+A>)B {B}c2 (ce) | ((3dBd) ((3cAc) B>(^G | \
+A>)B {B}c2 (ce) | ((3dBd) ((3cAc) B>^G | \
+A2 (a>^g) e2 | ((3dBd) ((3cAc) B>^G |\
+"Fine"A2 A4 || \
+K:G 
+B>e (e>^d) (ef) | {f}g2 ((3gag) fa | \
+g>f eg ((3aga) | b2 B4-|B>e  (e>^d) (ef) | \
+{f}g2 ((3gag) fa | g>f ((3e^de) (fd) |\
+"Da C al Fine" e2 B3 :|
+S:https://www.folktunefinder.com/tunes/143962
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

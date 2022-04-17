@@ -1,0 +1,23 @@
+X: 86
+T: London -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+Z:Bob Puckette  2003-3-8
+M:2/4
+L:1/16
+K:G
+vBc|dgfe dcBA|GBDB .B2(AG)|FADF .A2(GF)|GDEF GABc|
+dgfe dcBA|GBDG .B2(AG)|FGAB cdef|g2g2g2:|
+|:vAG|F"4"ADF .A2(GF)|GBDG .B2(AG)|FADF .A2(GF)|((3GFE) ((3DEF) GABc|
+dgfe dcBA|((3GAB)(uDG) .B2(AG)|FGAB cdef|g2g2g2:|
+S:https://www.folktunefinder.com/tunes/145735
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/KL.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

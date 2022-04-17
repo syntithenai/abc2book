@@ -1,0 +1,23 @@
+X:10
+T:Hunting the Hare
+R:slip jig
+S:Mike Long
+O:Ireland
+M:9/8
+L:1/8
+K:D
+G | "D" F2 A "(A)" ABA d2 A | "G" Bcd e2 d "A" cBA | "D" F2 A "(A)" ABA d2 A | "G" Bcd   "A" edc  "D" d2 :|
+g | "D" f2 d def   "G" g2 e | "A" a2 e   efd   cBA | "D" fef  def   "G" g2 e | "A" a2 f "(G)" edc "D" d2 :|
+S:https://www.folktunefinder.com/tunes/143711
+S:http://www.slowplayers.org/Music/abc/SlipJigs.abc
+S:http://sf.ccewest.org/music/abc/SlipJigs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

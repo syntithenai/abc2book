@@ -1,0 +1,31 @@
+X: 1
+T: BRIGHTON CAMP
+S: RD ex Blunt MSS
+O: Adderbury
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+N: (5-beat bar 4 of B music is given by Miss Blunt -  error)
+N: Presumably usual words for verses. Chorus:-
+W: Oh! let the night be ever so dark or ever so web and windy,
+W: I must return to the Brighton camp, to the girl I left behind me.
+M: 2/2
+L: 1/8
+K: G
+P: A
+Hgf | e2 dc B2 A2 | BB G2 E2 F2 | G>G G2 GA Bc | d4 B2 Hgf |
+      e2 dc B2 AA | B2 G2 E2 GG | F2  A2 D2 EF | G4    G4 ||
+P: B
+      G2 Bc d2 ef | g2 d2 B2 G2 | B2  d2 e2 f2 | g4 f4 Hgf |
+      e2 dc B2 AA | B2 G2 E2 GG | F2  A2 D2 EF | G4    G4 ||
+S:https://www.folktunefinder.com/tunes/143462
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Brighton_Camp_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 2
+T: The Broderick Brothers' Bike
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+|: d ed |\ 
+d2 gd ed | B2 B^A B=A | G2 GD GB | A3 d ed |
+dg gd ed | Bd B^A B=A | GF GD Ad | G3 :|
+K: Gmin
+B AG |\
+A2 AD cA | B2 GB AB | A2 Ac BA | B3 A GD |
+Ad ^cd =cA | Bc de dG | ^FA dc BA | G3 B AG |
+A^G AD cA | BA GB AB | c=B cF fe | e2 d^c d2 |
+d^f ae dc | Bc de dG | ^F2 dc BF | G2 G |]
+S:https://www.folktunefinder.com/tunes/143629
+S:http://www.thesession.org/tunes/display/8814
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

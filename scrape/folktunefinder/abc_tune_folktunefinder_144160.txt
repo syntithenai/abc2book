@@ -1,0 +1,24 @@
+X:11
+T:Bugsy
+C: 2001 Larry Unger
+M:4/4
+Q:1/4=240
+K:D
+"D"DFAd =cABc|BAFA BA=cA|DFAd =cABc|BAFA A2 AA|
+"G7"D=FAD FADF|AD=FA FDED|"D"DFAd =cABc|BAFA BAFA|
+"G7"D=FAD FADF|AD=FA FDED|"D"DFAd =cABc|BAFA A2 Ac|
+"A7"eAce A2A2|"G7"BABd BA=FA|"D"D2 D=F ^FABA|d6 DE||
+"G7"=FDED FDED|=FDEF EDEF|"D"DFAB =cBAc|BAB=c A2DE|
+"G7"=FDED FDED|=FDEF EDEF|"D"D2FA FDA,B,|"D7"=C6 DE|
+"G7"=FDED FDED|=FDEF EDEF|"D"DFAB =cBAc|BAB=c A2 A=c|
+"A7"e2 ce A2 Ac|eAce A2 ef|gfec ecAG|AcAG EDCE||
+S:https://www.folktunefinder.com/tunes/144160
+S:http://www.larryunger.net/tunes/bugsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

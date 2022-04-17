@@ -1,0 +1,67 @@
+X:3
+T:Concerto in A minor for Violin, Mvt 3 Presto
+T:Vivaldi A minor Violin Concerto
+C:Antonio Vivaldi
+Z:from poor copy re- and over- annotated with changed bowings and slurs
+M:2/4
+Q:450
+K:Amin
+L:1/8
+ze ab|c'zbz|a2za|gfed|cBAB|czdz|e2z2|
+ze ab|c'zbz|a2za|gfed|cBAB|czdz|e2ze|
+c'c'c'c'|\
+L:1/16
+c'ddc' c'ddc'|b2b2b2b2|bccb bccb|a2a2a2a2|^g2^fg a2ba|
+L:1/8
+^g^f/g/ ab/a/|^g^f/e/ =fe/d/|e3 f|e3 f|ed/e/ ff|ed/e/ ff|
+e^f/^g/ aa/b/|c'c'/d'/ e'2|zae^g|ae a/c'/b/d'/|c'zbz|a2za|\
+L:1/16
+gafg efde|
+cdBc A2a2|gafg efde|cdBc A2e2|egfg egfe|agfe Agfe|
+fd^cd fdcd|gfed Gfed|ecBc ecBc|fedc Fedc|dBAB dBAB|
+edcB EdcB|cAce abab|cAce abab|^dBd^f abab|^dBd^f abab|
+L:1/8
+g^f/e/ ^d>e|eBe^f|gz^fz|eBe^f|gz^fz|e2 zB|
+L:1/16
+gaga gaga|g2^fg agfe|^fgfg fgfg|^f2ef gfe^d|
+e^fef efef|e2^de ^fed^c|^d2^cd B2 b2|^g2^fg a2ba|
+^g2^fg a2ba|^g2^fe =f2ed|e6 f2|e6 f2|e2de f2f2|e2de f2f2|
+e2^f^g a2ab|c'2c'd' e'2 e2|a2ab c'2c'd'|e'2e2 e2e2|a2ab c'2c'd'|
+e'2e2e2e2|aA,^CE ACEA|^cEAc eAce|gA,^CE GCEG|
+^cEGc eGce|^fD^FA dFAd|^fAdf adfa|c'D^FA cFAc|
+^fAcf acfa|bGAB cdef|gcde fgab|c'geg ecec|
+GcGE Gceg|c'gdg dcdc|GcGD Gcdg|bgdg dBdB|
+GBGD Bdgb|\
+L:1/8
+c' G cd|ezdz|cGcd|ezdz|
+c2 ze|aaaa|ag/^f/ ba|g^f/e/ B^d|eB e^f|
+gz^fz| eBe^f|gz^fz|e2 ze|c'c'c'c'|
+L:1/16
+c'ddc' c'ddc'|b2b2b2b2|bccb bccb|a2a2a2a2|
+^gege bege|be^ge bege|aeee aeee|beee beee|
+c'eee c'eee|d'eee d'eee|\
+L:1/8
+e'eab|c'zbz|a2 za|
+gfed|cBAB|czdz|e2ze|\
+L:1/16
+c'd'c'd' c'd'c'd'|
+c'2bc' d'c'ba|bc'bc' bc'bc'|b2ab c'ba^g|abab abab|
+^g2^fg a2ba|^g2^fg a2ba|^g2^fe =f2ed|ea^ga e2f2|
+ea^ga e2f2|e2de f2f2|e2de f2f2|e2^f^g a2ab|c'2c'd' e'2 e2|
+L:1/8
+feac|BaB^g|a e aa|\
+L:1/16
+^g^fef =g2a2|^fede =f2g2|
+L:1/16
+edcd e2f2|dcBc d2e2|cAce a2c2|B2a2B2^g2|a8||
+S:https://www.folktunefinder.com/tunes/145298
+S:http://web.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/~ijs/abc/misc.abc
+S:http://www.mit.edu/%7Eijs/abc/misc.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

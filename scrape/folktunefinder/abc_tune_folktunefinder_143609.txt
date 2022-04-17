@@ -1,0 +1,25 @@
+X:25
+T:Brochan Lom
+T:Orange and Blue
+N:called a schottische in Skinner SV p.20 (with variations),
+N:Hunter  354
+N:jig or strathspey in Skye p.121
+N:second Kennedy tune-book
+N:p.19, BSFC I-23, keep under O&B name alphabetically
+Z:John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+M:4/4
+L:1/8
+K:D
+[| a>g | "D"f-<d~d2 A-<d~d2 | f>da>f d2ef | "Em"g-<e~e2 B-<e~e2 | "A7"c>Ae>c A2a>g |
+"D"f-<d~d2 A-<d~d2 | f>da>f d2 (3fga | "G"b>g"D"a>f "A7"g>e"D"f>d | "A7"e>c (3ABc "D"d2 |]
+[| a>g | f-<aa2 "F#m"f-<aa2 | "Bm"f>da>f "D"d2e>f | "Em"g-eb>g "A7"e2f>g |
+"D"f-<aa2 "F#m"f-<aa2 | "Bm"f>da>f "D"d2 (3fga | "G"b>g"D"a>f "A7"g>e"D"f>d | "A7"e>c (3ABc "D"d2 |]
+S:https://www.folktunefinder.com/tunes/143609
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfmisc.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

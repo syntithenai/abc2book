@@ -1,0 +1,29 @@
+X:11
+T:Maggie Cameron
+C:trad. pipe tune, composite fiddle setting (KED)
+R:Strathspey
+A:Cape Breton
+N:Transcribed by Kate Dunlay (dungreen@total.net)
+M:C
+L:1/16
+Q:1/4=160
+K:A mixolydian
+(uef3)|ve4 (cA3) ce3c3A|e3cA3c (ce3)(ef3)|e4 (cA3) ce3c3A|d3BG3B (Bd3)(df3)|
+e4 (cA3) ce3c3A|e3cA3c e4 ((3a2g2f2)|e3Ac3A ((3c2d2e2) (c3A)|d3BG3B (Bd3)(df3)||
+vea3c3a e3ac3a|((3g2f2e2) ua3uc (ce3) (ef3)|ea3c3a e3fg3e|((3d2c2B2) ug3uB (Bd3)(df3)|
+ea3c3a e3ac3a|((3g2f2e2) ua3uc e4 ((3e2f2g2)|((3a2g2f2) (g3e) ((3f2e2d2) (e3c)|((3d2c2B2) ug3uB (Bd3)(df3)||
+ve4 (c3e) AAA2 (c3e)|AAA2 (c3e) AAA2 ((3a2g2f2)|e4 (c3e) AAA2 (c3e)|((3d2c2B2) ug3uB (Bd3)(df3)|
+e4 (c3e) AAA2 (c3e)|AAA2 (c3e) AAA2 ((3a2g2f2)|e3Ac3A ((3c2d2e2) (c3A)|((3d2c2B2) ug3uB (Bd3)(df3)||
+vea3a3g f3eab3|a3fe3d ((3c2d2e2) (ef3)|ea3a3g f3ea3c|((3d2c2B2) ug3uB (Bd3)(df3)|
+ea3a3g f3eab3|a3fe3d ((3c2d2e2) ((3e2f2g2)|((3a2g2f2) (g3e) ((3f2e2d2) (e3c)|((3d2c2B2) ug3uB (Bd3)(df3)|]
+S:https://www.folktunefinder.com/tunes/146138
+S:http://trillian.mit.edu/~jc/music/abc/mirror/interlog.com/setotm_archive.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/interlog.com/setotm_archive.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

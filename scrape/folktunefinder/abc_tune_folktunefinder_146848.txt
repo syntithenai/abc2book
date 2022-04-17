@@ -1,0 +1,25 @@
+X:1
+T:Mad Moll of the Cheshire Hunts
+R:hornpipe
+H:A variant of the tune in John Kirkpatrick's "Opus Pocus"
+H:Used as tune for Red Stags Morris dance "Titterstone Clee"
+C:John Locke.
+M:4/4
+K:G
+((3DEF) | G2 g>f e>dc>B | A>Bc>A B2 A2 | G2 g>f e>dc>B | d>cA>F G2 ((3DEF) |
+G2 g>f e>dc>B | A>Bc>A B2 A2 | e2 d2 c2 B2 | c>AF>A G4 |]
+D>GB>G D>GB>G | D>GB>d c2 A2 | D>FA>F D>FA>F | D>FA>c B2 G2 |
+D>GB>G D>GB>G | D>GB>d c2 A2 | e2 d2 c2 B2 | c>AF>A G2 |]
+S:https://www.folktunefinder.com/tunes/146848
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

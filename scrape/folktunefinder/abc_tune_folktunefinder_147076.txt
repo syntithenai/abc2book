@@ -1,0 +1,26 @@
+X:1226
+T:"Carrigaline"       (reel)      1226
+C:after Chief  F. O'Neill
+N:Added DC al Fine command and replaced fermata with Fine Command
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:C
+(3G,A,B,|CB,CD (EG) G2|Adde dcAB|{d}cBcA GEcA|GFED ECA,B,|
+CB,CD (EG) G2|Adde dcAB|{d}cBcA GEcA|GEDE C2z2"^Fine"||
+ TRc2ec gcec|agfd BcdB| TRc2ec gcec|agfd BGAB|
+ TRc2(ec) gcec|agfd BcdB|cBcA GEcA|GEDE "^D.C. al Fine"C2|]
+S:https://www.folktunefinder.com/tunes/147076
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1226-Carrigaline.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

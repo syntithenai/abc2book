@@ -1,0 +1,29 @@
+X:1
+T:Branle de Malte
+C:Adrian le Roy (1589)
+Z:abc transcription Leonard Williams
+M:6/8
+L:1/8
+K:G treble
+%
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .75 in
+%
+zAB|c2c B>AG|F3Z AB|c>dc B>AG|F3Z>dc|
+B>AB G>AB|cBc ABc|\
+BAG FGF|G3Z>dc|B>AB GAB|cBc A2A|
+B>AG F/E/F/G/F|G3 z AB|\
+c2c B>AG|F3Z AB|c2c Bc/B/A/G/|
+F/E/F/G/(F F)dc|B>AB G>AB|c>Bc A>Bc|BAG F>GF|G6|]
+S:https://www.folktunefinder.com/tunes/142910
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Le_Roy/branle_de_malte.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Le_Roy/branle_de_malte.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

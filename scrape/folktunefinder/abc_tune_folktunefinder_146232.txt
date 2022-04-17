@@ -1,0 +1,30 @@
+X: 1
+T:Up Jumped The Devil
+% Nottingham Music Database
+S:Kevin Briggs, via EF
+M:4/4
+K:A
+M:4/4
+L:1/4
+B/2c/2|"A"ee/2e/2 ff|"A"aa fe|"A"ea fe|"E"g3e|"E"e/2g/2b/2e/2 g/2b/2e/2g/2|
+"E"b/2e/2g/2b/2 gf|"E7"e/2f/2g/2e/2 "f#"f"g#"e|"A"a2 -"E7"ae|\
+"A"e/2c/2e/2c/2 f/2c/2f/2c/2|"A"a/2c/2a/2c/2 fe|
+"A7"=gg2g|"D"f3a|"D"a3/2b/2 af|"A"e3/2f/2 ee/2f/2|"Bm"g/2f/2e/2d/2 "E7"cB|\
+"A"A2 "E7"GF|
+"A"EA/2A/2 FA|"A"EA/2A/2 FA|"A"EA/2A/2 FA|"E"Be e2|\
+"E"e/2f/2g/2e/2 f/2g/2e/2f/2|
+"E"g/2e/2f/2g/2 fe|"E7"e/2f/2g/2e/2 fe|"A"a2 -"E7"a2|"A"EA/2A/2 FA|\
+"A"EA/2A/2 FA|
+"A7"E"g"A "f#"c"e"A|"D"d3a|"D"a3/2b/2 af|"A"e3/2f/2 ea|"Bm"g/2f/2e/2d/2 "E7"cB\
+|"A"A3||
+S:https://www.folktunefinder.com/tunes/146232
+S:http://abc.sourceforge.net/NMD/nmd/reelsu-z.txt
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perun.hscs.wmin.ac.uk/~jra/NMD/reelsU-Z.txt
+S:http://www.guitarnut.com/nmd/reelsU-Z.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

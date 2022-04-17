@@ -1,0 +1,35 @@
+X:5
+T:Polska fr\aa{}n H\"ogv\aa{}len
+Z:Lennart Sohlman, \"Alta, Swede
+S:efter Olle Halvarsson
+R:Polska
+O:Sweden
+Q:160
+M:3/4
+L:1/8
+A:H\"arjedalen
+K:A
+(E[AA]) ([AA][ce]) [ce][ee] | ((3efg) (g<a) c>c| \
+{cd}((3cBc) (d>E) GB | (BG) u((3ABc) v(E2-| \
+E[AA]) ([AA][ce]) [ce][ee] | ((3efg) (g<a) c>c |
+{cd}((3cBc) (d>E) GB| \
+L:1/16
+([GB][A3A3]) [A8A8] :: \
+L:1/8
+(A>d) (d[df]) [df][df] | ((3fgf) ([e3e3]z/u.e/)|
+(e>f) [d2f2] [df] z/[d/f/] | ((3ded) u[c2e2] v(A2|\
+A>d) (d[df]) [df][df] | ((3fgf) [e3e3] v(a |\
+gf) (ed) (3B(GB)|\
+L:1/16
+([GB][A3A3]) [A8A8] :|
+S:https://www.folktunefinder.com/tunes/143938
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Lennart.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

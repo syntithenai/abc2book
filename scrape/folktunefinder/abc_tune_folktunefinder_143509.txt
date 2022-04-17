@@ -1,0 +1,21 @@
+X: 1
+T: Brig O' Cally
+M: 4/4
+L: 1/8
+R: barndance
+K: Amaj
+|: e>d | c2 Ac e2 ce | f<a d>f e2 e>d | cA ce f<a ec | c2 B>c B2 e>d |
+c2 Ac e2 ce | f<a d>f e2 e>d | cA cB ce dB | B2 A>B A2 :|
+|: ef/g/ | a>e cA e2 ce | f<a d>f e2 e>d | cA ce f<a ec |
+[1 c2 B>c B2 ef/g/ | a>e cA e2 ce | f<a d>f e2 e>d | cA cB ce dB | B2 A>B A2 :|
+[2 c2 B>c B2 e>d | cA dB ec ce | f<a d>f e2 e>d | cA cB ce dB | B2 A>B A2 ||
+S:https://www.folktunefinder.com/tunes/143509
+S:http://www.thesession.org/tunes/display/7167
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:101
+T:Miss Spence's reel
+S:from one of Tom Andersons books
+R:Reel
+O:Shetland
+N:Made in 1759
+M:4/4
+C:J. Anderson
+K:D
+A | d2AG F2DF | E=C3 c3A | \
+B2AG FE ([A,2D2] | [A,D]) d2c d3 :|\
+|: e |\
+fafd fafd | egec egec | fafd fafd | egec d3 :|
+S:https://www.folktunefinder.com/tunes/145490
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

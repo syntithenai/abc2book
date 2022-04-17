@@ -1,0 +1,30 @@
+X: 1
+T: Castell Caernarfon
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: f/e/ | 
+dBG GBd | ded BAG | BAG GBd | e3 g2 :|
+|: g | 
+deg gfg | afd gdB | gab a>gf | e3 g2 g/a/ |
+bgb afa | ge/f/g edc | dBG GB/c/d | e3 g2 :|
+K: Dmaj
+|: B | 
+AFD DFA | A>BA FED | FED DFA | B2 d dcB |
+AFD D2 F | A2 A FED | FED DFA | B^AB d2 :|
+|: d | 
+AB/c/d dcd | ecA dAF | dd/e/f edc | B3 d2 d/e/ |
+f^ef =edc | dcd BAF | AFE DF/G/A | B>^AB d2 :|
+S:https://www.folktunefinder.com/tunes/147125
+S:http://www.thesession.org/tunes/display/6362
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

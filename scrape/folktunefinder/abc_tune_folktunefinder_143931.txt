@@ -1,0 +1,23 @@
+X: 6
+T: Polska e. Petter Blomberg
+C:taught by Eva Marqvardsen
+N:transcribed by Sarah Kirton, or Karen Myers - can't remember!
+Q:1/4=110     %Tempo
+M:3/4     %Meter
+L:1/8      %ref note value
+K:G
+d>B G2 G2 | G>B (BA) A2 | A>G (FD) (FA) | AB/A/ (GB) d2|
+d>B G2 G2 | G>B (BA) A2 | A>G (FD) (FA) | AB/A/ G4:|
+K: D
+|:(Af) fg/f/ fA |(Ag) ga/g/ gf | (e>d) (cd) ec | (da) ab/a/ aA |
+(Af) fg/f/ fA |(Ag) ga/g/ g(f | e)>(d cd) ec |d(e/f/) d4 :|
+S:https://www.folktunefinder.com/tunes/143931
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/Mostly_Medelpad_Group.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

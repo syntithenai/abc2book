@@ -1,0 +1,23 @@
+X:23
+T:Pigeon on the gate
+R:Reel
+O:Scotland
+M:4/4
+K:D
+a>f|\
+e>A (3AAA A>B c>d|e>A (3AAA (a2 a)>f|\
+e>A (3AAA A>B c>d|e>f g>e d2::
+c>d|\
+e>a a>f g>f e>d|e>a a>f g2 e>d|\
+e>a a>f g>f e>d|e>f g>e d2:|
+S:https://www.folktunefinder.com/tunes/142946
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/RRtunes4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

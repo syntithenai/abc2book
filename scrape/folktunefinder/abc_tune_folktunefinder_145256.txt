@@ -1,0 +1,30 @@
+X: 1
+N: Espie MacNab
+N: 8x32J (play 1 2 3, 1 2 3, 2 1)
+N: Arr. John Chambers
+O: MMM 1
+R: jig
+Z: John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+K: A
+P: Eppie McNab
+B: Paddledoo, MMM 1
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: c/B/ | "A"A>EF A2A | "Bm"B>AB "E7"F2E/F/ | "A"Ace aga | "D"efd "A"cBA | "D"dfd "A"cec |
+| "Bm"B>AB "E7"FcB | "A"A>EF A2B | cee "E7"e2 :: f/g/ | "A"aec Ace | "D"~a3 "A"aec | Ace ~a3 |
+| "D"f>af "A"ecA | "D"d>fd "A"cec | "Bm"B>AB "E7"FcB | "A"A>EF A2B | cee "(E7)"e2 :|
+S:https://www.folktunefinder.com/tunes/145256
+S:http://terrytraub.org/abc/EspieMcnabbJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

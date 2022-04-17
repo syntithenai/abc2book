@@ -1,0 +1,25 @@
+X: 1
+T: Bungalow Bill
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: C
+"A" |: "C"c3 "G7"Bcd | "C"c3 "Fm"_AFD | "C"G3 "Fm"FG_A | "G7"G3 z3 \
+    | "A"A3 "E7"^GAB | "A"A3 "Dm"FDB, | "A"E3 "Dm"DEF | "E7"HE3 z2E :|
+"B"[| "Am"A2A A2A | "C"c2c c2c | "F"c2d c2d | cdc- "(G)"cz2 \
+    | "Am"z2A A2A | "C"c2c c2c | "F"c2d c2d | cdc- c2E |
+    |  "E"E2E E2E | "G"G2G G2G | "Am"A2A A2A | "Fm"c6- \
+ | c6 | "tacet"z_ed cdc | "G7"z3 "G7"z3 | "G7"z3 "G7"z3 |]
+S:https://www.folktunefinder.com/tunes/144305
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/BungalowBill_C.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

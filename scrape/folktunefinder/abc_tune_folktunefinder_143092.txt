@@ -1,0 +1,25 @@
+X: 1
+T: Branles Gay
+O: Trad Breton
+R: branles, waltz
+Z: 2006 John Chambers <jc@trillian.mit.edu> 
+M: 3/4
+L: 1/8
+K: Dmix
+|: "D"F3EF2 | D6 | F3 EFG | A6 \
+|1 "D"A2B2c2 | d4d2 | "C"c2B2c2 | A4G2 \
+:|2 "C"A2B2A2 | G4F2 |
+| G2E2F2 | "D"D6 \
+|: "D"d6 | "C"c4B2 | "D"e2d2e2 | "C"c6 \
+| "G"B2c2d2 | "Am"c2B2A2 | "C"G2F2G2 |1 A2B2c2 :|2 "D"A6 |]
+S:https://www.folktunefinder.com/tunes/143092
+S:http://trillian.mit.edu/~jc/music/abc/Brittany/branle/BranlesGay_D.abc
+% Rhythm Branles, waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 7
+T: Polska e. Erik Larssa, "Moll-dur"
+C:Ans\"atten, J\"amtland
+N:transcribed by Carolyn Hunt, taught by Agneta Wiberg-H\"allstrm, Springdans 2004
+Q:1/4=120     %Tempo
+M:3/4     %Meter
+L:1/8      %ref note value
+K:Dm
+A-| A>^c (3d(ef) d>c| A>^c e>g f<e-|e(f/g/ a>)g f>e|(3d(^cd) e>c A>[GA]|
+[FA]>[EA] (3D(ef) d>^c| A>^c e>g f<e-|e(f/g/ a)>g f>d| (e/g/)e/^c/ d3:|
+K:D
+|: (c| d)>c (3d(ef) (fg-|g)>f d>b a>g| (3f(df) (3d(ef) (3g(ag)|
+f>e d>c d>f|e>d (3c(Bc) (3A(Bc)|| d>c (3d(ef) (fg-|
+g)>f d>b a>g|(3f(ef) (3d(ef) (3g(ag)|f>e d>c d>f| (e/g/)e/c/ d3:|
+%End of file
+S:https://www.folktunefinder.com/tunes/143932
+S:http://trillian.mit.edu/~jc/music/abc/Scand/mirror/Mostly_Medelpad_Group.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

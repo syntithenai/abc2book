@@ -1,0 +1,24 @@
+X: 1
+T: Lord Moira's Welcome To Scotland
+M: 4/4
+L: 1/8
+R: strathspey
+K: Gmaj
+(3DEF |: 
+G2 G>A B<d d2 | c>AB>G A>G (3FED | 
+G2 G>A B<dd>g |[1 e>gf>a g>ed<B :|[2 e>gf<a g2 (3def ||
+g>ab>g a>gf<d | e>fg>e d>cB>G | 
+g>ab>g a>g (3fed | e>gf<a g3 d | 
+g>ab>g a>g f2 | e>f (3gfe d>cB<A | 
+G2 G>A B<d d2 | e>gf<a g2 |]
+S:https://www.folktunefinder.com/tunes/144302
+S:http://www.thesession.org/tunes/display/8731
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

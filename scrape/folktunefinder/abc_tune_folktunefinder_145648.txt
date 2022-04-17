@@ -1,0 +1,24 @@
+X: 77
+T: FROGS' FROLIC -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010707134435 by John Chambers jmchambers:rcn.net
+K: Em
+ {F}vEDE G2E | B2E G2E | F2D DFA | ABA AFD \
+| {F}EDE G2E | B2E G2A | (Bc)B (AG)F | BGE E2z :|
+  ({f}gb)g e2f | (gb)g e2g | (faf) d2e | (faf) d2f \
+| ({f}gb)g e2f | (gb)g e2f | (gfe) (bge) | (ef)e e2f |
+  ({f}gb)g e2f | (gb)g e2g | (faf) d2e | (faf) d2f \
+| (efg) (fga) | (gab) e2B | (Bc)B (AG)F | BGE E2z :|
+S:https://www.folktunefinder.com/tunes/145648
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/EF.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

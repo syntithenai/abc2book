@@ -1,0 +1,26 @@
+X:340
+T:The Swiss Boy
+% Nottingham Music Database
+S:Thomas Hardy Collection, via PR
+M:4/4
+L:1/4
+K:D
+F/2G/2|"D"AF/2G/2 AF/2G/2|Af/2e/2 dF/2A/2|"A"Ge/2d/2 c/2A/2G/2c/2|\
+"D"d/2A/2"A"e/2A/2 "D"fF/2G/2|
+"D"AF/2G/2 AF/2G/2|"D"Af/2e/2 dF/2A/2|"A"Ge/2d/2 c/2A/2B/2c/2|"D"d2 d::
+F/2A/2|"A7"GG/2F/2 GA/2G/2|"D"F/2A/2d/2e/2 fF/2A/2|"A7"GG/2F/2 GA/2G/2|\
+"D"F/2A/2d/2e/2 fF/2G/2|
+"D"AF/2G/2 AF/2G/2|"D"Af/2e/2 dF/2A/2|"A"Ge/2d/2 c/2A/2B/2c/2|"D"d2 d:|
+S:https://www.folktunefinder.com/tunes/146491
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+S:http://www2.redhawk.org:8080/irish/nmd/reelsR-T.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/redhawk.org/nmd/reelsR-T.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:Carnaval de Lanz
+C:Lantzko Ihauteria  -  Trad., fichier abc : Bernard Loffet
+L:1/8
+Q:496
+K:G
+M:2/2
+ z6[BG,]c |: [d2G,,2][dG,]e [dD,,]c[BD,]A | [G2G,,2]G,B B2[B2G,2] | [A2D,,2]D,B c2[d2D,2] | \
+ [e2C,,2]C,2 d2[BD,]c | [d2G,,2][dG,]e [dD,,]c[BD,]A | [G2G,,2]G,B B2[B2G,2] | [A2D,,2]D,B c2[d2D,2] | \
+|1 [G2G,,2]G,4[BG,]c :|2 [G2G,,2]G,4G,2 |: [G2G,,2]G,B [d2G,,2][g2G,2] | [g2G,,2][f2D,2] a2D,2 | \
+ [A2D,,2]D,B c2[e2D,2] | [e2G,,2][d2G,2] B2G,2 | [G2G,,2]G,B [d2G,,2][g2G,2] | [g2G,,2][f2D,2] a2D,g | \
+ [f2D,,2][d2D,2] e2[f2D,2] |1 [g2G,,2]G,4G,2 :|2 [g2G,,2]G,6 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/146741
+S:http://diato.ifrance.com/diato/tablat/198.abc
+S:http://diato.ifrance.com/tablat/198.abc
+S:http://diato.org/tablat/198.abc
+S:http://perso.orange.fr/diato/tablat/198.abc
+S:http://perso.wanadoo.fr/diato/tablat/198.abc
+S:http://pro.wanadoo.fr/diato/tablat/198.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/198.abc
+S:http://www.diatonique.net/tablat/198.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

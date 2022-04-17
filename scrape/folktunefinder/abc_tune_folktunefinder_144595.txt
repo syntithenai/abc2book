@@ -1,0 +1,51 @@
+X:3555
+T:Menuet
+T:BWV Anh. 118
+C:Johann Sebastian Bach
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva118/bwva118.abc
+V:2 bass
+M:3/4
+L:1/8
+K:Bb
+V:1
+B2 B2 F>G|{F}E4 D2|C2 (c3d/e/)|{B}A4 B2|c2 F2 e2|
+V:2
+B,,C D,C,D,B,,|C,B,,C,F,,B,,2|E,,G,F,E,D,C,|F,C,E,D,C,B,,|A,,C,B,,A,,G,,F,,|
+%
+V:1
+dcBA B2|(e/f/g) fede|[1c6:|[2c6|:A2 A>B TB3/2(A//B//)|
+V:2
+B,,2 C,2 D,2|G,,2 A,,2 B,,2|[1F,,=E,,F,,G,,A,,F,,:|[2F,,2 A,,2 C,2|:F,E,D,C,D,B,,|
+%
+V:1
+c2 BAGF|B2 AGAF|GF=ED=EC|CD=EFGA|B2 =e2 (e/f/g)|
+V:2
+F,F,,G,,A,,B,,C,|D,2 =E,2 F,2|C,2 C2 B,2|A,2 G,2 F,2|=E,D,C,B,,A,,G,,|
+%
+V:1
+c2 BA GA|F6|F2 B2 (B/c/)d|F2 c2 (c/d/)e|dfedcB|
+V:2
+A,,2 B,,2 C,2|F,,C,F,D,_E,C,|D,F,E,D,C,B,,|A,,C,B,,A,,G,,F,,|B,,2 G,,2 E,,2|
+%
+V:1
+A2 GA F2|B2 B2 A2|G2 FE D2|e2 d2 c2|[1B6:|[2B6|]
+V:2
+F,,F,E,D,E,C,|D,C,D,B,,C,D,|E,F,G,A,B,A,|G,2 E,2 F,2|[1B,,A,,B,,C,D,E,:|[2B,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/144595
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva118/bwva118.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva118/bwva118.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva118/bwva118.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

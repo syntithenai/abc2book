@@ -1,0 +1,30 @@
+X:80
+T: Where the Lilies Grow
+S: T. Cuffe via J. O'Sullivan
+Z: B.Black
+N: A version of this tune is called "Denis Doody's"
+N: in DJ Taylor's "Music of Ireland - The Big Session"
+M: 2/4
+L: 1/8
+R: polka
+K: D
+FD FA | d2 dc | B>A Bc | BA FE |
+FD FA | d2 dc | B>A Bc | ed d2 :|
+f2 e2 | d2 dc | B>A Bc | BA FA |
+f2 e2 | d2 dc | B>A Bc | ed d2 |
+f2 e2 | d2 dc | B>A Bc | BA FA |
+FD FA | d2 dc | B>A Bc | ed d2 ||
+S:https://www.folktunefinder.com/tunes/144906
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

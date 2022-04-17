@@ -1,0 +1,46 @@
+X: 3
+T:Carnaval de Venise
+T:serpent version (in bass clef)
+C:Arban
+M:6/8
+L:1/16
+Q:3/8=54
+K:C bass
+P:Variation I
+z g^fg|(3aba gG g2 (3fgf eE e2|(3gag fF (3fef d4 (3c'd'c'|baga (3bc'b agfe (3fgf|
+W:p. 230
+e_e=eg Gg e2 z g^fg|(3aba gG g2 (3"^** (org. no triplet)"fgf eE
+e2|(3gag fF (3fef d4 (3c'd'c'|baga (3bc'b agfe (3fgf|
+e_e=eg Gg e2 z2 g2|c'/2c'/2b/2b/2 _b/2b/2a/2a/2 ^g/2g/2=g/2g/2 ^f/2f/2=f/2f/2
+e/2e/2_e/2e/2 d/2d/2c/2c/2|B2 "^tr"Mg4-(Mg6 {f/2g/2})|
+d'/2d'/2^c'/2c'/2 =c'/2c'/2b/2b/2 _b/2b/2a/2a/2 ^g/2g/2=g/2g/2 ^f/2f/2=f/2f/2
+e/2e/2d/2d/2|c2 "^tr"Mg4-(Mg6 {f/2g/2})|c'/2c'/2b/2b/2 _b/2b/2a/2a/2 ^g/2g/2=g/2g/2
+^f/2f/2=f/2f/2 e/2e/2_e/2e/2 d/2d/2c/2c/2|
+B2 "^tr"Mg4-(Mg6 {f/2g/2})|d'/2d'/2^c'/2c'/2 =c'/2c'/2b/2b/2 _b/2b/2a/2a/2
+^g/2g/2=g/2g/2 ^f/2f/2=f/2f/2 e/2e/2d/2d/2|c4 z2 z2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+c'2 z/2 ("_p"G/2^F/2G/2 E/2G/2c/2e/2) g2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|f2 z/2
+("_p"G/2^F/2G/2 =F/2G/2)B/2d/2 f2 z/2 ("_<"f/2e/2f/2 g/2f/2e/2f/2)|
+d2 z/2 ("_f"b/2_b/2=b/2 c'/2b/2_b/2=b/2) g2 z/2 (f/2e/2f/2 g/2f/2e/2d/2)|(_e>=e
+_e/2=e/2_e/2=e/2 _e/2=e/2g/2f/2) e2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+c'2 z/2 ("_p"G/2^F/2G/2 E/2G/2c/2e/2) g2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|f2 z/2
+("_p"G/2^F/2G/2 =F/2G/2)B/2d/2 f2 z/2 ("_<"f/2e/2f/2 g/2f/2e/2f/2)|
+d2 z/2 ("_f"b/2_b/2=b/2 c'/2b/2_b/2=b/2) g2 z/2 (f/2e/2f/2 g/2f/2e/2d/2)|(_e>=e
+_e/2=e/2_e/2=e/2 _e/2=e/2g/2f/2) e2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+c'egceG (G/2c/2)e/2g/2 (c'/2b/2)a/2g/2 f/2e/2d/2c/2|B2 (B/2G/2)B/2d/2 (B/2d/2)g/2b/2 d'2
+z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+.B/2(g/2^f/2g/2 a/2g/2f/2g/2) d/2(g/2f/2g/2) (=f/2g/2).a/2.b/2 (d'/2c'/2b/2a/2
+g/2f/2e/2d/2)|c2 (d/2c/2B/2c/2) G/2c/2e/2g/2 c'2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+c'egceG (G/2c/2).e/2.g/2 (c'/2b/2).a/2.g/2 .f/2.e/2.d/2.c/2|B2 (B/2G/2).B/2.d/2
+(B/2d/2).g/2.b/2 d'2 z/2 ("_f"g/2^f/2g/2 a/2g/2f/2g/2)|
+.B/2(g/2^f/2g/2 a/2g/2f/2g/2) .d/2(g/2f/2g/2) (=f/2g/2).a/2.b/2 (d'/2c'/2b/2a/2
+g/2f/2e/2d/2)|c2 (d/2c/2B/2c/2) G/2c/2e/2g/2 c'2 z2 z2|]
+W:p. 231
+S:https://www.folktunefinder.com/tunes/146744
+S:http://www.laymusic.org/music/arban/carnival-serpent.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

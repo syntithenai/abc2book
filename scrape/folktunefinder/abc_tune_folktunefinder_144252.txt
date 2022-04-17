@@ -1,0 +1,33 @@
+X:1
+T:Bumpus O' Stretton
+M:6/8
+C:
+S:Bacon (Carey MSS)
+N:pickup note for A presents a problem
+A:Ilmington
+O:English
+R:Jig
+%:NoTeX
+%:NoWWW
+%P:A/2.(AB$^2$)$^4$.A
+P:A.(AB2)4.A
+K:F
+I:speed 300
+Q:C3=96
+P:A
+|: C | F>ED C2 A | B2 A G2 C | F>GA G>FD  | C3 F3 :|\
+P:B
+       F>Ac c2 c | dfd  c2 c | F>Ac c>=Bc | A3 f3 |\
+       F>Ac c2 c | dfd  c2 C | F>GA G>FD  | C3 F3 ||
+S:https://www.folktunefinder.com/tunes/144252
+S:http://www.ucolick.org/~sla/morris/music/Ilmington/bumpus.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

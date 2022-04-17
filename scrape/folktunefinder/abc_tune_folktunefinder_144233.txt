@@ -1,0 +1,20 @@
+X: 1
+T: Bullfight
+M: 2/4
+L: 1/8
+K: D^g
+| "Dm"A4 | A4 | A2 A2 | A2 A2 \
+|: AA/A/ FA | AA/A/ FA| AA/A/ FA | GF ED :|
+|: zc Bc | d2c2 | B2A2 | GF3- | FA GA |  B2A2 G2F2 | ED3 \
+:: d4 | d4 | d2 d2 | d2 d2 | dd cc | BB A2 |
+| dd cc | BB A2 | dd- dd | cc- cc | BB- BB \
+| AA- AA | BB- BB | AA- AA | GG- GG | FE D2 :|
+S:https://www.folktunefinder.com/tunes/144233
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Bullfight_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bullfight_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

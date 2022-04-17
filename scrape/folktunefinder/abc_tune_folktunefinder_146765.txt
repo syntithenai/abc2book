@@ -1,0 +1,32 @@
+X: 1
+T:Carnival tune (fr Limoux)
+O:France
+M:6/8
+A:Aude
+K:C
+Gc|\
+eBd cEA|(G3 G)Gc|eBd cAc|(B3 B)GA|\
+BdB fdB|(A3 A)GA|BGA Bcd|e3 zGc|\
+eBd cEA|(G3 G)Gc|e^de gfe|A3 zAB|\
+dcB dcA|Gcd e2e|d^cd fAB|c6||\
+K:G
+ded g2g|BcB d2d|ecA F2e|d3 B3|\
+ded g2g|BcB d2d|FAc e2d|G6|\
+ded g2g|BcB d2d|ecA F2e|d3 B3|\
+ded g2g|BcB d2d|FAc e2d|G6||\
+K:F
+ABA cdc|f3 c3|dBd fed|c3 A3|\
+BGA B2d|c2A f3|ede fef|g3 c3|\
+ABA cdc|f3 c3|dBd fed|c3 A3|\
+BGA B2d|c2A f2c|edc BAG|(F3 F)|]
+S:https://www.folktunefinder.com/tunes/146765
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Carnival_tune_fr_Limoux_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

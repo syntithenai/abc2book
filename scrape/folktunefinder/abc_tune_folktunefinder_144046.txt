@@ -1,0 +1,28 @@
+X:1
+T:Bubble Gum Jig Counterpoint
+C:copyright 1999 Kaubells
+R:Jig
+E:16
+M:6/8
+K:D
+|:"D"f2a bag|fed agf|"G"g3 "Em"b3|"A7"aba gfe|*
+E:12
+"D"f2a bag|fed agf|"G"e2g "Em"gfe|1"...D"fga f2g:|2"...D"fga f3||*
+E:20
+"Bm"ded cdc|ded cde|"F#m"f3 F3|f3 F3|*
+"Bm"ded cdc|ded cde|"F#m"f3 F3|"Em"G6|*
+"Bm"ded cdc|ded cde|"F#m"f3 F3|f3 F3|*
+E:24
+"G"B3 d3|BAG G3|"A7"c3 e3|cBA ABc||*
+T: Last time only, if ending on this song.
+"G"B3 d3|BAG G3|"A7"c3 e3|"A7"c2e "D"f3|]*
+S:https://www.folktunefinder.com/tunes/144046
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/bubble-gum-counterpoint.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

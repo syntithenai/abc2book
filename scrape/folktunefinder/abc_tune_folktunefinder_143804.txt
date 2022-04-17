@@ -1,0 +1,31 @@
+X: 1
+T: Bruach na Carraige Baine
+C: trad
+O: Irish
+S: thesession.org
+Z: transposed to the "correct" key of Bm
+R: slow air
+M: 3/4
+L: 1/8
+N:This is a sean-nos song, transcription is an approximation only.
+N:It should be played very freely, without an established meter.
+N:A slightly different version is in Geraldine Cotter's "100 tunes" book.
+Z: Contributed 20040402215520 by Glauber Ribeiro theglauber@yahoo.com
+K: Bm
+|: de | f4ef | da-a2af | e3f/e/dB | Af-f2fe | d4eB | AF-F3A | B6 | B4 :|
+AB | d3e/d/Bc | de-e3f | ab-b2ba | f4fe | d3e/d/Bc | de-e3f | b6 | a4af |
+g4g2 | fa-a2af | e3f/e/dB | Af-f2fe | d4eB | AF-F3A | B6 | B4 ||
+S:https://www.folktunefinder.com/tunes/143804
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/BruachNaCarraigeBaine.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/BruachNaCarraigeBaine.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

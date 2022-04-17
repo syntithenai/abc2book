@@ -1,0 +1,24 @@
+X: 1
+T: Cairn Edward
+C: Hugh Foss
+B: Galloway Album
+M: 6/8
+L: 1/8
+K: G
+d \
+| "G"g2g dBd | B2B "Em"BAG | "Am"B3 "D7"A2d \
+| "G"g2g dBd |"Em"B2B "Am"BAG | "D7"A3 "G"G2 :| \
+E \
+| "G"D2D "C"E2E | "G"D2B BAG | "Em"B3 "D7"A2E |
+| "G"D2D "C"E2E | "G"D2B BAG | "D7"A3 "G"G2E \
+|| "G"D2D "C"E2E | "G"D2B BAG | "Em"B3 "D7"A2d \
+| "G"gfe "Em"dcB | "Am"ABc "D7"B2A | "G"G2 |]
+S:https://www.folktunefinder.com/tunes/144968
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/CairnEdwardJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/CairnEdwardJ_24.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

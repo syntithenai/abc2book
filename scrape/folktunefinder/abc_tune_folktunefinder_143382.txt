@@ -1,0 +1,22 @@
+X: 1
+T:Bridge No 2
+R:double jig
+M:6/8
+L:1/8
+Q:120
+K:D
+AG|:FGF EFE|DFA d2A|ded cAG|F/2G/2AF GFE|!
+FGF EFE|DFA def|edc ABc|1 dfe dAG:|2 dfe d2e|!
+|:f2d g2d|fdB A2^A|B2B EFG|AGF GFE|!
+f2d gfe|fdB A^GA|Bcd edc|1 dfe d2e:|2 dfe d2||!
+S:https://www.folktunefinder.com/tunes/143382
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/Bridge_No_2_1.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

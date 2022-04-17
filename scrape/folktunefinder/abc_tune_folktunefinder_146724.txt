@@ -1,0 +1,24 @@
+X: 23
+T:Madame Catalani's Waltz. Car.23
+M:3/8
+Q:30
+S:CarlisleMS,Anon.c1812.AGG's transcription
+O:England
+A:Carlisle
+Z:vmp.Chris Partington
+K:G
+D|G2B|d2g|GGB|AFD|!
+G2B|d2g|"last bar misssing from MS"d/e/d/c/B/A/|G2:|!
+|:A|d2f| a2f|a/^g/=g/f/g/e/|fdA|!
+d2f|a2f|a/^g/=g/f/g/e/|d2:|]
+% Output from ABC2Win  Version 2.1 k on 17/10/2005
+S:https://www.folktunefinder.com/tunes/146724
+S:http://www.village-music-project.org.uk/abc/carlisle.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

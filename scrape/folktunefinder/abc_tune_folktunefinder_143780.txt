@@ -1,0 +1,33 @@
+X:1
+T:Brown Girl
+M:3/4
+L:1/4
+K:C
+D/2-E/2-G/2| A A c|
+M:4/4
+ B A2B/2-A/2|
+M:3/4
+G/2-E/2 D E| D2 G| A A A|
+M:4/4
+ B d2e/2-d/2|
+M:3/4
+ d BA/2-G/2| A2 G| A A A-|
+M:4/4
+ B d2e/2-d/2|
+M:3/4
+d/2-B/2 A/2G/2 B| A2D/2-D/2| G A c-|
+M:4/4
+ B A2 A/2G/2|
+M:3/4
+ E D E| D2||
+S:https://www.folktunefinder.com/tunes/143780
+S:http://back.numachi.com:8000/dtrad/abc/BRNGIRL1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

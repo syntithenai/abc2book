@@ -1,0 +1,71 @@
+X: 1
+T: Razbitaya Zhizn
+T: A Broken Life
+R: waltz
+O: Russia
+M: 3/4
+L: 1/8
+K: Em
+"B"\
+|: z2 B,2 \
+| (G2 F2 E2) | (^D2 E3 F) \
+| F6 | E6 \
+| z2 (Be) (eg) | (gb) (ba) (ag) \
+| (g6 | f4) B,2 \
+| (A2 G2 F2) | (E2 F2 G2) \
+| ({A}G6 | F6) |
+| z2 (^df) (fa) | (ac') (c'b) (ba) \
+| (a6 | g4) B,2 \
+| (G2 F2 E2) | (^D2 E3 F) \
+| F6 | E6 \
+| z2 (ea) (ac') | (c'e') (e'd') (d'c') \
+| c'6 | b6 |
+| ab c'b c'2 | GA B^A B2 \
+| fg a^g a2 | EF =GF G2 \
+| (F4 E2) | z2 (g3 f) \
+| e6- |e2 \
+"C"\
+:: (bagf) \
+| e2 z2 {e}g2 | z2 (ba gf) |
+| e2 z2 {e}g2 | z2 (c'b ag) \
+| f2 z2 {f}a2 | z2 (c'b ag) \
+| f2 z2 {f}a2 | z2 (ba gf) \
+| e2 z2 {e}g2 | z2 (ba gf) \
+| e2 z2 {e}g2 | z2 (ag fe) |
+| ^d2 z2 {d}f2 | z2 (gf ed) \
+| e6- | e2 \
+"D"\
+:: B2 B2 \
+| e6 | (f4 g2) | B6- | B2 ({d}c2 B2) \
+| e6 | (f4 g2) | ({a}g6 | f6) \
+| f6 | (g4 a2) |
+| c6- | c2 (B2 A2) \
+| (f4 e2) | (^d4 c2) | B6- | B6 \
+|  e6 | (f4 g2) | B6- | B2 ({d}c2 B2) \
+| e6 | (f4 g2) | ({a}g6 | f6) \
+| f6 | (g4 a2) |
+| (c'6 | b6) \
+| (a2 g2 f2) | (f2 e2 ^d2) \
+| e6- | e2 \
+"E"\
+:: d^d ef \
+| g2 z2 f2 | a2 z2 g2 \
+| g2 z2 f2 | z2 de fg \
+| a2 z2 ^g2 | b2 z2 a2 |
+| a2 z2 g2 | z2 d^d ef \
+| g2 z2 f2 | a2 z2 g2 \
+| f2 z2 e2 | e'2 z2 c'2 \
+| b2 zb b2 \
+|1 (ac') ba gf | b2 zB B2 | B2 \
+:|2 c'2 b2 ^d2 | e2 ze e2 | e2 |]
+S:https://www.folktunefinder.com/tunes/143649
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/RazbitayaZhizn_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/RazbitayaZhizn_Em.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

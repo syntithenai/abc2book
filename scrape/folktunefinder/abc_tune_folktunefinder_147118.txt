@@ -1,0 +1,27 @@
+X:1
+T:La Casquette
+C:Frederic Paris
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+D>E F/G/A | BA G/F/E | D>E F/G/A | B2 A2 |
+D>E F/G/A | BA G/F/E | D>E F/G/A | BG/B/ A2 :|
+|:\
+A>B AD/D/ | A/D/A/B/ A2 | DE/F/ GF/G/ | AG/F/ E/F/G/A/ |
+A>B AD/D/ | A/D/A/B/ A2 | DE/F/ GF/G/ | AG/F/ E2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/147118
+S:http://simonwascher.info/TradArchiv_polka/la_casquette.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

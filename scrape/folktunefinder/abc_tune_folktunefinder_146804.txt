@@ -1,0 +1,23 @@
+X: 1
+T: Carolan's Concerto
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+(3ABc|:&quot;D&quot;d2 dd d2 cB|&quot;A&quot;ABGA F2A2|&quot;A&quot;E2A2&quot;D&quot;D2A2|&quot;Bm&quot;Bc&quot;D&quot;de dcBA|
+d2a2 fgaf|&quot;A7&quot;efge fgaf|ga&quot;Bm&quot;bg fdfa|&quot;A7&quot;gfed dcBA|
+&quot;Bm&quot;BdBd &quot;G&quot;gdgd|&quot;D&quot;Ad Ad fAfA|&quot;G&quot;GB&quot;Em&quot;GB efed|&quot;A7&quot;c2 Bc A3G|
+&quot;F#m&quot;FG&quot;A7&quot;AF EFGE|&quot;F#m&quot;FG&quot;A7&quot;AF GABG|&quot;A&quot;A2 &quot;D&quot;d2 fedc|d6 :|
+(3ABc|:&quot;D&quot;d2&quot;Em&quot;b2 agfe|&quot;D&quot;d2&quot;A&quot;a2c2a2|&quot;G&quot;B2 gB ABcd|&quot;A7&quot;ecBA&quot;D&quot;d2 df|
+&quot;A&quot;edcB caaa|&quot;G&quot;Bggg &quot;D&quot;Afff|&quot;A&quot;edcB caaa|&quot;G&quot;Bggg bgbg|
+&quot;D&quot;afaf &quot;A&quot;edcB|cA&quot;Em&quot;BG AFGE|&quot;D&quot;DAFA DAFA|&quot;Em&quot;GEBE GEBE|
+&quot;D&quot;FAdc BAGF|&quot;A7&quot;EFGA Bcde|A2&quot;D&quot;d2 fedc|d6:|
+S:https://www.folktunefinder.com/tunes/146804
+S:http://www.thesession.org/tunes/display/788
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

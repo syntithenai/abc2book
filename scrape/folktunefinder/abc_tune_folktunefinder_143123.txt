@@ -1,0 +1,47 @@
+X:3
+T:``Od koga'' pravo
+P:intro AABABCA'B'
+A:Bulgarije --- Pirin
+M:2/4
+K:F
+P:intro
+"Gm"G4 F2A2| G4 B2c2| "Bb"d4 d2B2| "Cm"c4 dcBA|\
+"Gm"G4 F2A2| G4 B2c2| "Fm"B4 _A2F2|"Gm"G8:|\
+P:A
+L:1/8
+"Gm"dd g2| g4| ab ag |"Cm"^f2 _ec| _e2 g2 | ^f2 _ec| "D"d4|\
+"Gm"g3 a/2b/2|"Cm"c'b ag |"D"^f2 _ec|"Cm"_e2 g2 | ^f2 _ec| "D"d4| d2 z2\
+\setdoublebar
+|\
+P:B
+"Gm"GG d2| d4|"A"^cB AG|"D"B2 AG|"Gm"GG d2|d4|"F"cc Bc | "Bb"dd d2|\
+"Gm"GG d2| d4|"A"^cB AG|"D"B2 AG|"Cm"A2 Ac|"D"Bc AG|"Gm"G4-|G2z2\
+\setdoublebar
+|\
+K:Am
+P:C
+L:1/16
+"Am"A2ee e2c2 | "Dm"d4 edcB | "G"c2d2 B2G2|"Am"A2B2 c2d2|\
+"Am"A2ee e2c2 | "Dm"d4 edcB | "G"c2d2 B2G2|"Am"A8-|A8\
+\setdoublebar
+|\
+P:A'
+L:1/8
+"Am"ee a2| a4| bc' ba |"Dm"^g2 fd| f2 a2 | ^g2 fd| "E"e4|\
+"Am"a3 b/2c'/2|"Dm"d'c' ba |"E"^g2 fd|"Dm"f2 a2 | ^g2 fd| "E"e4| e2 z2\
+\setdoublebar
+|\
+P:B'
+"Am"AA e2| e4|"B"^dc BA|"E"c2 BA|"Am"AA e2|e4|"G"dd cd | "C"ee e2|\
+"Am"AA e2| e4|"B"^dc BA|"E"c2 BA|"Dm"B2 Bd|"E"cd BA|"Am"A4-|A2z2||
+S:https://www.folktunefinder.com/tunes/143123
+S:http://accordionlinks.com/other/maandag.abc
+S:http://www.accordionlinks.com/other/maandag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:14
+T:Ranger's Waltz
+A:Louisiana
+M:3/4
+L:1/8
+K:C
+% abc2mtex can't handle chords before or after triplets, so:
+\def\userKl#1{\zcharnote r{\gfont F}}
+cc|"C"e4 ga| "C7"_b4 b2| (3Kagf f2 g2| "C"e4 cc| eg-g2 g2|\
+a2g2 (3edc| "G7"d6-| d4 cc| "C"e4 ga| "C7"_b4 b2| (3a"F"gf f2 g2|\
+ "C"e4 cc| e2 g3 e| "G"f2 e2 d2| "C"c6-| c4 :: cd|\
+"C"e6| "E7"d6| "F"c2 A2 c2 | "C"G4 GG| c4 cc| "D7"c2 B2 A2|\
+"G7"G6-|G4 \
+cc|"C"e4 ga| "C7"_b4 b2| (3Kagf f2 g2| "C"e4 \
+cc| e2 g3 e| "G7"f2 e2 d2| "C"c6-| c2 z2 :|\
+P:Coda
+cc|"C"e2 g3 e| "G7"f2 e2 d2| "C"c6-| c4||
+S:https://www.folktunefinder.com/tunes/143134
+S:http://accordionlinks.com/other/maandag.abc
+S:http://www.accordionlinks.com/other/maandag.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:3
+T:Katharine Ogie
+M:C
+L:1/8
+R:Air
+N:Slow
+S:McGibbon \`i Scots Tunes, book II, pg. 44  (c. 1746)
+Z:AK/Fiddlers Companion
+K:A Minor
+(A>G) | E2 (A>B) A3B | (c>d)(B>c) A2 (Bd/c/) | d3g (dB)tr(A>G) | G3A (G/A/B) trA>G | 
+E2(A>B) A3B | (c>d)(B>c) A2 (a/g/f) | e2 (dc/B/) (c>d)(B>c) | trA4e2 :: A>B | 
+(c>d(e>f) g3a | (ge)tr(dc) g2 (dc) | B2 (AB) (dB)(AB) | G3A (B/c/d) trc>B | c2tr(B>A) A3E | 
+(A>B)(c>d) ({c/d/}e2) tr(d>c) | (de)(g>a) (ge)(dB) | trA4e2 :: (a>g) | e2(a>b) a3b | 
+(c/b/c/)d/ tr(b/a/b/>c/ a2(bc) | d3c (b/d/c/b/ tra>g | g3a (g/a/b) tra>g | e2(a>b) a3b | 
+(c/b/c/)d/ (b/a/b/)c a2 (a/g/f) | e2(dc/B/) (c/4d/4c/4B/4c/>)d/ (B/4c/4B/4A/4B/>)c/ |trA4e2 :|
+AB | c>d (e/d/e/)f/ g3a | (g/a/g/)e/ (g/e/)(d/c/) b2 trd>c | (B/d/e/^f/ g)e (dB)(AB) | G3A (B/c/d) tr(c>B) | 
+(c/4/d/4c/4B/4c/>)d/ (B/4c/4B/4A/4B/>)c/ A3E | (AB) (c/B/c/d/) e2 trdc | (de)(ga) gtr(f/e/) (d/f/e/)^G/ | trA4e2 :|
+S:https://www.folktunefinder.com/tunes/147289
+S:http://forums.chiffandfipple.com/viewtopic.php?p=451604
+S:http://forums.chiffandfipple.com/viewtopic.php?p=452134
+S:http://forums.chiffandfipple.com/viewtopic.php?p=452368
+S:http://chiffboard.mati.ca/viewtopic.php?p=451604
+S:http://chiffboard.mati.ca/viewtopic.php?p=452134
+S:http://chiffboard.mati.ca/viewtopic.php?p=452368
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

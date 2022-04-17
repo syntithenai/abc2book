@@ -1,0 +1,44 @@
+X:1875
+T:Callino casturame
+C:anon.
+O:England
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/england/callino-casturame-ctn.abc
+V:1 Program 1 25 up %Cittern (Guitar)
+V:2 Program 1 25 merge down %Cittern (Guitar)
+M:3/4
+L:1/4
+Q:1/4=180
+K:G
+V:1
+"G"G>AB|"G"B>cB|"C"c2c|"G"B>cB|"A"A2A|
+V:2
+[G,2B,2D2][G,B,D]|[G,2B,2D2][G,B,D]|[C2E2G2][CEG]|[G,2B,2D2][G,B,D]|[A,2^C2E2][A,CE]|
+%
+V:1
+"A"A>BA|"E"^G>AG|"A"A2A|"G"B>cd|"G"B>AG|
+V:2
+[A,2^C2E2][A,CE]|[B,2E2][B,E]|[A,2^C2E2][A,CE]|[G,3B,3D3]|[G,2B,2D2][G,B,D]|
+%
+V:1
+"D"F>GA|"D"F>ED|"G"G2G|"G"G>AB|"D7"A>GF|"G"G3|]
+V:2
+[A,3D3]|[A,3D3]|[G,2B,2D2][G,B,D]|[G,2B,2D2][G,B,D]|[C2F2][A,D]|[G,3B,3D3]|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/145226
+S:http://abc.musicaviva.com/tunes/england/callino-casturame-ctn.abc
+S:http://abc.musicaviva.com/tunes/england/callino-casturame-ctn.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/callino-casturame-ctn.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/england/callino-casturame-ctn.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

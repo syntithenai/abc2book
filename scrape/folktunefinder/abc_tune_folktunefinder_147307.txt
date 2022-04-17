@@ -1,0 +1,25 @@
+X:0018
+T: "The Catholic Boys'       (air)      0018
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after Sg't.  J. O'Neill
+C:cum spirito
+Q:1/4=130
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_vb"D|(D/2G3/2).G (GFG)|(D/2B3/2).B (cBc)|(d/2e3/2d) (cBA)|(BGE) (=F2{GF}D)|
+(DG)G (GFG)|(DB).B (cBc)|(d3/2e/2d) (cBA)|(B/2G3/2)G G2||
+(d/2e/4f/4)|gdB gGg|gdc BAG|(F/2=f3/2)f f3/2e/2f|A=FA c_BA|
+(G/2g3/2)g g3/2=f/2e|(dc)(d/2e/2) =fdc|(B/2c/2d)B {cd}cAF|(A/2G3/2)G G2|]
+S:https://www.folktunefinder.com/tunes/147307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/18-CatholicBoys.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1-100/18-CatholicBoys.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:2
+T:The Foxhunter's Jig
+R:slip jig
+O:Ireland
+M:9/8
+L:1/8
+K:D
+"D"  FGF F2 D "G" G2 E | "D" FGF F2 D   "A" E2 D | "D" FGF F2 D "G" G2 B | "D" AFD DEF  "A" E2 D :|
+"Em"  ~B3 BAG "D"  FGA | "Em" B2 E E2 F "G" G2 B | "D" ABc dcB  "A"  ABc | "D" d2 D DEF "A" E2 D :|
+"D"  fgf f2 d "G" g2 e | "D" fgf f2 d   "A" e2 d | "D" fgf f2 d "G" g2 b | "D" afd def "A" e2  d :|
+"Em" gfe d=cB "D"  AGA | "Em" B2 E E2 F "G" G2 B | "D" ABc dcB   "A" ABc | "D" d2 D DEF "A" E2 D :|
+S:https://www.folktunefinder.com/tunes/144507
+S:http://www.slowplayers.org/CKSP/Music/CK_Slip-Jigs.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

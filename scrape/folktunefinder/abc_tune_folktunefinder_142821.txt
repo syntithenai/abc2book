@@ -1,0 +1,25 @@
+X: 3
+T: Cutting Ferns
+O: &quot;The Athole Collections&quot; / &quot;The Skye Collections&quot;
+N: the following transcript is as found in these books but minus any {*}, for example 'cuts'M: 4/4
+L: 1/8
+R: strathspey
+K: Ador
+|: B |\
+A<A a2 g<e g2 | e>dB>A G>AB>G | 
+A<A a2 g<e g2 | e<dB>g B<A A :|
+|: g |\
+e>dB>A G>AB>G | e>dB>A B2 B>g |
+e>dB>A G>AB>d | e>dg>B A2 A :|
+S:https://www.folktunefinder.com/tunes/142821
+S:http://www.thesession.org/tunes/display/647
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

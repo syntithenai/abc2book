@@ -1,0 +1,35 @@
+X:1
+T:Valse : Sur les quais de la seine
+Z:Roger Ngaret (Septembre 2000)
+R:
+C:
+S:
+A:France
+M:3/4
+L:1/16
+K:C
+"Am"E4 A4 B4 | c8 d4 | e4 d4 c4 | B4 A4 G4 | "F"F12 | e12 |
+d12 D4 F4 | [A4)d12] F4 D4 | "Am"E4 E4 A4 | "Em"B8 "Am"c4 |
+"Em"d4 f4 e4 | d4 c4 B4 | "Am"A12 | "G"[B6d6] [A2c2] [B4d4] |
+"Am"[c12e12] |1 [c12e12] :|2 "G"[B4d4] "D"[A4c4] "G"[G4B4] | 
+"Am"(A8 A2) B2 | "F"(A8 A2) B2 | "Am"A12 | "Em"B4 c4 B4 | 
+"Am"A12 [C4E4] [C4E4] | A12 [C4E4] [C4E4] | A12 [C4E4] [C4E4] | 
+"Em"B4 c4 B4 | "F"A12 [C4F4] [C4F4] | A12 [C4F4] [C4F4] | 
+A12 [C4F4] [C4F4] |]
+T:B
+B4 c4 B4 | "Am"[C8A8] "Em"[B,4D4] | "Am"[E8c8] [F4d4] | 
+"C"[G6e6] [A2f2] [c4g4] | "F"[A4f4] [G4e4] [F4d4] | 
+"Em"[E8c12] G2 E2 | [D8c12] G2 E2 | [C8c12] E2 C2 | [B,12B12] |
+"A et Coda" ||
+"Em"B4 c4 B4 | "Am"A12 | e2c2 A2e2 c2A2 | e2c2 A2e2 c2A2 | 
+e2c2 A2e2 c2A2 | [A12e12] | "Em"B4 c4 B4 | "F"A12 |
+f2c2 A2f2 c2A2 | f2c2 A2f2 c2A2 | f2c2 A2f2 c2A2 | [A12f12] :|
+T:Coda
+"Am"[B,4B4] "Em"[A,4A4] "Am"[B,4B4] | [A,12A12] |]
+S:https://www.folktunefinder.com/tunes/144656
+S:http://termen.free.fr/danses/valses/ValseSurlesquaisdelaseine.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:50
+T: Wissahickon Drive
+C: Liz Carroll
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: A
+EFAB cBAB|f2 ef ecBA|F2 dF eFde|feef edBA |
+EFAB cBAB|f2 ef eAce|fagf eAcA |1 BEGB A2 FA :|2\
+BEGB A2 ce ||
+a2 ga baga|fAde fagf|eAce aece|aedc BEGB |
+|1 a2 ga baga|fAde fagf|eAce aedc|BEGB A2 ce :|
+|2 A2 ce ac'ba|fAde fagf|eAce aedc|BEGB A2 ||
+S:https://www.folktunefinder.com/tunes/144900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

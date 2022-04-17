@@ -1,0 +1,22 @@
+X: 1
+T: Byrnes Hornpipe 
+M: 4/4
+L: 1/8
+R: hornpipe 
+K: D Major
+|: A>G |
+F>E (3EFG A>F D2 | d>A (3Bcd e>c A2 | f2 g>e f>de>d | c2 (3Bcd e>cA>G |
+F2 G>E A>FD>A | d>Ac>d e>cA>g | f>Ag>e f>Ae>c | A>dd>c d2 :|
+|: (3Bcd |
+e>cA>c e>f g2 | a>fd>f b>ge>g | a2 f>d g>e (3agf | g2 (3fed e>cA>G |
+F>^EF>G A>F D2 | d2 (3Bcd e>cA>g | f2 (3gfe f2 (3edc | A>d (3ddc d2 :|
+S:https://www.folktunefinder.com/tunes/144614
+S:http://www.thesession.org/tunes/display/1143
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

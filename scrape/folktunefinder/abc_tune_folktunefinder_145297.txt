@@ -1,0 +1,29 @@
+X:2
+T:Concerto in A minor for Violin, Mvt 2 Largo
+T:Vivaldi A minor Violin Concerto
+C:Antonio Vivaldi
+Z:from poor copy re- and over- annotated with changed bowings and slurs
+M:4/4
+Q: 70
+K:Dmin
+L:1/16
+defe dfed e2A2z4|edef efga fed2 zfga|
+bagf bagf edef efge| agfe agfe d^cde defd|
+gfed gfed ^c=BA2 zefg|f2ed ^c3d d4 zdef|e>fe>f e>fe>f e2dc =B3A|
+L:1/32
+A8z2A2=B2^c2 dcdedcde dcde=cBcd|=B8 z2B2c2d2 edefedef edefd^cde|
+^c8 z2c2d2e2 fefgfefg fefgedef|d8 z2d2e2f2 gabagfed gabagfed|
+L:1/16
+(3^c^BA (3fed c3d d4 zdfd|_e>fe>f e>fe>^f g6 ag|f2ed ^c3d d8|
+S:https://www.folktunefinder.com/tunes/145297
+S:http://web.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/people/ijs/abc/misc.abc
+S:http://www.mit.edu/~ijs/abc/misc.abc
+S:http://www.mit.edu/%7Eijs/abc/misc.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

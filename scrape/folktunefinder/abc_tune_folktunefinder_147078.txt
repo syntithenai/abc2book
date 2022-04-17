@@ -1,0 +1,23 @@
+X:8
+T:Carr Lodge Polka
+C:from the playing of Bob Keeble
+Q:1/4=80
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+|:dc|B2d2 dedB|c2e2 e2c2|B2d2 abag|f2d2 dedc|
+B2d2 dedB|c2e2 e2c2|gage dedc|B2G2G2:|
+|:z2|.B2 G2 .B2 G2|BGBc d3 (c/2B/2|A)FDF AFDF|A2.B2 c4|
+.B2G2 .B2G2|BGBc d3 (e/2f/2|g)age dedc|.B2G2G2:|
+S:https://www.folktunefinder.com/tunes/147078
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/CarrLodgePolka.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/CarrLodgePolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

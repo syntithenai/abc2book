@@ -1,0 +1,25 @@
+X:297
+%%topmargin 3cm
+U:~=!turn!
+T:Braes of Auchtertyre
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+G, | {/B,}C2 (CF) E{/F}GGA | {AB}cded {AB}cA{/^F}Gc | A/A/A (AG)A2 {/^g}a2 | gcT(fe) {/e}d2 {/B}c2 | {/B,}C2 (CF) E{/F}GGA |
+{AB}(cd)ed {AB}cA{/^F}Gc | .A.c.G.c .F.c.E.c | {/^c}dB=cE {FE}D2 {/B,}C || f | efga gecg | afdg ed{AB}cG |
+A/A/A {/^g}(ag) a2 c'2 | ecT(fe) {/e}d2 {AB}(cf) | (ef)ga gecg | afdg ed{AB}cA | .A.c.G.c .F.c.E.c | {/^c}dB{AB}=cE {FE}D2 {/B,}C |]
+S:https://www.folktunefinder.com/tunes/142854
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Braes_of_Auchtertyre.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0297.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

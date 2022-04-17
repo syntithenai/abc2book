@@ -1,0 +1,29 @@
+X: 1
+N: Posties Jig
+N: 4 x 32J 4C (Ormskirk 5)
+P: The Cardiff Caledonians
+C: by Rob Gordon
+R: jig
+B: Ormskirk 5
+C: from John Chambers 1997, mods by T. Traub 4-13-2007
+M: 6/8
+L: 1/8
+K: D
+ A \
+|: "D"{ABc}dz2 D3 | "A7"EFE "D"D3 | "Em"E2E e2d | "A7"cBA gfe \
+ | "D"dz2 D3 | "A7"EFE "D"D2F | "G"G2B "D"A2d | "A7"cBc "D"d2z :|
+|| "A7"e3 A3 | ABc "D"d3 | "G"B2g "D"A2F | "Em"GEE "A7"E2A \
+ | "A7"e3 A3 | ABc "D"d2F | "G"G2B "D"A2d | "A7"cBc "D"dcd ||
+|| "A7"e3 A3 | "D"dfe d3 | "G"B2g "D"A2F | "Em"GEE "A7"E2A \
+ | "D"dz2 D3 | "A7"EFE "D"D2F | "G"G2B "D"A2d | "A7"cBc "D"d2z |]
+S:https://www.folktunefinder.com/tunes/146418
+S:http://terrytraub.org/abc/CardiffCaledoniansJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

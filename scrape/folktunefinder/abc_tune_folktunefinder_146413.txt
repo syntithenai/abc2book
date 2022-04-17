@@ -1,0 +1,23 @@
+X: 2
+T: James Carbrays 
+M: 6/8
+L: 1/8
+R: single jig
+K: G Major
+|: g |\
+f2 d efg | dcB A2 ^G | ABA A2 G | ABA A2 g |
+fed ee/f/g | dcB A3 | B2 G cAF | GAG G2 :|
+|: c |\
+B2 d dBG | B^AB dBG | ABA A2 G | ABA AA/B/c |
+B3 dBG | B^AB d3 | B2 G cAF | GAG G2 :|
+S:https://www.folktunefinder.com/tunes/146413
+S:http://www.thesession.org/tunes/display/8024
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

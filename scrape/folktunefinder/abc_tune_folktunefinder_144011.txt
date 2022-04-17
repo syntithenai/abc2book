@@ -1,0 +1,27 @@
+X:0881
+T:"Bryan O'Lynn"           (jig)          0881
+C:Unattributed
+N:Transposed From C
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+c|dBe dBA|FAF ABc|dBe dBA|FBB B2c|
+dBe dBA|FAF ABc|def {a}gfe|dBB B2:|
+|:(f/2^g/2)|aba afe|dBc def|fbb baf|fee e2(f/2^g/2)|
+aba afe|dBc def|gfe dBA|FBB B2:|
+S:https://www.folktunefinder.com/tunes/144011
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0881-BryanOLynn.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0881-BryanOLynn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

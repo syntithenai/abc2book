@@ -1,0 +1,29 @@
+X: 3
+P: Bus Stop Reel
+C: Anita Anderson \2511987
+R: reel
+Z: Transcribed to abc by Mary Lou Knack; headers added by John Chambers
+D: Open House "Open House"; Kevin Burke (fiddle), Paul Kotapish (guitar) et al.
+D: Salmonberry "New England Contra Dance Music"
+B: "The Portland Collection".
+B: "Brand New Old Time Fiddle Tunes (V.3)"
+B: Tunes From the Western Edge, by Anita Anderson and Michael Mendelson.
+N: Anita says she made up the tune "while waiting for the bus to work".
+M: C|
+L: 1/8
+K: Am
+|: "Am"A2eA dAc2 | ABcA "G"BAGB | "Am"A2eA dAcA | "C"cde^f "G"gedB | "Am"A2eA dAc2 |
+| ABcA "G"BAG2 | "F"FGAc "G"BAGB | "(Em)"cABG "Am"A4 :: "Am"ea-ag edcB | ABcd "(E)"e4 |
+| "Am"ea-ag "C"edc2 | "D"de^fd "E"e4 | "Am"ea-ag edcB | ABcd "(C)"e2dc | "G"BAGF EFGB | "(Em)"cABG "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/144437
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR26_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

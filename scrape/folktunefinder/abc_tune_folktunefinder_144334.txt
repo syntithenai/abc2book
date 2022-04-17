@@ -1,0 +1,36 @@
+X:1
+T:Bunte Polka
+C:traditionell
+R:Polka
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:im buch ganz mit einem (in G), einstimmig mit harmonie-buchstaben
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+D2 |\
+GFGA B2B2 | GFGA B2B2 | dcBc A2A2 | dcBc A2A2 |
+GFGA B2B2 | GFGA B2B2 | dcBc AcBA | G2B2G2 :|
+z2 |\
+d3c B2d2 | g2g2 d2dd | dcBc A2A2 | dcBc A2A2 |
+d3c B2d2 | g2g2 d4 | dcBc AcBA | G2B2G2 :|
+G2 |\
+edef g2g2 | g6 g2 | f2d2 g2f2 | efed c2G2 |
+edef g2g2 | g6 g2 | f2d2 g2B2 | c4 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/144334
+S:http://simonwascher.info/TradArchiv_polka/bunte_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

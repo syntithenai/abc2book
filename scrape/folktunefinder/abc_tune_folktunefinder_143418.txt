@@ -1,0 +1,20 @@
+X: 1
+T: Bridgie Murphy's
+M: 12/8
+L: 1/8
+R: slide
+K: Gmaj
+|:DEF E2F D3 D3|DEF EDB, A,3 A,3|
+DEF E2F D3 D3|DEF A2F G3 G3:|
+|:ABA G2B d3 d3|ABc BAG c3 c3|
+ABA G2B d3 d3|ABc B2A G3 G3:|
+S:https://www.folktunefinder.com/tunes/143418
+S:http://www.thesession.org/tunes/display/3430
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

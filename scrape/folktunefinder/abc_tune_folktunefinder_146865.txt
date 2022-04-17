@@ -1,0 +1,23 @@
+X:18
+T:The Cuckoo's Nest
+R:hornpipe
+H:Used for the Hounds dance "The Cuckoo's Nest"
+H:Tune is the same as the Bampton-style "Binghamton Stick Dance"
+M:4/4
+K:G
+c>dc>B A2 a2 | e2 e2 d2> c | B>cB>A G2 A>B | c2 d2 A4 :|
+a2 a2 a2 b>a | ^g2 e2 e3 f | g2 g2 g2 a>g | f2 d2 d4 |
+c>dc>B A2 a2 | e2 e2 d2> c | B>cB>A G2 A>B | c2 d2 A4 |]
+S:https://www.folktunefinder.com/tunes/146865
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/morris/hounds/border/border.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/morris/hounds/border/border.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

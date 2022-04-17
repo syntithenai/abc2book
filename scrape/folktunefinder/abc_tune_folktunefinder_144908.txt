@@ -1,0 +1,30 @@
+X:90
+T: Worn Torn Petticoat
+S: "Treoir"
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: Ador
+e2 d | c2 A BAG A2 G E2 D | EFG A2 B c2 d e2 d |\
+c2 A BAG A2 G E2 D |
+|1 EFG A2 B A3 :|2 EFG A2 B A3 A3 ||\
+Bcd e2 f g2 e d2 d |
+efg a2 b a2 g e2 d |Bcd e2 f g2 e d3 |\
+efg a2 b a3 a3 |
+Bcd e2 f g2 e d2 d |efg a2 b a2 g e2 d |\
+c2 A BAG A2 G E2 D | EFG A2 B A3 A3 ||
+S:https://www.folktunefinder.com/tunes/144908
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/w.abc
+S:http://www2.redhawk.org:8080/irish/zouki/w.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

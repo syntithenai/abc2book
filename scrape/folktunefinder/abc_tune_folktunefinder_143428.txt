@@ -1,0 +1,23 @@
+X: 1
+T:the Brigham Hornpipe
+M:4/4
+O:England
+A:North-West
+R:Hornpipe
+K:F
+(3cde|\
+fdfc abag| fefd cfcA| BABG dBGF| (3EFG (3FED C2(3cde|\
+fefc abag| fefd cfcA| BGdB AGFE| G2F2 F2::\
+EF|\
+G^FGA BGdB| Acfc afcA| Bbca BgAf| (3efg (3fed (3cdc (3BAG|\
+FAcA fcaf| Bdge bgec| fcdB AGFE| G2F2 F2:|
+S:https://www.folktunefinder.com/tunes/143428
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/br/Brigham_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

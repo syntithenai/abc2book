@@ -1,0 +1,23 @@
+X:7
+T:Fandango
+T:Dance: Not a Banana
+R:jig
+H:Dance composed by David Smukler
+Z:transcribed by Rich Holmes
+M:6/8
+K:D
+P:A
+"D"d2d dcd | "G"B2G "D"FGA | "D"d2d d3 | "Bm"fda f2 d |
+"D"d2d dcd | "G"B2G "D"FGA | "G"d2d d2g | "A"e2a "D"f2d  |]
+P:B
+"D"aba f2d | AFd AFd | aba f2d | "G"BGd BGd |
+"A"aba "D"f2d | "G"B2G "D"F2A | "G"B2d "A"e2c | "D"d6  |]
+S:https://www.folktunefinder.com/tunes/146880
+S:http://bassett-street-hounds.org/dances/tunes.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords Has chords

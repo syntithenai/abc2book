@@ -1,0 +1,23 @@
+X:1
+T:Bransle Gay
+C:Pierre Phalese (L\"owener Tanzbuch, 1571)
+Z:abc transcription Leonard Williams
+M:6/4
+L:1/4
+K:G treble
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .88 in
+%
+e|eg2e2e|eb2a2g|fe2f2f|eg2e2e|eb2a2g|af2e2e|
+eg2e2e|eb2a2g|fe2f2f|eg2e2e|eb2a2g|af2e2e||
+eb2g2g|ac'2b2g|af2e2e|eb2g2g|ac'2b2g|af2e2e|]
+S:https://www.folktunefinder.com/tunes/143113
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Phalese/bransle_gay.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Phalese/bransle_gay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

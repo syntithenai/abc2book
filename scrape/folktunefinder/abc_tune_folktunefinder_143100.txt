@@ -1,0 +1,31 @@
+X:84
+T:Bunker Hill
+R:reel
+D:Dermot Byrne: "Dermot Byrne", 1b
+M:C|
+L:1/8
+K:Bmix
+EC~C2 [B,3F3]B,|(3CDE FG G~A2G|FAFE CE~E2|FG{c}AF BcAF|
+ECAC ~B,2FB,|(3CDE FG AFGA|BcAF GE~E2|FG{c}AF [F2B2]AF|
+ECAC [B,3F3]F|CEFG GAGA|FAFE CE~E2|FG{c}AF BcAF|
+ECAC ~B,2FB,|(3CDE FG AFGA|BGAF GEDE|FG{c}AF BcAF||
+||EA~A2 cA~A2|E~A2G AFEA|{=F}^F2~B2 d~B2A|FBBc BAFE|
+DEFG AFBG|AFBG ~A2GA|BcAF GEDE|FG{c}AF BcAF|
+E2~A2 cA~A2|E~A2G AFEB|FB~B2 FBfB|F~B2c BAFE|
+DEFG ~AFBG|AFBG ~A2GA|BcAF GBEB|FG{c}AF Bdfe||
+||dB~B2 dBfB|dfBd (3fgf ed|ec~c2 ecgc|egce gcfe|
+dB~B2 FGAF|BAFG ~A2 (3FGA|BGAF GB,EG|FG{c}AF Bdfe|
+dB~B2 dBfB|dfBd (3fgf ed|ec~c2 ecgc|egce gc{g}fe|
+dB~B2 FGAF|BAFG ~A2 (3FGA|BcAF GE~E2|FG{c}AF BFAF||
+S:https://www.folktunefinder.com/tunes/143100
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/20010813.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/BunkerHill.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

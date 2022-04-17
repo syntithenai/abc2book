@@ -1,0 +1,27 @@
+X:2 
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+T:II. When loe, by break of morning
+O: The First Booke of Canzonets to two voyces, 
+H: transcribed from the Performers' Facsimiles print
+C: Thomas Morley
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+M:C
+L:1/8
+M:C
+K:F
+T:Tenor
+N: Original Clef, treble
+%line 1
+z8 c2   c    c   d2  =B2 c  B A G F2 G2 C4     G2   G   G  A2    c2 =B4   c4 \
+S:https://www.folktunefinder.com/tunes/146038
+S:http://www.laymusic.org/music/morley/breakmorn/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

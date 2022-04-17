@@ -1,0 +1,30 @@
+X: 1
+T:Brudl\aa{t} fr\aa{n} \"Oje Kapell
+S:Christina E
+S:3 Spelm\"an record
+R:Wedding march
+O:Sweden
+M:2/4
+K:DDorian
+|: D \
+| F2FD F2F2 | EFED E2E2 | F2FD F2F2 | EFED E2E2 |\
+| F2FG A4 | G2GB A4 | [K:D] d2eg f2ed | "Fine"c4 d4 :|
+| d2eg f2ed | cdef e2cA | d2eg afdf | e2c2 (A4 | A8) |\
+| d2eg f2ed | cdef e2cA | d2ef afdf | e2c2 [d2F2]f2 |
+| a2ab a2fd | g2gb g2ec | e2a2 f2df | e2c2 (A4 | A8) |\
+| a2ab a2fd | g2gb g2ec | e2a2 f2df | e2c2 [d4F4] |]
+S:https://www.folktunefinder.com/tunes/143816
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/BrudlaatFranOjeKapell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/snoa/BrudlaatFranOjeKapell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/ganglat/BrudlaatFranOjeKapell.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/snoa/BrudlaatFranOjeKapell.abc
+% Rhythm Wedding march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords
