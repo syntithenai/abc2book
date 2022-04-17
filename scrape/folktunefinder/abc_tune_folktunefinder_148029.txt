@@ -1,0 +1,183 @@
+X: 1
+T:The Chicken
+M:4/4
+L:1/8
+Q:1/4=110
+C: Pee Wee Ellis
+K:Eb
+V:1 name="Soprano"
+z8 |z8 |\
+z8 |z4 z2 z/ G/B ||\
+d2 z2 z4 |z2 F/G/B/d/- dB/G/ Be |\
+d2 z2 z4 |z2 d2 gf _dc- |\
+c2 B/G/B- B4 |z4 z2 b2 |\
+%%10
+z2 =aa z2 a/g/f/g/- |g4 z4|\
+z d z/ c3/ d2 z2 |z d z/ c3/ d2 z2 |\
+z d z/ c3/ d2 z/ =e/f/g/|b/_af/ z/ e_d/ z/ B/_A z b |\
+z8 |z8 |\
+z8 |z4 z2 z/ G/B ||\
+%%20
+d2 z2 z4 |z2 F/G/B/d/- dB/G/ Be |\
+d2 z2 z4 |z2 d2 gf _dc- |\
+c2 B/G/B- B4 |z4 z2 b2 |\
+z2 =aa z2 a/g/f/g/- |g4 z3/ F/ G/B/d/B/- |\
+B2 z2 z3/ F/ G/B/d/B/- |B2 z2 z3/ F/ G/B/d/B/-|\
+%%30
+B2 z2 z2 z/ =e/f/g/ |\
+b/_af/ z/ e_d/ z/ B/_A z b |z2 d/d_d/-d4 |\
+z2 d/d_d/-d4 |z2 d/d_d/-d4 |\
+z2 d/d_d/-d4 |:"Bb7"z8 |\
+"Bb7"z8 |"Bb7"z8 |\
+%%40
+"Bb7"z8 |"Eb7"z8 |\
+"Eb7"z8 |"D7"z8 |\
+"Gm"z8 |"C7"z8 |\
+"C7"z8 |"C7"z8 |\
+"C7"z8 |"Bb7"z8 |\
+%%50
+"Bb7"z8 |"Bb7"z8 |\
+"Bb7"z8 ||"Bb7"z8 |\
+"Bb7"z8 |"Bb7"z8 |\
+"Bb7"z8 |"Eb7"z8 |\
+"Eb7"z8 |"D7"z8 |\
+"Gm"z8 |"C7"z8 |\
+"C7"z8 |"C7"z8 |\
+b/_af/ z/ e_d/ z/ B/_A z b |\
+z2 d/d_d/-d4 |z2 d/d_d/-d4|\
+z2 d/d_d/-d4 |1 z2 d/d_d/-d4:|2\
+z2 d/d_d/-d2 z/ G/B ||\
+d2 z2 z4 |z2 F/G/B/d/- dB/G/ Be |\
+%%60
+d2 z2 z4 |z2 d2 gf _dc- |\
+c2 B/G/B- B4 |z4 z2 b2 |\
+z2 =aa z2 a/g/f/g/- |g4 z3/ F/ G/B/d/B/- |\
+B2 z2 z3/ F/ G/B/d/B/- |B2 z2 z3/ F/ G/B/d/B/-|\
+B2 z2 z2 z/ =e/f/g/ |b/_af/ z/ e_d/ z/ B/_A z b|\ 
+%%70
+z8 |z8 |\
+z8 |z4 z2 z/ G/B ||\
+d2 z2 z4 |z2 F/G/B/d/- dB/G/ Be |\
+d2 z2 z4 |z2 d2 gf _dc- |\
+c2 B/G/B- B4 |z4 z2 b2 |\
+%%80
+z2 =aa z2 a/g/f/g/- |g4 z3/ F/ G/B/d/B/- |\
+B4 z3/ F/ G/B/d/B/- |B4 z3/ F/ G/B/d/B/- |\
+B4 z2 z/ =e/f/g/ |b/_af/ z/ e_d/ z/ B/_A z b|]\
+V:2 name="Alto"
+z8 |z8 |
+z8 |z4 z2 z/ B,/D ||
+F2 z2 z4|z2 A,/B,/D/F/ -FD/B,/ DG  |
+F2 z2 z4|z2 F2 BA FG-|
+G2 F/E/F- F4|z4 z2 f2|
+%%10
+z2 _gg z2 =e/d/c/d/-|d4 z4|
+z B z/ =A3/2 B2 z2|z B z/ =A3/2 B2 z2|
+z B z/ =A3/2 B2 z/ G/=A/B/|d/cA/ z/ GF/ z/ D/C z =e|
+z8 |z8 |
+%%20
+z8 |z4 z2 z/ D/F ||
+A2 z2 z/ B_d/- dB/=A/|B/d3/2 A,/B,/D/F/ -FD/B,/ DG|
+F3/d/ e/=e_e/ z/ B_d/- d=d/e/|f/B3/ F2 BA FG-|
+G2 F/E/F- F3 _d-|_dd c/d3/ c/d3/ f2|
+c2 cc z2 =A/G/F/G/-|G4 z3/ F/ G/B/=A/G/-|
+%%30
+G2 z2 z3/ F/ G/B/=A/G/-|G2 z2 z3/ F/ G/B/=A/G/-|
+G2 z2 z2 z/ G/=A/B/|d/cA/ z/ GF/ z/ D/C z =e|
+z2 B/BB/- B4|z2 B/BB/- B4|
+z2 B/BB/- B4|z2 B/BB/- B4|:
+"Bb7"z8 |\
+"Bb7"z8 |"Bb7"z8 |
+%%40
+"Bb7"z8 |"Eb7"z8 |
+"Eb7"z8 |"D7"z8 |
+"Gm"z8 |"C7"z8 |
+"C7"z8 |"C7"z8 |
+"C7"z8 |"Bb7"z8 |
+%%50
+"Bb7"z8 |"Bb7"z8 |
+"Bb7"z8 ||"Bb7"z8 |
+"Bb7"z8 |"Bb7"z8 |
+"Bb7"z8 |"Eb7"z8 |
+"Eb7"z8 |"D7"z8 |
+"Gm"z8 |"C7"z8 |
+"C7"z8 |"C7"z8 |
+d/cA/ z/ GF/ z/ D/C z =e|
+z2 B/BB/- B4|z2 B/BB/- B4|
+z2 B/BB/- B4|1 z2 B/BB/- B4:|2
+z2 B/BB/- B2 z/ D/F ||
+%%60
+A2 z2 z/ B_d/- dB/=A/|B/d3/2 A,/B,/D/F/ -FD/B,/ DG|
+F3/d/ e/=e_e/ z/ B_d/- d=d/e/|f/B3/ F2 BA FG-|
+G2 F/E/F- F3 _d-|_dd c/d3/ c/d3/ f2|
+c2 cc z2 =A/G/F/G/-|G4 z3/ F/ G/B/=A/G/-|
+G2 z2 z3/ F/ G/B/=A/G/-|G2 z2 z3/ F/ G/B/=A/G/-|
+%%70
+G2 z2 z2 z/ G/=A/B/|d/cA/ z/ GF/ z/ D/C z =e|
+z8 |z8 |
+z8 |z4 z2 z/ D/F ||
+B2 z2 z4|z2 D/F/G/B/- BF/D/ Fc|
+B2 z2 z4|z2 B2 AG E_D-|
+%%80
+_D2 D/C/D- D4|z4 z2 _d2|
+z2 dd z2 =e/d/c/d/-|d4 z3/ B,/ C/=E/G/E/-|
+=E4 z3/ B,/ C/=E/G/E/-|=E4 z3/ B,/ C/=E/G/E/-|
+=E4 z2 z/ G/=A/B/|d/cA/ z/ GF/ z/ D/C z =e|]
+V:3 name="Tenor"
+z8 |z8 |z8 |z8 ||z8 |z8 |z8 |z8 |z8 |\
+z4 z2 _d2|z2 cc z2 =A/G/F/G/-|\
+G4 z3/2 F,/ G,/B,/D/B,/-|B,4 z3/2 F,/ G,/B,/D/B,/-|\
+B,4 z3/2 F,/ G,/B,/D/B,/-|B,4 z2 z/ B,/C/=E/|\
+F/EC/ z/ B,A,/ z/ F,/E, z G,|z8|\
+z8|z8|\
+z4 z2 z/ B,/D||F2 E/=E_E/ z/ B,_D/- DB,/A,/|\
+B,/D3/2z2 z4|z3/2 D/ E/=E_E/ z/ B,_D/- D=D/E/|\
+F/A,3/2 z2 z4|z4 z G AB-|\
+BB F/G3/2 F/G3/2 _D2|D6 z2|\
+z D z/ C3/2 D2 z2|z D z/ C3/2 D2 z2|\
+z D C/D/C/D/- D2 z2|z D C/D/C/D/- D2 z/ B,/C/=E/|\
+F/EC/ z/ B,A,/ z/ F,/E, z G,|z2 F/FE/- E4|\
+z2 F/FE/- E4|z2 F/FE/- E4|\
+z2 F/FE/- E4|:\
+"Bb7"z8 |\
+"Bb7"z8 |"Bb7"z8 |\
+%%40
+"Bb7"z8 |"Eb7"z8 |\
+"Eb7"z8 |"D7"z8 |\
+"Gm"z8 |"C7"z8 |\
+"C7"z8 |"C7"z8 |\
+"C7"z8 |"Bb7"z8 |\
+%%50
+"Bb7"z8 |"Bb7"z8 |\
+"Bb7"z8 ||"Bb7"z8 |\
+"Bb7"z8 |"Bb7"z8 |\
+"Bb7"z8 |"Eb7"z8 |\
+"Eb7"z8 |"D7"z8 |\
+"Gm"z8 |"C7"z8 |\
+"C7"z8 |"C7"z8 |\
+F/EC/ z/ B,A,/ z/ F,/E, z G,|\
+z2 F/FE/- E4|z2 F/FE/- E4|\
+z2 F/FE/- E4|1 z2 F/FE/- E4:|2\ 
+z2 F/FE/- E2 z/ B,/D||\
+F2 E/=E_E/ z/ B,_D/- DB,/A,/|B,/D3/2 z2 z4|\
+z3/2 D/ E/=E_E/ z/ B,_D/- D=D/E/|F/A,3/2 z2 z4|\ 
+z4 z G AB-|BB F/G3/2 F/G3/2 _D2|\ 
+D6 z2|z D z/ C3/2 D2 z2|\ 
+z D z/ C3/2 D2 z2|z D C/D/C/D/- D2 z2|\ 
+z D C/D/C/D/- D2 z/ B,/C/=E/|F/EC/ z/ B,A,/ z/ F,/E, z G,|\
+z8|z8|\
+z8|z4 z2 z/ B,/D||\
+F2 z2 z4|z2 B,/C/D/F/- FD/B,/ DG|\
+F2 z2 z4|z2 F2 FE CB,-|\
+B,2 B,/G,/B,- B,4|z4 z2 G2|\
+z2 CC z2 =A/G/F/G/-|G4 z3/2 D,/ E,/G,/B,/G,/-|\
+G,4 z3/2 D,/ E,/G,/B,/G,/-|G,4 z3/2 D,/ E,/G,/B,/G,/-|\
+G,4 z2 z/ B,/C/=E/|F/EC/ z/ B,A,/ z/ F,/E, z G, |]
+S:https://www.folktunefinder.com/tunes/148029
+S:http://abcmr.sourceforge.net/thechicken.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

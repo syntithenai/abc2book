@@ -1,0 +1,36 @@
+X:2378
+T:La Cavalleria de Napoles con dos Clarines
+T:The cavallery of Naples
+C:anon.
+O:Italy/Spain
+B:Gaspar Sanz: Instruccion de Musica (1674)
+H:After Gaspar Sanz
+R:Fanfare
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/italy/cavallerianap/cavallerianap-1.abc
+M:3/4
+L:1/4
+Q:1/4=164
+K:F
+A|"F"MA>GA|"Bb"B"C"G2|"F"AA/2G/2A|"Bb"B"C"G2|"F"AA/2G/2A|"Bb"B"C"G2|MHA3||
+"F"MA>GA|"Bb"MB>cB|"Bb"B"A"A2|"C"G3|"n.c."~ccc|"n.c."Mc3|
+"F"MAAA|"Bb"B>BB|"C"GGG|"F"AA/2G/2A|"Bb"B"C"G2|"F"AA/2G/2A|"Bb"B"C"G2|"F"A2S~f||
+"F"f>ef|"Bb"d"C"Me2|"F"ff/2e/2f|"Bb"d"C"Me2|"F"ff/2e/2f|"Bb"d"C"Me2|"F"f3|"n.c."~CCC|"n.c."MC3|
+"F"~AAA|"Bb"B>BB|"C"ccc|"F"AA/2G/2A|"Bb"B"C"Pc2|"F"AA/2G/2A|"Bb"B"C"Pc2|"F"~A2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/147385
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/italy/cavallerianap/cavallerianap-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/italy/cavallerianap/cavallerianap-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/italy/cavallerianap/cavallerianap-1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/italy/cavallerianap/cavallerianap-1.abc
+% Rhythm Fanfare
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:1
+T:Ciao, Corazon
+C:Matthew Fox
+L:1/8
+Q:360
+M:4/4
+K:F
+ B,D EG2F ED | FE D_D =D4 |: "Dm"aa ag2f2a | gf ed "Gm"ef "A"_d2 | "Gm"Bc df2e2d | \
+ "A"_de Be A4 | "Gm"GA Bf ec G_A | "Dm"[AA][AA] [AA]F ED _D=D | "Em7b5"B,D EG2F ED | \
+|1 "A"FE D_D "Dm"=D4 :|2 "A"FE D_D "Dm"=DE F_G | "Gm"GB2G BB G_G | "Dm"FA2F AA FD | \
+ "A7"EA2E A_d ed | "Dm"d_d =de fd ef | "Bb"gb2g bb gd | "Dm"ef2g af ed | "Em7b5"Bd eg2f ed | \
+ "A7"fe d_d "Dm"=d4 |: "Dm"fD Af ed _de | dA, Dc "Gm"BG "A"_de | "Gm"gG Ba gf ed | \
+ "A"_dE de [a4d4E4] | "Gm"gG Ba gf eg | "Dm"fe dA FD G,A, | "Em7b5"B,e dB eB de | \
+|1 "A"_dE ed "Dm"[=d4F4] :|2 "A"_dE ed "Dm"=dc B_G | "Gm"GB2G BB G_G | "Dm"FA2F AA FD | \
+ "A7"EA2E A_d ed | "Dm"d_d =de fd ef | "Bb"gb2g bb gd | "Dm"ef2g af ed | "Em7b5"Bd eg2f ed | \
+ "A7"fe d_d "Dm"=d4 |: d"Dm"d dd dd dd | dF A2 "Gm"Bd "A"_d2 | "Gm"gf g2 dB d2 | "A"_dd dd [e4d4] | \
+ "Gm"GB d2 gb g2 | "Dm"fd B2 GA B2 | "Em7b5"de dB eB de |1 "A"fe d_d "Dm"=d4 :|2 "A"fe dB "Dm"AF D_G | \
+ "Gm"GB2G BB G_G | "Dm"FA2F AA FD | "A7"EA2E A_d ed | "Dm"d_d =de fd ef | "Bb"gb2g bb gd | \
+ "Dm"ef2g af ed | "Em7b5"Bd eg2f ed | "A7"fe d_d "Dm"=d4 | "Dm"aa ag2f2a | gf ed "Gm"ef "A"_d2 | \
+ "Gm"Bc df2e2d | "A"_de Be A4 | "Gm"GA Bf ec G_A | "Dm"[AA][AA] [AA]F ED _D=D | "Em7b5"B,D EG2F ED | \
+ B,D EA2G FE | B,D EF AG FA | GF E_D =D4 | \
+S:https://www.folktunefinder.com/tunes/148356
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/ciaocoracao-2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/ciaocoracao_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

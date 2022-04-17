@@ -1,0 +1,19 @@
+X:1
+T:Cheers, Cheers for Old Notre Dame
+M:4/4
+L:1/4
+K:G
+ B2 ^A B| c/2 c B/2 c2| c/2 c c/2 B c| d/2 d ^c/2 d2| e g f e| d B G2|\
+ B/2 A ^G/2B/2 A3/2| ^G A d2| B/2 B B/2 ^A B| c/2 c B/2 c2| c/2 c c/2 B c|\
+ d/2 d ^c/2 d2| e g f e| d B G A| B/2 d c/2 B A| G2- G z|
+S:https://www.folktunefinder.com/tunes/147902
+S:http://back.numachi.com:8000/dtrad/abc/NOTRDAME.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/NOTRDAME.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

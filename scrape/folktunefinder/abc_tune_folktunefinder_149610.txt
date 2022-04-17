@@ -1,0 +1,31 @@
+X:1
+T:Contra nr. 4
+C:traditionell
+A:Muerztal, Steiermark
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Sepp Pichler, nach einer Handschrift aus Neuberg an der Muerz
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+D |\
+GG BB | d/e/d/^c/ dB | cA BG | F/G/A/F/ DD |
+GG BB | d/e/d/^c/ dB | cA FA | G3 :|
+|: F/G/ |\
+Ad AF | GB dB | cB cd | c3B |
+Ad AF | GB dB | cA FA | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/149610
+S:http://simonwascher.info/TradArchiv_polka/contra_nr._4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

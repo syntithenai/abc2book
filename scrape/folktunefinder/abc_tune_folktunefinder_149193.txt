@@ -1,0 +1,27 @@
+X: 2
+T: Come Up Stairs With Me  
+S: O'Neills Music of Ireland: 1850 Melodies, 1903; page 221, tune #1172 
+S: ONeills Dance Music of Ireland: 1001 Gems; 1907, page 86, tune #442
+M: 9/8
+L: 1/8
+K: G Major
+R: slip jig
+|: D |\ 
+G2 c BAG Bcd | ecA ABG FED | 
+G2 c BAG Bcd | efg faf g2 :|
+|: g |\ 
+fed d2 g fed | ecA ABG FED |
+[1 fed d2 g fed | efg faf g2 :|
+[2 G2 c BAG Bcd | efg faf g2 |]
+S:https://www.folktunefinder.com/tunes/149193
+S:http://www.thesession.org/tunes/display/5975
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: Knit the Pocky
+T: Lady Mackintosh's Reel
+T: Corney is Coming
+R: reel
+Z: 2003 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 11-1
+B: Bremner's Collections, 1757
+M: C|
+L: 1/8
+K: Dm
+   A | "Dm"Ddd^c defd | "C"cBAG FGEC | "Dm"Ddd^c defg | "A7"ed^ce "Dm"~d2d :|
+|: a | "Dm"defg  afdf | "C"edcg ecge | "Dm"defg  afdf | "C"ecge   "Dm"d2d  :|
+S:https://www.folktunefinder.com/tunes/149859
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/KnitThePocky1_Dm.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

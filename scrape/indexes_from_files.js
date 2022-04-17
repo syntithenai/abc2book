@@ -50,8 +50,9 @@ for (var filenameKey in fileNames)  {
             var title = innerParts[0].trim()
             if (title.length > 0 && id && id.length > 0) {
                 index.lookups[id] = title
-                var titleParts = stripText(title).split(' ')
-                titleParts.forEach(function(token) {
+                var titleParts = title.split(' ')
+                titleParts.forEach(function(tokenDirty) {
+                    var token  = stripText(token)
                     var existing = index.tokens[token]
                     if (!Array.isArray(existing)) {
                         existing = []

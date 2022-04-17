@@ -1,0 +1,40 @@
+X:1
+T:Drobes : autres
+%%scale 0.80
+Z:Roger Ngaret (94-95)
+R:derobee
+C:Trad.
+S:
+A:Bretagne
+T:Guingamp A
+Q:C3=180
+M:6/8
+L:1/8
+K:C
+d2 e dcd | e2 f d3 | dcd g2 f | ede f2 d |
+d2 e dcd | e2 f d3 | dcd g2 f | edc d3 ||
+gaf g3 | gaf g2 g | a2f gfg | agf g3 |
+e3 f2 g | g2 f edc | e3 g2 f | ede c2 z |]
+T:Guingamp B
+cBc A2 e | e2 d cBA | cBc A2 e | e2 d e3 :|
+e2 d e2 e | fed e2 e |fed ede | fed e2 d |
+c3 d2 f | e2 d cBA | c3 d2 e | c2 B A3 |]
+T:Chatelaudren A
+cBc g2 g | d2 e f3 |1 edc fed | c2 B d c2 :|2 
+efg edc | cdB c3 |:g2 e fef | gaf g2 c | cBc Adc |1 
+BAB G3 :|2 BAB c3 |]
+T:Chatelaudren B
+GAG c2 e | dfd e2 g |1 gec dgf | edf e2 c :|2 
+gfe dec | BcA G3 |:
+GFG c3 | edf e2 c |1 e2 g gfe | dfd e2 c :|2 
+egf e2 c | d2 B c3 |]
+S:https://www.folktunefinder.com/tunes/147880
+S:http://termen.free.fr/danses/tregor/Derobeesautres.abc
+% Rhythm Derobee
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

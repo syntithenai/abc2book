@@ -1,0 +1,24 @@
+X: 1
+T: Shandon Bells
+T: Cluig Sean-duin
+B: O'Neill's
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: B \
+| "D"AFD DFA | ded cBA | "Em"BGE EFA | "A7"B2A Bcd \
+| "D"AFD DFA | ded cBA | "G"Bcd "A7"ecA | "D"d3- d2 :|
+|: g \
+| "D"f2d- ded | faa afd | "A7"cAA eAA | cBc efg \
+| "D"f2d- ded | faa afd | "G"Bcd "A7"ecA | "D"d3- d2 :|
+S:https://www.folktunefinder.com/tunes/148721
+S:http://www.firepowr.com/abc/ShandonBells.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

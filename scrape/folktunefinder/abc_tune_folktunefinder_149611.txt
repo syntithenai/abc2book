@@ -1,0 +1,29 @@
+X:1
+T:Contra nr. 5
+C:traditionell
+A:Muerztal
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Sepp Pichler, nach einer Handschrift aus Neuberg an der Muerz
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+|: d |\
+^cd BG | A2 DD | GG AA | Bc/B/ Ad |
+^cd BG | A2 DD | GB AB | G3 :|
+|: B/c/ |\
+dg gg | gf/e/ dB/c/ | dg gg | gf/e/ dd |
+g3f | e3d | c2 A2 | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/149611
+S:http://simonwascher.info/TradArchiv_polka/contra_nr._5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 6
+T:White Cockade, The
+M:4/4
+L:1/8
+R:Scottish Country Dance
+K:G
+GA[|:B2 B2 B2 AG|B2 B2 B2 ge|d2 B2 B2 AG|B2 A2 A2 GA|!
+B2 B2 cBAG|B2 d2 g3 a|bagf agfe|1d2 B2 B2 GA:|2d2 B2 B2 Bc|!
+|:d2 B2 g2 B2|d2 d2 d2 de|d2 B2 g2 fg|a2 A2 A2 GA|!
+B2 B2 cBAG|B2 d2 g3 a|bagf agfe|1d2 B2 B2 Bc:|2d2 B2 B2 GA|]!
+% Output from ABC2Win  Version 2.1 i on 2/24/2003
+S:https://www.folktunefinder.com/tunes/148682
+S:http://www.geocities.com/novairishsession/bw/bwmisc.txt
+S:http://www.novasession.com/bw/bwmisc.txt
+% Rhythm Scottish country dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

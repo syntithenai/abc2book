@@ -1,0 +1,27 @@
+X:1
+T:La plus des plus
+C: Josquin des Prez
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+K:A min
+z8 z2 E4 F2 G2 A2 G A2 G/ "(1)"F/  E2 D2
+N:(1) Original has a half note
+z2 A4 B2 c2 d2 c d2 c/ B/ A2 G3 A/ B/ c B > A A2 G A3 G/ F/ G/ F/ E/ D/ C2 
+z2 D2 E2 E2 D2 A2 B2 B2 c2 B c2 B/ A/ G A2 G/ F/ E3 D 
+E F > E D/ C/ B, A,2 D2 C D4
+z2 A,2 C3 B,/ A,/ C D E2
+S:https://www.folktunefinder.com/tunes/149575
+S:http://www.laymusic.org/music/josquin/plus/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

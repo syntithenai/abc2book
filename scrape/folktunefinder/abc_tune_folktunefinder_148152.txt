@@ -1,0 +1,44 @@
+X:3
+T:Gebovka
+O:Macedoine de l'est
+M:2/4
+L:1/8
+Q:1/4=100
+K:F
+{^F} GG A/B/B/G/ | A/B/B/G/ ^c/d/d/G/ |\
+d/e/d/^c/ B/c/B/A/ | {^F} GG ^c/d/d/G/ |
+{^F} GG A/B/B/G/ | A/B/B/G/ ^c/d/d/G/ |\
+d/e/d/^c/ B/c/B/A/ | GG/D/ G2 :|
+|: d/e/d/^c/ B/c/B/A/ | GG/D/ ^c/d/d/G/ |\
+d/e/d/^c/ B/c/B/A/ | GG d2 |
+d/e/d/^c/ B/c/B/A/ | GG ^c/d/d/G/ |\
+d/e/d/^c/ B/c/B/A/ | GG/D/ G2 :|
+|: g/f/e/d/ f/e/d/^c/ | e/d/^c/B/ cc/A/ |\
+^c/A/d/A/ ee/A/ | f/e/d/f/ ee/A/ |
+g/f/e/d/ f/e/d/^c/ | e/d/^c/B/ cc/A/ |\
+e/d/^c/B/ A/G/A | A/G/A/e/ A2 :|
+|: ^c/d/c/B/ ^c/d/c/B/ | ^c/d/c/B/ cc/A/ |\
+^c/A/d/A/ ee/A/ | f/e/d/f/ ee/A/ |
+^c/d/c/B/ ^c/d/c/B/ | ^c/d/c/B/ cc/A/ |\
+e/d/^c/B/ A/G/A | A/G/A/e/ A2 :|
+K:G
+|: E/D/E E/D/E/F/ | A/G/A/B/ GG/F/ |\
+F/D/E E/D/B/A/ | A/G/A/B/ GG/F/ |
+F/D/E E/D/E/F/ | {G} A2 G>F |\
+E/F/G F/E/F/D/ | EE/A/ E2 :|
+|: B/A/G F/E/F/D/ | FF/D/ FF/D/ |\
+E/F/G F/E/F/D/ | EE/A/ EE/D/ |
+B/A/G F/E/F/D/ | FF/D/ FF/D/ |\
+E/F/G F/E/F/D/ | EE/A/ E z :|
+S:https://www.folktunefinder.com/tunes/148152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/est.txt
+S:http://users.skynet.be/infants/musiques/abc/est.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/est.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

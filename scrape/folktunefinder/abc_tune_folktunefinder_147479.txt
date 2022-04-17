@@ -1,0 +1,40 @@
+X: 2
+T:Cercle circassien
+G:Kazimodal
+R:Cercle circassien
+C:, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3/1=140
+P:(DE)2DF
+M:6/8
+S:
+%%MIDI gchord fzzczc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+%%MIDI program 109
+K:Bm
+P:I
+"Bm"B2 c \
+P:D
+|: d2 d "D"def | "A"ecA ABc | "G"d2 B Bcd | "F#m"cAF FBc |
+"Bm"d2 d "D"def | "A"ecA ABc | "G"dcB "F#m"cdc |1 "Bm"B2 B B2 c :|2\
+"Bm"B2 B B"F#m"f"E"^g |
+P:E
+|: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
+"D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
+"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B2 B B2 c ||
+%%text 1: Fl\^ute  guitare open 3 cordes aigu\"es
+P:F
+|: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
+"D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
+"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B3 " "z3 ||
+S:https://www.folktunefinder.com/tunes/147479
+S:http://kazimodal.trad.org/partitions/cercles_circassiens/LE_cercle/LE_cercle.abc
+% Rhythm Cercle circassien
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

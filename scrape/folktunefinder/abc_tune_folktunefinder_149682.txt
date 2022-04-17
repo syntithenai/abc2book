@@ -1,0 +1,25 @@
+X: 1
+T: Conundrum, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Amaj
+A>B|:c2 A>B e>f c2|A>c e>a f2 e>f|a2 e>f e>f c2|A>c e>c B2 A>B|
+c2 A>c e>f c2|A>c e>a f2 e>f|a2 e>f e>f c2|1B2 A2 A2 A>B:|2 B2 A2 A2 f>g||
+a2 e>f a>e a2|e>f a>e f2 e>f|a2 e>f e>f c2|
+[1A>c e>c B2 f>g|a2 e>f a>e a2|e>f a>e f2 e>f|a2 e>f e>f c2|B2A2 A2 f>g:|
+[2A>c e>c B2 A>B|c2 A>c e>f c2|A>c e>a f2 e>f|a2 e>f e>f c2|B2A2 A2e2||
+|:A>B c2 A>Bc>A|c<e A>B c2e2|f>g a2 e>f c2|A>c e>c B2e2|
+A>B c2 A>Bc>A|c<e A>B c2e2|f>g a2 e>f c2|1B2A2A2e2:|2B2A2A2 a2||
+|:f>e a>e f2 e<a|f2 e<a f>e a>e|f>g a2 e>f c2|
+[1A>c e>c B2a2|f>e a>e f2 e>a|f2 e<a f>e a>e|f>g a2 e>f c2|B2A2A2a2:|
+[2A>c e>c B2 A>B|c2 d>c e>A c2|d>c e>A f2 e>e|a2 e>f e>a c2|B2A2A2 A>B||
+S:https://www.folktunefinder.com/tunes/149682
+S:http://www.thesession.org/tunes/display/4784
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

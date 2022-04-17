@@ -1,0 +1,23 @@
+X: 1
+T: Christmas Eve
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+GE|:DB,DE G2 GA|(3BBB dB ABGA|BAGE DB,DE|G2 BG ABGE|
+|DB,DE GFGA|B2 dB ABGA|BAAB G~E3|1 ABGF G2 EG:|2 ABGF ~G3A||
+|:BG (3Bcd edeg|a2 ge gfeg|a2 af ~g3e|dBgB BAGA|
+|BG (3Bcd edeg|abge gfeg|abge dBGB|1 ABGF ~G3A:|2 ABGF GAdc||
+|:BGGA BGBd|e~g3 egdc|BGEG DGBG|FAAG FADA|
+|BGGA BGBd|e~g3 efga|bgaf gedB|1 ABGF GAdc:|2 ABGF G EG||
+S:https://www.folktunefinder.com/tunes/148288
+S:http://www.thesession.org/tunes/display/440
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

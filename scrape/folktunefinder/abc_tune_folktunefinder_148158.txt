@@ -1,0 +1,27 @@
+X:1
+T:Dir, dir, Jehova, will ich singen
+T:Chorale n 46, BWV 299
+C:M:Johann Sebastian Bach, 1725
+C:T:Bartholomus Crasselius, 1697
+B:Schemelli's Book
+M:3/4
+L:1/4
+Q:1/4=82
+%%staves [(1 2) (3 4)]
+V:1 clef=treble name="Soprano" sname="S" 
+V:2 clef=treble name="Alto"    sname="A" 
+V:3 clef=bass   name="Tenore"  sname="T" 
+V:4 clef=bass   name="Basso"   sname="B" 
+K:Bb
+V: 1
+F|(B d/c/)   d/B/|g  e2         |(f B)    e |!trill!c2 !fermata!B |c     e     d|
+S:https://www.folktunefinder.com/tunes/148158
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flanders.blackmill.net/bach.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

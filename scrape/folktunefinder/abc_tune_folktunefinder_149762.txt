@@ -1,0 +1,30 @@
+X: 1
+T: COPENHAGEN -- HORNPIPE
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: hornpipe
+M: C|
+L: 1/8
+Z: Contributed 20000427195458 by John Chambers jchambers:casc.com
+N:
+N: (Can be used as a Clog.)
+K: E
+(uga) \
+| b>ga>f e>gf>e | d>ef>d B>cB>A | G>B"4"e>d | c>fa>g | (3.f.g.f (3.e.d.c B2G>a |
+| b>ga>f e>gf>e | d>ef>d B>cB>A | G>B"4"e>=d c>af>^d | e2g2e2 :|
+|: (de) \
+| f>BB>B B>fg>a | g>ee>e e>fg>a | b>ge>g a>gf>e | d>bc>^a B2(d"4"e) |
+| f>BB>B B>fg>a | g>"4"ee>e e>f(ga) | b>gf>e (db)(Bd) | e2g2e2 :|
+S:https://www.folktunefinder.com/tunes/149762
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/CopenhagenHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CopenhagenHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/CopenhagenHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CopenhagenHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

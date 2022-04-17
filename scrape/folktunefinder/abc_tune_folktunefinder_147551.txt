@@ -1,0 +1,23 @@
+X: 1
+T: Changeling, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Bmin
+|: &quot;Bm&quot; B2 BA Bd | &quot;G&quot; ABBA FE | &quot;D&quot; Fd dc ec | &quot;A&quot; d2 de c2 |!
+&quot;Bm&quot; ~f3e df | &quot;A&quot; e2 a2 c2 |1 &quot;G&quot; ~B3d &quot;A&quot;ce | &quot;Bm&quot; df ed c/B/A :|2 &quot;G&quot; ~B3d &quot;A&quot; cA | &quot;Bm&quot; B4 a2 ||!
+|: &quot;A&quot; a3f df | ~e3d c/d/e | &quot;Bm7&quot; fb ba fa | b3a f2 |!
+&quot;G&quot; de ef B2 | &quot;D/F#&quot; A3B FE | &quot;Em&quot; FB B/c/d &quot;D/F#&quot; ce | &quot;G&quot; d2 ed c/B/A :|
+S:https://www.folktunefinder.com/tunes/147551
+S:http://www.thesession.org/tunes/display/3521
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

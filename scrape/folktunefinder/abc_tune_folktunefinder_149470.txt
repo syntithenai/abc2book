@@ -1,0 +1,25 @@
+X: 1
+T:Conscription
+C:Trad., arr. J. Goodacre
+S:Hamish Moore's School of Piping
+Z:Transcribed by A. Upton
+M:4/4
+L:1/8
+K:G
+DEF|G3A B3A|G6AB|c2A2 d3c|BcBA GDEF|!
+G3A B3A|G6AB|c2A2 d2FA|G4 -GDEF||!
+DEF|d3c B3A|G2c4AB|c2A2 d3c|BcBA GABc|!
+d3c B3A|G2c4AB|c2A2 d2FA|G4 -GABc||!
+S:https://www.folktunefinder.com/tunes/149470
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Conscription_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/co/Conscription_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

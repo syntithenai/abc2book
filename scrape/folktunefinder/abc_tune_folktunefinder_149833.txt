@@ -1,0 +1,22 @@
+X: 1
+P: The Cornerhouse Jig
+C: Andrew Rankine
+R: Jig
+B: The Complete Andrew Rankine Collection
+Z: arr. Terry Traub 4-15-02
+M: 6/8
+K: D
+L: 1/8
+B|: "D" Add dcd| fed A2 d| "Em" Bee edB| "Em" Bee "A7" cBA| \
+  "D" Add dcd| fed A2 d| "G" Bed "A"cBc| "D" d3-d2 :|
+|:A/G/ | "D" FAA AFD| "G"GBB BAG| "A"Acc cBc| \
+  "D"dcd "A7"BAG|"D"FAA AFD| "G"GBB BAG| "D"Add "A7"cBc|"D"d3-d2:|
+S:https://www.folktunefinder.com/tunes/149833
+S:http://terrytraub.org/abc/CornerhouseJigJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

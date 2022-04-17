@@ -1,0 +1,26 @@
+X: 1
+T: Charlie is my Darling
+R:
+O:
+B:
+D:
+Z: John Chambers <jc:trillian.mit.edu>
+N:
+M: 4/4
+L: 1/8
+K: Dm
+A2 \
+|: "Dm"D>E F>G A2 d>A | "Gm"B2 d>B "Dm"A2 d>A | D>E F>G A2 d>e | f<d "A7"e>^c "Dm"d2 "fine"z2 :|
+d \
+|: "A7"^c>A =B>c "Dm"d>e f>d | "A7"^c>A =B>c "Dm"d2- d>e | "F"f>e f>d c>A FG/A/ | "Gm"B>G "Dm"A>F "A7"E2 "da Capo"A2 |]
+S:https://www.folktunefinder.com/tunes/147727
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/misc/CharlieIsMyDarling.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/misc/CharlieIsMyDarling.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

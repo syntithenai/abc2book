@@ -1,0 +1,29 @@
+X:107
+T:Childgrove
+R: reel
+M: 2/4
+L: 1/8
+K:Am
+P: in Am
+E | "Am"EA AB | c2 BA | "G"dc BA | "Em"B>A G/F/E 
+| "Am"EA AB | c2 Be | "Dm"d>c "E7"B/c/B/A/ | "Am"A3 :|
+|: c/d/| "C"ec ce | "G"dB Bd | "Am"cA A/B/c/A/ | "Em"BE Ec/d/ |
+"C"e>d c/d/e/c/ | "G"d>c B/c/d/B/ | "Am"cB/A/ "E7"BA/^G/ | "Am"A3 :|
+P:in Dm
+K: Dm
+|:A | "Dm"Ad de | f2 ed | "C"gf ed | "Am"e>d c/B/A|
+ "Dm"Ad de | f2 ea | "Gm"g>f "A7"e/f/e/d/ | "Dm"d3 :|
+|: f/g/| "F"af fa | "C"ge eg | "Dm"fd d/e/f/d/ | "Am"eA Af/g/ | 
+"F"a>g f/g/a/f/ | "C"g>f e/f/g/e/ | "Dm"fe/d/ "A7"ed/^c/ | "Dm"d3 :|
+S:https://www.folktunefinder.com/tunes/148080
+S:http://users.rcn.com/ladysmyth/tunes/Childgrove.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,32 @@
+X:1
+T:Constant Billy
+M:6/8
+C:
+S:Bacon (CJS MSS)
+N:added a rest to start the B
+A:Wheatley
+O:English
+R:Jig
+%P:A.(AB)$^{2n}$.A
+P:A.(AB)2n.A
+%:
+%:
+K:A
+I:speed 300
+P:A
+|:\
+   E | A2 e cAc  | d2 B BGE | c2 A FGA  | EFG A2 :|\
+P:B
+   z | cde  f2 d | Bcd  ecA | cde  f2 d | Bcd e2 \
+   A | A2 e cAc  | d2 B BGE | c2 A FGA  | EFG A2 ||
+S:https://www.folktunefinder.com/tunes/149494
+S:http://www.ucolick.org/~sla/morris/music/Wheatley/constbil.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

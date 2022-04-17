@@ -1,0 +1,23 @@
+X: 1
+T: Coppers And Brass
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+A|:~B3 GBd|cBc ABc|BdB GBd|cAG FGA|
+|~B3 GBd|cBc ABc|~d3 edc|1 BAF G2 A:|2 BAF G2 e||
+|:~f3 fed|cBA FGA|Ggg gfg|afd d2 e|
+f/g/ag fed|cBA FGA|~B3 cAF|1 AGF G2 e:|2 AGF GBd||
+|gdB gdB|ecA ecA|~B3 GBd|cBA FGA|
+gdB gdB|ecA ecA|BdB cAF|1 AGF GBd:|2 AGF G2 A||
+S:https://www.folktunefinder.com/tunes/149781
+S:http://www.thesession.org/tunes/display/228
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

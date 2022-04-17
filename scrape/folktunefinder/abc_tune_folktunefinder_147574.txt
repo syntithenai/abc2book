@@ -1,0 +1,33 @@
+X:1
+T:Scottish : Dcembre
+E:12
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+T:Chant
+Q:1/4=160
+"C"e2f2 g2a2 g4 e4 | "Em"c2d2 e2f2 e8 |1 \
+"Am"f4 f2e2 d8 | "G"f2g2 f2e2 d8 :|2\
+"Am"f2e2 d2c2 "G"B4 d4 | "C"g2f2 e2d2 c8 |: G2c2 e2c2 "Am"A2c2 e2c2 | \
+"C"G4 e4 "G"d8 | "C"G2A2 B2c2 "G"d2e2 f2d2 |1 \
+"C"g2f2 e2d2 e4 c4 :|2 g2f2 e2d2 c8 |]
+T:Contre-chant
+G8 c2d2 c2B2 | "Am"A8 A2c2 A2c2 |1 \
+d8 f2g2 f2d2 | "G"B2c2 d2c2 B2A2 G2F2 :|2\
+"Am"d2c2 B2A2 "Em"G2G2 B2d2 | "C"c4 G4 E8 |: c2G2 G2G2 "Em"c2A2 A2A2 | \
+"C"c2G2 c2G2 "G"B2A2 G2F2 | "C"E8 "G"F2G2 A2B2 |1 \
+"C"c2d2 c2A2 G8 :|2 c2d2 c2d2 e8 |]
+S:https://www.folktunefinder.com/tunes/147574
+S:http://termen.free.fr/danses/scottishes/ScottishDecembre.abc
+% Rhythm Scottish
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

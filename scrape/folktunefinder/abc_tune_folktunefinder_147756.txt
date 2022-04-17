@@ -1,0 +1,20 @@
+X: 1
+T: Charlie Lennon's Scottish Concerto
+M: 4/4
+L: 1/8
+R: strathspey
+K: Amaj
+A,2 (3A,A,A, A,CED | CEAG AcBA | d2 ef ecac | (3dcB (3cBA BF A2 |
+A,2 (3A,A,A, A,CED | CEAG AcBA | dfga efga |1 (3edc (3dcB A4 :|2 (3edc (3dcB ABce ||
+f2 fe fagf | ecaf ecAF | DFBd CEAc | dfec Bcde |
+fdag f2 fe | de f2 ecAF | EccE (3ABc df |1 GABc ABce :|2 GABc A4 ||
+S:https://www.folktunefinder.com/tunes/147756
+S:http://www.thesession.org/tunes/display/5248
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

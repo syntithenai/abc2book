@@ -1,0 +1,32 @@
+X:5
+T:Scotland The Brave
+T:Demonstrating the Bagpipe Mode and Output Formatting
+%%titleleft
+%%titlefont Helvetica-Bold 24
+%%subtitlefont Helvetica-Bold 16
+%%composerspace 0.4cm
+%%composerfont Helvetica 13
+%%staffwidth 5.5in
+%%scale 0.75
+%%staffsep 55
+C:Trad.
+C:from PS file by Alan S. Watt
+P:March
+L:1/8
+M:4/4
+K:HP
+e|{g}A2 {GdGe}A>B {gcd}c{e}A {gcd}ce| {ag}a2{g}a2 {GdG}ae {gcd}c{e}A|
+   {Gdc}d2 {g}f>d {gcd}ce {gcd}c{e}A|{GdG}B2{gef}e2{A}e>f {g}e/>d/{g}c/>B/|
+{g}A2 {GdGe}A>B {gcd}c{e}A {gcd}ce| {ag}a2{g}a2 {GdG}ae {gcd}c{e}A|
+   {Gdc}d2 {g}f>d {gcd}ce {gcd}c{e}A|{GdG}B2{g}A>B {G}A2 {gcd}ce||
+%%vskip 1cm
+%%textfont Times-Roman 16
+%%begintext
+S:https://www.folktunefinder.com/tunes/148552
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/newfeatures.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/newfeatures.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

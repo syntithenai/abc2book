@@ -1,0 +1,22 @@
+X: 1
+P: Jefferson and Liberty
+R: jig
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Am
+|: "Am"c2A A^GA | E2A ABc | "G"B2G GBc | dBG GAB \
+|  "Am"c2A A^GA | E2A A2e | edc "E7"BAB | "Am"E2A A3 :|
+|: "Am"A2B c2d | "C"e2f g3 | e2f g2e | "G"dBG G2E \
+|  "Am"A2B c2d | efg "F"a3 | "C"edc "E7"BAB | "Am"c2A A3 :|
+S:https://www.folktunefinder.com/tunes/149590
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Jig_Contra12.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Jig_Contra12.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

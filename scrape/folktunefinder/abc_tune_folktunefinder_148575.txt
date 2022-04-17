@@ -1,0 +1,22 @@
+X:6
+T:Pipe on the Hob
+O:Ireland
+M:6/8
+L:1/8
+K:A Dorian
+B | "Am" c3   {f}edc | "Am" edc "G" BAG | "Am" ABA  "G" {a}g2 e | "G" eaa   ged |
+    "Am" c3   {f}edc | "Am" edc "G" deg | "Em" age      "G" deg | "Am" ABA   A2 :|
+f | "G"  g3   {a}gea | age          dBe | "Am" ABA  "G" {a}g2 e | aba       gef |
+    "G"  g3   {a}gea | age          deg | "Em" age      "G" dBe | "Am" ABA   A2 :|
+B | "Am" cBc "G" dcd | "Am" ecA     AGE | "Am" cBc      "G" dcd | "Am" ecA A2 B |
+    "Am" cBc "G" dcd | "Am" ede "G" gab | "Em" age      "G" dBe | "Am" ABA   A2 :|
+S:https://www.folktunefinder.com/tunes/148575
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Jigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

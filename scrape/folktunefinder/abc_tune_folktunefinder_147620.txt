@@ -1,0 +1,68 @@
+X:1
+T:Chant : Les sept-z-amoureux
+E:10
+Z:Roger Ngaret (95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne - Acign
+M:4/4
+L:1/8
+K:G
+DD GG BB A2 | cc BG AA G2 | z G GB dd dB |\
+GG AB c>B A2 | GG GB dd dB | GG AB c>B A2 |\
+G2 z A AA Ad | cB AG AB A>A | E2 D2 z D DD |\
+GG BB AB cd | BG A2 G2 z2 |]
+%%newpage
+%%rm
+%%rm  1. Le permier c'est un boiteux      ] bis
+%%rm     Il vient pour tre mon amoureux  ]
+%%rm     Il a la jamb' trop courte,       ]
+%%rm     Je ne veux point de ce boiteux   ]
+%%rm     Ren qu'sa marche me dgote!     ] bis
+%%rm
+%%rm  2. Le deuxime c'est un marin 
+%%rm     Il a terjou le verre en main
+%%rm     La bouteill' sur la table!
+%%rm     De ce marin je ne veux point
+%%rm     I'm'rendrait misrable! 
+%%rm
+%%rm  3. Le troisime c'est un tailleur
+%%rm     I'm'fait l'effet d'tre un voleur
+%%rm     I vole diqu' son pre,
+%%rm     Prend les pices des hannes par devant
+%%rm     Pour les mettre par derrire.
+%%rm
+%%rm  4. L'quatrime c'est un couvreur
+%%rm     C'est un mtier ben dangereux
+%%rm     Un mtier de riscade, 
+%%rm     Car si la cord' vient  casser
+%%rm     Crac ! v'l l'couvreur au diable!
+%%rm
+%%rm  5. Le cintime c'est un charron
+%%rm     Je creis qu'il sait jouer du bton
+%%rm     En faisant ses berouettes,
+%%rm     Il me ferait marcher au pas
+%%rm     Avec son herminette.
+%%rm
+%%rm  6. L'sixime est un menuisier
+%%rm     Il vient terjou pour m'embrasser
+%%rm     Quand je vas dans s'n'choppe,
+%%rm     Mais s'il veux de ma s'appercher
+%%rm     L'li prendrait sa varlope!
+%%rm
+%%rm  7. Le septime c'est un chanteur
+%%rm     C'est c'ti l qu'aura mon coeur
+%%rm     Mon coeur et ma boutique
+%%rm     Et nous irons de ville en ville
+%%rm    Jouer de la musique!
+S:https://www.folktunefinder.com/tunes/147620
+S:http://termen.free.fr/danses/chants/ChantLesseptzamoureux.abc
+S:http://termen.free.fr/danses/termen/ChantLesseptzamoureux.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

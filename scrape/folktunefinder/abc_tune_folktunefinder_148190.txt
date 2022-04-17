@@ -1,0 +1,32 @@
+X:1
+T:The Chorus Jig
+O:irish
+C:Traditional
+R:jig
+G:fiddle jig, early 18th cent.
+T:Found in The Gow Collection of Scottish Dance Music
+M:6/8
+Q:3/8=120
+K:D
+%%MIDI gchord cccccc
+A| "D"F2 D -DED| AFD DED| F2 D DED| "A"A3 BAG| 
+"D"F2 D- DED| AFD DED| "C"E2 =c-cGE| "G"G3 "C"E2 :|
+%
+A| "D"F2 d- dcd| "A"ABG FED| "D"F2 d- dcd| "A"A3 BAG|
+"D"F2 d- dcd| "Bm"ABG FED| "C"E2 =c -cBc| "G"G3 "C"E2 :|
+%
+g| "D"f2 d- ded| afd- ded| f2 d- ded| "A"a3 bag|
+"D"f2 d- ded| afd de=f| "C"e2 =c- cec| "G"g3 "C"e2 :|
+%
+g| "D"fdf "C"ece| "Bm"dBd "A"AFA| "D"D2 d dcd| "A"A3 ABc|
+"Bm"dBd "A"cAc| "G"BGB "F#m"AGF| "C"E2 =c- cGE| "G"G3 "C"E2 :|
+S:https://www.folktunefinder.com/tunes/148190
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/TheChorusJig.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/TheChorusJig.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

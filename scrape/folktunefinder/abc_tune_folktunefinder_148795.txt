@@ -1,0 +1,27 @@
+X:1
+T:La coccinelle
+C:Jean Blanchard\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:D
+FG |\
+A2d2c2 | B4FG | ABAGEG | F2D2FG |
+A2d2c2 | B4FG | ABAGEF | D4 :|
+|: FG |\
+AFDBGE | AFDBGE | ABAGEG | F2D2FG |
+AFDBGE | AFDBGE | ABAGEF | D4 :|
+S:https://www.folktunefinder.com/tunes/148795
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/la_coccinelle.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

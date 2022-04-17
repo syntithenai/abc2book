@@ -1,0 +1,27 @@
+X:2
+T:Cold Frosty Morn
+T:Frosty Morning
+R:reel
+M:C|
+L:1/8
+K:A Dorian
+|: "Am"E-DEG- A2A2 | A-Bucd- e2 ((3DEF) | "G"vGABA G2D2   | G-ABc- d2D2 |
+   "Am"E-DEG- A2A2 | A-Bcd-  e2e-d | c-BA(c  "G"BA)G2 |\
+[1 "Am"A3B-  A2D2- :|[2 "Am"A3B-  A2[A2e2]- ||
+|: "A"e2)a2 a2a2 | (vab)a(g e)d^cd | "G"(ved)e(f gf)ug(f | ed)B(d e2)e2 |
+   "Am"A2A(A c2)c(c | dc)d(d e2) e-d | c-BuA(c "G"BA) G2 |\
+[1 "Am"A2AB- A2[A2e2] :|[2 "Am"A4 A2D2 |]
+N:Fiddlers Fakebook pg 114 - adapted by Peter Ostapenko.
+N:Last update - PO 6/5/2007.
+N:A Dorian
+S:https://www.folktunefinder.com/tunes/148888
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/ColdFrostyMorn.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

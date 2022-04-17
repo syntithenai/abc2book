@@ -1,0 +1,38 @@
+X:1
+T:Samba d'Erce
+E:10
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+T:Chant
+Q:1/4=150
+"C"e2f2 g4 e2c2 G4 | c2e2 g2a2 g2e2 "G"f4 |\
+d2e2 f4 d2B2 "C"G4 | c2e2 g2a2 g2f2 e4 |\
+e2f2 g4 e2c2 G4 | c2e2 g2a2 g2e2 "G"f4 |\
+f2g2 a2aa a2a2 "C"g4 | g3a g2f2 e2d2 c2gg |\
+g2g2 e2gg g2g2 e2gg | g2e2 "G"f2ff f2f2 d2ff |\
+f2f2 d2ff f2f2 d2ff | f2d2 "C"g2gg g2g2 e2gg\
+| g2g2 e2gg g2g2 e2gg | g2e2 "G"f2ff f2g2 a4 |\
+f2g2 a2aa a2a2 "C"g4 | g3a g2f2 e2d2 c4 |]
+T:Contre-chant
+c2d2 e4 e2d2 c4 | c3d e2f2 e2c2 "G"d2BB |\
+B2c2 d4 d2c2 B4 | B3c d2d2 "C"e2d2 c4 |\
+c2d2 e4 e2d2 c4 | c3d e2e2 "G"f2e2 d4 |\
+d2e2 f2ff f2f2 "C"e4 | e3f e2e2 "G"d2d2 "C"c2ee |\
+e2c2 eee2 e2c2 eee2 | e2f2 g2f2 e2d2 "G"ddd2 |\
+d2B2 ddd2 d2B2 ddd2 | d2e2 f2e2 d2c2 "C"eee2 | \
+e2c2 eee2 e2c2 eee2 | e2f2 e2f2 g2 (d2 "G"d2) B2 | \
+"C"e2f2 "G"fff2 f2 (e2 "C"e2) e2 |\
+efe2 e2d2 "G"d2c2 d2c2 |]
+S:https://www.folktunefinder.com/tunes/147576
+S:http://termen.free.fr/danses/rennais/SambadErcee.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

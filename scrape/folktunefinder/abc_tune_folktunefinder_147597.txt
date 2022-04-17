@@ -1,0 +1,69 @@
+X:1
+T:Chant de marins : Marie-Lison
+E:12
+Z:Roger Ngaret (95)
+R:
+C:Paul Gauthier
+S:
+A:Bretagne
+M:3/4
+L:1/4
+K:C
+"Am"A2 B | "C"c2 e | "G"d2 c | "E"B3 | "F"c2 B | \
+"Am"A2 d | "C"c3 | "E"B3 | "Am"A2 B | "C"c2 e| \
+"G"d2 c | "E"B3 | "Am"c2 B | "F"A2 G | "Am"A3- | A3 :|
+"Am"A2 B/A/ | "C"c2 d | "G"B2 c/d/ | "E"e3 | \
+"F"A2 c/B/ | "Am"A2 B | "C"c B c | "E"B2 c/B/ | \
+"Am"A2 c | "C"e3 | "G"d2- d/ c | "E"e2- e| \
+"Am"c/A/ B/c/ B/A/ | "F"c3 | "Am"c/A/ B/c/ B/c/ | e3 ||
+"Am"[E3A3] | "C"[E3c3] | "G"[D3B3] | "E"[E3B3] | \
+"F"[F3A3] | "Am"[E3A3] | "C"[E3c3] | "E"[E3B3] | \
+"Am"[E3A3] | "C"[E3c3] | "G"[D3B3] | "E"[E3B3] | \
+"Am"[E3A3] | "F"[F3A3] | "Am"[(E3A3] | [E3)A3] |]
+%%rm
+%%rm  1. Voici la triste chanson
+%%rm     Brave gens d'la cte,
+%%rm     Qu'on chantait cette saison
+%%rm     Chez Marie-Lison ;
+%%rm      l'auberge des jolis flots
+%%rm     Il n'vient plus personne,
+%%rm     Sont partis les matelots
+%%rm     Du vieux caboulot.
+%%rm
+%%rm  2. Pleurez pas Marie-Lison
+%%rm     Fermez pas la porte,
+%%rm     Quand s'en ira ce goudron
+%%rm     Ils vous reviendront.
+%%rm     Le goudron n's'en ira pas
+%%rm     Et mme s'il se taille,
+%%rm     Tu sais trop bien mon p'tit gars
+%%rm     Qu'il en reviendra.
+%%newpage
+%%rm
+%%rm
+%%rm  3. N'vois-tu pas sur l'ocan
+%%rm     Ces marins tranges,
+%%rm     Sur leurs sales bateaux gants
+%%rm     Qu'arment des truands;
+%%rm     Ces gens-l se moquent de nous
+%%rm     Se fichent des mouettes,
+%%rm     Pourvu qu'ils gagnent des sous
+%%rm     Se moquent de tout.
+%%rm
+%%rm  4.  l'auberge des jolis flots
+%%rm     Il n'vient plus personne,
+%%rm     Sont partis les matelots
+%%rm     Chercher du boulot.
+%%rm     Sur la plage il y avait
+%%rm     Une mer bizarre,
+%%rm     Couverte de goudron pais
+%%rm     Un monde crevait.
+S:https://www.folktunefinder.com/tunes/147597
+S:http://termen.free.fr/danses/chants/ChantdemarinsMarieLison.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Chopsticks
+C: anon.
+Z: The transcriber of this tune wishes to remain anonymous.
+M: 6/8
+L: 1/8
+K: C
+"G7"[GF][GF][GF] [GF][GF][GF] | "C"[GE][GE][GE] [GE][GE][GE] |"G7"[BD][BD][BD] [BD][BD][BD] |
+[1"C" [c2C2] [cC] [cC][BD][AE] :|[2 "C" [c2C2] [cC] [c2C2] [ec]|:"G7" [d2B2] [cA] [B2G2] [AF] |
+"C"[G2E2] [GE] [GE] [AF] [GE]| "G7" [F2D2] [FD] [FD] [GE] [FD] |\
+[1"C" [E2C2] [FD] [G2E2] [ec] :|[2"C" [E2C2] [FD] [E2C2] z :|
+S:https://www.folktunefinder.com/tunes/148156
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Chopsticks.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/Chopsticks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,56 @@
+X:1
+T:Chaconne
+C:Robert de Visee
+C:transcription: David van Ooijen
+L:1/4
+M:3
+K:C frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+%%indent 1.5cm
+%%barnumberfont Times-Italic 10 box
+%%wordsfont Times-Italic 10
+%%
+%staff1
+[,,dca/] ,a ,c ,d | [,a,c,e1] ,a/ ,c ,d a | '[,cdca1] ,,,,,,,,,a/ ,c [,ca,,,a1]|\
+',a/ > ,,d [,ad,,a1] '[,,cc] | [,,dca]||
+%staff2
+[f,,,a/] ,,,,c ,,,,e [a,,,a] | [cdda1] '[a,d,e] [,,c,c/] ,d| '[,cdca1] ,,,,,,,,,a/ a [cdd,,,a1] |\
+,,,a/>,a [,a,c1] ,,,,,a/ ,,d | [,,dca]||
+%staff3
+[,,dca/] ,c [,da,a] a c1 | [,,a,,e/] ,a [,c,c] ,d a1 | [,,,c,c/],,d [,a,a] ,c ,d1|\
+,,,,,a/ ,c '[,a,c1] > ,,d | [,,dca] ||
+%staff4
+[f,,,a/] ,,,,c ,,,,e d |d1 [f,,,a/] d c a |  [cdda1] ,,,,e/ c [ea,,c1] | \
+[fc,,a1] '[ff,,h] ,,,,,a/ e | [fcd,a1]||
+%staff5
+[,cdca/] ,d a1|[,gf,,e1]>,g ,h/ e | [fc,,,c1] ,c/ ,d a1 |,,,,,a/>a 'a1 ,,,c/ ,d | [,cd,a1]||
+%staff6
+[,,dca/] ,a ,c ,d | [,a,c,e1] ,a/ ,c ,d a| '[,cdca1] ,,,,,,,,,a/ ,c [,ca,,,a1] |\
+',a/ > ,,d [,ad,,a1] '[,,cc] | [,,dca1] ||
+%staff7
+[,,dca/] ,a ,b ,d | [,a,c,e1] ,a/ ,c ,d a |[,cdca1] ,,d [bdd,,,a/] a | \
+,d/ ,b '[,ad,,a1] [,,dc/] > ,,c| [,,dca1] ||
+%staff8
+[i,,,a/] ,,,,,h ,,,,,i i | [ig,,f1] 'h ,,,,g/ h|[h,,,h1] ',k [,l,,i]|,,,a/>h '[,k,,h] ,,,,,a/ f |\
+[ffg,a1] ||
+%staff9
+[ffg,,,,,,a1]>a | [bdd,,,a1] '[,cdca1]>[,c,,,a]|[,dd,,b1] ,,,,,,,a/ a [bdd,,,a] a |\
+,d/ ,b '[,ad,,a1] [,,dc/]>,,c | [,,dca1]||
+%staff10
+[abdca1] b |[ba,,,d1] 'a ,,,,,a/ a | [a,d,,b1] ,d ,,,,,,a/ ,d | [,dc,,a1] '[,bd] [,acc] | [,bdca1] ||
+%staff11
+[ffg,a/] h i1 | '[h,,,,h1] ,k/ ,l [hk,,,h1]|[a,d,d1] c/ e [fgi,,,a1]|,,,a/>h '[ea,,,a1] ,,,,h/ f|\
+[ffg,a1]||
+%staff12
+[,,dca/] ,a ,b ,d | [,a,c,e1] ,a/ ,c ,d a| [,cdca1] ,,d [bdd,,,a/] a | ,d/ ,b '[,ad,,a1] [,,dc/]>,,c |\
+[,,dca1] |]
+S:https://www.folktunefinder.com/tunes/147513
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Visee/chaconne.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Visee/chaconne.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

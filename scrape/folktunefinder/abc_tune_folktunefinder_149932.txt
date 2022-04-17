@@ -1,0 +1,22 @@
+X:1
+T:The Cotillion
+C:Trad (Bosham Band)
+M:4/4
+L:1/8
+Z: BryanCreer:aol.com tradtunes 2001-01-24
+K:G
+|: G4d4 | B2AB G2AB | c2B2A2G2 | FGAF D3D |
+   E4F4 | GFGA G2c2 | B2AG A2GF | G4G4 :|
+|: dedc B2d2 | dedc B2d2 | e2d2e2f2 | g4d2ef |
+   g2fe d2cB | e2dc B2AB | c2B2A2G2 | F2EF D2D2 |
+   E4F4 | GFGA G2c2 | B2AG A2GF | G4G4 :|
+S:https://www.folktunefinder.com/tunes/149932
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Cotillion.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

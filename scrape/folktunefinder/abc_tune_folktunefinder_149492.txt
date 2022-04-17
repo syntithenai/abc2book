@@ -1,0 +1,27 @@
+X: 1
+T: CONSTANT BILLY
+S: MDT
+O: Headington
+P: A.(A2B2)4
+Q:3/8=116
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+P: A
+|: E | A>ce cBA | dcd  BGE | c>BA FGA | EFG  A2 :|
+P: B
+|: A | cde  fdc | B>cd ecA | cde  fdc | B>cd e3  |
+       e>de cAc | d>cd BGE | cBA  FGA | EFG  A2 :|
+S:https://www.folktunefinder.com/tunes/149492
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Constant_Billy_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

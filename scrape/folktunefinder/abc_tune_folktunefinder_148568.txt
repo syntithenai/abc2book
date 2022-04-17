@@ -1,0 +1,24 @@
+X: 1
+T:Cleveland Park
+C:Trad
+R:Jig
+Z:e.g. Wolfstone and Karen Tweed/Iain Carr do this.
+M:6/8
+K:Em
+L:1/8
+| B,EF GFE| CEF GFE |^CEF GFE| FAF DFA|
+| B,EF GFE| CEF GFE | FAF DFA|1 AGF EDC :|2 AGF E2 B,|
+|: EGB eBG| ABc BGE | CEG B,EG| GFE ^DEF|
+|1 EGB eBG| ABc BGE | CEG B,EG| FE^D E2 B, :|
+|2 B,EF GFE| CEF GFE | FAF DFA| AGF E3||
+S:https://www.folktunefinder.com/tunes/148568
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/cl/Cleveland_Park_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/cl/Cleveland_Park_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

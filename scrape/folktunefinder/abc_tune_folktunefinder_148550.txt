@@ -1,0 +1,26 @@
+X:2
+T:Scale with Bass and Alto Clef
+M:C
+K:C bass% abcm2ps: no transposition
+L: 1/4
+P:Bass
+ "C,,,"C,,,"D,,,"D,,,"E,,,"E,,,"F,,,"F,,,  "G,,,"G,,,"A,,,"A,,,"B,,,"B,,,|\
+ "C,,"C,,"D,,"D,,"E,,"E,,"F,,"F,,  "G,,"G,,"A,,"A,,"B,,"B,,|\
+ "C,"C, "D,"D,"E,"E,"F,"F,  "G,"G,"A,"A,"B,"B,"C"C |
+P:Alto
+K:C alto
+ "C,,"C,,"D,,"D,,"E,,"E,,"F,,"F,,  "G,,"G,,"A,,"A,,"B,,"B,,\
+| "C,"C,"D,"D,"E,"E,"F,"F,  "G,"G,"A,"A,"B,"B,| "C"C "D"D"E"E"F"F  "G"G"A"A"B"B"c"c |
+S:https://www.folktunefinder.com/tunes/148550
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/newfeatures.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/newfeatures.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

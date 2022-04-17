@@ -1,0 +1,111 @@
+X:1
+T:Chant de marins : Gwerz ar vezhinerien
+E:12
+Z:Roger Ngaret (98)
+R:
+C:Trad.
+S:
+A:Bretagne
+K:D
+T:Thme
+M:3/4
+L:1/4
+K:D
+E | E2 B | B2 c | d2 e | d2 c | B3- | B2 B | \
+e2 B | A2 G | F2 G | \
+F3- | F2 E | E2 B | B2 c | d2 e | d2 c | B3- | B2 B | \
+=c2 B | A2 G | F2 G | F E2- | E3 |]
+T:Refrain
+EG B | A2 G | E3- | E3 | E G B | A G A | \
+B3- | B3 | E G B | A2 G | E2 |]
+%%newpage
+%%rm
+%%rm
+%%rm  1. Na pa 'moa klevet ar c'heleier
+%%rm     E ranke mond kuit va mestrez
+%%rm     Da vezhinan d'an enezeier
+%%rm     Trielen ha Molenez
+%%rm
+%%it     O lan di ran di ro
+%%it     O lan di ran-an di ro
+%%it     O lan di ran di ro
+%%rm
+%%rm  2. Na pa 'moa-me na klevet ar c'helo
+%%rm     E ranke mond kuit mintin mad
+%%rm     Kerkent ha ma save ar goulo
+%%rm     E save an dour en va daoulagad
+%%rm
+%%rm  3. Kar ar vuhez en enezenno
+%%rm     'zo ur vuhez trist ha kalet
+%%rm     Bemdez bemnoz e-kreiz ar poanio
+%%rm     Ar vezhinerien 'zo tud daonet
+%%rm
+%%rm  4. En o bago abred diouzh ar mintin
+%%rm     E lakeont ar c'herreg en noazh
+%%rm     Faoutet o daouarn gand ar c'hilhotinn
+%%rm     Ha torret o c'hein gand ar gravazh
+%%rm
+%%rm  5. Ar beleg kozh er gador a lavar
+%%rm     Ez eus un Doue war ar mor
+%%rm     Hag un doue all c'hoazh war an douar
+%%rm     evid an dud a chom er goudor
+%%rm
+%%rm  6. An hini en-deus graet ar ganaouenn
+%%rm     En-deus bet klevet alies
+%%rm     Kerent mignoned hag amezeien
+%%rm     O kontan vuhez an enezenn
+%%rm
+%%rm  7. Va zad kozh en-deus bet graet ar vicher
+%%rm     Da drouc'han an tali moan
+%%rm     A-hed e vuhez war ar reier
+%%rm     Etre Plouguerne ha Kerlouan.
+%%newpage
+%%rm
+%%rm           TRADUCTION FRANAISE
+%%rm
+%%rm
+%%rm  1. Quand j'ai entendu les nouvelles, 
+%%rm     Que ma matresse devait partir
+%%rm     Faire le gomon sur les les
+%%rm     Trielen et Molne
+%%rm
+%%rm  2. Quand j'ai entendu la nouvelle
+%%rm     Qu'elle devait partir de bon matin
+%%rm     Ds le lever du jour
+%%rm     Des larmes me montaient aux yeux
+%%rm
+%%rm  3. Car la vie sur les les
+%%rm     Est triste et dure
+%%rm     Toutes les nuits, tous les jours
+%%rm                           dans la peine
+%%rm     Les gomoniers sont des gens damns
+%%rm
+%%rm  4. Dans leur bateau tt le matin
+%%rm     Ils mettent les rochers  nu
+%%rm     Leurs mains fendues par le "kilhotin"
+%%rm     Et leurs dos casss par la civire
+%%rm
+%%rm  5. En chaire le vieux prtre dit
+%%rm     Qu'il y a un Dieu sur la mer
+%%rm     Et un autre sur la terre
+%%rm     Pour ceux qui sont rests  l'abri
+%%rm
+%%rm  6. Celui qui a fait la chanson
+%%rm     A souvent entendu
+%%rm     Des parents, amis et voisins
+%%rm     Raconter la vie des les
+%%rm
+%%rm  7. Son grand-pre a fait le mtier
+%%rm      couper le gomon fin
+%%rm     Toute sa vie sur les rochers
+%%rm     Entre Plougerneau et Kerlouan.
+S:https://www.folktunefinder.com/tunes/147589
+S:http://termen.free.fr/danses/chants/ChantdemarinsGwerzarvezhinerien.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

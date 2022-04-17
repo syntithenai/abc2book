@@ -1,0 +1,24 @@
+X:1404
+T:The Collier's Reel
+M:C|
+L:1/8
+N:"collected by J. O'Neill"
+B:O'Neill's 1404
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+N: Changed 1/8 note "c" in bar 6 to quater note to make timing come out
+K:D
+G | F>(D (3EFG) A2 (AB) | c2 (cd) cAGB | Addc    d2 (eg) | fded        cAGE |
+    F>(D (3EFG) A2 (AB) | c2 (cd) cAGB | Ad{e}dB {d}cAGE | F>(A (3GFE) D2 z ||
+g | fdeg        fdec    | Addc    Addg | fdeg       fdec | ABcd c2     (fg) |
+    a2 (Taf)   g2 (Tge) | fgfe d2 ~(dc)| AddB    {d}cBAG | F>(A (3GFE) D3   |]
+S:https://www.folktunefinder.com/tunes/148986
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1404_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

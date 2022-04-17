@@ -1,0 +1,24 @@
+X: 1
+T:Counting on Hanna
+C: 1999 Harry Bolick -  harry@bolick.net
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:250
+K:A
+A BA |: "A" c2 cdcA | "E" B2 BcBA | "D" F>F A>F ED | "A" A,2 A,B, C>E |
+ "D" F2 A2 (3(FED) | "A" A,2 A,B, C>E | "D" F2 AABA  :|
+|: "A" c2 cBAc| a2 afef | c'2 c'aef | a2 afef| c'2 c'aed |
+"D" f2 ffed | f2 ffed  |"A"  c2 cdcB | c3 A BA  :|
+S:https://www.folktunefinder.com/tunes/150025
+S:http://www.bolick.net/sound/CountingOnHanna.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

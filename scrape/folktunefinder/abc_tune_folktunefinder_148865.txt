@@ -1,0 +1,38 @@
+X: 1
+T:The Coffin Ships
+M:3/4
+L:1/8
+C:Tommy Peoples
+S:Tommy Peoples
+R:Slow Air
+D:The Quiet Glen
+Z:Juergen.Gier@post.rwth-aachen.de
+K:A
+{B}c4 BA|{E}F4 FE|F A4 B,|{B,}C6|E3F (3ABc|\
+M:4/4
+BA3 a2f2|\
+M:3/4
+{B}[c6(e6]|[c6)e6]|{Bc}e4 c/B/A|{E}F4 FE|F A4 B,|\
+{B,}(C4 C)B,|A,4 CE|{E}F4 FE|{E}F(A A4|A6)|]\
+{ef}a4 fe|{e}f4 a(f|f3) ecB|{cB}A6|{ef}a4 fe|\
+{B}(c4 c)B|{B}c[c(e] [c4e4]|[c6)e6]|\
+{f}a3f (3ecB|(c4 c)e|{B}c3B (3AFE|(F4 F)A|\
+{E}F3 ECB,|{B,}(C4 C)B,|A,6|]{ab}c'3b a2|\
+{e}(f4 f)e|f3 ec<B|(A4 A)B,|C E4 E|F A4 B|\
+c4 {dc}B2|{B}c[c(e] [c4)e4]|{ab}c'3b a2|\
+{e}(f4 f)e|f3 ec<B|{B}(c4 c)B|(A4 A)e|\
+f4 {g}fe|f(a a4|a6)|]
+S:https://www.folktunefinder.com/tunes/148865
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Coffin_Ships_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/co/Coffin_Ships_1.abc
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

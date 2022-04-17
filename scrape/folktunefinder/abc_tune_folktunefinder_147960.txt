@@ -1,0 +1,25 @@
+X: 1
+T: Cheshire Round
+M: 3/2
+L: 1/8
+R: three-two
+K: Dmaj
+|: d2 cB ABAF E4 | c2 e2 e2 B2 c2 e2 | d2 cB ABAF E4 | D2 d2 d2 F2 E2 D2 :|
+|: d2 f2 efec B4 | c2 e2 e2 B2 c2 e2 | d2 f2 efec B4 | A2 d2 d2 F2 E2 D2 :|
+|: edcB AGFD E4 | E2 A2 A2 E2 F2 A2 | edcB AGFE D4 | D2 d2 d2 F2 E2 D2 :|
+K: Cmaj
+|: c2 BA GAGE D4 | B2 d2 d2 A2 B2 d2 | c2 BA GAGE D4 | C2 c2 c2 E2 D2 C2 :|
+|: c2 e2 dedB A4 | B2 d2 d2 A2 B2 d2 | c2 e2 dedB A4 | G2 c2 c2 E2 D2 C2 :|
+|: DCB,A, G,A,B,C D4 | D2 G2 G2 D2 E2 G2 | DCB,A, G,A,B,D C4 | C2 c2 c2 E2 D2 C2 :|
+S:https://www.folktunefinder.com/tunes/147960
+S:http://www.thesession.org/tunes/display/4369
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

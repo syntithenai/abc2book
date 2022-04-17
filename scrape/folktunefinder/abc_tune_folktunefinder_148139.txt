@@ -1,0 +1,19 @@
+X:1
+T:Chocolate
+M:4/4
+L:1/8
+K:D
+ A,2| D D3 F2 AA| C C3 A,3 A,| E2 F2 GG GA| F E2 D2 D| DD| GG GA B2 AG|\
+ F G2 A2 AF G| A2 AA AA AG| z F E2 D4| B3 G3- G2| A3 F3- FF| EE EF GG G2|\
+ F2 G2 A- A3| B3 G3- G2| A3 F3- FG| AA AA AA G2| z F2 E D4| D2 D2 F2 A2|\
+ D D2 B,2 B, A,2| EE E2 C2 A,2| D D2 B,2 B, A,2| DD DD F2 A2| D D2 B,2 B, A,2|\
+ EE E2 C2 A,2| D D2 F2 G A2| B3 G3- G2| A3 F3- FF| EE EF GG G2| F2 G2 A- A3|\
+ B3 G3- G2| A3 F3- FG| AA AA AA G2| z F2 E D4|
+S:https://www.folktunefinder.com/tunes/148139
+S:http://back.numachi.com:8000/dtrad/abc/CHOCOLAT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

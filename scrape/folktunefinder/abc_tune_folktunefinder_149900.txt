@@ -1,0 +1,39 @@
+X:1
+T:Corrent 8
+C:G. Kapsberger
+C:(from Libro Primo d'Involatura di Lauto, 1611)
+Z:abc transcription Taco Walstra (walstra@wins.uva.nl)
+L:1/4
+M:3
+K:CM italian7tab
+%%staffsep 2cm
+%%tabrhstyle diamond
+%
+%staff1
+Z2 ,d1 | [f,d1] > h [ac1] | [cd1] > a [,da1] [a,b1] > ,d ,c1 | [,df,c1] > a [,,de1] |\
+[,ab,c1] > ,,d ,,b1 | [,,dcd1] > ,,b [,,aa1] | 
+%staff2
+[,ab,,d1] > ,,,,a ,,,,c1 |[a,,,d] [c,,,c] e | [fc,,a3/2] Z/ f1| [f,,,c] e ,d | \
+[f,,,a] ,c ,,,,,d | [f,,,,c] ,d [d,,,,a] | [c,aa,,a1] > a ,d1 | \
+[da,,,a1] > f [ac1] |
+%staff3
+[cd,,,,a1] > a [,dd,,c1]| [aab,,d1] > c [a,,,a1] | [,daa,,a2] :: z1 ,a1 ,c | \
+[,daa] ,,,c ,,,e | [,,ff] [,c,e] ,d | [a,,c] [,da] ,,c | 
+%staff4
+[,cd1] > [,ab] [,,de1] |[,a,a1] > ,,d [,,cc1] | [acd,a] c e | [f,,,a1] > e [a,,,e1] | \
+[c,,a1] > [a,,,d] [,d,,c] a// c | 
+%staff5
+d/ ,,,,d [d,da1] > c |[da,,,d1] [,c,,,c] ,d | [aac,,a] [,d,,,c] ,,,,,e |\
+[ac,,a] [c,,,,d/] d [f,,,,c1] |
+%staff6
+[d,,,,a1] > f [c,,,,,a1] | [ac,,a1] > c [d,,,,d1]|\
+ [cdd,,,a] [ac,,a1] > c | [,daa,,a3/2] ,c// ,a ,,d/ ,,,a :|
+S:https://www.folktunefinder.com/tunes/149900
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Kapsberger/corrent8.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Kapsberger/corrent8.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

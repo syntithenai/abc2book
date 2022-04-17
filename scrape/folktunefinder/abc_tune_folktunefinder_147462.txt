@@ -1,0 +1,29 @@
+X:1
+T:Centennial -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:Bb
+(udc)|B>Fd>c B>Fd>c|B>Fe>d c2(fe)|\
+d>fB>d c>eA>c|B>ba>g f>ed>c|
+B>Fd>c B>Fd>c|B>Fe>d c2(fe)|\
+d>f(Bd) c>eA>c|B2d2B2:|
+|:(uAB)|c>f=e>g f2(AB)|c>f=e>g f2(AB)|\
+c>=eg>b a>gf>e|f>=ef>g f2 (AB)|
+|c>f=e>g f2(AB)|c>f=e>g f2(AB)|\
+c>=eg>b a>gf>=e|1 f2a2f2:|2 {g}f>=ef>g f>_ed>c|]
+S:https://www.folktunefinder.com/tunes/147462
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/CentennialHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CentennialHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/bpuckette%3Amsn.com/CentennialHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CentennialHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

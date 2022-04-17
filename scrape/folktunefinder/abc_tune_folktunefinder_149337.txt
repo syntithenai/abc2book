@@ -1,0 +1,21 @@
+X:11
+T:Saint Anne's Reel
+R:reel
+O:Canada
+M:C
+L:1/8
+K:D
+e2 | "D" fedf "A" fedB | "D" A2 F(A A)DFA | "G" B2   GB   DBGB | "D" A2 F(A  A)DFA |
+     "D" fedf "A" fedB | "D" A2 F(A A)DFA | "G" B2 ed "A" cABc | "D" eddc       d2 :|
+ag | "D" fdfa     fdfa | "G" aggf  g2  gf | "A" edcB      ABce | "D"  baa^g a2 a=g |  
+     "D" fdfa     fdfa | "G" aggf  g2  gf | "A" edcB  "A" Aceg | "D" fdec       d2 :|
+S:https://www.folktunefinder.com/tunes/149337
+S:http://www.slowplayers.org/CKSP/Music/CK_Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,18 @@
+X:1
+T:The Cooper O' Dundee
+M:6/4
+L:1/4
+K:C
+ z4 z A,| A, D D D3/2 E/2 F| E3/2 D/2 C E/2 G3/2 G| A3/2 A/2 A G A c|\
+ A3/2- G/2F/2 E/2 D2 A,| A, D D D3/2 E/2- F| E3/2 D/2 C E/2 G3/2 G|\
+ A3/2 A/2 A G A c| A3/2- G/2F/2 E/2 D2 c| c c c c d e| E E C E/2 G3/2 G|\
+ A d d d c d| e3/2 d/2c/2-B/2 A2 c| c c c c d e| E D C E G G| A A A G A c|\
+ A3/2- G/2F/2 E/2 D3|
+S:https://www.folktunefinder.com/tunes/149756
+S:http://back.numachi.com:8000/dtrad/abc/COOPDUND.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

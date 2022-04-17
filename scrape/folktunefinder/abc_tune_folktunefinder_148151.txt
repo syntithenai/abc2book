@@ -1,0 +1,25 @@
+X:2
+T:Dumaj zlate le dumaj
+O:Macedoine de l'est
+M:2/4
+L:1/8
+K:F
+|: c4 | {c} d3 c | c4 | Bc BA | A4 | A4 |
+{A} B2 B2 | Bc cB | c4 | Bc BA | A4 | A4 |
+c4 | {c} d3 c | c4 | Bc BA | A4 | A4 |
+{A} B2 B2 | Bc cB | {B} c2 c2 | cd dc |
+d2 d2 | cd cB | c4 | Bc BA | A4 A4 :|
+W:Dumaj zlate le dumaj
+W:Lele dumaj na majkati
+W:Mama ne me le davat (ou zlate)
+S:https://www.folktunefinder.com/tunes/148151
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/est.txt
+S:http://users.skynet.be/infants/musiques/abc/est.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/est.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

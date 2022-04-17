@@ -1,0 +1,26 @@
+X: 1
+T:Cold Frosty Morn
+M:4/4
+L:1/8
+Q:200
+C:Traditional
+S:From Stanton Taylor
+R:Reel
+K:Em
+|:"Em"B,2E2E3F|GFGA B2A2|"D7"F2D2D3E|FGFE D2E2|!
+"Em"B,2E2E3F|GFGA B2A2|"G"GFEG "D7"FE D2|"Em"[E4B4][E4B4]:||!
+|:"Em"B2e2e3f|e2d2B4|"G"B3c d3c|B2.G2.B2.G2.|!
+"Em"E4"G"G4|"Am"AG A2 "Em"B4|"G"GFEG "D7"FE D2|"Em"[E4B4][E4B4]:||
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/148886
+S:http://www.blackflute.com/music/tunes/reels/cfmorn.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

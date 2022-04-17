@@ -1,0 +1,30 @@
+X:6
+T:John McGrath's Composition
+C:John McGrath
+B:Irish Folk Dance Music, Jerry O'Brien, 1952
+R:reel
+D:Brian Conway, First Through the Gate
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:333
+M:C|
+K:D
+Ac|dF ~F2 AGFE|D2 (3(FED) EB,~B,2|DEFA BFAF|EDEF EABc|
+[1dAFB AGFE|D2 (3(FED) EB,~B,2|DEFA (3(Bcd) AF|EA,CE D2:|
+[2 dcde TcBcd|TBA (3Bcd AGFE|D2 FA BFAF|EA,CE D2||
+|:Ac|d2 fd edfd|TBA (3Bcd AGFE|D2 FA BFAF|[1EDEF E2 Ac|
+d2 fd edfd|TBA (3Bcd AGFE|D2 FA BFAF|EA,CE D2:|
+[2EDEF Ecde|f2 ba fdcd|BA (3Bcd AGFE|DEFA BFAF|EA,CE D2|]
+S:https://www.folktunefinder.com/tunes/149567
+S:http://cranfordpub.com/tunes/abcs/conway.abc
+S:http://www.cranfordpub.com/tunes/abcs/conway.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

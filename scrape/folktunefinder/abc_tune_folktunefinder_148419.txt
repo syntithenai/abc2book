@@ -1,0 +1,56 @@
+X:1
+T:The Circle Dance from Abram
+M:C
+C:
+S:score sheet of unknown origin
+N:There are severe problems in the interpretation of this score.
+%:NoTeX
+%:NoWWW
+Z:Transcribed from score provided by Ruth Temple.
+Z:Note the changes in speed required by the shifts between various meters.
+A:Abram
+O:English
+R:N/A
+%P:(ABCDEFG)$^2$
+P:(ABCDEFG)2
+K:G
+I:speed 300
+P:A
+|: D2 | G2 Bc d2 ef | g2 a2 b4 | g2 d2 de dc |  B4 G2 :|\
+P:B
+%
+|: Bd | e2 c2 e2 ge | d2 B2 d4 | A2 d2 de dc |1 B4 d2 :|2 B4 G4 ||\
+I:speed 225
+P:C
+M:6/8
+|: d2 c B>AG | d2 c B>AG | e2 d cBc | e3 g3 :|\
+P:D
+|: e2 d cBc | e3 g3 :|\
+I:speed 150
+P:E
+M:C|
+|: d>e  f>g  | a>g  fe/2d/2 | ef/2g/2 fg/2a/2 | g4 :|\
+I:speed 300
+P:F
+M:C
+|: G2GG  B2B2    d2d2  g4 |    d2B2  dcAB    c2A2  GFED |\
+   G2GG  B2B2    d2d2  g4 |1   d2 Bc dcBA    G4    G4   :|2 d2 Bc dcBA G4 G2 ||\
+I:speed 300
+P:G
+%
+|: dc | B2 G2 B2 d2 | A3 B  A2 dc | B2 G2 B2 d2 |  A4 A2
+   dc | B2 G2 B2 d2 | A2 A2 d2 Bc | d2 Bc dcBA  |1 G6    :|2 G8 ||
+S:https://www.folktunefinder.com/tunes/148419
+S:http://www.ucolick.org/~sla/morris/music/CircleAndHorn/abramcir.su.abc
+% Rhythm N/a
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

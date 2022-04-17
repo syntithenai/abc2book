@@ -1,0 +1,65 @@
+X:1
+T:Chant de marins : Sur les remparts de Saint-Malo
+E:12
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=140
+M:6/8
+L:1/8
+K:G
+d | d2 d B2 B | A2 G A2 d | d2 d B2 B | A2 G A2 :|\
+A2 B c2 B | A2 d c2 B | A2 B c2 B :|\
+A2 G F2 F |: D2 D G2 G | ABc d2 d | B2 e d2 c | B2 A G2 G :|
+%%newpage
+%%rm
+%%rm
+%%rm  1. Sur les remparts de Saint Malo   ]
+%%rm     Se promenait un matelot          ] bis
+%%rm     Un matelot d'par ici
+%%rm     Le matelot le plus joli.
+%%rm
+%%it     Il est temps de prendre un ris,  ]
+%%it     Le vent va souffler cette nuit   ] bis
+%%rm
+%%rm  2. Matelot mon bel ami
+%%rm     Madame voudrait vous accueillir
+%%rm     Montez en haut c'est au premier
+%%rm     Collation vous y ferez.
+%%rm
+%%rm  3. La collation elle a dur
+%%rm     Trois jours trois nuits sans dcesser
+%%rm      la troisime journe
+%%rm     Le matelot s'est ennuy.
+%%rm
+%%rm  4. Le matelot s'est ennuy
+%%rm     Par la fentre a regard
+%%rm     Madame je crois qu'il fait beau temps
+%%rm     Nous allons mettre les voiles au vent.
+%%rm
+%%rm  5. Le matelot rentre en chantant
+%%rm     Il rentre  bord d'son btiment
+%%rm     Ah j'ai bien pass mon temps
+%%rm     Avec la femme du commandant.
+%%rm
+%%rm  6. Le commandant qu'tait par l
+%%rm     Entendit ce beau discours l
+%%rm     Matelot mon bel ami
+%%rm     Rpte un peu ce que tu as dit.
+%%rm
+%%rm  7. Ce que j'ai dit, je le dis souvent
+%%rm     Aprs l'hiver c'est le printemps
+%%rm     Aprs les chaleurs de l't
+%%rm     Les feuilles tombent des rosiers.
+S:https://www.folktunefinder.com/tunes/147606
+S:http://termen.free.fr/danses/chants/ChantdemarinsSurlesrempartsdeSaintMalo.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

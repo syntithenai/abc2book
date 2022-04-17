@@ -1,0 +1,25 @@
+X:164
+%%topmargin 3cm
+U:~=!turn!
+U:t=!tenuto!
+T:The Chorus Jig
+C:Arranged by K.N. Macdonald
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:E dorian
+A | (GF)ut.Dt.D FADD | (GF)ut.Dt.D FABA | (GF)ut.Dt.D FADD | FE=cc EG E :| uF(Dd)d BAGF |
+E(Dd)d BA A2 | (Dd)dB AGFD | E=cc[EB] G2 E2 | (Dd)dB AGFE | DddB A2 A2 |
+S:https://www.folktunefinder.com/tunes/148179
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Chorus_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0164.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

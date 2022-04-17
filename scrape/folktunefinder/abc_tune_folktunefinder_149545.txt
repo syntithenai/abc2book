@@ -1,0 +1,59 @@
+X:1
+T:Le content est riche
+C:Claudin de Sermisy
+Z:abc transcription by Christoph Dalitz
+M:4/2 display=C|
+L:1/2
+K:Gdorian
+%
+V:1 clef=treble bracket=4
+%
+z2 d2 | dd AA | cc B/A/G/F/ | G2 A>G | A/B/ c>B A- |
+AG A2 | zA Bc | dc AB- | BA GA- | AG2 "\#"F |
+[1 G4 :|[2 G4 | z4 | zd cB | Ad d"\#"c |
+dB BB | A2 A2 | d>c dc- | c/B/ B2 A | B4 |:
+d2 dd | A2 c2 | B/A/G/F/ G2 | A>G A/B/c- | c/B/ A2 G |
+A2 zA | Bc dc | AB2 A | GA2 G2 "\#"F | HG4 :|
+%
+V:2 clef=treble
+%
+G2 GG | DD FF | E2 DB,- | B,/C/D/E/ F2- | FF EF |
+D2 zD | EF GE | DG2 F | GF D"\b"E- | EC D2 |
+[1 D4 :|[2 D2 z2 | zG FE | D/E/F/G/ AD | D/E/F/G/ AA |
+FG GG | F2 zF,- | F,B,2 C | D"\b"E FF | D2 zG |:
+GG DD | F2 E2 | D B,>C D/E/ | F3 F | EF D2 |
+zD EF | GE DG- | GF GF | D"\b"E2 CD2 | HD2 zG :|
+%
+V:3 clef=treble8
+%
+z4 | z4 | z4 | d2 dd | AA cc |
+B2 A2 | A2 zA | Bc d2 | c2 Bc- | c/B/G A2 |
+[1 G4 :|[2 Gd cB | Ad dc | d>e fg | fd e2 |
+d2 zd | dd cc | f>e de- | e/d/B c2 | Bd dd |:
+GG B>c | dd A2 | z2 d2 | dd AA | cc B2 |
+A4 | zA Bc | d2 c2 | B c>BA/G/ A2 | HGd dd :|
+%
+V:4 clef=bass
+%
+z4 | z4 | z2 g2 | gg dd | f>g af |
+g2 d2 | z4 | z2 zd | ef gc | "\b"e2 d2 |
+[1 g4 :|[2 g2 zd' | c'b a2 | b2 ag | d'b a2 |
+dg gg | dd f>e | d/c/B ba | g2 f2 | B4 |:
+z4 | z4 | zg gg | dd f>g | af g2 |
+d4 | z4 | zd ef | gc "\b"e2 d2 | Hg4 :|
+%
+W:Le content est riche en ce monde Et bien heureux en temps cy.
+W:A coeur joyeux libert\'e monde. Vivre chez soy hors de soucy.
+W:Estre amoureux non point transy. Et a tout doeul clorre les yeulx.
+W:|: Tousjours gaillart, faictes ainsi. Et vous vivrez cent ans mieulx. :|
+S:https://www.folktunefinder.com/tunes/149545
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Sermisy/le_content_sermisy.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Sermisy/le_content_sermisy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/2
+% Has_accompaniment_chords Has chords

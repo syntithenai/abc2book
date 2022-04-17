@@ -1,0 +1,22 @@
+X: 1
+T:Charlie Lennon's Mazurka
+M:3/4
+L:1/8
+Q:150
+R:mazurka
+D:Vincent Campbell - The Brass Fiddle
+K:G
+D>G|B3 A G>B|d4  A>B|c3 e d>c|(3Bcd g2 D>G|!
+B3 A G>B|d4  A>B|c3 A F>A|G4:|!
+g>f|e2 c>e c>e|d2 d2  A>B|c3 A (3FGA|B4 g>f|!
+e2 c>e c>e|d2 d2 A>B|c3 A F>A|G4:|!
+S:https://www.folktunefinder.com/tunes/147752
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Charlie_Lennons_Mazurka_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Charlie_Lennons_Mazurka_1.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

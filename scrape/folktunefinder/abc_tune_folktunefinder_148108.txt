@@ -1,0 +1,19 @@
+X: 1
+T: Chinese breakdown
+M: 2/4
+L: 1/8
+Q:1/4=120
+K:D % 2 sharps
+dd BA FF2A|dd BA2<E2A|cc BA cc2B|AA BA F3/2z/2 AB/2c/2|
+dd BA FF3/2G/2F/2E/2|DD EF G3/2z/2 G3/2z/2|ee eg/2e/2 cc/2d/2 cB|AA Bc d3/2z/2 d3/2e/2|
+fa/2f/2 ed ff2f|fa/2f/2 ed2<c2e|aa2A gg2e|c3/2d/2 cB A3/2z/2 d3/2e/2|
+fa/2f/2 ed ff/2g/2 fe|dd c=c B3/2z/2 B3/2z/2|ee2g/2e/2 ^c3/2z/2 c3/2B/2|AA Bc d3/2
+S:https://www.folktunefinder.com/tunes/148108
+S:http://www.catswhiskersband.fsnet.co.uk/Cats%20Whiskers%20Barn%20Dance%20Band_files/ChineseBreakdown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

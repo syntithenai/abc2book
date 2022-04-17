@@ -1,0 +1,20 @@
+X: 1
+T: Chilili [Am/C]
+O: Bolivia
+%: Recording is 8 times through, repeating C 4x at end, then repeat C fading to end.
+%: On recording, B and C are sung on 4th, 5th and 8th times; otherwise instrumental.
+M: 2/4
+L: 1/16
+K: Am
+[| "Am"AAAA A2A2 |     A2A2   A2A2 | "Am"AAAA A2A2 |    A2A2   A2A2 |]
+|:  "F"a2 a4  g2 |  "C"e4     d4   |     e2e2 e4   |    g2g2     e4 :|
+|: "Dm"d2d2 d2c2 | "Am"A4 "Em"G4   | "Am"A2A2 A4   | "C"c2c2 "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/148095
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Chilili_Am.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/tune/Chilili_Am.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

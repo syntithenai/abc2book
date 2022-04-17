@@ -1,0 +1,44 @@
+X:2974
+T:Yksi, kaksi kolme, nelj\"a
+T:Counting song
+C:anon.
+O:Finland
+R:Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/finland/yksi-kaksi-kolme-nelja.abc
+M:3/4
+L:1/8
+K:Dm
+"Dm"DF AA AA|"Gm"A2G4|"A7"EF G2 GG|"Dm"G2F4|
+w:Yks-i, kak-si, kol-me, nel-j\"a an-na i-loi-nen ol-la,
+ "Dm"DE F2 F2|"Gm"F2 E3 E|"A7"^CD E2 E2|"Dm"E2D4|
+w:kos-ka su-ru tul-lee niin an-na h\"an-en men-n\"a.
+"Dm"DF A2 AA|"Gm"A2G4|"A7"EF GG GG|"Dm"G2F4|
+w:Ka-nan-po-jat kun p\"ar-r\"a\"a kis-sa ly\"o-pi trum-mun p\"a\"a-l\"a,
+"Bb"DE F2 FF|"A7"F2 E3 E|"A7"^CD E2 ^CC|"Dm"E2D4|]
+w:nel-j\"a hiir-t\"a kun tans-sii niin ko-ko mail-ma se hyt-kyy.
+W:
+W:Yksi, kaksi, kolme, nelj\"a
+W:anna iloinen olla,
+W:koska suru tullee
+W:niin anna h\"anen menn\"a.
+W:Kananpojat kun p\"arr\"a\"a
+W:kissa ly\"opi trummun p\"a\"al\"a,
+W:nelj\"a hiirt\"a kun tanssii
+W:niin koko mailma se hytkyy.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/150026
+S:http://abc.musicaviva.com/tunes/finland/yksi-kaksi-kolme-nelja.abc
+S:http://abc.musicaviva.com/tunes/finland/yksi-kaksi-kolme-nelja.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/finland/yksi-kaksi-kolme-nelja.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/finland/yksi-kaksi-kolme-nelja.abc
+% Rhythm Nursery song
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

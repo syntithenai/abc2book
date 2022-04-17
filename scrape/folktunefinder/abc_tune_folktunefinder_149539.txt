@@ -1,0 +1,21 @@
+X: 1
+T: Lumps Of Pudding
+M: 6/8
+L: 1/8
+R: jig
+K: Gmin
+|: A | B2 G B>gf | dcd G2 B | A2 F A>fd | c>BA [G2F2] f/g/ |
+agf dgf | d>cB f2 d | cA^F G-G/A/B/c/ | d2 B G2 :|
+|: c | dBd dBd | dBd G2 A | cAc cAc | cAc F2 B/c/ |
+dBd dBd | dBd f2 d | cA^F G-G/A/B/c/ | d2 B G2 :|
+|: d | Bdg Bdg | Bdg G2 B | Acf Acf | Acf F2 d | 
+Bdg Bdg | Bdg f2 d | cA^F G-G/A/B/c/ | d2 B G2 :|
+S:https://www.folktunefinder.com/tunes/149539
+S:http://www.thesession.org/tunes/display/8651
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

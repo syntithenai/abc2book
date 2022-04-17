@@ -1,0 +1,23 @@
+X: 1
+T:Cotillon
+N:Looks to me as though the final c should be sharp. Not written like that
+N:hough
+R:Cotillion
+M:2/4
+K:G
+G2G2G2G2| ABcA B2G2| gdBG A2Bc| B2A2B2G2|\
+G2G2G2G2| ABcA B2G2| gdcB A2Bc| B2A2 G4::
+B2^c2d2d2| e2e2 f4| e2g2 f2ed| ^c2d2e2A2|\
+B2^c2d2d2| e2e2 f4| e2g2 f2ed| fedc "DC"d4|]
+S:https://www.folktunefinder.com/tunes/149943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Cotillon_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/co/Cotillon_1.abc
+% Rhythm Cotillion
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

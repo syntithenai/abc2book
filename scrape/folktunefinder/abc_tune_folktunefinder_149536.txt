@@ -1,0 +1,41 @@
+X:8
+T:Constitution Hornpipe
+R:hornpipe
+C:Lee Cremo ( I think )
+S:The Fiddle Player's Tunebook 1
+Z:Transcribed from the version played by Lee Cremo
+M:4/4
+L:1/8
+K:G
+||Bc |\
+"G"d2 bb b2 fg |\
+"G"agfg d2 dc |\
+"G7"Bdgd Bdgd |\
+"C"f2 e2 e2 AB |\
+"Am"c2 aa a2 gg |\
+"D"g2 ff f3 f |\
+"D7"efff efff |\
+"G"edBA G2 Bc |\
+"G"d2 bb b2 fg |\
+"G"agfg d2 dc |\
+"G7"Bdgd Bdgd |\
+"C"f2 e2 e3 D |\
+"C"E2 cE dEcE |\
+"G"D2 BD dDBD |\
+"D"A2 AB cAFA |\
+"G"GFGA B3 D |\
+"C"E2 cE dEcE |\
+"G"D2 BD dDBD |\
+"D"A2 AB cAFA |\
+"G"G2 B2 G2 ||
+S:https://www.folktunefinder.com/tunes/149536
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/ConstitutionHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ChrisWhistler/ConstitutionHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

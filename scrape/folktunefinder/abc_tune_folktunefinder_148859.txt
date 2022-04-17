@@ -1,0 +1,20 @@
+X:1
+T:Coffee
+M:6/8
+L:1/8
+K:Em
+C:Gary Haggerty
+"Am"EAA "/B"GAA|"/C"cBA "/D"eAA|"Am"EAA "/G"GAA|"/F"cBA "/E"ABA|!
+"Am"EAA "/B"GAA|"/C"cBA "/D"eAA|"F"cBA "Em"ABA|"/D"GED "FMaj"A3:|]!
+"Am"A,2C "/B"EGA|"/C"cBA "/D"GED|"Am"A,2C "/B"EGA|"/C"cBA "/D"A3|!
+"Am"A,2C "/B"EGA|"/C"d2">"(c "/D"c)AG|"F"d2">"(c "/E"c)AG|"D"EDE "Fmaj"A3:|]!
+S:https://www.folktunefinder.com/tunes/148859
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/Coffee.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/Coffee.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

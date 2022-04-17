@@ -1,0 +1,33 @@
+X: 6
+T:Difyrrwch Corbett o Ynysmaengwyn
+T:Corbett of Ynysmaengwyn's Delight
+M:6/8
+L:1/8
+Q:130
+N:This is the Welsh version of a well-known
+N:Tune in English, Scottish and Irish
+N:collections. B.M.
+S:Cadw Twmpath Collection
+R:Jig
+A:Wales
+Z:brian_martin12345@yahoo.com
+K:D
+A|d2d dcd|B2dA3|ABc def|g2ec2A|
+d2d dcd|B2dA3|ABc def|gecd2:||
+A|d2ef3|fgfe2d|e2de2d|e2f ecA|
+d2ef3|fgfe2d|e2de2f|d3-d2:||
+S:https://www.folktunefinder.com/tunes/149789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/CadwTwmpath/CorbettOfYnysmaengwynsDelight.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianMartin/CadwTwmpath/DifyrrwchCorbettOYnysmaengwyn.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/CadwTwmpath/CorbettOfYnysmaengwynsDelight.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/BrianMartin/CadwTwmpath/DifyrrwchCorbettOYnysmaengwyn.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

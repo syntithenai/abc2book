@@ -1,0 +1,36 @@
+X:6
+T:Charger
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+K:D
+|:D |\
+"Em"E2 BA BcdB |\
+"D"ABAF "Bm"DFED |\
+"Em"E2 BA BcdB |\
+"D"AFDF "C"E2 D2 |\
+"Em"E2 BA BcdB |\
+"D"ABAF D2 e2 |\
+"Bm"fedf "A"edBA |\
+"G"GEFD "C"E3 :: F |\
+"Em"GEEG "D"FEDF |\
+"Bm"ABAF DEFD |\
+"Em"GEEG "D"FEDF |\
+"Bm"GEFD "Em"E2 EF |\
+"G"G3 B d2 B2 |\
+"D"ABAF DEFD |\
+"Em"GEEG "C"FEDF |\
+"D"GEFD "A"E3 :|
+S:https://www.folktunefinder.com/tunes/147650
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/Charger.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ChrisWhistler/Charger.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

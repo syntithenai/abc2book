@@ -1,0 +1,31 @@
+X: 1
+T:Corkonian -- Reel
+M:2/4
+L:1/16
+R:reel
+B:Ryan's Mammoth Collection
+N:146
+N:Similar to The Merry Blacksmith
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:D
+u((3ABc)|\
+d2(dA) BAFG | Adcd BAFG | Acde fd"4"ed | Bee2 Bee2 |
+d2(dc) BAFG | Adcd BAFG | Acde fd"4"ec | dBAF D2  ::
+u(fg)|\
+"tr"Ta4 "tr"Tf4 | .d2(dA) BAFG | Acde fd"4"ed | Bee2 Bee2 |
+.a2(ag) .f2(fe) | .d2(dA) BAFG | Acde fd"4"ec | dBAF D2  :|
+S:https://www.folktunefinder.com/tunes/149822
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/ray:davies99.freeserve.co.uk/CorkonianReel.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CorkonianReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/ray%3Adavies99.freeserve.co.uk/CorkonianReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CorkonianReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

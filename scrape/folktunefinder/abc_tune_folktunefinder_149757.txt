@@ -1,0 +1,23 @@
+X:59
+T:The Cooper o' Stannerton Heugh
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+d | gGG BAG | BcB BAG |
+gGG BAG | ABd e2d | gGG BAG |
+BcB BAG | gfe dcB | ABd e2 ::
+d | gbg bgb | faf afa |
+gbg bgb | faf e2d | gbg bgb |
+faf afa | gfe dcB | ABd e2 :|
+S:https://www.folktunefinder.com/tunes/149757
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Cooper_o_Stannerton_Heugh.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Cooper_o_Stannerton_Heugh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

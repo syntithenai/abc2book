@@ -1,0 +1,22 @@
+X:5
+T:Liberty
+C:Trad, Can.  
+M:4/4
+L:1/8
+Q:1/2=116
+K:D
+ ag | f2 A2 f2 A2 | fgfe d2 ef | g2 B2 g2 B2 | gagf efge |
+ f2 A2 f2 A2 | fgfe d2 ef | gfed cABc | dBAF D4 ||
+   A2 AB AGFE | DFAd f2 d2 | A2 AB AGFE | A,2 C2 E2 A2 |
+   A2 AB AGFE | DFAd f2 ef | gfed cABc | dBAF D4 ||
+%%%%  Yet another old standby, from memory.
+%%%%  See Chorus.abc for notes on construction
+S:https://www.folktunefinder.com/tunes/149745
+S:http://www.ericdancepiano.com/abc/Sessions.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

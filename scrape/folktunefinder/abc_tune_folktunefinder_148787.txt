@@ -1,0 +1,21 @@
+X: 16
+T: Marty's Jig
+M: 6/8
+L: 1/8
+R: jig
+K: DMaj
+|:&quot;D&quot;DFA B2A|def geg|fdf ecA|&quot;G&quot;BdB &quot;A&quot;AFE|
+&quot;D&quot;DFA B2A|def geg|fdf ecA |1 &quot;G&quot;B2c &quot;D&quot;d3 :|2 &quot;G&quot;B2c &quot;D&quot;d2e||
+|:&quot;D&quot;fad fad|faa agf|&quot;C&quot;eg=c egc|egg gfe|
+&quot;D&quot;fef &quot;G&quot;~g3|&quot;D&quot;agf efg|fed BAG |1 Adc d2e :|2 Adc d3||
+S:https://www.folktunefinder.com/tunes/148787
+S:http://www.thesession.org/tunes/display/1911
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

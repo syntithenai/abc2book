@@ -1,0 +1,21 @@
+X: 1
+T: Chao
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DEF |: DEF DEF | ~G3 EFG | EFG EFG | ~A3 DEF |
+DEF DEF | ~G3 EFG | ~A3 GFE |1 ~D3 DEF :|2 ~D3 DED ||
+~B3 B FG | ~A3 AEF | ~G3 GFE | ~A3 DED |
+~B3 B FG | ~A3 AEF | ~G3 GFE |1 ~D3 DED :|2 ~D3 DEF ||
+S:https://www.folktunefinder.com/tunes/147635
+S:http://www.thesession.org/tunes/display/4268
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

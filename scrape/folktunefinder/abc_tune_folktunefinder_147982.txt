@@ -1,0 +1,26 @@
+X: 1
+T: Chetvorno Shopsko Horo
+M: 7/8
+L: 1/8
+K: G
+|: "G"~B2D BD dD | "C"~c2D cB AG \
+| "D"~A2D AD cD | "G"BAB GD GA \
+| "G"~B2D BD dD | "C"edc "A"ce BG |
+| "D"~A2D AD dD |1 "D"~A2D ed dc :|2 "Am"~A3 ~A4 :| \
+|: "C"([dB][e2c]) [e2c] [d2B] | ([dB][c2G]) [c2G] [d2B] \
+| [d3B] [e2c] [d2B] | ([d2B][cG]) [c4G] :|
+|: "G"B3 B2 d2 | "C"c3 c2 B2 \
+| "D"A3 A2 c2 | "G"B2A G4 \
+| "C"c3 "G"d2 "C"e2 | "D"d2c c2 B2 \
+| "Dm"d3 A4 | "Am"A3 A4 :|
+S:https://www.folktunefinder.com/tunes/147982
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chetvorno_Shopsko_Horo_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chetvorno_Shopsko_Horo_3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chetvorno_Shopsko_Horo_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chetvorno_Shopsko_Horo_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

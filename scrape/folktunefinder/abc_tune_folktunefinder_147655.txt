@@ -1,0 +1,28 @@
+X:0369
+T:"Charles Mac Hugh"   (air)      0369
+C:Unattributed
+C:plaintive
+N:Transposed from Bb
+Q:1/4=60
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/8
+L:1/16
+K:D
+"_vb"(BA)|(F2B2).B2|(B4cd)|(efedcB)|(A2B2).c2|.d2(defg)|(a2f2)(ed)|(c2A2).A2|A4(BA)|
+(F2B2).B2|(B4cd)|(efedcB)|(A2B2).c2|.d2(defg)|(a2f2) (TRfe)|(d2B2).B2|B4||
+(fg|a2)f2 (fg|a2)f2 f2|(efedcB)|.A2(ABc) z|.d2(defg)|(a2f2)(fe)|(f2e2).e2|e4(fg|
+a2)f2 (fg|a2)f2 f2|(efedcB)|.A2(ABc) z|.d2(defg)|(a2f2)(TRfe)|(d2B2).B2|B4|]
+S:https://www.folktunefinder.com/tunes/147655
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0369-CherlesMacHugh.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0369-CherlesMacHugh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

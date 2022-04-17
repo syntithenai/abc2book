@@ -1,0 +1,20 @@
+X: 1
+T: Changerais-tu
+O: Bretagne
+M: 2/4
+L: 1/8
+K: G
+D2 | "G"Bc BA | B2 GA-| "D7"AB cB | A2 D2 |
+   | "G"Bc BA | B2 GA-| "D7"AG FA | G2 :|
+G2 | "C"cc "D7"BA | "G"B2 G2 | "C"cc "D7"BA | "G"B2 "D7"kd2 |
+|: "G"B2 d2 | G2 GG | "D7"AA AA | "G"B2 "D7"A2 |
+|  "G"B2 d2 | G2 BB | "D7"AA A2 | "G"G4 :|
+S:https://www.folktunefinder.com/tunes/147554
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Changerais_tu_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 1
+T: CONSTANT BILLY
+S: MDT
+O: Adderbury
+P: A.(A2B)6
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+W: Oh! my Billy, my constant Billy, When shall I see my Billy again
+W: Billy again! Billy again! Billy again! Billy again!
+W: Oh! my Billy, my constant Billy, When shall I see my Billy again
+M: 6/8
+L: 1/8
+K: A
+P: A
+|: E |\
+    A2e c<Ac | d2B G2E | c>BA F2E | EFG A2 :|
+P: B
+    cde f3   | Bcd e3  | cde  f3  | Bcd e2(3e/f/g/ |
+    a2e c<Ac | d2B G2E | c>BA F2E | EFG A2 ||
+S:https://www.folktunefinder.com/tunes/149503
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Constant_Billy_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

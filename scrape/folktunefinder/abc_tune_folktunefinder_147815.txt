@@ -1,0 +1,23 @@
+X:0935
+T:"Charlie Stewart"     (jig)     0935
+C:after Sg't.  J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+d|cee Ace|dfa ecA|def ecA|GBB B2d|
+cee efg|agf ecA|(f/2g/2a3/2)f/2 ecA|BAA A2:|
+|:d|cAA eAA|(f/2g/2a3/2)f/2 ecA|cAA eAA|GBB B2d|
+cAA eAA|(f/2g/2a3/2)f/2 ecA|agf eac|BAA A2:|
+S:https://www.folktunefinder.com/tunes/147815
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0935-CharlieStewart.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/0935-CharlieStewart.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

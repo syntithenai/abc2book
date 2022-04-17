@@ -1,0 +1,26 @@
+X:1
+T:Con-jig-aison
+M:6/8
+L:1/8
+Q:120
+C:(c) Greg Anderson, 25 Nov 1999
+R:Jig
+H:Two words about learning to speak french: verb conjugation
+K:Bm
+F|:Bcd FBD|EDC B,2 B,|CDE DCA,|B,CD FBc|dcB FED|
+EDC B,2 D|!CEE F2 D|1B,DC B,2 F:|2B,DC B,2 D|:CA,A, A,B,C|
+DB,F DEF|EGE CDE|!FGD B,2 D|CA,A, A,B,C|DB,F DEF|
+GFc Bdc|1BFD B,2 D:|2BFD B,2 F||
+S:https://www.folktunefinder.com/tunes/149345
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/ConJigAison.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/GregAnderson/ConJigAison.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

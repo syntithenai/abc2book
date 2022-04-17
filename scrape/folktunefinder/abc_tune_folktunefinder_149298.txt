@@ -1,0 +1,41 @@
+X:505
+T:Conditor alme siderum
+T:(faburden arrangement)
+T:Ditt skaparljos i stjernor bor
+C:anon., arr. Frank Nordberg
+R:Hymn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+%Posted September 4th 2000 at abcusers by Frank Nordberg
+V:1 Program 1 42 %Cello
+V:2 Program 2 68 %Oboe
+V:3 Program 3 43 %Double bass
+M:none
+L:1/8
+Q:1/8=120
+K:Ephr
+V:1
+A  FA  cc dB Hc2 c dB cB AG  HA2 c  BG  AB AG  HF2  F  AB cB AG  HA2 |]
+V:2
+E  CE  GG AF HG2 G AF GF ED  HE2 G  FD  EF ED  HC2  C  EF GF ED  HE2 |]
+V:3
+A, A,C EE FD HC2 C FD ED CB, HA,2 C DB, CD CB, HF,2 F, CD ED CB, HA,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/149298
+S:http://abc.musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-02.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

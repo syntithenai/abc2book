@@ -1,0 +1,25 @@
+X:1
+T:Cincinnati Hornpipe
+C:R-18
+M:C|
+Z:Transcribed to abc by Mary Lou Knack
+R:hornpipe
+%F:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc 2007-05-15 16:43:58 UT
+K:D
+|"D"DAFA DAFA| dAfA eAfA| "G"gAfA "E7"edcd| "A"edcB AGFE
+|"D"DAFA DAFA| dAfA eAfA| "G"gAfA edcB| "A"cdeg "D"fdd2 :|
+|:"A"eAAA "D"fAAA| "A"gAAA "D"fAAA| "A"eAfA gAfA| "A7"edcB AGFE
+|"D"Dddd "A"ceee| "D"dfff "G"eggg| "D"fgaf "A"bgec| "D"d2d2 d2z2 :|
+S:https://www.folktunefinder.com/tunes/148392
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://roaringjelly.org/music/sets/RJ_Reels_1_47.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/Cincinnati.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/Cincinnati.abc
+% Rhythm Hornpipe
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

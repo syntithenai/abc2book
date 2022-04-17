@@ -1,0 +1,20 @@
+X: 1
+T: Cooley's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3def|gG {A}(3GFG (3EFG DC|B,G, B,D GB dB|(3cdc Ac (3BcB GB|cB AG A2 (3def|
+gG {A}(3GFG (3EFG DC|B,G, B,D GB dB|cB AG Fe dc|{Bc}B2 G2 G2:|
+|:(3ddc|BG Bd ed Bd|g2 {a}(3gfg eg dB|dg {a}(3gfg dB GB|cB AG Fe dc|
+BG {A}(3GFG {F}(3EDE cE|{F}(3EDE cE DG Bd|ga ge dc BA|{Bc}B2 G2 G2:||
+S:https://www.folktunefinder.com/tunes/149727
+S:http://www.thesession.org/tunes/display/1052
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

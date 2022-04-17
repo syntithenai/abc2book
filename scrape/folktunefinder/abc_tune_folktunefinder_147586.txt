@@ -1,0 +1,94 @@
+X:1
+T:Chant de marins : Fanny de Lanninon
+%%scale 0.70
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+M:3/4
+L:1/4
+K:G
+Q:1/4=180
+d | G2 B | c B A | G2 B | c B A | G2 B | \
+c B A | d3- | d z d |\
+c2 B | A B c | B3 | G2 B | A2 G | E F G | A3- | A z D | G2 B |\
+c B A | G2 B | c B A | G2 B | c B A | d3- | d z d | c2 B | A B c |\
+B2 A | G A B | A2 G | F G A | G3- | G z z || G B e | d B G | B3 |\
+G3 | A2 A | A G A | B3- | B z z | G B e | d B G | B3 | G3 | A2 A |\
+A G F | G3- | G z z | A A A | c B A | B3 | d3 | A A A | ^c d e |\
+d3- | d z z | G B e | d B G | B3 | G3 | A2 A | A G F | G3- | G z D |]
+%%rm
+%%rm 1.  l'aube sur le quai Gueydon
+%%rm    Devant l'petit pont
+%%rm    Chantait la chanson
+%%rm    Le branle-bas de la croisire
+%%rm    Et dans la blanche baleinire,
+%%rm    Jean Bouin notre brigadier
+%%rm    Son bonnet capl
+%%rm    Un peu sur l'ct,
+%%rm    Me rappelle mon btiment
+%%rm    C'tait le bon temps
+%%rm    Celui d'mes vingt ans.
+%%rm
+%%rm    Le bidel capitaine d'armes
+%%rm    Et son cahier d'punis,
+%%rm    Dans la cayenne f'sait du charme
+%%rm     je n'sais quelle souris,
+%%rm    Mais j'garde au coeur une souffrance
+%%rm    Quand l'Quartier-Mait' clairon,
+%%rm    Sonnait en haut d'Recouvrance
+%%rm    Aux filles de Lanninon.
+%%newpage
+%%rm
+%%rm 2. La plus belle de Lanninon
+%%rm    Fanny d'Kersauzon
+%%rm    M'offrit un pompon, 
+%%rm    un pompon de fantaisie
+%%rm    C'tait elle ma bonne amie,
+%%rm    Elle frquentait un bistrot
+%%rm    Rempli de mat'lots
+%%rm    En face du dpt,
+%%rm    Quand je pense  mes plaisirs
+%%rm    J'aime mieux m'tourdir
+%%rm    Que d'me souvenir.
+%%rm
+%%rm    Ah Fanny de Recouvrance
+%%rm    J'aimais tes yeux malins,
+%%rm    Quand ton geste plein d'lgance
+%%rm    Balanait des marsouins,
+%%rm    Je n'tais pas d'la maistrance
+%%rm    Mais j'avais d'l'atout en mains,
+%%rm    Et tu v'nais m'voir le dimanche
+%%rm    Sur le Duguay Trouin.
+%%rm
+%%rm 3.  c't'heure je suis retrait
+%%rm    Matre Timonier
+%%rm    Aux Ponts et Chausses,
+%%rm    Je fais le service des phares
+%%rm    Et j'coute la fanfare,
+%%rm    De la mer en son tourment
+%%rm    D'Molne  Ouessant
+%%rm    Quand souffle le vent,
+%%rm    Tonnerre de Brest est tomb
+%%rm    Pas du bon ct
+%%rm    Tout s'est croul.
+%%rm
+%%rm     c'qui reste de Recouvrance
+%%rm    J'logerais pas un saco,
+%%rm    Et Fanny ma connaissance
+%%rm    Est morte dans son bistrot,
+%%rm    J'n'ai plus rien en survivance
+%%rm    Et quand j'bois un coup d'trop,
+%%rm    Je sais que ma dernire chance
+%%rm    Ce s'ra d'faire un trou dans l'eau.
+S:https://www.folktunefinder.com/tunes/147586
+S:http://termen.free.fr/danses/chants/ChantdemarinsFannydeLanninon.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

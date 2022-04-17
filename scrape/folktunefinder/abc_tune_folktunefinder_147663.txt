@@ -1,0 +1,25 @@
+X: 1
+T:Planxty Fanny Powers
+T:Fanny Powers
+C:Turlough O'Carolan
+Z:id:hn-carolan-1
+M:3/4
+L:1/4
+K:G
+D |: G2D | G>AB | c2B | A2G | GFE | DFD | F2G | A2c |
+B>AG | Bcd | e2A | A>BG | GFE | DGF | G3 |1 G2D :|2 G2d ||
+|: dB/c/d | dB/c/d | G>BG | GBd | ec/d/e | ec/d/e | A>cA | AcA |
+B>cd | efg | f>ga | d2c | B>AG | DGF | G3 |1 G2d :|2 G2 ||
+S:https://www.folktunefinder.com/tunes/147663
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/Ocarolin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/FannyPowers.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/PlanxtyFannyPowers.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/co-mando.com/Ocarolin.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/co-mando.com/FannyPowers.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/co-mando.com/PlanxtyFannyPowers.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

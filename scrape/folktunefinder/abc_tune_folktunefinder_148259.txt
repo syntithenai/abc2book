@@ -1,0 +1,25 @@
+X:1
+S: Wendy Galovich <wendy@argyll.wisemagic.COM>
+T:Christmas Day Ida Moarnin'
+M:12/8
+L:1/8
+C:Trad
+O:Shetland Islands
+% Contributed 19991129144029 by John Chambers jc2trillian.mit.edu
+K:D
+"D"f2d f3 "A"e2d c2A | "G"B2G d2c B2A G3|\
+"A"e2f g2f e2d c2B | ABA ABc "D"d3 d3 |
+fa2 a3 "A"e2d c2A | "G"B2G d2c B2A G3 |\
+"A"e2f g2f e2d c2B | A2A ABc "D"d3 d3 |
+|: "Em"e3 ((4edef) g3 B3 | "D"A2F F2A B2c d2B |\
+"Em"e3 ((4edef) g3 B3 | "D"A2e d2B A3 A3 :|
+S:https://www.folktunefinder.com/tunes/148259
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ChristmasDayIdaMoarnin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

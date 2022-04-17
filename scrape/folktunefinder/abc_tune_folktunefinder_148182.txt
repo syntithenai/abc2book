@@ -1,0 +1,27 @@
+X:7
+T: Chorus Jig
+I: Chorus JigR-3D/Greel
+R: reel
+M: C|
+K: D
+AG| "D"F2DF ABAG|FADF A2d2| D3F ABAF|"A"GFEF G2:|
+[K: G]Bc| "G"dBcA BGFG|"D"Ad^cd A2B=c| "G"dBcA BGFG| "D"AcBA "G"G2Bc|
+"G"dBcA BGFG| "C6"ABcd efge| "G"dBcA BGFG| "D"AcBA "G"G2|]
+[K: D]|:ag| "D"fddd fddd| fdfg "A"abag| "D"fddd fddd| "C"=cdef g2:|
+[K: G]Bc| "G"dBcA BGFG| "D"Ad^cd A2B=c| "G"dBcA BGFG|"D"AcBA "G"G2Bc|
+    "G"d2 (3cdc BGFG| "C6"ABcd efge| "G"dBcA BGFG|"D"AcBA "G"G2|]
+%%text Roaring Jelly  R-3
+S:https://www.folktunefinder.com/tunes/148182
+S:http://roaringjelly.org/music/reel/R003_Chorus_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R003_Chorus_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R003_Chorus_Jig.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:1
+T:Contra Indication
+C:copyright 1997 Kaubells (revised 8/99)
+R:Reel
+E:16
+M:C
+K:D
+(3ABc|"D".dzde fe d2|a4 z2 (3ABc|.dzde fe d2|"A"e6f2|
+E:14
+"G"gfef g2b2|{ab}"D"agfg a2f2|"E7"e2ef e2c'2|"A7"a4 z2 (3ABc|
+"D".dzde fe d2|a4 z2 (3ABc|.dzde fe d2|"G"b4 "Bm"z2 ba|
+"Em"gfef g2b2|{ab}"D"agfg "Bm"a2f2|"Em7"efg2 "A7"A2c2|"D"d4 z4||
+K:Em
+|:"Em"e2ba bd'z e/f/|edBd e4|"B(m)"B2BA Bf2_B|"Am"A2gc ba z2|
+"Em"e2ba bd'z e/f/|edBd e4|"B7"B.f zB ^c2^d2|"Em"e8:|
+T:  Last time only:
+"Em"e4 .e'z3|]
+\bigskip
+S:https://www.folktunefinder.com/tunes/149585
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/contra-indication.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

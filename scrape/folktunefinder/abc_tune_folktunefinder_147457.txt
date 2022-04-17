@@ -1,0 +1,26 @@
+X: 1
+T:Seud nan Ceud Bliadhna
+T:The Centenary Jewel
+C:Phil Cunningham
+M:4/4
+L:1/8
+K:D
+   d>B | A>A A>B G>B d>B | A>e d<A B2  d>B | A>A A>B d>e f<a | g2  B2  B2
+   d>B | A>A A>B G>B d>B | A>e d<A B2  A>B | d>d d<f e>f g<a | f2  d2  d2 :|
+|: f>g | a>f g>e f<a g>e | f<d g>d B2  d>B | A>A A>B d>e f<a | g2  B2  B2
+|1 f>g | a>f g>e f<a g>e | f<d g>d B2  A>B | d>d d>f e>f g<a | f2  d2  d2 :|
+|2 d>B | A>A A>B G>B d>B | A>e d<A B2  A>B | d>d d>f e>f g<a | f2  d2  d2 ||
+|: d>B | A>A A>B G>G G>B | A>A A<f e>d e<f | A>A A>B d2  e>f | g>e f<d B2
+y  d>B | A>A A>B G>B d>B | A>a f<d B2  A>B | d>d d>f e>f g<a | f2  d2  d2 :|
+|: f>g | a>A A<a A<a g>e | f<d g>d B2  d>B | A>A A>B d>e f<a | g2  B2  B2
+|1 f>g | a>A A<a A<a g>e | f<d g>d B2  A>B | d>d d>f e>f g<a | f2  d2  d2 :|
+|2 A>B | G>B d>B A>c e<c | d>e f<g B2  A>B | d>d d>f e>f g<a | f2  d2  d2 |]
+S:https://www.folktunefinder.com/tunes/147457
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Seud_nan_Ceud_Bliadhna.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Seud_nan_Ceud_Bliadhna.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

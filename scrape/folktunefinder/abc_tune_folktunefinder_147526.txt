@@ -1,0 +1,25 @@
+X: 3
+T: Pretty Jane
+S: &quot;ONeill's Music of Ireland: 1850 Melodies&quot;, 1903, page 143, tune #768
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|: c/B/ |\ 
+ABA cBA | cde a2 f | ecA BAF | BcB B2 c | 
+ABA cBA | cde a2 f | ecA BAF | ABA A2 :|
+|: f/g/ |\ 
+aba afe | fef agf | ecA BAF | BcB Bfg | 
+aba age | fef a2 f | ecA BAF | ABA A2 :|
+S:https://www.folktunefinder.com/tunes/147526
+S:http://www.thesession.org/tunes/display/9081
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

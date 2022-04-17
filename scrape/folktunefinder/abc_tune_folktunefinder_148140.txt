@@ -1,0 +1,23 @@
+X:1
+T:Chocolate Rabbit
+C:Alan Day
+Z:Robin Beech robin.beech@mcgill.ca
+N:Learned at Squeeze-In 2004
+R:jig
+Q:320
+L:1/8
+M:6/8
+K:G
+[| cAc BGB | A2F G2D |: D2G GFG | AFE D2B | cAc BGB | A2^c d2D | D2G GFG | 
+AFE D2B | cAc BGB | A2F G2D ::B2B A2B | G (G2 G2) B | c2c e2c | 
+(A3 A2) D | B2B A2B | G (G2 G2) B | c2c A2F  |1 (G3 G2) D :|2 G6 |]
+S:https://www.folktunefinder.com/tunes/148140
+S:http://users.rcn.com/ladysmyth/tunes/ChocolateRabbit.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

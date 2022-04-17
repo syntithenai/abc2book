@@ -1,0 +1,88 @@
+X:1
+% A: A-Area
+% B: B-Book
+C: Culebr\'on Timbal
+D: Territorio
+% G: G-Group
+% H: H-History
+% N: N-Notes
+% O: O-Origin
+% S: S-Source
+T:Chacarreta
+% Z: Z-Transcription note
+M:12/8
+L:1/8
+Q:
+K:E
+V:1 name="Alto"
+%%MIDI program 65
+V:2 name="Tenor 1"
+%%MIDI program 65
+V:3 name="Tenor 2"
+%%MIDI program 65
+[V:1] Z16 || Z8 || z12                   | z12           | z12                   | z12             | 
+[V:2] Z16 || Z8 || z CE G B2 =G2 D =C_BC | z CE G B2 =G6 | z CE G B2 =G2 D =C_BC | z C z G2 _B =c6 | 
+[V:3] Z16 || Z8 || z12                   | z12           | z12                   | z12             | 
+%
+[V:1] z12  | z12                     | z12                           | z12            | Z16 |:
+K:Db  
+[V:2] z C z B, A,2 =G2 B, F z E | z C z B, A,2 F,E,F, =D3 | z C z B,A,=G, _G,=G,B,- B, F2 | z C z B,2 C E6 | Z16 |:
+K:Db
+[V:3] z12  | z12                     | z12                           | z12            | Z16 |:
+K:Db
+%
+[V:1] FFF G F2       E3 z EF    | GAG F E2       F6  | FDF B c2   A2 B2 A2      |1 A A2 C2 E      F6  :|2 
+[V:2] DDD E D2       C3 z CD    | EFE D C2       D6  | DB,D G A2   F2 G2 F2     |1 F F2 A,2 C     D6  :|2 
+[V:3] F,F,F, G, F,2  E,3 z E,F, | G,A,G, F, E,2  F,6 | F,D,F, B, C2 A,2 B,2 A,2 |1 A, A,2 C,2 E,  F,6 :|2  
+% 
+[V:1] A2 B2 c2 d6   ||
+K:E
+[V:2] F2 G2 A2 F6   || 
+K:E
+[V:3] A,2 B,2 C2 D6 || 
+K:E
+[V:1] Z8 || Z8 || z12                   | z12           | z12                   | z12             | 
+[V:2] Z8 || Z8 || z CE G B2 =G2 D =C_BC | z CE G B2 =G6 | z CE G B2 =G2 D =C_BC | z C z G2 _B =c6 | 
+[V:3] Z8 || Z8 || z12                   | z12           | z12                   | z12             | 
+%
+[V:1] z12 | z12                     | z12                           | z12            | Z16 |:
+K:Db  
+[V:2] z C z B, A,2 =G2 B, F z E | z C z B, A,2 F,E,F, =D3 | z C z B,A,=G, _G,=G,B,- B, F2 | z C z B,2 C E6 | Z16 |:
+K:Db
+[V:3] z12 | z12                     | z12                           | z12            | Z16 |:
+K:Db
+%
+[V:1] FFF G F2       E3 z EF    | GAG F E2       F6  | FDF B c2   A2 B2 A2      |1 A A2 C2 E      F6  :|2 
+[V:2] DDD E D2       C3 z CD    | EFE D C2       D6  | DB,D G A2   F2 G2 F2     |1 F F2 A,2 C     D6  :|2 
+[V:3] F,F,F, G, F,2  E,3 z E,F, | G,A,G, F, E,2  F,6 | F,D,F, B, C2 A,2 B,2 A,2 |1 A, A,2 C,2 E,  F,6 :|2  
+% 
+[V:1] A2 B2 c2 d6   ||
+K:E
+[V:2] F2 G2 A2 F6   || 
+K:E
+[V:3] A,2 B,2 C2 D6 || 
+K:E
+%
+[V:1] Z8 | Z8 |:
+K:Db
+[V:2] Z8 | Z8 |: 
+K:Db
+[V:3] Z8 | Z8 |: 
+K:Db
+%
+[V:1] FFF G F2       E3 z EF    | GAG F E2       F6  | FDF B c2   A2 B2 A2      |1 A A2 C2 E      F6  :|2 
+[V:2] DDD E D2       C3 z CD    | EFE D C2       D6  | DB,D G A2   F2 G2 F2     |1 F F2 A,2 C     D6  :|2 
+[V:3] F,F,F, G, F,2  E,3 z E,F, | G,A,G, F, E,2  F,6 | F,D,F, B, C2 A,2 B,2 A,2 |1 A, A,2 C,2 E,  F,6 :|2  
+% 
+[V:1] A2 B2 c2 d6   |]
+[V:2] F2 G2 A2 F6   |] 
+[V:3] A,2 B,2 C2 D6 |]
+S:https://www.folktunefinder.com/tunes/147510
+S:http://abcmr.sourceforge.net/chacarreta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C-sharp
+% Key E
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

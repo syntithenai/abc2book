@@ -1,0 +1,25 @@
+X: 2
+T:Cornerstone, The
+C: Reverend Pete
+M: 6/8
+L: 1/8
+R: jig
+K: A Dorian
+|: B |\ 
+EAA ABc | edc BAG | EGG AGG | BcB AGD |
+EAA ABc | edc Bcd | edc BAG | BAG A2 :|
+|: B |\
+cde a2 a | baa bag | edB GBd | ged BAG | 
+[1 cde a2 a | baa bag | edc BAG | BAG A2 :|
+[2 EAA ABc | edc Bcd | edc BAG | BAG A2 |]
+S:https://www.folktunefinder.com/tunes/149848
+S:http://www.thesession.org/tunes/display/8148
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

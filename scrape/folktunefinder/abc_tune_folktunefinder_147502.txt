@@ -1,0 +1,34 @@
+X:1
+T:C'est l'amour qui rend beau !
+C:Grard Delahaye --- http://www.gerarddelahaye.com/ , fichier abc : Bernard Loffet
+L:1/8
+Q:230
+M:4/4
+K:C
+ [cC,,][cC,] c[cC,] [BC,,][BC,] A[A/G,/]A/ | [GG,,][GG,] G[GG,] [FF,,][FF,] F[FF,] | \
+ [EC,,][GC,] zC, C,,C,2C, | G,,G,2G, G,,G,2G, | [cC,,][cC,] c[cC,] [BC,,][BC,] A[A/G,/]A/ | \
+ [GG,,][GG,] G[GG,] [FF,,][FF,] F[FF,] | [EC,,][CC,] zC, C,,C,2C, | G,,G,2G, G,,G,2G, | \
+ [EC,,][CC,] EC, [FF,,][CF,] FF, | [GG,,][EG,] F[CG,] [FF,,][DF,] G,F, | [EC,,][CC,] EC, [FF,,][CF,] FF, | \
+ [GG,,][EG,] E[FG,] [DF,,][DF,] G,F, | [EC,,][CC,] EC, [FF,,][FF,] FF,/F/ | [FG,,][FG,] G[DG,] [B,F,,][GF,] G,F, | \
+ [EC,,][EC,] E[EC,] [FF,,][FF,] E[FG,] | [GG,,]G,2G, G,,G,2G, | G,,G,2G, G,,G,2G, | \
+ [CC,,][EC,] GC, [FF,,][AF,] GF, | [EG,,][EG,] E[E/G,/]E/ [FF,,][FF,] G[GF,] | [CC,,][EC,] GC, [FF,,][AF,] GF, | \
+ [BG,,][BG,] B[BG,] [AF,,][AF,] GF, | [CC,,][EC,] GC, [FF,,][AF,] GF, | [EG,,][EG,] E[E/G,/]E/ [FF,,][FF,] G[GF,] | \
+ [CC,,][EC,] GC, [FF,,][AF,] GF, | [BG,,]G,/B/ B[BG,] [AF,,][AF,] GF, | [eC,,]C, eC,/d/ [dF,,][cF,] cF, | \
+ [BG,,][dG,] d[c/G,/]B/ [AF,,][BF,] A[GF,] | [EC,,]C,/G/ E[CC,] [FF,,][GF,] A[cF,] | \
+ [BG,,][dG,] g[f/G,/]e/ [dG,,][eG,] f[gG,] | [eC,,]C, eC,/d/ [dF,,][cF,] cF, | [BG,,][dG,] d[c/G,/]B/ [AF,,][BF,] A[GF,] | \
+ [EC,,]C,/G/ E[CC,] [FF,,][GF,] A[cF,] | [BG,,][dG,] d[c/G,/]B/ [AG,,]G, GC, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/147502
+S:http://diato.ifrance.com/diato/tablat/208.abc
+S:http://diato.ifrance.com/tablat/208.abc
+S:http://diato.org/tablat/208.abc
+S:http://perso.orange.fr/diato/tablat/208.abc
+S:http://perso.wanadoo.fr/diato/tablat/208.abc
+S:http://pro.wanadoo.fr/diato/tablat/208.abc
+S:http://www.diatonique.net/tablat/208.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

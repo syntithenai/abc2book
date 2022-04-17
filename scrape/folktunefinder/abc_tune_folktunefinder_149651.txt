@@ -1,0 +1,24 @@
+X:3
+%abctab2ps format
+%
+%%titlefont Times-Roman 18
+T:Es solt ein man kein mle farn
+T:Tenores
+C:Glogauer Liederbuch, Number 80
+M:3/4
+L:1/1
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -24
+N:Original clef, C on fourth line
+K:G mix bass
+z z g g2 g g2 g f e2 d3 f3 f2 f g d2 e2 e f > e c/ d/ e c2 d2 e d2 d c2 G2
+c2 d A2 a2 a a > g e d2 e f d e d2 g f2 _b a2 a a > g e d3 f3 z z d g d2 HG3 |]
+S:https://www.folktunefinder.com/tunes/149651
+S:http://www.laymusic.org/music/glogauer/80/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

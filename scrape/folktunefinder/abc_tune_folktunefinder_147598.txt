@@ -1,0 +1,219 @@
+X:1
+T:Chant de marins : Off to sea once more
+E:12
+Z:Roger Ngaret (98)
+R:
+C:Trad.
+S:
+A:Royaume-Uni
+Q:1/4=152
+M:3/4
+L:1/16
+K:G
+T:Intro
+E4 F4 G4 | A4 B4 d4 | e4 d4 B4 | d8 d4 | B8 B4 |\
+A4 G4 F4 | E12 | [e8B8g8] |]
+T:Thme
+B4 | "Em"B8 B4 | G4 A4 B4 | "D"A8 F4 | D4 E4 F4 |\
+"Em"G8 E4 | E8 D4 | (E12 | E8) E4 | G8 A4 |\
+B4 c4 d4 | e4 d4 B4 | "D"d8 d4 | "Em"B8 B4 | \
+"D"A8 d4 | "Em"(B12 | B4) G4 F4 | E8 G4 | \
+B4 c4 d4 | e4 d4 B4 | "D"d8 d4 | "Em"B8 B4 | "D"A4 F4 A4 |\
+"Em"(B12 | B8) B,4 | B4 B4 B4 | G4 A4 B4 | "D"A4 F4 E4 |\
+D4 E4 F4 | "Em"G4 E4 F4 | E8 D4 | (E12 | E8) |]
+T:Refrain
+B4 | "D"(d12 | d8) B4 | (A12 | A8) B4 |\
+A8 B4 | A4 G4 E4 | "G"(D12 | D8) D4 |\
+"Em"B4 B4 B4 | G4 A4 B4 | "D"A4 F4 E4 | D4 E4 F4 | "Em"G4 E4 F4 |\
+E8 D4 | (E12 | E8) F4 | G4 E4 F4 | E8 D4 | (E12 | E8) |]
+%%newpage
+%%bf 1. 
+%%rm When first I landed in Liverpool
+%%rm I went upon the Spree
+%%rm While money lasts I spend it fast
+%%rm Got drunk as drunk could be
+%%rm But before my money was all gone
+%%rm On liquor and the whores
+%%rm I made up my mind that I was inclined
+%%rm To go to sea no more.
+%%rm
+%%it No more, no more, to go to sea no more
+%%it I made up my mind that I was inclined
+%%it To go to sea no more.
+%%rm
+%%bf 2.
+%%rm As I was walking down the street
+%%rm I met with Angeline
+%%rm She said come home with me my lad
+%%rm And we'll have a cracking time
+%%rm But when I awoke it was no joke
+%%rm I found I was all alone
+%%rm My silver watch and my money too
+%%rm And my whole bloody gear was gone.
+%%rm
+%%it Was gone, was gone, 
+%%it     my whole bloody gear was gone
+%%it When I awoke it was no joke
+%%it For my whole bloody gear was gone.
+%%rm
+%%bf 3.
+%%rm As I was walking down the street
+%%rm I met big Rapper Brown
+%%rm I asked him if he would take me in
+%%rm And he looked at me with a frown
+%%rm He said last time you was paid off
+%%rm With me you chalked-up no score
+%%rm But I'll take your advance 
+%%rm     and I'll give youse a chance
+%%rm To go to sea once more.
+%%rm
+%%it Once more, once more, to go to sea once more
+%%it I'll take your advance 
+%%it      and I'll give youse a chance
+%%it To go to sea once more.
+%%newpage
+%%rm
+%%bf 4. 
+%%rm He shipped me aboard of a whaling ship
+%%rm Bound for the Arctic seas
+%%rm Where cold winds blow 
+%%rm       and there's frost and snow
+%%rm And Jamaica rum would freeze
+%%rm And worse to bear I'd no hardweather gear
+%%rm For I'd lost all my dunnage ashore
+%%rm It was then that I wished that I was dead
+%%rm So I'd go to sea no more.
+%%rm
+%%it No more, no more, I'd go to sea no more
+%%it It was then that I wished that I was dead
+%%it So I'd go to sea no more.
+%%rm
+%%bf 5.
+%%rm Sometimes we're catching whales my lads
+%%rm But mostly we get none
+%%rm With a twenty-foot oar in every paw
+%%rm From five o'clock in the morn'
+%%rm And when daylight's gone 
+%%rm     and the night coming on
+%%rm You rest upon your oar
+%%rm And oh boys you wish that you was dead
+%%rm Or snug with the girls ashore.
+%%rm
+%%it Ashore, ashore, snug with the girls ashore
+%%it Oh boys you wish that you was dead
+%%it Or snug with the girls ashore.
+%%rm
+%%bf 6.
+%%rm Come all you seafaring lads
+%%rm That listen to my song
+%%rm When you go a-big-boating boys
+%%rm I'll have you not go wrong
+%%rm You take my tip when you come off a trip
+%%rm Don't go with any whore
+%%rm But get married instead 
+%%rm     and have all night in bed
+%%rm And go to sea no more.
+%%rm
+%%it No more, no more, don't go to sea no more
+%%it Get married my lads and have all night in bed
+%%it And go to sea no more.
+%%newpage
+%%rm             TRADUCTION FRANAISE
+%%rm
+%%rm
+%%textrmfont     Courier 16
+%%textitfont     Courier-Oblique 16
+%%textbffont     Courier-Bold 16
+%%rm La premire fois que j'ai dbarqu  Liverpool
+%%rm Je suis parti en borde
+%%rm Tant que l'argent a dur je l'ai vite dpens
+%%rm Je me suis saol autant que j'ai pu
+%%rm Mais avant que tous mes sous soient partis
+%%rm En gnle et en putes
+%%rm J'ai pris la dcision 
+%%rm De ne plus jamais prendre la mer
+%%rm
+%%it Plus jamais, plus jamais, 
+%%it Plus jamais prendre la mer
+%%it J'ai pris la dcision
+%%it De ne plus jamais prendre la mer.
+%%rm
+%%rm Tout en me promenant dans la rue
+%%rm J'ai rencontr Angeline
+%%rm Elle dit viens chez moi mon gars
+%%rm On va se prendre du bon temps
+%%rm Mais au rveil c'tait pas drle
+%%rm Je me suis retrouv tout seul
+%%rm Ma montre en argent, mon fric
+%%rm Et tout mon foutu sac taient partis
+%%rm
+%%it Parti, parti, tout mon foutu sac tait parti,
+%%it Au rveil c'tait pas drle, 
+%%it Tout mon foutu sac tait parti.
+%%rm
+%%rm Tout en me promenant dans la rue
+%%rm J'ai rencontr le gros Rapper Brown
+%%rm Je lui ai demand s'il voulait me prendre
+%%rm Et il m'a regard en fronant les sourcils
+%%rm Il dit la dernire fois que tu as t pay
+%%rm Tu n'as pas fait d'ardoise chez moi
+%%rm Mais je vais prendre ton avance 
+%%rm                    et te donner une chance
+%%rm De reprendre la mer encore une fois
+%%rm
+%%it Encore une fois, encore une fois,
+%%it Encore une fois prendre la mer
+%%it Je vais prendre ton avance et te donner une chance
+%%it De prendre la mer encore une fois.
+%%newpage
+%%rm
+%%rm Il m'a embarqu sur un baleinier
+%%rm En partance pour les mers arctiques
+%%rm O soufflent les vents froids et la neige
+%%rm Et la glace ferait geler le rhum de la Jamaique
+%%rm Et ce qui est pis je n'avais pas de vtements
+%%rm                                 pour le gros temps 
+%%rm Car j'avais perdu toutes mes affaires  terre
+%%rm Et l je souhaitais tre mort pour ne plus prendre la mer.
+%%rm
+%%it Plus jamais, plus jamais, 
+%%it Plus jamais reprendre la mer
+%%it Et l je souhaitais tre mort 
+%%it Pour ne plus jamais reprendre la mer.
+%%rm
+%%rm Des fois on attrape des baleines les gars
+%%rm Mais la plupart du temps gure
+%%rm Avec un aviron de vingt pieds dans chaque pogne
+%%rm Ds cinq heures du matin
+%%rm Et quand le jour s'en va et que la nuit vient
+%%rm On se repose sur son aviron
+%%rm Oh sr les gars qu'on souhaite tre mort
+%%rm Ou bien au chaud avec une fille  terre
+%%rm
+%%it A terre,  terre, 
+%%it Bien au chaud avec une fille  terre,
+%%it Oh sr les gars qu'on souhaite tre mort
+%%it Ou bien au chaud avec une fille  terre.
+%%rm
+%%rm Venez tous braves marins qui coutez ma chanson
+%%rm Quand vous partez sur des grands navires les gars
+%%rm Je vous conseille de bien vous tenir
+%%rm Croyez-moi au retour de campagne
+%%rm N'allez pas avec ces putains, 
+%%rm Mais plutt mariez-vous pour passer toute la nuit au lit
+%%rm Et ne plus jamais reprendre la mer.
+%%rm
+%%it Plus jamais, plus jamais, 
+%%it Plus jamais reprendre la mer,
+%%it Mariez-vous les gars pour passer toute la nuit au lit
+%%it Et ne reprenez plus jamais la mer.
+S:https://www.folktunefinder.com/tunes/147598
+S:http://termen.free.fr/danses/chants/ChantdemarinsOfftoseaoncemore.abc
+S:http://termen.free.fr/danses/termen/ChantdemarinsOfftoseaoncemore.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

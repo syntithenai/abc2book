@@ -1,0 +1,30 @@
+X:1
+%abctab2ps format
+%
+%%titlefont Times-Roman 18
+T:Der Ratten schwanz
+T:Diskantes
+C:Glogauer Liederbuch, Number 113
+Z:ABC transcription by Leonard Williams, arckon@dejazzd.com
+M:C|
+L:1/1
+N:(1)The incipit in Das Erbe Deutscher Musik has the top line note values halved relative to the other lines.  
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on  second line
+K:D dor
+E3/2 D//C// B,B,CCG2A3/2 G//F// E2DG2^FG2zcBGABcBAG
+EFGFF/ E/ E2DE4E2z2z3cc>BAGA>GF E/G/
+F/E/ D>^C C/B,/D2z2AGcBedcBBA2^GAEFED2zA
+G/E/ FEDGF E/D/C/B,/A,D2^CHD4|]
+%
+S:https://www.folktunefinder.com/tunes/149652
+S:http://www.laymusic.org/music/glogauer/113/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

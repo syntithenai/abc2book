@@ -1,0 +1,28 @@
+X: 1
+T: the Clackmannan Lilt
+C: Bert Murray MCPS
+R: shottish
+M: C
+L: 1/8
+K: Bb
+^c \
+|: "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "Cm"E>G c>E "Bb"D>F B>d | "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3ecA (3FGA "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+|: "F7"A>B c>d e>c A>G | "Bb"(3FBd (3fga b>f d>B \
+|  "Eb"e>g c>e "Bb"d>f B>d ||[1 "F7"c>f a>g f>e d>c ||[2 "C7"(3cdc (3BAG "F7"(3FAc (3edc ||
+|  "Bb"d/^c/d =c>d c>B F>D | "Eb"(3EGB (3BGE "Bb"D>F B,>D \
+|  "F7"(3EDE F>A "Bb"B>d f>b | "F7"(3agf (3edc "Bb"B2- {cBAB}B2 :|
+S:https://www.folktunefinder.com/tunes/148458
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/shottish/ClackmannanLilt_Bb.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/shottish/ClackmannanLilt_Bb.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

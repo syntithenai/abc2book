@@ -1,0 +1,49 @@
+X:1
+T:Chant de marins : Satanicls
+E:12 
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad. 
+S:   
+A:Bretagne
+Q:1/4=120
+M:2/4
+L:1/8
+K:G
+cd e>e | ee e2 | ee d>d | dd d2 | dd c>c | cc c2 | \
+cc B>A | GB A2 | EE A>A | Ac B2 | BB cc | BA B2 | \
+BB cA | AA (G2 | G2 G) G | AB c>A | AG A2 |]
+%%rm
+%%rm  1. D'o viens-tu oiseau de mer 
+%%rm     J'arrive d'une grande le
+%%rm     Vous annoncer que la terre
+%%rm     Est proche de quelques milles.
+%%rm
+%%it     Matelot le vent est bon,
+%%it     La cambuse pleine de jambon,
+%%it     Avons t si longtemps ...
+%%it      sec de toile dans le gros temps.
+%%rm
+%%rm  2. Est-ce vous capitaine Troude
+%%rm     Qui vous posez sur le pont
+%%rm     Lorsque s'corchent nos coudes
+%%rm     Au bois du mt d'artimon.
+%%rm
+%%rm  3. Et me reconnaissez-vous
+%%rm     Cap'taine Troude moi qui de vous
+%%rm     Ai pris cent coups de bton
+%%rm      charge de punition.
+%%rm
+%%rm  4. Dites-nous que terre est proche
+%%rm     Et que les vents sont portants
+%%rm     Sonne l'heure de la bamboche
+%%rm     Attendue de si long temps.
+S:https://www.folktunefinder.com/tunes/147604
+S:http://termen.free.fr/danses/chants/ChantdemarinsSatanicles.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

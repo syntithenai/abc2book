@@ -1,0 +1,26 @@
+X: 1
+T:Connautman's Ramble, The
+M:6/8
+L:1/8
+Q:180
+C:Traditional
+S:OO 218
+R:Jig
+N:Third in set with "Black Nag" and "Saddle The Pony"
+K:Bm
+|:"D"FAA dAA|"D"BAA dAG|"D"FAA dfe|"Bm"dBB BAG|!
+"D"FAA dAA|"D"BAA def|"G"gfe "D"dfe|1"Bm"dBB BAG:||2"Bm"dBB B2e|!
+|:"Bm"fbb faa|"Bm"fef def|"Bm"fbb faa|"A"fed e3|!
+"Bm"fbb afe|"Bm"dBc def|"G" gfe "D"dfe|1"Bm"dBB B2e:|2"Bm"dBB BAG|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/149423
+S:http://www.blackflute.com/music/tunes/jigs/conman.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:813
+T:Cooley's
+C:anon.
+H: http://home.istar.ca/~rickerc/tunes/net7.abc
+R:Reel
+Z:Boston
+F:http://abc.musicaviva.com/tunes/anon/cooleys/cooleys-1.abc
+%Posted 16 Jun 1999 at ABC-users by Thomas Keays as an example of
+%the H: field
+M:C|
+L:1/8
+K:Edor
+D|EBBA B2 EB|B2 AB dBAG|(3FED AD BDAG|(3FED FA dAFD|
+EBBAB2 EB|B2 AB defg|afec dBAF|DEFD E3:|
+gf|eB ~B2 efgf|eB ~B2 gedB|A2 FA DAFA|~A2 FA defg|
+eB~B2 efgf|eB ~B2 defg|afec dBAF|DEFD E2:|
+H: http://home.istar.ca/~rickerc/tunes/net7.abc
+H: 1999-06-16 13:17:49 UT
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/149724
+S:http://abc.musicaviva.com/tunes/anon/cooleys/cooleys-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/cooleys/cooleys-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/cooleys/cooleys-1.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

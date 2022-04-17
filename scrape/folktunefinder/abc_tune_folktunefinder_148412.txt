@@ -1,0 +1,31 @@
+X: 1
+T: Circassian Circle
+M: C|
+Q: 160
+C: &quot;A Hornpipe&quot;
+S: Wm Irwin, Folio MS, c1850. AGG's Transcription
+R: Hornpipe
+O: England
+A: Lake District
+Z: vmp.Chris Partington.2005
+F:http://www.village-music-project.org.uk/abc/IRWIN.ABC 2007-09-26 01:44:28 UT
+K: Bbmaj
+dc|B<Fdc B2dc|B<Fdc B2ed|c<Fed c2ed|c<Fed cdcB|
+B<Fdc B2dc|B<Fdc BcdB|cded cFGA|B2d2B2:|
+|:fe|dBfe d2fe|dfga bfed|cFed c2ed|cdcB Agfe|
+dBfe d2fe|dfga bfed|cdcB AFGA|B2d2B2:|
+S:https://www.folktunefinder.com/tunes/148412
+S:http://www.village-music-project.org.uk/abc/IRWIN.ABC
+S:http://www.thesession.org/tunes/display/7765
+% Rhythm Hornpipe
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

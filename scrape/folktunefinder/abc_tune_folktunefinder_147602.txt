@@ -1,0 +1,50 @@
+X:1
+T:Chant de marins : Roulez, jeunes gens roulez
+E:12 
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad. 
+S:   
+A:Bretagne
+Q:1/4=100
+M:4/4
+L:1/8
+K:G
+DE/F/ GG GG G2|A2 AG/F/ EF G2 :| \
+AA/A/ AB GB AB | GB AB/A/ G B A2 |:\
+B>A GF EF GG | B>A GF EF G2 :|
+%%rm
+%%rm  1.  la Rochelle est arriv,           ]
+%%it     Roulez jeunes gens roulez           ] bis
+%%rm     Trois beaux navires chargs de bl,
+%%it     Roulez roulez, jeunes gens roulez,
+%%it     J'ai mis l'oiseau dans la cage      ]
+%%it     Mais l'oiseau s'est envol          ] bis
+%%rm
+%%rm  2. Trois dames s'en vont les marchander
+%%rm     Marin, marin, combien ton bl 
+%%rm
+%%rm  3. Embarquez belle vous le saurez
+%%rm     La plus jeune eut le pied lev
+%%rm
+%%rm  4. Le capitaine s'est cri :
+%%rm     Larguez devant, larguez derrire
+%%rm
+%%rm  5. Larguez les focs les voiles d'tais
+%%rm     La belle s'est mise  pleurer
+%%rm
+%%rm  6. Qu'avez-vous donc la belle  pleurer
+%%rm     Vous avez eu mon pucelage
+%%rm
+%%rm  7. Vous avez eu mon pucelage
+%%rm     Mais je n'ai pas eu votre argent
+S:https://www.folktunefinder.com/tunes/147602
+S:http://termen.free.fr/danses/chants/ChantdemarinsRoulezjeunesgensroulez.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

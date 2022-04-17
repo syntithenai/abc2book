@@ -1,0 +1,25 @@
+X:1713
+T:Corney Drew's Hornpipe
+M:2/4
+L:1/16
+N:"collected by Hartnett"
+B:O'Neill's 1713
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+   ((3DEF) | G2GF GABd | e2de gedB |     edef   gedB | AGAB     AcBA   |
+             G2GF GABd | e2de gedB |     egde   BdAB | G2GG      G2   :|
+|: ((3def) | g2fg a2ga | bgaf gfed |     cBcd   agfe | d^cde d2((3def) |
+             g2fg a2ga | bgaf gfed | ((3efg) de BdAB | G2GG      G2   :|
+S:https://www.folktunefinder.com/tunes/149852
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1713_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

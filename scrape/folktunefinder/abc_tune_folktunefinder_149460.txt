@@ -1,0 +1,26 @@
+X:0794
+T:"Connie The Soldier" (jig)      0794
+C: after  Chief  F. O'Neill.
+N:Added anacrucis to preserve (jig) scanscion:  probably typesetting error.
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+D|EAA A2d|cAG EFD|DGG DEE|DGG GED|
+EAA A2d|cAG EFD|EFG AGE|EDD D2:|
+|:(d/2e/2)|fdd ede|fdd d2e|fed ded|cAA A2(d/2e/2)|
+fdd ede|fed A2G|DFG AGE|EDD D2:|
+S:https://www.folktunefinder.com/tunes/149460
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0794-ConnietheSoldier.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0794-ConnietheSoldier.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0794-ConnietheSoldier.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

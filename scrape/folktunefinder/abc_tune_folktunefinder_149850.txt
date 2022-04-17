@@ -1,0 +1,26 @@
+X:1713
+T:"Corney Drew's Hornpipe"        1713
+C:after Mr. Hartnett
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+"_vb"(3(DEF)|G2GF GABd|e2de gedB|edef gedB|AGAB AcBA|
+G2GF GABd|e2de gedB|egde BdAB|G2GG G2:|
+|: (3(def)|g2fg a2ga|bgaf gfed|cBcd agfe|d^cde d2  (3(def)|
+g2fg a2ga|bgaf gfed| (3(efg) de BdAB|G2GG G2:|
+S:https://www.folktunefinder.com/tunes/149850
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1713-CorneyDrews.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-1701-1800/1713-CorneyDrews.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

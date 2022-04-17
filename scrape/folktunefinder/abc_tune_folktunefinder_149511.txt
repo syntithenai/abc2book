@@ -1,0 +1,29 @@
+X:1
+T:Constant Billy
+M:6/8
+C:
+S:Kathryn Johnston
+N:
+A:Adderbury
+O:English
+R:Jig
+%P:A(AB)$^6$
+P:A(AB)6
+%:
+%:
+K:G
+I:speed 300
+P:A
+|: D | G2   d           B<GB      | c2   A    F   D2 |\
+S:https://www.folktunefinder.com/tunes/149511
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/constbil.kjG.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Adderbury/constbil.kjG.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Adderbury/constbil.kjG.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

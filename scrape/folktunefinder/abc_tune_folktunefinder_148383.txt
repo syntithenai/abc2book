@@ -1,0 +1,20 @@
+X:4
+T:De que faran 
+C:Trad.
+O:France
+M:3/8 
+L:1/8
+Q:
+K:Cm 
+V:1
+"Cm"c | "Cm"e2e | "G7"d2G | "Cm"c/=B/ cd | "Cm"ed c |"Cm"e2e | "G7"d2G | "Cm"c/d/ ed | "Cm"c2 ::
+"Cm"c | "G7"G2c | "G7"=B2G | "Cm"c/=B/ cd | "Cm"ed c | "G7"G2c | "G7"=B2G | "Cm"c/d/ ed | "Cm"c2 :|
+S:https://www.folktunefinder.com/tunes/148383
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

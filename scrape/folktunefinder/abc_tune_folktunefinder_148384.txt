@@ -1,0 +1,22 @@
+X:5
+T:La Laguiolaise
+C:Trad.
+O:France:
+A:Auvergne
+M:3/8
+L:1/8
+Q:
+K:C
+e2g | e2g | fda | g2 e/f/ | g g/a/g/f/ | ece |1 d/e/fe | d3 :|2 d/e/f/d/B/d/ | c2B/c/ ||
+ddc/d/ | eed/e/ | fed | g2e | g3/a/g/f/ | ece | d/e/fe | d2B/c/ | 
+ddc/d/ | eed/e/ | fed | g2e | g3/a/g/f/ | ece | d/e/f/d/B/d/ | c3 :|
+S:https://www.folktunefinder.com/tunes/148384
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

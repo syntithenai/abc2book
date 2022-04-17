@@ -1,0 +1,81 @@
+X:1
+T:Chant de marins : Chantons la Loire et les mariniers
+E:12
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:
+Q:3/8=160
+M:6/8
+L:1/8
+K:G
+D | G2 A B2 c | B2 A G2 G | B2 c ded | B2 c d3 |\
+BAB e2 d | d2 c B2 A | B2 c d2- c | B6 |\
+D3 G3 | A3 BAB | e2 d d2 B | d2 c | A3 G3- | G2 z z3 |]
+%%rm
+%%bf  1. Solo : 
+%%rm     Tout au long de la Loire angevine,
+%%rm     Y avait aut'fois une marine
+%%bf     Tous :
+%%rm     Qu'avait bonne allure et bonne mine 
+%%it     d'Nantes  Briare!
+%%it     Chantons la Loire et les mariniers
+%%it     Et les gabares !
+%%rm
+%%rm  2. C'tait si beau dans l'paysage,
+%%rm     D'voir s'avancer les quipages
+%%rm     Toutes voiles au vent en grand am'nage
+%%rm
+%%rm  3. Tout seul devant, boutait le toutier, 
+%%rm     Un gs qui savait son mtier
+%%rm     Afin de baliser l'chantier
+%%rm
+%%rm  4. Lui faisant suite, y avait l'tireau, 
+%%rm     Avec en son mitan l'varneau
+%%rm     Pour loger les gs des bateaux
+%%rm
+%%rm  5. Le chaland, sa voile de vingt mtres, 
+%%rm     Son grand mt, le guirou en tte
+%%rm      l'arrire la cabane du Matr'
+%%rm
+%%rm  6. L-dessus, rien qu'des gs dgourdis, 
+%%rm     Qu'taient chalandous de pre en fils
+%%rm     Vivant sur l'eau comme des courlis
+%%newpage
+%%rm
+%%rm
+%%rm  7. Car c'tait rien qu'd'avoir des bras, 
+%%rm     Pour manier la bourde ou l'gourns
+%%rm     Ou bien pour virer au ginds
+%%rm
+%%rm  8. Mais c'tait quand mme une belle vie :
+%%rm     Y avait du mal, mais des frairies
+%%rm     L'paysans leur portaient envie
+%%rm
+%%rm  9. Un jour des Messieurs bien r'marquables,
+%%rm     Sont v'nus, qu'ont dit : "Y a trop de sable
+%%rm     On va rendre la Loire navigable"
+%%rm
+%%rm 10. Et de c'jour-l a fut plus beau : 
+%%rm     Y a-t-eu bien plus de sable que d'eau
+%%rm     Et plus une place pour les bateaux
+%%rm
+%%rm 11. Les jeunes sont partis faire aut'chose, 
+%%rm     Tireurs de sable, pcheurs d'aloses
+%%rm     Ou "ptroliers" chez les "big boss" ...
+%%rm
+%%rm 12. Les auberges ont ferm leurs portes,
+%%rm     Et notre Loire qui plus rien n'porte, 
+%%rm     Est vide  c't'heure comme une bore morte.
+S:https://www.folktunefinder.com/tunes/147581
+S:http://termen.free.fr/danses/chants/ChantdemarinsChantonslaLoireetlesmariniers.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

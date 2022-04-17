@@ -1,0 +1,62 @@
+X:1777
+T:Komm, lieber Mai
+T:(Come sweet may) k 596
+C:Wolfgang Amadeus Mozart
+R:Lied
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k596/mozart-k596-pno1.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:6/8
+L: 1/8
+Q:1/4=96
+K:F
+V:1 
+F|F2A c2f|c3-cAF|[B2E2-][BE-][BE-][cE-][BE]|[A3F3] z2F| 
+V:2 
+z|F,A,C F,A,C|F,A,C F,A,C|C,G,C C,G,C|F,A,C F,A,C| 
+% 
+V:1 
+F2A c2f|c3-cAF|[G2E2-][GE-] [GE-][AE-][GE]|F3 z2A| 
+V:2 
+F,A,C F,A,C|F,A,C F,A,C|C,B,C C,B,C|F,A,C F,A,C| 
+% 
+V:1 
+B2^F GA B|c2A fz f|fed dc=B|c3 z2F| 
+V:2 
+G,B,C E,G,C|F,A,C F,A,D|G,=B,D G,DF|[EC]DC B,A,G,| 
+% 
+V:1 
+F2A c2f|fdB G2d|cAc {c}BAG|F2.c dc.c| 
+V:2 
+F,A,C F,A,C|B,,D,G, B,,D,G,|C,F,A, C,E,B,|F,A,C E,G,B,| 
+% 
+V:1 
+=Bc.c .c.d.e|.f z .c' {e'}d'c'.c'|{c'}=bc'.a c'_b.g|fca f z|] 
+V:2 
+F,A,C G,B,C|F,A,C E,G,B,|F,A,C C,E,B,|[A,2F,2-][CF,] [A,F,] z|]
+W:
+W:Komm, lieber Mai, und mache die B\"aume wieder gr\"un,
+W:und la\ss uns an dem Bache die kleinen Veilchen Bl\"uhn!
+W:Wie m\"ocht ich doch so gerne ein Veilchen wieder sehn,
+W:ach, lieber Mai, wie gerne einmal spazieren gehn!
+W:
+W:Ach wenn's doch erst gelinder un w\"armer drau\ssen w\"ar!
+W:Komm, lieber Mai, wir Kinder, wir bitten dich gar sehr!
+W:O komm und bring vor allem uns viele Veilchen mit,
+W:bring auch viel Nachtigallen un sch\"one Kukkucks mit.
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/149156
+S:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k596/mozart-k596-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/mozart-wolfgang-amadeus/mozart-k596/mozart-k596-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k596/mozart-k596-pno1.abc
+% Rhythm Lied
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

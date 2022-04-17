@@ -1,0 +1,32 @@
+X:1
+T:Valse Isralienne
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:
+K:G
+T:Thme
+M:3/4
+L:1/16
+K:G
+"Em"B4 B2c2 B2G2 | B4 B2c2 B2G2 | B4 A4 G4 |
+"D"F8 D4 | A4 A2B2 A2F2 | A4 A2B2 A2F2 | A4 "G"G4 "D"F4 |
+"Em"E8 E4 :: E4 G4 B4 | "C"e8 e4 | g4 "G"f4 e4 |
+B8 B4 | d4 c4 A4 | "D"F8 F4 |1 A4 "G"G4 "D"A4 |
+"Em"B4 G4 E4 :|2 "D"A4 "G"G4 "D"F4 | "Em"E8 E4 |]
+T:Contrechant
+"Am"E4 A4 B4 | c8 c2c2 | c4 B4 A4 | "Em"[E12e12] | E4 B4 c4 |
+d8 d2d2 | d4 c4 B4 | "Am"[E12A12] :: A2B2 c2d2 e4 |
+"F"[f8a8] [f2a2] [f2a2] | [f4a4] [e4g4] [d4f4] | "C"[c8e8]
+[c2e2] [c2e2] | [c4e4] d4 c4 | "Em"[B8E12] B4 |1
+[B4)E12] c4 d4 | "Am"[c12e12] :|2
+"Em"[E4B4] "Am"A4 "Em"^G4 | "Am"[E12A12] |]
+S:https://www.folktunefinder.com/tunes/149673
+S:http://termen.free.fr/danses/valses/ValseIsraelienne.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

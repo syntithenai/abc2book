@@ -1,0 +1,19 @@
+X: 1
+T: Maisy
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+|: gfd ABG | FGA BGG | DGG EGG | DCB, A,B,D |
+gfd ABG | FGA BGG | dcB cAG |[1 FDF GBd :|[2 FDF G2 D ||
+|: EBE cEB | dcB cBA | EBE cEB | DFD ADd | 
+EBE cEB | dcB cdc | Bdf gdB |[1 AGA BGD :|[2 AGA Bdf |]
+S:https://www.folktunefinder.com/tunes/147810
+S:http://www.thesession.org/tunes/display/8717
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

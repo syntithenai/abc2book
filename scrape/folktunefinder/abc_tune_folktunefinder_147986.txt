@@ -1,0 +1,36 @@
+X:397
+T:Chevaliers de la table ronde
+C:anon.
+O:France
+R:Chanson, drinking song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/france/chevaliers-de-la-ronde/chevaliers-de-la-ronde.abc
+%Note: the combination of upbeats and measure changes in this tune
+%might cause problems for some ABC programs. BarFly gives error
+%warnings, but manages both to play and display it correctly. I have
+%not tried to run the tune through other programs.
+M:3/4
+L:1/8
+K:F
+C F|"F"F2 F A A c|"F"c2 A2 A A|"C"G2 C G G G|"F"F3 z ::c c|
+w:Che- va- liers de la ta- ble ron- de, Go\^u- tons voir si le vin est bon. Go\^u- tons
+M:2/4
+L:1/8
+"Bb"d2 B B|"Bb"B2 d d|"F"c2 A A|"F"A2 c c|
+w:voir, oui, oui, oui, go\^u- tons voir, non, non, non Go\^u- tons
+M:3/4
+L:1/8
+"C7"B2 G c c c|[1"F"A2 z2:|[2"F"F2 z2|]
+S:https://www.folktunefinder.com/tunes/147986
+S:http://abc.musicaviva.com/tunes/france/chevaliers-de-la-ronde/chevaliers-de-la-ronde.abc
+S:http://abc.musicaviva.com/tunes/france/chevaliers-de-la-ronde/chevaliers-de-la-ronde.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/france/chevaliers-de-la-ronde/chevaliers-de-la-ronde.abc
+% Rhythm Chanson, drinking song
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

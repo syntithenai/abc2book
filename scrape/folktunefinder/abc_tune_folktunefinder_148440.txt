@@ -1,0 +1,29 @@
+X: 1
+T:City Life -- Clog
+M:C|
+L:1/8
+R:clog
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+K:F
+u(A>.B)|({d}c>.=B)(c>.d) "SEGUE"c>fa>f|e>db>a (3gag(3fed|\
+c>=Bc>d c>AF>A|G>c=B>d c>AB>=B|\
+{d}c>=Bc>d c>fa>f|e>db>a (3gag (3fed|\
+c>fa>f e>bg>e|f2(3gfe f2H:|
+|:u(e>.f)|{a}(g>.^f)"SEGUE"g>a b>ge>c|{g}=f>ef>g a>fc>A|\
+(3bbb(3aaa (3ggg(3fff|(3gag(3fed c2 (e.f)|\
+{a}(g>^f)g>a b>ge>c|{g}=f>ef>g a>fc>A|\
+(3bbb(3aaa (3ggg(3fff|g>cd>e f2:|
+S:https://www.folktunefinder.com/tunes/148440
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/ray:davies99.freeserve.co.uk/CityLifeClog.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CityLifeClog.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/ray%3Adavies99.freeserve.co.uk/CityLifeClog.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CityLifeClog.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

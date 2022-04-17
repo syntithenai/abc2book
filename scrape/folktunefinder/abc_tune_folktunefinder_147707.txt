@@ -1,0 +1,29 @@
+X:7
+T:Cross the Fence
+R:hornpipe
+C:Brendan McGlinchy
+N:Brendan's fiddle setting uses the G string
+D:Double Barrelled, John Skelton & Kieran O'Hare
+N:played on Bb whistles using G fingering
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+M:C
+K:G
+z2|BABG cBcA|d2 (3(gfe) dBGB|c3 d BGDB|(3(cBA) BG AGDF|
+GDBD GABc|d2 ge dBGB|dg (3(Bcd) ecAF|AGGF G2:|
+|:AG|(3(FED) AD FGAc|BGFG DGBg|ec{d}ce dB{d}Bd|A2 ag fdcA|
+DB ~B2 DcBc|d^cde dBGB|dg (3(Bcd) ecAF|AGGF G2:|
+|:z2|dg{a}gf g2 bg|~g2 bg agfg|ea{b}ag abag|(3(fga) e^c d3 z| 
+(3(Bcd) BG (3(ABc) AF|GDBD GABc|dg (3(Bcd) ecAF|AGGF G2:|
+S:https://www.folktunefinder.com/tunes/147707
+S:http://cranfordpub.com/tunes/abcs/OHareSkelton.abc
+S:http://www.cranfordpub.com/tunes/abcs/OHareSkelton.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

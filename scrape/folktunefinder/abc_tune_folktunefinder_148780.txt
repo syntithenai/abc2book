@@ -1,0 +1,24 @@
+X: 030749
+T: Cobbler's
+M: 6/8
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+R: jig
+K: D
+A | DFA B2 A | def g2 e | fdf ecA | BdB AFE |
+DFA B2 A | def g2 e | fdf ecA | Bdc d2 :|
+e | fad fad | faa agf | eg=c egc | egg gfe |
+fef gfg | agf efg | fed cAG | Adc d2 :|
+S:https://www.folktunefinder.com/tunes/148780
+S:http://www.qmcorp.net/webabc/c/030749.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

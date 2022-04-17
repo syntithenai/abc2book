@@ -1,0 +1,30 @@
+X:6
+T:Hlas, Olivier Vasselin
+C:Manuscript de Bayeux
+C:Arrangement : Michel Falze
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+K:Am
+V:1
+C'4 D'3D' | E'3D' D'2B2 | A4 A'E'E'^F' | G'3A' G'>A' G'F' | E'2D'2C'4 | C'4 D'3D' | E'3D' D'2B2 | A8 |:
+A'3G'/^F'/ E'2E'>F' | G'>A' G'>A' G'2=F'2 | E'2D'2C'4 | D'2D'D' E'3F' | E'3D' D'2B2 | A8 |]
+V:2
+G4 A3A | B3A A2F2 | E4 eBB^c | d3e d>e d^c | B2A2G4 | G4 A3A | B3A A2F2 | E8 |:
+e3d/^c/ B2 B>c | d>ec>e d2c2 | B2A2G4 | A2AA B3c | B3A A2F2 | E8 |]
+V:3
+C,4D,4 | E,4 D,4 | A,,8 | G,,8 | E,,4 C,,4 | C,4 D,4 | E,4 D,4 | A,,8 |:
+A,,4 E,,4 | G,,4 G,,4 | E,,4 C,4 | D,4 E,4 | E,4 D,4 | F,,4 A,,,4 |]
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/147567
+S:http://michel.bellon.free.fr/Musique/abc/ManuscriptdeBayeux.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ManuscriptdeBayeux.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

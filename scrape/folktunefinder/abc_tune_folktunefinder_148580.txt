@@ -1,0 +1,20 @@
+X:11
+T:One Too Many
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+"Am" A2 A e2 e | "G" dcB "Am" A2 E | "Am" ABc "G" BAG | "Am" ABc "E" e2 ^d |
+"Am" A2 A e2 e | "G" dcB "Am" A2 E | "Am" ABc "G" BAG | "Am" ~A3 A3 :|
+"Am" e2 e a2 a | "G" gfe d2 A | "D" def gfe | "G" ~g3 g3 |
+"Am" e2 e a2 a | "G" gfe d2 d | "Am" ABc "G" BAG | "Am" ~A3 A3 :|
+S:https://www.folktunefinder.com/tunes/148580
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

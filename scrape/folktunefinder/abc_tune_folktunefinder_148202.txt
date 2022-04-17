@@ -1,0 +1,24 @@
+X: 1
+P: Chorus Jig
+O: Trad New England
+R: reel
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: This tune is a mixture of D major, D mixolydian and G major.
+M: C|
+L: 1/8
+K: EMix
+"A"|: BA | "E"G2EG BcBA |     GBEG     B2e2  |    E2EG BcBA | "B7"AGFG    A2  :|
+"B"[| cd | "A"ecdB cAGA | "E7"Be^de    B2c=d | "A"ecdB cAGA | "E7"BdcB "A"A2cd |
+         | "A"ecdB cAGA |  "D"Bcde     fgaf  | "A"ecdB cAGA | "E7"BdcB "A"A2  |]
+"C"|: ba | "E"gee2 gee2 |     gega "B7"bc'ba | "E"gee2 gee2 | "D"f=dfg    a2  :|
+P: Play ABCB
+S:https://www.folktunefinder.com/tunes/148202
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/KR11_B.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X: 1
+T: La Citternalia
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|: A B>c |
+d>A F>A d>c | d>A F>A B>A | c>A ^G>A B>A | G3 A B>=c |
+c>A ^G>A B>A | c>A ^G>A B>c |1 d>A F>A E>C | D3 :|
+2 d>f e>g c>e | d3 ||
+|: A B>c | 
+d2 f>=f ^f>e | d>A F>A F>D | g2 g>f g>e | c3 A ^G>A |
+g2 g>f g>e |1 c>A ^G>A =G>E | D>E F>G ^G>A | d3:|
+2 c>a ^g>a =g>e | d2 A2 F2 | D4 ||
+|: (3ABc | 
+d>A F>A (3dcd | d>A (3FGA BA | (3cBA ^G>A (3cBA | G4 (3AB=c |
+c>A (3G^GA B>A | c>A (3G^GA (3cec |1 d>A (3FDF (3ECE | D4 :|
+2 (3dfe (3gec (3gec | d4 ||
+|: (3ABc |
+(3dcd f>=f (3^fef | (3dcd A>F (3DFA | (3gag (3fgf (3ecA | G3 A ^G>A |
+(3gag g>f (3gfe |1 (3cBA ^G>A (3=GFE | D>E (3FG^G B>A | d4 :|
+2 (3ca^g (3a=ge (3cde | (3ded (3cBA (3GFE | D3 ||
+S:https://www.folktunefinder.com/tunes/148438
+S:http://www.thesession.org/tunes/display/4144
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

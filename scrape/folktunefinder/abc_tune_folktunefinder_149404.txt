@@ -1,0 +1,21 @@
+X:12
+T:The Rose in the Heather
+R:jig
+M:6/8
+L:1/8
+K:D
+"D" ~F2 F  "A" EFE | "D" DFA BAF | "G" ABd     ede | "A" fdB   AFE |
+"D" D2 F  "A" EDB, | "D" DFA BAF | "G" AdB "A" AFE |1 "D" FDD   D3 :|2 "D" FDD D2 d ||
+|: "D" fdB "A" ABd | "D" faa afd | "G" ~g3     fed | "A" Bee   ede | 
+   "D" fdB "A" ABd | "D" faa afa | "G" baf "A" gfe |1 "D" fdd d2 e :|2 "D" fdB "A" AFE |]
+S:https://www.folktunefinder.com/tunes/149404
+S:http://www.slowplayers.org/CKSP/Music/CK_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

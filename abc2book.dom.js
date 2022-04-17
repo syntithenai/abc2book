@@ -1,3 +1,21 @@
+
+function preventClickThrough() {
+  $('#sessionsearchbutton').click(function(e) {
+    e.stopPropagation()
+    return false
+  })
+   $('.wrong_tune_input').click(function(e) {
+    e.stopPropagation()
+  })
+   $('.wrong_abc_input').click(function(e) {
+    e.stopPropagation()
+  })
+   $('.overlay').click(function(e) {
+    e.stopPropagation()
+  })
+}
+
+
 function domInit() {
     if (window.mobileAndTabletCheck()) {
     $("#pagewrapper").addClass('is_mobile')
@@ -78,16 +96,7 @@ function domInit() {
      $('#musicsearchfilter').focus()
    })
        
-  $('#sessionsearchbutton').click(function(e) {
-    e.stopPropagation()
-    return false
-  })
-   $('.wrong_tune_input').click(function(e) {
-    e.stopPropagation()
-  })
-   $('.wrong_abc_input').click(function(e) {
-    e.stopPropagation()
-  })
+  preventClickThrough() 
    $('#showwizardsbutton').click(function(e) {
      console.log('#showwizardsbutton')
     e.stopPropagation()
@@ -116,9 +125,7 @@ function domInit() {
   })  
   
   
-  $('.overlay').click(function(e) {
-    e.stopPropagation()
-  })
+ 
   $('#openabcbutton').click(function(e) {
       console.log('OPEN ABC')
       generateAbcFromTunes()
@@ -222,4 +229,129 @@ function domInit() {
   };
 
   
+}
+
+
+
+function scrollTo(id) {
+    var element = document.getElementById(id);
+  //console.log('scroll to '+id,element)
+    var headerOffset = 60;
+    var elementPosition = element.offsetTop;
+    var offsetPosition = elementPosition - headerOffset;
+    document.documentElement.scrollTop = offsetPosition;
+    document.body.scrollTop = offsetPosition; // For Safari
+}
+
+
+
+
+function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+}
+
+function printPage() {
+  filterMusicList('')
+  $('#musicsearchfilter').val()
+  $('#indexes').show()
+  $('#music').show()
+  $('#cheatsheet_music_container').show()
+  $('#songlistmanager').show()
+  window.print()
+}
+function showTuneControls() {
+    $("#stopbutton").hide()
+    $("#generatebutton").show()
+    $('#downloadbutton').show()
+    $('#printbutton').show()
+    $('#cheatsheetbutton').show()
+    $('#indexbutton').show()
+    $('#playallbutton').show()
+    $('#tempo').show()
+}
+function hideTuneControls() {
+    $("#generatebutton").hide()
+    $('#downloadbutton').hide()
+    $('#printbutton').hide()
+    $('#cheatsheetbutton').hide()
+    $('#indexbutton').hide()
+    $('#playallbutton').hide()
+    $('#tempo').hide()
+}
+
+function showContentSection(contentId) {
+    var contentTypes = ['cheatsheet_music_container','indexes','music','help','review','edit','songlistmanager','welcometext','longabcwrapper']
+    $(".overlay").hide()
+    if (contentId === 'review') {
+      $('#reviewbuttons').show()
+    } else {
+      $('#reviewbuttons').hide()
+    }
+    $("#reviewbuttons").hide()
+    $('#buttonblock').show()
+    $('.playblock').show()
+    if (contentId === 'music') {
+      $('#musiclistbuttons').show()
+    } else {
+      $('#musiclistbuttons').hide()
+    }
+    
+    if (contentId == 'home') {
+         contentTypes.map(function(type) {
+            $("#"+type).hide()
+         })
+         $('#musiclistbuttons').show()
+         //$('#helptext').show()
+        // $('#songlistbutton').show()
+         $('#errors').show()
+         $("#music").show()
+         //$("#welcometext").show()
+         scrollTo('topofpage')
+    } else {
+        
+             
+        contentTypes.map(function(type) {
+          if (contentId !== type) {
+              $("#"+type).hide()
+          } else {
+              $("#"+type).show()
+          }  
+        })
+        //$('#helptext').hide()
+        //$('#songlistbutton').hide()
+        $('#errors').hide()
+       // $('#songlistmanager').hide()
+        scrollTo('topofpage')
+    }
+    
+}
+
+/**
+ * Set flag to stop rendering lookups.
+ */
+
+function setStopNow(val) {
+   $("#stopbuttonvalue").val("true")
+   $("#stopbutton").hide()
+   $("#generatebutton").show()
+}
+
+
+function downloadLongAbc() {
+  generateAbcFromTunes()
+  download('tunebook.abc', $("#longabc").val())
+}
+
+function downloadShortAbc() {
+  generateShortAbcFromTunes()
+  download('tunebook_cheatsheet.abc', $("#shortabc").val())
 }

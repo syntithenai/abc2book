@@ -1,0 +1,48 @@
+X: 1
+T:Champagne Polka
+R:Polka
+M:2/4
+L:1/16
+N:Dance Music, 1820-1850
+O:England
+A:Yorkshire
+Z:Warren Armstrong
+B:"The Fiddler of Helperby", Dragonfly Music, ISBN 1-872277-18-7, 1994.
+K:Bb
+"Bb".d'2.f2.b2.d2|"Cm".d2.c2 (c=B).c2|\
+"F7".g2.c2.e2.A2|"Bb".c2.B2 (BA).B2|\
+"Bb".d'2.f2.b2.d2|"Cm".d2.c2 (c=B).c2|\
+"F7".g2.c2.e2.A2|"Bb"B2 z2 [D2B2b2] z2:|
+|:"Gm"(dcBA) .G2.G2|"Cm"g2g2 e4|\
+"D7"(dedc) .B2.A2|"Gm"(cBAB) .G2.D2|\
+"Gm"(dcBA) .G2.G2|"Cm"g2g2 e4|\
+"D7"(dedc) (BAG^F)|"Gm"G2 z2 [D2B2g2] z2:|
+|:"Bb".d'2.f2.b2.d2|"Cm".d2.c2 (c=B).c2|\
+"F7".g2.c2.e2.A2|"Bb".c2.B2 (BA).B2|\
+"Bb".d'2.f2.b2.d2|"Cm".d2.c2 (c=B).c2|\
+"F7".g2.c2.e2.A2|"Bb"B2 z2 [D2B2b2] "Fine"z2:|
+K:Eb
+|:"Eb"(GABc) .B2.B2|"Eb".e2.e2 G4|\
+"Bb".c2.B,2 .B2.B,2|"Eb".G2.B, E4|\
+"Eb"(GABc) .B2.B2|"Eb".e2.e2 G4|\
+"Bb".c2.B,2 .B2.B,2|"Eb".G2.B,2 E4:|
+|:"Ab"e2(de) (fedc)|"Eb"B2b2 c'3b|\
+"B7"a2a2 b3a|"Eb"g2g2 a3g|\
+"Ab"e2(de) (fedc)|"Eb"B2b2 c'3b|\
+"Bb"f2f2 g3f|"Eb"e2e2e2 z2:|
+|:"Eb"(GABc) .B2.B2|"Eb".e2.e2 G4|\
+"Bb".c2.B,2 .B2.B,2|"Eb".G2.B,2 E4|\
+"Eb"(GABc) .B2.B2|"Eb".e2.e2 G4|\
+"Bb".c2.B,2 .B2.B,2|"Eb".G2.B,2 E4:|
+S:https://www.folktunefinder.com/tunes/147537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Champagne_Polka_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Champagne_Polka_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

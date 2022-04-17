@@ -1,0 +1,25 @@
+X:1001
+T:"Come Now Or Stay"    (jig)     1001
+C:after  Chief F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+"vb"(F/2G/2)|ABA d2f|afb afd|(e/2f/2g).e (d/2e/2f).d|ecA AFG|
+ABA d2f|afb afd|(f/2g/2a).f gec|ded d2:|
+|:f|edc BAG|F2D GFE|A2F Bcd|cee egf|
+edc BAG|F2D GFE|ABd (e/2f/2g).e|fdd d2:|
+S:https://www.folktunefinder.com/tunes/149141
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1001-ComeStay.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1001-ComeStay.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:1
+T:The Coffeepot Song
+M:4/4
+L:1/8
+K:D
+ F2| B2 B2 F2 FF| BB BB F2 FF| d2 d2 d2 B2| c2 B4| F2| B2 B2 F2 FF|\
+ BB BB F2 FF| B2 Bc d2 B2| c2 B4| z2| G2 G2 G2 G2| ^G2 G3 GG F| EE E2 EF ^G2|\
+ B2 A4| A,2| D2 F2 E2 FG| AB AG F A3| D2 DE FE ED| CD E4| z2| E4 B3 G|\
+ F2 F2 E2 A,A,| EE EE EF GA| BA A^G| A4| B2 GG G2 B2| A2 FF F4| B2 A2 G2 F2|\
+ E2 z2 A2 A,A,| D2 FD EF GE| FG AF GA BG| Ad dd dc Bc| d6||
+S:https://www.folktunefinder.com/tunes/148864
+S:http://back.numachi.com:8000/dtrad/abc/COFFEPOT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

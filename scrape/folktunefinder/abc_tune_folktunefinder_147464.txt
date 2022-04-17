@@ -1,0 +1,23 @@
+X: 1
+T: Center's Bonnet
+M: 6/8
+L: 1/8
+R: jig
+K: Amix
+|:a3 c2e | Ace cAc | a3 c2e | Ace BGB |
+a3 c2e | Ace cAc |dfd cac|Bdc BGB:|
+|:eAA cBc|Ace cAc|eAA cBc|Ace BGB |
+eAA cBc|Ace cAc|dfd cac|Bdc BGB:|
+|:dfe cae|Ace cAc|dfe cae|Ace BGB |
+dfe cae|Ace cAc|dfd cac|Bdc BGB:|
+aAe cAc | fAe cAc | aAe cAc | fAe BGB |
+aAe cAc | fAe cAc | dfd cac | Bdc BGB :|
+S:https://www.folktunefinder.com/tunes/147464
+S:http://www.thesession.org/tunes/display/6522
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

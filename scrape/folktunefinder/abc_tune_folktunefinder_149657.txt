@@ -1,0 +1,22 @@
+X:3
+T:Der vglein art
+T:Tenores
+C:Glogauer Liederbuch, No. 217
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:3/2
+L:1/2
+K:G mix  bass
+%%MIDI transpose -24
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+|: g2 b2 a > b c3/2 b// a// g f e d G B A2 G z g a/ f g/ e d2 G2 c2 z c B G c A G2 |1 z4 z2 
+:|2 z g g e/ d/ c2 z e2 f g d e c > d e d a d2 g f e/ d/ c g > c g e d2 HG6 |]
+S:https://www.folktunefinder.com/tunes/149657
+S:http://www.laymusic.org/music/glogauer/217/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,17 @@
+X:1
+T:The Cherry Tree Carol
+M:3/4
+L:1/8
+K:F
+ z4 F2| c2 c2c/2-d/2 c| A3/2- G/2 F2 d2| c2 c2c-A| c4A-G| F3 AG F|\
+ D2 C2C-D| F3 CF G| A4A-G| F3 AG F| D2 C2(3C3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009C3.99999962500005/5.99999925000009D3.99999962500005/5.99999925000009F3.99999962500005/5.99999925000009|\
+ F3 CA G| F4 z2|
+S:https://www.folktunefinder.com/tunes/147950
+S:http://back.numachi.com:8000/dtrad/abc/CHERTREE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

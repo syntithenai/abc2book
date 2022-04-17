@@ -1,0 +1,24 @@
+X:2
+T:Der vglein art
+T:Contratenores
+C:Glogauer Liederbuch, No. 217
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:3/1
+L:1/2
+N:Original clef, C on fourth line
+K:G mix -8va
+%%MIDI transpose -12
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+|:G2 G G F3/2 E// D// C3 D E F G2 z A B c d c > B G A2 G2 E2 C2 G2 E C D2 |1 C4 z2
+S:https://www.folktunefinder.com/tunes/149656
+S:http://www.laymusic.org/music/glogauer/217/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Text Has notes text
+% Has_accompaniment_chords No chords

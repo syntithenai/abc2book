@@ -1,0 +1,27 @@
+X: 1
+T:Coleraine
+R: jig
+M: 6/8
+L: 1/8
+K: A minor
+D \
+|: "Am"EAA ABc | "E"Bee e2d | "Am"cBA ABc | "E"B^GE E2D |
+  "Am"EAA ABc | "E"Bee e2d | "Am" cBA "E"B^GE |\
+[1 "Am"A2A A2D :|[2 "Am"A3 A2B ||
+|: "C"c2c cdc | "G"Bgg g2^g | "Am"aed cBA | "E"^GBG E^FG |
+  "Am"A^GA "E"BAB | "Am"cde "Dm"=fed | "Am"cBA "E"B^GE |\
+[1 "Am"A3 A2B :|[2 "Am"A3 z2D |]
+N:Fiddlers Fakebook p 70-71 - abc by Peter Ostapenko.
+N:Last update - PO 8/18/2007.
+N: A Minor
+S:https://www.folktunefinder.com/tunes/148938
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/Coleraine.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X:1
+T:Constant Billy
+C:Adderbury
+M:6/8
+L:1/8
+S:CJS
+A:Adderbury
+P:A(AB)6
+K:A
+P:A
+|:E|A2e c<Ac|d2B G2E|c>BA F2E|EFG A2:|
+P:B
+z|cde f3  |Bcd e3 |cde  f3 |Bcd e2(3e/f/g/|
+a2e c>Ac|d2B G2E|c>BA F2E|EFG A2||
+W:
+W:Oh! my Billy, my constant Billy, When shall I see my Billy again
+W:Billy again!  Billy again! Billy again! Billy again!
+W:Oh! my Billy, my constant Billy, When shall I see my Billy again
+S:https://www.folktunefinder.com/tunes/149500
+S:http://www.tomkeays.com/morris/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:cotswold:adderbury:1_constant_billy.abc
+S:http://www.tomkeays.com/morris/wiki/cotswold/adderbury/constant_billy?rev=1157479675
+S:http://www.tomkeays.com/morris/wiki/cotswold/adderbury/constant_billy?rev=1157483819
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

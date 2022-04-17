@@ -1,0 +1,43 @@
+X:4320
+T:The Chinese Doll
+C:Vladimir Rebikoff
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/rebikoff-vladimir/rebikoff-chinese-doll.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:C
+V:1
+ed d/c/d|eg g/e/g|g/a/c'/a/ g/e/d/e/|g/e/d/c/ d/g/g|
+ed d/c/d|eg g/e/g| g/a/c'/a/ g/e/d/c/|dcc2|
+_A,2A,2|_G,/_A,/C/A,/ G,/_E,/_D,/E,/|_A,_G,/A,/ G,_E,/G,/|_E,_D,/E,/ D,D,|
+_A,2A,2|_G,/_A,/C/A,/ G,/_E,/_D,/E,/|_A,_G,/A,/ G,_E,/G,/|_E,_D, D, z|
+=e=d d/c/d|e=g g/e/g|g/a/c'/a/ g/e/d/e/|g/e/d/c/ d/g/g|
+ed d/c/d|eg g/e/g| g/a/c'/a/ g/e/d/c/|dcc2|]
+V:2
+[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|
+[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|
+[C,,4G,,4]|[C,,4=G,,4]|[C,,4=G,,4]|[C,,4=G,,4]|
+[C,,4G,,4]|[C,,4=G,,4]|[C,,4=G,,4]|[C,,4G,,4]|
+[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|
+[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|[C,,4G,,4]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/148114
+S:http://abc.musicaviva.com/tunes/rebikoff-vladimir/rebikoff-chinese-doll.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/rebikoff-vladimir/rebikoff-chinese-doll.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/rebikoff-vladimir/rebikoff-chinese-doll.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/rebikoff-vladimir/rebikoff-chinese-doll.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/rebikoff-vladimir/rebikoff-chinese-doll.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

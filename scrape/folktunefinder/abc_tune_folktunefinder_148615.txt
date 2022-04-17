@@ -1,0 +1,28 @@
+X:1
+T: Timmy Clifford's
+%%staffsep       46pt
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+M: 6/8
+K: G
+"G"G,B,D "C"E2D| EGF "D"GDB,| "G"G,B,D "C"C2B| "D"AGF "G"G3|
+"G"G,B,D "C"E2D| EGF "D"GAB|  "G"d3 B3|1 "D"AGF "G"G3 :|2 "D"AGF "G"GBd :|
+|: \
+"C"efe "G"d2B| BAG GBd| "C"efe "G"d2B| BAG "D"A2g/f/|
+"C"efe "G"d2B| BAG GAB| "C"c3 "G"B3|1 "D"AGF "G"GBd :|2 "D"AGF "G"GDB,|]
+%%text Roaring Jelly  J-66
+% vskip .5cm
+S:https://www.folktunefinder.com/tunes/148615
+S:http://roaringjelly.org/music/sets/Set60.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set60.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set60.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/sets/Set60.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

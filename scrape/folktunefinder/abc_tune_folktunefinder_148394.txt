@@ -1,0 +1,31 @@
+X: 1
+T: the Cincinnati Rag
+M: C
+L: 1/8
+S: printed MS handed out at 2006/11/4 NOMAD session
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+K: C
+age \
+| "C"g4  zage | c6 G2 | "F"Ac2d cAc2 | "C"G4  zage \
+| "C"g4  zage | c6 ^c2 | "D"d2e^f- fed2 | "G"g4 z ||
+age \
+| "C"g4  zage | c6 G2 | "F"Ac2d cAc2 | "C"G4  zGAB \
+| "F"cBcc "F#dim"dcAc | "C"G2ga "A7"ge^cd | "D7"e4 "G7"ecd2 | "C"c6 |]
+AB \
+| "C"c2c2 AGEG | ABcB AGED | "C"[E4C4] "F"[F4C4] | "C"[E4C4] A,B, \
+| "C"C2cG AGED | C2cB AGEG | "D7"Bd3 dBA2 | "G"G6 ||
+A,B, \
+| "C"C2cG AGED | C2cG AGEC | "F"A,4 C4 | "E"B,8 \
+| "F"A,G,A,B, "F#dim"CB,CD | "C"EG2A "A7"GAE2 | "D7"E4 "G"ECD2 | "C"C4 z |]
+S:https://www.folktunefinder.com/tunes/148394
+S:http://trillian.mit.edu/~jc/music/abc/Contra/rag/CincinnatiRag_C.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Contra/rag/CincinnatiRag_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

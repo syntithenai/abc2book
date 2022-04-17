@@ -1,0 +1,26 @@
+X:1
+T:Cibi
+C:Marc Peroneille
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+G/F/G/B/ dB | A/B/c/A/ BG | G/F/G/B/ dB | A/B/c/A/ G2 |
+G/F/G/B/ dB | A/B/c/A/ BG | G/F/G/B/ dB | A/B/c/A/ G2 ||
+F/G/A/F/ G/B/F/G/ | A/F/G/A/ GD | F/G/A/F/ G/B/F/G/ | A/F/G/A/ G2 |
+F/G/A/F/ G/B/F/G/ | A/F/G/A/ GD | F/G/A/F/ G/B/F/G/ | A/F/G/A/ G2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/148366
+S:http://simonwascher.info/TradArchiv_polka/cibi.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

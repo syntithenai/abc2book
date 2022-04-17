@@ -1,0 +1,22 @@
+X: 1
+T: Coleraine
+B: Kerr's Violin IV
+Z: John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/
+R: jig
+M: 6/8
+L: 1/8
+K: Am
+|: "E7"E | "Am"E>AA ABc | "E7"B>ee e2d | "Am"c>AA ABc | "E7"B^GE E2E | \
+| "Am"E>AA ABc | "E7"B>ee e2d | "Am"c>BA "E7"B^GE | "Am"A3- A2 :|
+|: "G7"B | "C"c2c cdc | "G"Bdg "(E)"g2^g | "Am"a>ed cBA | "E7"^GBG E^FG | \
+| "Am"A^GA "E7"BAB | "Am"cde "Dm"fed | "Am"c>BA "E7"B^GE | "Am"A3- A2 :|
+S:https://www.folktunefinder.com/tunes/148937
+S:http://www.firepowr.com/abc/Coleraine.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

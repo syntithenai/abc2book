@@ -1,0 +1,24 @@
+X: 1
+T:Clapton Jig, The
+R:jig
+D:Dervish: The Boys of Sligo
+M:6/8
+L:1/8
+K:Ador
+age a2b|ged BAG|age age|def ~g3|!
+age a2b|ged BAG|cBc dcd|1 ede ~g3:|2 ege dcA !
+|:~d3 cAG|B/c/dB cAG|AdB cAG|~E3 GEG|!
+A2d cAG|B/c/dB cAG|1 AdB cAG|~E3 D3:|2 cBc dcd|ede ~g3||!
+S:https://www.folktunefinder.com/tunes/148477
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/cl/Clapton_Jig_The_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/cl/Clapton_Jig_The_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

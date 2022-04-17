@@ -1,0 +1,21 @@
+X:1
+T:Cercle circassien : Tarantelle
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:Cercle circassien
+O:Other
+M:6/8
+K:Am
+a2a e2e | a2a e2e | ede f2f | fgf e2e |
+efe d2d | ded c2c | cdc B2B | BcB A3 :|
+A2B cBc | dcB c2c | ABc B2B | dcB c2E |
+A2B cBc | dcB c2c | ABc B2B | dcB A3 |]
+S:https://www.folktunefinder.com/tunes/147492
+S:http://termen.free.fr/danses/autres/CerclecircassienTarantelle.abc
+% Rhythm Cercle circassien
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

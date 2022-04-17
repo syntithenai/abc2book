@@ -1,0 +1,27 @@
+X:1
+T:Cochinchine
+C:Traditionnel (Sude), abc file by Bernard Loffet
+L:1/8
+Q:320
+M:2/4
+K:G
+|:[d2G,2][d2G,2]|[BG,]G[BG,]d|[BG,]G[BG,]d|[dD,]c[AD,]F|[d2D,2][d2D,2]|[BG,]G[BG,]d|[dD,]c[AD,]F|[G2G,2]G,2:|:[B2G,2][B2G,2]|[GE,]E[EE,]E| \
+[c2A,2][c2A,2]|[AD,]F[FD,]F|[d2D,2][d2D,2]|[BG,]G[BG,]d|[dD,]c[AD,]F|[G2G,2]G,2:| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/148799
+S:http://diato.ifrance.com/diato/tablat/61.abc
+S:http://diato.ifrance.com/tablat/61.abc
+S:http://diato.org/tablat/61.abc
+S:http://perso.orange.fr/diato/tablat/61.abc
+S:http://perso.wanadoo.fr/diato/tablat/61.abc
+S:http://pro.wanadoo.fr/diato/abc/61.abc
+S:http://pro.wanadoo.fr/diato/tablat/61.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/61.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/61.abc
+S:http://www.diatonique.net/tablat/61.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

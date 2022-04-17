@@ -1,0 +1,23 @@
+X:3
+T:The Jig of Slurs
+R:jig
+M:6/8
+L:1/8
+K:D
+B | "D" Add dcd | "G" Bdd "D" Add | "G" Bdd "D" Add | "A" Bee edB |
+    "D" Add dcd | "G" Bdd "D" Add | "G" Bdd "A" cde | "D" fdd d2 :|
+B | "D" Aff fef | aff fed | "G" Bee ede | "A" fed edB | 
+    "D" Aff fef | aff fed | "G" Bdd "A" cde | "D" fdd d2 :|
+B | "G" Ggg gfg | "D" agf "G" gdB | "G" Ggg gfg | "D" agf "G" g2 B |
+    "G" Ggg gfg | "D" agf "G" ged | "Em" Bee efg | "D" fed "Em" e2 :|
+B | "G" GBB Bdd | "Em" dee edB | "G" GBB Bdd | "Em" dee efg |
+    "G" GBB Bdd | "Em" dee edB | "Bm" Bee efg | "D" fed "Em" e2 :|
+S:https://www.folktunefinder.com/tunes/149396
+S:http://www.slowplayers.org/CKSP/Music/CK_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

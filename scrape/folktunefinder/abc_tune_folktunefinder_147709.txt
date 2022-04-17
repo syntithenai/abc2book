@@ -1,0 +1,26 @@
+X:9
+T:The Piper's Apron
+R:slip jig
+C:Tommy Keane
+D:Double Barrelled, John Skelton & Kieran O'Hare
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+M:9/8
+K:D
+DFA ded =cde|DFA d=cA GEA|DFA de=c dAB|=c2 A AGF FEF|
+DFA ded =cde|DFA d=cA GEA|DFA de=c dAB|=cde d=cA GEA||
+||d2 e fef ~g3|afd dcd ecA|d2 f edc dAB|=cde d=cA GEA|
+d2 e fef ~g3|aec dcd ecA|fed edc d2 A|=cde d=cA GEA|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/147709
+S:http://cranfordpub.com/tunes/abcs/OHareSkelton.abc
+S:http://www.cranfordpub.com/tunes/abcs/OHareSkelton.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

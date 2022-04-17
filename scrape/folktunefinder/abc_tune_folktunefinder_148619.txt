@@ -1,0 +1,36 @@
+X: 4
+P: Hommage \`a Joseph Bouchard
+O: Qu\'ebec
+C: Philippe Bruneau
+M: 6/8
+L: 1/8
+K: C
+"G7"G3 \
+|: "C"E3 "(F)"EFA \
+| "C"G3 "G7"GAB \
+| "C"cBc "F"dcA \
+| "C"G2G EGc \
+| "G7"B2B GBd \
+| f2f GBd |
+| "G7"bag fed \
+|1 "C"cdc "G7"BAG \
+:|2 "C"c3- "/B"cAB \
+|: "Am"c2c cBc \
+| AEE EAB \
+| c2c cBc |
+| "E7"BEE E3 \
+| d2d dcd \
+| BEE E^GB \
+|1 "E7"eEE "/F#"dEE \
+| "/G"cEE " /G#"BAB \
+:|2 "E7"efe dcB \
+| "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/148619
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/Rapper4.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/England/rapper/Rapper4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

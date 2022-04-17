@@ -1,0 +1,26 @@
+X:3
+T:Du lenze gut
+T:Tenores
+C:Glogauer Liederbuch, No. 92
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:C
+L:1/2
+N:Original clef, C on fourth line
+K:E phr -8va
+%%MIDI transpose -12
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+|:B4 c A G A E G A G2 F G G B B D G C2 E F G A B2
+E2 z2 C F A G2 F G F G E C z G C G A E4 C4
+D G2 G G D E2 F G C z c B d e c2 d2 A > B c2 B B2 A B4 :|
+C2 F2 C E A E c2 G2 C F G F G2 C F c d e2 c2 d2 A > B c2 B B2 A HB4 |]
+S:https://www.folktunefinder.com/tunes/149663
+S:http://www.laymusic.org/music/glogauer/92/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

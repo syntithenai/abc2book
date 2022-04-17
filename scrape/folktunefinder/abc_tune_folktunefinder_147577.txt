@@ -1,0 +1,45 @@
+X:1
+T:Dans Lon
+R:
+C:Trad.
+S:
+A:Bretagne
+Z:Roger Ngaret (94-95)
+E:12
+M:2/4
+L:1/16
+K:G
+T:Chant
+Q:1/4=110
+"G"G3A G2A2 | B4 B4 | B3d "C"c2B2 | "Am"A4 "D"A4 |\
+"G"d3e "D"d2c2 | "G"B2A2 B2G2 | "Em"B3c "D"B2A2 | "G"G4 G4 |]
+T:Contre-chant
+d3c B2c2 | d2g2 d4 | g3g "C"e2e2 | "Am"c2e2 "D"f4 | \
+"G"g2ge "D"f4 | "G"g2ge g4 | "Em"g2g2 "D"f3e | "G"d2c2 B4 |]
+%%rm
+%%rm  1. Me m'eus bet plijadur, e Lambaol a wechou
+%%rm     O ober tro an iliz, gand an all bannielou
+%%rm
+%%rm  2. Hag o stoui ganto dirag an aoter vraz
+%%rm     Hag ouz o sevel kerkent, er vann, 
+%%rm                             ken dres all hoaz
+%%rm
+%%rm  3. Plijadur am beze pa veze ar pardon
+%%rm     O ober tro ar vered gand an dud a galon
+%%rm
+%%rm  4. Eno'veze gwelet, pa groge an avel,
+%%rm     Piou oa baotred wella da zougen ar banniel
+%%rm
+%%rm  5. Ha dre ma tremened, a bep tu d'ar vali
+%%rm     Gant o zeod flour ar merhed a roe o ali
+%%rm
+%%rm  6. Hag a rae o dibad etouez ar baotred vrao
+%%rm     A welent, en o haera, o tremen dirazo.
+S:https://www.folktunefinder.com/tunes/147577
+S:http://termen.free.fr/danses/leon/DansLeon.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Chorus, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+AD~D2 AGFG | AD~D2 A2dB | AD~D2 AGFG | ~E2cA G2FG |
+AD~D2 AGFG | AD~D2 D2dB | AD~D2 AGFG | ~E2cA G2FG ||
+Addc AGFG | Addc ~A2AG | Fddc AGFG | ~E2cA G2FG |
+Addc AGFG | Addc A2Bc | dBcA BGAG | ~E2cA G2eg ||
+|:~f2dg f2dg | ~f2df ~a2ag | f2dg ~f2df | ~e2ef g2ag :|
+|: fde^c d2dB | AD~D2 A2Bc | dBcA BGAG |1 E2cA G2ag :|2 E2cA G2FG||
+S:https://www.folktunefinder.com/tunes/148218
+S:http://www.thesession.org/tunes/display/779
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

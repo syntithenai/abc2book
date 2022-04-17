@@ -1,0 +1,35 @@
+X: 1
+T: Colonel Robertson
+B: Scots Guards #186 p.92
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+P: A
+[| a \
+| "D"f>ed A2d | "G"B<GB "A"A2a | "D"f>ed A2d | "A"c2e e2a \
+|  "D"f>ed A2d | "G"B<GB "A"A2d | "G"B<Gd "A"c<Ae | "D"{c}d3- d2 |
+[| a \
+| "D"f>ed A2d | "G"B<GB "A"A2a | "D"f>ed "Bm"a>fd | "Em"c2e "A"e2a \
+|  "D"f>ed A2d | "G"B<GB "A"A2d | "G"B<Gd "A"c<Ae | "D"{c}d3- d2 |]
+P: B
+[| f/g/ \
+| "D"a>fd f2a | f>ef d>ef | "Em"g>fg e>cA | "A"g>fg e>fg \
+|  "D"a>fd f2a | f>ef d2A | "G"B<Gd "A"c<Ae | "D"{c}d3- d2 |]
+[| f/g/ \
+| "D"a>fd f2a | f>ef d>ef | "Em"g>fg e>cA | "A"g>fg e>cA \
+|  "D"d>Ad "A"e>Ae | "D"f>af d2A | B<Gd "A"c<Ae | "D"{c}d3- d2 |]
+P: C
+|: A \
+| "D"d>fA "A"e>gA | "D"f<af d2f  | "A"e<ac B2A | e<af e>cA \
+|  "D"d>fA "A"e>gA | "D"f<af d2A | "G"B<Gd "A"c<Ae | "D"{c}d3- d2 :|
+S:https://www.folktunefinder.com/tunes/149031
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/ColonelRobertson.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/jig/ColonelRobertson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

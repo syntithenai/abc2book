@@ -1,0 +1,40 @@
+X:8272
+T:Cherish the Ladies
+C:anon.
+O:Ireland
+R:Jig
+Z:id:dc-jig-18
+F:http://abc.musicaviva.com/tunes/ireland/cherish-ladies.abc
+%Posted January 6th 2002 at abcusers by Aaron Newman.
+M:6/8
+L:1/8
+K:D Major
+A|dFF AGF|DFA AFA|BEE GEE|BdB ABc|
+dFF AGF|DFA AFA|Bcd efg|fdc d2:|
+A|dfd cec|BdB AFA|BEE GEE|BdB ABc|
+dfd cec|BdB AFA|Bcd efg|fdc d2:|
+B|Add fdd|add fdd|BAB gfg|ece gfe|
+[1 Add fdd|add fdd|fdB AGF|GEF GF:|
+[2 afa bgb|afa gfe|fdB AGF|GEF GF|]
+E|A3 AGF|AGF AdB|A3 AGF|GEF GFE|
+A3 AGF|AGF AB=c|BGB AFA|GEF GF:|
+E|DFA dAF|DFA BGE|DFA dAF|GEF GFE|
+DFA dfd|cec AB=c|BGB AFA|GEF GF:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/147927
+S:http://abc.musicaviva.com/tunes/ireland/cherish-ladies.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/ireland/cherish-ladies.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/ireland/cherish-ladies.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/ireland/cherish-ladies.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

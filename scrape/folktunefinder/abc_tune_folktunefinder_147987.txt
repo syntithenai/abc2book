@@ -1,0 +1,18 @@
+X:1
+T:The Chevalier's Lament
+M:6/8
+L:1/8
+K:G
+ E| B,EF G2 F/2E/2|F/2-G/2A/2-G/2F/2-E/2 DEF| GBG AG/2-F/2E/2-D/2|\
+ B,EE E2 E| BEF G2 F/2E/2|F/2-G/2A/2-G/2F/2-E/2 DEF| GBG AG/2-F/2E/2-D/2|\
+ B,EE E2E/2-F/2| GBB B2 A/2G/2| FAA A2 d/2c/2| Bef g3/2 f/2 e| Be^d e2e/2-f/2|\
+ g3/2 f/2 e dcB| AFd D3/2 E/2 F| GBG AG/2-F/2E/2-D/2| B,3/2 E/2 E E2||\
+S:https://www.folktunefinder.com/tunes/147987
+S:http://back.numachi.com:8000/dtrad/abc/CHVLAMNT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

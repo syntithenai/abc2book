@@ -1,0 +1,19 @@
+X:6
+T:Chromatic Etude
+M:3/4
+L:1/4
+Q:1/2=50
+K:F
+ (A/B/=B/c/d/c/) | f3 | (A/B/=B/c/d/c/) | a3 | (g/e/f/^f/g/a/)| (g/e/f/^f/g/a/) | (g/e/f/^f/g/a/) |
+ (g/=f/e/d/c/B/) | (A/B/=B/c/d/c/) | f3 | (d/_e/=e/f/g/f/) | d'3 | (c'/=b/d'/c'/a/f/) | (e/c/B/G/E/C/) | (F/A/B/c/d/e/) | f3 |]
+S:https://www.folktunefinder.com/tunes/148321
+S:http://homepages.inf.ed.ac.uk/s0570628/Music/lesson%2032.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

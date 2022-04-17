@@ -1,0 +1,38 @@
+X:4
+T:Jump at the sun
+G:Kazimodal
+R:Cercle circassien
+C:John Kirkpatrick (1968) http://johnkirkpatrick.co.uk copyright  SQUEEZER MUSIC
+C: arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:H3
+M:6/8
+%%MIDI gchord fzcczf
+%%MIDI chordprog 25
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 73
+K:Am
+P:H
+|: "Am"Ace "B"^d2 e | "Am"Ace "B"^d2 e | "Am"aee aee | "F"edc "Em"BcB |
+"Am"Ace "E/F"^d2 e | "Am"Ace "E/F"^d2 e |1\
+ "Am"aee "F"fed | "Em"cBG "Am"A3 :|2\
+ "Am"aee "F"fed | "G"cBG "Am"A2 e ||
+|: "Am"aee c'ba | "G"bee d'c'b | "Dm"aee c'ba | "Em"bee "F"fee |
+"Am"aee c'ba | "Em"bee d'c'b |1\
+"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A2 e :|2\
+"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A3 ||
+%%text 1: Fl\^ute  accord\'eon  percussion
+% L'encha\^inement voulu :
+%%abccat P:ABACDEDFG2H2ACDFGH
+%%vskip 1cm
+%%text L'encha\^inement voulu : ABACDEDFG2H2ACDFGH
+S:https://www.folktunefinder.com/tunes/147481
+S:http://kazimodal.trad.org/partitions/cercles_circassiens/LE_cercle/LE_cercle.abc
+% Rhythm Cercle circassien
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

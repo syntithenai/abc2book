@@ -1,0 +1,68 @@
+X:1
+T:Chant de marins : Chant de corsaires
+E:12
+Z:Roger Ngaret (Aot 98)
+R:
+C:Trad. XIIIme sicle
+S:
+A:Flandres
+M:6/8
+L:1/8
+K:Em
+"Em"E2 G FGA | G2 F E2 B, | E2 G FGA |\
+G2 F E2 z | "G"G2 A B2 A | G2 A B2 z |\
+"Em"EFG F2 F | FGA G2 E | "G"G2 A B2 A |\
+G2 A B2 z | "F#m"EFG FGA | "Em"G2 F E2 z |]
+%%newpage
+%%rm
+%%rm
+%%bf  1. Tous : 
+%%rm     Sont des hommes de grand courage
+%%rm     Ceux qui partiront avec nous
+%%bf     Solo :
+%%rm     Ils ne craindront point les coups
+%%rm     Ni les naufrages, ni l'abordage ;
+%%rm     Du pril seront jaloux
+%%bf     Tous :
+%%rm     Tous ceux qui partiront avec nous.
+%%rm
+%%rm  2. Ce seront de hardis pilotes
+%%rm     Les gars que nous embarquerons ;
+%%rm     Fins gabiers et francs lurons
+%%rm     Je t'escamotte toute une flotte
+%%rm     Bras solide et coup d'oeil prompt
+%%rm     Tous les gars que nous embarquerons.
+%%rm
+%%rm  3. Ils seront de fiers camarades
+%%rm     Ceux qui navigueront  bord
+%%rm     Faisant feux babord, tribord
+%%rm     Dans la tornade des canonades ;
+%%rm     Vainqueurs rentreront au port
+%%rm     Tous ceux qui navigueront  bord.
+%%rm
+%%rm  4. Et des prises de tous tonnages
+%%rm     Nous ramnerons avec nous
+%%rm     Et la gloire et les gros sous
+%%rm     Feront voyage dans nos sillages ;
+%%rm     Vent arrire ou vent debout
+%%rm     Nous les ramnerons avec nous.
+%%rm
+%%bf     ... musique ...
+%%rm
+%%rm  5. Car c'est le plus vaillant corsaire
+%%rm     Qui donna l'ordre du dpart ;
+%%rm     Vite en mer et sans retard
+%%rm     Faisons la guerre  l'Angleterre
+%%bf     Tous:
+%%rm     Car c'est le fameux Jean Bart
+%%rm     Qui nous commandera le dpart.
+S:https://www.folktunefinder.com/tunes/147580
+S:http://termen.free.fr/danses/chants/ChantdemarinsChantdecorsaires.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: CONSTANT BILLY
+S: MDT
+O: Bampton
+B: Morris Ring
+P: A.(A2B2)4
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Bb
+P: A
+|: F | B2f  d>Bd | e2c c>Bc | d>cB G>AB | FGA  B2 :|
+P: B
+       d>ef g>ab | c>de fdB | d>ef g>ab | c>de f3  |
+       B2f  d>Bd | e2c c>Bc | d>cB G>AB | FGA  B2 :|
+S:https://www.folktunefinder.com/tunes/149491
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Constant_Billy_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

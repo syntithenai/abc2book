@@ -1,0 +1,25 @@
+X:1
+T:Corinthian -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:Bb
+vde|fbfd Bdgf|f"0"=e_ec ABcA|BABc dBed|cBcd cd"4"e"0"=e|
+fbfd Bdgf|f"0"=e"4"_ec ABcA|dfBd cfAc|B2B2B2:|
+|:uF2|FAcA FecA|BABc defd|bagf "0"=efga|bgf"0"=e .f2(ga)|
+bagf _edcB|Acgf f"0"=e"4"_ec|dfBd ceAc|B2B2B2:|
+S:https://www.folktunefinder.com/tunes/149813
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/CorinthianHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CorinthianHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/bpuckette%3Amsn.com/CorinthianHornpipe.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CorinthianHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

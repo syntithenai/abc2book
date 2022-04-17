@@ -1,0 +1,23 @@
+X: 1134
+T: ~ etc...
+M: 6/8
+L: 1/8
+R: jig
+K: D Major
+|: d |
+BAF E3 | FEF DFA | BAF DF/G/A | B2 A Bcd |
+BAF E3 | FEF DFA | d2 f edc |[1 B2 ^A Bc :|[2 B2 ^A B2 ||
+|: c |
+d2 e fed | c2 d ecA | d2 e fed | f2 e ff/g/a |
+dcd fed | c2 d ecA | d3 cdc |[1 B2 ^A B2 :|[2 B2 ^A Bc ||
+S:https://www.folktunefinder.com/tunes/149799
+S:http://www.thesession.org/tunes/display/864
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,101 @@
+X:1
+T:Chanukah Medley (Hora)
+T:Oy Chanukah
+C:Trad.
+O:Jewish
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+R:hora
+M:2/4
+L:1/8
+Q:1/4=140
+K:Dm
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+D|"Dm"AAAA|dAAA|   A2 GF|"A"G2"Dm"F2| "Dm"AAAA|dAAA|"F"A2 GF|"A"G2"Dm"F2|
+ |:"F"FG AG|F2 FF|"A"G2 FE|[1"Dm"F4\
+  :|[2"Dm"D2 (D2||A2) A2-|A2 (D2|A2) A2-|A2 (D2|A2) AA|"Gm"B2 AG|"Dm"A4|"A"z4|
+ |:"Dm"A2 AA|"Gm"B2 AG|"Dm"A2 AA|"Gm"B2 AG|[1"Dm"F2 FF|"A"G2 FG|"Dm"A4|"A"z4\
+   :|[2"F" F2 FF|"A"G2 FE|"Dm"D4|z4||
+%X: 2
+T:Mi Y'malel
+%C:Trad.
+%O:Jewish
+%Z:http://swiss.csail.mit.edu/~jaffer/Music
+%R:hora
+M:2/4
+L:1/8
+% Q: 1/4=140
+K:F
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+|:"F"FF/2C/2 FG|AA/2F/2 "Bb"GB|"F"A2"C"c2|"F"A2"C"c2|\
+  "F"FF/2C/2 FG|AA/2F/2 "Bb"GB|"F"F2"Bb"D2|"F"F4:|
+K:Cm
+"Cm"c4-|c2z2|(cedc)|"G"(=BGBd)|"Cm"c4-|c2z2|(cedc)|"G"(=BGBd)|"Cm"c4-|c2z2|
+"Fm"(Ac=BA)|"C"(GA=Bc)|"Fm"c4-|c2z2|(Ac=BA)|"C"(GFGA)|"Fm"F4-|F2z||
+%X: 3
+T:Dreydel
+%C:Trad.
+%O:Jewish
+%Z:http://swiss.csail.mit.edu/~jaffer/Music
+%R:hora
+M:2/4
+L:1/8
+% Q: 1/4=140
+K:F
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+c|"F"FF "C"GG| "F"AF2A| "Bb"ccBA| "C"G3c|"Gm"GGAA|BG2G|"C"cBAG|"F"F3A|
+  "F"cA cA| cA2A| "Bb"ccBA| "C"G2zG| "Gm"BG BG| BG2G| "C"cBAG|"F"F2z2||
+%X: 4
+T:Sivivon
+%C:Trad.
+%O:Jewish
+%Z:http://swiss.csail.mit.edu/~jaffer/Music
+%R:hora
+M:2/4
+L:1/8
+% Q: 1/4=140
+K:F
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI chordprog 42
+%%MIDI chordvol 55
+%%MIDI bassprog 43
+%%MIDI bassvol 55
+"Dm"DD "A"E2| "F"FF "A"E2| "Dm"AA "Gm"(G/2F/2E/2D/2)| "F"FF"A"E2|\
+ "Dm"DD"A"E2| "F"FF "Gm"G2| "A"AA (AA,)| "Dm"DDD2 |
+|:"Gm"GGGB| "Dm"AA (F/2E/2)D| "A"^CC (A,C) |[1"Dm"(D>E F/2E/2D):|[2"Dm"DDD2||
+W:
+W:
+W:Arrangement Copyright (C) 1999, 2002 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/147632
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/HanukahHora.abc
+S:http://people.csail.mit.edu/jaffer/Music/HanukahHora.abc
+S:http://voluntocracy.org/Music/HanukahHora.abc
+S:http://www.voluntocracy.org/Music/HanukahHora.abc
+% Rhythm Hora
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

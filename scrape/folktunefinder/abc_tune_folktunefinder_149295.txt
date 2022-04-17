@@ -1,0 +1,19 @@
+X: 1
+T: Concert, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Fmaj
+F>_E|:D>Fd>F D>Fd>F|_E>Fc>F  D>F d2|_e2 d>e c>d B>c|A>B G>A F2 F>_E|
+D>Fd>F D>Fd>F|_E>Fc>F D>F d2|_e2 d>e c>d B>c|1A>G (3FGA B2F>_E:|2A>G (3FGA B2B>c||
+|:d>Dc>D B>DA>D|G>DG>B d>B G2|^F>DF>A d>A F2|GDGB d>B G2|
+d>Dc>D B>DA>D|G>DG>B d>B G2|^F>DF>A d>AF>D|1G2 B2 G2 B>c:|2G2 B2 G2 F>_E||
+S:https://www.folktunefinder.com/tunes/149295
+S:http://www.thesession.org/tunes/display/2000
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

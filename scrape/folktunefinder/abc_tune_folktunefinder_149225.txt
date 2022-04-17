@@ -1,0 +1,25 @@
+X: 1
+T: Coming Of Spring, The
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+|: BEE B2 A | (3Bcd B {d} BAG | ~F3 DFA | dfe dBA |
+BEE B2 A | Bef gfe | dBG FGA |1 BGE Ed=c :|2 BGE E2 F ||
+|: GEF G2 A  | B2 A Bec | dAA BAG | (3FGA F DEF |
+GFE FGA | Bef gfe | dBG FGA |1 BEE E2 F :|2 BEE Eef ||
+| g3 efe | Beg bag | f2 d dcd | AFA def |
+g2 e efe | Beg bag | fed (3fga f | ge^d e2 f |
+g2 e efe | Beg bag | f2 d dcd | AFA def |
+g2 e fed | Bec dfe | dBG FGA | BGE Ed=c ||
+S:https://www.folktunefinder.com/tunes/149225
+S:http://www.thesession.org/tunes/display/2403
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

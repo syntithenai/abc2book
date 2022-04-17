@@ -1,0 +1,66 @@
+X:1
+T:Chant : Lettre de Pelot de Betton
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+M:5/4
+L:1/16
+K:G
+Q:1/4=90
+E2 | B2B2 A2A2 B2B2 G2G2 F2G2 | A4 B4 G2G2 F4 z2 E2 | \
+B2B2 A2A2 B2B2 G2G2 F2G2 ||\
+M:3/4
+L:1/16
+A4 B4 G2G2 | F4 z2 E2 E2E2 ||\
+M:5/4
+L:1/16
+F4 B4 A2G2 E2E2 D2E2 | F4 B4 F2G2 E4 z4 |]
+%%newpage
+%%rm
+%%rm
+%%rm  1. Ma chre maman, je vous cris    ]
+%%rm     Que j'seis arriv dans Paris     ] bis
+%%rm     Et que votr' gars est caporal 
+%%rm     Et qu'y s'ra bentt gnral !
+%%rm
+%%rm  2. A la bataill' je combattions, 
+%%rm     Les ennemis de la nation
+%%rm     Et tous ceux qui se prsents, 
+%%rm      grands coups de sabr' je l'z-monds !
+%%rm
+%%rm  3. Par l passit mon gnral, 
+%%rm     Qui dit : Vl un brav' caporal !
+%%rm     Et puis me demandit mon nom, 
+%%rm     J'li rpondit : Pelot d'Betton !
+%%rm
+%%rm  4. Il attirit z-un biau ruban, 
+%%rm     Et je n'sais quai au bout d'argent.
+%%rm     I'm dit : bout'a  ton habit, 
+%%rm     Et combat tourjou l'ennemi !
+%%rm
+%%rm  5. Faut qu'a sait d'quai ben prcieux, 
+%%rm     Pisque tous l'z-aut' m'appellent Monsieur !
+%%rm     Et bout' lou mains  leu chapiau 
+%%rm     Quand ils veul' conter o Pelot !
+%%rm
+%%rm  6. Maman, si j'meurs en combattant, 
+%%rm     J'vous enverrai mon biau ruban
+%%rm     Et vous l'bout'rez  vot' fusiau, 
+%%rm     Pour vous souveni' du gars Pelot !
+%%rm
+%%rm  7. Je vous dit ren pour mon cousin, 
+%%rm     Vous li direz que j'me port' ben
+%%rm     Et j'seis vot' trs humb' serviteur, 
+%%rm     Pelot qui vous salue de coeur !
+S:https://www.folktunefinder.com/tunes/147621
+S:http://termen.free.fr/danses/chants/ChantLettredePelotdeBetton.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

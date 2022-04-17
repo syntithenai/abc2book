@@ -1,0 +1,38 @@
+X:2
+T:Chace II
+C:Guillaume de Machaut, 14th c.
+M:6/8
+L:1/8
+K:C frenchtab
+%%tabaddflags 0
+%%pageheight 11in
+%%staffwidth 6.5in
+%%leftmargin .88in
+%
+a2 z1 ,e2 z1|z1 ,c2 z1 ,a1 ,,c|\
+,,d1 ,a ,c ,a/ ,,d ,,c ,,d ,,a ,,c|\
+,,,c3 ,,c3/2 ,,a/ ,,c1|
+,,d3/2 ,,c/ ,,d1 ,a3/2 ,c/ ,e1|\
+,c3/2 ,a/ ,,d1 ,a3|\
+,a/ ,c1 ,a1 ,,d/ z/ ,,c/ ,a3/2 ,a/|\
+z/ ,,a/ ,,c3/2 ,,a/ z/ ,,,c/ ,,,c3/2 ,a/|
+,,d1 ,,d/ ,,c ,,a ,,c ,,,c3|\
+z3 ,a2 z1|,c2 z1 a1 a1 z1|\
+,d1 a c a3/2 ,d/ ,c ,d| ,a1 ,,,c2 a1 z1 c1|
+c1 z1 ,c1 a1 z1 ,d1|c/ a1 ,e1 ,c/ ,a3|\
+,,c/ ,,d ,a1 ,a1 z/ ,,,c/ ,,c3/2 ,a/|\
+z/ ,,a/ ,,,c3/2 ,,a/ z/ ,a/ ,a3/2 ,a/|
+,,d/ ,a ,,d1 ,,d [,,,c3]:|
+%
+W:This is a chace (round) for three equal instruments.  Second and third voices enter
+W:when the previous voice reaches the "*%abctab2ps format
+%
+S:https://www.folktunefinder.com/tunes/147512
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Machaut/chace_2.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Machaut/chace_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:1
+T:Chovejte Me, Ma Maticko
+C:traditionell
+A:Tschechische Republik
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+D:Josef Rezny, The Hidden Spell Of The CechBagpipe/Hraly dudy 71 0129 711 BONTON Music 1993
+N:auf diesem tontraeger nr. 22
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+gf ed | Bc de | AB cd | Bc de |
+gf ed | Bc de | AB cd | B2 B2 ||
+AB cd | Bc de | AB cd | Bc de |
+gf ed | Bc de | AB cd | BA G2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/148222
+S:http://simonwascher.info/TradArchiv_polka/chovejte_me,_ma_maticko.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

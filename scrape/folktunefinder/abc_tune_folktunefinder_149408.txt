@@ -1,0 +1,22 @@
+X:16
+T:Tobin's Favorite
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:D
+A/F/ | "D" DFA dcd | "A" ecA      cde | "D" fdf    {a}"G"gfg | "A" ecA "(G)" GEF |
+       "D" DFA dcd | "A" ecA      efg | "D" (f/g/a)f "A" gec | "D" edc        d2 :|
+d    | "D" dfa agf | "A" (e/f/g)e efg | "D" fdf    {a}"G"gfg | "A" ecA "(G)" GEF |
+       "D" DFA dcd | "A" ecA      efg | "D" (f/g/a)f "A" gec | "D" edc        d2 :|
+S:https://www.folktunefinder.com/tunes/149408
+S:http://www.slowplayers.org/CKSP/Music/CK_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

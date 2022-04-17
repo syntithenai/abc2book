@@ -1,0 +1,17 @@
+X:1
+T:Joe Bouchard's Jig
+T:Deuxi\`eme Partie du Quadrille de I'lle d'Orl\'eans
+T:"Le Cotillon"
+M:6/8
+K:D
+A| "D"dfd "(F#m/C#)"cfc |"(Bm)" B2B B2 A | "D"dfd "D#dim"cfc | "Em7" B2 B B3 | 
+"A" ege "(Bm)"dgd | "A/C#"c2c c2B | "A7"ABA ABc |1 "D"dAB "A"A2 :|2"D"d3 d2 B||
+|:"D"ABA FAd | f3-f2 d|"D"e2d "D#dim" c2d | "Em7"g3 g2 f |
+ "A"eee e2 d | ccc c2 B | "A7"ABA ABc |1"D"dAB A2 A :|2"D"d3-d2|]
+S:https://www.folktunefinder.com/tunes/149944
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/JoeBouchards.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

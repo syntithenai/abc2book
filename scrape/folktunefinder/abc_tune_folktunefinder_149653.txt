@@ -1,0 +1,29 @@
+X:2
+%abctab2ps format
+%
+%%titlefont Times-Roman 18
+T:Der Ratten schwanz
+T:Contratenores
+C:Glogauer Liederbuch, Number 113
+Z:ABC transcription by Leonard Williams, arckon@dejazzd.com
+M:C|
+L:1/1
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+N:Original clef, C on fourth line
+K:D dor -8va
+z4A3/2 G//F// EEF/G/A/B/ c2BGA2G2z2z4zGABcAGAA/ E/ GF2
+E4zcc>BAGA2A>GFEF>EDCDFE2D4z2AGcBe2dcB2A2zE
+F>ED2zA G/E/FEDGAFDE2HD4|]
+%
+S:https://www.folktunefinder.com/tunes/149653
+S:http://www.laymusic.org/music/glogauer/113/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

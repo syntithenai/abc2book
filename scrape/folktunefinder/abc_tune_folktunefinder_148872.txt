@@ -1,0 +1,23 @@
+X:1
+T: COkertme
+O: Turkish
+M:4/4
+N: maqam=A-bayati
+K: C _B
+ee fe d2 a2 | gf ed cd e2 | cd2 e cB BA |[1 e3e ed e2 :| [2 A3 c' bd'c'2 |]
+|: c'c'2 b (ba) a2|(c'b) ag fe d2|fg ab g2 (ba)|(a2-a)g ^fg a2:|
+|:dd2 (f/e/) dd aa|(gf) (ed) cd ez|[1cd de cB A2|e3e ed e2:|
+[2 cd de (cB) (BA)|A3c' bd'c'2|]
+|:c'3b (ba) a2| (c'b) (ag) (fe)d2|^fg abf2 (ba)|[1a3c' bd'c'2:|[2a3a ^fga2|]
+|:ee ef d2a2|(gf) (ed) cd e2|cd de cB A2|e3 e ed e2|
+e(e fe) d2a2|(gf) (ed) (cd) e2|cd de (cB) (BA)|A6 z2:|
+S:https://www.folktunefinder.com/tunes/148872
+S:http://www.khafif.com/rhy/abc/Cokertme.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

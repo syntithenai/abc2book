@@ -1,0 +1,26 @@
+X: 1
+T: Constancy
+T: The Ton
+B: Hendrickson's "John Griffiths Dancing Master."
+R: march
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+Q: 1/4=108
+K: G
+[| "G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 \
+| "Am"c2 Ac | "G"B2 GB | "A(m)7"A2 BG | "D"GF ED |
+|  "G"G2 BG | "D"GF ED | "G"G2 BG | "D"d4 \
+| "D"A2 "G"BG | "D"A2 "G"BG | "D"F2 "A7"E2 | "D"D4 ||
+|| "G"d2 Bd | "D7"c2 Ac | "G"B2 GB | "D7"A2 D2 \
+|  "G"GB dg | "C"g2 eg | "A7"ag fe | "D"d4 |
+|  "G"d2 Bd | "D7"c2 Ac | "G(Em)"B2 GB | "D7"[AA]F [DD]C \
+|  "G"B,D GB | "C"Ec BA | "G"BG "D7"AF | "G"G4 |]
+S:https://www.folktunefinder.com/tunes/149482
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Constancy_G.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

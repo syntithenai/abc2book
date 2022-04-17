@@ -1,0 +1,38 @@
+X: 1
+T:Chanson Russ\'e
+C:Ludwig van Beethoven
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/beethoven-ludwig-van.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:G
+V:1
+Bddd|Bddd|ecAc|cBB2|
+V:2
+G,2F,2|G,2B,,2|C,2D,2|G,,2D,2|
+%
+V:1
+Bddd|Bddd|ecAF|AGG2:|
+V:2
+G,2F,2|G,2B,,2|C,2D,2|G,,4:|
+%
+V:1
+|:g2g>f|fee2|dedc|cBB2|
+V:2
+|:B,,2G,,2|C,2A,,2|D,2F,2|G,2D,2|
+%
+V:1
+g2g>f|fee2|ddef|a>gg2:|
+V:2
+B,,2G,,2|C,2A,,2|D,2D,,2|G,,4:|
+S:https://www.folktunefinder.com/tunes/147570
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chanson_Russe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Chanson_Russe_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

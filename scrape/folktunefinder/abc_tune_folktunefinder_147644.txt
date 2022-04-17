@@ -1,0 +1,22 @@
+X: 1
+T: Chapel Keithack
+M: 3/4
+L: 1/8
+R: waltz
+K: Amaj
+|:c4 B>G|A4 E2|FE d2 (c/e/d/c/)|c3B E2|
+c4 B>G|A4 E2|FDCB,A,G,|A,6:|
+e4 (c/a/g/f/)|&quot;tr&quot;f>e e2 ce|&quot;.&quot;f&quot;.&quot;e&quot;.&quot;d&quot;.&quot;c&quot;.&quot;B&quot;.&quot;A|c3B ~E2|
+e4 (c/a/g/f/)|&quot;tr&quot;f>e e3 ^d/e/|fg/a/ g2 &quot;tr&quot;f>^d|e6|
+c4 B>G|A4 E2|F>E d2 (c/e/d/c/)|c3B E2|
+c4 B>G|A4 E2|FDCB,A,G,|{G,}A,6||
+S:https://www.folktunefinder.com/tunes/147644
+S:http://www.thesession.org/tunes/display/7574
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

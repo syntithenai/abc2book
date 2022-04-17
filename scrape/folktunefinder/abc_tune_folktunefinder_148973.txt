@@ -1,0 +1,21 @@
+X: 1
+T: Jack's The Lad
+T: The Sailor's Hornpipe
+T: The College Hornpipe
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+GF|G2G, G,DC|B,DGF GBAG|A2A,2 A,2AG|FAd2 d2ef|
+gfed edcB|cBAG GFED|EGFA GBAc|B2G2 G2:|
+|:DC|B,DGD B,DGD|E2C2 C2ED|^CEAE CEAE|F2D2 D2AB|
+cBcd edcB|cBAG GFED|EGFA GBAc|B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/148973
+S:http://www.thesession.org/tunes/display/1097
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

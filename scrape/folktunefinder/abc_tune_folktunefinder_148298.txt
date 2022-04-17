@@ -1,0 +1,33 @@
+X:7
+T:Christmas Tree
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:6/8
+L:1/8
+K:C
+|:C |\
+"Dm"D2 A AGA |\
+"Dm"D2 A AGA |\
+"C"GED CDE |\
+"Am"GED CDE |\
+"Dm"D2 A AGA |\
+"Dm"D2 A AGA |\
+"C"GED "Am"CDE |\
+"Dm"EDC D2 :: _B |\
+"Dm"A2 d def |\
+"Dm"A2 d def |\
+"C"ece gag |\
+"Am"ece gfe |\
+"Dm"A2 d def |\
+"Dm"A2 d def |\
+"C"edc edc |\
+S:https://www.folktunefinder.com/tunes/148298
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/ChristmasTree.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

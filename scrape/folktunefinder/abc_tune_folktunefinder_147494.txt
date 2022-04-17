@@ -1,0 +1,29 @@
+X:1
+T:Cercle circassien : Termen A
+%%scale 0.80
+Z:Roger Ngaret (94-95)
+R:marche
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=180
+M:6/8
+L:1/16
+K:C
+"Am"E4 A2 A4 G2 | E4 E2 "G"D2B,2D2 | "Am"E4 A2 A4 B2 |
+c2A2c2 "G"B2G2B2 | "Am"E4 A2 A4 G2 | E4 E2 "G"D2B,2D2 |
+"Am"E2A2B2 c2d2c2 | "G"B2c2B2 "Am"A6 ::
+e4 e2 e2f2e2 | "G"d2c2B2 "F"A4 B2 | c2A2A2 A2B2c2 |
+"G"d2B2B2 B2c2d2 | "Am"e4 e2 e2f2e2 | "G"d2c2B2 "F"A4 B2 |
+c2d2c2 "G"B2c2B2 | "Am"A4 A2 A6 :|
+S:https://www.folktunefinder.com/tunes/147494
+S:http://termen.free.fr/danses/termen/CerclecircassienTermenA.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

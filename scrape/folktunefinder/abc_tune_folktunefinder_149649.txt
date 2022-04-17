@@ -1,0 +1,24 @@
+X:1
+%abctab2ps format
+%
+%%titlefont Times-Roman 18
+T:Es solt ein man kein mle farn
+T:Superius
+C:Glogauer Liederbuch, Number 80
+M:3/4
+L:1/1
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+N:Original clef, C on first line
+K:G mix
+z z G G2 G _B2 B A2 A F3 A2 A A2 A G2 ^F G2 G A > G E/ F/ G2 G A2 G F3 E2 D2 E D D2 
+^C D3 z2 z F2 G A2 G F2 G A2 _B c2 c c2 c F2 F A2 A D > E F G2 ^F HG3 |]
+S:https://www.folktunefinder.com/tunes/149649
+S:http://www.laymusic.org/music/glogauer/80/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

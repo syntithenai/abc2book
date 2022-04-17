@@ -1,0 +1,30 @@
+X: 4
+T:L'amour de moy
+T:Manuscript de Bayeux
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+K:C
+V:1
+L:1/4
+G2 G G|C3 C|E2 A2|G3 F|ED/2C/2 DD|C4|
+c2 cc|d2>c2|BA/2G/2 AA|G4|A2AA|c>BAA|
+GF/2E/2 FF|E2>E2|G2>G2|C2>C2|E2 A2|G2>F2|
+ED/2C/2 DD|C4|c2 cc|d2>c2|BA/2G/2 AA|A4|
+A2 AA|G2>F2|ED/2C/2 DD| [1 C4 :|  [2 C4||
+V:2
+L:1/4
+E F/2E/2 D E/2D/2|C2>G2|Bc/2B/2 AB/2A/2|[GE]FED|ED/2C/2 D/2C/2 D/2B,/2|C4|
+E2EE|G2>A2|BA/2G/2 A/2G/2A/2^F/2|GFED|F2 FF|E>G FF|
+EF/2E/2 D/2E/2 F/2D/2|E2>E2|E2>D2|C2>C2|ED/2E/2 FE/2D/2|G2>F2|
+ED/2C/2 D/2C/2 D/2B,/2|C/2B,/2 C/2D/2 E/2D/2 E/2F/2|E2 EE|G2>G2|BA/2G/2 AG/2^F/2|G4|
+FA/2B/2 c/2A/2 c/2d/2|e/2G/2 C/2E/2 D/2E/2 F/2D/2|E D/2C/2 D/2C/2 D/2B,/2| [1 C/2B,/2 C/2D/2 E/2D/2 E/2F/2 :|  [2 E4 ||
+%%footer $D   Galouvielle-MBe 2006 \n-- (--)
+S:https://www.folktunefinder.com/tunes/147565
+S:http://michel.bellon.free.fr/Musique/abc/ManuscriptdeBayeux.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/vendredi/ManuscriptdeBayeux.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

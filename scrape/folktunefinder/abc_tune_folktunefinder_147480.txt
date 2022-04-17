@@ -1,0 +1,32 @@
+X: 3
+T:Tarentelle
+G:Kazimodal
+R:Tarentelle
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3/1=140
+P:G3
+M:6/8
+%%MIDI gchord fzcccf
+%%MIDI chordprog 105
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 3
+K:Em
+P:G
+|: "Em"Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | "Bm"agf "Em"gfg |
+Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | agf "Em"e3 :|
+|: "C"e'2 e' "Em"b2 b | "C"e'2 e' "Em"b2 b | bab "Am"c'2 c' | c'd'c' "Em"b3 |
+"G"bc'b "D"a2 a | "Am"aba "C"g2 g | efg "D"fdf | "Bm"agf "Em"e3 :|
+%%text 1: Em
+%%text 2: Descente Em, D, C, Bm
+S:https://www.folktunefinder.com/tunes/147480
+S:http://kazimodal.trad.org/partitions/cercles_circassiens/LE_cercle/LE_cercle.abc
+% Rhythm Tarentelle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:0596
+T:"Celia Connellan"     (air)     0596
+C:Unattributed
+C:slow
+N:Left it in F as I have no idea how to deal with all the bloody gracenotes!
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:2/4
+L:1/16
+K:F
+"_VB"(A/2B/2 AG)|(A2d2) (.d2d/2e/2f/2e/2)|{^c}d4.d2(=cA)|{^B}c4(GF)(GA)|{=B}c4(dc) ({AB}AG)|
+A2d2 (.d2d/2e/2f/2e/2)|{^c}d4.d2(=cA)|{=B}c4TRE3D|C2A,2 C2(DE)|F4z2||
+F2GA c2(A/2G/2F)|E4(.A.G.F.E)|D3E D2A,2|D2E2 FGFG|A2(de) (f2e2)|
+{^c}d4d2(=cA)|{=B}c4.A2(GE)|(.G.F.E.D) D3D|D6|]
+S:https://www.folktunefinder.com/tunes/147440
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0596-CeliaConnellan.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0596-CeliaConnellan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

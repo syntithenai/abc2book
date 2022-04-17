@@ -1,0 +1,27 @@
+X: 2
+T: Chalk Sunday
+S: &quot;Joyce's Old Irish Folk Music and Songs&quot;, 1909, pages 12 - 13
+M: 6/8
+L: 1/8
+R: air
+R: jig
+K: Gmaj
+|: B/A/ |\ 
+G>AG B>AB | GBd g2 e | dBG AGE | A>BA A2 B/A/ | 
+G>AG BAB | GBd g2 e | dBG AGE|G2 G G2 :|
+|: (3d/e/f/ |\ 
+g>ag fed | ede/f/ g2 f/e/ | dBG cBc | ABd e2 (3d/e/f/ | 
+gag fed | ede/f/ g2 e | dBG AGE | G2 G G2 :|
+S:https://www.folktunefinder.com/tunes/147525
+S:http://www.thesession.org/tunes/display/9081
+% Rhythm Air
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

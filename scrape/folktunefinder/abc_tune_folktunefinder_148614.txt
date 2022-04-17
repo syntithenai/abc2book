@@ -1,0 +1,26 @@
+X: 4
+T:Coffee
+M:6/8
+L:1/8
+C:Gary Haggerty
+S:Portland Collection
+R:Jig
+B:Portland Collection
+K:G
+"Am"EAA GAA|cBA eAA |EAA GAA |"Em"cBA ABA|!
+"Am"EAA GAA |cBA eAA |"F"cBA "Em"ABA| GED "Am"A3 :|!
+|:"Am"A,2 C EGA |"(F)" cBA GED |"Am (D)"A,2 C EGA |"(F)"cBA A3|!
+"Am"A,2 C EGA |"G"d2 c- "Am"cAG|"G"d2 c- "Am"cAG|"Em"EDE
+ "Am"A3 :|
+% Output from ABC2Win  Version 2.1 i on 1/21/2006
+S:https://www.folktunefinder.com/tunes/148614
+S:http://internet.cybermesa.com/~keating/music_abc/col-coff.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

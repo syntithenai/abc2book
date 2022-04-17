@@ -1,0 +1,52 @@
+X:1
+T:Chant de marins : Quinze marins
+%%scale 0.80
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+M:3/4
+L:1/4
+K:G
+Q:1/4=200
+e2 e | e2 e/e/ | e d c | d3 | B2 B | c2 A | \
+A G A | B3 | e e e | e>e e | e d c | d3 | B2 B | c2 A | A G B | A3 |\
+E A c | e>e e | e d c | d3 | B2 B | c2 A | A G A | B3 |\
+e e e | e>e e | e d c | d3 | B B B | c2 A | A G B | A3 |]
+%%rm
+%%rm  1. John Long Silver a pris le command'ment,
+%%rm     Des marins et vogue la galre,
+%%rm     Il tient ses hommes comme il tient le vent,
+%%rm     Tout l'monde a peur de Long John Silver.
+%%rm
+%%it     Quinze marins sur l'bahut du bord,
+%%it     Yop la ho une bouteille de rhum,
+%%it      boire et l'diable avait rgl leur sort,
+%%it     Yop la ho une bouteille de rhum.
+%%rm
+%%rm  2. C'est Bill le second du corsaire, 
+%%rm     Le capitaine Flint en colre
+%%rm     Est revenu du royaume des morts,
+%%rm     Pour hanter la cache au trsor.
+%%rm
+%%rm  3. Essaie un peu d'le contrecarrer, 
+%%rm     Et tu iras o tant d'autres sont alls
+%%rm     Quelqu's'uns aux vergues 
+%%rm               et quelqu's'uns par d'ssus bord,
+%%rm     Tout l'monde pour nourrir
+%%rm                          les poissons d'abord.
+%%rm
+%%rm  4. Tous nous finirons par danser la gigue, 
+%%rm     La corde au cou au quai des pendus
+%%rm     Toi John Forest et toi John Merwig,
+%%rm     Si prs du gibet qu'j'en ai l'cou tordu.
+S:https://www.folktunefinder.com/tunes/147601
+S:http://termen.free.fr/danses/chants/ChantdemarinsQuinzemarins.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

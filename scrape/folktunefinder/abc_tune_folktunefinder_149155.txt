@@ -1,0 +1,64 @@
+X: 1
+T:Komm, lieber Mai
+T:(Come sweet may) K. 596
+C:Wolfgang Amadeus Mozart
+%http://www.musicaviva.com/songs.abc
+V:1 Program 1 71 %Clarinet
+V:2 Program 2 0 %Piano
+V:3 Program 2 0 bass %Piano
+M:6/8
+L:1/8
+Q:3/8=80
+K:F
+V:1
+F|F2Ac2f|c3-cAF|B2B (Bc)B|A3 z2 F|
+V:2
+F|F2Ac2f|c3-cAF|[E2B2]B BcB|[F3A3] z2 F|
+V:3
+z|F,A,C F,A,C|F,A,C F,A,C|C,G,C C,G,C|F,A,C F,A,C|
+%
+V:1
+F2Ac2f|c3-cAF|G2G (GA)G|F3 z2 A|
+V:2
+F2A c2f|c3-cAF|[E2G2]G GAG|F3z2A|
+V:3
+F,A,C F,A,C|F,A,C F,A,C|C,B,C C,B,C|F,A,C F,A,C|
+%
+V:1
+B2 ^F (GA)B|(c2A) =f z f|(fe)d (dc)=B|c3 z2 F|
+V:2
+B2^F GAB|c2A f z f|fed dc=B|c3 z2 F|
+V:3
+G,B,C E,G,C|F,A,C F,A,D|G,=B,D G,DF|[CE]DC _B,A,G,|
+%
+V:1
+F2Ac2f|(fdB)G2d|(cA)c ({c}BA)G|F2 z z3|
+V:2
+F2Ac2f|fdBG2d|cAc {c}BAG|F2 c dcc|
+V:3
+F,A,C F,A,C|B,,D,G, B,,D,G,|C,F,A, C,E,B,|F,A,C E,G,B,|
+%
+V:1
+z6|z6|z6|z3 z2|]
+V:2
+=Bcc cde|f z c' {e'}d'c'c'|{c'}=bc'a c'_bg|fca f z|]
+V:3
+F,A,C G,_B,C|F,A,C E,G,B,|F,A,C C,E,B,|[F,2A,2]C [F,A,] z|]
+W:
+W:Komm, lieber Mai, und mache die B\"aume wieder gr\"un,
+W:und la\ss uns an dem Bache die kleinen Veilchen Bl\"uhn!
+W:Wie m\"ocht ich doch so gerne ein Veilchen wieder sehn,
+W:ach, lieber Mai, wie gerne einmal spazieren gehn!
+W:
+W:Ach wenn's doch erst gelinder un w\"armer drau\ssen w\"ar!
+W:Komm, lieber Mai, wir Kinder, wir bitten dich gar sehr!
+W:O komm und bring vor allem uns viele Veilchen mit,
+W:bring auch viel Nachtigallen un sch\"one Kukkucks mit.
+S:https://www.folktunefinder.com/tunes/149155
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ko/Komm_lieber_Mai_2.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ko/Komm_lieber_Mai_2.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

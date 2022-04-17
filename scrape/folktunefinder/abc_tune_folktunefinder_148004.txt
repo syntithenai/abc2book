@@ -1,0 +1,52 @@
+X: 1
+T: Chez Seychelles
+M: 3/4
+L: 1/8
+R: mazurka
+K: Fmaj
+f fe |
+d3 e fe | d3 e fg | a3 g fe | d3 e fe |
+d3 c AB | c3 B AG | F3 f fe |
+d2 de fe | d2 de fg | a2 ag fe | d2 de fe |
+d2 dc AB | cd cB AG | F2 F ||
+A AB |
+c2 fc af | g2 f3 c | df dc BA | G3 A cd |
+e2 ee ge | (3fgf e3 d | cd ed cB | A3 c de |
+f2 af ae | (3gag f3 c | df dc dc | B2 Bc BA |
+Bc df ga | gf dc df | (3efe dc Bc | A3 ||
+|: f f>e |
+d2 d>e f>e | d2 d>e f>g | a2 a>g f>e | d2 d>e f>e |
+d2 d>e f>e | d2 d>c A>B | c>d c>B A<G | F2 F :|
+|: G A>B |
+c2 f>c a>f | g2 f2 f>c | d>f d>c B>A | G2 G>A c>d |
+e2 e>e g>e |1 (3fgf e2 e>d | c>d e>d c<B | A2 A :|
+[2 f2 e2 d2 |  (3efe d>c B<c | F2 F ||
+K: Dmaj
+|: d d>c |
+B2 B>c d>c | B2 B>c d>e | f2 f>e d>c | B2 B>c d>c |
+B2 B>c d>c | B2 B>A F>G | A>B A>G F>E | D2 D :|
+|: E F>G |
+A2 d2 f>A | (3efe d>F d>A | (3Bcd B>A G>F | E>D E>F (3GAB |
+[1 c2 e2 c2 | (3ded c2 B2 | A>B c>B A>G | F>E F :|
+[2 (3cdc e2 (3cde | d2 c2 B2 | A>B A>G F>E | D3 ||
+K: Gmaj
+|: g g>f |
+e2 e>f g>f | e2 e>f g>a | b2 b>a g>f | e2 e>f g>f |
+e2 e>f g>f | e2 e>d B>c | d>e d>c B<A | G2 G :|
+|: A B>c |
+d2 g>d B>d | (3aba g2 g>d | e>g e>d c>B | A2 A>B d>e |
+f2 a>f a>f |1 (3gag f2 f>e | d>e f>e d>c | B2 B :|
+[2 (3gag f2 e2 | (3fgf e>d ^c>d | G2 G ||
+S:https://www.folktunefinder.com/tunes/148004
+S:http://www.thesession.org/tunes/display/5052
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

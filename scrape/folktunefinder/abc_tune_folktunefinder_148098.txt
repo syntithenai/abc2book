@@ -1,0 +1,27 @@
+X: 1
+T: Chim Chim Cheree
+C: Richard M Sherman, Robert B Sherman
+N: From Walt Disney's "Mary Poppins"
+M: 3/4
+L: 1/8
+P: ABBABBAA
+K: Dm
+"A"\
+[| "Dm"D2 AA A2 | "A"A2 AA A2 | "Dm7"A2 B3 A | "G"G4 G2 \
+| "Gm"G2 A2 G2 | "Dm"F G3 F2 | "E7"E ^D3 "-5"E2 | "A7"A2 z2 z2 \
+| "Dm"D2 AA A2 | "A"A2 AA A2 | "Dm7"A2 B3 A | "G"G4 G2 \
+| "Gm"G2 A2 G2 | "Dm"F2 G2 F2 | "A7"E2 F3 E | "Dm"D2 z2 d2 \
+| "Gm"d2 c2 B2 | "Dm"d4 A2 | "A7"^c2 d2 e2 | "Dm"d4 "fine"z2 |]
+"B"\
+|:"Dm"D2 A2 A2 | "A"A2 A2 A2 | "Dm7"A2 B2 A2 | "G"G4 G2 \
+| "Gm"G2 A2 G2 | "Dm"F2 G2 F2 |1 "E"E2 ^D2 "E7"E2 | "A7"A2 z2 A2 :|2 "A7"E F3 E2 | "Dm"D4 "d.C."z2 |]
+S:https://www.folktunefinder.com/tunes/148098
+S:http://trillian.mit.edu/~jc/music/book/fake/C/ChimChimCheree_Dm.abc
+S:http://trillian.mit.edu/~jc/music/book/fake/T/ChimChimCheree_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

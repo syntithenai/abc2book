@@ -1,0 +1,25 @@
+X:1
+T:Cotton Eye Joe
+T:Cotton-Eyed Joe
+L:1/8
+R:reel
+M:C|
+K:A
+(AB \
+|: "A"c2) ee e2e2 | efee c2 "SL"(c2- | cB)A(A BA)FE |\
+[1 "(E)"ABAF- "(A)"E2 (AB :|[2 "(E)"ABAF- "(A)"E2(E2 ||
+|: "A"EF)AA A2A2 | B-ABA c2c2 | cBA(c BA)FG |\
+[1 "(E)"A-BAF- "(A)"E2(E2 :|[2 "(E)"A-BAF- "(A)"E2(AB |]
+N:Fiddlers Fakebook, p 74 - abc by Peter Ostapenko.
+N:Last update - PO 8/18/2007.
+N:A Major
+S:https://www.folktunefinder.com/tunes/150006
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/CottonEyeJoe.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

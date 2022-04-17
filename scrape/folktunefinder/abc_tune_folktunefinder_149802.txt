@@ -1,0 +1,24 @@
+X:200
+T:Cordick's Hornpipe
+R:hornpipe
+N:See #347 for history
+A:Limerick
+B:
+O:Irish
+M:C
+L:1/8
+K:D
+(3ABc|dAFA BGEG|FA dd d2 A2|Bdgf feed|ceAA AGFE|
+Fddd dAGF|Eeee ecBA|afbg fedc|d2 d2 d3::B|
+dgba gfed|ceag fedc|Bdgf feed|ecAA AGFE|
+Fddd dAGF|Eeee ecBA|afbg fedc|d2 d2 d2:|
+S:https://www.folktunefinder.com/tunes/149802
+S:http://www.sligo-man.com/abc/index2/200.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

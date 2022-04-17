@@ -1,0 +1,54 @@
+X:605
+T:Waltz
+T:(Coste Op. 7 no. 3)
+C:Johann Strauss, arr. Napol\'eon Coste
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/strauss-johann/strauss-coste-op7-3.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:3/4
+L:1/8
+Q:1/4=160
+K:D -8va
+V:1
+z A|z GcG c2|z2 d2L^d2|z GeGe2|z2 Lf2e2|z dfdf2|z2 [e2g2][L^e2^g2]|
+V:2
+z z|A,4 z2|[A,4G4] z2|A,4 z2|[A,4G4] z2|D4 z2|D4 z2|
+%
+V:1
+z fafa2|z2 [Lf2b2][f2a2]|z GcG c2|\
+z2 [G2d2]L^d2|z GeGe2|z2 [A2f2][G2e2]|z d'd'd'd'2|(d'e)eee2|
+V:2
+D4 z2|D4 z2|A,4 z2|A,4 z2|A,4 z2|A,4 z2|D4 z2|[G4B4] z2|
+%
+V:1
+[Gc]aaaa2|d2 z2|:"_p"Af|[A4f4](ed)|(cd)AFD2|d4 (cB)|^ABAF B,2|
+V:2
+A,6|F2D2|:z2 D4 z2|z2 z FD2|[B,4B4] z2|z2 z2 B,2|
+%
+V:1
+Bb (ba) (ag)|(gf) (fe) ed|(dc) (cB) (BA)|(^GA)Bcde|\
+"_f"[d4f4] ed|(cd)f(ad'2)|
+V:2
+G4 z2|[G4B4] z2|A,4 z2|A,6|D2F2A2|D2 z2 z2|
+%
+V:1
+[B4d2] cB|^A(B d)(f b2)|Bb (ba) (ag)|(gf) (fe) ed|(dc) a2 c2|d2 z2:|
+V:2
+B,2D2F2|B,2 z2 z2|[E,4G4B4] z2|[E,4B4] z2|[A,2G2] z2 [A,2G2]|[D2F2]D2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/149927
+S:http://abc.musicaviva.com/tunes/strauss-johann/strauss-coste-op7-3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/strauss-johann/strauss-coste-op7-3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/strauss-johann/strauss-coste-op7-3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/strauss-johann/strauss-coste-op7-3.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/musicaviva.com/tunes/strauss-johann/strauss-coste-op7-3.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

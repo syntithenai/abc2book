@@ -1,0 +1,25 @@
+X: 2
+P: Old Mother Flanagan
+R: reel
+N: Compare Greenfields of America and Off to California.
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: A
+|: "A"{g}a2a2 fecd | efec "(E)"BAFG | "A"ABAF EFAB |1 cBcd "E7"e4 :|2 "E7"cAB2 "A"A4 :|
+|: "A"ABAF EFAB | c2cA "(E)"BAFG | "A"ABAF EFAB | cBcd "E7"e4 |
+|  "D"f2fd "A"efec | "Bm"BcBA "E7"FEFG | "A"ABAF EFAB | "E7"cAB2 "A"A4 :|
+S:https://www.folktunefinder.com/tunes/149644
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Reel_Contra87.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Intl/FAC/Reel_Contra87.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

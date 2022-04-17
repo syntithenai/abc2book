@@ -1,0 +1,40 @@
+X: 1
+T:Colin, my son
+M:3/4
+L:1/8
+Q:99
+C:Copyright  1997 David de la Barre
+R:slow air
+N:(end with the A part played once through
+H:written for Colin E. de la Barre
+Z:D. de la Barr
+K:G
+|: GA | "G" B2 d3 B |"Bm" d3 gf g/2f/2  | "C" e2 d3 e | "D" B A3 GA | 
+"G" B d4 B | "Bm" d3 gf g/2f/2 | "C"e2 d3 e | "D" d4 d/2e/2f | 
+"Em" g3 ag a/2g/2 | "D" f2 e2 d2 | "C" e3 d2 e | "D" B A3 GA | "G" B d4
+e|
+"Bm"d4-d B | "C" A G3 GF | "G" G4 :|
+gf | "Em" e3 fe f/2e/2 | "D" d2 e2 f2 | "C" g3 ag a/2g/2 | "D" f2 g2 a2
+|
+"Em" b3 a g2 | "D" a2 g2 f2 | "C"d e3-e2-|e3 z e2 | "Am" c3 B AG |
+"D" d4 d/2e/2f | "Em" g3 ag a/2g/2 | "D" f2 e2 d2 | "C" e3 d2 e |
+"D"B A4 F | "G" G6-|G4 ef |
+"Em" g3 ag a/2g/2 | "D" f2 e2 d2 | "C" e3 d e2 | "D" f2 g2 a2 | "Em" b3
+a g2 | 
+"D"a2 g2 f2 | "C" d e3-e2-|e3 z e2 | "Am" c3 B AG | "D" d4 d/2e/2f | 
+"Em" g3 ag a/2g/2 | "D" f2 e2 d2 | "C" e3 d2 e | "D" B A4 F | "G" G6-|G4
+% (end with the A part played once through)
+% Output from ABC2Win  Version 2.1 i on 7/19/99
+S:https://www.folktunefinder.com/tunes/148952
+S:http://mysite.verizon.net/vzeo7z4q/COLIN.ABC
+% Rhythm Slow air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:2
+T:In feuers hitz -- O rosa bella
+T:Quodlibet
+T:Contratenores
+C:Glogauer Liederbuch, No. 119
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:4/4
+L:1/2
+N:Original clef, C on fourth line
+K:Bb -8va
+%%MIDI transpose -12
+c2 =e f g2 c2 c B A2 G4 g2 e d c2 z c
+S:https://www.folktunefinder.com/tunes/149665
+S:http://www.laymusic.org/music/glogauer/119/fourthup/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

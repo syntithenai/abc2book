@@ -1,0 +1,23 @@
+X:1
+T:Cochinchine
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+S:
+A:
+M:4/4
+L:1/16
+K:C
+Q:1/4=168
+"C"g4 g2g2 e2c2 e2g2 | e2c2 e2g2 g2f2 d2B2 | g4 g2g2 e2c2 e2g2 |1 
+g2f2 d2B2 c2d2 e2f2 :|2 g2f2 d2B2 c8 |: e4 e2e2 "Em"c2A2 (3A2c2e2 | 
+"Am"f4 f2f2 "G"d2B2 (3B2d2f2 | "C"g4 g2g2 "Em"e2c2 e2g2 |1
+"C"g2f2 d2B2 c2B2 c2d2 :|2 g2f2 d2B2 c8 |]
+S:https://www.folktunefinder.com/tunes/148798
+S:http://termen.free.fr/danses/termen/Cochinchine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

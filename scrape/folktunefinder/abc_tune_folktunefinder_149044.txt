@@ -1,0 +1,20 @@
+X: 1
+T: Colonel Thornton
+M: 4/4
+L: 1/8
+R: reel
+K: Amin
+A| E(A,A,B,) C2 CE | DCB,D ECDB, | E(A,A,B,) C/C/C CE | DB,GB, (G,A,) A,:|
+B,| (G,A,)A,C EA,CE | GEDG B,G,G,B, | (G,A,)A,C EA,CE| GEDB, A,/A,/A, A,B,|
+ (G,A,)A,A GAAE | GEDC B,DDA | E(A,A,B,) C/C/C CE | DB,GB, (G,A,) A,|
+B,| A,aag {ab}agea | gedg BAGB| Aaab {ab}ageg | dBgB A2 AB  |
+Aaab {ab}ageb | gedg BAGB | cBAB cdec | dBgB A2A|
+S:https://www.folktunefinder.com/tunes/149044
+S:http://www.thesession.org/tunes/display/2492
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

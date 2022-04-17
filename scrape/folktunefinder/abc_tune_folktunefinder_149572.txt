@@ -1,0 +1,26 @@
+X:1
+T:O Venus bant
+C: Josquin
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+M:C|
+L:1/2
+N: Original clef, C on first line
+K:G mix
+G > F D E2 F > E F G2 D E D G > A B c/ B/ A/ G/ F > E G4 G > F E D E C c2 A2 A/ G/ A/ B/ c2 A c > B A/ G/ F > E A A2 G/ F/ E > F G > F D F > G A G
+d2 B2 A/ G/ F > E G4
+z2 G2 G2 G2 A2 A2 G3 c2 B/ A/ B2 c > B G A G A2 G/ F/ E A2 A A2 A2 A3 G/ F/ E3 G > A B c A2 G/ F/ G2 A4 c3 B A3 G/ F/ E > F G A > B c > B A/ G/ F G F G2
+F G2 F G2 F G8 |]
+S:https://www.folktunefinder.com/tunes/149572
+S:http://www.laymusic.org/music/josquin/venus/allparts.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

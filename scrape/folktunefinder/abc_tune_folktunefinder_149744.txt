@@ -1,0 +1,30 @@
+X:4
+T:Cooley's Reel
+C:Trad, Ir.  (arr. JJ)
+M:4/4
+L:1/8
+Q:1/2=116
+K:Em
+ D2 | EBBA B2 EB | B2 AB dBAG | FDAD BDAD | FDFA [dB]AFD |
+ EBBA B2 EB  |  B2 AB defg | afec dBAF |1 DEFD E2 D2 :|2 DEFD E2 gf ||
+ eB B2 efgf | eB B2 gedB | A2 FA DAFA | BAFA defg | 
+ eB B2 efgf | eB B2 gfe^g | afec dBAF | DEFD E4 :||
+%%%%  line spacing corresponds to staff lines
+%%%%  spacing between note letters corresponds to bars
+%%%%  accidentals:  ^, =, _
+%%%%  - is a tie or slur
+%%%%  X == 
+%%%%  T == title
+%%%%  C == copyright or author
+%%%%  M == meter
+%%%%  K == key
+%%%%  L == length of shortest note (count of one)
+S:https://www.folktunefinder.com/tunes/149744
+S:http://www.ericdancepiano.com/abc/Sessions.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Scottish : Petit panier rose
+E:12
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+T:Chant
+Q:1/4=160
+"G"G2A2 B2c2 d4 d4 | "Am"e2d2 c2e2 "G"d8 | G2A2 B2c2 d4 d4 | \
+"Am"e2d2 c2B2 "D"A8 :: "G"d4 d2c2 "Em"B4 A2B2 |\
+"Am"c4 c2B2 "D"A8 | "G"d4 d2c2 "Em"B4 A2B2 | "D"c4 B2A2 "G"G8 :|
+T:contre-chant
+G2A2 B2G2 B4 B4 | "Am"c2B2 A2G2 "G"B4 G4 | G2A2 B2G2 B4 B4 | \
+"Am"c4 B4 "D"A8 :: "G"B4 B2A2 "Em"G8 | "Am"A4 A2B2 "D"c2d2 e2d2 |\
+"G"B4 B2A2 "Em"G4 F2G2 | "D"A2B2 A2F2 "G"G8 :|
+%%rm  Petit panier rose, petit panier blanc,
+%%rm  C'est donc toi la cause de tous mes tourments
+%%rm  Quand finiront, finiront, finiront,
+%%rm  Quand finiront, finiront mes tourments.
+S:https://www.folktunefinder.com/tunes/147575
+S:http://termen.free.fr/danses/scottishes/ScottishPetitpanierrose.abc
+% Rhythm Scottish
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

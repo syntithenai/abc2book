@@ -1,0 +1,25 @@
+X:1
+T:La Charge
+C:Manu Paris
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Dm
+D3/2E/2 FE- | EG AG | D3/2E/2 FE- | E4 |\
+D3/2E/2 FE- | EG AG | D3/2E/2 FG |1 GA/2G/2 FE :|\
+                                 [2 GA/2G/2 FG ||
+|:\
+A2 cB | BA GF | E3/2F/2 GA- | A4 |\
+DF EG | AB/2A/2 GF |1 E2 FG- | GE FG :|\
+                   [2 E2 ED | D4 |]
+S:https://www.folktunefinder.com/tunes/147648
+S:http://simonwascher.info/TradArchiv_bourree_2/la_charge.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

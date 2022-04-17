@@ -1,0 +1,20 @@
+X:6
+T:Invisible Rests Using X
+M:C
+K:C
+L: 1/4
+"F"z4|"F"x4|"F"z4|"F"x4|"Bb"z4|"Bb"x4|"F"z4|"F"x4|"C"z4|"Bb"x4|"F"z4|"F"x4||
+%%leftmargin 3cm
+S:https://www.folktunefinder.com/tunes/148551
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps-3.7.21/newfeatures.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/abcm2ps/newfeatures.abc
+S:http://abcplus.sf.net/abcm2ps_7.8.14-1_i386.deb
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/abcm2ps-3.7.21/newfeatures.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/src/abcm2ps/newfeatures.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

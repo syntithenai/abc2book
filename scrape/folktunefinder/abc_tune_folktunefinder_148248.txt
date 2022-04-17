@@ -1,0 +1,34 @@
+X:1
+T:Christl-Boarischer
+C:Volker Schoebitz
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Grossrussbacher Auslese 1991/1992
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+G2G2 B2B2 | AGAB c2A2 | F2F2 A3F | GFGA B4 |
+G2G2 B2B2 |AGAB c2A2 | F2F2 FGAF | G2G2 G4 :|
+|:\
+c4 B2A2 | GGGB D3G | FFFA DFAD | GFGA B2G2 |
+c4 B2A2 |GGGB D3G | FFFA DFAD | G2G2 G4 :|
+K:C
+|:\
+c2c2 e3G | c2c2 e3G | c2c2 e2e2 | d2d2 dcBA |
+d2d2 f3G |d2d2 f4 | BBBc d2B2 | c2c2c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/148248
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/christl-boarischer.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

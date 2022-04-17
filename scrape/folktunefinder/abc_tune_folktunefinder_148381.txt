@@ -1,0 +1,24 @@
+X:2
+T:Las cinc anglanas
+R:Bourre  3 temps
+C:Trad.
+O:France
+M:3/8 
+L:1/8
+Q:
+K:C 
+V:1
+"G7"G | "C"c2e | "G7"d/e/fe | "G7"ded | "C"c2e | "G7"d/e/fe | "G7"d2 ::
+"G7"G | "C"c2d | "C"e/d/cB | "F"ABG | "C"c2d | "C"e/d/cB | "C"c2 :|
+S:https://www.folktunefinder.com/tunes/148381
+S:http://michel.bellon.free.fr/Musique/abc/BalAuvergnat.abc
+% Rhythm Bourre  3 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

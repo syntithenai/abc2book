@@ -1,0 +1,23 @@
+X: 1
+T:The Concertina Reel
+M:4/4
+L:1/8
+Q:220
+C:Trad Irish
+S:Tony Murphy
+K:D
+FG|A2 FA BAFA|(3ABA FA BAFA|B2 cA BAcA|BAcA BAFA|!
+A2 FA BAFA|(3ABA FA BAFE|FABc d3 B|AFEF D2:|!
+zd|Ad d2 Ad d2|Ad d2 BAFA|B2 cA BAcA|BAcABAFA|!
+|Ad d2 Ad d2|Ad d2 BAFE|FABc d3 B|AFEF D2:|!
+S:https://www.folktunefinder.com/tunes/149281
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Concertina_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/co/Concertina_Reel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:9
+T:Corn Rigs
+Q:1/4=140
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+A2|d3e f2ed|cB cd ec A2|dc de fg fe|d2a2a2A2|
+d3e f2ed|cB cd ec A2|B2dB ed cB|A2d2d2:|
+|:A2|d2a2fg a2|cB cd ec A2|d2a2fg fe|d2a2a2A2|
+d2a2ba gf|gf ed dc BA|B2dB ed cB|A2d2d2:|
+S:https://www.folktunefinder.com/tunes/149876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/CornRigs.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/lewesarmsfolkclub.org/CornRigs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

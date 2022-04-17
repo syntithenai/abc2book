@@ -1,0 +1,20 @@
+X:1
+T:Cold and Raw
+M:6/4
+L:1/4
+K:G
+ E3/2- F/2 E G3/2- B/2 A| B- c d D3| E3/2 F/2 E| B3/2- A/2 G| E3 G3|\
+ E3/2- F/2 E G3/2- B/2 A| B3/2- c/2 d D3/2- E/2- D| E2 E B3/2- A/2 G|\
+ E3 G2| G| G- F G G2 G| A G A A2 A| B A B| e3/2- d/2 c| B3 d2 G| G- F G G- F G|\
+ A3/2- B/2 A A3/2- B/2 c| B A G F3/2- G/2 ^D| E3 B3|
+S:https://www.folktunefinder.com/tunes/148881
+S:http://back.numachi.com:8000/dtrad/abc/COLDRAW.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/COLDRAW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

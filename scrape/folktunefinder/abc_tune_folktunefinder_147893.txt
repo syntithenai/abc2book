@@ -1,0 +1,21 @@
+X: 1
+T: Chavouisses
+C: Ph.Prieur
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Gmix
+|: "G"B2 B4 A2 | "G"G3A B2c2 | "F"A2 A4  G2 | "F"F8 \
+|  "G"B2 B4 A2 | "G"G3A B2c2 | "F"A2F2 A2F2 | "G"G4 :|
+|: "G"d3c B2G2 | "F"F3G A2B2 | "F"c3B  A2c2 | "G"BcBA G4 \
+|  "G"d3c B2G2 | "F"F3G A2B2 | "F"c2B2 A2F2 | "G"G8 :|
+S:https://www.folktunefinder.com/tunes/147893
+S:http://trillian.mit.edu/~jc/music/abc/France/bourree/Chavouisses_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

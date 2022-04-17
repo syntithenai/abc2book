@@ -1,0 +1,50 @@
+X: 1
+T: Ceresna
+T: Chereshna
+O: Macedonia
+M: 2/4
+L: 1/8
+Z: John Chambers <jc@trillian.mit.edu>
+K: D
+P: In D:
+"instr:"x\
+| "D"[A3F3] [BG] | "Am"[=c2A2] [BG][AF] \
+| "D"[A4F4] | "A7"[G4E4] \
+| "D"[F3D3] [EA,] | [F2D2] [G2E2] \
+| "G"[AF][BG] [GE][BG] | "D"[A2F2] z2 |
+y\
+| "D"[A3F3] [BG] | "Am"[=c2A2] [BG][AF] \
+| "D"[A4F4] | "A7"[GE]A [GC]F \
+| "D"[F4-D4-] | "eind"[F4D4] |]
+"vocal:"x\
+|: "D"[A2F2] [AF][BG] | [c2A2] "G"[B2G2] | "D"[AF][BG] [AF][GE] | [F4D4] \
+| "A7"[G2E2] [FD][GE] | "D"[A4-F4-] | [A4F4] |
+y\
+| "D"[A2F2] [AF][BG] | [c2A2] "G"[B2G2] | "D"[AF][BG] [AF][GE] | [F4D4] \
+| "Gm"[AF][GE] [GE][FD] | "D"[F4-D4-] | [F4D4] :|
+%%sep 10 10 10cm
+P: In A:
+K: A
+"instr:"x\
+| "A"[e3c3] [fd] | "Em"[=g2e2] [fd][ec] \
+| "A"[e4c4] | "E7"[d4B4] \
+| "A"[c3A3] [BE] | [c2A2] [d2B2] \
+| "D"[ec][fd] [dB][fd] | "A"[e2c2] z2 |
+y\
+| "A"[e3c3] [fd] | "Em"[=g2e2] [fd][ec] \
+| "A"[e4c4] | "E7"[dB]e [dG]c \
+| "A"[c4-A4-] | "bina"[c4A4] |]
+"vocal:"x\
+|: "A"[e2c2] [ec][fd] | [g2e2] "D"[f2d2] | "A"[ec][fd] [ec][dB] | [c4A4] \
+| "E7"[d2B2] [cA][dB] | "A"[e4-c4-] | [e4c4] |
+y\
+| "A"[e2c2] [ec][fd] | [g2e2] "D"[f2d2] | "A"[ec][fd] [ec][dB] | [c4A4] \
+| "Dm"[ec][dB] [dB][cA] | "A"[c4-A4-] | [c4A4] :|
+S:https://www.folktunefinder.com/tunes/147498
+S:http://trillian.mit.edu/~jc/music/abc/Intl/FAC/Chereshna.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

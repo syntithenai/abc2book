@@ -1,0 +1,31 @@
+X:3
+T:Random Jig
+R:jig
+D:Double Barrelled, John Skelton & Kieran O'Hare
+C:James Hill (not verified)
+B:The Lads Like Beer (James Hill)
+H:although attributed to Hill there is controversy
+N:May be a 19th century French Cottilion
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+L:1/8
+Q:288
+M:6/8
+K:D
+A|~d3 fed|cea ecA|~B3 efg|Bed cBA|
+d2 d fed|cea ecA|BAB efg|Bec d2:|
+|:z|DFA FAd|Adf dfa|afa geg|fdf ecA|
+DFA FAd|Adf dfa|dcB fed|cec A2:|
+|:B|Aaa Bbb|Ggg Aaa|d2 d efg|Bed cBA|
+Aaa Bbb|Ggg Aaa|dAd efg|Bec d2:|
+S:https://www.folktunefinder.com/tunes/147703
+S:http://cranfordpub.com/tunes/abcs/OHareSkelton.abc
+S:http://www.cranfordpub.com/tunes/abcs/OHareSkelton.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

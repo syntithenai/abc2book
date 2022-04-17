@@ -1,0 +1,23 @@
+X: 1
+T: Cdulie
+M: 4/4
+L: 1/8
+R: reel
+K: Fmaj
+AF (3FFF AFAF | CFAF GABc | d2Bd cBAc | BAGB AFcB |
+AF (3FFF CFAF | GABc d2Bd | cBAc BAgf |1 ecde f2cB :|2 [M:2/4] ecde ||
+|:[M:4/4] f2cf Afcf | f2af gfef | dg (3ggg dgBg |\
+[M:5/4] dg Bg fe dc de |
+[M:4/4] fc (3ccc Acag | fedc BAGA |1 [M:3/4] Bc df eg :|2 [M:3/4] Bc df eg | [M:2/4] f2 cB ||
+S:https://www.folktunefinder.com/tunes/147407
+S:http://www.thesession.org/tunes/display/7879
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

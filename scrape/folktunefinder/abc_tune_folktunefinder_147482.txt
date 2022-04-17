@@ -1,0 +1,26 @@
+X: 1
+T: Tarantella
+M: 6/8
+L: 1/8
+R: jig
+K: Amin
+|a2a e2e|a2a e2e|ede f2f|fgf e3|
+efe d2d|ded c2c|cdc B2d| c2B A3|
+a2a e2e| a2ae2e| edef2f| fgfe3 |
+efe d3| ded c3 |cdcB2d |c2B A2B|
+cBc dcB|c2A ABc|B2B dcB|c2A A2B|
+cBc dcB|c2A A2c| B2dc2B|A3 A2B|
+cBc dcB|c2A ABc|B2B dcB|c2A A2B|
+cBc dcB|c2A A2c|B2d c2B|A3 A3|
+|:cGc ece|g2g gag|f2f fgf|
+e3e3|cGc ece|g2g g2a|bag fed|c3c3:|
+S:https://www.folktunefinder.com/tunes/147482
+S:http://www.thesession.org/tunes/display/2721
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

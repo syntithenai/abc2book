@@ -1,0 +1,25 @@
+X:1
+T:Der vglein art
+T:Diskantes
+C:Glogauer Liederbuch, No. 217
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:3/2
+L:1/2
+N:Original clef, C on first line
+K:G mix
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+|:G2 G G A3/2 G// F// E2 z D G A B2 c > B d > c B A2 G2 ^F G2 z G F E D E > D C2 B, |1 C4 z2 
+:|2 C2 z G G G/ A/ B > G B A G ^F G2 z G F/ D/ E D > E F/ G/ A/ B/ c2 B A > G G >  ^F ^F/ E/ HG6 |]
+S:https://www.folktunefinder.com/tunes/149655
+S:http://www.laymusic.org/music/glogauer/217/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:4
+T:Cockle Geordie
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:F
+fdeg | fd A2 | fdeg | fd G2 |
+fdeg | fd A2 | fdeg | fd G2 ::
+FG AB/c/ | dc A2 | FG AB/c/ | dc G2  |
+FG AB/c/ | dc A2 | FG AB/c/ | dc G2 :|
+S:https://www.folktunefinder.com/tunes/148817
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Cockle_Geordie.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/NorthumbrianMinstrelsy/Cockle_Geordie.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

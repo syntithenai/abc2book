@@ -1,0 +1,38 @@
+X:504
+T:Conditor alme siderum
+T:Ditt skaparljos i stjernor bor
+C:anon., arr. Frank Nordberg
+R:Hymn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-01.abc
+%Posted September 4th 2000 at abcusers by Frank Nordberg
+V:1 Program 1 68 %Oboe
+V:2 Program 2 42 %Cello
+V:3 Program 3 43 bass %Double bass
+M:none
+L:1/8
+Q:1/8=120
+K:Ephr
+V:1
+E  CE   GG   AF  HG2  G  AF  GF   ED   HE2 G  FD   EF   ED   HC2  C  EF   GF   ED   HE2 |]
+V:2
+B, G,B, DD   EC  HD2  D  EC  DC   B,A, HB,2 D  CA,  B,C  B,A, HG,2 G, B,C  DC   B,A, HB,2|]
+V:3
+E, E,G, B,B, CA, HG,2 G, CA, B,A, G,F, HE,2 G, A,F, G,A, G,F, HC,2 C, G,A, B,A, G,F, HE,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/149299
+S:http://abc.musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/conditor-alme-siderum/conditor-alme-siderum-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/conditor-alme-siderum/conditor-alme-siderum-01.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

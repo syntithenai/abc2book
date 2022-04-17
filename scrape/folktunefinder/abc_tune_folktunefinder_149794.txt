@@ -1,0 +1,22 @@
+X:95
+T:Cordal Jig
+R:jig
+D:De Dannan: Anthem.
+Z:id:hn-jig-34
+M:6/8
+K:D
+BAF ~E3|FEF DFA|BAF EFA|B2A Bcd|BAF ~E3|FEF DFA|def edc|B2A Bcd:|
+|:~d3 fed|~c3 ecA|~d3 fed|f2e fga|~d3 fed|~c3 ecA|dcB cBA|B2A Bcd:|
+S:https://www.folktunefinder.com/tunes/149794
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisCorrigan.com/music/Cordal_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ChrisCorrigan.com/music/Cordal_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

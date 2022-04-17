@@ -1,0 +1,24 @@
+X:1
+T:Chazn Kale Mazel Tov
+C:Jewish wedding song
+C:As remembered by T. Traub 1-19-2003
+R:Reel
+M:4/4
+K:Dm
+L: 1/8
+|:z A,DF|"Dm"A2 A2 "A"^G2 A2|"Dm"FE D2-DA,DF|"Dm"A2 A2 ^G2 A2|"Am"Bc A2-A"A"AB^c|
+"Dm"d2 A2 ^G2 A2|"Dm"FE D2-DDEF|"Gm"GG-GF "A"A/G/F F/E/D| "Dm"D4 :|
+|:z CFA|"F"c2 c2 =B2 c2|"F"AGF2-FCFA|"F"c2 c2 =B2 c2|"F"d_ec2-cCFA|
+"F"c2 c2 =B2 c2|"Dm"AGF2-FDEF|"Gm"GG-GF "A"A/G/F F/E/D| "Dm"D4 :|
+S:https://www.folktunefinder.com/tunes/147895
+S:http://terrytraub.org/abc/chasn_kale_mazl_tov.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/chasn_kale_mazl_tov.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/tastysoftware.com/abc/chasn_kale_mazl_tov.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

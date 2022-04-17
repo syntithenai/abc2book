@@ -1,0 +1,33 @@
+X: 1
+T:Cauld Kail in Aberdeen Kail-castocks in Strabogie - Bagpipe humour
+S:George Skene's MS, NLS Adv.MS.5.2.21, 1715
+N:anacruses 1, 5 added by me
+Z:Jack Campin 1998
+M:4/4
+L:1/8
+K:D
+f|\
+e2"||"c{B}A ed"//"BG|c/~d/e A~c/d/ "="e2d::e|"//"cA A/~A/A "="BGdB|
+"//"cA A/~A/A A/~A/A ae|"||"cA A/~A/A "="BGdB|c/~d/e Aa "="e2d::
+g|\
+"="fA"||"cA ed"||"BG|fA"//"cB/A/ "//"e2d::e|"//"cA c/~d/e G~B/c/ dB|
+"||"cA c/~e/a A~f/g/ ae|"="fdec gGdB|"//"cAca "//"e2d::
+g|a/g/f/e/ c/d/e/c/ g/f/e/d/ B/c/d/B/|a/g/f/e/ c/d/e/c/ "="e2d::e|"="c>a"="c>a BGdB|
+"="c>a"="c>a "||"cAae|c>ac>a ("//"BG)dB|"//"cA"||"fd "="e2d::
+e|\
+Aaeg dgdB|Aaeg "//"e2d::e|"||"cAgd "||"BGdB|
+"||"cAec ae"//"fe|"//"cAgd "//"BGdB|"//"cAca "//"e2d::
+e|\
+Ae c/d/e/c/ Gd B/c/d/B/|Ae c/d/e/c/ "="e2d::e|(3c~dc (3c~dc "||"BGdB|
+(3c~dc (3c~dc "="cAae|(3c~dc (3c~dc "||"BGdB|("||"c/B/A) "="fd "="e2d:|
+S:https://www.folktunefinder.com/tunes/147382
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Cauld_Kail_in_Aberdeen_Kail_castocks_in_Strabogie_Bagpipe_humour_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ca/Cauld_Kail_in_Aberdeen_Kail_castocks_in_Strabogie_Bagpipe_humour_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

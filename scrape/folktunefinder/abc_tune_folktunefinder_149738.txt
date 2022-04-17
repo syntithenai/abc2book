@@ -1,0 +1,20 @@
+X:1
+T:Cooley's Reel
+R:reel
+L:1/8
+M:4/4
+K:D
+"Em"EBBA B2 EB|B2 AB dBAG|"D"(3FED AD BDAD|(3FED AD BAGF|
+"Em"EBBA B2 EB|B2 AB defg|"D"afec dBAF|DEFD "Em"E4:|
+"Em"eB (3BBB eBgf|eB (3BBB gedB|"D"A2 FA DAFA|BAFA defg|
+"Em"eB (3BBB eBgf|eB (3BBB defg|"D"afec dBAF|DEFD "Em"E4:|
+S:https://www.folktunefinder.com/tunes/149738
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/reels/cooleys_reel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/web.syr.edu/%7Ehtkeays/music/session/abc/reels/cooleys_reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 1
+T: Christmas in Kinsale
+C: Tony O'Connell
+O: Chicago
+S: author
+R: jig
+M: 3/8
+L: 1/8
+Z: Contributed 20021111154419 by Glauber Ribeiro theglauber@yahoo.com
+K: G
+D |: GFG EGA | Bde dBG | dGG BGG | ADD FDD |
+GFG EGA | Bde dBG | ded BGB |1 AFD G2 D :|2 AFD G2 e/f/ |:
+gee def | gfg add | gee def | gdB A2 D |
+GFG EGA | Bde dBG | ded BGB |1 AFD G2 e/f/ :|2 AFD G2 z ||
+S:https://www.folktunefinder.com/tunes/148294
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/theglauber:yahoo.com/ChristmasInKinsale.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/ChristmasInKinsale.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/ChristmasInKinsale.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:1
+T:Colored Aristrocracy
+M:2/4
+L:1/16
+K:G
+(3 (E2F2G2) |:"G"G2GD EGED | G3D GFGA | "Em"B2Bc BAG2 | E6 AB|!
+"C"cdef gage |"G" dedc BAGB|1 "A"A2AB A2G2 | "D7"F2D2 E2F2:|2BAB(d "D7"d )BA2 |"G"G6 ef||!
+"G"g2ga gedB | "Em"Be2B e2ef | e2ef gfed | B6 AB |"C" c2ef gage|!
+"G" dedc BAGB |1"A"A2B2 "D7" c2^c2 | d2^d2 e2f2:|2BAB(d "D7"d)BA2 |G8|]
+S:https://www.folktunefinder.com/tunes/149050
+S:http://trillian.mit.edu/~jc/music/abc/mirror/library.yale.edu/ColoredAristrocracy.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/library.yale.edu/ColoredAristrocracy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

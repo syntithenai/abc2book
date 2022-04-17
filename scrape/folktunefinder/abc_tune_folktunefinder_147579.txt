@@ -1,0 +1,52 @@
+X:1
+T:Chant de marins : C'est en Sn
+E:12 
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad
+S:
+A:Bretagne
+M:2/4
+L:1/8
+K:G
+Q:1/4=120
+B2 B>A | (G2 G) d | dd dd | d2 A2 :|\
+B2 B>d | (G2 G)G | Ac BA G |: D | GB d2| d2 A>c | BA G :| 
+%%rm
+%%rm C'est en Sn qu'y a de tant belles filles    ] bis
+%%rm Qu'elles ont sduit marins et mariniers,
+%%rm Qu'elles ont sduit marins et mariniers.      ] bis
+%%rm
+%%rm Beau marinier vient-en dedans ma chambre      ] bis
+%%rm Nous y ferons tous deux l'amour ensemble,
+%%rm Dedans les bras de la volupet.               ] bis
+%%rm
+%%rm Sitt qu'ils furent rendus dedans la chambre  ] bis
+%%rm On entendit de doux bruits de baisers,
+%%rm Sitt suivis de grands embrassements.         ] bis
+%%rm
+%%rm Mais l'aut' n'amant                           ]
+%%rm                 qu'est  la porte qui bisque  ] bis
+%%rm Cr nom de Dieu que je suis malheureux,
+%%rm D'avoir perdu mon temps et mon z'argent.      ] bis
+%%rm
+%%rm Sur son navire attire son rival               ] bis
+%%rm Et lui foutit un grand coup d'anspec,
+%%rm Si bien suivi qu'il en a trpass.            ] bis
+%%rm
+%%rm Vous jeunes filles qu'entendez cette histoire ] bis
+%%rm Dites-vous bien que d'avoir deux amants,
+%%rm a vous attire que des emmerdements.          ] bis
+%%rm
+%%rm Il vaut bien mieux en avoir cinq ou six       ] bis
+%%rm a vous procure bien plus d'agrment,
+%%rm a vous procure bien plus d'agrment.         ] bis
+S:https://www.folktunefinder.com/tunes/147579
+S:http://termen.free.fr/danses/chants/ChantdemarinsCestenSene.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

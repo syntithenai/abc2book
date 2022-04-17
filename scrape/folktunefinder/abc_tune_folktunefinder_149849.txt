@@ -1,0 +1,113 @@
+X:1
+T:Nol
+T:en Dialogue, Duo et Trio
+T:sur le Cornet de Rcit, les Tierces du positif et la Pdale de flte
+C:Louis Claude Daquin (1694-1772)
+M:6/8
+L:1/8
+Q:"Lentement et trs tendre" 1/4=60
+%%staves {(1 2) 3} 4
+K:C
+V:1
+%%MIDI program 73
+"Accompagnement"z|f4z2|e4g2|a3 aga|f4z2|f2-f/f/e/d/ ^c/d/d/c//Pd//|
+e3Pd/c/B^c|d4[A2-^c2]|[A4d4]d2|d2^cc cB/c/|d3^c f3/e//d//|
+e3def|Pe4f2|^ccPc3B/c/|d2_B3d|d2e3f|f2e4|
+[A4d4][d2f2]|^cdcd/e/fc|d2f3g/a/|_ba=bag_b|a4f2|^cd=cef^c|d2f3a|
+ag/f/e3f|f2e4|d4z"TRIO"d|a3aPef|{f}Mg4de|{e}Mf3fPe3/f/|
+V:2
+%%MIDI program 73
+x|d4^cd|B4B^c|d4 ^c2|[A4d4]z2|d2-d/z/zz2|
+B4G2|A2_B2AG|F4[F2A2-]|A6-|A6|
+_B3ABA|A4A2|A6|A2F3A|_B2G3=B|A2G4|
+F4A2-|A6-|A4z2|^cdedgf|e4A2-|A6-|A4-Ad|
+d^c/d/G3=B|A2G4|[F4A4]x2|x6|x6|x6|
+V:3
+%%MIDI program 53
+"Tierce du Positif"d|a3 aPef|{f}Mg4de|{e}Mf3fef|Pd4d2|Ma2-a/a/g/f/ e/f/Pf/e//f//|
+g3Pf/e/de|{e}Mf3//g//f//g//a//_b// ef//e//d//e// Pe3/d/|d4d2|{d}Me3e ed/e/|{e}Mf3e d3/e//f//|
+g3fed|P^c4d2|{d}eePe3d/e/|{e}Mf2{e}d3f|fe^c3d|d-(5:4:5d//e//d//^c//d//Pd3c|
+{c}Md4d2|MefePd/^c/de|{e}Mf2{e}d3e/f/|gagfed|P^c4d2|Mefe^cde|{e}Mf2{e}d3f|
+fe/d/^c3d|d-(5:4:5d//e//d//^c//d//Md3c|{c}Md4zD|F3FP^CD|{D}ME4B,^C|{^C}MD3DP^C2|
+V:4
+%%MIDI program 73
+z|"Pdale de flte"D,,4A,,2|E,,4F,,E,,|D,,2A,,4|D,,4z2|D,,4A,,2|
+E,,4F,,E,,|D,,2G,,2A,,2|D,,4z2|A,,4A,,2|D,,6|
+^C,,3D,,G,,D,,|A,,4z2|A,,4G,,2|F,,2_B,,3F,,|G,,2_B,,3^G,,|A,,6|
+D,,4z2|A,,2G,,2F,,E,,|D,,6|E,,F,,G,,A,,_B,,G,,|A,,4z2|A,,3G,,F,,E,,|D,,6|
+_B,,4-B,,^G,,|A,,6|D,,4z2|D,,4A,,2|E,,3F,,G,,2|^G,,2A,,4|
+%%staves {1 3} 4
+V:1
+Pd4zd|Ma2-a/a/g/f/ Pe^f|{f}Mg4de|{e}Mf3fPe3/f/|d4d2|e3e Pe3/d//e//|
+{e}Mf3e de/f/|g3fed|P^c4d2|efe^cde|{e}Mf2{e}d3f|f2-fe/d/ ^cd|
+d/=c/B/c/P^c3d|d4d2|edMef e/f//e//d//e//d//e//|{e}Mf2-f/g/f/e/ d3/e//f//|gfgfed|
+M^c4d2|efe^cde|{e}Mf2{e}d2zf|fe^c3d|d-d//^c//B//=c//P^c3d|d4z"DUO"d|
+V:3
+D4z2|zdP^c3=c|PBA{A}M_B3c|A2ddd^c|d4d2|d2^cc Pc3/B//c//|
+d4-dc|_B3AGF|E4f/d//B//^G//B//d//f//|^cd=cAB^c|d4zA|A2-AG/F/ EF|
+F/E/D/E/PE3D|D4F2|GFMGA G/A//G//F//G//F//G//|{G}MA2-A/_B/A/G/ F3/G//A//|_BABAGF|
+ME4f/d//B//^G//B//d//f//|^cd=cAB^c|{^c}Md4zA|AGE3F|F-F//E//D//E//PE3D|D3A,MD2-|
+V:4
+D,,6|zD,A,3A,|E,F,G,4|D,E,F,G,A,2|D,6|A,6|
+D,6|E,3F,^C,D,|A,,6|A,,2A,G,F,E,|D,4D,,2|_B,,4B,,^G,,|
+A,,6|D,,4D,2|=C,4C,2|F,,4_B,,2|^C,,D,,C,,D,,_B,,G,,|
+A,,6|A,,2A,,G,,F,,E,,|D,,6|_B,,4-B,,^G,,|A,,6|D,,3zz2|
+%%staves {1 3}
+V:1
+a3aef|{f}Mg2g2de|{e}Mf3fef|Pd4zd|Ma3aef|{f}Mg2g2de|
+{e}Mf3fef|Pd4zd|Me3e ed/e/|Mf4-fd|Mg3fed|P^c4zd|
+Me3e ed/e/|Mf2Pd3f|Pe3dd^c|{^c}d4zd|Me3e ed/e/|Mf4-fd|
+Mg3fed|P^c4zd|Me3e ed/e/|Mf2Pd3f|Pe3dd^c|{^c}d4d2|
+Ma3aef|Mg2g2de|{e}Mf3fef|Pd4d2|Ma3aef|Mg2g2de|
+{e}Pf3fef|Pd4d2|Pe3^cde|Mf2{e}d2ef|g3fed|P^c4d2|
+Pe3^cde|Mf2{e}d3d|Pe3dd^c|{^c}Md4d2|Pe3^cde|Mf2{e}d2ef|
+g3fed|P^c4d2|Pe3^cde|Mf2{e}d3d|Pe3dd^c|"TRIO"{^c}Md4zd|
+V:3
+DDA,B,C2|G,A,{A,}M_B,4|F,PG,/F,//G,//A,3A,|D,3A,MD2-|DDA,B,CC|G,A,{A,}M_B,4|
+F,PG,/F,//G,//A,3A,|D,4z2|zG,MA,3A,|A,G,/A,/M_B,4-|B,G,DD,G,_B,|A,2A,,4|
+zG,MA,3A,|A,G,/A,/M_B,3F,|G,F,G,E,A,A,,|D,6|zG,MA,3A,|A,G,/A,/M_B,4-|
+B,G,DD,G,_B,|A,2A,,4|zG,MA,3A,|A,G,/A,/M_B,3F,|G,F,G,E,A,A,,|D,4DE|
+FGAB^cd|EFGAB^c|DEFGAA,|D4D,,E,,|F,,G,,A,,B,,^C,D,|E,F,G,A,B,^C|
+DEFGAA,|D4d2|^cBAGFE|dc_BAGF|efedc_B|Aagfed|
+^cBAGFE|DC_B,A,G,F,|G,F,G,E,A,A,,|D,4d2|^cBAGFE|dc_BAGF|
+efedc_B|Aagfed|^cBAGFE|DC_B,A,G,F,|G,F,G,E,A,A,,|D,4zd|
+%%staves {1 3} 4
+V:1
+Maagfef|{f}Mg2-gPf/e/ de|{e}Mf3fPef|d4zd|Ma2-a/a/g/f/ e/f/Pf/e//f//|g2Pfede|
+{e}Mf3fPef|Pd4d2|e/d/Me/f/ e/d/Me/f/ e/f//e//d//e//d//e//|fe Mf-f//g//f//e// d-d//f//e//f//|\
+gagfed|
+V:3
+Mffed^cd|{d}Me2-ePd/=c/ B^c|{^c}Md3d^c2|d4zD|MF2-F/F/E/D/ ^C/D/PD/=C//D//|E2PD=CB,^C|
+D3DP^C2|D4F2|G/F/G/A/ G/F/G/A/ G/A//G//F//G//F//G//|AG MA-A//_B//A//G// F-F//A//G//A//|\
+_Bc=BAGF|
+V:4
+D,4G,A,|_B,2-B,A,/G,/ F,G,|^G,2A,4|D,6|D,,4A,,2|_B,,2A,,G,,F,,G,,|
+^G,,2A,,4|D,,4D,2|C,4C,2|F,,4_B,,2|G,,^F,,G,,A,,_B,,G,,|
+V:1
+P^c4d2|efe^cde|Mf2{e}d2zf|fe/d/^c3d|d2-d-d//^c//B//=c// P^c3/d/|
+V:3
+PE4f/d//B//^G//B//d//f//|^cd=cAB^c|{^c}Md4zA|AG/F/E3F|F2-F-F//E//D//E// PE3/D/|
+V:4
+A,,6|A,,2A,,G,,F,,E,,|D,,6|_B,,4-B,,^G,,|A,,6|
+V:1
+d4d2|e/d/Me/f/ e/d/Me/f/ e/f//e//d//e//d//e//|fe Mf-f//g//f//e// d/f/e/f/|gagfed|P^c4d2|
+V:3
+D4F2|G/F/MG/A/ G/F/MG/A/ G/A//G//F//G//F//G//|AG MA-A//_B//A//G// F/A/G/A/|_Bc=BAGF|PE4f/d//B//^G//B//d//f//|
+V:4
+D,,4D,2|C,4C,2|F,,4_B,,2|G,,^F,,G,,D,,^C,,D,,|A,,6|
+V:1
+efe^cde|Mf2{e}d2zf|fe/d/^c3d|d2-d-d//^c//B//=c// P^c3/d/|d6|]
+V:3
+^cd=cAB^c|{^c}Md4zA|AG/F/E3F|F2-F-F//E//D//E// PE3/D/|D6|]
+V:4
+A,,2A,,G,,F,,E,,|D,,6|_B,,4-B,,^G,,|A,,6|D,,6|]
+S:https://www.folktunefinder.com/tunes/149849
+S:http://moinejf.free.fr/abc/noel2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/noel2.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X: 1
+T: CONSTANT BILLY
+S: CJS(MSS)
+O: Bucknell
+B: Morris Ring
+P: A(A2B)3.A2
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+P: A
+|:G2d BGB | c2A AFD | BAG E2E | AGF G3 :|
+P: B
+  Gee e>de | ABc dBG | ABc dBG | ABc d3 |
+  G2d BGB | c2A AFD "S"|BAG E2E | DEF G3 ||
+P: S Last time - Caper out
+  ((2BA) G3 | ((2E>F) G3 | ((2D>E) F3 | G6 ||
+S:https://www.folktunefinder.com/tunes/149496
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Constant_Billy_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

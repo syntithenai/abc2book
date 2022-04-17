@@ -1,0 +1,34 @@
+X:1
+T:Constant Billy
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Adderbury
+O:English
+R:Jig
+%P:A/2(AB)$^6$
+P:A.(AB)6
+%:NoTeX
+%:NoWWW
+K:A
+I:speed 600
+P:A
+|: E | A2 e c<Ac | d2 B  G2 E | c>BA F2 E | EFG A2             :|\
+%
+%
+P:B
+   z | cde  f3   | Bcd   e3   | cde  f3   | Bcd e2 (3e/2f/2g/2 |\
+       a2 e c<Ac | d2 B  G2 E | c>BA F2 E | EFG A2             ||
+%
+S:https://www.folktunefinder.com/tunes/149497
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/constbil.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

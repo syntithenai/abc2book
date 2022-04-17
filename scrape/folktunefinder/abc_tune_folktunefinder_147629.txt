@@ -1,0 +1,43 @@
+X:1
+T:Chant : Veci la Saint-Jean
+E:12
+Z:Roger Ngaret (94-95)
+R:melodie
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=90
+A2A2 G2F2 | E4 A2A2 | B2B2 c2A2 ::\
+c2c2 B2A2 | B4 d2d2 | c2B2 c2A2 | c2 z c B2A2 | B6E2 |\
+A4 A2G2 |1 (A4 A2) z2 :|2 A8 |]
+%%rm
+%%rm Veci la Saint-Jean le temps des veilles ] bis
+%%rm O tous nos amants vont aux assembles.
+%%rm
+%%it Va, mon ami va, la lune se lve,
+%%it Va, mon ami va, la lune s'en va !
+%%rm
+%%rm Le mien n'y est pas, j'en suis assure  ] bis
+%%rm Il est  Paris, ou dans la Vende.
+%%rm
+%%rm Il est  Paris, ou dans la Vende,      ] bis
+%%rm Qu'apporteras-t-il  sa bien aime 
+%%rm
+%%rm Qu'apporteras-t-il  sa bien aime     ] bis
+%%rm Chapelet d'argent, ceinture dore.
+%%rm
+%%rm Chapelet d'argent, ceinture dore,      ] bis
+%%rm J'aimerais bien mieux bonne renomme.
+S:https://www.folktunefinder.com/tunes/147629
+S:http://termen.free.fr/danses/chants/ChantVeicilaSaintJean.abc
+% Rhythm Melodie
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

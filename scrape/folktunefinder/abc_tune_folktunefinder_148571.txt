@@ -1,0 +1,20 @@
+X:2
+T:My Darling Asleep
+R:jig
+O:Ireland
+M:6/8
+L:1/8
+K:D
+(d/e/) | "D" fdd   "A" cAA | "G" BGG "D" A2 G | "D" FAA     def | "G" gfg "A" eaa |
+         "D" fdd   "A" cAA | "G" BGG "D" A2 G | "D" FAA "G" def | "A" gec  "D" d2 :|
+(A/G/) | "D" FAA "(A)" Add | "D" FAA  "G" BGG | "D" FAA     def | "G" gfg "A" eaa |
+         "D" fdd   "A" cAA | "G" BGG "D" A2 G | "D" FAA "G" def | "A" gec  "D" d2 :|
+S:https://www.folktunefinder.com/tunes/148571
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

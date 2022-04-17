@@ -1,0 +1,42 @@
+X:4
+T:Chopska Petorka
+O:Macedoine de l'est
+M:2/4
+L:1/8
+Q:1/4=100
+P:ABA
+P:A
+K:Bb
+{A} BB FB | {A} BB FB | {A} BB FB | {A} BB FB :|
+B2 z2 | B2 z2 | B2 z2 | B2 B2 ||
+|: (3_agf (3e2d | (3d^cd (3=efB |\
+(3dBf (3e2d | (3d^cd B2 :|
+|: (3dBf (3e2d | (3d^cd (3=efB |\
+(3dBf (3e2d | (3d^cd (3BFB |
+(3dBf (3e2d | (3d^cd (3=efB |\
+(3dBf (3e2d | (3d^cd B2 :|
+P:B
+K:Ab
+c4- | c4 | g4- | g4 |
+|: (3fg=e (3f2e | (3fg=e (3f2e |\
+(3fg=e (3f2e | (3dcB (3cd=e |
+(3fg=e (3f2e | (3fg=e (3f2e |\
+(3fg=e (3f2e | (3dcB c2 :|
+|: (3=efg (3agf | (3g2f (3=efg |\
+(3=e2d (3dcB | (3c2c (3=efg |
+(3=efg (3agf | (3g2f (3=efg |\
+(3=e2d (3dcB | (3c2G c2 :|
+|: (3=e2d (3dcB | (3c2c (3=efg |\
+(3=e2d (3dcB | (3c2c (3=efg |
+(3=e2d (3dcB | (3c2c (3=efg |\
+(3=e2d (3dcB | (3c2G c2 :|
+S:https://www.folktunefinder.com/tunes/148153
+S:http://trillian.mit.edu/~jc/music/abc/mirror/users.skynet.be/infants/musiques/abc/est.txt
+S:http://users.skynet.be/infants/musiques/abc/est.txt
+S:http://www.geocities.com/infants_catiau/musiques/abc/est.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

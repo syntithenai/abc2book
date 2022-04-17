@@ -1,0 +1,34 @@
+X:0730
+T:"Cherish the Ladies"[mod] (jig) 0730  MIDI  ABC
+C:after Mr. Gillian
+N:Modified...makes more sense
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+dFF AFF|DFA AGF|BEE GEE|GBA GFE|
+dFF AFF|DFA AFA|Bcd efg|fdd d2 (3(A/2B/2c/2):|
+"2"|:dfd cec|dfd AGF|BEE GEE|GBA GFE|
+dfd cec|dfd AGF|Bcd efg|fdd d2A:|
+"3"|:dfd cec|dfd AGF|B zE G zE|GcB/2A/2 GFE|
+eGe cFc|dGd A2G|(A3/2B/2c/2d/2) efg|fdd d2B:|
+"4"|:Add fdd|add fdd|(A/2B/2c)d gfg|ece gfe|
+agf bgf|afd cBA|(3(f/2g/2a/2) dB AGF|GEF GFE:|
+"5"|:f2f afd|fed cde|g2g gfg|ece gfe|
+agf bge|afd cBA|fdB AGF|GEF GFE:|
+"6"|:DFA dAF|DFA BGE|DFA dAF|GEF GFE|
+DFA DGB|DFA d2e|fdB AGF|GEF GFE:|
+"7"|:dFF AFF|DFA AGF|BEE GEE|GBA GFE|
+dFF AFF|DFA AFA|Bcd efg|fdd d2 (3(A/2B/2c/2):|
+S:https://www.folktunefinder.com/tunes/147933
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0730-CherishLadies.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

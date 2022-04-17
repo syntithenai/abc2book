@@ -1,0 +1,27 @@
+X:1
+T:La Comtesse de Rudolstadt
+C:Simon Wascher 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:Gm
+B2BA GB | A4GF | D2B2AB | GF DF GD |
+dB GB dB | cA DA cA | BG DG BG | AG AD GA :|
+|:\
+BA BA GB | cB cB Ac | BA BA GB | AG AB cd |
+BA BA GB | cB cB Ac | BA GA Bc | de dc BA :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/149255
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/la_comtesse_de_rudolstadt.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

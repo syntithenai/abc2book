@@ -1,0 +1,24 @@
+X: 1
+T: Cleaning The Oven
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+|:EGA B2B | ABd B2G | FDD ADD | FAB AGF |
+[1EGA B2B | ABd BAG | FDF BAG |FEE E2D :|
+[2EGA BEG | Bed BAG |FDF BAG |FEE E2D ||
+|: EGA Bee | Bee EAG |Fdd Add |Fdd AGF |
+[1EGA BEE | BGE EAG |FDF AFD |FEE E2D :|
+[2~E3 ~B3 |efe dBG |FDF AFD |FEE E2D ||
+|: EGA  B2g | fed BAG | FAA dAA | ~f3 agf|
+~e3 gfe | dBG ~F3 | EGB eBG |FEE E2D :|
+S:https://www.folktunefinder.com/tunes/148521
+S:http://www.thesession.org/tunes/display/5307
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:7
+T:Mort d'Henri V
+C:Manuscript de Bayeux
+C:Arrangement : Michel Falze
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-04-24
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C
+L:1/8
+%%continueall 1
+%%alignbars
+K:Bb
+V:1
+G2GG A2zA | cc cB A4 | d2dd c2AA | GF G=E D4 :| F2GG A2zA | c>B AF AG/F/ =E2 |
+D4 z2AA | AA d2 d2 zd | cc cB A4 | d2dd c3c | BA BG F4 | F2GG A2zA | 
+c>B A>G F=E/D/ E2 | D8 - | D8 |]
+V:2
+C2 CC D2 zD | FF FE D4 | G2GG F2DD | CB,CA, G,4 :| B,2CC D2 zD | F>E DB, DC/B,/ A,2 |
+G,4 z2DD | DD G2G2 zG | FF FE D4 | G2GG F3F | EDEC B,4 | B,2CC D2 zD |
+F>E D>C B,A,/G,/ A,2 | G,8- | G,8 |]
+V:3
+G2GG A2zA | cccB A4 | d2dd A2AA | GFG=E D4 :| F2GG A2zA | c>B AF AG/F/ =E2 |
+D4 z2AA | AA d2 d2 zd | cc cB A4 | d2dd c3c | BA BG F4 | F2GG A2zA | 
+c>B A>G F=E/D/ E2 | D8 - | D8 |] 
+V:4
+C2 CC D2 zD | FF FE D4 | G2GG F2DD | CB,CA, G,4 :| B,2CC D2 zD | F>E DB, DC/B,/ A,2 |
+G,4 z2DD | DD G2G2 zG | FF FE D4 |  G2GG F3F | EDEC B,4 | B,2CC D2 zD |
+F>E D>C B,A,/G,/ A,2 | G,8- | G,8 |]
+V:5
+C,4 D,4 | F,4 D,4 | G,,4 F,4 | C,4 G,,4 :| B,,4 D,4 | F,4 D,4 |
+G,,4 G,,4 | D,4 G,,4 | F,4 D,4 | G,,4 F,,4 | E,,4 B,,4 | B,,4 D,4 |
+F,,4 B,,4 | G,,8 - |G,,8 |]
+S:https://www.folktunefinder.com/tunes/147568
+S:http://michel.bellon.free.fr/Musique/abc/ManuscriptdeBayeux.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: Colonel Graham's Favourite
+M: 6/8
+L: 1/8
+R: jig
+K: Fmaj
+|:G | c>dc c>eg | f>dB c2d | e>fg g>fe | d>ed dBG |
+c>dc c>eg | f>dB c2d | e>fg a>gf | g>ag g2 :|
+g | g>ag e>fg | f>af d>ef | e>ge c>de | d>BG G2B |
+c>dc e>ge | f>af d2f | e>cA d>BG | c>dc c2g |
+g>ag efg | f>af def | e>ge cde | d>BG G2B |
+cec dfd | ege fga | g>fe fed | c>dc c2 ||
+S:https://www.folktunefinder.com/tunes/149016
+S:http://www.thesession.org/tunes/display/6810
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

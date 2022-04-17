@@ -1,0 +1,24 @@
+X:1
+T:Christmas Eve
+R:reel
+M:4/4
+L:1/8
+K:G
+DB,DE ~G3A|B2dB ABGA|BAGE DB,DE|G2BG ABGE|
+DB,DE ~G3A|B2dB ABGA|BAGE G2BG|1 ABGE ~G3E:|2 ABGE ~G3A|]
+|:BABd edeg|a2ge g2eg|a2ge ~g3e|dedB A2GA|
+BABd edeg|bage g2eg|a2ge dBGB|ABGE ~G3A:|
+|:BG~G2 DGBd|eg~g2 egdc|BG~G2 DGBG|AGAB A2GA|
+BG~G2 DGBd|eg~g2 dega|bgag edBG|1 ABGE ~G3A:|2 ABGE ~G3E|]
+S:https://www.folktunefinder.com/tunes/148279
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:reels:1_christmas_eve.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

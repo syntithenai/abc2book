@@ -1,0 +1,23 @@
+X: 2
+T: Goldfield, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: dAF GAB | AFD ~E3 | DED DFA | d2 e f2 e |
+dAF GAB | AFE ~E3 | DED FEF |[1 D3 D3 :|[2 D3 D2 A ||
+BAA FAA | dAA FAA | BAA AFA | d3 d2 A |
+BAA FAA | dAA F2 D | ~E3 FEF | D3 D2 A |
+B2 A FAA | dAA FAA | BAA AFA | d2 e f2 e |
+ded cdc | ~B3 ABA | Bcd efe | d2 e f2 e |]
+S:https://www.folktunefinder.com/tunes/148047
+S:http://www.thesession.org/tunes/display/2062
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

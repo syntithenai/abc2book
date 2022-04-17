@@ -1,0 +1,19 @@
+X: 1
+T: Cobblestones
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+|:A,EDB, CA, (3A,A,A, | ED (3EFG A2GE | DB, (3B,B,B, GB, (3B,B,B, | G,B,DG EDB,G, |
+A,EDB, CA, (3A,A,A, | ED (3EFG ABcd | eaed caec | [1 Bbec A2A2 :| [2 Bbec A2^GB ||
+|: Aaed cAAc | dBcA BdcA | ^GE (3EEE FdAF | EF^GB Acef |
+g2Bg gfef | gafa (3gbg ed | cAA^g aefd | [1 Bbec A2^GB :| [2 Bbec A2A2 ||
+S:https://www.folktunefinder.com/tunes/148788
+S:http://www.thesession.org/tunes/display/4869
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

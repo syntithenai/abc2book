@@ -1,0 +1,29 @@
+X: 1
+T: CHERISH THE LADIES -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: JIG
+M: 6/8
+L: 1/8
+Z: Contributed 20000422020652 by John Chambers jc:ecf-guest.mit.edu
+K: D
+uA "Segno"\
+| dFF AFF | DFA AGF | BEE GEE | GBA GFE |
+| dFF AFF | DFA AGF | Bcd efg | fdd d2 :|
+|: uA \
+| dfd cec | dfd AGF | BEE GEE | GBA AGF |
+| dfd cec | BdB AGF | Bcd efg | fdd d2 :|
+[| uA \
+| ddd fed | afd fed | cd(e/f/) gfg | ece gfe |
+| agf bgg | agf edc | fdB AGF | GEF GFE "Segno"[|]"_D.C."[|]|]
+S:https://www.folktunefinder.com/tunes/147931
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/CherishTheLadiesJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/CherishTheLadiesJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/CherishTheLadiesJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Tunes/CherishTheLadiesJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

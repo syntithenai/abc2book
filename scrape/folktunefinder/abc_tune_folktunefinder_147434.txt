@@ -1,0 +1,23 @@
+X: 1
+T:Celebrated Quadrille, The
+R:Jig
+A:Lancashire
+B:Winder
+O:England
+M:6/8
+L:1/8
+K:G
+d|g2d d^cd|B2d G2B|c2e A2G|F2A DEF|!
+G2G B2d|g2b d2B|cBA d2F|G3 G2:|!
+|:d|gfg d2g|b2g d2B|cBc A2f|a2f d2f|!
+gfg d2g|[1 b2g d2g|f2f ea^c|d3 d3 :|[2 b2g d2B|cBA d2F|G3 G2:|!
+S:https://www.folktunefinder.com/tunes/147434
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ce/Celebrated_Quadrille_The_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ce/Celebrated_Quadrille_The_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

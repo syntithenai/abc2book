@@ -1,0 +1,30 @@
+X:2
+T:O Venus bant
+T:Tenor
+C: Josquin
+B: Odhecaton A
+B:db: -c 8 -b 21
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+%%MIDI transpose -12
+M:C|
+L:1/2
+N:Original clef, C on fourth line
+K:G mix -8va
+G4 A2 A2 G4
+z2 G2 A2 A2 G4
+z2 G2 c3 c c2 c > B A2 A > G A4 c2 c2 G2 G2 d4 B2 G2 "(1)"A4  G8
+N: (1) This ligature is sometimes two whole notes.
+z2 G2 d2 d2 e2 e2 d2 d2 c4
+z2 c2 c4 A2 A2 c2 c2 G2 G2 d2 c2 "(3)"B4 A8
+N: (3) This ligature is sometimes two whole notes.
+z2 A2 c2 c2 A2 A2 d4 B2 G2 "(2)"A4 G8 |]
+N: (2) This ligature is sometimes two whole notes.
+S:https://www.folktunefinder.com/tunes/149573
+S:http://www.laymusic.org/music/josquin/venus/allparts.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T:The Chicago Reel
+T:Eamonn's Reel (per Celtic Nots)
+M:C
+L:1/8
+Q:188
+R:Reel
+K:A Mixolydian
+cded cAGE | GE{A/2}E2 GA (3Bcd | eAgA aged | ea{c'/2}ag eged |
+cded cAGE | GE{A/2}E2 GA (3Bcd | ea{c'/2}ag eged | cABG A2 z2 ::
+cdef ~g3 e | ae{a/2}ed cA{c/2}A2 | cdef ~g3 f | ea{c'/2}ag a2 z2 |
+cdef g3 e |
+M:6/4
+a3f g3e f3d |
+M:4/4
+L:1/8
+ea{c'/2}ag eged | cABG A2 z2 :|
+S:https://www.folktunefinder.com/tunes/148014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/ChicagoReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/ChicagoReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/ChicagoReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/troseandassociates.com/abc/ChicagoReel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

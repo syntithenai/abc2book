@@ -1,0 +1,24 @@
+X: 1
+T:Copenhagen Waltz
+R:Waltz
+M:3/4
+N:in MR
+L:1/8
+K:G
+Bd |\
+ce Bd Ac | GB D2 GB | Ac D2 FA | GB D2 Bd |\
+ce Bd Ac | GB D2 GB | Ac D2 FA | G4 :|
+|:GB |\
+Ac D2 FA | GB D2 GB | Ac D2 FA | GB D2 Bd |\
+ce Bd Ac | GB D2 GB | Ac D2 FA | G4 :|
+S:https://www.folktunefinder.com/tunes/149764
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/co/Copenhagen_Waltz_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/co/Copenhagen_Waltz_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

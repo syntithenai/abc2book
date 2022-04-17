@@ -1,0 +1,30 @@
+X: 3
+T:Sheebeg and Sheemore
+T:Sheebeg Sheemore
+T:S\'i Beag S\'i M\'or
+C:Turlough O'Carolan
+H:Probably the first tune composed by O'Carolan. S\'i Beag and S\'i M\'or
+H:are two hills in Co. Leitrim associated in the local folklore with two
+H:bands of fairies continually at war with each other.
+Z:id:hn-carolan-3
+M:3/4
+L:1/8
+K:D
+de | f2fed2 | d3ed2 | B4A2 | F4A2 | BABcd2 | e4de | f2f2e2 | d4f2 |
+B4e2 | A4d2 | F3GE2 | D4f2 | B4e2 | A4dc | d2dec2 | d4 :|
+|: de | f2fed2 | edega2 | b2b2a2 | f4ed | e2e2a2 | f4ed | d4B2 | B4A2 |
+F2GFGE | D4f2 | B4e2 | A4a2 | bagfed | e2e/f/edc | d2dedc | d4 :|
+S:https://www.folktunefinder.com/tunes/147665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/Ocarolin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/SheebegAndSheemore.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/SheebegSheemore.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/co-mando.com/SiBeagSiMor.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/co-mando.com/Ocarolin.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Cork Hornpipe
+M: 4/4
+L: 1/8
+R: Hornpipe
+K: G
+"D7" Bc| "G" dBGB d2 gf| "C" egfe "G" d2d2 | "Am" cedc "Em"BdcB | "D" c2 A2 A2 Bc | 
+"G" dBGB d2 gf| "C" egfe "Bm" d2d2 | "Am"cdcB "D7" AcBA | "G" B2 G2 G2:|
+|:gf | "G" g2 G2 G2 gf | "Em" e2 E2 E2 ed | "Am" cedc "Em" BdcB | "D" c2 A2  A2 Bc |  
+"G" dBGB d2 gf| "C" egfe "Bm" d2d2 | "Am"cdcB "D7" AcBA | "G" B2 G2 G2:|
+S:https://www.folktunefinder.com/tunes/149817
+S:http://users.rcn.com/ladysmyth/tunes/CorkHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,45 @@
+X:1755
+T:Chanson Russ\'e
+T:Russian song (Theme from Op. 107 no. 3)
+C:Ludwig van Beethoven
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be107-03a/be107-03a-pno1.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:G
+V:1 
+Bddd|Bddd|ecAc|cBB2| 
+V:2 
+G,2F,2|G,2B,,2|C,2D,2|G,,2D,2| 
+% 
+V:1 
+Bddd|Bddd|ecAF|AGG2:| 
+V:2 
+G,2F,2|G,2B,,2|C,2D,2|G,,4:| 
+% 
+V:1 
+|:g2g>f|fee2|dedc|cBB2| 
+V:2 
+|:B,,2G,,2|C,2A,,2|D,2F,2|G,2D,2| 
+% 
+V:1 
+g2g>f|fee2|ddef|a>gg2:| 
+V:2 
+B,,2G,,2|C,2A,,2|D,2D,,2|G,,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/147571
+S:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be107-03a/be107-03a-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/beethoven-ludwig-van/be107-03a/be107-03a-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/beethoven-ludwig-van/be107-03a/be107-03a-pno1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

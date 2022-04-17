@@ -1,0 +1,38 @@
+X:824
+T:Cold Frosty Morning
+C:anon.
+S:Henry Reed
+F:http://abc.musicaviva.com/tunes/anon/cold-frosty-morning/cold-frosty-morning-1.abc
+%Posted Oct 18th 1999 at ABC-users by John Chambers in reply to a
+%request from Rod Smith for "old time tunes"
+%John said this about the tune:
+%This any use  From a rather indirect source, and the one time I've
+%heard an American fiddler do it, the rhythm was bent all over the
+%place. (Maybe someone could contribute some BarFly stress programs
+%for old-time)
+%
+M:4/4
+L:1/8
+K:Ador
+a4     a4   |a>ba>g e>dc>d |e>de>f g>ag>f |e>dc>d e4 |\
+A4     c3c  |d>cd2  e2  e>d|c>BA>c B>A G2 |A3B    A4:|
+E>DE>G A2A>A|c>Ac>d e2(3DEF|G2 B>A G2(3DEF|G>AB>c d4 |\
+E>DE>G A2A>A|c>Ac>d e2  e>d|c>BA>c B>A G2 |A8       :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/148891
+S:http://abc.musicaviva.com/tunes/anon/cold-frosty-morning/cold-frosty-morning-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/anon/cold-frosty-morning/cold-frosty-morning-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/anon/cold-frosty-morning/cold-frosty-morning-1.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1
+T:Chace II
+C:Guillaume de Machaut, 14th c.
+Z:abc transcription Leonard Williams
+M:6/8
+L:1/8
+K:C treble8
+%%pageheight 11in
+%%staffwidth 6.5in
+%%leftmargin .88in
+%
+g2z^f2z|ze2z dB|cde d/c/ B/c/ A/B/"*"|G3 B>AB|c>Bc d>e^f|
+e>dc d3|d/eec/ z/B/ d>d|z/A/ B>A z/ G/ G>d|cc/B/A/B/G3|
+z3d2z|e2z ggz|fga g>fe/f/|dG2g z a|a z e g z f|
+a/g^fe/ d3|B/c/dd z/ G/ B>d|z/A/ G>A z/d/ d>d|c/d/cc HG3:|
+%
+W:This is a chace (round) for three equal instruments.  Second and third voices enter
+W:when the previous voice reaches the "*".
+S:https://www.folktunefinder.com/tunes/147511
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Machaut/chace_2.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Machaut/chace_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

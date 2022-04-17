@@ -1,0 +1,28 @@
+X:0206
+T:"The Chieftain"        (air)        0206
+C:after Chief F. O'Neill
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=90
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_VB"(3(DEF)|(G3A) (GFED)|(d3{f}e) (d2Bd)|e2(dB) G2A2|E4-E z (3(DEF)|
+(G3A) (GFED)|(d3{f}e) (d2Bd)|e2(dB) G2A2|G4-G z||
+(3(Bcd)|(e3f) (edBA)|(G3B) (d2gf)|e2(dB) G2A2|E4-E z (3(DEF)|
+(G3A) (GFED)|(d3{f}e) (d2Bd)|e2(dB) G2A2|G4-G z|]
+S:https://www.folktunefinder.com/tunes/148074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0206-Chieftan.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0206-Chieftan.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0206-Chieftan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

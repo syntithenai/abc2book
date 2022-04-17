@@ -1,0 +1,27 @@
+X:1
+T:C'est la VISA
+M:6/8
+L:1/8
+Q:110
+C:(c) Greg Anderson, 8 Aug 1999
+R:Jig
+N:Inspired by an aborted, cash short, mission to buy our first batch of
+N:pain au chocolat at our local boulangerie in Talence.
+K:G
+D|:gfb agf|gfe B3|B2 B Bcd|c3- c2 d|cBA BAG|
+F2 F F3|1dfa c'bf|gde fga:|2dfa c'bf|g2 z f3
+|:efg feB|eba gfe|fda gfd|egf edB|efg feB|
+AGA BGE|1FAd agf|eBg e2 f:|2dfa c'bf|gba g2 d||
+S:https://www.folktunefinder.com/tunes/147504
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/CestLaVisa.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/GregAnderson/CestLaVisa.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

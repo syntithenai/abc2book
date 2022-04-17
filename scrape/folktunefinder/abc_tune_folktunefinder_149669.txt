@@ -1,0 +1,25 @@
+X:3
+T:Wer da sorget -- O rosa bella
+T:Quodlibet
+T:Tenores
+C:Glogauer Liederbuch, No. 118
+O:Germany
+B:Glogauer ms.
+Z:Transcribed by Laura Conrad http://www.laymusic.org
+M:C
+L:1/2
+K:G dor bass
+%%MIDI transpose -24
+%%MIDI nobarlines
+%%MIDI ratio 3 1
+g2 e2 d2 z c d =B2 c B G F2 z G d2 G2 z g
+S:https://www.folktunefinder.com/tunes/149669
+S:http://www.laymusic.org/music/glogauer/118/allparts.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

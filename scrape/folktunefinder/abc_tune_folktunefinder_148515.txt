@@ -1,0 +1,21 @@
+X: 1
+T: Classical, The
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|:B2d cFF|cde cBA|ABB dBB|fdg fed|
+|Bcd cFF|cde cBA|BdB AFc|BcA B3:|
+|:f2b d'c'b|c'd'c' fed|cde def|efg fga|
+|b3 d'c'b|c'd'c' fed|BdB AFc|BcA B3:|
+S:https://www.folktunefinder.com/tunes/148515
+S:http://www.thesession.org/tunes/display/8243
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

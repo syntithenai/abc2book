@@ -1,0 +1,29 @@
+X:1
+T:La Cinq-Cents
+C:Marc Peroneille
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+DGA |\
+B2BAGB | A2AGGF | E2cBAc | BAGDGA |
+B2BAGB | A2AGGF | E2cBAF | G3 :|
+|: DBc |\
+d2dcBG | E2EFGA | B2cBAc | BAGABc |
+d2dcBG | E2EFGA | B2cBAF | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/148404
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/la_cinq-cents.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

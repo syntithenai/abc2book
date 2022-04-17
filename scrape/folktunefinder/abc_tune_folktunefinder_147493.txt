@@ -1,0 +1,28 @@
+X:1
+T:Cercle circassien : Tarentelle
+%%scale 0.80
+Z:Roger Ngaret (94-95)
+R:marche
+C:Trad.
+S:
+A:Bretagne
+Q:3/8=180
+M:6/8
+L:1/16
+K:Am
+"Am"a4 a2 e4 e2 | a4 a2 e4 e2 | e2d2e2 "F"f4 f2 |
+f2g2f2 "C"e4 e2 | e2f2e2 "G"d4 d2 | d2e2d2 "Am"c4 c2 |
+c2d2c2 "Em"B4 B2 | B2c2B2 "Am"A6 ::
+A4 B2 c2B2c2 | "F"d2c2B2 "Am"c4 c2 | A2B2c2 "G"B4 B2 |
+"Em"d2c2B2 "Am"A4 A2 | A4 B2 c2B2c2 | "F"d2c2B2 "Am"c4 c2 |
+A2B2c2 "G"B4 B2 | "Em"d2c2B2 "Am"A6 :|
+S:https://www.folktunefinder.com/tunes/147493
+S:http://termen.free.fr/danses/termen/CerclecircassienTarentelle.abc
+% Rhythm Marche
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

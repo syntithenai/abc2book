@@ -1,0 +1,23 @@
+X:1
+T:Cleveland Park
+R:jig
+C:Ivan Drever
+M:6/8
+L:1/8
+K:Dm
+"Dm" A,DE FED | "Bb" B,DE FED | "G" =B,DE     FED | "C" (E/F/G)E FED |
+"Dm" A,DE FED | "Bb" B,DE FED | "C" (E/F/G)E C2 G | "C" GFE "Dm" D z :|
+"Dm" DFA  dAF | "Gm" GAB "Dm" AFD | "Bb" B,DF "Dm" A,DF | "Dm" FED "A" ^CDE |
+"Dm" DFA  dAF | "Gm" GAB "Dm" AFD | "Bb" B,DF "Dm" A,DF | "A" ED^C "Dm" DDD |
+"Dm" DFA  dAF | "Gm" GAB "Dm" AFD | "Bb" B,DF "Dm" A,DF | "Dm" FED "A" ^CDE |
+"Dm" A,DE FED | "Bb" B,DE FED | "C" (E/F/G)E C2 G | "C" GFE "Dm" D z |]
+S:https://www.folktunefinder.com/tunes/148570
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Jigs.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

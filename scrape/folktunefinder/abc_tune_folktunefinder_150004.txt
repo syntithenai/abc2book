@@ -1,0 +1,22 @@
+X:1
+T:Cotton-Eyed Joe - #13
+C:Traditional
+N:No repeats when played with
+N:Dogwood Dulcimer Association
+M:4/4
+L:1/8
+K:D
+|DE|"D"F2 FF FE DE|F2 F2 d2 DE|F2 FF FE DF|"A"e2 e2 "D"D2 DE
+|F2 FF FE DE|F2 F2 d2 DE|F2 FF FE DF|"A7"e2 e2 "D"D2 A2:||:"D"A2 B2 "G"d2 dd
+|dA B2 A3 B|d2 B2 A2 G2|"A"FD E2 "D"D3 A|A2 B2 "G"d2 dd|"^TAG"dA B2 A3 B
+|d2 B2 A2 G2|"A"FD E2 "D"D2 z2:|
+S:https://www.folktunefinder.com/tunes/150004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/cotton.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/gulfweb.net%3A34043/%7Erlwalker/abc/cotton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords
