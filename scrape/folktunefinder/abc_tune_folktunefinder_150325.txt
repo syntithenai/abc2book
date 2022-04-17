@@ -1,0 +1,25 @@
+X: 1
+T: Crooked Hornpipe
+C: R-116
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: D
+A2| "D"Aafd "A"Agec| "D"Aafd dcBA| "G"BgAf "Em"GeFd| "A"efge "A7"dcBA|
+    "D"Aafd "A"Agec| "D"defd A2dc| "G"Bcde "A7"fa^ga| "D"d2d2 d2 :|
+|:\
+cd| "A"eAfA gAfA| eAce "A7"dcBA| "G"BbAa "Em"GgFf| "A"efge dcBA|
+    "G"Bbge "D"Aafd| "A"Ggec "Bm"d2dc| "Em"Bcde "A7"fABc| "D"d2f2 d2 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/150325
+S:http://roaringjelly.org/music/reel/R116_Crooked_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R116_Crooked_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R116_Crooked_Hornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

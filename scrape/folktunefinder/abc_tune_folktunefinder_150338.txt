@@ -1,0 +1,25 @@
+X: 1
+T: Crooked Step, The
+M: 2/4
+L: 1/8
+R: polka
+K: Gmaj
+[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+c2e2 d2B2|{Bc}B2A2 A4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|
+[M:2/4][L:1/16]g2d2 d4|e2c2 A2F2|A2G2 G4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+c2e2 d2B2|{Bc}B2A2 A4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|
+[M:2/4][L:1/16]g2d2 d4|e2c2 A2F2|A2G2 G4|
+|:d2g2 g2fe|d2B2 B4|c2e2 d2B2|{Bc}B2A2 A4|
+[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+e2c2 A2F2|[1A2G2 G4:|[2G4G4|]
+S:https://www.folktunefinder.com/tunes/150338
+S:http://www.thesession.org/tunes/display/5078
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+P: The Cowboy's Jig
+C: a.k.a. I've Been Sad in the Saddle Since My Horse Died 
+C: from John Chambers 1977, mods. by T. Traub 6-27-03
+R: jig
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+|: BA | "G"GDE G2A | "G"Bgf gdB | "Am"ABc BcA | "C"BcA "D7"BGE | "G"GDE G2A |
+"Em"Bgf gdB | "C"ABc "D7"BcA | "G"BGG G :||: Bd | "C"e2e e2e | "Am"egf edB |
+"Bm"d2d d2d | "Em"dge dBG | "C"c2d "D7"e2f | "G"gdB "D7"A2c | "G"BGA "D7"BcA | "G"BGG G:|
+S:https://www.folktunefinder.com/tunes/150107
+S:http://terrytraub.org/abc/JigSet1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/JigSet1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

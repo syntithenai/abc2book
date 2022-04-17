@@ -1,0 +1,22 @@
+X: 10
+T:Cream Pot, The (The Kern Staff)
+M:6/8
+L:1/8
+S:William Vickers c1770
+K:G
+||:G2 A B2 c | dBd efg | G2 A B2 c | dBG AFD | E2 C CEG | F2 D D2 c!
+BdB
+ cAF | G3 A3 :||:K:D
+d2 e f2 g | afd ecA | faf ege | fdf ecA | B2 G GBd |! c2 A A2 g | faf
+ge c |1(d3 d2) A :|2 d3 =c3 ||: K:G B2 g gdB | B2 g gdB |! A2 A ABc |
+BAG AFD | E2 C CEG | F2 D D2 c | BdB c AF | (G3 G2) :||
+S:https://www.folktunefinder.com/tunes/150223
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/CreamPotTheTheKernStaff.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

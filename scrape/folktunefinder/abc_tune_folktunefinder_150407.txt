@@ -1,0 +1,25 @@
+X:1568
+T:Crossroads Dance, The
+R:hornpipe
+B:O'Neill's 1568
+Z:Transcribed by Michael Hogan
+M:2/4
+L:1/16
+Q:80
+K:G
+D4 | G2BA G2BA | GABc d2ef | gfed edcB | cBAG GFED |
+G2BA G2BA | GABc d2ef | gfed egfa | gbaf "H"g4:|
+|: B4 | e2ef g2ga | b2g2 f2e2 | d2de f2fg | a2f2 e2d2 |
+e2ef g2ga | b2g2 f2e2 | b^abc' b=agf | e2g2"D.C." e4:||
+S:https://www.folktunefinder.com/tunes/150407
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1568_mh.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/oneills/1850/X/1568_mh.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

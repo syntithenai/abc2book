@@ -1,0 +1,37 @@
+X:3
+T:CowboyHalling
+M:4/4
+L:1/8
+R:Halling
+D:Filarfolket 1980-1990 Amalthea CDAM76
+P:AA B AA B CC DD
+Q:1/4=155
+C:Ale Moller
+N:Posted to the woodenflute mailing list February 2002
+Z:Steve Mansfield 16 February 2002 tradtunes
+K:D
+P:A
+D2 d2 d2 d2 | d=cBA F2D2 | GBdB A2 FD | EFGB A2FE | D2 d2 d2 d2 |
+d=cBA F2D2 | GBdB A2 FD |1 EFE2 D2 D2 :|2 EFE2 D2 f2 ||
+P:B
+d2 ec d2 f2 | d2 ec d2 f2 | d2 ~E2 D2 f2 | d2 ec d2 f2 |
+d2 ec d2 f2 | d2 ec d2 (fe | d) (FED) (fed) (F | ED) (ce(d d3)) ||
+P:C
+aa |: abaf gage | f2 dc B g2 e | f2 d2 edce |
+A2 FE D2 aa | abaf gage | f2 dc B g2 e |
+g2 d2 edce |1 d2 FE D2 aa :|2 [M:2/4 L:1/16] d4 f4 |:
+P:D
+[M:4/4 L:1/8] d2 ec d2 f2 | d2 ec d2 d2 | Bfff fgfd |1 edce d2 f2 :|2
+edce d4 ||
+W:Played AA B AA B CC DD
+S:https://www.folktunefinder.com/tunes/150094
+S:http://trillian.mit.edu/~jc/music/abc/Scand/halling/Cowboyhalling_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Cowboyhalling_1.abc
+% Rhythm Halling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

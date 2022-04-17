@@ -1,0 +1,22 @@
+X: 1
+T: Covering Ground
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+|:B2E FEE|DEF EDD|B2E DFA|ABd F2E|
+B2E FEE|DEF EDD|B2d e d/2B/2A|Bcd F2E:|
+|:~B2e cdB|EFB cFA|~B2e dcB|ABd F2E|
+~B2e cdB|FBB cFA|~B2d e d/2B/2A|Bcd F2E:|
+|:B2A GBd|Fcd EFA|~B2A GAF|ABd F2E|
+B2A GBd|Fcd EFA|~B2d e d/2B/2A|Bcd F2E:|
+S:https://www.folktunefinder.com/tunes/150086
+S:http://www.thesession.org/tunes/display/4623
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

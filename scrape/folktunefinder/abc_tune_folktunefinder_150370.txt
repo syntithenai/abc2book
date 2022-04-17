@@ -1,0 +1,32 @@
+X:1
+T:La Crosada
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+g4ef | g4ef | g2f2e2 | d6 |
+d2e2f2 | g3ag2 | f2e2d2 |1 e4c2 :|\
+                        [2 c4 ||
+|: c2 |\
+def2g2 | d4g2 | agf2e2 | d2e2c2 |
+def2g2 | d4g2 | agf2e2 | d4 :|
+|: G2 |\
+c2defe | d4e2 | c2dedc | B2G2G2 |
+c2defe | d4e2 | c2dedB |1 c4 :|\
+                       [2 c6 |]
+S:https://www.folktunefinder.com/tunes/150370
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/la_crosada.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

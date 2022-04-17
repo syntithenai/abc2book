@@ -1,0 +1,17 @@
+X:1
+T:Country Life
+M:4/4
+L:1/4
+K:C
+ c c c/2c/2 E/2E/2| F A G B| c3/2 B/2 c E| F- A GA/2-B/2| c c c/2c/2 E|\
+ F A G B| c/2B/2 c/2B/2 c E| F- A G A/2B/2| c c c/2c/2 E/2E/2| F A G C/2D/2|\
+ E/2G/2 G/2G/2 F D| C4| z2 z3/2 B/2| c c c E/2E/2| F A G3/2 B/2| c/2B/2 c/2B/2 c E3/4 E/4|\
+ F A GA/2-B/2| c3/2 B/2 c E| F A G C/2D/2| E/2G/2 G/2G/2 F D| C2 z2|\
+S:https://www.folktunefinder.com/tunes/150052
+S:http://back.numachi.com:8000/dtrad/abc/COUNTRYL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

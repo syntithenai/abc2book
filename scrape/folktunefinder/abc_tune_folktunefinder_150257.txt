@@ -1,0 +1,29 @@
+X:1
+T:Crested Hens 
+C:Gilles Chabenat
+R:waltz
+Q:1/4=65
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+V:1
+E3G FE|B4Bc|dc Be dc|dc BA GF|E3G FE|B4Bc|dc BA GA|[1B3G FD:|[2B4ef
+|:gB Bg gB|=c4ef|gf ag fe|^d2e2f2|gB Bg gB|
+=c4ef|gf ag fd|[1e3e ef:|[2e3G F D|E6|]
+V:2
+B,E F2G2|B,E F2G2|DA d2e2|DA d2e2|B,E F2G2|
+B,E F2G2|DA d2e2|[1DA d2e2:|[2DA d2e2
+|:EB g2e2|=ce g2e2|eA =c2A2|=cB B2A2|EB g2e2|
+=ce g2e2|eA =c2A2|[1=cB B2A2:|[2=cB B2A2|B,6|]
+S:https://www.folktunefinder.com/tunes/150257
+S:http://www.stolaf.edu/people/hend/CrestedHens.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Cowgate gigue
+M:none
+L:1/4
+V:1 
+V:2 merge
+V:3 merge
+K:none
+[V:1] xxxBAxxxcBxxexx|xxxxc|xdcBB:|
+[V:2] dcBxxdxxxxxxxxx|dcBxx|cxxxx:|
+[V:3] xxxxxxxxxxxxxdd|xxxxx|xxxxx:|
+%
+[V:1] xxxBxxxxxxxxxxxxxBxxBcAB
+[V:2] cdexBBcBABcAxxcdexBBxxxx
+[V:3] xxxxxxxxxxxxccxxxxxxxxxx
+%
+[V:1] xxxBxxxxxxxxxBcdexxBxxxxx|]
+[V:2] cdexBBcABcAxxxxxxdexxdcBB|]
+[V:3] xxxxxxxxxxxccxxxxxxxcxxxx|]
+S:https://www.folktunefinder.com/tunes/150120
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07317.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Coyle's Piano
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+G2 Gd dcBd | gdBc dABc | cddd Bccc | ABBB AdcA |
+G2 Gd dcBd | gdBc dABc | cddB cAFG |1 (3ABA GF GDFA :|2 A2 GA GABd ||
+g2 fg agfe | dBBA GABd | g2 fg afdB | AD (3DDD AdcA |
+dg g2 agfe | dfe^c defg | a2 ge fde^c | dcAd BGBd |
+g2 fg agfe | dBBA GABd | g2 fg afdB | AD (3DDD AdcA |
+G2 Gd dcBd | gdBc dABc | cddB cAFG | (3ABA GF G4 |
+S:https://www.folktunefinder.com/tunes/150137
+S:http://www.thesession.org/tunes/display/8569
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

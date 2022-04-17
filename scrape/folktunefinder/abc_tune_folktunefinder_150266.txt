@@ -1,0 +1,29 @@
+X:1
+T:Cricketty Wee
+M:3/4
+L:1/4
+K:D
+ A B c|
+M:2/4
+ d/2 d A/2|
+M:3/4
+ B2 B| A3| A B B|
+M:2/4
+ d/2 d A/2| B2| B A3| A B| c
+M:2/4
+| d/2 d F/2|
+M:3/4
+ F G A| A2 F| F F G|
+M:2/4
+ A/2 A D/2|
+M:3/4
+ D D D| D3|
+S:https://www.folktunefinder.com/tunes/150266
+S:http://back.numachi.com:8000/dtrad/abc/CRICKWEE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

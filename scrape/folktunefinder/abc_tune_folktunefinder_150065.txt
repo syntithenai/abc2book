@@ -1,0 +1,43 @@
+X:1
+%
+T:Courante
+C:Jean Baptiste Besard (1613)
+C:Thesaurus Harmonicus fol. 158r
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:3
+K:C frenchtab
+%
+,a/ |\
+[,da,c1][,c,,a/] [,d,,,d],a//,c,da |\
+[ccee,c1],,,e/ [cce1]f/ |\
+[fdaa/]>dc/ [a,,,,d//],d[,c,,a],da,c |\
+[,dda{a}/],a//,c,da ,d,c,a,,d,a,c |
+%
+[,d,,c//],c,da,d,c [,a,,,d],,d,a,c,da |\
+[cce,,c1],,,e/ [cce/]>fd/ |\
+[cdda/]a//c[,d,,,c]c [a,,,,d],d[,c,,a],da,c |\
+[,dda{a}//],c,daca [,dda1] ||
+%
+c/ |\
+[cdda/]>d[a,,,e/] [,da,c]a//,d,c,a |\
+[,cee1],,,,,c/ [,ce/]>ca/ |\
+[,da,c/]>a[,c,,a/] [,da,c]>,,,,a[a,,,,d/] |\
+[cce,,c1],,,e/ [cce]>fd/ |\
+[c,,a//]a,dac,d
+%
+[a,,,a//],d,c,da,c |\
+[,d,,c//],c,a,c,d,a [,c,,,c],a,,e,a,c,,e |\
+"(1)",,,,,d//,a,c,da,d [,c,,,a],a[,,e,,c],a,c,,e |\
+[,aa,c/]c//a,d,c H,a1 |]
+%
+W:(1) bar added by transcriber (Dalitz)
+S:https://www.folktunefinder.com/tunes/150065
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Besard/besard_cour_158r.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Besard/besard_cour_158r.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

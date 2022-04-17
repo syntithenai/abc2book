@@ -1,0 +1,34 @@
+X:1
+T:Courante par gautie
+C:Gautier 
+C:From 'Le petit boucquet', Louys de Moy (1631)
+L:1/4
+K:CM frenchtab
+%%tabrhstyle modern
+%%tabfontfrench frBaroqml
+Q:"8 = es"
+[M:3] ,b | [,bdc,,,,,a1] ,,,,,a ,,,c | [,,d,,,,a1] ,,,d ,a/ ,,d | ,,c1 ,,,,,a ,,,c |\
+    [aac2] d1 | [dfg,,,,a1] ,,,,,d [dfg] | [ffg,,f1] ,,,h [ffg] |
+%2
+[h,,,,a1] ,,,,h ,,,,f | [,f,,d1] ,,d [,d,,c] | [,b,,a1] ,,,c ,,d |\
+    ,,,d/ ,,d ,a ,b ,d ,b | [,a,,,d1] ,,b/ ,,,d ,,,c ,,,a | ,,,,d/ ,,,,c \
+    ,,,,a3/2 ,,,,,d// ,,,,a |
+%3
+,,,,,b1 ,,,,c [,,,,da] | ,,,,,b/ ,,,c [,,,a,d3/2] ,,,,d// ,,,a | ,,,,d1 ,,,,,,,a ,,,,d |\
+    [,bbc2] :: ,f1 |[,fd,d1] ,,,,,,,a ,g/ ,f | [,d,,,d1] ,f a |
+%4
+,g1 ,,,,,,,a f | [ef,,,a1] ,f ,d | [,bd1] ,,,,a [d,,c/] b | [a,,,d1] ,,,,c [c,,a]|\
+    [ddf,,d1] ,,,,f ,,,f | [,,d,,b1][d,,,,a] b | [a,,,,,,a1] ,,,,d ,,,d |\
+    ,,,,c [,dd] [a,c] |
+%5
+[,b,,a1] [,,dd] ,d | [,a,,,d1] [,b,c] [,dd,,b] | [d,,,,a1] [a,,,e] [bdda]|\
+    [a,,,,,,a1] > ,d ,b ,a| [,b,,,,,a1]  [,a,,,a3/2] ,,d// ,a | ,,d1 ,,,,a ,,,,,,,,,a |\
+    [,,dc2] ::
+S:https://www.folktunefinder.com/tunes/150066
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Gautier/courante_bouquet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

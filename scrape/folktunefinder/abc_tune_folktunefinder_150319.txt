@@ -1,0 +1,24 @@
+X: 2
+T: Cronin's Rambles
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: DF |\ 
+GFGA BGAB | cBce d2 ef | gdBd c2 dc | BGAF DEFD |
+G3 A B2 AB | c3 e d^cdf | gdBd cAFA | G2 G2 G2 :|
+|: EF |\
+GBdB gdBd | fece d2 ef | gdBd c2 dc | BGAF DEFD |
+[1 GBdf gdBd | fece d2 ef | g2 d2 cAFA | G2 FA G2 :|
+[2 GFGA BGAB | c2 ce d2 ef | g2 Bd cADF | AGGF G2 |]
+S:https://www.folktunefinder.com/tunes/150319
+S:http://www.thesession.org/tunes/display/8678
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

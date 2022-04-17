@@ -1,0 +1,30 @@
+X: 030238
+T: Cow's Tit (The)
+C: Luke O'Malley
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Bb
+B,DF Bdf | bc'b agf | geg fdB | efe c2 B |
+B,DF Bdf | CEG ceg | agf edc | AFA B3 :|
+GBd gdB | ded cBA | BGB A_GA | GAG F2 D |
+B,DF Bdf | CEG ceg | agf edc | AFA B3 :|
+P: version in G
+K: G
+G,B,D GBd | gag fed | ece dBG | cdc A2 G |
+G,B,D GBd | A,CE Ace | fed cBA | FDF G3 :|
+EGB eBG | BcB AGF | GEG F^DF | EFE =D2 B, |
+G,B,D GBd | A,CE Ace | fed cBA | FDF G3 :|
+S:https://www.folktunefinder.com/tunes/150128
+S:http://www.qmcorp.net/webabc/c/030238.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

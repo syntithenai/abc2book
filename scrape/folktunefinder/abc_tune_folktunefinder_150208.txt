@@ -1,0 +1,24 @@
+X: 378
+T: I Have a Bonnet Trimmed With Blue
+B: &quot;Irish Tunebook&quot;, compiled and edited by John Loesberg
+Z: Nigel Gatherer
+L: 1/8
+M: 2/4
+K: G Major
+|: GA/B/ ce | dG B2 | de/d/ cA | GB B2  |
+GA/B/ ce | dG B2 | de/d/ cA | AG G2 :|
+de/d/ Bd | gB d2 | de/d/ cA | ed d2  |
+de/d/ Bd | gB d2 | de/d/ cA | AG G2 ||
+GB GB | de/d/ B2 | de/d/ cA | GB B2  |
+GB GB | de/d/ B2 | de/d/ cA | AG G2 ||
+ge eg | de/d/ B2 | de/d/ cA | ed d2  |
+ge eg | de/d/ B2 | de/d/ cA | AG G2 |]
+S:https://www.folktunefinder.com/tunes/150208
+S:http://www.thesession.org/tunes/display/3022
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,87 @@
+X:1
+T:Polka : L'harmonica
+%%scale 0.75
+Z:Roger Ngaret (94-95)
+R:polka
+C:
+S:
+A:Bretagne
+K:C
+T:Couplet accordon
+Q:1/4=120
+M:4/4
+L:1/16
+K:C
+"Am"e3d c2A2 A2G2 "Em"E2A2 | "Am"A2c2 "G"BAGA B2G2 "Am"A4 | 
+e3d c2A2 A2G2 "Em"E2A2 | "Am"A2e2 "C"e3d "Em"c2B2 "Am"A4 | 
+z2 B2 "C"c3B c2e2 "G"d3c | d2ed "Am"c2B2 "F"A2c2 "Em"B4 | 
+z2 ed "Am"c2A2 A2G2 "Em"E2A2 | "Am"A2e2 "C"e3d "Em"c2B2 "Am"A4 |]
+T:Refrain accordon
+e3d c2A2 A2G2 "Em"EAAA | "Am"A2A2 "G"GGGG GABc d4 | 
+"Am"e3d c2A2 A2G2 "Em"EAAA | "Am"A2A2 "C"e2e2 "Em"edcB "Am"A4 |]
+T:Couplet Clarinette
+L:1/8
+z2 .A,.C .E.A .D.F | .A.F .D.E .B.d e2- | (e2A,C EA DF | 
+Ac BA GBA2)- |
+A(A, CE Ac Bd | BG FA cFE2)- | EC A,C EA ce | dc BA GB A2 |]
+T:Refrain Clarinette
+L:1/16
+e3d edcB A2E2 A2AB | cBcd edcB c2d2 c4 |
+e3d edcB A2E2 A2AB | cBcd e3e edcB A4 |]
+T:Variante couplet Clarinette
+e3d edcB A2E2 A2AB | cBcd edcB c2d2 c4 |
+e3d edcB A2E2 A2AB | cBcd e3e edcB A2G2 | cBcd fefa g4 {Bc}d4 |
+{de}fefg a4 {fgf}e6 ed |  edcB A2E2 A2AB cBcd | e3e edcB A4 |]
+%%newpage
+%%rm
+%%rm
+%%rm Dans mon sac de matelot
+%%rm J'ai mis tout ce que j'avais de plus beau
+%%rm Souvenirs de tous pays
+%%rm Bouteille de rhum et whisky
+%%rm Une montre qui ne marche pas
+%%rm Ma pipe et mon tabac
+%%rm J'y ai mis l'harmonica
+%%rm Qu'j'avais achet  Malaga.
+%%rm
+%%it Avec mon harmonica, je souffle la voil
+%%it L'harmonica, l'harmonica
+%%it Pour la gigue et la polka, coutez a les gars
+%%it Faut faire d'l'harmonica.
+%%rm
+%%rm Il m'accompagne partout
+%%rm Une chanson prte  chaque trou
+%%rm Il sait des tas de refrains
+%%rm Dont les plus beaux sont des marins
+%%rm  bord pendant les quarts,  bord
+%%rm Il fait rver les gars
+%%rm Il leur parle de la terre
+%%rm De la mer et de leurs amours.
+%%rm
+%%rm Du temps o j'tais pas manchot
+%%rm Je faisais l'amour dans les pays chauds
+%%rm  une sombre beaut
+%%rm Qui ne voulait pas se laisser tenter
+%%rm Sa peau et son corps taient noirs
+%%rm Mais elle ne voulait rien savoir
+%%rm Je lui ai dit que j'tais matelot
+%%rm Elle a cri je suis perdue.
+%%rm
+%%rm Celui qu'a compos la chanson
+%%rm C'est Henri Jacques matelot de pont
+%%rm Si elle est  votre got les gars
+%%rm Faut lui payer un coup
+%%rm Avec sa gueule de trafiquant
+%%rm Faut lui rincer les dents
+%%rm Offrez-lui un pot de tafia
+%%rm Je vous jure bien qu'il le boira.
+S:https://www.folktunefinder.com/tunes/150062
+S:http://termen.free.fr/danses/polkas/PolkaLharmonica.abc
+% Rhythm Polka
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

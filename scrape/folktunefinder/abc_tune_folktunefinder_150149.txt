@@ -1,0 +1,23 @@
+X: 1
+T: Crabs in the Skillet
+Z: Robin Beech robin.beech@mcgill.ca
+R: jig
+M: 6/8
+Z: Contributed 20040505172800 by Robin Beech robin.beech@mcgill.ca
+K: D
+E3 B2 D |E2 F G2 A |B=cB AGF |BAG FED |E3 B2 D |E2 F G2 B |A^GA dcB |A F D D2 :|B |efe edc |ded dcB |ABc dcB |AFD D2 B |efe edc |ded dcB |ABc dcB |A F D D2 :|B, |E3 F3 |G3 A3 |B=cB AGF |BAG FED |E3 F3 |
+G3 B3 |A^GA dcB |A F D D2 :|
+S:https://www.folktunefinder.com/tunes/150149
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/CrabsInTheSkillet.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/CrabsInTheSkillet.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/robin.beech%3Amcgill.ca/CrabsInTheSkillet.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Tunes/CrabsInTheSkillet.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

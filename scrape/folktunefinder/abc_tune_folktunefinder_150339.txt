@@ -1,0 +1,27 @@
+X: 1
+T: Crooked Stovepipe #1, The
+I: Crooked Stovepipe, TheS-CGsquare
+C: S-C
+C: Ralph Page
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+%%staffsep 50.0pt
+K: G
+D2| "G"G2B2 BcdB| G2B2 BcdB| G2B2 "E7"e2B2 | "Am"d2c2 "D7"c3A| \
+       F2A2 ABcA| F2A2 ABcd| "C"e2d2 "D7"e2f2| "G"G,2[B2g2] [B2g2] :|
+|:\
+a2| "G"b4 b2a2| g3a g2f2| "C"e2e2 "Am"f2g2| "A7"a4 a2b2| \
+    "D7"c'4 c'2a2| f3g f2e2| d2^d2 e2f2|1 "G"g2^g2 "D7"a2^a2:|2 "G"G,2[B2g2] [B2g2] |]
+S:https://www.folktunefinder.com/tunes/150339
+S:http://roaringjelly.org/music/square/Sq_C_Crooked_Stovepipe_1_The.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/square/Sq_C_Crooked_Stovepipe_1_The.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/square/Sq_C_Crooked_Stovepipe_1_The.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

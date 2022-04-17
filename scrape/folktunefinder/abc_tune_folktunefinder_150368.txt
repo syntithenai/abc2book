@@ -1,0 +1,25 @@
+X:0401
+T:The Croppy Tailor      (song)      0401
+C:after Sg't.  J. O'Neill
+C:gaily
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:A
+"_vb"A2|(c2d2e2)|(e2d2e2)|(d2c2).A2|A4A2|c2d2e2|e2d2c2|g2e2c2|d4(cd)|
+(e2f2g2)|(a2c'2a2)|g2e2d2|c4(cd)|e2d2d2|d2e2f2|g6|a4||
+e2|d3c A2|A6|B3A G2|G6|c3d e2|d2c2B2|"^>"A2"^>"c2"^>"e2|"^>"a2"^>"e2"^>"d2|
+c3A A2|A6|B3A G2|G6|c3d e2|d2c2B2|A6|A4|]
+S:https://www.folktunefinder.com/tunes/150368
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0401-CroppyTailor.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0401-CroppyTailor.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0401-CroppyTailor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

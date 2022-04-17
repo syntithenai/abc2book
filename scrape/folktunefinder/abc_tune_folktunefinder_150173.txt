@@ -1,0 +1,24 @@
+X: 1
+T: Craigellachie Brig
+N: [Bridge]
+N: by Marshall p.30, Hunter 95, BSFC II-21
+M: C
+L: 1/8
+K: D
+d \
+|: D<D F>A d/c/B/A/ F<D | E<=C =c>E {F}G2- G>B | A<D  F>A d/c/B/A/ F<D | E<e c>A {c}d2- d<f :|
+|| d<d fg/a/ d>a f<a | =c>g e>f ~g2- ga/b/ | a>d f>d a>d gd f>d f/g/a a<f |
+|  d<d fg/a/ d>a f<a | g/f/e/d/ =c>e g2- ga/g/ | f<a e>f d<f B>d | A<F d>F A2- Ac ||
+|| d/c/B/A/ G/F/E/D/ d/c/B/A/ G/F/E/D/ | E<=C =c>E {F}G2- G>E | D/E/F/G/ A/B/c/d/ D/E/F/G/ A/B/c/d/ | D>d c<d A2 {G}F>E |
+|  D>d E>d F>d D>d | E<=c c>E G2- G>E | D>d E>d F>d A>d | E<e c>A {c}d2- d<f ||
+|| d<d fg/a/ d>a f<a | =c>g e>f ~g2- gd f>d a>d b>d | a>d f>d f/g/a a<f |
+|  d<d fg/a/ d>a f<a | g/f/e/d/ =c>e g>b a>g | f<a e>f d<f B>d |  A<F d>F {F}A2- A |]
+S:https://www.folktunefinder.com/tunes/150173
+S:http://trillian.mit.edu/~jc/music/book/500/CraigellachieBrig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

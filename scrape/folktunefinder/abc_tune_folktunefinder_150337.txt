@@ -1,0 +1,24 @@
+X:1
+T:The Crooked Step
+C:Stewart Hendrickson
+M:2/4
+L:1/8
+K:G
+[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+c2e2 d2B2|{Bc}B2A2 A4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|
+[M:2/4][L:1/16]g2d2 d4|e2c2 A2F2|A2G2 G4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+c2e2 d2B2|{Bc}B2A2 A4|[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|
+[M:2/4][L:1/16]g2d2 d4|e2c2 A2F2|A2G2 G4|
+|:d2g2 g2fe|d2B2 B4|c2e2 d2B2|{Bc}B2A2 A4|
+[M:3/4][L:1/8]G/2A/2B/2c/2 dg fa|[M:2/4][L:1/16]g2d2 d4|
+e2c2 A2F2|[1A2G2 G4:|[2G4G4|]
+S:https://www.folktunefinder.com/tunes/150337
+S:http://www.stolaf.edu/people/hend/CrookedStep.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

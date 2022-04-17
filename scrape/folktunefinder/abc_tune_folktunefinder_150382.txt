@@ -1,0 +1,21 @@
+X: 1
+T: Crossing The Channel
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|: B | A2 A AFA B2 d | f2 f fed e2 f | a2 a afd c2 A | Bcd gec d2 :|
+|: f | a2 a aba f2 d | g2 f ged c2 A | a2 a aba f2 d | BB/c/d gec d2 :|
+|: c/B/ | ABA AF/G/A Bcd | fgf fed ee/f/g | aba afd cBA | d2 f gec d2 :|
+|: f/g/ | afa aba fed | gf/g/a ged cBA | af/g/a aba fed | dd/e/f g2 c d2 :|
+S:https://www.folktunefinder.com/tunes/150382
+S:http://www.thesession.org/tunes/display/6828
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

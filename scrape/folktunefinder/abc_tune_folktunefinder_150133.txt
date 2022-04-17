@@ -1,0 +1,17 @@
+X:1
+T:The Cow That Ate The Piper
+M:4/4
+L:1/8
+K:D
+ dd| d2 DD D2A-A| A2 GF E2 FG| A2 BA A2 GF| E4 D2| dd| d2 DD D2 AA|\
+ A2 GF E2F-G| A2 BA A2 GF| E4 D2| AA| A2 Bc d2d-d| e2 dA A2 cd| e2 cA c2 BA|\
+ B4 A2| dd| d2 DD D2 AA| A2 GF E2F-G| A2 BA A2G-F| E4 D2||
+S:https://www.folktunefinder.com/tunes/150133
+S:http://back.numachi.com:8000/dtrad/abc/COWPIPER.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/COWPIPER.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

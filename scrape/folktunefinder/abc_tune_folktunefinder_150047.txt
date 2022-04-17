@@ -1,0 +1,27 @@
+X: 1
+T: COUNTRY GARDENS
+S: RD from Arnold Woodley
+O: Bampton
+P: A.(B2C3)3.A2
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+|: g2gf e2e2 | dedc B2Bc | d2G2 A2c2 | B3A G4 :|
+P: B
+|: G2c2 c2e2 | dedc B2Bc | d2G2 A2c2 | B3A G4 :|
+P: C
+   g2g2 e<f d2 | g2g2 e<f d2 | g2gf e2a2 | f2e2 d2Bc |
+   d2gf e2e2 | dedc B2Bc | d2G2 A2c2 | B3A G4 ||
+S:https://www.folktunefinder.com/tunes/150047
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Country_Gardens_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

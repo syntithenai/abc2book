@@ -1,0 +1,33 @@
+X:4
+%%tabrhstyle grid
+T:Cowgate gigue
+M:6/8
+L:1/8
+R:jig
+K:Bmin
+V:1
+  dcB fed|g2f       bGG|d2c B2g      |cag f2f:|
+|:cde fBB|cB/A/B/c/ AFF|cde fBB      |fge f3  |
+  cde fBB|c3/A/B/c/ AFF|fga b3/d/e/f/|Fdc B2B:|
+V:2 clef=french4tab
+[,d1][,c1][,b1] b1a1[,d1]|\
+c2b1 e1[,,d1][,,d1]|\
+[,d2][,c1] [,b2]c1|\
+[,c1]d1c1 b2b1:|
+[,c1][,d1][,e1] b1[,b1][,b1]|\
+([,c1][,b/][,a/][,b/][,c/]) [,a1][,,c1][,,c1]|\
+[,c1][,d1][,e1] b1[,b1][,b1]|\
+b1c1a1 b3|
+[,c1][,d1][,e1] b1[,b1][,b1]|\
+[,c3/]([,a/][,b/][,c/]) [,a1][,,c1][,,c1]|\
+b1c1d1 e3/[,d/][,e/]b/|\
+[,,c1][,d1][,c1] [,b2][,b1]|]
+S:https://www.folktunefinder.com/tunes/150119
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07319.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

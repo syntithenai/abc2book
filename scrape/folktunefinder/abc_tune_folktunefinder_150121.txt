@@ -1,0 +1,29 @@
+X:2
+T:Cowgate gigue
+M:6/4
+L:1/4
+Q:3/4=100
+V:1 middle=G       transpose 4  % c string
+V:2 middle=d merge transpose -3  % F string
+V:3 middle=a merge transpose -10 % Bb string
+K:G Minor
+[V:1] xxx BAx|c2B       exx|xxx xx   c|xdc B2B:|
+[V:2] dcB xxd|xxx       xxx|d2c B2   x|cxx xxx:|
+[V:3] xxx xxx|xxx       xdd|xxx xx   x|xxx xxx:|
+%
+[V:1] xxx Bxx|xx   x    xxx|xxx Bx   x|BcA B3  |
+[V:2] cde xBB|cB/A/B/c/ Axx|cde xB   B|xxx xxx |
+[V:3] xxx xxx|xx   x    xcc|xxx xx   x|xxx xxx |
+%
+[V:1] xxx Bxx|xx x      xxx|Bcd ex   B|xxx xxx|]
+[V:2] cde xBB|cA/B/c    Axx|xxx xd/e/x|xdc B2B|]
+[V:3] xxx xxx|xx x      xcc|xxx xx   x|cxx xxx|]
+S:https://www.folktunefinder.com/tunes/150121
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07317.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

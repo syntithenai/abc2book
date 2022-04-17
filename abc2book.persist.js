@@ -127,6 +127,7 @@ function updateTuneAbc(songNumber, tuneIds) {
         abcTexts.forEach(function(abcText) {
           if (tune === null)  {
             tune = singleAbc2json(abcText) 
+            tune.meta = cleanMetaData(tune.meta)
             time.id = oldTune.id
           // collate settings
           } else {

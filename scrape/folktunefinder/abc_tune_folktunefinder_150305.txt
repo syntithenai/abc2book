@@ -1,0 +1,23 @@
+X: 3
+T: Cronin's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: D Major
+|: F>E |\
+D>EF>G A>F (3ABc | d>ed>B A>Bd>e | f>ed>B A>FD>E | F>E (3EE^D E>GF>E |
+D2 D>F A2 A>B | d2 d>B A>Bd>e | f>ed>B A<FE>G | F2 D2 D2 :|
+|: c>d |\
+e>cA>^G A2 (3cde | f>BB>^A B2 d>e | f>d (3edc d>B (3AGF | F>EE>^D (3EFG F>E |
+D>EF>G A>F (3ABc | d>e (3dcB A>Bd>e | f>ed>B A2 (3EFG | F>D (3DDD D2 :|
+S:https://www.folktunefinder.com/tunes/150305
+S:http://www.thesession.org/tunes/display/478
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

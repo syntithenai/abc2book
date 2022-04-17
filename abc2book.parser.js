@@ -532,3 +532,13 @@ function getTuneMeter(tune) {
         //return ensureText(tune.meta.hasOwnProperty("S"))
     //}
 //}
+function cleanMetaData(meta) {
+    var final = {}
+    if (meta) Object.keys(meta).forEach(function(key) {
+      var required = ['X','K','M','L','T','R']
+      if (required.indexOf(key) !== -1) {
+          final[key] = meta[key]
+      }
+    })
+    return final
+}

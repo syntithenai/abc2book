@@ -1,0 +1,19 @@
+X:1
+T:Cowgate gigue
+M:none
+L:1/4
+K:Bmin Clef=french4tab
+[,d][,c][,b]ba[,d][,][,]cb[,][,]e[,,d]\
+[,,d]|[,d][,c][,b]c|[,c]dcbb:|\
+|:[,c][,d][,e]b[,b][,b]([,c][,b][,a][,b][,c])
+[,a][,,c][,,c][,c][,d][,e]b[,b][,b]bcab[,c]\
+[,d][,e]b[,b][,b][,][,c]([,a][,b][,c])[,a]\
+[,,c][,,c]bcde[,d][,e]b[,,c][,d][,c][,b][,b]|]
+S:https://www.folktunefinder.com/tunes/150116
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07319.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

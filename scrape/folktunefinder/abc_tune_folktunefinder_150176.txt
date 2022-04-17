@@ -1,0 +1,24 @@
+X:1
+T:Craighall Jig
+C:arr. Terry Traub 4-15-02, via Jack McCreless
+R:Jig
+Z:arr. Terry Traub 4-15-02, via Jack McCreless
+M:6/8
+K:A
+L: 1/8
+|:e | "A" fec A2 A| "D"BAF D2 F|"A"E2 e cBA|"E7"GBB B2 e|\
+  "A"fec A2 A|"D"BAF d2 F|"A"EFA "E"BcB|"A"A3-A2 :|
+g|"A"aga Ace|"D"f2 e fga|"A"e2 A cBA|"E7"GBB B2 e|\
+  "A"aga ecA|"D"BAF d2 F|"A"EFA "E"BcB |"A"A3-A2 ||
+g|"A"aga Ace|"D"f2 e fga|"A"e2 A cBA|"E7"GBB B2 e|\
+  "A"fec A2 A|"D"BAF d2 F|"A"EFA "E"BcB|"A"A3-A2 |]
+S:https://www.folktunefinder.com/tunes/150176
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/CraighallJigJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

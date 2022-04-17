@@ -1,0 +1,28 @@
+X:1
+T:Coup de Coeur
+C:Matthias Loibner/Simon Wascher 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D
+=f2e ^G- G2A2 | d2c^F-F4 | EFGB Acde | d2c2 B2A2 |
+=f2e ^G- G2A2 | d2cFF4 | EFGB Acde | d2c2d4 :|
+|:\
+B3G EFGB | A2AG Acde | B3G EFGB | A2AGA3_B |
+B3G EFGB | A2AG Acde |1 =f2e2d2=c2 | =F2^FG- G^GA_B :|\
+                      [2 =f2e2d2=c2 | =F2^F=G-G4 |]\
+                      "letzter Schluss"=fAeGd=F-F2 | ^F8 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/150060
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/coup_de_coeur.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

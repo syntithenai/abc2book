@@ -1,0 +1,22 @@
+X:1
+T:Creeping and Crawling
+M:3/4
+L:1/4
+K:F
+ C| F F F| F2 F| F A c| d c A| G G G| G2 E| G c c|
+M:4/4
+ A F2 A|
+M:3/4
+ B d B| A c A| G F G/2G/2| G c A/2G/2| F F/2G/2 F/2E/2| D C C| F F G|\
+ F2||
+S:https://www.folktunefinder.com/tunes/150234
+S:http://back.numachi.com:8000/dtrad/abc/CRPCRAWL.abc
+S:http://sniff.numachi.com/abc/CRPCRWL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/CRPCRWL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords
