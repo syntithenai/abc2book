@@ -1,0 +1,32 @@
+X:1
+T:Movrin
+A:Innsbruck
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Instrumentale Volksmusik aus Tirol", K.Horak, eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:G
+A2F FEF | G2G B2B | BAG F3 | A2F FEF |\
+G2G B2B | BAG F3 ||
+G2G c2c | BAG FGA | G2G c2c | BAG FGA :|
+d2B BAB | c2A AGA | GBA GFE | F2A F3 |\
+F3 EFE | D3 DFG | A3 GAG | F3 FGA |\
+B2A G2^F | A2G F2E | DEF EDE | D2z4 |
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177310
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/movrin.A2FFEFG2GB2BBAGF3A2F.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

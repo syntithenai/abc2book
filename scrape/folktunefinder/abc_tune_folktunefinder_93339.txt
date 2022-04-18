@@ -1,0 +1,23 @@
+X:380
+T: Paddy McNicholas'
+S: "Music from Ireland 2" (Bulmer & Sharpley)
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: D
+d|cAA BGG|cAA A2d|cAA BGG|AFD D2d|
+cAA BGG|ABA AFD|GFG BGB|AFD D2 :|
+e|fef gfg|afd cBA|fef gfg|afd dfg|
+agf gfe|fed e2d|cAF G2B|AFD D2 :|
+S:https://www.folktunefinder.com/tunes/93339
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

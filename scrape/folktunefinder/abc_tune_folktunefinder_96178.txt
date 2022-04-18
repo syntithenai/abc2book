@@ -1,0 +1,30 @@
+X: 27
+T:Trumpet March,A. TBe.027
+M:2/2
+L:1/8
+Q:130
+S:Thomas Bennet MS,1718, VWML
+R:march
+O:England
+N: shown above the note is in the M
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+d2 dd d2d2 | d2A2 d3e | f3ga2 gf | edef egfe | !
+d2 dd d2d2 |d2A2 d3e | f3ga2 gf | e8 ||!
+e2A2 a3g | ""f3ed2e2 | fefg abag | fgfe d2 f2 |!
+e2 A2 a3g | fgfe defg | a2 gf e3 d | d8 ||
+S:https://www.folktunefinder.com/tunes/96178
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

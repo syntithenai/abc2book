@@ -1,0 +1,29 @@
+X:4
+T:Carnaval de Venise
+T:Air vari\'e pour Cornet, Trompette, Bugle, Baryton ou Tenorhorn
+C:Arban
+M:6/8
+L:1/16
+Q:3/8=54
+K:F
+P:Variation II
+z .c.=B.c|(3ddd dc=Bc (3_BBB BA^GA|(3ccc cBAB G2 z AGA|
+(3BBB B=B^AB (3ddd dcBc|(3AAA Ac=Bc A2 z c=Bc|(3ddd dc=Bc (3_BBB BA^GA|
+(3ccc cBAB =G2 z AGA|(3BBB B=B^AB (3ddd dcBc|(3AAA Ac=Bc A2 z2 c2|
+(3ccc (3=BBB (3_BBB (3Afe (3dcB (3AGF|(3ECD (3EFG (3ABc (L_d2c2) (3ccc|(3eee (3=ddd (3ccc (3BBB (3AAA (3GGG|
+F2 (3FFF (3GGG (3AAA (3BBB (3=BBB|(3ccc (3=BBB (3_BBB (3Afe (3dcB (3AGF|(3ECD (3EFG (3ABc (L_d2c2) (3ccc|
+(3GGG (3AAA (3BBB (3ccc (3ddd (3eee|(3fff (3ccc (3AAA F2 z2 (3Lccc|(3LdcB (3AGF (3Lccc (3LBAG (3FEF (3LAAA|
+(3LcBA (3GFE (3LBBB (3LGCD (3EFG (3LAAA|(3LBG^F (3GAB (3=BBB (3LdEF (3GAB (3ccc|(3LAFG (3AB=B (3Lccc LA2 z2 (3Lccc|
+(3LdcB (3AGF (3Lccc (3LBAG (3FEF (3LAAA|(3LcBA (3GFE (3LBBB (3LGCD (3EFG (3LAAA|(3LBG^F (3GAB (3L=BBB (3LdE=F (3GA_B (3Lccc|
+(3LAFG (3AB=B (3Lccc LA2 z2 C2|(3AFG (3AB=B (3cde (3fed (3c=B_B (3AGF|(3EFG (3ABc (3def g2 (3C=B,C (3DEF|
+(3GDE (3FGA (3Bcd (3eEF (3GAB (3cde|(3(fe).d (3(dc).B (3(BA).G F2 z2 C2|(3AFG (3AB=B (3cde (3fed (3c=B_B (3AGF|
+(3EFG (3ABc (3def g2 (3C=B,C (3DEF|(3GDE (3FGA (3Bcd (3eEF (3GAB (3cde|(3(fe).d (3(dc).B (3(BA).G (3F2 (3z2 (3z2|]
+S:https://www.folktunefinder.com/tunes/96701
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

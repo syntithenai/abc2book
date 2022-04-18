@@ -1,0 +1,25 @@
+X:165
+U: ~ = !turn!
+%%topmargin 3cm
+T:Phelim's Frolic
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:C
+PcBcG ECEG | c2 Ac BcdB | ((3cde) cG EFGB | Ad{/e}dc BGAB :|]
+(3.c.c.c gc acgc | (3.c.c.c gc BcdB | (3.c.c.c gc acgb | aged BGAB |
+((3{/d}cBc) gc acge | (3.c.c.c gc BcdB | ~c3 d eg (3.g.g.g | aged cGAB |]
+S:https://www.folktunefinder.com/tunes/94761
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Phelims_Frolic_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Phelims_Frolic_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

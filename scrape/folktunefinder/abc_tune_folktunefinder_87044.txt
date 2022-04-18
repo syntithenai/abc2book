@@ -1,0 +1,32 @@
+X:795
+T: Stonehill Fair (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] E|"Bm"FBB dBB | "D"afd "A"cBc | "Bm"FBB dcd | "D"fdc "Bm"B2 A |
+[V:2] z|B,,2[BDF]F,,2[BDF]|D,2[AFD]A,,2[AEC]|B,,2[BDF]F,,2[BDF]|D,2[AFD]B,,2[BFD]|
+%
+[V:1] "Bm"FBB dBB|"D"afd "A"cBA | "D"FAd "G"BGB | "A7"AGE "D"D2 :|
+[V:2] B,,2[BDF]F,,2[BDF]|D,2[AFD]A,,2[AEC]|D,2[AFD]G,,2[GDB]|A,,2[GCE][D,2A,2F2]:|
+%
+[V:1] A|"Bm"Bff "F#m"cff | "D"dfa "Bm"baf | "D"d2 f "Em"ede | "D"fdc "Bm"B2 A |
+[V:2] z|B,,2[BFD]F,,2[FCA]|D,2[AFD]B,,2[BFD]|D,2[AFD]E,2[EBG]|D,2[AFD]B,,2[BFD]|
+%
+[V:1] "Bm"Bff "F#m"cff | "D"dfa afa | "G"b2 f "D"agf |"A"edc "D"d2 :|
+[V:2] B,,2[BFD]F,,2[FCA]|D,2[AFD]A,,2[AFD]|G,,2[GDB]D,2[AFD]|A,,2[AEC][D,2A,2F2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87044
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

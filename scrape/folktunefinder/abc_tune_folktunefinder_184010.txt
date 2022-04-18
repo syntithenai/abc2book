@@ -1,0 +1,27 @@
+X:1
+T:Princess Royal (MDT)
+C:Abingdon
+M:4/4
+L:1/8
+Q:150
+A:Abingdon
+P:A(A2B2)3A
+K:G
+P:A
+dc|B2A2 G2dc|BcBA G2g2|e3d  c2e2|d3c  B2d2|
+c2B2 A2G2|FGAF D2dc|BABG A2D2|G6z2     ||
+P:B
+e3e  e2f2|g2f2 g4  |g2f2 e2d2|BcBA G3A |
+G2G2 A4  |B2G2 g3f |g2d2 e4  |d2B2 c4  |
+c2B2 A2G2|FGAF D2dc|BABG A2D2|G6z2     ||
+</abc>
+S:https://www.folktunefinder.com/tunes/184010
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:abingdon:princess_royal_mdt&do=edit&rev=
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

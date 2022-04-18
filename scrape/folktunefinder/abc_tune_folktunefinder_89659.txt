@@ -1,0 +1,23 @@
+X:95
+T: Sen Gannon's
+C: Colm Gannon
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: D
+D |F2 d AFE |FGF EDB, |A,B,A, DFA | dAF GFE |
+F2 d AFE | FGF EDB, | A,B,A, DFA | BAF D2 :|
+e | fdd Add | fdb afe | faf edB | ABc d2 e |
+fdd Add | fdb afe | faf edB | AFE D2 :|
+S:https://www.folktunefinder.com/tunes/89659
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

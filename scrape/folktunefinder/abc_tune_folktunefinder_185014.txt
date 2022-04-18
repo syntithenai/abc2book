@@ -1,0 +1,24 @@
+X:1
+T:Reel de Beris
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:2/4
+L:1/8
+K:A
+E2 | AG AB | AE CE | FE F=G | F2 DE | FE FG |
+AF GA | BABc | B2E2 | cB cd | cA Bc | dc de |
+dc BA | AG AB | cA GF | EC DB, | A,2E2 |:
+A,E EE | A,E EE | DF FF | DF ED | CE FG | AB AG |
+AB c^d | e2E2 | A,E EE | A,E EE | DF FF | DF ED |
+CE FG | Ac de | fd BG | A2 E2 :|
+S:https://www.folktunefinder.com/tunes/185014
+S:http://music.gordfisch.net/tradmusic/pub/cache/Reel_de_Beris_ff5acb.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

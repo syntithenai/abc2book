@@ -1,0 +1,44 @@
+X: 9115
+T: Old Man and His Dog (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] B/c/ |"G"d2 B GDG | "D"A2 F D2 A | "G"ded "C"cBc | "G"d2 d "D"dBc |
+[V:2] z|G,,2[GBD]B,,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]C,2[EGC]|G,,2[GBD]D,2[AFD]|
+%
+[V:1] "G"d2 B GDG | "D"A2 F D2 A | "G"ded "D7"cBA | "G"GEF "G"G2 :|
+[V:2] G,,2[GBD]B,,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[AFC]|G,,2[GBD][G,2B,2D2]:|
+%
+[V:1] d|"G"gdg gdg | "D7"a2 f d2 c | "G"Bcd "C"ecB | "D"A3-ABc |
+[V:2] z|G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFC]|G,,2[GBD]C,2[EGC]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"dGG DGG |"D" AFF DFF | "G"ded "D7"cBA |"G"GBA "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[AFC]|G,,2[GBD][G,2B,2D2]:|
+%%%%%%tune repeat
+[V:1] B/c/ |"G"d2 B GDG | "D"A2 F D2 A | "G"ded "C"cBc | "G"d2 d "D"dBc |
+[V:2] z|G,,2[GBD]B,,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]C,2[EGC]|G,,2[GBD]D,2[AFD]|
+%
+[V:1] "G"d2 B GDG | "D"A2 F D2 A | "G"ded "D7"cBA | "G"GEF "G"G2 :|
+[V:2] G,,2[GBD]B,,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[AFC]|G,,2[GBD][G,2B,2D2]:|
+%
+[V:1] d|"G"gdg gdg | "D7"a2 f d2 c | "G"Bcd "C"ecB | "D"A3-ABc |
+[V:2] z|G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFC]|G,,2[GBD]C,2[EGC]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"dGG DGG |"D" AFF DFF | "G"ded "D7"cBA |1 "G"GBA "G"G2 :|2 "G"BGF "G"HG3 ||
+[V:2] G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[AFC]|1 G,,2[GBD][G,2B,2D2]:|2\
+G,,2[GBD] H[G,,3B,3D,3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87200
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

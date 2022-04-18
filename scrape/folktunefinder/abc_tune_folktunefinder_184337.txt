@@ -1,0 +1,28 @@
+X:1
+T:The Quick Step Jig
+C:Joe Wallen
+O:Cape Breton
+R:jig
+Z:C. McGrew from Buddy MacMaster's handouts at the 1993 Solstice
+Z:festival.  B.MacMaster notes "From Doug MacPhee"
+M:6/8
+Q:3/8=120
+K:D
+%%MIDI gchord cccccc
+B| "D"AFD DFD| AFD d2A| "G"Bcd "D"AGF| "Em"E(gf) "A"(ed)c| \
+"D"dAF DFA| "G"BAB "D"d2B|
+   "D"AFD "G"FDB,| "D"A,DD D2:| f/g/| "D"afd dfd| "F#m"afb "D"afd| \
+   "G"gbg "D"faf| "Em"gee efg|
+   "D"afd dfd| "F#m"afb "D"afd| "Em"gfe "G"fdB| "D"Add d(fg)| \
+"D"afd dfd| "F#m"afb "D"afd|
+   "G"gbg "F#m"faf| "G"gee efg| "D"fed "G"BAG| "D"FAd AFD|\
+   "Em"GFE "Bm"FDB,| "D"A,DD D2||
+S:https://www.folktunefinder.com/tunes/184337
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/QuickStepJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

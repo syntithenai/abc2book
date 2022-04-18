@@ -1,0 +1,25 @@
+X:1
+T:Maggies Reel
+C:Tom Anderson
+O:Shetland
+R:Reel
+M:C|
+Q:1/2=120
+K:D
+%%MIDI gchord f2c2f2c2
+FE| "D"DFAB AFED| "Bm"d2 dA "G"BABd| "D"ABdA "Bm"BAFD| "Em"B,EEF "A7"EGFE|
+    "D"DFAB "Em"AFED| defd "D"BAFA| d2 dB "D"AFED| "G"B,DDE "D"D2 :|
+A2 | "D"defd ca^ga| "Bm"fdAF "G"BGFG| "D"Adcd "Bm"fdcd| "Em"Beef "A7"e2 A2|
+"Bm"defd "A"ecAF| "G"GABG "D"AdFD| "G"GABG "A7"ABcA| "D"d2 dc d2 
+A2 | "D"defd ca^ga| "Bm"fdAF "G"BGFG| "D"Adcd "Bm"fdcd| "Em"Beef e2 "A7"FE|
+    "D"DFAB "Em"AFED| "D"defd BAFA| "D"d2 dB "D7"AFED| "G"B,DDE "D"D2 |]
+S:https://www.folktunefinder.com/tunes/173641
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/MaggiesReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

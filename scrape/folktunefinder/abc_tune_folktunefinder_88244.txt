@@ -1,0 +1,26 @@
+X:435
+T:a Minuet La Favourite
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ecc.html
+%%ID:00000ecc
+K:Bb
+GA B2A2 | G2 e2d2   | c2 B2A2 | G^FGABc | \
+d2 g2f2 | e2 d2c2   | f2 B2A2 | B6      ::
+b2 a2g2 | f2 (edcB) | g2 f2e2 | d2 cBAG | \
+e2 d2c2 | B2 ABGA   |! (^FG) (G3A/B/) | A=B B3(A/B/) |\
+cd e2d2 | =ea ^f4   |  g2 B2A2        | G6 ::
+S:https://www.folktunefinder.com/tunes/88244
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

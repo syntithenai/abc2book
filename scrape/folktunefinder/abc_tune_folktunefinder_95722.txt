@@ -1,0 +1,27 @@
+X:455
+T:Happy Clown
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e2e.html
+%%ID:00000e2e
+K:G
+D |\
+G2A BAG | d2d d2g | f2e dcB | c2B AFD | \
+G2A BAG | d2d d2g | fed edc | d3 d2 ::
+B/c/ | \
+dBc ded | dcB c3 | cAB cdc | cBA B2d | \
+g2d g2d | g3 gfe | dcB AGF | G3 G2 ::
+%page:53
+S:https://www.folktunefinder.com/tunes/95722
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

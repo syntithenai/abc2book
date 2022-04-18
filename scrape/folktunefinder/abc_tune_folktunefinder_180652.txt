@@ -1,0 +1,28 @@
+X:1
+T:Oscar II:s vals
+R:Vals
+Z:Klas Krantz, 2006
+O:Smland
+S:Bearbetning efter Elsa Uhr
+M:3/4
+L:1/8
+K:D
+A2 |: "D" f2>A2f2 | d2>A2d2 | "G" B2>G2 BG | "Em" E4d2 |[1 "A7" c2E2F2 | G2>F2 GB |
+"D" A2D2E2 | F4A2 :|[2 "A7" c2>B2A2 | A2B2c2 | "D" d2>d2d2 | d4A2 |
+|:"D" f2F2A2 | d2f2a2 | "A7" g2A2>c2 |e6 |[1 g2A2c2 | e2>f2e2 |
+"D" d2F2A2 | d4A2 :|[2 "A7"gf ed cB | A2f2>e2 | "D" d2F2A2 | D4A2 |
+|: "D" f2>A2f2 | d2>A2d2 | "G" B2>G2 BG | "Em" E4d2 |[1 "A7" c2E2F2 | G2>F2 GB |
+"D" A2D2E2 | F4A2 :|[2 "A7" c2>B2A2 |A2B2c2 | "D" d2>d2d2 | d4 A2 |
+|: "G" B2>B2B2 | B2c2d2 | "D" A2>A2A2 | F2A2d2 | "A7"c2>c2c2 | A2c2e2 |
+"D" d2>d2d2 | "D7"d2c2=c2 | "G" B2>B2B2 | B2c2d2 | "D" A2>A2A2 | F2A2d2 |
+"A7" c2>B2A2 | A2B2c2 |1 "D"d2>d2d2 | d2z2A2 :|2 "D"d6- | d2z2  |]
+S:https://www.folktunefinder.com/tunes/180652
+S:http://www.folkwiki.se/pub/cache/Oscar_IIs_vals_d95568.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

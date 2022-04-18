@@ -1,0 +1,28 @@
+X:152
+U: ~ = !turn!
+%%topmargin 3cm
+T:O'Rourke's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+ed | ((3cBA) eAfAe | ((3cBA) ec dfed | cA (3.A.A.A fd (3.d.d.d | [1 fage d2 :| [2 fage d2 ef ||
+((3gag) ((3fgf) edef | {/a}gfed ea ~a2 | gefd ed (3.d.d.d | fage d2 ef |
+gafg edef | gfed da a2 | ((3agf) ((3gfe) gfed | da{/b}ag {/b}aged |]
+S:https://www.folktunefinder.com/tunes/94748
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/ORourkes_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/ORourkes_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

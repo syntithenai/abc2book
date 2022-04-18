@@ -1,0 +1,32 @@
+X: 2
+T:Prelude by Dean(02). TBe.002
+M:4/4
+L:1/8
+Q:150
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:1 - two more or less horizontal dashes over the note - like a
+N:slightly slanted equal sign, meaning a "Backfall"..see Playford...
+H:1718
+Z:vmp.C. Graebe..
+K:G Major
+"Gamut sharp=G major.No time sig."\
+G2B2d2B2 | g2d2e2B2 |\
+ c2A2d2A2 | B2G2gfed |!
+cBcA dedc | BABG ceae |\
+ ^cafd gdeB | ^ceac gb dg |!
+Bd GB DG B,D | G,gfg "=NB"g3 f | gGBd  g4 ||
+S:https://www.folktunefinder.com/tunes/96153
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 1
+T:the Lonsdale Hornpipe
+N:Recommended tuning A
+M:3/2
+O:England
+A:North-West
+R:Triple Hornpipe
+K:D
+F4 A4 d4| F2FG A2AB G2GA| F4 A4 d4| E2EF G2GA B2AG::
+F2D/E/F/G/ A2F/G/A/B/ d2dA| F2D/E/F/G/ A2AB G2GA|\
+F2D/E/F/G/ A2F/G/A/B/ d2dA| E2EF G2GA B2AG::
+F2D/E/F/G/ AFdF AFdF| F2D/E/F/G/ AFAF BGBG|\
+F2D/E/F/G/ AFdF AFdF| E2EE cEcE cEcE::
+d2f2 d2f2 d2dA| d2f2 d2f2 c2ce| B2g2 B2g2 B2BB| A2a2 A2a2 c2BA::
+agfe defg a3b| agfe defd g3g| fedc Bcde f3f| edcB ABcd e2cB/A/::
+d2fd fdfd d3A| d2fd fdfd ecec| B2gB gBgB gBgB| A2aA aAaA c2BA::
+d2FA d2FA d3A| d2FA d2FA =c3A| B2GB B2GB B2GB| c2Ac c2Ac c2Ac::
+dAFA dAFA d3f| dAFA dAFA =c2cd| BAGF EFGA BcdB| edcB ABcd e2d/c/B/A/::
+F2D/E/F/G/ A2F2 A2A,2| D2F2 A2GF EFGE| D2F2 G2FG A2B,2| C2E2 A2GF EFGE::
+DEFE DEFE D2A,2| DEFE DEFD EFGE| DEFE DEFE D2A,2| C2E2 C2E2 C2E2:|
+S:https://www.folktunefinder.com/tunes/172885
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lo/Lonsdale_Hornpipe_1.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

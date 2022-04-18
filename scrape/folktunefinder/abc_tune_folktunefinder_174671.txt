@@ -1,0 +1,25 @@
+X:260
+T:Mason's Apron
+R:reel
+H:This is the standard two-part version, with some variations. See also #6
+H:, #645, #646
+H:This version is sometimes also played in G, see #740
+Z:id:hn-reel-643
+M:C|
+K:A
+eg|:aA~A2 cBAF|EFAB cABc|dB~B2 BcBA|Bcde fefg|
+aA~A2 cBAF|EFAB cABc|dcde fgaf|1 ecBc A2eg:|2 ecBc A2AB||
+|:c2ec fcec|c2ec fcec|d2fd gdfd|d2fd gfed|
+c2ec fcec|c2ec fedc|dcde fgaf|1 ecBc A2AB:|2 ecBc A2||
+S:https://www.folktunefinder.com/tunes/174671
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisCorrigan.com/music/Masons_Apron_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

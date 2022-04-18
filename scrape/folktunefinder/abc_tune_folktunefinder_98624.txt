@@ -1,0 +1,27 @@
+X:10842
+T:Miss Bacons Hornpipe.(incomplete). JC.116
+M:C
+L:1/8
+Q:120
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Hornpipe
+O:England
+A:Northamptonshire
+N:Key Sig in MS has only a Csharp.
+Z:P Headford
+K:G
+BA|F2E2EGFE|DEA2AcBA|GBde eBcA|G2D2-D2|!
+|((3Bce)|eBGB eage|gBGB gbag|gegd ecge|d2B2-B2eB|((3cde)((3GAB)A2b/a/||
+W:The key and mode need to be determined
+S:https://www.folktunefinder.com/tunes/98624
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

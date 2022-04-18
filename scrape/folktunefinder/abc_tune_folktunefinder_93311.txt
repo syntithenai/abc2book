@@ -1,0 +1,28 @@
+X:240
+T: Pat Ward's
+S: Treoir
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: D
+A2 G | FED A2 D B2 D A2 D | F2 A A2 F E3 E2 G |\
+FED A2 D B2 D A2 D |
+|1 Bcd e2 c d2 B :|2 Bcd e2 c d3 dcB ||\
+A2 d f2 d e2 d f2 d |
+A2 d f2 d e3 d2 f | A2 d f2 d e2 d e2 f |\
+g2 f e2 d B3 A2 F |
+A2 d f2 d e2 d f2 d |A2 d f2 d e3 e2 f |\
+gfe fed fed cBA |
+|1 Bcd edc d3 d2 B :|2 Bcd edc d3 d3 ||
+S:https://www.folktunefinder.com/tunes/93311
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

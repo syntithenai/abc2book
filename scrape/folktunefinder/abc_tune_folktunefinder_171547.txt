@@ -1,0 +1,22 @@
+X:2
+T:Piglet's Blanket
+C:copyright 1998 Kaubells
+E:14                   % note spacing
+M:C
+K:A
+\bigskip
+eg|:"A"a2ag fgfe|"B7"^d2B2B2d2|"E7"=d2B2B2d2|"A"cBcd e2 eg|
+"A"a2ag fgfe|"B7"^d2B2B2d2|"E7"=dBd2 e2Ez/G/|1"...A"A4 z2eg:|2"...A"A4z2AB||
+|:"C"=c2cd "D"ede2|"E"fef2 g2AB|"C"=cde2 "D"fef2|"E"g4z2AB|
+"C"=c2cd "D"ede2|"E"fef2 g2zg|"B7"bag2 f2zg|1"...E7"e4z2AB:|2"...E7"e4z2eg|]
+T:Last time only
+"C"=c2cd "D"ede2|"E"fef2 g2zg|"B7"bag2 f2zg|"A"a2z2[c2a2] |]
+S:https://www.folktunefinder.com/tunes/171547
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/twirling.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:85
+T:Anatomie Vivante
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st and 2d Couple, lead down the middle, & chain figure of four round
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000deb.html
+%%ID:00000deb
+K:Bb
+(FG).F |\
+(d2c) (d2c) | B2d (FG)F | (e2d) (e2d) | c2f (FG)F |\
+d2c   B2A   | G2=B cde  | dcB    BcA  | B2z ||
+(cd)c |\
+a2g f2=e | f2c cdc | a2g f2=e | f2z (f=e)d |\
+c2c (dc)B | A2A (cB)A | Gdc BAG | F2F !D.C.! :|
+S:https://www.folktunefinder.com/tunes/88150
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X: 10
+T: Anthropology
+C: Charlie Parker
+M: 4/4
+L: 1/8
+K: Bb clef=G
+P: A
+F, || "Bb"B,DC=B, "Cm7"E^CDF | "Dm7"z3E "Ebm6"zFE2 | "Dm7"zDED "Gm7"CA,B,D | "Cm7"CG,B,A, "F7"z3B,- |
+"Fm7"B,2G,B, "Bb7"DB,z_F | "Eb7"zE z_G,- "Ebm6"G,B,CD | "Dm7"F2z=B, "G7"z_Az^F | "Cm7"GEB,G, "F7"DF2F, ||
+P: A
+"Bb"B,DC=B, "Cm7"E^CDF | "Dm7"z3E "Ebm6"zFE2 | "Dm7"zDED "Gm7"CA,B,D | "Cm7"CG,B,A, "F7"z3B,- |
+"Fm7"B,2G,B, "Bb7"DB,z_F | "Eb7"zE z_G,- "Ebm6"G,B,CD | "Cm7"(3EFE DF "F7"zDEG, | "Bb"CG,B,C z3^F- ||
+P: B
+"D7"F2G^G A^F=GA | ^FD z2 z3=E | "G7"=F=ED^C ED=B,A, | z3A zA zA- |
+"C7"AG=ED z3=A, | (3C/D/C/G, B,C z3E- | "Cm7"E2DC =B,DCG, | "F7"C2B,A, z3F, ||
+P: A
+"Bb"B,DC=B, "Cm7"E^CDF | "Dm7"z3E "Ebm6"zFE2 | "Dm7"zDED "Gm7"CA,B,D | "Cm7"CG,B,A, "F7"z3B,- |
+"Fm7"B,2G,B, "Bb7"DB,z_F | "Eb7"zE z_G,- "Ebm6"G,B,CD | "Cm7"(3EFE DF "F7"zDEG, | "Bb"CB,A,B, z4 |]
+S:https://www.folktunefinder.com/tunes/87511
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

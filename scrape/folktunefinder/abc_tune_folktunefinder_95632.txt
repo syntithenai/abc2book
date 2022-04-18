@@ -1,0 +1,31 @@
+X:5
+T:Each has a lover but me
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Q:3/8=Lively
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000df3.html
+%%ID:00000df3
+K:C
+G |\
+c>Bc AcA  | G3  E2G | ABc   fed | (c3  B2)G | \
+c>Bc AcA  | G3  E2c | BAA   cBB | dcz z2c |
+cee ece   | g3  d2d | dcA   edc | cBz z2d | \
+e>^fg gfe | d2z zdd | e>^fg gfe | edz z2g |
+egz z2e  | dgz z2d  | dgB AGA | B3  HG2G | \
+cBc DEG  | A3  G2G  | ABc fed | (c3 B)BB |
+cBc DEG  | A3  G2c  | cAA GcB | c3- c2e  | \
+ed^c dfz | dcB cHec | cAA Ged | c3-c2 |]
+%page:2
+S:https://www.folktunefinder.com/tunes/95632
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

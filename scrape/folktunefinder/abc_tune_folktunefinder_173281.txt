@@ -1,0 +1,27 @@
+X:1098
+T:"The Luck Penny"      (jig)     1098
+C:after Chief   F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(G/2A/2)|BAG AGF|DGE FGA|BAG Bcd|cAG F2(d/2c/2)|
+BAG AGF|GBd gag|fed gdB|cAF G2:|
+|:d|dgf gfg|abg fed|bag afd|def g2a|
+bag agf|gbg fed|def gdB|cAF G2:|
+|:(B/2c/2)|dBG GFG|BGB dBG|cAF FEF|AFA cAF|
+dBG GFG|gbg fed|def gdB|cAF G2:|
+S:https://www.folktunefinder.com/tunes/173281
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1098-LuckPenny.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1098-LuckPenny.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

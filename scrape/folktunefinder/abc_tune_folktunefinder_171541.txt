@@ -1,0 +1,24 @@
+X: 1
+T: Last Tango In Harris
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+B2A Bcd|c2A cde|~d3 def|e2d efg|
+fdf ece|dBd cAc|Bdf fdf|1edc B2A:|2edc Bfe||
+f2f fed|e2e edc|ded dcB|cde ede|
+faf fed|e2e edc|B2f fdf|1edc Bfe:|2edc B2A||
+B2A- ABB|c2A Bcc|d2c def|efe edc|
+B2A- ABB|c2A Bcc|d2f fdf|edc B2A:|
+Bad aBa|cae aca|daf ada|ead aca|
+Bad aBa|cae aca|def fef|edc BBA:|
+S:https://www.folktunefinder.com/tunes/171541
+S:http://www.thesession.org/tunes/display/6124
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

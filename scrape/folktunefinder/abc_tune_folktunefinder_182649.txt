@@ -1,0 +1,33 @@
+X:1
+T:Plaetscherpolka
+C:traditionell
+A:Schwaebische Tuerkei
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 44/45 - Deutsche Volkstaenze aus dem Donauraum", Herausgegeben von Karl Horak, Baerenreiter=Ausgabe 1277, 1961
+N:im buch ganz in G
+H:gelernt von Elisabeth und Christoph Huspeka
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G %Transposed from F
+D |\
+GG GG | GA BG | AA AA | AB cA |
+BA2F | G3 :|
+|: z |\
+d2 G2 | FA2B | c2 F2 | GB2c |
+d2 G2 | FA2B | cB A2 | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182649
+S:http://simonwascher.info/TradArchiv_polka/plaetscherpolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

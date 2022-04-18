@@ -1,0 +1,26 @@
+X: 1
+T: Rakish Paddy
+Z: Hiroyuki Yamada
+R: reel
+M: 4/4
+L: 1/8
+N: "Variation" is an additional part which usually comes first
+Z: Contributed 20040423021551 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Dmix
+c3 B c2 AB | cBAG EG G2 | Add^c defe | dcAG FGAB |
+c3 B c2 AB | cBAG EFGE | DEFG ABcA |1 dcAG FGAB:|2 dcAG FD D2 ||
+eg g2 ag g2 | eg g2 ed^cd | ea a2 bgag | eaag ed^cd |
+eg g2 ag g2 | f2 fe defg | afge fde^c |1 dcAG FD D2:|2 dcAG FGAB ||
+S:https://www.folktunefinder.com/tunes/184591
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/RakishPaddy.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/RakishPaddy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

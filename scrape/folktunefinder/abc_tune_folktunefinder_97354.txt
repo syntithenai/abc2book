@@ -1,0 +1,24 @@
+X:50
+T:Con Cassidy's
+M:6/8
+L:1/8
+Q:3/8=138
+S:THSP
+R:jig
+K:G
+"G"~B3 BAB|"Am"d2c A2F|"Em"~G3GFG|"G"BAG"D" A2B|
+"C"~c3 cBc|"G"e2d B2c|"D"ded cAF|1"G"~G3 G2A:|2"G"~G3 G2g|:
+"D"f2d def|"C/D"gfg a2g|"D"f2d ded|"Am/D"c2A A2g|
+"D"f2d def|"C/D"gfg a2g|"D"fed "Am/D"ed^c |1 "D"d3 d2g :|2 "D"ded cdc|]
+S:https://www.folktunefinder.com/tunes/97354
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

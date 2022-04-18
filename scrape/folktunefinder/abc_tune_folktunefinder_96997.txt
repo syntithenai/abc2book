@@ -1,0 +1,22 @@
+X:1
+T:Aitken Drum
+C:for Galloway House 8x32R
+R:reel
+Z:RSCDS Graded
+M:4/4
+K:G
+L: 1/8
+GA|"G" B2 B2 B2 AG | "C" E4 G3 E| D2 D2 E2 G2| "A" B2 A2 "D" A2 GA \
+  | "G" B2 B2 "G7" B2 AG | "C" E4 G3 E| "D" D2 D2 E2 F2| "G" G6||
+GA| "G" B2 B2 B2 AG | "C" c4 e2 c2| "G" B2 d2 "Em" B2 G2 | "A" B2 A2 "D" A2 GA \
+  | "G" B2 B2 "G7" B2 AG | "C" E4 G3 E| "D" D2 D2 E2 F2| "G" G6|]
+S:https://www.folktunefinder.com/tunes/96997
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/AitkenDrumR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

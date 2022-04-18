@@ -1,0 +1,29 @@
+X: 1
+T: the Lass o' Gowrie
+R: march
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: C
+|: G/F/ \
+| "C"EG GB | c>d cB \
+| "F"A>G Ac | "G"d>e dG/F/ \
+| "C"EG GB | "Am"c>d ed \
+| "F"cA "C"Ge | "G7"d2 "C"c :|
+|: c/d/ \
+| "C"eg cd | e>f "(A7)"gf/e/ \
+| "Dm"fa de | "G7"f>g ag/f/ \
+| "C"eg "G7"de | "Am"c>d ed \
+| "F"cA "C"Ge | "G7"d2 "C"c :|
+S:https://www.folktunefinder.com/tunes/171481
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LassOGowrie_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

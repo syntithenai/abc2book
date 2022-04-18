@@ -1,0 +1,32 @@
+X: 1
+T: Nancy
+C: R-24
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+A2| "D"d2D2 F2A2| d2fe d3A| d2e2 gfed| "E7"c2e2 "A"A2Bc|
+    "D"d2D2 F2A2| d2fe d3A| "G"B2g2 "A"fedc| "D"d6 :|
+|:\
+fg| "D"a3b a2gf| "A7"g3a g2fe| "D"f2d2 "G"gfed| "E7"c2e2 "A"A2Bc|
+    "D"d2D2 F2A2| d2fe d2A2| "G"B2g2 "A"fedc| "D"d6 :|
+|:\
+Ac| "D"dcBA GFED| F2A2 d3A| dcde gfed| "E7"cdec "A"A2Bc|
+    "D"dcBA GFED| F2A2 d3A| "G"B2g2 "A7"fedc| "D"d6 :|
+|:\
+fg| "D"aAaA a2gf| "A"gAgA g2fe| "D"fefd "G"gfed| "A"cdec A2Bc|
+    "D"dcBA GFED| F2A2 d3A| "G"B2g2 "A7"fedc| "D"d6 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/178209
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R024_Nancy.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R024_Nancy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

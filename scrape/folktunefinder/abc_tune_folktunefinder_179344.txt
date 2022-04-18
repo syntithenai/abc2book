@@ -1,0 +1,38 @@
+X:1
+T:Obfelder Dreier
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Elisabeth und Christoph Huspeka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:(ziztiert aus 'Tiroler Volkstanzbuch, K. Horak): Die Ladiner im Groednertal waren bestrebt, in der volkstanzpflege auch eigene formen zu tanzen. Da bodenstaendige formen bereits vergessen waren, griff man auf taenze aus dem sprachverwandten raetoromanischen Graubuenden zurueck. Aus dem von dort stammenden "Ora Surchomps", nach einer Engadiner weise von Louise Witzig eingerichtet, entwickelte sich die vorliegende tanzform die sich in der pflege grosser beliebtheit erfreut und viel getanzt wird.
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+BdB | G2A | BdB | G2A |\
+B2B | d2d | ABA | D2D |
+BdB | G2A | BdB | G2A |\
+B2B | dcA | G>GG | G2 ||
+|: d |\
+czc | cBA | BzB | G3 |\
+DFA | DFA | G2B | d2d |
+czc | cBA | BzB | G3 |\
+DFA | cBA | G>GG | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179344
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/obfelder_dreier.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X: 9006
+T: Patsy Whelan's (with piano acc.)
+C: BB
+Q: 325
+L: 1/8
+M: 6/8
+R: jig
+V: 1 program 1 110 %fiddle
+V: 2 program 1 01 volume=63 clef=bass m=D
+K: G
+[V:1] "G"DGG dGG|"D"FGA FED|"G"DGG dGG|"Am"ABc "D"d^cd|
+[V:2] G,2[DBG]D,2[DBG]|F,,2[DAF]D,2[DAF]|G,,2[DBG]D,2[DBG]|A,,2[EAC]D,2[DAF]|
+%
+[V:1] "G"DGG dGG|"D"FGA ABc|"G"ded "Am"cAF|"D"AGF "G"G3 :|
+[V:2] G,,2[DBG]D,2[DBG]|F,,2[DAF]D,2[DAF]|G,,2[GDB]A,,2[AEC]|D,2[AFD]G,,2[GDB]:|
+%
+[V:1] "C"gfe "G"dcB|"Am"AcE "D"FED|"Em"EGG BAB|"A"ed^c "D"d2 f|
+[V:2] C,2[CGE]G,,2[DBG]|A,,2[EAC]D,2[AFD]|E,2[BGE]B,,2[BGE]|A,,2[EA^C]D,2[AFD]|
+%
+[V:1] "G"gfg "D"afd|"Am"cec "G"dBG|"C"EGc "Em"BGE|"D"AFD "G"G3 :|
+[V:2] G,,2[DBG]D,2[AFD]|A,,2[EAC]G,,2[DBG]|C,2[GEc]E,2[BGE]|D,2[AFD]G,,2[GDB]:|
+%%%%%%%%tune repeat
+[V:1] "G"DGG dGG|"D"FGA FED|"G"DGG dGG|"Am"ABc "D"d^cd|
+[V:2] G,2[DBG]D,2[DBG]|F,,2[DAF]D,2[DAF]|G,,2[DBG]D,2[DBG]|A,,2[EAC]D,2[DAF]|
+%
+[V:1] "G"DGG dGG|"D"FGA ABc|"G"ded "Am"cAF|"D"AGF "G"G3 :|
+[V:2] G,,2[DBG]D,2[DBG]|F,,2[DAF]D,2[DAF]|G,,2[GDB]A,,2[AEC]|D,2[AFD]G,,2[GDB]:|
+%
+[V:1] "C"gfe "G"dcB|"Am"AcE "D"FED|"Em"EGG BAB|"A"ed^c "D"d2 f|
+[V:2] C,2[CGE]G,,2[DBG]|A,,2[EAC]D,2[AFD]|E,2[BGE]B,,2[BGE]|A,,2[EA^C]D,2[AFD]|
+%
+[V:1] "G"gfg "D"afd|"Am"cec "G"dBG|"C"EGc "Em"BGE|1 "D"AFD "G"G3 :|2 "D"AFD "G"HG3|z6|z6||
+[V:2] G,,2[DBG]D,2[AFD]|A,,2[EAC]G,,2[DBG]|C,2[GEc]E,2[BGE]|1 D,2[AFD]G,,2[GDB]:|2\
+D,2[AFD]HG,,3|z6|z6||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87091
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

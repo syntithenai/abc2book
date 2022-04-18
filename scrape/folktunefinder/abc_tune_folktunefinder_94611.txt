@@ -1,0 +1,41 @@
+X:013
+U: ~ = !turn!
+%%topmargin 3cm
+T:Bonnie Kate
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Sean Ryan
+R:Reel
+L:1/8
+M:C|
+K:D
+dB | A2 dA ((3Bcd) AF | DFAF EA,CE | DFAF GBed | ((3cBA) Bc d3 B |
+AF (3.F.F.F DF (3.F.F.F | dF (3.F.F.F EA,CE | DFAF GBed | ((3cBA) Bc dcdB |
+Ad ~d2 fdAF | ((3GFE) ((3FED) EA,CE | DFAF GBed | ((3cBA) Bc dcdB |
+AF (3.F.F.F DF (3.F.F.F | dF (3.F.F.F EA,CE | DFAF GBed | ((3cBA) Bc defg ||
+~a2 fd Adfa | ~g3 e cdef | g2 {/a}gf gbag | fgfe defg |
+~a2 fd Adfa | gfed cdef | g2 {/a}gf gbag | fgfe defg |
+~a2 fd Adfa | gfed cdef | g2 {/a}gf gbag | fgfe defg |
+~a2 fd ADFA | gfed cdef | gfed cbag | fgfe dcBc ||
+((3dcB) ((3cBA) BAGF | ((3GFE) ((3FED) EA,CE | DFAF GBed | ((3cBA) Bc dcdB |
+AF (3.F.F.F DF (3.F.F.F | dF (3.F.F.F EA,CE | DFAF GBed | ((3cBA) Bc dcBc |
+((3dcB) ((3cBA) BAGF | ((3GFE) ((3FED) EA,CE | DFAF GBed | ((3cBA) Bc dcdB |
+AF (3.F.F.F DF (3.F.F.F | dF (3.F.F.F EA,CE | DFAF GBed | ((3cBA) Bc defg ||
+ad (3.d.d.d adbd | ad (3.d.d.d cdef | g2 gf gbag | fgfe defg |
+ad (3.d.d.d adbd | ad (3.d.d.d cdef | gfed cbag | fgfe defg |
+ad (3.d.d.d adbd | ad (3.d.d.d cdef | g2 gf gbag | fgfe defg |
+ad (3.d.d.d adbd | ad (3.d.d.d cdef | gfed cbag | fgfe dgfe |]
+S:https://www.folktunefinder.com/tunes/94611
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Bonnie_Kate_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Bonnie_Kate_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

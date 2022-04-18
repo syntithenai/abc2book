@@ -1,0 +1,28 @@
+X: 53
+T:Jigg. TBe.053
+M:6/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:jigg
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+g | g>fe e>dc | B3 "qu"G2 e | d2ef2g | e3-e2 g | !
+g>fe e>dc | =B3 G2e | (def) e2 d/c/ | c3-c2 ||!
+g/_a/ | g2_a g2B | B3-B2 B |=B>AG F2E | E3-E2 g/_a/ |!
+ g2_af2B | B2BB2B | c>de e2 d | e3-e2 d/e/ |!
+d2g e>dc | d2g e>dc | =BGc dcB | c3-c2 d/e/ |!
+ d2g e>dc | d2g e>dc | =BGc cdB | c3-c3 ||
+S:https://www.folktunefinder.com/tunes/96204
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

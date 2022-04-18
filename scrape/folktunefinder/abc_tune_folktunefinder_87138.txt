@@ -1,0 +1,54 @@
+X: 9053
+T: Frogs & Snakes of Galway (with piano acc.)
+T: Mike Connolly's
+C: BB
+Q: 1/8=330
+L: 1/8
+M: C|
+R: hornpipe
+V: 1 program 1 40 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] e|"D"f2 ed "Bm"BAFB|"D"ABAF "Em7"EDEF|"D"f2 ed "Bm"BAFA|"D"(3Bcd AF "A"E4|
+[V:2] z|D,2[D2A2F2]B,,2[B2D2F2]|D,2[D2A2F2]E,2[E2B2G2] |D,2[D2A2F2]B,,2[B2D2F2]|\
+D,2[D2A2F2]A,,2[A2E2C2]|
+%
+[V:1] "D"f2 ed "Bm"BAFB|"D"ABAF "Em7"EDEF|"G"GFED "D"defd|"A"AFEF "D"D3 :|
+[V:2] D,2[D2A2F2]B,,2[B2D2F2]|D,2[D2A2F2]E,2[E2B2G2] |G,,2[G2D2B2]D,2[D2A2F2]|\
+A,,2[A2E2C2]D,2[AFD]:|
+%
+[V:1] z|"Bm"FABA FABA|"Em"GBeB GBeB|"A"Acef "A7"gfef|"G"gfed "A7"cBAG|
+[V:2] z|B,,2[F2B2D2]F,,2[F2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|A,,2[A2E2C2]E,2[E2C2A2G2]|\
+G,,2[G2D2B2]A,,2[A2E2C2]|
+%
+[V:1] "Bm"FABA FABA|"Em"GBeB GBeB|"A"Acea "G"gfef|"A7"gece "D"d3 :|
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|A,,2[A2E2C2] G,,2[G2D2B2]|\
+[A,4G4E4C4][D,3A,3F3]:|
+%%%%%%%tune repeat
+[V:1] e|"D"f2 ed "Bm"BAFB|"D"ABAF "Em7"EDEF|"D"f2 ed "Bm"BAFA|"D"(3Bcd AF "A"E4|
+[V:2] z|D,2[D2A2F2]B,,2[B2D2F2]|D,2[D2A2F2]E,2[E2B2G2] |D,2[D2A2F2]B,,2[B2D2F2]|\
+D,2[D2A2F2]A,,2[A2E2C2]|
+%
+[V:1] "D"f2 ed "Bm"BAFB|"D"ABAF "Em7"EDEF|"G"GFED "D"defd|"A"AFEF "D"D3 :|
+[V:2] D,2[D2A2F2]B,,2[B2D2F2]|D,2[D2A2F2]E,2[E2B2G2] |G,,2[G2D2B2]D,2[D2A2F2]|\
+A,,2[A2E2C2]D,2[AFD]:|
+%
+[V:1] z|"Bm"FABA FABA|"Em"GBeB GBeB|"A"Acef "A7"gfef|"G"gfed "A7"cBAG|
+[V:2] z|B,,2[F2B2D2]F,,2[F2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|A,,2[A2E2C2]E,2[E2C2A2G2]|\
+G,,2[G2D2B2]A,,2[A2E2C2]|
+%
+[V:1] "Bm"FABA FABA|"Em"GBeB GBeB|"A"Acea "G"gfef|1 "A7"gece "D"d3 :|2 "A7"gece "D"Hd4||
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|A,,2[A2E2C2]G,,2[G2D2B2]|1\
+[A,4G4E4C4][D,3A,3F3]:|2 [A,4G4E4C4]H[D,4A,4F4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87138
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

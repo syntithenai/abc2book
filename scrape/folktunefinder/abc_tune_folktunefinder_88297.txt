@@ -1,0 +1,44 @@
+X:700
+T:the British March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+N:3rd and 4th parts, the higher line is written smaller and lighter.
+N:I'm not clear what he means.
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001051.html
+%%ID:00001051
+K:F
+f2 c>c g2 c>c | a2 g>a f2 zc  | d>dc>c b>ba>a | g2 g>g g2 zg |
+g3f    efga   | b3a    g2 c>c | f>fc>c a>af>f | c2 c>c c2 ::
+g2 g>g g2 g>g   | e2 c>c c2 z2 | c'2 c'>c' c'2 c'>c' | a2 f>f f2 z2 | \
+a2 a>a (ag)(fe) | f2 g>g gfed |! e>c f>d c2 =B2    | c2 c>c c2 z2 | \
+f2 c>c g2  c>c  | a2 g>a f2z2  | d>dc>c  b>ba>a   | g2 g>g g2 zg |
+g3f    efga     | b3a   g2 c>c | f>fc>c  a>af>f   | c'3a   b3g   | \
+a>fb>g f2e2 | f2 f>f Hf ::
+f2 z z/ f/f>f x2&F>FF>F F2z2| \
+g2 z z/ g/g>g x2&G>GG>G G2z2| \
+a2 c'>c' b>b a>a&A2 c>c B>B A>A| \
+g2 g>g g2 z2&G2 G>G G2 z2|
+f2 f>f f>ga>f | e2 e>e e>fg>e | d>ef>d c2 =B2 | c2 c>c c2 ::::
+g2 z z/g/g>g x2&z2 c>c c2 z2| \
+a2 z x x>gg>g x2&z2 f>f f2 z2| \
+b>ag>f e>dc>B| A2 c>c c2 zc |
+%
+% and it ends there.
+%%newpage
+% page 51 missing
+% presumably with the end of The British March
+%page 52
+S:https://www.folktunefinder.com/tunes/88297
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,63 @@
+X:1241
+T:Praeludium
+T:(Prelude) BWV 938
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0938/bwv0938.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C
+L:1/16
+K:Em
+V:1
+zEGBGE|e2B2e2|^dBdfdB|b2f2b2|gfe=dcB|Acegfe|fedcBA|GBd=fed|
+V:2
+PE,2E,,2z2|zE,G,B,G,E,|PB,2B,,2z2|zB,^DFDB,|E2G2E2|\
+C2A,2C2|D2F2D2|B,2G,2B,2|
+%
+V:1
+e2P^f2g2|Pd4z2|g2Mf2g2|abc'2z2|b2Ma2g2|a2c2B2|g2Mf2e2|f2A2G2|
+V:2
+CB,A,CG,C|F,CE,CD,C|B,CA,CG,C|F,CE,CD,C|G,B,F,B,E,B,|\
+F,B,E,B,^D,B|E,B,=D,B,^C,B,|D,B,^C,B,B,,B,|
+%
+V:1
+e2fed^c|f2gfed|^cedcB^A|[1PB6:|[2PB6|:z^DF=AF^D|=c2B2A2-|A^GBdB^G|=f2e2d2-|
+V:2
+^C,B,D,B,E,B,|D,B,E,B,F,B,|G,2E,2F,2|[1B,,^D,F,=A,G,F,:|\
+[2B,,2F,2B,2|:PB,2B,,2z2|zB,,^D,F,D,B,,|PE,2E,,2z2|zE,^G,B,G,E,|
+%
+V:1
+dcBAa2-|a=fgad2-|dBAGg2-|ge=fgc2-|c=fBeAd|Gc=FBEA|^GAcBAG|PA4z2|
+V:2
+A,A,,B,,C,D,E,|=F,D,E,F,G,A,|B,G,A,B,CD|ECDE=FG|A2G2=F2|E2D2C2|\
+D2E2E,2|A,=F,E,D,C,B,,|
+%
+V:1
+zEA^GAc|^FcEcDc|BD=GFGB|EBDBCB|AGFAEA|^DAEAFA|GBe^def|^dB^c^def|
+V:2
+A,,2B,,2C,2|D,2E,2^F,2|=G,,2A,,2B,,2|C,2D,2E,2|F,,2G,,2A,,2|\
+B,,2^C,2^D,2|E,2=C,2A,,2|B,,2zB,^C^D|
+%
+V:1
+gfgeae|f=cBAGB|e=decfc|dAGFEG|cE^DEFG|ABcAf2-|fBegf^d|[1Pe6:|[2Pe6|]
+V:2
+E2=D2=C2|D2F,2E,2|C2B,2A,2|B,2E,2D,2|A,2B,A,G,F,|\
+E,^D,E,D,^C,B,,|E,2G,,2B,,2|[1E,,B,,E,F,G,A,:|[2E,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183664
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0938/bwv0938.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0938/bwv0938.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0938/bwv0938.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

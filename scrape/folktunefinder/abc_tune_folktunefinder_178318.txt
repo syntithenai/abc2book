@@ -1,0 +1,23 @@
+X: 1
+T: Ned Naughton's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|: (3ABc | 
+d2 d>e d>A (3FGA | B>cd>e d2 (3cBA | B>G (3GGG A>F (3FFF | E>FG>A G>AB>c | 
+d>cd>e f>dA>F | E>FG>A B>cd>e | f>dA>d (3cBA (3GFE | D2 (3ddd d2 :|
+|:  c>B | 
+A>^GA>B (3ABc e>f | g>ef>d d>cB>A | B>GE>G A>FD>F | E>FG>A G>AB>c | 
+d>AF>A G>EB>G | F>Ad>f e>Ac>f | g>ba>g (3fed (3edc | d2 A2 D2 :|
+S:https://www.folktunefinder.com/tunes/178318
+S:http://www.thesession.org/tunes/display/7008
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

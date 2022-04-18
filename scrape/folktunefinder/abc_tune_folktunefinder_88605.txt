@@ -1,0 +1,29 @@
+X:465
+T: Crehan's Gander
+S: P.Reddan: "Knockanalban"
+C: Bobby Casey
+L: 1/8
+M: 6/8
+Q: 300
+R: jig %set dance
+K: G
+D|GBd dcB|A2E E2G|FEF DEF|G2D D2 D|
+GBd dcB|A2E E2G|FEF DEF|G3 G2 :|
+D|GFG GBd|GBd G2F|EDE c2B|ABG FED|
+GFG GBd|GBd G2F|EDE F2A|G3 G2 :|
+B|d^cd e2B|d3 d2c|BAB c2A|B3 B2c|
+d2A AFA|d2A A3|GBG FGF|EFE D2A|
+d2d d^cd|e3 d2c|B2B BAB|c3 B2c|
+d2B e2B|d2B G2B|dcB cBA|G3 G2||
+S:https://www.folktunefinder.com/tunes/88605
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Jig %set dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

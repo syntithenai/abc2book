@@ -1,0 +1,22 @@
+X:1665
+T:Rokeby
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001269.html
+%%ID:00001269
+K:F
+(F<A)(F<A) c2 (A<F) | (B<G)(G<F) E<G G2 | (F<A)(F<A) c2 (A<F) | (G<B)(AG) F2F2 ::
+f<af<a gec2 | d<fd<f ecA2 | B<dB<d G<cG<c | BAGF ECDE |
+F<AF<A c2A<E | B<GA<F E<GG2 | F<AF<A c2AF | d<fe<g f2F2 |]
+S:https://www.folktunefinder.com/tunes/88490
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

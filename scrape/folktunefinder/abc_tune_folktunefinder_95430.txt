@@ -1,0 +1,28 @@
+X:620
+T:Rule Britannia
+B:Aird's Airs and Melodies vol 3
+M:C
+N:"Chos" = Chorus, I guess. For = Forte 
+N: Comp. Arne 
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000020c.html
+%%ID:0000020c
+K:D
+A|:\
+d2d2 (d/e/f/g/) a.d| e2{ef}g2 f2zA| \
+d/e/d/e/ f/g/f/g/ aefe| (de/f/) ed {d}c2zA|\
+e2dc a^g/f/ e/d/c/B/| A2B2 A2 z||\
+{Bc}d2dA BGzf| gfed {d}c2ze|\
+"tr"a2"tr"g2 f/d/g/e/ a/f/e/d/| A2"tr"e2 {de}d4||
+"Chos."f3f g/f/g zf| gfed "tr"{d}c2z2|\
+"For""tr"a2"tr"g2 (f/d/)(g/e/) (a/f/e/d/)| A2"tr"e2 {de}d4|]
+S:https://www.folktunefinder.com/tunes/95430
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

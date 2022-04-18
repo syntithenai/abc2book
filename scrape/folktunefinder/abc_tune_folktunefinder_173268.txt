@@ -1,0 +1,33 @@
+X:1
+T:s'Luada
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gedaechtnis-niederschrift, allgemein bekannt; gehoert von Chrisstoph und Elisabeth Huspeka
+%%endtext 
+F:http://simonwascher.info/homepage_abc.htm
+Z:abc transcription Simon Wascher
+M:2 3/4
+L:1/8
+K:G
+d4 | B4 | BccBA2 | ABBAG2 |\
+d4 | B4 | BccBA2 |1 G6 :|\
+[2 G4 ||
+g4 |:" boarischer"\
+f2f2 e2e2 | d2d2 B3d | c2c2 A3e | d2d2 B3g |\
+f2f2 e2e2 | d2d2 B3d | e2e2 f3f | g2g2g4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173268
+S:http://simonwascher.info/homepage_abc.htm
+S:http://simonwascher.info/TradArchiv_zwiefach/luada.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

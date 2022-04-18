@@ -1,0 +1,24 @@
+X:575
+T:Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%RRN:"A good One"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ede.html
+%%ID:00000ede
+K:D
+dde | fdf | gec | dfa | dde | fdf | gec | d2 ::
+a | \
+(a^g=g) | fdf | gec | dfa | (a^g=g) | fdf | gec | d2 |
+S:https://www.folktunefinder.com/tunes/88272
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

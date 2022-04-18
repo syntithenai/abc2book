@@ -1,0 +1,27 @@
+X:16
+T: The Flower of Magherally, S. 62
+N: I0515
+O: Irland
+S: O BOYLE, Sean: 25 Irish Folksongs, Dublin 1976]
+N: wahrscheinlich: Notationsfehler in Takt 10;
+N: letzter Ton Zu 16tel-Note verbessert
+R: Liebeslied, erzhlend]
+M: 4/4
+L: 1/16
+K: G
+D4 | _B6B2A6A2 | G8D6GA | _B6d2c4A4 | _B2A6G8
+B6B2A6A2 | G8D6GA | _B2d6c4A4 | _B2A6G6
+Bc | d6d2d6B2 | c4c4c2dcB3c | d6G2G4E4 | =F2G6D8
+d6G2G6AG | =F6D2D6CB, | C4D4=F4G4 | A2G6G8
+S:https://www.folktunefinder.com/tunes/93187
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Rhythm Liebeslied, erzhlend]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

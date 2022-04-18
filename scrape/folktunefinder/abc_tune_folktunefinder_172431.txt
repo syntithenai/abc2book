@@ -1,0 +1,90 @@
+X:2
+T:Little Fugue in G Minor
+M:4/4
+C:J. S. Bach
+C:transcribed by Jeff Bigler & Johanna Bobrow
+Z:Jeff Bigler & Johanna Bobrow
+L:1/16
+K:Gm
+% %abc2mtex: yes
+% %%staves [(1 2)]
+%%topmargin 15
+%%topspace 0
+%%scale 0.65
+%%slurgraces 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:1                 nm="Violin"             snm=""
+V:2     clef=alto   nm="Viola"              snm=""
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:1     % Violin
+% %%MIDI channel 1
+% %%MIDI program 73       % General MIDI Flute
+% %%MIDI transpose 0
+% page 1
+K:Gm
+%%%%%%%%%% bar 1 %%%%%%%%%%
+!f! G4 d4 B6 A2 |\
+G2B2A2G2 (^F2A2) D4 |\
+G2D2A2D2 B2AG A2D2 |\
+G2DG A2DA B2AG ADdc |\
+BAGB AG^FA GDGA Bcd=e |\
+!mf! =f=edf ed^ce d2A2d2e2 |\
+(vfg)ufvg (uTg3f/2g/2) agab agf=e |\
+faga ^caga daga caga |\
+fd^cd gdcd adcd gdcd |\
+%%%%%%%%%% bar10 %%%%%%%%%%
+!mp! A2f2G2=e2 F2A2d2f2 |\
+!p! _e2a2 z2 e2 d2g2 z2 d2 |\
+!mf! cBcd caga Bg^fg Af=ef |\
+g2D2G2A2 (vBc)uBvc (uTc3B/2c/2) |\
+dcd_e dcBA Bdcd ^Fdcd |\
+Gdcd ^Fdcd BGFG cGFG |\
+dG^FG cGFG D2B2C2A2 |\
+B,2D2 GABG \
+!f! D4 A4 |\
+F6 =E2 D2F2E2D2 |\
+(^C2=E2) A,4 D2A,2E2A,2 |\
+%%%%%%%%%% bar 20 %%%%%%%%%%
+F2=ED E2A,2 D2A,D E2A,E |\
+F2=ED E2A,2 vD2vG,2 uA,4 |\
+D2 \
+!p! A2d2c2 B2d2g2f2 |\
+_e2G2c2B2 A2c2f2e2 |\
+d4- dg^fg c4- cBAc |\
+!mf! BAGB AG^FA GD=EF GDGA |\
+BGBc dAdc B6 A2 |\
+G2B2A2G2 (^F2A2) D4 |\
+G2D2A2D2 B2AG A2D2 |\
+G2DG A2DA B2AG ADdc |\
+%%%%%%%%%% bar 30 %%%%%%%%%%
+BAGB AG^FA GBcd eBAG |\
+^FABc dAG=F EGAB cGFE |\
+DFGA BdcB \
+!mf! Acde fgfe |\
+dfed cBAc BFGA BcBc |\
+(vd=e)udve (uTe3d/2e/2) f_efg fedc |\
+dfef Afef Bfef Afef |\
+dBAB eBAB fBAB eBAB |\
+BcdB edce dcde dcBd |\
+cBcd cBAc BABc BAGB |\
+!p! A2f2 z2 _A2 G2e2 z2 G2 |\
+%%%%%%%%%% bar 40 %%%%%%%%%%
+F2d2 z2 F2 \
+!mp! EGcB =AGFE |\
+DEFG ABcA BFGA BcBc |\
+% DCDB, CDEC DCB,C DEDE |\ % alternate for bar 41
+S:https://www.folktunefinder.com/tunes/172431
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/LittleFugueInGMinor_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_LittleFugueGm2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/LittleFugueInGMinor_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_LittleFugueGm2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/LittleFugueInGMinor_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_LittleFugueGm2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

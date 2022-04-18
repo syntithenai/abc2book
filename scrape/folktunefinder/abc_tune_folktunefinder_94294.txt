@@ -1,0 +1,39 @@
+X:19003
+T:Xiraldilla (CT 193)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en y comunicada por D. Eugenio Garca Manso, de Navia.
+O:Navia
+A:Asturies
+Z:Cancioneru de Torner 193
+M:2/4
+L:1/8
+Q:1/4=160
+W:Aquella palomita
+W:que est en el corredor,
+W:trale un tiro, nia,
+W:trale un volador.
+W:
+W:Alta de talle,
+W:bajita de color,
+W:rubita de cabellos,
+W:as la quiero yo.
+K:G
+G|GA Bc|d2 dc|BA Gc|c3 B|AG FG|B2 B>A|GA GF|G2 z2|
+G2 Bc|d2 dc|BA Gc|c3 B|AG FG|B2 B>A|GA GF|G2 z2||
+S:https://www.folktunefinder.com/tunes/94294
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

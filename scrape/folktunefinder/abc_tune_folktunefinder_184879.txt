@@ -1,0 +1,25 @@
+X: 3
+T:Whiskey Before Breakfast
+M:4/4
+L:1/8
+R:Reel
+K:D
+"D"A,B,D(E D2) D(E | "D"F2) BF ABA(F | "G"G2) B(G F2) "D"A(F | "A" ED)E(
+F ED)B,(G, |!
+"D"A,B,)D(E D2) D(E | "D"F2) BF ABA(F | "G"G2) B(G "D"F2) A(F |1 "A"ED)E
+(F "D"D2) DB, :||2 "A"EDE(F "D"D2) dB ||! "D"A2 B2 d2 cd | "A"efe(d cB)
+A2| "A"e2 e(f e2) e(f |  "A"gf)e(d cA)B(c |!
+"D" d2) f(d "A"c2) e(c | "G"BA)B(c "D"dB)A(F | "G"G2) B(G "D"F2) A(F |1
+"A"ED)E(F "D"D2) dB :||2 "A"EDEF "D"D2 z2 ||
+% Output from ABC2Win  Version 2.1 i on 2/4/2006
+S:https://www.folktunefinder.com/tunes/184879
+S:http://internet.cybermesa.com/~keating/music_abc/REDHRSET.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

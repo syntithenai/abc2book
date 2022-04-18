@@ -1,0 +1,30 @@
+X:083
+U: ~ = !turn!
+%%topmargin 3cm
+T:Green Grow the Rushes Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Chieftains
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+G3A BGGB | ABcd ecAB | c2ec B2dB | AcBA GEDE |
+(3.G.G.G GA BGGB | ABcd ecAB | ((3cBc) ec ((3BAB) dB | AcBA GED2 ::
+gfga gede | eaab agef | gage dedB | AcBA GED2 |
+gfga gede | eaab agef | gbaf ((3gfe) dB | AcBA GEDE :|]
+S:https://www.folktunefinder.com/tunes/94680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Green_Grow_the_Rushes_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Green_Grow_the_Rushes_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

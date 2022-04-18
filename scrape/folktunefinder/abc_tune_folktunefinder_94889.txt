@@ -1,0 +1,26 @@
+X: 46
+T:German Minuet,(melody). BC.46a
+M:3/4
+L:1/4
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+K:D
+a | a2 g | f/e/ d "slurred"{g}{a}b | a2 g | f/e/ d A |!
+ B g B | A f A | G G F| E2||!
+A | "tr" A2 =c | B/A/ G>B | B2 d | c/B/ A a |!
+ a g f | e f g | f/e/ d c|d2 |]
+S:https://www.folktunefinder.com/tunes/94889
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

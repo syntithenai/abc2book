@@ -1,0 +1,23 @@
+X:2
+T:Polska fran Medelpad (Senpolska f. Torp)
+R:polska J
+Z:2001 Brian Wilson 
+M:3/4
+Q:1/4=3D100
+K:D
+P:A
+|: "D"A,2 DE FG | "G"Bc/B/ "D"AD FA | "D"de/d/ "A"cA ce | "A"ef/e/ "D"dAFD
+|  "D"A,2 DE FG | "G"Bc/B/ "D"AD FA | "D"de/d/ "A"cA ce | "A"ef/e/ "D"d4:|
+P:B
+|: "D"f2 fe/f/ "G"gf | "D"fe "A"ed ee | "A"a2 a^g/a/ ba | "G"gf "D"fa d'a
+|  "D"f2 fe/f/ "Em"gf | "Em"fe ed cB | "G"Bc/B/ "A"AA GG | "A"EF/E/ "D"D4:|
+S:https://www.folktunefinder.com/tunes/183393
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PolskaFranMedelpadSenPolskaFTorp.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

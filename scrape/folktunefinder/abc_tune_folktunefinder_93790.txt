@@ -1,0 +1,27 @@
+X:610
+T: Maurice Manley's
+S: "Johnny O'Leary of Sliabh Luachra" (#9)
+Z: B.Black
+L: 1/8
+Q: 350
+M: 12/8
+R: slide
+K: G
+EFG A2B c^cd e2g|G z E EDE G2E D3|
+EFG A2B c2d e2f|1 gfe d2e B2A A2G :|2\
+gfe d2e B2A A3||
+a3 a2b a2g e2f|gfg gfe def gfg|
+e z a a2b a2g e2f|gfg ded B2A A3 :|
+S:https://www.folktunefinder.com/tunes/93790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

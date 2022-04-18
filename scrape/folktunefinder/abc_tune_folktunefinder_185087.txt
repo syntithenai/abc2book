@@ -1,0 +1,29 @@
+X: 1
+T: Reel D'or
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+GF | BzB2 BAGF | B2BB BAGF | B2B2 ^B3=B | B2A2 AGFG |
+A2AA  AGFG | A2^B2 =B3A | A2G2 G2DG |
+B2BB BAGF | B2BB BAGF | B2BB ^B3=B | B2A2 AGFG |
+A2AA  AGFG | A2^B2 =B3A | A2G2 D3D ||
+DDGG B2A2 | G2F2 E2^B,E | EDDG {=B}^B2=B2 | A2G2 FFFE |
+F2G2 AAAA | AzA2 G2GD |\
+M:6/4
+G2DD B2BB B2{A}GE |
+M:4/4
+D3^B, D2G2 | =B2A2 G2F2 | E2^B,E EDDG | {=B}^B2=B2 A2G2 |
+FFFE F2G2 | A3z ^B4 |\
+M:6/4
+=B4 A4 G2DE |]
+S:https://www.folktunefinder.com/tunes/185087
+S:http://www.thesession.org/tunes/display/5402
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

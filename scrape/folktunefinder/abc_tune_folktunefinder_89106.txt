@@ -1,0 +1,27 @@
+X:10
+T: Flags of Dublin
+S: S.Ennis
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+B | A2 FA BcdB | (3ABA FDEB, B,2 | A2 FA Bcde |\
+fdec d2 dB |
+A2 FA BcdB | (3ABA FDEB, B,2 | A2 FA Bcde |\
+fdec d3 ||
+A | dcdf edef | gefd edBA | dcdf edef | gece d2 dA |
+dcdf edef | gefd edBA | A2 FA Bcde | fdec d3 ||
+S:https://www.folktunefinder.com/tunes/89106
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

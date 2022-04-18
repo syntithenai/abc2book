@@ -1,0 +1,25 @@
+X: 2
+T: Rising Sun, The
+T: Noreen's
+S: &quot;The Kilfenora Ceili Band: Set on Stone&quot; ~ track 8
+M: 4/4
+L: 1/8
+R: reel
+K: D Major
+|: BAG |\
+F2 AF DFAF | G2 BG DGBD | ceAc eAce | dcde fdAG |
+F2 AF DFAF | GB ~B2 dBGB | Acef gecd | eddc d :|
+|: efg |\
+a2 fd Adfd | Adfd edcd | ~e3 f gfga | be ~e2 bege |
+a2 fd Adfd | Adfd edBA | FA ~A2 GBdB | AFGE D2 :|
+S:https://www.folktunefinder.com/tunes/179060
+S:http://www.thesession.org/tunes/display/1024
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

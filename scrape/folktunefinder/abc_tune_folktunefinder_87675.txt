@@ -1,0 +1,61 @@
+X: 174
+T: Raincheck
+M: 4/4
+L: 1/8
+C: Billy Strayhorn
+Q: 1/4=190
+%%staves (chords melody)
+K: F
+%%text (medium)
+%%vskip 20
+% Intro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: Intro
+V: chords
+"F/C"x4 "Gm7/C"x4 | x4 x4 | x4 x4 | "F/C"x4 x4 |
+"F/C"x4 "Fdim7/C"x4 | x4 x4 | "F/A"x4 "Abdim7"x4 | "Gm7"x4 "-/C"x4 ||
+V: melody
+c2zf- f4-  | f8- | f4 ffff | z8 |
+c2zg- g4-  | g8 | z8 | z8 ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bdim7"x4 "Am"x4 | "G7"x4 "Gb7"x4 |
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bdim7"x4 "F/A"x4 | "G7"x2"Gb7"x2 "F6"x4 ||
+V: melody
+c3f zd zB | G3c zA zF | D3E- E4 | z8 |
+c3f zd zB | G3c zA zF | D3F- F4 | z8 ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: B
+V: chords
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bm7b5"x4 x4 | "E7"x4 x4 |
+"Amaj"x4 x4 | "Bm7"x4 "E7"x4 | "A7"x4 "D7"x4 | "G7"x4 "C7"x4 ||
+V: melody
+c3f zd zB | G3c zA zF | D3E- E4 | z8 |
+zE z^c (3z2E2F2 | (3^F2G2^G2 ^c3=B | A8- | A8 |]
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bdim7"x4 "Am"x4 | "G7"x4 "Gb7"x4 |
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bdim7"x4 "F/A"x4 | "G7"x2"Gb7"x2 "F6"x4 ||
+V: melody
+c3f zd zB | G3c zA zF | D3E- E4 | z8 |
+c3f zd zB | G3c zA zF | D3F- F4 | z8 ||
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: C
+V: chords
+"F6"x4 x4 | "F7"x4 x4 | "Bbmaj7"x4 x4 | "Bbm6"x4 x4 |
+"F6"x4 "Gm7"x4 | "G#dim7"x4 "F/A"x4 | "Bdim7"x4 "F/A"x4 | "G7"x2"Gb7"x2 "F6"x4 |]
+V: melody
+z2A2 (3A2G2A2 | F4 (3G2A2B2 | c2d2 ABdf | g4a4 |
+c3f zd zB | G3c zA zF | D3F- F4 | z8 |]
+S:https://www.folktunefinder.com/tunes/87675
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

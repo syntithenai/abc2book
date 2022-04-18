@@ -1,0 +1,25 @@
+X:1345
+T:When I was a Prentice in my youth
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001210.html
+%%ID:00001210
+K:G
+G | \
+GBd e2d | cBA G2G | GBd ecB | (Ac)d e3 ::
+g2e d>ed | (de)f gec | c(BA) (GA)G | (GA)G BGE | \
+EFG A/B/cB | AGA F3 :|
+S:https://www.folktunefinder.com/tunes/88426
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

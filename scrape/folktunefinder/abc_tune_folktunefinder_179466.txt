@@ -1,0 +1,26 @@
+X: 1
+T: Odessa Bulgar #3
+R: Bulgar, Frailach
+N: from handwritten MS
+M: 4/4
+L: 1/8
+K: Gm
+"A"[|] DED \
+| "Gm"G2 D2 B2 D2 | G4 zGAB | "Cm"cB AG ^FG FE | "D"D8 | D^F FF FE ED |
+| "Gm"DG GG G4 | "Cm"Ac BA "D7"BA G^F | "Gm"G4 z "B":: z"F7"F2 | "Bb"Bd dd d2 cB \
+| Bd dd d2 cB | d2 e2 fe de |
+| "F"c8 | Ac cc c2 BA \
+| Ac cc c2 BA | c2 d2 cB dc | "Bb"B4 z "C":: BAG | "Gm"G4 "Cm"zc"D7"BA |
+| "Gm"B4 zBAG | G4 "G7"zedc | "Cm"c6 "F7"F2 \
+| "Bb"B3 d fe dc | "D7"Bc AB "Gm"GA Bc | "Gm"dB "D7"cA "Gm"BG "D7"A^F | "Gm"G4 z |]
+S:https://www.folktunefinder.com/tunes/179466
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/Bulg_Odessa3_4_Gm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/Bulg_Odessa3_4_Gm.abc
+% Rhythm Bulgar, frailach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

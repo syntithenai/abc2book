@@ -1,0 +1,31 @@
+X:1
+T:Les Marjolaines
+C:cercle, comp. Patrice Lacaud, fichier ABC par Bernard Loffet
+L:1/8
+Q:386
+M:6/8
+K:G
+ [d2G,,2][dG,] [GG,,]B[dG,] | [cC,,]B[cC,] [AD,,]B[cD,] | [dG,,]B[dG,] [GG,,]B[dG,] | \
+ [c2C,,2][BC,] [A2D,,2]D, | [d2G,,2][dG,] [GG,,]B[dG,] | [cC,,]B[cC,] [AD,,]B[cD,] | \
+ [AA,,]B[cA,] [eA,,]d[cA,] | [d2D,,2][dD,] [cD,,]B[AD,] | [dG,,]B[dG,] [GG,,]B[dG,] | \
+ [cC,,]B[cC,] [AD,,]B[cD,] | [d2G,,2][dG,] [GG,,]B[dG,] | [c2C,,2][BC,] [A2D,,2]D, | \
+ [d2G,,2][dG,] [GG,,]B[dG,] | [cC,,]B[cC,] [AD,,]B[cD,] | [AA,,]B[cA,] [eA,,]d[cA,] | \
+ [d2D,,2]D, D,,2D, |: [B2E,,2][BE,] [EE,,]G[BE,] | [AD,,]G[AD,] [FD,,]G[AD,] | [BE,,]G[BE,] [EE,,]G[BE,] | \
+ [cA,,]B[cA,] [d2D,,2][cD,] | [B2E,,2][BE,] [EE,,]G[BE,] | [AD,,]G[AD,] [FD,,]G[AD,] | \
+ [AA,,]B[cA,] [eA,,]d[cA,] |1 [d2D,,2][dD,] [cD,,]B[AD,] :|2 [d2D,,2]D, D,,2D, | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/174387
+S:http://diato.ifrance.com/diato/tablat/219.abc
+S:http://diato.ifrance.com/tablat/219.abc
+S:http://diato.org/tablat/219.abc
+S:http://perso.orange.fr/diato/tablat/219.abc
+S:http://perso.wanadoo.fr/diato/tablat/219.abc
+S:http://pro.wanadoo.fr/diato/tablat/219.abc
+S:http://www.diatonique.net/tablat/219.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

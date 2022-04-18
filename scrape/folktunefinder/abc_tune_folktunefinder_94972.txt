@@ -1,0 +1,31 @@
+X: 60
+T:Andants O Nanny. BF13.059
+M:4/4
+L:1/8
+Q:100
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Air
+O:England
+A:Lakes
+Z:vmp.Chris Partington
+K:F
+(A>B)|(c<f)(e>d) c2(A>B)|(c>d)(c>A)G2(c>E)|F2zFF3A|\
+(Gd)(cB) {B}B2 (A>B)|!
+(c>f)(e>d)c2(A>B)|(c>d)(c>A) G2zE|F2F2F3A|(Gd)(cB) {B}A2zc|!
+(f>g)aa (g<e)zc|(d>e).f.f {f}e2zc|a2(g/f/e/d/)g3(a/f/)|e2fdc2zc|!
+(d>e).f.f eczA|(B>c).d.d (cA)zF|B3(A/G/) (Af2)c|B-AG-Fc2zc|!
+(d>e).f.f (ec)zA|(B>c).d.d cAzF|B3A/G/ (Af2) e/d/|\
+(d/c/B/A/) (c/B/A/G/ F2zc|!
+c/B/c/d/ cB Afzc|(c/d/e/f/) (ga/)b/ (a/f/)zd/B/|A2G2F2|]
+S:https://www.folktunefinder.com/tunes/94972
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

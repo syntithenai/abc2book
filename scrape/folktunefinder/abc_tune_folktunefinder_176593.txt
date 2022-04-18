@@ -1,0 +1,24 @@
+X:2
+T:The Monaghan Jig (Variations)
+R:Jig
+D:Mary Bergin: Feadoga Stain
+Z:id:hn-jig-182
+M:6/8
+L:1/8
+K:Edor
+BGE ~E3|BGE FGA|BGE dBG|AFD FGA|BGE EDE|BGE FGA|dcB A2G|FDF AFD:|
+EGB efg|fed eBG|DFA dAG|~F3 AFD|EGB efg|fed edc|dcB ABG|~F3 AFD:|
+~g3 e2f|~g3 bge|g2e efg|fed dfa|g2e eBe|~g3 bge|dcB A2G|~F3 AFD:|
+EGB eBG|BGE ~F3|~e3 BGE|~F3 AFD|EGB GBe|Beg egb|fed ABG|FDF AFD:|
+S:https://www.folktunefinder.com/tunes/176593
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/MonaghanJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/MonaghanJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/MonaghanJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

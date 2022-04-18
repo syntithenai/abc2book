@@ -1,0 +1,31 @@
+X: 69
+T:Monaghan Hills
+R:reel
+C:Ed Reavy
+M:2/2
+L:1/8
+Z:Joe Reavy
+N:One of his tunes had to pay tribute to these hills;
+N:not the Fork Hill region that Paddy Kavanaugh celebrated,
+N:but the same nearby hills of Monaghan that Ed's mother
+N:and his Aunt Ann spoke of in childhood stories. Ed's
+N:mother played no musical instrument, but she could "lyddle"
+N:all the great tunes of her region. This love of the tradition she
+N:passed on to Ed.
+K:G
+|: DG (3GFG BGAB | cABc dfeg | (3fga fd ^cdec | AB=cA FGAF |
+| G2 Bd cAFA | GABd cABc | (3dcB (3cBA fdBd |1 cAFA G3 F :|2 cAFA G3 f ||
+|: g2 bg BcdB | cbag fdde | f2 af ABcB | cbag fddf |
+| g2 dg Bgdg | cBAG FGAB | (3dcB (3cBA BGAG |1 FGAc BGGf :|2 FGAc BGGF |]
+S:https://www.folktunefinder.com/tunes/176585
+S:http://trillian.mit.edu/~jc/music/abc/mirror/EdReavy/MonaghanHills.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

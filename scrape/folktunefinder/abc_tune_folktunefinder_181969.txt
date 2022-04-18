@@ -1,0 +1,32 @@
+X: 4
+T: Peekaboo Waltz
+T: (The Peek-A-Boo Waltz)
+R: Waltz
+M: 3/4
+K: D
+L: 1/4
+P:A
+ F/>G/ \
+|: "D"A fe | "G"d c B | "D"A F "G"B | "D"A2 F/>G/ |
+   "D"A fe | "E(7)"d c d | "A"e>d e/f/ | "A(7)" e2F/>G/ |
+   "D"A fe | "G"d c B | "D"A F "G"B | "D"A2 "extra sharp"^G/A/ |
+   "G"B gf | "A"e B c | "D"d>c "A"d/e/ | "D"d2 F/>G/ :|
+P:B
+|: "D"A2 f | A3 | "G"B2 g | "(Em)"B3 |
+   "A"c2 c | "A7"B2 c/B/ | "D"A F "G"B | "D"A2 F/G/ |
+   "D"A2 f | A3 | "G"B2 g | B3 |
+   "A"c B A | "(A7)"g f e | "D"d>c "A"d/e/ | "D"d2 F/>G/ :|
+N:Martha Wild 2005 arrangement - abc by Peter Ostapenko.
+N:Last update - PO 2/28/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/181969
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/PeekabooWaltz.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

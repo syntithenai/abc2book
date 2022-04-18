@@ -1,0 +1,31 @@
+X: 1
+T:Prelude by Dean(01). TBe.001
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean.
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:G minor
+"Gamut flat=Gminor.No time sig." A4B4d4A4 |\
+ B4G4g4d4 | e4c4a4=e4 | ^f4d4 gfec ABcA |!
+dcBA GABG cdec ABcA | abag ^f=efd gabg cdec |!
+fgaf BcdB efge ABcA | d2A2 B2G2 g2d2 e2c2 |!
+a=e^fg fefd gdec dABG |\
+ Dg^fg aga=e g6 f2 |g2G2B2d2 g8 ||
+S:https://www.folktunefinder.com/tunes/96152
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

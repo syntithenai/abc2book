@@ -1,0 +1,23 @@
+X: 1
+T: McGUFFUM'S -- REEL
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20000420173049 by John Chambers jchambers:casc.com
+K: G
+ud2 \
+| (BG).G2 Bcdg | BGgB aAAc | (BG).G2 Bcde | dega (bg).g2 |
+| (BG).G2 Bcdg | BGgB aAAc | (BG).G2 Bcde | dega (bg).g2 :|
+|: a2 \
+| bgfg (eg)(dg) | cgBg aAAa | bgfg egdg | efga bgga |
+| bgfg (eg)(dg) | cgBg aAAc | BGcA dBge | dBcA (BG).G2 :|
+S:https://www.folktunefinder.com/tunes/175105
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/McGuffumsReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

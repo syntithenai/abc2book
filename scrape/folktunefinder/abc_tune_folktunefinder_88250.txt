@@ -1,0 +1,26 @@
+X:465
+T:Peggy and Nancy Hornpipe
+T:Pegg and Nans Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005ff.html
+%%ID:000005ff
+K:G
+g3e f3d (ge)(dB) | B4 C3G B3d | c3A B3G (cA)(GF) | G4 D3G B3d ::
+(ge)(dc) defe (gf)(ed) | B4 D3G B3d | \
+(cA)(GF) GABG (cA)(GF) | G4 D3G B3d ::
+(ga)b2 (ag)f2 efed | B4 D3G B3d | (cd)e2 (dc)B2 ABcA | G4 D3G B3d ::
+gece afdf (ge)(dc) | B4 D3G B3d | cAFA dBGB cAFA | G4 D3G B3Hd::
+S:https://www.folktunefinder.com/tunes/88250
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:0030
+T: "A Lover of Mild Behavior "         (air)             0030
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after Chief  F. O'Neill
+C:cheerfully
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/4
+L:1/8
+K:A
+"_vb"(cd)|(e4f2)|(d4e2)|(c4A2)|"^shake"(d2c2A2)|"^shake"(G2F2G2)|A4A2|A6|z2z2G2|
+(A4B2)|(c4d2)|(e4a2)|(g4a2)|(f4e2)|"^shake"(d2c2d2)|e6|z2z2G2|
+(A4B2)|(c4d2)|(e4a2)|(g4a2)|(f4e2)|"^shake"(d2c2d2)|(e6|e4)(cd)|
+(e4f2)|(d4e2)|(c4A2)|(d2c2A2)|"^shake"(G2F2G2)|A4A2|(A6|A4)|]
+S:https://www.folktunefinder.com/tunes/173218
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/30-MildBehaviour.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/30-MildBehaviour.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

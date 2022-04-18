@@ -1,0 +1,20 @@
+X:1
+T:Making Whoopie
+M:4/4
+L:1/8
+K:C
+ GA G| e4- eG AG| f4- fG AG| g g4c-d c| g4- g| gg f| e e4 cd c| _e e4 cd-c|\
+ e c4- c3| z3 z2 GA G| e e3- eG AG| f4- fG AG| g g4 cd c| g3- g2 gg f|\
+ e e4 cd c| _e e4 cd-c| e c4- c3| z8| g _b2 g b2 g2| _g g3- g4| f _a2 f _a2 f2|\
+ e8| g _b2 g b2 g2| _g g3- g4| f _a2 f _a2 f2| e3- e2 GA G| e e3- eG AG|\
+ f4- fG AG| g g4 cd c| g3- g2 gg f| e e2- e2 GA G| _e e2- e2 cd c|\
+ e c2- c2||
+S:https://www.folktunefinder.com/tunes/174006
+S:http://back.numachi.com:8000/dtrad/abc/MAKWHOOP.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MAKWHOOP.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

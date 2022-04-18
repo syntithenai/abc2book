@@ -1,0 +1,25 @@
+X: 1
+T: Merrily Kiss the Quaker's Wife
+O: Eire
+Z: John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D "A"\
+| "G"GAB D2B | "C"c2A AGE | "G"GAB DEG | "D"A3 AGE \
+| "G"GAB DED | "C"c2A AGE | "G"GAB "D7"D2E | "G"G3- G2 :|
+|:A "B"\
+| "G"BGG AGG | BGG "C"AGE | "G"GAB DEG | "D"A3 AGA \
+| "G"BGG AGG | BGG "C"AGE | "G"GAB "D7"D2E | "G"G3- G2 :|
+B/d/ "C"\
+| "G"g3 "D7"a3 | "G"bge dBd | g2g gab | "D"a3- agf \
+| "C"gag "D7"fgf | "C"efe "D7"dBA | "G"GAB "D7"D2E | "G"G3- G2 |]
+S:https://www.folktunefinder.com/tunes/175358
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j40/MerrilyKissTheQuakersWife_AABBC.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

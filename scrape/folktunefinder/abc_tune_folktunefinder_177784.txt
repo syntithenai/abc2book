@@ -1,0 +1,20 @@
+X:1
+T:Musical Priest
+M:4/4
+L:1/8
+R:reel
+K:Bmin
+|: BA | FBBA B2Bd | cBAf ecBA | FBBA B2Bd | cBAc B2 :|
+|: Bc | d2dc dfed | (3cBA eA fAec | dcBc defb | afec B2 :|
+|: Bc | dBB2 bafb | afec ABce | dBB2 bafb | afec B2 :|
+S:https://www.folktunefinder.com/tunes/177784
+S:http://music.gordfisch.net/tradmusic/pub/cache/Musical_Priest_613cca.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

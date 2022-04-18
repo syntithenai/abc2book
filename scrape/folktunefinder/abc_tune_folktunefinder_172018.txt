@@ -1,0 +1,22 @@
+X: 5
+T: POLKA PIQUEE "TAITOU"
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:G
+|ded3/2 z/2 c/2d/2c/2B/2A/2B/2c/2A/2|ded3/2 z/2 c/2d/2c/2B/2A3/2 z/2 |de
+d3/2 z/2 c/2d/2c/2B/2A/2B/2c/2A/2|ded3/2 z/2 c/2d/2c/2B/2A3/2 z/2 |
+BGFG A/2B/2A/2G/2FD|cA/2c/2BG/2B/2 AG/2A/2BG|BGFG A/2B/2A/2G/2FD|cA/2c/2
+BG/2B/2 AG/2A/2BG|
+AFG3/2|
+S:https://www.folktunefinder.com/tunes/172018
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/polkas.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

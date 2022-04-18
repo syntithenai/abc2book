@@ -1,0 +1,65 @@
+X:1
+%%scale 0.80
+T:Loudac : Suite Termen
+Z:Roger Ngaret (Septembre 2000)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/8
+K:G
+P:A
+Q:1/4=168
+K:G
+"G"BB GG AA B2 | BB GG A2 B2 :| BB BA Bc d2 |
+BB BA GF "Em"E2 |: EG B2 B2 B2 | Bc BA GF "C"GG |
+EG "D"B2 B2 B2 | Bc BA GF "Em"E2 :|
+P:B-1
+E,G, B,A, G,A, B,G, | E,B, "D"A,G, A,2 "Em"B,2 :| B,C "G"DC B,A, G,2 |
+G,A, B,A, G,F, "Em"E,2 |: E,G, "D"F,A, G,F, "C"G,E, | 
+E,G, "D"F,E, D,2 "Em"E,2 :|
+P:B-2
+E2 G2 E2 FE :| GB dG GF BE |: G2 B2 E2 DE :|
+P:Baleu : Y'a un geai
+Q:3/8=122
+M:6/8
+L:1/8
+K:C
+A2 c "Am"e2 e | f2 g "D"f3 | def "Em"e2 d | c2 B "Am"A3 :|
+c2 B A3 | ABc "F"F3 | ABc "G"d2 c | B2 A "Am"E3 |
+c2 B A3 | ABc "F"F3 | ABc "C"e2 d | c2 B "Am"A3 |]
+P:Deuxime rond : A
+Q:1/4=168
+M:4/4
+L:1/8
+K:C
+"Am"Ac "Em"dc BA "F"c2 | (3ABc "G"dc BA "Am"c2 :: AB c2 B2 "Am"Ae |
+ee "Em"de dc BB | "Am"AB c2 B2 "Am"Ae | "Em"dc "F"BA Bc "Am"A2 :|
+P:Deuxime rond : B
+M:4/4
+L:1/8
+K:C
+"C"Gc "F"cd cB "G"A2 | "C"Gc/c/ "F"cd cB "G"A2 :| "C"Gd dc de d2 |
+"G"AB cc "C"BA Gd | dd "G"cB A2 "C"G2 |:
+de de/d/ "G"cB Ad/d/ | "C"dd "G"cB A2 "C"G2 :| 
+P:Riquenie
+M:12/8
+L:1/8
+K:G
+A | e2 e "G"d2 d "F"c2 A "Em"B2 B | "Am"e2 e d2 c "G"B3 "Am"A2 A :|
+e2 e e2 d e2 f "C"g3 | e2 e e2 e ded c3 |:
+"Am"efe "G"ded "F"cBA "Em"Bcd | "Am"e2 e "G"d2 c "F"BcB "Em"A2 :|
+S:https://www.folktunefinder.com/tunes/173109
+S:http://termen.free.fr/danses/termen/LoudeacSuiteTermen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X: 100
+T:Maid Marian Hornpipe
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:D
+A2|A_A=AB =ABcd|edcB A2A2|dAFA dAFD|EDEF E2E2|!
+A_A=AB =ABcd|edcB AGFE|FAdf EAce|d2f2 d2:|!
+|:cd|edcd egfe|fede fagf|gbbg faaf|edcB A2a2|!
+bggb affa|gfed cBAG|FAdf EAce|d2f2 d2:|!
+S:https://www.folktunefinder.com/tunes/96484
+S:http://www.alfwarnock.info/alfs/abc/osbmisc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

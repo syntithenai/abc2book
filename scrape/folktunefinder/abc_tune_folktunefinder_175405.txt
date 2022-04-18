@@ -1,0 +1,26 @@
+X:1193
+T:"The Merry Days Of Easter" (reel) 1193
+C:after Mr. McFadden
+N:Replaced plain Segno at end with DS al Fine Command,
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+(dc)"^Segno"|BGGA Bcdg| (3(efg) dB A2dc|BGGA Bcdg| (3(efg) dB G2"^Fine":|
+(ga)|bgaf gfed|ea {b}ag a2(ga)|bgaf gfed|(3(Bcd) ef g2(ga)|
+(3(bag) af (bg)af|eaab a2(ga)|bc'ba gfed|ea {b}af ge"^Dal Segno al Fine"dc|]
+S:https://www.folktunefinder.com/tunes/175405
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1193-Merry...Easter.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1193-Merry...Easter.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

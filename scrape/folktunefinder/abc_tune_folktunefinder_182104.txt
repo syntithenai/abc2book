@@ -1,0 +1,21 @@
+X:1
+T:Pernod (Harmony)
+C:harmony by Adlai Waksman
+L:1/8
+M:3/4
+K:Bm
+"Bm"D2 F2 B2 | "Bbdim"^A3 c BA | "Adim"=A3 =c A2 | "Em/G"G2 B2 d2 |
+"A"c4 A2 | G3 B AG | "F#"F2 ^A2 F2  |1 "G"GB AG FE :|2 "G"G3 A GF ||
+|: "Em"EG zB AG | DG zB2 d | "A"c2 A2-(3A-A"(A#dim)"^A | "Bm"B2 F4 |
+"Em"EG zB GE | "Bm"DF zB FD | "A"E2 A4  |[1 "G"G3 A GF :|[2 \
+"G"G4 FE |] \
+S:https://www.folktunefinder.com/tunes/182104
+S:http://www.thursdaycontra.com/~spuds/tunes/couple/PernodHarm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

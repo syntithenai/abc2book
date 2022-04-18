@@ -1,0 +1,23 @@
+X: 1
+T:Mad Moll of the Cheshire Hunt
+M:4/4
+L:1/8
+Q:1/4=113
+C:Trad
+R:hornpipe
+K:G
+(3DEF|: G2 g>f e>dc>B|A>Bc>A B2A2|G2 g>f e>dc>B|d>cA>F G2 (3DEF|
+      G2 g>f e>dc>B|A>Bc>A B2A2|e2d2 c2B2|1 c>AF>A G2 (3DEF:|2 c>AF>A G4|
+|: D>GB>G D>GB>G|D>GB>d c2A2|D>FA>F D>FA>F|D>FA>c B2G2|
+   D>GB>G D>GB>G|D>GB>d c2A2|e2d2 c2B2|c>AF>A G4 :|
+S:https://www.folktunefinder.com/tunes/173555
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Mad_Moll_of_the_Cheshire_Hunt_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

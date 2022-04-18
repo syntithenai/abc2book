@@ -1,0 +1,37 @@
+X:105
+T: Bryant's Barbecue (with piano acc.)
+C: BB
+M: 4/4
+Q: 1/8=350
+R: reel
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] AB|"Am"cedc AEAc|"G"BGBd edcB|"Am"cA (3AGA "G"dB (3BAB|"Em"edcB "Am"A2 AB|
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|\
+E,2[E2B2G2]A,,2[A2C2E2]|
+%
+[V:1] "C"ce (3ede ge (3ede|"Am"agec "G"BdBG |"C"EG (3GFG cEBE|"Am"AGEG A2 :|
+[V:2] C,2[C2G2E2]G,,2[C2G2E2]|A,,2[A2E2c2]G,,2[G2D2B2]|C,2[E2G2C2]G,,2[E2C2G2]|\
+A,,2[A2C2E2][A,,2C2E,2] :|
+%
+[V:1] eg|"Am"aABc ABcA|eABc ABcA|"G"gd (3d^cd Bd (3d^cd|gdgb ageg|
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "Am"aABc ABcA|eABc ABcA|"G"gdBG "Em"EFGB|"Am"cABG A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]E,2[E2B2G2]|
+A,,2[A2C2E2][A,,2C2E,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86906
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T:Mpho's Majority
+M:6/8
+L:1/8
+C:Ian Brockbank
+R:Jig
+N:Written for the dance "Teviot Square" written by Ian for his brother
+N:Stephen's 21st birthday on the 22nd of June, 2000, and first danced at
+N:the celebratory ceilidh on the 17th of June
+K:DMajor
+FG|ADD BAG|ADD BAG|ADD dcd|BGG GAB|ADD BAG|ADD BAG|FAF EFG|FDD D||
+FG|AFA dcd|BGG GAB|AFF FGA|GFG EFG|ADD dcd|BGG GAB|ABA EFG|FDD D|
+% Output from ABC2Win  Version 2.1 i on 22-Jun-2000
+S:https://www.folktunefinder.com/tunes/177331
+S:http://scottishdance.net/dances/MphosMajority.abc
+S:http://www.scottishdance.net/dances/MphosMajority.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

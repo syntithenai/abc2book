@@ -1,0 +1,22 @@
+X:1
+T:Lark in the Morning, pt.1
+R:jig
+M:6/8
+L:1/8
+K:D
+~A3 AFA|~B3 BdB|~A3 AFA|fed BdB|
+~A3 AFA|~B3 BAB|def afe|1 fdB BdB:|2 fdB BAB|]
+def ~a3|baf afe|def afe|fdB BAB|
+def ~a3|baf afd|~g3 fgf|edB BAB:|
+<abc>
+S:https://www.folktunefinder.com/tunes/125658
+S:http://tomkeays.com/music/wiki/pages/playground/jigs.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

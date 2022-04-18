@@ -1,0 +1,28 @@
+X:45
+T:Blooming Meadows
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:10
+I:speed 350
+M:6/8
+K:G
+G1/2E1/2|~D2G ~G2A|~B2d cAG|~F2D DED|~F2G AGF|\
+DB,D ~G2A|BAG ABc|ded cAF|GAG G2:|\
+B1/2d1/2|~g2d def|~g2a bag|~f2d d^cd|~f2g afd|1 ~g2d def|\
+~g2a bag|fed cAF|GAG G2:|2 ~g2e fed|edB cde|fed cAF|G3 G2||\
+A|~B2G~c2A|~B2d cAG|~F2D DED|~F2G AFD|\
+~B2G ~c2A|BAG ABc|ded cAF|G3 G2:|**
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/90280
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X: 1
+T:Princess Royal
+M:4/4
+C:
+S:Bacon (from Michael Blanford, ex RMS collection)
+H:abcTranscriber: Alex Boster 
+N:
+A:Bledington
+O:
+R:Reel
+%:
+%:
+P:A(AB)(CB)$^2$
+%P:A(AB)(CB)2
+I:speed 400
+L:1/8
+K:C
+P:A
+AB|c2 Bc A2 ed|c2 Bc A2 e2|f2 d2 defg|e2 d2 c3 e|
+dd c2 B2 A2|GAGF E2 e2|dcBA G2 B2|A4 A2||
+P:B
+e^f|g2 e2 e^fge|a2 e2 d4|aafe dcBA|B2 G2 G4|\
+A2 AB c2 c2|d2 d2 g4|
+g2 e2 f4|e2 A2 d4|\
+cBAG ABcd|e2 e2 A2 e2|dcBA G2 B2|A4 A4||
+P:C
+A2 B2 c4|B2 c2 A4|e2 d2 c4|B2 c2 A4|\
+e4 f4|d4 d2 e2|
+f2 g2 e4|d4 c3 e|\
+dd c2 B2 A2|GAGF E2 e2|dcBA G2 B2|A4 A2|]
+S:https://www.folktunefinder.com/tunes/183982
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pr/Princess_Royal_11.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

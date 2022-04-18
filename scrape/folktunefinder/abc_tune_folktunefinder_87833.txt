@@ -1,0 +1,29 @@
+X: 1555
+T: Cronin's Favorite
+R:reel
+N:"collected from Cronin"
+B:"O'Neill's Dance Music of Ireland, 1555"
+T: ro.ga ui .cronin.
+Z:transcribed by John B. Walsh, walsh@math.ubc.ca 8/23/96
+M:C|
+L:1/8
+K:G
+(GF)|DGGF G2 (GA)|BGcA BGAF|DFFE F2 (FG)|AGAc BGED|
+DGGF G2 (GA)|BAGA Bcde|fefd cAFA|BGAF G2||
+(GA)|Gggf g2 (ga)|bgga bgaf|d^cde fefg|abag fdcA|
+dggf g3(d|BA)GA Bcde|fefd cAFA|BGAF G2||
+(GF)|DGGA BAGB|dcBd cBAG|FGAB cAFA|cBcA BGAF|
+GFGA BABd|cBAB cdeg|fefd cAFA|BGAF G2||
+(df)|gddf gbag|fede fgaf|eccd efge|dcBA GcBA|
+G2 (GA) BABd|cBAB cdeg|fefd cAFA|BGAF G2||
+S:https://www.folktunefinder.com/tunes/87833
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1476-1555_jw.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

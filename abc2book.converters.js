@@ -5,15 +5,16 @@
  * @return multiline abc string starting with \nX:<tuneid>\n suitable for tune book 
  */
 function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, type, aliases) {
-  
+  //console.log('json2abc',tune)
   if (tune) {
     var abc = ''
     var setting = {}
     if (tune.settings && tune.settings.length > tune.useSetting) {
-      abc = getNotesFromAbc(tune.settings[tune.useSetting].abc)
+      //abc = getNotesFromAbc(tune)
       setting = tune.settings[tune.useSetting]
+      abc = setting ? setting.abc : ''
     }
-    console.log('tweakabc',abc)
+    //console.log('json2abc',tune,getTuneName(tune))
     //if (!abc) {
       //abc = ''
     //}
@@ -36,10 +37,11 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
         aliasText += 'N: AKA: '  +chunk.join(", ")+"\n"
       })
     }
+    
     // TODO
     var boost = tune.boost > 0 ? tune.boost : 0
     var tweaked = "\nX: "+songNumberForDisplay(songNumber) + "\n" 
-                + "T: " + songNumberForDisplay(songNumber) + ". "  + getTuneName(tune) + "\n" 
+                + "T: " + getTuneName(tune) + "\n" //songNumberForDisplay(songNumber) + ". "  + 
                 + "M:"+getTuneMeter(tune)+ "\n" 
                 + "L:" + getTuneNoteLength(tune) + "\n" 
                 + renderOtherHeaders(tune)
@@ -53,7 +55,7 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
                 "% abc-sessionorg_setting_id " + setting.id + "\n" + 
                 //"% abc-force_title " + tune.forceTitle + "\n" +
                 "% abc-boost " +  boost + "\n" 
-                + tune.abccomments + "\n"
+                + ensureText(tune.abccomments) + "\n"
     
     
     //console.log('ABC OUT', tune, songNumber, tweaked)

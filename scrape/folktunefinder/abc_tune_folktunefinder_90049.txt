@@ -1,0 +1,22 @@
+X:62
+T:How's Your Mother
+C:Liberty F. & D. Corps
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d2d f2f|a2a f2d|g2e f2d|cde ABc|d2d f2f|a2a f2d|g2e f2d|ABc d2::
+A|F2A E2A|F2A d2c|B2d A2d|cde A2G|F2A E2A|F2A d2c|Bed cBc|d2z d2:|
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90049
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

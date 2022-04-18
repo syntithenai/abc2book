@@ -1,0 +1,41 @@
+X:1
+T:Miserden
+C:Chris Walshaw
+R:
+A:England
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:5/4
+L:1/4
+K:C
+A2 GFG | A2 GBG | A2 GFG | A^FD BG |
+A2 GFG | A2 GBG | A2 GFG | A^FD BA ||
+d2 cBA | c2 BAG | A2 GFG | A^FD BA |
+d2 cBA | c2 BAG | c2 BAB | dA^F BG :|\
+AFDD2- |\
+M:3/4
+L:1/8
+D3 |
+|: \
+A2 F2 D2 | EF GA GF | A2 F2 D2 | EF G4 |
+A2 F2 D2 | EF GA GF | A2 F2 D2 | B2 G2 E2 :|
+A3 GAB | c3 Bcd | c2 B2 A2 | G6 |
+c4 B2 | A2 B2 G2 | F2 G2 E2 | F2 DEFG |
+A3 GAB | c3 Bcd | c2 B2 A2 | G6 |
+c4 B2 | A2 B2 G2 | F2 G2 E2 | D4-D2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/175949
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/miserden.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

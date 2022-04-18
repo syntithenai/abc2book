@@ -1,0 +1,24 @@
+X: 175
+T: Jack's Magical Pipes (h'pipe)
+N: 102003
+C: BB
+L: 1/8
+M: C|
+Q: 330
+R: hornpipe
+K: D
+AG|"D"FGAd AFDF|"G"GBBd B4|"A"cdef "Em"gfed|"A"cABc "A7"AGFE|
+"D"FGAd AFDF|"G"GBBd "Em"Bgfe|"D"fdAF "G"GBdg|"A"(3efg ec "D"d2 :|
+fe|"Bm"dBfB dBfB|"F#m"FAcf efcA|"Bm"dBfB dBfa|"F#m7"efcA "G"B2 fe|
+"Bm"dBfB dBfB|"F#m"FAcf efcA|"D" dafd "Em"Bgec|"D"(3def "A"ec "D"d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86699
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

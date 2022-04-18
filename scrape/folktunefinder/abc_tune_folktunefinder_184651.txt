@@ -1,0 +1,29 @@
+X:1
+T:The Rambling Sailor
+M:4/4
+C:
+S:SF Bay Area Teams
+N:used for dance The Three Musketeers, \&c.
+A:
+O:English
+R:Reel
+%P:A(AB)$^5$
+P:A(AB)5
+K:DMix
+I:speed 400
+P:A
+|: AF | D2 A2 AFGE  | D2 D2 c3 c  | cABG  AFGE  | D2 D2 z2 :|\
+P:B
+|: A2 | ABcA  d2 d2 | ABcA  d2 d2 | c2 Ac B2 G2 | ABAG  E2 \
+   E2 | D2 A2 AFGE  | D2 D2 c3 c  | cABG  AFGE  | D2 D2 z2 :|
+S:https://www.folktunefinder.com/tunes/184651
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/ramsail.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1000
+T:Pray Goody
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001109.html
+%%ID:00001109
+K:G
+d4 cBAG | BAGF GBdf | g2fe dBAG | gdcB (B2A2) |
+d4 cBAG | BAGF GBdf | {ef}g2fe dBec | BdcA G2 z2 ||
+g2d2 e2d2 | gBBB (c2B2) | gddd gddd | gdcB HB2 HA2 |]
+S:https://www.folktunefinder.com/tunes/88357
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

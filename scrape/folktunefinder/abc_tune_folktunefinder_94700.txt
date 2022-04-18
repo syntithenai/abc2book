@@ -1,0 +1,31 @@
+X:104
+U: ~ = !turn!
+%%topmargin 3cm
+T:Kerryman's Daughter
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:C
+cA | GFEF GAcd | ((3ege) dB {/d}cA A2 | GFEF GAcd | ((3ege) dB c2 A |
+GFEF GAcd | ((3ege) dB {/d}cA A2 | GFEF GAcd |edcB c2 ||
+cd | eg ~g2 age^f | gedB {/d}cA A2 | eg ~g2 ca ~a2 | bagb ~a3 g |
+eg ~g2 age^f | gedB {/d}cA A2 | G2 {/A}GE GAcd | ((3ege) dB c2 |]
+S:https://www.folktunefinder.com/tunes/94700
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Kerrymans_Daughter_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Kerrymans_Daughter_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

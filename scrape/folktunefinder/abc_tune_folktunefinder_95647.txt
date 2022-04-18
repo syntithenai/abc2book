@@ -1,0 +1,33 @@
+X:80
+T:Nelson
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+U:W = !wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e01.html
+%%ID:00000e01
+K:F
+a>g |\
+f3f    f2c2   | f6     z2f2  | g3a        b2a2      | g6 z2a>g      |\
+g2a>f  e2f>d  | c4z2   a>g   | f3f        f2c2      | f6 z2 f2      |
+g2ga   b2a2   | g4     z2a>g | (gc') (af) (eg) (fd) | c4 z2c2       | \
+b2a2   g2f2   | e2d2   c2z2  | b2a>a      g2f2      | e2d2 c2B2     |
+A2a2   (a3g)  | WfWez2 z2dc  | c2b2       (b3a/g/)  | WeWfz2 z2c2   | \
+Wd2We2 Wf2Wg2 | a2f2   Hg2z2 | f4         a3g       | f4 z2f2       |
+a4     g2f2   | c'4    z2c2  | d2g>f      e2c'b     | baz2 z2c2     | \
+d4     (b3a)  | g4    (c'3b) | WaWfz2     z2a2      | b>ag>f e>dc>B |
+WA2Wc2 Wf2a2  | b>ag>f e>dc>B| A4         z2A2      | ~B3c   d2f2   | \
+g2a2   b2d'2  | (a3f) (c'b)WgWe | (g4 f2) |]
+%page:12
+S:https://www.folktunefinder.com/tunes/95647
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

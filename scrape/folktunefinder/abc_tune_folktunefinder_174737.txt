@@ -1,0 +1,47 @@
+X:1
+T:Masurka Nr. 17
+C:traditionell
+R:mazurka
+A:Sand in Taufers, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: in Bb (1.  2. teil ) und Es (3.  4. teil) erster ton d''
+N:im buch s. 228, nr. 119
+N:im buch einstimmig
+S:tonband-aufnahme B-355(9) 19/A08, vom 29.11.1940
+S:ausfuehrende: Sander Boehmische (Sechser Musik)
+S:besetzung: klarinette, fluegelhorn, tenorhorn, 2 posaunen, bass
+%%endtext 
+F:http://simonwascher.info/
+Z:noten-transcription: Franz Kofler
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription: Simon Wascher
+Q:1/4=120 %im buch
+M:3/4
+L:1/8
+K:C %Transposed from Bb
+P:A
+(e2 G2) G>c | (B2 A2) A2 | (a2 B2) B>a | g2 c>B c>d |\
+(e2 G2) G>c | (B2 A2) A2 | (a2 B2) f>B | c2 c2 z2 :|
+P:B
+|:\
+d>f B>d B2 | e>g e2 e2 | g>f d2 d2 | f>e c2 c2 |\
+d>f B>d B2 | e>g e2 e2 | g>f d2 d2 | c2c2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174737
+S:http://simonwascher.info/
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/masurka_nr._17a.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

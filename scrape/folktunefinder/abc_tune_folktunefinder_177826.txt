@@ -1,0 +1,23 @@
+X: 1
+T:Music in the Glen
+R:reel
+D:Bothy Band: Old Hag, You've Killed Me
+Z:id:hn-reel-333
+M:C|
+K:G
+G2BG EGDC|B,DGB ~A3B|c2ec BcdB|cBAG FADF|
+G2BG EGDC|B,DGB ~A3B|cdef ~g3e|1 dcBA GDEF:|2 dcBA ~G3A||
+|:(3BAG dG eGdG|BGdB cA~A2|BGBd edef|gdBG AGEG|
+BGBd edef|g2fg afdf|g2fg egdB|1 cABG AGEG:|2 cABG AGEF||
+S:https://www.folktunefinder.com/tunes/177826
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mu/Music_in_the_Glen_6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

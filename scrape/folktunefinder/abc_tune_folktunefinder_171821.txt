@@ -1,0 +1,23 @@
+X:1
+T:Leitrim Fancy (Edor)
+T:Leitrim Jig
+M:6/8
+L:1/8
+S:"ITM Session Tunes vol 2" ("Sully")
+R:jig
+K:Edor
+GBG FAF|E2B BAB|GBG FAF|D2A AFD|
+G3 F3|E2B BAB|G2B dBG|ABG FED :|
+G2B dBd|edB dBA|G2B dBG|ABG FED|
+G2B d^cd|edB def|gfe dBG|ABG FED :|\
+"last" G3 F3|E6 ||
+S:https://www.folktunefinder.com/tunes/171821
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Leitrim_Fancy_Edor_1.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

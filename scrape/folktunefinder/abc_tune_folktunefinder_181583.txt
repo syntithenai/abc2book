@@ -1,0 +1,29 @@
+X:1
+T:Papichon
+C:Stephan Steiner 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Am
+edcB A2AA- | ABAG F3E | FGAc BAGA | Bcdg edfd |
+edcB A2AA- | ABAG F3E | FGAc BAGA |1 BcBc A2ee :|\
+                                  [2 BcBc A3G ||
+|:\
+FGAc B2AB | GABd c3B | ABce fedc | Bcdg ecAG |
+FGAc B2AB | GABd gfed | fedc BAGA |1 BcBc A3G :|\
+                                  [2 BcBc A2ee |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181583
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/papichon.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

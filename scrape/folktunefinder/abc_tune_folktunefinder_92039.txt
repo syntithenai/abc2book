@@ -1,0 +1,25 @@
+X:16
+T: Haohua xiyin mi lai cai
+N: C1516
+O: China,Guangdong, Danxian
+S: II, 405]
+R: Xiaodiao, Diaosheng]
+M: 2/4
+L: 1/16
+K: G
+d2ddd2d2 | e4d2B2 | e4d2B2 | A2ABd2B2 | d8
+d2ddd2d2 | e4d2B2 | A2ABd2B2 | d8
+B4d2A2 | B4B2A2 | G4A2G2 | EGA2A2G2 | A6
+B2 | B4d2A2 | B4B2A2 | G4A2G2 | EGA2A2G2 | A8
+S:https://www.folktunefinder.com/tunes/92039
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, diaosheng]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

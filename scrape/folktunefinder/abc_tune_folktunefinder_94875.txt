@@ -1,0 +1,29 @@
+X: 32
+T:British Hero,The. BC.32
+M:6/8
+L:1/8
+Q:110
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Jig
+O:England
+A:Uncertain, probably northern
+N:The key signature of D major is probably wrong. C major gives a plausi
+N:ble result.
+Z:vmp.John Bagnall
+K:D
+"NB try Cmaj"c | (B/c/d)c BGB | cAc BGB |  (B/c/d)c BGB | AGF ABc |!
+  (B/c/d)c BGB | cAc BGB | gfe dcB | AGF ABc|!
+ BAG GDG | GDG gdc | BAG GDG | AGF ABc |!
+ B>AG GDG | GDG gdc | gfe dcB | AGF ABc |]
+S:https://www.folktunefinder.com/tunes/94875
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

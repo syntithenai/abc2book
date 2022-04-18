@@ -1,0 +1,26 @@
+X:540
+T:Life in London
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e3c.html
+%%ID:00000e3c
+K:A
+c3 AGA | cfe B3 | d3  FBA | GEF GAB |\
+c3 AGA | cfe B3 | F2B EFG | B3 A3 H::
+~B3 gfe | ^de^e fga | ~B3 agf | ga^a b3 |\
+~B3 gfe | dcf agf | bge {e/}^dcd | efe Be=d !D.C.! |]
+%page:62
+S:https://www.folktunefinder.com/tunes/95739
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

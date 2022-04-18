@@ -1,0 +1,23 @@
+X: 11
+T: Syrtos Pyleas
+O: Greece
+M: 7/8
+L: 1/8
+P: AABB AABB CC AA...
+K: A
+|: "A"c2d e2 fe | "E7"ded "A"c2 A2 | c2d e2 fe | "E7"ded "A"c4 :|
+|: "D"fff f2 "A"e2 | "D"fed "A"cd ef | "Bm(D)"fed "B(A)"cB cA | "E"B3-B4 :|
+K: Am
+|: "Am"BAA A2 Bc | e^dd dc BA | BAA A2 Bc | e^dd d2 c2 |
+   "Am"^fgf gf e^d | ^ded ed cB | B2A AB Bc | "E"cBB B4 :|
+S:https://www.folktunefinder.com/tunes/92020
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/SyrtosPyleas.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

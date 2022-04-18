@@ -1,0 +1,27 @@
+X:410
+T:Farewell to Ireland
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+Z:
+K:D
+"D"D2 (3FED FA ~A2|fedf edBc|dBAF "G"~G3B|"D"AF~F2 "A"BE~E2|
+"D"D2 (3FED FA ~A2|fedf edBc|dBAF "G"~G3B|"A"AF ~F2 "D"EFD2:|:
+"D"defg afdf|"G"g2fg edBc|"D"defg ~a3f|"G"gefd "A"~e3f|
+"D"defg ~a3f|"G"g2fg edBc|"D"dBAF "G"~G3B
+|1 "A"AF ~F2 "D"EFD2:|2 "A"AF ~F2 EGFE|]
+S:https://www.folktunefinder.com/tunes/97426
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

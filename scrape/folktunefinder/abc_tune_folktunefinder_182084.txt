@@ -1,0 +1,24 @@
+X: 1
+T: Pera stous pera kambous
+R: fast hasapikos, hora
+O: Greece
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: Bm
+|: F \
+| "Bm"BB Bc | d2 dc | de fg | f2 ff | "Em"ee e/d/c/d/ | e4 fg | "F7"fe dc |1 "Bm"d3 :|2 "Bm"b3 ||
+|: f- \
+| "B7"bz f2 | "Em"g/f/e- ef/g/ | "F7"fe  d/c/d/e/ | "Bm"f3f- \
+| "B7"bz f2 | "Em"g/f/e- ef/g/ | "F7"fe  dc | "Bm"B3 :|
+S:https://www.folktunefinder.com/tunes/182084
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/PeraStous_Bm.abc
+% Rhythm Fast hasapikos, hora
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

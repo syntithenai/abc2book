@@ -1,0 +1,28 @@
+X:131
+U: ~ = !turn!
+%%topmargin 3cm
+T:Molloy's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+~g3 edc | ~B3 EFG | ~F3 DFA | dAF ~F3 |!
+~g3 edc | ~B3 EFG | B/2c/2dB AGF | [1 GEE E2 e/2f/2 :| [2 GEE E2 B |]!
+|: efe Beg | bgf gfe | ~d3 FAd | ~f3 agf |!
+|: efe Beg | bgf gfe | B/2c/2dB AGF | [1 GEE E2 B :| [2 GEE E2 e/2f/2 |]
+S:https://www.folktunefinder.com/tunes/94727
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Molloys_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Molloys_Favorite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X: 1
+T: Planxty David
+ M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|: &quot;G5&quot;d4 &quot;A&quot;c4 | &quot;G5&quot;  dedc dBGB | &quot;Em&quot; GABc dcde | &quot;G5&quot; g2fe dBG2 :| 
+|: &quot;G&quot; gagf gedB | &quot;Em&quot; edef g2a2 | &quot;C&quot; g2fe dBG2 | &quot;D&quot; ABAF &quot;G&quot; G4 :|
+|: &quot;D&quot; A3B AGFG | &quot;A&quot; ABcd e2f2 | &quot;C&quot; g2fe dBG2 | &quot;D&quot; ABAF &quot;G5&quot;GABc :|
+S:https://www.folktunefinder.com/tunes/182694
+S:http://www.thesession.org/tunes/display/8436
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

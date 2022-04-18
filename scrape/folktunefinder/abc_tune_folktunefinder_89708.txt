@@ -1,0 +1,24 @@
+X:340
+T: Slate Roof
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+(3DED FA GEAF|(3DED FA d2 fa|geag fdcB|AB (3=cBA EFGE|
+(3DED FA GEAF|(3DED FA d2 fa|geag fdcB|ABGE FD D2 :|
+fd (3fga g3 e|fd (3fga g2 ag|fdAF G2 FG|AB (3cBA dcAg|
+fdfa g3 e|fdfa g2 ag|fddc AB (3cBA|EFGE FD D2 :|
+S:https://www.folktunefinder.com/tunes/89708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

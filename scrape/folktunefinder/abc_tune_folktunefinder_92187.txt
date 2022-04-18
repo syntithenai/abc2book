@@ -1,0 +1,35 @@
+X:164
+T: Huagu diao
+N: C1660
+O: China,Henan, Kaifeng
+S: IV, 152]
+R: Wuge, Huagu]
+M: 2/4
+L: 1/16
+K: A
+f8 | a8- | a8 | c8 | f8- | f8
+a8 | e6g2 | f2e2d2c2 | B4B2c2 | e4e2F2 | A6B2 | A8
+e2c2e4 | z2e2c2e2 | f4gbgf | e2fafedc | B4B2c2 | e4e2F2 | A6B2 | A8
+a4g2f2 | e2c2e2g2 | f6e2 | f8
+a4g2f2 | e2f2a2e2 | f6e2 | f8
+e2c2e4 | z2e2c2e2 | f4gbgf | e2fafec2 | B4B2c2 | e4e2F2 | A6B2 | A8
+a4b2c2 | a3bf2e2 | d2e2f2d2 | e8
+c3ec2B2 | A2B2e2c2 | B6A2 | B8
+B6c2 | e8 | f3af2d2 | e6f2 | d6c2
+B6c2 | e6c2 | B2c2e4 | c3ec2B2 | A2F2A4
+z2A2F2A2 | B6c2 | A2B2G2F2 | E3FA2B2 | F2E2DEFA | E6F2 | E8
+B6c2 | e6c2 | B3ce4 | c3ec2B2 | A2F2A4
+z2a2f2a2 | b4c2b2 | a3bg2f2 | e3fa2b2 | f2e2defa | e8
+S:https://www.folktunefinder.com/tunes/92187
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Wuge, huagu]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

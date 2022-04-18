@@ -1,0 +1,32 @@
+X:594
+T: Renduo shouduo haozhongtian
+N: C12024
+O: China,Jiangsu Yancheng
+S: III, 459]
+R: Haozi, Cheshui haozi]
+M: 2/4
+L: 1/16
+K: E
+F3FF2F2 | F2G2B2B2 | c4e4 | c4B4
+G3Bc2c2 | B3GG2E2 | F4z4
+c8 | c3BG2E2 | F4z4
+c8 | B2G2B2c2 | c2B2G4
+C2C2C2E2 | F3GB2B2 | B4B2G2 | F4F2G2 | F2E2C4 | B,4z4
+C4E2C2 | B,4z4
+F3F2F2F | F2G2B2c2 | B2G2G2E2 | F4z4
+c6E2 | c2e2c2G2 | B4B2G2 | F3FF2G2 | F2E2C4 | B,4z4
+C3EC3E | F4F2E2 | B2B2G2E2 | F4z4
+F3FF2G2 | F2G2B2c2 | c3cB2G2 | B4B2c2 | B2G2G2E2 | F4z4
+c8 | c3cB2G2 | E2F2G4 | F2E2C4 | B,4z4
+S:https://www.folktunefinder.com/tunes/92617
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi, cheshui haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

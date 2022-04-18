@@ -1,0 +1,23 @@
+X:370
+T: The Reel Of Bogie
+M: C|
+L: 1/8
+N: "collected by Ennis"
+B: O'Neill's 1449
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+K: Em
+dc   | BE ((3{F}EDE) (BA)FA | BFAF DEFA | BE ((3{F}EDE) (BA)FA | d^cdf e2 (dc)|
+BE ((3{F}EDE) (BA)FA | BFAF DEFA | d^cde          fdec  | dBAF  E2     ||
+(FE) | D2 ((3AB^c) dcdA | ((3B^cd) (AF) BFAF | D2 ((3AB^c) dcde  | fdcA BFAF|
+D2 ((3AB^c) dcdf |   e^def    g2 (fg) |   afge      fde^c | dBAF E2  |]
+S:https://www.folktunefinder.com/tunes/87374
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

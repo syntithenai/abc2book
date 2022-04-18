@@ -1,0 +1,27 @@
+X:155
+T: Bank of Turf [HP]
+T: M\'ointe\'an
+S: B.Breathnach:"Ceol Rince na hEireann" III/209
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: G
+(3DEF|G2 GF GABc|(3dcB cA GBAG|EF (3FGE FEDE|F2 fe dcAF|
+G2 (3AGF GABc|(3dcB cA GBAG|EF (3gfe dcAF|(3ABA G2 G2 :|
+Bc|dg g2 g3a|bg g2 gbag|f2 dc d2 dc|(3Bcd BG (3ABc AF|
+Gg g2 dg g2|bg g2 gbag|f2 dc dAFG|(3ABA G2 G2 :|
+(3DEF|G2 GA B3c|d2 GF G2 AB/c/|d2 G2 (3cdc Bc|AD (3FED dcAF|
+GFGA B3c|(3dcB cA GBAG|F2 g/f/e/d/ cAFD|(3ABA G2 G2 :|
+S:https://www.folktunefinder.com/tunes/93457
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE3.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE3.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:235
+T: Saint Johnston's
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: Cm
+(3GA=A | BGeB =AecA |  BGeB =AecA | Bcdc BAGA |\
+(3BcB AF E2 (3GA=A |
+BGeB =AecA |  BGeB =AecA | Bcdc BAGF |1 (3EGB (3eBG E2 :|
+|2 (3EGB (3DFA E2 ed || cdef gc c2 | agfa gc c2 |\
+(3ded G2 (3ded G2 |
+(3G,=B,D (3GBd gfed | cdef gc c2 | agfa gc c2 |\
+(3ded G2 (3ded (3G=Bd |1 gfed c2 ed :|2 gfed c4 ||
+P: version in D minor
+K: Dm
+(3AB=B | cAfc =BfdB |  cAfc =BfdB | cded cBAB |\
+(3cdc BG F2 (3AB=B |
+cAfc =BfdB |  cAfc =BfdB | cded cBAG |1 (3FAc (3fcA F2 :|
+|2 (3FAc (3EGB F2 fe || defg ad d2 | bagb ad d2 |\
+(3efe A2 (3efe A2 |
+(3A,^CE (3Ace agfe | defg ad d2 | bagb ad d2 |\
+(3efe A2 (3efe (3A^ce |1 agfe d2 fe :|2 agfe d4 ||
+S:https://www.folktunefinder.com/tunes/89687
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

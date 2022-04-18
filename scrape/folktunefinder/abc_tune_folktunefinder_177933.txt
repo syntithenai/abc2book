@@ -1,0 +1,40 @@
+X: 1
+T: My Father Was A Dutchman
+M: 3/4
+L: 1/8
+R: waltz
+K: G Major
+|: D2 |\  
+G2 GF GA | B2 BA Bc | d2 e2 B2 | d2 c2 B2 |
+A2 AG AB | cB AG FE | D2 E2 D2 | B4 D2 |
+G2 GF GA | B2 BA Bc | d2 e2 B2 | d2 c2 B2 |
+A2 AG AB | cB AG FE | D2 E2 F2 |[1 G4 :|[2 [M:2/4] G4 ||
+|: [M:3/4]
+DG B2 B2 | DG B2 B2 | DG B2 c2 | d2 e2 d2 |
+DF A2 A2 | DF A2 A2 | DF A2 B2 | c2 e2 d2 |
+DG B2 B2 | DG B2 B2 | DG B2 c2 | d2 e2 d2 |[M:1/4]
+B2 | A2 AG AB | cB AG FE | D2 E2 F2 |[1 [M:2/4] G4 :|[2 [M:3/4] G4 |]
+K: G minor
+|: D2 |\  
+G2 G^F GA | B2 BA Bc | d2 e2 B2 | d2 c2 B2 |
+A2 AG AB | cB AG ^FE | D2 E2 D2 | B4 D2 |
+G2 G^F GA | B2 BA Bc | d2 e2 B2 | d2 c2 B2 |
+A2 AG AB | cB AG ^FE | D2 E2 ^F2 |[1 G4 :|[2 [M:2/4] G4 ||
+|: [M:3/4 K:G Major] 
+DG B2 B2 | DG B2 B2 | DG B2 c2 | d2 e2 d2 |
+DF A2 A2 | DF A2 A2 | DF A2 B2 | c2 e2 d2 |
+DG B2 B2 | DG B2 B2 | DG B2 c2 | d2 e2 d2 |[M:1/4]
+B2 | A2 AG AB | cB AG FE | D2 E2 F2 |[1 [M:2/4] G4 :|[2 [M:3/4] G4 |]
+S:https://www.folktunefinder.com/tunes/177933
+S:http://www.thesession.org/tunes/display/5653
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 1/4
+% Has_accompaniment_chords No chords

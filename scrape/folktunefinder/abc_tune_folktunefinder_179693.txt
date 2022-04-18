@@ -1,0 +1,25 @@
+X:2
+T:Oh Callar Spirlings (var 4) 2nd try
+C:Domenico Corri
+M:3/4
+L:1/16
+% a hack, the rhythm is wrong for a human player
+% plays at the right speed, but only half the triplet signs display
+Q:1/4=90
+K:D Minor
+A2|(3d^cd`(3ABc (3dag``(3fed   (3^cde``(3ABc|(3d^cf`(3efe  (3a^ga`(3d'^c'd'  
+f'2   z2 |
+   (3c=Bc`(3ede (3g^fg`(3c'=bc'   d'2    z2 |(3d^cd`(3A=Bc (3dag``(3fed    
+(3cde`(3ABc|
+S:https://www.folktunefinder.com/tunes/179693
+S:http://www.mail-archive.com/abcusers%40argyll.wisemagic.com/msg08692.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08692.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

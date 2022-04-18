@@ -1,0 +1,46 @@
+X:7580
+T:Inveran
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:March
+M:2/4
+L:1/16
+Q:1/4=72
+N:the final notes of all parts are written A3 in the book; I've
+N:shortened some of them to match the corresponding upbeats
+K:Hp
+      e|  {g}A2{GdGe}A{d}c {g}B{d}A{g}B{d}c|  {g}efae         {gfg}f2ec         |\
+          {g}A2{GdGe}A{d}c {e}B{d}c{g}ef   |{gef}e2{g}B2     {GdGe}B3{gef}e     |
+          {g}A2{GdGe}A{d}c {g}B{d}A{g}B{d}c|  {g}efae         {gfg}f2ec         |\
+          {g}A{d}cae       {g}fc{g}B{d}c   |{gef}e2{g}A2    {gAGAG}A3          :|
+      a| {fg}fe{g}fa      {fg}f2e{g}c      |{gef}e2af           {g}fe{g}ce      |\
+        {gfg}fe{g}fa      {fg}fe{gde}dc    |{gef}e2{g}B2     {GdGe}B3{ag}a      |
+         {fg}fe{g}fa      {fg}f2e{g}c      |{gef}e2af         {gef}ec{g}B{d}c   |\
+          {g}A{d}cae       {g}fc{g}B{d}c   |{gef}e2{g}A2 [1 {gAGAG}A3          :|\
+                                                         [2 {gAGAG}A2          ||
+{gcd}cB|  {g}A{d}c{e}B{d}c {g}efae         |  {g}faef         {gfg}ec{e}B{d}c   |\
+          {g}A{d}c{e}B{d}c {g}ce{A}ef      |{gef}e2{g}B2     {GdGe}B2{gcd}cB    |
+          {g}A{d}c{e}B{d}c {g}efae         |  {g}faef         {gfg}ec{e}B{d}c   |\
+          {g}A{d}cae       {g}fc{g}B{d}c   |{gef}e2{g}A2    {gAGAG}A2          :|
+  {g}cd|  {g}ef{gef}ec     {g}fg{afg}fd    |  {g}ef{gef}ed    {gcd}cB{d}ce      |\
+        {gfg}fd{gef}ec   {gde}d2{cG}cd     |{gef}e2{g}B2     {GdGe}B2 [1   {g}cd|
+          {g}ef{gef}ec     {g}fg{afg}fd    |  {g}ef{gef}ed      {g}cd{e}B{d}c   |\
+          {g}A{d}cae       {g}fc{g}B{d}c   |{gef}e2{g}A2    {gAGAG}A2          :|
+                                                                      [2 {gcd}cB|\
+          {G}A{d}c{e}B{G}A {d}ceae         |  {g}fagf         {gef}e2{cG}cB     |\
+          {g}A{d}cae       {g}fc{g}B{d}c   |{gef}e2{g}A2    {gAGAG}A3          :|
+S:https://www.folktunefinder.com/tunes/125959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:290
+T: Sweeney's
+S: Allan's Irish Fiddler
+Z: B.Black
+N: simplified version - original in cut time
+L: 1/8
+M: C|
+R: hornpipe
+K: A
+cB|(3AGA BA FA E2|(3FGA Bc d2 cd|eaga fedc|\
+(3BcB (3AGF E2 cB|
+(3AGA BA FA E2|(3FGA Bc d2 cd|eaga fdBG|A2 c2 A2 :|
+cd|(3ede ae fecd|(3ece ae f2 cd|(3ede ae fedc|\
+(3BcB (3AGF E2 cB|
+(3AGA BA FA E2|(3FGA Bc d2 cd|eaga fdBG|A2 c2 A2 :|
+S:https://www.folktunefinder.com/tunes/89698
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

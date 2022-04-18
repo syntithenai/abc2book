@@ -1,0 +1,24 @@
+X: 2
+T: The Pockar
+C: Martin Donohue
+M: 4/4
+L: 1/8
+R: hornpipe 
+K: D Major
+|: Ac |
+d2 Ac d2 Ac | dBAG FEDF | EGed cBAc | BA^GB A2 Ac |
+d2 Ac d2 Ac | dBAG FEDF | EGed cBAF | GECE D2 :|
+|: Bc |
+d2 df afbf | afec dBAd | B2 Bd AFDE | F2 E2 E2 Ac |
+[1  dcde fdfg | afbf afec | B2 Bd AFEG | F2 D2 D2 :|
+[2  d2 Ac d2 Ac | dBAG FEDF | EGed cBAF | GECE D2 ||
+S:https://www.folktunefinder.com/tunes/182931
+S:http://www.thesession.org/tunes/display/7286
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

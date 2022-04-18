@@ -1,0 +1,39 @@
+X: 67
+T:Divisions. TBe.067
+M:C|
+L:1/4
+Q:120
+C:untitled in MS
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:
+H:171
+Z:vmp.C. Graebe..
+K:G minor
+GdGd | GdB (A/B/) | GgGg | Gg f (e/f/) |!
+ BfBf | cg A (G/^F/) |G (A/B/) c (B/A/) | A2 G2 ||!
+"2 Strain"GgGg | Ggf (e/f/) | BbBb | Bb a (g/a/) |!
+ dfdf | df d (c/B/) |c (c/4d/4e/) dg | ^f2g2 ||! 
+"3 Strain"BbBb | Bba (g/a/) | dfdf | df d (c/d/) |!
+ BfBf | Bf A (G/^F/)|G (A/B/) c (B/A/) | A2 G2 ||!
+"4th Strain"(B/d/) f (B/d/) f | (B/d/) f (B/d/) f |\
+ (A/c/) f   (A/c/) f| (A/c/) f (A/c/) f |! 
+(B/d/) f (B/d/) f  | (B/d/) f (B/d/) f |\
+(A/B/)(c/A/) d (c/B/) | A2 G2 ||!
+L:1/8
+"5th strain"(Bd)(fd) (Bd)(fd) | (Bd)(fd) (Bd)(fd) |\
+(Ac)(fc) (Ac)(fc) | (Ac)(fc) (Ac(fc) |!
+ (Bd)(fd) (Bd)(fd) | (Bd)(fd) (Bd)(fd) | \
+(AB)(cA) d2 (cB) | A4 G4 ||
+S:https://www.folktunefinder.com/tunes/96218
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

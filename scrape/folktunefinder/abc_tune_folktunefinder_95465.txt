@@ -1,0 +1,34 @@
+X:795
+T:the Red Jock
+B:Aird's Airs and Melodies vol 3
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000022f.html
+%%ID:0000022f
+K:G
+ba|\
+g3a g2B2| dBde d2ba| \
+g3a g2B2| {B}A4 z2ba|\
+g3a g2B2| dBde d2ef|
+g2e2 d2B2| G6::\
+e2|\
+d2G2 BcdB| d2G2 g3e| \
+d2G2 BcdB| {B}A4 z2e2|
+d2G2 BcdB| d2G2 g3a| \
+bage gedB| G6::\
+D2|\
+GABG BcdB| GABG Bcde|
+d2B2 dBAG| {B}A6 D2|\
+GABG BcdB| GABG Bcde| \
+d2B2 dcAF| {F}G6:|
+S:https://www.folktunefinder.com/tunes/95465
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

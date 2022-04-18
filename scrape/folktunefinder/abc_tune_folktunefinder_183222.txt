@@ -1,0 +1,27 @@
+X: 1
+T:Polska
+C:e. P\aa{l} Karl Persson
+R:Polska
+O:Sweden
+M:3/4
+A:Evertsberg, \"Alvdalen
+K:AMix
+Ac d>e fg|a>b ag e>f|\
+(3:2:4g2g2eg fe/d/|f>e e<c A2|\
+Ac d>e fg|a>b ag e>f|
+(3:2:4g2g2eg fe/d/|f>e e<c A>B|\
+(3:2:4=c2c2Ac B>A|G<B (A2 A)A::
+(3A=cd d<e eB|=cd ed eB|\
+=cd d<e eB|=cd ec A>B|\
+(3:2:4=c2c2Ac B>A|G<B A3:|
+S:https://www.folktunefinder.com/tunes/183222
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_14.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

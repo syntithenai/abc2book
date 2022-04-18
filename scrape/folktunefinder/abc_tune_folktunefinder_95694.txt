@@ -1,0 +1,28 @@
+X:315
+T:the Winter's Tale
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:4/4
+N:penultimate bar of 2nd part has a # sign on C. I'm not sure what it's
+N:supposed to mean, since there are no Cs in the bar
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005f1.html
+%%ID:000005f1
+K:Bb
+(fd)Bd (fd)Bd | gabg f2d2 | egce dfBd  | GccB A2F2 |\
+fdBd     fdBd | gabg f2d2 | egge dffd  | ecBA B2B2::
+cAFA     cdec | dBfd b2f2 | efge defd  | GccB A2F2 |\
+cAFA     cdec | dBfd b2f2 | efga bgc'b | gbge f2f2 !D.C.! ||
+%page:39
+S:https://www.folktunefinder.com/tunes/95694
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

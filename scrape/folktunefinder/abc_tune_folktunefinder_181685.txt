@@ -1,0 +1,31 @@
+X:1
+T:Pas d't
+C:Trad. Poitou, appris de Benoit Guerbigny et Christian Pacher, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:C
+ z4 [c'C,,]b[c'C,]a |: [g2E,,2]E,2 [eE,,]f[gE,]e | [c2A,,2]A,2 [dA,,]c[BA,]c | [dD,,]e[fD,]g [aG,,]g[^fG,]g | \
+ [e2C,,2][c2C,2] [c'C,,]b[c'C,]a | [g2E,,2]E,2 [eE,,]f[gE,]e | [c2A,,2]A,2 [dA,,]c[BA,]c | \
+ [dD,,]e[fD,]g [aG,,]g[aG,]b |1 [c'2C,,2]C,2 [c'C,,]b[c'C,]a :|2 [c'2C,,2]C,2 [c2C,,2][GC,]c | \
+ [e2C,,2][c2C,2] [e2C,,2][d2G,2] | [BG,,]c[dG,]B [c2C,,2][cC,]B | [c2C,,2][GC,]c [e2C,,2][c2C,2] | \
+ [e2C,,2][d2G,2] [BG,,]c[dG,]B | [c2C,,2]C,2 [c2C,,2][GC,]c | [e2C,,2][c2C,2] [e2C,,2][d2G,2] | \
+ [BG,,]c[dG,]B [c2C,,2][cC,]B | [c2C,,2][GC,]c [e2C,,2][c2C,2] | [e2C,,2][d2G,2] [BG,,]c[dG,]B | \
+ [c2C,,2]C,6 | \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/181685
+S:http://diato.ifrance.com/diato/tablat/129.abc
+S:http://diato.ifrance.com/tablat/129.abc
+S:http://diato.org/tablat/129.abc
+S:http://perso.orange.fr/diato/tablat/129.abc
+S:http://perso.wanadoo.fr/diato/tablat/129.abc
+S:http://pro.wanadoo.fr/diato/tablat/129.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/129.abc
+S:http://www.diatonique.net/tablat/129.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

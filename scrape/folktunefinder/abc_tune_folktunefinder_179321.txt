@@ -1,0 +1,33 @@
+X:1 % 33
+T:Oaner von der Eggin
+C:traditionell
+R:Jodler
+A:Grundlsee, Salzkmmergut
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000, s. 2/23
+S:im buch mit der angabe: Ein langsamer Ludler aus der Grundlseegegend, bei Konrad Mauthner, S.316 vermerkt.
+N:im buch ganz in D nr. 12, erster ton: 1.stimme: g'', 2.stimme d'', 3. stimme a'
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:C %Transposed from D
+V:1
+P:1
+z6 | f2 (Bf) G2 | f2 (Bf)(Gf) | e2 (ec) G2 |\
+e2 (ce)(Ge) | f2 (Bf) G2 | f2 (Bf)(Gf) | e6 |]
+V:2
+c2 (Gc)(Ec) | B2 (GB) F2 | B2 (GB) (FB) | c2 (Gc) E2 |\
+c2 (Gc)(Ec) | B2 (GB) F2 | B2 (GB) (FB) | c6 |]
+V:3
+z6 | G2 GG G2 | G2 GG G2 | G2 GG G2 |\
+G2 GG G2 | G2 GG G2 | G2 GG G2 | G4 z2 |]
+S:https://www.folktunefinder.com/tunes/179321
+S:http://simonwascher.info/TradArchiv_iodler/oaner_von_der_eggin.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

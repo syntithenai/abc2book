@@ -1,0 +1,24 @@
+X:1
+T:Marche du Huron
+M:C|
+L:1/4
+K:C
+%%staves [1 2]
+V:1
+z//G//A//B// | c2e2 | gfed | c2G2 | AAcB/A/ | G>AG2 | AA cB/A/ | G2Gc |
+B>d ce | d>f ee | dc Bc | d>e dg | B2A2 | G2-G z// :: G//A//B// | cc ce/d/ | cA Af/e/ |
+dd dg | fe !!dz//G//A//B// | c2e2 | gfed | c2G2 | AA cB/A/ | G>A G2 | ff ag/f/ | ef gc' | e2 Td2 | c3 :|
+V:2
+z//G,,//A,,//B,,// | C,2E,2 | G,F,E,D, | C,2C,2 | C,2C,2 | C,2C,2 | C,2C,2 | C,2C,2 | 
+G,G,C,2 | G,2C,2 | G,,2G,,2 | G,,3G,, | D,2D,,2 | G,,2-G,, z// :: z//z/ | E,2E,2 | F,2F,F, |
+G,2G,2 | G,2G,z//G,,//A,,//B,,// | C,2E,2 | G,F,E,D, | C,2C,2 | C,2C,2 | C,2C,2 | G,,2G,,2 | C,2C,2 | G,2G,,2 | C,3 :|
+S:https://www.folktunefinder.com/tunes/174244
+S:http://michel.bellon.free.fr/Musique/abc/BelleVielleuse.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

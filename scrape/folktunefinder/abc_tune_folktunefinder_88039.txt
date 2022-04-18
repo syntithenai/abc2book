@@ -1,0 +1,29 @@
+X: 152062
+T: Old House (The)
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: G
+F | DGG =FGA | GAc def | gfd dcA | cAG FEF |
+DGG =FGA | GAc def | gfd cAc | dBG G2F ||
+DGG =FGA | GAc def | gfd dcA | cAG FDC |
+[G,D]GG AGF | GAc def | gfd cAc | dBG G2c ||
+dgg gfg | gfd ega | gfd fdc | dcA GFD |
+dgg gfg | gdc def | gfd cAc | dBG G2c ||
+dgg afd | fdc def | gfg dcd | AGA GFD |
+[A,D]B,C DEF | GAc def | gfd cAc | dBG G3 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88039
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 137
+T: Nevestinsko
+O: Bulgaria
+M: 7/8
+L: 1/8
+Q: 1/4=120
+K: G
+%%MIDI drum dzzdzdz 50 50 50
+!drum!  |: d2edcBA|GDGAGAB    |c2ccBAB    |GDGAGAB|cBAB2z2|
+deddcBA |cBAB4    |GDGAGAB    |c2ccBAB    |\
+GABA2AG |A7       |A7         :|
+dzd^cdef|:gzggfed |edcBdAG    |B2cd4      |\
+gzggfed |edcBdAG  |[1B2cdBcd  :|[2 B2AG2z2|
+S:https://www.folktunefinder.com/tunes/178437
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Nevestinsko.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Nevestinsko.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

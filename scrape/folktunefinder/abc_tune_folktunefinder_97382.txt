@@ -1,0 +1,27 @@
+X:190
+T:Foxhunter's, The
+M:9/8
+L:1/8
+Q:120
+S:THSP
+R:slip jig
+K:D
+"D"FDF FDF "G"G2E | "D"FDF FDF "A"E2D |
+"D"FDF FDF "G"G2B | "D"AFD DEF "A"E2D :|
+|: "Bm"~B3 BAG "A"FGA | "G"B2E E2F GFE |
+"D"ABc dcB "A"ABc | "D"d2 D DEF E2 D :|
+|: "D"~f3 fed "G"g2e | "D"~f3 fed "A"e2d |
+"D"~f3 fed "G"g2b | "D"afd def "A"e2d :|:
+"Bm"gfe dcB "A"AGA | "G"B2 E E2 F G2 B |
+"D"ABc dcB "A"ABc | "D"d2 D DEF E2 D :||
+S:https://www.folktunefinder.com/tunes/97382
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

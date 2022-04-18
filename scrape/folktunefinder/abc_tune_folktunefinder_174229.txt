@@ -1,0 +1,52 @@
+X:1082
+T:Marche
+T:(March) BWV anh. 122
+C:Carl Philipp Emanuel Bach
+R:March
+F:http://abc.musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva122/bwva122-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/8
+K:D
+V:1
+A2|d2A4Bc| d2A4Bc|defgagfe|f2d4fe|
+V:2
+z2|D,2G,2F,2E,2|D,2G,2F,2E,2|F,2D,2C,2A,,2|D,,2D,C,D,2D,,2|
+%
+V:1
+f2d4BA|B^GE3dcB|A3d{c}TB3A|A2EA cAce|a6:|
+V:2
+D,,2D,C,D,2D,,2|D,,2D,C,D,2D,,2|C,,2F,,2D,,2E,,2|A,,2A,,A,, A,,A,,A,,A,,|A,,2E,2A,2:|
+%
+V:1
+|:e2|a2e4f^g| a2e4f^g|a2gf efge|f2d3AB=c|
+V:2
+|:z2|A,2D2C2B,2| A,2D2C2B,2|A,2B,2C2A,2|D2D,E,F,2D,2|
+%
+V:1
+Bdef gBcd|cefg acde|dgba gfed|c2A4dA|
+V:2
+G,2z2z2^G,2|A,2z2z2^A,2|B,2G,2E,2G,2|A,A,,A,G, F,E,F,D,|
+%
+V:1
+BAGF GBeB|cABc defg|a2d2fedc|d2Ad fdfa|d'6:|
+V:2
+G,,2z2z2G,2|A,2z2z2G,2|F,2B,2G,2A,2|D,2D,,D,, D,,D,,D,,D,,|D,,2A,,2D,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/174229
+S:http://abc.musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva122/bwva122-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-carl-philipp-emanuel/bwva122/bwva122-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-carl-philipp-emanuel/bwva122/bwva122-pno2.abc
+% Rhythm March
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

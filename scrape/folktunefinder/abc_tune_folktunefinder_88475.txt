@@ -1,0 +1,25 @@
+X:1590
+T:Miss Wests Favourite Tune
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001254.html
+%%ID:00001254
+K:A
+c3d ecfe | dcBA AGFE | AEBE cEdE | cAdB AGFE |
+c3d ecfe | dcBA AGFE | AEBE cEdE | cBAG A2-A2 | A,2 ::
+cABc ecBA | BGBd eceB | fBgB aBgB | fe^de f2B2 |
+bBaB gBfB | gBbB f2B2 | bBaB gBfB | gef^d e2B2 :|
+%%newpage
+%page 126
+S:https://www.folktunefinder.com/tunes/88475
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

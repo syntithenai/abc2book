@@ -1,0 +1,26 @@
+X:1
+T: The Night Peece 
+C: John Playford
+S: The English Dancing Master - 1651
+Z: Entered/Transposed from key of d by Philip Lewis -- Distribute Freely
+M: 6/8
+L: 1/8
+P: AA BBB three times through 
+K: G
+P: A (2x)
+B2G d2B |G2 DG B| \
+L: 1/8
+Ac2 B>AG |FGA/2B/2c2d:|
+P: B (3x)
+eec ddc| B>AG A2 D| GGF GGD| B A2 G3:|
+S:https://www.folktunefinder.com/tunes/178768
+S:http://www.contrib.andrew.cmu.edu/~flip/contrib/dance/play003.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

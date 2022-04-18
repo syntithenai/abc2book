@@ -1,0 +1,37 @@
+X:290
+T: Granny Quinn's (with piano acc.)
+C: BB
+R: reel
+M: 4/4
+Q: 1/8=350
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume = 62 clef=bass m=D program 1 00
+K: Dmix
+[V:1] "D"DFAd "C"c2 AG|"Am"Ac (3cBc "D"Ad (3ded|"D"DFAd "C"cege|"D"fdeg fd d2 |
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|A,,2[A2E2C2]F,,2[D2A2F2]|D,2[D2A2F2]C,2[C2G2E2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "D"DFAd "C"c2 AG|"Am"Ac (3cBc "D"Ad d2|"D"fd (3d^cd "C"=cG (3GFG|\
+"Am"EGcG "D"ED D2 :|
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|A,,2[A2E2C2]D,2[D2A2F2]|F,,2[D2A2F2]C,2[C2G2E2]|\
+A,,2[A2E2C2]D,2[D2A2F2]:|
+%
+[V:1] "D"fa a2 "C"ec c2|"D"defd "Am"cAGA|"D"fa a2 "C"ec c2|"G"dBcG "D"Ad d2 |
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|F,,2[D2A2F2]A,,2[A2E2C2]|D,2[D2A2F2]C,2[C2G2E2]|\
+G,,2[G2D2B2]D,2[D2A2F2]|
+%
+[V:1] "D"fa (3a^ga "C"ec (3cdc|"D"defd "Am"c3 A|"G"dB"C"cA "G"BGAG|"Am7"A,CEG "D"FD D2 :|
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|F,,2[D2A2F2]A,,2[A2E2C2]|[G,2G2][C,2C2][G,,2G,2][B,,2D2]|\
+A,,2[E2G2C2]D,2[D2A2F2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86943
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

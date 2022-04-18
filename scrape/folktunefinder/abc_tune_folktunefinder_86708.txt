@@ -1,0 +1,27 @@
+X: 009
+T: Father Stewart's 
+N: 060118
+C: BB (revised 12/13/07)
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: Dmix
+^c | "D"dAA "Am"cAA | "C"cde "D"f2 g | "Am7"agf "C"efe | "D"ded "Am7"cAG |
+"D"FGA "Am"cAA | "C"cde "D"fga | "G"ged "C"cAG | "A"A3 "A"A2 :|
+e|"D"faa "C"gfe | "D"dAB "Am7"c2 e | "D"fgf "C"efe | "D"ded "Am"cde |
+"D"faa "C"gfe | "D"dAB "Am"cde |1 "D"fed "Am7"cAG |"A"A3 A2 :|2 "D" fdc "Am7"AGE |\
+"D"D3-D2||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86708
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

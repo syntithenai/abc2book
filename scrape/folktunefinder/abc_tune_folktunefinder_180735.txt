@@ -1,0 +1,64 @@
+X:2628
+T:Our future hopes
+T:St. Leonard
+C:Henry Hiles
+R:Hymn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/hiles-henry/our-future-hopes-4m.abc
+V:1 Program 1 40 up %Violin
+V:2 Program 1 110 merge down %Fiddle
+V:3 Program 1 41 bass up %Viola
+V:4 Program 1 42 bass merge down %Cello
+M:4/4
+L:1/4
+K:G
+V:1
+G|AcBA|A>GGG|AAAA|A3A|
+V:2
+D|EGGG|F>GGG|EGEG|F3F|
+V:3
+B,|CED^C|=CC/B,/B,B,|CA,^CA,|A,3D|
+V:4
+G,|G,G,G,G,|G,G,G,E,|C,C,^C,C,|D,3D,|
+%
+V:1
+BdcB|B>AAG|GGGF|G3D|
+V:2
+G=FEF|EEEE|DDDD|D3D|
+V:3
+DB,CD|CCC_B,|A,=B,CC|B,3G,|
+V:4
+G,G,G,G,|C,C,C,^C,|D,D,D,D,|G,3B,,|
+%
+V:1
+EFGG|AABB|BB^cc|d3d|
+V:2
+CDDE|GFGG|AGGG|F3F|
+V:3
+G,A,G,B,|EDDD|^DEEE|=DA,B,C|
+V:4
+C,C,B,,E,|C,D,G,G,|F,E,A,A,|D,3D,|
+%
+V:1
+d=feB|dcBA|FFFG|G3|]
+V:2
+GBB^G|^GAGE|D^C=CC|B,3|]
+V:3
+B,DDD|B,CDC|B,_B,A,A,|G,3|]
+V:4
+G,G,^G,E,|A,A,B,C,|D,D,D,D,|G,,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180735
+S:http://abc.musicaviva.com/tunes/hiles-henry/our-future-hopes-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/hiles-henry/our-future-hopes/our-future-hopes-4m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/hiles-henry/our-future-hopes/our-future-hopes-4m.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X: 1
+T: Nifty's freylekhs
+C: Naftule Brandwein
+R: freylach
+Z: John Chambers <jc:trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: EPhr
+"A"|: zB,2 \
+   |  "E"E2        zE | "Dm"F2 zF |  "E"^G2 zB | "Dm"A^G FE \
+   |  "E"{^A=c}B2 ^G2 | "Dm"FE FA |  "E"^G4    | (3BA^G "Dm"FED ||
+   || "E"E2        zE | "Dm"F2 zF |  "E"^G2 zB | "Dm"A^G FE \
+   |  "E"{^A=c}B2 ^G2 | "Dm"FE DF |  "E"E4-    | E :|
+"B"|: z3 \
+   | "Am"ze ee | ee ee | "Dm"de fe | dc BA \
+   |  "E"{^A=c}B2 ^G2 | "Dm"ag ac |  "E"B4- | B4 ||
+   | "Am"ze ee | ee ee | "Dm"de fe | dc BA \
+   |  "E"{^A=c}B2 ^G2 | "Dm"FE DF |  "E"E4-  | E  :|
+"C"|: "E7"EAB \
+   | "Am"c4- | cc BA | "E7"B4 | zE^GA \
+   | B4 | zE c/B/A/^G/ | "Am"A4 | "E7"zEAB ||
+   || "Am"c3 E | (3cBA (3^GFE | "Dm"D4 | d3 d \
+   | dB/d/ (3cBA | "E"(3^GAB "Dm"(3AGF |1 "E"E4- | E :|2 "E"(3EF^G "Dm"(3FED | "E"E :|
+S:https://www.folktunefinder.com/tunes/178718
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/Bb/NiftysFreylekhs_E.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/NiftysFreylekhs_E.abc
+% Rhythm Freylach
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

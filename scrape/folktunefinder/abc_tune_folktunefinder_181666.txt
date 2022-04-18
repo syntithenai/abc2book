@@ -1,0 +1,37 @@
+X:1
+T:Paschater Flugsummi
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Grossrussbacher Auslese 1987, compilation R.Zeilinger und K.Schmid, published by Oesterreichisches Volksliedwerk, Niederoesterreichisches Volksliedwerk und Wiener Volksliedwerk, Wien 1987
+N:im buch in notation fuer clarinette in Bb 1.  2.teil F, trio in B, klingend also 1.  2.teil G, trio in C.
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D % transposed from G
+FG |\
+A2f2 G2e2 | F2d2 dAFA | E2c2 cAEA | F2d2 dAFG |
+A2f2 G2e2 | F2d2 dAFA | E2c2 cABc | d2d2d2 :|
+|: A2 |\
+A2FA d4 | d2Ad f4 | f2ef g2c2 | d3f edcB |
+A2FA d4 | d2Ad f4 | f2ef g2c2 |1 d2f2d2 :|\
+                              [2 d2d2d2 ||
+K:G % transposed from C
+GA |\
+B2B2 BGDG | c2c2 B4 | f2d2 f2d2 | B3g fedc |
+B2B2 BGDG | c2c2 B4 | f2d2 f2d2 | B2B2B2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181666
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/paschater_flugsummi.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:0070
+T:"The Little Black Rose" (1st setting)  (air)  0070
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850)  Lyon & Healy, Chicago  1903 ed.
+C:tenderly
+Q:1/4=80
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"B^c|(d2B2)g3/2e/2|(f3/2e/2) (dB) (AF)|F2E2E2|E4(ef)|g2g2fe|g2(fe) (dB)|e3d BA|B4(ef)|
+g2(ga) (fe)|g2(fe) (dB)|e3d BA|F4(B^c)|d2e3/2f/2 ge|f3/2e/2 dB AF|E4E2|E4|]
+S:https://www.folktunefinder.com/tunes/172377
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/70-BlackRose1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

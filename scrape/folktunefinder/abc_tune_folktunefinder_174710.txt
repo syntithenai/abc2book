@@ -1,0 +1,35 @@
+X:1
+T:Massianer
+R:Mazurka
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Arbeitshilfen zur Volksmusikpflege, Nr.8: Wildsau - Hundert Tanzmelodien fr Dudelsack und Drehleier", ausgew\"ahlt und eingerichtet von Georg Balling, herausgegeben vom Bayerischen Landesverein fr Heimatpflege e.V., Mnchen, 1993
+S:im buch mit der angabe: Brunner, Johann: 'Heimatbuch des Bezirkamtes Cham', Mnchen 1922
+N:im buch ganz in F, zweistimmig, Nr.:71 in der quelle Nr.:23
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:F
+(FA)(AF) A2 |(FA)(AF) A2 | (Ac)(cF)(FA) | G2 z2 EF |
+(EG)(GF) G2 |(EG)(GF) G2 | (GB)(BE)(EG) | F2 z2 |
+(ce) |\
+fzezdz | c2 z2 (ce) |fzezdz | c2 z2 (cd) |
+c2 F2 G2 | A4 GA | B2 d2 e2 | f4 z2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174710
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/massianer.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

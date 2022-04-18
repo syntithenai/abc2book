@@ -1,0 +1,28 @@
+X:1
+T:Ronde de St Veran
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:6/8
+L:1/8
+Q:400
+K:G
+z4zD|:[G2G,2][AD,][B2D,2][cD,]|[d2G,2]G,[e2D,2]D,|[c2D,2][cD,][e2D,2][eD,]|1[d2G,2]G,G,2[DG,]:|2[d2G,2]G,G,2[BG,]| \
+[d2G,2][dG,][dG,]c[BG,]|[c2D,2]D,[A2D,2][AD,]|[c2D,2][cD,][cD,]B[AD,]|[B2G,2]G,[G2G,2][DG,]| \
+[G2G,2][AD,][B2G,2][cD,]|[d2G,2]G,[e2D,2]D,|[d2G,2][cD,][B2G,2][AG,]|[G2G,2]G,G,2G,| \
+K:C
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96961
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:13
+T: Maggie Brown's Favorite
+I: Maggie Brown's FavoriteJ-27Gjig
+M: 6/8
+R: jig
+K: G
+"G"dBG GAB| "C"E2E E2c| "D"AFD DEF| "G"G2G G2g|
+"G"dBG Bcd| "C"E2E E2c| "D"AFD DEF|1 "G"GBA G3:|2"G"GBA G2g/a/|]
+"G"bgb "D"afd| "C"efg gfe| "G"dBg dBG| "D"AFD D ga|
+"G"bgb "D"afd| "Em"efg "D"gfe| faf "A"ge^c| "D"d3 "(G7)"de=f|
+"C"ece "G"dBd| "C"cac "G"BgB| "Am"Ace "G"dBG| "D"FAF DEF|
+"G"GAB "Am"EFG| ABc "D"def| "G"gdB "D"cAF| "G"G3 G2 g|]
+%%text Roaring Jelly  J-27
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/173591
+S:http://roaringjelly.org/music/jig/J027_Maggie_Browns_Favorite.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J027_Maggie_Browns_Favorite.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J027_Maggie_Browns_Favorite.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

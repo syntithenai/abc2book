@@ -1,0 +1,27 @@
+X:091
+U: ~ = !turn!
+%%topmargin 3cm
+T:I'll Remember You, Love, in My Prayers
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Waltz
+M:3/4
+L:1/8
+K:D
+D2 F2 A2 | d2 f3 e | d2 B2 d2 | A4 A2 | B3 c d2 | A2 G2 F2 | (E6 | E6) |
+D2 F2 A2 | d2 f3 e | d2 B2 d2 | A4 A2 | B2 c2 d2 | F2 G2 E2 | (D6 | D2) F2 A2 |
+d4 ed | (c2 c) d {/e}dc | B2 c2 d2 | A4 A2 | B2 c2 d2 | A2 G2 F2 | (E6 | E4) FE |
+D2 F2 A2 | d2 f3 e | d2 B2 d2 | A4 A2 | B2 c2 d2 | F2 G2 E2 | (D6 | D6) |]
+S:https://www.folktunefinder.com/tunes/94688
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Ill_Remember_You_Love_in_My_Prayers_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Ill_Remember_You_Love_in_My_Prayers_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

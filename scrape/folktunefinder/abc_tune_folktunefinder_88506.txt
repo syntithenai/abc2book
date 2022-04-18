@@ -1,0 +1,26 @@
+X:1745
+T:Orange and Blue
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+N:Very bad contrast at LH. edge of photocopy. There probably isn't a keysig,
+N:but if there was it wouldn't be visible.
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001285.html
+%%ID:00001285
+K:C
+ecc2 Gcc2 | dfge c2c2 | fdd2 Bdd2 | BGAB G2G2 | \
+ecc2 Gcc2 | efge c2(3efg | afge fdec | BGAB c2c2 ::
+egg2 egg2 | efge c2c2 | fga2 fga2 | fgaf d2d2 | \
+efg2 efg2 | efge c2 (3efg | afge fdec | BGAB c2c2 :|
+S:https://www.folktunefinder.com/tunes/88506
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

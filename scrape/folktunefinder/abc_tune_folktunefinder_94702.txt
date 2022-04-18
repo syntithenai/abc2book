@@ -1,0 +1,29 @@
+X:106
+U: ~ = !turn!
+%%topmargin 3cm
+T:Killarney Wonder Schottische
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Schottische
+L:1/8
+M:C|
+K:ADor
+[E2A2] AB {/d}cBce | dB ((3gab) af g2 | [E2A2] AB {/d}cBce | dBGB {/c}BA A2 ::
+Ja2 ag a2 ba | gagd ((3ega) gd | eagb a2 ba | {/a}gfgd {/c}BA A2 |
+((3aba) ((3gab) a2 g2 "(A"| ((3efe) ((3ded) ((3cdc) BA "A)"| [E2A2] AB {/d}cBce | dBGB {/c}BA A2:|]
+xxxx "(A"|| ((3efe) dB ((3cdc) BA "A)"|| xxxx xxxx [|] xxxx xxxx[|]
+S:https://www.folktunefinder.com/tunes/94702
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Killarney_Wonder_Schottische_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Killarney_Wonder_Schottische_1.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

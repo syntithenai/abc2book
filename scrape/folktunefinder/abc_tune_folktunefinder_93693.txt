@@ -1,0 +1,23 @@
+X:125
+T: Mac's Fancy
+S: De Danann
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+ADD BAG | ADD EFG | ADD c2 A | GEC CEG |
+ADD BAG | ADD EFG | AdB cBA | GEC CEG :|
+Add ^cdd | Add dAB | c2 c cBA | GEC CEG |
+Add ^cdd | Add dAB | cde dcA | GEC CEG :|
+S:https://www.folktunefinder.com/tunes/93693
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

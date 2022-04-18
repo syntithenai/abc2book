@@ -1,0 +1,26 @@
+X: 2
+T: Reel du Brae
+I: Reel du BraeR-124A Dorreel
+M: C|
+R: reel
+%%musicspace 0pt
+K: ADor
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BG"D"Ad| "G"BGdG eGdG|
+"Am"A,B,CD EA,A,G,| A,B,CD EA,A,D| "Em"EFGA BA"C"Gc| "G"BAGB "Am"A2A2 :|
+|:\
+"Am"eaab agea| gabg abef| "G"gage degd| egdB cABG|
+"Am"eaab agea| gabg abef| "C"gage "G"dBGB| cABG "Am"A2AA :|
+%%text Roaring Jelly  R-125
+%%vskip 28pt
+S:https://www.folktunefinder.com/tunes/185062
+S:http://roaringjelly.org/music/sets/Set47.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set47.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set47.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

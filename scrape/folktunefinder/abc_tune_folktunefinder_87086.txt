@@ -1,0 +1,44 @@
+X: 9001
+T: After the Blizzard (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A|"D"ded "Bm"BAF | "D"ADD D2 A | "D"ded "A"cBA |"D"FAd "Bm"B2 A |
+[V:2] z|D,2[AFD]B,,2[BFD]|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AEC]|D,2[AFD]B,,2[BFD]|
+%
+[V:1] "D"ded "A"cdc | "Bm"Bcd "A"ABc | "D"dAF "A"EDE | "D"FDD D2 :|
+[V:2] D,2[AFD]A,,2[AEC]|B,,2[BFD]A,,2[AEC]|D,2[AFD]A,,2[AEC]|D,2[AFD][A,2D,2F2]:|
+%
+[V:1] A|"D"dff "G"dcB | "D"Add FED | DFA def | "Bm"baf "A"e2 A |
+[V:2] z|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|
+%
+[V:1] "D"dff "G"dcB | "D"Add FED | DFA "Em"BGE |"D"FDD D2 :|
+[V:2] D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|D,2[AFD] [A,2D,2F2] :|
+%%%%%%%%tune repeat
+[V:1] A|"D"ded "Bm"BAF | "D"ADD D2 A | "D"ded "A"cBA |"D"FAd "Bm"B2 A |
+[V:2] z|D,2[AFD]B,,2[BFD]|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AEC]|D,2[AFD]B,,2[BFD]|
+%
+[V:1] "D"ded "A"cdc | "Bm"Bcd "A"ABc | "D"dAF "A"EDE | "D"FDD D2 :|
+[V:2] D,2[AFD]A,,2[AEC]|B,,2[BFD]A,,2[AEC]|D,2[AFD]A,,2[AEC]|D,2[AFD][A,2D,2F2] :|
+%
+[V:1] A|"D"dff "G"dcB | "D"Add FED | DFA def | "Bm"baf "A"e2 A |
+[V:2] z|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|
+%
+[V:1] "D"dff "G"dcB | "D"Add FED | DFA "Em"BGE |1 "D"FDD D2 :|2 "D"FDD D3-|D6||
+[V:2] D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|1 D,2[AFD][A,2D,2F2] :|2\
+D,2[AFD][D,3-A,3-F3-]|[D,6A,6F6]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87086
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

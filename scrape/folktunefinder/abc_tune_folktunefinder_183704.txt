@@ -1,0 +1,57 @@
+X:1243
+T:Preludium in D minor
+T:(Prelude) BWV 940
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0940/bwv0940.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:C
+L:1/16
+K:Dm
+V:1
+x4ABFG A3BG3F|z4(d8^c4)|x16|
+V:2
+zdcB x4x8|(F8E8)|dagf ef^cd e3fd3c|
+V:3
+F,8E,8|x16|z4A,4B,4=B,4|
+V:4
+D,8^C,8|D,D=CB, A,B,F,G, PA,3B,G,3F,|F,8G,4^G,4|
+%
+V:1
+^c4-cAd2-d4=c4|=B8-B4A4-|AA=GFG4-G4-F4-|
+V:2
+z8z4A4-|A4^G4-GG^FEz4|z4PE4-E4D4-|
+V:3
+z=BA=G F3FE8-|E8-E4-EE=FD|=B,8A,8|
+V:4
+A,8-A,A,=G,F, E,F,C,D,|PE,3F,D,3C,C,6D,2|\
+E,4-E,F,E,D, ^C,A,,=B,,C, D,E,F,D,|
+%
+V:1
+FAGF EG3- GGFE DF3-|FFED=B4A4G4|^F4G4z2GBe4|d16|]
+V:2
+D6^CDC4D4-|D2 z2zEFD zEFD zDE^C|zED=C _B,D3 z4 zBAG|F16|]
+V:3
+G,8A,6^G,A,|^G,8[^C,2=G,2][D,2F,2]E,4|z4z2^F,G, zB,3-B,4|A,16|]
+V:4
+_B,,8A,,8-|A,,8A,,8|[D,,8D,8]^C,8|D,16|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183704
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0940/bwv0940.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0940/bwv0940.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0940/bwv0940.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

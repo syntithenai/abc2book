@@ -1,0 +1,35 @@
+X: 1
+T: Rask S\onderhoning
+O: Danmark
+R: s\onderhoning
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin (with illegible text at bottom right)
+M: 3/4
+L: 1/8
+K: D
+V: 1
+   AFG \
+| "D"A2 AF GA | "G"B2 Bg gf | "A7"e2 eA fe | "D"d2 dA FG \
+| "D"A2 AF GA | "Em"B2 Bg gf | "A7"e2 eA fe | "D"d2 d :| 
+|: Ade \
+| "D"f2 fa "A7"ag | "D"f2 ed cd | "E7"ef ed cB | "A7"B2 AG FG \
+| "D"A2 AF GA | "Em"B2 Bg gf | "A"e2 eA fe | "D"d2 d :| 
+V: 2
+   DDE \
+| "D"F2 D2 EF | "G"G2 G2 B2 | "A7"c2 A3 G | "D"F2 D2 DE \
+| "D"FE D2 EF | "Em"GF E2 Bd | "A7"cB A3 G | "D"FE D :| 
+|: DFE  \
+| "D"DF A2 "A7"c2 | "D"d3 B AB | "E7"cA ^GF ED | "A7"CE AE DE \
+| "D"FE FD EF | "Em"GF GB ed | "A"cB AG AG | "D"FE D :|
+S:https://www.folktunefinder.com/tunes/184713
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho/RaskSonderhoning_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/RaskSonderhoning_D_2V.abc
+% Rhythm S%C3%B8nderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

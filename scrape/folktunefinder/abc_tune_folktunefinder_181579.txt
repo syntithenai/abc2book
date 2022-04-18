@@ -1,0 +1,80 @@
+X:1
+T:Papa Stour Sword Dance
+M:1/2
+C:
+S:George Petersen
+N:from Jim Morrison's tape of GP, CD (Over the Water), and SMS workshop 1995 June 28
+A:Papa Stour
+O:English
+R:N/A
+%:
+%:
+%P:(A)(B)$^9$(C)$^{20}$(A)
+P:(A)(B)9(C)20(A)
+L:1/8
+K:D
+%%MIDI program 1 40
+W:Musician and dancers walk on and walk off to part A
+Q:C2=128
+P:A
+% This A has one less beat than as played by Jim Morrison; here are 24 beats.
+% On the tape of George Peterson the A is played only once.  Jim Morrison
+% has embellished the tune so that it sounds good when played several times.
+% By removing one beat from the JM rendition it becomes possible for the
+% dancers to be on the same foot each time the tune starts over again.
+%
+|: A2 |\
+   f2 fg | a2 gf | gf  ed | fe de | f2 fg | a2 gf | ba  gf |  B4    |
+%  l       r       l        r       l       r       l         r
+   B2 dB | AB de | f>f ed | ef ed | B2 dB | AB de | f>f ed |  B4    |
+%  l       r       l        r       l       r       l         r
+   B2 dB | AB de | f>f ed | ef ed | B2 dB | AB de | f>f ed |1 B2    :|2\
+%  l       r       l        r       l       r       l         r
+B2 d2 | d4    ||
+%r      (t)
+W:Musician and each of the seven is introduced and dances to part B.  Dancers represent Saints:
+W:George (England), James (Spain), Denis (France), David (Wales), Patrick (Ireland), Anthony (Italy), Andrew (Scotland)
+M:4/4
+L:1/8
+Q:C2=180
+P:B
+d2 f2 |\
+.f2 fd .e2 .e2 | .a2 ac .e2 .e2 | .f2 fd .e2 ec | d4      d4 ||
+%r  r   l   l     r  r   l   l     r  r   l  l    r  (l)  t
+W:Part C is played as needed to complete all the figures
+M:3/2
+Q:C2=230
+P:P
+A2    |\
+P:C
+% On the tape the music plays 5 times through before the call of "loose"
+% on the first tunnel, 7 more times through before the drop sword tunnel
+% begins, 3 more times before the call of "loose" for the drop sword tunnel,
+% and 5 more times before the lock is thrown to the ground.
+dcde f2 a2 gfe2  | dcde f2 a2 gfe2  | dcde f2 a2 gfe2   |
+%l   r     l       r    l     r       l    r     l
+eAee eeee  f2 e2 | eAee eeee  f2 e2 | eAee eeee  f2 e2  |
+%r   l     r       l    r     l       r    l     r
+dAAA FAAA  B2 B2 | dAAA FEEE  D2 D2 |
+%l   r     l       r    l     r
+dAAA FAAA  B2 B2 | dAAA FEEE  D2 D2 ||
+%l   r     l       r    l     r
+W:
+W: On occasion bars 7,8 and 9,10 of part C played more as
+P:X
+dBAF AFAA  B2 B2 | dAAA FEEF  D2 D2 |
+W: or sometimes bars 8 and 10 shift up an octave more like
+dAAA FAAA  B2 B2 | dAAA feef  d2 d2 |
+S:https://www.folktunefinder.com/tunes/181579
+S:http://www.ucolick.org/~sla/morris/music/Sword/papastour.sla.abc
+% Rhythm N/a
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 1/2
+% Time_signature 4/4
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

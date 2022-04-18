@@ -1,0 +1,28 @@
+X: 30
+T:Rigadoon. TBe.030
+M:6/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+N:Illegible comment in pencil under this tune.
+H:1718
+Z:vmp.C. Graebe..
+K:G major
+d | g2dg2d | B2 A/B/ G2 d | e2d c2B | A3-A3 ||!
+d | d2G G2e | e2A A2 f | f2B B2g | g2 G G2d |!
+dcB A2 G | G3-G2 d |dBG ecA | fdB g2d |!
+dBG ecA | fdB gfe | dcB A2 G | G3-G3 ||
+S:https://www.folktunefinder.com/tunes/96181
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

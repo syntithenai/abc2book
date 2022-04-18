@@ -1,0 +1,37 @@
+X:1
+%%indent         1.5cm
+%%wordsfont      Times-Italic 10
+T:Ma bergere, non l\'egere
+C:Gabriel Bataille
+L:1/4
+M:none
+% %leftmargin 1cm
+% %rightmargin 1cm
+%%staves [F | L]
+K:Dm
+%%scale 0.6
+%
+V:F clef=treble name=Voice %bracket=2
+V:L clef=frenchtab name=Lute stafflines=6 staffscale=2
+%
+[V:F]F/ G/ A/ F/ A/ B/ c/ c/ d/ e/ f>_e d c/B/ A G/ F/ E>F F3::
+w:Ma ber-ge-re, non l\'e-ge-re En a-mours, me fait re-\cce-vour du bien tous les jours.
+V:L
+K:none clef=none
+%%tablature 10 30 tab6h tab6n tab6b
+ic/      ic/   ic/   ic/   ic/   ic/  ic \
+w:,XbXdca/ ,,,,c ,,,,d ,,,,a ,bbcd ,,,a ,abc1 \
+ic   ic        ic    ic/        ic/     ic   ic \
+w:bdda a,b,d{(y} {,a)} ,XbXd,,(b/ ,,,,,a) {a}1 {,a} \
+S:https://www.folktunefinder.com/tunes/173426
+S:http://moinejf.free.fr/abc/bataille.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

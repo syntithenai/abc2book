@@ -1,0 +1,23 @@
+X: 43
+T:Last Of The Twins
+M:4/4
+L:1/8
+S:Billy Pigg
+Z:C.G.P
+K:G
+|:ef|gdBd edBA|GBdg edBG|FGAB cded|cBAG A2ef|gdBd edBA|GBdg edBG|FGAB
+cd e f|g2fag2:|| ef|gfga gfed|edef edBG|!FGAB cded|cBAG A2ef|gfga
+gfed|edef edBG|FGAB cde f |!g2fag2ef|gfga gfed|edef edBG|FGAB
+cded|cBAGA2ef|!gdBd edBA|GBdg edBG|F GA B cdef|g2fag2||
+S:https://www.folktunefinder.com/tunes/171524
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/LastOfTheTwins.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

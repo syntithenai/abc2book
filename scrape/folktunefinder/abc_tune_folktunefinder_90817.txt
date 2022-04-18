@@ -1,0 +1,31 @@
+X: 163
+T:New Rigged Ship
+R:reel
+D:Dervish: The Boys of Sligo
+D:Altan: Harvest Storm
+Z:id:hn-reel-223
+M:C|
+L:1/8
+Q:1/4=200
+K:Amix
+eg|a2ab ageg|a2ab agef|g2gg fgag|f2d2 d2 :|
+ed|cAcA B2ed|cAcA E2ed|cece B2ed|c2A2 A2:|
+AB|=cdec BcdB|ABAF GFE2|=cdec BcdB|=c2A2 A2:|
+"Variations" ~a3g ageg|a2bg agef|~g3e fgag|[1 fdef defg:|[2 f2d2 e3d|
+|:~c3A B2ed|~c3A EFAB|~c3A B2ed|[1 cAAG A2ed:|[2 c2A2 A3B|
+|:=c2ec BcdB|A=cBG AGEG|=c2ec BcdB|[1 =cAAG A3B:|[2 =c2A2 ABcd||
+eaag ageg|a2ag agef|~g3e fgag|fdef defg|
+a2~a2 ageg|agbg agef|~g3a fgag|fgec d2ed|
+|:BccA B2ed|BccA E2ed|[1 cA~A2 B2ed|cA (3Bcd cA~A2:|[2 c2cA B2ed|cABc A3B|
+|:=cdec B2dB|ABAF GFEG|=cdec B2dB|[1 A=cBG ~A3B:|[2 A=cBG Aefg|]
+S:https://www.folktunefinder.com/tunes/90817
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

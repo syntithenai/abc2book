@@ -1,0 +1,29 @@
+X:920
+T:the French Taptoo
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+U:w=!wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005dd.html
+%%ID:000005dd
+K:G
+D |\
+GBAG | d2Bd | edcB | (A/G/A/B/) AD |\
+GBAG | d2Bd | edcB | A3 ::
+e | \
+ec        AB/c/   | d>BGd             | cBAG        | (A/G/F/E/) DB/c/ | \
+wd(B/c/) wd(A/B/) | wc(A/B/) wc(d/c/) | B/A/G/A/ BA | G3 :|
+%page:107
+S:https://www.folktunefinder.com/tunes/95815
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

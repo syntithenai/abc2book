@@ -1,0 +1,27 @@
+X:200
+T:the Merry Plowman
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e0e.html
+%%ID:00000e0e
+K:G
+G |\
+Bdde | dBAG | Bdde | d2 GA | Bdde | dBAG | (B/c/)d e/f/g/e/ | d2 G ||
+e/f/ |\
+g/f/e/d/    e/d/c/B/  | cB (Ad/f/) | g/f/e/d/ B/c/d/B/ | g2 de/f/ |\
+(g/f/e/d/) (e/d/c/B/) | gB  Ac     | Bc/d/    e/f/g/e/ | d2 G::
+%page:26
+S:https://www.folktunefinder.com/tunes/95671
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

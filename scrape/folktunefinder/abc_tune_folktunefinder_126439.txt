@@ -1,0 +1,26 @@
+X:8060
+T:Jocul Dea Longul
+O:Romainia
+L:1/8
+M:2/4
+P:AABBB
+Q:1/4=120 
+K:F
+P:A
+FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 F2| cBcA| B2 A2| B2 G2|
+AGAF| G2 F2| G4 |FGAB| c2 =B2| c2 A2| BABG| A2 ^G2| A2 c2|
+c=Bcd| c2 C2| D2 E2| F4 |F4|
+P:B
+FGAB| c2 d2 |e2 f2| B4-|B2 c2|
+c=Bcd| c2 C2| D2 E2 |F4| F4|
+S:https://www.folktunefinder.com/tunes/126439
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

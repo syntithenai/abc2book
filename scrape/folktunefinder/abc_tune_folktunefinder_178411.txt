@@ -1,0 +1,33 @@
+X:1
+T:Neun Doerfer
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer boehmischen Bock", Band I, R.Lughofer, Eigenverlag, Kremsmuenster 1998
+N:dort ganz in F, zweistimmig, Seite 50
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:4/4
+L:1/4
+K:G
+d>dd | dBG | FA | dc |
+FA | d>dd | dcF | GB |
+ed | GB | d>dd | dBG |
+FAd | cF | Ad>dd | dcF |
+(G3 | G2)z :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178411
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/neun_doerfer.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

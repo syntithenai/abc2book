@@ -1,0 +1,54 @@
+X: 9081
+T: Johnny's Welcome to Heaven (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A|"G"BAGA BcdB|"Am"cABG "Em"EB,DE|"G"G2 dG eGdG|"Em"gedB "D7"AcBA|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+E,2[E2B2G2]D,2[A2C2F2]|
+%
+[V:1] "G"BAGA BcdB|"Am"cABG "Em"EB,DE|"G"GABd gdBc|"D"dBcA "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+F,,2[A2D2F2][G,,3B,3D3]:|
+%
+[V:1] B|"G"dg (3gfg "Am"eafa|"G"gdBd "Em"eB (3BAB|"Em"eBBA "G"GABd|"Em"egfg e3 B|
+[V:2] z|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[E2B2G2]|B,,2[E2B2G2]G,,2[G2B2D2]|\
+E,2[E2B2G2]B,,2[E2G2B2]|
+%
+[V:1] "G"dg (3gfg "Am"eafa|"G"gdBd "Em"edBA|"G"GABd gdBc|"D7"dBcA "G"G3 :|
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+F,,2[A2C2F2][G,,3B,3D3] :|
+%%%%%%tune repeat
+[V:1] A|"G"BAGA BcdB|"Am"cABG "Em"EB,DE|"G"G2 dG eGdG|"Em"gedB "D7"AcBA|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+E,2[E2B2G2]D,2[A2C2F2]|
+%
+[V:1] "G"BAGA BcdB|"Am"cABG "Em"EB,DE|"G"GABd gdBc|"D"dBcA "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+F,,2[A2D2F2][G,,3B,3D3]:|
+%
+[V:1] B|"G"dg (3gfg "Am"eafa|"G"gdBd "Em"eB (3BAB|"Em"eBBA "G"GABd|"Em"egfg e3 B|
+[V:2] z|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[E2B2G2]|B,,2[E2B2G2]G,,2[G2B2D2]|\
+E,2[E2B2G2]B,,2[E2G2B2]|
+%
+[V:1] "G"dg (3gfg "Am"eafa|"G"gdBd "Em"edBA|"G"GABd gdBc|1 "D7"dBcA "G"G3 :|2\
+"D7"dBcA "G"G4-|G8||
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]D,2[G2B2D2]|1\
+F,,2[A2C2F2][G,,3B,3D3] :|2 D,2[A2C2F2][G,,4-D,4-B,4-]|[G,,8D8B,8]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87166
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

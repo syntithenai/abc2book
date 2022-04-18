@@ -1,0 +1,67 @@
+X: 33
+T: Bouncing with Bud
+M: 4/4
+L: 1/8
+C: Bud Powell
+Q: 1/4=175
+%%staves (chords melody)
+K: C
+%%text (medium)
+%%vskip 20
+% Intro %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: Intro
+V: chords
+"Bbmaj7"x4 x4 | x4 x4 | "Cb7"x4 x4 |[1 x4 x4 :|[2 x4 x4 ||
+V: melody
+zFBf-f3F | Bf3-f4 | zF_cf-f3F |[1 _cf3-f2z2 :|[2 _cf3-f2ze ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Bb6"x4 "Cm7"x4 | "Dm7"x4 "Ebm7"x4 | "Dm7"x4 "G7"x4 | "Cm7"x4 "D7"x4 |
+"Gm7"x4 x4 | "Dbdim7"x4 x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 ||
+V: melody
+dcBA cBAG | FDE_G- G2FE | DCF=B, z3G- | G2EC A2^FD |
+BGz2 z3A | BGz2 z3A | BGAB GEDC | FB,z2 z3e ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Bb6"x4 "Cm7"x4 | "Dm7"x4 "Ebm7"x4 | "Dm7"x4 "G7"x4 | "Cm7"x4 "D7"x4 |
+"Gm7"x4 x4 | "Dbdim7"x4 x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 ||
+V: melody
+dAzc zBzD | zAz_G =GFED | F=B,z2 z3F | ^FGEC ^GAFD |
+BGz2 z3A | BGz2 z3A | BGAB GEDC | FB,z2 z4 ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: B
+V: chords
+"Gm6"x4 x4 | x4 x4 | "Am7b5"x4 x4 | "D7"x4 x4 |
+"G7"x4 x4 | "Gb7"x4 x4 | "Cm7"x4 x4 | "F7"x4 x4 ||
+V: melody
+zGzA zBzd- | d2BA zGzd- | d4-dd (3=BGE | (3fef-f2- f2e^c- |
+c4- c=e (3^cAF | (3_e_de-e2- e2^c=d |zB3 BG (3EGB | ^cd3-d2ze ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Bb6"x4 "Cm7"x4 | "Dm7"x4 "Ebm7"x4 | "Dm7"x4 "G7"x4 | "Cm7"x4 "D7"x4 |
+"Gm7"x4 x4 | "Dbdim7"x4 x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 ||
+V: melody
+dcBA cBAG | FDE_G- G2FE | DCF=B, z3G- | G2EC A2^FD |
+BGz2 z3A | BGz2 z3A | BGAB GEDC | FB,z2 z4 ||
+% Interlude %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: Interlude
+V: chords
+"D7"x4 "Gm6"x4 | "D7"x4 "Gm7"x4 | "G7"x4 "Cm7"x4 | "G7"x4 "Cm7"x4 |
+"F7"x4 x4 | x4 x4 | "Bb6"x4 x4 | "T.A."x4 x4 |
+V: melody
+c2c2B2zA | zAzG z4 | d2f2e2z=B- | (3Bc^c dc z2 _AG- |
+G8- | G6_cB | z8 | z8 ||
+S:https://www.folktunefinder.com/tunes/87534
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X:1
+T:Mazurka
+R:Mazurka
+A:Bayern
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Arbeitshilfen zur Volksmusikpflege, Nr.8: Wildsau - Hundert Tanzmelodien fr Dudelsack und Drehleier", ausgew\"ahlt und eingerichtet von Georg Balling, herausgegeben vom Bayerischen Landesverein fr Heimatpflege e.V., Mnchen, 1993
+S:im buch mit der angabe: Bayerischen Landesverein fr Heimatpflege e.V.(Hrsg.) 'Lied, Musik, Tanz in Bayern', Nr.14, Mnchen 1976
+N:im buch ganz in G, zweistimmig, Nr.:92 in der quelle Nr.:96
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+GGA | B/>A/BG | A/>G/AF | GG/A/B |\
+GGA | B/>A/BG | A/>G/AF | GGz :|
+|:\
+cce | d2B | AAF |(G/F/)G/A/B |\
+cce | d2B | AcF | GGz :|
+K:C
+|:\
+eed | c2c | BBG | c/>d/ee |\
+eed | c2c | BBG | ccz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174916
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.G2G2A2BAB2G2AGA2F2G.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:550
+T:Cochrane Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:3/8
+O:England
+U:W=!wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e3e.html
+%%ID:00000e3e
+K:D
+A2 |\
+(dc)ded2 | (df) A2A2 | (ce) a2a2 | (fg)fed2 | \
+dcded2   | df   A2A2 | (ce) a2a2 | d4 ||
+FA |\
+WG4 (3FGF | E4 FG | A4 (3GAG |  F4 (3FG^A | \
+WB2Wd2 (3EF^G | WA2Wc2 (e/d/c/B/) | A4 ^G2 | A4 ||
+A2 |\
+d2d/e/f/g/a2 | (g2e2)Wc2 | A2e2 (ge) | df A2A2 |\
+d2d/e/f/g/a2 | (g2e2c2) | Ae g2 ea | ^d4 ||
+A2 |\
+FA d2d2 | (ce) a2A2 | c2(c/d/e/f/)Wg2 | (f2d2) A2 |\
+FA d2d2 | (ce) a2A2 | c2c/d/e/f/ ge | d4 |]
+%page:64
+S:https://www.folktunefinder.com/tunes/95741
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

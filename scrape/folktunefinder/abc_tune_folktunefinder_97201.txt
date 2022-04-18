@@ -1,0 +1,32 @@
+X:62
+T:Tom Fowler's Hornpipe. JaW.124
+M:2/4
+L:1/16
+Q:90
+S:James Winder
+R:Hornpipe
+O:England
+A:Lancashire
+Z:vmp.Chris Partington,2004
+K:G
+Bc|(dc)(BA) Ggfg|e4 d4|\
+(cd)(cB) (AB)(AG)|F4E4|!
+(DE)(FG) A2B2| c3d/e/ d2c2|\
+BAGA D2F2| G6::!
+d2|g2(bg) e2(ag)| "tr"f4d4|\
+g2(bg) e2(ag)| "tr"f4 d2ef|!
+gddd gddd| gdgd gddd|\
+g3f edcB| ABAG F3E|!
+DEFG A2B2| c3d/e/ d2c2|\
+BAGA D2F2| G6 :||
+S:https://www.folktunefinder.com/tunes/97201
+S:http://www.kennaquhair.com/tunes/tradtunes4.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

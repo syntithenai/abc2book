@@ -1,0 +1,25 @@
+X:1
+T:Lamma Bada in C (incomplete)
+M:10/4
+L:1/8
+C:Traditional Andalusian
+P:2
+K:Cm
+|G,2|:C4 DE FE ED DC C=B, C4 G,2|C4 DE FE ED DC C=B, C4 DE| F4 GF E3D DC
+ C=B, C4 DC|!
+=B,4 C=B, A,3 G, A,G,A, =B, G,4 AG|F4 GF E3 D  DC C=B, C4 DC|
+=B,4 C=B, A,3 G, A,G, A,=B, G,4 AG|F4 GF E3 D DC C=B, C4 G,2:|
+ C4 DC FE ED DC C=B, C4 G,2|C4 DE FE ED DC C=B, C4 D2|E4 E2 E4 E2
+ F2 E2 E2 EF|G4F2 GF ED
+ED CE DE DC B,2|C4 D2 E4 E2 EF EF EF DE|F4 G2 E3 D  DC C=B, C4 DC |=B,4
+C=B,  A,3G, A,G, A,=B, G,4 AG|F4 GF E3D DC C=B, C6|
+S:https://www.folktunefinder.com/tunes/171141
+S:http://www.khafif.com/rhy/abc/LamaBada.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 10/4
+% Has_accompaniment_chords No chords

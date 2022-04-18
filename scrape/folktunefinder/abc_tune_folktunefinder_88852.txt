@@ -1,0 +1,30 @@
+X:110
+T: Jackson's Walk to Limerick
+T: Triall Mhic Shiacais ar Luimneach
+S: B.Breathnach:"Ceol Rince na hEireann" IV/22
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: D
+def AFA|DDD AFA|def AGF|EFA B2c|
+def AFA|DDD AFA|dcB AGF|EFA B2c ||
+ddd fdB|ccc ecA|ddd fdB|AFA B2c|
+ddd fdB|ccc ecA|dcB AGF|EFA B2c ||
+fdf fdf|ece ece|fdf fdB|AFA B2c|
+fdf fdf|ece ece|dcB AGF|EFA B2c ||
+dDD FED|FAD FED|dDD AGF|EFA B2c|
+dDD FED|FAD FED|def AGF EFA B2c ||
+A3 AGF|ABA AGF|AAA dAF|EFA B2c|
+AAA BBB|ccc d2e|fdB AGF|EFA B2c ||
+S:https://www.folktunefinder.com/tunes/88852
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE4.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE4.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,124 @@
+X:119
+%topspace 0
+T:Phantasia 119
+L:1/4
+M:C|
+K:Am frenchtab
+%%staffsep 40pt
+c4 |\
+e2 .c |\
+f4 |\
+[ec2] a1.c |\
+[ec1].a [fc2] |\
+% Takt 6
+,d1e/.f e1.c |\
+[ac2] ,,d1.,a |\
+,c1[a,d] [cd].e |\
+f1,c/.,d ,c1[ea] |\
+,,d/.,c[c,c].,,a ,,c1[bc] |
+% Takt 11
+[c,a1][,df] .,c,,d |\
+[,ac/].,,a[a,,c].,,a ,,c.,,d[,df].,c |\
+,d/[ac][cd][ea] .[fc1][e,,,e/].c |\
+a/,,,a,,,c[,da//].,c [,ac/][,c,c][,da].a |\
+,d/[,c,c][,c,a],,,,e ,,,a,a//.,,d ,a1 |\
+% Takt 16
+[,c,,e1].,,c ,,c[,,c,e] |
+[,,d,e1],,,,e/.,,c [,,a,f].,,,c,,a,,,,e |\
+,,,,c/.,,,,a[,,c,c1] ,,,,e/.,,,c,,a.,,c |\
+[,,d,e/].,,,,a,,,,c.,,,,e ,,,,f.,,a[,a,,e],,,,c |\
+,,,,e/,,d//.,,c ,,d/,,,,c//.,,,,a [,,c,c/],,,,a[,,a,,e],,,,,c |\
+% Takt 21
+,,,,,e/,,,d//.,,,b ,,,d1 [,,,e,c/],,,,,e[,,,,ef][,,,ac] |
+[,,,ce/][,,aa][,,cc].,,d [,a,,c],,,,e[,,aa][,,cc] |\
+[,,de/][,ac][,cd][,df] [ac].c[ea].,,d |\
+[ca//].,c,d[ea] [fc/][ce] [ef][fd][h,h].,,f |\
+,,h/g//.e g/.,h [he].,fe.,c |\
+% Takt 26
+f/.,dc,a e,ca,,d |
+c/,ae,a ,cef.,d |\
+[ea/],,d[c,c],,a ,,c.[bc][c,a][,df] |\
+,c1,,e [,af//].,,d,,c.,,a [a,c].,d,c.,a |\
+[,cd//].,,c,,a.,,,c [,d,e].,c,a.,,d [,a,b].,,,c,,,e.,,,b [,c,c].,a,,d.,,c |
+% Takt 31
+[,,de//].,,,c,,,a.,,,,e [,a,a],,d,,c.,,a [,,cc].,,,a,,,,e.,,,,c [,,d,e].,,c,,a.,,,c |\
+[,,a,f//].,,,,e,,,,c,,,,a [,,c,c].,,a,,c.,,d ,,c.,,,,a,,,,c,,,,,e [,,a,a].,,,,e,,,,c.,,,,a |\
+,,,,,e//.,,,d,,,e.,,,d ,,,e.,,,d,,,b.,,,d ,,,,,c,,,,,e,,,,,f.,,,,c [,,,ce].,,a,,c.,,d |
+[,a,,c//].,,,,e,,,a.,,,c [,,de].,a,c.,d [a,,c].,,a,,c.,,d [,af].,c,d.a |\
+[c,a//].,,c,,d.,a [ac].ce.f [ha].,,h,d.,f [fh].hf[ef] |\
+% Takt 36
+[cd//].ef.c [ha].fe.c [ac].ce.a [f,d].ec.a |
+[,ef//].,,d,,c.,,a [a,,c].,,a,,c.,,,c [,cd].,,c,,a.,,,c [,d,a].,,,c,,,e.,,,a |\
+[,a,c//].,,,e,,,c.,,,a [,c,,e].,,,a,,,c.,,,,e [,,da].,,,c,,,a.,,,,e [,a,,c],,,,e,,,a.,,,,c |\
+[,,c,e//].,,,,c,,,,a,,,,,e [,,d,,c],,,,,e,,,,a,,,,,c [,,a,c].,,,,a,,,,,e.,,,,,c [,,c,,a].,,,,,c,,,,,e.,,,,,a |
+[,,,ca//].,,,,,e,,,,a.,,,,c [,,d,e].,,,,a,,,,c.,,,,e [,,a,f].,,,,c,,,,e.,,,a [,c,c].,,,,e,,,a,,,c |\
+% Takt 41
+[,,de//].,,,c,,,a.,,,,e [,d,,c].,c,a.,c [,df].ac.e [f,d].,,c,,a.,,c |\
+,,d//.,a[ec][ce] [ef].fh.e [fc].,d,f.,c [cd],c,a,,d |
+[ea//].ah.f [ec].,f,d.,c [ea].ac.e [fc].,,d,a.,c |\
+[cd//].ef.c [ha].,,h,d.,a [ef].fh.e [k,,h].hf.e |\
+[cd//].,c,a.,,d [h,,g].fe.,h [a,d].,,c,,a.,,,c [f,a].ec.a |
+% Takt 46
+[,ef/].a[c,d].e [c,c].,a[a,a],,,c |\
+,,a/,e//.,c [,ef1] [a,c/],,,c ,,d//.a,c.,,d |\
+.a/,,d[,da],,,a [,cd].,,c,,d[,df] |\
+[ac/][ce][ef].f [ha].,,d[cd][ef] |\
+[fh/].hk.,f [cd].,c[ha],,,h |
+% Takt 51
+,,,g/[f,a][e,,c].c a.,,a,,c[,c,c] |\
+[,da/][a,c][c,d][ea] [fc],,d,d.e |\
+c/.,c,a.c e.,a,c.c |\
+a/.,a,,d.a c.,,d,,f.a |\
+,e/.,,d[a,c],,,c ,,d.,d,c.,,c |
+% Takt 56
+[,da/],,,c[,c,a],,,,e ,,,a,a//.,,d ,a1 |\
+[,c,,e/].,,c,,d.,,c ,,,c.,,,,e[,,,ef][,,c,e] |\
+[,,d,a/].,,a[,,c,c],,,,e [,,a,f][,,f,c],,,,e.,,e |\
+[,a,,c/].,,f,c.,,e [,df1]c/.,,d |\
+[b,c1][c,a] ,a[ea] |\
+% Takt 61
+,c/.f[ha1] k,,,i |
+[ca1]h ,,h.g |\
+[ha1][ef] c.,e |\
+[af/].c[ec].f [ha],,h[cd][ef] |\
+[fh/].h[k,a],,,g [,cd][,ef][bc].c |\
+% Takt 66
+e/.,a[f,d].,,c ,,a.ce,,,d |\
+,,a/.,c[c,,a1] ,,,,e[bc] |
+[c,e/].a[,ef].,c ,e.,,d[a,c].,,a |\
+,,c/.,d[,cd].,a ,c.,,c[,da],,,c |\
+,,a/.,c[,,ff].,,d ,,f,,,e[,c,c],,,a |\
+% Takt 71
+,,,,e/.,a[,,de].,,c ,,d,,,c[,a,a],,,,e |\
+,,,a/[,,d,c][,,cc].,,a ,,c,,,a[,,d,e],,,,c |
+,,,,e/.,,c[,,a,f].,,,c ,,,e,,,,e[,,c,c],,,,a |\
+,,,,c/[,,a,a][,,a,,e],,,,,c ,,,,,e,,,d//.,,,b ,,,d1 |\
+[,,a,,c/].,,c[,,de][,ac] [,cd][,ef][ac].,e |\
+% Takt 76
+,f/.ce.f [ha].,,d[cd][ea] |\
+[fc/][ce][ef].,d [fc].,a[f,d].e |
+[cd/].a[cd].,c [ea].,,d,a.c |\
+[ac/].,e[ac].,a [c,d].,,c,,a.a |\
+[,ef/].,c,e.,,d [a,c].,,a[a,,c].,d |\
+% Takt 81
+[,cd/].,a,c,,c [,da],,,c,,,e.,c |\
+[,a,b/].,,d[,,cc].,,d ,a.,,c [,c,,e//].,,,a,,,c.,,,,e |
+,,,a//.,a,c.,a ,c.,a,,d.,a [,c,,e1],,,e/.,a |\
+[,,de1],,c/,,,c [,,aa1].c/,,,,e |\
+[c,,,c1],,f/.a [,ef1],c/.,,d |\
+% Takt 86
+[h,,g2] [h,,,h1],f/.f |\
+[ef1]c/.,d [ac1]f/.,a |\
+[f,d1],d/.e [cd1]a/.,c |
+[ca//].ef.c [e,c].,,d,a.,,c ,,d.,c,e.a [c,a].,,c,,d.,,a |\
+,,c//.cb.,e c.bc.b c.bc.b c.b,e.b |\
+% Takt 91
+[c,a4] |]
+S:https://www.folktunefinder.com/tunes/182287
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

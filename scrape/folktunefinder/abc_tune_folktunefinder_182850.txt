@@ -1,0 +1,27 @@
+X:1
+T:Uhlir's Laendler
+T:Played AAABBCCBAB
+C:Stan Uhlir (1968)
+P:AAABBCCBAB
+M:3/4
+L:1/8
+P:A
+K:D
+AA |: "D"Ad f2 dA | "G"GBBG B2 | "A7"Acegfe | "D"dcdf A2 |
+"D"Ad f2 dA | "G"GBBG B2 | "A7"Acegfe |[1 "D"d4 AA :|[2 "D"d4 dd |[3 d2 z4 ||
+P:B
+K:D
+|: "A7"ce e3d | dc c3B | BA f3e | "D"d6 | AAAAAg | "A7"e6 |
+"A7"AAAGAf | "D"d4 dd | "A7"ce e3d | dc c3B | BA f3e | "D"d6 |
+"D"AffAfF | "A7"GeeG e2 | Acegfe |1 "D"d4 dd :|2 "D"d4 z2 ||
+P:C
+K:D
+|: "D"A3 FAd | f6 | FAgf d2 | "A7"Ac c4 | c2 Ace | a6 | gf e2 c2 | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/182850
+S:http://trillian.mit.edu/~jc/music/abc/mirror/yagelski.com/sbox/music/uhlirslaendler.abc
+S:http://www.yagelski.com/sbox/music/uhlirslaendler.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

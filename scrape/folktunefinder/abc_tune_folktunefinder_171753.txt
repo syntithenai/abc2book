@@ -1,0 +1,23 @@
+X: 1
+T: Leckan Mor
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+~B3 dcB | efb afd | ecc cde | gfe dcB |
+FBB dcB | f2b afd | efg fdB |1 cdF B2F :|2 cdF B2f ||
+abf afg | fdB Bcd | cde efg | fdB c2f |
+abf afg | fdB Bcd | cde A2e | edc B2f ||
+b2f afg | fdB Bcd | cde edc | def efa |
+bfa efg | fdB BcA | cde def | fed edc ||
+S:https://www.folktunefinder.com/tunes/171753
+S:http://www.thesession.org/tunes/display/5742
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

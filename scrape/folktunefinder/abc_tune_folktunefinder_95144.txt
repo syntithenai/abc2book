@@ -1,0 +1,27 @@
+X:32
+T:Lillignoneth Francoise
+M:6/8
+R:Jig
+K:F
+F|\
+A2A ABG| F2F F2f| c2a c2B| A3 "tr"G2F/G/|\
+A2A ABG| F2F F2f| edc Gc=B| {B}c3 c2::
+c|\
+g2c b2a| g2f e2f| g2c b2a| gfe fc_e|\
+dbd BdB| cac A2b| agf gfe| f3 f2::
+F|\
+"tr"A3 GFG| F2F F2A| "tr"c3 BAB| A2A A2f|\
+"tr"f2e "tr"e2d| "tr"d2c "tr"c2B| ABc cBA| [GC][GC][GC] [G2C2]::
+c|\
+_e3 dec| B2B B2d| f3 efd| c2c c2g|\
+"tr"b2a g2f| "tr"b2a g2f| dba gfe| fff f2:|
+S:https://www.folktunefinder.com/tunes/95144
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/Aird3.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

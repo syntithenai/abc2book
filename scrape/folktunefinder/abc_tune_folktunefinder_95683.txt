@@ -1,0 +1,30 @@
+X:260
+T:Bath Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000061f.html
+%%ID:0000061f
+K:C
+(3GAB |\
+c2c2c2 | c4 Bc | e2e2e2 | e4 ce |\
+g4 ec  | a4 fd | B2BcdB | c4 :|
+|:eg |\
+gff2 dB | dcc2 eg  | gff2a2 | c'4 eg |\
+gff2 dB| dcc2 eg | a^gafdB | c4 :|
+|:G2 |\
+c2B2c2 | d4 e2 | f2A2d2 | c2B2 G2 | \
+c2B2c2 | a^gabc'a | gagfed | c6 ::
+S:https://www.folktunefinder.com/tunes/95683
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

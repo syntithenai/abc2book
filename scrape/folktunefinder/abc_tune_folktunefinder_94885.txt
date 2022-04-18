@@ -1,0 +1,27 @@
+X: 42
+T:King of Prussia's Minuet. BC.42
+M:3/4
+L:1/8
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+K:G
+G2 GGGG | G2 gdBG | c2 "tr" B2 A2 | B2 gdBG |\
+  c2 "tr" B2 A2 | BGdB g2 |!
+ (ed)(cB)(AG) | d2 D2 d2 | e^c A2 g2 | fdgeaf | (b/a/g) f2 e2|  d6 ||!
+d2 dddd |d2gdbd | c2 cccc | c6 | (B2c2) d2 | (e2f2) g2 |!
+ (ed)(cB)(AG) |d2 D4 | G2 GGGG | G2 gdBG | c2 "tr"B2 A2 |!
+ B2 gdBG | c2 "tr"B2  A2 | GBcdef | (g/a/b) B2 A2 | G6 |]
+S:https://www.folktunefinder.com/tunes/94885
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

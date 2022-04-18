@@ -1,0 +1,29 @@
+X: 173
+T: Prelude to a kiss
+M: 4/4
+L: 1/4
+C: Duke Ellington & Irving Gordon
+C: & Irving Mills
+Q: 1/4=72
+%%staves (chords melody)
+K: C
+%%text (ballad)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"D7"x2 "G7"x2 | "C7"x2 "Fmaj7"x2 | "B7"x2 "E7"x2 | "A7"x2 "Dm7"x2 |
+"(G7sus)""Dm7"x2 "G7"x"(-/F"" "x | "C/E""Am7"x2 "Ebdim7)""D7"x2 | "Dm7"x2 "G7"x2 | "C6"x"(F7"x "E7"x"Eb7"x ||
+V: melody
+B_B A_A | GA/E/- (3EFG | ^G=G ^F=F | EF/D/- D2 |
+S:https://www.folktunefinder.com/tunes/87674
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

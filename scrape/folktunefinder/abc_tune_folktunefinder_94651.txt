@@ -1,0 +1,32 @@
+X:053
+U: ~ = !turn!
+%%topmargin 3cm
+T:Dillon Brown's Fancy
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:A
+cB | AFEF A2 ce | {/g}fece fgaf | ec (3.c.c.c fcec | dBcA BF (3.F.F.F |
+AFEF A2 ce | {/g}fece fgaf | ec (3.c.c.c ac (3.c.c.c | BABc A2 ::
+ed | ((3cdc) Ad ceAc | BEGB EBGB | ((3dcB) AG Acec | B^dfa gbe=d |
+"(A"x[|]((3cdc) Ad ceAc | ((3BcB) GB EBGB "A)"| ABce {/g}feaf | ecdB A2 :|]
+x8 [|] x8 "(A"| ceAe ceAc | B2 GB EBGB  "A)"| x8 [|] x8 [|]
+S:https://www.folktunefinder.com/tunes/94651
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dillon_Browns_Fancy_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dillon_Browns_Fancy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Dillon_Browns_Fancy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Dillon_Browns_Fancy_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

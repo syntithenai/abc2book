@@ -1,0 +1,27 @@
+X:260
+T: Crowley's Recollection
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: G
+DGG GAG | FEF D2 c | BAB GBd | cAG FDC |
+DGG GAG | FEF D2 B/c/ |ded cAG |1 AGF GAG :|2\
+AGF G2 B/c/ ||
+d2 g fdc | ded cAG | dge dcA | GFG ABc |
+def gfg | agf g2 e | ded cAG |1 AGF GAG :|2\
+AGF G2 ||
+S:https://www.folktunefinder.com/tunes/88564
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

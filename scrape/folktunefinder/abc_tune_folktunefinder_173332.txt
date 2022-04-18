@@ -1,0 +1,35 @@
+X:1 % 18
+T:Ludler
+R:Jodler
+A:Bad Ischl, Salzkammergut
+C:traditionell
+B:"Pfeifermusik aus Bad Ischl", Lois Blamberger, 3. Auflage, Bad Ischl 1990
+S:dort Nr. 24 mit der Angabe: Aufgezeichnet von R.Zoder
+N:im buch ganz in D
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C %Transposed from D
+V:1
+G>G (BG) (Bd) | G2 (ce) (ge) | (gf) (BG) (BA) | (Ge) (cG) (ce) |\
+G>G (BG) (Bd) | G2 (ce) (ge) | (gf) (BG) (Bd) | c4(ge) | 
+V:2
+D>D (GD) (GB) | E2 (Gc) (ec) | (Bd) (GD) (GF) | (Ec) (GE) (Gc) |\
+D>D (GD) (GB) | E2 (Gc) (ec) | (Bd) (GD) (GF) | E4(ec) | 
+V:1
+(gf) (BG) (BA) | (Ge) (cG) (ce) | G2 (BG) (Bd) | G2 (ce) (ge) |\
+(gf) (BG) (BA) | (Ge) (cG) (ce) | G2 (BG) (Bd) | c4z2 :| 
+V:2
+(Bd) (GD) (GF) | (Ec) (GE) (Gc) | D2 (GD) (GB) | E2 (Gc) (ec) |\
+(Bd) (GD) (GF) | (Ec) (GE) (Gc) | D2 (GD) (GB) | E4z2 :|
+S:https://www.folktunefinder.com/tunes/173332
+S:http://simonwascher.info/TradArchiv_iodler/ludler.G3G(B2G2)(B2d2)G4(.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

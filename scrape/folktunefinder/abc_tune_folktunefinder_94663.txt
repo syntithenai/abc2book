@@ -1,0 +1,36 @@
+X:066
+U: ~ = !turn!
+%%topmargin 3cm
+T:Farewell to Ireland
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Martin Byrnes
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+~A,3 C E2 EF | ((3GFE) DB, G,B,DB, | ~A,2 A,C E2 EF | ((3GFE) DF EA, (3{/B,}(A,G,A,) |
+A,^G,A,C E2 EF | ((3GFE) DB, G,2 Pg2 | edef g2 {/a}gf "(A"| gedB {/c}BAA2 "A)"::
+a3 b agef | g2 gf gede | a4 {/b}agef | gedB {/c}BA A2 |
+agef {ga}g3 e | d3 B GABd "(B"| cABA A,EAa "B)"| gedB {/c}BA A2 ::
+eA ((3cBA) eA ((3cBA) | BG (3.G.G.G dG (3.G.G.G | eA ((3cBA) eABd | ((3gfe) dB cA ((3Bcd) |
+eA ((3cBA) eA ((3cBA) | Jd3 B GABd "(B"| cABA A,EAa "B)"| gedB {/c}BA A2 ::
+aece aece | gdBd gdBd | aece a3 f| gedB {/c}BA A2 |
+agef {ga}g3 e | d3 B GABd "(B"| cABA A,EAa "B)"| gedB {/c}BA A2 :|]
+xxxx xxxx "(A"| gedg eAA2 "A)"| xxxx "(B"| cABA EAea "B)"| xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94663
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Farewell_to_Ireland_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Farewell_to_Ireland_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Farewell_to_Ireland_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Farewell_to_Ireland_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

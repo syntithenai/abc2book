@@ -1,0 +1,61 @@
+X:1
+T:Les Ponts de Chateauneuf
+C:Jean Blanchard 
+R:
+A:France
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:kopierte handschriftliche noten-blaetter von Maxou Heintzen
+Q:3/4=63
+N:metronom-angabe laut quelle
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:C
+V:1
+"16"G |\
+c>dc | BAG | cde | f>ed |\
+cdc | BAG | A3- | A2 f |
+|:\
+efg | adf | edc | d2f |\
+e>dc |1 dcA | G3- | G2 f :|\
+     [2 A2B | c3- | c2 |
+V:2
+"23"x |\
+C3 | G3 | EDC | A2G |\
+F3 | EDE | F3 | D3 |
+|:\
+C3 | FGA | G3 | A3 |\
+G3 |1 FEC | D3 | G3 :|\
+   [2 D2G | C3- | C2 |
+V:1
+|: f |\
+e>dc | d2f | e>dc | d2f |\
+efg | abc' | bag | g2f |
+e>dc | d2f | e>dc | d2f |\
+e>dc | A2B | c3- | c2 :|\
+V:2
+x|: y |\
+C3 | D3 | E3 | F3 |\
+G3 | A3 | D3 | G3 |
+C3 | D3 | E3 | F3 |\
+G3 | D2G | C3-C3 :|
+W:
+W:
+S:https://www.folktunefinder.com/tunes/183495
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/les_ponts%20_de_chateauneuf.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

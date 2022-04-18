@@ -1,0 +1,23 @@
+X: 1
+T: Lieutenant Maguire's
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+|:f|BBB d2e|fBB fBB|AAA c2d|eAA eAA|
+BBB d2e|fBB fBB|fff edc|dBB B2:|
+|:c|d2e fdd|add fed|d2e fdd|eAA ABc|
+d2e fdd|add fed|eee f2e|dBB B2:|
+|:f|BBB d2e|f2e fga|AAA c2d|eAA eAA|
+BBB d2e|f2e fga|eee f2e|dBB B2:|
+|:f|BBB BfB|BaB fBB|AAA AeA|AfA efA|
+BBB BfB|BaB fBB|fff edc|dBB B2:|
+S:https://www.folktunefinder.com/tunes/172105
+S:http://www.thesession.org/tunes/display/1452
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

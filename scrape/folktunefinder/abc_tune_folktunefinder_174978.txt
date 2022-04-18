@@ -1,0 +1,30 @@
+X:1
+T:Mazurka di Ivano
+A:Italia
+D:CD Valla/Guiglelimetti 
+F:http://simonwascher.info/
+Z:abc transcription Christof Zeiler
+M:3/4
+L:1/8
+K:Gm
+GA |:\
+B2A2G2 | de d4 | B2A2G2 | g6 |
+g2f2e2 | d2c4 |1  e2d2c2 | c2 B4 :|\
+              [2  de dc BA | G2G2GA ||
+BA BA Bc | B4 AG | dc dc de | d6 |
+d2 ed cB | dc A4 |1  c2 dc BA | cB G2GA :|\
+                 [2  de dc BA | G2G2GA |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174978
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_di_ivano.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

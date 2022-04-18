@@ -1,0 +1,34 @@
+X:790
+T: Steven Prior's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] "G"G,B,D "F"=FEF | "G"G,B,D GFG | "G"G,B,D "F"=FGA | "G"dBc "D"AFD |
+[V:2] G,,2[GDB]=F,,2[=FAC]|G,,2[GBD]D,2[GBD]|G,,2[GDB]=F,,2[=FAC]|G,,2[GDB]D,2[AFD]|
+%
+[V:1] "G"G,B,D "F"=FEF | "G"G,B,D GFG | "G"dBc "Am"AGE | "D"DEF "G"G3 :|
+[V:2] G,,2[GDB]=F,,2[=FAC]|G,,2[GBD]D,2[GBD]|B,,2[GDB]A,,2[AEC]|D,2[AFD]G,,2[GDB]:|
+%
+[V:1] "G"gab "Am"age | "G"d^cd "F"=f2 A | "Dm"=FEF AFA | "G"dBc "D"AFD |
+[V:2] G,,2[GDB]A,,2[AEC]|G,,2[GDB]=F,,2[AC=F]|D,2[A=FD]A,,2[A=FD]|G,,2[GDB]D,2[AFD]|
+%
+[V:1] "G"gab "Am"age | "G"d^cd "F"=fga | "G"gfd "Am"ecA |"D"dAF "G"G3 :|
+[V:2] G,,2[GDB]A,,2[AEC]|G,,2[GDB]=F,,2[AC=F]|G,,2[GDB]A,,2[AEC]|D,2[AFD] G,,2[GDB]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87043
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

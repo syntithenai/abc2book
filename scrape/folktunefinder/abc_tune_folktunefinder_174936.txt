@@ -1,0 +1,39 @@
+X:1
+T:Mazurka aus dem Fersental
+A:Trentino
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer boehmischen Bock", Band I, R.Lughofer, Eigenverlag, Kremsmuenster 1998
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+GB |\
+B2G2GB | B2G2GB | B2c2B2 | A4FA |
+A2F2FA | A2F2FA | A2B2A2 | G4GB |
+B2c2B2 | A4FA | A2B2A2 | G4 || 
+GB |\
+A2dcBA | B2c2B2 | A2B2A2 | G4GB |
+A2dcBA | B2c2B2 | A2B2A2 | G4 || 
+G>B |\
+d2B2(3dcB | d2B3d | d2edcB | A4F3/2A/2 |
+c2A2(3cBA | c2A3c | c2dcBA | G4G3/2B/2 |
+d2edcB | A4F3/2G/2 | A2dcBA | G4 || 
+GG |\
+GeedcB | Add2FF | FddcBA | G4z2 |
+GeedcB | Add2FF | FddcBA | G4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174936
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_a_d_fersental.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:The Morning After
+M:2/4
+L:1/16
+C: Paul Gitlitz 2006
+R:Polka
+K:Gm
+D2|"Gm"G3B AGF2|G3B AGF2|G3B "Dm"AGF2|"Gm"G6D2|!
+"F"A,2FA, A,GA,A,|FA,A,G  A,A,F2|"Gm"G3B "Dm"AGF2|"Gm"G6D2|!
+|"Gm"G3B AGF2|G3B AGF2|"Gm"dDcD "F"BDAD|"Gm"G6D2|!
+"F"A,2FA, A,GA,A,|FA,A,G A,A,FA,|"Gm"G3B "Dm"AGF2|"Gm"G6D2||!
+|"Cm"E2cE EdEE|eEEd EEc2| "Gm"D2BD DcDD|dDDc DDBD|!
+"D7"^F2AF FBFF|c^FFB FFAF|"Gm"G^FGA BABc| d2B2 G2D2|!
+"Cm"E2cE EdEE|eEEd EEc2| "Gm"D2BD DcDD|dDDc DDBD|!
+"D7"D2AD DBDD|cDDB DDAG|"Gm"G3B "F"AGF2|"Gm"G8|]
+% Written by ABC2Win  2.2.124 BETA on 2/10/2007
+S:https://www.folktunefinder.com/tunes/176868
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/65/The_Morning_After.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:120
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lucy Campbell
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+dB | AD ((3FED) D3 A | BAFA BE ~E2 | AD ((3FED) | dBeB | dBAF AD D2 :|
+dBAB Pd2 fe | d2 cA BE E2 | DBAB defe | dBAF A[DF] D2 |
+dBAB defe | dB ~B2 gB ~B2 | dBAB defe | dBAF AD D2 ||
+afaf defg | afaf bgeg | afaf defe | dBAF AD D2 |
+afaf defg | afaf bgef | gage fgfe | dBAF AD D2 ||
+df ~f2 dfef | df ~f2 afef | df{/g}fe f2 {/g}fe | dBAF AD D2 |
+df ~f2 dfef | df ~f2 afef | gage fgfe | dBAF AD D2 |]
+S:https://www.folktunefinder.com/tunes/94716
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lucy_Campbell_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lucy_Campbell_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

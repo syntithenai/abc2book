@@ -1,0 +1,33 @@
+X:1
+T:Washington's Artillery March
+C:Trad.
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+P:1st Fife
+f/e/|dd AA|BB Ad|c/d/e/f/ gf|Tf2ef/e/|\
+dd AA|BB Ad|c/d/e/f/ g/f/e/d/|e2d::
+A|AA A/A/A|dA/A/ Af|gg ff|(Tf2e)A|AA A/A/A|\
+dA/A/ Ad|c/d/e/f/ g/e/d/c/|e2d::
+A|dA fA|dA/d/ fA|dA df|d2 ff|ge ea/g/|\
+fd dd|c/d/e/f/ g/e/d/c/|e2d:|
+P:2nd Fife
+z|FF FF|GG FD|A/B/c/d/ ed|(Td2 c)A/G/|\
+FF FF|GG FF|E/F/G/A/ B/A/G/F/|G2 F::
+A|AA A/A/A|dA/A/ Ad|ee dd|Td2 cA|\
+AA A/A/A|dA/A/ AF|E/F/G/A/ B/G/F/E/|G2 F::
+A|dA fA|dA/d/ fA|dA df|d2 dd|\
+ec cf/e/|dF AF|E/F/G/A/ B/G/F/E/|G2 F:|
+S:https://www.folktunefinder.com/tunes/89988
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

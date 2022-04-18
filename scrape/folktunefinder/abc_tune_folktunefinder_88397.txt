@@ -1,0 +1,27 @@
+X:1200
+T:the Solitaire
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:There are notes on the dance, I can't read them clearly enough.
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001167.html
+%%ID:00001167
+K:C
+g | e2e c2g | (e3  c2)g | e2e edc  | d3- d2 \
+g | e2e c2g | (^f3 d2)d | g2g ag^f | g3- g2 ::
+g | e2e e2e | e2a e2e | ba^g fed | c2e c2\
+e | e2e edc | Bag g2f | e2e edc | g3- g2
+f | e3- ede | f3 fef | d2d dgg | e2c gc\
+d | e3- ede | d2d dgB | c3- c2 :|
+S:https://www.folktunefinder.com/tunes/88397
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

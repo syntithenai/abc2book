@@ -1,0 +1,25 @@
+X:545
+T:Chasse Marine
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001fd.html
+%%ID:000001fd
+K:C
+G|\
+c2G EFG| fed cBA| Gce f2e| "tr"e3 d2d|\
+d2c B2A| GBd g2d| e2A (B/c/d).B| G3-G2::
+d|\
+e2c A2c| (B/c/d).B G2d| (e/f/g).g gec| {e}d3-d2e/f/|\
+gec ceg| dBG G2G| A2f efd| c3 c2:|
+S:https://www.folktunefinder.com/tunes/95415
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,46 @@
+X:1
+T:Deutsche Muehlviertler Taenze nr. 12
+C:traditionell
+A:Muehlviertel, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus dem Muehlviertel", Rupert Azesberger, herausgegeben von A.Ruttner
+N:im buch nr. 44/12
+S: mit der angabe: Sammlung B.Derschmidt
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+d2 |\
+(gfg)d(ef) | g2a2b2 | (aga)e(fg) | a2b2c'2 |\
+a2(gf) (ed) | b2(ag) (fe) | ed ^cd ef | g4 :|
+V:2
+d2 |\
+(BAB) B(cd) | B2 d2 g2 | (fef) ^c(de) | f2 g2 a2 |\
+f2 (ed) (cB) | g2 (fe) (dc) | cB AB cA | B4 :|
+V:1
+|: (ed) |\
+[c'2e2][c'2e2](ed) | [b2d2][b2d2]ge | d2(ed) (cA) | (GB)d2(ed) |\
+[c'2e2][c'2e2](ed) | [b2d2][b2d2]ge | d2(ed) (cA) | G4 :|
+V:2
+|: (cB) |\
+e2 e2 (cB) | d2 d2 BG | A2 (cB) (AF) | (DG) B2 (cB) |\
+e2 e2 (cB) | d2 d2 BG | F2 (cB) (Ad) | B4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/153188
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/deutsche_muehlv_taenze_12.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

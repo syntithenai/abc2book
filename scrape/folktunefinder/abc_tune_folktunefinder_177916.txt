@@ -1,0 +1,25 @@
+X:0647
+T:"My Dermot"                     0647
+C:Turlough O'Carolan
+N:Transposed from F
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+"^vb"G|B2B BcA|G2F E2(B/2c/2)|d2d dec|{e}d3d2c|
+B2B BcA|G2F E2 (3(B/2c/2d/2)|e2e (ef^d)|e3e2||
+(ef)|g2g gaf|g2B B2(B/2c/2)|{e}dcd {f}e2c|{e}d3-d2c|
+B2B BcA|G2F E2B|e2e ef^d|e3e2|]
+S:https://www.folktunefinder.com/tunes/177916
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/647-MyDermott.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

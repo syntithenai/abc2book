@@ -1,0 +1,24 @@
+X:490
+T: Bog Carrot
+R: reel
+M: 4/4
+L: 1/8
+S: "Raise the Rafters" (PJ King, K.Crawford, M.O Malley)
+Z: B.Black
+K: D
+D|FAdA BdAd|BdAF E2 DE|FAdA BdAd|BdAF E2 D :|
+e|f2 fe defg|afdf e2 de|f2 fe dfef|dBAF E2 D :|
+e|afdf afdf|ge=ce gece|afdf afdf|ge^ce d3e|
+afdf afdf|ge=ce gece|afge fdec|dbAF E2 D||
+S:https://www.folktunefinder.com/tunes/93597
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

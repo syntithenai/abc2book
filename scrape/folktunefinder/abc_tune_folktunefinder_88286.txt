@@ -1,0 +1,44 @@
+X:645
+T:Scotch Reel
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:Clarinetto Primo
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef9.html
+%%ID:00000ef9
+K:D dorian
+a|\
+g2e ege | g2e e2a  | g2e ege | c2e e2a |\
+g2e ege | gab c'2b | agf edc | A2d d2 ::
+g|\
+c'2c' geg | g2e e2g  | c'2c' geg | e2a a2g | \
+c'2c' geg | geg c'2b | agf edc   | A2d d2::
+[M:2/4] [L:1/8] \
+e2 f/d/B/d/ | cGGG | e2 f/d/B/d/ | c2 c2 |\
+e2 f/d/B/d/ | cGGG | e2 f/d/B/d/ | Hc2 ::
+f>gaa | ffcc | f>gaa | ff f/a/g/f/ | \
+e2 f/d/B/d/ | cGGG | e2 f/d/B/d/ | c3 ::
+a/g/ |\
+^fd de/f/ | gg g/b/a/g/ | ^fd de/f/ | gg ga/g/ | \
+^fd de/f/ | gg g/b/a/g/ | ^fd de/f/ | gg g/a/g/f/ |
+e2 f/d/B/d/ | cGGG | e2 f/d/B/d/ | c2 c2 |\
+e2 f/d/B/d/ | cGGG | e2 f/d/B/d/ | c4 ::
+aac'c' | aac'c' | d'2 c'b | c'3 g | \
+aac'c' | ggc'c' | d'2 c'b | c'3 g |\
+egeg | c'3 g | egeg | e4 ::
+%%newpage
+%page 42
+S:https://www.folktunefinder.com/tunes/88286
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

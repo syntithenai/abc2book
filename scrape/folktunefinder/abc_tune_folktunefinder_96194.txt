@@ -1,0 +1,28 @@
+X: 43
+T:Medus to this tune(TBe.042). TBe.043
+M:C|
+L:1/4
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+N:See notes to TBe.04
+H:1718
+Z:vmp.C. Graebe..
+K:G minor
+B2B2 | d>c BB | B>c dd | AAA (B/c/) |!
+ ddd (e/d/) |ccc (f/e/) | d (B/c/) A>G |1 ^F4 :|2 ^F3 |:!
+f | dBd (=e/f/) | g>d =e e | fA (A/B/) c | B>A G d |!
+ BBcf | A>A B (B/c/) | d (g/f/) ^f>g |1 g4 :|g3 ||
+S:https://www.folktunefinder.com/tunes/96194
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

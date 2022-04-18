@@ -1,0 +1,28 @@
+X:039
+%%topmargin 3cm
+T:Deerfoot
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:F
+c2 | cfaf gcde | fegf afga | bgaf gdbg | fedc cBAB |
+cfaf gcde | fAaf gcde | {/g}fefd cBAG | F2F2 F2 ::
+cB | Acfe dcBA | BGgf edcB | Acag fedc | cBAB G2cB |
+Acfe dBgf | ecag fedc | dfed cBAG | F2F2 F2 :|]
+S:https://www.folktunefinder.com/tunes/91969
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Deerfoot.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Nelson/Deerfoot.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

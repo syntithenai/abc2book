@@ -1,0 +1,27 @@
+X:0837
+T:"The Orange Rogue"   (jig)      0837
+C:after  Mr. Cronin
+N:Anacrucis for part 2 moved behind repeat bar to preserve jig scansion
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+d|(e/2f/2g)e dBA|GEF G2A|BAB ^def|g2b agf|
+(e/2f/2g)e dBA|GEF G2A|BAB d^c^d|e3e2:|
+f|:"^mordent"g2e a2f|"^mordent"g2B BAB|"^mordent"g2e a2f|{a}g3B2d|
+"^mordent"g2e a2f|"^mordent"g2e fed|BAB ^def|g2b agf:|
+S:https://www.folktunefinder.com/tunes/180570
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0837-OrangeRogue.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0837-OrangeRogue.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

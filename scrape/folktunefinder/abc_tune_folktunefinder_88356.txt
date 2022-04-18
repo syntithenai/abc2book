@@ -1,0 +1,27 @@
+X:995
+T:Is there a Heart that never loved
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001108.html
+%%ID:00001108
+K:C
+c>dc e2g | g2f d2e | c2c (ag)f | e3 {fe}d2z | \
+c>dc e2g | g^fe d2f | g2B dcA | G3-G2 g |
+"slow" \
+a2f f2a | g2e c2G | c2e edc | G3-G2 G | \
+A2B c2d | e2a/g/ Hf2e | d/e/d/^c/ d/A/f/d/ c B | c3-c3 ::
+%%newpage
+%page 81
+S:https://www.folktunefinder.com/tunes/88356
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

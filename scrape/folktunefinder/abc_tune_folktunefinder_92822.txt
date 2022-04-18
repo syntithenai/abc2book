@@ -1,0 +1,24 @@
+X:105
+T:La Valse des Jeunes Filles
+R:Waltz
+C:Trad.
+S:The Waltz Book
+Z:Added by alf.warnock@nrc.ca
+M:3/4
+L:1/8
+K:D
+dcBA|:F2FEDE|F2dcBA|F2FEDF|G3FGA|
+B2BAGF|E3FGA|BABcBA|[1 F2dcBA:|[2 d2DFAd||
+c2cBAB|DFBFAF|EBEcEc|d2DFAd|
+c2cBAB|DFBFAF|EAEcEc|[1 d2DFAd:|[2 d4 d2|]
+S:https://www.folktunefinder.com/tunes/92822
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw02.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

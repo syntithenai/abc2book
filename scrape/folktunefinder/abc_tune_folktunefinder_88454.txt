@@ -1,0 +1,25 @@
+X:1485
+T:Come under my plaidy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005b4.html
+%%ID:000005b4
+K:E min
+g | \
+dBB BAB    | dBB B2g | dBB BAB | GEE E2g | \
+dBB BA[BG] | dBB BAG | AAA BAB | GEE E2 ||
+d | \
+gfg aga | bag fed | gfg aga | bge e2g/a/ | \
+bgb afa | geg dBG | AAA BAB | GEE E2 |]
+S:https://www.folktunefinder.com/tunes/88454
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

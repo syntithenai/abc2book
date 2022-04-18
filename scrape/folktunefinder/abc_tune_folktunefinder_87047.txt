@@ -1,0 +1,38 @@
+X:810
+T: Tidewater (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] E|"G"DEGA "Em"BGBd|"C"g2 dc "G"Bd"Am"cA|"Em"Bdef "G"gdBd|"Am"cA"G"BG "D"AcBA|
+[V:2] z|G,,2[G2D2B2]E,2[E2B2G2]|C,2[E2G2C2]G,,2[A2C2E2]|E,2[B2E2G2]G,,2[G2D2B2]|\
+A,,2[G2D2B2]D,2[A2D2F2]|
+%
+[V:1] "G"DEGA "Em"BGBd|"C"g2 dc "G"Bd"Am"cA|"Em"Bdef "G"gdBG|"D7"FADF "G"G3 :|
+[V:2] G,,2[G2D2B2]E,2[E2B2G2]|C,2[C2G2E2]G,,2[A2C2E2]|E,2[B2E2G2]G,,2[G2D2B2]|\
+D,2[C2A2F2][G,,3D,3B,3] :|
+%
+[V:1] A|"D"dfaf "C"g2 dc|"G"Bd"Am"cA "Em"BE (3EDE|"G"BGBd "C"g2 fe|"D"dcAF "G"G3 B |
+[V:2] z|D,2[D2A2F2]C,2[C2G2E2]|G,,2[A2E2C2]E,2[B2E2G2]|G,,2[G2D2B2]C,2[C2G2E2]|\
+D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "D"dfaf "G"gbbg|"C"ecef "G"gdBG|"G"DEGA "Em7"BedB|"D"AFDF "G"G3 :|
+[V:2] D,2[D2A2F2]G,,2[G2D2B2]|C,2[C2G2E2]G,,2[G2D2B2]|B,,2[G2D2B2]E,2[B2D2G2]|\
+D,2[D2A2F2][G,,3D,3B,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87047
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

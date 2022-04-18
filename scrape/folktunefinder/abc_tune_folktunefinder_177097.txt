@@ -1,0 +1,39 @@
+X:1
+T:Motorway Mazurka
+C:Jon Swayne
+R:Mazurka
+A:England
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Moebius Music for Three Bagpipes and Other Tunes, Jon Swayne, Dragonfly music, Newbiggin-by-the-sea, 1995
+N:Chords by the composer
+N:im buch in G
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+GA AG |:\
+"G"B2 GA AG | "Hm7"d2 GA AG | ""fg fd ce | "G"dB GA "D7"AG |
+"G"B2 GA AG | "Hm7"d2 GA AG | "C"fg fd "D"ce |1 "G"d2 GA AG :|\
+                                             [2 "G"d4 G2 |  | 
+|:\
+"C"de ed eg | "D7"e2d2c2 | "G"cd dc "Gmaj7"dg | "Em"d2c2B2 |
+"Am"Bc cB cg | "D"c2B2A2 |1 "G"GF G"Am7"A GA | "Hm7"BA B"D7"c Bc :|\
+                         [2 "G"GA A"C"B Bc | "D"A2 |] |2"_letzter Schluss""C"GA A"D"B BA | "G"G2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177097
+S:http://simonwascher.info/
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/motorway_mazurka.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

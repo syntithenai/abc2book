@@ -1,0 +1,27 @@
+X: 5
+T:Mason's Apron reel
+S:Miles Krassen
+R:reel
+B:O'Neil's Music of Ireland
+M:C|
+Q:1/2=120
+L:1/8
+K:A
+af| ec (3ccc BcAF| EFAB c2 BA| FB {d}(3BAB cB {d}(3BAB| cefg abaf|e2 cA
+BF {G}(3FEF| EFAB cABc|d{e}d{c}ce fgaf| edcB A2 AB||!
+|(3cBA ec fcec| (3cBA eA fcec| df {a}(3fef af {a}(3fef| df {a}(3fef afec
+| Acec fcec| Ac (3ccc fcec| d{e}d{c}de fgaf| edcB A2||
+S:https://www.folktunefinder.com/tunes/174684
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/tunes/Reel/MasonsApron.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

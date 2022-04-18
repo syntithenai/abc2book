@@ -1,0 +1,26 @@
+X: 1
+T: Reel Des Sucres
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+ff |: f2g2 f2d2 | B2d2 Azff | f2g2 f2d2 | B2d2 AAee |
+e2f2 e2c2 | B2A2 eeee | e2f2 e2c2 |[1 B2A2 ddff :|[2 B2A2 d2FG ||
+|: A2 A-A1/4B3/4 A2G2 | F2F2 F2A2 | d2f2 a2g2 | f2d2 c2d2 |
+e2f2 g-g1/4a3/4g-g1/4f3/4 | g2e2 e2e2 | g2g1/2a3/4g3/4 fg1/2f3/4ed3/4 | c2A2 B2c2 |
+M: 2/4
+|[1 d2FG :|
+M: 2/2
+|[2 dz |]
+S:https://www.folktunefinder.com/tunes/185051
+S:http://www.thesession.org/tunes/display/4838
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

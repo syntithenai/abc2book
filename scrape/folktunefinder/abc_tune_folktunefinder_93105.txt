@@ -1,0 +1,22 @@
+X: 15
+T: Kotimaani ompi Suomi
+T: My Homeland is Finland
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: C
+CE \
+| "C"G3 E (3CEG | "Am"c2 "Em"B2 "F"A>A | "G"G3 D FA \
+| "C"G4 c>B | "F"A3 F A>c | "C"G2 E2 "Am"CE |
+| "Dm"G3 F "G7"A,B, | "C"C4 c>B | "F"A3 F "F#dim"A>c \
+| "C/G"G2 E2 "Am"CE | "Dm"G3 F "G7"A,B, | "C"C4 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93105
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

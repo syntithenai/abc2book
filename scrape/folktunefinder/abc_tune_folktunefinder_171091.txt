@@ -1,0 +1,36 @@
+X:8624
+T:Lamachree and Megrum
+C:anon.
+O:Scotland
+S:Rymour Club Miscellanea v1 via McColl, Folk Songs and Ballads of Scotland
+R:Bothy ballad
+Z:Transcribed by Phil Taylor
+F:http://abc.musicaviva.com/tunes/scotland/lamachree-and-megrum.abc
+%Posted at abcusers July 21th 2002 by Phil Taylor
+M:4/4
+L:1/4
+Q:1/4=96
+K:EMin
+% E mixolydian/dorian/minor pentatonic
+E|B,E   E>F    |E>F       B2 ||
+  A>B   E(E/F/)|E<D       B, ||
+D|A,>B, DE     |DE        F2 ||
+  A2    D2     |(F<E) ({D}E2)|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/171091
+S:http://abc.musicaviva.com/tunes/scotland/lamachree-and-megrum.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/lamachree-and-megrum.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/lamachree-and-megrum.abc
+% Rhythm Bothy ballad
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

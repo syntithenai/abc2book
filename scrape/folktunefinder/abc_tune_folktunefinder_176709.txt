@@ -1,0 +1,28 @@
+X: 1
+T: Monster Of Polska
+M: 3/2
+L: 1/8
+R: three-two
+K: Dmaj
+|:a3g f2a2 g2f2|a3g f2a2g2f2|_b3a g2_b2a2g2|_b3ag2_b2 c'4:|
+d3c d2e2f2d2|dedc dfag fgfe|d3c d2e2f2d2|dedc dfag fgfe|
+d3c d2e2f2d2|dedc dfag fgfe|d3c d2e2f2d2|fgfe ded=c_ B=c_BA|\
+M:1/2
+G4|
+M:3/2
+K:Gmin
+|:G,3B,D2G2B2D2|=E3F=E2C2 DCB,A,|G,3B,D2G2B2D2|=E3F=E2C2 D4:|
+S:https://www.folktunefinder.com/tunes/176709
+S:http://www.thesession.org/tunes/display/4134
+% Rhythm Three-two
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 1/2
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

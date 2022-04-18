@@ -1,0 +1,24 @@
+X:0012
+T: "The Red Haired Girl"    (1sr Setting)    (air)     0012
+C:after  Chief  F. O'Neill
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:D
+"_vb"(A/2G/2 FE)|D2(FG) (AB/2c/2)|d2(ed/2c/2) (AG)|(F2DE) (DB,)|C2z(A/2G/2 FE)|
+D2(FG) (AB/2c/2)|d2(ed/2c/2) (AG)|F2(DE) DD|D3||
+(F/2G/2 .A.A)|f2(de) (dc)|(d2ed/2c/2) (AG)|F2(DE) (DB,)|C2z(A/2G/2 FE)|
+D2(FG) (AB/2c/2)|d2(ed/2c/2) (AG)|F2(DE) DD|D3|]
+S:https://www.folktunefinder.com/tunes/184885
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/12-RedHairedGirl1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/12-RedHairedGirl1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

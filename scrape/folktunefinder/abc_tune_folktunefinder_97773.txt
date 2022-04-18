@@ -1,0 +1,23 @@
+X:9991
+T:M.T.B.
+% Nottingham Music Database
+S:Lesley Dolman
+M:3/4
+L:1/4
+K:G
+D|"G"GBd|"G"g3/2g/2f/2g/2|"C"age|"G"edd|"D"DFA|"D"d3/2d/2^c/2d/2|"D7"edc|
+"G"B2B/2A/2|"G"GBd|"G"g3/2g/2f/2g/2|"C"age|"G"edd|"D"DFA|"D"d3/2d/2^c/2d/2|\
+"D7"cBA|
+"G"G2B/2A/2|"G"GBe|"G"d2d|"G"GBe|"G"d2d|"D"DFA|"D"d3/2d/2^c/2d/2|"D7"edc|
+"G"B2B/2A/2|"G"GBe|"G"d2d|"G"GBe|"G"d2d|"D"DFA|"D"d3/2d/2^c/2d/2|"D7"cBA|"G"G2\
+||
+S:https://www.folktunefinder.com/tunes/97773
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

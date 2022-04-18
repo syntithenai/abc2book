@@ -1,0 +1,30 @@
+X:50
+T: Preab san l!, S. 117
+N: I0549
+O: Irland
+S: O'SULLIVAN, Donal: Song of the Irish]
+R: Trinklied]
+M: 4/4
+L: 1/16
+K: E
+B,2 | E2F2G2A2B4e4 | d4c4B2A2G3A
+B4e4c2A2G2F2 | E4D4C4
+B,2C2 | E2F2G2A2B4e3e | d4c4B2A2G3
+A | B4e4c2A2G2F2 | E4E4E6
+E2 | G2B2c2d2e4d2c2 | f2e2dd2cB4G3
+G | G2B2c2d2e4d2e2 | f2e2d2e2c6
+c2 | B2e2d2c2B2A2G2F2 | G4E4C4E2
+F2 | G4e4c2A2G2F2 | E4E4E6
+S:https://www.folktunefinder.com/tunes/93221
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Rhythm Trinklied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

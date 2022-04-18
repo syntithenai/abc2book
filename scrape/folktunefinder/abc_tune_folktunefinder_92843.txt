@@ -1,0 +1,33 @@
+X:210
+T:Flowers of Normandy
+R:waltz
+C:John Shehan of the Dubliners
+Z:added by Alf Warnock - alf0@rogers.com - http://members.rogers.com/alf0
+M:3/4
+L:1/8
+K:G
+P:A
+D2| "G"G3F GB|"Gmaj7"F3E FB|"G6"E3D EG|"G"D4 D2| "G"G3F GB|"Gmaj7"F3E FA|"Am"E6-|E4 E2|
+"Am"A3^G Ac|"Am7"G3E Gc|"Am6"F6-|F4 D2| "Am"E3D ED|"D7"A3D ED|"Edim"^A3D ED|"G"B5D|
+"G"G3F GB|"Gmaj7"F3E FB|"G6"E6-|E4 D2| "Fdim"=F3E ^DE|A3^A Bc|"Am"A6-|A6|
+"C"e3c BA|"Cm"^d3c BA|"G"d3B AG|"E7"F4 D^D|"Am"E3^D Ec|"D7"F3E Fd|"G"G6-|G3d ef||
+P:1st B part
+"G"g3d BG|"Gmaj7"f3d BG|"G6"e3d BG|"G"D3B ef|"G"g3d BG|"Gmaj7"f3d BG|"Am"e3d cA|"Am7"E6|
+"Am"a3e cA|"Am7"g3e cA|"Am6"f3e cA|"Am"e3d cA|"Am"E3D Ec|"D7"F3E Fe|"Edim"^A3A Bf|"G"d4 ef|
+"G"g3d BG|"Gmaj7"f3d BG|"G6"e3d BG|"G"D4 E2| "Fdim"=F3E ^DE|"E7"A3^A Bc|"Am"A3^G Ac|e6|
+"C"a3g fe|"Cm"^d3e fg|"G"d3e fg|"E7"B3c de|"Am"c3B ce|"D7"F3E FA|"G"G6-|G3D EF||
+%%newpage
+P:Flowers of Normandy 2nd B part
+"G"gd Bg dB|"Gmaj7"fd Bf dB|"G6"ed BG EG|"G"Dd ^cd ef|"G"gd Bg dB|"Gmaj7"fd Bf dB|"Am"ed cB cA|"Am7"E6|
+"Am"ae ca ec|"Am7"ge cg ec|"Am6"fe cf ec|"Am"ec fe cA|"Am"E5c|"D7"F5e|"Edim"A^A f3^c|"G"d6|
+"G"gd Bg dB|"Gmaj7"fd Bf dB|"G6"ed BG EG|"G"D4 E2| "Fdim"=FE ^DE =FE|A^G A^A Bc|"Am"A^G AB cd|e6|
+"C"ag fg fe|"Cm"^dd ^de fg|"G"d^c de fg|"E7"B^A Bc de|"Am"cB cd ec|"D7"F=F FG AB|"G"GF GA Bd|g4 D2|]
+S:https://www.folktunefinder.com/tunes/92843
+S:http://www2.redhawk.org:8080/irish/warnock/abc/accw02.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X:640
+T:Roger's Farewell
+B:Aird's Airs and Melodies vol 3
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000210.html
+%%ID:00000210
+K:G
+D|\
+G2G>B A>GAB| G<G-G>B {B}d2d>g| G2G>B A>GAB| G<EE>D G2G::
+e|\
+dG A>GA>e| dG B2B>e| dG A>GAB| G<EE>D G2Ge|
+dG A>GAe| dG B2B>c| d>gB>g A>GA>B| G<E E>D G2G:|
+S:https://www.folktunefinder.com/tunes/95434
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

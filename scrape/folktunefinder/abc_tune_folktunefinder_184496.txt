@@ -1,0 +1,22 @@
+X: 1
+T: Rain On The Roof
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: GB,G BGB | dge dBG | c2c A/2B/2cA | EFG ABA |
+GB,G BGB | dge dBG | A/2B/2cA EFG | AGG G2D :|
+GBd ~g3 | gba fdB | c2c A/2B/2cA | EFG ABA |
+GBd ~g3 | gba fdB | gag f2d | e/2f/2ge dBA |
+GBd ~g3 | gba fdB | c2c A/2B/2cA | EFG ABA |
+GB,G BGB | dge dBG | A/2B/2cA EFG | AGG G3 |
+S:https://www.folktunefinder.com/tunes/184496
+S:http://www.thesession.org/tunes/display/6358
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

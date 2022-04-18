@@ -1,0 +1,26 @@
+X:165
+%%topmargin 3cm
+U:~=!turn!
+T:Mrs. Mossman
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:D
+F | Dd-dF A>d F>d | Dd-dF {/F}E2 TE>F | Dd-dF Ad FD | CT<A,B,>C D2 DE |
+D d2 F A>d F>d | D d2 F {/F}E2 E>F | D d2 F A>d FA | TB>ABc {/c}d2 d |]
+g | Tf>e da f<da>d | Tf>e df [A2e2] [Ae]g | Tf>e fa f<d a>A | TB>ABc d2 dg |
+Tf>e da f<d a>d | Tf>e df {/f}[A2e2] [Ae]f/g/ a>fg>e f>de>c | {/c}d>B AF D2 D |]
+S:https://www.folktunefinder.com/tunes/177504
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_Mossman.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0165.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

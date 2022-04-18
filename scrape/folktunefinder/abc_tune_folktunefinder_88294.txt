@@ -1,0 +1,25 @@
+X:685
+T:Clarinetto Primo
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000f01.html
+%%ID:00000f01
+K:C
+c2g>e  | c2g>e  | f>gf>e | d>c B2 | c2g>e  | c2g>e  | f>dc>B | c2-c2 ::
+g2c'>b | a>gf>e | d>ef>g | e2c2   | g2c'>b | a>gf>e | d>fB>d | c2-c2::
+%%newpage
+%page 48
+S:https://www.folktunefinder.com/tunes/88294
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

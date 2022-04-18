@@ -1,0 +1,27 @@
+X:122
+T:Ookpik Waltz
+C:Frankie Rodgers  (Altan)
+M:3/4
+L:1/8
+Q:1/4=108
+R:waltz
+K:G
+%%MIDI program 1 77 
+|:D E>F|G3 A B>d|A F3 (3DED|EG- G3 A|G3 A B>d|e4 e>f|ed3 B>A|B d3e2|d2 g2f2|!
+e4 e>f|e d3 (3 dBA|B3 d (3BAG|E4 E>D|C3 D EG|D F3 D2|E2 G3A|1 G3:|2 G3 A B>d|!
+|:e2 B3 A|B4 e2|d2 B3 A|B4 B2|A4 A>B|A G3 (3GED|EG-G3 A|G2 B2 d2|!
+e2 B3A|B4 e2|d2 B3 A|B4 B2|  A4 A>B|A G3 (3GED|EG-G3 E|FE D2 (3DEF |!
+G3 A B>d|A F3 (3DED|EG- G3 A|G3 A B>d|e4 e>f|ed3 B>A|B d3e2|d2 g2f2|!
+e4 e>f|e d3 (3 dBA|B3 d (3BAG|E4 E>D|C3 D E>G|D F3 D2|E2 G3A|1 G3 A B>d:|2 G6|
+P:AABABA
+S:https://www.folktunefinder.com/tunes/180491
+S:http://www.thesession.org/tunes/display/5422
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

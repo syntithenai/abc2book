@@ -1,0 +1,24 @@
+X:0521
+T:"McFarlane's Lament"        (air)        0521
+C:Unattributed
+C:mournfully
+Q:1/4=40
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_VB"(B3/2A/2)|G4(d3/2B/2)|(A2G) z(d3/2B/2)|(A2G) .G2|G4Bd|e2e2(g3/2e/2)|d4(e3/2d/2)|B2e2(d3/2B/2)|A4(G3/2A/4B/4)||
+(A2G) z(G3/2A/4B/4)|(A2G) z(B3/2d/2)|e2(ef) (g3/2e/2)|d4(ed)|B2B2([A3/2d3/2]B/2)|(A2G) z(GA/2B/2)|(A2G2).G2|G4|]
+S:https://www.folktunefinder.com/tunes/175084
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0521-McFarlanes.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0521-McFarlanes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

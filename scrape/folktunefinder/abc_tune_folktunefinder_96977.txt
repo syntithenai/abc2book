@@ -1,0 +1,27 @@
+X:17
+T:A San Bounet
+R:Rigodon
+C:Trad.
+A:Champsaur - Hautes-Alpes - France
+D:Le violon traditionnel en France
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:160
+K:G
+z3z/G/|:[dG,][dG,][dG,][c/G,/]B/|[A/D,/]B/[c/D,/]A/[BG,][G/G,/]G/|[dG,][dG,][dG,][c/G,/]B/|[A/D,/]B/[c/D,/]A/[GG,]G,/G/:|:[A/D,/]B/[c/D,/]A/[BG,][A/D,/]G/| \
+[F/D,/]G/[A/D,/]F/[GG,]G,/G/|[A/D,/]B/[c/D,/]A/[BG,][A/D,/]G/|1[F/D,/]G/[A/D,/]F/[GG,]G,/G/:|2[F/D,/]G/[A/D,/]F/[GG,]G,| \
+K:C
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96977
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 8
+%%leftmargin     1.80cm
+%%staffwidth     18.0cm
+T: Medway Jig #3
+I: Medway Jig #3J-54Djig
+C: Paul Milde  1997
+M: 6/8
+R: jig
+K: G
+D| "G"G3 "D"FGA| "G"G3 D2G| B2d dcB| "D"AGA "G"B2d| \
+      d2c B2A| GAB "D"A2D| "G"G2G "D"F2G| AGF "G"G2 :|
+\
+d| "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d| \
+   "C"e3 efg| age "G"d2B| "C"cde "G"dcB| "D"FGA "G"G2d|
+   "C"e3 efg| "G"d3 dcB| "D"cBA "G"BAG| "Am"ABe "D"d2d|1 \
+   "C"e3 gfe| "G"ded B2G| "D"A2c "G"BAG| "D"FGA "G"G2 |]
+P: Last time
+%%staffwidth 10.0cm
+   "C"e3 gfe| "G"d3  B2d| "D"A2c "G"BAG| "D"FGA "G"G3|]
+%%text Roaring Jelly J-54
+%%text 05/5/99
+S:https://www.folktunefinder.com/tunes/175191
+S:http://roaringjelly.org/music/sets/Set33.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set33.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set33.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

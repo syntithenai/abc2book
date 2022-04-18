@@ -1,0 +1,24 @@
+X: 1
+T:My Lord Byron's Maggot
+M:6/8
+L:1/8
+B:The Round Band Book of Playford
+K:D
+A | "D"AFA AFA | "D"AFA A2d | \
+"D"dAd dAd | "D"dAd d2d | \
+"D"fga "A7"efg | "D"fga "A7"efg | \
+"D"fga "E7"a2^g | "A"a3 a2 :| \
+a | "D"fdd "A7"gee | "D"fdd "A7"gee | \
+"D"fdd "G"g>ag/2f/2 | "A"e3 e2f/2g/2 | \
+"D"a2z "A7"g2z | "D"f2z "A7"e2z | \
+"D"f2z "G"g2z | "D"f2z "A"e2a | \
+"D"f/2g/2ad "A7"eAa | "D"f/2g/2ad "A7"eAa | \
+"G"f>ed "A7"ee2 | "D"d3 d2 ||
+S:https://www.folktunefinder.com/tunes/178001
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/my/My_Lord_Byrons_Maggot_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: Mary Cotter
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+e |: aec A2 F | GAB d2 B | cec Ace | dBB Bce |
+aec A2 F | GAB d2 B | cec BdB | cAA A2e :|
+|:f2 a fec | BdB c2 B | ABc eae | fee e2a |
+[1 faf fec | BdB c2 B | ABc BeB | cAA A2 a :|
+[2 (f/g/a)g fec | aec d2 f | eac BeB | cAA A2 ||
+S:https://www.folktunefinder.com/tunes/174567
+S:http://www.thesession.org/tunes/display/4796
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

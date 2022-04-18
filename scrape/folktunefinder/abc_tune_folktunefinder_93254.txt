@@ -1,0 +1,25 @@
+X:19
+T:Plan 9
+C:Tuq
+Z:robin.beech@mcgill.ca
+S:Tuq: Nicolas Williams, Greg Brown, Yann Falquet
+R:reel
+M:4/4
+L:1/8
+K:G
+G,3B, A,G,A,C | B,A,B,C D2EF | G3B AGEF | GDED B,B,A,B, |
+G,3B, A,G,A,C | B,A,B,C D2EF | GCCB, C3E |1 DCDE FDB,A, :|2 DCDE FGAB |:
+cEED E3c | BGGF G4 | AGFG AGFE | DGFE DGAB |
+cEED E3c | BGGF G3B | AGFG AGAc | B2AF G4 :|
+S:https://www.folktunefinder.com/tunes/93254
+S:http://music.gordfisch.net/oregans/assets/abc/quebec.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

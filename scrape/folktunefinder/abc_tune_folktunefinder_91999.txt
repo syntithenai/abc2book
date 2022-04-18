@@ -1,0 +1,41 @@
+X:2
+T:Aidan's Reel
+% (Named for Chris & Marney's daughter Aidan)
+S:Linda Relph
+C:Linda Relph
+R:reel
+Z:original tune
+M:4/4
+L:1/8
+Q:420
+K:G minor
+% This should be played in the following order: A, repeat, then B -
+% The B part was easier to write out in its entirety rather than
+% try to do a first and second ending......
+P:A
+|:"Gm"G,B,DF GFDF|"Eb"EGBG "F"FAcA|"Gm"Bdga bgaf|gfdB "F"cBAF|
+"Gm"GFDB, G,B,DF|"Eb"EGBG "F"FAcA|1 "Gm"Bdga bgdB|"F"cBAF "Gm"GFDB,:|2 "Gm"Bdga bagb| "F"agfd"Gm" g2ga|]
+P:B
+"Gm"bgdB GBdg|"F"afcB AGFD|"Eb"EGBd edcB|"D"ABAG ^FEDF|
+"Gm"GFDC B,CDF|"Eb"EGBG "F"FAcA|"Gm"Bdga bagb|"F"agfd "Gm" g2ga|
+"Gm"bgdB GBdg|"F"afcB AGFD|"Eb"EGBd edcB|"D"Ad^fg afdf|
+"Gm"g^fgd BcdB|"F"cBAG FEDF|"Eb"EGBG "F"FAcA|"Gm"BAGF DCB,A,||
+W:
+W: Copyright Linda Relph 1993
+S:https://www.folktunefinder.com/tunes/91999
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Aidans_Reel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://idiot-dog.com/relph/Tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

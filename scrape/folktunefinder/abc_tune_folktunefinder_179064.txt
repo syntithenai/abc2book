@@ -1,0 +1,23 @@
+X:1
+T:Norits Karoon Yegav
+O:Armenia
+N: maqam=G-hijaz nawa; also played in A and D; rhythm=bolero or maqsum
+M:4/4
+K:Gm
+P:A
+|:z2Ged2c2|=B3cd4|dccd=B_AAG|G8:|
+z2defeed|e3de4|z2def2g2|g8|
+P:B
+|:z2g_agff^e|f3=ef4|z2f_agfed|cedc=B_AG2|
+z2defedc|=B3cd4|dccd=B_AAG|G8:|
+S:https://www.folktunefinder.com/tunes/179064
+S:http://www.khafif.com/rhy/abc/Norits_Karoon_Yegav.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

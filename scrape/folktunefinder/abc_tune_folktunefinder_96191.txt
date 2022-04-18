@@ -1,0 +1,30 @@
+X: 40
+T:Sarabrand. TBe.040
+M:3/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:saraband
+O:England
+N:dotted in MS...
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+Bd>e | f>e d | gf>e | d>cB | f g>a | b>ag | g g2 | f3 ||!
+fb>a | g>fe | e/f/ f>e | e3 | g f>e | d>c d/e/ | f g/f/e/d/ |\
+c3 |!
+ f f>f | g>fg/a/ | b a>a | b f>f | g e>e | \
+e>fd | (d/c/) (e/d/) c | B3 ||
+S:https://www.folktunefinder.com/tunes/96191
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Saraband
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

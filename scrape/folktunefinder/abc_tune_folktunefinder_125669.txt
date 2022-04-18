@@ -1,0 +1,24 @@
+X:3
+T:Gold Ring, pt.3
+R:jig
+M:6/8
+L:1/8
+K:G
+E|DBB DBB|DAA DAA|~G3 GBd|cAG FGA|
+DBB DBB|DAA DAA|~G3 GBd|cAF G2:|
+A|~B3 ~D3|~A3 ~D3 |~G3 GBd|cAG FGA|
+~B3 ~D3|~A3 ~D3|~G3 GBd|cAF G2:|
+A|B2G A2G|d2 G G2A|B2G A2G|cAG FGA|
+BAG AGF|GFE FGA|(4.f.gag fed|cAF G2:|
+<abc>
+S:https://www.folktunefinder.com/tunes/125669
+S:http://tomkeays.com/music/wiki/pages/playground/jigs.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

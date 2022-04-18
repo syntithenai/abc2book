@@ -1,0 +1,21 @@
+X:360
+T: Greenwood Lasses
+S: "The Roche Collection of Traditional Irish Music" [I/73/192]
+L: 1/8
+M: 4/4
+R: reel
+K: G
+D |: DGGA BGAG | FDDE FDDC | DGGA BGAG | AdcA AG Gz :|
+Ad (3ddd edcA | ABcB AGFD | Ad (3ddd edcA | ABcA AGGG |
+Ad (3ddd edcA | ABcB AGFD | dBcA BGAG | AdcA AG Gz |]
+S:https://www.folktunefinder.com/tunes/87989
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/g.abc
+S:http://www2.redhawk.org:8080/irish/zouki/g.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

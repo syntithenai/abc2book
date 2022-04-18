@@ -1,0 +1,23 @@
+X:60
+T:Doherty's Fancy
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|G3 BAG|dBG gdB|G3 BAG|AFD cAF|G3 BAG|dBG gdB|efg dBG|cAF G2::
+d|gfg efg|fag fed|gfg efg|agf g2(3(d/e/f/)|gfe dcB|edc BAG|efg dBG|cAF G2:|
+S:https://www.folktunefinder.com/tunes/90047
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

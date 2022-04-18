@@ -1,0 +1,22 @@
+X:15
+T:Slow Troop 3/4
+M:3/4
+L:1/4
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A/>G/|FGA|Afe|dBB|B2 A/>G/|FGA|Ade|fdd|d2A/>G/|FGA|Afe|
+dBB|B2 A/>G/|FGA|Ade|fdd|d2 d/>e/|fdf|a2 f/>d/|fee|e2 d/>e/|fgf|
+ede|fdB|B2 A/>G/|FGA|Afe|dBB|B2 A/>G/|FGA|Ade|fdd|d2||
+S:https://www.folktunefinder.com/tunes/90002
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

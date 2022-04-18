@@ -1,0 +1,27 @@
+X:1
+T:Nelson's Praise
+M:4/4
+L:1/8
+S:Andrew Kuntz <aikuntz@aol.com> tradtunes 2005-7-7
+N:A version of Princess Royal
+N:The measure of 2/4 in the third part is as-written
+B:Bacon - The Morris Ring  (1974)
+K:G
+dc | B2A2G2 dc | B22G2d2 | e2 ed cdec | d2 cB B2d2 |
+c2B2A2G2 | F2E2D2c2 | B2 AG A2F2 | G4G4 || g2g2g2fg |
+a2d2d4 | gfed cBAG | FA D2D4 | E2 EF GFGA | B2G2 g4 |
+g2d2e4 | d2B2c4 | c2B2A2G2 | FGAF D2dc | BABG A2D2 |
+G4 G2 || dc | B4A4 | G4 d2c2 | B4A4 | G4D4 | e4 e2d2 |
+c2d2e2c2 | d4 c2B2 | B3d | c2B2A2G2 | FGAF D2 ed | BABG A2D2 | G4G2 ||
+S:https://www.folktunefinder.com/tunes/178388
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Nelsons_Praise.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/Nelsons_Praise_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

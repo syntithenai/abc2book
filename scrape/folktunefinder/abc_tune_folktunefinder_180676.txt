@@ -1,0 +1,28 @@
+X: 1
+T: \"Ostergyllen
+C: Einar Kindstr\"om
+B: Svenska Folkl\aatar f\"or tv\aa fioler
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: D
+A2 \
+| "D"f3g fefg | a2f2 d2A2 | "G"B3c BABc | "D"dcBA GFED \
+|"A7"C3E A2c2 | e3d cBAG | "D7"FABc defg | a6 A2 |
+| "D"f3g fefg | abaf dedc | "Em"B3A GFED | "G"B,3D GBdB \
+| "D"A3d fafd | "A7"E3A cecA | A,EAc egec | "D"d6 :|
+|: d2 \
+| "G"b3g d2b2 | "D"a4 f2d2 | "G"B3G D2B2 | "D"A4 F2D2 \
+| "G"B,DGB dBGB | "D"DFAd fdAd | "A7"EAce gece | "D"FAdf afga |
+| "G"b3g d2b2 | "D"a4 f2d2 | "G"B3G D2B2 | "D"A4 F2D2 \
+| "G"B,DGB dBGB | "D"FAdf afdf | "A7"gece Acec | "D"d6 :|
+S:https://www.folktunefinder.com/tunes/180676
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Ostergyllen_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

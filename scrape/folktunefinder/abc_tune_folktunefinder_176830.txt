@@ -1,0 +1,21 @@
+X: 1
+T:Morfars Schottis
+R:Schottische
+O:Sweden
+M:4/4
+A:Norrbotten
+K:C
+A,>B,CD E2E2|F2F2 E4|A,>B,CD E2E2|c2c2 A4|\
+A>Bcd e2e2|a2a2 g2B2|B>ggB B>ggB|c>dcB c4:|
+|:\
+g>agf e>fec|d2A2 A4|G2Bd g2g2|g>agf e2c2|\
+g>agf efec|d2AA A4|G2Bd g2Bd|c>dcB c4:|
+S:https://www.folktunefinder.com/tunes/176830
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mo/Morfars_Schottis_1.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

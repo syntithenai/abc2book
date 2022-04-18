@@ -1,0 +1,26 @@
+X: 1
+T: Nyth Y Gog
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Emin
+|: E>F | 
+G>FG>F E2 g>e | d>BA>G F>AG>F | G>FG>A B>^AB>c | d2 A2 A2 B>A |
+G>FG>F E2 g>e | d>BA<G F>AG<F | G>FG>A B>cA>c | (3BcB E2 E2 :|
+|: (3Bcd | 
+e>^de>f e<g (3gfe | d2 B2 B3 A | G>Bd>B G>B (3dcB | (3cdc A2 A3 d |
+e3 d e>gf>e | (3ded B2 B2 (3cBA |  G2 G>A B2 (3ABc | B2 E2 E2- :|
+|: E>G | 
+B>GE>G B>G (3EFG | B>GA<F E2 F>G | A>FD>F A2 (3DEF | (3ABA (3GFE D2 E>F |
+G2 G<F E2 g>e | d>BA<G F>AG<F | G>FG>A B>cA<c | B2 (3EEE E2 :|
+S:https://www.folktunefinder.com/tunes/179305
+S:http://www.thesession.org/tunes/display/6380
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

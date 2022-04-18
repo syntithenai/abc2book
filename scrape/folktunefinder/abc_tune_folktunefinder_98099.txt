@@ -1,0 +1,26 @@
+X:10317
+T:Marchioness of Huntly's favourite jig
+R:Jig
+O:Scotland
+M:6/8
+C:William Marshall
+K:Cm
+G|\
+c2d e2c|d2b fed|c2d e2f|g2E gfe|\
+d2b b=ag|fdB Bcd|e2c {e}dc=B|c3 A2:|
+D|\
+E2C G,2E|FDB, B,2D|C2E D2F|E2G F2A|\
+G2e B2G|FDB, B,2d|{d}e2c {e}dc=B|c3 C2D|
+E2C G,2E|FDB, B,2D|C2c cde|d2B, def|\
+E2g gfe|dcB def|gfe dc=B|c3 C2||
+S:https://www.folktunefinder.com/tunes/98099
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

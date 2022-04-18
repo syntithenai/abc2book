@@ -1,0 +1,42 @@
+X:1
+T:Little Courante                                                                               
+C:Dawn Culbertson                                                                     
+L:1
+K:CM frenchtab
+M:3
+%%tabrhstyle simple
+%%barnumberfont Times-Italic 11 box
+%%wordsfont Times 8
+%1
+[,,,,a,,,,a] [,a,,,,,,a] [,c,,,,,a] [,,,a,,a]||\
+[a,,,,a//] fcb[c,,,c],d|\
+[,cd/],,,,,,a [,cd]|\
+[,db,,a/]>[,db][,db,,a/]|
+%2
+[ec/],,,,,,,,a [ec]|\
+[ca,,,,,a/] f//e [c,,,,,,a],d|\
+[a,,,,,a/]c[,d,,,a]|\
+[1[,c,,c/]>c e,d|1
+%3
+[,c,a/],,,,a ,,,,,,,a:|\
+[,c,,c//] a ,d [,,d,,,,,a]|2\
+[cc/] ,,,,a,,,a\
+|:[,d,c/] [a,,a//]fe,d|
+%5
+[a,,,a/]>c[,cda/]|\
+[,df,,a//]ca/[,df]|\
+[ac,c/],,a,,,c|\
+[e,a/]>a[c,,,,e/]
+%6
+[,c,a/][f,,,,,,,a//]e [,df,,,,a]a|\
+[,cd,,,a/]a [,a,,,,,,,a]|[,df,,a3/2]|\
+[,d,,,,a3/2]|]
+S:https://www.folktunefinder.com/tunes/172412
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Culbertson/courante.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Culbertson/courante.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

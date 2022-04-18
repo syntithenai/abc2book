@@ -1,0 +1,21 @@
+X: 1
+T: Pat And Al's
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+A,A,A, A,2B,|C2E A2c|BAF F2B|A2Bc2e|
+A,A,A, A,2B,|C2E A2c|BAF FEC|1ECB, B,CB,:|2ECB, B,CE||
+AAA A2B|c2e afe|eff f2e|c2e f2a|
+eAA A2B|c2e afe|eff f2a|cBB B2c|
+eAA A2B|c2e afe|eff f2e|c2e f2b|
+aee f2c|eBB Bcc|BAF F2A|CB,B, B,2C||
+S:https://www.folktunefinder.com/tunes/181719
+S:http://www.thesession.org/tunes/display/3206
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

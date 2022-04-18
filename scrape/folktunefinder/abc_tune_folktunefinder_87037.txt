@@ -1,0 +1,38 @@
+X:760
+T: Sleepy Reel (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110% fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] cB|"Am"AEEG "C"cBcd|"Am"eAAB "Am7"AGEG|"C"cdeg "Am"a2 bg|"Em"efge "G"dBcB|
+[V:2] z2|A,,2[A2C2E2]C,2[E2G2C2]|A,,2[A2C2E2]E,,2[A,2C2G2]|C,2[E2G2C2]A,,2[A2E2C2]|\
+E,2[B2E2G2]G,,2[G2D2B2]|
+%
+[V:1] "Am"AEEG "C"cBcd|"Am"eAAB "Am7"AGEG|"Am"eAcA "D"agfd|"Am"cA"G"BG "Am"A2 :|
+[V:2] A,,2[A2E2C2]C,2[C2G2E2]|A,,2[A2C2E2]E,,2[G2C2A2]|\
+A,,2[A2E2C2]D,2[A2D2F2]|[A,2E2C,2][G,,2D2B,2][A,,2E2C2]:|
+%
+[V:1] cd|"Am"eaaf "G"g2 fg|"Em"ebbg "Am"a2 ga|"Em"bage "G"dBGB|"Am"cA"G"BG "Am"ABcd|
+[V:2] z2|A,,2[A2C2E2]G,,2[G2D2B2]|E,2[B2E2G2]A,,2[A2C2E2]|\
+E,2[B2E2G2]G,,2[G2D2B2]|[A,2E2C,2][G,,2D2B,2][A,,4E4C4]|
+%
+[V:1] "Am"eaaf "G"g2 fg|"Em"ebbg "Am"a2 ag|"Am"eAcA "D"agfd|"Am"cA"G"BG "Am"A2 :|
+[V:2] A,,2[A2C2E2]G,,2[G2D2B2]|E,2[B2E2G2]A,2[A2E2C2]|A,,2[A2C2E2]D,2[D2A2F2]|\
+[A,2E2C,2][G,,2D2B,2][A,,2E2C2] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87037
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,16 @@
+X:1
+T:One Dime Blues
+M:4/4
+L:1/8
+K:E
+ c2| e6 ec|c-B B2 B E- E2| B8| z4 z2 B2|c-A A4| EE| =G4 F E- E2| B,8|\
+ z4 z2 c2|c-A A4 AB| =G4| F E- E2| B,8| z4 z2 BB| B B- B4 BB|B-=G G2 E2 E E-|\
+ E8-| E6||
+S:https://www.folktunefinder.com/tunes/180377
+S:http://back.numachi.com:8000/dtrad/abc/ONEDIME.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Maid of the Mill
+M:6/8
+C:
+S:Bacon (BC (RKS MSS) (1925))
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$(A)
+P:A.(AB)4(A)
+%:NoTeX
+%:NoWWW
+K:F
+I:speed 300
+P:A
+|: C      | CFF  FEF  | GFG A2 F | DDD CDE | F3  F2 :|\
+P:B
+|: A/2B/2 | c2 c cBA  | BGA B2 B | GAB cAF | F3  E2 \
+   C      | CFF  FEF  | GFG A2 F | DDD CDE | F3  F2 :|
+S:https://www.folktunefinder.com/tunes/173813
+S:http://www.ucolick.org/~sla/morris/music/Bledington/maidmill.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

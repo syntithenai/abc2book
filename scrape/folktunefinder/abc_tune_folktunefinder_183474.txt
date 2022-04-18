@@ -1,0 +1,80 @@
+X:1
+T:Polska (till Olof Anderssons minne)
+C:Carl-Eric Berndt
+R:Polska
+S:UrSkanskaSpelmansgommor
+O:Lund, Skne
+M: 3/4
+L: 1/8
+Q:1/4=97
+K:C
+V:1
+x6| \
+A2a ecA| \
+A^G/2A/2B/2A/2 ^G/2^F/2E2| \
+A/2c/2e/2c/2A/2c/2 e/2c/2A/2c/2e/2c/2|
+^G/2B/2e/2B/2^G/2B/2 e/2B/2^G/2B/2e/2B/2| \
+A/2c/2e/2c/2A/2c/2 e/2c/2A/2c/2e/2c/2| \
+^G/2B/2e/2B/2^G/2B/2 e/2B/2^G/2B/2e/2B/2| \
+A/2B/2c/2d/2e a/2e/2cA/2B/2|
+c/2B/2A/2^G/2^G2A2| \
+A2a ecA| \
+A^G/2A/2B/2A/2 ^G/2^F/2E2| \
+A/2c/2e/2c/2A/2c/2 e/2c/2A/2c/2e/2c/2|
+^G/2B/2e/2B/2^G/2B/2 e/2B/2^G/2B/2e/2B/2| \
+A/2c/2e/2c/2A/2c/2 e/2c/2A/2c/2e/2c/2| \
+^G/2B/2e/2B/2^G/2B/2 e/2B/2^G/2B/2e/2B/2| \
+A/2B/2c/2d/2e a/2e/2cA/2B/2|
+c/2B/2A/2^G/2^G2A2| \
+A/2B/2c/2d/2e ecc| \
+B/2A/2B/2c/2[dE] [dE][BE][BE]| \
+Aa/2e/2c cAA|
+^g/2^f/2^g/2a/2b b^g^g| \
+A/2B/2c/2d/2e a/2e/2cA/2B/2| \
+c/2B/2A/2^G/2^G2A2| \
+A/2B/2c/2d/2e ecc|
+B/2A/2B/2c/2[dE] [dE][BE][BE]| \
+Aa/2e/2c cAA| \
+^g/2^f/2^g/2a/2b b^g^g| \
+A/2B/2c/2d/2e a/2e/2cA/2B/2|
+c/2B/2A/2^G/2^G2A2|
+V:2
+x6| \
+A,2A ECA,| \
+A,B,/2C/2D B,E/2D/2C/2B,/2| \
+A,E[A2E2]Ac/2A/2|
+E^G[B2E2]B^G| \
+AA/2c/2e eAA| \
+^G/2E/2^G/2B/2[dE] [dE]^G^G| \
+A/2^G/2A/2B/2c e/2c/2AE/2=F/2|
+E/2D/2C/2B,/2[D2B,2][E2C2]| \
+A,2A ECA,| \
+A,B,/2C/2D B,E/2D/2C/2B,/2| \
+A,E[A2E2]Ac/2A/2|
+E^G[B2E2]B^G| \
+AA/2c/2e eAA| \
+^G/2E/2^G/2B/2[dE] [dE]^G^G| \
+A/2^G/2A/2B/2c e/2c/2AE/2F/2|
+E/2D/2C/2B,/2[D2B,2][E2C2]| \
+A/2E/2A/2B/2c2A2| \
+^G/2E/2^G/2A/2B B^G^G| \
+Ae/2c/2A AEE|
+B/2A/2B/2c/2[dF] [dF][BD][BD]| \
+A/2^G/2A/2B/2c e/2c/2AE/2F/2| \
+E/2D/2C/2B,/2[D2B,2][E2C2]| \
+A/2E/2A/2B/2c2A2|
+^G/2E/2^G/2A/2B B^G^G| \
+Ae/2c/2A AEE| \
+B/2A/2B/2c/2[dF] [dF][BD][BD]| \
+A/2^G/2A/2B/2c e/2c/2AE/2F/2|
+E/2D/2C/2B,/2[D2B,2][E2C2]|
+S:https://www.folktunefinder.com/tunes/183474
+S:http://www.folkwiki.se/pub/cache/Polska_till_Olof_Anderssons_minne_45eae5.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

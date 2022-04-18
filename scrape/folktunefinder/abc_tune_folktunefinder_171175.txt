@@ -1,0 +1,25 @@
+X: 1
+T: Lancer's
+M: 12/8
+L: 1/8
+R: slide
+K: Dmaj
+DFA B2 B cBc d3|ABA GAG FGF E3|
+DFA BGB cBc d2 f|edB BAF AFE D2 A,|
+DFA B2 B cBc d3|ABA GAG FGF E3|
+DFA BGB cBc d2 f|edB BAF AFE D3||
+ABA ~f3 efe d3|ABA ~G3 FGF E3|
+ABA ~f3 efe d3|AFA BGB cBc [d3D3]|
+ABA ~f3 efe d3|ABA f2 f g2 f edB|
+AFA ~f3 efe d2 f|edB BAF AFE D2 A,||
+S:https://www.folktunefinder.com/tunes/171175
+S:http://www.thesession.org/tunes/display/4208
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

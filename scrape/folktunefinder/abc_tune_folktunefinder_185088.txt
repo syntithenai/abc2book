@@ -1,0 +1,27 @@
+X:1
+T:Reel du bassin d'Arcachon
+M:C
+L:1/8
+Q:210
+C:(c) Greg Anderson
+R:Reel
+H:The bassin d'Arcachon is a vacation mecca for the French and a center
+H:of oyster culture. It's happy and carefree place to spend a hot
+H:summer day at the beach
+K:G
+DEF|:G2 GA BA GB|ef dB- BB B2|AB AE- EF G2|FD ED- DD EF|
+G2 GA BA GB|ef dB- BB BB|1A^G AB ^cB A=G|F^C ED- DD EF:|
+2A^G AB ^cd fe|d^c de d2 AB||:cB AG FG AF|GA Bd- dd dd|
+cd cA Bc BG|AG FD- DD DD|AG FE DF AF|
+!GD ED- DD DD|EF GA Bd ed|1BF AG- GG AB:|2BF AG- GD EF||
+S:https://www.folktunefinder.com/tunes/185088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/ReelDuBassinDarcachon.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Mackilmoyle's Reel
+C: Arr. J. Lindberg
+R: reel
+M:C|
+K:D
+|: "D"DFAd fdfd | "A"cdec "D"dBAG | "D"DFA=c "G"BGBG | "Em"FGAF "A7"E2FE |
+   "D"DFAd fdfd | "A"cdec "D"dBAG | "D"DFA=c "G"BGBd | "A7"cdec "D"d2d2 :|
+|: "A"cdef gfg2 | "D"Ace^g aga2 | "A"Acef gfge | "G"dfed "A"cBA2 |
+   "A"cdef gfg2 | "D"Ace^g aga2 |\
+[1 "A"Acef gfge | "A7"cdec "D"d2d2 :|[2 "G"b3a "Em"gfed | "A7"cdec "D"d3z |]
+N:From printout - abc by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/173474
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/MackilmoylesReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

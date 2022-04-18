@@ -1,0 +1,25 @@
+X:80
+T: Lord Kitchener's Pipes
+S: M.Mulvihill
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+D | DED DEG | AGE c2 D | DED DEG | cGE D2 D |
+DED DEG | AGE c2 e | dcA AGE | GED D2 :|
+A | d^cd edB | cBc EFG | d^cd edB | edB c2 A |
+d^cd edB | cBc EFG | DED cGE | DED D2 :|
+S:https://www.folktunefinder.com/tunes/89378
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

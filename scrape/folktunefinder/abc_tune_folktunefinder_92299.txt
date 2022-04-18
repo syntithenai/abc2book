@@ -1,0 +1,28 @@
+X:276
+T: Taonan Xiaodiao
+N: C1773
+O: China,Shandong Huangxian
+S: III, 353]
+R: Xiaodiao, Wugeng diao]
+M: 2/4
+L: 1/16
+K: D
+BA | d2edBABd | A2A4
+BA | d2edBABd | A2A6
+F2A2B2AB | d2edB2A2 | A2F2EDEF | A2A6
+F2FAB2AB | d2edB2A2 | F2FABABd | A2ABG2F2
+E2D2E2EF | A2G4F2 | E3GF2E2 | D8
+F3ABABd | A2ABG2F2 | E2D2E2EF | A2G4A2 | E3GF2E2 | D8
+S:https://www.folktunefinder.com/tunes/92299
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, wugeng diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

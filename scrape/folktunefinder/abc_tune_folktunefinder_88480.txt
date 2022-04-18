@@ -1,0 +1,27 @@
+X:1615
+T:Harvest Home
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%RRN:bar 2 of B part is missing.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001259.html
+%%ID:00001259
+K:D
+A2 | \
+DAFA DAFA | defe dcBA | gefd edcd | edcB AGFE |
+DAFA DAFA | defe dcBA | gefd cABc | d2f2 d2 ::
+f2 | \
+eA A/A/A  eA A/A/A  | eAfA gAfA | edcB AGFE |
+DAFA DAFA | defe dcBA | gefd cABc | d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/88480
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

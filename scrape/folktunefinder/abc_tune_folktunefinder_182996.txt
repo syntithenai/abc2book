@@ -1,0 +1,33 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Lungau
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Sing- u. Spielbuch f. d. Schule", K.Lerpinger, K.Schmidt, E. Wuerzl, Verlag f. Jugend u. Volk, Wien
+S:Slg.Eberhard
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+G/A/ |\
+BB BA/B/ | cc ce | d/f/f c/e/e | B/d/d G/F/G/A/ |
+BB BA/B/ | cc ce | d/f/f ef | gG G :|
+K:C
+|: G |\
+G>e dc | dA A/^G/A | BF B>A | AG G/^F/G |
+G>e dc | dA A/^G/A | =G/A/B/c/ de | cec :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182996
+S:http://simonwascher.info/TradArchiv_polka/polka.B2B2B2ABc2c2c2e2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

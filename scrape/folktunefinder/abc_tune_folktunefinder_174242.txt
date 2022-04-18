@@ -1,0 +1,26 @@
+X:3
+T: Marche du Mont Saint-Louis (R-124)
+M: C
+R: march
+K: D
+ABc|"D"d2 "A7"e2 "D"f2 "A7"e2|"D"d4- dA"A"Bc|"D"d>cBA "D#m"BAGF| "A"F2E2- EABc|
+"Em7"e2f2 "A7"g>fed|"Em7"c4- "A7"caaa|"Em7"a2g2 "Aaug"B>c"A"BA|"D"d4- "A"dab>a||
+"D"a4- af"A7"e>d|"D"A4- "A"AF/G/ A/A/B/c/|"D/F#"dd/B/"Fdim"dd/B/"D/F#"dd/B/ "Fdim"d/e/d/B/|"Em"c4- "A7"cab>f|
+"Em7"a4- "A7"age>c|"Em7"A4- "A"AA/A/AA|"Em7"B2g2 "A7"B>cBA|"D"d4- d|
+%%text 3/19/05
+S:https://www.folktunefinder.com/tunes/174242
+S:http://roaringjelly.org/music/sets/Set79A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set79A.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set79A.abc
+S:http://roaringjelly.org/music/march/R124_Marche_du_Mont_Saint_Louis_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/march/R124_Marche_du_Mont_Saint_Louis_D.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/march/R124_Marche_du_Mont_Saint_Louis_D.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

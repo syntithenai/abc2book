@@ -1,0 +1,31 @@
+X:1
+T:Monfermy
+A:Platt
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "Instrumentale Volksmusik aus Tirol", K.Horak, eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:C
+G |\
+c2e c2e | g2e c2e | ddf BBd | cce c2G |\
+c2e c2e | g2e c2e | ddf BBd | cce c2 :|
+|: B/c/ |\
+dBG GAB | cde cde | fed edc | ggg gzG |\
+fef dcd | ede cBc | def GAB | cce c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/176668
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/monfermy.c2ec2eg2ec2eddfBBd.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

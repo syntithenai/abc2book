@@ -1,0 +1,27 @@
+X:016
+U: ~ = !turn!
+%%topmargin 3cm
+T:Boys in the Gap
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+D2 FA d2 dc | A2 GE AEGE | D2 FA dfed | cAGE {/F}EDDE |
+D2 FA d2 dc | A2 GE AEGE | D2 FA dfed | cAGE {/F}ED D2 ::
+f2 fg Pfedf | Pe2 ed edcB | ABcd edcd | ea ((3{/b}aga) ea ((3{/b}aga) |
+f2 fg Pfedf | Pe2 ed edcB | ABcd Pe2 dB | AEGE FD D2 :|]
+S:https://www.folktunefinder.com/tunes/94614
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Boys_in_the_Gap_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Boys_in_the_Gap_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

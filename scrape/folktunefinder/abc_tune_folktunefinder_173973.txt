@@ -1,0 +1,20 @@
+X: 1
+T: Major Graham
+M: 4/4
+L: 1/8
+R: strathspey
+K: Dmaj
+(D>B,)|:A,>B, D<D D2 (d>B)|A<F E>D E2 (E>F)|A,>B, D<D D2 (d>B)|1 A<F E>F D2 (D>B,):|2 A<F E>F D2 (AB/c/)||
+|d>ed>c B>A B<d|A<F E>D E2 (AB/c/)|d>ed>c B<A B<d|A<F E>F D2 (AB/c/)|
+d>ed>c B>A B<d|A<F E>D E2 (E>F)|A,>B, D<D D2 (d>B)|A<F E>F D2||
+S:https://www.folktunefinder.com/tunes/173973
+S:http://www.thesession.org/tunes/display/3883
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

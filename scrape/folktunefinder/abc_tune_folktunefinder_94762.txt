@@ -1,0 +1,31 @@
+X:166
+U: ~ = !turn!
+%%topmargin 3cm
+T:Pipe Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:The Chieftains
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+g | fef ded | cAB c2 A | dcA G{/A}GG | Ade {/g}f2 g |
+{/b}agd g/2f/2ed | cAB cde | dcA G{/A}GG | ABc d2 :|]
+((3ABc) | dfa dfa | dfa {/b}afd | cef Ace | g>gg gfe |
+fdf {/a}gfg | afd efg | fed cAG | ABc d3 |
+dfa dfa | dfa {/b}afd | cef Ace | g>gg gfe |
+fdf {/a}gfg | aga bag | fed cAG | ABc d2 |]
+S:https://www.folktunefinder.com/tunes/94762
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Pipe_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Pipe_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

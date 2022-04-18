@@ -1,0 +1,21 @@
+X: 153
+T: Traditional Jig
+T: Jig, A
+L: 1/8
+M: 6/8
+K: A
+|: cBc Ace| dfa e2d| cBc Ace| dcd B2d| 
+cBc Ace| dfa e2d| cAc B=GB| [1 A3 A2d:| [2 A3 efg|]
+|: aga ecA| dfa efg| aga ecA| 
+[1 dcd Bfg| aga ecA| dfa e2d| cAc B=GB| A3 efg:| 
+[2 dcd B2d| cBc edc| def agf| eac dB=G| A3 A2d|]
+D: Glenn Graham/Rodney MacDonald, Traditionally Rockin', TR1
+S:https://www.folktunefinder.com/tunes/94076
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

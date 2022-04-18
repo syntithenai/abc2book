@@ -1,0 +1,26 @@
+X: 1
+T: An Port Ard
+S: Harry Bradley "As I Carelessly Did Stray..."
+Z: Hiroyuki Yamada
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20040513011247 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Ador
+b|c'ba bag|efg a2b|c'ba b2a|ged e2b|
+c'ba bag|efg agd|edc Bcd|ecB A2:|
+B|c2c d^cd|eda ged|cAB c2d|ed^c ded|
+cAB c2d|eaa efg|edc Bcd|ecB A2:|
+S:https://www.folktunefinder.com/tunes/183558
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/PortArd.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/PortArd.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

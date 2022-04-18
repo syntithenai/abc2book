@@ -1,0 +1,65 @@
+X: 171
+T: Philly-New York Junction
+T: (Star Eyes)
+M: 4/4
+L: 1/8
+C: John Swana & Joe Magnarelli
+Q: 1/4=180
+S: Thomas Fryland Quintet - "Embracing the sky"
+%%staves {(chords trumpet) sax}
+K: Eb
+%%text (medium/up)
+P: A
+V: chords
+"Ebmaj7"x4 x4 | "Fm7"x4 "Bb7"x4 | "Ebmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 |
+"Dbmaj7"x4 x4 | "Gm7b5"x4 "C7"x4 | "Fmaj7"x4 x4 | "Fm7b5"x4 "Bb7"x4 ||
+V: trumpet
+GE2A GEB,2 | CDEF zGAB- | B8- | B4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | _d2dd _cdz2 ||
+V: sax
+GE2A GEB,2 | CDEF zGAB- | BB,CD FE D/E/D/C/ | _D4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | B2BB ABz2 ||
+P: A
+V: chords
+"Ebmaj7"x4 x4 | "Fm7"x4 "Bb7"x4 | "Ebmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 |
+"Dbmaj7"x4 x4 | "Gm7b5"x4 "C7"x4 | "Fmaj7"x4 x4 | "Bbm7"x4 "Eb7"x4 ||
+V: trumpet
+zGEA GEB,2 | CDEF zGAB- | B8- | B4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | cBzA G2CE- ||
+V: sax
+zGEA GEB,2 | CDEF zGAB- | BB,CD FE D/E/D/C/ | _D4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | cBzA G2CE- ||
+P: B
+V: chords
+"Abmaj7"x4 x4 | x4 x4 | "Abm7"x4 x4 | "Db7"x4 x4 |
+"Gbmaj7"x4 x4 | x4 x4 | "Fm7b5"x4 x4 | "Bb7"x4 x4 ||
+V: trumpet
+E2z2 zEAe | zc3 ABz2 | z4 zEAe | z_c3 ABz2 |
+z4 z_D_G_d | zB3 _GAz2 | zA, (3CEG FBzB, | (3D^FB A=e- e2z2 ||
+V: sax
+EFGE- E4- | E2z2 zC_DE- | EF_GE- E4- | E2z2 zB,_C_D- |
+DEF_D- D4- | D2x2 x4 | zA, (3CEG FAzB, | (3D^FB Ad- d2z2 ||
+P: A
+V: chords
+"Ebmaj7"x4 x4 | "Fm7"x4 "Bb7"x4 | "Ebmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 |
+"Dbmaj7"x4 x4 | "Gm7b5"x4 "C7"x4 | "Fmaj7"x4 x4 | "Fm7b5"x4 "Bb7"x4 ||
+"Eb6"x4 "D7"x4 | "Db7"x4 "C7"x4 | x4 "Bb7"x4 | "Eb6"x4 x4 |]
+V: trumpet
+GE2A GEB,2 | CDEF zGAB- | B8- | B4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | _d2dd _cAz2 ||
+zfcG ^F=B=ed | _e_B=FE =E=Ad_d | cAFC _c/_d/c/=A/ BG | z8 |]
+V: sax
+GE2A GEB,2 | CDEF zGAB- | BB,CD FE D/E/D/C/ | _D4 cB__BA |
+zF3- F2z2 | zG,CF =DGc=A- | A3=E- E2z2 | B2BB A=Ez2 ||
+zGcf =e=B_G=E | FBe^c d=A_B,__B, | A,B,CE A/B/A/^F/ GE | z8 |]
+S:https://www.folktunefinder.com/tunes/87672
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

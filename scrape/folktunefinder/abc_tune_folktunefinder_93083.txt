@@ -1,0 +1,26 @@
+X: 2082
+T: Hazel Bush
+R: slip jig
+C: Rick Gagne
+N: 2000 on whistle
+N: F# phrygian mode has same notes as D major
+M: 9/8
+K: F#phr
+"D"F2F A2F A2F | "F#m"c2f c2A F2A | "G"G2G B2G B2G | "A"A2B c2d edc | 
+"D"F2F A2F A2F | "F#m"c2f c2A F2A | "G"G2G B2G B2d |1 "A"cBA "G"B2c "D"fcA :|\
+[2 "A"cBA "G"B2c "D"f3 ||
+"D"a2f "Em"efg "F#m"f2c | f2e "C#m"cde "F#m"f2c | f2e "C#m"cde "F#m"fgf |\
+"A5"efe "G"dcB "D"A2F | 
+a2f "Em"efg "F#m"f2c | f2e "C#m"cde "F#m"f2c | fgf "C#m"efg "F#m"fec |\
+[1 "C#m"cdc Bce "F#m"f3 :|2 "C#m"cdc Bce "F#m"fcA ||
+S:https://www.folktunefinder.com/tunes/93083
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

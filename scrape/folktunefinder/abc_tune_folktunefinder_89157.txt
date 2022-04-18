@@ -1,0 +1,25 @@
+X:265
+T: Fergus Keane's
+C: F.Keane
+Z: B.Black
+Q: 250
+L: 1/8
+M: 2/4
+R: polka
+K: D
+DF A>B|AF ED|DF A>B|AF E2|
+DF A>B|AF ED|f>e dB|AF ED :|
+f>e dB|AF AB|f>e dB|AF E2|
+f>e dB|AF AB/c/|dB AF|ED D2 :|
+S:https://www.folktunefinder.com/tunes/89157
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

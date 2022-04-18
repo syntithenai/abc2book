@@ -1,0 +1,28 @@
+X:620
+T:the Whisker
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+N:(photocopy pages turn upside down starting here)
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e4b.html
+%%ID:00000e4b
+K:G
+g |\
+(dBG) g | ecA a | fdef | (a/g/f/e/) dg |\
+(dBG) g | ecA a | fdef | g2 z ||
+(B/c/) |\
+.d.d.d (B/c/) | .d.d.dd | ecAF | G/F/G/A/ GB/c/ |\
+.d.d.d  B/c/  | .d.d.dd | ecAF | G2 z::
+%page:72
+S:https://www.folktunefinder.com/tunes/95755
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

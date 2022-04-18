@@ -1,0 +1,28 @@
+X:70
+T: Morning Mist
+S: M.Mulvihill
+Z: B.Black
+N:  composed by Joe Burke
+R: reel
+M: 4/4
+L: 1/8
+K: Gmix
+Bc | d2 BG dGBG | d2 BG DGBd | c2 AF cFAF |\
+c2 AF CFAc |
+d2 BG dGBG | d2 BG DGBd | c2 AB cedc | BGA^F G2 :|
+Bd | g2 dc Bd (3ded | BG (3G^FG DGBd | ageg abag |\
+^fdad bdad |
+gedc Bd (3ded | BG (3G^FG DGBd | c2 AB cedc |\
+BGA^F G2 :|
+S:https://www.folktunefinder.com/tunes/93682
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

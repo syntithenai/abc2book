@@ -1,0 +1,25 @@
+X:1
+T:The Old Woman of the North Countree
+M:6/8
+L:1/8
+K:C
+ F| GGG GFG| F2 D D3| d2- A^c-d e|
+M:3/8
+ d2 d|
+M:6/8
+ fdd dcd|A-G F| F| F2 F FGA| G2 F D3|
+M:3/8
+ d2 c|
+M:6/8
+ dcd AGF| GAG D2 F| G3- G2||
+S:https://www.folktunefinder.com/tunes/180260
+S:http://sniff.numachi.com/abc/B10_71.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/B10_71.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

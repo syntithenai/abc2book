@@ -1,0 +1,22 @@
+X:59
+T:How Are You, Kitty
+C:Played by V.C.A.
+M:6/8
+L:1/8
+K:Amix
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(A/F/)|EAA cAA|eAA cAA|EAA cBA|dBB B2c|A3 cAA|eAA cBA|EFA Bcd cAA A2::
+(c/e/)|a3 gfe|cef ecA|EAA cBA|dBB Bce|a3 gfe|c2f ecA|EFA Bcd|cAA A2::
+(c/e/)|e2(a/e/) c2(e/c/)|A2(c/A/) E2z|A3 cBA|cBB B2(c/d/)|e2(a/e/) c2(e/c/)|A2 (c/a/)E2z|A3 Bcd|cAA A2:|
+S:https://www.folktunefinder.com/tunes/90046
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

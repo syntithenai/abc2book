@@ -1,0 +1,27 @@
+X:100
+T:Casseys Jig
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:Irish
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001a4.html
+%%ID:000001a4
+K:G
+"Not too fast" c3 B3| AGA BGE| DEG (G/A/B).G| "tr"AGA BGE|\
+cec BdB| AGA BGE|
+DEG AGA| BGG G3::\
+g3 edc| Bdg dBG| g2e dBG| ecA A2d|
+(ge/f/g/).e/ (fd/e/f/).d/| ecg dBG| DEG AGA| "tr"BGG G3::\
+(GB).d (GB).d| (Gc).e (Gc).e|
+(GB).d (GB).d| ecA "tr"A3|\
+(GB).d (GB).d| (Gc).e (ef).g| DEG "tr"A>GA| BGG G3:|
+S:https://www.folktunefinder.com/tunes/95326
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

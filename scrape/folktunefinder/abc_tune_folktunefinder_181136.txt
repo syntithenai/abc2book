@@ -1,0 +1,24 @@
+X: 1
+T:Paddy Fahy's Jig
+M:6/8
+L:1/8
+S:LNugent W-Gap Trk-1
+R:Slow Jig
+Z:Ed Wosika
+K:G
+A| DFA d2e| dcA  G3| AFE c2A| dcA (3FGA F|
+   DFA d2e| dcA  G3| Adc AGE| EDD D2:|
+A| DFA fed| cAG A2B| c2B edc| (3ABc A G3|
+   A2d fed| cAG EFG| Adc AGE| EDD D2:|
+S:https://www.folktunefinder.com/tunes/181136
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Paddy_Fahys_Jig_1.abc
+% Rhythm Slow jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:580
+T: Yueliang yueguangguang
+N: C2001
+O: China,Fujian Jinjiang
+S: II, 579]
+N: With a transposition
+R: Xiaodiao, Erge, Shishierge]
+M: 2/4
+L: 1/16
+K: F
+A2A2c2A2 | F2F2A2z2
+A2A2c2A2 | F2F2A2z2
+F2F2A2z2
+F2F2A2z2
+C2G2C2_E2 | _E2z2
+C2E2C2C2 | _E2z2
+E2G2G2F2 | G2C2G2z2
+F2G2C2_E2 | C2C2_E2z2
+F2E2F2E2 | _E2z2
+F2G2F2E2 | _E2z2
+F2G2G2E2 | C2_E2E2z2
+F2G2F2G2 | G2_E2E2z2
+F2F2F2C2 | G2C2_E2z2
+F2C2C2E2 | F2C2F2z2
+C2F2C2_E2 | F2C2_E2z2
+F2C2F2F2 | F2C2F2z2
+F2_E2F2E2 | _E4F4 | G4z4
+F2C2F2C2 | C2_E2F2z2
+C2F2E2C2 | F2G2G2G2 | G2z2
+G2C2C2F2 | _E2z2
+C2F2F2z2 | C2F2F2z2
+F2C2C2F2 | F2C2F2C2 | F2_E2F2C2 | F2z2
+S:https://www.folktunefinder.com/tunes/92603
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, erge, shishierge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

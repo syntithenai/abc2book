@@ -1,0 +1,28 @@
+X: 190
+T: Somebody loves me
+M: 4/4
+L: 1/4
+C: George Gershwin, B.G.DeSylvia &
+C: Ballard MacDonald
+Q: 1/4=190
+%%staves (chords melody)
+K: F
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "Bb7"x2 x2 |
+"F6"x2 x2 | "Bb7"x2 "Gm7"x"C7"x | "F6"x2 x2 | "T.A."x2 x2 ||
+V: melody
+C2 DE | F2 G2 | zA AF | _A4 |
+S:https://www.folktunefinder.com/tunes/87691
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 17
+T:Bass Minuet. TBe.017
+M:3/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:Minuett
+O:England
+N:This is titled "Bass Minuet" but is written in the treble clef and it
+N:is not clear to which, if any of the minuet, this is the bass.
+H:1718
+Z:vmp.C. Graebe..
+K:F major
+C | F/E/F/G/ F | C F2 | GAB | A d/c/ d |\
+ c F2 | B B,A, | G,GE | F3 ||!
+c | f/e/f/g/f/g/ | ea2 | d b/a/ b | g c'2 |\
+ dbd | ca2 | d g/f/g/e/ f3 ||
+S:https://www.folktunefinder.com/tunes/96168
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

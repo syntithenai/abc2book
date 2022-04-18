@@ -1,0 +1,29 @@
+X:1
+T:Polka
+R:polka
+A:France 
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Adele Frost, Muenchen
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+B/c/ |\
+dB BA/B/ | cE E2 | eF eF | G/A/B/c/ dB/c/ |
+dB BA/B/ | cE E2 | eF eF | GB G2 :|
+|:\
+D/E/F/G/ A/G/F/E/ | Dc c2 | D/E/F/G/ A/G/F/E/ | DB B2 |
+D/E/F/G/ A/G/F/E/ | Dc c2 | D/E/F/G/ A/G/F/E/ | DB G2 :|
+S:https://www.folktunefinder.com/tunes/182993
+S:http://simonwascher.info/TradArchiv_polka/polka.D2GBd2d2E2Gce2e2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

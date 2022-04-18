@@ -1,0 +1,35 @@
+X: 1
+T: OLD TOM OF OXFORD
+S: EDS 1951
+O: Bampton
+P: A.AB.(CB)2
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+Bc | d2ef g2d2 | c2B2 A2BA | G2Bc d2g2 | f2g2 a2gf |
+     d2ef g2d2 | c2B2 A2ef | g2d2 c2B2 | A4   G2  ||
+P: B
+dc | Bcd2 B2d2 | B2d2 gfed | c2e2 c2e2 | c2e2 gfed |
+     B2d2 B2c2 | d2ef g2f2 | g2d2 c2B2 | A4   G4  ||
+P: C
+[M:2/4]B2c2 |\
+[M:4/4]d4   e2f2 | g4   d4   | c4   B4   | A6 BA |
+       G4   B2c2 | d4   g4   | f4   g4   |[M:3/4]a4 fe |
+[M:4/4]d2ef g2d2 | c2B2 A2ef | g2d2 c2B2 | A4 G2 ||
+S:https://www.folktunefinder.com/tunes/180228
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Old_Tom_of_Oxford_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Polska efter Byss-Kalle (nr 6)
+S: efter Byss-Kalle
+B: 57 ltar efter Byss-Kalle nr 6
+N: Uppteckningen r ursprungligen hmtad ur Ruben Liljefors bok Uplndsk Folkmusik.
+O: Uppland
+R: Slngpolska
+D: Skivan "Byss-Calle" med Nyckelharporkestern utgiven p Drone, spr 5
+M: 3/4
+K: D
+L: 1/16
+A4 | !tenuto!d4 !tenuto!d4 (cA)ce | d2d2 B4 (AB)cd | {/c}!tenuto![A4e4] !tenuto![A4e4] (dc)df | e2e2 c4 A4 |
+A2f2 f4 (dc)de | d2d2 c4 B4 | B2g2 g2e2 e2d2 | (cd)ec A2A2 (BA)Bc | c2d2 d4 :| 
+|: A4 | d2f2 f2d2 d2ef | (gf)ef g2e2 (fe)fg | a2f2 f2d2 d2ef |
+g2e2 e2c2 c2A2 | d2f2 f2d2 d2ef | (gf)ef g2e2 (fe)fg | a2f2 d2b2 g2e2 | (dc)Bc [D4d4] :|
+S:https://www.folktunefinder.com/tunes/183271
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_ByssKalle_nr_6_085515.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

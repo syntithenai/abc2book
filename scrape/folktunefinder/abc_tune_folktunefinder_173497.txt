@@ -1,0 +1,18 @@
+X:1
+T:MacPherson's Lament
+M:4/4
+L:1/8
+K:E
+ B,2| E3 F G2F-E|F-EF-G F3 B,| E3 F G2F-E| C6 B,2| E3 F G2F-E|F-EF-G F3 B,|\
+ E3 GF-E C2| B,6||G-A| B3 GA-GF-E| G2 F2 F2 GA| B3 GA-GF-E| C6 c2|\
+ B3 GA-G FE| G2 F2 F3 B,| E3 GF-E C2| B,6 z2|
+S:https://www.folktunefinder.com/tunes/173497
+S:http://back.numachi.com:8000/dtrad/abc/MACPHER.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

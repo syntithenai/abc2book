@@ -1,0 +1,27 @@
+X: 1
+T: THE MORRIS REEL (SOLDIER'S JOY)
+S: CJS(MSS)
+O: Headington
+P: A.(A2B2)4.A
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+Bc |\
+dBGB dBGB | d2g2 g2e2 | dBGB dBGB       | c2A2 A2Bc |
+dBGB dBGB | d2g2 g2e2 | dBGB cA[dF][FD] | G2G2 G2  ||
+P: B
+|: dc |\
+BGDG BdcB | AF[dE]F A[dB]cA | BGDG BdcB | AGFe      dcBA   |
+BGDG BdcB | AFdF    AdcA    | BdBG cAdF | G2[g2G2] [g2G2] :|
+S:https://www.folktunefinder.com/tunes/177040
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Morris_Reel_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

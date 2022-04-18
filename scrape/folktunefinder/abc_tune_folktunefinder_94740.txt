@@ -1,0 +1,30 @@
+X:144
+U: ~ = !turn!
+%%topmargin 3cm
+T:New Policeman
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Seamus Tansey
+R:Reel
+L:1/8
+M:C|
+K:D
+DA, ~A,2 DEFA | defe dB PB2 | BAFA AB{/c}BA | FEDE FE E2 |
+DA, ~A,2 DEFA | defe dB PB2 | ~d2 B ABdB | AFEG FE D2 ::
+~a3 b afdf | ((3gfe) fd cd e2 | ((3gbg) ef gbag | Pf2 gf e2 |
+dB ~B2 AF ~F2 | DF ~F2 ABde | Pf2 ec dBAF | GFEG FE D2 :|]
+S:https://www.folktunefinder.com/tunes/94740
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/New_Policeman_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/New_Policeman_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

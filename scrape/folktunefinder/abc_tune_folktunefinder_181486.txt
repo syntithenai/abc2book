@@ -1,0 +1,27 @@
+X: 1
+T: Padstow May Song
+O: Trad
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: For Mayday rituals.
+M: 2/4
+L: 1/8
+K: G
+P: Fast
+D \
+| "G"D2 "D7"EF | "G"G2 "D7"A2 | "G"G>F GF | G2 DD | "C"EE "D7"FF | "G"G2 DB, | "D7"A,3 F |
+| ED GA | "G"G2 "D7"FD | "G"G>D GA | d2 cB | "C"AB c2 | "D7"B2 AF | "G"G4- | G2 z2 :|
+P: Slow
+M: 3/4
+L: 1/4
+|: D | "G"GGG | G2D | GAB | "D7"A2B | "C"EFG | "(Am)"AHE ","A | "D7"ABc | BAF | "G"G2 |]
+S:https://www.folktunefinder.com/tunes/181486
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/PadstowMaySong_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

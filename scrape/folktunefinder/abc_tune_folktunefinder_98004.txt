@@ -1,0 +1,33 @@
+X:10222
+T:Manolillo (MQ 050)
+R:Danza
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza que recog de los grupos del Centro Asturiano de Madrid.
+A:Asturies
+Z:Manolo Quirs 050
+M:3/8
+L:1/8
+Q:3/8=76
+K:C
+|C2 C/C/|CDE|F3|F3|F>FF|FFF|E3|E3|
+EFF|DEE|C3|B,3|EFF|DEE|D3|C3|
+EFF|DEE|C3|B,3|EFF|DEE|D3|C3|C2 E|
+GGG|A2 A|G3|A2 G|FGA|G2 F|E3|C2 E|
+GGG|A2 A|G3|A2 G|FGA|G2 (3F/E/D/|E3|
+DEF|G3|GAG|FED|C3|EDC|B,2 D|FED|C3|
+EDC|B,2 D|FEF|G(3E/F/E/D|C3|
+S:https://www.folktunefinder.com/tunes/98004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Danza
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

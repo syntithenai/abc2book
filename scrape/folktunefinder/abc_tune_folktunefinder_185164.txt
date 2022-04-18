@@ -1,0 +1,32 @@
+X: 1
+T: the Reel O'Tulloch
+T: Ridhle Thulichun
+B: RSCDS 3-12
+N: Published by Bremner 1757 and earlier
+N: John Macgregor
+N: H&C 116
+N: SV p.25 (lots of variations)
+N: Hunter 250
+N: SFT p.16
+N: Robert  Bremner's Collection 1757
+N: Skye p.3
+N: Holland p.40
+N: BSFC XI-9
+D: John Martin on Tannahill Weavers Cullen Bay CD
+D: Carl McKenzie on Tradition tape
+K:AMix
+|: f \
+| "A"e2 Ac/d/ ec A{g}a | {f}e2 AB/c/ "G"dB GB \
+| "A"{f}e2 Ac/d/ eA cA | "G"BG c/d/e dB G :|
+|: B \
+| "A"cA c/d/e cA AB | cA c/d/e "G"dB GB \
+| "A"cA c/d/e cA cA | "G"BG c/d/e dB G :|
+S:https://www.folktunefinder.com/tunes/185164
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/ReelOTullochR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/ReelOTullochR.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

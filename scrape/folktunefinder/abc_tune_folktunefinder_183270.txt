@@ -1,0 +1,21 @@
+X:1
+T:Polska efter Byss-Kalle (nr 6)
+R:Polska
+Z:2007-12-14, hmtad frn hftet "57 lter efter Byss-Kalle" utgivet av Uplands Spelmansfrbund (dr det ven finns en andrastmma)
+O:efter Byss-Kalle, Uppland
+M:3/4
+L:1/16
+K:D
+A4 | !tenuto!d4 {de}!tenuto!d4 (cA)ce  | d2d2 B4 (AB)cd | {\c2} !tenuto![A4e4] !tenuto![A4e4] (dc)df | e2e2 {cB}c4 A4 | 
+     A2f2 f4 (dc)de | d2d2 c4 B4 | B2g2 g2e2 e2d2 | (cd)ec A2A2 (BA)Bc | c2d2 d4 :| 
+A4 | d2f2 f2d2 d2ef | (gf)ef g2e2 (fe)fg | a2f2 f2d2 d2ef | g2e2 e2c2 c2A2 | 
+     d2f2 f2d2 d2ef | (gf)ef g2e2 (fe)fg | a2f2 d2b2 g2e2 | (dc)Bc [d4D4] :|
+S:https://www.folktunefinder.com/tunes/183270
+S:http://www.folkwiki.se/pub/cache/Polska_efter_ByssKalle_nr_6_a09031.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:2
+T:Mrs McLeod of Raasay
+M:C|
+L:1/8
+K:A Mixolydian
+[V:1] A2a2 fefa|c2cB c2cB|A2a2 fefa|B2BA BdcB |
+[V:2] E4   AcAc|A4   E4  |E4   AcAc|G2E2 G2AG |
+%
+[V:1] A2a2 fefa|c2cB c2ce|f2fe f2ef|afec B2cB:|
+[V:2] E4   AcAc|A4   E4  |D3 E D2ED|D2A2 E3 D:|
+%
+[V:1] AAcd ecAB|eccB c2cB|A2cA eAcA|B2BA BdcB |
+[V:2] EAAB AEEG|AEEG A3 G|EAAE EAAE|G2E2 G2AG |
+%
+[V:1] AAcd ecAB|eccB c2ce|f2fe f2ef|afec B2cB:|
+[V:2] EAAB AEEG|AEEG A3 B|D3 E D2ED|D2A2 E3 D:|
+S:https://www.folktunefinder.com/tunes/175143
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg05260.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

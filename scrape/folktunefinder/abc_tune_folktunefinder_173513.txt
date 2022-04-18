@@ -1,0 +1,22 @@
+X: 1
+T: Mad
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: B,CD B,CD | B,CD ECE | B,CD B,CD | BAG ECE |
+B,CD B,CD | B,CD ECE | B,CD B,CD | BAG EDC :|
+|: Ddd AFD | DBc ECE | Ddd B2B | GFG ECE|
+Ddd AFD | DBc ECE | Ddd B2B | GFG ECE :|
+|: Daa afd | efg ge^c | daa afd | gfg efg |
+agf gfe | fed e/2f/2ed | ^cec BdB | ABA GEC :|
+S:https://www.folktunefinder.com/tunes/173513
+S:http://www.thesession.org/tunes/display/1998
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

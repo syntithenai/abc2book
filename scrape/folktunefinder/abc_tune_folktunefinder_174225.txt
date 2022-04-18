@@ -1,0 +1,23 @@
+X: 071
+T: le marchand de smyrne
+C: trad
+M: 4/4
+L: 1/8
+R: schottische
+K: Cmaj
+|:G2G2 c2c2|c2Bc d2d2|e2dc BcdB|c2e2 f2e2|
+|G2G2 c2c2|c2Bc d2d2|e2dc BcdB|1 c4 c4:||2 c2e2 c4||
+|:f2f2 defd|B2d2 G2AB|c2Bc d2cd|e2fe d4|
+|f2f2 defd|B2d2 G2AB|c2e2 G2AB|cdcB c4:||
+|:g2g2 e4|f2f2 d4|e2e2 d2c2|BcdB G4|
+|g2g2 e4|f2f2 d4|G2c2 edcB|c4 c4:||
+S:https://www.folktunefinder.com/tunes/174225
+S:http://www.boombaltunes.be/tunes/abc/sc-smyrne.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

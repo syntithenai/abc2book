@@ -1,0 +1,31 @@
+X:10302
+T:Marcha Procesional de Balmonte (XA 09)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:Balmonte de Miranda
+A:Asturies
+Z:Mtodu de Xuacu Amieva 09
+M:6/8
+L:1/8
+Q:3/8=70
+K:C
+|: E5 C|B,2 C D2 E|F3 FGF|
+|E5 C|B,2 C D2 E|[1 C3 G3 :|[2 C3 GAB|
+|: c3 G3|G3 GAG|G3 F3|E3 GAG|G3 F3|
+|E3 GAG|F3 E3|D3 ABA|G3 F3|E3 GAG|
+|F3 E3|D3 (4A-ABA|(4G-GEG (4FEDE|C6 :|
+S:https://www.folktunefinder.com/tunes/98084
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Reel du Pere Carignan
+R: reel
+M:C|
+K:D
+|: "D"fafd "G"g3g | "D"fafd A2FA | "A7"dcBA G-B3 | ABAG F-A3 |
+   "D"fafd "G"g3g | "D"fafd A2FA | "A7"cdef gecA |\
+[1 "A7"dfec "D"d2g2 :|[2 "A7"dfec "D"dAAG ||
+|: "D"ABAF DFAd | "G"BdBG ABcd | "A7" efec Aceg | fafd A3G |
+   "D"ABAF DFAd | "G"BdBG ABcd | "A7" efec Acef |\
+[1  "A7"gecA "D"d2AG :|[2 "A7"gecA "D"d2e2 |]
+N:From printout - abc by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/185103
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/ReelDuPereCarignan.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

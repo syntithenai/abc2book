@@ -1,0 +1,53 @@
+X:317
+T:Melodie
+T:(Melody) Op. 68 no. 1
+C:Robert Schumann
+O:Germany
+B:Schumann: "Album for the young" no. 1
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schumann-robert/schm068-01/schm068-01-pno1.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:C
+L:1/8
+K:C
+V:1
+"^Moderato semplice""_p"(e2d2c2B2|AcBdc2G2)|(g2f2e2c2|B2[^F2A2]G2) z2:|
+V:2
+(CGFG EGCE|FDGF EFED)|(EGDG CGEG| DGCD B,DG,2):|
+%
+V:1
+"_poco cresc."(Ld2c2B2)z2|(Lf2e2d2)z2|"_dim."(La2g2f2e2|dfeg [Af-][cf-][Bf]d)|
+V:2
+(FGEG DG^FG)|(DGCG B,G^FG)|(=FGEG DGCG|B,GC^CD2G2)|
+%
+V:1
+"_p"([c2e2]d2c2B2|AcBdc2G2)|(a2g2[B2f2][c2e2]|dfBdc2) z2|
+V:2
+(CGFG EGCE|FDGF EFEC)|(FcEc DGCG|FAGF EGCE)|
+%
+V:1
+"_poco cresc."(Ld2c2B2)z2|(Lf2e2d2)z2|"_dim."(La2g2f2e2|dfeg [Af-][cf-][Bf]d)|
+V:2
+(FGEG DG^FG)|(DGCG B,G^FG)|(=FGEG DGCG|B,GC^CD2G2)|
+%
+V:1
+"_p"([c2e2]d2c2B2|AcBdc2G2)|(a2g2[B2f2][c2e2]|dfBdc2) z2|]
+V:2
+(CGFG EGCE|FDGF EFEC)|(FcEc DGCG|FAGF EGC2)|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175250
+S:http://abc.musicaviva.com/tunes/schumann-robert/schm068-01/schm068-01-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schumann-robert/schm068-01/schm068-01-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schumann-robert/schm068-01/schm068-01-pno1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

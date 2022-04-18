@@ -1,0 +1,26 @@
+X: 143
+T: Saint Raymond's (h'pipe)
+N: 190039
+C: BB
+R: hornpipe
+Q: 1/8=330
+M: C|
+L: 1/8
+K: D
+"D"DEFG A2 d2|"G"BGBc "D"dA F2|"D"DEFG A2 d2|"Bm"BABd "A"e4|
+"D"fddf "G"gBBg|"A"acca "Bm"bafe|"D"f2 df "Bm"cfBf|"A7"AGEC "D"D4 :|
+"D"fefg "Bm"fB (3B^AB|"G"d2 "A"e2 "D"f2 a2|"Em"eB (3B^AB "D"=AF (3F^EF|\
+"G"GABd "A"e4|
+"D"fefg "Bm"fB (3B^AB|"A"abag "D"fd (3dcd|"D"DEFA "G"GdcB|"A7"AGEC "D"D4 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86809
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

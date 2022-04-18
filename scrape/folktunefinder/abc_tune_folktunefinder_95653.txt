@@ -1,0 +1,25 @@
+X:110
+T:the Bucket
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:9/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005fa.html
+%%ID:000005fa
+K:G
+c|\
+Bcd dBG G2d | (e/f/g)e dBG G2c |\
+Bcd dBG G2B | ABA AFD D2 ::
+c|\
+c2B EFE E2c | B2E EFE D2c |\
+B2E EFE EFG | ABA AFD D2 ::
+S:https://www.folktunefinder.com/tunes/95653
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:My Mither is Aye Glowren O'er Me
+C:Traditional
+R:jig
+G:fiddle jig, early 18th cent.
+S:The Gow Collection of Scottish Dance Music
+M:6/8
+Q:3/8=120
+K:G aeolean
+%%MIDI gchord cccccc
+D|"Gm"GAG ^F2D|"Bb"BcB ABc|"Gm"ded c2B|"Adim"f3 d2g|"Bb"fdB Bfd|\
+  "Adim"cAF Fdc|
+"Gm"BAG "Dm"AFD| "Bb"B3 "Adim"A2:| d| "Gm"gag ^f2d| "Gm"gab a2g|\
+        "Bb"fdb c2B| "Adim"f3 gab|
+"Bb"fdB Bfd| "Adim"cAF Fdc| "Gm"BAG "Dm"AFD| "Bb"B3 "Adim"A2:|
+S:https://www.folktunefinder.com/tunes/178078
+S:http://ale.physics.sunysb.edu/~mcgrew/music/jig/MyMitherIsAyeGlowrenOerMe.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

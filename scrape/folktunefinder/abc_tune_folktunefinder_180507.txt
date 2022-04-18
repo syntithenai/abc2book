@@ -1,0 +1,80 @@
+X:4311
+T:Scherzo
+T:Op.55 nr. 1
+C:Ignaz Moscheles
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/moscheles-ignaz/moscheles-op55-01.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:3/4
+L:1/8
+Q:1/4=180
+K:C
+V:1
+e2e2e2|efeae2|efeae2|efeae2|
+V:2
+z6|[A,6C6E6]|[A,6C6E6]|[A,6C6E6]|
+%
+V:1
+e2fedc|B2B2B2|cdcBAc|B6|e2e2e2|
+V:2
+z6|[E,6^G,6]|[E,6A,6]|[E,6^G,6]|z6|
+%
+V:1
+efeae2|efeae2|efeae2|e2cdef|g2g2g2|
+V:2
+[A,6C6E6]|[A,6C6E6]|[A,6C6E6]|z6|[G,6C6E6]|
+%
+V:1
+g2fefd|c6::e2e2e2|efebe2|e2e2e2|
+V:2
+[G,6B,6D6]|[C6E6]::z6|[^G,6B,6E6]|z6|
+%
+V:1
+efec'e2|e'2d'c'ba|^g2ag^fg|a2=g=fe^d|e6|
+V:2
+[A,6C6E6]|z6|[B,6D6]|[A,6C6]|[E,6^G,6B,6]|
+%
+V:1
+e2e2e2|fedcB2|B2B2B2|edcBA2|cBAGFE|
+V:2
+z6|[D,6^G,6]|z6|[C,6A,6]|z6|
+%
+V:1
+D2D2D2|D2EDCD|E6|E2E2E2|E^FE^cA2|
+V:2
+[F,6A,6]|[F,6A,6]|[E,6^G,6]|z6|[A,,6^C,6E,6]|
+%
+V:1
+E2E2E2|ed^cdB2|E2E2E2|d^cBcA2|d^cBcA2|
+V:2
+z6|[^G,,6B,,6E,6]|z6|[=G,,6A,,6E,6]|[G,6A,6]|
+%
+V:1
+a6|a2a2a2|ag=fed2|a2a2a2|a^gaec2|
+V:2
+[^F,6A,6D6]|z6|z6|z6|[E,6A,6C6]|
+%
+V:1
+c2c2c2|BfedcB|A2^GABG|A2efea|^g2e2g2|
+V:2
+z6|[D,6F,6B,6]|[E,4C4][E,2B,2]|[A,2C2]z2z2|[E,6B,6D6]|
+%
+V:1
+a2efea|^g2e2g2|a2e2c'2|[1a2z2e2:|[2a2z2z2|]
+V:2
+[A,2C2]z2z2|[E,6B,6D6]|[A,2C2][A,2C2][A,2C2]|[1[A,2C2]z2z2:|[2[A,2C2]z2z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180507
+S:http://abc.musicaviva.com/tunes/moscheles-ignaz/moscheles-op55-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/moscheles-ignaz/moscheles-op55-01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/moscheles-ignaz/moscheles-op55-01.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

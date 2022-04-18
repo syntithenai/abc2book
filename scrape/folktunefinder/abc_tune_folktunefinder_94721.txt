@@ -1,0 +1,29 @@
+X:125
+U: ~ = !turn!
+%%topmargin 3cm
+T:McKenna's Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean Ryan
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+z | d(3{/e}(dcd) AFD | DFA ECA, | DFA dfa | ged cBc |
+d(3{/e}(dcd) AFD | DFA ECA, | DFA dfa | gec d2 ::
+g | fed ((3fga)f | ged cde | fdB gec | dcB AFA |
+d(3{/e}(dcd) afd | B(3{/c}(BAB) gec | d(3{/e}(dcd) AFD | A,CE D2 :|]
+S:https://www.folktunefinder.com/tunes/94721
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/McKennas_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/McKennas_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

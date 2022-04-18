@@ -1,0 +1,26 @@
+X:795
+T:Wellingtons  A grand Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001077.html
+%%ID:00001077
+K:C
+(Gce)  | (Gce)  | (Gef)            | {a}g2 e |\
+.f(fd) | .e(ed) | (d/e/f/)(e/d/c/) | (B/c/d/c/B/A/) |
+.G(G/c/)e      | .G(G/c/)e      | (Gef)          | {a}g2e | \
+f{g}(f/e/f/e/) | e{f}(e/d/e/d/) | (d/f/e/d/c/B/) | d2 z ::
+(dBG)          | {A}(G^FG)      | (ecG) | (ecG) | \
+d(d/e/d/c/)    | (B/A/G/A/B/c/) | (dBG) | {A}(G^F)G |
+(ecG) | {A}GFG | (fd)G | (ecG) | (d/e/d/c/B/A/) | G/^F/G/F/G/F/ !D.C.! |]
+S:https://www.folktunefinder.com/tunes/88316
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

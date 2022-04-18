@@ -1,0 +1,26 @@
+X:1
+T:Larid de Locmariaquer
+C:En-dro trad., fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:C
+|: [B2G,,2][BG,]A [G2G,,2]G,D | [G2G,,2][A2D,2] [BG,,]c[d2G,2] | [B2G,,2][BG,]A [G2G,,2][D2G,2] | \
+ [G2G,,2][A2D,2] [B2G,,2]G,2 :|: [B2G,,2][BG,]A [d2G,,2]G,d | [B2G,,2][G2G,2] [A2D,,2]D,2 | \
+ [B2D,,2][BD,]A [d2C,,2][d2C,2] | [B2D,,2][A2D,2] [G2G,,2]G,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/171282
+S:http://diato.ifrance.com/diato/tablat/250.abc
+S:http://diato.ifrance.com/tablat/250.abc
+S:http://diato.org/tablat/250.abc
+S:http://perso.orange.fr/diato/tablat/250.abc
+S:http://perso.wanadoo.fr/diato/tablat/250.abc
+S:http://pro.wanadoo.fr/diato/tablat/250.abc
+S:http://www.diatonique.net/tablat/250.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

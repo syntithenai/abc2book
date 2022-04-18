@@ -1,0 +1,31 @@
+X:555
+T:the Melbourne Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000624.html
+%%ID:00000624
+K:F
+c2 |\
+.f2 .f2 eg | fa c2 de | (fedcde) | fa c2 BA |\
+G2G2G2     | g4 f2    | (fedcde) | f4 ||
+Ac |\
+B4 GB | A4 (3cde| fefcAF | c4 Ac |\
+B4 GB | A3fed   | c3Ged  | c4 ||
+c2 |\
+b2 c/d/e/f/ g2  | a2 (3cde f2 | g4  f2 | egc2 c2 |\
+b2 c/d/e/f/ g2  | a2 (3cde f2 | g2f2e2 | f4 !D.C.! |]
+%page:65
+S:https://www.folktunefinder.com/tunes/95742
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

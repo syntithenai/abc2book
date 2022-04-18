@@ -1,0 +1,30 @@
+X:13
+T: Kang tai haozi
+N: C1513
+O: China,Guangdong, Guangzhou
+S: II, 396]
+R: Haozi]
+M: 2/4
+L: 1/8
+K: Bb
+ccb2 | bfb2 | ffb2 | bbb2
+cgbcb | ccb2 | bcgb | cgb2
+ggbbb | g2b2 | ccb2 | cgb2
+gcgb | bgb2 | cgbb | bgbb
+gggb | cgb2 | bcgb | cbb2
+cbcb | cgbb | fbff | cgbc
+ggbb | cgbb | bcbb | cbc2
+bcgb | cbbb | cgcb | bgbb
+gcb2 | bgbb | gbgg | bgb2
+bbbb | bgb2 | b2gb
+S:https://www.folktunefinder.com/tunes/92036
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

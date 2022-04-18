@@ -1,0 +1,29 @@
+X:90
+T:Over the water to Charlie
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005ca.html
+%%ID:000005ca
+K:D
+A2A A>BG | FGE D>FG | A>BA AFA | B3 d3 |\
+D2D DEF  | GAF E2D  | dcB  AFA | B3 d3 ::
+d2e fgf  | efd ecA | d2e      fgf | e3 A3 | \
+d2e f>gf | efd ecA | B/2c/2dB AFA | B3 d3 ::
+AFD AFD  | BGE BGE | AFD DFA | B3 d3 |\
+AFD dAF  | GAF E2D | fed AFA | B3 d3 ::
+dfd dfd  | ecA        acA | dfd        dfd | e3 A3 |\
+dfd afd  | (c/2d/2ec) ecA | (B/2c/2dB) AFA | B3 d3::
+%page:14
+S:https://www.folktunefinder.com/tunes/95649
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

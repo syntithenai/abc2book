@@ -1,0 +1,23 @@
+X:380
+T:Stuart's reel
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005ea.html
+%%ID:000005ea
+K:G
+B/c/d e/f/g d2 B2 | cAfA     cAfA | \
+B/c/d e/f/g d2 B2 | cA fe/f/ g2G2 ::
+BG G/G/G BGBG | AD D/D/D ADAD |\
+BG G/G/G BGBG | AD D/D/D g2G2 ::
+S:https://www.folktunefinder.com/tunes/95707
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

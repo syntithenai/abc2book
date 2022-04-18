@@ -1,0 +1,30 @@
+X: 10
+T:Prelude by Dean(10). TBe.010
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:Key signature has F# in both octaves...
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+"Dsolre sharp=Dmaj,No time sig."\
+d4f4a4f4 | c4e4a4e4 | d2f2a2f2 c2e2a2e2|\
+ a2g2f2d2 d2f2a2f2 |!
+F2A2F2D2 ceag aeag | fedc Bdgf gdgf edcB |! 
+dfaf ceae dfaf ceae | d2D2F2A2 d8 ||
+S:https://www.folktunefinder.com/tunes/96161
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

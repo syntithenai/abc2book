@@ -1,0 +1,56 @@
+X: 9069
+T: Ice Cream Hornpipe (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A|"G"d^cd=c BGGF|"Am"EAce agfe|"G"decd Bdgd|"D7"cAdF "G"GABc|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[G2C2E2]E,,2[E2C2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+D,2[A2D2F2]G,,2[G2B2D2]|
+%
+[V:1] "D"dDDF "G"GB (3BAB|"C"(3cBA BG "Am"ABce|"G"dggd "C"cggc|"D7"dcAF "G"G3 :|
+[V:2] D,2[D2A2F2]G,,2[G2D2B2]|C,2[C2G2E2]A,,2[A2E2C2]|G,,2[G2D2B2]C,2[C2G2E2]|\
+D,2[C2A2F2][G,,3D3B,3]:|
+%
+[V:1] B/c/|"D"(3d^cd ef "G"g2 dB|"D7"(3cBA FA "G"G2 Bc|"D"(3d^cd ef "G"gaba|
+[V:2] z |D,2[D2A2F2]G,2[G2D2B2]|D,2[C2A2F2]G,,2[G2D2B2]|D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "Em"(3gfe Bd e2 Bc|"D"(3d^cd ef "G"gbbg|"D"faef "G"g2 ed|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|D,2[D2A2F2]G,,2[G2D2B2]|D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "C"(3cdc "G"(3BcB "D"(3ABA "G"(3GAG|"D7"cAdF "G"G3 :|
+[V:2] [C,2G,2E2][G,2D2B2][D,2A,,2F2][G,2D2B2]| D,2[C2A2F2][G,,3D3B,3] :|
+%%%%%%%tune repeat
+[V:1] A|"G"d^cd=c BGGF|"Am"EAce agfe|"G"decd Bdgd|"D7"cAdF "G"GABc|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[G2C2E2]E,,2[E2C2G2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+D,2[A2D2F2]G,,2[G2B2D2]|
+%
+[V:1] "D"dDDF "G"GB (3BAB|"C"(3cBA BG "Am"ABce|"G"dggd "C"cggc|"D7"dcAF "G"G3 :|
+[V:2] D,2[D2A2F2]G,,2[G2D2B2]|C,2[C2G2E2]A,,2[A2E2C2]|G,,2[G2D2B2]C,2[C2G2E2]|\
+D,2[C2A2F2][G,,3D3B,3]:|
+%
+[V:1] B/c/|"D"(3d^cd ef "G"g2 dB|"D7"(3cBA FA "G"G2 Bc|"D"(3d^cd ef "G"gaba|
+[V:2] z |D,2[D2A2F2]G,2[G2D2B2]|D,2[C2A2F2]G,,2[G2D2B2]|D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "Em"(3gfe Bd e2 Bc|"D"(3d^cd ef "G"gbbg|"D"faef "G"g2 ed|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|D,2[D2A2F2]G,,2[G2D2B2]|D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "C"(3cdc "G"(3BcB "D"(3ABA "G"(3GAG|1 "D7"cAdF "G"G3 :|2 "D7"cAdF "G"G4-|G8||
+[V:2] [C,2G,2E2][G,2D2B2][D,2A,,2F2][G,2D2B2]|1 D,2[C2A2F2][G,,3D3B,3] :|\
+[2 D,2[C2A2F2] [G,,4-D,4-B,4-]|[G,,8D8B,8] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87153
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

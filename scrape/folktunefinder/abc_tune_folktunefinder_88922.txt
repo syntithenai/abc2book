@@ -1,0 +1,28 @@
+X:460
+T: Cashenbridge
+S: B.Breathnach:"Ceol Rince na hEireann" IV/93 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 2/4
+Q: 280
+R: polka
+K: D
+aA A^G/A/|Bg g>f|gB cB|Af ff/g/|
+aA A^G/A/|Bg g>f|gB cB/c/|ed d2 :|
+K: A
+e^d/e/ f2|e^d/e/ c2|e^d/e/ fe/f/|gc c2|
+e^d/e/ f2|e^d/e/ c2|dc BA|a2 a2 :|
+S:https://www.folktunefinder.com/tunes/88922
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE4.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

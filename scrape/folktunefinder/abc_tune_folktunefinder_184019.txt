@@ -1,0 +1,23 @@
+X: 1
+T: Prince William [A]
+O: 1731
+M: C|
+L: 1/8
+K: A
+|: E2 \
+| "A"A4 c2BA | "E7"B6 d2 | "A"c4 "E7"B4 | "A"AGAB "(E7)"A2B2 \
+| "A"c2A2 E2c2 | "E"B6 A2 | "E"G2e2 "B7"F2^d2 | "E"e6 :|
+|: cd \
+| "A"e4 "D"f3e | "E7"d2c2 B2e2 | "(D)"d2c2 B2A2 | "E7"G2B2 E4 \
+| "A"A2GA "E7"B2AB | "A"c2Bc "D"d2ed | "A"c2BA "E7"E2G2 | "A"A6 :|
+S:https://www.folktunefinder.com/tunes/184019
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Prince_William_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

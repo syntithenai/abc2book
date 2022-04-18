@@ -1,0 +1,29 @@
+X:122
+U: ~ = !turn!
+%%topmargin 3cm
+T:Marquis of Lorne
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+ba | gfgd B2 ed | cBcA E2 AG | FGAB cedc | Bcde d2 ba |
+gfgd Bded | cBcA E2 AG | FGAB cdef | g2 {/a}gf g2 ::
+Bc | dBgB dBgB | dBgB d2 cB | cafd cafd | cafd c2 Bc |
+((3dcB) gB ((3dcB) gB | ((3dcB) gB d2 cB | Aafd ^cdef | g2 b2 g2 :|]
+S:https://www.folktunefinder.com/tunes/94718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Marquis_of_Lorne_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Marquis_of_Lorne_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

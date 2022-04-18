@@ -1,0 +1,26 @@
+X:60
+T:Captain Clapperton
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Cast off 3 Couples, lead down the middle and hands across at the top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de4.html
+%%ID:00000de4
+K:C
+G |\
+cG/G/ cG/G/ | dBGB     | cedg | ecc G |\
+cG/G/ cG/G/ | dBG g/f/ | ecdB | cCC ||
+e |\
+dG/G/ dG/G/ | f/e/d/c/ B/A/G/F/ | EG ce       | d/c/B/c/ Bc |\
+dG/G/ dG/G/ | f/e/d/c/ B/A/G/F/ | E/G/c/e/ dB | cCC |]
+\newpage
+S:https://www.folktunefinder.com/tunes/88145
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

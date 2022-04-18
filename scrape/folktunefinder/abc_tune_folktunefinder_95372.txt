@@ -1,0 +1,24 @@
+X:330
+T:Dutch Skipper
+B:Aird's Airs and Melodies vol 3
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001d2.html
+%%ID:000001d2
+K:D
+(3ABc|\
+d4 c3d| "tr"B4 A2Bc| d2c2 d2e2| f4 d3e| fede "tr"e3d| d6::
+de|\
+f2f2 gfed| c6 cd| e2a^g fedc| B4 c3d| e4 A3B| c"tr"BAB B3A| A6::
+de|\
+f2f2 (gf)(ed)| g6 fg| a2gf g2a2| b4 f3g| a4 d3e| fede "tr"e3d| d4:|
+S:https://www.folktunefinder.com/tunes/95372
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

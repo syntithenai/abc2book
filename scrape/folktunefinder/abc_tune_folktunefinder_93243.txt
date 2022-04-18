@@ -1,0 +1,30 @@
+X:8
+T:Reel des Lilas
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/16
+K:G
+B2BB BABd | c2B2 D4 | B2BB BABc | BABc e2d2 | 
+cBcd c4 | BABc B4 | AGAB AGFE | DAAA A4 |
+B2BB BABd | c2B2 D4 | B2BB BABc | BABc e2d2 |
+cdcB E4 | BcBG D4 | fgfe dcBA | BGGG G4 |:
+B2E2 EFGA | B2E2 EFGE | F2D2 DEFG | AGAB A4 |
+B2E2 EFGA | B2E2 EFGE | DEFG AcBA | Beee e4 |
+B2E2 EFGA | B2E2 EFGE | F2D2 DEFG | AGAB A4 |
+B2E2 EFGA | B2E2 EFGE | DEFG AcBA | Beee edef ||
+gfed BGGG | EGGG DGGG | EGGG DGAB | cBAG Adef |
+gfed BGGG | EGGG DGGG | EFGA Bgfe | Bdef g4 | 
+gfed BGGG | EGGG DGGG | EGGG DGAB | cBAG Adef | 
+gfed BGGG | EGGG DGGG | EFGA BGFE | DCB,A, G,4 ||
+S:https://www.folktunefinder.com/tunes/93243
+S:http://music.gordfisch.net/oregans/assets/abc/quebec.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

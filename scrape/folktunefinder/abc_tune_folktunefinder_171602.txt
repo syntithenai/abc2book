@@ -1,0 +1,37 @@
+X:1
+T:Lauss da Zeit-Landla
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+dd/c/B | cc/B/A | cc/B/A | dd/c/B |\
+dd/c/B | cc/B/A | cc/B/A | GGz |
+d/g/d/B/G | AA/c/e | c/e/c/A/F | G/B/dd |\
+d/g/d/B/G | AA/c/e | dFF | GGz :|
+dd/c/B | ee/d/c | Ad>c | cB/A/B |\
+dd/c/B | ee/d/c | Ad>c | B2z |\
+BBB/c/ | dd/c/B | B/e/e>B | dc/B/c |
+AA>B | cc/B/A | A/d/d>c | cB/A/B |\
+BB>c | dd/c/B | B/e/e>B | dc/B/c |
+AA>B | cc/B/A | Ad>F | "Fine"G2z ||
+dd/g/B | cc/e/F | cc/e/F | GG/B/d |\
+dd/g/B | cc/e/A | A/B/c/d/e/f/ | gGz |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/171602
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/lauss_da_zeit-landla.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

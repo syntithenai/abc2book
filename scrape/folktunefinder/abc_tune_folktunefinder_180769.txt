@@ -1,0 +1,35 @@
+X:8270
+T:The Outlandish Knight
+C:anon.
+O:England
+B:Northumbrian Minstrelsy
+R:Jig
+Z:Transcribed Jack Campin
+Z:Modified by Frank Nordberg
+F:http://abc.musicaviva.com/tunes/england/outlandish-knight/outlandish-knight.abc
+%Posted December 21st 2001 at abcusers by Jack Campin.
+%(Note: Jack's ABC included some "nested repeat" notation that isn't
+%supported by ABC, so I had to make a few changes to the file to make
+%it work. Hope I didn't screw it up!)
+P:AAAAAAAAAAAAAAAAAA
+M:6/8
+L:1/8
+K:Eb
+P:A
+|:"^Repeat entire tune 18 times"B   |BcB efe|dBB B2[1 B   |BcB edc|B3- B2:|[2 G/A/|BcB AFD|E3- E2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180769
+S:http://abc.musicaviva.com/tunes/england/outlandish-knight/outlandish-knight.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/outlandish-knight/outlandish-knight.abc
+% Rhythm Jig
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

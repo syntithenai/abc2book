@@ -1,0 +1,78 @@
+X:1230
+T:Praeludium 2
+T:(Prelude) BWV 926
+C:Johann Sebastian Bach
+O:Germany
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+N:Bar 43: First chord in treble staff arpeggio.
+N:Bar 48: The ornament applies to the middle note (d)
+N:of the chord.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0926/bwv0926.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:Dm
+V:1
+DAFDAF| DAFDAF|DBGDBG|DBGDBG|^CGECGE|^CBGEAG|
+V:2
+PD,2z2z2|D,,2z2z2|PD,2z2z2|D,,2z2z2|PD,2z2z2|D,,2z2z2|
+%
+V:1
+FDFAFA|dAdfdf|(=bfedc=B)|A^G^FEd=B|M[c2A2]z2z2|\
+M[c2A2]z2z2|(a_edc_BA)|
+V:2
+D,A,,D,F,D,F,|A,F,A,DA,D|^G,2z2z2|E,2^G,2E,2|\
+A,ECA,EC|=G,_ECG,EC|^F,2z2z2|
+%
+V:1
+G^F=EDcA|PBdBGg2|zdcBMAG|AcAFf2|zcBAMGF|GBAGFE|FDFAdG|
+V:2
+D,2^F,2D,2|PG,2z2z=F,|ME,2z2z2|PF,2z2zE,|D,2zF,E,D,|\
+E,D,^C,E,D,C,|D,2=C,2B,,2|
+%
+V:1
+P[^cA]ecAec|Ae^cA_BA|Ge^cGec|Ge^cGAG|FdBFdB| FdBFdB|
+V:2
+A,,2A,2A,,2| A,,2A,2A,,2| A,,2A,2A,,2| A,,2A,2A,,2|B,,2z2z2|B,,2B,2B,,2|
+%
+V:1
+^F=cAFcA|^FcAFcA|BG^FGDG|BGDBGD|_EG^FGBG|_EBGEBG|
+V:2
+A,,2z2z2|A,,2D,2D,,2|G,,2z2z2|G,,2G,2G,,2| G,,2z2z2|G,,2G,2G,,2|
+%
+V:1
+^CBGCBG|^CBGCAG|=FAFDAF|DAFD^CD|EGEB,GE|B,EG^CA,G|
+V:2
+A,,2z2z2| A,,2A,2A,,2| A,,2z2z2| A,,2A,2A,,2|^C,,2z2z2|^C,,2^C,2C,,2|
+%
+V:1
+F/D/=C/B,/ A,/ x/xx2|x4x2|x2x/ D/F/A/ D/F/A/ d/|\
+f/a/f/d/ f/d/=B/d/ ^G/B/A/G/|
+V:2
+D,,2 x/ G,/F,/E,/ F,/A,/D,/F,/|\
+A,,/ D,/C,/B,,/ A,,/ G,,/F,,/E,,/ D,,/F,,/A,,/D,/|\
+F,/A,/ D,/F,/ A,/ x/xx2|z6|
+%
+V:1
+[A3e3=g3]a [A2d2f2-]|feM[e3^c3]d|d=cAdBG|cA^FBGE|A^FDGE^C|P[A,6D6^F6]|]
+V:2
+^C,E,C,A,, D,/=C,/_B,,/A,,/|G,,G,A,G,A,A,,|D,2D2D,2|\
+D,2z2z2|D,,2D,2D,,2|D,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183658
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0926/bwv0926.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0926/bwv0926.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0926/bwv0926.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

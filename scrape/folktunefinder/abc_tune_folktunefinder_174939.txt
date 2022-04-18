@@ -1,0 +1,29 @@
+X:1
+T:Mazurka : Boite de Jazz
+C:Christian Josu, fichier abc : Bernard Loffet
+L:1/8
+Q:400
+M:9/8
+K:C
+ z4zE A2B |: [c3A,,3] [B2A,2]A [B2A,2]A | [G2G,,2]B [E2G,2]E [A2G,2]B | [c3F,,3] [B2F,2]c [d2G,2]G | \
+ [e3C,,3] C,2d [c2C,2]B | [c3A,,3] [B2A,2]A [B2A,2]A | [G2G,,2]B [E2G,2]E [A2G,2]B | \
+ [c3F,,3] [B2F,2]A [G2G,2]B |1 [A3A,,3] A,2A [A2A,2]B :|2 [A3A,,3] A,2A [A2A,2]c | \
+|: [e3E,,3] [^d3E,3] [B2E,2]=d | [c3A,,3] [B3A,3] [A2A,2]B | [c3F,,3] [B2F,2]c [d2G,2]G | \
+ [e2C,,2]d [c2C,2]B [c2C,2]d | [e3E,,3] [^d3E,3] [B2E,2]=d | [c3A,,3] [B3A,3] [A2A,2]B | \
+ [c3F,,3] [B2F,2]A [G2G,2]B |1 [A3A,,3] A,2A [A2A,2]c :|2 [A3A,,3] A,6 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/174939
+S:http://diato.ifrance.com/diato/tablat/143.abc
+S:http://diato.ifrance.com/tablat/143.abc
+S:http://diato.org/tablat/143.abc
+S:http://perso.orange.fr/diato/tablat/143.abc
+S:http://perso.wanadoo.fr/diato/tablat/143.abc
+S:http://pro.wanadoo.fr/diato/tablat/143.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/143.abc
+S:http://www.diatonique.net/tablat/143.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

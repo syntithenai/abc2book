@@ -1,0 +1,29 @@
+X: 30
+%% Copyright 1934 (Renewed 1962) METRO-GOLDWYN-MAYER INC.
+T: Blue moon
+M: 4/4
+L: 1/8
+C: Rodgers & Hart
+Q: 1/4=120
+%%staves (chords melody)
+K: Eb
+%%text (Medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+x2 || "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 | "Eb6"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 |
+"(Db7""Eb6"x4 "C7""Cm7"x4 | "B7)""Fm7"x4 "Bb7"x4 | "Eb6"x4 x4 | "T.A."x4 x4 ||
+V: melody
+B2 || B8- | BABc BBAB- | B8- | BFGA GGFG- |
+S:https://www.folktunefinder.com/tunes/87531
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

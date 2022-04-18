@@ -1,0 +1,22 @@
+X:920
+T:Row dow dow
+B:Aird's Airs and Melodies vol 3
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000248.html
+%%ID:00000248
+K:G
+"With Spirit" G2|\
+d2d2| d2B>c| d2d2| d2dd| e3e| (d>c)B>A| (G>A) (B>c)| d2DD|\
+G2D2| B2G2| d2B2| g3d|
+B2dd| g2dc| B2G2| G2z2|\
+"Cho"B2B2| B2z2| d2d2| d3d| B2d>d| g2d>c| B2G2| G2|]
+S:https://www.folktunefinder.com/tunes/95490
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

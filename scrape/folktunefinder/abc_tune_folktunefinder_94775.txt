@@ -1,0 +1,30 @@
+X:179
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sailor on the Rock
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Denis Murphy
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bm
+defd {Bc}BAFG | AD ((3FED) FAAB | defd {Bc}BAFG | ABdf eB (3.B.B.B |
+defd {Bc}BAFG | AD ((3FED) FAAB | defd {Bc}BAFG | ABdf e2 de ||
+faag fdBd | {ga}gfga bgeg | faaf ((3gfe) dB | ABdf e2 de |
+faag fdBd | {ga}gfga bgeg | faaf ((3gfe) dB | ABdf eB (3.B.B.B |]
+S:https://www.folktunefinder.com/tunes/94775
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sailor_on_the_Rock_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sailor_on_the_Rock_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

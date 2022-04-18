@@ -1,0 +1,24 @@
+X:105
+T: The Four Courts
+M: C|
+L: 1/8
+N: "No. 1" "collected by Ennis"
+B: O'Neill's 1396
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+K: D
+dB   | ADFD  ADGB  | ADFD  G2 GB      | ADFD   ADGF       | ((3EFE) cA G2 FG |
+ADFD  ADGB  | ADFD  G2 FG      | A^GA=c BAB^c      |      dB=cA G2    ||
+(AG) | F2 AF cFAG  | F2 cA G2 AG      | F2 AF  cFAc       |      dB=cA G2 AG |
+F2 AF cFAG  | F2 cA G2 ((3ABc) | dfdc   dc ((3ABc) |      dB=cA G2    ||
+(dB) | A2 Ac B2 Bd | ABAF  G2 dB      | A2 Ac  B2 Bc      |      dB=cA G2 dB |
+AFAc  BGBd  | ABAF  G2 ((3ABc) | dfec   dc ((3ABc) |      dB=cA G2    |]
+S:https://www.folktunefinder.com/tunes/87321
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

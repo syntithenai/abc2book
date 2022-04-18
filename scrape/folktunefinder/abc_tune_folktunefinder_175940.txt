@@ -1,0 +1,22 @@
+X:1
+T:Mirage
+C:Laurence Beaudry
+Z:robin.beech@mcgill.ca
+R:jig
+M:6/8
+L:1/8
+K:Amin
+E | FcB AFG | EcB AFD | ^CDG FAc | Bcd e2^c |  
+d^cd fed | ^caa a2g |1 fdA e^cA | dAF E2G :|2 fdA EA^c | dAF D3 |:
+EFG AFD | ^CEG F2A | Bcd G^FG | cde B2A |
+fdA a^ge | ecA aec |1 Bcd ece | ab^g e3 :|2 Bcd ef^g | ab^g a3 |]
+S:https://www.folktunefinder.com/tunes/175940
+S:http://music.gordfisch.net/tradmusic/pub/cache/Mirage_1d9a80.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

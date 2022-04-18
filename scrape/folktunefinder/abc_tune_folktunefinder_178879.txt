@@ -1,0 +1,19 @@
+X:1
+T:No More Booze
+M:4/4
+L:1/8
+K:F
+ C2| F3/2 F/2 F3/2 F/2 F2 D3/2 D/2| G3/2 G/2 G3/2 G/2 G2 G3/2 G/2|\
+ c3 B c3 B| A2 F2 z2| C2| F3/2 F/2 F3/2 F/2 F2 F3/2 F/2| G3/2 G/2 G3/2 G/2 G2 G3/2 G/2|\
+ c3/2 c/2 c3/2 c/2 c2 B3/2 B/2| A F3- F z| z2| F F3 F3 z| F F3 F3 z|\
+ F F3 E2 F2| G2 G4| z2| G G3 G3 z| G G3 G3 z| cc cc c2 B2| A2 F4| C3/2 C/2|\
+ F2 A2 G2 F2| D4- D z DD| G2 G3/2 G/2 G2 F2| E C3- C z| z2| FF FF F3 F|\
+ F2 z2 d4| c2 A2A-F G2| F4- F z||
+S:https://www.folktunefinder.com/tunes/178879
+S:http://back.numachi.com:8000/dtrad/abc/NOBOOZE.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

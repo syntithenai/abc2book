@@ -1,0 +1,41 @@
+X:180
+T: Dave O Docherty's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=62 clef=bass m=D program 1 00
+K: D
+[V:1] FA|"Bm"BcBA "D"F2 ED|"G"B,D (3DED "D"FGAB|"Bm"dBBd "Em"e2 gf |"G"eBdB "A"A2 FA |
+[V:2] z2|B,,2[B2D2F2]D,2[D2A2F2]|G,,2[G2D2B2]D,2[D2A2F2]|B,,2[B2D2F2]E,2[B2E2G2]|\
+G,,2[G2D2B2]A,,2[A2E2C2]|
+%
+[V:1] "Bm"BcBA "D"(3FEF ED | "G"B,D (3DED "D"FGAB | "Bm"defd "G"g2 ed |\
+"A7"cAGE "D"D2 :|
+[V:2] B,,2[B2D2F2]D,2[D2A2F2]|G,,2[G2D2B2]D,2[D2A2F2]|B,,2[B2D2F2]G,,2[G2D2B2]|\
+[C,4E4A,4G4][D,2A,2F2]:|
+%
+[V:1] FA | "Bm7"BDFA "D"dcde | "Bm"fede "F#m"fa (3a^ga | "Bm"bf (3fef "D"af (3fef |\
+"G"gfed "Bm"B2 FA |
+[V:2] z2 |B,,2[B2D2F2A2]D,2[D2A,2F2]|B,,2[B2D2F2]F,,2[C2A2F2]|B,,2[B2D2F2]D,2[D2A,2F2]|\
+G,,2[G2D2B2]B,,2[B2D2F2]|
+%
+[V:1] "Bm7"BDFA "D"dcde | "Bm"fede "F#m"fa (3a^ga | "Bm7"b2 af "Em"edBd |\
+"A7"cAGE "D"D2 :|
+[V:2] B,,2[B2D2F2A2]D,2[D2A,2F2]|B,,2[B2D2F2]F,,2[C2A2F2]|A,,2[D2F2B2]E,2[B2E2G2]|\
+[C,4E4A,4G4][D,2A,2F2] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86921
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

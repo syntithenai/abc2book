@@ -1,0 +1,48 @@
+X: 1
+T:Not for Joe
+M:4/4
+L:1/8
+C:
+S:Bordering on the Absurd
+N:
+A:Border
+O:English
+R:Reel
+%P:
+K:G
+V:1 stv=2
+%%MIDI channel 1
+%%MIDI program 40       %% General MIDI Violin
+%%MIDI transpose 0
+V:2 clef=bass
+%%MIDI channel 2
+%%MIDI program 42       %% General MIDI Cello
+%%MIDI transpose -24
+P:A
+V:1
+|:\
+D2 G2 D2 G2|F2 E2 F2  E2|D2 G2 D2 G2|F2 G2  A4|\
+D2 G2 D2 G2|F2 E2 F2  E2|D4    B3  A|G2 F2  G4:|
+V:2
+|:\
+G2 z2 d2 z2|f2 z2 f2  z2|G2 z2 d2 z2|fed^c  d2 d2|\
+G2 z2 d2 z2|f2 z2 f2  z2|d2 d2 d2 d2|g2 g g G4:|
+P:B
+V:1
+|:B2 BA G2 B2|c4    A4|B2 BA G2 B2|A2 F2  D4|\
+B2 BA G2 B2|c4    A4|B4    A4|G2 F2  G4:|
+V:2
+|:\
+B2 z2 B2 z2|c2 z2 ^c2 d2|G2 z2 G2 z2|f2 z2  f2 z2|\
+G2 z2 G2 z2|e2 z2 f2  z2|d2 d2 d2 d2|g2 g g G4:|
+S:https://www.folktunefinder.com/tunes/179185
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/Not_for_Joe_2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:2
+T:Ma Navu (Am)
+L:1/8
+O:Israel
+C:J.Spivak
+B:V. Pasternak: Great Songs of Israel
+Z:John Chambers <jc:trillian.mit.edu>
+S:from transcriptions by Terry Traub and Seymour Shlien
+M:C|
+Q:1/2=60
+K:Ador
+|: "Am"A2ed e3c | "Dm"d2e2 "Am"c2BA | "G"(Bc)d2 "F"c2(BA) |1 "Em"(B2"Am"c4) "E7"B2 :|2 "Em"(G2"Am"A4) ||
+|: GF | "Em"(G2A2) "D"(F3D) | "Em"(GF)G2 "Am"A2GF | "Em"(G2A2) "D"F3D | "Em"(GF E4) |]
+S:https://www.folktunefinder.com/tunes/174067
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/MaNaavu_DmAm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/MaNaavu_DmAm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

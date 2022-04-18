@@ -1,0 +1,28 @@
+X: 1
+T: Old Joe's Jig
+C: J-26
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: D
+d/e/| "D"f2A AFA| "G"BGB "D"A2A| "G"BdB "D"AFA| "Em"Bcd "A"ede|
+      "D"f2A AFA| "G"BGB "D"A2A| "G"BdB "D"AFA| "A"Bdc "D"d2:|
+\
+d/e/| "D"fgf "A"efe| "G"dBA "D"d2e | faa "Bm"afd| "F#m"faa "G"b2a|
+      "D"fgf "A"efe| "G"dBA "D"d2e | "D"fAA AFA| "G"GBd "D"d3 d/e/|
+      "D"fgf "A"efe| "G"dBA "D"d2e | faa "Bm"afd| "F#m"faa "G"b2a|
+      "D"fgf "A"efe| "G"dBA "D"d2e | "D"faa aba| "A"gfe "D"d3 |]
+%%text 9/1/98.  Transcribed by Jim Guinness from John Doonan "At the Feis" (Topic 12TS368).
+S:https://www.folktunefinder.com/tunes/180041
+S:http://roaringjelly.org/music/jig/J026_Old_Joes_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J026_Old_Joes_Jig.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J026_Old_Joes_Jig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:29
+T:Outcast
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+Q:90
+K:C
+cd |\
+"C"e2 ec egfe |\
+"G"d2 dB G2 AB |\
+"Am"c2 cA cedc |\
+"E"B2 B_A E4 |\
+"F"FEFG ABcA |\
+"C"G2 GE C2 E2 |\
+"Dm"D2 DE FDEF |\
+"E"E2 E_A B2 :: cB |\
+"Am"A2 g4 fe |\
+"Dm"fe d2 d2 BA |\
+"G"G2 f4 ed |\
+"C"cd e2 e4 |\
+"Am"E2 e4 dc |\
+"Dm"dc B2 B4 |\
+"E"E2 _A2 BdcB |\
+"Am"A4 "Am"[E2 A2] :|
+S:https://www.folktunefinder.com/tunes/180763
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/Outcast.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

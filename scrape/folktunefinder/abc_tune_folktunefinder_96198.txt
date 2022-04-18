@@ -1,0 +1,27 @@
+X: 47
+T:Rigadoon. TBe.047
+M:C|
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+H:Before 1718
+Z:vmp.C. Graebe..
+K:G major
+G2d2 | B>cdB | e (d/c/) d (c/B/) | Bgfg ||!
+d2g2 | f/e/f/g/ f/g/f/g/ | a (g/f/) ed |\
+g/f/g/d/ e/d/c/B/ | d c/B/ A G ||
+S:https://www.folktunefinder.com/tunes/96198
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

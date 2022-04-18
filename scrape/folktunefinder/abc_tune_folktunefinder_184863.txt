@@ -1,0 +1,28 @@
+X:0390
+T:"The Red Fox"           (air)           0390
+C:Unattributed
+C:with spirit
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+N:Fermata to taste
+Q:1/4=130
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_vb"D2|G2G3/2A/2 B2B3/2c/2|d2d2c2B3/2c/2|d3e B2G2|A3F GFED|
+G2G3/2A/2 B2Bc|d/2d3/2 d2c2Bc|d2de B2G2|A4G2||
+Bd|g2g2f2ed|e2dB d2BA|G2G3/2A/2 BAGB|A4G2Bd|
+g2g2f2ed|e2dB Hd2BA|G2ge dBGB|A4G2|]
+S:https://www.folktunefinder.com/tunes/184863
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0390-RedFox.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0301-0400/0390-RedFox.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1530
+T:Prinses Royal
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001243.html
+%%ID:00001243
+K:G min
+GA | B2 (AB) G2 (dc) | B2 (AB) G2  d2  | e2 (dc) B2 c2 | d2 (cd) B2 \
+B2 | B2  gB  A2  fA  | GBAG    F2 (dc) | BABG    D2 F2 | F2 G4 ::
+d2   | \
+gfga  gfga  | b2 B2 B2 ga | bagf edcB | A2 F2 F2 (GA) | \
+B2 B2 c2 c2 | d2 d2 g4   |! f2 d2 e4 | d2 G2 c4 | \
+B3A GBAG | F2 (EF) D2 (dc) | BABG D2 F2 | G6 |]
+%%newpage
+%page 122
+S:https://www.folktunefinder.com/tunes/88463
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

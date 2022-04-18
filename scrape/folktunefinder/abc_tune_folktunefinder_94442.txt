@@ -1,0 +1,66 @@
+X:19151
+T:Xota del Centru (MQ 085)
+T:Jota del Centru (MQ 085)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Esta es la pieza ms tpica de la gaita asturiana, todo gaitero que se precie debe tenerla en su repertorio.
+N:Esta versin est estructurada e igualadas sus repeticiones para una grabacin discogrfica que hice recientemente de ella con la Sinfnica de Asturias.
+O:Centru d'Asturies
+A:Asturies
+Z:Manolo Quirs 085
+M:3/8
+L:1/16
+Q:3/8=80
+K:C
+C2
+|E2C2C2|E2C2C2|E2 DEFE|DCB,DB,D|FEDEFD|EDCECE|
+FEDEFE|DCB,DB,D|F2 GFED|E2 CECE|F2 EFGF|D2 B,DB,D|F2 GFED|C6|
+EDCEFE|(3DEDB,DB,D|F2 GFED|(3DEDCECE|F2 EFGF|(3DEDB,DB,D|F2GFED|C6|
+FEDEFG|FEDEFE|FEDEFG|FEDEDE|FEDEFG|DCB,DB,D|F2 GFED|(3EFECECE|
+(3FGFEFGF|DCB,DB,D|F2 GFED|C4 G2|
+cBABcB|A2 FAFA|cBABcB|G2 EGEG|cBABcB|AGFAFA|cBABcB|GFEGEG|
+cBABcB|AGFAFA|c2 BAGF|E2 CECE|F2 EFGA|DCB,DB,D|F2 GFED|C6|
+FEDEFE|DCB,DB,D|F2 GFED|E2 CECE|F2 EFGF|DCB,DB,D|F2 GFED|C6|
+(3EFECECE|(3DEDB,DB,D|(3FGFDFDF|(3EFECECE|
+(3GAGEGEG|(3DEDB,DB,D|F2 GFED|(3EFECECE|
+(3EFECECE|(3EFECECE|GECECE|AECECE|BECECE|cECECE|GEGECE|GECECE|
+AEAECE|AECECE|BEBECE|BECECE|cEcECE|cECECE|BECECE|AECECE|
+GEGEGE|(3DEDB,DB,D|EDB,DB,D|FDB,DB,D|GDB,DB,D|EDEDB,D|EDB,DB,D|FDFDB,D|
+FDB,DB,D|GDGDB,D|GDB,DB,D|F2 GFED|(3EFECECE|G2 AGAG|(3DEDB,DB,D|F2
+GFED|C6|
+G2 EF G2|c2B2c2|e2>d2c2-|c6|
+G2 EF G2|c2B2c2|e2>d2A2-|A6|
+G2E2G2|c2B2c2|e2>d2c2-|c6|
+G2E2G2|c2B2c2|f2>e2dc|B2d2c2|B2A2G2-|G2 cBAB|GAGFE2-|E6|
+G2 EF G2|c2B2c2|f2>e2dc|B2d2c2|B2A2G2-|G2 cBAB|(3GAGE2C2|G2c2>B2|
+A4 G2|A2B2>A2|G4 F2|G2B2>A2|G4 F2|G2 cBAB|GAGFE2|G2c2>B2|
+A4 G2|A2B2>A2|G4 F2|G2B2A2|G4 F2|G2 cBAB|GAGEC2|c2e2c2|
+G2E2G2|c2e2c2|E2G2E2|c2e2c2|e2>c2G2|c2e2c2|
+G2 EGEG|c2e2c2|G2 EGEG|c2e2c2|G2 EGEG|c2e2>c2|e2>c2G2|c2e2c2|
+G2 EGEG|cBABcB|A2 FAFA|cBABcB|G2 EGEG|cBABcB|A2 FAFA|c2 BAGF|
+E2 CECE|G2 AGFE|D2 B,DB,D|F2 GFED|E2 CECE|G2 EFGF|DCB,DB,D|F2 GFED|C6|
+G2 EF G2|G2 EFEF|G2 EF G2|G2 EFEF|A2 EF A2|A2 EFEF|GFEFEF|GFGFEF|
+GFEFEF|AFEFEF|AFAFEF|AFDEDE|FEDEDE|FEFEDE|FEDEDE|
+FEDEFE|FEDEDE|FEFEFE|FEEFGc|
+f2>e2dc|B2A2G2|F2E2D2|C4 AB|c2d2c2|A4 A2|A2 _BAGA|_B4 B2|
+_B2 cBAB|G4 G2|G2 AGFG|A4 A_B|c2d2c2|A4 _B2|A2 _BAGA|_B4 A2|
+_B2 cBAB|G4 G2|G2 AGFG|A4 AB|
+|: c4 A2|B4 E2|(3FGFE2D2|B4 G2|A4 E2|(3FGF(3EFE(3DED|[1 C4 AB :|[2 C6||
+D2E2F2|A2>G2E2|G2F2D2|E2(3FEDC2|D2E2F2|A2>G2E2|G2F2D2|C4 G2|
+|: G2 cBAG|A2F2A2|A2 cBAB|G2E2G2|G2 cBAG|A2F2A2|A2 cBAB|G2E2G2|
+G2 ABAB|F2D2F2|F2 GAGA|E2C2E2|E2 FGFG|D2B,2D2|D2 FEDE|[1 C4 G2 :|[2 C6||
+S:https://www.folktunefinder.com/tunes/94442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:8739
+T:Koroglu 
+O:Turkey
+L:1/8
+M:5/4
+Q:1/4=180
+K:Em
+%%MIDI gchord f2z2f2z4
+%%MIDI beatstring fpppmppp
+|"A"A3GA2G2E2| "Em"G4 E6| "A"A3GA2G2E2| "Em"G4 E6|\
+ "A"A3GA2G2E2| "Em"G4 E6| "Em"E4 E6| "Em"E4 E6|
+"Em"d2 d2 d2 d2 ^c2| "Em"d4 de ^c4| "Em"B2 ^c2 d2 e2 c2| "Em"d4 d2z4|\
+"Em"B2 ^c2 d2 e2 c2| "Em"d4 d2z4|"Em"d2 d2 d2 d2 ^c2|"Em"d4 B4 z2|
+"Am"A2 A2 A2 c2 A2| "Em"B4 B4 z2| "Am"A2 B2 c2 d2 A2| "Em"B4 B4 z2|\
+ "A"A2 A2 A2 B2 G2| "A"A4 A6|
+"Am"A2 B2 c2 e2 c2| "Am"d2 c2 B2 A4|"A"A2 A2 A2 B2 G2| "A"A4 A4 z2|\
+"Am"A2 B2 c2 e2 c2| "Am"d2 c2 B2 A4|"Em"G2 G2 G2 A2 F2| "Em"E4 E4 z2|
+S:https://www.folktunefinder.com/tunes/91798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

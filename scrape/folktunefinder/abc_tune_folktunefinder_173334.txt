@@ -1,0 +1,37 @@
+X:1
+T:Lueneburger Polka
+C:traditionell
+R:Polka
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:im buch ganz in C, einstimmig mit harmonie-buchstaben
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G %Transposed from C
+d2de d2B2 | d2ga b4 | b2bc' a4 | a2ab g4 |
+d2de d2B2 | d2ga b4 | a2ag f2e2 | e4 d4 :|
+c'2d2 b2d2 | agfe d4 | b2d2 a2d2 | gfge d4 |
+e2g2 f2a2 | gabc' d'4 | e'2c'b a2d'2 | b2a2 g4 :|
+f2fg a2d2 | g2b2 d'4 | f2fg a2d2 | gabc' d'4 |
+e'2c'2 e'3c' | d'2b2 d'3d' | c'2b2 c'2a2 | a4 g4 |
+f2fg a2b2 | a2g2 g4 | ^g2ga b2c'2 | b2a2 a4 |
+c'2c'b a2c'2 | b2ba g2b2 | a2ag f2fe | d2de d2de |
+d2de d2B2 | d2ga b4 | b2bc' a4 | a2ab g4 |
+d2de d2B2 | d2ga b4 | b2bc' a2ab | g2b2 g4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173334
+S:http://simonwascher.info/TradArchiv_polka/lueneburger_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

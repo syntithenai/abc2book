@@ -1,0 +1,27 @@
+X:800
+T:the Bonny lass of Livingston
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e6a.html
+%%ID:00000e6a
+K:E min
+DE |\
+G3A  B3e | (dBde) dBAG | B2A2A2 GA | B2A2 A2 GE |\
+DEGA B3e | dBAB GABd | e2E2 E2DE | G2E2 E2 ||
+d>e |\
+g3a gaba | gdeg dBAG | B2A2 A2 GA | B2A2 A2 ga |\
+b/a/g ab gdeg | dABG ABcd | e2E2 E2DE | G2E2 E2 ::
+S:https://www.folktunefinder.com/tunes/95791
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:054
+%%topmargin 3cm
+T:Planxty Browne
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Planxty
+L:1/8
+M:6/8
+K:G
+g | dBG GAB | E2 E E2 c | AFD DEF | G2 G G2 g |
+dBG Bcd | E2 E E2 c | AFD DEF | G3 G2 ||
+(g/2a/2) | bgb afd | efg gfe | dBg dBG | AFD D2 (g/2a/2) |
+bgb afd | efg gfe | faf ge^c | d2 d de=f |
+ece dBd | cac BgB | Ace dBG | FAF DEF |
+GAB EFG | ABc def | gdB cAF | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/91984
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Planxty_Browne.abc
+% Rhythm Planxty
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

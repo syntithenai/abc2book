@@ -1,0 +1,30 @@
+X:1
+T:Leken Hass Steffa Henningrd
+R:polska O
+C:efter Kris Forster, 1984
+M:3/4
+L:1/16
+Q:1/4=135
+K:D
+P:A
+|A|
+|:"D"d4 (d3c) "D"A3A|"D"f4 (f2d2) "A"e3f\
+|"Em"(3(g2e2g2) (3(f2d2f2) "A"e2c2 |"D"(3(d2e2f2) (d2c2) "D"A3\
+|A\
+|"D"d4 (d3c) "D"A3A|"D"f4 (f2d2) "A"e3f\
+|"Em"(3(g2e2g2) (3(f2d2f2) "A"(3(e2c2)e2|1 ("D"d8 d3) A:|2 ("D"d8 "D"d3) f|
+P:B
+|: "D"a4 (a3f) "A"g3e|"D"f4 (f2d2) "A"e3f\
+|"Em"(3(g2e2g2) (3(f2d2f2) "A"e2c2|"D"(3(d2e2f2) (d2c2) "D"A3 f\
+|"D"a4 (a3f) "A"g3e|"D"f4 (f2d2) "A"e3f\
+|"Em"(3(g2e2g2 (3(f2d2f2) "A"(3(e2c2)e|1 ("D"d8 "D"d3) f :|2 ("D"d8 "D"d4)||
+S:https://www.folktunefinder.com/tunes/171848
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/leksteff.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/leksteff.abc
+% Rhythm Polska o
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

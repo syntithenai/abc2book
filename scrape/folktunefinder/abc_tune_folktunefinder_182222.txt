@@ -1,0 +1,39 @@
+X:24
+T:Souviens-toi de Jsus Christ - I45a
+C:L. Deiss
+M:none
+L:1/8
+%%staves {(1 2) 3}
+K:C
+V:1 clef=treble
+%%MIDI program 17
+P:Antienne
+CE|G3 A AG|E3 D CG|A3 c BG|E6 A2|c3 c BA|G4 EG|A4 D2 F2|G4 HG4||
+V:2 clef=treble
+%%MIDI program 17
+zE|E2C2- C2-|C6|C2F2D2|[I:staff 2]G,6[I:staff 1]E2-|E4-E2-|E4C2-|\
+C4[I:staff 2]F,2[I:staff 1]B,2|F4E4||
+V:3 clef=bass
+%%MIDI program 17
+z2|C,2E,2 F,E,|C,2B,,2A,,2|F,2D,2G,2|C,6B,,2|A,,4B,,2|C,4-C,E,|F,4D,2G,,2|C,8||
+V:1
+|:[P:1]zE EE|^F2 GG|E2 GA|c.-c BG|A4:|
+V:2
+|:z2 C2|D4|[I:staff 2]G,4|[I:staff 1]E2D2|C4:|
+V:3
+|:C,4|B,,4|E,2D,2|C,2G,2|A,4:|
+V:1
+|:[P:2-3]zE|A2GA|B2G A|c2BG|A4:|
+V:2
+|:zE|[I:staff 2]C4|D4|[I:staff 1]A2[I:staff 2]D2|C4:|
+V:3
+|:C2|A,4|G,4|F,2G,2|A,4:|
+S:https://www.folktunefinder.com/tunes/182222
+S:http://moinejf.free.fr/messe/messeS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,20 @@
+X:11013
+T:MIST COVERED MOUNTAIN
+M:6/8
+L:1/8
+R:Jig
+K:D
+ADD BAG|ADD EFG|ADD (3=cccA|GE=C EFG|
+ADD BAG|ADD EFG|AB=c cBA|GE=C EFG:||
+:A2 d dAd|dAd dcd|A2 d dAB|=cBA GE=C|
+D2 d dAd|dAd dAB|(3=cccc cBA|GE=C EFG:||
+S:https://www.folktunefinder.com/tunes/98795
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

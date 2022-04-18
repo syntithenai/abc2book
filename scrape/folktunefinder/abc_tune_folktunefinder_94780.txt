@@ -1,0 +1,33 @@
+X:184
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sean McKenna's (1)
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Seamus Tansey
+R:Reel
+L:1/8
+M:C|
+K:G
+GBdB cAFA | ~G3 B dBcA | G2 dB cAFA | GBAF ~G3 D |
+GBGB cAFA | GABc d2 fg | ((3agf) ge {/g}fdcA | GBAF ~G3 D |
+GB ~B2 cAFA | GABG DB ~B2 | ~G3 B cAFA | GBAF ~G3 D |
+GBdB cAFA | GABc defg | ((3agf) ge {/g}fdcA | GBAF G2 ag ||
+"(A"[|] fedf edcA | dg{/a}gf g2 ag | fadf edcA | GBAF G2 ag "A)"|
+Pf2 df edca | dg{/a}gf g2 ag | fedf edcA | [1 GBAF G2 ag :| [2 GBAF G2 D2 |]
+xxxx "(A"|| Pf2 df edcA | dg{/a}gf g2 ag | ((3faf) df edcA | GBAF G2 ag "A)"|| xxxx
+S:https://www.folktunefinder.com/tunes/94780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sean_McKennas_1_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sean_McKennas_1_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

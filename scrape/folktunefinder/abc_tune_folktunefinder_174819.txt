@@ -1,0 +1,21 @@
+X: 1
+T: Maverick Angels
+M: 4/4
+L: 1/8
+R: reel
+K: Bmin
+|: f ~B3 fgef | ^d ~A3 dAeA | f ~B3 fgef | ^dBfB gfeg |
+f ~B3 fgef | ^d ~A3 edef | ^d ~B3 A ~f3 |[1 e^ded B3 f :|[2 e^ded B3 b ||
+c' ~b3 b ~a3 | a ~f3 feef | a z ~f2 f ~e3 | e^def defb |
+c' ~b3 b ~a3 | a ~f3 feef | a z ~f2 f ~e3 |[1 e^ded B3 b :|[2 e^ded Bc^de ||
+S:https://www.folktunefinder.com/tunes/174819
+S:http://www.thesession.org/tunes/display/7397
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

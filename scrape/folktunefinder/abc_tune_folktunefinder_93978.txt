@@ -1,0 +1,20 @@
+X: 55
+T: Forth Bridge
+T: Strathspey, D
+C: William Blyth
+L: 1/16
+M: C
+K: D
+A,1| D4F3D1 A3D1 F1A3| A,3D1 F1A3 (3D2F2A2 (3B2c2d2| A,4C3E1 A3E1 C3E1| (3e2f2e2 (3d2c2B2 (3A2B2G2 (3F2G2E2| 
+D4F3D1 A3D1 F1A3| A,3D1 F1A3 (3D2F2A2 (3B2c2d2| G3A1 B1G3 F3G1 A1F3| (3G2A2B2 (3A2B2c2 d1D3 D3|| 
+g1| f1d3 d3g1 (3f2e2d2 (3c2B2A2| d1b3 c1a3 B1g3 A3F1| G3A1 B1G3 F3A1 d3F1| G1E3 e3d1 (3c2d2e2 A3g1| 
+f1d3 d3g1 (3f2e2d2 (3c2B2A2| d1b3 c1a3 B1g3 A3F1| G3B1 F3A1 E1F3 D3g1| (3f2e2d2 (3c2d2e2 f1d3 d3||
+D: Joe Cormier, Joseph Cormier and Friends, Rounder 7013
+S:https://www.folktunefinder.com/tunes/93978
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

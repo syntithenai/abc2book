@@ -1,0 +1,36 @@
+X:1
+T:Polka-Arien
+C:traditionell
+R:
+A:Muehlviertel, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus dem Muehlviertel", Rupert Azesberger, Herausgegeben von A.Ruttner
+N:im buch ganz in D (1., 2. 3.teil) und G (4.teil), nr. 6
+N: beim 4.teil habe ich stimmen getauscht
+%%endtext
+F:http://simonwascher.info/TradArchiv/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D
+z de^e | fz f2 | f>e dc | az g2 |
+z2 a>b | az g2 |1 z2 g>a | gz f2 :|\
+               [2 z(AB)c | dz dD/F/ |]
+K:A
+e2 g(g | .b).a e2 | .f.e G2 | .f.e A2 |
+e2 g(g | .b).a e2 | z(ef).g | az [a2c2] |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183025
+S:http://simonwascher.info/TradArchiv/
+S:http://simonwascher.info/TradArchiv_polka/polka-arien.zde^efzf2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

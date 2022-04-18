@@ -1,0 +1,24 @@
+X:2
+T:Princess Royal
+C:Adderbury
+M:4/4
+L:1/8
+A:Adderbury
+P:A(AB2)4
+K:Dm
+P:A
+A>G|F2E2 D2A>G|F2E2 D4|d3c B2d2|c2B2 A3c|
+B2A2 G2F2 |E2D2 C2c2|A2GF G2E2|D4 D2||
+P:B
+z2|c2c2 c2de |f2F2 F3F |B2A2 G2F2|E2D2 C4 |
+F2F2 G3G  |A2A2 f4  |f2F2 B4  |d2F2 B4 |
+B3A  G2F2 |E2D2 C2c2|A2GF G2E2|D4 D2||
+S:https://www.folktunefinder.com/tunes/183969
+S:http://www.tomkeays.com/morris/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:cotswold:adderbury:2_princess_royal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

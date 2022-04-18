@@ -1,0 +1,30 @@
+X:136
+U: ~ = !turn!
+%%topmargin 3cm
+T:Mullin's Fancy
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Packie Dolan
+R:Reel
+L:1/8
+M:C|
+K:D
+af ~f2 eB ~B2 | ~d3 e fa a2 | Pf2 df eB ~B2 | AF ~F2 EF D2 |
+~d3 f eB ~B2 | ~d3 e fa ~a2 | Pf2 df eB ~B2 | AF ~F2 EF D2 ||
+{/f}a2 {/b}a^g afdf | afdf afde | {/f}a2 {/b}ag afdf | gfed Bdeg |
+{/f}a2 {/b}a^g afdf | a2 {/b}af gfga | ((3bag) ((3agf) gfef | g2 gf ~g3 f |]
+S:https://www.folktunefinder.com/tunes/94732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Mullins_Fancy_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Mullins_Fancy_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

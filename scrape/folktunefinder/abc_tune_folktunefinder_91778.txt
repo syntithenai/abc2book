@@ -1,0 +1,27 @@
+X:8719
+T:Knocknagow
+Z: id:dc-jig-159
+M:6/8
+L:1/8
+K:A Dorian
+zG|EAB c3|EGF GED|EAB cBc|d^cd e=cA|!
+EAB c3|EGF GAB|Aag edB|cAA A:|!
+zG|A2a a^ga|ede gfg|A2a ae^c|def gdB|!
+A2a a^ga|ede gfg|Aag edB|cAA A:|!
+K:A Major
+cd|e2c dcB|cAF E3|AGA cBc|dcd Bcd|!
+e2c dcB|cAF E3|Ace aed|cdB A:|!
+cd|eaf =g3|aga ecA|d2f c2e|dcd Bcd|!
+ecA fdB|aga ecA|deg aed|cdB A:|!
+S:https://www.folktunefinder.com/tunes/91778
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:470
+T:Earl's Chair, The
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+K:Bm
+"Bm"B2dB BAFA|"G"B2dB BAFB|"D"AF~F2 DF~F2|AFdB ADFA|
+"Bm"B2dB BAFA|"G"B2dB BAFB|"D"AFAB defd
+|1 "A"edef "D"d3A:|2 "A"edef "D"d3f||:
+"A"~e3f "D"d2df|"A"edef "D"dBA2|"A"~e3f "D"dcde|"Bm"fedB ADFA|
+"A"~e3f eB~B2|"G"gB~B2 defg|"D"afbf "G"afeg|"A"fedB "D"ADFA:||
+S:https://www.folktunefinder.com/tunes/97438
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

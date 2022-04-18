@@ -1,0 +1,32 @@
+X:8225
+T:Johnson's Book,From. CJF.097
+M:6/8
+L:1/8
+Q:60
+C:"From J. Johnson's Book"
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:Final note of 1st section is G not G2 in MS. There is no repeat sign in
+N:the last bar. - PJH.
+Z:P J Headford 2000
+K:G
+G|GBdd2G|Gcee2d|dcB ABc|c3B2G|!GBd dcB|\
+c/B/c/d/e/f/ gfe|dgBdcA|G3G2:|:!d|dc'ba2g|
+fa/g/f/e/ d/e/d/c/B/c/|dc'ba2g|fa/g/f/e/ d/e/d/c/B/c/|!\
+GBdd2G|c/B/c/d/e/f/ gfe|dgb agf|a3g2||
+S:https://www.folktunefinder.com/tunes/126604
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

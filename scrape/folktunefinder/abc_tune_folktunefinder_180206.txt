@@ -1,0 +1,25 @@
+X:1752
+T:The Old Story Teller
+M:2/4
+L:1/16
+N:"collected by J. O'Neill"
+B:O'Neill's 1752
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+   ((3DEF) |   G2GA  BcdB |    cBcd e2((3def) |    gfge    dBGB | cBAG FADF |
+              G2(GA) BcdB | {d}cBcd   e^deg   |    bgdB {d}cAFD | G2G2 G2  :|
+|: ((3def) | {a}gfga bgdB | {d}cBcd   ecAc    | {a}gfga    bgdB | cdef g2(ga) |
+            ((3bag) fa ((3gfe) df | ((3edc) ge dBGB | dgfg fdcA | G2G2 G2  :|
+S:https://www.folktunefinder.com/tunes/180206
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1752_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

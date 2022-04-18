@@ -1,0 +1,30 @@
+X:10448
+T:Mason's Apron, The
+R:Reel
+O:Ireland
+O:England
+O:Scotland
+O:Shetland
+O:USA
+M:4/4
+K:A
+c2A2 ABAF|EFAB cABc|d2B2 BcBA|GABc defg|\
+a2A2 cBAF|EFAB cABc|
+dcde fgaf\
+|1edcB A3B :|2 edcB A2 |:\
+ed|\
+c2ec fcec|Acec fedc|
+d2fd gdfd|d2fd gfed|\
+c2ec fcec|Acec fedc|dcde fgaf|edcB A2 :|
+S:https://www.folktunefinder.com/tunes/98230
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

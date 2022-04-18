@@ -1,0 +1,32 @@
+X:19136
+T:Xota de L.laciana (MG 37)
+T:Jota de L.laciana (MG 37)
+R:Xota
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+O:L.laciana
+A:Asturies
+Z:Mtodu de Gaita 37
+E:Nivel 3
+M:3/8
+L:1/8
+Q:3/8=100
+K:Cm
+|:C>CC|CD{F}E|{G}E2 D-|D3|
+B,>B,{A}B,|{A}B,CD|~D2 C-|C3|C>CC|
+CD{F}E|{G}E2 D-|F2 E|~D2 B,-|B,CD|
+~D2 C-|C2- C/2 z/:||: CD{F}E|F2 E|CFE|
+~C2 =B,|{A}=B,CD|{F}E2 ~D|=B,{A}B,{A}B,|
+[1 C2 C :|[2 C3-|C2 z||
+S:https://www.folktunefinder.com/tunes/94427
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xota
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

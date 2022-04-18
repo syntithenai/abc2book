@@ -1,0 +1,38 @@
+X:765
+T: Snow on the Roof (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A|"G"GABd g2 gf|"Em"eBBc "Bm"dBAF|"C"EG"D"FD "Em"EB (3B^AB|"Bm"dBAF "D"DFAF|
+[V:2] z|G,,2[G2D2B2]D,2[G2D2B2]|E,2[B2E2G2]B,,2[B2D2F2]|C,2[D2A2F2]E,,2[E2G2B2]|\
+B,,2[B2D2F2]D,2[D2A2F2]|
+%
+[V:1] "G"GABd gfga|"Em"beef "C"gfef|"Am"gecA "G"Bdgd|"D7"cAFD "G"G3 :|
+[V:2] G,2[G2D2B2]D,2[G2D2B2]|E,2[B2E2G2]C,2[C2G2E2]|A,,2[A2E2C2]G,,2[G2D2B2]|\
+D,2[A2C2F2]G,,2[GDB]:|
+%
+[V:1] d|"Em"edeg "Bm"abbg|"G"abbg "D"agef|"C"ge"D"df "Em"eBBA|"C"GE"D"FD "Em7"EDB,D|
+[V:2] z|E,2[B2E2G2]B,,2[B2D2F2]|G,,2[G2D2B2]D,2[D2A2F2]|[C,2G,2E2][D,2A,2F2]\
+[B,4E,4G4]|[C,2G,2E2][D,2A,2F2][E,4B,4D4G4]|
+%
+[V:1] "Em"EDEG "Bm"ABBd|"C"edeg "Bm"ab (3b^ab|"C"gece "G"dgbg|"D7"fdcA "G"G3 :|
+[V:2] E,2[B2E2G2]B,,2[B2D2F2]|C,2[C2G2E2]B,,2[B2D2F2]|C,2[C2G2E2]G,,2[G2D2B2]|\
+D,2[A2C2F2]G,,2[GDB] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87038
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:465
+T: Larry Reynolds' (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] "Am"e2 ce aece|"G"gfge dBGB|"Am"AGAB (3cdc BA|"G"GABA GEDG|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "Am"E2 AE cEAE|"G"D2 GA BAGA|"Am"c2 AB "Am7"cBAG|"Em7"EDEG "Am"A4 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,,2[E2C2G2]|\
+E,2[E2B2G2][A,,4C4E,4]:|
+%
+[V:1] "Am"eAcd eaaf|"G"g2 fg edcB|"Am"c2 ec acec|"Em"B2 eB "G"gBeB|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+E,2[E2B2G2]G,,2[G2B2D2]|
+%
+[V:1] "Am"eaa^g aba=g|"C"ec"G"dB "Am"cBAG|"Am7"AGAB c2 BA|"Em"GEDB, "Am"A,4 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|[C,2E,2G,2][G,2B,2D,2][A,2C2E,2][A,2C2E2]|\
+A,,2[G2C2E2]E,,2[E2C2G2]|E,2[E2B2G2] [A,,4C4E,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86978
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 1
+T: Lady Montgomerie [G]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: G
+B \
+| "G"G2GD B,CDB, \
+| "Em"G2GE "D7"FGAB \
+| "G"G2GD B,CDB, \
+| "Am"A,A AG "D7"FGAB \
+| "G"G2GD B,CDB, |
+| "Em"GBGE "D7"FGAB \
+| "G"GdBG DB,DB, \
+| "Am"A,A AG "D7"FGAB \
+|]| "G"G2dG BG"(D)"d2 \
+| "G"G2dG Bcdg \
+| "G"G2dG BGd2 |
+| "Am"cBAG "D7"FGAB \
+| "G"G2dG BGd2 \
+| Ggdc Bcde \
+| dBcA "(Em)"BGAF \
+|1 "C"GEDB, "D7"A,A A \
+:|2 "C"GE"D7"DB, "G"G,3 |]
+S:https://www.folktunefinder.com/tunes/170966
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyMontgomerie16_G.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

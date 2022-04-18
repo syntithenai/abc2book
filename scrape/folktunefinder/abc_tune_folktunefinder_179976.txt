@@ -1,0 +1,32 @@
+X:1000
+T:"The Old Grey Goose"   (doublejig)   1000   ABC  MIDI
+C:after Sg't J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(E/2F/2)|GBG FAF|GEE E2F|DFA dAG|FDD DEF||
+GFG AGA|"^mordent"BAB gfg|edB {c}BAF|GEE E2:|
+|:F|G2G dBG|GA(B/2c/2) dBG|A2A ecA|AB(c/2d/2) ecA|
+GAG dBG|ege {a}gfg|edB"^mordent"BAF|GEE E2:|
+|:d|efe edB|def g2e|fdd add|fag fed||
+gfg fef|def {a}gfg|edB"^mordent"BAF|GEE E2:|
+|:c|BGG AFF|GEE E2c|BGG dAG|FDD D2c||
+BGG AGF|GEE {a}gfg|edB"^mordent"BAF|GEE E2:|
+|:f|gbg faf|gee e2f|gbg fag|fdd def||
+gbg faf|ege {a}gfg|edB"^mordent"BAF|GEE E2:|
+|:f|gdc BcA|GEE E2f|gdB dAG|FDD DEF||
+G3({B}A)GA|BcB {a}gfg|edB"^mordent"BAF|GEE E2:|
+S:https://www.folktunefinder.com/tunes/179976
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/1000-OldGreyGoose.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/1000-OldGreyGoose.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

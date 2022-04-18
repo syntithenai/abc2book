@@ -1,0 +1,30 @@
+X: 220
+T: Rock in the River (jig)
+C: BB 1/06
+N: 182057
+L: 1/8
+M: 6/8
+R: jig
+Q: 340
+K: G
+G | "G" BAG BAG | "Bm" BAB Bcd |\
+"G" BAG BAG | "D" ABA FED |
+"G" BAG BAG | "Bm" BAB Bcd |\
+"C" ege "G" dcB | "D" AFA "G" G2 :|
+D | "Em" EBB "Am" cBA | "D" d^cd "G" BAG |\
+"Em" EBB "C" cde | "G" dcB "D" A2 D |
+"Em" EBB "C" cBc | "D" d^cd "Em" efg |\
+"G" bag "Em" efg | "D" dBA "G" G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86668
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

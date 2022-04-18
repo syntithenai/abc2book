@@ -1,0 +1,26 @@
+X:375
+T:the Devil's Dead
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%RRN:The first part of this contains a lot of guesswork; see mss.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e25.html
+%%ID:00000e25
+K:A
+e | \
+cAec dBfd | cAec e/f/gae | cAec dBfd | cA c/d/e f2e2 ::
+g | \
+afec dBBg | agae gfeg | afec dBgd | cA (c/d/)e f2 e2 ::
+%page:45
+S:https://www.folktunefinder.com/tunes/95706
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

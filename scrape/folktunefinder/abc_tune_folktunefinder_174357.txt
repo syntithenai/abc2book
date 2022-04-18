@@ -1,0 +1,31 @@
+X: 1
+T:Maricensko
+O:Bulgaria
+M:6/8
+L:1/8
+Q:1/4=200
+K:CPhr
+|:"C"CGGG3|"Bbm"F=ED"C"C3|=E2FG3|"Bbm"BAF"C"G3|\
+"C"CGGG3|"Bbm"F=ED"C"C3|B,CCC3|"Bbm"F=ED"C"C3:|
+|:"C"B,CCC3|"Bbm"F=ED"C"E3|=EFG"Fm"A3|AGF"C"G3|\
+"Eb"GAB"Bbm"B2A|B3 "C"G3|"Eb"BAG "C"GF=E| "Bbm"F=ED "C"C3:|
+|:"Eb"GAB"Bbm"BAB|B3"Fm"AGF|"Bbm"Bdc"Eb"BAG|BAG"C"G3|\
+"Eb"GAB"Bbm"BAB|B3"Fm"AGF|"C"AGG"Bbm"F=ED|"C"C6:|
+|:"Bbm"B,CDD2D|D2DD2D|"C"B,CC B,CC|C6|\
+"Bbm"B,CDD2D|D2DD2D|"C"B,CC B,CC|C6:|
+|:"Bbm"B,3 B3|"Fm"AGF "C"=E3|=E3 G3|"Db"F=ED "Fm"C3|\
+"Bbm"B,3 B3|"Fm"AGF "C"=E3|=E3 G3|"Db"F=ED "Fm"C3:|
+|:"Fm"F3 A3|"C"G3 "Fm"F2=E|F3 A3|"Db"F=ED "Fm"C3|\
+"Fm"F3 A3|"C"G3 "Fm"F2=E|F3 A3|"Db"F=ED "Fm"C3:|
+"C"G3"Fm"BA2|"C"G3"Fm"BA2|"C"G3"Fm"BA2|"C"G3"Fm"FF2|\
+"C"G3"Fm"BA2|"C"G3"Fm"BA2|"C"G3"Fm"BA2|"C"G3"Fm"FF2|
+S:https://www.folktunefinder.com/tunes/174357
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Maricensko_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

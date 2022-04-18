@@ -1,0 +1,18 @@
+X:1
+T:The Mule Song
+M:6/8
+L:1/8
+K:F
+ C| C2 C F2 G| A2 A B2 A| G D2- D3-| D3 E2- D| CCC EEG| c c2 G2 ^G|\
+ A6-| A3 C3| C2 C F2 G| A2 A B2 A| G D3- D2-| D3 E2 D| CCC E2 G| c B2 D2 E|\
+ F6-| F3| C3| C C2 FFG| A2 A B2 A| G D2- D3-| D2 E E2 D| C2 C E2 G|\
+ c c2 G2 ^G| A6-| A3 C3| C2 C F2 G| AAA B2 A| G D2- D3-| D6| C C2 E2 G|\
+ c B2 D2 E| F6-| F6|
+S:https://www.folktunefinder.com/tunes/177621
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MULESONG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

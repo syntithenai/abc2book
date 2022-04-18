@@ -1,0 +1,35 @@
+X:870
+T: White Lightning, My Ass! (with piano acc.)
+C: BB
+N: Refers to an actual beast of burden (details on request)
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: A
+[V:1] E |"A"Afe cBA | "Bm"BAB "F#m"cAF | "A"EFA "Bm"BAB | "A"cdc "E"B2 E |
+[V:2] z|A,,2[AEC]E,2[AEC]|B,,2[BFD]F,2[FCA]|A,,2[AEC]B,,2[BFD]|A,,2[AEC]E,2[EBG]|
+%
+[V:1] "A"Afe cBA | "Bm"BAB "F#m"cAF | "E"EGB "E7"dcB | "A"cAA "A"A2 :|
+[V:2] A,,2[AEC]E,2[AEC]|B,,2[BFD]F,2[FCA]|E,2[EBG]B,,2[DGB]|A,,2[AEC][A,,2E2C2]:|
+%
+[V:1] B|"A"ecA ecA |"Bm"fdB fdB | "E"gfg gab | "A"aga "E"gfe |
+[V:2] z|A,,2[AEC]E,2[AEC]|B,,2[BDF]F,,2[BDF]|E,2[EBG]B,,2[EBG]|A,,2[AEC]E,2[EBG]|
+%
+[V:1] "A"ecA ecA |"Bm"dBF dBF | "E"EGB "E7"dcB |"A"cAA "A"A2 :|
+[V:2] A,,2[AEC]E,2[AEC]|B,,2[BDF]F,,2[BDF]|E,2[EBG][E3B3D,3G,3]|[A,3E3C,3][A,,2E,2C2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87059
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

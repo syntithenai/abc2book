@@ -1,0 +1,33 @@
+X:1
+T:Piere Labora
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+C:traditionell
+R:Bourree
+D:Trio Violon" La concordence des Temps" Silex Y 22500
+K:C
+d3cd2 | e2d4 | cdc2B2 | AGABc2 |
+d3cd2 | e2d4 | cdc2B2 |1 A6 :|\
+                      [2 A4c2 ||
+|:\
+B2AGAB | A2D4 | (DFG2) (AB | G2) (ABc2) |
+B2 AGAB  | A2 D4 | (DFG2) (AB |1 G4) c2 :|\
+                              [2 G6 |]
+S:https://www.folktunefinder.com/tunes/182385
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/piere_labora.abc
+% Rhythm Bourree a trois temps
+% Rhythm Bourree
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

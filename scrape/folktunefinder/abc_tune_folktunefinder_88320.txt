@@ -1,0 +1,26 @@
+X:815
+T:a good Hormpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%RRN:"James Winder 1835"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001081.html
+%%ID:00001081
+K:Bb
+DC | \
+B,DFB dBFD | CEGc ecGE |   DB,FB, FBdB | c2c2 c2DC | \
+B,DFB dBFD | CEGc ecGE | ! DFEG Ffed | d2B2 B2 :: \
+de | \
+fBB2 dff2 |  dfBf dfbf | ! egeg dfdf | c2F2 F2 dc | \
+BFDB, B,DBd | EGce dBFD | dfBd ceAc | B2B2 B2 ::
+S:https://www.folktunefinder.com/tunes/88320
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

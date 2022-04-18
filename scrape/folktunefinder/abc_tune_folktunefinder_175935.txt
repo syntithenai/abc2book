@@ -1,0 +1,58 @@
+X:1062
+T:Minuet
+C:Johann Philipp Krieger
+O:Germany
+R:Minuet, menuett
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/krieger-johann-philipp/krieger-menuett/krieger-menuett-pno1.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+Q:1/4=118
+K:Am
+V:1
+e2 c2 A2|f6|d2 B2 G2|e6|
+V:2
+A,6|D,2 E,2 F,2|G,6|C,2 D,2 E,2|
+%
+V:1
+A3c BA|^G2 E2 e2|dc B3A/B/|A6:|
+V:2
+F,2 C,2 D,2|E,4 C,2|D,2 E,2 E,,2|A,,6:|
+%
+V:1
+|:c2 d2 e2|A6|B2 c2 d2|G6|
+V:2
+|:A,4 G,2|F,2 E,2 D,2|G,4 F,2|E,2 D,2 C,2|
+%
+V:1
+A2 B2 c2|B2 G2 g2|fe d3c/d/|c6|
+V:2
+F,2 G,2 A,2|G,3F, E,2|F,2 G,2 G,,2|C,3D, C,B,,|
+%
+V:1
+e2 c2 A2|f6|d2 B2 G2|e6|
+V:2
+A,,6|D,2 E,2 F,2|G,6|C,2 D,2 E,2|
+%
+V:1
+A3c BA|^G2 E2 e2|dc B3A/B/|A6:|
+V:2
+F,2 C,2 D,2|E,3D, C,2|D,2 E,2 E,,2|A,,6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/krieger-johann-philipp/krieger-menuett/krieger-menuett-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/krieger-johann-philipp/krieger-menuett/krieger-menuett-pno1.abc
+% Rhythm Minuet, menuett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

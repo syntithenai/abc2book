@@ -1,0 +1,24 @@
+X:1
+T:Ride Stphane Morvan
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+S:Stphane Morvan
+A:Bretagne
+N:Premire partie rythme  3 temps, deuxime partie rythme  4 temps
+M:3/4
+L:1/8
+K:D
+F>c A2 c2|B>B A>G F>E|F>c A2 c2|B>B A>G F2::
+M:4/4
+F>A G>F =F2 ^F2|F>A G>A B>c c2|B>c A>F G>A F2:|
+S:https://www.folktunefinder.com/tunes/185498
+S:http://termen.free.fr/danses/vannetais/RideeStephaneMorvan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

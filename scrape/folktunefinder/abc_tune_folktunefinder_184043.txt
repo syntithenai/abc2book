@@ -1,0 +1,31 @@
+X:1
+T:Promenons-nous dans les bois...
+C:... tant que le loup n'y est pas !   Fichier ABC par Bernard Loffet
+L:1/8
+Q:360
+M:6/8
+K:C
+ [GG,,]G [GG,][G2G,,2]G, | [A2D,,2][AD,] [D2D,,2]D, | [G2G,,2][GG,] [G2G,,2][GG,] | \
+ [A2D,,2][AD,] [D2D,,2]D, | [G2G,,2][GG,] [G2G,,2]G, | [A2D,,2]D, [B2G,,2]G, | [A2D,,2][GG,] [A2D,,2]D, | \
+ [d2D,,2]D, [G2G,,2]G, | [G2G,,2][GG,] [G2G,,2]G, | [A2D,,2]D, [B2G,,2]G, | [A2D,,2][GG,] [A2D,,2]D, | \
+ [d2D,,2]D, [G3G,,3] | \
+M:4/4
+ [d4G,,4G,4] [d4G,,4G,4] | [d8D,,8D,8] | [d4G,,4G,4] [d4G,,4G,4] | [d8D,,8D,8] | [d4G,,4G,4] [d4G,,4G,4] | \
+ [d8D,,8D,8] | [D4D,,4D,4] [G4G,,4G,4] | [D4G,,4G,4] [A4D,,4D,4] | [D8D,,8D,8] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/184043
+S:http://diato.ifrance.com/diato/tablat/245.abc
+S:http://diato.ifrance.com/tablat/245.abc
+S:http://diato.org/tablat/245.abc
+S:http://perso.orange.fr/diato/tablat/245.abc
+S:http://perso.wanadoo.fr/diato/tablat/245.abc
+S:http://pro.wanadoo.fr/diato/tablat/245.abc
+S:http://www.diatonique.net/tablat/245.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

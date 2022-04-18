@@ -1,0 +1,22 @@
+X: 1
+T:Maturin-Maturine (bal)
+C:Traditionnel
+D:Orgue et Bombarde
+P:F5
+M:12/8
+K:C
+P:F
+Q:C3=60
+|: "Am"ABc "F"HA2 c "G"HB2 G "Am"HA3|ABc "C"Hece "Dm"Hd2 c "Em"HB3 :|
+Q:C3=156
+"Em"Bcd "C"e2 c e2 c "F"A3 | AGA "G"B2 e edc "Em"B3 |\
+        Bcd "C"e2 c e2 c "F"A3 | AGA "G"Bdc "F"A2 "G"G "Am"A3 ||
+S:https://www.folktunefinder.com/tunes/174777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Maturin_Maturine_bal_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

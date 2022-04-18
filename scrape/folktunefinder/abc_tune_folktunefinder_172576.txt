@@ -1,0 +1,29 @@
+X: 1
+T: Liz's
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+Bcd | e3 Tfed | eAA Bcd |eAA gfe | dBG Bcd |
+eAA Tfed |  eAA Bcd | Tg3 gfe | dBG Bcd | e3 Tfed |
+eAA Bcd |eAA gfe | dBG Bcd | eAA Tfed |  eAA Bcd |
+g3 Tgfe | dBG BdB | A2a aea | aea aea | A2a aef |
+gfe dBG | A2a aea |  aea aef | Tg3 gfe | dBG BdB |
+A2a aea | aea aea | A2a aef | gfe dBG | A2a aea |
+aea aef | A2a aef | Tg3 gfe | dBG BdB | G6 ||
+a3 g3 | A2e e3 |  A2e e3 |  A2e e3 | G2 d d3 |
+A2e e3 |  A2e e3 | BAG c2 A | G2G z3 | A2e e3 |
+A2e e3 | A2e e3 | G2 d d3 | A2e e3 | A2e e3 |
+BAG c2A | G2G z3 | Ace A2e | A2e A2e | Ace A2e |
+G3 G2G | Ace A2e | A2e A2e | BAG c2A | G2G z3 |
+Ace A2e | A2e A2e | Ace A2e | G3 G2G | Ace A2e |
+A2e A2e | Ace A2e | BAG c2A | G3 G3 | G6 ||
+S:https://www.folktunefinder.com/tunes/172576
+S:http://www.thesession.org/tunes/display/4704
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

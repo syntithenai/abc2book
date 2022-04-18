@@ -1,0 +1,23 @@
+X:7942
+T:Jess MacFarlan
+T:Ay Waukin O
+S:Scots Musical Museum #213
+G:song
+M:3/2
+L:1/4
+K:AMix
+% A major/mixolydian hexatonic
+d2d>c B2A2 F4  |d3 c B2e2 c2A>A|
+d2d>c B2A2 F3 A|B2Bc d2c2 B2A2||
+F4    F2F2 E4  |F2F2 F2A2 B2d2 |
+F2F2  F2F2 E2FA|B2A2 d3 c B2A2|]
+S:https://www.folktunefinder.com/tunes/126321
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

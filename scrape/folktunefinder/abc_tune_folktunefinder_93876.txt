@@ -1,0 +1,27 @@
+X:1050
+T: Melodious Foot of the Glen
+S: "The Roche Collection of Traditional Irish Music" [I/73/191]
+L: 1/8
+M: 4/4
+R: reel
+K: D
+(3ABc |: dcdf edcB | A2 (3FED FAAB | dcdf ecdB | BAFA FE (3FED :|
+Beee egfe | defg afdf | e2 ef g2 fe | dBA=c BEED |
+Beee egfe | defg afdf | gfge fgfe | dBA=c BEED |]
+P: alternate setting % [III/26/86]
+AF | D2 FA A2 FA | Adfd edfd | D2 FA A2 FA | BdAF EDEF |
+D2 FA A2 FA | Adfd edfd | B2 AF ABde | fafd e2 d2 ||
+fa a2 afdf | gefd eB B2 | fa a2 afdf | g2 fg e2 d2 |
+fa a2 afdf | gefd eB B2 | B2 AF ABde | fafd edBA ||
+S:https://www.folktunefinder.com/tunes/93876
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

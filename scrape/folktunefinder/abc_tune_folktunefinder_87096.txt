@@ -1,0 +1,55 @@
+X: 9011
+T: Bal Bocht (An) (with piano acc.)
+N: = "The Poor Mouth"
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Em
+[V:1] "Em"E3 B "G"GFGA | "Bm"BABd "Em"e2 ef | "G"gefd "Em"efdB | "Am"AcBA "G"GB"D"AF |
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|B,,2[F2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]E,2[E2B2G2] |\
+A,,2[E2C2A2][G,2][D,2A,2F2]|
+%
+[V:1] "Em"E3 B "G"GFGA | "Bm"BABd "Em"e2 ef | "G"gbge "Bm"fdBc | "D"dBAF "Em"GE E2 :|
+[V:2] E,2 [E2B2G2]G,,2[G2B2D2]|B,2[F2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+D,2[A2F2D2][B,4E,4G4]:|
+%
+[V:1] "Em"eBBe "G"gBBg | "D"fddf a2 ^ga | "Em"b2 ge b2 ge | "Am"AcBA "Em"GE E2 |
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|D,2[A2F2D2]A,,2[A2F2D2]|E,2[E2B2G2]B,,2[E2G2B2]|\
+A,,2[E2C2A2]E,2[E2B2G2]|
+%
+[V:1] "Em"eBBe "G"gBBg | "D"fddf a2 ^ga | "Bm"bagf "Em"egfe | "D"dBAF "Em"GE E2 :|
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|D,2[A2F2D2]A,,2[A2F2D2]|B,,2[F2B2D2]E,2[E2B2G2]|\
+D,2[A2F2D2][B,4E,4G4] :|
+%tune repeat
+[V:1] "Em"E3 B "G"GFGA | "Bm"BABd "Em"e2 ef | "G"gefd "Em"efdB | "Am"AcBA "G"GB"D"AF |
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|B,,2[F2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]E,2[E2B2G2] |\
+A,,2[E2C2A2][G,2][D,2A,2F2]|
+%
+[V:1] "Em"E3 B "G"GFGA | "Bm"BABd "Em"e2 ef | "G"gbge "Bm"fdBc | "D"dBAF "Em"GE E2 :|
+[V:2] E,2 [E2B2G2]G,,2[G2B2D2]|B,2[F2B2D2]E,2[E2B2G2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+D,2[A2F2D2][B,4E,4G4]:|
+%
+[V:1] "Em"eBBe "G"gBBg | "D"fddf a2 ^ga | "Em"b2 ge b2 ge | "Am"AcBA "Em"GE E2 |
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|D,2[A2F2D2]A,,2[A2F2D2]|E,2[E2B2G2]B,,2[E2G2B2]|\
+A,,2[E2C2A2]E,2[E2B2G2]|
+%
+[V:1] "Em"eBBe "G"gBBg | "D"fddf a2 ^ga | "Bm"bagf "Em"egfe |1 "D"dBAF "Em"GE E2 :|2\
+"D"dBAF "Em"GE E2-|E4 z4|z8||
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|D,2[A2F2D2]A,,2[A2F2D2]|B,,2[F2B2D2]E,2[E2B2G2]|1\
+D,2[A2F2D2][B,4E,4G4] :|2 D,2[A2F2D2][B,4-E,4-G4-]|[B,4E,4G4] z4|z8||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87096
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

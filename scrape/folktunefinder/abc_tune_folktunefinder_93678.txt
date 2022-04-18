@@ -1,0 +1,22 @@
+X:50
+T: Martin Wynne's Strathspey
+C: Martin Wynne
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+DEGA BGdB|AcBA GDB,C |DEGA BGDB, |CEDC B,G, G,2 :|
+BGGB cAFA|GFED B,DGA |BGGB cAFD |ECA,C B,G, G,2 |
+BGGB cAFA|BDGB ABcd |edge dBAG |ECA,C B,G, G,2 ||
+S:https://www.folktunefinder.com/tunes/93678
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

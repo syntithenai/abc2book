@@ -1,0 +1,25 @@
+X:260
+T: Banner
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: Edor
+B, | E2 F GFE | BAB dBA | BdB B2 A | GBG AFD |
+EB,E GEG | BAB dBA | BAG FAF | GEE E2 :|
+B | e2 f gfe | g2 a bge | dcd fed | fag fed |
+e2 f gfe | bge dBA | BAG FAF | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/93551
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

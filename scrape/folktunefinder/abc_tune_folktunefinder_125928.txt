@@ -1,0 +1,26 @@
+X:7549
+T:In Search Of Love
+R:jig
+M:6/8
+L:1/8
+K:C
+e | fed edc | {d}cAB c3 | dcA GFC | DFc  deg |
+f2d {f}edc | {d}cAB cBc  | dcA GFD | =FGA d3 |
+fed edc | {d} cAB ~c3 | dcA GFC | DFc deg |
+f3 edc | {d}cAB c3 | dcA GFD | =FGA d=cd |
+dBA F2 D | [E2G,2] [GG,] [F2G,2] A | dBA G=FG |  A d{e}d def |
+dBA [F2G,2] [DG,] | [E2G,2] [DG,] [D2G,2] G | DFA GFG | =FGA d=cd |
+dBA FDF | EGE DEG | DFA G=FG | A d{e}d def |
+dBA F2 D | E{F}EG ~c3) | dBA GFC | =FGA d3 |
+S:https://www.folktunefinder.com/tunes/125928
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

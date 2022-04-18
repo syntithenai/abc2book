@@ -1,0 +1,24 @@
+X:1570
+T:"The Real Thing"  (hornpipe)    1570
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+"_vb"(d3/2B/2)| (3(ABA) F3/2A/2 f3/2d/2A3/2d/2|(3(BdB) G3/2B/2 g3/2d/2B3/2d/2| (3(cdc) A3/2c/2 g3/2e/2c3/2e/2|d3/2c/2d3/2f/2 a3/2f/2d3/2B/2|
+(3(ABA) F3/2A/2 f3/2d/2A3/2d/2|(3(BdB) G3/2B/2 g3/2d/2B3/2d/2|(3(cdc) A3/2c/2 g3/2e/2c3/2e/2|d2f2 d2:|
+|:(3(ABc)|d2f3/2d/2 d3/2f/2e3/2d/2|f2a3/2f/2 f3/2d/2g3/2B/2|A3/2d/2c3/2B/2 A3/2G/2F3/2E/2|d3/2f/2a3/2f/2 g3/2e/2c3/2A/2|
+d2f3/2d/2 d3/2f/2e3/2d/2|f2a3/2f/2 f3/2d/2g3/2B/2|A3/2d/2c3/2B/2 A3/2G/2F3/2E/2|D2D2 D2:|
+S:https://www.folktunefinder.com/tunes/184790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1501-1600/1570-RealThing.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1501-1600/1570-RealThing.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

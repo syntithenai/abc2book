@@ -1,0 +1,32 @@
+X: 1
+T: Lewis Bridal Song
+T: Mairi's Wedding
+C: Johnny Bannerman, 1935
+N: Written for Mary McNiven, born in 1908, and still alive in 1998.
+N: Her wedding to Captain John Campbell was actually six years later, in 1941.
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+P: A
+f \
+|: "D"A>A AB | de f2 | "G"ed Bd | "A7"fe fa \
+|  "D"A>A AB | de f2 | "G"ed BG | "A7"A2 A2 |]
+P: B1
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"a>a ab | ag f2 | "G"ed BG |1 "A7"A2 A2 :|2 "A"AB/c/ d/e/f/g/ |]
+P: B2
+[| "D"a>a ab | ag f2 | "G"ed Bd | "A7"fe f<a \
+|  "D"A>A AB | de fg | "G"a>f "A7"fe | "D"d2 z2 |]
+S:https://www.folktunefinder.com/tunes/171996
+S:http://trillian.mit.edu/~jc/music/book/500/LewisBridalSong.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

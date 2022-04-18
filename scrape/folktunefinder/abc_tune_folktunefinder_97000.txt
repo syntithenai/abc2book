@@ -1,0 +1,32 @@
+X: 1
+T: The Aitken Drum
+Z: John Chambers <jc@trillian.mit.edu>
+B: RSCDS Graded
+M: C
+L: 1/8
+K: G
+[| [GB,][AC] | "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "(C)"[E2C] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G4B,] [G2B,] ||
+|| [GB,][AC] | "G"[B2D] [B2D] [B2D] [AC][GB,] \
+| "C"[c4E] [e2G] [c2E] | "G"[B2D] [d2G] "(C)"[B2D] [G2E] | "Am"[B2G] [A2F] "D7"[A2F] [GB,][AC] \
+| "G"[B2D] [B2D] [B2D] [AC][GB,] | "C"[E4C] [G3E][EC] \
+| "G"[D2B,] [D2B,] "D7"[E2C] [F2C] | "G"[G4B,] [G2B,] |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/97000
+S:http://trillian.mit.edu/~jc/music/book/500/AitkenDrum_x.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

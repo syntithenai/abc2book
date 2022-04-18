@@ -1,0 +1,26 @@
+X: 057
+T: Johnny by Golly! (h'pipe)
+N: 100030
+C: BB
+R: hornpipe
+Q: 330
+M: C|
+L: 1/8
+K: D
+E|"Bm"DB,DE FEFG|"D"AF (3ABc defd|"Em"egfe "Bm"dBAB|"D"dF (3FEF "A"ECA,C|
+"Bm"DB,DE FEFG|"D"AF (3ABc de f2|"Em"egfe "Bm"dBFB|"A7"AGEC "D"D3 :|
+A|"G"BGBd "A"cAce|"D"dfaf "G"gdBG|"Bm"FABF "G"GBdg|"Bm"fdBG "A"A2 FA|
+"G"BG (3FGF "A"cA (3ABA|"D"dcdf "Em"efge|"Bm"fdBd "G"GBdB|"A7"AGEC "D"D3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86744
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

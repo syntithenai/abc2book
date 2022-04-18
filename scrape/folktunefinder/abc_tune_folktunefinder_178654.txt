@@ -1,0 +1,24 @@
+X:1
+T: the New Town of Edinburgh
+C:Iain MacPhail ()
+S:Radio Scotland, Dec 1991
+N:As played by the Iain MacPhail Band
+Z:Nigel Gatherer <gatherer@argonet.co.UK>
+M:4/4
+L:1/8
+K:D
+A2 \
+| d2cd BdAG | FGAG FDAc | d2cd BdAd | GdFd E3A | d2cd BdAG |
+| FGAG FAFD | B,DGB cABc | dDDC D2 |[| A2 | F2=F^F EFDE | FDFA GFED |
+| G2FG =FGE^F | GFGA BABd | F2^E^F EFDE | FDFA GFED | B,DGB cABc | dDDC D2 |]
+S:https://www.folktunefinder.com/tunes/178654
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/NewTownOfEdinburgh_D3_16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:100
+U: ~ = !turn!
+%%topmargin 3cm
+T:Jim Kelly's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+cB | AF (3.F.F.F BFAF | DEFA BABd | eB (3.B.B.B egfe | dfed BedB |
+AF (3.F.F.F BFAF | DEFA BABd | egfg ((3efg) dB | AFGE D2 dB |
+AF (3.F.F.F BFAF | DEFA JBABd | eB (3.B.B.B GB (3.B.B.B | dfed BedB |
+AF (3.F.F.F BFAF | DEFA BABd | egfg egdB | AFGE D2 (3.A.A.A ||
+"(A" x dcde fefg | af (3.b.b.g afdf | eB (3.B.B.B gB (3.B.B.B | fedf edBd |
+AF (3{/G}(FEF) ABdf | ((3aba) ^gb afdf | gafg efdB | AFGE D2 (3.A.A.A "A)"|
+dcde f3 g | ((3agf) bf afdf | eB (3.B.B.B gB (3.B.B.B | fedf edBd |
+AF (3{/G}(FEF) ABdf | aba^g afdf | Jg2 fg efdB | AFGE D2 ||
+x4 "(A"| A2 | d3 e fefg | afbf afdf | eB (3.B.B.B gB (3.B.B.B | fedf edBd |
+AF (3{/G}(FEF) ABdf | ((3aba) ^bg afdf | g2 fg efdB | AFGE D2 "A)"|
+S:https://www.folktunefinder.com/tunes/94696
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Jim_Kellys_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Jim_Kellys_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

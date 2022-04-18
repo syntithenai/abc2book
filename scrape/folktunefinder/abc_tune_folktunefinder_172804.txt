@@ -1,0 +1,20 @@
+X: 1
+T: Long-dance From Solleron
+M: 3/4
+L: 1/8
+R: waltz
+K: Dmin
+|: ^cB | &quot;Dm&quot; A2 ^c2 d2 | &quot;A7&quot; e3 g &quot;Dm&quot; f2 | d2 fe d^c | d3 ^c A2 |
+&quot;Dm&quot; A2 ^c3 d | &quot;A7&quot; e3 g &quot;Dm&quot; f2 | d2 fe d^c | d4 :|
+|: df | &quot;Dm&quot; .a2 .g2 &quot;A7&quot; .e2 | g2 ge &quot;Dm&quot; f2 | f2 a2 &quot;A7&quot; g2 | e2 ge &quot;Dm&quot; f2 | d2 fe d^c | d4 :|
+S:https://www.folktunefinder.com/tunes/172804
+S:http://www.thesession.org/tunes/display/8297
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

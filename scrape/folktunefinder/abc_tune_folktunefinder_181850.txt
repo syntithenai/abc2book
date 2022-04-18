@@ -1,0 +1,30 @@
+X:1
+T:Pause Cafe
+C:Willi Soulette
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+Bc |\
+d2d2gf | e2e2AB | c2c2ef | (3gfed2Bc |
+d2d2gf | e2e2AB | cBcd(3cBA | G4 :|
+|: GA |\
+B3ABd | A3Bce | dedBcA | ed^cded |
+B3ABd | A3B=ce | dedBcA |1 c2B2 :|\
+                        [2 G4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181850
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/pause_cafe.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

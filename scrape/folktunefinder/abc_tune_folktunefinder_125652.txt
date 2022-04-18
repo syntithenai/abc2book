@@ -1,0 +1,23 @@
+X:1
+T:Arthur Darley's Jig, pt.1
+T:Bruckless Shore
+C:Arthur Darley
+R:jig
+M:6/8 % But second bar is 9/8!
+L:1/8
+K:D
+~A3 AGF|[M:9/8] EDC D3 d2e|[M:6/8] fgf edc|d3 d2e|
+fgf edc|dAA BAG|FED EDC|DA,B, CDE|
+Ddd Aee|Aff Agg|fed edc|d2d dcB:|
+<abc>
+S:https://www.folktunefinder.com/tunes/125652
+S:http://tomkeays.com/music/wiki/pages/playground/jigs.txt
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

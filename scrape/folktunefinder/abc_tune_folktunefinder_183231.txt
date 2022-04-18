@@ -1,0 +1,26 @@
+X: 1
+T:Polska
+R:Polska
+O:Sweden
+N:the triplets are all 3-crotchets-in-the-space-of-2. ABC doesn't bracket them all quite right (yet).
+M:3/4
+C:e. P\aa{}l Karl Persson
+A:\"Alvdalen
+K:Am
+(3A2d2B2 c>c|(3:2:4d2"tr"^f3e/d/ e>c|\
+(3A2d2B2 c>c|(3:2:4d2"tr"^f3e/d/ e2|\
+e>g a2a>g|"tr"fe/d/ e4::
+(3A2a2g2 a>e|(3:2:4f2"tr"f3e/d/ e>c|\
+(3A2a2g2 a>e|(3:2:4f2"tr"f3e/d/ e2|\
+d>c A<c BA/G/|B<c A4:|
+S:https://www.folktunefinder.com/tunes/183231
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_15.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

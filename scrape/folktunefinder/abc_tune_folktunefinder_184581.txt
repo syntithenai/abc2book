@@ -1,0 +1,29 @@
+X:0015
+T: "Raking Red Haired Pat"      (air)         0015
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after  Mr. J.  Ryan
+C:tenderly
+N:Transposed from Bb
+Q:1/4=80
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:2/4
+L:1/16
+K:C
+"_vb"(ed)|c3c (B2{cB}A2)|(Be3) d3B|A3A (Bc3)|d3B (G3A/2B/2)|
+(.c3.c) (B2{cB}A2)|(Be3)  (3(d2B2A2)|(.B3.B) (.A3.A)|A6:|
+E2|A3B (cd3)|e3^f (ge3)|a3g (fd3)|e3c A7/2E/2|
+A3B (cd3)|e3^f (ge3)|a3g (fd3)|e4 (3(e2^f2^g2)|
+a3g (^fa3)|g3f (ed3)|c3A B3c|d3B (G3A/2B/2)|
+(.c3.c) (B2{cB}A2)|(Be3)  (3(d2B2A2)|(.B3.B) (.A3.A)|A6|]
+S:https://www.folktunefinder.com/tunes/184581
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/15-RedHairedPat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

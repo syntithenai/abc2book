@@ -1,0 +1,33 @@
+X: 1
+T: Mominsko Horo
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmin
+|:[M:14/8]D2C DzG,z  D2C DzG,z|[M:13/8]D2C D2C D2C DzG,z:|
+|:[M:14/8]DEFF FGAF GFE D2C|DEFF GFAF GFE D2C|
+DEFF FGAF GFE D2G,|GFFG FE D2C DE D2G:|
+|:[M:9/8][K:Dmin]EFGE FD E2A,|GEFD EF GEF|[M:7/8]GEFD E2A,|GEFD E2A,:|
+|:[M:16/8][K:Gmaj]Bccc BAG2 GG =FE DzG,z|[M:18/8]BcBA G2GA Bzczdz cBBA|
+G2GG =FEDz BcBA G2GFGz:|
+|:[M:14/8][K:Gmin]Bccc BAG2 GG BAGz|cdcB BAG2 GGBA Gz:|
+|:[M:9/8]ABcA BG A2D|cABG AB ccA|[M:7/8]cABG A2D|cABG A2D:|
+|:[M:14/8]ABcA BG A2G FE D2C|FGGF FEDz GFFE Dz:|
+S:https://www.folktunefinder.com/tunes/176579
+S:http://www.thesession.org/tunes/display/4660
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key D
+% Time_signature 18/8
+% Time_signature 13/8
+% Time_signature 7/8
+% Time_signature 9/8
+% Time_signature 16/8
+% Time_signature 14/8
+% Has_accompaniment_chords No chords

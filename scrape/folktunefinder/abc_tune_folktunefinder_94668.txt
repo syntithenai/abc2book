@@ -1,0 +1,32 @@
+X:071
+U: ~ = !turn!
+%%topmargin 3cm
+T:First Month of Summer
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Andy McGann
+R:Reel
+L:1/8
+M:C|
+K:A
+{/d}cB | AF ~F2 E1 CE | A,ECE ((3.d.c.B) cB | AF ~F2 EA, ~A,2 | CEAB c2 ::
+Bc | ec ~c2 ecfc | ec ~c2 {/g}fefa | ec ~c2 fcec | ((3dcB) ((3cBA) Bcdf |
+ec ~c2 ecfc | ec ~c2 {/g}fefg | ((3agf) ((3gfe) fcec | ((3dcB) ((3cBA) JB2 cB |]
+S:https://www.folktunefinder.com/tunes/94668
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/First_Month_of_Summer_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/First_Month_of_Summer_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/First_Month_of_Summer_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/First_Month_of_Summer_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:0796
+T:"Philip O'Neill"    (jig)       0796
+C:after  Chief   F. O'Neill.
+N:added anacruces to preserve (jig) scansion... typesetting errors
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+G|DBB B2d|cAA A2c|BGG GFG|ABG FED|
+DBB Bcd|cAA ABc|dGG DGG|BGG G2:|
+|:B/2c/2|Bcd def|gfe fdB|ded dBG|GAG FED|
+Bcd def|gfe gdB|dGG DGG|BGG G2:|
+S:https://www.folktunefinder.com/tunes/182308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0796-PhillipONeill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

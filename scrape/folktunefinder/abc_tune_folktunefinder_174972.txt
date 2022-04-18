@@ -1,0 +1,40 @@
+X:1
+T:Mazurka des Escholiers de Saint-Gen\^et
+G:Kazimodal
+R:Mazurka
+C:Escholiers de Saint-Gen\^et, arrangement Pierre Dorgueil & http://kazimodal.trad.org
+Q:C3=110
+P:AB2
+M:9/8
+S:Escholiers de Saint-Gen\^et
+K:Em
+P:A
+%%%MIDI gchord c3fc2z2f3f
+%%MIDI gchord fzc2cz
+%%MIDI chordprog 41
+%%%MIDI chordvol 127
+%%MIDI bassprog 43
+%%MIDI bassvol 127
+%%MIDI program 73
+E3 \
+P:B
+|: "Em"B3 B2c d2e | "CM7"B6 c2B |\
+"D"A3 B3/2A3/2 G3/2A3/2 | "Em"B2c B3/2A3/2 G3/2A3/2 |
+B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 G2F |1 "Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
+|: "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
+"Em"B3 B3/2"D"A3/2 B2c | "Em"B3 B3 e3/2d3/2 |
+"Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
+"Em"B3 A3/2G3/2 "D"F2G |1 F3 "Em"E3 e3/2d3/2 :|2\
+F3 "Em"E3 E3 ||
+S:https://www.folktunefinder.com/tunes/174972
+S:http://kazimodal.trad.org/partitions/mazurka/Escholiers/Escholiers.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

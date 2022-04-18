@@ -1,0 +1,34 @@
+X: 22
+T: Honest John
+I: Honest JohnS-HGsquare
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+gf| "G"e2d2 B2G2| "C"A2G2 E2D2| "G"G2G2 GABc| "D7"d4 B2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G8|
+    "D7"A4 B4| c6 B2| A6 B2| c2B2 A4| \
+      "G"B4 c4| d6 c2| B4 c2e2| d8|
+    "G"d2d2 B3B| G2A2 B4| "D7"A2B2 c4| "G"B2c2 d4|\
+       d2d2 B3B| G2A2 B2BB| "D7"c2A2 G2F2| "G"G6 gf|
+    "G"e2d2 B2G2| "C"ABAG E2D2| "G"G2G2 GABc| "D7"d4 B2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G6 dc|
+    "G"B2d2 e2f2| g2d2 B2G2| B2d2 e2f2| "D7"g4 f2gf| \
+      "G"e2d2 B2G2| "C"ABAG E3G| "D7"F2A2 D2EF| "G"G4 z2|]
+%%text 9/1/98.  Arr. T. Saletan
+%%newpage
+% ---------- I ----------
+S:https://www.folktunefinder.com/tunes/97303
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

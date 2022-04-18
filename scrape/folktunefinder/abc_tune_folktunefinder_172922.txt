@@ -1,0 +1,27 @@
+X:0106
+T:"Lord Doneraile"          (air)           0106
+C:after Sg't.  J. O'Neill
+C:spirited
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=130
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:D
+"_vb"F|B3/2c/2B (Be3/2)e/2|(c/2A3/2)A A2c|B3/2c/2B (Bb3/2)b/2|(af3/2)f/2 f2(f/2^g/2)|
+a3/2b/2a {b}a gf|e3/2f/2d cde|f3/2g/2f {g}f ze|(d/2B3/2)B B2||
+f|b3/2f/2b bc'd'|(c'/2a3/2).a a2c'|b3/2c'/2b bag|(a/2f3/2).f f2^g|
+a3/2b/2a TRagf|efd cde|f3/2g/2f {g}f ze|(d/2B3/2)B B2||
+F|B3e3|(c/2A3/2)A A2c|B3b2g|(a/2f3/2)f f2^g|
+a3/2b/2a"^tr"agf|efd cde|f3/2g/2f {g}f ze|(d/2B3/2)B B2|]
+S:https://www.folktunefinder.com/tunes/172922
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/106-LordDoneraile.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/106-LordDoneraile.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

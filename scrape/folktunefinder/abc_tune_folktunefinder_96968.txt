@@ -1,0 +1,25 @@
+X:8
+T:Le Rigodon de Veynes
+R:Rigodon
+C:Trad.
+A:Dvoluy - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:320
+K:C
+|:[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][GG,G,]D|[GG,][AD,][BG,][cD,]|[BG,]G,[GG,]G,|[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][GG,G,]D|[GG,][AD,][BG,][cD,]| \
+[dG,]G,[dG,]G,|[dG,][dG,][dG,][cD,]|[AD,]D,[dG,]D,/c/|4[BG,][AD,][BG,][GG,]:|[BG,][AD,][GG,][DG,]|[GG,G,][GG,G,][G2G,2G,2]| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96968
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

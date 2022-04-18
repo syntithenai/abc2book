@@ -1,0 +1,47 @@
+X: 9009
+T: Arnold's Duck (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A |"D"d2 F AFE | "Bm"DFB AFE | "D"dcd FAd | "Bm"BAF "A"E2 A |
+[V:2] z|D,,2[AFD] A,,2[AFD]|B,,2[BDF] F,,2[BDF]|D,,2[AFD] A,,2[AFD]|\
+B,,2[BDF]A,,2[ACE]|
+%
+[V:1] "D"d2 F AFE | "Bm"DEF ABA | "D"dfa "G"gfe | "Bm"dBB B2 :|
+[V:2] D,,2[AFD] A,,2[AFD]|B,,2[BDF] F,,2[BDF]|D,,2[AFD]G,,2[GBD]|[B,3F3D3][B,,2D,F,2] :|
+%
+[V:1] A|"Bm"BFF "A"cAA | "D"dcd "Em"efe | "Bm"fBB "G"gBB | "A"afe cBA |
+[V:2] z|B,,2[BDF]A,,2[ACE]|D,,2[AFD]E,2[EGB]|B,,2[BDF]G,,2[GBD]|A,,2[ACE]E,,2[ACE]|
+%
+[V:1] "Bm"BFF "A"cAA |"D"dcd "Em"efg |"D"faf "A"ece|"Bm"dBB B2 :|
+[V:2] B,,2[BDF]A,,2[ACE]|D,,2[AFD]E,2[EGB]|D,,2[AFD]A,,2[ACE]|[B,3F3D3][B,,2D,F,2] :|
+%%%%%%%tune repeat
+[V:1] A |"D"d2 F AFE | "Bm"DFB AFE | "D"dcd FAd | "Bm"BAF "A"E2 A |
+[V:2] z|D,,2[AFD] A,,2[AFD]|B,,2[BDF] F,,2[BDF]|D,,2[AFD] A,,2[AFD]|\
+B,,2[BDF]A,,2[ACE]|
+%
+[V:1] "D"d2 F AFE | "Bm"DEF ABA | "D"dfa "G"gfe | "Bm"dBB B2 :|
+[V:2] D,,2[AFD] A,,2[AFD]|B,,2[BDF] F,,2[BDF]|D,2[AFD]G,,2[GBD]|[B,3F3D3][B,,2D,F,2] :|
+%
+[V:1] A|"Bm"BFF "A"cAA | "D"dcd "Em"efe | "Bm"fBB "G"gBB | "A"afe cBA |
+[V:2] z|B,,2[BDF]A,,2[ACE]|D,2[AFD]E,2[EGB]|B,,2[BDF]G,,2[GBD]|A,,2[ACE]E,,2[ACE]|
+%
+[V:1] "Bm"BFF "A"cAA |"D"dcd "Em"efg |"D"faf "A"ece|1 "Bm"dBB B2 :|2 "Bm"dBB B3-|B3 z3|z6||
+[V:2] B,,2[BDF]A,,2[ACE]|D,,2[AFD]E,2[EGB]|D,,2[AFD]A,,2[ACE]|1 [B,3F3D3][B,,2D,F,2] :|2\
+[B,3F3D3] B,,3-|B,,3 z3|z6||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87094
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

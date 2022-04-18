@@ -1,0 +1,30 @@
+X: 98
+%% Copyright 1964 by Productions Michel Legrand
+T: I will wait for you
+M: 4/4
+L: 1/4
+C: Michel Legrand
+Q: 1/4=100
+%%staves (chords melody)
+K: Dm
+%%text (ballad)
+%%vskip 20
+P: A
+V: chords
+"A7"x2  |: "Dm"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | x2 x2 |
+"C7"x2 x2 | x2 x2 | "Fmaj7"x2 x2 | "Em7b5"x2 "A7"x2 |
+"Dm7"x2 x2 | x2 "D7"x2 | "Gm7"x2 x2 | "Em7b5"x2 x2 |
+"Dm/A"x2 x2 | "A7"x2 x2 | "Dm"x2 x2 |[1 "Em7b5"x2 "A7"x2 :|[2 x2 x2 ||
+V: melody
+^GA || =G2F2 | ED^cd | c2B2 | B2^FG |
+S:https://www.folktunefinder.com/tunes/87599
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

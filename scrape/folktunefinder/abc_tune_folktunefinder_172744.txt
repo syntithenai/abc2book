@@ -1,0 +1,20 @@
+X:1
+T:Londonderry Air
+M:4/4
+L:1/4
+K:C
+ B, C D| E3 D| E A G E| D- C A,2-| A, C E F| G3 A| G E C E| D4-| D B, C D|\
+ E3 D| E A G E| D- C A,2-| A, B, C D| E3 F| E D C D| C4-| C G A B|\
+ c3 B| B A G A| G- E C2-| C G A B| c3 B| B A G E| D4-| D G G G| e3 d|\
+ d c A c| G- E C2-| C B, C D| E- A G- E| D- C A, B,| C4-| C||
+S:https://www.folktunefinder.com/tunes/172744
+S:http://back.numachi.com:8000/dtrad/abc/LONDERRY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/LONDERRY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

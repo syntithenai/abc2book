@@ -1,0 +1,25 @@
+X: 7
+T:On The Road To Boston
+R:Reel
+C:via PR
+S:Nottingham Music Database
+M:2/4
+L:1/8
+Q:1/4=200
+K:D
+A|"D"f2 fe/f/|"G"gf ed|"A7"cd ef|"D"dA FA|
+f2 fe/f/|"G"gf ed|"A7"cd ef|"D"d2 d:|
+|:f/g/|a2 ag/a/|"G"ba gf|"A7"g2 gf/g/|"D"ag fe|
+|"Bm"f2 fe/f/|"G(Em)"gf ed|"A7"cd ef|"D"d2 d:|
+S:https://www.folktunefinder.com/tunes/92706
+S:http://www.alfwarnock.info/alfs/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

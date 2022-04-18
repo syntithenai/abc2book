@@ -1,0 +1,22 @@
+X:120
+T: Bonaparte Crossing The Rhine
+M: C
+L: 1/8
+B: O'Neill's 1824
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+K: Am
+(E^F/^G/) | A>B{d}cB AGEG| cdec d2 (e^f/^g/) | a>=ged cAGE| G>^FGA G2 (E^F/^G/)|
+AB{d}cB AGEG| cdec d2 (e^f/^g/) | a>=ged cAGE| A2 A>B A2 ||
+(e^f/^g/) |  a>=ged cde^f| gega g2 (e^f/^g/) | a>=ged cAGE| G>^FGA G2 (E^F/^G/)|
+AB{d}cB AGEG| cdec d2 (e^f/^g/) | a>=ged cAGE| A2 A>B A2 |]
+S:https://www.folktunefinder.com/tunes/91855
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1801-1850_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

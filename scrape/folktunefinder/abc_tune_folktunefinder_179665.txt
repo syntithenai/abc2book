@@ -1,0 +1,85 @@
+X:1
+T:O Gott, du frommer Gott
+T:Partita IX
+C:J.S. Bach
+M:C
+L:1/8
+%%staves {(1 2) (3 4)}
+K:Cm
+V:1
+x|:z2z/d/g/f/ e3/d/c2|z2z/D/G/F/ E3/D/ C d|e2zDE2z/d/g/f/|
+eafb g3/f/e2|zAFB G3/F/ E f|g2zFG2zB|E3/F/ D3/E/E2ze|
+f2e2d2c2|=B3/=A/ G/B/A/c/ B3/A/ G/B/A/c/|[1=B/d/c/e/ d/e/c/d/ B3/=A/ GG:|[2
+=B/d/c/e/ d/e/c/d/ B3/=A/ G/F/E/F/|G2z/F/_B/F/ G2z/F/B/F/|G2z/G/c/G/ =A2z/G/c/G/|
+=A2z/c/f/c/ d2z/c/f/c/|d2z/f/b/f/ ge/d/ c3/B/|Bz z/F/B/F/ GE/D/ C3/B,/|
+B, F/G/ _A3/B/ G B/c/ _d3/e/|c2-c/B/A/G/ F f/g/ a3/b/|g2-g/f/e/d/ c/d/e/f/ gf/e/|
+e2zG A2zG|F2zg a2zg|f2z/b/g/e/ ab/c'/ f3/e/|
+e2z/B/G/E/ AB/c/ F3/E/|E/ D/E- E/D/E- E/D/E- E/F/E/D/|E/ d/e- e/d/e- e/d/e- e/f/e/d/|
+e2z2z2zG|[Q:"Andante"]ce/c/ =B3/B/ ce/c/ B2|z2zg g2zd|
+eg/e/ Pd3/d/ eg/e/ d2|z2zb b2z=b|c'e/c/ P=B3/B/ eg/e/ d3/d/|e2ze e2ze|
+d/f/e/g/ f/a/g/b/ a/b/g/f/ gf/e/|e/ c/B/A/ G/F/E/D/ E/ z/zzE|D/F/E/G/ F/A/G/B/ A/B/G/F/ GF/E/|
+E2ze [Q:"Presto"]f2e2|d2-d/f/e/d/c2zb-|b=a- ag- g/g/^f/=e/ f2|
+g2zb c'_a/=f/ bg/e/|a2-a/a/g/f/g2ze|f2e2d4-|
+d/d/c/=B/ c/e/d/e//f// Bc/d/ ed/c/|c2z2x4|
+x4x2z=b|c'_b_ag f/g/e/d/ ed/c/|
+c2zG AGFE|D d/e/ f3/g/ e/d/c/d/ =B3/c/|Hc2z2z4|]
+V:2
+G|:c2=B2c2zG,|C2=B,2C2z=B|c2z=B,C2z=B|
+c2d2e2z2|zE2D E2zd|e2zDE2z[B,D]|C2B,2B,2zc|
+d2c2[G2=B2][E2=A2]|Gzz2z4|z8|
+z8|E2z/DD/ E2z/DD/|E2z/=EE/ F2z/EE/|
+F2z/=AA/B2z/AA/|B2z/dd/ eB B=A|Bz z/DD/ EB,2=A,|
+B, DEF E xx2|x8|x8|
+z2zE F2zE|B,2ze f2ze|B2zz/e/-e3d|
+e2zz/E/- E3D|E/x/xx2x4|x8|
+x8|x8|z2zd ecz2|
+z8|z2zf ge zf|gxx2x4|x2z_B cA/c/ G3/G/|
+ABcd ee2d|e/ x/xx2x2xB,|A,B,CD EE2D|
+E2ze- ed- dc-|c/c/=B/=A/ B2cG/=A/ _B2|c2B2=A2-A/c/B/A/|
+G2zG- GF- FE-|E/E/D/C/D2E2zG|AB/F/ GA/E/ F2-F/A/G/F/|
+EFGA Gc2=B|c/_B/A/G/F2-F/E/D/C/ =B,2-|
+B,/C/D/E/ F/G/=A/=B/ c/d/e/f/Pd2|(3z/c/f/ (3z/B/e/ (3z/A/d/ (3z/G/c/ =Bc2B|
+c2z2z/DC=B,C/|=B, B/c/ d2c_AD2|=E2z2z4|]
+V:3
+x|:x4x4|x4x4|x4x4|
+x4x4|x4x4|x4x4|G,A,F,A,G,2z2|
+x4x4|D3/C/ =B,C D3/C/ B,C|DEFE D3/C/ =B,z|
+DEFE D3/C/ =B,z|x4x4|x4x4|
+x4x4|x4x4|x4x4|
+x4xG,_A,B,|A,A,B,C D DEF|EGAB Ae- ed|
+x8|x8|x8|
+x8|x/z/z/G,/ A,3/A,/ B,3/C/ B,F,|G, z/G/ A3/A/ B3/c/ BF|
+z/F/G z2z4|z2zF G2Gz|x8|
+x2zA B2Bz|x8|x8|x8|
+x8|x8|x8|
+x8|x8|x8|
+x8|x8|x8|
+x8|x8|
+x8|x8|
+x8|x8|x8|]
+V:4
+z|:zE/F/ GG, CC,z2|zE,/F,/ G,G,, C,C,,z2|zE/F/ GG, zE,/F,/ G,G,,|
+zC/A,/ B,B,, E,E,, z/G,/A,/B,/|C3/A,/ B,B,, E,E,,z2|zG/A/ BB, zG,/A,/ B,B,,|C,A,,B,,2E,,2z2|
+z/=B/=A/G/ z/E/D/C/ z/=B,/=A,/G,/ C/E,/D,/C,/|G,G,,z2z4|z8|
+z8|z/E,/G,/E,/ _B,_B,, z/E,/G,/E,/ B,B,,|z/E,/G,/E,/ CC, z/F,/=A,/F,/ CC,|
+z/F,/=A,/F,/ FF, z/B,/D/B,/ FF,|z/B,/D/B,/ BB, z/E/G/E/ FF,|z/B,,/D,/B,,/ B,B,, z/E,/G,/E,/ F,F,,|
+B,, B,CD E E,F,G,|A,F,G,A, B, B,CD|EEFG AG/A/ BB,|
+E/G,/B,/E/ E,2z/D,/F,/B,/ E,2|z/D,/F,/A,/ [E,2G,2]z/D/F/B/ E2|z/D/F/A/ [E2G2]z/C/B,/A,/ B,B,,|
+E,/B,/G,/E,/ E2z/C,/B,,/A,,/ B,,2|E,, z/E,/ F,3/F,/ G,3/A,/ B,B,,|E, z/E/ F3/F/ G3/A/ BB,|
+E3/D/ E/_A,/B,/F,/ G,/D,/E,/B,,/ E,,z|z2zD EC zG,|CE/C/ =B,3/B,/ CE/C/ B,3/B,/|
+CC, zF GE zB,|EG/E/ D3/D/ EG/E/ D3/D/|EC zG, CE/C/ =B,3/B,/|CE/C/ G,3/G,/ A,C/A,/ E,3/E,/|
+F,G,A,B, CB,/A,/ B,B,,|E,E,, z2z/C/B,/A,/ G,/F,/G,/E,/|F,G,A,B, CB,/A,/ B,B,,|
+E,E,, zC D=B,/G,/ CA,/E,/|F,D,G,G,, C,C,, zG|=A^F/D/ GE/B,/ C=A,DD,|
+G,G,,G,2_A,2G,2|F,2-F,2z/E,/G,/B,/ EE-|ED- DC- C/E/D/C/=B,2|
+CDEF- FE/F/ GG,|A,2-A,/G,/F,/E,/ D,2-D,/C,/=B,,/=A,,/|
+G,,/=A,,/=B,,/C,/ D,/E,/F,/G,/ =A,/=B,/C/F,/ G,3/G/|_AGFE DCGG,|
+C C,/D,/ E,/D,/E,/C,/ F,E,D,C,|G,2z/=B,,/=A,,/G,,/ C,F,,G,,2|HC,,2z2z4|]
+S:https://www.folktunefinder.com/tunes/179665
+S:http://moinejf.free.fr/abc/ogott.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

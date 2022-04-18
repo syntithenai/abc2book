@@ -1,0 +1,25 @@
+X:1
+T:Polka : Syncope
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:polka
+C:Trad.
+S:
+A:
+M:C
+L:1/8
+K:D
+Q:1/4=90
+"D"d2 dc d2 e2 | "A"f2 fd f2 a2 | "Bm"b2 bf b2 f2 | "G"d8 |
+"D"d2 dc d2 e2 | "A"f2 fd f2 a2 | "Bm"b2 bf b2 c'2 | "G"d'8 :|
+"Bm"b2 f2 d3 "Em"g| "Em"f e-e2-e2 "G"d2 | B2  "G"d2-d2 "A"fe | 
+"A"f4-f2 a2 | "Bm"b2 f2 d3 "Em"g|"Em"f e-e2-e2 "G"d2 | 
+B2 "G"d2-d2 c2 |1 "A"B4-B2 a2 :|2 "A"B8 |]
+S:https://www.folktunefinder.com/tunes/183106
+S:http://termen.free.fr/danses/polkas/PolkaSyncope.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:2
+T:Mull of the Mountains
+R:slow air (A mixolydian)
+C:Traditional
+O:Scotland
+M:3/4
+L:1/4
+Q:1/4=130
+K:Amix
+d2A|A>B A|f2 f|f<a f|e>f e|d2 e|f>e d|B>A G|
+A>B A|A2 f/g/|a>g f|e2 d/e/|f>e d|B<d B|A3|1A3:|2A2B||
+|:d>f d|B<d B|A>B d|f<a f|e>f e|f>e d|B>d B|B>A G|
+A>B A|A2 f/g/|a>g f|e2 d/e/|f>e d|B<d B|A3|1A2B:|2A3||
+S:https://www.folktunefinder.com/tunes/177654
+S:http://www.thesession.org/tunes/display/6411
+% Rhythm Slow air (a mixolydian)
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

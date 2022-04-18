@@ -1,0 +1,45 @@
+X: 9043
+T: Dwyer and the Leprechaun (with piano acc.)
+C: BB
+R: jig
+M: 6/8
+Q: 1/8=320
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A |"G"d2 g "Em"edB |"G"GAB GED | "G"DEG "Am"Ace | "Am7"Ace "D"agf |
+[V:2] z|G,,2[GDB]E,2[EBG]|G,,2[GBD]D,2[GBD]|G,,2[GDB]A,,2[GEC]|C,2[ACEG]D,2[AFD]|
+%
+[V:1] "G"d2 g "Em"edB | "G"GAB GED | "Am"EAA cAA | "D"dAF "G"G2 :|
+[V:2] G,,2[GDB]E,2[EBG]|G,,2[GBD]D,2[GBD]|A,,2[AEC]E,2[AEC]|D,2[AFD][G,,2D2B,2]:|
+%
+[V:1] B | "G"gdg "Am"aba | "G"gde "Dm7"=fdc | "F"=fdc "G"BGB | "C"cBc "D"d2 d |
+[V:2] z |G,,2[GDB]A,,2[AEC]|B,,2[GDB]D,2[A=FDc]|=F,2[=FAC]G,,2[GDB]|C,2[CGE]D,2[AFD]|
+%
+[V:1] "F"=fdc "G"BGG | "Dm"D=FF "G"DGG | "Am"EAA cAA |"D"dAF "G"G2 :|
+[V:2] =F,,2[A=FDc]G,,2[GDB]|D,2[A=FDc]G,,2[GDB]|A,,2[AEC]E,2[AEC]|D,2[AFD][G,,2D2B,2]:|
+%%%%%%tune repeat
+[V:1] A |"G"d2 g "Em"edB |"G"GAB GED | "G"DEG "Am"Ace | "Am7"Ace "D"agf |
+[V:2] z|G,,2[GDB]E,2[EBG]|G,,2[GBD]D,2[GBD]|G,,2[GDB]A,,2[GEC]|C,2[ACEG]D,2[AFD]|
+%
+[V:1] "G"d2 g "Em"edB | "G"GAB GED | "Am"EAA cAA | "D"dAF "G"G2 :|
+[V:2] G,,2[GDB]E,2[EBG]|G,,2[GBD]D,2[GBD]|A,,2[AEC]E,2[AEC]|D,2[AFD][G,,2D2B,2]:|
+%
+[V:1] B | "G"gdg "Am"aba | "G"gde "Dm7"=fdc | "F"=fdc "G"BGB | "C"cBc "D"d2 d |
+[V:2] z |G,,2[GDB]A,,2[AEC]|B,,2[GDB]D,2[A=FDc]|=F,2[=FAC]G,,2[GDB]|C,2[CGE]D,2[AFD]|
+%
+[V:1] "F"=fdc "G"BGG | "Dm"D=FF "G"DGG | "Am"EAA cAA |1 "D"dAF "G"G2 :|2\
+"D"dAF "G"G3-|G3 z3||
+[V:2] =F,,2[A=FDc]G,,2[GDB]|D,2[A=FDc]G,,2[GDB]|A,,2[AEC]E,2[AEC]|1 D,2[AFD][G,,2D2B,2]:|2\
+D,2[AFD][G,,3-D3-B,3-]|[G,,3D3B,3] z3||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87128
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

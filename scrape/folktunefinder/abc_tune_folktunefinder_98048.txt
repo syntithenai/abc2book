@@ -1,0 +1,31 @@
+X:10266
+T:March No1. TLY.006
+M:4/4
+L:1/8
+Q:160
+S:Wm.Tildesley,Swinton,Lancs.1860s.
+R:March
+O:England.
+A:Lancashire.
+H:1860.
+Z:Taz Tarr
+K:D
+d2 d>d dcde|f2 f>f fefg|e2 e>e e2d2|c>af>d c2B2|!
+A2 A>A A2:||:A>A|B2 zB c2 zc|d2 d>d d2 a>a|ag/2a/2 b>a g>fe>d|!
+e2 e>e e2 A>A|d2 z2 e2z2|f2 z2 g2 z2| a2 b>a f>ed>c|!
+d2 d>d d2:||:z2|F2 F>F FEFG|d2 d>d dcde|f2 f>f gfed|!
+ c2 c>c c2 B2|A2 c>c c2:||:A>A| G2 z G E2 zE|F2 F>F F2 f>f|!
+fe/2f/2 g>f e>dc>B|c2 c>c c2 A>A|F2 z2 A2 z2|!
+d2 z2 e2 z2|f2 g>f d>GF>E|F2 F>F F2:|]
+S:https://www.folktunefinder.com/tunes/98048
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

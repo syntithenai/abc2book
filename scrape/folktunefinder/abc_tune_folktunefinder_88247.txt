@@ -1,0 +1,25 @@
+X:450
+T:a Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:"A Good Tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ecf.html
+%%ID:00000ecf
+K:D
+fga2G2 | FGA2G2 | FGAGFE | F2EFD2 |\
+fga2G2 | FGA2G2 | FGAGFE | D6 ::
+d2D2D2 | E6 | e2E2E2 | F6 | fga2f2 | efgfed | e2A2c2 | d6 ::
+S:https://www.folktunefinder.com/tunes/88247
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:8731
+T:Kolomiyka from Podilia
+S:A. Humenyuk
+Q:200
+O:Ukraine
+N:needs abc2mtex
+M:2/4
+L:1/8
+A:Podilia
+K:AMin
+eeee | dddd | deee | d2 d2{cBA} | cccB | AAAB |\
+cccB | A2A2 | cccB | AAAB | cccB | A2 A2 :|\
+|: aaaa | ag^fe | ag^fe | e2e2 | dddd | dcBA |\
+cc B/2A/2B | A2A2 | dddd | dcBA | cc B/2A/2B | A2A2 :|\
+|: Ee d/2c/2B/2A/2 | ccBA | Ee d/2c/2B/2A/2 | (c>B) A2 \
+| Ee d/2c/2B/2A/2 | ccBA | E^GBG | A2A2 :|
+S:https://www.folktunefinder.com/tunes/91790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

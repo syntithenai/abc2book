@@ -1,0 +1,28 @@
+X: 1
+T: Mickey Chewing Bubblegum
+C: R-108
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: A
+"A"a4 a3f| e2c2 a3f| e2c2 a2c2| "D"B2A2 "E"F2E2|
+"A"a4 a3f| e2c2 a3e| c2e2 "E"B2Bc| "A"B2A2 A4:|
+|:\
+"A"c2e2 e2c2| "D"d2f2 f2d2| "A"c2e2 "E"B2Bc| "D"B2A2 "E"F2E2|
+"A"c2e2 e2c2| "D"d2f2 f2fd| "A"c2e2 "E"B2Bc| "A"B2A2 A4 :|
+%%text 1/25/02.  Formerly in book as "Kerry Polka #1".
+S:https://www.folktunefinder.com/tunes/175603
+S:http://roaringjelly.org/music/polka/R108_Mickey_Chewing_Bubblegum.abc
+S:http://roaringjelly.org/music/reel/R108_Mickey_Chewing_Bubblegum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/polka/R108_Mickey_Chewing_Bubblegum.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R108_Mickey_Chewing_Bubblegum.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/polka/R108_Mickey_Chewing_Bubblegum.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R108_Mickey_Chewing_Bubblegum.abc
+S:http://trillian.mit.edu/%7Ejc/org/RJ/music/reel/R108_Mickey_Chewing_Bubblegum.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

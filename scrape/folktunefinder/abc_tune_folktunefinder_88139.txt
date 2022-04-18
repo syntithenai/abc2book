@@ -1,0 +1,29 @@
+X:30
+T:Giovinetto Cavalier
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st & 2d Couples, retaining hands, lead down the middle and chain figure of four at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dde.html
+%%ID:00000dde
+K:G
+d |\
+d2B d2B | dce A2A | A2B c2B | AGA B2d |\
+d2B d2B | (dce) A2f | g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G2 ||
+B |\
+c2A c2A | FGA Ddc | B2c dBe | dcB A2B |\
+c2A c2A | FGA D2f | g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G2|]
+\newpage
+% page 4
+S:https://www.folktunefinder.com/tunes/88139
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

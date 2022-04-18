@@ -1,0 +1,24 @@
+X: 2
+T: Nathaniel Gow's Quickstep
+C: Nathaniel Gow
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|: D |\ 
+G2 G ABc | dBG G2 B | c2 c EFG | AFD D2 F | 
+G2 G ABc | dBG G2 B | c2 c DEF | G3 G2 :|
+|: f |\ 
+g2 g efg | fdB B2 d | e2 e cde | dBG G2 d | 
+[1 g2 g efg | fdB B2 g | fed ed^c | d3 d2 :|
+[2 e^de fef | gfe d2 B | A/B/cB AGF | G3 G2 |]
+S:https://www.folktunefinder.com/tunes/178261
+S:http://www.thesession.org/tunes/display/9143
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

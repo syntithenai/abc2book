@@ -1,0 +1,27 @@
+X: 120
+T: Trip to the Island (reel)
+N: 200100
+C: BB
+R: reel
+N: revisions 1/5/07
+Q: 1/8=380
+M: 4/4
+L: 1/8
+K: G
+F|"G"G2 ED "Em"EGAB|"C"ce"G"dB "Am"cBA2|"G"G2 BG "Em"EDB,A,|"Bm"B,DGF "Em"EDEF |
+"G"GABG "Em"EGAB|"C"cdef "G"gdBA|"Bm"Bd^cd "Em"edgd|"D7"cdAF "G"G3 :|
+A|"Em"Bdef gede|"Am"aecB AcBA|"G"GBAB "Am"AcBA|"A"^cdec "D"d2 ef |
+"G"g2 bg "D"faaf|"C"gfge "G"dBBA|"Bm"Bd (3d^cd "Em"edgd|"D7"cdAF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86827
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

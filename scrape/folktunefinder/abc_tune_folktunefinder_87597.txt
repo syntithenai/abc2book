@@ -1,0 +1,31 @@
+X: 96
+T: I should care
+M: 4/4
+L: 1/4
+C: Sammy Cahn, Axel Stordahl & Paul Weston
+Q: 1/4=150
+%%staves (chords melody)
+K: C
+%%text (medium)
+%%vskip 20
+P: A
+%
+%
+V: chords
+"Dm7"x2 "G7"x2 | "( Em7" "Cmaj77"x2 "A7 )" " "x2 | "Dm7"x2 "G7"x2 | "Cmaj7"x2 "( F7" " "x2 |
+"E7(b5)" "Em7b5"x2 x2 | "Eb7(b5) )" "A7"x2 x2 | "Dm7"x2 x2 | "Fm7"x2 "Bb7"x2 ||
+%
+%
+V: melody
+c3B | B4 | zA/2B/2 (3cBA | BB3 |
+S:https://www.folktunefinder.com/tunes/87597
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

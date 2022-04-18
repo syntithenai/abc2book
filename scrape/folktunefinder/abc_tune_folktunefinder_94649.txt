@@ -1,0 +1,28 @@
+X:051
+U: ~ = !turn!
+%%topmargin 3cm
+T:Denis Ryan's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Slip Jig
+M:9/8
+L:1/8
+K:Bm
+B3 B3 f2 A | B3 B3 cBA | B3 B3 f2 g | afd edB dBA ::
+afd def g2 e | afd def edB | afd def g2 e | fed edB dBA :|]
+S:https://www.folktunefinder.com/tunes/94649
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Denis_Ryans_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Denis_Ryans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Denis_Ryans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Denis_Ryans_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

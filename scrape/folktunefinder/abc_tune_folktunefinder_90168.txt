@@ -1,0 +1,29 @@
+X: 16
+T:Branle de Malte
+R:---
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-29
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+L:1/4
+K:Gmaj
+V:1
+|: c B c d e2 e2 d2 c2 B2 A G A2 A2 G4 :|
+|: c B c d e2 f2 d2 e2 f4 | d e f2 e4 d e f2 e2 d | c B A c B c4 :|
+V:2
+K:Gmaj
+L:1/2
+%%MIDI transpose -24
+|: a2 A2 G2 g2 d2 g2 :|
+|: a2 A2 d2 d'2 | d2 a2 d2 a2 | g2 =c2 :|
+%%footer $D   Galouvielle-MBe 2007 \nBransle (France)
+S:https://www.folktunefinder.com/tunes/90168
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm ---
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X:26
+T:Oberon in Fairyland
+M:2/4
+L:1/8
+Q:115
+K:C
+G |\
+"C"ce/d/ cG |\
+"C"EC GG |\
+"C"cG "F"dc/B/ |\
+"G"BA G z |\
+"C"ce/d/ cG |\
+"C"EC GA/B/ |\
+"C"cG "F"AG/F/ |\
+"G"ED "C"C :|\
+E |\
+"Am"EA/^G/ AB |\
+"Am"cA "E"Be |\
+"Am"eA "Dm"f/e/d/c/ |\
+"E"B/c/B/A/ A^G |\
+"Am"EA/^G/ AB |\
+"Am"cA "E"Be |\
+"Am"eA "Dm"f/e/d/c/ |\
+"E"B/c/B/A/ "Am"A=G |\
+"C"ce/d/ cG |\
+"C"EC GG |\
+"C"cG "F"dc/B/ |\
+"G"BA G z |\
+"C"ce/d/ cG |\
+"C"EC GG |\
+"C"cG "F"AG/F/ |\
+ED "C"C ||
+S:https://www.folktunefinder.com/tunes/179343
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/OberonInFairyland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

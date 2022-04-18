@@ -1,0 +1,27 @@
+X:1
+T:Mon habit
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:D dorisch
+D |\
+D3/2E/2 FG | AG A/2G/2A/2B/2 | c3/2c/2 AG |\
+A3F | D3/2E/2 FG | AG A2 | c2 AG | A3 :|
+K:D m
+|: A |\
+B3/2B/2 GF | E2 GG | A3/2A/2 FE | F2 DA |\
+B3/2B/2 GF | E2 GG | A3/2A/2 FE | D :|
+S:https://www.folktunefinder.com/tunes/176683
+S:http://simonwascher.info/TradArchiv_bourree_2/mon_habit.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

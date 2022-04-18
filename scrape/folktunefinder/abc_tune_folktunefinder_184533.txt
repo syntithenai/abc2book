@@ -1,0 +1,25 @@
+X:0847
+T:"The Rakes Of Kildare"        (jig)        0847
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+D|D2G {A}GFG|ABc d2e|=fef ded|cAG F3|
+DGG {A}GFG|ABc d2e|=fed cA^F|G3G2:|
+|:d|{a}gfg def|gfg a2g|=fef ded|cAG F2d|
+{a}gfg def|gfg a2g|=fed cA^F|G3G2:|
+S:https://www.folktunefinder.com/tunes/184533
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0801-900/0847-RakesKildare.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/ABC-0801-900/0847-RakesKildare.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:1
+T:Cercle Circassien : Prigord
+E:12
+Z:Roger Ngaret (94-95)
+R:marche
+C:Trad.
+S:
+A:Prigord
+T:Air de base
+Q:C6=180
+M:6/8
+L:1/16
+K:G
+E2 | "Am"A2B2A2 "Em"G4 B2 | c2d2c2 "Am"A2B2c2 | \
+"Em"e2d2c2 "Am"A2B2c2 | A4 G2 A4 ::\
+E2 | A2B2A2 "Em"G4 B2 | c2d2c2 "Am"A2B2c2 | \
+"Em"e2d2c2 "Am"A2B2c2 |1 A4 G2 A4 :|2 [F6A6] [F6A6] |]
+T:Variante 1
+"Em"B2G2E2 B2G2E2 | B2G2E2 B4 d2 |1 "Am"e2c2A2 e2c2A2 | e2c2A2 e2c2A2 :|2\
+"Em"e2d2c2 "Am"A2B2c2 | A4 G2 A6 ||\
+"Em"B2G2E2 B2G2E2 | B2G2E2 B4 d2 |1 "Am"e2c2A2 e2c2A2 | e2c2A2 e2c2A2 :|2\
+"Em"e2d2c2 "Am"A2B2c2 | [F6A6] [F6A6] |]
+T:Variante 2
+[A6c6] "G"[G6B6] | "F"[F6A6] "Em"[E6G6] | "Am"[A6c6] "G"[G6B6] |1\
+"Am"[A2c2] [A4c4] [A4c4] [E2F2] :|2 [A6c6] [A4c4] [A2c2] ||\
+[A6c6] "G"[G6B6] | "F"[F6A6] "Em"[E6G6] | "Am"[A6c6] "G"[G6B6] |1\
+"Am"[A2c2] [A4c4] [A4c4] [E2F2] :|2 [A6c6] [A6c6] |]
+T:Variante 3
+"Em"[E4G4] [E2G2] z4 [E2G2] | [E6G6] [E6G6] |1 "Am"[A4c4] [A2c2] z4 [A2c2] | \
+[A6c6] [A6c6] :|2 [A6c6] "G"[G6B6] | "Am"[A6c6] [A4c4] [A2c2] ||\
+"Em"[E4G4] [E2G2] z4 [E2G2] | [E6G6] [E6G6] |1 "Am"[A4c4] [A2c2] z4 [A2c2] | \
+[A6c6] [A6c6] :|2 [A6c6] "G"[G6B6] | "Am"[A6c6] [A6c6] |]
+S:https://www.folktunefinder.com/tunes/95111
+S:http://termen.free.fr/danses/autres/CercleCircassienPerigord.abc
+% Rhythm Marche
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

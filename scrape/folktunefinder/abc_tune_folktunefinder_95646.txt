@@ -1,0 +1,26 @@
+X:75
+T:the Woodman
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e00.html
+%%ID:00000e00
+K:C
+c/d/ |\
+e>dc G>EG | A>FA G>E c/e/ | e>dc G>EG | AcB c2 ::
+g |\
+e2g d2g | c>Bc B2g | e2g d2g | fef Hg2g |\
+a2a g2g | f>gf e2d | e>dc Gca | g2B c2 ::
+%page:11
+S:https://www.folktunefinder.com/tunes/95646
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

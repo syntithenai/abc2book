@@ -1,0 +1,27 @@
+X:125
+T:The Scarlet Regiment
+C:W. Krug
+M:3/4
+L:1/8
+K:D
+V:1st Fife
+|:A>A|d3 c/d/ e>c|d2 A2 dc|B2 (gf) ed|Tf2 ez A>A|d3 c/d/ ef|
+g2 B2 f>e|(dc) BA f>e|e2 dz::A>A|e3 d/e/ fd|e2 A2 de|
+fe/f/ gf ed|Tf2 ez A>A|d3 c/d/ ef|g2 B2 f>e|(dc) BA f>e|e2 dz:|
+V:2nd Fife
+|:G>G|F3 E/F/ G>E|F2 F2 FF|G2 EF GG|A2 Gz G>G|F3 E/F/ GA|
+B2 G2 A>G|FE DC A>G|G2 Fz::z2|za/a/ a2 z2|za/a/ a2 FG|
+AG/F/ (EF) G^G|A2 Gz G>G|F3 E/F/ GA|B2 G2 A>G|FE DC A>G|G2 Fz:|
+V:3rd Fife
+|:C>C|D3 C/D/ D>C|D2 D2 DD|D2 (EF) CB,|C2 Cz C>C|D3 C/D/ EF|
+E2 D2 F>E|DE FG F>E|E2 Dz::z2|zA/A/ A2 z2|zA/A/ A2 DE|
+DC/D/ (ED) CB,|C2 Cz C>C|D3 C/D/ EF|G2 D2 F>E|DE FG F>E|E2 Dz:|
+S:https://www.folktunefinder.com/tunes/90112
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

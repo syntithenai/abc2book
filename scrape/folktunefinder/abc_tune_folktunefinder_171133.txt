@@ -1,0 +1,44 @@
+X:951
+T:Lament for the Union of Scotland and England, The
+C:anon.
+O:Scotland
+B:David Glen: Edinburgh Collection part 3
+N:source lines halved for emailing
+R:Lament
+Z:Jack Campin
+%http://www.musicaviva.com/the-lament-for-the-union
+%Posted Sep 29th 1999 at ABC-users by Jack Campin during a discussion
+%about non-standard ABC features.
+%WARNING: This tune is *very* non-standard, and might cause problems
+%for some programs.
+M:C
+L:1/8
+Q:1/4=40 
+K:Hp
+    {g(e4}A>){GdG}BMa>g     {a}e2        {g}e<A |\
+    {g(e4}G>){d}B{a}g>e   {GeA}e2     {g(e4}d>)G|\
+         Me>BMd>f           {g}e2        {g}e<A |\
+       {g}G>{d}B{e}A<{GdG}B {g}e>G       {d}G2  |
+[1        e<{AfAg}ae>g      {a}d>e       {g}B<d |\
+    {g(e4}A>){GdG}BMa>g     {a}e2        {g}e<A |\
+    {g(e4}G>){d}BMg>e     {GdA}e2     {g(e4}d2) |\
+          B<{GdG}BMe>d {g(e2d2}A>){G}A   {G}A2 :|
+[2 {eAfAg}ag/{a}e/ ge/{g}d/    ed/{g}B/     d>B |\
+    {g(e4}A>){GdG}BMa>g     {a}e2        {g}e<A |\
+    {g(e4}G>){d}B{a}g>e   {GdA}e2     {g(e4}d2) |\
+          B{GdG}BMe>d  {g(e2d2}A>){G}A   {G}A2 |]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/171133
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/the-lament-for-the-union.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/the-lament-for-the-union.abc
+% Rhythm Lament
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

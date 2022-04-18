@@ -1,0 +1,60 @@
+X: 1
+T:Nancy Dawson
+T:Piss on the Green
+M:6/8
+L:1/8
+Q:155
+S:George Spencer m/s, Leeds,1831
+R:Jig
+O:Traditional - England
+A:Leeds
+N: Nancy Dawson is the tune now used for our children's  song "Here we
+N: go 'round the Mulberry Bush".  The real Nancy Dawson, for whom the
+N: song was written, was a popular stage dancer in 18th Century England.
+N: A biography of Nancy Dawson was published in 1760. She died in 1767
+N: and was buried in the Chapel of St. George the Martyr, Queen Square,
+N: Bloomsbury, where her tombstone says N: only, "Here lies Nancy
+N: Dawson". This well-known dance tune appeared in performances of
+N: John Gay's ballad opera The Beggar's Opera (1729)
+K: C
+%%titlefont Wyld-Bold 20
+%%subtitlefont Wyld 16
+%%partsfont Wyld-Bold 12
+%%gchordfont Wyld 12
+%%infofont Wyld-Italic 14
+%%textfont Wyld 12
+%%vocalfont Wyld-Bold 13
+%%wordsfont Wyld 14
+%%headerfont Wyld 12
+%%footerfont Wyld 12
+K:G Major
+G2GG2B | d2BG2B | A2BA2B | A2G FED | G2GG2B | d2BG2B | A2GF2E | D3"cr"D3 |]
+P:Chorus
+[| A2BA2B | A2G FED | B2cd2e | d2g (dBG) | c2Bc2d | e2f (gfe) | dcB AGF | G3"cr"G3
+|]
+W: VERSE:
+W: Of all the girls in our town
+W: The black , the fair , the red, the brown
+W: That dance and prance it up and down,
+W: There's none like Nancy Dawson
+W: CHORUS:
+W: Her easy mien, her shape so neat
+W: She foots, she trips, she looks so sweet
+W: Her every motion's so complete
+W: I die for Nancy Dawson
+S:https://www.folktunefinder.com/tunes/178215
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/NancyDawson.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/PissontheGreen.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/NancyDawson.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/PissontheGreen.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

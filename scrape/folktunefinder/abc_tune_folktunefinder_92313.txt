@@ -1,0 +1,27 @@
+X:290
+T: Xingfuyiang
+N: C1787
+O: China,Jiangsu baoyeng
+S: III, 437]
+R: Xiaodiao, Qiutiange, Chuanshizi]
+M: 2/4
+L: 1/16
+K: Bb
+c2b2d2c2 | b2g4g2 | f2g2b2c2 | g8
+c2b2d2c2 | b2g4g2 | f2g2b2c2 | g8
+c2b2c2f2 | d2c2b2g2 | f2d4d2 | g2f2d2c2 | cdc6
+d2d2f2d2 | g2g4b2 | c2b2d2c2 | b2g4
+d2 | f3ff2b2 | g3fd2c2 | c6
+d2 | g3gc2b2 | g2agf2d2 | f2g2c2b2 | g8
+g3bc2d2 | c2b2g2f2 | g3fd2f2 | g2g2f2b2 | g8
+S:https://www.folktunefinder.com/tunes/92313
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, qiutiange, chuanshizi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

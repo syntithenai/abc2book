@@ -1,0 +1,30 @@
+X: 36
+T:Branle de la torche
+T:Branle du chandelier
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0175.gif
+B:Orchesographie (1589)
+O:France
+Z:<eric.forgeot@caramail.com> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-28
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=220
+K:Cmaj
+|: deffe3 edfed ^c2^c2 deffe3 gfe/2 d/2 ee d2d2 :: B2 ^c2d2d2 :|
+%%footer $D   Galouvielle-MBe 2007 \nBranle double (1711)
+S:https://www.folktunefinder.com/tunes/90188
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Bransle
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 8/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,77 @@
+X:1
+%
+T:Phantasia 41
+C:from Elias Mertel (1615)
+C:Hortus musicalis novus
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[,daa{a}4] |\
+    [,daa{a}/] .,d c .f ,d ,,,a ,,a .,,d |\
+    ,,,a/ {a} ,,,,,c ,,,,a {a} ,,,a ,,a .,,b |\
+    [,,da//] .,,a ,,b .,,d ,a .,c ,d .a c .,,d ,a .,c ,d .a c .e |
+%staff 2
+f/ {a}// .,,,,,a ,,,,,c .,,,,,d ,,,,a .,,,,c ,,,,e .,,,a ,,,c .,,a ,,b .,,d ,a .,c |\
+    ,d// .a c .d f .,d a .c d .,,b ,a .,c ,d .a c .d |\
+    [cdda1] .,,d [,,d,e] .,,d |\
+    ,,a1 ,,,a/ .,,b [,,da1] [,,ba/] .,,a |
+%staff 3
+[,,b,c1] .,,a/ [,,,ce] [,,aa1] [,,c,c] |\
+    [,,d,e1] .f/ ,,,,c [f,,ca1] .f |\
+    [c,a{a}1] ,,,a/ .d [f,,a1] [d,,a/] .c |\
+    "(1)"[da,,c1] .c/ [a,,,e] [c,aa1] [,db,c] |\
+    [a,,ce1] [,cd,a] [,db,c] [a,,,e] |\
+    [,,def1] .,d [,d,f] [,d,e] |
+%staff 4
+[,a,f1] ,,,c/ .,,d [,,bc] .,,a [,,bc1] |\
+    [,,,ce1] .,,d/ ,,,,c [,,dca1] .,,d |\
+    [,,aa1] .,d/ ,,,,e [,d,,c1] .,d |\
+    ,a1 ,,,c/ .,,d [,,cc] .,,a [,,cc1] |\
+    [,,d,e1] [,c,,a] [,c,ca] [,c,,a] |\
+    [,,de,c1] .f/ ,,,,,a [f{a}1] .f |
+%staff 5
+[c,d1] ,,,a/ .d [f,,a1] [d,da/] .c |\
+    [da,,c1] .c/ [a,,,e] [c,,a1] [,d,,c] |\
+    [a,d,e1] [,daa] [a,b] ,,,,e |\
+    "(2)"[,daa1] .,,d ,,d .,,d |\
+    ,,a1 ,,,a/ .,,b [,,da1] [,,ba/] .,,a |\
+    [,,b,c1] .,d/ ,,,,e [,daa1] .,d |
+%staff 6
+[,abc1] ,,,,,a/ .,c [,da,c1] [,ccc/] .,a |\
+    [,cdca1] .f/ ,a [fc1] .f |\
+    c1 ,d/ .d [fd1] [dd/] .c |\
+    [da1] .c/ [ac] [cd1] [ec/] .,a |\
+    [fc1] .,,d ,,d .,,d |\
+    [,da1] .f [f,,a] .f |
+%staff 7
+[c,d1] ,,,a/ .d [f,,a1] [d,da/] .c |\
+    [da,,c/] .,,,,a ,,,,c .,,,,e [c,da] .,,,c ,,,e .,,,a |\
+    [acd1] [cdb/] .,,a [adb1] [,cd] |\
+    [cd,a/] .a ,d .a [c{a}] .d f .h |\
+    [f,,a/] .d c .a
+%staff 8
+[c{a}/] .,d a .c |\
+    [d,,,,d/] .c a .,d [,c,,a] .,d a .,c |\
+    [,d,,,c/] .a ,d .,c [,a,,,d] .,c ,d .,a |\
+    [,c,,a/] .,a ,,d .,a [,c,,,c] .,d a .c |\
+    [d,,,,a/] .c a .,d [,c,,a] .,d a .,c |
+%staff 9
+[,d,,c/] .a c .a [,d,,,c] .,c ,a .,,d |\
+    [,a,,,d/] .,,d ,a .,c [,d,,c] .a c .e |\
+    [fc,,a1] [hd,,,d] [f,,,a] ,c/ .d |\
+    [cda{a}/] ,,,a ,,a .,,b ,,d .,d c [d,b] |\
+    [fdaa{a}4] |]
+%
+W:(1) orig. 4c instead of 5c
+W:(2) orig. 2d,3d,4a,5a instead
+S:https://www.folktunefinder.com/tunes/182291
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/phantasia_41.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Mertel/phantasia_41.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

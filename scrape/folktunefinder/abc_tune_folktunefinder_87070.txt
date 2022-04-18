@@ -1,0 +1,33 @@
+X:925
+T: Fly upon the Bar (The) (with piano acc.)
+T: Phil Taylor's Fancy
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 73 %flute
+V: 2 volume = 70 clef=bass m=D program 1 00
+K: D
+[V:1] "D"FED FED | "D"FGA "A"cAc| "D"dad "Bm"BfB|"A"cde cBA|
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[ACE]|D,2[AFD]B,,2[BDF]|A,,2[ACE]E,,2[ACE]|
+%
+[V:1] "D"FED "G"GFE|"D"AGF "G"BAG|"A"ABc ecA|"D" d3 d3 :|
+[V:2] D,2[AFD]G,,2[GBD]|D,2[AFD]G,,2[GBD]|A,,2[ACE]E,,2[ACE]|D,2[AFD][D,3A,3F3]:|
+%
+[V:1] "D" afd "A"Ace|"Em"gfe "Bm"fdB|"D"Ada "G"gfe|"Bm"BfB "A"cBA|
+[V:2] D,2[AFD]A,,2[ACE]|E,2[EGB]B,,2[BDF]|D,2[AFD]G,,2[GBD]|B,,2[BDF]A,,2[ACE]|
+%
+[V:1] "G" dcB "A"edc|"D"fed "Em"gfe|"D"afa "A"gec|"D"d3 d3 :|
+[V:2] G,,2[GBD]A,,2[ACE]|D,2[AFD]E,2[EGB]|D,2[AFD]A,,2[ACE]|D,2[AFD][D,3A,3F3]:|
+%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87070
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

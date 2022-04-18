@@ -1,0 +1,27 @@
+X:1071
+T:"Maguire's Kick"      (jig)     1071
+C:after  Sg't.  J. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+(d/2A/2)|F2E EDE|F2D DCD|F2E EFA| TRd2e fdA|
+F2E EDE|F2D DCD|F2E EFA|B3d2:|
+A|ABd e2f|{e}d2B A2F|ABd e2f|d3B2A|
+ABd ede|fdB BAF|AFE EFA|d3fdA||
+F2E EDE|F2D DCD|F2E EFA|{e}d2e fdA|
+F2E EDE|F2D D2F|A3/2F/2D DFA|B3d2|]
+S:https://www.folktunefinder.com/tunes/173695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1071-MaguiresKick.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1071-MaguiresKick.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1071-MaguiresKick.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

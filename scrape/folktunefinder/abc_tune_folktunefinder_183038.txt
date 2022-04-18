@@ -1,0 +1,29 @@
+X:1
+T:Polka des enfants
+E:12
+Z:Roger Ngaret (94-95)
+R:polka
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=200
+G4 | "C"c6d2 e4 f4 | g4 g2g2 g4 e4 |1 "G"f4 f2f2 f4 d4 | "C"e8 c4 :|2
+"G"f8 d8 | "C"c12 || e4 | g4 e4 c4 z4 | [c4e4] [c4e4] [c4e4] e4 | 
+g4 e4 "G"d4 z4 | [B4d4] [B4d4] [B4d4] c2e2 | "C"g4 g4 g4 c2e2 | 
+g4 g4 g8 | "G"b6a2 "C"g4 f4 | e4 d4 (c8 | c4) |]
+%%rm  Ce sont les filles d'Lamballe,
+%%rm  Qui s'en vont au bal,qui s'en vont au bal
+%%rm  Ce sont les filles d'Lamballe,
+%%rm  Qui s'en vont au bal danser.
+S:https://www.folktunefinder.com/tunes/183038
+S:http://termen.free.fr/danses/polkas/Polkadesenfants.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

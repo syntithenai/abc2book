@@ -1,0 +1,27 @@
+X: 1
+T: Min levnads afton
+T: The Afternoon of My Life
+O: efter Pekkos Per
+S: handwritten MS (from Leif Alpsj\"o's playing)
+R: g\aangl\aat
+M: 2/4
+L: 1/16
+K: Gm
+G,2- \
+|: "Gm"G,2A,2 B,2C2 | "D7"D6 ^F2 | "Gm"G2Ac B2TB2 | "D7"ABA^F D2{ED}C2 \
+| "Gm"B,3A, B,2C2 | "(D7)"D6 d2 | "Gm"B2BG "D7"AcA^F |1 "Gm"G6 DB, :|2 "Gm"G6 g2 |
+| "Gm"b2g2 g3^f | "D7"d6 dc | "Bb"B2Bd f2fd | "Cm"~c2Bc "D7"d3c \
+| "Gm"B3A GABc | "Gm"dcBA B2B2 | "D7"A2A^F DFAB | "Gm"G6 g2 |
+| "Gm"b2g2 g2^f2 | "D7"d6 dc | "Bb"BFBd dffd | "Cm"~c2Bc "D7"d2~c2 \
+| "Gm"B2~A2 GABc | "Gm"dcBA B2B2 | "D7"A2A^F DFAB | "Gm"G6 |]
+S:https://www.folktunefinder.com/tunes/86394
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/MinLevnadsAfton_Gm.abc
+% Rhythm G%C3%A5ngl%C3%A5t
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

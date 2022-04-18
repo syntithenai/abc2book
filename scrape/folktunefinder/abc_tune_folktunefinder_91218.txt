@@ -1,0 +1,22 @@
+X:405
+T:Bunker Hill
+M:4/4
+L:1/8
+K:DMix
+cA|GE E2 D3 G|(3EFG AB c2 BG|ABAG EFGE|ABcA dBcA|
+|GE E2 D3 G|(3EFG AB c2 BG|ABAG EFGE|ABcA d2:|
+cA|GccB cdec|GccB cBAG|Add^c defd|Add^c dcAG|
+(3EFG AB cAdB|cAdB c2 Bc|dBcA BG G2|ABcA d2 :|
+ag|fd d2 fdad|fadf a3 f|ge e2 (3gfe be|gbeg b2 ag|
+fadf ed^ce|dcAB c Bc|dBcA BG G2|ABcA d2 :|
+S:https://www.folktunefinder.com/tunes/91218
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

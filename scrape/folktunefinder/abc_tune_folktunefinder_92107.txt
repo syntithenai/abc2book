@@ -1,0 +1,36 @@
+X:84
+T: Pusonglin liqu
+N: C1577
+O: China,Shandong, Rizhao
+S: III, 399]
+R: Xiaodiao, Shuahaier]
+M: 4/4
+L: 1/16
+K: A
+b4b3ec2b2a4- | a2e4f2a4g4 | c4f4c2c2f2e2- | e2
+c4B2c2e2c2B2- | B2a2a2c2b2g2f2e2- | e16
+f4c4f4f4 | c4f4f4c4 | B2e2c2B2A8
+faf4e2f4e2f2 | c4e2f2e2f2a4- | a2c4b2g2f2e2f2 | e8
+-e2a2f2e2 | c2e2c2B2A2e4B2 | c2e2c2B2A8
+z4f4f4c4 | f4f4e4^d3c | B3ec2B2A8
+b2b4^a2b2e2c2b2 | a6e2f2a6 | g4
+c4c4c2b2 | f2e4c2B4c2e2 | c2B2a6c2b4 | g2f2e2f2e6
+a2 | f2e2c2B2A2e4B2 | c2e2c2B2A8
+faf4c2faf6 | c4e4e3fa4- | a2c4b2g2f2e2f2 | e2
+a4e4B4c2 | c2e2c2B2A8
+c2f4f2c4f4 | f4c2f2f2c6 | B3ec2B2A8
+b4b3ec2b2a4- | a2e4f2a4g4 | c4f2c2c4c2c2 | f2e4
+c4B2c2B2 | c2e2c2B2a6c2- | c2b2g2f2e2f2e4- | e2
+a2f2e2c2e2c2B2 | A2e4B2c2e2c2B2 | A16
+S:https://www.folktunefinder.com/tunes/92107
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, shuahaier]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

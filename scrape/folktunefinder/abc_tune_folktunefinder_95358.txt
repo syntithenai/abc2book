@@ -1,0 +1,29 @@
+X:260
+T:Lethe
+B:Aird's Airs and Melodies vol 3
+M:6/8
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001c4.html
+%%ID:000001c4
+K:G
+"Slow" d|\
+g>fg dcB| A/c/BA G2A| \
+B>cd efg| {e}dc/B/A/G/ A2d|\
+g>fg dcB| A/c/BA G2d|
+e>fg ag/f/e/d/| e/g/fe d2:: \
+f/g/|\
+a>ba fdf| g>fg e2d| \
+e>dc Bcd| ec'/b/a/g/ {g}f2g|
+{e}dc/B/A/G/ dfg| e/d/c/B/A/G/ d2a| \
+b>fg dcB| cAd G2:|
+S:https://www.folktunefinder.com/tunes/95358
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

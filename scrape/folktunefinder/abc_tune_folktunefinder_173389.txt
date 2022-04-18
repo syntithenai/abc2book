@@ -1,0 +1,23 @@
+X: 1
+T: Lurgy, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3cBA |\ 
+G>DB>G d>Bg<f | f>ee>^d e2 (3BAG | F>DA>F d>Af<e | e>d (3^cde d>=c (3cBA |
+G>DB>G d>Bg<f | f>ee>^d e2 e>f | g>a (3gfe d>B (3gfe | d>B (3cBA G2 :|
+|: (3AGF |\ 
+E>^DE>F G>FG<A | B>^AB>^d e2 f>e | d>AF>E D>E (3FED | E>^DE>B A>^GA>F | 
+E>^DE>F G>FG<A | B>G (3Bcd g2 a>g | f>ec>A f>e (3cBA | d>B (3cBA G2 :|
+S:https://www.folktunefinder.com/tunes/173389
+S:http://www.thesession.org/tunes/display/8288
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,54 @@
+X: 9101
+T: McFadden's Grand-daughter (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: A
+[V:1] AF|"E7"EGBd "F#m"cAFA|"A"ceae "D"f2 fg|"A"ac (3c^Bc "F#m"faec|"Bm"dcBA "F#m"F2 AF|
+[V:2] z2|E,2[D2B2G2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]F,,2[A2C2F2]|\
+B,,2[F2B2D2]F,,2[A2C2F2]|
+%
+[V:1] "E7"EGBd "F#m"cAFA|"A"ceae "D"f2 fg|"A"a2 (3aga "D"fedc|"Bm"BABc "A"A2 :|
+[V:2] E,2[D2B2G2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+B,,2[F2B2D2][A,,2C2E,2]:|
+%
+[V:1] cd| "A"ec (3c^Bc "D"fdfa|"E"gabg "F#m"a2 ga|"Bm"b2 af "A"ec (3c^Bc|"F#m"faec "Bm"BABc|
+[V:2] z2|A,,2[A2C2E2]D,2[A2D2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|B,,2[F2B2D2]A,,2[A2C2E2]|\
+F,,2[A2C2F2]B,,2[F2B2D2]|
+%
+[V:1] "A"ec (3c^Bc "D"fdfa|"E"gabg "F#m"a2 ga|"E"be (3efe "F#m"aecf|"E7"edBG "A"A2 :|
+[V:2] A,,2[A2C2E2]D,,2[A2D2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|\
+E,,2[D2B2G2][A,,2C2E,2] :|
+%%%%%%tune repeat
+[V:1] AF|"E7"EGBd "F#m"cAFA|"A"ceae "D"f2 fg|"A"ac (3c^Bc "F#m"faec|"Bm"dcBA "F#m"F2 AF|
+[V:2] z2|E,2[D2B2G2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]F,,2[A2C2F2]|\
+B,,2[F2B2D2]F,,2[A2C2F2]|
+%
+[V:1] "E7"EGBd "F#m"cAFA|"A"ceae "D"f2 fg|"A"a2 (3aga "D"fedc|"Bm"BABc "A"A2 :|
+[V:2] E,2[D2B2G2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+B,,2[F2B2D2][A,,2C2E,2]:|
+%
+[V:1] cd| "A"ec (3c^Bc "D"fdfa|"E"gabg "F#m"a2 ga|"Bm"b2 af "A"ec (3c^Bc|"F#m"faec "Bm"BABc|
+[V:2] z2|A,,2[A2C2E2]D,2[A2D2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|B,,2[F2B2D2]A,,2[A2C2E2]|\
+F,,2[A2C2F2]B,,2[F2B2D2]|
+%
+[V:1] "A"ec (3c^Bc "D"fdfa|"E"gabg "F#m"a2 ga|"E"be (3efe "F#m"aecf|1 "E7"edBG "A"A2 :|2\
+"E7"edBG "A"A4-|A4 z4 ||
+[V:2] A,,2[A2C2E2]D,,2[A2D2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|E,,2[E2B2G2]F,,2[A2C2F2]|1\
+E,,2[D2B2G2][A,,2C2E,2] :|2 E,,2[D2B2G2] [A,,4-C4-E4-]|[A,,4C4E4] z4 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87186
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

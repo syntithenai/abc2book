@@ -1,0 +1,78 @@
+X:1
+T:Londonderry Air
+T:for flute or violin and lute
+C:Irish traditional
+C:Lute part by C. Dalitz
+Z:abc transcription Christoph Dalitz
+L:1/4
+M:C|
+K:F
+%
+%%indent 2 cm
+%%composerspace 0cm
+%%topmargin 0.5cm
+%%botmargin 0cm
+%%sysstaffsep 35pt
+%%systemsep 50pt
+%
+%%tabaddflags 2
+%%tabfontsize 11
+%%tabfontscale 1.3
+%
+V:1 clef=treble name=Flute bracket=2
+EFG | "F"A3 G | AdcA | \
+        "Bb"G-F D2- | "g"DF "C"AB | \
+        "F"c3 d |
+%bar 6
+cAFA | "C4"G4 | \
+        "C3"z EFG | "F"A3 G | \
+        AdcA | "Bb"G-F D^C | \
+        D-E F-G |
+%bar 13
+"F"A3 B | "C"AGFG | \
+        "F"F4 | z cde | \
+        "d"f3-e | "Bb"e d c d | \
+        "F"c-A F2- |
+%bar 20
+F cde | "d"f3-e | \
+        edcA | "g"G4 | \
+        "C"z ccc | "F"a3-g |
+%bar 25
+"Bb"gfdf | "F"c-A F2- | \
+        F EFG | "d"A-d c-A | \
+        "Bb"G-F "C"D-E | "Bb"F4- | \
+        "F"HF |]
+%
+V:2 clef=frenchtab name=Lute
+x3 | [cdda2] ,,d1 a | [cdda2] ,d | \
+        [,ab,,d2] ,a1 ,d | [da,,,a2] ,,,,a1 a | \
+        [cd,a1] ,,d ,d d |
+%bar 6
+[c,,a1] ,d c f | [add,a1] ,d ',c ,a | \
+        [,c,,a2] ,,d | [,daa1] ,c ,d a | \
+        [c,,a1] d c ,d | [,a,,,d1] ,,b d a | \
+        [,d,,,d1] ,,b ,a ,c |
+%bar 13
+[,daa1] ,c ,d a  | [,dd,a1] ,c ,a ,c | \
+        [,da{a}1] cda | [cd,a2] z2 | \
+        ,,,,c1 ,,a ,a ,,,,a | ,,,,,d1 ,,f ,d d | \
+        [c,,a1] ,,d ,d a | 
+%bar 20
+[c,,a2] ,d | ,,,,c1 ,,a ,a ,c | \
+        [,da{,a}2] c | [da,,,a1] ,,b ,a [cd] | \
+        [ac,,a2] ,,d | [adaa2] ,d1 ,c |
+%bar 25
+[,ab,,d2] d | [cd{a}1] ,,d ,d a | \
+        [c,,a2] ,d1 ,,,,e | ,,,,c1 ,d c ,d | \
+        [aa,,,d1] ,d ,,,,a ,c | [,ab,,d1] ,,b ,a d | \
+        H[cdd{a}1] |]
+S:https://www.folktunefinder.com/tunes/158932
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Traditional/Londonderry.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Traditional/Londonderry.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

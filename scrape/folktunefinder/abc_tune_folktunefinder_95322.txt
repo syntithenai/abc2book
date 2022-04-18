@@ -1,0 +1,24 @@
+X:80
+T:Dribbles of Brandy
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001a0.html
+%%ID:000001a0
+K:E min
+EGE G2A| B2e dBG| A2Bc2A| B2G FED|\
+EGE G2A| B2e dBG| A2B c2A| BGE E3::
+e2f g2e| fag fe^d| e2f g2e| fe^d| e3|\
+e2f g2e| fag fe^d| e2B c2A| BGE E3:|
+S:https://www.folktunefinder.com/tunes/95322
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,85 @@
+X:142
+T:Downshire
+C:Arrangement and Harmony by J. Ciaglia
+U:N=!tenuto!
+U:K=!crescendo(!
+U:V=!crescendo)!
+U:J=!diminuendo(!
+U:W=!diminuendo)!
+M:2/4
+L:1/8
+K:D
+V:1
+!mf!KA/G/|F(3VD/D/D/ J.DNDW!p!|KNDNF NANdV|JNc"@-5,16 3"!r1d!A .ANAW!p!|KNANc NeNgV|!f!f/d/(e//d//c//d// e/)d/c/d/|
+V:2
+!mf!C|D(3A,/A,/A,/ .A,NA,|NA,ND NFNF|NE"@-3,26 3"!r1u!E .DND|CE NA2|A/F/(G//F//E//F// G/)F/E/F/|
+V:3
+K:treble-8
+!mf!A|d(3F/F/F/ .FNF|NFNA NdN^G|NA"@-5,12 3"!r1d!c .BNB|A2 NcNe|d/f/Na aa/a/|
+V:1
+KBg gf/g/V|!ff!e/f/Jg/f/ e/f/e/d/W|Kc/d/Ve/Jd/ c/B/A/G/W|!mf!F"@-3,28 3"!r1u!D D"@-3,28 3"!r1u!D|KD/F/A/d/ D/F/A/d/V|
+V:2
+GB AA|.B.B NBN^G|A^G AE|D"@-3,30 3"!r1u!A, A,"@-3,30 3"!r1u!A,|A,/D/F/D/ A,/D/"@-3,28 3"!r1u!F|
+V:3
+g/f/(e//f//e//d// c)d|ge ^ge|ae Ac|d"@-3,28 3"!r1u!F F"@-3,28 3"!r1u!F|F/A/d/f/ F/A/d/^G/|
+V:1
+L:1/16
+Jc2"@-3,18 3"!r1d!A2 A2"@-3,22 3"!r1u!A2W|!mp!Ac!cresc!eg Aceg|fAdf edcd|B2g2 g2fg|!f!Jefge d2c2W|!f!Je4 d2W:|
+V:2
+L:1/8 
+E"@-3,28 3"!r1u!C D"@-3,28 3"!r1u!D|C/E/"@-3,22 3"!r1u!A C/E/"@-3,22 3"!r1u!A|A/F/F/A/ G/FF/|GB _Bz|AA/G/ .FNF|NG2 F:|
+V:3
+L:1/8
+A"@-3,22 3"!r1u!A _B"@-3,22 3"!r1u!B|NAc/d/ NA(3c/d/e/|d/dd/ dd/d/|Gd Dz|c/A/B/c/ dNA|NAB/c/ d:|
+V:1
+L:1/16
+!f!A2|!cresc!f2(3fff Nf2"@-5,8 3"!r1d!f2|fefg agfg|!ff!e2!f!"@-5,8 3"!r1d!e2 !cresc!e2"@-5,8 3"!r1d!e2|edef gfed|!ff!fgfe dcBA|
+V:2
+L:1/8
+A|A"@-3,22 3"!r1u!A A"@-3,22 3"!r1u!A|A"@-3,22 3"!r1u!A d"@-3,18 3"!r1d!A|c(3=c/B/_B/ A(3B/A/_A/|G/F/"@-3,22 3"!r1u!A A(3A/G/F/|B(3A/A/B/ BE|
+V:3
+a|d"@-5,8 3"!r1d!d d"@-5,8 3"!r1d!d|d/c/d/e/ f/e/d/d/|A(3^A/B/=c/ ^c(3=c/B/_B/|Ac/d/ e/d/c/B/|d/e/f/F/ G^G|
+V:1
+L:1/16
+J^GABG WA2!mf!ec|dece BeAe|^GeAe Bece|dece BeAe|^GeAe Bece|
+V:2
+L:1/8
+EE EA|^GA GF|EF ^GA|^GA GF|EF ^GA/=G/|
+V:3
+L:1/16
+E2d2 c2ce|EeEe EeEe|EeEe EeEe|EeEe EeEe|EeEe EeA2|
+V:1
+L:1/16
+!f!eFAd fAdf|a2ab agfe|dFAd fAdf|a2ab agfe|(e/d/c/d/!decresc!f)e dcBA|
+V:2
+L:1/16
+FDFF AFFA|d2d2 c2AG|FDFF AFFA|.c2Nd2 cBAG|F2^GF B2F2|
+V:3
+L:1/8
+dd/A/ dd/G/|F/f/g aNc|dd/A/ dd/B/|A/a/_b aA|BF/^A/ Bc/d/|
+V:1
+L:1/8
+^G/A/d/c/ A/G/F/E/|!mf!F"@-3,28 3"!r1u!D !cresc!D"@-3,28 3"!r1u!D|D/F/A/d/ D/F/A/d/|[L:1/16]!f!Jc2"@-3,18 3"!r1d!A2 A2"@-3,22 3"!r1u!A2W|!cresc!Aceg Aceg|
+V:2
+L:1/8
+^GE/G/ .ANC|D"@-3,30 3"!r1u!A, A,"@-3,30 3"!r1u!A,|A,/D/F/D/ A,/D/"@-3,28 3"!r1u!F|E"@-3,28 3"!r1u!C D"@-3,28 3"!r1u!D|C/E/"@-3,22 3"!r1u!A C/E/"@-3,22 3"!r1u!A|
+V:3
+L:1/8
+e^g/e/ aA|d"@-3,28 3"!r1u!F F"@-3,28 3"!r1u!F|F/A/d/f/ F/A/d/^G/|A"@-3,22 3"!r1u!A _B"@-3,22 3"!r1u!B|NAc/d/ NA(3c/d/e/|
+V:1
+L:1/16
+fAdf edcd|.B2Ng2 Ng2fg|!f!efge d2c2|e4 d2:|
+V:2
+L:1/8 
+A/F/F/A/ G/FF/|.G!f!NLB _Bz|AA/G/ .FNF|NG2 F:|
+V:3
+L:1/8
+d/dd/ dd/d/|.GNd Dz|c/c/B/c/ .dNA|(3ABc d:|
+S:https://www.folktunefinder.com/tunes/90129
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 2
+T: Patrick's
+M: 4/4
+L: 1/8
+R: reel
+K: D Major
+|: B |\ 
+AD ~D2 ADBD | AD ~D2 EDB,D | BE ~E BEdE | BE ~E2 BAFB |
+ADFD AD ~D2 | ADFD ED ~D2 | ~A,3 B, D2 EG | ABde fed :|
+|: B |\ 
+Ad ~d2 Adfd | Ad ~d2 edBd | eB ~B2 eBgB | eB ~B2 f/e/d Bd |
+Adcd A2 fd | Adcd ed ~d2 | ~e3 f ~d3 B | ~A3 e ~f2 d :|
+S:https://www.folktunefinder.com/tunes/181788
+S:http://www.thesession.org/tunes/display/8197
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

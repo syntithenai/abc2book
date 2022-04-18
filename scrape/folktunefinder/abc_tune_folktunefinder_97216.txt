@@ -1,0 +1,17 @@
+X:6
+T:Beethoven's Favorite Waltz
+M:3/4
+L:1/8
+K:G
+Bc|"G" dB G2 Bc |"Em" dB G2 gf |"C" {d}e2e2e2 | "Am"e2>d2 cB |"D" A2A2A2 | d2>c2 BA |"G" GF GB"D7" AF|"G" G4 "_fine":|
+|:"D"df|"G"g2g2 "D"(3aba |"G" g2g2 "D7"af |"G" g2a2b2 | "D" afd2 ef|"G" gf gd "D"fd |"G"gf gd "D"fd|"C" g2 dc "D7"BA | "G"G4 :|
+|:GB|"G"d2 d^c dc |"Em" dB ed "Am"=cB | "D7"A2A2d2 |"G" B4 GB|"G"d2 d^c dc |"Em" dB ed "Am"=cB |"D7" A2AG AB |"G" G4:|
+|:d2 |"G" g2g2 bg |"Bm" d2 dg "Em"dB |"Am" G2GF GB |"D7" B2A2 d2 | "G"g2g2 bg |"Bm" d2 d2 "Em"gd |"Am" Bd GB "D7"AF |"G" G4"_D.C al Fine":|
+S:https://www.folktunefinder.com/tunes/97216
+S:http://www.thursdaycontra.com/~spuds/tunes/couple/allother.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

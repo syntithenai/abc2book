@@ -1,0 +1,32 @@
+X:1753
+T:The Londonderry Hornpipe
+M:C|
+L:1/8
+N:"collected by Delaney"
+B:O'Neill's 1753
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+   (A>G) | F2 A>d f>dA>F | G2 B>d g>dB>G | F2 A>d f>dA>F | E2 G>B e>cA>G |
+           F2 A>d f>dA>F | G2 B>d g2 a>g | f>af>d B>ge>c | d2  f2  d2   :|
+|: (f>g) | a2 f>d A>df>a | g2 e>c A>ce>g | a2 f>d A>dg>f | (3efd (3cdB A2 f>g |
+           a2 f>d A>df>a | g>ec>e g2 a>g | f>af>d B>ge>c | d2  f2  d2   :|
+|: (A>G) | (3FED A>D B>DA>D | d>cd>f e>cA>G | (3FED A>D B>DA>D | E>GF>A G>BA>G |
+      (3FED A>D B>DA>C | d>cd>f e>ce>g | (3fgf d>f {a}g>ec>e | d>f ((3edc) d2 :|
+|:((3efg)|a>^ga>b a>fd>f |g>fg>a g>ec>e |a>^ga>b a>fd>f |(3efd (3cdB A2 ((3efg) |
+      a>^ga>b a>fd>f | g>fe>f g>ba>g | (3fgf d>f {a}g>ec>e | d>f ((3edc) d2 :|
+|: f>g | (3.a.a.a f>d A>df>d |(3.g.g.g e>c A>ce>c |f>dg>e a>fb>g |e>cd>B A2 f>g|
+         (3.a.a.a f>d A>df>d |(3.g.g.g e>c A2 a>g |f>dA>F E>ge>c | d2 f2 d2 :|
+|: (F>G) | A>FA>d f>ed>c | B.GB>e g>fe>d | c>Ac>e a>gf>e | f>cd>B A2 F>G |
+           A>FA>d f>ed>c | B>GB>d g2 a>g | f>af>d B>ge>c | d2 f2 d2 :|
+S:https://www.folktunefinder.com/tunes/172748
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1753_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

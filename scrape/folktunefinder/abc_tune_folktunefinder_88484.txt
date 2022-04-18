@@ -1,0 +1,26 @@
+X:1635
+T:a Jigg
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001263.html
+%%ID:00001263
+K:G
+A/B/c | dAG FED | dAG FED | E2F G2A | BGE E2\
+B/c/  | dAG FED | dAG FED | E2F G2d | cAD D2 ::
+A | d2e fdf | ece dAG | FED E2F | G2A BG\
+E | E2A d2e | fdf ece | dAG FED | E2F G2d | AFD D2 :|
+%%newpage
+%page 130
+S:https://www.folktunefinder.com/tunes/88484
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

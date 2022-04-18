@@ -1,0 +1,25 @@
+X:385
+T:a Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ec2.html
+%%ID:00000ec2
+K:C
+B4 (A/B/c) | B2A2 G2 | d4 (c/d/e) | d2c2 B2 | \
+gabagf     | d2c2 B2 | cdc2 c2    | B2 A4 ::
+d4 (c/d/e) | A2c2 c2 | E2 cBAG      | F2EF D2 | \
+GBAcBd     | egfa g2 | (e/d/c)B2 A2 | A6 ::
+S:https://www.folktunefinder.com/tunes/88234
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

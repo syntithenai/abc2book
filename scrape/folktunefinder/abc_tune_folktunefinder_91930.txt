@@ -1,0 +1,28 @@
+X: 1849
+T: The Munster Outcry
+M:C
+L:1/8
+B:O'Neill's 1849
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+(d/e/f/g/) | (ab ab ab ab) | Ta8 | Ta8 | ((3bag) e2 (e/f/g/a/) b2 |
+(bc' bc' bc' bc') | Tb8 | Tb8 | b3 a g e3 |
+ge ag ((3bag) ag | ((3bag) a2 b2 (c'/b/a/g/) |\
+e2 ge ag ((3bag) | ag ((3bag) ag g2 | z a ((3bag) e4 |
+ge ag ((3bag) ag | ((3bag) a2 b2 (c'/b/a/g/)|\
+e2 ge ag ((3bag)| ag ((3bag) ag g2 | z a ((3bag) e4 |
+ge ag ((3bag) ag | ((3bag) ag (b/a/g/e/) ((3deg) | ag g6 | ce c2 ((3cBA) BD |
+B2 ((3BAG) AD A2 | ((3AGE) GD G2 ((3GED) | AD A2 ((3AGE) BD |
+B2 ((3BAG) BD B2 | ((3BAG) AD A2 ((3AGE) | GD G3 A ((3BAG) |
+E3 z c z c2 | ((3BAG) E2 B z B2 | ((3BAG) E2 A z A2 | ((3BAG) E2 B z ((3BAG) |
+z ((3A>GE) z ((3B>AG) ((3A>GE) | G3 A ((3BAG) E2 | GE AG ((3BAG) AG | (B/A/G/E/) ((3DEG) AG G2 | G6 |]
+S:https://www.folktunefinder.com/tunes/91930
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1801-1850_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

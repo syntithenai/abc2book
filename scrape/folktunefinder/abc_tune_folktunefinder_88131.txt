@@ -1,0 +1,167 @@
+X:12
+%%newpage
+T:Missa VIII - In Festis Duplicibus 5
+T:(de Angelis)
+M:none
+L:1/8
+%%vocalabove 1
+K:C
+%%staves {(1 2) (3 4)}
+V:1 name="Kyrie" clef=treble
+%P:Kyrie
+C EFG G2 AGF G2 cAGF GA !shortphrase!G2 GEDC FE D D C2||
+w:1.2.3.~Ky-ri --e***********e--***-le-i-son.|
+V:2
+C-C8-C2-C6 B,2 C4 A,2 B,2 C2||
+V:3
+C, C,D,E,- E,2 F,3 E,2- E,2 F,2 E,2 !shortphrase!D,2 G,4 F,2 G,2 E,2||
+V:4
+C,- C,3- C,2 A,,3 C,2 A,,4 C,2 G,,2 E,4 D,2 G,,2 C,2||
+V:1
+E EDCB, C2 CEF G2 AGF !shortphrase!G2 GEDC FE D D C2||
+w:1.2.3.~Chris-te************e--***-le-i-son.|
+V:2
+E EDCB, C2 C3-C2 A,3 C2 G,4 F,2 G,2 E,2||
+V:3
+E,- E,D,C,B,, C,2 E,3- E,2 F,3 !shortphrase!E,2 C,4 A,,2 B,,2 C,2||
+V:4
+E,- E,D,C,B,, C,2 A,,3 G,,2 F,,3 C,2 E,,4 D,,2 G,,2 C,2||
+V:1
+c B cBA Bc G2 cGA EF !shortphrase!G2 GEDC FE D D C2||
+w:1.2.~Ky-ri-e***********e--***-le-i-son.|
+V:2
+E2- E3- E4- E3 C2 D2 C4 A,2 B,2 G,2||
+V:3
+CD C3- C2- C2- C3- C2 !shortphrase!B,2 G,4 F,2 G,2 E,2||
+V:4
+A,2- A,3- A,2 C2- C3 CA, G,2 E,4 D,2 G,,2 C,2||
+V:1
+c B cBA Bc !shortphrase!G2 c B cBA Bc G2 cGA EF !shortphrase!G2 GEDC FE D D C2||
+w:3.~Ky-ri-e*******************e--***-le-i-son.|
+V:2
+C2- C3- C4 C2- C3- C2 B,2 C3- C2 B,2 G,4 F,2 G,2 E,2||
+V:3
+E,2- E,3- E,2-!shortphrase!E,2 E,2- E,3 E,2 D,2 E,3 A,2 !shortphrase!D,2 C,4 D,2 B,,2 C,2||
+V:4
+A,,2- A,,3- A,,2 C,2 A,,2- A,,3 G,,4 E,3 A,,2 G,,2 E,,4 D,,2 G,,2 C,,2||
+%
+%%newpage
+%%staves {(1 2) (3 4)}
+V:1 name="Gloria"
+%P:Gloria
+G G E D C D E D2 C2||G G E D C D E D !shortphrase!C2 
+w:Glo-ri-a in ex-cel-sis De-o,|Et in ter-ra pax ho-mi-ni-bus
+V:2
+x x6 x4||G G E D C2- CB, C2 
+V:3
+x x6 x4||G,2 E,D, E,F, G,2 E,2 
+V:4
+x x6 x4||G,2 E,D, C,2 G,,2 !shortphrase!C,2 
+V:1
+C D E G A2 G2||c BAG A G2||c B A G AB (A2 G2)||
+w:bo-nae vo-lun-ta-tis.|Lau-da -*mus te.|Be-ne-di-ci-mus*te.*|
+V:2
+C2- C2- C4||C D4 B,2||C4- C2 D2 B,2||
+V:3
+A,2 G,E, F,2 E,2|E, G,3 ^F, G,2||G,4- G,2 ^F,2 G,2||
+V:4
+A,2 G,E, F,2 C,2||A,, B,,3 D, G,,2||E,4 D,4 G,,2||
+V:1
+G G EDC DE C2||C D E G A G2||G A B c B AB A2 !shortphrase!G2 
+w:A-do-ra -*mus*te|Glo-ri-fi-ca-mus te.|Gra-ti-as a-gi-mus*ti-bi,
+V:2
+D2 C3 B,2 G,2||C3 EF E2||D3 C4 D2 B,2 
+V:3
+G,2- G,F,E, G,2 E,2||C3-C4||G,3 E,4 ^F,2 !shortphrase!G,2 
+V:4
+B,,2 C,3 G,,2 C,2||C,3-C,4||B,,3 A,,4 D,2 G,,2 
+V:1
+G G E D C D E D2 C2||G G E D C D E D2 !shortphrase!C2 
+w:prop-ter mag-nam glo-ri-am tu-am.|Do-mi-ne De-us, Rex coe-le-stis,
+V:2
+G,4- G,3- G,2 E,2||G G E D C B,4 C2 
+V:3
+C,4- C,3 B,,2 C,2||G,2 E, D, C, G,4 !shortphrase!E,2 
+V:4
+E,,4- E,,3 G,,2 C,,2||G,2 E, D, C, G,,4 C,2 
+V:1
+C DE G AG AB cB AG G2||G G E D C D E G A !shortphrase!G2 
+w:De-us*Pa-ter*om -ni -po -tens.|Do-mi-ne, Fi-li u-ni-ge-ni-te,
+V:2
+C3- C3- C6 B,2||G G E D C B,2 C4 
+V:3
+C,3 E,3- E,4 F,2 D,2||G,2 E, D, C, G,2- !shortphrase!G,4- 
+V:4
+C,3- C,3 A,,2 G,,2 F,,2 G,,2||G,2 E, D, C, G,2 E,4 
+V:1
+AB cB A2 G2||c B A BA G A B A2 !shortphrase!G2 G G EDC DED C2||
+w:Je -su*Chri-ste.|Do-mi-ne De -us, A-gnus De-i, Fi-li-us**Pa -*tris|
+V:2
+F2 E2 F2 E2||C3 E3 ^F4 D2 C2- C3 B,3 G,2||
+V:3
+G,4 C4||E,3 G,C B, D4 !shortphrase!B,2 G,2- G,3- G,3 E,2||
+V:4
+D,2 C,2- C,4||A,,3 E,3 D,4 G,2 E,2- E,3 G,3 C,2||
+V:1
+C D E G A G ABcB (A2 !shortphrase!G2) G G EDC DE D2 C2||
+w:Qui tol-lis pec-ca-ta mun-**-di,*mi-se-re-*-re*no-bis.|
+V:2
+C D E G A G C4- C4 D2 C3 B,2- B,2 G,2||
+V:3
+C, D, E, G, A, G, E,4 F,2 !shortphrase!E,2 G,2 G,F,E, G,2- G,2 E,2||
+V:4
+C, D, E, G, A, G, A,,4- A,,2 C,2 B,,2 C,3 G,,2- G,,2 C,2||
+V:1
+c B A G A B A2 !shortphrase!G2 G G E C D C E G AG ABcB (A2 G2)||
+w:Qui tol-lis pec-ca-ta mun-di, su-sci-pe de-pre-ca-ti-o-nem*no -*-stram*|
+V:2
+C D3- D4 B,2 G,3- G,4 D3 C4- C2 B,2||
+V:3
+E, G,3 ^F,4 !shortphrase!G,2 C,3 B,,A,, B,,2 D,3 E,4 F,2 D,2||
+V:4
+A,, B,,3 D,4 G,,2 E,,3 G,,4 B,,3 A,,4 F,,2 G,,2||
+V:1
+G G E D C D E D2 !shortphrase!C2 C D E G A2 G2||c B A G 
+w:qui se-des ad dex-te-ram Pa-tris, mi-se-re-re no-bis,|Quo-ni-am tu
+V:2
+G G E D C3 B,2 C2 C2- C2- C2 B,2||C3 B, 
+V:3
+G, G, E, D, C,3 G,2 !shortphrase!E,2 A,2 G,E, F,2 D,2||G,4 
+V:4
+G, G, E, D, C,3 G,,2 C,2 A,,2 C,2 F,,2 G,,2||E,4 
+V:1
+A B A2 G2||c B AG AB AG G2||G G E DC DE G 
+w:so-lus san-ctus.|Tu so-lus*Do -mi -nus.|Tu so-lus al -tis -si-
+V:2
+D4 B,2||E4- E2 F2 D2||G G E DC B,3 
+V:3
+^F,4 G,2||G,- G, CB, C2- C2 B,2||G, G, E, D,C, G,3 
+V:4
+D,4 G,,2||C, E,3 A,2 F,2 G,2||G, G, E, D,C, G,3 
+V:1
+(A2 !shortphrase!G2) AB cB A2 G2||G G EDC DE D !shortphrase!C2 
+w:mus,*Je -su*Chri-ste.|Cum San-cto**Spi -ri-tu,
+V:2
+C4 C4- C2 B,2||G G EDC A,3- A,2 
+V:3
+F,2 !shortphrase!E,2 E,4 F,2 D,2||G,2 E,D,C, F,3 !shortphrase!E,2 
+V:4
+F,2 C,2 A,,4 F,,2 G,,2||G,2 E,D,C, D,3 A,,2 
+V:1
+C D E G A G ABcB (A2 G2)||GED C2 FED (D2 C2)||
+w:in glo-ri-a De-i Pa-**-tris*|A -*-**-men.*|
+V:2
+C- C3- C2- C4 D2 B,2||C3- C2 A,3 B,2 C2||
+V:3
+E, F,G,E, F,E,- E,4 ^F,2 G,2||G,3- G,2 A,G,F, G,2 E,2||
+V:4
+C,- C,3- C,2 A,,4 D,2 G,,2||E,3- E,2 D,3 G,,2 C,2||
+S:https://www.folktunefinder.com/tunes/88131
+S:http://moinejf.free.fr/messe/messeM.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

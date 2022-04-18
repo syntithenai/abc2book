@@ -1,0 +1,17 @@
+X:1
+T:Plains of Waterloo (2)
+M:4/4
+L:1/8
+K:F
+ G| c2 c3/2 d/2 e3/2- f/2- df| e(2d3.99999962500005/5.99999925000009d3.99999962500005/5.99999925000009c3.99999962500005/5.99999925000009 d3.99999962500005/5.99999925000009c/2-B/2 G3 c|\
+ cc c3/2 E/2 F G2 E| D3/2 C/2 CC C3| G/2- E| G c2 de f2 e| dB-c dc/2-B/2 G2 G|\
+ c c2 EF G2 E| DD CC C3||
+S:https://www.folktunefinder.com/tunes/182668
+S:http://back.numachi.com:8000/dtrad/abc/PLNWLOO2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

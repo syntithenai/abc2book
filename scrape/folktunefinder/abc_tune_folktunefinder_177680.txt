@@ -1,0 +1,47 @@
+X:978
+T:Munlochy Bridge
+C:anon.
+O:Scotland
+S:Scots Guards Standard Settings of Pipe Tunes
+N:not quite the way they printed it!
+Z:Jack Campin 1999
+%http://www.musicaviva.com/munlochy-bridge
+%Posted Nov 11th 1999 at ABC-users by Jack Campin during a discussion
+%about the P: field
+M:C
+L:1/8
+K:Hp
+P:A
+ {ef}e>d {gBd}B>A   {g}B>{d}G {e}G>||
+P:B
+{Gdc}d>e {gde}d>B {Gdc}d2     {g}d>||
+P:C
+ {gf}g>e {g}(3fed {gef}e2     {A}e ||
+P:D
+{Gdc}d>e  {gf}g>e      a>e    {A}e>||
+P:E
+   a||
+P:F
+{d}B||
+P:G
+   g||
+P:H
+   e||
+P:I
+   f||
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/177680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/scotland/munlochy-bridge.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/scotland/munlochy-bridge.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

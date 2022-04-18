@@ -1,0 +1,23 @@
+X:65
+T: People's Choice (The)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: D
+D | "D"FED AFA | "G"BGB Bcd | "Bm"fdB "F#m"AFA | "D"dAF "A"ECE |
+"D"FED AFA | "G"BGB Bcd | "D"fdd add | "A"cec "D"d2 :|
+e | "D"fed "A"edc | "G"dcB "F#m"AFA | "D"fdd "G"bag | "D"fga "A"ece |
+"D"fed "A"edc |"G"dcB "F#m"AFA|"D"fdd add |"A"cec "D"d2 :|
+S:https://www.folktunefinder.com/tunes/93276
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

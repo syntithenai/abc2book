@@ -1,0 +1,56 @@
+X:1809
+T:Polonaise
+C:Wilhelm Friedemann Bach
+O:Germany
+R:Polonaise
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-wilhelm-friedemann/bach-wf-polonaise/bach-wf-polonaise-pno2.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:Dm
+V:1
+Af z f2e-|e_ed2^c z|db z b2a-|a_ag2^f z|
+V:2
+FA z A2G-|G3GG^F|Bd z d2c-|c3cc=B|
+V:3
+D,2D,,2A,2|B,3B,B,A,|G,2G,,2D2|_E3 EED|
+%
+V:1
+gB2B2B|gB2BAG|TF2 {E/F/}AG FE|D2^C2 z2:|
+V:2
+BG2G2G|BG2GFE|D2D2B,2|A,3B,A,G,:|
+V:3
+_E2_E,2D,2|z2 T^C,4|D,=CB,2G,2|A,,2A,G,F,E,:|
+%
+V:1
+|:[_ea]e2e2e-|ed_e2 z2|g_d2d2d-|dc_d2 z2|
+V:2
+|:c c2 c2c-|c=Bc2 z2|[B_d]B2B2B-|B=AB2 z2|
+V:3
+|:[^F,2A,2]F,2G,2|_A,3G,^F,=F,|=E,2E,2F,2|_G,3G,G,F,|
+%
+V:1
+g^c2c2d|=eB2BAG|FA z [DB] z [^CG,]|[1[^C2G,2][DF,] z z2:|[2[^C4G,4][D2F,2]|]
+V:2
+[GB^c][G2B2][G2B2][GB]|[=EGB][E2G2][E2G2][EA,]|[A,D][A,D] z4|[1z4z2:|[1z4z2|]
+V:3
+=E,2_E,2D,2|z2T^C,4|D,F,[G,,2G,2][A,,2E,2]|[1[D,,D,]D,2[A,,E,] [D,F,][E,G,]:|[2[D,,6D,6]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183150
+S:http://abc.musicaviva.com/tunes/bach-wilhelm-friedemann/bach-wf-polonaise/bach-wf-polonaise-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-wilhelm-friedemann/bach-wf-polonaise/bach-wf-polonaise-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-wilhelm-friedemann/bach-wf-polonaise/bach-wf-polonaise-pno2.abc
+% Rhythm Polonaise
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Le Releveur
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+&quot;Em&quot;BcBG EFGA | BcBG &quot;D&quot;A4 | DEFG ABAF | &quot;G&quot;GABc &quot;D&quot;d4 |
+&quot;Em&quot;BcBG EFGA | BcBG &quot;D&quot;A4 | DEFG ABAF | G2 FG &quot;Em&quot;E4 :|
+|:&quot;G&quot;G,2 (3B,A,G, &quot;D&quot;A,B,CA, | &quot;G&quot;B,DGB d2 dB | &quot;C&quot;ceAc &quot;G&quot;BAGB | &quot;Am&quot;AGFE &quot;D&quot;DCB,A, |
+&quot;G&quot;G,2 (3B,A,G, &quot;D&quot;A,B,CA, | &quot;B&quot;B,DGB d2 dB | &quot;C&quot;ceAc &quot;G&quot;BAGB | &quot;D&quot;AGFA &quot;G&quot;G4 :|
+S:https://www.folktunefinder.com/tunes/185252
+S:http://www.thesession.org/tunes/display/4327
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

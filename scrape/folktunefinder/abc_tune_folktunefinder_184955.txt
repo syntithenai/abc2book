@@ -1,0 +1,23 @@
+X:1
+%%leftmargin     2.5cm
+%%staffwidth     16.50cm
+T: Redwing #1
+I: RedwingS-RDsquare
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+A,4|: "D"D3D D2F2| A6 D2| "G"G2B2 d2B2| "D"A6 F2|      "G"G2GF E2G2| "D"F2FE D2F2|1 "E"E2B,2 C2D2| "A7"E6 A,2:|2 "E"E2B,2 "A7"C2E2| "D"D4 |]
+d2c2| "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 (E4|E2) A2 B2A2| "D"A4 F4-| F4 d2c2|
+      "G"B4 B3B| B2d2 c2B2| "D"A4 F4-| F2A2 B2A2| "A7"A4 G4| F4 E4| "D"D8-| D4|]
+%%text Roaring Jelly  S-R
+S:https://www.folktunefinder.com/tunes/184955
+S:http://roaringjelly.org/music/reel/Sq_R_Redwing_1.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

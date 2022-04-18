@@ -1,0 +1,26 @@
+X:30
+T:Over the Hills      Jig     Allan's  #30
+C:Irish Trad.
+B:Allan's Irish Fiddler (pub. Mozart Allen,  Glascow) date unknown
+Z:FROM ALLAN'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN Dec. 2002 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(d/2^c/2)|BGE {G}EDE|BAB d^cB|AFD DED|AFA d^cd|
+BGE {G}EDE|BAB d^cd|edB AFD|EFE E2:|
+|:(3B/2c/2d/2)|efe edB|ede gfe|
+ded dAF|EFA d^cd|efe edB|
+[1ede gfe|d^cB AFD|EFE E2:|
+[2gbg faf|edB AFD|EFE E2|]
+S:https://www.folktunefinder.com/tunes/180852
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Allans/ABCtxt/030-overhills.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

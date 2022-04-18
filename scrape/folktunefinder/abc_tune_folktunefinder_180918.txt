@@ -1,0 +1,23 @@
+X: 1
+T: Oxdansen (G)
+O: Scandinavia
+M: 2/4
+L: 1/16
+K: G
+GA \
+|  "G"B2cB A2G2 | "D7"A2z2 z2AB | "D7"c2dc     B2A2 |  "G"G2z2 z2 :|
+|: GB \
+|  "G"d2ed c2B2 |  "C"c2d2 e3c  |  "G"B2cB "D7"A2F2 |1 "G"G2B2 d2 :|2 "G"G4 z2 :|
+|: Bd \
+| "D7"c2A2 F2D2 |  "G"G2G2 G2Bd | "D7"c2A2     F2D2 |1 "G"d4   z2 :|2 "G"G4 z2 :|
+S:https://www.folktunefinder.com/tunes/180918
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/OxDansen_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/tune/OxDansen_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

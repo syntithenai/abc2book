@@ -1,0 +1,34 @@
+X:1
+T:Polka schnell
+C:traditionell
+R:polka schnell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Holzmeister, 1883, Oberoesterreichisches Volkslied-Archiv MII L9
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+G |\
+ed cB | Ad dd/e/ | fd AB | ce g>G |
+ed cB | Ad dd/e/ | fd AB | cc c :|
+|: e/f/ |\
+g/a/g g/a/g | c'g g/a/g | fa ag/f/ | eg ge/f/ |
+g/a/g g/a/g | c'g g/a/g | fa ag/f/ | "Dacapo"ee "Fine"e :|
+P:Trio
+|: G |\
+ce/g/ c'a | g2 ag | fe/f/ gd | e2 cG |
+ce/g/ c'a | g2 ag | fe/f/ gB | cc c :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183101
+S:http://simonwascher.info/TradArchiv_polka/polka_schnell.e2d2c2B2A2d2.abc
+% Rhythm Polka schnell
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

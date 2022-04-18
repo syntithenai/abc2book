@@ -1,0 +1,30 @@
+X: 1
+T: Rattlin, Roarin Willie
+O: trad
+R: slipjig
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+B: The Scots Musical Museum, v.2 #194 (Edinburgh 1788)
+S: tune:  http://lbps.net/RRW/smm-score.htm
+S: words: http://lbps.net/RRW/songs-1.htm
+N: Last verse attr. Robert Burns
+M: 9/8
+L: 1/8
+K: G
+d \
+| "G"B2G GAG Bde | "F"=f2c A=FA c2 d \
+| "G"B2G GAG Bde | "G"gfg B2c d2 |]
+e/f/ \
+| "G"gfg dBG Bde | "F"=f2c A=FA c2 e \
+| "G"dBd e2d egd | "G"BGB "D"AFA "G"G2 |]
+S:https://www.folktunefinder.com/tunes/184756
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/slipjig/RattlinRoarinWillie_G.abc
+% Rhythm Slipjig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

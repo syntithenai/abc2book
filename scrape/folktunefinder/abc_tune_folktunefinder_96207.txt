@@ -1,0 +1,28 @@
+X: 56
+T:Prince Eugene's March. TBe.056
+M:2/2
+L:1/4
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:march
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+F2 A2 | d3 (f/g/) | afdf | e/d/e/f/ e A |!
+ F2 A2 | d3 (d/e/) | (f/g/) a (^g3/2f/4g/4) | a4 ||!
+e e/e/ ee | e2 z2 | f f/f/ ff | f2 z2 | !
+a a/g/ f f/e/ | ddAA | a a/g/f f/e/ | ddAA |!
+D D/D/ DF | D D/D/ D f/g/ | a d/e/ f f/g/ | !
+a d/e/ f f/g/ | a g/f/ e>d | d4 ||
+S:https://www.folktunefinder.com/tunes/96207
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:092
+U: ~ = !turn!
+%%topmargin 3cm
+T:In Summertime
+T:Air
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Air
+M:3/4
+L:1/8
+K:D
+A2 | A3 B d2 | e4 e2 | Pe3 f d2 | He4 A2 | d3 e f2 | Pg3 f e2 | Pf3 e d2 | HB6 |
+g3 a ge | Jf3 e d2 | Pe4 A2 | Hd4 PB2 | A3 g f2 | Pg4 e2 | Pd4 B2 | HA4 |]
+S:https://www.folktunefinder.com/tunes/94594
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Air_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/In_Summertime_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Air_2.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/In_Summertime_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

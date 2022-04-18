@@ -1,0 +1,28 @@
+X:580
+T:the Persian Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e43.html
+%%ID:00000e43
+K:D
+A/F/ |\
+DDD | D2 A/F/ | DDD | D2 d/c/ | \
+Bge | cag     | fdd | d2 || \
+c/d/ |\
+eAA       | A2 d/e/    | fAA          | A2 e/f/ |
+gef       | gef        | g/f/e/d/c/B/ | A2 A/F/ | \
+DDD       | D2 d/B/    | GGG          | G2 a/g/ | \
+ff/g/a/f/ | g2g/a/b/g/ | cc/d/e/c/    | d2 |]
+%page:68
+S:https://www.folktunefinder.com/tunes/95747
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

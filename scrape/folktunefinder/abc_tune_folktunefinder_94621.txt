@@ -1,0 +1,30 @@
+X:023
+U: ~ = !turn!
+%%topmargin 3cm
+T:Callaghan's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Chieftains
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+Bd | efgf eABA | GABd {/e}dBGE | DEGA BABd | ((3efg) fg edBd |
+Jg2fg edBd | geaf gfed | B2GB A2FA | G2 {/A}GF G2 ::
+fg | afge dega | bB{/c}BA G2fg | afge dega | beed e4 |
+((3faf) ((3def) gfea | ((3faf) ((3def) gfef | ((3gab) af gfed | ((3Bcd) ed e2 :|]
+S:https://www.folktunefinder.com/tunes/94621
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Callaghans_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Callaghans_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

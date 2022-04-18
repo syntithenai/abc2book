@@ -1,0 +1,25 @@
+X: 7
+T: Hora Lenta
+O: Rom
+M: 5/8
+L: 1/8
+K: Am
+|: "Am"e2cBA | ^GA2-A2 | "Dm"B2A^GF | F-F4 |\
+      "E"E2^F^GA | B2dcB | "Am"A2Bcd | "E"e3e2 |
+   "Am"e2cBA | ^GA2-A2 | "Dm"B2A^GF | E-F4 |\
+      "E"E2^F^GA | B2dcB | "Am"A2E "E"cB |1 "Am"A2Bcd :|2 "Am"A2GAB ||
+|: "C"c2BBA | "F"A2GGF | F2EED | "G"D2CB,C |\
+       D3D2 | G2FFD | "C"E2DEF | "G"G2GAB |
+   "C"c2BBA | "F"A2GGF | F2EED | "G"D2cBc |\
+   "Dm"d2cBA | "E"^G2E^FG | "Am"A2E "E"cB |1 "Am"A2G "G"AB :|2 "Am"A2Bcd ||
+S:https://www.folktunefinder.com/tunes/92017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/HoraLenta.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

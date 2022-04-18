@@ -1,0 +1,27 @@
+X:5
+T:Ann's Reel
+R:Reel
+C:Bruce Osborne  --  Jan.5 1993
+L:1/16
+M:2/4
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:G
+B,CB,^A, B,2D2|B2G2 G2B,C|DEDC D2G2|F6A,B,|
+CB,CD FGF^E|FGF^E F2=E2|DEDC B,2^A,2|B,2B,B, B,2C2|
+DEDC B,^A,B,D|B2G2 G2B,A,|G,2G,G, B,2D2|C2CC C2D2|
+FGFE D2E2|[F2A2][FA][FA] [F2A2][E2A2]|DEFG A2F2|G2GG G4:|
+|:BcBA B2G2|B,CB,^A, B,2B,C|D2B,D G2D2|F6A,B,|
+CB,CD FGFE|FGFE F2E2|DEDC B,2^A,2|B,2B,B, B,2D2|
+BcBA B2G2|B,CB,^A, B,2B,=A,|G,2G,G, A,2B,2|C2CC C2D2|
+FGFE D2E2|[F2A2][FA][FA] [F2A2][E2A2]|DEFG A2F2|G2GG G4:|
+S:https://www.folktunefinder.com/tunes/86320
+S:http://www2.redhawk.org:8080/irish/warnock/abc/osbcomp.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

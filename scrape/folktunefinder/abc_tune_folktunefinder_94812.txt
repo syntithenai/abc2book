@@ -1,0 +1,28 @@
+X:217
+U: ~ = !turn!
+%%topmargin 3cm
+T:The White Leaf
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Oliver O'Higgins
+R:Reel
+L:1/8
+M:C|
+K:A
+E | A2 cA eAcA | ceef  edcA | Bcde fdde | fdbg afec |
+A2 cA eAcA | ecdf edcA | Bcde faaf | edcB A2 z ::
+((3efg) | aA (3.A.A.A cAce | abga fefa | bf (3.f.f.f fefe | bf (3.f.f.f fefg |
+aA (3.A.A.A cAce | a2 ga fecA | Bcde fdaf | ((3efe) ((3dcB) A2 :|]
+S:https://www.folktunefinder.com/tunes/94812
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/White_Leaf_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/White_Leaf_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

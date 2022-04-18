@@ -1,0 +1,28 @@
+X:40
+T: Mountain View
+S: Jimmy Hogan
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+AG|(3FED AD BDAD|(3FED AF GBAG|(3FED AD BDAD|\
+AGEF G2 AG|
+(3FED AD BDAD|(3FED AF GBAG|(3FED AD BDAD|\
+AGEF G2 AB ||
+defe d3 A|Bdef g2 fe|d3 e d=cAG|AGEF G2 AB |
+defe d3 A|Bdef g2 fe|d3 e d=cAG|AGEF G2 AG ||
+S:https://www.folktunefinder.com/tunes/93676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

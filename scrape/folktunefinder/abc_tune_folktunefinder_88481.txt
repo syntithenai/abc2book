@@ -1,0 +1,27 @@
+X:1620
+T:Geminisani's Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%RRN:Geminiani 
+%%RRN:Time actually given as 6/8, but barlines lengths as here
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001260.html
+%%ID:00001260
+K:D
+d2c | d2c | d2e | f2e | g2f | e2d | c2d | e3 ::
+ecA | fdB | gec | a3 | bge | cde | f2e | d3 :|
+%%newpage
+%page 129
+S:https://www.folktunefinder.com/tunes/88481
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

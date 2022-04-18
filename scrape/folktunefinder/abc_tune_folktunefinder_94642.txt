@@ -1,0 +1,28 @@
+X:044
+U: ~ = !turn!
+%%topmargin 3cm
+T:Dan the Cobbler
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+DFA B2A | def gfe | fdf ecA | BGB AFD |
+DFA {Bc}B2A | def gfe | fdf ecA | [1 Add d3 :|] [2 Add d2 |
+|: g | fad gad | daa agf | eg=c egc | egg gfe |
+fef gfg | agf efg | fed cBA | Add d2 :|]
+S:https://www.folktunefinder.com/tunes/94642
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dan_the_Cobbler_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dan_the_Cobbler_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Dan_the_Cobbler_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Dan_the_Cobbler_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

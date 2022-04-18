@@ -1,0 +1,26 @@
+X:1
+T:Mazurka Schloss Freiberg
+C:Simon Wascher 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C minor
+"inegal"gec3e | d=BG4 | c=Bcded | =B4df |
+gec3e | d=BG4 | cded=Bd | c6 :|
+gag2fd | f2e3c | e2d3=B | dcc=Bc2 |
+gag2fd | f2e3c | edd=BGB | c2c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/175007
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_schloss_freiberg.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

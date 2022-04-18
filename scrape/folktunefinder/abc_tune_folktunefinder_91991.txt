@@ -1,0 +1,28 @@
+X:060
+%%topmargin 3cm
+T:Hornpipe Theme Number 3
+C:Newton F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:F
+((3cde) | fefc ACFA | CAEG F2GF | EGCE GBEG | FAdA c2f2 |
+((3aba) eg fAcF | ACFA c2AF | EGCE GBGE | F2A2 F2 ::
+"8va -"EF "-"| GdBG "-"EBGE "-"| FAdA "-"c2de "-"| fcAF "-"dcAF "-"| ((3EFG) ((3BAG) "-" ((3FED) ((3CB,G,) "-"|
+"8va -"Acfe "-"fcAc "-"| BAGF "-"EGCB, "-"| A,CFA "-"BGEG "-"| [1 F2A2 "-|"F2 :|] [2 F2c2 "-|"f2 |]
+S:https://www.folktunefinder.com/tunes/91991
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Hornpipe_Theme_Number_3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:41
+T:AIR XLI. My Wife's a wanton Wi Thing.
+B:Joseph Mitchell: "The Highland Fair" (1731)
+Z:Jack Campin <http://www.campin.me.uk/>
+N:there's no natural sign in bar 4 in the book, but there is a
+N:sharp - presumably the previous natural was meant to persist
+M:6/4
+L:1/4
+K:D
+      d2A (B/c/)dA|d3 A2B   |=c>dc cGE|=c3 C2
+^c   |d2A  B/c/ dA|d3 A2G   | FDF  ECE| D3-D2||
+ F/G/|A>BA FDF    |A3 F2E/F/| G>AG ECE| G3 E2
+ F/G/|A>BA FDF    |A3 a2g   | fdf  ece| d3-d2|]
+% At this point in the action a drunk sings fragments of songs with
+% their original words.  The words quoted are (in full):
+% Oe'r the Hills and far away...
+% Wou'd they had not been,
+% Or we had never seen
+% Such a parcel of Rogues in the Nation...
+% Saw you not my Maggy
+% Saw you not my Maggy
+% Saw you not my Maggy
+% Coming over the Lee...
+S:https://www.folktunefinder.com/tunes/96110
+S:http://www.campin.me.uk/Music/HighlandFair.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

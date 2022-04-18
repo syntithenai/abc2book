@@ -1,0 +1,23 @@
+X:1
+T:Mick McGuire
+M:6/8
+L:1/8
+K:F
+ F2 E| D2 E F2 E| D2- CA,-A, C| F2 G A2 F| G3 c2 c| d2 c| A2 G| F2- D E2- D|\
+ C2 D C2 A,| C3 z FE| D2 E F2 E| D2 C| A,2 C| F2 GA-A F| G2 z2 cc|\
+ d2 c A2 G| FFD ECC| A,2 D| D2 C| D3 z2 z| ccc cAG| F2 G A2 B| c2 c c2 d|\
+ c2 z| A2 c| d2 c AAG| F2- D E2 D| CCD C2 A,| C2 z F2 E| DDD| F2 E|\
+ D2 C A,2 C| F2 G AAF| G3 ccc| ddc A2 G| FFD| EED| A,DD D2 C| D2 z ccc|\
+ d2 c A2 G| F2 G AAB| c2 d| c2 A| c3 ABc| d2 c A2 G| F2 D FED| C2 D C2 A,|\
+ C2 z| F2 E| DDE F2 E| D2 C A,2 C| F2 G AAF| G3 ccc| ddc| A2 G| FFD EED|\
+ A,DD D2 C| D3||
+S:https://www.folktunefinder.com/tunes/175621
+S:http://back.numachi.com:8000/dtrad/abc/MCKMCGUI.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

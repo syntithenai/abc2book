@@ -1,0 +1,28 @@
+X: 2
+T: Morpeth Rant
+O: Trad
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: There are two common versions of this tune, with different second parts.
+N: Barnes
+M: C|
+L: 1/8
+Q: 1/2=120
+K: D
+A2 \
+| "D"d2AG FDFA | "G"BGBd | "A7"cAce | "D"f2fd "G"gfed |1 "A7"c2e2 e2 :|2 "A7"A2d2 "D"d2 :|
+|: A2 \
+| "D"dfaf dfaf | "G"gfef g2ef | "A7"gfed cdeg | "D"fefg f2 |
+| "D"dfaf dfaf | "G"gfef g2ef | "A7"gfed caag | "D"f2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/176965
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/MorpethRant.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/MorpethRant.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/MorpethRant.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/tunes/Reel/MorpethRant.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

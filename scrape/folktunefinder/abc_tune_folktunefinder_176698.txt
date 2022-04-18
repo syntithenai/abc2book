@@ -1,0 +1,19 @@
+X: 1
+T: Monoceros, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+A |: &quot;D&quot;D2 F FEF | &quot;Em&quot;FEF G2 F | &quot;A&quot;B2 B AGF | &quot;D&quot;B ~E2 FEF |
+A2 D AEF | &quot;Em&quot;GFA B2 G | &quot;D&quot;AAB &quot;Em&quot;AGF |1 &quot;A&quot;E2 F &quot;D&quot;D2 A :|2 &quot;A&quot;E2 F &quot;D&quot;D2 g ||
+|: &quot;D&quot;eff dff | &quot;Em&quot;eff g2 f | &quot;A&quot;bag gfe | &quot;D&quot;fAB d2 A |
+DAA EAG | &quot;Em&quot;GFA BAG | &quot;D&quot;AAB &quot;Em&quot;AGF |1 &quot;A&quot;E2 F &quot;D&quot;D2 f :|2 &quot;A&quot;E2 F &quot;D&quot;D3 ||
+S:https://www.folktunefinder.com/tunes/176698
+S:http://www.thesession.org/tunes/display/4325
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

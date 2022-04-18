@@ -1,0 +1,28 @@
+X:0489
+T:"My Own Sweetheart"    (air)    0489
+C:after Sg't. J. O'Neill
+C:moderate
+N:Transposed from F
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:D
+"_vb"(d3/2c/2)|BA FD B,CDE|FABc d2(dc)|BcAF E3/2F/2ED|B,6(d3/2c/2)|
+BA FD B,CDE|FABc d2(cd)|B3/2c/2AF E3/2F/2ED|D6||
+(FE)|DF (AB/2c/2) d2(cd)|{f}ecdB AFD3/2E/2|FABd cAB^G|A6(d3/2c/2)|
+BA FD B,CDE|FABc d2(cd)|B3/2c/2AF E3/2F/2ED|D6|]
+S:https://www.folktunefinder.com/tunes/178094
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0489-MyOwnSweetheart.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0489-MyOwnSweetheart.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

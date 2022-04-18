@@ -1,0 +1,25 @@
+X: 260
+T: New Hill Country (The)
+C: B.Black 12/07
+N: 142249
+R: jig
+M: 6/8
+Q: 1/8=340
+L: 1/8
+K: Dmix
+A | "D"Add "C"cAG | "Am"AGE EDC | "D"DFA "C"cBc | "Am"edc "D"d2 A |
+"D"Add "C"cAG |"Am"AGE EDC | "D"DFA "G"GAB | "A7"AGE "D"D2 :|
+A | "D"Add "C"cee | "D"dfd "C"efg | "D"afd "C"ceg  | "D"fdc d2 A |
+"D"Add "C"cee | "D"dfd "C"efg | "D"afd "G"Bdg | "A"e^cA "D"d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86621
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

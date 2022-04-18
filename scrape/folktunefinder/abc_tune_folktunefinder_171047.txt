@@ -1,0 +1,30 @@
+X: 1
+T: the Laird of Milton's Daughter
+C: W.G.M.Christian
+R: jig
+B: RSCDS 22-10
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N:
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"G2G GAB | ded BAG | "D"AGA "G"BAG | "Am"EAG "D"FED \
+| "G"G2G GAB | "Em"ded BAG | "C"ege "G"dBG | "D"AGG "G"G2 :|
+|| d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dcB | "A7"ABG "D"FED \
+| "G"g2g bag | "D"fef "G"gdB | "C"edc "G"dgB | "D"AGG "G"G2 ||
+|| d \
+| "G"g2g bag | "D"fef "G"gdB | "C"ege "G"dBG | "A7"ABG "D"FED \
+| "G"G2G GAB | "Em"ded BAG | "C"ege "G"dBG | "D"AGG "G"G2 |]
+S:https://www.folktunefinder.com/tunes/171047
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/LairdOfMiltonsDaughterJ_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/LairdOfMiltonsDaughterJ_G.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:4
+T:Oh Callar Spirlings (var 4) 4th try
+C:Domenico Corri
+M:3/4
+L:1/16
+% ludicrously verbose and unreadable; display and playback correct
+Q:1/4=90
+K:D Minor
+A2|(6:4:6d^c`dA`Bc (6:4:6da``gf```ed  (6:4:6^cd`eA`Bc|(6:4:6d^c`f`e``fe 
+(6:4:6a^g`ad'^c'd'       f'2 z2  |
+   (6:4:6c=B`ce`de (6:4:6g^f`gc'`=bc'        d'2 z2  |(6:4:6d^c`d`A =Bc 
+(6:4:6da``gf``ed   (6:4:6cd`eA`Bc|
+S:https://www.folktunefinder.com/tunes/179695
+S:http://www.mail-archive.com/abcusers%40argyll.wisemagic.com/msg08692.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08692.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

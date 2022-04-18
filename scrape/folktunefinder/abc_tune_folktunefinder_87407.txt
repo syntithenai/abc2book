@@ -1,0 +1,23 @@
+X: 1382
+T: Smash The Windows
+M:2/4
+L:1/16
+N:"collected by J. O'Neill"
+B:O'Neill's 1382
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+D2   | DFED   F2A2    | defd       ecAF    | G2(TGE)   F2(TFD) | E2(EF) GFEF |
+       DFED   F2A2    | d2(fd)     ecAd    | f2(fd)    gece    | d2dd   d2   ||
+(fg) |a2f2    defg    | f2g2       agfa    | g2e2      cdef    | e2f2   gfeg |
+  ((3fgf)ed ((3gag)fe |((3aba)gf ((3gag)fe | ((3fgf)ed gece    | d2dd   d2   |]
+S:https://www.folktunefinder.com/tunes/87407
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 1
+T: the Laird o' Thrums
+C: J.Scott Skinner
+R: strathspey
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: A
+%%slurgraces 1
+g/ \
+| "A"(3agf "E"(3efg "A"{g}a2 "E7"e>d | "A"c<e A>a "E7"c>B B>g \
+| "A"(3agf "E"(3efg "A"{g}a2 e>c | "D"d<f "E7"B>e "A"{cd}c<A A> ||
+g \
+| "A"(3agf "E"(3efg "A"{g}a2 "E7"e>d | "A"c<e A>a "E7"{cd}c>B B>g \
+| "A"(3agf "E"(3gfe "B7"(3fe^d "E"e>c | "D"d<f "E7"B>e "A"{cd}c<A A> |]
+c \
+| "F#m"f2 c>f A>f c>f | (3cfg (3agf (3c'fg (3agf \
+| "E"{^d}e2 B>e G>e B>e | (3Bef (3gfe (3bef (3gfe ||
+y \
+| "A"{g}a2 e>a c>e A>g | "A"(3agf "E"(3gfe "D"(3fed "A"(3edc \
+| "Bm"(3def (3Bcd "A"(3cde (3ABc | "Bm"(3def "E7"(3efg "A"{g}a7/2 |]
+S:https://www.folktunefinder.com/tunes/171049
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/LairdOThrums_A.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

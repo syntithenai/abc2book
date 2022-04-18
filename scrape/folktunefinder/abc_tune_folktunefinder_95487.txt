@@ -1,0 +1,25 @@
+X:905
+T:O he de No's
+B:Aird's Airs and Melodies vol 3
+M:C
+Z:Richard Robinson 
+%RRN:A Welch Tune
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000245.html
+%%ID:00000245
+K:A
+"Andante"\
+A2F>A (A/G/)(F/E/) E2| A2c>B A2zA|\
+A2(F>A) {A}G(F/E/)E2| A2c>B A3::\
+A|\
+dcde {g}fe/d/ c>e| dcBA B>A G>E|\
+A>GFA GBGE| d>c Bz e>d cz|\
+ff {g}fe/d/ ceHe2| E2c>B A3:|
+S:https://www.folktunefinder.com/tunes/95487
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

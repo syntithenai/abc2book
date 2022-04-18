@@ -1,0 +1,26 @@
+X:1
+T:La Liaude
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Gm
+A |\
+^F2 D2 | A3/2c/2 BA | G3/2^F/2 GA |\
+^F2 DA | A3/2c/2 AB |1 G3 :|\
+                    [2 G^F/2G/2 A^F ||
+|:\
+DG ^F/2G/2A/2^F/2 | G^F/2G/2 A^F | DG ^F/2G/2A/2^F/2 | G2 A^F |\
+DG ^F/2G/2A/2^F/2 | G^F/2G/2 A^F | DG ^F/2G/2A/2^F/2 |1 G4 :|\
+                                                     [2 G3 |]
+S:https://www.folktunefinder.com/tunes/172065
+S:http://simonwascher.info/TradArchiv_bourree_2/la_liaude.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

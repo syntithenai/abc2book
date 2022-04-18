@@ -1,0 +1,33 @@
+X:150
+U: ~ = !turn!
+%%topmargin 3cm
+T:O'Neill's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Michael Coleman
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+Bc | dBGB cAFA | GBAF G2 Bc | dg (3{/a}(gfg) eg (3{/a}(gfg) | dBGB A2 Bc |
+dBGB cAFA | GBAF G2 Bc | ((3gfe) fd ecAF | GBAF G2 Bc |
+dBGB A2 FA | GBAF G2 Bc | d^cdg edef | gdBG A2 Bc |
+d2 JdB cB A2 | BAGF GABd | ((3gfe) fd ecAF | GBAF G2 Bc ||
+|: dg (3{/a}(gfg) eg (3{/a}(gfg) | dg (3{/a}(gfg) edBc | dg (3{/a}(gfg) eg (3{/a}(gfg) "(A"| dBGB A2 Bc "A)"|
+dcdB cB A2 | BAGF GABd | ((3gfe) fd ecAF | GBAF G2 :|]
+xxxx "(A"| bgdB A2 Bc "A)"| xxxx xxxx [|] xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94746
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/ONeills_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/ONeills_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

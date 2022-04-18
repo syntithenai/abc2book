@@ -1,0 +1,18 @@
+X: 1
+T: Piper's Glass, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|:dB {c}(BA) fB {c}(BA) | dB {c}(BA) f2 fe | d2 (cd) B2 A2 | ceAc e2 (fe) :|
+|:d2 (fd) adfd | d2 fd f2 {g}fe | [1 d2 (fd) adfd |
+ceAc e2 (fe) :| [2 defg abaf | ecAc e2 (fe) |]
+S:https://www.folktunefinder.com/tunes/182588
+S:http://www.thesession.org/tunes/display/3510
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

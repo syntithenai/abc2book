@@ -1,0 +1,83 @@
+X:1
+T:Papa Stour Sword Dance
+M:2/2
+C:based on Jim Morrison's tape
+S:George Petersen
+N:transcribed by Paul Friedman at Pinewoods, 1978 July
+A:Papa Stour
+O:English
+R:N/A
+%:
+%:
+%P:(A)(B)$^9$(C)$^{20}$(A)
+P:(A)(B)9(C)20(A)
+L:1/8
+K:D
+W:Musician and dancers walk on and walk off to part A
+Q:C2=128
+P:A
+% On the tape this A is played through once.  Jim Morrison
+% has embellished the tune so that it sounds good when played several times.
+%
+%
+%
+%
+%
+|:    fg | a2 gf   gf  ed | fe de   f2 fg | a2 gf   gf  ed |
+%
+B4 B2 dB | AB de   f2  ed | ef ed   B2 dB | AB de   f2  ed |
+%
+B4 B2 dB | AB de   f2  ed | ef ed   B2 dB | AB de   f2  ed |1 \
+%
+B2 A2 A2   :|2 B2 d2   d2    ||
+%
+W:Musician and each of the seven is introduced and dances to part B.  Dancers represent Saints:
+W:George (England), James (Spain), Denis (France), David (Wales), Patrick (Ireland), Anthony (Italy), Andrew (Scotland)
+M:4/4
+L:1/8
+Q:C2=180
+P:B
+d2 f2 |\
+ f2 fd  e2  e2 |  a2 ac  e2  e2 |  f2 fd  e2 ec | d8    | d4 ||
+%r  r   l   l     r  r   l   l     r  r   l  l    r  (l)  t
+W:Part C is played as needed to complete all the figures
+M:3/2
+Q:C2=230
+%
+%
+P:C
+% On the tape the music plays 5 times through before the call of "loose"
+% on the first tunnel, 7 more times through before the drop sword tunnel
+% begins, 3 more times before the call of "loose" for the drop sword tunnel,
+% and 5 more times before the lock is thrown to the ground.
+dddd f2 a2 g2 e2 | dddd f2 a2 g2 e2 | dddd f2 a2 g2 e2 |
+%l   r     l       r    l     r       l    r     l
+eAAA eAAA  f2 e2 | eAAA eAAA  f2 e2 | eAAA eAAA  f2 e2 |
+%r   l     r       l    r     l       r    l     r
+dAAA FAAA  B2 B2 | dAAA GEEE  D2 A2 |
+%l   r     l       r    l     r
+dAAA FAAA  B2 B2 | dAAA GEEE  D2 D2 ||
+%l   r     l       r    l     r
+W:
+W: Alternate measure 1,2,3 with bowed shivers - triplets
+P:X
+dddd f2 a2 ge e/2e/2e | | | dd d/2d/2d f2 a2 g2 e2 |
+W:
+W: Alternative measure 4,5,6
+eA A/2A/2A eA A/2A/2A f2 e2 |
+W:
+W: Alternative measure 7,8 and 9,10
+dA A/2A/2A FA A/2A/2A B2 B2 | dA A/2A/2A GE E/2E/2E D2 A2 |
+S:https://www.folktunefinder.com/tunes/181577
+S:http://www.ucolick.org/~sla/morris/music/Sword/papastour.pf.abc
+% Rhythm N/a
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 3/2
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

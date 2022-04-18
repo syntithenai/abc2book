@@ -1,0 +1,26 @@
+X: 160
+T: Purcell the Piper (reel)
+N: 160391
+C: BB
+M: 4/4
+Q: 1/8=380
+L: 1/8
+R: reel
+K: G
+A|"G"GEDE GABd|"Em"e2 ef edBd|"G"gfef "C"g3 e|"G"d2 BG "D7"AcBA|
+"G"GEDE GABd|"Em"e2 ef edBA|"G"GBdg "D7"fdcA|"G"BG"D"AF "G"G3 :|
+d|"G"gfga "D"fd (3d^cd|"C"cBcd "G"BG (3GFG|"Am"EAAB "C"cBce|"D"d2ef "G"gaba|
+"G"gfga "D"fd (3d^cd|"C"cBcd "G"BGAG|"Am"EAAB "C"cABG|"D"D2EF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86795
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

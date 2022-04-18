@@ -1,0 +1,32 @@
+X:01
+T: Over the Rainbow
+M: 2/4
+L: 1/8
+Z: Contributed 2008-11-10 09:45:21 by michel.isard michel.isard@orange.fr
+K: Eb
+|: "Eb"E4 |"Cm"e4 |"Gm"d2Bc |"Eb7"d2e2 |
+"Ab6"E4 |"AbM7"c4 |"Gm7"B4 |"Gdim"z4 |
+"Ab6"C4 |"Ab"A4 |"Eb"G2EF |"C7b9"G2A2|
+"F7"F2DE |"Bb"F2G2 |"Eb"E4 |"Fm7"z4 :|
+%
+"Eb"BGBG |"Cm7"BGBG |"Gm"BABA |"Eb7"BABA |
+"Ab6"B>c3 |"Ab6"zc3 |"Ab7" zc3 |"Fm"z4 |
+"Eb"BGBG |"Eb6"BGBG |"CM6"B=AcA|"FM"c=AcA |
+"Ddim"c>d3 |"Ddim"zd3 |"Cm6" zf3 |"Fm6"zc3 |
+%
+| "Eb"{ef}e4 |"Cm"e4 |"Gm"{dede}d2Bc |"Eb7"d2e2 |
+"Ab6"E4 |"AbM7"{cd}c4 |"Gm7"B4 |"Gdim"z4 |
+"Ab6"C4 |"Ab"{AB}A4 |"Eb"G2EF |"C7b9"G2A2|
+|:"F7"F2DE |"Bb"F2G2 |"Eb"E4 |"Fm7"z4 :|
+{EFEF}E4 |{efef}e4|{e'f'e'f'}e'4 |{e''f''e''f''}e''4|
+e''4|
+S:https://www.folktunefinder.com/tunes/180864
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/OverTheRainbow.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

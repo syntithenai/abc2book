@@ -1,0 +1,54 @@
+X: 9008
+T: Andy Brooks' (with piano acc.)
+C: BB
+M: 4/4
+L: 1/8
+Q: 1/8=350
+R: reel
+V: 1 program 1 110 %fiddle
+V: 2 program 1 01 volume=63 clef=bass m=D
+K: Dm
+[V:1] DE|"Dm"FDAD FDAD|FGAd "C"cAGE|"Dm"FDAD "F"FAcA|"Dm"dfed "C"cBAG|
+[V:2] z2|D,2[D2A2F2]A,,2[D2A2F2]|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]F,2[F2A2c2]|\
+D,2[D2A2F2]C,2[C2G2E2]|
+%
+[V:1] "Dm"FDAD FDAD|FGAd "C"c=BcA|"Dm"FEDA dcAG|"Am"EA,CE "Dm"D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2A2F2]|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]A,,2[D2A2F2]|\
+A,,2[A2E2C2][D,2A,2F2]:|
+%
+[V:1][K:D] DE|"D"FDAD BDAD|"Bm"B2 dB fedB|"D"Addc defg|"Bm"afbf "A"a2 ag|
+[V:2][K:D] z2|D,2[D2A2F2]A,,2[D2A2F2]|B,,2[F2B2D2]D,2[F2B2D2]|F,2[D2A2F2]D,2[D2A2F2]|\
+B,,2[^F2B2D2]A,,2[A2E2C2]|
+%
+[V:1] "D"faaf "G"gfed|"Bm"BdcB "A"AFEG|"D"FDAD "Bm"BDAD|"A"AecA "D"d2 :|
+[V:2] D,2[A2F2D2]G,,2[D2B2G2]|B,,2[F2B2D2]A,,2[A2E2C2]|D,2[A,2D2F2]B,,2[F2B2D2]|\
+A,,2[E2A2C2][D,2A,2F2] :|
+%%%%%%%%tune repeat
+[V:1][K: Dm]DE|"Dm"FDAD FDAD|FGAd "C"cAGE|"Dm"FDAD "F"FAcA|"Dm"dfed "C"cBAG|
+[V:2][K: Dm]z2|D,2[D2A2F2]A,,2[D2A2F2]|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]F,2[F2A2c2]|\
+D,2[D2A2F2]C,2[C2G2E2]|
+%
+[V:1]"Dm"FDAD FDAD|FGAd "C"c=BcA|"Dm"FEDA dcAG|"Am"EA,CE "Dm"D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2A2F2]|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]A,,2[D2A2F2]|\
+A,,2[A2E2C2][D,2A,2F2]:|
+%
+[V:1][K:D] DE|"D"FDAD BDAD|"Bm"B2 dB fedB|"D"Addc defg|"Bm"afbf "A"a2 ag|
+[V:2][K:D] z2|D,2[D2A2F2]A,,2[D2A2F2]|B,,2[F2B2D2]D,2[F2B2D2]|F,2[D2A2F2]D,2[D2A2F2]|\
+B,,2[^F2B2D2]A,,2[A2E2C2]|
+%
+[V:1] "D"faaf "G"gfed|"Bm"BdcB "A"AFEG|"D"FDAD "Bm"BDAD|1"A"AecA "D"d2 :|2\
+"A"AecA "D"Hd4|z8|z8||
+[V:2] D,2[A2F2D2]G,,2[D2B2G2]|B,,2[F2B2D2]A,,2[A2E2C2]|D,2[A,2D2F2]B,,2[F2B2D2]|1\
+A,,2[E2A2C2][D,2A,2F2] :|2 A,,2[E2A2C2][D,4A,4F4]|z8|z8||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87093
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

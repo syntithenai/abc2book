@@ -1,0 +1,32 @@
+X:1685
+T:the Spanish Dance
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%RRN:"1837"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001273.html
+%%ID:00001273
+K:C
+c/e/ | \
+gg g/a/b/c'/   | (ge).g a/g/ | (fd).f g/f/ | ecc (c/e/) | \
+gg (g/a/b/c'/) | (ge).g a/g/ | (fd).f g/f/ | ecc ::
+G/B/ | \
+%
+% actually written
+%.d.d.d (d/e/) | fdec | dgG G/B/ | \
+%
+.d.d.d (d/e/) | .e.e.e (d/e/) | fdec | dgG G/B/ | \
+ddd (c/d/) | .e.e.e (d/e/) | fdec | g3 :|
+%%newpage
+%page 135
+S:https://www.folktunefinder.com/tunes/88494
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

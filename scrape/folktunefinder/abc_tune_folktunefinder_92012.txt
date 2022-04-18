@@ -1,0 +1,25 @@
+X: 1
+T: Ajisino Oro
+O: Albania
+M: 4/4
+L: 1/8
+K: Gm
+P: Instrumental
+"D"A2 B2 c2 BA | "Gm"BcBA G2 ^FE | "D"DEDC D2 E2 | ^F2 G2 A4 |
+"D"A2 B2 c2 BA | "Gm"BcBA G2 ^FE | "Cm"D2 C2 A2 G2 | "D"^FGFE D4 ||
+P: Vocal
+|: "Gm"G2 G^F "Cm"E E2 F | E2 ED C4 | "D"^F2 G2 A2 BG | A6 Z2 |
+"D"^F2 G2 A2 B2 | "Cm"G3A ^F2 ED | "Cm"C2 DE "D"^FGFE | D6 Z2 :|
+|: "D"A4 d4 | cB BG A4 | "Gm"G2 AB "Cm"cBAG | "D"^F6 Z2 |
+"Cm"C3D E2 ^F2 | GAG^F E4 | C2 DE "D"^FGFE | D6 Z2 :|
+S:https://www.folktunefinder.com/tunes/92012
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/AjisinoOro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

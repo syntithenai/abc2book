@@ -1,0 +1,27 @@
+X:1
+T:The Nutting Girl
+M:4/4
+C:
+S:Bacon (RKS (MSS))
+% note that nobody actually plays it as in Bacon
+%abc2mtex:no
+N:
+A:Field Town
+O:English
+R:Reel
+P:AAB(CB)2
+K:G
+P:A
+% we ignore the once to yourself, coming in on catch step at end of the ftj
+   DE   | G2 B2 B2 d2 | c2 B2 A2 GF | G2 B2 d2 g2 | d2 d2 d2 cB |\
+S:https://www.folktunefinder.com/tunes/179282
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/nutgirl.w.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,104 @@
+X:11
+T:Merry melancholy
+T:Merry Melancholie
+C:Thomas Robinson, arr. Frank Nordberg
+O:England
+B:Thomas Robinson: "The Schoole of Musicke" (1603) no. 11
+R:Almain
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/robinson-thomas/robinson1603-11/robinson1603-11-gtr2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+V:3 Program 1 24 bass %Classical guitar
+V:4 Program 1 24 bass merge down %Classical guitar
+M:C| %none in original
+L:1/4
+Q:1/2=130
+K:G -8va % Bb with capo on third fret
+V:1
+"^Capo III"G2|d3d|c4|B2G2|d2d2|g2e2|a3g|f2e2|
+V:2
+z2|z4|z4|z4|F2B2|B2^c2|z4|d2^c2|
+V:3
+z2|z4|z4|z4|z4|z4|z4|A2A2|
+V:4
+z2|z2D2-|D2A2|G2E2|D2G2|E2A2|zG FE|D2A,2|
+%
+V:1
+d2d2|A2B2|A2g2|d2e2|d2c2|B2AG|FG AF|zB2A|
+V:2
+z4|z4|z2B2|F2GA|B2A2|z4|z4|zG2z|
+V:3
+z4|z4|z4|z4|z4|z4|z4|z2D2|
+V:4
+D4|z2G2|D2E2|D2C2|G,2A,2|zB,3|D4|G,4|
+%
+V:1
+B2G/A/B/c/|d2z2|c4|B2 z/A/B/c/|d2 de/f/|gz ef/g/|a3g|fde2|
+V:2
+G2z2|z4|z4|z4|z4|Bz z2|z4|z2d^c|
+V:3
+D4|z4|z4|z4|z4|z4|z4|z2A2|
+V:4
+G,4|z2D/E/F/G/|A2A2|G2E2|DE/F/ G2|EF/G/ A2|zG FE|D2A,2|
+%
+V:1
+d2d2|A2B2|A2g2|d2e2|d2c2|B2AG|FG AF|zB2A|
+V:2
+z4|z4|z2B^c|zF GA|B2EF|G2z2|z4|zG2z|
+V:3
+z4|z4|z4|z4|z4|z4|z4|z2D2|
+V:4
+D4|z2G2|D2E2|D2C2|G,2A,2|zB,3|D4|G,4|
+%
+V:1
+B2B2|A3B|c2c2-|c2e2-|e2d2|efg2|f2e2|d4|
+V:2
+G4|z4|A2z2|zF GA|Bcz2|c2B2|d2^c2|A4|
+V:3
+D4|z4|z4|z4|z4|z4|A2A2|z4|
+V:4
+G,4|z2D2|A,3B,|C4|G,3B,|A,3G,|D2A,2|DA, B,A,|
+%
+V:1
+zA BA|FG AB|cd ef|ga bg|af de/f/|gd ed|B2A2|zB2A|
+V:2
+z4|z4|z4|z4|z4|BzGF|z2F2|zG2z|
+V:3
+z4|z4|z4|z4|z4|z4|z4|z2D2|
+V:4
+F,2z2|D4|A,2C2|B,2G2|D4|G2CD|G2D2|G,4|
+%
+V:1
+B2B2|AG AB|c3B/A/|GFe2-|e2d2|e/d/e/f/g2|fe/d/ ^c/d/e/c/|d4|
+V:2
+G4|z4|A3z|z2 GA|B/A/B/c/z2|z2B2|dz z2|A4|
+V:3
+D4|z4|z4|z4|z4|z4|Azz2|z4|
+V:4
+G,4|z2D2|A,3B,|C4|G,3B,|A,3G,|D2A,2|DA, B,A,/G,/|
+%
+V:1
+zA BA/G/|FG AB|c/B/c/d/ e/d/e/f/|ga bg|a/g/f/e/ de/f/|gd ed|B2A2|G3A|HB2|]
+V:2
+z4|z4|z4|z4|z4|Bz GF|z4|z2D2|HG2|]
+V:3
+z4|z4|z4|z4|z4|z4|z4|z4|HD2|]
+V:4
+F,2G,A,|D4|A,2C2|B,2G2|D4|G2CD|zG FD|B,G,3|HG,2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175454
+S:http://abc.musicaviva.com/tunes/robinson-thomas/robinson1603-11/robinson1603-11-gtr2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/robinson-thomas/robinson1603-11/robinson1603-11-gtr2.abc
+% Rhythm Almain
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:1
+T:Polska efter Johan Magnus Dahl (Sv. L. Sm. 152)
+M:3/4
+L:1/16
+R:Polska
+O:Skatelv, Smland
+S:efter Johan Magnus Dahl
+B:Svenska Ltar
+N:Svenska Ltar Sm. 152
+K:D
+|:([DD]F)[AF]F ([DD]G)[BG]G ([GB]2[FA]2)|(DF)Ac (dc)dA (GF)ED|([DD]F)[AF]F ([DD]G)[BG]G ([GB]2[FA]2)|(DF)Ac (c2d2) d4:|
+|:{fg}!trill!f2ef A2df a4|{fg}!trill!f2(ed) (cd)ef (!accent!g2!accent!e2)|{fg}!trill!f2ef A2df a4|{fg}!trill!f2(ed) (cd)ef (!accent!g2!accent!e2)|
+{fg}!trill!(f2ef) A2df a2>(f2|a)(ge)(c d2)>a2- a(ge)(c|d4) z4 z4:|
+S:https://www.folktunefinder.com/tunes/183303
+S:http://www.folkwiki.se/pub/cache/Polska_efter_Johan_Magnus_Dahl_Sv_L_Sm_152_c76fb1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

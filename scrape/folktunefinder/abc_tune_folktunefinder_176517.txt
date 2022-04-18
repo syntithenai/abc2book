@@ -1,0 +1,27 @@
+X:1
+T:Moll in the Wood
+C:trad. 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:G
+A |\
+BAB G2F | E2F G2A | BAB G2B | AFD D2A |\
+BAB G2F | E2F G2A | BGB dcB | AFD D2 :|
+|: A |\
+BGB d2c | BGB d2c | BGB dBd | ecA A2c |\
+BGB d2c | BGB def | gfe dcB | AFD D2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/176517
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/moll_in_the_wood.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:50
+T:Willy with wisp
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%RRN:Last 2 bars very unclear.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e8b.html
+%%ID:00000e8b
+K:G
+c2 |\
+B2G2 G2B2 | A2c2 D2c2 | B2G2 B2d2 | a2g2 f2e2 |\
+B2G2 G2B2 | A2D2 D2g2 | f2e2 d2c2 | d6 ::
+d2B2 B2(cd) | e2c2 c4 | c2A2 A2(Bc) | d2B2 B4 |\
+B2G2 G2 AB  | c2A2 A2c2 | B2G2 A2F2 | G6 :|
+%%newpage
+%page 4
+S:https://www.folktunefinder.com/tunes/88167
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

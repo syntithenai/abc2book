@@ -1,0 +1,36 @@
+X: 1
+T:Polka. GHW.010
+M:2/4
+L:1/16
+Q:100
+S:George H.Watson,MS,Swanton Abbott,Norfolk,1850-1880
+R:Polka
+O:England
+A:Norfolk
+N:Sounds odd in playQabc, as it can't allocate stresses properly,but it
+N:all adds up really. CGP.
+Z:vmp.Taz Tarry
+K:D
+"Key G in ms"A2|FGA2 GAB2|A2d2 f4|g2A2 cde2|a2d2 f2A2|!FGA2 GAB2|A2d2 f4
+|g2A2 cde2|"crs"d2d
+2d2:|!
+:f2|edc2 BAG2|^G2B2 d4|dcA2 BA^G2|A2c2 e4|!edc2 cBA2|a2f2 d3f|edc2 dcB2|
+A2
+A2A2:|!
+K:G
+:^d2ed cdef|g2B2 B4|A2fe dcBA|B2d2 G2B2|!d2ed ^cdef|g2B2 B4|A2fe dcBA|G2
+B2
+G2:|
+S:https://www.folktunefinder.com/tunes/183062
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polka_GHW_010_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

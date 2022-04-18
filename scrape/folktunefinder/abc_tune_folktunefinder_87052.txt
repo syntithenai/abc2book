@@ -1,0 +1,39 @@
+X:835
+T: Trip to the Island (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"G2 BG "Em"ED (3DED|"C"ce"G"dB "Am"cBAB|"G"G2 BG "Em"EDB,A,|\
+"Bm"B,DGF "Em"EDEF |
+[V:2] z|G,,2[G2D2B2]E,2[B2E2G2]|C,2[G2D2B,2]A,,2[A2E2C2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+B,,2[F2D2B2]E,2[B2E2G2]|
+%
+[V:1] "G"GABG "Em"ED (3DED|"C"cdef "G"gdBA|"Bm"Bd (3d^cd "Em"edgd|"G"BG"D"AF "G"G3 :|
+[V:2] G,,2[G2D2B2]E,2[B2E2G2]|C,2[C2G2E2]G,,2[G2D2B2]|B,,2[F2D2B2]E,2[B2E2G2]|\
+B,,2[D2A2F2][G,,3D3B,3]:|
+%
+[V:1] A|"Em"Bdef gede|"Am"aecB AcBA|"G"GB (3B^AB "Am"=AcBA|"A"^cdec "D"d2 ef |
+[V:2] z|E,2[B2E2G2]B,,2[B2E2G2]|A,,2[A2C2E2]E,2[A2C2E2]|G,,2[G2D2B2]A,,2[A2C2E2]|\
+^C,2[A2^C2E2]D,2[D2A2F2]|
+%
+[V:1] "G"g2 bg "D"faaf|"C"gfge "G"dBBA|"Bm"Bd (3d^cd "Em"edgd|"G"BG"D"AF "G"G3 :|
+[V:2] G,2[G2D2B2]D,2[D2A2F2]|C,2[C2G2E2]G,2[G2D2B2]|B,,2[F2D2B2]E,2[B2E2G2]|
+B,,2[D2A2F2][G,,3D3B,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87052
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

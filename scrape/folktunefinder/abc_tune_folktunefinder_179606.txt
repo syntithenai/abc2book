@@ -1,0 +1,25 @@
+X: 1628
+T:Off To California
+M:2/4
+L:1/16
+B:O'Neills 1628
+N:"setting 1","collected by F. O'Neill"
+Z:Transcribed by Nick Terhorst, nickte@microsoft.com
+N:Staff breaks fixed [jc]
+K:G
+(3DEF|G>FG>B A>GE>D|G>Bd>g e2(3def|g>fg>d e>dB>G|A>BA>G E2(3DEF|
+G>FG>B A>GE>D|G>Bd>g e2(3def|g>fg>d e>dB>G|A>BA>F G2:|
+|:(3def|g>fe>g f>ed>f|e>de>f e>dB>d|g>fg>d e>dB>G|
+|A>BA>G E2D2|(3GAG B>G A>GE>D|G>Bd>g e2(3def|g>fg>d e>dB>G|A>BA>F G2:|
+S:https://www.folktunefinder.com/tunes/179606
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1628_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

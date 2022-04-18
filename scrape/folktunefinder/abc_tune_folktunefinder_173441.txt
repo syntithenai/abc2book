@@ -1,0 +1,24 @@
+X:36
+T:Maccabaeus
+C:G.F.Haendel
+O:Judas Maccabaeus
+N:Notation is abc 1.6
+M:4/4
+L:1/4
+P:AB % repeat for each verse
+Q:140
+K:D
+V:1
+P:A
+A2 F>G | A2 D2 | E/F/ G/A/ GF | E4 | F/G/ A/B/ AA | d2 A2 |
+S:https://www.folktunefinder.com/tunes/173441
+S:http://music.gordfisch.net/tradmusic/pub/cache/Maccabaeus_0d93ca.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

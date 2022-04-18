@@ -1,0 +1,48 @@
+X: 9074
+T: Jig for Willie (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Em
+[V:1] E/F/|"Em"GFG AGA|"Bm"BAB "Em"e2 f|"G"g2 e dBG|"D7"ABc AFD|
+[V:2] z|E,2[EBG]G,,2[EBG]|B,,2[BFD]E,2[EBG]|G,,2[GBD]B,,2[GBD]|D,2[CAF]A,,2[CAF]|
+%
+[V:1] "Em"GEE BEE|"G"dBd "C"e2 f|"G"gdB "Am"cBA|"Em"GED "Em"E2 :|
+[V:2] E,2[EBG]B,,2[EBG]|G,,2[GDB]C,2[CGE]|G,,2[GDB]A,,2[AEC]|E,2[EBG][E,2B,2G2]:|
+%
+[V:1][K:Gm] A|"Gm"BGG dGG|"F"AFF cFF|"Gm"Bcd "F"cAc|"Gm"BGB "Dm"AFD|
+[V:2][K:Gm] z|[G,6D6_B6]|[=F,6C6A6]|[G,3D3_B3][=F,3C3=A3]|[G,3D3_B3][D,3A,3=F3]|
+%
+[V:1] "Gm"dgg bgg|"F"cff afc|"Gm"BGB "F"AFA|"Gm"BGG "Gm"G2 :|
+[V:2] [G,6D6_B6]|[=F,6C6A6]|[G,3D3_B3][=F,3C3A3]|[G,3D3_B3]G,,2:|
+%%%%%%%tune repeat
+[V:1][K:G] E/F/|"Em"GFG AGA|"Bm"BAB "Em"e2 f|"G"g2 e dBG|"D7"ABc AFD|
+[V:2][K:G] z|E,2[EBG]G,,2[EBG]|B,,2[BFD]E,2[EBG]|G,,2[GBD]B,,2[GBD]|\
+D,2[CAF]A,,2[CAF]|
+%
+[V:1] "Em"GEE BEE|"G"dBd "C"e2 f|"G"gdB "Am"cBA|"Em"GED "Em"E2 :|
+[V:2] E,2[EBG]B,,2[EBG]|G,,2[GDB]C,2[CGE]|G,,2[GDB]A,,2[AEC]|E,2[EBG][E,2B,2G2]:|
+%
+[V:1][K:Gm] A|"Gm"BGG dGG|"F"AFF cFF|"Gm"Bcd "F"cAc|"Gm"BGB "Dm"AFD|
+[V:2][K:Gm] z|[G,6D6_B6]|[=F,6C6A6]|[G,3D3_B3][=F,3C3=A3]|[G,3D3_B3][D,3A,3=F3]|
+%
+[V:1] "Gm"dgg bgg|"F"cff afc|"Gm"BGB "F"AFA|1 "Gm"BGG "Gm"G2 :|2 "Gm"BGG "Gm"G3-|G6||
+[V:2] [G,6D6_B6]|[=F,6C6A6]|[G,3D3_B3][=F,3C3A3]|1 [G,3D3_B3]G,,2 :|2\
+[G,3D3_B3]G,,3-|G,,6||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87159
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

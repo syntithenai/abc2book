@@ -1,0 +1,23 @@
+X:750
+T:Donegal Reel
+R:Reel
+Z:id:hn-reel-125
+M:C|
+L:1/8
+Q:1/4=200
+K:D
+|:D2DE FDFA|dF~F2 BFAF|E2EF GFGA|(3Bcd AF EGFE|
+D2DE FDFA|dF~F2 ABde|(3fgf ec dBAG|[1 FGEF D2FE:|[2 FGEF D3A||
+|:defg afdf|afdf a2gf|edef gfed|cdef g2fe|
+defg afdf|afdf abag|(3fgf ec dBAG|[1 FGEF D3A:|[2 FGEF D2FE|]
+S:https://www.folktunefinder.com/tunes/90606
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

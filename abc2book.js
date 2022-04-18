@@ -23,52 +23,29 @@ function updateTunesFromLongAbc() {
   } else {
     var tv = $('#longabc').val()
     var tunes = abc2Tunebook(tv)
-    console.log(tv,tunes)
     saveLocalObject('abc2book_tunes',tunes)
-    // also songlist
-    //var songList = tunes.map(function(tune) {
-      //var text = tune.forceTitle ? tune.forceTitle : tune.name
-      //var newLine = ''
-      //if (tune.id)  newLine += '[ID:'+tune.id+']'
-      //if (tune.useSetting > 0)  newLine += '[S:'+tune.useSetting+']'
-      //else newLine += '[S:0]'
-      //var boost = tune.boost > 0 ? tune.boost : 0
-      //newLine += '[B:'+boost+']' + text
-      //return newLine
-    //})
-    //$('#songlist').val(songList.join("\n"))
     var start = new Date().getTime()
     console.log('TIMER gen abc', (new Date().getTime() - start))
     generateShortAbcFromTunes()
     console.log('TIMER gen short abc', (new Date().getTime() - start))
     renderCheetsheetFromShortAbc()
-    console.log('TIMER gen cheetsheet', (new Date().getTime() - start))
+    console.log('TIMER render cheetsheet', (new Date().getTime() - start))
     renderMusicFromLongAbc()
-    console.log('TIMER gen music', (new Date().getTime() - start))
+    console.log('TIMER render music', (new Date().getTime() - start))
     generateIndexesFromTunes()
-    console.log('TIMER gen index', (new Date().getTime() - start))
     renderIndexes()
-    console.log('TIMER render abc', (new Date().getTime() - start))
+    console.log('TIMER rgen and render index', (new Date().getTime() - start))
     showContentSection('music')
   }
 }
-    //var row = null;
-    //// collate into rows
-    //tuneBook.tunes.map(function(v,k) {
-    
-  
- 
-
-
-
-      
+     
 function getMainRendererSettings() {
   return  {
-    wrap: {
-      minSpacing: 1.8,
-      maxSpacing: 2.8,
-      preferredMeasuresPerLine: 8,
-    },
+    //wrap: {
+      //minSpacing: 1.8,
+      //maxSpacing: 2.8,
+      //preferredMeasuresPerLine: 8,
+    //},
     responsive: "resize",
     add_classes: true,
     staffwidth: 900,
@@ -113,7 +90,6 @@ function generateMusic() {
   $('#music').html('')
   $('#errors').html('')
   localStorage.setItem('abc2book_errors', null)
-  localStorage.setItem('abc2book_tunes', null)
   
   
   var tunesList = []
@@ -123,6 +99,19 @@ function generateMusic() {
   let tunesListUnique = tunesList.filter((item, i, ar) => ar.indexOf(item) === i);
   // save clean list of song names 
   $('#songlist').val(tunesListUnique.join("\n"))
+  
+  // move existing tunes out of the way
+  var oldTunes = loadLocalObject('abc2book_tunes')
+  var movedTunes = {}
+  var offset = tunesListUnique.length
+  Object.keys(oldTunes).forEach(function(id) {
+    var next = parseInt(id) + offset
+    movedTunes[next] = oldTunes[id]
+  })
+  //console.log("move tunes",movedTunes)
+  saveLocalObject('abc2book_tunes', movedTunes)
+  
+  
   iterateTunes(tunesListUnique,0)
   
   
@@ -138,13 +127,13 @@ function generateAndRender() {
   generateShortAbcFromTunes()
   console.log('TIMER gen short abc', (new Date().getTime() - start))
   renderCheetsheetFromShortAbc()
-  console.log('TIMER gen cheetsheet', (new Date().getTime() - start))
+  console.log('TIMER render cheetsheet', (new Date().getTime() - start))
   renderMusicFromLongAbc()
-  console.log('TIMER gen music', (new Date().getTime() - start))
+  console.log('TIMER render music', (new Date().getTime() - start))
   generateIndexesFromTunes()
-  console.log('TIMER gen index', (new Date().getTime() - start))
   renderIndexes()
-  console.log('TIMER render abc', (new Date().getTime() - start))
+  console.log('TIMER gen and render index', (new Date().getTime() - start))
+  //console.log('TIMER render abc', (new Date().getTime() - start))
   $('#cheatsheet_music_container').hide()
 }
 
@@ -160,11 +149,13 @@ function finishLoadTunes() {
     $('#waiting').hide()
     $('#stopbutton').hide()
     showContentSection('music')
+    $("#stopplayingbutton").hide()
+    $("#stopplayingallbutton").hide()
 }
 
 
 function generateAndRenderSingle(songNumber, tune) {
-  //console.log('generateAndRenderSingle', songNumber, tune)
+  console.log('generateAndRenderSingle', songNumber, tune)
   // update abc short
   if (tune && tune.settings && tune.settings.length > tune.useSetting) {
     
@@ -192,7 +183,7 @@ function generateAndRenderSingle(songNumber, tune) {
     //console.log('render into  ',longkey)
     $('#'+longkey).html('')
     //var searchStrings = $('#songlist').val().split("\n")
-    var renderResultSingle = window.ABCJS.renderAbc([longkey], longabc , getMainRendererSettings());
+    var renderResultSingle = window.ABCJS.renderAbc([longkey], addTitleNumbering(longabc) , getMainRendererSettings());
     renderResultSingle.map(function(rr,rk) {
       // update cache 
       renderResult[songNumber] = rr
@@ -256,7 +247,7 @@ function renderMusicFromLongAbc() {
     targetArray.push('music_'+k)
   })
   //var p = new Promise()
-  renderResult = window.ABCJS.renderAbc(targetArray, $('#longabc').val() , getMainRendererSettings());
+  renderResult = window.ABCJS.renderAbc(targetArray, addTitleNumbering($('#longabc').val()) , getMainRendererSettings());
   //var searchStrings = $('#songlist').val().split("\n")
   renderResult.map(function(rr,rk) {
     //console.log('RR',rr,rk)
@@ -275,12 +266,13 @@ function renderMusicFromLongAbc() {
   $('#downloadshortabc').css('display','block')
   $('#printbutton').css('display','block')
   makeEditable(".abcjs-title tspan")
+  
 }
 
 function generateAbcFromTunes() {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
-  console.log('UPDATE ALL tune ',tunes)
+  //console.log('UPDATE ALL tune ',tunes)
   Object.keys(tunes).map(function(tuneKey) {
     
     var tune = tunes[tuneKey]
@@ -301,11 +293,11 @@ function generateAbcFromTunes() {
     }
     
   })
-  console.log([abc])
+  //console.log([abc])
   $('#longabc').val( abc)
 }
 
-function updateSingleTune(songNumber, ) {
+function updateSingleTune(songNumber) {
   var tunes = loadLocalObject('abc2book_tunes')
   var abc = ''
   Object.keys(tunes).map(function(tuneKey) {
@@ -353,6 +345,7 @@ function generateShortAbcFromTunes() {
  */
 function saveTuneAndSetting(tune,useSetting,songNumber,searchText, callback) {
   if (tune) {
+    //console.log("SAVE TUNE",songNumber,tune)
     var tunes = loadLocalObject('abc2book_tunes')
     //tune.forceTitle = searchText
     tune.useSetting = useSetting
@@ -375,27 +368,13 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallba
       var forceTuneId = getMetaValueFromSongline("ID", trimlist)
       var forceSetting = getMetaValueFromSongline("S", trimlist)
       var searchText = getTextFromSongline(trimlist)
-      //if (trimlist.indexOf('[ID:') !== -1) {
-        //var start = trimlist.indexOf('[ID:')
-        //var end = trimlist.indexOf(']', start)
-        //searchText = trimlist.slice(end + 1)
-        //forceTuneId = trimlist.slice(start + 4,end)
-      //}
-      //if (trimlist.indexOf('[S:') !== -1) {
-        //var start = trimlist.indexOf('[S:')
-        //var end = trimlist.indexOf(']', start)
-        //searchText = trimlist.slice(end + 1)
-        //forceSetting = trimlist.slice(start + 3,end)
-      //}
-      
-      
-      //console.log('FORCE', forceTuneId, forceSetting)
-      
+     
       if (forceTuneId !== null) {
         $.get('https://thesession.org/tunes/'+forceTuneId+'?format=json&perpage=50').then(function(tune) {
           handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
         }).catch(function(e) {
           console.log(["ERR1",e])
+          handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
         })
       } else {
         $.get('https://thesession.org/tunes/search?format=json&perpage=50&q='+searchText).then(function(searchRes) {
@@ -408,12 +387,14 @@ function handleTunesListItem(tunesListItem, songNumber, tunesList, settingCallba
               handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, settingCallback)
             }).catch(function(e) {
               console.log(["ERR2",e])
+              handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
             })
           } else {
             handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
           }
         }).catch(function(e) {
           console.log(["ERR3",e])
+          handleFoundTune(null, tunesList, searchText, null, songNumber, settingCallback)
         })
       } 
     // empty tune title, try next tune (should not happen as input is filtered)
@@ -439,7 +420,10 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, 
         // search for settings that have chords
         var useSetting = 0
         var usableSettings = []
-        for (var setting in tune.settings.reverse()) {
+        // TODO should search for last setting with chords but returns first setting with chords ?
+        var rsettings = tune.settings.slice().reverse()
+        //console.log("SSSSSSSSS",tune.settings,rsettings)
+        for (var setting in rsettings) {
             // seek chords as text in abc string
             if (tune.settings[setting] && tune.settings[setting].abc && tune.settings[setting].abc.indexOf('"') !== -1) {
               var chords = getInnerStrings(tune.settings[setting].abc)
@@ -482,6 +466,7 @@ function handleFoundTune(tune, tunesList, searchText, forceSetting, songNumber, 
  * @param songNumber used internally to recursively pass the tune number
  */
 function iterateTunes(tunesList, songNumber, finishCallback, settingCallback) {
+  //stopPlaying()
   if (!finishCallback) finishCallback = finishLoadTunes
   $('#processingstatus').html('<b>Processing..... '+tunesList.length+' remaining </b>')
   songNumber = songNumber > 0 ? songNumber : 0

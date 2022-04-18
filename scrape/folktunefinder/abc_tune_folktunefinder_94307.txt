@@ -1,0 +1,40 @@
+X:19016
+T:Xiraldilla (CT 236)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 236
+M:2/4
+L:1/8
+Q:1/4=160
+W:No vengas a deshora,
+W:galn, a verme,
+W:no vengas a deshora,
+W:galn, a verme,
+W:que todas las vecinas
+W:murmurar quieren.
+W:Ai! morena, galn, a verme,
+W:Ai! salada, murmurar quieren.
+K:G
+G
+|GG GA|B B2 A|d2 AF|G2 z G|
+GG GA|B B2 A|c2 AF|G2 z G|
+cc cc|c c2 c|c2 BA|B2 z2|
+|d2 dc|B3 A|c2 AF|G4|
+d2 dc|B3 A|c2 AF|G2 z2||
+S:https://www.folktunefinder.com/tunes/94307
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

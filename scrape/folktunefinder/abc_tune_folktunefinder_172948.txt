@@ -1,0 +1,28 @@
+X: 1
+T: Lord Huntley's Cave
+C: J.S.Skinner
+B: BSFC
+B: Scottish Music Maker
+B: Harp & Claymore, p.25 (with two variations)
+B: The Scottish Violinist, J.S.Skinner, p.34 (with two variations)
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+R: march
+L: 1/8
+K: C
+|: cd \
+|| "C"e2G2 fedc | e2G2 c2Bc |1 "G7"d2G2 gfed | "C"cBce "G7"dGcd :|2 "G7"dgBg GgBg | "C"c4-c2 :|
+[| ef \
+|| "C"g3e c2g2 | eGg2 c2Bc | "G7"d2G2 gfed | "C"cBce "G7"dGef |  "C"g3e c2g2 |
+| eGg2 c2Bc | "G7"dgBg GgBg | "C"c6 ef || "C"g3e c2g2 | eGg2 c2Bc |
+| "G7"d2G2 gfed | "C"cBce "G7"dGcd | "C"e2G2 fedc | e2G2 c2Bc | "G7"dgBg GgBg | "C"c4-c2 |]
+S:https://www.folktunefinder.com/tunes/172948
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/LordHuntlysCave_C.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

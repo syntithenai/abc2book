@@ -1,0 +1,24 @@
+X:1600
+T:Swiss Boy   Quadrille
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001256.html
+%%ID:00001256
+K:F
+A/B/   | .c(A/B/) .d(A/B/) | .c(a/g/)  fc/c/   | .c(b/a/) .g(a/g/) | .f(ag)
+(A/B/) | .c(A/B/) .c(A/B/) | .c(a/g/) .f(c/c/) | .c(b/a/) .g(a/g/) | f2-f ||
+c      | .c(g/f/) ec | .c(a/g/) .f(c/c/) | (B/c/g/f/) ec | .c(a/g/) .f
+(A/B/) | (c/B/)(A/B/) (c/B/)(A/B/) | .c(a/g/) (f/A/)c/c/ | .c(b/a/) .g(a/g/) | faf :|
+S:https://www.folktunefinder.com/tunes/88477
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

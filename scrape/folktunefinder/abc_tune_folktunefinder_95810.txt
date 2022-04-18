@@ -1,0 +1,28 @@
+X:895
+T:Miss Conyer's Whim
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e77.html
+%%ID:00000e77
+K:G
+e |\
+g2d BAG | BcB def | g2d BAG | cAB c2d/e/ |\
+g2d BAG | BBB def | gab efg | cAB c2 ::
+(d/c/) |\
+B2d dcB | c2e edc | B2d dcB | cde A2d/c/ |\
+Bcd dcB | cde edc | gab efg | cAB c2 ::
+%page:104
+S:https://www.folktunefinder.com/tunes/95810
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

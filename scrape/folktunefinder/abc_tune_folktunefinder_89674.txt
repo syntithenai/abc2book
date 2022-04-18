@@ -1,0 +1,23 @@
+X:170
+T: South of the Shannon
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: A
+e|"A"ecA EAc | "E7"dBG EFG | "F#m"AFA "D"dcd | "A"ecA "E7"Bcd |
+"A"ecA EAc | "E7"dBG EFG | "A"ABc "D"dfe | "E7"dBG "A"A2 :|
+e|"E7"edB bge | "A"aga "A"ecA | "F#m"FAc "D"dfa | "A"ecA "E7"Bcd |
+"A"cAc "Bm"dBd | "A"ece "D"agf | "A"ece "Bm"fdB |"E"GAB "A"A2 :|
+S:https://www.folktunefinder.com/tunes/89674
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

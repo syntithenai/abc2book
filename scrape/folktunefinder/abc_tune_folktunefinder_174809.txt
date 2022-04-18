@@ -1,0 +1,44 @@
+X:1
+T:Maurer Franz Polka
+C:traditionell
+R:polka
+A:Muehlen/Sand in Taufers, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: in F (1. teil) und Bb (2. teil),  erster ton c'' 
+N:im buch s. 283, nr. 168
+N:im buch dreistimmig (melodie, nachschlag und bass)
+S:tonband-aufnahme Q-1475(55) 53/B05, vom 25.10.1941
+S:ausfuehrende: Blaskapelle Muehlbach
+S:besetzung: Es- u. B-klarinette, Es-trompete, 2 tenorhoerner, B-bass
+%%endtext
+Z:noten-transcription: Anja Bartlmae Rainer
+Z:abc transcription: Simon Wascher
+Q:1/4=112 %im buch
+M:2/4
+L:1/8
+K:G %Transposed from F
+P:A
+d/e/ |:\
+dB BG | FA Ad/e/ | dc AF | (G2B)d/e/ |\
+dB/B/ BG | F/A/A A d/e/ | dc AF |1 GG/G/G d/e/ :|\
+                                [2 GG/G/Gz ||
+K:C
+|:\
+[G2E2] [AF][GE] | [GE]e ce | Bf Bf/B/ | ce c2 |\
+[G2E2] [AF][GE] | [GE]e ce | Bf Bf/B/ | cc/c/cz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174809
+S:http://simonwascher.info/TradArchiv_polka/maurer_franz_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

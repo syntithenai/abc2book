@@ -1,0 +1,40 @@
+X:8300
+T:Miss Hutton's
+C:John Bowie
+O:Canada
+A:Cape Breton
+S:from the playing of Buddy MacMaster
+N:1789
+R:Strathspey
+F:http://abc.musicaviva.com/tunes/bowie-john/miss-huttons.abc
+%Posted April 16th 2002 at abcusers by Chris Davidson in reply to a
+%request for a good Bb major strathspey.
+D:Glencoe Hall
+M:C
+L:1/8
+K:Gm
+A| B<F F>E D<F F2| D<G G>A B>c d<g|
+ f>d c>B A/B/c A>F| D<G  d>c  B<GG:|
+F| BB f>d c>B| A/B/c f>d c>f A>F|
+ G>A B<d g/^f/g/a/ g>d| b>a  g>^f g<g g>f|
+ g/a/b g>d e/f/g e>c| d/c/B/A/ B>G ^F>A D>c|
+ B<d Ge d>c| B>G  B/A/G/^F/ G2 G :|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/176110
+S:http://abc.musicaviva.com/tunes/bowie-john/miss-huttons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bowie-john/miss-huttons.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bowie-john/miss-huttons.abc
+% Rhythm Strathspey
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

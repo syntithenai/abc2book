@@ -1,0 +1,24 @@
+X:0590
+T:"Love's Young Dream"       (air)       0590
+C:Unattributed
+C:boldly
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_VB"(d/2c/2)|B2G A2E|G2E AEG|A3A3|A3-A2(d/2c/2)|B2G A2E|G2E AEG|G3G3|G3-G2||
+A|B2c d2d|e2f g2e|d2B A2G|{B}A3-A2(d/2c/2)|B2G A2E|G2E DEF|
+A3A3|A3-A2(d/2c/2)|B G2A2E|G2E DEF|G3G3|G3-G2|]
+S:https://www.folktunefinder.com/tunes/173229
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0590-LovesDream.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0590-LovesDream.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

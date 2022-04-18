@@ -1,0 +1,26 @@
+X:1
+T:Le Pont
+C:Frederic Paris
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Dm
+A3/2B/2 AA | G/2A/2G/2F/2 E/2D/2E/2F/2 | A3/2B/2 AA | G/2F/2G/2A/2 B/2A/2B/2c/2 |\
+A3/2B/2 AA | G/2A/2G/2F/2 E/2D/2E/2F/2 | A3/2B/2 AA | G/2A/2B/2c/2 A2 :|
+K:C
+|:\
+d/2c/2d/2e/2 c/2B/2c/2d/2 | B/2A/2B/2c/2 A2 | G/2A/2G/2F/2 E/2D/2E/2F/2 | G/2A/2G/2F/2 ED |\
+d/2c/2d/2e/2 c/2B/2c/2d/2 | B/2A/2B/2c/2 AA/2c/2 | dd c/2e/2d/2c/2 | d3/2c/2 d2 :|
+S:https://www.folktunefinder.com/tunes/183492
+S:http://simonwascher.info/TradArchiv_bourree_2/le_pont.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

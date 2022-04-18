@@ -1,0 +1,21 @@
+X:8765
+T:Kuperlika
+O:Macedonian/Turkish
+M:7/8
+K:Bb
+|:DAAAG/2A/2G/2^F/2E|DE^FE/2D/2E/2F/2ED|DAAAG/2A/2G/2^F/2E|DE^FE/2D/2E/2F/2ED|
+DAAAG/2A/2G/2^F/2E|E/2^F/2E/2D/2CDEFG|A/2c/2B/2A/2G^FE/2F/2E/2D/2C/2E/2|D3D2D2:|
+|:CCCC/2D/2C/2^B,/2C2|DE/2D/2CDE^FG|AB/2A/2G^FE/2F/2E/2D/2C|1DE^FG/2A/2G/2F/2G2:|2D3D2AB|
+|:cBdcB/2c/2B/2A/2G|AB/2A/2G^FE/2F/2E/2D/2C|DEG^FE/2F/2E/2D/2C|1DEG^FGAB:|2D3D,AG^F|
+|:EDC^B,CDE|^FGAFEDE|^F3D,AGF|EDC^B,CDE|^FGAFE/2F/2E/2D/2C/2E/2|1D3D,AG^F:|2D3A,DA,D|
+S:https://www.folktunefinder.com/tunes/91824
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 7/8
+% Has_accompaniment_chords No chords

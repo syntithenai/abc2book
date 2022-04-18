@@ -1,0 +1,25 @@
+X:300
+T:My Love is in America
+R:Reel
+D:Davy Spillane: Shadow Hunter.
+Z:id:hn-reel-43
+M:C|
+L:1/8
+Q:1/4=200
+K:Dmix
+|FEFG A2cB|Addc Add2|FD (3EFG ABcA|GBAG FDDE|
+FD (3EFG ABcB|Add^c defg|afge fdcA|GBAG FDDE||
+FEFG ABcB|Ad~d2 fdAG|~F3G ABcA|GAAG FDDE|
+FD (3EFG ABcB|Add^c defg|afge fdcA|GBAG FDDg||
+|:fded fde^c|Add^c Adde|fded fdcA|GBAG FDDg|
+fded fde^c|Add^c defg|afge fdcA|[1 GBAG FDDg:|[2 GBAG FDDE|]
+S:https://www.folktunefinder.com/tunes/90516
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

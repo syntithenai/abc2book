@@ -1,0 +1,24 @@
+X:1095
+T:Considine's Grove
+N:The "Unknown"
+M:4/4
+L:1/8
+K:Em
+E3 F G2 (3EFG|ABAG FD D2|E3 F GABc|dBAc BE E2 :|
+(3 efg ed Bdef|(3gfe ag fd d2|(3efg ed Bdeg|fedf e4|
+(3efg ed Bdef (3gfe ag eddf|g3 e f3 e|eBAc BE E2 ||
+GBdg e2 dB|AD (3FED FAAc|BE E2 GABc|dBAc BE E2 :|
+e4 egfe|d3 f af d2|(3B^cd ef gfge|dBAc BE E2 |
+e4 egfe|d3 f afdf|g3 e f3 e|dBAc BE E2 |>|
+S:https://www.folktunefinder.com/tunes/91356
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

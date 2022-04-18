@@ -1,0 +1,54 @@
+X:1
+%
+T:Phantasia 9
+C:from Elias Mertel (1615)
+C:Hortus musicalis novus
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+a2 a1 .,d |\
+,b1 .,,d [,bd/] ,a// .,b [,da/] ,b// .,d |\
+[aabc3/2] .,,d/ [aabc1] [,,aa] |\
+[abb,d1] [,,d,a] [abb,d] [,,aa] |\
+[aabc1] ,,,,,a/ .,d ,b .,a [,b,c] ,d// .,b |
+%staff 2
+[,a,a/] .,,d [,,d,d1] ,,,,c/ ,,c// .,,a ,,c .,,d ,,c/ |\
+[,,dca1] .a f ,,,,,a/ .d |\
+[c,d,a1] :a/ .,,b ,,a .,,,c [,ea,c1] |\
+[aabc1] ,,,,,a .,,d ,,,,a/ .,,b |\
+[,,a,a/] .,,,c [,,,c,d1] [,,,b,c/] .,,,c [,,,c,c] .,,,b |\
+[,,,c,a/] .,,a [,,bc] .,,d [,abc,a] ,,,,,c ,,,,,d ,,,,,a |
+%staff 3
+[,aa,,h1] .h [if,,a] {,,a}/ .h |\
+[f,g1] [e,f] [f,g] ,,,,a/ .,a |\
+[,,d,d1] [,,c,c] [,,dca] [,a,c,e] |\
+[ab,,a1] ,,d/ .c [da,,,a1] ,,,c/ .c |\
+[aab1] .,d/ ,,a [,b,c1] ,,,a/ .,a |\
+[,,d,d1] [,,c,c] [,,dca] [,a,c,e] |
+%staff 4
+[abd,a/] .,d  [a,d] .c [da,c,a1] .a |\
+c1 ,d/ .c [ab1] ,,d |\
+[,df1] .,a [,bd] ,,,c/ .,b |\
+[,a,a1] ,,,,c/ .,,d [,,bcd] [,,aa] [,,bc] [,,d,d] |\
+[,aa,c/] .,b ,d .,a [,b,c] ,b// .,d [,a,a/] ,b//.,a |
+%staff 6
+,,,,d/ .,,d [,,da] ,a// .,c [,da,c/] .,c [,ac] .,d |\
+[,bdca/] .,a [,b,,a] [,d,,c] "(1)"[abb,d] [c,,a] [d,,c] .a |\
+[cdda/] [d,,c] [f,dd] ,,,a [ea,c] c// .a ,e a c .e |\
+[ffh,a1] ,,,h [ffh] .h |\
+[ffh{,,a}4] |]
+%
+W:(1) orig. 4c instead of 1a
+W:
+W:compare da Crema (1546) Recercar 11
+S:https://www.folktunefinder.com/tunes/182293
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/phantasia_009.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Mertel/phantasia_009.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

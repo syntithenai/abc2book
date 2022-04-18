@@ -1,0 +1,32 @@
+X:1
+T:Off to California
+M:12/8
+L:1/8
+C:Traditional
+Q:C3=120
+K:G Major
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+|: DEF | G2FG2B A2GE2D | G2Bd2g e3 def | g2fg2d e2dB2G | A2BA2G E3 DEF |\
+G2FG2B A2GE2D | G2Bd2g e3 def | g2fg2d e2dB2G | A2BA2F G3 :|
+P:B
+def | g2fe2g f2ed2f | e2de2f e2dB3 | g2fg2d e2dB2G | A2BA2G E3 DEF |
+G2FG2B A2GE2D | G2Bd2g e3 def | g2fg2d e2dB2G | A2BA2F G3 |]
+S:https://www.folktunefinder.com/tunes/179611
+S:http://www.mit.edu/~jcb/MOTley/abc/off-to-california.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/off-to-california.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/off-to-california-tune.shtml
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

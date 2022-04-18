@@ -1,0 +1,21 @@
+X: 15
+T: Juanita
+T: Hornpipe, Bb
+C: Albert Pushee
+L: 1/16
+M: 4/4
+K: Bb
+|: F4| B4B2c2 d4d2c2| B2d2f2g2 f4d2f2| g2f2d2f2 b2f2d2B2| c2B2d2B2 F2e2d2c2|
+ B4B2c2 d4d2c2| B2d2f2g2 f4d2f2| g2b2f2d2 c2e2d2c2| B4B2A2 B4:| 
+|: B2A2| G4G2^F2 G4G2F2| G4G2A2 B4B2c2| d4d2^c2 d4d2e2| d2c2B2d2 f4B2d2|
+ f2=e2f2g2 f4d2f2| g2f2g2a2 g4b2g2| f2d2B2d2 c2e2d2c2| B4B2A2 B4:|
+S:https://www.folktunefinder.com/tunes/93938
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

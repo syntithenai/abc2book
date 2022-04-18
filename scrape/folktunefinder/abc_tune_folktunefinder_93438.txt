@@ -1,0 +1,27 @@
+X:60
+T: Limerick Jig
+T: Port Luimnigh
+S: B.Breathnach:"Ceol Rince na hEireann" III/49
+Z: B.Black
+L: 1/8
+M: 12/8
+Q: 360
+R: slide
+K: G
+DEF GAB e2c A2G|FAF EFE DFA d2A|
+DEF GAB e2c A2G|FFF DEF G3 G3 :|
+BdB B2A BdB B2A|G3 BAG A2G E2D|
+BdB B2A BdB B2A|GFE A2E B3 B2B|
+DEF GAB e2c A2G|FFF EFE DFA d3|
+DEF GAB e2c A2G|F2F DEF G3 G3 ||
+S:https://www.folktunefinder.com/tunes/93438
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE3.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE3.abc
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

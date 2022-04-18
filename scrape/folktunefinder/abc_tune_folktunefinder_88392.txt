@@ -1,0 +1,28 @@
+X:1175
+T:Black-moor's jig
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:There seem to have been 2 people with different ideas about barlines, very confusing.
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001163.html
+%%ID:00001163
+K:G dorian
+d | (cA)B G2d | (cA)B A2G/F/ | f3 F2d | (cA)B G2d | (cA)B (FD)F | G3 G2 ::
+a | g2e   fga | dcB   AGF    | f3 fga | g2e   fga | dcB    AGF  | G3 G2 ::
+%%newpage
+%page 97
+S:https://www.folktunefinder.com/tunes/88392
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

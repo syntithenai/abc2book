@@ -1,0 +1,28 @@
+X:132
+T:All Take Tea
+C:Harmonies by A. Terreri
+M:6/8
+L:1/8
+K:D
+%%staves (1 2)
+V:1
+A|d2d def|edc d2e|f2f fga|gfe f2g|a2a agf|g2g gfe|fed afd|edc d2::
+d/f/|a2a aba|g2g gef|g2g gag|fde f2A|d2d def|e2e efg|a2f gfe|d2f d2:|
+V:2
+x|x6|x6|x6|x6|x6|x6|x6|x3x2::x|x6|x6|x6|x6|x6|x6|x6|x3x2:|
+%%staves [1 2]
+V:1
+"^2nd Fife"A|F2F FGA|GFE F2C|D2D DEF|EDC D2E|F2F FED|E2E EDC|(D3 d3)|(B3 A2)::
+z|F2F FGF|E2E ECD|E2E EFE|A3-A3|A3-A3|A3-A3|G2A BAG|F2A F2:|
+V:2
+"^3rd Fife"z|A3-A3|A3-A3|A3-A3|A3-A3|d3-d3|A3 A3|AGF FAF|(G3 F2)::
+z|d3-d3|dcd cAA|A3-A3|DFC D3|F3 FCD|C2C CDE|C3-C3|D3-D2:|
+S:https://www.folktunefinder.com/tunes/90119
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1
+T:May Day Morning
+C:
+L:1/8
+Q:402
+M:4/4
+K:C
+ z6 (3AB^c |: "D"d2 dB A2 BA | ^F2 A2 "A"[A2E2] (3AB^c | "D"d2 dA BA ^FA | "A"[A2E2] [AE][AE] [A2E2] (3AB^c | \
+ "D"d2 dB A2 BA | ^F2 A2 "G"[B2D2] de | "D"^fa fd "A"ed ^ce |1 d2 [d^F][dF] [d2F2] (3AB^c :|2 d2 [d^F][dF] [d2F2] de | \
+|: "D"^fa fd ed BA | Bd [dD][dD] [d2D2] de | ^fa fd ed BA | "Bm"[B2^F2] [BF][BF] [B2F2] de | \
+ "D"^fa fd ed BA | "G"BA B^c d2 e2 | "D"^fe df "A"ed BA |1 Bd [d^F][dF] [d2F2] de :|2 d2 [d^F][dF] [d2F2] [DC][DB,] | \
+|: "D"[D2A,2] [DA,][DA,] [D2B,2] D2 | [AE]D [AE]^F "G"[B2G2] [B2G2] | "D"[A^F][dF] [dF][dF] [dF]B AF | \
+ [d^F]B AF "A"[A2E2] [AE][AE] | "D"D^C DE ^FD EF | "G"G2 [B2G2] "D"[A2^F2] DE | ^FA FD "A"ED ^CE | \
+|1 D2 C/D3/2 D2 [DC][DB,] :|2 D2 C/D3/2 D4 | \
+W:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/174834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/maydaymorning_fox.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

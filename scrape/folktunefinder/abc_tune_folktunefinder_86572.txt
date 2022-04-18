@@ -1,0 +1,25 @@
+X:815
+T: Sunset Park
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+D|"G"DGB "Am"AGE | "G"DEG "Am7"Age | "G"dBB "C"cde | "G"dBB "Am"AGE |
+"G"DGB "Am"AGE | "G"DEG "D7"Adc | "Em"BAB ded | "D7"cAF "G"G2 :|
+e|"G"gab edd | "Em"efg dBB | "C"cde "Am"eag | "D"fd^c d2 d |
+"G"gab edd | "Em"efg dBB | "C"cde "G"dBG |"D7"cAF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86572
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

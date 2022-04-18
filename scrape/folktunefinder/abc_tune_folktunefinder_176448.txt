@@ -1,0 +1,75 @@
+X:1
+%%titleformat TT,C1
+T:Mlodie gavotte
+T:(traditionnel)
+C:arrangement et tablature: Yann-Fach Perroches
+M:none
+L:1/8
+%%titlefont Helvetica-Bold 20
+%%subtitlefont Helvetica-Bold 16
+%%tempofont Helvetica 14
+%%setfont-1 Helvetica-Bold 12
+%%setfont-2 Helvetica-Italic 10
+Q:"$1mlodie$0   "3/8=66 "$2  tempo rubato"
+%%staves [1 2]
+%%timewarn 1
+%%stretchlast 1
+K:C
+% this line is needed in each tune but the first
+%%postscript /accordfirst 1 def
+V:1
+%%sysstaffsep 1.6cm
+d d/e/c3A B >GE3|EE^GB2cA3H[EAc]3::
+V:2 stafflines=1 clef=none
+%%tablature 0 30 accordh1 accordn1 accordb1
+  ic ic/ic/"Am"ic3ic "G"ic >ic"Em7"ic3|ic"E"icicic2ic"Am"ic3ic3::
+w:*  *  *  *      *   7     5' 4'     |4' 4'  x 7  6' *     *
+w:7' 7' 9  8      7   *     *  *      |*  *   * *  *  7     578
+w:*  *  *  A-     *   G-    *  E-     |*  E-  * *  *  A-    *
+w:*  *  *  a-     *   g-    *  *      |*  e-  * *  *  a-    *
+V:1
+e e/d/f3f e/d/c3|defe3de2d/c/B3|
+V:2
+  ic ic/ic/"F"ic3ic "G"ic/ic/"C"ic3|ic "Dm"icic ic3ic ic2ic/ic/"E"ic3|
+w:*  *  *  *     *  *     *  6'    |*  *     *  *  *  *  *  *  7 
+w:9  9  7' 8'    8' 9     7' *     |7' 9     8' 9  7' 9  7' 8  *
+w:*  *  *  F-    *  G-    *  C-    |D- *     *  *  *  *  *  *  E-
+w:*  *  *  f-    *  g-    *  c-    |*  f-    *  *  *  *  *  *  e-
+V:1
+c d/e/c3A A >GE3|EE^GB2cA3H[EAc]3:|
+V:2
+  ic ic/ic/"F"ic3ic ic >"G"ic"C"ic3|ic "E"ic ic ic2ic "Am"ic3ic3:|
+w:*  *  *  *     *  *  5'     4'   |4' 4'    x  7  6' 7      *
+w:8  7' 9  8     7  7  *      *    |*  *     *  *  *  *      576
+w:*  *  *  F-    *  *  G      C-   |*  E-    *  *  *  A-     *
+w:*  *  *  f-    *  *  g      c    |*  e-    *  *  *  a-     *
+V:1
+M:12/8
+Q:"$1gavotte$0   "3/8=146
+|:d3c B AB2GE3|E2^GB2cA3A3:|
+V:2
+M:12/8
+|:"Dm7"ic3ic ic ic "G"ic2ic"Em7"ic3|"E7"ic2icic2ic "Am"ic3ic3:|
+w:*       *  *  *  7     6 4'      |4'     x 7  6' *      *
+w:7'      8  6' 7  *     * *       |*      * *  *  7      7
+w:D       f  *  *  G     * E       |e      * e  *  A      a
+V:1
+|:e2ef2fe2dc3|d e fe2de2cB3|
+V:2
+|:"Am"ic2ic"F"ic2ic "G"ic2ic"C"ic3|"Dm7"ic ic ic "(Dm7/9)"ic2ic ic2ic"Em7"ic3|
+w:*      * *     *  *     *  6'   |*       *  *  *           *  *  * 7
+w:9      9 8'    8' 9     7' *    |7'      9  8' 9           7' 9  8 *
+w:a      * F     *  G     *  C    |D       *  *  f           *  f  * E
+V:1
+x12:|
+V:2
+x4"^premire phrase - first phrase"x4x4:|
+S:https://www.folktunefinder.com/tunes/176448
+S:http://moinejf.free.fr/abc/tabyf1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

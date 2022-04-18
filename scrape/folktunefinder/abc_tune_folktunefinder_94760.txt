@@ -1,0 +1,30 @@
+X:164
+U: ~ = !turn!
+%%topmargin 3cm
+T:Perthshire Hunt
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+dB | ((3ABA) FA DAFA | DAFA BE PE2 | ((3ABA) FA DAFA | ABde fd{/e}dB |
+((3ABA) FA DAFA | DAFA BE PE2 | ((3ABA) FA DAFA | ABde fd ::
+de | fa{/b}ag a3 f | gfed cdeg | fa{/b}ag a2 ga | bgeg fddf |
+((3aba) ((3gab) a3 f | gfed cdeg | fg ((3agf) ga ((3bag) | ((3fga) eg fd :|]
+S:https://www.folktunefinder.com/tunes/94760
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Perthshire_Hunt_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Perthshire_Hunt_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

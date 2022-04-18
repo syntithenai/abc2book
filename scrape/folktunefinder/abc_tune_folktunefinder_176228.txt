@@ -1,0 +1,24 @@
+X: 1
+T: Miss McLeod's Reel 1
+C: Irish
+M: C|
+R: reel
+K: G
+|: "G"G2g2 edeg | B2 {Bc}BA BcBA | G2g2 edeg | "D"A2AG AcBA |
+   "G"G2g2 edeg | B2 {Bc}BA B2d2 | "C"e2ef edef | "D"gedB AcBA :|
+|: "G"GABc dBGA | B2BA BcBA | GABc dBGB | "D"A2AG AcBA |
+   "G"GABc dBGA | B2{Bc}BA B2d2 | "C"e2ef edef | "D"gedB AcBA :|
+N:Fiddlers Fakebook pg 192 except for end - abc by Peter Ostapenko 3/15/2007
+N:G Major
+S:https://www.folktunefinder.com/tunes/176228
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/MissMcLeodsReel1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

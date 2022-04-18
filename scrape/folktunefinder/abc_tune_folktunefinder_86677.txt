@@ -1,0 +1,31 @@
+X: 139
+T: Boys at Boland's Mills (h'pipe)
+N: 020236
+C: BB
+R: hornpipe
+Q: 330
+M: C|
+L: 1/8
+K: G
+(3EDC|"G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|\
+"G"DG"D"FA "G"GB"Am"Ac|"Em"Be"A"d^c "D"d2 (3EDC |
+"G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|\
+"G"DGBG "Am"EcAF|"G"G2 GF G2 :|
+(3Bcd|"Em"edBd gdBd|"G"gaba "Em7"gedg|\
+"G"bg"D"af "G"gedg|"A"ed^ce "D"d2(3EDC |
+"G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|\
+"G"DGBd "Am"ceag|"D"fdcA "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86677
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

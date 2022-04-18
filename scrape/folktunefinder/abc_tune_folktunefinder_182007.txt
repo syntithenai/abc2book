@@ -1,0 +1,20 @@
+X:1
+T:Peggy Alison
+M:4/4
+L:1/8
+K:F
+ z4 z2 zA/2-c/2| d2 F3/2 G/2A-G A3/2 c/2| d2 F3/2 G/2 AG GA/2-c/2|\
+ d2 F3/2 G/2A-G A3/2 c/2| d3/2 e/2 f3/2 d/2 cA Ac| d3/2 e/2 f z/2 d/2 c3/2 A/2 a3/2 g/2|\
+ fd c3/2 A/2 AG G z/2 c/2| d3/2 e/2 f z/2 d/2 c3/2 A/2 a3/2 g/2| f3/2 e/2d/2-e/2f/2-d/2 cA A z/2 c/2|\
+ d3/2 e/2 f z/2 d/2 c3/2 A/2 a3/2 g/2| f3/2 d/2d/2 c/2B/2 A/2 AG G3/2 A/2|\
+ F3/2 D/2 C3/2 D/2 F3/2 G/2 A z/2 c/2| d3/2 e/2g/2-f/2e/2-d/2 cA A z|\
+S:https://www.folktunefinder.com/tunes/182007
+S:http://back.numachi.com:8000/dtrad/abc/PEGYALSN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

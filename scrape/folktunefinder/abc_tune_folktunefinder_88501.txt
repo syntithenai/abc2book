@@ -1,0 +1,26 @@
+X:1720
+T:Staffordshire Militia March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001280.html
+%%ID:00001280
+K:D
+d3d cdec | d2 d>d d4 | f3f efge | f2f>f f4 | \
+d3f gfed | cAce a4 | efed c2TB2 | A2A>A A4 ::
+a3g f^dfa | g2bg e3f | g3f eceg | f2af d3A | \
+d>de>e f3e | f>fg>g a3g | fg ab af e2 | d2d>d d4 :|
+%%newpage
+%page 138
+S:https://www.folktunefinder.com/tunes/88501
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

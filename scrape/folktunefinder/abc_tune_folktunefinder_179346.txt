@@ -1,0 +1,29 @@
+X:1
+T:Objet dont les charmes si doux
+C:Anthoyne Boesset
+L:1/4
+M:3
+K:Am 
+%%indent 1.5cm
+%%tabrhstyle modern
+%%wordsfont Times-Italic 10
+%%
+V:F clef=treble name=Voice staves=2
+V:L clef=frenchtab name=Lute
+%1
+[V:F]z2 z2 A2 A3 G A2 F2 D2 d2 ^c6 d2 e2 f2 =c3 _B A2 (G F) 
+w:Ob-jet dont les char-mes si doux M'ont en-chais-n\'es sous vostre em- 
+[V:L][,bdca6] [,b,,a3] .,d1 [,a,c,e2] ,,,,a :[,,dc1] ,,,,,d [,,da,b2] [,acc,a6]\
+    [,b,,a2] .,d a [,db,c4] [,bbcd2] [,ba,a]
+%2
+[V:F]G4 F4 A2 A3 G A2 F2 D2 d2 ^c6 d2 e2 f2
+S:https://www.folktunefinder.com/tunes/179346
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Boesset/objet.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

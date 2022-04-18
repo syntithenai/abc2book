@@ -1,0 +1,23 @@
+X: 94
+T: Od Yishama
+O: Israel
+M: 2/4
+L: 1/8
+Q: 1/4=126
+K: Dm
+%%MIDI gchord fzcz
+|:"Dm"D2D2 |A,D2D      |"Bb"F2F2  |"Dm"DF2F|\
+  "Gm" G2G2|DG2B       |[1"C" AGFG|\
+  "Am"A3z  :|[2"Gm"AGFE|"Dm"D3z   |
+|:"F"ABcA  |dc2c       |ABcA      |\
+  "Gm"G2G2 |GABG       |"Bb"cB2B  |\
+  [1 AGFG  |A3z        :|[2 AGFE  |D4      |
+S:https://www.folktunefinder.com/tunes/179513
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Israel/Od_Yishama.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

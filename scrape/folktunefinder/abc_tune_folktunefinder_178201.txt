@@ -1,0 +1,31 @@
+X: 1
+T: Nameless Lassie, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+&quot;First fiddle&quot; D2|(G3F) (E2D2)|(E2F2) (G3A)|(B3G) (c3B)|(B3A) A2 D2|
+(G3F) (E2D2)|E2 F2 G2 (dc)|(B3c) (A3G)|G6 G2|
+d3 G G2 G2|(e3d) (c2B2)|c2 B2 A2 G2|F2 A2 d2 D2|
+(G3F) (E2D2)|(E2F2) (G3A)|(B3G) (c3B)|B4 (A2G2)|
+d3 G G2 G2|(e3d) (c3B)|(A3E) (F3D)|G6 z2 |
+&quot;Second fiddle&quot; D2|(B3A) (G2D2)|(G2A2) (B3c)|(d3B) (A3G)|E4 D4|
+(B3A) (G2D2)|G2 A2 B2 (Bc)|(d3G) (d3c)|B6 z2|
+B3 B B2 B2|(c3B) (A2^G2)|A2 G2 F2 E2|D2 F2 A2 D2|
+(B3A) (G2D2)|(G2A2) (B3c)|(d3B) (A3G)|E4 (D2 D2)|
+B3 B B2 B2|(c3B) (A3G)|(c3A) (d3F)|E4 D2 z2 |
+&quot;Third fiddle&quot; D2|D4 (C2B,2)|C4 D4|G4 E4|G4 F4|
+D4 (C2B,2)|C2 ^D2 E2 z2|G4 F3 D|D6 z2|
+G3 F E2 D2|G4 (E2 D2)|E4 D4|A,2 D2 F2 D2|
+D4 C2 B,2|C4 D4|G4 E4|G4 F4|
+G3 D D4|C3 D E4|D4 C4|C2 A,2 B,2 |
+S:https://www.folktunefinder.com/tunes/178201
+S:http://www.thesession.org/tunes/display/3875
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

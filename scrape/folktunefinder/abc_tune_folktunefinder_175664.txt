@@ -1,0 +1,22 @@
+X:1
+T:Mieke Stout
+C:Trad.
+O:Vlaanderen
+Z:Bart Vanhaverbeke 
+L:1/8
+M:2/4
+K:C
+"C"[cE]>[cE] [BE]>[BE] | [AE]>[AE] [GE]>[GE] | "Dmin"[AFD]>[AFD] "G7"[BGD]>[BGD] | "C"[c2G2E2] z2 |]
+"C"[cE]>[cE] [BE]>[BE] | [AE]>[AE] [GE]>[GE] | "G7"[FD]>[FD] [EB,][DB,] | "C"[EC][AE] [G2E2] |"C"[cE]>[cE] [BE]>[BE] | [AE]>[AE] [GE]>[GE] | "Dmin"[AFD]>[AFD] "G7"[BGD]>[BGD] | "C"[c2G2E2] z E/F/ |]
+|:"C"[GE]>[GE] "F"[AF]>[AF] |"C"[G2E2] z E/F/ |"C"[GE]>[GE] "F"[AF]>[AF] |"C"[G2E2] z [FD] | [EC]>][EC] [EC][EC] |"Dmin"[F2D2] [FD]>[FD] | "G7"[GB,]>[GB,] [FB,]>[DB,] |1 "C"C2 z E/F/ :|2"C"C2 z2 |]
+K:F
+"F"FA cf | f/e/d/c/ "C7"B2 | GA Be | e/d/c/B/ "F"A2 | "F"FA cf | f/e/d/c/ "C7"B2 | eg d>e | "F"fff z |]
+S:https://www.folktunefinder.com/tunes/175664
+S:http://user.online.be/~bvanhaverbeke/abc/Mieke%20Stout.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 1
+T: My Home
+M: 3/4
+L: 1/8
+R: waltz
+K: Amaj
+ed|&quot;A&quot;c3 B c2|A2 c2 e2|&quot;D&quot;a3 g f2|&quot;A&quot;e4 d2|
+c3 B c2|A2 c2 e2|&quot;Bm&quot;d3 c d2|&quot;E&quot;B4 ed|&quot;A&quot;c3 B c2|A2 c2 e2|
+&quot;D&quot;a3 g f2|&quot;A&quot;e4 d2|c A3 c2|&quot;G&quot;B =G3 B2|&quot;A&quot;A6|A4:|
+|:e2|&quot;A&quot;A3 B c2|c3 B c2|e4 c2|c4 e2|&quot;E&quot;d3 c d2|B3 c d2|
+&quot;A&quot;e3 c A2|A3 c e2|&quot;D&quot;f3 d f2|a3 g f2|&quot;A&quot;e3 d c2|a3 e d2|
+c A3 c2|&quot;G&quot;B =G3 B2|&quot;A&quot;A6|A4:|
+S:https://www.folktunefinder.com/tunes/177965
+S:http://www.thesession.org/tunes/display/3585
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

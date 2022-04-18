@@ -1,0 +1,34 @@
+X:1
+T:Nuedeli
+C:traditionell
+R:Zwiefach
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort ganz in C, einstimmig mit harmonie-buchstaben, Seite 216
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2 3/4
+L:1/8
+K:C
+(3GAB |\
+c2 G2 | d2 G2 | Ge e2 d2 | c2 BA G2 |
+c2 G2 | d2 G2 | Ge ec dB | c2 z2 cd |
+e2 c2 | f2 d2 | g3 a gf | d2 dB G2 |
+e2 c2 | f2 d2 | g3 a ge | c4|]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179244
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/nuedeli.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

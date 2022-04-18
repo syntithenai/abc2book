@@ -1,0 +1,31 @@
+X:047
+U: ~ = !turn!
+%%topmargin 3cm
+T:Delahunty's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:D
+FG | ((3ABc) AF DEFG | AGAB J=c2 ((3AB^c) | (3{/e}(dcd) de fdAF | G2 {/A}G2 G2 FG |
+((3ABc) AF DEFG | AGAB J=c2 ((3AB^c) | (3{/e}(dcd) de fdAG | {/E}F2 D2 D2 ::
+d2 | Pf2 fd edAF | G2 {/a}gf g2 fg | (3{/b}a)ga) ab agec | PdcAF G2 FG |
+((3ABc) AF DEFG "(A"| AGAB J=c2 ((3AB^c) | (3{/e}(dcd) de fdAG "A)"| {/E}F2 D2 D2 :|]
+xxxx "(A"| AGAB =cBA^c | d2 d2 PfdAG "A)"| xxxx xxxx [|] xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94645
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Delahuntys_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Delahuntys_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Delahuntys_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Delahuntys_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

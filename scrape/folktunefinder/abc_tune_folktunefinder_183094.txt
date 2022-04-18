@@ -1,0 +1,27 @@
+X:1
+T:Polka Piquee
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+g |\
+fg Be | d/e/d/c/ Bg | fg Be | d3g |
+fg Be | d/e/d/c/ Bg | fg Be | d3 ||
+|: B/c/ |\
+d/e/d/c/ Bd | c/d/c/B/ AB | cA Bc | B/c/B/A/ Ge |
+d/e/d/c/ Bd | c/d/c/B/ AB | cd ef | g3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183094
+S:http://simonwascher.info/TradArchiv_polka/polka_piquee.f2g2B2e2dedcB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

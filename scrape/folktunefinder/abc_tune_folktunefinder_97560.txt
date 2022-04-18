@@ -1,0 +1,33 @@
+X:11
+T: Alamuhan
+N: C1154
+O: Asien, Ostasien, Xinjiang
+N: Wegen besserer Textverteilung in ESTAFF wurde die erste (wiederholte)
+N: Phrase noch einmal getrennt. Dasselbe gilt fr die letzte und vor-
+N: letzte. In die ersten beiden Zeilen geh\^iren nun Wiederholungszeichen.
+N: Die Tonart wurde wegen der Textverteilung hochgesetzt. Hat jemand den
+N: original uigurischen Text
+R: Qingge
+M: 4/4
+L: 1/16
+K: F
+CFFFEFG2A6f2
+edcBAFG2F4z4
+z2ccc3dfff2z4
+z2fff2d2ddc2z4
+z2fff2f2ded2c4
+z2ccA2A2GGA2z4
+CFFFc2B2A6f2
+edcBAFG2F4z4
+ccccccB2A6f2
+edagfde2f4z4
+S:https://www.folktunefinder.com/tunes/97560
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Qingge
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

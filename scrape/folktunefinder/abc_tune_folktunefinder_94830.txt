@@ -1,0 +1,39 @@
+X:104
+T:Tom Fowlers Hornpipe
+R:Hornpipe
+M:4/4
+L:1/8
+%%ID:00000607
+O:England
+A:Lancashire
+Z:Richard Robinson 
+B:Winder collection
+F: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000607.abc
+K:G
+Bc|\
+dcBA Ggfg | e4 d4 | \
+cdcB ABAG | F4 E4 | \
+DEFG A2B2 | c2de d2c2 | 
+BAGA D2F2 | G6::\
+d2|\
+g2bg e2ag | f4 d2ef | 
+g3f edcB | ABAG F3E |\
+DEFG A2B2 | c2de d2c2 | \
+BAGA D2F2 | G6 :|
+S:https://www.folktunefinder.com/tunes/94830
+S:http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000607.abc
+S:http://yscolan.blogspot.com/search/
+S:http://yscolan.blogspot.com/search/label/
+S:http://yscolan.blogspot.com/2007/03/cumbria-cambria.html
+S:http://yscolan.blogspot.com/2007_03_01_archive.html
+% Rhythm Hornpipe
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

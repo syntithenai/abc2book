@@ -1,0 +1,24 @@
+X: 1
+T: The Reel of Bogey
+M: 4/4
+L: 1/8
+R: reel
+K: Edor
+S: Brian Conway
+dc|:BE ~E2 d2 cd|BFAF DEFA|BE ~E2 d2 cd|BFAF EFGA|
+BE ~E2 d2 cd|BFAF DEFA|~B2 BA Bfec|1 dBAF EFGA:|2dBAF
+EGFE||
+D2 FAdc dB|AF ~F2 BFAF|DF (3ABc dfec|dBAF EGFE|
+D2 FAdf eg|fddc defa|afdB ~B2 dB|dBAF EGFE:|
+S:https://www.folktunefinder.com/tunes/185125
+S:http://www.thesession.org/tunes/display/3307
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

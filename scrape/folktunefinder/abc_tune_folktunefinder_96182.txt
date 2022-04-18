@@ -1,0 +1,33 @@
+X: 31
+T:Morris Minuet,aka. TBe.031
+M:3/4
+L:1/8
+Q:200
+C:untitled in ms
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+N:= and ' are as shown in MS.  E represents something like a backwards
+N:'3' skewered on the leger line.Sounds very like a Morris tune that I
+N:haven't yet identified, hence the new title..CGP
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+"see notes"d4 A2 | B2 g2 (fg) | "="e4 d2 |\
+ edcB A2 | d4 A2 | B2g2f2 | "'"e2d2 "="c2 | d6 ||!
+"="f4 g2 | a2e2a2 | "="f4g2 | "E"a2 e2 a2 |\ 
+"="f4 g2 |  "E"a2 (gf)(ed)| (cd) ("="d3 c/d/) | e6 ||
+S:https://www.folktunefinder.com/tunes/96182
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

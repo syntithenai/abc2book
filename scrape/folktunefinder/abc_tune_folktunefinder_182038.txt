@@ -1,0 +1,34 @@
+X:1
+T:Peisteiner
+C:traditionell
+R:polka
+A:Dambach bei Steyr
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"(1.) Spielheft fuer Okarina", Zusammenstellung: Volker Derschmidt, Herausgeber: Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+z |\
+dd/d/ g2 | B/B/B dd | dc c/B/A | ed d/c/B |
+dd/d/ g2 | B/B/B dd | dc d/e/f | gg g :|
+|: z |\
+AB cd | ed d/c/B | dc c/B/A | cB B/A/G |
+AB cd | ed d/c/B | dc d/e/f | gg g :|
+|: g |\
+e3g | c3e | d/e/=f d/e/=f | ag gg |
+e3g | c3e | d/e/=f g/a/b | c'c' c' :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182038
+S:http://simonwascher.info/TradArchiv_polka/peisteiner.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

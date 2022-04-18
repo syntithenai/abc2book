@@ -1,0 +1,18 @@
+X:1
+T:O'Dooley's First Five O'Clock Tea
+M:6/8
+L:1/8
+K:D
+ z4 z A,| DDD EEE| FFF B,2 E/2E/2| DDD CB,C| D3- D2 A,| DDD EEE| FFF B,2 E|\
+ EEE EF^G| A3- A2 A| AAA AAA| AFE D2 D| BBB BGF| E3- E2 A,/2A,/2| DDD EEE|\
+ FFF B,2 E/2E/2| DDD CB,C| D3 A,B,C| D3 A2 F| E3 D2 A,| B,CD CDE| D6|\
+ G3 GAB| A3 F2 E| DCD B,CD| E3- E2 A,| D3 A2 F| E3 D2 A,| B,CD CDE|\
+ D3- DD C| B,3 C3| DEF EFG| AFD EDC| D3- D2 z|
+S:https://www.folktunefinder.com/tunes/179501
+S:http://back.numachi.com:8000/dtrad/abc/DOOLYTEA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

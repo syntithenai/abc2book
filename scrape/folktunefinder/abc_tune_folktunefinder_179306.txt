@@ -1,0 +1,32 @@
+X: 1
+T: Nyth Y Gwcw
+M: 4/4
+L: 1/8
+R: barndance
+K: Ddor
+|: E | 
+FEFE D2 d2 | A2 A2 G4 | FEFE D2 AB | c2 c2 E4 |
+FEFE D2 d2 | A2 _BA G2 AG | FEFE DEFG | A2 A2 d3 :|
+|: e | 
+fefe d2 d2 | cBA^G A4 | defg a2 a/_b/a | g2 d2 d3 e |
+fed^c d3 d | cBA^G A3 =G | FEFE DEFG |1 A2 A2 d3 :|
+2 A2 A2 d2 ||
+K: Edor
+|: F2 | 
+GFGF E2 e2 | B2 B2 B2 A2 | GFGF E2 Bc | d2 d2 d2 F2 | 
+G2 GF E2 ed | B=c/B/ Bc/B/ A2 BA | GFGF EFGA | B2 B2 e2 :|
+|: ^d2 | 
+efgf e2 ec | d=cB^A B2 B/^c/d | efga b2 b2 | a2 e2 e3 f |
+gfe^d e2 fe | d>=cB^A B2 A2 | GFE^D E>FGA | B2 B2 e2 :|
+S:https://www.folktunefinder.com/tunes/179306
+S:http://www.thesession.org/tunes/display/6101
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

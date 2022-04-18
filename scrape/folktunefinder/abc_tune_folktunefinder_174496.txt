@@ -1,0 +1,17 @@
+X:1
+T:Martinmas Time
+M:4/4
+L:1/4
+K:C
+ C| E G A c| G/2G/2 E D C/2D/2| E G A c| G- F E3/2 G/2| G3/2 G/2 A3/2 A/2|\
+ G E D E| C E/2E/2 D E| A, G,2 G,/2A,/2| C C3/4 G,/4 C3/4 D/4 E/2C/2|\
+ D3/4 C/4 D3/4 E/4 D G,/2A,/2| C C3/4 G,/4 C3/4 D/4 E/2C/2| A, G,2 z|\
+S:https://www.folktunefinder.com/tunes/174496
+S:http://back.numachi.com:8000/dtrad/abc/MARTINMA.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

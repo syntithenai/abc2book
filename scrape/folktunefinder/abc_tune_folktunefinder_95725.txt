@@ -1,0 +1,27 @@
+X:470
+T:Harlequin Amulet
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e30.html
+%%ID:00000e30
+K:G
+g/f/ | \
+edc BAG | B>cB B2g/f/ | edc BAG | A>BA A2g/f/ | \
+edc BAG | B>cB B2c    | def gdB | A>BA A2 ::
+d | \
+{Bc}d2B {Bc}d2B | d2B d2g | {cd}e2c {cd}e2c | e2c e2f | \
+g2a {ga}b2a | g2e edB | def g2B | A>BA A2 ::
+S:https://www.folktunefinder.com/tunes/95725
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

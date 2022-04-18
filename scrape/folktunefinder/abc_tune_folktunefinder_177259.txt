@@ -1,0 +1,28 @@
+X: 1
+T: the Mouse in the Cupboard
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+G/A/ \
+| "G"BcB "C"AGE | "G"DGG "D7"FGA | "G"BAB  "C"cBc | "D7"def "G"gdc \
+| "G"BcB "C"AGE | "G"DGG "D7"FGA | "G"Bcd "D7"cAF |     AGF "G"G2 :|
+|: A \
+| "G"BAB "C"cBc | "D7"def "G"g2d | "D7"def  "G"gfg | "A(m)"a2g "D7"fdd \
+| "G"dgg b2g | "A(m)"a2g "D7"fdc  | "G"Bcd "D7"cAF |       AGF  "G"G2 :|
+S:https://www.folktunefinder.com/tunes/177259
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/jig/MouseInTheCupboard.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MouseInTheCupboard.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/jig/MouseInTheCupboard.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/MouseInTheCupboard.abc
+S:http://trillian.mit.edu/~jc/music/abc/StPatsDay/jig/MouseInTheCupboard.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

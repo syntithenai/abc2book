@@ -1,0 +1,27 @@
+X:280
+T:Murphy Delaney
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+N:Between bars 3 and 4 there are 3 extra notes, "|fag|".
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005bd.html
+%%ID:000005bd
+K:C
+c>dc e2d | cdc {ef}g2e | c>dc efg | abc' d'bg| \
+c>dc e2d | c>dc gab    | c'ba gfe | d>ed dBG ::
+efg gag | gag gfe | fga aba | aba agf | \
+efg gag | gag gab | c'ba gfe | d>ed dBG ::
+S:https://www.folktunefinder.com/tunes/95687
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

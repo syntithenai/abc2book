@@ -1,0 +1,22 @@
+X: 1
+T: Little Pickle Jig
+C: Joseph Lowe
+B: Lowe's 4th Collection
+R: jig
+M: 6/8
+L: 1/8
+K: A
+E |: "A"A3 cBA | E>AB cBA | "Bm"d>cB fdB | "E7"b>ge efg |
+  |  "A"a3 cBA | E>AB cBA | "D"d>cd "E7"efg | "A"aec A2 :|
+B |: "A"A2a aga | Ace edc | "G"B2=g gfg | B=GB dcB |
+  |  "A"A2a aga | Ace edc | "D"d>cd "E7"efg | "A"aec A2 :|
+S:https://www.folktunefinder.com/tunes/172487
+S:http://trillian.mit.edu/~jc/music/book/500/LittlePickleJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

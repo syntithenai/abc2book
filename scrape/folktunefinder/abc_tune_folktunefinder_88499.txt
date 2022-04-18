@@ -1,0 +1,29 @@
+X:1710
+T:Waltz Rome ( Home) Mozart
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001278.html
+%%ID:00001278
+K:G
+D | B>AG | {A}GFG | ^GAA | A2D | c>BA ABc | {^c}d2B | G2 ::
+[L:1/32] \
+AG(FE) | \
+D8 c(BAG) | F8 A(GF)E | D8 c(BA)G | F4F4D4 | \
+{A}GFGABc | d8 B4 | A4 e2d2 F2A2 | G8 ||
+[L:1/8] "_trio" !pp! {c}G | cBcdef | g2e | d2{f} "_trails off" yyyyyyyyyyyyyyyy
+%%newpage
+%page 137
+S:https://www.folktunefinder.com/tunes/88499
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

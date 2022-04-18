@@ -1,0 +1,23 @@
+X: 43
+T:Donkey reel
+R:Reel
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=200
+K:D
+=f2^f2 c2d2|ABAG FED2|E2EF GECE|DEFG A4|
+=f2^f2 c2d2|ABAG FED2|E2EF GECE|[1 D2F2 D4:|[2 D2F2 D2
+|:cd|efed cAcd|efed cBA2|B2Bc d2^G2|ABcd e2cd|
+efec efec|efed cBA2|B2Bc dB^GB|A2c2 A2:|
+S:https://www.folktunefinder.com/tunes/90697
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

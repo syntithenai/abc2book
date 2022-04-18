@@ -1,0 +1,30 @@
+X:670
+T:Planxty Sudley
+C:O'Carolan
+B:O'Neill's 670
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Animated"
+M:C
+L:1/8
+K:D
+D2 \
+| D3D DEFG | A4 A2 zc | d3c d2e2 | f4 A2A2 |
+| f3g a2f2 | e3f g2e2 | f2d>d e2c2 | d4 d2zD |
+| D3D DEFG | A2 A4 c>c | d3c d2e2 | f3g Ha2A2 |
+| A2F2 G2(FG) | A2F2 G2(FG) | AF3 AGFE | D4 D2||
+|| z2 \
+| f2e>e f2g2 | a4 f2zf | e3d (cde).f | g4 e2z2 |
+| f2f>g a2f2 | e3f g2e2 | f2d2 e2c2 |e(.d3 .d2)z2 |
+| D3D (DE)..F.G | A4 A2cc | d3c d2e2 | f4 A2A2 |
+| f3g a2f2 | e3f g2ee | f2dd e2c2 | e2 d4 |]
+S:https://www.folktunefinder.com/tunes/182830
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0670_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

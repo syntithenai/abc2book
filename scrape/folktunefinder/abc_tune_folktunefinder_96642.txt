@@ -1,0 +1,29 @@
+X:110
+T:Whistling Rufus
+M:4/4
+L:1/8
+R:reel
+S:Transcribed/Arranged by Doug Mast.
+K:C
+ED |"C" CB,CD EGAB | cBcd c2 G2 | C2 C E2 D C2 | G6 ED |
+| "C" CB,CD EGAB | cBcd c2 G2 | "D7" D2 D D2 C A,2 | "G7" D6 ED |
+| "C" CB,CD EGAB | cBcd c2 G2 | C2 C E2 D C2 | G6 AB |
+| "F" cBcd cBAG | "C" EFGA G2 E2 | "G7" D2 D E2 CD | "C" C6 GA |
+| "C" G2 E2 D2 C2 | G6 GA | G2 E2 D2 G,2 | "G" B,6 B,C |
+| "G" B,2 A,2 D2 F2 | "F" A6 AB | A2 G2 F2 C2 | "C" E6 GA |
+| "C" G2 E2 D2 C2 | G6 CB, | C2 C D3 E2 | "F" F8 |
+| "F" FGFC A,B,CD | "C" EGEC G,2 G,2 | "G7" A,2 B,2 A, G,3 | "C" C6 ||
+% Jigs, Slides, Slipjigs and similar
+S:https://www.folktunefinder.com/tunes/96642
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

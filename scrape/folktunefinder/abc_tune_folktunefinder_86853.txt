@@ -1,0 +1,28 @@
+X: 201
+T: Trolling the Rip (reel)
+N: 202040
+C: BB 8/05
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=180
+K: G
+A | "G"BDGB "D"ADFA | "G"GFGD "Em7"EDB,D | "G"GB ~B2 "C"cGEG |\ 
+"D"ADFA d3 A |
+"G"BDGB "D"ADFA | "G"GFGD "Am7"EGAc | "G"Bd ~d2 "C"cGEG | "D"ADFA "G"G3 :|
+A | "G"d2 ^cd "Em"eBdB | "D7"ADFA cAFA | "G"d2 ^cd "Am"eA=ce |\
+"G"dBGB "D"A2 Bc |
+"G"d2 ^cd "Em"eBdB | "D7"ADFA cAFA | "G"GBdg "D"fdcA|"G"BG "D"AF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86853
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

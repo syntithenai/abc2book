@@ -1,0 +1,21 @@
+X:7
+T:I Was One Day at Whapping
+M:C
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D2|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|D2GB c2AD|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|E2FA G2::
+D2|c2Ac B2GB|c2AG FDz2|c2BA Bdef|gedc d3D|G2BG d2Bd|g2eg d2BG|A2Dc BdBG|E2FA G2:|
+S:https://www.folktunefinder.com/tunes/89994
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

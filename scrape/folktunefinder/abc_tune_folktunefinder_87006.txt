@@ -1,0 +1,39 @@
+X:605
+T: Paidraigin Rua (with piano acc.)
+T: Pat the Redhead
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A|"Bm"BAFA Bcdf|"D"a2 fd "Bm"BFFA|"G"GB (3BAB gfed|"Bm"FB (3BAB "F#m"fecA |
+[V:2] z|B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]B,,2[F2B2D2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+B,,2[F2B2D2]F,,2[A2C2E2]|
+%
+[V:1] "Bm"BAFA Bcdf|"D"af"A"ge "Bm"dBBA|"Bm"FB (3BAB "G"dBAG|"D"FD"A"EC "D"D3 :|
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2C2E2]B,,2[F2B2D2]|\
+B,,2[F2B2D2]G,,2[G2B2D2]|[D,2F2A,2][A,2C,2E2][D,3F3A,3]:|
+%
+[V:1] A|"G"dB (3BAB "D"af (3fef|"Bm"bfaf "A"egfe|"G"dB (3BAB "D"af (3fef|\
+"A"eA (3ABA "Bm"B2 Bc |
+[V:2] z|G,,2[G2B2D2]D,2[A2D2F2]|B,,2[F2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+A,,2[A2C2E2]B,,2[F2B2D2]|
+%
+[V:1] "G"dB (3BAB "D"af (3fef|"Bm"bfaf "Em"efde|"Bm"fbaf "Em7"edBd|"A"cdec "D"d3 :|
+[V:2] G,,2[G2B2D2]D,2[A2D2F2]|B,,2[F2B2D2]E,2[E2B2G2]|B,,2[F2A2D2]E,2[D2B2G2]|\
+A,,2[A2C2E2][D,3F3A,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87006
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

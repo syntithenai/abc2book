@@ -1,0 +1,29 @@
+X: 202065
+T: Three Wishes
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: Edor
+f | gag edB | AGA BGE | EDE EGA | BAB def |
+gag edB | AGA BGE | EDE EGA | Bee e2 :|
+f | g2g bag | afd edB | Bee ged | Bee e2f|
+[1 gfg bag | afd efg | edB AGA | BGE E2 :|
+[2 gab fga | efg Bcd | edB AGA | BGE E2 ||
+f | g2g bag | afd edB | Bee ged | Bee e2f|
+gab afd | edB GAB | edB AGA | BGE E2 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88015
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

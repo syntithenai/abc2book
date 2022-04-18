@@ -1,0 +1,26 @@
+X:182
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sean McGuire Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:EDor
+e3 f Jg2 fe | dB (3.B.B.B dBAd | Beea bafe | dBAF BE E2 |
+e3 f JPg2 fe | dB (3.B.B.B dBAd | Beef Jg2 fe | dBAF {/G}FE E2 ||
+fd (3.d.d.d BdAd | fd ~d2 cEAc | fd (3.d.d.d BdAd | cEAc EAce |
+fd (3.d.d.d BdAd | fded cdea | baba fafe | dBAF {/G}FE E2 |]
+S:https://www.folktunefinder.com/tunes/94778
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sean_McGuire_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sean_McGuire_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

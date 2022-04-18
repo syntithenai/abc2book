@@ -1,0 +1,28 @@
+X:0314
+T:"The Morning Sun"  (damaged)   (song)    0314
+C:after Sg't.  J, O'Neill
+C:with spirit and feeling
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:NINE bars first section,  ELEVEN bars second section
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+Q:1/4=130
+M:2/4
+L:1/16
+K:C
+"_VB"(D3/2E/2)|G4(GABc)|d2G2 B4|(gfge dBAG)|(A2E2) ({G}F2D2)|
+G4(GABc)|d2G2 B4|(gfge dBAG)|A3G B3G|({B}AGAB) G2||
+d2|(g2fe) .a2.g2|f4 (TRe4|d6)(g3/2e/2)|
+d4B2A|(B {cB}ABd) (edef)|Hg6(D3/2E/2)|G4(GABc)|
+(dBAG) B4|(gfge dBAG)|A3G B3G|({B}AGAB) G2 |]
+S:https://www.folktunefinder.com/tunes/176932
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0314-MorningSun.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

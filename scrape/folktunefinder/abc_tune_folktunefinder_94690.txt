@@ -1,0 +1,30 @@
+X:094
+U: ~ = !turn!
+%%topmargin 3cm
+T:Jacket Green
+T:(Song)
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Song
+L:1/8
+M:C
+K:D
+d2 dc B2 AF | E2 ED B,C DE | F2 F2 E2 E2 | D6 A2 |
+A3 F A2 Bc | d3 c B3 A | Bc BA FE FA | B6 A2 |
+A3 F A2 Bc | d3 c B3 A | Bc BA FE FA | B6 cc |
+d3 c B2 AF | E2 ED B,C DE | F2 FF E (EE2) | D8 |]
+S:https://www.folktunefinder.com/tunes/94690
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Jacket_Green_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Jacket_Green_1.abc
+% Rhythm Song
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

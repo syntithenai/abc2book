@@ -1,0 +1,33 @@
+X:1
+T:None So Pretty
+T:(Seaside Shuffle)
+M:6/8
+L:1/8
+C:
+S:Bacon (MDT)
+N:
+A:Field Town
+O:English
+R:Jig
+P:A.(A2B3)2.(A2C3)2.A
+K:G
+Q:C3=76
+"A"|: D | G2 d BGB | c2 A AFD | BAG EFG | DEF  G2 :|
+|: G |
+P:B
+"B"| c2 d ecA | B2 c dBG | Bcd eee | ABc  d2 D |
+G2 d BGB | c2 A AFD | BAG EFG | DEF  G2 :|
+|: G |
+P:C
+"C"| c2 d ecA | B2 c dBG | Bcd eee | ABc  d2  D |
+G3   d3  | B G2 B3  | c3  A3  | A F2 D3 | BAG  EFG | DEF  G2  :|
+S:https://www.folktunefinder.com/tunes/179017
+S:http://www.mit.edu/~jcb/Red_Herring/dances/none-so-pretty-tune.shtml
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:105
+T: Ballygar Hermitage
+S: Joe & Willie Kelly
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Gdor
+A | BAG FDC | DGG DGG | BAG ABc | d^cd gd=c |
+BAG FDC | DGG GAB | AGF DCA,- | A,G,G, G,2 :|
+A | BGd BGd | BAB dcB | AFc fcB | AFA cBA |
+BGd BGd|BAB dcB|1 AFA cBc|AG^F G2:|2 AGF DCA,-|\
+A,G,G, G,2 ||
+K: G
+B | dgg dgg | gfg bag | c=ff c=ff | cBc ag=f |
+dgg dgg | gfg bag | afd cAF | AGF G2 :|
+S:https://www.folktunefinder.com/tunes/93520
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

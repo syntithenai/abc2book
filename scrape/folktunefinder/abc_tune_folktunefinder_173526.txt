@@ -1,0 +1,27 @@
+X:1
+T:Madame Del Caro's -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:G
+(v.G>.B)(u.d>.g) (.f>.e)(.d>"4".e)|"Segue"d>cB>A B>cd2|\
+G>Bd>g f>ed>c|B>AG>F G2G2|
+G>Bd>g f>ed>"4"e|d>cB>A B>cd2|\
+G>Bd>g f>ed>c|B>AG>F G2G2|]
+vG>Bd>g (e/f/g) (e/f/g)|D>FA>c (B/c/d) (B/c/d)|\
+G>Bd>g (e/f/g) (e/f/g)|B>AG>F G2G2|
+G>Bd>g (e/f/g) (e/f/g)|D>FA>c (B/c/d) (B/c/d)|\
+G>Bd>g (e/f/g) (e/f/g)|B>AG>F G2G2|]
+S:https://www.folktunefinder.com/tunes/173526
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/MadameDelCarosHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/MadameDelCarosHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

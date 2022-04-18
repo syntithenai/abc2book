@@ -1,0 +1,28 @@
+X:375
+T:Padeen O Rafardie
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:Irish
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001db.html
+%%ID:000001db
+K:G
+(G/A/B).D D>ED| DcB AGA| \
+(G/A/B).D D>ED| GAG GED| \
+(G/A/B).D DED| DcB cde|
+dBG ABc| BcA GED::\
+GBd GBd| GBd ecA| \
+GBd efg| GAG GED|
+GBd GBd| GBd def| \
+gfg dBA| GAG GED:|
+S:https://www.folktunefinder.com/tunes/95381
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

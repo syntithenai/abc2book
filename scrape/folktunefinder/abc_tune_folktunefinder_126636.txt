@@ -1,0 +1,25 @@
+X:8257
+T:Jonk Oppi Bergen
+R:Schottische
+R:Polka
+O:Finland
+O:Sweden
+M:4/4
+K:G
+B>c dd b/b/b gg|B>c dd g/g/g ff|\
+A>B cc ee/c/ dd|ee/c/ dd bb g2::
+bg g/a/g fe e/^d/e|c'f f/e/f/g/ ag g/f/g|\
+bg g/a/g fe e/^d/e|c'f f/e/f/g/ ag g2::
+f/g/a f/g/a fe e>f|gc df/e/ db f2|\
+f/g/a f/g/a fe e>f|gc ef/e/ df d2:|
+S:https://www.folktunefinder.com/tunes/126636
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Polka
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

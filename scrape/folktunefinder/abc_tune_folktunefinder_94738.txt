@@ -1,0 +1,30 @@
+X:142
+U: ~ = !turn!
+%%topmargin 3cm
+T:Na Leanbhai I mBeithil
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Waltz
+L:1/8
+M:3/4
+K:D
+D2 | F3 E D2 | E3 F G2 | A3 G E2 | E2 D3 D | (D6 | D4) D2 |
+F3 G A2 | A3 B c2 | d3 c B2 | B c3 PB2 | (A6 | A4) A2 |
+B3 c d2 | e2 d2 BA | G3 A G2 | F3 G F2 | E6 |
+A4 G2 | F3 E D2 | E3 F G2 | A2 G3 E | E2 D2 D2 | (D6 | D4) |]
+S:https://www.folktunefinder.com/tunes/94738
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Na_Leanbhai_I_mBeithil_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Na_Leanbhai_I_mBeithil_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T: Legnala Dana
+M: 7/8
+L: 1/8
+K: D
+[| "D"d2A de fg | "G"g3- gg fg | "A7"a2b ag ~gf/g/ | "D"a/g/f2- f4 \
+ | "D"d2A "D7"de fg | "Em"e3- e2 ef | "F#7"d2e dc cB | "Bm"B3 "A7"A4 |]
+|: "D"[D3F] [DF][EG] [FA][GB] | [F3A]- [F2A] [FA][GB] \
+|  "A7"[A2c][Ac] [Ac][GB] [GB][FA] | "D"[FA][EG][FA] [EG][DF] [D2F] \
+|  "D"[D3F] "D7"[DF][EG] [FA][GB] | "Em"[F3A]- [F2A] [EG][FA] \
+| "A7(Gm)"[E2G][DF] [D4F] | "D"[D7F] :|
+S:https://www.folktunefinder.com/tunes/171784
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/le/Legnala_Dana_2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/le/Legnala_Dana_5.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:Larid : C
+E:12
+Z:Roger Ngaret (94-95)
+R:laride
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=120
+c2A2 "G"B4 BcB2 "Am"A4 | B2c2 "G"ded2 c2d2 "Am"e4 |\
+c2A2 "G"B4 BcB2 "Am"A4 | B2c2 "G"ded2 c2d2 "Am"dfe2 ::\
+A2e2 "G"d2c2 d2e2 "Am"A4 | cBA2 "G"B2d2 cBA2 "Em"B4 | \
+A2e2 "G"d2c2 d2e2 "Am"A4 | cBA2 "G"B2c2 BcB2 "Am"A4 :|
+S:https://www.folktunefinder.com/tunes/171277
+S:http://termen.free.fr/danses/vannetais/LarideC.abc
+% Rhythm Laride
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

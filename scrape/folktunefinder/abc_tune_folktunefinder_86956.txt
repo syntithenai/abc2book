@@ -1,0 +1,39 @@
+X:355
+T: In Days Gone By (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 21
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Ddor
+[V:1] A|"Dm"d^cde fgag|"Dm"f2 ed "Am"cA (3AGA|"C"c2 BG "Am7"A2 GE|\
+"Dm"FGAd "A7"^ceag|
+[V:2] z|D,2[D2A2F2]A,,2[D2F2A2]|D,2[D2A2F2]A,,2[A2E2C2]|C,2[C2G2E2]A,,2[G2E2C2]|\
+D,2[D2A2F2]A,,2[G2E2^C2]|
+%
+[V:1] "Dm"fgaf "C"ec (3cBc|"Dm"dcAG FDDE|"F"F2 AF cFdF|"Am7"cAGE "Dm"D3 :|
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]C,2[F2C2A2]|\
+A,,2[G2E2C2][D,3A,3F3]:|
+%
+[V:1] A|"Dm7"dcAc dcAc|"Am7"a2ge "Dm"fedc|"Dm"defd "Am7"cAGE|"Dm7"FD"A"^CE "Dm"D3 A|
+[V:2] z|D,2[C2A2F2]F,,2[C2F2A2]|A,,2[G2E2C2]D,2[D2A2F2]|F,,2[D2A2F2]A,,2[G2E2C2]|\
+D,2[A2E2^C2]D,2[D2A2F2]|
+%
+[V:1] "Dm7"dcAc "Am7"agfe|"Dm7"defd "Am7"cAGE|"Dm7"FGAd "A7"^ceag|"Dm7"fd"A"e^c"Dm"d3 :|
+[V:2] D,2[C2A2F2]A,,2[G2E2C2]| D,2[C2A2F2]A,,2[G2E2C2]| D,2[C2A2F2]A,,2[G2E2^C2]|\
+[D,2A,2F,,2][A,2E2^C,2][D,3A,3F3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86956
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

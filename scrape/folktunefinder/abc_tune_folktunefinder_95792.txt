@@ -1,0 +1,27 @@
+X:805
+T:Little Skirmish
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e6b.html
+%%ID:00000e6b
+K:D
+G |\
+F2A d2A | G2B e2g | fed c2d | ecA A2G |\
+F2A d2A | G2B e2g | fed edc | d3 d2 ::
+f/g/ | \
+a2a a2g | f2f f2e | d2d dcd | ecA A2 f/g/ | \
+a2a a2g | f2f f2e | d2d edc | d3 d2 ::
+%page:93
+S:https://www.folktunefinder.com/tunes/95792
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

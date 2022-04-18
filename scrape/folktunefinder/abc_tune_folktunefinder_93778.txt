@@ -1,0 +1,26 @@
+X:550
+T: Killavil B
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+N: name misspelled as "Kilavel"
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Edor
+B2E GFE|BAB edB|AFF DFF|AFA dBA|
+B2E GFE|BAB edB|AFA dAF|EFE E3 :|
+Bef g2e|f2d edB|AFF DFF|AFA dBA|
+Bef g2e|faf edB|AFA dAF|EFE E3 :|
+S:https://www.folktunefinder.com/tunes/93778
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

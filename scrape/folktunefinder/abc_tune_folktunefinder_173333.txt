@@ -1,0 +1,54 @@
+X:1
+T:Ludo Kopano
+O:Bulgaria
+C:Trad.
+R:kopanica
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:(AB)2(CD)2(E(FG)(FD))(HB)2
+Q:1/8=220
+M:11/16
+L:1/16
+K:Am
+P:A
+%%MIDI channel 1
+%%MIDI program 1 56
+%%MIDI chordprog 71
+%%MIDI chordvol 40
+%%MIDI bassprog 58
+%%MIDI gchord f2c2c3f2c2
+%%MIDI drumon
+%%MIDI drum d2d2d2dd2d2 43 43 41 37 43 43
+"G"B,C "D"DC "G"~D2D GA AG | "Dm"GF GA F~G2 D2 DC | "C"GF GA F~G2 FE DE | FD "A"EC "Dm"D3 D2 DG, |
+"G"B,C "D"DC "G"~D2D GA AG | "Dm"GF GA F~G2 D2 DC | "C"GF GA F~G2 FE DE | FD "A"EC "Dm"D3 D2 z2 ||
+P:B
+|: "Gm"FG GF F~G2 FE DC | FG GF "Dm"A~G2 FE D2 | "Gm"FG GF F~G2 FE DE | "Dm"FD "A"EC "Dm"D3 D2 z2 :|
+P:C
+|: "Am"c2 Bc dcB ~A2 AG | "D"G2 AB cBc d2 z2 | "Am"c2 Bc dcB ~A2 AG | "Dm"FE "Am"DC "Dm"CDE D2 z2 :|
+P:D
+|: "Dm"~F2 ~E2 CD2 ~G2 GA | ~F2 ~E2 CD2 AG FG | ~F2 ~E2 CD2 ~G2 GA | ~F2 ~E2 CDE D2 z2 :|
+P:E
+"Dm"(GA8-A2|A8)z3|
+P:F
+|: GA AF AGF ED EF | GA AF AGF ED AD | GA AF AGF ED EF | GA AF AGF EC D2 :|
+P:G
+|: dc BA cBA BG AF | GA AF AGF ED A2 | dc BA cBA BG AF | GA AF AGF EC D2 :|
+P:H
+"C"^FG AB cBd c_B AG | GF FE C3 A_B AG | GF FE C3 EF FE | ED EF EDE C2 z2 |
+   ^FG AB cBd c_B AG | GF FE C3 A_B AG | GF FE C3 EF FE | ED EC "Dm"D3 z2 z2 |
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/173333
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/LudoKopano.abc
+S:http://people.csail.mit.edu/jaffer/Music/LudoKopano.abc
+S:http://voluntocracy.org/Music/LudoKopano.abc
+S:http://www.voluntocracy.org/Music/LudoKopano.abc
+% Rhythm Kopanica
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 11/16
+% Has_accompaniment_chords Has chords

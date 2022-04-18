@@ -1,0 +1,28 @@
+X:26
+T: Bihai qingtian feilai chuan
+N: C1526
+O: China,Guangxi, Beihai
+S: II, 522]
+R: Xiaodiao, Xianshuige]
+M: 2/4
+L: 1/32
+K: Bb
+d4c4f4f4 | d12cdcb | c16- | c8
+c6g2 | g4b8cdcb | c16
+c4g2g2g4g2b2 | c4b4g2f2f4- | f12g2f2 | d16
+f6f2g4f4 | g4f4c2d2f4
+c4g4c4b4 | g4c4c2g2f4
+f2g2d4d4g4 | c4f4g4f4- | f12d4
+c4c4g4g4 | c4b4g4b4- | b12c4
+d4c4b2z2gbgf | f12g2f2 | d16
+S:https://www.folktunefinder.com/tunes/92049
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, xianshuige]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

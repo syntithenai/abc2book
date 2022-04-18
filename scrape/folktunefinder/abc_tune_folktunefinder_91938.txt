@@ -1,0 +1,27 @@
+X:007
+%%topmargin 3cm
+T:Cat in the Hopper
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:GDor
+DGA B2 c | AFF FF2 A | G2 G g2 e | fdd d2 e |
+fag fed | dcA B2 c | ded d2 c | dBG G2 ::
+g | gdg gab | agf f2 a | gag gfe | fdd d2 e |
+fag fed | dcA B2 c | ded d2 c | dBG G2 :|]
+S:https://www.folktunefinder.com/tunes/91938
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Cat_in_the_Hopper.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Nelson/Cat_in_the_Hopper.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Polka double
+E:12
+Z:Roger Ngaret (94-95)
+R:polka
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=120
+"C"gfe2 gfe2 | gfe2 c4 | cBc2 "G"d2e2 |1 fed2 "C"e2c2 :|2
+"G"fed2 "C"c4 |: cBc2 "G"d2e2 | fed2 "C"e2c2 | 
+cBc2 "G"d2e2 | fed2 "C"c4 :|
+S:https://www.folktunefinder.com/tunes/183041
+S:http://termen.free.fr/danses/polkas/Polkadouble.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

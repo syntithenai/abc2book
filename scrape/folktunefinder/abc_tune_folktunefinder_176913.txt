@@ -1,0 +1,33 @@
+X:1
+T:Morning Star
+M:4/4
+C:
+S:Bacon (BC (RKS \& DNK from Benfield, 1925))
+N:transposed from F to G
+A:Bledington
+O:English
+R:Reel
+%:
+%:
+%P:A/2(AB)$^4$
+P:A.(AB)4
+K:G
+I:speed 400
+P:A
+|: BcBG  E2 FG | ABAF D2 GA | BcBA E2 AF | D2 G2 G4 :|\
+P:B
+|: B2 B2 d2 d2 | egfe dcBA  | GABc d2 d2 | efge  d4 |\
+   B2 Bc d2 d2 | egfe dB G2 | ABcA FGAF  | D2 G2 G4 :|
+S:https://www.folktunefinder.com/tunes/176913
+S:http://www.ucolick.org/~sla/morris/music/Bledington/mornstar.lbG.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

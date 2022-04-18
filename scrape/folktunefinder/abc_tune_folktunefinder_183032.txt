@@ -1,0 +1,23 @@
+X: 3
+T: Polka D'Alfred Couillard
+M: 4/4
+L: 1/8
+R: polka / schottische
+K: Gmaj
+|: (3GFE |\
+D2 G>A B>G (3Bcd | (3cdc B2 B4 | B2 A>B c>A (3EFG | (3ABA G2 (3FGF E2 |
+(3DDD G>A B>GB>d | c2 (3BcB B4 | (3BcB A>B c>AF>G | A2 G2 G2 :|
+|: F>E |\
+D2 D6 | E2 D2 D4 | B2 A>B c>A (3EFG | (3ABA (3GAG (3FGF (3EFE |
+D2 D2 D2 (3AGF | (3EFE D>C D4 | B2 A>B c>A (3EFG | (3ABA G2 G2 :|
+S:https://www.folktunefinder.com/tunes/183032
+S:http://www.thesession.org/tunes/display/8787
+% Rhythm Polka / schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:320
+T: Second Victory
+S: Traditional Irish Music (K.Tweed)
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: Ador
+B|c2 A BAG|A3 GED|E2 A Bcd|e/f/ge age|
+d3 ecA|A3 GED|EAB ced|cA^G A2 :|
+B|cBc efg|G3 GED|cBc d^cd|eAa ged|
+eaf g2 f|e/f/ge dBG|EAB ced|1 cA^G A2 :|2\
+cA^G Ace||a2 A cBA|EAB caf|g3 dBG|B/c/dG Bcd|
+eaf g2 f|e/f/ge dBG|EAB ced|1 cA^G Ace :|2\
+cA^G A2 ||
+S:https://www.folktunefinder.com/tunes/89704
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

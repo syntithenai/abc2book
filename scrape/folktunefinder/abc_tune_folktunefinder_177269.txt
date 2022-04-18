@@ -1,0 +1,25 @@
+X: 1
+T: Mouse In The Mug, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+~G3  EGD | ~G3 Bdg | fge dBG | ~A3 BAB |
+~G3  EGD | ~G3 Bdg | ~e3 dBG | AGF GBA |
+~G3  EGD | ~G3 Bdg | fge dBG | ~A3 BAB |
+~G3  EGD | ~G3 Bdg | ~e3 dBG | AGF GBd |
+gab agf | fgd edB | deg edB | AGA BG/2B/2d |
+gab agf | fgd edB | deg edB | AGF GG/2B/2d |
+gab agf | fgd edB | deg edB | AGA BAB |
+~G3  EGD | ~G3 Bdg | ~e3 dBG | AGF G3 ||
+S:https://www.folktunefinder.com/tunes/177269
+S:http://www.thesession.org/tunes/display/362
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

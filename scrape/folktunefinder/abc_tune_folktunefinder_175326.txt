@@ -1,0 +1,27 @@
+X:179
+T:The Mermaid
+R:song
+H:  A beautiful mermaid visited a ship by moonlight.  The captain tried to
+H:detain her: but she canted a song that threw captain and crew into a tra
+H:e,
+H:and so she escaped.  "One of the best of the old northern airs" (Mr.
+H:M'Kenzie).
+A:Antrim
+B:
+O:Irish
+M:3/4
+L:1/4
+K:D
+D|GFE|A2 A|FDD|D2 G/B/|d3/4A/A|def|(e3|c>)z d/e/|fed|
+edc|dcB|FGA|GFE|DFA|d> e f|F2 F|GFE|FGA|D2||
+S:https://www.folktunefinder.com/tunes/175326
+S:http://www.sligo-man.com/abc/index2/179.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

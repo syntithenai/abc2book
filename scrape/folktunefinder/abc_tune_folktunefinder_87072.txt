@@ -1,0 +1,36 @@
+X:935
+T: Trip to Clonee (with piano acc.)
+C: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=175
+V: 1 program 1 73
+V: 2 bass volume = 70 m=D program 1 00
+K: Em
+[V:1] A|"Em"Beed BE ~E2|"G"GB"D"AF "EM"EDEF|"G"GBBd "C"gece|"G"dgdB "D"AdcA|
+[V:2] z|E,2[E2G2B2]B,,2[E2G2B2]|G,,2[D,2A,2F,2]E,2[E2G2B2]|G,,2[G2D2B2]C,2[E2G2C2]|\
+G,,2[G2D2B2]D,2[A2D2F2]|
+%
+[V:1] "Em"Beed "Bm"Bdef|"Em"(3gfe "D"fd "Em"efge|"G"dBBd "D7"cAFD|"C"GE"D"FD "Em"E3 :|
+[V:2] E,2[E2G2B2]B,,2[F2D2B2]|E,,2[D,,2A,,2F,2]E,2[E2G2B2]|G,,2[G2D2B2]D,2[A2C2F2]|[E2G,2C,2][D,2A,2F2][E,3B,3G3]:|
+%
+[V:1] B|"Em"edBe gbge|"Bm"dBAF "Em"GE ~E2|"G"GB ~B2 "D7"Acef|"Em"geBd "C"e2 ed|
+[V:2] z|E,2[E2G2B2]G,2[E2G2B2]|B,,2[F2D2B2]E,2[E2G2B2]|G,,2[G2D2B2]D,2[A2C2F2]|
+E,2[E2G2B2]C,2[E2G2C2]|
+%
+[V:1] "G"BG ~G2 "Am"cA ~A2|"D"defa "G"gB ~B2|"AM"cAAc "G"BAGD|"C"(3EFG "D"FD "Em"E3 :|
+[V:2]G,,2[G2D2B2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2D2B2]|A,,2[A2C2E2]G,,2[G2D2B2]|\[E2G,2C,2][D,2A,2F2][E,3B,3G3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87072
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

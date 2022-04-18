@@ -1,0 +1,27 @@
+X:008
+U: ~ = !turn!
+%%topmargin 3cm
+T:Barren Rocks of Aden
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:D
+e2 | f3 g f2 e2 | d2 f2 A2 d2 | c2 e2 B2 c2 | d2 f2 a2 g2 |
+f3 g f2 e2 | d2 f2 A2 d2 | c2 e2 B2 c2 | d2 d2 z2 ::
+fg | a2 f2 dc df | e2 g2 A2 e2 | g2 e2 c2 e2 | d2 f2 a3 f |
+a2 f2 d2 f2 | e2 g2 A2 e2 | g2 e2 c2 e2 | d4 d2 :|]
+S:https://www.folktunefinder.com/tunes/94606
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Barren_Rocks_of_Aden_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Barren_Rocks_of_Aden_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

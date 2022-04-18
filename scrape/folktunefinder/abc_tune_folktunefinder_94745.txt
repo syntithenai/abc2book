@@ -1,0 +1,37 @@
+X:149
+U: ~ = !turn!
+%%topmargin 3cm
+T:Old Grey Goose
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Michael Coleman
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+EF |: GBG FAF | GEE D2F | DFA dAG | FDD DEF |
+{/A}GFG AGA | {/c}BAB {/a}gfg | edB {/c}BAF | GEE E2F ::
+G2G dBG | GAB/2c/2 dBG | A2A ecA | ABc/2d/2 ecA |
+G2G dBG | dgf {/a}gfg | edB {/c}BAF | GEE E2B ::
+efe edB | def g2a | fdd add | fag fed |
+gfg efe | def {/a}gfg | edB {/c}BAF | GEE E2c ::
+BGG AFF | GEE E2c |BGB dAG | FDD D2c |
+BGG AFF | GEE {/a}gfg | edB {/c}BAF | GEE E2f ::
+gbg faf | gee e2f | gbg faf | fdd def |
+gbg faf | dgf {/a}gfg | edB {/c}BAF | GEE E2f ::
+gdc BcA | GEE E2f | gdB dAG | FDD DEF |
+{/A}GFG {/B}AGA | {/c}BAB {/a}gfg | edB {/c}BAF | GEE E2f :|]
+S:https://www.folktunefinder.com/tunes/94745
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Old_Grey_Goose_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Old_Grey_Goose_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

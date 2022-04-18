@@ -1,0 +1,27 @@
+X:1
+T:Polska till fred
+R:polska
+C:av Agneta Wiberg
+M:3/4
+L:1/16
+Q:1/4=95
+K:G
+|: "G"D3G (B3A) (G3F)| "C"E2D ({D}E4) E4 | "Am"E3A (c3B) (A3G)| ("D"FE3) D8\
+|  "G"D3G (B3A) (G3F)| "C"E2D ({D}E4) E4 | "Am"E3A (c3B) (A3G)\
+|1 ("D7"FA3) "G"[G,8G8] :|2 "D7"(FA3) "G"{F}[G,6G6]|
+|:  B2|"G"{B}(d3B) (G3B) {B}d3B| "D"{B}(c3A) (F3A) {A}c3A \
+|  "G"{A}B3G DG3 B3G | "D7"AF3 D4 B4 \
+|  "G"{B}(d3B) (G3B) {B}d3B| "D"{B}(c3A) (F3A) {A}c3A \
+|  "Em"{A}B3G EG3 "C"c3B \
+|1 "D7"AF3 "G"{F}[G,6G6] :| "D7"AF3 "G"{F}[G,8G8] ||
+S:https://www.folktunefinder.com/tunes/183472
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/tillfred.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/tillfred.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:1
+T:Marschierpolka
+C:traditionell
+A:Oesterreich
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+GE AE | GF/G/ BB | GF/G/ BB | GE/G/ cc |
+GE AE | GF/G/ BB | GF/G/ BB | cc c2 :|
+K:G
+|:\
+D/D/D/D/ F>E | ED B>c | BA A>B | AG G2 |
+D/D/D/D/ F>E | ED B>c | BA BA | GB G2 :|
+K:C
+GE AE | GF/G/ BB | GF/G/ BB | GE/G/ cc |
+GE AE | GF/G/ BB | GF/G/ BB | cc c ||
+K:G
+|: D |\
+B>A B>A | G4 | D/G/G D/G/G | GF F2 |
+c>B c>B | A4 | D/F/F D/F/F | AG GD |
+B>A B>A | G4 | D/G/G D/G/G | GF F2 |
+c>B c>B | A4 | D/F/F D/F/F | GB G :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174472
+S:http://simonwascher.info/TradArchiv_polka/marschierpolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

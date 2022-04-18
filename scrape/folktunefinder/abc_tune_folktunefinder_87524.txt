@@ -1,0 +1,29 @@
+X: 23
+%%staffsep 50pt
+T: The best thing for you would be me
+M: 4/4
+L: 1/4
+C: Irvin Berlin
+Q: 1/4=240
+%%staves (chords melody)
+K: C
+%%text (up)
+%%vskip 20
+%
+P: A
+V: chords
+"(F#m7" "B7"x2 "B7" " "x2 | "F#m7" " "x2 "B7)" " "x2 | "Em7"x2 "A7"x2 | "Dm7"x2 "G7"x2 |
+"Cmaj7"x2 "Am7"x2 | "Dm7"x2 "G7"x2 | "(Em7" "Cmaj7"x2 "A7" " "x2 | "Dm7" " "x2 "G7)" " "x2 ||
+V: melody
+B,2 ^D^F | A2 G^F | G2 FE | F2 ED |
+S:https://www.folktunefinder.com/tunes/87524
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

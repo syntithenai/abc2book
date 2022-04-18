@@ -1,0 +1,21 @@
+X:54
+T:The Major
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+dBG g3 | dBG GBd | dBG g3 |
+cAF ABc | dBG g3 | dBG g3 | dBG g3 |
+cAF ABc :: dBG dBG | dBG ABc |
+dBG dBG | cAF ABc | dBG dBG |
+dBG dBG | edc fed | cAF ABc :|
+S:https://www.folktunefinder.com/tunes/173964
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Major.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

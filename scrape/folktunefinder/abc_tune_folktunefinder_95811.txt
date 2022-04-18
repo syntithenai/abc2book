@@ -1,0 +1,29 @@
+X:900
+T:Turks March
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005db.html
+%%ID:000005db
+K:G
+GA | \
+B2G2 G2(AB) | c2A2 A2dc | B2AG F2G2  | (AG)(FE) D2GA |\
+B2G2 G2AB   | c2A2 A2dc | BAGA D2TF2 | G6 ::
+Bc | \
+dcde d2ef | e2c2 c4   |   edef efga  | f2d2 d3 c |\
+B2G2 G2AB | c2A2 A2dc | ! B2AG F2G2  | AGFE D2 GA |\
+B2G2 G2AB | c2A2 A2dc |   BAGA D2TF2 | G6 ::
+%page:105
+S:https://www.folktunefinder.com/tunes/95811
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

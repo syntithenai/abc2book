@@ -1,0 +1,27 @@
+X:115
+U: ~ = !turn!
+%%topmargin 3cm
+T:Little Thatched Cabin
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+A | FDA, DFB | AFD EDB, | DFA def | gfg eag |
+fdB AFD | EDB, DFA | dcd eag | fdd d2 ::
+f/2g/2 | afa geg | fdf ecA | dcd fed cAc efg |
+afa geg | fdf ecA | [1 dcd eag | fdd d2 :| [2 dcd AFD | EDC D2 |]
+S:https://www.folktunefinder.com/tunes/94711
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Little_Thatched_Cabin_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Little_Thatched_Cabin_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

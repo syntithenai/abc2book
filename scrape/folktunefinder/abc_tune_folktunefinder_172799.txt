@@ -1,0 +1,23 @@
+X:1
+T:Long Black Veil
+M:4/4
+L:1/8
+F:http://sniff.numachi.com/~rickheit/dtrad/abc/LGBLVEIL.abc 2002-06-12 16:40:48 UT
+K:F
+ D8-| D8| F4 F3 F| F- C3 F2 G2| A4 A4| G- F3- F4| G2 G4 A2| G6 CC|\
+ F4 F3- G| F6 F2| F4 F3 F| F- C3 F2- G2| A4 A4| G- F3- F2 EF| G2 G4 A2|\
+ G6 CC| F4 F3- G| F6C-D| F4 F4| D- C3- C2 CD| F4 F4| A4-A-G-A-G| F6 z2|\
+ D F3- F2 F2| D- C3- C2 CD| F6G-F| A4-A-G-A-G| F4 z4| A2- c2 c2 d2|\
+ c4- A4| F2 F4 F2|A-G F2- F4| D- F3- F2 FF| G6 A2|A-G F6-| F6 z2|
+S:https://www.folktunefinder.com/tunes/172799
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/LGBLVEIL.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/LongBlackVeil.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/LongBlackVeil.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/LongBlackVeil.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

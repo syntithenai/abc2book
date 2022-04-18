@@ -1,0 +1,39 @@
+X:275
+T: Concert
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: Bb
+FE|DFdF DFdF|EG c2 DF d2|e2 (3ded (3cdc (3BcB|\
+(3AGA (3GAG (3FGF (3EFE|
+DFdF DFdF|EG c2 DF d2|e2 (3ded (3cdc (3BcB|1\
+AG (3FGA B2 :|2 AG (3FGA B2 ||
+D2 | (3dDD (3cDD (3BDD (3ADD| (3GBG (3DGB dBGB|\
+(3^FAF (3DFA dcBA|
+(3G^FG (3A^GA (3BAB (3c=Bc|(3dDD (3cDD (3BDD (3ADD|
+(3GDD GB dBGB|AD^FA dcBA | GDBA G2 :|
+P: version in A
+K:A
+ED|CEcE CEcE|DF B2 CE c2|d2 (3cdc (3BcB (3ABA|\
+(3GFG (3FGF (3EFE (3DED|
+CEcE CEcE|DF B2 CE c2|d2 (3cdc (3BcB (3ABA|1\
+GF (3EFG A2 :|2 GF (3EFG A2 ||
+C2 | (3cCC (3BCC (3ACC (3GCC| (3FAF (3CFA cAFA|\
+(3=FGF (3CFG cBAG|
+(3F=F^F (3G=G^G (3AGA (3B^AB| (3cCC (3BCC (3ACC (3GCC|
+(3FCC FA cAFA|GC=FG cBAG | FCAG F2 :|
+S:https://www.folktunefinder.com/tunes/88567
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1
+T:Maerkischer Hopstritt
+R:Halbdreher
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, eigenverlag, Schluechtern 1989
+N:dort ganz in G, einstimmig mit harmonie-buchstaben, seite 213 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d2d2 d4 | e2e2 d4 | cDAc BDGB | ADFA GABc |
+d2d2 d4 | e2e2 d4 | cDAc BDGB | ADFA G4 z4 :|
+|: \
+d2d2 c2c2 | B2dB A4 | d2d2 c2c2 | B2dB A4 |
+d2d2 d4 | e2e2 d4 | cDAc BDGB | ADFA G4 z4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173575
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/maerkischer_hopstritt.abc
+% Rhythm Halbdreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

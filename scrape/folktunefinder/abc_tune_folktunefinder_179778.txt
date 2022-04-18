@@ -1,0 +1,31 @@
+X: 1
+T: Oj\"o Brudmarsj
+O: Trad Malung
+Z: 2004 John Chambers <jc@trillian.mit.edu>
+N: This version from the Sveriges Television show "Luciafirande 2004"
+R: g\angl\aat
+M: 4/4
+L: 1/8
+K: Dm
+  D \
+| "Dm"F2FD F2F2 | "A7"EFED     E4 |"Dm"F2FD  F2F2 | "A7"EFED E4 \
+| "Dm"F2G2 A4   | "G"G2A=B "A7"A4 | "D"d2eg ^f2ed | "A7"^c2d2 "D"d3 :|
+K: D
+  A \
+| "D"d2eg f2ed |"A7"cdef     e2cA | "D"d2ef afdf | "A7"e2c2    A4-[A4E4] \
+| "D"d2eg f2ed |"A7"cdef     e2cA | "D"d2ef afdf | "A7"e2c2 "D"d2f2 |
+| "D"a2ab a2fd | "G"g2gb "A7"g2ec | e2ea "D"f2df | "A7"e2c2    A4-A2f2 \
+| "D"a2ab a2fd | "G"g2gb "A7"g2ec | e2ea "D"f2df | "A7"e2c2 "D"d4-d3 |]
+S:https://www.folktunefinder.com/tunes/179778
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/OjoBrudmarsj.abc
+% Rhythm G\angl%C3%A5t
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

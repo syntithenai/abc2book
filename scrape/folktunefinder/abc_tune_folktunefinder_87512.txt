@@ -1,0 +1,34 @@
+X: 11
+T: Aquellos ojos verdes
+C: Adolfo Utrera, Nilo Menndez
+M: 4/4
+L: 1/8
+K: C
+"C" z2 zG, CD EG | B4 c4 | z2 zB cB AG | A4 B4 |
+w: A-que-llos o-jos | ver- des | de mi-ra-da se- | re-na |
+z2 zG, CD EF | G4 A4 | "Gm6" z2 zG "A7" AG FE | "Dm7" G8 |
+w: De-ja-ron en mi | al-ma | e-ter-ne sed de~a- | mar |
+"G7" z2 zA, DE FG | "Dm7" B4 c4 | "G7" z2 zB cB AG | "Dm7" A4 B4 |
+w: An-he-lo de ca- | ri-cia | de be-sos y ter- | nu-ras |
+z2 zA BA G_G | "A7" FE- E4 D2 | "Dm7" z2 zD F^F GA | "G" B8 |
+w: de to-dos las dul- | zu- * ras | que~han po-di-do brin- | dar |
+"C" z2 zG, CD EG | B4 c4 | z2 zB cB AG | A4 B4 |
+w: A-que-llos o-jos | ver-des | se-re-na co-mo~un | la-go |
+z2 zG, CD EF | "A7" G4 A4 | z2 zG AG FE | "Dm" A8 |
+w: En cu-yas quie-tas | a-guas | un d-a me mi-r
+z2 zA, DE FA | d4 e4 | "Fm6" z2 zd ed cB | "C" c4 "Gm6" G2 E2 |
+w: No sa-ben la tris- | te-zas | que~en mi al-ma de- | ja-ron |
+"A7" A3 A AG FE | "Dm7" A4 B2 c2 | "G7" d4 c2 B2 |"C" AB c2- c4 |]
+w: A-que-llos o-jos | ver-des que | nun-ca ol- | vi-da-r*
+S:https://www.folktunefinder.com/tunes/87512
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

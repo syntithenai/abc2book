@@ -1,0 +1,30 @@
+X:1
+T:Polka nr. 1
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+z |\
+d/B/G/d/ eB | dc c/B/c | A/B/c/d/ ef | ag d2 |
+d/B/G/d/ eB | dc c/B/c | e/d/^c/d/ ef | gg g :|
+K:C
+|: z |\
+e>^d e>^d | ea gf | ed d/^c/d/e/ | d=c c/G/c/d/ |
+e>^d e>^d | ea gf | ed ed | ce c :|
+|: G |\
+e2 dc | BA A2 | c/c/c/c/ BA | AG G2 |
+ee de | fB B2 | dd ^cd | e=c G2 |\
+e2 dc | BA A2 | c/c/c/c/ BA | AG G2 |
+ee de | fB B2 | G/B/d/f/ ed | ce c :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183084
+S:http://simonwascher.info/TradArchiv_polka/polka_nr._1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:130
+U: ~ = !turn!
+%%topmargin 3cm
+T:Moll Roone
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Reel
+L:1/8
+M:C|
+K:D
+A, | D2 F>D GEDC | D>FAA A2 FA | AGEG GFD>F | GEDC D3 ::
+A | A>GFG AdcB | A>GFG A3 d | d2 Bd d(cc)A | cBA^G A=GFE |
+D2 F>D GEDC | D>FAA A2 FA | AGEG GFDF | GEDC D3 |]
+S:https://www.folktunefinder.com/tunes/94726
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Moll_Roone_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Moll_Roone_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

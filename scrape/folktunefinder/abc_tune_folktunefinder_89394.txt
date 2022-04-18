@@ -1,0 +1,27 @@
+X:160
+T: Lassies of Limerick
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: G
+dcA GFG | AGF G2 e | dcA GFG | Ade fde |
+dcA GFG | AGF G2 B | Ade fgf | edc dcA :|
+def gfg | agf g2 f | def gfe | fed ecA |
+|1 def gfg | agf g2 f | Ade fgf | edc dcA :|
+|2 def gfg | agf g2 a | bag agf | ded cAG ||
+S:https://www.folktunefinder.com/tunes/89394
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

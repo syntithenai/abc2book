@@ -1,0 +1,23 @@
+X:640
+T:Hunter's Purse
+R:Reel
+Z:id:hn-reel-13
+M:C|
+L:1/8
+Q:1/4=200
+K:Ador
+|:eAAG AGEF|G2AF GED2|cBcd eged|cdef ged2|
+eAAG AGEF|G2AF GED2|cBcd eged|cABG A2Bd:|
+|:eaab agef|g2af gedB|cBcd  (3efg ed|cdef ged2|
+eaab agef|g2af gedB|cBcd eged|cABG A2Bd:|
+S:https://www.folktunefinder.com/tunes/90584
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

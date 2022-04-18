@@ -1,0 +1,31 @@
+X:077
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Galway Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Jean Carignan
+R:Hornpipe
+L:1/8
+M:C|
+K:D
+D2 FA dAFD | CDEF GECE | D2 FA dcdf | edcB ((3.A.B.A) ((3.G.F.E) |
+D2 FA dAFD | CDEF GFGE | DdcB ((3.A.B.A ) ((3.G.F.E) | [1 F2 D2 D2 z2 :| [2 F2 D2 D2 ||
+|: de | {/g}fefg fedc | PBABc B2 cd | e2 df edcB | ((3.A.B.A) .^G.B A2 Bc :|]
+S:https://www.folktunefinder.com/tunes/94674
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Galway_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Galway_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Galway_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Galway_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1
+T:Lord Breadalbane's March
+B:Songs of Scotland Without Words, J T Surenne
+N:Transposed from another key (no shaps or flats)
+N:Most of the A7 chords can be Em chords
+Z:Nigel Gatherer <gatherer@argonet.co.uk> chords by John Chambers <jc@trillian.mit.edu>
+M:6/8
+L:1/8
+K:D
+d \
+| "D"A>BA f>ed | "G"B>AB d>BG | "D"A>BA f>ed | "Em"B>ee "A7"e2d \
+| "D"A>BA f>ed | "G"B>AB d>BG | "D"A>BA f>ed | "Em"B>ee "A7"e2 ||
+d \
+| "Em"e>fe a>fe | "D"f>ef f>ed | "Em"e>fe a<fe | "A7"e>fe e2d \
+| "Em"e>fe a>fe | "D"f>ef f>ed | "D"a>fe f>ed | "Em"Bee "A7"e2 |]
+S:https://www.folktunefinder.com/tunes/172916
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/LordBreadalbanesMarch_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

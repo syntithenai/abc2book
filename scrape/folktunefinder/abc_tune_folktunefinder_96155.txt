@@ -1,0 +1,34 @@
+X: 4
+T:Prelude by Dean(04). TBe.004
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:Key signature shows F and G sharp in higher and lower octaves.
+H:1718
+Z:vmp.C. Graebe..
+K:A major
+"Are sharp=A mojor.No time sig."\
+A4c4e4B4 | g4e4a4e4 | f4e4c4A4 |\
+ e2(EF)G2E2 A2B2c2A2 |!
+a2(AB) c2A2 e2f2g2e2 | b2(Bc) ^d2B2 "s/q's in ms"e2f2g2e2 |\
+BcBA GAGE ceag aeag |!
+ fedc Bdgf gdgf edcB |Acfe fcfe dcBA GBed |!
+ eBed cBAG ceae ceae |^dgbf dfbf egbg egbg |!
+ ceae ceae aAcA eEGE | \
+z2B2 =(c2B2) z2B2 =(c2B2) | A2,A2C2E2 A8 ||
+S:https://www.folktunefinder.com/tunes/96155
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

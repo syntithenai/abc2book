@@ -1,0 +1,35 @@
+X:150
+T:Minuet
+C:By Perotto
+M:3/4
+L:1/16
+K:A
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:c2z2 d2zc e2zc|(dc)Bc B4-B2z2|B^ABc dcde =gfe>d|d2zc c4-c2z2|[L:1/8].e>.d .c.c.d.d|.e>.d .c.c.d.d|
+e2 fedc|e/d/c/d/ B2 Bz::[L:1/16]Bdfd Bdfd Bdfd|ceae ceae ceae|Bdfd Bdfd Bdfd|
+ceae ceag fedc|f2z2 faga bagf|Tfe z e e2f2g2a2|gfed Tdc z e edcB|B2zA A4 A2z2:|
+V:2
+L:1/16
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2z2 A2zA c2zA|B2zE E4-E2z2|[L:1/8].G.A.B.c dz/B/|Bz/A/ A2-Az|.c>.B .A.A.B.B|.c>.B .A.A.B.B|
+c2 dcBA|Bz/E/ E2 Ez::.G.B .G.B .G.B.|.A.c .A.c .A.c|.G.B .G.B .G.B|.A.c .A.c .A.c|
+dz d>f e>d|d/c/ z/ c/ cdef|dz/B/ Az/E/ E>E|Ez/A/ A2 Az:|
+S:https://www.folktunefinder.com/tunes/90137
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

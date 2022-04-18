@@ -1,0 +1,28 @@
+X: 1
+T:Lord Inchiquin
+M:3/4
+L:1/8
+C:O'Carolan
+R:waltz
+N:from Fiddler's Fakebook versio
+K:D
+A2|"D"d2 defe| d2 edcB| A2 F2 A2 | f4 e2| d2 edcB |!
+A2 G2 F2| "G" G2 BAGF| "A"E4 ag| "D"f3 e d2| d2 c2 B2| A2 F2 A2|!
+f4 e2| d2 edcB|  A d3 F2| "A"E4 D2| "D"D4 A2 :||:"A"ABcd e2|!
+e2 d2 e2| "D"f2 defd| "A"e4 d2| "D"defg a2| "G"a2 b2 g2| "D"f3 d f2|!
+"A"e4 d2| "D"defg a2| "G"a2 b2 g2| "D"f3 g "A"e2| "D(Bm)"d4 f2| "Em"gf e2 e2|!
+"(E)"e2 f2 d2| "A"c2 d2 B2| A4 ag| "D"f3 e d2| "G"d2 c2 B2| "D"A2 F2 A2|!
+"G"g4 fe| "D"d2 edcB| A d3 F2| "A" E4 D2|1 "D"D4 A2  :|2 "D"D4||
+% Output from ABC2Win  Version 2.1 i on 12/11/2004
+S:https://www.folktunefinder.com/tunes/172957
+S:http://internet.cybermesa.com/~keating/music_abc/LORD_INC.ABC
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

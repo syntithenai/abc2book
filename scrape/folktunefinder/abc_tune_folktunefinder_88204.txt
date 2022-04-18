@@ -1,0 +1,28 @@
+X:235
+T:Lovely Nancy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+N:in MR
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000621.html
+%%ID:00000621
+K:G
+B>A |\
+G2 G2 GB | A2 A2 AB/c/ | B2 (ge) (dc) | A4 B>A |\
+G2 G2 (dB) | A2 A2 (ge) | (d>e) (d>B) A>B | G4 ::
+B>c |\
+d2 d2 ge | e4 (B>c) | d2 d2 (gB) | A4 B>A |\
+G2 G2 (dB) | A2 A2 (cd/e/) | (d>e) (d>B) (A>B) | B4 ::
+S:https://www.folktunefinder.com/tunes/88204
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

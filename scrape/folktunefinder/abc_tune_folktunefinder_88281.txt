@@ -1,0 +1,27 @@
+X:620
+T:Nelson Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000060d.html
+%%ID:0000060d
+K:G
+Bc|\
+dBec BAdB | GFAF G2Bd | eBge edcB | BAdA BAGF |
+dBec BAcA | GFAF Ggec | BAcA GFAF | G2G2 G2 ::
+Bc|\
+dfgf edcB | ddef g2fe | edcB AGFE | F2DD D2GF |
+EFAF GBdB | cege dBec | BAcA GFAF | G2G2 G2:|
+S:https://www.folktunefinder.com/tunes/88281
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

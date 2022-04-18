@@ -1,0 +1,25 @@
+X:020
+%%topmargin 3cm
+T:Ross' Reel Number 4
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/16
+M:2/4
+K:F
+a2 | g3f e2d2 | cdcB A2GF | ECEG c2cB | AFAc f2a2 |
+g3f e2d2 | cdcB A2GF | EFGA Bcde | f2a2 f2 ::
+cB | Accc dccc | Acfc acfc | Accc dccc | Acfc acfc |
+Accc fccc | =Bcec gc_bc | =Bced gc_bc | acgc f2 :|]
+S:https://www.folktunefinder.com/tunes/91950
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Ross_Reel_Number_4.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

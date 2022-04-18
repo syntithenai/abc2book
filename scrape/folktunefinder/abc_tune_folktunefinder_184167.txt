@@ -1,0 +1,22 @@
+X:1
+T:Put On Your Old Grey Bonnet
+M:4/4
+L:1/4
+K:Bb
+ A B| c d c d| c A E F| G A G A| G F| ^C D| E2 B2| A2 G2| c4-| c2|\
+ A B| c d c d| c A E F| G A G A| G F| ^C D| E2 B2| A2 G2| F4-| F2|\
+ z A| G A =B G| A G ^F G| =F G A =B| A G| ^F G| A ^G A ^A| =B ^A B G|\
+ c4-| c z| A B| c d c d| c A E F| G A G A| G F| ^C D| E2 B2| A2 G2|\
+ F4-| F| D E =E| F2 F2| D F2 F/2F/2| G G2 E| G B A G| F2 B2| B B A B|\
+ c4-| c z B c| d2 d2| d c B G| B2 B2| G F D E| F2 d2| d c3| B4-| B||\
+S:https://www.folktunefinder.com/tunes/184167
+S:http://back.numachi.com:8000/dtrad/abc/GOLDWED3.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GOLDWED3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

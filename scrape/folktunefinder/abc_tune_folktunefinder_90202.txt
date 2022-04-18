@@ -1,0 +1,37 @@
+X:50
+T:Une jeune fillette
+R:Pavane
+C:Renaissance
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-06-14
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+K:F
+%%staves [1 2 3 4]
+V:1
+D | GABG | A2!breath!FF | G2A2 | !breath!D3D | GABG |
+A2!breath!FF | G2A2 | D4 |: d2dc | B3A | Bcdd |
+c2!breath!AA | BBGG | (A>G)FD | EGG^F | G4 :|
+V:2
+D | DDDE | (F>E)DD | (ED)C2 | =B,3D | DDDE |
+F>EDD | (ED)C2 | =B,4 |: D2DF | D3^F | GA=FG |
+(A>G)FF | G>F EE | (FC)DD | CDDD | D4 :|
+V:3
+G | BAGB | A2AF | E(G2^F) | G3G | BAGB | 
+A2AF | E(G2^F) | G4 |: F2FA | G3d | dfdd |
+e2dd | ddcc | (cA) B(B/A/) | GBAA | G4 :|
+V:4
+G, | G,^F,G,G, | D,2D,D, | (C,B,,)A,,2 | G,,3G, | G,^F,G,G, | 
+D,2D,D, | (C,B,,)A,,2 | G,,4 |: B,,2B,,F, | G,3D, | G,F,B,,B,, |
+A,,2D,D, | G,,G,,C,C, | F,2 B,,B,, | C,G,,D,D, | G,,4 :|
+%%footer $D   Galouvielle-MBe 2007 \nPavane (--)
+S:https://www.folktunefinder.com/tunes/90202
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Pavane
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

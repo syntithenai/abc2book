@@ -1,0 +1,31 @@
+X: 1
+T: Neun H\"auser [C]
+T: Nine Houses
+O: Bavaria
+M: none
+K: C
+|: [EG][Gc][ce] \
+| [M:3/4][L:1/8] \
+"C"[e2g2] z[eg] [e2g2] | ~[e2g2] [c2e2] [G2c2] \
+| [M:2/4][L:1/8] \
+"G7"[G2B2] [B2d2] | [d2g2] [B2d2] | [G2B2][B2d2] \
+| [M:3/4][L:1/8] \
+"G7"[B2g2] z[Bg] [B2g2] | ~[B2g2] [G2f2] [F2B2] \
+| [M:2/4][L:1/8] \
+"C"[E2c2] [G2e2] | [c2g2] [G2e2] | [E2c2] [G2e2] |
+| [M:3/4][L:1/8] \
+"C"[e2g2] [eg][eg] [eg][eg] | ~[e2g2] [c2e2] [G2c2] \
+| [M:2/4][L:1/8] \
+"G7"[G2B2] [B2d2] | [d2g2] [B2d2] | [G2B2][B2d2] \
+| [M:3/4][L:1/8] \
+"G7"[d2g2] [dg][dg] [dg][dg] | ~[d2g2] [B2f2] [G2B2] | "C"[E2c2] z :|
+S:https://www.folktunefinder.com/tunes/178420
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/NeunHauser_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/NeunHauser_C.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

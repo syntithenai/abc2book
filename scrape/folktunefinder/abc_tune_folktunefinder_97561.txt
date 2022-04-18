@@ -1,0 +1,32 @@
+X:12
+T: Taiyang chulai xiyangyang
+N: C0260
+O: China, Sichuan, Ostteil
+N: Die Gattungsbzeichnung gilt den Fuellwoertern, die den Klang des Gongs
+N: "Luo" imitieren.  Die Saengerin Lei Huilan ist Angehoerige der Zhuang
+N: Minderheit und studiert an der Guangzhouer Musikhochschule.
+N: aufgenommen am 5.5.87  Komischer Grundton 
+N:  AUCH AUF KASSETTE 1 = 46 CUT 2 (A-Seite)  MEHRMALS ! 
+N: Grundton liegt in der zweigestrichenen Oktave; Verzierung
+N: Als Tonbeispiel vorhanden; Signatur: 00151, Cut Nr.: 17
+N: Nach chinesischer Auffassung ist dies ein Zweizeiler (A-B).
+R: Shange, Luoer diao
+M: 2/4
+L: 1/8
+K: D
+efed | e2fz
+defe- | edBz
+ABdB | eeB2 | A2Bz
+dBed- | dBe2- | e4
+S:https://www.folktunefinder.com/tunes/97561
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Shange, luoer diao
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X: 112
+T:The Dionne Reel
+R:Reel
+S:from Nathan Curry
+Z:a five part reel named for the Dionne quintuplets. Played ABABCCDDEE.
+Z:Alf Warnock - alf0@rogers.com - www.alfwarnock.info/alfs
+M:C|
+L:1/8
+K:D
+P:A
+|Adfd gdfd|Adfd ed (3Bcd|Adfd gdfd|efec d2(3dcB|
+Adfd gdfd|Adfd ed (3Bcd|Adfd gdfd|efec d2fg|]
+P:B
+|afbf afde|fded Bcde|afbf afde|fdec d2fg|
+afbf afde|fded Bcde|afbf afde|fded d2|
+P:C
+A|~B2AG BGAG|BGAG EFGA|~B2AG BGAG|EGFA G3:|
+P:D
+|:F2Ad fdAF|G2Bd ~g3B|ABce gece|defg afdA|
+F2Ad fdAF|G2Bd ~g3B|ABce gece|[1 dfec dBAG:|[2 dfec defg|]
+P:E
+|:a2fd afda|g2e=c gefg|a2fd afda|[1 gece defg:|[2 gece d3B:|
+S:https://www.folktunefinder.com/tunes/92913
+S:http://www.alfwarnock.info/alfs/abc/accw02.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

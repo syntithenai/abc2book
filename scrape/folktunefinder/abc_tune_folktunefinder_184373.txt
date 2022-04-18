@@ -1,0 +1,26 @@
+X: 1
+T:R-172: Puncheon Floor
+R: reel
+M: 4/4
+L: 1/8
+K: G
+|:"G"GFGA BABc |d2g2B4|d2g2d2g2 | dg2d2 cBA |
+"G"GFGA BABc |d2g2B4|"G"d2g2"D"dBA2 |1"G"G6(3DEF :|2"G"G6|]
+[K:D]fg|: "D"agfa "A"gfeg | "D"fed2 "A"e4| "D"fed2 "A"e2fg | "D"fed2 "A"e2fg |
+"D"agfa "A"gfeg | "D"fed2 "A"e4|"D"fedf "A"edce |1"D"dcde "A"fefg :|2"D"d2 =c2 "D7"B2 A2||
+%%text 6/17/07
+S:https://www.folktunefinder.com/tunes/184373
+S:http://roaringjelly.org/music/reel/R172_Puncheon_Floor.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R172_Puncheon_Floor.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R172_Puncheon_Floor.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

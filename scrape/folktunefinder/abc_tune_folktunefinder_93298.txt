@@ -1,0 +1,24 @@
+X:175
+T: Patrick Street Polka
+S: "Patrick Street"
+Z: B.Black
+R: polka
+M: 2/4
+L: 1/8
+K: A
+E2 Ec | BA Bc | E2 Ec | BA F2 |
+E2 Ec | BA Bc | E2 e>c | BA A2 :|
+ce B>c | BA FE | ce B>c | BA A2 |
+ce B>c | BA FA | E2 e>c | BA A2 :|
+S:https://www.folktunefinder.com/tunes/93298
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

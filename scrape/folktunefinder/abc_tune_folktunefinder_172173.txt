@@ -1,0 +1,20 @@
+X: 1
+T: Lili Marlen'
+M: C
+L: 1/8
+K: D
+[| "D"[FD]>[FD] [FD][GE] [A2F2] [F2D2] | "A7"[GC]>[GC] [GC][dB] [c3A3]z \
+|  "A7"[EC]>[EC] [EC][FD] [G2E2] [GE][AF] | [cA]>[BG] [AF][GC] "D"[F3D3]z |
+|  "G"[B2G2] [cA][dB] [c2A2] [B2G2] | "D"[B2G2][A2F2] [c3A3] [BG] \
+|  "A7"[A2F2] [G2E2] [B3G3] [AF] | "D"[G2E2] [F2D2] [A3F3] [FD] |
+|  "A7"[A3F3] [GE] [G2E2] [e2G2] | "D"[d4F4] [F3D3] [FD] \
+|  "A7"[A3F3] [GC] [G2C2] [C2A,2] | "D"[D6F,6] z2 |]
+S:https://www.folktunefinder.com/tunes/172173
+S:http://trillian.mit.edu/~jc/music/abc/Germany/tune/Lili_Marlen_D.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Germany/tune/Lili_Marlen_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

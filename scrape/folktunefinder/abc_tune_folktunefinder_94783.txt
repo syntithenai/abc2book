@@ -1,0 +1,28 @@
+X:187
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sean Ryan's Fancy Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean Ryan
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+z2 | (3.G.G.G BG DGBd | Jg2 fg ((3efg) dB | (3.c.c.c ec B2 dB | ADFA dc BA |
+(3.G.G.G BG DGBd | Jg2 fg ((3efg) dB | (3.c.c.c ec B2 dB | ADFA G2 ::
+((3def) | gBdf eA^ce | edBG ADFA | GBdB cege | ((3fga) ef dfef |
+gBdf eA^ce | edBG ADFA | GBdB cegf | ed ((3cBA) G2 :|]
+S:https://www.folktunefinder.com/tunes/94783
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sean_Ryans_Fancy_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sean_Ryans_Fancy_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

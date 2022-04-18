@@ -1,0 +1,27 @@
+X: 12
+%%staffwidth     14.50cm
+T: Down Yonder #1
+I: Down YonderS-DDsquare
+C: S-D
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+"D"FFFE- EDE=F| ^FAFD- Ddc=c| "G"BBBB AGA^A| BdBG- G3E|
+"D"FD/D/ED FDED| FAFA- A3E| FD/D/ED FDED| FAFA- A3A|
+"E"^GG/G/GE FEGE| ^GGEG- GEFG| "A"AA/A/AA/A/ AA3| A2AA AGFE|
+"D"F4 EDE=F| ^FAFD- Ddc=c| "G"B4 AGA^A| BdBG- G3E|
+"D"FA^EF- FA2E| FA^EF- FA2^A| "E"Bcde- "A"ecA2| "D"d8 |]
+%%text 9/1/98Formerly R-97
+S:https://www.folktunefinder.com/tunes/97293
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

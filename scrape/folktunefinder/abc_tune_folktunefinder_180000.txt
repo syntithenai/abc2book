@@ -1,0 +1,24 @@
+X:0526
+T:"The Old Head Of Denis"    (air)   0526
+C:Unattributed
+C:with feeling
+N:Fermata to taste
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:G
+"_VB"(d3/4c/4)|(B3/2{cB}AG) (GED)|(DEG) G2(A3/4B/4)|(c3/2B/2A) (ABG)|dBG A2(A3/4B/4)|(c3/2B/2A) (ABG)|
+dBG {B}A2(G3/4A/4)|(B3/2A/2G) "^shake"(GE7/4D/4|DEG Hc2c3/4B/4)|B3/2A/2G "^shake"(GE7/4D/4)|DEG G2|]
+S:https://www.folktunefinder.com/tunes/180000
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0526-OldHead.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

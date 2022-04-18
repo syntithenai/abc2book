@@ -1,0 +1,38 @@
+X:655
+T: Porcupine's Fancy (with piano acc.)
+C: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/8=350
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A|"G"BcBA "Em"GFGE|"G"DEGB "D"(3AcA FA|"G"Bdgd "Em"efge|"D"dcBA "Em"BE (3EDE|
+[V:2] z|G,,2[G2D2B2]E,2[B2E2G2]|G,,2[G2D2B2]D,2[D2A2F2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+D,2[D2A2F2]E,2[B2E2G2]|
+%
+[V:1] "G"GBAF GABc | dgfg "Am"ea (3a^ga | "G"bg "D"af "Em"ed "D"BA |"G"GB"D"AF "G"G3 :|
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+[G,2D2B2][D2A2F,2][E,2B,2G2][D,2A,2F2]|[G,2D2B,,2][D,2A,2F2][G,,3D,3B,3] :|
+%
+[V:1] A|"G"BGBd "Am"cBAe|"G"dBdg "Am"ea (3a^ga|"G"gdBd "Am"ecAc|"D7"(3Bcd cA "Em7"GFED |
+[V:2] z|G,,2[G2D2B2]A,,2[A2E2C2]|G,,2[G2D2B2]A,,2[A2C2E2]|G,,2[G2D2B2]A,,2[A2C2E2]|\
+D,2[C2A2F2]E,,2[G2D2B2]|
+%
+[V:1] "G"GB (3BAB "Am"ABce | "G"dBdg "Am"ea (3a^ga | "Em"bg (3gfg "C"ecAG |"D"FGAF "G"G3 :|
+[V:2] G,,2[G2D2B2]A,,2[A2E2C2]|G,,2[G2D2B2]A,,2[A2C2E2]|E,2[B2E2G2]C,2[C2G2E2]|\
+D,2[D2A2F2][G,,3D3B,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87016
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

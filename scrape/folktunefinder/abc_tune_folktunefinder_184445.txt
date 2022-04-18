@@ -1,0 +1,28 @@
+X:1
+T:R\aevens vals
+R:waltz
+O:efter Evald Thomsen & Thorkild Knudsen
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+D2 \
+| "G"G3 (ABc) | d4 g2 | "C"(ec eg) (~fe) | "G"d4 B2 \
+| "D7"(c2 .a2) .a2 | "G"(B2 .g2) .g2 | "D7"(A2 .f2) .f2 | "G"(gf) ed ((3cBA) ||
+|| "G"G4 A2 | ~(B3 G)(BG) | "C"g2 ((3ded (3cdc) | "G"d4 B2 \
+| "D7"(c2 .a2) .a2 | "G"(B2 .g2) .g2 | "D7"(A2 .f2) .f2 | "G"g4 ||
+|: D2 \
+| "G"(DG) (Bd) BG | (DG) (Bd) BG | "D7"(DF) (Ac) AF | (DF) (Ac) AF \
+| "G"(DG) (Bd) BG | (DG) (Bd) BG | "D7"(DF) (Ac) AF | "G"G4 :|
+|: B2 \
+| "D7"(c2 a2) a2 | "G"(B2 g2) g2 | "D7"(fe) (dc) BA | "G"GA Bc dB \
+| "D7"(c2 a2) a2 | "G"(B2 g2) g2 | "D7"(A2 f2) a2 | "G"g4 :|
+S:https://www.folktunefinder.com/tunes/184445
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/Raevensvals.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

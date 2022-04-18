@@ -1,0 +1,22 @@
+X:45
+T: Farewell To Connaught
+M: 4/4
+L: 1/8
+R: reel
+K: Dmix
+|: D2 ED (3EFG AB | cBcd c2 AG | Add^c d2 cd | ed^cd edcd |
+| D2 ED (3EFG AB | cBcd c2 AG | ABAG EGAB | cAGE ED D2 :|
+|: eggf g2 ed | cded cAGc | eaag a2ag | egag ed^cd |
+eggf g2 ed | cded cAGc | ABAG EGAB | cAGE ED D2 :|
+S:https://www.folktunefinder.com/tunes/96629
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

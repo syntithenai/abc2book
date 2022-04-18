@@ -1,0 +1,35 @@
+X:1
+T:Mecklenburger Dreischritt
+C:traditionell
+R:walzer
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:im buch ganz in G, einstimmig mit harmonie-buchstaben, Seite 206
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+G2 GA Bc | d6 | e2 ec ec | d6 |\
+c2 ce dc | Bc dB AG | AB cA FA | G6 :|
+|: B2 BG BG | A6 | G2 GB AG | F6 |\
+E2 EG FE | DE FG AB | cA FD FA | G6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/175180
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/mecklenburger_dreischritt.abc
+% Rhythm Walzer
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

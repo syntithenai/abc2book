@@ -1,0 +1,28 @@
+X: 1
+T:Nail That Catfish
+C:Steve Rosen
+M:4/4
+L:1/8
+K:G
+DE \
+|: "G"B2B2 A2B2 | cBA2 B4 | "D"ABAG FDAB | A2F2 (3EFE D2 |
+   "G"B2B2 A2B2 | cBA2 B4 | "D"ABAG FDEF |\
+  [1 "G"G6 DE :|[2 "G"G6 D2 ||
+|: "C"C4 E4 | c6B2 | "D"ABAG FDAB | A2F2 (3EFE D2 |
+   "C"C4 E4 | c6B2 |\
+  [1 "D"ABAG FDEF | "G"G6 D2 :|[2 "D"d2c2 B2A2 | "G"G2z2 G2DE |]
+N:http://www.thursdaycontra.com/~spuds/-
+N:tunes/reels/nailcatfish.abc 3/13/2007
+N:Slightly edited by Peter Ostapenko 3/15/2007
+N:G Major
+S:https://www.folktunefinder.com/tunes/178183
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/NailThatCatfish.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

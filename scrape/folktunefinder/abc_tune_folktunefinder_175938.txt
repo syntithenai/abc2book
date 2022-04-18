@@ -1,0 +1,20 @@
+X: 1
+T: Minutemen, The
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+fdef d2A^A|Bdef B2DF|ED~D2 AGFG|Ac~c2 agfe|
+fdef d2A^A|Bdef B2dF|ED~D2 AGFD|1EA,CD ED ~D2:|2EA,CD EDDF||
+G3E FAAF|E{A}EDE FDDF|~G3B AGFD|EAAc edcA|
+G3G FAAF|E{A}EDE FDDF|~G3B AGFD|1EA,CD EDDF:|2EA,CD ED ~D2||
+S:https://www.folktunefinder.com/tunes/175938
+S:http://www.thesession.org/tunes/display/7655
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

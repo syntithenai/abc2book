@@ -1,0 +1,34 @@
+X:54
+T:Lost in Maize
+M:4/4
+L:1/16
+R:Hornpipe
+C:Gris Sanderson
+Q:700
+N:I wrote this 3-part hornpipe after getting lost in a maze made 
+N:of maize.The maze was near Cognac and was designed on an 
+N:idea inspired by Antoine de St.Exupery's book entitled 'The 
+N:Little Prince'. Anyway, being the contrary person I am, I 
+N:decided to do away with the thoughtfully provided map and 
+N:promptly lost all sense of direction -for several hours I 
+N:believe.   
+K:Ador
+A4A3B (3d2B2A2 B3G|A3B (3d2B2A2 G3E D3G|
+E3B e3B d3B e3B|d3B (3e2d2B2 A3G E3G|
+A4 A3B A3G E3D|E3G (3A2B2d2 e4 e3d-|
+d3B e3d B3A G3A|~B4 B3G c3G B3G:|
+|:(3A2B2A2 a3g (3e2e2e2 a3g|e4 (3d2e2d2 ~B4 (3B2A2G2|
+(3A2B2A2 a3g (3e2e2e2 (3e2f2g2|f3f (3e2f2e2 (3d2e2d2 B3e|
+(3A2B2A2 a3g (3e2e2e2 a3g|e4 e3g ~a4(3g2e2g2|
+b3g (3e2f2g2 f3d a3f|(3e2f2e2 d3B e3d B3G:||
+S:https://www.folktunefinder.com/tunes/173073
+S:http://www.grissanderson.com/x54.txt
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

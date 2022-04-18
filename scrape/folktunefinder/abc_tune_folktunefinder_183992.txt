@@ -1,0 +1,42 @@
+X: 1
+T:Princess Royal
+M:4/4
+C:
+S:Bacon (from George Hathaway (RKS 1937) (SC))
+N:transposed from GDor to ADor
+A:Bledington
+O:Irish
+R:Reel
+%:
+%:
+%P:A(AB)(CB)$^2$
+P:A(AB)(CB)2
+I:speed 400
+L:1/16
+K:ADor
+P:A
+e3d|\
+c4 B4  A4 e3d|c4 B4  A4 e3e|f4 d4  d3ef3d|e4 c4 (c4 c3) e|\
+d4 c3c B4 A4|G4 F3F E4 d4|c4 B3A G4 B4|A8     A4||\
+P:B
+e3f|\
+g4 e4  e3fg3e|a4 A4  A8|a3gf3e d3cB3A|B4 G4 (G4 G3) G|\
+A4 A4 (c4 c3) c|d4 d4 (g4 g3) g|f4 d4  e4  e3d|c4 A4  d8|\
+c3BA3G A3Bc3d|e4 A4  A4 e3d|c4 B3A G4  B4|A8     A4  z4||\
+% the phrasing at the end of B and beginning of B works
+% works only if C always follows B
+P:C
+e6 d2  c8|B8     A8|e6 d2  c8|B8     A8|\
+e6 e2  f8|d8     d6 e2|f6 d2  e8|c8    (c4 c3) e|\
+d4 c3c B4 A4|G4 F3F E4 d4|c4 B3A G4  B4|A8     A4||
+S:https://www.folktunefinder.com/tunes/183992
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pr/Princess_Royal_10.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

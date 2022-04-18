@@ -1,0 +1,22 @@
+X:1
+T: The Liberty Bell March
+T: (transposed)
+C: John Philip Sousa
+C: arr by David Yates
+M: 6/8
+L: 1/8
+K: G
+(g2fe2_e | d2_dc2B) | .A.B.c B2A | D2 z z2 d |: &quot;G&quot;BzB B^AB | gzd dzB | \
+&quot;D7&quot;c2c c2d | e3-e2c | AzA A^GA | fze ezc | &quot;G&quot;BzB Bzc | d3-d2d | \
+BzB B^AB | bzg gzd | &quot;A&quot;^cza aza | a3-a2g | &quot;D/A&quot;(kfza a^ga) | &quot;A7&quot;(keza a^ga) |\
+&quot;D&quot;kdz&quot;A7&quot;^c &quot;D&quot;kdz&quot;A7&quot;^c |1 &quot;D&quot;d3 d3 :|2 &quot;D&quot;d3 &quot;D7&quot;k=c3 |: &quot;G&quot;(B^AB e2d | B3 G3) |\
+&quot;C&quot;(E3 &quot;D7&quot;A3 | &quot;G&quot;G3-G2)G | &quot;D7&quot;(ABc f2e) | &quot;G&quot;d3 &quot;Edim&quot;g3 | &quot;D/A&quot;f3 &quot;A7&quot;e3 |\
+&quot;D&quot;d3-d2d | &quot;C&quot;(eze {f}e^de) | &quot;B7&quot;f3 f3 | &quot;Em&quot;g2g &quot;Am/C&quot;{b}aga | &quot;B&quot;b3-b2b |\
+&quot;Am/C&quot;{b}azg ezc | &quot;G/D&quot;B3 G3 | &quot;D7&quot;A3 F3 |1 &quot;G&quot;G3-G2d :|2 &quot;G&quot;G3-G2z |]
+S:https://www.folktunefinder.com/tunes/172085
+S:http://www.thesession.org/tunes/display/2767
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

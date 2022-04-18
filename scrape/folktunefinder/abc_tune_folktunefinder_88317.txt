@@ -1,0 +1,31 @@
+X:800
+T:Prussian Grand Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001078.html
+%%ID:00001078
+K:D
+(ABc) | \
+.d2.d2.d2 | d4 d'c' | (bagfed) | (c2e2) (Ac) | \
+.f2.e2.e2 | f4 (ag) | (fedcBA) | d4 :: de |
+{e}(dc) | \
+dfgabc' | d'4 a2 | (a2g2e2) | (g2f2d2) | \
+(dfgabc') | d'4 a2 | abagfe | d4 ::
+!p! de | \
+.f2.f2 fg | .e2.e2 (ef) | d2.d2. (df) | (ecA2) (de) | \
+.f2.f2 (fg) | .e2.e2 (ef) | (dA)(df)ed | d4 ::
+%%newpage
+%page 62
+S:https://www.folktunefinder.com/tunes/88317
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:560
+T:the General Toast
+B:Aird's Airs and Melodies vol 3
+M:6/8
+N:repeats A::B||
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000200.html
+%%ID:00000200
+K:G
+G>AG g>fg| edc B2A| G>AG g>fg| e3 d3|\
+G>AG g>fg| edc B2A| G>AG edc| B2A G3::
+Bcd d3| e>dc B2G| B>cd d>gd| cBA G3|\
+Bcd d3| e>dc B2G| B>cd d>gd| cBA G3:|
+S:https://www.folktunefinder.com/tunes/95418
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

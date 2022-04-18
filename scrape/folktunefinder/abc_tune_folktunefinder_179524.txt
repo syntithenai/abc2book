@@ -1,0 +1,42 @@
+X:1
+T:Oeitza gaemma aaf Loretta - Landla
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+G2B | d2G | GF2 | FzD |\
+F2A | d2c | B3 | Bzd |
+B2B | c2d/d/ | e2g | f2e |\
+d2d |1 fe>c | B3- | Bz2 :|\
+ [2 fe>F | G3- | Gz ||
+K:C
+|: E/G/ |\
+A/=f/f/e/e/d/ | cE/G/G/c/ | BD/G/G/B/ | cE/G/G/c/ |\
+A/f/f/e/e/d/ | cE/G/G/c/ | BD/G/G/B/ | c2 :|
+K:G
+|: z |\
+g3 | d3 | BB>B | c3 |\
+f3 | e3 | cc>c | B3 |
+ggg | ddd | BB>B | c3 |\
+f3 | e3 | def | g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179524
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/oeitza_gaemma_aaf_loretta_-.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

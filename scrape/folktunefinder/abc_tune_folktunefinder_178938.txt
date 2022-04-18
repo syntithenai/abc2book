@@ -1,0 +1,21 @@
+X: 1
+T:no name
+M:6/8
+L:1/8
+R:jig
+Z:id:hn-jig-141
+K:Edor
+F|:GEE B,EE|~F3 DFA|GEE B,EE|FED E2F|
+GEE B,EE|~F3 DFA|BAG BdB|1 AFD E2F:|2 AFD E2c||
+|:~d3 dcB|AFD FGA|Bee ede|fed AFA|
+~d3 dcB|AFD FGA|Bdd BdB|1 AFD E2c:|2 AFD E2||
+S:https://www.folktunefinder.com/tunes/178938
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/no_name_5.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

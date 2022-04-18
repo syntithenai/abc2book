@@ -1,0 +1,43 @@
+X:171
+T: Laohan fangyang
+N: C1663
+O: China,Henan, Tanghe
+S: IV, 161]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+g3ge2d2 | B2deg4
+B3BB2B2 | A2d2d4
+B3ge2ed | B2BdB4
+B3AB2B2 | B3AB2B2 | A2d2d4
+z2B4g2 | e2edB2Bg | e4
+B3BB2B2 | A2d2B4
+z2B4g2 | e2zd | B2d2B4
+B3BB2BB | A2d2B4
+B3BB2B2 | A2d2B2
+B2 | g3ge2d2 | B4A2B2 | ^c3ed4
+f4f4 | e8 | z2e4d2 | ^c4B2B2 | A4d4 | B4
+B2BBB2B2 | A2d2z2d2
+B3BB2B2 | B2g2z2B2
+B2B2B2B2 | A2d2d4
+B3BB2B2 | B2g2z2d2
+B3BB2B2 | A2d2d4
+B3BB2B2 | B2g2z2g2
+B3BB2B2 | A2d2d4
+B3BB2B2 | A2d2z2d2
+e3eg2d2 | A2d2d4
+f4e4- | e8 | z2e4d2 | B4d4 | G8
+z2e2d2e2 | g3ge2d2 | d4e4- | e2
+B2A2B2 | g4d3e | B3AG4 | B3dA2B2 | G8
+S:https://www.folktunefinder.com/tunes/92194
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

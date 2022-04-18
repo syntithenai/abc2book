@@ -1,0 +1,28 @@
+X: 1
+T: On a Bank of Flowers [D]
+O: Trad
+B: O'Neill - Music of Ireland (1903), #257
+Z: John Chambers <jc:trillian.mit.edu>
+N: Most versions of this tune are in minor.
+M: 2/4
+L: 1/16
+K: D
+DE \
+| "D"F2A2 "A7"A2Bc | "D"d2A2 A2f2 \
+| "G"e2d2 "A7"fedc | "D"d6 :|\
+fg \
+| "D"a2f2 fgaf | "A7"g2e2 e2de |
+| "D"f2d2 defd | "A7"e2A2 A2FG \
+| "D"A^GAB A=GFG | A^GAB A2f2 \
+| "G"e2d2 "A7"fedc | "D"d6 |]
+S:https://www.folktunefinder.com/tunes/180347
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/OnABankOfFlowers_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

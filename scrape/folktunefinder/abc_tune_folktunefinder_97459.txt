@@ -1,0 +1,27 @@
+X: 15
+T:Tatter Jack Walsh
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+D:
+Z:
+K:Dmix
+"D"~f3 ded|"C"cAB c2A|"D"dcA GFG|"A"Add efg|
+"D"fef ded|"C"cAB c2A|"D"dcA GFG|1 "A"Ad^c "D"d2e:|2 "A"Ad^c "D"d2A||:
+"D"dfa afd|dfa a2f|"C"~g3 gag|"A"e^cd efg|
+"D"fgf ded|"C"cAB c2A|"D"dcA GFG|1 "A"Ad^c "D"d2A:|2 "A"Ad^c "D"d2e|]
+S:https://www.folktunefinder.com/tunes/97459
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

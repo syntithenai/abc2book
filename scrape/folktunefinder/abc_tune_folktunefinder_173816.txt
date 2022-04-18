@@ -1,0 +1,28 @@
+X: 1
+T: THE MAID OF THE MILL
+S: MDT
+O: Bampton
+P: A.(AB2)4
+Q: 3/8=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+P: A
+E | A>GA c>BA | B>cd e>cA | E>dc d>cd | B>GE E>FG |
+    A>GA c>BA | B>cd e>cA | E>dc B>AG | A3   A2  ||
+P: B
+c/d/ | e>fe e>ga | d>Bc d>ed | B>cd e>fe | A3 G>FE |
+       A>GA c>BA | B>cd e>cA | E>dc B>AG | A3 A2  ||
+S:https://www.folktunefinder.com/tunes/173816
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Maid_of_the_Mill_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

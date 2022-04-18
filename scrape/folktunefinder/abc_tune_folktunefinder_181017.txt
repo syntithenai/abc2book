@@ -1,0 +1,22 @@
+X:1820
+T:Paddy Carey
+M:6/8
+L:1/8
+B:O'Neill's 1820
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+   A2 d {e}dcd | f2 d {e}dcd | B2 e e2 f | gfe dcB   |
+   A2 d {e}dcd | f2 d {e}dcd | ecA   ABc | def e2 d :|
+|: d2 f   g2 b | a2 b    afd | d2 e g2 b | afd e2 d  |
+   d2 f   g2 b | a2 b    afd | ecA   ABc | def e2 d :|
+|: g2 e {f}ede | f2 d {e}dcd | ecA   ABc | def e2 d  |
+   g2 e {f}ede | f2 d {e}dcd | ecA   ABc | def e2 d :|
+S:https://www.folktunefinder.com/tunes/181017
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1820_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

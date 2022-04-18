@@ -1,0 +1,23 @@
+X: 1
+T: Alabama Rick's
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|: AFE FAd|cAA ~A3|Ace ~f3|ecA BcB|
+AFE FAd|cAA ~A3|Ace ~f3|1 ecA A2c :|2 ecA A2f||
+|: =ged ~B3 | de=g ef^g | aec Ace | aec A2 f |
+=ged ~B3|de=g ef^g|aec ~f3|1 ecA A2f :|2 ecA Afg||
+|: aec efe|dec efe|ceB efe|ceB efg|
+aec efe|dec efg|aec ~f3|1 ecA Afg :|2 ecA A3||
+S:https://www.folktunefinder.com/tunes/97344
+S:http://www.thesession.org/tunes/display/994
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:545
+T:Morgiana in Spain
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005c7.html
+%%ID:000005c7
+K:C
+E2F G2c | E2F G2c | A2A d2c | Bdc BAG |\
+E2F G2c | E2F G2c | A2d BAB | c2c c2 ::
+d2c B2e | d2c B2e | d2c B2A | G2G G2e | \
+d2c B2e | d2c B2e | dec BcA | (GA)F (EF)D |
+E2F G2c | E2F G2c | A2A d2c | Bdc BAG |\
+E2F G2c | E2F G2c | A2d BAB | c2c c3 :|
+%%newpage
+%page 33
+S:https://www.folktunefinder.com/tunes/88266
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

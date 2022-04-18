@@ -1,0 +1,23 @@
+X:1
+T:Muireann's Jig, pt.1
+C:Niall Vallely
+R:jig
+M:6/8
+L:1/8
+K:BMin
+dBA ~B3|def ede|f2e ede|faf efe|
+dBA ~B3|def ede|fba fed|fee edB:|
+BAB e3|BAB fef|Bba fed|fee edB|
+BAB e2B|BAB fef|baf aba|fee edB:|
+<abc>
+S:https://www.folktunefinder.com/tunes/125662
+S:http://tomkeays.com/music/wiki/pages/playground/jigs.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

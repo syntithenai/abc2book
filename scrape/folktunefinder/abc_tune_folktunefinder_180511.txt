@@ -1,0 +1,40 @@
+X:28
+T:Open Boat
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:6/8
+L:1/8
+Q:130
+K:D
+A |\
+"D"def "A"edc |\
+"D"dAA "G"BAG |\
+"D"FAA "D"AFA |\
+"A"Bee "A"efg |\
+"D"fed "A"edc |\
+"D"dAA "G"BAG |\
+"D"FAA "D"AFA |\
+"A"Bdd "D"d2 :|\
+e |: "D"fga "D"agf |\
+"G"gab "G"bag |\
+"D"fga "D"agf |\
+"A"gfg "A"e2 g \
+|1 "D"fga "D"agf |\
+"G"gab "G"bag |\
+"D"faf "A"gec |\
+"D"edc "D"d2 g :|2\
+"D"f2 d "A"e2 c |\
+"D"ded "D"AGF |\
+"G"GAB "A"ABc |\
+"D"[F4 d4] ||
+S:https://www.folktunefinder.com/tunes/180511
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/OpenBoat.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

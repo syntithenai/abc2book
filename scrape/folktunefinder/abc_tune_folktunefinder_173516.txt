@@ -1,0 +1,52 @@
+X: 1
+T: Madam Bonaparte
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: d^c=c | B2 BA (3Bcd BG | c2 cB cdcA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd BG (3Bcd BG | cBcd eFFE | dB B2 BA A2 | AGGA G2 dc ||
+|: B2 BA (3Bcd BG | c2 cB cdcA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd BG (3Bcd BG | cBcd ef (3gfe | (3gfe dB cAFA | G2 GA G2 BA ||
+|: GA (3Bcd gd (3gfe | d2 fe dcBA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd fd fd fd |
+(3Bcd gd (3Bcd gd | cBcd ef (3gfe | (3gfe dB cAFA | G2 GA G2 BA ||
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd fd fd fd |
+(3Bcd gd (3Bcd gd | cBcd eFFE | dB B2 BA A2 | AGGA G2 dc ||
+|: B2 BA BdBG | c2 cB cdcA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+B2 BA (3Bcd BG | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+B2 BA BdBG | c2 cB cdcA | B2 BA BdBG | A2 AG AcBA |
+B2 BA BdBG | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+|: GA (3Bcd gd (3gfe | d2 fe dcBA | GA (3Bcd b2 (3gfe | d2 fe dcBA |
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd Fd Fd Fd |
+(3Bcd (3Bcd (3Bcd (3Bcd | cBcd egge | (3gfe dB cAFA | G2 GA G2 BA ||
+GA (3Bcd gd (3gfe | d2 fe dcBA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd fd fd fd |
+(3Bcd gd (3Bcd gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+|: BB Gd BB Gd | cc Ad cc Ad | BB Gd BB Gd | A3G AcBA |
+BB Gd BB Gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+|: BB Gd BB Gd | cc Ad cc Ad | BB Gd BB Gd | A3G AcBA |
+BB Gd BB Gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+B2 BA (3Bcd BG | c2 cB cdcA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd BG (3Bcd BG | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+B2 BA BdBG | c2 cB cdcA | B2 BA BdBG | A2 AG AcBA |
+B2 BA BdBG | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+GA (3Bcd gd (3gfe | d2 fe dcBA | GA (3Bcd gd (3gfe | d2 fe dcBA |
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd fd fd fd |
+(3Bcd gd (3Bcd gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+(3Bcd gd (3Bcd gd | (3Bcd ad (3Bcd ad | (3Bcd gd (3Bcd gd | (3Bcd fd fd fd |
+(3Bcd gd (3Bcd gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+|: BB Gd BB Gd | cc Ad cc Ad | BB Gd BB Gd | A3G AcBA |
+BB Gd BB Gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+|: BB Gd BB Gd | cc Ad cc Ad | BB Gd BB Gd | A3G AcBA |
+BB Gd BB Gd | cBcd egge | dB B2 BA A2 | AGGA G2 dc ||
+S:https://www.folktunefinder.com/tunes/173516
+S:http://www.thesession.org/tunes/display/2344
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:0693
+T:"Planxty Lady Blaney"           0693
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#005 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+"^vb".e2.g2 (ga)(gf)|(ef)(ed c2) z2|A2A2 (fe)(dc)|(Bc)(AB) G2(ed)|
+.c2.g2 (ef)(ge)|(agfe) d2 z2|(fedc) B2c2|d2e2 A2 z2|
+"_Piano".G2(AG) .F2(GF)|.E2(FE) D2C2|"_Forte"{^c}d2(ed) {B}=c2(dc)|{A}B2(cB) TRA2G2|
+.G2(e2f2e2)|d4z2A2|AGFE {G}FEDC|(.c4.c2) z2||
+.G2(GE) C2G,2| "^>".C2.E2 .G2.E2|(AG)(AF) D2A,2|.D2.F2 .A2.F2|(EG)(EG) G4|{E}FAFA A4|
+{A}(Bd)(Bd)d4|(cdef)(g3f)|e2g2(ga)(ge)|f2c'2(c'b)(c'd')|(c'2b2a2)A2|(G2F2E2)e2|
+"_Piano"(agfe)d2d2|"_Piano"(gfed)"^>"c2c2|(dedc)(BcBA)|G2G2"^>"G2(AB)|(cGEG)(cGEG)|c4z2(Bc)|
+(dAFA) (dAFA)|d4z2(GF)|E2G2 c2(cB)|(A2c2f2).e2|(dedc) (cBAB)|c4c2 z2|]
+S:https://www.folktunefinder.com/tunes/182777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/693-PlanxtyLadyBlaney.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 38
+T: POLKA NORMANDE
+M: 6/8
+L: 1/8
+Q:1/4=160
+K:C 
+|cBA G3/2 z/2 G|cBA G5/2 z/2 |ccd e3/2 z/2 c|d3/2 z/2 e d3/2 z/2 d|
+cBA G3/2 z/2 G|cBA G5/2 z/2 |ccd e3/2 z/2 c|d3/2 z/2 B c5/2 z/2 |
+cBA G3/2 z/2 G|cBA G5/2 z/2 |ccd e3/2 z/2 c|d3/2 z/2 e d3/2 z/2 d|
+cBA G3/2 z/2 G|cBA G5/2 z/2 |ccd e3/2 z/2 c|d3/2 z/2 B c5/2 z/2 |
+g5/2 z/2 e3/2 z/2 a|g3/2 z/2 f e3/2 z/2 g|f3/2 z/2 d def|ege cBc|
+dfd GAB|cde f3/2 z/2 d|def ege|cde dfd|
+GAB c5/2 z/2 |g5/2 z/2 e3/2 z/2 a|g3/2 z/2 f e3/2 z/2 g|f3/2 z/2 d def|
+ege cBc|dfd GAB|cde f3/2 z/2 d|def ege|
+cde dfd|GAB c5/2|
+S:https://www.folktunefinder.com/tunes/172051
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/polkas.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1849
+T:"The Munster Outcry"  (march)   1849
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:G
+(d/2e/2f/2g/2)|(ab ab ab ab)|TRa8|TRa8|(3(bag) e2(e/2f/2g/2a/2) b2|
+(bc' bc' bc' bc')|TRb8|TRb8|b3a g e3|
+ge ag (3(bag) ag|(3(bag) a2b2(c'/2b/2a/2g/2)|e2ge ag  (3(bag)|ag  (3(bag) ag g2|
+za  (3(bag) e4|ge ag  (3(bag) ag|(3(bag) a2b2(c'/2b/2a/2g/2)|e2ge ag  (3(bag)|
+ag  (3(bag) ag g2|za  (3(bag) e4|ge ag  (3(bag) ag|(3(bag) ag (b/2a/2g/2e/2)  (3(deg)|ag g6|ce c2 (3(cBA) BD|B2 (3(BAG) AD A2|
+(3(AGE) GD G2 (3(GED)|AD A2 (3(AGE) BD|B2 (3(BAG) BD B2|(3(BAG) AD A2 (3(AGE)|
+GD G3A  (3(BAG)|E3zc zc2|(3(BAG) E2B zB2|(3(BAG) E2A zA2|
+(3(BAG) E2B z (3(BAG)|z (3(A3/2G/2E) z (3(B3/2A/2G)  (3(A3/2G/2E)|G3A  (3(BAG) E2|
+GE AG  (3(BAG) AG|(B/2A/2G/2E/2) (3(DEG) AG G2|G6|]
+S:https://www.folktunefinder.com/tunes/177718
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1849-MunsterOutcry.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1801-1850/1849-MunsterOutcry.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

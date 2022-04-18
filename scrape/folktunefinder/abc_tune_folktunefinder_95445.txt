@@ -1,0 +1,26 @@
+X:695
+T:New Stepney March
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:For the Violin
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000021b.html
+%%ID:0000021b
+K:G
+"Moderato" B/c/|\
+dBG g2e| f2d e2c| dBG dBG| FAA A2B/c/|\
+dBG g2e| f2d e2c| dBc dBe| BcA G2::
+D/C/|\
+B,2D G2B| FAc GBd| c2e dBG| FAA A2D/C/|\
+B,2D G2B| FAc GBc| dBc dBg| BcA G2:|
+S:https://www.folktunefinder.com/tunes/95445
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

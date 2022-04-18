@@ -1,0 +1,53 @@
+X: 9017
+T: Boy Genius (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] D|"G"GEED "Am"EGAc|"G"BGGF GABd|"G"gdde "F"=fc c2|"Bb"_BAGB "Dm"AG=FD |
+[V:2] z|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[G2B2D2]|G,,2[G2B2D2]=F,,2[A2C2=F2]|\
+_B,,2[_B2=F2D2]D,2[A2D2F2]|
+%
+[V:1] "G"GEED "Am"EGAc|"G"BGGF GABd|"G"gabg "Am"afge|"D"dcAF "G"G3 :|
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[G2B2D2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+D,2[A2D2F2] [G,,3D3B,3]:|
+%
+[V:1] A|"G"dg (3gfg bg (3gfg|"F"a=f (3fef dfcf|"G"=B2 Bd "Am"c2 cA|"G"=Bcde "F"=fefa |
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|=F,,2[A2C2=F2]C,2[A2C2=F2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+G,,2[G2B2D2]=F,,2[A2C2=F2]|
+%
+[V:1] "G"g2 dg Bgdg|"F"=f2 cf AfcA|"G"=Bd (3d^cd "F"=cA (3A^GA|"D"dcAF "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|=F,,2[A2C2=F2]C,2[A2C2=F2]|G,,2[G2B2D2]=F,,2[A2C2=F2]|\
+D,2[A2D2F2] [G,,3D3B,3] :|
+%%%%%%tune repeat
+[V:1] D|"G"GEED "Am"EGAc|"G"BGGF GABd|"G"gdde "F"=fc c2|"Bb"_BAGB "Dm"AG=FD |
+[V:2] z|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[G2B2D2]|G,,2[G2B2D2]=F,,2[A2C2=F2]|\
+_B,,2[_B2=F2D2]D,2[A2D2F2]|
+%
+[V:1] "G"GEED "Am"EGAc|"G"BGGF GABd|"G"gabg "Am"afge|"D"dcAF "G"G3 :|
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[G2B2D2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+D,2[A2D2F2] [G,,3D3B,3]:|
+%
+[V:1] A|"G"dg (3gfg bg (3gfg|"F"a=f (3fef dfcf|"G"=B2 Bd "Am"c2 cA|"G"=Bcde "F"=fefa |
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|=F,,2[A2C2=F2]C,2[A2C2=F2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+G,,2[G2B2D2]=F,,2[A2C2=F2]|
+%
+[V:1] "G"g2 dg Bgdg|"F"=f2 cf AfcA|"G"=Bd (3d^cd "F"=cA (3A^GA|1 "D"dcAF "G"G3 :|2\
+"D"dcAF "G"HG4 ||
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|=F,,2[A2C2=F2]C,2[A2C2=F2]|G,,2[G2B2D2]=F,,2[A2C2=F2]|1\
+D,2[A2D2F2] [G,,3D3B,3] :|2 D,2[A2D2F2] G,,4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87102
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

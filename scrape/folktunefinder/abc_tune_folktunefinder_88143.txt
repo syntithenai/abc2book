@@ -1,0 +1,28 @@
+X:50
+T:Faustus
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st & 2d Couples, retaining hands
+%%Dancenotes:lead down the middle & chain, figure of four at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de2.html
+%%ID:00000de2
+K:D
+F/G/ |\
+|:S AAA AAA | L[f2A2]d A2F | GBG FAF | Eed cBA |\
+AAA AAA | L[f2A2]d A2F | Ged cBc | d2D D2 ::
+c/d/ |\
+eee ecA | ffe def | eee ecA | dfe d2c/d/ |\
+eee ecA | aaa agf | eae dcB | AFG AFG S :|
+\newpage
+% page 6
+S:https://www.folktunefinder.com/tunes/88143
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:500
+T:McDonagh's
+M:C|
+L:1/8
+Q:200
+C:Charlie Lennon
+S:THSP
+R:reel
+Z:
+K:Edor
+"Em"B2A=c BEED|E2BE E2B=c|BAFA "D"D3E|FDFA dAFA|
+"Em"B2A=c BEED|E2BE E2B=c|"G"BAGF GABc|1 "D"dBAG FDFA:|2 dBAG FDD2||:
+"D"d2ef gfed|"Bm"fB~B2 fB~B2|"D"d2ef gfed|"A"ceae ceae|
+"D"d2ef gfed|"Bm"fB~B2 fB~B2|"D"~a2ge "G"fdec
+|1 "A"dBAG "D"FDD2:|2 "A"dBGA "D"FDFA|]
+% Output from ABC2Win  Version 2.1 k on 5/19/2007
+S:https://www.folktunefinder.com/tunes/97444
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:40
+T:Casper's Song
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+N:Yes, this really is a peculiar tune.
+O:England
+Z:Richard Robinson 
+%%Dancenotes:FANCY Figure
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de0.html
+%%ID:00000de0
+K:E min
+e2 e2        | ed/c/ Bc  | B2 z2        | \
+B2 e2        | ^dd/e/ ff | B4        | \
+=de/f/ gB/c/ | Td4       | \
+G2 Te2 | .d.b Te2  | db z2  |! \
+Bd cf  | gd b2     | Bd cf  | gd b2 | \
+Lg3 f/e/ | (d/e/d/c/) (B/c/B/A/) | G/A/B/c/ d2  | e3 f | !\
+Lg3 f/e/ | (d/e/d/c/) (B/c/B/A/) | G/A/B/c/ Td2 |\
+G2 Te2 | .db Te2 | .db z2 | \
+TB4    | eE z2 |]
+\newpage
+%page 5
+S:https://www.folktunefinder.com/tunes/88141
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

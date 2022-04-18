@@ -1,0 +1,27 @@
+X:335
+T:John Small's Minuet
+B:Aird's Airs and Melodies vol 3
+M:3/8
+R:Minuet
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001d3.html
+%%ID:000001d3
+K:G
+D2|\
+G3AB2| B2dBAG| A2B2d2| "tr"e4 g2| G3AB2| B2g2(Bd)| "tr"A4 G2| G4::
+D2|\
+(E2G2).G2| g4 ga| "tr"f4 fa| f3ed2| \
+B2e2e2| "tr"e4d2| efgefd| "tr"e3dB2|
+d2e2f2| .g2(ag)(fe)| .f2(gf)(ed)| (edef).g2|\
+G3AB2| B2g2Bd| "tr"A4 G2| G4:|
+S:https://www.folktunefinder.com/tunes/95373
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

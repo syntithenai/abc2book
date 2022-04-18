@@ -1,0 +1,27 @@
+X:0676
+T:"Planxty Nancy Vernon"            0676
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+"^vb"e|c2A (F3/2E/2F)|E3(EFA)|B2B (BAF)|(ABc) (d2e)|
+c2A (F3/2E/2F)|E3(EFA)|B2d c2B|BAA A2||
+c|e2c A2c|d3d2c|(d2e) f2e|edc B2c|f2e edc|B3c2B|
+BAF F2E|EFA HB2e|c2A (F3/2E/2F)|E3(EFA)|B2d c2B|BAA A2|]
+S:https://www.folktunefinder.com/tunes/182802
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/676-PlanxtyNancyVernon.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

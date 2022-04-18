@@ -1,0 +1,57 @@
+X:1
+T:Plin : Suite Jean-Michel Veillon
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:Plin
+S:Jean-Michel Veillon
+A:Bretagne
+M:4/4
+L:1/8
+K:D
+T:Ton berr
+P:A
+K:D
+dffd eg f2|edef gg f2::dffd cd e2|egfg e2 e2:|
+P:B
+K:D
+K:Em
+ABcB AGA>G|ABcB A2 G2|(3GAB cB AGA>G|ABcB A2 G2||
+ABcB AG A2|GGEF E2 E2|AdcB AG A2|GGED E2 E2|]
+P:C
+K:D
+K:Am
+defe dc d>c|defe d2 c2|(3cde fe dc d>c|defe d2 c2||
+defe dc d2|ccAB A2 A2|dgfe dc d2|ccAB A2 A2|]
+M:6/8
+L:1/8
+K:Am
+Acd e3|cde f3|edc B3|GAB c2A|1AGB A3:|2AGB A2||
+M:4/4
+K:Am
+e|ecBe ed/c/Be|egdd BG B2|AB/c/dc BAGe|edB[Gc] A2 A2:|
+T:Ton hir
+M:4/4
+L:1/8
+K:Ddor
+Addf fd d2|e2 ceed d2::Addf f2 e2|eaga f2 e2|eaga f2 ed|dd c2 e2 d2:|
+T:Ton tripl
+M:4/4
+L:1/8
+K:G  
+B|:BcBG BA (3GAG|FEDF E2 EB:|BcBG BAGF|GA B2 (3BAG FG|
+EFGA BA G2|FEDE F2 FD|EFGA BA G2|FEDF E2 E|]
+S:https://www.folktunefinder.com/tunes/182901
+S:http://termen.free.fr/danses/cornouaille/PlinSuiteJeanMichelVeillon.abc
+% Rhythm Plin
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Key C
+% Key A
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

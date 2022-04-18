@@ -1,0 +1,22 @@
+X:1
+T:Ode to Joy
+C:L. Van Beethoven
+M:4/4
+L:1/4
+K:G
+B B c d | d c B A | G G A B | B>A A2 |
+B B c d | d c B A | G G A B | A>G G2 |:
+A A B G | A B/2c/2 B G | A B/2c/2 B A | G A D2 |
+B B c d | d c B A | G G A B | A>G G2 :|
+S:https://www.folktunefinder.com/tunes/179471
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/OdeToJoy.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/OdeToJoy.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/OdeToJoy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

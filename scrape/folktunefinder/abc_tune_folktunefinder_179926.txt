@@ -1,0 +1,27 @@
+X:1
+T:Old Folks at Home
+C:Stephen C. Foster, 1851
+N:Only the Bm above "far" is actually needed.
+N:From "The One Hundred and One Best Songs"
+N:John Chambers transcribed this tune, but
+N:the credit he used caused the software I
+N:used to blow up. I had to delete it. Sorry.
+N:/ The Cable Company - 1919 - Chicago, Illinois
+M:4/4
+L:1/8
+Q:1/4=120
+K:D
+V:1 clef=treble
+|:"D"F4 "A7"E D "Bm"F E | "D"D2 d2 "G"B d3 | "D"A4 "Bm"F2 D2  | "A"E4-"A7"E2 z2 |
+S:https://www.folktunefinder.com/tunes/179926
+S:http://everythingdulcimer.com/tab/oldfolks.abc
+S:http://www.everythingdulcimer.com/tab/oldfolks.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

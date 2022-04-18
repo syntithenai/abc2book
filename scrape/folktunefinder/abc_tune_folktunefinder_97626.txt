@@ -1,0 +1,30 @@
+X:865
+T:Down Home Waltz
+S:Dave Grisman
+D:Mandolin Extravaganza
+Z:Nigel Gatherer
+N:Slightly altered
+L:1/8
+M:3/4
+K:G
+de>f  | g2 f2 e2 | d2 c2 B2 | A3 Bc>d | e6    | 
+        f3  ge>f | d3  ec>d | B6-     | B3
+de>f  | g2 f2 e2 | d2 c2 B2 | A3 Bc>d | e6    | 
+        fg ef de | cd Bc AB | G6-     | G3   ||
+FG>^G | A3  Bc>e | d4    c2 | B3 df>a | g4 f2 |
+        e3  fg>b | a4    e2 | g6      | f6    |
+  | g2 f2 e2 | d2 c2 B2 | A3 Bc>d | e6    | 
+        fg ef de | cd Bc AB | G6-     | G3   ||
+S:https://www.folktunefinder.com/tunes/97626
+S:http://www.nigelgatherer.com/tunes/abc/tb18.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

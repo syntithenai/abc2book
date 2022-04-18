@@ -1,0 +1,28 @@
+X:510
+T:Cheshire Round
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed7.html
+%%ID:00000ed7
+K:G
+f4     e3d     fga2  | b2e4e2 (dc)(BA) | \
+f2ef (gf)(ed) (fg)a2 | A2(Bc) d2(F2E2D2) ::
+B2(AB) (cB)(AG) F4  | E2e2-e2d2 (c2BA) | \
+B2(AB) (cB)(AG) F3E | D2 (Bc)d2 (F2E2D2)::
+%%newpage
+%page 31
+S:https://www.folktunefinder.com/tunes/88259
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

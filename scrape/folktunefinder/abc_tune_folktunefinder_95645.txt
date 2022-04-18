@@ -1,0 +1,29 @@
+X:70
+T:a Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dff.html
+%%ID:00000dff
+K:D
+G | \
+c/B/c/d/e/f/ | ggg | aaa | g2g |\
+a/g/ff | g/f/ee | dd/c/d/e/ | c2 ::
+c |\
+dTgg | ecc | dgg | e2c |\
+dgg | ecc | d/e/f/d/c/B/ | c2 ::
+g |\
+a/g/ff | g/f/ee| efg | f2g |\
+a/g/ff | g/f/ee | dd/c/d/e/ | c2 !D.C.! ::
+S:https://www.folktunefinder.com/tunes/95645
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Roland's U-Turn
+M: 6/8
+L: 1/8
+Q: 1/8 = 400
+R: jig
+K: Fmaj
+F2F AGF | cAG AGF | G2G A2B | d2d cAG|
+F2F AGF | cAG AGF | G2A BAG | AFD D3 :|
+|: ~f3 fcF | FAc fcA | G2G A2B | d2d cAG |
+|[1 ~f3 fcF | FAc fcA |  G2A BAG | AFD D3 :|
+|[2 fef gfg | afd cAF |  G2A BAG | AFD D3 ||
+|| d2e fed | ede A=B^c | d2e fed | g2g gec |
+| d2e fed | ede A2=B | G2A BAG | AFD D3 ||
+|| d2e fed | ede A=B^c | d2e fed | afa def |
+| afd gec| fed cAF | G2A BAG | AFD D3 ||
+S:https://www.folktunefinder.com/tunes/184636
+S:http://www.thesession.org/tunes/display/89
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

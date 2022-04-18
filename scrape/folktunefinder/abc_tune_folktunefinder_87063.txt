@@ -1,0 +1,36 @@
+X:890
+T: How Are You Sandy (with piano acc.)
+C: BB
+N: Third tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A |"D"dcd "G"Bcd | "D"ABA FED | "Bm"B,CD "A"ECA, | "G"B,CD "A"E2A |
+[V:2] z|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|B,,2[BFD]A,,2[AEC]|G,,2[GDB]A,,2[ACE]|
+%
+[V:1] "D"dcd "Em"efe | "D"dcd AFD | "G"GBA "D"FED | "A"ECE "D"D2 :|
+[V:2] D,2[AFD]E,2[EBG]|D,2[AFD]A,,2[AFD]|G,,2[GDB]D,2[AFD]|[A,3E3C,3][D,2A,2F2]:|
+%
+[V:1] A | "D"dDD "G"Bcd | "Em"ede "D"fga | "G"bgg "D"aff | "A"egf ecA |
+[V:2] z| D,2[AFD]G,,2[GDB]|E,2[EBG]D,2[AFD]|G,,2[GDB]D,2[AFD]|A,,2[ACE]E,,2[ACE]|
+%
+[V:1] "D"dDD "G"Bcd | "Em"ede "D"fga | "G"gdB "Bm"Bcd | "A"edc "D"d2 :|
+[V:2] D,2[AFD]G,,2[GDB]|E,2[EBG]D,2[AFD]|G,,2[GDB]B,,2[BFD]|[A,3E3C,3][D,2A,2F2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87063
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

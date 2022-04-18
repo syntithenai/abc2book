@@ -1,0 +1,48 @@
+X: 9076
+T: Jimmy Kelly's Banjo (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D|"D"A,DF DFA | "D"dcd "A7"efg | "D"afd "A7"gec | "Bm"dBA FBA |
+[V:2] z|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[GCE]|D,2[AFD]A,,2[GCE]|B,,2[BDF]F,,2[BDF]|
+%
+[V:1] "D"A,DF DFA | "D"dcd "A7"efg | "Bm"aba "Em"gec | "A"edc "D"d2 :|
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[GCE]|B,,2[BFD]E,2[EBG]|A,,2[AEC][D,2A,2F2]:|
+%
+[V:1] e|"D"a^ga "A7"=gec | "D"edc def | "G"gab "D"a2 f | "Em"gdB "A"A2 e |
+[V:2] z|D,2[AFD]A,,2[GCE]|D,2[AFD]A,,2[AFD]|G,,2[GDB]D,2[AFD]|E,2[EBG]A,,2[AEC]|
+%
+[V:1] "D"afd "A7"gec | "F#m7"Ace "Bm"f2 g | "D"aba "Em"gec | "A"edc "D"d2 :|
+[V:2] D,2[AFD]A,,2[GCE]|F,2[EAC]B,,2[BFD]|D,2[AFD]E,2[EBG]|A,,2[AEC][D,2A,2F2]:|
+%%%%%%%tune repeat
+[V:1] D|"D"A,DF DFA | "D"dcd "A7"efg | "D"afd "A7"gec | "Bm"dBA FBA |
+[V:2] z|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[GCE]|D,2[AFD]A,,2[GCE]|B,,2[BDF]F,,2[BDF]|
+%
+[V:1] "D"A,DF DFA | "D"dcd "A7"efg | "Bm"aba "Em"gec | "A"edc "D"d2 :|
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[GCE]|B,,2[BFD]E,2[EBG]|A,,2[AEC][D,2A,2F2]:|
+%
+[V:1] e|"D"a^ga "A7"=gec | "D"edc def | "G"gab "D"a2 f | "Em"gdB "A"A2 e |
+[V:2] z|D,2[AFD]A,,2[GCE]|D,2[AFD]A,,2[AFD]|G,,2[GDB]D,2[AFD]|E,2[EBG]A,,2[AEC]|
+%
+[V:1] "D"afd "A7"gec | "F#m7"Ace "Bm"f2 g | "D"aba "Em"gec |1 "A"edc "D"d2 :|2\
+"A"edc "D"d3-|d6||
+[V:2] D,2[AFD]A,,2[GCE]|F,2[EAC]B,,2[BFD]|D,2[AFD]E,2[EBG]|1 A,,2[AEC][D,2A,2F2]:|2\
+A,,2[AEC][D,3-A,3-F3-]|[D,6A,6F6]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87161
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

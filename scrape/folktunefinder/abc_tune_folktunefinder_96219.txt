@@ -1,0 +1,40 @@
+X: 68
+T:Corante. TBe.068
+M:3/4
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:courante
+O:England
+N:1 -Shown as flat, but see note - I think this is just making sure you
+N:know it isn't sharp as in previous bar.  2/3Page is much blotted - I
+N:think the book must have been closed before the ink dried -
+N:possibilities for 2 are  [dc cb AorB B] and for 3 are [BA AorB c or d
+N:d]
+N:...CGr..
+H:171
+Z:vmp.C. Graebe..
+K:G major
+e | e3 e^d^c | B2 e"1"dcB | cBAG FB | G3 FEF | !
+G2 BGBc | d2 DGAG | F2 AFAB |c2 CFGF |!
+E2 GEGA | B3 Bef | gfed^cB | ^A^cdefF |! 
+B^c c3B | BF/E/ ^DF B,F | B4 ||!
+^d | ^d3 deB | c6- | cBcedc | B3 ddd |! 
+(dc) (cB) "2"AB | "3"(BA) Ad dd | cB A3G | G2 BG dG |! 
+F2 AF cF | Ee ge be | ^d3 def | (gf) gB Ae |! 
+(fe) (fA) GB | edeGFg | (fe) e3 ^d | e3 ^def |\
+ (gf)(gB) Ae |!
+ fefA GB | e^deGFg | fe e3 ^d | eB/A/ GB EB | e6 ||
+S:https://www.folktunefinder.com/tunes/96219
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Courante
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

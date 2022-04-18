@@ -1,0 +1,31 @@
+X:10083
+T:Maguire's
+R:jig
+S:G version from Marcas O Murchu
+H:Played in A or in G
+D:Four Men and a Dog: Barking Mad
+Z:id:hn-jig-173
+M:6/8
+K:A
+A2A BAB|cAF FEF|Ace fae|fae fec|A2A BAB|cAF FEF|Ace faf|ecB A2E:|
+|:Ace fae|fae fec|Acd ~e3|efe ecB|1 Ace fae|fae fec|
+Ace faf|ecB A2E:|2 A2A BAB|cAF FEF|Ace faf|ecB A2E||
+K:G
+G2G AGA|BGE EDE|GBd egd|egd edB|G2G AGA|BGE EDE|GBd ege|dBA G2D:|
+|:GBd egd|egd edB|GBc ded|ded dBA|1 GBd egd|egd edB|
+GBd ege|dBA G2D:|2 G2G AGA|BGE EDE|GBd ege|dBA G2D||
+S:https://www.folktunefinder.com/tunes/97865
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

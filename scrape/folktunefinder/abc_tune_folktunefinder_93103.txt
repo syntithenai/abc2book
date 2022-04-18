@@ -1,0 +1,27 @@
+X: 13
+T: Katselin taivaan t\"ahti\"a
+O: Trad Finland
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: Gm
+z \
+| "Gm"d2gg g2fg \
+| "F"a2a2 f2f2 \
+| "Eb"e2ed e2c2 \
+| "D7"d2 d2z :|
+|: d \
+| "Cm"e2ed "(F)"c2cB \
+| "Gm(Bb)"d2dc y "(Eb)"B2BA \
+| "Cm"c2cB "D7"d2B2 \
+| "Gm"G4 G2z :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93103
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

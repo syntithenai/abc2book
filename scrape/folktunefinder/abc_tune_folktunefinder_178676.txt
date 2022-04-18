@@ -1,0 +1,35 @@
+X:4
+T:New Year Waltz
+C:Gordon Gunn (1993)
+A:Scotland
+D:Moving Cloud / Foxglove / Green Linnet GLCD 1186
+N:medley, after Shelly River Waltz
+Z:Simplified and transcribed by Moshe Braner, January 2000
+R:Waltz
+N:transposed to key of C
+M:3/4
+L:1/8
+K:C
+G2 \
+|: "C"c2-cdcB | "F"ABcdcA | "C"G2-GAcd | e2c2c2 |\
+"F"a2-abag | "C"efgede | "G"d4 c2 | "F"A4 c'b |
+"F"a2-abag | "C"efgede | "G"d4 c2 | "F"A4 G2 |\
+"C"c2-cdcB | "F"ABcdcA | "C"G2-GAcd |1 c4 G2 :|2 c4 c'b ||
+|: "F"a2-abag | "C"efgede | "G"d4 c2 | "F"A4 c'b |\
+"F"a2-abag | "C"efgede | "G"d4 e2 | g4 c'b |
+"F"a2-abag | "C"efgede | "G"d4 c2 | "F"A4 G2 |\
+"C"c2-cdcB | "F"ABcdcA | "C"G2-GAcd |1 c4 c'b :|2 c4 G2 ||
+S:https://www.folktunefinder.com/tunes/178676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/NewYearWaltz_C.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

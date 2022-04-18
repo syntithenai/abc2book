@@ -1,0 +1,30 @@
+X:1
+T:Polka
+C:Trad. centre France, fichier abc : Bernard Loffet
+L:1/8
+Q:510
+K:G
+M:4/4
+|: [d2G,,2] [d2G,2] [d2G,,2] [d2G,2] | [dG,,]e [dG,]c [B2G,,2] G,2 | [GG,,]A [B2G,2] [GG,,]A [B2G,2] | \
+ [c2D,,2] [A2D,2] [A2D,,2] D,2 | [c2D,,2] [c2D,2] [c2D,,2] [c2D,2] | [cD,,]d [cD,]B [A2D,,2] D,2 | \
+ [FD,,]G [A2D,2] [FD,,]G [A2D,2] | [B2G,,2] [G2G,2] [G2G,,2] G,2 :|: [D2G,,2] [G2G,2] [B2G,,2] [dG,]c | \
+ [B2G,,2] [G2G,2] [B2G,,2] [dG,]c | [B2G,,2] [G2G,2] [A2D,,2] [AD,]c | [A2D,,2] [F2D,2] [G2G,,2] [FD,]E | \
+ [D2G,,2] [G2G,2] [B2G,,2] [dG,]c | [B2G,,2] [G2G,2] [B2G,,2] [dG,]c | [B2G,,2] [G2G,2] [A2D,,2] [AD,]c | \
+ [A2D,,2] [F2D,2] [G2G,,2] G,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/183008
+S:http://diato.ifrance.com/diato/tablat/194.abc
+S:http://diato.ifrance.com/tablat/194.abc
+S:http://diato.org/tablat/194.abc
+S:http://perso.orange.fr/diato/tablat/194.abc
+S:http://perso.wanadoo.fr/diato/tablat/194.abc
+S:http://pro.wanadoo.fr/diato/tablat/194.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/194.abc
+S:http://www.diatonique.net/tablat/194.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

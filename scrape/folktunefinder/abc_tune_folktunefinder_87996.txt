@@ -1,0 +1,25 @@
+X: 1
+T: Aggie's
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|: A (3ABc |\ 
+d2 d>c d>e | (3fgf d>A F>G | (3ABA A>F A>B | B>A G>F E>B | 
+e2 e>^d e>f | g>f e>d d>c | (3cdc B2 G2 | B2 A>G F>A |
+d2 d>c d>e | f2 d>A F>G | A2 A>F A>B | B>A G>F E>^D | 
+e2 e>^d e>f | g>f e>d d>c | (3ABA B2 c2 | d2 d :|
+|: e f>g |\ 
+(3fgf d2 fg | (3fgf d2 f>g | a2 a>f g>f | (3efe e>^d e>f | 
+(3efe c2 e>f | (3efe A2 e>f | g2 g>e f>e | d3 :|
+S:https://www.folktunefinder.com/tunes/87996
+S:http://www.thesession.org/tunes/display/8723
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

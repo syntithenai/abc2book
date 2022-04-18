@@ -1,0 +1,28 @@
+X: 6
+T: St. Joseph's
+I: St. Joseph'sR-94Dreel
+M: C|
+R: reel
+K: D
+"D"defd "A7"cdec| "D"defd A2ef| "A7"g2gf edcB| Aa2a abag|
+"D"defd "A7"cdec| "D"defd A2ef| "G" g2gf edcB| "A7"Afec "D"d2dA :|
+%%textfont       Times-Roman 9.0
+%%text Repeat part B 4 times
+%%textfont       Times-Roman 7.0
+%%vskip .1cm
+|:\
+"D"Af2g fedc| "G"BG2B g4| "A7"e2ef edcB|1 ea2a abag :|2 Afec "D"d2dA |]
+%%text Roaring Jelly  R-94
+%%vskip 0.4cm
+S:https://www.folktunefinder.com/tunes/185045
+S:http://roaringjelly.org/music/sets/Set16.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set16.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set16.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

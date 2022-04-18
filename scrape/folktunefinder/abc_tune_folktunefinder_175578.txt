@@ -1,0 +1,28 @@
+X: 130507
+T: Micho Russell's
+N: version of "Callaghan's"
+S: "Treoir" 
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: D
+DFA AFA BdB BAG | F2 A d2 e f3 f2 f |\
+g3 f3 efe d2 B | AdB AFD E3 EFE |
+DFA AFA BdB BAG | F2 A d2 e f3 f2 f |\
+g3 f3 efe d2 B | ABA GFE D3 D2 ||
+e | f3 d2 f aba a3 | A3 BAF A3 ABd |\
+efe e2 e efe dfa | baa afe d3 d2 :|
+S:https://www.folktunefinder.com/tunes/175578
+S:http://www.qmcorp.net/webabc/m/130507.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:640
+T: Delia O'Brien's
+C: BB
+M: 6/8
+L: 1/8
+R: jig
+Q: 1/8=320
+K: G
+D |"G"GFG BcB |"G"BAB "Am"AGE | "G"GBd "C"ege | "Em"edB "G"gdB |
+"G"GFG B2 d | "C"c2 A "Em"BGE | "G"DGB dBd | "D7"cAF "G"G2 :|
+d |"Em"edB "D"ABd | "G"gfg "D"afd | "G"g2 b "Am"age | "Em"edB "Am"AGA |
+"G"BGG "Am"cAA | "G"d^cd "C"efg | "G"DGB dBd |"D7"cAF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

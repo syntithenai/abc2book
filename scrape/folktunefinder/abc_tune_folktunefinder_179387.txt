@@ -1,0 +1,27 @@
+X:0069
+T:"O'Carolan's Lament"       (air)      0069
+C:Unattributed (O'Carolan)
+B:O'Neill's Music Of Ireland (The 1850)  Lyon & Healy, Chicago  1903 ed.
+C:mournfully
+N:Transposed from Bb
+Q:1/4=60
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:A
+"_vb"(AB)|c2(c3/2d/2 cB)|c2f2(A3/2B/2)|c2(c3/2d/2 c3/2^A/2)|B4(A3/2B/2)|
+c2(c3/2d/2 cB)|c2f2(f3/2g/2)|a2g3/2f/2 ^eg|f4||
+(f3/2g/2)|a2(g3/2f/2 ^eg)|fe c2(f3/2g/2)|a2(g3/2f/2 ^eg)|f4(f3/2g/2)|
+a2(g3/2f/2 ^eg)|fe c2^AB|c2BA (G3/2A/2)|F4|]
+S:https://www.folktunefinder.com/tunes/179387
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/69-OCarolansLament.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

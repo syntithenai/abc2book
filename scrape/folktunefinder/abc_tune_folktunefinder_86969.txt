@@ -1,0 +1,38 @@
+X:420
+T: Katie's Ghost (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Edor
+[V:1] D|"Em"E2 GE BEGE|"Bm"FAdB "D"AFED|"Em"E2 GE BEGE|"D"FADF "Em"E3 D|
+[V:2] z|E,2[E2B2G2]G,,2[E2G2B2]|B,,2[F2B2D2]D,2[A2D2F2]|E,2[E2B2G2]B,,2[E2G2B2]|\
+D,2[A2D2F2]E,2[E2B2G2]|
+%
+[V:1]"Em"E2 GE BEGE|"Bm"FABd "D"ABdf|"C"ge (3ede "G"dB (3BAB|"Bm"ABFD "Em"E3 :|
+[V:2] E,2[E2B2G2]G,,2[E2G2B2]|B,,2[F2B2D2]D,2[A2D2F2]|=C,2[E2G2=C2]G,,2[G2B2D2]|\
+B,,2[F2B2D2][E,3G,3B,3]:|
+%
+[V:1] D|: "G"G2 BG dG (3GFG|"Em"edef gedB |"G"G2 BG dG (3GFG|"Bm"FAAB dBAB |
+[V:2] z|: G,,2[G2B2D2]D,2[G2B2D2]|E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+B,,2[F2B2D2]F,,2[F2D2B2]|
+%
+[V:1] "G"G2 BG dG (3GFG|"Em"edef "G"gfga| "G"bg (3gfg "Em"egdB|1 "Bm"ABFD "Em"GFED :|2\
+"Bm" ABFD "Em" E3 ||
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|E,2[E2B2G2]G,,2[G2B2D2]|G,,2[G2B2D2]E,2[E2B2G2]|1\
+B,,2[F2B2D2]E,2[E2B2G2]:|2 B,,2[F2B2D2] [E,3B,3G,3] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86969
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

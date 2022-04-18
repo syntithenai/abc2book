@@ -1,0 +1,23 @@
+X:215
+T:Auld Lang Syne
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea7.html
+%%ID:00000ea7
+K:C
+G2 |\
+c>cc>e d>cd>e | c<ceg a2 c'2 | g>ee>c d>cd>e | c>A A>G c2 ::
+a2 |\
+g>e e>c d>c d>e | g>ee>g a3c' | g>ee>c d>cd>e | c>A AG c2 ::
+S:https://www.folktunefinder.com/tunes/88200
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

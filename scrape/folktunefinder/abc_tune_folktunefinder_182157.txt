@@ -1,0 +1,27 @@
+X: 1
+T:Peter Pratt's Polka
+R:Polka
+O:Scotland
+M:2/4
+A:Orkney
+K:D
+f>e |\
+d>cd>A F2D2 | G>FG>B A4 | \
+A>ce>c A>ce>c | d>cd>f e>gf>e |\
+d>cd>A F2D2 |
+G>FG>B A4 | \
+A>ce>c A>ce>c | d2f2 f2 :: c2 |\
+B>^AB>c d>ed>B | A>FD>F A2A2|
+B>^AB>c d>cd>f | e>dc>d e>gf>e | \
+d>cd>A F2D2 | G>FG>B A4 |\
+A>ce>c A>ce>c | d2d2 d2 :|
+S:https://www.folktunefinder.com/tunes/182157
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pe/Peter_Pratts_Polka_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

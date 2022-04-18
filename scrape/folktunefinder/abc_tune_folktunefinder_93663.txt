@@ -1,0 +1,27 @@
+X:820
+T: Breeze Across the Lake
+C: BB
+N: Second tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+K: G
+D | "G"G2B d^cd | "Em"edB "G"d2B | "F"cBA =FEF | "Dm"D=FA "F"cBA |
+"G"G2B d^cd | "Em"edB "D"def | "G"gdB "D7"ABc | "G"BGF G2 :|
+e|"G"gfg dcB | "G"gfg dcB | "F"=fef cBA | "F"=fef cBA |
+"G"gfg dcB | "G"GBd "F"=fef | "G"gdB "D7"ABc |"G"BGF G2 :|
+S:https://www.folktunefinder.com/tunes/93663
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

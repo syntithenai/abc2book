@@ -1,0 +1,26 @@
+X:095
+U: ~ = !turn!
+%%topmargin 3cm
+T:Jackie Coleman's Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+dB | AF F2 EFDE | F2 AF BFAF | E2 BE dEBE | ABde fedB |
+AF F2 EFDE | F2 AF BFAF | E2 BE dEBE | ABde fd ::
+z g | fddc dfag | fd d2 fagf | eA (3.A.A.A eAfA | eA (3.A.A.A efge |
+fddc dfag | fddc dfaf | g2 gf gbag | faeg fd d2 :|]
+S:https://www.folktunefinder.com/tunes/94691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Jackie_Colemans_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Jackie_Colemans_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

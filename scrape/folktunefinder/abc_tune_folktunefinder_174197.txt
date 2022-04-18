@@ -1,0 +1,28 @@
+X: 1
+T:Maple Dancing
+M:C
+L:1/8
+Q:270
+C:Pete Clark
+R:Reel
+N:Ian Brockbank has written a dance to the tune
+H:At a ceilidh in aid of the Kisoro School for the Blind in Kenya, Pete
+H:Clark auctioned a commission.  Ian Brockbank made the highest bid, and
+H:commissioned this tune for his wife Caroline's birthday
+K:C Major
+ c2 Bc Ac Gc|Fc Ec FD DG |c2 Bc Ac Gc|FD DF EC CG:|
+ A2 cA BG dB|Ac BA BE E^G|A2 cA BG df|ec dB cA AE |
+ A2 cA BG dB|Ac BA BG GE |DF EG FA GB|FA GB Ac Bd ||
+% Output from ABC2Win  Version 2.1 f on 18-Nov-2001
+S:https://www.folktunefinder.com/tunes/174197
+S:http://scottishdance.net/dances/MapleDancing.abc
+S:http://www.scottishdance.net/dances/MapleDancing.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

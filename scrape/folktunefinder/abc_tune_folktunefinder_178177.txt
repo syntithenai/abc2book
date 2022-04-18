@@ -1,0 +1,22 @@
+X: 1
+T: Nagelschmied (Bb)
+R: zwiefacher
+M: 3/4
+L: 1/4
+K: Bb
+F \
+| "Bb"B>BB | "F7"Acf | A>AA | "Bb"Bdf \
+| "Bb"B>BB | "F7"Acf | A/A/AA | "Bb"BzF |
+| "Bb"B>BB | "F7"Acf | A/A/AA | "Bb"Bz  \
+|:["N times" F |[M:2/4] "Bb"BF | dB |[M:3/4]"F7"fz/A/A | "Bb"Bz :|
+S:https://www.folktunefinder.com/tunes/178177
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Nagelschmied_Bb.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Nagelschmied_Bb.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

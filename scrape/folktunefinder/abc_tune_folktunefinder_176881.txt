@@ -1,0 +1,26 @@
+X:0624
+T:"The Morning Dream"    (air)    0624
+C:Unattributed
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_VB"(de3/2d/2)|(d2B)(g fe)|(d2G2)(G3/2A/2)|B2(dB AG)|A2z(d e3/2d/2)|
+ (d2B)(g fe)|(d2G2)(G3/2A/2)|B2(cB) ({B}A3/2G/2)|G2z||
+(gfe)|(d2A).G .A.B|(c3/2d/2 e2)(ge)|d2(ed) (BG)|G2z(g fe)|
+(d3/2B/2 G)(c BA)|B3/2G/2 E2G3/2A/2|(Bd) ({d}c3/2B/2) {B}AG|G z|]
+S:https://www.folktunefinder.com/tunes/176881
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0624-MorningDream.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

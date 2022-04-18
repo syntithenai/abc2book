@@ -1,0 +1,22 @@
+X:10
+T:Troca du Champsaur
+C:Trad. /Champsaur
+G:Accordion
+%%MIDI program 21 %Accordian
+L:1/8
+Q:160
+M:2/4
+K:C
+z2DG|:[AD,]D,/B/[cD,][dG,]|[eD,][dG,][BG,][GG,]|[cD,]D,/B/[AD,][FD,]|[AD,][GG,][DG,][GG,]|[AD,]D,/B/[cD,][dG,]|[eD,][dG,][BG,][GG,]| \
+[cD,][BG,][AD,][FD,]|[G2G,2][dG,]G,|[dG,]G,/e/[dG,][cD,]|[BG,]G,[GG,][BG,]|[AD,][cD,][AD,][cD,]|[BG,][GG,][dG,]G,|[dG,]G,/e/[dG,][cD,]| \
+[BG,]G,[GG,][BG,]|[AD,][cD,][BG,][AD,]|1[GG,]G,[DG,][GG,]:|2[GG,]G,G,G,| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96970
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

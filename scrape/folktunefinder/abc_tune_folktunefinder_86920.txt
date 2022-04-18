@@ -1,0 +1,38 @@
+X:175
+T: Crashing at Quinlin's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D|"A"E2 AE "D"FD (3DED|"Bm"d2 fd "Bm7"(3Bcd AF|"Em"EFGE "Bm"FAdB|\
+"D"ABAF "Em"E2 GF|
+[V:2] z|A,,2[A2E2C2]D,2[D2A2F2]|B,,2[B2D2F2]A,,2[D2F2B2]|E,2[B2E2G2]B,,2[B2D2F2]|\
+D,2[D2A2F2]E,2[B2E2G2]|
+%
+[V:1] "A"E2 AE "D"FD (3DED|"Bm"d2 fd "Bm7"BdAF|"G"GBBd "D"FAdf|"A"ecAc "D"d3 :|
+[V:2] A,,2[A2E2C2]D,2[D2A2F2]|B,,2[B2D2F2]A,,2[D2F2B2]|G,,2[G2D2B2]D,2[D2A2F2]|\
+A,,2[A2E2C2]D,3:|
+%
+[V:1] A|"Bm"B2 fB "Bm7"aBfB|"G"dB"A"cA "Bm"BdAF|"Bm"B2 fB "Bm7"aBfB|\
+"D"dB"A"Ac "D"d3 A|
+[V:2] z|B,,2[B,2D2F2]A,,2[D2F2B,2]|G,2[A,2E2C2]B,,2[B,2D2F2]|\
+B,,2[B2D2F2]F,,2[D2F2A2]|D,2[A,2E2C2][D,4A,4F4]|
+%
+[V:1] "Bm"B2 fB "Bm7"aBfB|"G"dB"A"cA "Bm"BdAF|"A7"EGAc "D"defa|"A"gece "D"d3 :|
+[V:2] B,,2[B,2D2F2]F,,2[D2F2A,2]|G,2[A2E2C2]B,,2[A,2D2F2]|A,,2[A2E2C2]D,2[D2A2F2]|\
+A,,2[A2E2C2] D,,3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86920
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

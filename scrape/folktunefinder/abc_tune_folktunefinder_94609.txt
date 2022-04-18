@@ -1,0 +1,31 @@
+X:011
+U: ~ = !turn!
+%%topmargin 3cm
+T:Bird in the Tree
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:G
+"(A" [|] d2 {/e}dB dB ~B2 "A)"| {/c}BAAB GBAG | EA (3.A.A.A BG (3.G.G.G | BABd ~g3 e |
+d2 {/e}dB dB ~B2 | {/c}BAAB ~G3 E | DEGA PB2 eB | ((3dcB) ((3cBA) BGGB ::
+((3ABd) ef g2 fg | afdf gfed | ((3ABd) ef ga ((3bag) | agab ~g3 a |
+bg ~g3 agef | gage dBGE DEGA ~B3 c | ((3dcB) ((3cBA) BG BGGB :|]
+xxxx "(A"|| dfe^c dB ~B2 "A)"|| xxxx xxxx [|] xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94609
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Bird_in_the_Tree_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Bird_in_the_Tree_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

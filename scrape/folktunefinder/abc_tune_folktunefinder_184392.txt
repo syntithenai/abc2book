@@ -1,0 +1,28 @@
+X: 1
+T: The Rabbitskin Hat
+C: Freeland Barbour, 1985
+B: The Hills of Atholl
+B: SRSNH 2.23
+Z: John Chambers <jc@trillian.mit.edu>
+R: march
+M: C
+L: 1/4
+K: D
+|: A \
+|| "D"d>e fa | a2 fd | "Em"e>f "E7"g/f/e/d/ | "A7"c/e/A ce \
+|  "D"d>e fa | a2 fd | "A7"g/f/e/d/ ce | "D"d2 d :|
+|: f/g/ \
+|| "D"aA/a/ f/a/f | d2 ae/f/ | "Em"g>a g/f/e/d/ | "A7"c/d/e/c/ Af/g/ \
+|  "D"aA/a/ f/a/f | d2 ae/f/ | "A7"g/f/e/d/ ce | "D"d2 df/g/ ||
+|| "D"aA/a/ f/a/f | d2 ae/f/ | "Em"g>a g/f/e/d/ | "A7"c/d/e/c/ Ad/e/ \
+|  "D"fA g/f/e/d/ | "G"B>A GB | "A7"cA e/A/f/e/ | "D"d2 d |]
+S:https://www.folktunefinder.com/tunes/184392
+S:http://trillian.mit.edu/~jc/music/book/500/RabbitskinHat.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

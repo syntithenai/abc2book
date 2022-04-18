@@ -1,0 +1,28 @@
+X:168
+U: ~ = !turn!
+%%topmargin 3cm
+T:Plains of Boyle
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:D
+AFD>A {/G}FEDA | ((3ABA) GB AFDg | fedf edce | dBcA PBAGB |
+AFD>A FEDA | ((3ABA) GB AFDg | fedB ((3ABA) GE | F2 D2 D2 fg ::
+afge fdec | defd PBAFA | ((3ABA) FA dAFA | defd efge |
+((3agf) ((3gfe) fdec | defd PBAFA | ((3ABA) FA dAGE | F2 D2 D2 fg :|]
+S:https://www.folktunefinder.com/tunes/94764
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Plains_of_Boyle_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Plains_of_Boyle_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

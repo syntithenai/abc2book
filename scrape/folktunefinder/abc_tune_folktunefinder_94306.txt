@@ -1,0 +1,37 @@
+X:19015
+T:Xiraldilla (CT 235)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 235
+M:3/8
+L:1/8
+Q:3/8=88
+W:El mio querer est malo,
+W:yo toi a la cabecera
+W:con una vela na mano
+W:rogando a dios que nun muerra.
+W:
+W:Voi por agua, voi,
+W:pa mio querer,
+W:voi por agua, voi,
+W:pronto volver.
+K:G
+B|:B2A|GcB|(A2G)|F2c|c2B|Adc|[1 (B2A)|G2B:|[2 BGc||
+|:ccB|A2B|BBA|[1 G2c:|[2 G2||
+S:https://www.folktunefinder.com/tunes/94306
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

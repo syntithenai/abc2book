@@ -1,0 +1,54 @@
+X: 9027
+T: Classical Hornpipe (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume = 70 program 1 01 clef=bass m=D
+K: Dm
+[V:1] cB|"Dm"A2 BA "C"G2 AG|"Dm"FDDC DCA,G,|"Am"A,CDE "F"FAcA|"Dm"defa "C7"gecB |
+[V:2] z2|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]F,,2[D2F2A2]|A,,2[A2E2C2]F,2[F2C2A2]|\
+D,2[D2A2F2]C,2[G2E2B2]|
+%
+[V:1] "Dm"A2 BA "C"G2 AG|"F"FAce f3 g|"Dm"afef "Gm"dBGB|"Dm"AFEC D2 :|
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|F,,2[F2C2A2]C,2[F2C2A2]|D,2[D2A2F2]G,,2[G2D2B2]|\
+D,2[A2F2D2]D,,2:|
+%
+[V:1] DE|"F"FAcA "Gm"GBdB|"Am"Acec abag|"Dm7"fdcd "Am"ecAc|"Dm"dAAG FEDE |
+[V:2] z2|F,,2[F2C2A2]G,,2[G2D2B2]|A,,2[A2E2C2]E,2[A2E2C2]|D,2[A2F2C2]A,,2[A2E2C2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "F"FA (3AGA "Gm"GB (3BcB|"Am"Ac(3c^Bc agfe|"Dm7"fdec "Gm"dBAG| "Dm"FD"C"EC "Dm"D2 :|
+[V:2] F,,2[F2C2A2]G,,2[G2D2B2]|A,,2[A2E2C2]E,2[A2E2C2]|D,2[A2F2C2]G,,2[G2D2B2]|\
+[D,2][C,2G,2E2][D,2A,2F2]:|
+%%%%%%%tune repeat
+[V:1] cB|"Dm"A2 BA "C"G2 AG|"Dm"FDDC DCA,G,|"Am"A,CDE "F"FAcA|"Dm"defa "C7"gecB |
+[V:2] z2|D,2[D2A2F2]C,2[C2G2E2]|D,2[D2A2F2]F,,2[D2F2A2]|A,,2[A2E2C2]F,,2[F2C2A2]|\
+D,2[D2A2F2]C,2[G2E2B2]|
+%
+[V:1] "Dm"A2 BA "C"G2 AG|"F"FAce f3 g|"Dm"afef "Gm"dBGB|"Dm"AFEC D2 :|
+[V:2] D,2[D2A2F2]C,2[C2G2E2]|F,,2[F2C2A2]C,2[F2C2A2]|D,2[D2A2F2]G,,2[G2D2B2]|\
+D,2[A2F2D2]D,,2:|
+%
+[V:1] DE|"F"FAcA "Gm"GBdB|"Am"Acec abag|"Dm7"fdcd "Am"ecAc|"Dm"dAAG FEDE |
+[V:2] z2|F,2[F2C2A2]G,,2[G2D2B2]|A,,2[A2E2C2]E,2[A2E2C2]|D,2[A2F2C2]A,,2[A2E2C2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "F"FA (3AGA "Gm"GB (3BcB|"Am"Ac(3c^Bc agfe|"Dm7"fdec "Gm"dBAG|1 "Dm"FD"C"EC "Dm"D2 :|\
+[2 "Dm"FD"C"EC "Dm"D4-|D4 z4||
+[V:2] F,,2[F2C2A2]G,,2[G2D2B2]|A,,2[A2E2c2]E,2[A2E2C2]|D,2[A,2F2c2]G,,2[G2D2B2]|\
+[1 [D,2][C,2G,2E2][D,2A,2F2]:|2 [D,2][C,2G,2E2][D,4-A,4-F4-]|[D,4A,4F4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87112
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

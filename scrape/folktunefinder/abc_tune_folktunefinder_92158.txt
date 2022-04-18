@@ -1,0 +1,28 @@
+X:135
+T: Duikou shange
+N: C1631
+O: China,nan Zhejiang, Cixi
+S: III, 643(2)]
+R: Shange, Mengjiangn diao. Chang huahui]
+M: 2/4
+L: 1/32
+K: A
+e2c2c2a2b8 | c2eec2a2b8
+b4b2b2b4a4 | f4e4c6e2 | b2g2f4e8
+e2f2f4f4a4 | c4b4b4a4f8
+a2c2b4b4a4 | f4e4c4e4 | b4g2f2e8
+c2cec2a2b8 | c2eec2a2b8
+f2c2b4b4a4 | f4e4b4a4 | f6e2c4e4 | b2g2f2a2e8
+e2f2f4f4a4 | c4b4b4a4f8
+a2c2b4b4a4 | f4e4c4e4 | b2g2f2a2e8
+S:https://www.folktunefinder.com/tunes/92158
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Shange, mengjiangn diao. chang huahui]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

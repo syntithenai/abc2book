@@ -1,0 +1,25 @@
+X: 1
+N: Mr. Wilson's Hornpipe
+N: 8x32R 3C (RSCDS Book 16)
+P: Mr. Wilson's Hornpipe
+C: from Barbara McOwen, arr. T. Traub 6-14-04
+R: hornpipe
+M: 4/4
+L: 1/8
+K: G
+|: d2 |"G"gfge decd| Bcdc BcAB|"Em"GFGA "G"BcdB|"A"AGFE "D"D2 d2|"G"gfge decd|
+ Bcdc BcAB|"Em"GFGA "D"BcAB|"G"G2 B2 G2 :||: dc|"G"BcAB G3 A|BcAB G3 A|
+"G"BcdB "Em"edcB|"A"A^GAB "D"A2 dc|"G"BcAB G3 A|"B"BcAB "Em"G3 A|"C"BcdB "D"AGAB|"G"G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/177533
+S:http://terrytraub.org/abc/MrWilsonsHornpipeR.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

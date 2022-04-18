@@ -1,0 +1,22 @@
+X:17
+T:Essex March
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2dc|B3A|GBAG|A2D2|GBAc|Bcdf|B2cA|!fine!G4::d2dB|
+e2ed|cBcA|d3c|BBAG|ggff|eed^c|d4!D.C.!||
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90004
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

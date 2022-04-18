@@ -1,0 +1,36 @@
+X:43
+T:Battle Hymn of the Republic
+C:Wm.Steffe
+M:6/8
+Q:1/8=270
+K:D
+%%staves (1 2)
+V:1 up
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|A2A A2G|F2A d2e|f2f f2e|d3 -d2c|B2B B2c|d2c d2B|A2B A2F|A3 -A2A|
+A2A A2G|F2A d2e|f2f f2e|d2z Ld3|Le3 Le3|Ld3 Lc3|Ld6-|d2z z3||
+A3 -A2G|F2A d2e|(Lf6|d3) -d2z|B3 -B2c|d2c d2B|(LA6|F3) -F2z|
+A3 -A2G|F2A d2e|(Lf6|d2)z Ld3|Le3 Le3|Ld3 Lc3|Ld6-|d2z z2:|
+V:2 down
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:F|F2F F2E|D2F F2G|A2A A2G|F3 -F2A|G2G G2A|B2A B2G|F2G F2D|F3 -F2F|
+F2F F2E|D2F F2G|A2A A2G|F2x LF3|LG3 LG3|LF3 LE3|LF6-|F2x x3||
+F3 -F2E|D2F F2G|(LA6|F3) -F2x|G3 -G2A|B2A B2G|(LF6|D3) -D2x|
+F3 -F2E|D2F F2G|(LA6|F2)x LF3|LG3 LG3|LF3 LE3|LF6-|F2x x2:|
+S:https://www.folktunefinder.com/tunes/90030
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

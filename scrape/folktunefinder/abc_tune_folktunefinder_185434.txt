@@ -1,0 +1,32 @@
+X:1
+T:Richmond on the James
+M:4/4
+L:1/4
+K:Bb
+E/2-F/2| G2 F| E C
+M:4/4
+| F B,2 C| D F E E| C2 F G| B
+M:3/4
+| c2 d|
+M:4/4
+ B G2G/2-A/2| B c B G| F2E/2-F/2 G| B
+M:3/4
+| c2 d|
+M:4/4
+ B G2 G/2A/2| B3/2 c/2 B G| F2 E3/4 F/4
+M:5/4
+| G2 F E C|
+M:4/4
+ F/2 B,/2- B,2 C| D/2 F3/2 E D| C3||
+S:https://www.folktunefinder.com/tunes/185434
+S:http://back.numachi.com:8000/dtrad/abc/RICHJAME.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords No chords

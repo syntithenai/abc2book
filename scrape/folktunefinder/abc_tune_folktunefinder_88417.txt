@@ -1,0 +1,33 @@
+X:1300
+T:Walladmoor
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:from a printed tunebook owned by the Winders
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005b0.html
+%%ID:000005b0
+K:A min
+c/B/ | \
+ABA e2d | cBA  B2E | ABA B2E | ABA B2E | \
+ABA e2d | cBA ^GBE | A2B cdB | A3-A2 ::
+G | \
+cdc g2f | edc BdG  | cdc d2E | cdc d2G | \
+cdc g2f | edc Bd^G | A2B cdB | A2a A2 :|
+%%newpage
+%page 106 missing
+%page 107
+S:https://www.folktunefinder.com/tunes/88417
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

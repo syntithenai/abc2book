@@ -1,0 +1,32 @@
+X:4
+T:Maturin-Maturine (bal)
+%T:Bal
+C:Traditionnel
+D:Orgue et Bombarde
+P:F5
+M:12/8
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI program 71
+%%MIDI bassvol 80
+K:C
+P:F
+M:12/8
+Q:C3=60
+%%MIDI gchord cccf2cf2fc3
+|: "Am"ABc "F"HA2 c "G"HB2 G "Am"HA3 | ABc "C"Hece "Dm"Hd2 c "Em"HB3 :|
+%%text 1: fl\^ute  guitare 2: fl\^ute  guitare  concertina
+Q:C3=156
+%%MIDI gchord fzzczzfzcfzz
+"Em"Bcd "C"e2 c e2 c "F"A3 | AGA "G"B2 e edc "Em"B3 |\
+Bcd "C"e2 c e2 c "F"A3 | AGA "G"Bdc "F"A2 "G"G "Am"A3 ||
+S:https://www.folktunefinder.com/tunes/174781
+S:http://kazimodal.trad.org/partitions/gavottes/LA_gavotte/LA_gavotte.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

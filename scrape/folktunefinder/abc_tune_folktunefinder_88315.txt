@@ -1,0 +1,28 @@
+X:790
+T:March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%RRN:"May the 2nd 1841"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001076.html
+%%ID:00001076
+K:C
+c2 | \
+g2 g>g g>fe>d | c2 c>c c2 c'>b | a>bc'>a g2f>e | e2 d>d d2 f>e |
+f2 f>f f2g2 | a>bc'>c' c'2 g>f | edcg a>gf>e | d2 d>d d2 ::
+d2 | \
+d2 d>d d>ef>d | e2 c>c c2 c'b | a2 a>a a>bc'>a | b2 g>g g2 f>e |
+f>gaa efgg | a>b c'c' c'2 g>f | (3efg (3agf e2 d2 | c2 c>c c2 |]
+%%newpage
+%page 61
+S:https://www.folktunefinder.com/tunes/88315
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

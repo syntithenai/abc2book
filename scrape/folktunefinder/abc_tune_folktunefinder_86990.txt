@@ -1,0 +1,39 @@
+X:525
+T: Menacing Pigeon [The] (with piano acc.)
+C: BB
+M: C|
+L: 1/8
+Q: 1/8=320
+R: hornpipe
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] D|"D"FEFG ABAF|"D"DFAd fafd|"G"gfeg "D"fedc|"Bm7"dBAF "A"GECE|
+[V:2] z|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+B,,2[F2A2D2]A,,2[G2C2E2]|
+%
+[V:1] "D"FEFG ABAF|"D"DFAd fafd|"G"gabg "D"(3fga fd|"A"ecAc "D"d3 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+A,,2[G2C2E2][D,3F,3A,3]:|
+%
+[V:1] e|"D"faef "G"dcde|"Bm"fdBc "D"d2 ef|"G"g2 bg "D"f2 af|"Em"efgf "A"e3 A|
+[V:2] z|D,2[A2D2F2]G,,2[G2B2D2]|B,,2[F2B2D2]D,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+E,2[E2B2G2]A,,2[A2C2E2]|
+%
+[V:1] "D"FEFG ABAF|"D"DFAd "Bm"fdBd|"Em7"gfed "D"(3fga fd|"A"ecAc "D"d3 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]B,,2[F2B2D2]|E,2[D2B2G2]D,2[A2D2F2]|\
+A,,2[A2C2E2][D,3F,3A,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86990
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:21
+T:Rigodon de Tallard
+R:Rigodon
+C:Stphane Delval/La Taole
+G:Accordion
+%%MIDI program 21 %Accordian
+L:1/8
+Q:200
+M:2/4
+K:C
+z3G|[EC,][EC,][FG,][FG,]|[GC,]C,[GC,][GC,]|[GC,][AG,][GC,][FG,]|[EC,]C,[DG,][GC,]|[EC,][EC,][FG,][FG,]|[GC,]C,C,C,|[GC,][AG,][GC,][^FG,]| \
+[GC,]C,C,C,|:[CC,][EC,][CC,][EC,]|[CC,][EC,][EC,][DG,]|[B,G,][DG,][B,G,][DG,]|1[B,G,][DG,][CC,]C,:|2[B,G,][DG,][CC,][GC,]| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96981
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

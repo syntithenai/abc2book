@@ -1,0 +1,48 @@
+X:395
+T: Jimmy McGreevy's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc volume=100
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A | "Bm"dBAF ABBF | "D"ABde fafe | "Bm"dBAF ABAF | "D"BdAF "A"E3 A |
+[V:2] z|B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]F,,2[F2D2B2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"dBAF ABBF | "D"ABde fdef | "G"gfeg "Bm"fedf | "A"ecAc "D"d3 :|
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+A,,2[A2C2E2] [D,3A,3F3]:|
+%
+[V:1] D|"Bm"B,F (3FEF "A"CE (3EDE|"D"DFAd BAFD|"Bm"B,F (3FEF "A"A,E (3EDE|\
+"Bm"DB,A,B, D3 A,|
+[V:2] z|B,,2[F2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]A,,2[A2C2E2]|\
+B,,2[F2B2D2]F,,2[F2D2B2]|
+%
+[V:1] "Bm"B,F (3FEF "A"CE (3EDE | "D"DFAd BAFA |"G"BAGB "D"AFDF |"A"EDCE "D"D3 :|
+[V:2] B,,2[F2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+A,,2[A2C2E2][D,3A,3F3]:|
+%
+[V:1] e | "D"af (3fef "Bm"bf (3fef | "D"afed "Em"effg |"D"af (3fef "Bm"bafe |\
+"D"defd "A"e2 fg |
+[V:2] z|D,2[A2D2F2]B,,2[F2B2D2]|D,2[A2D2F2]E,2[E2G,2B,2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "D"af (3fef "Bm"bf (3fef |"D"afed "Em"edBc |"Bm"dBAF ABAF |"A"EDCE "D"D3 :|
+[V:2] D,2[A2D2F2]B,,2[F2B2D2]|D,2[A2D2F2]E,2[E2G,2B,2]|B,,2[F2B2D2]F,,2[F2D2B2]|\
+A,,2[A2C2E2][D,3F3A,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86964
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:1
+T:Monkey Puzzle
+C:Chris Walshaw
+R:Mazurka
+A:England
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+D:CD "Duellists"
+N:aa=aa/2
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:D
+cA FA cA | BG EG Bc | A3BAG | FE FG AB |
+cA FA cA | BG EG Bc |1 A3BAG | FG AB cd :|\
+                    [2 A3BAG | FE FG AG ||
+|:\
+FA dF Ad | GB dG Bd | cB AG FE | F2D2AG |
+FA dF Ad | GB dG Bd |1 cB AB (3cBA | dc BA GA :|\
+                    [2 cB AG FE | FG AB cd |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/176688
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/monkey_puzzle.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

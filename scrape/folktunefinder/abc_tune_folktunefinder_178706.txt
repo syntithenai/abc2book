@@ -1,0 +1,28 @@
+X:1
+T:Niederbayrische Mazurka 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+dcB2B2 | cBA2A2 | FGABc^c | deded2 |
+dcB2B2 | cBA2A2 | dedcBA | G2G4 :|
+K:D
+|:\
+f2e2d2 | c2B4 | A2c2e2 | A2d2f2 |
+f2e2d2 | c2B4 | A2c2e2 | d6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178706
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/niederbayrische_mazurka.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

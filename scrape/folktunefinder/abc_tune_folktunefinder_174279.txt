@@ -1,0 +1,26 @@
+X:493
+%%topmargin 3cm
+U:~=!turn!
+T:The Marchioness of Tullibardine
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:March
+M:2/4
+L:1/16
+K:A
+ed | c2BA AA cA | ceAf eAcA | =g2de d=GBG | Bd=GB =g2BG | c2BA AA cA | ceAf eAcA |
+Bd=Gd =g2BG | c2A2 A4 :| g2 | a2gf eAcA | ceAf eAcA | =g2fe d=GBG | Bd=GB =g2BG |
+Aa ^ga eAcA | ceAf eAcA | Bd=Gd =g2BG | c2A2 A3^g || a2gf eAcA | ceAf eAcA |
+=g2fe d=GBG | Bd=GB =g2BG | c2Bc d2cd | edef eAcA | Bd=Gd =g2BG | {/d}c2A2 A4 |]
+S:https://www.folktunefinder.com/tunes/174279
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Marchioness_of_Tullibardine.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0493.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

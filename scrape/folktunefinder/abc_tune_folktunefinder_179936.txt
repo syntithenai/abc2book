@@ -1,0 +1,29 @@
+X: 2
+T:Old French
+M:C|
+L:1/8
+R:reel
+K:D
+((3ABc) |: "D"vd2c-d B-dAF- | DFAd f2e-d | "A"vc-def- gecA |\
+     "D"defd A2 ((3ABc)|
+ "D"d2c-d vB-dAF- | DFAd f2e-d | "A"(cd)ef- gecA |\
+  [1 "D"d2f2 d2 ((3ABc) :|[2 "D"d2f2 d2(cd) ||
+K:A mix
+|: "A"e-fed- c2A2 | AEAc e2(dc) | "G"BGBd g-fued- | "A"cAce a2(cd)|
+   "A"e-fed- c2A2 | AEAc e2(dc) | "G"BGBd g-fued- |\
+[1 "A"c2A2 A2(cd) :|[2 "A"c2A2 A2 ((3ABc) |]
+N:Fiddlers Fakebook pg 206 - adapted by Peter Ostapenko.
+N:Last update - PO 4/16/2007.
+N:a - D Major
+N:b - A Mixolydian
+S:https://www.folktunefinder.com/tunes/179936
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OldFrench.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

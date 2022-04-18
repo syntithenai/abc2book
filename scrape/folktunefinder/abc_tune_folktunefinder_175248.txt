@@ -1,0 +1,28 @@
+X:1
+T:Polska efter Pusten
+T:(Mellan)
+R:Polska
+N:Gammalpolska Rogsta
+Z:Hkan Lidn, 2008-09-26
+O:Hlsingland, Rogsta
+S:efter Pusten, Jonas Persson Wiik
+N:ven knd som Mellan-Pusten
+M:3/4
+L:1/8
+K:Dm
+E | F>G A2 G2 | FA d2 A2 | (3:2:3^c2 e2 g2 fg/f/ | ef d=c A/B/A/G/ | F>G A2 G2 | 
+FA d2 A2 | (3:2:3^c2 e2 g2 fg/f/ | e^c d3 ::[D] e | f>g fe/f/ de/f/ | g>a gf/g/ e2 |
+f>g fe/f/ de/f/ | g>a gf/g/ e2 | a>^g ab af | d>e fa g/f/e/d/ | c/d/e/c/ d3 :|]
+S:https://www.folktunefinder.com/tunes/175248
+S:http://www.folkwiki.se/pub/cache/Polska_efter_Pusten_b6ff44.abc
+% Rhythm Polska
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

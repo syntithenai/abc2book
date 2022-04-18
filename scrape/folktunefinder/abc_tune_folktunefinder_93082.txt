@@ -1,0 +1,24 @@
+X: 2081
+T: Wooding
+R: jig
+C: Rick Gagne
+N: 2000 on whistle
+N: key could be called F# phrygian
+M: 6/8
+Q: 1/4=175
+K: Amix
+e | "F#m"f2c ABc | ABc FcB | "A"ABc edc | cBA BcA | 
+"D"f2d agf | fed def | "A"edc cBA |1 "E5"BcA "C#m"ec :|2 "E5"BcA "C#m"F2 ||
+E | "A"Ace edc | ecf edc | Ace "D"faf | "A"ecA Ace | 
+"D"dfa agf | agf fed | "A"edc cBA |1 "E5"BcA "C#m"F2 :|2 "E5"BcA "C#m"ec ||
+S:https://www.folktunefinder.com/tunes/93082
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

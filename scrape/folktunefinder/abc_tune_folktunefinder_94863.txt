@@ -1,0 +1,29 @@
+X: 20
+T:Oxfordshire March. BC.20
+M:3/8
+L:1/8
+Q:30
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Misc.
+O:England
+A:Uncertain, probably northern
+N:Rhythm..It's unusual for a march at this date so I've called it Misc.
+N:for research later.CGP.
+Z:vmp.John Bagnall
+K:G
+GG/A/B/c/ | ddB/d/ | ccA/c/ | BBG | AA/c/B/A/ |\
+ GgG | AA/c/B/A/| G2 z :|!
+|:DD/E/F/G/ | AAB | cc ((3B/c/d/) | "tr"A2 B |\
+ c"qu's"e/c/A/c/ | Bd/B/G|AA/c/B/A/| G3 :|]
+S:https://www.folktunefinder.com/tunes/94863
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

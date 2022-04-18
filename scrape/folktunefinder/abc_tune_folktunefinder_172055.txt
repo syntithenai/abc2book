@@ -1,0 +1,22 @@
+X: 42
+T: POLKA PIQUEE DE NORMANDIE
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C
+|e3/2 z/2 g3/2 z/2 ddec|e3/2 z/2 g3/2 z/2 ddc3/2 z/2 |e3/2 z/2 g3/2 z/2 
+ddec|e3/2 z/2 g3/2 z/2 ddc3/2 z/2 |
+Gcd3/2 z/2 cde3/2 z/2 |fedc de/2f/2ed|Gcd3/2 z/2 cde3/2 z/2 |fedc dec3/2
+ z/2 |
+Gcd3/2 z/2 cde3/2 z/2 |fedc de/2f/2ed|Gcd3/2 z/2 cde3/2 z/2 |fedc dec3/2
+|
+S:https://www.folktunefinder.com/tunes/172055
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/polkas.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1441
+T: The Old Schoolmaster
+M:C|
+L:1/8
+N:"collected by McFadden"
+B:O'Neill's 1441
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+Z:Ornaments (~) in bars 5 and 13 are turns.
+Z:Ornament (~) in bar 11 is a mordent.
+K:C
+ G2 (GA) cded  | cA (3AAA (cG)AG | EGGA      cdea  | gece Td2 (cA)          |
+~G3   A  cded  | cA (3AAA (Ac)AG | EGGA      cdea  | gece  d2  "    Fine"c2 ||
+ g3   d  efgd  | ea{b}ag    eaag | eg{a}gf (~gf)gb | afge  d2  cd           |
+ eg{a}gf ~g3 d | ea{b}ag    eaaa | gede      cdea  | gece Td2 (c"D.C."A)    |]
+S:https://www.folktunefinder.com/tunes/87466
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

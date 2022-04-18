@@ -1,0 +1,31 @@
+X:052
+U: ~ = !turn!
+%%topmargin 3cm
+T:Devils in Dublin
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+((3dcB) ((3cBA) BFFB | AF (3.F.F.F DF (3.F.F.F | Ad ~d2 Adfd | ((3efe) df eB ~B2 |
+dedB BAFB | AF (3.F.F.F DF (3.F.F.F | ABde fece | dBAG FD D2 ::
+((3agf) ((3gfe) fdec | ((3dcB) ((3cBA) BFFB | Ad ~d2 Adfd | eB ~B2 [Fe][BB] ~B2 |
+abag fgfe | defd BAFB | ABde ((3fga) ec | dBAG FE E2 :|]
+S:https://www.folktunefinder.com/tunes/94650
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Devils_in_Dublin_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Devils_in_Dublin_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Devils_in_Dublin_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Devils_in_Dublin_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:121
+T: Sanba diao
+N: C1615
+O: China,Anhui, huaiyuan
+S: III, 589]
+R: Wuge, Huagudeng]
+M: 2/4
+L: 1/8
+K: C
+ECD2 | EED2 | EEDC | A,CD2
+DCD2 | ECD2 | ECDD | D2CA,G,2
+CA,G,A, | G,2E,2 | DCD2 | DD2C | C2CA, | A,CE,A, | G,4
+EED2 | EED2 | EEDCC2
+CCA,C | E,A,G,G, | CA,G,G, | CA,G,2 | E,4
+DDD2 | A,DD2 | DDDC | C4
+EC2D | A,CD2 | DB,A,B, | A,4
+DCDD | A,C2A, | A,E,G,A, | G,4
+S:https://www.folktunefinder.com/tunes/92144
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Wuge, huagudeng]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

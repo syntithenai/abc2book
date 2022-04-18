@@ -1,0 +1,27 @@
+X:0677
+T:"Planxty Irwin"      (Erwin)           0677
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(See #59 & 60 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+"^vb"A|d2c Bcd|A2G FED|G2E FGA|C2D E2c|
+d2c Bcd|A2G FED|G2E FGA|D2C D2:|
+|:A|d3/2e/2d d2d|e2e ecA|(A/2f3/2)f e2d|dcB ABc|
+d2c Bcd|A2G FED|G2E FGA|D2C D2:|
+S:https://www.folktunefinder.com/tunes/182767
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/677-PlanxtyIrwin.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

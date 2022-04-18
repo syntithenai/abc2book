@@ -1,0 +1,32 @@
+X: 1
+T: Queen Mary, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmaj
+B,6 | D6 | G6 | B6 | d6- | d2 c3 G | B6 | A6 |
+B,6 | D6 | G4 B2 | e4- eB | d6- | d2 c3 G | B6 | A4- AF |
+G6- | G2 e3 B | d6 | c6 | A6- | A2 f3 ^c | e4- ed | d6 |
+b6 | g6 | e6 | c6 | B2 ^A2 B2 | d2 c3 F | G6- | G6 ||
+|: B,3 D GB | d4 ^cd | e4 e2 | F6 | B,3 D GB | d4 ^cd | e4 e2 | A6 |
+B,3 D GB | d2 ^c2 d2 | f3 e cA | E6 |1 E3 F Ac | f4 e2 |
+e3 d cA | F2 E2 D2 :|2 e3 d cA | E4- EF | G6 | g6 ||
+B,6 | D6 | B6 | G6 | F6- | F4- FE | C6- | C6 |
+B,6 | D6 | B6 | G6 | F6- | F2 G3 ^G | A6- | A4- A^A |
+B6 | F6 | A2 G3 F | E6 | A6 | E6 | G2 F3 E | D6 |
+D2 E2 F2 | G2 A2 B2 | e4 d2 | E6 | B4 (3ABA | D4- DA | G6- | G4- GD ||
+d3 D d2 | e4 B2 | d3 c AF | D4- DD | d3 D d2 | e4 B2 | d3 c AF | D6 |
+(3GAG F2 G2 | e4 B2 | d4 c2 | d4 c2 | B4 d2 | B4 A2 | G4 f2 | g2 B2 c2 ||
+|: d6 | e6 | d6 | B2 D2 G2 | B6 | (3BdB A3 D | G6- | G3 g3|
+e6 | d6 | G6 | B6 |1 (3BdB A3 ^G | A6- | A3 B c^c :|2 (3BdB A3 F | G6- | G6 ||
+B,3 D GB | d4 ^cd | e4 e2 | F6 | B,3 D GB | d4 ^cd | e4 e2 | A6 |
+B,3 D GB | d2 ^c2 d2 | f3 e cA | E6 | e3 d cA | E4- EF | G6 | g6 ||
+S:https://www.folktunefinder.com/tunes/184229
+S:http://www.thesession.org/tunes/display/7265
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:1
+T:Riu, riu, chiu
+T: Refrain
+%%gchordfont Helvetica 12 box
+%%MIDI nobarlines
+S: Villancicos de diversos autores, 1556
+C: Mateo Flecha the elder (1481-1553)
+T: Refrain
+M:C
+L:1/8
+K:C bass
+%1
+a a g a f2 e d2 e f g a2 a2 z2 a a g a f2 e g2
+S:https://www.folktunefinder.com/tunes/185195
+S:http://www.laymusic.org/music/villancicos/riu.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

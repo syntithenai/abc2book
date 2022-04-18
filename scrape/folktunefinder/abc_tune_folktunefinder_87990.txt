@@ -1,0 +1,26 @@
+X:365
+T: Golden Pass
+T: Atha D\'uin an \'Oir
+S: "Roche Collection of Traditional Irish Music" [II/23/251]
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D | G2A B2A | G2E D2D | E2A A2G | A2E E2F |
+G2A B2A | G2E D2B, | D2E G2A | B2G G2 :|
+B | d2e d2B | A2B d2A | B2e e2d | e2B B2^c |
+d2e d2B | G2A B2A | B2d A2=c | B2G G2B |
+d2e d2B | G2A B2A | B2e e2d | e2B B2^c |
+d2e d2B | A2B G2E | D2E G2A | B2G G2 :|
+S:https://www.folktunefinder.com/tunes/87990
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/g.abc
+S:http://www2.redhawk.org:8080/irish/zouki/g.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

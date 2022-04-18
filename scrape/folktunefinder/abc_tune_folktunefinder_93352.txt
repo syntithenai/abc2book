@@ -1,0 +1,26 @@
+X:445
+T: Paddy Lyons'
+S: "Johnny O'Leary of Sliabh Luachra" (#3)
+Z: B.Black
+Q: 300
+L: 1/8
+M: 6/8
+R: jig
+K: D
+BEE cBA|BEE ecA|BEE dcB|ADF d2F|
+BEE cBA|BEE eBc|ded c/d/cB|1 AFD D3 :|2\
+AFD DEF||
+E2e eAe|eEe efe|EEe eBc|dcB AFD|
+E/F/Ee eEe|eEe efe|dcB c2B|1 AFD DFD :|2\
+AFD DFA||
+S:https://www.folktunefinder.com/tunes/93352
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

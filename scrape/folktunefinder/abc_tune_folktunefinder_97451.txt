@@ -1,0 +1,30 @@
+X: 7
+T:Cliffs of Moher, The
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+H:
+H:Bar 8 also played |EDB, A,3|
+Z:
+K:Ador
+"Am"~a3 bag|eaf ged|"G"c2A BAG|EFG ABd|
+"Am"eaa bag|eaf ged|"G"c2A BAG|EFG "Am"A3:||:
+"Am"efe dBA|efe dBA|"G"GAB dBA|GAB ~d3
+|1 "Am"efe dBA|efe dBA|"G"GAB dBG|EFG A3
+:|2 "Am"efe dee|cee Bee|"G"EFG BAG|EDB, "Am"A,3|]
+S:https://www.folktunefinder.com/tunes/97451
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords Has chords

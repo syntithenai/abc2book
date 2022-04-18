@@ -1,0 +1,21 @@
+X: 1
+T: Musical Priest, The
+M: 4/4
+L: 1/8
+R: reel
+K: Bmin
+|:BA|FBBA B2Bd|cBAf ecBA|FBBA B2Bd|cBAc B2:|
+|:Bc|d2dc dfed|(3cBA eA fAeA|dcBc defb|afec B2:|
+|Bc|dBB2 bafb|afec ABce|dB B2 bafb|afec B2Bc|
+dB B2 bafb|afec ABce|dcBc defb|afec B2|
+S:https://www.folktunefinder.com/tunes/177798
+S:http://www.thesession.org/tunes/display/73
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

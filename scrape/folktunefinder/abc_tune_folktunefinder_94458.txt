@@ -1,0 +1,29 @@
+X:19167
+T:Ya no va la Sinda
+M:6/8
+L:1/8
+Q:1/4=92
+C:Trad
+O:Spain
+A:KINGDOM OF LEON
+R:Jota
+K:Gm
+GGG G=Bc|d2 d- de{d}e|(d{e}d)(c {d}c)=Bc|
+(AB/2A/2)G- G3|DGG G=cd|d3 d- dee|(d{e}d)(c {d} c)=Bc|
+(AB/2A/2)G- Gc=B|~c2 (A {B} A)GG|
+~G2 ^F- F3|DGG GAB|(AB/2A/2)G- GB/2B/2B/2A/2|
+GGA BcB|c-BA- AA/2A/2A/2A/2G/2|
+^FFG ABA|B-AG- GB/2B/2B/2A/2|
+GGA BcB|c-BA- AA/2A/2A/2A/2G/2|
+^FFG ABA|B-AG- G3||
+S:https://www.folktunefinder.com/tunes/94458
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Jota
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:198
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sonny Brogan's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Andy McGann
+R:Jig
+L:1/8
+M:6/8
+K:D
+~E3 ~B3 | cBA B2 E | ~E3 ~B3 | cBA FED |
+~E3 ~B3 | cBA Bcd | edc dcB | cBA FED ::
+Eec d2 B | cBA Bcd | Eec d2 B | cBA FED |
+Eec d2 B | cBA Bcd | edc dcB | cBA FED :|]
+S:https://www.folktunefinder.com/tunes/94793
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sonny_Brogans_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sonny_Brogans_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

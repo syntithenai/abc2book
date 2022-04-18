@@ -1,0 +1,34 @@
+X: 132204
+T: Munster Lassie
+S: Fitzmaurice Collection
+Z: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 160
+K: D
+D | DFA d2g | fef d3 | DFA dcB | AGF BGE |
+DFA d2g | fef dfa | gfe dcB | AGF E2 :|
+F/G/ | A2F FGF | A2F FdF | A2F FGF | GFG EFG |
+A2F FGF | DFA dfa | gfe dcB | AGF E2 :|
+f/g/ |a2 (3b/a/g/ fdf| abg fdf |a2 (3b/a/g/ fdf|\
+gfg efg|
+a2 (3b/a/g/ fdf|abg f2 (3d/f/a/|gfe dcB | AGF E2 :|
+g | faf gbg | faf ece | faf gbg | agf e2 f/g/ |
+fdf g3 | afd dfa | gfe dcB | AGF E2 :|
+g | fed edc | dAF D2 f/g/| afd dfa | gfg e2 f/g/|
+agf edc | dcB AGF | GBd FAd | GFG E2 :|
+G | FDF GEG | AGF EFG | FDF GEG | AFA BGE |
+FDF GEG | AFA dfa | gfe dcB | AGF E2 :|
+S:https://www.folktunefinder.com/tunes/177710
+S:http://www.qmcorp.net/webabc/m/132204.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

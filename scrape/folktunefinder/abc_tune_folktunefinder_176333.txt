@@ -1,0 +1,24 @@
+X: 1
+P: Miss Stewart's Jig of Bombay
+C: arr. T. Traub 4-19-02, from Pinewoods Collection
+R: Jig
+B: Pinewoods Collection
+Z: arr. Terry Traub 4-19-02
+M: 6/8
+K: D
+L: 1/8
+A|: "D" d3 D3| "D"AFD D2 F| "Em"G2 E "A"EFG| "E7"FED "A7"CB,A,|\
+   "D" d3 D3| "D"AFD D2 F| "Em"Egf "A"edc| "D"d3 D2 :|
+A|"D" d2 d faf| "D"dfd faf| "Em" B2 e "E7"efe| "A"c3 A2 c| \
+  "D"d2 d faf| "G"gbg "D"faf|"G"ege "A"cAc|"D"d3 d3||
+A|"D" d2 d faf| "D"dfd faf| "Em" B2 e "E7"efe| "A"c3 A2 c| \
+  "D" def "A"efg| "D"fed "F#m"cBA| "G"B/c/dB "A"c/d/ec| "D"d3 D2 |]
+S:https://www.folktunefinder.com/tunes/176333
+S:http://terrytraub.org/abc/MissStewartsJigOfBombayJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

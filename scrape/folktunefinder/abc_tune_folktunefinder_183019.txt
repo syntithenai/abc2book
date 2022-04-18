@@ -1,0 +1,101 @@
+X:422
+T:Viggen
+T:Polka
+C:anon.
+O:Sweden, Norway or USA
+V:1 program 1 21
+V:2 program 2 22 bass
+R:Polka
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://www.musicaviva.com/abc/scandinavia.abc
+M:2/4
+L:1/16
+K:C
+V:1
+GF|"C"E2G2c2E2|"C"G4 z2 AG|"F"F2A2c2F2|"F"A4 z2 AA|
+V:2
+z2|C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"G2B2d2e2|"G"f3e d2c2|"G"B2G2A2B2|"C"c2ec G2GF|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|C,2[G2C2E2] G,2[G2C2E2]|
+%
+V:1
+"C"E2G2c2E2|"C"G4 z2 AG|"F"F2A2c2F2|"F"A4 z2 AA|
+V:2
+C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"G2B2d2e2|"G"f3e d2c2|"G"B2G2A2B2|"C"c4 z2:|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]| C,2[G2C2E2] [G2C2E2]:|
+%
+V:1
+|:z2|"C"e2ee .e2.e2|"C"e2d2c2B2|"F"A3F .F2.F2|"F"F2 z2 z4|
+V:2
+|: z2 |C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"GBdB GBdB|"G"GBdB GBdB|"G"G2^FG .A2.G2|"C"E4 z4|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|C,2[G2C2E2] G,2[G2C2E2]|
+%
+V:1
+"C"e2ee .e2.e2|"C"e2d2c2B2|"F"A3F .F2.F2|"F"F2z2z4|
+V:2
+C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"GBdB GBdB|"G"GBdB GBdB|"G"G2^FG .A2.B2|"C"c4 z2:|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]| C,2[G2C2E2] [G2C2E2]:|
+%
+V:1
+|:GF|"C"EGcG EGcG|"C"EGcG EGcG|"F"FAcA FAcA|"F"FAcA FAcA|
+V:2
+|: z2 |C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"GBdB GBdB|"G"GBdB GBdB|"G"G2^FG .A2.G2|"C"E4 z2 GF|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|C,2[G2C2E2] G,2[G2C2E2]|
+%
+V:1
+"C"EGcG EGcG|"C"EGcG EGcG|"F"FAcA FAcA|"F"FAcA FAcA|
+V:2
+C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"GBdB GBdB|"G"GBdB GBdB|"G"G2^FG .A2.B2|"C"c4 z2:|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]| C,2[G2C2E2] [G2C2E2]:|
+%
+V:1
+GF|"C"E2G2c2E2|"C"G4 z2 AG|"F"F2A2c2F2|"F"A4 z2 AA|
+V:2
+z2|C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"G2B2d2e2|"G"f3e d2c2|"G"B2G2A2B2|"C"c2ec G2GF|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|C,2[G2C2E2] G,2[G2C2E2]|
+%
+V:1
+"C"E2G2c2E2|"C"G4 z2 AG|"F"F2A2c2F2|"F"A4 z2 AA|
+V:2
+C,2[G2C2E2] G,2[G2C2E2]|C,2[G2C2E2] G,2[G2C2E2]|F,2[A2C2F2] C,2[A2C2F2]|F,2[A2C2F2] C,2[A2C2F2]|
+%
+V:1
+"G"G2B2d2e2|"G"f3e d2c2|"G"B2G2A2B2|"C"c4 z2:|
+V:2
+G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]|G,2[B,2D2F2] D,2[B,2D2F2]| C,2[G2C2E2] [G2C2E2]:|
+S:https://www.folktunefinder.com/tunes/183019
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/sweden/viggen-acc.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/sweden/viggen-acc.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

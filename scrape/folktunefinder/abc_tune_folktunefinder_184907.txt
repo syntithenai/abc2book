@@ -1,0 +1,25 @@
+X: 1
+T: Redican's Mother
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmaj
+B,DE B,DE DB,G, | B,DE B,DE ~G3 | B,DE B,DE DB,G, | B,DG AGF ~E2D |
+B,DE B,DE DB,G, | B,DE B,DE ~G3 | B,DE B,DE DB,G, | B,DG AGF ~E2c |
+~B3 A2A G2c | ~B3 B2B ~c2c | ~B3 A2A GED | EDB, G,dD e2d |
+~B3 A2A G2c | ~B3 B2B ~c2c | dBG cBA GED | EDB, G,B,D ~E2D|
+FAB FAB AFD | FAB FAB ~d3 | FAB FAB AFD | FAd ed^c ~B2A |
+FAB FAB AFD | FAB FAB ~d3 | FAB FAB AFD | FAd ed^c ~B2g |
+~f3 e2e d2g | ~f3 f2f ~g3 | ~f3 e2e dBA | BAF DdD b2a |
+~f3 e2e d2g | ~f3 f2f g2g | afd gfe dBA | BAF DFA ~B2A|
+S:https://www.folktunefinder.com/tunes/184907
+S:http://www.thesession.org/tunes/display/378
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

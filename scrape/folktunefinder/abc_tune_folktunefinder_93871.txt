@@ -1,0 +1,30 @@
+X:1025
+T: Mike Leonard's
+T: Moonlight in Athlone
+S: "Passing Time" (Jim & Mary Coogan & friends)
+N: Originally from Mike Flanagan of the Flanagan Bros.
+L: 1/8
+M: 4/4
+Q: 300
+R: hornpipe
+K: G
+Bc | d^cde d=cBA | GFGA BGDB, | CEGc B,DGB | (3ABA (3GFE D2 Bc |
+d^cde d=cBA | GFGA BGDB, | CEGc BAGB | (3ABA GF G2 :|
+K: D
+FG | Adcd fedc | Be^de gfe=d | ca^ga ba=ge | (3dfe (3dcB A2 FG |
+Adcd fedc | Be^de gfe=d | ca^ga b=gec | (3dcd ec d2 :|
+S:https://www.folktunefinder.com/tunes/93871
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

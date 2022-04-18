@@ -1,0 +1,27 @@
+X:0700
+T:O'Carolan's Farewell to Music   0700
+C:Turlough  O' Carolan
+C:tenderly
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#188 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=80
+I:abc2nwc
+M:C
+L:1/8
+K:C
+"_VB"(AB)|c2(BA G2)(AB)|c2(BA G2)(cd)|e2(de) c2(BA)|(A4G2)(de)|
+f2(fg) e2(ef)|(d^cde) (a3^g)|(a=g)(ed c)A(B^G)|A4A2:|
+e2|(gede) (g2ga)|(ge)(de) g2e2|(a^gab) (a=geg)|b4(ab)(ag)|
+^f2(fg) e2(e=f)|(d^cde) (a3^g)|(a=g)(ed c)A(B^G)|A4A2|]
+S:https://www.folktunefinder.com/tunes/179381
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/700-OCarolansFarewelToMusic.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

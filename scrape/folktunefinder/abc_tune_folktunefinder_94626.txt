@@ -1,0 +1,29 @@
+X:028
+U: ~ = !turn!
+%%topmargin 3cm
+T:Carraroe Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:D
+DED F2 A | dfe d2 A | BAF Adf | afd e2 f |!
+DED F2 A | dfe d2 A | d2 B AFA | [1 dAF E2 F :|] [2 dAF E2 A ||
+|: dfa {/b}afa | bge edB | dfa {/b}afa | bge e2 A |
+dfa {/b}afa | bge edB | d2 B AFA | [1 dAF E2 A :|] [2 dAF E2 F |]
+S:https://www.folktunefinder.com/tunes/94626
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Carraroe_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Carraroe_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Carraroe_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Carraroe_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

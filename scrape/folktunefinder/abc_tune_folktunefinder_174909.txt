@@ -1,0 +1,31 @@
+X:1
+T:Mazurka
+C:des coliers de St Genest, fichier abc : Bernard Loffet
+L:1/8
+Q:360
+M:9/8
+K:G
+ z4zE [F2D,2]E |: [B3E,3] [B2E,2]B [B2E,2]B | [B3E,3] E,3 [B2E,2]B | [A3D,3] [B2D,2]A [G2G,2]F | \
+ [G3E,3] [E2E,2]E [F2D,2]E | [B3E,3] [B2E,2]B [B2E,2]B | [B3E,3] E,3 [B2E,2]B | [A3D,3] [B2D,2]A [G2G,2]F | \
+|1 [E3E,3] E,2E [F2D,2]E :|2 [E3E,3] E,3 [B2E,2]B |: [c3A,3] [c2A,2]B [c2A,2]^c | \
+ [^c3A,3] A,3 [c2A,2]=c | [B3E,3] [B2E,2]A [B2E,2]B | [B2E,2]G [E3E,3] [B2E,2]B | \
+ [c3A,3] [c2A,2]B [c2A,2]^c | [^c3A,3] A,3 [c2A,2]=c | [B3E,3] [A2D,2]G [F2D,2]G | \
+|1 [F3D,3] [E3E,3] [B2E,2]B :|2 [E3E,3] E,6 | \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/174909
+S:http://diato.ifrance.com/diato/tablat/120.abc
+S:http://diato.ifrance.com/tablat/120.abc
+S:http://diato.org/tablat/120.abc
+S:http://perso.orange.fr/diato/tablat/120.abc
+S:http://perso.wanadoo.fr/diato/tablat/120.abc
+S:http://pro.wanadoo.fr/diato/tablat/120.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/120.abc
+S:http://www.diatonique.net/tablat/120.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

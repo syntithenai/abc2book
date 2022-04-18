@@ -1,0 +1,30 @@
+X:061
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Earl's Chair
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+JPB2 dB {/c}BAFA | JPB2 dB {/c}BAFB | AF ((3{/G}FEF) DF ((3{/G}FEF) | AFdB ADFA |
+JPB2 dB {/c}BAFA | JPB2 dB {/c}BAFB | AFAB defd | edef d4 ::
+e3 B d2 Bd | e2 eB dBAB | efeB d^cde | fedB BDFA |
+e3 f eB ((3{/c}BAB) | gB ((3{/c}BAB) defg | afbf afeg | fedB ADFA :|]
+S:https://www.folktunefinder.com/tunes/94659
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Earls_Chair_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Earls_Chair_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Earls_Chair_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Earls_Chair_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: Last Train From Loughrea
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|:DEF DEF|A2 A FAd|fed e2 d|fed ~B2 A|
+~d3 d2 d|dcB A2 D|DEF A2 F|1 FED D3:|2 FED D2 E||
+|:F2 F FED|~F3 FED|FAF FED|FAA ~B2 A|
+~d3 d2 d|dcB A2 D|DEF A2 F|1 FED D3:|2 FED D2 a||
+|:afd dcd|afd def|gfe edc|dcB ABc|
+~d3 d2 d|dcB A2 D|DEF A2 F|1 FED D2 a:|2 FED D2 E||
+|:FAA ~B2 A|FAA ~B2 A|FAA FAA|def ecA|
+~d3 d2 d|dcB A2 D|DEF A2 F|1 FED D2 E:|2 FED D3||
+S:https://www.folktunefinder.com/tunes/171550
+S:http://www.thesession.org/tunes/display/7993
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

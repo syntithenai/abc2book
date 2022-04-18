@@ -1,0 +1,46 @@
+X: 9159
+T: Tickle the Pig (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Dmix
+[V:1] E | "D"D2 F A2 F | "C"GcB c2 B | "D"Add "A"^cde | "D"fdA "C"cGE |
+[V:2] z|D,2[AFD]A,,2[AFD]|C,2[CGE]G,,2[CGE]|D,2[AFD]A,,2[A^CE]|D,2[AFD]C,2[CGE]|
+%
+[V:1] "D"D2 F A2 F | "C"GcB cde | "D"dcA "Am"GEC | "G"DED "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,,2[CGE]|D,2[AFD]A,,2[ACE]|G,,2[GBD][D,2A,2F2]:|
+%
+[V:1] A|"D"Add afd | "Am"Ace "C"gfg | "D"f2 a "G"gfe | "D"d2 e "Am"cBA |
+[V:2] z|D,2[AFD]A,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"Add afd | "Am"Ace "C"gfe | "D"d^cA "Am"GEC |"G"DED "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]A,,2[ACE]|G,,2[GBD][D,2A,2F2]:|
+%%%%%%%%%tune repeat
+[V:1] E | "D"D2 F A2 F | "C"GcB c2 B | "D"Add "A"^cde | "D"fdA "C"cGE |
+[V:2] z|D,2[AFD]A,,2[AFD]|C,2[CGE]G,,2[CGE]|D,2[AFD]A,,2[A^CE]|D,2[AFD]C,2[CGE]|
+%
+[V:1] "D"D2 F A2 F | "C"GcB cde | "D"dcA "Am"GEC | "G"DED "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,,2[CGE]|D,2[AFD]A,,2[ACE]|G,,2[GBD][D,2A,2F2]:|
+%
+[V:1] A|"D"Add afd | "Am"Ace "C"gfg | "D"f2 a "G"gfe | "D"d2 e "Am"cBA |
+[V:2] z|D,2[AFD]A,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]G,,2[GDB]|D,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"Add afd | "Am"Ace "C"gfe | "D"d^cA "Am"GEC |1 "G"DED "D"D2 :|2\
+"G"DED "D"HD3||
+[V:2] D,2[AFD]A,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]A,,2[ACE]|1 G,,2[GBD][D,2A,2F2]:|2\
+G,,2[GBD]H[D,3A,3F3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87244
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

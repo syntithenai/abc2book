@@ -1,0 +1,18 @@
+X:1
+T:Panic Is On
+M:2/2
+L:1/8
+K:C
+ C2 E2 G2 AG| c A2 c- c4| zd-d c d2 c2| _B8| ec dc e d3| c A2 B- B3 c|\
+ C2 E2 G2 BA|B-A B A- A4| D4 A4| z GA GA G A2| C8|
+S:https://www.folktunefinder.com/tunes/181548
+S:http://back.numachi.com:8000/dtrad/abc/PANICON.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

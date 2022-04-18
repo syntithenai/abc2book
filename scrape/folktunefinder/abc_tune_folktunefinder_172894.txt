@@ -1,0 +1,23 @@
+X: 1
+T: Looking Out The Window
+M: 4/4
+L: 1/8
+R: reel
+K: Emin
+|:B,~E3 EDB,D|G3A BAGB |A3F D^CDE| FD3 ADFD|
+B,~E3 E2FA|ABB2BABd|F3E EDDB,|1A,B,DF EDB,D:|2A,B,DF EDFA|]
+B3d e3g |ed (3efg ed (3B^cd | AFAB d^cde|fdfa fded|
+Be (3eee e3g|ed (3efg ed (3B^cd |F3E EDDB,|A,B,DF EDFA|
+B3d e3g |ed (3efg ed (3B^cd | AFAB d^cde|fdad bdad|
+Be (3eee e3g|ed (3efg ed (3B^cd |F3E EDDB,|A,B,DF E4|]
+S:https://www.folktunefinder.com/tunes/172894
+S:http://www.thesession.org/tunes/display/7839
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

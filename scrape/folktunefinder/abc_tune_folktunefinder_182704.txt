@@ -1,0 +1,28 @@
+X:0661
+T:"Planxty Dobbins"               0661
+C:Turlough  O' Carolan
+C:moderate
+Q:1/4=90
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"^vb"(3(def)|g2agfe|a2d2d2| TRg2B2B2|e2A2A2| TRd2G2G2|g2fgaf|g6-|g4||
+(ga)|b2gabg| TRc'2gabg|b2g2e2|e4(fg)|a2fgaf|b2gabg| TRa2f2d2|d4 (3(def)|
+g2agfe|a2d2d2| TRg2B2B2|e2A2A2| TRd2G2G2|g2fgaf|g6-|g2z2||
+z2|GG G2G2|GG G2G2|cA A2A2|cA A2A2|Bc d2d2|d2e2c2|Bc d2d2|d2e2d2||
+b2gabg|c'2gabg|b2gabg|TRa2f2d2|e4ag|TRf2d2f2|g6|g4 (3(efe)|
+d2B2A2|e4A2|A2B2A2|d4G2|G2A2G2|e4ag| TRf2d2f2|g4|]
+S:https://www.folktunefinder.com/tunes/182704
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/661-PlanxtyDobbins.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

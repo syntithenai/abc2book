@@ -1,0 +1,29 @@
+X:487
+T: Yenghongjunge
+N: C1906
+O: China,Zhejiang Chunan
+S: III, 623]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+d4B2A2 | d4B2A2 | B2G4B2 | A8
+d3ed2B2 | A6B2 | G3AG2E2 | D8
+G4d2B2 | A2B2A2G2 | E3DE2G2 | D6
+E2 | G4E2G2 | A3BA2G2 | E2D2E2B,2 | D8
+B6d2 | B4d4 | e4B4 | d4d4
+d3ed2B2 | A6B2 | G3AG2E2 | D8
+G4E2G2 | A3BA2G2 | E3DE2B,2 | D8
+S:https://www.folktunefinder.com/tunes/92510
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

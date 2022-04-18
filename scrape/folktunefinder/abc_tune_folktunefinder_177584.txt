@@ -1,0 +1,27 @@
+X: 2
+T: Muieira De Chantada
+M: 6/8
+L: 1/8
+R: muieira
+K: G Major
+|: g2 f | 
+d2 e f2 d | e3 d2 c | A2 B c2 d | B2 G g2 f |
+d2 e f2 d | efe d2 c | A2 B c2 d | G3- :|
+|: G2 d |
+f2 e ecA | e2 d dBG | d2 c A2 F | e2 d dBd |
+f2 e ecA | e2 d dBG | d2 c A2 B | G3 :| 
+|: G2 D | 
+G3 ABc | d3- dBc | d^cd e2 d | d3 A3 |
+A3 Bcd | e3- ed^c | ded cBA | B2 A G2 d |
+G3 ABc | d3- dBc | d^cd g2 f | f3 e3 | 
+gfg a2 g | g3 d3 | ded cBA | G3- :|
+S:https://www.folktunefinder.com/tunes/177584
+S:http://www.thesession.org/tunes/display/7738
+% Rhythm Muieira
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

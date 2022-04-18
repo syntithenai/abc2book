@@ -1,0 +1,28 @@
+X:062
+U: ~ = !turn!
+%%topmargin 3cm
+T:Ed Moran's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+ge | dB ((3{/c}BAB) dB ((3{/c}BAB) | AGAB c2 ge | dB ((3{/c}BAB) dB ((3{/c}BAB) | AGAB G2 :|]
+D2 |: G2 Bd gbag | efge dBGB | {/d}c2 ec PB2 dB | [1 AGAB c2 BA :|] [2 AGAB G2 |]
+S:https://www.folktunefinder.com/tunes/94660
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Ed_Morans_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Ed_Morans_Favorite_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Ed_Morans_Favorite_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Ed_Morans_Favorite_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

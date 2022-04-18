@@ -1,0 +1,37 @@
+X:820
+T: Six Foot Sandwich (The) (with piano acc.)
+T: Loretta Egan's
+C: BB
+L: 1/8
+M: 6/8
+Q: 320
+R: jig
+V: 1 program 1 21 volume=110 %accordion
+V: 2 volume=80 program 1 00 clef=bass m=D
+K: D
+[V:1] D|"D"F2A d2e|"D"fgf fed|"G"Bcd "D"AFD|"Em"BGE "A7"EFG|
+[V:2] z|D,2[AFD]A,,2[AFD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[AFD]|\
+E,2[EGB]A,,2[CEG]|
+%
+[V:1] "D"F2A d2A|"G" B2d "Em"gfe|"D" fga "G"gdB|"A"Ace "D"d2 :|
+[V:2] D,2[AFD]A,,2[AFD]|G,,2[GBD]E,2[EGB]|D,2[AFD]G,,2[GBD]|\
+A,,2[ACE][A,2D,2F2]:|
+%
+[V:1] e|"Bm"f2B BdB|FAB dcB|"A"e2A AcA|EAc ecA|
+[V:2] z|B,,2[BDF]F,,2[BDF]|B,,2[BDF]F,,2[BDF]|A,,2[ACE]E,,2[ACE]|\
+A,,2[ACE]E,,2[ACE]|
+%
+[V:1] "Bm"f2B BdB|FAB dcB|"D"fed "A"edc|"Bm"dBA B2 :|
+[V:2] B,,2[BDF]F,,2[BDF]|B,,2[BDF]F,,2[BDF]|D,2[AFD]A,,2[ACE]|\
+B,,2[BDF][F,2D2B,,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87049
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 2
+T:Morpeth's Rant
+M:4/4
+L:1/8
+Q:200
+C:Traditional
+R:Reel
+K:D
+fe|:"D"d2AG FDFA|"G"BGBd "A7"cAce|"D"f2fd "G"gfed|"Em"c2e2 "A7"e2 fe |!
+"D"d2AG FDFA|"G"BGBd "A"cAce|"Bm"f2fd "A7"gfed |1"D"A2d2 d2 fe:|2"D"A2d2
+d2 A2|!
+|:"D"dfaf dfaf|"Em"gfef g2ef|"A7"gfed cdeg|"D"fefg "A"f3f |!
+"Bm"dfaf dfaf|"Em"gfef g2ef|"A7"gfed ceag|1"D"f2 d2 d2 A2:|2"D"f2 d2 d2f
+e |
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/176982
+S:http://www.blackflute.com/music/tunes/reels/morpeth.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

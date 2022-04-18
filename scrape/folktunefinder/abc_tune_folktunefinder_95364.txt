@@ -1,0 +1,29 @@
+X:290
+T:Ardkinglass's Delight
+B:Aird's Airs and Melodies vol 3
+M:C|
+Z:Richard Robinson 
+%RRN:For Ger. Flute
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001ca.html
+%%ID:000001ca
+K:D
+"Slow" D2|\
+F2A2 B2d2| e2f2 a3b| \
+a2ba (ba)(fd)| (e/f/g) e2-e3D|\
+F2A2 B2d2| e2f2 b/c'/d'b2|
+agaf "tr"e3d| d/e/fd2 d2::\
+a2|\
+f2a2 bc'd'2| abaf e3d|
+(fd)(fa) (ba)(fd)| (d/e/f)e4 d2|\
+B2d2 F2A2| B2d2 b/c'/d'b2| \
+(ab)(af) "tr"e3d| (d/e/f)d2 d2:|
+S:https://www.folktunefinder.com/tunes/95364
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

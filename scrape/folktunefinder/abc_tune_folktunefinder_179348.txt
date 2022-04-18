@@ -1,0 +1,27 @@
+X: 1
+T: Ob-la-di Ob-la-da
+C: Beatles
+R: jig
+N: This is NOT the original version of the tune!!!
+M: 6/8
+L: 1/8
+K: Bb
+"A"\
+[|"Bb"d2d dcB | "F7"Ac2 c3 | eee edc | "Bb"B6 \
+| f2f fed | "Eb"efg- gfe | "Bb"ded "F7"cdc | "Bb"B3 zBd |]
+"B"\
+[|"Bb"fBd fBd | "Dm"f2b- "Gm"b2f- | "Bb"fde "F7"dc2 | "Bb"B3 zBd \
+| "Bb"fBd fBd | "Dm"f2b- "Gm"b2f- | "Bb"fde "F7"dc2 | "Bb"HB3 z2B |]
+"C"\
+[|"Eb"Bef gfg | beg- gBd | "Bb"d2d "Cm"c2c | "Bb"B2B "Bb7"_A2A \
+| "Eb"Gef gfg | beg- g2B | "Bb"ddd ed2 | "F7"c6 |]
+S:https://www.folktunefinder.com/tunes/179348
+S:http://trillian.mit.edu/~jc/music/abc/England/rapper/jig/ObladiObladaJ_Bb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

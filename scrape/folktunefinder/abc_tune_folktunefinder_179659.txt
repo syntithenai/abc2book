@@ -1,0 +1,34 @@
+X:1
+T:O Gin I were fairly shot o'her 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+Q:180
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Jig from vol. 6 of "scots musical museum"
+R:Jig
+D:CD "Big men small pipes" CD EAR 016-2 (1995
+H:Edinburgh 180
+K:D dorian
+F2D F2D | F2A AFD | F2D F2D | E2 G GEC |\
+F2 D F2 D | F2A AFA | BAG cBA | CEG GEC :|
+AcD AFD | AcA AFD | AcD AFD | AcA GEC |\
+AcD AFD | AcA AFA | BdB AcA | C2G GEC  :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179659
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/o_gin_i_were_fairly_shot_o.abc
+% Rhythm Jig
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

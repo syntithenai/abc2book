@@ -1,0 +1,26 @@
+X:18
+T:Scottisch du Pre Escale
+R:Scottisch
+C:Emile Escale
+A:Champsaur - Hautes-Alpes - France
+G:Fiddle
+%%MIDI program 110 %Fiddle
+M:4/4
+L:1/8
+Q:200
+K:C
+|:[BG,]G[GG,]D/D/[DG,]B[BG,]A/B/|1[c/D,/]B/A/G/[AD,]A/d/[d/G,/]c/B/A/[BG,]G:|2[c/D,/]B/A/G/[AD,]A/d/[d/G,/]c/B/A/[GG,]G|:[G/G,/]A/B/c/[dG,]d[e/D,/]d/c/B/[A2D,2]| \
+|1[dG,]d/e/[dG,]d/e/[d/G,/]c/B/A/[BG,]G:|2[dG,]d/e/[dG,]d/e/[d/G,/]c/B/A/[G2G,2]| \
+K:G
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96978
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Scottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

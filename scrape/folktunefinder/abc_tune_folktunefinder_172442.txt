@@ -1,0 +1,26 @@
+X:0646
+T:"The Little Harvest Rose"       0646
+C:Turlough O'Carolan
+N:Transposed from F
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:G
+GA|B2cB A2BA|G2gg g2(d/2e/2g)|(a/2b/2c') ba {ga}(gf) {ef}(ed)|d2 TRe2 {de}d2GA|
+(B3/2d/2cB) (A3/2c/2BA)|G2gg g2(d/2e/2g)|(ac'ba) (gfed)|d2^c2d2||
+gf|(fe)(ed) (dBAG)|(GB/2d/2) gg g2(a/2g/2e)|(d3/2c/2BA) (cBAG)|(EG)GA G2gf|
+(fe)(ed) (dBAG)|Bd g2g2(a/2g/2f/2e/2)|d2BA (cBAG)|(EG)GA HG2|]
+S:https://www.folktunefinder.com/tunes/172442
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/646-LittleHarvestRose.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

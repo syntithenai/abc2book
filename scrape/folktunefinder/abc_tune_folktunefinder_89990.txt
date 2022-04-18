@@ -1,0 +1,22 @@
+X:3
+T:Lilliburlero
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G|:GAG B2B|ABA c3|BdG c2B|AGF G3:|g2f g2d|de=f e2e|
+def gde|dcB A2d|edc Bcd|edc Bcd|egG c2B|AGF G3||
+S:https://www.folktunefinder.com/tunes/89990
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

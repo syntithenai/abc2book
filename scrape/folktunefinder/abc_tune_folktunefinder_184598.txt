@@ -1,0 +1,23 @@
+X:2
+T:Rakish Paddy
+R:reel
+C:Syracuse session setting
+L:1/8
+M:4/4
+K:Dmix
+&quot;C&quot;c3B c2AB|cBAG EG~G2|&quot;D&quot;Add^c defe|dcAG FGAB|
+&quot;C&quot;c3B c2AB|&quot;D&quot;cAAG EFGE|DEFG ABcA|[1 dcAG FGAB:|[2 dcAG FDD2|]
+&quot;C&quot;eg~g2 ag~g2|eg~g2 edBd|&quot;Am&quot;ea~a2 bgag|eaag edBd|
+&quot;C&quot;eg~g2 ag~g2|egge &quot;D&quot;defg|afge fde^c|[1 dcAG FDD2:|[2 dcAG FGAB|]
+</abc>
+S:https://www.folktunefinder.com/tunes/184598
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:rakish_paddy&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

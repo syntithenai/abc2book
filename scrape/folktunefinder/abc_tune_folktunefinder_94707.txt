@@ -1,0 +1,29 @@
+X:111
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lady on the Island
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Denis Murphy
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+dB | {/c}BAFB AFEF | (3.D.D.D ED ((3BAF) dA | {Bc}BAFB AFAB | defd efdB |
+{/c}BAFB AFEF | (3.D.D.D ED ((3BAF) dA | {Bc}BAFB AFAB | defd e2 ((3ABc) ||
+d2 fd efge | afdf eB (3{/c}(BAB) | defd efge | afdf e2 ((3ABc) |
+d2 fd efge | afdf eB (3{/c}(BAB) | defg afbf | afdf e2 dB |]
+S:https://www.folktunefinder.com/tunes/94707
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lady_on_the_Island_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lady_on_the_Island_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

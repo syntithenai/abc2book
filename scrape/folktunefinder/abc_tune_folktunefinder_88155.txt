@@ -1,0 +1,30 @@
+X:110
+T:Walladmoor
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Lead down the middle, right & left, & chain, figure of four
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000df0.html
+%%ID:00000df0
+K:A min
+c/B/ |\
+ABA e2d | cBA  B2E | ABA B2E | ABA B2E |\
+ABA e2d | cBA ^GBE | A2B cdB | A3 - A2 ||
+G |\
+cdc g2f | edc BdG | cdc d2G | cdc d2G |\
+cdc g2f | edc (Bd) ^G | A2B cdB | A2a A2 |]
+\newpage
+%page 12
+S:https://www.folktunefinder.com/tunes/88155
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

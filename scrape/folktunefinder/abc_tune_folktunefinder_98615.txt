@@ -1,0 +1,29 @@
+X:10833
+T:Minuet,(Melody). BC.53a
+M:3/4
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:x
+Z:John Bagnall
+K:D
+ A2 AAAA | d4 e2 |  fgafed | "tr" e2 dcBA | B2 d4 | A2 d2 G2 | F/E/D "tr
+"E4 | {E} D6 |!|
+f2 ffff | "tr"e4 a2 | df e2 d2 | "tr"c4 d2 | e2 f2 ^g2 | a2 e2 d2 | c/B/
+A "tr"B3 A |A6 |! Ad f2 A2 | GB e2 G2 |FA d2 F2 | E6 | {a}g2 f2 e2 | fga
+f
+ed | g/f/e e3 d | d6 |]
+S:https://www.folktunefinder.com/tunes/98615
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

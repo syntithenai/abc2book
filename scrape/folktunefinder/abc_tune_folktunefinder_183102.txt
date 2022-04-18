@@ -1,0 +1,35 @@
+X:1
+T:Polka Schnell
+C:traditionell
+R:polka schnell
+A:Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:eingerichtet nach: 5.Spielheft fuer Okarina, Brigitte Dumfart, Oberoesterreichisches Volksliedwerk Linz, 1997
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+D/E/ |\
+DB BD/E/ | Dc cD/E/ | Dd cF | GB DD/E/ |
+DB BD/E/ | Dc cD/E/ | Dd cF | GG G :|
+|: D/D/ |\
+FF ED | BD G2 | cD Fc | BG DD/D/ |
+FF ED | BD G2 | cF AD | GG G :|
+K:C
+|: G/^F/ |\
+GG A/G/A/B/ | cE G2 | BD A>B | AG G2 |
+G/^F/G A/G/A/B/ | cE G2 | BG AB | ce c :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183102
+S:http://simonwascher.info/TradArchiv_polka/polka_schnell.D2B2B2DED2c2.abc
+% Rhythm Polka schnell
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

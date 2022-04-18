@@ -1,0 +1,27 @@
+X:190
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Shepherd's Daughter
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+((3efe) eg edBd | eA (3.A.A.A EABd | e2 ge {/f}edBe | dG (3.G.G.G DGBd |
+e2 ge {/f}edBd | eA (3.A.A.A AB{/c}BA | G2 Bc dega | bgaf ~g4 |]
+ea{/b}af ~g3 a | ea{/b}af ge d2 | ea{/b}af ((3gag) af | ((3efe) de gdBd |
+ea{/b}af ~g3 a | eaab c'bag | ea{/b}af g2 ag | ((3efe) de gdBd |]
+S:https://www.folktunefinder.com/tunes/94786
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Shepherds_Daughter_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Shepherds_Daughter_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

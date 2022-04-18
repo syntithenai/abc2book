@@ -1,0 +1,145 @@
+X:1
+%
+%%topspace 1.5cm
+%%sysstaffsep 35pt
+%%indent 2cm
+%
+T:Paduana d'Aurick
+C:L. de Moy, 1631
+B:Le Petit Boucquet 1631
+S:Facsimile Edition Musica Alamire 1987
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:GDorian
+%
+V:S clef=treble    name=Superius
+V:B clef=bass      name=Bassus
+V:L clef=frenchtab name=Luth
+%
+[V:S] d3 c/B/ | \
+    A2 f e | \
+    d4 | \
+    z d a2 | \
+    _b2 g f/_e/ |
+[V:B] G4 | \
+    d3 c | \
+    B>A G g | \
+    ^f4 | \
+    g4 |
+[V:L] [aabc,a2] [,abc1] ,,d/,,b | \
+    [,,abc2] ,d/a[,c,,a],d | \
+    [,aba,d1]>,,,,,c [,abc,a1] [aabc] | \
+    [,ea,c1] ,a [caab2] | \
+    [da,c2] [aab,,a1] ,d/,b |
+% bar 6
+[V:S] d c B2 | \
+    A G G ^F | \
+    G>A B c | \
+    d e ^f g | \
+    g2 ^f2 |
+[V:B] b f g2 | \
+    d4 | \
+    G2 G>A | \
+    B c d _e | \
+    c2 d2 |
+[V:L] [,aba,d1] [,,da{a}] [,abc,a2] | \
+    [,aabc1] a [,a{,a}] ,,d | \
+    [aacc,a1]>,,a [,,bc1] ,,d | \
+    [,aba,d1] ,c/,,,,a [,ea,c1] [a,,,d] | \
+    [a,,,a1] ,e/,c [,e,,c]a,c,e |
+% bar 11
+[V:S] g4- | \
+    g4 :: \
+    B3 c | \
+    d2 f2 | \
+    _e d c2 |
+[V:B] G4- | \
+    G4 :: \
+    b3 a | \
+    g2 d2 | \
+    _e B f2 |
+[V:L] [aacc,a1] ,d/,b ,a,,d,,c,,a | \
+    [aacc,a4] :: \
+    [dabc2] d1 [cdda] | \
+    [aabc1] ,,,,,a [,da,c] ,,b | \
+    [,bd,a/],d [,a,,,d],b [,,da1] {a} |
+% bar 16
+[V:S] B2 d f- | \
+    f d _e c | \
+    d B c A | \
+    B2 A2 | \
+    G/A/B/c/ d2- |
+[V:B] B4 | \
+    d B c A | \
+    B2 A2 | \
+    G/A/B/c/ d2 | \
+    g2 ^f2 |
+[V:L] [,,ba,d1] ,a/,,d [,,bc],,d,a,b | \
+    [,da,c1] [,aba,d] [,bd,a] [,,da,c] | \
+    [,aba,d2] [,,da,c1] {a} | \
+    [aabc2] [,aabc1] {,a} | \
+    [aab,,a2] [,aab] |
+% bar 21
+[V:S] d e f d | \
+    g4 | \
+    ^f4- | \
+    f4 :: \
+    a g f e |
+[V:B] g c d2 | \
+    G4 | \
+    d4- | \
+    d4 :: \
+    d4 |
+[V:L] [aabc1] [,cd,a] [,da,c] ,,,,,d/,,,,,c | \
+    [aabc,a2] [aab] | \
+    [,ea,c3] a1 | \
+    [caa,c2] {,a} :: \
+    [caa,c/]dac [,da,c]a,c,d |
+% bar 26
+[V:S] d c B A | \
+    G4 | \
+    ^F2 B c | \
+    d3 e | \
+    f2 d c |
+[V:B] d4 | \
+    G2 B G | \
+    d2 g a | \
+    b2 B c | \
+    d4 |
+[V:L] [,aa{,a}1] ,,d ,,b ,,a | \
+    [aab,,a1] ,,,c [,ab,,d] ,,,,,a | \
+    [,aabc2] [,ab,,a1] [,,da,c] | \
+    [,ab,,d2] ,a/,,b,c,,d | \
+    [,da,c2] [,ab1] ,,d |
+% bar 31
+[V:S] B2 A G | \
+    ^F2 D2 | \
+    E2 G2- | \
+    G ^F/E/ ^F2 | \
+    G4- | \
+    G4 :|
+[V:B] g4 | \
+    d2 B2 | \
+    c2 G2 | \
+    d4 | \
+    G4- | \
+    G4 :|
+[V:L] [aabc2] ,,a/,,b,,,c,,a | \
+    [,aabc2] [,ab,,d] | \
+    [,cd,a1]>,d [aab,,a2] | \
+    [a{,a}1] ,e/,c [,e,,c]ac,e | \
+    [aacc,a1] c/a,d,b,a,,d | \
+    [aaccca4] :|
+S:https://www.folktunefinder.com/tunes/181487
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Moy/Paduana_daurick.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Moy/Paduana_daurick.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

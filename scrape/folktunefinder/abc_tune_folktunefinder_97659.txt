@@ -1,0 +1,24 @@
+X:898
+T:Pennan Den
+C:James Watt (1832-1909)
+S:Flowers of Scottish Melody (1930)
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:Dm
+A | d>D D/E/F/D/ E<A A,2 | f>dc>A  G/A/c/G/ A<c |
+    d>D D/E/F/D/ E<A A,2 | f>de>^c d2-      d  :|
+A | d>ef>g af       g<a      | f<d c>A G/A/c/G/ A<c |
+    d>ef>g af       g<a      | f<d c>A d2       dA  |
+    d>ef>g a/g/f/g/ a/f/g/a/ | f>dc>A G/A/c/G/  A<c  |
+    d>D D/E/F/D/     E<A A,2 | f>de>^c d2-      d   ||
+S:https://www.folktunefinder.com/tunes/97659
+S:http://www.nigelgatherer.com/tunes/abc/tb18.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

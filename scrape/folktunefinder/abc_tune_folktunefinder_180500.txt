@@ -1,0 +1,88 @@
+X:2629
+T:Still ruht der See
+T:Op. 10 no. 1 (Lugn vilar sj\"on)
+C:Heinrich Pfeil, words: Heinrich Pfeil
+N:Composed 1879
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/pfeil-heinrich/pfeil-still-ruht-der.abc
+V:1 Program 1 68 up %Oboe
+V:2 Program 1 69 merge down %English horn
+V:3 Program 1 71 bass up %Clarinet
+V:4 Program 1 70 bass merge down %Bassoon
+M:3/4
+L:1/8
+Q:1/4=80
+K:Bb
+F DE|F3 F B>c|B2A2z A|c>=B cA GF|F2 z F Bc|
+w:Still ruht der See, die V\"og-lein schla-fen, ein Fl\"us-tern nur, du h\"orst es kaum. Der A-bend
+V:2
+F DE|F3 F D>E|D2C2z C|E>D EE EE|D2 z F FF|
+w:Still ruht der See, die V\"og-lein schla-fen, ein Fl\"us-tern nur, du h\"orst es kaum. Der A-bend
+V:3
+F, D,E,|F,3 F, F,>F,|F,2F,2 z F,|A,>^G, A,C B,A,|B,2 z F, F,A,|
+w:Still ruht der See, die V\"og-lein schla-fen, ein Fl\"us-tern nur, du h\"orst es kaum. Der A-bend
+V:4
+F, D,E,|F,3 F, F,>F,|F,2F,2 z F,|F,>F, F,F, F,F,|B,,2 z F, D,C,|
+w:Still ruht der See, die V\"og-lein schla-fen, ein Fl\"us-tern nur, du h\"orst es kaum. Der A-bend
+%
+V:1
+d3 d dd|d2 cSc cc|c3 e dc|B2 z B BB|c3 G A>B|HB3|]
+w:naht, nun senkt sich nie-der auf die Na-tur ein s\"u-\sser Traum, auf die Na-tur ein s\"u-\sser Traum.
+V:2
+F3 F ^FF|G2 GSG GG|F3 G FE|D2 z G GG|G3 E E>D|HD3|]
+w:naht, nun senkt sich nie-der auf die Na-tur ein s\"u-\sser Traum, auf die Na-tur ein s\"u-\sser Traum.
+V:3
+B,3 B, B,B,|B,2 B,SB, B,B,|A,3 A, A,A,|B,2 z D DD|C3 C C>B,|HB,3|]
+w:naht, nun senkt sich nie-der auf die Na-tur ein s\"u-\sser Traum, auf die Na-tur ein s\"u-\sser Traum.
+V:4
+B,,3 B,, B,,B,,|E,2 E,SE, E,=E,|F,3 F, F,^F,|G,2 z G, G,F,|_E,3 E, F,>B,,|HB,,3|]
+w:naht, nun senkt sich nie-der auf die Na-tur ein s\"u-\sser Traum, auf die Na-tur ein s\"u-\sser Traum.
+W:
+W:Still ruht der See, die V\"oglein schlafen,
+W:Ein Fl\"ustern nur, du h\"orst es kaum.
+W:Der Abend naht, nun senkt sich nieder
+W:Auf die Natur ein s\"u\sser Traum.
+W:
+W:Still ruht der See, durch das Gezweige
+W:Der heilge Odem Gottes weht.
+W:Die Bl\"umlein an dem Seegestade,
+W:Sie sprechen fromm ihr Nachtgebet.
+W:
+W:Still ruht der See, vom Himmelsdome
+W:Die Sterne Friedsam niedersehn.
+W:O Menschenherz, gib dich zufrieden,
+W:Auch du, auch du wirst schlafen gehn.
+W:
+W:---
+W:
+W:  Swedish lyrics:
+W:
+W:Lugn hvilar sj\"on kring berg och dalar.
+W:Nu bredar natten mildt sin arm.
+W:Och f\aaglens r\"ost ej mera talar,
+W:han slumrat in vid sko-gens barm
+W:
+W:Lugn hvilar sj\"on, re'n aftonvinden
+W:till ro sig l\"agger ned vid \"on.
+W:Nu blomman blygt sitt hufvud s\"anker,
+W:hon beder fromt sin aftonb\"on.
+W:
+W:Lugn hvilar sj\"on. s\aa fridsamt vinka
+W:de ljusa stj\"arnor fr\aan det bl\aa.
+W:Var tyst, var still, o m\"anskohj\"arta!
+W:Snart \"afven du skall friden f\aa.\.i
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180500
+S:http://abc.musicaviva.com/tunes/pfeil-heinrich/pfeil-still-ruht-der.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/pfeil-heinrich/pfeil-still-ruht-der.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/pfeil-heinrich/pfeil-still-ruht-der.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

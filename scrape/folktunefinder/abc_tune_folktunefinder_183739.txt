@@ -1,0 +1,22 @@
+X: 1
+T: President Lincoln's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF | 
+G>DB>G D>G (3BAG | F>GA>F G2 B2 | c>e (3dcB c>BA>G | F>GE>F D2 (3cBA |
+G2 B>G D2 B>G | F>GA>F G>D (3Bcd | c>ed>c B2 (3AGF | G>D (3cBA G2 :|
+|: B>c | 
+d>G (3Bcd g2 (3fed | F>GA>B c>DE>F | G>Bd>G e>cA>G | F>GE>F D2 (3cBA |
+d>GB>d g>fe>d | F2 (3GAB c2 (3gfe | d>BG>B (3ABc F>A | G2 (3ggg G2 :|
+S:https://www.folktunefinder.com/tunes/183739
+S:http://www.thesession.org/tunes/display/6503
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

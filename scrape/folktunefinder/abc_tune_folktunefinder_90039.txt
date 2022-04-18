@@ -1,0 +1,21 @@
+X:52
+T:When Johnny Comes Marching Home
+M:6/8
+L:1/8
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B|FBB B2c|d2c d2B|A3-A2F|A3-A2B|FBB B2c|d2c d2e|f3-f2d|
+f3-f de|f2f fed|e2e e2c|d2d dcB|c2c c :"tag"de|f3 e3|d3 c3|FBB B2^A|B3-B2||
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90039
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

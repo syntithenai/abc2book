@@ -1,0 +1,33 @@
+X:202
+U: ~ = !turn!
+%%topmargin 3cm
+T:Tell Her I Am
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Jig
+L:1/8
+M:6/8
+K:DMix
+((3Bcd) | edB ~G3 | DED ~G3 | DED c2 A | BGE E2 ((3Bcd) |
+edB ~G3 | DED ~G3 | AGF GBA | GFE D2 ::
+B | ~B3 dBG | ~B3 dBG | [A2A2] A AGA | BGF PE2 B |
+~B3 deg | bge d2 B | BAG GBA | GFE D2 ::
+d | efg efg | dBG AGE | eaa ~a3 | bag e2 d |
+[1 efg efg | dBG AGE | agf gba | gfe Pd2 :|
+[2 def gba | gfe Pd2 B | BAG GBA | GFE D2 |]
+S:https://www.folktunefinder.com/tunes/94797
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Tell_Her_I_Am_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Tell_Her_I_Am_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

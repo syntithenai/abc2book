@@ -1,0 +1,21 @@
+X: 1
+T: Long Road Home
+M: 2/4
+L: 1/8
+R: polka
+K: Dmix
+|: {B}D2{B}DE | {B}F2{GF}EF | {B}A2{BA}FD | {B}E2{FE}DE |
+ {B}F2{GF}EF | {B}A2{BA}FD | {B}E2{B}DE | {B}D3A :|
+|: d2BA | B2dB | {B}A2{BA}FD | {B}E2{FE}DE |
+ {B}F2{B}EF | {B}A2{BA}FD | {B}E2{B}ED |1 {B}E3A :|2 {B}D3A ||
+S:https://www.folktunefinder.com/tunes/172863
+S:http://www.thesession.org/tunes/display/8579
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

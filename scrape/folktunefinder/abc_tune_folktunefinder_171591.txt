@@ -1,0 +1,23 @@
+X: 1
+T: Laurel's Reel
+S: Fiddle Sticks
+Z: Robin Beech robin.beech@mcgill.ca
+R: reel
+M: 4/4
+Z: Contributed 20040504191222 by Robin Beech robin.beech@mcgill.ca
+K: A
+C3 D EF AB |cf ec BA FA |BF F2 dc BA |GB AF EF ED |C3 D EF AB |cf ec BA FA |BF F2 dc BA |1EA GB AF ED :|2EA GB AB cd ::e3 e ed cd |ea ag ae ce |fB B2 dc BA |1GB AF EB cd |e3 e ed cd |ea a2 ae ce |fB B2 dc BA |
+EA GB AB cd :|2GB AF EF ED |C3 D EF AB |cf ec BA FA |BF F2 dc BA |EA GB AF ED |]
+S:https://www.folktunefinder.com/tunes/171591
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/robin.beech:mcgill.ca/LaurelsReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LaurelsReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

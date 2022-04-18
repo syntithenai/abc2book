@@ -1,0 +1,29 @@
+X:385
+T:The Vagabond
+M:4/4
+L:1/8
+Q:
+R:
+S:As arranged by Bartok, from a Slovakian folk tune
+S: Harmonized by Doug Mast
+K:C
+|"Am"A^G AB "Em"=G2 E2|"A"G^F E2 "Em"G^F E2|"Am"A^G AB "Em"=G2 E2|"A"G^F E2 "Em"G^F E2|
+|"C"EG FE "D"D2 C2|"G"B,C D2 "C"CD E2|"C"EG FE "Am"D2 C2|"E"B,C D2 "Am"CB, A,2|
+|"A"A^G AB "Em"=G2 E2|"Am"G^F E2 "Em"G^F E2|"A"A^G AB "Em"=G2 E2|"Am"G^F E2 "Em"G^F E2|
+|"C"EG FE "D"D2 C2|"G"B,C D2 "C"CD E2|"C"EG FE "D"D2 C2|"E"B,C D2 "Am"CB, A,2||
+|"(Harmony) Am"cB cd "Em"B2 G2|"A"BA G2 "Em"BA G2|"Am"cB cd "Em"B2 G2|"A"BA G2 "Em"BA G|
+|"C" CE DC "D"B,2 A,2|"G"G,A, B,2"C"A,B, C2|"C" CE DC "Am"B,2 A,2|"E"^G,A, B,2"Am"A,^G, A,2|
+|"A"^cB cd "Em"B2 G2|"Am"BA G2 "Em"BA G2|"A"^cB cd "Em"B2 G2|"Am"BA G2 "Em"BA G|
+|"C" CE DC "D"B,2 A,2|"G"G,A, B,2"C"A,B, C2|"C" CE DC "D"B,2 A,2|"E"^G,A, B,2"Am"A,^G, A,2||
+S:https://www.folktunefinder.com/tunes/96697
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

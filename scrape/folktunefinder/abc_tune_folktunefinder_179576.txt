@@ -1,0 +1,23 @@
+X: 2
+T: Off She Goes
+M: 6/8
+L: 1/8
+K: D
+ A |: "D"F2A "G"G2B | "A"ABc "D"d2A | F2A "G"G2B | "D"AFD "A"E2D |
+      "D"F2A "G"G2B | "A"ABc "D"d2e | f2d "G"g2f |\
+[1 "A"edc "D"d2A :|[2 "A"edc "D"d2e ||
+|: "D"faf d2f | "G"gbg e2g | "D"faf d2f | "A"ecA A2z |
+   "D"faf d2f | "G"gbg e2g | "D"f2d "G"g2f |\
+[1 "A"edc "D"d2e :|[2 "A"edc "D"d2A |]
+N:HOI - abc by Peter Ostapenko 6/19/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/179576
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OffSheGoes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 37
+T: Canteloupe Island
+M: 4/4
+L: 1/8
+C: Herbie Hancock
+Q: 1/4=100
+%%staves melody {RH LH}
+K: Fm
+%%text (medium rock)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V: melody
+FF |: "Fm7"z4 ABB2- | B3A BcEF | z8 | z4 z2 FF |
+"Db7"z4 ABB2- | B3A B_cEF | z8 | z4 cece |
+"Dm7"F3F- F4- | F4 cece | F3F- F4- | F8 |
+"Fm7"z8 | z8 | z8 | z6 FF :|
+V: RH
+x2 |: z[FCA,][F2=D2B,2] [F2E2C2][FDB,][FCA,] | x8 | x8 | x8 |
+z[F_CA,][F2_D2B,2] [F2E2C2][FDB,][FCA,] | x8 | x8 | x8 |
+[F=C=G,]z2[FCG,]- [F4C4G,4]- | [F8C8G,8] | x8 | x8 |
+z[FCA,][F2=D2B,2] [F2E2C2][FDB,][FCA,] | x8 | x8 | x8 :|
+V: LH clef=bass
+x2 |: F,,3 C,- C,2 E,F, | x8 | x8 | x8 |
+_D,,3 A,,- A,,2 _C,_D, | x8 | x8 | x8 |
+=D,z2D,- D,4- | D,8 | x8 | x8 |
+F,,3 C,- C,2 E,F, | x8 | x8 | x8 :|
+S:https://www.folktunefinder.com/tunes/87538
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

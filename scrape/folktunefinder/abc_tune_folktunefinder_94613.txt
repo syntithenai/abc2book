@@ -1,0 +1,27 @@
+X:015
+U: ~ = !turn!
+%%topmargin 3cm
+T:Bowlegged Tailor
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+GAG gfg | edc B2 A | GAG BAG | FAA cBA |
+GAG gfg | afd cAF | DEG Adc | BGG G2 B ::
+dBG dBG | ecA dBG | gba gBd | cAA ABd |
+dBg dBG | EFG AFD | GFG Adc | BGG G2 A :|]
+S:https://www.folktunefinder.com/tunes/94613
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Bowlegged_Tailor_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Bowlegged_Tailor_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

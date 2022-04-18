@@ -1,0 +1,33 @@
+X:1 % 8
+T:Ludler (1.)
+C:traditionell
+R:Jodler
+A:Salzkammergut
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000, s.21
+S:im buch mit der angabe: Aus der sammlung von Leopold Khals
+N:im buch ganz in D, zweistimmig, erster ton:1.stimme: a', 2.stimme d''
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:D 
+V:1
+P:1
+(Ad) |\
+(ce)c2(Ae) | (df)d2(df) | (g>f) (eA)(eA) | (df)d2(Ad) |\
+(ce)c2(Ae) | (df)d2(df) | (g>f) (eA)(eA) | d2z2 :| 
+V:2
+K:D
+(df) |\
+(eg)e2(cg) | (fa)f2(fa) | (b>a) (gc)(gc) | (fa)f2(df) |\
+(eg)e2(cg) | (fa)f2(fa) | (b>a) (gc)(ga) | f2z2 :|
+S:https://www.folktunefinder.com/tunes/173326
+S:http://simonwascher.info/TradArchiv_iodler/ludler.(G2B2)B3G(B2d2)(F2c2.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

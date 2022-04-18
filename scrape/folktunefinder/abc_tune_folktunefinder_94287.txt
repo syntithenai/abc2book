@@ -1,0 +1,38 @@
+X:18996
+T:Xiraldilla (CT 164)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Sama, ayuntamiento de Llangru.
+O:Sama de Llangru (Llangru)
+A:Asturies
+Z:Cancioneru de Torner 164
+M:3/8
+L:1/8
+Q:3/8=88
+W:El sol se llama Lore-re-renzo
+W:y la lu-la-ru-na Catali-li-ri-na;
+W:Catalina anda de no-no-ro-che
+W:y Lore-re-renzo anda de di-di-ri-a.
+W:Al son que la repeta
+W:y al son que la repiti.
+W:Al tibirn, tibirn.
+K:G
+B|d2d|d3/2d/2B|c3/2B/2A|G3/2F/2G|A3/2A/2A|
+A3/2G/2F|G3/2G/2G|GzB|d2d|d3/2c/2B|c3/2B/2A|
+G3/2F/2G|A3/2A/2A|A3/2G/2F|G3/2G/2G|GzG|BA/2B/2c/2B/2|
+AAG|BA/2B/2c/2B/2|A2A|d2B|c3/2B/2A|G3-|Gz
+S:https://www.folktunefinder.com/tunes/94287
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

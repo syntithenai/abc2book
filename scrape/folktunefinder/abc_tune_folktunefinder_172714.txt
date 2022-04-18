@@ -1,0 +1,23 @@
+X: 1
+T:The Log-Splitter's Jig
+C:Phil Cunningham
+M:6/8
+L:1/8
+K:D
+f2 A B3/2G/2G | B2 G e3/2c/2c| A3/2G/2B A/2a3/2f| g3/2e/2d c3/2d/2e|
+f2 A B3/2G/2G| B2 G e3/2c/2e| A3/2G/2B A/2A3/2f| g3/2e/2c d2 e :|
+|G2 B A3/2A/2A| B3/2G/2B g2 a| f3/2e/2f A3/2d/2c| B/2G3/2B e2 c|
+G2 B A3/2A/2A| B3/2G/2B g2 a| f3/2e/2f A3/2A/2A| d/2e3/2c d2 e|
+G2 B A3/2A/2A| B3/2G/2B g2a| f3/2e/2f A3/2A/2A| B/2G3/2B e2 c|
+G2 B/2 A3/2A/2A| B3/2G/2B g2 a| f3/2e/2f g3/2e/2c| d/2e3/2c d2 a ||
+"last time"d/2e3/2c d2 ||
+S:https://www.folktunefinder.com/tunes/172714
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/PhilCunningham/Log_Splitters_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Log_Splitters_Jig.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Log_Splitters_Jig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

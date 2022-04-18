@@ -1,0 +1,38 @@
+X:139
+U: ~ = !turn!
+%%topmargin 3cm
+T:Murphy's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Andy McGann
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:D
+((3ABc) | d2 AF d2 AF | dcdf ec A2 | ((3faf) df gfed | ((3cdc) A^G A2 ((3ABc) |
+d2 AF d2 AF | dcdf ec A2 | ((3faf) df gfec | df ((3edc) d2 :|
+fg | afdg faga | bged cdeg | fa (3.a.a.a bged | ((3cdc) A^G A2 fg |
+afdg faga | bged cdeg | fa (3.a.a.a bgec | df ((3edc) d2 fg |
+afdg faga | bged cdeg | fa (3.a.a.a bged ((3cdc) A^G A2 ((3ABc) |
+d2 AF d2 AF | dcdg ec A2 | ((3faf) df gfec | df ((3edc) d2 ||
+|:AG | ((3FGF) D2 ((3faf) ec | dcdf ecAG | ((3FGF) D2 ((3faf) ec | df ((3edc) d2 AG |
+((3FGF) D2 ((3faf) ec | dcdf ec A2 | ((3faf) df gfec | df ((3edc) d2 :|
+ag | fefd gf ((3gfe) | {/g}fefd ec A2 | ((3faf) df gfed ((3cdc) A^G A2 ((3ABc)|
+d2 AF d2 AF | dcdf ec A2 | ((3faf) df gfec | df ((3edc) d2 ag |
+fefd gf ((3gfe) | {/g}fefd ec A2 | ((3faf) df gfed | ((3cdc) A^G A2 ((3ABc) |
+dcdf eceg | fdfa gfge | fgaf gfec | dfec d2 |]
+S:https://www.folktunefinder.com/tunes/94735
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Murphys_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Murphys_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

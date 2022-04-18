@@ -1,0 +1,50 @@
+X: 12
+T: Asiatic raes
+T: Lotus Blossom
+M: 6/8
+L: 1/8
+C: Kenny Dorham
+Q: 1/4=200
+%%staves (chords melody)
+K: Dm
+%%text (up)
+%%vskip 20
+P: A
+V: chords
+"Dm"x3 "C"x3 | "Dm"x3 x3 | "Cm6"x3 "F7"x3 | "Bbmaj7"x3 x3 |
+[M:4/4]"Bm7b5"x4 "Bb7"x4 | "A7"x4 x4 | "Dm6"x4 "Bm7b5"x4 | "Bb7"x4 "A7"x4 ||
+V: melody
+d3c3 | dfd ecA | A3G3 | Adc/B/ AGF |
+[M:4/4]FD zG D2_AD- | D2FD GFDD- | D^G,A,E- E=B,CG- | G^CDc-c4 ||
+P: A
+V: chords
+[M:6/8]"Dm"x3 "C"x3 | "Dm"x3 x3 | "Cm6"x3 "F7"x3 | "Bbmaj7"x3 x3 |
+[M:4/4]"Bm7b5"x4 "Bb7"x4 | "A7"x4 x4 | "Dm6"x4 x4 | x4 x4 ||
+V: melody
+[M:6/8]d3c3 | dfd ecA | A3G3 | Adc/B/ AGF |
+[M:4/4]FD zG D2_AD- | D2FD GFDD- | D8 | z=B,CD _EFGA ||
+P: B
+V: chords
+"Am7b5"x4 x4 | "D7"x4 x4 | "Gm6"x4 x4 | x4 x4 |
+"Gm7"x4 x4 | "C7"x4 x4 | "Fmaj7"x4 x4 | "Bb7"x4 "A7"x4 ||
+V: melody
+d6cB- | B6AB- | B8 | z8 |
+c6BA- | A6GA- | A2GF ED zE- |E3A z4 ||
+P: A
+V: chords
+[M:6/8]"Dm"x3 "C"x3 | "Dm"x3 x3 | "Cm6"x3 "F7"x3 | "Bbmaj7"x3 x3 |
+[M:4/4]"Bm7b5"x4 "Bb7"x4 | "A7"x4 x4 | "Dm6"x4 x4 | "T.A."x4 x4 ||
+V: melody
+[M:6/8]d3c3 | dfd ecA | A3G3 | Adc/B/ AGF |
+[M:4/4]FD zG D2_AD- | D2FD GFDD- | D8 | z8 ||
+S:https://www.folktunefinder.com/tunes/87513
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

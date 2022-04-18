@@ -1,0 +1,20 @@
+X:5
+T:Peter's Old Mandola
+C:Dave Roberts
+Z:Anahata (anahata@treewind.co.uk) tradtunes 2001-12-30
+M:6/8
+K:D
+"A"efe ecA | ABA cBA | efe ecA | cd^d "C"eg"Bm"f |
+"A"efe ecA | ABA cBA | "A"cd^d "C"eg"Bm"f | "E"edB "A"A3 :|
+|: "D"DED DFA | "G"B2A "D"d2e | f2f "G"g2g | "D"fed "A"cBA |
+"D"DED DFA |"G"B2A "D"d2e | "Bm"f2f "A"gfe | "D"d3-d3 :|
+S:https://www.folktunefinder.com/tunes/182161
+S:http://trillian.mit.edu/~jc/music/abc/mirror/DaveRoberts/PetersOldMandola.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/DaveRoberts/PetersOldMandola_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

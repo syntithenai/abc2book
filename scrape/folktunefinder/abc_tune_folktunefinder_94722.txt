@@ -1,0 +1,33 @@
+X:126
+U: ~ = !turn!
+%%topmargin 3cm
+T:Men of the West and Mrs. Kenny
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Waltz
+M:3/4
+L:1/8
+K:D
+"Men of the West"Jf4 Ac | d4 FG | A2 (G2G2) | A,2 C2 E2 | Pg2 Pf2 Pe2 | Pd2 Pc2 PB2 | A3 B AG | F2 G2 A2 |
+Jf4 Ac | d4 FG | A2 (G2G2) | A,2 C2 E2 | Pg2 Pf2 Pe2 | Pd2 Pc2 PB2 | A2 A2 Bc | [1 d4 Ad :|] [2 d4 cB ||
+A2 [d2f2] [d2f2] | A2 [d2f2] [d2f2] | A2 [d2f2] [d2f2] | ag ba gf | A2 [c2e2] [c2e2] | A2 [c2e2] [c2e2] | A2 [c2e2] [c2e2] | ag ba gf |
+A2 [d2f2] [d2f2] | A2 [d2f2] [d2f2] | A2 [d2f2] [d2f2] | ag ba gf | A2 [c2e2] [c2e2] | A2 [c2e2] [c2e2] | a>b ag fe | d4 FA ||
+d4 ed | c4 dc | B2 G2 B2 | ((3ABA) F2 D2 | d4 ed c4 dB | A2 G3 E | D4 FA |
+d4 FA | c4 FA | B2 G2 B2 | ((3ABA) F2 D2 | d4 FA | c4 FG | A2 G3 E | D4 A2 |]
+|:"Mrs. Kenny"d4 cd | f2 e2 a2 | {/f}a6 | Jb4 a2 | (f4f) e | d2 e2 {/f}a2 | JB6 | c4 Bc |
+d4 cd | f2 e2 d2 | {/f}a6 | Jb4 a2 | f4 d2 | e4 de | (d6 | d6) ::
+a4 ba | a2 f2 a2 | d'4 Pc'2 | b4 a2 | f4 e2 | d2 e2 {/f}a2 | JB6 | Jc4 Ac |
+d4 cd | f2 e2 d2 | {/f}a6 | Jb4 a2 | f4 d2 | e4 de | (d6 | d6) :|]
+S:https://www.folktunefinder.com/tunes/94722
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Men_of_the_West_and_Mrs_Kenny_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Men_of_the_West_and_Mrs_Kenny_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

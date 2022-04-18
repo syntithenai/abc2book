@@ -1,0 +1,72 @@
+X:81
+T:Praeludia 81
+L:1/4
+M:C|
+K:F frenchtab
+%%stretchlast true
+%%staffsep 45pt
+[,dda1]{a}/.a :c1[d,,c] |\
+[f,a1]{a}/,,,c .,,a1[,,b,,a] |\
+[,,da,c1],,,a/.,a [,cdca1][,d,,c] |\
+[a,,,e1],,d/.a [cdda1].a |\
+[,da,c1].,c [,a,c,e].a |\
+[,cdca1].a [,da][,c,c] |\
+[,a,a1][,,d,e] [,,d,c].,,c |\
+[,,dca1]>,,,,,d ,,,,,c1[aab,,a] |
+% Takt 9
+[cdd{a}1]f/.d [cdda1][h,,f] |\
+,,,e/:f,d,,,e ,,,c:d.,c,,,c |\
+,,,a/:c.,a,,,a ,,,,e:a.,,d,,,,e |\
+,,,,c/:,d.,,c,,,,c ,,,,a:,c.,,a,,,,a |\
+,,,,,d/:,a.,,,c,,,,,d ,,,,,c:,,d.,,,a,,,,,c |\
+,,,,,a/.,,,a,,,,e.,,,c {a}.,,a,,,c.,,a |
+% Takt 15
+,,,,,a/.,,b:,,a.,,b ,,,,,c.,,d:,,b.,,d |\
+,,,,,d/.,a:,,d.,a ,,,,a.,c:,a.,c |\
+,,,,c/.,d:,c.,d ,,,,e.a:,d.a |\
+,,,a/.c:a.c ,,,c.e:c.e |\
+[f,,,a1],,,,c [,,d,e],,,a |\
+[aacc1][,,de] [,adc],,c/.,d |\
+[,cdca1].f ,f/.d:f.d |
+% Takt 22
+,d/.c,a.d ,c.a,,d.a |\
+c/.a,,f.,d :,f.,d,,d.,c |\
+,,a/.,d,,b.,a ,,,c.,a:,c.,a |\
+,,,e/.,,d:,a.,,d ,,,c.,,b,,,,e.,,d |\
+,,,a/.,,a,,,,c.,,a :,,b.,,a,,,,a.,,,c |\
+,,,e/.,,,c,,,,,c.,,,a :,,,c.,,,a,,,,,d.,,,e |
+% Takt 28
+,,,c/.,,,a{,,a}.,,,a ,,,c1.,,,,e |\
+[,,aa{a}1]:,a/.,,d [,,bc,a1]:,c/.,a |\
+[,,d,,c1]:,d/.,c [,aba,d1]:a/.,d |\
+[,cdca1]:c/.a [,d,,c1]:d/.c |\
+[a,,,e1]:f/.d [cdda1]{a}/.d |\
+[a,,,e1][c,,,a/].a [,d,,c1][a,,,,d/].,d |\
+[,c,,a1][,d,,,c/].,c [,a,,,d].,,,c:,c.,a |\
+[,,d,,c1].,,,a [,a,,,d][,,d,,c] |
+% Takt 36
+[,,b,,a1].,c [da,c].,c |\
+[cdda2] {a}1[d,,c] |\
+[f,a/],,b[a,d].c [d,,c],,a[,db].a |\
+[c,,a/],,,c[,c,e].,d [a,,,e],,,a[,a,c].,c |\
+[,d,,c/],,,,e[,,da].,a [,cdca],,,,c,,,,e,,,a |\
+[,acc1][,,d,e] [,a,a][,,cc] |\
+[,,dca1]{,,a}/.,a ,c.,d[a,,,e1] |\
+[cdda1]{a} .[cdd][d,,c] |
+% Takt 44
+,,,e/.f,d.,,,a ,,,f.,,f.[dd],,,e |\
+,,,c/.,,b.[aa],,,a ,,,e.,,d.[cc],,,c |\
+,,,a/.,,d.[cd],,,a ,,,c.,,b.[aa],,,a |\
+,,,,e/.a,,d1 [,ddef],,,,e |\
+[,da,c1].,,c [,cdca],,,,,d |\
+[,,da,c2] [,aba,d1].a |\
+[,cdca2] .d |\
+[cdda2] {a} |]
+S:https://www.folktunefinder.com/tunes/182283
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

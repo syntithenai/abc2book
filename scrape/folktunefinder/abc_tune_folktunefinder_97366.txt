@@ -1,0 +1,28 @@
+X:110
+T:Out on the Ocean
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+Z:
+Z:id:hn-jig-24
+K:G
+"G"D2B BAG|"C"BdB A2B|"G"GED G2A|"D"~B3 AGE|
+"G"D2B BAG|"C"BdB A2B|"G"GED G2A|1 "D"BGF "G"G2E:|2 "D"BGF "G"GBd||
+"Em"e2e edB|efe edB|"D"d2d dBA|ded dBA|
+"G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGF "G"GBd|
+"Em"e2e edB|efe edB|"D"d2d def|gfe dBA|
+"G"G2A B2d|"C"ege dBA|"G"GED G2A|"D"BGF "G"G2E|]
+S:https://www.folktunefinder.com/tunes/97366
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

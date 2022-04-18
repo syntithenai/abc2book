@@ -1,0 +1,25 @@
+X:1
+T:Lucky Ducky Harmony
+C:copyright 1999 Jim Thompson
+N:Flute part for Kaubells tune ``Lucky Ducky''
+R:Reel
+E:20
+M:C
+K:G
+\bigskip
+|: B4 g2 d2 | e2B2 B2e2 | e2g2 e2g2 | f2a2 f2d2 |
+B4 g2 d2 | b2g2 e2g2 | e2g2 f2a2 |1 "..."b4 b2c'2 :|2 "..."b4 d4 ||
+K:D
+|: f2d2 a2f2 | d2f2 A2d2 | gzgz e4 | =fzfz a4 |
+f2d2 a2f2 | d2f2 A2d2 | =fzfz e4 | f2d2 f4 :|
+S:https://www.folktunefinder.com/tunes/173293
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/lucky-ducky-harmony.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

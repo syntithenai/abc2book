@@ -1,0 +1,32 @@
+X:985
+T: Michael Rogers' Slide
+C: BB
+L: 1/8
+M: 12/8
+R: slide
+Q: 1/4=175
+V: 2 bass volume=70 program 1 01 m=D
+K: Em
+[V:1] "Em"E2F G2A B2e "D"dBA|"G"BcB "D"ABA "G"GBA "D"FED|
+[V:2] E,2[EGB]B,,2[EGB]E,2[EGB]D,2[AFD]|G,,2[GBD]D,2[AFD]G,,2[GBD]D,2[AFD]|
+%
+[V:1] "Em"E2F G2A "Bm"B2A Bcd|"Em"edB "D"AFD "C"EGF "Em"E3 :|
+[V:2] E,2[EGB]G,,2[EGB]B,,2[BDF]F,,2[BDF]|E,2[EGB]D,2[AFD]C,2[EGC][E,,3B,,3G,3]:|
+%
+[V:1] "Em"B2e e2B "G"d^cd d=cB|"D"ABA AFD ABA AFD|
+[V:2] E,2[EGB]B,,2[EGB]G,,2[GBD]B,,2[GBD]|D,2[AFD]A,,2[AFD]D,2[AFD]A,,2[AFD]|
+%
+[V:1] "Em"B2e e2B "D"d^cd def|"Em"edB "D"AFD "C"EGF "Em"E3 :|
+[V:2] E,2[EGB]B,,2[EGB]D,2[AFD]A,,2[AFD]|E,2[EGB]D,2[AFD]C,2[EGC][E,,3B,,3G,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87082
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

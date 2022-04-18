@@ -1,0 +1,23 @@
+X:14
+T:AIR XIV. Sowr Plumbs of Gallashiels.
+B:Joseph Mitchell: "The Highland Fair" (1731)
+Z:Jack Campin <http://www.campin.me.uk/>
+M:C|
+L:1/8
+K:G
+G2 | B3    c   B2 ge  |(dB)(AG)      A3  B | G3   A    (BA)(Bd)| e3   d   B2
+d>g|(e>dB>)e  (d>BA>)d|(B>A)(G>B)    A2(dB)| G3   d    (e>fg>)c| B2 (A>B) G3||\
+ d |(e>f)(g>a) g2 G2  | g2  (de/=f/) e2(dc)| B2 d>e    =f2 (gf)| e4       d2 z
+ d |(e>f)(g>a) g2 G2  |(g>b)(a>g)    e2(dc)| B2(d>e)  (=fa)(gf)| e4       d2 z
+ d |(e>f)(g>a) g2 G2  | g2  (de/=f/) e2(dc)|(BA) B2    (dB) d2 |(e>d e2) =f3
+ f |(ge)  g2  (ed)e2  |(dB)  d2     (BA)B2 | g3  (f/e/) d2 (cB)|(A3   G)  G3|]
+S:https://www.folktunefinder.com/tunes/96084
+S:http://www.campin.me.uk/Music/HighlandFair.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

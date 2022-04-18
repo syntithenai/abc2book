@@ -1,0 +1,26 @@
+X: 1
+T: THE MAID OF THE MILL
+N: ALP from Powell
+O: England
+A: Bucknell
+P: A.(A2B)3.A2
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+P: A
+|: GAB DED | GAB c3 | GAG D2A | G6 :|
+P: B
+| B2A G2G | A2A BAG | A2A BdB | DAB G3 \
+| B2A G2G | A2A BAG | BdB D2B | G3 G3 ||
+P: Alt
+| "Alt.A2"GAB d3 | | "Alt.B4"D3 A2B |
+S:https://www.folktunefinder.com/tunes/173809
+S:http://trillian.mit.edu/~jc/music/abc/England/morris/Maid_of_the_Mill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

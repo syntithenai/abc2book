@@ -1,0 +1,27 @@
+X: 641
+T: Princess Royal
+C: O'Carolan
+N: O'Neill's 641
+N: Morris Ring
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Gm
+dc \
+| (B2A2) G2(dc) | (B2AB) (G2d2) | (e2c2) c2(fe) | (dedc) B2d2 |
+| (cdcB) (ABAG) | ^FGFE D2 (dc) | B2(AG) (BAG^F) | G4 G2 ||
+d2 \
+| (g3^f) (g2a2) | b2B2 B2b2 | (bagf) (edcB) | (ABcA) F2(GA) |
+| B2(AB) c2(Bc) | d2d2 g4 | f2d2 e2(fe) | d2B2 c2(dc) |
+| (cB)(BA) (GB)(AG) | (^FGF=E) D2 (dc) | B2(AG) (BAG^F) | G4 G2 |]
+S:https://www.folktunefinder.com/tunes/183977
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/PrincessRoyal.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 192079
+T: Spic and Span
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: Edor
+B/A/ | GFG EDE | GAB dBA | Bee fed | BAG FED |
+BEE EDE | GAB dBA | edB AGA | BEE E2 :|
+B | e2d efg | edB GAB | edB dBA | BAG EGA |
+BeB dBA | GEF GAB | edB dBA | GED E2A |
+Bed efg | edB GAB | edB dBA | GEF GAB |
+efg edB | dbA BGE | BdB eBA | GED E3 ||
+%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88020
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

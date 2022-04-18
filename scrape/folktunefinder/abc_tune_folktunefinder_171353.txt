@@ -1,0 +1,25 @@
+X:2
+T:Lark in the Morning, The
+R:jig
+L:1/8
+C:Syracuse session setting
+M:6/8
+K:D
+A|&quot;D&quot;AFA AFA|&quot;G&quot;BGB BdB|&quot;D&quot;AFA A2e|&quot;G&quot;fed BdB|
+&quot;D&quot;AFA AFA|&quot;G&quot;BGB BdB|&quot;D&quot;def afe|&quot;Bm&quot;dBB B2:|
+A|&quot;D&quot;def a3|&quot;G&quot;baf afe|&quot;D&quot;def afe|&quot;Bm&quot;dBB B2A|
+&quot;D&quot;def a3|&quot;G&quot;baf &quot;D&quot;a2f|&quot;G&quot;g3 &quot;D&quot;f3|&quot;Bm&quot;edB B2:|
+A|&quot;D&quot;def fef|fef fef|def fef|edB &quot;Bm&quot;B2A|
+&quot;D&quot;def fef|fef fef|&quot;G&quot;g3 &quot;D&quot;f3|&quot;Bm&quot;edB B2:|
+A|&quot;D&quot;Add fdd|&quot;A&quot;edd &quot;D&quot;fdd|Add fdd|&quot;Bm&quot;edB B2A|
+&quot;D&quot;Add fdd|&quot;A&quot;edd &quot;D&quot;fef|&quot;G&quot;g3 &quot;D&quot;f3|&quot;Bm&quot;edB B2:|
+</abc>
+S:https://www.folktunefinder.com/tunes/171353
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:jigs:lark_in_the_morning&do=edit&rev=
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

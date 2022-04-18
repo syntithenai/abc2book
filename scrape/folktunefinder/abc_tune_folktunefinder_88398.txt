@@ -1,0 +1,30 @@
+X:1205
+T:the Parting Lovers
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005c1.html
+%%ID:000005c1
+K:G
+G2B A2c | B2d c2e | def gfe | dcB AGF | \
+G2B A2c | B2d c2e | dcB AGF | G3 A,3 ::
+g2e f2d | g2e f2d | gfe agf | efd ^cBA |\
+g2e f2d |           egf edc | d3 D3 |
+G2B A2c | B2d c2e | def gfe | dcB AGF |\
+G2B A2c | B2d c2e | dcB AGF | G3 A,3 :|
+%%newpage
+%page 99
+S:https://www.folktunefinder.com/tunes/88398
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

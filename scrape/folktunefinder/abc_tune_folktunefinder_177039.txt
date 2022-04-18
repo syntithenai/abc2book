@@ -1,0 +1,30 @@
+X: 1
+T: THE MORRIS REEL
+S: MDT
+O: Headington
+P: A.(A2B2)4.A (6 dancers)
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/2
+L: 1/8
+K: A
+P: A
+cB |\
+AGAc eAcA | BAGF [e2E2]d2 | cdea fedc | BAGF [eE][fF][gF][eE] |
+AGAc eAcA | BAGF [e2E2]d2 | c<ec<A f<dB<G | A2A2 A2 ||
+P: B
+|: cd |\
+efec Acec | fdfd B2cd | efec AGAc | BAGF EFGE |
+A[BF]Ac eAcA | BAGF E2d2 | cdea fdBG | A2A2 A2 :|
+P: Alt.A7
+  || cdea f<dB<G || y8 y8 y8 y8
+S:https://www.folktunefinder.com/tunes/177039
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Morris_Reel_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

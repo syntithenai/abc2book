@@ -1,0 +1,29 @@
+X: 1
+T:The Lollipop Man
+M:4/4
+C:
+S:Bacon (Carey)
+N:
+A:Ducklington
+O:English
+R:Reel
+%P:A.(AB$^3$)$^3$.A
+P:A.(AB3)3.A
+K:G
+I:speed 400
+P:A
+BA  | G<B D2 D2 DE  | G2 G2 G4        | BA GA  B2 AG  | B2 E2 E2 \
+BA  | Gde>f g2 dc  | B2 G2 G4 ||\
+P:B
+      d4     g>fe>g | B2 d2 d4        | A>GA>B c>BA>G | A2 E2 E2 \
+BA  | Gde>f g2 dc  | B2 G2 G4 ||
+S:https://www.folktunefinder.com/tunes/172726
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lo/Lollipop_Man_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

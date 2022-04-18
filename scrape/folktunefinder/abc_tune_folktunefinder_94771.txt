@@ -1,0 +1,30 @@
+X:075
+U: ~ = !turn!
+%%topmargin 3cm
+T:Road to Lisdoonvarna
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:The Chieftains
+R:Jig
+L:1/8
+M:6/8
+K:EDorian
+E2 B B2 A | B2 c d3 | F2 A ABA | D2 E FED |
+E2 B B2 A | B2 c d3 | cdc B2 A | JB2 E E3 ::
+e2 f gfe | d2 B Bcd | c2 A ABc | d2 B B3 |
+e2 f gfe | d2 B Bcd | cdc B2 A | JB2 E E3 :|]
+S:https://www.folktunefinder.com/tunes/94771
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Road_to_Lisdoonvarna_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Road_to_Lisdoonvarna_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

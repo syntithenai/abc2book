@@ -1,0 +1,22 @@
+X:18
+T:Haste to the Wedding
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|AFA Aaf|ede feB|AFA AGF|GFG EFG|AFA Aaf|ede fdB|AFA faf|d3 d2::
+a|afa afa|bgb bgb|afa agf|gfg efg|a3 f3|ede fdB|AFA Aaf|edc d2:|
+S:https://www.folktunefinder.com/tunes/90005
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

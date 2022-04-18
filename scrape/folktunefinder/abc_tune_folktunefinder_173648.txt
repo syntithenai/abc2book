@@ -1,0 +1,29 @@
+X: 1
+T:The Magho Snaps
+R:Jig
+C:Mick Hoy
+S:Seamus Quinn, Fermanagh (fiddle)
+D:Tape of recital, Irvingstown, Fermanagh 1993
+N:As played
+H:Mick Hoy is a fiddle player from Derrygonelly. Magho is the area
+H:on the South shore of Lower Lough Erne, and the Snaps are a
+H:stretch of bumpy road there.
+Z:Bernie Stocks
+M:6/8
+K:G
+GAG GBd | gdB GAB | {d}cBc EFG | AFD A3D3 | GAG GBd |
+gdB GAB | {d}cAF AFD | B3G3 B3G3 :: {ABc}dBd ece | {g}fdf gfe |
+d^cd efg | fdd d3 | {ABc}dBd ece | {g}fdf {a}gfe | dcB Aaf | gGG G3 :|
+S:https://www.folktunefinder.com/tunes/173648
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Magho_Snaps_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Magho_Snaps_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

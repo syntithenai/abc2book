@@ -1,0 +1,20 @@
+X: 1
+T: Muineira De Lugo
+M: 6/8
+L: 1/8
+R: jig
+K:Dmaj
+| dc |: A4 dc | A4 dc | ABA GFG | B2 A2 dc |
+A4 dc | A4 dc | ABA GFE |[1 D4 dc :|[2 D3 F2 F ||
+|: F2 G AGF | E2 C G2 G | G2 A BAG | F2 D F2 F |
+F2 G AGF | E3 AGA |FGF EFE |[1 D3 F2 F :|[2 D4 dc ||
+S:https://www.folktunefinder.com/tunes/177595
+S:http://www.thesession.org/tunes/display/9101
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

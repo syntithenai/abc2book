@@ -1,0 +1,27 @@
+X:178
+U: ~ = !turn!
+%%topmargin 3cm
+T:Ryan's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:ADor
+EAA EAA | PBAB G2 A | Bee {/f}edB | dBA GED |
+EAA EAA | PBAB G2 A | Bee {/f}edB | {/e}dBA A2 ::
+d | eaa {/b}age | dBA G2 A | Bee {/f}edB | def Pgfg |
+eaa {/b}age | dBA G2 A | Bee {/f}edB | dBA A2 :|]
+S:https://www.folktunefinder.com/tunes/94774
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Ryans_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Ryans_Favorite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

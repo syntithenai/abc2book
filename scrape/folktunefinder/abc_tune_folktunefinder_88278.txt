@@ -1,0 +1,29 @@
+X:605
+T:Hungarian Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef2.html
+%%ID:00000ef2
+K:G
+G |\
+(g!diminuendo(!f) !diminuendo)!G | (e!diminuendo(!d) !diminuendo)!G | \
+(cB) G | (ed) G | (gf) G | (ed) G | (dc) A | G2 ::
+B |\
+(cB) G | ed G | (cB) G | (ed) G | (gf) G | ed G | (dc) A | G2 ::
+d|\
+dba | gBd | cAf | gb d | dba | gBd | c(Af) | g2 ||
+B |\
+cAf | gbB | cAf | g2d |\
+dba | gBd | cAf | g2 ::
+S:https://www.folktunefinder.com/tunes/88278
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

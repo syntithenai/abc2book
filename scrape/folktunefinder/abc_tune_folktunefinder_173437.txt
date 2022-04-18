@@ -1,0 +1,28 @@
+X:1
+T:MacArthur Road
+C:Dave Richardson
+M:C|
+L:1/8
+Z:John Chambers <jc@trillian.mit.edu> from
+Z:handwritten MS (by Barbara McOwen)
+F:http://jc.tzo.net/~jc/music/abc/Contra/reel/MacArthurRoad_D.abc 2006-12-21 20:16:16 UT
+K:D
+|: d
+| "D"AF~F2 ABde | f3d "D7"edBd | "G"e2fd edBd | "Em"gdfd "A7"edBd
+| "D"AF~F2 ABde | f3d "D7"edBd | "G"e2fd "Em"eBdB | "A7"ABde "D"d3:|
+|: z
+| "D"ad~d2 adbd | ad~d2 "D7"edBd | "G"e2fd edBd | "Em"gdfd "A7"edBd
+| "D"ad~d2 adbd | ad~d2 "D7"edBd | "G"e2fd "Em"eBdB | "A7"ABde "D"d3:||
+S:https://www.folktunefinder.com/tunes/173437
+S:http://jc.tzo.net/~jc/music/abc/Contra/reel/MacArthurRoad_D.abc
+S:http://jc.tzo.net/~jc/music/abc/Contra/reel/MacArthurRoad_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/MacArthur.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:7514
+T:Icy Jig
+% Nottingham Music Database
+S:Chris Dewhurst 1979, via Phil Rowe
+M:6/8
+K:Am
+"(E7)"e3 |"Am"a3 e2d|"Am"cBc ABc|"Dm"d3 A2G|FEF DEF|"E"E3 ^G2B|"E7"efe dcB|\
+ [1"Am"A3 -"G"A3|"F"A2:|
+ [2"Am"A3 -"Dm"A3|"Am"A2||"A7"a3 |"Dm"fef a^ga|"G"d^cd fef|"C"g^fg age|c3 e3|
+"B"^dBd ^fdf|"B7"b2b ag^f|"E"e3 -e3|"E7"e3 "A7"a3|"Dm"fef a^ga|"G"d^cd fef|
+"C"g2^d ege|"Am"c3 d2e|"Dm"f3 a2f|"E7"efe dcB|"Am"A3 -"Dm"A3|"Am"A3 ||
+S:https://www.folktunefinder.com/tunes/125893
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

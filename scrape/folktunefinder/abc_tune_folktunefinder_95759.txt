@@ -1,0 +1,28 @@
+X:640
+T:Seville Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:3/4
+O:England
+U:W=!wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e4f.html
+%%ID:00000e4f
+K:D
+dc |\
+d2 WFWA d2 | f2 (Ad f2) | e2 (Ac e2) | d2 WFWAWdWc | \
+d2 (FA d2) | f2 (Ad f2) | e2 (Gc e2) | d4 ::
+fa |\
+{a}g2 eg A2 | f2 (df) a2 | {f}e2 ce A2 | d2 WfWdWfWa |\
+g2 eg A2 | f2  df  a2 |    e2 ce A2 | d4 ::
+%page:74
+S:https://www.folktunefinder.com/tunes/95759
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

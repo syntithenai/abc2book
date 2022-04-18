@@ -1,0 +1,37 @@
+X:885
+T: Young Pearse's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] D|"Bm"FBBA "Bm7"BAFA|"G"Bdeg "F#m"fecA|"Bm"FBBA "Bm7"BAFB|"A7"ABGE "D"D3 E|
+[V:2] z|B,,2[B2D2F2]F,,2[D2A2B,2]|G,,2[G2B2D2]F,,2[A2C2E2]|B,,2[B2D2F2]F,,2[D2A2B,2]|\
+A,,2[G2C2E2]D,2[D2A2F2]|
+%
+[V:1] "Bm"FBBA "Bm7"BAFA|"D"defd "Em"eg (3gfg|"D"af"A"ge "Bm"fdBd|"A7"AGEC "D"D3 :|
+[V:2] B,,2[B2D2F2]F,,2[D2F2B2]|D,2[D2A2F2]E,2[B2E2G2]|[D,2][A2E2C2]B,,2[B2D2F2]|\
+A,,2[G2C2E2][A,3F3D,3]:|
+%
+[V:1] F|"A7"EA (3AGA cA (3AGA|"D"defd efdA|"A7"EA (3AGA cA (3AGA|"D"df"A"ec "D"d3 F|
+[V:2] z|A,,2[A2C2E2]E,,2[A2C2E2]|D,2[D2A2F2]F,,2[D2A2F2]|\
+A,,2[A2C2E2]E,,2[A2C2E2]|[D,2][A2E2C2]F,,2[D2A2F2]|
+%
+[V:1] "A7"EA (3AGA cA (3AGA|"D"defa "Em"gfga|"G"bg (3gfg "D"af (3fef|"A"ecAc "D"d3 :|
+[V:2] A,,2[A2C2E2]E,,2[A2C2E2]|D,2[D2A2F2]E,2[B2E2G2]|G,,2[G2B2D2]D,2[D2A2F2]|\
+A,,2[A2C2E2][A,3F3D,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87062
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:340
+T: Pint of Ale
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: Gmix
+BGGF GFDE|F2 cF CFAc|BGGF GFDE|FAdc BGGA|
+BGGF GFDE|F2 cF CFAc|BG (3GFG GFDE|FAdc BGBd||
+g^fgd Bcde|fefc ABce|g^fgd Bcdc|dg (3g^fg bga^f|
+g^fgd Bcde|fefc ABcd|ed (3dcd DEFE|FAdc BG G2||
+S:https://www.folktunefinder.com/tunes/93331
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

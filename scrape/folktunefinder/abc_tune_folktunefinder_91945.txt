@@ -1,0 +1,26 @@
+X:015
+%%topmargin 3cm
+T:Reaping the Rye
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Slip Jig
+L:1/8
+M:9/8
+K:EAeo
+B>cB B2 A GFE | G>AG B2 g f2 e | B>cB B2 A GFE | G2 A Be^d e2 :|
+B>cB g2 g f2 e | B>cB g2 g f2 e | B>cB g2 g fga | g>fe Be^d e3 |
+B>cB g2 g fed | B>cB gag fga | bag gfe fga | gab Be^d e3 |]
+S:https://www.folktunefinder.com/tunes/91945
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Reaping_the_Rye.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

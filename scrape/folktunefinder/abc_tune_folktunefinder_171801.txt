@@ -1,0 +1,27 @@
+X:1847
+T:"The Leinster Outcry" (march)  1847
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+(G/2A/2B/2c/2d/2e/2)|(ef) (ef) (ef) (ef)|TRe8| TRe8| (3(fed) B3B c/2d/2e/2f/2|
+(ga) (ga) (ga) (ga)|g2g2 TRg4| TRg8|f2 TRe6|
+edBA BddB|ed  (3(fed) ed  (3(fed)|e3g  (3(fed) B2|dB ed  (3(fed) ed|d3e  (3(fed) B2|
+ed  (3(fed) ed  (3(fed)|e3g  (3(fed) B2|dB ed  (3(fed) ed|d3e  (3(fed) B2|(3(ABd) ed d4|
+c z (3(cBA) z (3(BAG) z|(3(AGE) z (3(GED) z (3(AGE)|z (3(BAG) z (3(BAG)  (3(AGE)|G3A  (3(BAG) E2| (3(DEG) AG G2|]
+S:https://www.folktunefinder.com/tunes/171801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1847-LeinsterOutcry.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1801-1850/1847-LeinsterOutcry.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

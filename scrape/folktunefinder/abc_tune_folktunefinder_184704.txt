@@ -1,0 +1,29 @@
+X: 1
+T: Rapp-Kalles vals
+B: Melodier frn Upplands bruk och Fyris bygder hfte 1, s. 32
+O: Uppland
+R: Vals
+S: uppteckning efter Johan Olsson, Uppsala
+Z: 2008-06-01 av Nils L
+M: 3/4
+K: D
+L: 1/8
+D2 | (DE) FG A2 | A2 (gf) ed | (cd) (eA) Bc | d2 (AG) FE |
+     (DE) FG A2 | A2 (gf) ed | (cd) (eA) Bc | [F4d4] ::
+d2 | (d2 c2) B2 | G4 B2 | ((3BcB) A2 D2 | F4 A2 | (AG) E2 A,2 | C4 d2 | (cd) (eA) Bc | 
+     (d2 c2) B2 | G4 B2 | ((3BcB) A2 D2 | F4 A2 | (AG) E2 A,2 | C4 d2 | (cd) (eA) Bc | [F4d4] :: 
+f2 | a2 (fd) fa | ((3aba) (fd) fa | ((3aba) g2 f2 | g4 g2 | 
+     g2 (ec) eg | ((3gag) (ec) eg | ((3gag) f2 e2 | f4 df |
+     a2 (fd) fa | ((3aba) (fd) fa | ((3aba) g2 a2 | b4 g2 | 
+     f2>g2   f2 | e2      ef   g2 | A2      B2 c2 | (ed) (cd) fe | [F4d4] :|
+S:https://www.folktunefinder.com/tunes/184704
+S:http://www.folkwiki.se/pub/cache/_RappKalles_vals_ba973b.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

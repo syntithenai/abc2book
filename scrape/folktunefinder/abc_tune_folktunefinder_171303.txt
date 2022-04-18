@@ -1,0 +1,36 @@
+X:1
+T:Larid : Ma mie m'attend
+Z:Roger Ngaret (94-95)
+R:laride
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=120
+M:4/4
+L:1/16
+K:C
+A2c2 "Am"e2d2 cBA2 "Em"B4 | AAA2 G2E2 G2B2 "Am"A4 :: edc2 "G"B2c2 A2G2 "F"A4 |
+AAA2 "G"G2E2 G2B2 "Am"A4 :|
+P:Variante 2ime phrase
+edc2 "G"B2c2 A2B2 "F"c4 | A2c2 "G"B2B2 Bcd2 "Am"e4 |
+edc2 "G"B2c2 A2G2 "F"A4 | AAA2 "G"B2G2 G2B2 "Am"A4 |]
+%%rm
+%%rm a fait 10 heures que m'attend ma mie
+%%rm Assise au bord du lit
+%%rm Si vous saviez comme est ma mie
+%%rm Elle m'attendra toute la nuit.
+%%rm
+%%rm Y'a trop longtemps qu'm'attend ma mie
+%%rm Assise au bord du lit
+%%rm Vous connaissez bien mal ma mie
+%%rm Je creille ben qu'elle est partie.
+S:https://www.folktunefinder.com/tunes/171303
+S:http://termen.free.fr/danses/termen/LarideMamiemattend.abc
+% Rhythm Laride
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

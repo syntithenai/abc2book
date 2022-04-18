@@ -1,0 +1,34 @@
+X: 30
+T: Maple Sugar
+I: Maple SugarS-MD/Asquare
+C: S-M
+C: Ward Allen
+M: C|
+Q: 1/2=100
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+F2 G2^G2 | "D"A4 A3B| A2G2 F2E2| F2 F4 G2| F4 G2F2| \
+"A7"F2E2 E2F2| G4 F2E2| "D"G2F2 F2=F2| F2 F2 G2^G2|
+"D"A4 A3B| A2G2 F2E2| F2 F4 G2| F4 G2F2| \
+"A7"F2E2 E2F2| G2G2 F2E2| "D"D2d2 A2F2| D2C2 D2E2 | [K:A]\
+\
+"A"E4 E3F| E2C2 E2A2| c4 c3B| A2E2 G2A2| \
+"E7"B4 B3c| B2G2 F2G2| "A"A2A2 G2F2| E2C2 D2F2|
+"A"E4 E3F| E2C2 E2A2| c4 c3B| A2E2 G2A2| \
+"E7"B4 B3c| B2G2 F2G2|1 "A"A4 G4| "A7"=G2 :|2 "A"A8-| A2 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/174206
+S:http://roaringjelly.org/music/misc/MapleSugar.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/misc/MapleSugar.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/misc/MapleSugar.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

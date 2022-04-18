@@ -1,0 +1,26 @@
+X: 1
+T:Se\'an Bu\'i
+T:Over the Water to Charlie
+R:slide
+Z:id:hn-slide-31
+M:6/8
+K:D
+DFA BFA|Bcd AFA|DFA BFA|B2c d2D|
+DFA BFA|Bcd AFA|fed edc|1 B2c d2D:|2 B2c d2e||
+|:fed edc|Bcd AFA|fed edc|B2e e2g|
+[1 fed edc|Bcd AFA|~D3 AFA|B2c d2e:|
+[2 afd gec|dcB AFA|~D3 AFA|B2c d2D||
+K:G
+~G3 dBd|ece dBd|~G3 dBd|e2f g3|~G3 dBd|ece dBd|bag agf|e2f g3:|
+bag agf|efg dBd|bag agf|e2a a3|bag agf|efg dBd|~G3 dBd|e2f g3:|
+S:https://www.folktunefinder.com/tunes/180888
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/se/Sean_Bu_i_1.abc
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

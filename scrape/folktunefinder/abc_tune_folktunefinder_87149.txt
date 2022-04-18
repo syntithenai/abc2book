@@ -1,0 +1,54 @@
+X: 9065
+T: Hugh Smith's Farewell (with piano acc.)
+C: BB
+M: 4/4
+Q: 1/8=350
+L: 1/8
+R: reel
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] E | "Am"A3 B "C"c2 BA | "Em"GEEA GEEF | "G"GFGA B3 A | "G"G2 BG dGBG |
+[V:2] z|A,,2[A2E2C2]C,2[C2G2E2]|E,2[E2B2G2]B,,2[E2B2G2]|G,,2[G2D2B2]D,2[G2D2B2]|\
+G,,2[G2D2B2]D,2[G2D2B2]|
+%
+[V:1] "Am"A3 B "C"c2 BA | "Em"edcB "Am7"AGEF | "G"GFGA "Em"Bdge | "G"dBGB "Am"A3 :|
+[V:2] A,,2[A2E2C2]C,2[C2G2E2]|E,2[B2E2G2]A,,2[E2C2G2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2]A,,2[AEC]:|
+%
+[V:1] e |"Am"a^gab "Am7"a=ged | "Am"eaag ea a2 | "G"gfga "Em"gedB | "G"G2 BG ABde |
+[V:2] z |A,,2[A2E2C2]E,2[A2C2G2]|A,,2[A2E2C2]E,2[A2E2C2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2]D,2[G2D2B2]|
+%
+[V:1] "Am"a^gab "Am7"a=ged | "Am"eaag eaab | "G"g3 f "Em"efge | "G"dBGB "Am"A3 :|
+[V:2] A,,2[A2E2C2]E,2[A2C2G2]|A,,2[A2E2C2]E,2[A2E2C2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2][A,,3C,3E3] :|
+%%%%%%%tune repeat
+[V:1] E | "Am"A3 B "C"c2 BA | "Em"GEEA GEEF | "G"GFGA B3 A | "G"G2 BG dGBG |
+[V:2] z|A,,2[A2E2C2]C,2[C2G2E2]|E,2[E2B2G2]B,,2[E2B2G2]|G,,2[G2D2B2]D,2[G2D2B2]|\
+G,,2[G2D2B2]D,2[G2D2B2]|
+%
+[V:1] "Am"A3 B "C"c2 BA | "Em"edcB "Am7"AGEF | "G"GFGA "Em"Bdge | "G"dBGB "Am"A3 :|
+[V:2] A,,2[A2E2C2]C,2[C2G2E2]|E,2[B2E2G2]A,,2[E2C2G2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2][A,,3C,3E3] :|
+%
+[V:1] e |"Am"a^gab "Am7"a=ged | "Am"eaag ea a2 | "G"gfga "Em"gedB | "G"G2 BG ABde |
+[V:2] z |A,,2[A2E2C2]E,2[A2C2G2]|A,,2[A2E2C2]E,2[A2E2C2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2]D,2[G2D2B2]|
+%
+[V:1] "Am"a^gab "Am7"a=ged | "Am"eaag eaab | "G"g3 f "Em"efge |1 "G"dBGB "Am"A3 :|2\
+"G"dBGB "Am"A4-|A6 z2||
+[V:2] A,,2[A2E2C2]E,2[A2C2G2]|A,,2[A2E2C2]E,2[A2E2C2]|G,,2[G2D2B2]E,2[B2E2G2]|1\
+G,,2[G2D2B2][A,,3C,3E3]:|2 G,,2[G2D2B2][A,,4-E,4-C,4-]|[A,,6E,6C,6] z2||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87149
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

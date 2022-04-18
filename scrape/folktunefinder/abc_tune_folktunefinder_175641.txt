@@ -1,0 +1,23 @@
+X: 1
+T: The Midlothian Pipe Band
+Z: John Chambers <jc@trillian.mit.edu>
+R: jig, march
+M: 6/8
+L: 1/8
+K: D
+|: fe | "D"d2A def | ABA "(A7)"A2A | "D"fgf fed | "A7"efe ABc \
+      | "D"d2A "D7"def | "G"BGB B2g | "D"fga "A7"ABc | "D"d3- d :|
+|| ag | "D"fgf fed | "A7"efe efg | "D"aAa "D7"f2e | "G"dBB Bag \
+      | "D"fgf fed | "A7"efe efg | "D"fga "A7"ABc | "D"d3- d ||
+|| ag | "D"fgf fed | "A7"efe efg | "D"aAa "D7"f2e | "G"dBB Bag \
+      | "D"fga "A7"efg | "D"fed "G"B2g | "D"fga "A7"ABc | "D"d3- d |]
+S:https://www.folktunefinder.com/tunes/175641
+S:http://trillian.mit.edu/~jc/music/book/500/MidlothianPipeBand.abc
+% Rhythm Jig, march
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:19174
+T:Yankee Doodle
+M:2/4
+L:1/8
+R:1st Change
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+K:D
+(3A/2B/2c/2|"D"dd ef|df eA|dd ef|d2 "A7"c2|"D"dd ef|"G"gf ed|\
+"A7"cA Bc|"D"d2 d:|!
+|:A|"G"B>c BA|Bc dB|"D"A>B AG|F2 A2|"G"B>c BA|Bc dB|\
+"D"Ad "A7"ce|"D"d2 d:|]
+S:https://www.folktunefinder.com/tunes/94465
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm 1st change
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

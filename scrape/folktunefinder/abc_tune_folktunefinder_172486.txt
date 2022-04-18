@@ -1,0 +1,27 @@
+X: 1
+N: Collie Law
+N: 32J 2C x 8 -- Goldring 24 Graded
+N: Play each tune as written:  1 2 3, 1 2 3, 2 1
+P: Little Pickle
+C: Joseph Lowe
+C: Lowe's 4th Collection
+C: From John Chambers
+R: jig
+M: 6/8
+L: 1/8
+K: A
+E |: "A"A3 cBA | EAB cBA | "Bm"dcB fdB | "E7"bge efg \
+  |  "A"a3 cBA | EAB cBA | "D"dcd "E7"efg | "A"aec A2 :|
+B |: "A"A2a aga | Ace edc | "G"B2=g gfg | B=GB dcB \
+  |  "A"A2a aga | Ace edc | "D"dcd "E7"efg | "A"aec A2 :|
+S:https://www.folktunefinder.com/tunes/172486
+S:http://terrytraub.org/abc/LittlePickleJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

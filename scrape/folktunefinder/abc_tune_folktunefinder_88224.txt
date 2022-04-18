@@ -1,0 +1,25 @@
+X:335
+T:Rigadoon
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/4
+M:6/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000062a.html
+%%ID:0000062a
+K:C
+G | \
+c>Bc (de)c | d3 G2 c/d/ | (ec) A (fd)c | d3-d2 ::
+G/4A/4B/ | \
+c>BA GcG     | (Ac)A  F2A  | (df)d (Ad)A |\
+BdB  G2 c/d/ | (ec)d (Gc)B | c3-c2      :|
+S:https://www.folktunefinder.com/tunes/88224
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

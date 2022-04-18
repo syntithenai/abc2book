@@ -1,0 +1,23 @@
+X:1390
+T:Keep thy Country Bonny .....
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%RRN:it trails off; I've supplied the last bar by analogy with A part
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001216.html
+%%ID:00001216
+K:A mixolydian
+e | A/A/A cA Bcdf | A/A/A cA eAcA | dfce Bcdf | ecaf e2A ::
+a | a/g/f/e/ ce Bcde | a/g/f/e/ ce a/g/f/e/ ce | dfce Bcdf | \
+"<("">)"e"<("">)"c"<("">)"a"<("">)"f "<("">)"e2"<("">)"A ::
+S:https://www.folktunefinder.com/tunes/88435
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

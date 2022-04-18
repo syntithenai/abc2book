@@ -1,0 +1,28 @@
+X:1
+T:Pabneukirchener Flohmarkt Boarischer
+C:traditionelle Melodie, eingerichtet von S.Wascher 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+Bc | d^cdg B2B=c | d^cdg B2B=c |\
+d2ba gfef | gfgb d2Bc | d^cdg B2B=c |
+d^cdg B2Bd | =c2ag fedf | g2b2g2 :||:\
+dB |\
+c2AB cdef | gfgbd4 |
+ffff f2e2 | Gd^cd e2d2 | c2AB cdef |\
+gfgbd4 | ffff fdef | G2g2g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/180960
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/pabneukirchener_flohmarkt.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:175
+T:Ally Croker
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%RRN:"A good tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea2.html
+%%ID:00000ea2
+K:G
+G2GG     | G2G2 | AGFG | ABcd |   BGGG     | G2G2 | AGFG | ABc2 :: \
+{Bc}d2dd | d2d2 | edcB | ABc2 | ! {AB}c2cc | c2c2 | dcBA | GAB2 |\
+G2G>G    | F2F>F| E2E>E| D2D2 |   c2dc     | B2A2 | BGcA | F2G2 :|
+S:https://www.folktunefinder.com/tunes/88192
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

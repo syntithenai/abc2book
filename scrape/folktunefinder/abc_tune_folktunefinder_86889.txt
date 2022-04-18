@@ -1,0 +1,40 @@
+X:20
+T: Coogan's Barn (with piano acc.)
+C: BB
+N: To commemorate the Coogan Family's pleasant visit to Cape Cod 8/02
+L: 1/8
+M: 4/4
+Q: 315
+R: hornpipe %barndance
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] z2|"G"GDGA BcBA |"G"GABG "C"(3EGE "D"D2|"G"GABd "Em"gedB |"Am"ABcA "D"F2 Ac |
+[V:2] z2|G,,2[G2D2B2]D,,2[G2B2D2]|G,2[G2D2B2][C,2][D,2A,2F2]|G,,2[G2D2B2]E,2[E2B2G2]|\
+A,,2[A2E2C2]D,2[D2A2F2]|
+%
+[V:1] "G"GDGA BcBA | "G"GABG "C"(3EGE "D"D2 | "G"BcdB "Bm"ADFB |"D"A2 "G"G2 G2 :|
+[V:2] G,,2[G2D2B2]D,2[D2G2B2]|G,,2[G2D2B2][C,2][D,2A,2F2]|G,,2[G2D2B2]B,,2[B2D2F2]|\
+[D,2A,2F2][G,2D2B2]G,,2 :|
+%
+[V:1] Bc |"G"dgfg "Em"edcB | "Am"ceae "A"^ceae |"D"fgfe defg |"Am"afge "D"d2 Bc|
+[V:2] z2 |G,,2[G2D2B2]E,2[E2B2G2]|A,,2[A2E2C2]^C,2[^C2A2E2]|D,2[D2A2F2]F,2[A2D2F2]|\
+A,,2[G2E2C2]D,2[D2A2F2]|
+%
+[V:1] "G"dgfg "Em"edcB|"Am"ceae "A"^ceae|"D"fdAF DFAc|"G"B2 G2 G2 :|
+[V:2] G,,2[G2D2B2]E,2[E2B2G2]|A,,2[A2E2C2]^C,2[A2E2^C2]|D,2[D2A2F2]A,,2[D2F2A2]|
+[G2D2B2][G,2D,2B,2] G,,2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86889
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe %barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

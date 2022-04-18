@@ -1,0 +1,26 @@
+X:2
+T:The Primrose Lass
+C:Traditional
+S:Mel Bay's Complete Irish Tin Whistle Book
+M:C|
+L:1/8
+K:G
+"G"B2 ({c}BA) (G3 E | "G"DEGA) "D"({c}BA) {c}A2 | "G"(dBAB) (G3 E |
+"G"DE"D"GA) "G"({c}BG)({B}GA) | "G"B2 ({Bc}BA) (G3 E |
+"G"DEGA) "D"({c}BA) {c}A2 | "G"(dcBA) G2 ({B}GE) | "D"(DEGA) "G"({c}BG) G2 ::
+"G"((3Bcd g)d "C"({a}ed"G"g)d | "G"(Bdg)d "D"(eA) A2 |
+"G"((3Bcd g)d "C"(ef{b}g)e | "G"(Bd"D"A)d "G"(BG) {B}G2 |
+"G"((3Bcd g)d ((3Bcd g)d | "G"((3Bcd g)d "D"(eA) A2 | "G"((3Bcd ef) "C"g3 e |
+"G"(dB"D"A)(d "G"BG) {B}G2 :|
+S:https://www.folktunefinder.com/tunes/183891
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/PrimroseLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/PrimroseLass.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/PrimroseLass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

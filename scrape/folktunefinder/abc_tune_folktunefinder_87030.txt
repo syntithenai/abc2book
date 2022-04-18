@@ -1,0 +1,38 @@
+X:725
+T: Rosie Rogers' Fling (with piano acc.)
+C: BB
+M: 4/4
+L: 1/8
+Q: 1/8=330
+R: hornpipe
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: A
+[V:1] "A"eafe cBAB|"A"cecA "F#m"F2 F2|"A"EFAB cBAc|"F#m"efec "E"B2 B2 |
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]F,,2[A2C2F2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+F,,2[A2C2F2]E,2[E2B2G2]|
+%
+[V:1] "A"eafe cBAB|"A"cecA "D"FGAB|"A"Aaga "F#m"fecA|"E"EFGB "A"A2 A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]F,,2[A2C2F2]|\
+E,2[E2B2G2]A,,2[A2C2E2]:|
+%
+[V:1] "A"aece "F#m"fece|"A"Acea "D"f2 f2|"A"aece "Bm"fbaf|"A"eaec "E"B2 B2 |
+[V:2] A,,2[A2C2E2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[A2C2E2]B,,2[F2B2D2]|\
+A,,2[A2C2E2]E,2[E2B2G2]|
+%
+[V:1] "A"aece "F#m"fece|"A"Acea "D"fefg|"Bm7"afbf "D"afed|"E"cedB "A"A2 A2 :|
+[V:2] A,,2[A2C2E2]F,,2[A2C2F2]|A,,2[A2C2E2]D,2[A2D2F2]|B,,2[F2A,2D2]D,,2[A,2D,2F,2]|
+E,,2[E2B2G2]A,,2[A2C2E2] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87030
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

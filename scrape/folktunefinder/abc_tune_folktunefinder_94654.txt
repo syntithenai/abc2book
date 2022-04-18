@@ -1,0 +1,32 @@
+X:056
+U: ~ = !turn!
+%%topmargin 3cm
+T:Dowd's Favorite
+U: ~ = !turn!
+%%topmargin 3cm
+T:(Alternate Key: Gm)
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Andy McGann
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Dm
+DGGA BABF | DF ~F2 CFAF | DGGA BABd | ((3cBA) fc AGGF |
+DGGA [F2B2] [FB]F | DF ~F2 dFcF | DGGA BABd | ((3cBA) fc AGGA |]
+[| B2 ((3dcB) FBdB FBdB cAFA | Bc ((3dcB) fBdB | cAFA BG G2 |
+((3Bcd) Bd fBdc | ((3Bcd) Bd cAFA | GB ((3ABc) Bbag | fdcA BG G2 |]
+[| gd (3.d.d.d g2 ag | fc (3.c.c.c fgaf | gd (3.d.d.d gbag | fdcA BGBd |
+((3gag) fa g2 ag | ((3fgf) dg fdcA | GB ((3ABc) Bbag | fdcA BGAF |]
+S:https://www.folktunefinder.com/tunes/94654
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dowds_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dowds_Favorite_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

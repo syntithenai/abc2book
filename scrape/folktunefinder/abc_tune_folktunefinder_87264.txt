@@ -1,0 +1,53 @@
+X: 9179
+T: Dillon's Other Breakfast (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] e|"Bm"dBAF "G"GBdB|"A"Aceg "D"fddc|"Bm"BAFE "D"DFAd |"Bm"fagf "A"e3A |
+[V:2] z|B,,2[F2D2B2]G,,2[G2D2B2]|A,,2[A2C2E2]D,2[A2D2F2]|B,,2[F2D2B2]D,2[A2D2F2]|\
+B,,2[F2D2B2]A,,2[A2C2E2]|
+%
+[V:1] "D"fa (3a^ga "A"eAcA | "Bm"BcdB "D"ADFD | "C"EG=cG "D"Adfa |"A"gece "D"d3 :|
+[V:2] D,2[A2D2F2]A,,2[A2C2E2]|B,,2[F2D2B2]D,2[A2D2F2]|=C,2[E2G2=C2]D,2[A2D2F2]|\
+A,,2[A2C2E2][D,3A,3F3]:|
+%
+[V:1] A| "C"=cBcd edcd | "A"eA^cA eAcA | "C"=c2 ec gcec |"A"(3efg ec "D"d3 A |
+[V:2] z|=C,2[E2G2=C2]G,,2[E2=C2G2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+=C,2[E2G2=C2]G,,2[E2=C2G2]|A,,2[A2C2E2]D,2[A2D2F2]|
+%
+[V:1] "C"=cG G2 "Bm"BF F2 | "A"(3EFG AG "D"FD D2 | "C"=CE (3EDE GE (3EDE |"A"GECE "D"D3 :|
+[V:2] =C,2[E2G2=C2]B,,2[F2D2B2]|A,,2[A2C2E2]D,2[A2D2F2]|=C,2[E2G2=C2]G,,2[E2=C2G2]|\
+A,,2[A2C2E2][D,3A,3F3]:|
+%%%%%%%%%tune repeat
+[V:1] e|"Bm"dBAF "G"GBdB|"A"Aceg "D"fddc|"Bm"BAFE "D"DFAd |"Bm"fagf "A"e3A |
+[V:2] z|B,,2[F2D2B2]G,,2[G2D2B2]|A,,2[A2C2E2]D,2[A2D2F2]|B,,2[F2D2B2]D,2[A2D2F2]|\
+B,,2[F2D2B2]A,,2[A2C2E2]|
+%
+[V:1] "D"fa (3a^ga "A"eAcA | "Bm"BcdB "D"ADFD | "C"EG=cG "D"Adfa |"A"gece "D"d3 :|
+[V:2] D,2[A2D2F2]A,,2[A2C2E2]|B,,2[F2D2B2]D,2[A2D2F2]|=C,2[E2G2=C2]D,2[A2D2F2]|\
+A,,2[A2C2E2][D,3A,3F3]:|
+%
+[V:1] A| "C"=cBcd edcd | "A"eA^cA eAcA | "C"=c2 ec gcec |"A"(3efg ec "D"d3 A |
+[V:2] z|=C,2[E2G2=C2]G,,2[E2=C2G2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+=C,2[E2G2=C2]G,,2[E2=C2G2]|A,,2[A2C2E2]D,2[A2D2F2]|
+%
+[V:1] "C"=cG G2 "Bm"BF F2 | "A"(3EFG AG "D"FD D2 | "C"=CE (3EDE GE (3EDE |1 "A"GECE "D"D3 :|2\
+"A"GECE "D"D4-|D8||
+[V:2] =C,2[E2G2=C2]B,,2[F2D2B2]|A,,2[A2C2E2]D,2[A2D2F2]|=C,2[E2G2=C2]G,,2[E2=C2G2]|1\
+A,,2[A2C2E2][D,3A,3F3] :|2 A,,2[A2C2E2][D,4-A,4-F4-]|[D,8A,8F8]||
+%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87264
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

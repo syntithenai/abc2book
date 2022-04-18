@@ -1,0 +1,25 @@
+X:0659
+T:"Planxty Madam Maxwell"         0659
+C:Turlough  O' Carolan
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#182 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+"^vb"(AB).A2 (AF).D2|(F2A2) (A2B2)|(cd).e2 (de).f2|(ef).g2 f2e2|d2A2 (GF)(ED)|G2B2 B2d2|
+(c2A2) .e2(dc)|d4d2 z2:|a2d2 a2d2|g2 b4(ag)|f2d2 .a2(gf)|(g2 e4)g2|
+(fg).a2 (ga).b2|.a2.g2 .f2.e2|"^>"TRd4(e2d2)|c2 A4(Bc)| "^>"d4(cB)(AG)|F2 D4d2|
+(cd).e2 (fe).d2|c2 A4(Bc)|(dcBA) (BAGF)|G2 B4A2|(BAGF) (AGFE)|D4-D2 z2|]
+S:https://www.folktunefinder.com/tunes/182785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/659-PlanxtyMadamMaxwell.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

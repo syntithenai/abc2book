@@ -1,0 +1,32 @@
+X: 1
+T:None So Pretty
+M:6/8
+L:1/8
+S:CJS (MDT)
+O:Duns Tew
+N:A &amp; B are same as Fieldtown; C is augmented B.
+P:A(AB3)2(AC3)2A
+K:G
+P:A
+|:D|G2d BGB|c2A AFD|BAG EFG|DEF G2:|
+P:B
+G|c2d ecA|B2c dBG|Bcd eee|ABc d2D|
+G2d BGB|c2A AFD|BAG EFG|DEF G2 |]
+P:C
+G|c2d ecA|B2c dBG|Bcd eee|ABc d2D|
+G3 d3|BG2 B3|c3 A3|AF2 D3|BAG EFG|DEF G2 |]
+S:https://www.folktunefinder.com/tunes/179019
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1194198508
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1194199041
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1194368483
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1194382730
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1194371319
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/seaside_shuffle?rev=1199802999
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

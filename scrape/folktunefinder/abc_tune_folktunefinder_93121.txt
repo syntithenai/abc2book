@@ -1,0 +1,22 @@
+X: 31
+T: Tule, tule, kultani
+O: trad Finland
+R: polka
+M: 2/4
+L: 1/16
+K: Cm
+|: z2 | "Cm"GGcc c2GG | "Fm"A2F2 F4 | "G7"G2GA G2D2 | "Cm"E2C2 C2 :: CD | "Cm"E2E2 E2DE | "Fm"F2F2 F4 | "G7"G2GA G2D2 | "Cm"E2C2 C2 :|
+K: Dm
+|: z2 | "Dm"AAdd d2AA | "Gm"B2G2 G4 | "A7"A2AB A2E2 | "Dm"F2D2 D2 :: DE | "Dm"F2F2 F2EF | "Gm"G2G2 G4 | "A7"A2AB A2E2 | "Dm"F2D2 D2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93121
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

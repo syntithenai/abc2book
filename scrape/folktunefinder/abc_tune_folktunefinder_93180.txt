@@ -1,0 +1,27 @@
+X:9
+T: The blackbird of Mullaghmore, S. 48
+N: I0508
+O: Irland
+S: O BOYLE, Sean: 25 Irish Folksongs, Dublin 1976]
+R: politisches Lied, Allegorie]
+M: 4/4
+L: 1/8
+K: F
+cB | A3FG2D2 | FDC4A,2 | C2D2F3G | F6
+C2 | F3GA2B2 | cFF4F2 | A2B2c2dA | c6
+AB | c3cd2cA | cc3F2GA | c2c2AGF2 | D6
+cB | A3FG2D2 | FDC4A,2 | C2D2F3G | F6
+S:https://www.folktunefinder.com/tunes/93180
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+S:http://ifdo.ca/%7Eseymour/runabc/esac/IRL.abc
+% Rhythm Politisches lied, allegorie]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

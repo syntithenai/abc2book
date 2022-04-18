@@ -1,0 +1,20 @@
+X: 34
+T: Vaiennut viulu
+C: Konsta Jylh
+Z: John Chambers <jc@trillian.mit.edu>
+B: "Konstan parhaat", Edition Coda, Helsinki, 1970
+M: 3/4
+L: 1/4
+K: Gm
+[| "Gm"DGF | "Cm"E>DC | "D7"A,DC | "Gm"B,>A,G, | D"A7"=E"D7"^F | "Gm"G>AB | "A7"A=F=E | "Dm"D2"D7"z | "Gm"GAB | "Cm"A>GG |
+| "F7"FEA, | E>"Bb"DD | "Gm"GBA | "A7"=E2"D7"^F | "Cm"cBA | "D7"d3 | "Bb"BFD | "Cm"C2E | "D7"D2[^FC] | "Gm"[G3B,3] |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93124
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,74 @@
+X:1
+% A: A-Area
+% B: B-Book
+C: Culebr\'on Timbal
+% D: Territorio
+% G: G-Group
+% H: H-History
+% N: N-Notes
+% O: O-Origin
+% S: S-Source
+T:Estrella Blanca
+% Z: Z-Transcription note
+M:4/4
+L:1/8
+Q:1/4=100
+% C:El colectivero fantasma
+K:G
+V:1 name="Alto"
+%%MIDI program 65
+V:2 name="Tenor 1"
+%%MIDI program 65
+V:3 name="Tenor 2"
+%%MIDI program 65
+[V:1] Z8 |:
+[V:2] Z8 |:
+[V:3] Z8 |:
+% Measure 9
+[V:1] GG/G/ z2 EE/E/ z E | z E/E/ z E/E/ z F/F/ z F/F/ | GG/G/ z2 EE/E/ z E | E2 z2 d/B/A/F/ EF :|
+[V:2] EE/E/ z2 CC/C/ z C | z ^C/C/ z ^C/C/ z D/D/ z D/D/ | EE/E/ z2 CC/C/ z C | ^C2 z2 F/D/^C/A,/ G,D :|
+[V:3] G,G,/G,/ z2 E,E,/E,/ z E, | z E,/E,/ z E,/E,/ z F,/F,/ z F,/F,/ | G,G,/G,/ z2 G,G,/G,/ z E, | E,2 z2 D/B,/A,/F,/ E,F,:|
+% Measure 13
+[V:1] G2 z2 z4 | Z7 |: 
+[V:2] E2 z2 z4 | Z7 |: 
+[V:3] B,2 z2 z4 | Z7 |: 
+% Measure 21
+[V:1] G3 c/c/ G3 c/c/ | A3 d/d/ A3 d/d/ | e3/e/ z2 e3/e/ z2 | e3/e/ z2 e3/e/ z2 :|
+[V:2] E3 G/G/ E3 G/G/ | F3 A/A/ F3 A/A/ | B3/B/ z2 B3/B/ z2 | B3/B/ z2 B3/B/ z2:|
+[V:3] C3 E/E/ C3 E/E/ | D3 F/F/ D3 F/F/ | G3/G/ z2 G3/G/ z2 | G3/G/ z2 G3/G/ z2 :|
+% Measure 25
+[V:1] Z2 |:
+[V:2] Z2 |:
+[V:3] Z2 |:
+% Measure 27
+[V:1] GG/G/ z2 EE/E/ z E | z E/E/ z E/E/ z F/F/ z F/F/ | GG/G/ z2 EE/E/ z E | E2 z2 d/B/A/F/ EF :|
+[V:2] EE/E/ z2 CC/C/ z C | z ^C/C/ z ^C/C/ z D/D/ z D/D/ | EE/E/ z2 CC/C/ z C | ^C2 z2 F/D/^C/A,/ G,D:|
+[V:3] G,G,/G,/ z2 E,E,/E,/ z E, | z E,/E,/ z E,/E,/ z F,/F,/ z F,/F,/ | G,G,/G,/ z2 G,G,/G,/ z E, | E,2 z2 D/B,/A,/F,/ E,F,:|
+% Measure 31
+[V:1] G2 z2 z4 | Z7 |: 
+[V:2] E2 z2 z4 | Z7 |: 
+[V:3] B,2 z2 z4 | Z7 |: 
+% Measure 39
+[V:1] G3 c/c/ G3 c/c/ | A3 d/d/ A3 d/d/ | e3/e/ z2 e3/e/ z2 | e3/e/ z2 e3/e/ z2 :|   
+[V:2] E3 G/G/ E3 G/G/ | F3 A/A/ F3 A/A/ | B3/B/ z2 B3/B/ z2 | B3/B/ z2 B3/B/ z2:|
+[V:3] C3 E/E/ C3 E/E/ | D3 F/F/ D3 F/F/ | G3/G/ z2 G3/G/ z2 | G3/G/ z2 G3/G/ z2 :|
+% Measure 43
+[V:1] Z8 |:
+[V:2] Z8 |:
+[V:3] Z8 |:
+% Measure 51
+[V:1] E4 F4 | G4 F4 | E4 F4 | G4 A4 |
+[V:2] E4 F4 | G4 F4 | E4 F4 | E4 F4 |
+[V:3] E4 F4 | G4 F4 | E4 F4 | B,4 ^C,4 |
+% Measure 55
+[V:1] B4 ^c3 F| GFGA B^AB^c | d6 f2  | d8 :| Z8 | z8 | z8 |]
+[V:2] G4 A3 ^D| E^DEF GFGA | B6 ^c2 | B8 :| Z8 | z8 | z8 |]
+[V:3] E4 F3 A,| B,^A,B,^C E^DEF| G6 A2  | G8 :| Z8 | z8 | z8 |]
+S:https://www.folktunefinder.com/tunes/156413
+S:http://abcmr.sourceforge.net/estrella-blanca.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

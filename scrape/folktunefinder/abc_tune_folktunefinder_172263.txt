@@ -1,0 +1,18 @@
+X:1
+T:Limerick Rake
+M:6/8
+L:1/8
+K:G
+ z4 z E| EGF EDE| GAB e2 e| dBB BAF| AFE D2 D| EGF EDE| GAB e2 e| dBG AFD|\
+ E3 E2 B| Bee efe| dB^c d2 d| eBB BAF| AFE D2 D/2D/2| EGF EDE| GAB e2 e/2e/2|\
+ dBG AFD| E3 E2 z|
+S:https://www.folktunefinder.com/tunes/172263
+S:http://back.numachi.com:8000/dtrad/abc/LIMERPRG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/LIMERPRG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

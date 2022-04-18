@@ -1,0 +1,33 @@
+X:8181
+T:Johnny Cope. BF12.13
+M:2/4
+L:1/16
+Q:100
+S:MS12,J.Wilson,1833,Browne Coll.,Lakes
+R:Air
+O:England
+A:Lakes
+N:
+Z:vmp.Chris Partington.
+K:C
+A2|E2A2 ABcd|e2A2 A2GE|G2G2 GABc|d2G2 B2AG|!
+E2A2 ABcd|e2A2 B2A^F|G2g2 edcB|A4A2:|!
+|:G2|c3d c2G2|cBcd e2dc|B2G2 d2G2|Bcde d2cB|!
+cBcde2a2|gede g2BA|G2g2 edcB|A4A2:|!
+|:A2|A2a2 a2ga|b2a2 a2ge|g^fga b>c'b>a|g>ed>e g2d2|!
+e2a2 a2ga|b2a2 a2ge|d2g2edcB|A4A2:|!
+|:E2|A^GAB cBcd|efed cBcA|=G^FGA BABc|dBgd cBA^G|!
+A^GAB cBcd|eged cBcA|G2g2 edcB|A4A2:|]
+S:https://www.folktunefinder.com/tunes/126560
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

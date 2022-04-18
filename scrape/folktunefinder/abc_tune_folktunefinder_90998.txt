@@ -1,0 +1,23 @@
+X:141
+T:Tune for a Found Harmonium                                                                        
+M:4/4                                                                                               
+L:1/8                                                                                               
+K:D                                                                                                 
+E|FDGD FDDD|FDGD FDDD|FDGD FDDD|EDCE FDDD :|                                                        
+EDCD EDCD|FDCD FDCD|GEFD EDCE|1 FDDD D2 z E :|2 FDDD D3 =F||                                        
+K:C                                                                                                 
+cFEF GFEF|cFEF E2 z F|cFEF GFEF|cFEF E2 z F :|                                                      
+K:F                                                                                                 
+BFDF GFDF|BFDF GFDF|BGEF G E2 F|BFEF G E2 G |                                                       
+K:D                                                                                                 
+cGEG CEEG|cGEG CEEG|cGEG CEEG|cGEG CEEG :|
+S:https://www.folktunefinder.com/tunes/90998
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:10
+T:Mary Claire
+R:Reel
+C:Jerry Holland
+B:Jerry Holland's Collection of fiddle tunes
+Z:added by Alf Warnock
+M:4/4
+L:1/8
+Q:1/4=200
+K:Bb
+(3edc|:B2FD B,DFD|EG,B,E {E}G2FE|DFBd f2=ef|gf=eg fcAc|
+B/2B/2BFD B,DFD|EG,B,E G2FE|DFBd cBAc|B2BA B2:|
+Bc|:dcBd cBAc|dBFD B,DFD|EGFE DFBd|cBAG F2Bc|
+dcBd cBAc|[1 dBFD B,DFD|EGFE DFBd|cAFA B2Bc:|
+|[2 BdFB DFB,D|EGFE DFBd|cAFA B2|]
+S:https://www.folktunefinder.com/tunes/92752
+S:http://www2.redhawk.org:8080/irish/warnock/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

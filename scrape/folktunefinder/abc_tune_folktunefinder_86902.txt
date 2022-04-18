@@ -1,0 +1,38 @@
+X:85
+T: Black Road to Loughrea (with piano acc.)
+C: BB
+R: reel
+M: 4/4
+Q: 1/8=350
+L: 1/8
+V: 1 program 1 40 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Ddor
+[V:1] "Dm"A,DGF DdcA|"Am"aged cAGF|"Dm"A,DGF DdcA|"Am"aged "Dm"cd d2|
+[V:2] D,2[A2F2D2]A,,2[A2F2D2]|A,2[E2C2A2]E,,2[E2C2A2]|D,2[A2F2D2]A,,2[A2F2D2]|\
+A,2[E2C2A2]D,2[A2F2D2]|
+%
+[V:1] "Dm"A,DGF DdcA|"Am"aged cAGA|"Dm"defe dcAd|"Am"cAGE "Dm"D4 :|
+[V:2] D,2[A2F2D2]F,,2[A2F2D2]|A,,2[E2C2A2]E,,2[E2C2A2]|D,2[A2F2D2]F,,2[A2F2D2]|\
+A,,2[E2C2A2][A,4F4D,4]:|
+%
+[V:1] "F"a3 g f3 e|"Dm"dedc Adde|"F"f2 ed "C"cAGc|"Am"Acde "Dm"fdde|
+[V:2] F,2[A2C2F2]C,2[A2C2F2]|D,2[A2F2D2]A,,2[A2F2D2]|F,2[A2C2F2]C,2[E2G2C2]|\
+A,,2[E2C2A2]D,2[A2F2D2]|
+%
+[V:1] "F"af (3fef "C"ge (3ede|"Dm"dedc Adde|"F"f2 ed "C"cAGc|"Am"cAGE "Dm"ED D2 :|
+[V:2] F,2[A2C2F2]C,2[E2G2C2]|D,2[A2F2D2]A,,2[A2F2D2]|F,2[A2C2F2]C,2[E2G2C2]|\
+A,,2[E2C2A2][A,4F4D,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86902
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

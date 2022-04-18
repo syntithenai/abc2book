@@ -1,0 +1,24 @@
+X:735
+T: Pride of Glennanair HP
+S: "Roche Collection of Traditional Irish Music" [II/12/215]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+AG | FAGF EGFE | DFED CECA, | DCDE FEFG | AdcB A2 FG |
+(3ABA (3GFG (3ABA (3GFG|(3ABA (3GFG FDEC | DEFG AdcB | AGEC D2 :|
+(3ABc | d2 dd dfed | gfed edcA | dcde fefg | abc'b a2 fg |
+(3aba (3gfg (3aba (3gfg|(3aba (3gfg fdec | defg ad'c'b|agec d2 :|
+S:https://www.folktunefinder.com/tunes/93410
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

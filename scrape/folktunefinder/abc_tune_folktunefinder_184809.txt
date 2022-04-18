@@ -1,0 +1,85 @@
+X:1
+%
+%%indent 2cm
+%
+T:Recercada Segunda sobre Tenore
+C:Diego Ortiz, 1553
+C:Lute part by C. Dalitz
+B:Tratado de glosas ... de violones 1553
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:3/2
+K:GLydian
+%
+V:F clef=treble    name=Flauto
+V:L clef=frenchtab name=Liuto
+%
+[V:F] g2 b>c' d' b | c' c e>f g e | d g b>c' d' b | a d ^f>g a ^f |
+[V:L] [aac,,a4] [a,,,,a2] | [,cdca4] [,c,,a2] | [aac,,a4] [a,,,,a2] | [,ea,c3] ,e1 [,e,,c2] |
+% bar 5
+[V:F] g g b>c' d' b | c' f a>b c' a | b g'2 e' ^f' d'-| \
+    d'/c'/b/a/ g d'>c'b/a/ ||
+[V:L] [aac,,a3] a1 [a,,c2] | [cdda3] c1 [c,,a2] | \
+    [aacc2] [ac,,a] [,aa,c1] ,e | [aac,,a4] ,,,c2 ||
+%bar 9
+[V:F] b/a/g/f/ g d'2 b | c' g>fe/d/ c c' | b g b>c' d' b | a d ^f>g a f |
+[V:L] [aac,,a3] a1 [a,,,,a] a | [,cd,a3] ,c1 [,c,,a] ,c | \
+    [aac,,a3] a1 [a,,,,a] a | [,ea,c3] ,e1 [,e,,c2] |
+% bar 13
+[V:F] g g b>c' d' b | c' a c'/b/a/g/ a/b/c'/a/ | \
+    b/a/g/f/ g c'/b/a/g/ a | g d>cB/A/ G d ||
+[V:L] [aac,,a3] a1 [a,,c] a | [cdda3] c1 [c,,a2] | \
+    [aa,c2] ,,,,a1 [ac] ,,,,c [,ea] | [aac,,a4] ,,,c2 ||
+% bar 17
+[V:F] B G B>c d2 | z g e c e>f | \
+    g d B G/A/ B/c/d/e/ | ^f/g/ a>g^f/e/ f d'-|
+[V:L] [aac,,a2] ,,,c1 ,,c ,a a | [,cd,a2] ,,,c1 ,,d ,c a | \
+     [aac,,a2] ,,,c1 ,,c ,a a | [,ea,c2] ,,,,c1 ,,a ,a ,e|
+% bar 21
+[V:F] d'/c'/b/a/ b d'>c b | a c'>ba/g/ a/b/c'/a/ | \
+    b/a/g/f/ e/f/g/e/ f d-|
+[V:L] [aac,,a2] ,,,c1 ,,c [aa2] | [cdda2] ,,,a1 ,,d [cd2] | \
+    [aa,c2] [ac,,a] [,ea,c] |
+% bar 24
+[V:F] d/d/ d B G z d'-|| d'/d'/ d' b g z g-| \
+    g/g/ g e c z c' | b>ab/c'/ d' b g |
+[V:L] [aac,,a2] ,,,c [,ac,,a] || [aac,,a3] [aac,,a1] [aac,,a] [aac,,a] | \
+    [,cdca3] [,cd,a1] [,cd,a] [,cd,a] | [aac,,a3] [aac,,a1] [aac,,a] [aac,,a] |
+% bar 28
+[V:F] ^f>ef/g/ a ^f d' | b>ab/c'/ d' b b | \
+    a>ga/b/ c' a c' | b g>fg/e/ f d |
+[V:L] [,ea,c3] [,ea,c1] [,ea,c2] | [aac,,a2] ,,,c1 ,,c ,a a | \
+    [cdda2] ,,,a1 ,,d ,d c | [a,,c1] ,a [,c,,a] a ,,,,c ,e |
+% bar 32
+[V:F] B G/A/B/c/ d G d' || b g/a/ b/c'/d'/c'/ b/a/g/f/ | \
+    e/d/e/f/ g/a/ g>f e |
+[V:L] [aac,,a4] ,,,c2 || [aac,,a2] ,,,c [aac,,a] | [,cd,a2] ,,,c [,cd,a] |
+% bar 35
+[V:F] d g2 b2 d'-| d' a2 ^f2 d'-| d' b2 d'>c' b | a c2 a2 c |
+[V:L] [aac,,a2] ,,,c [aac,,a] | [,ea,c2] ,,,,c1 ,e [,ea,c2] | \
+    [aac,,a2] ,,,c1 a [aa,c2] | [cdda2] ,,,a1 c [cdda2] |
+% bar 39
+[V:F] b/a/g/f/ e/d/ e d a | d'>c'b/a/ b g G || d>cB/A/ B G g- | \
+    g/f/e/d/ e c z c' |
+[V:L] [aa,c2] [ac,,a] ,,,,c1 [,ea] | [aac,,a4] ,,,c2 || \
+    [aac,,a3] a1 [aac,,a] a | [,cdca3] ,c1 [,cd,a] ,c |
+% bar 43
+[V:F] b g/a/ b/c'/d'/c'/ b/a/b/g/ | a/^f/f/g/ a/g/^f/e/ d/B/c/d/ | \
+    G/d'/b/c'/ d'/c'/b/a/ g/a/b/g/ |
+[V:L] [aac,,a3] a1 [aac,,a] a | [,ea,c3] ,e1 [,ea,c2] | \
+    [aac,,a2] ,,,c1 a [a,,c] a |
+% bar 46
+[V:F] a/c'/a/b/ c'/b/a/g/ a/b/c'/a/ | b/a/g/g/ e/f/g/e/ f/e/d/c/ | \
+    d/c/B/A/ G4 |]
+[V:L] [cdda2] ,,,a1 c [c,,a] c | [aacc2] [ac,,a] [,ea,c] | [aac,,a6] |]
+S:https://www.folktunefinder.com/tunes/184809
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Ortiz/Recercada2.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Ortiz/Recercada2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

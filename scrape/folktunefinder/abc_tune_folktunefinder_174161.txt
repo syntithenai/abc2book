@@ -1,0 +1,24 @@
+X: 1
+T:A man's a man for a' that
+R:Reel
+O:Scotland
+M:2/4
+L:1/8
+K:EMix
+F|\
+A>B AE | FA Bd | c>B AE | F2FE |\
+A>B AE | FA Bd | c>B AF | E2E ||*
+d |\
+c>d ec | dc Bd | c>d eA | F2 Fd | \
+c>d ec | fB Bd | c>B AF | E2 E ||**
+S:https://www.folktunefinder.com/tunes/174161
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/mans_a_man_for_a_that_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

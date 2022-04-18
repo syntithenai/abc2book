@@ -1,0 +1,30 @@
+X: 1
+T: Quarter Brawle
+O: England
+S: printed MS of unknown origin
+M: C
+L: 1/8
+K: A
+"A"\
+|: c2 cB AG AB | c2 ed c2 B2 \
+|  c2 cB AG AB | c2 ed B4 \
+"B"\
+:: cd ef ed cB |
+| c2 A2 A2 c2 | d2 c2 B4 \
+"C"\
+:: cd e2 cd e2 | cd ef d2 c2 \
+|  f3  e d2 c2 | f3  e d2 c2 |
+|  cd ec dc BA | GA BG A2 ed \
+|  c2 BA B2 ed | c2 B2 A2 ed \
+|  c2 BA B2 ed | c2 B2 A2 :|
+S:https://www.folktunefinder.com/tunes/184218
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/QuarterBrawle_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

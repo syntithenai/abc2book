@@ -1,0 +1,25 @@
+X:475
+T:Friar's Oak
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e31.html
+%%ID:00000e31
+K:G
+g2d BGB | c2A FDF | GBd Gce | ABG FED | \
+g2d BGB | c2A FDF | GBd Gce | def g3 ::
+AFD BGD | cAF dBG | ecA dBG | ABG FED | \
+FAc GBd | Ace dfg | ecA dBG | cAF G3 ::
+%page:55
+S:https://www.folktunefinder.com/tunes/95726
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:590
+T:Saturday Night
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ee3.html
+%%ID:00000ee3
+K:F
+c2(AB) c2fe | dBdg fedc | fgag d2ga | bgaf fedc |
+c2AB c2fe | dBdg fedc | fgaf dbag | fage f4 ::
+fagf gedc | gabg afcA | BdgB AcfA | GABc BAGF |
+fagf gedc | gabg agfe | face dbag | gfge f4 ::
+%%newpage
+%page 36
+S:https://www.folktunefinder.com/tunes/88275
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

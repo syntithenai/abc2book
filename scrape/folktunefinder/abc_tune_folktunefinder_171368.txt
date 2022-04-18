@@ -1,0 +1,26 @@
+X: 1
+T: Lark's March, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+B |: AFE F2 E | DED D2 B | AFE F2 E | DFA B2 d |
+ AFE F2 E | DED D2 f | gfe fdB | AFA B3 :|
+ ABd fdB | ABA AFG | A2 d fdB | AFA B2 d |
+ ABd fdB | ABA Aef | gfe fdB | AFA B3 :|
+ Add fdd | edd fdB | Add fdB | AFA B2 A |
+ Add fdB | ABA Aef | gfe fdB | AFA B2 d :|
+ DFA dAF | DFA BGE | DFA dAF | DFA B2 A |
+ DFA d2 A | ded def | gfe fdB | AFA B3 :|
+ d3 def | AFF FED | ded def | AFA B2 A |
+ d3 def | ded def | gfe fdB |1 AFA B2 A :|2 AFA B3 ||
+S:https://www.folktunefinder.com/tunes/171368
+S:http://www.thesession.org/tunes/display/5867
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

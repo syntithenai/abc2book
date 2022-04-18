@@ -1,0 +1,38 @@
+X:160
+T: Cousins (The) (with piano acc.)
+C: BB
+M: 4/4
+L: 1/8
+Q: 1/8=350
+R: reel
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: A
+[V:1] "A"EA (3ABA cBAc|"F#m"efec "Bm"BcAF|"A"EFAB "F#m"cdef|"A"ecAc "E"B2 AF|
+[V:2] A,,2[A2E2C2]E,2[A2E2C2]|F,,2[F2C2A2]B,,2[B2D2F2]|A,,2[A2E2C2]F,,2[F2C2A2]|\
+A,2[A2E2C2]E,2[B2E2G2]|
+%
+[V:1] "A"EA (3ABA cBAc|"A"eafe "F#m"cBAF|"E"EB (3BAB "A"Aece|"E7"dBGE "A"A4 :|
+[V:2] A,,2[A2E2C2]E,2[A2E2C2]|A,,2[A2E2C2]F,,2[F2C2A2]|E,2[B2E2G2]A,,2[A2E2C2]|\
+[E,4B,4G,4D4][A,4C4E4]:|
+%
+[V:1] "A"eaag abag|"F#m"fcce fcBc|"A"ec (3cBc "F#m"faec|"D"dcBA "E"B2 cd|
+[V:2] A,,2[A2E2C2]E,2[A2E2C2]|F,,2[F2C2A2]C,2[F2C2A2]|A,,2[A2E2C2]F,,2[F2C2A2]|\
+D,2[D2A2F2]E,,2[B2E2G2]|
+%
+[V:1] "A"eaag abag|"F#m"fcce fcBc|"A"Acec "D"fgaf|"E7"edBG "A"A4 :|
+[V:2] A,,2[A2E2C2]E,2[A2E2C2]|F,,2[F2C2A2]C,2[F2C2A2]|A,,2[A2E2C2]D,2[D2A2F2]|
+[E,,4B,4G,4D4]A,,4:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

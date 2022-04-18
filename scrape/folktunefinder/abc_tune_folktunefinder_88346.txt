@@ -1,0 +1,27 @@
+X:945
+T:Sweet Susan  A Song Tune
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:"May the 9th 1835"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001100.html
+%%ID:00001100
+K:D
+A2 | \
+FD A3F | (GA) (Be) (dc) | (BA) (Bd) (ce) | (df) d2 c2 | d4 ::
+d2 | \
+ed (e>fge) | cA (d>efd) | BB G2 FE | FA D3 A  | \
+F>D A3 F   | GA  Bd dc  | BA Bd ce | df d2 c2 | d4 ::
+S:https://www.folktunefinder.com/tunes/88346
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

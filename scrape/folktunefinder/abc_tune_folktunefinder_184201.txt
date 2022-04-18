@@ -1,0 +1,57 @@
+X:4
+T:Que tes oeuvres sont belles - A219-1
+C:J. Berthier
+M:3/4
+L:1/4
+%%staves 1 {(2 3) 4}
+K:D
+V:1
+zFF|AAF|D3|A,3|zB,C|DEF|E3|A,3|
+w:Que tes|oeu-vres sont|bel-|les|Que tes|oeu-vres sont|gran-|des|
+V:2
+[F,3A,3D3]|[A,3D3F3]|[D3F3A3]|[A,3D3F3]|[B,3D3G3]|[A,3D3F3]|[A,3C3E3]-|[A,3C3E3]|
+V:3
+x3|x3|x3|x3|x3|x3|x3|x3|
+V:4
+D,,3|D,3|D,,3|D,3|G,,3|D,,2D,|A,,3|A,,3|
+%
+V:1
+DD2|FF2||[1zAA|GGF|E3:|[2zAA|GFE|D3|]
+w:Sei-gneur,|Sei-gneur,|Tu nous|com-bles de|joie!|Tu nous|com-bles de|joie!|
+V:2
+[F,3A,3D3]|[B,3D3F3]|[1[A,3D3A3]|[E2G2][DF]|E3:|[2[A,3D3A3]|[EG][DF]E|[F,3A,3D3]|]
+V:3
+x3|x3|x3|B,3|CB,C|x3|B,2C|x3|
+V:4
+D,3|B,,3|F,,3|G,,3|A,,B,,A,,|F,,3|G,,2A,,|D,,3|
+%
+M:6/4
+L:1/8
+V:1
+F|:F3F FFGA|B4|EEEE E2FG|A2A D|
+w:C'est|Toi le Dieu qui nous as|fait,|qui nous a p-tris de la|ter-re! Tout|
+V:2
+z|:[B,8-^D8]|[B,4E4]|[A,8-C8]|[A,4D4]|
+V:3
+x|:x8|x4|x8|x4|
+V:4
+z|:[B,,8F,8]|[G,,4E,4]|[A,,8E,8]|[F,,4D,4]|
+%
+V:1
+DDDD D2EF|G4|CCCC C2B,C|D2FF:|
+w:homme est une his-toi-re sa-|cre|L'homme est  l'i-ma-ge de|Dieu! Ton a-|
+V:2
+[F,8B,8-]|[G,4B,4]|[A,8C8]|[F,4D4]:|
+V:3
+x8|x4|x8|x4|
+V:4
+[B,,8D,8]|[E,,4E,4-]|[A,,8E,8]|[D,,4D,4]|
+S:https://www.folktunefinder.com/tunes/184201
+S:http://moinejf.free.fr/messe/messeQ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

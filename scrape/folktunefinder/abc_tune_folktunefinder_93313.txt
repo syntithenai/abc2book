@@ -1,0 +1,27 @@
+X:250
+T: Paddy Corley's
+S: Luke O'Malley Volume 1
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: Dm
+ADDF (3EFG cG|ADDF EC C2|ADDF (3EFG cG|\
+(3ABc Gc Ad d2|
+ADDF (3EFG cG|ADDF ECCG|ADDF (3EFG cG|\
+(3A=Bc GE D2 (3GAB ||
+c2 gc acgc|c2 gc Ad^cd|c2 gc acgG|\
+(3A=Bc GE D2 (3GAB|
+c2 gc Gcgc|Gcgc Ad d2|(3EFG A=B c2 Gc|\
+(3A=Bc GE D2 ||
+S:https://www.folktunefinder.com/tunes/93313
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

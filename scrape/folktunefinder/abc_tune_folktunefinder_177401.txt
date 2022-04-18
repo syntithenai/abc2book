@@ -1,0 +1,23 @@
+X:49
+%%topmargin 3cm
+T:Mrs. Chisholm
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A
+c | A<A{/d}c>A BFFB | A<A{/d}c>A eA{/d}cA | d>B{/d}c>A TB>AF>B | A>FE>C A,2A, :|
+(f/2g/2) | {/g}a>eTf>c B>A F^f/2g/2 | {/g}a>ef>c ea {/f}ed/2c/2 | {/c}d>B{/d}c>A B>A^F>B | A>FE>C A,2 A,f/2g/2 |
+{/g}a>ef>c B>A F^f/2g/2 | {/g}a>ef>c Aa {/f}e/2d/2c | {/c}d<f c<a (B>A) F>B | A>FE>C A,2A, |]
+S:https://www.folktunefinder.com/tunes/177401
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Mrs_Chisholm.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

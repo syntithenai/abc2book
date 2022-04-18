@@ -1,0 +1,30 @@
+X:119
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lord MacDonald's Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+[d2g2] | DGBG dGBG| cGBG AGEG "(A"| DGAG BGAG "A)"| DEDC ((3B,CB,) G,2 |
+DGBG dGBG "(B"| Jc2 bc AGEG "B)"| ~c3 A GAGE | DEGA BG G2 ||
+Bd (3.d.d.d dBgB | defg aged "(C"| Bd (3.d.d.d dBgB | ABcA BGG>B "C)"|
+Bd (3.d.d.d dBgB | defg aged "(D"| Bd (3.d.d.d d2 ge | dcAc BGG2 "D)"||
+dgbg Jagbg | dgbg Jageg | dgbg Jagbg | dedc BGGB |
+dg ((3gab) Jagbg | dgbg Jageg | ((3bag) Jaf JgedB | dega bg g2 |]
+xx "(A"|| DGPG2 BG PG2 "A)"|| x "(B"|| ((3cdc) ((3BcB) AGEG "B)"|| xx
+xx "(C"|| Bd ((3edc) dBGB | dedc BG G2 "C)"|| x "(D"|| Bd ((3edB) ~g3 e| dcAc BG G2 "D)"|| xx
+S:https://www.folktunefinder.com/tunes/94715
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lord_MacDonalds_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lord_MacDonalds_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

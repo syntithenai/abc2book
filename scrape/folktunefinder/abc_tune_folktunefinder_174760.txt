@@ -1,0 +1,67 @@
+X:1765
+T:Matrosenlied
+T:Sailor's song, Op. 68 no.1
+C:Edvard Grieg
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/grieg-edvard/grieg-op68-1/grieg-op68-1-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 %Piano
+V:3 Program 1 0 %Piano
+V:4 Program 1 0 %Piano
+V:5 Program 1 0 %Piano
+M:C|
+L:1/4
+K:C
+V:1 
+G2A2|G2-Gc|BAGF/E/|DCD2| 
+B2c2|B2-Bc|BAdc/B/|AGG2| 
+D2F2|D4|D/C/B,/C/DD|F2Dz| 
+F2A2F4|F/E/D/E/FF|A2cz| 
+B2d2|B4|BBdd|B4| 
+BBdd|BBdd|BdBd|BdBd| 
+G2A2|G2-Gc|BAGF/E/|BCC2| 
+V:2 
+E2E2|E2-EF|FFCC|B,A,B,2| 
+G2 G2|G2-GG|^FFGG|^FDD2| 
+B,2C2|B,4B,/A,/G,/A,/B,B,|C2B,z| 
+C2E2|C4|C2CC|E2Az| 
+G2A2|G4|GGAA|G4 
+GGAA|GGAA|GAGA|GAGA| 
+E2E2|E2-EE|^D2E[A,C]|B,C,G,2| 
+V:3 
+z4|C2-CC|CCG,A,|zG,G,2| 
+z4|E2-EE|DDDE|zB,B,2| 
+z4|z4|z4|z4| 
+z4|A,4|z4|C2Ez| 
+D2F2|D4|DDFF|D4| 
+DDFF|DDFF|DFDF|DFDF| 
+[C2G,2][C2A,2]|[C2-G,2-][CG,]C|B,A,[CG,]F,/E,/|[D,G,]z[C,2E,2]| 
+V:4 
+C2C2|zG,CA,|G,F,E,F,|G,D,2G,,| 
+E2E2|zB,EA,|DCB,C|DG,D,G,,| 
+G,2A,2z|D,G,G,,|G,2-G,G,|A,2G,z| 
+A,2C2|zD,G,G,,|A,2A,A,|F,2^F,z| 
+G,2D2|zD,G,G,,|zG,DD,|zD,G,G,,| 
+zG,DD,|zG,DD,|zG,DG,|D,G,D,G,,|C,D,E,D,|C,B,,A,,G,,|^F,,=F,,E,,F,,|G,,C,,G,,2| 
+V:5 
+z2A2|zG,CA,|G,F,E,F,|G,D,2G,,| 
+z2c2|zB,EA,|DCB,C|DG,D,G,,| 
+z2D2|z4|z4|D2z2| 
+D2F2|z4|D/E/F/E/DD|z4| 
+z4|z4|z4|z4| 
+z4|z4|z4|zG,D,G,,|C,D,E,D,|C,B,,A,,G,,|^F,,=F,,E,,F,,|G,,C,,C,2|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/174760
+S:http://abc.musicaviva.com/tunes/grieg-edvard/grieg-op68-1/grieg-op68-1-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/grieg-edvard/grieg-op68-1/grieg-op68-1-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/grieg-edvard/grieg-op68-1/grieg-op68-1-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

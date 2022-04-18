@@ -1,0 +1,29 @@
+X:805
+T:Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%RRN:"A good tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001079.html
+%%ID:00001079
+K:Bb
+FE |  \
+(DF)BFdB | fdbfdf | fedcBA | cBdBFE | \
+(DF)BFdB | fdbfdf | fedcBA | B4 ::
+AB | \
+cAFAcf | cAFAcf | =efgabg | fafd AB | \
+cAFAcf | cAFAcf | =efgabg | f4 ::
+de | \
+g4 fd | ABc de=e | fgfede | fdBdgb | {^f}g4 ec | ABcdeA | B4 ::
+S:https://www.folktunefinder.com/tunes/88318
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:10285
+T:Marcha Celta (Arrg. D)
+R:marcha
+Z:Mtodu de Gaita
+P:ABA
+M:2/4
+L:1/8
+Q:1/4=120
+K:D
+P:A
+|"D"D2 E2|"D"F3 E/2F/2|"A7"GF/2G/2 A/2G/2F/2G/2|"A7"E4|
+"A7"C2 D2|"A7"E3 D/2E/2|"D"FE/2F/2 G/2F/2E/2F/2|"D"D4:|
+|:"Bm"BA GF|"A7"EE/2F/2 E/2D/2E/2F/2|"A7"EE/2F/2 E/2D/2E/2F/2|"A7"E3 F/2G/2|
+"A7"ABGA|"D"F3 F/2G/2|"A7"AB GA|"D"F3/2F/2 F/2E/2F/2G/2|
+"A7"E3/2E/2E/2D/2E/2F/2|"D"D4:|
+P:B
+"F#m"F2 G2|"A7"A3 G/2A/2|"Bm"BA/2B/2 c/2B/2A/2B/2|"G"G4|
+"A7"E2 F2|"G"G3 F/2G/2|"A7"AG/2A/2 B/2A/2G/2A/2|"F#m"F4:|
+|:"A7"(dc)(BA)|GG/2A/2 "A7"G/2F/2G/2A/2|"A7"GG/2A/2 G/2F/2G/2A/2|"G"G3 A/2B/2|
+(cd)(Bc)|"A"A3 A/2B/2|(cd)(Bc)|A3/2A/2"A7"A/2G/2A/2B/2|
+"A7"G3/2G/2 G/2F/2G/2A/2|"F#m"F4:|
+S:https://www.folktunefinder.com/tunes/98067
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

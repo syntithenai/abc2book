@@ -1,0 +1,40 @@
+X:19020
+T:Xiraldilla (CT 240) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu
+O:Uviu
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 240
+M:2/4
+L:1/8
+Q:1/4=160
+W:Por qu lloras, dama hermosa
+W:Por qu tengo de llorar!
+W:Toc la suerte a mi amante
+W:y sola me va a dejar.
+W:Solita y sola
+W:voy a quedar,
+W:solita y sola
+W:para llorar.
+K:Gm
+|"Gm"G2 B2|"Gm"d3 B|"Gm"G2 B2|"Cm"c3 A|"D"^F2 A2|"Gm"B3 G|"D"^F2 G2|"Gm"G4|
+ "Gm"G2 B2|"Gm"d3 B|"Gm"G2 B2|"F"c3 A|"D"^F2 A2|"Gm"B3 G|"D"^F2 G2|"Gm"G2 z ^F|
+"D"^F2 A2|"Gm"B2 AG|"D"^F2 G2|"Gm"G2 z ^F|"D"^F2 A2|"Gm"B2 AG|"D"^F2 G2|"Gm"G4||
+S:https://www.folktunefinder.com/tunes/94311
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

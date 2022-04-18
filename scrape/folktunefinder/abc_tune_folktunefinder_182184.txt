@@ -1,0 +1,28 @@
+X:84
+T:Pete's March
+C:McQuillen
+M:4/4
+L:1/8
+%% Q:1/2=112
+K:D 
+ A,2 B,2  \
+|| "D"D4 D3F | "G"E2D2 "D"D3E | F2A2 A2d2 |  "G"B2 A4 "A"e2 |
+ | "D"f3e d2f2 | "G"e3d B2d2 | "D"A3B A2F2 | "A"F2E2 A,2"Bm"B,2 |
+| "D"D4 D3F | "G"E2D2 "D"D3E | F2A2 A2d2 |  "G"B2 A4 "A"e2 |
+ | "D"f3e d2f2 | "G"e2d2 B2d2 | "D"A2F2 "A"E2FE | "D"D4 d2e2 |
+|| "D"f4 "A"f3g | "G"f2e2 "D"d3f | "G"e2d2 B2d2 | "A"B2A2 F2E2 |
+ | "D"D2F2 A2d2 | f2a2 "G"g2f2 | "E"e2d2 g2f2 | "A"z2 f4 e2 |
+ | "D"f4 "A"f3g | "G"f2e2 "D"d3f | "G"e2d2 B2d2 | "A"B2A2 F2E2 |
+ | "D"D2F2 A3d | d2B2 A3g | "A"f2e2 d2c2 | "D"d4 z4 ||
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/182184
+S:http://users.rcn.com/ladysmyth/tunes/PetesMarch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

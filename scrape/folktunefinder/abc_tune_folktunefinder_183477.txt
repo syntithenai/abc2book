@@ -1,0 +1,38 @@
+X:1
+T:Polsterltanz
+C:Franz Androschin
+A:Bad Ischl, Salzkammergut
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Pfeifermusik aus Bad Ischl", Lois Blamberger, 3. Auflage, Bad Ischl 1990
+S:dort Nr. 9 mit der Angabe:von Franz Androschin, Sammlung R.Zoder
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+V:1
+(db) |\
+a2(da) | g2d/e/f/g/ | .f.f .e.e | d2(db) |
+a2(da) | g2.d/.e/.f/.g/ | .f.f.e.f | g2 ||
+M:3/4
+z2 || dg |\
+(b4 | b)za3g | gzf3c | (f6 |
+f)ze3c | (e6 | e)zd3B | d4dg |
+(b4 | b)za3g | d'zc'3e |a6 |
+gzf3e | dzb3a | g2ggg2 | g2z |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183477
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/polsterltanz.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

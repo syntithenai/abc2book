@@ -1,0 +1,31 @@
+X: 70
+T:Untitled. TBe.070
+M:3/2
+L:1/4
+Q:240
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:See general note re accidentals Natural is bar 7 shown as sharp..c
+N:sharp in bar 8 is shown as a crotchet, this is my intervention..cgp...
+H:1718
+Z:C. Graeb
+K:G minor
+D | GAB cde | dcB A2 G | dBGdBG | gfg AG^F |!
+ GABcde | dcBA2G |gf=ef>gA | d"cr in ms"^c2d4 ||!
+ d2 ef>gf | f>gff2A | B>cdefd | c3B3 |!
+ bfdBdf | bfdBcd | cdedcB | A3G3 ||
+S:https://www.folktunefinder.com/tunes/96221
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

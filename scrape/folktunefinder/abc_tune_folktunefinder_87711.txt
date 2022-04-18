@@ -1,0 +1,36 @@
+X: 210
+T: Take five
+C: Paul Desmond
+M: 5/4
+L: 1/8
+K: Ebm
+P: A
+B,EGA || "Ebm"=ABA_AG2 "Bbm7"B,2D2 | "Ebm"E6 "Bbm7"(F/G/F/E/D2) | "Ebm"E6 "Bbm7"(D/E/D/B,/A,2) | "Ebm"B,6 "Bbm7"B,EGA |
+"Ebm"=ABA_AG2 "Bbm7"B,2D2 | "Ebm"E6 "Bbm7"(D/E/D/B,/A,2) | "Ebm"B,6 "Bbm7"(F/G/F/E/D2)  | "Ebm"E6- "Bbm7"E2z2 ||
+P: B
+"Cbmaj7"eg2ec2 "(Abm6)""Db7"ABc=c | "Bbm7"de2dB2 "Ebm7"GA=AB | "Abm7"ce2cA2 "Db7"FGA=A | "Gbmaj7"B=ABc d2 d=cd=d |
+"Cbmaj7"eg2ec2 "(Abm6)""Db7"ABc=c | "Bbm7"de2dB2 "Ebm7"GA=AB | "(Abm7""Abm7"ce2cA2 "-/Gb)""Db7"FAdc | "Fm7b5"B6 "Bbm7"z2GA ||
+P: A
+"Ebm"=ABA_AG2 "Bbm7"B,2D2 | "Ebm"E6 "Bbm7"(F/G/F/E/D2) | "Ebm"E6 "Bbm7"(D/E/D/B,/A,2) | "Ebm"B,6 "Bbm7"B,EGA |
+%%multicol start
+%%multicol new
+%%leftmargin 15cm
+%%text After solos play D.C. al coda
+%%multicol end
+"Ebm"=ABA_AG2 "Bbm7"B,2D2 !coda!| "Ebm"E6 "Bbm7"(F/G/F/E/D2)  | "Ebm"E6 "Bbm7"(D/E/D/B,/A,2)  | "Ebm"B,6 "Bbm7"z4 |]
+P: coda
+"Ebm"!coda!E6 "Bbm7"(D/E/D/B,/A,2)  | "Ebm"B,6 "Bbm7"(F/G/F/E/D2)  | "Ebm"E6- "Bbm7"E4  | "Ebm"z6 "Bbm7"(D/E/D/B,/A,2) |
+"Ebm"B,6-"Bbm7"B,4 | "Ebm"z6 "Bbm7"(D/E/D/B,/A,2) |"Ebm"B,6-"Bbm7"B,4 | "Ebm"z6 "Bbm7"(F/G/F/E/D2) |
+"Ebm"E6-"Bbm7"E2- | "Ebm"E6-"Bbm7"E2- | "Ebm"E6-"Bbm7"E2- | "Ebm"E2z2z2 z4 ||
+S:https://www.folktunefinder.com/tunes/87711
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D-sharp
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

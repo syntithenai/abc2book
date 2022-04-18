@@ -1,0 +1,30 @@
+X:133
+U: ~ = !turn!
+%%topmargin 3cm
+T:Mot Malloy
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+F3E FEDE | FAAB AFEd | cdeg fedc | dBAF BEEG |
+F2 (3.F.F.E FEDE | FA (3.A.A.B AFEd | cdeg fedc | dBAG FD D2 ::
+(3.d.d.d AG FAFA | dfaf gfeg | ((3faf) df e2 ce | dfed cAAc |
+BDGB A2 FA | dfaf gfeg | fedc dBAF | GBAG FD D2 :|]
+S:https://www.folktunefinder.com/tunes/94729
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Mot_Malloy_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Mot_Malloy_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,44 @@
+X:6
+T: Yang-Guan San Tie (Abschied der Freunde am Yang-Guan
+N: C0001
+O: China
+N: Transkription nach Reinhard. Muss noch verbessert werden!!!! 
+N: Die Notation sollte im Baschlssel erfolgen.
+R: Kunstmusik fr Guqin
+M: 2/4
+L: 1/8
+K: A
+ | A,3B, | D2E2 | E4
+B,3D | F3E | D2E2 | E4
+A2Bd | A4 | F2AB | F2FE | D2EF | A,4
+D3B, | B,2B,2 | A,2B,2 | B,4
+B,3D | F3E | D2E2 | E4
+E3D | B,2D2 | D4
+B,2B2- | B4 | B,2B2- | B4
+B3A | B2AB | F4 | F4
+E3D | B,2D2 | D4 | D4
+F4- | F2D2 | E4
+F4- | F2D2 | E4
+F4 | D2E2
+B,4 | A,2B,2- | B,4 | B,4 | A,2B,2- | B,4
+B3d | e2d2 | f2e2 | e4
+a2bd | a4 | f2ab | f3e | D2E2 | e4
+F2d2 | efd2 | B2de | B3A | A,2AB | A,4
+d3e | f2a2 | af2e | D2E2 | e4
+E3D | B,2D2 | D4
+B,2B2- | B4 | B,2B2- | B4
+B3A | B2AB | F4 | F4
+A4 | B2d2 | B4 | A2D2 | BdB2 | A2F2 | F3E | D4 | D4
+F2F2 | F2E2 | E2E2
+D2D2 | B,2B,2 | D2D2 | E2E2 | F2F2 | A4
+F3E | E2E2 | F2E2 | FEFE | E4- | E4
+S:https://www.folktunefinder.com/tunes/97555
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Kunstmusik fr guqin
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

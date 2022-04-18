@@ -1,0 +1,22 @@
+X: 1
+T:Polska
+R:Polska
+O:Sweden
+M:3/4
+C:e. Kalle Alml\"of 
+A:Dalarna
+K:D
+A>c A2 cd | e>f gf ec | A>c A2 cd | e<f d4 ::\
+de f>e fg | a>b a^g ae |
+f2 fd ef | (3gag (3fdf e>c  |\
+A>c A2 cd | e<f d4 :|
+S:https://www.folktunefinder.com/tunes/183210
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_13.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

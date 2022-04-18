@@ -1,0 +1,31 @@
+X:505
+T: Mary O'Connor's (with piano acc.)
+C: BB
+R: polka
+M: 2/4
+Q: 260
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] "D"dD Dd | "G"B>c "D"dA |"D"dD Dd | "Bm"A/B/A/F/ "D"ED | "D"dD Dd |\
+"G"B>c "Em"de | "D"fd "A"ec | "D"ed d2 :|
+[V:2] [D,4F4A,4]|[G,,2B,2D,2][D,2F2A,2]|[D4F,4A4]|[B,,2D2F,2][D,2F2A,2]|\
+[D4F,4A4]|[G,,2B,2D,2][E,2G2B,2]|[D,2F2A,2][A,,2C2E,2]|[D,4F4A,4]:|
+%
+[V:1][K: Dm] "Dm"F>A dA | "Am"G>A eA | "Dm"fe dc | "Am"cd "Dm"A2 | "F"a>g fe |\
+"Bb"fe dc | "Am"(3ABc GE | "Dm"D2 D2 :|
+[V:2][K: Dm] [D,4F4A,4]|[A,,4=C4E,4]|[D,4=F4A,4]|[A,,2=C2E,2][D,2=F2A,2]|\
+[=F,4=C4A4]|[_B,,4D4=F,4]|[A,,4=C4E,4G4]|[D,4=F4A,4]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86986
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

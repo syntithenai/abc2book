@@ -1,0 +1,31 @@
+X:2510
+T:Oh I Hae Seen the Roses Blaw
+C:anon.
+O:England
+A:Northumberland
+Z:Transcribed by Jack Campin
+F:http://abc.musicaviva.com/tunes/england/oh-i-hae-seen-the-roses/oh-i-hae-seen-the-roses.abc
+%Posted at abcusers Jan 1st 2001 by Jack Campin during a discussion about global accidentals.
+%This abc is not absolutely "clean". It includes a proposed, but not
+%implemented standard for global accidentals.
+%The low octave f's are to be sharp, the high octave f's natural.
+M:6/8
+L:1/8
+K:G =f ^F  % low F's sharp, high F's natural
+D|G2G B>AB|c2A F2D|G>AG B2c|d2g d2c|B2c d2e|f2d B2G|d>ed cBA|G3 G2:|
+d|g2d B2G |c2A F2D|g2d  B2c|d2g d2c|B2c d2e|f2d B2G|d>ed cBA|G3 G2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/179732
+S:http://abc.musicaviva.com/tunes/england/oh-i-hae-seen-the-roses/oh-i-hae-seen-the-roses.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/oh-i-hae-seen-the-roses/oh-i-hae-seen-the-roses.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

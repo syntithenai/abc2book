@@ -1,0 +1,27 @@
+X: 8
+T: Ships Are Sailing
+I: Ships Are SailingR-115E Dorreel
+M: C|
+R: reel
+%%staffwidth 15cm
+K: EDor
+"Em"Beed BcdB| "D"AD (3FED AD (3FED| "Em"EDEF GFGA| Bdef gfed|
+"Em"Beed BcdB| "D"AD (3FED AD (3FED| "Em"EDEF GFGA |1\
+        "D"Bded "Em"e2ed :|2 "D"Bded "Em"e2 |]
+|:\
+ef | "G"gfga bgeg| "D"fefg afdf| "Em"gfga bgeg| "D"fedf "Em"e2ef|
+     "G"gfga bgeg| "D"fefg afdf| "G"g2ge "D"f2fd |1\
+     "Em"edef gf :|2 "Em"edef gfed |]
+%%text Roaring Jelly  R-115
+S:https://www.folktunefinder.com/tunes/174678
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set28.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set28.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

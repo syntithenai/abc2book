@@ -1,0 +1,28 @@
+X:177
+U: ~ = !turn!
+%%topmargin 3cm
+T:Rose in the Heather
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+A, | F2 F PEDB, | DFA {/c}BAF | ABd ede | gdB AGE |
+FAF EGE | DFA ABd edB AGE | FDC D2 ::
+e | fdB ABd | f2 a {/b}afd | ~g3 fed | B2 e efg |
+fdB ABd | f2 a {/b}afa | baf gfe | [1 f/2e/2dc d2 :| [2 gdB AGE ||
+S:https://www.folktunefinder.com/tunes/94773
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Rose_in_the_Heather_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Rose_in_the_Heather_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

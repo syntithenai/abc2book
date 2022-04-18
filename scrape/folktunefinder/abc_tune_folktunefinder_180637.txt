@@ -1,0 +1,22 @@
+X: 1
+T: Orphan, The
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+~E3 EDE|~G3 AGA|~B3 ABA|GE/F/G EDB|
+A2 E EDE|~G3 AGA|~B3 ABA|GED E3||
+~e3 dBA|GAB dBd|edB AGA|~B3 AGF|
+G2 F EDE|~G3 AGA|~B3 ABA|GED E3||
+I also simplify the A part by getting rid of the &quot;B&quot; to &quot;A&quot; bit going from the 4th to 5th bar. Instead, I just turn the phrase on the G: |GE/F/G EDG|EzE EDE| with the &quot;z&quot; being a good place for a breath (or you can roll.crann the E there).
+S:https://www.folktunefinder.com/tunes/180637
+S:http://www.thesession.org/tunes/display/217
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

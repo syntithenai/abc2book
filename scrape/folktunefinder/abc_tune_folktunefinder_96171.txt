@@ -1,0 +1,28 @@
+X: 20
+T:Minuet. TBe.020
+M:3/4
+L:1/8
+Q:120
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:F major
+c2d4 | c6 | B2 (cB)AG | ABAG F2 | \
+c2f2c2 | AB c2c2 | dcBAGF | E6 ||!
+g2a4 | g6 | f2 (gf)ed | efed c2 | \
+f2 _e4 | d3 c B2 | AB G3 F | F6 ||
+S:https://www.folktunefinder.com/tunes/96171
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

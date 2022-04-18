@@ -1,0 +1,27 @@
+X:1100
+T:Chinese Air
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001150.html
+%%ID:00001150
+K:G
+(DG) (G>A) | (Bc) e>d | (cd/)c/ A>F | F>D D2 | \
+(DG)  G>A  |  Bc  e>d |  cd/c/  A>D | DG G2 ||
+AF/A/ d/d/d/d/ | ^ce/G/ B/B/B/B/ | EG/^C/ E/E/E/E/ | (DF/A/) D2 | \
+AF/A/ d/d/d/d/ | ^ce/G/ B/B/B/B/ | EG/^C/ E/E/E/E/ | D_edc |
+_BG_E=F | D_edc | _BG_E=F | D_ed=c |  \
+_BG_EF | DG_EF | DG_EF | DD ED | DD ED ||
+%%newpage
+%page 92
+S:https://www.folktunefinder.com/tunes/88377
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

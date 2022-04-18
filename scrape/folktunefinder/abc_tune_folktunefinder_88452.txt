@@ -1,0 +1,25 @@
+X:1475
+T:Bavarian Air
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:Some notelengths changed slightly
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001233.html
+%%ID:00001233
+K:F
+F>F A>A c>c | (a2f2) f>f | (g2b2) e>e | f2a2 A>G | \
+F>F A>A c>c | a2f2 f>f | g2b2 e2 | f4 ||
+f>f | \
+e2g2 f>e | (f2a2) f>f | e2g2 f>e | f2b2 A>G |\
+F>F A>A c>c | a2f2 f>f | g2b2 e2 | f6 |]
+S:https://www.folktunefinder.com/tunes/88452
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

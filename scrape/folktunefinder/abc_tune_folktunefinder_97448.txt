@@ -1,0 +1,28 @@
+X: 4
+T:Bold Doherty
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+D:
+Z:
+K:Em
+B|:"Em"EFG ABc|B2E GAB|"C"c2A BcB|"D"AGE EB,E|
+"Em"EFG ABc|B2E GAB|"C"c2A BcB|1 "D"AGE "Em"E2B:|2 "D"AGE "Em"E2A|:
+"Em"B2e edB|"D"dBG ABc|"Em"B2e edB|"D"dBA A2A
+|1 "Em"B2e edB|"D"dBA GAB|c2A BcB|"Em"AGE E2A
+:|2 "G"G2g gfe|dBA GAB|"D"c2A BcB|"Em"AGE E2|]
+S:https://www.folktunefinder.com/tunes/97448
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

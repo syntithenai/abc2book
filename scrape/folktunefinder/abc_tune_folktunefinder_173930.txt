@@ -1,0 +1,27 @@
+X: 1
+T: Mairie's Wedding
+M: 2/4
+L: 1/8
+R: polka
+K: Dmaj
+f &quot;A&quot;\
+|: &quot;D&quot;A>A AB | de f2 | &quot;G&quot;ed Bd | &quot;A7&quot;fe fa \
+|  &quot;D&quot;A>A AB | de f2 | &quot;G&quot;ed BG | &quot;A7&quot;A2 A2 |]
+&quot;B1&quot;\
+[| &quot;D&quot;a>a ab | ag f2 | &quot;G&quot;ed Bd | &quot;A7&quot;fe f<a \
+|  &quot;D&quot;a>a ab | ag f2 | &quot;G&quot;ed BG |1 &quot;A7&quot;A2 A2 :|2 &quot;A&quot;AB/c/ d/e/f/g/ |]
+&quot;B2&quot;\
+[| &quot;D&quot;a>a ab | ag f2 | &quot;G&quot;ed Bd | &quot;A7&quot;fe f<a \
+|  &quot;D&quot;A>A AB | de fg | &quot;G&quot;a>f &quot;A7&quot;fe | &quot;D&quot;d2 z2 |]
+S:https://www.folktunefinder.com/tunes/173930
+S:http://www.thesession.org/tunes/display/706
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

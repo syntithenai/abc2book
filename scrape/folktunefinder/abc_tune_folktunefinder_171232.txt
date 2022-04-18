@@ -1,0 +1,19 @@
+X:1
+T:Lanigan's Ball
+M:6/8
+L:1/8
+K:C
+ A, G,| A,A,B, C2 D| EED E^FG| G,G,G, B,DE| DB,G, G,2 G,| A,A,A, C2 D|\
+ EED E^FG| AEE =FED| EA,A, A,2 A,| A,A,A, CCC| EED E^FG| G,G,G, DDD|\
+ DB,G, G,2 z| A,A,A, CCD| EED E^F G/2G/2| A2 E =FED| EA,A, A,3-| A,3 z2 z|\
+ A2 B c2 B| B2 cB-A G| A2 B cBA| BEE E2 z| A2 B c2 A| B2 cB-A G| AEE E2 D|\
+ EA,A, A,3-| A,3 z2 z| A,2 A, C2 z| E2 E E^FG| G,2 G, B,DE| D2 D DB,G,|\
+ A,2 A, C2 D| E2 E E^FG| AAE E2 D| DA,A, A,3-| A,3 z||
+S:https://www.folktunefinder.com/tunes/171232
+S:http://back.numachi.com:8000/dtrad/abc/LANIBALL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

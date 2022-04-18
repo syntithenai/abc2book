@@ -1,0 +1,20 @@
+X: 1
+T: Philadelphia
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+|:A,B, | CF~F2 {d}BAFA  | ceef ecAc    | B/2B/2B fB {d}cBfB |  B/2B/2B fB {d}cBAE |
+FA{d}cA {d}BAFA | cAef ecAc | B/2B/2B fB {d}cAec | {d}BAGE F2 :|
+|:AB | cf~f2 defa | ec{d}cB A3 B | ceef ecAB | cB{d}BA GBEB |
+cf~f2 defa| ec{d}cB A3 B | ceag fecA | {d}BAGE F2 :||
+S:https://www.folktunefinder.com/tunes/182298
+S:http://www.thesession.org/tunes/display/1983
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

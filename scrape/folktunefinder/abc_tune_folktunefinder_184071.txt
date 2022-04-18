@@ -1,0 +1,58 @@
+X:1
+T:Przeworska
+C:Trad.
+O:Poland
+A:Rzeszw
+S:Susan Worland
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=60
+M:2/4
+L:1/16
+K:Bb
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 2
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+"F"F2FF AFAc |"Bb" B2 z2 B2 \
+%%MIDI gchordoff
+ z2 | z4 |
+%%MIDI gchordon
+Q:1/4=60
+%%printtempo 0
+|: "Bb"((3_b2a2g2) f2d2 | B2BB dBdf | "F"F2FF AFAc | "Bb"B2BB dBdf |
+   "Bb"((3_b2a2g2) f2d2 | B2BB dBdf | "F"F2FF AFAc | "Bb"B2z2 "D"A2z2 |
+P:Accelerando                -                                -                                -                                -                                -
+ [Q:1/4=65] "Gm"G2B2 G2B2 |[Q:1/4=70] "D"A2 D4 D2 |[Q:1/4=80] "Gm"G2B2 G2B2 |[Q:1/4=90] "D"d2z2 d4 |
+P:accel                            -                                -                                -                                -                                -
+ [Q:1/4=100] "Gm"G2B2 G2B2 | "D"A2 D4 D2 |[Q:1/4=110] d2c2 B2A2 | "Gm"G2z2 G2z2 |
+%%printtempo 1
+Q:1/4=120
+ "Gm"(GAB2) (GAB2) | "D"A2D4D2 | "Gm"(GABA) (GABc) | "D"d2z2 ~d2z2 |
+ "Gm"(GAB2) (GAB2) | "D"A2D4D2 | d2 ((3cdc) B2A2 | "Gm"G2z2 [G2g2] \
+%%MIDI gchordoff
+%%printtempo 0
+ z2 | z8 [Q:1/4=60] \
+%%MIDI gchordon
+:|
+W:
+W:
+W:Arrangement Copyright (C) 1999, 2002 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/184071
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Przeworska.abc
+S:http://people.csail.mit.edu/jaffer/Music/Przeworska.abc
+S:http://voluntocracy.org/Music/Przeworska.abc
+S:http://www.voluntocracy.org/Music/Przeworska.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

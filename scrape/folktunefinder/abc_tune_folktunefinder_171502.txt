@@ -1,0 +1,24 @@
+X:17
+T:Last Mile
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+K:C
+|:DC |
+"Dm"A,2 D2 D2 DE |"F"FEFG A2 AB |"C"cBcd cAGF |"Am"E2  C4 DC |
+"Dm"A,2 D2 D2 DE |"F"FEFG A2 Ac |"C"dcA"Am"G FDEC |"Dm"D2  D4 :: Ac
+ |
+"Dm"d2 de dcAc |"Dm"d2 de dcAB |"C"cBAB cBAB |"Am"cBcd e4 |
+"Dm"d2 a2 g2 e2 |"F"fed"C"f edce |"Dm"dcA"Am"G FDEC |"Dm"D2  D4 :|
+S:https://www.folktunefinder.com/tunes/171502
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/LastMile.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

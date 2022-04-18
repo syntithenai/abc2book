@@ -1,0 +1,24 @@
+X:810
+T: Barking Seal (The)
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+K: G
+D |"G"DGB AGB | "Am7"AGB AGE | "G"DGB "D"ABd | "Em"edB "D"A3 |
+"G"DGB AGB | "Am7"AGB AGE | "G"DEG DB,C | "D"DGF "G"G2 :|
+d |"Em"edg edg | "C"edc "G"BAG | "Em"edg "C"edc | "G"BdB "D"A2d |
+"Em"edg edg | "C"edc "G"BAG | "Am"ABc "D7"dcA |"D"AFA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/93661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

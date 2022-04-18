@@ -1,0 +1,32 @@
+X: 56
+T:Air By Mr.Arne,(Melody). BC.51a
+M:C
+L:1/16
+Q:100
+C:Thomas Arne,1710-1778
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:Uncertain, probably northern
+N:Or his son Michael Arne,1740-1786.who was also a composer to theatres
+N:and pleasure gardens.
+Z:vmp.John Bagnall
+K:D
+(a/g/f3) f2f2 f4 d'4 | (g/f/e3) e2e2 e8 |\
+ (f/e/d3) (c/d/e3) d4 b4 | (a/g/f3) (e/d/c3) d8||!
+(f/e/d3) d2d2 a4 d'4 | (c'/b/a3) (^g/a/b3) a6 "tr"=g2|\
+ (f/e/d3) (g/f/e3) a4 d4 | cdef g2f2 e8|!
+ (a/g/f3) f2f2 f4 d'4 | (g/f/e3) e2e2 "tr"e8 |\
+ (f/e/d3) (c/d/e3) d4 b4 |(a/g/f3) (e/d/c3) d8:|]
+S:https://www.folktunefinder.com/tunes/94899
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

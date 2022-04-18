@@ -1,0 +1,25 @@
+X:410
+T:Johnny Macgill
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005bb.html
+%%ID:000005bb
+K:E min
+g | \
+dBB BAG | dBB B2g | dBB BAB | GEE E2g | \
+dBB BAG | dBB BAG | A3 BAB | GEE E2 ::
+f | \
+g3 aga | bge dBG | g3 aga | bge ega | \
+bgb afa | gef g2e | dBB BAB | GEE E2 :|
+S:https://www.folktunefinder.com/tunes/95713
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

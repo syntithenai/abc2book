@@ -1,0 +1,25 @@
+X:0162
+T:"Little Molly-O"         (song)         0162
+C:Unattributed
+C:with expression
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=90
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_vb"d3(e/2d/2) (B/2A/2B/2d/2)|e2(g/2e3/2) (d/2B3/2)|TR(A3G) (B/4A/4G3/2)|G4||
+d  (3(d/2e/2f/2)|g2(gb) (ag)|f2(gf) (ed)|(e3g) (g/2e/2d/2B/2)|"^>"d4-d  (3(d/2e/2f/2)|
+g2(gb) (ag)|f2f2(ed)|"^>"e3(dBd)|"^>"(e4d)  (3d/2e/2f/2|
+(g3/2f/2) (e3d)|e2(g/2e3/2) (d/2B3/2)|TR(A3G) (B/4A/4G3/2)|G4|]
+S:https://www.folktunefinder.com/tunes/172482
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/162-LittleMollyO.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 1
+T: Murphy's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+(3ABc|d2AF d2AF|dcdf ecA2|(3faf df gfed|(3cdc A^G A2 (3ABc|
+d2AF d2AF|dcdf ecA2|(3faf df gfec|df (3edc d2 (3ABc|
+d2AF d2AF|dcdf ecA2|(3faf df gfed|(3cdc A^G A2 (3ABc|
+d2AF d2AF|dcdf ecA2|(3faf df gfec|df (3edc d2 fg||
+afdg faga|bged cdeg|fa (3aaa bged|(3cdc A^G A2 fg|
+afdg faga|bged cdeg|fa (3aaa bgec|df (3edc d2 fg|
+afdg faga|bged cdeg|fa (3aaa bgec|(3cdc A^G A2 (3ABc|
+d2AF d2AF|dcdf ecA2|(3faf df gfec|df (3edc d2AG||
+(3FGF D2 (3faf ec|dcdf ecAG|(3FGF D2 (3faf ec|df (3edc d2 AG|
+(3FGF D2 (3faf ec|dcdf ecA2|(3faf df gfec|df (3edc d2 AG|
+(3FGF D2 (3faf ec|dcdf ecAG|(3FGF D2 (3faf ec|df (3edc d2 AG|
+(3FGF D2 (3faf ec|dcdf ecA2|(3faf df gfec|df (3edc d2 ag||
+fefd gf (3gfe|fefd ec A2|(3faf df gfed|(3cdc A^G A2 (3ABc|
+d2AF d2AF|dcdf ecA2|(3faf df gfec|df (3edc d2ag|
+fefd gf (3gfe|fefd ec A2|(3faf df gfed|(3cdc A^G A2 (3ABc|
+dcdf eceg|fdfa gfge|fgaf gfec|dfec d2||
+S:https://www.folktunefinder.com/tunes/177742
+S:http://www.thesession.org/tunes/display/1140
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

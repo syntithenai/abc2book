@@ -1,0 +1,25 @@
+X: 1
+T: Maggie And Jock
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: B>c | d>Bd>B g2 g2 | (3fgf e>^d e3 A | c>A (3cBA f2 f2 | (3efe d>^c d3 B |
+.d2 (3ddd .g2 (3ggg | f2 e>^d e3 c | f2 f>e d>c (3cBA | G2 G2 G2 :|
+|: (3ABc | d>BG>B d>BG>E | F>dF>d F3 f | e>d^c>d (3fed (3=cBA | G>e (3ed^c d2 (3AB=c |
+d>B (3GAB d2 B>E | F>dF>d F4 | e2 (3d^cd f>d (3=cBA | G2 g2 G2 :|
+|: (3ABc | d2 d2 g>G (3Bdg | f2 e2 e3 A | c2 c2 f>FA>f | e2 d2 d3 B |
+d2 d2 g2 g2 | a2 e>^d e3 f | g>a (3gfe d2 (3Bcd |1 e2 f2 g>G :|2 e2 d2 G3 ||
+K: Dmaj
+|: A/A/ | A>d (3ffd B>dg>d | (3Adf (3afd A4 | (3Ace (3ged c4 | (3dfa (3baf d3 A/A/ |
+A>df>d (3Bcd g>d | A>df>d A2 A2 | (3Ace (3aec A>e (3ABc |1 d2 d2 d3 :|2 d2 f2 d2 ||
+S:https://www.folktunefinder.com/tunes/173584
+S:http://www.thesession.org/tunes/display/7231
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

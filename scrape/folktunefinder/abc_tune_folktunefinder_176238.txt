@@ -1,0 +1,33 @@
+X: 1
+T: Miss McLeod's Reel
+C: R-23
+C: Irish
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: A
+cB|: "A"A2a2 fefa| c2cB cdcB| A2ag fefa| "E"B2BA BdcB|
+     "A"A2a2 fefa| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB :|
+\
+"A"ABcd ecAB| c2cB cdcB| ABcd ecAc| "E"BcBA BdcB|
+"A"ABcd ecAB| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB |
+"A"A2cA EAcA| c2cB cdcB| A2cA eAcA| "E"BcBA BdcB|
+"A"A2cA EAcA| cdcB cde2| "D"fgfe "A"cefg| afec "E"BdcB |] "A - go out on" HA2 |]
+%%begintext ragged
+%% 9/1/98.  Formerly R-23A.
+%% Also known as "May Day", "Mrs. McCloud's Reel",
+%% "Hop High Ladies", "Hop Light Ladies", and "Hop Up Ladies".
+%%endtext
+S:https://www.folktunefinder.com/tunes/176238
+S:http://roaringjelly.org/music/reel/R023_Miss_McLeods_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R023_Miss_McLeods_Reel_1.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R023_Miss_McLeods_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

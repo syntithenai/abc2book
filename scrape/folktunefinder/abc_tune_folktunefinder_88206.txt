@@ -1,0 +1,26 @@
+X:245
+T:the Duke of York March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000eac.html
+%%ID:00000eac
+K:C
+C2C>C E2E>E | GEGE C2G2 | cGcG cGEC | G2G>G G2z2 |\
+a3e   c3e   | d3e  fedc | e2f2 agfe | d2dd d2 ::
+G2G>G      Gceg | G2G>G Gceg         |   fddd ecc2        | agfe (e2d2) |\
+c2c/d/e/d/ cGAB | B2A>A A2 =B/c/d/e/ | ! ffee dd f/e/d/c/ | =B2AG GFED |\
+C2C>C     E2E>E | GEGE  C2f2         |   egge fdcB        | c2cc  c2 |]
+%%newpage
+%page 16
+S:https://www.folktunefinder.com/tunes/88206
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

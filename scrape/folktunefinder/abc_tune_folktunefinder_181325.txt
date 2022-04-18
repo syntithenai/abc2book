@@ -1,0 +1,32 @@
+X: 1
+T:Paddy O'Rafferty (Lannigan's Ball)
+M:6/8
+L:1/8
+Q:120
+C:Traditional
+S:J&D Donaldson
+R:Jig
+N:First in set with "Smash the Windows". This is an unusual version of
+N:"Lannigan's Ball". When I recorded John and Dorothy playing this, they
+N:called it "Paddy O'Rafferty". I am not sure if he just misspoke but
+N:that is what I knew the tune by for years
+Z:Donna Diekof
+K:EDor
+|:"Em"EFE G2A|"Em"B2A Bcd|"D"DED F2G|"D"ABA AFD|
+"Em"EFE G2A|"Em"B2A Bcd|"Em"e2B B=cA|"Em"GFE E3:|!
+|:"Em"e2f gfe|"B/f#"fag fef|"Em"e2f gfe|"B/d#"f2^d B2^d|
+"Em"e2f gfe|"B"fag fef|"Em"e2B B=cA|"Em"GFE E3:|
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/181325
+S:http://www.blackflute.com/music/tunes/jigs/paddyo.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

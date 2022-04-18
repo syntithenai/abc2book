@@ -1,0 +1,27 @@
+X:225
+T:the Girl I left behind me
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea9.html
+%%ID:00000ea9
+K:C
+c'2 |\
+g>f e>d e>c A>B | cc c/d/e/f/ a>f ec' |\
+g>f e>d ec A>c | Bd G>B c2 c ::
+c |\
+eg ab c'g ec | eg ab c'b c'2 | ag ed e/d/c/B/ A>c | Bd GB c2c2 :|
+%%newpage
+%page 15
+S:https://www.folktunefinder.com/tunes/88202
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

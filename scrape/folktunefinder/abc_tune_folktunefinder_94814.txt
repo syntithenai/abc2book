@@ -1,0 +1,30 @@
+X:219
+U: ~ = !turn!
+%%topmargin 3cm
+T:Willie Coleman's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Andrew Davey
+R:Jig
+L:1/8
+M:6/8
+K:G
+~B3 AGE | GED GBd | edB dgb | age dBA |
+~B3 AGE | GED GBd | edB dBA | BG{/A}G G2A ::
+Pgfg edB | dgb age | ~g3 edB | GBd e2 d |
+Pgfg edB | dgb age | ~d3 g2 B | AGE GBd :|]
+S:https://www.folktunefinder.com/tunes/94814
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Willie_Colemans_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Willie_Colemans_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

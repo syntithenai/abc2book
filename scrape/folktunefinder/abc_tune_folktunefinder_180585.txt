@@ -1,0 +1,25 @@
+X:0272
+T:"O'Reilly's Lamentation"    (air)      0272
+C:after Chief  F. O'Neill
+C:slow
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_VB"(d3/2c/2)|(BG B)(c/2d/2) (c3/2A/2)|(F3/2A/2)"_p"G2-G  (3(d/2e/2f/2)|"^>"g2(e3/2g/2) (f3/2d/2)|(ec) d2-d  (3(d/2e/2f/2)|
+"^>"g2e3/2g/2 fd|Bd"_p"e2-e (g3/2e/2)|(dB) .G(B/2d/2) (cA)|(F3/2A/2) G2-G  (3(d/2e/2f/2)|
+"^>"g2(e3/2g/2) (f3/2d/2)|(Bd) .e(e/2f/2) (g/2f/2)(g/2e/2)|(dB) G(B/2d/2) cA|(F3/2A/2) G2-G |]
+S:https://www.folktunefinder.com/tunes/180585
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0272-OReillysLamentation.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0272-OReillysLamentation.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

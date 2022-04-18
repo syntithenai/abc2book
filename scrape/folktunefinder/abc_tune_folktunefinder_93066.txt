@@ -1,0 +1,28 @@
+X: 2065
+T: Red House
+R: jig
+C: Rick Gagne
+N: 1995 on tenor banjo
+M: 6/8
+Q: 1/4=165
+K: Ador
+"Am"A,2A, CB,A, | CED CB,A, | "Em"B,G,B, DB,D | EB,E DCB, | 
+"Am"A,2A, CB,A, | CED CB,A, | "G"B,G,B, DB,D |1 "Em"EB,E "Am"AEC :|\
+[2 "Em"EB,E "Am"AEG ||
+"Am"A2B cBA | "C"ced cBA | "Em"BEF GFE | "G"GBA GFE | 
+"Am"A2B cBA | "C"ced cBA | "Em"BEF GFE |1 "Am"AEC A,CE :|2 "Am"AEC A,2a ||
+|: "Am"aeg a2a | "C"aed cBA | "D"fga "A"eag | "D"fd^c deg | 
+"Am"aed cAB |1 "C"cAe ceA | "G"Bcd GAB | "Am"Ace aeg :|
+[2 "F"cAG =F3 | "Dm"DE=F B,CD | "Em"E=FE DCB, ||
+S:https://www.folktunefinder.com/tunes/93066
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

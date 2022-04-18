@@ -1,0 +1,30 @@
+X: 85
+T: How about you
+M: 4/4
+L: 1/4
+C: Burton Lane &
+C: Ralph Freed
+Q: 1/4=200
+S: Keith Jarrett - "Standards in Norway"
+%%staves (chords melody)
+K: Eb
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"( Am7b5" "Eb6"x2 "Abdim7" "( Ab7"x2 | "Gm7 )" "Gm7 )"x2 "Gbdim7"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"( Am7b5" "Eb6"x2 "Abdim7" "( Ab7"x2 | "Gm7 )" "Gm7 )" x2 "F#dim7"x2 | "Gm7b5"x2 x2 | "C7"x2 x2 ||
+V: melody
+E2FD | EFD2 | Cz/C/CG- | G4 |
+S:https://www.folktunefinder.com/tunes/87586
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:181
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sally Gardens
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+JG2 DG {Bc}B2 GB | dBeB dB (3.B.B.B | d2 Bd eBdB | ((3ABc) BA GEDE |
+JG2 AG {Bc}B2 GB | dBeB dB (3.B.B.B | dcBd efgB | cAFA G2 z2 ::
+dg (3.g.g.f g2 dg | (3.g.g.g bg agfg | ea (3.a.a.g a2 ea | agbg ageg |
+dg (3.g.g.f g2 dg | (3.g.g.g bg agec | d2 Bd ((3efg) dB | cAFA G2 z2:|]
+S:https://www.folktunefinder.com/tunes/94777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sally_Gardens_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sally_Gardens_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

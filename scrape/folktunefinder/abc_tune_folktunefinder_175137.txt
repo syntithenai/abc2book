@@ -1,0 +1,27 @@
+X:0078
+T:"McLean's Lamentation"      (air)       0078
+C:after Chief  F. O'Neil
+C:slowly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=70
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:D
+ (TRAGE) (DEG)| (TRAGE) (TRGEC)| (TRAGE) (DEG)|AB=c (E2{FE}D)|
+ (TRAGE) (DE).G| (TRAGE) (TRGEC)|(TRAGE) (TRcBA)| (TRGED) D2||
+(3(A/2B/2c/2)|d3/2e/2d ded| (TR=cBc) (TREDC)|d3/2e/2d ded| (TRcAc) d2A|
+d3/2e/2d ded| (TR=cBc) (TREDC)|(TRAGE) (TRcBA)| (TRGED) D2||
+D|(DFA) (DFA)|(CEG) .E.D.C|(DFA) (DFA)|.G.A.B (TRBAF)|
+(DFA) (DFA)|.G.E.c CDE| (TRAGE) (TRcBA)| (TRGED) D2|]
+S:https://www.folktunefinder.com/tunes/175137
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/78-McLeansLamentation.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

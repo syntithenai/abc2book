@@ -1,0 +1,28 @@
+X: 1
+T: Leppadumdowledum
+C: Donal Lunny
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmix
+ABc cBA GAB|BAG cGE GED|~D3 GFD ~D3|~D3 GFD DE/2F/2G|
+ABc cde dcA|BAG dBG cGE|~D3 GFD ~D3|1 ~D3 GFD DE/2F/2G:|2 ~D3 GFD DAB||
+|:cde dgf eAc|BdG cGE GED|~D3 GFD ~D3|~D3 GFD DAB|
+cde dgf e2d|gec dBG cGE|~D3 GFD ~D3|1 ~D3 GFD DAB:|2 ~D3 GFD Dcd||
+|:efg eaf dgf|eAc BdG cGE|~D3 GFD ~D3|~D3 GFD c2d|
+e2d gfe faf|def gdB cGE|~D3 GFD ~D3|1 ~D3 GFD Dcd:|2 ~D3 GFD d2c||
+|:Bdg dBd edc|Bdg dBc dBG|c2B A2G AdB|c2B A2G Adc|
+Bdg dBd edc|Bdg afg dBG|c2B A2G AdB|1 c2B A2G Adc:|2 c2B A2G Ade||
+|:fga gfe dAB|cde dBG cGE|~D3 GFD ~D3|c2B A2G Ade|
+fga gfg afd|gec dBG cGE|~D3 GFD ~D3|1 ~D3 GFD Dde:|2 ~D3 GFD DE/2F/2G||
+S:https://www.folktunefinder.com/tunes/171879
+S:http://www.thesession.org/tunes/display/852
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

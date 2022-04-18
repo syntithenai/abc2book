@@ -1,0 +1,28 @@
+X:024
+U: ~ = !turn!
+%%topmargin 3cm
+T:Captain Dunne's March
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:March
+M:C|
+L:1/8
+K:G
+z A| G2 G>G BGdB | c2 A2 A3 c | Bdef gd BG | d2 d>e dcBA |
+G2 G>G BGdB | c2 A2 A3 c | B/2c/2dBG A/2B/2cAF | G2 G2 G2 ::
+de/2f/2 | g2 g>g gdBG | c2 A2 A2 fg | a2 a>b agfe | d>efe dcBA |
+G2 G>G GBdB | c2 A2 A3 c | B/2c/2dBG A/2B/2cAF | G2 G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/94622
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Captain_Dunnes_March_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Captain_Dunnes_March_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Captain_Dunnes_March_1.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

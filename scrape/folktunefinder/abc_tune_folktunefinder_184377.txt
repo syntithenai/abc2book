@@ -1,0 +1,20 @@
+X:1
+T:The Rabbi's Daughter
+M:4/4
+L:1/8
+K:A
+ E2| EA A3/2 B/2 A G2 F| EB B=c ^c3 c| ce d3/2 c/2 BF GA| BF BF B3 E|\
+ EA AB AG G3/2 F/2| EB B=c ^c3 c| c/2 e3/2 dc Bd F=G| ^Gc c3/2 B/2 A3 G|\
+ GA Bc cF F3/2 B/2| AB ^d3/2 c/2 B3 G| GA Bc cF F3/2 B/2| ^dc AF E3 E|\
+ EA AB AG G3/2 F/2| EB B=c ^c3 c| ce dc Bd FG| ^Gc c3/2 B/2 A3 E| c3/2 c/2 BA A G2 G/2A/2|\
+ BB AG A3 A| AA GA c E2 E| Fc Bc B3 =c| ^c3/2 c/2 BA A G2 G/2A/2| BB AG A3 A|\
+ A3/2 A/2 GA c E2 c/2d/2| cA B3/2 G/2 A3||
+S:https://www.folktunefinder.com/tunes/184377
+S:http://back.numachi.com:8000/dtrad/abc/RABBIDGH.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/RABBIDGH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

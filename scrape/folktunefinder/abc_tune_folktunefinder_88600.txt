@@ -1,0 +1,29 @@
+X:440
+T: Cow with the Crooked Horn
+S: Reavy Collection: "Music of Corktown"
+N: variant of "Dowd's #9/Summer in Ireland"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: D
+AG|FGAG GFEF|DFAc dABG|FGAF GFGB|AGFG EDCE|
+DFAF GFEF|DFAc dABG|1 FGAF GFGB|AGFE FD :|2\
+A2 AF GABd|cdeg fdd||
+g|f2 df gfeg|fedf ecAg|f2 df gfec|dcde fdde|
+fgfg gfec|defd ecAF|GABG FGAF|1 EDEG FDD :|2\
+EDEG FD D2 ||
+S:https://www.folktunefinder.com/tunes/88600
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

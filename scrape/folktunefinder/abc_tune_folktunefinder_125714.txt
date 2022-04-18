@@ -1,0 +1,28 @@
+X:41
+T:Shadows on the Staircase
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:Em
+c3|\
+"Em"B2e e^de|"C"c2e e^de|"A"^c2e e2f|"G"g2f "Bm"e2c|
+"Em"B2e e^de|"C"c2e e2f|"G"g3 "D"f3|"C"efe "Bm"d2c|
+"Em"B2e e^de|"C"c2e e^de|"A"^c2e e2f|"C"g2f "D"g2a|
+"G"b3 "D"a3|"C"gag "Bm"f3|"Em"g2f e2d|"Am"BcB "Bm"AGF||
+|:\
+"Em"E3 G3|B3- B2e|"B7"^d2B BGA|BcB AGF|
+"Em"E3 G3|B3- B2e|"B7"^d2f B^cd|1"Em"e3 G2F:|2"Em"e3||
+S:https://www.folktunefinder.com/tunes/125714
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

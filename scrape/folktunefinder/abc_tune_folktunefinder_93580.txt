@@ -1,0 +1,26 @@
+X:405
+T: Bobby Casey's [A]
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+B|c2A BAG|EAA EAA|cBc dcd|eaf ged|
+c2A BAG|EAA EAA|cBc dBG|BAA A2 :|
+B|cBc dcd|eaf ged|efg aba|aba ged|
+|1 cBc dcd|eaf ged|cBc dBG|BAA A2 :|
+|2 eab c'ba|gea ged|cBc dBG|BAA A2 ||
+S:https://www.folktunefinder.com/tunes/93580
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

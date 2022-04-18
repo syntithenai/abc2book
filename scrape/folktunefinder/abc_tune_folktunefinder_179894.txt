@@ -1,0 +1,21 @@
+X:55 % number
+T:The Old Dun Cow % title
+C:Anon. % composer
+O:Irish drinking song % origin.
+M:4/4 % meter
+L:1/4 % length of shortest note
+Q:240 % tempo
+P:ABA
+K:C % key
+V:1 % voice 1
+P:A
+B G E E | B G E E | e e/d/ c/d/ e | e B3 |
+S:https://www.folktunefinder.com/tunes/179894
+S:http://kittybriton.multiply.com/journal/item/31
+S:http://kittybriton.multiply.com/journal/item/31/A_quiet_evening_with_Friends
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1700
+T:Belinda
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001276.html
+%%ID:00001276
+K:G
+G2B d2d | efg d2B | (dc)A dBG | BAB A2z | \
+G2B d2d | efg d2B | dcA   dBG | {B}AGA G2z ::
+{d}cBc Afa | {e}d^cd Bgb | efg d2B | dcB    A2z | \
+{d}cBc Afa | {e}d^cd Bgb | efg d2B | {B}AGA G3 :|
+S:https://www.folktunefinder.com/tunes/88497
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

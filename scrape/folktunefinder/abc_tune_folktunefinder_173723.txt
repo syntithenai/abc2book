@@ -1,0 +1,20 @@
+X:4
+T:Petronella
+R:reel
+O:England
+M:C
+L:1/8
+K:D
+dA   | "D" F2 AF "A" E2 AF | "D" D2 D2 D2 (FA) | d2    cd    e2   d2 | "A" (cd)Bc A2 dA | 
+       "D" F2 AF "A" E2 AF | "D" D2 D2 D2 (FA) | "D" d2 cd "A" e2 c2 | "D" (d4 d2)      :|
+(dA) | "D" F2  fd  A2   af | "G" g2 (gf)  edcB | "A" A2  ec  A2   ge | "D" f2 (fd) AdAG |
+       "D" D2  fd  A2   af | "G" g2 (gf)  edcB | "A" A2  ec   (Ag)ec | "D" (d4 d2)      :|
+S:https://www.folktunefinder.com/tunes/173723
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Reels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

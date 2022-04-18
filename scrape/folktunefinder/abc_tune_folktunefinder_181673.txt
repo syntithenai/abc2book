@@ -1,0 +1,27 @@
+X:1
+T:Pas de sept : Pre Roussel
+E:12
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=180
+"C"c2d2 e2d2 c2d2 e2d2 | c4 e4 g4 e4 | \
+"G"d2c2 B2c2 d4 d4 |1 "C"e2f2 e2d2 e4 c4 :|2\
+e2f2 e2d2 c8 |: e4 e4 g4 f2e2 | "G"d4 d4 "C"g4 e4 | \
+"G"d2c2 B2c2 d4 d4 |1 "C"e2f2 e2d2 e4 c4 :|2 e2f2 e2d2 c8 |]
+S:https://www.folktunefinder.com/tunes/181673
+S:http://termen.free.fr/danses/rennais/PasdeseptPereRoussel.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

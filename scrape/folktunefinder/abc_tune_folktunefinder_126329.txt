@@ -1,0 +1,24 @@
+X:7950
+T:Jessie's Hornpipe
+% Nottingham Music Database
+S:Lesley Dolman, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2c/2|"G"dg gB/2c/2|"G"Bd dB/2A/2|"G"GG "D7"AA|"G"B/2A/2B/2c/2 "D7"BB/2c/2|
+"G"dg gB/2c/2|"G""Em"Bd dB/2A/2|"G""Am"GG "D7"AG/2A/2|"G"G3:|
+P:B
+B/2c/2|"G"dg "C"ec|"G"dg "C"ec|"G"d3/2B/2 GB|"Am"A/2G/2A/2B/2 "D7"AB/2c/2|
+"G"dg "C"ec|"G"dg "C"ec|"G"B/2d/2B/2G/2 "D7"A/2c/2A/2F/2|"G"G3:|
+S:https://www.folktunefinder.com/tunes/126329
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

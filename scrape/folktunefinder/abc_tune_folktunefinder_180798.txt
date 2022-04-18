@@ -1,0 +1,25 @@
+X:0795
+T:"Out On The Ocean"   (jig)      0795
+C: after  Chief  F. O'Neill.
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+e|dcB {c}BAG|BdB A2B|GED G2A|{c}BAB GED|
+dcB {c}BAG|BdB A2B|GED G2A|{c}BGG G2:|
+|:d|efd {f}edB|efe fdB|ded dBd|gfe dBA|
+{A}GFG {B}AGA|BcB B2A|GED G2A|{c}BGG G2:|
+S:https://www.folktunefinder.com/tunes/180798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0701-0800/0795-OutOcean.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0701-0800/0795-OutOcean.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

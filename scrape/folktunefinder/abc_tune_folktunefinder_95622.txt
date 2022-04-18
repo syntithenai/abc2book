@@ -1,0 +1,30 @@
+X: 10
+T:Air du second branle d'Escosse.
+R:
+C:Trad.
+S:Thoinot Arbeau
+N:0163.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=215
+K:Gmaj
+e2efgagf e2e2dcB2 e2dcB2A2 | e2efgagf e2e2dcBA BGA2 ||
+%%begintext
+S:https://www.folktunefinder.com/tunes/95622
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Danse%2520Compagnons%2520de%2520Roland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 8/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

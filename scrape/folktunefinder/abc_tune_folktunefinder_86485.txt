@@ -1,0 +1,23 @@
+X:380
+T: Jack Murphy's
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: Dm
+A | "Dm"dAFE D2 A,D| "C"C2EG "Am"AEGA|"Dm"dAFE DEFG|"Dm"AD"Bb"BD "C"cGEG |
+"Dm"dAFE D2 A,D|"C"C2EG "Am"AEGA|"Dm"dedc "Am"AGcA|"C"GEDC "Dm"D3 :|
+E | "F"F2 AF cFAF|"Dm"dcde fede|"F"fgaf "C"egec|"Gm"BGAF "C7"GECE |
+"F"F2 AF cFAF|"Dm"d3 e f3 g|"Dm"af (3fef "Bb"dB (3BAB|"Am7"AGEC "Dm"D3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86485
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

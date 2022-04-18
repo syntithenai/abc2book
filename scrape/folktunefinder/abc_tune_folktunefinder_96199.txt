@@ -1,0 +1,27 @@
+X: 48
+T:Medus(to TBe.047). TBe.048
+M:C|
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+H:Before 1718
+Z:vmp.C. Graebe..
+K:G major
+B2A2 | G>A BG | c (B/A/) B (A/G/) | d (c/B/) AG ||!
+B2d2 | d d/e/ d/e/d/e/ | f (e/d/) ^cd | \
+e/d/e/B/ c/B/A/G/ | B A/G/ FG ||
+S:https://www.folktunefinder.com/tunes/96199
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

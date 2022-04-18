@@ -1,0 +1,37 @@
+X:895
+T: Breeze Across the Lake (with piano acc.)
+C: BB
+N: Second tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D | "G"G2B d^cd | "Em"edB "G"d2B | "F"cBA =FEF | "Dm"D=FA "F"cBA |
+[V:2] z|G,,2[GDB]D,2[GBD]|E,2[EBG]G,,2[GDB]|=F,,2[=FAC]C,2[FAC]|D,2[A=FD]=F,,2[ACF]|
+%
+[V:1] "G"G2B d^cd | "Em"edB "D"def | "G"gdB "D7"ABc | "G"BGF G2 :|
+[V:2] G,,2[GDB]D,2[GBD]|E,2[EBG]D,2[AFD]|G,,2[GDB]D,2[FAC]|[G,,3D,3B,3][G,2D2B2]:|
+%
+[V:1] e|"G"gfg dcB | "G"gfg dcB | "F"=fef cBA | "F"=fef cBA |
+[V:2] z|G,,2[GDB]D,2[GBD]|G,,2[GDB]D,2[GBD]|=F,,2[AC=F]C,2[AC=F]|=F,,2[AC=F]C,2[ACF]|
+%
+[V:1] "G"gfg dcB | "G"GBd "F"=fef | "G"gdB "D7"ABc |"G"BGF G2 :|
+[V:2] G,,2[GDB]D,2[GBD]|G,,2[GDB]=F,,2[AC=F]|G,,2[GDB]D,2[FAC]|[G,,3D,3B,3][G,2D2B2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87064
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T:Les Parapluies de Cherbourg
+C: 
+M:4/4
+L:1/8
+R:song
+K:F
+"Dm" AAAA B2 AA| B>A c>BAA| G>GDG A2-| A4 | AAAA B2 AA| B>AA d>d| "Am" cdec A2 AA|
+|"E"=B EB "Am" c2| "Gm" BccB BccB| d4 c4 |B3 A|"Dm" ABBA ABBA| c4 B4| A3 G|
+AAGG AAGG| BB AA G2|G FF F2| FF G2 D2|"A" E8|
+|: ^G2 A2| "Dm" G4 F4 | E2 D2 ^c2 d2|"Gm" c4 B4| B4 ^F2 G2|"C" F4 E4| D2 C2 =B2 c2| "F" B4 A4| "Gm A" A4 ^G2 A2|
+"Dm" G4 F4 | E2 D2 ^c2 d2|"Gm" c4 B4| B4 A2 G2| "Dm" A2 d2 D4| "A" E2 A2 A,4| "Dm" D4 :|
+A2|"Gm" cc BB cc BB d2 c2 B3 A|"Dm"BB AA BB AA c2 B2 A3 G| "A" AA GG AA GG B2 A2 G3 F| "Dm" D2 A2|
+S:https://www.folktunefinder.com/tunes/181598
+S:http://terrytraub.org/abc/les_parapluies_de_cherbourg.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/les_parapluies_de_cherbourg.abc
+% Rhythm Song
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

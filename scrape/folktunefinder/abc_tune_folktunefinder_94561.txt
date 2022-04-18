@@ -1,0 +1,23 @@
+X:19270
+T:Zenska Siptarska Igra
+O:Yugoslavia
+M:7/8
+L:1/8
+Q:1/4=132
+K:Am
+%%MIDI gchord f3f2f2
+"A"E2FEDCD| E2FEDCD| E2FEDCD| E2FEDCD|
+"E"B2^GA2F2|EDCB,3C|D2CB,A,^G,A,|^G,7|
+|:"A"E3A2c2|f3e4|f3e2d2|"E"c2BB4|E3^G2B2|"G"d3B4|"E"e2f edcB| "A"A7:|
+|:"A"A3A2A2|"D"A3F2D2|"E"B2cBA^GA|B7|E3^G2B2|"G"d3B4|"E"e2f edcB| "A"A7:|
+S:https://www.folktunefinder.com/tunes/94561
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

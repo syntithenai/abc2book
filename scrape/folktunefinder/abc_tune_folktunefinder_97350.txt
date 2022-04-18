@@ -1,0 +1,27 @@
+X:30
+T:Cat's Meow, The
+M:6/8
+L:1/8
+Q:120
+C:Joanie Madden
+S:THSP
+R:jig
+K:D
+"D"DFA def|afd edA|"G"~B3 BAF|"A"DFD EDB,|
+"D"DFA def|afd edB|"G"efe edB|1 "A"AFE "D"D2E:|2 "A"AFE "D"D2e||:
+"D"fdB BAF|DFA def|"G"gBg ged|"A"ced BcA|
+"D"fdB BAF|DFA def|"G"gfe age|1 "A"edc "D"d2e:|2 "A"edc "D"d2B||:
+"D"Adf a2a|agf a2a|"A"Ace g2g|gfe gfe|
+"D"(3fga f "G"gbg|"E"(3^gab ^g "A"aba|"D"afd "A"gec
+|1 "D"dAF D2B:|2 "D"dAF D2E|]
+S:https://www.folktunefinder.com/tunes/97350
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

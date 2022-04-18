@@ -1,0 +1,40 @@
+X:540
+T: Xinniange
+N: C1958
+O: China,Jiangxi Suichuan
+S: IV, 197]
+R: Xiaodiao, Dengge, Tongqiange]
+M: 2/4
+L: 1/16
+K: C
+c2A2c2d2 | E2E4D2 | c2A2cde2 | d8
+A2c2d2dd | c3ed3c | AcGAdcAc | G8
+E2E4EG | A2G2c4 | A2G2AcAG | E2E6
+EGE4E2 | A2G2c3d | AcGAdcAc | G8
+e2e2deAc | d8
+e4G4 | A8
+c2c2AcAG | E2E4G2
+A2G2AcAG | E8
+c2A2cAcd | G3Ac4
+cccAcde2 | d8
+A2A2G3A | c8
+A2A2deA2 | c6d2 | E2EGAGAc | G8
+A2A2e4 | e2A2e4 | c2cAG3A | c8
+c2cAG3Ac4
+c2G4A2c4
+c2G4A2c4
+c2A2c4
+c2A2c4
+c2c2E2G2 | E2G2c2c2 | E2EGAGE2 | D3EG2E2 | A2G6
+S:https://www.folktunefinder.com/tunes/92563
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, dengge, tongqiange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T: The Redeside Hp
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Cmaj
+e>d|c>EG>c e>Gc>B|A>cf>a g>ec>B|A>cF>A G>cf>e|(3def (3edc (3BAG (3fed|
+c>eG>c e>Gc>B|A>cf>a g>ec>B|A>c'b>a (3gag (3fed|c>c'g>e c2:|
+e>f|(3gag e>g c'>ge>g|~a>ge>c A>GE>F|(3GAG E>G c>Gf>e|(3def (3edc (3BAG e>f|
+(3gag e>g c'>ge>g|~a>ge>c A>GE>F|G>c'b>a (3gag (3fed|c>c'g>e c2e>f|
+(3gag e>g c'>ge>g|~a>ge>c A>GE>F|(3GAG E>G c>Gf>e|(3def (3edc (3BAG (3fed|
+c>eG>c e>Gc>B|A>cf>a g>ec>B|A>c'b>a (3gag (3fed|c>c'g>e c2||
+S:https://www.folktunefinder.com/tunes/184856
+S:http://www.thesession.org/tunes/display/5606
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

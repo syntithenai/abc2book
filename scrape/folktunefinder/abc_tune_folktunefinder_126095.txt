@@ -1,0 +1,52 @@
+X:7716
+T:JACK FRANKLAN'S HORNPIPE
+B:John of the Greeny Cheshire Way
+N: John Offord, Reproduced with permission
+M:3/2
+L:1/8
+K:F
+P:1
+F4    E2 DC D2 A,2 | C2 c4 G2 EFGE |\
+A2 GF E2 DC D2 A,2 | D2 d4 F2 E2 D2 ||
+P:2
+d2 FG A2 GF E3 D | e2 c4 G2 E2 C2 |\
+d2 FG A2 GF E3 D | f2 d4 F2 E2 D2 ||
+P:3
+d2 f4    g2 e3 d | c2 g4 f2 e2 dc |\
+ag f2 gf e2 c3 B | A2 d4 F2 E2 D2 ||
+P:4
+f3 g ag f2 ba g2 | e3 f gagf e2 dc |\
+ag f2 gf e2 c3 B | A2 d4  F2 E2 D2 ||
+P:5
+fedc dcBA BAGF | E2 e4 G2 E2 C2 |\
+fedc dcBA BAGF | A2 d4 F2 E2 D2 ||
+P:6
+DEFG ABAF ABAF | E2 c4 G2 E3 C |\
+DEFG ABAF ABAF | ABAF ABAF EFGE||
+P:7
+DEFG ABAF ABAF       | E2 c4 G2 E3 C |\
+DF D2 dB z G c>A z F | A2 d4 F2 E2 D2 ||
+P:8
+d2 F2 A2 F2 d2 F2 | E2 c4 G2 E2 C2 |\
+d2 F2 A2 F2 d2 F2 | A2 d4 F2 E2 D2 ||
+P:9
+d2 f4    gf e3 d | c2 g4 f2 efge |\
+a2 f2 g2 e2 f2 d2| A2 d4 F2 E2 D2||
+P:10
+f2 a2 g2 c2 B3 A | G2 c4 G2 E2 D2 |\
+f2 a2 gedc  dcBA | A2 d4 A2 E2 D2 ||
+P:11
+D2 F2 E2 G2 A2 A,2 | C2 c2 G2 c2 E3 C|\
+D2 F2 C2 E2 D2 A,2 | D2 d4 F2 E2 D2 |]
+S:https://www.folktunefinder.com/tunes/126095
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:770
+T: Snowy Road to Mick's (with piano acc.)
+C: BB
+R: slide
+Q: 1/8=350
+M: 12/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A|"D"d2 d "Bm"Bcd "F#m"A2 F "A"E2 F|"F#m"A2 F "A"E2 B "D"A2 F "D"D2 A|
+[V:2] z|D,2[AFD]B,,2[BFD]F,,2[FCA]A,,2[AEC]|F,,2[FCA]A,,2[AEC]D,2[AFD]\
+A,,2[AFD]|
+%
+[V:1] "D"d2 d "Bm"Bcd "F#m"A2 F "A"E2 F|"Bm"ABA "A7"GFE "D"D3 "D"D2 :|
+[V:2] D,2[AFD]B,,2[BFD]F,,2[FCA]A,,2[AEC]|B,,2[BFD]A,,2[EGC]D,2[AFD][D,2A,2F2]:|
+%
+[V:1] A|"G"Bcd "Em"ede "D"f2 g "D"a3|"G"bag "D"agf "A"e2 c "A"A2 A|
+[V:2] z|G,,2[GDB]E,2[EBG]D,2[AFD]A,,2[AFD]|G,,2[GDB]D,2[AFD]C,2[AEC]A,,2[AEC]|
+%
+[V:1] "G"Bcd "Em"ede "D"f2 g "D"a3|1 "G"bag "A"fec "D"d3 "D"d2 :|2\
+"G"gfe "A"ABc "D"d3 "D"d2||
+[V:2] G,,2[GDB]E,2[EBG]D,2[AFD]A,,2[AFD]|1 G,,2[GDB]A,,2[AEC]D,2[AFD][D,2A,2F2]:|\
+[2 G,,2[GDB]A,,2[AEC]D,2[AFD][D,2A,2F2]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

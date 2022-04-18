@@ -1,0 +1,36 @@
+X:19
+T:Bransle des Chevaulx
+C:Orchsographie
+C:Harmonisation inconnue
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-27
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:C|
+L:1/4
+Q:1/4=210
+K:C
+V:1
+c>dee | fedf | edcB | A2G2!breath! | c>dee | fedf | ecd2 | c4 ||
+gf/e/ dd/e/ | fe/d/ ce | dcBc | d2d2 | gf/e/ dd/e/ | fe/d/ ce | dccB | c4 |:
+K:Bb
+ed/c/ ed/c/ | Bcd2 | GABc | dedc | ed/c/ed/c/ | Bcd2 | GABc | cBc2 :|
+V:2
+G2cc | c2Bc- | cBE/^F/G- | G^FG2 | G2cc | dcBc | c3B | G4 ||
+_B2BB | A2Gc | _BAdG/A/ | B2B2 | _B2BB | A2G>A | _BGG2 | G4 |:
+K:Bb
+GF/E/ GF/E/ | DED2 | D2GE | DG2E | GF/E/GF/E/ | DED2 | D2DE | FDC2 :|
+V:3
+E>FGG | AGGA | GGCD | D2B,2 | C/D/E/F/GG | _BGGA | GGG2 | G4 ||
+D2GG |C>D E/F/G | GE/F/ GE | G2G2 | D2GG | C>D E/F/G/E/ FE D2 |E4 |:
+K:Bb
+GF/E/ GF/E/ | DE D2 | D2GE | DG2E | GF/E/ GF/E/ | DED2 | D2DE | FDC2 :|
+S:https://www.folktunefinder.com/tunes/95631
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Danse%2520Compagnons%2520de%2520Roland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

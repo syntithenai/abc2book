@@ -1,0 +1,34 @@
+X:5
+T:Pa and Ma
+R:Oberek
+O:Polish Oberek, arranged by Edward Bonkoski
+B:Slovenian and Polish Dances, Edward Bonkoski, Pietro Deiro #823, 1949
+Z:Transcribed by Moshe Braner, January 2001
+N:part A has 14 measures, parts B and C are 12 measures each
+M:3/4
+L:1/8
+K:G
+|: "G"d4 d2 | "G/D"d>d B2 d2 | "C"ef g2 fe | "G"dd B2 d2 | "C"ef g2 fe |\
+                "G"d>d B2 d2 | "C"ce [c2e] dc | "G"Bd [B2d] cB |
+    "D7"ABcdef | "G"gd B2 d2 | "C"ce [c2e] dc | "G7"Bd [B2d] cB |\
+    "D7"ABcdef | "G"g2 [B2dg] z2 :|
+|: "G"d[Bg][Bg][Bg][Bg][Bg] | "D7"gf [c4df] | "C"e^degfe | "G"ed B4 |\
+   "C"ce [c2e] dc | "G"Bd [B2d] cB |
+    "D7"ABcdef | "G"gd B2 d2 |\
+   "C"ce [c2e] dc | "G"Bd [B2d] cB |\
+    "D7"ABcdef | "G"g2 [B2dg] z2 :|
+|: "G"d[db][db][db][db][db] | "G/B"bagfed |\
+  "D7"c[ca][ca][ca][ca][ca] | agfedc | ABcBcA | "G"G2 Bd g2 |
+          "C"gfagfe | "G"ed^cdBG | "D7"ABcBcA | "G"G2 Bd g2 |\
+    "D7"fedcBA | "G"G2 [B2dg] z2 :|
+S:https://www.folktunefinder.com/tunes/180958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/PaAndMa.abc
+% Rhythm Oberek
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,34 @@
+X:6
+T:Oh Callar Spirlings (variation 5)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass
+M:3/4
+L:1/16
+Q:1/4=66
+K:D Minor
+[V:1] "^With expression, & P."
+      A2 |  d/e/d/^c/de       fdef       eA=Bc    |  d/e/d/^c/de f/g/f/e/fa   gGA=B       |
+[V:2] z2 | [D4F4]            [D4F4]     [A,4E4G4] | [D4F4]       [D4F4]      [G,4D4F4]    |
+%
+[V:1]       c/d/c/=B/cd       ecag       gfed     |  e/f/e/d/ef   gc'e'd'    ^c'a=bc'     |
+[V:2]      [C4E4]            [C4E4]     [A,4E4G4] | [C4E4]       [C4E4]     [^C4A4]       |
+%
+[V:1]       d'/e'/d'/^c'/d'f' e'd'c'd'   c'_bag   |  f/g/f/e/fa   z/e/d/^c/df z/B/A/^G/Ad |
+[V:2]      [D4F4]             D,4        A,4      |  D4           D,4         A,4         |
+%
+[V:1]       Bbag              f/g/f/e/fa gA=B^c   |  dAFA         D4          z2         ||
+[V:2]       G,4               A,4        A,,4     |  D,4          D,A,,F,,A,, D,,2       ||
+S:https://www.folktunefinder.com/tunes/179707
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Oh_Callar_Spirlings_variation_5_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

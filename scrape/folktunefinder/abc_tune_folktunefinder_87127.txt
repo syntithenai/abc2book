@@ -1,0 +1,45 @@
+X: 9042
+T: Dumetella Hynes' (with piano acc.)
+C: BB
+M: 6/8
+L: 1/8
+Q: 1/8=320
+R: jig
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A|"D"dBA FED | "D"DFA "Em"EDB, | "Bm7"dBA FBA | "D"DFA "G"B2 c |
+[V:2] z|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|B,,2[BDFA] F,,2[BDFA]|D,2[AFD]G,,2[GDB]|
+%
+[V:1] "D"dBA FED | "D"DFA "Em"EDE | "G"GBd "A"cAE | "D"FDD "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|G,,2[GDB]A,,2[AEC]|D,2[AFD][D,2A,2F2]:|
+%
+[V:1] e|"D"fdf "A"ecA | "G"BGB "D"AFD | "Em"EGB "A"Ace | "D"dfd "A"e2 A |
+[V:2] z|D,2[AFD]A,,2[AEC]|G,,2[GDB]D,2[AFD]|E,2[EBG]A,,2[AEC]|D,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"dfa "Em"bge | "D"fdf "A"ecA | "Bm"Bcd "F#m"AFE |"D"FDD "D"D2 :|
+[V:2] D,2[AFD]E,2[EBG]|D,2[AFD]A,,2[AEC]|B,,2[BFD]F,,2[FCA]|D,2[AFD][D,2A,2F2]:|
+%%%%%%%%tune repeat
+[V:1] A|"D"dBA FED | "D"DFA "Em"EDB, | "Bm7"dBA FBA | "D"DFA "G"B2 c |
+[V:2] z|D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|B,,2[BDFA] F,,2[BDFA]|D,2[AFD]G,,2[GDB]|
+%
+[V:1] "D"dBA FED | "D"DFA "Em"EDE | "G"GBd "A"cAE | "D"FDD "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD]E,2[EBG]|G,,2[GDB]A,,2[AEC]|D,2[AFD][D,2A,2F2]:|
+%
+[V:1] e|"D"fdf "A"ecA | "G"BGB "D"AFD | "Em"EGB "A"Ace | "D"dfd "A"e2 A |
+[V:2] z|D,2[AFD]A,,2[AEC]|G,,2[GDB]D,2[AFD]|E,2[EBG]A,,2[AEC]|D,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"dfa "Em"bge | "D"fdf "A"ecA | "Bm"Bcd "F#m"AFE |1 "D"FDD "D"D2 :|2\
+"D"FDD "D"D3-|D3 z3||
+[V:2] D,2[AFD]E,2[EBG]|D,2[AFD]A,,2[AEC]|B,,2[BFD]F,,2[FCA]|1 D,2[AFD][D,2A,2F2]:|2\
+D,2[DFA][D,3-A,3-F3-]|[D,3A,3F3] z3||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87127
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

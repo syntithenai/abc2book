@@ -1,0 +1,22 @@
+X:1
+T:Laz Bar
+C:A. Jaffer
+Z:http://swissnet.ai.mit.edu/~jaffer/CFO.html
+L:1/8
+M:7/8
+%Q:1/4=210
+K:Em
+|:"Em"E2 [E2B2] [E2B2] B | E2 [E2B2] BAG |"Am"A2 A2 AGF |1"Em"G2 G2 G2F :|2"Em"G2 G2 G3 ||
+|:"Am"A2 A2 AGF |"Em"G2 G2 GFE |"Dm"=F2 F2 FED |1 "Em"E2 E2 EFG :|2 "Em"E2 E2 E3 ||
+|:"Am"A2 A2 AzF |"Em"G2 G2 GzE |"Dm"=F2 F2 FzD |1 "Em"E2 E2 EFG :|2 "Em"E2 E2 E3 ||
+|:"Em"E2 EG F2E | E2 EG F2E | E2 EG F2E | BA GF E3 :|
+|: "D"FG AB A2G | FG AB A2G | FG AB A2G |"Em"BA GF E3 :|
+S:https://www.folktunefinder.com/tunes/171633
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/LazBar2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,47 @@
+X: 9002
+T: Barking Seal (The) (with piano acc.)
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D |"G"DGB AGB | "Am7"AGB AGE | "G"DGB "D"ABd | "Em"edB "D"A3 |
+[V:2] z|G,,2[GDB]D,2[GDB]|A,,2[CEG]E,2[ACG]|G,,2[GDB]D,2[AFD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "G"DGB AGB | "Am7"AGB AGE | "G"DEG DB,C | "D"DGF "G"G2 :|
+[V:2] G,,2[GDB]D,2[GDB]|A,,2[CEG]E,2[ACG]|G,,2[GDB]D,2[GDB]|D,2[AFD][G,,2D2B,2]:|
+%
+[V:1] d |"Em"edg edg | "C"edc "G"BAG | "Em"edg "C"edc | "G"BdB "D"A2d |
+[V:2] z| E,2[EBG]B,,2[EBG]|C,2[CGE]G,,2[GDB]|E,2[EBG]C,2[CGE]|G,,2[GDB]D,2[AFD]|
+%
+[V:1] "Em"edg edg | "C"edc "G"BAG | "Am"ABc "D7"dcA |"D"AFA "G"G2 :|
+[V:2] E,2[EBG]B,,2[EBG]|C,2[CGE]G,,2[GDB]|A,,2[AEC]D,2[AFC]|[D,3A,3F3][G,,2D2B,2] :|
+%%%%%%%tune repeat
+[V:1] D |"G"DGB AGB | "Am7"AGB AGE | "G"DGB "D"ABd | "Em"edB "D"A3 |
+[V:2] z|G,,2[GDB]D,2[GDB]|A,,2[CEG]E,2[ACG]|G,,2[GDB]D,2[AFD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "G"DGB AGB | "Am7"AGB AGE | "G"DEG DB,C | "D"DGF "G"G2 :|
+[V:2] G,,2[GDB]D,2[GDB]|A,,2[CEG]E,2[ACG]|G,,2[GDB]D,2[GDB]|D,2[AFD][G,,2D2B,2]:|
+%
+[V:1] d |"Em"edg edg | "C"edc "G"BAG | "Em"edg "C"edc | "G"BdB "D"A2d |
+[V:2] z| E,2[EBG]B,,2[EBG]|C,2[CGE]G,,2[GDB]|E,2[EBG]C,2[CGE]|G,,2[GDB]D,2[AFD]|
+%
+[V:1] "Em"edg edg | "C"edc "G"BAG | "Am"ABc "D7"dcA |1 "D"AFA "G"G2 :|2\
+"D"AFA "G"HG3|z6|z6||
+[V:2] E,2[EBG]B,,2[EBG]|C,2[CGE]G,,2[GDB]|A,,2[AEC]D,2[AFC]|1\
+[D,3A,3F3][G,,2D2B,2]:|2 [D,3A,3F3]H[G,,3D3B,3]|z6|z6||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87087
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

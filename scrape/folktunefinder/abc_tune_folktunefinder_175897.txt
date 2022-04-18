@@ -1,0 +1,35 @@
+X: 1
+T: Minneola Rag
+C: R-71
+C: Old-Time
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: rag
+K: D
+A,2| "D"DEFA BdBA| "A"FE2A- A3A,| "D"DEFA BdBA| "A"FE2A- A3A,|
+     "D"dABF ADED| "G"BABd- dBAG| "E"E2EF ^GEAB| "A"cABA- A2 A,2 |
+     "D"DEFA BdBA| "A"FE2A- A3A,| "D"DEFA BdBA| "A"FE2A- A3A,|
+     "D"dABF ADED| "G"BABd- dBA2| "E"FDEF- "A"FDED-| "D"D6 "Fine"y|]
+|:ze|"D"fafe dABA| "A"cAca- a3A| "G"BABd- dBAF| "D"DEFA- AFED|
+     "G"B,4 D3E| "D"FEFB- "B"BAF2|1 "E"E2EF ^GEAB| "A"cABA- A2:|2 \
+     "E"FDEF- "A"FDED-| "D"D6|]
+K: G
+GA| "G"BAGE DCB,C| DE2D- D3D| GB2G A2GF-| "D"F6 BB|
+    "D"c2AG FDED| DE2D- D2AB| c2AG FDED-| "G"DE2D- D2GA|
+    "G"BAGE DCB,C| DE2D- D2GA| BABc- "C"c2B2| "Em"ABAG E2G2|
+    "Am"AGAB- BAGA| "G"BAGE D2AB| "D"cBcE FED2| "G"G4 "DC al Fine"G2|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/175897
+S:http://roaringjelly.org/music/reel/R071_Minneola_Rag.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R071_Minneola_Rag.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R071_Minneola_Rag.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

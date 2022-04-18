@@ -1,0 +1,29 @@
+X:081
+U: ~ = !turn!
+%%topmargin 3cm
+T:George White's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+Bd | eB (3.B.B.B eBdB | AGAB GEDE | GB (3.B.B.B dB (3.B.B.B | eBdB A2 Bd |
+eB (3.B.B.B eBdB | AGAB GEDE GABd gedB | AGAB G2 ::
+e2 | gd (3{/e}(dcd) gbaf | gfga gedB | dega b2 ag | eaab a2 ga |
+baga egdB | gede gbaf | gfgd egdB | AGAB G2 :|]
+S:https://www.folktunefinder.com/tunes/94678
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/George_Whites_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/George_Whites_Favorite_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/George_Whites_Favorite_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/George_Whites_Favorite_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

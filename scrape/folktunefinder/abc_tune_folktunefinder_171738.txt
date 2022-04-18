@@ -1,0 +1,33 @@
+X:1
+T:The Leaving of Liverpool
+C:Trad. Irlande, fichier abc : Bernard Loffet
+L:1/8
+Q:332
+M:2/2
+K:G
+ [G2G,,2][A2G,2] | [B2G,,2]G,2 G,,2[d2G,2] | [c2G,,2][B2G,2] [A2D,,2][G2G,2] | [g2C,,2]C,2 C,,2[e2C,2] | \
+ [d2G,,2]G,2 [G2G,,2][A2D,2] | [B2G,,2]G,2 G,,2[d2G,2] | [e2G,,2]G,2 [d2G,,2][B2G,2] | \
+ [A2D,,2]D,2 D,,2D,2 | D,,2D,2 [G2G,,2][A2D,2] | [B2G,,2]G,2 G,,2[d2G,2] | [B2G,,2]G,2 [A2G,,2][G2G,2] | \
+ [g2C,,2]C,2 [g2C,,2][e2C,2] | [d2G,,2]G,2 [G2G,,2][A2D,2] | [B2G,,2][d2G,2] [d2G,,2][B2G,2] | \
+ [A2D,,2]D,2 D,,2[G2G,2] | [G2G,,2]G,2 G,,2G,2 | G,,2G,2 [f2D,,2][g2G,2] | [a2D,,2]D,2 D,,2[f2D,2] | \
+ [d2D,,2]D,2 [f2D,,2][a2D,2] | [g2C,,2]C,2 C,,2[e2C,2] | [d2G,,2]G,2 [G2G,,2][A2D,2] | \
+ [B2G,,2][d2G,2] [d2G,,2]G,d | [e2G,,2][d2G,2] [c2G,,2][B2G,2] | [A2D,,2]D,2 D,,2D,2 | \
+ D,,2[d2D,2] [d2D,,2][c2D,2] | [B2G,,2]G,2 [B2G,,2][d2G,2] | [c2G,,2][B2G,2] [A2D,,2][G2G,2] | \
+ [g2C,,2]C,2 C,,2[e2C,2] | [d2G,,2]G,2 [G2G,,2][A2D,2] | [B2G,,2][d2G,2] [d2G,,2][B2G,2] | \
+ [A2D,,2]D,2 D,,2[G2G,2] | [G2G,,2]G,2 G,,2G,2 | G,,2G,6 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/171738
+S:http://diato.ifrance.com/diato/tablat/260.abc
+S:http://diato.ifrance.com/tablat/260.abc
+S:http://diato.org/tablat/260.abc
+S:http://perso.orange.fr/diato/tablat/260.abc
+S:http://perso.wanadoo.fr/diato/tablat/260.abc
+S:http://pro.wanadoo.fr/diato/tablat/260.abc
+S:http://www.diatonique.net/tablat/260.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

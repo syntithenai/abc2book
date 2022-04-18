@@ -1,0 +1,23 @@
+X:21
+T:Pennsylvania Quick Step
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dB|A2 FA F2 ED|F2 AF D2 dB|A2 FA F2 ED|F2 E>E E2 D/E/F/G/|A3B AGFE|
+D/E/F/G/ AG A2 fe|d3B BA (3GAB|A2 D>D D::(3ABc|d2 f2 e2 f2|d2 f2 a2 (3ABc|
+dcde defg|a2 AB A2 (3ABc|d2 f2 e2 g2|f2 a2 e2 f2|d3B BA (3GAB|A2 D>D D2:|
+S:https://www.folktunefinder.com/tunes/90008
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

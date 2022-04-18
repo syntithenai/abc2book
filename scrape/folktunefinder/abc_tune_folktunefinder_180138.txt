@@ -1,0 +1,28 @@
+X:1
+T:The Rose Tree
+T:Old Number Five
+S:Recording by Tony Hall, Dave Roberts, Roger Watson.
+N:A somewhat simpler version than the Bampton in Bacon.
+M:4/4
+L:1/8
+O:Duns Tew
+P:A(AB)4A
+K:D % Transposed from G
+P:A
+fe | d2 B2 A2 F2 | ABAF A2 FA | d2 d2 e2 de | f2 e2 e2 fe |
+     d2 B2 A2 F2 | ABAF A2 FA | d2 d2 e2 de | f2 d2 d2   |]
+P:B
+e2 | f3 e  f2 g2 | a4   g2 f2 | e2 b2 b3 a  | b2 e2 e2 fe |
+     d2 B2 A2 F2 | ABAF A2 FA | d2 cd e2 de | f2 d2 d2   |]
+S:https://www.folktunefinder.com/tunes/180138
+S:http://www.tomkeays.com/morris/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:cotswold:duns_tew:1_the_rose_tree.abc
+S:http://www.tomkeays.com/morris/wiki/cotswold/duns_tew/old_number_five?rev=1199809777
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

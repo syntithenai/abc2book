@@ -1,0 +1,26 @@
+X:2 
+T:Perpetual Motion (Sharps) 
+M:C 
+L:1/8 
+Q:50 
+C:Scott Tichenor 
+N:Mandolin Cafe Web Page (www.mandolincafe.com) 
+K:C 
+"C#7"^gf^cB "C#dim"^A^ce=g|"B7"^f^dBA "Bdim"^GB=d=f| 
+"A7"e^cAG "Adim"^FA=c^d|"G7"dBGF "Gdim"EG^A^c| 
+|:"F7"cAF^D "Fdim"=DF^GB|"D#7"^AG^D^C "D#dim"=C^D^F=A| 
+"C#7"^GF^CB "C#dim"^A^CE=G|"B7"^F^DBA "Bdim"^GB=D=F| 
+"A7"E^CAG "Adim"^FA=c^d|"G7"dBGF  "Gdim"EG^A^c:|
+S:https://www.folktunefinder.com/tunes/182106
+S:http://www.mandolincafe.com/lessons/perpabc.txt
+S:http://www.mandolincafe.com/perp2.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1
+T:Paskovia de Chateaubriant
+Z:Roger Ngaret (Septembre 99)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+"C"G2c2 e3f | e2d2 "Am"A4 | "G"B2c2 d3e |1 d2c2 "C"G4 :|2
+"G"d2c2 "C"c4 |: cBcd cBcd | c2B2 "Am"F4 | "G"BABc BABc |
+B2A2 "C"E4 | e4 G2e2 | "G"d4 "C"c4 :|
+S:https://www.folktunefinder.com/tunes/181686
+S:http://termen.free.fr/danses/nantais/PaskoviadeChateaubriant.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

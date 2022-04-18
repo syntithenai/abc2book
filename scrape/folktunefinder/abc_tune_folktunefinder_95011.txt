@@ -1,0 +1,29 @@
+X: 99
+T:Air,by Pleyel. BF13.098
+M:6/8
+L:1/8
+Q:80
+C:Pleyel
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Air
+O:England
+A:Lakes
+N:Probably Ignaz Joseph Pleyel 1757 - 183
+Z:vmp.Cherri Graebe.
+K:G major
+dzd d>ed|(c3B2)B|c2d e>dc|(B3A2)z|!
+dzd d>ed|(c3B)zB|c>deB2A|(A3G2)z:|!
+|:AzA A>Bc|{c}B2AA2B|^c2de2f|(d3d2)d|!
+dzd d>ed|(c3B)zB|c>de B2"crot"A|(A3G2)z:|]
+S:https://www.folktunefinder.com/tunes/95011
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

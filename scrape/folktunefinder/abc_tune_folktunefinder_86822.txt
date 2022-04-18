@@ -1,0 +1,26 @@
+X: 110
+T: Sunset Park (jig)
+N: 190048
+C: BB
+R: jig
+Q: 1/8=340
+M: 6/8
+L: 1/8
+K: G
+D|"G"DGB "Am"AGE | "G"DEG "Am7"Age | "G"dBB "C"cde | "G"dBB "Am"AGE |
+"G"DGB "Am"AGE | "G"DEG "D7"Adc | "Em"BAB ded | "D7"cAF "G"G2 :|
+e|"G"gab edd | "Em"efg dBB | "C"cde "Am"eag | "D"fd^c d2 d |
+"G"gab edd | "Em"efg dBB | "C"cde "G"dBG |"D7"cAF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86822
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

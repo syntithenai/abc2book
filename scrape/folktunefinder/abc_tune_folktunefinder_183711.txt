@@ -1,0 +1,58 @@
+X:1
+T:Preludium BWV 999                                                              
+C:J. S. Bach   
+Z:abc transcription Taco Walstra (walstra@wins.uva.nl)                                                                
+L:1/4
+K:CM frenchtab
+%%tabrhstyle modern
+|[M:3] ,,,,a// ,,d ,b a ,b ,,d ,b ,,d ,,,c ,,d ,,,,d ,,d |,,,,a// ,,d ,b a ,b ,,d ,b ,,d ,,,c ,,d ,,,,d ,,d |
+%Staffnumber 2
+,,,,a// ,,d ,d b ,d ,,d ,d ,,d ,,,d ,,d ,,,a ,,d |,,,,a// ,,d ,d b ,d ,,d ,d ,,d ,,,d ,,d ,,,a ,,d |
+%Staffnumber 3
+,,,,a// ,,c ,a ,d ,a ,,c ,a ,,c ,,,d ,,c ,,,a ,,c |,,,,a// ,,c ,a ,d ,a ,,c ,a ,,c ,,,d ,,c ,,,a ,,c |
+%Staffnumber 4
+,,,,a// ,,,c ,,d ,b ,,d ,,,c ,,d ,,,c ,,,,d ,,,c ,,,,a ,,,c |,,,,,d// ,,,c ,,d ,b ,,d ,,,c ,,d ,,,c ,,,,d ,,,c ,,,,a ,,,c |
+%Staffnumber 5
+,,,,,,d// ,,,c ,,d ,b ,,d ,,,c ,,d ,,,c ,,,,d ,,,c ,,,,a ,,,c |,,,,,a// ,,,c ,,d ,b ,,d ,,,c ,,d ,,,c ,,,,d ,,,c ,,,,a ,,,c |
+%Staffnumber 6
+,,,,,,b// ,,,e ,,d ,b ,,d ,,,e ,,d ,,,e ,,,,d ,,a ,,,,a ,,a |,,,,,,b// ,,,e ,,d ,b ,,d ,,,e ,,d ,,,e ,,,b ,,a ,,,,c ,,a |
+%Staffnumber 7
+,,,,,a// ,,,e ,,b ,a ,,b ,,,e ,,b ,,,e ,,,,c ,,,e ,,,,,d ,,,e |,,,,,a// ,,,c ,,b ,a ,,b ,,,c ,,b ,,,c ,,,,,d ,,,c ,,,,,a ,,,c |
+%Staffnumber 8
+,,,,,,,a// ,,b ,a a ,a ,,b ,a ,,b ,,,c ,,b ,,,,d ,,b |,,,,a// ,,a ,b a ,b ,,a ,b ,,a ,,,,a ,,a ,,,,,c ,,a |
+%Staffnumber 9
+,,,,,,,,a// ,,,e ,,d ,e ,,d ,,,e ,,d ,,,e ,,,,c ,,,e ,,,,,c ,,,e |,,,,,,,,a// ,,,e ,,d ,e ,,d ,,,e ,,d ,,,e ,,,,c ,,,e ,,,,,c ,,,e |
+%Staffnumber 10
+,,,,,,,,a// ,,b ,a a ,a ,,b ,a ,,b ,,,,c ,,b ,,,,,d ,,b |,,,,,,,,a// ,,d ,e c ,e ,,d ,e ,,d ,,,,d ,,d ,,,,a ,,d |
+%Staffnumber 11
+,,,,,,,,a// ,,f ,f d ,f ,,f ,f ,,f ,,,c ,a ,,,,c ,a |,,,,,,,,a// ,,f ,e f ,e ,,f ,e ,,f ,,a ,a ,,,b ,a |
+%Staffnumber 12
+,,,,,,,,a// ,,e ,f d ,f ,,e ,f ,,e ,,,c ,,e ,,,,d ,,e |,,,,,,,,a// ,,d ,b c ,b ,,d ,b ,,d ,,,b ,,d ,,,,c ,,d |
+%Staffnumber 13
+,,,,,,,,a// ,,b ,c a ,c ,,b ,c ,,b ,,,,e ,,b ,,,,b ,,b |,,,,,,,,a// ,,,e ,,d ,f ,,d ,,,e ,,d ,,,e ,,,,d ,,a ,,,,a ,,a |
+%Staffnumber 14
+,,,,,,,,a// ,,,e ,,d ,e ,,d ,,,e ,,d ,,,e ,,,,c ,,a ,,,,,c ,,a |,,,,,,,,a// ,,,c ,,b ,c ,,b ,,,c ,,b ,,,c ,,,,b ,,,c ,,,,,d ,,,c |
+%Staffnumber 15
+,,,,,,,,a// ,,,b ,,a ,b ,,a ,,,b ,,a ,,,b ,,,,a ,,,b ,,,,,c ,,,b |,,,,,,,,a// ,,,c ,,b ,a ,,b ,,,c ,,b ,,,c ,,,,,d ,,,c ,,,,,a ,,,c |
+%Staffnumber 16
+,,,,,,,,a// ,,,c ,,a ,,d ,,a ,,,c ,,a ,,,c ,,,,d ,,,c ,,,,a ,,,c |,,,,,,,,a// ,,,b ,,a ,,d ,,a ,,,b ,,a ,,,b ,,,,c ,,,b ,,,,,c ,,,b |
+%Staffnumber 17
+,,,,,a// ,,,b ,,a ,,d ,,a ,,,b ,,a ,,,b ,,,,d ,,,b ,,,,a ,,,b |,,,,,a// ,,,c ,,a ,,d ,,c ,,,c ,,c ,,,c ,,,,c ,,,c ,,,,,e ,,,c |
+%Staffnumber 18
+,,,,,a// ,,,e ,,d ,e ,,d ,,,e ,,d ,,,e ,,,,d ,,a ,,,,a ,,a |,,,,,a// ,,d ,e c ,e ,,d ,e ,,d ,,,,d ,,d ,,,,a ,,d |
+%Staffnumber 19
+,,,,,a// ,,c ,a a ,a ,,c ,a ,,c ,,,c ,,c ,,,,c ,,c |,,,,,a// ,,c ,a ,d ,a ,,c ,a ,,c ,,,d ,,c ,,,a ,,c |
+%Staffnumber 20
+,,,,,a// ,,,c ,,d ,b ,,d ,,,c ,,d ,,,c ,,,,d ,,,c ,,,,a ,,,c |,,,,a// ,,,b ,,d ,b ,,d ,,,b ,,d ,,,b ,,,,d ,,,b ,,,,a ,,,b |
+%Staffnumber 21
+,,,,,,a// ,,,b ,,d ,b ,,d ,,,b ,,d ,,,b ,,,,d ,,,b ,,,,a ,,,b |,,,,,a// ,,,c ,,c ,a ,,c ,,,c ,,c ,a [,b,,,,,,,a] ,,d [,,a,,,,,a] ,e |\
+[aac,,,a3]  |]
+S:https://www.folktunefinder.com/tunes/183711
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bach/999prel.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bach/999prel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

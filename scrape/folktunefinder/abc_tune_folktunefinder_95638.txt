@@ -1,0 +1,25 @@
+X:35
+T:God Save the King
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/4
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000df8.html
+%%ID:00000df8
+K:C
+ccd | B>cd | eef | e>dc | dcB | c3 ::
+ggg g>fe | fff | f>ed | e(f/e/)(d/c/) | \
+e>fg | (3a/g/f/ ed | c3 :|
+%page:5
+S:https://www.folktunefinder.com/tunes/95638
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

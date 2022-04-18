@@ -1,0 +1,23 @@
+X:100
+T: Spanish Lady
+Z: B.Black
+R: polka
+M: 2/4
+L: 1/8
+K: D
+FA AB/c/ | dd ef | gf/e/ fd | BA A2 |
+FA AB/c/ | dd ef | gf/e/ fd | BA A2 :|
+fa af | ed de | fa af | ed e2 |
+fa af | ed de/f/ | ge fd | BA A2 :|
+S:https://www.folktunefinder.com/tunes/89660
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

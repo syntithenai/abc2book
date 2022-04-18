@@ -1,0 +1,31 @@
+X:3
+T:Oh Callar Spirlings (variation 2)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass transpose -24 middle = d
+M:3/4
+L:1/16
+Q:1/4=96
+K:D Minor
+[V:1] A2|"^P."dAFA dAFA "^F."GA^cA |dAFA DFAd c=BAG|
+[V:2] z2|     d4   f4        a4    |d'4  d4   g4   |
+%
+[V:1]    "^P."cGEG cGEG "^F."FG=BG |cGEG cGce ged^c|
+[V:2]         e4   c4        g4    |c'4  c4   a4   |
+%
+[V:1]    "^P."dAFA dAdf      eA=B^c|dAdf adfa d'afd|
+[V:2]         f4   d4        a4    |d'4  d4   f4   |
+%
+[V:1]    "^F."adbd afeg      fd^ce |dAFA D4   z2  ||
+[V:2]         g4   a4        A4    |d4   zdAF D2  ||
+S:https://www.folktunefinder.com/tunes/179702
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Oh_Callar_Spirlings_variation_2_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 47
+T:German Minuet,(harmony). BC.46b
+M:3/4
+L:1/4
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+N:Grace notes slurred in MS..CGP..
+Z:vmp.John Bagnall
+K:D
+f | f2 e | d/A/ F "NB"{e}{f}g | f2g | d/A/ F F |!
+ G e G | F d F | E E D | A2 ||!
+F | F2 A | G/F/ E>G | G2 B | A/G/ F f |!
+ f e d | c d e | d/A/ G E | F2 |]
+S:https://www.folktunefinder.com/tunes/94890
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

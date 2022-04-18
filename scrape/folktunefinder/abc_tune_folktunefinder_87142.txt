@@ -1,0 +1,49 @@
+X: 9057
+T: Green Briar (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 volume=110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"GBA GBA | "G"GBd "C"efg | "Em7"edB "G"dgg | "Em7"edB "C"GFE |
+[V:2] z|G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|E,2[B,GD]G,,2[GDB]|E,2[B,GD]C,2[CGE]|
+%
+[V:1] "G"DEG DB,D | "G"GBd "C"efg | "D"a2 f "G"gdB | "D7"cAF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|D,2[CAF][G,,2D,2B,2]:|
+%
+[V:1] A|"G"dBd "Em"efg | "Am"a^ga "G"ba=g | "Em7"ede "G"gfg | "Em7"edB "Am7"AGE |
+[V:2] z|G,,2[GDB]E,2[EBG]|A,,2[AEC]G,,2[GDB]|E,2[B,GD]G,,2[GDB]|\
+E,2[B,GD]A,,2[CEG]|
+%
+[V:1] "G"DEG BAB | "G"dBd "C"efg | "D"a2 f "G"gdB | "D7"cAF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|D,2[AFC][G,,2D,2B,2]:|
+%%%%%%%tune repeat
+[V:1] D|"G"GBA GBA | "G"GBd "C"efg | "Em7"edB "G"dgg | "Em7"edB "C"GFE |
+[V:2] z|G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|E,2[B,GD]G,,2[GDB]|E,2[B,GD]C,2[CGE]|
+%
+[V:1] "G"DEG DB,D | "G"GBd "C"efg | "D"a2 f "G"gdB | "D7"cAF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|D,2[DAFc][G,,2D,2B,2]:|
+%
+[V:1] A|"G"dBd "Em"efg | "Am"a^ga "G"ba=g | "Em7"ede "G"gfg | "Em7"edB "Am7"AGE |
+[V:2] z|G,,2[GDB]E,2[EBG]|A,,2[AEC]G,,2[GDB]|E,2[B,GD]G,,2[GDB]|\
+E,2[B,GD]A,,2[CEG]|
+%
+[V:1] "G"DEG BAB | "G"dBd "C"efg | "D"a2 f "G"gdB |1 "D7"cAF "G"G2 :|2\
+"D7"cAF "G"G3-|G6||
+[V:2] G,,2[GBD]D,2[GBD]|G,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|1 D,2[AFC][G,,2D,2B,2]:|2\
+D,2[CAF][G,,3-D,3-B,3-]|[G,,6D,6B,6]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87142
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

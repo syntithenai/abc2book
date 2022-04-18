@@ -1,0 +1,27 @@
+X: 8
+T:Prelude by Dean(08). TBe.008
+M:4/4
+L:1/8
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:C minor
+c2d2e2c2 | g2d2e2c2 | ^F2A2d2A2 | B2G2g2d2 |!
+e2c2 cGAF | agfd gfec | fedB cege |!
+ BdgB AcfA |^FAdA gdec | CDEC GG,B,G, |!
+ ccec gGBG | gdec dABA | cCEG c4 ||
+S:https://www.folktunefinder.com/tunes/96159
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

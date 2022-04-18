@@ -1,0 +1,21 @@
+X: 9
+T: Over the Moor Among the Heather
+T: Air, D
+L: 1/16
+M: 4/4
+K: D
+|: A,1D3D3E1 D3E1D2A,2| B,2E2E3F1 G3F1E2D2| F2A2A3B1 d3e1f3e1| d3B1 A1B1d1F1 E3F1E2D2:| 
+|: A1d3d3e1 d3e1d2A2| B3e1e3f1 g3f1e2d2| f3e1d2B2 A1g3f3e1| d3B1 A1B1d1F1 E3F1E2D2:| 
+|: A,1B,1D1E1 D1A,1D1E1 F1A1E1F1 D1E1D1A,1| B,1D1E1F1 E1B,1E1F1 G1A1F1G1 E3D1|
+ D1E1F1G1 A3B1 A1D1F1A1 d3e1| f1d1e1B1 d1A1B1F1 E1F1G1F1 E2D2:| 
+|: A1d1 (3d1c1d1 f1d1 (3d1c1d1 A1d1f1e1 d2A2| E1G1B1d1 e1d1e1f1 g1a1f1g1 e2d2|
+ f1d1e1f1 d1A1B1d1 F1A1E1F1 A1B1d1e1| f1d1e1B1 d1A1B1F1 E1F1G1F1 E2D2:|
+S:https://www.folktunefinder.com/tunes/93932
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

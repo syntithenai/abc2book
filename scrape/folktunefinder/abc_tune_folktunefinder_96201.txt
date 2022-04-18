@@ -1,0 +1,31 @@
+X: 50
+T:Minuett. TBe.050
+M:4/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+N:Are minuets usually in 4/4  1 - I know the beats don't add up - it's
+N:up the the user to decide which one to lose.
+H:Before 1718
+Z:vmp.C. Graebe..
+K:E minor
+B | e2f2 | g f/e/^d B | c/B/A/G/ F/G/F/E/ ||! 
+"1"d | B2d2 | g f/e/ ^dB | ^c2e2 | a (f/e/) dB |\
+ e/d/e/f/ B/e/ ^d/f/ | e3 ||
+S:https://www.folktunefinder.com/tunes/96201
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

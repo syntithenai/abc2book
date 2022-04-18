@@ -1,0 +1,23 @@
+X: 3
+T:Swallowtail Jig
+M:6/8
+L:1/8
+R:Jig
+K:EDor
+E/F/ | "Em" GEE BEE | GEE BAG | "D" FDD ADD | dcd AGF |!
+ "Em" GEE BEE | GFE B2 c | "D" dcd AGF |1 "Em" GEE E2 E/F/ :||2 "Em" GEE
+ E2 B ||!
+: "Em" Bcd efe | efe edB | Bcd efe | edB "D" d2 B |!
+ "Em" Bcd efe | efe edB | "D"dcd AGF |1 "Em" GEE E2 B :||2 "Em" GEE E2 |
+|
+% Output from ABC2Win  Version 2.1 i on 11/6/2004
+S:https://www.folktunefinder.com/tunes/185787
+S:http://internet.cybermesa.com/~keating/music_abc/RJSET.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

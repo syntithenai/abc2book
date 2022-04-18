@@ -1,0 +1,30 @@
+X:820
+T:Ballyfies Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001082.html
+%%ID:00001082
+K:F
+(F/A/c) | \
+(f>e) (f>d) (c>B) | A2 F2 (F/A/c)       | \
+(f>e) (f>d) (g>f) | e>d c2 (F/A/c) |
+(f>e) (f>d) (c>B) | (A<c) (B>d) (cA/F/) | \
+(B<f)(A<f)(G<e)   | c6 ::
+(F/A/c) | \
+(f>e) fc (A/c/f) | (a<g) a<f (c/f/a) | \
+c'2 b<a (g<f)    | ed c2 (F/A/c)     |
+(a>g) (a<f) (c/f/a) | g>f (e>f) g>a | f6 ::
+%%newpage
+%page 64,65
+S:https://www.folktunefinder.com/tunes/88321
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

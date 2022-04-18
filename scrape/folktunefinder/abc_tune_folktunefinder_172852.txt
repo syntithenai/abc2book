@@ -1,0 +1,45 @@
+X: 122069
+T: Long Mile
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: G
+d/c/ | BGG AGF | GBd gdB | cAG FGA | GBB ABc |
+BGG AGF | GBd gdB | cAG FGA | BGG G2 :|
+B/d/ | gdB GBd | ecA fed | gdB cde | dBG ABc |
+BAG AGF | GBd gdB | cAG FGA | BGG G2 :|
+B/d/ | gba g2 B/d/ | gba gef | gfg efg | dBG ABc |
+dBG ecA | gfg dBG | cAG FGA | BGG G2 :|
+B/A/ | GB,D GBd | gfg efg | dBG dBG | ABG FED |
+GB,D GBd | gfg efg | dBG FGA | BGG G2 :|
+D | GBB ABc | Bdd efg | dBG cde | dBG AGE |
+GBB ABc | Bdd efg | dBG FGA | BGG G2 :|
+B/d/ | gfg dBG | DGB dBG | ceg dBG | BAG ABd |
+gfg dBG | ecA dBG | cAG FGA | BGG G2 B/d/ |
+gfg dBG | DGB def | gfg dBG | cAA ABd |
+gfg fef | edB gdB | cAG FGA | BGG G2 |
+|: D| GBd GBd | ceg ceg | dfa gdc | BAG FED |
+GBd GBd | efg dBG | cAG FGA | BGG G2 :|
+D | GBd gfg | efg dBG | cee Bdd | cBc AGE |
+GBd gfg | efg dBG | cAG FGA | BGG G2 D |
+GBd gfg | efg dBG | cee Bdd | cBc A2 D |
+GBd g2a | bge dBG | BAG ABc | def g2a |
+bgg agf | gdc BAG | gfg edc | BAG FED |
+B3 cBc | dBG FGA | BAB cBc | def g2a |
+bag agf | gdc BAG | gfg edc | BAG FED |
+B2B cBc | dBG ABc | def gdB | GDB, G,3 ||
+S:https://www.folktunefinder.com/tunes/172852
+S:http://www.qmcorp.net/webabc/collections/liddy/long_mile.abc
+S:http://www.qmcorp.net/webabc/l/122069.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

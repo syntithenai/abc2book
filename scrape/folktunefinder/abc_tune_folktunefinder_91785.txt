@@ -1,0 +1,23 @@
+X:8726
+T:Koftos
+O:Greece
+M:4/4
+L:1/8
+Q:1/4=160
+%%MIDI gchord fzzzfzfz
+K:Em
+D2|:"e"E3D"d"FGAG|"e"A2GF"d"E2D2|"e"E3D"d"FGAG|"g"G2DF"g"G2D2|
+"e"E3D"d"FGAG|"d"A2GF"e"E2D2|"e"GFEG"d"FEDF|"a"E2 z6 :|
+|: "e"B3A"g"Bcde|"g"dcBA"g"G2D2|"e"B3A"g"Bcde|"g"dcBA"e"G2z2|
+"e"B3A"g"Bcde|"g"dcBA"g"G2D2|"e"GFEG"d"FEDF|"a"E2 z6 :|
+S:https://www.folktunefinder.com/tunes/91785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

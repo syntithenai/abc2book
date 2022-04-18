@@ -1,0 +1,23 @@
+X: 1
+T: Ol\'ahos
+O: Hungary
+B: Geisler
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: Ddor
+|: "Dm"MA,D/E/ F/E/D | MA,D/E/ F/E/D | AA ^GF | "A7"E2 E2 :|
+|: "F"A>B cc | dc BA | BA ^GF | "A7"E2 E2 \
+|  "F"A>B cc | dc BA | "A7"BA FE | "Dm"D2 D2 :|
+S:https://www.folktunefinder.com/tunes/179808
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Olahos1_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/olahos.abc
+S:http://terrytraub.org/abc/olahos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

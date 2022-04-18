@@ -1,0 +1,30 @@
+X:214
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Wandering Minstrel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:D
+[D2d2] B |: ADD BAF | Ade fdB | ADD BAF | FAF GFE |
+ADD BAF | Ade fdB | AdB AFE | [1 FDD D2 B :|] [2 FDD D2 g |]
+|: faf ede | fdB AFA "(A"| JBdB AFF | GEE E2 g "A)"|
+faf ede | fdB AFA | JBdB AFE | FDD D2 g ::
+fdf agf | gbe gbe | fdf afd | ceA ceA |
+fdf agf | g{/b}ge g{/b}ge | ~f3 ede | fdd d2 z :|]
+xxxx "(A"|| ~B3 AFA | AGF E2 z "A)"|| xxxx xxxx[|] xxxx [|]
+S:https://www.folktunefinder.com/tunes/94809
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Wandering_Minstrel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Wandering_Minstrel_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

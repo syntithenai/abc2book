@@ -1,0 +1,31 @@
+X:1
+T:Mazurka du 4 Decembre
+C:Ambros Schiffermueller
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:Dm
+DE |\
+F2FGFE | F2D2de | fedcdc | A4GA |
+B2GBAG | F2D2FD |1 E2EFGF | E4 :|\
+                [2 E2EGFE | D6 ||
+|:\
+AFDAFD | B2G2GA | B2BdcB | A4de |
+f2gfed | e2^c2^cd | edegfe |1 d6 :|\
+                           [2 d4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174979
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_du_4_decembre.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

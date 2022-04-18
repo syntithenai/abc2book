@@ -1,0 +1,31 @@
+X: 14
+T:Prelude by Dean(14). TBe.014
+M:4/4
+L:1/8
+Q:180
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWMLt
+R:misc.
+O:England
+N:F minor has 4 flats, B,E,A, and D.  Key signature is shown as two
+N:flats and multiple accidentals, so transcribed as shown, except that
+N:(relative) sharps in the MS are shown as (absolute) naturals.  See
+N:notes. The word 'Finis' is written at the end.
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+f2c2_A2F2 | c2f2=e2_a2 | g2d2e2=B2 |!
+ c2d2=e2c2 | fc_dB cG_AF |bfgd =ecfc |!
+ cfec cG_AF | (_d2c2)(f2c2) | (_d2=E2) F8 ||
+S:https://www.folktunefinder.com/tunes/96165
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

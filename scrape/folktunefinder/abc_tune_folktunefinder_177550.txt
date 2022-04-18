@@ -1,0 +1,29 @@
+X: 1
+T:Muckin' In Geordie's Byer
+M:6/8
+L:1/8
+Q:160
+C:Traditional
+S:J&D Donaldson
+R:Jig
+N:Second in set with "Sid Chalmers" and "Haste To The Wedding"
+Z:Donna Diekof
+K:D
+|:"D"ABA AFA|"D"d2e f2a|"A"g2e "D"f2d|"A"efd Bcd|
+"D"ABA AFA|"D"d2e f2g|"A"afd efe|"D"d3 d3:|!
+|:"G"gfg gag|"D"fef fgf|"A"efe ede|"G"fed B2d|
+"D"ABA AFA|"D"d2e f2g|"A"afd efe|"D"d3 d3:|
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/177550
+S:http://www.blackflute.com/music/tunes/jigs/muckin.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

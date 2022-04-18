@@ -1,0 +1,30 @@
+X: 22
+T:Jigg. TBe.022
+M:6/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:jigg
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:F major
+FAc c>dc | def edc | d2z c2z | B2 A GEC |!
+ FAc c>dc | def e2 d | _efe ded | cdc =B2 g |!
+ =Bcd GAB | cdc cdc |cdc Gc=B | c3-c3 ||!
+ cdg gag | gec cde | fgf def | f>ed d3 |!
+def cdc |  BcA GcB | A d c Bed | cfe dgf |!
+ e>dc f2 g |agf edc | f3g3 | agf ede | f3-f3 ||
+S:https://www.folktunefinder.com/tunes/96173
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

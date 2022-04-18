@@ -1,0 +1,38 @@
+X:50
+T:Maggie Lawder
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000004be.html
+%%ID:000004be
+K:D
+d3ed3f d3ed3f | e2F2 gfed c4{d}e4 | d3ed3f d3ed3f | a2b2 abag Tf4 a4 |
+gfga gbag fefg fagf | edef gfed c4{d}e4| (dc).B.A (BA).G.F (GF).E.D E2g2 | (fa).g.f (eg).f.e d4D4::
+fgaf d2g2 fgaf d2f2 | e2E2 gfed c4e4 | \
+fgaf d2g2 fgaf d2f2 | a3b abag f4a4 |
+(gf).g.a (gb).a.g (fe).f.g (fa).g.f |(ed).e.f (gf).e.d c4e4 | \
+(dc).B.A (BA).G.F (GF).E.D D2g2 | (fa).g.f (eg).f.e d4 D4 ::
+(af).d2 (af).d2 (af).d.f (df).a.f| e2E2 gfed c4e4 | \
+afdf dfaf afdf dfaf | agab abag f4.a4 |
+% pagebreak on mss
+.g(BGB) (GB).g.B .e(cAc) Acec | D2f2 (gf).e.d c4e4 | \
+(dc)BA (BA)GF GFED E2g2 | fagf egfe d4 D4 ::
+(DF).A.d (DF).A.d faDg faDf | e2E2 gfed c4e4 |\
+DFAd DFAd faDg faDf| agab abag f4 a4 |
+.g(BGB) GBgB ecAc Acec | E2e2 gfed c4e4 | \
+(dc).B.A (BA).G.F (GF).E.D E2g2| fagf egfe| d4 D4::
+%page:8
+S:https://www.folktunefinder.com/tunes/95641
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

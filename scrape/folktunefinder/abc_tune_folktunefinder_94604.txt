@@ -1,0 +1,27 @@
+X:006
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Bank of Ireland
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+ed |: =c2 AB cABG | EGDG EGDB | =c2 AB cABG | Addc dfed |
+=c2 AB cABG | EGDG EGDB | (3.=c.c.c AB cABG | Ad{/e}dc d2de ::
+Jf2 fd e2 ec | dfed cAAg | Jf2 fd e2 ef | gagf ed d2 |
+fgfd efdB | dfed cAAG | Addc defg | afge dfed :|]
+S:https://www.folktunefinder.com/tunes/94604
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Bank_of_Ireland_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Bank_of_Ireland_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

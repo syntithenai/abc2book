@@ -1,0 +1,24 @@
+X:5
+T: Granny Quinn's
+C: BB
+R: reel
+M: 4/4
+Q: 1/8=350
+L: 1/8
+K: Dmix
+"D"DFAd "C"c2 AG|"Am"Ac (3cBc "D"Ad (3ded|"D"DFAd "C"cege|"D"fdeg fd d2 |
+"D"DFAd "C"c2 AG|"Am"Ac (3cBc "D"Ad d2|"D"fd (3d^cd "C"=cG (3GFG|\
+"Am"EGcG "D"ED D2 :|
+"D"fa a2 "C"ec c2|"D"defd "Am"cAGA|"D"fa a2 "C"ec c2|"G"dBcG "D"Ad d2 |
+"D"fa (3a^ga "C"ec (3cdc|"D"defd "Am"c3 A|"G"dB"C"cA "G"BGAG|\
+"Am7"A,CEG "D"FD D2 :|
+S:https://www.folktunefinder.com/tunes/87918
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/g.abc
+S:http://www2.redhawk.org:8080/irish/zouki/g.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

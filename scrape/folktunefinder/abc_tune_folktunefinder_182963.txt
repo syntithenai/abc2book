@@ -1,0 +1,23 @@
+X:1
+T:Polca de Correza (Polka pique de Correze)
+C:traditionell
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Gmixo
+dDcD dDcD | ABcB AFAF | dDcD dDcD | ABcB A4 |
+dDcD dDcD | ABcB AFAF | dDcD dDcD | ABcB A4 ||
+BDGD F3G | ABAG FGFc | BDGD F3G | ABAF G4 |
+BDGD F3G | ABAG FGFc | BDGD F3G | ABAF G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182963
+S:http://simonwascher.info/TradArchiv_polka/polca_de_correza.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

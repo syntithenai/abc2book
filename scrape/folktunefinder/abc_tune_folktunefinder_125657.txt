@@ -1,0 +1,25 @@
+X:2
+T:Old Grey Goose, pt.2
+R:jig
+D:Arcady: Many Happy Returns
+Z:id:hn-jig-87
+M:6/8
+L:1/8
+K:Em
+BGG AFF|GEE E2c|BGB dAG|FDD D2c|
+BGG AFF|GEE ~g3|edB BAF|1 GEE E2c:|2 GEE E3|]
+gbg faf|gee e2f|~g3 bag|fdd def|
+gbg faf|edB ~g3|edB BAF|GEE E3:|
+gdB B2A|GEE EGB|gdB BAG|~F3 DEF|
+GFG AGA|BAB ~g3|edB BAF|1 GEE E3:|2 GEE E2F|]
+<abc>
+S:https://www.folktunefinder.com/tunes/125657
+S:http://tomkeays.com/music/wiki/pages/playground/jigs.txt
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

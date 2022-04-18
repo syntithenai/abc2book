@@ -1,0 +1,31 @@
+X:1725
+T:Slow March by Mr. St. Collins
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001281.html
+%%ID:00001281
+K:G
+D>D  | \
+G4 D2D>D | B4 G2B>B | .B.A.B.c .e.d.e.f | G2G2 zGGG | \
+F3G/B/ dcBA | G3B/{c}d/ {ef}g/(f/e/d/) (c/B/A/G/) |
+A3B (c/B/)e/d/ c/B/A/G/ | G/E/(G/B/ A/G/)F/E/  D2 d>d | \
+^c3B A2B>B | A3G F2d>d | ^c/d/c/d/ g/f/g/e/ d2c2 | d2d>d d2 ::
+d>d | \
+d3e f>ef>d | g(f/e/) d/c/B/A/ GBdg | \
+(e/d/g/f/) (e/d/c/B/) c/B/e/d/ c/B/A/G/ | F/G/A/B/ A/F/G/E/ DDEF |
+G3A BAGF | E2 E>E EEFG | \
+A3B cB d/B/c/A/ | G6 d>d | \
+g2d>A G>Bd>g | e2e>d c2c>A | (B/A/c/A/) (d/B/)(c/A/) G2TF2 | G2G>G G2 :|
+S:https://www.folktunefinder.com/tunes/88502
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

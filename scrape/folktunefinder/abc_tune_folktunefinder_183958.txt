@@ -1,0 +1,27 @@
+X:1
+T:Princess -- Hornpipe
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:C|
+L:1/8
+K:Bb
+uB>fd>B G>ec>A|B>cd>B F2 BA|\
+G2e2 ((3efe) ((3dcB)|A2f2 ((3fgf) ((3edc)|
+B>fd>B G>ec>A|B>cd>B F2 B>A|\
+G>gf>e d>cB>A|B2b2B2:|
+|:(ucB)|A>cf>=e f>dc>B|A>cf>=e f2f2|\
+=e>gb>g e>cd>e|f>=ef>e f2_e2|
+d>ef>d B>cd>B|c>de>c A>Bc>A|\
+B>ba>g ((3fgf) ((3edc)|B2b2B2:|
+S:https://www.folktunefinder.com/tunes/183958
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/PrincessHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/PrincessHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

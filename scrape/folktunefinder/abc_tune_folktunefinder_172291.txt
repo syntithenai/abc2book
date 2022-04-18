@@ -1,0 +1,29 @@
+X:1
+T:L'Inconnu de Limoise
+C:Mazurka, Maxou Heintzen, fichier abc : Bernard Loffet
+L:1/8
+Q:320
+M:9/8
+K:C
+ z4zG c2d | [e3C,,3] C,2c [f2G,2]d | [e3A,,3] A,2e [f2A,2]g | [f3F,,3] F,2e [d2F,2]c | \
+ [G3G,,3] G,2G [c2G,2]d | [e3C,,3] C,2c [f2G,2]d | [e3A,,3] A,2e [f2A,2]g | [f3F,,3] F,2e [d2F,2]c | \
+ [d3G,,3] G,2e [f2G,2]g |: [a3F,,3] [c'2F,2]b [a2F,2]b | [g3C,,3] C,2f [e2C,2]d | \
+ [c2A,,2]B [c2A,2]d [e2A,2]c | [G3E,,3] E,3 [c2E,2]B | [A3F,,3] F,2B [c2F,2]d | [c3F,,3] [B3F,3] [A3F,3] | \
+ [B3G,,3] G,2c [d2G,2]e |1 [d3G,,3] G,2e [f2G,2]g :|2 [c3C,,3] C,6 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/172291
+S:http://diato.ifrance.com/diato/tablat/158.abc
+S:http://diato.ifrance.com/tablat/158.abc
+S:http://diato.org/tablat/158.abc
+S:http://perso.orange.fr/diato/tablat/158.abc
+S:http://perso.wanadoo.fr/diato/tablat/158.abc
+S:http://pro.wanadoo.fr/diato/tablat/158.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/158.abc
+S:http://www.diatonique.net/tablat/158.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

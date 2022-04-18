@@ -1,0 +1,37 @@
+X: 032130
+T: Crab Tree (The)
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4 = 180
+K: Bb  %%%% original key
+GA | B2 cA BGFD | CDB,C DG G2 | BG (3AGF GABd | dB (3BBB dBfd |
+B2 cA BGFD | CDB,C DG G2 | Bcdf gfbg | fdcd B2 :|
+Bc | dB (3BBB GBFB | GBFG Bcdf | gd (3ddd c2 BG | FGBc dc c2 |
+dBcB GBFB | GFDE FGBc | Bcdf gfbg | fdcd B2 Bc ||
+dBcB GBFB | GBFG Bcdf | gfdB c2 BG | F2 DF Bcdf |
+gbgf gfdc | BGFD FGBc | Bcdf gfbg | fdcd B4 ||
+K:A %Transposed from Bb
+FG | A2 BG AFEC | B,CA,B, CF F2 | AF (3GFE FGAc | cA (3AAA cAec |
+A2 BG AFEC | B,CA,B, CF F2 | ABce feaf | ecBc A2 :|
+AB | cA (3AAA FAEA | FAEF ABce | fc (3ccc B2 AF | EFAB cB B2 |
+cABA FAEA | FECD EFAB | ABce feaf | ecBc A2 AB ||
+cABA FAEA | FAEF ABce | fecA B2 AF | E2 CE ABce |
+fafe fecB | AFEC EFAB | ABce feaf | ecBc A4 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88090
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

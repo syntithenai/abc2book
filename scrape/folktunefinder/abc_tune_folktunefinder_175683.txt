@@ -1,0 +1,26 @@
+X: 1
+T: Mike Coogan's
+M: 2/4
+L: 1/8
+R: polka
+K: Emin
+e>d |: BE FD | ED B,A, | B,E EF/2E/2 |D2 e>d |
+BE (3FED | ED B,A, | B,E EF |1 E2 e>d :|2 E2 DE/2F/2 ||
+K:G
+G>F G>B | d>e dB | G>F GB/2d/2 | ef/2e/2 dB/2A/2 |
+G>F G>B | de dB/2A/2 | GE F/2E/2D | E2 DE/2F/2 |
+G>F G>B | d>e dB/2A/2 | G>F GB/2d/2 | ef/2e/2 dB/2d/2 |
+ed BG | A/2B/2G AB | eE F/2E/2D | E2 e>d ||
+S:https://www.folktunefinder.com/tunes/175683
+S:http://www.thesession.org/tunes/display/5789
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

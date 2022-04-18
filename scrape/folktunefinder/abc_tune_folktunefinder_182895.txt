@@ -1,0 +1,22 @@
+X: 1
+T: Plevin
+M: 6/8
+L: 1/8
+R: jig
+K:Amix
+c2d ceg|f2e fde|cAB cag|f2e efa|G2A GBd|def edg|f2e fde|cAa a3|
+c2d ceg|f2e fde|cAB cag|f2e efa|b2a gfe|def edg|f2e fde|cAa a3|
+M:9/8
+|:GAB cBA ecA|GAB cBA ecA|dfA fed ged|afd gec dc/B/A|
+GAB cBA ecA|GAB cBA ecA|bd ad gd f2d |dfd e3 z3:|
+S:https://www.folktunefinder.com/tunes/182895
+S:http://www.thesession.org/tunes/display/3836
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

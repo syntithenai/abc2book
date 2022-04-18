@@ -1,0 +1,24 @@
+X:65
+T: Castle View
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: Am
+E | "Am"EcA "Em"B2 c | "G"ded BAG | "Am"EcA "G"Bcd | "Em"ecB "Am"A2 G |
+"Am"EcA "Em"B2 c | "G"ded "Am"cBA | "G"GAB "F"FAc | "Em"BGE "Am"A2 :|
+e | "Am"ea^f "Em"g2 a | "G"bag "D"^fed | "Am"ea^f "G"gab | "Am"age a2 e |
+"Am"eaa "Em"b2 a | "G"g^fe "Am"cBA | "G"GAB "F"=FAc | "Em"BGE "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/88525
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

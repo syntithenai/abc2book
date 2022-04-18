@@ -1,0 +1,25 @@
+X:1390
+T: Luathradawn's Jig
+R: jig
+C: Junior Crehan
+Z: M.Hogan / J.Colburn
+M: 6/8
+Q: 1/4=165
+L: 1/8
+K: D
+d|BAF AFE|DEF EDB,|A,B,D EDE|FEE E2d|
+BAF AFE|DEF EDB,|A,B,D EDE|FDD D2 :|
+D|DFA dcd|ede fdB|def edB|ABd e2f|
+edB BAF|DFE EDB,|A,B,D EDE|1 FDD D2 :|2 FDD D3 ||
+S:https://www.folktunefinder.com/tunes/89640
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

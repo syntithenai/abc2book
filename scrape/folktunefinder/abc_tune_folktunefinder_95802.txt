@@ -1,0 +1,27 @@
+X:855
+T:Cotillion
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%RRN:Bar 6 not present in MSS - guesswork
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e71.html
+%%ID:00000e71
+K:G
+GG AB/c/ | BA G2 | g/f/e/d/ e/f/g/d/ | cB A2 |\
+GG AB/c/ | "<("">)"B"<("">)"A "<("">)"G2 | g/f/e/d/ e/f/g/a/ | gf g2 ::
+BBAA            | de/d/ ^cA       | fg/f/ ed          | ^c/d/e/c/ A2 |\
+df/d/ {d}^cB/A/ | df/d/ {d}^cB/A/ | B/c/d/B/ A/c/d/G/ | FE        D2 ::
+%page:100
+S:https://www.folktunefinder.com/tunes/95802
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

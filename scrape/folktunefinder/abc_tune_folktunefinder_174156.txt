@@ -1,0 +1,28 @@
+X: 1
+T: Man On The Moon
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|: agf gfe | d2 e d2 d | agf gfe | [M: 2/4] af ge |
+M:6/8
+agf gfe | d2 e d2 d | def aba | fde d3 :|
+| f'^e'd' e'd'c' | b2 c' b2 b | f'^e'd' e'd'c' | [M: 2/4] f'd' e'c'|
+M:6/8
+f'^e'd' e'd'c' | b2 c' b2 b | bc'd' f'g'f' | d'bc' b3 |
+K: Dmaj
+|: d2 e f2 f | edc d2 A | dag fed | e2 f e2 d | fd'c' bag |
+f/e/dB e2 e | fba fed | c'f^g a2 a  | baf efa | b3 z3 :|
+S:https://www.folktunefinder.com/tunes/174156
+S:http://www.thesession.org/tunes/display/7909
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

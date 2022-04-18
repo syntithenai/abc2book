@@ -1,0 +1,29 @@
+X: 53
+T:Trumpet Minuet,A,(Harmony). BC.49b
+M:3/4
+L:1/8
+Q:120
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnal
+K:D
+z6 | D2 DDDD | F2 FDFA | d2 F2 A2 |!
+ d2 F2 A2 | d2 F2 A2 | d2 edcB | A6 |!
+ z6 | D2 DDDD |  F2 FDFA |F4 A2 |!
+ d2 F2 A2 | d2 F2 A2 | d2 ed A2 | F6 ||!
+f2 ffff | "tr" f2 gfed | e2 eeee| "tr" e2 fedc |!
+ d2 dddd| d2 de f2 | A2AAAA| A6 |!
+ z6 | D2 DDDD |F2 FDFA | F4 A2 |!
+ d2 F2 A2 | d2 F2 A2 | d2 A2A2 | D6 |]
+S:https://www.folktunefinder.com/tunes/94896
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

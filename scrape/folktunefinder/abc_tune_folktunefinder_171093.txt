@@ -1,0 +1,22 @@
+X: 1
+T: Lambert's
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: ~E3 DED | CEG c2 G | cdc BGF | EGE FED |
+ ~E3 DED | CEG c2 e | dcB GAB |1 ced c2 D :|2 ced c3 ||
+|:e2 g fed | ecA GA_B | A2 F DEF | GEC EDC |
+ e2 g fed | ecA GEG | ABc dBG |1 ced c3 :|2 ced c2 D ||
+S:https://www.folktunefinder.com/tunes/171093
+S:http://www.thesession.org/tunes/display/2719
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

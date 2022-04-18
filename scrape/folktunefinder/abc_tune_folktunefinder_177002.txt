@@ -1,0 +1,23 @@
+X: 1
+T: THE MORRIS ON
+S: Jour EFDSS, Vol 8.
+O: Headington
+P: A and B alternately
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+|: z2 | g2d2 d2ef | g2d2 d2ef | g2d2 d2c2 | B4 G2 :|
+P: B
+|: AB | c2e2 e2dc | B2d2 d2cB | G2B2 c2d2 | B4 G2 :|
+S:https://www.folktunefinder.com/tunes/177002
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Morris_On_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

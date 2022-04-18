@@ -1,0 +1,23 @@
+X:1
+T:The Mary Ellen Carter
+M:4/4
+L:1/8
+K:C
+ GG|G-G GF EG GG| cc dB c3 e| ff fd ed cB| AA Bc| d3 d| ee ed cc cB|\
+ AB cA G2 EE| FF FE FG AF| D3 z| GG| GG GF EG GG| cc dB c3 e| ff fde-d cB|\
+ AA Bc| d2 cd| ee ed cc cB| AB cA G2 EG| FG AF G/2G/2 Bd B| c3 z| GG|\
+ GG GFE-E GG| cc dB c2 de| ff fd ed cB| AA Bc| d2 dd| ee ed cc cB|\
+ AB cA G2 EE| FF FE FG AF| D3 z| GG| GG GF EG-G G| cc dB c2 de| ff fde-d cB|\
+ AA Bc| d2 cd| ee ed cc cB| AB cA GG EG| FG AF GB dB| c3 z| e3/2 e/2 d4 e3/2 d/2|\
+ c6 cB| A2 AB c2 BA| G2 EC D3 z| G3/2 G/2 GF E2 GG| cc dd ec cB| AB cA GB dB|\
+ c6||
+S:https://www.folktunefinder.com/tunes/174572
+S:http://back.numachi.com:8000/dtrad/abc/MARYELEN.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MARYELEN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

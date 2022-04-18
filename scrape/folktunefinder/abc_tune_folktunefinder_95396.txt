@@ -1,0 +1,29 @@
+X:450
+T:My Mother says I manna
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001ea.html
+%%ID:000001ea
+K:D
+"Allegretto"D|\
+FGA "tr"B2A| d2c "tr"B2A| \
+GAF "tr"E2D| Dd2 z2D|\
+FGA "tr"B2A| d2c "tr"B2A|
+GAF "tr"E2D| Dd2 z2::\
+d|\
+c2d edc| d2c B2A| \
+"tr"c2d e2E| E/F/GF "tr"E2D|
+c2d edc| d2c B2d| AGF "tr"E2D| DdD DdB| AGF E2D| Dd2 z2:|
+S:https://www.folktunefinder.com/tunes/95396
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

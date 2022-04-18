@@ -1,0 +1,27 @@
+X:10541
+T:Mazurka d'Espalien
+S:Pauvert, Repertoire
+M:3/4
+L:1/8
+K:C
+cd|e2 eg cd|e2 eg fe|dB de fd|e2 c2 cd|\
+e2 eg cd|e2 eg fe|dB df dB|c4::
+K:G
+Bc|d2 dg ag|f2 e2 AB|cB cd ef|e2 d2 Bc|\
+d2 dg ag|f2 e2 AB|1 cB cd  BA|G4:|2 cB cd ef|g4||
+K:C
+|:eg|ce Gc eg|f2 d2 df|Bd GB df|e2 c2 eg|\
+ce Gc eg|f2 dg ^fg|BA Gf dB|c4:|
+S:https://www.folktunefinder.com/tunes/98323
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

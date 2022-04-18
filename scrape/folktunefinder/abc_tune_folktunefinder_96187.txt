@@ -1,0 +1,28 @@
+X: 36
+T:Rigadoon. TBe.036
+M:C|
+L:1/4
+Q:90
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+H:1718
+Z:C.  Graebe
+K:C major
+cdef | g (f/e/)dG | g (f/e/) dc | ""B""c d2 |!
+ defg | a (g/f/) ""ef | g (f/e/) dc | d""Bc2 ||!
+gfe (d/c/) | fga2 | gag (f/e/) | fe""d2 |!
+ GcAd | Becf | dge (d/c/) | d""Bc2 ||
+S:https://www.folktunefinder.com/tunes/96187
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

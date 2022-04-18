@@ -1,0 +1,25 @@
+X: 37
+T: Rolling off a Log -- Jig
+R:jig
+B:Ryan's Mammoth Collection
+Z:Contributed by Ray Davies, ray:davies99.freeserve.co.uk
+M:6/8
+L:1/8
+K:C
+vcue|v"segno"(g2.^f) u(a2.f)|ge(c {d}c)Bc|dBG GAB|cd^d ef^f|
+"_fz"(g2.^f) u(a2.f)|ge(c {d}c)Bc|dBG GAB|1 cge c:|2 c2z [E2c2] zH|]
+K:G
+vBd(g {a}g)fg|Bd(g {a}g)fg|fga agf|age d^c=c|
+Bd(g {a}g)fg|Bd(g {a}g)fg|fga agf|1 g2 z  "4"edc:|2 vg3 ug3"_D.S.""segno"|]
+S:https://www.folktunefinder.com/tunes/177173
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/QR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

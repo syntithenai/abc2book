@@ -1,0 +1,27 @@
+X:1065
+T:Flowers of Edinbourgh
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001040.html
+%%ID:00001040
+K:C
+cB | \
+G2GA c2cd | ecgd e2dc | dcBA GABc | dBgB ABcA | \
+G2GA c2cd | edef a2(3abc' | e2dc B2cd | e2c2 c2 ::
+g2 | \
+c'bc'd' e'2d'c' | babc' d'2c'b | agab c'bag | e2a2 a2(c'a) | \
+gece g2g2 | agab c'2(c'a) | gfed cBcd | e2c2 c2 ::
+S:https://www.folktunefinder.com/tunes/88370
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

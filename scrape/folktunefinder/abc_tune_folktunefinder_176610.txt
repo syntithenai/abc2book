@@ -1,0 +1,34 @@
+X:1
+T:Mon amant de St Jean
+C:Paroles : Lon Agel. Musique: Emile Carrara   1942  (La Mineur), fichier abc : Bernard Loffet
+L:1/8
+Q:420
+M:3/4
+K:C
+ z4 AB | [c2A,,2] [c2A,2] [c2A,2] | [c2F,,2] [B2F,2] [A2F,2] | [c2A,,2] A,2 A,2 | \
+ A,,2 [B2A,2] [c2A,2] | [d2D,,2] D,2 D,2 | [c2E,,2] E,2 [B2E,2] | [c2A,,2] [A2A,2] A,2 | \
+ A,,2 [A2A,2] [B2A,2] | [c2A,,2] [c2A,2] [c2A,2] | [c2G,,2] [B2G,2] [A2G,2] | [f2F,,2] F,2 F,2 | \
+ [d2D,,2] [e2D,2] [f2D,2] | [e2E,,2] E,2 [d2E,2] | [c2E,,2] E,2 [B2E,2] | [A2A,,2] A,2 A,2 | \
+ A,,2 A,2 [A2A,2] | [e2A,,2] [c2A,2] [A2A,2] | [e2F,,2] [c2F,2] [A2F,2] | [e2A,,2] A,2 A,2 | \
+ A,,2 A,2 [e2A,2] | [f2F,,2] [f2F,2] [f2F,2] | [d2G,,2] [e2G,2] [f2G,2] | [e2C,,2] C,2 C,2 | \
+ C,,2 C,2 [c2C,2] | [B2E,,2] [B2E,2] [B2E,2] | [B2E,,2] E,2 [B2E,2] | [c2A,,2] [c2A,2] [c2A,2] | \
+ [c2G,,2] G,2 [c2G,2] | [c2F,,2] [B2F,2] [c2F,2] | [d2D,,2] [c2D,2] [d2D,2] | [e2E,,2] E,2 E,2 | \
+ E,,2 E,2 E,2 | [e2A,,2] A,2 A,2 | [c2F,,2] [B2F,2] [A2F,2] | [e2A,,2] A,2 A,2 | [c2F,,2] [B2F,2] [A2F,2] | \
+ [e2A,,2] [d2A,2] [e2A,2] | [a2F,,2] [g2F,2] [f2F,2] | [e2C,,2] C,2 C,2 | C,,2 C,2 C,2 | \
+ [d2E,,2] E,2 E,2 | [B2E,,2] [c2E,2] [d2E,2] | [c2A,,2] A,2 A,2 | [A2F,,2] [B2F,2] [c2F,2] | \
+ [B2D,,2] [B2D,2] [B2D,2] | [^G2E,,2] [c2E,2] [B2E,2] | [A2A,,2] A,2 A,2 | A,,2 A,4 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/176610
+S:http://diato.ifrance.com/diato/tablat/108.abc
+S:http://diato.ifrance.com/tablat/108.abc
+S:http://diato.org/tablat/108.abc
+S:http://perso.orange.fr/diato/tablat/108.abc
+S:http://perso.wanadoo.fr/diato/tablat/108.abc
+S:http://pro.wanadoo.fr/diato/tablat/108.abc
+S:http://www.diatonique.net/tablat/108.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

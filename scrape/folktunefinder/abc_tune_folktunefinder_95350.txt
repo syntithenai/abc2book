@@ -1,0 +1,28 @@
+X:220
+T:Mlle Heinel's Fancy
+B:Aird's Airs and Melodies vol 3
+M:2/4
+N:I guess the Ps and Fs in the 2nd part are 'piano' and 'forte' 
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001bc.html
+%%ID:000001bc
+K:G
+d4 B2Bd| dccB {B}A2G2| \
+AFG2 AFG2| c2B2 {B}A4|\
+d4 B2Bd| dccB {B}A2G2|
+ecde dABc| B2A2 G4:: \
+"P"gfga "F"gbd2| "P"edef "F"egB2| \
+cBcd ceAc| BdGB {B}A4|
+"P"gfga "F"gbd2| "P"edef "F"egB2| \
+cBcd ceAc| BdGB A4:|
+S:https://www.folktunefinder.com/tunes/95350
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

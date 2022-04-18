@@ -1,0 +1,29 @@
+X: 1
+T:Maid of the Mill
+M:6/8
+C:
+S:Sharp from Timothy Howard 1909 Sep 8
+N:from Howard Mitchell of Manchester MM, from Roger Nichols of Bedford MM
+A:Brackley
+O:English
+R:Jig
+P:AB
+L:1/8
+K:G
+I:speed 300
+P:A
+|:G>FG B>AB|ABc d3|E>FE E2 D|G3 G3:|\
+P:B
+d>ed d2 B|c>dc c3|E>FE E2 D|G3 G3|\
+d2 d d3|B2 B B3|E>FE E2 D|G3 G3||
+S:https://www.folktunefinder.com/tunes/173808
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Maid_of_the_Mill_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

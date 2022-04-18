@@ -1,0 +1,28 @@
+X:39
+T:Seamus O'Shanahan's
+C:Paul O'Shaughnessy
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:Am
+|:\
+"Am"EAA ABc|"G"BGG GBd|"C"edc Bcd|"Em"(B~c2) BGF|
+"Am"~E3 ABc|"G"BGG GBd|"F"edc "Em"Bcd|1\
+"Dm"cAG ~A2G:|2"Am"cAG A/A/Bc||
+"Dm"d2f ~fgf|"Am"ecA Adc|"E7"~B2d ~dcB|"Am/A7"cee ecA|
+"Dm"dff fgf|"Am"ecA Adc|"E"B/c/Bd cBG|"Am"ABA A2A|
+"Dm"d2f ~fgf|"Am"ecA Adc|"E7"~B2d ~dcB|"Am/A7"cee ecA|
+"Dm"dfg agf|"Am"ecA Adc|"E"B/c/Bd cBG|"F"AcA "G"BGF||
+S:https://www.folktunefinder.com/tunes/125712
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

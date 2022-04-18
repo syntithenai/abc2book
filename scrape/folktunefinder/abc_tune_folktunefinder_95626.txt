@@ -1,0 +1,30 @@
+X:14
+T:Branle des sabots
+R:bransle
+C:Trad.
+S:Thoinot Arbeau
+N:0177.gif
+B:Orchesographie (1589)
+O:France
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=220
+K:F
+%%MIDI nobarlines
+%%MIDI transpose 0
+|: B2B2 c/B/A/G/AF GGFBBAB2 :: c/B/A/G/AF c/B/A/G/AF FzFzFz :|
+%%footer $D   Galouvielle-MBe 2006 \nbransle (France)
+S:https://www.folktunefinder.com/tunes/95626
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/Danse%2520Compagnons%2520de%2520Roland.abc
+% Rhythm Bransle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 8/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 111
+T: Rocks of Connemara [reel]
+N: 180081
+C: BB
+N: revision 1/4/07
+R: reel
+Q: 1/8=380
+M: 4/4
+L: 1/8
+K: Dm %%MIDI program 1 110
+DE|"Dm"FDAG FDCA,|"Dm"DEFG "Am"Ac=Bc|"Dm"d2 ^cd "Am7"e=cAG|"F"F2 AF "C"GECE|
+"Dm"FDAG FDCA,|"Dm"DEFG "A"A^c=ec|"Dm"dAFA "Gm"BAGF|"Am"ECA,C "Dm"D2 :|
+DE|"F"F2 cF dFcF|"Gm"BAGB "A"A^cde|"Dm"f3g afed|"C"c=Bce "Dm"dcAG|
+"F"F2 DE FGAB|"C"c2 eg "Am"agfe|"Dm"d3 e f2 ed|"Am7"cAGE "Dm"D2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86806
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

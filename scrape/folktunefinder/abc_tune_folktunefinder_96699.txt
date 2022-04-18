@@ -1,0 +1,26 @@
+X:2
+T:Carnaval de Venise
+T:Air vari\'e pour Cornet, Trompette, Bugle, Baryton ou Tenorhorn
+C:Arban
+M:6/8
+L:1/8
+Q:3/8=54
+K:F
+P:Air
+"_p"c|d z c {c}(B2A)|{A}BG z z GA|(B2=B {B}d2c)|{c}A2 z z2 c|(Lf2c) {c/d/}cBA| {A/c/}BG z z GA|
+(B2=B {B}d2c)|{c}A2 z z2 c|(cB)A (AG)F|(FE) z z GA|(B2=B {B}d2c)|F2 z z2 c|
+(cB)A (AG)F|(FE) z z GA|(B2=B {B}d2c)|F2 z z z/ (c/=B/c/|d/c/=B/c/)(A/c/) (F/A/)(C/F/).A/.d/|
+L:1/16
+(c=BcA_B^F) G2 z ("_<"c=Bc|_dc=Bcdc "_>"=dc=Bc_Bc)|(BAdc^GA) A2 z (c=Bc)|
+(dc=Bc)(Ac) (FA)(CF).A.d|(c=BcA_B^F) G2 z (c=Bc|_dc=Bcdc =dc=Bc_Bc)|(BAdc^GA) A2 z2c2|
+(cf)(fA)(Ac) (cF)(FA).G.F|.E(EG)(GB)(Bd2) z (c=Bc)|(_dc).c(eg)(c e)(B=d)(GB).E|(GFEF).A"^* (org Bb)".c f4c2|
+(cf)(fA)(Ac) (cF)(FA).G.F|.E(EG)(GB)(Bd2) z (c=Bc)|(_dc).c(eg)(c e)(_B=d)(GB).E|(GFEF).A.c f2 z2|]
+S:https://www.folktunefinder.com/tunes/96699
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

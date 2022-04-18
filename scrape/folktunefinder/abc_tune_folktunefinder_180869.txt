@@ -1,0 +1,39 @@
+X:1
+T:Over the Water
+M:6/8
+C:
+S:Bacon (Jour 1934)
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$.(A)
+P:A.(AB)4.(A)
+%:NoTeX
+%:NoWWW
+K:A
+I:speed 300
+P:A
+|: Ace ece  | fgf e2 A | B2 B cBA | F2 G A3 :|\
+P:B
+|: fga gfe  | fgf e2 e | fga  gfe |\
+M:3/8
+L:1/8
+f2 g |\
+M:6/8
+aba gfe  | fgf e2 A | B2 B cBc | F2 G A3 :|
+S:https://www.folktunefinder.com/tunes/180869
+S:http://www.ucolick.org/~sla/morris/music/Bledington/overwater.lb2.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Bledington/overwater.lb2.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Bledington/overwater.lb2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

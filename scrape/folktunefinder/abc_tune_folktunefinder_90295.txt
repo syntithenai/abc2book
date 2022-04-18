@@ -1,0 +1,25 @@
+X:120
+T:Hunter's Purse, The
+S:Trad, arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+Bd| eAAB AGEF|~G2AF GE~D2|cBcd efed|cdef gedB|\
+~A2GB AGEF|*GBAF GE~D2|cBcd efed|cABGA2:|\
+Bd|eaab agef|geaf gedB|*cBcd (3efg ed|cdef g2ed|\
+eaab aged|~g2 af gedB|cBcd efed|cABG A2:|**
+S:https://www.folktunefinder.com/tunes/90295
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

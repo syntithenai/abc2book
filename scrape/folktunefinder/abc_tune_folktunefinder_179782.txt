@@ -1,0 +1,22 @@
+X: 1
+T: O'Kanes
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+(3DEF|
+:(3GFG dG BG (3Bcd | gd (3d^cd BcdB | (3cBc ac bgag | (3fga ef dcBc|
+dg (3gfg dBGB | cA A2 CEAG | (3FED cA FDEF |1 AG (3FGA G2 (3DEF:|2 AG (3FGA G2 
+ef |
+:(3fgf dg dBGB | AE E2 cBAG | (3FED FA d^c=cA | GBde fgcA |
+BDGB ce e2 | dedB GB (3dcB | cdfd cADF |1 AG (3FGA G2 ef: |2 AG (3FGA G2||
+S:https://www.folktunefinder.com/tunes/179782
+S:http://www.thesession.org/tunes/display/7978
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

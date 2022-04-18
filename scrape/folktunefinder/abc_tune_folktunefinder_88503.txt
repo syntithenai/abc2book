@@ -1,0 +1,24 @@
+X:1730
+T:Peggy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001282.html
+%%ID:00001282
+K:D
+(dc).B.A  | (B<d) F2   | ABAF     | A4  | dcBA      | (B<d) F2 | FBBA        | c4 ::
+A>d .d.d  | (A<d) .d.d | B<e .e.e | e3f | (gf) .e.d | dcBA     | (B<d) (c<e) | d4 :|
+%%newpage
+%page 139
+S:https://www.folktunefinder.com/tunes/88503
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

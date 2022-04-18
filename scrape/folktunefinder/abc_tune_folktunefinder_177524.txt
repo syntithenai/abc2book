@@ -1,0 +1,30 @@
+X: 1
+T: Mrs. Stewart's Jig (8x32J)
+T: RSCDS Book 35
+P: Captain Charles Stewart's Jigg
+C: Malcolm MacDonald
+R: jig
+B: RSCDS 35-1
+C: arr. 1997 by John Chambers <jc@trillian.mit.edu>,
+C: mod. by T. Traub 10-2002
+M: 6/8
+L: 1/8
+K: G
+|: D \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABA | "C"GEE "D7"E2D/E/ \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "D"ABc | "G"BGG G2 :|
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 ||
+|| d \
+| "G"d^cd "C"e=ce | efg g2e | "G"dBG "Am"ABc | "G"BAG "C"EDE \
+| "G"Gz2 "C"G2c | "G"B/c/de "C"g2e | "G"dBG "Am"ABc | "D7"BGG "G"G2 |]
+S:https://www.folktunefinder.com/tunes/177524
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/CaptCharlesStewartsJ.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 1
+T: Neilly O'Boyle's
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+A2 cA dBcB|ABcd ecac|A2 cA dBcA|BABc d2 cB|
+A2 cA dBcB|ABcd ecac|A2 cA dBcA|BABc d3 B|
+cdef ecac|ecac efed|cdef ecac|BABc d3 B|
+cdef ecac|ecac efed|cdef ecac|BABc d2 cB|
+S:https://www.folktunefinder.com/tunes/178353
+S:http://www.thesession.org/tunes/display/2428
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

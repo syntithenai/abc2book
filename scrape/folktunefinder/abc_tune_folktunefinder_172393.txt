@@ -1,0 +1,27 @@
+X: 1
+T: LITTLE BROWN JUG - JIG
+C: Jas.Hand
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20021212150840 by John Chambers jmchambers:rcn.com
+K: D
+(ud/e/) \
+| kf3 d2B | AdB A>FD | (FB)B Bcd | {d}cBc {c}BAF \
+| kf3 (d2B) | AdB {c}BAF | FBB Bcd | {d}cBc B2 :|
+|: uA \
+| f>ed f>ed | cAB =c2d | =cAB cAG | FDF Ade \
+| f>ed f>ed | cAB =c2d | =cAG FGA | (FD)D D2 :|
+S:https://www.folktunefinder.com/tunes/172393
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/LittleBrownJugJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/LittleBrownJugJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/LittleBrownJugJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

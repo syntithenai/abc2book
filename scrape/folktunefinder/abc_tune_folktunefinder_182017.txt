@@ -1,0 +1,25 @@
+X: 1
+T:Peggy \& Nancy
+R:Triple Hornpipe
+M:3/2
+L:1/8
+K:G
+g3e f3d gedc | B2D4 G2B2d2 | \
+c3A B3G cAGF | G2D4 G2B2d2:|
+|:gedc defd gedc | B2D4 G2B2d2 |\
+cAGF GABG cAGF | G2D4 G2B2d2 :|
+|:gab2 agf2 gedc | B2D4 G2B2d2 |\
+cde2 dcB2 cAGF | G2D4 G2B2d2 :|
+|:gece afdf gedc | B2D4 G2B2d2 |\
+cAFA dBGB cAGF | G2D4 G2B2d2 :|
+S:https://www.folktunefinder.com/tunes/182017
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pe/Peggy_Nancy_1.abc
+% Rhythm Triple hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

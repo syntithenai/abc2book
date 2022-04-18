@@ -1,0 +1,22 @@
+X: 2
+T:Off to California (Waltz)
+M:3/4
+L:1/8
+R:Waltz
+K:G
+(3DEF| G3 F GB | AG E2 D| GB dg gf|
+e4 (3def| g3 f gd| e2 d2 BG| A3 B AG|1 E4 :|2 G4 gg||
+|: gf e2 ge| fe d2 fd| e3 d ef| ed B4| g3 f gd| e2 d2 BG|
+A3 B AG| E2 (3DEF| G3 F GB| AG E2 D2| GB g2 (3fgf|
+e4 (3def| g2 fg gd| e2 d2 BG| A3 B/A/ GF| G4 ||
+S:https://www.folktunefinder.com/tunes/179617
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/Off_to_California_Waltz_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

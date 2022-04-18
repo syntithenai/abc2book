@@ -1,0 +1,27 @@
+X:5
+T: Flanagans' Banshee
+S: Flanagan Brothers
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: G
+GA | B2 BA BAGA | BAGE D2 DE | G2 FG A2 GA |\
+BddB A2 GA |
+B2 BA BAGA | BAGE D2 DE | G2 FG A2 GA | BGGF G2 :|
+GA | BddB d2 Bd | egge g2 ge | d2 ge dBGA |\
+BAAG A2 GA |
+BddB d2 Bd | egge g2 ge | d2 ge dBAc | BGGF G2 :|
+S:https://www.folktunefinder.com/tunes/89105
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

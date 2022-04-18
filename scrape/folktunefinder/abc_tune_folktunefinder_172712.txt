@@ -1,0 +1,18 @@
+X:1
+T:The Log Driver's Waltz
+M:3/4
+L:1/4
+K:G
+ D/2D/2D/2| D B G| D2 D/2D/2| E c A| E2 E| D F A| d d d| e d ^c| d z D|\
+ D B G| D ^C D| E =c A| E2 E/2E/2| D d3/2 d/2| d =c A| B G G| d e f|\
+ g2 d| B2 d| c2 e| e c2| B d3/2 d/2| d c B| A3/2 d/2 d| d e f| g2 d|\
+ B2 d| c2 e| e c3/2 c/2| B d d| d c B| A2 d| B G2|
+S:https://www.folktunefinder.com/tunes/172712
+S:http://back.numachi.com:8000/dtrad/abc/LOGDRIVR.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/LOGDRIVR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

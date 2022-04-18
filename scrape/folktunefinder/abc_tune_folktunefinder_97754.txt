@@ -1,0 +1,32 @@
+X:86
+T:the Hidden Waltz
+R:Waltz
+C:trad./arr. G. Cunich
+S:Argos
+Z:transcribed into abc by Gianni Cunich, g.cunich@tiscalinet.it <mailto:g.cunich@tiscalinet.it>
+M:3/4
+L:1/8
+K:D
+P:A
+"D"A4d2|d4cd|"Em"e4B2|B6|
+"A"cde4|cde4|"D"f3 e dB|A6|
+A4d2|d4cd|"Em"e4B2|B6|
+"A"cde2c2|A2B3c|"D"d2f3e|d6|]\
+P:B
+K:G
+"G"d3 z/d/d2|"C"e6|"G"d3 z/d/d2|B6|
+"D7"c2z2c2|ABc2e2|"G"d2z2d2|B4d2|
+d3 z/d/d2|"C"e6|"G"d3 z/d/d2|B6|
+"D7"c2z2c2|ABc2A2|"G"G2B3A|G6|]
+S:https://www.folktunefinder.com/tunes/97754
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 103
+T: Celtic Colours #1
+T: Reel, D Dorian/ D Mixolydian
+C: Brenda Stubbert
+L:1/8
+M:C|
+K: D Dorian
+|:B|AB c2 dcAG|FEFD EccB|AB c2 dcAG|FDEC Dddc|
+AB c2 dcAG|FEFD EccB|AGAc d2 ed|AcGE EDD:|
+K: D Mixolydian
+|:g|fd^cd Adfa|gecd efge|fd^cd Adfa|gecd edde|
+fd^cd Adfa|gecd efge|(3(aba) ge d=fed|cAGc Add:|
+D: Brenda Stubbert, Some Tasty Tunes, STU-0799, 1999
+S:https://www.folktunefinder.com/tunes/94026
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+S:http://www4.ncsu.edu/%7Epfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

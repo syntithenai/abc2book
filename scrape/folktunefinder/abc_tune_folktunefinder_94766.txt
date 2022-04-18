@@ -1,0 +1,26 @@
+X:170
+U: ~ = !turn!
+%%topmargin 3cm
+T:Providence Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+{EF}EDCE DEFA | (3.d.d.d fd gdfd | edBd AdBA | ((3Bcd) AF EGFD |
+E3F DEFA | Jd2 fd gdfd | edBd AdBA | ((3Bcd) AG FDD2 ::
+fd (3.d.d.d fdgd | fd (3.d.d.d ecAe | fd (3.d.d.d fded | ceag fdde |
+fg ((3agf) gfec | ((3dcB) AF JG2FG | (3.A.B.A FA ABde | ((3fga) eg fdd2 :|]
+S:https://www.folktunefinder.com/tunes/94766
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Providence_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Providence_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

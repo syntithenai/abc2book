@@ -1,0 +1,30 @@
+X:211
+U: ~ = !turn!
+%%topmargin 3cm
+T:Waltham Flute Tune
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Eugene Nolan, Dierdre Collis, Peg McGrath
+R:Reel
+L:1/8
+M:C|
+K:D
+Beed BAFA | d2 ed BAFA | Beed BAFA | ((3Bcd) eg fded |
+Beed BAFA | d2 ed BAFA | Beed BAFA | ((3Bcd) eg feed ::
+e2 ((3gfe) Be ((3gfe) | defg agfg | e2 ((3gfe) Be ((3gfe) | defa geed |
+e2 ((3gfe) Be ((3gfe) | defg a2 ga | ((3bag) ((3agf) gfed | ((3Bcd) eg feed :|]
+S:https://www.folktunefinder.com/tunes/94806
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Waltham_Flute_Tune_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Waltham_Flute_Tune_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

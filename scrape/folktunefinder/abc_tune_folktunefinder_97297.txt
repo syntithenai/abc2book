@@ -1,0 +1,35 @@
+X: 16
+T: Goodbye My Lady Love
+I: Goodbye My Lady LoveS-GBm/Dsquare
+C: S-G
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: D
+"Bm"B4 "Bm7 A"A4| "G"G4 "F#7"F4| "Bm"B2B2 "Bm7"A2"A"A2| "G7"G2G2 "F#7"F2z2|]
+%%vskip .2cm
+|:\
+"Bm"f8-| f2b2 a3g| f8-| f2f2 e2d2| \
+"F#7"c8-|c2e2 d2c2| "Bm"d4 B4-| "G  F#7"B8|
+"Bm"f8-| f2b2 a2g2| f8-| f2d2 e2f2| \
+"A7"e4 a4| "E7"b4 ^g4| "A"a8-| "A7"a2f2 g2^g2|
+"D"a2 a4 b2| a2ba- a4| f2 f4 g2| f2gf- f4| \
+"A7"e2 e4 f2| a2g2 f2e2| "D"d2e2 "E7"f2b2| "A7"a2f2 g2^g2|
+"D"a2 a4 b2| a2ba- a4| f2 f4 g2| f2gf- f4| \
+"A7"e2 e4 f2 |1 a2e2 c2A2| "D Bm7"d8-| "G7 F#7"d8 :|
+[2 "A7"a2gf- f4| e2 e4 f2| a2gf- f4| e2 e4 f2| a2e2 c2A2| "D"d8-| d8|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/97297
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

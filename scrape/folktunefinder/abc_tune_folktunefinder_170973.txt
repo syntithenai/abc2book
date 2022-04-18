@@ -1,0 +1,37 @@
+X: 1
+T: Lady Montgomery [D]
+C: Lord Eglintoune 1796
+R: reel
+B: RSCDS 10-1(b)
+B: David Glen Coll. of Pipe Music
+Z: Etienne Ozorak
+M: C|
+L: 1/8
+K: D
+f \
+| "D"d2dA FGAF \
+| "Bm"d2dB "A7"cdef \
+| "D"d2dA FGAF \
+| "Em"Ee ed "A7"cdef \
+| "D"d2dA FGAF |
+| "Bm"dfdB "A7"cdef \
+| "D"dfAd FGAF \
+| "Em"Ee ed "A7"cdef \
+|]| "D"d2ad fd"(A)"a2 \
+| "D"d2ad fgab \
+| "D"d2ad fda2 |
+| "Em"gfed "A7"cdef \
+| "D"d2ad fda2 \
+| dbag fgab \
+| afge "(Bm)"fdec \
+|1 "Em"dBAF "A7"Ee e \
+:|2 "G"BA"A7"Bc "D"d3 |]
+S:https://www.folktunefinder.com/tunes/170973
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LadyMontgomery16_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

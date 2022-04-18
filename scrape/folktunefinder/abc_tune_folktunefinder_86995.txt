@@ -1,0 +1,37 @@
+X:550
+T: Mike Dugger's (with piano acc.)
+C: BB
+M: 4/4
+R: reel
+Q: 1/8=350
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] "Bm"DFBF AFEF|"D"AdBA "A"FE (3EDE|"Bm"DFBF "D"ABde|"F#m7"faec "Bm"BAFE|
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]A,,2[A2C2E2]|B,,2[F2B2D2]D,2[A2D2F2]|\
+F,,2[A2C2F2]B,,2[F2B2D2]|
+%
+[V:1] "Bm"DFBF AFEF|"D"DFAB "A"ABce|"D"fd (3dcd "G"BG (3GFG|"A7"EGAG "D"FD D2 :|
+[V:2] B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[G2C2E2][D,4F4A,4]:|
+%
+[V:1] "A"cA (3A^GA eA (3A^GA|"D"dfaf "Bm"bfaf|"F#m"ecef "A7"gfec|"D"dfec dafd|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|D,2[A2D2F2]B,,2[F2B2D2]|F,,2[A2C2F2]A,,2[G2C2E2]|\
+D,2[A2D2F2]A,,2[A2D2F2]|
+%
+[V:1] "A"cA (3A^GA eA (3A^GA|"D"dfaf "Bm"bfaf|"G"gfed "Bm"fdBF|"A7"Acec"D"d4 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|D,2[A2D2F2]B,,2[F2B2D2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+A,,2[G2C2E2][D,4F4A,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86995
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 2064
+T: No Harm Done
+R: hornpipe
+C: Rick Gagne 2002 on whistle
+M: 4/4
+Q: 1/4=165
+K: G
+(3def | "G"gaba gfed | "Em"efgf edcB | "C"cded cBAG | "Am"AGFE "D"D2 (3def | 
+"G"gaba gfed | "Em"efgf edcB | "C"cded cBAG | "D"DcAF "G"G2 :|
+FG | "Em"EFGA Beef | gfed eBBe | "C"gfed "Em"bage | "D"fdd^c defd | 
+"G"gdcd Bdgd | "C"ecag "D"fdcA | "G"BgdB "Am"aeca | "D"fdcA "G"G2 :|
+S:https://www.folktunefinder.com/tunes/93088
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:370
+T: In Days Gone By
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+K: Ddor
+A|"Dm"d^cde fgag|"Dm"f2 ed "Am"cA (3AGA|"C"c2 BG "Am7"A2 GE|\
+"Dm"FGAd "A7"^ceag|
+"Dm"fgaf "C"ec (3cBc|"Dm"dcAG FDDE|"F"F2 AF cFdF|"Am7"cAGE "Dm"D3 :|
+A|"Dm7"dcAc dcAc|"Am7"a2ge "Dm"fedc|"Dm"defd "Am7"cAGE|\
+"Dm7"FD"A"^CE "Dm"D3 A|
+"Dm7"dcAc "Am7"agfe|"Dm7"defd "Am7"cAGE|"Dm7"FGAd "A7"^ceag|\
+"Dm7"fd"A"e^c"Dm"d3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86483
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

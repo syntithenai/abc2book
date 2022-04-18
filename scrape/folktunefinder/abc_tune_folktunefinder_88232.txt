@@ -1,0 +1,38 @@
+X:375
+T:Ould Roger a Coverly
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/4
+M:C|
+N:This is insane. I dunno.
+O:England
+Z:Richard Robinson 
+%%RRN:"a Good Ould way of playing it"
+%%TranscriptionNotes:This is what's written
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ebf.html
+%%ID:00000ebf
+K:G
+G,A,B,C         | d(cB)A  | (G/F/)(E/D/) C2  | \
+EEG,D           | A,2G,A, | B,Cdc            |  \
+Be (d/c/)(B/A/) | d2 DD | G,DB,G,            ::
+AFAB            | GBAF  | Ad2       |\
+GG,DB,          | G,AFA | BGB A     | \
+FAd2            | DDG,D | B,2(A,G,) ::
+d>efe           | fgf(g/f/) | (e/d/)e2E    | \
+G,DB,           | G,d>ef    |  e>fgf     | \
+(g/f/)(e/d/) d2 | DDG,D     | B,2(A,G,) ::
+a(b/a/g/f/)g | a/g/f/e/f     | (g/f/e/d/)e2 E |\
+EG,DB,       | G,a(b/a/g/f/) | g(a/g/f/e/)f   | \
+(g/f/e/d/)d2 | DD G,D        | B,2(A,G,)     :|
+%%newpage
+%page 23
+S:https://www.folktunefinder.com/tunes/88232
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

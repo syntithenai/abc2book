@@ -1,0 +1,18 @@
+X:1
+T:Mayn Rue-Platz
+M:2/4
+L:1/8
+K:C
+ A,C D| E3 G| AG E2| C3/2 C/2 EC| E3 C| DB, A,2| z A,C E| A3 E| c3/2 B/2 A2|\
+ G2 B3/2 A/2| G3 D| EF E4| EE
+M:2/4
+| E-E/2-E/2 FD| C-B,/2-C/2 DB,| A,3||
+S:https://www.folktunefinder.com/tunes/174849
+S:http://back.numachi.com:8000/dtrad/abc/RUEPLATZ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

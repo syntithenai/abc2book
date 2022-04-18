@@ -1,0 +1,21 @@
+X: 1
+T:Patrick Band
+R:Slip jig
+M:9/8
+L:1/8
+K:G
+Bcd def g2d | cde efg a2c |\
+Bcd Bcd gdB | cde ABc BAG :|
+|:Bcd dcB e2c | Bcd dcB c2A | \
+Bcd dcB efg | fga ABc BAG :|
+S:https://www.folktunefinder.com/tunes/181769
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pa/Patrick_Band_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

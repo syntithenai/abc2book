@@ -1,0 +1,40 @@
+X:18958
+T:Xiraldilla (CT 052)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 052
+M:3/8
+L:1/8
+Q:3/8=88
+W:La naranjita,
+W:la naranjada.
+W:Dime qu traes de amores,
+W:rosa encarnada.
+W:Yo del amor
+W:no traigo nada,
+W:que vengo de regar
+W:el romero a mi dama;
+W:ya se le iba secando
+W:toda la rama.
+K:C
+G
+|GBB|B2 A|GBB|B2 z|BBd|dec|d2 B|cBA|G2 z|
+GGB|B2 A|GBB|BAc|B2 z|Bdd|ddd|cBA|G2 z|
+ABc|dec|d2 B|cBA|G2 z||
+S:https://www.folktunefinder.com/tunes/94249
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

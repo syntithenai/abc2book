@@ -1,0 +1,25 @@
+X:1435
+T:Flitter to the Gill
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:actual written keysig is 6/4, but notelengths as given
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001225.html
+%%ID:00001225
+K:C
+(e/f/) | gdB gdB | B>AG AFD | gdB gdB | cA2 G2 ::
+(B/c/) | dBG ecA | dBG  AFD | dBG gdB | cA2 G2 :|
+%%newpage
+%page 115
+S:https://www.folktunefinder.com/tunes/88444
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

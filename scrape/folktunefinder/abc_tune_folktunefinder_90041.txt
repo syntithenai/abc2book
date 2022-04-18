@@ -1,0 +1,22 @@
+X:54
+T:Girl I Left Behind
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+g/f/|ed BG|AG E>F|GG GB|(LD2B) (g/f/)|ed BG|AG E>G|FA DE/F/|LG2 LG::
+d|!crescendo(!Bdef!crescendo)!|(Lgd)B G/G/|!crescendo(!Bdef!crescendo)!|(Lg2f) (g/f/)|ed BG|A/B/A/G/ E>G|FA DE/F/|LG2 LG:|
+S:https://www.folktunefinder.com/tunes/90041
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:1
+T:Poolside
+C:Cliff Stapleton 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D
+AG |\
+(F2A2 d2)fe | d2cB A4 | BdcB A2F2 | GFEF GEFG |
+(F2A2 d2)fe | d2cB A4 | BdcB A2F2 | GFEF D2 :|
+EF |\
+G2FG B2A2 | F4-F4 | ABcd edcB | A4-A4 |
+G2FG B2A2 | F4-F4 | ABcd edce | d4-d2 :|
+FG |\
+A2A2 AFAd | A4AFAd | BAGB AGFA | GFEF GEFG |
+A2A2 AFAd | A4AFAd | BAGB AGFA | GFEF D2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183499
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/poolside.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

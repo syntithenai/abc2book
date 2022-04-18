@@ -1,0 +1,27 @@
+X:1515
+T:Robinson Cruso
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:I've guessed that bar 9 of 2nd part was missing, and filled it in
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001240.html
+%%ID:00001240
+K:D
+A | d2d {d}cBc | d3  def | {f}gfg e2a | {g}(f3 e2) \
+A | B2B    Bcd | AFD D2d |    Bgf edc | d3- d2 ::
+A | AGF CEG  |  A2F D2F  | BGD    ddd | AFD Ddd | ABA AGF  | (F3  E2)
+A | d2d {d}cBc | d3  def | {f}gfg e2a | {a}(f3 e2) \
+A | B2B    Bcd | AFD D2d |    Bgf edc | d3- d2 :|
+%%newpage
+%page 121
+S:https://www.folktunefinder.com/tunes/88460
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

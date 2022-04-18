@@ -1,0 +1,25 @@
+X: 30
+T:Miller's Maggot
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+K:G
+"G"G2A B2A|B2A BGE|G2A B2A|"C"Bee efg|
+"G"G2A B2A|B2A BGE|"C"gfe dBA|1 "D"Bee dBA:|2 "D"Bee e2d||:
+"Em"e2f gfe|"D"d2B BAG|"C"e2f gfg|"D"aga bgf|
+"Em"e2f gfe|"D"d2B BAG|"C"A2B cBA|1 "D"Bee eBd:|2 "D"Bee dBA|]
+S:https://www.folktunefinder.com/tunes/97474
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

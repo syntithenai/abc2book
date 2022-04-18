@@ -1,0 +1,31 @@
+X:665
+T:March in Blue-Beard
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e53.html
+%%ID:00000e53
+K:D
+U:W=!wedge!
+a>gfe | d2e2 | f/>e/f/g/ af | e>eee |\
+a>gfe | d2e2 | f/e/f/g/ fe | d>ddd :: ! \
+e>dcd | e2f2 | g>abg | e>eee | \
+e>dcd | eeee | WeWdWcWB | A>AAA |!\
+a>gfe | d2e2 | f/e/f/g/ af | e>eee |\
+a>gfe | d2e2 | f/e/f/g/ fe | d>ddd ::
+f>edc | B2F2 | ddcd  | c>ccc | f>edc | f2e2  | ddcc     | d2d2 ||\
+cccB  | c2d2 | c>cBc | G>GGG | c>ccd | c>ccc | WcWBWAWG | F>FFF |\
+f>edc | d2e2 | d/c/d/e/ fd | c>ccc | f>edc | d2e2 | ddAA | d>ddd |]
+%page:77
+S:https://www.folktunefinder.com/tunes/95764
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

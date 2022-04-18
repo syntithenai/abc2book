@@ -1,0 +1,38 @@
+X:19099
+T:Xiraldilla d'Avils (MQ 043)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Danza muy conocida en toda Asturias, la primera parte se baila en corro, y en la segunda que tiene un ritmo ms vivo, los danzantes se sueltan y la bailan como una jota. La primera parte est en modo menor, a pesar de ello la mayora de los gaiteros la suelen tocar en mayor.
+N:Esta danza es otra de las habituales en el repertorio de casi todos los gaiteros.
+O:Avils
+A:Asturies
+Z:Manolo Quirs 043
+M:2/4
+L:1/8
+Q:1/4=110
+K:Cm
+|: G2 GA|G2 FA|G3 A|G2 FA|G4|E2 EG|F2 ED|
+C3 E|D2 =B,D|C4|E2 EG|F2 ED|C3E|D2 =B,D|C4 :|
+[M:3/8]
+[K:C]
+[Q:3/8=90]
+|: E>FG|GFG|A2 G|E>FG|GFE|D2 C :|
+|: C>CC|A2 B|AGF|G2 A|GFE|F2 G|FED|[1 G3 :|[2 C3||
+S:https://www.folktunefinder.com/tunes/94390
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

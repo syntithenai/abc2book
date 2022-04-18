@@ -1,0 +1,23 @@
+X: 1
+T: Mulvihill's
+M: 6/8
+L: 1/8
+R: jig
+K: Bmin
+Bc |: dcB cBA | BAF F3 | def ecA | cBB B3 |
+d2 d cBA | (3Bcd B AFE |  DFE F2 E | FBB B3 |
+dcB cBA | BAF F3 | dcB ecA | cBB B2 c |
+d2 d cBA | (3Bcd B AFE |  DFE F2 E | FBB B3 |
+|: dcd ede | fdB AFA | d2 d efe | dBc d2 e |
+fdf ece | dcB cBA | BAF F2 E | FBB B3 :|
+S:https://www.folktunefinder.com/tunes/177668
+S:http://www.thesession.org/tunes/display/5797
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

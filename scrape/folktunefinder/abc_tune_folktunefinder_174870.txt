@@ -1,0 +1,33 @@
+X:1
+T:Mazurka 1
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer boehmischen Bock", Band I, R.Lughofer, Eigenverlag, Kremsmuenster 1998
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+DGB2d2 | c2A4 | DFA2c2 | B2G4 | \
+DGB2d2 | ecA3G | FDF2A2 | G2G4 :|
+|:\
+BeB2A2 | BeB3G | FGA2c2 | B6 | \
+ABc2A2 | GAB2G2 | FGABcF | A2G4 :|
+K:C
+|:\
+cGc2e2 | cGc2e2 | cGc2d2 | B6 | G^FGABG | cde2c2 | 
+Bcd2B2 | cde2c2 | G^FGABd | cde2c2 | AcBGBd | c2c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174870
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_1.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

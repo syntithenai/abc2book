@@ -1,0 +1,43 @@
+X:90
+T:Praeludia 90
+L:1/4
+M:C|
+K:F frenchtab
+%%staffsep 45pt
+[fdaa1]{a} ,,,a/.dc.a |\
+[cdda1].a [,dda{a}/]>.a c.df.c |\
+h//.fd.c a.,d,c/ f//.dc.a ,d.,c,a/ |\
+d//.ca.,d ,c.,a,,d/ c//.a,d.,c ,a.,,d,,b/ |
+% Takt 5
+a//.,d,c.,a ,,d.,,b,,a/ ,d//.,c,a.,,d ,,b.,,a,,,c/ |\
+,c//.,a,,d.,,b ,,a.,,,c,,,a/ ,a//.,,d,,b.,,a ,,,c.,,,a,,,,e/ |\
+,,d//.,,b,,a.,,,c ,,,a.,,,,e,,,,c/ ,,b//.,,a,,,c.,,,a ,,,,e.,,,,c,,,,a/ |
+% Takt 8
+,,a//.,,,c,,,a.,,,,e ,,,,c.,,,,a,,,,,d/ ,,,c//.,,,a,,,,e.,,,,c ,,,,a.,,,,,d,,,,,c/ |\
+,,,a//.,,,,e,,,,c.,,,,a ,,,,,d.,,,,,c,,,,,a/ ,,,,e//.,,,,c,,,,a.,,,,,d ,,,,,c.,,,,,a{a}/ |\
+,,,,c>.,,,,a ,,,,,d.,,,,,c,,,,,a{a} {,,a}.,c,d.,c ,d.,c,a.,c |
+% Takt 11
+[,daa{a}/]:,c//.,a ,,d.,a,,b.,,d ,,a.,,b,,,c.,,a ,,,a1 |\
+[,daa{a}//].,,d,a.,c ,d.ac.d f.,a,c.,d a.cd.f |\
+h//.,da.c d.fh.k l.,,d,a.,c ,d.ac.d |
+% Takt 14
+:f/,c,d.c :d,a,c.a |\
+:c/.,,d,,f.,d :a,,c,,d.,c |\
+:,d/.,,a,,b.,a ,c,,,c,,,e.,,d |\
+:,a/,,,a,,,c.,,b :,,d,,,,e,,,a.,,a |\
+:,,b/,,,,c,,,,e.,,,c ,,,e,,,,a,,,,c.,,,a |
+:,,,c/,,,,,d,,,,a.,,,e ,,,c[,d,a],,,c.,c |\
+% Takt 20
+[,daa{a}/].fd[c,d] [a,b][,da][,c,c][,a,a] |\
+[,cdca1][,dda,c] [,aba,d][aabc,a] |\
+,,,,,c//.,,d:,a.,,d ,,,,,d.,d:a.,d ,,,,a.a,c.,d a.cd.f |\
+[cdd1][da] [c,d][a,b] |\
+[cdd{a}4] |]
+S:https://www.folktunefinder.com/tunes/182286
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

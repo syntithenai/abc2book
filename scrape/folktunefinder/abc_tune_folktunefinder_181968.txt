@@ -1,0 +1,34 @@
+X: 3
+T: Peekaboo Waltz
+T: (The Peek-A-Boo Waltz)
+C: from Kinnon Beaton "Saturday Night Lively"
+C: arr. T. Traub 6-26-03
+R: Waltz
+M: 3/4
+K: D
+L: 1/4
+P:A
+ F/>G/ \
+|| "D"A ff | "G"d c B | "D"A ^G B | A2 F/G/ |
+   "D"A ff | "E7"d c d | "A"e e/>^d/d/>e/ | "A7" e2F/>G/ |
+   "D"A ff | "G"d c B | "D"A ^G B | "D7"A2 ^G/A/ |
+   "G"B gf | "A"e B c | "D"d d/>c/d/>e/ | "D"d2 F/>G/ ||
+P:B
+|| "D"A ff | "D7"A2 A/>A/ | "G"B gg | "Em"B2 B/>B/ |
+   "A"c2 c/>c/ | "A7"B c B | "D" A ^G B | A2 F/>G/ |
+   "D"A ff | "D7"A2 A/>A/ | "G"B gg | "Em"B2 B/>d/ |
+   "A"c B A | "A7"g f e | "D" d d/>c/d/>e/ | "D"d2 F/>G/ |]
+N:http://www.tastysoftware.com/abc/PeekABooW.abc adapted by Peter Ostapenko.
+N:Trying to approximate Joe Jewell recording.
+N:Last update - PO 2/24/2008.
+N:D Major
+S:https://www.folktunefinder.com/tunes/181968
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/PeekabooWaltz.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

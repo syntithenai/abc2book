@@ -1,0 +1,26 @@
+X: 155
+T: Cranberry Bog (reel)
+N: 030033
+C: BB
+R: reel
+Q: 380
+M: 4/4
+L: 1/8
+K: G
+B|:"G"dBge dBGB|"C"cedc "Bm"BAGF|"Em"EBBc "G"BGEG|"D"(3FED AF BDAD|
+"G"dBge dBBc|"G"dBcA BGGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4 ||
+"G"dg (3gfg bg (3gfg|"D"afdf "C"gece|"G"d2 Bd "Am"cAEA|"D"(3FED AF BDAD|
+"G"dg (3gfg dgba|"Am"gecA "G"dBGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86692
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

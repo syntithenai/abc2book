@@ -1,0 +1,35 @@
+X:28
+T:Finale British Laurels
+M:2/4
+L:1/16
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2|d4 e4|f2>g2 a2g2|f2e2d2c2|d4 z2A2|BAGB AGFA|GFED A2c2|
+dcde f2e2|d4 z2::f2|e2>f2 g2f2|edcB A2g2|f2>g2 a2g2|fedc d2A2|BAGB Adcd|
+BAGB Adcd|f2ed a2e2|d4 z2::AG|FGAF DEFD|GABG EFGE|FDEF GABc|
+d2cB AGFE|FGAF DEFD|GABG EFGE|FDEF GABc|d2d2d2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A2|d4 e4|f2>g2 a2g2|f2e2d2c2|d4 z2A2|BAGB AGFA|GFED A2c2|
+dcde f2e2|d4 z2::d2|c2>d2 e2d2|cBA^G A2e2|d2>e2 f2e2|d2A2F2A2|BAGB Adcd|
+BAGB Adcd|f2ed a2e2|d4 z2::AG|FGAF DEFD|GABG EFGE|FDEF GABc|
+d2cB AGFE|FGAF DEFD|GABG EFGE|FDEF GABc|d2d2d2:|
+S:https://www.folktunefinder.com/tunes/90015
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

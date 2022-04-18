@@ -1,0 +1,28 @@
+X:185
+T: Loughill [HP]
+T: Cornph\'iopa na Leamhchoille
+S: B.Breathnach:"Ceol Rince na hEireann" III/229
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: G
+GE|DDEF G2 (3GAB|c2 cA BA G2|cBcd e2 dB|(3ABc BG AGEG|
+D2 (3DEF G2 (3GAB|c2 cA (3Bcd gd|BA (3GAB cAFG|1 AGGF G2 :|2\
+AGGF G3||
+f|: g2 ed e3f|ged^c d2 d=c|(3B^cd BG d=cAG|1 A2 BG AGED|gfed e2 ef|
+ged^c d2 d=c|(3BcB (3GAB cAFG|AGGF G2 ef :|2\
+(3AB^c BG AGEG|DDEF G2 (3GAB|c2 cA|(3Bcd g2|BA (3GAB cAFG|\
+AGGF G2-G2 ||
+S:https://www.folktunefinder.com/tunes/93463
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/CRE3.abc
+S:http://www2.redhawk.org:8080/irish/zouki/CRE3.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

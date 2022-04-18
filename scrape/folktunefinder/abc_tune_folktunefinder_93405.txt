@@ -1,0 +1,26 @@
+X:710
+T: Pivot [The]
+S: "Passing Time" (Jim & Mary Coogan & friends)
+N: Joe Derrane setting
+L: 1/8
+M: 4/4
+Q: 300
+R: hornpipe
+K: D
+A | dcdf edcB | A^GAB A=GFE | DFAF DBAF | A2 E2 E3 A |
+dcdf edcB | A^GAB A=GFE | DFAF GBAG | F2 D2 D3 :|
+A | edef gecA | dcdf a2 fa | gB (3BBB fA (3AAA | edef e2 cd |
+ef (3gfe cABc | dcdf a2 fa | gBeg fAdf | edef d3 :|
+S:https://www.folktunefinder.com/tunes/93405
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

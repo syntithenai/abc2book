@@ -1,0 +1,48 @@
+X:2822
+T:L\"andler
+C:Franz Schubert
+O:Austria
+R:L\"andler
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/schubert-franz/schubert-landler01.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:3/4
+L:1/8
+K:Bb
+V:1
+Bc|B2def2|{e}.g2A2fg|f2abc'2|{b}.d'2b2Bc|
+V:2
+z2|B,2[D2F2][D2F2]|F,2[C2E2F2][C2E2F2]|F,2[C2E2F2][C2E2F2]|B,2[D2F2][D2F2]|
+%
+V:1
+B2def2|{e}.g2A2fg|f2abc'd'|b4::fg|
+V:2
+B,2[D2F2][D2F2]|F,2[C2E2F2][C2E2F2]|F,2[C2E2F2][C2E2F2]|[B,4D4F4]::z2|
+%
+V:1
+fF[Ae]F[Ae]F|eF[Bd]F[Bd]F|dF[Ac]F[Ac]F|Bcdefg|
+V:2
+[F,,2F,2][F,2C2][F,2C2]|[B,,2B,2][B,2D2][B,2D2]|[F,,2F,2][F,2E2][F,2E2]|[B,2D2][B,2D2]z2|
+%
+V:1
+fF[Ae]F[Ae]F|eF[Bd]F[Bd]F|dc=BcfA|_B4:|
+V:2
+[F,,2F,2][F,2C2][F,2C2]|[B,,2B,2][B,2D2][B,2D2]|[F,,2F,2][F,2C2E2][F,2C2E,2]|[B,4D4]:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/171183
+S:http://abc.musicaviva.com/tunes/schubert-franz/schubert-landler01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/schubert-franz/schubert-landler01.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/schubert-franz/schubert-landler01.abc
+% Rhythm La?ndler
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

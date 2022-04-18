@@ -1,0 +1,24 @@
+X: 1
+T: Oot be Est da Vong
+T: Trad Shetland
+B: Anderson 41 after Henry Thomson of Vidlin, Bain 16
+M: C|
+L: 1/8
+K: D
+|: (dB) \
+| "D"AFAB ABd2 | (fd)fd "G"e(dBd) \
+| "D"AFAB ABde | "A7"(fa)ef "D"d2 :|
+ef \
+| "A7"{f}g2ge "D"f2fd | "Em"edef e(dBd) \
+| "A7"g2ge "D"f2fd | "Em"edef "A7"a2a2 |
+| "A7"g2ge "D"f2fd | "Em"edef e(dBd) \
+| "D"AFAB ABde | "A7"(fa)ef "D"d2 |]
+S:https://www.folktunefinder.com/tunes/180495
+S:http://trillian.mit.edu/~jc/music/book/500/OotBeEstDaVong.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

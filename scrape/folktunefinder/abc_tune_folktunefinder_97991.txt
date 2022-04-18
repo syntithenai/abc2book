@@ -1,0 +1,28 @@
+X:10209
+T:Manchester
+% Nottingham Music Database
+S:Kevin Briggs
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+(3ABc|"D"dcdA FAdf|"Em"edcB "A7"A2g2|"D"fgaf "G"gfed|"Em"edcB "A7"Agfe|
+"D"dcdA FAdf|"Em"edcB "A7"A2g2|"D"fgaf "A7"bgec|"D"d2f2 d2:|
+P:B
+fg|"D"afaf d2ga|"G"bgbg "A7"e2fg|"D"afba "G"gfed|"Em"edcB "A7"Agfe|
+"D"dcdA FAdf|"Em"edcB "A7"A2g2|"D"fgaf "A7"bgec|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/97991
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

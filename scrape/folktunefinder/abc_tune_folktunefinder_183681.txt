@@ -1,0 +1,99 @@
+X:1227
+T:Pr\"aludium
+T:(Prelude) BWV 855b
+C:Johann Sebastian Bach
+O:Germany
+S:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach"
+N:An extended version of this prelude appears in "Das Wohltemperierte
+N:Klavier" (book 1 no. 10).
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0855b/bwv855b.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+I:This abc file is formatted for BarFly 1d24. It uses
+I:some features that has not at the moment (August 1999)
+I:been standarized in abc. Because of that some modifications
+I:might be necessary to display or play it with other abc programs.
+M:C
+L:1/4
+K:Em
+V:1
+[G2B2e2]z2 z4[B2e2g2]z2 z4|[A2c2f2]z2 z4[A2c2f2]z2 z4|
+V:2
+E,G,A,B, A,B,A,G,  E,G,A,B, A,B,A,G,|\
+E,A,B,C B,CB,A, E,A,B,C B,CB,A,|
+%
+V:1
+[B2f2]z2 z4[B2f2a2]z2 z4|[B2e2g2]z2 z4[B2e2g2]z2 z4|
+V:2
+^D,F,G,A, G,A,G,F, D,F,G,A, G,A,G,F,|\
+E,G,A,B, A,B,A,G,  E,G,A,B, A,B,A,G,|
+%
+V:1
+[A2c2f2]z2 z4[B2f2b2]z2 z4|[G2B2e2]z2 z4[A2e2a2]z2 z4|
+V:2
+E,F,G,A, G,A,G,F, D,F,G,A, G,A,G,F,|\
+D,E,F,G, F,G,F,E, C,E,F,G, F,G,F,E,|
+%
+V:1
+[F2A2d2]z2 z4[G2d2g2]z2 z4|[E2G2c2]z2 z4[F2A2c2]z2 z4|
+V:2
+C,F,G,A, G,A,G,F, B,,G,A,B, A,B,A,G,|\
+B,,E,F,G, F,G,F,E, A,,F,G,A, G,A,G,F,|
+%
+V:1
+[D2F2A2c2]z2 z4[D2G2B2]z2 z4|[E2A2e2]z2 z4[A2c2f2]z2 z4|
+V:2
+G,A,B,C B,CB,A, G,B,CD CDCB,|G,^CDE DEDC F,^DEFE FED|
+%
+V:1
+[G2B2e2g2]z2 z4[G2B2]z2 z4|[=F2A2c2]z2 z4[F2B2d2]z2 z4|
+V:2
+E,F,G,A, G,A,G,F, E,G,A,B, A,B,A,G,|E,A,B,C B,CB,A, D,B,CD CDCB,|
+%
+V:1
+[G2c2e2]z2 z4[G2E2]z2 z4|[D2F2A2]z2 z4[D2^G2B2]z2 z4|
+V:2
+C,D,E,=F, E,F,E,D, C,E,^F,G, F,G,F,E,|\
+C,F,G,A, G,A,G,F, B,,^G,A,B,A, B,A,G,|
+%
+V:1
+[E2A2c2]z2 z4[E2A2c2]z2 z4|[^D2A2c2]z2 z4[E2A2c2]z2 z4|
+V:2
+A,B,CD CDCB, =G,A,B,C B,CB,A,|F,A,B,C B,CB,A, E,A,B,C B,CB,A,|
+%
+V:1
+[F2A2c2]z2 z4[F2A2B2]z2 z4|[E2^G2B2e2]z2 z4[E2=G2^A2e2]z2 z4|
+V:2
+^D,A,B,C B,CB,A, D,F,G,A, G,A,G,F,|\
+D,G,A,B, A,B,A,G, ^C,E,F,=G, F,G,F,E,|
+%
+V:1
+[F2A2^d2]z2 z4[G2B2e2]z2 z4|[G2^c2e2]z2 z4[F2B2^d2]z2 z4|
+V:2
+C,F,G,A, G,A,G,F, B,,E,F,G, F,G,F,E,|\
+^A,,E,F,G, F,G,F,E, B,,F,G,=A, G,A,G,F,|
+%
+V:1
+[G2B2e2]z2 z4[E2^G2B2d2]z2 z4|\
+[E2A2c2]z2 z4^DA,B,C B,CB,A,|H[^G,16B,16E16]|]
+V:2
+E,F,G,A, G,A,G,F, E,^G,A,B, A,B,A,G,|\
+E,A,B,C B,CB,A, [F,2E,2]z2 z4|H[E,,16E,16]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183681
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0855b/bwv855b.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0855b/bwv0855b.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0855b/bwv0855b.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

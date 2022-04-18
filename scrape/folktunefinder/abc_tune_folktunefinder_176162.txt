@@ -1,0 +1,30 @@
+X: 1
+T: Miss Laura Katarina Ribeiro
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+(3def | &quot;G&quot;.g2 (d2 d)dcd | .B2 (G2 G)GAB | &quot;C&quot;cded cBAG | &quot;D&quot;.F2 (D2 D)GFG |
+&quot;C&quot;E2c2 cdec | &quot;G&quot;dGBd &quot;Em&quot;g3e | &quot;Am&quot;edcB &quot;Bm&quot;cBAG | &quot;C&quot;dcBc &quot;D&quot;Adef |
+&quot;G&quot;.g2 (d2 d)d (3cdc | .B2 (G2 G)GAB | &quot;C&quot;cded cBAG | &quot;D&quot;GFEF DdBG |
+&quot;C&quot;E2c2 cdeg | &quot;G&quot;dGBd &quot;Em&quot;g2ge | &quot;C&quot;edcB &quot;D&quot;dcBA | &quot;C&quot;(G4 &quot;D&quot;G)def |
+&quot;G&quot;.g2 (d2 d)dcd | .B2 (G2 G)GAB | &quot;C&quot;cded cBAG | &quot;D&quot;.F2 (D2 D)GFG |
+&quot;C&quot;E2c2 cdec | &quot;G&quot;dGBd &quot;Em&quot;g2ge | &quot;C&quot;edcB &quot;D&quot;dcBA | &quot;G&quot;(G4 &quot;D&quot;G)AFG ||
+&quot;Em&quot;E3FG3A | &quot;Bm&quot;BAFG &quot;Em&quot;EB,EG | &quot;Em&quot;Be^de &quot;Am&quot;=dcAc | &quot;Em&quot;(B4 &quot;B7&quot;B)AGF |
+&quot;Em&quot;E3FG3A | &quot;Bm&quot;BAFB &quot;Em&quot;EGFE | &quot;D&quot;Dd^cd &quot;A7&quot;eAce | &quot;D&quot;d3=c BAGF |
+&quot;Em&quot;EDEF GFGA | &quot;Bm&quot;(3BcB (3AGF &quot;Em&quot;EFGB | &quot;Em&quot;gfeg &quot;B7&quot;fB^df | &quot;C&quot;.e2e^d e2ef |
+&quot;C&quot;gfge &quot;(C#dim.)&quot;eage | &quot;G&quot;e=d^cd BDGB | &quot;Em&quot;E2.B2 &quot;Bm&quot;BAFG | &quot;Em&quot;E4&quot;A&quot;^c4 |
+&quot;D&quot;d3^cd3c | d^cdc d=cAF | d^cde d=cAF | .D2.&quot;(n. c.)&quot;C2.B,2.A,2 ||
+&quot;G&quot;.g2(d2 &quot;D&quot;(3d)ed cd | &quot;Em&quot;.B2 (G2 &quot;G&quot;G)GAB | &quot;C&quot;cded &quot;Am&quot;cBAG | &quot;D&quot;.F2 (D2 &quot;Bm&quot;D)D^CD |
+&quot;Am&quot;E2=c2 &quot;C&quot;cdeg | &quot;G&quot;dgfg &quot;C&quot;cgfg | &quot;G&quot;Bgfg &quot;D&quot;Aafd | &quot;C&quot;cgfg agec |
+&quot;G&quot;dDGB &quot;D&quot;dcAF | &quot;G&quot;(G2 &quot;C&quot;G2 &quot;G&quot;G2)||
+S:https://www.folktunefinder.com/tunes/176162
+S:http://www.thesession.org/tunes/display/403
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

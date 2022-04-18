@@ -1,0 +1,25 @@
+X: 1
+T:Polska
+C:Per Myhr
+O:Sweden
+A:H\"arjedalen
+R:Polska
+D:Hoven Droven
+M:3/4
+K:D
+Ac d2 ef| de c3e| f2 (3fef g>f| ec A4|\
+Ac d2 ef| de c3e| f2 (3fef g>f|1 ec d4 :|2 ec d3||
+f|\
+ec d2 fa| gb a2 f2| fg e3c| d2 e3 f|\
+ec d2 fa| gb a2 f2| fg e3c|1 d2 d3:|2 d2 d4|]
+S:https://www.folktunefinder.com/tunes/183218
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_9.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

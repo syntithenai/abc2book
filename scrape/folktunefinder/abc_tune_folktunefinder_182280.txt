@@ -1,0 +1,43 @@
+X:1
+T:Pfeifermarsch
+C:traditionell
+R:
+A:Lustenau, Vorarlberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Auf einem von Sepp Pichler geschriebenen notenblatt. Kopie aus dem besitz von Luise Buisman
+N:bei Pichler ganz in G, erster ton g', zweistimmig. 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcripton Simon Wascher
+M:6/8
+L:1/8
+K:G
+V:1
+G3 B3 | d3 g3 | fed cBA | e2d B3 |\
+G3 B3 | d3 g3 | fed cBA | G6 :|
+V:2
+G3 G3 | B3 B3 | dcB AGF | c2B G3 |\
+G3 G3 | B3 B3 | dcB AGF | G6 :|
+V:1
+d3 dcA | B2G GAB | A2B AGA | B3 G3 |\
+d3 dcA | B2G GAB | A2B AGA | G6 :|
+V:2
+A3 D2F | G3 GFG | D3 cBA | G3 G3 |\
+A3 D2F | G3 GFG | D3 cBA | G6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182280
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/pfeifermarsch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

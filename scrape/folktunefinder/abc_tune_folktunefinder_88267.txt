@@ -1,0 +1,29 @@
+X:550
+T:New Coldstream March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/4
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000edb.html
+%%ID:00000edb
+K:C
+z//G//A//B// |\
+c2  e2 | gf     ed    | c2  G2 | AA {AB}cB/A/ | \
+G>A GG | AA {AB}cB/A/ | G>A Gc | B>d    ce    |
+df  ee | dc     Bc    | d>e dg | g2     Tf2   | gg3//g// g ::  \
+z//G//A//B// |\
+cc ce/d/ | cA Ff/e/ | dd dg | {f}Te2 dz |
+c2 e2 | gf ed | c2 G2 | AA {AB}cB/A/ |\
+G>A GG | ff {fg}ag/f/ | ef gc' | e2 Td2 | c3 ::
+S:https://www.folktunefinder.com/tunes/88267
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

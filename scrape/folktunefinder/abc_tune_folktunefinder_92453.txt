@@ -1,0 +1,26 @@
+X:430
+T: Daogu fengshou duimancang
+N: C2048
+O: China,Anhui Qimen
+S: III, 538, 2)]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: D
+D2DFA4 | F2D2D2EF | E8
+F2D2D2EF | B,8
+D2B,DE4 | DEDB,A,4 | D3B,A,4
+D2EFD2A,2 | B,2B,4D2 | EFEB,A,4
+A2DFE4 | D2EFD2A,2 | B,2B,4D2 | EFDB,A,4- | A,4z4
+S:https://www.folktunefinder.com/tunes/92453
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

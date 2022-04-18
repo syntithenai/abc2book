@@ -1,0 +1,51 @@
+X: 101
+T: If you could see me now
+C: Tadd Dameron
+M: 4/4
+L: 1/8
+Q: 1/4=56
+%%staves (chords melody)
+K: Ab
+P: A
+V: chords
+"Abmaj7"x4 x4 | "Db7"x4 x4 | "Abmaj7"x4 x4 | "Dbm7"x4 "Gb7"x4 |
+"Cm7"x4 "Bm7"x2"E7"x2 | "(Bbm7""Bbm7"x2 "Eb7"""x2 "Em7""Eb7"x2"A7)"""x2 | "Gb7"x4 "F7"x4 | "Bbm7b5"x4 "Eb7"x4 ||
+V: melody
+zGAc egfc | e=d_de B4 | zGAc egfc | e=d_de B3c |
+e2ce =e=A^G2 | f2dB g3e | c8- | c4 z4 ||
+P: A
+V: chords
+"Abmaj7"x4 x4 | "Db7"x4 x4 | "Abmaj7"x4 x4 | "Dbm7"x4 "Gb7"x4 |
+"Cm7"x4 "Bm7"x2"E7"x2 | "(Bbm7""Bbm7"x2 "Eb7"""x2 "Em7""Eb7"x2"A7)"""x2 | "Ab6"x4 "Dbm7"x4 | "Ab6"x4 "Fm7"x2 "Ebm7"x2 ||
+V: melody
+zGAc egfc | e=d_de B4 | zGAc egfc | e=d_de B3c |
+e2ce =e=A^G2 | f2dB g3e | a8- | a4 z2a2 ||
+P: B
+V: chords
+"Dm7"x4 "G7"x4 | "Em7"x4 "A7"x4 | "Dm7"x4 "G7"x4 | "Cmaj7"x4 x4 |
+"Dm7"x4 "Fm7"x2"Bb7"x2 | "Ebmaj7"x4 "Cm7"x4 | "Fm7"x4 "Bb7"x4 | "(Bbm7""Bbm7"x2"Eb7"""x2 "Em7""Eb7"x2"A7)"""x2 ||
+V: melody
+g2gg g2ag | (3=e2e2e2 (3e2f2g2 | =d2dd d2=ef | g6=A2 |
+=e=dcd _efg_a | b4 zgfe | a4 zfe=d | e4z4 ||
+P: A
+V: chords
+"Abmaj7"x4 x4 | "Db7"x4 x4 | "Abmaj7"x4 x4 | "Dbm7"x4 "Gb7"x4 |
+"Cm7"x4 "Bm7"x2"E7"x2 | "(Bbm7""Bbm7"x2 "Eb7"""x2 "Em7""Eb7"x2"A7)"""x2 |!coda! "Gb7"x4 "F7"x4 | "Bbm7b5"x4 "Eb7"x4 ||
+V: melody
+zGAc egfc | e=d_de B4 | zGAc egfc | e=d_de B3c |
+e2ce =e=A^G2 | f2dB g3e | a8- | a4 z2a2 ||
+V: chords
+"Abmaj7"x4 "Dbm7"x2 "Gb7"x2 | H"Abdim7"x4 x4 |]
+V: chords
+V: melody
+S:https://www.folktunefinder.com/tunes/87602
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

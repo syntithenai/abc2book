@@ -1,0 +1,26 @@
+X:265
+T:the Highland Laddy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000eaf.html
+%%ID:00000eaf
+K:A
+f |\
+e(cBA) e2cB | dBBc dBBf | e(cBA) e2d2 | cAAc BAA ::
+g |\
+fefa e2(dc) | dBBc dBBg | fefa e2d2 | cAAc BAA ::
+%%newpage
+%page 17
+S:https://www.folktunefinder.com/tunes/88210
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

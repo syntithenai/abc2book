@@ -1,0 +1,32 @@
+X:1
+T:La P\'erigourdine
+G:Skol Al Louarn
+R:P\'erigourdine
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=116
+P:A5
+M:4/4
+%S:TS94
+%%MIDI program 109
+%%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:G
+P:A
+|: "G"BG Bd "D"dc/2B/2 AA | "Em"BG Bd "Bm"dc/2B/2 "Am"A2 :|
+z "G"G AB "Em"G2 "Am"A>G | "C"FG "D"AB "G"G2 "Am"A2 |\
+"G"GG AB "Em"G2 "Am"A>G | "C"FG "D"AB "G"G2 "Am"A2 |\
+M:2/4
+"G"G2 z2 ||
+S:https://www.folktunefinder.com/tunes/182097
+S:http://kazimodal.trad.org/partitions/divers/perigourdine/perigourdine.abc
+% Rhythm Pe?rigourdine
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

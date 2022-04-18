@@ -1,0 +1,25 @@
+X: 1
+T: Paddy Fahey's
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+F | E/F/GC DEF | GcA Bcd | efd ga/g/e | fdc BGF |
+E2 C EFD | GCD EFG | Bc/d/B cBG | FDB, CGF |
+EGC DEF | GcA Bcd | efd ga/g/e | fdc BGF |
+E2 C EFD | GCD EFG | Bc/d/B cBG | FDB, CEG |
+|: cd/c/B Gce | gfa gec | Ad^c de/f/g | fdc BGF |
+G,CE Gce | {a}gfa gec | AdB cBG |1 FDB, CEG :|2 FDB, CGF ||
+&quot;Final ending, last four bars of Part B&quot;| GCD EB,D | G,CE {G}F3 | GBd cBG | FDB, C3 ||
+S:https://www.folktunefinder.com/tunes/181066
+S:http://www.thesession.org/tunes/display/2566
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

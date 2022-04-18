@@ -1,0 +1,24 @@
+X:12
+T:Courente
+R:Courente
+C:Trad.
+A:Piemont (Italie)
+D:Che a vau
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/8
+L:1/8
+Q:360
+K:C
+|:DE[^FD,]|G^F[GG,]|BA[BG,]|d2[dG,]|dc[BG,]|c2[cG,]|cB[AD,]|1B2[GG,]:|2G2G,|:g2[gG,]|^f2D,|e^f[eD,]| \
+d2G,|d2[eD,]|^fe[dG,]|cB[AD,]|1BGG,:|2G2G,| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96987
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Courente
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

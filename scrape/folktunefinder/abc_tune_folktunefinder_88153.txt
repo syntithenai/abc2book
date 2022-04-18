@@ -1,0 +1,27 @@
+X:100
+T:Quite Correct
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st & 2d Couple, lead down the middle. & chain, figure of four round
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dee.html
+%%ID:00000dee
+K:G
+d |\
+g2g (gf)g | d2d (d^c)d | G2A B2c | d2d def |\
+g2g gfg | d2d d^cd | Bed cBA | AGG G2 ||
+d|\
+d2d d^cd | e2e e^de | f2f fed | a2A AB^c |\
+d2d d^cd | e2e efg | fed ^cBc | d3 - d2 !D.C.! |]
+\newpage
+%page 11
+S:https://www.folktunefinder.com/tunes/88153
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

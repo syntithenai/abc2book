@@ -1,0 +1,24 @@
+X:107
+T:Some Distance From Prussia
+M:2/4
+L:1/16
+Q:1/4=100
+K:Bm
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:fe|d2BB B^ABc|dcde f2ed|c2AA A^GAB|cBcd e2fe|d2BB B^ABc|dcde f4|
+B2f2 fedc|B2f2B2::F2|B3c dcde|f2f2 TF4|f2f2 TF4|TA2F2 TA2F2|B3c dcde|f2f2 F3F|B2f2 fedc|B2f2 [B2b2]:|
+S:https://www.folktunefinder.com/tunes/90094
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

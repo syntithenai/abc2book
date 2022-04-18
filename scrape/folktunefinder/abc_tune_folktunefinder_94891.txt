@@ -1,0 +1,26 @@
+X: 48
+T:Gavot,(melody). BC.47a
+M:C
+L:1/8
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Gavotte
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+K:D
+A2 d2 | (dc)(BA) d2 e2 | f2 (ed) g2 (gf) | (fe)(fd) c2 d2| e4 ||!
+ a2 g2 | (fg)(ef) (ga)(fg) | (ef)(de) (fg)(ef)|(de)(cd) e2 de |!
+ c2 (BA) a2 g>f | g4 g2 f>e | f4 g2 fe | dcde e3 d | d4|]
+S:https://www.folktunefinder.com/tunes/94891
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

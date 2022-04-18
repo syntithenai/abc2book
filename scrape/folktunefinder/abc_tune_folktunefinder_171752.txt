@@ -1,0 +1,52 @@
+X:602
+T:Le\ccon
+T:Op. 51 no. 2
+C:Mauro Giuliani
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/giuliani-mauro/giuliani-lecon-op51-no2.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:6/8
+L:1/8
+K:C -8va
+V:1
+"^Grazioso"ef|ged Bcd|cBc GcB|ABc|GBc|G2F EGc|
+V:2
+z z|C3 D3|E3 z2 z|F3 E3|DG,B, C2 z|
+%
+V:1
+BAG ^FED|DdB Ace|edB dcA|G3 z ge|^c3 cde|
+V:2
+G,3 A,3|B,3 C3|D3 D3|G,DB, G,2 z|z _BA GFE|
+%
+V:1
+=fd^c dfd|=B3 Bcd|ecB ccd|_e3 z dc|
+V:2
+DFA F z z|z _AG FED|CEG E z z |z [C^F][CF] [CF] z z |
+%
+V:1
+B3 z g-f|_e3 z dc|g3 g3|g3 g3|
+V:2
+z [G,G][G,G] [G,G] z z|z [C^F][CF] [CF] z z |\
+z [B,G][B,G] z [CA][CA]|z [DB][DB] z [=E^c][Ec]|
+%
+V:1
+g3 z =ef|gec Bcd|cBc Aed|c3 B3|[E6G6c6]|]
+V:2
+z [=Fd][Fd] [Fd] z z |C3 D3|E3 F3|G,EG G,DG|C6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/171752
+S:http://abc.musicaviva.com/tunes/giuliani-mauro/giuliani-lecon-op51-no2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/giuliani-mauro/giuliani-lecon-op51-no2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/giuliani-mauro/giuliani-lecon-op51-no2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

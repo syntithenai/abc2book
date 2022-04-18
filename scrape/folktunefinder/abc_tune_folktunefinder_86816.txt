@@ -1,0 +1,26 @@
+X: 127
+T: Snowy Road to Mick's (slide)
+N: 190019
+C: BB
+R: slide
+Q: 1/8=400
+M: 12/8
+L: 1/8
+K: D
+A|"D"d2 d Bcd "F#m7"A2 F E2 F|"A7"A2 G E2 B "D"A2 F D2 A|
+"D"d2 d Bcd "F#m7"A2 F E2 F|"G"GBA "A7"GFE "D"D3 D2 :|
+A|"Em"Bcd e2e "D"f2 g "D"a3|"G"b2g "D"a2f "A"e2 c A2 A|
+"Em"Bcd e2e "D"f2 g a2f|"Em"gfe "A"ABc "D"d3 d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86816
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 24
+T:Fill Every Glass. TBe.024
+M:3/4
+L:1/4
+Q:70
+S:Thomas Bennet MS,1718, VWML
+R:Air
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:F major
+(A/B/) A (G/A/) | F2 c | d/e/ f c | d A B | \
+cFG | "="A2 B | c C2 | "Pause"F3 ||!
+fe f/e/ | "="d2 c | f "="d2 | c3 | A/B/  "="A G/A/ |\
+F2G | "=" A2 B | c/B/c/d/ c2 ||
+S:https://www.folktunefinder.com/tunes/96175
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

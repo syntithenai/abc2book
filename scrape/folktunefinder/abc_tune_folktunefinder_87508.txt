@@ -1,0 +1,23 @@
+X: 7
+%% Copyright 1939 PolyGram International Publishing, Inc.
+T: All The Things You Are
+C: Jerome Kern, Oscar Hammerstein II
+M: 4/4
+Q: 1/4=128
+K: Ab
+L: 1/8
+P: A
+"Fm7" A8 | "Bbm7" d6 A2 | "Eb7" G2 G2 G2 G2 | "Abmaj7" G2 c4 G2 |
+w: You | are the | pro- mised kiss of | spring- time that |
+"Dbmaj7" F2 F2 F2 F2 | "Dm7" F2 B4 "G7" F2 | "Cmaj7" =E8- | E8 ||
+P: A'
+S:https://www.folktunefinder.com/tunes/87508
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X: 1
+T: the Merry Merchant
+M:4/4
+L:1/8
+S:O'Neill's Music of Ireland
+R:reel
+K:D
+AG | Addc ABAG  | Addc "tr"B2 AG | Addc ABAF | GFGA "tr"B2 AG |!
+Addc ABAG| Addc "tr"B2  AG| Addc ABAF| GFGA "tr"B2 ||!
+|| Bd | cAAF GFGA | FDDG "tr"B2 Bd | cAAF GFGA | FDEC D2 Bd |
+cAAF GFGA | FDDG "tr"B2 Bd | cAAF GFGA | FDEC D2 ||
+S:https://www.folktunefinder.com/tunes/175458
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MerryMerchant1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Ireland/reel/MerryMerchant1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

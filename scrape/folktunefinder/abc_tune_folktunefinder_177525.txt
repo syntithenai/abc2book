@@ -1,0 +1,56 @@
+X:1
+T:Mrs. Vaux's Gig
+C:John Dowland
+L:1/4
+M:C
+K:CM frenchtab
+%
+%%stretchlast no
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.2
+%%scale 0.6
+%1
+a/|[ffg,a1] [abd/] [da,c1] [,bdd/]|\
+[b,,a/][,dff][b,,a][ab,c/]>,,,,d[,bdd/]|\
+[,d,a/][,,dd][,b,,d//],,,a[,acc/]>,,d[,acc/]|\
+[,,dca/]>,a,,d/,b//,dac||
+%2
+d//a|[f,,,a//]a,b,,dac[d,,c//]ba,d,,,d,b|\
+[b,,a//]a,d,b[,db],a[,b,,d],a,,d,,b,,,d,,d|\
+[,a,a/],b,d,b[,a,d],,d[,,cc],,d[,a,a],,d,,,c,,c|\
+[,,dca/]>,,da/,c,,d||
+%3
+a//b|[db,,d/],,,a//,,,c[,bdd/][b,,a][,dff]d|\
+[ab,,d/]b//a,da,b/,,,,df//h|\
+i/,,,,,i,,ga,,,,,d,d|\
+[,bbcd/],,,d,,,c,,,a,,,c,,,,d/,,,,,,b||
+%4
+a//b|[d,,,d//]ba,d[,bdd/][b,,a//]a[,db]abd|\
+[a,,,d/]d//ba,d,b/f//h|\
+i/,,,,,i[fg][df],,,,,d//f[bd/]|\
+a/,,,,dda,,,,d||
+%5
+a//b|[d,,,d/][a,b][,b,c][d,,,d][a,b][f,,d//]h|\
+[i,,,h/][,,gh][,dff][abb,d],,,,,,b[b,,,,,d]|\
+[da,,,a/],f//a[fb,d,b/][,fg,,a][f,d][e,f]|\
+[fcdca1]>[,bdd,b]b//df/|
+%6
+[a,,,,a//]bd/a[,bd,a][,d,,,,d][,ac,,a]|\
+[,,dca/]b//a,da,c,,,,a||a//b|\
+[d,,,d//]b[a,b],d[,b,c/][d,,,d][a,b][f,,d//]h|\
+[i,,,h/][,,gh][,dff][a,,,d//],b,dab,,,a|
+%7
+[d,,c//],,,d,,b,,,c,,,df[e,,,,a]fhafe|\
+[f,,,a/],,,f//,,,d,,,c,,,a,,,,d,,,,c,,,,a,,,,,d,,,,,b/|\
+[a,,,,a//]bd/a[,bd,a][,d,,,,d][,ac,,a]|\
+[,,d,a/],,,d//,,,c,,,a,,,c,,,,e/,,,,a1|]
+S:https://www.folktunefinder.com/tunes/177525
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dowland/vauxgig.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dowland/vauxgig.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

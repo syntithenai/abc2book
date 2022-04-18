@@ -1,0 +1,27 @@
+X: 1
+T:Prstpolska efter Lillbacksgubben (Galven, Alfta)
+A:Galven, Alfta, Hlsingland
+B:cf. Svenska Ltar Hlsingland nr 604
+D:Emil Olsson, Hugo Westling: Spelmansltar frn Hlsingland (Sonet LP)
+O:Sweden
+Z:Lennart Sohlman, lta, Sweden
+M:3/4
+L:1/8
+Q:1/4=110
+K:Gm
+G>^F D2 BA|G>(B d2) g2-|g^f/g/ a>g =fe|d>c B>A G^F|\
+G>^F D2 BA|G2 e2 c2|BA/B/ d2 D>G|(^F/G/)A/F/ G3 D::\
+G>(B d>)(^f g)a|b2 b>a ag|g^f/g/ a>g =fe|d>c B>A G^F|\
+G>(B d>)(^f g)a|b2 b>a ag|g^f/g/ a>g =fe|d>c B>A B2|\
+B>[Fd] [Fd][Fd] [Fd][Fd]|d>[Ec] [Ec][Ec] [Ec][Ec]|\
+c>[Fd] [Fd][Fd] [Fd][Fd]|d>[Ec] [Ec][Ec] [Ec][Ec]|\
+c>d d2 B2|A>c BA G^F|G>g g2 B2|A>c B>A G^F|\
+G>c c2 A2|c>d e2 c2|BA/B/ d2 D>G|(^F/G/)A/F/ G4:|\
+S:https://www.folktunefinder.com/tunes/184065
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pr/Pr_stpolska_efter_Lillbacksgubben_Galven_Alfta_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

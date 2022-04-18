@@ -1,0 +1,23 @@
+X: 1
+T: Madame Neruda
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmin
+B,2 | EDEG ABcd | edcB _AGFE | 
+(3 G,EB (3 BEG, (3 _A,Ec (3 cEA, | (3 A,Fc (3 cFA, (3 B,Fd (3 dFB, |
+ EG,B,E GEGB | edcB _AGFE |
+ (3 G,EB (3 BEG, (3 _A,Ec (3 cEA, | [D2 B,2] [D2 _A,2] [E2 G,2] :|
+|:B2 |(3 EBg (3 gBE (3 DBf (3 fBD | (3 CGe (3 eGC (3 B,Fd (3 dFB, |
+ (3 _A,Ec (3 cEA, (3 G,EB (3 BEG, | (3 A,Fc (3 cFA, (3 B,Fd (3 dFB, |
+(3 EBg (3 gBE (3 DBf (3 fBD | (3 CGe (3 eGC (3 B,Fd (3 dFB, |
+(3 _A,Ec (3 cEA, (3 G,EB (3 BEG, | [D2 B,2] [D2 _A,2] [E2 G,2] :|
+S:https://www.folktunefinder.com/tunes/173530
+S:http://www.thesession.org/tunes/display/5834
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

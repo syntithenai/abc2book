@@ -1,0 +1,49 @@
+X: 9176
+T: Sweet Skies of Louth (with piano acc.)
+C: BB
+N: First tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] D|"D"DFE DFA | "A"AFA "Bm"B3 | "D"d2f "A"edc | "G"B2d "A"AFE |
+[V:2] z|D,2[AFD]F,,2[AFD]|A,,2[AEC]B,,2[BFD]|D,2[AFD]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|
+%
+[V:1] "D"DFE DFA | "A"AFA "Bm"Bcd | "Em"efd "A"BAB | "D"d3 d2 :|
+[V:2] D,2[AFD]F,,2[AFD]|A,,2[AEC]B,,2[BFD]|E,2[EBG]A,,2[AEC]|[D,3A,3F3]D,,2 :|
+%
+[V:1] e|"D"a2f "G"g2e |"D"def "Bm"dcB | "D"AFA "Bm"Bcd | "Em"ede "D"f2g |
+[V:2] z|D,2[AFD]G,,2[GDB]|D,2[AFD]B,,2[BFD]|D,2[AFD]B,,2[BFD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "D"agf "G"gfe | "D"def "Bm"dcB | "D"AFA "Bm"dcB |"A"AFE "D"D2 :|
+[V:2] D,2[AFD]G,,2[GDB]|D,2[AFD]B,,2[BFD]|D,2[AFD]B,,2[BFD]|A,,2[AEC][D,2A,2F2]:|
+%%%%%%%%%tune repeat
+[V:1] D|"D"DFE DFA | "A"AFA "Bm"B3 | "D"d2f "A"edc | "G"B2d "A"AFE |
+[V:2] z|D,2[AFD]F,,2[AFD]|A,,2[AEC]B,,2[BFD]|D,2[AFD]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|
+%
+[V:1] "D"DFE DFA | "A"AFA "Bm"Bcd | "Em"efd "A"BAB | "D"d3 d2 :|
+[V:2] D,2[AFD]F,,2[AFD]|A,,2[AEC]B,,2[BFD]|E,2[EBG]A,,2[AEC]|[D,3A,3F3]D,,2 :|
+%
+[V:1] e|"D"a2f "G"g2e |"D"def "Bm"dcB | "D"AFA "Bm"Bcd | "Em"ede "D"f2g |
+[V:2] z|D,2[AFD]G,,2[GDB]|D,2[AFD]B,,2[BFD]|D,2[AFD]B,,2[BFD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "D"agf "G"gfe | "D"def "Bm"dcB | "D"AFA "Bm"dcB |1 "A"AFE "D"D2 :|2\
+"A"AFE "D"HD3||
+[V:2] D,2[AFD]G,,2[GDB]|D,2[AFD]B,,2[BFD]|D,2[AFD]B,,2[BFD]|1 A,,2[AEC][D,2A,2F2]:|2\
+A,,2[AEC]H[D,3A,3F3]||
+%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87261
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

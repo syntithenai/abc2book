@@ -1,0 +1,28 @@
+X:760
+T:Fancy Tune
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001070.html
+%%ID:00001070
+K:G
+!segno! D2 | \
+G2 GB AcBd | dcBc A2c2 | BGcA dBec | B4 {cB}A2D2 | \
+G2GB AcBd | dcBc A2c2 | Bdec B2A2 | A4 G2 ||
+Bd | \
+c2c2 A3c | cBAB G3B  | ABcd edcB  | G4 F2Bd | \
+cddd A3c | cBAB G2g2 | fage dge^c | dedc BcAB !segno! !D.C.! ||
+%%newpage
+%page 58
+S:https://www.folktunefinder.com/tunes/88309
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

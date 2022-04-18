@@ -1,0 +1,32 @@
+X:1
+T:Polka
+C:traditionell
+R:Polka
+A:Kuhlaendchen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Noten-ausdruck von Ernst Kainzmeier, mit dem vermerk: gelernt von Thomas Spurny auf Schloss Freiberg 2000
+N:dort in F
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G %Transposed from F
+D4 d4 | B2BA G4 | F2FG A2F2 | GFGA B2G2 |
+D4 d4 | B2BA G4 | F2FG A2F2 | G2B2 G4 :|
+|:\
+D2B2 D2B2 | D2d2B2G2 | D2c2A2F2 | GABc d2B2 |
+D2B2 D2B2 | D2d2B2G2 | D2c2A2F2 | G2GF G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182998
+S:http://simonwascher.info/TradArchiv_polka/polka.D4d4B2BAG4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

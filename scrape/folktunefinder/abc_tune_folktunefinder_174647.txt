@@ -1,0 +1,40 @@
+X: 85
+T: Mashkadam
+O: Israel (Turkey)
+M: 14/8
+L: 1/8
+Q: 1/4=192
+K: Em
+%%MIDI gchord czzczczzczczzz
+%%MIDI chordprog 24
+"Em"z14|z14|\
+|:AzAA2B2zGFGzzz|\
+  BzAB2c2zAzAzzz|\
+  AzAA2B2zGFGzzz|\
+  BzAB2c2zAzAzzz:|
+%%MIDI gchordoff
+%%MIDI drum dzzdzdzzdzdzz 35 35 35 35 35
+!drum!\
+EDCB,A,EDz7 | DCB,A,G,DCz7|\
+EDCB,A,EDz7 | DCB,A,G,DCz7|\
+A,2G,A,3z8| A,2G,A,3z8|
+|:A,CA,C2B,2B,zB,B,2z2|\
+A,CA,C2B,2B,zB,B,2z2|\
+A,CA,C2B,2B,zB,B,2z2|\
+C,D,E,F,z4G,G,G,A,z2:|
+K: Am
+M:16/8
+!nodrum!\
+|:zEEF2G2AF2GA3z2|zAAA2^GAB2AB2z4:|\
+|:A2c2A2c2BBB2E2z2| A2c2A2c2BBB2E2z2|
+A2c2A2c2BBB2E2z2|CB,^G,2B,,D,2z2_E,E,G,2z3:|
+S:https://www.folktunefinder.com/tunes/174647
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Israel/Mashkadam.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Key A
+% Time_signature 16/8
+% Time_signature 14/8
+% Has_accompaniment_chords Has chords

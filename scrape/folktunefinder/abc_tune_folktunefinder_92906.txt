@@ -1,0 +1,27 @@
+X: 105
+T:Barren Rocks of Aden, The
+R:March
+N:ACCW added 4th part from Jim Chalmers music
+Z:<cfalt@trytel.com> www.trytel.com/~cfalt/Fiddle/The_List.abc
+M:2/4
+L:1/8
+K:D
+d/2e/2|"D"f>gfe|dfAd|"A7"ceAe|"D"fAde|
+f>gfe|dfAd|"A7"ceAe|"D"d2d:|
+f/2g/2|:"D"a>fdf|"A7"efA(e/2f/2)|gece|"D"dfA(f/2g/2)|
+a>fdf|"A7"efA(e/2f/2)|gece|"D"d2d f/2g/2:|
+L:1/16
+:afdf afdf|"A7"e2f2A2(ef)|gece gece|"D"d2f2A2(fg)|afdf afdf|
+"A7"e2f2A2(ef)|g2e2c2e2|"D"d4d4::afdA Afdf|afdA Afdf|
+gecA Aece|gecA Aece|afdA Afdf|afdA Afdf|gecA Aeca|
+d4d2z2:|
+S:https://www.folktunefinder.com/tunes/92906
+S:http://www.alfwarnock.info/alfs/abc/accw02.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

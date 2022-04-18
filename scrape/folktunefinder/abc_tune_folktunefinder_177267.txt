@@ -1,0 +1,25 @@
+X:1
+T:Mouse In The Mug, The
+R:jig
+Z:hn-jig-389
+M:6/8
+L:1/8
+K:G
+~G3 EGD | ~G3 Bdg | ~e3 dBG | AGA BAB |
+~G3 EGD | ~G3 Bdg | ~e3 dBG |1 AGF GBA :|2 AGF GBd |]
+gab agf | e/f/gd edB | deg edB | ABG ABd |
+gab agf | e/f/gd edB | deg edB | AGF GBd ||
+gab agf | e/f/gd edB | deg edB | AGA BAB |
+~G3 EGD | ~G3 Bdg | ~e3 dBG | AGF GBA |]
+S:https://www.folktunefinder.com/tunes/177267
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_mouse_in_the_mug_the.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

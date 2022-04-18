@@ -1,0 +1,32 @@
+X:6
+T:Carnaval de Venise
+T:Air vari\'e pour Cornet, Trompette, Bugle, Baryton ou Tenorhorn
+C:Arban
+M:6/8
+L:1/32
+Q:3/8=42
+K:F
+P:Variation IV
+LC4|LD(c=Bc dcBc) LC(cBc) _B,(c=Bc dcBc) LA,(cBc)|LC(c=Bc dcBc) L_B,(cBc) LG,(cBc dcBc) LA,(cBc)|
+LB,(c=Bc dcBc) L=B,(cBc) LD(cBc dcBc) LC(cBc)|LA,(c=Bc dcBc) LC(cBc) A,4 z4 C4|
+LF(c=Bc) LE(cBc) LD(cBc) LC(cBc) L_B,(c=Bc) L_A,(cBc)|LC(c=Bc dcBc) L_B,(cBc) LG,(c=Bc dcBc) LA,(cBc)|
+LB,(c=Bc dcBc) L=B,(cBc) LD(c=Bc dcBc) LC(cBc)|LF(c=Bc dcBc) LC(cBc) F4 z4 c4|
+Lc(c=Bc) L_B(c=Bc) LA(cBc) LA(cBc) LG(cBc) LF(cBc)|LE(c=Bc) L_B(c=Bc) LG(cBc) LE(cBc) LG(cBc) LA(cBc)|
+LB(c=Bc dcBc) Le(cBc) LG(c=Bc dcBc) LC(cBc)|(FC)CC (CA)AA (Ac)cc f4 z4 c4|
+Lc(c=Bc) L_B(c=Bc) LA(cBc) LA(cBc) LG(cBc) LF(cBc)|LE(c=Bc) L_B(c=Bc) LG(cBc) LE(cBc) LG(cBc) LA(cBc)|
+LB(c=Bc dcBc) Le(cBc) LG(c=Bc dcBc) Le(cBc)||"^Coda"(fc)cc cccc (ec)cc (fc)cc cccc (ec)cc|
+(fc)cc cccc (ec)cc (fc)cc cccc (ec)cc|\
+L:1/16
+ff/f/ ffff fAcfAc|F4 z A A4 z F|HF12|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/96703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/arban-joseph-jean-baptiste-laur/arban-carnaval/arban-carnaval-1.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

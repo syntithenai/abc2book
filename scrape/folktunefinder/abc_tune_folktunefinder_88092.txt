@@ -1,0 +1,29 @@
+X: 032157
+T: Century (The)
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+Z: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4 = 170
+K: Ador
+AB | cAAB cAeA | cAec dBGB | cAGA cdef | gedc d2 ed |
+cAAB cAeA | BAGA cdeg | agec dged | c2 BG A2 :|
+zg |a2 ed cdef | g2 gf gefg | aged cAcd | efge d3e |
+aged cAGB | ABcd efge | agec dged | c2 BG A2 ||
+AB | cdcB cdef | gage dBGB | ABcB cdef | gabg a2 bg |
+agec dfed | c2 AB cdef | ga (3bag efed | cdBG A4 ||
+%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88092
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

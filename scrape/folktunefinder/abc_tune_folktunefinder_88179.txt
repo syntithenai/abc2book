@@ -1,0 +1,31 @@
+X:110
+T:Kendal ghyll
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:illegible text follows this ... "Thomas Spadeon Thos. La"
+O:England
+R:32-bar Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e95.html
+%%ID:00000e95
+K:G
+d2e f2g | fed cBA | d2e f2g | agf gfe | \
+d3  def | A3  AGF | G2B A2G | AFD D3 ::
+F3 A3 | cBA cBA | G3 B3 | dcB dcB | \
+F3 A3 | cBA cBA | G3 A3 | B2G FED :|
+%%newpage
+%page 9
+S:https://www.folktunefinder.com/tunes/88179
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Rhythm 32-bar jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

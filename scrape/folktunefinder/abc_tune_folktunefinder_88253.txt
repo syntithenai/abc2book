@@ -1,0 +1,26 @@
+X:480
+T:a Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:"A Good One"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000062c.html
+%%ID:0000062c
+K:A min
+A2 E2 A2 |  B2 E2B2 | c2 dcBA | BAGF E2 |\
+c2 G2 c2 | d2 G2 g2 | e2 fede | c6 ::
+e2 fedc | d2 c2 B2 | c2 dcBA | ^GA B2 E2 |\
+A2 E2A2 | B2 e2 B2 | c2 dcBc | A6 :|
+S:https://www.folktunefinder.com/tunes/88253
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X:5
+T:Rigodon de Gap
+T:Lou Coucou
+N:Ou rigodon de Charance, du Dauphin...
+R:Rigodon
+C:Trad.
+A:Gapenais - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:240
+K:C
+|:[GG,][BG,][dG,][d/G,/]d/| \
+K:G
+[e/D,/]f/[g/G,/]e/[dG,][dG,]|[GG,][BG,][dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[BG,][GG,]|[GG,][BG,][dG,][
+d/G,/]d/|[e/D,/]f/[g/G,/]e/[dG,][dG,]| \
+[GG,][BG,][dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[GG,]G,:|:[G/G,/]B/[G/G,/]B/[BG,][AD,]|[A/D,/]c/[A/D,/]c
+/[cD,][BG,]|[e/D,/]f/[g/G,/]e/[dG,][d/G,/]e/| \
+[d/G,/]c/[B/G,/]A/[BG,][GG,]|[G/G,/]B/[G/G,/]B/[BG,][AD,]|[A/D,/]c/[A/D,/]c/[cD,][BG,]|[e/D,/]f/[g/G
+,/]e/[dG,][d/G,/]e/|[d/G,/]c/[B/G,/]A/[GG,]G,:| \
+W:1. Le printemps qui charme la bergre
+W:Le printemps ne dure pas longtemps
+W:Les beaux jours, amis, ne durent gure
+W:Les beaux jours mes frres sont bien courts !
+W:
+W:Refrain (biss)
+W:Tira rira rire
+W:Il vaut mieux en rire
+W:Frre venez donc danser le rigodon
+W:
+W:2. Le printemps rjouit la bergre,
+W:Le printemps met la bergre aux champs.
+W:Aimable bergre, tu ne danses gure,
+W:Le printemps est court, profite des beaux jours
+W:
+W:3. On sait bien que la jeunesse est brve
+W:On sait bien qu'il n'en restera rien
+W:Nous passons rapide comme un rve
+W:Nous passons ainsi que nos chansons
+W:
+W:4. Fraches fleurs seront bientt fanes
+W:Fraches fleurs vont perdre leur couleur
+W:En passant mesdames les annes
+W:En passant fuyez d'un pas glissant
+S:https://www.folktunefinder.com/tunes/96985
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Rigodon
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

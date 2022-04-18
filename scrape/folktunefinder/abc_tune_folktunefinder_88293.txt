@@ -1,0 +1,27 @@
+X:680
+T:March by J. Barry
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+N:no time sig given
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000f00.html
+%%ID:00000f00
+K:F
+c2c>c c2G2 | cGce c2G2   | e2e>e e2c2  | eceg e2c2 |
+a2f4 fg/a/ | g2e4- ef/g/ | f2d4- de/f/ | e2c4 de |\
+feag ^fedc | B2B>B B2z2 ||
+g2g>g g2d2 | gdgb g2d2 | c2c>c c2g2  | c'gc'e' c'2g2 | \
+eceg ^fdfa | g4   a4   | g4    a^fdB | f2a4 f>d |
+e2g4 e>c   | d2f4 d>B  | cBAG  FEDC  | f2a4 f>e | \
+e2g4 e>c   | d2f4 d2   | e2e>e e2 |]
+S:https://www.folktunefinder.com/tunes/88293
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

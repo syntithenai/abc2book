@@ -1,0 +1,33 @@
+X:7
+T:Ronde Pourquoi
+C:Tielman Susato (1551)
+M:C
+L:1/8
+K:C
+%%staves [1 2 3 4]
+V:1 name=Dessus
+c2g2 g3g | f2g2 _e2c2 | f3g f_e dc | BAB2 c4 :| cd _ef g2g2 |
+_b2a2 g4 | cd _ef g2g2 | _b2a2 g4 | _ed ef g2g2 | _ed ef g2g2 | fg _ag f_e dc |
+BA cB c4 | _ed ef g2g2 | _ed ef g2g2 | fg _ag f_e dc | BA cB c4 |]
+V:2 name=Tenor
+G4 _B2B2 | A2G2 _A2G2 | F3_E FG FE | DCD2 C4 :| G2G2 G2_B2- |
+BA/G/ F2 G2_E2 | G2G2 G2_B2- | BA/G/ ^F2 G4 | G3A _B2G2 | GF GA _B2_E2 | F3_E FG FE |
+DCD2 C4 | G3A _B2G2 | GF GA _B2_E2 | F3_E FG FE | DCD2 C4 |]
+V:3 name=Basse clef=treble
+C2C2 G,3G, | D2G2 C4 | F,2F,2 _B,2C2 | G,4C4 :| C4 _E3D/C/ |
+_B,CD2 G,2C2 | C4 _E3D/C/ | _B,CD2 G,4 | C3_B, G,2G,2 | C3_B, G,2C2 | F,4 _B,2C2 |
+G,4C4 | C3_B, G,2G,2 | C3_B, G,2C2 | F,4 _B,2C2 | G,4 C4 |]
+V:4 name=Basse
+C,2C,2 G,,3G,, | D,2G,2 C,4 | F,,2F,,2 _B,,2C,2 | G,,4C,4 :| C,4 _E,3D,/C,/ |
+_B,,C,D,2 G,,2C,2 | C,4 _E,3D,/C,/ | _B,,C,D,2 G,,4 | C,3_B,, G,,2G,,2 | C,3_B,, G,,2C,2 | F,,4 _B,,2C,2 |
+G,,4C,4 | C,3_B,, G,,2G,,2 | C,3_B,, G,,2C,2 | F,,4 _B,,2C,2 | G,,4 C,4 |]
+S:https://www.folktunefinder.com/tunes/90149
+S:http://michel.bellon.free.fr/Musique/abc/CaveSaintSabin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

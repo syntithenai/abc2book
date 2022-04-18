@@ -1,0 +1,27 @@
+X:027
+%%topmargin 3cm
+T:Swallowtail Reel
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:2C|
+K:ADor
+gf | eA ((3cBA) eAcA | cdef gedB | G2 BG dGBG | Bdef g2 fg |
+eA ((3cBA) eAcA | cdef g2 fg | afge dBGB | AcBG A2 ||
+cd | eaag abag | edef gedB | G2 BG dGBG | cdef g2 fg |
+eaag abag | edef g2 fg | afge dBGB | AcBG A2 |]
+S:https://www.folktunefinder.com/tunes/91957
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Swallowtail_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

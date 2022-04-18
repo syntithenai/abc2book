@@ -1,0 +1,45 @@
+X:2
+T:Liberty Bell March -- a suggested bass line
+C:John Philip Sousa
+N:Once through the tune is twice through a contra dance.
+N:(Contra arrangement and transcription by A. Waksman)
+N:This tune was the opening theme to Monty Python's Flying Circus.
+M:6/8
+L:1/8
+P:INTRO (only if called for; can replace last 4 bars of previous tune)
+%%MIDI transpose -24
+K:G bass middle=d
+"N.C."g2f e2_e|d2^c =c2B|.A.B.c .Bz .A|"D7".dzz "(Chime)"d'2 ||
+P:Part 1 (G major)
+z | "G"gz2 dz2 | gz2 dz2 | "D"(f2g a2g | f2 e d2) z |
+"D" dz2 Az2 | dz2 fz2 | "G"(g2a b2a | g2f e2 d) |
+"G"gz2 dz2 | gz2 dz2 | "A7"(e2f g2f | e2 d ^c2 B) |
+"D/A"Az2A3 | "A7"Az2A3 | "D"dz "A7"A "D"dz "A7"A | "D"dzz  "D7"d3 ||
+%
+"G"g3 d3 | g3 B3 | "C"c3 "D7"d3 | "G"g3 g2z | 
+"D"f3 d3 | "G"g3 "Edim"e3 | "D/A"a3 "A7"a3 | "D"d3-d z2 |
+"C"c6 | "B7"B6 | "Em"e3 "Am/C"c3 | "B7"B3-B z2 | 
+"C6"cz2 cz2 | "G/D"d3 g3 | "D7"f3 d3 | "G"g3 gz2 ||
+% -----
+P:Part 2 (C major)
+K:C bass middle=d
+("C"c3 "Dm7"d3 | "Ebdim7"_e3 "C/E"=e3) | "C"cz2 Gz2 | cz2 Gz2 | 
+("C"c3 "Dm7"d3 | "Ebdim7"_e3 "C/E"=e3) | "G"dz2 Gz2 | Gz2 dz2 |
+"G7"G3 "Gdim7"G3 | "G7"Gz (g ^f2 g) | "C"c3 "Cdim7"c3 | "C"c z (g ^f2 g) | 
+"G/D"d3 d3 | "D7"d3 d3 | "G7"G3 "F/G"G3 | "G7"G3 G3 ||
+("C"c3 "Dm7"d3 | "Ebdim7"_e3 "C/E"=e3) | "C"cz2 Gz2 | cz2 Gz2 | 
+("C"c3 "Dm7"d3 | "Ebdim7"_e3 "C/E"=e3) | "G"dz2 Gz2 | Gz2 dz2 |
+"G7"G3 "Gdim7"G3 | "G7"Gz (g ^f2 g) | "C"c3 "Cdim7"c3 | "C"c z (g ^f2 g) | 
+"F"f3 "Dm"d3|"C/G"g3 "G7"G3 |"C"cz [aA] [gG]z [eE]|[cC]zz "Last time".[cC]z |]
+S:https://www.folktunefinder.com/tunes/172086
+S:http://www.thursdaycontra.com/~spuds/tunes/jigs/LibertyBellBass.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

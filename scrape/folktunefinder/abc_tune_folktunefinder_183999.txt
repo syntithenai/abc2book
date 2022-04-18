@@ -1,0 +1,43 @@
+X:1
+T:Princess Royal
+M:4/4
+C:
+S:Bacon (from George Hathaway (RKS 1937) (SC))
+N:
+A:Bledington
+O:Irish
+R:Reel
+%:NoTeX
+%:NoWWW
+%P:A(AB)(CB)$^2$
+P:A(AB)(CB)2
+I:speed 400
+L:1/16
+K:GDor
+P:A
+d3c |\
+B4 A4  G4 d3c  | B4 A4  G4 d3d  | e4 c4  c3de3c  | d4 B4 (B4 B3) d |\
+c4 B3B A4 G4   | F4 E3E D4 c4   | B4 A3G F4 A4   | G8     G4       ||\
+P:B
+d3e |\
+f4 d4  d3ef3d  | g4 G4  G8      | g3fe3d c3BA3G  | A4 F4 (F4 F3) F |\
+G4 G4 (B4 B3) B| c4 c4 (f4 f3) f| e4 c4  d4  d3c | B4 G4  c8       |\
+B3AG3F G3AB3c  | d4 G4  G4 d3c  | B4 A3G F4  A4  | G8     G4  z4   ||\
+% the phrasing at the end of B and beginning of B works
+% works only if C always follows B
+P:C
+d6 c2  B8      | A8     G8      | d6 c2  B8      | A8     G8       |\
+d6 d2  e8      | c8     c6 d2   | e6 c2  d8      | B8    (B4 B3) d |\
+c4 B3B A4 G4   | F4 E3E D4 c4   | B4 A3G F4  A4  | G8     G4       ||
+S:https://www.folktunefinder.com/tunes/183999
+S:http://www.ucolick.org/~sla/morris/music/Bledington/pr.lb2.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Bledington/pr.lb2.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Bledington/pr.lb2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:1
+T:"Matins Gris"
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:D mixo
+B2GBAG | F2DFGF | EFGBAG | A2GFED |
+B2GBAG | F2DFGF | E2EFG2 |1 E2F2G2 :|\
+                         [2 E2G2B2 ||
+|:\
+e2c2A2 | B2BAGB | AGFGAd | B2ABG2 |
+e2c2A2 | B2BAGB | AGFGAF | G6 :|
+S:https://www.folktunefinder.com/tunes/174757
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/matins_gris.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

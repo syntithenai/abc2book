@@ -1,0 +1,58 @@
+X:1
+T:Maffe Polka
+C:Jan Alexander Stryckers
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:= balmy polka
+H:Additional parties for example for 2 clarinets 
+M:2/4
+L:1/8
+P:(AA BB A CC)n AA
+Q:1/4=110
+R:polka
+K:C
+V:1 name=C/G-harmonika
+P:[A]
+|: "C"g/g/g/g/ gg/g/ | "G"fe d2 | "C"e/g/c cB/c/ | "G"dB G/d/G |
+  "C"g/g/g/g/ gg/g/ | "G"fe d2 | "C"e/g/c "G"dc/B/ | "C"ce cz :|
+K:G
+P:[B]
+|: "G"Bd zB/d/ | "D"cA zc/A/ | FA DF | "G"GB dd |
+ Bd zB/d/ | "D"cA zc/A/ | FA DF | "G"Gz Gz :|
+K:C
+P:[A]
+| "C"g/g/g/g/ gg/g/ | "G"fe d2 | "C"e/g/c cB/c/ | "G"dB G/d/G |
+  "C"g/g/g/g/ gg/g/ | "G"fe d2 | "C"e/g/c "G"dc/B/ | "C"ce cz ||
+K:F
+P:[C]
+|: "F"cc/=B/ cd | cA FA | "G"c=B AB | "C"c2 c2 |
+ "F"cc/=B/ cd | cA FA | "C"cc EE | [1 "F"Fz Fz :| [2 "F"Fz "G"G2 |]
+V:2
+|: eecc | dcBB | ccee | fedd | eecc | dcBB | cGAB | cccz :|
+K:G
+|: d2g2 | f2d2 | cdfa | gdBB | d2g2 | f2d2 | cdfa | gzgz :|
+K:C
+| eecc | dcBB | ccee | fedd | eecc | dcBB | cGAB | cccz ||
+K:F
+|: f2a2 | f2c2 | efgg | efg2 | f2a2 | f2c2 | efgg |[1 fzfz :| [2 fzd2 |]
+V:3
+|: E2FG | A2G2 | GEGF | AGB2 | cEFG | A2G2 | GEGF | EGEz :|
+K:G
+|: G2B2 | d2c2 | zdcA | BGED | G2B2 | A2c2 | zdcA | GzGz :|
+K:C
+| E2FG | A2G2 | GEGF | AGB2 | cEFG | A2G2 | GEGF | EGEz ||
+K:F
+|: A2F2 | A3F | GDEF | G2E2 | A2F2 | A3F | c2B2 | [1AzAz :| [2Az=B2 |]
+S:https://www.folktunefinder.com/tunes/173580
+S:http://music.gordfisch.net/tradmusic/pub/cache/Maffe_Polka_211ab1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

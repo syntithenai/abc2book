@@ -1,0 +1,51 @@
+X: 9078
+T: Joe Kelly's Retreat (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] "D"afd "G"gfg | "Em"efd "Bm"BAF | "D"DFA dcd | "D"DFA "C"=cBc |
+[V:2] D,2[AFD]G,,2[GBD]|E,2[EGB]B,,2[BDF]|D,2[AFD]A,,2[AFD]|\
+D,2[AFD]=C,2[EG=C]|
+%
+[V:1] "D"aba "G"gfe | "D"def dcB | "A"AGE "A7"cAG | "D"FDD "D"D3 :|
+[V:2] D,2[AFD]G,,2[GBD]|D,2[AFD]F,,2[AFD]|A,,2[GCE]C,2[EGC]|\
+D,2[AFD][D,3A,3F3]:|
+%
+[V:1] "D"A,DF "G"B,DG | "C"=CDE "D"FDD | "D"FAd "G"GBd | "Am7"AGA "C"=c2 e |
+[V:2] D,2[AFD]G,,2[GBD]|=C,2[EG=C]D,2[AFD]|F,,2[AFD]G,,2[GBD]|\
+A,,2[G=CE]=C,2[EG=C]|
+%
+[V:1] "D"aba "G"gfe | "D"def "Bm"dcB | "A7"AGE cAG | "D"FDD D3 :|
+[V:2] D,2[AFD]G,,2[GBD]|D,2[AFD]B,,2[BDF]|A,,2[GCE]C,2[EGC]|\
+D,2[DFA][D,3A,3F3] :|
+%%%%%%tune repeat
+[V:1] "D"afd "G"gfg | "Em"efd "Bm"BAF | "D"DFA dcd | "D"DFA "C"=cBc |
+[V:2] D,2[AFD]G,,2[GBD]|E,2[EGB]B,,2[BDF]|D,2[AFD]A,,2[AFD]|\
+D,2[AFD]=C,2[EG=C]|
+%
+[V:1] "D"aba "G"gfe | "D"def dcB | "A"AGE "A7"cAG | "D"FDD "D"D3 :|
+[V:2] D,2[AFD]G,,2[GBD]|D,2[AFD]F,,2[AFD]|A,,2[GCE]C,2[EGC]|\
+D,2[AFD][D,3A,3F3] :|
+%
+[V:1] "D"A,DF "G"B,DG | "C"=CDE "D"FDD | "D"FAd "G"GBd | "Am7"AGA "C"=c2 e |
+[V:2] D,2[AFD]G,,2[GBD]|=C,2[EG=C]D,2[AFD]|F,,2[AFD]G,,2[GBD]|A,,2[G=CE]=C,2[EG=C]|
+%
+[V:1] "D"aba "G"gfe | "D"def "Bm"dcB | "A7"AGE cAG |1 "D"FDD D3 :|2 "D"FDD D3-|D6||
+[V:2] D,2[AFD]G,,2[GBD]|D,2[AFD]B,,2[BDF]|A,,2[GCE]C,2[EGC]|1 D,2[AFD] [D,3A,3F3] :|2\
+D,2[DFA][D,3-A,3-F3-]|[D,6A,6F6]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87163
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

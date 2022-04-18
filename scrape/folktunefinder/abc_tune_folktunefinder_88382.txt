@@ -1,0 +1,28 @@
+X:1125
+T:Tom Fowlers Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000607.html
+%%ID:00000607
+K:G
+Bc|\
+dcBA     Ggfg | e4     d4   | (cd)(cB) (AB)(AG) | F4 E4 | \
+(DE)(FG) A2B2 | c3d/e/ d2c2 | BAGA      D2F2    | G6::
+d2|\
+g2(bg) e2(ag) | !trill!f4 d4 | g2(bg) e2(ag) | !trill!f4 d2(ef) | \
+gddd gddd | gdgd gddd | ! g3f edcB | ABAG F3E | \
+DEFG A2B2 | c3d/e/ d2c2 | BAGA D2F2 | G6 :|
+S:https://www.folktunefinder.com/tunes/88382
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

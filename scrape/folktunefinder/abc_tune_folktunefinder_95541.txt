@@ -1,0 +1,29 @@
+X:41
+T:Bransle des pois
+R:Bransle
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+M:2/4
+L:1/2
+Q:1/2=200
+K:C
+ c2 cd | e2 ee | fe dd | e2 A2 |\
+c>B cd | e2 ee | fe dd | e2 A2
+Q:1/2=150
+|: AB G2 | AB cA | AB cd | cB A2 :|
+S:https://www.folktunefinder.com/tunes/95541
+S:http://anamnese.online.fr/abc/arbeau.abc
+% Rhythm Bransle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

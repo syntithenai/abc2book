@@ -1,0 +1,52 @@
+X: 9165
+T: Virtuoso (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] E|"Bm"F2 BF dFBF|"G"dBdg "A7"ecAG|"Bm"F2 BF dFBF|"D"FD"A"EC "Bm"DB,B,D|
+[V:2] z|B,,2[B2D2F2]F,2[D2F2B2]|G,,2[G2D2B2]A,,2[G2C2E2]|B,,2[B2D2F2]F,2[D2F2B2]|\
+D,2[A2E2C2]B,,2[B2D2F2]|
+%
+[V:1] "Bm"FB (3B^AB dB (3B^AB|"D"df (3fef "G"gfeg|"D"fd"A"ec "G"dBGB|"A"AFGE "D"FD D :|
+[V:2] B,,2[B2D2F2]F,2[D2F2B2]|D,2[D2A2F2]G,,2[G2D2B2]|D,2[A2E2C2]G,,2[G2D2B2]|\
+A,,2[A2E2C2][D,3A,3F3]:|
+%
+[V:1] e|"D"af"A"ge "D"fddA|"A"(3cBA eA "F#m7"fAeA|"D"affa "Bm"bafe|"G"dB"A"cA "Bm"Bdef|
+[V:2] z|D,2[A2E2C2]F,,2[D2A2F2]|A,,2[A2C2E2]F,,2[A2C2E2]|D,2[D2A2F2]B,,2[B2D2F2]|\
+G,,2[A,2E2C2]B,,2[B2D2F2]|
+%
+[V:1] "D"af"A"ge "D"fddA|"A"(3cBA eA "F#m7"fAeA|"G"dg (3gfg "A7"ecAG|"D"FD"A"EC "D"D3 :|
+[V:2] D,2[A2E2C2]F,,2[D2A2F2]|A,,2[A2C2E2]F,,2[A2C2E2]|G,,2[G2D2B2]A,,2[G2C2E2]|
+D,2[A2E2C2][D,3A,3F3] :|
+%%%%%%%%%%tune repeat
+[V:1] E|"Bm"F2 BF dFBF|"G"dBdg "A7"ecAG|"Bm"F2 BF dFBF|"D"FD"A"EC "Bm"DB,B,D|
+[V:2] z|B,,2[B2D2F2]F,2[D2F2B2]|G,,2[G2D2B2]A,,2[G2C2E2]|B,,2[B2D2F2]F,2[D2F2B2]|\
+D,2[A2E2C2]B,,2[B2D2F2]|
+%
+[V:1] "Bm"FB (3B^AB dB (3B^AB|"D"df (3fef "G"gfeg|"D"fd"A"ec "G"dBGB|"A"AFGE "D"FD D :|
+[V:2] B,,2[B2D2F2]F,2[D2F2B2]|D,2[D2A2F2]G,,2[G2D2B2]|D,2[A2E,2C2]G,,2[G2D2B2]|\
+A,,2[A2E2C2][D,3A,3F3]:|
+%
+[V:1] e|"D"af"A"ge "D"fddA|"A"(3cBA eA "F#m7"fAeA|"D"affa "Bm"bafe|"G"dB"A"cA "Bm"Bdef|
+[V:2] z|D,2[A2E2C2]F,,2[D2A2F2]|A,,2[A2C2E2]F,,2[A2C2E2]|D,2[D2A2F2]B,,2[B2D2F2]|\
+G,,2[A,2E2C2]B,,2[B2D2F2]|
+%
+[V:1] "D"af"A"ge "D"fddA|"A"(3cBA eA "F#m7"fAeA|"G"dg (3gfg "A7"ecAG|1 "D"FD"A"EC "D"D3 :|2\
+"D"FD"A"EC "D"D4-|D8||
+[V:2] D,2[A2E2C2]F,,2[D2A2F2]|A,,2[A2C2E2]F,,2[A2C2E2]|G,,2[G2D2B2]A,,2[G2C2E2]|1\
+D,2[A2E2C2][D,3A,3F3] :|2 D,2[A2E2C2][D,4-A,4-F4-]|[D,8A,8F8]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87250
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

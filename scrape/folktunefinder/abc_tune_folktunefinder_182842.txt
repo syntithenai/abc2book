@@ -1,0 +1,28 @@
+X:685
+T:Planxty Tom Judge
+C:O'Carolan
+B:O'Neill's 685
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Moderate"
+N:collected by Cronin.
+M:6/8
+L:1/8
+K:D
+c \
+| Add ded | cde (f<a)g | fed cAG | FDF GAG |
+| FDg fed | cde a2g | f>de cAG | FDD D2 :|
+c \
+| Add def | AGF EDE | CAB cAG | (A/B/c).e d2D |
+| (D/E/F).D (D/E/F).D | (C/D/E).C (C/D/E).C | DAG FED | CA,A, A,2A, |
+| D/D/DE D/D/DE | C/C/CE C/C/CE | D/D/DB cAG | (A/B/c/d/e/f/) (g/a/g/f/.e) |
+| (d/e/d/c/).B (c/d/c/B/).A | GEc GEC | D/D/Dc AdE | {F}EDD D2 |]
+S:https://www.folktunefinder.com/tunes/182842
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0685_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

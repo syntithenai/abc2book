@@ -1,0 +1,29 @@
+X: 1
+T:Little John's Home
+M:4/4
+L:1/8
+Q:150
+C:Little Jack MacDonald
+S:Winston Fitzgerald via Stan Taylor
+R:Strathspey
+K:D
+"D"D2 A3/2,D/2 F/2D3/2 A/2F3/2|d2 c3/2d/2 (3Bcd (3AGF   |
+"Em"E2 B3/2,E/2 G/2E3/2 g3/2f/2| (3efd (3cdB "A7"(3ABG (3FGE|!
+"D"D2 A3/2,D/2 F/2D3/2 A/2F3/2|d2 c3/2d/2 (3Bcd A3/2F/2|
+"G"G3/2B/2 (3efg "D"(3fef (3afd| "A7"(3Ace a3/2c/2 "D"d2 dg|!
+"D"f2 d3/2f/2 (3Adf a3/2g/2|f3/2d/2 A3/2d/2 F/2A3/2 D3/2f/2|
+"Em"(3gbg (3ege (3Beg b3/2a/2|"E7"(3^gab (3ef=g "A7"(3cde A3/2g/2|!
+"D"f2 d3/2f/2 (3Adf a3/2g/2|f3/2d/2 A/2c3/2 F/2A3/2 D3/2F/2|
+"G"G3/2B/2 (3efg "D"(3fef (3afd|1"A7"(3AFD A,3/2C/2 D2 (3DFE:|2"D"D8   |
+|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/172463
+S:http://www.blackflute.com/music/tunes/other/ljhome.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

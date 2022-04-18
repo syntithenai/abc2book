@@ -1,0 +1,32 @@
+X:1
+T:Loch Ericht Side
+C:Neil Gow
+R:Slow Strathspey
+B:Athole Collection (The)
+N:Gow played this tune for Burns during is 1787 visit.
+M:4/4
+L:1/8
+F:http://flutesong.naturalscotland.co.uk/music/abc/tunes/athol-il.abc 2007-01-22 22:32:02 UT
+K:Am
+|G/2F/2|"C"E<G GA/2B/2 c>dc>B|"Am"A>GAB/2c/2 "Dm"d/2e/2f/2e/2 d>D
+|"C"E<G GA/2B/2 c>de>d|c/2B/2A/2G/2 c>E "G"D2C:||
+|g|"C"e/2f/2g c>g a/2g/2f/2e/2 g>e|"Dm"a>ada "F"b/2a/2g/2f/2 a>g
+|"C"e/2f/2g c>g a/2g/2f/2e/2 g>c|G>ce>c "G"d2 c>g
+|"C"e/2f/2g c>g a/2g/2f/2e/2 g>e|"Dm"f>ad>a "F"b/2a/2g/2f/2 a>g
+|"G"e/2f/2g d>e "C"=c>de>d|c/2B/2A/2G/2 c>E "Dm"D2C||
+S:https://www.folktunefinder.com/tunes/172639
+S:http://flutesong.naturalscotland.co.uk/music/abc/tunes/athol-il.abc
+S:http://flutesong.naturalscotland.co.uk/music/abc/tunes/athol-il.abc
+S:http://gulfweb.net:34043/~rlwalker/abc/LochErichtSideC.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/LochErichtSideC.abc
+% Rhythm Slow strathspey
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

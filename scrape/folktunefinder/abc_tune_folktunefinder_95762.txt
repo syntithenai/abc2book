@@ -1,0 +1,25 @@
+X:655
+T:Pretty Maggy
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005e9.html
+%%ID:000005e9
+K:C
+G|\
+c>dc>G A>cG>c         | F>cEc D<dd<e | \
+c>dcG (A/G/).F/.E/ Df | ecBg  ecc ::
+g/f/|\
+e>cg>c acgc | fd (f/e/d/c/) Bf | \
+ecBc A<cG>c | F<dD>B cCC::
+S:https://www.folktunefinder.com/tunes/95762
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

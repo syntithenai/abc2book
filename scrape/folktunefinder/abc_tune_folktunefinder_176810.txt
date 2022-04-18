@@ -1,0 +1,25 @@
+X:1
+T:morceau avec accompagnement guitare
+R:hornpipe
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+"G"GABc BGBd|
+W: je chan te - i ci et la
+"D7"DEFD DFAc |
+W:le prin temps char me les bergres
+"g"G2d2 G4 |
+%fin du morceau
+"Am7"A,2C2 EGa/c/e/a/ |
+"D9"DfAc eced |
+"G"g8 |
+S:https://www.folktunefinder.com/tunes/176810
+S:http://home.tele2.fr/studyvox/tablavox/guitare.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

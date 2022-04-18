@@ -1,0 +1,26 @@
+X:115
+T:the Marquis of Huntley's Reel
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e05.html
+%%ID:00000e05
+K:A min
+EAA>G | EAA>B | G>AB>c | d/c/B/A/ GB |\
+EAA>G | EAA>a | gd e/d/c/B/ | A2 A2  ::
+abc'b  | bgae  | gdeg          | G>AB>G    |\
+a>bc'a | bgae  | a>b c'/b/a/g/ | a2 aa/b/ |
+c'abg  | aeg>e | dBgB          | G>ABG    |\
+EAA>G  | DAA>a | gd e/d/c/B/   | A2 A2    ::
+%page:17
+S:https://www.folktunefinder.com/tunes/95654
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

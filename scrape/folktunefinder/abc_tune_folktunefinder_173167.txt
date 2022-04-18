@@ -1,0 +1,34 @@
+X:1
+T:Love Changes Everything
+Z: Contributed 2008-07-11 16:08:28 by fred fred@fred.com
+K:A
+Q:"Drammatico " 92
+%%staves 1 2 3 4
+%%barnumbers 4
+%%pageheight 29.7cm
+%%pagewidth 21cm
+%%topmargin 3cm
+%%botmargin 1cm
+%%leftmargin 1cm
+%%rightmargin 1cm
+%%indent 0cm
+V:1 clef=treble name="Soprano"
+z8 | z8 | z8 | z8 |
+V:2 clef=treble name="Alto"
+z8 | z8 | z8 | z8 |
+V:3 clef=treble name="Tenor"
+z8 | z8 | z8 | z8 |
+V:4 clef=bass name="Bass"
+z8 | z8 | z8 | z8 |
+V:1
+|: A4 z A Bd | c>B A4 GB | A2 E4 DF | E4 z4 |
+S:https://www.folktunefinder.com/tunes/173167
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LoveChangesEverything.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

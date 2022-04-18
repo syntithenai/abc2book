@@ -1,0 +1,31 @@
+X:265
+T: Classic
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: Gm
+D | DGA BAG | dGA BAG | A^FD AFD | AcA GFE |
+DGA BAG | dGA BAG | ded cBA | BGG G2 :|
+D | F=EF EDE | DFB dcB | AcA FGA | Bdc BAG |
+FBd EAc | DFB dcB | AcA FGA | B3 B2 :|
+P: version in Am
+K:Am
+E | EAB cBA | eAB cBA | B^GE BGE | BdB AGF |
+EAB cBA | eAB cBA | efe dcB | cAA A2 :|
+E | G^FG FEF | EGc edc | BdB GAB | ced cBA |
+Gce FBd | EGc edc | BdB GAB | c3 c2 :|
+S:https://www.folktunefinder.com/tunes/88565
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

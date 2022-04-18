@@ -1,0 +1,28 @@
+X: 47
+%%staffwidth     14.50cm
+T: You Call Everybody Darling
+I: You Call Everybody DarlingS-YGsquare
+C: S-Y
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+"G"d3d edBd| b2g2- g3d| edBd edBd| "D7"f4- f3d|
+"D7"f^efe fa2d| "G"gfga "Em"bg2^g| "A7"a^gab a=gfe| "D7"ffg^g a4|
+"G"d3d edBd| b2g2- g3g| agfg "G7"agf=f| "C"e4- e3^d|
+"C"e^def g3e| "G"d^cdg "E"b3d| "A7"e^de^e "D7"fef=d| "G"g8 |]
+%%text 9/26/98
+% ---------- Z ----------
+S:https://www.folktunefinder.com/tunes/97330
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

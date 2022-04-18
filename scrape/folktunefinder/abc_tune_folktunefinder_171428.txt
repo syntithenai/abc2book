@@ -1,0 +1,27 @@
+X:3
+T:Larry's Snoa (in D)
+Z:ABC and chords by Moshe Braner
+M:2/4
+L:1/8
+K:D
+|: A |\
+"D"d>c de | fd AF | "G"G>F GA | B3d |\
+"A"c>B cd | ec Ag | "D"f>g ab | a3g |
+"D"f>e fg | fd AF | "G"G>F GA | B3d |\
+"A"c>B cd | ec Ag | "D"f>g fe | d3 :|
+|: f/g/ |\
+"D"af df/g/ | ad' d'c' | "G"b>a gf | "Em"g3f |\
+"A"e>d cd | ec Ag | "D"f>g ab | a3 f/g/ |
+"D"af df/g/ | ad' d'c' | "G"b>a gf | "Em"g3f |\
+"A"e>d cd | ec AG | "D"F>G FE | D3 :|
+S:https://www.folktunefinder.com/tunes/171428
+S:http://trillian.mit.edu/~jc/music/abc/Scand/snoa/LarrysSnoa_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/LarrysSnoa_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

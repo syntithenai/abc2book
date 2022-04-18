@@ -1,0 +1,28 @@
+X:54
+T:The Champion's Hornpipe
+R:hornpipe
+C:unknown, probably traditional
+M:4/4
+L:1/8
+Q:70
+K:Em
+B, |  E>F G>A .B2 e>B | ~c>B (3ABc .B2 e>B |
+c>B (3ABc B>A G>B | A>G (3FGA G>F ~E>D |
+E>F G>A .B2 e>B | ~c>B (3ABc .B2 e>B |
+c>B (3ABc B>A G>B | A>G F>G .E2 E :|:
+B | (3ddd e>d .B2 G2 | (3ggg a>g .e2 c2 |
+D>E F>G A>B c>d | e>d ^c<d .B2 B2 |
+(3ddd e>d .B2 G2 | (3ggg a>g .e2 c2 |
+D>E F>G A>B c>d | e>d ^c<d .G2 G2 :|
+% Output from ABC2Win  Version 2.1 i on 07/02/2001
+S:https://www.folktunefinder.com/tunes/97722
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

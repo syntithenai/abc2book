@@ -1,0 +1,31 @@
+X: 15
+T: Goin' Down South #2
+I: Goin' Down SouthS-GFsquare
+C: S-G
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+P: Intro
+K: F
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| f4 F2G2| "F"A4 c4| "C7"A4 G4| "F"F8| z8|]
+%%vskip.5cm
+|:\
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F  C7"C8|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C"G4 c4| "G7"=B4 d4|"C"c8| z2A2 "C7"B2=B2|
+"F"c2 c4 d2| c8| A2 A4 B2| A8| "C7"A2G2 G2_G2| G4 A2G2| "F"F2F2- "Bb"F2D2| "F  C7"C8|
+"F"c2 c4 d2| c8| "Bb"c2B2 B2d2| f4 F2G2|1 "F"A4 c4| "C7"A4 G4| "F"F8| z8 :|
+[2 "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 F2G2| "F"A4 c4| "C7"A4 G4| "F"F8| z8 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/97296
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

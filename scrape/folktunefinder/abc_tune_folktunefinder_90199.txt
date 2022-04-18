@@ -1,0 +1,47 @@
+X:47
+%%maxsysstaffsep 25pt
+T:Le satire cornu
+R:Branle double
+C:Gabriel Bataille
+O:1614
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-14
+Z:Pour toute observation mailto:galouvielle@free.fr
+R:Branle double
+M:C|
+K:F
+%%staves [1 2 3 4]
+V:1
+(D>E) FF GG F2 : (A>=B) cF EF GF :|
+(F>G) AA BA G2 : G2 AD ^CD ED |:
+(D>E) FF FF G2 : GA GF EE D2 :|
+V:2
+D2 DD EE F2 : (F>G) AC CC CC :|
+C2 FF FF E2 : E2 FD A,D ^CD |:
+D2 DF DF E2 : EF ED D^C D2 :|
+V:3
+A2 AA cc A2 : c2 AA GA cA :|
+(A>B) cc dc c2 : c2 cG AG AA |:
+A2 Bc dc c2 : cc cA AA F2 :|
+V:4
+D,2 D,D, C,C, F,2 : F,2 F,F, C,F, E,F, :|
+F,2 F,F, B,,F, C,2 : C,2F,B,, A,B, A,,D, |:
+(D,>C,) B,,A,, B,,A,, C,2 : C,F, C,D, A,,A,, D,2 :|
+T:Le satyre cornu
+M:4/2
+L:1/4
+K:F
+(G>A) BB cc B2 : (d>e) fB AB cB :|
+(B>c) dd _ed c2 : c2 dG FG AG |:
+G2 G/A/B BB c2 : cd cB A>G G2 :|
+%%footer $D   Galouvielle-MBe 2007 \nBranle double (1614)
+S:https://www.folktunefinder.com/tunes/90199
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Branle double
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Time_signature 4/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,30 @@
+X: 1
+T:Pretty Maid Milking Her Cow
+M:3/4
+L:1/8
+Q:140
+C:Traditional
+S:J&D Donaldson
+R:Waltz
+K:Em
+EF|"Em"G3 BG2|"D"F3 AF2|"G"E2D4|D4 EF|
+"Em"G3 BG2|"D"F3 AF2|"C"E6|E4F2|!
+"Em"G3 BG2|"D"F3 AF2|"G"E2D4|B4A2|
+"Em"G2F2E2|B,2E2"B7"F2|"Em"E6|E4"D"D2:||!
+"G"G3 A Bc|d3 BG2|"D"F2D4|D4EF|
+"G"G3 A Bc|d2B2d2|"Em"e6|e4e2|!
+"G"d3 c B2|A3 B G2|"B7"F2^D4|^D4EF|
+"Em"G3 F E2|B,2E2"B7"F2|"Em"E6|E4 EF||
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/183803
+S:http://www.blackflute.com/music/tunes/waltzes/prettym.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

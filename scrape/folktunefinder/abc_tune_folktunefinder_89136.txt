@@ -1,0 +1,32 @@
+X:160
+T: Father Hanley's
+S: J.O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: A
+C/E/ | FEC E2 A | FEC E2 c/e/ | fec ABc | BAF AFE |
+FEC E2 A | FEC E2 c/e/ | fec ABc | BAA A2 :|
+c/d/ | ece Ace | afa faf | ece fec | BcB Bcd |
+ece Ace | afa faf | ece fec | ABA A2 :|
+W:
+K:G %Transposed from A
+B,/D/ | EDB, D2 G | EDB, D2 B/d/ | edB GAB | AGE GED |
+EDB, D2 G | EDB, D2 B/d/ | edB GAB | AGG G2 :|
+B/c/ | dBd GBd | geg ege | dBd edB | ABA ABc |
+dBd GBd | geg ege | dBd edB | GAG G2 :|
+S:https://www.folktunefinder.com/tunes/89136
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

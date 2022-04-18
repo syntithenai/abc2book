@@ -1,0 +1,22 @@
+X: 9
+T:Bourre  Bonal
+M:3/8
+L:1/8
+K:C
+c|BAB/c/|d2e/f/|gfe|de/f/g|\
+d/f/ec|d2e/f/|gfe|d2:|
+|:d/e/|f/e/d/e/c|BAB|c2B|ec2|dg/a/g|\
+fd/e/d/c/|BAe|dB/A/B/d/|c4:|
+%%newpage
+S:https://www.folktunefinder.com/tunes/97010
+S:http://members.yline.com/~zeiler1/abc/czb3au.abc
+S:http://michel.bellon.free.fr/Musique/abc/czb3au.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

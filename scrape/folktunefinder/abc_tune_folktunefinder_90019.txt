@@ -1,0 +1,21 @@
+X:32
+T:Fifer's Delight
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d|(gfg) GBd|(gfg) G3|(gfg) edB|BAG A3|(gfg) GBd|(gfg) a2La|Lbdd def|Lg2LG LG2::
+G|B2d d^cd|Lg2G G3|B2d d^cd|e2A A3|B2d d^cd|gfg a2La|LBdd def|Lg2LG LG2:|
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90019
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

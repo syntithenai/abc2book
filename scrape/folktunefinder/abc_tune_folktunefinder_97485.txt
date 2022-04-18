@@ -1,0 +1,27 @@
+X: 41
+T:Random Notes
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+K:Dmaj
+"D"~d3 fed|"A"cea ecA|"G"~B3 efg|"A"Bed cBA|
+"D"~d3 fed|"A"cea ecA|"G"BAB efg|"A"Bec "D"d2:|:
+"D"DFA FAd|Adf dfa|afa "G"geg|"D"fdf "A"ecA|
+"D"DFA FAd|Adf dfa|"G"dcB fed|"A"cdB ~A3:|:
+"D"a^ga "G"b^ab|gfg "A"a^ga|"D"dcd efg|"G"Bed "A"cBA|
+"D"a^ga "G"b^ab|"A"gfg "D"a^ga|dcd "G"efg|"A"Bec "D"d2A:||
+% Output from ABC2Win  Version 2.1 k on 5/19/2007
+S:https://www.folktunefinder.com/tunes/97485
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:172
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Red Bull
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+DEGB AGED | ~c3 A BGEG | DEGB AGED | ((3cBA) BG AGEG |
+DEGB AGED | c3 e dBAB | ((3cBA) BG Agfg | [1 ecAF G4 :| [2 ecAF G3 c ||
+|: Bd (3.d.d.d Bdgf | edeg aged "(A"| Bd (3.d.d.d defB "A)"| ((3cBA) BG AGEG |
+Bd (3.d.d.d Bdgf | edeg a2 ga | [1 ((3bag) ag edge | dBAB AGAc :|
+[2 ((3bag) ag {/a}gedg | ecAF G3 E |] xxxx  [|]  xxxx "(A"|| Bd (3.d.d.d Bd{/e}dB "A)"||
+S:https://www.folktunefinder.com/tunes/94768
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Red_Bull_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Red_Bull_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,57 @@
+X:1
+T:Larid : La poule  Colin
+Z:Roger Ngaret (94-95)
+R:
+C:Trad.
+A:Bretagne
+M:4/4
+L:1/8
+K:C
+Q:1/4=120
+"Am"c2 Ac "G"Bd "F"cA | c2 "Am"Ac "G"Bd "Em"B2 :|
+B2 BB BB "Am"cA | A2 GA "G"Bc "Em"BA |
+"Am"c4 "G"B/d/B "F"cB |1 "D"A2 GA "G"Bc "Em"BA :|2
+"D"A2 GA "Em"Bc "Am"A2 |]
+%%rm  1. Colin a une poule                    ]
+%%rm     Qui pond tous les matins             ] bis
+%%rm     A t faire sa ponte 
+%%rm     Dans la cour  Martin
+%%rm
+%%bf Refrain :
+%%it Sur l'eau, sur la rivire, sur le bord de la mer
+%%it Sur l'eau, sur la rivire, sur le bord du vaisseau.   
+%%rm
+%%rm  2. Martin a pris sa fourche             ]
+%%rm     Lui a cass les reins                ] bis
+%%rm     En fit une fricasse 
+%%rm     Pour le dimanche matin.
+%%rm
+%%rm  3. Tout l'monde de la paroisse          ]
+%%rm     Est v'nu saucer son pain             ] bis
+%%rm     Ainsi qu'monsieur le cur
+%%rm     Qu'est venu saucer le sien.
+%%rm
+%%rm  4. Trouva la sauce si bonne             ]
+%%rm     Qu'il y trempa les mains             ] bis
+%%rm     Les mains bien jusqu'aux coudes
+%%rm     Des coudes jusqu'aux reins.
+%%rm
+%%rm  5. Il fit manquer la messe              ]
+%%rm      tous ses paroissiens               ] bis
+%%rm      toutes ces bonnes vieilles
+%%rm     Qui en ont tant besoin.
+%%rm
+%%rm  6.  toutes ces bonnes p'tites vieilles ]
+%%rm     Qui en ont tant besoin               ] bis
+%%rm     Ainsi finit l'histoire
+%%rm     De la poule  Colin.
+S:https://www.folktunefinder.com/tunes/171300
+S:http://termen.free.fr/danses/termen/LarideLapouleaColin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

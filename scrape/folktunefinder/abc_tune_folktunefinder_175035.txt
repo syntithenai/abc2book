@@ -1,0 +1,24 @@
+X: 1
+T:McCusker
+S:McCusker Brothers
+M:4/4
+L:1/8
+R:Hornpipe
+K:D
+P:A
+A2|"D"(3ABAFA f2d2|"D"(3ABAFA f2da|"G"gfed "A"c2cd|"E7"(3efe(3dcB "A7"A4|
+"D"(3ABAFA f2d2|"D"(3ABAFA f2da|"G"gfed "A7"cABc|"D"d2f2 d2:|
+P:B
+(3ABc|"D"dAdf a2f2|"D"dAdf a2fa|"G"gfed "A"c2cd|"E7"(3efe(3dcB "A7"A2(3ABc|
+"D"dAdf a2f2|"D"dAdf a2fa|"G"gfed "A7"cABc|"D"d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/175035
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mc/McCusker_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

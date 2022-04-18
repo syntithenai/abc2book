@@ -1,0 +1,39 @@
+X:95
+T: Boys at Boland's Mills (with piano acc.)
+C: BB
+R: hornpipe
+Q: 300
+M: 4/4
+L: 1/8
+V: 1 program 1 105 %banjo
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] (3EDC|"G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|"G"DG"D"FA "G"GB"Am"Ac|\
+"Em"Be"A"d^c "D"d2 (3EDC |
+[V:2] z2|G,,2[G2B2D2]C,2[E2G2C2]|G,,2[G2B2D2]C,2[E2G2C2]|[G,,2][D,2A,2F2][G,2][A2C2E2]|\
+[E,2][A,,2E2^C2]D,2[A2D2F2]|
+%
+[V:1] "G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|"G"DGBG "Am"EcAF|"G"G2 GF G2 :|
+[V:2] G,,2[G2B2D2]C,2[E2G2C2]|G,,2[G2B2D2]C,2[E2G2C2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+[B,2][D,2][G,2]:|
+%
+[V:1] (3Bcd|"Em"edBd gdBd|"G"gaba "Em7"gedg|"G"bg"D"af "G"gedg|"A"ed^ce "D"d2(3EDC |
+[V:2] z2   |E,2[E2B2G2]B,,2[E2B2G2]|G,,2[G2D2B2]E,2[D2B2G2]|G,,2[D2A2F2]B,,2[G2D2B2]|\
+^C,2[A2E2^C2]D,2[D2A2F2]|
+%
+[V:1] "G"B,DGB "C"cecA|"G"Bd (3BAG "C"EDCE|"G"DGBd "Am"ceag|"D"fdcA "G"G2 :|
+[V:2] G,,2[G2B2D2]C,2[E2G2C2]|G,,2[G2B2D2]C,2[E2G2C2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+D,2[D2A2F2][G,,2D,2B,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86904
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

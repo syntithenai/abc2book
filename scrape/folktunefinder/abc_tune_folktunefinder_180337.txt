@@ -1,0 +1,20 @@
+X: 1
+T: Omnibus, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:(3def|gb (3gfe dgbB|ceac Bdgc|BGdB ceag|(3fgf (3efe defa|
+gb (3gfe dgbB|ceac Bdgd|egdg cgBg|ecAF G2:|
+|:dc|BGFG EGDG|Bdg2 ceg2|(3dBG FG EGDB|(3cBA BG A^c (3dc=c|
+BGFG EGDG|Bd (3gdB cegd|egdg cgBg|ecAF G2:|
+S:https://www.folktunefinder.com/tunes/180337
+S:http://www.thesession.org/tunes/display/2019
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

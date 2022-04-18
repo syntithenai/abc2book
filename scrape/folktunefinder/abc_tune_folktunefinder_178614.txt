@@ -1,0 +1,22 @@
+X: 1
+T:New Rigged Ship, The
+M:6/8
+L:1/8
+C:Scottish Jig
+K:C
+G2 | "C" c3 c2 e | "C" c3 c2 e | "G" dBG GBd | "G" dBG GAB | "C" c3 c2 e
+ |
+"C" cBc "G" dBG | "F" ABc "G" dBG | "C" c3 c2 :|| ef | "C" g2 e {e} g2 e
+ |
+"C" c2 c ceg | "F" a2 f a2 f | "G" d2 d def | "C" g2 e g2 e |
+"C" c2 c "G" dBG | "F" ABc "G" dBG | "C" c3-c2 e/f/ | "C" gfe gfe |
+"C" cdc ceg | "F" agf agf | "G" ded def | "C" gfe gfe |
+"C" cdc "G" dBG | "F" ABc "G" dBG | "C" c3 c2 ||
+S:https://www.folktunefinder.com/tunes/178614
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ne/New_Rigged_Ship_The_4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

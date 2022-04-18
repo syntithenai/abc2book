@@ -1,0 +1,35 @@
+X: 34
+T:Gavott. TBe.034
+M:2/2
+L:1/8
+Q:120
+S:Thomas Bennet MS,1718, VWML
+R:gavotte
+O:England
+N::S: is in the MS.  As it is, the tune has 8 bars in the A music (no
+N:repeat shown) and 16 in the B music.  Repeating from the sign doesn't
+N:make musical sense - does it mean somethng else  The naturals are
+N:shown as # - see note to tune 
+Z:vmp.C. Graebe..
+K:C minor
+G2 | c2e2d2g2 | e2g2d2g2 | c2e2d2e2 |\
+ fedc =B=ABG | c2e2d2g2 |e2a2f2ba |!
+ gedc B2d2 | e6 || ga | b2g2 egbg | \
+a2f2 dfaf | g2d2e2 dc | =B-2B3 Bcd |!
+ e2G2c2F2 | BGFE DC B,2  | E3FG2F>E |\
+ E2-E3 FG=A | B2 =B6 | c6 d2 |!
+ e2 de fedc | =B2-B3 ":S:" def |\
+ g2c2e2z2 | g2G2c2z2 |g2 (fe) (dedc) | c6 ||
+S:https://www.folktunefinder.com/tunes/96185
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

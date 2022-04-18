@@ -1,0 +1,23 @@
+X: 1
+T:no name
+R:jig
+H:A version of "The Stolen Purse", #205
+Z:id:hn-jig-266
+M:6/8
+K:Ador
+~A3 ABA|GEE G2B|ABA GBd|edB gdB|
+~A3 ABA|GEE G2B|dBA GAB|1 ded dBG:|2 ded dBA||
+|:def g2b|agf g2e|def g2f|edB dBA|
+def g2b|agf g2a|bag agf|gag edB:|
+S:https://www.folktunefinder.com/tunes/178954
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/no_name_40.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

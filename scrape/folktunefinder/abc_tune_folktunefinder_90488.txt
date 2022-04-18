@@ -1,0 +1,32 @@
+X:160
+T:Mrs McLeod's
+T:Mrs McLeod of Raasay
+R:Reel
+C:Neil Gow
+N:In Scotland the parts are played in the opposite order, and the tune is
+N:in A.
+D:Music at Matt Molloy's.
+Z:Also played in A. id:hn-reel-55
+M:C|
+L:1/8
+Q:1/4=200
+K:G
+G2BG DGBG|B2BA BcBA|G2BG DGBG|A2AG AcBA|
+G2BG DGBG|B2BA B2d2|~e3f edef|gedB AcBA:|
+|:G2gf edeg|B2BA BcBA|G2gf edeg|a2ag a2ba|
+g2bg efge|dBBA B2d2|~e3f edef|gedB AcBA:|
+|:"Variations" GABc dBGA|B2BA BcBA|GABc dBGB|A2AG AcBA|
+GABc dBGA|B2BA B2d2|edcB cdef|gdBG AcBA:|
+|:G2gf edeg|B2BA BcBA|G2gf edeg|agfe dcBA|
+G2gf edeg|B2BA B2d2|edcB cdef|gdBG AcBA:|
+S:https://www.folktunefinder.com/tunes/90488
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:393
+T: Sanyuanli kangying
+N: C1895
+O: China,Guangdong Guangzhou
+S: II, 371, 2)]
+R: Xiaodiao, Erge, Tongyao]
+M: 2/4
+L: 1/16
+K: G
+B4B4 | E4F4 | G8
+E4G4 | F4D4 | D8
+B4B,4 | F4B4 | G8
+G4B4 | G4D4 | A2B2G4 | E8
+G4B4 | B,4F4 | B8
+E4G4 | E4B4 | B8
+B4B,4 | E4F4 | B8
+F4B4 | B4E4 | B8
+B4B4 | B,4B4 | G8
+E4B4 | B8 | A8
+S:https://www.folktunefinder.com/tunes/92416
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, erge, tongyao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

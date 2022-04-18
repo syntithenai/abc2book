@@ -1,0 +1,26 @@
+X:220
+T: Seamus Cooley's Jig
+S: Martin Hayes: "Under the Moon" (via D. Payne)
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: G
+BAB G2E | DB,D DEG | GAB AGE | A3 AGA |
+BAB G2E | DB,D DEG | GAB AGE | G3 G3 :|
+BAB d3 | BAB d2B | A3 AGE | ABA AGA |
+|1 BAB d3 | BAB d2B | G2B AGE | G3 G3 :|
+|2 BAB G2E | DB,D DEG | GAB AGE | G3 G3 ||
+S:https://www.folktunefinder.com/tunes/89684
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

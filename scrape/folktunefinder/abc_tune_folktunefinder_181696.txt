@@ -1,0 +1,23 @@
+X:1
+T:Passaic -- Hornpipe
+Z:Bob Puckette  2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+(ucB)|AEAc ecea|fdfa ecAc|dBfe dcBA|GABc B2 E2|
+AEAc ecea|fdfa ecAc|dfed cBAG|A2c2A2:|
+|:(uED)|C"4"AGA c"4"AGA|F"0"AEA "0"D"0"AC"4"A|FDFA dcBA|G"4"ABG E2(ED)|
+FEFA dcBA|GEGB "4"edcB|Aagf edcB|A2c2A2:|
+S:https://www.folktunefinder.com/tunes/181696
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/PassaicHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/PassaicHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

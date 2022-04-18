@@ -1,0 +1,19 @@
+X: 1
+T:the Peasant
+R:Jig
+M:6/8
+K:D
+f2f efg | afd c2A | FAd GBd | efg e2A | \
+f2f efg | afd c2A | FAd Bgf | edc d3 :|
+|:afd ecA | afd ecA | afd Bgf | efd cBA | \
+afd ecA | afd ecA | dcd Bgf | edc d3 :|
+S:https://www.folktunefinder.com/tunes/181935
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pe/Peasant_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,19 @@
+X: 1
+T: Patrick's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;G&quot;gfg dBG|&quot;G&quot;gfg dBG|&quot;C&quot;cBc &quot;D&quot;AFD|&quot;C&quot;cBc &quot;D&quot;AFD|
+&quot;G&quot;gfg dBG|&quot;G&quot;gfg dBG|&quot;C&quot;edc cde|&quot;D&quot;fef &quot;G&quot;g3:|
+|:&quot;C&quot;edc edc|&quot;G&quot;dcB dcB|&quot;C&quot;edc ede|&quot;D&quot;fga &quot;G&quot;bgg:|
+|:&quot;G&quot;bab &quot;C&quot;c'2b|&quot;D&quot;aga &quot;G&quot;b2a|&quot;G&quot;gfg &quot;D&quot;a2g|&quot;D&quot;fef &quot;G&quot;g3:|
+S:https://www.folktunefinder.com/tunes/181786
+S:http://www.thesession.org/tunes/display/2112
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:0418
+T:"Mary O'Sullivan"    (air)    0418
+C:after Chief F. O'Neill
+C:moderate
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_vb"G|G2G3/2A/2 c2dc|A2DE {G}F2D2|G2AB c2dc|A2G3/2A/2 G3D|
+G2G3/2A/2 c2d3/2c/2|A2A3/2G/2 {G}F2D2|G2A3/2B/2 cAdc|A2G3/2A/2 G3||
+B|d2ef g2fg|a2bg e2dB|d2ef g2fg|a2b3/2g/2 g3B|
+d2ef g2fg|a2b3/2a/2 gfed|gefd e2dB|A2G3/2A/2 G3|]
+S:https://www.folktunefinder.com/tunes/174622
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0418-MaryOSullivan.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0418-MaryOSullivan.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

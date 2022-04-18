@@ -31,6 +31,7 @@ function isMetaLine(line) {
 
 
 function getNotesFromAbc(abc) {
+    console.log("GET NOTES FROM ABC",abc)
     if (!abc) return ''
     var parts = abc.split('\n')
     var noteLines = []
@@ -42,8 +43,10 @@ function getNotesFromAbc(abc) {
         }    
     })
     var notes = noteLines
+    console.log('GET ABC',noteLines)
     try {
         notes = abcjs.extractMeasures(noteLines.join("\n"))
+        console.log('GET ABC',m)
         if (notes.trim().length === 0) {
             notes = noteLines
         }

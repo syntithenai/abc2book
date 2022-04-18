@@ -1,0 +1,23 @@
+X:23
+T:Pioggia d'estate - mazurka
+C:(C. Aimar/Triolet)
+L:1/8
+Q:240
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/4
+K:G
+z4dc|:[AD,]c[BG,]A[GG,]F|[G2G,2][GG,]B[AD,]G|[FD,]D[FD,]G[AD,]B|[A2D,2][A2D,2][cD,]B|[AD,]D[AD,]B[cD,]d|[A2D,2][AD,]d[cD,]A|[cD,]B[AD,]G[BG,]A|1[G2G,2][G2G,2]dc:|2[G2G,2][GG,]D[GG,]F| \
+|:[ED,]B,[ED,]F[GD,]A|[B2G,2][BG,]B[cD,]B|[A2D,2][AD,]c[BG,]A|[B2G,2][GG,]D[GG,]F|[ED,]B,[ED,]F[GG,]A|[B2G,2][BG,]B[cD,]B|[A2D,2][AD,]c[BG,]A|1[G2G,2][GG,]D[GG,]F:|2[G2G,2]G,2G,2| \
+K:C
+S:https://www.folktunefinder.com/tunes/96983
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

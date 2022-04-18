@@ -1,0 +1,23 @@
+X:920
+T:the White Joak
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001097.html
+%%ID:00001097
+K:D
+d2d fed | dcB A>GF |   B2B Bcd | A2F DEF | G3  BAG | FGE D3 :: \
+A2A ABc | def  e3  | ! AFA  ABc | def e>dc | \
+B2d A2d | G2d F>GA |   B2B B>cd | A2F D>EF | G3 B>AG | FGE D3 ::
+S:https://www.folktunefinder.com/tunes/88341
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

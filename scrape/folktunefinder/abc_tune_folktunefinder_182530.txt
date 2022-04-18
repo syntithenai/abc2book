@@ -1,0 +1,24 @@
+X:1
+T:Pipe on the Hob
+R:jig
+Z:robin.beech@mcgill.ca
+M:6/8
+L:1/8
+K:Ador
+c3 edc | edc BAG | ABA gfg | eaf ged |
+c3 edc | edc deg | age dBe |1 ABA A2B :|2 ABA A2f |:
+g3 gea | age edB | ABA gfg | eaf gef |
+g3 gea | age deg | age dBe |1 ABA A2f :|2 ABA A2B |:
+cBc dcd | ecA AGE | cBc dcd | ecA A2B |
+cBc dcd | ede gab | age dBe |1 ABA A2B :|2 ABA A3 |]
+S:https://www.folktunefinder.com/tunes/182530
+S:http://music.gordfisch.net/tradmusic/pub/cache/Pipe_on_the_Hob_784f71.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

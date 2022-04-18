@@ -1,0 +1,27 @@
+X:205
+T: Li tian ge
+N: C1697
+O: China,Taiwan
+S: IV, 623]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+E2E2DEDC | A,3CD4
+E2E2DEDC | A,A,2CD4
+A,2A,2D2A,C | D2CED3C | D4
+A,C2D | CA,G,E,A,CA,G, | E,2E,2
+A,2E,G, | A,2G,B,A,3G, | A,4z4
+S:https://www.folktunefinder.com/tunes/92228
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

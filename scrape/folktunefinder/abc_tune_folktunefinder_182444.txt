@@ -1,0 +1,24 @@
+X: 1
+T: Piggot Family Schottische, The
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: d>c | 
+B2 d2 g2 b2 | b>a (3^gab a2 e2 | f>e (3def e2 F>A | e>dc>e d>AB>c |
+d2 g2 b3 c' | b>a^g>b a4 | f>ed>B c>FB>D | G>d (3Bcd G2 :|
+K: Dmaj
+|: F>G | 
+A>^GA>d f2 f2 | A2 A>d f>^e f2 | e2 e>d c2 (3Bcd | c>BA>B A>G (3EFG |
+A>^GA>d f>^e f2 | A>BA>d f4 | e2 e>d c>Ad>B | c>A (3GFE D2 :|
+S:https://www.folktunefinder.com/tunes/182444
+S:http://www.thesession.org/tunes/display/7012
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

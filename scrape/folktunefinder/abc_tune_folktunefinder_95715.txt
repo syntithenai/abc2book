@@ -1,0 +1,28 @@
+X:420
+T:Because he was a bonny Lad
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e29.html
+%%ID:00000e29
+K:G
+d |\
+B>AGg (e/f/g/e/) {e}d{d}B | ce (e/d/c/B/) cAAd | \
+B>AGg e/f/g/e/ {e}dc/B/ | c>e d/e/d/c/ BGG ::
+d |\
+B>AGB cdec | BG e/d/c/B/ cAAd | \
+B>AGB cdef | g/f/e/d/ gB G/G/G Gd |
+BGdG eGdG | BG e/d/c/B/ cAAf | \
+gefd ecdB | ce d/e/d/c/ BGG ::
+S:https://www.folktunefinder.com/tunes/95715
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

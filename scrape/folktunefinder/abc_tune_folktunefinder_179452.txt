@@ -1,0 +1,37 @@
+X:1
+T:Odenwaelder Blatschtanz
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 38
+N:im buch ganz in C  1. ton g'
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+G |:\
+c>d ec | d>e ff | eg fe | de/d/ cG |\
+c>d ec | d>e ff | eg f/e/d |1 c3 G :|\
+                           [2 c3 e/f/ ||
+|:\
+gg g/f/e | a3 d/e/ | ff f/e/d | g3 c/d/ |\
+ee e/d/c | fa a2 | gg fB |1 c3 e/f/ :|\
+                         [2 c3 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179452
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/odenwaelder_blatsc_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

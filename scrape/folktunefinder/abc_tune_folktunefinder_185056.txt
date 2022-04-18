@@ -1,0 +1,24 @@
+X:6
+T: Reel de P\'eribonka
+I: Reel de PeribonkaR-114Greel
+%%staffsep 48pt
+M: C|
+R: reel
+K: G
+D2|: "G"GABA GEED| "D7"FGAG FDD2| "G"GABc dBge| "D7"dBAc "G"BGEF|
+     "G"GABA GEED| "D7"FGAG FDD2| "G"GABc dBge|1 "D7"dcAc "G"BGGD :|2      "D7"dcAc "G"BGG |]
+|:B| "G"dBBA dBBe| dBBA B2Be| dBBA Bdge| "D7"dcAc "G"BGGB|
+   "G"dBBA dBBe| dBBA B2GB| dBBA Bdge|1 "D7"dcAc "G"BGG :|2 "D7"dcAc "G"BGG2 |]
+%%text Roaring Jelly  R-114
+S:https://www.folktunefinder.com/tunes/185056
+S:http://roaringjelly.org/music/reel/R114_Reel_de_Peribonka.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R114_Reel_de_Peribonka.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R114_Reel_de_Peribonka.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

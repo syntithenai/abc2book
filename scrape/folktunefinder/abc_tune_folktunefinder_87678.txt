@@ -1,0 +1,35 @@
+X: 177
+T: Rhythm-a-ning
+C: Thelonious Monk
+Q: 1/4=230
+M: 4/4
+L: 1/8
+%%staves (chords melody)
+K: Bb
+%%text (medium rhythm)
+%%vskip 20
+P: A
+V: chords
+"Bb"x4 x4 | "Eb"x4 x4 | "Bb"x4 x4 | "Cm7"x4 "F7"x4 |
+"Bb7"x4 x4 | x4 x4 | x4 x4 |[1 x4 x4 :|[2 x4 x4 ||
+V: melody clef=treble
+B,2D2F2z2 | E2GB z2F2 | z2G2E2F2 | D2EC z3F |
+G_A zF G2A2 | z3F G_A zF | G2!fine!_A2 z4 | [1 z8 :|[2 z7D ||
+P: B
+V: chords
+"D7"x4 x4 | x4 x4 | "G7"x4 x4 | x4 x4 |
+"C7"x4 x4 | x4 x4 | x4 x4 | "F7"x4 x4 ||
+V: melody
+=E^F zD E2F2 | z3D =E^F zD | =E2[F2F,2][F2F,2]z2 | z4z3D |
+=E^F zD E2F2 | z3D =E^F zD | =E2_G2_A2B2 | [_ce][_ce][_c2e2] !D.C.!z4||
+S:https://www.folktunefinder.com/tunes/87678
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 6
+T: Kupilemel
+O: Israel
+M: C
+L: 1/8
+K: C
+|: "Am"AA ed cd2c | edcB A2 "G"G2 \
+  |1 "C"cc     dd    cc      BA    | "E7"e8 \
+ :|2 "C"cc "Dm"dd "C"cc "Bb"_B/A/B | "Am"A8 ||
+"A"ee fg aa-a2 | ee fg a8 | "A7"a2 g2 f2 e2 | "Dm"~dA fe d4 |
+"G"dd ef gg-g2 | dd ef g4 | "G7"g2 f2 e2 d2 | "C"cc d^d "E7"e4 ||
+S:https://www.folktunefinder.com/tunes/92016
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/Kupilemel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

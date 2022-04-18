@@ -1,0 +1,28 @@
+X:1
+P: The Plighted Troth
+C: Andrew Rankine
+C: arr. T. Traub 4-8-2001
+R: Jig
+M: 6/8
+K: D
+L: 1/8
+FG|"D"A3 DEF|"Ddim"B3 "D"A3|"D"A^GA "Ddim"dcB|"A"c3-cEF|\
+  "A7"G3 EFG|"A"c3 B3|"A"ABA "A"AE^E|"D"F3- "A"FG^G||
+"D"A3 DEF|"Ddim"B3 "D"A3|"D"A^GA "Ddim"dc=c|"G"B3-BGA|\
+  "G"BcB "A7"dcB|"D"ABA F z d|"A"cBA GFE|"D"D3 zFG||
+"D"A3 DEF|"Ddim"B3 "D"A3|"D"ABc def|"A7"g3 zEF|\
+  "Em"GAG "Em/D#"EFG|"Em/D"c3 "A"B3|"A7"ABc de=e|"D"f3 "A"FG^G||
+"D"ABA FED|"Ddim"B3 "D"A3|"D"ABA "D7"dc=c|"G"B3- BGA|\
+  "G"BcB "A7"dcB|"D"ABA "B7"F z d|"Em"cBA "A7"GFE|"D"D3-D |]
+S:https://www.folktunefinder.com/tunes/182896
+S:http://terrytraub.org/abc/PlightedTrothJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PlightedTrothJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

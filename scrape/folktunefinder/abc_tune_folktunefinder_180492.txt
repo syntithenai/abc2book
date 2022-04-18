@@ -1,0 +1,37 @@
+X: 1
+T:Utpick Waltz
+T:Ookpik Waltz, Eskimo Waltz, Utpick Waltz, Ootpik Waltz
+C:Frankie Rodgers (Copyright 1965, Frankie Rodgers, BMI, SOCAN)
+R:Waltz
+M:3/4
+L:1/4
+K:G
+P:A
+(3D/E/F/ \
+|: "G"G>A B/d/ | "D"A/FD/ E/D/ | "C"E/GD/ C | "G"B,>A B/d/ |
+   "Em"e2-e/f/ | "C"e<d B/A/ | "G"B/ d2 e/ | dgf |
+   "Em"e2 e/f/ | "C"e<d d/A/ | "G"B>d (3B/A/G/ | "Em"E2 E/D/ |
+   "C"C>D E/G/ | "D"D/FD/ E/D/ | "C"E/GD/ C |\
+  [1 "G"B,2 (3D/E/F/ :|[2 "G"B,>A B/d/ ||[2 "G"B,6 |]
+P:B
+|| "Em"e/B2A/ | B2 B/e/ | "Bm"d/B2^A/ | B2B/^A/ |
+   "Am"A2 A/B/ | "C"A<G E/D/ | "Em"E<G G/F/ | GAB/d/ |
+   "Em"e2B | B2 B/e/ | "Bm"d/B2c/ | BB^A |
+   "Am"A2-A/B/ | "C"A<G E/D/ | "Em"E/G2G/ | "D"F/E/ D/E/ F/D/ |]
+N:The Waltz Book, pg 52 - abc by Peter Ostapenko 3/16/2007
+N:For finale, play 2nd 2nd part of A.
+N:G Major
+% W:Play last line of A part an extra time for CODA
+% another version at
+% http://www.thursdaycontra.com/~spuds/tunes/couple/utpick.abc 3/15/2007
+S:https://www.folktunefinder.com/tunes/180492
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/UtpickWaltz.abc
+% Rhythm Waltz
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

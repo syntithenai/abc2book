@@ -1,0 +1,30 @@
+X:1
+T:Polska efter Edvin Widn
+R:Polska
+Z:C-G Magnusson, 2008-11-08
+O:Dalsland
+S:Efter Edvin Widn (Stockholm 1924-08-22)
+B:SMUS
+N:Se http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=M139b&bildnr=00036|SMUS, M 139b, blad 36
+M:3/4
+L:1/8
+Q:120
+K:A
+(3cec A>c [A,2E2c2] | (3BdB G>B [B,2G2B2] | (3Ace a>c' (3bc'd' | e'>c' (3aec A>E |
+(3cec A>c [A,2E2c2] | (3BdB G>B [B,2G2B2] | (3Ace a>e [df][ce] | (3[DB]cB [C2A2] z2 :|
+K:D
+|: A>G (3FA,F (3GA,G | (3FA,F (3AFA d2 | (3cec A>c e>c | (3(df).d (3Adf a2 |
+A>G (3FA,F (3GA,G | (3FA,F (3AFA d2 | (3BGE C>E (3GEC | Dz [F2d2] z2 :|
+S:https://www.folktunefinder.com/tunes/183279
+S:http://www.folkwiki.se/pub/cache/Polska_efter_Edvin_Wid%E9n_cc913b.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

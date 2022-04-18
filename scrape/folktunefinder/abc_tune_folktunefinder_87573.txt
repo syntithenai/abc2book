@@ -1,0 +1,63 @@
+X: 72
+T: Five
+T: The theme
+M: 4/4
+L: 1/4
+C: Bill Evans
+Q: 1/4=200
+K: Bb
+%%text (medium/up)
+%%vskip 20
+%%staves (chords RH LH)
+P: A
+V: chords
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 |
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "-/F"x2 | "Bb6"x2 "-/F"x2 ||
+V: RH clef=treble
+(5:4zdBFe | (5:4dBFE=E | (5:4zdBFe | (5:4dBFE=E |
+(5:4zdBFe | (5:4dBF=Ed | (5:4BF=EdB | (5:4F=EdBF ||
+V: LH
+(5:4zFD_A,_G | (5:4FD_A,^F,G, | (5:4zFD_A,_G | (5:4FD_A,^F,G, |
+(5:4zFD_A,_G | (5:4FD_A,G,F | (5:4=ED^CFE | (5:4D^CF=ED ||
+%%staves (chords RH LH)
+P: A
+V: chords
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 |
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "-/F"x2 | "Bb6"x2 "-/F"x2 ||
+V: RH clef=treble
+(5:4=EdBFe | (5:4dBFE=E | (5:4zdBFe | (5:4dBFE=E |
+(5:4zdBFe | (5:4dBF=Ed | (5:4BF=EdB | (5:4F=EdBF ||
+V: LH
+(5:4^CFD_A,_G | (5:4FD_A,^F,G, | (5:4zFD_A,_G | (5:4FD_A,^F,G, |
+(5:4zFD_A,_G | (5:4FD_A,G,F | (5:4=ED^CFE | (5:4D^CF=ED ||
+%%staves {RH LH}
+P: B
+V: RH
+(5:4=E"Am7b5"[d=B][cA][=B^G][A^F]| (5:4"D7"[fd][e^c][d=B][cA]"G7"[_b=g] |\
+(5:4[_af][g=e][fd]"G#m7b5"[=e^c][d=B] | (5:4[_d_B][_c_A]"C#7"[BG][_AF][G=E] |
+(5:4[FD]"Gm7b5"[cA][BG][A^F][G=E] | (5:4"C7"[_ec][_dB][cA][BG]"F7"[_a=f] |\
+(5:4[_ge][fd][e^c]"F#m7b5"[d=B][cA] | (5:4[=B_A][A_G]"B7"[_AF][_GE][FD] ||
+V: LH clef=bass
+(5:4^CA,,E,G,C | (5:4D,^F,C=FG,, | (5:4D,=F,=B,^G,,D, | (5:4^F,=B,^C,^E,=B, |
+(5:4zG,,_D,F,_B, | (5:4C,=E,B,_EF,, | (5:4C,_E,A,^F,,C, | (5:4=E,A,=B,,^D,A, ||
+%%staves (chords RH LH)
+P: A
+V: chords
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 |
+"Bb6"x2 "Gm7"x2 | "Cm7"x2 "F7"x2 | "Bb6"x2 "-/F"x2 | "Bb6"x2 "-/F"x2 || x |]
+V: RH clef=treble
+(5:4[EC]dBFe | (5:4dBFE=E | (5:4zdBFe | (5:4dBFE=E |
+(5:4zdBFe | (5:4dBF=Ed | (5:4BF=EdB | (5:4F=EdBF || =E |]
+V: LH
+(5:4zFD_A,_G | (5:4FD_A,^F,G, | (5:4zFD_A,_G | (5:4FD_A,^F,G, |
+(5:4zFD_A,_G | (5:4FD_A,G,F | (5:4=ED^CFE | (5:4D^CF=ED || ^C |]
+S:https://www.folktunefinder.com/tunes/87573
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

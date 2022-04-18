@@ -1,0 +1,25 @@
+X:61
+T:Tamlin
+C:Trad Irish
+I:abc2nwc
+M:2/4
+L:1/16
+K:C
+|:E2AE cEAE|F2AF cFAF|G2BG dGBG|cBAG A4:|
+|:(ae)  (3eee ce Ae|(ae)  (3eee ce Ae|gd  (3ddd gdbd|gd  (3ddd gdg^g|
+ae  (3eee ceAe|ae  (3eee ceAe|F3G A3B|cBAG A4:|
+|:A,2DA, FA,DA,|_B,2DB, FB,DB,||
+C2EC GCEC|FEDC D4:||:dA  (3AAA FADA|dA  (3AAA FADA|
+cG  (3GGG cGeG|cG  (3GGG cG^cG|
+dA  (3AAA FADA|dA  (3AAA FADA|_B,3C D3E|FEDC D4:|
+|:^F2BF dFBF|G2BG dGBG|A2^cA eAcA|d^cBA B4:|
+|:b^f  (3fff dfBf|b^f  (3fff dfBf|ae  (3eee ae^c'e|ae  (3eee ae_be|
+b^f  (3fff dfBf|b^f  (3fff dfBf|G3A B3^c|d^cBA B4:|
+S:https://www.folktunefinder.com/tunes/97729
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

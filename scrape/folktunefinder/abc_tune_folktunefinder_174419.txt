@@ -1,0 +1,25 @@
+X:292
+%%topmargin 3cm
+U:~=!turn!
+T:Marnock's Strathspey
+C:Marshall
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:A minor
+B, | C>EA,>A C>A,A,>C | B,>A,G,>G B,>G,G,>B, | C>EA,>A C>A,A,>c | B>Gd>B {cB}A2 A :|
+B | c<eA<e {/^d}c<AA>c | B>Gd>G B<GG>B | c<eA<e {/^d}c<AA>c | B>Gd>B | {cB}A2 A>B |
+c<eA>e } {/^d}c<AA>c | B<Gd>G B<GG>B | c>ed>B c>AB>G | A>E{/^F}G>B, A,2 A, |]
+S:https://www.folktunefinder.com/tunes/174419
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Marnocks_Strathspey.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0292.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

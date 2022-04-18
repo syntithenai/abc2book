@@ -1,0 +1,19 @@
+X: 8
+T: Isontalon Antti (G)
+R: shottish
+M: 4/4
+L: 1/8
+K: G
+|: "G"DD GG B2 GG | D2G2 F2 EE | "C"C2 EE E2 G2 | "G"D4 "D 7"D2 z2 :|
+|: "D7"DD cc c2 BA | "G"GG BB B2 AG | "D7"FF AA AA B2 |1 "G"G2 B2 d2 d2 :|2 "G"G4 "(A7)"G2 z2 |]
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93098
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Rhythm Shottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

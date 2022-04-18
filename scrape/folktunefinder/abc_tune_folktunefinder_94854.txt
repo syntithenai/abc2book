@@ -1,0 +1,29 @@
+X: 11
+T:Air in Perseus and Andromeda. BC.11
+M:C|
+L:1/4
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:Uncertain, probably northern
+N:The closest I have been able to get has been Persee By
+N:Jean-Baptiste Lully,1682, but this doesn't rule out there being other
+N:contenders.CGP,.
+Z:vmp.John Bagnall
+K:G
+d | G G G G | (dB) g2 | G G B A/G/ | F/G/ A A2 |!
+ G G G G | d B g/f/e/d/| ^c/d/ e A ^c | "Segno"d2 :|!
+|:a | d d d d | a f  d'2 | d/e/f/g/ a b | a d g d |!
+ e  d g d | c B e G | F/G/ A D F | G3 |]
+S:https://www.folktunefinder.com/tunes/94854
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

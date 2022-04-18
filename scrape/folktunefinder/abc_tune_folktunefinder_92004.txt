@@ -1,0 +1,38 @@
+X:6
+T:The Banks
+C:Trad.
+R:reel
+D:1998 National Oldtime Fiddlers Contest
+N:as played by Shane Cook
+H:Canadian
+M:4/4
+Q:400
+Z:John Relph
+K:Eb
+(3Bcd
+|"Eb" e2 g4 fe|"Bb" d2 f4 ed|"Ab" [A2c2] c'4 d'e'|"Eb" gac'b "Bb" agfe|
+"Eb" e2 [b3g3] e[g2_d'2]|"Ab" e2 [a3c'3] e [a2e'2]|"Bb" defg afdf|"Eb" (3efe df e2 (3Bcd|
+|"Eb" e2 g4 (3efe|"Bb" d2 f4 ed|"Ab" [A2c2] c'4 d'e'|"Eb" gac'b "Bb" agfe|
+"Eb" (3Beg(3bge (3Beg(3_d'ge|"Ab" (3cea(3c'ae "F7" (3cea(3e'ae|"Bb" defg afdf|"Eb" (3efe df e2 g/2a/2g/2f/2|
+|"Eb" g2B2 B2(3gag|"Bb" f2B2 B2(3fgf|"F" e2c2 c2fe|"Bb" dcB=A Bdfd|
+"Bb" Bdfd Bd_ad|"Eb" Bege "C" Bebe|"F" =ABcd ecAc|"Bb" (3BcB =Ac B_AGF|
+"Eb" EGBG eGBG|"Bb" DFBF dFBF|"Ab" CEAE cBAG|"Eb" FGFE "Bb" DCB,A,|
+"Eb" G,EGE BE_dE|"Ab" A,EAE cEeE|"Bb" B,DFG AFDF|"Eb" (3EFE DF E2 g/2a/2g/2f/2|
+|"Eb" g2B2 B2(3gag|"Bb" f2B2 B2(3fgf|"F" e2c2 c2fe|"Bb" dcB=A Bdfd|
+"Bb" (3Bdf(3fdB (3Bdf(3_afd|"Eb" (3Beg(3geB "C" (3Beg(3bge|"F" =ABcd ecAc|"Bb" (3BcB =Ac B_AGF|
+"Eb" EGBG eGBG|"Bb" DFBF dFBF|"Ab" CEAE cBAG|"Eb" FGFE "Bb" DCB,A,|
+"Eb" G,EGE BE_dE|"Ab" A,EAE "F" cEeE|"Bb" B,DFG AFDF|"Eb" (3EFE DF E4||
+S:https://www.folktunefinder.com/tunes/92004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Banks.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

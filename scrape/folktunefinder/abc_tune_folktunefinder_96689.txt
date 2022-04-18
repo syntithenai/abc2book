@@ -1,0 +1,30 @@
+X:345
+T:Near the Karpat Mountain
+M:3/4
+L:1/8
+S:As played by Brave Combo on the album "Polkas for a Gloomy World"
+S:Transcribed by Doug Mast.
+R:Waltz
+K:D
+|: "D"A2 A2 A2 | "E"^G4 E2 | "D"F2 D4 | D2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 |
+| "A"A,2 C2 D2 | E4 D2 | "D"F2 "G"G4 | "D"F2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 |
+| "A"A,2 C2 D2 | E4 D2 | "D"F2 "G"G4 | "D"F2 F2 A2 | "C#m"E4 "Bm"D2 | "A"C2 A,4 :|
+|: "G"GA B^A BG | "D"FG A^G AF | "E"EF GA, B,C | "D"DE FG ^GA |
+| "G"GA B^A BG | "D"FG A^G AF | "A"EF GA, B,C | "D"D2 D4 :|
+|: "(Harmony) D"f2 f2 f2 | "E"e4 c2 | "D"d2 A4 | F2 A2 d2 | "C#m"c4 "Bm"B2 | "A"A2 E4 |
+| "A"E2 A2 B2 | c4 B2 | "D"A2 "G"B4 | "D"d2 d2 f2 | "C#m"c4 "Bm"B2 | "A"A2 E4 |
+| "A"E2 A2 B2 | c4 B2 | "D"A2 "G"B4 | "D"d2 d2 f2 | "C#m"c4 "Bm"B2 | "A"A2 E4 :|
+|: "G"df gf ge | "D"de f^e fd | "E"cd eA GA| "D"FG AB cd |
+| "G"df gf ge | "D"de f^e fd | "E"cd eA GA| "D"F2 F4 :|
+S:https://www.folktunefinder.com/tunes/96689
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

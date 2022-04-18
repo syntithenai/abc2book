@@ -1,0 +1,22 @@
+X:1
+T:Vals
+Z:Bartolome Calatayud
+M:3/4
+L:1/8
+Q:1/4=80
+K:G
+[E/1e/1] [G/1B/1] [G/1B/1][E/1e/1] ^f/1 g/1 [E/1b/1] [G/1B/1] [G/1B/1][E/1e/1][G/1B/1][G/1B/1][B/1^f/1][A/1B/1][A/1B/1][B/1^f/1]g/1^f/1|
+[E/1e/1][G/1B/1] [G/1B/1] B/1[G/1B/1] [G/1B/1][E/1e/1][G/1B/1] [G/1B/1][E/1e/1]^f/1 g/1[E/1b/1][G/1B/1] [G/1B/1][B/1^f/1][A/1B/1][A/1B/1]|
+[B/1^f/1]g/1^f/1[E/1e/1] [G/1B/1] [G/1B/1][E/1e/1]zz[B/1^f/1][A/1B/1][A/1B/1][B/1^f/1]g/1^f/1[E/1e/1] [G/1B/1] [G/1B/1]B/1[G/1B/1] [G/1B/1]|
+A/1[A/1C/1][A/1C/1][A/1C/1][B/1d/1][A/1C/1]E/1[G/1B/1] [G/1B/1]B/1[G/1B/1] [G/1B/1][B/1^f/1][A/1B/1][A/1B/1][B/1^f/1]b/1^f/1[E/1g/1] [G/1B/1] [G/1B/1]|
+[E/1e/1] [G/1B/1] [G/1B/1] C/1[c/1e/1][c/1e/1]C/1 B/1 ^A/1 B/1 C/1 B/1 A/1 G/1 ^F/1 [E/1e/1][G/1B/1] [G/1B/1][E/1e/1]^f1 g/1|
+b/1 [G/1B/1] [G/1B/1][E/1e/1] [G/1B/1] [G/1B/1][B/1^f/1][A/1B/1][A/1B/1][A/1B/1][B/1^f/1]g/1^f/1[E/1e/1] [G/1B/1] [G/1B/1]B/1 [G/1B/1] [G/1B/1][E/1e/1] [G/1B/1] [G/1B/1]|
+[E/1e/1]^f1 g/1b/1 [G/1B/1][G/1B/1][E/1e/1] [G/1B/1] [G/1B/1][B/1^f/1][A/1B/1][A/1B/1][B/1^f/1]g/1^f/1[E/1e/1]G/1 B/1e/1 z z|
+S:https://www.folktunefinder.com/tunes/180457
+S:http://community.codemasters.com/forum/archive/index.php/t-306670.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

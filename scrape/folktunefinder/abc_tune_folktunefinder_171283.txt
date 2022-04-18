@@ -1,0 +1,36 @@
+X:1
+T:Larid\'e 6 temps
+G:Groill
+R:Larid\'e 6 temps
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+%% Doubl la premire partie
+%% Q:C2=100--108
+Q:C2=160
+P:C5
+M:3/4
+S:Tonio Breizh-Izel 1862D (Lokoal-Mendon)
+K:C
+P:C
+%%%MIDI gchord c2zfc2zff4
+%%%MIDI gchord fccfcz
+%%MIDI gchord fccfcf
+%%MIDI bassprog 0
+%%MIDI program 0
+%MIDI bassvol 127
+|: "C"C>G ({FE}F>)E "G"D>F | "Am"({EF}E)z "F"E>C "G"Dz |\
+"C"C>G ({FE}F>)E "G"D>F | "Am"({EF}E)z "F"E>C "G"Dz :|
+|: "Dm"D>D "F"Fz "Gm"({EF}E>)D | D>C "Am"Cz "Bb"F>D |\
+((3F>E)D "C"Ez "Dm"({DE}D>)C |1 "Bb"D>F "C"E(E/2F/2) "Gm"Dz :|2\
+ "Bb"D>F "C"E(E/2F/2) "D"Dz ||
+S:https://www.folktunefinder.com/tunes/171283
+S:http://kazimodal.trad.org/partitions/larides_6/Groill/larides_6.abc
+% Rhythm Laride? 6 temps
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1
+T:After the Party
+C:Anne Mary Summers 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+L:1/16
+M:2/4
+K:G dor
+B2BA BGFG | BGAB d2-de | fdgf ed^cd | BABd f2c2 |
+B2BA BGFG | BGAB d2-de | fdgf ed^cd | fdBA G2G2 :|
+|:\
+g3a gfde | fgfe B3c | defd gfed | c=Bcd e2f2 |
+g3a gfde | fgfe A3G | AcBA BdcB | ABGF G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/87292
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/after_the_party.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

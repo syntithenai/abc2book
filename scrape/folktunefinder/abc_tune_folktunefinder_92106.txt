@@ -1,0 +1,35 @@
+X:83
+T: Sipan
+N: C1576F
+O: China,Shandong, Rizhao
+S: III, 397]
+R: Xiaodiao]
+M: 3/4
+L: 1/16
+K: E
+e2e2cec2B2c2 | B6GF | E3FG4
+c3BGBec | B3GFGFE | C4
+B2B2 | GFE2FGFE | C4
+B3c | e2e2c3B | GBceB3G | G4
+F2E2 | FEFGB4 | cBceB3c | E3CE4
+F4B2G2 | F3EC4- | C8
+E3FGFG2 | G2EGF4- | F2GFEFEC | B,8 | E3FG2G2 | F3CE4- | E8
+B4B2G2 | F4E2C2 | B,6C2 | E2F2E2C2 | B,6C2 | B,8
+G4B2F2 | G8 | B3ce2c2 | B6GF | E3FG4 | B2GBc4- | c12
+B2cBG2B2 | e3cB3G | B2GFGFE2 | FGFEC4
+B3GGBdc | G4F2C2 | E4F4- | F8
+B2cBG2B2 | e3cB3G | B2GFGFE2 | FGFEC4
+B3GGBdc | G4F2C2 | E4F4- | F8
+S:https://www.folktunefinder.com/tunes/92106
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

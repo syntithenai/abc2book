@@ -1,0 +1,28 @@
+X: 364
+T: Love at the Endings
+C: Ed Reavy (1898-1988)
+Z: id:hn-reel-365
+R: reel
+M: C|
+L: 1/8
+Q: 180
+K:D
+DEFA B2dB|AF~F2 AFEF|DEFA B2AF|GEFD B,EEF|
+DEFA B2dB|AF~F2 ABde|fgfe dfec|1 dBAF D2FE:|2 dBAF D3g||
+|:fgfe defg|afbf afeg|~f3e dfbf|afdf e2de|
+fgfe dcdB|AF~F2 ABde|~f3e dfec|1 dBAF D3g:|2 dBAF D2FE||
+S:https://www.folktunefinder.com/tunes/173161
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/HeadofCabbageThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/LoveattheEndings.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/HeadofCabbageThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LoveattheEndings.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X:1
+T:Mai(d)l, wennst uewas Gassl gaeihst-Landla
+C:traditionell
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerlaender Taenze", E. Baumann
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:C
+G/>c/cc/c/ | Bdd | G/>d/dd | c/>e/e2 |\
+G/>e/ee | d/f/f/a/a | g>fB/B/ | d/>c/c2 :|
+|:\
+G/c/e/G/c/e/ | e/g/d>z | G/>c/e/>G/c/>e/ | e/>g/d>z |\
+d/e/f/a/g/f/ | ec/e/g | G/B/d/f/e/d/ | ec/e/g |
+G/>B/d/>a/g/>f/ | ec/e/g | G/>B/d/>f/e/>B/ | B/>d/c2 |\
+G/>B/d/>f/e/>d/ | ec/>e/g | G/>B/d/>f/e/>d/ | ec/>e/g |
+G/>B/d/>a/g/>f/ | ec/>e/g | G/>B/d/>f/e/>d/ | dcc :|
+|:\
+c/e/g>e | d/e/fg | eag | c/e/g>e |\
+d/e/fg | e2z | d/^c/d/^c/d/e/ | gfd |
+e/^d/e/^d/e/f/ | ag/c'/e | c/e/g>e | d/e/fg |\
+eag | c/e/g>e | d/e/fg | e2z :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173762
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/mai(d)l,_wennst_uewas_gassl.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:12
+T:Oh Callar Spirlings (variation 11)
+C:Domenico Corri
+V:1
+V:2 bass
+M:3/4
+L:1/16
+Q:1/4=84
+K:D Minor
+[V:1] a2|&quot;^F.&quot;(d/^c/d/e/f/e/f/g/) .a.a.a.a  &quot;^P.&quot;(a^g=ge) |f4      zfad'     
+f'2&quot;^F.&quot;=B2 |
+[V:2] z2|     [D,4A,4]            [F,4A,4]      [^C,4A,4] |zD,F,A, D4        z2 
+      G,2|
+%
+[V:1]         (c/=B/c/d/e/d/e/f/) .g.g.g.g  &quot;^P.&quot;(g^f=fd) |e4      zegc'     
+e'2&quot;^F.&quot;^c2 |
+[V:2]         [C,4G,4]            [E,4G,4]      [=B,,4G,4]|zC,E,G, C4        z2 
+      A,2|
+%
+[V:1]          d/^c/d/e/f/e/f/g/   aaaa           a^g=ge  |f4      zfad'     
+f'4         |
+[V:2]          F,4                 D,4           ^C,4     |zD,F,A, D4        
+zDA,F,      |
+%
+[V:1]     &quot;^P.&quot;zbge                zafd           zge^c   |zdAF    D4        z2 
+        ||
+[V:2]          G,4                 A,4            A,,4    |D,4     zD,A,,F,, 
+D,,2       ||
+S:https://www.folktunefinder.com/tunes/179689
+S:http://www.mail-archive.com/abcusers%40argyll.wisemagic.com/msg08696.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08696.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

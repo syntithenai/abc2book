@@ -1,0 +1,22 @@
+X:1
+T:Ode to Joy
+M:C
+L:1/4
+C:Ludwig van Beethoven
+P:A.(A2B2)4.A
+Q:132
+K:G
+"A"[|] B B c d | d c B A | G G A B |1 B>A A2 :|\
+w:Freu- de, Sch\"on- er | G\"ot-ter- fun- ken, | Toch- ter aus E- | lys- i- um, |
+w:Wir be- tre- ten | freu- er- trun- ken, Himm- lische, dein Hei-
+|2 A>G G2 |
+S:https://www.folktunefinder.com/tunes/179470
+S:http://www.mit.edu/~jcb/Red_Herring/dances/ode-to-joy.abc
+S:http://www.mit.edu/%7Ejcb/Red_Herring/dances/ode-to-joy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

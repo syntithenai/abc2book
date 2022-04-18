@@ -1,0 +1,24 @@
+X: 1
+T: Reel Des Accordeonistes
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|:FG| &quot;D&quot;A2df &quot;G&quot;edcB| &quot;D&quot;ABAG F2EF| &quot;A&quot;GAGF EBBB| &quot;D&quot;ABAG FDFG|
+    &quot;D&quot;A2df &quot;G&quot;edcB| &quot;D&quot;ABAG F2EF| &quot;Em&quot;GFEF &quot;A&quot;GABc| &quot;D&quot;dfec d2 :|
+|:A2| &quot;G&quot;(3BcB GB d2cB| &quot;D&quot;(3ABA FA dAFA| &quot;A&quot;GECE A,ECE| &quot;D&quot;DEFG A2FA|
+    &quot;G&quot;(3BcB GB d2cB| &quot;D&quot;(3ABA FA d2cd| &quot;A&quot;efed cBAG| FABc &quot;D&quot;d2 :|
+|:d2| &quot;G&quot;dBGd BGdA| &quot;D&quot;FdAF d2cd| &quot;A&quot;e2d2 (3cdc (3BcB| &quot;D&quot;ABAG Fddd|
+    &quot;G&quot;dBGd BGdA| &quot;D&quot;FdAF d2cd| &quot;A&quot;efed cBAG| FABc &quot;D&quot;d2 :|
+S:https://www.folktunefinder.com/tunes/185066
+S:http://www.thesession.org/tunes/display/5933
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

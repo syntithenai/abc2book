@@ -1,0 +1,32 @@
+X: 1
+T: a Perfect Ten [C]
+C: Jonathan Jensen (2002)
+R: reel
+Z: 2007 John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+G2 \
+| "C"c4 c2de | "G"dcBA "C"G2c2 \
+| "Am"E^FG2 "D7"A2F2 | "G"G6 A2 |
+| "B"=B4 B2cd | "A"c=BAG "B"F2B2 \
+| "Gm"DEF2 "C7"G2E2 | "F"F4 F3E \
+| "Dm"DEF2 "G7"E2D2 | "C"C6 :|
+|: D2 \
+| "C"E4 "Dm"F3E | "G"DEF2 "E#m"G3F \
+| "Am"E^FG2 "D7"A2F2 | "G"G6 G2 |
+| "C"c4 "F"d3c | "G"Bcd2 "E#"e3d \
+| "Am"cde2 "Dm"f2d2 | "G"B2AG "C"c2E2 \
+| "Dm"DEF2 "G7"E2D2 | "C"C6 :|
+S:https://www.folktunefinder.com/tunes/182090
+S:http://trillian.mit.edu/~jc/music/abc/England/reel/PerfectTen_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/new/PerfectTen_C.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

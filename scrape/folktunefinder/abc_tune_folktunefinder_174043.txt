@@ -1,0 +1,33 @@
+X: 1
+T: Maltman Comes On Monday, The
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmaj
+|: DEF G2 e dBG | F2 A AEG F2 D | DD/E/F G2 e dd/e/f | g2 G GAG F2 D :|
+|: dBd ece dBG | F2 A AEG F2 D | dB/c/d ece dd/e/f | gGG GAG F2 D :|
+|:  BDB cEc BDB | A2 c EFG F2 D | BD/G/B cE/A/c BD/G/B | AcB AGF G3 :|
+|: dBG ecA dB/A/G | E2 c EE/F/G F2 D | dBG ecA fdf | g2 G GB/A/G F2 D :|
+|: GBG EcG DBG | E2 A AEG F2 D | GBG EcG DBG | Ec/B/A AGF G3 :|
+|: dGe dec BAG | A2 c EFG F2 D |  B/c/dG c/d/eA d/e/fd | g2 G GAG F2 D :|
+|: DGB cEA BDG | F2 A AE/F/G F2 D | Eec DdB EcG | Ac/B/A AGF G3 :|
+|: dBd GBd Gce | A2 c EE/F/G F2 D | dB/c/d Gc/d/e Ad/e/f |[1 g2 G  GAG F2 D :|[2 gGG AA/G/F G3  :|
+K: BbMaj
+|: EFG B2 G fdB | A2 c dGB A2 F | EFG B2 g fga | b2 B BcB A2 F :|
+|: fdf geg fdB | A2 c cGB A2 F | fdf geg fga | b2 B BcB A2 F :|
+|: DFD EGE DFD | C2 e GAB A2 F | DFD EGE DFD | Ced cBA B2 B, :|
+|: fdB gec fdB | cde GAB A2 F | fdB gec afa | b2 B BcB A2 F :|
+|: B3 G3 FDF | G2 c cdc A2 F | B3 G3 FDF | Ged cBA B2 B, :|
+|: fBg fge dcB | cde GcB A2 F | dfB egc fga | b2 B BcB A2 F :| 
+|: GBD EGC DFB, | CEG ceg A2 F | EgE DfD Ced | cdB AFA B2 B, :|
+|: fdf Bdf Beg | cde GAB A2 F | fdf Beg cfa |[1 b2 B BcB A2 F :|[2 bBB cBA B3 |]
+S:https://www.folktunefinder.com/tunes/174043
+S:http://www.thesession.org/tunes/display/8287
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A-sharp
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

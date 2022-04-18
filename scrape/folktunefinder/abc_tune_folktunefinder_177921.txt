@@ -1,0 +1,19 @@
+X:1
+T:My Donald
+M:3/4
+L:1/4
+K:C
+D/2-E/2| F3/2 G/2 F| E3/2 C/2 E| D3-| D2 A/2B/2| c3/2 d/2 c| B- G B|\
+ A3-| A2A/2-B/2| c3/2 B/2 A| B2 G| G2 F| G2F/2-G/2| A3/2 _B/2 A| D2 E/2F/2|\
+ E C E| D3-| D2|| D| F3/2 G/2 F| E C E| D3-| D2D/2-E/2| F3/2 G/2 F|\
+ E C E| D3/2 F/2 E| D2F/2-G/2| A A F| G2 F/2E/2| F F D| E2 A/2A/2|\
+ A3/2 _B/2 A| D2E/2-F/2| E C E| D3-| D2||
+S:https://www.folktunefinder.com/tunes/177921
+S:http://back.numachi.com:8000/dtrad/abc/MYDONAL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

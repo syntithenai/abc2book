@@ -1,0 +1,51 @@
+X:19039
+T:Xiraldilla (CT 271)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Llamo, ayuntamiento de Riosa.
+O:Llamo (Riosa)
+A:Asturies
+Z:Cancioneru de Torner 271
+M:2/4
+L:1/8
+Q:1/4=160
+W:Perico del fuelle,
+W:nun vayas al muelle.
+W:Qu te dijo
+W:Perico del fuelle
+W:pelando la pava
+W:All arriba
+W:en aquella montaa
+W:tengo yo el mi amante,
+W:que me dio unos zapatos
+W:de churrunfante.
+W:Ellos son rayados,
+W:duros y fuertes,
+W:que me cuesten
+W:como dos pesetes.
+W:Pegando un saltito,
+W:me dio duro del alma,
+W:y ai! zapatitos.
+K:G
+BB
+|B2 AF|G2 BB|B2 AF|G2 z2|
+B2 Bc|d2 ed|c2 BA|G2 BB|B2 AF|G2 z2|
+B2 Bc|d2 ed|c2 BA|G2 BB|B2 AF|G2 z2|
+B2 Bc|d2 ec|d3 B|c2 BA|G2 BB|B2 AF|G3 B|B2 AF|G2 z2|
+B2 Bc|d2 ed|c2 BA|G2 BB|B2 AF|G2 z2|
+B2 Bc|d2 ec|d3 B|c2 BA|G2 :||
+S:https://www.folktunefinder.com/tunes/94330
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

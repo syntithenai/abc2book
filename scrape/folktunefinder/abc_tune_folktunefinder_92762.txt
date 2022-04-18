@@ -1,0 +1,23 @@
+X:60
+T:Joys Of Quebec
+R:Reel
+C:French Canadian, via PR
+S:Nottingham Music Database
+M:4/4
+L:1/8
+Q:1/4=200
+K:A
+e2|"A"eccc c2e2|eccc c2e2|fAeA dAcA|"E"dBBB B2d2|
+dBBB B2d2|dBBB B2d2|[1 e2e2 gfeg|"A"fedf "E"e2cd:|[2 e2ee "D"fefg|"A"a6cd
+|:e2z2 "D"f2z2|"A"e3f e2AB|c2cc "D"d2dd|"A"c3d c2AB|
+cBA2 G2A2|"E"B3c B2Bc|[1 d2e2 gfeg|"A"fedf "E"e2cd:|[2 d2e2 fefg|"A"afec A2|]
+S:https://www.folktunefinder.com/tunes/92762
+S:http://www2.redhawk.org:8080/irish/warnock/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

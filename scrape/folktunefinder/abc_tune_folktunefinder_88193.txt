@@ -1,0 +1,24 @@
+X:180
+T:Shutters hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000059d.html
+%%ID:0000059d
+K:A
+(A2A2 A)Bcd | edcB AcBA | B2B>B B2(fe) | dcBA GBGE |\
+A2A2  ABcd  | edcB A2a2 | gbge  fafd   | e2e>e e4 ::
+B2B>B B2(cd) | edcB GBGE | e2e>e e2(fg) | agfe dfdB | \
+f2d2 (fga)f  | e2c2 defd | cBcd  edcB   | A2A>A A4:|
+S:https://www.folktunefinder.com/tunes/88193
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

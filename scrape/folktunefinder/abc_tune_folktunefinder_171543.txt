@@ -1,0 +1,26 @@
+X:1
+T:Twirling Dervish Harmony
+C:copyright 1998 Jim Thompson 
+N:Flute part for Kaubells' tune "Twirling Dervish"
+R:Reel
+E:14
+M:4/4
+K:G
+|:d4A2d2|B4G2B2|defe d2B2|G4 gfef|
+|d4A2d2|B4G2B2|d2B2 G2gf|1 a4 agfe:|2 a4 agag||
+E:12
+|:a4 e'd'^c'b|a4 d'^c'ba|g4 e'd'c'b|a4 fgab|
+|a4 e'd'^c'b|a4 d'^c'ba|g4 e'd'c'b|1 agfe dcBA:|2 agag f4|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/171543
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/twirling-harmony.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

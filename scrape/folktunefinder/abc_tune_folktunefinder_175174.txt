@@ -1,0 +1,26 @@
+X:1
+T:Measured Steps Harmony
+C:copyright 1999 Kaubells
+R:Reel
+E:14
+M:C
+K:Dm
+\bigskip
+"Dm"a2 agfg a2|{^c'}d'2a2f2c2|"Gm"B2 d2 G2 E2|"Dm"F2^c2 dAF2|
+"Dm"a2 agfg a2|{^c'}d'2a2f2c2|"Em"=B2 ^f2 a2 z2|"A7"g2 fg e2 z2|
+"Dm"a2 agfg a2|{^c'}d'2a2f2c2|"Gm"B2 d2 G2 E2|"Dm"F6 z2|
+"F"AB "F7".c2 "Bb"de "Bb7"f2|"Eb"ga b2 d'2 zb|"A7"^c'8|"Dm"d'2ag f4||
+"F"a2 b2 c'2 d'2|c'2 z2 a2 z2|"Bb"gfed c2B2|"F"A8|
+"F"a2 b2 c'2 d'2|c'2 z2 a2 z2|"G7"g2 a2 =b2 g2|"C7"c'8|
+"F"a2 b2 c'2 d'2|c'2 z2 a2 z2|"Bb"gfed c2B2|"A7"A8|
+"Ab"_a2 f2 a2 z2|"Eb"g2 _e2 g2 z2|"A7"e2 a2 .^c'2 z2|"Dm"d'2af d2 z2|]
+S:https://www.folktunefinder.com/tunes/175174
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/measured-steps-harmony.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

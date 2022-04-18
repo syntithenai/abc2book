@@ -1,0 +1,37 @@
+X: 9
+T:Gavot by Mr Stanley. BC.09
+M:C|
+L:1/4
+Q:90
+C:John Stanley,1712-1786
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Gavotte
+O:England
+A:Uncertain, probably northern
+N:Charles John Stanley (1713-86) a prominent organist, composer of
+N:oratorios, operas, concertos, etc. Blind from age of two, he succeeded
+N:William Boyce as  Master of the King's Band in 1779. Was painted by
+N:Gainsborough..CGP..
+Z:vmp.John Bagnall
+K:G
+B A/G/ d c/B/| g f/e/ "tr"d2 | e/c/B/A/ d/B/ A/G/ | c B "tr"A2 |!
+ B A/G/ d c/B/ | g f/e/ d2 | e/c/B/A/ d/B/ A/G/ | B/A/ G/F/ G2 ||!
+B A/G/ A D | A B c2 | c B/A/ B E | B e "tr"^d2 |!
+ g f/e/ f/d/ c/B/ | e d/c/ d/B/ A/G/ |\
+ c B/A/ B/e/ d/c/ | B/A/ G/F/ E2|!
+B A/G/ d c/B/ | g f/e/ d2 | e/c/ B/A/ d/B/ A/G/ | c B "tr"A2 |!
+ B A/G/ dc/B/ | g f/e/ "tr"d2 | e/c/ B/A/ d/B/ A/G/ | B/A/G/F/ G2 |]
+S:https://www.folktunefinder.com/tunes/94852
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

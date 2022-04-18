@@ -1,0 +1,25 @@
+X: 1
+T: Rattlin', Roarin' Willie
+M: 9/8
+L: 1/8
+R: slip jig
+K: G Mixolydian
+|: d | 
+B2 G GAG B2 e | fcA F2 A c2 e | 
+B2 G GAG B2 ^f | g2 G G2 B d2 ^f |
+g^fe dBG B/c/de | f2 c A2 F c2 e | 
+dB/c/d e2 d Bd/e/^f | gGB AFA G2 :|
+|: e | 
+d2 G gBG dBG | AFA fAF c2 e | 
+d2 G gBG dBG | gfe dBG dd/e/^f |
+g^fe dB/A/G B/c/de | fef A2 B c2 e | 
+dBG e2 d e<gd | B2 B AF/G/A G2 :|
+S:https://www.folktunefinder.com/tunes/184760
+S:http://www.thesession.org/tunes/display/7837
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

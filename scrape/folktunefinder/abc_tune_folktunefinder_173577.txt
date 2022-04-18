@@ -1,0 +1,37 @@
+X:1
+T:Maerzenkaibl-Mazurka
+A:Arnreith, Muehlviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"4. Spielheft fuer Okarina", Zusammenstellung: V. Derschmidt, Herausgeber: Oberoesterreichisches Volksliedwerk, Linz 1995
+S:gelernt von Volker Derschmidt
+N:im buch in G und D, mit der Angabe: Hs. aus Arnreit
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+"_"G2 |\
+.e>.d.c2"_"e2 | .d2A4 | GG .A2.B2 | .c>.B.c>.de2 |
+.e>.d.c2"_"e2 | .d2A4 | GG .A2.B2 | .c2"_"c2 :|
+K:G
+"_"d2 |\
+(dc)(e3c) | (cB)(d3B) | .A>.B.c2.c2 | .B>.c.d2.d2 |
+(dc)(e3c) | (cB)(d3B) | .A>.B.c2"_"A2 | .G2"_"G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173577
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/maerzenkaibl.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

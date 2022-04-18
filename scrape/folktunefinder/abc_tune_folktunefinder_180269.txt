@@ -1,0 +1,27 @@
+X: 1
+T: THE OLD WOMAN TOSSED UP
+S: Butterworth (MSS).
+N: No C music noted: requires augmentation, presumably
+N: on the lines of The Queen's Delight, for capers.
+O: Bucknell
+B: Morris Ring
+P: A.(A2B3)4
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+P: A
+|: C2C C>AA | AGF EGC | FEF G3 | A>CC C3 :|
+P: B
+   ccc Gcc  | Gcc cBA | GGG G2G | GAF EFG |
+   C2C C>AA | AGF EGC | FEF G3  | A>CC C3 ||
+S:https://www.folktunefinder.com/tunes/180269
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Old_Woman_Tossed_Up_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

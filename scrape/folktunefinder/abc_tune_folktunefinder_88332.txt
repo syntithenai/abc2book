@@ -1,0 +1,36 @@
+X:875
+T:Jack upon the green
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:Different from tune of same name in mss 1
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005f5.html
+%%ID:000005f5
+K:G
+DG2 GA2 | A (B/c/dB) G2 | GA2 AB2 | \
+AG2 GA2 | A (B/c/dB) g2 | dB2 cd2 ::
+eg2 gg2      | fe2 da2 | aa2 gf2 | \
+(e/f/)g2 gg2 | fe2 fg2 | dd2 cB2 ::
+%
+%%text Looks like mis-barred 9/8 to me :- try this ...
+%%endtext
+%%scale .5
+M:9/8
+D | G2G A2A (B/c/dB) | G2G A2A B2A      | G2G A2A (B/c/dB) | g2d B2c d2 ::
+e | g2g g2f  e2d     | a2a a2g f2(e/f/) | g2g g2f  e2f     | g2d d2c B2 ::
+%%newpage
+%page 70
+S:https://www.folktunefinder.com/tunes/88332
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

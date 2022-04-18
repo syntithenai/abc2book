@@ -1,0 +1,24 @@
+X: 1
+T: Queen's Delight, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+d2G dcB | cBc ABc | d2G d2c | BcA G3 :|
+cBc cBc |ABc def | gfg eag | gfe def |
+g2g gfe | dec ABc | d2G d2c | BcA G3 |
+cBc cBc | ABc d2e | [M:3/8] f3 |
+[M:6/8] g2f g3 | (2 ea g3 | g2f e3 | [M:3/8] def |
+[M:6/8] g2g gfe | dec ABc |d2G d2c | BcA G3 ||
+S:https://www.folktunefinder.com/tunes/184269
+S:http://www.thesession.org/tunes/display/7946
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

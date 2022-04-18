@@ -1,0 +1,24 @@
+X:300
+T:the Queen's or 2nd Regt. Quick Step
+B:Aird's Airs and Melodies vol 3
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001cc.html
+%%ID:000001cc
+K:D
+(a>f)(a>f)| .d.d(de)| efge| fdd2|\
+(a>f)(a>f)| .d.d(df)| e>gec| d2d2::
+c>def| g2e2| d>efg| a2f2| e>fga| bgfe| fdec| d2d2::
+(a>b).a.a| (ba)(gf)| edef| dAF[DA]|\
+(ab).a.a| bagf| edce| d2d2:|
+S:https://www.folktunefinder.com/tunes/95366
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

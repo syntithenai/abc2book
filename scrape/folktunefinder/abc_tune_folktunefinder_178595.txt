@@ -1,0 +1,33 @@
+X:1
+T:New Potato
+M:C|
+L:1/8
+C: Paul Gitlitz, 1994
+R:Reel
+B:Giblitz Fancy
+N:Very Eastern European.
+D:This tune appears as a song on "Charlotte Diamond's World" and as a tune on my
+D:CD "To Have and To Hold".
+H:Inspired by the opening scene to the Movie "The Tin Drum"
+K:Dm
+A|:"Dm"d^cde f2a2|"E".^g2.g2e4|"A7".g2.g2.e2.e2|
+"Dm"d^cdf "A7".a2.A2|!
+"Dm"d^cde f2a2|"E".^g2.g2e4|"A7".g2ag "A7"f2e2|
+1"Dm"dAFA D3A:|2"Dm"dAFA DEF^F||!
+:"Gm"G^FGA BdcB|"Dm"A^GAB AFD2|"A7"^CDEF AGFE|"Dm"D^CDE FGA2|!
+"Gm"G^FGA BdcB|"Dm"A^GAB AFD2|"A7"E2AGF2E2|"Dm"D2FAd4:|]
+% Written by ABC2Win  2.2.109 on 1/19/2006
+S:https://www.folktunefinder.com/tunes/178595
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/65/New-Potato.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/65/New_Potato.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

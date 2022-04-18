@@ -1,0 +1,22 @@
+X:12
+T:Rule Brittania
+M:C
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|d2d2 (d/e/f/g/ a)d|e3 (f/g/ f2)zA|(d/e/d/e/ f/g/f/g/ a)efe|(de/f/) ed c2zA|
+cAec a^g/f/ (e/f/)(c/B/)|A2 B>A A2 z2|d2 d>A BG zd|g>fed c2 ze|a2g2 (f/d/g/e/) ag|
+f2e2d4|:f2zf gg zf|g>f ed c4|a2g2(f/d/g/e/) ag|[1 f2e2d4:|[2 f2e2d3||
+S:https://www.folktunefinder.com/tunes/89999
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

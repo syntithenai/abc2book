@@ -1,0 +1,24 @@
+X:8616
+T:King of the Pipers, The
+R:jig
+H:There are 3 other tunes called "King of the Pipers": #8, #219, #307
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin
+D:Dervish: The Boys of Sligo
+Z:id:hn-jig-66
+M:6/8
+K:D
+AFF dFF|AFB AFD|AFF dAF|DFA GAB|AFF dFF|AFB AFD|~F3 AFD|DFA GAB:|
+|:ABc d2A|dfa agf|geg fdB|AFA Bcd|ABc d2A|dfa agf|geg fdB|1 AFA ~B3:|2 AFA B2A||
+|:Bbb Baa|~g3 fdA|Bbb Baa|AFA B2A|Bbb Baa|~g3 fdB|AFd AFE|1 DFA B2A:|2 DFA ~B3||
+S:https://www.folktunefinder.com/tunes/91675
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:1
+T:Music in the Glen
+R:reel
+L:1/8
+M:4/4
+K:G
+D|"G"G2BG EGDC|B,DGB AGAB|"C"c2ec "C(B)"B2dB|"Am"cABG "D"AGED|
+"G"G2BG EGDC|B,DGB AGAB|"C"cdef gfge|"D"dcBA "G"G3:|
+A|"G"BGdG eGdc|BGdB "D"cAFA|"G"BGdG eGdf|gdBG "D"AGEG|
+"G"BGdG eGdf|gdfg "D"afdf|"Em"gefd ecdB|"C"cABG "D"AGE:|
+S:https://www.folktunefinder.com/tunes/177823
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/reels/music_in_the_glen.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

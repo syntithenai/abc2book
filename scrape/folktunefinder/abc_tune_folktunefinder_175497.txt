@@ -1,0 +1,26 @@
+X: 1
+T:Merry Wakefield. WCl.12
+M:9/8
+L:1/8
+Q:100
+S:William Clarke MS,Lincoln,1770.
+R:Slip Jig
+O:Lincoln
+A:England
+N:
+Z:vmp.Barry Callaghan
+K:G
+"6/8 in MS"Bd(g g)dB gdB|cea afg f2 d|Bd(g g)dB gdB|(B/2c/2dB) "qus in m
+s"e/f/gB A2G::!
+Bc(d d)BG AFD|EFG ABc "tr"c2B|gdB ecA dBG|(B/2c/2dB) (e/2f/2gB) A2G:||
+S:https://www.folktunefinder.com/tunes/175497
+S:http://trillian.mit.edu/~jc/music/abc/England/slipjig/Merry_Wakefield_WCl_12_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tmp/Merry_Wakefield_WCl_12_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

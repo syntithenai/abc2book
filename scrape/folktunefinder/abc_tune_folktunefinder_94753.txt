@@ -1,0 +1,32 @@
+X:157
+U: ~ = !turn!
+%%topmargin 3cm
+T:Paddy Cronin Reel #4
+T:In C
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Paddy Cronin
+R:Reel
+L:1/8
+M:C|
+K:C
+~C3 D DG ~G2 | cded cAAc | AcGc Aa ~a2 | gecd ed ~d2 |
+CB,CD EG ~G2 | cded cAAc | ((3ABc) Gc Aa ~a2 | gedg ec ~c2 ::
+~g3 a gedc | fedc ec ~c2 | AcGc Aa ~a2 | gecd ed ~d2 |
+g3 a gedc | fedc ec ~c2 | AcGc Aa ~a2 | gedg ec ~c2 :|]
+S:https://www.folktunefinder.com/tunes/94753
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/In_C_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Paddy_Cronin_Reel_4_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/In_C_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Paddy_Cronin_Reel_4_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

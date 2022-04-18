@@ -1,0 +1,31 @@
+X:535
+T:Duke of Belluo's Quickstep
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:Beaulieu 
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed9.html
+%%ID:00000ed9
+K:G
+G/B/ |\
+ded ded | g2G GFG | ABA ABc | d2c BAG |\
+ded ded | g2G GFG | ABc BcA | (A3 G2) ::
+d |\
+A2d A2d | B2d gab | agf edc | Bcd d2B | \
+A2d A2d | Bcd efg | abg fge | ded cBA |
+ded ded | g2G GFG | ABA ABc | d2c BAG | \
+ded ded | g2G GFG | ABc BcA | (A3 G2) H|]
+S:https://www.folktunefinder.com/tunes/88264
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

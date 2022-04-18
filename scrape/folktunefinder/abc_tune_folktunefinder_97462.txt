@@ -1,0 +1,26 @@
+X: 18
+T:Kerfunten Jig
+M:6/8
+L:1/8
+Q:100
+C:Hammy Hamilton
+S:THSP
+R:jig
+K:D
+DE|:"D"~F3 FED|FGA "G"GBd|"D"A2A BAF|"A"E2E EDE|
+"D"~F3 FED|FGA "G"GBd|"D"A2A BAF|1 "A"EFE "D"D2E:|2 "A"EFE "D"D2A||:
+"D"~d3 def|"G"~B3 BAF|"D"~d3 def|"Em"fed "A"e2f|
+"D"~d3 def|"G"~B3 BAF|"D"AFA dAF|1 "A"EFE "D"D2A:|2 "A"EFE "D"D2E|]
+S:https://www.folktunefinder.com/tunes/97462
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

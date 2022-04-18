@@ -1,0 +1,25 @@
+X: 1
+T: Polska frn Smland
+R: Slngpolska
+O: Smland
+S: Efter Johan Magnus Dahl
+B: http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=Sm4&bildnr=00092
+Z: Transkription till abc av Nils L, 2008-06-03. 
+N: Jag vet inte om den hr lten spelas allmnt. Jag hittade den nr jag blddrade genom noter p www.smus.se och tyckte om den.
+N: Sv. L. Sm. 156, melodin r en variant till 'Klang min vackra bjllra'.
+M: 3/4
+K: Am
+L: 1/16
+|: e2eB c2cA B2B^G | E2E^G A2AB cBcd | e2eB c2cA B2B^G | E^GBG B2A2 !fine!A2 z2 ::
+ABcd e2e2 c4 | c2e2 f2ef d4 | (dB)GB (dB)GB (dB)GB | cBcd e2e2 e2e2 !D.C.!:|
+S:https://www.folktunefinder.com/tunes/183435
+S:http://www.folkwiki.se/pub/cache/_Polska_fr%E5n_Sm%E5land_c74c43.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

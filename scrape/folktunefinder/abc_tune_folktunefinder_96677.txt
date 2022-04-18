@@ -1,0 +1,22 @@
+X:285
+T: Peacock's Feather, The
+R: hornpipe
+M: 4/4
+L: 1/8
+K: D
+| FEED A2 AB | defd Bdef | ~g2fd efdB | AFED E2 DE |
+|FEED A2 AB | defd Bdef | (3gfe fd BedB |1 AFEF D2 z2 :|2 Adfe de ||
+|: fg |afge fdec | defd Bdef | ~g2fd efdB | AFED E2 DE |
+|FEED A2 AB | defd Bdef | (3gfe fd BedB |1 Adfe de :|2 AFEF D4 ||
+S:https://www.folktunefinder.com/tunes/96677
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

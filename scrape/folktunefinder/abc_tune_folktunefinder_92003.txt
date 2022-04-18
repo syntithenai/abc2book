@@ -1,0 +1,31 @@
+X:5
+T:Troy's Wedding
+C:Colin Magee
+R:jig
+D:Nomos: Nomos
+M:6/8
+Q:400
+Z:John Relph
+N:a straightforward reading of the tune
+K:D
+|:"D"ABA d2c|"Em"BAB e2d|"A"cdc ABc|"D"dcd f2B|
+"D"ABA d2c|"Em"BAB e2d|"A"cea gec|1 ABc "D"dcB:|2 ABc "D"def||
+|:"G"gfg e2g|"D"fef d2f|"A"ecB ABc|"D"dcd f2f|
+"G"gfg ege|"D"fdB A2d|"A"cea gec|1 "A"ABc "D"def:|2 "A"ABc "D"d2B||
+|:"D"Aaa Bac|aad aea|faa "Em"gec|"A"Add f2B|
+"D"Aaa Bac|aad aea|faa "Em"gec|1 "A"ABc "D"d2B:|2 "A"ABc "D"d3||
+S:https://www.folktunefinder.com/tunes/92003
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Troys_Wedding.abc
+S:http://idiot-dog.com/relph/Tunes.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

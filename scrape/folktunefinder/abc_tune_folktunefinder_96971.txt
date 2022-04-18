@@ -1,0 +1,27 @@
+X:11
+T:Anges
+R:Gigue
+C:Berardo
+G:Accordion
+%%MIDI program 21 %Accordian
+O:Gibous, bagase e bandits
+M:12/8
+L:1/8
+Q:360
+K:C
+|:[GG,]A[GG,]EF[^FD,][GG,]c[eD,]ed[cD,]|[AD,]B[AD,]AB[AD,][GG,]A[GG,]EG[GG,]|[GG,]A[GG,]EF[^FD,][GG,]c[eD,]ed[cD,]|[AD,]G[AD,]BA[BG,][cD,]e[dG,]c2D,:|:[eC,]c[GC,]dB[GC,]AB[cC,]cB[AD,]| \
+[EC,]G[cC,]FA[cC,]de[cC,]dB[GC,]|[eC,]c[GC,]dB[GC,]AB[cC,]cB[AD,]|[EC,]G[cC,]FA[cC,]de[dD,]c2C,:| \
+K:G
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96971
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Gigue
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key C
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

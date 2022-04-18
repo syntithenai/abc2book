@@ -1,0 +1,29 @@
+X:180
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sailor's Bonnet
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+B2 | ((3ABA) FA df (3{/g}(fef) | dfef dB (3.B.B.B | {/c}BAFA dfaf | dBAF D2 B2 |
+((3ABA) FA df (3{/g}(fef) | afbf dB (3.B.B.B | BAFA dfef | dBAF D2 :|]
+|: {/b}afab afef | (3.a.a.f ef dBBf | ((3aba) ba bafa | bfaf {/g}feef |
+bf (3.f.f.f afef | afef dB (3.B.B.B | {/c}BAFA dfef | dBAF D2 :|]
+S:https://www.folktunefinder.com/tunes/94776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sailors_Bonnet_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sailors_Bonnet_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

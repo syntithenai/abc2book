@@ -1,0 +1,50 @@
+X:30
+T:Rondeau
+C:Mouret ca. 1716
+M:C|
+L:1/8
+U:L=!tenuto!
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+BA|:.G2 .D2 .G2 .A2|BcBA GABc|Ld2 dd Ld2 Le2|d3 c B2 Bc|d2g2 d2d2|B2 AB cdBc|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+dc|:.B2 .B2 .B2 .D2|GAGF GFGA|LB2 BB LB2 Lc2|B3 A G2 GA|BdcB AGFE|D2 FG ABGA|
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+z2|:d6           F2|G6     g2|g6          g2|d6      BA|G4   A4  |B4    F2d2|
+V:1
+[1 A2 z2 A2 AA|A6       BA:|[2 AdcB (A3 G)|!fine!G6 Bc||d2 dd d2 d2|B2 G2 BABc|d2 z2  A2 B2|
+V:2
+[1 F2 z2 F2 FF|F6       dc:|[2 FBAG (F3 G)|!fine!B6 G2||A2 FG A2 G2|z4    GFGA|B2 AB (CB)AG|
+V:3
+[1 d2 z2 d2 dd|d2 FG A2 F2:|[2 d4    c2 A2|!fine!d6 G2||F2 DE F2 A2|d4    G2d2|G2 z2  F2 G2|
+V:1
+ F2 FG A2 Bc|d2 dd d2 d2|B2 G2 BABc|d2 dd d2G2|d6  !D.C.!||  
+V:2
+(AG)FE d2 z2|A2 FG A2 G2|B2 G2 GFGA|B2 AB cBAG|D3 D/E/ F2||
+V:3
+ D2 DE F2 G2|F2 DE F2 A2|d4    G2d2|d2 g2 a2g2|f3 f/f/ f2||
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90017
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

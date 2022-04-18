@@ -1,0 +1,26 @@
+X:845
+T:la Polonese
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e6f.html
+%%ID:00000e6f
+K:G
+G2BG {G}F2ED | G2BG {G}F2ED | d2d2 cBAG | A2A2 GFED |\
+G2BG {G}F2ED | G2BG {G}F2ED | GABc defg | dBAB G4 ::
+Bcde d2ef | agfe d4 | Bcde edcB | AGAB A2D2 |\
+Bcde d2ef | agfe d4 | Bcde edcB | AGAB G4 ::
+%page:99
+S:https://www.folktunefinder.com/tunes/95800
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

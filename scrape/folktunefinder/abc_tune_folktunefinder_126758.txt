@@ -1,0 +1,31 @@
+X:100
+T: Mick Mulcahy's
+S: "Johnny O'Leary of Sliabh Luachra" (#164)
+Z: B.Black
+N: version of "Out in the Ocean"
+L: 1/8
+M: 6/8
+R: jig
+K: G
+B3 BAG|BdB A/B/AB|GED G2A|BDD AGE|
+D2B BAG|BdB A/B/AB|GED G2A|BGG GFE|
+D3 BAG|BdB A/G/AB|GED G2A BDD AGE|
+D2B BAG|BdB A/G/AB|GED G2A|BGG GBd||
+e3 edB|ege edB|d2d def|gfe dBA|
+G2A B2d|e/f/ge dBA|GED G2A|BGG GBd|
+ege edB|ege edB|dfd def|gfe dBA|
+G/A/GA B2d|e/f/ge dBA|GED G2A|BGG G3 ||
+S:https://www.folktunefinder.com/tunes/126758
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/jol2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/jol2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

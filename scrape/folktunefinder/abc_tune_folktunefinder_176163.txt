@@ -1,0 +1,35 @@
+X:01
+T: Miss Laura Katerina Ribeiro
+C: Jrg Frse
+S: named for the daughter of Glauber Ribeiro
+R: barndance
+M: 4/4
+L: 1/8
+Z: Contributed 20011202184434 by Zina Lee zlee@ntw.net
+K: G maj
+(3def | "G".g2 (d2 d)dcd | .B2 (G2 G)GAB | "C"cded cBAG | "D".F2 (D2 D)GFG |
+"C"E2c2 cdec | "G"dGBd "Em"g3e | "Am"edcB "Bm"cBAG | "C"dcBc "D"Adef |
+"G".g2 (d2 d)d (3cdc | .B2 (G2 G)GAB | "C"cded cBAG | "D"GFEF DdBG |
+"C"E2c2 cdeg | "G"dGBd "Em"g2ge | "C"edcB "D"dcBA | "C"(G4 "D"G)def |
+"G".g2 (d2 d)dcd | .B2 (G2 G)GAB | "C"cded cBAG | "D".F2 (D2 D)GFG |
+"C"E2c2 cdec | "G"dGBd "Em"g2ge | "C"edcB "D"dcBA | "G"(G4 "D"G)AFG ||
+"Em"E3FG3A | "Bm"BAFG "Em"EB,EG | "Em"Be^de "Am"=dcAc | "Em"(B4 "B7"B)AGF |
+"Em"E3FG3A | "Bm"BAFB "Em"EGFE | "D"Dd^cd "A7"eAce | "D"d3=c BAGF |
+"Em"EDEF GFGA | "Bm"(3BcB (3AGF "Em"EFGB | "Em"gfeg "B7"fB^df | "C".e2e^d e2ef |
+"C"gfge "(C#dim.)"eage | "G"e=d^cd BDGB | "Em"E2.B2 "Bm"BAFG | "Em"E4"A"^c4 |
+"D"d3^cd3c | d^cdc d=cAF | d^cde d=cAF | .D2."(n. c.)"C2.B,2.A,2 ||
+"G".g2(d2 "D"(3d)ed cd | "Em".B2 (G2 "G"G)GAB | "C"cded "Am"cBAG | "D".F2 (D2 "Bm"D)D^CD |
+"Am"E2=c2 "C"cdeg | "G"dgfg "C"cgfg | "G"Bgfg "D"Aafd | "C"cgfg agec |
+"G"dDGB "D"dcAF | "G"(G2 "C"G2 "G"G2)||
+S:https://www.folktunefinder.com/tunes/176163
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/MissLauraKaterinaRibeiro.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MissLauraKaterinaRibeiro.abc
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

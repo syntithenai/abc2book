@@ -1,0 +1,25 @@
+X:36
+T:First of September
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2d2 d2cd|A2d2 A2f2|e2d2 c2B2|AGAB A4|FAdA FAdA|GBdB GBdB|ABAG FGFE|D4 D4::
+a2>b2 abag|f2d2 d2f2|g2f2 e2d2|cdec A4|a2>b2 abag|f2d2 d2f2|gbag fedc|d4 d4:|
+P:2nd Fife Harmony
+d2A2 F2EF|F6 d2|c2B2 A2G2|FEFG F4|F8|G8|FGFE dedc|d4 d4::
+f2>g2 fgfe|d2F2 F2d2|e2d2 c2B2|A8|f2>g2 fgfe|d2F2 F2d2|egfe AGFE|F4 F4:|
+S:https://www.folktunefinder.com/tunes/90023
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

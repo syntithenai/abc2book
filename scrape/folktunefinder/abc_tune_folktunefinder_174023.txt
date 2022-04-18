@@ -1,0 +1,41 @@
+X: 124
+T:Malisjevsko Horo
+O:Bulgaria
+S:Jaap Leegwater, Bulgarian Folk Dances, Nevofoon 15025
+M:2/4
+L:1/8
+Q:1/4=240
+P:AAB
+K:C
+%%MIDI program 21
+%%MIDI chordprog 64
+%%MIDI bassprog 45
+%%MIDI bassvol 40
+%%MIDI chordvol 50
+P:A
+%%MIDI gchord fc
+|:"C"f3d        |"Em"e3c   |"G" d3c    |"C"Bcde   |
+  "C"f3d        |"Dm"e3c   | [1"F" cd2g|"C" gfgf  :| [2 "C".d2.g2|"C" .d2z2|
+P:B
+K:Am
+  "Am"G2AA      |A2A2      |A4         |"G"e4     |\
+  "C"dc3        |c4        |c4         |
+  "Dm"d2 dd     |"Am"d2 e2 |c3B        |A4        |
+  G2AA          |A2A2      |A4         |"Em"e4    |\
+  "C"dc3        |c4        |c4         |
+  "Dm"d2 dd     |d2 e2     |"C"c3B     |"Am"A4    |
+  "Dm"d2 cB     |"Am" A2 AA|A2 c2      |A4        |
+  "Dm"d2 cB     |"Am"A2 AA |A2 c2      |A4        |
+S:https://www.folktunefinder.com/tunes/174023
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Malisjevsko_Horo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Malisjevsko_Horo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

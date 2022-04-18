@@ -1,0 +1,31 @@
+X:096
+U: ~ = !turn!
+%%topmargin 3cm
+T:Jackson's Morning Brush
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+AF | DFE {/F}EFD | DF/2E/2D AFA | BGB def | {/a}gfg ecA |
+DFE {/F}EFD | DF/2E/2D AFA | BGB d2 e | fdd d2 ::
+g | fed f/2g/2af | ede fdB | AFA def | ga/2g/2f/2g/2 e2 g |
+fed f/2g/2af | ede fdB | AFA d2 e | fdd d2 ::
+g | fdf ece | dBd AFA | DFA def | ga/2g/2f/2g/2 e2 g |
+gdg ece | dcd AFA | DFA d2e | fdd d2 g |
+fdf ece | dBd cAd | BGB AFA | GFG Efg |
+afd gec | dBd AFD | DFA d2 e | fdd d2 |]
+S:https://www.folktunefinder.com/tunes/94692
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Jacksons_Morning_Brush_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Jacksons_Morning_Brush_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

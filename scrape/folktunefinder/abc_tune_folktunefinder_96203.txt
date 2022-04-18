@@ -1,0 +1,26 @@
+X: 52
+T:Medus(to TBe.051). TBe.052
+M:3/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:gavot
+O:England
+H:Before 171
+Z:vmp.C. Graebe..
+K:BB major
+e2d | c/e =B3/2 |G=Bc | =B3 | d2c | =BG_A | G_A=B/c/ | =B3 ||!
+e2d | ec=B | d2c |d=BG | c2 =B | G2G | _A^F2 | G3 |!
+e2c | ec=B |d2c | d=BG | c2B | edc | =BB2 | c3 ||
+S:https://www.folktunefinder.com/tunes/96203
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Gavot
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

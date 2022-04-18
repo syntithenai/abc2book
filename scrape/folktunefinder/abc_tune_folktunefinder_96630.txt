@@ -1,0 +1,21 @@
+X:50
+T:First House in Connaught
+M:C
+L:1/8
+R:reel
+K:G Major
+|:GF|DG~G2 AGG2|BGdG BG G2|DF~F2 AFF2|ABcA BGAF|!
+|DG~G2 AGG2|BGdG BG G2|defg agfd|cAFA G2:|
+|: Bd|~g2ga gfdf |g2bg ageg|~f2dg f2dg |fgaf bgaf|!
+|~g2ga gfdf|g2bg agfe|defg agfd|cAFA G2:|
+S:https://www.folktunefinder.com/tunes/96630
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

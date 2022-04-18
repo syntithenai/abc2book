@@ -1,0 +1,26 @@
+X:95
+T:Uncle Gabriel
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:The 1st three Couples advance & retreat, lead down the middle and pousette at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ded.html
+%%ID:00000ded
+K:D
+A |\
+d2A F2A | d2d dcd | e2c A2c | e2e ede | \
+f2f f2f | g2g gfe | dfd cBc | d3 - d2 ||
+A |\
+A2A ABc | d2e f2A | d2e f2^g | a2A A2F |\
+G2A B2c | d2d def | gfe dec | d2f d2 |]
+S:https://www.folktunefinder.com/tunes/88152
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

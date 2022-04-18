@@ -1,0 +1,21 @@
+X: 1
+T: Pete's March
+C: Bob McQuillen
+Z: John Chambers <jc@trillian.mit.edu>, rev. T. Traub 5-20-02
+M: C
+L: 1/4
+K: D
+A,B,| "D"D2  "Bm"D>F | "G"ED "D"D>E | "D"FA Ad | "G"B2 "D"A2 | "Bm"f>e df | "G"e>d Bd | "Em"A>B AF | "A7"FE A,B, || 
+"D"D2  "Bm"D>F | "G"ED "D"D>E | "D"FA Ad | "G"B2 "D"A2 | "D"f>e "Bm"df | "G"e>d Bd | "A7"AF EF/E/ | "D"D2 de || 
+"D"f2 f>g | "D7"fe d>f | "G"ed Bd | "D"BA "A"FE | "D"DF Ad | "Bm"fa gf | "Em"ed fd | "E7"f2 "A"e2 || 
+"D"f2 f>g | "D7"fe dd | "G"ed Bd | "D"BA "A"FE | "Bm"DF "D"Ad | "G"dB A>g | "A7"fe dc | "D"d2 |]
+S:https://www.folktunefinder.com/tunes/182183
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PetesMarchR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

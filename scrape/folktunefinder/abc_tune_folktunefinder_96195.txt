@@ -1,0 +1,35 @@
+X: 44
+T:Air. TBe.044
+M:C|
+L:1/8
+Q:200
+S:Thomas Bennet MS,1718, VWML
+R:air
+O:England
+N:1 - tune in MS is written out with 1st and 2nd time bars - shown in
+N:full so it will play right.  2 - first time through as written, this
+N:time written in  a way which is slightly easier to read. 3 - quavers
+N:shown as crochets
+H:1718
+Z:vmp.C. Graebe..
+K:C minor
+g2 | g4 "3"g3gf3g | e2g2d2g2 | c2g2=B2g2 | edce dc=Bd | \
+c2-c3 def | g2b2e2c2 | fafa d2B2 | e2g2c2A2 | dfdf B2G2 |\
+cdeG F2 d2 | e6 c/d/e/f/ "1"  | g4 g3gf3g | e2g2d2g2 | c2g2=B2g2 | \
+edcedc=Bd | "2" c4-c def | g2b2e2c2 | fafa d2B2 | e2g2c2A2 | \
+dfdf B2G2 | cdeG F2 d2 | e6 || ga | bagf efga | b2e2e2g2 | agfe defg | \
+a2 d2d2f2 | gfed cdef | g2e2e2g2 | agfe dedc | =B2-B3 def |\
+g2G2F2g2 | f2F2E2G2 | DEFD C2 =B2 | c6 ||
+S:https://www.folktunefinder.com/tunes/96195
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

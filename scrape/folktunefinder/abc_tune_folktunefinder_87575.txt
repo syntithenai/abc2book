@@ -1,0 +1,27 @@
+X: 74
+T: Four
+C: Miles Davis
+Q: 1/4=220
+M: 4/4
+L: 1/8
+K: Eb
+P: A
+B, CD |: "Ebmaj7" zB, C.D zB, C.D | zF E.D zB, C_D- | "Ebm7" D8 | "Ab7" z4 ED EF |
+"Fm7" GE F.G zE F.G | zB A.G zE F_G- | "Abm7" G8 | "Db7" z4 FG A=A ||
+P: B
+"Gm7" B4 EG B=B | "Gbm7" z_F- F2 E4 | "Fm7" z !accent! c3 .B2 AG- | "Bb7" G4 zF GA |
+|1 "Gm7" B4 EG B=B- | "Gbm7" B2 _FE- E4 | "Fm7" z !accent! c3 B3 A | "Bb7" G2 z2 zB, C.D :|
+|2 "Gm7" B2 GB "Gbm7" =B_F E2 | "Fm7" !accent! c2 AF "Bb7" d2 B.e | "Eb6" z4  z4 | "T.A." z8 |]
+S:https://www.folktunefinder.com/tunes/87575
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

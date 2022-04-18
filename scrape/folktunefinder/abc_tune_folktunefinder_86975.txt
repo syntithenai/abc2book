@@ -1,0 +1,33 @@
+X:450
+T: Kinvara Slide (with piano acc.)
+C: BB
+R: slide
+M: 12/8
+Q: 400
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 48
+K: D
+[V:1] A|"D"ABA F2 D E2 D F2 D|"D"ABA DFA "G"B2 B dcB|
+[V:2] z|[D,12F,12A,12]|[D,6F,6A,6][G,6B,6D6]|
+%
+[V:1] "D"ABA F2 D E2 D F2 D|"D"d2 F "A"EFE "D"D3-D2 :|
+[V:2] [D,12F,12A,12]|[D,3F,3A,3][A,3C3E3][D,3-F,3-A,3-][D,2F,2A,2]:|
+%
+[V:1] A|"Bm"B2 d dcd "A"c2 e ece|"Bm"f2 b a2 f "Em"e3-edB|
+[V:2] z|[B,6D6F6][A,6C6E6]|[B,6D6F6][E,6G,6B,6]|
+%
+[V:1] "D"ABA F2 D E2 D F2 D|"D"d2 F "A"EFE "D"D3-D2 :|
+[V:2] [D,12F,12A,12]|[D,3F,3A,3][A,3C3E3][D,3-F,3-A,3-][D,2F,2A,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86975
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

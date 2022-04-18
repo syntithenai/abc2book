@@ -1,0 +1,35 @@
+X:270
+T: Bee's Wings
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: Bb
+(3FGA|BfdB AecA|FdBF DBFD|EGBe DFBd|\
+(3cdc (3BAG F2 GA |
+BfdB AfcD|EBGe DBFD|EGce dcBA|B2 d2 B2 :|
+fe|(3dcB fd bfdB|(3cBA fc afcA|(3GFE BG ecdB|\
+(3cdc (3BAG F2 GA |
+BfdB AfcD|EBGe DBFD|EGce dcBA|B2 d2 B2 :|
+P: version in A
+K: A
+(3EFG|AecA GdBG|EcAE CAEC|DFAd CEAc|\
+(3BcB (3AGF E2 FG |
+AecA GeBC|DAFd CAEC|DFBd cBAG|A2 c2 A2 :|
+ed|(3cBA ec aecA|(3BAG eB geBG|(3FED AF dBcA|\
+(3BcB (3AGF E2 FG |
+AecA GeBC|DAFd CAEC|DFBd cBAG|A2 c2 A2 :|
+S:https://www.folktunefinder.com/tunes/93553
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Key A-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

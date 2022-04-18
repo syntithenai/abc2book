@@ -1,0 +1,25 @@
+X:3
+T:Quadrille d'Arvieux
+R:Quadrille
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:4/4
+L:1/8
+Q:240
+K:C
+|:[G3/2G,3/2]A/[B3/2G,3/2]c/[d2G,2][d2G,2]|[dG,]c[dG,]e[dG,]c/B/[A2G,2]|[d3/2G,3/2]c/[B3/2G,3/2]A/[G2G,2][D2G,2]| \
+[GG,]A[BG,]B[BG,]A/G/[A2G,2]|[d3/2G,3/2]c/[B3/2G,3/2]A/[G2G,2][D2G,2]|[GG,]A[B2G,2][A2G,2][G2G,2]:| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96963
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Quadrille
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

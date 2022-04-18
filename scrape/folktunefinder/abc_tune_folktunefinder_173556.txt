@@ -1,0 +1,34 @@
+X:1
+T:Mad Moll of the Cheshire Hunt
+T:(Titterstone Clee)
+M:4/4
+L:1/8
+Q:1/4=112
+C:John Locke
+R:hornpipe
+K:G
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+(3(DEF) |: G2 g>f e>dc>B | A>Bc>A B2A2 | G2 g>f e>dc>B |\
+d>cA>F G2 (3(DEF) |
+G2 g>f e>dc>B | A>Bc>A B2A2 | e2d2 c2B2 |1 c>AF>A G2 (3(DEF) :|2 c>AF>A G4 |
+P:B
+|: D>GB>G D>GB>G | D>GB>d c2A2 | D>FA>F D>FA>F | D>FA>c B2G2 |
+D>GB>G D>GB>G | D>GB>d c2A2 | e2d2 c2B2 | c>AF>A G4 :|
+S:https://www.folktunefinder.com/tunes/173556
+S:http://www.mit.edu/~jcb/MOTley/abc/mad-moll-of-the-cheshire-hunt.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/mad-moll-of-the-cheshire-hunt.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/mad-moll-of-the-cheshire-hunt-tune.shtml
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:95
+T:Over the Hills and far away
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e02.html
+%%ID:00000e02
+K:A dorian
+DE |\
+G3A GABA | G2E2 E2DE | G3A  GABG | B2A2 A2DE |\
+G3A GABA | G2E2 Tc4  | E2D2 DEGA | B2A2 A2 ::
+Bc |\
+d3e dcBA | G2E2 E2Bc | d3e  dBAG | B2A2 A2Bc | \
+d3e dcBA | G2E2 c4   | E2D2 DEGA | B2A2 A2 ::
+DE |\
+GABG GABA | G2E2 E2DE | GABA GABG | B2A2 A2DE |\
+GABA GABG | AGFE  Tc4 | D2D2 DEGA | B2A2 A2 ::
+Bc |\
+dgfe dBAB | G2E2 E2Bc | dgfe dBAG | B2A2 A2Bc |\
+dgfe dcBA | G2E2 Tc4  | E2D2 DEGA | A2G2 G2 ::
+%page:15
+S:https://www.folktunefinder.com/tunes/95650
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

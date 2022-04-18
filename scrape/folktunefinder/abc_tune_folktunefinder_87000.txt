@@ -1,0 +1,33 @@
+X:575
+T: New Deacon (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 02
+K: G
+[V:1] D|"G"G,B,D GDB,|"C"CEG cBc| "G"Bcd "Am"cBA | "G"GAG "D"FED |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[EGC]G,,2[EGC]|G,,2[GBD]A,,2[ACE]|G,,2[GBD]D,2[AFD]|
+%
+[V:1] "G"G,B,D GDB, | "C"CEG cBc | "G"BGB "D"AFA | "G"G3 "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|C,2[EGC]G,,2[EGC]|G,,2[GBD]D,2[AFD]|G,,2[GBD][G,2B,2D2]:|
+%
+[V:1] d |"G"gfg dBG | "C"cBc "Am"ABc | "Em"BGG "Am"cAA | "A"^cec "D"d2 f |
+[V:2] z |G,,2[GBD]D,2[GBD]|C,2[EGC]A,,2[ACE]|E,2[EGB]A,,2[ACE]|A,,2[A^CE]D,2[AFD]|
+%
+[V:1] "G"gbg dBG | "C"cec "Am"ABc | "G"BGB "D"AFA |"G"G3 "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|C,2[EGC]A,,2[ACE]|G,,2[GBD]D,2[AFD]|G,,2[GBD][G,2B,2D2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87000
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

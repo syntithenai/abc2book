@@ -1,0 +1,30 @@
+X: 33
+T:Lasses Keep Your Legs Together. BF13.032
+M:2/2
+L:1/8
+Q:200
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Reel
+O:England
+A:Lakes
+N:Key signature is given as two sharps, shown, unusually, on each line,
+N:variously D# (second line down) and the lower E, F or G.  It feels as
+N:if it ought to be G major.  The first time bars are marked with a line
+N:over it, the second time bars ares marked with a similar line and '2n
+Z:vmp.Cherri Graebe.
+K:G major
+DGBG cABG|GBdG FAA2|DGBG cABG|FGAF DGG2:|!
+|Bdgd ecdB|BGdG FAA2|Bdgd ecdB|cABG DGG2|!
+Bdgd ecdB|BGdG FAA2|egeg Bgcg|BGdG DGG2|!
+|:GDB,G, ECCD|!DB,GB, G,2AA|GDB,G, DB,B,E|DGFA GG,G,2:|]
+S:https://www.folktunefinder.com/tunes/94945
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

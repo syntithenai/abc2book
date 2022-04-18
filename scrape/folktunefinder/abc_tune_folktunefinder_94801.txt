@@ -1,0 +1,32 @@
+X:206
+U: ~ = !turn!
+%%topmargin 3cm
+T:Tommy Hill's Favorite Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Hornpipe
+L:1/8
+M:C|
+K:D
+e3 f gfga | ((3bag) ((3agf) gfef | ((3gag) ((3fgf) ((3efe) df | ((3efe) ((3dcB) ((3ABA) FA |
+[1 defd ceAF | GABG FADA | dcdB AGFE | ((3DED) CE D2 z2 :|
+[2 dcdf ecAF | GFGB AGFE | DdcB ((3ABA) ((3GFE) | ((3DED) CE D2 z2 |]
+|: dcdg ecAF | GFGB AF D2 | ((3gag) ((3fgf) ((3efe) df | ((3efe) ((3dcB) ((3ABA) FA |
+defd ceAF | GABG FADA | dcdB AGFE | ((3DED) CE D2 z2 :|]
+S:https://www.folktunefinder.com/tunes/94801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Tommy_Hills_Favorite_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Tommy_Hills_Favorite_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

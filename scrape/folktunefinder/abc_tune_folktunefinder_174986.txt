@@ -1,0 +1,28 @@
+X:1
+T:Mazurka for You
+C:Matthias Loibner 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:Dm
+DE FG AB | A2E3F | GA B^c de | A4A=c- |
+c2BA GB | A2F2D2 |1 EFG2F2 | E6 :|\
+                 [2 EGF2E2 | D6 ||
+|:\
+f2e2A2 | B2GAB2 | e4f2 | d2FG AB |
+A2E3F | GA/2G/2F2E2 | D6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174986
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_for_you.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

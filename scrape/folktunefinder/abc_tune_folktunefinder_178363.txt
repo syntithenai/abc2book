@@ -1,0 +1,25 @@
+X: 98
+T: no name
+R: polka
+Z: id:hn-polka-98
+M: 2/4
+L: 1/8
+R: polka
+K: Dmix
+|: FG |\
+A>A AB | cA FG | AB c/B/A | G2 FG |
+A>A AB | cA fg | ed AF | G2:|
+|: fg |\
+a>g fa | ge fg | ag fa | g2 fg | 
+a>g fa | ge gf | ed AF | G2 :|
+S:https://www.folktunefinder.com/tunes/178363
+S:http://www.thesession.org/tunes/display/3128
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

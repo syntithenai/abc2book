@@ -1,0 +1,28 @@
+X:1595
+T:a grand Quick Step
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%RRN:"Clarinet primo"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001255.html
+%%ID:00001255
+K:C
+G | cc/c/ ce | cc/c/ ce | ee/e/ eg | gg(gf) | eeec | d(d/f/) B(B/d/) | Hc2 ::
+GGG (A/B/) | ccc (d/e/) | ff ee | ddd g | c'ba^g | abc' f | ee dd | Hc2 ::
+e3d | c3B | AGAB | cBcd | e3d | c3B | AGAB | Hc4 ::
+e | fG/G/ GG | eG/G/ GG | fG/G/ eG/G/ | dG/G/ GG | \
+dG/G/ GG | eG/G/ GG | fG/G/ eG/G/ | b/c'/d'/c'/ b/a/g/f/ |
+e3d | c3B | AGAB | cBcd | e3d | c3B | BABc | Hc3 :|
+%%newpage
+%page 127
+S:https://www.folktunefinder.com/tunes/88476
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

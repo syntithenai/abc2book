@@ -1,0 +1,28 @@
+X:0412
+T:"The Redhaired Man's Wife"   (air)   0412
+C:after Mr. Enright
+C:slow
+Q:1/4=70
+N:NOTE:TEN bars per section
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"(A/2B/4c/4d/4e/4f/4g/4)|a2(bg af)|g2(a3/2g/2 fe)|d2d2cA|c2d2 (6(A/2B/2c/2d/2e/2f/2)|g4fg|
+a2(bg af)|g2(ag fe)|d2d2(cA)|{B}A2G2GA|{F}G4:|
+(dc)|({c}BABdcA)|(TRGFGdcA)|G2(GB) (A/2G/2F/2A/2)|G2A2(Bc)|{c}d4 (A/2B/4c/4d/4e/4f/4g/4)|
+a2(bg af)|g2 (3(agf)  (3(gfe)|d2(de) (cA)|{B}A2 G2GA|{F}G4|]
+S:https://www.folktunefinder.com/tunes/184900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0412-RedhairedMansWife.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0412-RedhairedMansWife.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

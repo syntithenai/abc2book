@@ -1,0 +1,27 @@
+X: 1
+T: Nocturne
+M: 3/4
+L: 1/8
+R: mazurka
+K: Gmaj
+Bd |: e4 ef | B4 Bd | e4 ef | de/d/ B2 Bd |
+B2 G3A | F2 D3B | E6 | E4 ED | E4 Bd||
+|:e4 ef | B4 Bd | e2 e3f | B4 Bd | B2 G3A | F2 D3B |
+E6 | E4 Bd | e4 ef | B4 Bd | e2 e3f | d2 B2 Bd |
+B2 G3A | F2 D3B | E6 | E4 ED | E6 | E4 ||
+|:B2 | e4 ef | B4 Bd | e2 e3f | B4 Bd | B2 G3A |
+F2 D3B | E6 | E4 Bd | e4 ef | B4 Bd | e2 e3f |
+de/d/ B2 Bd | B2 G3A | F2 D3B | B6 | B6 |
+B3d  c^A | B4  Be | f4 Bf | g4 Bg | fe c2 d2 |
+B4 Be |f4 Ba | g4 Bg | fe c2 d2 | B6 | B4 BB//c//B//A//|
+B6 | B6 | B4 Bd | e4 ef | B4 Bd | e4 ef | d2 B2 Bd |
+B2 G3A | F2 D3B | E6 | E6 | E4 ||
+S:https://www.folktunefinder.com/tunes/178856
+S:http://www.thesession.org/tunes/display/9124
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X: 1
+T:Manchester Quadrille p5
+B:Plain Brown Tune Book
+O:Ellis Knowles
+M:6/8
+L:1/8
+Q:120
+K:C
+G3 c2 c | A3 c2 G | G3 e2 c | d3 g2 z |! 
+G3 c2 c | A3 f2 d | c2 e dcd | c2 e c3 :|!
+g3 {g}fef | e3 c'3 | g3 {g}fef | e2 g c'2 z |! 
+g2 e {g}fef | e3 g3 | f3 d 'c'b| g2 b g3 ||
+S:https://www.folktunefinder.com/tunes/97139
+S:http://www.kennaquhair.com/tunes/tradtunes4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

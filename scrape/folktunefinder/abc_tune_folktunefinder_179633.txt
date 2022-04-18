@@ -1,0 +1,34 @@
+X:1
+T:O filii et filiae!
+R:Noel
+A:France
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:3/4
+L:1/4
+K:G dor
+V:1
+G |\
+B2c | (d""c)B | c""A2 | G2 :|
+|:G |\
+G2A | ""^F2G | A2A | D2A |
+B""A2 | G2 :|
+V:2
+G |\
+G2A | (B""A)G | A""^F2 | G2 :|
+|:B |\
+B2c | ""A2G | ^F/E/D/E/F/G/ | A2D |
+G""^F2 | G2 :|
+S:https://www.folktunefinder.com/tunes/179633
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/o_filii_et_filiae.abc
+% Rhythm Noel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

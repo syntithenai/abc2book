@@ -1,0 +1,24 @@
+X:2
+T:Ronde de St Vran (2me voix)
+R:Ronde
+C:Trad.
+A:Queyras - Hautes-Alpes - France
+B:Rpertoire de "la Tayole"
+G:Flute
+%%MIDI program 74 %Flute
+M:6/8
+L:1/8
+Q:400
+K:C
+z4zD|:G2DG2A|B3c3|A2Ad2c|1B2zz2D:|2B2zz2G|B2BBAG|A2z^F2E|D2DDE^F|G2ED2D|G2DG2A|B3c3|A2Ad2c|B2zz3| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96962
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Ronde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

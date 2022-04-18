@@ -1,0 +1,24 @@
+X: 101
+T:Gentleman Soldier
+R:jig
+N:This is a song from a Dubliner's album
+M:6/8
+L:1/8
+K:D
+|"D"f2f A2B|d2e f2d|"A7"efe d2c|"D"d3 d2e|
+f2f A2B|d2e f2d|"A7"efe d2c|"D"d3 d2e|
+f2f f2d|"A7"e2e f2e|"G"d2d dcB|"A7"A3 A2a|
+"D"a2A A2A|d2e f2d|"A7"efe d2c|"D"d3 d2e|
+"Chorus"f2f fed|"A7"efe efe|"G"d2d dcB|"A7"A3 A2a|
+"D"a2A A2A|d2e f2d|"A7"efe d2c|"D"d3 d2z|]
+S:https://www.folktunefinder.com/tunes/92902
+S:http://www.alfwarnock.info/alfs/abc/accw02.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

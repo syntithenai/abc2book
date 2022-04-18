@@ -1,0 +1,30 @@
+X:1840
+T:"A Lovely Lass To A Friar Came" (march ) 1840
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+(3(def)|.g2.f2.e2.d2|({f}ed)(ef) d2(ef)|.g2.f2.e2.d2|e4d2  (3(def)|
+.g2.f2.e2.d2|({f}ed)(ef) d2(ef)|.g2.g2.e2.d2|e4d2||
+z2|defg a2a2|b2a2 a4|b2a2 a2gf|g4f2 z2|
+a4d4|{f}edef d2ef|.g2.f2.e2.d2|e4d2||
+D2|.G2.F2.E2.D2|.E2.E2 D2EF|.G2.F2.E2.D2|TRE4D2D2|
+.G2.F2.E2.D2|.E2.E2 D2EF|.G2.F2.D2.E2|TRE4D2||
+z2|DEFG A2A2|B2A2 A2 z2|B2A2 A2GF|G4F2 z2|
+A2A2 D4|EDEF D2EF|.G2.F2.E2.D2|TRE4D2||
+(3(def)|gafg efdf|{f}edef defa|gafg efdf|e4d2  (3(DEF)|
+GAFG EFDE|EDEF DEFD|GAFG EFDE| TRE4D2 |]
+S:https://www.folktunefinder.com/tunes/173190
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1840-LovelyLassFriar.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Miss Isabella MacPherson Grant's Strathspey
+C: William Marshall
+N: William Marshall, v.1, p.51
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: F
+a2 \
+| "F"cc3 (c3B) A3c f4 | "Bb"dd3 (d3c) "C7"d3f g3a \
+| "F"f3F A3F "(Dm)"(Ac3) f4 | "Gm"d3g "C7"(fe)dc "F"f6 :|
+g2 \
+| "F"a3f (ag)fe "(Dm)"f2c2 f4 | "Gm"b3g (ba)gf "C7"(ef)ga g2fg \
+| "F"a3f (ag)fe f2c2 f4 | "C7"c3f efge "F"f6 |]
+g2 \
+| "F"a3f (ag)fe "(Dm)"f2c2 f4 | "Gm"b3g (ba)gf "C7"(ef)ga g2fg \
+| "Bb"(ba)gf "C7"g3e "F"f3c "Bb"(df3) | "C7"c3f efge "F"f6 |]
+S:https://www.folktunefinder.com/tunes/176117
+S:http://trillian.mit.edu/~jc/music/book/500/IsabellaMacPhersonGrantsS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

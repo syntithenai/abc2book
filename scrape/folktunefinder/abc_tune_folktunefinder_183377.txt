@@ -1,0 +1,27 @@
+X:1
+T:Polska : Eklunda, av Viksta Losse
+C:(do) apprise de Martin Coudroy  St Gervais 2008, fichier abc : Bernard Loffet
+L:1/8
+Q:228
+M:3/4
+K:C
+|: [cC,,]B/c/ [eC,]c [GC,]E | [F/F,,/]E/F/G/ [A/F,/]c/A/F/ [DF,]F | [EC,,]D/E/ [FG,]F/D/ [EC,]E/C/ | \
+ [D3/2D,,3/2]^F/ [G2G,2] G,2 | [cC,,]B/c/ [eC,]c [GC,]E | [F/F,,/]E/F/G/ [A/F,/]c/A/F/ [DF,]F | [EC,,]D/E/ [FG,]F/D/ [EC,]E/C/ | \
+ [D/G,,/]E/D/B,/ [C2C,2] C,2 :|: [EC,,]E [FF,]F [EC,]E | [D3/2G,,3/2]B,/ [G,2G,2] G,2 | [EC,,]E [FF,]F [EC,]E | \
+ [D3/2G,,3/2]^F/ [G2G,2] G,2 | [EC,,]E [FF,]F [EC,]E | [D3/2G,,3/2]B,/ [G,2G,2] G,A,/B,/ | [CC,,]D/E/ [FG,]F/D/ [EC,]E/C/ | \
+ [D/G,,/]E/D/B,/ [C2C,2] C,2 :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/183377
+S:http://diato.ifrance.com/diato/tablat/254.abc
+S:http://diato.ifrance.com/tablat/254.abc
+S:http://diato.org/tablat/254.abc
+S:http://perso.orange.fr/diato/tablat/254.abc
+S:http://perso.wanadoo.fr/diato/tablat/254.abc
+S:http://pro.wanadoo.fr/diato/tablat/254.abc
+S:http://www.diatonique.net/tablat/254.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

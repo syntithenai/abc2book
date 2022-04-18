@@ -1,0 +1,30 @@
+X:55
+T:William Tell
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:6/8
+N: the repeat-barlines are written with 4 dots (vertically aligned)
+N: instead of 2, ABC doesn't have a notation for this
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st & 2d Couples, retaining hands,
+%%Dancenotes:lead down the middles & chain figure of four at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de3.html
+%%ID:00000de3
+K:F
+FG |:S \
+ABc cFG | ABc c2c | f2f fAc | f2f fgf |\
+edc BAG | A2f fgf | edc BAG | F2A F2 ||
+c |\
+(Ac).c (cf).f | e2c c2A | (Bd).d (dc).B | BAG A2A |\
+Afe d2d | cdc cef | g2g GA=B | c3- (c2 B) S !D.C.! :|
+% overkill repeats !!
+S:https://www.folktunefinder.com/tunes/88144
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

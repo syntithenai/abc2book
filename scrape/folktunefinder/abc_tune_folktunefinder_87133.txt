@@ -1,0 +1,47 @@
+X: 9048
+T: Fishamble Street (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 volume=80 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] B |"G"dBG "Am"ecA | "D7"fdc "G"BAG | "G"DGB "C"EGc | "D"FAd "G"G2 e |
+[V:2] z|G,,2[GDB]A,,2[AEC]|D,2[DAFc]G,,2[GDB]|B,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|
+%
+[V:1] "Em"b2 g "Am"a2 e | "D"fga "G"gdc | "G"BGB "Am"ABc | "D"dAF "G"G2 :|
+[V:2] E,2[EBG]A,,2[AEC]|D,2[AFD]G,,2[GDB]|B,,2[GDB]A,,2[AEC]|D,2[AFD][G,2D2B2]:|
+%
+[V:1][K: Gm] d | "Cm"ede c2 e | "Gm"dcd B2 f | "Gm"GAB "F"cdc | "Gm"dgg agg |
+[V:2][K: Gm] z |[C,6G,6E6]|[G,6D6B6]|[G,,3D3B,3][F,3C3A3]|[G,6D6B6]|
+%
+[V:1] "Gm"b2 g "F"a2 f | "Gm"gdc BAG | "Dm"ABc d^cd |"Gm"BGF "Gm"G2 :|
+[V:2] [G,3D3B3][=F,3C3=A3]|[G,6D6B6]|[D,6A,6=F6]|[G,3D3B3][G,,2D2B,2]:|
+%%%%%%tune repeat
+[V:1][K:G] B |"G"dBG "Am"ecA | "D7"fdc "G"BAG | "G"DGB "C"EGc | "D"FAd "G"G2 e |
+[V:2][K:G] z|G,,2[GDB]A,,2[AEC]|D,2[DAFc]G,,2[GDB]|B,,2[GDB]C,2[CGE]|D,2[AFD]G,,2[GDB]|
+%
+[V:1] "Em"b2 g "Am"a2 e | "D"fga "G"gdc | "G"BGB "Am"ABc | "D"dAF "G"G2 :|
+[V:2] E,2[EBG]A,,2[AEC]|D,2[AFD]G,,2[GDB]|B,,2[GDB]A,,2[AEC]|D,2[AFD][G,2D2B2]:|
+%
+[V:1][K: Gm] d | "Cm"ede c2 e | "Gm"dcd B2 f | "Gm"GAB "F"cdc | "Gm"dgg agg |
+[V:2][K: Gm] z |[C,6G,6E6]|[G,6D6B6]|[G,,3D3B,3][F,3C3A3]|[G,6D6B6]|
+%
+[V:1] "Gm"b2 g "F"a2 f | "Gm"gdc BAG | "Dm"ABc d^cd |1 "Gm"BGF "Gm"G2 :|2\
+"Gm"BGF "Gm"HG3 ||
+[V:2] [G,3D3B3][=F,3C3=A3]|[G,6D6B6]|[D,6A,6=F6]|1 [G,3D3B3][G,,2D2B,2]:|2\
+[G,3D3B3]H[G,,3B,3D3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87133
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

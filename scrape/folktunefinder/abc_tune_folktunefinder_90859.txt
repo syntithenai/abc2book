@@ -1,0 +1,21 @@
+X:2
+T:The King of the Fairies                                                                           
+M:4/4                                                                                               
+K:Em                                                                                                
+L:1/8                                                                                               
+EDEF GFGA|B2 B2 G3 A|B2 E2 EFGE|FGFE D3 B|                                                          
+EDEF GFGA|BAGB d3 c|B2 E2 GFED|E2 ED E2 B2 ::                                                       
+e2 e2 Bdef|gagf e3 f|e2 B2 BAB^c|ded^c BcdB|                                                        
+e2 e2 Bdef|gagf efed|Bdeg fedf|e2 ed e3 f |                                                         
+g3 a f3 g |edB^c d2 e2|dBAF GAB^c|dBAF GFED|                                                        
+EB B2 BAB^c|d2 e2 edef|e2 B2 BAGF|E4 E2 DE:|
+S:https://www.folktunefinder.com/tunes/90859
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

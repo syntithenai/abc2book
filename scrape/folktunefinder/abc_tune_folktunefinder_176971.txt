@@ -1,0 +1,21 @@
+X: 1
+T: Morpeth Rant
+S: John Robson (1874)
+M: 4/4
+L: 1/8
+R: rant
+K: Gmaj
+(3DEF|G2DC B,G,B,D|ECEG FDFA|BGBG cBAG|F2A2 A2DF|
+G2DC B,G,B,D|ECEG FDFA|BGBd cBAF|D2G2 G2:|
+|:(3def|gdBG DFAB|cBcA GFED|cdcA BcBG|F2D2 D2GF|
+ECEG cBAG|FDFA dcBA|Bgfg ecBA|B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/176971
+S:http://www.thesession.org/tunes/display/7198
+% Rhythm Rant
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

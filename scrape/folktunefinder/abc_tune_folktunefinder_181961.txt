@@ -1,0 +1,25 @@
+X: 2
+T: Peekaboo Loop, The
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|: A/G/ |\
+F2 A fed cBA | G2 B G/A/BG E3 |
+c2 e eBd cBA |[1  c2 A cBA F2 :|[2 g2 e cAc d2 ||
+|: f/g/ |\
+a2 f fAd fed | B2 e eBd cBA | 
+g2 e eB/c/d cBA |[1 c2 A cBA F2 :|[2 g2 e cA/B/c d2 ||
+|: E |\
+F2 F dAF dA/G/F | G2 G dBG B/c/dG |
+[1 A2 A ecA gec | dAd BAG F2 :|
+[2 Ace Aec gec |  g2 e Aec d2 |]
+S:https://www.folktunefinder.com/tunes/181961
+S:http://www.thesession.org/tunes/display/8988
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

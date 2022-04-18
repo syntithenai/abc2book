@@ -1,0 +1,25 @@
+X: 1
+T: Last Mile
+C: Chris Perry
+S: The Fiddle Player's Tunebook 1
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Ddor
+   DC \
+| "Dm"A,2D2 D2DE |  "F"FEFG    A2AB | "C"cBcd     cAGF | "Am"E2 C4 DC |
+| "Dm"A,2D2 D2DE |  "F"FEFG    A2Ac | "C"dcA"Am"G FDEC | "Dm"D2 D4   :|
+|: Ac \
+| "Dm"d2de  dcAc | "Dm"d2de    dcAB | "C"cBAB     cBAB | "Am"cBcd e4  |
+| "Dm"d2a2  g2e2 |  "F"fedf "C"edce |"Dm"dcA"Am"G FDEC | "Dm"D2   D4 :|
+S:https://www.folktunefinder.com/tunes/171503
+S:http://trillian.mit.edu/~jc/music/abc/Contra/reel/LastMile_Dm.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 2
+T: Old Gort Road, The
+C: Bannerman
+M: 12/8
+L: 1/8
+R: slide
+K: Gmaj
+|: D |\ 
+GAB D2 B d2 B G2 D | GG/A/B dcB A3 DD/E/F |
+G2 B DGB d2 B G3 |[1 GAB d2 B G3- G2 :|[2 GG/A/B dcB A2 G G2 ||
+|: e |\
+e2 d c2 e d2 B G2 d | G2 B dcB A3 A2 e |
+e2 d cde d2 B D2 F |[1 GG/A/B dcB A2 G G2 :|[2 GAB d2 B G3- G2 |]
+S:https://www.folktunefinder.com/tunes/179951
+S:http://www.thesession.org/tunes/display/8135
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

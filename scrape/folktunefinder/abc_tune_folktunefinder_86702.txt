@@ -1,0 +1,26 @@
+X: 225
+T: White Bull (polka)
+C: BB 1/06
+N: 232109
+L: 1/8
+M: 2/4
+R: polka
+Q: 1/4 = 150
+K: D
+"D"A>B AF | "G"d>c dB | "D"Ad "Bm"BF | "A7"GF E2 |
+"D"A>B AF | "G"d>c BG | "D"FA "A"A/B/A/G/ | "D"FD D2 :|
+"D"fd "Em"ge | "D"a^g/a/ "G"b>a | "Bm"fd d/e/f | "A7"ge e2 |
+"D"fd "Em"ge | "D"af/d/ "G"Bd/B/ | "D"Ad "A7"e/f/g/e/ |\
+"D"fd d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86702
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

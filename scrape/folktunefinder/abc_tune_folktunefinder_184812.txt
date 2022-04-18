@@ -1,0 +1,35 @@
+X:1
+T:Rechenmeister
+C:traditionell
+R:Zwiefach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Gelernt von Dagmar Zach
+%%endtext 
+F:http://simonwascher.info/homepage_abc.htm
+Z:abc transcription Simon Wascher
+M:4 3/4
+L:1/8
+K:C
+age |\
+fafd egec | dfdB cecA | G2Bdfa | g3age |\
+fafd egec | dfdB cecA | G2BdfB |1 c3 :|\
+[2 c4 ||
+GG |\
+G2Bd | G2ce | G2Bdfa | g3age |\
+fafd egec | dfdB cecA | G2BdfB |1 c4 :|\
+[2 c3 ||%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/184812
+S:http://simonwascher.info/homepage_abc.htm
+S:http://simonwascher.info/TradArchiv_zwiefach/rechenmeister.abc
+% Rhythm Zwiefach
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

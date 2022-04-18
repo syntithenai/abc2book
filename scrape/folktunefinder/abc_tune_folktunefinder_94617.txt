@@ -1,0 +1,28 @@
+X:019
+U: ~ = !turn!
+%%topmargin 3cm
+T:Boys of the Town
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+d | ged B2 A | BGD G2 A | BdB AGA | GBd efg |
+ged B2A | BGD G2 A | BdB AGA | BGG G2 ::
+B | def gfg | eaa eaa | bag e2d | egg egg |
+def gfg | afd efg | edB AGA | BGG G2 :|]
+S:https://www.folktunefinder.com/tunes/94617
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Boys_of_the_Town_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Boys_of_the_Town_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

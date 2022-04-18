@@ -1,0 +1,28 @@
+X: 1
+T: the Mist-Covered Mountain
+R: waltz, Jig
+Z: John Chambers <jc:trillian.mit.edu>
+D: De Danaan ________
+M: 3/4
+L: 1/8
+K: ADor
+   E \
+| "Am"E2A ABd | e2A AGE | "G"G2G GAB | dBA GED \
+| "Am"E2A ABd | e2A "G"B^cd | "C"efg "G"dBG | "Em"BAG "Am"A3 ||
+|: a \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAB deg \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAG "Am"A2 ||
+y2 a \
+| "Am"a>ge a2b | age edB | "G"AGE G2A | BAB GED \
+| "Am"EDE G2A | "G"BAG B^cd | "C"efg "G"dBG | "Em"BAG "Am"A2 :|
+S:https://www.folktunefinder.com/tunes/176384
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j40/MistCoveredMountainJ_Am_40.abc
+% Rhythm Waltz, jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

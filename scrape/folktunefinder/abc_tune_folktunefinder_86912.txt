@@ -1,0 +1,41 @@
+X:135
+T: Chalk and Cheese (with piano acc.)
+C: BB
+H: Dedicated with love to my two sons, Tedd and Chris!
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: C
+[V:1] (3G,A,B,|"C"C2 EC "Dm"DEFA|"D"^FAdA "G"G2 AB|"C"c2 Bc "Am"AG (3G^FG|\
+"Dm7"FDEC "G"DG (3G^FG|
+[V:2] z2|C,2[E2G2C2]D,2[A2D2F2]|^F,,2[A2D2^F2]G,,2[G2B2D2]|C,2[E2G2C2]A,,2[A2C2E2] |\
+D,2[A2F2C2]G,2[G2B2D2]|
+%
+[V:1] "C"C2 EC "Dm"DEFA| "D"^FAdA "G"G2 AB|"C"cE (3EDE "F"FA (3AGA |\
+"G"GEDB, "C"C2 :|
+[V:2] C,2[C2G2E2]D,2[D2A2F2]|^F,,2[A2D2^F2]G,,2[G2D2B2]|C,2[C2G2E2]F,,2[F2C2A2]|\
+G,,2[G2D2B2][C,2G,2E2]:|
+%
+[V:1] zD|"C"EGAB cege|"D"d^faf "G"g2 g=f|"C"ecBc "Am"acBc|"Dm"efdc "G"BGAB |
+[V:2] z2|C,2[C2G2E2]G,,2[C2G2E2]|^F,,2[A2D2^F2]G,,2[G2D2B2]|C,2[C2G2E2]A,,2[A2E2C2]|\
+D,2[D2A2F2]G,,2[G2D2B2]|
+%
+[V:1] "C"c2 ec gcec|"Am"ag^fa "G"g2 g=f|"C"ec (3cBc "F"AF (3FEF|"G"GEDB, "C"C2 :|
+[V:2] C,2[C2G2E2]G,,2[C2G2E2]|A,,2[A2E2c2]G,,2[G2D2B2]|C,2[C2G2E2]F,,2[F2C2A2]|\
+G,,2[G2D2B2][C,2G,2E2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86912
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

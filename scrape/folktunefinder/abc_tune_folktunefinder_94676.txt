@@ -1,0 +1,32 @@
+X:079
+U: ~ = !turn!
+%%topmargin 3cm
+T:Garrett Barry's Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Na Fili
+R:Jig
+L:1/8
+M:6/8
+K:G
+DEF ~G3 | AGE c2 e | dcA B/2c/2de | fed cAG |
+~F3 ~G3 | ~A3 B/2c/2de | dcA GEA | D>ED D2 d ::
+dcA d2 e | fed e/2f/2ge | dcA c2 d | e/2f/2gd ecA |
+dcA d2 e | fed e/2f/2ge | dcA GEA | D>ED {/E}D2 A :|]
+S:https://www.folktunefinder.com/tunes/94676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Garrett_Barrys_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Garrett_Barrys_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Garrett_Barrys_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Garrett_Barrys_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

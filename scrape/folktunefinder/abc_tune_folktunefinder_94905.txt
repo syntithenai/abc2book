@@ -1,0 +1,32 @@
+X: 62
+T:Reprisal,The. BC.54
+T:Lads A'Bunchum,Adderbury,aka. BC.54
+T:Oh,dear mother what a fool I be,aka BC.54
+M:C
+L:1/8
+Q:160
+C:Lads A'Bunchum,Adderbury,aka.
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Country dance
+O:England
+A:Uncertain, probably northern
+N:The tune for the Morris Dance "Lads A'Bunchum",Adderbury and Oh,dear
+N:mother what a fool I be,aka...CGP...
+Z:vmp.John Bagnall
+K:G
+dc | {c}B2 BB {Bc}d2 cB | {B} A2 A>A A2. Bc. |\
+ {cd}d2 cB | {d}c2 BA |!
+ {A}G2 GG G2 gf | {f}e2 d>d d2 ((3GBd) |\
+ {d}d2 BB B2 g f | {f}e2 dd d2 cB|!
+ (AG) AB D2 (dc)|{c}B2 BB (Bg )dB | {c}A2 AA AB cd |\
+ (e<g) dB {Bc}c2 B A | {A}G2 GG G2|]
+S:https://www.folktunefinder.com/tunes/94905
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Country dance
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

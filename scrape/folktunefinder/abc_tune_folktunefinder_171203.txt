@@ -1,0 +1,36 @@
+X:1
+T:Langaus
+C:traditionell
+R:
+A:um 1800
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material von Eberhard Kummer aus dem besitz von Hubert Sielecki: Kopiertes hand-geschriebenes loses blatt, gemeinsam mit: "der pascherte Zwoaschritt", "Der Rongger", "Laendler in D (O.Oe., 1779)", "Leirer - Tanz"(Anna Ecker), "Leirer Tanz"(Blade Buam), "4.Dt. Tanz (W.A.Mozart)"
+N:dort ganz in C, einstimmig
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+L:1/8
+M:3/4
+K:C
+c6 | d2 G2 d2 | e2 G2 e2 | d2 G2 d2 |
+c6 | d2 G2 d2 | edcdeB | c6 :|
+egeg e2 | dfdf d2 | egeg e2 | BdBd G2 |
+egeg e2 | dfdf d2 | egeg dG | c6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/171203
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/langaus.c6d2G2d2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:12677
+T:Musica, dein ganz lieblich Kunst
+C:Johann Jeep
+O:Germany
+B:Jeep1614
+R:Renaissance
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+%http://abc.musicaviva.com/tunes/jeep-johann/jeep-musica/jeep-musica-voca4.abc
+V:1 Program 1 68 %Oboe
+V:2 Program 1 73 %Flute
+V:3 Program 1 69 alto %English horn
+V:4 Program 1 70 bass %Bassoon
+M:C|
+L:1/4
+Q:1/2=105
+K:C
+V:1
+G2GG|c2G2|A>Bc2-|cB/A/BB|ccc>B|A2G2|
+S:https://www.folktunefinder.com/tunes/177777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/jeep-johann/jeep-musica/jeep-musica-voca4.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/jeep-johann/jeep-musica/jeep-musica-voca4.abc
+% Rhythm Renaissance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

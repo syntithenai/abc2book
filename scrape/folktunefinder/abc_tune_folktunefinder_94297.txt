@@ -1,0 +1,42 @@
+X:19006
+T:Xiraldilla (CT 223)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Laureano lvarez, "El Revs", de treinta aos, de Uviu.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 223
+M:3/8
+L:1/8
+Q:3/8=88
+W:-Tpame, tpame, tpame,
+W:tpame que tengo fro.
+W:
+W:-Cmo quieres que te tape,
+W:si yo no soy tu marido.
+W:
+W:-Tpame, tpame, tpame,
+W:tpame que tengo fro.
+K:G
+|A>GF|AAA|B>AG-|G3|
+A>GF|AAA|(B>A)G-|G2z|
+c>BA|ccc|(d>c)B-|B3|
+A>GF|AAA|(B>A)G-|G2z|
+A>GF|AAA|B>AG-|G3|
+A>GF|AAA|(B>A)G-|G2z||
+S:https://www.folktunefinder.com/tunes/94297
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

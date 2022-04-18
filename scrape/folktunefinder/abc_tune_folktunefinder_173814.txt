@@ -1,0 +1,32 @@
+X:1
+T:Maid of the Mill
+M:6/8
+C:
+S:Bacon (CJS from Benfield, 1909 (MSS))
+N:
+A:Bledington
+O:English
+R:Jig
+%P:A/2.(AB)$^4$(A)
+P:A.(AB)4(A)
+%:
+%:
+K:G
+I:speed 300
+P:A
+|: D      | D2 G GFG  | ABc B2 A | GFE DEF | G3  G2 :|\
+P:B
+|: B/2c/2 | d2 d d>cB | cAB c2 c | ABc dBA | G3  F2 \
+   D      | D2 G GFG  | ABc B2 A | GFE DEF | G3  G2 :|
+S:https://www.folktunefinder.com/tunes/173814
+S:http://www.ucolick.org/~sla/morris/music/Bledington/maidmill.lb2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

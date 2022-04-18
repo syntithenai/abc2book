@@ -1,0 +1,33 @@
+X:430
+T: Kids in the Pool (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Dmix
+[V:1] A | "D"d^cd def | "C"cBc cGE | "D"d^cd def | "Am"agf "G"gfe |
+[V:2] z|D,2[AFD]A,,2[AFD]|C,2[EGC]G,,2[EGC]|D,2[AFD]A,,2[AFD]|C,2[EGC]G,,2[GBD]|
+%
+[V:1] "D"d^cd def | "C"cBc cGE | "D"DAA "Am"cBA | "C"GEC "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[EGC]G,,2[EGC]|D,2[AFD]A,,2[ACE]|C,2[EGC] D,2 :|
+%
+[V:1] e |"D"fdd a2 f | "G"bag "D"fed | "C"ecc g2 e | "Am"agf "Em"ede |
+[V:2] z |D,2[AFD] A,,2[AFD]|G,,2[GBD]D,2[AFD]|C,2[EGC] G,,2[EGC]|C,2[EGC]E,2[EGB]|
+%
+[V:1] "D"fdd Add | "C"cBc cGE | "D"DEG "Am"ABc | "C"GEC "D"D2 :|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[EGC] G,,2[EGC]|D,2[AFD]A,,2[ACE]|C,2[EGC][D,2F,2A,,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86971
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

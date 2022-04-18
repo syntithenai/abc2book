@@ -1,0 +1,21 @@
+X: 1
+T:Lindisfarne
+M:3/4
+L:1/8
+Q:120
+C:Matt Seattle 1990
+R:Waltz
+K:D
+A2 | d3 efg | a3 fdA | B2 g2 e2 | d2 c2 A2 | d3 e fg |a3 fdA | B2 g2 f2
+| e4  fg |  a3 fdA| B3 Bgf  | e3 dcB | A3  efg |a3 fdA
+| B2 g2 e2 |A2 d2  c2| d4 :|
+S:https://www.folktunefinder.com/tunes/172300
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/li/Lindisfarne_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,56 @@
+X:1
+T:Mazurka : La jolie barbire
+E:12
+Z:Roger Ngaret (94-95)
+R:mazurka
+C:Trad.
+S:
+A:Bretagne
+M:3/4
+L:1/8
+K:G
+Q:1/4=130
+Bd B2 G2 | FG A2 AA | AB A3 E | GF D3 B :|
+Bc d2 G2 | GF E2 DD | GA B3 d |1 cB A3 B :|2 cA G4 |]
+%%rm  1.  Trentemoult la grande ville,        ]
+%%rm     O-ce qu'il y a des maisons blanches, ] bis
+%%rm     On dit qu'il est une belle barbire,  ]
+%%rm     Qui est plus belle que le jour.       ] bis
+%%rm  2. Puisqu'on dit qu'elle est si belle,
+%%rm     Nous irons la voir un jour,        
+%%rm     Nous partirons sur les minuits,    
+%%rm     Pour arriver au point du jour.     
+%%rm  3. Quand je fus devant sa porte,      
+%%rm     Trois petits coups je frappais.    
+%%rm     La belle barbire  sa fentre     
+%%rm     Me dit : jeune que voulez-vous    
+%%rm  4. Je veux qu'on me fasse la barbe,   
+%%rm     La barbe noire la faites-vous     
+%%rm     Entrez, entrez joli jeune homme,   
+%%rm     Dans un instant je suis  vous.    
+%%rm  5. Elle appela sa servante,           
+%%rm     Marguerite tes-vous l           
+%%rm     Apportez-moi mon bassin d'or       
+%%rm     Et ma serviette en plis d'amour.   
+%%rm  6. Pendant qu'elle me faisait la barbe,
+%%rm     Trois petits coups je plis ;       
+%%rm     Qu'avez-vous donc joli jeune homme  
+%%rm      changer si souvent d'couleur     
+%%rm  7. C'est-y l'rasoir qui vous blesse   
+%%rm     Pourquoi ne le dites-vous pas      
+%%rm     Non, non, non, jolie barbire,      
+%%rm     Ce sont vos yeux remplis d'amour.   
+%%rm  8. Mes amours, mes amourettes,         
+%%rm     Ne sont pas ici pour vous ;         
+%%rm     Elles sont sur un navire en mer,    
+%%rm     Qui reviendra dans quelques jours.
+S:https://www.folktunefinder.com/tunes/174993
+S:http://termen.free.fr/danses/termen/MazurkaLajoliebarbiere.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

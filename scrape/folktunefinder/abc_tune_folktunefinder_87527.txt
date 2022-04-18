@@ -1,0 +1,29 @@
+X: 26
+T: Birk's works
+M: 4/4
+L: 1/8
+C: Dizzy Gillespie
+Q: 1/4=140
+%%staves (chords melody)
+K: Bbm
+%%text (medium)
+%%vskip 20
+V: chords
+x3 || "Bbm6"x4 x4 | "Cm7b5"x4 "F7"x4 | "Bbm6"x4 x4 | x4 "Bb7"x4 |
+"( Gb7 )" "Ebm7"x4 x4 | x4 x4 | "Bbm6"x4 x4 | x4 x4 |
+"( Gb7 )" "Cm7b5"x4 x4 | "F7"x4 x4 | "Bbm6"x4 x4 | "T.A."x4 x4 |]
+V: melody
+B,DE || =EFE_E  DB,DE | E2DF zB,DE | =EFE_E  DB,DE | z4 zB,DE |
+ =EFE_E DB,DE | E2D_F zB,DE | =EFE_E DB,DE | z4 zB,DE |
+ zE3 zB,DE | zE3 D/E/D/B,/ A,B, | z8 | z8 |]
+S:https://www.folktunefinder.com/tunes/87527
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:595
+T: Owen Thomas' (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Edor
+[V:1] "Em"EBBA GEFD|"Em"EB, (3B,=CB, EGFD|"Em"EBBc "D"dBAd|"G"Bdeg "D"fagf|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|E,2[E2B2G2]B,,2[E2G2B2]|E,2[E2B2G2]D,2[A2D2F2]|\
+G,,2[G2B2D2]D,2[A2D2F2]|
+%
+[V:1] "Em"eBBA "G"GFGA|"Em"Bded "Bm"BFAF|"Em"EB, (3B,=CB, "C"CDEG|"D"FGAF "Em"E4 :|
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|E,2[E2B2G2]B,,2[F2B2D2]|E,2[E2B2G2]=C,2[E2G2=C2]|\
+D,2[A2D2F2][E,4B,4G4] :|
+%
+[V:1] "Em"Bdeg Bdeg|"D"fdfa "Bm"bfaf|"Em7"edBd "G"gfed|"Bm7"BFAF "C"GEG=c|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|D,2[A2D2F2]B,,2[F2B2D2]|E,2[D2B2G2]G,,2[G2B2D2]|\
+B,,2[F2A2D2]=C,2[E2G2=C2]|
+%
+[V:1] "Em"Be (3efe "G"gfed|"C"eg (3gfg "Bm7"bfaf|"C"g2eg "D7"f2d=c|"Bm7"BADF "Em"E4 :|
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|=C,2[E2G2=C2]B,,2[F2A2D2]|=C,2[E2G2=C2]D,2[A2C2F2]|\
+B,,2[F2A2D2][E,4B,4G4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87004
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

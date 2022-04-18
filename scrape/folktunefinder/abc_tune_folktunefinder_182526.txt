@@ -1,0 +1,40 @@
+X:01
+T:Pipe Major Stevie Young
+C:PM Benne de Jong
+R:JIG
+U:z="@ "
+L:1/8
+M:6/8
+Q:94
+Z: Contributed 20020208152345 by PM Benne de Jong macdowell@home.nl
+K:HP
+%%EPipes[SP=14,LP=209,MA=Y]
+ |:{g}fd{c}d {g}Ad{c}d|{g}Ad{c}d {g}f2e|\
+{a}ge{A}e {g}Ae{g}c|{g}Ace {gfg}f2a|
+ |fd{c}d {g}Ad{c}d|{g}Ad{c}d {g}f2e|\
+{g}fa{g}a fd{g}A|{g}A{d}c{e}A {Gdc}d3:|
+%%EPipes[MA=Y]
+ |:{g}fa{g}a fd{g}A|{g}ea{g}a ec{g}A|\
+{g}Gg{f}g Bd{g}B|A{g}a{g}a Ba{g}a|
+ |fa{g}a fd{g}A|{g}ea{g}a ec{g}A|\
+{g}fa{g}a fd{g}A|{g}A{d}c{e}A {Gdc}d3:|
+%%EPipes[MA=Y]
+ |:{g}fB{G}B {g}BdB|{g}c{d}A{e}A {g}AcA|\
+{g}fB{G}B {g}cdc|{g}Ace {gfg}f2a|
+ |fB{G}B {g}BdB|{g}c{d}A{e}A {g}AcA|\
+{g}fa{g}a fd{g}A|{g}A{d}c{e}A {Gdc}d3:|
+%%EPipes[MA=Y]
+ |:{g}fa{g}a {g}afa|ea{g}a {g}aea|\
+Bg{f}g {f}gec|{g}fae dac|
+ |{g}fa{g}a {g}afa|ea{g}a {g}aea|\
+fa{g}a fd{g}A|{g}A{d}c{e}A {Gdc}d3:|
+S:https://www.folktunefinder.com/tunes/182526
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/macdowell:home.nl/PipeMajorStevieYoung.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/PipeMajorStevieYoung.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

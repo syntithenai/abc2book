@@ -1,0 +1,25 @@
+X: 99
+T:AVANT DEUX DE PLEVENON
+M:6/8
+L:1/8
+Q:1/4=120
+Z:Yves BELOTTEAU
+K:C
+|def g3/2 z/2 d|c3/2 z/2 B A3/2 z/2 G|cBc ded|cBc d5/2 z/2 |
+def g3/2 z/2 d|c3/2 z/2 B A3/2 z/2 G|cBc d3/2 z/2 e|fed c5/2 z/2 |
+def g3/2 z/2 d|c3/2 z/2 B A3/2 z/2 G|cBc ded|cBc d5/2 z/2 |
+def g3/2 z/2 d|c3/2 z/2 B A3/2 z/2 G|cBc d3/2 z/2 e|fed c5/2 z/2 |
+cde cde|cde d5/2 z/2 |cde cde|cde d5/2 z/2 |
+def g3/2 z/2 a|g3/2 z/2 f e3/2 z/2 d|cBc d3/2 z/2 e|fed c5/2|
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/85969
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:013
+%%topmargin 3cm
+T:The Broken Lantern
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:C
+G | Gcc {/d}cBc | Add {/e}d^cd | edB G2 G | AGE C2 G |
+Gcc {/d}cBc | Add {/e}d^cd | edB GAB | c2 e c2 ::
+g | ecg ceg | efg a2 g | fdg ecg | dBg G2 g |
+ecg ceg | efg a2 g | fdg ecg | dBg c2 :|]
+S:https://www.folktunefinder.com/tunes/91943
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Broken_Lantern.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

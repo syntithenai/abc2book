@@ -1,0 +1,29 @@
+X:10994
+T:Miss Thompson's Waltz. CJF.241
+M:3/8
+L:1/16
+Q:60
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Waltz
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+Z:P J Headford 2000
+K:G
+D2|G4B2|d2d2d2|d4B2|d4B2|e4c2|g2f2e2|d4B2|d4B2|!c2a2a2|agfedc|Bdg2g2|
+gfedcB|!A^GABcd|edcBAG|FGAGFE|D4D2|!G4B2|d2d2d2|d4B2|d4B2|e4c2|(gbagfe)|
+d4B2|d4B2|!c2a2a2|agfedc|Bdg2g2|gfedcB|A^GABcd|e2c2B2|G2A2F2|G4:||:!g2|
+fdAdfa|gbagfg|ac'baga|bd'c'bag|!fdAdfa|gbagfg|ac'bagf|g4:||
+% Output from ABC2Win  Version 2.1 k pre2 on 21/11/2000
+S:https://www.folktunefinder.com/tunes/98776
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

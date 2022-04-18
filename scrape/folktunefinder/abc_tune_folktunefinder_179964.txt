@@ -1,0 +1,29 @@
+X: 1
+T:Old Grey Cat
+M:C
+L:1/8
+C:Trad
+S:Chris Duncan Fiddle Workshop - Woodford FF
+R:Reel
+N:Tune used in fiddle workshop by Chris Duncan at Woodford Folf Festival
+N:'97
+Z:Tim Barker, '9
+K:G
+B|e2 e2 E3 F|GFGA BAB^c|d2 d2 D3 E|FAdB AFED|!
+e2 e2 E3 F|EFGA BAB^c|d^cBA BAGF|E4 e3:||:!
+d|B2 e2 e3 d|Bdef gfed|A2d2 d3 B|ABde fedf|!
+e2 B2 g2 B2|a2 B2 b3 a|gfed BAB^d|e4 e3:||
+% Output from ABC2Win  Version 2.1 f on 5/01/98
+S:https://www.folktunefinder.com/tunes/179964
+S:http://www.scottishfiddlers.com/Sydney/Music/ABC/Woodford.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Oh dear, I wish I had not come here
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:G
+[V:1] [L:1/16] B3c   A2A2|GABG A2B2 |d3g  e2c2 |BGAF  G4   :|
+[V:2] [L:1/8]  G,D   F,D |E,^C D,D  |B,G, CG,  |DD,   G,G,,:|
+%
+[V:1] [L:1/16] defd  g2g2|fgaf ged^c|defd g2=c2|BGAF  G4    |
+[V:2] [L:1/8]  G,,G, B,G,|DD,  G,A, |F,D, G,C, |D,D,, G,,2  |
+%
+[V:1] [L:1/16] defd  g2g2|fgaf ged^c|defd g2=c2|BGAF  G4   |]
+[V:2] [L:1/8]  G,,G, B,G,|DD,  G,A, |F,D, G,C, |D,D,, G,,2 |]
+S:https://www.folktunefinder.com/tunes/174056
+S:http://www.campin.me.uk/Music/Clarkson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

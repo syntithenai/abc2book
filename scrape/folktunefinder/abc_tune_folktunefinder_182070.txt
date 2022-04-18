@@ -1,0 +1,19 @@
+X:5
+T:Pentatonic
+M:2/4
+L:1/8
+K:G
+G2d2|G>A Bd|eg g>e|dB AG|!
+B2d2|eg3|e>g ge|d>B AG:|
+B>e d2|B>d g<e|de BG|D2 G2|
+E2 G2|G>E D<G|D>G B<e|d>B AG:|
+%%stretchlast
+S:https://www.folktunefinder.com/tunes/182070
+S:http://www.thesession.org/tunes/display/8193
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

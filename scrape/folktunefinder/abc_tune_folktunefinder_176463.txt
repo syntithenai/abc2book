@@ -1,0 +1,35 @@
+X:1
+T:Mo Chreach A's Mo Dh\'ichairt
+T:My Sorrow and Trouble
+R:song
+H:Equivalent to "alack and well-a-day"
+H:From the singing of Joe Martin of Kilfinane Co. Limerick, 1852.
+H:He sang an Irish song to it, of which this is the first verse:
+B:
+M:3/4
+L:1/8
+W:Mo chreach a's mo dh\'iachairt gan ce\'o draoichte air na b\'oithribh,
+W:A's go siubhalfhainn san o\'idhche le'm chroidhe geal na gl\'oire.
+W:Mo ph\'ocaidhe bheith a l\'ionadh le geal ph\'isidhe cr\'oineach,
+W:N\'a s\'asacht s\'ud dom'inntinn agus l\'uidhe s\'os le c\'obach.
+W:
+W:Alas and alas, that there is not a fairy-fog on the roads,
+W:And that I might walk in the night with thy fair sweetheart of glory.
+W:If my pockets were to be filled with white crown pieces--
+W:That would  not content my mind, and to be married to a clown.
+K:F
+(3DEF|G2 B2 A3/2G/|G2 F2 (3DEF|G2 B2 A3/2G/|G2 F2 (5DEFGA|
+B2 B2 d3/2B/|c2 c2 d3/2c/|B2 AGF3/2A/|{G}G4:|
+de|f2 edcd|g2 d2 f3/2d/|d2 cA{G}A3/2G/|G2 F2 (5DEFGA|
+G2 F2 d3/2B/|c2 c2 dc|B2 AGF3/2A/|{G}G4:|
+S:https://www.folktunefinder.com/tunes/176463
+S:http://www.sligo-man.com/abc/index1/1.abc
+% Rhythm Song
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has history text
+% Has_accompaniment_chords No chords

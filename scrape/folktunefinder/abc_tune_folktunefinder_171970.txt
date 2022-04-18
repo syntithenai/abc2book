@@ -1,0 +1,27 @@
+X:1
+T:Leut, Leut, ...
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer boehmischen Bock", Band I, R.Lughofer, Eigenverlag, Kremsmuenster 1998
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:4 3/4
+L:1/4
+K:G
+d2d2 | dBG | FAd | FAd |
+d2d2 | dcF | GBd | GBd |
+d2d2 | dBG | FAd | FAd |
+d2d2 | dcF | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/171970
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_zwiefach/leut,_leut.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

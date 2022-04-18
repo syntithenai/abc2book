@@ -1,0 +1,31 @@
+X:100
+T:John Anderson my Jo
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e03.html
+%%ID:00000e03
+K:A min
+G |\
+EAAB | c2cd | BGGA | G3 B/A/ |\
+EAAB | cBcd | edcd  | e3      ::
+f |\
+edcd | efge | dcBc | d2cd |\
+ecdB | cABe | EAAG | A3   ||
+g | \
+eaab | c'2c'd' | bgga | g2ag   |\
+eaab | c'2ba   | bgee | e3g/f/ |
+ecgc | c'cgc   | GABc | d2cd   | \
+ecdB | cABe    | GAA^G | A3     ::
+S:https://www.folktunefinder.com/tunes/95651
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

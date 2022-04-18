@@ -1,0 +1,54 @@
+X: 9109
+T: Miss Breen's Hotel (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: C|
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: A
+[V:1] (3efg|"A"aece BeAe|"A"aece BeAe|"E"GABc "D"dcde|"E7"gfed "C#m"cdeg|
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[D2B2G2]D,2[A2D2F2]|\
+E,2[D2B2G2]C,2[E2G2C2]|
+%
+[V:1] "A"aece BeAe|"A"aece Be A2|"E"GBdB "F#m"ceaf|"E7"(3efe (3dcB "A"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[E2B2G2]F,,2[A2C2E2]|\
+E,2[E2B2G2][A,,2C2E,2]:|
+%
+[V:1] (3FGA|"E"BGEG "D"AFDF|"E7"EFED "A"CE (3ABc|"E7"dBGE "A"ecAG|"D"FEFA "E"B2 (3Bcd|
+[V:2] z2|E,2[E2B2G2]D,2[A2D2F2]|E,2[E2B2G2]A,,2[A2C2E2]|E,2[D2B2G2]A,,2[A2C2E2]|\
+D,2[A2D2F2]E,2[E2B2G2]|
+%
+[V:1] "E"BGEG "D"AFDF|"E7"EFED "A"CE (3ABc|"E7"dBGE "A"ecAG|"D"(3Fdc "E"(3BAG "A"A2 :|
+[V:2] E,2[E2B2G2]D,2[A2D2F2]|E,2[D2B2G2]A,,2[A2C2E2]|E,2[D2B2G2]A,,2[A2C2E2]|\
+[D,2F,2A,2][E,2G,2B,2][A,,2C2E,2] :|
+%%%%%%tune repeat
+[V:1] (3efg|"A"aece BeAe|"A"aece BeAe|"E"GABc "D"dcde|"E7"gfed "C#m"cdeg|
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[D2B2G2]D,2[A2D2F2]|\
+E,2[D2B2G2]C,2[E2G2C2]|
+%
+[V:1] "A"aece BeAe|"A"aece Be A2|"E"GBdB "F#m"ceaf|"E7"(3efe (3dcB "A"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[E2B2G2]F,,2[A2C2E2]|\
+E,2[E2B2G2][A,,2C2E,2]:|
+%
+[V:1] (3FGA|"E"BGEG "D"AFDF|"E7"EFED "A"CE (3ABc|"E7"dBGE "A"ecAG|"D"FEFA "E"B2 (3Bcd|
+[V:2] z2|E,2[E2B2G2]D,2[A2D2F2]|E,2[E2B2G2]A,,2[A2C2E2]|E,2[D2B2G2]A,,2[A2C2E2]|\
+D,2[A2D2F2]E,2[E2B2G2]|
+%
+[V:1] "E"BGEG "D"AFDF|"E7"EFED "A"CE (3ABc|"E7"dBGE "A"ecAG|1 "D"(3Fdc "E"(3BAG "A"A2 :|2\
+"D"(3Fdc "E"(3BAG "A"HA4 ||
+[V:2] E,2[E2B2G2]D,2[A2D2F2]|E,2[D2B2G2]A,,2[A2C2E2]|E,2[D2B2G2]A,,2[A2C2E2]|1\
+[D,2F,2A,2][E,2G,2B,2][A,,2C2E,2] :|2 [D,2F,2A,2][E,2G,2B,2]H[A,,4C4E,4] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87194
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

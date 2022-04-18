@@ -1,0 +1,23 @@
+X:290
+T:Hunt Camp Hornpipe
+R:Hornpipe
+C:Bruce Osborne  --  Nov.25 1992
+M:4/4
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:G
+(3DEF|G2 GF GDB,D|G2 GF GABd|e2 ef gedB|cBAG FDEF|
+G2 GF GDB,D|G2 GF GABd|e2 ef gedB|(3cBA FD G2:|
+|:(3DEF|G2 GF GABd|B2 BA B2 (3DEF|G2 GF GABd|E6 (3DEF|
+G2 GF GABd|e2 ef gedB|cBAG FDEF|G2 GF G2:|
+S:https://www.folktunefinder.com/tunes/86377
+S:http://www2.redhawk.org:8080/irish/warnock/abc/osbcomp.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

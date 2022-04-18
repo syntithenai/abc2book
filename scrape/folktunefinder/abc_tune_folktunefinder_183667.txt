@@ -1,0 +1,84 @@
+X:1240
+T:Praeludium
+T:(Prelude) BWV 937
+C:Johann Sebastian Bach
+O:Germany
+B:From "Sechs kleine Praeludien".
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0937/bwv0937.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:C
+L:1/16
+K:E
+V:1
+z2B2e2B2 c2A2F2B2|E2FG A2G2 F2B2A2G2|
+V:2
+x16|x16|
+V:3
+E,EDE G,EDE A,EFE DCB,A,|G,EDE CEB,E A,EG,E F,EE,E|
+%
+V:1
+FB^AB DBAB EBcB AGFE|DB^AB GBFB EBDB CBB,B|^A2 c2f2c2 e2^B2G2f2|
+V:2
+x16|x16|x16|
+V:3
+D2 F,2B,2F,2 G,2E,2C,2F,2|B,,2C,D, E,2D,2 C,2F,2E,2D,2|\
+C,F,E,F, D,F,E,F, ^B,,F,G,F, E,D,C,B,,|
+%
+V:1
+e=aga faga da=ba gfed|e2 B2e2B2 c2A2F2B2|E2FG A2G2 F2B2A2G2|
+V:2
+x16|x16|x16|
+V:3
+C,2 E,2=A,2E,2 F,2D,2=B,,2A,2|\
+G,E,D,E, C,E,D,E, A,,E,F,E, D,C,B,,A,,|\
+G,,E,D,E, C,E,B,,E, A,,E,G,,E, F,,E,E,,E,|
+%
+V:1
+F2EF G2F2 E2e2 dcde|fegf edMcB B8::zFEF DFBF =AFEF DFAF|
+V:2
+x16|x8zFDB,-B,4::x16|
+V:3
+B,,D,C,D, E,B,,F,B,, G,B,,^A,B,, B,2G,2|D,2B,,2F,2F,,2B,,4B,,,4::B,,2F,2B,2F,2 D,2F,2B,,2D,2|
+%
+V:1
+G2FG E2B2 G2B2E2G2|A2c2a4-aBABg4-|g2c2f2c2 =d2B2G2^e2|
+V:2
+x16|x16|x16|
+V:3
+E,B,=A,B, G,B,EC =DB,A,B, G,B,DB,|\
+CA,G,A, F,A,CA, B,G,F,G, ^E,G,B,G,|\
+A,F,^E,F, =D,F,^E,F, B,,F,^E,F, C,CB,C|
+%
+V:1
+fcBc Acf^d =ecBc ^Acec|d2cd B2f2 d2f2B2d2|eB=AB GB=dB cAGA FAcA|
+V:2
+x16|x16|x16|
+V:3
+A,2 C2F2C2 ^A,2C2F,2A,2|B,F,=E,F, ^D,F,B,G, =A,F,E,F, D,F,A,F,|\
+G,2 B,2E2G,2 A,2C2^D2F,2|
+%
+V:1
+BGFG EGBG AFEF ^DFAF|G2FG AGFE c2~d2e4|e4d4e8|]
+V:2
+x16|x8x4e2B2|c2A2 F2B2G8:|]
+V:3
+G,2B,2C2E,2 F,2A,2B,2D,2|E,B,ED CB,A,G, A,G,F,A, G,EDE|\
+A,EDE B,2B,,2 E,E,,G,,B,,E,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183667
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0937/bwv0937.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0937/bwv0937.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0937/bwv0937.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

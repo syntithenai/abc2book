@@ -1,0 +1,19 @@
+X: 1
+T: Newark Bay
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+DFA def|gBe cBA|f2f def|gBe cBA|
+DFA def|gBe cBA|1fdf afa|gBc d3:|2fdf afa|gBc dfg||
+afd AFD|B,EF GFE|FAF DFD|EGE ABc|
+Afd AB=c|B_B=B g2g|faf dfd|eBc d2d:|
+S:https://www.folktunefinder.com/tunes/178442
+S:http://www.thesession.org/tunes/display/2077
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

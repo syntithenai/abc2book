@@ -1,0 +1,27 @@
+X:109
+U: ~ = !turn!
+%%topmargin 3cm
+T:Knotted Cord
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:ADor
+A3 B AE (3.E.E.E | A2 ((3Bcd) egdB | G3 F GEDE | G2 ((3BAG) DGBG |
+A2 AB AE (3.E.E.E | A2 ((3Bcd) egdB | GA ((3Bcd) efge | dBGA BAGB ::
+ea{/b}ag ea{/b}ag | eaab aged | eg ~g2 eg{/a}gf | gfga gedg |
+ea{/b}ag ea{/b}ag | eaab aged | ~B3 d gaba | gedB {/c}BA A2 :|]
+S:https://www.folktunefinder.com/tunes/94705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Knotted_Cord_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Knotted_Cord_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,67 @@
+X: 1
+T: Oh God, I want to praise You
+C:
+S:
+M: 4/4 % time signature
+L: 1/4 % default length
+Z: Contributed 2008-11-01 22:14:05 by ming tsang tsang94@rogers.com
+K:
+%%staves tt
+V: ss clef=treble
+V: aa clef=treble
+V: tt clef=bass
+V: bb clef=base
+K: C % key signature
+%
+%%measurenb 0
+%%measurebox 1
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+% page 1 : 1
+[V:tt] z4 | z4 | z4 |
+[V:tt] z4 | z4 | z4 |
+[V:tt] z4 | z4 | z4 |
+% page 2 : 10
+[V:tt] z4 | z4 | z4 |
+[V:tt] C, D, E, F, | G,/>G,/  A,/>G,/- G,2 | A, A, A,/>B,/ C |
+[V:tt] B, D C2  | C/>C/ D/>C/- C2 | B,/>A,/ G,/>B,/- B,2 |
+% Page 3 : 19
+[V:tt] A, G, F, A, | G, F, (E, D,) | C, D, E, F, |
+[V:tt] G,/>G, A,/>G,/- G,2  | A, A, (A,/>B,/) C | B, D C z |
+[V:tt] C2- C/>C/ D/>C/ | B,2- B,/>B,/ C/>B,/ | A,2- A,/>A,/ A,/>A,/ |
+% Page 4 : 28
+[V:tt] G,2- G,/>G,/ A,/>B,/ | C2- C/>C/ D/>C/ | B,2- B,/> B,/ C/>B,/ |
+[V:tt] A,2- A,/>B,/ C/>D/ | C2 z2 | C2- C/>B,/ A,/>G,/ |
+[V:tt] B,/>B,/ C/>B,/- B, z | C2- C A,/>F,/ | G, C (C B,) |
+% Page 5 : 37
+[V:tt] C> C (C/>B,/) (A,/>G,/) | B,/>B,/ C/>B,/- B, z | C C C (A,/>F,/) |
+[V:tt] G,/>A,/ B, C2 | z2 C/>C/ D/>C/ | z2 B,/>A,/ G,/>B,/ |
+[V:tt] C B, A, (D/>C/) | B, A, G,2 | C> C (C/>B,/) (A,/>G,/) |
+% Page 6 : 46
+[V:tt] B,/>B,/ C/>B,/- B, z | C C C (A,/>F,/) | (G,/>A,/) B, C2 |
+[V:tt] z4 | z4 | z4 |
+[V:tt] z4 | C, D, (E, F,) | E, F, G, (A,/>B,/) |
+% Page 7 :55
+[V:tt] C3 A,/>F,/ | G, C (C B,) | C, D, E, F, |
+[V:tt] E, F, G, (A,/>B,/) | C C C (A,/>F,/) | G,/>A,/ B, C2 |
+[V:tt] z2 C/>C/ D/>C/ | z2 B,/>A,/ G,/>B,/ | C B, A, (D/>C/) |
+% Page 8 : 64
+[V:tt] B, A, G,2 | C, D, E, F, | E, F, G, (A,/>B,/) |
+[V:tt] C C C (A,/>F,/) | (G,/>A,/) B, C2 ||: G,/>G,/ A,/>G,/- G,2 |
+% Page 9 70
+[V:tt] G,/>B,/ C/>B,/- B,2 | z A, A,/>B,/ C | B,4
+[V:tt] G,/>G,/ A,/>G,/- G,2 | G,/>B,/ C/>B,/- B,2 | z C B,/>D/ E/>F/
+% Page 10 : 76
+[V:tt] ||1,2 E3 z :||3 E3 z :||
+S:https://www.folktunefinder.com/tunes/179725
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/OhGodIWantToPraiseYou.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

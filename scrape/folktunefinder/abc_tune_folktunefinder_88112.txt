@@ -1,0 +1,26 @@
+X: 012067
+T: Arigna
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: D
+e/g/ | fdd ecA | dcB AFD | AFD BAF | AFE E2e |
+fdd ecA | dcB AFD | AFD BAF | EDD D2 :|
+B | Add dcd | ecA A2g| faf ged | cAA ABc |
+BGG AFD | BGG Bcd | AFD GAG | FDD D2B |
+Add dcd | ecA A2g | f/g/af ged | cAA efg |
+afd gag | fed ecA | AFD BAF | EDD D2 ||
+%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88112
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

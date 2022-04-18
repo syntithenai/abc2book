@@ -1,0 +1,31 @@
+X: 55
+T:Minuet,(Harmony). BC.50b
+M:3/4
+L:1/8
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+K:G
+z6 | G2 B2 d2 | B2 BBBB | B4 B2 |!
+ c4 B2 | A4 G2 | F2 FFFF |F3 edc |!
+ B2 d2 cB | c2 e2 dc |  B2 d2 cB | c2 e2 dc | !
+B2 d2 f2 | gg dd c2 | B2 BBBB | B6||!
+z6 | D2 F2 A2 | F2 FFFF | F6 |!
+ z6 | G2 B2 d2 | B2 BBBB | B4 B2 |!
+ c2 AcAc | B2 GBGB | c2 AcAc | B2 GBGB |!
+  c4 B2 | "tr"A4 G2 | F2 FFFF | F3 edc |!
+ B2d2 cB | c2 e2 dc |  B2 d2 cB | c2 e2 dc |!
+ B2 d2 f2 | gg dd c2 | B2 BBBB| B6|]
+S:https://www.folktunefinder.com/tunes/94898
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

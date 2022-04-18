@@ -1,0 +1,31 @@
+X:130
+T:I wish I may die if I do
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e07.html
+%%ID:00000e07
+K:D
+A |\
+F2A d2f | ede d2A | F2A d2f | d4 zA |\
+F2A d2e | fed agf | edc B2e | A4 z ||
+f |\
+gag g2e | fgf f2d |   efg Bcd | d3 c2B |\
+afa geg | fdf e2A | ! dcd ede | fef g2e |\
+fga efg | fga efg |   fgf ede | d3- d2 ||
+A |\
+FGA EFG | FGA E2g | fgf ede | d2A F2A |\
+FGA EFG | FGA E2g | fgf ede | d3- d2 ||
+S:https://www.folktunefinder.com/tunes/95657
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

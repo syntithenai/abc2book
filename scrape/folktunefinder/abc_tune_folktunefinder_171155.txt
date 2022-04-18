@@ -1,0 +1,28 @@
+X: 2
+P: Lamplighter's Hornpipe
+O: Trad
+Z: John Chambers <jc@trillian.mit.edu>
+N: Cole p.93
+N: NEFR
+M: C|
+L: 1/8
+K: A
+|: cd | "A"[ee]c[ee]c eagf | [ee]c[ee]c eagf \
+| [ee]c[ee]c "F#m"fedc | "Bm"d2B2 "E7"B2cd |
+| "A"[ee]c[ee]c eagf | [ee]c[ee]c eagf \
+| "E7"[ee]f[dd]e [cc]d[BB]c | "A"E2A2 A2 :|
+|: cd | "A"edcd e2fe | "E7"dcBc d2ed \
+| [cc]A[cc]e "F#m"dcBA | "Bm"GABc "E7"B2cd |
+| "A"edcd e2fe | "E7"dcBc d2ed \
+| "A"cagf "E7"edcB | "A"A2c2 A2 :|
+S:https://www.folktunefinder.com/tunes/171155
+S:http://trillian.mit.edu/~jc/music/book/500/LamplightersH.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,72 @@
+X:1
+T:Offener Walzer
+C:traditionell
+R:volkstanz
+A:Oesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Oesterreichische Taenze", Notenteil, herausgegeben von Herbert Lager und Hermann Derschmidt, 2.Auflage, Oesterreichischer Bundesverlag, Wien, 1959
+N:dort in A (1. 2.teil = P:1), D (3. 4., 6.teil = P:2  P:4 ), G (5.teil = P:3), zweistimmig mit harmonie-buchstaben, seite 9, nr. 1
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G %Transposed from A
+P:Vorspiel
+g ab |\
+d'4 c'2 | f3 e f2 | g6- | g2 z4 ||
+P:1
+B2 d3 g | b4 g2 | B2 d3 g | f4 e2 |
+e2 a3 b | d'4 c'2 | d2 e3 f | a4 g2 |
+B2 d3 g | b4 g2 | B2 d3 g | f4 e2 |
+e2 a3 b | d'4 c'2 | c'2 e2 f2 | g6 :|
+K:C %Transposed from A
+|:\
+({c'}b4) d2 | ({c'}b4) a2 | a4 g2 | (e3 d) e2 |
+g4 f2 | B3A B2 | c4 d2 | e2 z2 g2 |
+({c'}b4) d2 | ({c'}b4) a2 | a4 g2 | e3 d e2 |
+g4 f2 | B3A B2 | c6- | c2 z2 z2 :|
+P:2
+K:G %Transposed from D
+d>g |\
+b2 b2 b2 | b2 c'3 f | a2 g3 e | d4 z2 |
+g2 f3 d | c4 cd | e2 d3 c | B4 dg |
+b2 b2 b2 | b2 c'3 f | a2 g3 e | d4 z2 |
+g2 f3 e | d2 b3 a | g3 g g2 | g2 z2 :|
+|: dd |\
+b4 a2 | g2 f2 e2 | d6 | B4 d2 |
+d3 e d2 | c3 d c2 | B6- | B2 z2 dd |
+b4 a2 | g2 f2 e2 | d6 | B4 d2 |
+e3 d e2 | f3 e f2 | g3 g g2 | g2 z2 :|
+P:3
+K:G
+de |\
+d2 g2 a2 | b2 a2 g2 | g2 f3 e | f6 |
+f2 e3 ^d | e6 | e2 d3 ^c | d4 de |
+d2 g2 a2 | b2 a2 g2 | f2 e3 ^d | e6 |
+gz fz ez | d2 ga b2 | d2 fg a2 | g2 z2 :|
+P:4.
+K:C %Transposed from D
+|: cd |\
+e2 z2 ^d2 | e2 z2 d2 | c6 | GABc de |
+f6 | GA Bc ^cd | e6- | e2 "*"x2 cd |
+W: * takt unvollstaendig - es fehlt wahrscheinlich 1/4 pause
+e2 z2 ^d2 | e2 z2 d2 | c6 | GABc de |
+g4 ^f2 | f2 e2 d2 | c3 c c2 | c2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179543
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/offener_walzer.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

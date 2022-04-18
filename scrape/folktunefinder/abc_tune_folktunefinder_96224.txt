@@ -1,0 +1,42 @@
+X: 73
+T:Trumpet Solo,Violino Primo. TBe.073
+M:12/8
+L:1/8
+Q:80
+C:"By Senior Nicola" (Matteis)
+S:Thomas Bennet MS,1718, VWML
+R:air
+O:England
+N:1 -  what looks like a number 3 written on the stave, followed by a
+N:crochet rest and two quaver rests.  Bar lines as in M
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+(F/E/D) C(A,D) D(F/E/D) C(A,D) | D(F/E/D) C(A,D)  D(F/E/D) C(A,D) | \
+M:2/2
+D6 zz A | d/e/f/e/ f/g/f/g/ a/g/a/b/ fe |\
+(a2a/)(b/4a/4)b/4a/4(g/4f/4) g/(a/4g/4)\
+(a/4g/4)(f/4e/4 f/(g/4f/4)(g/4f/4)(e/4d/4e/4) | \
+e6 z2  z/ A |! 
+d/e/f/e/ f/g/f/g/ a/g/a/b/ aa |\
+(a2 a/)(b/4a/4)(b/4a/4)(g/4f/4)\
+ g/(a/4g/4)(a/4g/4)(f/4e/4)  f/(g/4f/4)(g/4f/4)(e/4d/4) |\
+(e/d/e/f/) "="e>d d2 z/ b/4a/4)(b/4a/4)(g/4f/4) |\
+g/(a/4g/4)(a/4g/4)(f/4e/4) f/(g/4f/4)(g/4f/4)(e/4d/4)\
+ (e/d/e/f/) "="e>d| d8 | zA,DD D>FDD | D>A,DD D>FDD |\
+  D>A,DD D>FDD | D>FAA A>dAA |\
+"Piano" A>FAA A>dAA | A>F F>D D>A, A,>D |\
+ D>F F>A A>d d>f  f>a a>f f >a(f>e/d/4) | d8 "1"| !
+S:https://www.folktunefinder.com/tunes/96224
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 12/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

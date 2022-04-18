@@ -1,0 +1,28 @@
+X: 1
+T:Lustrum-polska
+R:Polska
+Q:1/4=150
+N:Made 1977 for the 5-year anniversary of Bygdedansens V\"anner,
+N:Stockholm
+M:3/4
+L:1/8
+C:Lennart Sohlman
+K:Dm
+FA (A<B) (AG)|(3A(Bc) d3 d|fd (d<A) ((3FED)|A2 G3 (G|\
+F)A (A<B) (AG)|(3G(FE) D3 E|Fd AG EF|((3GFE) D4:|
+K:Bb
+|:FA (A<B) (Bf)|(3A(Bc) B3 d|fd (3B(dB) (3A(Bc)|(3c(BA) (3B(cd) F2-|
+FA (AB) (Bf)|(3A(Bc) Bb (3g(bg)|fe (3d(cB) (3A(Bc)|((3cBA) B4:|
+S:https://www.folktunefinder.com/tunes/173396
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lu/Lustrum_polska_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

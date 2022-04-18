@@ -1,0 +1,27 @@
+X:50
+%%topmargin 3cm
+T:Mr Ossian
+T:Ossian's Hall
+C:Daniel Dow*
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Reel
+M:C
+L:1/8
+K:A
+e | {/d}cAec fdec | B=G B/2c/2d {/f}=g2 Be | {/d}cAec fded | {/d}c>A c/2d/2e {/g}a2 e :|
+g | ae{/d}cA ce=gd | B=G (B/2c/2d) {/f}g2 B=g | ae{/d}cA ce{/g}ae | cAec {/g}a2 ea |
+ce{/g}ae fdec | dB=GB d=gBd | cedf ecdB | {/d}cA c/2d/2e {/g}a2 e |]
+W:*I am indebted to John Dow, Exq. of Woodmuir Newport a Grandson of that excellent
+W:Composer Daniel Dow, for most of the Tunes bearing his name.
+S:https://www.folktunefinder.com/tunes/177373
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/M_r_Ossian.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RalphPalmer/Ossians_Hall.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

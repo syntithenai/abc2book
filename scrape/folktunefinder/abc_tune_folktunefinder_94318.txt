@@ -1,0 +1,38 @@
+X:19027
+T:Xiraldilla (CT 247)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Estanislao Lana Lana, de veintin aos, de Somiedu.
+O:Somiedu
+A:Asturies
+Z:Cancioneru de Torner 247
+M:3/8
+L:1/8
+Q:3/8=88
+W:Yo no soi barbero,
+W:que si lo fuera,
+W:en el barco llevara
+W:la compaera.
+W:Ai! yo no soi barbero, no,
+W:Ai! yo no tengo cadena d'amor.
+K:G
+|: d2 B|dcB|A G2|AGF|A G2 :|
+BAG|F2 G|ABc|(B>AG)|
+BAG|FFG|ABc|(B>AG-)G2 z||
+S:https://www.folktunefinder.com/tunes/94318
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X:1
+T:Maerkischer Zweitritt
+R:dreher
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, eigenverlag, Schluechtern 1989
+N:dort ganz in C, einstimmig mit harmonie-buchstaben, seite 211 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G %Transposed from C
+g2 b2 | g2 b2 | .a.f.d.f | gdBd |
+g2 b2 | g2 b2 | afdf | g2 d2 :|
+Bdgf | ecag | fdef | gdBd |
+Bdgf | ecag | fdef | g2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173576
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/maerkischer_zweitritt.abc
+% Rhythm Dreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

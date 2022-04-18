@@ -1,0 +1,37 @@
+X:049
+U: ~ = !turn!
+%%topmargin 3cm
+T:Denis Murphy's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Denis Murphy
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+BA | GABc Jd2 de | ga{/a}ge dega | bage dBGA | {/c}BAAG AB ((3cBA) |
+GABc Jd2 de | ga{/a}ge dega | bage dBAB | G2 (3{/A}(GFG) G2 BA |
+GABc Jd3 e | ga{/a}ge dega | ba{/a}ge dBGA | B2 A2 A2 BA |
+GABc Jd3 e | ga{/a}ge dega | ba{/a}ge dBAB | G2 (3{/A}(GFG) G2 fg ||
+|: afd^c d2 ga | ((3bag) ed e2 ga | ((3bag) ((3age) dBGA | B2 A2 A2 BA } |
+GABc Jd3 e | Jgage dega | ba{/a}ge dBAB | [1G2 (3{/A}(GFG) G2 z2 :| [2 G2 (3{/A}(GFG) G2 ||
+|: B,A, | G,A,B,C D3 E | JG3 E DEGA | JBAGE DB,G,B, | CA, (3{/B,}(A,G,A,) A,2 B,A, |
+G,A,B,C D3 E | JG3 E DEGA | JBAGE DB,A,B, | G,2 G,A, G,2 ::
+FG | AFDB, D2 GA | JBGED E2 GA | JBAGE DB,G,B, | CA, (3{/B,}(A,G,A,) A,2 B,A, |
+G,A,B,C D3 E | JG3 E DEGA | JBAGE DB,A,B, | G,2 G,A, G,2 :|]
+S:https://www.folktunefinder.com/tunes/94647
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Denis_Murphys_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Denis_Murphys_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Denis_Murphys_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

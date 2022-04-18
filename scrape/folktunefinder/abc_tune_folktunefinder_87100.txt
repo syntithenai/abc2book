@@ -1,0 +1,53 @@
+X: 9015
+T: Bittersweet (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A2|"D"D2 FA "Bm"Bdef|"D"afef "Bm"dBBA|"G"BGBd "D"AFAd|"C"=cBAG E=CEG|
+[V:2] z2|D,2[A2F2D2]B,,2[F2B2D2]|D,2[A2F2D2]B,,2[F2B2D2]|G,,2[G2B2D2]D,2[A2F2D2]|\
+=C,2[E2G2=C2]G,,2[E2=C2G2]|
+%
+[V:1] "D"D2 FA "Bm"Bdef|"A"afge "D"fdfa|"G"bggb "D"affd|"A"Acec "D"d2 :|
+[V:2] D,2[A2F2D2]B,,2[F2B2D2]|A,,2[E2C2A2]D,2[A2F2D2]|G,,2[G2B2D2]D,2[A2F2D2]|\
+A,,2[E2C2A2][A,2F2D,2]:|
+%
+[V:1] AB|"C"=cG (3GFG "D"dA (3AGA|"C"e=ceg "Am"afge|"D"dAAB "C"=cA G2|"D"Afed"C"=c2 AB|
+[V:2] z2|=C,2[E2G2=C2]D,2[A2F2D2]|=C,2[E2G2=C2]A,,2[E2=C2A2]|D,2[A2F2D2]=C,2[E2G2=C2]|\
+D,2[A2F2D2]=C,2[E2G2=C2]|
+%
+[V:1]"Am7"=cG (3GFG "D"dA (3AGA|"Am"afge "D"fd (3dcd|"C"=cBAG E=CEG| "A"AFGE "D"D2 :|
+[V:2]A,,2[E2G2=C2]D,2[A2F2D2]|=C,2[E2=C2A,2]D,2[A2F2D2]|\
+=C,2[E2G2C2]G,,2[E2C2G2]|\A,,2[E2C2A,2][A,2F,2D,2]:|
+%%%%%%tune repeat
+[V:1] A2|"D"D2 FA "Bm"Bdef|"D"afef "Bm"dBBA|"G"BGBd "D"AFAd|"C"=cBAG E=CEG|
+[V:2] z2|D,2[A2F2D2]B,,2[F2B2D2]|D,2[A2F2D2]B,,2[F2B2D2]|G,,2[G2B2D2]D,2[A2F2D2]|\
+=C,2[E2G2=C2]G,,2[E2=C2G2]|
+%
+[V:1] "D"D2 FA "Bm"Bdef|"A"afge "D"fdfa|"G"bggb "D"affd|"A"Acec "D"d2 :|
+[V:2] D,2[A2F2D2]B,,2[F2B2D2]|A,,2[E2C2A2]D,2[A2F2D2]|G,,2[G2B2D2]D,2[A2F2D2]|\
+A,,2[E2C2A2][A,2F2D,2]:|
+%
+[V:1] AB|"C"=cG (3GFG "D"dA (3AGA|"C"e=ceg "Am"afge|"D"dAAB "C"=cA G2|"D"Afed"C"=c2 AB|
+[V:2] z2|=C,2[E2G2=C2]D,2[A2F2D2]|=C,2[E2G2=C2]A,,2[E2=C2A2]|D,2[A2F2D2]=C,2[E2G2=C2]|\
+D,2[A2F2D2]=C,2[E2G2=C2]|
+%
+[V:1]"Am7"=cG (3GFG "D"dA (3AGA|"Am"afge "D"fd (3dcd|"C"=cBAG E=CEG|1 "A"AFGE "D"D2 :|\
+[2 "A"AFGE "D"HD4 ||
+[V:2] A,,2[E2G2=C2]D,2[A2F2D2]|=C,2[E2=C2A,2]D,2[A2F2D2]|=C,2[E2G2=C2]G,,2[E2=C2G2]|\
+[1 A,,2[E2C2A,2][A,2F,2D,2]:|2 A,,2[E2C2A,2]H[A,4F,4D,4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87100
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

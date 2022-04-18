@@ -1,0 +1,28 @@
+X:1
+T:Montagnarde de Sainte-Anne
+C:Eric Elsener\R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:G
+FG |\
+A2c2B2 | A4G2 | FGAFDF | B2G2FG |
+A2c2B2 | A4G2 | FGAFDF | G4 :|
+|: A2 |\
+_B2ABAG | F4E2 | DEF2G2 | _B2A2GA |
+_B2ABAG | F4E2 | DEF2A2 | G4 :|
+S:https://www.folktunefinder.com/tunes/176715
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/montagnarde_de_sainte-an.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

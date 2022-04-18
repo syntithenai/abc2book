@@ -1,0 +1,37 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Stumm, Tirol
+N:um 1880
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:nach dem Buch: "Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J.
+N:im buch in C und F
+S:im buch mit der Angabe: Sammlung R. Zoder, OeVLA Wien, E41.
+N:in der quelle in D und G
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+BG G/F/G | BG G/F/G | AA d>c | BG G/F/G |
+BG G/F/G | BG G/F/G | AA dF | GB G2 :|
+K:C
+|:\
+GG/^F/ GG/F/ | Ge c2 | Gd B2 | Ge c2 |
+GG/^F/ GG/F/ | Ge c2 | Gd BG | c2 c2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183000
+S:http://simonwascher.info/TradArchiv_polka/polka.B2G2GFG2B2G2GFG2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

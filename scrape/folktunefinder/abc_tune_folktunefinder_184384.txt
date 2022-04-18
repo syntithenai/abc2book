@@ -1,0 +1,28 @@
+X: 1
+T:the Rabbit Men
+R:Hornpipe
+O:England
+N:1991
+M:4/4
+C:Andy Hornby
+A:Lancaster
+K:G
+(3def | g2d2 d>ed>c | B>cd>B G2B>G | \
+A>Bc>A F>GA>F | G>AB>G D2 (3def | \
+g2d2 d>ed>c | B>cd>B G2B>G | A>Bc>A  F>GA>F | G2B2G2 :: \
+AG | F>GA>B c>AF>A | G>AB>c d2d>B | c>de>f g>fg>e | \
+f>ga>f d2e>f | g2d2 d>ed>c | B>cd>B G2B>G | \
+A>Bc>A F>GA>F | G2B2G2 :|
+W:Copyright (C) Andy Hornby
+S:https://www.folktunefinder.com/tunes/184384
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ra/Rabbit_Men_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,53 @@
+X:1
+T:Loudac, baleu : Descendant dans mon jardin
+E:12
+Z:Roger Ngaret (94-95)
+R:loudeac
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+Q:1/4=100
+D2G2 "G"G2G2 B2A2 G4 | E6E2 "Am"E2D2 B,2C2 "G"D4 :|
+Q:1/4=168
+|: D2G2 G2GG B2A2 G4 | E2E2 "Am"E2B,C D4 "G"D4 :|
+%%rm
+%%rm  1. Descendant dans mon jardin   ]
+%%rm     Par un escalier d'argent     ] bis
+%%rm
+%%it     Oh dj dj la li don lon la, ]
+%%it     Oh dj dj la li daine ho    ] bis
+%%rm
+%%rm  2. Je n'ai rien trouv dedans,  
+%%rm     Qu'un p'tit rossignol chantant
+%%rm  3. Qui m'disait dans son langage, 
+%%rm     "-- Marie-toi fille  vingt ans"
+%%rm  4. Comment veux-tu que j'm'y marie, 
+%%rm     Moi qui n'ai qu'un seul amant
+%%rm  5. Il n'est pas encore ici, 
+%%rm     Il est  Rennes au rgiment
+%%rm  6. Je lui ai t'envoy lettre, 
+%%rm     Par le rossignol chantant
+%%rm  7. Il m'en est arrive une autre, 
+%%rm     Par l'alouette en pleurant
+%%rm  8. Les nouvelles que j'vous apporte, 
+%%rm     Vous f'ront pleurer bien chaudement
+%%rm  9. Votre pre et votre mre, 
+%%rm     Ils sont morts y'a bien longtemps
+%%rm 10. De mon pre et de ma mre, 
+%%rm     Je n'en ai aucun tourment
+%%rm 11. Car sans mon pre et sans ma mre, 
+%%rm     Je s'rais marie y'a bien longtemps
+%%rm 12. Je serais t' mon mnage, 
+%%rm     Et cinq  six douzaines d'enfants.
+S:https://www.folktunefinder.com/tunes/173091
+S:http://termen.free.fr/danses/loudeac/LoudeacbaleuDescendantdansmonjardin.abc
+% Rhythm Loudeac
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 184
+T:Log Cabin
+R:reel
+D:De Danann: Selected Reels, Jigs and Songs
+Z:id:hn-reel-496
+M:C|
+L:1/8
+K:Dmix
+A,D~D2 FGAB|=c2 DE FGA^c|d2^cd BdAF|GEFD EFDB,|
+A,D~D2 FGAB|=c2 DE FGA^c|d2^cd BdAF|[1 GFEG FDDB,:|[2 GFEG FD~D2||
+|:d2fd Adfd|g2fg egfe|d2fd AB=cA|GE~E2 =CDEG|
+d2fd Adfd|(3B^cd ef g2ag|f2e^c dBAG|[1 FGEF D4:|[2 FGEF ~D3B,||
+% C:\aaa\abccol~1\hnr4.abc
+S:https://www.folktunefinder.com/tunes/90838
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

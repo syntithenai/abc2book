@@ -1,0 +1,51 @@
+X: 1
+T: Pete's March
+C: Bob McQuillan
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: E
+B,C \
+| "E"E2  E>G \
+| FE E>F \
+| GB Be \
+| cB3 \
+| g>f eg \
+| "A"f>e ce \
+| "E"B>c BG \
+| "B7"GF ||
+B,C \
+|| "E"E2  E>G \
+| FE E>F \
+| GB Be \
+| cB3 \
+| g>f eg \
+| "A"f>e ce \
+| "B7"BG FG/F/ \
+| "E"E2 ef ||
+|| "E"g2 g>a \
+| "E7"gf e>g \
+| "A"fe ce \
+| "E"cB GF \
+| EG Be \
+| "C#m"gb ag \
+| "F#m"fe ge \
+| "B7"g2 f2 ||
+|| "E"g2 g>a \
+| "E7"gf ee \
+| "A"fe ce \
+| "E"cB GF \
+| EG Be \
+| "A"ec B>a \
+| "B7"gf ed \
+| "E"e2 |]
+S:https://www.folktunefinder.com/tunes/182181
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/march/PetesMarch_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

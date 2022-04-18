@@ -1,0 +1,36 @@
+X:955
+T: Ardfinnan Bridge (with piano acc.)
+C: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=175
+V: 1 program 1 110 %fiddle
+V: 2 bass volume = 70 m=D program 1 02
+K: Bm
+[V:1] F|"Bm"B2 FB DBFA|"F#m"cdef "A"ecAc|"Bm"B2 FB DBFA|"D"dcBA "F#m"FAcA|
+[V:2] z|B,,2[F2D2B2]D,,2[F2D2B2]|F,,2[A2C2F2]A,,2[A2C2E2]|B,,2[F2D2B2]F,,2[F2D2B2]|\
+D,2[A2D2F2]F,,2[A2C2F2]|
+%
+[V:1] "Bm"B2 FB DBFA|"F#m"cdef "A"ecAc|"Bm"Bd ~F2 "F#m"EFAc|"Bm"BdAF B3:|
+[V:2] B,,2[F2D2B2]D,,2[F2D2B2]|F,,2[A2C2F2]A,,2[A2C2E2]|B,,2[F2D2B2]F,,2[A2C2F2]|\
+B,2[F2D2B2] B,,3 :|
+%
+[V:1] A|"D"dF ~F2 defa|"G"b2 gb "F#m"afec|"Bm"B2 dB fBdB|"A"A2 cA eAcA|
+[V:2] z|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2D2B2]F,,2[A2C2F2]|B,,2[F2D2B2]D,,2[F2D2B2]|\
+A,,2[A2C2E2]E,,2[E2C2A2]|
+%
+[V:1] "Bm"FB ~B2 "A"EA ~A2|"D"FAde "F#m"fecA|"Bm"B2 FB AFEF|"D"DF"A"EC "Bm"B,3:|
+[V:2] B,,2[F2D2B2]A,,2[A2C2E2]|D,2[A2D2F2]F,,2[A2C2F2]|B,,2[F2D2B2]F,2[F2D2B2]|[D,2A,2F2][A,2E2c2][B,,3F,3D3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87076
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

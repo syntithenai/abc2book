@@ -1,0 +1,21 @@
+X: 1
+T:Mazurka
+R:Mazurka
+O:Norway
+M:3/4
+K:E
+{B}e2 dc B>G|G<E EG F<G|A>F DF E>G|B2G<E E2|\
+{B}e2 dc B>G|G<E EG FG|A>F DF E2 |1E6 :|2 E4||\
+B,2|\
+C2 D2 E>F|G2 G2 AA|A>F DF E>E|DC B,2 E>D|\
+C>B, CD E>F|G2G2 B>B | B>B, CD E2|E4:|
+S:https://www.folktunefinder.com/tunes/174884
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Mazurka_15.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

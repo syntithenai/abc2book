@@ -1,0 +1,31 @@
+X:1
+T:Lichtjes van de Schelde
+C:"Petites lumires sur l'Escaut", appris de Modest Vercauteren, fichier abc : Bernard Loffet
+L:1/8
+Q:420
+M:3/4
+K:C
+ [G2G,,2] [c2G,2] [d2G,2] | [e2C,,2] C,2 [c2C,2] | [g2G,,2] G,2 [f2G,2] | [e2C,,2] C,2 [c2C,2] | \
+ [G2C,,2] [c2C,2] [d2C,2] | [e2C,,2] C,2 [c2C,2] | [f2F,,2] F,2 [e2F,2] | [d2G,,2] G,2 G,2 | \
+ [G2G,,2] [B2G,2] [c2G,2] | [d2G,,2] G,2 [B2G,2] | [f2F,,2] F,2 [e2F,2] | [d2G,,2] G,2 [B2G,2] | \
+ [G2G,,2] [B2G,2] [c2G,2] | [d2G,,2] G,2 [g2G,2] | [g2G,,2] G,2 [f2G,2] | [e2C,,2] C,2 C,2 | \
+ [G2C,,2] [c2C,2] [d2C,2] | [e2C,,2] C,2 [c2C,2] | [g2G,,2] G,2 [f2G,2] | [e2C,,2] C,2 [c2C,2] | \
+ [G2C,,2] [c2C,2] [d2C,2] | [e2C,,2] C,2 [e2C,2] | [f2G,,2] G,2 [g2G,2] | [a2F,,2] F,2 F,2 | \
+ [a2F,,2] F,2 [f2F,2] | [e2F,,2] F,2 [d2F,2] | [g2C,,2] C,2 [e2C,2] | [d2C,,2] C,2 [c2C,2] | \
+ [G2C,,2] [c2C,2] [d2C,2] | [e2C,,2] C,2 [f2G,2] | [d2G,,2] G,2 [e2G,2] | [c2C,,2] C,2 C,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/172091
+S:http://diato.ifrance.com/diato/tablat/154.abc
+S:http://diato.ifrance.com/tablat/154.abc
+S:http://diato.org/tablat/154.abc
+S:http://perso.orange.fr/diato/tablat/154.abc
+S:http://perso.wanadoo.fr/diato/tablat/154.abc
+S:http://pro.wanadoo.fr/diato/tablat/154.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/154.abc
+S:http://www.diatonique.net/tablat/154.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,35 @@
+X:1
+T:Leirer - Tanz, genannt "Die bladn Buam"
+A:Wien ca. 1850
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J.,
+S:im buch mit der Angabe: "Wiener Lieder und Taenze" Bd. I, Herausgeber: E.Kremser, Wien 1912, dort in B
+N:im buch ganz in C, in der quelle ganz in Bb 
+N:terzparalelle Stimme eine Terz tiefer
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+(Bcd2)(Bc | d2)(Bcde) | d2(cBcA) | (Ac B)zB2 |
+(Bcd2)(Bc | d2)(Bcde) | d2(cBcA) | B6 :|
+(ABc2)(AB) | (c2A)zA2 | (Bcd2)(Bc) | (d2B)zB2 |
+(ABc2)(AB) | (c2A)zA2 | (Bcd2)(cA) | B6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/171802
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/die_bladn_buam.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

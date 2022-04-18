@@ -1,0 +1,36 @@
+X:059
+U: ~ = !turn!
+%%topmargin 3cm
+T:Dublin Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Paddy Cronin
+R:Reel
+L:1/8
+M:C|
+K:G
+Gb ~B2 gBaB | gB ~B2 dBAB | gB ~B2 gBag | fgeB dBAB ::
+GB ~B2 GBAB | GB ~B2 dBAB | GB ~B2 GBag | fgeB dBAB :|
+K:D
+ad ~d2 adbd | ad ~d2 edBd | ad ~d2 adba | fgec dBAB |
+ad ~d2 adbd | ad ~d2 edBd | g2 ef Pg2 ag | fgec [D2d2] ef ||
+K:G
+g2 gf gdBd | ((3.g.g.f) ge dBAB | Jg2 ((3agf) g2 ((3bag) | fgeB dBAB |
+g2 ((3agf) gdBd | ~g3 e dBAB | ((3gag) fg a2 ga | ((3bag) ef gbaf |]
+S:https://www.folktunefinder.com/tunes/94657
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dublin_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dublin_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Dublin_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

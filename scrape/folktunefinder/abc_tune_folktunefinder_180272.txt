@@ -1,0 +1,39 @@
+X:1050
+T:The Old Woman Tossed Up
+C:anon.
+O:England
+A:Bucknell
+B:Lionel Bacon:A Handbook of Morris Dances, 2nd ed. (1986) p. 120
+N:Butterworth (MSS); [1/2]A.(AB3)4
+Z:Transcribed by David Barnert
+F:http://abc.musicaviva.com/tunes/england/woman-who-tossed/woman-who-tossed.abc
+%Posted June 15th 2000 at abcusers by David Barnert as an example of
+%"tunes that have clear key signatures (as expressed in sharps &
+%flats) but elusive tonics (and, therefore, modes)"
+%   Here is what David says about the tune:
+%The second is another Morris dance from Bacon, "The Old Woman Tossed
+%Up" (Bucknell), which is either in C major or F lydian. I generally
+%play this one on the pipe & tabor to avoid having to choose chords
+%for it.
+M:6/8
+K:C % or Flyd
+P:A
+C2C C>AA|AGF EGC|FEF G3|A>CC C3:|
+P:B
+ccc Gcc|Gcc cBA|GGG G2G|GAF EFG|
+C2C C>AA|AGF EGC|FEF G3|A>CC C3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180272
+S:http://abc.musicaviva.com/tunes/england/woman-who-tossed/woman-who-tossed.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/england/woman-who-tossed/woman-who-tossed.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

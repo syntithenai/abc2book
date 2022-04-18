@@ -1,0 +1,25 @@
+X:235
+T: Limerick Minstrel
+S: "First Collection of Traditional Irish Music" (M.Mulvihill)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+B2 GA Bcdg|egdB cAAc|BDGB cBcA|(3Bcd gd BGGA|
+(3Bcd Bd ceAc|(3Bcd Bd cAAc|BDGB cBcA|(3Bcd gd BGga||
+bgaf g2 fg|eaag a2 ga|bgaf gfed|cdef g3 a|
+bg (3gfg ageg|eaag a3 b|c'abg agef|gbaf gedc||
+S:https://www.folktunefinder.com/tunes/89409
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:209
+U: ~ = !turn!
+%%topmargin 3cm
+T:Up Sligo
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Jig
+L:1/8
+M:6/8
+K:EDor
+EBB {/c}BAG | FAA AFD | EBB EBB | AGF ~D3 |
+EBB {/c}BAG | FAA ABc | ~d3 ~B3 | AGF ~E3 ::
+Bee ede | gdd dBA | Bee ede | gdc ~d3 |
+Bee ede | ~f3 dBA | ~d3 ~B3 | AGF ~E3 :|]
+S:https://www.folktunefinder.com/tunes/94804
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Up_Sligo_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Up_Sligo_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

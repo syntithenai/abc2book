@@ -1,0 +1,39 @@
+X:270
+T: Comet (The)
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: F
+(3AB=B|cFAc dFBd|(3cdc Ac fef^f|gceg bcag|\
+(3fgf ef c2 (3AB=B|
+cFAc dFBd|(3cdc Ac fef^f|gebg ecBG|1\
+(3FAc (3fac' f'2 :|2 F2 A2 F2||
+(3ef^f|gceg beag|fAcf a2 g^f|gc'=ba (3gag (3fed|
+(3ceg (3c'ge c2 (3A,B,=B,|(3C=B,C A,C FAc^c|
+(3d^cd DF Bdfb|ac'fa gbeg|f2 a2 f2 :|
+W:
+P: version in G
+K:G
+(3Bc^c|dGBd eGce|(3ded Bd gfg^g|adfa c'dba|\
+(3gag fg d2 (3Bc^c|
+dGBd eGce|(3ded Bd gfg^g|afc'a fdcA|1\
+(3GBd (3gbd' g'2 :|2 G2 B2 G2||
+(3fg^g|adfa c'fba|gBdg b2 a^g|ad'^c'b (3aba (3gfe|
+(3dfa (3d'af d2 (3B,C^C|(3D^CD B,D GBd^d|
+(3e^de EG cegc'|bd'gb ac'fa|g2 b2 g2 :|
+S:https://www.folktunefinder.com/tunes/88566
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key F
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

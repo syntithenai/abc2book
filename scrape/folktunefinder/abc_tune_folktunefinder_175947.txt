@@ -1,0 +1,27 @@
+X: 1
+T: Misconception, The
+M: 6/8
+L: 1/8
+R: jig
+K: Bdor
+~B3 BAF|~d3 ede|faf fed|ede efd|!
+~B3 BAF|~d3 ede|fed edf|~B3 BAF|!
+BdB BAF|~d3 ede|faf fed|~e3 ~a3|!
+B=cB BAF|~d3 ede|fed edf|~B3 B2d||!
+K:Amix
+cAA BGG|B/c/d e ~g3|aba age|ede ged|!
+cAA BGG|B/c/d e ~g3|age dBe|1~A3 A2d:|2~A3 A c/d/e||!
+~a3 age|ede ~g3|aba ged|=cBc ded|!
+cAA BGG|B/c/d e ~g3|age dBe|1~A3 A c/d/e:|2~A3 AGA||!
+S:https://www.folktunefinder.com/tunes/175947
+S:http://www.thesession.org/tunes/display/3448
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

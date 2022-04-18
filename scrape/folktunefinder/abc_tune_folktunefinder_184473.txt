@@ -1,0 +1,36 @@
+X: 1
+T:Ragtime Annie
+C:Old-Time, New England, Bluegrass
+R:reel
+M:C|
+K:D
+P:A
+FE \
+|: "D"DFBF AFBF | DFBF A2F-E | DEFG ABAF | "A"A2c2 c2c-B |
+   "A"ABcA B2c-B | ABcA BAcB | ABcd egfe |\
+  [1 "D"d2dc d2FE :|[2 "D" d2dc d2fg ||
+P:B
+|| "D"a2ab afd2 | A6 f-g | a2ab agf2 | "G(Em)"g6 e-f |
+   "A"gfef gfef | gagf e2e-f | gagf edcB | "D"A6 f-g |
+   "D"a2a-b afdB | A2A-B A2A2 | [d4F4] "C"[=c4E4] | "G"[B6G6] A2 |
+   "G"B2b2 b2a-g | "D"f2a2 a2g-f | "A"A2e-f gfec | "D"d2=c2 "D7"B2A2 ||
+P:C
+K:G
+|:  "G"[B6G6] A-B | "C"[c6E6] c-B | "D"A2f2 f2e-f | "G"gfga gedc |
+   "G"D2B2 B2A-B | "C"E2c2 c2c-B | "D"A2f2 f2e-f |\
+[1 "G"gfga g2d-c :|[2 "G"g6 F-E |]
+N:Fiddlers Fakebook pg 225 - abc by Peter Ostapenko 3/15/2007
+N:SDFH - play all three parts for 48 bar dance 3/10/2007
+N:AB - D Major, C - G Major
+S:https://www.folktunefinder.com/tunes/184473
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/RagtimeAnnie.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

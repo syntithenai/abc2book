@@ -1,0 +1,21 @@
+X:9
+T:Successful Campaign
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G2GB A2Ac|BGBd g4|gfed fedc|cBAG FAFE|G2GBA2Ac|BGBd g4|gfed efga|f2Te2d2z2::
+d3fe2d2|c2B2d2A2|c3e d2c2|B2A2B2A2|G2GB A2Ac|BGBd g4|gfed efga|B2TA2G4:|
+S:https://www.folktunefinder.com/tunes/89996
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

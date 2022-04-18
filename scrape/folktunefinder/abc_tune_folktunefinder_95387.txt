@@ -1,0 +1,36 @@
+X:405
+T:Lillie Bulera
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001e1.html
+%%ID:000001e1
+K:G
+D|\
+G>AG B2B| A>BA c3| \
+(B/c/d).G c2B| A>GF G2::\
+d|\
+g2f g2d| =fgf e2d|
+d>ef g>fe| dcB A2d|\
+e>dc Bcd| e>dc Bcd| \
+(e/f/g)G c2B| AGF G2::
+D|\
+(G/A/B).B B2g| aAB c2e| \
+d>BG (Ec).B| A>GF G2::\
+d|\
+(g/f/g/a/).g gde| =f>gf "tr"e2d|
+B>cd (e/f/g).e| dBG A2=f|\
+(ec/e/).g (dB/d/).g| (ec/e/).g "tr"dBd| \
+(e/f/g)G EcB| A>GF G2:|
+S:https://www.folktunefinder.com/tunes/95387
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

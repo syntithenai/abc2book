@@ -1,0 +1,29 @@
+X:1
+T:Muenchner Polka
+C:traditionell
+A:Boehmerwald
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"(1.) Spielheft fuer Okarina", Zusammenstellung: Volker Derschmidt, Herausgeber: Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d/c/ |\
+Bd d>B | ce e>g | f>f ef | ed d/e/d/c/ |
+Bd d>B | ce e>g | f>f ef | gg g :|
+|: g |\
+d>d ed | Bd gz | a>a ba | a/g/f/e/ dz |
+d>d ed | Bd gz | a>a ba | g2g :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177563
+S:http://simonwascher.info/TradArchiv_polka/muenchner_polka.B2d2d3Bc2e.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

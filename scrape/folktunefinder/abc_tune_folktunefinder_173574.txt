@@ -1,0 +1,33 @@
+X:1
+T:Maerkischer Galopp
+R:Galopp
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schlchtern 1989
+N:dort in C (beide teile ohne vorzeichen notiert), einstimmig mit harmonie-buchstaben, Seite 248 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+eBcG | eGc"1)"A | dGAB | ceag |
+eBcG | eGcG | dGAB | c3 z :|
+dd/^c/ dg | dd/^c/ db | abag | ^fe d2 |
+dd/^c/ dg | dd/^c/ db | c'a^fd | g2 g2 :|
+W:  1) im buch a
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173574
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_galopp/maerkischer_galopp.abc
+% Rhythm Galopp
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

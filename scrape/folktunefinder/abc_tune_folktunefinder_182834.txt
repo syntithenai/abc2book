@@ -1,0 +1,32 @@
+X:0694
+T:"Planxty Thomas Burke"          0694
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+N:added anacrucis for 2nd part
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#011 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+"^vb"d2|(cBAG) (Bcd2)|D2G2 G2A2|(BcdB) (edcB)|A4A2(dc)|
+(B2d2) (c2e2)|(d2g2) (gfed)|(efge) (fgaf)|g2G2 G2d2|
+g2a2 b2(ba)|g2e2 e2(fg)|(abag) (fgfe)|d6(ef)|
+g2G2 G2(ed)|e2E2 E2e2|(ed).c.B (cB).A.G|(.G4.G2)||
+(B,C)|(DEDB,) D2D2|G2D2 D2(EF)|(GAGF) (EFGE)|A2D2 D2(GA)|
+.B2(Bc) (BAGF)|E2g2 (f2ed)|(eged) (BABd)|e4 Hf2(ef)|
+g2(gf) (efg2)|(afge) d2(ef)|(gfed) (edcB)|A6 (3(ABc)|
+B2  (3(ABc) (efg2)|(fg).a.f (gf).e.d|(ed).c.B (cB).A.G|(.G4.G2) |]
+S:https://www.folktunefinder.com/tunes/182834
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/694-PlanxtyThomasBurke.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

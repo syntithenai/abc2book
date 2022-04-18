@@ -1,0 +1,40 @@
+X: 1
+T:Mrs MacPherson of Inveran
+R:Reel
+O:Scotland
+M:4/4
+C:P.M. G.S. McLennan
+K:D
+g/|\
+f3a/f/ df Ad|f3a/f/ f2 e>f|\
+e3g/e/ ce Ac|e3f/g/ f2 d3/2 ::\
+A/|\
+d3A/d/ df Ad|d2 Ad d2 c>d|\
+c2 Ac ce Ac|c2 Ac e2d>A|\
+d3A/d/ df Ad|d2 Ad d2 c>d|\
+c2 AB cd ef|gf ea f2 d3/2||
+g/|\
+f3g/f/ a2 f>g|a2 fg f2 e>f|\
+e3f/e/ g2 e>f|g2 e>f e2 d3/2 ::\
+A/|\
+d3A/d/ fa ef|df ed d2 c>d|\
+c3A/c/ eg df|ce Bc e2 d>A|\
+d3A/d/ fa ef|df ed d2 c>d|\
+c3A/B/ Ac eg|fa ce e2 d3/2||
+g/|\
+f3e/d/ a2 f>g|a3g/f/ f2 e>f|\
+e3d/c/ g2 e>f|g3f/e/ e2 d3/2::\
+A/|\
+d3A/d/ f3 d/f/|gf ed d2 c>d|\
+c3A/c/ e3c/e/|ge dc e2 d>A|\
+d3A/d/ f3d/f/|gf ed d2 c>d|\
+cA dB ec fd|ge dc e2 d3/2|]
+S:https://www.folktunefinder.com/tunes/177474
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mr/Mrs_MacPherson_of_Inveran_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

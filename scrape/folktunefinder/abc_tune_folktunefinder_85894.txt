@@ -1,0 +1,39 @@
+X: 24
+T:Suite de LOUDEAC
+M:4/4
+L:1/8
+Q:1/4=150
+C:Yves BELOTTEAU
+P:1 Rond
+Z:Yves Belotteau
+K:G
+|:GBd2|g2d2|gf/2e/2dc|AcBG|GBd2|g2d2|gf/2e/2dc|ABG2:|!
+|:GBA2|GF/2E/2D2|GF/2E/2Dc|BABG|GBA2|GF/2E/2D2|GF/2E/2Dc|BAG2:|!
+P:2 Baleu
+K:C
+E|Ace2|ed/2c/2B2|dc/2B/2Ac|BA^GE|Ace2|ed/2c/2B2|dc/2B/2Ac|B^GA2|!
+|:dc/2B/2AA|G2AA|dc/2B/2AA|GFE2:|!
+P:3 Rond
+|:eeccddee|eeczdzez|eeczdzez:|!
+eeedefgz|g3/2a/2gfede2|:e2defde2|c3/2d/2edcBA2:|!
+P:4 RIQUENIEE
+Z: Yves Belotteau
+M:6/8
+L:1/8
+|:Bc2BA2|AG2BA2|Bc2BA2|AG2FE2:|
+EFEc2c|cdcB3|BcBA2A|ABA^G3|
+EDEAEA|cAce3|edcA2c|B2A^G2E
+EDEAEA|cAce3|edcA2c|B2^GA3
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/85894
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

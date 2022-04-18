@@ -1,0 +1,24 @@
+X:2
+T:Pavane: Belle, qui tiens ma vie
+M:C|
+L:1/4
+C:Thoinot Arbeau (1589)
+K:F treble
+%
+%%pageheight 11 in
+%%staffwidth 6.5 in
+%%leftmargin .75 in
+%%indent .50 in
+%
+V:1 clef=treble name=Soprano
+G2G^F| GAB2| BdcB| BAB2:|
+S:https://www.folktunefinder.com/tunes/181858
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Arbeau/pavane.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Arbeau/pavane.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

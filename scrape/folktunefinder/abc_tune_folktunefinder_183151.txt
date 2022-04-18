@@ -1,0 +1,49 @@
+X:7958
+T:Polonaise
+T:from "Viennese Sonatina"  k439b no. 5
+C:Wolfgang Amadeus Mozart
+O:Austria
+A:Vienna
+R:Polonaise
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k439b-5/mozart-k439b-5-pno2.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:3/4
+L:1/8
+Q:1/4=90 "Andantino"
+K:F
+V:1
+cf2a/g/ g/f/e/f/|cg2b/a/ a/g/^f/g/|aa/=f/ bb/g/ c'/a/g/f/|ee/c/ ff/d/ g/e/d/c/|
+V:2
+[F,A,]C[F,A,]C[F,A,]C|[E,B,]C[E,B,]C[E,B,]C|[F,A,]C[F,G,]C[F,A,]C|C,CD,CE,[B,C]|
+%
+V:1
+cf2a/g/ g/f/e/f/|cg2b/a/ a/g/^f/g/|aa/=f/ bb/g/ c'f|a/g/f/e/e2f2:|
+V:2
+[F,A,]C[F,A,]C[F,A,]C|[E,B,]C[E,B,]C[E,B,]C|[F,A,]CG,CA,[D,D]|[B,,B,][B,C,B,][C,2G,2B,2][F,2A,2]:|
+%
+V:1
+|:g3/a/4b/4 c'f g/f/e/f/|a/g/g/f/ f/e/e/d/ ec|g3/a/4b/4 c'f g/f/e/f/|[f4a4][eg] z|
+V:2
+|:[B,2C2-][CA,] z D2|[C2E2]z2z2|[B,2C2-][CA,] z [D,2=B,2]|C,CC,C C,/C/_B,/G,/|
+%
+V:1
+cf2a/g/ g/f/e/f/|cg2b/a/ a/g/^f/g/|aa/=f/ bb/g/ c'f|a/g/f/e/e2f2:|
+V:2
+[F,A,]C[F,A,]C[F,A,]C|[E,B,]C[E,B,]C[E,B,]C|[F,A,]CG,CA,[D,D]|[B,,B,][B,C,B,][C,2G,2B,2][F,2A,2]:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183151
+S:http://abc.musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k439b-5/mozart-k439b-5-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/mozart-wolfgang-amadeus/mozart-k439b-5/mozart-k439b-5-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/mozart-wolfgang-amadeus/mozart-k439b-5/mozart-k439b-5-pno2.abc
+% Rhythm Polonaise
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

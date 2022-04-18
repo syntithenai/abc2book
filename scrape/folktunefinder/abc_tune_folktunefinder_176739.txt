@@ -1,0 +1,26 @@
+X:1
+T:Monty's Recuperation
+M:C
+L:1/8
+Q:140
+C:(c) Greg Anderson, 10 Nov 1999
+R:Schottische
+N:Our old black lab, Monty, spent several months recovering from a
+N:not-so-successful attempt to run down a Ford Escort. He quickly
+N:learned that sad looking puppy dogs get lots of attention and milked it
+N:for all it was worth
+K:D
+{A}f2 f>a e2 e>f|d>c d>e c2 A2|B>G D>G A>F D>F|E>F G>A B2 A2|
+!{A}f2 f>a e2 e>f|d>c d>e c2 A2|B>G D>G c>A E>A|1(3ded (3BAF D2 z2:|2(3ded (3BAF D2 E>D||:C>D E>C A,>C G2|D>A (3DEF A2- A>F|
+G>A B>G F2 A2|G>F E>D C2 A,2|A,>C E>A, C>E A>G|!
+F>G E>F D2 A2|B>c d>B A>G F>A|1G>F E2 D2 E>D:|2G>F E2 D2 z2||
+S:https://www.folktunefinder.com/tunes/176739
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/MontysRecuperation.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

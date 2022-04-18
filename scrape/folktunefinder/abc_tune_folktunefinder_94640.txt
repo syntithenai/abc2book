@@ -1,0 +1,32 @@
+X:042
+U: ~ = !turn!
+%%topmmargin 3cm
+T:Cuckoo Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Seamus Tansey
+R:Hornpipe
+L:1/8
+M:C|
+K:G
+dB ~B2 cBce | d2 ge dBGF | E2 cB AGFG | ((3AGF) GE DGBd |
+~B2 GB ADFA | d2 ge dBGF | e2 cB AGFG | ((3ABA) GF G3 z ::
+bg ~g2 dgBg | bg ~g2 dgBg | c'a ~a2 eac'a | c'a ~a2 eac'a |
+bg ~g2 dgBg | bg ~g2 dgBg | abga fgef | ((3ded) ((3cdc) Bdgd :|]
+S:https://www.folktunefinder.com/tunes/94640
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Cuckoo_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Cuckoo_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Cuckoo_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Cuckoo_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

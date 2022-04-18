@@ -1,0 +1,48 @@
+X:1
+T:The MacDoughal Society Jig
+C:PM Benne de Jong
+R:JIG
+Z: Contributed 20020306202243 by PM Benne de Jong macdowell@home.nl
+K: C
+%%EPipes[LP=105]
+U:z="@ "
+L:1/8
+M:6/8
+Q:104
+K:HP
+%%EPipes[SP=14,LP=210,MA=Y]
+P:A
+ |:f|{g}fAf {g}fAf|{g}ede {g}fd{c}d|\
+{g}A{d}A{e}A {g}fAf|{g}ed{c}d {g}ef{e}f|
+ |{g}fAf {g}fAf|{g}ede {g}fd{c}d|\
+{g}B{d}B{e}B {g}eA{g}c|{g}Age {GdGc}d2:|
+%%EPipes[MA=Y]
+P:B
+ |:f|{g}fAa {g}aAd|{g}fA{g}d aAf|\
+{g}A{d}A{e}A {g}fAf|{g}ed{c}d {g}ef{e}f|
+ |{g}fAa {g}aAd|{g}fA{g}d aAf|\
+{g}B{d}B{e}B {g}eA{g}c|{g}Age {GdGc}d2:|
+%%EPipes[MA=Y]
+P:C
+ |:f|{g}fAd {g}df{g}A|{g}Ad{e}A {g}dce|\
+{g}A{d}A{e}A {g}fAf|{g}ed{c}d {g}ef{e}f|
+ |{g}fAd {g}df{g}A|{g}Ad{e}A {g}dce|\
+{g}B{d}B{e}B {g}eA{g}c|{g}Age {GdGc}d2:|
+%%EPipes[MA=Y]
+P:D
+ |:f|{g}fad {c}dfa|Ad{g}f {g}Af{g}A|\
+{g}A{d}A{e}A {g}fAf|{g}ed{c}d {g}ef{e}f|
+ |{g}fad {c}dfa|Ad{g}f {g}Af{g}A|\
+{g}B{d}B{e}B {g}eA{g}c|{g}Age {GdGc}d2:|
+S:https://www.folktunefinder.com/tunes/173454
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/macdowell:home.nl/MacdoughalSocietyJig.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MacdoughalSocietyJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

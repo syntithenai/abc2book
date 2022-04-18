@@ -1,0 +1,24 @@
+X:1399
+T:"The Pretty Blue Seagull"  (reel)  1399
+C:after Mr. O'Reilly
+N:Missing a command at end of line in book:  will assume it is a DC al Fine
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+BE (3EEE FEBE|AD (3DDD DFAd|BE  (3EEE FEFA|BdcA BE E2"^Fine":|
+e2eB e2eB|d2dB d2dB|e2eB e2eB|ABdF TRFE E2|
+efgf edBc|dedB d2dB|ABde fedB|ABdF TRFE "^D. C. al Fine"E2|]
+S:https://www.folktunefinder.com/tunes/183757
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1301-1400/1399-PrettyBlueSeagull.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1301-1400/1399-PrettyBlueSeagull.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X:1
+%
+%%titleleft true
+%%staffsep 2cm
+%%stretchlast no
+%%tabfontitalian Borrono
+%%tabfontsize 13
+%
+T:Recercar ottavo
+C:I.M. da Crema (1546)
+L:1/2
+M:C|
+K:GM italiantab
+%
+[,aa,c2] [,aa,c/] .,,d ,,b .,,a | \
+    [,abc1] [,aab] [,abc] .a | \
+    [,da,c1] [,ab,,d] [,b,ca] [,a,ac] | \
+    [,,,cd1] ,,d/ .,,b [,,dcd] .,,b ,,a .,,,c |
+%
+[,,,bc1] .,a ,,,,c/ .,,d ,,b .,,a | \
+    [,,,cd1] a ,,,,a [,da,c] | \
+    ,,,,,d1 [,b,ca] ,,,,c [,a,a] | \
+    [,,,cd/] ,,d// .,,b ,,,c .,,a ,,b .,,d [,aa,c1] ,,a |
+%
+,,b1 [c,a] [d,,c] [c,a] | \
+    [a,b1] [,df] [abd] .c | \
+    [da,c1] ,,,,,a [c,d,,c] [a,b,,d] | \
+    [,,a,a1] [,d,,c] [,a,c,d] [,b,,a] |
+%
+[,,,ac1] [,a,c,d] [,,,,df] [,,de] | \
+    [,ab,,a1] ,,,c [,ab,,a/],,,,,c,,,,,d,,,,a | \
+    H[,aabc4] |]
+S:https://www.folktunefinder.com/tunes/184811
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/daCrema.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

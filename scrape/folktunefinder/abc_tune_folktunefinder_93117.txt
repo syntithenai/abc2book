@@ -1,0 +1,18 @@
+X: 27
+T: Tll Pohjanthden alla
+O: Trad Finland
+M: 2/4
+L: 1/8
+K: Dm
+[| "Dm"AA AA | "Gm"A>G "A7"EG | "Dm"G>F DF | "Dm"[F2D2] "A7"[E2^C2] \
+|: "A7"AE "Dm"FD | "A7"EA, "Bb"DF | "Gm"A>G "A7"FE | "Dm"D2 D2 :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93117
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

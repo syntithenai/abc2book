@@ -1,0 +1,25 @@
+X: 3
+T: ONeills Maggot 
+M: 12/8
+L: 1/8
+R: slide 
+K: D Major
+|: A |\
+d2 e f2 e dcd BdB | A2 F d2 F EFE E2 A | 
+d2 e f2 e dcd B/c/dB | AFA dAF DED D2 :|
+|: A |\
+DCD A2 F DED A2 F | E^DE B2 G EFE B2 G | 
+DCD A2 F DED A2 F | GFE A2 F DED D3 :|
+|: f |\
+a3 a2 f a3 a2 f | g2 e B2 e g2 e b2 e | 
+a3 a2 f a3 a2 g | fed edf ded d2 :|
+S:https://www.folktunefinder.com/tunes/180397
+S:http://www.thesession.org/tunes/display/8259
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

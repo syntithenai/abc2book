@@ -1,0 +1,26 @@
+X:190
+T: Ballinafad
+S: "Treoir"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: D
+A |: dfec A2 AB | cdef gfec | dfec A2 AB |\
+cAGE ED D2 :|
+d2 fd adfd | Aceg fdec | d2 fd adfd |\
+efge fddc |
+d2 fd adfd | cdef g2 fe | defg abaf |\
+gfeg fd d2 ||
+S:https://www.folktunefinder.com/tunes/93537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

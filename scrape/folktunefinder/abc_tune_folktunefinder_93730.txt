@@ -1,0 +1,30 @@
+X:310
+T: Mike Coen's Fling
+S: Jack & Charlie Coen: "The Branch Line"
+Z: B.Black
+M: 4/4
+L: 1/8
+R: hornpipe
+K: G
+D2 | GFGB AGED | cBcd efge | B3 c dcAc |\
+(3BAG AF GDB,D |
+GFGB AGED | cBcd efge | B3 c dcAc |1 (3BAG AF G2 :|2\
+(3BAG AF G2 D2||
+(3gag df (3gag df | gbag edef | (3gag df (3gag dB |\
+cdef g3 d |
+(3gag df (3gag df | gbag edeg | bgaf ge d2 |\
+(3efg dB AGAB ||
+S:https://www.folktunefinder.com/tunes/93730
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

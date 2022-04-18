@@ -1,0 +1,22 @@
+X:19
+T:Granny, Will Your Dog Bite
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d>A FA|GBFG|d/c/d/A/ FA|Bc d>d|d>A FA|GBFA|d/c/d/A/ FA|Bc d2::
+d/c/d/e/ fa|gfec|d/c/d/e/ fa|gf ef/g/|a/b/a/f/ ge|fdef|d/c/d/A/ FA|Bc d2:|
+S:https://www.folktunefinder.com/tunes/90006
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

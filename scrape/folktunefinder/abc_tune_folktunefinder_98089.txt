@@ -1,0 +1,34 @@
+X:10307
+T:Marcha Vaqueira
+R:marcha
+C:Trad.
+Z:Mtodu de Gaita
+M:2/4
+L:1/8
+Q:2/4=80
+K:C
+G2 c3/2B/2|~A2 G3/2E/2|G2 ~AG|B3 D/2E/2|
+F2 G2|B2 B3/2c/2|BA cB|G4|G2 c3/2B/2|
+~A2 G3/2E/2|G2 ~AG|A4|Ac BA|GE FG|
+~A2 B2|c4|c2 B3/2A/2|B2 B2-|BA cB|
+G4-|G2 ~AG|~A2 G2-|GG BA|G4-|
+G2 BA|B2 B2-|BA cB|G4-|G2 ~AG|
+~AF GA|B2 G2|c4-|c2 .E.E|:.E.E .E.E|
+.G.G AA|GF ~ED|E/2F/2E/2D/2 E2-|E4-|
+[1 E2 EE:|[2 E2 Ac||BA GF|G/2A/2G/2F/2 G2-|G4-|
+G2 ~Ac|BA GF|~GE ~A2|GF ED|
+~E2 A2|(3GAG (3FEF|(3G-GE ~A2|(3GAG (3FEF|
+E2 A2|(3GAG (3FEF|(3G-GE ~A2|(3GAG (3GAB|
+c4-|c4-|c4||
+S:https://www.folktunefinder.com/tunes/98089
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

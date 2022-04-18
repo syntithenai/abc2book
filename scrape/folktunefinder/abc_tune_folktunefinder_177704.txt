@@ -1,0 +1,21 @@
+X: 1
+T: Munster Grass
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:G,>B,D>G B2 (3dcB|c>AF>A G2 (3EFG|^A>^GA>B c>BA>=G|F>GA>F D2 B>c|
+d>BG>D B,>DG>B|c>AF>A c2 d>c|(3BcB G>B c>AF>G|1 A>GG>F G2 (3CB,A,:|2 A>GG>F G2 B>c||
+|:d>gg>f g>ed>c|(3BAG B>d g>dc>B|A>aa>^g a>ba>=g|f>ga>f g>ef>d|
+b>ag>f g>dB>G|F>GA>B c2 a>g|f>ed>B c>AD>F|1 A>GG>F G2 B>c:|2 A>GG>F G4||
+S:https://www.folktunefinder.com/tunes/177704
+S:http://www.thesession.org/tunes/display/5142
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

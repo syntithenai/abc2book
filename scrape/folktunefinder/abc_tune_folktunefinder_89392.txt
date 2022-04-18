@@ -1,0 +1,24 @@
+X:150
+T: Leg of the Duck
+S: J.O'Brien: "Irish Folk Dance Music"
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+K: D
+de |: fdd edd | fef dBA | Bee e2 d |\
+Bee e2 d/e/ |
+fdd edd | fef dBA | Bdd d2 A | Bdd d3 :|
+fga efg | fef dBA | Bee ede | Bee e2 g |
+fga efg | fef dBA | Bdd d2 A | Bdd d3 :|
+S:https://www.folktunefinder.com/tunes/89392
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

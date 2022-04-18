@@ -1,0 +1,28 @@
+X: 1
+T: Lover's Waltz
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmaj
+|:DGB|&quot;G&quot;d3 d BG|&quot;C&quot;E3 D CB,|&quot;G&quot;(D6|D3) D GB|&quot;G&quot;d3 d BG|&quot;C&quot;E3 D CB,|
+&quot;Am&quot;(D6|&quot;D7&quot;D3) D EG|&quot;Am&quot;A3 G AB|&quot;C&quot;A G3 ED|&quot;G&quot;(D6|D3) D EG|
+&quot;C&quot;A3 G AB|&quot;Am&quot;A G3 ED|&quot;D&quot;(d4 d)e|d4 GF|&quot;G&quot;G4 GF|&quot;Am7&quot;G4 GF|
+&quot;G&quot;G3 G GF|&quot;C&quot;G2 c3 B|&quot;G&quot;G4 GF|&quot;Em&quot;G4 ED|&quot;Am&quot;(E4 E)D/2E/2|&quot;D7&quot;D4 GF|
+&quot;C&quot;E3 F G2|&quot;D&quot;F2 G2 A2|&quot;Em&quot;B3 c BA|G4 GF|&quot;C&quot;E2 F2 G2|
+&quot;D7&quot;A2 G3F|[1&quot;G&quot;(G6|G3):|[2 &quot;G&quot;G6|A3|
+K:D
+|:Adf|&quot;D&quot;a3 a fd|&quot;G&quot;B3 A GF|&quot;D&quot;(A6|A3) A df|&quot;D&quot;a3 a fd|&quot;G&quot;B3 A GF|
+&quot;Em&quot;(A6|&quot;A7&quot;A3)A Bd|&quot;Em&quot;e3 d ef|&quot;G&quot;e d3 BA|&quot;D&quot;(A6|A3) A Bd|
+&quot;G&quot;e3 d ef|&quot;Em&quot;e d3 BA|&quot;A&quot;(a4 a)b|a4 dc|&quot;D&quot;d4 dc|&quot;Em7&quot;d4 dc|
+&quot;D&quot;d3 d dc|&quot;G&quot;d2 g3 f|&quot;D&quot;d4 dc|&quot;Bm&quot;d4 BA|&quot;Em&quot;(B4 B)A/2B/2|&quot;A7&quot;A4 dc|
+&quot;G&quot;B3 c d2|&quot;A&quot;c2 d2 e2|&quot;Bm&quot;f3 g fe|d4 dc|&quot;G&quot;B2 c2 d2|&quot;A7&quot;e2 d3 c|&quot;D&quot;(d6|d3):|
+S:https://www.folktunefinder.com/tunes/173225
+S:http://www.thesession.org/tunes/display/3766
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

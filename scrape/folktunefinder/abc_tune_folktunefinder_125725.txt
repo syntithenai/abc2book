@@ -1,0 +1,33 @@
+X:1
+T:Artic Circle Waltz
+R:waltz
+C:Bill boyd, Seattle WA USA
+D:Waltz written by Bill Boyd while north of the Arctic circle in Norway.
+M:3/4
+L:1/16
+Q:1/4=160
+K:Gm
+P:A
+| D4 |"Gm" G4 B4 A4 |G6 F2E2D2|"Cm" C4 E4 G4| c6 B2A2G2\
+| "D" ^F4 A4 B4 |c4 d4 e4|"D" d4 B4 A4|"Gm"G8 D4|G4 B4 A4\
+| "Gm" G6 F2E2D2|"Cm" C4 E4 G4|c6 B2A2G2|"D" ^F4 A4 F4 \
+| D4 _E4 ^F4|"Gm" G6 G2 G4| G8 :|
+P:B
+| F4|"Bb"d6 ^c2d2_e2|f4 _e4 d4|"F"c8 A4|F8 A4|"Gm" B6 A2B2c2\
+| d4 c4 B4|"D" A8 ^F4|D8 D4|"Cm"E6 D2E2F2|G4 F4 E4|"Gm"D8 D4\
+| G8 ^G4|"A" A6 A2 A4|_E4 F4 G4 |"D" A12-|"F" A8 F4\
+| "Bb"d6 ^c2d2_e2|f4 _e4 d4|"F"c8 A4|F8 A4|"Gm" B6 A2B2c2\
+| d4 c4 B4|"D" A8 ^F4|D8 D4|"Cm"E6 D2E2F2|G4 F4 E4|"Gm"D8 G4\
+| "Eb" B12|"D" A2B2A2G2^F2_E2|D4 _E4 ^F4 |"Gm" G6 G2 G4 | G8 ||
+S:https://www.folktunefinder.com/tunes/125725
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/arcticc.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/arcticc.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

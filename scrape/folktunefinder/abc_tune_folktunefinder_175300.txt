@@ -1,0 +1,35 @@
+X:1
+T:"Menuett"
+A:Steiermark, um 1800
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J.,
+S:mit der Angabe: Abschrift R.Zoder, OeVLA Wien, E124
+N:im buch ganz in F in der quelle ganz in in G
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+D2 |\
+GFGB AD | GBd2BG | FAc2AF | G>B A>GF>D |
+GFGB AD | GBd2BG | FAc2AF | G4 :|
+|: d2 |\
+B4c2 | A4B2 | G4A2 | D4D2 |
+GFGB AD | GBd2BG | FAc2AF | G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/175300
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/menuett.GFGBAD.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

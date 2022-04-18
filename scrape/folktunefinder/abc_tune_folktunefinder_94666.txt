@@ -1,0 +1,30 @@
+X:069
+U: ~ = !turn!
+%%topmargin 3cm
+T:Fasten the Leg in Her
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:D
+BdB {/c}BAB | GBd gdB | [A3A3] A^GA | ~B3 {/e}dBA |
+~B3 {/c}BAB | GBd gfg | efg eag | [1 fdd d2 z :|] [2 fdd d2 |]
+|: e/2f/2 | ~g3 ~f3 | efe dBA | ~G3 A^GA | B>ee def |
+gAA fAA | efe d^cd | efg eag |[1 fdd d2 :|] [2 fdd d3 |]
+S:https://www.folktunefinder.com/tunes/94666
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Fasten_the_Leg_in_Her_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Fasten_the_Leg_in_Her_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Fasten_the_Leg_in_Her_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Fasten_the_Leg_in_Her_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

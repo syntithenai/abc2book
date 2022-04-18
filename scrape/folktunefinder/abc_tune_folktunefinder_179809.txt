@@ -1,0 +1,21 @@
+X: 1
+T: Ol\'ahos
+O: Hungary
+B: Geisler
+Z: 1998 by John Chambers <jc@trillian.mit.edu> http://trillian.mit.edu/~jc/music/
+M: 2/4
+L: 1/8
+K: Edor
+|: "Em"MB,E/F/ G/F/E | MB,E/F/ G/F/E | BB ^AG | "B7"F2 F2 :|
+|: "G"B>c dd | ed cB | cB ^AG | "B7"F2 F2 \
+|  "G"B>c dd | ed cB | "B7"cB GF | "Em"E2 E2 :|
+S:https://www.folktunefinder.com/tunes/179809
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Olahos1_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

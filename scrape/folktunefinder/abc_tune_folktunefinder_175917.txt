@@ -1,0 +1,25 @@
+X:0203
+T:"The Minstrel Boy"       air/song)     0203
+C:after Sg't J. O'Neill
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+"_VB"D|(G3A) (cBAG)|B2d2g2(fg)|e2d2(Bcd3/2B/2)|A4G2z:|
+d|g2f2e2(fg)|f2e2d3^d|e3B B2^d2|(e3/2f/4e/4d/4e/2f/2) Hg3g|
+(G3A) (cBAG)|B2d2g2(fg)|e2d2(Bcd3/2B/2)|A4G2z|]
+S:https://www.folktunefinder.com/tunes/175917
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0203-MinstrelBoy.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0203-MinstrelBoy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

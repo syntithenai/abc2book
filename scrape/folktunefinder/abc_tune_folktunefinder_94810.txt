@@ -1,0 +1,29 @@
+X:215
+U: ~ = !turn!
+%%topmmargin 3cm
+T:Western Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Hornpipe
+L:1/8
+M:C|
+K:C
+gf | ec ~c2 GcEc | ec ~c2 GcEc | AF ~F2 CFA,F | ((3ABc) Bd cegf |
+ec ~c2 GcEc | ec ~c2 GcEc | AF ~F2 CFA,F | ((3ABc) Bd c2 ::
+gf | Pe2 ce gage | Pf2 df abaf | Pe2 ce agfe | dcBA G2 gf |
+Pe2 ce gage | Pf2 df abaf | ((3ege) ce ((3ded) Bd | ((3cdc) Bd c2 :|]
+S:https://www.folktunefinder.com/tunes/94810
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Western_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Western_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

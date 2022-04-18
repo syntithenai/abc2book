@@ -1,0 +1,27 @@
+X:1588
+T:"The Mullingar Races"  (hornpipe)  (1st setting)  1588
+C:after  Chief  F. O'Neill
+N:See also #1534
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+D2|GABG ABcA|defd dcBA|BcBG ABAG|FGAB cAFD|
+GABG ABcA|defd dcBA|B2d2 cAGF|D(G {A}GF) G2:|
+|: (3(def)|g2eg f2ed|gage f2(ed)|defg abag|f2dd (de)dc|
+B2BG AFD2|BdBG ABcA|defd cAGF|D(G {A}GF) G2:|
+S:https://www.folktunefinder.com/tunes/177645
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1501-1600/1588-MullingarRaces-1st.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1501-1600/1588-MullingarRaces-1st.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

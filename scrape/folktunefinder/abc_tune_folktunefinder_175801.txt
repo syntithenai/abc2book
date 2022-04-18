@@ -1,0 +1,26 @@
+X:0232
+T:"The Miller's Maid"         (air)         0232
+C:after Sg't.  J. O'Neill
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_VB"d3/2c/2|B2AG B3/2c/2 d2|g3a b2ze|(efgf) (edcB)|B2A2z2d3/2c/2|
+B2AG Bc d2|g3(a/2b/2) d2zg|(e3/2f/2g)(e fg)(ab)|g4||
+g2|gbag gfed|g2ab d2zd|efgd edcB|B2A2z2g3/2a/2|
+b3/2g/2af g3/2f/2ed|egdB A2zd|(e3/2f/2g)(e fg)(ab)|g4|]
+S:https://www.folktunefinder.com/tunes/175801
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0232-MillersMaid.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0232-MillersMaid.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

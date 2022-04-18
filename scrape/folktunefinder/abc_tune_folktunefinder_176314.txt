@@ -1,0 +1,25 @@
+X: 1
+T: Miss Scott
+R: strathspey
+C: R. Macintosh
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+N: Also in Bb
+M: 4/4
+L: 1/8
+K: D
+|: A | "D"F>D F>A d>f d>A | F>A d>f "Em"e<E "A7"E2 \
+| "D"F>D F>A d>A d>f | "A7"a>d g>e "D"f<d d :|
+[| b | "D"a>d f>d "Bm"d>a f>a | "Em"b>e g>e "A7"c>b g>b \
+| "D"a>d f>d "Bm"d>a f>a | "A7"e>d c>B "D"A<d d>b |
+| "D"a>d f>d "Bm"d>a f>a | "Em"b>e g>e "A7"c>b g>b \
+| "D"a>f g>e "Bm"f>d e>c | "A7"A<a e>c "D"f<d d |]
+S:https://www.folktunefinder.com/tunes/176314
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MsScottS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

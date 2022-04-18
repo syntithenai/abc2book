@@ -1,0 +1,157 @@
+X:1
+T:Matinee Idol
+M:4/4
+L:1/8
+Q: "Med. Funk" 1/4=110  
+C:Russell Ferrante
+Z:Luis Pablo Gasparotto
+K:G
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI program 1
+V:6 name="Guitar"
+%%MIDI program 29
+%
+[V:1] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+[V:2] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+[V:3] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+[V:4] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+[V:5] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+[V:6] z8 | z8 | z8 | z8 | z8 | z8 | z8 | z8 |:
+%
+[V:1] !segno!z4 G/=F/D/F/ z/ G/z/_B/-       | B3/G/ z2 z4                          | z8                | z8                  |
+[V:2] !segno!z4 G/=F/D/F/ z/ G/z/_B/-       | B3/G/ z2 z4                          | z8                | z8                  |
+[V:3] !segno!z4 G,/=F,/D,/F,/ z/ G,/z/_B,/- | B,3/G,/ z2 z4                        | z8                | z8                  |
+[V:4] !segno!z4 G,/=F,/D,/F,/ z/ G,/z/_B,/- | B,3/G,/ z2 z4                        | z8                | z8                  |
+[V:5] !segno!"F/G"z8                        | z2 z3/ =f/ z/ _d/z/c/ z/ _B/z/[c/e/] | z/ [B3/d3/] z2 z4 | z8                  |
+[V:6] !segno!"F/G"z8                        | "Ab/Bb"z4 "Bb/Eb"z4                  | "F/G"z8           | "Ab/Bb"z4 "Bb/Eb"z4 | 
+%
+[V:1] z4 G/=F/D/F/ z/ G/z/_B/-       | BG/_B/ .cB/c/ .d z z2                | z8                |1 z8                  :|2
+[V:2] z4 G/=F/D/F/ z/ G/z/_B/-       | BG/_B/ .cB/c/ .d z z2                | z8                |1 z8                  :|2
+[V:3] z4 G,/=F,/D,/F,/ z/ G,/z/_B,/- | B,G,/_B,/ .CB,/C/ .D z z2            | z8                |1 z8                  :|2
+[V:4] z4 G,/=F,/D,/F,/ z/ G,/z/_B,/- | B,G,/_B,/ .CB,/C/ .D z z2            | z8                |1 z8                  :|2
+[V:5] "F/G"z8                        | z2 z _B/c/ d=f/[_d/f/] z/ B/G/[c/e/] | z/ [B3/d3/] z2 z4 |1 z8                  :|2
+[V:6] "F/G"z8                        | "Ab/Bb"z4 "Bb/Eb"z4                  | "F/G"z8           |1 "Ab/Bb"z4 "Bb/Eb"z4 :|2
+%
+[V:1] z8                                     |:
+[V:2] z8                                     |:
+[V:3] z8                                     |:
+[V:4] z8                                     |:
+[V:5] z4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |:
+[V:6] "Ab/Bb"z4 "N.C."z4                     |:
+%
+[V:1] z4 z  G  AB-                 | B4 z4                                  |
+[V:2] z4 z  D  EF-                 | F4 z4                                  |
+[V:3] z4 z  B, CD-                 | D4 z4                                  |
+[V:4] z4 z =F, G,A,-               | A,4 z4                                 |
+[V:5] [C3/E3/A3/][D/G/B/] z2 z G3- | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] z2 z3 "G7"z "Am7"z "G9/B"z   | z4 "N.C."z4                            |
+%
+[V:1] z8                                    | B3/B/-   Bc-   c2  z2                  |
+[V:2] z8                                    | G3/G/-   GG-   G2  z2                  |
+[V:3] z8                                    | D3/D/-   DE-   E2  z2                  |
+[V:4] z8                                    | A,3/A,/- A,C-  C2 z2                   |
+[V:5] [C3/E3/A3/][D/G/B/] z [CEG]- [C4E4G4] | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] "N.C."z8                              | "G9/B"z4 "C"z2 "N.C."z2                |
+%
+[V:1] z4 z  G  AB-                 | B4 z4                                  |
+[V:2] z4 z  D  EF-                 | F4 z4                                  |
+[V:3] z4 z  B, CD-                 | D4 z4                                  |
+[V:4] z4 z =F, G,A,-               | A,4 z4                                 |
+[V:5] [C3/E3/A3/][D/G/B/] z2 z G3- | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] z2 z3 "G7"z "Am7"z "G9/B"z   | z4 "N.C."z4                            |
+%
+[V:1] z8                                    |1 B3/B/-   BG-   G2  z2                  :|2
+[V:2] z8                                    |1 G3/G/-   GE-   E2  z2                  :|2
+[V:3] z8                                    |1 D3/D/-   DC-   C2  z2                  :|2
+[V:4] z8                                    |1 A,3/A,/- A,G,- G,2 z2                  :|2
+[V:5] [C3/E3/A3/][D/G/B/] z [CEG]- [C4E4G4] |1 G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] :|2
+[V:6] "N.C."z8                              |1 "G9/B"z4 "C"z2 "N.C."z2                :|2
+%
+[V:1] B3/B/-   BG-   G4  !fine!|:
+[V:2] G3/G/-   GE-   E4  !fine!|:
+[V:3] D3/D/-   DC-   C4  !fine!|:
+[V:4] A,3/A,/- A,G,- G,4 !fine!|:
+[V:5] G4 "C/D"z4         !fine!|:
+[V:6] "G9/B"z4 "C/D"z4   !fine!|:
+%
+[V:1] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:2] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:3] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:4] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:5] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:6] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+%
+[V:1] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:2] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:3] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:4] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:5] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:6] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+%
+[V:1] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:2] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:3] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:4] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:5] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+[V:6] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | 
+%
+[V:1] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4                    || 
+[V:2] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4                    || 
+[V:3] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4                    || 
+[V:4] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4                    || 
+[V:5] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | z4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] || 
+[V:6] "F/G"z8 | "Ab/Bb"z4 "Bb/Eb"z4 | "F/G"z8 | "Ab/Bb"z4 "N.C."z4                     || 
+%
+[V:1] z4 z  G  AB-                 | B4 z4                                  |
+[V:2] z4 z  D  EF-                 | F4 z4                                  |
+[V:3] z4 z  B, CD-                 | D4 z4                                  |
+[V:4] z4 z =F, G,A,-               | A,4 z4                                 |
+[V:5] [C3/E3/A3/][D/G/B/] z2 z G3- | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] z2 z3 "G7"z "Am7"z "G9/B"z   | z4 "N.C."z4                            |
+%
+[V:1] z8                                    | B3/B/-   Bc-   c2  z2                  |
+[V:2] z8                                    | G3/G/-   GG-   G2  z2                  |
+[V:3] z8                                    | D3/D/-   DE-   E2  z2                  |
+[V:4] z8                                    | A,3/A,/- A,C-  C2 z2                   |
+[V:5] [C3/E3/A3/][D/G/B/] z [CEG]- [C4E4G4] | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] "N.C."z8                              | "G9/B"z4 "C"z2 "N.C."z2                |
+%
+[V:1] z4 z  G  AB-                 | B4 z4                                  |
+[V:2] z4 z  D  EF-                 | F4 z4                                  |
+[V:3] z4 z  B, CD-                 | D4 z4                                  |
+[V:4] z4 z =F, G,A,-               | A,4 z4                                 |
+[V:5] [C3/E3/A3/][D/G/B/] z2 z G3- | G4 z3/ [D/G/B/] [DGB][C/E/A/][B,/D/G/] |
+[V:6] z2 z3 "G7"z "Am7"z "G9/B"z   | z4 "N.C."z4                            |
+%
+[V:1] z8                                    |1 B3/B/-   BG-   G4  :|2
+[V:2] z8                                    |1 G3/G/-   GE-   E4  :|2
+[V:3] z8                                    |1 D3/D/-   DC-   C4  :|2
+[V:4] z8                                    |1 A,3/A,/- A,G,- G,4 :|2
+[V:5] [C3/E3/A3/][D/G/B/] z [CEG]- [C4E4G4] |1 G4 "C/D"z4         :|2
+[V:6] "N.C."z8                              |1 "G9/B"z4 "C/D"z4   :|2
+%
+[V:1] B3/B/-   BG-   G4  !D.S.!|]
+[V:2] G3/G/-   GE-   E4  !D.S.!|]
+[V:3] D3/D/-   DC-   C4  !D.S.!|]
+[V:4] A,3/A,/- A,G,- G,4 !D.S.!|]
+[V:5] G4 "C/D"z4         !D.S.!|]
+[V:6] "G9/B"z4 "C/D"z4   !D.S.!|]
+%
+%%text Note: Repeat many times as solos
+S:https://www.folktunefinder.com/tunes/174754
+S:http://abcmr.sourceforge.net/matineeidol.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

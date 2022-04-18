@@ -1,0 +1,29 @@
+X:212
+U: ~ = !turn!
+%%topmargin 3cm
+T:Waltham Whistle Tune
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Dierdre Collis
+R:Reel
+L:1/8
+M:C|
+K:G
+PBABG ABAG | ((3FED) AD BD A2 | DG{/A}GF | G2 ge | fd ~d2 AB ((3cBA) |
+PBABG ABAG | ((3FED) AD BD A2 | DG{/A}GF | G2 ge | fd ~d2 AB ((3cBA) ||
+dg{/a}gf g2 ag | fd d2 fdef | dg{/a}gf g2 fg | ~a2 ga bg g2 |
+bg ~g2 gbag | fd d2 [d2f2] ef | Pg2 ((3agf) Pg2 ag | fd ~d2 AB ((3cBA) |]
+S:https://www.folktunefinder.com/tunes/94807
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Waltham_Whistle_Tune_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Waltham_Whistle_Tune_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

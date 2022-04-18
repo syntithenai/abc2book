@@ -1,0 +1,26 @@
+X:645
+T:the Native ()Pening()
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e50.html
+%%ID:00000e50
+K:Bb
+B |\
+d>eTd dcB | e>fTg g>ab | f>gf fdB | e3 cde |\
+d>eTd dcB | efg gab | fdB c2f | d3 B2 ::
+f |\
+b2b agf | gab fdB | Gcc cdB | A3 c2 (d/e/) |\
+dfd ege | fga bfd | ecB Acf | d3 B2 ::
+S:https://www.folktunefinder.com/tunes/95760
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

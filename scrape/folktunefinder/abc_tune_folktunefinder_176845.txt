@@ -1,0 +1,42 @@
+X:1046
+T:Morgan Rattler
+R:double jig
+N:"collected by J.O'Neill"
+B:O'Neill's 1046
+Z:Transcribed by henrik.norbeck@mailbox.swipnet.se
+M:6/8
+L:1/8
+K:C
+c|GFE DEF|EDE C2 c|GFE DEG|A2 G ABc|
+GFE DEF|EDE C2 f|e(c/B/c) dBG|A2 G ABc:|
+c3 ecA|~B3 dBG|c3 ceA|afd efg|
+c3 ecA|(B/A/B)c dBG|~c3 BAG|A2 G ABc:|
+cBA BAG|cGF EDC|cBA BAG|A2 G ABc|
+cBA BAG|cGF EcA|GFE DEG|A2 G ABc:|
+c3 c3|ceg dBG|c>cc ceg|afd efg|
+c3 c3|ceg dBG|~c3 BGE|A2 G ABc|
+c3 c3|ceg dBG|c>cc ceg|afd efg|
+cd(e/f/) gfe|dec BAG|~c3 BGE|A2 G ABc||
+ceg ceg|ceg dBG|ceg ceg|afd efg|
+g/g/ge f/f/fd|e/e/ec d/d/dB|c/c/cA B/B/BG|A2 G ABc:|
+GEE CEE|CEE CEE|GEE CEE|A2 G ABc|
+GEE CEE|CEE C2 f|e(c/B/c) dBG|A2G ABc:|
+(c>de/f/) {a}g2 e|a2 f {a}g2 e|(c>de/f/) g2 e|dBG ABc|
+(c>de/f/) {a}gfe|dec BAG|~c3 BAG|(A<B)G ABc:|
+(c>de/f/) {a}gdB|cGE C2 c|(c>de/f/) {a}gdB|dBG ABc|
+(c>de/f/) {a}gdB|cGF EcA|GFE DEG|(A<B)G ABc:|
+EDE C/C/CC|C/C/CC C/C/CC|EDE C/C/CC|A2 G ABc|
+EDE C/C/CC|C/C/CC C2 f|e(c/B/c) dBG|A2G ABc:|
+C2 c {d}cBc|D2 d {e}dcd|C2 c {d}cBc|A2 G ABc|
+C2 c {d}cBc|D2 d def|{a}gfe dcB|A2 G ABc:|
+S:https://www.folktunefinder.com/tunes/176845
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1046_hn.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

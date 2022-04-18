@@ -1,0 +1,28 @@
+X:144
+T:Prussia Variation 
+C:A. Terreri
+C:Played by N. J. Col. Militia
+M:2/4
+L:1/16
+K:Bm
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+fe|:dLB2 LBLB2 z2|z4 Tf2ed|c2A2 A^GAB|cBcd Le2B2|dBF2 Ld2fd|B2f2 bfd2|
+z2Bc def(!tr2!g|[1 f)F2F B2fe:|[2 f)F2F B2F2|:LB3c dcde|f2f2 La2f2|f2La2 f2L^a2|f2f2 ^a2b2|
+[M:5/8]LB3c dcde f2|LB3c dcde f2|[M:3/8]Bcdef(!tr2!g[M:2/4]|[1 f)F2F B2F2:|[2 f)F2F B2fe|
+|:dLB2LB LB^ABc|dcde Tf2ed|cLA2A A^GAB|cBcd e2FF|.F.F L.BL.B .F.F L.dL.d|
+.B.B L.fL.f .d.d L.bL.b|z2 Bc def(!tr2!g|[1 f)F2F B2fe:|[2 f)F2F L.b2z2||
+S:https://www.folktunefinder.com/tunes/90131
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 5/8
+% Time_signature 2/4
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

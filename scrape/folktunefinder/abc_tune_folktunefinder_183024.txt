@@ -1,0 +1,34 @@
+X:1
+T:Polka a Plumet
+C:traditionell
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+B/c/ |\
+dg fe | d/e/d/c/ BA/B/ | dA AG/A/ | BA G/A/B/c/ |
+dg fe | d/e/d/c/ BA/B/ | cA f>g |1 ag g :|\
+                                [2 ag g2 ||
+|:\
+dd B/d/B/d/ | gf ed | cc A/c/A/c/ | e^d =d2 |
+dd B/d/B/d/ | gf af/g/ | a/g/f/e/ d/c/B/A/ | GB/d/ g2 :|\
+K:C
+|:\
+GG cG/c/ | ec/e/ g2 | g/a/g/e/ fd | d/f/e/d/ ec |
+GG cG/c/ | ec/e/ g2 | g/a/g/e/ fe/d/ |1 ce c2 :|\
+                                     [2 ce c |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183024
+S:http://simonwascher.info/TradArchiv_polka/polka_a_plumet.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T:Pate Baillie's jig
+R:Jig
+C:Pate Baillie
+O:Scotland
+M:6/8
+L:1/8
+K:Em
+c|E2E E2d|B2A B2d|AFD DEF|AFD DEF|!
+E2E E2d|B2A B2A|B^cd AFD|E3 E2:|!
+|:F|G2B BcB|G2B BcB|F2A D2A|FAF DEF|!
+G2B BcB|G2B BcB|dcB AGF|E3 E2:|!
+|:^d|eee EEE|eee EEE|ddd DDD|ddd DDD|!
+eee EEE|eee EEE|dcB AGF|E3 E2^d|!
+eee EEE|eee EEE|ddd DDD|ddd DDD|!
+GGG FFF|EEE eee|dcB AGF|E3 E2||!
+S:https://www.folktunefinder.com/tunes/181738
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pa/Pate_Baillies_jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

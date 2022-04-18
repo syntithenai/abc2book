@@ -1,0 +1,57 @@
+X:2083
+T:Menuett
+T:Minuet
+C:anon.
+O:Germany
+N:18th century
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/germany/anon-menuett.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/4
+Q:1/4=128
+K:D
+V:1
+d/c/df|d z z |d/c/df|d z z|d/c/de|ff/e/d/c/|
+V:2
+D, zz|D,/C,/D,F,|D, z z|D,/C,/D,F,|D,2C,|D,2 z|
+%
+V:1
+BA^G|A3::A/^G/Ac|A z z|c/B/ce|c z z|
+V:2
+E,2E,,|A,,3::A,, z z|C,/B,,/C,E,|A,, z z|A,/^G,/A,C|
+%
+V:1
+e/d/ee|ef/c/d|d/c/dd|de/B/c|B/c/dB|^GF/E/A|
+V:2
+C,2B,,|A,A,,B,,|B,2A,|B,^G,A,|E,2 z|E,2F,|
+%
+V:1
+BE^G|A3|d/c/dA|B/A/Bc|d/c/de|f2e|
+V:2
+E,2E,,|A,,/B,,/C,A,,|F,,2F,,|G,,G,E,|F,2C,|D,/C,/D,A,,|
+%
+V:1
+ggf|ed/c/d|e/f/gf|ed/c/d|e/d/c>d|d3:|
+V:2
+E,2D,|C,A,,F,,|C,/D,/E,D,|C,A,,F,,|G,,A,,A,,|D,3:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175302
+S:http://abc.musicaviva.com/tunes/germany/anon-menuett.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/germany/anon-menuett.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/germany/anon-menuett.abc
+% Rhythm Minuet
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

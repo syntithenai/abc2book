@@ -1,0 +1,27 @@
+X:695
+T:the Pantheon
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005a7.html
+%%ID:000005a7
+K:G
+d2d d2c | B2B B2A | G2G AGA | B2B B2c | \
+d2d d2c | B2B B2A | G2G AGA | G3 G3 H||
+b2b bag | a2d def | g2g gfe | f2B Bcd | \
+e2e edc | d2G GAB | cdc BcB | A3 A3 ||
+B3  AGA | BcB AGA | BcB AGA | BcB A3 |\
+a2a a2g | f2f f2e | d2d ede | d3 d G/A/B/c/ !D.C.! ||
+%page:80
+S:https://www.folktunefinder.com/tunes/95770
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

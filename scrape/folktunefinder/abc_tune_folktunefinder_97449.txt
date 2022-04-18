@@ -1,0 +1,31 @@
+X: 5
+T:Calliope House
+M:6/8
+L:1/8
+Q:120
+C:Dave Richardson
+S:THSP
+R:jig
+N:
+D:
+Z:
+K:D
+"D"~a3 faa|eaa def|"G"~g3 fgf|~e3 edB|
+"D"ABA A2F|A2B d2e|1 ~f3 fed|"A"~e3 efg:|2 ~f3 "A"edB|"D"d3 dAB||
+"D"dAA fAA|eAA fed|Bee ~e2d|efd ~B3|
+ABA A2F|A2B d2e|faf fed|"A"~e3 edB|
+"D"dAA fAA|eAA fed|"G"Bee ~e2d|efd ~B3|
+"D"ABA A2F|A2B d2e|"A"faf edB|"D"d3 efg|]
+S:https://www.folktunefinder.com/tunes/97449
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

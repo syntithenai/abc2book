@@ -1,0 +1,56 @@
+X: 161
+T: On a misty night
+C: Tadd Dameron
+M: 4/4
+L: 1/8
+Q: 1/4=126
+%%staves (chords melody)
+K: Eb
+P: Intro
+V: chords
+"Am7b4"x4 x4 | "D7#9"x4 x4 | "Gm7b5"x4 x4 | "C7#9"x4 x4 |
+"Fm7b5"x4 x4 | "Bb7#9"x4 x4 | "Ebmaj7"x4 x4 | "Emaj7"x4 x4 ||
+V: melody
+z(D EF G=A=Bc | (3[B2d2][d2f2][c2e2] [A4c4]) |\
+z(C _DE FG=AB | (3[A2c2][c2e2][B2_d2] [_G4B4]) |
+z(B, _C_D EFGA | (3[_G2B2][_d2B2][_c2A2] [A4_F4]) |\
+([DG][CF][CG][CF]- [C2F2])z2 | ([EA][_D_G][EA][DG]- [D2G2])z2||
+P: A
+V: chords
+"Ebmaj7"x4 "Gm7"x4 | "Cm7"x4 "Gm7"x2 "F#m7"x2 | "Fm7"x4 x4 | x4 x4 |
+"Db7"x4 x4 | "B7"x4 "Bb7"x4 | "Gm7"x4 "C7"x4 | "Fm7"x4 "Bb7"x4 ||
+V: melody
+d4B4 | G4.F2_FE- | E6F.G | z4 z2FE- |
+E6FG- | G6AB- | B8 | z8 ||
+P: A
+V: chords
+"Ebmaj7"x4 "Gm7"x4 | "Cm7"x4 "Gm7"x2 "F#m7"x2 | "Fm7"x4 x4 | x4 x4 |
+"Db7"x4 x4 | "B7"x4 "Bb7"x4 | "Eb6"x4 x4 | x4 x4 ||
+V: melody
+d4B4 | G4.F2_FE- | E6F.G | z4 z2FE- |
+E6FG- | G6DE- | E8- | E4z4 ||
+P: B
+V: chords
+"Bm7"x4 "E7"x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 "Bbm7"x4 | "Abmaj7"x4 x4 |
+"C#m7"x4 "F#7"x4 | "Cm7"x4 "F7"x4 | "Fm7"x4 x4 | "Bb7"x4 x4 ||
+V: melody
+zD (3^F=A=e ^A2=B2 | z_D (3=F_A_e =ABc_d | e4 bagf | e3_dc4 |
+z_F (3_A_c_g =c2_d2 | z E (3=GBf =B2c2 | e4- ef (3gab | _c'6z2 ||
+P: A
+V: chords
+"Ebmaj7"x4 "Gm7"x4 | "Cm7"x4 "Gm7"x2 "F#m7"x2 | "Fm7"x4 x4 | x4 x4 |
+"Db7"x4 x4 | "B7"x4 "Bb7"x4 | "Eb6"x4 x4 | "T.A."x4 x4 ||
+V: melody
+d4B4 | G4.F2_FE- | E6F.G | z4 z2FE- |
+E6FG- | G6DE- | E8 | z8 ||
+S:https://www.folktunefinder.com/tunes/87662
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

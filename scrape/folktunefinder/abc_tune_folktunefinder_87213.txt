@@ -1,0 +1,56 @@
+X: 9128
+T: Pooka's Delight (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Dmix
+[V:1] "A7"A,^CEG "D"FD (3DED|"F"cA (3ABA "G"BG (3GFG|"G"DGdG "Dm7"D=FcF|\
+"G7"BG=FD "Cm7"_EDC_B,|
+[V:2] A,,2[G2^C2E2]D,2[A2D2F2]|F,,2[A2C2F2]G,,2[G2B2D2]|B,,2[G2B2D2]D,2[A2C2=F2]|\
+G,,2[F2B2D2]C,2[E2G2_B2]|
+%
+[V:1] "A7"A,^CEG "D"FD (3DED|"F"cA (3ABA "G"BG (3GFG|"G"DGdG "Ddim"D=F_AB|\
+"A7"AGE^C "D"D4 :|
+[V:2] A,,2[G2^C2E2]D,2[A2D2F2]|F,,2[A2C2F2]G,,2[G2B2D2]|B,,2[G2B2D2]D,2[=F,2^G,2B,2]|\
+A,,2[G2^C2E2][D,4F4A,4] :|
+%
+[V:1] "D"DE^FA d3 A|^f3 e d^c A2|"C"c2 Gc EcGc|"A"^c2 Gc EcGc|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|C,2[E2G2C2]G,,2[E2C2G2]|\
+A,,2[G2^C2E2]E,,2[G2^C2A2]|
+%
+[V:1] "D"d^cde f2 dA|"G7"BG=FD "Cm7"_EDC_B,|"A"A,^CEG "D"FAdB|"A7"AGE^C "D"D4 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[F2B2D2]C,2[E2G2_B2]|A,,2[G2^C2E2]D,2[A2D2F2]|\
+A,,2[G2^C2E2][D,4A,4F4]:|
+%%%%%tune repeat
+[V:1] "A7"A,^CEG "D"FD (3DED|"F"cA (3ABA "G"BG (3GFG|"G"DGdG "Dm7"D=FcF|\
+"G7"BG=FD "Cm7"_EDC_B,|
+[V:2] A,,2[G2^C2E2]D,2[A2D2F2]|F,,2[A2C2F2]G,,2[G2B2D2]|B,,2[G2B2D2]D,2[A2C2=F2]|\
+G,,2[F2B2D2]C,2[E2G2_B2]|
+%
+[V:1] "A7"A,^CEG "D"FD (3DED|"F"cA (3ABA "G"BG (3GFG|"G"DGdG" Ddim"D=F_AB|\
+"A7"AGE^C "D"D4 :|
+[V:2] A,,2[G2^C2E2]D,2[A2D2F2]|F,,2[A2C2F2]G,,2[G2B2D2]|B,,2[G2B2D2]D,2[=F,2^G,2B,2]|\
+A,,2[G2^C2E2][D,4F4A,4] :|
+%
+[V:1] "D"DE^FA d3 A|^f3 e d^c A2|"C"c2 Gc EcGc|"A"^c2 Gc EcGc|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|C,2[E2G2C2]G,,2[E2C2G2]|\
+A,,2[G2^C2E2]E,,2[G2^C2A2]|
+%
+[V:1] "D"d^cde f2 dA|"G7"BG=FD "Cm7"_EDC_B,|"A"A,^CEG "D"FAdB|1 "A7"AGE^C "D"D4 :|2\
+"A7"AGE^C "D"D4-|D4 z4||
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[F2B2D2]C,2[E2G2_B2]|A,,2[G2^C2E2]D,2[A2D2F2]|1\
+A,,2[G2^C2E2]D,2[A2D2F2]:|2 A,,2[G2^C2E2][D,4-A,4-F4-]|[D,4A,4F4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87213
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

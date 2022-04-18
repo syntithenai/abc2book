@@ -1,0 +1,28 @@
+X:27
+T:Ewe Reel
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+F|DG~G2 DGGE|~=F2 AF cFAF|DGGF ~G2 eg|fdcA BGAF|\
+DG~G2 DGGE|~=F2 AF cFAF|DGGF ~G2eg|fdcA BGG:|\
+f|~g2 bg dgbg|~f2 af dfaf|~g2bg dgbg|agfa ~g2 ga|\
+bgaf gfde|fdcA BGAF|Gggf gbag|fdcA BGG2:|**
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/90244
+S:http://ceolas.org/pub/tunes/abc.tunes/OBrien.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/OBrien.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/OBrien.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/OBrien.abc
+S:http://www.firepowr.com/abc/OBrien.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/OBrien.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:030
+U: ~ = !turn!
+%%topmargin 3cm
+T:Chorus Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+z2 | JF3 G ABAG | FDFG A2 d2 | JF3 G ABAG | ECEF G2 :|
+Bc | dBcA BGFG | Adcd A2 Bc | dBcA BGFG | AcBA G2 Bc |
+dBcA BGFG | Ac (3.c.c.c efge | dBcA BGFG | AcBA G2 ag ||
+fd (3.d.d.d fd (3.d.d.d | fdfg abag | fd (3.d.d.d fd (3.d.d.d | cdef g2 ag |
+fd (3.d.d.d fd (3.d.d.d | fdfg abag | {/f}g2 gf gage | cdef g2 |]
+/e}dcde gdAF | {/A}GFGA BcdB | AdcB ((3.A.B.A) ((3.G.F.E) | F2 D2 D2 :|]
+S:https://www.folktunefinder.com/tunes/94628
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Chorus_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Chorus_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Chorus_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Chorus_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

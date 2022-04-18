@@ -1,0 +1,31 @@
+X:1
+T:The Sherborne Jig
+M:6/8
+T:My Lord of Sherborne's Jig
+C:
+S:Bacon (MDT)
+N:
+A:Sherborne
+O:English
+R:Jig
+%P:A/2.A$^2$(B$^2$A$^2$)$^4$
+P:A.A2(B2A2)4
+K:G
+Q:C3=100
+P:A
+|: D | G2 d BAG | c2 e ABc  | d2 G cAF | G3 G2 :|\
+M:3/4
+P:B
+   z | g2 f2 e2 | d3   c B2 | e2 d2 c2 | B3 A G2 |\
+       g2 f2 e2 | d3   c B2 | cdecAF   | G4   G  ||
+S:https://www.folktunefinder.com/tunes/178002
+S:http://www.ucolick.org/~sla/morris/music/Sherborne/jig.lb.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:560
+T: Mummer's Jig
+S: Darley & McCall Collection
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: G
+G2B d2g|e2d c2A|d2c B2G|A2G FED|
+G2B d2g|e2f g2e|d2c B2A|G3 G3 :|
+A2F DED|B2G EFE|B2A AB^c|d3 d3|
+c2d e2f|g2f g2e|d2c B2A|G3 G3 :|
+S:https://www.folktunefinder.com/tunes/93780
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

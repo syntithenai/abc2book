@@ -1,0 +1,25 @@
+X:555
+T:Paddy Carey
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:"a good One"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005c5.html
+%%ID:000005c5
+K:C
+F |\
+G2c cBc | e2c cBc | A2d dcd | f2d BAG | \
+G2c cBc | e2c cBc | BAG GAB | c2z z2z |
+c2e f2a | g2a gec | c2e f2a | gec d3  | \
+c2e f2a | g2a gec | c3  edc | BAB c2G | cGe cGe | c2-c2 ::
+S:https://www.folktunefinder.com/tunes/88268
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

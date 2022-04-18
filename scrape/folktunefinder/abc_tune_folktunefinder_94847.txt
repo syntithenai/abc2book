@@ -1,0 +1,27 @@
+X: 4
+T:Tempest of War,The. BC.04
+M:C|
+L:1/8
+Q:150
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:March
+O:England
+A:Uncertain, probably northern
+N:Is this a bad translation of "Tempesta Di Mare"(Storm at Sea) Opus 8 &
+N:Opus 10. By Vivaldi  Anybody know the tuneCGP.
+Z:vmp.John Bagnall
+K:G
+GA | B2 Bc d2 cB | A2 AB c2 BA | G2 GA B2 AG | D2 DD D2 :|!
+|:Bc | d2 ((3gfe) d2 AB | c2 ((3edc) B3 c | BdBG AcAF | G2 GG G2 :|]
+S:https://www.folktunefinder.com/tunes/94847
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

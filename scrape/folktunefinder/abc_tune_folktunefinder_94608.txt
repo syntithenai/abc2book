@@ -1,0 +1,30 @@
+X:010
+U: ~ = !turn!
+%%topmargin 3cm
+T:Battle of Aughrim
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Martin Byrnes
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+AG|: E2 A2 A2 Bd | {ef}e2 dB c3 A | JB2 G2 G3 A | JB2 AG E2 D2 |
+E2 A2 A2 Bd | {ef}e2 d2 eaag | eged BedB |[1 A4 A3 G :|[2 A4 A4 ||
+|: a2 e2 e2 fg | abag e2 fg | abaf g2 ge | dedB G4 |
+a2 e2 e2 fg | abag e2 d2 | B2 e2 d2 B2 | A4 A4 :|]
+S:https://www.folktunefinder.com/tunes/94608
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Battle_of_Aughrim_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Battle_of_Aughrim_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

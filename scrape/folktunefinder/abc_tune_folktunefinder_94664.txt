@@ -1,0 +1,30 @@
+X:067
+U: ~ = !turn!
+%%topmargin 3cm
+T:Farrell O'Gara
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:D
+A,D (3.D.D.D A,DFA | BFAF EFAB | ((3ded) ((3cdc) ((3BcB) AF | ((3GFE) ((3FED) EB,DB, |
+A,D (3.D.D.D A,DFA | BFAF EFAB | ((3dcB) ((3cBA) BFAF | GFEG FD D2 ::
+fd (3.d.d.d fdgd | fdgf edBc | ((3dcB) ((3cBA) Bcde "(A"| fd ((3{/e}dcd) eg ((3{/a}gfg) |
+fd (3.d.d.d fdgd | fdgf edBc | ((3dcB) ((3cBA) BFAF | GFEG FD D2 "A)":|]
+xxxx "(A"|| fdgf e2 de | fagf edBc | dfed BAFA | A,D (3.D.D.D A,DFA | BFAF D2 "A)"||xxxx [|]
+S:https://www.folktunefinder.com/tunes/94664
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Farrell_OGara_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Farrell_OGara_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Farrell_OGara_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Farrell_OGara_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

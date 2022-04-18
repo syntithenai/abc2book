@@ -1,0 +1,53 @@
+X: 9110
+T: Mrs.Conway's Chocolate Cake (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: C|
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] zD|"G"G2 BG "Em"EFGB|"Am"cA"G"BG "Am7"AGED|"G"G2 BG "Em"EFGg|"D7"fdcA "G"G3 D |
+[V:2] z2|G,,2[G2B2D2]E,2[E2B2G2]|A,,2[G,2B,2D2]C,2[A,2G2E2]|G,,2[G2B2D2]E,2[E2B2G2]|\
+D,2[A2C2F2]G,,2[G2B2D2]|
+%
+[V:1] "G"G2 BG "Em"EFGB|"Am"(3cBA "G"BG "Am7"AGED|"G"GBdB "Am"ca (3a^ga|"D"fdef "G"g2 :|
+[V:2] G,,2[G2B2D2]E,2[E2B2G2]|A,,2[G,2B,2D2]C,2[A,2G2E2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+D,2[A2D2F2][G,,2B,2D,2]:|
+%
+[V:1] Bc|"G"dbag "D"fedc|"G"BcdB "Am"cA (3ABA|"G"dbag "D"fedc|"G"(3Bcd "D"AF "G"G2 Bc |
+[V:2] z2|G,,2[G2B2D2]D,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[A2D2F2]|\
+G,,2[D,2F,2A,2][G,4B,4D4]|
+%
+[V:1] "G"dbag "D"fedc|"G"BGGB "Am"cAAd|"Em7"edBd "C"gece|"D7"dAFA "G"G2 :|
+[V:2]  G,,2[G2B2D2]D,2[A2D2F2]| G,,2[G2B2D2]A,,2[A2C2E2]|E,2[D2B2G2]C,2[E2G2C2]|\
+D,2[A2D2F2][G,,2B,2D,2] :|
+%%%%%%tune repeat
+[V:1] zD|"G"G2 BG "Em"EFGB|"Am"cA"G"BG "Am7"AGED|"G"G2 BG "Em"EFGg|"D7"fdcA "G"G3 D |
+[V:2] z2|G,,2[G2B2D2]E,2[E2B2G2]|A,,2[G,2B,2D2]C,2[A,2G2C2E2]|\
+G,,2[G2B2D2]E,2[E2B2G2]|D,2[A2C2F2]G,,2[G2B2D2]|
+%
+[V:1] "G"G2 BG "Em"EFGB|"Am"(3cBA "G"BG "Am7"AGED|"G"GBdB "Am"ca (3a^ga|"D"fdef "G"g2 :|
+[V:2] G,,2[G2B2D2]E,2[E2B2G2]|A,,2[G,2B,2D2]C,2[A,2G2C2E2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2][G,,2B,2D,2]:|
+%
+[V:1] Bc|"G"dbag "D"fedc|"G"BcdB "Am"cA (3ABA|"G"dbag "D"fedc|"G"(3Bcd "D"AF "G"G2 Bc |
+[V:2] z2|G,,2[G2B2D2]D,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|\
+G,,2[G2B2D2]D,2[A2D2F2]|[G,2B,2D2][D,2F,2A,2][G,,4B,4D,4]|
+%
+[V:1] "G"dbag "D"fedc|"G"BGGB "Am"cAAd|"Em7"edBd "C"gece|1 "D7"dAFA "G"G2 :|2\
+"D7"dAFA "G"HG4 ||
+[V:2]  G,,2[G2B2D2]D,2[A2D2F2]| G,,2[G2B2D2]A,,2[A2C2E2]|E,2[D2B2G2]C,2[E2G2C2]|1\
+D,2[A2D2F2][G,,2B,2D,2] :|2 D,2[A2D2F2]H[G,,4B,4D,4] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87195
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

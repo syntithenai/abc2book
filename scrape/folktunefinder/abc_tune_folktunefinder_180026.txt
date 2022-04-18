@@ -1,0 +1,26 @@
+X: 1
+T:Old Joe Clark
+L:1/8
+R:reel
+M:C|
+K:A
+|: "A"e2f2 =g2f2 | e-fed c2 cd | e2f2 =g2f2 | "G"e3 f- e2 cd |
+  "A"e2f2 =g2f2 | e-fed c2 AB | c-BAB "E"B-AGB |\
+[1 "A"A3 B-A2 cd :|[2 "A"A3 B-A2 cB ||
+|: "A"A2 AB c-Bcd | e-fed c-BA2 | A2A(B cB)A2 | "G"=G6 c-B |
+  "A"A2 A(B cB)cd | e-fed c-BAB | c-BAc |"E"B-AGB |\
+[1 "A"A3 A-B2 cB :|[2 "A"A4 z4 |]
+N:Fiddlers Fakebook pg 207 - abc by Peter Ostapenko 8/18/2007
+N:A Major
+S:https://www.folktunefinder.com/tunes/180026
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OldJoeClark.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

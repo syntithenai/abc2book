@@ -1,0 +1,28 @@
+X:140
+U: ~ = !turn!
+%%topmargin 3cm
+T:Murphy's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+D2 | GABG EFGE | AB ((3cBA) FGAF | GBdg ecAG | FGAF DEFD |
+GABG EFGE | AB ((3cBA) FGAF | GBdg ecAF | G2 G2 G2 ::
+((3Bc^c) | dedc Bc d2 | ((3efg) ed cdef | gfgd ecAG | FGAF DEFD |
+GABG EFGE | AB ((3cBA) FGAF | GBdg ecAF | G2 G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/94736
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Murphys_Hornpipe_2.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Murphys_Hornpipe_2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

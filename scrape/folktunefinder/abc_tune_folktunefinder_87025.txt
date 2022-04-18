@@ -1,0 +1,37 @@
+X:700
+T: End of the Search (with piano acc.)
+C: BB
+M: 4/4
+Q: 1/8=350
+R: reel
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A|"D"dF (3FEF "G"GF (3FEF|"D"dF (3FEF "G"GF (3FEF|"D"DFAd "Bm"fedB|\
+"D"AF^EF "A7"G=E E2|
+[V:2] z|D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+D,2[A2D2F2]A,,2[G2C2E2]|
+%
+[V:1] "D"dF (3FEF "G"GF (3FEF|"D"DFAd fgfe|"G"dBBd "Bm7"AFFG|"D"AF"A"GE "D"D3 :|
+[V:2] D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]B,,2[F2A2D2]|\
+[D,2F2A,2][A,,2C2E,2G2][D,3F3A,3]:|
+%
+[V:1] F|"D"Ad (3dcd ad (3dcd|"C"=cdeg "Am7"agec|"D"Ad (3dcd ad (3dcd|"C"=cdec "D"d2 cB|
+[V:2] z|D,2[A2D2F2]A,,2[A2D2F2]|=C,2[E2G2=C2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+=C,2[E2G2=C2]D,2[A2D2F2]|
+%
+[V:1] "D"Ad (3dcd ad (3dcd|"C"=cdeg "Am7"agec|"D"Ad (3dcd "G"BddB|"D"AF"A7"GE "D"D3 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|=C,2[E2G2=C2]A,,2[G2C2E2]|\
+D,2[A2D2F2]G,,2[G2B2D2]|[D,2F2A,2][A,,2C2E2G,2][D,3F3A,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87025
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

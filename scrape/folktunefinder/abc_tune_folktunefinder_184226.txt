@@ -1,0 +1,30 @@
+X:1
+T:Queen Adelaide
+C:Cliff Stapleton
+R:polka
+A:England
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+FA A>c | BG G>B | AF F>A | G/F/E/F/ G/E/F/G/ |
+FA A>c | BG G>B | A/G/F/E/ F/G/E/F/ | DF/A/ d2 :|
+P: D
+K:D
+|:\
+dc BA | F/G/A/B/ F2 | F/G/A/B/ GE | E/F/G/A/ FD |
+dc BA | F/G/A/B/ A2 | A/G/F/E/ F/G/E/F/ | DF/A/ d2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/184226
+S:http://simonwascher.info/TradArchiv_polka/queen_adelaide.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

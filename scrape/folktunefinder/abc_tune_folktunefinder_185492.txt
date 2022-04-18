@@ -1,0 +1,54 @@
+X:1
+T:Ride : Quand les garons vont aux noces
+Z:Roger Ngaret (octobre 98)
+R:ride
+C:Trad.
+A:Bretagne
+Q:1/4=168
+M:4/4
+L:1/16
+K:C
+c2d2 "C"e4 c4 "Em"e2d2 | c2B2 "Am"A2c2 c2d2 "C"e4 | 
+c4 "Em"e2d2 c2B2 A4 :: A2A2 "Am"c2c2 d2e2 "G"d4 | 
+B2B2 "F"c2A2 A2A2 "Am"c2c2 | d2e2 (3d2"G"e2d2 c2B2 "Am"A4 :| 
+%%rm
+%%rm  1. Quand les garons vont aux noces          ]
+%%rm     Quand les garons vont aux noces          ] bis
+%%rm     Croyez-vous qu'c'est pour danser, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+%%rm
+%%rm  2. C'est pour aller voir les filles          ]
+%%rm     C'est pour aller voir les filles          ] bis
+%%rm     Les plus belles  leur gr, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+%%rm
+%%rm  3. Ils leur disent ma mignonne               ]
+%%rm     Ils leur disent ma mignonne               ] bis
+%%rm     La belle voudrais-tu m'aimer, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+%%rm
+%%rm  4. Comment veux-tu que je t'aime             ]
+%%rm     Comment veux-tu que je t'aime             ] bis
+%%rm     Tu n'm'as encore rien donn, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+%%rm
+%%rm  5. Je n'ai que ma ceinturette                ]
+%%rm     Je n'ai que ma ceinturette                ] bis
+%%rm     Celle qui pend sur le ct, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+%%rm
+%%rm  6. Quand tu iras  la messe                  ]
+%%rm     Quand tu iras  la messe                  ] bis
+%%rm     Ma mre la reconnatra, laridenn
+%%rm     Il faut connatre avant d'aimer, larid
+S:https://www.folktunefinder.com/tunes/185492
+S:http://termen.free.fr/danses/termen/RideeQuandlesgarconsvontauxnoces.abc
+% Rhythm Ride
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

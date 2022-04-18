@@ -1,0 +1,25 @@
+X: 1
+T: Polska efter Byss-Kalle (nr 41)
+S: efter Byss-Kalle
+B: 57 ltar efter Byss-Kalle nr 41
+O: Uppland
+R: Slngpolska
+M: 3/4
+K: G
+L: 1/16
+(dg)bg d4 d2>e2 | d2>c2 B4 d4 | A2>B2 c2B2 A2g2 | f2gf e2fe d4 |
+(dg)bg d4 (.d2>.e2) | d2>c2 B4 d4 | c2>d2 c2B2 A2g2 | (fg)af g4 z4 ::
+{ga}g2>f2 f2a2 c'2af | a2>g2 g2b2 d'2bg | g2>f2 f2a2 c'2af | a2>g2 g2b2 d'2bg |
+G,2>B2 d2g2 f2gf | e2fe d4 c4 | B2>d2 c2B2 A2g2 | f2gf e2fe d4 |
+(dg)bg d4 (.d2>.e2) | d2>c2 B4 d4 | A2>B2 c2B2 A2g2 | (fg)af g8 :|
+S:https://www.folktunefinder.com/tunes/183269
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_ByssKalle_nr_41_ec9854.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

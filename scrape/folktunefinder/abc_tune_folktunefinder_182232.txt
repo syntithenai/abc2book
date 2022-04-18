@@ -1,0 +1,20 @@
+X:1
+T:Le petit moulin
+C:Andro-hanterdro, fichier ABC par Bernard Loffet
+L:1/8
+Q:364
+M:3/2
+K:C
+|: [A2A,2][cA,]B [c2A,2]A,^c [B2C,2][B2C,2] | [B2G,2][BG,]B [B2E,2][B2E,2] [A2A,2]A,2 | [A2A,2][cA,]B [c2A,2]A,^c [B2C,2][B2C,2] | \
+ [B2G,2][BG,]B [B2E,2][B2E,2] [A2A,2]A,2 :|: [AA,]B[cA,]^c [B2C,2][B2C,2] | [BG,]B[BG,]B [B2E,2][AA,]B | \
+ [^c2F,2][=cF,]B [A2A,2][B2A,2] | [c2D,2][BD,]A [B2E,2]E,2 | [AA,]B[cA,]^c [B2C,2][B2C,2] | [BG,]B[BG,]B [B2E,2][AA,]B | \
+ [^c2F,2][=c2F,2] [B2D,2][A2D,2] | [B2E,2][B2E,2] [A2A,2]A,2 :| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/182232
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/91.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

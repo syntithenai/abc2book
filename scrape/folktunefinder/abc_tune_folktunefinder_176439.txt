@@ -1,0 +1,31 @@
+X:1
+T:Mixer : The Lucky Seven
+C:Traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:420
+M:2/2
+K:G
+ z6[dG,]c |: [B2G,,2][BG,]c [A2D,,2][AD,]B | [G2G,,2][G2G,2] [G2G,,2][AG,]B | [cC,,]B[cC,]d [eC,,]d[cC,]B | \
+ [c2D,,2][A2D,2] [A2D,,2][dD,]c | [B2G,,2][BG,]c [A2D,,2][AD,]B | [G2G,,2][G2G,2] [G2G,,2][AG,]B | \
+ [cA,,]B[AA,]G [FD,,]G[AD,]F | [G2G,,2][B2G,2] [G2G,,2][dD,]c :| [B2G,,2][gG,]f [e2G,,2][eG,]d | \
+ [dD,,]c[BD,]c [A2D,,2][dD,]c | [B2G,,2][gG,]f [eG,,]d[cG,]B | [c2D,,2][A2D,2] [A2D,,2][dD,]c | \
+ [B2G,,2][gG,]f [e2G,,2][eG,]d | [dD,,]c[BD,]c [A2D,,2][BD,]c | [BG,,]d[BG,]G [AD,,]c[AD,]F | \
+ [G2G,,2][G2G,2] [G2G,,2][BG,]c | [d2G,,2][d2G,2] [d2G,,2][g2G,2] | [d2G,,2][d2G,2] [d2G,,2][g2G,2] | \
+ [d2G,,2][d2G,2] [eG,,]d[cG,]B | [c2D,,2][A2D,2] [A2D,,2][BD,]c | [d2G,,2][d2G,2] [d2G,,2][g2G,2] | \
+ [d2G,,2][d2G,2] [d2G,,2][g2G,2] | [eC,,]d[cC,]B [dD,,]c[BD,]A | [G2G,,2][G2G,2] [G4G,,4] | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/176439
+S:http://diato.ifrance.com/diato/tablat/54.abc
+S:http://diato.ifrance.com/tablat/54.abc
+S:http://diato.org/tablat/54.abc
+S:http://perso.orange.fr/diato/tablat/54.abc
+S:http://perso.wanadoo.fr/diato/tablat/54.abc
+S:http://pro.wanadoo.fr/diato/tablat/54.abc
+S:http://www.diatonique.net/tablat/54.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

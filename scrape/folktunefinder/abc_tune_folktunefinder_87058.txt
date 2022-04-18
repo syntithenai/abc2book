@@ -1,0 +1,29 @@
+X:865
+T: Where Can She Be Off To (with piano acc.)
+C: BB
+R: hornpipe %fling
+Q: 1/8=330
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] "G"DGGA "Em7"Bdce|"G"dBAG "F"A=FCF|"G"DGGA "Em7"Bdce|"G"dedB "D"(3ABA "G"G2 :|
+[V:2] G,,2[G2B2D2]E,,2[D2G2E2]|G,,2[G2D2B2]=F,,2[A2C2=F2]|\
+G,,2[G2B2D2]E,,2[D2G2E2]|G,,2[G2D2B2][D,2A,2F2][G,2D2B2]:|
+%
+[V:1] "G"g2 dg bagf|"F"=f2 cf agfe|"G"g2 dg bagf|"Em7"ecdB "D"(3ABA "G"G2 :|
+[V:2] G,2[G2D2B2]D,,2[G2D2B2]|=F,,2[A2C2=F2]C,2[A2C2F2]|\
+G,,2[G2D2B2]D,2[G2D2B2]|E,,2[D2G2B2][D,2A,2F2][G,2D2B2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87058
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe %fling
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

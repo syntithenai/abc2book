@@ -1,0 +1,26 @@
+X:108
+U: ~ = !turn!
+%%topmargin 3cm
+T:The King's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:Bb
+dcB {/c}BAB | GBe FBd | EGc DFB | cAF gfe |
+d2 B {/c}BAB | GBe FBd | EGc DFB | cAF B2 c ::
+dBG {/A}G^FG | dBG BA^G | A^FD cAF | ded cBA | dBG {/A}G^FG |
+dBG BA^G | [1 A^FD ded | cBA GAB/2c/2 :| [2 A^FD dfe | dcB AGF |]
+S:https://www.folktunefinder.com/tunes/94704
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Kings_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Kings_Favorite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

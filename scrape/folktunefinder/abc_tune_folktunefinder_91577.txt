@@ -1,0 +1,29 @@
+X:8518
+T:Kevin Carey's
+R:Reel
+C:Kevin Carey
+S:
+H:
+N:2nd part, bar 3: hard to be definite on this - also c2dc cGEC may work also
+D:
+Z:Adrian Scahill
+M:4/4
+L:1/8
+K:C
+CDEF GABG|c2dc cBGE|F2GF FEDC|B,CDE F2ED|\
+CDEF GABG|c2dc cBGE|FAdc BGFD|B,CDB, C4:||\
+c2dc cBGA|B3c BGEG|c2dc cBGC|B,CDE FGAB|\
+c2dc cBGA|B3c BGEG|FAdc BGFD|B,CDB, C4:||
+S:https://www.folktunefinder.com/tunes/91577
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

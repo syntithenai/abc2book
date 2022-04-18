@@ -1,0 +1,25 @@
+X:1640
+T:Captain Macintosh's fancy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001264.html
+%%ID:00001264
+K:D mixolydian
+A | \
+d>edf dAAA | d>edf a2f2 | bg-ge af-fd | e>fge (dc)(BA)|
+d>edf dAAA | d>edf a2f2 | bg-ge af-fd | ge-ec d2d ::
+(f/g/) | \
+a>d'a>d' ge-ef | g>ag>a f2d2 | (Ad/e/) fd (Be/)f/ ge | bgec (dc)(BA)|
+d>ed>f   dAAA  | d>ed>f a2f2 | bg-ge       af-fd     | geec d2d :|
+S:https://www.folktunefinder.com/tunes/88485
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

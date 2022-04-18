@@ -1,0 +1,57 @@
+X:599
+T:Mayenzeit
+C:Neihardt von Reuental
+O:Germany
+N:Originally no clef. The actual pitch and mode is therefore mainly
+N:guesswork, but it seems to be the only alternative that works.
+N:The exact note values are also more or less a guesswork. Feel free
+N:to try out other rhythmic variations
+N:The 13th note (the low c) doesn't seem to fit the words of the
+N:repeats well. It is usually ommitted on the second and third repeat.
+N:There is a word missing in the text (marked with [...]). As far as
+N:I know, nobody has yet suggested what that word should be.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/reuental-neihardt-von/reuental-mayenzeit.abc
+P:AABA
+M:none
+Q:200
+K:Ddor Fa2
+P:A
+A c d2 d c A2 c A F2 D F D C F F A A G F D D FE D4\
+P:B
+||G F G A G F G A F2 G2|
+W:
+W:Mayenzeit
+W:ohne neidt
+W:freuden geit
+W:wider streit
+W:sein widerkumen kan uns allen helfen
+W:Uff dem plan
+W:ohne wan
+W:sicht man stan
+W:wolgethan
+W:lichte pr\"aune pl\"umlein bey den gelfen
+W:  durch das gras sind die schon gedrungen
+W:und der walt
+W:manigvalt
+W:ungetzalt
+W:ist derschalt
+W:das er ward mit dem nie pas gesungen
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/174838
+S:http://abc.musicaviva.com/tunes/reuental-neihardt-von/reuental-mayenzeit.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/reuental-neihardt-von/reuental-mayenzeit.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/reuental-neihardt-von/reuental-mayenzeit.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 63
+T:Eccho Minuet. TBe.063
+M:3/4
+L:1/4
+Q:60
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+N:The style of writing out music on this and the following tune, both on
+N:one page, appear to be different from the others. This tune has a
+N:convention 3/4 not the 3 squiggle used elsewhere.  There are = used
+N:instead of  probably to indicate ornaments, a sort of Greek E in
+N:front
+N:of notes marked "E" and short dashes on the stave joining the notes
+N:marked "1".  So far this is the only one with grace notes  Grace
+N:notes
+N:are shown as quavers
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+f/g/ "1"(ag | dBG) |  B A/G/F/E/ | D/C/D/E/F/D/ |!
+ f/g/a/g/f/e/ | d AG |  B A/G/F/E/ | D3 ||!
+"E"{f/g/}a "="gf | G"="FE | {e/f/}g"="f e | F"="ED |!
+ d/c/d/e/d/e/ | f/e/f/g/f/g/ | agf | GFE |!
+ {e/f/}g f e |FED | f g/f/e/f/ | d3 ||
+S:https://www.folktunefinder.com/tunes/96214
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

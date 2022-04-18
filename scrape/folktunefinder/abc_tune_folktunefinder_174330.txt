@@ -1,0 +1,28 @@
+X: 1
+T:Margarets' Waltz
+M:3/4
+L:1/8
+Q:120
+S:Boys of the Lough
+R:Waltz
+K:G
+|:GE|"G"D3 E GA|B4 GB|"C"AG E2 G2|"D"A4 GE| !
+"G"D3 E GA|"G/B"B4 dG|"D7"B4 (3ABA|1"G"G4:|2G4 Bc||!
+"G"d2 e2 f2|"C"g2 f2 g2|ed c2 e2|"D"d4 BA|!
+"G"G3 A Bc|"Bm"d4 BG|"Am"ed cB AG|"D"A4 Bc|!
+"G"dG eG fG|"C"gG fG eG|"G"dG cG BG|"D"A4 GE|!
+"G"D3 E GA|"G/B"B4 dG|"D7"B4 (3ABA|"G"G4|!
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/174330
+S:http://www.blackflute.com/music/tunes/waltzes/margwalz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

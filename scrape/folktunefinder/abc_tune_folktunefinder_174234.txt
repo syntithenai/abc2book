@@ -1,0 +1,38 @@
+X: 1
+T:Marche : Ceci est l'aventure
+Z:Roger Ngaret (Fvrier 2001)
+R:
+C:Trad.
+S:Rpertoire de Ren Le Breton
+A:Bretagne
+L:1/8
+M:2/4
+K:C
+A |: [M:3/8][L:1/8] e2 e | 
+[M:2/8][L:1/8] dc | [M:3/8][L:1/8] BAc :|
+e2 e | [M:2/8][L:1/8] dc | [M:2/4][L:1/8] B2- BA |:
+[M:3/8][L:1/8] e2 e | [M:2/8][L:1/8] dc | [M:3/8][L:1/8] BAc :|
+e2 e | [M:2/8][L:1/8] dc | [M:2/4][L:1/8] B2- BE |:
+[M:3/8][L:1/8] A2 c | [M:2/8][L:1/8] Bd | [M:3/8][L:1/8] cAB |
+c2 A | [M:2/8][L:1/8] AG |1 [M:3/8][L:1/8] EAG :|2
+[M:3/8][L:1/8] A2 e :|3 [M:3/8][L:1/8] EAG :|4 [M:2/4][L:1/8] A2- AA |:
+[M:3/8][L:1/8] e2 e | [M:2/8][L:1/8] dc | [M:3/8][L:1/8] BAc :|
+e2 d | [M:2/8][L:1/8] dc | [M:2/4][L:1/8] B2- BA |:
+[M:3/8][L:1/8] e2 e | [M:2/8][L:1/8] dc | [M:3/8][L:1/8] BAc :|
+e2 A | [M:2/8][L:1/8] dc | [M:2/4][L:1/8] B2- BE |:
+[M:3/8][L:1/8] A2 c | [M:2/8][L:1/8] Bd | [M:3/8][L:1/8] cAB |
+c2 A | [M:2/8][L:1/8] AG |1 [M:3/8][L:1/8] EAG :|2
+[M:3/8][L:1/8] A2 e :|3 [M:3/8][L:1/8] EAG :|4 [M:2/4][L:1/8] A3 |]
+S:https://www.folktunefinder.com/tunes/174234
+S:http://termen.free.fr/danses/cornouaille/MarcheCeciestlaventure.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 2/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

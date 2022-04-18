@@ -1,0 +1,27 @@
+X: 9
+T:Galopede
+R:Reel
+C:Eric Foxley
+S:Nottingham Music Database
+P:AAB
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+dc|"G"B2Bc "D7"A2AB|"G"G2G2 G2AB|"C"cBcd edcB|"Am"c2A2 "D7"A2dc|
+"G"B2Bc "D/f"A2AB|"Em"G2G2 "Em7/d"G2AB|"Am/c"cBAG "D7"FGAF|"G"G2G2 G2:|
+dc|B2gf "C"e2ed|"Am"dcBc "D7"A2dc|"G"B2gf "C"edcB|"Am"c2A2 "D7"A2dc|
+"G"B2gf "C"e2ed|"Am"dcBc "D7"A2dc|"G"BdcB "D7"AcBA|"G"G2G2 "D7"G2Bc|
+"G"d2dd d2g2|d2dd d2g2|d2d2 "C"edcB|"Am"c2A2 "D7"A2Bc|
+"G"d2dd d2g2|"Em"d2dd d2g2|"Am"edcB "D7"dcBA|"G"G2G2 G2|]
+S:https://www.folktunefinder.com/tunes/92708
+S:http://www.alfwarnock.info/alfs/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

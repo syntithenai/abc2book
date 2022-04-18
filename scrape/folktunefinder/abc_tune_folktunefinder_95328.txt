@@ -1,0 +1,25 @@
+X:110
+T:Women's dance in the Ombres Chinoises.
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001a6.html
+%%ID:000001a6
+K:G
+B|\
+d2B d2B| G2G GAB| c2A c2A| FGA D3|\
+d2B g2d| e2c g2e| dec BcA| G2G G2::
+z|\
+DFA cAF| GBd dBG| DFA cAF| GBd dBG|\
+ece ege| dBd dgd| edc BcA| G2G G2:|
+S:https://www.folktunefinder.com/tunes/95328
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:159
+T: Nanguo de yahuan
+N: C1655
+O: China,Henan, Kaifeng
+S: IV, 143]
+R: Wuge, Yangge]
+M: 2/4
+L: 1/16
+K: F
+G2GDF4 | G2c2A4 | G2FGc2A2 | GF3D4
+DFD2G2F2 | A2FGF4D4 | B4cBc2 | G2z2A4
+GAF2G2D2 | d2dfc2G2 | F4D4
+G2GBD4 | G2d2c2B2 | GAFGc2G2 | GF3D4
+G2GBD4 | G2d2c2BA | GAFGc2G2 | GF3D4
+G2GBD4 | FDGDD4 | G2GBD2F2 | G2GBD4
+F2G2F2G2 | F2FGF2G2 | c6A2 | GF2GF4 | B2BGc2G2 | F4D4
+S:https://www.folktunefinder.com/tunes/92182
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Wuge, yangge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

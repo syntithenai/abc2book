@@ -1,0 +1,30 @@
+X: 219
+T: Tangled Owl (jig)
+C: BB 1/06
+N: 202056
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: C
+A|"C"cBc GEG | "Am7"cBc age |\
+"C"cBc "Em7"GED | "C"CEG "Am"A2 A |
+"C"cBc GEG | "Am7"cBc age |\
+"Dm" def "Am" ecA | "Em" GEG "Am" A2 :|
+B| "C" ceg e2 g | "Am" age "G"dBG |\
+"Am" EAB cBA | "Em7" edB "Am"A2 B |
+"C" cBc "Dm" d^cd |"C" efe "G" dcB |\
+"Am" cBA "G" GED | "Em" EGB "Am" A2 :|
+%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86877
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:1
+T:Mazurka
+C:traditionell
+R:Mazurka
+A:Frankreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Schule fuer Drehleier", Barbara Behringer (anm: verh. Grimm), Der Verlag mit der  Blume, 4.Auflage, Nuernberg 1988
+N:dort ganz in C, einstimmig, Seite 66
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+Gc |\
+e2 c2 Bc | d2 B2 de | f2 df df | e2 c2 Gc |\
+e2 c2 Bc | d2 B2 de | f2 df dB | c4 :|
+|: ef |\
+g2 g2 ag | f2 d2 de | f2 df df | e2 c2 ef |\
+g2 g2 ag | f2 d2 de | f2 df dB | c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174906
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.e2c2Bcd2B2def2dfdfe.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

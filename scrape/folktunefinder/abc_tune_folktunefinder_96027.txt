@@ -1,0 +1,31 @@
+X:14
+T:Cairngorm Mountain
+T:An carn gorm
+R:Slow Air
+S:Simon Fraser Collection
+N:No.154
+N:transposed from G
+O:Scottish
+M:6/8
+L:1/8
+Q:3/8=60
+K:D
+(3d/c/B/|AFA AFA|AFG A2 d/>c/|(Bdc) B>AB/c/|d>ef f2 (e/d/)|
+efa b>c'd'/b/|afd d>ef/g/|fba f>ef/e/|dBB B2:|
+(f/g/)|~a>ba afa|b>d'b b2 (a/g/)|f2 (e/d/) d'(c'b)|f2 e d2 (b/c'/)|
+d'>c'b baf|afe f2d|efa b>^ab|dBB B2 (f/g/)|~a>ba a<fa|a<fa a2 (d'/c'/)|
+(bd')c' b>ab/c'/|d'2c' b2d'|(d>ef/g/8a/8b/8c'/8 d'2) (c'/b/)|
+a<fe d>(ef/g/)|fef/e/|dBB B2||
+S:https://www.folktunefinder.com/tunes/96027
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/FC-Flute.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/FC-Flute.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

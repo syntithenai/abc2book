@@ -1,0 +1,30 @@
+X:3
+T:Mammy's gone away, and Daddy's dead for ever
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:D
+[V:1] [L:1/16] abaf  d2d2 |dcde  fBB2 |abaf  d2d2|dBAG  FDD2 :|
+[V:2] [L:1/8]  D,,D, D,,D,|F,D,  G,G, |F,D,  F,G,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] A2FA  A2FA |A2FA  BEE2 |A2FA  defe|dBAG  FDD2  |
+[V:2] [L:1/8]  D,,D, D,,D,|D,,D, A,,A,|D,,D, F,G,|A,A,, D,D,, |
+%
+[V:1] [L:1/16] A2FA  A2FA |A2FA  BEEB |A2FA  defe|dBAG  FDD2 |]
+[V:2] [L:1/8]  D,,D, D,,D,|D,,D, A,,A,|D,,D, F,G,|A,A,, D,D,,|]
+S:https://www.folktunefinder.com/tunes/174058
+S:http://www.campin.me.uk/Music/Clarkson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

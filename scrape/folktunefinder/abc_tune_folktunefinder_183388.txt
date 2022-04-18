@@ -1,0 +1,37 @@
+X: 1
+T: Sommarens Schlager
+T: Polska fr\aan R\"attvik
+R: R\"attvikspolska
+O: efter Bengt Jonsson
+Z: John Chambers <jc@trillian.mit.edu>
+M: 9/8
+L: 1/8
+K: D
+%%slurgraces 1
+V:1
+|:"D"{A}A2(c d2)(e f2)a | "A"(af) (g2e2) "D"f2f \
+| "G"d2(c- (4cd)cA B2G | (GB2) "A7"A3- A3 |
+| "D"{A}A2(c d2)(e f2)a | "A"(af) (g2e2) "D"f2f \
+| "G"a2(g- (4ga)ge "Em"f2d | "A7"(ec2) "D"~d3- d3 :|
+|:"D"{A}A2 (f2d2) A2F | "G"G2 B2 AG "A7"A3- \
+| A2 (E2F2) "Em"G2A | BAG "A7"A3- A3 |
+| "D"{A}A2 (f2d2) A2F | "G"G2 B2 AG "A7"A3- \
+| A2(c "D"d2)(e f2)d | "A7"(ec2) "D"d3- d3 :|
+V:2
+|:"D"{D}D2(E F2)(c d2)f | "A"(fd) (e2c2) "D"d2d \
+| "G"B2(A- (4AB)AF G2E | (EG2) "A7"E3- E3 |
+| "D"{D}D2(E F2)(c d2)f | "A"(fd) (e2c2) "D"d2d \
+| "G"f2(e- (4ef)ec "Em"d2B | "A7"(AG2) "D"~F3- F3 :|
+|:"D"{D}D2 (d2A2) F2D | "G"E2 G2 FE "A7"C3- \
+| C2 (C2D2) "Em"E2F | GFE "A7"C3- C3 |
+| "D"{D}D2 (d2A2) F2D | "G"E2 G2 FE "A7"C3- \
+| C2(E "D"F2)(c d2)A | "A7"(AG2) "D"F3- F3 :|
+S:https://www.folktunefinder.com/tunes/183388
+S:http://trillian.mit.edu/~jc/music/abc/Scand/pols/SommarensSchlager_98_V2.abc
+% Rhythm Ra?ttvikspolska
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

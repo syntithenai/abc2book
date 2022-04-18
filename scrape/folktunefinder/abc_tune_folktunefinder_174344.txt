@@ -1,0 +1,25 @@
+X: 1
+T:Maria (F. Paris)
+C:F. Paris: Rue de l'oiseau
+M:3/4
+L:1/8
+K:G
+d2c3d|c2B3c|~d2 cB cd|e6|\
+~c2 BA Bc|d2D2d2|B6-|B6|
+d2c3d|c2B3c|~d2 cB cd|e6|\
+~c2 BA Bc|de dc BA|1 G6-|G6:|2 G6|~B2G2d2||
+|:E6c6|~A2F2d2|G6B6|G2D2B,2|\
+C2c2~B2|1 A2B3c|B2G4|~B2 Ge dc:|2 A2B2c2|d6-|d6||
+"Coda"B cd|:ed cB GB|cd cB Ac|~B2 GB DG|d6B6|\
+ed cB GB|1 cd  cB AF|{GG}G2 DG B,D|\
+B,6G6:|2 ~c2 BA Bc|d6-|d6||
+S:https://www.folktunefinder.com/tunes/174344
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Maria_F_Paris_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

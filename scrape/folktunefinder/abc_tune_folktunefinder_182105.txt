@@ -1,0 +1,26 @@
+X:1 
+T:Perpetual Motion (Flats) 
+M:C 
+L:1/8 
+Q:50 
+C:Scott Tichenor 
+N:Mandolin Cafe Web Page (www.mandolincafe.com) 
+K:C 
+"D7"a_gdc "Ddim"Bdf_a|"C7"gec_B "Cdim"Ac_e_g| 
+"Bb7"fd_B_A "Bbdim"G_B_de|"Ab7"_ec_A_G "Abdim"F_ABd| 
+|:"Gb7"_d_B_GE "Gbdim"_E_GAc|"E7"B_AED "Edim"_DEG_B| 
+"D7"A_GDC "Ddim"BDF_A|"C7"GEC_B "Cdim"AC_E_G| 
+"Bb7"FD_B_A "Bbdim"G_B_de|"Ab7"_ec_A_G "Abdim"F_ABd:|
+S:https://www.folktunefinder.com/tunes/182105
+S:http://www.mandolincafe.com/lessons/perpabc.txt
+S:http://www.mandolincafe.com/perp2.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

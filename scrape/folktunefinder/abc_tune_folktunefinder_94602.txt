@@ -1,0 +1,29 @@
+X:004
+U: ~ = !turn!
+%%topmargin 3cm
+T:Ashplant
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Martin Byrnes
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+GA |: BE (3{/F}(EDE) BAGA | BE (3{/F}(EDE) JG3 A | BE (3{/F}(EDE) BABd | eBdB ADFA |
+BE (3{/F}(EDE) BAGA | BE (3{/F}(EDE) JG3 A | JB2 BA Bdef | gedB ADFA ::
+(3{/c}(BAB) eB fBeB | (3{/c}(BAB) dB ADFA | (3{/c}(BAB) eB fBeB | ef ((3gfe) dAFA |
+(3{/c}(BAB) eB fBeB | (3{/c}(BAB) dB ADFA | ((3Bcd) ef ((3gfe) af | eB ((3dcB) ADFA:|]
+S:https://www.folktunefinder.com/tunes/94602
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Ashplant_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Ashplant_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Marko Ska\vce [D]
+O: Slovenia
+Z: 2008 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: D
+| "D"[D4D4] | [D4D4] | [D4D4] | [D4D4] \
+[| "D"[FD][AF] [AF][AF] | [FD][AF] [AF][AF] |
+| [FD][FD] "A7"[EA,][EC] | "D"[D2D2] [D2D2] \
+|: "D"[D2D2] "A7"[E2C2] | "D"[FD][AF] [AF]z \
+| "D"[FD][FD] "A7"[EA,][EC] | "D"[D2D2] [D2D2] :|
+S:https://www.folktunefinder.com/tunes/174406
+S:http://trillian.mit.edu/~jc/music/abc/Intl/misc/MarkoSkace_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Slovenia/misc/MarkoSkace_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:1535
+T:Fisher's Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+R:Hornpipe
+Z:Richard Robinson 
+%%RRN:"a Good tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000608.html
+%%ID:00000608
+K:A
+aecA B2df | ecBA GBED | CEAc EAce | aedc c2B2 |
+aecA B2df | ecBA GBED | CEAc dBAG | A2A2 A4::
+GBEd cAdc | B2Bc B2Bc | defg aecA | E2E>E E4 |
+cecA ecBA | fdbf agfe | dBGE FAGB | A2A2 A4:|
+S:https://www.folktunefinder.com/tunes/88464
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

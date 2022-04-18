@@ -1,0 +1,29 @@
+X:1
+T:Air
+C:Jean Blanchard
+A:France
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:2/4
+L:1/4
+K:D
+D |\
+GB dc | A3 B/A/ | GB dc | ed cd |
+B/A/G dc | A3 B/A/ | GB dc | e d2 :|
+K:G
+|: d |\
+e>d e/f/g | fe ef/e/ | dBA B/c/ | B G F/E/ D |
+e>d e/f/ g | fe ef/e/ | d B A/F/ E/D/ | G2- G :|
+S:https://www.folktunefinder.com/tunes/94593
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/air.G2B2d2c2A6BA.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

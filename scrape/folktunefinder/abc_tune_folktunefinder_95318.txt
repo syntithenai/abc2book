@@ -1,0 +1,23 @@
+X:60
+T:the Maid of the Mill
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000019c.html
+%%ID:0000019c
+K:D
+A|\
+Add dfd| cde a2(f/d/)| BBB BcA| d3-d2A|\
+A|\
+Aaa aba| agf "tr"g2f| efg (g/a/b)d| "tr"(d3 c2)A|\
+Bcd Ha2(e/d/)| cde Ha2(f/d/)| .B.B.B (Bc).A| {A}d3-d2|]
+S:https://www.folktunefinder.com/tunes/95318
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

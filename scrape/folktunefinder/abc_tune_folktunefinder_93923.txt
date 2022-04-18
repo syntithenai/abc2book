@@ -1,0 +1,21 @@
+X: 35
+T:SCOTTISH OCEANE
+M:4/4
+L:1/8
+Q:1/8=160
+C:Yves BELOTTEAU
+K:G
+|:DGBd|e2zd|d2^c2|d2Bd|g2f2|c2ze|e2d2|B2G2|!
+DGBd|e2zd|d2^c2|d2Bd|g2f2|a2ag|fagf|g2g2:|!
+|:g2f2|e2ce|agfe|d3d|d2^c2|c2Ac|e2d2|B2G2|!
+g2f2|e2ce|agfe|d3g|g2f2|agfe|1dfaf|g2G2:|2dcBA|G2G2|
+% Output from ABC2Win  Version 2.1 f on 14/09/99
+S:https://www.folktunefinder.com/tunes/93923
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/compos.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

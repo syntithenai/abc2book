@@ -1,0 +1,49 @@
+X:31
+T:Pit Pony
+C:Chris Perry
+S:The Fiddle Player's Tunebook 1
+M:3/4
+L:1/8
+Q:140
+K:F
+FE |\
+"Dm"D2 DE FG |\
+"Dm"A2 d2 ^c2 |\
+"Dm"d2 de f2 |\
+"F"A4 AG \
+|1 "F"F2 FG AF |\
+"C"G3 F G2 |\
+"Dm"A2 D2 FD |\
+"Am"E4 :|2\
+"F"F2 AG F2 |\
+"C"E2 G2 F2 |\
+"Am"E2 D2 ^C2 |\
+"Dm"D4 ||\
+G2 |\
+"Dm"A2 d2 ^c2 |\
+"Dm"d3 e f2 |\
+"Dm"A2 d2 ^c2 |\
+"Dm"d4 de |\
+"F"f3 e d2 |\
+"Am"c3 B A2 |\
+"Gm"B3 d B2 |\
+"Gm"G4 de |\
+"Dm"f3 a f2 |\
+"Am"e2 g2 e2 |\
+"Dm"f2 de fd |\
+"A"e2 ^c2 A2 |\
+"Dm"d2 de fd |\
+"Gm"g2 ga bg |\
+"A"a2 e2 ^c2 |\
+"D"dA ^FA D2 ||
+S:https://www.folktunefinder.com/tunes/182635
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/PitPony.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

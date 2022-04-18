@@ -1,0 +1,20 @@
+X:4
+T:Pols etter Elven-Karan
+B:
+D:
+O:(Annar Gjelten 10/95)
+Z:John Chambers <jc@trillian.mit.edu>
+M:3/4
+L:1/8
+K:G
+|: d | "G"g<d g2 g>b | g<d g2 g>b | "A7"b>a a<g f>a | g<e "D7"d2- d>d | "G"g<d g2 g>b | "Am"AA |
+| "D7"A>d (3BGB A>F | "G"{F}G2 G3 :: B | "G"d2 dB "C"c>e | "G"(3dBd (3cAc B>B | "Am"A>B ce |
+| "D7"(3dBd (3cAc B>B | "G"d2 de | "G"(3dBd (3cAc B>B | "D7"A>d (3BGB A>F | "G"{F}G2 G3 :|
+S:https://www.folktunefinder.com/tunes/183195
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PolsetterElvenKaran.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

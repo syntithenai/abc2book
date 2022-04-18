@@ -1,0 +1,34 @@
+X:48
+T:Golden Slippers
+M:2/4
+L:1/8
+%%staves (1 2)
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d/e/|fff d/e/|fff d/e/|ff f/e/f/g/|fee c/d/|eee c/d/|eee c/d/|
+a>a fe|d2 z:|z|A3 d|fe dc|B3 e|gf ed|c>c cd|
+e>e ec|d>c de|f (aLba)|A3 d|fe dc|B3 e|
+gf ed|c>c cd|e>e eg|f>g fe|d2 z|]
+V:2 down
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x|x4|x4|x4|x4|x4|x4|eg fe|x3:|x|
+x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x4|x3|]
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90035
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1699
+T:The Lakeside Road
+M:2/4
+L:1/16
+B:O'Neill's 1699
+N:"collected by J.O'Neill"
+K:G
+D-F \
+| G2GF GBdB | cdef gfge | dBGB dBGB | ABcA GFED |
+| G2GFGBdB | cdef gfge | dgdcBcAF | G2GGG2 :|
+|: B-c \
+| d2Bd GdBd | e2ce Aece | d2Bd GdBd | AFDF AFDF |
+| d2BdGdBd | cdef gfge | dgdc BcAF | G2GGG2 :|
+S:https://www.folktunefinder.com/tunes/171062
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1699_nt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:110
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lads of Laoise
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Andy McGann
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+F |: EB, (3{/C}(B,A,B,) EGFE | DA, (3{/B,}(A,G,A,) DEFA | GE{/F}ED EFGA | B2 eB JdBAF |
+((3EDE) B,E GEB,E | ((3DED) A,D FDA,D | ((3Bcd) eB dBAF | DEFA B2AF ::
+eB (3{/c}(BAB) egfe | d2 fa gfed | ((3Bcd) ef {/a}gfge | ef ((3agf) gfed |
+"(A"x[|] efed BAFA | BE (3{/F}(EDE) Bdef "A)"| g3 a f3 d | efed BAFB :|]
+x8 "(A"| eB (3{/c}(BAB) GBFB | EB{/c}BA Bdef "A)"| x8 [|] x8[|] x8 [|]
+S:https://www.folktunefinder.com/tunes/94706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lads_of_Laoise_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lads_of_Laoise_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

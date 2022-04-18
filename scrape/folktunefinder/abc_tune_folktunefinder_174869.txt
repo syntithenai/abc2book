@@ -1,0 +1,35 @@
+X:1
+T:Mazurek Dabrowskiego
+O:1797
+N:but what country  Sounds Serbian or Croatian
+N:the second part is same as the first, just transposed.
+M:3/4
+L:1/8
+K:D
+ "D"[DF]>[EG][F2A][F2A] | [FA]>[FA] [GB][FA] [EG][DF] |\
+"A7"[CE]>[CE][C3A][EG]  | [E2G] "D"[D2F] z2 |
+ "D"[DF]>[EG][F2A][F2A] | [FA]>[FA] [GB][FA] [EG][DF] |\
+"A7"[CE]>[CE][C3A][A,C] | [C2E] "D"D2    z2 |
+|: "A7"[C2E][A,3E][EG]          |     [E2G] "D"[D2F] z2 |\
+   "A7"[EG]>[DG] [C2G]-[EG][GB] |  "G"[G2B] "D"[F2A] z2 |
+       [DF]>[AE] [F3d][Ac]      | "A7"[A2c] "G"[G2B] z2 |\
+   "A7"[CE]>[CE] [C3A][A,C]     | "A7"[C2E] "D"D2   z2 :|
+K:G
+ "G"[GB]>[Ac][B2d][B2d] | [Bd]>[Bd] [ce][Bd] [Ac][GB] |\
+"D7"[FA]>[FA][F3d][Ac]  | [A2c] "G"[G2B] z2 |
+ "G"[GB]>[Ac][B2d][B2d] | [Bd]>[Bd] [ce][Bd] [Ac][GB] |\
+"D7"[FA]>[FA][F3d][DF]  | [F2A] "G"G2 z2 |
+|: "D7"[F2A][D3A][Ac]           |     [A2c] "G"[G2B] z2 |\
+   "D7"[Ac]>[Gc] [F2c]-[Ac][ce] |  "C"[c2e] "G"[B2d] z2 |
+       [GB]>[dA] [B3g][df]      | "D7"[d2f] "C"[c2e] z2 |\
+   "D7"[FA]>[FA] [F3d][DF]      | "D7"[F2A] "G"G2   z2 :|
+S:https://www.folktunefinder.com/tunes/174869
+S:http://trillian.mit.edu/~jc/music/abc/mirror/yagelski.com/sbox/music/mazurekdabrowskiego.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

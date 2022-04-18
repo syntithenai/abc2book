@@ -1,0 +1,27 @@
+X:53
+T:The Sportsman's Hornpipe
+R:hornpipe
+C:unknown, probably trad
+M:4/4
+L:1/8
+Q:70
+K:Am
+|: .c2 c>A .B2 B>A | G>A B>c d>B (3GAB |
+.c2 (3cBA .B2 B>A | .E2 A>B A2 (3GAB |
+.c2 c>A .B2 B>A | G>A B>c d>B G2 |
+g>^f (3g^fe d>B A>G | E2 A>B A2 :|
+|:A>B c>d e>^f g>e | a/2 g/2 ^f/2 e/2 d>^f e>d c>B |
+A>B c>d e>^f g>e | a/2 g/2 ^f/2 e/2  d>^f .e2 e2 |
+a2 a>^f g2 g>e | .c2 c>e d>B (3GAB |
+c2 (3cBA B2 (3BAG | E2 A>B A A :|
+S:https://www.folktunefinder.com/tunes/97721
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

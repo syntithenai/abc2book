@@ -1,0 +1,31 @@
+X:009
+U: ~ = !turn!
+%%topmargin 3cm
+T:Battering Ram
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+d | B2G A2G | B2D D2d | BAG AGE | GDD D2d |
+B2G A2G | B/2c/2dB BAG | ABA BAB | GDD D2d ||
+B2G AGA | B2D D2d | BAG AGE | GDD D2d |
+B2G A2G | B/2c/2dB BAG | ABA BAB | GDD D2B ||
+dBG A2B | dBG G2B | dBG AGE | GDD D2B |
+BdB BAG | BdB AGE | B2G AGE | GDD D2B ||
+deg aga | bag age | deg aga | bag e2g |
+bag age | ged edB | dBG AGE | GDD D2B |]
+S:https://www.folktunefinder.com/tunes/94607
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Battering_Ram_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Battering_Ram_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

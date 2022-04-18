@@ -1,0 +1,69 @@
+X:82
+%%topspace 15
+T:Praeludia 82
+L:1/4
+M:C|
+K:F frenchtab
+%%staffsep 30pt
+[,dda{a}/].fc.,d ,a.d,c.a |\
+,,d/,,f,d,,c ,,d.a,c,,b |\
+,,a/.,d,,b.,c ,d.a,,d.,c |\
+,,,a/.c,d,,,,c ,,,a.,,a,,,,e.a |\
+,c/,,,a,,a.,a ,,,c.,,c.,a,,,a |\
+,,,,e/.a,,,a.,d ,c.,,d:,a.,,c |
+% Takt 7
+,,,,a/.,d,c,,,,,c ,,d.,d,,,,,d.,a |\
+,,b/,,,,,aa.,c ,,,,c:c.,d,,,,a |\
+,,,,,d/.a,,,,a.,d ,c[,da],,,c.,c |\
+,,,a/.c.,d,,,,c ,,,a.,,a,,,,e.,,,c |\
+,,d/.a.,c,,,,a ,,,,,a.,a.,,c,,,a |\
+,,,,e/.,,d,,,a.,,a ,a,,,c,,,,,a.,,c |
+% Takt 13
+,,,,a/,,,c,,d,,,,e a.,c,,,a.c |\
+,d/,,da.,c ,,f.c,d,,b |\
+,a/.a,,,e.,c ,,e.,,f:,c.,,e |\
+,,,,c/,,,a,,a,,,,,d .,,ba,,,,a.,c |\
+,,a/.,d,,,c.,c ,,,a.,d.c,,d |\
+a/.,c,,f.,d ,,c.a,,d.,c |
+% Takt 19
+,,,c/.,a,,c,,,a ,,,,e.,,d,,,a.,,a |\
+,a/.,,,c,,c,c ,,,e.,,d,d,,,a |\
+,,a/.,a,,,c.,,c ,c.,,d:,a.,,c |\
+,,,,a/,,,c,,d.,c .a,,,,e |\
+,,,a/.,,d,d.a c,b,,,,,d.,,,,c |
+% Takt 24
+,,,a/.,,b,ad ,,,,a.a,c.c |\
+e/.f,,,,,a.c e.fh.e |\
+,,,,a/.ef.h k.f,,,,,a.h |\
+e/.fh.e ,,,,,c.fc.e |\
+f/.c{,c}.a ,c.,da.,c |\
+{,a}/.,d,a.,c ,d.,,c{,,a}.,c |
+% Takt 30
+,,d/.,a,c.,,d ,,,,,a.,a,,c.,,d |\
+,a/.,,c,,,,,c.,,d ,,a.,,c,,d.,a |\
+,,,,a/.a,c.,e a.c,,,,,a.h |\
+e/.fh.k ,,a.kg.h |\
+k/.g,,,,,c.c ,e.ac.,e |\
+,,,,,e/.a,a.,c ,d.,a,,,,a.c |
+% Takt 36
+,c/.,ea.,c {,a}.,a,c.,e |\
+a/.c,,,,,a.a ,a,c,,c.,,d |\
+,,,c/.,a,,c,,,a ,,,,e.,,d,,,a.,,a |\
+,a/.,,c.,c.,,d ,,,a,a,,c.,,d |\
+,a/.,,c,,,,a.a ,c,,,,,d,,,,,c.,d |\
+,,,,,d/.a,a.,,b ,c.,d,,,,a.a |
+% Takt 42
+.,c/,,,,,c,,d.,d ,,,,,d.,a,,b.a |\
+,,,,a/.,c,,,,c.,,,a ,,a.,a,c.,d |\
+,,,,a/.a,c.,,d ,,b.a,,a.c |\
+.,d/,,,cd.,c ,,,ac,d,,,,d |\
+,,,,c/.a,,,,a.,c ,,,,,d.,d,,,,a.,c |\
+[,daa{a}4] |]
+S:https://www.folktunefinder.com/tunes/182284
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:9
+T:Messe "Vers toi, Seigneur" - AL102
+T:(Messe No 1)
+C:L. Guillou
+L:1/8
+T:Seigneur, prends piti
+M:none
+K:Em
+EB A !shortphrase!B4 A G F E D E4||[M:C|]E3D B,3D|E8|E3D B,3D|E8|
+w:Oh*Sei-gneur, toi qui sais par-don-ner.|Sei-gneur, prends pi-|ti|Sei-gneur, prends pi-|ti|
+E3[DF] [B,3G3][DFA]|[E8G8B8]||[M:none]E B A !shortphrase!B4 A G F D E4||[M:C|]E3D B,3D|\
+w:Sei-gneur, prends pi-|ti|De tes en-fants i-ci ras-sem-bls.|Oh Christ, prends pi-|
+E8|
+w:ti|
+E3D B,3D|E8|E3[DF] [B,3G3][DFA]|[E8G8B8]||EB A !shortphrase!B4 A G F E D E E4||
+w:Oh Christ, prends pi-|ti|Oh Christ, prends pi-|ti|Oh*Sei-gneur, toi qui sais par-don-ner.*|
+[M:C|]E3D B,3D|E8|E3D B,3D|E8|E3[DF] [B,3G3][DFA]|[E8G8B8]||
+w:Sei-gneur, prends pi-|ti|Sei-gneur, prends pi-|ti|Sei-gneur, prends pi-|ti|
+T:Saint le Seigneur
+M:2/4
+K:G
+G2 F2|E2 EE|D4|DD EF|G4|GG BG|EE EE|
+w:Saint, saint,|saint le Sei-|gneur,|Dieu de l'U-ni-|vers.|Le ciel et la|ter-re sont rem-|
+A2 AG|FE D2|G2 F2|E4|ED EF|G4|BB BB|
+w:plis de ta|gloi-*re|Ho-san-|na|au plus haut des|cieux|B-ni soit ce-|
+BA G2|EE FG|A4|G2 F2|E4|ED EF|G4||
+w:lui qui vient|au nom du Sei-|gneur|Ho-san-|na|au plus haut des|cieux.|
+T:Agneau de Dieu
+M:C
+K:G
+D2|G2D2 E4|EEEE AAAF|D3C B,4|D2D2 A2F2|G6||
+w:A-|gneau de Dieu,|qui en-l-ves le p-ch du|Mon-*de,|prends pi-ti de|nous.|
+S:https://www.folktunefinder.com/tunes/88128
+S:http://moinejf.free.fr/messe/messeM.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key E
+% Time_signature 2/4
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

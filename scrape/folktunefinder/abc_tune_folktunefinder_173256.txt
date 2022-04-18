@@ -1,0 +1,38 @@
+X:1
+T:Lrdagsvisa
+R:Visa
+O:Jt, Smland
+S:efter August Strmberg
+B:50 Smlndska ltar
+B:Svenska Ltar
+Z:Jonas Brunskog
+N:nr. 40 i 50 Smlndska ltar
+N:Sv. L. Sm. 177
+W:P vnnen min jag tnker 
+W:och hjrtat mitt det glds och ler
+W:nr morgonsolen blnker
+W:och aftonsol gr ner
+W:Men nu r veckan slutad och nu gr jag till tsen
+W:trallala, trallala, hoppfallerallala
+W:gonen bl som duvan och kinden rd som krsen
+W:trallala, trallala, hoppfallerallala
+M:C|
+L:1/8
+K:Am
+(AB)|:c2 (dc) B2 (B^G)|A4 (A3 c)|e2 (ec) d2 (df)|a2 (ag) e2 (AB)|
+c2 (dc) B2 (B^G)|A4 (A3 c)|e2 (gf) d2 (ag)|[1 e4 z2 (AB):|[2 e4  z2 (cd)|]
+|:e2 aa a2 a2|g4 e4|(gf) (df) a2 g2|e4 c4|
+.d2 .d2 d4|.e2 .e2 e4|c2 (dc) B2 ^G2|[1 A4 z2 (cd):|[2A6 z2 |]
+S:https://www.folktunefinder.com/tunes/173256
+S:http://www.folkwiki.se/pub/cache/L%f6rdagsvisa_0d817e.latin.abc
+S:http://www.folkwiki.se/pub/cache/L%f6rdagsvisa_0d817e.abcm.abc
+% Rhythm Visa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T:Loch Ness Monster
+C:Peter MacLeod
+S:Urbn Ri
+M:6/8
+L:1/8
+Q:160
+K:D
+dAA dAA|BAF AAA|dAA dAA|BAA fee|!
+dAA dAA|BAF AAA|Add cde|1 fdc d3:|2 fdc d2e !
+|:fAA Bff|BAA faa|Add cdd|fee ede|!
+fAA Bff|BAA faa|Add cde|1edd d2e:|2 edd d2B !
+|:AdB Add|ddB BAA|Add Bdd|BAA fee|!
+AdB Add|ddB BAA|Add cde|1 edd d2B:|2edd d2f !
+|:aAA faa|dAA Bff|Add cdd|fee efg|!
+aAA faa|dAA Bff|Add cde|1 edd d2f:|2 edd f2e||!
+S:https://www.folktunefinder.com/tunes/172665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lo/Loch_Ness_Monster_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

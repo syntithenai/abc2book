@@ -1,0 +1,34 @@
+X: 112
+T: Lapovo Kolo
+O: Serbia
+S: Atanas Kolarovski AK-008
+M: 2/4
+L: 1/8
+P: ABBCC
+K: Bb
+%%MIDI transpose 12
+Q: 1/4=280
+P:A
+|:fgab   |bfed  | ded2  |dcB2 |
+  fgf2   | fed2 |fed2   |dcB2 |
+  fgab   |bfed  |ded2   |dcB2 |
+  fgf2   |fed2  |fed2   |d2z2 :|
+P:B
+|:f2ed   |c2dc  |BGBd   |c2BA |
+  G2FG   |ABcd  |[1 edfe|d2z2 :|[2BABA|G2z2|
+P:C
+|:F2B2   |AcBA  |F2d2   |cedc |
+  [1 F2f2|=egf_e|dfed   |cedc :|
+  BdcB   |AcBA  |G4     |G4   |
+S:https://www.folktunefinder.com/tunes/171253
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Lapovo_Kolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Lapovo_Kolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:210
+T: Ballykett
+S: Treoir
+Z: B.Black
+M: 4/4
+L: 1/8
+R: reel
+K: D
+fe | dcAG F2 D2 | G2 AG EF G2 | dcAG F2 D2 |\
+Addc d2 :|
+ed | cdef g2 fg | agfa g2 ed | cdef g2 ec |\
+Addc d2 ed |
+cdef g2 fg | agfa g2 fg | afge fdec | Addc d2 ||
+S:https://www.folktunefinder.com/tunes/93541
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

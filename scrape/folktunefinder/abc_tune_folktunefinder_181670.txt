@@ -1,0 +1,26 @@
+X:1
+T:Pas de sept
+C:(ou scottish double) trad., fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:G
+|: [D2G,,2][G2G,2] [G2E,,2][G2E,2] | [FD,,]G[AD,]F [G2G,,2][FD,]E | [D2G,,2][B2G,2] [B2E,,2][B2E,2] | \
+ [AD,,]B[cD,]A [B2G,,2]G,2 :|: [B2G,,2][d2G,2] [A2D,,2]D,2 | [B2G,,2][d2G,2] [G2E,,2]E,2 | \
+ [AA,,]B[cA,]B [AD,,]G[FD,]G |1 [AA,,]B[cA,]d [e2D,,2][d2D,2] :|2 [A2D,,2][F2D,2] [G2G,,2]G,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/181670
+S:http://diato.ifrance.com/diato/tablat/259.abc
+S:http://diato.ifrance.com/tablat/259.abc
+S:http://diato.org/tablat/259.abc
+S:http://perso.orange.fr/diato/tablat/259.abc
+S:http://perso.wanadoo.fr/diato/tablat/259.abc
+S:http://pro.wanadoo.fr/diato/tablat/259.abc
+S:http://www.diatonique.net/tablat/259.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

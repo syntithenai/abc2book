@@ -1,0 +1,29 @@
+X:381
+T:Hippodrome Reel
+C:G.L. Tracy
+B:One Thousand Fiddle Tunes (Cole's)
+L:1/8
+M:4/4
+Q:420
+K:D
+AG|:"D"FAdB AFDF|"A"GABc "D"d2 (cd)|"G"Bdcd "D"Adcd|"E"cgec "A"ABAG|
+"D"FAdB AFDF|"A"GABc "D"d2 (cd)|"G"Bdcd "D"Adcd|1 "A"edce "D"d2 AG:|2 "A"edce "D"d2 d=c|
+K:Bb
+|:"Bb"BFBd BFBd|"F"cAFA "Bb"BABd|"Eb"edce "Bb"dcBd|"C"cdcA "F"F^FGA|
+"Bb"BFBd BFBd|"F"cAFA "Bb"BABc|"D"dA^FA "D"=B^cd=e|1"A"^fd=e^c "D"d2 d=c:|2 "A"^fd=e^c "D"d4|
+S:https://www.folktunefinder.com/tunes/92006
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Hippodrome_Reel.abc
+S:http://idiot-dog.com/relph/Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

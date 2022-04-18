@@ -1,0 +1,30 @@
+X:132
+T: Xiu mudan
+N: C1626
+O: China,Zhejiang, Zhoushan
+S: III, 638]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+Aeeed2cA | A2c2c2zA | G3cA2G2 | E2D2E2z2
+g2e2d2ee | A2e2dcAG | E2c2A2G2 | E2D2E2z2
+e2e2d3c | c2c2c2A2 | cc3E2c2 | D2^F2E2z2
+c3de4 | d3Ac4 | A2e2dcAc | G6E2
+G3Ac4 | A3cG2E2 | G3EDE^FG | E8 | D3EC2B,2 | A,8
+D2D2D2D2 | G3DE4 | A2A2A2A2 | c3GA4
+G3Ac4 | A3cG2D2 | E4z2
+EG | d2dec2B2 | A8 | G2GEDE^F2 | E8
+B2BAG2B2 | A8 | G2GED2^F2 | E8
+S:https://www.folktunefinder.com/tunes/92155
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

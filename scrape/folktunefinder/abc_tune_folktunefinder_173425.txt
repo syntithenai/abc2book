@@ -1,0 +1,89 @@
+X:1
+T:Ma bergere, non l\'egere
+C:Gabriel Bataille
+L:1/4
+M:3
+K:Dm 
+%%indent 1.5cm
+%%tabrhstyle modern
+%%wordsfont Times-Italic 10
+%%
+V:F clef=treble name=Voice staves=2
+V:L clef=frenchtab name=Lute
+%1
+[V:F]F/ G/ A/ F/ A/ B/ c/ c/ d/ e/ f>_e d c/B/ A G/ F/ E>F F3::
+w:Ma ber-ge-re, non l\'e-ge-re En a-mours, me fait re-c\,e-vour du bien tous les jours.
+[V:L][,XbXdca/] ,,,,c ,,,,d ,,,,a [,bbcd] ,,,a [,abc1] [bdda] [a,b,d] ,,,,,,,a \
+[,XbXd,,b/] ,,,,,a ,,,,,,a1 ,,,,,,,a [,d,,c/],,,,a ,,,,,d1 [,dba] [,bbcd2] \
+,,,,,,,a1::
+%2
+[V:F]c/ B/ A/ F/ B/ A/ G/ A/ F/ G/ E> E F/ F/ G/ G/ A/ A/ =B/ c/ d/ e/ ^c d3::
+w:Je la mei-ne, la pur mei-ne, par les champs, O\`u nous pre-nons en-sem-ble de doux pas - se temps.
+[V:L][,,bc/] ,,,a [,Xb,,d],,,,a [,,Xda] ,,,,d ,,,,c ,,,,d ,,,,a .,,a\ 
+[,,c,,a] .,,d ,a .,,c ,,,,a .,,d [,,b,Xc] .,,,d [,,,cXd] \
+[,,Xd] ,,,a .,a [,b,,a] .,d [,a,,,a1]\
+[,,dca2] ,,,,,,,,,a1::
+W:Par la plaine
+W:Sans grand peine
+W:Nous mettons
+W:A mesmes trouppeau nos petits moutons
+W:Puis \`a l'aise
+W:Je luy baise
+W:Son beau sein
+W:Et sa bouche vermeille, son joli t\'etin.
+W:
+W:Que si j'ose
+W:Autre chose
+W:Rechercher,
+W:Elle ne me veut laisser aprocher
+W:Mais subite
+W:Prend la fuitte
+W:Moy apres,
+W:Je s\ccay bien la poursuivre et la joindre de pres.
+W:
+W:Si je l\`eve 
+W:Sus sa greve
+W:Les genoux
+W:Sa cotte si haut qu'on voye dessoubs:
+W:En furie
+W:Elle crie
+W:Et me mord;
+W:Et puis en bien peu d'heure nous sommes d'accord
+W:
+W:Je luy cueille
+W:Et recueille
+W:Tant de fleurs
+W:Qu'elle en peut avoir de toutes couleurs
+W:Elle bonne
+W:Me fa\cconne
+W:Des bouquets
+W:Qui causent au village beaucoup de caquets
+W:
+W:Pourtant passe
+W:Quoy qu'on face
+W:L'aymeray
+W:Et magr\'e le bruit je l'estimeray
+W:L'inconstance
+W:N'a puissance
+W:Sur ma foy
+W:Je veux estre fidelle comme elle est \`a moy.
+W:
+W:Nostre vie
+W:Sans envie
+W:Nous passons
+W:Charmans nos soucis de gayes chansons
+W:Fy des villes
+W:O\`u les filles
+W:Ne font cas
+W:Des amants qui pour elle conduise au trespas
+S:https://www.folktunefinder.com/tunes/173425
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Bataille/ma_bergere.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Bataille/ma_bergere.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

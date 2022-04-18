@@ -1,0 +1,32 @@
+X:19233
+T:Young Love once dwelt. CJF.160
+M:6/8
+L:1/8
+Q:90
+S: C.J.Fox MS, 1829/33, Beverley,E.Yorks.
+R:Air
+O:England
+A:East Yorkshire
+B:Kidson Coll.Mitchell Lib.M1805
+N:The beamed grace notes are as in the MS, but ABC cannot tie the note
+N:before them to the note following them. - PJH.
+Z:P J Headford 2000
+K:C
+c|c2d e<c'b|{b/}a2ge2e|f2g afd|cBa gfd|!c2d ec'b|bag {f/}e2e|
+f2g {b}a{g}f{e}d|cBdc2g|!c'2b ac'a|g2c' b<gg|abc' c'ba|g2{b/a/g/^/f/a/}
+(g=fd)|!
+c2d (ec'b)|bag {f/}e2e|f2g (afd)|(cBd)c2||
+S:https://www.folktunefinder.com/tunes/94524
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

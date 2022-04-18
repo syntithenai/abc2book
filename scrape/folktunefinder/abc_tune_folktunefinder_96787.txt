@@ -1,0 +1,29 @@
+X:30
+T: Planxty Davis.
+T: pleraca dai.bis.
+N: "Collected from Cronin"
+R: Hornpipe
+B: O'Neill's 1561
+M: 2/4
+K: D
+(DF) \
+| A2AB A2FG | AFAB A3B | AGFE DEFG | A2AB A2dc |
+B2Bc B2Ac | BABc B2dB | AGFE DEFG | B2Bc B2b2 |
+bagb ageg | fedf e2de | fedB BAdF | (FA)AB A2dc |
+B2AB d2cd | e2de f2ed | BABc d2F2 | E4 D2 ||
+(fg) \
+| a2ab a2fg | agab a2fg | agfe defg | a2ab a2fa |
+b2bc'b2ga | babc'b2c'b | agfe defa | b2bc' b2fa |
+bafb afeg | fedf e2de | fedB BAdF | (FA)AB A2dc |
+B2AB d2cd | e2de f2ed | BABc d2F2 | E4 D2 ||
+S:https://www.folktunefinder.com/tunes/96787
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1556-1576_bh.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:780
+T:March by Moorhead
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001074.html
+%%ID:00001074
+K:C
+c>d | \
+e2 e>f d2 d>e | c2 c>e d2 e>f | g>ea>g f>ed>c | B>cd>e d>Gc>d |
+e2 e>f d2 d>e | c2 c>e d2 e>f | g>ef>d c2 e>d | c2 c>c c2 ::
+B>c | \
+c4 d4 | c4 z2 c>d | e4 f4 | e4 z2 e>f |
+g>ef>d e>ca>f | g>ef>d e>ca>f | g>ef>g a>gf>e | {e}d>cd>e d>gf>d |
+e2 e>f d2 d>e | c2 c>d d2e>f | g>ea>g f>ed>c | B>cd>e d>Gc>d |
+e2 e>f d2 d>e | c2 c>d d2e>f | g>ef>d c2 e>d | c2 c>c c2 |]
+%%newpage
+%page 60
+S:https://www.folktunefinder.com/tunes/88313
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

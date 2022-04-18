@@ -1,0 +1,24 @@
+X: 1
+T: Miss Girdle
+O: Scotland
+Z: Hiroyuki Yamada
+R: reel
+M: 4/4
+L: 1/8
+D: Iain MacDonald and Iain MacFarlane: The First Harvest
+Z: Contributed 20040315011258 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: D
+d2 dB cABG|d2 dB cdec|d2 dB cABG|gfed cdec:|
+d2 fd Adfd|d2 fd cdec|d2 fd Adfd|gfed cdec|
+d2 fd Adfd|d2 fd cdef|afge fdef|gfed cdec||
+S:https://www.folktunefinder.com/tunes/176081
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/MissGirdle.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/MissGirdle.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 27
+T:Farewell to Whisky. BF13.026
+M:2/2
+L:1/8
+Q:120
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Air
+O:England
+A:Lakes
+N:The key signature is actually written as second space down (C), second
+N:line down (D) and lowest line (E)  The key signature is repeated after
+N:the first quaver group in bar six, this time with F# instead of E#. The
+Z:vmp.Cherri Graebe.
+K:A major
+AFEA cBAB|c2F2"crot in ms"F4|AF EA ABcd|e2c2c2e2|!
+fgag fedc|dcBA B2 cA|E3A cBAB|c2A2A4:|!
+|:c3d ecac|dcBA B4|"crots"c3d ecac|e2a2"crot"a3^g|!
+fgag fedc|dcBA B2 cA|E3 A "crots in ms"cBAB|c2A2A4:|]
+S:https://www.folktunefinder.com/tunes/94939
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

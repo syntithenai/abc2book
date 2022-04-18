@@ -1,0 +1,23 @@
+X:1
+T:Polka #3
+M:2/4
+L:1/8
+N:Polka
+Z:Harry Ferguson 2/20/2003
+K:G
+|: G2G>A | BddB | cBAG | AcBA | 
+G2G>A | BddB | cBAB |[1 G2Bd:|[2 G2 de/f/ ||
+|: g2f>f | egd2 | de/f/ gd | edA2 | 
+de/f/ gd | egdB | cBAB |[1 G2 de/f/ :|[2 G4 ||
+S:https://www.folktunefinder.com/tunes/182978
+S:http://trillian.mit.edu/~jc/music/abc/mirror/icarus.stsci.edu/polka3.abc
+S:http://www-int.stsci.edu/~ferguson/music/polka3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

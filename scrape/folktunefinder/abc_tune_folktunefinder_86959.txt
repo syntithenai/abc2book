@@ -1,0 +1,52 @@
+X:370
+T: Janeen Sullivan's Waltz (with piano acc.)
+C: BB
+M: 3/4
+L: 1/8
+Q: 1/8=350
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] A2 |"D"D2 FA Bd|f2 e2 d2|"G"g2 B2 d2|"A"A2-AB AG|
+[V:2] z2 |D,2[A2F2D2][A2F2D2]|D,2[A2F2D2][A2F2D2]|G,,2[G2D2B2][G2D2B2]|\
+A,,2[A2E2C2][G2E2C2]|
+%
+[V:1] "D"F2 A2 d2|"Em"B2 e2 g2|"D"f2-fg af|"A"e2-ea ge|
+[V:2] D,2[A2F2D2][A2F2D2]|E,2[E2B2G2][E2B2G2]|D,2[A2F2D2][A2F2D2]|\
+A,,2[A2E2C2][G2E2C2]|
+%
+[V:1] "D"d3f d2|"G"B3A G2|"D"F2-FG Ad|"Bm"f2-f2 fg|
+[V:2]  D,2[A2F2D2][A2F2D2]|G,,2[G2D2B2][G2D2B2]|D,2[A2F2D2][A2F2D2]|\
+B,,2[B2F2D2][B2F2D2]|
+%
+[V:1] "A"ag ec AB|A2 G2 E2|"D"D2-DEFE|D4 :|
+[V:2] A,,2[A2E2C2][G2E2C2]|A,,2[A2E2C2][G2E2C2]|D,2[A2F2D2][A2F2D2]|\
+[D,4A,4F4] :|
+%
+[V:1] e2|"Bm"f2 d2 B2|"A"e2 c2 A2|"D"d2-df ed|"F#m"c2 Acef|
+[V:2] z2|B,,2[B,2F2D2][B,2F2D2]|A,,2[A2E2C2][G2E2C2]|D,2[A2F2D2][A2F2D2]|\
+F,2[A2C2E2][E2A2C2]|
+%
+[V:1] "G"g2 e2 g2|"Bm"f4 ga|"A"e2-ef gf|e4 ag|
+[V:2] G,,2[G2D2B2][G2D2B2]|B,,2[B,2F2D2][B,2F2D2]|A,,2[A2E2C2][G2E2C2]|\
+A,,2[A2E2C2][G2E2C2]|
+%
+[V:1] "Bm"f2 d2 B2| "A"e2 c2 A2|"D"d2-df ed|"F#m"c2 Acef|
+[V:2] B,,2[B,2F2D2][B,2F2D2]|A,,2[A2E2C2][G2E2C2]| D,2[A2F2D2][A2F2D2]|\
+F,2[A2C2E2][E2A2C2]|
+%
+[V:1] "G"g4 ab|"Bm"f4 dB|"A"AB AF Ac|"D"d4 :|
+[V:2] G,,2[G2D2B2][G2D2B2]|B,,2[B,2F2D2][B,2F2D2]|A,,2[A2E2C2][G2E2C2]|
+[D,4A,4F4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86959
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,45 @@
+X: 25
+T:Music For A Found Harmonium
+R:reel
+C:Simon Jeffes
+S:Penguin Cafe Orchestra: "Broadcasting from Home" (EG Records 1984)
+Z:This is the whole thing as played on the album.
+M:4/4
+L:1/8
+Q:1/4=200
+K:D % transposed from C
+"[A]"D|:FDGD FDDD|FDGD FDCD|FDGD FDDD|EDCD FDD:|
+|:"[B]"D|EDCD EDCD|FDCD FDCD|GDED CDGD|FDDD D2D:|
+|:"[A]"D|FDGD FDDD|FDGD FDCD|FDGD FDDD|EDCD FDD:|
+|:"[B]"D|EDCD EDCD|FDCD FDCD|GDED CDGD|FDDD D2D:|
+K:C
+|:"[C]"F|cFEF GF2F|cFEF E3F|cFEF GF2F|cFEF E3:|
+K:F
+F|"[D]"BFDF GF2F|BFDF GF2F|BFEF GE2F|BFEF GE2|
+K:D
+G|"[E]"cGEG CG2G|cGEG CG2G|cGEG CG2G|cGEG CG2|
+|:"[A]"D|FDGD FDDD|FDGD FDCD|FDGD FDDD|EDCD FDD:|
+|:D"[B']"|EDCD EDCD|FD=CD FDCD|GDB,D GDCD|FDDD D2D:|
+K:C
+|:F|"[C]"cFEF GF2F|cFEF E3F|cFEF GF2F|cFEF E3:|
+K:F
+F|"[D]"BFDF GF2F|BFDF GF2F|BFEF GE2F|BFEF GE2|
+K:D
+G|"[E]"cGEG CG2G|cGEG CG2G|cGEG CG2G|cGEG CG2|
+|:D|"[A]"FDGD FDDD|FDGD FDCD|FDGD FDDD|EDCD FDD:|
+|:D|"[B]"EDCD EDCD|FDCD FDCD|GDED CDGD|FDDD D2D:|
+|:D|"[A]"FDGD FDDD|FDGD FDCD|FDGD FDDD|EDCD FDD:|
+|:D|"[B]"EDCD EDCD|FDCD FDCD|GDED CDGD|FDDD D2D:|
+|:D|"[B]"EDCD EDCD|FDCD FDCD|GDED CDGD|FDDD D2D:|
+S:https://www.folktunefinder.com/tunes/92724
+S:http://www.alfwarnock.info/alfs/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

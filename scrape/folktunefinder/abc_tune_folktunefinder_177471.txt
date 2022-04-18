@@ -1,0 +1,25 @@
+X:169
+%%topmargin 3cm
+U:~=!turn!
+T:Mrs. MacInroy of Lude
+C:Joseph Lowe
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:B Aeolian
+c2 | B>bb>^a b<ff>^g | {/g}a>fe>a c<A f/e/d/c/ | B^a b<fff{/f}e>c B/B/B ~B :|
+f | dB b>Bf>B | c<Ae>c a>A f/e/d/c/ | dB b>Bff{/f}e<c B/B/B B>f |
+dB b>Bf>B | c<Ae>c a>Ae>c | (3Bcd (3cde (3def (3efg | (3fed (3edc d<BB |]
+S:https://www.folktunefinder.com/tunes/177471
+S:http://trillian.mit.edu/~jc/music/book/skye/T/Mrs_MacInroy_of_Lude.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0169.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

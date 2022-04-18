@@ -1,0 +1,32 @@
+X:1
+T:Morning Glory
+M:C
+L:1/8
+C:Andy Anderson
+Q:1/4=138
+K:G Major
+%%partsfont Times-Bold 16.0
+%%MIDI channel 1
+%%MIDI control 7 50% volume = 50
+%%MIDI program 41       % General MIDI violin
+%%MIDI transpose 0
+%%MIDI gchordoff
+P:A
+BA | G2 d2 BcdB | GAGF G2 d2 | edce d2 Bc- | cBAG A2 BA | 
+G2 d2 BcdB | GAGF G2 de | e d2 e d2 Bc- | cB A2 G2 z2 ||
+P:B
+d2 de d2 Bd- | d^cde d2 B2 | e2 e=f e2 ce- | ede=f e2 c2 |
+d z de d2 Bd- | d^cde d2 z2 | edce d2 Bc- | cB A2 G2 |]
+%%partsfont Times-Roman 10.0
+S:https://www.folktunefinder.com/tunes/176884
+S:http://www.mit.edu/~jcb/MOTley/abc/morning-glory.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/morning-glory.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/morning-glory-tune.shtml
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

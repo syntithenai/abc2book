@@ -1,0 +1,26 @@
+X:1
+T: Tom Broderick's
+M:6/8
+L:1/8
+R:jig
+K:Dmaj
+B|:AFE F3|DED D2B|AFE F3|DFA BdB|
+AFE F3|DED D2f|gfe fdB|1 AFA BdB:|2 AFA B2A|
+|:d2e fed|AFA DFA|d2e fed|AFA b2A|
+def edB|BAF ABd|faf edB|1 AFA b2A:|2 AFA b2b|
+|:ABd fdd|ede fdB|ABd fed|edA BAF|
+A2d fdd|ede fed|faf g2e|edA BdB:|
+|:DFA dAF|DFA BGE|DFA d2F|GEF GFE|
+DFA d2e|edC def|gfe fdB|AFA b2b:|
+|:d2d def|A3 AFA|e3 ede|fed BAB|
+d2d DEF|A3 AFA|e3 ede|1 fdC d2a|2 fdC d3:||
+S:https://www.folktunefinder.com/tunes/171369
+S:http://www.thesession.org/tunes/display/5867
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

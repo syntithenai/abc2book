@@ -1,0 +1,72 @@
+X:1
+T:Polka Nr. 19
+C:traditionell
+R:polka
+A:Sand in Taufers, Suedtirol
+%%begintext
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999N: tonart im buch: in F (1. teil), C (2. teil), Bb (3. teil),  erster ton a' und c'' 
+N:im buch s. 286, nr. 171
+N:im buch zweistimmig
+S:tonband-aufnahme B-360(9) 19/B04, vom 29.11.1940
+S:ausfuehrende: Tauferer Boehmische
+S:besetzung: klarinette, fluegelhorn, tenorhorn, posaune, bass
+%%endtext
+Z:noten-transcription: Franz Kofler
+Z:abc transcription: Simon Wascher
+Q:1/4=112 %im buch
+M:2/4
+L:1/16
+K:F
+V:1
+P:A
+(AGFG A2)B2 | A2F2 A4 | (BAGA B4) | (AGFG A4) |\
+(AGFG A2)B2 | A2F2 A4 | (gfed c2de) | f2f2f2 z2 :|
+V:2
+K:F
+(cBAB c2)d2 | c2A2 c4 | B8 | A8 |\
+(cBAB c2)d2 | c2A2 c4 | (gfed c2de) | f2f2f2 z2 :|
+V:1
+P:B
+L:1/8
+K:C
+(eG) ef | e3 e | (dG) de | (cG)cz |\
+(eG) ef | e3 (f | d)d (g/f/g) | cccz ||
+V:2
+L:1/8
+K:C
+(eG) ef | e3 e | (dG) de | (cG)cz |\
+(eG) ef | e3 (e | d)d (g/f/g) | cccz ||
+V:1
+P:C
+K:Bb
+|:\
+dd dd | d3 c | (cB) BB | F3 B |\
+(BA) AA | E3 A | (cB) BB | F3 B |
+V:2
+K:Bb
+|:\
+ff ff | f3 c | (ed) dd | B3 d |\
+(dc) cc | A3 e | (ed) dd | d3 d |
+V:1
+dd dd | d3 c | (cB) BB | F3 B |\
+AA (f/=e/f) | BB (f/=e/f) | AA (f/=e/f) | BBBz :|
+V:2
+ff ff | f3 c | (ed) dd | B3 B |\
+AA (f/=e/f) | BB (f/=e/f) | AA (f/=e/f) | BBBz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183083
+S:http://simonwascher.info/TradArchiv_polka/polka_nr.19.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

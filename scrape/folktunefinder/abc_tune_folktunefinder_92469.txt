@@ -1,0 +1,36 @@
+X:446
+T: lilangge
+N: C2063
+O: China,Zhejiang Changhua
+S: III, 606]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: D
+BB2AB4 | ABd2BdBA | F3EF4
+A2FAB2AFE4 | D2EDB,3A,B,4
+d2BAB4 | ABd2BdBA | F3EF4
+AFAdB2AFE3F | A2FAE3DB,4
+DD2FE4 | D2EDB,3A,B,4
+B2BAB2B2 | ABddBdBA | F3EF4
+AFAdB2AFE3F | A2FAE3DB,4
+DD2FE4 | D2EDB,3A,B,4
+d2BAB4 | ABd2BdBA | F3EF4
+AFAdB2AFE3F | A2FAE3DB,4
+DD2FE4 | D2EDB,3A,B,4
+d2BAB2B2 | ABddBdBA | d3ef4- | f8
+AFAdB2AFE3F | ABdfe3dB4
+dd2fe4 | d2efB3A | B8
+S:https://www.folktunefinder.com/tunes/92469
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 3
+T: Hora Femeillor
+O: Rom
+M: 5/8
+L: 1/8
+K: Am
+|: "Dm"d2c BA | "Am"A3-A2 | "Dm"d2c BA | "Am"A3-A2 |\
+   "Dm"d3-d2  | "Am"e3-e2 | "E7"d2c BA |1 "Am"e3-e2 :|2 "Am"A3-A2 ||
+|: "Am"a3-a2 | a3-a2 | "A7"a2g fe | "Dm"d2 d3 |\
+   "G"g2 g3 | "F"a2g fe | "E7"d2c BA |1 "Am"A3-A2 :|2 A3 G2 ||
+|: "C"c3 d2 | "C7"e3 g2 | "A7"a2g fe | "Dm"d3-d2 |\
+   "G"g2 g3 | "F"a2g fe | "E7"d2c BA |1 "Am"A3 G2 :|2 A3-A2 ||
+S:https://www.folktunefinder.com/tunes/92014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/HoraFemeillor.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 5/8
+% Has_accompaniment_chords Has chords

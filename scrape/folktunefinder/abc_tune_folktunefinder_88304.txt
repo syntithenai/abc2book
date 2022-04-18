@@ -1,0 +1,30 @@
+X:735
+T:March by Marzinghi
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+U: T = !wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001065.html
+%%ID:00001065
+K:C
+G |\
+c2 c>d e2c2 | g2 g>e f2d2 | e2 f>d c2B2 | c4 z2G2 |\
+c2 c>d e2c2 | g2 g>e f2d2 | e2 f>d c2B2 | c2c>c c2 zd |
+d2 d>B g2 g>d | b2 b>a g2 e2 | d2 d>B A2 d2 | G2 G>G G2 {A}G>F | \
+E2 G2  c3B    | AB cA  d3c   | Bc de  f2 e2 | e2 d>d d2 G2 |
+g2- g>e f2- f>d | e2- e>c d2 g2 | c'3g   TfTeTdTc | g2 g>g Hg3 G |\
+c2 c>d   e2c2   | g2- g>e f2 d2 | e2 f>d c2B2     | c2 z2z2 a2   |
+g4 z2 a2 | g4 z2 a2 | g2 g>f e2 d2 | c4 z2 a2 | \
+g4 z2 a2 | g4 z2 a2 | g2 g>f e2 d2 | c2 c>c c2 |]
+S:https://www.folktunefinder.com/tunes/88304
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

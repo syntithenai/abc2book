@@ -1,0 +1,55 @@
+X: 9032
+T: Cranberry Bog (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] B|:"G"dBge dBBc|"G"dedc "Bm"BAGF|"Em"EBBc "G"BGEG|"D"(3FED AF BDAD|
+[V:2] z|: G,,2[G2D2B2]D,2[G2D2B2]|G,,2[G2D2B2]B,,2[B2D2F2]|E,2[B2E2G2]G,,2[G2D2B2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "G"dBge dBBc|"G"dBcA BGGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4 ||
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|G,,2[G2D2B2]D,2[G2D2B2]|C,2[C2G2E2]G,,2[G2D2B2]|1\
+D,2[D2A2F2]G,,2[G2D2B2]:|2 [D,4A,4F4C4]G,,4||
+%
+[V:1] "G"dg (3gfg bg (3gfg|"D"afdf "C"gece|"G"d2 Bd "Am"cAEA|"D"(3FED AF BDAD|
+[V:2]  G,,2[G2D2B2]B,,2[G2D2B2]|D,2[D2A2F2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "G"dg (3gfg dgba|"Am"gecA "G"dBGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4||
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|A,,2[A2E2C2]G,,2[G2D2B2]|C,2[C2G2E2]G,,2[G2D2B2]|1\
+D,2[D2A2F2]G,,2[G2D2B2] :|2 [D,4A,4F4C4][G,,4D,4B,4]||
+%%%%%%tune repeat
+[V:1] "G"dBge dBBc|"G"dedc "Bm"BAGF|"Em"EBBc "G"BGEG|"D"(3FED AF BDAD|
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|G,,2[G2D2B2]B,,2[B2D2F2]|E,2[B2E2G2]G,,2[G2D2B2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "G"dBge dBBc|"G"dBcA BGGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4 ||
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|G,,2[G2D2B2]D,2[G2D2B2]|C,2[C2G2E2]G,,2[G2D2B2]|1\
+D,2[D2A2F2]G,,2[G2D2B2]:|2 [D,4A,4F4C4]G,,4||
+%
+[V:1] "G"dg (3gfg bg (3gfg|"D"afdf "C"gece|"G"d2 Bd "Am"cAEA|"D"(3FED AF BDAD|
+[V:2] G,,2[G2D2B2]B,,2[G2D2B2]|D,2[D2A2F2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|
+%
+[V:1] "G"dg (3gfg dgba|"Am"gecA "G"dBGF|"C"ECEG "G"B,DGB|1 "D7"cdAF "G"GABc :|2\
+"D7"cdAF "G"G4-|G4 z4|
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|A,,2[A2E2C2]G,,2[G2D2B2]|C,2[C2G2E2]G,,2[G2D2B2]|1\
+D,2[D2A2F2]G,,2[G2D2B2] :|2 [D,4A,4F4C4][G,,4-D,4-B,4-]|[G,,4D,4B,4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87117
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

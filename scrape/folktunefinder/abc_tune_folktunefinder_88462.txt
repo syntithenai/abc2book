@@ -1,0 +1,24 @@
+X:1525
+T:a New Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001242.html
+%%ID:00001242
+K:D
+d2d2 fedc | d2de d2A2 | BdcB AGFE | D2DE D4 | \
+d2d2 fedc | d2(fg) a2gf | e2dc edcB | A2AB A4 ::
+Acec Acec | Bdfd Bdfd | Bagf edcB | (3cde A2A2 GF |\
+G2b2 F2a2 | E2g2 D2f2 | gbag fedc | d2de d4 :|
+S:https://www.folktunefinder.com/tunes/88462
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

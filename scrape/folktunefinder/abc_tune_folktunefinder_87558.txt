@@ -1,0 +1,36 @@
+X: 57
+T: Delarna
+M: 4/4
+L: 1/8
+C: Tommy Flanagan
+Q: 1/4=120
+S: Tommy Flanagan - "Overseas"
+K: D
+%%text (medium)
+%%vskip 20
+P: A
+"D"z2 (3[DF][EG][FA] [EG](3F/G/F/ ^EF|"Am7"A3E "D7"(3_E2B2A2|"Gmaj7"D2(3[DF][EG][FA] [EG](3F/G/F/ ^EF|"C7(#11)"A8|
+"D/A"zDEF ED3|"Bb"zDEF ED3|"Bm7"zDEF "E7"(3^A2B2c2|"Em7"(3:2:4d2B2AG "A7"FE3||
+P: A
+"D"z2 (3[DF][EG][FA] [EG](3F/G/F/ ^EF|"Am7"A3E "D7"(3_E2B2A2|"Gmaj7"D2(3[DF][EG][FA] [EG](3F/G/F/ ^EF|"C7(#11)"A8|
+"D/A"zDEF ED3|"Bb"zDEF ED3|"Em7"z2B,C "A7"DE FA/4F/4E/4D/4|C2(3DFA (3:2:2_B_A2 (3:2:2_d_c2||
+P: B
+"Gbmaj7"_B2 (3B_c_d "Ebm7"_A_GFG|"Abm7"_c2-c/_E/_B/_A/ "Db7"GA2e/d/|"Gbmaj7"_d4 (3_a2_g2f2|"Bsus7"e4"B7"z4|
+"Emaj7"z2(3^GAB "C#m7"^DEFB|"F#m7"c2-(3cBA "B7"(3^G2F2G2|"Emaj7"(3^D2F2E2 (3:2:2D2E4|"Em7"z2 (3:2:4AGF/E/ "A7"^DE2_B,||
+P: A
+"D"z2 (3[DF][EG][FA] [EG](3F/G/F/ ^EF|"Am7"A3E "D7"(3_E2B2A2|"Gmaj7"D2(3[DF][EG][FA] [EG](3F/G/F/ ^EF|"C7(#11)"A8|
+"D/A"zDEF ED3|"Bb"zDEF ED3|"Bm7"zDEF ED3|"C7(#11)"z_B,DF- FA (3FDB,|
+"Em7"z2(3DEF A2-A(3F/E/D/|"A7"F2A_B-B2 Ad-|"D6"d8|"(Em7 A7)"z8|]
+S:https://www.folktunefinder.com/tunes/87558
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

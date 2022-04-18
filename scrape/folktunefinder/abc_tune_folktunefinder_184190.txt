@@ -1,0 +1,27 @@
+X: 1
+T: THE QUAKER
+S: Jour 1956
+O: Bampton
+P: A.(AB2)4
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+DG | B2{c}B2 AGFE | ((3EFE) D2 D3E | F2F2 FEDF | A2G2 G3B |
+     d2ed    c2dB |    A2E2   E2c2 | BAGF E2F2 | G4   G2 ||
+P: B
+FG | A2A2 B3B | AGFG A2BA | GFEF G2AG  | FEDE F3G |
+     A2A2 B3B | AGFG A2BA | GFEF GAB^c | d2D2 D2 ||
+S:https://www.folktunefinder.com/tunes/184190
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Quaker_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

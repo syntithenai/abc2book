@@ -1,0 +1,25 @@
+X:1
+T:Sweet and Sour Jig
+C:copyright 1997 Kaubells
+E:18                   % note spacing
+M:6/8
+K:D
+"D"ABA F2A|ded A2e|"A7"fed A2c|"D"d3 "A7"A3|
+"D"ABA F2A|ded A2e|"A7"fed A2c|"D"d6|
+"D"f2f "G"g2g|"A7"age "D"d3|"D"f2f "Em"g2g|"A7"a3 "D".d'z2|
+"D"f2f "G"g2g|"A7"age "D"d2e|"A7"fed A2c|"D"d3 z2A||
+K: Dm
+"Dm"de=f agf|"C"e2g "(Am)"c2e|"Dm"d2f "Am"ABA|"Dm"d3 dzA|
+"Dm"de=f agf|"C"e2g "(Am)"c2e|"Dm"d2f "Am"ABA|"Dm"d3 z2 e|
+"F"f2a c'af|"C"efg c2e|"F"f2a c'af|"C"c3-"(Am)"czA|
+"Dm"def agf|"C"e2g "(Am)"c2e|"Dm"d2f "A7"Az^c|"D"d6|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/179627
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/off-we-go.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

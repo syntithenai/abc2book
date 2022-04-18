@@ -1,0 +1,31 @@
+X: 1
+T:Polska
+R:Polska
+R:Senpolska
+O:Sweden
+M:3/4
+L:1/16
+C:e. Christina Moberg
+K:Dm
+A2|\
+d3^c A2c2 d2e2| f2ed ^cdeg f4|\
+fefg a2gf e2^c2| d2fa g2fe ^c2A2|
+d3^c A2c2 d2e2| f2ed ^cdeg f4|\
+fefg a2gf e2d2 | ^c4 d6 ::
+a2|\
+a3f d2f2 a2f2| g3a b2ab g4|\
+g3e c2e2 g2e2| f3g a2ga f2e2|
+d3^c A2c2 d2e2| f2ed ^cdeg f4|\
+fefg a2gf e2d2 | ^c4 d6 :|
+S:https://www.folktunefinder.com/tunes/183227
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_7.abc
+% Rhythm Senpolska
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

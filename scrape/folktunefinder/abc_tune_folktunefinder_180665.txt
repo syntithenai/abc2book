@@ -1,0 +1,27 @@
+X:4
+T:Ossia
+M:4/4
+L:1/4
+K:D
+CDEF|GABc!barmem!|CDEF|GABc||
+T:
+K:C none
+M:none
+%%multicol start
+%%staffwidth 6.5cm
+%%postscript gsave barx 0 T 0.6 dup scale
+C/E/DEF!barest!|
+%%multicol end
+K:D treble
+CDEF|GABc|CDEF|GABc||
+S:https://www.folktunefinder.com/tunes/180665
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07801.html
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

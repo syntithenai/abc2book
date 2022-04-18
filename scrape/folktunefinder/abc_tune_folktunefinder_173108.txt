@@ -1,0 +1,26 @@
+X:1
+T:Loudac, rond : Y'a un geai (2)
+E:12
+Z:Roger Ngaret (94-95)
+R:loudeac
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=168
+G2c2 "Am"c2d2 c2B2 "D"A4 | (3G2c2c2 "Am"c2d2 c2B2 "D"A4 :|\
+G2d2 "G"d2c2 d2e2 d4 | A2B2 "D"c2c2 B2A2 "G"G2d2 |\
+d2d2 "D"c2B2 A4 "G"G4 |: d2e2 (3d2e2d2 c2B2 (3A2"D"d2d2 |\
+d2d2 c2B2 A4 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/173108
+S:http://termen.free.fr/danses/loudeac/LoudeacrondYaungeai2.abc
+% Rhythm Loudeac
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

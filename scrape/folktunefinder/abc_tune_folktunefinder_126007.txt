@@ -1,0 +1,25 @@
+X:7628
+T:Irish Washerwoman
+R:jig
+M:6/8
+Q:120
+K:G
+A|BGG DGG | BGB dcB | c3 DFA | cBc edc |
+ BGG DGG | BAB dcB | c3 Adc | BGF G2A |
+ B3 D2G | BGB dcB | cAF DFA | ~c3 edc |
+ BGG DGG | ~B3 dcB | cBc Adc | BGF G2f|
+ gfg def | g3 bag | fdd Add | fef agf |
+ gdg fdf | ece dBG | c3 Adc | BGF G2f |
+ gfg def | gfg bag | fed Ade | ~f3 agf |
+ egg dgg | cgg Bgg | cBc Adc | BGF G3 |
+S:https://www.folktunefinder.com/tunes/126007
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

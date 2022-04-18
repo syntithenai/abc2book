@@ -1,0 +1,31 @@
+X:1
+T:Movrin aus Hoetting
+A:Hoetting bei Innsbruck
+C:traditionell
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "Instrumentale Volksmusik aus Tirol", K.Horak, eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:C
+z2G, |\
+C2G, C2E | G2G GFE | D2D FED | CDE G,2G, |\
+C2G, C2E | G2G GFE | D2D FED | C3 :|
+|: GEF |\
+GcB ABc | G2E G,CE | G2G GFE | D3 GEF |\
+GcB ABc | G2E G,CE | G2G FED | C3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177312
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/movrin_aus_hoetting.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

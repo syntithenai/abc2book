@@ -1,0 +1,23 @@
+X: 1
+T: Pibddawns Rhif Wyth
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF | 
+G2 d2 c>BA>G | c>Bc>d (3cdc (3cBA | G2 d2 c>BA>G | d>^cd>e d>=cB>A |
+G2 d2 c>BA>G | c>B (3Bcd e>f (3gfe | d>BG>B (3cBA F>A | G2 G2 G2 :|
+|: (3def | 
+g>G (3Bcd g>fe>d | c>eg>e ^c>eg>e | a>A (3^cde a>g (3gfe | d>fa>f d>f (3agf |
+g>GB>d g>fe>d | e>EG>c e>g (3gfe | d>gf>e (3ded (3cBA | G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/182351
+S:http://www.thesession.org/tunes/display/6364
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

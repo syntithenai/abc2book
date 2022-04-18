@@ -1,0 +1,26 @@
+X:134
+U: ~ = !turn!
+%%topmargin 3cm
+T:Moving Cloud
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:Dm
+CFAF _DFAF | CFAF GPFDF | GB ((3{/c}BAB) Acfa | gfdc AGPFD |
+CFAF _DFAF | CFAF GPFDF | GABc dgPfd | [1 cAGA FGPFD :|] [2 cAGA FGAB ||
+|: Jc2 fc acfc | (3.c.c.c ac gcfc | Jd2 gd bdfd | (3.d.d.d bg agfd |
+c2 fc acfc | (3.c.c.c ac gcfa | bagf agfd | [1 cAGA FGAB :|] [2 cAGA FGPFD |]
+S:https://www.folktunefinder.com/tunes/94730
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Moving_Cloud_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Moving_Cloud_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

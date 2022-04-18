@@ -1,0 +1,24 @@
+X:0441
+T:"On Lough Neagh's Banks"   (air)  0441
+C:after Chief  F. O'Neill
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:C
+"_vb"(e3/2f/2)|(g3a) (ge)(dc)|d3/2c/2de A3c|(G3/2A/2G).E G2(cB)|(Adfe) d2(c/2d/2e/2f/2)|
+(g3a) (ge)(dc)|(fe)(dc) {B}A2(e3/2d/2)|(cA)(GE) G2(c3/2d/2)|e2({B}d3/2c/2) c2||
+(GF)|E3G (A3/2G/2A).c|(d3/2c/2d).e A3a|(g3/2a/2g).e fedc|(f3/2g/2 a/2g/2f/2e/2) {e}d2gf|
+(egab) (c'2ba)|gedc {B}A2ed|(cA)(GE) G2c3/2d/2|e2({B}d3/2c/2) c2|]
+S:https://www.folktunefinder.com/tunes/180436
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0441-OnLoughNeagh.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0441-OnLoughNeagh.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

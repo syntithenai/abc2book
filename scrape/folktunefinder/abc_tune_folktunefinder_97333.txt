@@ -1,0 +1,19 @@
+X: 1
+T:Limehouse Blues
+M:8/8
+L:1/8
+K:G
+"C"EFG(E E) F2 G| EFG(E E4)|"A7"EFG(E E) F2 G|EFG(E E4)|"G" DDEF GGA_B|B
+_BA(G G4| "A7"E2F2G2A2|"D7" dcBA GFED|
+"C"EFG(E E)F2G|EFG(E E4)|"A7"GAB(G G)A2B|GAB(G G4)| "G"d^cd(e e)d2 B|"Am
+"cBc(A A3) B|"D7"cBc(d d) B A2|"G"(G4G4):||
+S:https://www.folktunefinder.com/tunes/97333
+S:http://www.freewebs.com/folkbluesnbeyond/CEILIDH.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 8/8
+% Has_accompaniment_chords Has chords

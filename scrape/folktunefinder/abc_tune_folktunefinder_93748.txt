@@ -1,0 +1,23 @@
+X:400
+T: McCabe's
+S: "Play 50 Reels" (Armagh Pipers' Club)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: D
+FEDF A3 F | GE E2 =cE E2 | FEDF A2 AF | GE=cE ED D2 :|
+FEDF ABdG | G2 dG G2 dG | FEFG A2 dc | (3ABA GE ED D2 :|
+Addc dedA | Be e2 Be e2 | (3fed ec d2 cA | (3Bcd AG FD D2 |
+Addc dedA | (3Bcd ef g2 fg | a2 (3gfe fdec | dBAG FD D2 ||
+S:https://www.folktunefinder.com/tunes/93748
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

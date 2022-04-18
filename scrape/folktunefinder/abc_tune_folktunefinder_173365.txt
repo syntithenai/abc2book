@@ -1,0 +1,46 @@
+X:1
+T:Lumps of Plum Pudding
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Bledington
+O:English
+R:Jig
+%:NoTeX
+%:NoWWW
+%P:A.AB.(CB)$^2$
+P:A.AB.(CB)2
+K:A
+Q:C3=108
+P:A
+e | c>BA a>ga | e>fe A2 B | c>BA A>GA | B>cB E2  \
+d | c>BA a>ga | e>fg a3   | e>cA Bcd  | e2 c A2  ||\
+P:B
+z | e>ga e>ga | e2 c A>Bc | d>ef dBc  | d>BB Bcd |\
+    e>fg a3   | e>fg a3   | e>cA Bcd  | e2 c A3  ||\
+P:C
+M:3/8
+L:1/8
+e2 d |\
+M:6/8
+c2 B A3 | a2 g a3 | e2 f e3 | A3 B3 | c2 B A3 | A2 G A3 | B2 c B3 |\
+M:3/8
+L:1/8
+E2 d |\
+M:6/8
+c>BA a>ga |\
+e>fg a3 | e>cA Bcd | e2 c A2 ||
+S:https://www.folktunefinder.com/tunes/173365
+S:http://www.ucolick.org/~sla/morris/music/Bledington/lumppp.lb.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

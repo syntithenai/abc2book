@@ -1,0 +1,61 @@
+X: 1
+T:Puff the Magic Dragon
+C:Peter Yarrow, Leonard Lipton
+S:Peter, Paul, and Mary
+Z:Trans. by Thornton Rose, Sep. 2001
+N:No chorus between verses 3 and 4. 2nd ending on final chorus.
+M:C|
+L:1/4
+K:A
+% intro
+"(8)" z4 |:
+% verse
+"G"A z/2 A/2 A A | "Bm"G2 E2 | "C"F2 A A | "G"E3 E | "C"D D E D |
+"G"C E "Em"A A/2A/2 | "A7"A F G A | "D7"B4 | "G"A A A A | "Bm"G2 E2 |
+"C"F F A A | "G"E3 E | "C"D D E D | "G"C E "Em"A3/2 A/2 |
+"A7"F A "D7"G B | "G"A2 "D7"G2 ||
+% chorus
+"G"A z/2 A/2 A A | "Bm"G2 E2 | "C"F2 A A | "G"E3 E | "C"D D E D |
+"G"C E "Em"A A/2A/2 | "A7"A F G A | "D7"B4 | "G"A z/2 A/2 A A |
+"Bm"G2 E2 | "C"F2 A A | "G"E3 E | "C"D D E D | "G"C E "Em"A A/2A/2 |
+[1 "A7"F A "D7"G B | "G"A3 A :|
+[2 "A7"F2 A2 | "D7"G2 B2 | "G"A4- | A z z2 |]
+W:1. Puff, the magic dragon, lived by the sea
+W:And frolicked in the autumn mist in a land called Honalee.
+W:Little Jackie Paper loved that rascal Puff
+W:And brought him strings and sealing wax and other fancy stuff. Oh!
+W:
+W:Chorus:
+W:Puff, the magic dragon, lived by the sea
+W:And frolicked in the autumn mist in a land called Honalee.
+W:Puff, the magic dragon, lived by the sea
+W:And frolicked in the autumn mist in a land called Honalee.
+W:
+W:2. Together they would travel on a boat with billowed sail.
+W:Jackie kept a lookout perched on Puff's gigantic tail.
+W:Noble kings and princes would bow whene'er they came
+W:Pirate ships would lower their flags when Puff roared out his name. Oh!
+W:(Chorus)
+W:
+W:3. A dragon lives forever, but not so little boys.
+W:Painted wings and giant rings make way for other toys.
+W:One grey night it happened, Jackie Paper came no more
+W:And Puff that mighty dragon, he ceased his fearless roar.
+W:
+W:4. His head was bent in sorrow, green scales fell like rain
+W:Puff no longer went to play along the cherry lane.
+W:Without his lifelong friend, Puff could not be brave.
+W:So, Puff that mighty dragon sadly slipped into his cave. Oh!
+W:(Chorus)
+S:https://www.folktunefinder.com/tunes/184089
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/PuffTheMagicDragon.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/PuffTheMagicDragon.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/PuffTheMagicDragon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

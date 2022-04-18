@@ -1,0 +1,24 @@
+X: 1
+T: Low Highland, The
+M: 4/4
+L: 1/8
+R: strathspey
+K: Ador
+A,2 A,2 EA,B,A,|G,B,DG D<G, B,G,|
+A,2 A,2 EA,B,A,|G,A, (3B,A,G, A,2 G,B,|
+A,2 A,2 EA,B,A,|G,B,DG D<G, B,G,|
+A,2 A,2 EA,B,A,|G,A, (3B,A,G, A,2 G,B,|
+A,bag edef|g2 g2 dgBG|
+Abag edef|(3gfe dB (3ABA ^GB|
+Abag edef|g2 g2 dgfg|
+(3agf ge dBAF|(3GFE DB, A,2 G,B,|
+S:https://www.folktunefinder.com/tunes/173239
+S:http://www.thesession.org/tunes/display/3012
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

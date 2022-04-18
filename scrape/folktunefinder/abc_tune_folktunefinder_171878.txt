@@ -1,0 +1,27 @@
+X: 1
+T: Lepadumdowledum
+M: 9/8
+L: 1/8
+R: slip jig
+K: Gmaj
+|:ABc {d}cBA GAB|{d}BAG cGE GED|D/2D/2DD GFD D/2D/2DD|D/2D/2DD GFD DE/2F/2G|
+ABc cde dBG|c/2B/2AG cGE GED|D/2D/2DD GFD D/2D/2DD|1 D/2D/2DD GFD DE/2F/2G:|
+[2 D/2D/2DD GFD DAB|:cde dgf eAc|BdG cGE GED|D/2D/2DD GFD D/2D/2DD|
+D/2D/2DD GFD DAB|cde deg f/2{g}f/2fd|gec dBG cGE|D/2D/2DD GFD D/2D/2DD|
+[1 D/2D/2DD GFD DAB:|2 D/2D/2DD GFD Dcd|:efg eaf def|eAc BdG cGE|
+D/2D/2DD GFD D/2D/2DD|D/2D/2DD GFD czd|e/2e/2ed gfe faf|def gdA cGE|
+D/2D/2DD GFD D/2D/2DD|1 D/2D/2DD GFD Dcd:|2 D/2D/2DD GFD d2c|:Bdg dBd edc|
+Bdg dBc dBG|c-cB A/2A/2AG AdB|c-cB A/2A/2AG Adc|Bdg dBd edc|
+Bdg afg dBG|c-cB A/2A/2AG AdB|1 c-cB A/2A/2AG Adc:|2 c-cB A/2A/2AG Ade||
+|:fga gfe dAB|cde gdA cGE|D/2D/2DD GFD D/2D/2DD|czB A/2A/2AG Ade|
+fga gfg afd|gec dBG cGE|D/2D/2DD GFD D/2D/2DD|1 D/2D/2DD GFD Dde:|
+[2 D/2D/2DD GFD DE/2F/2G||czB A/2A/2AG cDD|ABc BAG ADD|D8z||
+S:https://www.folktunefinder.com/tunes/171878
+S:http://www.thesession.org/tunes/display/852
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

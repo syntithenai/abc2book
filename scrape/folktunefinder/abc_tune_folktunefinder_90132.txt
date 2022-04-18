@@ -1,0 +1,113 @@
+X:145
+T:Contemporary Revolution
+C:Thos. Terreri, 1975
+U:N=!tenuto!
+U:K=!crescendo(!
+U:V=!crescendo)!
+U:J=!diminuendo(!
+U:W=!diminuendo)!
+M:C
+L:1/16
+Q:1/4=90
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:!biga!!mp!K[AD][AD][dG][dG][BE][BE][fB]V[fB]!f! zL(aa)f edcA|\
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+|:G,G,CCA,A,[EA,][EA,] zL(aa)f edcA-|\
+V:1
+M:3/4
+e2ef edcA-A4||\
+V:2
+M:3/4
+A8 LGLELDLC||\
+V:1
+M:4/4
+!mp!K[AD][AD][dG][dG][BE][BE][fB]V[fB]!f! zL(aa)f edcA|
+V:2
+M:4/4
+G,G,CCA,A,[EA,][EA,] z(aa)f edcA-|
+V:1
+M:2/4
+e2eg ecA2:|\
+V:2
+M:2/4
+.A4 AE[E2A,2]:|\
+V:1
+M:4/4
+!bigb!LaecA LaecKA ceLVa2 aage|[M:5/4]ecAG zA zc eeze cczc AALcA|
+[M:4/4]GELae cALae cAce La2aa|[M:3/4]gecA GczA z4|[M:4/4]LaecA LaecKG ceLVa2 aage|
+dcAG zA zc eeze cczc|AALcA GELcA (3GEGLcA GEae|dALae cKAce La2aa gecA|[M:2/4] GczA z4||
+V:2
+M:4/4
+LaecA LaecA ceLa2 aage|[M:5/4]ecAG zA zc eeze cczc AALcA|
+[M:4/4]GELae cALae cAce La2aa|[M:3/4]gecA GczA z4|[M:4/4]LaecA LaecG ceLa2 aage|
+dcAG zA zc eeze cczc|AALcA GELcA (3GEGLcA GEae|dALae cKAce La2aa gecA|[M:2/4] GczA z4||
+V:1
+M:4/4
+|:!mf!KAAddBBff BBee^cc^gVg|[M:2/4]z(Laa)f edcA:|\
+V:2
+M:4/4
+|:[DG,][DG,][GC][GC][EA,][EA,][AD][AD] [EA,][EA,][AD][AD][^FB,][FB,][^A^F][^A^F]|[M:2/4]z(Laa)f edcA:|\
+V:1
+M:4/4
+!bigc!!mf!KAAddBBff BBee^cc^gVg-|
+V:2
+M:4/4
+[DG,][DG,][GC][GC][EA,][EA,][AD][AD] [EA,][EA,][AD][AD][^FB,][FB,][^A^FB,][^c-^F-B,-]|
+V:1
+M:5/4
+!f!^g16-g2ff-|f16-f2ee-|Je16-e4-|e8-W!p!e2z2 z4 z4"^(fine)"||
+V:2
+M:5/4
+[c16-F16-B,16-][c2F2B,2][BEA,][B-E-A,-]|[B16-E16-A,16-] [B2E2A,2][ADG,][A-D-G,-]|[A16-D16-G,16-][A4-D4-G,4-]|[A8-D8-G,8-][A2D2G,2]z2z4z4||
+V:1
+M:4/4
+L:1/4
+!bigd!Ke ^f ^g Va-|a J^f3W|Ke ^f ^g Va-|a =g2 b-|b J^f3-|f2 WKe a-V|
+a J^f3-|f2W Ke a-V|Ja g2W K=f-|f V!ff!Lb3-|b2 Lf Lb-|b4|La Lb3-|Jb2-Wb/z/ z|
+V:2
+M:4/4
+L:1/4
+[ADG,][BED,][^c^FB,][d-G-C-]|[dGC] [B3G3A,3]|[ADG,][BEA,][^c^FB,][d-G-C-]|[dGC] [^c2^F2^A,2] [e-A-D-]|
+[eAD] [B3-E3-A,3-]|[B2E2A,2] [ADG,][d-G-C-]|[dGC] [B3-E3-A,3-]|[B2E2A,2] [ADG,][d-G-C-]|[dGC] [=c2=F2_B,2] [^A-^D-^G,-]|
+[ADG,] [Le3-A3-D3-]|[e2A2D2] [LBEA,][Le-A-D-]|[e2-A2-D2-][e2A2D2]|[LdGC][Le3-A3-D3-]|[e2-A2-D2-][e/A/D/]z/ z|
+V:1
+M:4/4
+L:1/16
+|:z4z4 !mp!AAddBBff|z16|!cresc!AAddBBff BBee^ccL^gg:|[M:3/4]z4 !f!Laa z2 z2 !ff!Lbb!D.C.!||
+V:2
+M:4/4
+L:1/16
+|:z4 z4 [DG,][DG,][GC][GC][EA,][EA,][BEA,][BEA,]|z16|[DG,][DG,][GC][GC][EA,][EA,][GE][GE] [EA][EA][AD][AD][^FB,][FB,][^cFB,][cFB,]:|\
+[M:3/4]z4 [dGC][dGC] z2 z2 [eAD][eAD]||
+V:1
+M:4/4
+L:1/16
+!bige!!mf!K[AD][AD][dG][dG][BE][BE][fB][fB]V z(aa)f edcA|[M:3/4]e2eg edcA-A4|[M:4/4]AAddBBff BBee^cc^gg|
+z(Laa)f edcA e2eg ec"^From (B) to fine"A2:||
+V:2
+M:4/4
+L:1/16
+G,G,CCA,A,[EA,][EA,] z(aa)f edcA-|[M:3/4]A8 GEDC|[M:4/4][DG,][DG,][GC][GC][EA,][EA,][BE][BE] [EA,][EA,][AD][AD][^FB,][FB,][^cF][cf]|z(Laa)f edcA-A4 AE[EA,]:|
+S:https://www.folktunefinder.com/tunes/90132
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Time_signature 5/4
+% Has_accompaniment_chords Has chords

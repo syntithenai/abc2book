@@ -1,0 +1,27 @@
+X:560
+T:Christ Church Bells in Oxon -- oxford
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/4
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000edc.html
+%%ID:00000edc
+K:C
+c>c cc | cc ce    | dc BA    | G3 G | \
+EG CG  | cF Gg/f/ | ea d/e/f | e>d c2 ::
+c>c cc     | c>c cg | f (e/f/) dc | dGd>d | \
+edd (c/B/) | cA  dB | c>d e2 ::
+g/g/g/g/ gg/g/ | gg/g/ gG | A>B cd | B3 A/B/ |\
+cB cB | cd BA/G/ | GG GG | G3 ::
+%%newpage
+%page 34
+S:https://www.folktunefinder.com/tunes/88269
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

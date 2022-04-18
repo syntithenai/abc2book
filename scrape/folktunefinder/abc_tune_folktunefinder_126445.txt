@@ -1,0 +1,22 @@
+X:8066
+T:Joe Cooley's
+Z: id:dc-jig-151
+M:6/8
+L:1/8
+K:D Major
+e|fef d2B|A3 ABd|e3 edB|e3 efg|!
+fef d2B|A3 ABd|e3 edB|d3-d2:|!
+e|fef a2f|fef afd|e3 edB|e3 d2e|!
+[1 fef a2f|fef afd|efe ede|f2e d2:|!
+[2 fef d2B|A3 ABd|e3 ede|f2e d2|]!
+S:https://www.folktunefinder.com/tunes/126445
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

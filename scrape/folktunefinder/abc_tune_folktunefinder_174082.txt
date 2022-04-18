@@ -1,0 +1,17 @@
+X:1
+T:The Manchester Rambler
+M:6/8
+L:1/8
+K:D
+ A| FFF FDE| F3/2 F/2 F FDE| F F3/2 F/2 AAF| E3 z2 F| GGG GEF| G2 G/2G/2 GEA|\
+ A/2 A3/2 A CFE| D3 z2 D| DFA dcB| A/2 E3/2 z z2 F| GFG BAG| F3 z2 A|\
+ DFA d A3/2 F/2| G E2 z2 F| GFG BAC| D3 z2 A/2A/2| FD A/2A/2 FDA| GEE E2 D|\
+ CEG B/2 A3/2 G| FDD D2 F| DFA dAF| G E2 z2 z/2 F/2| GFG BAC| E D2 z2||\
+S:https://www.folktunefinder.com/tunes/174082
+S:http://back.numachi.com:8000/dtrad/abc/MNCHRAMB.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

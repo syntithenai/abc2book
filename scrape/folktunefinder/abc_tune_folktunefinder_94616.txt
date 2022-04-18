@@ -1,0 +1,47 @@
+X:018
+U: ~ = !turn!
+%%topmargin 3cm
+T:Boys of the Lough
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:D
+dB | AF (3.F.F.F AFAB | defd ~B3 d | AF (3.F.F.F dF (3.F.F.F | EDEF E2 dB |
+AF ((3{/G}FEF) A2 AB | defd ~B3 d | AF (3.F.F.F dF (3.F.F.F | EDEF D2 dB ||
+AF ((3{/G}FEF) A2 AB | defd ecdB | AF (3.F.F.F dF (3.F.F.F | EG ((3FED) EFGB|
+AF ((3{/G}FEF) A2 AB | defd ~B3 d | AF (3.F.F.F dF (3.F.F.F | GFEG FDDg ||
+fg ((3agf) gfec | defd ecdB| AF (3.F.F.F dF (3.F.F.F | PEDEF E2 FE |
+D2 af gfec | decd BcdB | AF (3.F.F.F dF (3.F.F.F | GFEG EDDg ||
+fgaf gfec | defd ~B3 d | AF (3.F.F.F ABde | ((3{/g}fef) gf e2 fg |
+((3agf) ((3gfe) fdec | ((3dcB) ((3cBA) BcdB | AF (3.F.F.F dF (3.F.F.F | EGFE DEFG ||
+((3ABA) FA A2 FA | defd ((3cBA) Bd | AF (3.F.F.F dF (3.F.F.F | PEDEF E2 dB |
+FA ((3{/G}FEF) A2 AB | defd ~B3 d| AF (3.F.F.F dF (3.F.F.F | EDEF D2 dB ||
+AF ((3{/G}FEF) A2 AB | defd ~B3 d | AF (3.F.F.F AFDF | ((3GFE) ((3FED) CDEF |
+((3ABA) FA A2 FA | defd ((3cBA) Bd | AF (3.F.F.F dF (3.F.F.F | GFEG FDDg ||
+fg ((3agf) gfec | dB ((3{/c}BAB) GB ((3{/c}BAB) | AF (3.F.F.F dF (3.F.F.F | PEDEF E2 FE |
+D2 af {/a}gfec | ((3dcB) ((3cBA) BcdB | AF (3.F.F.F dF (3.F.F.F | GFEG FDDg ||
+fg ((3agf) gfec | defd ecdB | AF (3.F.F.F ABde | ((3{/g}fef) gf e2 fg |
+((3agf) ((3gfe) fdec | ((3dcB) ((3cBA) BcdB | AF (3.F.F.F dF (3.F.F.F | EA,CE DEFA ||
+((3ABA) FA DAFA | ((3.d.e.d) cd B2 dB | AF (3.F.F.F AFDF | ((3GFE) ((3FED) CDEF |
+((3ABA) FA DAFA | defd BdcB | AF (3.F.F.F dF (3.F.F.F | EA,CE D2 eB ||
+AF (3.F.F.F AFAB | defd ~B3 d | AF (3.F.F.F dF (3.F.F.F | AF (3.F.F.F EFGB |
+AF ((3{/G}FEF) A2 AB | defd BABd | AF (3.F.F.F dF (3.F.F.F | GFEG FDDg ||
+fgaf {/a}gfec | defd PBABd | AF (3.F.F.F dF (3.F.F.F | ((3GFE) ((3FED) EGFE |
+D2 af {/a}gfec | Pd2 Pc2 PBABd | AF (3.F.F.F dF (3.F.F.F | GFEG FDDg ||
+fgaf {/a}gfec | defd ~B3 d | AF (3.F.F.F ABde | fdgf e2 fg |
+((3agf) ((3gfe) fdec | ((3dcB) ((3cBA) BcdB | AF (3.F.F.F dF (3.F.F.F | EDEF D2 |]
+S:https://www.folktunefinder.com/tunes/94616
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Boys_of_the_Lough_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Boys_of_the_Lough_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

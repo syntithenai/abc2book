@@ -1,0 +1,31 @@
+X:1
+T:The Pondskater
+C:Thomas Bending 2001
+N:for "Ben's Confusion" by Cyril Papworth 1993
+M:6/8
+L:1/8
+K:Em
+"Em"e2 B e2 B | "Am"cBA- ABc | "B"B2 F B2 A | "Em"GFE-EEF |
+ "Em"GEG BAG | "Am"AEA cBA |1 "B"B2 F "B7"B2 A |\
+ "Em"GBe "B"FB^d :|2 "B"B2 F "B7"B2 A | "Em"GFG\
+M:4/4
+"D"A2 ^A2 |
+M:4/4
+L:1/8
+"G"B2 BB BAGB | "C"c2 cc cBAc | "G"BAGA BdcB | "D"AGFE D2 DD |
+"C"E2 EF GFEG | "G"DB,DG "Em"BAGB | "A"A2 AB ^cABc | "D".d2 DE FGA^A ||
+"G"B2 BB BAGB | "C"c2 cc cBAc | "G"BAGA BdcB | "D"AGFE D2 DD |
+"C"CDEC "D"D2 DD | "Em"EFGE "D"F2 FF | "G"GBdB "C"cd"D"ef | "G".g4\
+M:6/8
+"B"f3 |]
+S:https://www.folktunefinder.com/tunes/183489
+S:http://www.thomasbending.co.uk/tunesdances/pondsk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

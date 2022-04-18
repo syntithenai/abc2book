@@ -1,0 +1,50 @@
+X: 9168
+T: Whelan's Frolic (with piano acc.)
+C: BB
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] "Am"e2 e "G"dcB | "C"c2 c "G"BAG | "Am"EAc "D"^FAd | "C"cBc "G"BAG |
+[V:2] A,,2[AEC]G,,2[GDB]|C,2[CGE]G,,2[GDB]|A,,2[AEC]D,2[AFD]|C,2[CGE]G,,2[GDB]|
+%
+[V:1] "Em"eag edB | "Am"cBA "G"GED | "C"EDC "G"DED | "Am7"CA,G, "Am"A,3 :|
+[V:2] E,2[EBG]B,,2[EBG]|A,,2[AEC]G,,2[GDB]|C,2[CGE]G,,2[GDB]|A,,2[GEC][A,3E3C3]:|
+%
+[V:1][M: 9/8] "A"^c2 d eaa "A"eaa | "A"^c2 d "G"egd BAG | "A"AEE ^cEE "G"d3 |
+[V:2][M: 9/8] [A,,3^C3E,3]A,,3 A,,3|[A,,3^C3E,3][G,,3B,3D,3]G,,3|\
+[A,,3^C3E,3]A,,3 G,,3|
+%
+[V:1] "Em"eag edB "A"A3 | "A"aea "G"b2 a g^fe | "A"^cde "G"g^fg dBG |
+[V:2] [E,3B,3G3] B,3 A,3|[^C,3A,3E3] B,3 G,3|[A,,3^C3E,3] B,3 G,3|
+%
+[V:1] "A"AEE ^cEE "G"d3 |"Em"eag edB "A"A3 :|
+[V:2] [A,,3^C3E,3] ^C,3 G,3 |[E,3B,3G3] B,3 A,3 :|
+%%%%%%%%%tune repeat
+[V:1][M:6/8]"Am"e2 e "G"dcB | "C"c2 c "G"BAG | "Am"EAc "D"^FAd | "C"cBc "G"BAG |
+[V:2][M:6/8]A,,2[AEC]G,,2[GDB]|C,2[CGE]G,,2[GDB]|A,,2[AEC]D,2[AFD]|C,2[CGE]G,,2[GDB]|
+%
+[V:1] "Em"eag edB | "Am"cBA "G"GED | "C"EDC "G"DED | "Am7"CA,G, "Am"A,3 :|
+[V:2] E,2[EBG]B,,2[EBG]|A,,2[AEC]G,,2[GDB]|C,2[CGE]G,,2[GDB]|A,,2[GEC][A,3E3C3]:|
+%
+[V:1][M:9/8] "A"^c2 d eaa "A"eaa | "A"^c2 d "G"egd BAG | "A"AEE ^cEE "G"d3 |
+[V:2][M:9/8] [A,,3^C3E,3]A,,3 A,,3|[A,,3^C3E,3][G,,3B,3D,3]G,,3|[A,,3^C3E,3]A,,3 G,,3|
+%
+[V:1] "Em"eag edB "A"A3 | "A"aea "G"b2 a g^fe | "A"^cde "G"g^fg dBG |
+[V:2] [E,3B,3G3] B,3 A,3|[^C,3A,3E3] B,3 G,3|[A,,3^C3E,3] B,3 G,3|
+%
+[V:1] "A"AEE ^cEE "G"d3 |1 "Em"eag edB "A"A3 :|2 "Em"eag edB "A"HA3||
+[V:2] [A,,3^C3E,3] ^C,3 G,3 |1 [E,3B,3G3] B,3 A,3 :|2 [E,3B,3G3] B,3 H[A,,3^C3E,3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87253
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

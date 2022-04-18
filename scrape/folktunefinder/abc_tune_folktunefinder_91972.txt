@@ -1,0 +1,26 @@
+X:042
+%%topmargin 3cm
+T:Cincinnati
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:D
+DAFA DAFA | dAfA eAfA | gAfA edcd | edcB AGFE |
+DAFA DAFA | dAfA eAfA | gAfA edcB | cdeg fdd2 ::
+.eAAA .fAAA | .gAAA .fAAA | eAfA gAfA | edcB AGFE |
+.Dddd .ceee | .dfff .eggg | fgaf bgec | d2d2 d2 :|]
+S:https://www.folktunefinder.com/tunes/91972
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Cincinnati.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Nelson/Cincinnati.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

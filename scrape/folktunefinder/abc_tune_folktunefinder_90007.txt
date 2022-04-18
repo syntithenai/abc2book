@@ -1,0 +1,20 @@
+X:20
+T:Fifer's Masterpiece
+M:2/4
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+EA/B/ cB/A/|eA/B/ cB/A/|EG/G/ Gg|EG/A/ BG|Ec Bd|ce df|ea e/d/c/B/|cA/A/ Ae::
+ea ea|B/G/B/d/ e2|Bg Bg|e/d/e/f/ g2|ea ea|ge/g/ fd|Bg e/d/c/B/|cA/A/ A2:|
+S:https://www.folktunefinder.com/tunes/90007
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

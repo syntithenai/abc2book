@@ -1,0 +1,30 @@
+X:33
+T:Mazurka
+T:efter Pelle Fors
+R:Mazurka
+O:Vikbolandet, \~nstergtland
+S:efter Pelle Fors
+B:Ltar efter Pelle Fors
+Z:Bjrn Ek 2009-01-02
+N:Nr 33 i Ltar efter Pelle Fors
+M:3/4
+L:1/8
+K:G
+%
+|:G2 (BG) (Bd)|d2 cB A2  |a2 (gf)(ef)|g2 fe d2 |
+G2 BG Bd      |d2 (cB) A2|a2 (gf)(ef)|g2 G2 z2:|
+%
+|:b>a g2 B2|c>d e2 A2|A>B (cd) (ef)|g2 fe d2|
+b>a g2 B2|c>d e2 A2|A>B (cd) (ef)|g2 G2 z2:|
+%
+S:https://www.folktunefinder.com/tunes/174900
+S:http://www.folkwiki.se/pub/cache/Mazurka_d939f7.abc
+% Rhythm Mazurka
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

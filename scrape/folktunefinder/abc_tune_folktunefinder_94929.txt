@@ -1,0 +1,35 @@
+X: 17
+T:Miss Aud Ree. BF13.016
+M:2/2
+L:1/8
+Q:200
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Reel
+O:England
+A:Lakes
+N:The writer of this part of the manuscript unfortunately had a habit of
+N:closing the book before the ink was dry, or something like that -
+N:several pages, including this one, show signs of other notes at 45
+N:degrees to the  music written on the page. * - this note has no stem.
+N:the crochet C in the second bar of the A music is shown as a note-head
+N:with no tail.  Bar lines are as shown in the manuscript. Cherri.G.
+N:Ed..I've put two bar lines in, as it makes no difference to the tune.
+N:CGP.
+Z:vmp.Cherri Graebe.
+K:C major
+G2|c3a gcec |BGdG BcdB | "*"c3 a gcec |BGAB c2:|!
+|: ef|g2ec a2 fd |g2 ec B/c/d BG |g2e"d in ms"ca2fd |BGAB cdef|!
+"NB"g2eca2fd |g2ec BdBG |Egec Faf"e in ms"d |BGABc2:|]
+W:Bar 9 given as (g2e/d/a2f/d/) in ms. CGP. ||
+S:https://www.folktunefinder.com/tunes/94929
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

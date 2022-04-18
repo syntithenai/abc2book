@@ -64,6 +64,11 @@ function domInit() {
     showContentSection('songlistmanager')
     $('#songlistmanager').show()
   }) 
+  $('#welcomedownloadbutton').click(function(e) {
+    downloadLongAbc()
+  }) 
+  
+  
   $('#songlistpickerbutton').click(function(e) {
     e.stopPropagation()
     $('#songlistpicker').show()
@@ -98,17 +103,34 @@ function domInit() {
        
   preventClickThrough() 
    $('#showwizardsbutton').click(function(e) {
-     console.log('#showwizardsbutton')
+     //console.log('#showwizardsbutton')
     e.stopPropagation()
     showElement('wizards')
   })
-
+  
+  $('#fixnotesbutton').click(function(e) {
+     //console.log('#showwizardsbutton')
+    fixNotes()
+  })
+  $('#fixnotesbangbutton').click(function(e) {
+     //console.log('#showwizardsbutton')
+    fixNotesBang()
+  })
+ $('#closeeditorbutton').click(function(e) {
+      //e.stopPropagation()
+      showContentSection('music')
+      setTimeout(function() {
+        var tune = singleAbc2json($('#editor').val())
+        var sel = 'controls_'+(parseInt(tune.songNumber) - 1)
+        scrollTo(sel)
+      },200)
+  })  
   $('#doublenotelengthsbutton').click(function(e) {
       e.stopPropagation()
       var tune = singleAbc2json($('#editor').val())
       tune.settings[tune.useSetting].abc = multiplyAbcTiming(2,$('#editor').val())
       var abc = json2abc(tune.songNumber,tune)
-      console.log('abc half ',abc)
+      //console.log('abc half ',abc)
       $('#editor').val(abc)
       $('#editor').keyup()
       $('#wizards').hide()
@@ -118,7 +140,7 @@ function domInit() {
       var tune = singleAbc2json($('#editor').val())
       tune.settings[tune.useSetting].abc = multiplyAbcTiming(0.5,$('#editor').val())
       var abc = json2abc(tune.songNumber,tune)
-      console.log('abc half ',abc)
+      //console.log('abc half ',abc)
       $('#editor').val(abc)
       $('#editor').keyup()
       $('#wizards').hide()
@@ -127,11 +149,11 @@ function domInit() {
   
  
   $('#openabcbutton').click(function(e) {
-      console.log('OPEN ABC')
+      //console.log('OPEN ABC')
       generateAbcFromTunes()
       $('#moremenu').hide()
     //e.stopPropagation()
-    console.log('OPEN ABC show wrapper')
+    //console.log('OPEN ABC show wrapper')
     $("#longabcwrapper").show()
     showContentSection('longabcwrapper')
   })
@@ -168,7 +190,7 @@ function domInit() {
   
   var musicSearchTimeout = null
   $('#musicsearchfilter').keyup(function(e) {
-    console.log(e.target.value.trim())
+    //console.log(e.target.value.trim())
     if (e.target.value.trim().length > 0) { 
       $('#searchfilterresetbutton').show()
       $('#searchfilterbutton').hide()
@@ -178,7 +200,7 @@ function domInit() {
     }
     if (musicSearchTimeout) clearTimeout(musicSearchTimeout)
     musicSearchTimeout = setTimeout(function() {
-      console.log('SRC',e.target.value,$('#musicsearchfilter').val())
+      //console.log('SRC',e.target.value,$('#musicsearchfilter').val())
       filterMusicList($('#musicsearchfilter').val())
     },300)
     //showReviewList()
@@ -206,6 +228,8 @@ function domInit() {
     ns.enable();
   }, false);  
  
+ resetSearchTexts()
+ 
   const registerServiceWorker = async () => {
     if ('serviceWorker' in navigator) {
       try {
@@ -231,6 +255,10 @@ function domInit() {
   
 }
 
+
+function showElement(id) {
+  $('#'+id).show()
+}
 
 
 function scrollTo(id) {
@@ -260,13 +288,18 @@ function download(filename, text) {
 }
 
 function printPage() {
-  filterMusicList('')
-  $('#musicsearchfilter').val()
-  $('#indexes').show()
-  $('#music').show()
-  $('#cheatsheet_music_container').show()
-  $('#songlistmanager').show()
-  window.print()
+  if ($("#longabc").val().trim().length > 0) {
+          filterMusicList('')
+      $('#musicsearchfilter').val()
+      $('#indexes').show()
+      $('#music').show()
+      $('#cheatsheet_music_container').show()
+      $('#songlistmanager').show()
+      window.print()
+
+  } else {
+      alert('Your tune book is empty')
+  }
 }
 function showTuneControls() {
     $("#stopbutton").hide()
@@ -348,7 +381,11 @@ function setStopNow(val) {
 
 function downloadLongAbc() {
   generateAbcFromTunes()
-  download('tunebook.abc', $("#longabc").val())
+  if ($("#longabc").val().trim().length > 0) {
+    download('tunebook.abc', $("#longabc").val())
+  } else {
+      alert('Your tune book is empty')
+  }
 }
 
 function downloadShortAbc() {
@@ -372,3 +409,36 @@ function renderSonglistPicker() {
    
 }
 
+function fixNotes() {
+      var songNumber = $('#editorsongnumber').val()
+      var text = $('#editor').val()
+      var notes = getNotesFromAbc(text,true)
+      var  tune = getTuneFromCache(songNumber)
+      if (tune.settings && tune.settings.length > tune.useSetting) {
+        tune.settings[tune.useSetting].abc = notes
+        $('#editor').val(json2abc(songNumber,tune))
+        saveTuneAndSetting(tune,tune.useSetting,songNumber,null,function() {
+          generateAbcFromTunes()
+          renderMusicFromLongAbc()
+          $('#wizards').hide()
+        })
+      }
+}
+
+
+function fixNotesBang() {
+      var songNumber = $('#editorsongnumber').val()
+      var text = $('#editor').val()
+      var notes =  getNotesFromAbc(text).replace(/!/g,"\n")
+      
+      var  tune = getTuneFromCache(songNumber)
+      if (tune.settings && tune.settings.length > tune.useSetting) {
+        tune.settings[tune.useSetting].abc = notes
+        $('#editor').val(json2abc(songNumber,tune))
+        saveTuneAndSetting(tune,tune.useSetting,songNumber,null,function() {
+          generateAbcFromTunes()
+          renderMusicFromLongAbc()
+          $('#wizards').hide()
+        })
+      }
+}

@@ -1,0 +1,28 @@
+X:72
+T: Bazhao hao
+N: C1570
+O: China,Shandong, Qingdao
+S: III, 365]
+R: Haozi, Haiyuan haozi]
+M: 2/4
+L: 1/16
+K: C
+g2e2e2d2 | edcAA4 | e4d4 | edcAA4
+e4d2cA | egeddcA2 | c8 | c2A2G2E2
+e4e4 | e4d2cA | c4cAGE | A4A4
+e4edcA | AdcAA4 | d4c2Ac | d8
+d6cA | c4d2cA | c8 | c2A2G2E2
+e4d2c2 | edcAG2A2 | d6Ac | d8
+d2e2e2d2 | ^f2e2edcA | c4cAGE | A4A4 | A6z2
+S:https://www.folktunefinder.com/tunes/92095
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi, haiyuan haozi]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

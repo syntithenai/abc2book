@@ -1,0 +1,31 @@
+X: 150
+T:Reel de Rimouski
+R:reel
+Z:added by Alf Warnock - alf0@rogers.com - www.alfwarnock.info/alfs from a photocopy
+Z:repertoire de Jos Bouchard, notation de Marcel Ducharme.
+M:2/4
+L:1/16
+K:G
+|:DEF|"G"G2Bd gdBG|"D7"ABcA FDEF|"G"GFGB dBGB|"D7"Agfe dcBA|
+"G"G2Bd gdBG|"D7"ABcA FDEF|"G"GFGB dBGB|"D7"ABAF "G"G:|
+K:C
+|"C"e2ef edce|g2ga gece|gece gecA|"G7"B2^A2 A4|
+|1 "G7"f2fg fefg|b2bb bg^fg|a2ab agfg|"G7"ag^fg "C"e2c2:|
+|2 "F"aa^ga b2a2|"C"gg^fg a2g2|"Dm"fedf "G7"a2B2|"C"c4z efg||
+K:F
+|"F"aaa2 "C"ggg2|"F"fff2 c2Ac|f2fg fefa|"Gm"g2d2 d4|
+"C7"bbb2 aaa2|ggg2 e2cd|e2ef edce|"F"dc=Bc A2F2|
+"F"aaa2 "C"ggg2|"F"fff2 c2Ac|f2fg fefa|"Gm"g2d2 d3e|
+"Gm"fefg fefg|"F"afcB Aceg|"Gm"b2bb "C7"bgeg|"F"fefg f4||
+S:https://www.folktunefinder.com/tunes/92951
+S:http://www.alfwarnock.info/alfs/abc/accw02.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

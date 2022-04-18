@@ -1,0 +1,25 @@
+X:2
+T:Off We Go Flute Part
+C:copyright 1999 Kaubells
+N:To be played with Kaubells tune ``Off We Go''
+E:22                   % note spacing
+M:6/8
+K:E
+|:e3 d3|eGB dcd|e3 d3|e6|
+|f6|g6|=g3 z3|1 =G3 B=c=d:|2 =d6||
+K:Am
+|:=c'6|a3 =f=ga|c'6|b3 ^g3|
+|=c'6|a3 =f=ga|c'3 e'3|e'2d' c'3:|
+S:https://www.folktunefinder.com/tunes/179630
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/off-we-go-flute.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key E
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

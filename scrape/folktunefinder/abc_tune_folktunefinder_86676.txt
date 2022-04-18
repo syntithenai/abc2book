@@ -1,0 +1,30 @@
+X: 223
+T: Lily Fair (jig)
+C: BB 1/06
+N: 122060
+L: 1/8
+M: 6/8
+R: jig
+Q: 340
+K: Am
+D|"Am"E2A cBA | "Em"Bge "G"dBG |\
+"Am"E2A cde | "G"dBA G2 E|
+"Am"E2A AGA | "C"cBc "Dm"def |\
+"Am"ecA "G"dBG | "Em" EGB "Am"A2 :|
+d|"Am"eaa "C"egg | "Dm"def "Am"ecA |\
+"G"Bcd "Am"cBA | "G"Bcd "Em7"e2 d |
+"Am"eaa "C"egg | "Dm"def "Am"ecA |\
+"G"dcB "Am"cBA | "Em"GEG "Am"A2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86676
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

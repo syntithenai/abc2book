@@ -1,0 +1,20 @@
+X:10
+T:Paddy Whack
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|(GB)d gfg|(ed)c BAG|(GB)d gfg|fdd def|geg fdB|cec dBG|GBd cAc|BGG G2::
+z|BBB ccc|gdG TA2G|Bcd efg|fdd d2e/f/|geg fdB|cec dBG|GBd cAc|BGG G2:|
+S:https://www.folktunefinder.com/tunes/89997
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

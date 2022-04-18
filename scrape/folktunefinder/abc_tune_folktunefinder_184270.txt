@@ -1,0 +1,29 @@
+X:7917
+T:The Queen's dream
+C:anon.
+O:Wales
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/wales/the-queens-dream.abc
+M:2/4
+L:1/8
+K:D
+"^Allegro ma non troppo"(a>b) ag|f2 d(e/f/)|gfed|c2A2|(Bc)de|f2a2|(gf) e>d|d3z:|
+(fg).a.g|(fg).a.g|(fb).a.g|f2d2|(efgf|efgf)|(ea)gf|e2c2|
+(d>e) dc|B3B|(e>f) ed|c2A2|(Bc)de|f2a2|(gf) e>d|d2z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/184270
+S:http://abc.musicaviva.com/tunes/wales/the-queens-dream.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/wales/the-queens-dream.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/wales/the-queens-dream.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

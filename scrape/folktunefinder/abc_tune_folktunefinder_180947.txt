@@ -1,0 +1,33 @@
+X:1
+T:Ozidanie - Expectation
+C:Kammen Collection, Vol. 1
+C:Arr. T. Traub, 11-Apr-03
+Z:Kammen Collection, Vol. 1
+Z:use 65% scaling
+R:Waltz
+M:3/4
+K:Dm
+L: 1/4
+A |: "Dm" B2 A|d2 e|f3-|f d e|f d e|f d f|"A"e3-|e z A|B2 A|e2 f|g3-|g e f|g e f|g a b|"Dm"a3-|"A"a z A|
+"Dm"B2 A|d2 e|f3-|f z d/e/|"Dm"f z e/f/|"C"g z f/g/|"F"a3-|a b a|"Gm"g3-|g a g|"Dm"f3-|f g f|"A"e2 b|a2 ^c |1 "Dm"d3-|d z A :|2 "Dm"d3-|d || a f|
+|: "Dm"a3-|a af|a3-|a b g|"Gm"b3-|b bg|b3-|b e f|"Gm"g3-|g f g|"Dm"a3-|a g f|\
+L: 1/8
+"A"e3 aba|^c3 aba|1\
+L: 1/4
+"Dm"d3-|d af :|2 "Dm"d3-|d d c|
+|: "C"c3-|c B G|"F"A>A A|z _e d|"Dmaj"d3-|d cA|"Gm"B>B B|z G A|"Gm"B3-|"C7"B gd|"F"c3-|caf|\
+L: 1/8
+"C"c3 egb|\
+L: 1/4
+d2 e |1 "F"f3-|f dc :|2 "F"f3-|f z A|]
+S:https://www.folktunefinder.com/tunes/180947
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/OzidanieW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

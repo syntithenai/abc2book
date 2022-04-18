@@ -1,0 +1,27 @@
+X: 146
+T: My romance
+M: 4/4
+L: 1/4
+C: Rodgers & Hart
+Q: 1/4=170
+%%staves (chords melody)
+K: Bb
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+x || "Bbmaj7"x2 "Cm7"x2 | "Dm7"x2 "Dbdim7"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 "D7"x2 |
+"Gm"x2 x2 | x2 "( G7 )"x2 | "Cm7"x2 "F7"x2 | "Bbmaj7"x2 "Bb7"x2 ||
+V: melody
+D/2E/2||F3D/2E/2|FGAB|B3A/2G/2|F3B,/2C/2|
+S:https://www.folktunefinder.com/tunes/87647
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

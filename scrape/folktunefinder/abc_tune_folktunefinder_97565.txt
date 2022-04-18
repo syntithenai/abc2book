@@ -1,0 +1,24 @@
+X:16
+T: Farewell to the Warriors
+N: C0000
+O: Amerika, USA
+N: Zum Vergleich mit der Komposition von Griffes. Grundton gendert.
+N: Die Tonbandangabe bezieht sich auf Griffes. Weitere Chippewa-
+R: NN
+M: 3/4
+L: 1/16
+K: D
+D3D | A6d2A3G | A8
+d2d2 | =c6d2 | A4G8
+=F2D2F6A2 | =F3DF8
+A6GAGF2D2 | G3=FD3=C | D8
+S:https://www.folktunefinder.com/tunes/97565
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

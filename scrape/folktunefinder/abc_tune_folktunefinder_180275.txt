@@ -1,0 +1,32 @@
+X: 1
+T:The Old Woman Tossed Up In A Blanket
+M:6/8
+C:
+S:Chingford MM
+N:
+A:Chingford
+O:English
+R:Jig
+%P:A.(AB)$^5$
+P:A.(AB)5
+L:1/8
+K:G
+I:speed 300
+P:A
+|:\
+d|BAG Bcd|edc BAG|cBc A2 B|cBA G2:|\
+P:B
+g|gfg gfg|gfg afd|dcB cde|efg d2 \
+c|BAG Bcd|edc BAG|cBc A2 B|cBA G2||
+S:https://www.folktunefinder.com/tunes/180275
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ol/Old_Woman_Tossed_Up_In_A_Blanket_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

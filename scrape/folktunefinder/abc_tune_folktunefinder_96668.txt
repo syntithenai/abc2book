@@ -1,0 +1,21 @@
+X:240
+T: Lucy Farr's Barn Dance
+M: 4/4
+L: 1/8
+R:barn dance
+K: G
+|: (3DEF |G2 G2 G2 G2|GABG ~E2 D2|B4 B4|BddB A3 A|
+|BcdB G2 G2|GABG ~E2 D2|DEGA BddB|~A2 G2 G2 :|
+z2 |BcdB G2 G2|GABG ~E2 D2|DEGA B2dB|~B2 A2 A3 A|
+|BcdB G2 G2|GABG ~E2 D2|DEGA BddB|~A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/96668
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Barn dance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

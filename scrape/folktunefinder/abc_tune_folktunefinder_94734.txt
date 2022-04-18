@@ -1,0 +1,28 @@
+X:138
+U: ~ = !turn!
+%%topmargin 3cm
+T:Munster Buttermilk
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+d | gfg age | Pd2B {/c}BAB | Pd2 B {/c}BAB | dBG G2d |
+gfg age | Pd2B {/c}BAB | dBG GAB | [1 A3 G2 ::
+z | d2 e g2 a | b2 b bag | a2 a age | g2 g age |
+d2 e g2 a | b2 b bag | age dgb | Ja3 g2 :|
+S:https://www.folktunefinder.com/tunes/94734
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Munster_Buttermilk_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Munster_Buttermilk_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

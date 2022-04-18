@@ -1,0 +1,30 @@
+X:1
+T:The Twenty-Ninth of May
+T:(Oak Apple Day)
+M:C
+L:1/8
+C:Traditional
+S:Bacon (6MDJ)
+N:c.f. Lads-a-Bunchum (Adderbury)
+A:Headington
+O:English
+R:Reel
+P:A.(A2B2)4.A
+Q:1/4=138
+K:G
+P:A
+"A"|: D>G | B2 B2 B>cd>B | c2 A2 A2 B>c | d>ed>B c>dc>A | B2 G2  G2 :|\
+P:B
+"B"|: g>f | e2 d2 d2 G>A | B2 B2 B2 g>f | e2 d2  c2 B2  | A>GF>E D2 \
+   D>G | B2 B2 B>cd>B | c2 A2 A2 B>c | d>ed>B c>dc>A | B2 G2  G2 :|
+S:https://www.folktunefinder.com/tunes/179308
+S:http://www.mit.edu/~jcb/Red_Herring/dances/29th-of-may-tune.shtml
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

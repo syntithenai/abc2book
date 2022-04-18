@@ -1,0 +1,28 @@
+X: 1
+T:Red Haired Boy
+C: Irish
+M: C|
+R: reel
+L:1/8
+K:A
+AF \
+|: "A"E2A2 ABcd | efec "D"d2c-d | "A"edcB ABcA | "G"BAEF =G3F |
+   "A"E2A2 ABcd | efec "D"d2c-d | "A"e2 a-^g afed |\
+[1 "(E)"c2A2 "(A)"A3F :|[2 "(E)"c2A2 "(A)"A2e-f ||
+|: "G"=gfef gfef | =gfec "D"d2c-d | "A"edcB ABcA | "G"BAEF =G3F |
+   "A"E2A2 ABcd | efec "D"d2c-d | "A"e2 a-g afed |\
+[1 "(E)"c2A2 "(A)"A2e-f :|[2 "(E)"c2A2 "(A)"A2AF |]
+N:Fiddlers Fakebook pg 227 - abc by Peter Ostapenko 3/27/2007
+N:A Major
+S:https://www.folktunefinder.com/tunes/184874
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/RedHairedBoy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

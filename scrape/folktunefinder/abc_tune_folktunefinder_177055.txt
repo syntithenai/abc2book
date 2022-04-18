@@ -1,0 +1,18 @@
+X:1
+T:Moscow Nights
+M:2/4
+L:1/8
+K:C
+ A,C EC| D2 CB,| E2 D2| A,4| CE GG| A2 GF| E4| ^F2 ^G2| BA E2-| E B,2 A,|\
+ E3/2 D/2 F2-| F2 GF| E2 DC| E2 D2| A,4| ^F2 ^G2| BA E2-| E B,2 A,|\
+ E3/2 D/2 F2-| F2 GF| E2 DC| E2 D2| A,4-| A, z2 z|
+S:https://www.folktunefinder.com/tunes/177055
+S:http://back.numachi.com:8000/dtrad/abc/MOSCOWNT.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MOSCOWNT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

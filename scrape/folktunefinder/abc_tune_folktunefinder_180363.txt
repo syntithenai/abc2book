@@ -1,0 +1,31 @@
+X:19
+T:On Danse a la Villette
+T:Valse Musette
+C:Emile Carrara (1944)
+M:3/4
+L:1/4
+K:Bb
+"Cm"G3 | CDE | "Gm"G3 | D3 | "A7"=E3 | "D7"^FGA | "Gm"G3-|G z D |
+|: "Gm"BAG | BAG | B3 | G2 G | "G7"G_AG | FED | F3 | "Cm"E2 E |
+"Cm"EDC | ED^C | "Gm"DGA | "Gm"B "A"A "Gm"G | "Cm"B3 | "D7"A3 | "Gm"G3-|G z D |
+"Gm"G2B | "D7"A2^F | "Gm"G3 | D3 | "Cm"EEE | EFG | "Gm"D3-|D z D |
+"D7"A2c | B2^F | "Cm"A3 | "Gm"G3 | "Eb7 (Gm)"GGG | G^FG | "D7"A3-|A z D |
+"Gm"G2B | "D7"A2^F | "Gm"G3 | D3 | "Cm"EEE | EFG | "Gm"D3-|D z D |
+"D7"A2c | B2^F | "Cm"A3 | "Gm"G3 | "Eb7 (Gm)"GBA | "D7"G^FA | "Gm"G3-|"G7"G3 |
+"Cm"G3 | CDE | "Gm"G3 | D3 | "A7"=E3 | "D7"^FGA | "Gm"G3-|1 G z D :|2 G z2 |]
+W:
+W:
+W:
+W:Much simplified from "French Music for Accordion" by Larry Hallar, Mel Bay, page 19.
+W:In the book, most notes have at least one more voice, typically spaced a third lower,
+W:and/or complementing the chord from the bass side.  The minor chords' base notes
+W:usually alternate with ones a fifth higher.
+S:https://www.folktunefinder.com/tunes/180363
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/OnDanseALaVillette.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/ValseMusette.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

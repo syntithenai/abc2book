@@ -1,0 +1,25 @@
+X:14
+T:Meggy's Foot
+S:Northumbrian Minstrelsy
+M:2/4
+L:1/8
+K:G
+g/f/e/d/ .Bz | B/c/d .Az | g/f/e/d/ BG | B/c/d .Gz ::
+.G.G (3B/c/d/ z | .A.A (3B/c/d/ z | GG (3B/c/d/ z | B/c/d Gz ::
+BgBg | Bg .Az | BgBg | Bg .Gz ::
+g/f/e/d/ c/B/A/G/ | B/c/d/B/ A/B/c/A/ | g/f/e/d/ c/B/A/G/ |
+B/c/d/B/ .Gz :: B/d/g/d/ B/d/g/d/ | B/d/g/d/ A/d/g/d/ |
+B/d/g/d/ B/d/g/d/ | B/d/g/d/ .Gz :: g>d BG |
+Bd .Az | .g.d .B.G | .B.d .Gz :: GG (3B/c/d/ z |
+AA (3B/c/.d/ z | GG (3B/c/.d/ z | B/c/.d .Gz ::
+BgBg | Bg .Az | BgBg | Bg .Gz ::
+S:https://www.folktunefinder.com/tunes/175225
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Meggys_Foot.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,43 @@
+X:1
+T: Margaret's Waltz
+C: Pat Shaw
+N: Composed for Margaret Grant when she was retiring from the EFDSS.
+R: waltz
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+F:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/MargaretsW_A.abc 2006-05-24 21:30:58 UT
+K: A
+|: c2 | "A"E3 FAB | "F#m"c4 c2 | "D"BA F2 A2 | "E7"B4 c2 \
+| "A"E3 FAB | "F#m"c3 d e2 | "E7"c4 B2 | "A"A4 :|
+|| cd | "E"e3 fge | "F#m"a4 a2 | "D"fe d2 f2 | "E7"e3 dcB \
+| "F#m"A3 Bcd | "C#m"e4 c2 | "D"BA F2 A2 | "E7"B4 cd |
+| "A"e3 fge | "F#m"a3 g f2 | "Bm"e2 d2 c2 | "E7"B4 c2 \
+| "A"E3 FAB | "F#m"c3 d e2 | "E7"c4 B2 | "A"A4 |]
+%X: 2
+%T: Margaret's Waltz
+%M: 3/4
+%L: 1/8
+%R: waltz
+%K: Gmaj
+%GE|:D3 EGA|{A}B4 GB|AG E2 GB|A4 GE|| \
+%D3 EGA|Bd3 GA|B2B2A2|1 G4 GE:|2 G4 Bc||
+%d2 e2 f2|g2 f2 g2|ed c2 e2|d4 BA|| \
+%G3 A Bc|d2 B2 d2|ed c2 B2|A4 Bc|
+%d2 e2 f2|g2 f2 e2|d2 c2 B2|A4 GE|| \
+%D3 EGA|Bd3 GA|B2 B2 A2|G6||
+S:https://www.folktunefinder.com/tunes/174333
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/MargaretsW_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/waltz/MargaretsW_A.abc
+S:http://www.oxfordfiddle.co.uk/margarets_waltz.abc
+% Rhythm Waltz
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

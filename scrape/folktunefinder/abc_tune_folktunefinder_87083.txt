@@ -1,0 +1,33 @@
+X:990
+T: Granda Quinn's Whistle (with piano acc.)
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=165
+V: 1 program 1 73
+V: 2 bass volume=70 program 1 01 m=D
+K: D
+[V:1] A|"D"ABA "Bm"FEF|"D"Adf "Em"edB|"D"ABA "G"dcd|"D"fag "A"e3|
+[V:2] z|D,2[AFD]B,,2[BDF]|D,2[AFD]E,2[EGB]|D,2[AFD]G,,2[GBD]|D,2[AFD]A,,2[ACE]|
+%
+[V:1] "D"ABA "Bm"FEF|"D"Adf "Em"efg|"D"afd "G"Bcd|"A"ecA "D"d2 :|
+[V:2] D,2[AFD]B,,2[BDF]|D,2[AFD]E,2[EGB]|D,2[AFD]G,,2[GBD]|A,,2[ACE][D,,2A,,2F,2]:|
+%
+[V:1] D|"G"GAB BAG|"A"Acc "D"Add|"Bm"fef "G"gab|"D"agf "A"e3|
+[V:2] z|G,,2[GBD]D,2[GBD]|A,,2[ACE]D,2[AFD]|B,,2[BDF]G,,2[GBD]|D,2[AFD]A,,2[ACE]|
+%
+[V:1] "G"GAB BAG|"A"Acc "D"Add|"Bm"fdB "G"GAB|"A"Ace "D"d2 :|
+[V:2] G,,2[GBD]D,2[GBD]|A,,2[ACE]D,2[AFD]|B,,2[BDF]G,,2[GBD]|A,,2[ACE][D,,2A,,2F,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87083
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

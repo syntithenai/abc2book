@@ -1,0 +1,33 @@
+X: 1
+T: Meillionen
+M: 4/4
+L: 1/8
+R: barndance
+K: Gmaj
+|: D2 | 
+G4 B2 AG | FGAB c2 c2 | B4 cBAG | F3 G ABcA | 
+G2 d2 B2 AG | FGAB c2 dc | B2 cB A3 G | G6 :|
+|: Bc | 
+d2 G2 F2 G2 | A4 A2 Bc | d4 cBAG | FGAB cAGF | 
+G3 A B2 c2 | dcBA B2 AG | c3 d e2 d2 | cdcB A2 Bc |
+B4 cBAG | FGAB c2 dc | B4 A3 G | G6 :|
+K: Dmaj
+|: (3ABc | 
+d2 f2 gfed | cdef g2 fe | d2 f2 e2 d2 | cB (3Bcd e2 dc | 
+d3 f g>fed | cdef g2 ag | f2 gf e3 d | d4 d2 :|
+|: (3efg | 
+a3 d c3 d | e6 fg | a3 g gfed | c>def gedc |
+d2 de f2 fg | agfe f2 ed | g2 a2 b2 a2 | g>agf e2 (3efg |
+f2 f2 gfed | cdef g4 | f2 gf e2 dc | d6 :|
+S:https://www.folktunefinder.com/tunes/175231
+S:http://www.thesession.org/tunes/display/6376
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

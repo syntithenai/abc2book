@@ -1,0 +1,21 @@
+X: 1
+T: Pacific Avenue
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:&quot;G&quot;DGA ~B3|&quot;C&quot;cBc &quot;D&quot;dfa|&quot;G&quot;g2 d Bcd|&quot;C&quot;dec &quot;D&quot;A2 B|
+&quot;C&quot;~c3 ~D3|&quot;D7&quot;FAc dfa|&quot;G&quot;gdB &quot;C&quot;cAd|1&quot;D&quot;cAF &quot;G&quot;GFE:|2&quot;D&quot;cAF &quot;G&quot;GAB||
+&quot;C&quot;~c3 AED|CEG &quot;D&quot;DFA|&quot;G&quot;~B3 BAB|&quot;C&quot;cdc &quot;D&quot;A2B|
+&quot;C&quot;~c3 AED|CEG &quot;D&quot;DFA|&quot;G&quot;B2 B &quot;C&quot;cAF|&quot;D&quot;DGF &quot;G&quot;GAB|
+&quot;C&quot;~c3 AED|CEG &quot;D&quot;DFA|&quot;G&quot;~B3 BAB|&quot;C&quot;cdc &quot;D&quot;A2e|
+fdd gdd|eff age|DDf &quot;D7&quot;fed|cAF &quot;G&quot;GFE|
+S:https://www.folktunefinder.com/tunes/180980
+S:http://www.thesession.org/tunes/display/6153
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

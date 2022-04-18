@@ -1,0 +1,27 @@
+X:6
+T: As I roved out, S. 42
+N: I0505
+O: Irland
+S: O BOYLE, Sean: 25 Irish Folksongs, Dublin 1976]
+N: 4/4-Takt in Zeilen 3-4 in der Quelle nicht angegeben
+R: Liebeslied]
+M: 3/4
+L: 1/16
+K: D
+A,2=C2D2E2 | D3=CA,2B,2C2D2 | E3D=C2
+D2E2c2 | A3GAGE2D2EF | G4
+E2F2G2A2B2 | A3GE2=C2D2E2 | D6=C2A2
+A,2G2A2B2 | A3GA2G2E2DD3 | D4
+S:https://www.folktunefinder.com/tunes/93177
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Rhythm Liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

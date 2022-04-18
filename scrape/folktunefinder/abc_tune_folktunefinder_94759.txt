@@ -1,0 +1,28 @@
+X:163
+U: ~ = !turn!
+%%topmargin 3cm
+T:Perron's Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+C:Bob McQuillen
+R:Reel
+L:1/8
+M:C|
+K:A
+AF | EFAB cAGA | EBBc dBBd | cdec fedc | BABc B2 cB |
+EFAB cAGA | EBBc dBBd | cdec Bcde | c2 A2 A2 ::
+cd | eAce fedf | ec A2 A2 AB | cAce ac'ba | bg e2 e2 ab |
+c'aba c'aba | babc' aece | gaec dBed | c2 A2 A2 :|]
+S:https://www.folktunefinder.com/tunes/94759
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Perrons_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Perrons_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

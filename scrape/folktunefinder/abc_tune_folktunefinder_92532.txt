@@ -1,0 +1,25 @@
+X:509
+T: Zhuguohuo
+N: C1928
+O: China,Hebei Tangshan
+S: IV, 51]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: F
+d2d2d2f2 | A2d2c4 | d2d2f2A2 | G8
+G2A2c2d2 | A2G2F4 | D2A2G2E2 | D8
+G2F2G2A2 | c8 | G2F2G2A2 | c8
+G2A2c2d2 | A2G2F4 | D2A2G2E2 | D8
+S:https://www.folktunefinder.com/tunes/92532
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

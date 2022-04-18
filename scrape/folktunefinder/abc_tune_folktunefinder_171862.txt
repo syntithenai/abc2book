@@ -1,0 +1,26 @@
+X:01
+T: Lenawee Reel
+S: Kane Sisters, The Well Tempered Bow
+M: 4/4
+L: 1/8
+Z: Contributed 20040220192423 by Zina Lee zlee@ntw.net
+K: D dorian
+|D~d3 dcAG | [A,3F3] E {G} EDCE | Dd{e}d^c dfeg | fage f{a}f2 g |
+| {a}gf{a}fe fdcA | dfed cAGE | DddB cAGE | CDEC E{G/E/}DCE |
+| D3 d dcAG | [A,3F3] E {G} EDCE | Dd{e}d^c dfeg | fage f{a}f2 g |
+| {a}gf{a}fe fdcA | dfed cAGE | DddB cAGE | CDEC EDCE ||
+| G,A,DE FEDC | ~_B,3 B, {C}B,A,G,B, | ~A,2 DC DEFE | Ddd^c defg |
+| {a}gf{a}fe fdcA | dfed cAGE | DddB cAGE | CDEC EDCE : ||
+S:https://www.folktunefinder.com/tunes/171862
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/zlee:ntw.net/LenaweeReel.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LenaweeReel.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/contrib/Entry/zlee%3Antw.net/LenaweeReel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

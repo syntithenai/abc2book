@@ -112,7 +112,7 @@ function nextReviewItem() {
 function getCurrentReviewTune() {
   var tuneIndex = $('#reviewindex').val() > 0 ? (parseInt($('#reviewindex').val())) : 0
   var tune = getTuneFromReviewList(tuneIndex)
-  console.log('get current',tuneIndex, tune)
+  //console.log('get current',tuneIndex, tune)
   return tune
 }
 
@@ -225,7 +225,7 @@ function renderBoostButtons(songNumber, boost) {
 var reviewMidiBuffer = new ABCJS.synth.CreateSynth();
     
 function playCurrentSong(skipVoice = false)  {
-  console.log('PLAY REVIEW SONG')
+  //console.log('PLAY REVIEW SONG')
   //$('#reviewplaycounter').val(0)
   $('#reviewplayallbutton').hide()
   $('#reviewstopallbutton').show()
@@ -243,10 +243,10 @@ function playCurrentSong(skipVoice = false)  {
   }
 } 
 function reviewFinishPlaying() {
-  console.log('FINISH')
+  //console.log('FINISH')
       if ($('#reviewforcestop').val() !== "true") {
         // start next track after delay to avoid double callback
-        console.log('review next PLAY ')
+        //console.log('review next PLAY ')
         //if ($('#reviewplaycounter').val() > 2) {
           var tune = getCurrentReviewTune()
           
@@ -309,7 +309,7 @@ function reviewStartPlaying(visualObj, tune) {
       // HACK onEnded is called twice so skip first invocation
       var count = 0
       var onEnded = function(d) {
-        console.log('ONENDED')
+        //console.log('ONENDED')
         count = count + 1;
         // TODO USE THIS HOOK TO START NEXT TRACK IF PLAY ALL trackId IS ACTIVE
         //if (count > 1) {
@@ -374,7 +374,7 @@ function getMillisecondsPerMeasure(tune) {
    //meter = timeSignatureFromTuneType(tune.type)
    var beats = getBeatsPerBar(meter)
    var tempo = getTempo(tune) 
-   console.log('beats',beats, meter, tempo, tune)
+   //console.log('beats',beats, meter, tempo, tune)
    return 60000/tempo * beats
 }
 
@@ -382,7 +382,7 @@ function getMillisecondsPerMeasureForTempo(tempo, tune) {
    var meter = ensureText(getTuneMeter(tune), '4/4')
    //meter = timeSignatureFromTuneType(tune.type)
    var beats = getBeatsPerBar(meter)
-   console.log('beats',beats, meter, tempo, tune)
+   //console.log('beats',beats, meter, tempo, tune)
    return 60000/tempo * beats
 }
 
@@ -421,7 +421,7 @@ var timingCallbacks = null
 function renderReviewMusic() {
   var tune = getCurrentReviewTune()
   if (tune) {
-    console.log('REND MUSIC',tune)
+    //console.log('REND MUSIC',tune)
     var abc = json2abc(tune.songNumber, tune) 
     var renderResultSingle = window.ABCJS.renderAbc(['reviewmusic'], abc , getMainRendererSettings());
     renderResultSingle.map(function(rr,rk) {

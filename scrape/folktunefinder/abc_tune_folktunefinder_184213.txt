@@ -1,0 +1,22 @@
+X: 1
+T: Quarrelsome Piper, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|: (3DEF | 
+(3GAG (3FGF (3EFE D2 | B>AG>B A>GE>F | G>Bd>g e>cA>F | G>gf>e (3ded (3cBA |
+(3GAG (3FGF (3EFE (3DED | B>DG>B A>GE>F | G>Bd>g e>cA>F | G2 B2 G2 :|
+|: (3Bcd |
+e>B (3BcB g>B (3BcB | e>Bg>B e>B (3BcB | d>A (3ABA f>A (3ABA | d>Af>e (3ded (3cBA |
+(3GAG (3FGF (3EFE D2 | B>DG>B A>GE>F | G>Bd>g e>cA>F | G2 B2 G2 :|
+S:https://www.folktunefinder.com/tunes/184213
+S:http://www.thesession.org/tunes/display/3490
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

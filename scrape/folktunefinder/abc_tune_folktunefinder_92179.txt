@@ -1,0 +1,36 @@
+X:156
+T: Qiongren xiaodiao
+N: C1652
+O: China,Henan, Xinxian
+S: IV, 137]
+R: Xiaodiao. Suku]
+M: 2/4
+L: 1/16
+K: F
+d2d2A2A2 | d2A4d2 | c4z4
+d2d2A2A2 | d2A4d2 | c4z4
+d2e2d4 | d2e2d4 | A3cd2e2 | d2d4c2
+A2A2G4z2G2 | A2A2c2G2 | A2c4AG | F6z2
+d6c2 | A2G2z2G2 | A2A2c2G2 | A2c4AG | F6z2
+d2dcA2GA | c2c2B2d2 | c6z2
+d2dcA2GA | c2c2B2d2 | c6z2
+d3gf4 | d3gf4 | A3cd2e2 | d2d4c2
+A2A2G4z2G2 | A2A2c2G2 | A2c4AG | F6z2
+d6c2 | A2G2z2G2 | A2A2c2G2 | A2c4AG | F8
+d2d2A2A2 | d2A4d2 | c4z4
+d2d2A2A2 | d2A4d2 | c4z4
+d3gf4 | d3gf4 | A3cd2e2 | d2d4c2
+A2A2G4 | A2A2c2G2 | A2c4AG | F6z2
+d6c2 | A2G2z2G2 | A2A2c2G2 | A2c4AG | F8
+S:https://www.folktunefinder.com/tunes/92179
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao. suku]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

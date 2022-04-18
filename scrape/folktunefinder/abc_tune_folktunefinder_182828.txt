@@ -1,0 +1,30 @@
+X:0687
+T:"Planxty Sir Ulick Burke"        0687
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+N:Transposed from F
+N:(#008 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:D
+"^vb"B^ABc d2(cB)|(AB)(AF) E2DC|D2DB, DEFG|FEF^A, B,CDE|
+F2 (3(DEF) E2E2|FEFB A3A|B^ABc dedc|(cB)(BA) F4|
+(A  (3(B/2A/2G/2) Ac) (B  (3(c/2B/2A/2) Bc)|(dc)BA F2(ED)|A2(G/2A/2B) AFDF|EDCB, B,4:|
+|:F,B,B,A, B,CDB,|CB,CA, CDEC|D2A2ABAE|F2B2 ~B3c|
+dcde (d/2e/2f) ed|c^Bcd (c/2d/2e) dc|B^ABc dcde|FE (^D/2E/2F) E4|
+AFFB A2~A2|(B (3(c/2B/2^A/2) Bc) (dc)BA|(FEFD) .A(FBF)|EDCB, B,4:|
+S:https://www.folktunefinder.com/tunes/182828
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/687-PlanxtySirUlickBurke.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

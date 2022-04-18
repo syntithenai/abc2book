@@ -1,0 +1,26 @@
+X:2
+T:Mrs. Casey (in G)
+M:6/8
+L:1/8
+C:Traditional
+O:Field Town
+S:Coventry Morris, via EF
+% Nottingham Music Database
+P:A.(A2B2)4.A
+Q:C3=80
+K:G Ionian
+"A"[|] B2A |: G2E EFE | D2[B,E] D3 |1 EFG GAB | c3 B2A :|2 EFG AGF | G3- G2 ||
+"B"|: D | G2A B2c | d2e d2D | G2A B2c | d3 d2 d | e2c d2B | c2B A2G |
+G2F E2D | c3 B2A | G2E EFE | D2[B,E] D3 | EFG AGF | G3- G2 :|
+S:https://www.folktunefinder.com/tunes/177397
+S:http://www.mit.edu/~jcb/Red_Herring/dances/mrs-casey.abc
+S:http://www.mit.edu/%7Ejcb/Red_Herring/dances/mrs-casey.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

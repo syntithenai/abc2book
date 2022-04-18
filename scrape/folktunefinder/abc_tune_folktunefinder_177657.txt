@@ -1,0 +1,22 @@
+X: 1
+T: Mulqueeney's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+|:(3GBd g2 fedf | eAce d2 gf | e2 ce dGBd | cBAG F2 D2 |
+ (3GBd g2 fedf | eAce d2 gf | e2 ce dGBd | cAFA G4 :|
+|:(3GBd g2 (3GBd g2 | (3GBd gB eB d2 | (3FAd f2 (3FAd f2 |(3FAd fe (3ded (3cBA|
+(3GBd g2 (3GBd g2 | (3GBd gB eBdg | f2 ed eA^ce |1 dgfe (3ded (3cBA :|2 dgfe defg ||
+|: a2 ba afab | afab a2 fe | defg adfa | bfge defg |
+a2 ba afab | afab a2 fe | de (3fed (3Bcd AF |1 G2 Bd defg :|2 G2Bd (3gfe (3dBA ||
+S:https://www.folktunefinder.com/tunes/177657
+S:http://www.thesession.org/tunes/display/2771
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

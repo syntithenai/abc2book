@@ -1,0 +1,29 @@
+X:1
+T:Plain Hunt
+M:7/4
+L:1/4
+Q:1/4=200
+K:C
+A G F E D C z |
+G A E F C D z |
+G E A C F D z |
+E G C A D F z |
+E C G D A F z |
+C E D G F A z |
+C D E F G A z |
+D C F E A G z |
+D F C A E G z |
+F D A C G E z |
+F A D G C E z |
+A F G D E C z |
+A G F E D C z ||
+S:https://www.folktunefinder.com/tunes/182656
+S:http://gradcenter.marlboro.edu/~mahoney/abc/campanology/plain_hunt.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/campanology/plain_hunt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 7/4
+% Has_accompaniment_chords No chords

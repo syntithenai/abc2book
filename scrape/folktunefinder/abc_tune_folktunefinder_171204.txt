@@ -1,0 +1,27 @@
+X:1
+T:Langdans
+A:Suedschweden
+S:Am Geigentag 1995 in Graz von einer Schwedin gelernt
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:2/4
+L:1/8
+K:G dorian
+GA |\
+B2Bc AB | G3A Bc | d2f2e2 | d4GA |
+B2Bc AB | G3A Bc | d2f2e2 | d4 :|
+|: d2 |\
+d2BB BB | B2d2f2 | e2cc cc | c2e2f2 |
+d3cBA | G2B2B2 | A2F2F2 | G4 :|
+S:https://www.folktunefinder.com/tunes/171204
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/langdans.B2BcABG3ABc.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

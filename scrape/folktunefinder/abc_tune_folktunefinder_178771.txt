@@ -1,0 +1,19 @@
+X: 2
+T:The Night Piece, or The Shaking of the Sheets
+M:6/4
+L:1/4
+S:Playford
+K:D
+f2d a2 f|d2 f d2 f|fg2 f>esc2d f2a||bga gaf| efd e2f|ddcdef|fe>d d3||
+% Output from ABC2Win  Version 2.1 f on 09/09/2002
+S:https://www.folktunefinder.com/tunes/178771
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/sheets.abc
+S:http://www.goodbagpipes.com/pipetunes/abctunes/sheets.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/4
+% Text Has source text
+% Has_accompaniment_chords No chords

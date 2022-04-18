@@ -1,0 +1,27 @@
+X:370
+T: Hongjun laidao zunyicheng
+N: C1871
+O: China,Guizhou Zunyi
+S: II, 149]
+R: Xiaodiao, Huadeng diao]
+M: 2/4
+L: 1/16
+K: C
+d2c2e4 | d2c2e4 | d2e2d2c2 | e8
+c4e4 | d2c2e4 | e2c2d2c2 | A8
+c2d2d4 | d2c2A4 | d2c2A4
+A2Acd4 | e2d2c2A2 | d2c2e4
+e2c2d2d2 | c2e4e2 | e4d4 | c2d2c4A4
+cde4e2 | e4d4 | c2d2c4 | A8
+S:https://www.folktunefinder.com/tunes/92393
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, huadeng diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:570
+T:the York Waltz
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:3/8
+O:England
+U:W=!wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e41.html
+%%ID:00000e41
+K:F
+FG |\
+A4 B2 | c2(de)Wf2 | (BABcd)B | G4 FG | \
+A4 B2 | c2(de)Wf2 | efgcde | f4 !fine! :|
+(BA) |\
+.G2.G2 AG | .F2.F2 GF | EFGABG | c4 ba | \
+.g.g.g2 ag | .f.f.f2 gf | efgcde | f4 !D.C.! |]
+%page:67
+S:https://www.folktunefinder.com/tunes/95745
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:197
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sonny Brogan
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Chieftains
+Z:Transcribed by Ralph Palmer
+R:Waltz
+M:3/4
+L:1/8
+K:D
+DF | A2 AG FA | d2 d2 BA | GF GB AG | FG EF DF |
+A2 AG FA | d2 d2 BA | GF Gg fe | d2 d2 ::
+Ad | f2 f2 a/2g/2f | e2 eg fe | dc df ed | cd Bc Ad |
+f2 f2 a/2g/2f | e2 eg fe | dc df ec | d2 d2 ::
+Ad | fA df gf | eB eg fe | dG Bd ed | cE Ac eg |
+fA df gf | eB eg g/2f/2e | dA B/2c/2d ec | dA D2 :|]
+S:https://www.folktunefinder.com/tunes/94792
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sonny_Brogan_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sonny_Brogan_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

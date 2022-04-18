@@ -1,0 +1,18 @@
+X:1
+T:Owl Creek
+B:Bruce & Emmett
+M:6/8
+L:1/8
+Q:1/8=300
+K:D
+|: (3A/B/c/|def edB|{ABc}d2 F E2 F|DFA {B}A^GA|B<e^d e=dB|{ABc}def edB|{ABc}d2 F E2 F|DFA {B}A^GA|B<ec d2 :|
+|: e|fdf afd|gfg bag|fdf afd|cde e2 A|fdf afd|gfg bag|faf ede|fdd d2 :|
+S:https://www.folktunefinder.com/tunes/180912
+S:http://www.drumband.org/music/owlcreek.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

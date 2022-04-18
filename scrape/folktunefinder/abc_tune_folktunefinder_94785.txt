@@ -1,0 +1,28 @@
+X:189
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sheebag Sheemore
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Waltz
+M:3/4
+L:1/8
+K:D
+de | f3 e d2 | d3 e d2 | B4 A2 | F4 A2 | BA Bc d2 | e4 de | f4 ((3efe) | d4 f2 |
+B4 e2 | A4 d2 | F4 ((3EFE) | D4 f2 | B4 e2 | A4 dc | d4 d2 | d4 ::
+de | f3 e d2 | ed df a2 | b4 a2 | f3 e d2 | e4 a2 | f2 e2 d2 | d4 B2 | A4 BA |
+F4 ((3EFE) | D4 f2 | B4 e2 | A4 a2 | ba gf ed | e4 dc | d4 dc | d4 :|]
+S:https://www.folktunefinder.com/tunes/94785
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sheebag_Sheemore_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sheebag_Sheemore_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

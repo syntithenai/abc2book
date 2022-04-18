@@ -1,0 +1,39 @@
+X:19024
+T:Xiraldilla (CT 244)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Meres, ayuntamiento de Siero.
+O:Meres (Siero)
+A:Asturies
+Z:Cancioneru de Torner 244
+M:2/4
+L:1/8
+Q:1/4=160
+W:A los campos del Rey vas, Irene:
+W:ai, morenita, cmo llueve!
+W:Tanto ha llovido,
+W:que hasta los naranjales
+W:han florecido.
+W:Pino verde,
+W:qu serenita cai la nieve!
+K:G
+|FF AA|B3 G|F2 GG|G4|
+F2 AA|B3 G|F2 GG|G2 z2|
+|B2 Bc|d3 c|d3 c|BG AB|c4|
+B2 dd|c3 A|F2 GG|G4|
+F2 AA|B3 G|F2 GG|G2 z2||
+S:https://www.folktunefinder.com/tunes/94315
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

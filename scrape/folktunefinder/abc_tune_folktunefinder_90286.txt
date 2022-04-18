@@ -1,0 +1,26 @@
+X:75
+T:Have a Drink With Me
+S:Trad, arr. Paddy O'Brien
+R:jig
+E:8
+I:speed 300
+M:6/8
+K:G
+GA|BAG ~E2D|EGD E2D|BAG ~E2D|EAA ABc|\
+BAG ~E2D|EGD ~E2D|DEG AGA|BGF G2:|\
+D|GBd ~e2d|egd BAB|GBd ~e2d|eaa aga|\
+bgg age|gfe dBA|BAG ~E2D|EGF G2:|**
+\vfill\eject
+S:https://www.folktunefinder.com/tunes/90286
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

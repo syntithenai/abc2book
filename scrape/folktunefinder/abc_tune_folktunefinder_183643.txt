@@ -1,0 +1,25 @@
+X: 1
+T: Powers Of Punch, The
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: DEF GAB | AEF G2D | GFG DGB | dec Bcd |
+ege dcB | cBA BGE | DcB AGA |1 BGF GFE :|2 BGF G2B |]
+|: d^cd gdB | cAG FGA | d^cd gdB | def g3 |
+g2e dcB | cBA BGE | DcB AGA |1 BGF G2B :|2 BGF GFE |]
+|: DGB cde | dge dBG | cde dBG | EFG ABd |
+g2e agf | gfe dBG | EcB AGA |1 BGF GFE :|2 BGF G2c |]
+|: BAG AFD | GDB, DB,G, | G,B,D GDB, | A,CE A2a |
+bgb afa | gfe dBG | EcB AGA |1 BGF G2c :|2 BGF GFE |]
+S:https://www.folktunefinder.com/tunes/183643
+S:http://www.thesession.org/tunes/display/8557
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

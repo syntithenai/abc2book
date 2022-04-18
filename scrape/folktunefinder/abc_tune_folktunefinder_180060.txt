@@ -1,0 +1,22 @@
+X: 1
+T: the Old Langolee
+B: O'Neill's 247
+N: "Playful"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+  G3 B3 | A>GA BGE | D>EG G2e | d>cB (A2{BA}G) |
+| G3 B2B | A>GA BGE | D>EG G2e | d>cB {B}A2G ||
+|| Bcd d>ef | edc BAG | Bcd def | efd g2G |
+| G>Bd gfe | dcB BAG | G>DG G>DG | G>cB (A2{BA}G) ||
+S:https://www.folktunefinder.com/tunes/180060
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/OldLangolee.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

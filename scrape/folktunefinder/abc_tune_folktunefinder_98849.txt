@@ -1,0 +1,27 @@
+X:11067
+T:Momirul
+S:Ian McArdle
+R:Other
+Q:1/4=126
+O:S.E.Europe
+M:2/4
+K:C
+"G"{^c}d4 GABG|~c4 B^AB2|defe gfed|~c4 B^AB2|\
+{^c}d4 GABG|~c4 B2G/^F/G|
+"D"ABAG D2G/^F/G|\
+ABAG D2G/^F/G|ABAG D2G/^F/G|\
+A4 d4|ABAG D2G/^F/G|ABAG D2G/^F/G|\
+ABAG D2G/^F/G|A4A4||
+S:https://www.folktunefinder.com/tunes/98849
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

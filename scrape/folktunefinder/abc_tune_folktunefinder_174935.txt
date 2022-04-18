@@ -1,0 +1,28 @@
+X:1
+T:Mazurka a Rigal
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G dorian
+DGB |\
+d2^cded | B3ded | A2ABcA | B2A2GB |
+d2^cded | B3ded | A2AcAB | G3 :|
+|: DGA |\
+BABcAB | G3AGF | EDABcA | B2A2GA |
+BABcAB | G3AGF | EDAcAB | G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174935
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka_a_rigal.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:185
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sean McKenna's (2)
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Seamus Tansey
+R:Reel
+L:1/8
+M:C|
+K:G
+e3 d B3 A | GABG AGED | ~G3 B dBeB | dBAc BG PG2 |
+gfed edBA | GABG AG E2 | ~G3 B dg ~g2 | dBAc BG G2 ||
+fgag fedB | edef ~g3 f | eB ~B2 gfed | BAGA BA A2 |
+fgag fedB | edef ~g3 a | b3 a gfed | e2 fa g2 z2 |]
+S:https://www.folktunefinder.com/tunes/94781
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sean_McKennas_2_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sean_McKennas_2_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

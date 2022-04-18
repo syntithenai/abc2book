@@ -1,0 +1,27 @@
+X:216
+U: ~ = !turn!
+%%topmargin 3cm
+T:Whelan's Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:G
+~E3 {/c}BAF | EBE BEB | ~E3 {/c}BAF | dAF PFED |
+E2E {/c}BAF | EBE BEB | ~B3 {/c}BAF | dAF PFED ::
+~B3 e2 e | fdB d^cd | ~B3 Pg2 e | fdB AFA |
+~B3 e2 e | fdB d2 f | gbg faf | edB AFD :|]
+S:https://www.folktunefinder.com/tunes/94811
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Whelans_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Whelans_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

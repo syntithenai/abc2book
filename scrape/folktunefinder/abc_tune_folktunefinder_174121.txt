@@ -1,0 +1,24 @@
+X: 1
+T: Man In the Moon, The
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: Reel
+C: R-126
+K: D
+DE|: "D"F3A d3A| "G"B3A "D"d3A| "G"(3B2c2d2 "D"A3G| "A"E4 E4|
+     "D"F3A d3A| "G"B3A "D"d3A| "G"(3B2c2d2 "A"A3F|1 "D"D4 D3E :|2 "D"D4 D4|]
+|:\
+"D"d3f (3f2f2f2| e3d e3f| "G"g3a "D"f3d| "A"f3e e4|
+"D"d3f (3f2f2f2| e3d e3f|    a3f "G"d3B|1 "A"A3F "D"D4 :|2 "A"A3F "D"D3E |]
+%%text 9/1/98.  Formerly J-4
+S:https://www.folktunefinder.com/tunes/174121
+S:http://roaringjelly.org/music/reel/R126_Man_In_the_Moon_The.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R126_Man_In_the_Moon_The.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R126_Man_In_the_Moon_The.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

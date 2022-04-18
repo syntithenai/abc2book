@@ -1,0 +1,28 @@
+X:2
+T:Mrs. Farquharson's Jigg or Quick Step
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &amp;c., 1790
+Z:Steve Wyrick <sjwyrick'at'astound'dot'net>, 3/20/04
+N:Petrie's First Collection, page 2
+L:1/8
+M:6/8
+R:Jig
+K:Cm
+V:1 name=&quot;violin&quot;
+V:2 name=&quot;bass&quot; clef=bass middle=d transpose=-24
+[V:1] G|(Tc=Bc) GEC|(Tc=Bc) edc|(Tc=Bc) G=A_B| FGE DCB, |
+[V:2] z|C3      E3 |  F3    G3 | c3     e3   | d2f b2B  |
+S:https://www.folktunefinder.com/tunes/177429
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08130.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

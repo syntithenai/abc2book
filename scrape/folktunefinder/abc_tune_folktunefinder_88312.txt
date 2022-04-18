@@ -1,0 +1,39 @@
+X:775
+T:untitled
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%RRN:"Easter Sunday 1841"
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001073.html
+%%ID:00001073
+K:C
+G | \
+c/B/c/d/e/f/ | gec | f>ga | g2 G | \
+A>Bc | Bfe | e/d/f/e/d/c/ | B/d/c/B/A/G/ |
+c/B/c/d/e/f/ | gec | f>ga | g2 G | \
+A>Bc | Gfe | e/d/f/d/B/G/ | c2 ::
+g | \
+geg | c'ba  | _aa^f | g2 e/f/ | \
+geg | c'c'a | gec   | B2 G    |
+cGc | ece   | geg   | c'ba    | \
+^gaf | efd  | GAB   | c2  ::
+G |\
+Gce | Gdf | Gce          | edG  | \
+Gce | Gfa | g/a/g/f/e/d/ | c2 G |
+G/c/B/c/e/c/ | dBf | d/^d/=d/e/f/d/ | egc' | \
+G/c/B/c/e/c/ | dfa | g/a/g/f/e/d/   | c2 ::
+%%newpage
+%page 59
+S:https://www.folktunefinder.com/tunes/88312
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

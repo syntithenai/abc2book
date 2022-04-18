@@ -1,0 +1,22 @@
+X: 1
+T:Mazurka
+M:3/4
+L:1/8
+Q:150
+C:Gilles Chabenat
+K:Dm
+D E>D|A2 A>B c>d|A4 B>A|G2 A>GF>E|F2 D2 E>D|!
+|A2 A>B c>d|A4 B>A|G2 A>GF>G|[1E3:|[2 E3 A d>c|!
+|:B2 B>AB>c|d4 c>B|A2 A>GA>B|A4 d>c|!
+B2 B>AB>c|d4 c>B|A2 G>FE>F|[1E4 d>c:|[2D3|!
+S:https://www.folktunefinder.com/tunes/174886
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Mazurka_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Mazurka_9.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

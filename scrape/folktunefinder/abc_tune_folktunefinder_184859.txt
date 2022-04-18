@@ -1,0 +1,19 @@
+X:1
+T:The Red Flag
+M:9/8
+L:1/4
+K:C
+ z2 z G,3/2| C C/2 C3/2- C/2 D| E E/2 E3/2- E/2 z/2 E/2| D E/2 F3/2- F/2 B,|\
+ D C/2 C3/2 G,3/2| C C/2 C3/2 D3/2| E E/2 E3/2- E/2 z/2 E/2| D E/2 F3/2 B,3/2|\
+ D C/2 C3/2- C/2 G| G E/2 A3/2- A/2 G| G F/2 F3/2- F/2 z/2 F/2| F D/2 G3/2- G/2 F|\
+ F E/2 E3/2- E/2 G,| C C/2 C3/2- C/2 D| E E/2 E3/2- E/2 z/2 E/2| D E/2 F3/2 B,3/2|\
+ D C/2 C3/2 z3/2|
+S:https://www.folktunefinder.com/tunes/184859
+S:http://back.numachi.com:8000/dtrad/abc/REDFLAG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/REDFLAG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:125
+T: Cricket Hornpipe
+C: Johnny Harling
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Bm
+F|Bd (3fed B2 FA|B2 dB cBAF|G3 A BA (3GFA|\
+^AcdB dcB=A |
+Bd (3fed B2 FA|B2 dB cBAF|GFED EFGB |1\
+^ABcA B3 :|
+|2 ^ABcA Bcde ||f3 g fede|fedc BAFA|^ABcA dcBd|
+cB^AG F3 D|E3 F GABd|cB^AB c2 ^A/=A/G/F/|
+Bf^ef dcBG |1 FBB^A Bcde :|2 FBB^A B4 ||
+S:https://www.folktunefinder.com/tunes/88537
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

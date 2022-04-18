@@ -1,0 +1,21 @@
+X:1
+T:Please, Mr. Conductor (Lightning Express
+M:3/4
+L:1/4
+K:E
+ E| G F G| E2 E/2E/2| G GG/2-F/2| E2 B,| E E2| F/2 E3/2 C| E3| z3|\
+ C E E| F E C| B,B,/2-C/2 E| E3| F3/2 F/2 F| G GF/2-G/2| F3| z z B,|\
+ G GF/2-G/2| E B, E| G G F| E3| E/2 E/2- E3/2 E/2| F/2 E3/2 D| E3|\
+ z z B,| E3/2 E/2 E| F E C| B, C E/2 E/2-| E2 F/2F/2| G F E/2 D/2-|\
+ D FF/2-D/2| E3| G3| E E F| F- G2| E2 E| E2 E| F EC/2-B,/2| B,3| z z B,/2B,/2|\
+ C E| E| E2 F/2F/2| G2G/2-E/2| E2 G| G F F| F2 G| F3| z z E| G G3/2 G/2|\
+ E E F| G3| E2 E| E2 E| F E C| B,3| z z B,| E3/2 E/2 E| F E| C| B,3|\
+ E2 F| G2 G| F C D| E3| z z||
+S:https://www.folktunefinder.com/tunes/182866
+S:http://back.numachi.com:8000/dtrad/abc/PLSCONDT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

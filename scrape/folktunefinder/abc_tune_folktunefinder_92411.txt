@@ -1,0 +1,34 @@
+X:388
+T: Meili yucun haofengguang
+N: C1890
+O: China,Guangdong Lingao
+S: II, 359]
+R: Shange, Yge, Lilimei diao]
+M: 2/4
+L: 1/16
+K: A
+a2b2c2f2 | a2b4c2 | b2cba2b2 | c8
+b6af | a6bc | a2b2c2a2 | b6ab | c6z2
+f2f2a2b2 | c3dcbab | c6bc | a4abca | b6z2
+b2abcdcb | a6b2 | cdcbabc2 | b6c2 | b4z4
+c2babc2bc | a2b4cd | c6bc | a2bcf2a2 | b8
+b2abcbaf | f2fabcaf | f6a2 | b4a2f2 | f4z4
+f2fabca2 | b4-b3f | b2abcbaf | f4-f3a
+b2cbabcb | a6bc | a4z4
+f2fabca2 | b4b2cbc | a6bc | a2bcf2a2 | b6z2
+b2abc2f2 | a6c2 | a4z4
+c2abc2bc | b6ca | b2cab2b2 | c8
+b4a2f2 | a2b2c2bc | b6ab | c4z4
+f2f2abcb | c4bcab | c6bc | a3ba2ba | b8
+b2abcdcb | a4-a3b | cdcbabc2 | b6c2 | b4z4
+S:https://www.folktunefinder.com/tunes/92411
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Shange, yge, lilimei diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

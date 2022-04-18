@@ -1,0 +1,59 @@
+X:1233
+T:Menuet-Trio di J. S. Bach
+T:(Prelude) BWV 929
+C:Johann Sebastian Bach
+O:Germany
+S:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+N:In "Klavierb\"uchlein" this piece is used as a trio to a
+N:minuet by G. H. St\"olzel. It has traditionally been counted
+N:among Bach's little preludes, although there isn't really
+N:any evidence that Bach intended the piece to be a prelude.
+N:A variant of this composition is included in the French
+N:Suite no. 3 (BWV 814).
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0929/bwv929.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+K:Gm
+V:1
+d6|e2d2c2-|cBcAd2|BAGABc|dcedgf|
+V:2
+B6-|B4A2-|A2G2^F2|G4z2|z6|
+V:3
+G,DGFED|CB,CDEC|D2D,2D2|G,2B,2D2|G2=F2E2-|
+%
+V:1
+f6-|f2edcd|1B6:|2B6|:d6-|d2c2=B2|
+V:2
+AGBAed|d2cBA2|1B6:|2B6|:F2G2_A2|G4F2|
+V:3
+E2D2A,2|B,2E2F2|1B,A,DCB,A,:|2B,2F,2D,2|:B,,F,B,_A,G,F,|\
+E,D,E,F,G,E,|
+%
+V:1
+cedc=Bd|fedecd|e6-|edg^fba|d2cBAB|1G^FGABc:|2G6|]
+V:2
+E2_A2G2-|G6-|G^F=AG_BA|c6|B2AG^F2|1G2z2z2:|2G6|]
+V:3
+_A,2F,2G,2|C,2C2_B,2|=A,2B,2G,2|^F,2D,2F,2|G,2C,2D,2|1G,,2G,2A,2:|2G,,6|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175311
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0929/bwv929.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0929/bwv0929.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0929/bwv0929.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

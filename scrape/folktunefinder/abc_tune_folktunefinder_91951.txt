@@ -1,0 +1,28 @@
+X:021
+%%topmargin 3cm
+T:Inimitable
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+N:Newt had it marked "8va" for the whole tune.
+R:Reel
+L:1/16
+M:2/4
+K:G
+"8va"D2 | G2D2 TE2DC | B,DGB Td2^cd | edcB cBAG | FGAB cDEF |
+G2C2 TE2DC | B,DGB Td2^cd | edcB cBAG | FGAB G2 ::
+zD | B/2d/2 z e dBAG | B/2d/2 z d b2g2 | B/2d/2 z e dBAG | FGAB Tc4 |
+B/2d/2 z e dBAG | B/2d/2 z d b2g2 | B/2d/2 z e dBAG | FGAB G2 :|]
+S:https://www.folktunefinder.com/tunes/91951
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Inimitable.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

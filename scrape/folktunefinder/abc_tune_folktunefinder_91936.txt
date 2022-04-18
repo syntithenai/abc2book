@@ -1,0 +1,25 @@
+X:005
+%%topmargin 3cm
+T:Swimming in the Gutter
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:F
+{A/2=B/2^c/2}d3 AFA | d3 AFA | d^cd fed | eba gfe |
+d3 AFA | d3 AFA | def gag | [1 fdd d3 :| [2 {/g}fdd d||
+cB | Acf {/g}fef | ac'a fcf | dbd cac | Bag ecB |
+Acf {/g}fef | ac'a fcf | dbd cac | [1 {/f}ede f :| [2 {/f}ede f2 z |]
+S:https://www.folktunefinder.com/tunes/91936
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Swimming_in_the_Gutter.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

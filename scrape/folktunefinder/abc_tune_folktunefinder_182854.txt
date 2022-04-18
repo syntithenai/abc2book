@@ -1,0 +1,20 @@
+X: 1
+T: Playing In The Rafters
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+A,DD A,DD | DEF E2D | A,DD DED | B,2B, B,A,G, |
+A,DD A,DD | DEF E2D | ABA GFE | FDC D3 :|
+d3 dcA | ded cAG | FAF E3 | FAF EDC |
+D2A, DEF | EDC A,B,C | D2d cAG | EDC D3 :|
+S:https://www.folktunefinder.com/tunes/182854
+S:http://www.thesession.org/tunes/display/8180
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

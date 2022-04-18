@@ -1,0 +1,22 @@
+X: 1
+T: Majofis
+M: 4/4
+L: 1/8
+R: reel
+K: Dmin
+&quot;A&quot;A=B^cd efed|^c2 A2 &quot;Dm&quot;d3d |&quot;A&quot;e2de gfed|^c2 e/f/e &quot;Dm&quot;d3d|\
+&quot;A&quot;A=B^cd efed|^c2 A2 &quot;Dm&quot;d3d|&quot;A&quot;^cedc &quot;Bb&quot;BA&quot;Gm&quot;GB|&quot;A&quot;A2 AE A3E:|
+|:&quot;A&quot;A2 ^c2 c3 c|&quot;Dm&quot;A2 d2 d3 d|&quot;A&quot;A2 ^ce Acec|&quot;Dm&quot;defg gaa2|\
+&quot;A&quot;A2 ^c2 c3 c|&quot;Dm&quot;A2 d2 d3 d|&quot;A&quot;^cedc &quot;Bb&quot;BA&quot;Gm&quot;GB|1&quot;A&quot;A2 AE A3E:|2&quot;A&quot;A2 AE A3d||
+|:&quot;F&quot;fg a2 a2 af|&quot;C&quot;gage c3A|&quot;Am&quot;cdef &quot;Bb&quot;gabg|&quot;Am&quot;a3f gfef|\
+&quot;Dm&quot;d2 f2 &quot;F&quot;f3 f|&quot;A&quot;efe^c A3 G|A=B^cd &quot;A7/C#&quot;efec|1&quot;Dm&quot;d2 d^c d3d:|2&quot;Dm&quot;d2 d^c d4||
+S:https://www.folktunefinder.com/tunes/173962
+S:http://www.thesession.org/tunes/display/7881
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

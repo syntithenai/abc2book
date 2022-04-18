@@ -1,0 +1,28 @@
+X:15
+T:(No title given)
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+N:But it looks very like Jock of Hazeldean
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Hands four around, lead down the middle and allemande
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ddb.html
+%%ID:00000ddb
+K:G
+%%graceslurs 0
+g |\
+dBAG | GB D>E | GG c>B | (B2 {cB}A) g |\
+dBAG | GB D>E | GB A>B | G2z::!\
+B|\
+c>Bcd | ec g>e | dB Gg | e>f g/f/g/e/ | \
+dBAG | GB DE | G>B Ad | G2 z :|
+S:https://www.folktunefinder.com/tunes/88136
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

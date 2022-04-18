@@ -1,0 +1,27 @@
+X: 1
+T:Mo Nighean Donn, Gr\`adh Mo Chridhe
+R:Air
+C:Phil Cunningham
+M:3/4
+L:1/4
+K:AMin
+E2  G | A2  c| e/2(g/2g2)  | e3| e2  G| A3  | A3  |
+E2  G| A2  c| e/2(g/2g2)  | e3| g3/2 e/2  d|   e3|
+  e3| a2 g| e2  A| c2  d| e3 | d2  e| d3/2 c/2 A|
+ G3 | E2  G| A2  c| e(g/2g2)| d3 | e2  G| A3  |  A3 :|
+|: e3/2 d/2 e| g3|  a3 | d3/2 e/2 f|  e3|  A3|
+e3/2 d/2 e|  g3|  a3 | d3/2 e/2 f| e3| e3/2 d/2 c|
+A3| d3 | B3/2A/2 G|  E3|  A3| E2  G |
+A2  c| e(g/2g2)| d3|  e2  G|A3 | A3 :|
+S:https://www.folktunefinder.com/tunes/176685
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/PhilCunningham/Mo_Nighean_Donn_Gradh_Mo_Chridhe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/Phil_Cunningham/Mo_Nighean_Donn_Gradh_Mo_Chridhe.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PhilCunningham/Mo_Nighean_Donn_Gradh_Mo_Chridhe.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

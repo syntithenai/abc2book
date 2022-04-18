@@ -1,0 +1,24 @@
+X:255
+T:Mrs. McLeod
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e15.html
+%%ID:00000e15
+K:G
+G2g2 e>deg | BBBA B2BA  |   G2g2 efeg        | AAA>G A2AB | \
+G2g2 e>deg | BBB>A B2d2 | ! e>fed e2 (de/f/) | g2dB A2AB || \
+GGB>G dBBg | BBB>A B2BA | ! GGB>G dBBg       | AAAG A2AB | \
+GGB>G dBBg | BBB>A B2Bd |   e>fed e2de/f/    | g2dB A2AB |]
+%page:32
+S:https://www.folktunefinder.com/tunes/95682
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

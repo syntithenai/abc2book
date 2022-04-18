@@ -1,0 +1,33 @@
+X: 12
+T:Ld. Cathcarts Minuet. BC.12
+M:3/4
+L:1/4
+Q:90
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Minuet
+O:England
+A:Uncertain, probably northern
+N:Charles,1721-1776, served with the Duke Of Cumberland in
+N:Flanders,Scotland,and Holland, and was wounded at Fontenoy, along with
+N:everybody else,seemingly.CGP.
+Z:vmp.John Bagnall
+K:G
+B/d/G/B/A/c/ |B d g | B A/G/A/F/ | G2 A |!
+ B/^c/ d g | ^c e a | f e/d/e/^c/ |d3 :|!
+|:d B/d/B/d/ | e c2 | c A/c/A/c/ | d"tr"B2 |!
+ B G/B/G/B/ | c A/c/A/c/ |\
+ B/d/g B | B A2 |!
+B/d/G/B/A/c/ | B d g | B A/G/A/F/ | G3 :|]
+S:https://www.folktunefinder.com/tunes/94855
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

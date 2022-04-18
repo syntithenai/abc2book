@@ -1,0 +1,30 @@
+X: 01
+T: A Nation Full of Heroes
+C: BB
+L: 1/4
+Q: 1/4=110
+M: 4/4
+V: 1 clef=treble %program 1 110 %fiddle
+K: D
+D/ E/|"D"F A "A"E G|"Bm"F/ D/ B,-"G"B, B,/ A,/|"Em"B, D "A"E C| "D"D3 D/ E/|\
+ "D"F A "Bm"d A|"G"B>B "D"A F/F/|"G"G>F "Em"E D|"A"E3 D/E/|
+ "D"F A "A"E G|"Bm"F/ D/ B,- "G"B, B,/A,/|"Em"B, D "A"E C|"D"D3 D/ E/|\
+ "D"F A "Bm"d/ d/ A|"G"B>B "D"A F/F/|"G"G F "Em"E B|"A"A3 A/A/|
+ "Bm"B B B>A|"F#m"A/G/ F-F E/ F/|"G"G G "A"A>A|"D"F3 F/ A/|\
+ "Bm"B B B A|"F#m"A G F E/ F/|"G"G>F "Em"E D|"A"E3 D/E/|
+ "D"F A "A"E E/G/|"Bm"F/ D/ B,- "G"B, B,/ A,/|"Em"B, D "A"E C|"D"D3 D/ C/|\
+ "G"B,>D G>B|"D"A G F E/F/|"G"G B "Em"G F|"A"E4-|E3 G/A/|
+ "G"B>c d>B|"D"A F2 F/E/|"G"D>B, "A"E>A|"D"F3 A|\
+ "G" B>c d>B|"D"B A F>F|"C"G>F "Em"E D|"A"E3 G/A/|
+ "G"B>c d>B|"D"A F F>E|"G"D>B, "A"E>A|"D"F3 A|\
+ "C"=c>B "A"A>G|"D"A F2 D/ C/|"G"B,2 G2|"A11"E4-|"A7"E3 C|"D"D4-|D4||
+S:https://www.folktunefinder.com/tunes/178267
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BillBlack/heroes_mel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

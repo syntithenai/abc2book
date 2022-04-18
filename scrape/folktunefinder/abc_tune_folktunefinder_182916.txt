@@ -1,0 +1,17 @@
+X:1
+T:The Ploughman
+M:4/4
+L:1/8
+K:F
+ F| A3/2 B/2 cA BA GF| Ac cd/2-e/2 f2 c3/2 f/2| d3/2 c/2 df ga G3/2 F/2|\
+ Ac f3/2 d/2 c2 FF| A3/2 B/2 cA BA GF| Ac cd/2-e/2 f2 c3/2 c/2| d3/2 c/2 df g3/2 a/2 G3/2 F/2|\
+ Ac f3/2 d/2 c2 F||
+S:https://www.folktunefinder.com/tunes/182916
+S:http://back.numachi.com:8000/dtrad/abc/PLOUGHMN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

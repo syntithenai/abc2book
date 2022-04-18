@@ -1,0 +1,27 @@
+X: 23
+T:Green Fields of America
+R:reel
+D:Frankie Gavin: Frankie Goes to Town
+D:Joe Holmes & Len Graham: Saints, Chaste Muses, Bards and Sages.
+Z:id:hn-reel-150
+M:C|
+L:1/8
+Q:1/4=200
+K:G
+|:c2ec B2dB|AGAB AGEF|GAGE DEGB|AGAB AGEG|
+c2ec B2dB|AGAB AGEF|GAGE DEGB|[1 AGEF GBdB:|[2 AGAB GEDE||
+|:GABc d2Bd|efge dBGB|c2ec B2dB|AGAB AGED|
+|[1 GABc d2Bd|efge dBGB|c2ec B2dB|AGAB GEDE:|
+|[2 gfgf efge|d2BG AGEF|GAGE DGBe|dBAB GBdB|]
+S:https://www.folktunefinder.com/tunes/90677
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

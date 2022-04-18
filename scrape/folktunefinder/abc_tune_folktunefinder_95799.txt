@@ -1,0 +1,34 @@
+X:840
+T:Johnny Cope
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e6e.html
+%%ID:00000e6e
+K:A min
+E2 |\
+A4 ABcd | e2A2 {B}A2GE | G4    GABc | d3G BAGF | \
+A4 ABcd | e2A2    BAGF | G2g2 TedcB | A4 A2 ::
+AB |\
+c3d  c2G2 | cdef   g4   | B2G2 d2G2 | Bcde {e}d2cB | \
+cBcd efga | TgeTdc B2AB | G2g2 edcB | A4      A2 ::
+eg |\
+a4 Ta2(ga) | b2a2 a2ge | dega g3a   | b2ab g2eg |\
+a4 a2  ga  | b2a4   ge | g2d2 TedcB | A4 A2 ::
+E2 |\
+AGAB cBcd | e2A2 BAGF | GFGA B2ge |dedc B2AG |\
+cBcd efga | gedc B2AB | G2g2 edcB | A4 A2 !D.C.! ::
+%page:98
+S:https://www.folktunefinder.com/tunes/95799
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

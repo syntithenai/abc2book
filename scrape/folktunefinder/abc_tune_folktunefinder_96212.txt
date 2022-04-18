@@ -1,0 +1,29 @@
+X: 61
+T:Bore. TBe.061
+M:C|
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:bourree
+O:England
+N:1 - shown as a natural in the MS, but it sounds wrong, and it seems to
+N:me this is 'actually' in Eb - all the other 'A's are flattened
+H:1718
+Z:vmp.C. Graebe..
+K:B_ major
+B>ed>c | B/_A/G/F/ G/F/4G/4 E/F/ |\
+ G/E/ _A/F/ B/G/ c/A/ | d/B/d/e/ f2 ||!
+ f>g f/e/d/c/ | Be/f/ g>f | \
+g/e/"1" _a/f/ b/g/ c'/c/ | B/e/e/d/ e2 ||
+S:https://www.folktunefinder.com/tunes/96212
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Bourree
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

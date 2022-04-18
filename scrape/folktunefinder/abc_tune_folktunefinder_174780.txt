@@ -1,0 +1,31 @@
+X:3
+T:Ton simple gavotte
+%T:TS3
+R:Gavotte des montagnes
+C:Traditionnel
+S:TS95
+Q:C3=156
+P:E4
+M:12/8
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%MIDI program 0
+K:Em
+P:E
+Z: Transcription en Si phrygien 
+|: "Em"B2 B A2 "Am"c B2 G "C"E3|GFE "D"F2 G "Bm"F3 F3::\
+"Em"E2 F "G"G2 G "F#m"F2 E "Bm"D3|E2 F "C"G2 G "D"F2 F "Em"E3:|
+%%text 1: guitare Em
+S:https://www.folktunefinder.com/tunes/174780
+S:http://kazimodal.trad.org/partitions/gavottes/LA_gavotte/LA_gavotte.abc
+% Rhythm Gavotte des montagnes
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

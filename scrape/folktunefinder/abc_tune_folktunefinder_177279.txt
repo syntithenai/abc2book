@@ -1,0 +1,28 @@
+X: 1
+T: Mouth of the Tobique
+C: R-76
+C: French Canadian
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+%%staffwidth 15.2cm
+K: G
+%%text Repeat both parts 4 times
+(3DEF| "G"GFGA Bded| BdBG DGBG| "D7"AGEF DFAc|1 "G"BdBG D2 :|2 "G"BG2G G2_B2|]
+|:\
+ef| "G"gfga gfeg| "D"fdAd fagf| "C"ecAF "D"DFAc|1 "G"BGBc d2ef :|2 "G"BG2G G2|]
+P: Alternate A
+(3DEF| "G"GFGA Bded| BdBG DGBG| "D7"AGEF DFAc|1 "G"BdBG D2 :|2 "G"BG2G G2_B2|
+|:        "G"=BGBG GcGG| GBGG BGBG| "D7"AGFE DFAc|1 "G"BdBG D2_B2 :|2 "G"BG2G G2|]
+%%text 9/1/98.  From Graham Townsend & Don Messer via Donna Hinds.
+S:https://www.folktunefinder.com/tunes/177279
+S:http://roaringjelly.org/music/reel/R076_Mouth_of_the_Tobique.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R076_Mouth_of_the_Tobique.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R076_Mouth_of_the_Tobique.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

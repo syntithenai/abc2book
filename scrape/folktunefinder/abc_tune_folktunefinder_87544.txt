@@ -1,0 +1,27 @@
+X: 43
+T: Chi-chi
+M: 4/4
+L: 1/8
+C: Charlie Parker
+Q: 1/4=180
+K: Ab
+%%text (medium/up)
+%%vskip 20
+EAd |: "Ab6"cAEC F2zC | " (Db6""Bbm7"DcB_F- "Dbm6 )""Eb7"Fc zB |\
+"Abmaj7"(3GA=A BG _AEF_G- | "Ebm7"G2z_c "Ab7"zAzc |
+"( Db6""Db7"B8 | "Gb7 )""Dbm7"zA z_F ABAG |\
+"Cm7"zB3 GECG, | "Bm7"_G,=D-D2-D2-DC |
+"Bbm7"_D2 z2 zA zF | "( Dbm6 )""Eb7"ABA_F ABAG |\
+"Cm7"zEF_G "F7"z3=E |[1 "Bbm7"FABA "Eb7"cEAd :|[2 "Bbm7"FABA "Eb7"c!fermata!c3 |]
+S:https://www.folktunefinder.com/tunes/87544
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

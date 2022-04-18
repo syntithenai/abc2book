@@ -1,0 +1,30 @@
+X:0696
+T:"Planxty Sir Festus Burke"      0696
+C:Turlough  O' Carolan
+C:spirited
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#009 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+Q:1/4=130
+M:2/4
+L:1/16
+K:D
+"^vb"d2A2 d2e2|{g}f2(ed) d2f2|g2(fe) a2(fd)|c2B2 A2A2|(BA.G2) .G2.B2|.G2.B2 (cd.e2)|
+.d(cBA) B2c2|d4d2 z2|.a2(f2 d2).a2|.a(gfe) d2a2|.b2(g2 e2).b2|.b(agf e2) z2|
+.a(gfe) .f(gaf)|.e(dcB) .c(dec)|.d(BGB) .G(BdB)|.e(cAc) .A(cec)|
+.d(cBA) .G(FED)|.C(B,CD) .E(FGE)|"^>"(F2D2) (D2F2)|{G}A4A2 z2|
+(B2G2) (G2B2)|{d}e4 {d}e2 z2|.d(cBA) A2a2|(ga).b2 (fg).a2|g2B2 .c(dec)|d4d2 z2|
+FAdA FAFD|FAdB A2FA|B2G2 (dcdB)|c2A2 (edec)|d2a2 e2g2|(gfef) g2e2|
+d4z2d2|G2GB G2GB|.A2(Aa) .A2(Aa)|.G2(Gg) .G2(Gg)|(gfef) (gfed)|{g}.a2(ef) (gfed)|
+{a}.b2(ef) (gfed)|(c2A2) A2A2|(Bcdc BAGF)|(AGFE GFED)|A2A,2 CDEC|D4D2 z2|]
+S:https://www.folktunefinder.com/tunes/182826
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/696-PlanxtySirFestusBurke.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

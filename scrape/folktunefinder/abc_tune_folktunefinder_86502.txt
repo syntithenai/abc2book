@@ -1,0 +1,24 @@
+X:465
+T: Kinvara Slide
+C: BB
+R: slide
+M: 12/8
+Q: 1/8=400
+L: 1/8
+K: D
+A|"D"ABA F2 D E2 D F2 D|"D"ABA DFA "G"B2 B dcB|
+"D"ABA F2 D E2 D F2 D|"D"d2 F "A"EFE "D"D3-D2 :|
+A|"Bm"B2 d dcd "A"c2 e ece|"Bm"f2 b a2 f "Em"e3-edB|
+"D"ABA F2 D E2 D F2 D|"D"d2 F "A"EFE "D"D3-D2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86502
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

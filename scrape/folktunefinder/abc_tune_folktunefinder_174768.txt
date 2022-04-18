@@ -1,0 +1,29 @@
+X:1
+T:Matt Hyland
+M:8/4
+L:1/4
+K:A
+E/2-D/2 CD/2-E/2|
+M:6/4
+ E3F/2-G/2 AC/2-E/2| E3- E z d| c B A F E C| B,2 A,2 z2| z E/2D/2 CD/2-E/2 E3|\
+F/2-G/2 AC/2-E/2 E3-| E z d
+M:8/4
+| c B A| A E C B,2| A,2 z3 E AB/2-c/2|
+M:6/4
+ c2|B/2-A/2 A c d| B3- B z E|
+M:8/4
+ AB/2-c/2 c A d| c B3/2- A/2| A4 z E/2D/2 CD/2-E/2|
+M:6/4
+ E3F/2-G/2| A C| E3- E z d|
+M:8/4
+ c B A F E C B,2| A,2 z3||
+S:https://www.folktunefinder.com/tunes/174768
+S:http://back.numachi.com:8000/dtrad/abc/MATTHYL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 8/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

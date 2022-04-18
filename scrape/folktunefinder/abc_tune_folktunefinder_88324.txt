@@ -1,0 +1,28 @@
+X:835
+T:In my Cottage near the Wood
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Q:Andantino
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001085.html
+%%ID:00001085
+K:C
+E3F | \
+G2G2 A2A2 | G2z2 c2d2 | e2f>d   c2B2 | c2z2 E3F | \
+G2G2 A2A2 | G2z2 c2d2 | e2(f>d) c2B2 | c2z2 ::
+f2e2 | \
+d2e2 f2e2 | d2 z4  fe | d2c2    B2A2 | (G3F E3)F | \
+G2G2 A2A2 | G2z2 c2d2 | e2(f>d) c2B2 | c2z2 ::
+S:https://www.folktunefinder.com/tunes/88324
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

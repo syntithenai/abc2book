@@ -1,0 +1,36 @@
+X:470
+T: Liberties (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Amix
+[V:1] "A"EAcA "Bm"dcBA|"G"BGEF GDB,D|"A"EAce aece|"Bm"dB (3BAB "E7"gedB|
+[V:2] A,,2[A2C2E2]B,,2[F2B2D2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+B,,2[F2B2D2]E,2[D2B2G2]|
+%
+[V:1] "A"EAcA "Bm"dcBd|"A"cAEA "G"GDB,D|"A"EAce "D"afdf|"E"^geBe "A"cA A2 :|
+[V:2] A,,2[A2C2E2]B,,2[F2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+E,2[E2B2^G2][A,,4C4E,4] :|
+%
+[V:1] "A"(3cBA ea "F#m"fAeA|"G"gdBd gbaf|"A"eAcA "D"dcdf|"A"ec (3cBc "G"dB (3BAB|
+[V:2] A,,2[A2C2E2]F,,2[A2C2F2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+A,,2[A2C2E2]G,,2[G2B2D2]|
+%
+[V:1] "A"(3cBA ea "F#m"fAeA|"A"ceae "G"gabg|"A"aece "D"dcdf|"E"^geBe "A"cA A2  :|
+[V:2] A,,2[A2C2E2]F,,2[A2C2F2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+E,2[E2B2^G2][A,,4C4E,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86979
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

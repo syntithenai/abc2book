@@ -1,0 +1,20 @@
+X: 1
+T:Rig a Jig
+M:6/8
+L:1/8
+K:G
+|DED D2G|B2G A2B|c2A F2A|
+d2c B2A|DED D2G|B2G A2c|B2d cBA|
+G3G3||B3d2|e2d B3|
+ABA E2F|A2G D3|B3d3|e2d B3|
+A B A E2F|(G3G3)|
+S:https://www.folktunefinder.com/tunes/185522
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ri/Rig_a_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

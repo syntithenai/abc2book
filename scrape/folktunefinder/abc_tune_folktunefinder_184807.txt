@@ -1,0 +1,113 @@
+X:1
+%
+%%indent         1.5cm
+%%sysstaffsep    35.0pt
+%
+T:Recercada Primera
+C:D. Ortiz, 1553
+C:(Lute realization: CD)
+L:1/4
+M:C|
+K:GDorian
+%
+V:F clef=treble    name=Flauto
+V:B clef=bass      name=Basso
+V:L clef=frenchtab name=Liuto
+%
+[V:F] z d'>c' b | a f/g/ a/b/c'/a/ | b d'>c' b | a d/e/ ^f/g/a/^f/ |
+[V:B] g2 g2 | f2 f2 | g2 g2 | d2 d2 |
+[V:L] [aabc4] | [cdda4] | [aabc4] | [,ea,c4] |
+% bar 5
+[V:F] g d'>c' b | a f/g/ a/b/c'/a/ | b g z a | \
+    b g b> c' || d' b d'3/2 c'//b// |
+[V:B] g2 g2 | f2 f2 | g c d2 | \
+    G2 G2 || g2 g2 |
+[V:L] [aabc4] | [cdda4] | [aa,c1] [ab,,a] [,aa,c] ,e | \
+    [aab,,a4] || [aabc2] [a,bc] |
+% bar 10
+[V:F] a/g/a/b/ c' a | b g b>c' | d'3/2 c'//b// a d' | \
+    b>c' d' b | c'/b/a/g/ a/b/c'/a/ |
+[V:B] f2 f2 | g2 g2 | d2 d2 | \
+    g2 g2 | f2 f2 | \
+[V:L] [cdda2] [c,da] | [aabc2] [a,bc] | [,ea,c2] [,ea,c] | \
+    [aabc2] [a,bc] | [cdda2] [c,da] |
+% bar 15
+[V:F] b c'/b/ a/g/^f/e/ | d/c/=B/c/ d/c/B/A/ || \
+    G d'2 b | c' > ba/g/ a |
+[V:B] g1 c d2 | G2 G2 || \
+    g2 g2 | f2 f2 |
+[V:L] [aa,c1] [ab,,a] [,aa,c] ,e | [aac,,a2] ,,,c || \
+    [aabc1] ,,b ,a a | [cdda1] ,,d ,d c |
+% bar 19
+[V:F] g b2 g | a > g^f/e/ f | g d'2 b | \
+    c' > ba/g/ a | g2 z d-|
+[V:B] g2 g2 | d2 d2 | g2 g2 | \
+    f2 f2 | g c d2 |
+[V:L] [aabc1] ,,b ,a a | [,ea,c2] ,{,a} | [dabc1] ,,b ,a a | \
+    [cdda1] ,,d ,d c | [aa,c1] [ab,,a] [,aa,c] ,e |
+% bar 24
+[V:F] d g2 b-|| b d'>c' b | a c'>b a | \
+    g b2 d'-| d' a2 d'-|
+[V:B] G2 G2 || g2 g2 | f2 f2 | \
+    g2 g2 | d2 d2 |
+[V:L] [aab,,a2] ,,,,,a || [aabc1] d ,,,c a | [,daa1] c ,,,a f | \
+    [da,c1] a ,,,c d | [caa,c1] ,e ,a2 |
+% bar 29
+[V:F] d' b > c'd'/b/ | c' c' > bc'/a/ | \
+    b c'/b/ a/g/ a | g d'>c'b/a/ ||
+[V:B] g2 g2 | f2 f2 | \
+    g c d2 | G2 G2 ||
+[V:L] [dabc1] a ,,,c/ c d1 | [cdda1] ,d ,,,a/ a c1 | \
+    [aa,c1] [ab,,a] [,aa,c] ,e | [aab,,a2] ,,,c ||
+% bar 33
+[V:F] b d'>c' b | a c'>b a/g//a// | \
+    b d'>c' b | a a>ga/^f/ |
+[V:B] g2 g2 |f2 f2 | \
+    g2 g2 |d2 d2 |
+[V:L]  [aabc1] d ,,,c/ c a1 | [,dda1] c ,,,a/ a ,d1 | \
+    [aabc1] d ,,,c/ c a1 | [,ea,c1] ,a ,e c |
+% bar 37
+[V:F] g/a/b/c'/ d' b | c' c'>bc'/a/ | \
+    b g z d'-| d' g b>c' ||
+[V:B] g2 g2 | f2 f2 | \
+    g c d2 | G2 G2 ||
+[V:L] [da,c1] a/ c d1 a | [cdda1] ,d/ a c1 ,d | \
+    [aa,c1] [ab,,a] [,aa,c] ,e | [aab,,a1] ,,,c ,a a ||
+% bar 41
+[V:F] d' b>c'd'/b/ |  c' c'2 a | \
+    b>c' d' b | a d'2 a |
+[V:B] g2 g2 | f2 f2 | \
+    g2 g2 | d2 d2 |
+[V:L] [da,c1] a ,,,c/ c d a | [c,da1] ,d ,,,a/ a c ,d | \
+    [a,bc1] ,a ,,,c/ ,c ,d a | [,ea,c1] ,a ,e c |
+% bar 45
+[V:F] b>c' d' b |  c' c'2 a | \
+    b c' a d-| d G/A/B/c/ d ||
+[V:B] g2 g2 | f2 f2 | \
+    g c d2 | G2 G2 ||
+[V:L] [aabc1]>c d1 a | [c,,a/] a ,d ,c ,d a c ,d | \
+    [aa,c1] [ab,,a] [,aa,c] ,e | [aab,,a2] ,,,c ||
+% bar 49
+[V:F] G d'2 g | (3a>bc' (3f>ga | (3b>c'd' (3bgb | \
+    (3a>ga (3^f>ef | g>a b/c'/d'/b/ |
+[V:B] g2 g2 | f2 f2 | g2 g2 | \
+    d2 d2 | g2 g2 |
+[V:L] [aabc2] [aabc] | [cdda2] [cdda] | [aabc2] [aabc] | \
+    [,ea,c2] [,ea,c] | [aabc4] |
+% bar 54
+[V:F] c'/b/a/g/ a/b/c'/a/ | b/b/c'/b/ a/g/^f/e/ | \
+    d/c/=B/c/ d/c/B/A/ | G4 |]
+[V:B] f2 f2 | g c d2 | \
+    G2 G2 | G4 |]
+[V:L] [cdda2] [c,da] | [aa,c1] [ab,,a] [,aa,c] ,e | \
+    [aac,,a4] | ,,,c4 |]
+S:https://www.folktunefinder.com/tunes/184807
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/ortiz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

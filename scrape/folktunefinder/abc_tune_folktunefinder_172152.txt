@@ -1,0 +1,29 @@
+X: 1
+T:The Light of Other Days
+C: 1981 Harry Bolick -  bitshift@panix.com  www.panix.com/~bitshift
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:250
+K:Em
+z2 B,2 D2 |: "Em" E3 D EF | "C" G3 F GA | "Bm" B3 e de | "Em" B3 B ^cd |\
+"A" e2 d2 B2 | "G" A2 G3 A | "Em" B3 A/2 z/2 B,D | "F#m" F4 GF |
+"Em" E3 D EF | "C" G3 F GA | "Bm" B3 d ^cd | "Em" B3 B ^cd |\
+"A" e2 d2 B2 | "G" A2 G3 A | "Bm" B3 A GF | [1 "Em" E4 B,D :| [2 "Em" E3 G Bd |]
+|: "G" g3 f g2 | "Am" a3 g a2 | "Bm" b3 a gf | "Em" ed Bd ef |\
+"G" g3 dg2 | "A" a3 g a2 | "Bm" b3 a gf | "Em" e4 de |
+ "C" g3 f g2 | "D" a3 g a2 | "Bm" b3 a gf | "Em" ed Bd e2 |\
+"Bm" f3 d f2 | "G" g3 f ed | "Em" BA "Bm" GA Bd | [1 "Em"e4 de :| [2 "Em" e4 B, D |]
+S:https://www.folktunefinder.com/tunes/172152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/li/Light_of_Other_Days_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

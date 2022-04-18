@@ -1,0 +1,29 @@
+X: 1
+T:Ms Margaret
+C: 1999 Harry Bolick -  harry@bolick.net - www.bolick.net
+R:March
+O:United States
+A:Brooklyn, New York
+M:2/4
+L:1/8
+Q:200
+K:G
+(3(DEF) |: "G" G (G,B,) G  | BGBc | "D" d3 "C" c | "G"  B4 |
+"C"  c>B AG | "D" (FD) (FA) | "G" gfed | B4  |
+"C"  c>B cd | edef | "G" gdBd | g3 g |
+"A" ^c3 d | e^cBA | "D"  d4 | "A" ^c4 |
+"G" e3 f | gbag | "D" a3 f | d2 (ef) | "G" g3 e |
+"A" ^c2 (de) | "D" f4 | "A" a4 | "G" b3 ^c' |
+d'd'^c'b | "D" a3 f |d2 (ef)  | "G" g2 (f/2e/2d) |
+"A" ^cAB^c | "D" d2 d2 |  d2  (3(DEF):|
+S:https://www.folktunefinder.com/tunes/177537
+S:http://www.bolick.net/sound/MsMargaret.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

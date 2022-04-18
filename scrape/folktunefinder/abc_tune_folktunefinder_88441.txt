@@ -1,0 +1,28 @@
+X:1420
+T:Jonny Magic
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:bar missing in B part 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001222.html
+%%ID:00001222
+K:G
+d/c/ | \
+BGG G2B | cAA A2f | gfe dec | BGG G2 ::
+g/a/ | \
+bab  gab | ~aga fga | ~gfg bag | fdd Td2d | \
+ece c'ec | dBd  edc | BGG TG2 ::
+%%newpage
+%page 114
+S:https://www.folktunefinder.com/tunes/88441
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

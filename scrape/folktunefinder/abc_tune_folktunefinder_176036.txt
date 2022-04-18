@@ -1,0 +1,25 @@
+X: 1
+T: Miss Drummond Of Perth's Favorite Scots Measure
+M: 4/4
+L: 1/8
+R: strathspey
+K: Gmin
+GA |:  B2AB G2GA | B2Bc  d2cB | A2f2 F2c2 | ABcF D2GA |
+B2AB G^FGA | BABc d2 =e^f | g2d2 edcB |[1 A4  G2GA :|[2 A4 G2ga ||
+|: b2a2 g2(3^fga | gzd4d=e | =f3=e fgaB | cBAG F2GA |
+BABG cBcA | d^cd=e fefd | g2d2 ed=cB |[1  A4 G2ga :|[2 A4 G2 (3D=E^F ||
+|: G^FGA BABc | dcBA GABG | Ac=Fc AGAF | fgaB ABcA |
+G^FGA BABc | dcBA GABG | ABcA d2cB |[1 A4 G2(3D=E^F :|[2 A4 G2g^f ||
+|: gdgd gdgd | B2AB G2 d=e | =fcfc fcfc | A2GA F2ga |
+b2ag a2g^f | g2ab d2cB | c2az A2g^f |[1 g4 G2g^f :|[2 g4 G4||
+S:https://www.folktunefinder.com/tunes/176036
+S:http://www.thesession.org/tunes/display/9111
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

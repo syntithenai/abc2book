@@ -1,0 +1,22 @@
+X:6
+T:Queen of Hearts
+M:C|
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B2|cd e2e2 dc|Bcde d2B2|cd e2e2 dc|Bcde d3B|c2d2e2f2|g2e2d3c|B2AGA2GF|G2GG G2::
+g2|f2d2d2ef|g2dBG2g2|f2d2defg|a2aa a3g|f2d2d2ef|g2e2d3c|B2AGA2GF|G2G2G2:|]
+S:https://www.folktunefinder.com/tunes/89993
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:22
+T:Les Quatre Rigodons
+R:Rigodon
+C:Trad.
+A:Hautes-Alpes - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:180
+K:C
+z3E|:[AA,][A/A,/]B/[cA,][c/A,/]B/|1[A/A,/]B/[c/A,/]B/[AA,][EA,]:| \
+K:G
+|2[A/A,/]B/[c/A,/]B/[AA,]A,|:[d/G,/]e/[d/G,/]e/[dG,][A/G,/]B/|[c/A,/]c/[B/E,/]A/[BG,][GG,]|[d/G,/]e/[d/G,/]e/[dG,][A/D,/]B/|1[c/A,/]c/[B/E,/]A/[GG,]G,:|2[c/A,/]c/[B/E,/]A/[GG,]E| \
+K:C
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96982
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Rigodon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

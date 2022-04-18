@@ -1,0 +1,19 @@
+X: 1
+T:Piper's Apron, The
+R:slip jig
+D:Tommy Keane: The Piper's Apron
+Z:id:hn-slipjig-23
+M:9/8
+K:D
+DFA ded cde|DFA d=cA GEA|DFA dfe dAB|1 =c2A AGF GED:|2 =cde dcA GED||
+|:d2e fdf ~g3|afd d^cd ecA|1 d2f e^ce dAB|=c2A AGF GED:|2 fed e^ce dAB|=cde dcA GEA||
+S:https://www.folktunefinder.com/tunes/182571
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pi/Pipers_Apron_The_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

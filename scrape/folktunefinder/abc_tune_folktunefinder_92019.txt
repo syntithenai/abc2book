@@ -1,0 +1,24 @@
+X: 10
+T: Odeno Oro
+O: Macedonia
+M: 6/8
+L: 1/8
+P: AA BB CCCC DDDD, then in fifths, then as at first - drone D throughout
+K: Dm
+|: D3 D2E | F2E D3 | E3 EDC | E3 EFE |\
+   D3 D2E | F2E D3 | E3 EDC | D3 D3 :|
+|: A3 G2A | F2E D3 | E3 EDC | E3 EFG |\
+   A3 G2A | F2E D3 | E3 EDC | D3 D3 :|
+|: DEC D2E | FGE FGE | DEC D2E | FGE D2A, :|
+|: FGE FGE | DEC D2E | FGE FGE | DEC D2E :|
+S:https://www.folktunefinder.com/tunes/92019
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/OdenoOro.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

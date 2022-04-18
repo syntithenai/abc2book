@@ -1,0 +1,25 @@
+X:1
+T:Palermo -- Hornpipe
+Z:Bob Puckette  2003-3-10
+R:hornpipe
+B:Cole's 1000 Fiddle Tunes
+M:2/4
+L:1/16
+K:A
+((3uEFG)|AGAB Acea|edea ecBA|fedc dcBA|GABc BEFG|
+AGAB Acea|ecea ecBA|fedc BAGB|A2c2A2:|
+|:vcd|ecea ecea|fdfa fdfa|fedc dcBA|GABc .B2(cd)|
+ecea ecea|fdfa fdfa|gfed cBAG|A2c2A2:|
+S:https://www.folktunefinder.com/tunes/181517
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/bpuckette:msn.com/PalermoHornpipe.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/PalermoHornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

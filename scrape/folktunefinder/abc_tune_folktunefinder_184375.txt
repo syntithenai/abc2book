@@ -1,0 +1,32 @@
+X: 1
+T: Rabbie's
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+d2|&quot;G&quot;G2 Bd g2d2|bagf g2d2|&quot;C&quot;ecge &quot;G&quot;dBgd|&quot;C&quot;cBAG &quot;D&quot;AcBA|
+!&quot;G&quot;G2 Bd g2d2|&quot;B&quot;bagf &quot;Em&quot;g2=f2|&quot;C&quot;eceg &quot;D&quot;fdfa|&quot;G&quot;g2b2g2f2|
+!&quot;G&quot;g2 dB &quot;Em&quot;GdBG|&quot;Am&quot;cBAG &quot;D&quot;A2f2|&quot;G&quot;g2 GA &quot;Em&quot;BGdc|&quot;Am&quot;B2A2 &quot;D&quot;A3d|
+!&quot;C&quot;ecge &quot;G&quot;dBgd|&quot;C&quot;cBAG &quot;D&quot;GFED|&quot;C&quot;ECEG &quot;D&quot;FDFA|&quot;G&quot;G2B2G2:|
+K: D
+!|:A2|&quot;D&quot;A2 FA d2A2|&quot;G&quot;B2 GB &quot;D&quot;A2A2|A2 FA d2f2|&quot;G&quot;gfed &quot;A&quot;e2A2|
+!&quot;D&quot;A2 FA d2A2|&quot;G&quot;B2 GB A2a2|&quot;G&quot;gfed &quot;A&quot;cBAG|&quot;D&quot;F2D2D2 dB|
+!&quot;D&quot;D2d2 d2f2|&quot;G&quot;gfed &quot;A&quot;e2 AG|&quot;D&quot;F2d2 d2f2|&quot;A&quot;edcB A2BA|
+!&quot;G&quot;G2g2 g2ab|&quot;A&quot;agfe &quot;Bm&quot;d2f2|&quot;G&quot;gfed &quot;A&quot;cBAG|&quot;D&quot;F2D2 D2:|
+K: A
+!|:e2|&quot;A&quot;cdef e2a2|cdef e2ee|&quot;D&quot;fdaf &quot;A&quot;e2ae|&quot;B7&quot;fgab &quot;E&quot;geed|
+!&quot;A&quot;cdef e2a2|ABcd e2AG|&quot;D&quot;FGAF &quot;A&quot;E2 Ac|&quot;E&quot;edcB &quot;A&quot;A2e2|
+!&quot;A&quot;ABcd e2fg|&quot;D&quot;afdf &quot;A&quot;e2fg|&quot;D&quot;agag &quot;A&quot;fedc|&quot;B7&quot;BAGF &quot;E&quot;EDCB,|
+!&quot;A&quot;A,B,CD E2AB|cdef e2ag|&quot;D&quot;fdaf &quot;A&quot;e2a2|&quot;E&quot;edcB &quot;A&quot;A2:|
+S:https://www.folktunefinder.com/tunes/184375
+S:http://www.thesession.org/tunes/display/6346
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

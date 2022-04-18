@@ -1,0 +1,24 @@
+X: 1
+P: Miss Hutton
+R: strathspey
+C: as played by Buddy MacMaster "Judique Flyer"
+C: arr. T. Traub 2-25-2004
+M: 4/4
+L: 1/8
+K: Bb
+R: strathspey
+|: A|"Bb"B<FF>E D<F F2|"Gm"D<GG>A "Bb"B>cd>g|"F"f<dc>B "Dm"(3ABc A<F|"Gm"G<G "D"d>c "Gm"B<G G :|
+A|"Bb"B2 d>B f>dc>B|"F"(3ABc f>d c>fA>F|"Gm"G>A B<d g/^f/g/a/ g>d|"D"b>ag>^f "Gm"g<gg>d|
+"Gm"(3gab g>d "Cm"(3efg e>c|"Gm"d/c/B/A/ B>G "D"F<AD>c|"Gm"B>d G<d "Cm"c>eX:2
+d>c|"Gm"B>G "D"B/A/G/^F/ "Gm"G2 G |]
+S:https://www.folktunefinder.com/tunes/176109
+S:http://terrytraub.org/abc/MissHuttonS.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MissHuttonS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 51
+T:The Passing Fancy
+R:Reel
+C:Ed Reavy
+M:2/2
+L:1/8
+Z:Joe Reavy
+N:Only the great tunes survive. But in our time we also welcome the charming
+N:lift of a passing fancy. The first fresh strains of a well-wrought tune make
+N:us all a little bit better for the hearing of it.
+K:G
+DF \
+|: G2 Bd cAFA | GBAG FDB,D | G2 Bd (3cBA FA | defd cAFA |
+| G2 Bd (3cBA FA | GBAG FEFA | GBAc (3B^cd eg |1 fdcA BGGF :|2 fdcA BGGf ||
+|: gfeg fedf | gfga bgef | gfeg fedf | ecAG FGAf |
+| g2 eg fedf | gfga bgeg | (3bag (3agf agfg |1 ecAc BGGf :|2 ecAF G2 ||
+S:https://www.folktunefinder.com/tunes/181706
+S:http://trillian.mit.edu/~jc/music/abc/mirror/EdReavy/PassingFancy.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

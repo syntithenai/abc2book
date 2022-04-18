@@ -1,0 +1,21 @@
+X:1
+T:My Grandfather's Clock
+M:4/4
+L:1/4
+K:G
+ D| G2 F G| A2 G A| B2 c B| E2 A A| G2 G G| F2 E F| G4-| G2 D D| G2 F G|\
+ A2 G A| B2 c B| E2 A A| G2 G G| F2 E F| G4-| G2 B c| d2 B A| G2 F G|\
+ A G F E| D2 B c| d2 B A| G2 F G| A4-| A2 D D| G4| A4| B/2B/2 B c B|\
+ E2 A A| G4| F4| G4-| G z D D| G2 D D| E E D2| B,2 D2| B,2 D D| G2 D D|\
+ E E D2| B,2 D2| B,2 D D| G4| A4| B/2B/2 B c B| E2 A A| G4| F4| G4-|\
+ G2 z||
+S:https://www.folktunefinder.com/tunes/177951
+S:http://back.numachi.com:8000/dtrad/abc/GRANCLOK.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/GRANCLOK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

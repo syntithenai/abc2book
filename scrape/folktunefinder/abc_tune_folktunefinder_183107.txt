@@ -1,0 +1,41 @@
+X:1
+T:Polka (Tauferer Schustertanz)
+C:traditionell
+R:polka
+A:Sand in Taufers, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Tiroler Volkstanzbuch - Notenteil, Karl Horak, Musikverlag Helbling, Innsbruck, 1974
+N:OeVLA: Z 1146
+N:tonart im buch: in F (1. teil) und C (2. teil),  erster ton c'' 
+N:im buch s. 34
+N:im buch zweistimmig in einer notenzeile
+S:aus einem handschriftlichen noten-heft aus Sand in Taufers
+%%endtext
+Z:abc transcription: Simon Wascher
+Q:1/4=88 %im buch
+M:2/4
+L:1/16
+K:F
+P:A
+cBAB c2d2 | c2A2 c4 | BCEG B4 | ACFA c4 |\
+cBAB c2d2 | c2A2 c4 | B2GE CDE2 | F2A2F2z2 :|
+P:B
+K:C
+e2G2 e2f2 | e6 f2 | d2G2 d2e2 | c2G2 c4 |\
+e2G2 e2f2 | e6 f2 | d2d2 BAB2 | cce2c2z2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183107
+S:http://simonwascher.info/TradArchiv_polka/tauferer_schustertanz.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

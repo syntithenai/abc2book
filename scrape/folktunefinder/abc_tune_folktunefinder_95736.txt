@@ -1,0 +1,26 @@
+X:525
+T:the Coronation
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e3a.html
+%%ID:00000e3a
+K:D
+A2d (cBc)  | d2f A2d | B2e g2f | (ef).d (cd).B |\
+A2d {d}cBc | d2f a2f | b2g a2f | gfe d3 H::
+(fef) d2f | g2b e2g | f2a d2f | e2d cBA |\
+{g}fef d2f | g2b e2g | f2d g2f | e2d cBA !D.C.! ||
+%page:60
+S:https://www.folktunefinder.com/tunes/95736
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

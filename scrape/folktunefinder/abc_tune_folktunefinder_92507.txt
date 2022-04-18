@@ -1,0 +1,28 @@
+X:484
+T: yyixin canjia xinsijun
+N: C1903
+O: China,Zhejiang Changxing
+S: III, 621, 1)]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+E2G2D4 | E2G2A4 | d4e2B2 | A8
+A2B2d2e2 | A2B2G4 | A2G2E2G2 | D8
+E4D2E2 | E2G2A4 | d4e2B2 | A8
+G3AB2d2 | A2B2A2G2 | A2G2E2G2 | D8
+A2BAA2G2 | E2EGD4 | A2ABA2G2 | E2EGD4
+G2G2E2GG | A8
+A3Bd2e2 | A2B2A2G2 | A2AGE2G2 | A2ABG2E2 | D8
+S:https://www.folktunefinder.com/tunes/92507
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

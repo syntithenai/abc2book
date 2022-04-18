@@ -1,0 +1,22 @@
+X:19274
+T: Zhalna Majka
+R: lesnoto
+M: 7/8
+L: 1/8
+K: F
+[| "C7"fed e2 (3cde | "Bb"dcB "F"c2 de | "C7"dcB c2 (3ABG \
+| "F"[A7F] | ABc AB ca | "Bb"g2f ef ed | "C7"c2d cB BA | "F"[A7F]- | [A7F] ||
+|: "F"[A2F][BG] [c2A] [a2c] | [a2c][ac] "Bb"[f2d] [d2B] \
+|1 "F"[c2A][dB] [cA][BG] [BG][AF] | "C7"[B7G] :|2 "C7"[c2A][dB] [cA][BG] [BG][AF] | "F"[A7F]- | [A7F] |]
+|: "F"([gB][a2c]) [a4c] | "Bb"[b2d][ac] [g2B] [f2d] | "C7"[e7c]- | [e7c] | "Bb"([ec][f2d]) [f4d] | "C7"[g2e][fd] [e2c] [d2B] |
+|  "F"[c7A]- | [c7A] | "F"[A2F][BG] [c2A] [a2c] | [a2c][ac] "Bb"[f2d] [d2B] | "C7"[c2A][dB] [cA][BG] [BG][AF] | "F"[A7F]- | [A7F] :|
+S:https://www.folktunefinder.com/tunes/94565
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

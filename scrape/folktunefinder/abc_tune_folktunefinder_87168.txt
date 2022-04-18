@@ -1,0 +1,54 @@
+X: 9083
+T: Ken Vesey's (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: C
+[V:1] AB|"C"cGEG "Am7"AGEG|"C"cAGE "G"(3DED "C"C2|"Dm"DEFE "D"DE^FE|"G"DGG^F G2 AB|
+[V:2] z2|C,2[E2G2C2]A,,2[G2C2E2]|C,2[E2G2C2][G,,2B,2D2][C,2E,2G,2]|D,2[A2D2F2]^F,,2[A2D2^F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "C"cGEG "Am7"AGEG|"C"cAGE "G"(3DED "C"C2|"G"gd"C"ec "G"dB"Am"cA|"G"GEDE "C"C2 :|
+[V:2] C,2[E2G2C2]A,,2[G2C2E2]|C,2[E2G2C2][G,2B,2D2][C,2E,2G,2]|[B,,2D2][C,2G2][D,2G2]\
+[E,2A2]|G,,2[G2B2D2][C,2E,2G,2]:|
+%
+[V:1] AB|"C"c2 gc acgc|"F"fagf "C"edcB|"Am"c2 Bc ABcB|"Am7"AGEG A2 AB|
+[V:2] z2|C,2[E2G2C2]G,,2[E2C2G2]|F,,2[A2C2F2]C,2[E2G2C2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+A,,2[G2C2E2]E,,2[E2C2G2]|
+%
+[V:1] "C"c2 gc acgc|"F"fagf "C"edcB|"Am"c2 Gc "C"EcGE|"G7"FDB,D "C"C2 :|
+[V:2] C,2[E2G2C2]G,,2[E2C2G2]|F,,2[A2C2F2]C,2[E2G2C2]|A,,2[A2C2E2]C,2[E2G2C2]|\
+G,,2[F2B2D2][E2G,2C,2]:|
+%%%%%%tune repeat
+[V:1] AB|"C"cGEG "Am7"AGEG|"C"cAGE "G"(3DED "C"C2|"Dm"DEFE "D"DE^FE|"G"DGG^F G2 AB|
+[V:2] z2|C,2[E2G2C2]A,,2[G2C2E2]|C,2[E2G2C2][G,,2B,2D2][C,2E,2G,2]|D,2[A2D2F2]^F,,2[A2D2^F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "C"cGEG "Am7"AGEG|"C"cAGE "G"(3DED "C"C2|"G"gd"C"ec "G"dB"Am"cA|"G"GEDE "C"C2 :|
+[V:2] C,2[E2G2C2]A,,2[G2C2E2]|C,2[E2G2C2][G,2B,2D2][C,2E,2G,2]|[B,,2D2][C,2G2][D,2G2]\
+[E,2A2]|G,,2[G2B2D2][C,2E,2G,2]:|
+%
+[V:1] AB|"C"c2 gc acgc|"F"fagf "C"edcB|"Am"c2 Bc ABcB|"Am7"AGEG A2 AB|
+[V:2] z2|C,2[E2G2C2]G,,2[E2C2G2]|F,,2[A2C2F2]C,2[E2G2C2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+A,,2[G2C2E2]E,,2[E2C2G2]|
+%
+[V:1] "C"c2 gc acgc|"F"fagf "C"edcB|"Am"c2 Gc "C"EcGE|1 "G7"FDB,D "C"C2 :|2\
+"G7"FDB,D "C"C4-|C8||
+[V:2] C,2[E2G2C2]G,,2[E2C2G2]|F,,2[A2C2F2]C,2[E2G2C2]|A,,2[A2C2E2]C,2[E2G2C2]|1\
+G,,2[F2B2D2][E2G,2C,2] :|2 G,,2[F2B2D2][E4-G,4-C,4-]|[E8G,8C,8]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87168
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

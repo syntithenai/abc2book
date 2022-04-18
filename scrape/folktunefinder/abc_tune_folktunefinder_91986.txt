@@ -1,0 +1,27 @@
+X:056
+%%topmargin 3cm
+T:Irish Lilt
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Rant
+L:1/8
+M:9/8
+K:EPhry
+E2 G GAG GAG | E2 G GAG c2 e | E2 G GAG GAG | A2 A d2 c BAG ::
+e3 g3 c3 | f2 e d2 c BAG |  e3 d3 c3 | ABc G2 F EDC ::
+E2 G E2 G EDC | E2 G E2 G FED | E2 G E2 G EDC | A2 A D2 c BAG :|]
+S:https://www.folktunefinder.com/tunes/91986
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Irish_Lilt.abc
+% Rhythm Rant
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

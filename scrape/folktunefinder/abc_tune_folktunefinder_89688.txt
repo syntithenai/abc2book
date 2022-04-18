@@ -1,0 +1,30 @@
+X:240
+T: Stranger
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: Dmix
+dc | B2 (3BAG A2 (3ABc | dcAF G2 FG | AFDE FAGE |\
+DEFG A2 dc |
+B2 (3BAG A2 (3ABc | dcAF G2 FG | AFDE FAGE |1\
+D2 DC D2 dc :|
+|2 D2 DC D2 FG || ABde f2 ef | dcAF G2 FG |\
+ABde f2 ef |
+gfef d2 fg | afge dfec | dcAF G2 FG | AFDE FAGE |1\
+D2 (3DED D2 FG :|
+|2 D2 DC D2 z4 ||
+S:https://www.folktunefinder.com/tunes/89688
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,38 @@
+X:640
+T:Clarinetto Primo
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+N:but, 1st clarinet part to _what_ 
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef8.html
+%%ID:00000ef8
+K:C
+cegc' | c'b/a/ g2 | egeg        | d/c/d/e/ d2z |\
+cegc' | c'b/a/ g2 | eg d/c/d/e/ | cc Hc2      ::
+.d.d.e.e | gfdz      | .e.e.f.f    | agez | \
+cegc'    | c'b/a/ g2 | eg d/c/d/e/ | cc c2 ||
+ccdd | ee f2 | egec | Ad c/B/A/G/ | \
+ccdd | ee f2 | eceB | cd c2 ::
+gecc | afdd  | ge cc | dB G2 | \
+gecc | afdc'   bgab  | ga g/f/e/d/ |
+ceg{b}c' | c'b/a/ g2 | egeg        | d/c/d/e/ dz | \
+cegc'    | c'b/a/ g2 | eg d/c/d/e/ | cc c2 ::
+cc B/c/B/c/ | dd d2 | gfec | Ad c/B/A/G/ | \
+cc B/c/B/c/ | dd d2 | gfec | e/d/c/B/ c2 ::
+aa f/g/a/f/ | gg e2 | ff d/e/f/d/       | B/c/d/B/ G2 | \
+aa f/g/a/f/ | gg e2 | d/e/d/e/ g/f/e/d/ | ga g/f/e/d/ ::
+%%newpage
+%page 41
+S:https://www.folktunefinder.com/tunes/88285
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

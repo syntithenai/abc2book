@@ -1,0 +1,27 @@
+X:220
+T: Sanpen Shuixian
+N: C1712
+O: China,Taiwan
+S: IV, 646]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: G
+B2d2B2A2 | B2d2B2A2 | B2E2G2A2 | B8
+d4B4 | B2d4e2 | B2A2E2B2 | A8
+A4d4 | B2d4A2 | B2d2A4 | E8
+d2B2B2d2 | A2B4B2 | A2G2E2G2 | A3BA2G2
+E3GE2D2 | B2d2B2A2 | G2A2B2A2 | G8
+S:https://www.folktunefinder.com/tunes/92243
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

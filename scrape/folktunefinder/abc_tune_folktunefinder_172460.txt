@@ -1,0 +1,22 @@
+X: 1
+T: Little Jack's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: A | 
+GFG B2 A | GBd e2 d | g2 e d2 G | F<AG FED |
+GG/G/G E2 D | GBd dB/c/d | gdg b2 a | g3 g2 :|
+|: e | 
+dBd gbg | ece a2 g | f<af def | g<bg d2 e |
+dB/c/d g2 f | ec/d/e a2 g | fed c'2 f | g3- g2 :|
+S:https://www.folktunefinder.com/tunes/172460
+S:http://www.thesession.org/tunes/display/6940
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

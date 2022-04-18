@@ -1,0 +1,27 @@
+X:1290
+T:the Crusaders
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001201.html
+%%ID:00001201
+K:C
+e/d/ |:: !segno! \
+cGG e/d/ | cGG (g/f/) | ec ce | d/c/B/c/ d e/d/ | \
+cGG e/d/ | cGG g/f/ | ec dB | c2 z :|
+B/c/ |: \
+dd/e/ fd | ee/f/ gc | dd/e/ f/e/d/c/ | Bcd B/c/ | \
+dd/e/ fd | ee/^f/ ge | d>e d/B/c/A/ | GGAB !segno! !D.C.! ::|
+S:https://www.folktunefinder.com/tunes/88415
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 19
+T: Hurry, Hurry, Hurry #1
+I: Hurry, Hurry, HurryS-HCsquare
+C: S-H
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+z2G2| "C"c2c2 B2B2| A2A2 G2G2| A4 G2E2-| E8| G2G2 G2G2| G2G2 F2E2| G4 "G7"F2D2-| D8|
+      "G7"B2B2 A2A2| G2G2 F2F2| G4 F2D2-| D4 E2F2| G2G2 G2G2| G2F2 E2D2| "C"C8-| C4 :|
+P: Tag
+%%staffwidth 9cm
+E2F2| "G7"G2G2 G2G2| G2G2 A2B2| "C"c8-| c4 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/97300
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

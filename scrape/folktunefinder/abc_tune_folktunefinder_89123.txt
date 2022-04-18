@@ -1,0 +1,27 @@
+X:95
+T: Flynn's
+S: M.Mulvihill
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Ador
+D | EAAB c2 d2 | (3efg ed Bc d2 | eAAB BAGB |\
+AGEF GE D2 |
+EAAB c2 d2 | (3efg ed Bc d2 | eAAB BAGE | A4-A3 :|
+d | ea (3aba e2 d2 | ea (3aba e2 d2 | eAAB BAGB |\
+AGEF GE D2 |
+EAAB c2 d2 | (3efg ed Bc d2 | eAAB BAGE | A4-A3 :|
+S:https://www.folktunefinder.com/tunes/89123
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

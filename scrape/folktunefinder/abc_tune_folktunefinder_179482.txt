@@ -1,0 +1,21 @@
+X: 2
+P: O'Donnel Abu
+R: march
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: D
+[| "D"D2 FG | A2 FA | f2 dB | A2 GF | "Em"E2 EF | "A7"G2 FE | "D"D2 FG | "A7"A4 ||
+|| "D"D2 FG | A2 FA | f2 dB | A2 GF | "Em"E2 e>d | "A7"cA Bc | "D"d2 "G"d>e | "D"d4 |]
+[| "D"f2 fe | dB A2 | d2 dB | AF D2 | "G"G2 GG | "D"FA- AF | "A7"E2 EF | E4 ||
+|| "D"D2 FG | AB A2 | f2 dB | AA GF | "Em"E2 e>d | "A7"cA Bc | "D"d2 "G"d>e | "D"d4 |]
+S:https://www.folktunefinder.com/tunes/179482
+S:http://trillian.mit.edu/~jc/music/book/500/ODonnelAbu.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

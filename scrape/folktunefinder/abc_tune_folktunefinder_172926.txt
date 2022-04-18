@@ -1,0 +1,26 @@
+X: 1
+T: Lord Duplin's Jig
+C: Bowie
+B: RSCDS 19-6(II)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+A/B/ \
+| "D"d2A FDF | ABA FDF | d2A "Bm"BAF | "Em"E2E "A7"EFA \
+| "D"d2A FDF | ABA FGA | "G"BGB "A7"AFA | "D"D2D D2 :|
+|: A \
+| "D"d2d "A7"ABc | "D"d2d fed | d2d "A"cBA | "E7"B2e "A7"e2f \
+| "D"d2d "A7"ABc | "D"d2d cBA | "G"B2G "A7"AFA | "D"D2D D2 :|
+|| A \
+| "D"d2d "A7"ABc | "D"d2d fed | d2d "Bm"BAF | "Em"E2e "A7"e2f \
+| "D"d2A "G"B2G | "A7"BAG "D"FGA | "G"BGB "A7"AFA | "D"D2D D2 |]
+S:https://www.folktunefinder.com/tunes/172926
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j40/LordDuplinsJ40.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/rscds/LordDuplinsJ40.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

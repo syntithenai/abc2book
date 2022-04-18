@@ -1,0 +1,37 @@
+X:545
+T: Mighty Mike's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 program 1 00 clef=bass m=D
+K: D
+[V:1] "D"A2 FA dcBA|"Bm"dcBA FB B2|"D"A2 FA dcBd|"F#m"faef "G"dBBd|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]F,,2[F2D2B2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+F,,2[A2C2F2]G,,2[G2B2D2]|
+%
+[V:1] "D"A2 FA dcBe|"D"fdec "G"dBBd|"D"AdcB AFEF|"A7"AFGE "D"FD D2 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+A,,2[G2C2E2][D,4F4A,4] :|
+%
+[V:1] "A"eA (3cBA eA (3cBA|"Bm"FABc "G"dcde|"D"fa (3a^ga "Em"b=gge|"F#m"faef "G"dBBd|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|B,,2[F2B2D2]G,,2[G2B2D2]|D,2[A2D2F2]E,2[E2B2G2]|\
+F,,2[A2C2F2]G,,2[G2B2D2]|
+%
+[V:1] "A"eA (3cBA eA (3cBA|"Bm7"FABc "G"dcde|"Bm"fBBc "D"dcBd|"A7"AFGE "D"FD D2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|B,,2[F2A2D2]G,,2[G2B2D2]|B,,2[F2B2D2]D,2[A2D2F2]|\
+A,,2[G2C2E2][D,4F4A,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86994
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

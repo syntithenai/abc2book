@@ -1,0 +1,47 @@
+X:1
+T:Lamma bada
+O:mediaeval Andalus
+Z:Jack Campin 2001
+M:10/8
+L:1/16
+V:1      program 1 74
+V:2 bass program 1 46
+K:G Minor ^f
+%V:1
+%V:2 clef=bass middle=D,
+%
+[V:1] x2 |x2 x2 x2   x2 x2  x2  x2  x2  x2     x2 |x2  x2 x2  x2  x2 x2  x2  x2  x2 D2 |
+[V:2] D,2|G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   G4   (AB) (cBBA)  AG(GF)  G4        (AB)|c4     d2  B3A   (AGG)F   G4    (AG)|
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   F4    G2  (E3D)   ED(EF)  D4        (ed)|c4     d2  B3A   (AGG)F   G4     D2 |
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   G4   (AB) (cBBA)  AGGF    G4        (AB)|c4     d2  B3A   (AGGF)   G4    (AG)|
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   F4    G2  (E3D)   ED(EF)  D4        (ed)|c4     d2  B3A   (AGG)F   G4     D2 |
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   G4   (AB) (cBBA) (AGG)F   G4         D2 |G4     A2  B4    (B2A)c   B4     G2 |
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   d4    c2  (cBBA) (AGG=F) (G2AB){AG} =F2 |G4     A2  B4    (B2A)c   B4     G2 |
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   c4    d2   B3A   (AGG)F   G4        (AG)|F4     G2 (FEED) (EDE)G   D4    (ed)|
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2 D,2|
+%
+[V:1]   c4    d2  (B3A)  (AGG)F   G4        (AB)|c4     d2  B3A   (AGG)F   G4       |]
+[V:2]   G,2z2 D,2  G,2z2  D,2 D,2 G,2 z2     D,2|G,2 z2 D,2 G,2 z2 D,2 D,2 G,2 z2   |]
+S:https://www.folktunefinder.com/tunes/171139
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/LammaBada_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 10/8
+% Has_accompaniment_chords Has chords

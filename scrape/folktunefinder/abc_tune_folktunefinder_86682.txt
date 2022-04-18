@@ -1,0 +1,24 @@
+X: 141
+T: Camel's Hump (reel)
+N: 030126
+C: BB
+R: reel
+Q: 380
+M: 4/4
+L: 1/8
+K: C
+"E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"B,E E2 "E"B,E^GA|"Bb"_BAFD "E"E2 ED|
+"E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"FE (3EDE ^GE (3EDE|"Bb"_BAFD "E"E4 :|
+"E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"eB (3B^AB ^gB (3BAB|"Am"afef e2 fe|
+"E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"B^G G2 "F"AF F2|"Bdim"BA^GF "E"E4 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86682
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

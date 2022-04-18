@@ -1,0 +1,27 @@
+X:1
+T:La Louisa
+R:bourree a trois temps
+A:France
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:3/8
+L:1/16
+K:C
+G2c2d2 | f2e2d2 | c2d2e2 | c4B2 |
+G2c2d2 | f2e2d2 | c2d2e2 | d6 :|
+d2e2f2 | g3ag2 | f2dede | f2e2d2 |
+c2dede | f2e2d2 |1 c2dedc | B2G4 :|\
+                [2 c2dedB | c6 |]
+S:https://www.folktunefinder.com/tunes/173138
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_bourree_3/la_louisa.abc
+% Rhythm Bourree a trois temps
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

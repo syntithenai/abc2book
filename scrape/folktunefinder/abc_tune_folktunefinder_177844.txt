@@ -1,0 +1,41 @@
+X:1234
+T:Tanz
+T:Mutterlein mein, wie soll ich thon
+C:Erasmus Widmann, arr. Frank Nordberg
+O:Germany
+N:First published 1611
+R:Tanz, allemande
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/widmann-erasmus/widmann-mutter/widmann-mutter-pno1.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:C|
+L:1/4
+Q:1/4=144
+K:C
+V:1
+cB/A/Gc|d/e/f/d/e>d|cB/A/Gc|cBc2::f>fed|d^cdd|
+V:2
+C,D,E,C,|G,G,C,2|C,D,E,C,|G,G,C,2::D,2A,_B,|G,A,D,G,|
+%
+V:1
+e>fgc|cB/A/BG|cB/A/Gc|d/e/f/d/e>d|cB/A/Gc|cBc2:|
+V:2
+C,>D,E,F,|C,D,G,E,|C,D,E,C,|G,G,C,2|C,D,E,C,|G,G,C,2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/177844
+S:http://abc.musicaviva.com/tunes/widmann-erasmus/widmann-mutter/widmann-mutter-pno1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/widmann-erasmus/widmann-mutter/widmann-mutter-pno1.abc
+% Rhythm Tanz, allemande
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

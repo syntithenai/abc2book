@@ -1,0 +1,29 @@
+X:1
+T:Panimamo, Brante Ji
+C:traditionell
+A:Tschechische Republik
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+D:Josef Rezny, The Hidden Spell Of The Cech Bagpipe/Hraly dudy 71 0129 711 BONTON Music 1993
+N:auf diesem tontraeger nr. 20
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+GB dg | eg d2 | cc BB | AA G2|
+GB dg | eg d2 | cc BB | AA G2 ||
+ec ce | dB Bd | cA cA | Bc d2|
+ec ce | dB Bd | cA cA | Bc d2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181551
+S:http://simonwascher.info/TradArchiv_polka/panimamo,_brante_ji.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Polka
+C:traditionell, eingerichtet nach einem lied aus Suedboehmen
+R:polka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:nach:Nase Prameny - Pisne repertoaru Prachenskeho souboru, Josef Rezny, Strakonice, 1988
+S:eingerichtet nach dem lied "V Strakonicich na rohu ..." im buch s.145, mit der quellen-angabe EP c-90, N581
+N:urspruengliches lied: Bd^cd | eAc2 | ccBA | GdB2 | BBAG | GFFA | ccBA | A2G2 ||
+N:im buch ganz in G
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+Bd ^cd | eA =c2 | cc BA | Gd B2 |
+Bd ^cd | eA =c2 | cc BA | GB G2 :|
+|:\
+BB AG | GF FA | cc BA | A2 G2 |
+BB AG | GF FA | cc BA | G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183006
+S:http://simonwascher.info/TradArchiv_polka/polka.Bd^cdeA=c2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

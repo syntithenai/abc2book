@@ -1,0 +1,35 @@
+X: 74
+T:Sebella.  TBe.074
+M:2/2
+L:1/4
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:air
+O:England
+N:Sebella is an alternative form of Sibyl.  1 - probably squiggle before
+N:note.  Looks like a sharp but that wouldn't make musical sense.
+H:pre-1718
+Z:vmp.C. Graebe..
+K:A minor
+c>c | ddd>c/2d/4 |e2 d"1"B | cdB>c | c2 fe | ddde |!
+ f3 e | ef^d>c/2d/4|e2ED | CB,CA, | FEFD | EDEE | !
+ A,2 e>e/ | f3 z/ e | d3 z/g | g>a f>e | d3z/g | g>a f>e |!
+d3z/c | c2CD | EDEC | GABG | G,A,B,G, | e3 e/4f/4 g |!
+ f3 e | d3 z g/ |g>a f>e | ^d3z/ e/ |e3e | e2d>c |!
+ B3A | A2CD | EF^GE | A A/G/AD |E E/D/ CA, | e2 d>c |!
+ B3A | A2 C/B,/C/D/ | E/D/E/F/ GE | A/B/A/G/ F/E/F/D/ |!
+ E/F/E/D/ C/B,/C/A,/ | e2 d>c | B3 A | A4 ||
+% Output from ABC2Win  Version 2.1 k pre2 on 14/05/2003
+S:https://www.folktunefinder.com/tunes/96225
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

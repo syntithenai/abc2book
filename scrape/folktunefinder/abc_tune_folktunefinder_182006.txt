@@ -1,0 +1,21 @@
+X: 2
+T: Peggies Wedding
+S: &quot;The Athole Collection&quot; by James Stewart Robertson, 1884, page 110
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: cdc c2 c | ceg gec | cdc c2 c | Bcd dBG |
+cdc c2 c | ceg gec | faf ege | Bcd dBG :|
+|: cdc g2 c | e2 c g2 c | cdc g2 c | Bcd dBG |
+cdc gec | edc gec | faf ege | Bcd dBG :|
+S:https://www.folktunefinder.com/tunes/182006
+S:http://www.thesession.org/tunes/display/8630
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

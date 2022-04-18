@@ -1,0 +1,26 @@
+X:1
+T:Reel des Talenais
+M:C
+L:1/8
+Q:190
+C:(c) Greg Anderson, 18 Oct 1999
+R:Reel
+N:For the good people of Talence, France
+K:G
+gG (3GGG fG eG|d^c d=c BA G^G|A^G AB ^c2 e2|a^g a=g fd ef|
+gG (3GGG fG eG|d^c d=c BA G^G|A^G AB cA FA|1G2 B2 G z (3def:|
+2G z F2 =F2 D2|:CB, CD E2 G2|!cB cd c^A =AG|
+D^C DE F2 A2|d^c de d=c BA|E^D EF ^G2 B2|e^d ef e=d ^cB|
+1A^G AB AF E^C|A, z A,2 ^A,2 B,2:|2A^G AB cA FA|G z dd ed fd||
+S:https://www.folktunefinder.com/tunes/185080
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/ReelDesTalenAis.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:008
+%%topmargin 3cm
+T:Ah! Sure Such a Pair
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:G
+G |: G>AG B>cB | d>ed g<ba | gdB cde | dgB A2 G }
+G>AG B>cB | dba g2 d | gdB cde | dBG A2 G ::
+B2 c d2 g | baf gdc | B2 b bag | f2 g adc |
+BAB cBc | dba g2 d | gdB cde | dBG A2 G :|]
+S:https://www.folktunefinder.com/tunes/91831
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Ah_Sure_Such_a_Pair.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

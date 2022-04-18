@@ -1,0 +1,31 @@
+X:24
+T:Molehop
+C:Chris Perry
+S:The Fiddle Player's Tunebook
+M:6/8
+L:1/8
+K:G
+A |\
+"G"BGB "C"c2 A |\
+"G"BGB "D"AFD |\
+"G"BGB "C"cAc |\
+"D"BGF "G"G2 :: B |\
+"D"AFA def |\
+"A"ed^c "D"dfd |\
+"D"AFA def |\
+"A"ed^c "D"d2 :: =c |\
+"G"BGB "C"cAc |\
+"G"BGB "D"AFD |\
+"G"BGB "C"cAc |\
+"D"BGF "G"G2 :|
+S:https://www.folktunefinder.com/tunes/176497
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/Molehop.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

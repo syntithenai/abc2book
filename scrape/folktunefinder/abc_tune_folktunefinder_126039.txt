@@ -1,0 +1,30 @@
+X:7660
+T:Isle of Wight Hornpipe. FK.31
+M:C
+L:1/8
+Q:160
+C:"MS39 p 75"
+S:Kidson's H'pipe MS,early 20thC.
+R:Hornpipe
+O:England
+A:Leeds
+N:
+Z:vmp.John Bagnall
+K:G
+GA | BABG EFGE | D2 B,2 B,2 GA | BABG EFGA | B2 A2 A2 GA |!
+ BABG EFGE | DEDC B,2 D2 | EDEF GFGA B2 G2 G2 :|:!
+Bc | dedc Bdef | g2 d2 d2 ef | gfed cBAG | B2 A2 A2 GA |!
+ BABG EFGF | DEDC B,2 D2 | EDEF GFGA B2 G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/126039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

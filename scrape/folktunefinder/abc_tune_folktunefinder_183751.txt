@@ -1,0 +1,24 @@
+X: 1
+T:the Preston Hunt
+M:C|
+O:England
+A:North-West
+R:Reel
+K:Bb
+Bc|\
+defg f2dB| g2ec f2dB| Bcde fdBd| c=Bcd c3_B/c/|\
+defg f2dB| g2ec f2dB| fbag gfed| fedc B2::\
+FG|\
+ABcd cAFA| dBFB cAFA| FGAB cAFA| edc=B c3_B/c/|\
+defg fB "tr"(B3/A//B//)| gB "tr"(B3/A//B//) fB "tr"(B3/A//B//)|\
+fbag gfed| fedc B2:|
+S:https://www.folktunefinder.com/tunes/183751
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pr/Preston_Hunt_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

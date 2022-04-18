@@ -1,0 +1,39 @@
+X:1
+T:Masur Mueller und sein Kind
+A:Felsenberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Grossrussbacher Auslese 1983", Zus. G.Haid, R.Pietsch, VLW, Wien 1983
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+d2BABc | d2g2b2 | ag^fedc | Bdd3B |
+d2BABc | d2b2ag | fedcBA | G2g2z2 :|
+|:\
+e2g2e2 | d2BAB2 | dBABce | dedcB2 |
+e2g2e2 | d2b2ag | fedcBA | G2g2z2 :|
+K:C
+|:\
+"Trio"c2d2e2 | fed2d2 | B2e2d2 | edc2e2 |
+e2c'2b2 | b2afed | cBb2a2 | cec2c2 :|
+|:\
+edc2B2 | ABcde2 | f2e2b2 | a2edA2 |
+edc2B2 | ABc2d2 | eee2e2 | e2e2e2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174739
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mueller_und_sein_kind.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

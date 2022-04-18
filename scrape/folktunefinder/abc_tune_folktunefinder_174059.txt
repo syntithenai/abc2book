@@ -1,0 +1,30 @@
+X:4
+T:Row the boat ashore
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+V:1
+V:2 bass
+M:2/4
+K:A
+[V:1] [L:1/16] d2|cBcA  F2EG |B2BB B2ed |cBcA  F2EG|A2AA A2 :|
+[V:2] [L:1/8]  z |A,,A, D,C, |E,E,,E,z  |A,,A, D,E,|A,,A,A,,:|
+%
+[V:1] [L:1/16] d2|cBce  fgaf |ecBA  AGFE|Acea fdBG |A2AA A3d |
+[V:2] [L:1/8]  z |A,,A, A,,A,|A,,A, E,D,|C,A,, D,E,|A,,A,A,,z|
+%
+[V:1] [L:1/16]    cBce  fgaf |ecBA  AGFE|Acea fdBG |A2AA A2 |]
+[V:2] [L:1/8]     A,,A, A,,A,|A,,A, E,D,|C,A,, D,E,|A,,A,A,,|]
+S:https://www.folktunefinder.com/tunes/174059
+S:http://www.campin.me.uk/Music/Clarkson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

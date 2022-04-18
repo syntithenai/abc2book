@@ -1,0 +1,29 @@
+X: 1
+T:The Nightingale
+M:6/8
+C:
+S:Bacon
+N:
+A:Stanton Harcourt
+O:English
+R:Jig
+K:G
+I:speed 300
+P:A
+|:\
+   D      | G>GD G2A       | B>BA B2 G/2c/2 | d>Bd c>BA | G3-  G2  :|\
+P:B
+|: B/2c/2 | d>dB c2 B/2c/2 | d>GA D2 E/2F/2 | G>AB c>de | d>cB c>BA |\
+            B>AG A2 D/2D/2 | GBD  c>BA      | G3-  G2   :|
+% yup, that's it.  The tune in Bacon has seven bars in the B part.
+S:https://www.folktunefinder.com/tunes/178747
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ni/Nightingale_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

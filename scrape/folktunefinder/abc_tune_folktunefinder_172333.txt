@@ -1,0 +1,25 @@
+X: 1
+T: Lisnagun, The
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+cAG ~c3|deg ~e3|deg edc|dcA cAG|
+cAG ~c3|deg ~e3|deg edc|1 dcA c3:|2 dcA cde||
+~g3 edc|deg ~e3|deg edc|dcA cAG|
+~g3 edc|deg e2c|deg edc|dcA cde|
+~g3 age|deg ~e3|deg edc|dcA cAG|
+cAG ~c3|deg ~e3|deg edc|dcA c3||
+S:https://www.folktunefinder.com/tunes/172333
+S:http://www.thesession.org/tunes/display/3842
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

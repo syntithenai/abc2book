@@ -1,0 +1,26 @@
+X: 31
+T:Cuckoo Brain
+M:2/2
+L:1/8
+Q:1/4=120
+C:Vaughan Hully 1993
+P:A(AB)2(AC)2
+K:GMin
+P:A
+|:B|G2GA B2G2|d2cB A2A2|G2GA B2dc|B2A2 G3:|
+P:B
+|:d|f2f2 f2ed|e2e2 e3c |d2d2 d2cB|c2c2 c2BA|
+    G2GA B2G2|d2cB A2A2|G2GA B2dc|B2A2 G3:|
+P:C
+|:z|d4   f4  |f4   f4  |e2d2 e4  |e4   e4 |
+              c4   d4  |d4   d3 B|c2c2 c2BA|
+    G2GA B2G2|d2cB A2A2|G2GA B2dc|B2A2 G3:||
+S:https://www.folktunefinder.com/tunes/97699
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

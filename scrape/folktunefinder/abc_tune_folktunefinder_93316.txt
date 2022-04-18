@@ -1,0 +1,27 @@
+X:265
+T: Planxty Gavin
+M: 6/8
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: jig
+K: Edor
+BEE BAB | def edB | BAF FEF | DFA BAF |
+BEE BAB | def edB | BAF dAF |1 EFE E2 G/A/ :|2\
+EFE E2 B ||
+e2 f geg | f/g/af edB | BAF FEF | DFA BAF |
+e2 f geg | faf edB | BAF dAF |1 EFE E2 B :|2\
+EFE E2 z ||
+S:https://www.folktunefinder.com/tunes/93316
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

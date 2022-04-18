@@ -1,0 +1,17 @@
+X:9
+T:Tam Lin
+M:4/4
+L:1/8
+K:Dm
+G, | "Dm" A,2 DA,  FA,DA, | "Bb" B,2 DB,   FB,DB, | "C" C2    EC    GCEC | "Bb" FEDC "C" A,DDC |
+     "Dm" A,2 DA,  FA,DA, | "Bb" B,2 DB,   FB,DB, | "C" C2    EC    GCEC |1 "Dm" FEDC     A,DD :|2 "Dm" FEDC    A,D    D2 ||
+     "Dm" dA   ~A2   FADA | dA      ~A2      FADA | "C" cG  ~G2  EG  ~G2 | "Am" cG    ~G2 cdec |
+     "Dm" dA   ~A2   FADA | "(F)" dA   ~A2  FADA, | "Bb" B,2 B,A,  B,CDE |1 "C" FDEC  A,D   D2 :|2 "C" FDEC "(Dm)" A,DDG, ||
+S:https://www.folktunefinder.com/tunes/173728
+S:http://www.slowplayers.org/MPSP/pdf/MPSP_Reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

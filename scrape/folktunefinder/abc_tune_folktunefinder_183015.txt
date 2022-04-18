@@ -1,0 +1,40 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Muehlen/Sand in Taufers, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch: ganz in F,  erster ton f'
+N:im buch s. 291, nr. 176
+N:im buch dreistimmig (nachsclag und bass)
+S:tonband-aufnahme Q-1474(55) 53/B04, vom 25.10.1941
+S:ausfuehrende: Blaskapelle Muehlwald
+S:besetzung: Es- u. B-klarinette, 2 Es-trompeten, 2 tenorhoerner, B-bass
+%%endtext
+Z:noten-transcription: Anja Bartlmae Rainer
+Z:abc transcription: Simon Wascher
+Q:1/4=114 %im buch
+M:2/4
+L:1/8
+K:C %Transposed from G
+P:A
+e |\
+G>B df | ag eg | gf f/e/f | (a2 g)c |\
+G>B df | ag eg | gf de | cc/c/ c :|
+P:B
+|: z |\
+c'2 c'/b/a | a2 ge | gf e/f/g | a2 g2 |\
+c'2 c'/b/a | a2 ge | gf de | cc/c/ c :|
+S:https://www.folktunefinder.com/tunes/183015
+S:http://simonwascher.info/TradArchiv_polka/polka.G2GFG2GFG2GAB4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

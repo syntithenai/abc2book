@@ -1,0 +1,28 @@
+X: 247
+T: Rabbit Run (jig)
+C: BB 12/06
+N: 182232
+L: 1/8
+M: 6/8
+R: jig
+Q: 340
+K: Am
+E |"Am"AcA "G"BAG |"Am"AcA cde |"Am"AcA "G"BGF |"Em"EGB "Am"A3 |
+"Am"AcA "G"BAG |"Am"AcA "G"Bcd |"Am"ecA "C"G2F |"Em"EGB "Am"A2 :|
+K: A
+B |"A"cee aee |"G"=gab ged |"A"cee "D"aef |"G"=gfg Bcd |
+"A"cee aee |"G"=gfe dcB |"A"Ace "G"dB=G |"Em"E=GB "A"A2 :|
+%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86640
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

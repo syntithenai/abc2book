@@ -1,0 +1,24 @@
+X:730
+T:Shilling  Jamey 
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001064.html
+%%ID:00001064
+K:C
+cee dff  | cee f2g | ecc fdg   | ecc c3 ::
+ceg c'2b | aff f3  | dfa d'2c' | bgg g2c | \
+ceg c'2b | aff f2f | ecc fdg   | ecc c3 ::
+%%newpage
+%page 55
+S:https://www.folktunefinder.com/tunes/88303
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

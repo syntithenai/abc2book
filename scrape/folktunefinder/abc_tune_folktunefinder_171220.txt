@@ -1,0 +1,29 @@
+X: 1
+T:Langstrom's Pony
+R:Jig
+S:Tommy Peoples, Donegal (fiddle)
+N:As played
+D:From a 70's demo tape
+Z:Bernie Stocks
+M:6/8
+L:1/8
+K:D
+{a}fed cAA|EAA cAA|fed cAA|(3.B.B.G B dcB|!
+fed cAA|EAA efg|(3.f.g.a f {gf}g2e|dBG Bcd:|!
+cee dff|cee ecA|cee dfa|dBG Bcd|!
+(3.c.e.e e  (3.d.f.f f|cee efg|(3.f.g.a f {gf}g2e|dBG Bcd:|!
+Ace ~a3|ecA ecA|GBd f{agf}g2|BAG Bcd|!
+(3.f.g.a f {gf}g2e|(3.f.a.f d ecA|(3aga f {a}gfe|dBG Bcd:|!
+(3.A.A.E A A2e|cAc ecB|AEA -AB=c|(3.B.B.G B dcB|!
+AEA A2E2e|cAc efg|faf  (3gfg e|dBG Bcd:|!
+S:https://www.folktunefinder.com/tunes/171220
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/la/Langstroms_Pony_2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

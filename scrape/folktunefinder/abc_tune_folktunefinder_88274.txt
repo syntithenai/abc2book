@@ -1,0 +1,28 @@
+X:585
+T:the Bugle March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%RRN:"A good Tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ee2.html
+%%ID:00000ee2
+K:G
+G2     G>G   G2     Bc  | d>BG2 G>G c>d | (e<c)g2 (d<B)g2 | gfag fedc |
+(B<c) (B<G) (A<c) (c<F) | GBcd   efga   | bgfg     fed^c  | d2 d>d d2 ::
+a2a>a ac'ba | g2g>g   gbag | fedg         fedc       | B2A>A A2z2 |
+G2G>G GBcd  | (e<c)a2 fdg2 | (B<c) (c<e) (A<c) (D<F) | G2G>G G2z2 ::
+B4 A2A2  | (G4 A/G/) FGAB | (dc).c.c    (cB).B.B    | (BA).A.A A2z2 |
+d4 c2c>c | B4        ABcd | (e>c) (c>A) (A<G) (G<F) | (F4      G2) ::
+f2a>a f2z2  | g2b>b g2z2 | GBcd efga      | g4 e2e>e |
+B4    A2A>A | d2d>d c4   | B2 (2AcA TG2F2 | F4 G2 ::
+S:https://www.folktunefinder.com/tunes/88274
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

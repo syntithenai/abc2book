@@ -1,0 +1,26 @@
+X:1
+T:Reel des Citrouilles
+C:Gilles Vigneault
+Z:robin.beech@mcgill.ca
+R:reel
+M:4/4
+L:1/8
+K:Gmin
+D2 |: GFGA BABc | d^cd=e f2d2 | gfgb agfg | agf=e d4 | edce dcBd | 
+cBAc B2cB |1 AG^FG D2ed | cBAB GD=E^F :|2 AG^FG DdcB | AG^FA  G2dc |: 
+K:G
+BdAd GdBG | cBAc BGBd | cBAc BdBG | AFGE D2 dc | 
+BdAd GdBG | cBAc BGAB | cdef gedc | BGAF G2dc :|
+S:https://www.folktunefinder.com/tunes/185067
+S:http://music.gordfisch.net/tradmusic/pub/cache/Reel_des_Citrouilles_b82a50.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

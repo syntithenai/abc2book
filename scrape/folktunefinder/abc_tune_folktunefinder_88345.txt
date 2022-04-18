@@ -1,0 +1,27 @@
+X:940
+T:the Farmer's tune
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005f4.html
+%%ID:000005f4
+K:D
+A2 | \
+dfdf cece | dfdf A2A2 | d2b2 bagf | gfed dcBA | \
+dfdf cece | dfdf A2A2 | Bbag afed | (e4 d2) ::
+fg | \
+afaf afaf | c'agf g2ef | gege gege | agfe f2A2 |\
+dfdf cece | dfdf  A2A2 | Bbag fedc | d2d2 d2 ::
+%%newpage
+%page 76
+S:https://www.folktunefinder.com/tunes/88345
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

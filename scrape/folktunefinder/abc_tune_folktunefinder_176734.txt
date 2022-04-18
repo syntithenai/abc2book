@@ -1,0 +1,44 @@
+X:1
+T:Montfarine de Brasparz (TBI 2301)
+Z:Roger Ngaret (Juin 2000)
+R:
+C:Trad.
+S:Tonio Breizh Izel (Polig Montjarret)
+A:Bretagne
+Q:3/8=120
+M:12/8
+L:1/8
+K:Eb
+EDE B2B AGF A3 |1 GFE G2E F2D E2G :|2 EDE G2F EFD E3 |:
+EDE B2B BFG A2 G |1 FEF A2 G FEF G2 F :|2 FEF GFE F2D E3 |:
+K:Db
+E2 E EDE GFG E3 |1 EDE A2 G FEF G3 :|2 EDE A2 G FED E2 z |:
+K:Ab
+EDE B2 A GFG A2 G |1 FEF GFE FED E2 B :|2 FEF G2E FED E3 |:
+K:Db
+BAB E2F GFG E3 |1 EDE AGF E2 F G2 E :|2 EDE AGF EFD E3 |:
+K:Eb
+ede B3 ede A3 |1 ede g2 e fed e2 B :|2 edc eBe dfd e3 |:
+EDE B2 A GFE A3 |1 GAF GFE F2 D E2 G :|2 EDC B,EG AFD E3 :|3
+edc Bec dfd e3 |: EGB E3 FGE F3 | EDE GFE D2 E G2 E |
+EGB EDE FGE F3 |1 G2 B EFE EDE G2 E :|2 A2 F G2 E FED E3 |:
+EDE B2 A GFE A3 |1 EDE G2 E F2 D E3 :|2 GAB EDE F2 D E3 |:
+ede Bed cde c2 A |1 G2 F EAG FEF G2 E :|2 Bdc BAG F2 G E3 :|3
+Bfe dcd Bcd e3 |: e2 e ede gfg e3 |1 ede BAG FGA Bcd :|2
+edc BGA FGF E3 :: EDE FDE GFG E3 |1 EDE GED C2 D EBB, :|2
+EDC B,BA GFG E3 :|3 edc BAG F2 D E3 |: G2 B E3 FGE F3 |1
+GAF G2 E FED E2 B, :|2 G2 A FBE FED E3 |: BAB e3 fge f3 |
+edc BGA FBA G2 E | BGB e3 Beg f2 e | dcd Bcd egf e3 |]
+S:https://www.folktunefinder.com/tunes/176734
+S:http://termen.free.fr/danses/cornouaille/MontfarinedeBrasparzTBI2301.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C-sharp
+% Key D-sharp
+% Key G-sharp
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

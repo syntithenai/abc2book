@@ -1,0 +1,28 @@
+X:1
+T:Nonnentanz
+C:traditionell
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d/c/ |\
+Bd/c/ Bd/c/ | BB Bd/c/ | Bd/c/ Bc/B/ | AA Ad/c/ |
+Bd/c/ Bd/c/ | BB Bd/c/ | Bc/B/ AB/A/ | GB G2 :|
+|:\
+d2 e>d | cB A2 | GA/B/ cB | A4 |
+d2 e>d | cB A2 | GA/B/ cB | Ad G2 :|
+|:\
+GA/B/ cB | A4 | d>e dc | BA BG |
+GA/B/ cB | A4 | d>e dc | BA G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179034
+S:http://simonwascher.info/TradArchiv_polka/nonnentanz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

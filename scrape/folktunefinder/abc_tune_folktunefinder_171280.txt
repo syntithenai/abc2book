@@ -1,0 +1,25 @@
+X:1
+T:Larid Das ti don
+C:Larid 8 temps, trad. sud Bretagne. Fichier ABC par Bernard Loffet
+L:1/8
+Q:420
+M:12/8
+K:G
+|: [D2G,,2]D [G2G,2]G [A2D,,2]A [G3G,3] | [D2G,,2]D [G3G,3] [A2D,,2]A [G3G,3] | [D2C,,2]D [G3C,3] [A2D,,2]A [G3G,3] :| [G2G,,2]G [G2G,2]G [G2E,,2]G [G3E,3] | \
+ [A2A,,2]A [A2A,2]G [F2D,,2]E [D3D,3] |: [D2G,,2]G [G3G,3] [G2E,,2]G [G3E,3] | [A2A,,2]A [A2A,2]E [F2D,,2]G [A3D,3] | \
+ [D2G,,2]G [G3G,3] [G2E,,2]G [G3E,3] | [A2A,,2]A [A2A,2]D [E3D,,3] [D3D,3] :| \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/171280
+S:http://diato.ifrance.com/diato/tablat/241.abc
+S:http://diato.ifrance.com/tablat/241.abc
+S:http://diato.org/tablat/241.abc
+S:http://perso.orange.fr/diato/tablat/241.abc
+S:http://perso.wanadoo.fr/diato/tablat/241.abc
+S:http://pro.wanadoo.fr/diato/tablat/241.abc
+S:http://www.diatonique.net/tablat/241.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

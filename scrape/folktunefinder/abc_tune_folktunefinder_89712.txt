@@ -1,0 +1,24 @@
+X:360
+T: Sixty-Ninth Street
+S: Reavy Collection: "Music of Corktown"
+Z: B.Black
+M: 2/4
+L: 1/8
+R: polka
+K: Ador
+A>B cd|ea e>e|dB GB|AB GB|
+A>B cd|ea e>e|dB GB|A2 A2 :|
+aa e>e|aa e>e|dB GB|AB GB|
+|1 aa e>e|aa e>e|dB GB|A2 A2 :|
+|2 A>B cd|ea e>e|dB GB|A2 A2 ||
+S:https://www.folktunefinder.com/tunes/89712
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

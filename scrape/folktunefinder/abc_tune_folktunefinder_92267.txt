@@ -1,0 +1,27 @@
+X:244
+T: Yonghu gongchandang
+N: C1737
+O: China,Liaoning Chifeng
+S: III, 230]
+R: Xiaodiao, Shisanyue diao]
+M: 2/4
+L: 1/16
+K: G
+B2d2e2g2 | d8 | B2d2e2g2 | d8
+g2a2b4 | a4g4 | e2d2e2g2 | d8
+g2e2g4 | d2g2e2d2 | g2e2g4 | a4B2A2 | G2G4B2 | A8
+d6B2 | d2e2d2B2 | A2B2d2e2 | B4z2A2 | B3AG2A2 | G8
+z6d2 | b3ag2a2 | g8- | g8
+S:https://www.folktunefinder.com/tunes/92267
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, shisanyue diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

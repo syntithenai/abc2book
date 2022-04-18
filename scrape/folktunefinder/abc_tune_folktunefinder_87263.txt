@@ -1,0 +1,45 @@
+X: 9178
+T: Five Lamps (The) (with piano acc.)
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] z2 | "D" dcd AFD | "A"E^CE "D"DFA | "C"=cBc GEG | =cBc edc |
+[V:2] z2|D,2[AFD]A,,2[AFD]|A,,2[ACE]D,2[AFD]|=C,2[EG=C]G,,2[EGC]|=C,2[EG=C]G,,2[EGC]|
+%
+[V:1] "D"dAd "C"=cAc | "G"BGB "A"ABc | "D"dAF "A"EFG | "D"FDD D :|
+[V:2] D,2[AFD]=C,2[EG=C]|G,,2[GBD]A,,2[ACE]|D,2[AFD]A,,2[ACE]|[D,4A,4F4]:|
+%
+[V:1] fg|"D"a^ga "G"ba=g | "D"fd^c def | "C"e=cc gcc | e=ce gfe |
+[V:2] z2|D,2[FAD]G,,2[GBD]|D,2[AFD]A,,2[AFD]|=C,2[EG=C]G,,2[EGC]|=C,2[EG=C]G,,2[EGC]|
+%
+[V:1] "D"fef "G"gfg | "D"agf "Em"efg | "D"fdA "A"EFG | "D"FDD D :|
+[V:2] D,2[FAD]G,,2[GBD]|D,2[FAD]E,2[EGB]|D,2[FAD]A,,2[ACE]|[D,4A,4F4]:|
+%%%%%%%%%tune repeat
+[V:1] z2 | "D" dcd AFD | "A"E^CE "D"DFA | "C"=cBc GEG | =cBc edc |
+[V:2] z2|D,2[AFD]A,,2[AFD]|A,,2[ACE]D,2[AFD]|=C,2[EG=C]G,,2[EGC]|=C,2[EG=C]G,,2[EGC]|
+%
+[V:1] "D"dAd "C"=cAc | "G"BGB "A"ABc | "D"dAF "A"EFG | "D"FDD D :|
+[V:2] D,2[AFD]=C,2[EG=C]|G,,2[GBD]A,,2[ACE]|D,2[AFD]A,,2[ACE]|[D,4A,4F4]:|
+%
+[V:1] fg|"D"a^ga "G"ba=g | "D"fd^c def | "C"e=cc gcc | e=ce gfe |
+[V:2] z2|D,2[FAD]G,,2[GBD]|D,2[AFD]A,,2[AFD]|=C,2[EG=C]G,,2[EGC]|=C,2[EG=C]G,,2[EGC]|
+%
+[V:1] "D"fef "G"gfg | "D"agf "Em"efg | "D"fdA "A"EFG |1 "D"FDD D :|2 FDD D3-|D6||
+[V:2] D,2[FAD]G,,2[GBD]|D,2[FAD]E,2[EGB]|D,2[FAD]A,,2[ACE]|1 [D,4A,4F4]:|2\
+[D,6-A,6-F6-]|[D,6A,6F6]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87263
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

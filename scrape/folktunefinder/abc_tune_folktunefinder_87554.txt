@@ -1,0 +1,28 @@
+X: 53
+%%Copyright 1939, Lewis Music Publishing Co., Inc
+T: Darn that dream
+M: 4/4
+L: 1/4
+C: Jimmy Van Heusen
+Q: 1/4=70
+%%staves (chords melody)
+K: G
+%%text (ballad)
+%%vskip 20
+P: A
+V: chords
+"G6"x2 "Bbm7"x"Eb7"x | "Am7"x2 "B7(b5)"x2 | "Em7"x"-/D"x "C#m7b5"x"Cm6"x | "Bm7"x2 "E7"x2 |
+"Am7"x2 "Cm6"x"(F7)"x | "Bm7"x2 "Bbdim7"x2 | "Am7"x2 "D7"x2 | "Bm7"x"Bb7"x "Am7"x"D7"x ||
+V: melody
+DG_E>E | =EA=F>^F | GB^G/A/B/c/ | deB2 |
+S:https://www.folktunefinder.com/tunes/87554
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

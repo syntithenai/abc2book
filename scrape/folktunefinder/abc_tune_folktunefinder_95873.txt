@@ -1,0 +1,28 @@
+X:42
+T:Me Zo Ganet E Kreiz Ar Mor
+A:Bretaa
+O:Francia
+M:C
+L:1/4
+K:D
+E BA B5
+c AG F5
+G AB E5
+FGA {GA} GE DE F5
+B AB E5
+F AG E2 {FE} D3
+E GA B3
+G A2c2 B5
+E BA B5
+c AG F5
+G AB E4E4E4
+S:https://www.folktunefinder.com/tunes/95873
+S:http://trillian.mit.edu/~jc/music/abc/mirror/personales.alcavia.net/~jmoreno/tw/jose.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

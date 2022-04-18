@@ -1,0 +1,26 @@
+X:520
+T:Marquis Wellington
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005a3.html
+%%ID:000005a3
+K:C
+(g/f/) |S \
+e2c {d}cBc | d2G G2B | c2d e2f | g2a g2f | \
+e2c {d}cBc | d2G G2B | c2d e2f | d2B c2 H::
+g | a2g fga | g2f e2g | a2g fga | g2f e2g | \
+agf gfe | fed edc | Bcd edc |Bcd Ggf S::
+S:https://www.folktunefinder.com/tunes/88261
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

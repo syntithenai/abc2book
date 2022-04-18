@@ -1,0 +1,24 @@
+X: 1
+T:no name
+R:jig
+H:Also with parts switched around, see #297
+Z:id:hn-jig-260
+M:6/8
+K:G
+DEG BAG|dGG BAG|DEG BAG|ABA AGE|
+DEG BAG|dGG BAG|gfg dBG|AGE G3:|
+|:~g3 ded|BGB def|g2e dBG|AGE GED|
+~g3 ded|~B3 def|g2e dBG|AGE G3:|
+|:DEG Bdd|cee Bdd|DEG BdB|AGA AGE|
+DEG Bdd|cee Bdd|~g3 dBG|AGE G3:|
+S:https://www.folktunefinder.com/tunes/178984
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/no_name_37.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

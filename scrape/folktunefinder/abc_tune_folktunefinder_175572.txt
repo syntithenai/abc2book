@@ -1,0 +1,25 @@
+X:1
+T:Michael Turner's Waltz
+R:waltz
+S:The Fiddle Players's Tunebook 2
+M:3/4
+L:1/8
+F:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc 2004-12-23 17:53:00 UT
+K:G
+|GA|B2 BG cA|d2 d2 gf|e2 eg fe|d2 dB GA|| \
+B2 BG cA|d2 d2 cA|G2 G2 F2|G4||
+|:AB|c2 cd cB|A2 A2 Bc|d2 de dc|B2 B2 gf|| \
+e2 eg fe|d2 dB GA|B2 Bc BA|G4:|
+S:https://www.folktunefinder.com/tunes/175572
+S:http://homepage.ntlworld.com/goldfrog/lester/tunes/session.abc
+S:http://www.oxfordfiddle.co.uk/michael_turners_waltz.abc
+% Rhythm Waltz
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

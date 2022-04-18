@@ -1,0 +1,30 @@
+X:1
+T:Michl, Michl, Lass dein Goasbock raus 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+dBdB G2G2 | B2B2 A4 | cAcA F2F2 | e2e2 d4 |
+dBdB G2G2 | B2B2A4 | cAcA F2F2 |1 G2B2 G2G2 :|\
+                               [2 G2B2 G2B2 ||
+|:\
+F3A c2e2 | d3B G2B2 | d2A2 c2F2 | GBd2 d4 |
+F3A c2e2 | d3B G2B2 | d2A2c2F2 | G2B2 G4 :|
+|:\
+dedc BcBA | G2BA B2G2 | A2cB c2A2 | GABc d2Bc |
+dedc BcBA | G2BA B2G2 | A2cB c2A2 |1 G2B2 G2Bc :|\
+                                  [2 G2B2G4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/175574
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/michl,_michl.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

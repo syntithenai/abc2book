@@ -1,0 +1,35 @@
+X:800
+T: Sunset Park (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] D|"G"DGB "Am"AGE | "G"DEG "Am7"Age | "G"dBB "C"cde | "G"dBB "Am"AGE |
+[V:2] z|G,,2[GDB]A,,2[AEC]|G,,2[GDB]A,,2[GEC]|G,,2[GDB]C,2[CGE]|\
+G,,2[GDB]A,,2[AEC]|
+%
+[V:1] "G"DGB "Am"AGE | "G"DEG "D7"Adc | "Em"BAB ded | "D7"cAF "G"G2 :|
+[V:2] G,,2[GDB]A,,2[AEC]|G,,2[GDB]D,2[AFC]|E,2[EBG]B,,2[EBG]|D,2[AFC][G,2D2B2]:|
+%
+[V:1] e|"G"gab edd | "Em"efg dBB | "C"cde "Am"eag | "D"fd^c d2 d |
+[V:2] z|G,,2[GBD]D,2[GBD]|E,2[EBG]B,,2[EBG]|C,2[CGE]A,,2[AEC]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"gab edd | "Em"efg dBB | "C"cde "G"dBG |"D7"cAF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|E,2[EBG]B,,2[EBG]|C,2[CGE]G,,2[GDB]|D,2[AFD][G,2D2B2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87045
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

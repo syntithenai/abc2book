@@ -1,0 +1,29 @@
+X:170
+T:Fair well to new castle our time is but Short &c
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea1.html
+%%ID:00000ea1
+K:G
+f |\
+gdc BGB | Ggf g2 :: \
+f |\
+gag agf | efg f2e | def gdc | BGB d2B |
+A3 B(AB) | c3 BGB | dBd e3 | fef gdc | BcA G3 |]
+%%newpage
+%page 12
+S:https://www.folktunefinder.com/tunes/88191
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

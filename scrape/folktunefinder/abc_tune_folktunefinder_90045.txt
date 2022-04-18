@@ -1,0 +1,64 @@
+X:58
+T:When the Cruel War is Over
+C:Harmony by J. McDonagh
+M:4/4
+L:1/4
+Q:1/4=90
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G>A   B/G/D/B,/   |(C>D) E z|D  G  B A|D3 C|G>A   B/G/D/B,/   |(C>D) E z|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+K:treble
+D>E   F/D/D/B,/   |(G>F) E z|B, D  G A|F3 z|D>E   F/D/D/B,/   |(G>F) E z|
+V:3
+K:treble
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+B,>B, B,/B,/B,/B,/|G,2   C z|B, B, E E|D3 z|B,>B, B,/B,/B,/B,/|G,2   C z|
+V:4
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+G>G   G/G/G/G/    |E2    G z|G  G ^c c|D3 z|G>G   G/G/G/G/    |E2    G z|
+V:1
+D D D2  |G3  z|A>B c/F/G/A/|B>A G z|E F/G/ B>A|A2 ^A2|B >c  B/A/G/F/    |G2   E  z|
+V:2
+D D C C |D3  z|A,4         |D3    z|A,4       |F,4   |A,>A, A,/A,/A,/A,/|B,B,^C  z|
+V:3
+B,B,A,A,|B,3 z|F,4         |B,3   z|G,4       |A,2 E2|F,>F, F,/F,/F,/F,/|G,G,_B, z|
+V:4
+G G D D |G3  z|D4          |G3    z|E4        |D2 ^c2|^D>D  D/D/D/D/    |E E G   z|
+V:1
+D B B A |G3  z|c c E E |G2  D z|B>A G A/B/|c4      |G> A  B/G/D/B,/   |(C>D) E z|D>D D2 |F3  z|]
+V:2
+D2  C2  |B,3 z|C C C C |D D D z|D2  E2    |A,C B,A,|D> E  F/D/D/B,/   |(G>F) E z|D2  c2 |D3  z|]
+V:3
+B,2 B,2 |B,3 z|G,G,G,G,|B,B,B,z|B,2^C2    |F,4     |B,>B, B,/B,/B,/B,/|G,2   C z|B,2 A,2|B,3 z|]
+V:4
+G2  F2  |G3  z|E E E E |G G G z|G2  A2    |D4      |G> G  G/G/G/G/    |E2    G z|F2  F2 |G3  z|]
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90045
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

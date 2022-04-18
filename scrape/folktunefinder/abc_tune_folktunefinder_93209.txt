@@ -1,0 +1,26 @@
+X:38
+T: Bean an fhir ruaidh, S. 47
+N: I0537
+O: Irland
+S: O'SULLIVAN, Donal: Song of the Irish]
+N: Melismen
+R: Liebeslied, Trennung]
+M: 3/4
+L: 1/16
+K: C
+GABc | d4c4B2G2 | c8d2c2 | B2G2G2A2G2F2 | D4C4C4 | C8
+E2F2 | G8c2d2 | e8f2e2 | e2d2d2c2c2B2 | c4B4B4 | c8
+E2F2 | G6ABc2d2 | e8f2e2 | e2d2d2c2c2B2 | d4c4c4
+GABc | d4c4B2G2 | c8d2c2 | B2G2G2A2G2F2 | D4C4C4 | C8
+S:https://www.folktunefinder.com/tunes/93209
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Rhythm Liebeslied, trennung]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

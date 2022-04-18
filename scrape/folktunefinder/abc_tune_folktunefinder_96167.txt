@@ -1,0 +1,28 @@
+X: 16
+T:Minuet,A. TBe.016
+M:3/4
+L:1/8
+Q:140
+S:Thomas Bennet MS,1718, VWML
+R:Minuet
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:G major
+d2d2d2 | d2 edcB | c2B2A2 | B2G2d2 |!
+ g2 fe d2 |d2e2^c2 | d2 cBAG | F2 G4 ||!
+d2d2d2 | B2B2B2 | cBAG D2 |GABc d2 |!
+e2f2g2 | gfedcB | AG F3 G | G6 ||
+S:https://www.folktunefinder.com/tunes/96167
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

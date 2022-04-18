@@ -1,0 +1,33 @@
+X: 1
+T: Sitting in the Stern of a Boat
+T: Mi'm shuidh'an deireadh b\`ata
+C: Rev. William McLeod
+B: Fraser p.66 #161; Hunter #13.
+N:
+N: Fraser says that the Rev. McLeod was minister in Bracadale (Skye) in the 1860's or 1870's.
+N: Hunter says that this tune was composed as the Reverend sailed from Bracadale to his new
+N: parish in Argyllshire.
+R: air
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: G
+|: ((3D/E/F/) \
+| "G"G>-A G-F  | "C"E2 "G"D-G     |    B>-c    {Bc}d>-B | "D7"{B}A2 "C"G-E \
+| "G"D>-E G>-A |    B2 (g/e/d/c/) | "Em"B>c "D7"{B}~A>G | "G"G3 :|
+[| g \
+| "C"e>-^d   e-f  |  "G"g3   b          | "Am"a>-g "B7"a-b     | "Em"{g}e2 d-B \
+| "G"(de/f/) g>-a | "Em"g>-a (g/a/g/f/) | "B7"e^d      ef      | "Em"{f}e3 {f}g |
+| "C"e>-d "G"B-d  |     g2   B-b        |     g>-e     d-B     | "D7"A2    G-E \
+| "G"D>E     G>A  | "Em"B2   (g/e/d/c/) |     B>c  "D7"{B}~A>G | "G"G3 |]
+S:https://www.folktunefinder.com/tunes/175862
+S:http://trillian.mit.edu/~jc/music/book/500/SittingInTheSternOfABoat.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 1
+T: Orphan, The
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+B,|E2 E EFB,|GFG AGA|~B3 ABA|GFG EDB,|
+|A,2 E EDB,|~G3 AGA|~B3 ABA|GED E2 B,|
+|E2 E EFB,|~G3 AGA|~B3 ABA|GE/F/G EDB,|
+|A,2 E EDB,|~G3 AGA|~B3 ABA|GED E3|
+|efe dBA|GAB dBd|edB AGA|BdB AGF|
+|G2 F EDB,|~G3 AGA|BdB ABA|GED E3|
+|[g3B] dBA|GAB dBd|edB AGA|~B3 AGF|
+|G2 F EDB,|~G3 AGA|~B3 ABA|GED E3|
+S:https://www.folktunefinder.com/tunes/180636
+S:http://www.thesession.org/tunes/display/217
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 3
+T: McGuire's Jig
+S: Scots Guards, Volume II
+M: 6/8
+L: 1/8
+R: Jig
+K: Bmin
+|: e |\
+BBB d2 e | fBB fBB | AAA c2 d | eAA eAA |
+BBB d2 e | fBB fBB | f2 f e2 c | dBB B2 :|
+|: c |\
+d2 e fdd | add fdd | dde fdd | ecA ABc |
+d2 e fdd | add fdd | f2 f e2 c | dBB B2 :|
+|: f |\
+BBB d2 e | f2 e fga | AAA c2 d | cee ecA |
+BBB d2 e | f2 e fga | f2 f e2 c | dBB B2 :|
+|: f |\
+BBB BfB | BaB fBB | AAA AeA | AaA eAA |
+BBB BfB | BaB fBB | f2 f e2 c | dBB B2 :|
+S:https://www.folktunefinder.com/tunes/172107
+S:http://www.thesession.org/tunes/display/1452
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

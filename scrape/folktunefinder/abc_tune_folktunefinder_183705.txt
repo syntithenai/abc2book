@@ -1,0 +1,43 @@
+X:1
+%
+T:Prelude by John Sturt
+C:ML Lute Book, f. 22r
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:F frenchtab
+%
+[,dda2] {a}1 a |\
+[cdda1] ,,,,e ,,,,c ,,,,a |\
+[,dba,d1] ,,,,,c [adb,,a] ,c |\
+[cdda1] {a} c [d,,c] |\
+[f,,e1] ,,,a .f :d/.c |\
+[acd1] ,,,,a a [c,,a] |\
+[da,c1] ,,,,,a [da] :c/.a |
+[,da,c1] ,a ,d [a,,,e] |\
+[cdda1] {a} [c,,a] [a,,,e/][,d,,c] |\
+[,c,,a1] .,,d [,db] .,,a |\
+[,d,ca1] .,,,a [,d,ca] :,c/.,,b |\
+[,daa{a}/],,,,,a,,,,,c,,,,,d [,,d,a],,,,c,,,,e,,,a |\
+[aa,c/].,d:a.c [da,,,a],,,,,c,,,,,d,,,,a |
+[,da,c/].,c:,d.a [cd,a],,,c,,,e.,,c |\
+,,d/.,a,c.,d [a,,,a],,,,c,,,,e,,,a |\
+[a,,c/].,d:a.c :d.f:h.,a |\
+,d/.c:f.,,d ,c.a:d.,,b |\
+,,f/.,d:c.,,a ,,d.,c:a,,,c |
+,,b/.,a:,d,,,a [,c,,a].,,d:a.c |\
+:d/.,a:c.,,d :a.,,b:,d.,,a |\
+[,d,ca1] ,,,a [,d,ca] ,c/.d |\
+{a}1 [da] [c,d] [a,b] |\
+[cdda4] |]
+%
+W:Remark: Grace signs from the original are omitted
+S:https://www.folktunefinder.com/tunes/183705
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Sturt/prelude_sturt.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Sturt/prelude_sturt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

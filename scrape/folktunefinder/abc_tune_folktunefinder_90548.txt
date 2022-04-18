@@ -1,0 +1,25 @@
+X:460
+T:Bucks of Oranmore
+R:reel
+M:C|
+L:1/8
+Q:1/4=200
+K:D
+dB|:(3ABA FA A2dB|(3ABA FA BE (3EDE|[1 A2FA A2AB|defd ecdB:|
+|[2 DEFG AFAB|defd ecdB|:AD (3FED ADBD|ADFA BE (3EDE|
+|[1 AD (3FED AFAB|defd ecdB:|[2 DEFG AFAB|defd efge |]
+[|(3aba fd eddf|~a2fd eB (3BAB|a2fd edef|(3gag fd edBf|
+(3aba fd edBd|~a2fd be ~e2|fdad bdaf|(3efg fd edBe|]
+|:(3faf df  (3efe df|(3faf df eB (3BAB|[1  (3faf df edef|~g2fd eB (3BAB:|
+|[2 fa ~a2 b2af|defd edBd |:Adfd edfd|Adfd edBd|
+|[1 Adfd edef|(3fag fd edBd:|[2 fa{b}af b2af|d2fd edBd|]
+S:https://www.folktunefinder.com/tunes/90548
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

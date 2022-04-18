@@ -1,0 +1,29 @@
+X:8274
+T:Jota de Tremao
+R:Jota
+C:Trad
+M:3/8
+L:1/8
+Q:3/8=120
+K:C
+G|:c2B|ccB|c2B|
+A2B|d2B|cBA|G2F|
+[1 E2G:|[2 E2G/G/|
+|:GAB|ccc|
+cBA|F2F/F/|FGA|BBB|
+BAG|E2G/G/:|
+|:GEG|GEG|
+GFE|F2F/F/|FDF|
+[1 FDF|FED|E3-|E2G/G/:|
+[2 FDF|FED|C3-|C2G||
+S:https://www.folktunefinder.com/tunes/126653
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Jota
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

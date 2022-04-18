@@ -1,0 +1,17 @@
+X:1
+T:Queen of the May
+M:4/4
+L:1/4
+K:D
+ A A| D2 D F| B2 A F| G2 F D| D3|(2A3.99999962500005/11.9999985000002A3.99999962500005/11.9999985000002B3.99999962500005/11.9999985000002 c3.99999962500005/11.9999985000002|\
+ d2 c A| G- A B c| A4-| A2 A2| d2 =c B| A2 d- B| A- G A D| D2 D F|\
+ G- A B ^c| A- G E F| D4-| D2||
+S:https://www.folktunefinder.com/tunes/184253
+S:http://back.numachi.com:8000/dtrad/abc/QUEENMAY.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/QUEENMAY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

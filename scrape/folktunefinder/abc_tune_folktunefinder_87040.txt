@@ -1,0 +1,34 @@
+X:775
+T: Solanus Casey's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] B |"D"AFD DFA | "Em"Bde "G"dcB | "D"AFF dFF | "Bm"BAF "A"E2 B |
+[V:2] z|D,2[AFD]A,,2[AFD]|E,2[EBG]G,,2[GDB]|D,2[AFD]A,,2[AFD]|B,,2[AFD]A,,2[AEC]|
+%
+[V:1] "D"AFD DFA | "Em"Bde "D"def | "F#m7"afe "Bm"dBA | "G"Bdc "D"d2 :|
+[V:2] D,2[AFD]A,,2[AFD]|E,2[EBG]D,,2[AFD]|F,2[ECA]B,,2[BFD]|G,,2[GDB][D,2A,2F2]:|
+%
+[V:1] e |"D"f2 d "A"ecA | "G"BGB "A"ABc | "D"dff aff | "Bm"baf "Em"e2 d |
+[V:2] z |D,2[AFD]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|D,2[AFD]A,,2[AFD]|B,,2[BFD]E,,2[EBG]|
+%
+[V:1] "D"f2 d "A"ecA | "G"BGB "A"ABc | "D"dcd "Em"Bde |"A"cAc "D"d2 :|
+[V:2] D,2[AFD]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|D,2[AFD]E,2[EBG]|A,,2[AEC][D,2A,2F2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87040
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

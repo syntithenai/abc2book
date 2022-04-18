@@ -1,0 +1,24 @@
+X: 44
+T: ROUGH DIAMOND -- JIG.
+R:jig
+N:Version of Saddle the Pony
+B:Coles pg 65.1
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/19/02
+M:6/8
+L:1/8
+K:G
+vG(MBA) G2B|def geB|A(MBA) G2B|ABA AFD|
+G(MBA) G2B|def gdB|"4"ecA dBG|FDF G3:|
+kvd3 dcB|def gdB|kd3 dcA|ABA AFD|
+kd3 dcB|def gdB|"4"ecA dBG|FDF G3:|
+S:https://www.folktunefinder.com/tunes/177180
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/QR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

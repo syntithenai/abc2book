@@ -1,0 +1,36 @@
+X: 1
+T:Roys Wife of Aldivallock,as written. BF13.001
+M:4/4
+L:1/16
+Q:180
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Strathspey
+O:England
+A:Lakes
+N:All grace notes except the last are demi-semiquavers, but the program
+N:won't show them as that!  The last one is a crochet.  The pauses are
+N:shown as the standard pause marks.
+N:There are dots scattered everywhere, it is not clear what is dotted and
+N:what isn't. Therefore there may not be the right number of beats in a
+N:bar, and bar
+N:3, no matter what combination of dots and nots I tried, never added up.
+N:There are squiggles over the 7th and 8th notes in the first full bar on
+N:the second lin
+Z:vmp.Cherri Graebe.
+K:D
+A2F3 F3 E F3 E F B2|A2F3 F3 D F3 D E F2|!
+A3 F  {F}"pause"E D d3 e {e}e3 e|{e}d3 B A3 B d F E3 D E F2||!
+A2|A3 (Bc) d3 f (ed) (ef) d2 A|A2 B d F {F} E3 D E F2 A|!
+A3 (Bc) d3 f (ed) (gf) {g4}"pause"e4 d|d f3 ed3 F F E F2 ({A}dB)|]
+S:https://www.folktunefinder.com/tunes/94913
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

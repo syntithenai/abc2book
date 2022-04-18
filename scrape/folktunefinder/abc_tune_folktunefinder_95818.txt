@@ -1,0 +1,26 @@
+X:935
+T:a Trip to Clumber
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e7c.html
+%%ID:00000e7c
+K:G
+d2 dg | g2fg | ec'/a/ gf | g/f/g/a/ gg |\
+d2 dg | g2fg | ec'/a/ gf | g2G2 ::
+d2 Bd | dcAF | GDEF | G/F/G/A/ GG |\
+d2 Bd | dcAF | GDEF | G2       G2 ::
+b2bg | c'2 c'2 | affd         | g/f/g/a/ gg |\
+b2bg | c'2 c'2 | ag  f/g/a/f/ | g2 g2 ::
+S:https://www.folktunefinder.com/tunes/95818
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

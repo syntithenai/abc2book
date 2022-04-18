@@ -1,0 +1,30 @@
+X:218
+U: ~ = !turn!
+%%topmargin 3cm
+T:Wild Irishman
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+F2 AF DEFD "(A"| EA, ~A,2 EA, ~A,2 "A)"| FAAF DEFA | JB2 ((3edc) dBAG |
+"(B"[|]F2 AF DEFD "B)""(A"| EA, ~A,2 EA, ~A,2 "A)"| FAAF DEFA | ((3Bcd) ec d2 Ad ||
+fd{/e}dc dfaf | edcd efge | fd{/e}dc dfag | ((3.f.g.f) eg fd ~d2 |
+fd{/e}dc dfaf | edcd efge | dfaf g2 bg | ((3.f.g.f) ec dcBA |]!
+"(A" || EA, ~A,2 CE A,2 "A)"||xxxx [|]xxxx"(B"||FD ((3AGF) DEFD "B)"||
+S:https://www.folktunefinder.com/tunes/94813
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Wild_Irishman_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Wild_Irishman_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:2
+T:Music in the Glen
+R:reel
+C:Syracuse session setting
+L:1/8
+M:4/4
+K:G
+D|&quot;G&quot;G2BG EGDC|B,DGB AGAB|&quot;C&quot;c2ec &quot;C(B)&quot;B2dB|&quot;Am&quot;cABG &quot;D&quot;AGED|
+  &quot;G&quot;G2BG EGDC|B,DGB AGAB|&quot;C&quot;cdef gfge|&quot;D&quot;dcBA &quot;G&quot;G3:|
+A|&quot;G&quot;BGdG eGdc|BGdB &quot;D&quot;cAFA|&quot;G&quot;BGdG eGdf|gdBG &quot;D&quot;AGEG|
+  &quot;G&quot;BGdG eGdf|gdfg &quot;D&quot;afdf|&quot;Em&quot;gefd ecdB|&quot;C&quot;cABG &quot;D&quot;AGE:|
+</abc>
+<abc>
+S:https://www.folktunefinder.com/tunes/177828
+S:http://www.tomkeays.com/music/wiki/doku.php?id=irish:reels:music_in_the_glen&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

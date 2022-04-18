@@ -1,0 +1,44 @@
+X:1
+T:President Garfield's
+R: Reel
+S: "Pierre Commes"  tradtunes 2001-9-5
+D: Laoise Kelly      "Just Harp"
+D: Paul O'Shaughnessy & Paul Mc Grattan "Within a Mile of Dublin"
+D: Boys of the Lough "To Welcome Paddy Home"
+H: President Garfield was the 20th President of the United States. He was elected and
+H: murdered during the year 1881. The tune has probably been written during this year
+Z: The original title seems to be "Lament for the President Garfield"
+Z: Other versions can be found on John Chamber's site and in Henrick Norbeck's collection
+B: Found in a fife primer from around 1880.
+B: Ryan's Mammoth Collection (1883)
+Q:1/4=120
+V:1
+M:C|
+L:1/8
+%D Version
+K:D
+:(3ABc |dAFA dAFA |dcde fefg |aece aece |
+abc'b agfe |dAFA dAFA |dcde fefg |abc'b agfe |1 dfec d2  :|2 dfec d2zf
+|:bgdB GBgb |afdA FAfa | geba geba |fdba fdga
+|bgdB GBgb | afdA FAfg |abc'b agec |1 dfec d2zf :|2 dfec d2 :|
+%G Version
+K:G
+(3DEF |GDBD GDBD |GFGA BABc |dAFA dAFA |
+defe dcBA |GDBD GDBD |GFGA BABc |defe dcBA |1
+GB AF G2 :|2GBAF G2 gf ::ecGE cEce |dBGE DGBd |
+cFed cFed |BGed B2 gf |ecGE cEce |dBGD dGBG |
+defe dcAF |1GBAF G2gf :|2GBAF G2 :|
+S:https://www.folktunefinder.com/tunes/183732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tradtunes/PresidentGarfields_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

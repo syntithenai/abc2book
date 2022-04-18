@@ -1,0 +1,30 @@
+X:1
+T:Prunelle
+C:Bernard Kerboeuf
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:Dm
+feA | feA | edA | edA |\
+dcG | dcG | c2B | A3 :|
+|:\
+f/e/ A/f/ e/A/ | f/e/ A/f/ e/A/ | e/d/ A/e/d/A/ | e/d/ A/e/ d/A/ |\
+d/c/ G/d/ c/G/ | d/c/ G/d/ c/G/ | c2B | A3 :|
+|: DFG |\
+AA/G/ A/B/ | A>GF | A3 | Ade |\
+fe/f/ e/d/ | f>ed | A3 | A/B/ c/d/ c/B/ |
+A/B/ c/d/c/B/ | A>BA | G3 |1 GBd | AGF | AGF | EF/G/F/E/ :|\
+                           [2 GBA | FAG | EE/F/G/A/ | D3 ||
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/184067
+S:http://simonwascher.info/TradArchiv_walzer/prunelle.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

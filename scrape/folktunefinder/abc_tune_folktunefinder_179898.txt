@@ -1,0 +1,20 @@
+X: 1
+T:Old Dutch Churn, The
+S:as played by Buddy MacMaster
+E:16
+I:speed 300
+K:Gm
+A| B3 B d2| G2 d dcB| A3 A c2| F2 c cBA| B3 B d2|
+ G2 d dcB| dfd cBA| G3 G2:| z| b3 g3| b2 g gfd|
+ a3 f3 | fgf agf| b3 g3| b2 g gfd| fdB Bdf|
+ g3 g2 a| | b3 g3| b2 g gfd| a3 f3 | fgf agf|
+b3 g3| a2 g gfd| dfd cBA| G3 G3||
+S:https://www.folktunefinder.com/tunes/179898
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ol/Old_Dutch_Churn_The_3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

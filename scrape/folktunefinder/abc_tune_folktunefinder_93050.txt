@@ -1,0 +1,27 @@
+X: 2048
+T: Bartram's Garden
+R: jig
+C: Rick Gagne
+N: 1989 on tenor banjo
+N: meter switches between 9/8 and 6/8 time, but it's double jig length
+M: 9/8
+Q: 1/4=165
+K: Am
+A | "Am"ABc "G"dcB "Am"cAE |[M: 6/8] "Am"ABc "G"dcB | "Am"cAE "F"FAF |\
+"Am"ABc "D"dBa | 
+"Em"geg "Am"aec | "G"dBd "Em"eBG |[M: 9/8]"Em"EGE "G"BGE "F"A2 :|g |\
+"G"gdc Bcd "Em"g^fg |
+[M: 6/8] "Am"aed ceA | "F"aed ceA | "G"gdc Bcd | "Em"g^fg "F"aec | 
+ABc "D"d2A |[M: 9/8] [1 "F"ABc "G"dBe "Am"A2 :|2 "F"ABc "G"dBe "Am"A2 ||
+S:https://www.folktunefinder.com/tunes/93050
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

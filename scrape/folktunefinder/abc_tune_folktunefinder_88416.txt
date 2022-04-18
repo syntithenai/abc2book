@@ -1,0 +1,25 @@
+X:1295
+T:Quite Correct
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001202.html
+%%ID:00001202
+K:G
+d | \
+g2g (gf)g | d2d d^cd | G2A B2c | d2d def |  \
+g2g  gfg  | d2d d^cd | Bed cBA | AGG G2 ||
+d | \
+d2d (d^c)e | e2e (e^d)e | f2f fed | a2A AB^c | \
+d2d d^cd e2e efg | fed ^cBc | d3- d2 !D.C.! ||
+S:https://www.folktunefinder.com/tunes/88416
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

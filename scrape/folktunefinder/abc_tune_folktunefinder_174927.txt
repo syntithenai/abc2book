@@ -1,0 +1,23 @@
+X: 2
+T: Skelton's
+M: 3/4
+L: 1/8
+R: mazurka
+K: Dmaj
+|: d>B |\
+A>d d>c d2 | A>f f>e f2 | g>f e>d c>d | e>d c>B A2 |
+A>d d>c d2 | A>f f>e f2 | g>f e>d c>e | d4 :|
+|: f>g |\
+a2 a>b a>g | f2 d2 e>f | g2 g>a g>f | e4 f>g |
+a2 a>b a>g | f2 d2 e>f | g>f e>d c>e | d4 :|
+S:https://www.folktunefinder.com/tunes/174927
+S:http://www.thesession.org/tunes/display/3522
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

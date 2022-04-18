@@ -1,0 +1,28 @@
+X:15
+T:Chester Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%RRN:the actual title given is "This is the best way of playing Chester Hornpipe"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e84.html
+%%ID:00000e84
+K:D
+dBAG F2E2 | DFAc d2d2 | BcdB gfed | cABG A2Ac |\
+BAGf gfed | cdeg a2ag | fafd egec | d2d2 d2 ::
+defg afed | cdef g2gf | g2ga gfed | cABG A2Ac |\
+BAGB gfed | cAce a2ag | fgfd egec | d2d2 d2 ::
+%%newpage
+%page 2
+S:https://www.folktunefinder.com/tunes/88160
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

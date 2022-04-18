@@ -1,0 +1,55 @@
+X:1
+T:Praeludium I
+C:J.S. Bach
+B:Das Wohltemperierte Clavier
+Z:Abc by Henrik Norbeck <henrik.norbeck@mailbox.swipnet.se> 2002-8-12
+M:C
+L:1/16
+Q:1/4=80
+K:C
+%%midi program 0 (piano)
+[C8z] [E7z] Gc eGce [C8z] [E7z] Gc eGce|
+[C8z] [D7z] Ad fAdf [C8z] [D7z] Ad fAdf|
+[B,8z] [D7z] Gd fGdf [B,8z] [D7z] Gd fGdf|
+[C8z] [E7z] Gc eGce [C8z] [E7z] Gc eGce|
+[C8z] [E7z] Ae aAea [C8z] [E7z] Ae aAea|
+[C8z] [D7z] Ad ^fAd^f [C8z] [D7z] Ad ^fAd^f|
+[B,8z] [D7z] Gd gGdg [B,8z] [D7z] Gd gGdg|
+[B,8z] [C7z] EG cEGc [B,8z] [C7z] EG cEGc|
+[A,8z] [C7z] EG cEGc [A,8z] [C7z] EG cEGc|
+[D,8z] [A,7z] D^F cD^Fc [D,8z] [A,7z] D^F cD^Fc|
+[G,8z] [B,7z] DG BDGB [G,8z] [B,7z] DG BDGB|
+[G,8z] [_B,7z] EG _dEG_d [G,8z] [_B,7z] EG _dEG_d|
+[F,8z] [A,7z] DA dDAd [F,8z] [A,7z] DA dDAd|
+[F,8z] [_A,7z] DF BDFB [F,8z] [_A,7z] DF BDFB|
+[E,8z] [G,7z] CG cCGc [E,8z] [G,7z] CG cCGc|
+[E,8z] [F,7z] A,C FA,CF [E,8z] [F,7z] A,C FA,CF|
+[D,8z] [F,7z] A,C FA,CF [D,8z] [F,7z] A,C FA,CF|
+[G,,8z] [D,7z] G,B, FG,B,G [G,,8z] [D,7z] G,B, FG,B,G|
+[C,8z] [E,7z] G,C EG,CE [C,8z] [E,7z] G,C EG,CE|
+[C,8z] [G,7z] _B,C E_B,CE [C,8z] [G,7z] _B,C E_B,CE|
+[F,,8z] [F,7z] A,C EA,CE [F,,8z] [F,7z] A,C EA,CE|
+[^F,,8z] [C,7z] A,C _EA,C_E [^F,,8z] [C,7z] A,C _EA,C_E|
+[_A,,8z] [F,7z] B,C DB,CD [_A,,8z] [F,7z] B,C DB,CD|
+[G,,8z] [F,7z] G,B, DG,B,D [G,,8z] [F,7z] G,B, DG,B,D|
+[G,,8z] [E,7z] G,C EG,CE [G,,8z] [E,7z] G,C EG,CE|
+[G,,8z] [D,7z] G,C FG,CF [G,,8z] [D,7z] G,C FG,CF|
+[G,,8z] [D,7z] G,B, FG,B,F [G,,8z] [D,7z] G,B, FG,B,F|
+[G,,8z] [_E,7z] A,C ^FA,C^F [G,,8z] [_E,7z] A,C ^FA,C^F|
+[G,,8z] [E,7z] G,C GG,CG [G,,8z] [E,7z] G,C GG,CG|
+[G,,8z] [D,7z] G,C FG,CF [G,,8z] [D,7z] G,C FG,CF|
+[G,,8z] [D,7z] G,B, FG,B,F [G,,8z] [D,7z] G,B, FG,B,F|
+[C,,8z] [C,7z] G,_B, EG,_B,E [C,,8z] [C,7z] G,_B, EG,_B,E|
+[C,,16z] [C,15z] F,A, CFCA, CA,F,A, F,D,F,D,|
+[C,,16z] [B,,15z] GB dfdB dBGB DFED|
+[C,,16C,16E16G16c16]|]
+S:https://www.folktunefinder.com/tunes/183672
+S:http://trillian.mit.edu/~jc/music/abc/classical/Bach_J_S/PraeludiumI_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/PraeludiumI_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

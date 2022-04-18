@@ -1,0 +1,45 @@
+X:1
+T:Mezenhof
+C:Jan Alexander STRYCKERS
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+M:3/4
+L:1/8
+Q:1/4=166
+R:waltz
+N:Mezenhof = parua korto, la nomo de la gxardeno de miaj geavoj / tit's garden, the name of my grandparent's garden
+N: Volksmuziek 1, p22, Volksmuziekgilde - Gooik, 1996 (= wals voor Chris)
+P:(AABBACC) AA
+K:G
+V:1 name=G/C-harmonika
+P:[A]
+|:DG|"G"B2BdcB|"D"A2AcBA|"C"A2G3E|"G"D4B2|"C"cde2dc|"G"B2d2cB|"Am"A2AGFG|"D"A4DG|
+ "G"B2BdcB|"D"A2AcBA|"C"A2G3E|"G"D4B2|"C"cde2dc|"G"BdG2B2|"Am"(3AcAG2"D"F2|[1"G"G4:|[2"G" !fine!G4z2|] 
+P:[B]
+|:"Am"c3BAG|"D"F2E2F2|"G"E2D3B,|D2G2B2|"Am"c3BAG|"D"F2A2c2|"G"e2d3B|d6|
+  "Am"c3BAG|"D"F2E2F2|"G"E2D3B,|D2G2B2|"Am"c3BAG|"D"FAcedF|[1"G"G6-|G2B2d2:|[2"G"G6-|G2z2||
+P:[A]
+DG|"G"B2BdcB|"D"A2AcBA|"C"A2G3E|"G"D4B2|"C"cde2dc|"G"B2d2cB |"Am"A2AGFG|"D"A4DG|
+"G"B2BdcB|"D"A2AcBA|"C"A2G3E|"G"D4B2|"C"cde2dc|"G"BdG2B2|"Am"A/2c/2AG2"D"F2|"G"G4z2||
+K:C
+P:[C]
+|:"C"e3dc2|"E"B4d2|"Am"c2cBA2|"F"c3BA2|"C"A2G3E|G4c2|"F"d2defe|"G"d6|
+  "C"e3dc2|"E"e3dcB|"F"c2B2A2|"C"A2G4|"F"A2fed2|"C"e2egc2|"F"(3dfdc2"G"B2|[1"C"c4z2:|[2"C"c4|]
+V:2
+|:D2|G2GBAG|F2FAGF|E3DC2|B,4G2|ABc2BA|G2B2G2|E4E2|F2E2D2|G2GBAG|F2FAGF|E3DC2|B,4G2|ABc2BA|G2D2G2|E2D2C2|B,4:|B,4z2|]
+|:E3GFE|D4C2|C2B,4|B,2D2G2|E3GFE|D2F2A2|c2B3G|B6|A3GFE|D4C2|C2B,4|B,2D2G2|E3GFE|D2F2DC|B,6-|B,2z4:|B,6-|B,2z2||
+D2|G2GBAG|F2FAGF|E3DC2|B,4G2|ABc2BA|G2B2G2|E4E2|F2E2D2|G2GBAG|F2FAGF|E3DC2|B,4G2|ABc2BA|G2D2G2|E2D2C2|B,4z2||
+|:G6|^G6|A6|A3GF2|E6|E4G2|A4c2|B2A2B2|G6|^G6|A2G2F2|E6|F2A4|c2G2E2|F4F2|E4z2:|E4|]
+S:https://www.folktunefinder.com/tunes/175522
+S:http://music.gordfisch.net/tradmusic/pub/cache/Mezenhof_dd05c4.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

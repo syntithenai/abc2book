@@ -1,0 +1,32 @@
+X: 2
+T:Mist Covered Mountain, The
+M:3/4
+L:1/8
+Q:200
+C:Traditional
+R:Waltz
+N:Second in set with "Skye Boat", "Mist Covered Mountain","Castle
+N:Bay","Fir Na Fhata","Skye Boat
+Z:Donna Diekof
+K:G
+|:"Am"A6|A6|"Em"e3 de2|e3 dB2|
+"G"G6|G4A2|"Em"B3 AB2|"Am"A3 GE2|!
+"Am"c6|"G"d6|"Em"e3 fg2|B3 AG2|
+"Am"A3 Be2|"G"d2 z cB2|"Am"A6|A6:|!
+|:"Am"e6|"Am"e6|"G"d3 eg2|"Em"e3 dB2|
+"G"G4G2|"G"d4B2|"Am"e4e2|"G"d3 cB2|!
+"Am"A6|c6|"G"d3 eg2|"Em"B3 AG2|
+"Am"A3 Be2|"G"d2 z cB2|"Am"A6|A6:|
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/176398
+S:http://www.blackflute.com/music/tunes/other/mistcov.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

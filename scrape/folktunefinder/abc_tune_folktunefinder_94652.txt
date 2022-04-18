@@ -1,0 +1,31 @@
+X:054
+U: ~ = !turn!
+%%topmargin 3cm
+T:Dinny O'Brien
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Na Fili
+R:Reel
+L:1/8
+M:C|
+K:D
+fd{/e}dc dcAB | =c2 {/d}cB cAGE | D2 AD EDAD | EGAB =cdeg |
+fd{/e}dc dcAB | =c2 {/d}cB cAGE | D2 AD EGAB | ((3=cBA) GE {/F}ED D2 ::
+fd{/e}dc defg | ad (3.d.d.d ad fd | e=ccB cdef | g=c (3.c.c.c gcag |
+fd{/e}dc dcAB | =c2 cB cAGE | D2 AD EGAB | ((3=cBA) GE ED D2 :|]
+S:https://www.folktunefinder.com/tunes/94652
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dinny_OBrien_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dinny_OBrien_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Dinny_OBrien_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Dinny_OBrien_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

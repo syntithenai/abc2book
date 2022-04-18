@@ -1,0 +1,24 @@
+X: 1
+T: Planxty George Brabazon
+C: O'Carolan
+B: O'Neill's 657
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M: C
+L: 1/8
+K: G
+ge \
+| "G"d2G2 (cB)AG | d2G2 (cB)AG | "Am"e2A2 (AB)cd | e2A2 "D7"(AB)cd | 
+| "G"(ed)cB "(C)"g2fe | "G"(ed)cB (cB)AG | (BA)GE "D7"(DE)GA | "G"B2G2 G2 ||
+|| (ga) \
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"e2A2 (AB)cd | e2A2 "D7"A2 (ga) |
+| "G"b2(gb) "D"a2(fa) | "Em"g2(eg) "(C)"(ed)cB | "Am"(cB)AG "D7"(DE)GA | "G"B2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/182743
+S:http://www.firepowr.com/abc/PlanxtyGeorgeBrabazon.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

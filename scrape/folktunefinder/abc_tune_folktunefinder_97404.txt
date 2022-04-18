@@ -1,0 +1,28 @@
+X:300
+T:Twelve Pins, The
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+N:
+Z:
+K:G
+"G"dB~B2 dBGB|"D"dA~A2 dAFA|DEFG ABcA|defg afge|
+"G"dB~B2 dBgB|"D"dA~A2 fdAF|DEFG ABcA|d2cd "G"AG~G2:|
+"D"~f3e defg|afge cAAB|cA~A2 DFAB|"C"cAdB cA~A2|
+"D"~f3e defg|afge cAAB|"C"~c2cB cBAB|cAdc "G"AG~G2|
+"D"fd~d ad~d|fded cAAB|"C"cBAB cdeg|a2ga ed~d2|
+"D"~f3g ~a3g|fded cAAB|"C"c2cB cBAB|cAdc "G"AG~G2|]
+S:https://www.folktunefinder.com/tunes/97404
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

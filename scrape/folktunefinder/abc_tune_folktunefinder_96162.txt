@@ -1,0 +1,30 @@
+X: 11
+T:Prelude by Dean(11). TBe.011
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWMLt
+R:misc.
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:E minor
+E4F4G4E4 | e4B4G4E4 | b2f2g2e2 f2e2^d2B2 |\
+ e2B2c2A2 B2F2G2E2 |!
+fgfe ^d^cdc efed cBcA |!
+ BcBA GFGE ^d6 cd | e2E2G2B2 e8 ||
+S:https://www.folktunefinder.com/tunes/96162
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

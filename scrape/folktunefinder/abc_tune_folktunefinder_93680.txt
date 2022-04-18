@@ -1,0 +1,28 @@
+X:60
+T: Maeve's Mazurka
+C: BB
+R: waltz
+Q: 1/8=350
+M: 6/8
+L: 1/8
+K: A
+D2|"A"E2 AB cB|"F#m"A2 a2 f2|"A"e2 c3 A|"C#m7"B2 c4|
+"A"E2 AB cB|"F#m"A2 a2 f2|"A"ef ec BA|"Bm7"BA F4 |
+"A"E2 AB cB|"F#m"A2 a2 f2|"A"e2 c3 A|"C#m7"B2 c4 |
+"A"E2 Ac A2|"B7"^D2 Ac A2|"E7"D2 GB e2|"A"A4 :|
+e2|"A"ab ag fe|"F#m"fg fe ce|"A"ag fe ce|"F#m"f4 c2 |
+"E"ec B3 e|"A"c2 "E"B2 "F#m"A2|"B7"F2 ^D2 F2|"E7"B4 e2 |
+"A"ab ag fe|"F#m"fg fe ce|"A"ag fe ce|"D"fe "E"cB "F#m"A2 |
+"A"E2 Ac A2|"B7"^D2 Ac A2|"E7"D2 GB e2|"A"A4 :|
+S:https://www.folktunefinder.com/tunes/93680
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

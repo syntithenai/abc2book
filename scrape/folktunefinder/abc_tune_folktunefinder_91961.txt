@@ -1,0 +1,25 @@
+X:031
+%%topmargin 3cm
+T:Sheehan's
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+D | G2 BG DGBG | ABcA BGGB | A^GAB cBcA | EAAG FDEF |
+G2 BG DGBd | cBAB cdef | gedB c2 Bc | dBcA BGG ||
+f | g2 bg dgbg | gbag fdde | =f2 af dfaf | gbag =fdd^f |
+g2 bg dgbg | gbag fdef | {/a}gedB c2 Bc | dB{/d}cA BGG |]
+S:https://www.folktunefinder.com/tunes/91961
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Sheehans.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

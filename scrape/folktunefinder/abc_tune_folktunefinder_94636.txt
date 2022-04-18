@@ -1,0 +1,30 @@
+X:038
+U: ~ = !turn!
+%%topmargin 3cm
+T:Cooley's Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+EB{/c}BA B2 EB | {/c}B2 AB dBAG | ((3FED) AD BDAD | FAdB ADFD |
+EB{/c}BA B2 EB | {/c}B2 AB defg | afge dBAF | DEFD EGFD ||
+EB{/c}BA B2 EB | {/c}B2 AB dBAG | ((3FED) AD BDAD | FAdB ADFA |
+DB{/c}BA B2 EB | {/c}B2 AB defg | afge dBAF | DEFD Egfg ||
+|: eB (3.B.B.B eBgB | eB (3.B.B.B gedB | A2 FA dAFB | ADFA B^cdf |
+eB (3.B.B.B eBgf | edB^c defg | ((3agf) ((3gfe) dBAF | [1DEFD Egfg :| [2 DEFD EGFD ||
+S:https://www.folktunefinder.com/tunes/94636
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Cooleys_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Cooleys_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Cooleys_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Cooleys_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

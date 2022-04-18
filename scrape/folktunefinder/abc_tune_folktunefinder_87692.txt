@@ -1,0 +1,28 @@
+X: 191
+%% Copyright 1926 (Renewed) WB Music Corp.
+T: Someone to watch over me
+M: C|
+L: 1/4
+C: Gershwin
+Q: 1/4=90
+%%staves (chords melody)
+K: C
+%%text (ballad)
+%%vskip 20
+P: A
+V: chords
+"C6"x2 "C7"x2 | "F6"x2 "Fdim7"x2 | "C/E"x2 "Ebdim7"x2 | "G/D"x2 "C#dim7"x2 |
+"Dm7"x2 x2 | "F#m7b5"x2 "G7"x2 | "Cmaj7"x2 x2 | "T.A."x2 x2 ||
+V: melody
+zC/D/ E/G/A/c/ | d/dc/ A2 | c/cB/ A2 | B/BA/ G2 |
+S:https://www.folktunefinder.com/tunes/87692
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

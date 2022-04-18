@@ -1,0 +1,29 @@
+X:143
+U: ~ = !turn!
+%%topmargin 3cm
+T:Navvy on the Shore
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+GA | B2 ge dBGB | AGAB AGEF | G2 ge dBGB | AGAB ((3ABA) GA |
+B2 ge dBGB | AGAB AG E2 | ~g3 d edBG | AGFA ~G3 z ||
+((3{/a}gfg) BA GABd | eBdB GABd | g2 BA GABd | eBdB AG E2 |
+((3{/a}gfg) BA GA ((3Bcd) | ed ((3cBA) GABd | ~g3 d edBG | AGFA ~G3 z |]
+S:https://www.folktunefinder.com/tunes/94739
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Navvy_on_the_Shore_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Navvy_on_the_Shore_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

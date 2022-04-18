@@ -1,0 +1,32 @@
+X: 1
+T: Opsa!
+O: Srbija
+Z: 2003 John Chambers <jc@trillian.mit.edu>
+M: C
+K: Emix=d
+"B"\
+|:"E"([AF][B-G-]) [B4G4] ([AF][GE]) | ([AF][GE]) [G2E2] [GE][EB,] [GE][AF] \
+|    ([AF][B-G-]) [B4G4] ([AF][GE]) | ([AF][GE]) [GE][G-E-] [G2E2] [G2E2] :|
+"C"\
+|: "tacet"(ED) (CB,) (CD) E2 \
+| "B7"z[A2F2] [GE] "E"[B2G2] [B2G2] \
+| "tacet"(ED) (CB,) (CD) E2 \
+| "B7"z[A2F2] [GE] "E"[G2E2] [G2E2] :|
+"D"\
+|: "E"E4 "C7"^E4 \
+| "F#m"F2 z2 z4 \
+|| "F#m"[BG][AF] [AF][AF] [B2G2] [A2F2] \
+| [A2F2] [BG][cA] [B2G2] [A2F2] \
+| [BG][AF] [AF][AF] [B2G2] [A2F2] |
+| [A2F2] [BG][cA] [B2G2] [A2F2] \
+|| "E"[AF][GE] [GE][GE] [A2F2] [G2E2] \
+| [G2E2] [AF][BG] [A2F2] [G2E2] \
+| E2 z2 E2 z2 :|2  E2 z2 E2 z2 |]
+S:https://www.folktunefinder.com/tunes/180539
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Opsa_E.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X:192
+U: ~ = !turn!
+%%topmargin 3cm
+T:Single Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Single Jig
+L:1/8
+M:6/8
+K:G
+G2 E FED | E2 D B,2 B, | B,^CD E2 E | (E3 E2) E |
+EDE G2 A | B2 A d2 B | A2 F D2 F | (G3 G2) E |
+EDE G2 A | B2 A d2 B | A2 F D2 F | G3 B2 A |
+G2 E FED | E2 D B,2 A, | B,^CD E2 E | (E3 E3) |]
+S:https://www.folktunefinder.com/tunes/94788
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Single_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Single_Jig_1.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

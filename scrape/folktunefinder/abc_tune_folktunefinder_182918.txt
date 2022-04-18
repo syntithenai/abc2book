@@ -1,0 +1,25 @@
+X:619
+T:Plow Boy., The
+R:air
+Z:Collected from J. O'Neill
+T:an toirea.m.
+Z:Tempo: Moderate.
+Z:"dcde" should probably be "d^cde" in part I, measures 3, 7
+M:C
+L:1/8
+Q:55
+K:G
+(G>F)|DG{A}GF G2 FG|ABAG F2 ((3ABc)|dcde fdcA|GBAG F2 GF|
+DG{A}GF G2 FG|ABAG F2 ((3ABc)|dcde fdcA|GBAF G2||
+(Bc)|dedB c2 Bc|dgfa g2 Bc|defd cAGF|DF{G}FE F2 GF|
+D2 GF GABG|A2 FE FGAc|((3def) eg fdcA|GBAF G2||
+S:https://www.folktunefinder.com/tunes/182918
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0619_2.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

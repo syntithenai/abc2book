@@ -1,0 +1,36 @@
+X:149
+T:An Italian Duet.
+M:3/4
+K:G
+V:1
+L:1/4
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:.d.d.e|.d.d.e|d c/B/A/G/|FE/F/D|.B.B.c|.d.d.c|.B.B.c|
+.d.d.c|BGF|G2A|[L:1/8]BdBdBd|BdBdBd|BdBdBd|A4e2|fafafa|
+eaeaea|f2d2^c2|D6::[L:1/4].a.a.b|.a.a.b|ag/f/e/d/|^cB/c/A|.f.f.g|
+.a.a.g|.f.f.g|aag|fd^c|[L:1/8]d3 ABc|[L:1/4].d.d.e|.d.d.e|dc/B/ A/G/|
+FE/F/D|.B.B.c|.d.d.c|.B.B.c|.d.d.c|BA/G/F/A/|G3:|
+V:2
+L:1/8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:BGBGBG|BGBGBG|B2AGFE|D4z2|GDGDAD|BDBDAD|GDGDAD|BDBDAD|G2B2A2|G2D2F2|G2B2G2|F2D2F2|
+G2B2G2|F2D2A2|d2f2d2|^c2A2c2|d2G2A2|F6::fdfdgd|fdfdgd|f2ed^cB|A4z2|dAdAeA|fAfAeA|dAdAeA|
+fAfAeA|d2G2A2|D4z2|BGBGcG|BGBGcG|B2AGFE|D4z2|GDGDAD|BDBDAD|GDGDAD|BDBDAD|G2FGAF|G6:|
+S:https://www.folktunefinder.com/tunes/90136
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

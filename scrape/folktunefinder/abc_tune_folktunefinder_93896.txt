@@ -1,0 +1,24 @@
+X: 8
+T:MAZURKA BARBARA
+M:3/4
+L:1/8
+Q:1/4=120
+C:Yves BELOTTEAU
+R:Mazurka
+K:C
+|:E3/2G/2c3/2 z/2 c3/2 z/2 |B3/2A/2d3/2 z/2 d3/2 z/2 |d3/2c/2B3/2a/2g3/2
+f/2|e3/2d/2e3/2 z/2 c3/2 z/2:|!
+K:G 
+|:D3/2G/2B3/2 z/2 B3/2 z/2|A3/2B/2 c3/2 z/2 c3/2 z/2|1c3/2B/2A3/2G/2F3/2
+E/2|D3/2C/2B,3/2 z/2B,3/2 z/2|
+2c3/2B/2A3/2G/2F3/2D/2|E3/2F/2G3/2 z/2G3/2 z/2:|
+S:https://www.folktunefinder.com/tunes/93896
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/compos.txt
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

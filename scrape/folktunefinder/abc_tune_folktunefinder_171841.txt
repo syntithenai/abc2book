@@ -1,0 +1,26 @@
+X:1323
+T:"The Leitrim Thrush" (reel)     1323
+C:after Mr. Mcfadden
+N:Changed fermata to proper Fine command
+N:Changed  plain DC to proper DC al Fine command
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:C
+A3B cAGB|AcAG EFGc|AGAB cdef|geag ecdB|
+AGAB cAGB|AcAG EB,Cc|AGAB cdef| (3(gfe) ag ec c2"^Fine"||
+(3(gag) ec gcec|gcec Bc d2|gcec gcec|gagf ec c2|
+ (3(gag) ec gcec|gcec Bc d2|gage  (3(ded) cA|GAag ecd"^Da Capo al Fine"c|]
+S:https://www.folktunefinder.com/tunes/171841
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1301-1400/1323-LeitrimThrush.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

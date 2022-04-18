@@ -1,0 +1,31 @@
+X:060
+U: ~ = !turn!
+%%topmargin 3cm
+T:Duke of Leinster
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Martin Byrnes
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+[G,2G2] BG dGBG | dBAB dBAB | [G,3G3] B d2 eB | dBAB GEDE |
+[G,2G2] BG dGBG | dBAB dBAB | GB (3{/c}(BAB) dB (3{/c}(BAB) | ((3dcB) AB GEDE ||
+dega bg {ga}g2 | agbg ageg | dega bg{/a}ge | ((3dcB) AB GEDE |
+dega bg {ga}g2 | agbg agef | ga ((3bag) ef ((3gfe) | dBAB GEDE |]
+S:https://www.folktunefinder.com/tunes/94658
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Duke_of_Leinster_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Duke_of_Leinster_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Duke_of_Leinster_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Duke_of_Leinster_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

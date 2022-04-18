@@ -1,0 +1,59 @@
+X:1160
+T:Lord Glenlyon's Reel
+C:Nigel Gow Jnr
+O:Scotland
+S:Collection of compositions by Niel Gow Jnr pub posthumously by Nathaniel Gow, 1837
+B:NLS Glen.411
+N:for the pianoforte, harp, violin and violoncello
+N:multi-voice stuff tested on Barfly and nothing else!  be warned...
+R:Reel
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/gow-jnr-nigel/lord-glenlyons-reel.abc
+%Posted June 8th 2000 at abcusers by Jack Campin who suggested it as
+%suitable repertoire for the alto clarinet.
+%Jack says:
+%There are a whole lot of Scottish tunes in flat keys from that
+%period, with a range of two octaves from B flat below middle C.
+%William Marshall alone could give you a handy repertoire for that
+%clarinet.
+V:2 bass
+M:C|
+L:1/8
+K:C Minor
+V:1
+D | C/C/C  CD      EFGE         | D(BB)G             FDB,D             |\
+    C/C/C  CD      EFGE         | FGBD               C/C/C    C       :|
+V:2 [L:1/4]
+z/|[C,C,,][C,C,,] [C,C,,][C,C,,]|[B,,B,,,][B,,B,,,] [B,,B,,,][B,,B,,,] |\
+   [C,C,,][C,C,,] [C,C,,][C,C,,]| F,,      G,,      [C,C,,]  [C,/C,,/]:|
+V:1 [L:1/8]
+G | c/c/c ga {a}g2fe     | dBfd           bfdB             |\
+    c/c/c ga    gefg     | ecd=B          c/c/c   cd       |
+V:2 [L:1/4]
+z/|[CC,][CC,]  [CC,][CC,]|[B,B,,][B,B,,] [B,B,,] [B,B,,]   |\
+   [CC,][CC,]  [CC,] F,  | G,     G,     [CC,]   [CC,]     |
+V:1 [L:1/8]
+    ecd=B       cdeG     |(FA).G.C       =B,DGF            |\
+    ECFD        GFGE     | FGBD           C/C/C   C       |]
+V:2 [L:1/4]
+    C    G,     E,   C,  | D,     E,      G,      G,,      |\
+    C,  =B,,    C,   E,, | F,,    G,,    [C,C,,] [C,/C,,/]|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/172932
+S:http://abc.musicaviva.com/tunes/gow-jnr-nigel/lord-glenlyons-reel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/gow-jnr-nigel/lord-glenlyons-reel.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/gow-jnr-nigel/lord-glenlyons-reel.abc
+% Rhythm Reel
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

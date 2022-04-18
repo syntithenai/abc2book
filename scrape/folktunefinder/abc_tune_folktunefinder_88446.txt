@@ -1,0 +1,24 @@
+X:1445
+T:Black Joake
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001227.html
+%%ID:00001227
+K:C
+G | cdc cBc | ded dcd | efe edc | ded dcB | c3 A3 | GAB c2 ::
+f | efg geg | abc' g2f | efg geg | abc' g2
+f/e/ | f2d' e2d' | ded dcd | efe gec | ded dcB | c3 A3 | GAB c2 |]
+S:https://www.folktunefinder.com/tunes/88446
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

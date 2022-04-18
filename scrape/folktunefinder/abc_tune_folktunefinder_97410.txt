@@ -1,0 +1,25 @@
+X:330
+T:High Reel, The
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+Z:
+K:Amix
+"A"a2fa eA~A2|cAeA fAeA|a2fa eA~A2|"G"Bcdc BG~G2|
+"A"a2fa eA~A2|(3Bcd ef "G"g2fg|"Em"afge fded|"G"Bcdc BG~G2:|
+|:"A"(3cBA eA fAeA|(3cBA af eA~A2|(3cBA eA fAeA|"G"Bcdc BG~G2|
+"A"(3cBA eA fAeA|(3Bcd ef "G"g2fg|"Em"afge fded|"G"Bcdc BG~G2:||
+S:https://www.folktunefinder.com/tunes/97410
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

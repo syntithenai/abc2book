@@ -1,0 +1,31 @@
+X: 1
+T: Lyall's Thompson
+C: R-100
+C: Paul Milde 1990
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+%%staffwidth 16.2cm
+K: D
+"D"DFAd f2f2| "A"(3efe de "D"f2f2| DFAd f2fe| "Bm"dedB "A"A4|
+"D"DFAd f2f2|    (3fgf ef "G"g2gf|1 "Em"efed "A"cdec| "D"eddc d4 :|
+                                 [2 "Em"efed "A"cAcd| eddc "D"dABc|] \
+\
+"D"d4 A4| f4 d4| "A"e2ef edef| "D"g2f2 "A"eefg|
+"D"a2ba gfed| fedc "G"BdcB| "A"A2Ad cdec| "D"d4 dABc|
+"D"d4 A4| f4 d4| "A"e2ef edef| "D"g2f2 "A"eefg|
+"D"a2ba gfed| "A"cdef "G"gfed| "A"cBAG "(C#)"FDEC| "D"D4 D4 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/173405
+S:http://roaringjelly.org/music/reel/R100_Lyalls_Thompson.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R100_Lyalls_Thompson.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R100_Lyalls_Thompson.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

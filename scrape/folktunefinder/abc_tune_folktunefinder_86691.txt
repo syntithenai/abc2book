@@ -1,0 +1,27 @@
+X: 126
+T: Cow Behind the Fence (polka)
+N: 030395
+C: BB
+M: 2/4
+Q: 300
+L: 1/8
+R: polka
+K: D
+"D"A>d cd | "Bm"BA FA | "D"DA FA | "Bm"DA B2 |"D"A>d cd | "Bm"BA FD |\
+"Em"E>G "D"FD | "A"A,C "D"D2 :|
+"A"E>A ce | "A"ae cA | "A"E>A ce | "G"gf "E"e2 |\
+"A"E>A ce | "A"ae ce | "D"f>e dA | "G"Bc "D"d2 :|
+"D"dA FA|"D"dA FD|"A"A,>C EF|"G"GF "A"E2|"D"dA FA|"D"dA FD|"A"A,>C EG |\
+"D" FE "D"D2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86691
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

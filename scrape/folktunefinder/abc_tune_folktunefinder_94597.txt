@@ -1,0 +1,31 @@
+X:063
+U: ~ = !turn!
+%%topmargin 3cm
+T:Eibhl Geal Chiin Ni Chearbhaill
+T:Air
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Chieftains
+R:Air
+M:3/4
+L:1/8
+K:GMix
+G2 | G3 A c2 | d3 c d2 | e3 d c2 | d3 c d2 | e3 d c2 | c A-A2 G2 | G6- | G4 :|]
+G2 | d3 e f2 | g3 a g2 | g3 f e2 | d3 c A2 | d3 e f2 | g3 a g2 | f6 | e2 d2 c2 |
+d3 e f2 | g3 a g2 | g3 f e2 | d3 c d2 | e3 d c2 | c A-A2 G2 | G6- | G4 |]
+S:https://www.folktunefinder.com/tunes/94597
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Air_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Eibhl_Geal_Chi_in_Ni_Chearbhaill_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Air_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Eibhl_Geal_Chi_in_Ni_Chearbhaill_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

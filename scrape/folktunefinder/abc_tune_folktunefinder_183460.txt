@@ -1,0 +1,25 @@
+X: 1
+T:Polska i G-moll/G-dur efter John-Erik Mattson, Rtan
+A:Rtan, S.Jmtland
+O:Sweden
+Z:Lennart Sohlman, lta, Sweden
+M:3/4
+L:1/8
+Q:1/4=140
+K:Gm
+G>e d3z|{cd}c>A (Ac (3B(dB) A>^F|(^F<G) (GD) B,G,|\
+G>e d3z|{cd}c.A/.A/ (Ac (3B(dB) A.^F/.F/|(^F<G) G4:|\
+K:G
+G>B d2 g2|a2 b4|G>B d2 g2|f>a g>f e>d|AB (3c(ec) (3B(dB)|\
+A>F G>D B,>D|(3C(EC) (3B,(DB,) A,>F|(3G(BG) D3z|\
+G>B d2 g2|a2 b4|G>B d2 g2|f>a g>f e>d|AB (3c(ec) (3B(dB)|\
+A>F G>D B,>D|(3C(EC) (3B,(DB,) A,>F|((3FEF) G4|]
+S:https://www.folktunefinder.com/tunes/183460
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_i_G_moll_G_dur_efter_John_Erik_Mattson_R_tan_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:167
+U: ~ = !turn!
+%%topmargin 3cm
+T:Piper's Chair
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+DGG GFD | Dcc {/d}cBc | ded e/2B/2AG | FAG FED |
+DGG {/A}GFD | Dcc {/d}cBc | ded {/d}cAF | [1 AGF G2F :| [2 AGF GBd ||
+|:~g3 agf | d2 g {/a}gfg | GFG ~=g3 | A2 B cBA |
+GBd g2g | d2 e fdc | B/2c/2dB {/d}cAF | [1 {/B}AGF GBd :| [2 AGF G2 F ||
+S:https://www.folktunefinder.com/tunes/94763
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Pipers_Chair_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Pipers_Chair_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

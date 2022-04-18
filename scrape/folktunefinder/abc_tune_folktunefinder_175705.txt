@@ -1,0 +1,25 @@
+X: 1
+T: Mike MacDougall's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|: FE | D2 D GAB | BAB edB | BdB GAB | c2 B AGE |
+DB,/C/D GAB | BAB def | g2 g e/f/ge | dBA G :|
+|:B/c/d |gag edB | dgb agf | g2 e dBd | gab a2 b |
+age dBd | g2 g aga | bag e/f/ge | dBA G :|
+|: zE |DB,D GAB | BAB edB | BdB GAB | c2 B AGE |
+D^CD GAB | BAB def | gag edB | AGF G :|
+|: Bd | g2 e dBd | gab agf | g2 e dBd | gab a2 b |
+age dBd | g2 g aga | bag edB | AGF G :|
+S:https://www.folktunefinder.com/tunes/175705
+S:http://www.thesession.org/tunes/display/4688
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

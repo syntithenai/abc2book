@@ -1,0 +1,27 @@
+X:1470
+T:Allegretto
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001232.html
+%%ID:00001232
+K:C
+c/d/ | \
+ee gg | dd gg | egce | ddd (c/d/) | ee gg | ff c'a | ge fd | c2 z ::
+e | \
+.d.g .e.g | fg eg | .d.g .e.g | dgg G | \
+cc ee AA af | eg dg | c2 z ||
+"^Minore"\
+e | \
+(ec) (dB) | (cA) (B^G) | Aeee | a3 g | .f.A (fe) | cd Bc | A2 z !D.C.! ::
+S:https://www.folktunefinder.com/tunes/88451
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

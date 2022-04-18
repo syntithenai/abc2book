@@ -1,0 +1,27 @@
+X:1
+T:"Nur Nix neichs net" Bayrisch Polka
+C:traditionelle Melodien, zusammengestellt von S.Wascher 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d2|\
+B2e2 d^cd2 | c2e2 d^cd2 | d2e2 fga2 | bage dcBc |
+B2e2 d^cd2 | c2e2 d^cd2 | d2e2 fgab | g2g2g2 :|
+|: d2 |\
+b2bf g2ge | dedc B2d2 | d2c'ba2d2 | d2ba g2d2 |
+b2bf g2ge | dedc B2d2 | d2c'b aefa | g2b2g2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179262
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/nur_nix_neichs_net.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

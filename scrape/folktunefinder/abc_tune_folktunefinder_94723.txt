@@ -1,0 +1,43 @@
+X:127
+U: ~ = !turn!
+%%topmargin 3cm
+T:Michael Coleman's
+T:Good Morning to your Nightcap
+T:The Drunken Policecar
+T:Over the Waves
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+e4 d4 | ~c3 d ec d2 | ecec dBdB | cABG ((3EGE) D2 |
+e>dce dcBd | ~c3 d ec d2 | ((3efg) fg edBd | cABG ((3EGE) D2 ||
+EAAc BGGB | PcBcd ((3efg) ed | EAAc BGGB | ((3cBA) BG ((3EGE) D2 |
+EAAc BGGB | PcBcd ((3efg) e2 | ~g3 e dedB | cABG ((3EGE) D2 |]
+S:https://www.folktunefinder.com/tunes/94723
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Drunken_Policecar_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Good_Morning_to_your_Nightcap_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Michael_Colemans_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Over_the_Waves_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Drunken_Policecar_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Good_Morning_to_your_Nightcap_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Michael_Colemans_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Over_the_Waves_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Good_Morning_to_your_Nightcap_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Michael_Colemans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Over_the_Waves_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Drunken_Policecar_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Good_Morning_to_your_Nightcap_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Michael_Colemans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Over_the_Waves_1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

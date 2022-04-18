@@ -1,0 +1,38 @@
+X:480
+T: Loud House on Harmony Street (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: program 1 105 %banjo
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] G|"C"ECEG cBcG|"Am"Aedc "G"BGBd|"C"e2 ce "Am"Aece|"G"B2 GB "Em"EBGB|
+[V:2] z|C,2[E2G2C2]G,,2[E2C2G2]|A,,2[A2C2E2]G,,2[G2B2D2]|C,2[E2G2C2]A,,2[A2C2E2]|\
+G,,2[G2B2D2]E,2[E2B2G2]|
+%
+[V:1] "C"ec (3cBc "G"dBGB|"Am"cA (3ABA "Em"BGEG|"Am7"Aceg "D"fddf|"Em7"edBG "Am"A3 :|
+[V:2] C,2[E2G2C2]G,,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|A,,2[G2C2E2]D,2[A2D2F2]|\
+E,2[D2B2G2][A,,3C3E,3] :|
+%
+[V:1][K:A] e|"A"ec (3cBc "D"dcde|"F#m"faec "Bm7"dBcA|"F#m"F2 AF cFAF|"E"E2 BE cEBE|
+[V:2][K:A] z|A,,2[A2C2E2]D,2[A2D2F2]|F,,2[A2C2F2]B,,2[F2A2D2]|F,,2[A2C2F2]C,2[A2C2F2]|\
+E,2[E2B2G2]B,,2[E2G2B2]|
+%
+[V:1] "A"eagf ec (3cBc|"D"fdec "Bm7"BAAF|"G"=G2 dG eGdG| "E"edBG "A"A3 :|
+[V:2] A,,2[A2C2E2]E,,2[A2C2E2]|D,2[A2D2F2]B,,2[F2A2D2]|=G,,2[=G2B2D2]D,,2[=G2B2D2]|\
+E,2[D2B2G2][A,,3C3E,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86981
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

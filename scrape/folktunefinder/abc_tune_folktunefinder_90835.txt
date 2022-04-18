@@ -1,0 +1,29 @@
+X: 181
+T:Twelve Pins
+R:Reel
+C:Charlie Lennon, Gaelic Roots III, Boston, 1997
+S:Charlie Lennon
+Z:The Twelve Pins - a mountain range north-west of Spiddal, Connemara
+Z:Added by Elizabeth.Scarlett@rogers.com
+M:C|
+L:1/8
+K:G
+"G" (dB~B2 dB)G(B|"D"dA) (3AAA  (dA)FA|(DEFG) (AB)(cA)|(defg) (ab)(ge)|
+"G"dB~B2 dBgB|"D"dA (3AAA fdAF|"D7"DEFG ABce|d2cd "G"AGG2|
+dB (3BBB dBGB|"D"dA (3AAA dAFA|"D7"DAFG ABcA|defg  (3agf ge|
+"G"dB (3BBB dBgB|"D"dA (3AAA fdAF|"D7"DAFG ABcA|d2cd "G"AGG2||
+"D7"f3e defg|adfd cAAB|"Am"cA (3AAA "D"DFAB|"Am"cedB {d}cAA2|
+"D" (3fgf ef defg|(3agf ga fdAB|"Am" (3ccB {d}cB cBAB|"D" (3ccc dc "G"AGG2|
+"D"fd (3ddd ad (3ddd|{g}fded cAAB|"D9"cedB cdeg|"D7"abga fdde|
+"D"~f3g ~a3g|~f3d cAAB|"Am"cB{d}cB cBAB|"D7" (3ccc dB "G"AGG2||
+S:https://www.folktunefinder.com/tunes/90835
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

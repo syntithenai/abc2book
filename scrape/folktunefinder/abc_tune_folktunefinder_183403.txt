@@ -1,0 +1,24 @@
+X: 1
+T:Polska fr Boda
+R:Polska
+O:Sweden
+M:3/4
+A:Dalarna
+K:A
+A>a a<g g>f|f>e e<A c2|\
+(3cBc d>B G>B|B<A A<c e2|\
+A>a a<g g>f|f>e e<A c2|
+(3cBc d>B G>B|B<A A4:|\
+c>d e2(a2|a)(g g/)a/g/f/ g2|
+B>c d2 (f2|f)(e e/)f/e/^d/ e2|\
+A>B c2 (e2|e)(d d/)e/d/c/ (d2|d)>c B>a g>b|\
+b<a a4:|
+S:https://www.folktunefinder.com/tunes/183403
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_fr_Boda_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

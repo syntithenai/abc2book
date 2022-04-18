@@ -1,0 +1,25 @@
+X:23
+T:Turkish March
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+a>g ff|f>e dd|ed ec|d/e/f/e/ d/e/f/g/|a>g ff|f>e dd|ed ec|d2 d2!fine!:|
+e2 f2|gg/f/ ee|f2 g2|aa/g/ fa|ag gf|ag gf|ab/a/ gf|Tf2 e2!D.C.!||
+P:2nd fife
+f>e dd|A>G FF|GF GE|FGAG FAde|f>e dd|A>G FF|GF GE|F2 F2!fine!:|
+cA dA|e/c/e/c/ c/A/c/A/|d2 e2|ff/e/ df|fe ed|fe ed|fg/f/ ed|Td2 c2!D.C.!||
+S:https://www.folktunefinder.com/tunes/90010
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 1
+T: New House, The
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|:d | cBc GEC | EGC EFG | Ad^c d2e | fdc BdB |
+cBc GEC | EGC EFG | Ade fdc | BdB c2 :|
+|:d | e2c cB_B | AFA GEG | cBc ege | de^c dBG |
+cBc edc | AFA GEG | cea gec | GBd c2 :|
+|:B | cBc edc | gec edc | Ad^c d2e | fdc BdB |
+cBc edc | gec edc | Ade fdc | BdB c2 :|
+S:https://www.folktunefinder.com/tunes/178522
+S:http://www.thesession.org/tunes/display/2484
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

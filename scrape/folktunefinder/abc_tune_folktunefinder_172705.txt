@@ -1,0 +1,27 @@
+X:0576
+T:"Logan Water "  (air)   0576
+C:Unattributed
+C:slow and plaintive
+Q:1/4=65
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:A
+"_p"(FG)|A2(GF) (F3A)|(ECB,C) E3G|"_p"{B}A2(GF) F3A|^EF AB {AB}c3c|
+"_p"{c}d2({d}cB) {d}c2(BA)|({c}BA)"_pp"(GF) E3A|"_cresc"F3/2G/2AB c3/2d/2cB|"_p"A2TRG2 "_pp"{FG}F2||
+c^e|f2cA F3A|"_p"(E/2C3/2) (B,C) E3^e|f2 "_cresc"F2F2(EF/2G/2)|A3/2G/2AB c3c|
+{c}d2 "_p"({d}cB) {B}c2({c}BA)|({c}BA) (GF) "_p"E3A|"_cresc"F3/2G/2AB c3/2d/2cB|"_p"A2TRG2 "_pp"{FG}F2|]
+S:https://www.folktunefinder.com/tunes/172705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0576-LoganWater.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0576-LoganWater.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

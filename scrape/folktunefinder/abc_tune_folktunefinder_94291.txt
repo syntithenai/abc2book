@@ -1,0 +1,39 @@
+X:19000
+T:Xiraldilla (CT 190)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Teresa Prez Cuenya, de sesenta aos, de Bedriana, ayuntamiento de Maliayo.
+O:Bedriana (Maliayo)
+A:Asturies
+Z:Cancioneru de Torner 190
+M:2/4
+L:1/8
+Q:1/4=160
+W:Una mora me prendi
+W:al entrar en Portugal
+W:y por cadenas me ech
+W:las trenzas de su collar.
+W:
+W:Y al echarme la cadena
+W:en ella preso qued.
+W:Ai, la prenda de mi vida,
+W:regalo de mi querer!
+K:Gm
+|G3 G|BB AG|(A2 G2)|c3 B|cB AG|A4|
+d3 d|AB cB|(A2 G2)|c3 B|AA G^F|G2 z2 :||
+S:https://www.folktunefinder.com/tunes/94291
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 87
+T:Monaghan Twig
+R:reel
+D:Dervish: The Boys of Sligo
+D:Paddy Keenan: Port an Phiobaire
+D:Arcady
+Z:id:hn-reel-238
+M:C|
+L:1/8
+Q:1/4=200
+K:Amix
+|:cAAB cded|cAAG ~E3B|cAAB cded|BAGB d2ed:|
+cdef gfed|(3Bcd ef ~e3d|cdef ~g3e|dBGB d2ed|
+cded cded|cAAB cdef|~g3e deed|BAGB d2ed||
+"Variations:" ~A3B cAed|cAAG E^DEB|~A3B cAed|BAGB dfed|
+A2AG Acec|~A3G ~E3B|cAAB cded|BAGB dfed||
+(3Bcd ef gfed|cdef ~e3d|(3Bcd ef g2ed|BAGB dfed|
+(3Bcd ed cded|cAAB cdef|gfge d2ed|BAGB dfed|]
+S:https://www.folktunefinder.com/tunes/90741
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

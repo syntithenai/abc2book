@@ -1,0 +1,38 @@
+X:565
+T: Music at McGurk's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] "Em"E2 GA BAGA|"G"Bd (3d^cd "C"eg (3gfg|"Em"eB (3BAB "G"dBGB|"Am"AGAB "D"AGFD|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]C,2[E2G2C2]|E,2[E2B2G2]G,,2[G2B2D2]|\
+A,,2[A2C2E2]D,2[A2D2F2]|
+%
+[V:1] "Em"E2 GA BAGA|"G"Bd (3d^cd "Am"efga|"G"bgaf gfed|"Bm7"BdAF "Em"E4 :|
+[V:2]E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+B,,2[F2A2D2][E,4B,4G4]:|
+%
+[V:1] "G"G2 DG BAGF|"Em"EB, (3B,A,B, "Am"A,CEF|"G"G2 BG "Bm"Bd (3d^cd|"Em"ecdB "D"cBAF|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|E,2[E2B2G2]A,,2[A2C2E2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+E,2[E2B2G2]D,2[A2D2F2]|
+%
+[V:1] "G"G2 DG BAGF|"Em"EB, (3B,A,B, "Am"A,CEF|"G"GB "D"AF "G"GBdg|"C"ec "D"AF "G"G4 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|E,2[E2B2G2]A,,2[A2C2E2]|G,,2[D2F2A2]G,,2[G2B2D2]|\
+C,2[D2F2A2][G,,4B,4D,4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86998
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

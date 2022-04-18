@@ -1,0 +1,33 @@
+X:385
+T: Jimmy Hogan's (with piano acc.)
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"GBd "Em"B2 A | "G"GBd "Am"cBA | "G"GBd gfg | "Am7"eag "D"fed |
+[V:2] z|G,,2[GBD]E,2[EGB]|G,,2[GBD]A,,2[AEC]|G,,2[GBD]D,2[GBD]|A,,2[GCE] D,2[AFD]|
+%
+[V:1] "G"GBd "Em"B2 A | "G"GBd "Am"cBA | "G"Bdg "D7"fdc | "G"BGF "G"G2 :|
+[V:2] G,,2[GBD]E,2[EGB]|G,,2[GBD]A,,2[AEC]|G,,2[GDB]D,2[CAF]|G,,2[GBD][G,,2D,2B,2]:|
+%
+[V:1] d|"Em7"ede "D"fdf | "G"gdc "Em"BAG | "G"BGG dGG | "Em7"edB "D"d^cd |
+[V:2] z|E,2[DGB]D,2[AFD]|G,,2[GBD]E,2[DGB]|G,,2[GBD]D,2[GBD]|E,2[DGB]D,2[AFD]|
+%
+[V:1] "Em7"ede "D"fdf | "G"gab "C"gfe | "G"dcB "D7"Adc | "G"BGF "G"G2 :|
+[V:2] E,2[DGB]D,2[AFD]|G,,2[GBD]C,2[CGE]|G,,2[GDB]D,2[CAF]|G,,2[GBD][G,,2D,2B,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86962
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

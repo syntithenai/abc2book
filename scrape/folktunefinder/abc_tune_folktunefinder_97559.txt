@@ -1,0 +1,34 @@
+X:10
+T: Ladrangan Bima Kurda
+N: C0000
+O: Asien, Sdostasien, Indonesion, Java
+N: Pelog Patet Barang.
+N: Entnommen aus Lehrerband "Musik h\^iren-machen-verstehen"
+R: Nuclear Melody
+M: 4/4
+L: 1/8
+K: F
+A2A2A2E2 | A2A2A2E2 | AAEAABcB
+A2A2A2E2 | A2A2A2E2 | A2A2A2E2
+A2EA2BcB | A4A2E2
+A2A2A2E2 | A2A2A2E2 | A2EA2BcB
+A3AcABc | BcAcBcAc | BcAB2Bde | A2EA2BcB
+A3AcABc | BcAcBcAc | BcAB2Bde | A2EA2BcB
+A3AcABc | Bcefe2cB
+A3AcABc | Bcefe2cB
+ABFEEFAB | AcBABFAF
+EBABcBAF | E^DEDBAFB
+ABFEEFAB | AcBABFAF
+EBABcBAF | E^DEDBAFB
+A2A2A2E2 | A2A2A2E2 | A2A2A2E2
+A2EA2BcB | A8
+S:https://www.folktunefinder.com/tunes/97559
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Nuclear melody
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

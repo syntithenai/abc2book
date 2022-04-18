@@ -1,0 +1,28 @@
+X: 1
+%%staffwidth     14.50cm
+T: Alabama Jubilee #1
+I: Alabama JubileeS-ACsquare
+C: S-A
+M: C
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: C
+^F G^G| "A"A=GEA- AG2E| AGEA- A4| "D"AA^FD AF2D| A^FDA- AGA^A|
+        "G"B^AB=A- AG2G| B^ABG- G2G2| "C"cBcA- AG2E| cBcA- A^FG^G |
+        "A"A=GEA- AG2E| AGEA- AGFE| "Dm"D^CDE FEFG| "F"A2FA- ABcd|
+        "C"e4 e3d| "F"c2A2 "C"G2^FG| "D"AcAc "G"B2G2|\
+        "C"c2"E"B2 "A"A2^FG| "D"AcAc "G"B2G2| "C"c4 z |]
+%%text 9/1/98.  Formerly R-26
+S:https://www.folktunefinder.com/tunes/97282
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

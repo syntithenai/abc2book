@@ -1,0 +1,26 @@
+X:1450
+T:Fly not yet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001228.html
+%%ID:00001228
+K:G
+G2G G2A | B2c d2B | d2e f2g | a2g fed | b2a a2g | g2f e2d |
+e2f g2e | d2c B2A | G2g gaf | g3-g3 ::  G3 g3 | G3 g3 |
+b2a a2g | g2f e2d | e2f g2e | dec B2A | G2g (ga).f | g3-g3 |]
+%%newpage
+%page 116
+S:https://www.folktunefinder.com/tunes/88447
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

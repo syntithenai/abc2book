@@ -1,0 +1,25 @@
+X:7956
+T:Jig
+M:6/8
+L:1/8
+R:jig
+A:Kilkenny
+K:D
+EFA BcB|BAF d3|EFA BcB|BAF AFD|
+EFA BcB|BAF d2 e|f2 e d2 B|BAF AFG:|
+|:E2 e e3|BAF d3|E2 e e3|BAF AFD|
+  E2 e e3|BAF d2 e|f2 e d2 B|BAF AFE:|
+|:f2 e d2 B|BAF d3|f2 e d2 B|BAF AFD|
+  f2 e d2 B|BAF d2 e|fed edB|BAF AFE:|
+S:https://www.folktunefinder.com/tunes/126335
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

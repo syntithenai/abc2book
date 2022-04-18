@@ -1,0 +1,32 @@
+X:8706
+T:Knick-Knack
+% Nottingham Music Database
+S:Mick Peat C music, via EF
+M:4/4
+L:1/4
+K:G
+P:A
+B/2A/2|"G"G/2F/2G/2A/2 BB|"G"G/2F/2G/2A/2 BB|"Am"d/2c/2B/2c/2 AA|\
+"D7"d/2c/2B/2c/2 AA|
+"G"G/2F/2G/2A/2 "f#"BB|"Em"G/2F/2G/2A/2 "Em/d"BB|\
+"Am/c"d/2c/2B/2c/2 "D7"A/2c/2B/2A/2|"G"GB G:|
+FF F\
+P:B
+B/2c/2|"G"d3/2c/2 Bd|"G"gg d2|"Am"d/2c/2B/2c/2 AA|"D7"d/2c/2B/2c/2 AA|
+"G"d3/2c/2 Bd|"Em"gg d2|"Am/c"d/2c/2B/2c/2 "D7"A/2c/2B/2A/2|"G"GB G:|
+P:C
+"G"B3/2c/2 d/2e/2f/2g/2|"C"ee/2e/2 e/2d/2c/2B/2|"D7"AA/2B/2 c/2e/2d/2c/2|\
+"G"BB/2B/2 "D7"B3/2A/2|
+"G""Em"B3/2c/2 d/2e/2f/2g/2|"C"ee/2e/2 e/2d/2c/2B/2|\
+"D7"A/2g/2f/2e/2 d/2c/2B/2A/2|"G"GB G:|
+S:https://www.folktunefinder.com/tunes/91765
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

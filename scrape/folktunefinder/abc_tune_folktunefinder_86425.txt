@@ -1,0 +1,24 @@
+X:80
+T: Bal Bocht (An)
+T: Poor Mouth (The)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: Em
+"Em"E3 B "G"GFGA|"Bm"BABd "Em"e2 ef|"G"gefd "Em"efdB|"Am"AcBA "G"GB"D"AF |
+"Em"E3 B "G"GFGA|"Bm"BABd "Em"e2 ef|"G"gbge "Bm"fdBc|"D"dBAF "Em"GE E2 :|
+"Em"eBBe "G"gBBg|"D"fddf a2 ^ga|"Em"b2 ge b2 ge | "Am"AcBA "Em"GE E2 |
+"Em"eBBe "G"gBBg|"D"fddf a2 ^ga|"Bm"bagf "Em"egfe | "D"dBAF "Em"GE E2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86425
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X: 045
+T: Lady and the Piper (reel)
+N: 122001
+C: BB
+L: 1/8
+M: 4/4
+Q: 1/8=380
+R: reel
+K: D
+"D" A2 FA DAFA|"G"GB (3BAB "A"ABce|"D"df (3fef "Em" efge|"G"dedc "A"A2 GE|
+"D" D2 FA D2 FA |"G"GB (3BAB "A"ABcA|"G"dB"A"cA "Bm7"BAFB|"A7"AGEF "D"D4 :|
+"D" Ad (3dcd "G"Bg (3gfg|"D"afdf "A7"gece|"D"Ad (3dcd "G"BGGB|"Bm7"ABAF "A"E2 EG|
+"D" FAdA "G"Bdgb|"D"afdf "A7"gecA|"Bm7"FABc dBFB|"A7"AGEF "D"D4 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86803
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

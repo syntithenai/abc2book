@@ -1,0 +1,20 @@
+X:1
+T:Polka scandinave
+M:2/4
+L:1/16
+K:D
+%DFED A2AF|DFAd f4| g/4f/4g/4f2ed c2Ac|B2AG F2EF|DFED A2AF|
+DFED A2AF|DFAd f4| f2ed c2Ac|B2AG F2EF|DFED A2AF|
+%DFAd f4| g/4f/4g/4f2ed cABc| dfec de=fg|
+DFAd f4| f2ed cABc| dfec de=fg|
+aAaA gAgA|=fAed c/2d/2c3|=fgag f2ed|cded c2A2|a2a2 g2g2|
+=f2ed c/2d/2cA2|=fgag f2ed|cdec d4|
+S:https://www.folktunefinder.com/tunes/183100
+S:http://termen.free.fr/danses/polkas/Polkascandinave.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

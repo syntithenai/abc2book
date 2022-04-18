@@ -1,0 +1,32 @@
+X:210
+U: ~ = !turn!
+%%topmargin 3cm
+T:Walls of Liscarroll
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Chieftains
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+N:Key signature looks like G; tune sounds like Em.
+K:G
+d |: dcA {/B}AGE | {/A}GED D2 E | {/A}GEE cEE | GAB cde |
+dcA {/B}AGE | {/A}GED D2 E | {/A}GEE cEE | DED D2 d :|
+dAd ecA | dAd ecA | GEE cEE | GAB cde |
+dAd ecA | dAd edA | GEE cEE | DED D2 d ||
+dAd ecA | dAd ecA | GEE cEE | GAB cde |
+ecA {/B}AGE | GED D2E | {/A}GEE cEE | DED D2 |]
+S:https://www.folktunefinder.com/tunes/94805
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Walls_of_Liscarroll_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Walls_of_Liscarroll_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 192104
+T: Susan's Den
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4 = 180
+K: D
+FE | DB,A,B, DEFA | B2 AF ABde | fd d2 edBc | dBAF E2 FE |
+DB,A,B, DEFA | B2 AF ABde | fded Bdfe | dBAF D2 :|
+FG | Ad d2 Adfd | adfd edBA |dBAF DEFA | dBAF E2 FG |
+[1 Ad d2 Adfd | adfd edBd | fded Bdfe | dBAF D2 :|
+[2 Ad d2 Adfa | bfaf gfed | BdAd fded | BdAF D4 ||
+%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88017
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

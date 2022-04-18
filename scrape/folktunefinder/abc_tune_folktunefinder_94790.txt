@@ -1,0 +1,26 @@
+X:194
+U: ~ = !turn!
+%%topmargin 3cm
+T:Slane
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Waltz
+L:1/4
+M:3/4
+K:Gphr
+E E F/2E/2 | C B, C | E E F | G3 | F F F | F G B | c B G | B3 |
+c c/2d/2 e/2d/2 | c B G | B E D | C2 B, | E G B | c/2B/2 G E/2G/2 | F E E | E3 |]
+S:https://www.folktunefinder.com/tunes/94790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Slane_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Slane_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

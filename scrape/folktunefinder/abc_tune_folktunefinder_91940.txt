@@ -1,0 +1,26 @@
+X:010
+%%topmargin 3cm
+T:Hardy Man the Fiddler
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Slip Jig
+L:1/8
+M:9/8
+K:GDor
+A2 {BA}G FCD F2 G | A3 AGA cAG | {AB}A2 G FDE F2 G | Add ded cAG :|
+A<dd d2 e f2 f | Add ded cAG | A<dd d2 e f2 g | agf ged cAG |
+A<dd d2 e f2 f | Add ded cAG | dcA cde f2 g | agf ged cAG |]
+S:https://www.folktunefinder.com/tunes/91940
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Hardy_Man_the_Fiddler.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

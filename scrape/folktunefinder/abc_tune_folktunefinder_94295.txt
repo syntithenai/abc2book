@@ -1,0 +1,44 @@
+X:19004
+T:Xiraldilla (CT 215)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Ramn Colao, de cincuenta aos, de Murias, ayuntamiento de Quirs.
+O:Murias (Quirs)
+A:Asturies
+Z:Cancioneru de Torner 215
+M:6/8
+L:1/8
+Q:1/4=88
+W:-Vecinos, los mios vecinos,
+W:los que ves alredor,
+W:non vistis la mio pitina
+W:que por la venana entr
+W:-No, vecino, no, yo no lo v, no;
+W:no, vecnio, no, por aqu no entr.
+W:
+W:-Yo no siento la pitina,
+W:ni el dinero que cost;
+W:slo siento los pitinos
+W:que quedaron sin el clo.
+W:-Cloroclocloclo, cloroclocloclo,
+W:no, vecino, no, por aqu no entr.
+K:G
+B|d2 c Bcc|(d2 c) B2 A|B2 A GAc|(B2 A G2) B|
+d2 c Bcc|(d2 c) B2 A|B2 A GAc|(BG)A ABc|
+B2 A GFA|G2 A ABc|B2 A GFA|G3-Gz :||
+S:https://www.folktunefinder.com/tunes/94295
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

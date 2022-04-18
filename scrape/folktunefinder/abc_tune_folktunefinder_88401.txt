@@ -1,0 +1,24 @@
+X:1220
+T:a Song tune in one part
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001170.html
+%%ID:00001170
+K:C mixolydian
+G2 | c2c B2A | BGG cBc | dcd e2f | g>ag gfe | dBG ABc | dBG c3 |]
+%%newpage
+%page 100
+S:https://www.folktunefinder.com/tunes/88401
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

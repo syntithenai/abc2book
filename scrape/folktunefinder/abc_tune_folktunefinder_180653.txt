@@ -1,0 +1,24 @@
+X: 150340
+T: O'Shaughnessy's
+S: Mike/Mary Rafferty
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+E | FEF DFA | dAF AFD | EDE CEG | cGE CEG |
+FEF DFA | dAF AFD | GFG EFG | AFD D2 :|
+e | f2 d d^cd | afd def | e2 c cBc | gec ceg |
+|1 f2 d d^cd | afd def | gfg efg | afd d2 :|
+|2 agf gfe | fed ^cAF | GFG EFG | AFD D2 ||
+S:https://www.folktunefinder.com/tunes/180653
+S:http://www.qmcorp.net/webabc/o/150340.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

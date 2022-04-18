@@ -1,0 +1,20 @@
+X:1
+T:Potash
+M:4/4
+C:Bill Vernieu
+R:R
+K:G
+DEF \
+|: "G"GFGA BAG2 | "C"A^GAB cBA2 | "G"B2 d2 cBAG | "D"FGEF DDEF | "G"GFGA BAG2 | "C"A^GAB cBA2 |
+| "G"B2 d2 "D"AGFA |1 "G"G2 GG GDEF :|2 "G"G2 GG GABc |: "G"dcde dcB2 | "C"cBcd cBA2 | "G"B2 d2 cBAG |
+| "D"FGEF DDEF | "G"GFGA BAG2 | "C"A^GAB cBA2 | "G"B2 d2 "D"AGFA |1 "G"G2 GG GABc :|2 "G"G2 GG G4 |]
+S:https://www.folktunefinder.com/tunes/183620
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/reel/Potash.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

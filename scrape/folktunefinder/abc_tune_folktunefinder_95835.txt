@@ -1,0 +1,21 @@
+X:4
+T:Minuet (Bach)
+R:Minuet
+C:J.S. Bach
+M:3/4
+L:1/8
+Q:110
+K:D
+A2DEFG|A2D2D2|B2GABc|d2D2D2|G2AGFE|!F2GFED|E2DEFD|E2AGFE|
+A2DEFG|A2D2D2|B2GABc|!d2D2D2|G2AGFE|F2GFED|E2FEDE|D6||
+S:https://www.folktunefinder.com/tunes/95835
+S:http://trillian.mit.edu/~jc/music/abc/mirror/personales.alcavia.net/~jmoreno/tw/jose.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

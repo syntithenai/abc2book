@@ -1,0 +1,31 @@
+X: 1
+T:Redwing
+M:4/4
+L:1/4
+C:American
+R:reel
+K:D %Transposed from G
+P:A1
+A,C|"D"D>DDF|A3F|"G"GBdB|"D"A3F|"A7"G>FEG|"D"F>EDF|"E7"EB,CD|"A7"E/F/E/D/ C/B,/A,|
+P:A2
+"D"D>DDF|A3F|"G"G/A/BdB|"D"A3F|"A7"G>FEG|"D"F>EDF|"E7"EB,"A7"CA,|"D"Ddc=c||
+P:B1
+"G"[B2d2][Bd]>[Bd]|[Bd]d(3c/d/c/B|"D"[A2d2][F2d2]|z[Ad][Bd][Ad]|"A7"[A2c2][E2c2]-|[Ec][Ac][Bd][Ac]|"D"[A2d2][F2d2]-|[Fd] d"D7"ed|
+P:B2
+"G"[B2d2][Bd]>[Bd]|[Bd]d(3c/d/c/B|"D"[A2d2][F2d2]|z[Ad][Bd][Ad]|"A7"[A2c2][E2c2]-|[Ec]E/G/ F/E/C|"D"[F4D4]-|[FD]z|]
+W:For singing square play:
+W:AA BB
+W:AAAA BB (X2)
+W:AA BB
+W:AAAA BB (X2)
+W:AA BB
+S:https://www.folktunefinder.com/tunes/184971
+S:http://www.thursdaycontra.com/~spuds/tunes/couple/Redwing_D.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

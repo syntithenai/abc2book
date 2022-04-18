@@ -1,0 +1,24 @@
+X:440
+T:Ross Castle
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000603.html
+%%ID:00000603
+K:D
+dc | B4   A4   | G2G2 cBAG | FGAB A2dc | B4   A4   | G2G2 ABcA | B2G2 G2 ||
+dc | B2G2 A2D2 | G2G2 cBAG | FGAB A2dc | B2G2 A2D2 | G2G2 ABcA | B2G2 G2 ::
+dc | BcdB ABcA | G2G2 cBAG | FGAB A2dc | BcdB ABcA | G2G2 ABcA | B2G2G2 :|
+%%text Try this in 3/2 
+S:https://www.folktunefinder.com/tunes/95719
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

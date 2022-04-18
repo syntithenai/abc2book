@@ -1,0 +1,25 @@
+X: 1
+T: The Leading Role
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+| c2BA FECB, | A,2CE FECE | c2BA FAEB | cFAF cFAB |
+c2BA FECB, | A,2CE FECE | c2BA FECB, | B,A,CE A3B |
+c2BA FECB, | A,2CE FECE | c2BA FAEB | cFFF FFAB |
+ccBA FECB, | A,2CE FECE | c2BA FECB, | B,A,CE A2Ac |
+eAeA eece | ffec BAFA | cFAF cFAB | c2BA FECE |
+eABA e2ce | ffec BAFA | c2BA FECB, | B,A,CE A2Ac |
+eABA e2ce | ffec BAFA | cFAF cFAB | c2BA FECE |
+e2cA eAce | ffec BAFA | c2BA FECB, | B,A,CE A3B ||
+S:https://www.folktunefinder.com/tunes/171643
+S:http://www.thesession.org/tunes/display/7096
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

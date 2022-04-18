@@ -1,0 +1,68 @@
+X:1
+T:Na'ama
+O:Israel
+N: words (not here) and melody believed to be composed by:
+N: C: Avraham Bar-Oz and Shlomo Biderman
+R:Waltz
+S:cassette by Ron Tomocik
+Z:transcribed by Moshe Braner, mbraner@usa.net, Dec. 1999
+M:3/4
+L:1/8
+% Contributed 19991225145500 by Moshe Braner mbraner@usa.net
+K:Gm
+% P:A
+"Gm"dcdedB | "Cm"cdcBcA | "Gm"B4-Bd | "Cm"c6 |\
+"Gm"dcdedB | "Cm"cdcBcA | "Gm"B4 "Fm"_A2 | "Gm"G6 |
+% P:B
+|: "Gm"d4-de | d4 B2 | "Cm"c3dcB | c4d2 |\
+"Gm"B3AG2 | G4 B2 | "F"A3F A2 | "Gm"G6 :|
+% P:C
+K:Dm
+"Bb"B4-Bc | d4d2 | "Dm"f3gfe | f3ed2 |\
+"Gm"g3fed | "Am"e4c2 | e3fed | "Dm"d4c2 |
+% P:D
+K:Gm
+|: "Gm"B4-Bd | "Cm"c4B2 | c4d2 | "Gm"B3AG2 |\
+"Gm"B4-Bc | "F"A3GF2 | G3AFA | "Gm"G6 :|
+% P:B
+|: "Gm"d4-de | d4 B2 | "Cm"c3dcB | c4d2 |\
+"Gm"B3AG2 | G4 B2 | "F"A3F A2 | "Gm"G6 :|
+% P:C
+K:Dm
+"Bb"B4-Bc | d4d2 | "Dm"f3gfe | f3ed2 |\
+"Gm"g3fed | "Am"e4c2 | e3fed | "Dm"d4c2 |
+% P:D
+K:Gm
+|: "Gm"B4-Bd | "Cm"c4B2 | c4d2 | "Gm"B3AG2 |\
+"Gm"B4-Bc | "F"A3GF2 | G3AFA | "Gm"G6 :|
+% P:E
+K:Am
+|: "Am"e4-ef | e4 c2 | "Dm"d3edc | d4e2 |\
+"Am"c3BA2 | A4 c2 | "G"B3G B2 | "Am"A6 :|
+% P:F
+K:Em
+"C"c4-cd | e4e2 | "Em"g3agf | g3fe2 |\
+"Am"a3gfe | "Bm"f4d2 | f3gfe | "Em"e4d2 |
+% P:G
+K:Am
+|: "Am"c4-ce | "Dm"d4c2 | d4e2 | "Am"c3BA2 |\
+"Am"c4-cd | "G"B3AG2 | A3BGB | "Am"A6 :|
+% P:H
+"Am"edefec | "Dm"dedcdB | "Am"c4-ce | "Dm"d6 |\
+"Am"edefec | "Dm"dedcdB | "Am"c4 "Gm"_B2 | "Am"A6 |]
+S:https://www.folktunefinder.com/tunes/178150
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/Naama.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Key E
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

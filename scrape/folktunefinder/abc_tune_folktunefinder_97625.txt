@@ -1,0 +1,24 @@
+X:864
+T:Doc Boyd's Jig
+S:Dave Swarbrick
+D:Swarbrick
+Z:Nigel Gatherer
+N:Transposed from C
+L:1/8
+M:6/8
+K:D
+d |: dcd AFA | dfb a2f | gbg Bcd | cec ABc |
+     dcd AFA | dfb a2f | gec ABc |1 d3 ABc :| 2 d3-d2 ||
+a |: b2b ba^g | aba a=gf | ggg gfe | a2f d2a |
+     b2b ba^g | aba a=gf | gec ABc |1 d3 fga :| 2 d3-d2 ||
+S:https://www.folktunefinder.com/tunes/97625
+S:http://www.nigelgatherer.com/tunes/abc/tb18.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

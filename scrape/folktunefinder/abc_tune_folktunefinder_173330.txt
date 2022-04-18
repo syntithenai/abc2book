@@ -1,0 +1,32 @@
+X:1 % 12
+T:Ludler (5.)
+C:traditionell
+R:Jodler
+A:Salzkammergut
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000, s.21
+S:im buch mit der angabe: Aus der sammlung von Leopold Khals, bei Bolterauer-Haager als fuereinander aus Altaussee gefuehrt
+N:im buch ganz in D, zweistimmig, erster ton:1.stimme: g'', 2.stimme h'
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G
+V:1
+P:5
+(g2dgBg | f2"Fuereinand"dfA2) | (f2dfAf | g2dgB2) |\
+(g2dgBg | f2dfA2) | (f2dfAf) | g2z2z2 :| 
+V:1
+V:2
+K:G
+(Bdgb dB | ad"Fuereinand"fac'2) | (Adfa dc | Bdgbd'2) |\
+(Bdgb dB | adfac'2) | (Adfa dc | B2)z2z2 :|
+S:https://www.folktunefinder.com/tunes/173330
+S:http://simonwascher.info/TradArchiv_iodler/ludler.Fuerein(g2dgBgf2dfA.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

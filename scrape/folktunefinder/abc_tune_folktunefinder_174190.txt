@@ -1,0 +1,48 @@
+X: 1
+T: Many Happy Returns
+M: 6/8
+L: 1/8
+R: jig
+K: Cmaj
+|: f3 | 
+efg c2 e | def A2 d/c/ | Bcd Ggf | ecg dBg |
+ee/f/g ce^c | dd/e/f A2 d/c/ | Bcd GgB | c3 :|
+K: Fmaj
+|: B2 G | 
+AFc A2 c | BGc B2 g | ecg e2 b | afd cdB |
+AFc A2 c | BGc B2 g/f/ | ecg bag | f3 :|
+K: Gmin
+|: e3 | 
+dBf F2 d | cAf F2 B | AFc AFc | dBf edc |
+dBf F2 d | cAf F2 f | agf edc | B3 :|
+K: Fdor
+|: A3 | 
+GAB eBG | ABc F2 f/e/ | def BcA | GAF G2 F |
+GAB EeB | =A=Bc f3 | dBf agf | e3 :|
+K: Gdor
+|: d2 ^c | 
+dA^F DdA | cBA  B3 | A^FD dcA | G/A/BA Gc^c |
+dA^F dAf | g/a/ba gdB | ^dcA BcA | G3 :|
+K: Dmaj
+|: A3 | 
+FAd f2 d | afd A2 a | gec ABG | FAd F2 G |
+FAd f2 d | afd A2 a | gec geA | d3 :|
+K: Gmaj
+|: c3 | 
+BcA B2 A | Bcd G2 g | fda f2 a | bge dec |
+[1 BcA B2 A | BB/c/d G2 g | fda fdb | g3 :|
+[2 BcA B3 |  BB/c/d g2 b | c'af dba | g3 ||
+S:https://www.folktunefinder.com/tunes/174190
+S:http://www.thesession.org/tunes/display/7243
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Key D-sharp
+% Key C
+% Key F
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

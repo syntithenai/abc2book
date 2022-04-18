@@ -1,0 +1,27 @@
+X:0626
+T:"Lamentation of Owen Roe O'Neil"  0626
+C:Turlough O'Carolan
+C:slow
+N:Transposed from Bb   (#211 O'Sullivan's)  http://www.sosyourmom.com/occ/tunes.html
+Q:1/4=70
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:D
+(Bcde) f3e|(def^g) a2(ga)|(bf)(fe) TRd2(cB)|c2(BA) F2z2|
+(Bc)de f2ed|(ed) (cB) A2ce|(d2cB) (cBce)|d2c3/2B/2 B2z2||
+(Bcde) f3e|def^g a2ga|b2f2(gfed)|c2 TRB3/2A/2 A2z2|
+(f3/2g/2f).d .e.e.e.c|(d3/2e/2d).B .c.B.A(.F|d3)(B c3)(A|B3/2)A/2F^A B2z2|]
+S:https://www.folktunefinder.com/tunes/171113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/626-Lamentation-ONeil.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

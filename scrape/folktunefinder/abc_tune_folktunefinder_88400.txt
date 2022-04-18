@@ -1,0 +1,27 @@
+X:1215
+T:Giovinetto () Cavalier
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Balancez 1st & 2nd couples retaining hands, held down the middle and chain
+%%Dancenotes:figure of four at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001169.html
+%%ID:00001169
+K:G
+d | d2B d2B | dce   A2A | A2B c2B | AGA B2 \
+d | d2B d2B | (dc)e A2f | g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G3 ::
+G | c2A c2A | FGA Ddc | B2c dBe | dcB A2 \
+B | c2A c2A | FGA D2f |  g/f/g/d/B/G/ g/f/g/d/B/G/ | A/e/d/c/B/A/ G3 ::
+S:https://www.folktunefinder.com/tunes/88400
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:0302
+T:"My Heart Is Your Slave"         (air)         0302
+C:after Sg't.  J. O'Neill
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_VB"(.g.f.e)|(d2B)G (BA)|(A2B)d (ed)|(B2G)B AG|G3(g/2f/2) fe|
+d2BG BA|A2(Bd) cd|B2GB A3/2G/2|G3||
+(G/2A/2) .B.c|d2(fe) (ed)|Hd2(GB/2d/2) ef|(g3/2f/2 g)b ag|TRg2 Hf a/2g/2 fe|
+^cd/2=c/2 BG BA|A3B cd|B2GB A3/2G/2|G3|]
+S:https://www.folktunefinder.com/tunes/177957
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0302-MyHeartSlave.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0301-0400/0302-MyHeartSlave.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:1
+T:L'as-tu vu 
+C:Chant de Nol, fichier ABC par Bernard Loffet
+L:1/8
+Q:350
+M:4/4
+K:C
+ [c2C,,2] [e2C,2] [g2C,,2] C,2 | [c'2F,,2] [a2F,2] [g2C,,2] C,2 | [fG,,]f [fG,]f [e2C,,2] [e2C,2] | \
+ [dG,,]d [dG,]d [e2C,,2] [c2C,2] | [c2C,,2] [e2C,2] [g2C,,2] C,2 | [c'2F,,2] [a2F,2] [g2C,,2] C,2 | \
+ [fF,,]f [fF,]f [eC,,]e [eC,]e | [d2G,,2] [g2C,2] [c2C,,2] C,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/171554
+S:http://diato.ifrance.com/diato/tablat/227.abc
+S:http://diato.ifrance.com/tablat/227.abc
+S:http://diato.org/tablat/227.abc
+S:http://perso.orange.fr/diato/tablat/227.abc
+S:http://perso.wanadoo.fr/diato/tablat/227.abc
+S:http://pro.wanadoo.fr/diato/tablat/227.abc
+S:http://www.diatonique.net/tablat/227.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

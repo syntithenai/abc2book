@@ -1,0 +1,26 @@
+X:012
+%%topmargin 3cm
+T:Humours of Cavan
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:A
+E | E>AA A2 f | ecA dcd | cde efg | a>BB B2 c |
+E>AA A2 f | ecA dcd | cde efg | a>AA A2 ::
+d | cBA BAF | F>BB B2 d | cBA BAF | E>FA A2 d |
+cBA BAF | dcd fga | ecA BAF | EFA A2 :|]
+S:https://www.folktunefinder.com/tunes/91942
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Humours_of_Cavan.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

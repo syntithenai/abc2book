@@ -1,0 +1,25 @@
+X:19
+T:Scottisch del gatto
+R:Scottisch
+C:S. Berardo/Lou Dalfin
+D:W D'Jan D'L'Eiretto
+G:Accordion
+%%MIDI program 21 %Accordian
+M:4/4
+L:1/8
+Q:200
+K:G
+[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/A/G/[F/D,/]G/A/B/|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/c/A/[B2G,2]|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/A/G/[F/D,/]G/A/B/|[AD,]A/B/[A/D,/]F/A/d/[c/D,/]B/c/A/[B2G,2]| \
+[AD,]G[FD,]D[F/D,/]G/A/B/[A/D,/]G/F/G/|[AD,]G[FD,]D[F/D,/]G/A/B/[c2D,2]|[AD,]G[FD,]D[F/D,/]G/A/B/[A/D,/]G/F/G/|[AD,]G[FD,]D[F/D,/]G/A/B/[c2D,2]| \
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96979
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Scottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

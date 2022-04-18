@@ -1,0 +1,25 @@
+X:345
+T: Crane's Leg
+N: Possibly a Larry Redican tune.
+M: 4/4
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+R: reel
+K: Edor
+B2 AF BFAF | E2 FD EDB,D | B2 AF BFAF | FEDE FE E2 |
+B2 AF BFAF | E2 FD EDB,A, | B,E E2 DEFA | BdAF FE E2 :|
+eB B2 egfe | d2 fd adfd | eB B2 egfe | dBAF FE E2 |
+eB B2 egfe | d2 fd adfd | B2 Bd egfe | dBAF FE E2 :|
+S:https://www.folktunefinder.com/tunes/88581
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

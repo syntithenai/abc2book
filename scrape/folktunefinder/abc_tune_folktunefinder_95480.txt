@@ -1,0 +1,27 @@
+X:870
+T:Sweet Richard
+B:Aird's Airs and Melodies vol 3
+M:C|
+N:repeats A::B||
+Z:Richard Robinson 
+%RRN:A Welch Tune
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000023e.html
+%%ID:0000023e
+K:G
+D|\
+DG GF/E/  FGA2| G2BG ABc2| B>c dB cBAG| EAGF G2G:|\
+d|\
+g2gg f2ff| efge e2d2|
+g2bg f2af| efge {e}d4|\
+ece2 dBd2| cBAG Bcd2| B2dB cBAG| EAGF G2G|]
+S:https://www.folktunefinder.com/tunes/95480
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

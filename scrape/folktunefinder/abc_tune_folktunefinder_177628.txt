@@ -1,0 +1,29 @@
+X: 1
+T: Mulholland's Fancy
+M: 4/4
+L: 1/8
+R: barndance
+K: Dmaj
+AG | FGAB A2 d2 | BcdB ABAG | FGAB A2 f2 | f2 e2 e2
+AG | FGAB A2 d2 | BcdB A2 d2 | BcdB cdec |1 d4 d2 :|2 d4 =c4 ||
+K: Gmaj
+B2 BG cBAG | D2 G2 G2 z2 | B2 BG cBAG | FGAB A2 GA |
+B2 BG cBAG | D2 G2 G2 Bd | g2 gd e2 dc |1 B2 G2 G3 z :|2 B2 G2 G2 ||
+Bd | g2 d2 e2 dc | B2 d2 d2 ef | g2 f2 e2 d2 | cdBc Adef |
+g2 d2 e2 dc | B2 d2 d2 c2 | B/c/B AG ABcA | B2 G2 G2 :|
+GE | D2 G2 G2 GB | A2 E2 EFGE | D2 G2 BAGB | d2 B2 B2 d2 |
+efgf edcB | cBAG EFGE | DE G2 BAGA | B2 G2 G2 :|
+Bc | d2 B2 g2 B2 | cBAG A2 Bc | d2 Bd g2 d2 | eg f2 g3 d|
+efge d2 B2 | cBAG EFGE | DE G2 BAGA |1 B2 GF &quot;fine&quot;G2 :|2B2 G2 &quot;D.C.&quot; A2 |]
+S:https://www.folktunefinder.com/tunes/177628
+S:http://www.thesession.org/tunes/display/8832
+% Rhythm Barndance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 182085
+T: Road to Glencar (The)
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: Gm
+A | B2G AGF | GAG GAc | d=ef dcA | BAG FGA |
+BAG AGF | GAc def | gfd cAF | AGF G2 :|
+c | dgg gag | gfd fga | gfd dfc | dcA GAc |
+dgg gag | gfd Bcd | fdc BAG AGF G2c |
+dgg gag | gfd cdf | gfd fdc | dcA GFD |
+d=ef gab | gfd Bcd | fdc BAG | AGF G3 ||
+%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88030
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 49
+T:Bass(to TBe.047). TBe.049
+M:C|
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+N:Thi has not been transposed into treble clef - ignore the sign and
+N:read it as bas
+H:Before 1718
+Z:vmp.C. Graebe..
+K:G major
+"READ AS BASS CLEF" DedB | e2E2 | A2 ef | gabe ||!
+e/d/e/f/ ga | b2B2 | DEFB | GEA2 | EABE ||
+S:https://www.folktunefinder.com/tunes/96200
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

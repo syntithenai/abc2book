@@ -1,0 +1,25 @@
+X:90
+T: Fanore Slide
+S: M.Russell
+Z: B.Black
+R: slide
+M: 12/8
+L: 1/8
+K: D
+F | ABA ABA ABA F2 E | DFA B2 A BcA F2 E |
+dcd a2 g fgf B2 A | ABA BAB d3-d2 :|
+A | dcd a2 g f2 d B2 A | BcA BcA BcA F2 E |
+dcd a2 g fgf B2 A | ABA BAB d3-d2 :|
+S:https://www.folktunefinder.com/tunes/89122
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

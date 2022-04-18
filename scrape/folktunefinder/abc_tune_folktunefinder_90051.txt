@@ -1,0 +1,23 @@
+X:64
+T:Daniel of the Sun
+C:V.C.A.
+M:6/8
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(d/e/)|fdd {f}edd|fef dBA|(B<e)e e2d|(B<e)e e2(d/e/)|fdd {f}edd|fef dBA|(B<d)d d2A|(B<d)d d2::
+(d/e/)|f>ga e>fg|f>ef dBA|(B<e)e e^de|(B<e)e e2g|f>ga e>fg|fef dBA|(B<d)d d2A|(B<d)d d2::
+(d/e/)|Tf2d Tf2d|Tf2e dBA|Bee e2d|Bee e2(d/e/)|fdd edd|fef dBA|(B<d)d d2A|(B<d)d d2:|
+S:https://www.folktunefinder.com/tunes/90051
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

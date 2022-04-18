@@ -1,0 +1,26 @@
+X:1778
+T:McElligott's Fancy
+M:C|
+L:1/8
+N:"collected by McElligott"
+B:O'Neill's 1778
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+   F>G | A>FA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>d | (3efe (3dcB A2 F>G |
+         A>GA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>e |   d2    f2  d2    :|
+|: e>f | g>fg>e c>AB>c | d>cd>e f2 e>f | g>fg>e c>AB>c | (3dfe (3dcB A2 F>G |
+         A>FA>d B>GB>d | A>FA>d f2 e>d | c>eg>f e>dc>e |   d2    f2  d2    :|
+S:https://www.folktunefinder.com/tunes/175060
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1778_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

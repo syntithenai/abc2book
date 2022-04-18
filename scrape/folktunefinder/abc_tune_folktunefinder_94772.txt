@@ -1,0 +1,28 @@
+X:176
+U: ~ = !turn!
+%%topmargin 3cm
+T:Road to Lisdoonvarna
+T:All the Way to Galway
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:The Chieftains
+R:Reel
+L:1/8
+M:C|
+K:DMixolydian
+DAAG ABcA | BE (3.E.E.E cEGE | (3.D.D.D AG ABcA | BcAG FD D2::
+de ((3fed) cA (3.A.A.A | BG (3.G.G.G cA (3.A.A.A | defd cA (3.A.A.A | BGAG FD D2 :|]
+S:https://www.folktunefinder.com/tunes/94772
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/All_the_Way_to_Galway_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Road_to_Lisdoonvarna_2.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/All_the_Way_to_Galway_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Road_to_Lisdoonvarna_2.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

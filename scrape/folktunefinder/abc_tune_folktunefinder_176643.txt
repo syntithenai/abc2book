@@ -1,0 +1,23 @@
+X:28
+T: Money in Both Pockets
+I: Money in Both PocketsJ-9Djig
+%%musicspace2pt
+M: 6/8
+R: jig
+K: D
+A| "D"d2F "A"FEF| "D"DFA AFD| d2F "A"FEF| "D"D2f fef|
+   "D"d2F "A"FEF| "D"DFA AFD| "Em"EFE EFG| "A"BBB B2:|
+|:A| "D"dfa afd| "A"cea ecA| "D"dfa afd| "G"g3 fga|
+   "G"bag "D"agf| "A"ede "D"fdB| ABA AFA| "G"BBB B2 :|
+%%text Roaring Jelly  J-9
+S:https://www.folktunefinder.com/tunes/176643
+S:http://roaringjelly.org/music/jig/J009_Money_in_Both_Pockets.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J009_Money_in_Both_Pockets.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J009_Money_in_Both_Pockets.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

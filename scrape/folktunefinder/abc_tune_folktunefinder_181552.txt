@@ -1,0 +1,190 @@
+X:1
+T:Panis Angelicus
+C:Csar Franck
+%%header "Panis angelicus$P / 3"
+%%maxshrink 0.88
+%%continueall 1
+%%staves 1 {2 3 4 5}
+M:C
+L:1/8
+K:A
+V:1
+%%MIDI program 53
+z8|z8|z8|z8|
+V:2
+%%MIDI program 16
+A4(A2G2)|(G>F)(F4f2)|(e2dcB2c2)|(A4G)(cdB)|
+V:3
+%%MIDI program 16
+C8-|C2F4F2-|F8|E8-|
+V:4
+%%MIDI program 16
+E,4^E,4|F,8|F,6A,2|C4B,4|
+V:5
+%%MIDI program 16
+A,,8|A,,4^A,,4|B,,3C,D,2^D,2|E,8-|
+V:1
+z8|z8|z8|z8|z8|
+V:2
+(A2GFE2A2)|B4-B(cdB)|(A2GFE2Ac)|B4-B(efd)|c4-c(cec)|
+V:3
+E8-|E8-|E8|[E2G2][F2A2][G4B4]-|[G4B4][F4A4]-|
+V:4
+[A,2C2][B,2D2][C2E2][A,2C2]|[G,2B,2][E,2G,2][F,2A,2][G,2B,2]|[A,2C2][B,2D2]C2A,2|D8|\
+C8|
+V:5
+E,8-|E,8-|E,8-|E,8|^E,4F,2C,2|
+V:1
+z8|z8|z8|c4c2B2|
+w:Pa-nis an-|
+V:2
+B4-B(cdF)|(A2GFE2Ac|B3AA2)z2|A4G4|
+V:3
+[F4A4]D4|C8|[D4E4][C2E2]z2|!pp!.C.E.C.E .D.E.D.E|
+V:4
+B,4F,4|A,8|G,4A,2z2|E,8-|
+V:5
+D,4B,,4|E,8|E,4A,,2z2|(A,,4E,4)|
+%
+V:1
+B >AA2z4|c4c2B2|B >AA2z4|f4f2e2|
+w:ge-li-cus|fit pa-nis|ho-mi-num|Dat pa-nis|
+V:2
+A8|A4G4|A8|f6e2|
+V:3
+.C.E.C.E z.E.C.E|CECE DEDE|CECE zECE|zAFA FAEA|
+V:4
+E,8-|E,8|E,4A,4|D6C2|
+V:5
+(A,,4E,4)|(A,,4E,4)|A,,4A,4|A,8|
+V:1
+d3dd2c2|B3BB2A2|e8|c4c2B2|
+w:coe-li-cus fi-|gu-ris ter-mi-|num|O res mi-|
+V:2
+d6c2|B6A2|E8|E4G4|
+V:3
+zADA DACA|zEB,E B,EA,E|x2E6|CA,CA, DEDE|
+V:4
+A,8|G,6E,2-|([E,G,]E,B,E, A,E,G,E,)|E,8-|
+V:5
+F,6E,2|D,6C,2|B,,2G,,2F,,2E,,2|A,,4E,4|
+V:1
+B >AA2z4|e4e2^d2|^d >cc2z4|c4B2z2|
+w:ra-bi-lis|man-du-cat|Do-mi-num|Pau-per,|
+V:2
+A4c4-|c4^B4|c8-|c4B4|
+V:3
+CECE zECE|zEGE zFGF|zE^AE AEAE|z^D=AD !cresc!zDAD|
+V:4
+E,8|G,8|^A,8|=A,8|
+V:5
+A,,8|G,,4G,4|=G,8|F,8|
+V:1
+e4B2z2|!f!f2A Bc3A|G4z4|!p!c4G2z2|
+w:pau-per,|ser-vus et hu-mi-|lis|Pau-per,|
+V:2
+e4B4|A8|G8-|G4c4|
+V:3
+zEGE zEGE|z!f!A,^DA, FA,DA,|zG,^DG, FG,DG,|!p!zG,CG, zCEC|
+V:4
+G,8|F,8|F,8|E,8|
+V:5
+E,8|B,,8|^B,,8|C,8|
+%
+V:1
+(!cresc!=d3B)A2z2|!f!^d2e fc3d|e4z4|z8|
+w:pau -per,|ser-vus et hu-mi-|lis.||
+V:2
+B4A4-|A4A4|G4z4|(^d2efc2d2|
+V:3
+!cresc!zB=DB, zA,CA,|!f!zB,^DB, CB,DB,|z(B,EB, EGBe)|B8-|
+V:4
+^E,4F,4-|F,4E,2F,2|x8|F4E2F2|
+V:5
+C,4F,,4|B,,8|E,4-E,zz2|(B,6A,2|
+V:1
+z8|z8|z8|c4c2B2|
+w:Pa-nis an-|
+V:2
+e2fg^d2e2|f2gag2f2|e6=d2)|c2z2z4|
+V:3
+B4A2G2|A8|(G2A2^A2B2)|A.E.C.E z.E.D.E|
+V:4
+E2B,6|z2^D2C2D2|=D2C4E2|x8|
+V:5
+G,4F,2E,2|B,8-|B,2A,2^^F,2G,2|[A,,4E,4-A,4][E,4G,4]|
+V:1
+B >AA2z4|c4c2B2|!cresc!B >AA2z4|!f!f4f2e2|
+w:ge-li-cus|fit pa-nis|ho-mi-num|Dat pa-nis|
+V:2
+c4c2B2|B>AA2z4|c4c2B2|B>AA6|
+V:3
+zECE zEDE|zECE zEDE|zECE z=GCG|zFDF zF zE|
+V:4
+x8|x8|x8|A,8-|
+V:5
+[A,,4E,4-A,4][E,4G,4]|[A,,4E,4-A,4][E,4G,4]|!cresc![A,,8E,8A,8]|D,4D,2C,2|
+V:1
+d3dd2c2|B3BB2A2|e4z4|e4d2c2|
+w:coe-li-cus fi-|gu-ris ter-mi-|num|O res mi-|
+V:2
+f4f2e2|d3dd2c2|B3BB2A2|e4z4|
+V:3
+zAFA z[FA] z[EA]|zFDF zF zF|zEDE zECE|zGDG zFDF|
+V:4
+A,8|[A,6B,6][A,2C2]|G,4A,4|B,4A,4|
+V:5
+B,,6C,2|D,6^D,2|E,8-|E,8-|
+%
+V:1
+c >BB2z4|e4f2d2|c >BB2z4|
+w:ra-bi-lis|man-du-cat|Do-mi-num|
+V:2
+e4d2c2|c>BB2z4|e4f2d2|
+V:3
+zGDG zFDF|zGDG zFDF|zGDG zFDF|
+V:4
+B,4A,4|B,4A,4|B,4A,4|
+V:5
+E,8-|E,8-|E,8|
+V:1
+e4-ec BA|(d3B)c2c2-|c2B AB3c|A4z4|
+w:Pau --per,*|pau-per, ser*|-vus et hu-mi-|lis|
+V:2
+c>BB2z4|e4-ecBA|c2BAB3c|(AGAc e^de^e)|
+V:3
+zGEG zAEA|zBEB zAEA|D4zEDE|C4A4|
+V:4
+B,4A,4|B,4C4|F,4G,4|A,4x4|
+V:5
+D,4C,4|G,4A,4|E,8|A,4[E,4-A,4C4-]|
+V:1
+!ff!f4-fd cB|e3cd2d2-|d2Bdc2B A|B4-B3A|
+w:Pau --per,*|pau -per, ser|-vus ser-vus et*|hu -mi|
+V:2
+f4-fdcB|e3cd2d2-|d2Bdc2BA|B2z2z4|
+V:3
+z^AFAB2F2|zFEF zFDF|E8|(E4D3C)|
+V:4
+x8|x4B,4|G,4A,4|G,2x2x4|
+V:5
+[E,4^A,4C4][D,4B,4]|[^A,4C4]B,4|E,8|E,2z2z4|
+V:1
+A4z4|z8|z8|z8|z8|]
+w:lis.|||||
+V:2
+C2(C2E2D2|D2B,DC2B,A,|B,8)|A,2([C2E2A2][E2A2c2][A2c2e2]|[c2e2a2])z2z4|]
+V:3
+A,2A,2A,4|G,4A,4|A,4G,4|x8|x8|]
+V:4
+x8|x8|x8|x8|x8|]
+V:5
+(A,4G,2F,2|=F,2E,2A,,2C,2|D,4E,4)|A,,2A,6-|A,2z2z4|]
+S:https://www.folktunefinder.com/tunes/181552
+S:http://moinejf.free.fr/abc/panis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

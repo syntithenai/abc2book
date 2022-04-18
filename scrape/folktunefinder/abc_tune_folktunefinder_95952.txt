@@ -1,0 +1,23 @@
+X: 40
+T: Allegretto
+C: Armand Aromin
+H: 4//05
+M: 4/4
+L: 1/8
+R: 
+K: Gmaj
+(3def || g2 GA BAGF | g2 GA BAGF | GABd cBAG | F2 A2 A2 (3def |
+g2 GA BAGF | g2 GA BAGF | GABd cBAG |1 A2 d2 G2 (3def |2 A2 d2 G2 z2 :|
+F3 G A2 GF | GFGA B2 AG | A3 B c2 BA | B3 c d2 cB |
+F3 G A2 GF | GFGA B2 AG | A3 B c2 BA | G2 B2 G2 z2 :|
+S:https://www.folktunefinder.com/tunes/95952
+S:http://www.livejournal.com/users/tunebook/
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 28
+T:Redowa Polka
+M:2/4
+L:1/16
+Q:110
+Z:C.G.P
+K:G
+|:GBd2 d2d2|dedc B2B2|GAB2 GAB2|B2A2A4|ABc2 c2c2|cdcB A2A2|!
+FGA2 FGA2|A2G2G4:||:GBd2 g2d2|d2c2 cBc2|FAc2 f2e2|e2d2 d^cd2|!
+GBd2 g2d2|d2c2 cBc2|FAc2 f2e2|d2ef g4:||
+K:C
+:G2Bc BcBc|A2^cd cdcd|!B2G2 A2B2|cBce a2g2|
+G2Bc BcBc|A2^cd cdcd|B2G2 A2B2|c2c2 c4:||
+S:https://www.folktunefinder.com/tunes/184923
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/RedowaPolka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

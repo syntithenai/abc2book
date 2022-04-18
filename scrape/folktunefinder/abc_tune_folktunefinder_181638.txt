@@ -1,0 +1,25 @@
+X: 6
+T: Parsons farewell
+M: C|
+L: 1/8
+%Q: 200
+N:
+N: Playford Ball
+N: Cecil Sharp, 1911
+H: This tune was an instrumental piece known as "Bourr\'ee" in
+H: Europe in thefirst half of the 17th century.
+P: (AABB)3
+K: Dm
+|: fe | "Dm"f2d2 d2ef | "C"g2c2 c3c | "Bb"def2 e2 d2 | "Am"c2 A2 A2 :: a2 | "F"f4 f2a2 |
+| f4 f2a2 | fga2 fga2 | "C"g2e2 e4 | efg2 efg2 | "Dm"f2d2 defg | a2gf "C"ede2 | "Dm"d6 :|
+S:https://www.folktunefinder.com/tunes/181638
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/ParsonsFarewell.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

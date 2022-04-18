@@ -1,0 +1,32 @@
+X: 46
+T:Minuett Round O. TBe.046
+M:3/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+N:See notes re .  2 - last note illegible.  The only place I've found
+N:where it works as a round is A music against B music.  Does 'Round'
+N:refer to the dance  When was 'round' first used for a Frere Jacques
+N:type tune
+H:Before 1718
+Z:vmp.C. Graebe..
+K:G major
+ggg | g (f/e/)d/c/ | BBB | B (G/A/)B/c/ |\ 
+ddd |!
+ d c/B/A/G/ | ""FDF | G3 ||\
+A/B/ cc | ""c2c | B/c/ dd |!
+ d2d | ggg |""f>ga | (g/f/e>d | "2"d3 ||
+S:https://www.folktunefinder.com/tunes/96197
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

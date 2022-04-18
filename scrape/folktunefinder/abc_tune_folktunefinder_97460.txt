@@ -1,0 +1,26 @@
+X: 16
+T:Kesh Jig, The
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+Z:
+K:G
+"G"~G3 GAB|"D"~A3 ABd|"G"edd gdd|"C"edB "D"dBA|
+"G"~G3 GAB|"D"~A3 ABd|"G"edd gdB|1 "D"AGF "G"G2D:|2 "D"AGF "G"G2A||:
+"G"~B3 dBd|"C"ege dBG|"G"~B3 dBG|"D"ABA AGA|
+"G"~B3 dBd|"C"ege dBd|"G"~g3 "D"aga|1 "G"bgf g2A:|2 "G"bgf g2D|]
+S:https://www.folktunefinder.com/tunes/97460
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

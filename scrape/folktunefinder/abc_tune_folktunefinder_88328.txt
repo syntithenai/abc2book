@@ -1,0 +1,34 @@
+X:855
+T:Gentleman Hill's Quickstep
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:bar 9 of 2nd part written twice, omitted here
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001089.html
+%%ID:00001089
+K:C
+B|\
+cde efd | ceg gab | c'ba gfe | edd d2G |  \
+cde efd | ceg gab | c'ge gec | dGG G2 ::
+g |\
+gag _bag | fgf agf | efg  afd |  cBd Gef  | \
+gag _bag | fgf agf | egc' gec | (dGA Bcd) |
+cde efd  | ceg gab | c'ba gfe | edd d2G | \
+cde efd  | ceg gab | c'ge def | ecc cde |
+%
+fgf agf | efe gfe |   def GAB | ced     cde | \
+fgf agf | efe gfe | ! def gab | c'cc {d}cBc | \
+def gab | c'3 ceg |   c'3 ceg | c'cc    ccc | c3-c3 |]
+S:https://www.folktunefinder.com/tunes/88328
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

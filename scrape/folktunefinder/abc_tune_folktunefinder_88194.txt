@@ -1,0 +1,32 @@
+X:185
+T:Cuckoos Nest
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea3.html
+%%ID:00000ea3
+K:D min
+AG |\
+FEFD f2ed | cAGF B2AG | FEFD CDEC | c2G2 G2AG |\
+FEFD f2ed | cAGF B2AG | FEFD CBAG | F2D2 D2 ::
+A2 |\
+d2d2 defe | d2A2 A2AB | c2c2 cded | c2G2 G2fe |\
+dcde f2ed | cAGF B2AG | FEFD DBAG | F2D2 D2 ::
+FG |\
+AFDF AFDF | AGFE D2EF | GECE GECE | GFED C2FG |\
+AFDF AFDF | AFED f2ed | cAGF GBAG | F2D2 D2 :|
+%%newpage
+%page 13
+S:https://www.folktunefinder.com/tunes/88194
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

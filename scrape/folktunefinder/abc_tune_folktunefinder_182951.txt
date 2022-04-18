@@ -1,0 +1,34 @@
+X: 1
+N: Pointe au Pic
+N: Terry's way
+Z: John Chambers; as played by Terry Traub
+M: C|
+L: 1/8
+K: C
+P: A
+geg \
+| "C"d2c2 B2A2 | G4 zgeg  | d2c2  B2A2 | "G7"B4 zg^fg \
+|    f2 d4 c2  | B4 zg^fg | ag^fg agec |  "C"G4 zgeg |
+| "C"d2c2     B2A2 |    G4        z2^FG | "C7"c2 Bc d2 c2  | "F"F2 G2 A3 B \
+|    c2Bc "D7"d3 c | "C"e2^de "A7"a2e2 | "Dm"g2f2- "G7"fGAB | "C"c4 z2B2 ||
+P: B
+|| "Am"A3B cBcd | ea2e a2ea | ea2e a2ea | ea2e "D7"a4 \
+|   "G"G3A BGBd | gg g3 A Bd | gg g3 A Bd | g^fga g=fed |
+|  "Am"A3B     cBcd   |    ea2e      a2ea |     ea2e     a2ea | ea2e a2b2 \
+|   "F"c'2-c' "D7"c'-c'2 ef | "C"g^fga "A7"gecd | "D7"egec "G7"dc B2 | "C"c4 z |]
+P: Alternate A
+geg \
+| "C"decd BcAB | GG G3 g eg  | d2c2  B2A2 | "G7"B4 zg>^f \
+|    f2 d4 c2  | B4 zg^fg | ag^fg agec |  "C"G4 zgeg |
+| "C"decd BcAB | G4 z2^FG | "C7"c2 Bc d2 c2  | "F"F2 G2 A3 B \
+|    c>B c>d- d3 c | "C"e>^d "A7"e>a- a3 e | "Dm"g2f2- "G7"fGAB | "C"c4 z2B2 ||
+S:https://www.folktunefinder.com/tunes/182951
+S:http://terrytraub.org/abc/PointAuPicR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X: 6
+T:The Mason's Apron
+M:C|
+L:1/8
+Q:1/2=120
+R:Reel
+K:G
+B2 G2 GAGE | DEGA B2 AB | c2 A2 ABAG | FGAB cdef | g2 G2 BAGE | DEGA B2
+AB | cBcd efge | dcBA G3 A || B2 G2 GAGE | DEGA B2 AB | c2 A2 ABAG | FGA
+B cdef | g2 G2 BAGE | DEGA B2 AB | cBcd efge | dcBA G2 ||  dc | BGdB eBd
+B | GBdB edcB | cAec fcec | cAec fedc |  BGdB eBdB | GBdB edcB |  cBcd e
+fge | dcBA G2 ||  dc | BGdB eBdB | GBdB edcB | cAec fcec | cAec fedc |
+BGdB eBdB | GBdB edcB |  cBcd efge | dcBA G4 ||
+S:https://www.folktunefinder.com/tunes/174685
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/MasonsApron.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/tunes/Reel/MasonsApron.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

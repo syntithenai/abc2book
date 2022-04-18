@@ -1,0 +1,19 @@
+X:19107
+T:Xirandiya (CT 42)
+C:Trad.
+Z:Cancioneru de Torner 42
+M:2/4
+L:1/8
+Q:1/4=200
+K:D
+ c |: c ddd | c B ee | e2 d2 |1 c2 z c :|2 c4 |
+ | z AA B | c2 B2 | AAA B | c2 B2 | A2 ||
+S:https://www.folktunefinder.com/tunes/94398
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

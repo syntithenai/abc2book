@@ -1,0 +1,24 @@
+X: 1
+T:Morrison's
+M:6/8
+R:double jig
+K:E dor
+|: "Em"EEE BBB | EBB "D"AFD | "Em"EEE BBB | dcB "D"AFD |
+   "Em"EEE BBB | EBB "D"AFD | "G"G2G FGA  | "D"BAG FED :|
+[| "Em"Bee fee | aee "D"fed | "Em"Bee fef | gag "D"fed |
+   "Em"Bee fee | aee "D"fef | "G"gfe d2A  | "D"BAG FED |
+   "Em"Bee fee | aee "D"fed | "Em"Bee fef | gag "D"fed |
+    "G"ggg gfe | def g2d    | "Em"edc d2A | "D"BAG FED |]
+N:House of Ireland Beginners' Class (Dennis Buskirk and Marci Phelan)
+N:abc by Peter Ostapenko 3/14/2007
+N:E Dorian
+S:https://www.folktunefinder.com/tunes/177012
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/MorrisonsJig.abc
+% Rhythm Double jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

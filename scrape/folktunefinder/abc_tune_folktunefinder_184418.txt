@@ -1,0 +1,20 @@
+X: 1
+T: Rachel Rae
+M: C|
+L: 1/8
+K: D
+|: A 
+|"D" D2FA "A" d2Ac | "D" d2fd "A7" e2cA | "D" d2AF "Em" BAGF | "A7" EFGA "D" FDD2
+|"D" D2FA "A" d2Ac | "D" d2fd "A7" e2cA | "D" d2AF "Em" BAGF | "A7" EFGA "D" FD D:|
+|: A
+|"D" defg a2fd | "Em" g2bg "A" e2cA | "D" defg "A" a2fd | "A7" egfe "D" fddA
+|"D" defg fafd | "Em" g2bg "A" e2cA | "D" d2AF "Em" BAGF | "A" EFGA "D" FD D :||
+S:https://www.folktunefinder.com/tunes/184418
+S:http://gulfweb.net:34043/~rlwalker/abc/Tune007168.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/Tune007168.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

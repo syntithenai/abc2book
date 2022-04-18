@@ -1,0 +1,27 @@
+X:45
+T:Highway to Edinburgh
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:"For the violin"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000199.html
+%%ID:00000199
+K:E min
+D|\
+B,EE E2D| EGA B2e| dBA (G/A/B).A| GED D3|\
+B,EE E2D| EGA Bed| Bge dBA| GEE E2::
+(B/d/)|\
+"tr"e2g dBG| ABd e2g| dBA (G/A/B).A| GED D2D|\
+EGD EGD| EGA Bed| Bge dBA| GEE E2:|
+S:https://www.folktunefinder.com/tunes/95315
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

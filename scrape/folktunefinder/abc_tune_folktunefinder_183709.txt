@@ -1,0 +1,88 @@
+X:1
+%
+%%titleleft 1
+%%topmargin 1.5cm
+%%topspace 0.3cm
+%
+%%gchordfont Times-Italic 12
+%%textfont Times-Italic 12
+%
+T:Preludio detta il Bavarante
+C:Pietro Paolo Melli
+C:Libro II, fol. 30
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:FM italian7tab
+%
+%%tabaddflags 0
+%%tabfontsize 13
+%%tabrhstyle diamond
+%%tabfontitalian Borrono
+%
+%staff 1
+Q:"8 = Es"
+[bdd{a}4] | [bdda2] [a,d,e] |\
+[bdd{a}/],,,,,a,,,,,b,,,,,d ,,,,a,,,,c,,,,d,,,a |\
+[a,,c/]bd,b ,dabd |\
+f/,,ddb [da1] [dc] |\
+[dd1] [bd] [add] ,b/,a |\
+[,bd1] [bd] [a,b] [,d,d] |\
+[dd,c1] [dc] [d,da] b/a |\
+[bdd{a}1] ,,,,,a [,,d,,b] [a,,,,d/],d |\
+[,b,,a1] [,d,,c] "(1)"[a,,,d] ,b/b |\
+d1 [,,bc] [,,dd] ,d |\
+[,,bc1] ,b/,,,d ,,,f1 [,fg] |\
+,d1 [d,f] [,fg] f |\
+[,df1] d/,,g [d,da1] b/a |\
+"(2)"[bdd{a}1] ,,,,,a ,,,,,b "(3)"(,,,d//,,,c,,,a) ,,,,d |\
+,,,a1 ,,d ,,,,,a "(3)",a// (,,d,,b,,a) |\
+,,b1 ,c {a} "(3)",,d//,,b,,a ,,,c |\
+,,,a/,,d,,b,a ,,d,b,a,d |\
+,b/,,b,,a,,b ,,,c,,,d,,,a,,,c |\
+,,,,d/fbd ab,da |\
+,b/,,,a,,,,b,,,,d ,,,,a,,,,b,,,,,d,,,,a |\
+,,,,,b/a,bb ,ddaf |\
+b/,,,,b,,,,,d,,,,a ,,,,,b,,,,,d,,,,,a,,,,,b |\
+{a}/ l ,,,d i g,,if,,g |\
+,,e/d,,g,,e ,,,adba |\
+b/,,da,,b ,,,dba,d |\
+,b/,,,c,a,,,a ,,,,d,,d,,,,b,,,,a |\
+,,,,b/,,d,,b,d ,,,,a,d,b,a |\
+,b/,,da,,b ,,,d,d,,,c,,,a |\
+,,,c/cd,c [c,da1] [d,ea] |\
+{a}/,d,b,a ,,d,,b,,a,,,c |\
+,,,,a/,,d,a,b ,dabd |\
+f/,,,,,b,,,,,d,,,,a ,,,,b,,,,d,,,a,,,c |\
+,,,d/,,d,,b,,,d ,,,c,,,a,,,,d,,,,b |\
+,,,,a/,,b,,d,a ,b,dab |\
+d/,,,,,d,,,,a,,,,b ,,,,d,,,a,,,c,,,d |\
+,,b/,,,d,,,c,,,a ,,,,d,,,,b,,,,a,,,,,d |\
+,,,,,b/,,a,,b,,d ,a,b,da |\
+b/,,,,a,,,,b,,,,d ,,,a,,,c,,,d,,b |\
+,,d/,,,,a,,,,,d,,,,,b ,,,,,a{a}{8}{9} |\
+{10}/,,d,a,b ,dab,d |\
+[a,,,a/] ,,d,,b,,,d ,,,,a,,,c,,,d,,,a |\
+{10}/abd fb,dd |\
+,,,,a/a,cb ,d,,,d,,,a,a |\
+{10}/,c,,d,,b ,,,d,d [,d,ca],,,a |\
+[,cdca1] [bd{10}2] "(3)"(d//ba) ,d |\
+a1 ,,,,a/,c ,,b1 "(3)"(,,d//,,b,,a) ,,,c |\
+T[,daaa{a}4] |]
+%
+%%vskip 5mm
+%%begintext
+%%Notes:
+%%(1) soprano note with next note permutated in original
+%%(2) upper three notes one course too low in original
+%%(3) two duplet ties in original
+%%endtext
+S:https://www.folktunefinder.com/tunes/183709
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Melli/melli_II_f30.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Melli/melli_II_f30.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

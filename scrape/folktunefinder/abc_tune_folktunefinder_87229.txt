@@ -1,0 +1,44 @@
+X: 9144
+T: Roxbury Races (with piano acc.)
+C: BB
+R: polka
+M: 2/4
+Q: 300
+L: 1/8
+V: 1 program 1 105 %banjo
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] "Em"Be ed|"G"B>d BG|"Em"Be ed|"C"e>f "G"g2|"Em"Be ed|"G"B>d BA|"C"GE "D"DF|1\
+"G"G2 GA :|2 "G"G2 G2 ||
+[V:2] [E,4G4B,4]|[G,,4B,4D,4]|[E,4G4B,4]|[C,2E2G,2][G,,2B,2D,2]|[E,4G4B,4]|[G,4B4D4]|\
+[C,2E2G,2][D,2F2A,2]|1 [G,,4B,4D,4]:|2 [G,,4B,4D,4]||
+%
+[V:1] "Em"B>G EG | "D"A>F DF | "Em"B>G EG | "D"FA d2 |1 "Em"B>G EG | "D"A>F DF |
+[V:2] [E,4G4B,4]|[D,4F4A,4]|[E,4G4B,4]|[D,4F4A,4]|1 [E,4G4B,4]|[D,4F4A,4]|
+%
+[V:1] "C"GE "D"DF | "G"G2 GA :|2 "Em"B>G EG | "D7"A>F DC | "G"B,D "D"EF | "G"G2 G2 ||
+[V:2] [C,2E2G,2][D,2F2A,2]|[G,,4B,4D,4]:|2 [E,4G4B,4]|[D,4F4A,4C4]|[G,,2B,2D,2][D,2F2A,2]|\
+[G,2B2D2] G,,2||
+%%%%%%%%%%tune repeat
+[V:1] "Em"Be ed|"G"B>d BG|"Em"Be ed|"C"e>f "G"g2|"Em"Be ed|"G"B>d BA|"C"GE "D"DF|1\
+"G"G2 GA :|2 "G"G2 G2 ||
+[V:2] [E,4G4B,4]|[G,,4B,4D,4]|[E,4G4B,4]|[C,2E2G,2][G,,2B,2D,2]|[E,4G4B,4]|[G,4B4D4]|\
+[C,2E2G,2][D,2F2A,2]|1 [G,,4B,4D,4]:|2 [G,,4B,4D,4]||
+%
+[V:1] "Em"B>G EG | "D"A>F DF | "Em"B>G EG | "D"FA d2 |1 "Em"B>G EG | "D"A>F DF |
+[V:2] [E,4G4B,4]|[D,4F4A,4]|[E,4G4B,4]|[D,4F4A,4]|1 [E,4G4B,4]|[D,4F4A,4]|
+%
+[V:1] "C"GE "D"DF | "G"G2 GA :|2 "Em"B>G EG | "D7"A>F DC | "G"B,D "D"EF |"G"G2 G2-|G4||
+[V:2] [C,2E2G,2][D,2F2A,2]|[G,,4B,4D,4]:|2 [E,4G4B,4]|[D,4F4A,4C4]|[G,,2B,2D,2][D,2F2A,2]|\
+[G,,4-D,4-B,4-]|[G,,4D,4B,4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87229
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

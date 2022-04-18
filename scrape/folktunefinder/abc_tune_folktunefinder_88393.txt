@@ -1,0 +1,28 @@
+X:1180
+T:Macantosh Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%RRN:I'm not convinced the C should be sharp, but that seems to be what's written.
+%%RRN:check the keysig for yourself.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000060e.html
+%%ID:0000060e
+K:G lydian
+D2G2 BABG | AcBd cBAG | D2G2 BABG | AcBd c2g2 |
+D2G2 BABG | AcBd c2BA | BdcB AcBA | BGAF G4 ::
+efgd Bdg2 | G2FG ABA2 | (ef)(gf) (ef)g2 | G2FG ABA2 |
+efgd BdeG | FGAB c2BA | BdcB AcBA | BGAF G4 :|
+S:https://www.folktunefinder.com/tunes/88393
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

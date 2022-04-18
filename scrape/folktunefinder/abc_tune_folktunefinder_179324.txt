@@ -1,0 +1,29 @@
+X: 1
+T: A oanzigs Hendl
+R: zwiefacher
+M: 23/44
+L: 1/8
+K: C
+|: [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [E2c2] \
+| "G7"([D2B2][F2d2]) | "C"[e2G2] z2 [c2E2] \
+| "G7"([D2B2][F2d2]) | "C"([E2c2] [Ge])z [g2c2] \
+| "G7"([B2f2][F2B2]) | "C"[c2E2] z2 :|
+|: [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"[G2e2] z2 [g2c2] \
+| "G7"([B2f2][F2d2]) | "C"([G2e2] [E2c2])z [G2e2] \
+| "G7"([F2d2][D2B2]) | "C"[c2E2] z2 :|
+S:https://www.folktunefinder.com/tunes/179324
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/AOanzigsHendl_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/OanzigsHendl_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/AOanzigsHendl_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/OanzigsHendl_C.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Morrison's Jig
+R: jig
+Z: 2000 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: EDor
+|: "Em"~E3 BEB |    EBE "D"AFD | "Em"~E3    BEB | "D"dcB    AFD \
+|  "Em"~E3 BEB |    EBE "D"AFD |  "G"~G3 "D"FGA | "D"dAG    FED :|
+[| "Em"Bee fee |    aee "D"fed | "Em"Bee    fee | "D"a2g    fed \
+|  "Em"Bee fee |    aee "D"fef |  "G"gfe "D"d2A | "G"BAG "D"FED |]
+[| "Em"Bee fee |    aee "D"fed | "Em"Bee    fee | "D"faf    def \
+|  "G"~g3  gfe | "D"def "G"g2d | "Em"edc "D"d2A | "G"BAG "D"FED |]
+S:https://www.folktunefinder.com/tunes/177029
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MorissonsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/jig/MorrisonsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

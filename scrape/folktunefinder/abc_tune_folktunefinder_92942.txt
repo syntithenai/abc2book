@@ -1,0 +1,25 @@
+X: 141
+T: Mingulay Boat Song
+M:3/4
+R:waltz
+L:1/8
+Z:Alf Warnock - alf0@rogers.com - www.alfwarnock.info/alfs
+K:C
+%%text Chorus
+G4 A2| "C"c6| c6| g4 e2| e4 d2| c6| g4 e2| "G7"d6| d4 c2|
+e2 d2 c2| "F"A6| A6| "G7"G4 A2| "C"c6| c6| g4 e2| e4 d2|
+c6| g4 e2| "G7"d6| d4 c2| "G13"e4 d2| "F"c6-|c6|"C"z6||
+%%text Verse
+"G7"G4 A2| "C"c6| c6| "G7"d2 c2 d2| "C"e6| "G7"G6| G4 A2| "C"c6|
+"Am"c6| "G7"d2 c2 d2| "C"e6| "G"d6| "E7"e4 d2| "Am"c6| c6| "G7"d2 c2 d2|
+"C"e6| G6| "G7"G4 A2| "C"c6| G4 e2| "G7"d4 c2| "C"c6-|c6|]
+S:https://www.folktunefinder.com/tunes/92942
+S:http://www.alfwarnock.info/alfs/abc/accw02.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

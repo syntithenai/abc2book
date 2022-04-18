@@ -1,0 +1,25 @@
+X:230
+T: Drumbeggil
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+K: G
+D|"G"G2 FG "Am"AB c2|"Em"B2 AB "C"cd e2|"G"gddg "Am"eccA|"C"(3Bcd cA "D"GFED|
+"G"GBdA "C"Ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB| "D7"cAFA "G"G3 :|
+d|"G"gdBc dc B2 |"Am7"abag "D"fd (3dcd|"C"c2 EF "G"GABc|"D"defd "Em"gfed|
+"G"gddg "C"ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB| "D"cAFA "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86455
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

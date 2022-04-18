@@ -1,0 +1,18 @@
+X:1
+T:Peg and Awl
+M:4/4
+L:1/4
+K:G
+ D E/2 G/2-| G/2G/2 B A G| G/2- E3/2 B ^A/2 B/2-| B4| z2 d B/2| d/2-|\
+ d/2B/2 d d e| B/2- G3/2 d B/2 d/2-| d4| z2 d d/2| e/2-| e/2d/2 e d B|\
+ B/2- G3/2 A G| B d B A| G/2- E3/2 B B/2| d/2-| d B/2 d3/2 B/2 d/2-|\
+ d B/2 d3/2 B/2| B/2-| B4-| D2||
+S:https://www.folktunefinder.com/tunes/182003
+S:http://back.numachi.com:8000/dtrad/abc/PEGNAWL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

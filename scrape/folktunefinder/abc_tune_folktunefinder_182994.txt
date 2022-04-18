@@ -1,0 +1,28 @@
+X:1
+T:Polka
+C:traditionell
+A:Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:Alte Notenhandschrift in Privatbesitz
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+gg/c'/ e2 | ee/g/ c2 | D>G GG | ce g2 |
+gg/c'/ e2 | ee/g/ c2 | D>G GG | ce c2 :|
+|:\
+G>G AB | cG G2 | g2 d2 | eg c2 |
+G>G AB | cG G2 | g>d de | c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182994
+S:http://simonwascher.info/TradArchiv_polka/polka.G3GG2G2A4A2c2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:1
+T:Lass of Richmond Hill
+M:4/4
+L:1/4
+C:James Hood
+S:John Clare,Poet,Helpston. (1793-1864)
+R:Air
+%O:England
+A:Northamptonshire
+N:
+Z:vmp.P. Headford
+P:A.(A2BC).(A2BD)3.A
+Q:144
+K:G
+"A"[|] D |: D G G B | A/G/F/G/ Ac |1 B/A/ G G B | A/G/F/E/ D D :|2\
+B/A/ G A/G/ F | G2 G "B"||
+G | FEDG | FEDG | F/G/A/B/ cB | B2 AG | FEDG | FD d2 |
+B/A/ G A/G/ F | G2 GD | DGGB | B3 G | FAAc | c3 "C"||
+c | BAGF | GEDC | B,/D/ GGF | G2 G "D"||
+c | B2 A2 | G2 F2 | G2 E2 | D2 C2 | B,/D/ GGF | G2 G |]
+S:https://www.folktunefinder.com/tunes/171476
+S:http://www.mit.edu/~jcb/Red_Herring/dances/lass-of-richmond-hill.abc
+S:http://www.mit.edu/%7Ejcb/Red_Herring/dances/lass-of-richmond-hill.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

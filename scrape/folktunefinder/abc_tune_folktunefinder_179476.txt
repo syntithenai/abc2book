@@ -1,0 +1,29 @@
+X: 1
+T: Od lo ahavti dai
+C: Naomi Shemer
+M: C
+L: 1/8
+%%indent 100
+K: Em
+G| "Em"GG GG GG zG \
+| "Bm"FF FF "C"E2 zE/F/ \
+| "Em"GG GG GG zG \
+| "D"AD DD "G"B2 zB |
+| "E7"BB BB "Am"c2 BB \
+| "D7"AA dd "G"B2 "Bm"zB/A/ \
+| "C"GG GG "Am"A2 GG \
+| "Bm"FF BB "Em"E2 "D7"z2 ||
+|| "G"B6 A/G/ "D"A2 zD \
+| "Em"GG GF/E/ "Bm"F2 zB, \
+| "C"EE EE "G"D2 G2 \
+|1 "D7"A2 GA "G"B2 z2 \
+:|2 "Am"FE "B7"F2 "Em"E4 |]
+S:https://www.folktunefinder.com/tunes/179476
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/OdLoAhavtiDai_Em.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/OdLoAhavtiDai_Em.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

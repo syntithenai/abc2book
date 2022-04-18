@@ -1,0 +1,31 @@
+X: 1
+T:Linus p\aa{} Linjen
+R:Polska
+O:Sweden
+N:Transcribed by Geoff Bowen.
+N:This collection is being typed up on a Linux system. Just thought I'd me
+N:ion that ...
+M:3/4
+A:Uppland
+K:G
+((vD|\
+D/)G/B) (uB<d) vB>G| (D/G/B) (B<d) B>G|\
+(D/F/A) (A<c) A>F| (D/F/A) (A<c) A>F|
+(vD/G/B) (B<d) B>G| (D/G/B) (B<d) B>G|\
+(D/F/A) (A<c) A>F| (F<G) uG3:|
+|:(vB|\
+(3:2:4d2)d2B/d3/ vc>e| (ve<d) (uB<d) ug>e|\
+(3:2:4d2B3A/B/ c>A| (vA<G) (uB<G) vD>B|
+(3:2:4d2d2B/d3/ vc>e| (ve<d) (uB<d) vg>e|\
+(3:2:4d2B3A/B/ c>A\
+|1 (A<G) {F}uG3 :|2 (A/G/F) ~G3 |]
+S:https://www.folktunefinder.com/tunes/172324
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/li/Linus_paa_Linjen_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

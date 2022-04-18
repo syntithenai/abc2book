@@ -1,0 +1,22 @@
+X:1
+T:The Pine Barrens Song
+M:4/4
+L:1/4
+K:C
+ G| e e d c| e e d- c| G G A ^A| B3 G| f f e d| f f e d/2d/2| c c c d|\
+ e3| e| g g f e| g/2g/2 f e2| F F G ^G| A3 A| d d d d| e e d c| f f e d|\
+ c4-| c4| e e d c|
+M:3/4
+ d c2|
+M:4/4
+ G G A ^A| B3 G| f f e d| f f e2| z c d d| e3 c| g g f2| g g f e/2e/2|\
+ c F F F| A3 A/2A/2| B B d d| f3 f/2f/2| f2 e d| c4-| c4|
+S:https://www.folktunefinder.com/tunes/182502
+S:http://back.numachi.com:8000/dtrad/abc/PINEBARN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

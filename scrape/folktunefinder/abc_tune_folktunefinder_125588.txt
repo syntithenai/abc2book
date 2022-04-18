@@ -1,0 +1,25 @@
+X:62
+T:Paddy O'Rafferty
+R:jig
+H:Different version i G, see #318
+H:There is also a 5-part version in A. See Bernie Stocks' book2.abc, #56
+D:Oisin: Over the Moor to Maggie
+Z:id:hn-jig-62
+M:6/8
+K:D
+dff cee|def gfe|dff cee|dfe dBA|dff cee|def ~g3|faf gfe|1 dfe dBA:|2 dfe dcB||
+|:~A3 B2f|gfe fdB|AFA ~B3|dfe dcB|~A3 ~B3|efe efg|faf gfe|1 dfe dcB:|2 dfe dBA||
+|:fAA eAA|def gfe|fAA eAA|dfe dBA|fAA eAA|def ~g3|faf gfe|dfe dBA:|
+S:https://www.folktunefinder.com/tunes/125588
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnj0.abc
+S:http://www.norbeck.nu/abc/i/hnj0.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has history text
+% Has_accompaniment_chords No chords

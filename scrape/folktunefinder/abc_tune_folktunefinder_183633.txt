@@ -1,0 +1,26 @@
+X:1
+T:Poul Peisen
+R:Sonderhoning
+Z:from photocopy
+M:3/4
+L:1/16
+Q:80
+K:D
+|: "D"A3(d "A"cd)ec  "D"d2A2     | "D"f3(f   "A"ef)ge "D"f2d2 \
+|  "D"a3(a "Em"g3)(g "D"f3)(f      | "A"ef)ec  "D"d2AA "(A)"(F2A2) |
+|  "D"d3(d "A"c)dec  "D"d2A2     | "D"f3(f   "A"e)fge "D"f2d2 \
+|  "A"a3(a "A#-"g3)(g "Bm"f3)(f    | "A7"ef)ec "D"d4  [D4d4]  :|
+|: "A"a3g "D"f2f2 "D"f2f2      | "D"fage "D"f2ef "A"e4 \
+|  "F#m"f3e "Bm"d2d2 "Bm"d4 | "E"e3d "A"c2c2 "A"c2A2 |
+|  "D"A3(d "A"cd)ec  "D"d2A2     | "D"f3(f   "A"ef)ge "D"f2d2 \
+|  "D"a3(a "A/B"g3)(g "D"f3)(f      | "A"ef)ec  "D"d4   d4   :|
+S:https://www.folktunefinder.com/tunes/183633
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PoulPeisen.abc
+% Rhythm Sonderhoning
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

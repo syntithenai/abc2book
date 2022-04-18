@@ -1,0 +1,29 @@
+X: 9
+T:Coleman's Jig
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+N:
+Z:
+K:D
+"D"fdB BAF|Adf afd|"G"~g3 ~f3|"A"fed ede|
+"D"fdB BAF|Adf afd|"G"~g3 ~f3
+|1 "A"edc "D"d2e:|2 "A"edc "D"dcB||:
+"D"Add dcB|AFD DFA|"A"Bee e2d|cAA ABc|
+"D"dfd "A"cec|"G"(3Bcd B "D"ABc|"G"dAF "D"EDE
+|1 "A"FDD "D"D2B:|2 "A"FDD "D"D2e |]
+S:https://www.folktunefinder.com/tunes/97453
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+S:http://oflahertyretreat.org/documents/musicdocs/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

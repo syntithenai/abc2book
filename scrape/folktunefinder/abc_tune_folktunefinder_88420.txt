@@ -1,0 +1,27 @@
+X:1315
+T:Pad the Ra Sir
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+N:VMP gives title as "Pad the Road, Sir". Which might be, I can't see it clearly
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001205.html
+%%ID:00001205
+K:C
+c3c | c3c c2c2 | f2d2 c2d2 | B2G4 d2 | e2edef g2 | c2g2 f2d2 | B2c2 d4 ||
+d2e2 edef | g2e2 c2g2 | f2d2 B2G2 | e4 def(g | \
+d)(ec)B AG F2 | G2G2 A2B2 | c4 :|
+%%newpage
+%page 108
+S:https://www.folktunefinder.com/tunes/88420
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

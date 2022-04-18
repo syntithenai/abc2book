@@ -1,0 +1,26 @@
+X:1
+T:La Montarde
+C:Bransle Renaissance, abc file by Bernard Loffet
+L:1/8
+Q:230
+M:2/4
+K:C
+[AD,]B[cD,][AD,]|[^cD,]B[=cD,][AD,]|[AD,]A/A/[AD,][AD,]|[GC,]F[EC,][DC,]|[AD,]B[cD,][AD,]|[^cD,]B[=cD,][AD,]|[GC,]A/G/[FG,][EC,]| \
+[DC,]C[D2D,2]|[AD,]B[cD,][AD,]|[^cD,]B[=cD,][AD,]|[AD,]A/A/[AD,][AD,]|[GC,]F[EC,][DC,]|[AD,]B[cD,][AD,]|[^cD,]B[=cD,][AD,]|[GC,]A/G/[FG,][EC,]| \
+[DC,]E/C/[D2D,2]|:[^cD,D]c/c/[=cD,D]B|[cD,D]A[G2G,2G,2]|[BG,G,]B/B/[BG,G,]B|[cD,D]A[G2G,2G,2]|[BG,G,]B/B/[BG,G,]B|[cD,D]A[G2G,2G,2]:| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/176724
+S:http://diato.ifrance.com/diato/tablat/82.abc
+S:http://diato.ifrance.com/tablat/82.abc
+S:http://diato.org/tablat/82.abc
+S:http://perso.orange.fr/diato/tablat/82.abc
+S:http://perso.wanadoo.fr/diato/tablat/82.abc
+S:http://pro.wanadoo.fr/diato/tablat/82.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/82.abc
+S:http://www.diatonique.net/tablat/82.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

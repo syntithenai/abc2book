@@ -1,0 +1,24 @@
+X:120
+T: Music at McGurk's
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: G
+"Em"E2 GA BAGA|"G"Bd (3d^cd "C"eg (3gfg|"Em"eB (3BAB "G"dBGB|"Am"AGAB "D"AGFD|
+"Em"E2 GA BAGA|"G"Bd (3d^cd "Am"efga|"G"bgaf gfed|"Bm7"BdAF "Em"E4 :|
+"G"G2 DG BAGF|"Em"EB, (3B,A,B, "Am"A,CEF|"G"G2 BG "Bm"Bd (3d^cd|"Em"ecdB "D"cBAF|
+"G"G2 DG BAGF|"Em"EB, (3B,A,B, "Am"A,CEF|"G"GB "D"AF "G"GBdg|"C"ec "D"AF "G"G4 :|
+S:https://www.folktunefinder.com/tunes/93692
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

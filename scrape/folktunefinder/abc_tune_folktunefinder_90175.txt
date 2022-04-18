@@ -1,0 +1,45 @@
+X:23
+T:Branle coup
+C:
+N:Pour la squence Wallonie
+R:Branle coup
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/2
+L:1/8
+K:G
+%%continueall 1
+V:1
+B3A G2d2|c2B2A2G2|GA B2A2G2|GA B2GA B2|
+GA B2A2G2|B3A G2d2|c2B2A2G2|G2^F2G4:|
+|:d4e3d|c2B2A2G2|GA B2A2G2|GA B2GA B2|GA B2A2G2|d4e3d|c2B2A2G2|G2^F2G4:|
+V:2
+G3F E2D2|F2G2E4|DCDE F2D2|G3B G2G2|G2G2F2D2|G3F E2D2|F2G2E2C2|D2D2B,4:|
+|:D2D2G2E2|F2G2E4|DCDE F2D2|G3G G2G2|G2G2F2D2|D2D2G2E2|F2G2E2C2|D2D2D4:|
+V:3
+G3G G2G2|A2B2c4|B3c d2B2|Bc d2Bc d2|Bc d2d2B2|G3G G2G2|A2B2cBAG|A4G4:|
+|:B3A G2G2|A2B2c4|B3c d2B2|Bc d2Bc d2|
+Bc d2d2B2|B3A G2G2|A2B2cBAG|A2A2G4:|
+V:4
+K:G Bass
+G,,3G,, C,2B,,2|A,,2G,,2C,D,E,F,|G,4D,2G,,2|
+G,,3G,, G,,2G,,2|G,,2G,,2D,2G,,2|
+G,,3G,, C,2B,,2|A,,2G,,2C,2E,2|D,2D,2G,,4:|
+|:G,3F, E,D,C,B,,|A,,2G,,2C,D,E,F,|G,4D,2G,,2|
+G,,3G,, G,,2G,,2|G,,2G,,2D,2G,,2|
+G,3F, E,D,C,B,,|A,,2G,,2C,2E,2|D,2D,2G,,4:|
+%%footer $D   Galouvielle-MBe 2007 \nBranle Renaissance (--)
+S:https://www.folktunefinder.com/tunes/90175
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Branle coup
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

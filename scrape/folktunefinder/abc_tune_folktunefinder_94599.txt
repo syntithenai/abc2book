@@ -1,0 +1,26 @@
+X:001
+U: ~ = !turn!
+%%topmargin 3cm
+T:Alf Edwards Single Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Alf Edwards
+R:Jig
+L:1/8
+M:6/8
+K:Bb
+F | B2 f b2 d | c2 B G2 d | B2 f d2 g | c2f/2e/2 f2 ::
+f | d2 B c2 G | F2 d e2 g | f2 d fga | [1 bfd c2 :| [2 bfd [F2B2] |]
+S:https://www.folktunefinder.com/tunes/94599
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Alf_Edwards_Single_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Alf_Edwards_Single_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

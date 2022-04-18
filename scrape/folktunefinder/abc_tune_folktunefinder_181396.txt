@@ -1,0 +1,26 @@
+X:1516
+T:"Paddy's Surprise"   (reel)     1516
+C:after Chief  F. O'Neill
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:G
+(3(DEF)|G2(BA) GABc|dBec dBAB|G2(BA) GABc|dcAB GFED|
+G2(BA) GABc|dBec d2 (3(def)|gfge dBge|dBAB G2||
+(3(def)|gfgd edBd|gabg agef|gfgd edBd|cABG AGEG|
+gfgd edBd|gabg agef|gfge dBge|dBAB G2|]
+S:https://www.folktunefinder.com/tunes/181396
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1501-1600/1516-PaddysSuprize.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1501-1600/1516-PaddysSuprize.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

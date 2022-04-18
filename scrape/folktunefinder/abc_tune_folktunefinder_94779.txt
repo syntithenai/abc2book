@@ -1,0 +1,28 @@
+X:183
+U: ~ = !turn!
+%%topmargin 3cm
+T:Sean McGuire's Dream
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+C:Jack Perron
+R:Reel
+L:1/8
+M:C|
+K:Bb
+dc | BF{/G}FE FEDE | FB{/c}BA Bcde | fB ~B2 fBbg | fB ~B2 cAFE |
+DF (3.F.F.F BDFB | cEAc dFcF | Be (3.e.e.e cAFA |BdcA B2 ::
+cd | ec ~c2 Gced | ~c2 Bc egfe | dB ~B2 FBDB | DFBc ((3dcB) cd |
+ec ~c2 Gced | ~c2 GB dcBc | ((3dcB) ((3cBA) PBAGF | GB{/c}BA B2 :|]
+S:https://www.folktunefinder.com/tunes/94779
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Sean_McGuires_Dream_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Sean_McGuires_Dream_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

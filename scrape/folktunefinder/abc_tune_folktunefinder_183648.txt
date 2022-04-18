@@ -1,0 +1,84 @@
+X:1231
+T:Praeambulum
+T:(Prelude) BWV 927
+C:Johann Sebastian Bach
+O:Germany
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+N:Bar 14: First chord arpeggio.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0927/bwv0927.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:C
+L:1/16
+K:F
+V:1
+zcAc FcAc FdBd FdBd|x8x4 F xx2|
+V:2
+x16|GeBe GeBe fcAc x4|
+V:3
+A,2C2A,2C2 z2D2B,2D2|z2G,2B,2G,2A,4zCA,C|
+V:4
+F,2F,2F,2F,2 z2F,2F,2F,2|z2F,2F,2F,2F,4z4|
+%
+V:1
+z2f2f2f2 z2f2f2f2|z2g2b2g2[f4a4]z4|
+V:2
+z2c2A2c2 z2d2B2d2|z2e2e2e2c4z4|
+V:3
+x16|x8x4 F,C,A,,C,|
+V:4
+F,CA,C F,CA,C F,DB,D F,DB,D|G,EB,E G,EB,E FCA,C x4| 
+%
+V:1
+x16|x16|Fdcd GdBd GcBc FcAc|
+V:2
+zafa cafa cgfg cgeg|Afef Afdf Aede Aece|x16|
+V:3
+F,,2G,,2A,,2B,,2 C,2D,2E,2C,2|x16|x16|
+V:4
+x16|D,2E,2F,2G,2 A,2B,2C2A,2|B,2A,2G,2F,2 E,2C,2F,2E,2|
+%
+V:1
+FBAB CBGB CAFA CAFA|DAFA DFAc DBGB DBGB|
+V:2
+x16|x16|
+V:3
+x8 F,C,A,,C, F,,A,,C,F,|x8x4 G,,B,,D,G,|
+V:4
+D,2G,2E,2C,2 x8|B,,2B,2 z2A,2 G,D,B,,D, x4|
+%
+V:1
+EBGB EGBd FcAc fcAF|zBGB eBGE zAFA dAFD|zGEG cGEC zFDF GABD|
+V:2
+x16|x16|x16|
+V:3
+x16|x16|E,2C,2E,2C,2 D,2C,2B,,2G,,2|
+V:4
+C,2C2z2B,2 A,2C,2A,2C,2|G,2C,2G,2C,2 F,2C,2F,2C,2|x16|
+%
+V:1
+GABE FGAC DFAc BAGB|x8 b4z2a2|zg zf zf ze f8|]
+V:2
+x16|dfed cegb [c4e4g4]z2[c2f2]|BeAd GcGB [F8A8c8]|]
+V:3
+x16|z8E,,4z2F,,2|D,2B,,2C,2C,,2F,,8|]
+V:4
+E,2C,2A,2F,2B,4z4|x16|x16|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183648
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0927/bwv0927.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0927/bwv0927.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0927/bwv0927.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

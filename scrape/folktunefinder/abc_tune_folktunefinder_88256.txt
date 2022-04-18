@@ -1,0 +1,35 @@
+X:495
+T:Macantosh
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%RRN:"the Old way a good way of playing it"
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000615.html
+%%ID:00000615
+K:G
+D2 |\
+G2G2 B2AG | c2c2 c2BA | G2G2 B2AG | A3B A2g2 |\
+G2G2 B2AG | c2c2 dcBA | B2g2 A2f2 | G3A G2 ::
+D2 |\
+GABG BcdB | cdec BcdB | A3B A2g2 | \
+GABG BcdB | B2g2 A2f2 | G3A G2 ::
+e2 |\
+dBGB dBGB | c2A2 A2e2 | dBGB dBGB | A3B A2e2 |\
+dBGB dBGB | c2A2 A2e2 | B2g2 A2f2 | G3A G2 :|
+%%text some bars missing in 2nd part  try :-
+%%scale .5
+D2 |\
+GABG BcdB | cdec BcdB | GABG BcdB | A3B A2g2 |\
+GABG BcdB | c2c2 dcBA | B2g2 A2f2 | G3A G2 ::
+S:https://www.folktunefinder.com/tunes/88256
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

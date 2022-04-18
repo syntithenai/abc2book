@@ -43,6 +43,8 @@
     
     <div style="position: fixed;  left: 0; height: 1em"  id="editoraudio"></div>
     <div id="wizards" class="overlay" style="position: relative; left: 13em; top: -8em; width: 30em" >
+        <button id="fixnotesbangbutton" >Auto Fix</button>
+        <button id="fixnotesbutton" >4 bar layout</button>
         <button id="halvenotelengthsbutton" >Halve note lengths</button>
         <button id="doublenotelengthsbutton" >Double note lengths</button>
     </div>
@@ -77,7 +79,13 @@
       <button  onClick="submitNewSetting()" style="margin-right: 0.2em" id="newsettingbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>New Setting</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h20v2H2v-2zm0-7h20v2H2V4zm16 14v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"/></svg></button>
       
       <button  onClick="submitNewTune()" style="margin-right: 0.2em" id="newtunebutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>New Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M15 4H5v16h14V8h-4V4zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992zM11 11V8h2v3h3v2h-3v3h-2v-3H8v-2h3z"/></svg></button>
+      
+      <button  id="closeeditorbutton"  style="margin-right: 0.2em"  ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="image" class="button"  ><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg></button>
+      
+      
     </div>
+    
+    
     
   </div>    
     
@@ -207,8 +215,8 @@
       <button style="margin-right: 1em; float: left"  id="songlistpickerbutton" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button"><title>Select a curated list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M2 18h10v2H2v-2zm0-7h14v2H2v-2zm0-7h20v2H2V4zm17 11.17V9h5v2h-3v7a3 3 0 1 1-2-2.83z"/></svg></button>
       
       <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
-       
-       
+      
+      <button style="margin-right: 0.2em; float: left"   onClick="resetTunebook(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Delete all tunes</title><path fill="none" d="M0 0h24v24H0z"/><path d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"/></svg></button>
       
     </div>
 
@@ -306,7 +314,7 @@
     <ul>
       <li>Search and import tunes from thesession.org.</li>
       <li>Simplify submission of updates and new tunes to thesession.org.</li>
-      <li>Edit tunes with immediate visual feedback and audio support.</li>
+      <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
       <li>Generate a clickable index of all the tunes in a book</li>
       <li>Generate a cheatsheet showing the first 4 bars of all the tunes in the book.</li>
       <li>Print a paginated book including the index, cheatsheet and music.</li>
@@ -325,13 +333,14 @@
         <li><b>My review list items disappeared. Help.</b></li>
         <li>
           <i>Be sure to save/download your tunebook information as a file</i> that can be imported again later.<br/>
-          When you load a new playlist, the old tunebook and all the review confidence information is lost.
+          When you load a new tunebook, the old tunebook and all the review confidence information is lost.
           This website does not offer any online storage, instead tools to import/export a tunebook as a file for moving user data between devices.
-          If you make changes to tunes, this website offers tool to simplify saving the changes on thesession.org.
+          If you make changes to tunes, this website offers tools to simplify saving the changes on thesession.org.
         </li>
         <li><b>When I upload a tune to the session, the rhythm gets messed up.</b></li>
-        <li>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/>
-        At this stage, it's manual editing in the ABC to fix the timing to be suitable for upload. Parsing and manipulating the abc notation format is not so algorithm friendly.
+        <li>Edit the tune and use the wizard tools to double or halve the note durations.
+        <br/>When submitting or updating a setting of a tune to the session, the ABC headers for note length are ignored in favor of the note length that was set when the tune was created. If the note length of the tune on thesession.org is 1/4 and your abc uses 1/8, all the notes will be half their expected lengths :(  <br/>
+        
         </li>
     </ul>
     <br/><br/><br/>
@@ -347,7 +356,7 @@
     <div id="helptext" style="font-weight: bold;  margin-right: 2em">Type a list of tunes from <a target='sessionwin'  href="http://thesession.org" >thesession.org</a> and click <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></div>
     <div id="errors" style="display: none" ></div>
     <div id="songlistbutton" style="float: left; position: relative; clear both;" >
-      <button id="generatebutton" style="float: left ; clear: both;  margin-right: 1em" type='button' onClick="generateMusic()"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Load and generate music from list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></button>
+      <button id="generatebutton" style="min-width: 8em; float: left ; clear: both;  margin-right: 1em" type='button' onClick="generateMusic()"  ><svg  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Load and generate music from list</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13 10h5l-6 6-6-6h5V3h2v7zm-9 9h16v-7h2v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-8h2v7z"/></svg></button>
       <button id="stopbutton" style="display: none; float: left ;margin-right: 0.2em" type='button' onClick="setStopNow(true)"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Loading</title><path fill="none" d="M0 0h24v24H0z"/><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-9.414l2.828-2.829 1.415 1.415L13.414 12l2.829 2.828-1.415 1.415L12 13.414l-2.828 2.829-1.415-1.415L10.586 12 7.757 9.172l1.415-1.415L12 10.586z"/></svg></button>
       <input id="stopbuttonvalue"  type='hidden' value="true" />
       
@@ -419,8 +428,9 @@
   <div id="welcometext" style="margin-bottom: 1em; font-size: 0.9em"  >
   <h3 style="" >Learn session tunes here !</h3> 
   <div style="display: inline"  >Try a curated tunebook. <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
-  <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Import an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Create A Tunebook</button> or <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button> and use the edit, link or search tools to find the music.</div>
-  <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along in order of confidence.</div>
+  <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Load an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Import a list of names</button> or <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button> and use the edit, link or search tools to find the music.</div>
+  <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along. Boost affects review order and tempo.</div>
+  <div style="margin-top:0.5em" ><button style="font-size: 0.7em" id="welcomedownloadbutton" >Download</button> or <button style="font-size: 0.7em" onClick="printPage()" >Print</button> your tunebook to share with other people and devices.</div>
   </div>
   <div style="width: 100%" id="musiclistbuttons"  >
     <input type="text" style="width: 60%" id="musicsearchfilter"  />

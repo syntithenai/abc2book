@@ -1,0 +1,21 @@
+X: 1
+T:Orlando's Return
+Z:Michael J Green <GreenMichaelJ@aol.com> 2003-4-14
+M:4/4
+L:1/8
+Q:160
+K:G
+D EF|:GFGAG2A2|BABcB2c2|d2B2c2B2|AGFED2D2|GFGAG2A2|BABcB2c2|d2G2BAGF|1G4
+-GD EF:|2G4-GB c^c|:d3dd2B2|c2e2A2c2|B2G2c2B2|AGFED2D2|GFGAG2A2|BABcB2c2
+|d2G2BAGF|1G4-GB c^c:|2G6z2||
+% Output from ABC2Win  Version 2.1 i on 4/17/2003
+S:https://www.folktunefinder.com/tunes/180608
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MichaelJGreen/OrlandosReturn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

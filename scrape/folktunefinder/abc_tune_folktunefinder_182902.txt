@@ -1,0 +1,47 @@
+X: 1 
+T:Plin : Suite Termen
+Z:Ambroise Diascorn (Mai 2001)
+R:
+C:Trad.
+S: 
+A:Bretagne
+M:4/4
+L:1/8
+K:Eb 
+P:Ton simpl 1
+cb ba ag e2|f2 ef ga g2 :: g2 fg fe dg |
+gf ed c2 c2 :|   
+P:Ton simpl 2
+cf f>e fg f2|gb ba gf d2 :: gg g>a gf ed|
+cd ec cB cg :|
+P:Ton simpl 3
+d2 dB cd ed/2e/2 |f2 ff gf d2 :: f2 ff gf dB|
+c2 ce dc B2:|
+K:Ab 
+P:Bal
+M:6/8
+c|:f2 g a2 g|e3 e2 c|f2 g a2 g|1 e3 e2 c :|2
+e3-e3 :|
+P:
+M:4/4
+f>g fe fg f2|ee dd cB cc|f>g fe fg f2|
+e2 d2 cB cc :|
+K:Eb 
+P:Ton doubl 1
+M:4/4
+fg ag fe c2 | fg af e2 f2 :: a2 ga ba g2 |
+fg a2 ag fe |f2 ga c'a g2 | gb a2 g2 f2 :|
+P:Ton doubl 2
+Bd B>d df f2|e>d ce ed B2 ::Bd B>d df f2|
+e>d ce ef d2|dB Bd df f2|e>d ce ed B2 :|
+S:https://www.folktunefinder.com/tunes/182902
+S:http://termen.free.fr/danses/termen/PlinSuiteTermen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key G-sharp
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

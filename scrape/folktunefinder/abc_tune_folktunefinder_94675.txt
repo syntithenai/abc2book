@@ -1,0 +1,29 @@
+X:078
+U: ~ = !turn!
+%%topmargin 3cm
+T:Galway Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+Jg2 fg edBA | PG2 BG AE ~E2 | GABd ea{/b}ag | fdef Jgbaf |
+Jg2 fg edBA | GABG AE ~E2 | GABd ea{/b}ag | fdef Jg2 ef ::
+Jgbef Jgbag | fd ~d2 dfaf | Jgbef gabg | Pafdf e2 ef |
+Jgb (3.b.b.b bfge | fa (3.a.a.a {/b}afdf | g2 bg fa{/b}af | edef gbaf :|]
+S:https://www.folktunefinder.com/tunes/94675
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Galway_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Galway_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Galway_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Galway_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

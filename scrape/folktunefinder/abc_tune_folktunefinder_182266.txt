@@ -1,0 +1,28 @@
+X:1
+T:Petter Olas Annas vals
+R:Vals
+O:Jt, Smland
+S:efter August Strmberg
+B:50 Smlndska ltar
+Z:Jonas Brunskog
+N:nr. 39 
+M:3/4
+L:1/8
+K:Am
+|:(a2 .^g2) a2| e4 c2| (ed)(B^G)(BG)|A2 c2 e2|
+(a2 .^g2) a2| e4 c2| (ed)(B^G)(BG)|A4 z2:|
+|:(A2 .c2) c2|(dc)BA ^G2| (^G2 B2) d2|(dc)Bc A2|
+(A2 .c2) c2|(dc)BA ^G2|(^GB)(dc)Bc |A4 z2:|
+S:https://www.folktunefinder.com/tunes/182266
+S:http://www.folkwiki.se/pub/cache/Petter_Olas_Annas_vals_5bb7bd.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

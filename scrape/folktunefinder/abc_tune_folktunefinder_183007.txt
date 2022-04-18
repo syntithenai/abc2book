@@ -1,0 +1,39 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Lambach
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "3. Spielheft fuer Okarina", Volker Derschmidt, Oberoesterreichisches Volksliedwerk, Linz 1994
+S:Joh. HolzingerZ:abc transcription Simon Wascher
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+BB dd | c/B/c/e/ AA | ff ee | d/^c/d/g/ BB |
+BB dd | =c/B/c/e/ AA | ff/e/ d/c/B/A/ | GB G2 :|
+|:\
+BD G2 | BD G2 | FF/G/ Ac | cB ^A/B/c/B/ |
+BD G2 | BD G2 | FF/G/ =A/B/c/d/ | BB "Dacapo"B2 :|
+K:C
+P:Trio
+|:\
+cd e2- | ee dc | ef g2- | gg fe |
+gf f2- | ff ed | fe e2- | ef ed |
+cd e2- | ee dc | ef g2- | gg fe |
+gf f2- | ff ed | ee ff | ee e2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183007
+S:http://simonwascher.info/TradArchiv_polka/polka.B2B2G2G2G2F2FGAB.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

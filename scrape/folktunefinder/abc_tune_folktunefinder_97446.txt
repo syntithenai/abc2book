@@ -1,0 +1,27 @@
+X: 2
+T:Battering Ram, The
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+K:Dmix
+"G"dBG BAG | dBG G2B | dBG AGE | "D"GFD D2B |
+"G"dBG BAG | ~B3 BAG | "C"AGA ~B | "D"GED D2B :|:
+"G"deg aga | "C"bge edB | "G"deg aga | "C"bge e2a |
+"G"bag age | "C"ged ege | "D"dAG AGE 
+|1 GED D2B :|2 GED d2c ||: 
+B2G A2G | "G"BGE D2A| BAG AGE | "D"GED D2d |
+"G"B2G A2G | ~B3 BAG | "C"AGA ~B3 | "D"GED D3 :||
+S:https://www.folktunefinder.com/tunes/97446
+S:http://www.irishtradmusic.org/100jigsreels.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

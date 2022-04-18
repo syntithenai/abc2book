@@ -1,0 +1,31 @@
+X: 1
+T:Lucy Campbell
+R:Reel
+S:Paddy Canny, Clare (fiddle)
+D:Home tape of unknown provenance
+Z:Bernie Stocks
+N:As played
+H:Alternative part 3: afaf defg | afaf bgef | afaf defg | dBAF ADD2 ||
+M:4/4
+K:D
+B |: AD(3FED D4A,4 | (3.B.B.A FA BE~E2 | A2D2(3FED dBed |1 {e}dBAF ADDB :|2 {e}dBAF ADDc ||
+dBAB d2fe | d2cA BE~E2 | dBAB df{a}fe | dBAF ADDc |
+dBAB dzfe | dB~B2 gB~B2 | dBAB df{a}fe | dBAF ADD2 ||
+(3.a.a.^g af def=g | a^gaf b=gef | afaf df{a}fe | dBAF ADD2 |
+(3.a.a.^g af def=g | a^gaf b=gef | {a}gfge fgfe | dBAF ADDc ||
+df~f2 dfef | df~f2 afef | df(3.g.f.e fgfe | dBAF ADDc |
+df~f2 dfef | df~f2 afef | ga(3.g.g.e fgfe | dBAF ADDB ||
+S:https://www.folktunefinder.com/tunes/173311
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lu/Lucy_Campbell_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lu/Lucy_Campbell_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

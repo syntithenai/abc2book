@@ -1,0 +1,29 @@
+X:8
+T:Mountain House (in G)
+C:Jay Ungar (1994)
+B:The Waltz Book II, page 39
+Z:transcribed and transposed by MB
+R:Waltz
+M:3/4
+L:1/4
+K:G
+D/2E/2F/2 \
+|: "G"GB>e | "G7"dBG | "C"EG>c | "G"BGD |\
+"C"CEG | "G"B,DG | "A7"AE>G | "D7"FGA |
+"G"GB>e | "Bm"dBG | "C"EG>c | "G"BGD |\
+"Am7"CEG | "D7"DB>A | "G"G3 | "D"z2 (3d/2e/2f/2 ||
+"G"g>Bd/2g/2 | "Bm"f>Bd/2f/2 | "C"e>Gc/2e/2 | "G"dBG |\
+"C"c>EG/2c/2 | "G"BGD | "Am7"E3 | "D7"F2 (3d/2e/2f/2 |
+"Em"g>Bd/2g/2 | "Bm"fdB | "C"ecG | "G"dBG |\
+"Am7"EGc | "D7"BDA |1 "G"G2-(3G/2F/2E/2 | "D7"D>DE/2F/2 :|
+|2 "G"G2-G/2F/2 | "F"=F>AG/2F/2 | "C"EGc | "D7"BDA | "G"G3-|G3 |]
+S:https://www.folktunefinder.com/tunes/177120
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/MountainHouseInG.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

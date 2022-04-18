@@ -1,0 +1,53 @@
+X:1
+T:Ride : La violette
+E:12
+Z:Roger Ngaret (94-95)
+R:ridee
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:G
+Q:1/4=140
+E2A2 "G"A2B2 | A2G2 "D"F4 | B4 B2c2 | A4 B4 | E2A2 "G"A2B2 | \
+A2G2 "D"F4 | B4 B2c2 | A4 B4 ::\
+A2c2 B2A2 | G2F2 "G"E4 | E2F2 "D"G2A2 | B4 B4 |\
+A2c2 B2A2 | G2F2 "G"E4 | E2F2 "D"G2A2 | B4 "G"A4 :|
+%%rm
+%%rm  1. Lorsque j'tais chez mon pre,
+%%it     Gai la violette               
+%%bf     ... rptition instruments ...
+%%rm     Les moutons j'allions garder, 
+%%it     La violette gai, gai
+%%rm     Les moutons j'allions garder, 
+%%it     La violette gaiement
+%%rm     Les moutons j'allions garder, 
+%%it     La violette gai, gai, gaiement
+%%bf     ... rptition instruments ...
+%%rm
+%%rm  2. La pture ou je les mne 
+%%rm     Le grand chemin passe dedans
+%%rm
+%%rm  3. Par le grand chemin y passe
+%%rm     Trois jeunes cavaliers galants
+%%rm
+%%rm  4. L ils m'ont demand
+%%rm     Belle combien gagnez-vous par an
+%%rm
+%%rm  5. J'y gagne bien cinq cents mille francs
+%%rm     Et un beau cotillon blanc
+%%rm
+%%rm  6. Venez avec moi la belle
+%%rm     Je vous en donnerais autant.
+S:https://www.folktunefinder.com/tunes/185485
+S:http://termen.free.fr/danses/termen/RideeLaviolette.abc
+% Rhythm Ridee
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

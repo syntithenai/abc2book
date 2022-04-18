@@ -1,0 +1,27 @@
+X:116
+U: ~ = !turn!
+%%topmargin 3cm
+T:London Lasses
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+D3 F A2 FA | Beed Bd d2 | (3.D.D.D DF ADFA | BdAF EGFE |
+(3.D.D.D DF ADFA | Beed Bcde | fded Beec | dBAF EGFE ::
+(3.d.d.d dA {/c}BAFA | {/c}BAFA DFAc | (3.d.d.d dA {/c}BAFA | BFAF EFAc |
+(3.d.d.d dA {/c}BAFA | {/c}BAFA ABde | fded Beec | dBAF EFAc :|]
+S:https://www.folktunefinder.com/tunes/94712
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/London_Lasses_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/London_Lasses_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

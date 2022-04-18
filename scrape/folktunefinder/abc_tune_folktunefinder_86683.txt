@@ -1,0 +1,33 @@
+X: 133
+T: Cape Cod Hornpipe 
+N: 030194
+C: BB
+R: hornpipe
+Q: 330
+M: 4/4
+L: 1/8
+K: A
+"A"cBAB ceae | "F#m"f2 ae f3 e | "A"cBAB "F#m"ceaf | "A"ecBA "Bm"FB (3BcB |
+"A"cBAB ceae | "F#m"f2 ae fa a2 | "A"EFAB "F#m"ceaf | "E"edBG "A"EA A2 :|
+[K:Dm] "Dm"dcAc defa | "F"f2 ed "Am"cAGE | "F"FEFG "Am"AGAc | "Dm"d^cde fed=c |
+"Dm"d2 ad edad | "C"c2 ec gcec | "Gm"BG (3G^FG "F"=FAcA | "C"GEDC "Dm"D4 :|
+[K:Gm] "Gm"GDDD "Dm"FDDA | "Gm"Bcdg "Dm"fdcA | "Gm"BGdG "F"AFcF | "Gm"BAGF GABc |
+"Gm"dg (3g^fg bag=f | "F"cf (3f=ef afdc | "Bb"BdcB "F"AcBA | "Gm"GFDF G4 :|
+[K:D] "D"FEDE FAdA |"Bm"B2 dA B3 A |"D"FEDE "Bm"FAdB |"D"AFED "Em"B,E (3EDE |
+"D"FEDE FAdA | "Bm"B2 dA Bd (3dcd | "D"A,B,DE "Bm"FAdB |"A"(3ABA GE "D"FD D2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86683
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

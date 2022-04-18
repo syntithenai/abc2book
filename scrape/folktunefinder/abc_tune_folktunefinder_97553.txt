@@ -1,0 +1,45 @@
+X:4
+T: Chiu K'uang (Jiu guang: Weintrunkenheit)
+N: I0001
+O: China
+N: Die Notation sollte im Baschlssel erfolgen. Transkription nach
+N: Liang Mingyue; ohne seinen besonderen Schluss. Zeile 6, 17 und 30
+N: werden wiederholt!  Zur Lesbarkeit auf C transponiert.
+R: Kunstmusik
+M: 4/2
+L: 1/8
+K: C
+C2dGC2eGC2g2g4 | C2gGC2_aGC2c2c4
+C2cGC2aGC2g2g4 | C2eGC2c2c4
+A2A2e2dcC2c2c4
+A2A2e2dcC2c2c4
+C2deC2egC2g2g4 | C2gaC2acC2c2c4
+C2cGC2_aGC2g2g4 | C2eGC2c2c4
+A2A2e2dcC2c2c4
+C2deC2egC2g2g4 | C2gaC2acC2c2c4
+E2eAD2dGC2c2c4 | E2eAD2dGC2c2c2ed
+A,CC2E2E2DFG2G4 | A,CC2E2E2DFG2G4
+A2A2e2dcC2c2c4
+A2A2e2dcC2c2c4
+C2deC2egC2g2g4 | C2gaC2acC2c2c4
+C2dGC2eGC2g2g4 | C2gGC2_aGC2c2c4
+GcC2e2E2cfG2g4 | GcC2e2E2cfG2g4
+a2a2e2d2C2c2c4 | a2a2e2d2C2c2c4
+E2eAD2dGC2c2c4 | E2eAD2dGC2c2c4
+GcC2e2E2cfG2g4 | GcC2e2E2cfG2g4
+a2a2e2d2C2c2c4 | a2a2e2d2C2c2c4
+E2eAD2dGC2c2c4 | E2eAD2dGC2c2c4
+C2cGC2_aGC2g2g4 | C2eGC2c2c4
+A2A2e2dcC2c2c4
+A2A2e2dcC2c2c4
+C2deC2egC2g2g4 | C2gaC2acC2c2c4
+S:https://www.folktunefinder.com/tunes/97553
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Kunstmusik
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

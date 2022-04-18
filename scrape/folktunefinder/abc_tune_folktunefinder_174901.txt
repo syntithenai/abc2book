@@ -1,0 +1,35 @@
+X:1
+T:Mazurka
+C:Jonathan Swayne 
+R:mazurka
+A:England
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gedaechnis-niederschrift Simon Wascher
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+dc |\
+Bd G2 GF | EG C2 E2 | DG cB AG | Ad^cd ed |
+Bd G2 GF | EG C2 E2 | DG BA GF | FAG2 :|
+|: DE |\
+FG FD- DF | GA GD- DG | AB AD- DA | BD cB AG|
+FG FD- DF | GA GD- DG | A2 cBAF | FA G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174901
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.BdG2GF.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

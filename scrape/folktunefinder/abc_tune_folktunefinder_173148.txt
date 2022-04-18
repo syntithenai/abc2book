@@ -1,0 +1,46 @@
+X:21
+T:Louis Waltz
+C:Unknown
+S:The Fiddle Player's Tunebook 1
+M:3/4
+L:1/8
+K:D
+|:AG |\
+"D"F2 DF Ad |\
+"D7"f4 ef |\
+"G"g b2 g fg |\
+"E"B3 d cB |\
+"A"AG EF GA \
+|1 "A7"c4 {B c }B2 |\
+"D"A3 A ^GB |\
+"A"A4 :|2\
+"A7"c4 Bc |\
+"D"d3 d "A"ce |\
+"D"d4 ||\
+BA |\
+"A"G3 A BA |\
+"A7"c3 A BA |\
+"D"F2 DF Ad |\
+"D"f4 cd |\
+"A"e4 ef |\
+"A7"e2 A2 G2 |\
+"D"F A3 AB |\
+"D"A3 A BA |\
+"A"G3 A BA |\
+"A7"c3 A BA |\
+"D"F2 DF Ad |\
+"B7"f4 DF |\
+"E7"E4 EF |\
+"A"GC F2 E2 |\
+"D"D3 "A"F EF |\
+"D"D4 ||
+S:https://www.folktunefinder.com/tunes/173148
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/LouisWaltz.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

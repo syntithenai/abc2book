@@ -1,0 +1,29 @@
+X:215
+T: Yuanyuan kan mei mei fei lai
+N: C1707
+O: China,Taiwan, Xinzhu miaoli taoyuan
+S: IV, 639]
+R: Xiaodiao, Pingban diao, Caicha diao]
+M: 2/4
+L: 1/16
+K: G
+A2dBd2Bd | g2Bd-d2z2 | d2ABAG3 | G3Ad3B | A2BdABAG | G6z2
+B2ABd3B | B2ABA4 | E2D4z2 | d2G2B3d | E2E4FE | D8
+B2ABd3B | B2ABd4 | B2ABAG3 | G3Ad2e2 | B2BdABAG | G6z2
+d3eB2Bd | G2ABABE2 | D2G2z4 | d2g2egge | d2deg2eB | d6z2
+d2dedB3 | d2e2d2Bd | ABG6 | G3Ad3B | d3BABAG | G8
+d3eB2d2 | G2ABABE2 | D2G4z2 | A2d2ABAG | E2E4z2
+B2e2d3e | d2g2edB2 | d2dBA4 | G3Ad3B | d2ABA3B | G6z2
+d3eB2d2 | G2ABABE2 | D2G2z4 | d2g2egge | d2deg2eB | d8
+S:https://www.folktunefinder.com/tunes/92238
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, pingban diao, caicha diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

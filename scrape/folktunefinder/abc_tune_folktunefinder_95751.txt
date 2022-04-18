@@ -1,0 +1,27 @@
+X:600
+T:Guy Mannering
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e47.html
+%%ID:00000e47
+K:D
+A S |\
+d2d def | {ef}g2e c2A | d2B A2F | d2B AFD |\
+d2d def | {ef}g2e c2A | d2B A2F | TE>DE D2 ||
+d |\
+e2e efg | {fg}a2f d2A | dBG AFD | dBG (Af).f |\
+e2e efg | {fg}a2f d2B | cBA TG>FE | A3 -ABc !D.C.! S |]
+%page:70
+S:https://www.folktunefinder.com/tunes/95751
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:200
+T: Deering Station
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: G
+D |"G"D2 B,D "Em7"E2 DE|"G"G2 FG "Bm"Bd (3d^cd|"C"cBcd "Em"egdB |"Am"cBAG "C"EDCE |
+"G"D2 B,D "Em7"E2 DE|"G"G2 FG "Bm"Bd (3d^cd |"C"cBcd "Am7"eage |"D"dBAF "G"G3 :|
+A | "Em"Bee^c "G"dgga|"G"bg"D"af "Em7"gfed|"Em"Bee^c "G"dege |"D"dBAF "G"G3 A |
+"Em"Bee^c "G"dgga|"G"bg"D"af "Em7"gfed|"G"gb (3bab "Am7"eage |"D"dBAF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86449
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

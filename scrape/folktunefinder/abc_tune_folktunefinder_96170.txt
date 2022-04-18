@@ -1,0 +1,36 @@
+X: 19
+T:Minuet. TBe.019
+M:3/4
+L:1/8
+Q:160
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:A major
+cec | A2E2C2 | A,4 a2 | g2e2g2 | a4 e2 | \
+cecece | F4 d2 |!
+ BdBdBd | E3 faf | \
+g2e2g2 | f2b2e2 | f2^d4 | e3 :||:!
+gbg | e2B2G2 | E4 b2 | gbgbgb | c4 a2 |\
+faf afa | B3 faf |!
+ gegege | f2b2e2 | f2 ^d4 |\
+e3 cec | ececec | F3 BdB |!
+ dBdBdB | \
+E3 cec | d2f2d2 | e2a2c2 | B2 G4 |\
+A3 ag2 |!
+ f2e2d2 | c3Bc2 | d2 B4 | A6 ||
+S:https://www.folktunefinder.com/tunes/96170
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

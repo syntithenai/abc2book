@@ -1,0 +1,33 @@
+X: 1
+T: LAUDNUM BUNCHES
+S: MDT
+O: Headington
+P: A(A2B3)2.(A2C3)2
+Q: 3/8=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+P: A
+|: A |\
+   F>GA Bcd | e<cB A2G | F>GA Bcd | f2e d2A :|
+P: B
+   F>ED F<AF | E>FE E2D/E/ | F<AF E>DE | F<DB A2G |
+   F>GA Bcd | e<cB A2G | F>GA Bcd | f2e d2A  ||
+P: C
+   F>ED F<AF |[M:9/8]E>FE E3 D2E |[M:6/8]F<A-A F3 | E3 D2E |[M:9/8] F<D-D B3 A2G |
+M:6/8
+   F>GA Bcd | e<cB A2G | F>GA Bcd | f2e d2 ||
+S:https://www.folktunefinder.com/tunes/171566
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Laudnum_Bunches_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

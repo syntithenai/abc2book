@@ -1,0 +1,27 @@
+X:460
+T:a Rigadoon
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/4
+M:6/4
+O:England
+Z:Richard Robinson 
+%%RRN:"A good tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed0.html
+%%ID:00000ed0
+K:A min
+E |\
+A2A A>^GA | B2B B>AB | c>dc B2A | (e3 e2) ::
+(cd) |\
+e2e e>fg | d2d d>ef | c2c c>de | B>cd e2d | e>dc B>A^G | (A3 A2) ::
+%%newpage
+%page 28
+S:https://www.folktunefinder.com/tunes/88249
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

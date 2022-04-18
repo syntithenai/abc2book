@@ -1,0 +1,29 @@
+X: 192061
+T: Shannon Pot
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+Z: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: Edor
+d | efe fed | BAF AFD | E2E FED | EDA Bcd |
+efe fed | BAF DEF | EFA Bcd | FED E2 :|
+B | e2e def | edB dBA | BAF AFE | FED EFA |
+BeB def | edB AFD | EFA Bcd | FED E2 :|
+A | BeB def | edB AFA | BEE BAF | ABd def |
+gfe fed | edB AFD | EFA Bcd | FED E2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88023
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

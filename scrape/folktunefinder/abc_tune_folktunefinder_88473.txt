@@ -1,0 +1,24 @@
+X:1580
+T:Potter On
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001252.html
+%%ID:00001252
+K:C
+G | cedc | BAGE | Az Bz | c/B/c/d/ cG | cedc | BAGE | Az Bz | c3 ::
+E | GG/G/ GG | d/e/f/e/ d/c/B/A/ | GG/G/ GG | d/e/f/d/ e\
+G | cc/c/ cc | cccG | AcBA | Gz cz | dz Bz | c3 :|
+%%newpage
+%page 125
+S:https://www.folktunefinder.com/tunes/88473
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

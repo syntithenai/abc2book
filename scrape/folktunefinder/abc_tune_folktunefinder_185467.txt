@@ -1,0 +1,28 @@
+X:1
+T:Ride : C
+E:12
+Z:Roger Ngaret (94-95)
+R:ridee
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:C
+Q:1/4=140
+"Am"c2c2 "G"B4 | A2/B2/A2 "G"G4 | "Am"c2c2 "G"B4 | \
+"Am"A2A2 "G"G4 | c2c2 "G"B2B2 | "Am"A4 "G"G4 | \
+"Am"c2c2 "G"B2B2 | A2/B2/A2 "G"G4 ::\
+"Am"B2c2 "G"d4 | e4 "F"A4 | "Am"c2c2 "G"B2B2 | \
+"Am"A2/B2/A2 "G"B4 | B2c2 "G"d4 | "Am"e4 "F"A4 | \
+"Am"c2c2 "G"B2B2 | A2/B2/A2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/185467
+S:http://termen.free.fr/danses/vannetais/RideeC.abc
+% Rhythm Ridee
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

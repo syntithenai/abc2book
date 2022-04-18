@@ -1,0 +1,26 @@
+X:830
+T:Tuamgraney Castle
+R:hornpipe
+S:Siobhan Kelly
+M:4/4
+L:1/8
+Q:50
+K:G
+cB|AGAB AGEG|AGAB cBcd|(3efg fa g2 ed |1 B2 G2 G2 cB:|2 c2 A2 A2 (3efg||
+agab ageg | agab a2 ge | dega g2 ed |1 B2 G2 G2 (3efg:|2 c2 A2 A2 (3efg||
+agab ageg | agab a2 ge | dega g2 ed|B2 G2 G2 cB|
+AGAB AGEG|AGAB cBcd|(3efg fa g2 ed | c2 A2 A2 cB|>|
+S:https://www.folktunefinder.com/tunes/91303
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

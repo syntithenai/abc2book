@@ -1,0 +1,33 @@
+X: 123
+T: Ladybird
+C: Tadd Dameron
+M: 4/4
+L: 1/4
+Q: 1/4=152
+%%staves (chords melody)
+K: C
+P: A
+V: chords
+"Cmaj7"x2 x2 | x2 x2 | "Fm7"x2 x2 | "Bb7"x2 x2 |
+"Cmaj7"x2 x2 | x2 x2 | "Bbm7"x2 x2 | "Eb7"x2 x2 ||
+V: melody
+z<GGG | G>G z<G | _B2 (3_AC_E | G4 |
+z<GGG | G>G z<G | c2 (3_B_DF | c4 ||
+P: B
+V: chords
+"Abmaj7"x2 x2 | x2 x2 | "Am7"x2 x2 | "D7"x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "Cmaj7"x2 "Eb7"x2 | "Ab7"x2 "Db7"x2 :|
+V: melody
+z<_BA_A | _B=A/_A/-A2 | z<=B _BA | =B_B/A/-A2 |
+c2- c/A/F/E/- | E2 ^CD/G/- | G4- | G4 :|
+S:https://www.folktunefinder.com/tunes/87624
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

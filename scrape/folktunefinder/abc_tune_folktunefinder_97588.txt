@@ -1,0 +1,37 @@
+X: 1
+T: Alasdair Macalister
+R: strathspey
+O: trad
+B: Cole p.126 (Gm); Skye p.119 (Am); Robbins ___
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Am
+|: "E7"e>d \
+| "Am"c<A A>G E<A A>B | c<A A>c "E7"e2- e>d  \
+| "Am"c<A A>G E<A A>c | "G"B<G G>B d2 :|
+[| "G7"d>B \
+| "C"c>d e>f g>a g>e | c>d e>f "G7"g2- g>e \
+| "C"c>d e>f g>a g>e | "G"B<G G>B d2 d>B |
+| "Am"c>d e>f "C"g>a g>e | "Am"c>d e>f "C"g2- g>a \
+| "Gm"_b<g "Dm"a>f "C"g>e "Dm"f>d | "G"B<G G>B d2 |]
+%%sep 5 5 234
+K:C
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+x8 x8 x8 x8 |
+S:https://www.folktunefinder.com/tunes/97588
+S:http://trillian.mit.edu/~jc/music/book/500/AlasdairMacalister_x.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

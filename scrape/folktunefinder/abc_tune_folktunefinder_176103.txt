@@ -1,0 +1,25 @@
+X:1830
+T:"Miss Hamilton"    (march)      1830
+C:Unattributed
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:4/4
+L:1/8
+K:G
+B2d2(cBAG)|d3/2c/2 (B/2c/2d) {E}D2D z|(C/2D/2E) DC B,DGD|{D}CB, {B,}CG, A,2A, z|
+Bd {d}cB {B}AGAF|GBAG {EF}E(DE)G|dBAG (EF/2G/2) (DC)|B,2A,2G,4||
+(de).d.c {cd}cB {AB}AG|(de).d.c {cd}cB {AB}AG|(Bdgd) (edcB)|(cBAG) A2A z|
+(B/2c/2d) (cB) (AG)AF|{A}G/2F/2G/2A/2 BG {EF}E(D/2E/2) G2|dBAG (E/2F/2G) DC|B,2A,2G,4|]
+S:https://www.folktunefinder.com/tunes/176103
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1801-1850/1830-MissHamilton.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1801-1850/1830-MissHamilton.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

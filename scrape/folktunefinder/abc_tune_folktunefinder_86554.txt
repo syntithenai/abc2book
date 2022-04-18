@@ -1,0 +1,25 @@
+X:725
+T: Fermanagh's Loveliest HP
+C: BB
+L: 1/8
+Q: 1/8=320
+M: 4/4
+R: hornpipe
+K: D
+E | "D"FAdB AFEF | DFAd f2 ef | "G"gfeg "Bm"fedf | "Em"efed "A7"cBAG |
+"D"FAdc "Bm"BAFB | "F#m"AFAc "D"d2 dc | "G"BGBd "A"cAce | "D"df "A"ec "D"d3 :|
+B/c/ | "Bm"dBAB fBAB | "A7"agfe cdec | "Bm"dBAB fBAB | "D"FAdc "G"B2 Bc |
+"Bm"dBAB fBAB | "A7"agfe "D"dcBA | "G"BGBd "A"cAce |"D"df "A"ec "D"d3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86554
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

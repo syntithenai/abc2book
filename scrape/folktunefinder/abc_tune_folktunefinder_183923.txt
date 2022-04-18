@@ -1,0 +1,27 @@
+X: 1
+T:Prince Eugene
+M:2/4
+L:1/16
+Q:90
+C:Trad
+S:Martin Nolan CD "Bright Silver Dark Wood"
+S:J.Joy <joyj@mondenet.com> 2002-9-18
+R:Polka
+B:Goodman Manuscripts
+K:G
+|:GFED G2AB|cBAG B2AG|A2AG A2AB|cBAG F2E2|
+  GFED G2AB|cBAG B2AG|D2D2 G2Ac|B2GF G4:|
+|:Bc|d3d d2dg|fddc B2AG|A2AG A2AB|cBAG F2E2|
+     d3d d2dg|fddc B2AG|D2D2 G2Ac|B2GF G4:|
+S:https://www.folktunefinder.com/tunes/183923
+S:http://trillian.mit.edu/~jc/music/abc/Contra/polka/PrinceEugene_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/Quebec/polka/PrinceEugene_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

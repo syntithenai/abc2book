@@ -1,0 +1,24 @@
+X: 1
+T:Out on the Ocean
+R:jig
+Z:Played in G or A. Both versions included.
+Z:id:hn-jig-24
+M:6/8
+K:G
+DBB BAG|BdB A2B|GED G2A|BAB AGE|DBB BAG|BdB A2B|GED G2A|1 BGF G2E:|2 BGF GBd||
+|:~e3 edB|efe edB|ded dBd|gfe dBA|G2A B2d|ege dBA|GED G2A|1 BGF GBd:|2 BGF G2E||
+K:A
+|:Ecc cBA|cec B2c|AFE A2B|cBc BAF|Ecc cBA|cec B2c|AFE A2B|1 cAG A2F:|2 cAG Ace||
+|:~f3 fec|~f3 fec|efe ece|agf ecB|A2B c2e|faf ecB|AFE A2B|1 cAG Ace:|2 cAG A2F||
+S:https://www.folktunefinder.com/tunes/180790
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ou/Out_on_the_Ocean_9.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:765
+T:Unanimity
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e65.html
+%%ID:00000e65
+K:G
+g2d2 g2dc | cBAG d4   | GABc d2d2 | edcB A2G2 |\
+g2d2 g2dc | cBAG d2gf | e2ag gfed | fed^c d4 ::
+d2cd e2d2 | c2B2c2A2 | c2dc d2c2 | B2A2B2G2 |\
+g2ga g2D2 | GABc {B}A4 | d2d2 d2(3edc | B2A2 G4 ::
+S:https://www.folktunefinder.com/tunes/95784
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

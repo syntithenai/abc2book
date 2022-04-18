@@ -1,0 +1,19 @@
+X:1
+T:Lord Randall
+M:6/8
+L:1/8
+K:C
+ G| B3/2 A/2 G ddB AGG| d2 z g2 B cde|
+M:9/8
+ d3 ddc A G3/2 G/2| B3/2 A/2 GB d2 z2 B/2B/2|
+M:6/8
+ AGG d2 z| g2 B cde| d2 z ddd| cA| G3 z||
+S:https://www.folktunefinder.com/tunes/173017
+S:http://back.numachi.com:8000/dtrad/abc/B12_16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

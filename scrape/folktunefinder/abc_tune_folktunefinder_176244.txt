@@ -1,0 +1,22 @@
+X: 1
+P: Miss McPherson Grant's Jig
+C: William Marshall, arr. T. Traub 12/20/97
+R: jig
+M: 6/8
+L: 1/8
+K: A
+%%scale .67
+E|"A"E2 A A2 F|"E"GAB Bcd|"A"c2 E "B7"AGA|"E"B3 E3|"A"E2 e e2 c|"Bm"dcd "E7"Bcd|1 "A"cde "D"fed |"B7"cBA "E7"GFE :|2 "A"cBA "E"EFG|"A"A3 A2 ||
+E|"A"C2 E A2 =G|"D"FEF D2 F|"Bm"d2 c "B7"BcA|"E"G3 E2 E|"D"FGA "E"Bcd |"A"cde "D"fga|"E"gfe "B7"Bc^d|"D"e3 e2 z||
+"D"f2 D fed|"A"e2 c ecA|"D"FGA "B7"BcA|"E"G3 E3|"D"F2 d "A"E2 c|"D"D2 B "A"C2 e|"A"cBA "E"EFG|"A"A3 A,2 |]
+S:https://www.folktunefinder.com/tunes/176244
+S:http://terrytraub.org/abc/MissMcPhersonGrantsJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MissMcPhersonGrantsJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

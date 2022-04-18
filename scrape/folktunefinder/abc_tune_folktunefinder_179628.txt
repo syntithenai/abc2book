@@ -1,0 +1,22 @@
+X:2
+T:Off We Go
+C:copyright 1997 Kaubells
+E:18                   % note spacing
+M:6/8
+K:EMix
+|:"E"bba gab|e/f/ec B3|b2a gga|b3e3|*
+"D"d2d a2f|"E"e/f/ec B2c|"G"d2B =G2A|B6:|*
+E:16                   % note spacing
+K:Am
+|:"Am"A2A .a2A|"Dm"de=f def|{df}"Am"e2c {d}cBA|"E7"^GAB E2E|*
+"Am"A3 .a2A|"Dm"de=f def|"Am"e3 c'3|"E7"db^g "Am"a3:|*
+S:https://www.folktunefinder.com/tunes/179628
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/off-we-go.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

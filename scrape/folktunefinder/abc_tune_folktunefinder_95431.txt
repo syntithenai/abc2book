@@ -1,0 +1,25 @@
+X:625
+T:Irish Morshaw
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000020d.html
+%%ID:0000020d
+K:D
+A|\
+dff fdf| faa afa| ad'b ad'b| agf f2e|\
+dff fdf| faa afa|
+ad'b agf| fee e2::\
+A|\
+efg gag| gag "tr"g3| fga aba| aba "tr"a3|
+afg ad'b| afg ad'b| agf edc| ded d2:|
+S:https://www.folktunefinder.com/tunes/95431
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:073
+U: ~ = !turn!
+%%topmargin 3cm
+T:For Ireland I'd Not Tell Her Name
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Waltz
+L:1/8
+M:3/4
+K:D
+"Slow"d>e | f (AA3) A | B (dd3) e | (Hf6 | f4) de | f (AA3) A | B (dd3) f | (He6 | e4) de | f (AA3) A |
+B (gg3) e | (f6 | f6) | d4 e2 | d4 B2 | (A4A) A | B2 (d4 | d2) d2 e2 | Hd4 fg ||
+a4 fe | d4 fa | b4 a2 | b4 bg | a4 fe | d3 e fd | (He6 | e4) ag | f (AA3) A |
+B (gg3) e | (Hf6 | f6) | d3 e dB | A4 A2 | B2 (d4 | d2) d2 e2 | (Hd6 | d4) ||
+S:https://www.folktunefinder.com/tunes/94670
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/For_Ireland_Id_Not_Tell_Her_Name_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/For_Ireland_Id_Not_Tell_Her_Name_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/For_Ireland_Id_Not_Tell_Her_Name_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/For_Ireland_Id_Not_Tell_Her_Name_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

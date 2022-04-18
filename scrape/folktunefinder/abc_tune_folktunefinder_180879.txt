@@ -1,0 +1,26 @@
+X: 2
+T:Over the Waterfall
+M:C|
+L:1/8
+K:D
+de \
+|: "D"f2(af) "A"gf(vec | "D"de)ud(B A)Bde | f2(af) "A"gf-e2 | "D"(ef2) (e fe)de |
+   "D"f2(af) "A"gf(vec | "D"de)d(B A2)A-B | "C"v=c2c2 B2A2 |\
+[1 "G"G4 G2de :|[2 "G"G4 G2FG ||
+|: "D"A2A2 "G"(BA)B(d | "D"AB)A(G F2)F-G | A2d2 "A"cd-e2 | "D"(ef2)(e f2) FG |
+   "D"A2A2 "G"(BA)B(d | "D"AB)A(G F2)F-G | A2A2 "A"GF-E2 |\
+[1 "D"D4 D2FG :|[2 "D"D4 D2de |]
+N:Fiddlers Fakebook, pg 211 - abc by Peter Ostapenko 3/27/2007
+N:Adapted by Peter Ostapenko 4/29/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/180879
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OverTheWaterfall.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

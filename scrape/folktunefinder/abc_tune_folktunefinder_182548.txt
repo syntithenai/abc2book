@@ -1,0 +1,29 @@
+X:1
+T:Pipe on the Hob, The
+R:jig
+M:6/8
+L:1/8
+K:Dmix
+d^cd A2G|F2D DED|EDE cBc|E2D DFA|
+dcB cBA|BAG A2G|EDE cBc|E2D D3|
+d^cd A2G|F2D DED|~E3 cGE|EDC DFA|
+dcB cBA|BAG A2G|~E3 cGE|EDC D3|]
+f2d d^cd|f2d d^cd|edB c2d|ede age|
+f2d d^cd|f2d d^cd|ede age|ed^c d2e|
+~f3 d^cd|fdd d^cd|edB c2d|ede age|
+~f3 gfg|agf efg|fed eag|ed^c d2A|]
+S:https://www.folktunefinder.com/tunes/182548
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:jigs:1_pipe_on_the_hob_the.abc
+S:http://www.tomkeays.com/music/wiki/irish/jigs/pipe_on_the_hob?rev=1156292168
+S:http://www.tomkeays.com/music/wiki/irish/jigs/pipe_on_the_hob?rev=1158360079
+S:http://www.tomkeays.com/music/wiki/irish/jigs/pipe_on_the_hob?rev=1158362723
+S:http://www.tomkeays.com/music/wiki/irish/jigs/pipe_on_the_hob?rev=1158366149
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

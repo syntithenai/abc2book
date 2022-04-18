@@ -1,0 +1,27 @@
+X:099
+U: ~ = !turn!
+%%topmargin 3cm
+T:Jig from West Clare
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:G
+B,/2A,/2 | G,A,G, DB,D | GFG Bdg | edc BdB | AGE DB,A, |
+G,G,/2G,/2G, DD/2D/2D | GFG Bdg | edc BdB | AGF G2 ::
+D| GBd gag | ece dBG | cde dBG | AcB AFD |
+GBd gg/2g/2g | ece dBG | cde dBG | AGF G2 :|]
+S:https://www.folktunefinder.com/tunes/94695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Jig_from_West_Clare_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Jig_from_West_Clare_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

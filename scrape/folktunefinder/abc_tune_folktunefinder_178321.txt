@@ -1,0 +1,25 @@
+X:1744
+T:Ned Naughton's Hornpipe
+M:2/4
+L:1/16
+N:"collected by J. O'Neill"
+B:O'Neill's 1744
+R:Hornpipe
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:D
+   ((3ABc) | dcde  dAFA | Bcde dcBA | BGGB AFdF | EFGA GFED |
+             dcde  fdAF | EFGA Bcde | fdcd BGEC | D2D2 D2  :|
+|:   z2    | A^GAB Acef | gefd dcBA | BGGB AFdF | EFGA GFED |
+             dAFA  GBEG | FAdf ecAF | GBAG FDEC | D2D2 D2  :|
+S:https://www.folktunefinder.com/tunes/178321
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/1744_bs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

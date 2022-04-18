@@ -1,0 +1,26 @@
+X: 6
+T: Looney Tunes
+I: Looney TunesS-CDsquare
+% C: S-C
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: D
+% P: A
+A2| "D"ddc2 B2A2| F6 A2| ddc2 B2=c2| "A"^c8| \
+       c2A2 B2A2| c2A2 B2A2| A2_B2 =B2c2| "D"d2f2 d2 :|
+%%textfont Times-Roman 12.0
+%%text to B part of "Chinese Breakdown".
+%%textfont Times-Roman 9.0
+%%text 11/19/98Formerly R-101
+S:https://www.folktunefinder.com/tunes/97287
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

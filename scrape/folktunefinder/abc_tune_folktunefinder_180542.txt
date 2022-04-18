@@ -1,0 +1,28 @@
+X:1
+T:Opus 11
+C:
+L:1/8
+Q:424
+M:4/4
+K:C
+|: "Am"AB c^d2e2e | "Dm"fe ^df "E7"e=d cB | "Am"AB cd2^d2e | "Dm"af df "E7"e4 | "Am"AB c^d2e2e | \
+ "Dm"fe ^df "Am"e=d ce | "Dm"fe df "Am"ed ce | "E7"dc B^G "Am"A4 | "Am"a^g ab c'b ae | \
+ "Dm"d^c de [f4A4] | "E7"B_B =Bd e3/2f/4e/4 dc | "Am"A^G AB [c4E4] | "Dm"FE Fe fe ^de | \
+ "Am"E^D Ee fe cA | "E7"B_B =Be "G#dim"^gf dB | "Am"A^G AB A4 | A^G AB c(3B/c/B/ AE | \
+ "Dm"FE FG A4 | "E7"B_B =Bd e3/2f/4e/4 dc | "Am"Ac "E7"e^g "Am"[a4c4] | "Dm"d'^c' d'2 a^g a2 | \
+ "Am"c'b c'2 a^g a2 | "E7"b_b =b^g ed "G#dim"cB | "Am"A4 [a4c4E4A,4] | "Bm"b_b =b2 "E"^g=g ^g2 | \
+ "A"a^g ag "E"ed B^G | "A"AB ^ce ^fe ce | "Bm"B^c de "E"[^g4B4] | "Bm"B,b d^F ad Fa | \
+ "E"B,^g BE ^fB Ef | "A"A,e AE dE A,d | [^c8E8A,8] | "Am"AB ce fe ^de | "Dm"Bc de "E7"[^g4B4] | \
+ "Bm7b5"bf2a "Dm"f2 a2 | "E7"^ge Be [g4B4] | "Am"A,a cE gc Eg | "Dm"A,f AD eA De | \
+ "E7"^G,e BD ^gB Dg | "Am"[ac]^g ab [a4c4] | A,a cE gc Eg | "Dm"A,f AD eA De | "E7"^G,e BD ^gB Dg | \
+ [a6c6E6A,6] z2 :| \
+W:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/180542
+S:http://trillian.mit.edu/~jc/music/abc/mirror/originaltraditional.net/41/opus11_matthewfox.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

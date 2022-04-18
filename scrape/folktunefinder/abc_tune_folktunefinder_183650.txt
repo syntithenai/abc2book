@@ -1,0 +1,41 @@
+X:1
+%
+T:Praeludium 105
+C:from Elias Mertel (1615)
+C:Hortus musicalis novus
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[cdda1] {a} ,d .a |\
+    [M:3] [cdda/] d// .c d .c a .c ,,,,c .,d ,c .,d |\
+    ,,,,e// .a c .a ,d .a c .a ,,,,a .,c ,a .,c |\
+    ,,,,c// .,d ,c .,d ,a .,c ,d .,a ,,,,,d .,a ,c .,a |
+%staff 2
+,,,,a// .,c ,a .,c ,d .,c ,a .,c ,,,,,c .,,d ,,c .,,d |\
+    ,,,,,d// .,a ,c .,a ,,d .,a ,c .,a ,,,,,a .,,b ,,a .,,b |\
+    ,,,,,c// .,,d ,,b .,,d ,,a .,,b ,,d .,,a {a} .,,a ,,b .,,a |\
+    [M:C|] ,,,,,a// .,,b :,,a .,,b ,,,,,c .,,d :,,b .,,d 
+%staff 3
+,,,,,d// .,a :,,d .,a ,,,,a .,c :,a .,c |\
+    ,,,,c// .,d :,c .,d ,,,,e .a :,d .a ,,,a .c :a .c ,,,c .d :c .d |\
+    ,,,,e// .a :,d .a ,,,a .c :a .c ,,,,c .,d :,c .,d ,,,,e .a :,d .a |
+%staff 4
+,,,,a// .,c :,a .,c ,,,,c .,d :,c .,d ,,,,,d .,a :,,d .,a ,,,,a .,c :,a .,c |\
+    ,,,,,c// .,,d :,,c .,,d ,,,,,d .,a :,,d .,a ,,,,,a .,,b :,,a .,,b ,,,,,c .,,d :,,b .,,d |\
+    [,,aa{a}//] .,,b :,,d .,,a [,,b,,a] .,,d :,a .,,b
+%staff 5
+[,,d,,c//] .,a :,c .,,d [,a,,,d] .,,d :,a .,c |\
+    [,d{a}//] .a :c .,d [a,,,a] .,d ,c .,a ,d .,c ,d .,c ,d .,c ,a .,c |\
+    [cdd{a}1] .d [c,d] [a,b] |\
+    [cdd] |]
+S:https://www.folktunefinder.com/tunes/183650
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prael_105.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Mertel/prael_105.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

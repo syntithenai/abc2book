@@ -1,0 +1,25 @@
+X: 1
+T: the Maid of Selma
+B: O'Neill's 250
+N: "Gaily"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+(G2E) (EDE) | G3 (g2e) | (d2B) (BAG) | .A.B.A (A2B) \
+| (G2E) (EDE) | G3 (g2e) | (d2B) .B.A.G | A3 G3 ||
+|| d3 (gfg) | e3 (dcB) | (d2e) (g2a) | (b2e) e2z \
+| d3 (gfg) | e3 (dcB) | (d2e) (g2b) | a3 (g2a) |
+| (b2e) (efg) | (f2d) d3 | (e2B) (~BAG) | (A2E) E2 \
+| (G2E) (~EDE) | G3 g3 | | .e.d.B .B.A.G | A3 G3 ||
+S:https://www.folktunefinder.com/tunes/173796
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/MaidOfSelma.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

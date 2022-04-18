@@ -1,0 +1,56 @@
+X: 9114
+T: Nuala Kelly's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] D|"Em"E3 F GFGB|"G"d2 BG "Am"AGEF|"G"GFGB "Bm"d2 Bd|"G"gfed "Em"B2 Bd|
+[V:2] z|E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+G,,2[G2B2D2]E,2[E2B2G2]|
+%
+[V:1] "G"gfga gdBd|"C"cBAG EGcA|"G"B2 GD "C"EGcB|"D"AFEF "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|C,2[E2G2C2]G,,2[E2C2G2]|G,,2[G2B2D2]C,2[E2G2C2]|\
+D,2[A2D2F2][G,3B,3D3]:|
+%
+[V:1] A|"G"B3 d "Em"edef|"G"gd (3d^cd "D"ad (3d^cd|"Em"bgeg "G"dB (3BAB|\
+"Em7"edBd "D"A3 D |
+[V:2] z| G,,2[G2B2D2]E,2[E2B2G2]| G,,2[G2B2D2]D,2[A2D2F2]|E,2[E2B2G2] G,,2[G2B2D2]|\
+E,2[D2B2G2]D,2[A2D2F2]|
+%
+[V:1] "G"G3 A BGBd|"C"cBcd "Am"efga|"G"gd (3d^cd "Em"edBG|"D"FGAF "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|C,2[E2G2C2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[D2B2G2]|\
+D,2[A2D2F2][G,3B,3D3]:|
+%%%%%%tune repeat
+[V:1] D|"Em"E3 F GFGB|"G"d2 BG "Am"AGEF|"G"GFGB "Bm"d2 Bd|"G"gfed "Em"B2 Bd|
+[V:2] z|E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[G2B2D2]B,,2[F2B2D2]|\
+G,,2[G2B2D2]E,2[E2B2G2]|
+%
+[V:1] "G"gfga gdBd|"C"cBAG EGcA|"G"B2 GD "C"EGcB|"D"AFEF "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|C,2[E2G2C2]G,,2[E2C2G2]|G,,2[G2B2D2]C,2[E2G2C2]|\
+D,2[A2D2F2][G,3B,3D3]:|
+%
+[V:1] A|"G"B3 d "Em"edef|"G"gd (3d^cd "D"ad (3d^cd|"Em"bgeg "G"dB (3BAB|\
+"Em7"edBd "D"A3 D |
+[V:2] z| G,,2[G2B2D2]E,2[E2B2G2]| G,,2[G2B2D2]D,2[A2D2F2]|E,2[E2B2G2] G,,2[G2B2D2]|\
+E,2[D2B2G2]D,2[A2D2F2]|
+%
+[V:1] "G"G3 A BGBd|"C"cBcd "Am"efga|"G"gd (3d^cd "Em"edBG|1 "D"FGAF "G"G3 :|2\
+"D"FGAF "G"HG4 ||
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|C,2[E2G2C2]A,,2[A2C2E2]|G,,2[G2B2D2]E,2[D2B2G2]|1\
+D,2[A2D2F2][G,3B,3D3]:|2 D,2[A2D2F2]H[G,,4B,4D,4] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87199
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

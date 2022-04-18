@@ -1,0 +1,80 @@
+X:1981
+T:Spinning song
+T:Op. 14
+C:Albert Elmenreich
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/elmenreich-albert/elmenreich-spinning-song.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:2/4
+L:1/8
+K:F
+V:1
+z4|z4|A,/B,/C/D/ C[A,-F-]|[A,F][CG][F2A2]|A,/B,/C/D/ C[A,-C-F-]|
+V:2
+F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|
+%
+V:1
+[A,CF][B,CE][A,2C2F2]|A,/B,/C/D/ C[A,-F-]|[A,F][CG][F2A2]|A,/B,/C/D/ C[A,-C-F-]|[A,CF][B,CE][A,2C2F2]|
+V:2
+F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|
+%
+V:1
+z [EG] z [F_A]|z [^F=A] z [GB]|[Bd][Ac][GB][FA]|[EG][FG=B] [EGc] z|z [EG] z [F_A]|
+V:2
+C,,C,C,,C,|C,,C,C,,C,|C,,C,C,,C,|C,,C,C,,C,|C,,C,C,,C,|
+%
+V:1
+z [^F=A] z [GB]|[Bd][Ac][GB][FA]|[EG] C=B,_B,|A,/B,/C/D/ C[A,-F-]|[A,F][CG][F2A2]|
+V:2
+C,,C,C,,C,|C,,C,C,,C,|C,,2 z2|F,,C,F,,C,|F,,C,F,,C,|
+%
+V:1
+A,/B,/C/D/ C[A,-C-F-]|[A,CF][B,CE][A,2C2F2]|A,/B,/C/D/ C[A,-F-]|[A,F][CG][F2A2]|A,/B,/C/D/ C[A,-C-F-]|
+V:2
+F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|
+%
+V:1
+[A,CF][B,CE][A,CF] z|[_EF][EF][EF][EF]|[_EF][EF][EF][EF]|[DF][DF][DF][DF]|[DF][DF][DF][DF]|
+V:2
+F,,C,F,, z|C3A,/F,/|C z z2|B,3A,/G,/|F, z z2|
+%
+V:1
+[_EF][EF][EF][EF]|[_EF][EF][EF][EF]|[DF][DF][DF][DF]|[DF][DF][F_A][FA]|[FG][FG][FG][FG]|
+V:2
+C3A,/F,/|C z z2|B,2-B,/A,/B,/G,/|F, z z2|D3=B,/G,/|
+%
+V:1
+[_EG][EG][EG][E_G]|[_EF][EF][EF][EF]|[DF][DF][DF][DF]|[CD^F][CDF][CDF][CDF]|[B,DG][B,DG][DF][DF]|
+V:2
+C z z2|C3A,/F,/|B, z z2|A,3^F,/D,/|G, z A,2|
+%
+V:1
+[DE][DE][DE][DE]|[^CE]EEE|[E3e3]d/=B/|^c z z2|=B3 ^G/E/|
+V:2
+B,2^G,2|A, z z2|E,[^G,D][G,D][G,D]|E,[A,^C][A,C][A,C]|E,[=B,D][B,D][B,D]|
+%
+V:1
+A z z2|[E3e3]d/=B/|^c z z2|=B3 ^G/E/|AA z B|z G z c|
+V:2
+E,[A,^C][A,C][A,C]|E,[^G,D][G,D][G,D]|E,[A,^C][A,C][A,C]|E,[=B,D][B,D][B,D]|[A,^C] z [_B,,_B,]|[G,,G,] z [C,C] z |
+%
+V:1
+[A,CF][B,CE][A,2-C2-F2-]|[A,CF][B,/D/]E/[F2-A,2]|[A,F][B,/D/]E/ [A,F][B,/D/]E/|[A,4-F4-]|[A,4-F4-]|[A,2F2]z2|]
+V:2
+F,,C,F,,C,|F,,C,F,,C,|F,,C,F,,C,|F,,F,E,F,|C,F,A,,C,|F,,2z2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180501
+S:http://abc.musicaviva.com/tunes/elmenreich-albert/elmenreich-spinning-song.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/elmenreich-albert/elmenreich-spinning-song.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/elmenreich-albert/elmenreich-spinning-song.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

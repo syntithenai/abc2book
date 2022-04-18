@@ -1,0 +1,20 @@
+X:1
+T:Mason's Apron
+M:4/4
+L:1/8
+K:G
+ dd| g2 G2 GB AG| DE GA BG AB| c2 A2 AB AG| FG AB| cd ef| g2 G2 GB AG|\
+ DE GA B2 AG| AB cd ef ge| dB AB| G2| dd|B-d-d-de-d-d-d|B-d-d-de-d-d-d|\
+c-e-e-ef-e-e-e|c-e-e-e|f-e-d-c|B-d-d-de-d-d-d|B-d-d-de-d-c-B| cB cd ed ef|\
+ ge dB| G2||
+S:https://www.folktunefinder.com/tunes/174660
+S:http://back.numachi.com:8000/dtrad/abc/MASONAPR.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MASONAPR.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

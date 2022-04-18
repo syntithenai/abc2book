@@ -1,0 +1,25 @@
+X: 1
+T: Miss McLeod's Reel
+N: abc version by Robert Bley-Vroman, Contradancers of Hawaii, July 1996
+Z: mailto:vroman@hawaii.edu
+M: 2/2
+L: 1/8
+K: G
+|:BA | G2 BG dGBG | B2 BA BcBA | G2 BG dGBG | A2 AG AcBA |
+       G2 BG dGBG | B2 BA B3 d | efed  Bdef | gedB Ac :|
+|:BA |  G2 gf edeg | B2 BA BcBA | G2 gf edeg | A2 AG AcBA |
+        G2 gf edeg | B2 BA B3 d | efed  Bdef | gedB Ac :|
+S:https://www.folktunefinder.com/tunes/176234
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/mcleod.abc
+S:http://www.sls.hawaii.edu/contra/dances/mcleod.abc
+S:http://www.sls.hawaii.edu/bley-vroman/contra/dances/mcleod-abc.html
+S:http://www.sls.hawaii.edu/contra/dances/mcleod-abc.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,64 @@
+X:1957
+T:Minuet
+C:Henry Purcell
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/purcell-henry/purcell-minuet.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass up %Harpsichord
+V:3 Program 1 6 bass merge down %Harpsichord
+M:3/4
+L:1/8
+K:Am
+V:1
+A^GABA2|B2B2E2|A2^G2A2|B4B2|
+V:2
+C6|B,6|A,6|^G,6|
+V:3
+A,6|=G,6|F,6|E,6|
+%
+V:1
+cBcdc2|B2B2E2|A2B2^G2|{A/^G/}A4e2|
+V:2
+z2=G,2C2|z2D4|C2z2B,2|A,4C2|
+V:3
+C,6|G,4A,2-|A,2E,4|z2A,,2A,2|
+%
+V:1
+{d/e/}d2cBe2|{c/d/}c2BAB2|c2d3c/d/|e6|
+V:2
+B,4B,2|A,4=G,2|z2A,4|^G,6|
+V:3
+A,4^G,2|z2A,,2=G,2|F,6|E,6|
+%
+V:1
+A^GABA2|B2B2E2|A2^G2A2|B4B2|
+V:2
+C6|B,6|A,6|^G,6|
+V:3
+A,6|=G,6|F,6|E,6|
+%
+V:1
+cBcdc2|B2B2E2|A2B2^G2|{A/^G/}A6|]
+V:2
+z2=G,2C2|z2D4|C2z2B,2|A,6|]
+V:3
+C,6|G,4A,2-|A,2E,4|z2A,,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175934
+S:http://abc.musicaviva.com/tunes/purcell-henry/purcell-minuet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/purcell-henry/purcell-minuet.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/purcell-henry/purcell-minuet.abc
+% Rhythm Minuet
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

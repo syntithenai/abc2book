@@ -1,0 +1,22 @@
+X: 1
+T: Rippling Water
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: f/g/ | a2 d f2 d | fad f2 d | Ace gfe | dfb a2 f/g/ |
+a2 d fdd | fad f>ed | Ace gfe | dd/d/d d2 :|
+K: Gmaj
+|: g- | g>fa gfe | d^ce dBG | cAF D2 e/f/ | edB G3 |
+gf/g/a gfe | d^ce d3 | f>ed cBA | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/185591
+S:http://www.thesession.org/tunes/display/7219
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X: 2056
+T: Linguist, The
+R: hornpipe
+C: Rick Gagne
+N: 1991 on tenor banjo and whistle
+M: 4/4
+Q: 1/4=160
+K: D
+fe | "D"dABA FAD2 | FDFA dAFA | "G"BdcA BAFA | "Em"BAFA "A"E2fe | 
+"D"dABA FAD2 | FDFA dAFA | "Em"BdcA "Bm"BAFA | "G"Bddc "D"d2 :|
+AB | "D"d2cd BAFA | "Bm"defg afdf | "G"g2fg edBA | "Em"Bdef "G"g2fg | 
+"D"a2ga "Bm"fdBA | "G"BdAB "D"dAFA | "Em"BdcA "Bm"BAFA | "G"Bddc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/93058
+S:http://www.qmcorp.net/zouki/rickfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

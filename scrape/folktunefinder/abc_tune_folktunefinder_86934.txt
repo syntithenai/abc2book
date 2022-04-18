@@ -1,0 +1,38 @@
+X:245
+T: First Grandchild (with piano acc.)
+C: BB
+R: reel
+M: 4/4
+Q: 1/8=350
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Ddor
+[V:1] "Dm"af (3d^cd "Am"ed=cA|"G"Bdge "Am7"cAGE|"F"FAcA "Dm"defd|"F"fafc "Am7" ecAG|
+[V:2] D,2[A2D2F2]A,,2[A2C2E2]|G,,2[G2B2D2]A,,2[G2C2E2]|F,,2[A2C2F2]D,2[D2A2F2]|\
+F,,2[A2C2F2]A,,2[A2C2E2]|
+%
+[V:1] "Dm"D2 FA d^cde|"Dm"fdfg "Am7"agec|"Dm"dfad "C"cegc|"Am7"AcGE "Dm"FD D2 :|
+[V:2] D,2[D2A2F2]A,,2[A2D2F2]|D,2[D2A2F2]A,,2[G2C2E2]|D,2[D2A2F2]C,2[C2G2E2]|\
+A,,2[G2C2E2]D,2[D2A2F2] :|
+%
+[V:1] "Dm"d2 ^cd "Am7"AGFE|"Dm"DEFA "C"cG (3G^FG|"Dm"Ad (3d^cd ad (3d^cd|\
+"Am"ecAB "C"c3 c |
+[V:2] [D,4A,,4F4][A,,4E,4C4G,4]|[D,4A,,4F4][C,4G,4E4]|D,2[A2D2F2]A,,2[A2D2F2]|\
+A,,2[G2C2E2]C,2[C2G2E2]|
+%
+[V:1] "D"d2 ^fd "D"edfd|"C"cdeg "Am"aecA|"D"D2 ^FA "Dm"D2 =FA|"C"GcGE "Dm"D4 :|
+[V:2] D,2[A2D2^F2]A,,2[A2D2^F2]|C,2[E2G2C2]A,,2[A,,2C2E2]|\
+D,2[A2D2^F2]=F,,2[D2A2=F2]|C,2[C2G2E2][D,4A,,4F,4]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86934
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

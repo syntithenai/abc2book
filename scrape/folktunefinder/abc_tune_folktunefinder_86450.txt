@@ -1,0 +1,25 @@
+X:205
+T: Delights of Inchicore
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+A|"G"DGA BAG|"Am"AcA "D"AFE|"G"DGB d^cd|"A"ed^c "D"d2 A|
+"G"DGA BAG|"Am"AcA ABc|"G"ded "Am"cAF|"D"AGF "G"G2 :|
+A|"G"dgg Bdg|"D"a^ga fed|"G"BGB "C"cBc|"A"ed^c "D"d2 A|
+"G"dgg "Am"aga|"Em"bag "D7"fdc |"G"Bcd "Am6"cAF |"D"AGF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86450
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

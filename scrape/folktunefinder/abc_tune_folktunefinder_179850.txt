@@ -1,0 +1,26 @@
+X:0266
+T:"The Old Blind Bard"            (air)           0266
+C:after Sg't.  J. O'Neill
+C:brilliantly
+B: O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=130
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+"_VB"(BA)|(GABc) .d2(cd)|(edcd) .B2(ba)|{a}g2(fe) B2^d2|e6(BA)|
+(GABc) .d2(cd)|(edcd) .B2(ba)|(gfed) B2^d2|e6||
+b2|b3a .g2(fg)|(agfe) .d2(ef)|.g2(fg) (ef)(ga)|b2B2 .B2(BA)|
+(GABc) .d2(cd)|(edcd) .B2(ba)|(gfed) B2^d2|e6|]
+S:https://www.folktunefinder.com/tunes/179850
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0266-OldBlindBard.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0266-OldBlindBard.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

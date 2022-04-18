@@ -1,0 +1,42 @@
+X:2
+T:Mrs. Farquharson's Jigg or Quick Step
+C:Robert Petrie
+S:Petrie's Collection of Strathspey Reels and Country Dances &amp;c., 1790
+Z:Steve Wyrick <sjwyrick'at'astound'dot'net>, 3/20/04
+N:Petrie's First Collection, page 2
+L:1/8
+V:1 name = &quot;violin&quot;
+V:2 name = &quot;bass&quot; clef=bass middle=d transpose=-24
+M:6/8
+R:Jig
+K:Cm
+[V:1] G|(Tc=Bc) GEC|(Tc=Bc) edc|(Tc=Bc) G=A_B| FGE DCB, |
+[V:2] z|C3      E3 |  F3    G3 | c3     e3   | d2f b2B  |
+%Petrie's original does not have the B flatted in the third measure -SW
+[V:1]   (Tc=Bc) GEC|cde     dec|=BGg    fed  | ecc c2  :|
+[V:2]   c3      e3 |  a3    f3 | g2 e   g2G  | c3  C2  :|
+[V:1] c|(Tgfg)  edc|(Tgfg)  fed|(Tgfg)  cde  |=Bcd G3   |
+[V:2] z|c3      c'3| =b3    g3 | e3     f3   | g3  gaf  |
+[V:1]   (Tgfg)  edc|(Tgfg)  fed| efg    fed  | ecc c3   |
+[V:2]   e3      c3 | =B3    G3 | c2e    g2G  | c3  CEG  |
+[V:1]   (Tgfg)  edc|(Tgfg)  fed|(Tgfg)  cde  |=Bcd G2F  |
+[V:2]   c3      c'3| =b3    g3 | c3     f3   | g3  G=A=B|
+[V:1]   EDC     FED| GFE    AGF| Ged    cd=B | c2c c2  |]
+[V:2]   c3      G3 | c3     f3 | e2f    g2G  | cGE C2  |]
+% The above code was written using Phil Taylor's BarFly abc
+S:https://www.folktunefinder.com/tunes/177430
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08128.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08135.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08138.html
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg08131.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

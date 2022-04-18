@@ -1,0 +1,30 @@
+X:340
+T:Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+N:there's an extra quaver in B part bar 9, yes.
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000620.html
+%%ID:00000620
+K:G
+B2 cBAG | A2 D2G2 | A2 GABc | B4 A2 | \
+d2 cBAG | g2 fedc | B2 c2 A2 | G6 ::
+B2 cBAG  | A2 d4    | B2 cBAG | A6   | \
+d2 =fedc | B2 Tg4   | d2 g4   | d2g4 | \
+c2 edcBc | A2 F2 G2 | cA A4   | G6  :|
+%%newpage
+%page 21
+S:https://www.folktunefinder.com/tunes/88225
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

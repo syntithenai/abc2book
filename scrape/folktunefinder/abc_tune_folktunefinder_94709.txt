@@ -1,0 +1,32 @@
+X:113
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lark in the Morning
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:Bm
+B |:AFA AFA | BGB BdB | AFA AFA | fed B{/c}dB |
+AFA AFA | BGB BGB | def afe | fed BdB ::
+def afa | baf afe | def afe | fed BAB |
+def afa | baf a2 f | gbg faf | edB BAB ::
+dff fdf | fdf fed | dff fdf | edB BAB |
+dff fdf | fdf fed | faf gfe | edB BAB ::
+ABd fed | ede fed | ABd fed | edB BAB |
+ABd fed | efe fed | faf gfe | [1edB BAB :|] [2edB B2 |]
+S:https://www.folktunefinder.com/tunes/94709
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lark_in_the_Morning_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lark_in_the_Morning_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

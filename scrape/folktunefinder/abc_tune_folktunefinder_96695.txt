@@ -1,0 +1,22 @@
+X:375
+T:Lamentarola
+M:3/4
+L:1/8
+R:
+K:F
+|:"Dm"ag fe d^c | dA GF ED | "Gm"ba gf ed | "A7"^cA GA cG | ^FA c_e dc | BG FG DF |
+|EG Bd cB | AF EF CE | DF BA BA | GE ^cG Ec | dA GA fd | e2 A4 :|
+|: ed ^c=B Aa | fe de fc | dc =BA Gg | ed cd eB | cB AG Ff | dc Bc dA |
+| BA GF Ee | ^c=B AB ^cA | d^c dA eA | fe fA Ge | "Dm"FE Fd "A"E^c | "Dm"d2 D4 :|
+S:https://www.folktunefinder.com/tunes/96695
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

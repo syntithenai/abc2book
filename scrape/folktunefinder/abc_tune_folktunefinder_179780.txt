@@ -1,0 +1,28 @@
+X: 1
+T: O jul med din glede [C]
+%C: Words: Gustava Kielland
+C: Tune: Trad (Norway)
+M: C
+L: 1/8
+K: C
+C |\
+"C"[G2E2C2] "G"[GD][GD] "C"[E2C2] CC |\
+"F"[A2F2] [AF][AF] "C"[G2E2] z[GF] |\
+"C"[c2E2] [GE][FD] [E2C2] [GE][EC] |\
+"G7"[D4B,4] "C"C2 :|
+[cE] |\
+"G7"[BD]B/c/ [dF][BD] "C"[G2E2] [c2E2] |\
+"G7"[BF]c [dF]B "C"[G2E2] [c2G2] |\
+"F"[B2G2] [A2F2] "A7"[G2E2] "Dm"[F2D2] |
+"C"[E2C2] "E7"[D2B,2] "Am"[C2A,2] [E2A,2] |\
+"Dm"[DA,]E [FD][AF] "C"[G2E2] "G7"[FD]B, |\
+"G7"[D4B,4] "C"[C2G,2] "Am"[E2C2] |\
+"Dm"([D2-A,2] "G7"[D2B,2]) "C"[C3G,] |]
+S:https://www.folktunefinder.com/tunes/179780
+S:http://trillian.mit.edu/~jc/music/abc/Scand/xmas/OJulMedDinGlede_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

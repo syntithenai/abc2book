@@ -1,0 +1,25 @@
+X:5
+T: Land of Sunshine
+R: reel
+C: Martin Mulhaire
+Z: B.Black
+M: 4/4
+L: 1/8
+K: C
+G, | C2 EC B,DGF | EccB cGEG | FAdF EGcG |\
+FEDC B,G,A,B, |
+C2 EC B,DGF | EccB cGEG | FAdA BGFD | DCB,D C3 :|
+e/2f/2 | ge e2 fdBd | cedB cGEG | FAdF EGce |\
+fedc defa |
+ge e2 fdBd | cedB cGEG | FAdc BGFD | DCB,D C3 :|
+S:https://www.folktunefinder.com/tunes/89363
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

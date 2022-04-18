@@ -1,0 +1,41 @@
+X:147
+U: ~ = !turn!
+%%topmargin 3cm
+T:O'Carolan's Concerto
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+U: ~ = !turn!
+%%staves {1 2}
+K:D
+V:1
+d2 dd d2 cB | ABGA F2 A2 | E2 A2 D2 FA | Bcde dcBA |
+d2 a2 fgaf | efge fgaf | gabg fdfa | Pgfed PdcBA |
+BG ((3Bcd) gBgB | AdAd fAfA | GBGB efed | cdBc ABGA |
+FGAF EFGE | FGAF GABG | AFAd fedc | [1 d2 dd d2 z2:|] [2 d2 dd d2 ||
+V:2
+F2 FF G2 AG | FGEF D2 FD | CDEC D2 FD | G2 PG2 FGEF |
+D2 F2 J[A3A3] A | J[A3A3] A J[A3A3] F| GBdG FAdF | E^GBG AGAF |
+=GBGB GBGB | ~F2 FA FAFA | ~E2 EB ^GBGB | AA=GA FGEF |
+DEFD A,DEA, | DE=CD B,CDB, | A,DFA G2 PG2 | FAGA D2 :|]
+U: ~ = !turn!
+%%staves 1
+|: ((3ABc) | d2 b2 agfe | Pd2 a2 c2 a2 | B2 gB ABcd | edBA d2 df |
+edcB da (3.a.a.a | Bg (3.a.a.a Af (3.f.f.f | edcB ca (3.a.a.a | Bg (3.g.g.g bgbg |
+afaf edcB | cABG AFGE | DAFA DAFA | ((3GFE) BE ((3GFE) BE |
+FAdc BAGF | EFGA BcdB | AFAd | fedc | [1 ((3dcd) ((3edc) d2 :|] [2 ((3dcd) ((3edc) d2 z2 |]
+S:https://www.folktunefinder.com/tunes/94743
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/OCarolans_Concerto_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/OCarolans_Concerto_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

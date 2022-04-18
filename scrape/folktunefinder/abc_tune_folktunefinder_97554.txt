@@ -1,0 +1,27 @@
+X:5
+T: Sakura
+N: I0001
+O: Asien, Ostasien, Japan
+N: ]
+R: Volkslied
+M: 4/4
+L: 1/8
+K: C
+A2A2B2z2 | A2A2B3z
+A2B2c2B2 | A2BAF3z
+E2C2E2F2 | E2ECB,3z
+A2B2c2B2 | A2BAF3z
+E2C2E2F2 | E2ECB,3z
+A2A2B2z2 | A2A2B4
+z2E2F4 | BAF2E4
+S:https://www.folktunefinder.com/tunes/97554
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Volkslied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

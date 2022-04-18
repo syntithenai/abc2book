@@ -1,0 +1,23 @@
+X: 1
+T: Quiet Man, The
+M: 4/4
+L: 1/8
+R: strathspey
+K: Dmin
+|:D>F E>D A,2 (3 A,B,=B,|C2 E>D C>E G<E|F>D E>C D<d d>B|
+(3ABA (3GFE (3FED (3EDC|D>F E>D A,2 (3A,B,=B,|C2 E>D C>E G<E|
+F>D E>C D<d d>B|1(3ABA (3GFE F<D  D2:|2(3ABA (3GFE F<D D>^c||
+|:d2 f>d d>a f<d|c2 G>A E<C  C>=c|d2 f>d (3dfa (3fed|
+(3aba (3efg (3fed (3 ed^c|d2 f>d d>a f>d|c2 G>c E>C C<E|
+(3DEF (3EFG (3FGA (3GAB|1(3ABA (3GFE (3FED (3EDC:|2(3ABA (3GFE F<D D2||
+S:https://www.folktunefinder.com/tunes/184347
+S:http://www.thesession.org/tunes/display/3163
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

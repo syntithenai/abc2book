@@ -1,0 +1,29 @@
+X:038
+%%topmargin 3cm
+T:Youghal Harbour
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:G
+(BA) | GFEF GABd | egfa g2(bg) | dcBA G2(Bd) | cBAG EcBA |
+GFEF GABd | egfa gage | dcBA B>((5AB/2c/2B/2A/2) | G2E2 E2 ::
+(dc) | Bdef g2(fg) | agfg e2(ge) | dcBA G2(Bd) | cBAG EcBA |
+GFEF GABd | egfa gaba | gedc B>((5AG/2F/2G/2A/2) | B2G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/91968
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Youghal_Harbour.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

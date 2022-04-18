@@ -1,0 +1,32 @@
+X: 1
+T:None So Pretty
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Field Town
+O:English
+R:Jig
+%P:A/2.AB.(CB)$^2$
+P:A.AB.(CB)2
+K:G
+Q:C3=100
+P:A
+|: D | G2 d BGB | c2 A AFD | BAG EFG | DEF  G2 :|\
+P:B
+   G | c2 d ecA | B2 c dBG | Bcd eee | ABc  d2 \
+   D | G2 d BGB | c2 A AFD | BAG EFG | DEF  G2 ||\
+Q:C3=88
+P:C
+|: D | G3   d3  | B G2 B3  | c3  A3  | A F2 D3 |\
+       BAG  EFG | DEF  G2  :|
+S:https://www.folktunefinder.com/tunes/179014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/None_So_Pretty_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

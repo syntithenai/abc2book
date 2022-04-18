@@ -1,0 +1,27 @@
+X:895
+T:Sailor's Delight
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/2
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000606.html
+%%ID:00000606
+K:G
+F2f2 (efge) f2cB | (ABcA) F2B2 (ABc)~A |\
+G2d2 f2dc   d4   |  D2G2  G2B2   ABcA ::
+a2gf (efge) f2cB | (ABcA) F2B2 (ABcA) |\
+a2gf (efge) d4   |  D2G2  G2B2 (ABc)~A ::
+B2dB (ABc)A G4   | f2gf   f2ed (ABc)A |\
+B2dB (ABcA) G4   | D2G2   G2B2 ABcA :|
+S:https://www.folktunefinder.com/tunes/88336
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/2
+% Has_accompaniment_chords No chords

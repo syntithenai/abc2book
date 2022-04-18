@@ -1,0 +1,24 @@
+X: 3
+T: The Rambling Pitchfork
+M: 6/8
+L: 1/8
+R: jig
+K: D Major
+|: E |\
+F3 AFF | dFF AFD | GFG ABc | ded cAG |
+FAF AFF | dFF AFD | GFG BAB | AFD D2 :|
+|: A |\
+d2 e fed | ecA AFA | dcd efg | faf gfe |
+[1 dcd fed | ecA AGF | GFG BAB | AFD D2 :|
+[2 a2 f gfe | fed ecA | GFG BAB | AFD D2 |]
+S:https://www.folktunefinder.com/tunes/184637
+S:http://www.thesession.org/tunes/display/89
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

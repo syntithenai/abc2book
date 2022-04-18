@@ -1,0 +1,47 @@
+X: 209
+T: Tadd's Delight
+C: Tadd Dameron
+Q: 1/4=176
+M: 4/4
+L: 1/8
+%%staves (chords melody)
+K: Ab
+P: A
+V: chords
+x3 || "Bbm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 x4 | "Cm7b5"x4 "F7"x4 |
+"Bbm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 ||
+V: melody
+c3 || .A2z2 zc3 | (Ac3) (=EB3) | ._E2z2 z(C EF | _G2Bd) zc3 |
+.A2z2 zc3 | (Ac3) (=EB3) | ._E2z2 z(C EF | _G2Bd) z3(c ||
+P: B
+V: chords
+"Dbmaj7"x4 x4 | "Gb7"x4 x4 | "Abmaj7"x4 x4 | "F7"x4 x4 |
+"Bb7"x4 x4 | x4 x4 | "Eb7"x4 x4 | "Cm7b5"x4 "F7"x4 ||
+V: melody
+eBBB) z4 | zc2c- c3(=B | _BE)z2 z3(F | _G2Bd)z4 |
+(=e3g) zez2 | z2( =eg ecA=E | =A3c) zB ze | z=Bz2 zc3 ||
+P: A
+V: chords
+"Bbm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 x4 | "Cm7b5"x4 "F7"x4 |
+"Bbm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Abmaj7"x4 x4 | "Ebm7"x4 "Ab7"x4 ||
+V: melody
+.A2z2 zc3 | (Ac3) (=EB3) | ._E2z2 z(C EF | _G2Bd) zc3 |
+.A2z2 zc3 | (Ac3) (=EB3) | ._E2z2 z(C EF | _G2Bd) z4 ||
+P: C
+V: chords
+"Dbmaj7"x4 x4 | "Gb7"x4 x4 | "Abmaj7"x4 x4 | "F7"x4 x4 |
+"Bbm7"x4 x4 | "Bbm7"x4 "Eb7"x4 | "Ab6"x4 x4 | "(Cm7b5"x4 "F7)"x4 ||
+V: melody
+zD zF zA zc | e3c z3(=B | _B3G) z3(E | _GA3 F)c3 |
+.A2z2 zc3 | (Ac3) (AE G.A) | z8 | z8 |]
+S:https://www.folktunefinder.com/tunes/87710
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

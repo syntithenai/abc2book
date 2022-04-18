@@ -1,0 +1,24 @@
+X:205
+T:Providence, The
+S:Trad. arr. Paddy O'Brien
+R:reel
+E:9
+I:speed 300
+M:C|
+K:D
+EDEF DEFA|~d2 fd gdfd|ed(3Bcd AdBA|~B2AF GFED|\
+EDEF DEFA|~d2 fd gdfd|ed (3Bcd AdBA|~B2AG FD D2:|\
+e|fd~d2 fdad|fd~d2 ecAg|fd~d2 fdad|ceag fdde|\
+fgaf gfec|dBAF GFGB|~A2 GB ABde|(3fga eg fdd:|**
+S:https://www.folktunefinder.com/tunes/90312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

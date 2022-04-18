@@ -1,0 +1,48 @@
+X: 9038
+T: Donncha's Slide (with piano acc.)
+C: BB
+R: slide
+Q: 400
+M: 12/8
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] B|:"D"A2 F "Bm"B2 F "G"dcd "Em"efg | "D"f2 d a2 f "Em"e3-edB |
+[V:2] z|:[A,3F3D,3][B,,3F,3D3][G,,3D,3B,3][G,3E,,3B,,3]|[A,6F,,6D,6][E,,6B,,6G,6]|
+%
+[V:1] "D"A2 F "Bm"B2 F "G"dcd "Em"efg |1 "D"a2 f "A7"gfe "D"d3 dcB :|
+[V:2] [A,3F3D,3][B,,3F,3D3][G,,3D3B,3][G,3E,,3B,,3]|1 [A,3F3D,3][A,,3E3C3G3]D,6:|
+%
+[V:1] |2 "D"a2 f "A7"gfe "D"d3-d2 |: e | "D"def def "A"cde cde |
+[V:2] |2 [A,3F3D,3][A,3E3C3G3]D,3-D,2 |: z |[A,6F6D,6][A,,6E,6C6]|
+%
+[V:1] "D"def "Em"edB "A"ABA AFG | "D"A2 B def "Em"e2 f gfe |"D"f2 a "A7"gfe "D"d3-d2 :|
+[V:2] [A,3F3D,3][E,3B,3G3][A,,6E,6C6]|[A,6F6D,6][E,,6B,,6G,6]|[A,3F3D,3][A,3E3C,3G3]\
+[A,3F3D,3] D,,2 :|
+%%%%%%tune repeat
+[V:1] B|:"D"A2 F "Bm"B2 F "G"dcd "Em"efg | "D"f2 d a2 f "Em"e3-edB |
+[V:2] z|:[A,3F3D,3][B,,3F,3D3][G,,3D,3B,3][G,3E,,3B,,3]|[A,6F,,6D,6][E,,6B,,6G,6]|
+%
+[V:1] "D"A2 F "Bm"B2 F "G"dcd "Em"efg |1 "D"a2 f "A7"gfe "D"d3 dcB :|
+[V:2] [A,3F3D,3][B,,3F,3D3][G,,3D3B,3][G,3E,,3B,,3]|1 [A,3F3D,3][A,,3E3C3G3]D,6:|
+%
+[V:1] |2 "D"a2 f "A7"gfe "D"d3-d2 |: e | "D"def def "A"cde cde |
+[V:2] |2 [A,3F3D,3][A,3E3C3G3]D,3-D,2 |: z |[A,6F6D,6][A,,6E,6C6]|
+%
+[V:1] "D"def "Em"edB "A"ABA AFG | "D"A2 B def "Em"e2 f gfe |1\
+"D"f2 a "A7"gfe "D"d3-d2 :|2 "D"f2 a "A7"gfe "D"d3-d3-|d6 z6 ||
+[V:2] [A,3F3D,3][E,3B,3G3][A,,6E,6C6]|[A,6F6D,6][E,,6B,,6G,6]|1 [A,3F3D,3][A,3E3C,3G3]\
+[A,3F3D,3] D,,2 :|2 [A,3F3D,3][A,3E3C,3G3][D,6-A6-F6-D6-]|[D,6A6F6D6] z6||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87123
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords Has chords

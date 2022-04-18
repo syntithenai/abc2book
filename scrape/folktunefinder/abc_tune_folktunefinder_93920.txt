@@ -1,0 +1,29 @@
+X: 32
+T:RIS DANS CITE (RIDEE 6 TEMPS)
+M:4/4
+L:1/8
+Q:1/4=175
+C:Yves BELOTTEAU
+P:1
+K:C
+|:Ac|e2f2|e/2e/2e/2z/2dc|BBcB|A2c2|e/2e/2e/2e/2dc|B2:|!
+|:Bc|d2e2|A/2A/2A/2z/2BA|^GE|1Bc|d2e2|A/2A/2A/2z/2^F^G|A2:|2Bc|d2e2|ed/2
+c/2Bc|A2|!
+P:2
+K:Em
+|:BB|GGAA|BzGF|GEBB|GGAA|BzGF|E2:|!
+|:EE|GzA2|B/2B/2B/2z/2GF|GEEE|G2A2|B/2B/2B/2z/2GF|E2:|!
+P:3
+K:C
+|:CE|G2cB/2A/2|GFDF|ECCE|G2cB/2A/2|GFDE|C2:|!
+|:CE|D2CB'/2A'/2|G'FED|ECCE|D2CB'/2A'/2|G'FED|C2:|!
+S:https://www.folktunefinder.com/tunes/93920
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/compos.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key E
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,20 @@
+X:1
+T:One-Hour Mama
+M:4/4
+L:1/8
+K:C
+ z4 z3 G| c2 d B- B3 A| c2 c B- B3 G| BG BG BG B A-| A6 z G| c3 dc A3|\
+ B2 c/2 d3/2- d2 z d| de dc z2 dd| G6 z G| c3 d B2 z c| z cc B z2 G2|\
+ Bc BG B2 B A-| A6 z G| B3 Bc A3| d2 d2 d2 Bc| de dc z BB G-| G6 ^d3/2 e/2|\
+ c2 c3/2 A/2 ce z e| ee ee ^cA z2| dc dc_e-d c/2 c3/2-| c6 ec| e2 e2 ce z e|\
+ ee e2 ^cA z d| dd d d- d2 dG| G6 de| cc cc c/2e/2 z GA| ce c3/2 c/2 c z GA|\
+ cA cc ce z c/2c/2| gg ee c2 z G/2A/2| c2 c3/2 A/2 ce z e| ee ee ^c/2 A3/2 z2|\
+ ec ec d2 c2| c6 z2|
+S:https://www.folktunefinder.com/tunes/180391
+S:http://back.numachi.com:8000/dtrad/abc/ONEHRMOM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

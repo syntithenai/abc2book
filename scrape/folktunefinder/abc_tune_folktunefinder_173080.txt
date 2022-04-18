@@ -1,0 +1,40 @@
+X:1
+T:Lot ist tot
+C:traditionell
+R:volkstanz
+A:'Kalischer Land' (deutsche sprach-insel), Polen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 52/53, Deutsche Volkstaenze aus dem Weichselraum, Karl Horak, Baerenreiter, Basel, London, New York 1962
+N:im buch s. 7
+N:im buch ganz in F  1. ton f''
+N:im buch einstimmig
+S:im buch mit der angabe: Die Weise stammt von Frau Krause in Prazuchy; aus der fuelle der ueberlieferungen wurde die ausfuehrung des Herrn Friedrich Krueger aus Mieczyslawow ausgewaehlt
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+P:I
+f2 z2 | e2 z2 | de fd | c2 zc |\
+Bd GB | Ac FA | GB EG | F2 z2 :|
+P:II
+|:\
+Ac F2 | Ac F2 | dd fd | dc c2 |\
+Ac F2 | Ac F2 | GG BE | GF F2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173080
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/lot_ist_tot.kalischer_land.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

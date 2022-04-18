@@ -1,0 +1,26 @@
+X:1
+T:Polka : A
+E:12
+Z:Roger Ngaret (94-95)
+R:polka
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/16
+K:G
+Q:1/4=120
+"G"B2dc B2GB | d2dc B4 | B2d2 B2G2 | "D"c2cB A4 |
+A2cB A2Bc | d2cB A4 | A2Bc d2e2 | dcBA "G"G4 ::
+d4 B4 | GAB2 "D"c2B2 | A4 d4 | cBA2 "G"G4 :|
+S:https://www.folktunefinder.com/tunes/183020
+S:http://termen.free.fr/danses/polkas/PolkaA.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

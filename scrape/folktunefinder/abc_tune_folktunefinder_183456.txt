@@ -1,0 +1,29 @@
+X: 1
+T:Polska i D efter John-Erik Mattson
+R:Polska
+Q:140
+N:Obundna trioler - v\"arml\"andsk influens
+M:3/4
+L:1/8
+A:Digerberget, S.J\"amtland
+K:D
+ab/a/ (3.f.e.d e>c | (3.A.c.A E2 A2 |\
+(3.G.E.G (3.F.D.F (3.E.C.E | D>d cd eg|\
+(3.f.e.f (3.d.c.d e>c | (3.A.c.A E2 A2 |
+(3.G.E.G (3.F.D.F (3.E.C.E |1 D6 :|2 D4 zE|: \
+D>C D2 (3.E.F.G | A>^G A2 cd |
+e>a (3.f.e.d e>c | d>e (3.f.e.d A2 |\
+D>C D2 (3.E.F.G | A>^G A2 cd | \
+e>a (3.f.e.d e>c | (cd) d4:|
+S:https://www.folktunefinder.com/tunes/183456
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_i_D_efter_John_Erik_Mattson_2.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

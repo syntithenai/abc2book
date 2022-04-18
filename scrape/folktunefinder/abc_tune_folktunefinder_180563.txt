@@ -1,0 +1,35 @@
+X:1
+T:Orange in Bloom
+C:
+S:Bacon (CJS MSS)
+N:
+A:Sherborne
+O:English
+R:Jig
+P:A/2(AB$^3$)$^4$(AC$^3$)$^4$A
+K:G
+I:speed 450
+P:A
+|:\
+EGE      DGA   | BdB   A2B   | GEE   DGA   | BGG   G3   :|
+P:B
+BAB/2c/2 d2B   | AGA   Bcd   | edB   AGA   | BAG   E2D  |\
+EGE      DGA   | BdB   A2B   | GEE   DGA   | B2G   G3   ||
+M:4/4
+P:C
+I:speed 150
+BA Bc    d2 B2 | AG A2 Bc d2 | ed B2 AG A2 | BA G2 E3 D |\
+M:6/8
+I:speed 450
+EGE      DGA   | BdB   A2B   | GEE   DGA   | BGG   G3   ||
+S:https://www.folktunefinder.com/tunes/180563
+S:http://www.ucolick.org/~sla/morris/music/pomvsabc.html
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

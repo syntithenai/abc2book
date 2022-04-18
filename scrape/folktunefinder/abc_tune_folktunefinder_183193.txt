@@ -1,0 +1,24 @@
+X:1
+T:Pols e. Edvard Langemarks
+R:inherradspols
+O:BUL Nidaros
+Z:John Chambers <jc@trillian.mit.edu>
+Z:redone by Brian Wilson
+M:9/8
+L:1/8
+K:A
+|: "A"A,3 CA,C E3 | A3 cAc e3
+|  "E7"dBd cAc B2A | "(A)"GA2 cA2 E2C
+|  "A"A,3 CA,C E3 | A3 cAc e3
+|  "E7"dBd cAc B2G | [1 "A"A3 A3- A2E :| [2 "A"A3 A3- A2a ||
+|: "E7"a2g e^d2 e2f | ge2 bg2 e2c | "E7"dBd cAc B2A | "(A)"GA2 cA2 E2a
+| "E7"a2g e^d2 e2f | ge2 bg2 e2c | "E7"dBd cAc B2G | "A"A3 A6 :|
+S:https://www.folktunefinder.com/tunes/183193
+S:http://trillian.mit.edu/~jc/music/abc/mirror/BrianWilson/PolseEdvardLangemarks.abc
+% Rhythm Inherradspols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,55 @@
+X: 9127
+T: Playoff Hornpipe (with piano acc.)
+C: BB
+R: hornpipe
+Q: 310
+M: C|
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 program 1 00 clef=bass m=D
+K: D
+[V:1] D2|"D"FAdc "Em"BAGE|"F#m"AFAc "Bm"d2 (3ABc|"D"dAFA "G"BGBd|\
+"A7"ceag "A"(3efg (3cde|
+[V:2] z2|D,2[A2D2F2]E,2[E2B2G2]|F,,2[A2C2F2]B,,2[F2B2D2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[G2C2E2]E,,2[A2C2G2]|
+%
+[V:1] "Bm"dBcA "G"GEDE|"F#m"FAce "Bm"d2 (3ABc|"D"dAFA "G"GBdg|"A"(3efg ac "D"d2 :|
+[V:2] B,,2[F2B2D2]G,,2[G2B2D2]|F,,2[A2C2E2]B,,2[F2B2D2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[G2C2E2][D,2F,2A,2]:|
+%
+[V:1] ef|"G"gfed "A"cdec|"Bm"dB (3BAB "A7"AGFE|"D"DFAd "Bm"faba|"G"gBcd "A"e2 ef|
+[V:2] z2|G,,2[G2B2D2]A,,2[A2C2E2]|B,,2[F2B2D2]A,,2[G2C2E2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|
+%
+[V:1] "G"gfed "A"cdec|"D"dA (3ABA "A7"GFEC|"D"DFAd "Em"BGEG|"A"(3FGA EC "D"D2 :|
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[G2C2E2]|D,2[A2D2F2]E,2[E2B2G2]|
+A,,2[A2C2E2][D,2F,2A,2]:|
+%%%%%%%tune repeat
+[V:1] D2|"D"FAdc "Em"BAGE|"F#m"AFAc "Bm"d2 (3ABc|"D"dAFA "G"BGBd|"A7"ceag "A"(3efg (3cde|
+[V:2] z2|D,2[A2D2F2]E,2[E2B2G2]|F,,2[A2C2F2]B,,2[F2B2D2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[G2C2E2]E,,2[A2C2G2]|
+%
+[V:1] "Bm"dBcA "G"GEDE|"F#m"FAce "Bm"d2 (3ABc|"D"dAFA "G"GBdg|"A"(3efg ac "D"d2 :|
+[V:2] B,,2[F2B2D2]G,,2[G2B2D2]|F,,2[A2C2E2]B,,2[F2B2D2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[G2C2E2][D,2F,2A,2]:|
+%
+[V:1] ef|"G"gfed "A"cdec|"Bm"dB (3BAB "A7"AGFE|"D"DFAd "Bm"faba|"G"gBcd "A"e2 ef|
+[V:2] z2|G,,2[G2B2D2]A,,2[A2C2E2]|B,,2[F2B2D2]A,,2[G2C2E2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|
+%
+[V:1] "G"gfed "A"cdec|"D"dA (3ABA "A7"GFEC|"D"DFAd "Em"BGEG|1 "A"(3FGA EC "D"D2 :|2\
+"A"(3FGA EC "D"D4||
+[V:2] G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[G2C2E2]|D,2[A2D2F2]E,2[E2B2G2]|1\
+A,,2[A2C2E2][D,2F,2A,2]:|2 A,,2[A2C2E2]H[D,4F,4A,4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87212
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

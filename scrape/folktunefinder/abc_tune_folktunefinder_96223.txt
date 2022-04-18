@@ -1,0 +1,47 @@
+X: 72
+T:Semele,a Song. TBe.072
+M:3/8
+L:1/8
+Q:20
+S:Thomas Bennet MS,1718, VWML
+R:air
+O:England
+N:Semele is a character from Greek mythology, the daugher of Cadmus and
+N:Harmonia and mother of Dionysus.  There was an opera of that name by
+N:John Eccles, libretto by Congreve, dated either 1705 or 1710.  (Also an
+N:opera or oratorio by Handel in 1743,)
+N:All E  natural and B naturals are shown as sharp in MS - see general
+N:note
+N:re accidentals.  = is as shown in MS  2 - quaver E appears to have a
+N:dot after it, quaver f a comma, but see bars 1, 5 7 and 14.
+N:"Endless pleasure Endless Love Semele enjoys Semele enjoys Semele
+N:enjoy----s
+N:above on her Bosom Jove reclining useless now his Thunder lies his
+N:Thunder lyes
+N:to her Arms his Bolts resigning and his Lightening to her eyes"
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+(f/e/f)g | (f/g/)(f/e/)d | e d2 | \
+c3 | c/d/cd | e3 | e/c/dg | "=" =e3 |!
+c/d/c (d/=e/) | f3 | "2"f/g/ e f | f3 | \
+c d2 | e/f/e/d/c | f/e/de | =B>AG |!
+ g_a2 | g(f/e/)(d/c/) | de2 | f2e |\
+ d/c/ "="=B2 | c3 | zff | (fB)B |!
+ gfe3/4d/4 | "="c2c |(de)f |\
+ "sic"g3/2a/4g/4  f3/2g/4f/4  (e3/2f/4e/4) | \
+(d/4c/4B)  A3/2 "qu"B/ | B ||
+S:https://www.folktunefinder.com/tunes/96223
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

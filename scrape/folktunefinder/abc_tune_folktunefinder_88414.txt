@@ -1,0 +1,24 @@
+X:1285
+T:Uncle Gabrial
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001200.html
+%%ID:00001200
+K:D
+A | d2A F2A | d2d dcd | e2c A2c | e2e ede | f2f f2f | g2g gfe | dfd cBc | d3- d2 ||
+A | A2A ABc | d2e f2A | d2e f2^g | a2A A2F | G2A B2c | d2d def | gfe dec | d2f d2 ||
+%%newpage
+%page 105
+S:https://www.folktunefinder.com/tunes/88414
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

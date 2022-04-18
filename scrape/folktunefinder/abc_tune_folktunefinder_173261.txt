@@ -1,0 +1,29 @@
+X: 1
+T: Lrkan, polska efter Byss-Kalle (nr 5)
+S: efter Byss-Kalle
+B: 57 ltar efter Byss-Kalle nr 5
+N: Uppteckningen r ursprungligen hmtad ur Ruben Liljefors bok Uplndsk Folkmusik.
+R: Polska
+O: Uppland
+M: 3/4
+K: Gm
+L: 1/16
+{ABAG}A4              | (Bd)cB (AB)cA B2A2 | (=ed)cB (AB)cA B2{cB}A2 | (Bd)cB (Ac)BA G2a=b | 
+(c'=b)ag (^fg)bg d2d2 | (Bd)cB (AB)cA B2A2 | (=ed)cB (AB)cA B2{cB}A2 | (Bd)cB (Ac)BA G2ac' | 
+(=ba)g^f {/f}g4 :: [K:G] b4 | (d'b)gb (d'b)gb d'2d'2 | (d'a)fa (c'a)fa {/a}d'4 | 
+(d'b)gb (d'b)gb d'2d'2      | (d'a)fa (c'a)fa {gagf}g4 | (gf)gb e2eg f2fa | d2de c2cg _B2{cB}A2 |
+(_Bd)cB (AB)cA B2{cB}A2 | (ed)c_B (AB)cA B2A2 | (_Bd)cB (Ac)BA G2ac' | (ba)gf {/f}g4 :|
+S:https://www.folktunefinder.com/tunes/173261
+S:http://www.folkwiki.se/pub/cache/_L%E4rkan_polska_efter_ByssKalle_nr_5_8e096b.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,24 @@
+X:1
+T:Marche Nuptiale (Berry) 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:G
+DGB DGB | BAG A2^F | DFA DFA | cBA B2G |\
+DGB DGB | BAG A2F | DFA DFA | cBA G3 :|
+|:\
+DGB d2^c | d2c A3 | DFA c2B | c2d B3 |
+DGB d2^c | d2c A2z | DFA cAF | DEF G3 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174253
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/marche_nuptiale.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

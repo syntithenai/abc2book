@@ -1,0 +1,16 @@
+X:1
+T:Music Alone Shall Live
+M:3/4
+L:1/4
+K:C
+ E E E| E E E| D3/2 E/2 F| G, A, B,| C3| G G G| F3/2 G/2 A| F F F|\
+ E3/2 F/2 G| E E E| D3/2 E/2 F| G, A, B,| C3|
+S:https://www.folktunefinder.com/tunes/177782
+S:http://back.numachi.com:8000/dtrad/abc/MUSICALN.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MUSICALN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

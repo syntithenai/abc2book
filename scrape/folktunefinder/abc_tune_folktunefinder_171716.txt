@@ -1,0 +1,29 @@
+X:1
+T:Leaving Home
+M:4/4
+L:1/8
+K:G
+ GG GG-G E G2| E2 D4 D2| G2 E G2 G A2| G6 z2| CC-CC-C-D E2| G2 G4 E2|\
+ GG GG-G G E2| D2 DD E2 B,2| D8| z2 D/2D/2 D E2 D2| G8| z4 z2 G2| GG EE E2 GG|\
+ GE EG-G GG G|
+M:2/4
+ A G- G2|
+M:4/4
+ D8| z4 z2 BB| B2 D2 DD DD| F3 FFE-E D| GG GG GE GE| GE EE GG GE| GE-E EE GG G|\
+ G2 E G- G2 G2|
+M:2/4
+ A G3|
+M:4/4
+ D8| z4 z BB B| B2 D2 DD DD| F2 F2 G2 A2| G8|
+S:https://www.folktunefinder.com/tunes/171716
+S:http://back.numachi.com:8000/dtrad/abc/FRANJON3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abc/LeavingHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/mindspring.com/~thornton.rose/LeavingHome.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/troseandassociates.com/abc/LeavingHome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

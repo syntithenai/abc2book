@@ -1,0 +1,29 @@
+X:1
+T:Padghin O'Rafferty
+M:6/8
+L:1/8
+C:Traditional (Willie Clancy version)
+R:Jig
+K:Dmix
+S:Patrick Ourceau
+N:Willie Clancy's four-part single version of this standard jig.
+GA|BDD EDE|{d}cBA GED|BDD EDE|GAG {A}GED|
+BDD EDE|{d}cBA GED|(3Bcd B cBA|GAG GED||
+GBB FAA|GAB {d}cBA|GBB FAA|GAG GED|
+GBB FAA|GAB {d}cBA|(3Bcd B cBA|GAG GED||
+d^cd ef{a}g|ded {e}dBG|d^cd ef{a}g|GAG GED|
+d^cd ef{a}g|ded {e}dBG|{a}gfe dBG|(3ABA G FED||
+~B2G A2G|~B2G AGE|~B2G A2G|GAG {A}GED|
+BGG AGG|BGG AGE|(3Bcd B cBA|GAG GED||G2||
+S:https://www.folktunefinder.com/tunes/181320
+S:http://www.thesession.org/tunes/display/741
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

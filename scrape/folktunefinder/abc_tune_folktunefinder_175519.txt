@@ -1,0 +1,31 @@
+X: 1
+T: Metskukkia
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmin
+|: D2 G2 A2 | B2 A2 G2 | d6- | d6 |
+D2 G2 A2 | B2 A2 G2 | e6- | e6 |
+c2 d2 e2 | e2 d2 c2 | d6- | d6 |
+D2 ^F2 A2 | c2 B2 A2 | G6 |1 G2 z4 :|
+2 G2 g3 ^f ||
+|: f6- | f2 g3 e | d6- | d2 e3 d |
+c6- | c2 d3 c | B6- | B2 d2 d2 |
+d6- | d2 c2 B2 | A6- | A2 B2 A2 |
+D2 ^C2 D2 | B4 A2 | G6 |1 G2 g3 f :|
+2 G2 z2 g^f ||
+|: g2 z2 d^c | d2 z2 BA | B2 z2 G^F | G2 z2 d2 |
+e4 d2 | c2 e2 g2 | d6- | d6 |
+d2 ^f3 g | a6 | d2 g3 a | b6 |
+d2 ^f3 a | b4 a2 |1 g6- | g2 z2 g^f :|
+2 g6 | g2 z4 ||
+S:https://www.folktunefinder.com/tunes/175519
+S:http://www.thesession.org/tunes/display/4585
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

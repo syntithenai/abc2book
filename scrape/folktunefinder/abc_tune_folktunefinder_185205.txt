@@ -1,0 +1,21 @@
+X: 1
+T:Rehan
+O:Armenia
+M:2/4
+L:1/8
+Q:1/4=96
+K:Am
+|: "Am"C/D/E .E.E  |E2 "G"DC | D2 "Am"CB, |C2 "G"B,A,:|: "Am"CD "G".D.D|\
+"G"D2 "Am"CB,| "Am"C2 "G"B,A,|"G"B,2 "Am"A,2:|
+|: "Am"C/D/E .E.E  |E2 "G"DC | D2 "Am"CB, |C2 "G"B,A,:|
+|: "Am"CD "G".D.D|"G"D2 "Am"CB,| C2 "G"B,A,|B,2 "Am"A,2:|
+|: "G"G,G,/G,/ G,G,/G,/|"Am"A,C"G"B,A,|G,G,/G,/ G,G,/G,/|"Dm"A,D"Am"A,2:|
+S:https://www.folktunefinder.com/tunes/185205
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/re/Rehan_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

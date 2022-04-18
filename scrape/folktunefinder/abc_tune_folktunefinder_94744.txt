@@ -1,0 +1,28 @@
+X:148
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Old Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+GA | ~B3 {/c}BAB | dBA G2 B | ~d3 d{/e}dB | ded B{/c}BA |
+~B3 {/c}BAB | dBA G2 B | ded cBA | ~G3 G2 ::
+Bd | ~g3 ~f3 | ege edB | ded d{/e}dB | ded ~B3 | ~g3 ~f3 |
+ege edB | [1 dge dBA | ~G3 GBd :|] [2 dge dge | dge dBA |]
+S:https://www.folktunefinder.com/tunes/94744
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Old_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Old_Favorite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

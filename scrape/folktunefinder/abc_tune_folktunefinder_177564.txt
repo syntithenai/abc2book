@@ -1,0 +1,33 @@
+X:1
+T:Muenchner Polka
+C:traditionell
+A:Gilgenberg
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:nach Anton Gaisberger, Oberoesterreichisches Volkslied-Archiv MVIII 9
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+|: dB |\
+c2df c2df | B2dg Bdgb | c'de3 ddc' | bde4dB |
+c2df c2df | B2dg Bdgb | d'2c'2 b2a2 | g2g2 g2 :|
+|: dd |\
+d2gG B2AG | B2dG B2AG | FGAB cdef | g2f2 e2d2 |
+d2gG B2AG | B2dG B2AG | FGAB cdef | g2g2 g2 :|
+|: d^cd |\
+g2f2 e3d | f2e2 c3A | G2F2 e3d | Bcde d^def |
+g2f2 e3=d | f2e2 c3A | G2F2 e3d | B2B2 B :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177564
+S:http://simonwascher.info/TradArchiv_polka/muenchner_polka.G2GBD2DGFG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

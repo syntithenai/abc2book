@@ -1,0 +1,18 @@
+X: 41
+T: King George the Fourth
+T: Strathspey, A Dorian
+L: 1/16
+M: 2/2
+K: A Dorian
+|: E1A,3 A,3B,1 C3B,1 A,3A1| E1A,3 A,3C1 B,3A,1 G,3B,1| E1A,3 A,3B,1 C3D1 E3C1| B,3D1 G3E1 D1C1B,1A,1 G,2B,2:| 
+^c3e1 A3e1 c3e1 d1c1B1A1| ^c3e1 A3e1 d1c1B1A1 G3B1| ^c3e1 A3e1 c3e1 A3f1| g3g1 a1g1^f1e1 d1c1B1A1 G2B2| 
+^c3e1 A3e1 c3e1 d1c1B1A1| ^c3e1 A3e1 d1c1B1A1 G3B1| c1e3 B1d3 A1B3 E1A3| G3A1 G3E1 D1C1B,1A,1 G,2B,2||
+S:https://www.folktunefinder.com/tunes/93964
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:0003
+T: "The Little Heathy Hill"       (air)         0003
+C:after Chief F. O'Neill
+C:moderate
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago 1903 ed.
+N:Transposed from Bb
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:C
+"_vb"(c/2d/2)|e2e3/2d/2 c2(Bc)|(AcBA) G2(EG)|(A3/2B/2A).G (E3/2D/2E).G|A2A3/2B/2 c3d|
+(e3/2f/2e).d c2B3/2c/2|(AcBA) G2(EG)|(A3/2B/2A).G (E3/2D/2E).G|A2A3/2B/2 A3||
+E|ABcd e2e^f|g2^fe d3/2B/2G7/4d/4|e3/2f/2ed c2Bc|AGE^F G2(cd)|
+(e3/2f/2e).d c2B2|(AcBA) G2(EG)|(A3/2B/2A).G (E3/2D/2E).G|A2A3/2B/2 A3|]
+S:https://www.folktunefinder.com/tunes/172444
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/3-HeathyHill.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/3-HeathyHill.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

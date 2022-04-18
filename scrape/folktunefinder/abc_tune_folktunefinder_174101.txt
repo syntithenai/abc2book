@@ -1,0 +1,25 @@
+X: 1
+T: Man From Skye, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|:B<d|e2 (e>d) d>e e>d|B>e e>d B2 A2|G>G G<B G2 B2|G>B B<d B2 d2|
+e2 (e>d) d>e e>d|B>e e>d B2 (AG)|A>A A>B e2 d<B| A4 A<A :|
+|: (B<d)|e2 g2 a2 e>f|g>f e<d B2 A2|G>G G<B G2 B2|G>B B<d B2 D2|
+[1 e>f g<e a2 A<a|g>f e<d B2 A<G|A>A A>B e2 d<B|A4 A>A :|
+[2 e2 e>d d>e e>d|B>e e>d B2 (A<G)|A>A A>B e2 d<B|A4 A<A||
+|: (B<d)|e2 A2 A2 B<d|(e<g) (e>d) B2 (A<B)|d2 G<G (B>A) B<G|(B<d) (G>d) B2 d2|
+e2 A<A (B>A) B<d|(e<g) (d<e) B2 (A<G)|A>A A>B e2 (d<B)|A4 A>A :|
+|: (B<d)|e2 (e>d) e2 (e>f)|g>f e<g B2 A2|G>G G<B G2 B2|G>B B>d B2 d2|
+[1 e2 (e>d) e2 (e>f)|g>f e<g B2 A<G|A>A A>B e2 (d<B)|A4 A<A :|
+[2 e2 A<A (B>A) B<d|(e<g) (d<e) B2 (A<G)|A>A A<B e2 (d<B)|A4 A<A||
+S:https://www.folktunefinder.com/tunes/174101
+S:http://www.thesession.org/tunes/display/3757
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:0699
+T:"O'Carolan's Farewell"          0699
+C:Turlough  O' Carolan
+C:with feeling
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:THIRTEEN bars in second Section  //  transposed from Bb
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:C
+L:1/8
+K:C
+"^vb"(A^G)(AB) c2(BA)|B2(de) g2(ed)|(ge)(dB) (e3/2d/2)(B3/2A/2)|A4(E3A)|
+(A^G)(AB) (cB)(cA)|B2(g/2b3/2) Ha3g|(e3g) (d3e)|(c{dc}B)A^G A3||
+e|(a3b) (a^g)(ab)|(a^g)(ab) a2(e^f)|g4(g^f)(ga)|(ga)(ga) g2e2|(a3b) {d'}(c'b)(a^g)|
+(a^g)(ab) a2(e^f)|(g^f)(ga) {c'}b2(^ga)|a3/2a/2ge gedB|e3/2d/2BA G2E2|
+(A^G)(AB) (cB)(cA)|B2(g/2b3/2) a3g|e2(eg) d2(de)|(c {dc}B)A^G A3z|]
+S:https://www.folktunefinder.com/tunes/179377
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/699-OCarolansFarewell.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

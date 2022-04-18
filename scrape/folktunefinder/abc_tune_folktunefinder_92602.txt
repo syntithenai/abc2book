@@ -1,0 +1,66 @@
+X:579
+T: Zhuhaiti
+N: C2000
+O: China,Fujian Xiamen
+S: II, 575]
+R: Haozi, Dahangge]
+M: 2/4
+L: 1/16
+K: E
+E4E3C | F4F4
+E4E2C2 | F4F4
+C2F2E2C2 | E4E2C2
+C2F2E2C2 | E4E2C2
+F2G2F2F2 | F4G2F2
+F2G2F2F2 | F4G2F2
+E2E2C2E2 | F4F2E2
+E2E2C2E2 | F4F2E2
+E2E4C2 | F2G2F2E2
+E2E4C2 | F2G2F2E2
+G2F2F2F2 | G4G2F2
+G2G2G2G2 | B4B2G2
+G2G2B2B2 | G4c2B2
+C2C2E2E2 | C4F2E2
+B2c2B2G2 | F2G2B2c2
+B2GGc2G2 | G4c2B2
+c2e2c2e2 | c4e2c2
+B2c2B2B2 | B4c2B2
+G2c2B2c2 | G4B2G2
+B2c2B2G2 | F2G2F2E2
+B2c2B2G2 | F2G2F2E2
+F2G2G2F2 | F2G2G2F2 | F2F2G2F2 | F2F2G2F2
+G2B2G2G2 | G2B2G2G2 | B2c2G2G2 | B2B2c2B2
+B2c2B2G2 | F2G2F2E2 | B2c2B2G2 | F2G2F2E2
+E2F2E2E2 | E2E2F2E2 | E2F2E2E2 | E2E2F2E2
+F2G2G2F2 | G2F2G2F2 | F2G2G2F2 | G2F2G2F2
+G2B2B2G2 | B2G2B2G2
+B2c2c2B2 | c2B2c2B2
+c2e2e2c2 | e2c2e2c2
+c2e2e2c2 | e2c2e2c2
+c2e2e2c2 | e2c2e2c2
+B2c2c2B2 | c2B2c2B2 | B2c2c2B2 | c2B2c2B2
+c4B4 | G6CF | F4E4 | F6
+FC | F4F4 | F6
+CF | E4E4 | E6
+BB | G4B4 | B6
+FE | C4E2C2 | C6
+BB | G4G4 | c6
+EF | E4F2F2 | F6
+EF | E4C4 | E6
+EC | C2F2F2E2 | E4G2F2
+G2B2G2G2 | G4B2G2
+G2B2G2G2 | G4G2F2
+E2E2E2C2 | B,2C2E4
+B2B2B2G2 | F2G2E4 | E4z4
+S:https://www.folktunefinder.com/tunes/92602
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi, dahangge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

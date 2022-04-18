@@ -1,0 +1,54 @@
+X:1
+T:Over the Top
+C:Jeff Bigler
+A:Border
+M:C
+L:1/4
+Q:132
+P:(AB)5
+K:D
+%%partsfont Times-Bold 16.0
+%%staves [1 2]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+V:1    clef=treble  nm="I"      snm="I"        %%
+%%MIDI channel 1                               %%
+%%MIDI control 7 100% melody volume = 100  %%
+%%MIDI program 41       % General MIDI violin  %%
+%%MIDI transpose 0                             %%
+%%MIDI gchordoff                               %%
+V:2    clef=treble  nm="II"     snm="II"       %%
+%%MIDI channel 2                               %%
+%%MIDI control 7 50% harmony volume = 50  %%
+%%MIDI program 41       % General MIDI violin  %%
+%%MIDI transpose 0                             %%
+%%MIDI gchordoff                               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:A
+V:1% melody
+A, | D D/E/ F D | G/A/ B A2 | d c/B/ A F | B/A/G/F/ E2 |
+D D/E/ F D | G/A/ B A2 | d c/B/ A F | G/F/ E D ||
+%%%%%%%%%%%%%%%%%%%%%%%%%
+V:2% harmony
+z | z4 | z2 z A, | D D/E/ F D | G/A/ B A2 |
+d c/B/ A F | B/A/G/F/ E2 | D D/E/ F D | E/D/ C D ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P:B
+V:1% melody
+A | d f/d/ c e/c/ | B/d/c/B/ A2 | G B/G/ F A/F/ | E/D/E/F/ E A |
+d f/d/ c e/c/ | B/d/c/B/ A2 | G/d/B/G/ F/d/A/F/ | E C D |]
+%%%%%%%%%%%%%%%%%%%%%%%%%
+V:2% harmony
+z | z2 z A | d f/d/ c e/c/ | B G/B/ A F | G/A/ B c2 |
+z2 z A | d f/d/ c e/c/ | B G/B/ A F | G/F/ E D |]
+S:https://www.folktunefinder.com/tunes/180866
+S:http://www.mit.edu/~jcb/MOTley/abc/over-the-top.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/abc/over-the-top.abc
+S:http://www.mit.edu/~jcb/MOTley/dances/over-the-top-tune.shtml
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

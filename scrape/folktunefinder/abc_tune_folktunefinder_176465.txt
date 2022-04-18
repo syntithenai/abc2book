@@ -1,0 +1,19 @@
+X:1
+T:Mockin' Bird Hill
+M:3/4
+L:1/4
+K:G
+ D/2C/2| B, D G| B G D| C E G| c2 E| D F3/2 A/2| c A c| B G E| D2 D/2C/2|\
+ B, D G| B G D| C E G| c2 E/2E/2| D F A| c A c| B G G| G2 D/2G/2| B2 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002|\
+ c B A| G C E| D2 B| c3/2 A/2F/2 E/2| D F A/2c/2| B G E| D2 D/2G/2|\
+ B2 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002|\
+ c B A| G C E| D2 B| c3/2 A/2F/2 E/2| D F A| B G G| G2||
+S:https://www.folktunefinder.com/tunes/176465
+S:http://back.numachi.com:8000/dtrad/abc/MCKBRDHL.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MCKBRDHL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

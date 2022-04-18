@@ -1,0 +1,28 @@
+X: 1
+T: L'Ville
+M: 4/4
+L: 1/8
+R: reel
+K: Amaj
+AB |: c2 Ac BA G2 | ABAF E2 AB | c2 Ac BA G2 |
+A3 B A2 AB |c2 Ac BA G2 |ABAF E2 AB |
+[1 c2 ec BA G2| A3 B A2 AB:|2 c2 ec BA G2 | A4 e4 ||
+g4 a4 | e4 c2 A2 | c2 e2 f2 d2- |d2 f2 e2 c2- |
+c2 A2 Bc B2 |\
+M:2/4
+A4 |\
+M:4/4
+g4 a4 | e4 c2 A2 |
+c2 e2 f2 d2- | d2 f2 e2 c2- | c2 A2 Bc B2 | A3 ||
+S:https://www.folktunefinder.com/tunes/173404
+S:http://www.thesession.org/tunes/display/8160
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

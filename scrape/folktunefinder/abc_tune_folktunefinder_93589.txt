@@ -1,0 +1,24 @@
+X:450
+T: Bean a Ti ar Lar
+S: "Music from Ireland 1" (Bulmer & Sharpley)
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+B|: AGFE D2 FD|GEFE DB B2|AGFE F2 FD|E2 cA BGEB|
+AGFE D2 FD|GEFE DB B2|AGFE F2 FD|E2 cA BGEd ||
+cdec A2 Ad|cdec AFEd|cdec A2 AF|EccA BGEd|
+cdec A2 Ad|cdec AFEd|cdeg f2 ec|ABcA BdcB||
+S:https://www.folktunefinder.com/tunes/93589
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

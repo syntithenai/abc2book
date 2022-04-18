@@ -1,0 +1,25 @@
+X:1
+T:Paddy's Trip to Scotland
+R:reel
+G:fiddle reel
+S:Micheal Bogner
+M:C|
+Q:1/2=120
+K:D
+%%MIDI chordprog violin
+%%MIDI gchord czczczcz
+dAAA BAGF| GABd cABc| dded cABc| dfed cABc|
+dAAA BAGF| GABd cABc| dded cABc| dfed cABc ::
+Adfd Adfd| Adfd dcBc| Acec Acec| Acec dcBc|
+Adfd Adfd| Adfd dcB^G| aAAA dcBA| Bdec BFDG :|
+S:https://www.folktunefinder.com/tunes/181402
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/PaddysTripToScotland.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/reel/PaddysTripToScotland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

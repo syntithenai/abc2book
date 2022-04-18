@@ -1,0 +1,34 @@
+X:2
+T:Alan MacPherson
+O:Skye
+R:jig
+Z:C. McGrew from Charlie Cowie's handouts at the 1993 Solstice festival.
+M:6/8
+Q:3/8=120
+P:AB
+K:A
+P:A
+a| "A"fae fce| AAA ace| "D"dcc "A"ceA| "Bm"cBB "E7"B2a| "A"fae fce| AAA ace| 
+   "Bm"dcc "E7"eBe| "A"A3 A2:| e| "A"a2e "D"fga| "Bm"f2a "A"fec| \
+  "D"dcc "A"ceA| "Bm"cBB "E7"B2 e| "A"a2e "D"fga| 
+   "Bm"f2a "A"fec| "Bm"dcc "E7"eBe| "A"A3 A2  e| "A"a2e "D"fga|\
+   "Bm"f2a "A"fec| \
+  "D"dcc "A"ceA| "Bm"cBB "E7"B2 a| "A"fae fce| \
+   AAA ace| "Bm"dcc "E7"eBe| "A"A3 A2:| 
+P:B
+a| "A"A2c AAA| ece "F#m"fec| "Bm"dcc "A"ceA| "Bm"cBB "E7"B2a| "A"A2c AAA| \
+     ece "F#m"fec| 
+   "Bm"dcc "E7"eBe| "A"A3 A2 :| e| "A"aAa a2e| aef ceA| "D"dcc "A"ceA| \
+     "Bm"cBB "E7"B2 e| "A"aAa a2e| 
+   aef "F#m"ceA| "Bm"dcc "E7"eBe| "A"A3 A2 e| "A"aAa a2e| aef ceA| "D"dcc "A"ceA| \
+     "Bm"cBB "E7"B2 a| "A"A2c "Bm"AAA| \
+  "A"ece "F#m"fec| "Bm"dcc "E7"eBe| "A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/97571
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Jig/AlanMacPherson.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

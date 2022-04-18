@@ -1,0 +1,21 @@
+X: 1
+T: Portpatrick
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:e|dBG GAB|(3cdc B A2e|dBG GAB|A2B (3cdc e|
+dBG GAB|(3cdc B A2D|BdB AcA|BGF G2:|
+|:d|ece dBd|ece ~d3|efg dBG|A2B (3cdc e|
+def {a}gfe|dcB A2D|BdB AcA|BGF G2:|
+S:https://www.folktunefinder.com/tunes/183585
+S:http://www.thesession.org/tunes/display/1201
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

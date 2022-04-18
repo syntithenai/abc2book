@@ -1,0 +1,21 @@
+X:25
+T:Merry Men Home from the Grave
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D|G2B BAB|GBd def|gfg edB|dcA A2B|G2B BAB|GBd def|gfg edB|dBG G2::
+d|def gfg|dag fed|def gfg|a2A A2B|G2B BAB|GBd def|gfg edB|dBG G2:|
+S:https://www.folktunefinder.com/tunes/90012
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

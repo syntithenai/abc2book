@@ -1,0 +1,17 @@
+X:1
+T:Paddy on the Canal
+M:6/8
+L:1/8
+K:C
+ C/2C/2| CCC CDE| ED z z2 D| DDD DFA| A3 z2 C/2C/2| CCC CDE| ED z z2 D|\
+ D2 D E2 C| A,3- A,2 B| ccc dcB| A3 E2 B/2B/2| ccc dcB| A3 z2 B/2B/2|\
+ ccc dcB| A c2- c2 C/2C/2| DDD EDC| A,3 B,3| CCC CDE| ED z z2 D| D2 D DFG|\
+ A3 z2 B| ccc dcB| A c2- c2 C| DDD EDC| A,3- A,2||
+S:https://www.folktunefinder.com/tunes/181279
+S:http://back.numachi.com:8000/dtrad/abc/PADDYCNL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

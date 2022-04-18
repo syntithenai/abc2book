@@ -1,0 +1,24 @@
+X:216
+T: Ritou luo shan yi dian hong
+N: C1708
+O: China,Taiwan, Xinzhu, Zhongli, Taoyuan
+S: IV, 642]
+R: Shange, Shangezai]
+M: 2/4
+L: 1/16
+K: G
+B2B2e4 | e2B6 | G2E6 | E2E^DE2GB | E2G6 | E8
+B,2B,6 | EGAGE4 | E2B,6 | B2E2G2B2 | ^D2E6 | B,8- | B,8
+B2B6 | E2G6 | B,4z4 | E2^D2E2G2B2 | B2E2G4
+E2B,2B,4 | E2G6 | E2B,6 | B2e2b2z2 | e8- | e8
+S:https://www.folktunefinder.com/tunes/92239
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Shange, shangezai]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:213
+U: ~ = !turn!
+%%topmargin 3cm
+T:Waltz Air
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Air
+L:1/8
+M:3/4
+K:G
+D| DB B3 A | AG G3 G | FE D2 EF | AG G2 z :|
+D | Dc c3 c | cB B3 A | GB d2 cB | BA A3 D |
+DB B3 A | AG G3 G | FE D2 EF | AG G3 |]
+S:https://www.folktunefinder.com/tunes/94808
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Waltz_Air_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Waltz_Air_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

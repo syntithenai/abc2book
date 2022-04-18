@@ -1,0 +1,41 @@
+X:1
+T:Morgane
+C:Maxou Heintzen
+R:walzer
+A:France
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:D
+ABd | cBd | cBA/B/ | F3 |\
+BAB | EFG | GFE | F2D |
+ABd | cBd | cBA/B/ | F3 |\
+BAB | EFG | GFE | D3 :|
+|:\
+F/A/F/E/D/E/ | F/A/F/E/D/E/ | F/A/F/E/D/E/ | G3 |\
+G/B/G/F/E/F/ | G/B/G/F/E/F/ | G/B/G/F/E/F/ | A3 |
+F/A/F/E/D/E/ | F/A/F/E/D/E/ | F/A/F/E/D/E/ | G3 |\
+E/F/G/A/B/c/ | BAG | FEF | D3 :|
+%populaere version:
+K:D
+ABd | cBd | cBd | F3 |\
+BAB | EF>G | GFE | F/G/A2 |
+ABd | cBd | cBA/B/ | F3 |\
+BAB | EFG | GFE | D3 :|
+|:\
+F/A/F/E/D/E/ | F/A/F/E/D/E/ | F/A/F/E/F/A/ | G3 |\
+G/B/G/F/E/F/ | G/B/G/F/E/F/ | G/B/G/F/G/B/ | A3 |
+F/A/F/E/D/E/ | F/A/F/E/D/E/ | F/A/F/E/F/A/ |\
+[1 G3 | E/F/G/A/B/=c/ | BAG | FEF | D3 :|\
+[2 E3 | E/F/G/A/B/=c/ | BAG | FEF | D3 |]
+S:https://www.folktunefinder.com/tunes/176832
+S:http://simonwascher.info/TradArchiv_walzer/morgane.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

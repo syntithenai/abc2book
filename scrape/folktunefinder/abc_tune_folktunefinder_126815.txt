@@ -1,0 +1,26 @@
+X:385
+T: Frisco Hornpipe
+S: "Johnny O'Leary of Sliabh Luachra" (#197)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: G
+ed|(3BdB GA Bdef|(3gfg fg edBA|FAdA FAdA|FAdB A2 ed|
+(3BdB GA (3Bcd ef|(3gfg fg edBG|FDed BGAF|1 G2 GF G2 :|
+|2 G2 GF G2||ef|(3gfg eg (3fga df|(3ede cd (3dcd (3Bcd|
+cBAG FGAB|(3c^cd ed cdef|gGag fagf|eGfe dBed|
+cBAG FGAB|1 (3c^cd ef g2 d2 :|2 (3c^cd ef gf||
+S:https://www.folktunefinder.com/tunes/126815
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/jol2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/jol2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

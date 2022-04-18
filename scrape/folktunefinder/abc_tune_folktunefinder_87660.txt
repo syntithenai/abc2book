@@ -1,0 +1,30 @@
+X: 159
+%% Copyright 1946 by The Players Music Corporation, New York, N.Y. Crawford Music Corporation, New York, N.Y.
+T: Old devil moon
+M: 4/4
+L: 1/8
+C: E.Y.Harburg & Burton Lane
+Q: 1/4=180
+%%staves (chords melody)
+K: F
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 x4 |
+"F6"x4 x4 | "Cm7"x4 x4 | "F6"x4 x4 | "Cm7"x4 "F7"x4 |
+"Bbmaj7"x4 x4 | x4 x4 | "Bbm"x4 x4 | "Eb7"x4 x4 |
+"Abm7"x4 "Db7"x4 | "Gb6"x4 "C7"x4 | "F6"x4 x4 | "Cm7"x4 x4 ||
+V: melody
+F8 | _EEEE E2G2 | F8 | GGGGG2B2 |
+S:https://www.folktunefinder.com/tunes/87660
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X: 1
+T:Polska fr V\"asterg\"otland
+R:Polska
+M:3/4
+N:A>A = ((3AA)A
+O:Sweden
+Z:photocopies from Suzanne Lind \& Louise Schultz
+K:D
+V:1
+A>(c d)>(e f)>g | (aa | \
+(3(af)(d- de) f>g | (3(ef)d- dc A2-| \
+A>(c d)>(e f)>g | (aa |
+(3(af)ud- due f>g | (e<c) d2 z2 :: \
+e>(f g)>(a g)>f | (3(de)(f -fg) e2- |
+e>(f g<a) vg>f | (3(de)(f- fg) (e2 | \
+A)>(c d)>(e f)>g | (aa | \
+(3(af)(d- de) f>g | (e<c) d2z2 :|
+V:2
+F>(A B)>(c d)>e | (f<g) e2 g>f | (3(fd)(A- Ac) d>e | (3:2:3A2(A2G2) F>E |\
+F>(A B)>(c d)>e | (f<g) e2 g>f | (3(fd)(A- Ac) d>e | (A<G) F2z2 ::\
+c>(d e)>(f e)>d | (3(Ac)(d- de) c2- | c>(d e<f) ve>d | (3(Ac)(d- de) c2 |\
+vF>A- B>(c d)>e | (f<g) e2 g>f | (3(fd)(A- Ac) d>e | (A<G) F2 z2 :|
+W: Flickan lille skulle g\aa{} till brunnen
+W: Tjohej faddri faddra fidudde lampampa
+W: D\aa{} kom en v\"astg\"ote och kysste munnen
+W: Tri du di dudn da di duddn dej.
+S:https://www.folktunefinder.com/tunes/183447
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_fr_Vasterg_otland_2.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

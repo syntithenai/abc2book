@@ -1,0 +1,21 @@
+X: 1
+T: LITTLE DIAMOND -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 2/4
+L: 1/16
+Z: Contributed 20020121133602 by John Chambers jmchambers:rcn.com
+K: A
+vec ze zc e2 | ec zA BcA2 | fd zf zd f2 | ec zA BcA2 :|
+|: vEA (3AAA cc zc | zd zf e4 | ((3efg) aA BcA2 | Ec zA BcA2 :|
+S:https://www.folktunefinder.com/tunes/172416
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/LittleDiamondJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/LittleDiamondJig.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/ryan-cole/Entry/jc%3Atrillian.mit.edu/LittleDiamondJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

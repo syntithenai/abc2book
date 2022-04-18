@@ -1,0 +1,70 @@
+X:1
+T:Rampi Rampi
+O:Turkey
+Z:http://www.geocities.com/rampi_rampi/T_Rampi_Rampi.mp3
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:(IVC)3I
+Q:1/4=130
+M:9/8
+L:1/8
+K:Em
+%%MIDI channel 1
+%%MIDI program 1 25
+%%MIDI chordprog 25
+%%MIDI bassprog 25
+%%MIDI gchord fcfcfcfcc
+P:I
+%%MIDI program 1 25
+|:f |"Em" gg/f/ ee ff/2e/2 "B" ^ddd |  "Am" ee/^d/ =cd Bc "B" def |
+     "Em" gg/f/ ee ff/2e/2 "B" ^ddd |1 "Am" ee/2^d/2 =cd cB "B" Bz \
+                                   :|2 "Am" ee/2^d/2 =cd cB "B" Bz2 |
+P:V
+%%MIDI program 1 71
+  "Em" e2e2(3e-e^d "B" efz  | "Am" e3/2^d/2 cd cB "B" BBz |\
+  "Em" e2e2(3e-e^d "B" efz  | "Am" e3/2^d/2 cd cB "B" BBz |
+  "Am" A2B zc2 "B" ^dez | "Em" e3/2^d/2 cd cB "B" BBz |\
+  "Am" A2B zc2 "B" ^dez | "Em" e3/2^d/2 cd cB "B" BBz |
+P:C
+ |: "Am" A6-A3-|A6 z3 | "Am" A2BcA2 Bc2 |\
+                             A2BcA2 Bc2 |
+                             A2Bc^de ((3f-fe/2f/2 e) |\
+  |1 "B" ^dc cB B2 B3 \
+ :|2 "B" ^dc cB B2-B2||
+W:
+W:
+W:
+W:
+W:/ Cadirimin ustune sip dedi damladi. /         On the top of my tent the rain went shpp shpp
+W:/ Allah canimi almadi almadi. /                   Allah did not take my soul away.
+W:
+W:  Chorus:
+W:/ Heeey                                                         Heeey
+W:  Rampi rampi rampi rampi                          Rampi rampi rampi rampi
+W:  Geliyora bakdi. /                                         He looked at any passer-by.
+W:
+W:/ Veresiye vere vere kalmadi kalmadi. /      I gave and gave, all for promises, till there was nothing left.
+W:/ Allah canimi almadi almadi. /                   Allah did not take my soul away.
+W:
+W:/ Kuru kuru cilveler kaynasin kaynasin. /   Empty, empty flirtation, let it b oil.
+W:/ Gelin guveyi oynasin oynasin. /                Let the bride and bridegro om dance, let them dance
+W:
+W:
+W:
+W:
+W:Arrangement Copyright (C) 2006 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/184664
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/RampiRampi.abc
+S:http://people.csail.mit.edu/jaffer/Music/RampiRampi.abc
+S:http://voluntocracy.org/Music/RampiRampi.abc
+S:http://www.voluntocracy.org/Music/RampiRampi.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

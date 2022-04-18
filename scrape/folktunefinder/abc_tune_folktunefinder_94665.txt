@@ -1,0 +1,30 @@
+X:068
+U: ~ = !turn!
+%%topmargin 3cm
+T:Farrell O'Gara Schottische
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Schottische
+L:1/8
+M:C|
+K:A
+AF | D2 Ac PB2 ((3agf) | ((3edc) ((3dcB) cAFA | E2 Ac PB2 af | ecBd cAFA |
+[E2A2] Ac PB2 ((3agf) | ((3edc) ((3dcB) cAFA | [E2A2] Ac PB2 af | ecBc A2 ::
+e2 | aefa dace | dBcA BF F2 | aefa eac'a | babc' | a2 ab |
+c'afa Pe2 ce | dBcA BAFA | [E2A2] Ac PB2 af | ecBc A2 :|]
+S:https://www.folktunefinder.com/tunes/94665
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Farrell_OGara_Schottische_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Farrell_OGara_Schottische_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Farrell_OGara_Schottische_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Farrell_OGara_Schottische_1.abc
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

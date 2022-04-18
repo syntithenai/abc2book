@@ -1,0 +1,18 @@
+X:1
+T:Lord Randal
+M:3/4
+L:1/4
+K:C
+ B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002|\
+ d d d| e g e| d d B| d2 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002 B3.99999962500005/11.9999985000002|\
+ d d d| e g e| d d B| d3/2 z/2 B| d d B| A G B/2B/2| d d B| d3/2 z/2 G/2A/2|\
+ B d e| d3/2 z/2 G/2A/2| B G A| G2||
+S:https://www.folktunefinder.com/tunes/173016
+S:http://back.numachi.com:8000/dtrad/abc/B12_58.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T:Polska (Hymn l\aa{}t)
+R:Polska
+O:Sweden
+N:turns -> mordants
+M:3/4
+L:1/16
+C:e. Pers Erik  Pers Hans
+A:Dalarna
+K:C
+~G2EG c4 c4|{d}c2Bc d4d4|1\
+ {cd}e3d c4 ~c2Bc|d2B2 G4 G4:|2\
+ {cd}e3d c4 ~c2Bc|d2B2 G4 G3B|d2cd c8 ::
+~c2Ac a4 f4|a2a2 g4 {ag}e4|\
+fefg a3g f3e|d3c BcBA (G4|
+G2)G2 a4 f4|a2a2 g4 {ag}e4|\
+fefg a3g f3e|d3c BccA G3B|d2Bd c8 :|
+S:https://www.folktunefinder.com/tunes/183450
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polska_Hymn_laa_t_1.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

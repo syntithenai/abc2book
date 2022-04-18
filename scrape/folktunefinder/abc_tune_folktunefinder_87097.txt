@@ -1,0 +1,49 @@
+X: 9012
+T: Beans in the Pot (with piano acc.)
+C: BB
+R: polka
+M: 2/4
+Q: 275
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: C
+[V:1] "C"cG G>B|"Am"c>d ed|"C"cG cG|"G"ED D2|"C"cG G>B|"F"c>d ef|\
+"C"g>e "F"cA | "Am"AG "G"G2 |
+[V:2] [C,4G,4E4]|[A,,4E,4C4]|[C,4G,4E4]|[G,,4D4B,4]|[C,4G,4E4]|[F,,4A,4C4]|\
+[C,2G,2E2][F,2A2C2]|[A,,2E2C2][G,,2D2B,2]|
+%
+[V:1] "C"cG G>B|"Am"c>d ed|"C"cG cG|"G"ED DB|"F"cF GF|"C"Ec "F"AF|\
+"C"E>F GE | "G"DB, "C"C2 ||
+[V:2] [C,4G,4E4]|[A,,4E,4C4]|[C,4G,4E4]|[G,,4D4B,4]|[F,4A4C4]|\
+[C,2G,2E2][F,,2A,2C2]|[C,4G,4E4]|[G,,2D2B,2][C,2G,2E2]||
+%
+[V:1] "Am"e>c ea|"G"g>d gb|"Am"ab ag|"G"ed g2|"Dm"a>f df|"Am"g>e cA|\
+"Em"Bc de |"Am"cB A2 :|
+[V:2] [A,,4E,4C4]|[G,,4D4B,4]|[A,,4E,4C4]|[G,,4D4B,4]|[D,4A,4F4]|[A,,4E,4C4]|\
+[B,4E,4G,4]| [A,,4E,4C4]:|
+%%%%%tune repeat
+[V:1] "C"cG G>B|"Am"c>d ed|"C"cG cG|"G"ED D2|"C"cG G>B|"F"c>d ef|\
+"C"g>e "F"cA | "Am"AG "G"G2 |
+[V:2] [C,4G,4E4]|[A,,4E,4C4]|[C,4G,4E4]|[G,,4D4B,4]|[C,4G,4E4]|[F,,4A,4C4]|\
+[C,2G,2E2][F,2A2C2]|[A,,2E2C2][G,,2D2B,2]|
+%
+[V:1] "C"cG G>B|"Am"c>d ed|"C"cG cG|"G"ED DB|"F"cF GF|"C"Ec "F"AF|\
+"C"E>F GE | "G"DB, "C"C2 ||
+[V:2] [C,4G,4E4]|[A,,4E,4C4]|[C,4G,4E4]|[G,,4D4B,4]|[F,4A4C4]|\
+[C,2G,2E2][F,,2A,2C2]|[C,4G,4E4]|[G,,2D2B,2][C,2G,2E2]||
+%
+[V:1] "Am"e>c ea|"G"g>d gb|"Am"ab ag|"G"ed g2|"Dm"a>f df|"Am"g>e cA|\
+"Em"Bc de |1 "Am"cB A2 :|2 "Am"cB A2-|A4||
+[V:2] [A,,4E,4C4]|[G,,4D4B,4]|[A,,4E,4C4]|[G,,4D4B,4]|[D,4A,4F4]|[A,,4E,4C4]|1\
+[B,4E,4G,4]| [A,,4E,4C4]:|2 [A,,4-E,4-C4-]|[A,,4E,4C4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87097
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

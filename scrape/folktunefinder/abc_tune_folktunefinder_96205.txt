@@ -1,0 +1,28 @@
+X: 54
+T:Jigg Medus(to TBe.053). TBe.054
+M:6/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:jigg
+O:England
+H:Before 1718
+Z:vmp.C. Graebe..
+K:BB major
+e | e>dc c>B_A | G3-G2 c | =B2cd2G | G3-G2 e |! 
+e>dc c>B_A | G3-G2 c | =B>cd c2 B | c3-c2 ||!
+e/f/ | e2f d2G | E3G2F | E3DE2 | E3-E2 e/f/ |!
+ e2fd2G | E3 G2F | E3G2B | B3B2B |!
+ =B2cc2c | B2GG2G | BGB_A2G |G3-G2B/c/ |!
+  =B2cc2c | =B2GG2G | BGB _A2G | G3-G2 ||
+S:https://www.folktunefinder.com/tunes/96205
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

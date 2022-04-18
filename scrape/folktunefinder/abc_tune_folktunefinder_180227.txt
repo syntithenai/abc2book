@@ -1,0 +1,21 @@
+X: 1
+T: Old Tipperary
+S: &quot;Callan Bridge&quot;
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+&quot;D&quot;dcA &quot;G&quot;~G3| &quot;D/A&quot;AGF &quot;G&quot;~G3 | &quot;D&quot;dcA &quot;G&quot;~G3 |&quot;D/A&quot;AGE F2 A |
+&quot;D&quot;dcA &quot;G&quot;~G3| &quot;D/A&quot;AGF &quot;G&quot;G2 d | &quot;D&quot;fdd &quot;(D/C&quot;edd | &quot;Bm7&quot;fdd &quot;D/A)&quot;cAF :|
+&quot;G&quot;GBd ~g3 |&quot;C&quot;gaf ~g2f |&quot;G/B&quot;d2g gfg |&quot;Am&quot;~a2g &quot;D&quot;fga |
+&quot;Em&quot;bc'b &quot;D&quot;agf | &quot;C&quot;gfe &quot;Bm&quot;~f2 e | &quot;D&quot;dcA &quot;(D/C&quot;cde | &quot;Bm7&quot;fed &quot;D/A)&quot;cAF :|
+S:https://www.folktunefinder.com/tunes/180227
+S:http://www.thesession.org/tunes/display/2599
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

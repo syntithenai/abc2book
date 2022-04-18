@@ -1,0 +1,24 @@
+X: 1
+T:Opryshky
+S:A. Humenyuk
+Q:72
+M:2/4
+L:1/16
+K:Dm
+{c'}d'4 (ba)(ag) | (^fg) g4 g2 | \
+{c'}d'4 (ba)(ag) | {^g}a4 e3d | \
+{^c}d2A2 {c}d2A2 | {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] ::
+(^cd)(e^f) (gf)(gf) | (ga)g^f (gf)g2 | \
+(ga)g^f (gf)g^g | a4 a4 | \
+{^c}[D2d2]A2 {c}[D2d2]A2 |  {^c}[D2d2] [D4d4] [D2d2] | \
+(fe)(ed) A2A2 | {^c}[D4d4] [D4d4] :|
+S:https://www.folktunefinder.com/tunes/180538
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/op/Opryshky_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

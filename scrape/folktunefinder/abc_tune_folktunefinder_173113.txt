@@ -1,0 +1,19 @@
+X: 1
+T:the Loudon
+M:2/4
+L:1/8
+K:G
+d>edB| A>GAB| c>Bcd| e>fge| d>edB| e>fge| d>BAB| GGG2::
+B>dGd| Bded| B>dGB| ADD2| BdGd| ^cdeg| fed^c| d2d2::
+.g.g(gf)| .e.e(ed)| BdGB| ADD2|\
+.g.g({a}gf)| .e.e({f}ed)| B>GAB| GGG2::
+[B3/2B,3/2][d/D/]GD| E>Gce| dBdB| AFED|\
+[B3/2B,3/2][d/D/]GD| EGce | d>BAB| GGG2:|
+S:https://www.folktunefinder.com/tunes/173113
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/lo/Loudon_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

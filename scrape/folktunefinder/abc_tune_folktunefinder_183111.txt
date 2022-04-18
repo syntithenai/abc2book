@@ -1,0 +1,44 @@
+X:1
+T:Polka vom Rua-Sima
+C:traditionell
+R:Polka
+A:Stumm, Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Zillertaler Musikanten" - eine volksmusikalische Dokumentation -  Karl Horak, hrsg. Bezirk Oberbayern und Land Tirol, Muenchen - Innsbruck, 1988
+N: im buch auf Seite 161/ nr. 84 in C (1. 2.Teil), im buch zweistimmig mit harmoniebuchstaben, in der Quelle einstimmig
+S:mit dem vermerk:Ueberliefert vom alten Rain - Simon aus Stumm, aufgeschrieben von Hans Wurm - Muehlacher aus Hart
+N:Kopie aus dem buch von Karl Horak
+%%endtext
+Z:abc transcripton Simon Wascher
+N:Notenmaterial von Stefan Straubinger
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:C
+G2E2 G2E2 | G2c2 e4 | .e2.d2 (ded2) | .d2.c2 (cdc2) |
+G2E2 G2E2 | G2c2 e4 | .e2.d2 (ded2) | c2c2"Ende"c2 z2 :|
+|:\
+C2FA c2A2 | G2GC E4 | ffG2 ddG2 | eeG2 c2 |
+C2FA c2A2 | G2GC E4 | ffG2 ddG2 | "von Anfang bis Ende"c2c2c2 z2 :|
+P:dudelsack-version
+K:G %Transposed from C
+d2B2 d2B2 | d2g2 b4 | .b2.a2 (aba2) | .a2.g2 (gag2) |
+d2B2 d2B2 | d2g2 b4 | .b2.a2 (aba2) | g2g2"Ende"g2 z2 :|
+|:\
+G2ce g2e2 | d2dG B4 | ccd2 AAd2 | BBd2 G4 |
+G2ce g2e2 | d2dG B4 | ccd2 AAd2 | g2g2g2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183111
+S:http://simonwascher.info/TradArchiv_polka/polka_vom_rua-sima.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

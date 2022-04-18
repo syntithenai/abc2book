@@ -1,0 +1,22 @@
+X: 1
+T: Palisades, The
+M: 6/8
+L: 1/8
+R: jig
+K: Dmin
+def edc | dcA BAG | F3 EDC | A,B,C DFA |
+def edc | dcA BAG | ^F2 d cAG |1 ^FDC D2 A :|2 ^FDC D2 G ||
+Add fdd | add fdd | c3 ece | gag edc |Add fdd |
+[1 add fdd | cde gag | ed^c d2 =c :|
+[2 aba ged |cde gag | ed^c d2 A |]
+S:https://www.folktunefinder.com/tunes/181519
+S:http://www.thesession.org/tunes/display/6196
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

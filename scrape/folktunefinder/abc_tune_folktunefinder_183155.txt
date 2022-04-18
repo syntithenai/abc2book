@@ -1,0 +1,25 @@
+X:1
+T:Polon\"as fr\aan Sexdrega()
+T:Sl\"angpolska
+C:Trad.
+Z:Bart Brashers, bart.brashers@nyckelharpa.org, efter Forsmark Tre
+M:3/4
+L:1/8
+Q:1/4=102
+K:D
+|: vDF EE/F/ D2 | Ac BB/c/ uA2- | dc- df ed | c/-d/c/B/ A/-B/A/G/ FE |
+   vDF EE/F/ D2 | Ac BB/c/ uA2- | dc- df ed | vc/-d/e/c/ ud2 v(D2 :|
+|: vf/g/)f/e/ dc B2 | e/-f/e/d/ cB A2 | Bd cA BG | A2 E4 |
+   vAd A/-B/A/G/ FD | EG E/-F/E/D/ B,A, | vD/-E/F/G/  A/-B/c/d/ e/-f/g/-e/ | vf/-e/d/c/ ud2 vD2- :|
+P:You can add add two more slurs to the 3rd and 7th measures of the A-part, and 
+P:add slurs pair-wise (across the beats) to the 3rd measure of the B-part:
+| uA2- | dvc- duf- ev(d | c/d/)uc/vB/ |] vBud- cvA- BuG |]
+S:https://www.folktunefinder.com/tunes/183155
+S:http://www.nyckelharpa.org/downloads/sexdreg2.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

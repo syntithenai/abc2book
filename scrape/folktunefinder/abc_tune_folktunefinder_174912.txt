@@ -1,0 +1,42 @@
+X:1
+T:Mazurka-Polka : Ma grand-mre
+E:12
+Z:Roger Ngaret (94-95)
+R:mazurka
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=130
+M:3/4
+L:1/16
+K:C
+T:Mazurka
+G2c2 | "C"e4 e4 d2c2 | "G"d4 d4 G2B2 | d4 f4 e2d2 |\
+"C"e8 G2c2 | e4 e4 d2c2 | "G"d4 d4 G2B2 | d4 f4 e2d2 | "C"c8 :|
+Q:1/4=160
+T:Polka
+M:2/4
+L:1/16
+g4 g2e2 | c4 c4 | e4 e4 | "G"d8 | f4 f2d2 |\
+B4 B4 |1 "C"g4 g4 | e8 :|2 "G"d4 d4 | "C"c8 |]
+%%rm
+%%bf  Mazurka :
+%%rm  Ma grand-mre, quand je danse, 
+%%rm  Mon cotillon fait-il bien 
+%%rm  Fait-il aussi bien la ronde 
+%%rm  Que la queue de mon p'tit chien 
+%%rm
+%%bf  Polka :
+%%rm  Dans mon village y'a pas d'maison,
+%%rm  Ceux qu'en voudront, ceux qu'en voudront,
+%%rm  Dans mon village y'a pas d'maison,
+%%rm  Ceux qu'en voudront en btiront.
+S:https://www.folktunefinder.com/tunes/174912
+S:http://termen.free.fr/danses/mazurkas/MazurkaPolkaMagrandmere.abc
+% Rhythm Mazurka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

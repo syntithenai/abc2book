@@ -1,0 +1,24 @@
+X:1
+T:Polka Mazurka
+C:Kammen Collection, Vol. 1
+C:Arr. T. Traub, 12-Apr-03
+Z:Kammen Collection, Vol. 1
+Z:use 65% scaling
+R:Waltz
+M:3/4
+K:Dm
+L: 1/8
+|: "Dm" a>f d z d z|"Gm"b>g e z e z|"A"A^cegfe| "Dm"d^cdefg|"Dm" a>f d z d z|"Gm"b>g e z e z|"A"A^cegfe| "Dm"d z d z z2 :|
+|: "Dm" fegfed|"A".d z ^c4|"A"A^cegfe| "Dm"d^cdefd|"Dm" fegfed|"A"^c z b4|"A"abagfe|"Dm"d z d' z z2 :|
+"Dm" a>f d z d z|"Gm"b>g e z e z|"A"A^cegfe| "Dm"d^cdefg|"Dm" a>f d z d z|"Gm"b>g e z e z|"A"A^cegfe| "Dm"d z d z z2 ||
+|: "F"AB=Bcdc|.a z f4|"C7"e>d B z B z|"F"d>c A z A z| "F"AB=Bcdc|a z f4|"C7"edcBAG|"F"F z [Af] z z2:|
+S:https://www.folktunefinder.com/tunes/183076
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/PolkaMazurkaW.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

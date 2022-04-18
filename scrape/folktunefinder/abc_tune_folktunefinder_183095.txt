@@ -1,0 +1,38 @@
+X:1
+T:Polka pique : Les sonnous
+Z:Roger Ngaret (94-95)
+R:polka
+C:Trad.
+S:
+A:Bretagne
+Q:1/4=120
+M:2/4
+L:1/16
+K:C
+"C"c2e2 g4 | g2f2 e4 | e3f g2f2 |1 e2d2 e2c2 :|2\
+e2d2 c4 |: c2e2 "G"d2ef | "C"e2d2 e2c2 | c2e2 "G"d2ef | e2d2 c4 :|
+%%rm
+%%rm  1. Tous les jours les sonnous sont  l'entour de ma fille
+%%rm     Tous les jours les sonnous sont  l'entour de chez nous.
+%%rm
+%%it     De qui, de quand, de Cancale, de Cancale et d'alentour ] bis
+%%rm
+%%rm  2. J'irai bien dans un jour, deli, deli, de Lamballe
+%%rm     J'irai bien dans un jour de Lamballe  Moncontour.
+%%rm  3. J'irai bien dans une heure, deli, deli de Lamballe
+%%rm     J'irai bien dans une heure de Lamballe  Saint Sauveur.
+%%rm  4. J'irai bien dans un panier, deli, deli, de Lamballe
+%%rm     J'irai bien dans un panier de Lamballe  Colline.
+%%rm  5. J'irai bien dans une balance, deli, deli, de Lamballe
+%%rm     J'irai bien dans une balance de Lamballe jusqu' Coutance.
+S:https://www.folktunefinder.com/tunes/183095
+S:http://termen.free.fr/danses/polkas/PolkapiqueeLessonnous.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

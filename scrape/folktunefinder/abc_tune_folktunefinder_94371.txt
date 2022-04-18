@@ -1,0 +1,37 @@
+X:19080
+T:Xiraldilla (CT 422) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+O:Uviu
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 422
+M:2/4
+L:1/8
+Q:1/4=160
+W:Tengo, tengo, tengo
+W:y t no tienes nada:
+W:tengo dos cabrites
+W:arriba en la montaa.
+W:Una me da leche,
+W:otra me da lana;
+W:una me da leche
+W:pa toda la semana.
+K:Cm
+|:"Gm"GG GG|"Fm"c2 c2|"Gm"dd c=B|"Fm"c2 c2|
+"Fm"FF FF|"Gm"B2 GG|"Fm"AA GF|"Gm"G2 G2:||
+S:https://www.folktunefinder.com/tunes/94371
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

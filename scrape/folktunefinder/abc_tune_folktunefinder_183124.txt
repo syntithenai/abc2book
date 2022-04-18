@@ -1,0 +1,29 @@
+X: 1
+T:Polkett fr Stugun
+R:Polkett
+O:Sweden
+M:4/4
+C:e. Anselm N\"aslund
+A:J\"amtland
+K:G
+Bc|\
+d2g2 gfg2 | b4 d4 | e3d e2f2 | g4 B4 |\
+c2c2 cBA2 | B2B2 BAG2 |
+FAd2 FAd2 |1 G3A B2c2 :|2 G2G2G2 :: \
+d2 |\
+cBAG AGFD | GABc d3g | f2af d2ef | g2bg d3d |
+cBAG AGFD | GABc d3g | f2af d2ef | g2g2g3 ::\
+B|\
+c2Bc agfg | G2Bd ed^cd |
+D2FA cAFA |G2Bd ed^cd|\
+c2Bc agfg | G2Bd ed^cd | D2FA cAFA | A2G2G2:|
+S:https://www.folktunefinder.com/tunes/183124
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Polkett_fr_Stugun_1.abc
+% Rhythm Polkett
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

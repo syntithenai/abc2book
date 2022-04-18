@@ -1,0 +1,26 @@
+X:630
+T:Match Breaking
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e4d.html
+%%ID:00000e4d
+K:F
+c |\
+f2a (f2c) | A2c (B2c) | A2c cBA  | GGG G2c |\
+f2a  f2c  | ^c2d b2g  | f2e c'2e | f2z z2 !fine! H||
+a |\
+b2g efg | a2f fga | g2c  cde | f2c a2f |\
+b2g efg | a2f fga | gc'e gfd | c2z z2 !D.C.! |]
+%page:73
+S:https://www.folktunefinder.com/tunes/95757
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

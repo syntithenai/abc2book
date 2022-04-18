@@ -1,0 +1,24 @@
+X: 5
+T: Imala Majka
+T: (alternative tune for the dance "Karam Fil")
+O: Bulgaria
+M: 7/8
+L: 1/8
+K: Dm
+"Dm"D3 A2 AG | A3 F4 | "Gm"G3 "Dm"A2 F2 | "Am"E3 "Dm"D4 |\
+"Dm"D3 A2 AG | A3 F4 | "Gm"G3 "C"c2 B2 | "F"A3-A4 |
+"Dm"A3 d2 dc | "Gm"d3 G4 | "C"A2B c2 B2 | "Dm"A2G F2 E2 |\
+"Dm"D3 c2 B2 | "Gm"A3 G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+"Dm"A3 B2 c2 | "Gm"d3-d4 | "C"G3  c2 B2 | "Dm"A3-A4 |\
+"Dm"F3 E2 D2 | "Gm"G3-G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+"Dm"A3 d2 c2 | "Gm"B3-B4 | "C"G3  F2 E2 | "Dm"F3-F4 |\
+"Dm"F3 E2 D2 | "Gm"G3-G4 | "Dm"F3 "Am"EF EC | "Dm"D3-D4 |
+S:https://www.folktunefinder.com/tunes/92015
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/ImalaMajka.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

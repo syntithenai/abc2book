@@ -1,0 +1,28 @@
+X:850
+T:Voulez-vous Danser Mademoiselle
+T:the Portuguese dance
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001088.html
+%%ID:00001088
+K:C
+e2e e2e | {e}dcd c2c | B2c d2B | c2d e2c |\
+e2e e2e | {e}dcd cde | f2e (de)c | (cd)B c3 ::
+d2d    B2G  |   cde    d2d   | d2d        B2G   | cde d3 |\
+g2g {g}g^fg | (^fe).e (ed).d | (dc).c {c}B2d/c/ | B2A G3 ||
+{ef}g2g g2g | {g}fef e2e | d2e f2d | e2f g2e |\
+{ef}g2g g2g | {g}fef efg | a2g fge | efe c3 |]
+%%newpage
+%page 68
+S:https://www.folktunefinder.com/tunes/88327
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

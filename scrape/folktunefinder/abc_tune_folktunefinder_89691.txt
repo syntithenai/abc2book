@@ -1,0 +1,25 @@
+X:255
+T: Skippery Sam
+S: "The Ted Furey Collection of Irish Traditional Tunes"
+Z: B.Black
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+A2 | DFAF GBdB |Acec dfaf |gbed ceAF |GBED CE A,2 |
+DFAF GBdB |Acec dfaf | gbed ceAF | GBEC D2 :|
+FG | Adcd fdcd |baga fdcd |AdFA DFAF |GFED CE A,2 |
+Adcd fdcd |baga fdcd | AdFA DFAF | GFEC D2 :|
+S:https://www.folktunefinder.com/tunes/89691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

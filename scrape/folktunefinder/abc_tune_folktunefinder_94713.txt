@@ -1,0 +1,42 @@
+X:117
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lord Gordon's Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:D
+dB | AD ((3FED) AD ((3FED) | AD ((3FED) FAdc | BE ((3{/F}EDE) B,E ((3{/F}EDE) | BE ((3{/F}EDE) BAFA |
+dcdf ecdB | ((3ABA) ^GB A2 Bc | ((3dcB) cA BFAF EFGA Bc ((3dcB) |
+AD ((3FED) A,D ((3FED) | AD ((3FED) FAdc | BE (3.E.E.E BD (3.E.E.E | BE (3.E.E.E PBAFA |
+dcdf ecdB | ((3AGA) ^GB A2 Bc | ((3dcB) cA BGAF | EFGA Bcde ||
+Jf2 df afeg | fedf afgf | efga bgec | dcBA ^GABc |
+dcdf ecdB | AF[Fd][FA] A2 Bc | ((3ded) ((3cdc) ((3BcB) AF | EFGA Bcde |
+Jf2 df afdg | fedf afgf | efga bgec | ((3dcB) ((3cBA) ^GABc |
+df ((3{/g}fef ) eB ((3{/c}BAB) | AF[Fd][FA] A2 Bc | ((3dcB) cA BFAF | EFGA Bcde ||
+fa (3.a.a.a fdad | fa (3.a.a.a fdad | eb (3.b.b.b febe | eb (3.b.b.b febe |
+fafe dcdB | ((3ABA) ^GB ABdf | afec dBAF | EFGA Bcde |
+fa (3.a.a.a fdad | fa (3.a.a.a fdad | gb | (3.b.b.b febe | gb (3.b.b.b febe |
+fafe dcdB | ((3ABA) ^GB ABdf | afec dBAF | EFGA BcdB ||
+Adcd fdcd | Adcd fdcd | egfg bgfg | egfg bgfg |
+~g3 e dcdB | ((3ABA) ^GB ABdf | afec dcAF | EFGA BcdB |
+Ad{/e}dc defd | Ad{/e}dc defd | eg{/a}gf Pgfge | eg{/a}gf Pgfga |
+~g3 e dcdB | ((3ABA) ^GB ABdf | afec dcAF | EFGA Bcde ||
+fa{/b}af {/b}afde fa{/b}af ((3aba) gf | gaef gaef | gbeg bgef |
+Jg2 bg fa{/b}af | ((3gfe) dB ABdf | afec dBAF | EFGA Bcde || [G4B4][F4A4] |]
+S:https://www.folktunefinder.com/tunes/94713
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lord_Gordons_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lord_Gordons_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

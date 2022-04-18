@@ -1,0 +1,30 @@
+X: 182152
+T: Rosses Point
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+Z: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4 = 170
+K: Dm
+DE |: F2 cF dFcF | FdcA GFDE | F2 cF dFAc | dcAG FD D2 |
+F2 cF dFcF | FdcA GFDE |1 FGAB cAdc | dcBA FD D2 :|
+[2 FEDC A,CDE | FAGE FD D2 || f2 ef dcAc | defg afge |
+f2 ef d2 (3edc | AcGE FD D2 | fedc AGFG | Ad (3edc defg |
+afge fdcA | GcAG FD D2 || f2 ef dcAc | d2 (3edc dcAc |
+dfec dcAd | (3edc AG FD D2 | fedc dcAG | ABcA defg |
+abag fdcd | cAGA FD D2 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88028
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

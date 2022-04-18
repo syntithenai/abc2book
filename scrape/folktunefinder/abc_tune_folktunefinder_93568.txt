@@ -1,0 +1,25 @@
+X:345
+T: Bowna
+S: "Music of Ireland - The Big Session" (DJ Taylor)
+Z: B.Black
+L: 1/8
+M: 12/8
+R: slide
+K: G
+d2 B BAB c2 B A2 B|c2 c cBc ged B2 c|\
+d3 BAB cBc A2 B|cBc e2 d G6 :|
+g3 gfg a2 g fed|e3 ede f2 e def|\
+g3 gfg a2 g f3|efg a2 g fef g6 :|
+S:https://www.folktunefinder.com/tunes/93568
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

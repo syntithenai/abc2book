@@ -1,0 +1,28 @@
+X:70
+T:Algiers Waltz
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%Dancenotes:WALTZ Figure
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000de6.html
+%%ID:00000de6
+K:F
+AB |\
+cfedcB | AGFGAB | (cd).c2.f2 | (cd).c2.f2 |\
+cfedcB | AGFGAB | cdc2e2     | f4 ||
+c |\
+(cA).f2.f2 | (ec).g2.g2 | (cA).f2.f2 | (ec).g2.g2 |\
+(fc) (a2g2) | (fc) (a2g2) | f2F2F2 | F2F2F2 |! \
+F2(3AGF c2 | F2(3AGF c2 | d2d2e2 | (f2a2) AG |\
+F2(3AGF c2 | F2(3AGF c2 | d2d2e2 f4 |]
+\newpage
+S:https://www.folktunefinder.com/tunes/88147
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

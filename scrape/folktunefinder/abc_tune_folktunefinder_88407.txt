@@ -1,0 +1,25 @@
+X:1250
+T:William Tell
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001187.html
+%%ID:00001187
+K:F
+F/G/ |:: !segno! \
+ABc cFG | ABc c2c | f2f fAc | f2f fgf | \
+edc BAG | A2f fgf | edc BAG | F2A F2 ||
+c | \
+(Ac).c (cf).f | e2c c2A | (Bd).d (dc).B | BAG A2A | \
+Afe d2d | cdc cef | g2g GA=B | c3- (c2B) !segno! !D.C.! ::|
+S:https://www.folktunefinder.com/tunes/88407
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

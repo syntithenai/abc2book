@@ -1,0 +1,20 @@
+X:1
+T:Queen of Connemara
+M:6/8
+L:1/8
+K:C
+G,-A, B,| C2 B, C2 E| G3- GA B| c2 B A2 G| E G2- GE D| C2 B, C2| D|\
+ E2 D E2 G| A2 D D2 E| D3- DG F| E2 D E2 F| G2 E D2 B,| F2 D F2 A|\
+ c2 D c2 B| A3 G2 E| D2- C A,2 G,| A, B,2 C2 D| C2 z E2- F| G2 zG-F E|\
+ G2 z E2 F| GGG A2 F| c3- c2 c| GGG A2 F| c3- c2 c| B2 dG-A B| c2 E F2 A|\
+ G2 E D2 C| C2 z||
+S:https://www.folktunefinder.com/tunes/184232
+S:http://back.numachi.com:8000/dtrad/abc/QUENCONN.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

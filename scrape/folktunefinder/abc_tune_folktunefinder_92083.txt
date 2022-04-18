@@ -1,0 +1,27 @@
+X:60
+T: Molihua(1)
+N: C1558
+O: China,Liaoning, Haicheng
+S: III, 275]
+R: Xiaodiao, Shidiao, Molihua diao]
+M: 2/4
+L: 1/16
+K: A
+f3ff2f2 | a4c2e2 | f2f4e2 | f8
+b3ab2c2 | c2b2a4 | b3ab2b2 | e4g2f2 | e2e4f2 | e8
+f4b3c | a4a4 | f4b2c2 | a4a4
+f4f4 | a3ff2c2 | e2e4f2 | e8
+f3fc2a2 | f4f4 | e6f2 | a4a4 | b4b4
+f3af2e2 | c2B2c4 | a4f2e2 | f2c2e4
+f4e4 | f4e4 | B3ce4 | B2c2e4 | c2f2f2c2 | B2B4A2 | B8
+S:https://www.folktunefinder.com/tunes/92083
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, shidiao, molihua diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

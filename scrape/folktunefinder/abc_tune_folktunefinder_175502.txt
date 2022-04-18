@@ -1,0 +1,26 @@
+X:1
+T:Mes Parents Veulent Plus Me Voir - #140
+T:My Parents Want More See Me
+O:Cajun tune
+N:Recorded by Dr. Bubba's OK Bayou Dance Band
+N:on the recording "The Young Fogies"
+M:4/4
+L:1/4
+K:D
+V:1 name="Melody"
+|:"D""^Part A"F A G F|A4|F A G F|D4|F F G F|"A7"E4|E F2 E|"D"D4:|
+|:"G""^Part B"G G "D"F/2E/2 D|"G"G G "D"F2|"G"G G "D"F/2E/2 D|"A7"G/2F/2 E "D"D2:|
+V:2 name="Harmony"
+|:A d B A|d4|A d B A|F4|d d e d|c4|c d e c|d4:|
+|:B B/2B/2 A F|B B A2|B B A F/2F/2|B/2A/2 G F2:|
+S:https://www.folktunefinder.com/tunes/175502
+S:http://gulfweb.net:34043/~rlwalker/abc/mesparents.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/mesparents.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

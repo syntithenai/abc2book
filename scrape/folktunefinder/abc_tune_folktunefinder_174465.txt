@@ -1,0 +1,24 @@
+X: 1
+T: Marsch efter Byss-Kalle (nr 10)
+S: efter Byss-Kalle
+B: 57 ltar efter Byss-Kalle nr 10
+N: Uppteckningen r ursprungligen hmtad ur Ruben Liljefors bok Uplndsk Folkmusik.
+O: Uppland
+R: Marsch
+M: 4/4
+K: G
+L: 1/8
+d2 | g>a a>b bg c'b | (ag) (a{ba}g) (ab) ac' | e>f e>f g>e e>f | ge ae d>d d>g |]
+(ec) ge (dB) gB | (cA) ec B2 g2 | (ec) ge (dB) gB | (cA) ec {BA}B2 d2 |
+(gf) ad g2 ab | (c'c') c'c' (c'b) c'a | (c'b) ag (fa) d'f | g6 |]
+S:https://www.folktunefinder.com/tunes/174465
+S:http://www.folkwiki.se/pub/cache/_Marsch_efter_ByssKalle_nr_10_a8c9ee.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

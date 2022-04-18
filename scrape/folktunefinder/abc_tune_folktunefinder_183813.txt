@@ -1,0 +1,17 @@
+X: 1
+T: Pretty Peg
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+A|{c}d2 (fd) AFDA|{c}d2 (fd) (e/2f/2g) &quot;tr&quot;(fe)|{c}d2 (fd) AFDF|{F}GE{G}FD CEE:|
+A|(F/2E/2D) (AD) BDAD|(G/2F/2D) (G/2F/2D) CEEG|(F/2E/2D) (AD) BDAD|{F}(GF)ED A,DDA|(F/2E/2D) (dD) cDBD| AD (G/2F/2D) (CE)EG|FA{c}df ec{c}dB|BF{F}GE {G}FDD ||
+S:https://www.folktunefinder.com/tunes/183813
+S:http://www.thesession.org/tunes/display/1783
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:305
+T: The Drummond Lasses
+M: C|
+L: 1/8
+N: "collected by McFadden"
+B: O'Neill's 1436
+Z: "Transcribed by Bob Safranek, rjs@gsp.org"
+Z: Ornament (~) is a turn.
+K: G
+G2 (BG) dGBG      | G2 (BG) EAAF    | G2 (BG) dGBd | cABG (EG) G2 |
+G2 (BG) dGBG      | dGBG    EAAF    | G2 (Bc) dege | dBAG (EG) G2 ||
+gfed ((3Bcd) (ef) | gfed    eaag    | gfed    BcdB | cABG  EGGd   |
+gfed ((3Bcd) (ef) | gfed   (ea) ~a2 | bgaf    gedB | cABG (EG) G2 |]
+S:https://www.folktunefinder.com/tunes/87361
+S:http://www2.redhawk.org:8080/irish/oneill/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

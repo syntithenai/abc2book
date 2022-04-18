@@ -1,0 +1,27 @@
+X:1
+T:Miss Jean Milligan
+C:Jimmy Shand
+D:Jimmy Greenan, The Jeenius of Jim
+Z:Nigel Gatherer scots-l 2001-1-4
+L:1/8
+M:4/4
+K:C
+"G7"G2 \
+| "C"c2ed c2eg | "F"agab c'2c'a \
+| "C"g2e2 "Dm"fedc | "D7"e2d2 "G7"d2ed \
+| "C"c2ed c2eg | "F"agab c'2c'a |
+| "C"gc'ba "G7"gfed | "C"e2c2 c2 \
+|| "G7"g2 \
+| "C"c'2gf "Am"edc2 | "Dm"fefg "G7"a3g | "C"c'2g2 "A(m)"gage |
+| "Dm"f2d2 "G7"d3g  | "C"c'2gf "Am"edc2 \
+| "Dm"fefg "G"a3f | "C"gc'ba "G7"gfed | "C"e2c2 c2 |]
+S:https://www.folktunefinder.com/tunes/176133
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/MissJeanMilligan_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

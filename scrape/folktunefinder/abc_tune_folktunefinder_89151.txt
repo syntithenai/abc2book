@@ -1,0 +1,25 @@
+X:235
+T: Firefly
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+N: as a "gan ainm" (tune #52)
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: G
+A|BDD cDD|BDD AFD|GBd gdB|cBc AFD|
+BDD cDD|BDD AFD|GBd gdB|cAF G2 :|
+D|GBd gfg|ece dBG|cBA BAG|DFA cBA|
+GBd gfg|ece dBG|cBA BAG|DFA G2 :|
+S:https://www.folktunefinder.com/tunes/89151
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/f.abc
+S:http://www2.redhawk.org:8080/irish/zouki/f.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

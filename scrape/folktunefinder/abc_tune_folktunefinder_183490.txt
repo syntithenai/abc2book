@@ -1,0 +1,53 @@
+X:1
+T:The Pondskater
+C:Thomas Bending 2001
+N:for {\it Ben's Confusion} by Cyril Papworth 1993
+M:6/8
+L:1/8
+K:Em
+%
+\def\bassnote#1{%
+\setbox0=\hbox{\raise-10pt\hbox{#1}}\wd0=0pt\dp0=0pt\box0}
+%
+"Em"e2\
+\setbox0=\hbox{\raise47pt\hbox{\it Playford style}}\wd0=0pt\dp0=0pt\box0%
+ B e2 B | "Am"cBA-ABc | "B"B2 F B2 A | "Em"GFE-EEF |
+ "Em"GEG BAG | "Am"AEA cBA |1\
+ "{}\bassnote{b}B"B2 F "{}\bassnote{a}B7"B2 A |\
+ "{}\bassnote{g}Em"GBe "{}\bassnote{f\#}B"FB^d :|2\
+"B"B2 F "B7"B2 A |\
+% NB can't put next bit in mid-bar lest new time signature not printed
+\setbox0=\hbox{\hskip 35pt\raise25pt\hbox{\notes\tinynotesize\qu{.h}\enotes}}%
+\wd0=0pt\dp0=0pt\box0
+\setbox0=\hbox{\hskip 45pt\raise47pt\hbox{$\scriptstyle =$}}%
+\wd0=0pt\dp0=0pt\box0
+\setbox0=\hbox{\hskip 55pt\raise25pt\hbox{\notes\tinynotesize\hu h\enotes}}%
+\wd0=0pt\dp0=0pt\box0
+"Em"GFG\
+M:4/4
+\qspace
+"D"A2 ^A2 |
+M:4/4
+L:1/8
+"G"B2\
+\setbox0=\hbox{\raise47pt\hbox{\it American style}}\wd0=0pt\dp0=0pt\box0
+ BB BAGB | "C"c2 cc cBAc | "G"BAGA BdcB | "D"AGFE D2 DD |
+ "C"E2 EF GFEG | "G"DB,DG "Em"BAGB | "A"A2 AB ^cABc | "D".d2 DE FGA^A ||
+"G"B2 BB BAGB | "C"c2 cc cBAc | "G"BAGA BdcB | "D"AGFE D2 DD |
+ "{}\bassnote{c}C"CDEC "{}\bassnote{d}D"D2 DD |\
+ "{}\bassnote{e}Em"EFGE "{}\bassnote{f\#}D"F2 FF |\
+ "{}\bassnote{g}G"GBdB "C"cd"D"ef | "{}\bassnote{g}G".g4\
+M:6/8
+\qspace
+"{}\bassnote{f\#}B"f3 |]
+S:https://www.folktunefinder.com/tunes/183490
+S:http://www.thomasbending.co.uk/tunesdances/pondskt.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 4/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

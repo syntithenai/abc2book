@@ -1,0 +1,27 @@
+X:1169
+T:"Moll Roe"         (slipjig)    1169
+C:after Chief  F. O'Neill.
+N:added anacrucis to allow for proper repeat scancion
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:9/8
+L:1/8
+K:G
+G|DGG GAG FGA|BGB cAB c2c|DGG GAG FGA|BGB cAF G2(G/2F/2)|
+DGG GAG FGA|BGB cAB c2(B/2c/2)|ded cAG FGA|BGB cAF G2||
+(B/2c/2)|ded cAG FGA|ded cAB c2(B/2c/2)|ded cAG FGA|BGB cAF G2(B/2c/2)|
+ded cAG FGA|ded cAB c2(d/2e/2)|fed cAG FGA|BGB cAF G2|]
+S:https://www.folktunefinder.com/tunes/176531
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1169-MollRoe.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1169-MollRoe.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

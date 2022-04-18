@@ -1,0 +1,27 @@
+X:3
+T:Bee's Wings
+N:Hornpipe
+R:reel
+B:One Thousand Fiddle Tunes (Cole's)
+M:C|
+K:Bb
+Q:410
+FA|:"Bb"BfdB "F"AecA|"Bb"FdBF "Bb"DBFD|"Eb"EGce "Bb"DFBd|"C"(3cdc (3BAG "F"F2 GA|
+"Bb"Bfdb "F"Afca|"Eb"EBGe "Bb"DBFd|"Eb"EGce "F"dcBA|1 "Bb"B2 d2 B2 FA:|2 "Bb"B2 d2 B2 fe||
+|:"Bb"dBfd bfdB|"F"cAfc afcA|"Eb"GEBG ecdB|"F"(3cdc (3BAG F2 GA|
+"Bb"Bfdb "F" Afca|"Eb"EBGe "Bb"DBFd|"Eb"EGce "F"dcBA|1 "Bb"B2 d2 B2 fe:|2 "Bb"B2 d2 B4||
+S:https://www.folktunefinder.com/tunes/92001
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Bees_Wings.abc
+S:http://idiot-dog.com/relph/Tunes.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

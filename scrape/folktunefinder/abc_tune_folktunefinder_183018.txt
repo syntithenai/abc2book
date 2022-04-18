@@ -1,0 +1,63 @@
+X:1
+T:Polka 
+C:traditionell
+A:Bez. Mies, Staab, Pilsen, Tschechische Republik
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Alt-Egerl\"ander T\"anze", E. Baumann
+N:im buch nr. 10
+N:im ganz buch in F ,zweistimmig mit harmonie-buchstaben, 1. ton f'' und a', ambitus melodie e' - a''
+N:im buch sechs teile teil C sechszehntaktig, F=B
+S:mit der angabe: Vorgespielt von Laurie Rauner 1984 in Puhoi/Neuseeland
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:F
+V:1
+P:A
+{cde}f4 | e4 | d4 | c3c |\
+BdG>B | AcF>A | GBE>G | F2 z :|
+V:2
+{ABc}A4 | c4 | B4 | A3A |\
+GBE>G | FAA,>F | EGC>E | A,2 z :|
+V:1
+P:B
+|: F/G/ |\
+AA F>G | AA F>G | AA BA | A2 G E/F/ |\
+GB E>F | GB E>F | GB AG | "ende"G2 F :|
+V:2
+|: A/B/ |\
+cc A>B | cc A>B | cc dc | c2 B G/A/ |\
+Bd G>A | Bd G>A | Bd cB | "ende"B2 A :|
+V:1
+P:D
+|:\
+Ac Bd | ca a2 | b2 g2 | a2 f2 |\
+Ac Bd | ca a2 | b2 e2 | gffz :|
+V:2
+|:\
+FA GB | Af f2 | g2 e2 | f2 A2 |\
+FA GB | Af f2 | g2 G2 | BAAz :|
+V:1
+P:E
+|:\
+c>d cB | AA z2 | aggz | baaz |\
+c>d cB | AA z2 | a>g ag | fff :|
+V:2
+|:\
+A>B AG | FF z2 | cBBz | dccz |\
+A>B AG | FF z2 | c>B cB | AAA :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183018
+S:http://simonwascher.info/TradArchiv_polka/polka.FGABc2d2c2G2B4.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:85
+T:the Dorsetshire march
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000619.html
+%%ID:00000619
+K:D
+AG |\
+F2D>F A2F>A | d2A>d     f2d>f | a2b>a g2 (3fef | e2e>e e2D2 |
+F2D>F A2F>A | B>cd>e {d}c2B>A | B>cd>g   f2Te2 | d2d>d d2  ::
+A2 |\
+d2f>d B2d>B | AFdB  AFED  | FA dc  BAGF | E2E>E E2D2 |
+F2D>F A2F>A | B2g>e c2B>A | B>ba>g f2Te2 | d2d>d d2 ::
+%page:13
+S:https://www.folktunefinder.com/tunes/95648
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

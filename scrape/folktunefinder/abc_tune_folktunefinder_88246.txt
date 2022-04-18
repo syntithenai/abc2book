@@ -1,0 +1,28 @@
+X:445
+T:Famous Lady
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+N:1st few letters of title not quite clear, could be "Gra"
+O:England
+Z:Richard Robinson 
+%%RRN:"A Good time"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ece.html
+%%ID:00000ece
+K:F
+F3G A2d2 | c2(A2 A2)(d2 | c2) (A2 A2)GF | (G4 G2)A2 |\
+F3G A2(d2 | c2)A2 A2(d2 | c2)A2 (BA)(GF) | (F4 F4) ::
+f2f2 (gf)(ed) | f2f2 (gf)(ed) | (ef)g2 G4 | \
+F3G A2(d2 | c2)(F2 F2)(d2 | c2)A2 (BA)(GF) | (F4 F4):|
+%%newpage
+%page 27
+S:https://www.folktunefinder.com/tunes/88246
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

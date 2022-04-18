@@ -1,0 +1,38 @@
+X:310
+T: Happy Hamster (The) (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D|"D"DEF "Am"Ad=c|"D"AFA "C"GE=C|"D"DFA def|"Am7"agf e=cA|
+[V:2] z|D,2[AFD]A,,2[A=CE]|D,2[AFD]=C,2[EG=C]|D,2[AFD]F,,2[AFD]|\
+A,,2[G=CE]E,2[G=CE]|
+%
+[V:1] "D"DEF "Am"Ad=c|"D"AFA "Am7"GA=c|"D"fdd "A7"^ceg|"D"fdc "D"d2 :|
+[V:2] D,2[AFD]A,,2[A=CE]|D,2[AFD]A,,2[A=CE]|D,2[AFD]A,,2[GCE]|\
+D,2[AFD][D,2A,,2F,2]:|
+%
+[V:1] A|"D"daa "Bm7"baa|"D"faf dAB|"C"=cgg "Am7"agg|"C"ege "Am"=cAc|
+[V:2] z|D,2[AFD]B,,2[ADF]|D,2[AFD]A,,2[AFD]|=C,2[EG=C]A,,2[G=CE]|\
+=C,2[EG=C]A,,2[A=CE]|
+%
+[V:1] "D"dfa "Bm"baf|"C"=ceg "Am"age|"D"fdd "A7"^ceg|"D"fdc "D"d2 :|
+[V:2] D,2[AFD]B,,2[BFD]|=C,2[EG=C]A,,2[G=CE]|D,2[AFD]A,,2[GCE]|\
+D,2[AFD][D,2A,2F2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86947
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,41 @@
+X:10654
+T:Medieval Spanish Tune (3/4)
+R:Other
+O:Spain
+M:6/4
+L:1/4
+K:C
+cd|| \
+e>d ce gf| e>d cG cd| e>d ce gf| e>d cG cd|
+e>d c(e e/)d/c | B>A GG GA| \
+B>A GG dc| B>A GG gf|\
+e>d cG d/c/B| c>d "Fine"c2 || 
+cd| \
+e>d ce gf| e/f/e/d/ cG c/B/c/d/| \
+e>d ce gf| e/f/e/d/ cG c/B/c/d/|
+e>d c(e e)d/c/ | B/c/B/A/ GG GA|\
+B/c/B/A/ GG d>c| B/c/B/A/ GG gf|\
+e/f/e/d/ cG d/c/B| c/B/c/d/ c2 ||
+g/f/e/d/ |\
+ec'/_b/ a/g/a g/f/e/d/ | e>f g2 g/f/e/d/ |\
+ec'/_b/ a/g/a g/f/e/d/ | e>f g2 g/f/e/d/ | 
+ee/d/ c/B/c/B/ c/d/e/^f/| g>a g2 ga|\
+b>c' bb d'c'| b>a g>f e>d| 
+e/d/e/d/ cG d/c/B | c/B/c/d/ cG c/B/c/d/ |\
+e/c/e/c/ e/c/f/c/ f/c/f/c/ | e>d cG c/B/c/d/|
+e/c/e/c/ e/c/f/c/ f/c/f/c/ | e>d cG c/B/c/d/ |\
+e/c/e/c/ e/c/^f/c/ f/c/f/c/| g>c gg ga|
+b/c/b/c/ b/c/c'/c/ d'/c/c'/c| b/c/b/c/ a/c/a/c/ gf|\
+e/g/e/g/ e/g/d/g/ d/g/d/g/| \
+c//e//g/c//e//g/ c//e//g/c/G/ "DC al Fine"cd ||
+S:https://www.folktunefinder.com/tunes/98436
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Other
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

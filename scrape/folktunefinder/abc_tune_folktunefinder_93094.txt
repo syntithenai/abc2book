@@ -1,0 +1,21 @@
+X: 4
+T: Hilma ja Juhani
+M: 3/4
+L: 1/8
+K: Dm
+A2 \
+| "Dm"D2 D2 F2 | "Dm"A2 A2 F2 | "A7"G2 F2 E2 | "Dm"D3 zA2 \
+|  "F"F2 F2 A2 |  "F"c2 c2 A2 | "C7"B2 A2 G2 | "F"A3 z |]
+|: "A7"A2 \
+| "Dm"d2 d2 A2 |  "F"c2 c2 A2 | "Gm"B2 A2     G2 | "A7"A3 zF2 \
+| "Dm"D2 D2 F2 | "Dm"A2 A2 F2 | "Gm"G2 F2 "A7"E2 | "Dm"D3 z :|
+%%sep 1 1 10cm
+S:https://www.folktunefinder.com/tunes/93094
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/song.abc
+S:http://trillian.mit.edu/~jc/music/abc/Finland/OivanIlo/tunes/tune.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

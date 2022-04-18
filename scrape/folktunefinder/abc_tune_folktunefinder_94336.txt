@@ -1,0 +1,45 @@
+X:19045
+T:Xiraldilla (CT 279)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por mara Fernndez Argelles, de diez y nueve aos, de Cabaaquinta, ayuntamietno de Ayer.
+O:Cabaaquinta (Ayer)
+A:Asturies
+Z:Cancioneru de Torner 279
+M:3/8
+L:1/8
+Q:3/8=88
+W:En el monte nac yo
+W:donde naci la verbena,
+W:las hojas del perejil
+W:y toda la hierbbuena.
+W:
+W:Dame la mano,
+W:paloma bella,
+W:que yo no puedo
+W:pasar a verla.
+W:Recuerdos
+W:a mi galn,
+W:recuerdos,
+W:que yo no puedo
+W:pasar all.
+K:G
+|: d>dd|ded|(B>AG-)|GFG|A2 B|c2 d|[1 (B>A)G-|G2 z :|[2 (B>A)G|
+|GFG|AGG|c2 B|A2 G|GFG|AGG|c2 B|A2 G|
+ddd|dAB|c2 d|BAG|B2 c|AFG|A2 B|G3-|G2 z||
+S:https://www.folktunefinder.com/tunes/94336
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X: 1
+T: Merrily Danced the Quaker's Wife
+S: Paddledoo
+M: 6/8
+L: 1/8
+K: D
+A "A"\
+| "D"def A2f | "A7"g2e "D"f2A | def A2B | ABd "A7"e2A \
+| "D"def Adf | "G"agf "A7"e2A | "D"def "(A)"A2A | "G"B3 "D"d2 |]
+A "B"\
+| "D"d2f a2f | "G"bag "D"a2f | d2f "A7"a2g | "D"f3 a2a \
+| "G"b2g "A7"efg | "D"a2f d2A | def A2B | ABd "A7"e2 |]
+A "C"\
+| "D"d2f a2f | "G"bag "D"a2f | d2f "A7"a2g | "D"f3 a2a \
+| "G"b2g "A7"efg | "D"a2f d2A | def "(A)"A2A | "G"B3 "D"d2 |]
+S:https://www.folktunefinder.com/tunes/175332
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/j24/MerrilyDancedTheQuakersWife_D24.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/Scotland/j24/MerrilyDancedTheQuakersWife_D24.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

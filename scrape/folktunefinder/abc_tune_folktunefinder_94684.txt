@@ -1,0 +1,29 @@
+X:087
+U: ~ = !turn!
+%%topmargin 3cm
+T:Hugh Gillespie's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Paddy Cronin
+R:Reel
+L:1/8
+M:C|
+K:D
+DFAF {/A}GFEC | D2 FA dABG | FGAF {/A}GFGB | AGFD A,B,CE |
+DFAF {/A}GFEC | D2 FA dABG | FdAF {/A}GFGB | [1 AGFD ED D2 :| [2 AGFD EDD ||
+|:g | fd (3.d.d.d g2 ag | fd (3.d.d.d edcA | fd (3.d.d.d gfed | {/e}dcde fdde |
+fg ((3.a.g.f) gfed | fd ~d2 ecAG | FGAF {/A}GFGB | [1 AGFD EDD :| [2 AGFD A,B,CE |]
+S:https://www.folktunefinder.com/tunes/94684
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Hugh_Gillespies_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Hugh_Gillespies_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

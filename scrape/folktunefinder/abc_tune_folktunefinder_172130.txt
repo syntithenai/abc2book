@@ -1,0 +1,28 @@
+X: 1
+N: Light and Airy
+N: 32J 3C x 8 -- RSCDS Book 4
+P: Light and Airy
+C: arr. Terry Traub 2-11-02, from Barbara McOwen
+R: Jig
+M: 6/8
+K: F
+L: 1/8
+| AB|"F" c3 AcA| "F" FAc fcA| "F" c3 "Dm"AcA| "Gm" G2 A "C" B2 d |\
+  "F" c3 AcA| "F" FAc fcA| "Bb" BgB "F" AfA| "Gm" G2 A "C" B2 d||
+|"F" fgf fcA| "F" fgf "C" a2 g| "F" fgf fcA|  "Gm" G2 A "C" B2 d |\
+  "F" faf "C" gbg| "Dm" faf "C" ege| "Bb" fed "F" cBA| "Gm" G2 A "C" B2 d ||
+|"F" cAF F2 A| "F" cAF Acf| "F" cAF F2 A| "Gm" G2 A "C" B2 d|\
+  "F" cAF FAc| "Bb" fed "F" cBA | "Bb" BgB "F" AfA| "Gm" G2 A "C" B2 d ||
+|"F" fgf fcA| "F" fgf "C" a2 g| "F" fgf fcA|  "Gm" G2 A "C" B2 d |\
+  "F" faf "C" gbg| "Dm" faf "C" ege| "Bb" fed "F" cBA| "Gm" G2 A "C" B2 |]
+S:https://www.folktunefinder.com/tunes/172130
+S:http://terrytraub.org/abc/LightAndAiryJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

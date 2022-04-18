@@ -1,0 +1,27 @@
+X:239
+T: Qixin lai kangzhan
+N: C1732
+O: China,Liaoning lingyuan
+S: III, 220, 2)]
+R: Xiaodiao, Babaicai diao]
+M: 2/4
+L: 1/16
+K: G
+A2A2d2B2 | A8
+A2A2B2G2 | A8
+G2G4AA | B2A2G4 | A2A2d2B2 | A8
+G2B2A4 | G2B2A4 | G2B2A2E2 | G8
+A2A2B2G2 | A8
+A2A2B2G2 | A8
+G2B4B2 | A2G2A2D2 | E2D2E2G2 | D8
+S:https://www.folktunefinder.com/tunes/92262
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, babaicai diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

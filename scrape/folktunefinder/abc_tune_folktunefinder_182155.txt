@@ -1,0 +1,25 @@
+X: 1
+T: Peter Ostroushko's Jig
+T: Peter Ostraska Jig
+S: Comas by Comas
+Z: Nigel Gatherer
+M: 6/8
+L: 1/8
+R: jig
+K: A
+g | aec Ace | def ecA | EGB Ace | B^df ec/d/e |
+fef efe | fe^d edc | ^dcB cBA | c/B/AG AGF |
+EGB =dcB | Ace fec | fff cBc | eee fga |
+EGB dcB | Ace fec | fff fga | ecB AGA |
+EGB dcB | Ace fec | fff c2c | eee fga |
+EGB dcB | Ace fec | fff fff | ggg gfg | a3-A2 ||
+S:https://www.folktunefinder.com/tunes/182155
+S:http://www.thesession.org/tunes/display/4921
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,66 @@
+X:1
+%
+%%titleleft 1
+%%staffsep 30pt
+%
+T:Maria durch ein Dornwald ging
+C:C. Dalitz
+L:1/4
+M:C
+K:CM frenchtab
+%
+%%tabaddflags 0
+%%tabfontscale 1.2
+%%tabflagspace 2
+%
+%staff 1
+,,a/ |[,aa,c3/2/] ,c// [,d,,c/] [c,,,b] |[,da,c/] ,c// ,a [,ca,,c1] |\
+        [,da,c/] ,d// ,d [add,a/] ,c |[cdda1] ,,,,,,a/ ,d// a |\
+        [cdda3/2/] a// [c,da/] [dab//] c |[acd3/2/] ,d// [ac,,a/] c// a |
+%staff 2
+[,da,c3/2/] ,c// [,d,,c] c [a,,c] ,d |[,ca3/2/] ,a// [,ca,,c1] |\
+        [,aa,c3/2/] ,c// [,d,,c/] [c,,,b] |[,da,c//] ,c ,a/ H,,,,,,,a ||\
+        ,,a/ |[,a,,c//] ,,d ,a ,c ,d c a ,d |[a,b//] ,d ,c ,a [,ca/] ,,,,,c |
+%staff 3
+[,da,c//] ,c ,d ,a [add,a/] ,c |[cdd,,,a//] a c d c/ ,d// a |\
+        [cdda//] a c d f c a ,d |[acd,a//] ,d ,c ,a ,c ,,d c a |\
+        [,da,c//] ,c ,a ,c ,d c [a,,c] ,d |
+%staff 4
+[,c,e//] ,a ,,e ,,c ,,e/ ,,,,,c |[,aa,c//] ,c ,d a c ,d [a,,,,a] ,d |\
+        [,ca,,c//] ,a ,,e/ H[,aa,,,,a] ||,,,,,c/ |\
+        ,,,,c/ ,,a// ,,,,e [,a,a/] [,,de] |\
+        [,aaa/] ,,,,e// ,,,,c ,,,,e ,,c ,,e/ |\
+        [,a,a//] ,c ,d ,,,a ,,,c ,c ,d/// ,c ,a ,c |
+%staff 5
+[,da//] ,c ,d a c/ ,,,a// ,,,c |,,a// a ,d [,c,c] [,da] ,,,a ,,b ,,a |\
+        ,,,c// ,d ,c [,a,a] [,c,c] ,,,,a ,,a ,,,c |\
+        ,,,a// ,c ,a [,,d,e] [,a,a] ,,,,c ,,,c ,,,a |\
+        ,,,,e// ,a ,,e [,,c,c] [,,e,e/] ,,,,,c |
+%staff 6
+[,aa,c//] ,c ,d [a,,,e] [c,,a] ,a [a,,c] ,d |\
+        [,ca//] ,a [,,e,,c/] H[,aa,,,,a] ||,,a/ |\
+        [,aa,c//] ,,d ,a/// ,,d ,a ,c ,d// a c ,d |\
+        [a,b//] ,d ,c ,a [,ca/] ,,,,,c |\
+        [,da,c//] ,c ,d ,a [add,a] ,c ,d/// ,c ,a ,c |
+%staff 7
+[cdda//] ,a/// ,c ,d ,c ,d a c/ ,d// a |\
+        [cdd,,,a//] a c d f d/// c a ,d ,c ,a |\
+        [,cd,a//] ,,d/// ,a ,c ,a ,c ,d a// ,c ,d a |\
+        [,da,c//] ,a/// ,c ,d ,c ,d a c// ,d [a,,c] ,d |
+%staff 8
+[,c,e//] ,a ,,e/// ,,c ,,e ,a ,c// ,,,,,c ,,,,,e ,,,,b |\
+        [,aa,c//] ,c ,d [a,,,e] [c,,a] ,a [a,,c] ,d |\
+        [,ca//] ,a ,,,,,c ,,e [,aa,,,,a/] ,,c// ,,e |\
+        ,a// ,,d/// ,,b ,,a ,,,c ,,,b ,,,,e H[,aabc1] |]
+%
+W:From "Lute Variations on German Traditionals", for details see
+W:http://www.emsland-aktuell.com/lautengesellschaft/cdmm/publications/lutevars.html
+S:https://www.folktunefinder.com/tunes/174343
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dalitz/maria.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dalitz/maria.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

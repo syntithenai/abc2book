@@ -1,0 +1,25 @@
+X:405
+T:John Stenson's #2
+M:C|
+L:1/8
+Q:200
+S:THSP
+R:reel
+K:A
+cB|"A"ABcA B2cB|ABcA BAFE|ABcA B2ef|"D"e2cA "E"BAFE|
+ABcA B2cB|ABcA BAFE|"D"d2dc dfed
+|1 "E"cdBc "A"A2:|2 "E"cdBc "A"A2ef||:
+"A"e2cd e2cd|edcA BAFE|e2cd edcA|"D"B2Bc "E"BAFE|
+"A"e2cd edcd|edcA BAFA|"D"d2dc dfed|1 "E"cdBc "A"A2ef:|2 "E"cdBc "A"A2|]
+S:https://www.folktunefinder.com/tunes/97425
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

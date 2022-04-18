@@ -1,0 +1,23 @@
+X: 1450
+T: The Roving Bachelor
+M:C|
+L:1/8
+N:"collected by J. O'Neill"
+B:O'Neill's 1450
+Z:"Transcribed by Bob Safranek, rjs@gsp.org"
+K:G
+(G"   Sign"A) | B2 {c}BA B2 ge | d2 ge dBGA    | B2 {c}BA B2 ge | dBAB  GFED  |
+       B2 {c}BA B2 ge | d2 ge dBGA    | B2 {c}BA B2 ge | fe^df "    Fine"e2   ||
+(ef) | gfed     eBBd  | gfed  e2 (ef) | gfed     eBBA  | Be^df e2 (ef)        |
+       gfed     eBBd  | gfed  e2  ef  | gbag     fage  | d2 (ge) dBG"   Sign"A|]
+S:https://www.folktunefinder.com/tunes/87475
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/F/1376-1475_bs.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

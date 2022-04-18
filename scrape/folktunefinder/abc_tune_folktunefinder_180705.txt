@@ -1,0 +1,23 @@
+X: 3
+T: Spot, The
+T: Stone Bruise, The
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|: (3ABc |\ 
+d>cd>e (3fgf e>d | c>de>f g2 f>e | d>cd>e f2 e>d | c<eA>^G A2 B>c |
+d2 d>e f>A (3fed | c>de>f (3gag (3gfe | f<af>d e<g (3edc | d2 A2 D2 :|
+|: (3efg |\
+afAf (3ded Af | c<gB>g A2 c>g | f<af>d f<aA>d | c<eA>^G A2 f>g |
+a>fa>f d2 (3fga | bg (3bag (3bc'b a>g | f<af>d e<g (3edc | d2 (3A^GA D2 :|
+S:https://www.folktunefinder.com/tunes/180705
+S:http://www.thesession.org/tunes/display/8691
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:110
+T: Gallant Tipperary Boys (a)
+S: "Music of Ireland - The Big Session" (DJ Taylor)
+Z: B.Black
+L: 1/8
+M: 12/8
+R: slide
+K: D
+dcd F2 A B2 A F2 A|d2 d ede f3 def|\
+fgg fgf|efe d2 B|BAG FGA B2 A ABd :|
+a2 a fef g2 g efg|a^ga fed e3 A2 g|\
+agf g2 f efe d2 B|BAG FGA B2 A ABd :|
+S:https://www.folktunefinder.com/tunes/87939
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/g.abc
+S:http://www2.redhawk.org:8080/irish/zouki/g.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

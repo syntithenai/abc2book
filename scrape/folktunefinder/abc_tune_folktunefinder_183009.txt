@@ -1,0 +1,32 @@
+X:1
+T:Polka
+C:1842 in Thueringen beliebt
+R:Polka
+A:Thueringen
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Geschichte des Tanzes in Deutschland - Beitrag zur Deutschen Sitten-, Literatur-, und Musikgeschichte, herausgegeben von Franz von Boehme, Verlag von Breitkopf und Haertel, Leipzig 1886
+N:OeVLA: Ko 3495-2
+N:im Buch in D (1. teil), A (2.teil), erster ton a', einstimmig, s.162
+%%endtext
+Z:abc transcripton Simon Wascher
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:D
+"_mfr".A.G.F2 .F.Ad2 | d2cB cBc2 | bag2 gfe2 | .a2.a.g fed2 |\
+AGF2 FAd2 | d2cB cBc2 | bag2 gfe2 | d2dcd2 z2 Hy:|
+%K:A
+"_fr"EF^G2 GAB2 | "^>"d2c2 cBA2 | c2B2 BA^G2 | B2A2 A^GA2 |\
+(EF).^G2 (GA)B2 | d2c2 cBA2 | c2B2e3G | B2AGA2 "D.C."z2 :|
+S:https://www.folktunefinder.com/tunes/183009
+S:http://simonwascher.info/TradArchiv_polka/polka.A.G.F2.F.Ad2d2cBcBc2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

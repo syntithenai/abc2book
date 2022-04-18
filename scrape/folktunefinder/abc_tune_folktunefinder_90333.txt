@@ -1,0 +1,29 @@
+X:308
+T:Copperplate, The
+T:New Copperplate, The
+R:reel
+H:Related to Rakish Paddy, #53, #54, #647
+H:The tune comes from the Scottish tune "Cabar Feidh" (The Deer's Antlers).
+N:Often played with "The Old Copperplate", #309, as "The Copperplates"
+D:Tommy Keane & Jacqueline McCarthy: The Wind among the Reeds
+D:Shaskeen: Music for Set Dances
+Z:id:hn-reel-308
+M:C|
+K:G
+G2dG BGdG|~G2dc BAGB|A2eA cAeA|~A2ed cAFA|
+G2dG BGdG|~G2dc BAGB|ABcd efge|1 aged cAFA:|2 aged ^cdef||
+|:~g3f g2ef|gedc BAG2|eaag agea|aged ^cdef|
+~g3f g2ef|gedc BAGB|ABcd efge|1 aged ^cdef:|2 aged cAFA||
+S:https://www.folktunefinder.com/tunes/90333
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/henrik/hnr3.abc
+S:http://www.norbeck.nu/abc/i/hnr3.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Our Highland Queen
+C:James Scott Skinner
+B:The Scottish Violinist, n.d.
+Z:Nigel Gatherer
+N:This is a simplified version, not as written in the book
+M:4/4
+L:1/8
+K:D
+(3A,/B,/C/ \
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AF/D/ \
+| "A7"C>A G>A "D"F>A D>A | "E7"(3FED (3CDB, "A7"A,2 A (3A,/B,/C/ |
+| "D"D>A F>A D>A F>A | "A7"(3fed (3cdB "D"A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd A>G | FE/D/ "A7"C/FE/ "D"D3 ||
+(3A/B/c/ \
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A3 (3B/c/^d/ \
+| "Em"e>g (3Beg (3bge (3BGE | "A7"(3CEG (3CEA "D"F3 "A7"(3A/B/c/ |
+| "D"d>f (3Adf (3afd (3AFD | (3A,DF (3AFd A2 AG/F/ \
+| "Em"(3GBe E>G "D"(3FAd "A7"A>G | "D"FE/D/ "A7"C/FE/ "D"D3 |]
+S:https://www.folktunefinder.com/tunes/180740
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/by/James_Scott_Skinner/OurHighlandQueen.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/OurHighlandQueen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

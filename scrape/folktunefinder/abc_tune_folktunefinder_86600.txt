@@ -1,0 +1,26 @@
+X:955
+T: Anne Derrane's
+C: BB
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4=175
+K: G
+ef|"G"g2 fg "Em" edBe|"G"dedB "Am"AGEC|"G"B,DGA "Em"BedB|"Am"AGEG "D"Adef|
+"G"g2 fg "Em" edBe|"G"dedB "Am"AGEC|"G"B,DGF "Am"EAcA|"D"FGAF "G"G2 :|
+ef|"G"gd ~d2 "D"ad ~d2|"Em"bgeg "G"dB ~B2|"Am"cBAc "G"Bdgb|"A"age^c "D"d2 ef|
+"G"gd ~d2 "D"ad ~d2|"Em"bgeg "G"dB ~B2|"Am"cBAG "D"FGAc|"G"BG "D"AF "G"G2 :|
+%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86600
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

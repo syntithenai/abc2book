@@ -1,0 +1,23 @@
+X:185
+T: McDonnell's Jig
+C: Johnny Harling
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: G
+F | G3 gbg | e3 dBG | B3 dBG | BAG AFD |
+E3 gbg | e3 def | gfe dBA | BGF G2 :|
+A | B2 e efg | fed edA | B2 e efg | fdB e2 f |
+gbg f3 | efe dBG | B3 AGA | BGF G2 :|
+S:https://www.folktunefinder.com/tunes/93705
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

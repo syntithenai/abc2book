@@ -1,0 +1,23 @@
+X: 1
+T: Out The Door And Over The Wall
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|:[M:11/8]EFE EFGA B2A2|[M:7/8]GAG G2G2|FED E2E2:|
+|:ABA A2A2|ABA A2A2|GAG G2G2|FED E2E2:|
+|:EFE =c2c2|EFE =c2c2|EFE B2B2|FED E2E2:|
+|:edc c2c2|Bcd c2c2|edc c2c2|BA^G A2z2|edc c2c2|
+[M:9/8]Bcd cde def|[M:7/8]edc c2c2|BAG A2z2:|
+S:https://www.folktunefinder.com/tunes/180806
+S:http://www.thesession.org/tunes/display/2265
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 11/8
+% Time_signature 7/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

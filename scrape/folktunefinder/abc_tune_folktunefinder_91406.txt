@@ -1,0 +1,23 @@
+X:1345
+T:Bonnie Kate
+M:4/4
+L:1/8
+K:D
+A2 dA Bc/d/AF|DFAF EA,CE|DFAF GBed|cABc dcdB|
+A2 dA Bc/d/AF|DFAF GFEF|DFAF GBed|cABc d2 Bc ||
+(3dcB (3cBA BAGF|(3GFE (3FED EA,CE|DFAF GBed|cABc dcdB|
+AF (3FFF DF (3FFF|AF (3FFF EA,CE|DFAF GEed|cABc defg ||
+|:a2 fd Adfa|g3 e cdef|gag fa gbag|fgfe defg:|
+aafd Adfa|g3 e cdef|g2 gf gbag|fgfe defg|
+aafd Adfa|g3 e cdef|g2 (3agf gbag|fgfe dcdB |>|
+S:https://www.folktunefinder.com/tunes/91406
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:19021
+T:Xiraldilla (CT 241)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Catalina Muiz Llano, de cincuenta aos, de Llamo, ayuntamiento de Riosa.
+O:Llamo (Riosa)
+A:Asturies
+Z:Cancioneru de Torner 241
+M:2/4
+L:1/8
+Q:1/4=160
+W:-Por qu lloras, dama hermosa
+W:-Pues no tengo de llorar!
+W:Pas por aqu mi amante
+W:y no me ha querido hablar.
+W:con otra dama se va a casar
+W:y a mi solita me va a dejar,
+W:solita y sola,
+W:para llorar.
+K:G
+|: G2 B2|d3 B|d2 (c>A)|B3 c|d2 (c>A)|B3 G|A2 G2|[1 G2 z2 :|[2 G2 zG|
+|: c2 c2|B2 BG|F2 G2|G3 G :|
+c2 c2|B2 BG|F2 G2|G4||
+S:https://www.folktunefinder.com/tunes/94312
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

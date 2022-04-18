@@ -1,0 +1,45 @@
+X:1
+T:Polka aus Lappach
+C:traditionell
+R:Polka
+A:Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B: "Pfeifermusik aus Tirol", Karl Horak, Edition Helbling, Innsbruck, 1982N: im buch auf Seite 32 in D (1. 2.Teil)
+%%endtext
+Z:abc transcripton Simon Wascher
+N:Notenmaterial von Christoph Zeiler
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:C %Transposed from D
+V:1
+G2B2 d2f2 | a2g2e2 ee | g2fe d2ef | a2g2 e4 |
+V:2
+G4 B2d2 | f2e2c2 cc | e2dc B2cd | f2e2 c4 |
+%
+V:1
+G2B2 d2f2 | a2g2e2 ee | g2fe d2B2 | c2cc c4 :|
+V:2
+|: G4 B2d2 | f2e2c2 cc | e2dc B2G2 | E2EE E4 :|
+%
+V:1
+g6 ef | g6 ef | g2f2 d2B2 | g2f2 e2c2 |
+V:2
+e6 cd | e6 cd | B2d2 B2G2 | e2d2 c4 |
+%
+V:1
+G2B2 d2f2 | a2g2e2 ee | g2fe d2B2 | c2cc c4 :|
+V:2
+G4 B2d2 | f2e2c2 cc | e2dc B2G2 | E2EE E4 :|
+S:https://www.folktunefinder.com/tunes/183027
+S:http://simonwascher.info/TradArchiv_polka/polka_aus_lappach.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

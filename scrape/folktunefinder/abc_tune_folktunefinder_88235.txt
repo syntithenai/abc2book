@@ -1,0 +1,25 @@
+X:390
+T:Scotch Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000609.html
+%%ID:00000609
+K:D
+a2 |\
+g2(fe) (fg)a2 | e2(dc) f4 | e2(dc) B2A2 | G2B4 a2 |\
+g2(fe) (fg)a2 | e2(dc) f4 | e2(dc) B2A2 | E2(A2 A2) ::
+(Ac)(ac) |\
+(fe)(dc) (dc)(BA) | G2B4 (cB) | (Ac)(ac) | (fe)(dc) (dc)(BA) | D2 HA4 ::
+S:https://www.folktunefinder.com/tunes/88235
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

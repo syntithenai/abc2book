@@ -1,0 +1,24 @@
+X:0371
+T:"Let Other Men Praise"         (air)         0371
+C:Unattributed
+C:with spirit
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:A
+"_vb"E|(EA).A A3/2(B/2c/2d/2)|(B=G)G G2e|(cA).A A3/2(B/2c/2A/2)|(=GE).E E2(c/2d/2)|
+.e.e.e e3/2(f/2=g/2e/2)|fdd d2(c/2B/2)|(c/2B/2) (c/2d/2) (e/2c/2) (d/2c/2) (d/2e/2) (f/2d/2)|eAA A2(A/2G/2)|
+E3/2A/2A A3/2(B/2c/2d/2)|B=GG G2(e/2d/2)|cAA A3/2(B/2c/2A/2)|=GEE E2(c/2d/2)|
+.e.e.e e3/2(f/2=g/2e/2)|fdd d2(c/2B/2)|c/2c/2 c2B/2B/2 B2|e/2A/2 A2[A2a2]|]
+S:https://www.folktunefinder.com/tunes/171945
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0371-LetOther.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0301-0400/0371-LetOther.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

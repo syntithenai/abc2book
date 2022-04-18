@@ -1,0 +1,21 @@
+X:62
+T:Lang Stayed Away
+S:Northumbrian Minstrelsy
+M:3/4
+L:1/8
+K:G
+eccg "tr"e2 | eAAc B/c/d/B/ | eccg "tr"e2 |
+dGGc B/c/d/B/ :: c2 cg "tr"c2 | eAAc B/c/d/B/ |
+c2 eg "tr"c2 | dGGc B/c/d/B/ :: c/d/e/c/ B/c/d/B/ "tr"A2 |
+eAAc B/c/d/B/ | c/d/e/c/ B/c/d/B/ "tr"A2 | BGGc B/c/d/B/ :|
+S:https://www.folktunefinder.com/tunes/171209
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Lang_Stayed_Away.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

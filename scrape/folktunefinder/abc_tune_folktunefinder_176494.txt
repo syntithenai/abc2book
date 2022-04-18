@@ -1,0 +1,45 @@
+X: 1
+T: Moldavian tants
+%: Abe Shwartz
+Z: John Chambers <jc:trillian.mit.edu>
+N: from a handwritten MS
+M: 4/4
+L: 1/8
+%%partsfont helvetica 12
+P: (F freygish)
+K: F=A_e_B_d_G
+|: "F"Fc/c/ cc cB A>G \
+| FG AB AG F2 \
+| "F"Fc/c/ cB AB cd \
+| c4 f4 |
+| "F"Fc/c/ cc cB A>G \
+| FG AB "Ebm"AG/F/ E2 \
+| "Ebm"B,E =DE FG AG \
+| "F"F4 z4 :|
+|: "Ebm"B,E =DE FG FE \
+| zG FG AB AG \
+| zB AB cd cB \
+| "F"c3 B AG F2 |
+| "Ebm"B,E =DE FG FE \
+| zG FG AB AG \
+| cB BA AG GF \
+|1 "F"F4 z4 :|2 "F"F4 zFdc ||
+|: "Bbm"B4- BF DF \
+| Bd cB "F"fc2F \
+| "F"c4- cF ed \
+| cB AB cF GA |
+| "Bbm"B4- BF DF \
+| Bd cB "F"fc2 B \
+| AB cB "Ebm"AE FG \
+|1 "F"F4 zFdc :|2 "F"F4 z4 |]
+S:https://www.folktunefinder.com/tunes/176494
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/MoldavianTants2_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/MoldavianTants2_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

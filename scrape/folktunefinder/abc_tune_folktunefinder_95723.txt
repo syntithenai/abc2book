@@ -1,0 +1,28 @@
+X:460
+T:O la my Dear
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e2f.html
+%%ID:00000e2f
+K:D
+f |\
+e2 c2 | A2 f2 | g2 ec | d3 f | \
+e3 c  | A2 f2 | g2 ec | d3 ::  \
+z |\
+a2 af | g2 ge | f2 fd | e4 |
+a2 af | g3 b  | agfe | d4 | \
+aaaf | ggge | fffd | e2fg | \
+aaaf | g3 b  | agfe | d2 cd !D.C.! |]
+S:https://www.folktunefinder.com/tunes/95723
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

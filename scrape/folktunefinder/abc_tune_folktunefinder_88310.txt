@@ -1,0 +1,25 @@
+X:765
+T:untitled
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001071.html
+%%ID:00001071
+K:G
+G | \
+D>EGG G2g>e | dBAG A2-AB | D>EGG G2(g>e)  | (dB) G2 :: \
+d | \
+g>agf edeg | dBAG A2-Ae/f/ | g>agf edeg | dB G2-Gd | \
+g>agf edeg | dBAG A2-AB |  D>EGG G2g<e | (dB) G2  ::
+S:https://www.folktunefinder.com/tunes/88310
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

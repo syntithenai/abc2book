@@ -1,0 +1,22 @@
+X:145
+T:Mason's Apron
+R:reel
+C:Trad
+M:4/4
+L:1/8
+K:A
+ g2 |: a2 A2A3F | EFAB cABc | d2 B2B3A | GABc defg |
+ | a2 A2A3F | EFAB cA Bc | dcde fgaf |1 edcB A2 g2 :|2 edcB A2 ed|
+ |: c2e2f2e2 | c2e2 fedc | d2f2g2f2 | d2f2 gfed |
+ | c2e2f2e2 | c2e2 fedc | dcde fgaf |1edcB A2 ed :|2 edcB A2 g2 |
+S:https://www.folktunefinder.com/tunes/174653
+S:http://www.banjolin.co.uk/tunes/abcs/masons.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

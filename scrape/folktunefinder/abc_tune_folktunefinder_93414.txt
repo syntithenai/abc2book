@@ -1,0 +1,24 @@
+X:755
+T: Priest's Leap
+S: "The Roche Collection of Traditional Irish Music" [III/27/88]
+L: 1/8
+M: 6/8
+R: jig
+K: G
+D | G2G BGB | def gfg | ecA dBG | FAG FED |
+G2G BGB | def gfg | ecA dBG |1 FEF G2 :|2 FEF GBd ||
+efe edB | def g2a | bag agf | gf/e/g fdB |
+efe edB | def g2a | bag agf |1 gfg e2B :|2 gfa gdB ||
+S:https://www.folktunefinder.com/tunes/93414
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

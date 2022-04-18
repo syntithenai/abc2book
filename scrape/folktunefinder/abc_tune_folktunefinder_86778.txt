@@ -1,0 +1,27 @@
+X: 116
+T: Nuala Kelly's (reel)
+N: 140343
+C: BB
+R: reel
+N: minor revisions 1/4/07
+Q: 1/8=380
+M: 4/4
+L: 1/8
+K: G %%MIDI program 1 23
+D|"Em"E3 F GFGB|"G"d2 BG "Am"AGEF|"G"GFGB "Bm"d2 Bd|"G"gfed "Em"B2 Bd|
+"G"gfga gdBd|"C"cBAG EGcA|"G"B2 GD "C"EGcB|"D"AFEF "G"G3 :|
+A|"G"B3 d "Em"edef|"G"gd^cd "D"ad^cd|"Em"bgeg "G"dBBd|"Em7"edBd "D"A3 D |
+"G"G3 A BGBd|"C"cBcd "Am"efga|"G"gd^cd "Em"edBG|"D"FGAF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86778
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

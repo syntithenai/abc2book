@@ -1,0 +1,22 @@
+X:1
+T:Plin Sunfolk 1
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+C:Ar re youank
+S:Trad.
+R:swing
+A:Bretagne
+M:4/4
+L:1/8
+K:Am
+A>B cd ee Ae | eA {fe}d2 cd {ed}e2 ::
+ee d2 cA B | Be e^f gg {fe}e2 | ee dB cd e z | B/2c/2d cB A2 A2 :|
+S:https://www.folktunefinder.com/tunes/182903
+S:http://termen.free.fr/danses/cornouaille/PlinSunfolk1.abc
+% Rhythm Swing
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

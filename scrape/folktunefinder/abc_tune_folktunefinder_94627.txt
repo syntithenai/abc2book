@@ -1,0 +1,30 @@
+X:029
+U: ~ = !turn!
+%%topmargin 3cm
+T:Castle Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+~G3 GA{/c}B | A{/c}BA AB/2c/2d | edd ged | edB dBA |
+~G3 GA{/c}B | A{/c}BA AB/2c/2d | edd gdB | [1 AGE G{/A}GD :|] [2 AGE G{/A}G ||
+A | ~B3 ~d3 | ege dBG | ~B3 dBG | ABA AGA |
+~B3 ~d3 | ege dBd | ~g3 ~a3 | [1 bgg {/a}ge :|] [2 egg {/a}ged |]
+S:https://www.folktunefinder.com/tunes/94627
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Castle_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Castle_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Castle_Jig_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Castle_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

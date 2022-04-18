@@ -1,0 +1,25 @@
+X: 2
+T: An Old Chestnut
+M: 6/8
+L: 1/8
+R: jig
+K: Emin
+|: D |\ 
+E2 B B^AB | E2 B ^A2 B | d2 B BAG | FF/G/A AFD |
+E2 B B^AB | E2 B ^A2 B | d2 G B^AB | AGF E2 :|
+|: B |\
+e2 B g2 B | dB^A BB/^c/^d | eBB gBB | a^ga b2 e |
+baf g2 B | c2 g e2 c | EGB e2 B | AGF E2 :|
+|: B |\
+e2 g bag | f2 g agf | e2 B ge/f/g | a^ga b2 g |
+be/g/b g2 B | ege ^A3 | Beg B^AB | AGF E2 :|
+S:https://www.folktunefinder.com/tunes/179862
+S:http://www.thesession.org/tunes/display/9102
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

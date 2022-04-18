@@ -1,0 +1,33 @@
+X:193
+T: Zhai cha
+N: C1685
+O: China,Jiangxi, Ganxian
+S: IV, 248]
+R: Wuge, Caicha, chunjing tian]
+M: 2/4
+L: 1/16
+K: Bb
+f4gbgf | d8 | d2cdfgdc | b8
+f2gfd4 | f2gfd4 | d2cdfgdc | b8
+gbfgb3g | bgb4c2 | dfgfd4
+dfgfd3c | b3cdffd | cbc6
+gbf2gbfg | b3gb4 | dfdcbcdf | c3bc4
+f2gfd4 | f2gfd4 | d2cdfgdc | b8
+gbf2gbfg | b3gb4 | dfdcbcdf | c3bc4
+f2gfd4 | f2gfd4 | d2cdfgdc | b8
+gbffgbfg | b3gb4 | dfdcbcdf | c4dcdf | c8
+f2gbf2d2 | b3gf4 | g2b4g2 | f4dcdg | f4
+f2gbf2d2 | b3gf4 | g2b4cd | f3dc4 | gbcdcbg2 | f2d2f4
+S:https://www.folktunefinder.com/tunes/92216
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Wuge, caicha, chunjing tian]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,172 @@
+X:1
+T:Opp Amaryllis
+C:Carl Michael Bellman
+R:Vals
+N:Ur Fredmans snger, n:o 31. Klla: http://sv.wikisource.org/wiki/Opp_Amaryllis
+M:3/4
+L:1/8
+Q:1/4=90
+K:D
+V:1
+%%MIDI program 6
+(3BGE[A/2F/2]F/2 x/2D/2[G/2C/2]E/2x/2C/2| \
+D3/2x/2A, EA,C| \
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB|
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB|
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC][EC]| \
+[FD] (3G/2F/2G/2A Bcd|
+[E-C][E-C][E/2C/2-]C/2 [G/2C/2-][G/2F/2C/2][FC]E| \
+[DB,]d (3c/2d/2c/2 BA (3G/2A/2G/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC]E| \
+[FD]GA B[c/2A/2-][d/2c/2A/2-][d/2-A/2]d/2|
+(3BGE[A/2F/2]F/2 x/2D/2[G/2C/2]E/2x/2C/2| \
+D3/2x/2F DFA| \
+BGA FG (3E/2^D/2E/2| \
+[=D3/2A,3/2]x/2F x/2E/2DA,|
+DA,D A,DA,| \
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c|
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c|
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC][EC]| \
+[FD] (3G/2F/2G/2A Bcd| \
+[E-C][E-C][E/2C/2-]C/2 [G/2C/2-][G/2F/2C/2][FC]E|
+[DB,]d (3c/2d/2c/2 BA (3G/2A/2G/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC]E| \
+[FD]GA B[c/2A/2-][d/2c/2A/2-][d/2-A/2]d/2| \
+(3BGE[A/2F/2]F/2 x/2D/2[G/2C/2]E/2x/2C/2|
+D3/2x/2F DFA| \
+BGA FG (3E/2^D/2E/2| \
+[=D3/2A,3/2]x/2F x/2E/2DA,| \
+DA,D A,DA,|
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2|
+[A3/2F3/2]x/2A AAA| \
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2|
+[F-D][F-D][F/2D/2-]D/2 [AD][GC][EC]| \
+[FD] (3G/2F/2G/2A Bcd| \
+[E-C][E-C][E/2C/2-]C/2 [G/2C/2-][G/2F/2C/2][FC]E| \
+[DB,]d (3c/2d/2c/2 BA (3G/2A/2G/2|
+[F-D][F-D][F/2D/2-]D/2 [AD][GC]E| \
+[FD]GA B[c/2A/2-][d/2c/2A/2-][d/2-A/2]d/2| \
+(3BGE[A/2F/2]F/2 x/2D/2[G/2C/2]E/2x/2C/2| \
+D3/2x/2F DFA|
+BGA FG (3E/2^D/2E/2| \
+[=D3/2A,3/2]x/2F x/2E/2DA,| \
+DA,D A,DA,| \
+[A3/2F3/2]x/2A AAA|
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[A3/2F3/2]x/2A AAA|
+[B3/2G3/2]x/2B BBB| \
+[dB]c[BG] A[BG]c| \
+[d3/2A3/2]x/2A3/2x/2D3/2x/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC][EC]|
+[FD] (3G/2F/2G/2A Bcd| \
+[E-C][E-C][E/2C/2-]C/2 [G/2C/2-][G/2F/2C/2][FC]E| \
+[DB,]d (3c/2d/2c/2 BA (3G/2A/2G/2| \
+[F-D][F-D][F/2D/2-]D/2 [AD][GC]E|
+[FD]GA B[c/2A/2-][d/2c/2A/2-][d/2-A/2]d/2| \
+(3BGE[A/2F/2]F/2 x/2D/2[G/2C/2]E/2x/2C/2| \
+D3
+V:2
+%%MIDI program 6
+[EDG,]x[DA,] x[G,A,,]x| \
+D,3/2x4x/2| \
+D,A,F, A, (3F,/2A,/2F,/2A,| \
+D,B,G, B,F,G,|
+G,F,E, D,E,F,| \
+[F,3/2D,3/2]x/2C,3/2x/2D,3/2x/2| \
+DA,F, A, (3F,/2A,/2F,/2A,| \
+DB,G, B,F,G,|
+[G,B,,-][G,B,,-][G,B,,] G,[G,C,]x| \
+[F,3/2D,3/2]x/2C3/2x/2F,3/2x/2| \
+[A,3D,3] x2[A,E,]| \
+[A,3/2D,3/2]x2x/2[D3/2F,3/2]x/2|
+[A,3A,,3] x2[G,^A,,]| \
+[F,3/2B,,3/2]x2x/2[=A,3/2C,3/2]x/2| \
+[A,3D,3] x2[A,A,,]| \
+[A,3/2D,3/2]x2x/2[DF,]x|
+[EDG,]x[DA,] x[G,3/2A,,3/2-]A,,/2-| \
+[D,3/2A,,3/2]x/2F, x/2A,/2D3/2x/2| \
+[EDG,]x[DA,] x[G,A,,]x| \
+D,3/2x/2 (3A,^G,A,F,3/2x/2|
+F,3/2x/2F,3/2x/2F,3/2x/2| \
+D,A,F, A, (3F,/2A,/2F,/2A,| \
+D,B,=G, B,F,G,| \
+G,F,E, D,E,F,|
+[F,3/2D,3/2]x/2C,3/2x/2D,3/2x/2| \
+DA,F, A, (3F,/2A,/2F,/2A,| \
+DB,G, B,F,G,| \
+[G,B,,-][G,B,,-][G,B,,] G,[G,C,]x|
+[F,3/2D,3/2]x/2C3/2x/2F,3/2x/2| \
+[A,3D,3] x2[A,E,]| \
+[A,3/2D,3/2]x2x/2[D3/2F,3/2]x/2| \
+[A,3A,,3] x2[G,^A,,]|
+[F,3/2B,,3/2]x2x/2[=A,3/2C,3/2]x/2| \
+[A,3D,3] x2[A,A,,]| \
+[A,3/2D,3/2]x2x/2[DF,]x| \
+[EDG,]x[DA,] x[G,3/2A,,3/2-]A,,/2-|
+[D,3/2A,,3/2]x/2F, x/2A,/2D3/2x/2| \
+[EDG,]x[DA,] x[G,A,,]x| \
+D,3/2x/2 (3A,^G,A,F,3/2x/2| \
+F,3/2x/2F,3/2x/2F,3/2x/2|
+D,A,F, A, (3F,/2A,/2F,/2A,| \
+D,B,=G, B,F,G,| \
+G,F,E, D,E,F,| \
+[F,3/2D,3/2]x/2C,3/2x/2D,3/2x/2|
+DA,F, A, (3F,/2A,/2F,/2A,| \
+DB,G, B,F,G,| \
+[G,B,,-][G,B,,-][G,B,,] G,[G,C,]x| \
+[F,3/2D,3/2]x/2C3/2x/2F,3/2x/2|
+[A,3D,3] x2[A,E,]| \
+[A,3/2D,3/2]x2x/2[D3/2F,3/2]x/2| \
+[A,3A,,3] x2[G,^A,,]| \
+[F,3/2B,,3/2]x2x/2[=A,3/2C,3/2]x/2|
+[A,3D,3] x2[A,A,,]| \
+[A,3/2D,3/2]x2x/2[DF,]x| \
+[EDG,]x[DA,] x[G,3/2A,,3/2-]A,,/2-| \
+[D,3/2A,,3/2]x/2F, x/2A,/2D3/2x/2|
+[EDG,]x[DA,] x[G,A,,]x| \
+D,3/2x/2 (3A,^G,A,F,3/2x/2| \
+F,3/2x/2F,3/2x/2F,3/2x/2| \
+D,A,F, A, (3F,/2A,/2F,/2A,|
+D,B,=G, B,F,G,| \
+G,F,E, D,E,F,| \
+[F,3/2D,3/2]x/2C,3/2x/2D,3/2x/2| \
+DA,F, A, (3F,/2A,/2F,/2A,|
+DB,G, B,F,G,| \
+[G,B,,-][G,B,,-][G,B,,] G,[G,C,]x| \
+[F,3/2D,3/2]x/2C3/2x/2F,3/2x/2| \
+[A,3D,3] x2[A,E,]|
+[A,3/2D,3/2]x2x/2[D3/2F,3/2]x/2| \
+[A,3A,,3] x2[G,^A,,]| \
+[F,3/2B,,3/2]x2x/2[=A,3/2C,3/2]x/2| \
+[A,3D,3] x2[A,A,,]|
+[A,3/2D,3/2]x2x/2[DF,]x| \
+[EDG,]x[DA,] x[G,A,,]x| \
+S:https://www.folktunefinder.com/tunes/180529
+S:http://www.folkwiki.se/pub/cache/Opp_Amaryllis_e0bd90.abc
+% Rhythm Vals
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

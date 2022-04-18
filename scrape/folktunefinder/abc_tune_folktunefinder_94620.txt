@@ -1,0 +1,27 @@
+X:022
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Cabin Hunter
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+EF |: GE (3{/F}(EDE) {EF}E3F | GE (3{/F}(EDE) dBAF | GE (3.E.E.E DGFE | DFAF BFAF |
+GEFD {EG}E3F | GE (3.E.E.E dBAF | ((3GFE) (3{/F}(EDE) EGFE | DF (3.A.A.F DFA2 ::
+Bdee efed | Bdef gfed Bd (3{/e}(dcd) dedB | ABAG FDFD |
+Bd (3.e.e.e efed | Bdef {ga}g2 fe | dg (3{/a}(gfg) dgfe | [D3d3]B AGFD :|]
+S:https://www.folktunefinder.com/tunes/94620
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Cabin_Hunter_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Cabin_Hunter_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

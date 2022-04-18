@@ -1,0 +1,26 @@
+X:032
+%%topmargin 3cm
+T:Morning Star
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:G
+GA S| B2 T(BA) BGEF | GABd efed | B2 T(BA) BGEG | FGAF G2 :|
+GA | Bdef g2 (eg) | Tf2 (df) edBA | Bdef g2 (fg) | agfg e2 z2 |
+Bdef g2 (dg) | Tf2 (df) edBA | Bdd^c d2 (ef) | geaf {/a}gfed!D.S.! |]
+S:https://www.folktunefinder.com/tunes/91962
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Morning_Star.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

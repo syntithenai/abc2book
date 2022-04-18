@@ -1,0 +1,21 @@
+X:390
+T:Don Tremaine's
+M:4/4
+L:1/8
+K:D
+FG |: ABA(G FD)E(F|GF)GA BcdB|Aceg fde(c|d)AFG A2 FG|
+ABA(G FD)E(F|GF)GA BcdB|Aceg fde(c|1 d2) fd d2 FG :|2d2 fd d2 ef|
+|:gage (fg)fd|(ef)ed (cA)e(f|gf)e(g fe)df|e2 a^g a2 ef|
+=gage (fg)fd|(ef)ed (cB)A(F|GF)E(G FE)D(F|1ED)EF D2 ef:|2 EDE(F D2) FG |>|
+S:https://www.folktunefinder.com/tunes/91215
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

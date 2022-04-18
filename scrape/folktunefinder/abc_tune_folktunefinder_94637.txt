@@ -1,0 +1,38 @@
+X:039
+U: ~ = !turn!
+%%topmargin 3cm
+T:Cronin's Fancy
+U: ~ = !turn!
+%%topmargin 3cm
+T:Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:D
+d3 A BAFB | AF (3.F.F.F EFDE | F2 AF JG2 BG | ABde feeg |
+fedf edBc | dBAF EFDE | FGAF GFGB | [1ABde fd d2 :| [2 ABde fddf ||
+|: a2 fa {ga}g2 eg | fedf ec A2 | a^gab afdB | ABde {/g}feeg|
+fg ((3agf) {ga}g2 eg | fedf ecAG | F2 AF JG2 BG | [1 ABde fddf :| [2 ABde fd d2 ||
+S:https://www.folktunefinder.com/tunes/94637
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Cronins_Fancy_1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Cronins_Fancy_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Cronins_Fancy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Cronins_Fancy_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Hornpipe_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

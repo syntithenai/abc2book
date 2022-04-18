@@ -1,0 +1,23 @@
+X: 1
+T:Mosley Street Assembly
+M:C|
+O:England
+A:North-West
+R:Reel
+K:D
+A2|\
+d2d2 a2f2| d2d2 a2f2| gfed cBAG| FGAB AGFE|\
+d2d2 a2f2| d2d2 a2f2| gfed c2e2| d2f2 d2::
+A2|\
+AGFE DFAc| defd B2B2| a2f2 d2B2| edcB A4|\
+AGFE DFAc| defd B2ef| gfed cABc| d2f2 d2:|
+S:https://www.folktunefinder.com/tunes/177059
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mo/Mosley_Street_Assembly_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

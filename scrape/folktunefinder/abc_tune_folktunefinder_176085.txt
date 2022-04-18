@@ -1,0 +1,26 @@
+X:2
+T:Miss Gordon of Gight
+C:Isaac Cooper
+G:fiddle reel, early 1780s
+M:C
+L:1/8
+Q:1/4=120
+S:Alistair Fraser's "return to kintrail"
+K:Cmin
+G,| "Cm"G,CEG cgec|"Gm"B/c/dBG "Bb"FDB,D|\
+    "Cm"CEGF/E/ "Gm"DFBG|"Bb"FDB,D "Cm"EC C:|
+ d| "Cm"egbg  "Gm"ag"Eb"fe|"Bb"de"Gm"fg "Eb"fdBf |\
+    "Eb"egba/g/ "Gm"ag"Eb"fe|"Bb"dB"Gm"fd  "Cm"cd cd|
+    "Cm"egbg  "Gm"ag"Eb"fe|"Bb"de"Gm"fg "Bb"fdBf |\
+    "Gm"gf"Bb"ed "Cm"cdec|"Gm"BG"Bb"FD  "Cm"EC C ||
+S:https://www.folktunefinder.com/tunes/176085
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/MissGordanOfGight.abc
+S:http://ale.physics.sunysb.edu/~mcgrew/music/tunes/Reel/MissGordanOfGight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

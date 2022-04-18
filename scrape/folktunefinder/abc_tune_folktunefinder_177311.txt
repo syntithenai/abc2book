@@ -1,0 +1,40 @@
+X:1
+T:Movrin
+A:Innsbruck
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Instrumentale Volksmusik aus Tirol", K.Horak, eigenverlag des Instituts f. Tiroler Volksmusikforschung, Innsbruck 1985
+N:im buch s. 70 nr. 58, in F dur und D-moll erster ton c' 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:6/8
+L:1/8
+K:F
+CA,B, |\
+CAG FED | C2A, A,G,A, | C2B, B,A,B, | (D2C) CA,B, |\
+CAG FED | CDE FGA | GBG {F}EDE | F2 z :|
+|: AGA |\
+C2B, B,A,B, | D2C A,G,A, | C2B, B,A,B, | D2C CA,B, |\
+CAG FED | CDE FGA | GBG {F}EDE | "(Ende)"F2 z :|
+K:Dm
+D2F |\
+A3 AGF | F2E E2G | B3 BAG | G2F F2A |\
+d2d ^c=Bc | A2A BAG | F2F E2E | D2 z :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177311
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_sechsachteltakt/movrin.CAGFEDC2A,A,G,A,C2B,.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:860
+T: Waltzing Armadillo
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+A | "G"Bcd gdd | "G"BGF G2 A | "Em"Bcd eBA | "Em"GED E2 A |
+"G"Bcd "Em"ede | "D"fdf "C"g2 a | "G"bag "Em"egd | "G"BGF "G"G2 :|
+A|"G"BAG "Em"EB,B,|"D"DEF "G"G2 A | "G"Bcd "Em"ged | "G"BAG "D"A2 A |
+"G"BAG DB,D | "Am"ECA, "G"G,2 e | "G"bag "Em"egd | "G"BGF "G"G2 :|
+e |"D"fdf "D7"fdf | "G"gba gfe | "D"fdf "D7"fdA | "G"BGF G2 e |
+"D"fdf "C"ece | "G"dBd "Em"efg | "G"bag "Em"egd |"G"BGF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86581
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

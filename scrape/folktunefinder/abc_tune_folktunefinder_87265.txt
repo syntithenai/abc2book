@@ -1,0 +1,46 @@
+X: 9180
+T: Delights of Inchicore 2.0 (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] A | "G"DGA BAG | "D"ABA AFE | "G"DGB d^cd | "A"ed^c "D"d2 A |
+[V:2] z|G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]D,,2[GB,D]|A,,2[A^CE][D,3A,3F3]|
+%
+[V:1] "G"DGA BAG | "D"ABA ABc | "G"ded "Em"BGE | "D"DEF "G"G2 :|
+[V:2] G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]E,2[EGB]|[D,3A,3F3][G,,2D,2B,2]:|
+%
+[V:1] A | "G"dgg fgg | "D"fga gdc | "G"BGB "C"cBc | "D"de^c d2 A |
+[V:2] z|G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]C,2[EGC]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"dgg aga | "Em"bag "D"fdc |"G"Bcd "Em"BGE | "D"DEF "G"G2 :|
+[V:2] G,,2[GB,D]D,2[GB,D]|E,2[EGB]D,2[AFD]|G,,2[GB,D]E,2[EGB]|D,2[AFD][G,,2D,2B,2]:|
+%%%%%%%%%tune repeat
+[V:1] A | "G"DGA BAG | "D"ABA AFE | "G"DGB d^cd | "A"ed^c "D"d2 A |
+[V:2] z|G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]D,,2[GB,D]|A,,2[A^CE][D,3A,3F3]|
+%
+[V:1] "G"DGA BAG | "D"ABA ABc | "G"ded "Em"BGE | "D"DEF "G"G2 :|
+[V:2] G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]E,2[EGB]|[D,3A,3F3][G,,2D,2B,2]:|
+%
+[V:1] A | "G"dgg fgg | "D"fga gdc | "G"BGB "C"cBc | "D"de^c d2 A |
+[V:2] z|G,,2[GB,D]B,,2[GB,D]|D,,2[AFD]A,,2[AFD]|G,,2[GB,D]C,2[EGC]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"dgg aga | "Em"bag "D"fdc |"G"Bcd "Em"BGE |1 "D"DEF "G"G2 :|2 "D"DEF "G"G3-|G6||
+[V:2] G,,2[GB,D]D,2[GB,D]|E,2[EGB]D,2[AFD]|G,,2[GB,D]E,2[EGB]|1 D,2[AFD][G,,2D,2B,2]:|2\
+D,2[AFD][G,,3-D,3-B,3-]|[G,,6D,6B,6]||
+%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87265
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

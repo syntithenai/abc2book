@@ -1,0 +1,29 @@
+X:19
+T: Cai mi ge
+N: C1519
+O: China,Guangdong, meixian
+S: II, 415]
+R: Xiaodiao, Kuilei qiang]
+M: 2/4
+L: 1/8
+K: C
+A2e2 | cccA | G4- | G2z2
+e2e2 | e2Ac | cd3- | d4
+A2e2 | ccc2- | c2ze | A2cd | c2G2- | G4
+A2e2 | ccAc- | czce | d2c2 | d2G2 | A4- | A2z2
+A2e2 | ccd2- | d3z
+c2e2 | c2cA | GG3
+-GzAc | E2G2- | G2zd | c2cd | ed2e | c2A2 | c2
+zd | c2cd | A2zd | AA2d | c2
+zd | eAeA | c2cA | c2cA | GG3- | G2z2
+S:https://www.folktunefinder.com/tunes/92042
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, kuilei qiang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

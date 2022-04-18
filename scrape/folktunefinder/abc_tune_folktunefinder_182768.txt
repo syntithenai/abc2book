@@ -1,0 +1,23 @@
+X:1
+T:Planxty Joe Burke
+R:hornpipe
+C:Charlie Lennon
+M:4/4
+L:1/8
+Q:1/4=160
+K:G
+B,A,|G,A,B,C DGFG|CGFG B,GFG|G,A,B,C DGFG|cBAG FAdc|
+ABBc dGFG|CGFG B,GFG| (3GAG FG BAGF|GDB,D G,2:|
+|:dc|Bc  (3dcB edcB|AB  (3cBA dcBA|GABG cBAG|FGEF DCB,A,|
+G,A,B,C DGFG|CGFG B,GFG| (3GAG FG BAGF|GDB,D G,2:|
+S:https://www.folktunefinder.com/tunes/182768
+S:http://www.stolaf.edu/people/hend/PlanxtyJoeBurke.ABC
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

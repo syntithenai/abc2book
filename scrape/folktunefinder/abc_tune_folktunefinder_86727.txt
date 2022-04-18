@@ -1,0 +1,25 @@
+X: 102
+T: Humors of Lanacane (jig)
+N: 080054
+C: BB
+R: jig
+Q: 340
+M: 6/8
+L: 1/8
+K: Dm
+D/E/|"Dm"FEF "C"Gcc|"Edim"^cBc "Dm"d2 e|"F"fga "Am"ecA|"Bb"Bcd "A7"^cGE|
+"Dm"FDD ADD | "A"^cDD "Dm"d2 A | "Bb"BAd "Dm"AFD | "C"ECE "Dm"D2 :|
+A|"F"a2 f "C"gfe | "Dm"ded "C7"cBA | "Gm"B2 G "F"AGF | "C"EFG E3 |
+"Dm"FDD ADD | "A"^cDD "Dm"d2 e | "F"fga "Am"ecA | "C7"BGE "Dm"D2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86727
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

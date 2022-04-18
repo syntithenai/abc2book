@@ -1,0 +1,23 @@
+X:94
+T:The Mug of Brown Ale
+% Nottingham Music Database
+S:Trad, arr Phil Rowe
+M:6/8
+K:G
+G| EAA ABd| edB c2A| BGG dGG| Bdc BAG|
+EAA ABd| ede a2g| edc Bcd|1 ecA A2 G:|2 ecA A2 f||
+gef g2a|gef gdc| BGG dGG| Bdc BAG|\
+gef g2a|gef g2d|edc Bcd|ecA A2f|
+gef g2a|gef gdc|BGG dGG|gef g2a|\
+EAA ABd|ede a2g|edc Bcd|ecA A2 G|>|
+S:https://www.folktunefinder.com/tunes/177572
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/MugOfBrownAle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/Mug_of_Brown_Ale_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

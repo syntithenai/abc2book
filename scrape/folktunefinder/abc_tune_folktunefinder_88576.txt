@@ -1,0 +1,25 @@
+X:320
+T: Centenary
+S: "Collection of the Dance Music of Ireland" (P. McNulty)
+Z: B.Black
+L: 1/8
+M: 6/8
+R: jig
+K: D
+A|FGA F2D|A,CE D2d/e/|fed dcB|AEF GFG|
+A2B G2A|FAd fed|cBA GEC|D3 D2 :|
+C/B,/|A2,F FED|fAd f2e|dFA dcB|AEF GAG|
+FGA ABc|dAG FGA|BGB AFA|GEC D2 :|
+S:https://www.folktunefinder.com/tunes/88576
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

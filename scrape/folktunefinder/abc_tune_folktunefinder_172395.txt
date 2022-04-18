@@ -1,0 +1,21 @@
+X:18
+T: Little Burnt Potato
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+|:[Q:1/4=140]B2c|d^cd edc|dBG DGA|B2B c2B|A3EFG|
+ABA AFE|DFA d3|[1d^cd ed=c|B3:|[2d^cd e2F|G3
+|:G2A|B2D B2D|B3-B2A|GAB dcB|c3-cAB|
+ced cBA|GFE D3|[1d^cd ed=c|B3:|[2d^cd e2F|G3|]
+S:https://www.folktunefinder.com/tunes/172395
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/LittleBurntPotato.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/lewesarmsfolkclub.org/Vol7.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

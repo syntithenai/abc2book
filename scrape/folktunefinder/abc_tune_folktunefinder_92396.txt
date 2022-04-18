@@ -1,0 +1,32 @@
+X:373
+T: Wanren changqi fanshenge
+N: C1874
+O: China,Guizhou Zunyi
+S: II, 151]
+N: Tuzu
+R: Haozi, Haoyang haozi. Qianghuoqiang]
+M: 2/4
+L: 1/16
+K: G
+AA2AB2A2 | A2B2A4 | G2A2G2E2 | d3BA4
+d3BA2d2 | B2A2G2E2 | d6B2 | A8
+B,D2GE2EG | EGDEG4
+AA2BBAG2 | GDGED4
+DDGEG4 | G2A2E2E2D4
+d3ge2g2 | d8- | d8
+GG2BG2AG | B2ABA4 | G2A2G2E2 | d3BA4
+d3BA2d2 | B2A2G2E2 | d6B2 | A8
+GG2DEEG2 | EGDEG4 | BB2BBAG2 | GDGED4
+DDGEG4 | GAGED4
+d3ge2g2 | d8- | d8
+S:https://www.folktunefinder.com/tunes/92396
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Haozi, haoyang haozi. qianghuoqiang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

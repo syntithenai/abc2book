@@ -1,0 +1,27 @@
+X:385
+T: Janeen Sullivan's Waltz
+C: BB
+M: 3/4
+L: 1/8
+Q: 1/8=350
+K: D
+A2 |"D"D2 FA Bd|f2 e2 d2|"G"g2 B2 d2|"A"A2-AB AG|
+"D"F2 A2 d2|"Em"B2 e2 g2|"D"f2-fg af|"A"e2-ea ge|
+"D"d3f d2|"G"B3A G2|"D"F2-FG Ad|"Bm"f2-f2 fg|
+"A"ag ec AB|A2 G2 E2|"D"D2-DEFE|D4 :|
+e2|"Bm"f2 d2 B2|"A"e2 c2 A2|"D"d2-df ed|"F#m"c2 Acef|
+"G"g2 e2 g2|"Bm"f4 ga|"A"e2-ef gf|e4 ag|
+"Bm"f2 d2 B2| "A"e2 c2 A2|"D"d2-df ed|"F#m"c2 Acef|
+"G"g4 ab|"Bm"f4 dB|"A"AB AF Ac|"D"d4 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86486
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

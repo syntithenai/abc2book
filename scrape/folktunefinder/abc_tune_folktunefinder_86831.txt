@@ -1,0 +1,28 @@
+X: 194
+T: Waltzing Armadillo (jig)
+N: 230156
+C: BB
+N: revised 11/4/03
+R: jig
+Q: 1/8=330
+M: 6/8
+L: 1/8
+K: G
+A | "G"Bcd gdd|"G"BGF G2 A|"Em"Bcd eBA|"Em"GED E2 A|"G"Bcd "Em"ede|"D"fdf "G"gab | 
+"Am"age "D"fdA | "G"BGF G2 :|A|"G"BAG "Em"EDB,|"D"DEF "G"G2 A | "G"Bcd "Em"ged |\
+"G"BAG "D"A2 A| 
+"G"BAG DB,D|"Am"[Ee][Cc][A,A] "G"[G,2G2] e |"G"bag "Am"ecA | "G"BGF "G"G2 :|\
+e |"D" fdf fdf | 
+"G" gba gfe | "D" fdf fdA | BGF G2 e |"D" fdf "C" ece | "G" dBd "Em"efg | "G" bag "Am"ecA | "G"BGF G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86831
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

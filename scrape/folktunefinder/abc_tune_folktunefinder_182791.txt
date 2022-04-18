@@ -1,0 +1,28 @@
+X:0662
+T:"Planxty Mary O'Neill"          0662
+C:Turlough  O' Carolan
+C:animated
+Q:1/4=110
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#137 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:D
+"^vb"A|dAG F2D|(E/2F/2G).E TRF2D|dAG F2D|ECE GFE|
+dAG F2D|(E/2F/2G).E F2D|GAB =cBA|GE=C E/2F/2GE||
+f2d (d/2e/2f)d|afd (e/2f/2g).e|f2d (d/2e/2f)d|gec efg|
+fed edc|d=cB cBA|GAB =cBA|GE=C (E/2F/2G)E||
+|FED {F}d2D|FED {F}d2D|FED {F}d2D|GEC (E/2F/2G)E|
+FED d2D|e2A f2D|g2A f2D|GE=C (E/2F/2G)E|]
+S:https://www.folktunefinder.com/tunes/182791
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/662-PlanxtyMaryONeill.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

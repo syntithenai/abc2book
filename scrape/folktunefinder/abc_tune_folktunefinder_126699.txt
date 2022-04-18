@@ -1,0 +1,23 @@
+X:8320
+T:Julia,bass part. Jnu.16
+M:3/8
+Q:50
+S:James Nuttall MS,c1830,Rossendale,East Lancs.
+R:Air
+O:England
+A:East Lancashire
+Z:Chris Partington
+K:A
+"f,secundo,read as bass clef"Fcf|Fcf|Fcg|Fcf|Fcf|Fcf|Fcg|F3::
+[C3c3]|[C3c3]|[C3c3]|[F3f3]|[C3c3]|[C3c3]|[C3c3]|F3:|]
+S:https://www.folktunefinder.com/tunes/126699
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/8
+% Text Has source text
+% Has_accompaniment_chords No chords

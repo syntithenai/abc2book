@@ -1,0 +1,26 @@
+X: 250
+T: Chambers of Melody (jig)
+C: BB 12/06
+N: 032235
+L: 1/8
+M: 6/8
+R: jig
+Q: 340
+K: Em
+D | "Em"EDB, DGA |"Em"BAG E2A |"G"Bdc "Em"BGE |"Bm"FAB "D"AFD |
+"Em"EB,E "C"GFG | "D"AFA "Em"B2c |"G"dcB "D"AFD |"Em"E3 "Em"E2 :|
+B | "Em"edB g2f |"Em"edB d2c |"G"BGB "D"def |"G"gab "D"afd |
+"Em"edB g2a |"Em"bgf e2f | "C"gfe "D"def | "Em"e3 "Em"e2 :|
+%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86639
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,33 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:boehmisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:noten-material (lose kopien) von Elisabeth und Christoph Huspeka
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+GB B/A/B | dd B2 | cc AA | B/A/B/c/ dd |
+GB B/A/B | dd B2 | cc AA | G/B/d/B/ G2 :|
+|:\
+AA A/B/c | BB B/c/d | dc c/B/A | cB B/A/G |
+AA A/B/c | BB B/c/d | dc c/B/A | Bd B2 :|
+|:\
+B/B/B/B/ Bd | B/B/B/B/ BG | AA c/B/A | G/A/B/c/ d2 |
+B/B/B/B/ Bd | B/B/B/B/ BG | AA c/B/A | G/B/d/B/ G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182999
+S:http://simonwascher.info/TradArchiv_polka/polka.G2B2BAB2d2d2B4.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

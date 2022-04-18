@@ -1,0 +1,26 @@
+X:0306
+T:"Norah, The Pride Of Kildare"          (air)         0306
+C:after Chief F. O'Neill
+C:slow
+Q:1/4=70
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:6/8
+L:1/8
+K:D
+"_vb"A|d3/2c/2d BA z/2F/2|d3/2c/2d BA z/2F/2|GAB Ad3/2e/2|f3/2e/2d e2A|
+d3/2c/2d BA3/2F/2|d3/2c/2d {c}BA3/2F/2|GAB Ad(e/2d/2)|c3/2B/2c d2||
+A|BGd AFd|(GFE) {G}FD3/2 A/2|B3/2c/2d A Hf(f/2e/2)|(dec) B2 HA|
+f3/2e/2d edB|Ad(c/2d/2) e2 Ha|f3/2e/2d edB|A  Hf  (3(e/2d/2c/2) d2|]
+S:https://www.folktunefinder.com/tunes/179052
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0306-NorahKildare.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0301-0400/0306-NorahKildare.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

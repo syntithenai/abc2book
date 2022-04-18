@@ -1,0 +1,27 @@
+X:318
+T:Return to Milltown
+T:Glorious Return to Milltown, The
+R:reel
+H:This is the Donegal version. There is also a rather different Kerry
+H:version, "Tap the Barrel", CRE 2 #266, Roche 1 #145. The
+H:"Glorious" title is the original one from John Doherty.
+Z:id:hn-reel-318
+M:C|
+K:Ddor
+D2AD EDDB,|C2EC FCEC|D2AD EDDB,|CDEG AEGE|
+D2AD EDDB,|C2EC FCEC|F2FD E2ED|CDEG AEGE:|
+K:Dmix
+|:d2de f2ed|(3B^cd ef gfge|d2de f2ed|=cAGE EDD2|
+d2de f2ed|(3B^cd ef gfge|fafd eged|=cAGE EDD2:|
+K:Ddor
+S:https://www.folktunefinder.com/tunes/90427
+S:http://www.norbeck.nu/abc/i/hnr3.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

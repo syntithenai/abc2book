@@ -1,0 +1,26 @@
+X:1405
+T:Fools Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:unfinished in mss, I've supplied a last note
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001219.html
+%%ID:00001219
+K:D
+a2 f2 a2 | a2 g2 f2 | e2 d2 e2 | f2 defg | a2 f2 a2 | a2 g2 f2 | e2 d2 e2 | f6 ||
+f2 f2 f2 | edefef | g2 g2 g2 | fefgfg | a2 f2 a2 | a2 g2 f2 | g2 f2 e2 | "<("">)"d6 |]
+%%newpage
+%page 113
+S:https://www.folktunefinder.com/tunes/88438
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

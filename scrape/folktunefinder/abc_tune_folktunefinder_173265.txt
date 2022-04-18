@@ -1,0 +1,28 @@
+X:1
+T:Lt frn Bohusln
+R:Marsch
+O:Bohusln
+C:James Olsson
+Z:C-G Magnusson, 2008-12-03
+M:C|
+Q:60
+L:1/8
+K:F
+C2 |: (FE) (FA) c2 (ce) | (ed) (dc) fermataA2 (FA) | (AG) (GA) (AG) (GA) | (F6 F)C |
+(FE) (FA) c2 (ce) | (ed) (dc) fermataA2 (FA) | (AG) (GA) (AG) (GA) | F6 c2 :|
+L:1/16
+|: dcAc dcAc dcAc fermataf2>c2 | dcAc dcAc dcAc fermatae2>c2 |\
+dcAc dcAc dcAc fermatae2>c2 | dcAc dcAc dcAc fermataf2>c2 |
+L:1/8
+(FE) (FA) c2 (ce) | (ed) (dc) fermataA2 (FA) | (AG) (GA) (AG) (GA) | fermataF2 A2 c2 fermataf2 :|
+S:https://www.folktunefinder.com/tunes/173265
+S:http://www.folkwiki.se/pub/cache/L%e5t_fr%e5n_Bohusl%e4n_2ee020.latin.abc
+S:http://www.folkwiki.se/pub/cache/L%E5t_fr%E5n_Bohusl%E4n_2ee020.abc
+S:http://www.folkwiki.se/pub/cache/L%e5t_fr%e5n_Bohusl%e4n_2ee020.abcm.abc
+% Rhythm Marsch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

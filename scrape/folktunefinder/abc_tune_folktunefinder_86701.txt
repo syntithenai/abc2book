@@ -1,0 +1,29 @@
+X: 224
+T: Croagh Patrick (reel)
+C: BB 1/06
+N: 032106
+L: 1/8
+M: 4/4
+R: reel
+Q: 380
+K: G
+D | "G"GFGB "Am"AEEA | "C"cBAG "D7" FDDC |\
+"G" B,DGB "Am" A^GAc | "G" BdgB "D" A3 c |
+"G" BGGF "Em" E2 DB, | "C" CEGA "D7" FAdc |\
+"G" BGGB "Am7" cAGE | "D" DFAF "G"G3 :|
+g | "D7"fddc AddB |"Am7" ceag "D" fd d2 |\
+"G" BGBc "Em" Beef | "G" gb "D" af "Em" e3f |
+"G" gd^cd "Am" =cAAc | "G" BGBd "D7" cAFA |\
+"G" GFGB "Am7" Aceg | "D7" fdcA "G" G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86701
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

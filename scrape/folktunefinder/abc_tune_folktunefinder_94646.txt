@@ -1,0 +1,33 @@
+X:048
+U: ~ = !turn!
+%%topmargin 3cm
+T:Denis Murphy Reel
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:C|
+K:D
+d=c | BE ~E2 B2 d=c | BE{/F}ED BdAF | D2 ((3FED) AD ((3FED) | DEFA Bded |
+BE{/F}ED EFGA | BE ~E2 ((3BdB) AF | DEFA dedB | AFDF E2 d=c |
+BE (3.E.E.E BEdE | BE ~E2 BdAF | DF ~F2 AFED | FABc dBed |
+BE{/F}ED EFGA | BE ~E2 ((3BdB) AF | DFAF DFef | gfed Be [e2e2] ||
+[e4e4] efed | ((3Bcd) ef gfed BAFA dedB | ADFE DEFA |
+Be [e2e2] efed | Bdef Pg2 fg | ((3agf) ((3gfe) fged | {/e}dBAF E2 FA |
+Be ([e2e2] e2) ed | [DB][Dd] df gfed | BAFA dcdB | AF ~F2 DEFA |
+B[ee] [e2e2] efed | Bdef Jg2 fg | bafa gfed | ((3Bcd) ef {/a}gfed |]
+S:https://www.folktunefinder.com/tunes/94646
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Denis_Murphy_Reel_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Denis_Murphy_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Denis_Murphy_Reel_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Denis_Murphy_Reel_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

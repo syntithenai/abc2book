@@ -1,0 +1,28 @@
+X:1230
+T:Casper's Songs
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001172.html
+%%ID:00001172
+K:G
+e2 e2 | ed/c/ Bc | B2 z2 | B2 e2 | ^dd/e/ ff | G4 | \
+^de/f/ gB/c/ | d4 | G2 e2 | .db Te2 | .db z2 |
+Bd cf | gd b2 | Bd cf | .g.d b2 | \
+g3 f/e/ | (d/e/d/c/)    (B/c/B/A/) | G/A/B/c/ d2 | e3 f |
+g3 f/e/ | ({e}d/e/d/c/) (B/c/B/A/) | G/A/B/c/ d2 | Te2 db | Te2 .db | B4 | eE z2 |]
+%%newpage
+%page 101
+S:https://www.folktunefinder.com/tunes/88403
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

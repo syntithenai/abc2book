@@ -1,0 +1,25 @@
+X:145
+T:Scotch Gray's March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e9c.html
+%%ID:00000e9c
+K:D
+D2D>DD>D | F2D2F2 | A2A>AA>A | A2F2A2 | \
+d2d>dd>d | d2A2F2 | D2D>DD>D | D6 ::
+d2d>dd>d | d4(3fdf | e2A>AA>A | A6 | \
+e2e>ee>e | e4(3geg | f2d>dd>d | d6 !D.C.! ::
+%%newpage
+%page 11
+S:https://www.folktunefinder.com/tunes/88186
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

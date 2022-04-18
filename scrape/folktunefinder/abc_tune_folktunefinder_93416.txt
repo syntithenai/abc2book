@@ -1,0 +1,24 @@
+X:765
+T: Pigeon's Tail HP
+S: "The Roche Collection of Traditional Irish Music" [III/61/174]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: Ador
+gf | eA (3AAA AdBA | Bdef g2 ge | dcBA GABG | Bdef g2 gf |
+eA (3AAA AdBA | Bdef g2 fg | agfd gedB | A2 AA A2 :|
+Bd | eaab aged | cdef g2 ge | dcBA GABA | Bdef g2 fg |
+eaab aged | cdef g2 fg | afge fd (3edB | A2 AA A2 :|
+S:https://www.folktunefinder.com/tunes/93416
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

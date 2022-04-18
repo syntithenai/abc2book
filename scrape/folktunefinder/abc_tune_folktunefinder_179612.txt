@@ -1,0 +1,32 @@
+X: 1
+T:Off To California
+M:4/4
+L:1/8
+Q:180
+C:Trad. Arr. R. Williamson
+S:RW F 90
+R:Hornpipe
+N:First in set with "Fairie's Hornpipe" and "Ships are Sailing". This is
+N:Robin Williamson's version, the "B" part is quite different from the
+N:traditional version. We play the Williamson version
+K:G
+(3DEF|:"G"GFGB AG (3DEF|"G"GBdg "C"e2 ef|"G"(3gag fg "Em"edBG|"Am"ABAG E
+2"D"(3DEF|!"G"GFGB AG (3DEF|"G"GBdg "C"e2 ef|"G"(3gag fg "C"edBG|1"D"A4
+"G"G2 (3DEF:|2"D"A4 "G"G2 (3def|!
+|:"Em"gfeg "D"fedf|"Em"edef ed B2|"Em"g2 (3bag "D"f2 (3agf|"Em"edef edBA
+|!"Em"B2 eB "D"(3dBd ed|"Em"(3BAB eB "D"dBAF|"G"GABc dBGB|1"D"A4"G"G2
+(3def:|2"D"A4"G"G2 (3DEF |
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/179612
+S:http://www.blackflute.com/music/tunes/hornpipes/califrw.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

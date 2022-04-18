@@ -1,0 +1,25 @@
+X:1
+T:The Lindsay Fiddle
+R:reel
+C:Carl MacKenzie
+A:20th Century Cape Breton
+D:Carl MacKenzie, Fiddle Tunes
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:333
+L:1/8
+M:C|
+K:F
+B|AFCB, A,CFA|cfcA BGGB|AFCF AFdB|cAGB AFFB|
+AFCB, A,CFA|cfcA GABd|cAdB cAaf|ecbg aff||
+||g|afcB AFCF|Acfa bggb|afcf dBfd|ecbg affg|
+afcB AFCF|Acfa gfgb|(3(agf) ge fcAc|dBGB AFF|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/172303
+S:http://www.cranfordpub.com/tunes/abcs/Lindsay_Fiddle.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

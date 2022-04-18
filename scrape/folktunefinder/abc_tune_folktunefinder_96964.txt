@@ -1,0 +1,57 @@
+X:4
+T:Les Esclops
+C:Trad.
+A:Massifs montagneux - France
+B:Rpertoire "Pays-Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:3/8
+L:1/8
+Q:200
+K:G
+ z2D |: "Sol M (G)"[G2G,,2][GG,] | [GG,,]D[GG,] | [B2G,,2][BG,] | [BG,,]G[BG,] | [d2G,,2][dG,] | \
+ [dG,,]c[BG,] | [BG,,]A[GG,] | "R M (D)"[A2D,,2][AD,] | [A2D,,2][cD,] | "Do M (C)"[cC,,]e[cC,] | \
+ "Sol M (G)"[BG,,]d[BG,] | "R M (D)"[A2D,,2][AD,] | "Sol M (G)"[d2G,,2][dG,] | "Do M (C)"[cC,,]e[cC,] | \
+ "Sol M (G)"[BG,,]d[BG,] | "R M (D)"[A2D,,2][dD,] |1 "Sol M (G)"[G2G,,2][GG,] | [G2G,,2][DG,] :|3 G3 | \
+K:C
+W:1. Dio bergero,
+W:Dio, bergero,
+W:Cant te cousterou 
+W:Lois esclots 
+W:Canterou, canterou, canterou n 
+W:Canterou, canterou, canterou n 
+W: 
+W:2. Quant te coustron (ter)
+W:   Tis esclop 
+W: Cant ron (ter)
+W:   Nou
+W: Cant ron (ter)
+W:   Nou
+W: 
+W:3. Cinq sou coustron...
+W:   Mis esclop
+W: 
+W:4. Cinq de tacheto...
+W:   A mis esclop
+W: 
+W:5. Cinq de courrejo...
+W:
+W:6. Cinq de ligneto...
+W:
+W:7. Bourda de rouge...
+W:
+W:8. La ganso verdo...
+W:
+W:9. Passant sus la glao
+W:   Mis esclop
+W:Faguron
+W:   Clo, Clo !
+S:https://www.folktunefinder.com/tunes/96964
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

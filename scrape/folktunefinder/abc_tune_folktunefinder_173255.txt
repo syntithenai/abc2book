@@ -1,0 +1,17 @@
+X: 1
+T: Lo Yissa Goy [F#m]
+T: Vine and Fig Tree
+O: Trad Jewish
+Z: John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F#m
+CFG | "Fm"A2 "C#7"G2 "Fm"F2 "C#7"G2 | "Fm"A4 zC FG | "Fm"A2 "C#7"G2 "Fm"F2 "C#7"^E2 |1 "Fm"F4 z CFG :|2 F6 z2 ||
+|: "Fm"c2 cc c2 c2 | "Bm"d2 c2 B4 | "C#7"B2 B2 B2 c2 |1 "Fm"A2 B2 c4 :|2 "Fm"A2 "C#7"G2 "Fm"F :|
+S:https://www.folktunefinder.com/tunes/173255
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/LoYissaGoy_Fsm.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key F-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

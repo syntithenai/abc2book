@@ -1,0 +1,25 @@
+X:10090
+T:Maid at the Well, The
+M:6/8
+L:1/8
+R:jig
+D:Dervish: Midsummer's Night
+Z:Devin McCabe
+K:A
+aec Ace|aec d2f|ecA ABc|BAF FEF|
+!aec Ace|aec d2f|ecA ABc|~B3 Ace|
+!aec Ace|aec d2f|ecA ABc|BAF FEF|
+!AFE ECE|ABc d2f|ecA ABc|BAG AcB|
+!:AFE ECE|ABc d2f|ecA ABc|BAF FEF|
+!AFE ECE|ABc d2f|ecA ABc|1BAG AcB:|2BAG Ace||
+S:https://www.folktunefinder.com/tunes/97872
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

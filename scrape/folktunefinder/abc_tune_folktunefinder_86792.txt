@@ -1,0 +1,28 @@
+X: 196
+T: Pooka's Delight (reel)
+N: 160014
+N: revised 1/07
+C: BB
+R: reel
+Q: 1/8=380
+M: 4/4
+L: 1/8
+K: Dmix
+"A7"A,^CEG "D"FDDA|"F"cAAc "G"BGGD|"Cm"_ECEG "D7"FAdc|\
+"G7"BGFD "Cm7"_EDC_B,|
+"A7"A,^CEG "D"FDDA|"F"cAAc "G"BG (3GFG|"G"DGdG "Ddim"D=F_AB|\
+"A7"AGE^C "D"D4 :|
+"A"^CEGA "D"d3 A|"Bm7"f3 e "D"d^c A2|"C"c2 Gc EcGc|"A"^c2 Gc EcGc|
+"D"d^cde f2 dA|"G7"BG=FD "Cm7"_EDC_B,|"A"A,^CEG "D"FAdB|"A7"AGE^C "D"D4 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86792
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

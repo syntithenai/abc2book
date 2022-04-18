@@ -1,0 +1,23 @@
+X:2
+T:Off She Goes
+R:slide
+C:Syracuse session setting
+L:1/8
+M:6/8
+K:D
+"D"F2A "G"G2B|"A"ABc "D"d3|~F3 "G"~G3|"Em"AFD "A"E2D|
+"D"F2A "G"G2B|"A"ABc "D"d2e|f2d "G"g2f|1 "A"edc "D"d3:|2 "A"edc "D"d2e|]
+"D"faf def|"G"gbg efg|"D"faf def|"A"ecA A2e|
+"D"faf def|"G"~g3 efg|"D"fed "G"g2f|1 "A"edc "D"d2e:|2 "A"edc "D"d3|]
+S:https://www.folktunefinder.com/tunes/179568
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:slides:2_off_she_goes.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

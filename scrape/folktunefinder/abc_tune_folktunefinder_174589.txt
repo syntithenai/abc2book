@@ -1,0 +1,24 @@
+X: 1
+P: Mary Hamilton of Auchincruive
+R: air
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: Bb
+|: A \
+| "Bb"B>c dc/B/ "F7"A/c/B/G/ F>E | "Bb"D/G/F/D/ "Eb"ED/B,/ "F7"C3 F \
+| "Bb"B>c dc/B/ "F7"A/c/B/G/ FA/B/ | "C7"cB/A/ BA/G/ "F"F3 "F7"d/e/ |
+| "Bb"f2 "Eb"ed/c/ "Bb"dB/G/ "F7"F>E | "Bb"D/F/B/c/ d/B/A/B/ "Eb"G3 A \
+| BA/G/ "F7"AG/F/ "Eb"G/B/A/F/ "F7"Ed/c/ | "Bb"B/F/"Eb"E/G/ "F7"FD "Bb"B,3 :|
+S:https://www.folktunefinder.com/tunes/174589
+S:http://trillian.mit.edu/~jc/music/book/500/MaryHamiltonOfAuchincruive.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

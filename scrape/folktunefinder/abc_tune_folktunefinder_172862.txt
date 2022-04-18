@@ -1,0 +1,24 @@
+X: 1
+T:The Long Road
+C: 1999 Harry Bolick -  harry@bolick.net - www.bolick.net
+R:Waltz
+O:United States
+A:Brooklyn, New York
+M:3/4
+L:1/8
+Q:300
+K:G
+ (A,C)E |:  "C" c2 B2 G2 | "D" F4 (EC) | "C"  E2 E2 (G,B,/2E/2) | "G" B2 z B (AB)|
+"C" e2 d2 (A2 | "G" B3) B (AB) | "Am" e2 d2 (A2 | "G" B3)B (AB) |
+"C" c3 (B"D" AG) |  F3 (D EF) | A2A(GFD) | "G" G3 (B AB) :|  
+|: g2 g2 (3(AGA)| "D" f2f2 ed | "C" e2 e2 d2 | "G" B4 (AG) |
+"D" A2 A(FD)F | A2 A(DF)A |[1 f2 e2 d2 | "G" B3 (BAB) :|[2  (BAGFED) |   "G" G3  :|
+S:https://www.folktunefinder.com/tunes/172862
+S:http://www.bolick.net/sound/longRoad.txt
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

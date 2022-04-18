@@ -1,0 +1,44 @@
+X:8
+T: Lullaby
+N: C0004
+O: Amerika, USA
+N: s. Schaffrath Teilcurriculum 1979. Auch auf KA 00115 Die Phrasierung
+N: ist eintaktig, um die Formelhaftigkeit des Liedes zu kennzeichnen. Die
+N: Pausen wurden im Vgl. zur Transkription etwas verkrzt, um die T\^ine
+N: des Synthi besser ausklingen zu lassen.
+R: Wiegenlied
+M: 4/4
+L: 1/8
+K: Eb
+G4E4
+EB,3E3z
+GF3E4
+EB,3E3z
+EEFGE3z
+E2B,2E3z
+G2E2G3z
+EEG2E3z
+E2B,2E3z
+E2B,2E3z
+GF3E3z
+EB,3E3z
+G4E4
+EB,3E3z
+EEFGE3z
+E2B,2E3z
+G2E2G3z
+EEG2E3z
+E2B,2E3z
+E2B,2E3z
+GF3E3z
+EB,3E4
+S:https://www.folktunefinder.com/tunes/97557
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Wiegenlied
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

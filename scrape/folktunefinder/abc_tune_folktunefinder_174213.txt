@@ -1,0 +1,51 @@
+X: 1
+%%scale 0.80
+T:Marachine : Suite Termen
+Z:Roger Ngaret (Janvier 2001)
+R:
+C:Trad.
+S:
+A:Vende
+M:2/4
+L:1/8
+K:C
+P:T'as perdu ta queue
+K:C
+Gd dB | (3dcB AA | Gd dB | d2 A2 :: AB cB |
+AB G2 | Bd cB | A2 G2 :|
+%%rm
+%%rm T'as perdu ta queue mon renard  ]
+%%rm T'iras plus t' la chasse       ] bis
+%%rm
+%%rm Cui qui ta fait c'coup mon gars ]
+%%rm T'as fait faire la grimace      ] bis
+%%rm
+P:Papillons
+ed e2 | cB cA | ed e2 | cB A2 :: Ac Bd | (3dcB cc |
+Ac Bd | (3dcB A2 :|
+%%rm
+%%rm Papillons volent volent                       ]
+%%rm Papillons volent donc                         ] bis
+%%rm
+%%rm Volent, volent, volent pard'ssus les villages ]
+%%rm Reviendront pard'ssus nos maisons             ] bis
+%%rm
+P:P'tit bonnet vert
+AA e2 | (3efe dd | cd e2 | c2 A2 :: Ac BA | GA BB/2c/2 |
+BB ee/2d/2 |1 cB cc :|2 cB A2 |]
+%%rm
+%%rm J'avais un p'tit bonnet vert  ]
+%%rm Que j'portais en hiver        ] bis
+%%rm
+%%rm Je l'ai port en t,                          ]
+%%rm Le soleil l'a tout, le soleil l'a tout         ]
+%%rm Je l'ai port en t, le soleil l'a tout brul ] bis
+S:https://www.folktunefinder.com/tunes/174213
+S:http://termen.free.fr/danses/termen/MaraichinesSuiteTermen.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

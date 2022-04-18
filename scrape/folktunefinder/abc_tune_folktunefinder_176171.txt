@@ -1,0 +1,25 @@
+X: 1
+T: Miss Lyall (Panmure House)
+C: Trad
+L: 1/8
+M: 4/4
+R: Strathspey
+S: Paddledoo
+S: Pinewoods Collection
+K: G
+c/B/ \
+[| "Am"A<A, A,>B, C>D E>F | "G"G<G B>A G2 c>B | "Am"A<A, A,>B, C>D E>A | "E"c>A B>^G "Am"A3 c/B/ |
+|  "Am"A<A, A,>B, C>D E>F | "G"G<G B>A G3 c/d/ | "Am"e>c d>B "F"c>A B>G | "E"E>A c/B/A/^G/ "Am"A3 c/B/ |]
+[| "Am"A<a a>b "G"g>a b/a/g/f/ | "Am"A<a a>b "G"g2 f>g | "Am"A<a a>b "G"g>a b/a/g/f/ | "E"e>c e>B "Am"A3 c/B/ |
+|  "Am"A<a a>b "G"g>a b/a/g/f/ | "Am"A<a a>b "G"g2 f>g | "Em"(3agf (3gab "Dm"(3edc (3Bce | "E"e>c d<B "Am"A3 |]
+S:https://www.folktunefinder.com/tunes/176171
+S:http://trillian.mit.edu/~jc/music/book/500/MissLyall.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

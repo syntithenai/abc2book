@@ -1,0 +1,43 @@
+X:10292
+T:Marcha del Tao (MG 22) (Arrg.)
+T:Marcha del Dos de Mayo (MG 22) (Arrg.)
+T:Pasucis Los Cabezudos (MG 22) (Arrg.)
+T:Alborada del Dos de Mayo (MG 22) (Arrg.)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+G:Arrg.
+Z:Mtodu de Gaita 22
+E:Nivel 2
+M:6/8
+L:1/8
+Q:3/8=120
+K:F
+C|:"Am"~EDC "Am"~EDC|"F"~A2A "F"ABA|
+"C"GFE "Am"EDE|"Dm"F~ED "F"C2 C|"Am"~EDC "Am"~EDC|
+"F"~A2 A "F"ABA|"C"GFE "Am"EDE|[1 "F"F3- "F"F2C:|
+[2 "F"F3- "F"F2A||:"Gm"GAB "F"c2B|"F"~A3 "Dm"D2~A|"C"GAG "C"GFE|
+"Dm"F~ED "F"C2~A|"Gm"GAB "F"c2 B|"F"~A3 "Dm"D2 ~A|"C"GAG "C"GEG|
+[1 "F"F2-F- "F"F2A:|[2 "F"F3-"F"F2 A||:"F"AcA "F"AcA|
+"F"~A2F "Dm"D2A|"C"GAG "C"GAG|"C"~G2E "F"C2A|
+"F"AcA "F"AcA|"F"~A2F "Dm"DEF|"C"G~AG "C"GEG|
+[1 "F"F3- "F"F2A:|[2 "F"F3- "F"F2C||:"F"F2A "F"c2~d|"F"c2~A "F"F2~A|
+"C"GAG "C"GEG|"F"c2~A "F"F2C|"F"F2A "F"c2~d|
+"F"c2~A "F"F2~A|"C"GAG "C"GEG|"F"F3- "F"F2C:|
+|:"Am"~EDC "Am"~EDC|"F"~A2A "F"ABA|"C"GFE "Am"EDE|
+"Dm"F~ED "F"C2 C|"Am"~EDC "Am"~EDC|"F"~A2A "F"ABA|
+"C"GFE "Am"EDE|[1 "F"F3- "F"F2C:|[2 "F"F3- "F"F2z||
+S:https://www.folktunefinder.com/tunes/98074
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

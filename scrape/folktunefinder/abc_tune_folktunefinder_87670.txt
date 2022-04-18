@@ -1,0 +1,45 @@
+X: 169
+T: Perdido
+M: 4/4
+L: 1/8
+C: J. Tizol
+Q: 1/4=150
+%%staves (chords melody)
+K: Bb
+%%text (medium)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+x |: "Cm7"x4 "F7"x4 | "Cm7"x4 "F7"x4 | "Bbmaj7"x4 "(Eb7"x4 | "Dm7"x4 "G7)"x4 |
+"Cm7"x4 "F7"x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 "Eb7"x4 |[1 "Dm7"x4 "G7"x4 :|[2 x4x4 ||
+V: melody
+C |: EF-F4zC | EF2C EF2B, | DF-F4zB, | DF2B, DF2C |
+EF-F4zC | EFdc-c3F | GB-B6 |[1 z4 z3C :|[2 z8 ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: B
+V: chords
+"D7"x4 x4 | x4 x4 | "G7"x4 x4 | x4 x4 |
+"C7"x4 x4 | x4 x4 | "F7"x4 x4 | x4 x4 ||
+V: melody
+d8 | A=Bcd-d2d=e- | e8 | =BA-A6 |
+c8 | GA_Bc-c2cd- | d8 | AG-G4zC ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Cm7"x4 "F7"x4 | "Cm7"x4 "F7"x4 | "Bbmaj7"x4 "(Eb7"x4 | "Dm7"x4 "G7)"x4 |
+"Cm7"x4 "F7"x4 | "Cm7"x4 "F7"x4 | "Bb6"x4 x4 | "T.A."x4 x4 |]
+V: melody
+EF-F4zC | EF2C EF2B, | DF-F4zB, | DF2B, DF2C |
+EF-F4zC | EFdc-c3F | GB-B6 | z8 |]
+S:https://www.folktunefinder.com/tunes/87670
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

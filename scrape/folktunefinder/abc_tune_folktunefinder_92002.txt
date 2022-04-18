@@ -1,0 +1,24 @@
+X:1018
+T:Queen Of The West Hornpipe
+C:Zeke Backus
+B:One Thousand Fiddle Tunes (Cole's)
+L:1/8
+M:4/4
+Q:410
+K:D
+uFE|:"D"DFAF DFA,F|"A"EGAG EGA,G|"D"FAdF "D#dim"GBec|"A"Adfd (3cBA (3GFE|
+"D"DFAF DFA,F|"A"EGAG EGA,G|"D"FAdA "A"Ggec|1 "D"d2d2d2 FE:|2 "D"d2d2d2 ucd||
+|:"A"ecAc EAce|"D"fdAd FAdf|"G".g2fg "D"efdf|"E"(3edc (3dcB "A" ABcd|
+ecAc EAce|"D"fdAd FAdf|"G"gbag "A"fedc|1 "D"d2d2d2 ucd:|2 "D"d2d2d2 uFE||
+S:https://www.folktunefinder.com/tunes/92002
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Queen_Of_The_West_Hornpipe.abc
+S:http://idiot-dog.com/relph/Tunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T:Oh Susannah
+M:C|
+L:1/8
+K:D
+P:Intro
+"D"d4  A4 | "A7"e2A2 B2c2 | "D"d4 A4 | d6 D-E |
+P:A
+|: "D"F2A2 A2B2 | A2F2 D2E2 | F2F2 E2D2 | "A7"E6 D-E |
+  "D"F2A2 A2B2 | A2F2 D2E2 | F2F2 "A7"E2E2 |\
+[1 "D"D6 D-E :|[2 "D"D8 ||
+P:B
+|:  "G"G2G2 G4 | B2B2 "G#dim"B4 | "D"A2A2 F2D2 | "A7"E6 D-E |
+  "D"F2A2 A2B2 | "D7"A2F2 "G"D2"Bf7"DE | "D"F2F2 E2E2 |\
+[1 "D"D8 :|[2 "D"D6 D-E |]
+N:Hank Greene, Square and Folk Dancing, Harper & Row, 1984, pg 138
+N:adapted by Peter Ostapenko 8/22/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/179761
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OhSusannah.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

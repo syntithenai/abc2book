@@ -1,0 +1,29 @@
+X:124
+U: ~ = !turn!
+%%topmargin 3cm
+T:McCollum's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Sean Ryan
+R:Hornpipe
+L:1/8
+M:C|
+K:D
+D2 FA D2 FA | defd ~B3 d | ~A3 B AFDE | FDED B,DA,B, |
+D2 FA D2 FA | defd ~B3 d | ~A3 B AFDE | [1 F2 D2 D2 ((3ABc) :| [2 F2 D2 D2 D2 ||
+|: d2 ~d2 d2 ~d2 | adbd adcd | efed BAFA | fded Bd AB |
+d2 ~d2 d2 ~d2 | adbd adcd | efed BAdB | AFEF (D2 D2) :|]
+S:https://www.folktunefinder.com/tunes/94720
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/McCollums_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/McCollums_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

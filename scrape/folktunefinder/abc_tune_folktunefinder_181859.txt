@@ -1,0 +1,44 @@
+X:3120
+T:Pavane - Pass e medio
+C:Tielman Susato
+O:Flandres
+R:Pavane
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/susato-tielman/pass-e-medio-forgeot.abc
+%Posted at abcusers July 12th 2001 by Eric Forgeot, during a discussion about multiple voices on a single staff.
+M:C
+L:1/4
+Q:1/4=110
+K:C
+%%staves 1 (2 3)
+V:1
+f3 e | d f2 e/d/ | e>d e/f/e/d/ | e3e | d>c d/e/ d |
+dfed | ^c>B c/d/c/B/ | ^c3 d/e/ |
+f3 e | d f2 e/d/ | e>d e/f/e/d/ | e/f/g/f/ ed |
+^c/d/e/c/ d =B |\
+  ^c/A/ d3/2 c/4=B/4 d/c/ | d3d | d2 d2 :|
+V:2
+D3 E | FGAB | c3 c | c4 | A2 AA | _B A2 G | A3 A | A4|
+D3 E | FGAB | c4 | c2 c/B/A/G/ | A2 D2 | AGA2 | F3 F |F4 :|
+V:3
+A3G | FDF2 | G>F G/A/G/F/ | G3 G | F D/E/ F/G/F/E/ |
+F2 GD | E>D E/F/E/D/ | E3 A |
+A3G | FDF2 | G>F G/A/G | G3 F | EA FG | EDE2 | D3 D|D2D2:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/181859
+S:http://abc.musicaviva.com/tunes/susato-tielman/pass-e-medio-forgeot.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/susato-tielman/pass-e-medio-forgeot.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/susato-tielman/pass-e-medio-forgeot.abc
+% Rhythm Pavane
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,38 @@
+X:620
+T: Peadar's New Calf (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D|"D"FAdc "Bm"BF (3FEF|"A"GEAG "D"FD (3DED|"A"CEGE "D"FAdf|"G"gfed "A"e2 ce|
+[V:2] z|D,2[A2D2F2]B,,2[F2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|A,,2[G2C2E2]D,2[A2D2F2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"fdBd "F#m"AF (3FEF|"Bm"BAFD "Em"EDEG|"A7"AGEA "D"FAdB|"A"AFGE "D"D3 :|
+[V:2] B,,2[F2B2D2]F,,2[A2C2F2]|B,,2[F2B2D2]E,2[E2B2G2]|A,,2[G2C2E2]D,2[A2D2F2]|\
+A,,2[G2C2E2][D,3F,3A,3]:|
+%
+[V:1] e|"Bm"fdBd bafe|"G"dB (3BAB dBGB|"D"Adfa "Bm"bfaf|"Em"gfed "A"e2 ce |
+[V:2] z|B,,2[F2B2D2]F,,2[F2D2B2]|G,,2[G2B2D2]D,2[G2B2D2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+E,2[E2B2G2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"fdBd "F#m"AF (3FEF|"G"GBdB "D"Af (3fef|"Em"gfed "Bm"fdBd|"A"AFGE "D"D3 :|
+[V:2] B,,2[F2B2D2]F,,2[A2C2F2]|G,,2[G2B2D2]D,2[A2D2F2]|E,2[E2B2G2]B,,2[F2B2D2]|
+A,,2[G2C2E2][D,3F,3A,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87009
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

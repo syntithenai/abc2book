@@ -1,0 +1,26 @@
+X:165
+T:Maguire's
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+Z:
+K:G
+"G"~G3 AGA|"Em"BGE EDE|"G"GBd e2d|"C"egd "D"edB|
+"G"~G3 AGA|"Em"BGE EDE|"G"GBd "C"ege|"D"dBA "G"G2D:|:
+"G"GBd e2d|egd edB|"D"GBc d2B|ded dBA
+|1 "G"GBd e2d|egd edB|GBd ege|"D"dBA "G"G2D
+:|2 "G"~G3 AGA|"Em"BGE EDE|"G"GBd "C"ege|"D"dBA "G"G2D|]
+S:https://www.folktunefinder.com/tunes/97377
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

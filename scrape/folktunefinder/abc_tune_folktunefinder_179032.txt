@@ -1,0 +1,27 @@
+X: 1
+T: Nonesuch
+M: C|
+L: 1/8
+%Q: 120
+H: Nonesuch was built in 1538 by Henry VIII over the demolished property of the village of Cuddington,
+H: near Epsom Wells in Sussex, to be the most ostentatious hunting lodge ever made.  At the very end
+H: of her life, Elizabeth I visited Nonesuch, as a guest of Lord Lumley, son-in-law of the Earl of
+H: Arundel, and it was reported that "there is much dancing of country dances in the privy chamber
+H: at Nonesuch, before the Queen's majesty, who is exceedingly pleased therewith".
+N:
+N: Often combined with A la Mode de France for the dance.
+K: DDor
+"A"|: a | "Dm"af ga | fe/2f/2 da | af ga | f2 d \
+"B":: e | "C"ec de | "Dm"fe/2f/2 de | "C"ec de | "Dm"f2 d :|
+S:https://www.folktunefinder.com/tunes/179032
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Nonesuch.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/Nonesuch.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

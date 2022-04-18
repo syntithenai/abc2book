@@ -1,0 +1,24 @@
+X:0695
+T:"Planxty Maguire"               0695
+C:Turlough  O' Carolan
+C:spirited
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(See #95 & 96 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:G
+"^vb"d2|(cBAG) d2G2|B2d2 d2(ef)|g2{ag}(fe) a2(gf)|g2A2 A2d2|(cBAG) B2d2|c'2b2a2g2|(fgaf) d2(ef)|g2G2 G2e2|
+dBde d2B2|dBde d2B2|c'2a2 a2b2|c'2a2 a2d2|Bcd2 G2d2|"_>"F2d2"_>"E2e2|(fga2) e2a2|(gfef) d2d2|
+e2f2 g2a2|b2g2 g2(ab)|.c'2.a2 .a2.d'2|c'bab g2d2|dedc B2d2|g2e2 c2e2|f2ga d2f2|g2G2 G2 |]
+S:https://www.folktunefinder.com/tunes/182787
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/695-PlanxtyMaguire.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

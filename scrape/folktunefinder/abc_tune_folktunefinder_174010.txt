@@ -1,0 +1,23 @@
+X: 1
+P: Malana's Jig
+C: Howie Bursen (c) 1990
+C: from Jon Weinberg
+R: jig
+M: 6/8
+L: 1/8
+K: D
+|: "D"aAA "(A/C#)"gAA |"(Bm/B)"fAA "(A/A)"eAA|"G"B>cd "(A/F#)"cde|"(Bm/E)"fdf "A"e2 A|"D"aAA "(A/C#)"gAA |
+"(Bm/B)"fAA "(A/A)"eAA|"G"B>cd "A"cde|"D"fdd d2 A :||: \
+K: C
+"C"c2 d edc|"Bm"B2 c dcB|
+"C"c2 d e^fg|"D"^fed ded|"C"c2 d edc|"Bm"B2 c d2 A|"G"B>^cd "A"cde|"D"^fdd d2 A :|
+S:https://www.folktunefinder.com/tunes/174010
+S:http://terrytraub.org/abc/MalanasJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

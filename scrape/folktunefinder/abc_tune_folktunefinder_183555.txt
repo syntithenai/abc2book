@@ -1,0 +1,24 @@
+X: 11
+T: Ship in Full Sail
+I: Ship in Full SailJ-56GjigSet 45
+M: 6/8
+R: jig
+K: G
+"G"DGG BGG| dGG Bdd| "C"ege "G"dBG| "Am"ABA "D"AGE|
+"G"DGG B3| "G"dGG Bdd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+|:\
+"G"dgg bgg| "D"aga "Em"bge| "G"dgg bgg| "D"a2a age|
+"G"dgg bgg| "D"aga "Em"bgd| "C"ege "G"dBG| "D"ABA "G"G3 :|
+%%text Roaring Jelly J-56
+%%vskip 6pt
+S:https://www.folktunefinder.com/tunes/183555
+S:http://roaringjelly.org/music/sets/Set45.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set45.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set45.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

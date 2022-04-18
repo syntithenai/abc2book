@@ -1,0 +1,22 @@
+X:1
+T:Martian March
+C:copyright 2003 Kaubells
+R:Reel
+M:C
+K:DDor
+|:"Dm"a2d2 "Em"defg|"F"a2d2 d2 (3fgf|"C"e2c2 A2c2|"(Am)"G2c2 E2c2|
+"Dm"a2d2 "C"defg|"Bb"a2d2 d2 (3fgf|"Am"e2c2 A2c2|"Dm"d4 D4:|
+|:"A7"^cdeA a2g2|"G7"fgaf d2 (3fgf|"A7"e2B^c a2g2|"G9"f4 z4|
+"A7"AB^cA a2g2|"G7"fgaf d2 (3fgf|1"A7"e2B^c a2g2|"D"^f4 z4:|2"Em"edBd e2g2|"A7"a4 z4||
+T:Last time only
+"A7"AB^cA a2g2|"G7"fgaf d2 (3fgf|"Em"edge "A7"a2^c'2|"Dm"d'4 [f4d'4]|]
+S:https://www.folktunefinder.com/tunes/171545
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/martian.abc
+S:http://www.cs.utexas.edu/%7Ekaufmann/kaubells/notation/kaubells/martian.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

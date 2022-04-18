@@ -1,0 +1,44 @@
+X: 21
+T: Bebop
+M: 4/4
+L: 1/8
+C: Dizzy Gillespie
+Q: 1/4=264
+K: Fm
+%%text (up)
+P: intro
+(3FAc || "N.C."f2zc =e2zc | _e^c=d2 z2_d=B | cAFC B3G | AFz2 z3C|
+FAGF =EGBd | cBAF GBd=e | fcAF =EGBd |cAFC _G3=E | F2cc zcz2 | c2dc BA_G=E ||
+%%staves (chords melody)
+P: A
+V: chords
+"Fm6"x4 "C7"x4 | "Fm6"x4 "C7"x4 | "Fm6"x4 x4 | "Gm7b5"x4 "C7"x4 |
+"Fm6"x4 "C7"x4 | "Fm6"x4 "C7"x4 | "Fm6"x4 x4 | [1"C7"x4 "Fm6"x4 :| [2 "C7"x4 "Fm6"x4||
+V: melody
+FAzF GBzG | Acz=A Bdz=B | cfz2 z3c | (3dcB AG z3=E |
+FAzF GBzG | Acz=A Bdz=B | cFz2 z3F |[1 =E^DEF z3E :| [2 GF=EF z4 ||
+P: B
+V: chords
+"Fm7"x4 x4 | "Bb7"x4 x4 | "Eb6"x4 x4 | x4 x4 |
+"Ebm7"x4 x4 | "Ab7"x4 x4 | "Dbmaj7"x4 x4 | "Gm7b5"x4 "C7"x4 ||
+V: melody
+baz2 g_gf_f | ecz2 _d2_c=A |BJGE2 A^FGE | z8|
+a_gz2 f_fe__e | dBz2 _c2__BG | A2z2 z2=EA |d2c_G-G3=E||
+P: A
+V: chords
+"Fm6"x4 "C7"x4 | "Fm6"x4 "C7"x4 | "Fm6"x4 x4 | "Gm7b5"x4 "C7"x4 |
+"Fm6"x4 "C7"x4 | "Fm6"x4 "C7"x4 | "Fm6"x4 x4 | "C7"x4 "Fm6"x4 |]
+V: melody
+FAzF GBzG | Acz=A Bdz=B | cfz2 z3c | (3dcB AG z3=E |
+FAzF GBzG | Acz=A Bdz=B | cFz2 z3F | GF=EF z4 |]
+S:https://www.folktunefinder.com/tunes/87522
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

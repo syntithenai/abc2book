@@ -1,0 +1,25 @@
+X:10296
+T:Marcha Procesional (Belmonte de Miranda)
+C:Trad
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=120
+K:C
+|:E3 -E-EC|B,2 C D2 E|F3 FGF|
+E3 -E-EC|B,2 C D2 ~E|[1 C2 C G3:|[2 C2 C GAB|
+|:c3 G3|G3 GAG|G3 F3|E3 GAG|G3 F3|
+E3 GAG|F3 E3|D3 ABA|G3 F3|E3 GAG|
+F3 E3|D3 (2AB/2A/2|(2GE/2G/2 (2F/2E/2D/2~E/2|C6:|
+%"Otra versin pa los ltimos compases |D3 ABA|GEG F/2E/2D~E|C6|"
+S:https://www.folktunefinder.com/tunes/98078
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

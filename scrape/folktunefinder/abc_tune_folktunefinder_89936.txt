@@ -1,0 +1,26 @@
+X:1480
+T: Sweet Skies of Louth
+C: BB
+N: First tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=320
+K: D
+D|"D"DFE DFA | "A"AFA "Bm"B3 | "D"d2f "A"edc | "G"B2d "A"AFE |
+"D"DFE DFA | "A"AFA "Bm"Bcd | "Em"efd "A"BAB | "D"d3 d2 :|
+e|"D"a2f "G"g2e |"D"def "Bm"dcB | "D"AFA "Bm"Bcd | "Em"ede "D"f2g |
+"D"agf "G"gfe | "D"def "Bm"dcB | "D"AFA "Bm"dcB |"A"AFE "D"D2 :|
+S:https://www.folktunefinder.com/tunes/89936
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

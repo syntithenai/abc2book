@@ -1,0 +1,25 @@
+X: 1
+T: Red Rose, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Gmaj
+&quot;G&quot;B6| B4 c2| B4 d2| d4 c2| &quot;Em&quot;B2 A2 G2|&quot;A7&quot; F2 G2 E2| &quot;D&quot;D6|DE FG AB|
+ &quot;Am&quot; c6| &quot;E&quot; B2 A^G Ac| &quot;Am&quot;c4 ^c2|&quot;D&quot; d4 c2|&quot;G&quot; B2 A2 G2| &quot;A7&quot; FA G2 E2| &quot;D&quot; D6|d2 ^c2 =c2|
+&quot;G&quot; B6| B4 c2|B4 d2|d4 c2|&quot;Em&quot;B2 A2 G2| &quot;A7&quot; F2 G2 E2|&quot;D&quot; D6| &quot;G&quot; G4 F2|
+ &quot;C&quot; E2 ^D2 E2| &quot;D/f#&quot;F4 D2|&quot;G&quot; G2 F2 G2|&quot;Am&quot; A4 B2| c4 A2| &quot;D&quot; F4 D2|&quot;D7&quot; {E}D2 ^C2 D2|&quot;G&quot; G6|
+|:&quot;D&quot; D2 E2 F2| &quot;G&quot; G2 A2 B2|&quot;D7&quot;c f3 c2| &quot;G&quot; e4 d2|&quot;C9&quot;D2 G2 c2|&quot;G&quot; B4 A2| D2 F2 ^C2|&quot;Am/c&quot;E4 D2|
+&quot;D&quot; D2 E2 F2| &quot;G&quot; G2 A2 B2|&quot;D7&quot;c f3 c2| &quot;G&quot; e4  d2 | D2 G2 c2|&quot;Cmaj7&quot; B4-B A| &quot;G&quot;G6|1G2 F2 E2:|2 G2z2 Bc||
+|:&quot;G&quot; d2 c2 B2|&quot;C&quot; A2 G2 C2| E4 ^D2| &quot;Am&quot; E4 AB| c2 B2 A2|&quot;Em&quot; G2 F2 E2|&quot;D&quot; D2 Dc dF|D4 Bc|
+&quot;G&quot;d2 c2 B2| &quot;C&quot; A2 G2 C2| C4 C2| &quot;Am&quot;c6| &quot;G&quot; B,2 C2 ^C2|&quot;D&quot;D B4 A|&quot;G&quot;G6|G6:|
+&quot;G&quot; D6| &quot;C&quot; E4 D2| &quot;D&quot; F2 F>G F>D|&quot;D&quot;A,6|&quot;G&quot; B,2 C2 D2|&quot;Em&quot; E2 B,2 D2| &quot;G&quot;B2 B>c BG| D6|
+D2 G2 B2|&quot;Bm&quot;d4 d2| &quot;C9&quot;d2 c2 A2| &quot;Am&quot;E6|&quot;G/b&quot; B,2 C2 ^C2| &quot;D&quot;D B3 A2|&quot;G&quot; G6:|
+S:https://www.folktunefinder.com/tunes/184938
+S:http://www.thesession.org/tunes/display/3754
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

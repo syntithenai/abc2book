@@ -1,0 +1,28 @@
+X:1
+T:Partida
+C: Valse du Vnzuela, abc file by Bernard Loffet
+L:1/8
+Q:360
+M:3/4
+K:C
+zE[FA,]E[^DE,]E|:[c2A,2]A,E[EA,]c|[c2A,2][E2A,2][c2A,2]|[c2E,2][BE,]_B[=B2E,2]|[zE,]D[EE,]D[^CD,]D|[B2E,2]E,D[DE,]B|[B2E,2][D2E,2][BE,]c|[B2A,2][AA,]^G[A2A,2]| \
+[zA,]E[FA,]E[^DE,]E|[A2A,2]A,^G[AA,]_B|[A2G,2][G2G,2][F2G,2]|[E2D,2][DD,]E[F2D,2]|[zD,]F[ED,]D[CD,]B,|[B,A,]A,[A,A,]B,[CA,]D|[EE,]F[EE,]D[CE,]B,|[A,A,]A,[CA,]A,[EA,]A,| \
+[AA,]E[FA,]E[^DE,]E:|:[EE,]e[dE,]E[eE,]d|[EE,]e[dE,]E[eE,]d|[EA,]d[cA,]E[dA,]c|[EA,]d[cA,]E[dA,]c|[EE,]c[BE,]E[cE,]B|[EE,]c[BE,]E[cE,]B|[A2A,2][E2A,2][E2A,2]| \
+[E2A,2][^D2E,2][=D2A,2]|[^C2A,2]A,2[C2A,2]|A,2[^C2A,2]A,2|[G2D,2][FD,]E[F2D,2]|[zD,]F[ED,]D[CD,]B,|[B,A,]A,[A,A,]B,[CA,]D|[EE,]F[EE,]D[CE,]B,|[A,A,]A,[CA,]A,[EA,]A,| \
+|1[A2A,2]A,EA,2:|2[A6A,6]| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/181643
+S:http://diato.ifrance.com/diato/tablat/81.abc
+S:http://diato.ifrance.com/tablat/81.abc
+S:http://diato.org/tablat/81.abc
+S:http://perso.orange.fr/diato/tablat/81.abc
+S:http://perso.wanadoo.fr/diato/tablat/81.abc
+S:http://pro.wanadoo.fr/diato/tablat/81.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/81.abc
+S:http://www.diatonique.net/tablat/81.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X: 160423
+T: Portland Fancy
+S: Joel Shimberg
+Z: Joel Shimberg
+L: 1/8
+M: 6/8
+R: jig
+K:A
+E2A E2A | EAB c3 | dcd Bcd | f2e cAF |
+E2A E2A | EAB c3 | dBG EFG |1 A3 AGF :|2\
+A3 Ace ||
+a3 g2f | fe^d e2c | dcd Bcd | fe^d efg |
+a3 g2f | fe^d e2c | dBG EFG |1 A3 Ace :|2\
+A3 A2 E ||
+K:D
+ABc d2 e | f2 g a3 | efg ABc | dfe dcB |
+ABc d2 e | f2 g a3 | gec ABc |1 d3 dcB :|2\
+d6 |]
+S:https://www.folktunefinder.com/tunes/183570
+S:http://www.qmcorp.net/webabc/p/160423.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

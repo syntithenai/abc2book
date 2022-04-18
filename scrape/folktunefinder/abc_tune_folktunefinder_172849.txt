@@ -1,0 +1,29 @@
+X: 1
+T: Long Live London
+C: Pat Shaw 1971
+Z: John Chambers <jc@trillian.mit.edu>
+M: C|
+L: 1/4
+K: F
+c \
+| "F"f>cAc | "Bb"df2d | "F"c>A FA | "C7"G3c \
+| "F"f>cAc | "Bb"df2d | "F"cA "C7"G>A | "F"F3 :|
+F \
+| "Bb"D>CDF | "F"C>A,CF | "C7"G>FGA | "F"F3A \
+| "C7"G>EGc | "F"A>FAc | "G7"=Bcde | fed=B |
+| "C7"c>dcB | "F"AcFG/A/ | "Gm"B>AGF | "C7"EGCd/e/ \
+| "F"f>cAc | "Gm"d>BGB | "C7"Ac2B/G/ | "F"F3 |]
+S:https://www.folktunefinder.com/tunes/172849
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/LongLiveLondon_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/LongLiveLondon_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/LongLiveLondon_F.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/PatShaw/LongLiveLondon_F.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

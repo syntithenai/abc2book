@@ -1,0 +1,23 @@
+X: 1
+T: Pointe Au Pic
+M: 4/4
+L: 1/8
+R: reel
+K: Cmaj
+geg|:decd BcAB|GG G3 geg|decd BcAc|BB B3 geg|
+decd BcAc|BB B4 g2|ageg agec| GG G3 gec|
+decd BcAB|GG G2 G2 AB|c2 Bc d2 c2|AGAB AGAB|
+c2 Bcde cd|eceg a3 e|gffg fdAB|1c4 cgeg :|2c4 B4||
+A3 {A}B cBcd|eaae aAaa|eaae aAaa|eaae abae|
+{DEF}G3 {G}A BGBd|gg g3 GBd|gg g3 GBd|g^fga g=fed|
+A3 {A}B cBcd|eaae aAaa|eaae aAaa|eaae a2 b2|
+c'4 c'2 ef|g^fga gecd|egec dedB|1c6 B2:|2c2 z2 [c4E4]||
+S:https://www.folktunefinder.com/tunes/182954
+S:http://www.thesession.org/tunes/display/6183
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

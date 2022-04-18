@@ -1,0 +1,27 @@
+X:045
+%%topmargin 3cm
+T:Big Pat
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/8
+M:C
+K:D
+ag | fdBc d2 fd | d2 fd ce A2 | gdBc d2 fa | d'2 c'd' b2 ag |
+fdBc d2 gd | d2 fd ce A2 | fdBc defa | bd'c'd' b2 ::
+"8va"Bc | dcde fded | ceed cA A2 | BABc d2 cB | AFEG FB, B, z |
+BAFA BABc | d2 fd cA A2 | {fg}a2 af g2 ge | fdec d2 :|]
+S:https://www.folktunefinder.com/tunes/91975
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Big_Pat.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

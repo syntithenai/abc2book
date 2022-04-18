@@ -1,0 +1,25 @@
+X: 1
+T: Natick
+C: R-46
+C: Jim Guinness 1981
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: D
+"D"D2F2 A2GF| "G"G2B2 d2cB| "D"A2f2 "E7"edcd| "A7"ecB2 AFE2|
+"D"D2F2 A2GF| "G"G2B2 d2cB| "D"A2fd "A7"edc2| "D"d6 z2 :|
+|:\
+"D"f3f f2d2| "G"B2d2 g2BG| "D"A2d2 f2df| "A7"ecB2 A2d2|
+"D"f3f f2d2| "G"B2d2 g2BG| "A7"A2bg aec2| "D"d2 [A2d'2] [D2d2] z2 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/178263
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R046_Natick.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R046_Natick.abc
+S:http://roaringjelly.org/music/reel/R046_Natick.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

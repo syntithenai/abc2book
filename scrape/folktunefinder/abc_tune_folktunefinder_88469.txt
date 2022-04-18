@@ -1,0 +1,25 @@
+X:1560
+T:the Trip to Plymouth
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005b2.html
+%%ID:000005b2
+K:D
+A | d2f ecA | B2d AFD | FGA Bcd | efd {d}cB \
+A | d2f ecA | B2d AFD | FGA Bcd | {f}edc d2 ::
+A | e2f ecA | f2g fdA | Bcd efg | Bed {d}c2\
+A | e2f ecA | f2d AFD | FGA Bcd | {f}edc d2 :|
+S:https://www.folktunefinder.com/tunes/88469
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

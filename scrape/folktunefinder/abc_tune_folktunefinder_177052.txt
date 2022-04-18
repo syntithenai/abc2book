@@ -1,0 +1,23 @@
+X: 1
+P: Morton's Hornpipe
+C: collected from Liz Donaldson, from Jack Rennie
+C: arr. T. Traub 11-19-2002
+R: Reel
+M: 4/4
+L: 1/8
+K: G
+|: D2|"G"GBGB "D7"AcAc|"G"BcdB "Em"G2 AB|"C"cAcA "G"BGBG|"Am"AcBA "D7"GFED|\
+  "G"GBGB "D7"AcAc|"G"BcdB "C"c2 cd|"Am"egfa "D"gedc|"G"B2 G2 G2 :|
+|: GA|"G"Bg g2 dB B2|"G"Bg g2 dB B2|"Am"eaaa a2 a2|"Am"AcBA "D"GFED|\
+  "G"GBGB "D7"AcAc|"G"BcdB "C"c2 cd|"Am"egfa "D"gedc|"G"B2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/177052
+S:http://terrytraub.org/abc/MortonsHornpipeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MortonsHornpipeR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

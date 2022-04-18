@@ -1,0 +1,27 @@
+X:95
+T:the Feathers
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:A new sett.
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001a3.html
+%%ID:000001a3
+K:G
+D|\
+G2G G2g| gfe d3| c2B A2G| FGA D3|\
+G2G G2g| gfe d2c| BAG DGF| G3 G2::
+D2D D2d| dcB c2B| D2D D2c| cBA B2G| \
+G2G G2g| gfe d2c| BAG DGF| G3 G2::
+A|\
+"tr"BAB G2A| "tr"BAB G2A| BAG BAG| A2D D2A|\
+"tr"BAB G2A| "tr"BAB G2d| ecB AGF| G3 G2:|
+S:https://www.folktunefinder.com/tunes/95325
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

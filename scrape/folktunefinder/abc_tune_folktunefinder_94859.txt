@@ -1,0 +1,27 @@
+X: 16
+T:New Harliquin Air,A. BC.16
+T:Harlequin Air,A New. BC.16
+M:C|
+L:1/4
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Air
+O:England
+A:Uncertain, probably northern
+N:Yes,very squeaky notes,but as written.CGP.
+Z:vmp.John Bagnall
+K:D
+d f f e/d/ | c e e g | f e/d/ c d | e A F D |!
+ d f f e/d/ | c e e g | f e/d/ A c | d2 D2 |!
+|f a a g/f/ | g e' e'2 | e g g f/e/ | f d' d'2 |!
+ d f f e/d/ | c a a g | f e/d/ A c | d2 D2 |]
+S:https://www.folktunefinder.com/tunes/94859
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Air
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

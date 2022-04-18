@@ -1,0 +1,32 @@
+X:1630
+T:Bonny Jane
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%RRN:final bars of each part actually written as B2A2G4
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001262.html
+%%ID:00001262
+K:G
+B>A | \
+(G2G2 G2)F>E | (D2D2 D2)E>F  | (G2G2 G2)A2  | (B2B2 B2)(AG)| \
+(c2c2 c2)(BA)| (B2B2 B2)(AG) | (A2A2 A)cBA  | (G2E2 E2)BA  |
+(G2G2 G2)FE  | (D2D2 D2)B,2  | C2A,2 A,2G,2 | g4 d2ag  | \
+e2d2 c2B2 | A2G2 e2(dc) | B4A4 | G6 ::
+(e>f)| \
+g3a g2b2 | f2d2 d2e2 | d2ef g2a2 | b4 a2g2   |  \
+g3a b2a2 | g2d2 d2g2 | d2g2 d2g2 | d2g2 d2B2 | (c2B2) (A2G2) | G2E2 E2
+B>A | \
+G2G2 G2F>E | (D2D2 D2)G,2 | \
+C2B,2 A,2G,2 | g6 d2 | e2d2 c2B2 | A2G2 e2(dc) | B4A4 | G6 :|
+S:https://www.folktunefinder.com/tunes/88483
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

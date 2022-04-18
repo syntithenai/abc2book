@@ -1,0 +1,36 @@
+X:1
+T:Mazurka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:aus:"Die Sackpfyf scgn macht siss gethn", G. Balling, Verlag Schw\"abischer Albverein e.V., Stuttgart, 1997. 
+S:"Schw\"abische D\"anz", Hg. Schw\"abischer Albverein, Frommern o.J.
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+dddcB2 | dddcB2 | c2B2A2 | B2e2d2 |
+dddcB2 | dddcB2 | c2B2A2 | B6 :|
+K:C
+|:\
+eed2c2 | B2A2A2 | G2B2d2 | G2c2e2 |
+eed2c2 | B2A2G2 | G2B2d2 | c6 :|
+K:G
+d3/2e/2dBG2 | d3/2e/2dBA2 | f3/2e/2dcBc | edBdG2 |
+d3/2e/2dBG2 | d3/2e/2dBA2 | fedcBA | G2g4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174907
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.dddcB2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

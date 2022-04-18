@@ -1,0 +1,29 @@
+X:11
+T: Qingyuan xiahai jia yuxia
+N: C1511
+O: China,Guangdong, Yaxian
+S: II, 393]
+R: Xiaodiao. Fun ku]
+M: 2/4
+L: 1/16
+K: A
+b2fab3^a | b4a2b2 | f2e2f4 | a2b2f2e2- | e8
+f4b4 | f4b2a2 | b4f2e2 | f4e4- | e8
+b2fab4 | b4a2b2 | f4a2b2 | f4e4- | e8
+f4b4 | a2e2f2z2 | b4a2e2 | f2e2e4- | e8
+b2f2b2a2 | b4a2b2 | f2e2f4 | a4=f4 | e8
+f4b4 | a2b2f4 | e2g2f2f2 | e4e4- | e8
+e2efb2a2 | b4a2b2 | a2f2f4 | a2baf2e2
+f2b2a2e2 | f4e2g2 | f2e2f4 | e8
+S:https://www.folktunefinder.com/tunes/92034
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao. fun ku]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

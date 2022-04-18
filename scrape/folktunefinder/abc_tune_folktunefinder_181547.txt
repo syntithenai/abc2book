@@ -1,0 +1,26 @@
+X:1
+T:Panic Cafe (Polka 2)
+R:polka
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+DG GF/G/ | AF GA/B/ | cA/c/ BG | A/B/A/G/ F/E/D |
+DG GF/G/ | AF GA/B/ | cA/c/ BG | AF G2 :|
+|:\
+Bc/d/ Bc/d/ | BA/G/ F2 | F/G/A/B/ c/B/A/G/ | EF ED |
+Bc/d/ Bc/d/ | BA/G/ F2 | F/G/A/B/ c/B/A/G/ | EF G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181547
+S:http://simonwascher.info/TradArchiv_polka/panic_cafe_2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 204
+T:Swallowtail Jig
+% Nottingham Music Database
+S:EF
+M:6/8
+L: 1/8
+%% Q: 3/8=112
+K:Em
+F |"Em"GEE BEE|"Em"GEE BAG|"D"FDD ADD|"D"d^cd AGF|
+"Em"GEE BEE|"Em"GEE B2^c|"D"d^cd AGF|"Em"GEE E2:|
+B|"Bm"B^cd "Em"e2f|"Em"e2f edB|"Bm"B^cd "Em"e2f|"Em"edB "D"d3|
+"Bm"B^cd "Em"e2f|"Em"e2f edB|"D"d^cd AGF|"Em"GEE E2:|
+S:https://www.folktunefinder.com/tunes/179574
+S:http://ericdancepiano.com/MNAS/tunes/Jig1.abc
+S:http://www.ericdancepiano.com/MNAS/tunes/Jig1.abc
+S:http://www.latinsquares.com/MNAS/tunes/Jig1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

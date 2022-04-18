@@ -1,0 +1,24 @@
+X: 1
+T:Mount your Baggage
+N:Looks to me as though this would be better written in 3/2
+M:C|
+L:1/4
+K:D
+F|\
+DFA2| DA B/A/G/F/| GE2F| \
+DFA2| Fdc>B| AFF::
+d/e/|\
+f/d/e/c/d2| DA B/A/G/F/|GE2d/e/|\
+f/d/e/c/d2| Fd"tr"c>B| AF2d/e/|
+f/d/e/c/d2| DA B/A/G/F/| GE2F|\
+DFA2| Fd e/d/c/B/| AF2:|
+S:https://www.folktunefinder.com/tunes/177243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mo/Mount_your_Baggage_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

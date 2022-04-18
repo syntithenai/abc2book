@@ -1,0 +1,25 @@
+X: 1
+T: Muineira De Poio
+M: 6/8
+L: 1/8
+R: jig
+K: Fmaj
+B|BAB G2B|AGA F2A|GEG FDF|GEC C2A|
+|:BAB G2B|AGA ~F3|~G3 FDF|GEC C3:|
+BAB DFB|AGA CFA|GEG FDF|GEC C3||
+K: C
+|:FAG EGF|DFE ~C3|GEG FEF|GEC ~C3|
+FAG EGF|DGE C3|AGE GFD|C3 C3:|
+|:FD=B, =B,D=B,|GEC C=B,C| AGE GF=B,|D2C CEC|
+FD=B, =B,D=B,|GEC C=B,C|AGE GFD|C3 CEC:|
+S:https://www.folktunefinder.com/tunes/177604
+S:http://www.thesession.org/tunes/display/3231
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

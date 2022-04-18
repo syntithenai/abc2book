@@ -1,0 +1,22 @@
+X: 31
+T: GALOP NANTAIS
+M: 4/4
+L: 1/8
+Q:1/4=120
+K:C 
+|G/2A z2 A/2 B z2 B/2|c z/2 c/2cd/2c/2 B3/2 z/2 G/2|A z2 A/2B z2 B/2c z/
+2 |c/2cB/2c/2d3/2 z/2 d/2d/2B/2G/2dd/2|
+d/2B/2G/2dG/2A A/2dd/2B3/2|G3/2d/2d/2B/2G/2dd/2d/2B/2G/2dG/2|AA/2dd/2G3/
+2 z/2 G3/2 z/2 e3/2 z/2 |c3/2 z/2 cB cdc3/2 z/2 |
+B3/2 z/2 B7/2 z/2 c3/2 z/2 |A3/2 z/2 AG ABA3/2 z/2 |G3/2 z/2 G7/2 z/2 e3
+/2 z/2 |c3/2 z/2 cB cdc3/2 z/2 |
+B3/2 z/2 B3/2 z/2 G3/2 z/2 A3/2 z/2 |A3/2 z/2 B3/2 z/2 B3/2 z/2 c3/2 z/2
+ |e3/2 z/2 c3/2|
+S:https://www.folktunefinder.com/tunes/86109
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/nantais.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

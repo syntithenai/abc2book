@@ -1,0 +1,25 @@
+X:003
+%%topmargin 3cm
+T:The Old Dutch Churn
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Slip Jig
+L:1/8
+M:9/8
+K:GAeo
+"very fast" (B2 d) G2 d dcB | (A2 c) F2 c cBA | (B2 d) G2 d dcB | .d.f.d .c.B.A G3 :|
+(b2 g) (b2 g) gfd | a2 f fgf agf | (b2 g) (b2 g) gfd | fdB Bdf g3 |
+(b2 g) (b2 g) gfd | a2 f fgf agf | b2 g a2 ^f g=fd | dfd cBA G3 |]
+S:https://www.folktunefinder.com/tunes/91934
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Old_Dutch_Churn.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Man in a Brown Hat
+C:Cliff Stapleton
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Encyclopedia Blowzabellica", The Blowzabella tune and dance book, Dragonfly music, Newbiggin by the Sea, 1987
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Dm
+F2FG E2D2 | F2G2A4 | A2AB G2d2 | cdcd AcFc |
+D2FG E2D2 | F2G2A4 | A2AB AGFG | E4D4 :|
+K:D dorian
+|:\
+defe d2A2 | c2B2A4 | DEFG A2d2 | cdcd ABcA |
+defe d2A2 | c2B2A4 | DEFG AGFG | E4D4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174107
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/man_in_a_brown_hat.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

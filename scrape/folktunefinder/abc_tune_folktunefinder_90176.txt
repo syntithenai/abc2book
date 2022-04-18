@@ -1,0 +1,40 @@
+X:24
+T:Branle de Champaigne
+R:Branle Renaissance
+C:Renaissance - Wallonie
+N:Pour la squence Wallonie
+Q:1/2=100
+I:abc2nwc
+Z:Transcrit et/ou corrig par Michel BELLON - 2007-08-15
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:2/2
+L:1/8
+K:G
+V:1
+A4ABcd|e6e2|d2c2B2A2|d4B4|A4ABcd|e6e2|d2c2B2A2|B4B4:|
+|:c2A2AB c2|B2AG F2E2|c2A2AB c2|B4B4:|
+V:2
+E4E2A2|A4G2c2|B2A2^G2A2|=F4E4|E4E2E2|A4G2c2|B2A2G2FE|F4E4:|
+|:E2E2EDEF|G2E2A2G2|E2E2A2A2|^G4G4:|
+V:3
+c4c2c2|cBcd e2g2|g2e2e2c2|B2A2^G4|c4c2c2|cBcd e2g2|g2e2d2e2-|e2^d2e4:|
+|:c2c2c2A2|B2c2d2B2|c2c2c2A2|e4e4:|
+V:4
+K:E Bass
+F,4F,2F,2|F,E,F,G, A,2A,2|E,2F,2C,2=D,2|B,,4C,4|
+F,4F,2F,2|F,E,F,G, A,2A,2|E,2F,2G,2A,2|G,4C,4:|
+|:F,2F,2F,2F,2|E,2F,2B,,2C,2|F,2F,2F,2F,2|E,4E,4:|
+%%footer $D   Galouvielle-MBe 2007 \nBranle (--)
+S:https://www.folktunefinder.com/tunes/90176
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Branle renaissance
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key B
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

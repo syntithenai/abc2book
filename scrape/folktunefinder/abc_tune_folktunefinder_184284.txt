@@ -1,0 +1,30 @@
+X: 1
+T:Queen Victoria
+S:Otto Wood, via EF
+M:6/8
+K:A
+P:A
+c/2d/2|"A"e2d cea|"D"g2f "A"e3|"F#m"cfe "Bm"d3|"E7"Bed "A"c2d|"A"e2d cea|
+"D"g2f "A"e3|"Bm"fBc "E7"dBe|"A"A3 -Aef|\
+K:E
+"E"geg b2a|"E"gef g2b|
+"B7"b2f fga|"E"g2f "B7"eBe|"E"geg b2a|"E"gef g2b|"B7"b2f fgf|
+"E"e3 -ede|\
+K:A
+"A"e2d cea|"D"g2f "A"e3|"F#m"cfe "Bm"d3|"E7"Bed "A"c2d|"A"e2d cea|
+"D"g2f "A"e3|"Bm"fBc "E7"dBe|"A"A3 -Ade|\
+K:D
+"D"fAd f2a|"Em"g2f e3|"A7"ace a2b|
+"D"a2g "A7"f3|"D"fAd f2a|"G"gfg b3|"D"agf "A7"eBc|"D"d3 -d2||
+S:https://www.folktunefinder.com/tunes/184284
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/qu/Queen_Victoria_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Key A
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

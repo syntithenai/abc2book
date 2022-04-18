@@ -1,0 +1,28 @@
+X: 20
+T:The Cape Breton Visit to Shetland
+R:reel
+C:W.Hunter 1982
+Z: 1997 by John Chambers <jc@eddie.mit.edu> http://eddie.mit.edu/~jc/music/abc/
+M:C|
+L:1/8
+Q:1/4=200
+K:A
+AF \
+| "A"EC ~C2 C2B,C | A,B,CE FECE | "D"FB~B2 "Bm"BcBA | "E7"Bffe f2fg |
+| "A"ac ~c2 eA ~A2 | cBAF "F#m"EC ~C2 | "D"FGAF "A"Eaaf | "E7"ecBc "A"A2 :|
+|: fg \
+| "A"ae ~e2 efed | ce ~e2 fece | "Bm"bf ~f2 fgfe | defd "E7"B2"=>Coda"fg |
+| "A"ae ~e2 efed | ce ~e2 fece |[1 "D"fdge "Bm"afed | "E7"cdBc "A"A2 :|[2 "D"fdec "Bm"dBcA | "E7"Bagf "d.C."eAGF :|
+|| "Coda"ed \
+| "A"cdBc "F#m"ABGA | "D"FGEF "Bm"DECD | B,CDE F^ABc | "E7"defg "A"a4 |]
+S:https://www.folktunefinder.com/tunes/92719
+S:http://www.alfwarnock.info/alfs/abc/AlfNIreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

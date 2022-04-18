@@ -1,0 +1,27 @@
+X: 36
+T: Bye bye blackbird
+M: 4/4
+L: 1/4
+C: Ray Henderson
+Q: 1/4=160
+%%staves (chords melody)
+K: F
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "F6"x2 x2 | "Gm7"x2 "C7"x2 |
+"F6"x2 x2 | "Abdim7"x2 x2 | "Gm7"x2 "C7"x2 | x2 "(D7)"x2 ||
+V: melody
+AAAA | BAA2 | AGG2 | GFF2 |
+S:https://www.folktunefinder.com/tunes/87537
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+N: Castle Douglas
+N: 32S 3C x 8
+P: Mr. and Mrs. Little of Castle Douglas
+R: strathspey
+C: Muriel Johnstone
+C: Arr. T. Traub 12-20-2001
+M: 4/4
+L: 1/4
+K: G
+|: D |"G"B > B d D|"C"E> F "G"G "D7"A|"G"B > B "G7"d G|"C"e > d "Am"c B|"D7"A > A "G"B D|"C"E > "B7"F "Em"G A|"G"B > c "D7"A > G|"G"G3 :|
+d |"G"g/f/e/d/ "C"e > e |"A7"a/g/f/e/ "D7"f d|"C"e > c "G"d B|"A7"A > G "D7"F d|"G"g/f/e/d/ "C"e > e |"A7"a/g/f/e/ "D7"f d|"C"e > c "D7"d F|"G"G3 "D7"dd||
+"G"g/f/e/d/ "C"e/G/c/e/|"A7"a/g/f/e/ "D"f d|"C"e > c "G"d c/B/|"A7"A > G "D7"G/F/E/D/|"G"B > B "G7"d D|"C"E "B7"F "Em"G "Cm"A|"G"B > c "D7"A > G|"G"G3 |]
+S:https://www.folktunefinder.com/tunes/177335
+S:http://terrytraub.org/abc/MrAndMrsLittleOfCastleDouglasS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

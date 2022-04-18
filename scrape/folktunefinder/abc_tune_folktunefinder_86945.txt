@@ -1,0 +1,37 @@
+X:300
+T: Ha'penny Bridge (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] A|"G"BGFG Bded|"Em"BE (3EDE GEEA|"G"BGBd "C"ecBc|"G"dBGB "D"AdcA |
+[V:2] z|G,,2[G2D2B2]D,2[G2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|G,,2[G2D2B2]C,2[C2G2E2]|\
+G,,2[G2D2B2]D,2[D2A2F2]|
+%
+[V:1] "G"BGFG Bded|"Em"BE (3EDE dE (3EDE|"C"ecBc "G"dBGB|"D"AGFA "G"BG G :|
+[V:2] G,,2[G2D2B2]D,2[G2D2B2]|E,2[E2B2G2]B,,2[E2B2G2]|C,2[C2G2E2]G,,2[G2D2B2]|\
+D,2[D2A2F2]G,,2[GDB]:|
+%
+[V:1] A|"G"Bd (3d^cd "Em"edgd|"C"ecef "G"gabg|"D"afdc "G"Bdgd|"Em"egdB "D7"AdcA |
+[V:2] z|G,,2[G2D2B2]E,2[B2E2G2]|C,2[C2G2E2]G,,2[G2D2B2]|D,2[D2A2F2]G,,2[G2D2B2]|\
+E,2[B2E2G2]D,2[A2C2F2]|
+%
+[V:1] "G"Bd (3d^cd "Em"edgd|"C"ecef "G"gaba|"G"gfgd "Am"eage|"D"dcAc "G"BG G :|
+[V:2] G,,2[G2D2B2]E,2[B2E2G2]|C,2[C2G2E2]B,,2[G2D2B2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+D,2[D2A2F2]G,,2[GDB]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86945
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

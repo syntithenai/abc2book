@@ -1,0 +1,27 @@
+X:195
+T:Behind the Bush in the Garden
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005a9.html
+%%ID:000005a9
+K:D
+A | \
+d2e f2d | g2e f2d | d2e    f2d  | c3 e3 | \
+d2e f2d | g2e f2d | (faf) (ece) | d3 d2 ::
+g | \
+fed cBA | BcB A2g | fed    cBA  | B3 d2g | \
+fed cBA | BcB A2g | (faf) (ece) | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/88196
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

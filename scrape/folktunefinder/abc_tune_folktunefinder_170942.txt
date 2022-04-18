@@ -1,0 +1,63 @@
+X: 2
+T:Lady Madonna
+C:Peter Damashek adapted from Lennon & McCartney
+L: 1/8
+R: reel
+M: C|
+K:D
+|: "D"F2 F4 (F2 | "G"E2) D6 | "D"F2F2 E2B,2 | "G"D8 | \
+   "D"F2F2 A2F2 | "G"B2A2 =F2D2 | "Bflat"=F2F2 "C"E4 | "D"D8 :|
+|| "G"G2G2 G2=F2 | G2G2 G2=F2 | G2 G4 D2 | G4 G2G2 | \
+   "F"=F4 F2 =C2 | =F4 F2 =C2 | =F2 F4 =C2 | =F4 ^F4 |
+   "G"G2G2 G2=F2 | G2G2 G2=F2 | G2 G4 D2 | G4 ^G4 | \
+   "A"A4 A4 | "G"G4 E4 | "A"A8 | "(A7)"A8 |]
+N:SDFH CB: "The More The Merrier 2/25/2007 - adapted by Peter Ostapenko.
+N:SDFH CB: When going out, hold the final A (unresolved).
+N:SDFH CB: Sometimes play an octave higher.
+N:Last update - PO 5/17/2007.
+%%% Lady Madonna %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%N:www.youtube.com/watchv=9vf26cRtG_w does not agree with SDFH 3/07
+%http://www.azchords.com/b/beatles-tabs-410/ladymadonna1-tabs-3994.html
+%Guitar Tabs by: Beatles
+%Tabs for song: Lady Madonna 1
+%
+%{title:Lady Madonna}
+%{subtitle:Lennon/McCartney}
+%{define: Am6  0 0 0 2 0 0 0}
+%
+%[E]Lady Ma[A]donna, [E]children at your [A]feet.
+%[E]Wonder how you [A]manage [E]to make[C]   [D]ends [E]meet.
+%Who finds the [A]money [E]when you pay the [A]rent.
+%[E]Did you think that [A]money [E]was [C]hea[D]ven [E]sent
+%
+%    [Am]Friday night arrives without a [D]suitcase.
+%    [G]Sunday morning creeping like a [Em]nun.
+%    [Am]Monday's child has learned to tie his [D7]bootlace.
+%    [G]See [Am6]how they'll [B7]run.
+%
+%Lady Madonna, baby at your breast.
+%Wonder how you manage to feet the rest.
+%Lady Madonna, lying in your bed.
+%Listen to the music playing in your head.
+%
+%    Tuesday afternoon is never ending,
+%    Wednesday morning papers didn't come.
+%    Thursday night your stockings needed mending.
+%    See how they'll run.
+%
+%Lady Madonna, children at your feet.
+%Wonder how you manage to make ends meet.
+%
+%Chords:
+% | E A E A | E A E E C D E | A E A | E A E C D E |
+% | Am D | G Em | Am D7 | G Am6 B7 | (something similar for intro)
+S:https://www.folktunefinder.com/tunes/170942
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/LadyMadonna.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

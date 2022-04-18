@@ -1,0 +1,23 @@
+X:205
+T: Sally Hegarty's
+S: Treoir
+Z: B.Black
+M: 9/8
+L: 1/8
+R: slip jig
+K: G
+G2 A Bee Bee|GFG BdG AFD|G2 A Bee Bee|d^cd ABG FED :|
+K: D
+d2 e fdf ecA|d2 e fdf gfe|d2 e fdf ecA|Bcd ABG FED :|
+S:https://www.folktunefinder.com/tunes/89681
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

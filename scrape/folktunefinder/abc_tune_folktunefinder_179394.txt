@@ -1,0 +1,21 @@
+X: 1
+T:O'Casey's Jig
+S:learned from Tony Gordon
+M:6/8
+I:speed 250
+K:G
+AB |: c3 B3 | AGA BGE | DEG AGA |BdB  A2B |
+c3 B3 | AGA BGE | DEG AGA |[1 BGF G2B :|[2 BGF G3 |
+|:GBd g3 | ede gdB | GBd g3 | AGA BGE |
+ GBd g3 |  ede gdB | GAB AGA | BGF G3 :|
+S:https://www.folktunefinder.com/tunes/179394
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/oc/OCaseys_Jig_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

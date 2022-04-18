@@ -1,0 +1,31 @@
+X:1
+T:Nancy
+M:4/4
+L:1/8
+C:Willy Taylor
+N:Nancy was the wife of the recently departed Willy Taylor.
+Z:C.G.P
+K:G
+|:dc \
+| B2AB GDDG | B2GB eddB | c2Bc AFD2 | DFAc ed^cd \
+| B2AB GDDG | B2GB eddB | c2Bc A gfe | dcBAG2 :|
+|: d2 \
+| g2fg dBBd | g2fg eAAB | c2Bc AFD2 | DFAc ed^cd \
+| g2fg dBBd | g2fg eAAB | c2Bc A gfe | dcBA G2 :|
+|: Bc \
+| dedc BABc | dedB cAAB | cdcA FDFA | e2de dcBc \
+| dedc BABc | dedB cAAB | cdcB A gfe | dcBAG2 :|
+|: d2 \
+| gfga gdBc | dedB cAAB | cdcA FDFA | e2de dcBd \
+| gfga gdBc | dedB cAAB | cdcB A gfe | dcBAG2 :||
+S:https://www.folktunefinder.com/tunes/178207
+S:http://trillian.mit.edu/~jc/music/abc/mirror/VillageMusicProject/Nancy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

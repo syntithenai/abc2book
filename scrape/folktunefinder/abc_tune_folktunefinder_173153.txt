@@ -1,0 +1,52 @@
+X: 1
+T: Lovat Scouts, The
+M: 2/4
+L: 1/8
+R: polka
+K: Amaj
+|: A/<A/ | 
+A.c. e.A/<A/ | df ag/f/ | e>c Ac | B2 BA/<A/ | 
+A.c. e.A/<A/ | df ag/f/ | e>c dB | A2 A :|
+e/<e/ | 
+aA ce | fd df | e>c Ac | B2 Be/<e/ | 
+aA ce | fa df | e>c dB | A2 Ae/<e/ |
+aA ce | fa df | e>c Ac | B2 Be/c/ | 
+A/B/c/d/ ec/A/ | d/.e/.f/.g/. ag/f/ | e>c dB | A2 A ||
+K: Dmaj
+|: F/E/ | 
+DF AD | GB d>B | AF FE/D/ | FE EF/E/ |
+DF AD | GB dc/B/ | Ad/A/ FA/F/ | E2 D- :|
+D | 
+dd/e/ dA | BG B/dB/ | AF FE/D/ | FE EF/A/ |
+dd/e/ dA | BG B/dB/ | AF GF/E/ | D2 D2 |
+dd/e/ dA | BG B/dB/ | AF FE/D/ | FE EF/A/ |
+DF AD | GB dc/B/ | Ad/A/ FA/F/ | ED D ||
+K: Gmaj
+|: d | 
+GB dG | ce g>e | d>B GB | A2 d/c/B/A/ |
+GB dG | ce gf/e/ | d>B c/B/A | G2 G :|
+(3d/e/f/ | 
+gG Bd | eg ce | d>g GB | A2 A (3d/e/f/ |
+gG Bd | ec ce | d>B cA | G2 G (3d/e/f/ |
+gG Bd | eg ce | dg Bg | A2 d/c/B/A/ |
+G>B dG | ce gf/e/ | d>B cA | G3 ||
+K: Dmaj
+|: D/D/ | 
+DF AD/D/ | GB dc/B/ | A>F DF | E3 D/D/ |
+DF AD/D/ | GB dc/B/ | A>F G/F/E | D3 :|
+A/A/ | 
+dD FA | BG GB | A>F DF | E3 A/A/ |
+dD FA | BG GB | A>F GE | D2 DA/A/ |
+dD FA | BG GB | A>F dF | E3 A/F/ |
+D/E/F/G/ AF/D/ | G/A/B/c/ dc/B/ | A>F GE | D3 ||
+S:https://www.folktunefinder.com/tunes/173153
+S:http://www.thesession.org/tunes/display/6460
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

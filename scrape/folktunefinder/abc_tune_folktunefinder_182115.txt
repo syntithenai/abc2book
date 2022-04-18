@@ -1,0 +1,26 @@
+X:1
+T:Pers Polka
+C:Per Joel Berndtsson
+R:Polka
+Z:Patrik Mnsson, 4/7 2008
+O:Skralid, Skne
+M:2/4
+L:1/16
+Q:1/4=120
+K:G
+|: "G"B2D2 B2D2 | "D/A"cBAB "D"c2A2 | d2cd e2f2 | "G"g2B2 d4 | B2D2 B2D2| "D"cBAB c2A2 | d2cd e2f2| "G"g2 z2 g4 :|
+K:D % 2 sharps
+|: "D"ffff a2f2 | "A"g2a2 g4 | a2A2 B2c2 | "D"d2f2 a4 | ffff a2f2| "A"g2a2 g4| a2A2 B2c2|[1 "D"d2z2 d4:|[2 "D"d2z2 "D7"d4]|
+K:G % 1 sharps
+|: "G"G4 B3c | d2gg g2g2 | G4 B3d | "Am"c2ee e2e2 | "D"D4 c3B | A2^G2 A4 | "G"D4 G2A2| B2c2 d4|
+    G4 B3c | d2 gg g2 g2| G4 B3d | "Am"c2 ee e2 e2| "C"(3g2f2e2  "G"(3d2c2B2| "D7"(3A2B2c2 "G"B4 | "C"(3A2B2c2  "D"(3d2e2f2 | "G"g2 z2 g4 :|
+S:https://www.folktunefinder.com/tunes/182115
+S:http://www.folkwiki.se/pub/cache/Pers_Polka_84cfeb.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

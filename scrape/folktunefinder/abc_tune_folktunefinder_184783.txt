@@ -1,0 +1,31 @@
+X:1
+T:Reagan Dougan
+C:Michel Tonnerre,abc file by Bernard Loffet
+L:1/8
+Q:380
+M:6/8
+K:C
+[eA,]e[eA,][e2A,2][eA,]|[e2A,2][eA,][e2A,2][eA,]|[d2D,2][cD,][B2D,2][AD,]|[G2G,2]G,G,2[dG,]|[d2G,2][dG,][d2G,2][dG,]|[d2G,2][dG,][d2G,2][dG,]|[c2F,2][BF,][c2F,2][dF,]| \
+[e2A,2]A,A,2[eA,]|[A2A,2][BA,][c2A,2][dA,]|[e2A,2][^fA,][g2E,2][gE,]|[a2D,2][aD,][g2G,2][^fD,]|[e2E,2]E,E,2[eE,]|[e2A,2][eA,][e2A,2][eA,]|[e2A,2][eA,][e2A,2][fA,]| \
+[e2E,2][dE,][c2E,2][BE,]|[A2A,2][zA,][A2A,2][zA,]|[e2A,2][eA,][z2A,2][zA,]|[e2A,2][eA,][z2A,2][eA,]|[d2D,2][cD,][B2D,2][AD,]|[G2G,2]G,G,2[dG,]|[d2G,2][dG,][d2G,2][dG,]| \
+[d2G,2][dG,][d2G,2][dG,]|[c2F,2][BF,][c2F,2][dF,]|[e2A,2]A,A,2[eA,]|[A2A,2][BA,][c2A,2][dA,]|[e2A,2][^fA,][g2E,2][gE,]|[a2D,2][aD,][g2G,2][^fD,]|[e2E,2]E,E,2[eE,]| \
+[e2A,2][eA,][e2A,2][eA,]|[eA,]e[eA,][e2A,2][fA,]|[e2E,2][dE,][c2E,2][BE,]|[A2A,2]A,A,2A,| \
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/184783
+S:http://diato.ifrance.com/abc/55.abc
+S:http://diato.ifrance.com/diato/tablat/55.abc
+S:http://diato.ifrance.com/tablat/55.abc
+S:http://diato.org/tablat/55.abc
+S:http://perso.orange.fr/diato/tablat/55.abc
+S:http://perso.wanadoo.fr/diato/tablat/55.abc
+S:http://pro.wanadoo.fr/diato/abc/55.abc
+S:http://pro.wanadoo.fr/diato/tablat/55.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/abc/55.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/55.abc
+S:http://www.diatonique.net/tablat/55.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

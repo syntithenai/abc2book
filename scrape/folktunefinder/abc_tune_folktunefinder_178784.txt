@@ -1,0 +1,22 @@
+X: 1
+T: Niguno shel Yossi (in C)
+O: Israel
+Z: John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/4
+K: C_B=e_A_d
+|: "C"GG EE | "Bbm"FFED | "C"CC "Bbm"DB, | "C"C4 \
+| "C"GG EE | "Bbm"FF BA | "C"GF "Bbm"EF | "C"G4 :|
+|: "Fm"F2 A2 | "Bbm"BA "C"G2 | "Fm"FF AA | "Bbm"BA "C"G2 \
+| "Bbm"BA GF | "Fm"AG FE |1 FE FA | "C"G4 :|2 "Bbm"GF ED | "C"C4 |]
+S:https://www.folktunefinder.com/tunes/178784
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/NigunoShelYossi_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Israel/tune/NigunoShelYossi_C.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

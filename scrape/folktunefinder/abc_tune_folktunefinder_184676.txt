@@ -1,0 +1,21 @@
+X:1
+T:Ranger's Command
+M:6/8
+L:1/8
+K:G
+ A| B6-| B3- BA B| A G2- G3| z2 B BAG| E6-| E3 z2 A| A A2- A3-| A2 FE/2-D/2 z D/2D/2|\
+M:3/8
+ EGA|
+M:6/8
+ G6-| G3 z2||
+S:https://www.folktunefinder.com/tunes/184676
+S:http://back.numachi.com:8000/dtrad/abc/RANGRCMD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/RANGRCMD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

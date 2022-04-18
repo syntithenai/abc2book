@@ -1,0 +1,32 @@
+X: 1
+T: Ragtime Annie
+C: R-104
+C: Old-Time,Bluegrass
+C: New England
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: rag
+K: D
+FE| "D"DFBF AFBF| DFBF A2FE| DEFG ABAF| "A"A2c2 c2cB|
+    "A"ABcA B2cB| ABcA BAcB| ABcd egfe| "D"d2dc d2:|
+\
+fg| "D"a2ab afd2| A6 fg| a2ab agf2| "G"g6 ef|
+    "A"gfef gfef| gagf e2ef| gagf edcB| "D"A6 fg|
+    "D"a2ab afdB| A2AB A2A2| [F4d4] "C"[E4=c4]| "G"[G6B6] A2|
+    "G"B2b2 b2ag| "D"f2a2 a2gf| "A"A2ef gfec| "D"d2 "fine"x|] \K:G\
+=c2 "D7"B2A2|:\
+"G"[G6B6] AB| "C"[E6c6] cB| "D"A2f2 f2ef| "G"gfga gedc|
+"G"D2B2 B2AB| "C"E2c2 c2cB| "D"A2f2 f2ef|1 "G"gfga g2dc :|2 "G"g6 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/184470
+S:http://roaringjelly.org/music/reel/R104_Ragtime_Annie.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R104_Ragtime_Annie.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R104_Ragtime_Annie.abc
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

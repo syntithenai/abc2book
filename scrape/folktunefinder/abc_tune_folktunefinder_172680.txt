@@ -1,0 +1,23 @@
+X: 1
+T: Lock The Door
+M: 12/8
+L: 1/8
+R: slide
+K: Edor
+|:~E3 BAG ~F3 AGF|~E3 BAG AGF E2D|
+~E3 BAG ~F3 AFA|1B/c/dB AGF ~E3 E2D:|2B/c/dB AGF ~E3 E2A||
+|:B2c d2e d2B AFA|~B2c d2e fdB fdB|
+B2c d2e d2B AFA|1B/c/dB AGF ~E3 E2A:|2B/c/dB AGF ~E3 E2D||
+|:~E2B ~E2B ~E2B BAB|DEB ~E2B AGF E2D|
+~E2B ~E2B ~E2B BAB|dcB AGF ~E3 E2D:|
+S:https://www.folktunefinder.com/tunes/172680
+S:http://www.thesession.org/tunes/display/1199
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,50 @@
+X:1440
+T:Pastorell
+C:Georg Philipp Telemann
+O:Germany
+N:1735
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/telemann-georg-philipp/telemann-pastorell.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/8
+L:1/8
+K:G
+V:1
+d2e|d2g|d2c|B2A|G/A/BA|
+V:2
+G,,2 z|G,,2 z|G,/A,/B,A,|G,G,,D,|B,,G,,D,|
+%
+V:1
+G/A/BA|G2A|D2B|GBd|A3::A2B|
+V:2
+B,,G,,D,|G,,2 z|G,,2 z|G,,2B,,|D,F,D,::D,,2 z|
+%
+V:1
+F2G|A2B|c2B|c/d/ed|edc|B/c/dc|
+V:2
+D,,2 z|D,C,B,,|A,,F,G,|E,C,B,,|C,2 z|G,F,D,|
+%
+V:1
+BA/G/A|d2e|de/f/g|GAd|[1G3:|[2G3|]
+V:2
+G,G,,D,|B,,2C,|B,,A,,B,,|E,C,D,|[1G,,B,,G,,:|[2G,,3|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/181711
+S:http://abc.musicaviva.com/tunes/telemann-georg-philipp/telemann-pastorell.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/telemann-georg-philipp/telemann-pastorell.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/telemann-georg-philipp/telemann-pastorell.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

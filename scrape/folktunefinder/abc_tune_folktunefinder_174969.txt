@@ -1,0 +1,27 @@
+X:1
+T:Mazurka des Combrailles
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:mazurka
+C:Trad.
+S:
+A:
+M:3/4
+L:1/16
+K:C
+Q:1/4=130
+B4 c4 d4 |: "C"e2 z2 e2g2 g2g2 | "G"d2 z2 d2e2 f2e2 |
+"D"d2 z2 d2c2 B2A2 |1 "Em"B4 G2B2 c2d2 :|2
+"G"G2 z2 G2B2 c2d2 :|2 "Em"B4 G2B2 c2d2 :|2 "G"G8 D4 |:
+B2 z2 B2A2 B2c2 | "Am"d2 z2 d2c2 B2c2 |
+"D"d2 z2 d2c2 B2A2 |1 "Em"B4 G4 D4 :|2
+"G"G8 D4 :|2 "Em"B4 G4 D4 :|2 "G"G2 z2 G2B2 c2d2 |]
+S:https://www.folktunefinder.com/tunes/174969
+S:http://termen.free.fr/danses/mazurkas/MazurkadesCombrailles.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

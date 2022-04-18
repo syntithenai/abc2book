@@ -1,0 +1,36 @@
+X:365
+T: Jack Murphy's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Dm
+[V:1] A | "Dm"dAFE D2 A,D | "C"C2EG "Am"AEGA | "Dm"dAFE DEFG | "Dm"AD"Bb"BD "C"cGEG |
+[V:2] z|D,2[D2A2F2]A,,2[D2F2A2]|C,2[C2G2E2]A,,2[A2E2C2]|\
+D,2[D2A2F2]A,,2[D2F2A2]|[D,2A,2F2][B,,2F,2D2][C,2G,2E2][C2G2E,2]|
+%
+[V:1] "Dm"dAFE D2 A,D | "C"C2EG "Am"AEGA | "Dm"dedc "Am"AGcA | "C"GEDC "Dm"D3 :|
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|C,2[C2G2E2]A,,2[A2E2C2]|D,2[D2A2F2]A,,2[A2E2C2]|\
+C,2[C2G2E2][A,3F3D,3]:|
+%
+[V:1] E | "F"F2 AF cFAF | "Dm"dcde fede | "F"fgaf "C"egec | "Gm"BGAF "C7"GECE |
+[V:2] z |F,,2[F2C2A2]C,2[F2C2A2]|D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]C,2[C2G2E2]|\
+G,,2[G2D2B2]C,2[B2G2E2]|
+%
+[V:1] "F"F2 AF cFAF | "Dm"d3 e f3 g | "Dm"af (3fef "Bb"dB (3BAB | "Am7"AGEC "Dm"D3 :|
+[V:2] F,,2[F2C2A2]C,2[F2C2A2]|D,2[D2A2F2]A,,2[D2F2A2]|D,2[D2A2F2]B,2[B2D2F2]|\
+A,,2[G2E2C2][A,3F3D,3]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

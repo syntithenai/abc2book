@@ -1,0 +1,55 @@
+X: 9086
+T: Killeen's Hornpipe (with piano acc.)
+C: BB
+M: C|
+Q: 1/8=320
+L: 1/8
+R: hornpipe
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] A|"Em"BGBe dB G2|"G"gfga ge d2|"C"(3cBc ef "G"gdBd|"Am"(3cBA "G"BG "D7"AdcA|
+[V:2] z|E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+C,2[E2G2C2]G,,2[G2B2D2]|[A,2C2E2][G,2B,2D2][A,2C2F,2][D,2F,2A,2]|
+%
+[V:1] "Em"BGBe dB G2|"G"gfga ge d2|"Am"ecAc "C"=cGEG |"D"FADF "G"G3 :|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]C,2[E2G2C2]|\
+D,2[A2D2F2][G,,3B,3D3]:|
+%
+[V:1] A|"G"Bdgf gdBd|"A"^cea^g "A7"a=geg|"D7"fdcA "D"FADF|"G"GABc d3 A|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2^C2E2]E,,2[G2^C2E2]|D,2[A2C2F2]A,,2[A2D2F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "G"Bdgf gdBd|"A"^cea^g "A7"a=geg |"D7"fdcA "D"FAdf|"G"(3gfe "D"df "G"g3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2^C2E2]E,,2[G2^C2E2]|D,2[A2C2F2]A,,2[A2C2F2]|\
+[G,2B,2D2][D,2F,2A,2][G,3B,3D3]:|
+%%%%%%tune repeat
+[V:1] A|"Em"BGBe dB G2|"G"gfga ge d2|"C"(3cBc ef "G"gdBd|"Am"(3cBA "G"BG "D7"AdcA|
+[V:2] z|E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]D,2[G2B2D2]|\
+C,2[E2G2C2]G,,2[G2B2D2]|[A,2C2E2][G,2B,2D2][A,2C2F,2][D,2F,2A,2]|
+%
+[V:1] "Em"BGBe dB G2|"G"gfga ge d2|"Am"ecAc "C"=cGEG |"D"FADF "G"G3 :|
+[V:2] E,2[E2B2G2]B,,2[E2G2B2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]C,2[E2G2C2]|\
+D,2[A2D2F2][G,,3B,3D3]:|
+%
+[V:1] A|"G"Bdgf gdBd|"A"^cea^g "A7"a=geg|"D7"fdcA "D"FADF|"G"GABc d3 A|
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2^C2E2]E,,2[G2^C2E2]|D,2[A2C2F2]A,,2[A2D2F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "G"Bdgf gdBd|"A"^cea^g "A7"a=geg |"D7"fdcA "D"FAdf|1 "G"(3gfe "D"df "G"g3 :|2\
+"G"(3gfe "D"df "G"g4-|g4 z4||
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2^C2E2]E,,2[G2^C2E2]|D,2[A2C2F2]A,,2[A2C2F2]|1\
+[G,2B,2D2][D,2F,2A,2][G,3B,3D3]:|2 [G,2B,2D2][D,2F,2A,2][G,,4-B,4-D4-]|[G,,4B,4D4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87171
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,25 @@
+X:120
+T: Lisheen Slide
+S: "Treoir"
+Z: B.Black
+M: 12/8
+L: 1/8
+R: slide
+K: G
+A |: B3 BAB G2 B A2 G | B3 BAG A2 B cBA |
+B3 BAB GAG GBd | g2 e dBG A2 B cBA :|
+g3 dBd e3 dBd | efg aga bab afd |
+g3 dBd ede dBd | efg aga bgf g3 :|
+S:https://www.folktunefinder.com/tunes/89386
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:1
+T:Mam'zelle Angle
+C:traditionnel pour enfants, fichier ABC par Bernard Loffet
+L:1/8
+Q:460
+M:4/4
+K:C
+ z6 [G2C,2] | [e2C,,2] C,2 [dG,,]c [BG,]A | [G2C,,2] C,2 C,,2 [G2C,2] | [A2F,,2] [B2F,2] [c2G,,2] [d2G,2] | \
+ [e2C,,2] C,2 [c2C,,2] [G2C,2] | [e2C,,2] C,2 [dG,,]c [BG,]A | [G2C,,2] C,2 C,,2 [G2C,2] | \
+ [A2F,,2] [B2F,2] [c2G,,2] [d2G,2] | [e2C,,2] C,2 [c2C,,2] [e2C,2] | [dD,,]d [dD,]d [d2D,,2] [e2D,2] | \
+ [dG,,]d [dG,]d [d2G,,2] [e2G,2] | [d2D,,2] D,c [B2D,,2] [A2D,2] | [B2G,,2] G,2 [G2G,,2] [e2G,2] | \
+ [dD,,]d [dD,]d [d2D,,2] [e2D,2] | [dG,,]d [dG,]d [d2G,,2] [e2G,2] | [d2D,,2] D,d [e2D,,2] [^f2D,2] | \
+ [g2G,,2] [z2F,,2] [z2E,,2] [z2D,,2] | [cC,,]c [cC,]c [c2C,,2] [e2C,2] | [dG,,]d [d2G,2] [d2G,,2] [f2G,2] | \
+ [G2G,,2] G,G [A2G,,2] [B2G,2] | [c2C,,2] C,2 C,,2 z2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/174062
+S:http://diato.ifrance.com/diato/tablat/224.abc
+S:http://diato.ifrance.com/tablat/224.abc
+S:http://diato.org/tablat/224.abc
+S:http://perso.orange.fr/diato/tablat/224.abc
+S:http://perso.wanadoo.fr/diato/tablat/224.abc
+S:http://pro.wanadoo.fr/diato/tablat/224.abc
+S:http://www.diatonique.net/tablat/224.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

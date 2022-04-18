@@ -1,0 +1,29 @@
+X: 107
+T: I'm old fashioned
+M: 4/4
+L: 1/4
+C: Jerome Kern & Johnny Mercer
+Q: 1/4=170
+%%staves (chords melody)
+K: F
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"F6"x2 x2 | "Gm7"x2 "C7"x2 | "Fmaj7"x2 x2 | "Gm7"x2 "C7"x2 |
+"Edim7/F"x2 x2 | "F6"x2 x2 | "Em7b5"x2 x2 | "A7"x2 x2 |
+"Dm7"x2 x2 | "G7"x2 x2 | "Dm7"x2 x2 | "G7"x2 x2 |
+"Gm7"x2 x2 | "Db7"x2 x2 | "C7sus"x2 x2 | "C7"x2 x2 ||
+V: melody
+F3C | CC2C | A3C | CC2C |
+S:https://www.folktunefinder.com/tunes/87608
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

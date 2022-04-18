@@ -1,0 +1,34 @@
+X:1
+T:Polka
+C:traditionell
+R:polka
+A:Steiermark
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"2.Spielheft f.Okarina", Volker Derschmidt, Oberoesterreichisches Volksliedwerk, Linz 1993 
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+dB d/c/d | dB e/d/e | cf f/e/f | gB d2 |\
+dB d/c/d | dB e/d/e | cf f/e/f | gb gz :|
+|:\
+GD GD | BG d2 | cF F/E/F | BG G2 | GD GD |\
+BG d2 | cF F/E/F | GB G2 :|
+|:\
+d/e/d/c/ dc | BD G2 | BD GB | cD F2 |\
+e/d/c/d/ ed | cD F2 | cD Fc | BD G2 |
+d/e/d/c/ dc | BD G2 | BD GB | cD F2 |\
+e/d/c/d/ ed | cD F2 | cD FA | GG G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183003
+S:http://simonwascher.info/TradArchiv_polka/polka.d2B2dcd2d2B2ede2c2f2f.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

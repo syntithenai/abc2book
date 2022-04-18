@@ -1,0 +1,34 @@
+X:2
+T:The Whim
+S:John Clarkson Junr., American Tunes no 1, arranged for the Piano Forte
+N:Edinburgh Printed and Sold by J. Clarkson
+N:to be had at his House No. 63 South Bridge
+B:NLS MH.e.41
+Z:Jack Campin <www.campin.me.uk/>, Sep 2000
+N:the upbeats don't add up but I've left them as in the original
+V:1
+V:2 bass
+M:2/4
+K:D
+[V:1] [L:1/16] f2| a2fd     a2fd|g2ec g2ec  | defg     abag|fdec  d4   :|
+[V:2] [L:1/8]  z | D,D      D,D |A,,A, A,,A,| F,D,     F,G,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] c2| dBAF     E3G |FDFD  FDFD | dBAF     E3g |fdec  d4   :|
+[V:2] [L:1/8]  z |[D,2D,,2] A,,2|D,,D, D,,D,|[D,2D,,2] A,,2|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] g2| fddf     gfed|cAAA  A3g  | fddf     gfga|bgec  d4   :|
+[V:2] [L:1/8]  z | D,A,     D,A,|E,A,  A,,A,| D,A,     G,E,|A,A,, D,D,,:|
+%
+[V:1] [L:1/16] c2| dBAF     E3G |FDFD  FDFD | dBAF     E3g |fdec  d4   :|
+[V:2] [L:1/8]  z |[D,2D,,2] A,,2|D,,D, D,,D,|[D,2D,,2] A,,2|A,A,, D,D,,:|
+S:https://www.folktunefinder.com/tunes/174057
+S:http://www.campin.me.uk/Music/Clarkson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,23 @@
+X:1425
+T:Hearts of Oak
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001223.html
+%%ID:00001223
+K:C
+G | c2cc c2ed | c2BA G2zG | A2AB c2cd | e2fd e2z \
+G | c2EF G2AB | c2EF G2zd | e2dc g2Bc | d2dD G2 d>d |
+d2B>c d2 e>e | e2c>d e2ze | dcAe cAz2 | c<c G2 ECz \
+G | ABcd e2dc | g2 GB c2z2 |]
+S:https://www.folktunefinder.com/tunes/88442
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

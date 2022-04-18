@@ -1,0 +1,28 @@
+X: 67
+T:Dusty Miller. BC.59
+M:6/8
+L:1/8
+Q:100
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:Misc.
+O:England
+A:Uncertain, probably northern
+Z:vmp.John Bagnall
+K:G
+"Usually in 3/4"\
+B>cd BAG |  F "tr"A2 cBA | B>cd BAG | DG2 BAG :|!
+|:B>cd efg | aB2 cBA | B>cd e<f "NB"e/f/ | g>ag BAG :|]
+W:NB=demisemiquavers in MS
+S:https://www.folktunefinder.com/tunes/94910
+S:http://www.village-music-project.org.uk/abc/cooke_b.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

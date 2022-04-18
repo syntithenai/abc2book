@@ -1,0 +1,29 @@
+X: 61
+T: Drifting on a reed
+M: 4/4
+L: 1/8
+C: Charlie Parker
+Q: 1/4=200
+%%staves (chords melody)
+K: Bb
+%%text (medium/up)
+%%vskip 20
+V: chords
+"Bb"x4 x4 | x4 x4 | x4 x4 | x4 x4 |
+"Eb"x4 x4 | x4 x4 | "Dm7"x4 x4 | "G7"x4 x4 |
+"Cm7"x4 x4 | "F7"x4 x4 | "Bb"x4 x4 | x4 x4 :|
+V: melody
+B2F4G2 | zA zc BGed | zB ze d2 zB | fBed z3B- |
+B2G2 BedB | e2 e2-e3d | zB zc A/B/AFG | _A^FGe- e3G |
+d2zB- BG B2 | z[_A2f2][_Af] [G_f][G_f][_Ge][_Ge] | [F2d2]zA BcAG | B2zd zB zG :|
+S:https://www.folktunefinder.com/tunes/87562
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

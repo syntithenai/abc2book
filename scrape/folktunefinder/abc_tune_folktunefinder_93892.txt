@@ -1,0 +1,33 @@
+X: 4
+T:GAVOTTE
+M:4/4
+L:1/8
+Q:150
+C:Yves BELOTTEAU
+R:Gavote
+O:BRETAGNE
+K:C
+P:1-GAVOTTE
+|:e3/2e/2f3/2e/2d3/2c/2B3/2c/2|B3/2A/2G3/2F/2 EzEz|
+e3/2e/2f3/2e/2d3/2c/2B3/2c/2|d3/2e/2f/2e/2d/2 czcz:||!
+|:Ez A3/2 B/2 c3/2 d/2 2ez|a/2a/2a/2 g3/2 f/2 ez ez|
+B3/2 c/2 d3/2 c/2 d3/2 f/2 e3/2 d/2|c/2 B/2 A/2 B3/2 c/2 Az Az:|!
+P:2-BAL GAVOTTE
+|:A c/2B/2 A3/2 B/2| cde2|A c/2B/2 A3/2 a/2| gae2:|!
+ez ez d/2 e3/2 f/2 ez| e/2 d/2 c/2 B3/2 c/2 d3/2 c/2 Bz|
+ez ez d/2 e3/2 f/2 ez| e/2 d/2 c/2 B3/2 d/2 c2 A2|!
+P: 3-GAVOTTE
+|:ez f/2 e3/2 d/2|c3/2 d/2 e2|az b3/2 a/2| g3/2 f/2 e2:|!
+ez f/2 e3/2 d/2 e3/2 c/2 Az|Az A/2 B/2 c/2 dz dz| ez f/2 e3/2 d/2 e3/2 c
+/2 Az|A3/2 G/2 ^F3/2 G/2 Az A2
+S:https://www.folktunefinder.com/tunes/93892
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/compos.txt
+% Rhythm Gavote
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

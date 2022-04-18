@@ -1,0 +1,28 @@
+X:205
+U: ~ = !turn!
+%%topmargin 3cm
+T:Tom Ward's Downfall
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+BG{/A}GF ((3GAG) FG | EFGB AFGE | DEGA ~B2 Bd | ed^cd Bdgd |
+BG{/A}GF ((3GAG) FG | EFGB AFGE | DEGA ~B2 Bd | [1 egdc BG G2 :| [2 egdc BGG |]
+|: B | dg{/a}gf ((3gag) fg | ea ((3bag) a2 ga | bg ((3{/a}gfg) agef | {/a}gedc BGGB |
+dg{/a}gf ((3gag) fg | ea ((3bag) a2 ga | bg{/a}gf gbaf | [1 {/a}gedc BGG :|] [2 {/a}gedc BG G2 :|]
+S:https://www.folktunefinder.com/tunes/94800
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Tom_Wards_Downfall_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Tom_Wards_Downfall_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

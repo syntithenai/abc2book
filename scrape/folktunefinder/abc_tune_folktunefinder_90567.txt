@@ -1,0 +1,26 @@
+X:555
+T:Gravel Walk
+R:Reel
+D:Paddy Glackin: Ceol ar an bhFidil le Paddy Glackin.
+D:Matt Molloy: Stony Steps.
+Z:The last part is sometimes singled. Cf Jenny's Chickens, #75
+Z:id:hn-reel-60
+M:C|
+L:1/8
+Q:1/4=200
+K:Ador
+A2eA BAeA|A2eA BAGB|A2eA  (3Bcd ef|gedc BAGB:|
+|:A2aA gAfA|A2eA BAGB|[1 A2aA gAfa|gedc BAGB:|[2 ABcd efga|gedc BAGB||
+|:cAAG ~A3B|cA~A2 dBGB|cAAG A2ef|gedc BAGB:|
+|:c2gc acgc|c2ec BAGB|c2gc acga|gedc BAGB|
+c2gc acgc|c2dc BAGB|[1 ABcd efga|gedc BAGB:|[2 Aa~a2 agef|gedc BAGB|
+S:https://www.folktunefinder.com/tunes/90567
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

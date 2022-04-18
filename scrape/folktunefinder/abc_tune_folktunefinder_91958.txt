@@ -1,0 +1,26 @@
+X:028
+%%topmargin 3cm
+T:Mrs. Kinloch
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:4/4
+K:D
+f | d2 AG FEDC | DFAF GEEA | {/c}d2 Ad FdAd | Bdce fddf |
+d2 AG FEDC | DFAF GEEA | {/c}d2 Ad FdAd | Bdce fdd ||
+(d/2e/2) | (fd)cd B2 AG | FAdF GEEG | FAAd B2 Ge | ceAc ddde |
+(fd)cd B2 AG | FAdF GEEG | FAAd B2 Ge | ceAc ddd |]
+S:https://www.folktunefinder.com/tunes/91958
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Mrs_Kinloch.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

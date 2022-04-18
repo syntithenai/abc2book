@@ -1,0 +1,24 @@
+X: 41
+T: ROSE-BUSH -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20010527160344 by John Chambers jc:trillian.mit.edu
+K: G
+uD \
+| GAB AGE | ceg dBG | GAB AGE | FDD DEF \
+| GAB AGE | ceg dBG | cAc BGB | AEF G2 :|
+|: uB \
+| d^ce def | gfe dBG | {a}gfg eag | fdd def \
+| gbg  faf | ege def |    gdB AGA | BGG G2 :|
+S:https://www.folktunefinder.com/tunes/177177
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/QR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

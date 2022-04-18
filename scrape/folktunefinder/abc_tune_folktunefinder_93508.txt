@@ -1,0 +1,26 @@
+X:45
+T: Banks (The)
+S: McGann / Conway
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Eb
+(3B,CD | E2 G2 G2 (3BGE | D2 F2 F2 (3AFD | A,2 c2 c2 de |\
+=ABcB _AGFE |
+G,2 B2 B2 cd | A,2 c2 c2 de | DEFG AFDF | E2 G2 E2 :|
+gf | g2 e2 e2 (3gfg | f2 d2 d2 (3fgf | e2 c2 c2 fe |\
+dcB=A B2 B,2 |
+DBfB DBfB | EBeB EBeB | =ABcd ecAc | B=ABc B_AGF |
+EGBG eBFE | DFBF dFED | CEGE cBAG | FGFE DCB,A, |
+G,EBE G,EBE | A,EcE A,EcE | DEFG AFDF | E2 G2 E2 :|
+S:https://www.folktunefinder.com/tunes/93508
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

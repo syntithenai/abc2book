@@ -1,0 +1,27 @@
+X:340
+T: Brosna
+S: "Music of Ireland - The Big Session" (DJ Taylor)
+Z: B.Black
+L: 1/8
+M: 12/8
+R: slide
+K: D
+e3 efe d2 d fed|c2 A B2 A a3 a2 g|\
+e3 efe d2 d fed|c2 A B2 c A3-A2 f|
+e3 efe d2 d fed|c2 A B2 A a3 bag|\
+e3 efe ded e2 d|cBA BcB A3-A2 e ||
+e2 a a2 g e2 d Bcd|e2 a a2 g e2 g deg|\
+e2 a a2 g e3 ege|d3 def g2 e fed :|
+S:https://www.folktunefinder.com/tunes/93567
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

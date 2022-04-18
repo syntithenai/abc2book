@@ -1,0 +1,32 @@
+X:1
+T:Polska (till Olof Anderssons minne)
+C:Carl-Eric Berndt
+R:Polska
+S:Ur Skanska Spelmansgmmor
+O:Lund, Skne
+M: 3/4
+L: 1/16
+Q:1/4=97
+K:C
+V:1
+|:A4 a2e2 c2A2|A2^GA BAG^F E4|Acec Acec Acec|^GBeB GBeB GBeB|
+Acec Acec Acec|^GBeB GBeB GBeB|ABcd e2ae c2AB|cBA^G G4 A4:|
+%
+|:ABcd e2e2 c2c2|BABc [dE]2[dE]2 [BE]2[BE]2|A2ae c2c2 A2A2|
+^g^fga b2b2 g2g2|ABcd e2ae c2AB|cBA^G G4 A4:|
+V:2
+|:A,4 A2E2 C2A,2|A,2B,C D2B,2 EDCB,|A,2E2 [A4E4] A2cA|E2^G2 [BE]4 B2G2|
+A2Ac e2e2 A2A2|^GEGB [dE]2[dE]2 G2G2|A^GAB c2ec A2E=F|EDCB, [DB,]4 [EC]4:|
+%
+|:AEAB c4 A4|^GEGA B2B2 G2G2|A2ec A2A2 E2E2|
+BABc [dF]2[dF]2 [BD]2[BD]2|A^GAB c2ec A2EF|EDCB, [DB,]4 [EC]4:|
+S:https://www.folktunefinder.com/tunes/183473
+S:http://www.folkwiki.se/pub/cache/Polska_till_Olof_Anderssons_minne_ae2a76.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

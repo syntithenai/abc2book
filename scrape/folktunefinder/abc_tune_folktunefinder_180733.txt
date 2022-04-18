@@ -1,0 +1,40 @@
+X: 1
+T: Unzer Toyrele
+T: Our Dear Torah
+O: trad
+S: http://www.danmozell.com/unzer.gif [poor keysig and many accidentals]
+D: Budowitz: Mother Tongue
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: G_A_e
+"A"[|]\
+z2 \
+|  GAB2 B2B2 | Bdc2 c2z2 | B3c dece | d2z2 g2z2 \
+|  GAB2 B2BG | Bdc2 c2cc | BFGA B3A | G2 G4 :|
+"B"\
+|: f2 \
+|  f2d2 d4 | dccB B2B2 | dccB BAGG | G2B2 d2g2 \
+|  f2d2 d4 | dccB B2B2 | dccB BAGG | G6 :|
+"C"\
+|: B2 \
+|  Bdc2 c2cc | cBAG F3F | =EFGA Bcde | fedc BAGF \
+|  Bdc2 c2f2 | fedc B2B2 | dccB BAGG | G6 :|
+"D"\
+| G6 Bd | c6 Bd | c6 Bd | c2Bd c2B2 |  Bdc2 c2 \
+"E"\
+|: e2 | edc2 c2g2 | gfe2 e4 | f3e f3e | f2g2 edc2 | edc2 c2g2 | gfe2 e4 | e_BBe e_ddc | c6 :|
+"F"\
+[| G2 \
+|  B2G2 dcBA | B2G2 D2G2 | Bcd2 cBA2 | B2G2 D2G2 \
+|  Bcd2 cBA2 | G4 Tg4- | g8- | g8- | g8- | g8- \
+|  b2g2 d'c'ba | b2g2 d2g2 | bc'd'2 c'ba2 | g4 g4 |]
+S:https://www.folktunefinder.com/tunes/180733
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/UnzerToyrele2_G.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

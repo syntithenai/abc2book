@@ -1,0 +1,24 @@
+X: 1
+T:Nancy
+M:4/4
+L:1/8
+C:Willy Taylor
+Z:C.G.P
+K:G
+|:dc|B2AB GDDG|B2GB eddB|c2Bc AFD2|DFAc ed^cd|!B2AB GDDG|B2GB
+eddB|c2Bc A gfe|dcBAG2:|! :d2|g2fg dBBd|g2fg eAAB|c2Bc AFD2|DFAc
+ed^cd|!g2fg dBBd|g2fg eAAB|c2Bc A gfe|dcBA G2:|! :Bc|dedc BABc|dedB
+cAAB|cdcA FDFA|e2de dcBc|!dedc BABc|dedB cAAB|cdcB Ag fe|dcBAG2:|!
+:d2|gfga gdBc|dedB cAAB|cdcA FDFA|e2de dcBd|!gfga gdBc|dedB cAAB|cdcB
+Ag fe|dcBAG2:||
+% Output from ABC2Win  Version 2.1 h on 23/01/2001
+S:https://www.folktunefinder.com/tunes/97669
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

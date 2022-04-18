@@ -1,0 +1,40 @@
+X:1
+T:Princess Royal
+M:4/4
+C:
+S:Bacon (RKS (Jour.))
+N:added a rest to start the B
+A:Field Town
+O:Irish
+R:Reel
+Z:Second time I've ever tried this--SLA
+%:
+%:
+%P:A.AB.(CB)$^2$
+P:A.AB.(CB)2
+K:G
+I:speed 500
+P:A
+GA  | B2  A2 G2 dc  | B2  AB  G3  d   | e2 c2  c2 e2  | d2 c2   B3 \
+d   | cd  B2 A2 G2  | F2  E2  D2  c2  | B2 AG  A2 F2  | G4      G2 ||\
+P:B
+z2  | g2  g2 g2 fg  | a2  d2  d4      | g2 d2  d2 c2  | BAGF    E3 \
+F   | G2  AB c2 d2  | e2  e2  g4      | g2 e2  f4     | e2 A2   d4 |\
+      d2  cB A2 G2  | F2  E2  D2  c2  | B2 AG  A2 F2  | G4      G2 ||\
+P:C
+GA  | B4     A4     | G4      d2  c2  | B4     A2 B2  | G4      d4 |\
+      e4     c4     | c4      e4      | d4     c4     | B4      d4 |\
+      cd B2  A2 G2  | F2  E2  D2  c2  | B2 AG  A2 F2  | G4      G2 ||
+S:https://www.folktunefinder.com/tunes/183996
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/pr.lbc.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

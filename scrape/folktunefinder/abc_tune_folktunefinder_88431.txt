@@ -1,0 +1,28 @@
+X:1370
+T:Nancy Doson
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:"a Hornpipe"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005c3.html
+%%ID:000005c3
+K:G
+G2G (G>AB/)c/ | d2B G2B | A2B A2B | A2G (FED) |\
+G2G G>(AB/)c/ | d2B G2B | A2G F2E | D3-  D3 ||
+A2B A2B | A2B (AFD) | B2c d2e | d2e dBG | \
+c2B c2d | e2f gfe | dcB AGF | G3  G3 :|
+%%newpage
+%page 111
+S:https://www.folktunefinder.com/tunes/88431
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

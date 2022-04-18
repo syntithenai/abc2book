@@ -1,0 +1,28 @@
+X:115
+T: Peacock's Feather #1
+S: De Danann
+Z: B.Black
+R: hornpipe
+M: 4/4
+L: 1/8
+K: D
+DE | FEED A2 AB | defd B2 ef | gefd edBd |\
+AFDF E2 DE |
+FEED A2 AB | defd B2 ef | gefd edBd |1\
+AFDF D2 :|2 Adaf de ||
+fg | afge fdec | defd (3BcB ef | gefd edBd |\
+AFDF E2 DE |
+FEED A2 AB | defd B2 ef | gefd edBd |1\
+Adaf de :|2 AFEF D4 ||
+S:https://www.folktunefinder.com/tunes/93286
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

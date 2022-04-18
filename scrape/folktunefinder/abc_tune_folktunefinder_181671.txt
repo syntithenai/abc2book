@@ -1,0 +1,31 @@
+X:1
+T:Pas de sept : Les rutabagas
+E:12
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=180
+"C"e4 e2d2 c4 c4 | "G"d4 e4 f8 | d2e2 d2c2 B4 B2c2 |1 d4 f4 "C"e4 c4 :|2\
+"G"d4 e4 "C"c8 |: g2f2 g2a2 g4 g4 | e2d2 e2f2 e4 e4 | \
+"G"d2e2 f2g2 b6a2 |1 b4 a4 "C"g8 :|2 g2f2 e2d2 c8 |]
+%%rm
+%%rm  Avec des endives et des choux, 
+%%rm  Les rutabagas a fait d'la bonne soupe,
+%%rm  Avec des endives et des choux, 
+%%rm  Les rutabagas a fait du bon ragot.
+S:https://www.folktunefinder.com/tunes/181671
+S:http://termen.free.fr/danses/rennais/PasdeseptLesrutabagas.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

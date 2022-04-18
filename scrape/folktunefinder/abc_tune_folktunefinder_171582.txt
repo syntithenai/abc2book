@@ -1,0 +1,39 @@
+X:1
+T:Laura Polka
+C:traditionell
+R:polka
+A:Gruenbach bei Freistadt, Muehlviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:August Schwarz, Oberoesterreichisches Volkslied-Archiv MVII 2
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+d>g d>g | d2 BB | d>c cc | d>B BB |
+d>g d>g | d2 BB | d>c cc | Bz gz :|
+|:\
+f2 c'2 | b2 b/g/d/B/ | d>c cc | d>B B2 |
+f2 c'2 | b2- b/g/d/B/ | d>c cf | gz gz :|
+K:C
+P:Trio
+|:\
+G2 AB | (c/g/).g gf/d/ | c/g/g ge/c/ | G2 AB |
+(c/g/).g ge/c/ | B/g/g gf/d/ | ce cz :|
+|:\
+bb zb | c'c' c'/b/a/g/ | ^ff zd | bb zb |
+c'c' c'/b/a/g/ | ^ff (f/d/e/f/) | gG/G/ G"D.C.al Fine"G :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/171582
+S:http://simonwascher.info/TradArchiv_polka/laura_polka.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

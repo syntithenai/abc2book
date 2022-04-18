@@ -1,0 +1,31 @@
+X: 1
+T: POSTMAN'S KNOCK
+S: RD ex Blunt MSS
+O: Adderbury
+N: Stick-tapping is to B music. 'The Wootton dancers used
+N: to dance this. Adderbury usually clapped only' (Blunt).
+W: Every morning as true as the clock
+W: Someone hears the postman's knock. (Twice).
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+P: A
+D>D | DFG A2F | GAB A2A | dAG FED  | E3- E2D |
+      DEF AAA | GAB A2F | Ecd BA^G | A3- A A>A |
+      AGF Fdd | dDE F2F | FFF dcB  | c3  B2A |
+  ddd dAF | EFG B2A | AdF F<FE | D3  D2 ||
+P: B (quicker)
+  A2A AAA | Bcd A3 | d>cB d2F | F2E F3 |
+  A2A AAA | Bcd A3 | dcB  A2d | d3  c3 | d3 d3 ||
+S:https://www.folktunefinder.com/tunes/183606
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Postmans_Knock_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

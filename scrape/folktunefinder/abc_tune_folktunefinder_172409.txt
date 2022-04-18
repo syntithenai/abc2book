@@ -1,0 +1,70 @@
+X:1
+T:The Little Cascade
+S:MacLennan's collection
+C:G.S. MacLennan
+V:1       midi program 1 11 transpose -12
+V:2 merge midi program 1 46
+M:C|
+L:1/8
+Q:1/2=104
+K:E Hp
+V:1          Be```eg      ge```Bg  |     gf`````eB    gB```eg   |[1 
+Be```eg     ge```Bg  |     fd```Ad      fagf     :|
+V:2       {d}xx{A}xx   {a}xx{g}xx  |  {a}xx{gef}xx 
+{a}xx{g}xx   |[1   {a}xx{A}xx  {a}xx{g}xx  |{afg}xx{e}xx   {g}xxxx     :|
+%
+V:1                                                              [2 
+Be```eg     ge```Bg  |     fagf         f2    e3/|:\
+    g/|      fB```gf      eg```Bg  |     fBag         g2    f>g |
+V:2                                                              [2 
+{a}xx{A}xx  {a}xx{g}xx  |  {a}xxxx    {gfg}x2{eA}x3/|:\
+    x/| {afg}xx{a}xx   {g}xx{a}xx  |{afg}xxxx      {a}x2{fe}x>x |
+%
+V:1 
+fB```gf     eg```Bg  |     fagf         f2    e3/:|\
+    g/|:     G2   Be      Be```ge  |     g2   fg      eg```Be   |
+V:2 
+{afg}xx{a}xx  {g}xx{a}xx  |  {a}xxxx    {gfg}x2{eA}x3/:|\
+    x/|:{aGd}x2{d}xx   {g}xx{a}xx  | {gf}x2{a}xx   {a}xx{a}xx   |
+%
+V:1  [1      G2   Be      Be```ge  |     fd```Ad      fagf     :|[2 
+G2   Be     ge```Bg  |     fagf         f2    e3/||
+V:2  [1 {gGd}x2{d}xx   {g}xx{a}xx  |{gfg}xx{e}xx   {g}xxxx     :|[2 
+{gGd}x2{d}xx  {a}xx{g}xx  |  {a}xxxx    {gfg}x2{eA}x3/||
+%
+V:1 
+f/|      g```efg      efg```e  |     f```def      def```d   | 
+g```efg     efg```e  |     fag```f      f2    e3/:|
+V:2 
+x/|      x{a}xxx   {a}xxx{a}x  |     x{g}xxx   {g}xxx{g}x   | 
+x{a}xxx  {a}xxx{a}x  |     xxx{a}x {gfg}x2{eA}x3/:|
+%
+V:1 
+g/|      Be```gf      e2     fd|     Be```df      ed```B```A| 
+Be```gf      e2     fd|     Be```df      f2    e3/:|
+V:2 x/|   {a}xx{a}xx {GdG}x2  {g}xx|  {g}xx{g}xx 
+{gef}xx{g}x{d}x|    {d}xx{a}xx {GdG}x2  {g}xx|  {g}xx{g}xx {gfg}x2{eA}x3/:|
+%
+V:1 
+g/|      Gd```Be      df     e2|     gfge         Bega      |[1 
+Gd```Be      df     e2|
+V:2 
+x/|   {a}xx{g}xx   {g}xx{gef}x2|  {a}xxxx      {g}xxxx      |[1 
+xx{g}xx   {g}xx{gef}x2|
+%
+V:1 
+Be```df      f2    e3/:|\
+     [2      gfge         fd```ed  |     Be```df      f2    e2 |]
+V:2 
+{g}xx{g}xx {gfg}x2{eA}x3/:|\
+     [2  {ga}xxxx      {g}xx{g}xx  |  {g}xx{g}xx {gfg}x2{eA}x2 |]
+S:https://www.folktunefinder.com/tunes/172409
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg07879.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X:510
+T: Maureen Glynn Connolly's (with piano acc.)
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: A
+[V:1] D|"A"EAB cBA |"Bm"dcB "A"ecA | "D"fdf "F#m"ecA | "Bm"FBB BAF |
+[V:2] z|A,,2[ACE]E,,2[ACE]|B,,2[BDF]A,,2[ACE]|D,2[AFD]F,,2[FAC]|B,,2[BDF]F,,2[BDF]|
+%
+[V:1] "A"EAB cBA |"Bm"dcB "A"ece |"D"fga "E"ecB | "A"cAG "A"A2 :|
+[V:2] A,,2[ACE]E,,2[ACE]|B,,2[BDF]A,,2[ACE]|D,2[AFD]E,2[EGB]|C,2[ACE][A,,2C2E,2]:|
+%
+[V:1] e |"A"aga "Bm7"baf | "F#m"eaf "A"ecA | "A"EAB cBA | "F#m"cBA "E"B2 e |
+[V:2] z |A,,2[ACE]B,,2[ADF]|F,,2[FAC]A,,2[ACE]|C,2[ACE]E,,2[ACE]|F,,2[FAC]E,2[EGB]|
+%
+[V:1] [1 "A"cBA "Bm"dcB | "A"ece "D"fga | "E7"edc Bcd | "A"cAG "A"A2 :|
+[V:2] [1 A,,2[ACE]B,,2[BDF]|A,,2[ACE]D,2[AFD]|E,2[DGB]B,,2[DGB]|C,2[ACE][A,,2C2E,2]:|
+%
+[V:1] [2 "A"aga "Bm"baf | "F#m"eaf "A"ecA | "F#m"EFA "E7"Bcd | "A"cAG "A"A2 |
+[V:2] [2 A,,2[ACE]B,,2[BDF]|F,2[FAC]A,,2[ACE]|F,,2[FAC]E,2[DGB]|C,2[ACE][A,,2C2E,2]|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86987
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

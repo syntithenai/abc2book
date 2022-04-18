@@ -1,0 +1,54 @@
+X: 9172
+T: Yonkers Piper (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] A|"G"Bded BG (3GFG|"Em"edBA "C"GE (3E^DE|"G"gede "Am7"gaba|"G"gfgd "D"BA (3A^GA |
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[G2C2E2]|\
+G,,2[G2B2D2]D,2[A2D2F2]|
+%
+[V:1] "G"BGdG "G"BG (3GFG|"Em"edBA "C"GE (3E^DE|"G"DEGD "Em"EGAB|"D7"(3cBA FA "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|D,2[A2D2F2]\
+[G,,3D,3B,3]:|
+%
+[V:1] A|"G"degd "Em"egde|"Am"a^gab "D7"afdc|"G"Bdgd "Em"e2 dB|"G"GABG "D"ADFA |
+[V:2] z|G,,2[G2D2B2]E,2[B2E2G2]|A,,2[A2E2C2]D,2[A2D2F2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2]D,2[A2D2F2]|
+%
+[V:1] "G"dB"Am"cA "Em7"Bdeg|"Am"a^gab "D"afdf|"G"g2 dc "Em"BcdB|"D"ADFA "G"G3 :|
+[V:2] [G,,2][A2E2C2]E,2[B2D2G2]|A,,2[A2E2C2]D,2[D2A2F2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+D,2[D2A2F2][G,,3D,3B,3]:|
+%%%%%%%%%%tune repeat
+[V:1] A|"G"Bded BG (3GFG|"Em"edBA "C"GE (3E^DE|"G"gede "Am7"gaba|"G"gfgd "D"BA (3A^GA |
+[V:2] z|G,,2[G2B2D2]D,2[G2B2D2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[G2C2E2]|\
+G,,2[G2B2D2]D,2[A2D2F2]|
+%
+[V:1] "G"BGdG "G"BG (3GFG|"Em"edBA "C"GE (3E^DE|"G"DEGD "Em"EGAB|"D7"(3cBA FA "G"G3 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|D,2[A2D2F2]\
+[G,,3D,3B,3]:|
+%
+[V:1] A|"G"degd "Em"egde|"Am"a^gab "D7"afdc|"G"Bdgd "Em"e2 dB|"G"GABG "D"ADFA |
+[V:2] z|G,,2[G2D2B2]E,2[B2E2G2]|A,,2[A2E2C2]D,2[A2D2F2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+G,,2[G2D2B2]D,2[A2D2F2]|
+%
+[V:1] "G"dB"Am"cA "Em7"Bdeg|"Am"a^gab "D"afdf|"G"g2 dc "Em"BcdB|1 "D"ADFA "G"G3 :|2\
+ "D"ADFA "G"G4-|G8|
+[V:2] [G,,2][A2E2C2]E,2[B2D2G2]|A,,2[A2E2C2]D,2[D2A2F2]|G,,2[G2D2B2]E,2[B2E2G2]|1\
+D,2[D2A2F2][G,,3D,3B,3]:|2 D,2[D2A2F2][G,,4-D4-B,4-]|[G,,8D8B,8]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87257
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

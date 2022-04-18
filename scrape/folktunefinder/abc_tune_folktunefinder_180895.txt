@@ -1,0 +1,20 @@
+X: 1
+T: Overtone, The
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+BE~E2 dEBE|cAGA EA=FE|DA,~A,2 CDE=F|{G}=FEDF EA (3cBA|
+BE~E2 BcdB|cAeA de=fa|g=fge {g}fefd|(3e=fg dB cA~A2:|
+|:GBd=f de{f}ed|cedB cA~A2|BG~G2 DG{B}AG|=FEFD EA (3cBA|
+GBd=f (3e=fg fd|eAcA de=fa|g=fge {g}fefd|(3e=fg dB cA~A2:|
+S:https://www.folktunefinder.com/tunes/180895
+S:http://www.thesession.org/tunes/display/1803
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

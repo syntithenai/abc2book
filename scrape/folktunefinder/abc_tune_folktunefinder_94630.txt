@@ -1,0 +1,32 @@
+X:032
+U: ~ = !turn!
+%%topmargin 3cm
+T:Coleman's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Sean Ryan
+R:Jig
+L:1/8
+M:6/8
+K:D
+g | fed Bcd | A2 d F2 A | BAF d2 F | E3 E2 g |
+ged Bcd | A2 d F2 A | BAF d2 F | D3 D2 g ::
+~f3 a2 f | b2 f a2 f | ~f3 a2 f | e3 e2 g |
+[1 ~f3 a2 f | b2 f a2 f | ~f3 a2 f | d3 d2 g :|
+[2 fga efg | fed Bcd | ABA GFE | DFA d2 |]
+S:https://www.folktunefinder.com/tunes/94630
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Colemans_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Colemans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Colemans_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Colemans_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

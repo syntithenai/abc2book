@@ -1,0 +1,29 @@
+X: 2
+A:Adam de la Halle
+T:Or est Baiers en la pasture
+N: (written out)
+M:3/4
+L:1/4
+Q:1/4=280
+K:D dorian
+%
+V:1 clef=treble
+V:2 clef=treble-8 middle=B,
+V:3 clef=treble-8 middle=B,
+%%MIDI program 1       70 bassoon
+%%MIDI program 2       71 clarinet
+%%MIDI program 3       72 piccolo
+%
+[V:1]      A3  | G3 |(G2 A) | G3 |(GF E) | D3  |(E2 F )| E2  C ||       E2  C  ||
+[V:2]      A,3 | C3 |(CB,A,)| C3 | C3    | B,3 |(A,2G,)| A,2 A,||       A,2 A, ||
+[V:3]      E3  | C3 |(CD E) | C3 |(CB,A,)| G,3 |(A,2B,)| A,2 C ||       A,2 F, ||
+S:https://www.folktunefinder.com/tunes/180588
+S:http://www.blindchicken.com/~ali/music/adam/rondeaux/or-est-baiars.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

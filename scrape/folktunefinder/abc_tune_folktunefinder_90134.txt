@@ -1,0 +1,66 @@
+X:147
+T:Telemann To Vivaldi
+T:Concerto fo the Fife
+C:Arr. by A. Terreri
+M:2/4
+L:1/16
+Q:1/4=100
+%%staves (1 2 3)
+K:A
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!bigac!a4 ABcd|e2a2 A4|e4 EFGA|B2e2 E4|f4 f=gfe|d2f2 B4|e4 efed|c2a2 B2g2|aEFGABcd||
+!bigbc!ea"^Tutti Forte"ga caga|Aaga ABcd|ee^de Bede|Ee^de f=gfe|defd BcdB|GABA efed|c2a2 B2g2||
+!bigcc!aga2 A2ag|a2B2 aga2|c2ag a2d2|aga2 [f4-A4-D4-]|[f2A2D2] dc d2F2|dcd2 G2dc|d2A2 d2cd|[g4-B4-D4-][g2B2D2] gf|
+g2B2 gfg2|=c2gf g2d2|gfg2 [e4-c4-A4-]|[e2c2A2] =ga g2e2|cdc2 =G2cd|B2=G2 cdBd|efdf cdBd||
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x8|x8|x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8||x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8||
+%%staves [1 2 3]
+V:1
+|:!bigdc!efdf efdf|efdf efdf|efdf efdf|efdf efdf:|
+V:2
+|:z4     cdBd|EBGB EBGB|EBGB EBGB|EBGB EBGB:|
+V:3
+|:[e4B4=G4-][e4B4=G4-]|[e4B4=G4-][e4B4=G4-]|[e4c4=G4-][e4c4=G4-]|[e4c4=G4-][e4c4=G4]:|
+%%staves [1 (2 3)]
+V:1
+!bigec!d2D2 zEFG|AFdA fAdA|a2A2 zBcd |ecaA  cAae|f4-  fgfe|defd BcdB|
+e2E2 zfed|cdec ABcA|d4-  ded=c|B=cdB GABG|efed cdec|gagf efge|
+V:2
+d2D2 z4  |zEFG AFdA|a2A2 z4   |zBcd ecaA|f2F2 z4  |BcdB defe|
+efed cdcB|A4   cdec|B4-  B=cBA|GABG BcdB|cdeB GABA|cccc efge|
+V:3
+x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|x8|
+%%staves (1 2 3)
+V:1
+"^Unison"=cgBg ^AgBg|=cgBg ^AgBg|^cgdg Bgdg|^cgdg Bgdg|
+V:2
+x8|x8|x8|x8|
+V:3
+x8|x8|x8|x8|
+%%staves [1 (2 3)]
+V:1
+S:https://www.folktunefinder.com/tunes/90134
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

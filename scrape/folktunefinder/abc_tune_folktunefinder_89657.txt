@@ -1,0 +1,22 @@
+X:85
+T: Stonehill Fair
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: D
+E|"Bm"FBB dBB | "D"afd "A"cBc | "Bm"FBB dcd | "D"fdc "Bm"B2 A |
+"Bm"FBB dBB|"D"afd "A"cBA | "D"FAd "G"BGB | "A7"AGE "D"D2 :|
+A|"Bm"Bff "F#m"cff | "D"dfa "Bm"baf | "D"d2 f "Em"ede | "D"fdc "Bm"B2 A |
+"Bm"Bff "F#m"cff | "D"dfa afa | "G"b2 f "D"agf |"A"edc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/89657
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

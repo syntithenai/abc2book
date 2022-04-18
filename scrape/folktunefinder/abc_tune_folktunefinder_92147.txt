@@ -1,0 +1,26 @@
+X:124
+T: Xiao ta qing
+N: C1618
+O: China,Anhui, Fuyang
+S: III, 594]
+R: Xiaodiao. Chunyou]
+M: 2/4
+L: 1/16
+K: G
+d2d2edB2 | A8 | d2d2edB2 | A6
+B2 | G2GEG2E2 | d2d2A2d2 | A2G2E2DE | G3EG4
+A3Bd4 | d2B2B2A2 | G3AB4 | d2B2A2G2
+G2G2E4 | d2B2A2G2 | D2D2CDE2 | D8
+A3Bd2d2 | d2B2A2G2 | G2G2E4 | d2e2A2G2 | D2D2CDE2 | D8
+S:https://www.folktunefinder.com/tunes/92147
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao. chunyou]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

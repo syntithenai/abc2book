@@ -1,0 +1,29 @@
+X: 71
+T:Mr. Cosgill's Delight,aka. TBe.071
+M:C|
+L:1/8
+Q:120
+C:titled only "Gavot" in ms
+S:Thomas Bennet MS,1718, VWML
+R:gavotte
+O:England
+N:"=" - as in MS.
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+f2a2d'2d2 | g>af>g "="e2d2 | f2a2e2A2 | d>ec>d "="B2 A2 ||!
+ e2a2f2b2 |g>fe>d "="c2B2 | a2A2B2d2 | g>af>g "="e2d2 ||
+S:https://www.folktunefinder.com/tunes/96222
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Gavotte
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

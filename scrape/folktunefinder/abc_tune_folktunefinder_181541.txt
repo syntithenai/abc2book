@@ -1,0 +1,25 @@
+X: 1
+T: Panda, The
+M: 6/8
+L: 1/8
+R: jig
+K: Amix
+|:{g}c{d}A{e}A {g}dB{b}A | e{g}e{c}e {g}edc | {g}cd{b}d {g}Gd{e}G | {g}cde {g}edB|
+ {g}c{d}A{e}A {g}dB{b}A | e{g}e{c}e {g}edc | {g}cd{G}d {g}edB | {g} BAG {g}A2 e:|
+|:ge{c}e {g}ege | a{g}a{g}a gec | {g}cd{G}d {g}Gd{e}G | {g}cde {g}edb |
+[1 ge{c}e {g}ege | a{g}a{g}a gec | {g}cd{G}d {g}edB | {g} BAG {g}A2 e:|
+[2  {g}c{d}A{e}A {g}dB{b}A | e{g}e{c}e {g}edc | {g}cd{G}d {g}edB | {g} BAG {g}A2 e||
+|:cAA dBA | eee edc | cdd GdG | cde edB|
+ cAA dBA | eee edc | cdd edB | BAG A2 e:|
+|:gee ege | aaa gec | cdd GdG | cde edb |
+[1 gee ege | aaa gec | cdd edB | BAG A2 e:|
+[2  cAA dBA | eee edc | cdd edB | BAG A2 e||
+S:https://www.folktunefinder.com/tunes/181541
+S:http://www.thesession.org/tunes/display/2478
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

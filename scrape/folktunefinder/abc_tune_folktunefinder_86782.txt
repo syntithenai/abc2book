@@ -1,0 +1,26 @@
+X: 018
+T: Paddy the Lilter (jig)
+N: 160402
+C: BB
+M: 6/8
+Q: 1/8=340
+L: 1/8
+R: jig
+K: D
+A | "D"dAB AFD | "Em"EFG "D"FED | "Em"EFG "D"FEF | "G"GAB "A"cAc |
+"D"dAB AFD | "Em"EFG "D"FED | "Em"EGB "A"Ace | "D"fdc "D"d2 :|
+A| "A7"Ace geg | "D"fdf "A"ecA | "A"Ace "G"gab | "A7"gec "D"d2 B |
+"A7"Ace geg | "D"fdf "Em"efg | "D"afd "Bm"Bcd |"A"edc "D"d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86782
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

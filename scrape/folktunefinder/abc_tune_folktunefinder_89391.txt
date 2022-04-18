@@ -1,0 +1,27 @@
+X:145
+T: Little Diamond
+S: Treoir
+Z: B.Black
+M: 2/4
+L: 1/8
+R: polka
+K: D
+A>B AF | DF AF | A>B AF | GF EF/E/ |
+DE FG | AB cd | e>d ce | dA GE ||
+A>B AF | DF Ad | A>B AF | GF EF/E/ |
+DE FG | AB cd | e/f/e/d/ ce | d2 d>e ||
+fd ge | fd cB | Ad cd | fe e>g |
+fd ge | fd cB | Ag ec | d2 d2 :|
+S:https://www.folktunefinder.com/tunes/89391
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/l.abc
+S:http://www2.redhawk.org:8080/irish/zouki/l.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

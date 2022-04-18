@@ -1,0 +1,29 @@
+X:137
+U: ~ = !turn!
+%%topmargin 3cm
+T:Mulvihill's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+z B | AFAF G2 FG | AFAF EGFE | DGFA defe | dBAF EcdB |
+AFAF GFGB | AFAF EGFE | DGFA defe | dBAF D2 ::
+de | f3 a gfgg | afdf edBd | fafe dfec | dBAF E2 fg |
+afaf bafg | afdf e2 de | f^ef=e dfec | dBAF D2 :|]
+S:https://www.folktunefinder.com/tunes/94733
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Mulvihills_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Mulvihills_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

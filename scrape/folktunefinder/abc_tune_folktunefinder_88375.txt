@@ -1,0 +1,26 @@
+X:1090
+T:Gambles are coming
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001120.html
+%%ID:00001120
+K:G
+GBe dBG | B>cB B2A | GBe dBG | A>BA A2B | \
+GBe dBG | B2d  g2a | bag gfe | d>BB B3 ::
+g>ag gab | d>ed def | g>ag gab | e>fe e2f | \
+g>ag gfe | dBd  g2a | bag gfe | d>BB B3 |]
+%%newpage
+%page 91
+S:https://www.folktunefinder.com/tunes/88375
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

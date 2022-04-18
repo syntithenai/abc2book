@@ -1,0 +1,25 @@
+X: 1
+T: Quindaro Hornpipe
+C: R-88
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: hornpipe
+K: G
+gf| "G"g2G2 G2BG| "D"FADF "G"G2Bc| dBed "C"cBAG| "D"FGAF D2gf|
+    "G"g2G2 G2BG| "D"FADF "G"G2AB| "C"cedc "D"BAGF| "G"G2B2 G2 :|
+|:\
+dc| "G"BgBc d2cB| "D"caAB c2BA| "G"Bded cBAG| "D"FAD2 D2ga|
+    "G"bgfg dgfg| bgfg dgfg| "C"edcB "D"AGFA| "G"G2B2 G2 :|
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/184359
+S:http://roaringjelly.org/music/reel/R088_Quindaro_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R088_Quindaro_Hornpipe.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R088_Quindaro_Hornpipe.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,117 @@
+X:1
+T:Nun komm, der Heiden Heiland (BWV 659)
+C:J.S. Bach
+M:C
+L:1/8
+%%titlespace 0.0cm
+%%composerspace 0.0cm
+%%staffsep 1.3cm
+%%maxshrink 0.68
+%%continueall 1
+%%header "Nun komm, der Heiden Heiland$P / 3"
+%%staves {1 (2 3)} 4
+K:Gm
+V:1
+z8|z8|z8|z2G2 !shturn!MG2^FG/A/|
+V:2
+z4 z2D2|D2C2 F3E/D/|E4 D4-|D2C2 D4-|
+V:3
+z2G,2 G,2F,2|B,3A,/G,/ A,2G,2-|G,2C4 B,A,|G,^F,G,A, B,A,/G,/A,2-|
+V:4
+G,,A,,B,,C, D,E,D,C,|B,,D,F,E, D,C,=B,,G,,|C,_B,,A,,G,, ^F,,D,,G,,=F,,|E,,D,,E,,2 D,,4-|
+V:1
+B2-B/G/{A}PG//^F//G/ c2-c/A/{B}PA//G//A/|d2-d/G//A//B//c//d/ e3/d/ c/B//A//A/B//c//|{G/}^FE/D/G2- G//A//G//F//G/c//A// GPF3//G//|
+V:2
+D2zB,- B,A,/G,/A,2|z2zG- G^FGE|D2zB, E2DC-|
+V:3
+A,G,/^F,/G,2 z2zC-|CB,/A,/ B,D- D/CB,/ A,/G,/C|A,2zG,- G,CA,2|
+V:4
+D,,D,E,D, =E,C,=F,E,|^F,D,G,G,, C,D,E,C,|D,C,B,,E, C,A,,D,D,,|
+% (2)
+V:1
+G4 z4|z8|z8|GB/A/MB2 c2-c/B/A/B/|
+V:2
+CB,/C/ DC/B,/ A,3B,/C/|DEFG C3D/E/|F3G/F/ E4|D3E/F/ G/F/E/D/ Cz|
+V:3
+G,6 F,2-|F,2B,4 A,2-|A,=B,/C/D2- DC/B,/C2-|C_B,/C/D2 zG, A,z|
+V:4
+G,,A,,B,,C, D,E,D,C,|B,,C,D,E, F,G,F,E,|D,C,=B,,G,, C,D,E,C,|G,G,,G,F, E,C,F,G,|
+V:1
+c/d/e- e/c/B/c/ d/e/f- f/d/c/d/|e/f/g- g/c/d/e/ {B/}AG/F/ f2-|f/g//f//e//f//d/e2- e/a//b//c'/e/{e}d2-|
+V:2
+zGF4 zB|B2zG F2z_A|G2zG F2zF|
+V:3
+zB,CA, B,D/C/ DF|B,E/D/C2- CB,/A,/ B,/C/D-|DC/=B,/C2- C_B,/A,/B,2-|
+V:4
+A,G,A,F, B,B,,B,_A,|G,F,E,2- E,E,,D,,C,|=B,,G,,C,_B,, A,,F,,B,,D,|
+V:1
+d/G/PG//F//G/ c//B//A/B//A//G/ F/G//A//B//c//d//e//f2-|f/g//f//e//d//c//B// dPc3//B// B4|z8|
+V:2
+Gz Gz Cz zE|DG F/D/E- ED/E/ FE/D/|C3D/E/ F4-|
+V:3
+B,z Ez A,z zA,|B,3A, F,2B,2-|B,2A,2- A,=B,/C/ D/C/B,/A,/|
+V:4
+E,D,E,D, E,D,E,C,|D,E,F,F,, B,,C,D,E,|F,G,F,E, D,C,=B,,G,,|
+% (3)
+V:1
+z8|Bc//B//A//B// cd//c//B//c// d/B/A/B/ {B/}f3/e//d//|c/d//c//=B/c/ d/e//d//c/d/ e/c/B/c/ {c/}g3/f//e//|
+V:2
+FE/D/ Ec ^FGA2-|AGF2- FEDG|Az z=B cz zA|
+V:3
+G,3A,/B,/ C/D/E2D/C/|B,E2D/C/ B,3B,|Fz zF GF E2|
+V:4
+C,D,C,B,, A,,G,,^F,,D,,|G,,G,A,F, B,,C,D,E,|F,F,,E,,D,, C,,D,,E,,C,,|
+V:1
+d/g//a//b/f/ e/d/d/c/ c/^f//g//a/e/ d/c/c/B/|B/g/-g//f//e//d// c//d//c//=B//c- c/e//d//c//d//e/- e//c//_A//G//A-|A/e//d//e//c//=B//c// c//_A//G//A//A//G//^F//G// F/=A//c//e/d/d2-|
+V:2
+B2zB A2zA|G2z/F/G/F/ Gz z/D/E/D/|Ez zE D^FG=A|
+V:3
+zDGF ED zD|D2z/D/E/D/ Ez z/=B,/C/B,/|Cz zC/_B,/ =A,C D/C/C/B,/|
+V:4
+G,,G, zG, G,^F, zF,|G,=F,E,2- E,D,C,2-|C,C,,C,2- C,A,,B,,^F,,|
+V:1
+d//g//^f//=e//d3//c// BPA//G//A/ G4|z8|z8|
+V:2
+DG zD- DC/=B,/ C/D/D/E/|E4- ED/C/ D/E/E/F/|F4- F/E/G/F/ F/E/E/D/|
+V:3
+B,G,- G,^F, G,4-|G,G,/^F,/ G,/A,/A,/B,/ B,4-|B,A,/G,/ A,/=B,/B,/C/ C4-|
+V:4
+G,,B,,C,D, _E,=F,E,D,|C,C,, zC, G,,G,=F,E,|D,D,,D,G,, C,E,_A,,C,|
+% (4)
+V:1
+z8|z2G2 !shturn!MG2^FG/A/|B2-B/G/{A}PG//^F//G/ c2-c/A/{B}PA//G//A/|
+V:2
+D/_A/A/G/ G/F/F/E/ E3/F/ PD3/G/|E/F/F/E/ E/D/D/C/ C/B,/B,/A,/ A,B,/C/|^F,2zB,- B,A,/G,/A,2|
+V:3
+C4- C3/D/ P=B,3/=A,//B,//|Cz z2 z4|zD,G,2 z2zC-|
+V:4
+F,,F,E,_A, G,F,G,G,,|C,D,C,B,, A,,D,,D,2-|D,B,,E,D, =E,C,F,E,|
+V:1
+d2-d/G//A//B//c//d/ e3/d/ c/B//A//A/B//c//|{G/}^FE/D/G2- G//A//G//F//G/c//A// GPF3//G//|G/g/=f- f/e//d//g//f//e//d// f//e//d//c//_b- b//a//b//c'//b//a//g//a//|
+V:2
+z2zG- G^FGE|D2zB, E2DC|=B,CDB, CD CD/_B,/|
+V:3
+CB,/A,/ B,D- D/CB,/ A,/G,/C/B,/|A,2zG,- G,CA,2|G,A,=B,G,- G,F, E,D,/E,/|
+V:4
+^F,D,G,G,, C,D,E,C,|D,C,B,,E, C,A,,D,D,,|G,,8-|
+%%staves {1 (2 2b 3)} 4
+V:1
+g//^f//g//a//c- c//e//d//c//d//c//B//A// B/g//e//^c//d//G/ BPA//G//A/|HG8|]
+V:2
+A,G, ^F,A,/E/ D2-D3/=C/-|C/=B,/F/D/ E2 HD4|]
+V:2b
+x8|z/=B,3/- B,/B,/C =B,4|]
+V:3
+C,E,D,^F, G,3F,|G,2-G,3/^F,/ HG,4|]
+V:4
+G,,4- G,,B,,D,D,,|HG,,8|]
+S:https://www.folktunefinder.com/tunes/179257
+S:http://moinejf.free.fr/abc/nunkomm659.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

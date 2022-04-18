@@ -1,0 +1,27 @@
+X:2
+T: Aililiu na Gamhna, S.35
+N: I0501
+O: Irland
+S: O BOYLE, Sean: 25 Irish Folksongs, Dublin 1976]
+R: ]
+M: 2/4
+L: 1/8
+K: A
+ | A2=GE | D2DD | E2=GG | =G2G
+G | A2dd | =f2e2 | d2=cA | =G2G
+G | Addd | =f2ee | d=cAc | =cce
+e | d=cA=G | E2DD | DAAA | A2A2
+A_BA=G | E2DD | E2=G2 | =G2G2
+AAdd | =f2ee | d=cAA | =G2G2
+AAdd | =f2ee | d=cAc | =cde
+e | d=cA=G | E2DD | DDAA | A2A2
+S:https://www.folktunefinder.com/tunes/93173
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

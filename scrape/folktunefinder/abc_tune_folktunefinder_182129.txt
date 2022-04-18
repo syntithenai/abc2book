@@ -1,0 +1,20 @@
+X: 1
+T: Peter Byrne's Fancy
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+AFD c2A|BAG A2D|AFD c2A|BGE EDD|
+AFD c2A|BAG A2D|cde dcA|GEA D3:|
+|:cde dcA|AGE c2A|cde dcA|AGE EDD|
+cde dcA|AGE c2d|fed c2A|BGE D3:|
+S:https://www.folktunefinder.com/tunes/182129
+S:http://www.thesession.org/tunes/display/2919
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

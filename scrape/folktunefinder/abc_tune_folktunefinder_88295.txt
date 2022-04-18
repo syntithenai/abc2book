@@ -1,0 +1,34 @@
+X:690
+T:the Ploughman
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%RRN:"Clarinetto Primo"
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000f02.html
+%%ID:00000f02
+K:C
+c>d |\
+e2e>e e2fe | ed ef g2 ab  |   c'g fe fe gc  | e2 d>d d2 c>d | \
+e2e>e e2fe | ed ef g2 a>b | ! c'bag  bag^f  | g6 dc | \
+Bd gb ba g^f | g4    z2 g=f | eg  a_b c'a gf | ag fe f2 ga |
+ag fe fe dc  | cB dB G2 gg  | c'b ba ba bc'  | gagf  e2 fg | \
+a2 AA d2 ef  | g2 GG c2 de  | fd  ef  ec  de | cB dB G2 G2 |
+%these next 4 bars  are written small, with an illegible marking ("com" )
+% at the start and a segno at the end. Some sort of alternative 
+c>dee c>dee  | e>def g2 G2  | c>dee   c>dee  | edef  g2 gg | \
+c'aac' bgge  | fffa  ag ze  | fedc    cagf   | e2d2  c2 |]
+%%newpage
+%page 49
+S:https://www.folktunefinder.com/tunes/88295
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

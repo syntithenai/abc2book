@@ -1,0 +1,92 @@
+X:1
+T:Perfidia
+M:4/4
+L:1/8
+Q:1/4=120
+C:Alberto Dom\'inguez
+Z:Luis Pablo Gasparotto
+K:Eb
+V:1 name="Soprano"
+%%MIDI program 65
+V:2 name="Alto"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+%
+[V:1] c4 e3 f | g4- gfec | efgf ecdB | c6 z2             |:
+[V:2] (E8     | E8       | E8        | E6) z2            |:
+[V:3] (G,8    | G,8      | G,8       | G,6) z2           |:
+[V:4] (C,8    | C,8      | C,8       | C,6) G,/F,/E,/D,/ |:
+%
+[V:1] z2 G2 z2 G2      | z2 G2 z2 G2      :| cG z G AG_G=G  | B =A2 _A- A4        |
+[V:2] z2 E2 z2 E2      | z2 E2 z2 E2      :| EE z E FEDE    | G _G2 F- F4         |
+[V:3] z2 C2 z2 C2      | z2 C2 z2 C2      :| z8             | D _D2 C- C4         |
+[V:4] C,3 G,, B,,2 C,2 | C,3 G,, B,,2 C,2 :| C,2 C,2 z2 C,2 | F,,2 =B,,C, D,F,A,C |
+%
+[V:1] AD z D ED_D=D        | F =E2 _E- E4         | cG z G AG_G=G  | B =A2 _A- A4        |
+[V:2] =B,B, z B, CB,_B,=B, | D _D2 C- C4          | EE z E FEDE    | G _G2 F- F4         |
+[V:3] z2 G,2 z2 G,2        | A, _G,2 =G, A,G,E,C, | z8             | D _D2 C- C4         |
+[V:4] G,,4 F,,4            | C,,8                 | C,2 C2 C2 C,2  | F,,2 =B,,C, D,F,A,C |
+%
+[V:1] AD z D ED_D=D      | G8           ||
+[V:2] z2 A,2 z4          | z4 =B,F- F2  ||
+[V:3] z2 D,2 _G,4        | z D, =A,2 z4 ||
+[V:4] F,,2 C,2 =A,,2 D,2 | G,,8         || 
+%
+[V:1] [K:C] z2 G z z2 G z      | z2 F z z2 G2        |: c8-            | c3 B cdcB         |
+[V:2] [K:C] z G, EG, z A, EA,  | z A, DA, z B, F2    |: z E GE z A EA  | z F AA ABAG       |
+[V:3] [K:C] z2 C z z2 C z      | z2 C z z2 D2        |: z C EC z E CE  | z D FF FFFF       |
+[V:4] [K:C] C,2 z C, A,,2 z C, | D,2 z D, G,,2 z G,, |: C,2 z2 A,,2 z2 | D,,2 z2 G,,D, G,2 |
+%
+[V:1] c B2 A- A4-    | A3 B cdcB       | c B2 A c3 A     | G F2 G A2 F2      | E8-                      |1
+[V:2] G G2 E- EECC   | z D FF ABAG     | G G2 G AAEE | D D2 D D2 D2      | z ^G, G,A, A,B,B,C       |1
+[V:3] E E2 C- CCB,C  | z A, DD FFFF    | E E2 E EECC | B, B,2 B, B,2 B,2 | z B,, B,,C, C,^G,,G,,A,, |1
+[V:4] C,2 z2 A,,2 z2 | D,,2 z2 G,,2 z2 | C,,2 z2 A,,2 z2 |D,,2 z2 F,,2 z2    | E,,8-                    |1
+%
+[V:1] E6 G2              :|2 G6 D2                | FFFG AAA^G          | A3 ^G AGAB      |
+[V:2] CB,B,A, G,2 F2     :|2 CB,B,A, ^G,2 z2      | z2 B,2 z2 f2        | F3 z F z F z    |
+[V:3] A,,D,D,C, B,,2 D,2 :|2 A,,D,D,C, B,,2 B,,2  | z2 F,2 D,A, B,2     | B,2 A,2 D z D z |
+[V:4] E,,6 E,,2          :|2 E,,6 z2              | D,,2 B,,2 D,,2 D,,2 | D,,2 F,2 z2 A,2 |
+%
+[V:1] ^G3 E EFFE          | EA^GA G2 Bc        | dddc BBBc         | BBBA GAGF       |
+[V:2] E3 B, B,CCB,        | B,_EDE D2 ^G,2     | z2 A,2 z2 F2      | z2 A,2 z2 D2    |
+[V:3] B,3 ^G, G,A,A,G,    | ^G,CB,C B,2 B,,2   | z2 F,2 D,A, B,2   | z2 F,2 z B, B,2 |
+[V:4] E,,2 B,,2 C,,2 B,,2 | E,,F,E,F, E,2 E,,2 | D,,2 B,,2 D,,2 z2 | D,,2 B,,2 D,4   |
+%
+[V:1] E3 e effe       | e2 z2 G2 G2       |:
+[V:2] B,3 B BBBB      | B2 z2 D2 F2       |:
+[V:3] ^G,3 ^G GGGG    | ^G2 z2 F,2 B,2    |:
+[V:4] E,,2 B,,E, DEED | D2 G,,2 G,,2 G,,2 |:
+%
+[V:1] c8-            | c3 B cdcB         |
+[V:2] z E GE z A EA  | z F AA ABAG       |
+[V:3] z C EC z E CE  | z D FF FFFF       |
+[V:4] C,2 z2 A,,2 z2 | D,,2 z2 G,,D, G,2 |
+%
+[V:1] c B2 A- A4-    | A3 B cdcB       | c B2 A c3 A     | G F2 G A2 d2      |1 E8-            |
+[V:2] G G2 E- EECC   | z D FF ABAG     | G G2 G AAEE | D D2 D D2 D2      |1 G z G z z A EA |
+[V:3] E E2 C- CCB,C  | z A, DD FFFF    | E E2 E EECC | B, B,2 B, B,2 B,2 |1 ECEC z E CE    |
+[V:4] C,2 z2 A,,2 z2 | D,,2 z2 G,,2 z2 | C,,2 z2 A,,2 z2 | D,,2 z2 F,,2 z2   |1 C,2 z2 A,,2 z2 |
+%
+[V:1] E4 G4            :|2 E8-            | (E4 d2) c z     | g8-               |
+[V:2] z F AF z2 F2     :|2 G z G z z A EA | z2 G z z2 _A z  | z G G2 z E E2     |
+[V:3] z D FD z G, B,2  :|2 ECEC z E CE    | z C EC z D FD   | z C C2 z A, A,2   |
+[V:4] D,,2 z2 G,,2 z2  :|2 C,2 z2 A,,2 z2 | C,2 z2 F,,2  z2 | z A, A,2 z G, G,2 |
+%
+[V:1] g8-               | g2 z2 g2  z2  | c'2 z2 z4 |] 
+[V:2] z A, A,2 z A, A,2 | c2 z2  f2  z2 | G2 z2 z4  |]
+[V:3] z G, G,2 z E, E,2 | E2  z2 D2  z2 | E,2 z2 z4 |]
+[V:4] z E, E,2 z C, C,2 | A,2 z2 G,2 z2 | C,2 z2 z4 |]
+S:https://www.folktunefinder.com/tunes/182092
+S:http://abcmr.sourceforge.net/perfidia.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,40 @@
+X: 1
+T: Ostindiens velkomst
+T: Welcome to East India
+O: Denmark
+Z: 2006 John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin (notated "OL.1987")
+M: 2/4
+L: 1/16
+Q: 1/4=92
+K: D
+V: 1
+A2 \
+|: "D"d2d2 f2a2 | d4 e2f2 | "Em"{ff}g3f "E7"e2d2 | "A7"c2B2 A2A2 \
+|  "D"d3d  f2a2 | d4 e2f2 | "Em"g2g2 "A7"cdec |1 "D"d4 d2A2 :|2 "D"d4 d2 |]
+|: ef \
+|  "G"{fgf}g3g "A7"f2e2 | "D"(de)fg (Ma2.a2) | "D"d3d c2d2 |::["3 gange" ecAc "A7"e2e2 ::| \
+   "A7"c3c "E"B2B2 | "A"(A4 "A7"a2)fe | "D"d3d "F#m"c2A2 | "G"B4 B2
+y2ef \
+|  "Em"{fgf}g3g "D"f2d2 | "A7"e4 e2fg | "D"a3a a2"/G"b2 | "A7"g2gf e2fg \
+|  "D"a3a a2"/G"b2 | "A7"g2gf e2g2 | "D"fed2 "A7"edc2 | "D"d4 d2 :|
+V: 2
+A,2 \
+|: "D"D2D2 F2A2 | D4 A,2D2 | "Em"E3D "E7"C2B,2 | "A7"A,2C2 A2G2 \
+|  "D"F2A2 d2f2 | d4 c2d2 | "Em"e2e2 "A7"A2G2 |1 "D"([A2F2][A2D2]) ([A2D2][A2D2]) :|2 "D"([A2F2][A2D2]) ([A2D2] |]
+|: [A2D2]) \
+|  "G"{ABA}B3B "A7"A2G2 | "D"(FG)AB A2A2 | "D"F3G A2A2 |::["3 gange" z4 .[e2A2].[e2A2] ::| \
+   "A7"C3D "E"E2^G2 | "A"A2G2 F2D2 | "D"F3F "F#m"A2F2 | "G"G4 G2
+y2GF \
+|  "Em"E2D2 "D"D2F2 | "A7"C2B,2 A,2DE | "D"F3F F2"/G"G2 | "A7"E2ED C2B,A, \
+|  "D"DEFG AF"/G"G2 | "A7"E2ED C2E2 | "D"AGF2 "A7"EFG2 | "D"[A4F4] ([A2D2] :|
+S:https://www.folktunefinder.com/tunes/180677
+S:http://trillian.mit.edu/~jc/music/abc/Denmark/sonderho/OstindiensVelkomst_D.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/sonderho/OstindiensVelkomst_D.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

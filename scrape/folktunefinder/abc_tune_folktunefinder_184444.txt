@@ -1,0 +1,35 @@
+X:15
+T:Raemona's Waltz
+C:Brian Hebert
+N:Chords added by MB
+N: an alternative to the Ebdim is a plain B
+R:Waltz
+M:3/4
+L:1/8
+K:G
+dc (3BcB G>E||\
+"G"D2B3D|"Ebdim"_E2B3_E|"Em"=E2B3d|"Am"c2B2A2|"C"G2E3G|"D"F2G"D7"A3|\
+"G"D6-|D3B,C^C|\
+"G"D2B3D|"Ebdim"_E2B3_E|"Em"=E2B3d|"Am"c2B2A2|"C"G2E3G|"D"F2G"D7"A3|\
+"G"G6|\
+G3D (3EFE|\
+"G"D2B3D|"Ebdim"_E2B3_E|"Em"=E2B3d|"Am"c2B2A2|"C"G2E3G|"D"F2G"D7"A3|!
+"G"D6-|D3B,C^C|\
+"G"D2B3d|"Ebdim"_e2B3_E|"Em"=E2B3d|ed Bd BA|"C"G2E3G|"D"F2G"D7"A3|\
+"G"G6|G3def||!
+|:"G"g6|"D"f2d"Em"B3|"C"c3d (3efg|"D"d6 |\
+"C"e3f (3gfe|"D"de dc B2|"A"A2 ^C2 (3efe|"D"d3 d ef|!
+  "G"g6|"D"f2d"Em"B3|"C"c3d (3efg|"D"d4 dB|"Am"c3c2c|\
+"D"c2B2F2|[1 "G"G6 |G3 def:|[2 "G"g6 |G3 B, C^C||
+S:https://www.folktunefinder.com/tunes/184444
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/RaemonasWaltz.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,37 @@
+X:930
+T: Return to Corofin (with piano acc.)
+C: BB
+R: reel
+Q: 350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 clef=bass m=D volume = 70 program 1 00
+K: D
+[V:1] "D"FGAB AFDF | "G"GABc "D"d3 A | "Bm"F2 BF dFBF | "Em"EGBd "A"cAGE |
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2D2B2]D,2[A2D2F2]|B,,2[F2D2B2]F,,2[F2D2B2]|\
+E,2[E2G2B2]A,,2[A2C2E2]|
+%
+[V:1] "D"FGAB AFDF | "G"GABc "D"d3 e| "Bm"fd (3dcd "Em"edBd | "A"cAGE "D"FD D2 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2D2B2]D,2[A2D2F2]|B,,2[F2D2B2]E,2[E2G2B2]|\
+A,,2[A2C2E2][D,,4A,,4F,4]:|
+%
+[V:1] "D"fdfa "G"gb (3b^ab | "Bm"afdB "A"BA A2 | "D"FGAB AFDF | "G"GABc "D"d3 e |
+[V:2] D,2[A2D2F2]G,,2[G2D2B2]|B,,2[F2D2B2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+G,,2[G2D2B2]D,2[A2D2F2]|
+%
+[V:1] "D"fdfa "G"gb (3b^ab |"Bm"afdB "A"BA A2 |"G"Bgge "Em"cded |"A7"cAGE "D"FD D2 :|
+[V:2] D,2[A2D2F2]G,,2[G2D2B2]|B,,2[F2D2B2]A,,2[A2C2E2]|G,,2[G2D2B2]E,2[E2G2B2]|
+A,,2[A2C2E2][D,,4A,,4F,4] :|
+%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87071
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

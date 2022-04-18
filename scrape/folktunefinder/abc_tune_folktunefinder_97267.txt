@@ -1,0 +1,33 @@
+X:57
+T:Swedish Waltz
+M:3/4
+L:1/4
+K:Gm
+V:1
+D | "Gm"G>A B/c/ | d2 B | "D"BA^F | "Gm"A G/^F/G/D/ |
+V:2
+D | B,>C D | G2 D/C/ | D2 D | D D/C/B,/A,/ |
+%
+V:1
+G>A B/c/ | d2 B | "D"BA^F | "Gm"G2 :|
+V:2
+B,>C D | G2 D | D2 D/C/ | B,2 :|
+%
+V:1
+|: d |"Gm"g>^f d/f/ | g>^f d/f/ | g>^f d | "Cmaj"c>d "D"=e/^f/ | "Gm"g>^f d/f/ |
+V:2
+|: G |B>A G/A/ | B>A G/A/ | B>A G/=F/ | =E>^F G/A/ | B>A G/A/ |
+%
+V:1
+g>^f d/f/ | g>^f d | B>A B/c/ | "D"d B/A/^F/A/ | "Gm"G2 :|
+V:2
+B>A G/A/ | B>A G | D2 D/C/ | D D/C/B,/A,/ | G,2 :|
+S:https://www.folktunefinder.com/tunes/97267
+S:http://www.thursdaycontra.com/~spuds/tunes/couple/allother.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

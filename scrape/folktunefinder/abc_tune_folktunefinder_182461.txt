@@ -1,0 +1,41 @@
+X: 1
+T: Pilalitos
+O: Greece
+M: 6/8
+L: 1/8
+Q: 3/8=70
+K: Eb
+%%MIDI channel 1
+%%MIDI program 1 71
+F\
+%%MIDI chordprog 21
+%%MIDI bassprog 21
+%%MIDI gchord c2cc2c
+|"Bb" B2B c2B | d2B def | d2B c2B | def d2F |
+      B2B c2B | d2B def | d2B c2=A | B3 z2 :|
+K: Bb
+z |:"Cm" c3 c3 | c3 z3 | cBA G2A |"Bb" B3 z3 :|
+Q: 3/8=110
+|:"Bb" def d2B | c2B d2B | def d2B | c2A B2z :|
+|:"Bb" Bcd e2d | f2d e2c | d2B c2A | B2z F2z |
+  "Ab" Bcd e2d | f2d e2c | d2B "F"c2A |"Bb" B2z z3 :|
+W:
+W:
+W:Arrangement Copyright (C) 2008 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/182461
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Pilalitos.abc
+S:http://people.csail.mit.edu/jaffer/Music/Pilalitos.abc
+S:http://voluntocracy.org/Music/Pilalitos.abc
+S:http://www.voluntocracy.org/Music/Pilalitos.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Key A-sharp
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

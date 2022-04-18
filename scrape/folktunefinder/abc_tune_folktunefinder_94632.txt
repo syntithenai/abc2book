@@ -1,0 +1,30 @@
+X:034
+U: ~ = !turn!
+%%topmargin 3cm
+T:College Grove
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+D2 ((3FED) ADFD | JE2 =cE dEcE | (3.D.D.D FA dfed | [1 cAGE {/F}EDCE :| [2 cAGE {/F}ED D2 ||
+|: fd (3.d.d.d fagf | e=c (3.c.c.c efge | [1 fd ((3{/e}ded) dfed | cAGE {/F}ED D2 :|
+[2 dfeg ((3fga) gb | afge fd d2 |:  fa{/b}ag fddf | efgf e=c c2 |
+[1 fa{/b}ag fded | cAGE {/F}ED D2 :| [2 dfeg ((3fga) gb | afge fd d2 ||
+Jf2 df f2 df | Pe2 =ce Pe2 ce | Jf2 df f2 ed | cAGE {/F}ED D2 |
+Jf2df dfdf | Pe2 =ce cece | dfeg ((3fga) gb | afge fd d2 |]
+S:https://www.folktunefinder.com/tunes/94632
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/College_Grove_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/College_Grove_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/College_Grove_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/College_Grove_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

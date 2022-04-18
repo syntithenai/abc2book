@@ -1,0 +1,42 @@
+X:1
+T:Mid-repeat variations
+C:Ewan Macpherson <[EMAIL PROTECTED]>
+M:2/4
+L:1/8
+K:HP
+%%text Basic usage: The symbol for the end of the bracket comes 
+%%text *before* the final bracketed note.
+%%text |: A4 | A4 | !1(!AB c!1)!d | !2(!cd e!2)!f | A4 :|
+|: A4 | A4 | !1(!AB c!1)!d | !2(!cd e!2)!f | A4 :|
+%
+%%vskip 1cm
+%%text To bracket a single note, put both &quot;begin&quot; and &quot;end&quot; codes 
+%%text *before*  the note, with a spacer 'y' in between:
+%%text |: A4 | A4 | !1(!y!1)!A2 !2(!y!2)!c2 B2 | A4 | A4 :|
+|: A4 | A4 | !1(!y!1)!A2 !2(!y!2)!c2 B2 | A4 | A4 :|
+%
+%%vskip 1cm
+%%text If the bracketed section begins with a gracenote, put a spacer 
+%%text between the bracket-start and the gracenote.
+%%text |: A4 | A4 | !1(!y\{g\}AB c!1)!d | !2(!y\{g\}cd e!2)!f | A4 :|
+|: A4 | A4 | !1(!y{g}AB c!1)!d | !2(!y{g}cd e!2)!f | A4 :|
+%
+%%vskip 1cm
+%%text If the bracketed section ends with a gracenote, put the &quot;end&quot; 
+%%text code between the gracenote and the main note.
+%%text |: A4 | A4 | !1(!AB c\{g\}!1)!d | !2(!cd e\{g\}!2)!f | A4 :|
+ |: A4 | A4 | !1(!AB c{g}!1)!d | !2(!cd e{g}!2)!f | A4 :|
+%
+%%vskip 1cm
+%%text To bracket a single note with a gracenote, the order is:
+%%text &quot;begin&quot; - spacer - gracenote - &quot;end&quot; - mainnote
+%%text |: A4 | A4 | !1(!y\{g\}!1)!B2 !2(!y\{g\}!2)!c2 A2 | A4 :| 
+|: A4 | A4 | !1(!y{g}!1)!B2 !2(!y{g}!2)!c2 A2 | A4 :|
+S:https://www.folktunefinder.com/tunes/175657
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg05341.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

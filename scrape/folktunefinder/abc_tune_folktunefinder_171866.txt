@@ -1,0 +1,22 @@
+X: 1
+T: Lenny Chiasson's
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|:&quot;D&quot;d2 D2 fedc|&quot;G&quot;AB B2 gfed|&quot;A&quot;c/2d/2e ec Agfe|f/2g/2a ge fdAG|
+&quot;D&quot;F2z f fedc|&quot;G&quot;AB B2 gfed|&quot;A&quot;c/2d/2e ec Agfe|f/2g/2a &quot;D&quot;ge d4:|
+|:&quot;Bm&quot;BF ~F2 BFBc|dcde fd B/2c/2d|&quot;A&quot;eAce aece|a2-ab aece|
+&quot;Em&quot;fdcd eAcA|&quot;G&quot;BGFG ADFA|&quot;D&quot;d2 Ad GdFd|&quot;A&quot;fage &quot;G&quot;fddc:|
+S:https://www.folktunefinder.com/tunes/171866
+S:http://www.thesession.org/tunes/display/6147
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

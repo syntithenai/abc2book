@@ -1,0 +1,26 @@
+X: 1
+T: Mr. Beveridge's Maggott
+R: minuet
+O: English
+Z: John Chambers <jc@trillian.mit.edu>
+N:
+N: Cecil Sharp, 1922
+N: Henry Playford, 1696
+N: Peter Barnes, 1986
+M: 3/4
+L: 1/8
+K: Em
+|: "Em"e2 "B7"^d{ed}^c/d/ "Em"e2 | "Am"BA/G/ "B7"F/G/A "Em"GE | "Em"e2 "D7"f{gf}e/f/ "G"g2 | "G"dc/B/ "D7"A/B/c "G"BG :|
+|: "G"Bd- dd d2 | "D7"Ac- cc c2 | "Em"GB- BB BA/G/ | "Am"F/G/A "Em"GF/E/ "B7"^DB, |
+| "B7"Bf- ff fB | "Em"gf "B7"~e>^d "Em"e2 | "G"B/c/d G/A/B "Am"F/G/A | "Em"GE "B7"~E>^D "Em"E2 :|
+S:https://www.folktunefinder.com/tunes/177341
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/BeveridgesMaggott.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X: 221
+T: Tarpaulin Cove (reel) 
+C: BB 1/06
+N: 202058
+L: 1/8
+M: 4/4
+R: reel
+Q: 380
+K: Am
+G| "Am" A3B "F"cAGF | "Em" E2 BE "G" GABG |\
+"Am" A^GAB "F" cdef | "C" ecce "G" dcBG |
+"Am" EA ~A2 cBAG | "F" FA ~A2 dcAF |\
+"Am" EAcA "Dm" FAdc | "G" BGGB "Am" A3 :|
+E | "C" Gcce gcce | "Am" aba^f "Em" gedB |\
+"C" ceec "G" dBGB | "Am" ABcA "G"GABd |
+"C" ec (3cBc Gc (3cBc | "G" dBBG "Em"EBBG |\
+"Am" A^GAB "F" cdef | "Em7" edBG "Am" A3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86667
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

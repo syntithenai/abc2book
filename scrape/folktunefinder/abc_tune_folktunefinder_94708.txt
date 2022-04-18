@@ -1,0 +1,29 @@
+X:112
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lark in the Clear Air
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Billy Pigg
+R:Air
+L:1/8
+M:C
+K:D
+a3 f d3 e/2d/2 | cd B3 G HA2 | AB/2c/2 d3 e f2 | g(e e2) a4 |
+a3 f d3 e/2d/2 | cd B3 G HA2 | AB/2c/2 d2 f2 B2 | e2 c3 d (d2 | d6) A2 |
+d2 ed cd ((3efg) | a2 b3 a f2 | d3 e f2 a2 | g3 f f2 e2 |
+a3 f d3 e/2d/2 | cd B3 G HA2 | AB/2c/2 d2 f2 B2 | e2 c3 d (d2 | d8) |]
+S:https://www.folktunefinder.com/tunes/94708
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lark_in_the_Clear_Air_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lark_in_the_Clear_Air_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

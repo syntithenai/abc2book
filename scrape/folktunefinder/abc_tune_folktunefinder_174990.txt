@@ -1,0 +1,28 @@
+X:1
+T:Mazurka Irlandaise A
+E:12
+Z:Roger Ngaret (97)
+R:mazurka
+C:Trad.
+S:
+A:Irlande
+M:3/4
+L:1/16
+K:G
+Q:1/4=130
+G,2B,2 |: "G"D4 D2C2 B,2D2 | "Em"G4 G2D2 E2D2 | "C"C2B,2 C2E2 D2C2 | \
+"D"B,2D2 A,2D2 G,2B,2 | "G"D4 D2C2 B,2D2 |\
+"Em"G4 G2D2 E2D2 | "C"C2D2 E2G2 A2F2 |1 "G"G8 G,2B,2 :|2\
+G8 D2G2 |: B4 B2d2 c2B2 | "D"A4 A2c2 B2A2 | "Em"G4 G2B2 A2G2 |\
+"D"F2A2 E2A2 D2G2 | "G"B4 B2d2 c2B2 | "D"A4 A2c2 B2A2 | \
+"Em"G2F2 G2B2 A2F2 |1 "G"G8 D2G2 :|2 G8 G,2B,2 |]
+S:https://www.folktunefinder.com/tunes/174990
+S:http://termen.free.fr/danses/mazurkas/MazurkaIrlandaiseA.abc
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

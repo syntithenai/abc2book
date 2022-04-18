@@ -1,0 +1,27 @@
+X:0209
+T:"Lord Mayo"           (air)          0209
+C:after Chief  F. O'Neill
+C:slow
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N:Transposed from F
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"_VB"AG|(E3/2A/2) (A/2B/2d) e2(dB)|e2(A3/2B/2) (AG) E2|E3/2A/2 (A/2B/2d) e2(ge)|(e3/2d/2) (B3/2A/2) A2||
+"^dolce"e2|(ge)(ga) b2(ag)|(e3/2d/2) (e/2f/2g) (G3/2A/2) (GE)|(ge)(ga) b2(ag)|e2(ab) a2(ba)|
+(ge)(ga) b2(ag)|e3/2d/2  (3(efg) G3/2A/2 GE|(E3/2A/2) (dB) (AG) (ge)|e3/2d/2 B3/2A/2 A2|]
+S:https://www.folktunefinder.com/tunes/172984
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0209-LordMayo.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0209-LordMayo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

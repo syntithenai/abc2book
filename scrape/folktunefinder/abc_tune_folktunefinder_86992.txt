@@ -1,0 +1,32 @@
+X:535
+T: Mick O'Connor's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 00
+K: A
+[V:1] D|"A"EAA cAA|"A"eAA cAA|"D"fdf "A"ecA|"Bm"Bcd "E"BGE|
+[V:2] z|A,,2[ACE]E,,2[ACE]|A,,2[ACE]E,,2[ACE]|D,2[AFD]A,,2[ACE]|B,,2[BDF]E,2[EGB]|
+%
+[V:1] "A"EAA cAA|"A"eAA cAA|"Bm"fdB "D"FAd|"E"BGB "A"A2 :|
+[V:2] A,,2[ACE]E,,2[ACE]|A,,2[ACE]E,,2[ACE]|B,,2[BDF]D,2[AFD]|E,2[EGB][A,,2C2E,2]:|
+%
+[V:1] e|"A"aga ecA|"A"Ace aec|"Bm"dBB "G"=gBB|"E"bag ef^g|
+[V:2] z|A,,2[ACE]E,,2[ACE]|A,,2[ACE]E,,2[ACE]|B,,2[BDF]=G,,2[=GBD]|E,2[EGB] B,,2[EGB]|
+%
+[V:1] "A"aAA eAA|"F#m"efe ecA|"A"EAc "D"dcd|"E"BAG "A"A2 :|
+[V:2] A,,2[ACE]E,,2[ACE]|F,,2[FAC] C,,2[FAC]|A,,2[ACE]D,2[AFD]|E,2[EGB][A,,2C2E,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86992
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

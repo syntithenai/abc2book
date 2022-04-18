@@ -1,0 +1,31 @@
+X:865
+T:the Village Maid
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001091.html
+%%ID:00001091
+K:F
+(F/E/F/G/) FA    |    GF   F2    | A/G/A/B/ Ac | BA A2 | \
+g(e/d/)  c(g/f/) | A(a/f/) ca    | bgfe        | f2 F2 ::
+af       de/f/   | ge      cd/e/ | fdc=B       | c/B/c/d/ cc | \
+af       de/f/   | ge      cd/e/ | fdc=B       | c2      c2 ::
+c3/d//c// _BA    | ccBA          | d3/e//d//   | cB ddcB | \
+c3/d//c// BA     | ccBA          | BGFE        | F2 F2 ||
+Cc/=B/ c_B       | Afef          | Cc/=B/ c_B  | Afef | \
+dbbb             | caaa          | (g/a/g/f/) (e/f/e/d/) | (c/d/c/B/) (A/B/A/G/) |
+c3/d//c// BA     | ccBA          | d3/e//d// cB | ddcB | \
+c3/d//c// BA     | ccBA          | BGFE        | F2 F2 |]
+S:https://www.folktunefinder.com/tunes/88330
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

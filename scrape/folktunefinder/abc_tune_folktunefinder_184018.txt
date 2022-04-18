@@ -1,0 +1,30 @@
+X: 1
+T: Prince William
+O: Pat Shaw 1960
+C:
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Longways for 3 couples
+N: Walsh, "Compleat Country Dancing Master" 1731
+M: C|
+L: 1/8
+P: 6xAABB
+K: G
+|: D2 \
+| "G"G4 B2AG | "D7"A6 c2 | "G"B4 "D7"A4 | "G"GFGA G2A2 \
+| "G"B2G2 D2B2 | "D"A6 G2 | F2d2 "A7"E2^c2 | "D"d6 :|
+|: Bc \
+| "G"d2z2 "C"e3d | "D7"c2B2 A3B | c2B2 A2G2 | F2A2 D2EF \
+| "G"G2FG "D7"A2GA | "G"B2AB "C"c2dc | "G"B2AG "D7"D2F2 | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/184018
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/PrinceWilliam.abc
+S:http://trillian.mit.edu/~jc/music/abc/by/PatShaw/PrinceWilliam.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

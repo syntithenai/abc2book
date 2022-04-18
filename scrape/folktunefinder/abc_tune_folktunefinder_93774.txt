@@ -1,0 +1,24 @@
+X:530
+T: Macallum's
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+R: jig
+M: 6/8
+L: 1/8
+K: Ddor
+ADD DEG|Add c2e|dcA AGE|c2A GED|
+ADD D/E/FG|Add c2e|dcA AGE|GED D3 :|
+Add dcd|cde e2d|cAA AGE|c2e dcA|
+|1 Add dcd|cde e2d|cAA AGE|GED D2G :|
+|2 Add dcd|cde a2g|edc AGE|GED D2||
+S:https://www.folktunefinder.com/tunes/93774
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

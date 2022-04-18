@@ -1,0 +1,23 @@
+X:47
+T:Peacocks Fancy
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+D | G3 B2 G | c2A B2G | c2A Acd |
+e3- e2 f | g2e f2d | B2d g2e |
+dBG A2G | E3- E2 :: f | g2f efg |
+a2f d2f | g2e faf | e3 e2 f |
+g2e f2d | B2d g2e | dBG A2G | E3- E2 :|
+S:https://www.folktunefinder.com/tunes/181898
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Peacocks_Fancy.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

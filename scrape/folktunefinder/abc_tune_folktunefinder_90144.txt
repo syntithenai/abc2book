@@ -1,0 +1,37 @@
+X:2
+T:Branles.... coups dd / ds
+C:Pierre Phalse, Antwerpen Tanzbuch
+O:1571 - 1583
+T:Branle du petit homme
+M:C|
+L:1/4
+K:Dm
+%%staves [1 2 3 4 ]
+V:1
+GG^FD : BBA2 : GG^FD : E^CD2 :: d2cB : A^FGA : B2G2 :|
+V:2
+DDDB,/C/ : D>EF2 : EED^F/G/ : A2^F2 :: =F>G AG : ^FAD/E/^F : D2D2 :|
+V:3
+BBAG : BBc2 : ccAA : A2A2 :: B2Ad : ddBA : G2G2 :|
+V:4
+G,G,D,G,, | G,G,F,2 : C,C,D,D, : A,,2D,2 :: B,2F,G, : D,D,G,D, : G,,2G,,2 :|
+T:Branle legier double du petit homme
+V:1
+M:6/4
+G2G ^F2D | B2B A3 | G2G ^F2D | E2^C D3 :: d3c2B | A2^F G2A | B3 G3 | A2^F G3 :|
+V:2
+D2D D2D | D2D F3 | E2E D2A | A3^F3 :: =F3A2G | ^F2D D2D | D3D3 | D2DB,3 :|
+V:3
+B2B A2A | B2B c3 | c2c A2A | A3 A3 :: B3 A2d | d2A B2A | G3 G3 | ^F2A G3 :|
+V:4
+G,2G, D,2D, | G,2G, F,3 | C,2C, D,2D, | A,,3 D,3 :: B,,3 F,2G, | D,2D, G,2D, | G,,3 G,,3 | D,2D, G,,3 :|
+S:https://www.folktunefinder.com/tunes/90144
+S:http://michel.bellon.free.fr/Musique/abc/CaveSaintSabin.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Time_signature 6/4
+% Has_accompaniment_chords Has chords

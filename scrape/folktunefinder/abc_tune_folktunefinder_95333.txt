@@ -1,0 +1,30 @@
+X:135
+T:the Prince's welcome to the Isle of Sky
+B:Aird's Airs and Melodies vol 3
+M:4/4
+Z:Richard Robinson 
+%RRN:For the Ger. Flute
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001ab.html
+%%ID:000001ab
+K:G
+"Moderato" ge|\
+d2G2 (cB)(AG)| d2G2 cBAG| e2A2 A>Bc>d| e2A2 A>Bc>e|
+edcB g2fe| edcB cBAG| BAGE DEGA| B2G2 G2::
+(ga)|\
+b2gb a2fa| g2eg edcB| e2A2 ABcd| e2A2 ABcc'|
+bagb agea| gedg edcB| cBAG DEGA| B2G2 G2::
+d'c'|\
+b2g2 bc'd'c'| b2g2 bc'd'b| c'2a2 abc'd'| e'2a2 a2d'c'|
+b2g2 bc'd'c'| b2g2 bc'd'g| dega bd'ac'| b2g2 g2::
+c'2|\
+bagb agea| gedg edcB| eaaA ABcd| eAaA ABcc'|
+bagb agea| gedg edcB| cBAG DEGA| B2G2 G2:|
+S:https://www.folktunefinder.com/tunes/95333
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

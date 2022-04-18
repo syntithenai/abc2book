@@ -1,0 +1,20 @@
+X: 5
+T: Loopty Lou
+T: Loopy Lou
+M: 9/8
+L: 1/8
+R: slip jig
+K: G Major
+|: deg d2 B d3 | deg d2 B A3 | 
+deg d2 B d3 |[1 d2 d cBA G3 :|[2 d2 c B2 A G3 ||
+G2 G d2 B d3 | G2 G d2 B A3 |
+G2 G d2 B d3 |[1 d2 d cBA G3 :|[2 d2 c B2 A G3 |]
+S:https://www.folktunefinder.com/tunes/172892
+S:http://www.thesession.org/tunes/display/7782
+% Rhythm Slip jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

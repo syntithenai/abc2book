@@ -1,0 +1,33 @@
+X: 1
+T:No Room for the Cuckoo
+M:6/8
+C:
+S:Chingford MM
+N:
+A:Chingford
+O:English
+R:Jig
+%P:A.(AB$^3$C)$^4$.A
+P:A.(AB3C)4.A
+L:1/8
+K:G
+I:speed 300
+P:A
+|:\
+z|GAB FED|EGe dBG|GAB FED|E2 F G2:|\
+P:B
+A|B3  B3|BAG A3|GAB FED|E2 F G2||\
+P:C
+z|BAG BAG|BAG A3|GAB FED|E2 F G2||
+S:https://www.folktunefinder.com/tunes/179068
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/no/No_Room_for_the_Cuckoo_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

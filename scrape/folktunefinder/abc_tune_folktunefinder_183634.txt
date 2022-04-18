@@ -1,0 +1,21 @@
+X: 1
+T: Pound Hill
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+(3ABc |: d>cd>f e>c A2 | d>B (3GAB A>F D2 | G>FG>A (3Bcd e>d | c2 A2 A2 (3ABc |
+d>A (3AAA f>A (3AAA | f>ef>g a>fd>A | (3Bcd c>B A>GF>E | (3DED C>E D4 :| 
+d>cd>B G2 B>G | D>GB>G F>DF>A | a>fg>e f2 e>d | ^c>de>d c>BA>^G |
+A>df>d c>de>d | c>Bc>d e>f (3gfe | a>f (3def g>e (3cde | (3ded c>e d4 :|
+S:https://www.folktunefinder.com/tunes/183634
+S:http://www.thesession.org/tunes/display/5525
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

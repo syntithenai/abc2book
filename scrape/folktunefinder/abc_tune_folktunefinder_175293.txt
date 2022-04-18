@@ -1,0 +1,29 @@
+X: 2
+T:The Mentalpiece
+M:4/4
+L:1/8
+Q:200
+C:Stephen P. McNally
+S: 1997
+R:reel
+N:
+K:Bm
+|:BBfB BgBB|fBBg fedc|BBfB BgBB|fedc defd|
+BBfB BgBB|fBBg fedc|dddB eeec|fdcf dcfc:|
+|:dBBd BBeB|fBBd BBfB|eccc ecfc|eccc ecfc|
+dBBd BBeB|fBBd BBfB|eccc eccc|fdcf dcfc:|
+|:(3Bcd fB df (3Bcd|fBdf gfed|(3Bcd fB df (3Bcd|fedc defd|
+(3Bcd fB df (3Bcd|fBdf gfec|dddB eeec|fdcf dcfc:|
+|:(3dcB (3dcB fB (3dcB|(3dcB fB (3dcB fB|cdef gcde|fgcd efge|
+(3dcB (3dcB fB (3dcB|(3dcB fB (3dcB fB|cdef gccc|fdcf dcfc:|
+% Output from ABC2Win  Version 2.1 i on 22/11/2004
+S:https://www.folktunefinder.com/tunes/175293
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ceilidhband.org/tunes/the-mentalpiece.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

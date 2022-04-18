@@ -1,0 +1,28 @@
+X:1
+T:Le petit ver de terre
+C:Traditionnel pour enfants... fichier abc : Bernard Loffet
+L:1/8
+Q:300
+M:2/2
+K:C
+ [B2G,,2][G2G,2] [G2G,,2]G,2 | [d2G,,2][B2G,2] [B2G,,2]G,2 | [g2G,,2][d2G,2] [d2G,,2]G,2 | \
+ [A2D,,2][BD,]c [B2D,,2][A2D,2] | [B2G,,2]G,2 [G2G,,2]G,2 | [B2G,,2][G2G,2] [G2G,,2]G,2 | \
+ [d2G,,2][B2G,2] [B2G,,2]G,2 | [g2G,,2][d2G,2] [d2G,,2]G,2 | [A2D,,2][BD,]c [B2D,,2][A2D,2] | \
+ [G2G,,2]G,2 G,,2G,2 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/182237
+S:http://diato.ifrance.com/diato/tablat/162.abc
+S:http://diato.ifrance.com/tablat/162.abc
+S:http://diato.org/tablat/162.abc
+S:http://perso.orange.fr/diato/tablat/162.abc
+S:http://perso.wanadoo.fr/diato/tablat/162.abc
+S:http://pro.wanadoo.fr/diato/tablat/162.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/162.abc
+S:http://www.diatonique.net/tablat/162.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

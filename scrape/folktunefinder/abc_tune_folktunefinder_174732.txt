@@ -1,0 +1,28 @@
+X:0
+T:Master Seamus
+R:reel
+C:Charlie Lennon
+D:Dermot Byrne: "Dermot Byrne", 1a
+M:C|
+L:1/8
+K:A
+AF||EC~C2 EAcA|FD~D2 FAdA|GE~E2 (3GAB e^d|fe^de cAFA|
+~E2CE ACEA|FA,DF ADFA|GBEG BecB|AFEC A,3C|
+EC~C2 EAcA|FD~D2 FAdA|GEBE (3GAB e^d|fe^de cAFA|
+~E2CE ACEA|FA,DF ADFA|(3GAB EG BecB|AGBG ABcd||
+e~a2g ae (3cde|fddc dd'ba|g~e2^d ec'd'c'|bagf edcd|
+~e2 (3cde aece|c~d2c BcAG|F~d3 FdBA|GEDB, A,3c|
+e~a2g aece|fddc dd'ba|g~e2^d ec'd'c'|bagf edcd|
+e2 (3cde aece|c~d2c BcAG|F~d3 fdBA|GEDB, A,GAF||
+S:https://www.folktunefinder.com/tunes/174732
+S:http://trillian.mit.edu/~jc/music/abc/mirror/JeffLindqvist/MasterSeamus.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

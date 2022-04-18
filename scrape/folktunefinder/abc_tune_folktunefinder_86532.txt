@@ -1,0 +1,25 @@
+X:615
+T: Paddy the Lilter
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+K: D
+A | "D"dAB AFD | "Em"EFG "D"FED | "Em"EFG "D"FEF | "G"GAB "A"cAc |
+"D"dAB AFD | "Em"EFG "D"FED | "Em"EGB "A"Ace | "D"fdc "D"d2 :|
+A| "A7"Ace geg | "D"fdf "A"ecA | "A"Ace "G"gab | "A7"gec "D"d2 B |
+"A7"Ace geg | "D"fdf "Em"efg | "D"afd "Bm"Bcd |"A"edc "D"d2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86532
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

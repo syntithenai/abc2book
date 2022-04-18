@@ -1,0 +1,33 @@
+X: 1
+T:"Money in Advance" -- Clog
+M:C|
+L:1/8
+R:clog
+B:Ryan's Mammoth Collection
+N:154 918
+Z:Contributed by Ray Davies,  ray:davies99.freeserve.co.uk
+K:F
+u(A>.B)|\
+(c>.A)(f>.d) "^SEGUE"c>Af>d | (3cdc (3BAG F2 G>A |\
+ B>AB>c d>ef>d | a>g(3fed c2A>B |
+ c>Af>d c>Af>d | (3cdc(3BAG F2G>A | B>AB>c d>ef>g |\
+a>fc>A F2:|
+|:u(a>.g)|\
+v(3fgf(3ded (3AdA(3FAF | (D>.F)(A>.d) f2(e>.d) |\
+"^SEGUE" g>fg>a b>ag>f | e>d^c>B A2a>g |
+f>ed>^c d>fA2 | b>ag>f e>g^C2 | A>^ce>b a>gf>e |\
+ d2 f2 d2:|
+S:https://www.folktunefinder.com/tunes/176635
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/ray:davies99.freeserve.co.uk/MoneyInAdvanceClog.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/MoneyInAdvanceClog.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

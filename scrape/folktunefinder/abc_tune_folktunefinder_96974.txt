@@ -1,0 +1,27 @@
+X:14
+T:Farandole de Brianon
+R:Farandole
+C:Trad.
+A:Brianonnais - Hautes-Alpes - France
+B:Repertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:200
+K:G
+z2GB|:[dG,][d/G,/]d/[eD,][dG,]|[BG,][GG,][GG,][GG,]|[GG,]G,/B/[AD,][AD,]|[AD,]D,[GG,][BG,]|[dG,][d/G,/]d/[eD,][dG,]|[BG,][GG,][gG,][gG,]| \
+[fD,][e/D,/]d/[eD,][eD,]|[dG,]G,[BG,][BG,]|[BG,][A/D,/]G/[AD,][AD,]|1[GG,]G,[GG,][BG,]:|2[GG,]G,z2| \
+K:C
+Z:Created with TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96974
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Farandole
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:850
+T: Walkin' the Pups (with piano acc.)
+C: BB
+M: 6/8
+Q: 1/8=320
+L: 1/8
+R: jig
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] D | "G"GBd gfg | "Em"edB "G"d2 B | "C"cBc "Em"EFG | "Am"AGE "D"D2 D |
+[V:2] z|G,,2[GDB]D,2[GDB]|E,2[EBG]G,,2[GDB]|C,2[CGE]E,2[EBG]|A,,2[AEC]D,2[AFD]|
+%
+[V:1] "G"GBd gfg | "C"efg "Am"a^ga | "G"gdB "D7"cAF | "G"G3 "G"G2 :|
+[V:2] G,,2[GDB]D,2[GDB]|C,2[CGE]A,,2[AEC]|G,,2[GDB]D,2[AFC]|G,2[GDB][G,,2D,2B,2]:|
+%
+[V:1] A | "D"dfa afd | "C"cec "G"B2 c | "Bm"d2 B "G"GAB | "D"ABA FED |
+[V:2] z|D,2[AFD]A,,2[AFD]|C,2[CGE]G,,2[GDB]|B,,2[BFD]G,,2[GDB]|D,2[AFD]A,,2[AFD]|
+%
+[V:1] "G"GAB "Am"ABc | "G"Bcd "C"c2 e | "G"dBG "D"FGA |G3 G2 :|
+[V:2] G,,2[GBD]A,,2[ACE]| G,,2[GBD]C,2[EGC]|G,,2[GDB]D,2[AFD]|G,2[GDB][G,,2D,2B,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87055
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

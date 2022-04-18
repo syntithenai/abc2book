@@ -1,0 +1,30 @@
+X:0540
+T:"The Mountains Of Pomeroy"   (air)    0540
+C:Unattributed
+C:with spirit
+N:fermatas to taste
+Q:1/4=110
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_VB"d2|d2B2(dc)(BA)|G3A E2(GE)|D2(EG) G2(AB)|c2z2z2Bc|
+d2B2(dc)(BA)|G2A2E2(GE)|D2(EG) G3A|G2z2z2|
+GA|B3A G2AB|c2d2d2ge|d2B2G2(AB)|c2z2z2Bc|
+d2BB (dc)(BA)|G2A2E2GE|D2EG G3A|G2z2z2GA|
+B2A2G2AB|c2d2Hd2|ge|d3B AB|Hc2z2z2Bc|
+d2B2(dc)(BA)|G2A2E2GE|D3E G2G2|G2z2z2|]
+S:https://www.folktunefinder.com/tunes/177217
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-0501-0625/0540-MountainsPomeroy.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0501-0625/0540-MountainsPomeroy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

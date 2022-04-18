@@ -1,0 +1,22 @@
+X:1
+T:Music in the Glen
+R:reel
+M:4/4
+L:1/8
+K:G
+G2BG EGDC|B,DGB ~A3B|c2ec BcdB|cBAG FADF|
+G2BG EGDC|B,DGB ~A3B|cdef ~g3e|1 dcBA GDEF:|2 dcBA ~G3A|]
+(3BAG dG eGdG|BGdB cA~A2|BGBd edef|gdBG AGEG|
+BGBd edef|g2fg afdf|g2fg egdB|1 cABG AGEG:|2 cABG AGEF|]
+S:https://www.folktunefinder.com/tunes/177816
+S:http://www.tomkeays.com/music/wiki/lib/exe/fetch.php?cache=cache&media=plugin_abc:irish:reels:1_music_in_the_glen.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

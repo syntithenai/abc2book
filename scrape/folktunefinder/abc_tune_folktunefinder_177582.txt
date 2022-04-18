@@ -1,0 +1,23 @@
+X: 1
+T: Muieira De Cabana
+M: 6/8
+L: 1/8
+R: jig
+K: Fmaj
+d2^c|:ABA GEG|FED D^CD|EFG ABc|B2A d2^c|
+ABA GEG|FED D^CD| EFG GFE|1 D3 d2^c:|2D3 DEF||
+|:D2D D^CD|E2E EFG|A2F G2E|FED DEF|
+D2D D^CD|E2E EFG|ABA GFE|1 D3 DEF :|2 D3 ^FGA||
+|:A^FD =BG=B|A^FD ^FED|^CDE =BA=B|A^FD ^FGA|
+A^FD =BA=B|A^FD ^FED|^C=BA G^FE|1 D3 ^FGA:|2 D3 A3|B3 A3|D6|D|
+S:https://www.folktunefinder.com/tunes/177582
+S:http://www.thesession.org/tunes/display/437
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

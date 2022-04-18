@@ -1,0 +1,20 @@
+X: 1
+T: Oige ja Vasemba
+O: Estonia
+Z: John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: G
+d/d/ \
+| "G"dg "D"fa | "G"gf "D"ed/d/ | "G"dg "D"fa | "G"g2 zd/d/ \
+| "G"dg "D"fa | "G"gf "D"ed/d/ | "G"dg "D"fa | "G"g2 z2 ||
+[| "Em"b2 b>a | gf e2 | "Am"a2 a>g | "D"fe d2 \
+| "Em"b2 b>a | gf e2 | "A7"a2 a/g/f/e/ | "D"dd d |]
+S:https://www.folktunefinder.com/tunes/179772
+S:http://trillian.mit.edu/~jc/music/abc/Intl/tune/OigeJaVasemba_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

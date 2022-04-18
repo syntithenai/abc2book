@@ -1,0 +1,26 @@
+X:1
+T:Longnancy's
+M:6/8
+R:jig
+K:Fmaj
+FAc ~f2c | cdd cAG | FAc ~f2d | dcA cAG |
+FAc ~f2c | cdd cAG | G~A2 cAG | FAG FDC :|
+K:Dmin
+D2D ~G2A | GDF EDC | ~D3 ~d3 | cAB AGF |
+~D3 ~G2A | GDF EFG |[1 ~A3 cAG | FAG FDC :|[2 ~A3 cAc | dcd ede |
+K:Fmaj
+|: ~f2g agf | fgf edc | c2d Acf | fgf edc |
+cfg agf | fgf edc | dAB cAG | FAG FDC :||
+S:https://www.folktunefinder.com/tunes/172855
+S:http://www.thesession.org/tunes/display/5702
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key F
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

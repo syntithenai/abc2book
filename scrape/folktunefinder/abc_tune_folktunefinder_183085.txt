@@ -1,0 +1,38 @@
+X:1
+T:Polka nr. 23
+C:traditionell
+R:polka
+A:Gruenbach bei Freistadt, Muehlviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"4.Spielheft f.Okarina", Zusammenstellung: Volker Derschmidt, Herausgeber: Oberoesterreichisches Volksliedwerk, Linz 1995
+S:nach: Sammlung August Schwarz, Oberoesterreichisches Volkslliedarchiv Linz MVII 2
+N:in der quelle ganz in D, im buch ganz in G
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+D |\
+B2 A/G/F/E/ | ED (D/C/).D | GF (F/E/).F | AG (G/F/).G |
+B2 A/G/F/E/ | ED D/C/D | GF (F/E/).F | AG/F/ G :|
+|: D |\
+BDBD | cD/E/ F/G/A/B/ | cDcD | BD/F/ G/A/B/c/ |
+BDBD | cD/E/ F/G/A/B/ | cDcD | GG/G/ G :|
+G |:\
+GB/d/ GB | Ec/B/ A2 | (A/G/).F (F/E/).D | dc/B/ B/A/G |
+GB/d/ GB | Ec/B/ A2 | (A/G/).F (F/E/).D |1 GG G2 :|\
+                                        [2 GG G |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183085
+S:http://simonwascher.info/TradArchiv_polka/polka_nr._23.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

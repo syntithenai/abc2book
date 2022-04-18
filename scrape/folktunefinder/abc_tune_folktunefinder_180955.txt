@@ -1,0 +1,35 @@
+X: 1
+T:P\aal sine h\oner
+C:anon.
+O:Norway
+R:Reinlender
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+M:C|
+L:1/8
+Q:280
+K:D
+"D"d2d>f(a2a>)f|"G"b2b>g"D"a2a2|"A7"g2g>e"D"f2f>d|"A7"e2e>c"D"d2z2:|
+w:P\aal si-ne h\o-ner p\aa hau-gen ut-slep-te, h\o-na s\aa lett o-ver hau-ga-ne sprang.
+w:P\aal kun-ne vel[ext] p\aa h\o-na for-nem-ma, re-ven var u-te med rum-pa s\aa lang.
+"D"a2zfd2zf|"E7"e2e>d"A7"c2A2|"D"a2zfd2zf|"E7"e2e>d"A7"c2A2|
+w:Klukk, klukk, klukk, sa h\o-na p\aa hau-gen. Klukk, klukk, klukk, sa h\o-na p\aa hau-gen.
+"D"d3fa3f|"G"b2b>g"D"a2a2|"A7"g2g>e "D"ff fd|"A7"e2e>c"D"d2z2|]
+w:P\aal han sprang og reng-de med au-ga: "No t\or eg ik-kje ko-ma heim \aat ho mor."
+W:
+W:P\aal sine h\oner p\aa haugen utslepte,
+W:h\ona s\aa lett over haugane sprang.
+W:P\aal kunne vel p\aa h\ona fornemma,
+W:reven var ute med rumpa s\aa lang.
+W:Klukk, klukk, klukk, sa h\ona p\aa haugen.
+W:Klukk, klukk, klukk, sa h\ona p\aa haugen.
+W:P\aal han sprang og rengde med auga:
+W:"No t\or eg ikkje koma heim \aat ho mor."
+S:https://www.folktunefinder.com/tunes/180955
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pa/Paal_sine_h_oner_1.abc
+% Rhythm Reinlender
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

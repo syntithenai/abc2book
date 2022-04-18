@@ -1,0 +1,27 @@
+X:13
+T:Scottisch d'Orcires
+R:Scottisch
+C:Trad.
+A:Champsaur
+B:Rpertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:240
+K:D
+[DG,][BG,][BG,][AD,]|[G/G,/]A/[G/G,/]E/[DG,]G,|[D/G,/]E/[F/G,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[BG,][GG,]| \
+[DG,][BG,][BG,][AD,]|[G/G,/]A/[G/G,/]E/[DG,]G,|[D/G,/]E/[F/=C,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[GG,]G,| \
+[BG,][GG,][DG,]G,|[BG,][GG,][DG,]G,|[B/G,/]A/[B/G,/]=c/[BG,][AD,]|[A/D,/]G/[A/D,/]B/[AD,][GG,]| \
+[BG,][GG,][DG,]G,|[BG,][GG,][DG,]G,|[B/G,/]A/[B/G,/]=c/[BG,][AD,]|[ED,][FD,][GG,]G,| \
+Z:Transcrit par Alex avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96973
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Scottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

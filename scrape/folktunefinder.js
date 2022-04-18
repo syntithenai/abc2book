@@ -24,11 +24,33 @@ function generateFileName(id) {
     }
     var startTime = new Date().getTime()
     
+    //var founddir = __dirname+'/folktunefinder/'
+    //var founddone = {}
+    //var fileNames = fs.readdirSync(dir)
+    //console.log('FILENAMES',fileNames.length)
+    //for (var filenameKey in fileNames)  {
+        //var fileName = fileNames[filenameKey]
+        //var fileNumber = fileName.slice(24,-4)
+        ////console.log('foundfile',fileNumber, fileName)
+        //founddone[fileNumber] = true
+    //}
+    //console.log('complete',Object.keys(founddone).length)
+    //var emptydir = __dirname+'/empty/'
+    //var emptydone = {}
+    //var emptyFileNames = fs.readdirSync(emptydir)
+    //for (var filenameKey in emptyFileNames)  {
+        //var fileName = emptyFileNames[filenameKey]
+        //var fileNumber = fileName.slice(24,-4)
+        ////console.log('emptyfile',fileNumber, fileName)
+        //emptydone[fileNumber] = true
+    //}
+    //console.log('empty',Object.keys(emptydone).length)
+    
     while (a < (start + limit)) {
         // 
         if (continuousErrors < maxErrors && continuousEmpty < maxEmpty &&!fs.existsSync(__dirname + "/folktunefinder/" + generateFileName(a)) && !fs.existsSync(__dirname + "/empty/"+generateFileName(a))) {
             try {
-                console.log('start '+'https://www.folktunefinder.com/tunes/'+a)
+                //console.log('start '+'https://www.folktunefinder.com/tunes/'+a)
                 await page.goto('https://www.folktunefinder.com/tunes/'+a);
                 await page.setViewport({ width: 1440, height: 744 });
                 //console.log('loading')
@@ -89,6 +111,7 @@ function generateFileName(id) {
                         return
                       }
                       //file written successfully
+                      console.log('OK '+ a)
                     })
                     
                     continuousEmpty = 0

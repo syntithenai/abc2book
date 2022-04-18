@@ -1,0 +1,30 @@
+X:1
+T:Moving With Grace
+M:6/8
+L:1/8
+Q:120
+C:(c) Greg Anderson
+R:Jig
+N:For those instruments having the range, the last note in measures 6 and
+N:15 should be a low E.
+H:A jig written for parents as they eased into retirement, moved out of
+H:the family home of 35 years, and began afresh with the turning of the
+H:millennium
+K:E
+B,|:E>FG BAG|FB,D E2 c|=d>ed cBG|A3- A2 c|
+B>AG FEF|!GFE B,2 A,|A,B,E A,B,D|1E3- E2 B,:|
+2E3 EGB|:[F2=d2] z [E2c2] z|BAG E2 c|=d>ed cBG|!
+A3- A2 c|BAG FEF|GFE B,2 A,|
+1A,B,E A2 G|F3 EGB:|2A,B,E AGF|E3- E2 B,||
+S:https://www.folktunefinder.com/tunes/177309
+S:http://trillian.mit.edu/~jc/music/abc/mirror/GregAnderson/MovingWithGrace.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 6/8
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

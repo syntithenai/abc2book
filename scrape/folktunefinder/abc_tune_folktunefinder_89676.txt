@@ -1,0 +1,36 @@
+X:180
+T: Splendid Isolation
+C: Brendan McGlinchey
+M: 4/4
+L: 1/8
+S: Willie Kelly, July 2000, East Durham
+Z: J.S. Erickson
+R: reel
+K: GDor
+D2 |: G2 GF GdcA | G2 AG FGAc | dAcA GABc | dggf g3a |
+b2 ag fdde | fefg fdcA | G2 AG FGAc |1 dAcA G2 (3DEF :|2\
+dAcA G4 ||
+g2 ag f~d3 | gfdc Acdc | A~G3 Acdc | AGGA F3 F |
+F2 GF GdcA | G2 AG FGAc | d~g3 fgag | fdcA G4 :|
+W:
+P: Edor version
+K: Edor
+B,2 |: E2 ED EBAF | E2 FE DEFA | BFAF EFGA | Beed e3f |
+g2 fe dBBc | dcde dBAF | E2 FE DEFA |1 BFAF E2 (3B,CD :|2\
+BFAF E4 ||
+e2 fe d B3 | edBA FABA | F E3 FABA | FEEF D3 D |
+D2 ED EBAF | E2 FE DEFA | B e3 defe | dBAF E4 :|
+S:https://www.folktunefinder.com/tunes/89676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

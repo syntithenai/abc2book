@@ -1,0 +1,21 @@
+X:5
+T:Albemarle Hornpipe
+M:2/4
+L:1/16
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:A
+E2|AGAB A2Bc|dBGB A2Bc|dcde dcBA|BABG E2FG|!
+AGAB A2Bc|dBGB A2cd|eaga fdBG|A2c2 A2:|!
+|:cd|ecea fdfa|gbeg a2gf|e^dfe =dcBA|GABG E2FG|!
+AECE cAEA|dBGB ecAc|dfed cBAG|A2a2 A2:|!
+S:https://www.folktunefinder.com/tunes/96227
+S:http://www2.redhawk.org:8080/irish/warnock/abc/osbmisc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

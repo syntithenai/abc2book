@@ -1,0 +1,32 @@
+X:34
+T:Branle de Malte. 
+R:Branle
+C:Trad.
+S:Thoinot Arbeau
+N:0167.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/2
+L:1/4
+Q:1/2=160
+K:F
+BABc d2d2 c2B2 A2GF G2G2 F4 :: BABc d2e2 c2d2 e4 |
+cde2 d4 cd e2d2 | cBAG BAB2 ||
+%%footer $D   Galouvielle-MBe 2007 \nBransle (France)
+S:https://www.folktunefinder.com/tunes/90186
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Branle
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 8/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1
+T:Lucy Cassidy
+C:Traditional
+R:hornpipe
+M:C|
+Q:1/2=100
+L:1/8
+K:A
+P:A
+ed| c2 ec B2 AB| cE E2 FD D2| DFAc dcBA| GABG E2 ed |
+c2 ec B2 AB| cE E2 FD D2| DFAc dcBA |[1 GABG A2 :|[2 GABG A2 cd|]
+e2 cd ecAF| DFAE FD D2| DFAc dcBA| GABG E2 [1 cd|
+[1 e2 cd ecAE| DFAE FD D2| DFAc dcBA| GABG A2 cd :|
+[2 ed | c2 ec B2 AB| cE E2 FD D2| DFAc dcBA| GABG A2 |]
+P:B
+e2|EAcE AcEA| cE E2 FD D2| DFAc dcBA| GABG E2 c2|
+EAcE AcEA| cE E2 FD D2| DFAc dcBA|[1 GABG A2:|[2 GABG A2 cd|]
+e2 Ee eEeE| eE E2 FD D2| DFAc dcBA| GABG E2 [1 cd|
+[1 e2 Ee eEeE| eE E2 FD D2| DFAc dcBA| GABG A2 cd:|
+[2 e2| EAcE AcEA| cE E2 FD D2| DFAc dcBA| GABG A2 |]
+S:https://www.folktunefinder.com/tunes/173314
+S:http://ale.physics.sunysb.edu/~mcgrew/music/other/LucyCassidy.abc
+S:http://ale.physics.sunysb.edu/%7Emcgrew/music/other/LucyCassidy.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

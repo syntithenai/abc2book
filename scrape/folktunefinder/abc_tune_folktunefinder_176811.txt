@@ -1,0 +1,21 @@
+X:1
+T:morceau avec accompagnement guitare
+R:hornpipe
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+"G" gabc' gabc' |
+"D7" defg defg |
+"G" g8
+S:https://www.folktunefinder.com/tunes/176811
+S:http://home.tele2.fr/studyvox/tablavox/tablavox_2.html
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

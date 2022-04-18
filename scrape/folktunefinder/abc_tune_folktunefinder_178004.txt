@@ -1,0 +1,130 @@
+X:1
+T:My Lord Willoughby's Welcome Home
+C:John Dowland
+L:1/4
+M:C
+K:CM frenchtab
+%
+%%stretchlast no
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.2
+V:L1 clef=frenchtab name=L1
+V:L2 clef=frenchtab name=L2
+%1
+[V:L1][abd,a2] .[#f2]|\
+[da,c1]>.b a1 b/.d|\
+[f,,d1] .,,d,,g .,d|\
+[aacc1]> .,a ,,,c1 .,,c|\
+[,bd,a1] .a :f[ea,,,a]|
+[V:L2][,bd,a1]>,d ,b1 ,a/,,d|\
+[aa,c2] ,a1,d|\
+[,b,d1]b/a,d,b,a,,d|\
+[,ac1],,,c,,,,,a2|\
+[a,,,a1],,d,b[,a,,,a]|
+%2
+[V:L1][f,,,a1][ea,,,a][f,,,a] .,,d|\
+[,b,,a/] .,a,,d .,a [,b,d] .,a,b .,d|\
+[aa#c,,a1]>[aac] ,,,c1 ,,,,,a||\
+[,aba,d1]> .,b :,d1 ,b/ .,d|\
+[a,b,d1][,db,c][a,b,d][,db,c]|
+[V:L2][,b,,a/],,d[,a,,,a]a [,b,,a],,da1|\
+[a,,,a/],d,b,a,,d1f|\
+[ha,,,a2][eff,,a2]||\
+[dab,,d1]dba/,d|\
+,b/,,,,d,,,,c,d,,,,da[d,,,c1]|
+%3
+[V:L1][a,b,d1][,db,c][ab,,a] .[#c]|\
+[dab,,d1]>,,b,,,a1,,b|\
+[abd,a1] ,,,,d [cd,,c] .e|\
+[fc,,a1]> .,d :,f1[ab,,d]|\
+[,dfa1][,bd][,adc].,,c|\
+[,,cda1]> :,,d .,,,c2||
+[V:L2]a/,,,,d,,,,c,d,,,,a,b,,d,b|\
+[,ab,,d1]> ,a ,,b1,a|\
+[,b,,a/],da1[,d,,c/],c,a1|\
+[,c,,a/],a,c,d,c1[,b,,d]|\
+[,a,a/],,df1[d,,c/]ca,d|\
+[,cd,a1]>,c,,d1,c||
+%4
+[V:L1][,aba,d1]> .,b :,d1 ,b/ .,d|\
+[a,,,d/] .,b[,db,c1][a,b,d][,db,c]|\
+[a,,,d/].c:d,,,,c ,,,,a/ .d:[#c1]|\
+[d,,,,d1]c/ .a,d.,b,a.,d|\
+[,b,,a/].,d:a,,,,d [c,,,c].ac.e|
+[V:L2][,d,,,d/]a,d,b,a1a/,d|\
+,b/,,,,d,,,,c,d,,,,dad,,,,c|\
+,,,,d/ca[,d,,c][,b,,a]a,d,b|\
+[,aba,d1]>,b,a1,,b/,a|\
+[,b,,a/],a,ba[,d,,c/],c,aa|
+%5
+[V:L1][f,,,a1]d/.b [a,,,d/].,da.d|\
+[b,,a/].a,d.,b[,a,c].,,d#,,c1|\
+[,,cda1],,c/.,,a ,,,c.,,,a#,,,c1||\
+[,,d,a/].,a,b.,da.cd.f|\
+[d,,c1],,b/.,,d,a.,b,d.a|
+[V:L2][,c,,a/],,da,d[,b,,d/]bda|\
+[,d,a/],b,a,,d[,,cc/],,d,aa|\
+[,cdca1]>,da/c[a,,,a1]||\
+[f,,,a1],,d,b,a/,,d|\
+,,,c/a,d,b,a,,d,a,,c|
+%6
+[V:L1][,d,d/] .,b,da,d .,b,a .,,d|\
+[aac1],,,c,,,,,a2|\
+[,bd,a1] .a :f,,,,,a/.e|\
+[f,,,a1],,,,,a/ .e [f,,,a1].,,d|\
+[,b,,a1]a/ .,d [,b,d1],a/ .,,d|\
+[,,c,,a/] .,a,a .,,d,,c .,,a #,,,c1||
+[V:L2],,,d/,,dfd,g,f,d,,g|\
+,,,,,a/,ahfe2|\
+[f,,,a/]a,b,,d,b,d[a,,,,a1]|\
+[,b,,a/],,d[a,,,,a],a[,b,,a],,df1|\
+[a,,,a/],d,b,a,,d,b,d,b|\
+[,a,,,a/],,,c,,,caac[ea,,,a1]||
+%7
+[V:L1][,aba,d1]>.,b,d/.,a,b.,d|\
+[a,b,d1][,db,c][a,b,d][,db,c]|\
+[a,,,d/].cd.a[,d,,c/].a[,b,,a1]|\
+[,a,,,d1]d/.ba.,d,b.,a|\
+[,b,,a1].f,,,,c.e|
+[V:L2][dab,,d1]>db1a/,d|\
+[a,,,d/]c[d,,,c],d[a,,,d]c[d,,,c],d|\
+[,b,,d/],da,b,,,,cd,,,,ac|\
+[d,,,,d/],da,d,b,a,,d,,b|\
+[,,d,a/],a,b,d[a,,,c/],d,a,d|
+%8
+[V:L1][f,,,a1]d/.b [a,,,d1],d/.a|\
+[b,,a/].a,d.,b[,a,c/].,,d#,,c1|\
+[,,dca1]a/.,d,c.,a,,d1||\
+[,a,,,d/].,,d,a.,b,d.,a,b.,d|\
+[a,b,d1],,,,c/.,d [a,b,d1],,,,c/.,d|
+[V:L2][,b,,a/],,da,d[,b,,d/]dba|\
+[,d,a/],b,a,,d[,,c,,a/],,,d,a,d|\
+[,c,,a/]fdca,d[,c,,a1]||\
+[,d,,,d/]a,d,b,a,,b,,d,a|\
+[,b,,d/]ad,,,,c,,,,da[d,,,c1]|
+%9
+[V:L1][a,,,d/].cd.a[c,,,a/].df.c|\
+[d,,,,d1],d/.,b,a.,b,d.,a|\
+[,b,,a1],d/.,b[,a,,c/].,,d,a.,,c|\
+[,,d,a/].,a,b.,d[a,,,d/].cd.a|\
+[,c,,a/].ef.c[e,,,,a/].fh.e|\
+[#ffh,a2][ffh2]|]
+[V:L2][,b,,d/],da,b[,d,,a/]a,b,d|\
+[,a,,,d/],b,a,,d,,b1d/c|\
+[abd,a1]f[da,,c/]ca,d|\
+[,bd,a1]a/,d[,b,,d],dad|\
+[c,,a/]a,d,b[a,,,,a],,d,,c,d|\
+[acd,a1],,,c,,,,a2|]
+%10
+[V:L1]
+[V:L2]
+S:https://www.folktunefinder.com/tunes/178004
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Dowland/willoughby.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Dowland/willoughby.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

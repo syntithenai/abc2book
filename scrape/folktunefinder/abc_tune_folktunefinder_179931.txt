@@ -1,0 +1,22 @@
+X:1
+T:Old French
+R:reel
+L:1/8
+M:4/4
+K:D %second part Amix
+(3ABc|"D"d2cd BdAF|DFAd f2ed|"A"cdef gfec|"D"defd "A"A2Bc|
+"D"d2cd BdAF|DFAd f2ed|"A"cdef gfec|"D"d2f2 d2:|
+cd|"A"efed cdcB|AEAc e2dc|"G"BGBd gfed|"A"cAce a2cd|
+efed cdcB|AEAc e2dc|"G"BGBd gfed|"A"c2A2 A2:|
+S:https://www.folktunefinder.com/tunes/179931
+S:http://trillian.mit.edu/~jc/music/abc/mirror/web.syr.edu/~htkeays/music/session/abc/reels/old_french.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

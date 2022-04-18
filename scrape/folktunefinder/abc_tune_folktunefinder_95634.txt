@@ -1,0 +1,31 @@
+X:15
+T:Quick Step
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+N: The "a2 a2 | g2 g2" sequences in the B part appear to have
+N: quaver rests inbetween :- "a2 z a2 | g2 z g2"
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000df5.html
+%%ID:00000df5
+K:C
+g/f/ |\
+efde | c2cB/c/  | dd dc/d/    | e/f/g/e/ dg/f/ |\
+efde | c2 cB/c/ | dd d/c/d/e/ | Hc2 ::
+g |\
+a2 a2 | g2 g2 | fedc | B/c/d/B/ Gg |\
+a2 a2 | g2 g2 | fedc | g3 !D.C.! ::
+%page:3
+S:https://www.folktunefinder.com/tunes/95634
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

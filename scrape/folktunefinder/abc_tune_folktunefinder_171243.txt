@@ -1,0 +1,27 @@
+X: 1
+T:Lannigan's Ball
+M:6/8
+L:1/8
+Q:80
+C:Traditional
+S:From M. Dalgleish and G. Larsen
+R:Jig - Slowly
+Z:Donna Diekof
+K:D
+"Em"E2F {GA}G2A|"Em"{Bc}B2A Bcd|"Em"E2F {GA}GBA|"A"Bdd {d}cA{B}A|
+"Em"E2F {GA}G2A|"Em"{Bc}B2A Bcd|"D"e2d {Bc}B2A|"A"BAA {AB}A3:|!
+"Em"e2f {a}g2e|"Em"eaa "D"{g}fed|"Em"e2f {a}g2f|"Em"edB "D"eAA|
+"Em"e2f {a}g2e|"Em"eaa "D"{g}fed|"Em"e2d B{c}BA|"D"BAA "A"{AB}A3:|
+% Output from ABC2Win  Version 2.1  on 2/10/98
+S:https://www.folktunefinder.com/tunes/171243
+S:http://www.blackflute.com/music/tunes/jigs/lannigan.abc
+% Rhythm Jig - slowly
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

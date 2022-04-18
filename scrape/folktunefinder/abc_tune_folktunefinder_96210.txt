@@ -1,0 +1,28 @@
+X: 59
+T:Minuett. TBe.059
+M:3/4
+L:1/4
+Q:60
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+H:Before 1718
+Z:vmp.C. Graebe..
+K:Eb
+F | AAF | ccA | _ddB | ee_d | ccB | AAG |!
+ A/B/ ""B3/2=A/B/ | c3 ||\
+c | eec | _ddB | ee_d | cAc |!
+ BGA | F_dc | ""B2 A | A3 | \
+G (G/4A/4B/)=A | BBc |!
+ _dBe | cfe | dgf | cag | g2f | f3 ||
+S:https://www.folktunefinder.com/tunes/96210
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

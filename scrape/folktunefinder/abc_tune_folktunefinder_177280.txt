@@ -1,0 +1,33 @@
+X: 1
+T:Mouth of the Tobique
+L:1/8
+R:reel
+M:C|
+K:G
+P:A
+|: (3DEF \
+|| "G"GFGA Bded | BdBG D2BG | "D"ABAF DFAF | "G"GABc "D"d2 (3DEF |
+   "G"GFGA Bded | BdBG D2BG | "D"ABAF DFAF | GBAF "G"G2 :|
+P:B
+|: ef \
+|| "Em"gfga gdBg | "D"fdAd f2gf | "C"ecAG "D"FDEF | "G"GABc "D"d2ef |
+  "Em"gfga gdBg | "D"fdAd f2gf | "C"ecAG "D"FDEF | GBAF "G"G2 :|
+P:C
+|: (3DEF || \
+ "G"G2B-G G.cGG | .BGG.c GGBG | "D"FGAB cAFA | "G"GABc "D"d2(3DEF |
+ "G"G2B-G G.cGG | .BGG.c GGBG | "D"FGAB cAFA | GBAF "G"G2 :|
+N:Portland Collection, pg 141 - adapted by Peter Ostapenko.
+N:Play AABB,CCBB for contra dances.
+N:Last update - PO 8/23/2007.
+N:G Major
+S:https://www.folktunefinder.com/tunes/177280
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/MouthOfTheTobique.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

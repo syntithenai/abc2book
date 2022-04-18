@@ -1,0 +1,35 @@
+X:18986
+T:Xiraldilla (CT 126) (Arrg.)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Uviu.
+O:Uviu
+A:Asturies
+G:Arrg.
+Z:Cancioneru de Torner 126
+M:2/4
+L:1/8
+Q:1/4=168
+W:Adnde va la mi morena,
+W:adnde va tan de maana
+W:
+W:Voy a la fuente serena
+W:por una jarrita de agua.
+K:G
+|"G"dd de|"G"d2 BA|"G"G2 G2|"C"ee ee|"G"d2 "C"cB|"D"A2 A2|
+"Am"AB cd|"C"e3 d|"G"g2 "D"f2|"G"de dB|"C"c2 "Am"(BA)|"G"G2 G2||
+S:https://www.folktunefinder.com/tunes/94277
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

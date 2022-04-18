@@ -1,0 +1,22 @@
+X:39
+T:Soldier's Return
+M:C
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+de|f2 A>B A3d|BABd e2 de|f2A2 gfed|B3c d2 de|f2 A>B A3d|BABd e2 de|f2A2 gfed|B3c d2::
+A|defg a3a|bagf e3A|defg abag|f3g a2 A2|defg a2 fa|bagf e2 de|f2 A2 gfed|B3c d2:|
+S:https://www.folktunefinder.com/tunes/90026
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

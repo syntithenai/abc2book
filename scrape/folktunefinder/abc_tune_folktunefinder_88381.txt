@@ -1,0 +1,26 @@
+X:1120
+T:Push about the Jorum
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+N:version of the manx tune 'Betsy Baker' in KV
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005d2.html
+%%ID:000005d2
+K:G
+g | dBAG | FAAc | BGBd | g2 fe | dGBG | FAAc | EGFA | G2 G ::
+d | ggfg | afdd | ggfg | a2 dd | \
+ggfg | agfe  | e/f/g f/g/a | g3f/e/ |
+dGBG | FAAc | BGBd | g2 fe | dGBG | FAAc | EGFA | G2 G |]
+S:https://www.folktunefinder.com/tunes/88381
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

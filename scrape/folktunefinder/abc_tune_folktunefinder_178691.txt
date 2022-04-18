@@ -1,0 +1,20 @@
+X: 1
+T: Nice And Easy
+M: 9/8
+L: 1/8
+R: slip jig
+K: Dmaj
+|: (F3 F)AE FED | B,2 E EFD CDE | (F3 F)AE FED | B,2 D DEC DE/F/G |
+(F3 F)AE FED | B,2 E EFD CDE | A,A,/A,/A, DEG FED | [1 B2 B AFE DEG :| [2 B2 B AFE DFA ||
+|: (B3 B2) c dBG | A2 B/A/ d2 B AFD | E2 F/E/ A,CE GFE | F2 A/F/ A,DF AFD |
+(B3 B2) c dBG | A2 B/A/ d2 B AGF | G3 FAF DED | [1 A,3 EDC DFA :| [2 A,3 EDC DEG ||
+S:https://www.folktunefinder.com/tunes/178691
+S:http://www.thesession.org/tunes/display/7838
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

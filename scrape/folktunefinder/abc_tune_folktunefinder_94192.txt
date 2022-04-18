@@ -1,0 +1,26 @@
+X:55
+T:Centennial Jig
+C:Andy De Jarlis
+M:6/8
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:D
+f3 d2 B|A3 A2 F|DFA d2 e|f2 d fba|!
+g3 e2 d|c2 B Ace|b2 a aba|a3 -a^ga|!
+f3 d2 B|A3 A2 F|DFA d2 e|f2 d fba|!
+g3 f2 e|c/d/cB c2 B|ABA GFE|D3 -D3:|!
+K:A
+efe c/d/cA|EAc e2 e|ded B2 G|DGB dcd|!
+efe c/d/cA|EAc e2 a|^gb^g ef^g|a3 acd|!
+efe c/d/cA|EAc e2 e|ded B2 G|DGB dcd|!
+efe c/d/cA|EAc e2 a|^gb^g ef^g|a6:|!
+S:https://www.folktunefinder.com/tunes/94192
+S:http://www2.redhawk.org:8080/irish/warnock/abc/A_Dejarlis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

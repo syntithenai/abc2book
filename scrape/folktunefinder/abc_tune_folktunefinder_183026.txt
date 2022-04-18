@@ -1,0 +1,25 @@
+X:1
+T:Polka aus Estland
+C:traditionell
+A:Estonia
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+BG Bc/B/ | AF AB | cA cd/c/ | BA G2 |
+BG Bc/B/ | AF AB | d/c/B c/B/A | GB G2 :|
+|:\
+dd e>d | cB A2 | cc d>c | BA BG |
+dd e>d | cB A2 | d>e d/c/B/A/ | GB G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183026
+S:http://simonwascher.info/TradArchiv_polka/polka_aus_estland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

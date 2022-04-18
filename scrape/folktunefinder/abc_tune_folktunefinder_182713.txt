@@ -1,0 +1,26 @@
+X: 3
+T: Planxty Drury
+M: 6/8
+L: 1/8
+R: jig
+K: D Major
+|: A |\
+d2 d dcB | A2 G F2 G | E2 e e>fd | c2 B AFG |
+A2 f fgf | e2 d c2 A | f2 g a>fd | c>ed c2 B |
+AFA AF/G/A | BB/c/d ecA | af/g/a gec | d>ed d2 :|
+|: B |\
+A>BA G>AG | F>GF E3 | E2 E E/F/GE | FDG F/G/AF |
+D3 d3 | e>fe ecA | AA/B/c dfa | g2 f edc |
+d2 d d>ed | BAG Bcd | c2 d egf | efd c>BA |
+d2 F G2 B | AB/A/G FGA | B>AG FGE | D3- D2 :|
+S:https://www.folktunefinder.com/tunes/182713
+S:http://www.thesession.org/tunes/display/8264
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

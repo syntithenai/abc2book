@@ -1,0 +1,24 @@
+X:1090
+T: Morduant's HP
+S: "The Roche Collection of Traditional Irish Music" [III/62/177]
+L: 1/8
+M: 4/4
+R: hornpipe
+K: D
+AG | FAFA dAFA | GBGB ecAA | ffdf gece | dfdf afdA |
+FAFA dAFA | GBGB ecAA | ffdf gece | d2 f2 d2 :|
+GA | Bcde fedc | Bcec dcBA | Bcde fedc | B2 e2 B2 z2 |
+Bcde fedc | Bcec dcBA | g2 f2 e2 d2 |1 (3cdc (3BcB AF :|2\
+(3cdc (3BcB AB ||
+S:https://www.folktunefinder.com/tunes/93884
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

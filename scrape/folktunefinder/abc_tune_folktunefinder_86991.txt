@@ -1,0 +1,46 @@
+X:530
+T: Merry Stampmaker 2.0 (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Gdor
+[V:1] "Gm"BGG^F G3 D|"Dm7"CDFG "F"AcAF|"Gm"BGG^F GABc|"Bb"dB"F"cA "Gm"BGGA|
+[V:2] G,,2[G2B2D2]B,,2[G2B2D2]|D,2[A2C2F2]F,,2[A2C2F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|[B,,2D2F,2][F2A,2C,2][G2B,2D,2][G,2B2D2]|
+%
+[V:1] "Gm"BGG^F G3 D|"Dm7"CDFG "F"Ac (3c=Bc|"Dm"fd"C"ec "Gm"dB"F"cA|"Bb"BcdB "Gm"AG G2 :|
+[V:2] G,,2[G2B2D2]B,,2[G2B2D2]|D,2[A2C2F2]F,,2[A2C2F2]|\
+[D,2A,2][E,2C2][G,2D2][A,2F2]|B,,2[B,2F2D2][G,,4B,4D,4] :|
+%
+[V:1] "F"F2 AF cFAF|"D"^F2 AF dFAF|"Bb"BcBA "Gm"G^FGA|"Bb"dB"F"cA "Gm"BG G2 |
+[V:2] F,,2[A2C2F2]C,2[A2C2F2]|D,2[A2D2^F2]A,,2[A2D2^F2]|\
+B,,2[B2F2D2]G,,2[G2B2D2]|[B,,2D2F,2][F,2A,2C2][G,2B,2D2][G,2B2D2]|
+%
+[V:1] "F"F2 AF cFAF|"D"^F2 AF dFAF|"Gm"BGGB "F"cAAc|"Bb"dB"F"cA "Gm"BG G2 :|
+[V:2] F,,2[A2C2F2]C,2[A2C2F2]|D,2[A2D2^F2]A,,2[A2D2^F2]|\
+G,,2[G2B2D2]F,,2[A2C2F2]|[B,,2D2F,2][F,2A,2C2][G,2B,2D2]G,,2:|
+%
+[V:1][K:D] "D"(3FED AD BDAD|"Bm"dBAF "Em"EDEG|"D"(3FED AD BDAD|"G"GB (3B^AB "A7"c=AGE|
+[V:2][K:D] D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]E,2[E2B2G2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+G,,2[G2B2D2]A,,2[G2C2E2]|
+%
+[V:1] "D"(3FED AD BDAD|"Em"(3GFE BE dEBE|"D"FADA "G"GB (3B^AB|"A7"cAGE "D"D4 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|E,2[E2B2G2]B,,2[E2G2B2]|D,2[A2D2F2]G,,2[G2B2D2]|
+A,,2[G2C2E2] [D,4A,4F4]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86991
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

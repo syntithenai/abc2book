@@ -1,0 +1,30 @@
+X:1
+T:The Old Woman who Carried a Broom
+M:6/8
+C:
+S:Bacon (MDT)
+N:
+A:Brackley
+O:English
+R:Jig
+%P:A/2.(AB)$^4$.A
+P:A.(AB)4.A
+K:A
+I:speed 300
+Q:C3=96
+P:A
+|: E | ABc cde | edc B2 A | dcd Bed | cAA A2 :|\
+P:B
+   a | fga fga | fga gfe  | efe efe | edc B2 \
+   B | ABc cde | edc B2 A | dcd Bed | cAA A2 ||
+S:https://www.folktunefinder.com/tunes/180286
+S:http://www.ucolick.org/~sla/morris/music/Brackley/owbroom.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

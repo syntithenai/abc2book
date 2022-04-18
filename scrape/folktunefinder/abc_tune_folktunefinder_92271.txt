@@ -1,0 +1,29 @@
+X:248
+T: Quanfu canjun
+N: C1741
+O: China,Liaoning Haicheng
+S: III, 233]
+R: Xiaodiao, Panwugeng diao]
+M: 2/4
+L: 1/16
+K: A
+f2fef2a2 | e2e6
+f2e2f2a2 | b2b6
+f4c4 | f4c4 | b2b4f2 | a4g2f2
+z2f2c2c2 | f2c2c4 | c2cbc2a2 | b2b2g2f2
+e2c2e2e2 | f4b2g2 | f2f4c2 | e8
+f2e2f2a2 | e2e4f2
+c2ccf2a2 | b2b6
+z2f2c2c2 | f2c2f2a2 | e2cbabce | b2b2g2f2
+e2c2e2e2 | f2f2b2g2 | f2f4c2 | e8
+S:https://www.folktunefinder.com/tunes/92271
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, panwugeng diao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:Polka finlandaise
+Z:Ren Quiniou (http://www.irisa.fr/prive/quiniou)
+R:polka
+C:Trad.
+S:
+A:Finlande
+M:4/4
+L:1/16
+K:C
+"C"e2E2 G2c2 e4 f4 | e4 (3d2f2d2 "G"d8 | 
+d4 G4 d4 d2e2 | d4 (3c2e2c2 "C"c8 ::
+e4 c2e2 "Am"a4 (3g2c'2g2 | "D"f4 (3d2f2d2 "Em"e8 | 
+B4 E4 B4 c4 | (3B2"Am"c2B2 A4 A8 :|
+S:https://www.folktunefinder.com/tunes/183046
+S:http://termen.free.fr/danses/polkas/Polkafinlandaise.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

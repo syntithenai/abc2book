@@ -1,0 +1,24 @@
+X: 1
+T: Portsmouth
+O: 1701
+M: C|
+L: 1/8
+K: A
+E2 \
+| "A"A3B cBAG | "D"F4 f4 | "A"e2c2 "D"dcBA | "E7"B6 E2 \
+| "A"A3B cBAG | "D"F4 f4 | "A"e2c2 "E7"dcBc | "A"A6 :|
+|: e2 \
+| "A"a3b c'bag | a2 e4 c2 | a2c2 "D"dcBA  | "E7"B6 E2 \
+| "A"A3B cBAG | "D"F4 f4 | "A"e2c2 "E7"dcBc | "A"A6 :|
+S:https://www.folktunefinder.com/tunes/183593
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/tune/Portsmouth_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Portsmouth_A.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

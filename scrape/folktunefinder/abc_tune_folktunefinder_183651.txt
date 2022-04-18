@@ -1,0 +1,49 @@
+X:1
+%
+T:Praeludium 10
+C:from Elias Mertel (1615)
+C:Hortus musicalis novus
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[abdca3] .,d1 |\
+[,bdca1] .,a ,b ,,,,,d |\
+[,dd,,b1] ,,,,,a {a} .a |\
+[bdda1] [a,,c] [,d,d] [,ab] |\
+[,bd,a1] [,df] [,fg] ,,,,a |\
+[,a,,,e1] .a 
+%staff 2
+,,,,a/.,d,b.,a |\
+,b1 [,a,,c] [,,d,d] [,a,a] |\
+[,b,c1] [,a,,,a/].,,d ,,c1 [,,d,,c] |\
+[,a,,,e1] ,,,c [,,d,a] [,,b,c/].,,a |\
+[,,,cd1] .[af] [cd,,c] .e |
+%staff 3
+[f,,,a1] [ab] [,a,,,d] [c,d,,c] |\
+[da,,,a1] ,,,c [c,,,,c/].a,d.,c |\
+[,a,,,d/].,c,d.,a [,c,,a].,e[a,,,,a].c |\
+[,e,,c1] [a,,,,e/].,d [,b,,a].,a,,d.,,b |\
+[,,a,c/],,,,a [,,,c,d1] ,,,,a [,,db,c] |
+%staff 4
+[,,bc,a1] ,,,c/.,,a ,,b.,,d,a.,b |\
+[,a,c/],,d,,b,,,a [,,d,d],,,a [,a,,c1] |\
+[,b,,a1] [a,d] [b,,a] [d,,c] |\
+[f,,d1] [h,,a] [i,,h] ,,,,a |\
+[h,,,h1] [f,,,d] ,,,a/.db.a |
+%staff 5
+b/,,,c[,b,d].,d [a,,,d],,,a[,a,c].,b |\
+[,d,,c/],,,,d[,,da].,a [,b,,a],,,,c,,,,d,,,a |\
+[,a,c1] [ab,,,a] ,,,,,b/,a [,dd1] |\
+[,,c,,a1] [,bd] [,a,c/].,,d[aacc],d |\
+[,cdca2] {,,a} |]
+S:https://www.folktunefinder.com/tunes/183651
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prael_010.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Mertel/prael_010.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

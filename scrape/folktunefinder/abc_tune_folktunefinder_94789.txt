@@ -1,0 +1,29 @@
+X:193
+U: ~ = !turn!
+%%topmargin 3cm
+T:Slan le Maigh
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Air
+L:1/8
+M:C|
+K:D
+A2 | Jd>c B2 HA>B Jd>c | B2 HA>G F>A B>g | f>e d>c d4 :|
+d>e f/2g/2 (aa2a) b | a2 g (ff) d B2 | A6 f>g | a>f d2 cd B2 |
+A6 f>g | ag/2f/2 g2 He4 | f>g Ja>b a>g f>d | B2 HA>G F>A B>g | g>e d>c Hd4 |]
+S:https://www.folktunefinder.com/tunes/94789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Slan_le_Maigh_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Slan_le_Maigh_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

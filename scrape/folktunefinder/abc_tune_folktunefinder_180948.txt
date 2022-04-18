@@ -1,0 +1,31 @@
+X:9
+T:Ozidanie (Expectation)
+O:Russian
+B:Kammen folio #1
+R:Waltz
+M:3/4
+L:1/4
+K:F
+A |: "Dm"B2A | d2e | [d3f]-|[df] de | fde | fdf | "A7"[^c3e]-|[^ce] z A |
+"A7"B2A | [^c2e][df] | [e3g]-|[eg] ef | gef | gab | "Dm"[f3a]-|\
+"A7"[e/a/]b/a/g/e/A/ |
+"Dm"B2A | d2e | [d3f]-|[df] z d/e/ | f z e/f/ | "A7"g z f/g/ |\
+"Dm"[f3a]-|[fa][gb][fa] |
+"A7"[e3g]-|[eg][fa][eg] | "Dm"[d3f]-|[df][eg][df] | "A7"e2b | a2[G^c] \
+|1 "Dm"[F3d]-|[Fd] "Fine"z A :|2 "Dm"[F3d]-|[Fd]af |]
+|: "Dm"[f3a]-|[fa]af | [f3a]-|[fa]bg | "Gm"[g3b]-|[gb]bg | [g3b]-|[gb]ef |
+"A7"[e3g]-|[eg][df][eg] | "Dm"[f3a]-|[fa][eg][df] |\
+"A7"e-e/a/b/a/ | ^c-c/a/b/a/ |1 "Dm"d3-|daf :|2 "Dm"d3-|dd'c' |]
+|: "C7"c'3-|c'bg | "F"[f3/2a][f/a][fa] | z_e'd' | "D7"d'3-|d'c'a |\
+"Gm"[g3/2b][g/b][gb] | zga |
+ b3-|"C7"bgd' | "F"c'3-|c'af | "C7"c3/2 e/g/b/ | d'2c' \
+|1 "F"f3-|fd'c' :|2 "F"f3-|"D.C. al fine"f z A |]
+S:https://www.folktunefinder.com/tunes/180948
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/OzidanieExpectation.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

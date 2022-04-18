@@ -1,0 +1,26 @@
+X: 1
+T: Mick O'Connor's
+C: Mick O'Connor
+M: 4/4
+L: 1/8
+D: Redwood, Lunasa
+Z: Will Harmon
+K: D
+|A,B,DA, FD{G}ED|B,E F/E/D EFDB,|A,B,DE FABc|dBAF EFDB,|
+|G,A,2 G FD{G}ED|B,E F/E/D EFDB,|A,B,DE FABc|dBAF EFDB,|
+|G,A,2 G FD{G}ED|B,E{G}ED EFDB,|A,B,DE FABc|dBAF EFDB,|
+|G,A,2 G FD{G}ED|B,E F/E/D EFDB,|A,B,DE FABc|dBAF EFDA||
+|d2 fa f{a}fa|edBd edBA|defa defa|eAde fddc|
+|{c}d2 fa f{a}fa|edBd e/e/dBA|d3 a {b}afaf|eAde fddc|
+|{c}d2 fa f{a}fa|edBd edBA|defa defa|eAde fddc|
+|{c}d2 fa f{a}fa|edBd edBA|~d3 a {b}afaf|eAde fdd2 ||
+S:https://www.folktunefinder.com/tunes/175628
+S:http://www.thesession.org/tunes/display/4198
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

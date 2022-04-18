@@ -1,0 +1,28 @@
+X:1
+T:Mominette
+C:Maxou Heintzen
+A:France 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:Dm
+D2FA D2FA | B2AGA4 | Bcdc B2AG | F2G2 A3D |
+D2FA D2FA | B2AGA4 | Bcdc B2AG | A2fed4 :|
+|:\
+d2efe2d2 | cdcBA4 | Bcdc B2AG | F2G2A4 |
+d2ef e2d2 | cdcBA4 | Bcdc B2AG | A2fed4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/176578
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/mominette.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

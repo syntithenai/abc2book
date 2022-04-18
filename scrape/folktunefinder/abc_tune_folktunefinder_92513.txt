@@ -1,0 +1,31 @@
+X:490
+T: Gongchandang lingdao zanmen naogeming
+N: C1909
+O: China,Hebei Zhengding
+S: IV, 11]
+R: Xiaodiao, Lianhualao]
+M: 2/4
+L: 1/16
+K: G
+e2g2e2d2 | B6d2 | e3ge2d2 | B8
+e4e2d2 | B2d2e2d2 | B2d2g2e2 | d6
+BA | G4E2G2 | A4z4 | d4B2d2 | g4e2d2 | B4B2A2 | G4E2G2 | A6B2 | d8
+e3de2g2 | d2e2c2B2 | A4d2B2 | A2B2G2A2 | E6D2 | E4z4
+G6E2 | d6B2 | A6G2 | A4z4
+e4g2e2 | d4B2d2 | E2G2A2B2 | G8
+d4B2d2 | G4E2G2 | d4d2B2 | A2B2G2E2 | D4D2E2 | G2E2G2A2
+d8 | A6G2 | A4z4
+G4A2B2 | G2A2G2E2 | D6B,2 | D8
+S:https://www.folktunefinder.com/tunes/92513
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, lianhualao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

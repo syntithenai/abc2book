@@ -1,0 +1,21 @@
+X: 4
+T: Loopty Lou
+T: Loopy Lou
+M: 12/8
+L: 1/8
+R: slide
+K: G Major
+|: deg d2 B d3- d3 | deg d2 B A3- A3 | 
+deg d2 B d2 B d2 e |[1 d2 d cBA G3- G3 :|[2 d2 c B2 A G3- G3 ||
+G2 G d2 B d3- d3 | G2 G d2 B A3- A3 |
+G2 G d2 B d2 e ABc |[1 d2 d cBA G3- G3 :|[2 d2 c cBA G3- G3 ||
+S:https://www.folktunefinder.com/tunes/172891
+S:http://www.thesession.org/tunes/display/7782
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

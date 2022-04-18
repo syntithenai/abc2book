@@ -1,0 +1,21 @@
+X:1
+T:The Little Beggar Boy
+M:4/4
+L:1/4
+K:F
+ C| F3/2 E/2 F A| G3/2 E/2 C B| B/2 B3/2 A3/2 G/2| A2 z| C| F3/2 E/2 F A|\
+ G2 E G| F3/2 E/2 F D| C2 z| C| c3/2 c/2 =B A| G2 E G| F3/2 E/2 F3/2 D/2|\
+ E2 z| C| F3/2 E/2 F A| G2 E G| F3/2 D/2 C =B,| C2 z| C| c3/2 c/2 =B A|\
+ G2 E G| F3/2 E/2 F D| E2 z| C| F3/2 F/2 F A| G2 E G/2G/2| F3/2 D/2 C3/2 =B,/2|\
+ C2 z| z| c2 G A| B A G2| c2 G A| B2 G| z| c c/2c/2 G A/2A/2| B A G3/2 G/2|\
+ E3/2 C/2 E3/4 F/4 G| G2 F| z| F2 F G| F E C2| A B B c| B A G| z| c c G A|\
+ B A G F| E3/2 C/2D/2 E/2 F| G E F||
+S:https://www.folktunefinder.com/tunes/172366
+S:http://back.numachi.com:8000/dtrad/abc/BEGGRBOY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

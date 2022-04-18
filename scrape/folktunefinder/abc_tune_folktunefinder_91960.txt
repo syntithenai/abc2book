@@ -1,0 +1,28 @@
+X:030
+%%topmargin 3cm
+T:Green Fields of America
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/16
+M:2/4
+K:G
+(AB) | .c2(ec) .B2(dB) | {/B}AGAB AGEF | GAGE DEGB | {/B}AGAB AGEB |
+.c2(ec) .B2(dB) | {/B}AGAB AGEF | GAGE DEGA | BGAF G2 ::
+D2 | GABc d2(ef) | {a}gfge dBGB | c2(ec) B2(dB) | {/B}AGAB (AG)E |
+{/f}gfge dBGB | cABG AGEF | GAGE DEGA | BGAF G2 :|]
+S:https://www.folktunefinder.com/tunes/91960
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Green_Fields_of_America.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

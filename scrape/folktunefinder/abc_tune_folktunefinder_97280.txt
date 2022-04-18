@@ -1,0 +1,18 @@
+X:1
+T:Alabama Bound
+M:2/4
+L:1/8
+K:C
+ CE G| A2 G C-| C4-| C4-| CF Ac| d2 c F-| F4-| F4-| FG AG| z c3| _B2 AG|\
+ z _BA G-| GC EG| A2 G C-| C4-| C4| z||
+S:https://www.folktunefinder.com/tunes/97280
+S:http://back.numachi.com:8000/dtrad/abc/ALABOUND.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ALABOUND.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

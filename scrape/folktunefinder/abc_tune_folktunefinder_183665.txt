@@ -1,0 +1,89 @@
+X:1238
+T:Praeludium
+T:(Prelude) BWV 935
+C:Johann Sebastian Bach
+O:Germany
+B:From "Sechs kleine Praeludien".
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0935/bwv0935.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/8
+L:1/16
+K:Dm
+V:1
+D^CDA,DF|EDEA,EG|F2A2A2|TA6|
+V:2
+z6|z6|D,^C,D,A,,D,F,|E,D,E,A,,E,G,|
+%
+V:1
+ABAfdA|BABGBd|efecgB|AGAFAc|
+V:2
+F,2D,2F,2|G,2G,,2z2|z2C,2E,2|F,2F,,2z2|
+%
+V:1
+d_edcdB|cdcBcA|BcBABG|ABAGAF|
+V:2
+B,2F2G,2|A,2E2F,2|G,2E2E,2|F,2C2_E2|
+%
+V:1
+B2g2G2|A2f2F2|d2f2B2|c2f2A2|
+V:2
+D_EDCDB,|CDCB,CA,|B,CB,A,B,G,|A,B,A,G,A,F,|
+%
+V:1
+GA=Bcd=e|f_agfed|egfedc|_BdcB=AG|
+V:2
+=B,2D2F2|D2=B,2G,2|C2G,2E,2|C,2D,2E,2|
+%
+V:1
+ABAGAF|D2 G3A/B/|F2TE4|[A,6F6]:|
+V:2
+F,E,F,C,F,A,|B,A,B,G,B,D|CDCB,A,G,|zF,C,A,, F,,2:|
+%
+V:1
+|:abac'af|gagc'ge|fagfed|edcdef|
+V:2
+|:F2F,2F2|E2A,2C2|D2=B,2G,2|C2E,2G,2|
+%
+V:1
+g2^fgaf|g2d2_e2|c_edcBA|BAGABG|
+V:2
+C,D,C,_E,C,A,,|_B,,C,B,,D,B,,G,,|A,,C,B,,A,,G,,^F,,|\
+G,,A,,B,,C,D,=E,|
+%
+V:1
+AGAdBd|^FEFdGd|AGAdGd|^FEFdAc|
+V:2
+^F,2D,2G,2|A,2D,2B,2|C2D,2B,2|A,2D,2^F,2|
+%
+V:1
+BABdeg|A4a2|d=f2ed^c|defefd|
+V:2
+G,^F,G,B,G,E,|^C,=B,,C,E,C,A,,|=F,,2G,,2A,,2|D,^C,D,A,,D,F,|
+%
+V:1
+^c2a4-|a2d2=c2-|c2B4-|BAG=FE^c|
+V:2
+E,D,E,A,,E,G,|^F,E,F,D,F,A,|G,^F,G,D,G,B,|^C,2A,,2G,2|
+%
+V:1
+ded^cdf|G2^c2e2-|eBAGFE|[F,6D6]:|]
+V:2
+=F,G,F,E,F,D,|B,CB,A,B,G,|F,2G,2A,2|zD,A,,F,, D,,2:|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183665
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0935/bwv0935.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0935/bwv0935.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0935/bwv0935.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords Has chords

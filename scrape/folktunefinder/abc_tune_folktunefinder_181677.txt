@@ -1,0 +1,71 @@
+X:1
+T:Pas de sept : Web par ci
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Manceau
+S:
+A:Bretagne
+Q:1/4=180
+M:4/4
+L:1/16
+K:G
+"G"D4 G4 G2G2 G2G2 | "Am"F2G2 A2G2 "D"F4 E4 | "G"D4 B4 B2B2 B2B2 |1
+"Am"A2B2 c2B2 "D"A2F2 F2E2 :|2 "Am"A2B2 c2B2 "D"A8 ||
+"G"B4 d4 "D"A6c2 | "G"B4 d4 G4 z4 | "D"A2A2 A2c2 F2F2 F2A2 |
+"G"G2G2 G2B2 d4 B4 | "D"c4 e4 A2A2 A2c2 | "G"B4 d4 G4 z4 |
+"D"A2A2 A2c2 F2F2 F2A2 | "G"d2c2 B2A2 G4 z4 |]
+%%rm
+%%rm  1. Ma grand-mre qui f'sait de la galette    ]
+%%rm     Ben meze elle surfe sur Internet          ] bis
+%%rm     Une bole ou un coup d'site
+%%rm     Tralalala, lalalalalre
+%%rm     Un coup d'site ou un coup d'flip
+%%rm     Tralalala, lalalalala
+%%rm
+%%rm  2. Ben install devant mon micro             ]
+%%rm     Y'a pu moyen d'aller au boulot            ] bis
+%%rm     Devant ma visu, avec ma souris
+%%rm     Tralalala, lalalalalre
+%%rm     Avec ces virus qui m'donne des soucis
+%%rm     J'vous dit pas la lalalalala
+%%rm
+%%rm  3. Mon grand-pre qui jouait o' Moulinet     ]
+%%rm     A c't'heure i n'vee plus qu'par Internet ] bis
+%%rm     Web par-ci, Web par-l
+%%rm     Tralalala, lalalalalre
+%%rm     Web par-ci, Web par-l
+%%rm     On ne ouit plus que a par s nous
+%%newpage
+%%rm
+%%rm
+%%rm                 TRADITIONNEL
+%%rm
+%%rm Un deux trois quat' cinq et six et sept     ] bis
+%%rm Et un deux trois, un deux trois,            ]
+%%rm Un deux trois quat' cinq et six et sept     ] bis
+%%rm
+%%rm Ma grand-mre faisait de la galette         ]
+%%rm Mon grand-pre se chauffait les roupettes   ] bis
+%%rm Et chauffe-toi donc sacr ppre
+%%rm Quand tu s'ras foutu 
+%%rm Tu n'te les chauff'ras gure
+%%rm Et chauffe-toi donc sacr ppre
+%%rm Quand tu s'ras foutu 
+%%rm Tu n'te les chauff'ras plus
+%%rm
+%%rm La bonne femme qui m'a donn du lait        ] bis
+%%rm Elle m'en donne plus, elle m'en donne plus  ]
+%%rm Non  c't'heure elle m'donne de la galette  ] bis
+%%rm
+%%rm Ma matresse quand je la caresse            ] bis
+%%rm Elle me dit tout bas et tu n'le r'diras pas ]
+%%rm Tra lalala la la lalala lalaine             ] bis
+S:https://www.folktunefinder.com/tunes/181677
+S:http://termen.free.fr/danses/termen/PasdeseptWebparci.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,36 @@
+X: 1
+T: Miss/Mrs. MacLeod's Reel
+O: Trad
+Z: John Chambers <jc@trillian.mit.edu>
+N: Sometimes called "Uncle Joe" in America.
+N: Skye p.8
+N: Hunter 249
+N: BSFC I-61 and III-45
+N: Winston  Scotty  Fitzgerald
+D: Celtic 40 Fiddlers 32 tape A6
+R: reel
+M: C|
+L: 1/8
+K: A
+|: cB \
+| "A"A2a2 "(D)"fefa | "A"~c2cB "(E7)"cdcB \
+| "A"A2a2 "F#m"fefa | "Bm"ecBA "E7"B2cB |
+| "A"A2a2 "(D)"fefa | "A"~c2cB c2e2 \
+| "D"~f2fg f2(3efg | "A"afec "E7"B2 :|
+|: cB \
+| "A"~A2cA eAcf | eccB "(E7)"c3B \
+| "A"~A2cA "F#m"eAcf | "Bm"ecBA "E7"B4 |
+| "A"~A2cA eAcf | eccB c3e \
+| "D"~f2fg f2(3efg | "A"afec "E7"B2 :|
+S:https://www.folktunefinder.com/tunes/176269
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MsMacLeodsR.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/reel/MsMacLeodsR_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X:28
+T:The Parks o' Yester
+S:Northumbrian Minstrelsy
+M:9/8
+L:1/8
+K:G
+d | BGG dBB eAA | BGG dBB "tr"g2 d |
+BGG dBB eAA | BGG dBB "tr"g2 d |
+BGG dBB ecA | BGG dBd "tr"g2 d |
+BGG dcB ecA | BGG dBd "tr"g2 ::
+d | "tr"g3 dcB ecA | "tr"g3 dBd "tr"g2 d |
+"tr"e>fg dcB edA | BGG dBd "tr"g2 :|
+S:https://www.folktunefinder.com/tunes/181611
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Parks_o_Yester.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

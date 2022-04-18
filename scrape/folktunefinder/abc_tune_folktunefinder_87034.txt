@@ -1,0 +1,34 @@
+X:745
+T: Sean Berry's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Ador
+[V:1] G|"Am"ABA ABc | "G"ded "Am"cBA |"G"GAB "C"c2 B | "G"GAB "Am"E2 G |
+[V:2] z|A,,2[ACE]E,,2[ACE]|G,,2[GBD]A,,2[ACE]|G,,2[GBD]C,2[EGC]|G,,2[GBD]A,,2[ACE]|
+%
+[V:1] "Am"ABA ABc|"G"deg "Am"a2 g |"C"ecc "G"dBB |"Am"A3 "Am"A2 :|
+[V:2]A,,2[ACE]E,,2[ACE]|G,,2[GBD]A,,2[ACE]|C,2[EGC]G,,2[GBD]|A,,2[ACE][A,,2C2E2]:|
+%
+[V:1] e|"Am"a^ga "G"ba=g |"C"ege "G"dBG |"Am"ABc "G"d2 B |"G"dBd "Em"e2 e |
+[V:2] z|A,,2[ACE]G,,2[GBD]|C,2[EGC]G,,2[GBD]|A,,2[ACE]G,,2[GBD]|G,,2[GBD]E,2[EGB]|
+%
+[V:1] "Am"aee "Em"bee |"G"gfg "Em"edB |"Am"ABc "G"dcB|"Am"A3 "Am"A2 :|
+[V:2] A,,2[ACE]E,2[EGB]|G,,2[GBD]E,2[EGB]|A,,2[ACE]G,,2[GBD]|A,,2[ACE][A,,2C2E2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87034
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

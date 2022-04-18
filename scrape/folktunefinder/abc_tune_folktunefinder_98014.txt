@@ -1,0 +1,24 @@
+X:10232
+T:Maple Sugar
+% Nottingham Music Database
+S:via PR
+M:4/4
+L:1/4
+K:D
+FG |:"D"A2 A3/2B/2|AF2A|"D"f2 f3/2e/2|dA BA|"A"e2 e3/2d/2|"A7"cA Bc|\
+ [1"D"d3/2d/2 cB|"A7"AF G^G:|
+ [2"D"dA "A7"Bc|"D"d2 |:"E7"cd |"A"e2 e3/2e/2|ef ed|"A"dc -c=c|c2 dc|\
+"E7"cB -Bc|"E7"d2 cB| [1"A"A3/2A/2 "E7"cd|"A"e2 :|
+ [2"A"A3/2A/2 "E7"cB|"A"A2 ||
+S:https://www.folktunefinder.com/tunes/98014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

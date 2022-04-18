@@ -1,0 +1,22 @@
+X: 1
+T: Magoo's
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+B{d}B{A}B dBG |{A}GFGBGD  |EFG   Ddc |
+BAG   ABc |B{d}B{A}B dBG  |{A}GFGBGD |
+EFG   Ddc | [1 BGF   GAc :| [2 BGF   GAB ||
+|:c{d}c{B}c edc |BAB   dBG  |FAD   FAD |
+ded   BAG |{d}cBcedc  |B{d}B{A}B dBG |
+FG^G  Adc | [1 BGF   GAB :| [2 BGFG3 |]
+S:https://www.folktunefinder.com/tunes/173674
+S:http://www.thesession.org/tunes/display/2368
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

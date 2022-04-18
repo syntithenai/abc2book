@@ -1,0 +1,51 @@
+X:1
+T:Loudac, rond : J'ai fait une matresse
+E:12
+Z:Roger Ngaret (94-95)
+R:loudeac
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:G
+Q:1/4=168
+A2 | B2c2 "G"d2B2 A2G2 "F"A2A2 | B2c2 "G"d2B2 "F"A4 "Am"A2 ::\
+A2 | B2c2 "G"d4 d3d "Em"B2d2 | d2B2 "F"c2B2 "Am"A4 A2 :|
+%%rm
+%%rm  1. J'ai fais une matresse, O gu, ]
+%%it     Dj lan dri don lan laine       ] bis
+%%it     Dj lan dri don dj lan li,     ]
+%%it     Dj lan dri don lan laine       ] bis
+%%rm
+%%rm  2.  Saint Martin des prs
+%%rm  3. J'irai la voir dimanche
+%%rm  4. lundi la demander
+%%rm  5. Je la trouvi seulette
+%%rm  6. Sur son lit qui beuriait
+%%rm  7. Lui ai demand belle
+%%rm  8. Qu'avez-vous  beurrier
+%%rm  9. J'ai oue d'hier en ville
+%%rm 10. Que t'allait  nous quitter
+%%rm 11. Ceux qu'ont dit a la belle
+%%rm 12. T'ont dit la vrit
+%%rm 13. Les chevaux sont aux portes
+%%rm 14. Manque plus que la gaulette
+%%rm 15. Oui pour les faire marcher
+%%rm 16. Ne t'en fais pas la belle
+%%rm 17. Un jour je reviendrai
+%%rm 18. avec un bel habit
+%%rm 19. Une casquette de char'tier
+%%rm 20. Et cette fois la belle
+%%rm 21. Moi je t'pouserai.
+S:https://www.folktunefinder.com/tunes/173101
+S:http://termen.free.fr/danses/loudeac/LoudeacrondJaifaitunemaitresse.abc
+% Rhythm Loudeac
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

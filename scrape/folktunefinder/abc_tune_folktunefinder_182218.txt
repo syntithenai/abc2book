@@ -1,0 +1,19 @@
+X:20
+T:Signes par milliers - K226
+M:4/4
+K:C
+"Do"EE FG "Lam"C4|"Rem"FF GA "Sol"D2 D2|"Mim"GG AB "Lam"c4|[M:2/4][L:1/8]"Fa"AA GF|[1[M:4/4]"Sol"E4 D4:|[2[M:4/4]"Sol"E2 D2 "Do"C4||
+"Do"zC DE E3 C|[M:2/4][L:1/8]"Rem"DE FF|[M:3/4]"Sol"E2 D2 zC|[M:4/4]"Do"GG "Fa"AA "Sol"G3 C|\
+"Do"GG "Fa"AA "Sol"G3 E|
+"Lam"AB cA "Si"B3 ^F|"Mim"AA G^F G3 E|"Lam"GG FE "Rem Sol"F4|:"Do"E3 E "Fa"AG FG|"Sol4/3"G8:|
+S:https://www.folktunefinder.com/tunes/182218
+S:http://moinejf.free.fr/messe/messeS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

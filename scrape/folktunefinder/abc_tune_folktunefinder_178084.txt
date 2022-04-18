@@ -1,0 +1,32 @@
+X:1
+T:Mynah Bird
+C:Cliff Stapleton
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Encyclopedia Blowzabellica", The Blowzabella tune and dance book, Dragonfly music, Newbiggin by the Sea, 1987
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G dorian
+=Bc |\
+d2=B2c2A2 | _BcBAG4 | D^FAB A2AG | ABAG A2=Bc |
+d2=B2 c2A2 | _BcBAG4 | D^FAB A2AG | ^FGAFG2 :|
+|: GA |\
+B3B A2G2 | AG^FE DEFG | BGDG dBGB | AGAB A2GA |
+B3B A2G2 | AG^FE DEFG | BGDG ^FGAF | G4G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178084
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/mynah_bird.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

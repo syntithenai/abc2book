@@ -1,0 +1,28 @@
+X:1
+T:Sweet and Sour Jig Flute Part
+C:copyright 1999 Kaubells
+N:To be played with Kaubells tune ``Sweet and Sour Jig''
+E:22                   % note spacing
+M:6/8
+K:D
+f3 ded|f3 fed|A3 gfe|fed c3|
+f3 ded|f3 fed|A3 gfe|f6|
+|a3 b3|e'3 agf|a3 b3|e'3 .f'z2|
+|a3 b3|e'3 b3|a3 g3|f3 z3|
+K: Dm
+E:18                   % note spacing
+|d'a{b}a fba|g2b e2g|f2a d'2z|d'ag f3|
+|d'a{b}a fba|g2b e2g|f2a d'2z|d'ag f3|
+|abc' f'3|gab e'3|abc' f'3|e'd'c' b3|
+|d'a{b}a fba|g2b e2g|f2a g2e|^f6|]
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/179629
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/off-we-go-flute.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

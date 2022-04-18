@@ -1,0 +1,24 @@
+X:194
+T:Buddy McMaster's                                                                                  
+M:4/4                                                                                               
+C:2(A1,A2),B1,B2,B1,A2                                                                              
+L:1/8                                                                                               
+K:D                                                                                                 
+P:A1                                                                                                
+F G |: A3 B AGFE|D2 d2 d2 ef|g3 e gfed|c2 e2 e2 FG|                                                 
+P:A2                                                                                                
+A3B AGFE|D2 d2 d2 ef|gegb agfe|1 (d4 d2) FG:|2 (d4 d2) fg||                                         
+P:B1                                                                                                
+a2A2 gfed|B2 d2 d3 B|AFAd fagf|1 (e4 e2) fg:|2 (e4 e2) FG||                                         
+P:B2                                                                                                
+a2A2 gfed|B2 d2 d3 B|AFAd ce (3ABc | (d4 d2) fg ||
+S:https://www.folktunefinder.com/tunes/91051
+S:http://trillian.mit.edu/~jc/music/abc/mirror/rigel.csuchico.edu/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

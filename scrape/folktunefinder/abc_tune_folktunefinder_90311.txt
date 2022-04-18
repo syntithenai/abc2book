@@ -1,0 +1,24 @@
+X:200
+T:Reavy's
+C:Ed Reavy ()
+Z:Set: Reavy's/Providence/Peeler's Jacket
+S:arr. Paddy O'Brien
+E:9
+I:speed 300
+M:C|
+K:G
+(3DEF|~G2BG dGBG|cBcd efge|~d2 BG dGBG|(3FED AD BDAF|\
+~G2BG dGBG|cBcd efge|dgfg ecAF|GBAF G2:|\
+Bd|~g2 fg edce|dfab afdg|bagf adBG|(3FED AD BDAD|\
+~G2BG dGBG|cBcd efge|dgfg ecAF|GBAF G2:|**
+S:https://www.folktunefinder.com/tunes/90311
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

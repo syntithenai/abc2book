@@ -1,0 +1,21 @@
+X: 1
+T: McCracken's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Dmaj
+|: F>G| (3ABA F>D A>dd>e | d>fe>d c>A (3ABc | B>AG>B (3ABc d2 |E2 (3EFG A>FE>F |
+A,2 (3ef^g a2A2 | B>AB>c d2e2 | d>fe>d c>A (3ABc | d2f2 d2 :|
+|: f>g| a>af>a f>ed>c | B>cB>c A2a2 | g>ag>f g>fe>d | e2 (3ef^g a2A2 |
+(3aba (3gfe d>ef>e | B>AB>c d2e2 | d>fe>d c>A (3ABc | d2f2 d2 :|
+S:https://www.folktunefinder.com/tunes/175033
+S:http://www.thesession.org/tunes/display/9128
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

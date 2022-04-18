@@ -1,0 +1,25 @@
+X:160
+T: The Lisheen Jig
+T: Farewell To Lisheen
+M: 6/8
+L: 1/8
+R: jig
+S: Michelle Mulcahy
+K: Dmaj
+|dfd cec|{c}BAF AFD|dfd cec| {c}BAF EFA|
+|dfd cec|{c}BAF AFD|1 FAB AFD|EFE DFA:|2~F3 AFD |EFE D2E||
+|DEF ABd|{d}BAF AFE|DEF ABd|{d}BAF E2F|
+|DEF ABd|{d}BAF ABd| D2B AFD|1 EFE DA,B,:|2 EFE DFA||
+S:https://www.folktunefinder.com/tunes/96652
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

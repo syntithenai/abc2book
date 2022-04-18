@@ -1,0 +1,29 @@
+X:1035
+T:Nancy's Fancy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005d4.html
+%%ID:000005d4
+K:G
+d |: \
+gbb2 | c'aa2 | c'/b/a/g/ fg       | a/g/a/b/ ad|\
+gbb2 | c'aa2 | c'/b/a/g/ f/g/a/f/ | ggg2 ::
+gfed | cBAG  | c'/b/a/g/ fg       | a/g/a/b/ ad|\
+gfed | cBAG  | c'/b/a/g/ f/g/a/f/ | ggg2 ::
+L:1/16
+bgbg c'gc'g | c'ac'a c'ac'a | c'bag f2g2 | agfe dfac' | \
+bgbg bgbg | c'ac'a c'ac'a | c'bag fgaf | g2g2 g4 :|
+S:https://www.folktunefinder.com/tunes/88364
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

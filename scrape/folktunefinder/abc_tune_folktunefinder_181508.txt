@@ -1,0 +1,42 @@
+X: 1
+T: Paidushko Horo
+M: 6/8
+L: 1/8
+R: jig
+K: Amin
+[M:5/8]
+|:A2 GAB|cA d2c|e2 d2e|cB A2G|cA d2c|d2 cBG|A2 GAB|1 cd czB:|2AE A2z||
+|: cA d2c|ed cBG|A2 GAB|cd c2G|Bc d2c|ed cBG|A2 GA2|AE A2z:|
+|: A2 GAB|cE B2A|AG AcB|1 G^F E2D:|2 AE A2z||
+|:BG ABG|AB c2B|BG ABG|AB c2B|BG ABG|1 AE ABG:|2 AE A2G||
+^AB c2B|c2 B2G|^AB c2B|c2 B2G|^AB c2B|c2 B2G|A2 GAE|AE A2G|
+^AB c2B|c2 B2G|^AB c2B|c2 B2G|^AB c2B|c2 B2G|A2 GAE| AE A2G|
+^AB c2B|c2 B2G|^AB c2B|c2 B2G|^AB c2B|c2 B2G|A2 GAE|AE A2G|
+^AB c2B|c2 B2G|^AB c2B|c2 B2G|^AB c2B|c2 B2G|A2 GAE| A2 AGz|
+|:[K:Amaj] ce dc_B|A2 e2A|ce dc_B|AE A2A|ce dc_B|A2 e2A|ce dc_B|AE A2z:|
+|:e=g g=fe|fe =gfe|e=g e^de|c2 e2e|ga a=gf|fd =gfe|=fe e=de|AE A2z:|
+|: eg f^de|c2 e2A|=gf e^de|c2 e2e|eg f^de|c2 e2A|=gf e^de|c2A2z:|
+[K:Bmaj]
+|:df ed=c|B2 f2B|df ed=c|B=A B2B|df ed=c|B2 f2B|df ed=c|B=A B2z:|
+[K:Amaj]
+|:dA d2c|cA c2B|BE B2A|AE ABc|dA d2c|cA c2B|BE B2A|AE A2z:|
+[K:Gmaj]
+|:cE B2A|d2 A2A|cE B2A|BG A2A|cE B2A|d2 A2A|cE B2A|BG A2z:|
+[K:Dmaj]
+|:FA FGE|F2 AD2|FA FGE|F2 =FED|FA FGE|F2 AD2|FA FGE|F2 =FED:|
+|:F2 G2E|F2 AD2|F2 G2F|FA =FED|F2 G2E|F2 AD2|F2 G2F|FA =FED:|
+S:https://www.folktunefinder.com/tunes/181508
+S:http://www.thesession.org/tunes/display/4646
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key B
+% Key A
+% Key D
+% Time_signature 5/8
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:165
+T:The Lisheen Slide
+M: 12/8
+L: 1/8
+R:slide
+K: Gmaj
+|: ~B3 BAB G2B A2G | ~B3 BAG A2B cBA |
+|~B3 BAB GBA GBd | gfe dBG A2B cBA :|
+|: ~g3 ~d3 ede def | gfg aga bab afd |
+|~g3 ~d3 ede def | gfg aga bgf g3 :|
+S:https://www.folktunefinder.com/tunes/96653
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

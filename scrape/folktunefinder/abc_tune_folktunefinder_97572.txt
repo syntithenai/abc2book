@@ -1,0 +1,25 @@
+X: 1
+T: Alan MacPherson Of Mosspark
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|:a|fae fce|A<AA ace|dcc ceA|cBB B2 a|
+fae fce|A<AA ace|dcc eBe|A3 A2:|
+|:e|a2 e f<ga|f2 a fec|dcc ceA|
+[1 cBB B2 e|a2 e f<ga|f2 a fec|dcc eBe|A3 A2:|
+[2 cBB B2a|fae fce|A<AA ace|dcc eBe|A3 A2||
+|:a|A2 c A<AA|ece fec|dcc ceA|cBB B2 a|
+A2 c A<AA|ece fec|dcc eBe|A3 A2:|
+|:e|a2 a a2 e|aef ceA|dcc ceA|
+[1 cBB B2e|a2 a a2 e|aef ceA|dcc eBe|A3 A2:|
+[2 cBB B2a|A2 c A<AA|ece fec|dcc eBe|A3 A3||
+S:https://www.folktunefinder.com/tunes/97572
+S:http://www.thesession.org/tunes/display/8475
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

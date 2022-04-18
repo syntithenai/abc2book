@@ -1,0 +1,22 @@
+X:1610
+T:Buy a Broom -- Boy
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001258.html
+%%ID:00001258
+K:G
+G/B/ | \
+.d(d/e/d/c/) | cGG | ADD | cGG | d(d/e/d/c/) | BGG | ADF | G2 ::
+z | BGG | ADD | BGG | ADD | .d(d/e/d/c/) | BGG | ADF | G2 :|
+S:https://www.folktunefinder.com/tunes/88479
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

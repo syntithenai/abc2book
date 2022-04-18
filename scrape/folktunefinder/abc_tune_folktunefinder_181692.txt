@@ -1,0 +1,104 @@
+X:1
+%%scale 0.6
+T:Passacagli
+C:Alessandro Piccinini (1639)
+L:1/4
+K:CM italian7tab
+%K:CM frenchtab
+M:3
+%%tabrhstyle modern
+%tabfont itBorrono
+%1
+[,bdca3] [,bdca1]|[,a,c,d2] [,b,c,a3] [,a,,,a1]|[,,dc,b2] [,a,a,,a3] [,,d,d1]|\
+    [,,dcca2][,,ccca3][,,c,,a1]|[,,dca2]||[,bdca3] [,b,,a1]|[,dff,d2] [,bb,,a3] [aa,,,a1]|
+%2
+[,,d,,b2][add,,b3][,d,,,b1]|[aad,,a2][aac,,a3],d1|[,bdca2]||[abd3][c,d1]|[ea,c2][ef,c3]\
+    [e,,c1]| [f,,e2][fd3][f,,e1]| [h,,g2][,,g3][h,fg1]|[alh2]||
+%3
+[bbd3][,,d1]|[,ab2][abb3][,a1]|[a,dd2][,ddd3][,da1]|[,bdc2][,ac,,a3],,,,,a1|[,bd,a2]||\
+    [,,,ca3][,,,ca1]|[,a,,,d2][ab,,,a3]a1|
+%4
+[f,,,,b2][fdd,,b3][,,d1]|[ff,,,a2][ef3][ef1]|[fc,,,a2]||[fd,,,c3][f,,,,c1]|\
+    [hd,,,e2][ac,,a3]a1|[,d,,,,a2][,dd,ab3][,d,,c1]|
+%5
+[a,d,da2][,,c,c3][,d,,c1]|[,bd,a2]||[,,,ca3][,,a,a1]|[,,b,,d2][,,b,c3],,,,e1|\
+    [,,,df2][f,dd3][fa1]|[fb,c2][ea3] e1|
+%6
+[fb,,a2]||[abd3][abd1]|[aad2][adc3][adc1]| [add2][abd,d3][abd,d1]| [bada2][aacc3]\
+    [aacc1]|[abd,a2]||
+%7
+[abd,a3][c,,,a1]|[ddf,,d2][dfg,,a3][dfg,,a1]|[bbd,,b2][ba,,,,a3][b,d1]|\
+    [aad,,a2][aac,,a3],d1|
+%8
+[,bd,a1] ,,d/,a/ [,b,,a],b/,d/ a1 [a,,,a/]c/|[d,,,,d1]d/f/[h,,,,a1]a/,d/,b1 [,b,,,a/],a/|\
+    [,,d,,b1]f/d/ [b,,,,,a1]b/a/ ,d1 [,d,,,,a/],b/|
+%9
+[,a,,,a1]a/c/[e,,,,a1] e/f/ h1 [f,,,,a/] e/|[f,,,a1],,,,a/,,,,c||[a,,,d1],,,,d/,,,a/\
+    ,,,c1 [a,,c/] ,,a/|[,bd1] ,,a/ ,,b/ [,b,c1],,,a/,,,c/,,,,d1[,a,a/],,,c/|
+%10
+[,,dd1],,,c/,,,d/ [,,da1],,,,d/,,,,c/ ,,,,a1 [,,d,,d/],,,,,b/|\
+    [,,c,,a1],,,,,e/,,,,a/[,,c,c1],,,,c/,,,,d/ ,,,a1 [,,c,d/],,,,c/|\
+    [,,d,a/],,c,,d,a||
+%11
+[,b,,a/],a,b,d a ,d [a,,,a/],c|[d,,,,d/]bab [d,,,,a/]ba,d a,d[,b,,,a/] ,a|\
+    [,,d,,b/],a,b,,d [,a,,,,a/],,d,a,b ,d,b[,a,,,,a/],,d|
+%12
+[,,c,,a/],,a,,,c,,a [,,c,,a/],,d,a,c ,da[c,,,,a/]e|[f,,,a/]dba||\
+    [b,,,a/]ab,d a,d[a,,,a/]c|
+%13
+[d,,,c/]ca,d [a,,,e/],dacdc[d,,,e/]a|[b,,a/]abd [f,,d/]dba [,d,d],b[,a,d/],,d|\
+    [,a,c/],,d,,c,,d [,a,,,a/],,d,a,c ,d,c[,d,,,a/],a|
+%14
+[,b,,a],,,,c,,,,d,,,,c||[,b,,a/],,,,c,,,,d,,,a ,,,c,,,a [,b,c],,a | \
+    [,ab/],,a,,,c,,,a [,b,c/],,,a,,,,d,,,a,,,c,,,,d[,a,a/],,,c|
+%15
+[,,dd/],,b,,,d ,,,c [f,,d/],,,c,,,a,,,,d ,,,,c,,,,a[f,,,,d/],,,,,b|\
+    [f,,,,a/],,,,,c,,,,,e,,,,a [e,,,c/],,,,a,,,,c,,,,e ,,,a,,,c[e,,a/],,,c|\
+    [f,,,a2]||
+%16
+[,b,ca3][,ba,a1]|[,ab,,d2][dbb,,a3][da1]|[bbd,,b2][bdd,,,a3],d1|[abd,,a2][aac,,a3][,d,,,a1]|\
+    [,bdca2]||[i,,,a3][i,,,a1]|
+%17
+[h,,,h2][fg,d3][fg1]|[df,,d2][dfg3][dfg1]|[ddg2][ddf3][,fg1]|[dfg2]||\
+    [f,dd3][f,dd1]|[da,d2][db,c3][db,c1]|
+%18
+[da,a2][ba,a3][b,d1]|[aadc2][aacc3],d1|[,bdca2]||[bbd,a3][bbd,a1]|\
+    [bbb,c2][abb,d3][abb,d1]|[a,dd,b2][,d,,,b3][,d,,,d1]|
+%19
+[,ddca2][,c,,a3][,c,,a1]|[,dda2]||[b,da3][b,da1]|[a,d,d2][bbd,a3]a1|\
+    [,dd,b2][,db,,d3][,d,d1]|[,ddca2][,c,,a3],c1|[,dda2]||
+%20
+f3 h1|[i,,h2][if3],h1|[hi2][hif3],,g1|[fgi2][edf3][e,f1]|[fbd2]||\
+    [,b,,a3][,d,,c1]|[,f,,d2][ff,,e3][d,,,e1]|
+%21
+[c,da2][da,,c3][d,,,d1]|[d,da2][cb,a3][cb,a1]|[db,,,d2]||[da3][d,d1]|\
+    [a,b,,d2][,d,d3][,d,d1]|[,b,c,d2][,a,a3][,a,a1]|
+%22
+[,a,a,b2][,,d,d3][,,d,d1]|[,,c,da2]||[,,d,c3][,,d,a1]|[,a,,,e2]\
+    [,b,ca3][,ba1]|[,bc,,a2][,ad,,,a3][,ad,,,a1]|[,ad,,a2]\
+    [aac,,a3],d1|[,bdca2]||
+%23
+[ab,,a3][c,,,a1]|[da2][,d,,cd3][a,,,d1]|[b,da,,a2][,dd,ab3][,dd,ab1]|\
+    [aad,,a2][aacc3][aacc1]|[a,d/],,c,,d,a||[ab/],a,,d,,b ,,d,,b[a,,d],,,c|
+%24
+[b,,a/],,,c,,,d,,,c [c,,a/],,,c,,,a,,,,d ,,,,c,,,,d[c,,,c/],,,,a|\
+    [d,,,,d/],,,,a,,,,,d,,,,,c[e,,,,a/],,,,,c,,,,,e,,,,a ,,,,e,,,,c[e,,a/],,,c|\
+    [f,,,a/],,,,c,,,,e,,,a [d,,c/],,,a,,,,e,,,a ,,,c,,,a[d,,c/],,,,e|
+%25
+[b,,a/],,,c,,,d,,,c||[b,,a/],,,,d,,,,c,,,,a ,,,,c,,,,d[b,,a/],,,,c|\
+    [a,,,d/],,,a,,,c,,,a[a,,,d/],,,,c,,,,a,,,,c ,,,,d,,,,c[a,,,d/],,,,a|\
+    [,d,,b/],,,,a,,,,,d,,,,a[,d,,b/],,,,a,,,,b,,,,d ,,,a,,,c[,d,d/],b|
+%26
+[,dc/],a,c,d [a,,,a/],d,c,d a ,d[a,,,a/],c|[,d,a/],c,da|| [b,,a/]abd fb[d,,a/]b|\
+    [a,,,e/],dac [d,,c/]cac dc[d,,c/]a|
+%27
+[b,,a/]abd [f,,d/]dfhihif|[h,,,,a/]fe,h [e,,,,a/],hef hf[h,,,,a/]e|[f,,,a2]|]
+S:https://www.folktunefinder.com/tunes/181692
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Piccinini/passacagli.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Piccinini/passacagli.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

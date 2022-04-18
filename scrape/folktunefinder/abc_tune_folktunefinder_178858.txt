@@ -1,0 +1,46 @@
+X:1
+T:Noel
+R:Noel
+A:France
+Z:abc transcription Simon Wascher
+F:http://simonwascher.info/
+M:3/4
+L:1/4
+K:G dor
+V:1
+GGA | B2A | B""c2 | d2c |
+V:2
+G/A/""AG | G2D | G""A2 | B2A |
+%
+V:1
+B""c2 | d2c | B""c2 | d3 :|
+V:2
+G""A2 | B2A | G/A/""AG | ""^F3 :|
+%
+V:1
+|: dd_e | f2d | _e""c2 |
+V:2
+|: BBc | d2B | c""A2 |
+%
+V:1
+B2d | ""B2A | BGd | ""B2A |
+V:2
+B2B | ""G2^F | GDB | ""G2^F |
+%
+V:1
+BAG | G/A/A>G | G3 :|
+V:2
+GDG | E/^F/""F>G | G3 :|
+S:https://www.folktunefinder.com/tunes/178858
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_lieder/noel.GGAB2A.abc
+% Rhythm Noel
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

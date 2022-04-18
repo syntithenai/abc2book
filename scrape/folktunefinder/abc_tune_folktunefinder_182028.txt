@@ -1,0 +1,23 @@
+X: 1
+T: Peggy's Nettles
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+a|:ecB ABA|cef ecA|~B3 fge|fge fga|
+ecB ABA|cef ecA|~B3 fBf|ecB A2a:|
+|:ecA cBA|~c3 cBA|GAB EFE|GAB agf|
+ecA cBA|~c3 cBA|~B3 fBf|1ecB A2a:|2ecB Ace||
+|:~a3 gfe|fae fec|~B3 fge|fge fge|
+~a3 gfe|faf ecA|~B3 fBf|1ecB Ace:|2ecB A2a||
+S:https://www.folktunefinder.com/tunes/182028
+S:http://www.thesession.org/tunes/display/6120
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

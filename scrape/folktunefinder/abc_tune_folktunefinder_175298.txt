@@ -1,0 +1,65 @@
+X:1083
+T:Menuet
+T:(Minuet) BWV Anh. 120
+C:Johann Sebastian Bach
+O:Germany
+R:Menuet, minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva120/bwva120-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+Q:1/4=132
+K:Am
+V:1
+E2|A>Bc2B2|c2A2e2-|e2edcB|c2A2f2-|
+V:2
+z2|z2z2E,2|A,>B,C2B,2|C2A,2E2-|E2EDCB,|
+%
+V:1
+f2e2^d2|e2B2e2-|e2d2^c2|d2A2d2-|
+V:2
+A,2A,2A,2|^G,2G,2G,2|G,2G,2G,2|^F,2F,2F,2|
+%
+V:1
+d2c2B2|c2G2c2|BcdBfA|^G4::G2|
+V:2
+=F,2F,2F,2|E,2E,2E,2|D,2D,2D,2|E,2E,,2::z2|
+%
+V:1
+c>de2d2|e2c2g2-|g2gfed|e2c2a2-|
+V:2
+z2z2G,2|C>DE2D2|E2D2G2-|G2GFED|
+%
+V:1
+a2g2^f2|g2d2e2|f2d4|c4e2|
+V:2
+C2C2C2|B,2G,2C2|A,2F,2G,2|C,2C,,2z2|
+%
+V:1
+f2T^f3e/f/|g2d2^f2|g2T^g3^f/g/|a2e2a2|
+V:2
+z2z2A,,2|_B,,2TB,,3/A,,//B,,//C,2|B,,2E,,2B,,2|C,2T^C,3/B,,//C,//A,,2|
+%
+V:1
+f2e2d2|e2E2A2|d2B4|A4:|
+V:2
+D,2E,2F,2|C,4F,2|D,2E,2E,,2|A,4:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175298
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva120/bwva120-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva120/bwva120-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva120/bwva120-pno2.abc
+% Rhythm Menuet, minuet
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

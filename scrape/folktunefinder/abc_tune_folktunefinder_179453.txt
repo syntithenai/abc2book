@@ -1,0 +1,43 @@
+X:1
+T:Odenwaelder Schnickser
+R:Rheinlaender
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Das kleine dicke Liederbuch", Heide Buhmann, Hanspeter Haeseler, 5.Auflage, Eigenverlag, Schluechtern 1989
+N:dort in G (1.teil), D (2.teil) und C (3.teil), einstimmig mit harmonie-buchstaben, Seite 236
+N:die tanz-beschreibung die im "kleinen dicken Liederbuch" fuer den Rheinlaender gegeben wird entspricht der ueblicherweise als "Schottisch" bezeichneten:in paar-fassung gegenueber wechselschritt hin und her, dann dreher.
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+(Bc) |\
+B2A2 A2(AB) | A2G2 G2(AG) | F2FA d3d | c2B2 G2(Bc) |
+B2A2 A2(AB) | A2G2 G2(AG) | F2FA dcBA | G2G2 G2 z2 :|
+K:D
+|:\
+A2BA FAd2 | A2BA FAd2 | c2c2 B2B2 | B2A2 F4 |
+A2BA FAd2 | A2BA FAd2 | c2c2 B3c | d2d2 d2 :|
+K:C
+(GF) |\
+E6 (AG) | F6 BA | G2Bc d2f2 | e2c2 c2GF |
+E6  AG  | F6 BA | G2f2 e3d | c2c2 c2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179453
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/odenwaelder_schnickser.abc
+% Rhythm Rheinlaender
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

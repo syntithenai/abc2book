@@ -1,0 +1,23 @@
+X: 1
+T: Migoni's
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+|: EFB BAB | dcB A2 G | GFG EFG | BAG AGF |
+EFB BAB | dcB A2 A | dcA BGF | EDD E3 :|
+|: .B2 B .A2 A | .G2 G .F2 F | E3 DEF | FED EDE |
+BGB AFA | GEG FDF | E3 DEG |1 GFD E3:|2 GFD E2 e ||
+|: ede g2 e | ede B2 e | ede ged | BAG AGA |
+ede g2 e | ede B2 e | ede gd=c |1 AGF G2 e :|2 AGF G3 |]
+S:https://www.folktunefinder.com/tunes/175674
+S:http://www.thesession.org/tunes/display/7996
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

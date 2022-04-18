@@ -1,0 +1,23 @@
+X: 1
+T:Mazurka-valse - Les Valcerves 2 (M. Perrone)
+C:Trad 3, 48
+M:3/4
+L:1/8
+K:C
+e2 c2A2|^F2AF Ac|BA Bc dB|c2Bc Ac|\
+e2 c2A2|^F2AF Ac|BA Bd Bc|A6:|\
+A>G E>G D>C|D>C D>F E>D|E>F E>D C>B,|C2A,4|\
+A>G E>G D>C|D>C D>F E>D|(3E^DE (3^F^EF (3^GFG|A2A4:|*
+P:Var
+e2 (3cec (3AcA|^F2AF Ac|BA Bc dB|(3cdc (3BcB (3ABc|\
+e2 c2A2|^F2AF Ac|BA Bd Bc|AE AB cd|**
+S:https://www.folktunefinder.com/tunes/175011
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Mazurka_valse_Les_Valcerves_2_M_Perrone_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

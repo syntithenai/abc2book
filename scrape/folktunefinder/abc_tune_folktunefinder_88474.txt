@@ -1,0 +1,25 @@
+X:1585
+T:Waddington Tune
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001253.html
+%%ID:00001253
+K:F
+c | fa/f/ fa/g/ | ff/g/ af | c'a b/a/g/f/ | e/f/g/e/ c\
+c | fa/g/ fa/g/ | ff/g/ a/g/f/e/ | db a/g/f/e/ | faf ::
+z | Az Az | Bz Az | BB dd | c2cz | AAAz | AA BB | AB A2 ::
+a3/b/ | c'c'/b/ aa/g/ | f/e/f/g/ f/g/a/b/ | c'a b/a/g/f/ | cc c/d/\
+e/f/  | b2ac' | b/a/g/f/ f/e/d/c/ | df cf | g/f/g/a/ fF :|
+S:https://www.folktunefinder.com/tunes/88474
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

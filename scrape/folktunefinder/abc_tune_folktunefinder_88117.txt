@@ -1,0 +1,24 @@
+X:52
+T:For the Burial of the Dead % title
+C:                           % composer
+O:Chants of the Church       % origin.
+M:C                          % meter
+L:1/8                        % length of shortest note
+Q:50                         % tempo
+K:F                          % key
+V:1                          % voice 1
+%%MIDI nobarlines
+D FD EF/ F3 F F FE EGFED ED  EF GAG AB
+S:https://www.folktunefinder.com/tunes/88117
+S:http://kittybriton-abc.blogspot.com/2008_01_01_archive.html
+S:http://kittybriton-abc.blogspot.com/search/label/plainchant
+S:http://kittybriton-abc.blogspot.com/search/label/joan%20of%20arc
+S:http://kittybriton-abc.blogspot.com/2008/01/prisoner-of-conscience.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

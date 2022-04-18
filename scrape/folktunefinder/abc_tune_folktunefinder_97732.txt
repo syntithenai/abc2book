@@ -1,0 +1,44 @@
+X:64
+T:Scots di Caffaro - first fiddle(s) WARNING: DRAFT 1.7.6 abc!!!!
+R:scottish
+C:trad.
+B: Manuale di Violino popolare - fiddle tutor by Bernardo Falconi, Giuliano Grasso e B: Giulio Venier (Bernardo is a fiddler with the Ponte caffaro team, and has been a
+B: driving force beyond the revival of the carnival celebrations since the early 
+B: eighties)
+D: CD Pas en amr - Compagnia Sonadur di Ponte Caffaro (visit the Associazione 
+D: Culturale Baraban web site: http://www.pcware.it/acb/index.htm)
+N: As played in carnival time in Ponte Caffaro by the musicians of the town team - the
+N: team is usually made of fiddles (sharing the parts), guitar and a bowed bassetto
+N: (actually a double bass without one of the stings, but not too far in the past
+N: three stringed home made instruments, mid size a cello and a double bass, were
+N: popular all over the North of Italy).
+O: Ponte Caffaro (Brescia) - The bridge (ponte) was once marking the border between
+O: italian Lombardy and Austrian Veneto. 
+P:AABBACC (to conclude play once part A accellerando)
+M:2/4
+L:1/16
+Z: transcribed into abc by Gianni Cunich, g.cunich@tiscalinet.it 
+K:D
+P:A
+DF | A2DF B2DF | A2d2 d2fg | a2e2 agfe | g2f2 Pf2 DF |
+A2DF B2DF | A2d2 d2fg | a2Pe2 agfe | d2f2 d2 :|
+P:B
+K:A
+ze | a2a2 g3g | a2a2 a2gf | e2ef edcB | d2c2 c3e |
+a2a2 Pg3g | a2a2 a2gf | e2ef edcB | A2c2 A2 :|
+P:C
+K:G
+zd | B3d B3d | g2g2 g2fe| d2de dcBA | c2PB2 G3B |
+B3d B3d | g2g2 g2fe | d2de dcBA | G2B2 G2 :|
+S:https://www.folktunefinder.com/tunes/97732
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

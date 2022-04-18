@@ -1,0 +1,33 @@
+X: 1
+T:Larid
+C:Tony Upton, 2/7/02
+M:2/2
+L:1/8
+Q:1/4=226
+K:Cm
+V:1 name="Accordion"
+%%MIDI program 23
+"Eb"E4 "Dm"D4|"Cm"CDEC "Bb"B,2D2|"Cm"E4 D4|"Cm"EFGE "Dm"F2D2|"Eb"E4 "Dm"
+D4|"Cm"CDEC "Bb"B,2D2|
+"Cm"E2G2 "Dm"F2A2|"Cm"GAGF "Eb"E2D2:|"Cm"C4 "Eb"c4|"Bb"dcde "Dm"d2c2|"Bb
+"d3e "Dm"d2c2|"Eb"B2cd "Cm"e2de|
+"Dm"f2df "Eb"e2dc|"Bb"dcde "Dm"d2D2|"Eb"E3G "Dm"F3A|"Cm"GAGF "Eb"E2D2:|"
+Cm"C8|C4 z4||
+V:2 name="Flute"
+%%MIDI program 74
+E3F D2ED|C2B,C B,2D2|E3F D2ED|EFGE F2D2|E3F D2ED|CDEC B,2D2|
+E2G2 F2A2|GAGF E2D2:|C4 c4|dcde d2c2|d3e d2c2|B2cd edde|
+f2df e2dc|dcde d2D2|E3G F3A|GAGF E2D2:|C8|C4 z4||
+%%vskip 0.25cm
+%%text This is a type of dance tune from Brittany. In this tune, the "Ac
+S:https://www.folktunefinder.com/tunes/171275
+S:http://trillian.mit.edu/~jc/music/abc/mirror/website.lineone.net/~roypmin/LARDIE.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X: 9154
+T: South of the Shannon (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 volume=80 %banjo
+V: 2 volume=70 clef=bass m=D program 1 00
+K: A
+[V:1] e|"A"ecA EAc | "E7"dBG EFG | "F#m"AFA "D"dcd | "A"ecA "E7"Bcd |
+[V:2] z|A,,2[AEC]C,2[AEC]|E,,2[DGB]B,,2[DGB]|F,,2[FCA]D,2[AFD]|A,,2[AEC]E,,2[DGB]|
+%
+[V:1] "A"ecA EAc | "E7"dBG EFG | "A"ABc "D"dfe | "E7"dBG "A"A2 :|
+[V:2] A,,2[AEC]C,2[AEC]|E,2[DGB]B,,2[DGB]|A,,2[AEC]D,2[AFD]|E,2[DGB][A,2E2C2]:|
+%
+[V:1] e|"E7"edB bge | "A"aga "A"ecA | "F#m"FAc "D"dfa | "A"ecA "E7"Bcd |
+[V:2] z|E,,2[DGB]B,,2[DGB]|A,,2[AEC]E,,2[AEC]|F,,2[FCA]D,2[AFD]|A,,2[AEC]E,2[DGB]|
+%
+[V:1] "A"cAc "Bm"dBd | "A"ece "D"agf | "A"ece "Bm"fdB |"E"GAB "A"A2 :|
+[V:2] A,,2[AEC]B,,2[BFD]|A,,2[AEC]D,2[AFD]|A,,2[AEC]B,,2[BFD]|E,,2[EBG][A,2E2C2]:|
+%%%%%%%%tune repeat
+[V:1] e|"A"ecA EAc | "E7"dBG EFG | "F#m"AFA "D"dcd | "A"ecA "E7"Bcd |
+[V:2] z|A,,2[AEC]C,2[AEC]|E,,2[DGB]B,,2[DGB]|F,,2[FCA]D,2[AFD]|A,,2[AEC]E,,2[DGB]|
+%
+[V:1] "A"ecA EAc | "E7"dBG EFG | "A"ABc "D"dfe | "E7"dBG "A"A2 :|
+[V:2] A,,2[AEC]C,2[AEC]|E,2[DGB]B,,2[DGB]|A,,2[AEC]D,2[AFD]|E,2[DGB][A,2E2C2]:|
+%
+[V:1] e|"E7"edB bge | "A"aga "A"ecA | "F#m"FAc "D"dfa | "A"ecA "E7"Bcd |
+[V:2] z|E,,2[DGB]B,,2[DGB]|A,,2[AEC]E,,2[AEC]|F,,2[FCA]D,2[AFD]|A,,2[AEC]E,2[DGB]|
+%
+[V:1] "A"cAc "Bm"dBd | "A"ece "D"agf | "A"ece "Bm"fdB |1 "E"GAB "A"A2 :|2\
+"E"GAB "A"HA3 ||
+[V:2] A,,2[AEC]B,,2[BFD]|A,,2[AEC]D,2[AFD]|A,,2[AEC]B,,2[BFD]|1 E,,2[EBG][A,2E2C2]:|2\
+E,,2[EBG]H[A,3E3C3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87239
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

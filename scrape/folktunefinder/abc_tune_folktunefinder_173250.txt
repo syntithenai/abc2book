@@ -1,0 +1,26 @@
+X: 1
+T: Loxley Figure Eight
+O: Trad
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N: Hand-written ms. from Priscilla Adams.
+M: C|
+L: 1/8
+P: (AABB)3
+K: D
+d2e2 \
+|: "D"Mf4 Ma3f | "G"Me2Md2 MB4 | "A"e4 f3e | "D"d2B2 "A"A4 \
+|  "D"f4 a3f | "G"e2d2 Bcde | "D"f2a2 "A7"f2e2 | "D"d4- d2z2 :|
+dc \
+|: "D"A2AB A2AB | A2d2 d2c2 | "Em"B2Bc B2Bc | B2e2 "A7"edcB \
+|  "D"A2AB A2AB | A2d2 "G"d2e2 | "D"f2a2 "A7"f2e2 | "D"d4- d2z2 :|
+S:https://www.folktunefinder.com/tunes/173250
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/LoxleyFigureEight.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

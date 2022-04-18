@@ -1,0 +1,54 @@
+X: 9073
+T: Jerry O'Brien's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] DB,|"D"A,DDE D3 B,|"Bm"A,B,DF "D"Addc|"Bm"BAFA "D"dcdB|"F#m"AF (3FEF "Em6"GECB,|
+[V:2] z2|D,2[D2A2F2]A,,2[D2F2A2]|B,,2[B2D2F2]D,2[D2A2F2]|B,,2[B2D2F2]D,2[D2A2F2]|\
+F,2[F2C2A2]E,2[E2B2G2C2]|
+%
+[V:1] "D"A,DDE D3 B,|"Bm"A,B,DF "D"Addc|"Bm"BABc "D"dAFA|"A7"GECE "D"D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|B,,2[B2D2F2]D,2[D2A2F2]|B,,2[B2D2F2]D,2[D2A2F2]|\
+A,,2[A2E2C2][D,2A,2F2]:|
+%
+[V:1] Bc |"D"dffg f3 g|"F#m"a2 fa "Bm"bafe|"G"dBBA B3 c|"D"dfdB "A"A2Bc|
+[V:2] z2 |D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]B,,2[B2D2F2]|G,,2[G2D2B2]D,,2[G2D2B2]|\
+D,2[D2A2F2]A,,2[A2E2C2]|
+%
+[V:1] "D"dffg f3 g|"F#m"a2 fa "Bm"bafe|"G"dB (3BAB "Em7"efdB|"A7"AGEC "D"D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]B,,2[B2D2F2]|G,,2[G2D2B2]E,2[D2B2G2]|\
+A,,2[G2E2C2][D,2A,2F2]:|
+%%%%%%%%tune repeat
+[V:1] DB,|"D"A,DDE D3 B,|"Bm"A,B,DF "D"Addc|"Bm"BAFA "D"dcdB|"F#m"AF (3FEF "Em6"GECB,|
+[V:2] z2|D,2[D2A2F2]A,,2[D2F2A2]|B,,2[B2D2F2]D,2[D2A2F2]|B,,2[B2D2F2]D,2[D2A2F2]|\
+F,2[F2C2A2]E,2[E2B2G2C2]|
+%
+[V:1] "D"A,DDE D3 B,|"Bm"A,B,DF "D"Addc|"Bm"BABc "D"dAFA|"A7"GECE "D"D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|B,,2[B2D2F2]D,2[D2A2F2]|B,,2[B2D2F2]D,2[D2A2F2]|\
+A,,2[A2E2C2][D,2A,2F2]:|
+%
+[V:1] Bc |"D"dffg f3 g|"F#m"a2 fa "Bm"bafe|"G"dBBA B3 c|"D"dfdB "A"A2Bc|
+[V:2] z2 |D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]B,,2[B2D2F2]|G,,2[G2D2B2]D,,2[G2D2B2]|\
+D,2[D2A2F2]A,,2[A2E2C2]|
+%
+[V:1] "D"dffg f3 g|"F#m"a2 fa "Bm"bafe|"G"dB (3BAB "Em7"efdB|1 "A7"AGEC "D"D2 :|2\
+"A7"AGEC "D"D4-|D4 z4||
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|F,,2[F2C2A2]B,,2[B2D2F2]|G,,2[G2D2B2]E,2[D2B2G2]|1\
+A,,2[G2E2C2][D,2A,2F2]:|2 A,,2[G2E2C2][D,4-A,4-F4-]|[D,4A,4F4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87158
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

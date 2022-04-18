@@ -1,0 +1,20 @@
+X:1
+T:Arthur McBride
+M:3/4
+L:1/4
+K:F
+ F| F3/2 G/2 F| F/2 C/2- C D| F3/2 G/2 F| A2 c/2c/2| d c B| A B- A|\
+ G3/2 A/2G/2-F/2| D2 F| F C D| F C D| F G F| A2 c| c B A| G3/2 A/2 c|\
+ d3/2- e/2- d| c2 A| c2 c| A B c| d d d| c z A| B c B| A B A| G AG/2-F/2|\
+ D2 F| F3/2 C/2 D| F C D| F G F| A2 c/2c/2| c B A| G D E| F3| F2||\
+S:https://www.folktunefinder.com/tunes/125673
+S:http://back.numachi.com:8000/dtrad/abc/ARTMCBRD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/ARTMCBRD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:18
+T: Bayue shiwu yue tuanyuan
+N: C1518
+O: China,Guangdong, Meixian
+S: II, 411]
+R: Shange, Songkou zhengban shange]
+M: 4/4
+L: 1/32
+K: D
+B4B2d2e4c4B4e8f4 | e2f2e4B8B2d2e8f4
+e2f2e2d2e4z4B2d2B4B8 | e8B4B4B4d12
+B2d2B12d4e2d2e12f4
+d4e2f2e4d2e2d2B4d8e2f2
+e2d2B8z4B4e2d2e12f4 | e2d2B4B8B4B12
+f4f12e2f2e8f4 | d4e2d2B8B2d2e8f4
+d4e2f2-f4z4e2f2e2d2B8 | e8B4d2e2d2B4d12
+B2d2B12B2d2B4e12f4 | d4f4e4dedBB4d8e2f2
+e4d2B2-B4z4d2e2d2B4e12f4 | e8B4d2e2d2B4B12
+f4f12e2f2e8f4 | e2f2e2d2B8B2d2e8f4
+d4e2f2f4z4e2f2e2d2B8 | e4d2e2d2B4d2e2B4d12
+B2d2B12d2e2B4e12f4
+d4e2f2e4e2d2B2e4d8e2f2
+e4d2B2-B4z4B4B4e12f4 | e8B4d2e2B4B12
+S:https://www.folktunefinder.com/tunes/92041
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Shange, songkou zhengban shange]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

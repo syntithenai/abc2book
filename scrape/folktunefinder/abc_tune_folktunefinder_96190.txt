@@ -1,0 +1,29 @@
+X: 39
+T:Rigadoon. TBe.39
+M:C|
+L:1/4
+Q:160
+S:Thomas Bennet MS,1718, VWML
+R:rigadoon
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+defe | d2B2 | def(e/d/) | c4 || efgf | e4 |!
+ efgf | e4 | defe | d4 |defe | d4 |!
+ dcd e/d/ | cBcc | dcd e/d/ | c4 | fgag |f4 |!
+ fgag |f4 | fgfe | dcde | d2c2 |!
+ Bcde | fgfe | dcde | d2c2 | B4 ||
+S:https://www.folktunefinder.com/tunes/96190
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

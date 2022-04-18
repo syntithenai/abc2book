@@ -1,0 +1,23 @@
+X:10021
+T:Macton Reel
+C:Ward Allen
+R:reel
+M:4/4
+L:1/8
+K:D
+(3A,B,C|D2 DC DEFG|EDEF G2 FG|AFGE FEDB,|CFED CA,B,C|
+D2 DC DEFG|EDEF G2 FG|AFGE FEDB,|CDEC D2:|
+|:(3ABc|d2 dc dAFA|dfed cABc|d2 cd BdAF|GBAG FDCE|
+D2 DC DEFG|EDEF G2 FG|AFGE FEDB,|CDEF D2:|
+S:https://www.folktunefinder.com/tunes/97803
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

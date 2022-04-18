@@ -1,0 +1,26 @@
+X:245
+T: Sean Ryan's Fancy
+M: 4/4
+L: 1/8
+S: Luke O'Malley vol 1
+Z: B.Black
+R: hornpipe
+K: A
+(3EFG|A2 (3cBA EAce|a2 ga (3fga ec|d2 fd c2 ec|BEGB edcB |
+A2 (3cBA EAce|a2 ga (3fga ec|d2 fd c2 ec|BEGB A2 :|
+(3efg|ace=g fAdf|fecA BEGB|Acec dfba|(3gab fb ebgb |
+(3aba e=g fAdf|(3efe cA BEGB|Acec dfba|1 (3gfe (3dcB A2 :|
+|2 gec'b a2 z2 ||
+S:https://www.folktunefinder.com/tunes/89689
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

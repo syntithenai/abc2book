@@ -1,0 +1,27 @@
+X:45
+T:Centennial Schottische
+C:Andy De Jarlis
+M:4/4
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:F
+c2|f3/2e/f3/2g/ a2 c2|f3/2g/a3/2b/ a2 c'2|d'2 g2 b2 e2|(3fge f3/2a/ c4|!
+f3/2e/f3/2g/ a2 c2|f3/2g/a3/2b/ a2 c'2|d'2 g2 b3/2g/e3/2g/|f2 a2 f2 c2|!
+f3/2e/f3/2g/ a2 c2|f3/2g/a3/2b/ a2 c'2|d'2 g2 b2 e2|f3/2g/f3/2a/ c4|!
+f3/2e/f3/2g/ a2 c2|f3/2g/a3/2b/ a2 c'2|d'2 g2 b3/2g/e3/2g/|f2 a2 f2:|!
+K:C
+e3/2f/|g2 g3/2a/ g3/2e/c3/2A/|G G2 A G3/2E/G3/2c/|B2 B3/2c/ B3/2A/G3/2B/|d3/2c/c3/2B/ c2 e3/2f/|!
+g2 g3/2a/ g3/2e/c3/2A/|G G2 A G3/2E/G3/2c/|B2 B3/2c/ B3/2A/G3/2B/|d3/2c/c3/2B/ c2 e3/2f/|!
+g2 g3/2a/ g3/2e/c3/2A/|G G2 A G3/2E/G3/2c/|B2 B3/2c/ B3/2A/G3/2B/|d3/2c/c3/2B/ c2 e3/2f/|!
+g2 g3/2a/ g3/2e/c3/2A/|G G2 A G3/2E/G3/2c/|B2 B3/2c/ B3/2A/G3/2B/|d3/2c/c3/2B/ c2:|!
+S:https://www.folktunefinder.com/tunes/94190
+S:http://www2.redhawk.org:8080/irish/warnock/abc/A_Dejarlis.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

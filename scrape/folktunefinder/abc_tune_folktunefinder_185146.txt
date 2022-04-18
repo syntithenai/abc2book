@@ -1,0 +1,24 @@
+X: 1
+T: (Reel of) Stumpie
+T: Wap an' Rowe
+O: Trad (1734)
+Z: John Chambers <jc@trillian.mit.edu>
+R: polka
+M: C|
+L: 1/4
+Q: 112
+K: A
+d \
+|: "A"ce a2 | a/g/f/e/ a2 | ce a2 | "Bm"bB "E7"B2 \
+ | "A"ce a2 | a/g/f/e/ a2 | ce "E7"B>d | "A"cA A> :|
+B \
+|: "A"ce ed/c/ | "D"df f>d | "A"ce "F#m"f/e/c/A/ | "Bm"cB "E7"B2 \
+ | "A"ce ed/c/ | "D"df f>d | "A"ce "E7"B>d | "A"cA A> :|
+S:https://www.folktunefinder.com/tunes/185146
+S:http://trillian.mit.edu/~jc/music/book/500/tune/StumpieR.abc
+% Rhythm Polka
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

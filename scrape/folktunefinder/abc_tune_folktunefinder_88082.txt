@@ -1,0 +1,28 @@
+X: 042066
+T: Drumany Line
+C: Joe Liddy
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4 = 170
+K: Gm
+D | GFG GFD | GFG B2 c | d^cd dcd | c=BG GFD |
+GFG GFD | GFG B2 c | d^cd =cBc | dBG G2 :|
+c | dgg gfa | gfd ^cBc | dcd dcd | cBG GFD |
+dgg gfa | gfd cBc | dcd cBc | dBG G2 ||
+c | dgg gfa | gfd cBc | d^cd =cBc | BcB [DA][EG]F |
+DGF GFG | Bcd fga | gfd dcd | =BGG G2 ||
+%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88082
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

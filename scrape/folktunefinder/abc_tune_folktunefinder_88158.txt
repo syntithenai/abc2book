@@ -1,0 +1,25 @@
+X:5
+T:Bonny Lads
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%RRN:Bar 3 of 2nd part is guessed (only 7 bars in original)
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e82.html
+%%ID:00000e82
+K:A
+c>B Ag | faec | e>fec | B2B2 |\
+c>BAg  | faec | d>fec | A2A2 ::
+e |\
+cAeA | fAe>A | "<("e">)">"<("f">)""<("e">)""<("c">)" | B2B2 |\
+cAeA | fAec  | d>fec | A2A2 :|
+S:https://www.folktunefinder.com/tunes/88158
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

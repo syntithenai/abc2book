@@ -1,0 +1,26 @@
+X:1284
+T:"The Musical Priest"  (reel)    1284
+C:after Mr. McFadden
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+BA|FBBA BABd|cBAf ecBA|FB {c}BA B2(Bd)|cBAc B2"^Fine":|
+(Bc)|d2(dc) dfed|cAeg faec|d2(dc) defb|afec B2(Bc)|
+dcdc dfed|cAeg faec|dcBc defb|afec B2
+[|Bc|d3/2B/2  (3(BBB) bafb|afec ABce|d3/2B/2  (3(BBB) bafb|afec B2de|
+fbbc' bafb|afec ABce|dcBc defb|afec dBc"^D. C. al Fine"A|]
+S:https://www.folktunefinder.com/tunes/177789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1284-MusicalPriest.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1201-1300/1284-MusicalPriest.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

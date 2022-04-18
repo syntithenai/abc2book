@@ -1,0 +1,26 @@
+X:250
+T:King William's March
+T:Shores Maggot Country Dance
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ead.html
+%%ID:00000ead
+K:A
+A |\
+AFA AFA | AFA A2A | dAd dAd | dAd d2d |\
+fga efg | fga efg | fga a2g | a3-a2 ::
+a |\
+fdd gee | fdd gee |   fdd g2f | e3-e2f/g/ |\
+a2z g2z | f2z e2z | ! f2z g2z | f2z e2a | \
+fad eAa | fad eAa |   fed e2c | d3 d2 :|
+S:https://www.folktunefinder.com/tunes/88207
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

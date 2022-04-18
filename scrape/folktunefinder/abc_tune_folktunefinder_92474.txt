@@ -1,0 +1,27 @@
+X:451
+T: Alan he ahua
+N: C2069
+O: China,Zhejiang Dongtou
+S: III, 613, 1)]
+R: Xiaodiao]
+M: 2/4
+L: 1/16
+K: C
+E2E4G2 | E2D2E8 | E2G4D2 | E8
+A,2E4D2 | C4D2C2 | A,8
+D2E2D2C2 | A,2C2A,8
+E2E4G2 | E2D2E2EE | E2G4D2 | E8
+A,2E4D2 | C4D2C2 | A,8
+D2E2D2C2 | A,2C2A,8
+S:https://www.folktunefinder.com/tunes/92474
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,32 @@
+X:155
+T: Cousin Michael Rafferty's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] B | "G"dGG "C"Ecc | "G"BcG "D"EDD | "G"DEG "Am"AGA | "G"Bdg "Em"ede |
+[V:2] z|G,,2[GDB]C,2[CGE]|G,,2[GDB]D,2[AFD]|G,,2[GDB]A,,2[AEC]|G,,2[GDB]E,2[EBG]|
+%
+[V:1] "G"dgd "C"ece | "G"BcG "D"EDD | "G"DEG "D7"Adc | "G"BGF "G"G2 :|
+[V:2] G,,2[GDB]C,2[CGE]|G,,2[GDB]D,2[AFD]|G,,2[GDB]D,2[DAFc]|G,,2[GDB][G,2D2B2]:|
+%
+[V:1] B | "Em"eBB gBB | b2 a gfe | "D"dAA fAA | a2 g fed |
+[V:2] z |E,2[EBG]B,,2[EBG]|E,2[EBG]B,,2[EBG]|D,2[AFD]A,2[AFD]|D,2[AFD]A,2[AFD]|
+%
+[V:1] "G"BGB "C"cAc | "G"dBd "C"efg | "G"DEG "D7"Adc |"G"BGF "G"G2 :|
+[V:2] G,,2[GDB]C,2[CGE]|G,,2[GDB]C,2[CGE]|G,,2[GDB]D,2[DAFc]|G,,2[GDB][G,2D2B2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86916
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

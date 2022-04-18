@@ -1,0 +1,27 @@
+X:1
+T:Rassemble
+Z:Roger Ngaret (94-95)
+R:avantdeux
+C:Trad.
+S:
+A:Bretagne
+Q:C6=130
+M:6/8
+L:1/16
+K:C
+"C"G4 c2 e4 e2 | e2d2c2 "G"d6 | d4 B2 A2B2d2 |1 
+f2e2d2 "C"e4 c2 :|2 "G"f2e2d2 "C"c4 |: 
+M:4/4
+L:1/16
+ee | e2d2 c2ee e2d2 c4 | e2ce g2g2 f2e2 d2dd | d2c2 B2dd d2c2 B4 |1 
+d2Bd [c2e2g2] f2 e2d2 e2 :|2 d2Bd [c2e2g2] f2 e2d2 c4 |]
+S:https://www.folktunefinder.com/tunes/184717
+S:http://termen.free.fr/danses/rennais/Rassemblee.abc
+% Rhythm Avantdeux
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

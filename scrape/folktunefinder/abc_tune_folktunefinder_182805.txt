@@ -1,0 +1,28 @@
+X:0668
+T:"Planxty O'Carolan"             0668
+C:Turlough  O' Carolan
+C:moderate
+N:2nd part has fourteen bars
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(Not listed in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z: FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=90
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+"^vb"G|B2c dcB|cBA (B/2c/2d) z|e3dcB|cBA (B/2c/2d) z|
+g3fed|(d/2e/2 =f2)edc|(c/2d/2 e2)dcB|ABG F2||
+d|GAB cde|=fed e2G|E2G (F/2G/2A)F|(G/2A/2B)G A zc|e2c ABc|(d/2c/2B)A GAB|c3/2d/2c cBA|
+B3z2d|g3/2f/2g d3/2c/2d|B3z2G|dcB AGF|E3c2|BAG EAF|G3z2|]
+S:https://www.folktunefinder.com/tunes/182805
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/668-PlanxtyOCarolan.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

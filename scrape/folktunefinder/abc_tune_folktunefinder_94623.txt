@@ -1,0 +1,28 @@
+X:025
+U: ~ = !turn!
+%%topmargin 3cm
+T:Captain John's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:D
+fg | afge dfed | ceAA ABAG | FAdf gfed | ceAA A2 fg |
+afge dfed | ceAA ABAG | FAdf gedc | d2 dd d2 ::
+cd | eAAA fdfd | eAAA fdfd | gfed dcBA | GBBB B2 AG |
+FAAA dcBA | cdef gedc | dfaf bgec | d2 dd d2 :|
+S:https://www.folktunefinder.com/tunes/94623
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Captain_Johns_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Captain_Johns_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Captain_Johns_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Captain_Johns_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

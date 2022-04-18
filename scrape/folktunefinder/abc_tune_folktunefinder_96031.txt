@@ -1,0 +1,27 @@
+X:18
+T:Cottage adjoining the Fall, The
+T:Bothan an easan
+R:Slow Air
+S:Simon Fraser Collection
+N:No.171
+O:Scottish
+M:3/4
+L:1/8
+Q:1/4=100
+K:G
+(G>A)|B2d2 (e/d/)(B/d/)|e2E2G>A|B2d2(eB)|(A2G2)G>A|B2d2(e/d/)(B/d/)|
+e2E2G>A|B2 g>e (da|g2B2(de)|(ga)e2(dB)|
+A2[B,2G2] (3GBd|g2a2 (b/a/)g/f/|g2B2 (ba)|b2e2 (dB)|A2[B,2G2]||
+S:https://www.folktunefinder.com/tunes/96031
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/FC-Flute.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/FC-Flute.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

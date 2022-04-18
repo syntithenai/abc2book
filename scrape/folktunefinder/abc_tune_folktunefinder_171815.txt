@@ -1,0 +1,57 @@
+X:19
+T:Leitram Fancy
+C:Traditional
+S:Fiddle Player's Tunebook 1
+Z:Transcribed from the version played by Mick Moloney
+M:6/8
+L:1/8
+Q:100
+K:D
+Q:120
+A2 G |: "D"FGF "A"EFE |\
+"D"D2 E F2 G |\
+"D"AGF "G"GAB |\
+"D"A2 A d2 e |\
+"D"fed "G"gfe |\
+"A"a2 g e2 c \
+|1 "D"dcB AGF |\
+"G"GAB BAG :|2\
+"D"def "A"e2 c |\
+"D"d3 d2 e |: "D"fed efg |\
+"A"a2 g e2 g |\
+"D"fed efg |\
+"A"a3/2a/a efg |\
+"D"a2 g "A"e2 c |\
+"D"def "A"edc |\
+|1 "D"dcB AGF |\
+"G"G3 g3 :|2\
+"D"d2 d "A"edc |\
+"D"d2 A d2 e ||\
+"D"fed efg |\
+"A"a2 g e2 g |\
+"D"fed efg |\
+"A"a3/2a/a efg |\
+"D"a2 g e2 c |\
+"A"def edc |\
+"D"dcB AGF |\
+"G"GAB BAG |\
+"D"FGF "A"EFE |\
+"D"D2 E F2 G |\
+"D"AGF "G"GAB |\
+"D"A2 A d2 e |\
+"D"fed gfe |\
+"A"a2 g e2 c |\
+"D"def "A"edc |\
+"D"d4 ||
+S:https://www.folktunefinder.com/tunes/171815
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/LeitramFancy.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/ChrisWhistler/LeitramFancy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

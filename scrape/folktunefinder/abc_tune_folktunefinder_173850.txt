@@ -1,0 +1,20 @@
+X: 3
+T: The Maids Complaint 
+M: 9/8
+L: 1/8
+R: slip jig
+K:G Major
+|: e | d2 B B2 g fed | e2 f g2 a bge | d2 B B2 g fed |[1 e2 g agf g2 :|[2 e2 g dBG G2 ||
+|: g | b2 g g2 b bag | a2 f f2 a agf | g2 e e2 g fed |[1 e2 g agf g2 :|[2 e2 g dBG G2 |]
+|: E | D2 B, B,2 G FED | E2 F G2 A BGE | D2 B, B,2 G FED |[1 E2 G AGF G2 :|[2 E2 G DB,G, G,2 ||
+|: G | B2 G G2 B BAG | A2 F F2 A AGF | G2 E E2 G FED |[1 E2 G AGF G2 :|[2 E2 G DB,G, G,2 |]
+S:https://www.folktunefinder.com/tunes/173850
+S:http://www.thesession.org/tunes/display/8306
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

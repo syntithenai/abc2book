@@ -1,0 +1,23 @@
+X: 1
+T: Mike Hoban's
+S: Lunasa ~ minus the chords
+M: 3/4 
+L: 1/8
+K: G Major
+|: (3Bcd |\
+eA Ag fd | eA A2 (3Bcd | eg fd ce | dG G2 (3Bcd |
+eA Ag fd | eg ag ef | ge dB Gd | BA A2 :|
+|: (3Bcd |\
+ea ab ag | ed ef ga | ge af ge | dB G2 (3Bcd |
+ea ab ag | ed ef ga | ge d2 (3BAG | BA A2 :|
+S:https://www.folktunefinder.com/tunes/175698
+S:http://www.thesession.org/tunes/display/5883
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

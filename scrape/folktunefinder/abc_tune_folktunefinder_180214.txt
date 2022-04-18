@@ -1,0 +1,36 @@
+X:4
+T:Old Timer
+R:Oberek
+O:Polish Oberek, arranged by Edward Bonkoski
+B:Slovenian and Polish Dances, Edward Bonkoski, Pietro Deiro #823, 1949
+Z:Transcribed by Moshe Braner, January 2001
+N:denser-printing version
+M:3/4
+L:1/8
+K:D
+|: "D"[F2Ad] [F2Ac] [F2Ad] | "D/A"[F4A] [F2A] |\
+   "G"[GB][Ac] [B2d] [G2B] |   "D"[F4A] [F2A] |\
+   "D/A"[D2FA] [F2Ad] "A7"[A2ce] | "D/F#"[A4df] [A2fa] |\
+   "A7"[A4cg] "D"[A2df] | "A7/E"[A4ce] A2 |
+   "A7"A2 [A2cg] [A2cg] | "D/F#"[A3df] edc |\
+   "G"[GB][Ac] [B2d] [G2B] |   "D"[F4A] [F2A] |\
+   "(F#)"[F2A] "(G)"[G2B] "(A)"[A2c] | "D/F#"[A4d] [A2df] |\
+   "A7"[A4ce] [A2c] | "D"[F4Ad] A2 |
+   "A7"A2 [A2cg] [A2cg] | "D/F#"[A3df] edc |\
+   "G"[GB][Ac] [B2d] [G2B] |   "D"[F4A] [F2A] |\
+   "(F#)"[F2A] "(G)"[G2B] "(A)"[A2c] | "D/F#"[A4d] [A2df] |\
+   "A7/E"[A4ce] [A2c] | "D"[F6Ad] :|
+|: "A7"[A2cg] ec eg | "D/F#"[A2df] dc dB |\
+   "A7/E"A2 cA ce | "D"dc df [d2fa] |\
+   "A7"[A2cg] ec ea | "D/F#"[A2df] dc dB |\
+   "A7/E"Ac cA ce | "D"d2 [F2Ad] z2 :|
+S:https://www.folktunefinder.com/tunes/180214
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/OldTimer_1.abc
+% Rhythm Oberek
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

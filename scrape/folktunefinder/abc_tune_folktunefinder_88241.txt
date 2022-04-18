@@ -1,0 +1,28 @@
+X:420
+T:Drunken Barnaby
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%RRN:Over parts 3 -- 5 is written
+%%RRN:"Oh Barnaby thow'as been drinking I can tell by thy fase and thy hist Winking"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ec9.html
+%%ID:00000ec9
+K:G
+[D3B3g3] efg  | cfe d2c "^1" :: \
+cde      ede  | cfe d2c "^2" ::
+g2 (agfe) | a2 (bagf) | g2 (agfe) | d3 c "^3" ::
+cGc cGc  | cfe d2c "^4" ::\
+cBA GFE  | Dfe d2c "^5" :: \
+D>EF EFG | cfe d2c |]
+S:https://www.folktunefinder.com/tunes/88241
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

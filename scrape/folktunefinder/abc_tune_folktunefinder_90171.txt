@@ -1,0 +1,33 @@
+X: 19
+T:Ronde "Warum"
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:4/4
+%%staves [1 2 3 4]
+L:1/4
+Q:1/2=90
+K:Gm
+%%continueall 0
+V:1
+c g g>g | fgec | f>g f/2e/2d/2c/2 | (=B/2A/2)=B c2 :: c/2d/2e/2f/2 gg | bag2 | (c/2d/2)e/2f/2 gg | bag2 |
+(e/2d/2)e/2f/2 gg | (e/2d/2)e/2f/2 gg | (f/2g/2)_a/2g/2 f/2e/2d/2c/2 | (=B/2A/2)c/2=B/2 c2 | (e/2d/2)e/2f/2 gg | (e/2d/2)e/2f/2 gg | (f/2g/2)_a/2g/2 f/2e/2d/2c/2 | (=B/2A/2)c/2=B/2 c2 :|
+V:2
+E>F G/2A/2B/2c/2 | dBc2 | cAB_A | G2G2 :: c2Be | ddBc | ccBe | dd=B2 |
+ccdB | ccdc | c2B_A |G2G2 |ccdB | ccdc | c2B_A |G2G2 :|
+V:3
+G2BB | AG_AG | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 :: GGGB- | B/2A/4G/4 FGE | GGGB- | B/2A/4G/4 ^FG2 | 
+G>A BG | (G/2F/2)G/2A/2 BE | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 | G>A BG | (G/2F/2)G/2A/2 BE | F>E F/2G/2F/2E/2 | (D/2C/2)DC2 :|
+V:4
+C,C, G,,>G,, | D,G,,C,2 | F,,F,,B,,C, | G,,2 C,2 :: C,C, E,3/2D,/4C,/4 | (B,,/2C,/2)D,G,,C, | C,C, E,3/2D,/4C,/4 | (B,,/2C,/2) D,G,,2 |
+C,>B,, G,,G,, | C,>B,, G,,C, | F,,2B,,C, | G,,2C,2 | C,>B,, G,,G,, | C,>B,, G,,C, | F,,2B,,C, | G,,2C,2 :| 
+%%footer $D   Galouvielle-MBe 2007 \nBranle double (--)
+S:https://www.folktunefinder.com/tunes/90171
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:375
+T: Style of Ballylanders
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+BE E2 dBcA|BFAF DEFA|BE E2 dBcA|BFAF EFGA|
+BE E2 BABc|dBAF DEFA|BABc dfec|dBAF BE E2 :|
+D2 FA d3B|AF F2 BFAF|D2 FA dcdA|BFAF EGFE|
+D2 FA dcde|fdec defg|(3agf (3gfe fdef|dBAF E2 EF :|
+S:https://www.folktunefinder.com/tunes/89715
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

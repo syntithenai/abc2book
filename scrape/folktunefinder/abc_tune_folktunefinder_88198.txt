@@ -1,0 +1,31 @@
+X:205
+T:the Pantheon Cotillon
+T:Gants Rant
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+U:T=!uppermordent!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ea5.html
+%%ID:00000ea5
+K:G
+d2d d2c | B2B B2A | G2G AGA | B2B B2c | \
+d2d d2c | B2B B2A | G2G AGA | G3 G3 ::
+b2b bag | a2d def | g2g gfe | f2B Bcd |\
+e2e edc | d2G GAB | cdc BcB | TB3 A3 ::
+B3 TAGA | BcB TAGA | BcB AGA | GAG A3 |\
+a2a a2g | f2f f2e | d2d eTde | d3-d2 (G//A//B//c//) |
+d2d d2c | B2B B2A | G2G AGA | B2B B2c |\
+d2d d2c | B2B B2A | B2B cBc | G3-G2 :|
+%%newpage
+%page 14
+S:https://www.folktunefinder.com/tunes/88198
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X:200
+T:Bluff Reel
+C:G.L. Tracy
+B:One Thousand Fiddle Tunes (Cole's)
+L:1/8
+M:4/4
+Q:410
+K:F
+AB
+P:A
+|:"F"cdef cAFA|"Bb"BcdB "F"ABcA|"C"GABG "F"FEFA|"G7"GFED "C7"C2AB|
+"F"cdef cAFA|"Bb"BcdB "F"ABcA|"C"GABG "F"FEFA|1 "C"c^cde "F"f2AB:|2 "C"c^cde "F"f2fe|
+|:"Dm"dAAA dAde|"Dm"fgaf "C"gece|"Dm"dAAA dAde|"C"fagf "Dm"defd|
+"C"cGGG cGcd|"C"ecd=B "G7"cBAG|"C"A=Bcd efgf|1 "G7"ecd=B "C"c2c^c:|2 "G7"ecd=B "C"c4|
+S:https://www.folktunefinder.com/tunes/92005
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/abc/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/relph/Tunes.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/idiot-dog.com/Bluff_Reel.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

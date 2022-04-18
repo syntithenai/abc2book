@@ -1,0 +1,55 @@
+X:125
+T: Cape Cod Hornpipe (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=330
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: A
+[V:1] "A"cBAB ceae | "F#m"f2 ae f3 e | "A"cBAB "F#m"ceaf | "A"ecBA "Bm"FB (3BcB |
+[V:2] A,,2[A2C2E2]E,2[E2C2A2]|F,2[A2C2F2]C,2[A2C2F2]|A,,2[A2C2E2]F,2[A2C2F2]|\
+A,2[A2C2E2]B,,2[F2B2D2]|
+%
+[V:1] "A"cBAB ceae | "F#m"f2 ae fa a2 | "A"EFAB "F#m"ceaf | "E"edBG "A"EA A2 :|
+[V:2] A,,2[A2C2E2]E,2[E2C2A2]|F,2[A2C2F2]C,2[A2C2F2]|A,,2[A2C2E2]F,2[A2C2F2]|\
+E,2[E2B2G2][A,,4C4E,4]:|
+%
+[V:1][K:Dm] "Dm"dcAc defa | "F"f2 ed "Am"cAGE | "F"FEFG "Am"AGAc | "Dm"d^cde fed=c |
+[V:2][K:Dm] [D,8A,8=F8]|[=F,4=C4A4][A,,4E4=C4]|[=F,4=C4A4][A,,4E4=C4]|[D,8A,8=F8]|
+%
+[V:1] "Dm"d2 ad edad | "C"c2 ec gcec | "Gm"BG (3G^FG "F"=FAcA | "C"GEDC "Dm"D4 :|
+[V:2] [D,8A,8=F8]|[=C,8=G,8E8]|[=G,4D4_B4][=F,4=C4=A4]|[=C,4=G,4E4][D,4A,4=F4]:|
+%
+[V:1][K:Gm] "Gm"GDDD "Dm"FDDA | "Gm"Bcdg "Dm"fdcA | "Gm"BGdG "F"AFcF | "Gm"BAGF GABc |
+[V:2][K:Gm] G,,2[G2B2D2]D,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|G,,2[G2B2D2]F,,2[A2C2F2]|\
+G,,2[G2B2D2]D,2[G2B2D2]|
+%
+[V:1] "Gm"dg (3g^fg bag=f | "F"cf (3f=ef afdc | "Bb"BdcB "F"AcBA | "Gm"GFDF G4 :|
+[V:2] G,,2[G2B2D2]D,2[G2B2D2]|F,,2[A2C2F2]C,,2[A2C2F2]|_B,,2[_B2=F2D2]F,,2[A2C2F2]|\
+G,,2[G2B2D2][G,,4B,4D,4]:|
+%
+[V:1][K:D] "D"FEDE FAdA |"Bm"B2 dA B3 A |"D"FEDE "Bm"FAdB |"D"AFED "Em"B,E (3EDE |
+[V:2][K:D] D,2[D2A2F2]A,,2[D2F2A2]|B,,2[F2D2]F,2[F2D2]|D,2[D2A2F2]B,,2[B2D2F2]|\
+D,2[D2A2F2]E,2[E2B,2G,2]|
+%
+[V:1] "D"FEDE FAdA | "Bm"B2 dA Bd (3dcd | "D"A,B,DE "Bm"FAdB |"A"(3ABA GE "D"FD D2 :|
+[V:2] D,2[D2A2F2]A,,2[D2F2A2]|B,,2[F2D2]F,2[F2D2]|D,2[D2A2F2]B,,2[B2D2F2]|\
+A,,2[A2E2C2][D,4A,4F4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86910
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

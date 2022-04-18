@@ -1,0 +1,28 @@
+X:12
+T:Air de la gaillarde appellee Anthoinette
+R:Gaillarde
+C:Trad.
+S:Thoinot Arbeau
+N:il existe deux partitions : la seconde a pour armature K:F
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:Frank Nordberg (http://www.musicaviva.com)
+Z:(adapted) <anamnese@laposte.net>
+M:6/2
+L:1/2
+Q:1/2=130
+K:C
+AdG A2 A ddc B2A :: ccc A>AG GFE E2z :: DCD E>FG AFG E2D :|
+S:https://www.folktunefinder.com/tunes/95512
+S:http://anamnese.online.fr/abc/arbeau.abc
+S:http://anamnese.online.fr/site2/abc/arbeau_ps.abc
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

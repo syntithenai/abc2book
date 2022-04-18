@@ -1,0 +1,28 @@
+X:145
+U: ~ = !turn!
+%%topmargin 3cm
+T:O'Brien's Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean Ryan
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+((3DEF) | {GA}G2 DG {Bc}B2 GB | dg (3{/a}(gfg) bgdB | (3{/d}(cBc) ec Bdgf | edcB ADEF |
+{GA}G2 CG {Bc}B2 GB | dg (3{/a}(gfg) bgdB | (3{/d}(cBc) ec Bdgf | ed ((3cBA) G2 ::
+Bd | (3{/a}(gfg) bg dgbg | (3.d.d.d bg dBGB | (3{/d}(cBc) ec Bdgf | edcB ADFA |
+((3Bcd) BG {/d}cBcA | dg (3{/a}(gfg) bgdB | (3{/d}(cBc) ec Bdgf | ed ((3cBA) G2 :|]
+S:https://www.folktunefinder.com/tunes/94741
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/OBriens_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/OBriens_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

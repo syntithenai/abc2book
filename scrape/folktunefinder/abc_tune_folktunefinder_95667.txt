@@ -1,0 +1,29 @@
+X:180
+T:the Feathers
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Some guesswork here owing to imperfect legibility
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e0b.html
+%%ID:00000e0b
+K:D
+dedB A>FAd | fgfe Te2d2 | d'c'ba gfed           | cBAG FED2 ::
+fgad fgef  | fgad fegf  | bc'd'd b/c'/b/c'/ d'd | f4   Te4  ::
+D/E/F/G/ A/G/F/E/ D/E/F/G/ A/G/F/E/ | D/E/F/G/ A/B/c/d/ e^GA2 |\
+d>edA fdgd | a>baf (e/d/e/f/) d2::
+d2fd ge c/d/e/c/ | d2ef gfe2 | d2fd ge c/d/e/c/ | efef f2e2 |
+d2fd ge c/d/e/c/ | d2ef agfe | d2fd ge c/d/e/c/ | Adfe Te2d2 ::
+%page:24
+S:https://www.folktunefinder.com/tunes/95667
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

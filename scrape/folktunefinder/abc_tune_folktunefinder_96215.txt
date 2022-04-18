@@ -1,0 +1,30 @@
+X: 64
+T:Minuet. TBe.064
+M:3/4
+L:1/4
+Q:60
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+N:See notes to 063, Eccho Minuet .. E - Funny greek E before the note...
+H:Before 1718
+Z:vmp.C. Graebe..
+K:D major
+f/g/ ad | "="c2 d | (e/f/)  "="f2 | e/d/e/f/e/g/ |\
+f/g/ ad |  "="c2d | (e/f/)  "="f2 | e3 ||!
+ f/g/ "E"aa | aB2 | e/f/"E"gg | gA2 |\
+ f/g/"1"aa | a>gf/e/ | f/g/  "="e2 | d3 ||
+S:https://www.folktunefinder.com/tunes/96215
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords Has chords

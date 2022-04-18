@@ -1,0 +1,53 @@
+X:1
+T:Mazurka
+C:traditionell
+R:mazurka
+A:Tramin, Suedtirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:COMPA bd. 10, Volksmusik in suedtirol, taenze und spielstuecke aus der tonband-sammlung Dr Alfred Quellmalz (1940-42), Franz Kofler und Walter Deutsch, hrsg. Suedtiroler Kulturinstitut, Verlag Boehlau, Wien, Koeln, Weimar, 1999
+N:tonart im buch:ganz in F, erster ton f'
+N:im buch s. 228, nr. 120
+N:im buch einstimmig
+S:tonband-aufnahme Q-0934(33) 33/A05, vom 18.03.1941
+S:ausfuehrende:Karl Kerschbaumer (72), Tramin
+S:besetzung: mundharmonika
+%%endtext 
+F:http://simonwascher.info/
+Z:noten-transcription: Hans Jocher
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription: Simon Wascher
+Q:1/4=158 %im buch
+M:3/4
+L:1/8
+K:F
+P:A
+FF F2 A2 | A2 GF G2 | BAGABc | d2 c2 c2 |\
+FF F2 A2 | A2 GF G2 | GBdcBE | F2 F2 z2 ||
+P:B
+AG A2 A2 | AB c2 c2 | AGABcd | dcdc G2 |\
+AG A2 A2 | AB c2 c2 | GBdcBE | F2 F2 z2 ||
+P:A1
+CC F2 A2 | A2 GF G2 | BAGA B2 | d2 c2 c2 |\
+CC F2 A2 | A2 GF G2 | GABA G2 | F2 F2 z2 ||
+P:C
+|:\
+GA c3 A | GA B2 B2 | dB d3 B | d2 c2 c2 |\
+cA c3 A | GA B2 B2 | dB d3 c | f2 f2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174917
+S:http://simonwascher.info/
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.FFF2A2A2GFG2BAGABcd.abc
+% Rhythm Mazurka
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

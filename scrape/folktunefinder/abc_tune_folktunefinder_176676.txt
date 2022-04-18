@@ -1,0 +1,20 @@
+X: 1
+T:Monferrina
+C:Tre Martelli: Brz Carv 1
+C:Valle Bormida
+M:6/8
+L:1/8
+K:G
+DEF|GFG BGB|d2d ded|c2c cdc|B2G DEF|\
+GFG BGB|d2d ded|fed cBA|G3:|
+|:g2g|~f2e f2e|~d2B d2d|cAA e2e|~d2B g2g|\
+~f2e f2e|~d2B d2e|fed cBA|G3:|
+S:https://www.folktunefinder.com/tunes/176676
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mo/Monferrina_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

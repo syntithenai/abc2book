@@ -1,0 +1,28 @@
+X:1425
+T: Shannon Wave
+S: "Passing Time" (Jim & Mary Coogan & friends)
+N: "We learned this from the playing of our cousin Tommy
+N: Caulfield"
+L: 1/8
+M: 4/4
+Q: 325
+R: hornpipe
+K: G
+GA | B2 AB e2 dB | d2 cA E3 G | AGAB cA F2 | GABG D2 GA |
+B2 AB e2 dB | d2 cA E3 G | AGAB cA F2 | G2 B2 G2 :|
+gf | edef gfga | b2 d2 d3 B | cBAB cdef | g2 B2 B2 gf |
+edef gfga | b2 d2 d3 B | cBAB cdef | g2 (3agf g2 :|
+S:https://www.folktunefinder.com/tunes/89925
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

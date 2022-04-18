@@ -1,0 +1,25 @@
+X:380
+T:Will ye go to the Ew Bughts Marrion
+B:Aird's Airs and Melodies vol 3
+L:1/8
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001dc.html
+%%ID:000001dc
+K:G
+E>F|\
+G2AB| g2f>g| e2E>F| {F}G2AB| \
+{B}g2{g}f>g| e3{ef}g| dc|
+{B}A2B^d| e2Ec| (BA)(G>F)| {F}G2 z/Hg|\
+{ab}dc| {B}A2 B^d| e2Ec| (BA)(G>F)| E2 |]
+S:https://www.folktunefinder.com/tunes/95382
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

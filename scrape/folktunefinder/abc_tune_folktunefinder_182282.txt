@@ -1,0 +1,55 @@
+X:73
+T:Praeludia 73
+C:Mertel
+T:(Studien zur originalen Punktsetzung)
+L:1/4
+M:C|
+K:F frenchtab
+Z:zusammen gestellt und geschrieben: Werner v. Hoersten
+%%tabfontfrench frFrancisque
+%%stretchlast no
+%%tabrhstyle modern
+%%tabfontsize 12
+%%tabfontscale 1.26
+%%tabflagspace 7
+%%staffsep 45pt
+"all pieces with points from the original"[fda{a}/].dc.a [,da,c].,c,a.,,d |\
+[aab,,a/].,,d,,b.,,a [,,bc],,,a[a,,,e],,,,c |\
+[acd,a/].ca.,d [,cd][,ab][,,de][,,bc] |\
+[,,aa/].c,d.a c.,df.,,d |\
+.a/,,,,e,,,c.c d.ah,,,,,a |
+% Takt 6
+.,,b/,,,c,a,,,,,d ,,,,c//.,c,d.,a .c/,,,a |\
+.f/,,,,,c.a.,,,,a .,c,,d//.,a ,c.,da.c |\
+d/,,,c//.,,a ,,b.,,d,a.,c ,d/,,,,c//.,,,,a ,,,,c.,,,,e,,,a.,,,c |\
+,,,e/,c//.,a ,,d.,a,c.,d a/,,,,e//.,,,,c ,,,,a.,,,,c,,,,e.,,,a |
+% Takt 10
+,,,c/.da.c d,a,,b,,d |\
+:,a/,,,,c,,,,,d,,,,a ,,,,cc//.a ,d.,c,a.,,d |\
+,,b//.,,d,a.,c ,d.ac.d c/,,,e//.,,,c ,,,a.,,,,e,,,,c.,,,,a |\
+,,,,,d//.,,,,a,,,,c.,,,,e ,,,a.,,,c,,,e.,,,f ,,,e/,,,,,c.,a,,,,f |
+% Takt 14
+,,,,e//.,a,,e.,,c ,,e.ac.a [,da,c/]c//.a c.a,d.,c |\
+,a/,,,c//.,,,a ,,,c.,,,a,,,,e.,,,,c ,,,,a/,f//.,d ,f.,d,c.,a |\
+,c/,,d//.,,b ,,d.,,b,,a.,,,c ,,,a/f//.d f.dc.a |
+% Takt 17
+[c,,a/],d//.,b ,d.,b,a.,,d [,,ff/],,,e[d,,c].c |\
+[a,,,a/],d[,cd].,,b [,,de].,,,c[c,,a][a,,,e] |\
+[,d,,c/].,c,a,,,,a [,a,,,d],,,,,c[a,,,,a].,d |\
+[,cd/].,,b[f,a][d,,c] ,,,a//.,c,d.a c.d:f/ |
+% Takt 21
+,,,,a//.,,c,,d.,a ,c.,d:a/ ,,,c//.,da.c d.fh/ |\
+,,,,,a//.,,,b,,,c.,,a ,,b.,,d:,a/ ,,,,,d//.,,a,,b.,,d ,a.,c,d/ |\
+,,,,c//.,,d,a.,c ,d.ac/ ,,,,e//.a,,d.,,c ,,d.ac.a |
+% Takt 24
+,,,,c//.,d,,c.,,a ,,c.,da.,d [,c,,a/],,d//.,,b ,,a.,,b,,d.,,a |\
+,,,,,d//.,,a,,b.,,d ,,b.,,a,,,c.,,,a ,,,,a/,,,e//.,,,c ,,,e/,,,c//.,,,a |\
+[fc,ca/],,d//.,,c ,,d.,a,c.,d a.,d,c.,d a.cd.a |\
+[cdd{a}4] |]
+S:https://www.folktunefinder.com/tunes/182282
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

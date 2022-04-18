@@ -1,0 +1,54 @@
+X: 9041
+T: Drumbeggil (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"G2 FG "Am"AB c2|"Em"B2 AB "C"cd e2|"G"gddg "Am"eccA|"C"(3Bcd cA "D"GFED|
+[V:2] z|G,,2[G2D2B2]A,,2[A2E2C2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+C,2[C2G2E2]D,2[D2A2F2]|
+%
+[V:1] "G"GBdA "C"Ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB| "D7"cAFA "G"G3 :|
+[V:2] G,,2[G2D2B2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+D,2[C2A2F2]G,,3 :|
+%
+[V:1] d|"G"gdBc dc B2 |"Am7"abag "D"fd (3dcd|"C"c2 EF "G"GABc|"D"defd "Em"gfed|
+[V:2] z|G,,2[G2D2B2]D,,2[G2D2B2]|A,,2[C2E2G2]D,2[D2A2F2]|C,2[C2G2E2]G,,2[G2D2B2]|\
+D,2[D2A2F2]E,2[B2E2G2]|
+%
+[V:1] "G"gddg "C"ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB| "D"cAFA "G"G3 :|
+[V:2] G,,2[G2D2B2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+D,2[D2A2F2][G,,3D3B,3] :|
+%%%%%%%tune repeat
+[V:1] D|"G"G2 FG "Am"AB c2|"Em"B2 AB "C"cd e2|"G"gddg "Am"eccA|"C"(3Bcd cA "D"GFED|
+[V:2] z|G,,2[G2D2B2]A,,2[A2E2C2]|E,2[B2E2G2]C,2[C2G2E2]|G,,2[G2D2B2]A,,2[A2E2C2]|\
+C,2[C2G2E2]D,2[D2A2F2]|
+%
+[V:1] "G"GBdA "C"Ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB| "D7"cAFA "G"G3 :|
+[V:2] G,,2[G2D2B2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|G,,2[G2D2B2]E,2[B2E2G2]|\
+D,2[C2A2F2][G,,3D3B,3] :|
+%
+[V:1] d|"G"gdBc dc B2 |"Am7"abag "D"fd (3dcd|"C"c2 EF "G"GABc|"D"defd "Em"gfed|
+[V:2] z|G,,2[G2D2B2]D,,2[G2D2B2]|A,,2[C2E2G2]D,2[D2A2F2]|C,2[C2G2E2]G,,2[G2D2B2]|\
+D,2[D2A2F2]E,2[B2E2G2]|
+%
+[V:1] "G"gddg "C"ec (3cBc|"G"BcBA "Em"GE (3EDE|"G"D2 ED "Em"(3EFG AB|1 "D"cAFA "G"G3 :|2\
+"D"cAFA "G"G4-|G4 z4||
+[V:2] G,,2[G2D2B2]C,2[C2G2E2]|G,,2[G2D2B2]E,2[B2E2G2]|G,,2[G2D2B2]E,2[B2E2G2]|1\
+D,2[D2A2F2] G,,3 :|2 D,2[C2A2F2] [G,,4-D,4-B,4-]|[G,,4D,4B,4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87126
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,50 @@
+X: 9031
+T: Cow Behind the Fence (with piano acc.)
+C: BB
+M: 2/4
+Q: 300
+L: 1/8
+R: polka
+V: 1 program 1 110% fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] "D"A>d cd | "Bm"BA FA | "D"DA FA | "Bm"DA B2 |"D"A>d cd | "Bm"BA FD |\
+"Em"E>G "D"FD | "A"A,C "D"D2 :|
+[V:2] [D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[B,,4D4F,4]|\
+[E,2B,2G2][D,2A,2F2]|[A,,2E2C2][D,2A,2F2]:|
+%
+[V:1] "A"E>A ce | "A"ae cA | "A"E>A ce | "G"gf "E"e2 |\
+"A"E>A ce | "A"ae ce | "D"f>e dA | "G"Bc "D"d2 :|
+[V:2] [A,,4C4E,4]|[A,4C,4E4]|[A,,4C4E,4]|[G,,2D2B,2][E,,2B,2^G,2]|\
+[A,,4C4E,4]|[A,4C,4E4]|[D,4A,4F4]|[G,,2D2B,2][D,2A,2F2]:|
+%
+[V:1] "D"dA FA|"D"dA FD|"A"A,>C EF|"G"GF "A"E2|"D"dA FA|"D"dA FD|"A"A,>C EG |\
+"D" FE "D"D2 :|
+[V:2] [D,4A,4F4]|[D4A4F,4]|[A,4C,4E4]|[G,2D2B2][A,,2E,2C2]|[D,4A,4F4]|[D4A4F,4]|\
+[A,4C,4E4]|[D,4A,4F4] :|
+%%%%%%%tune repeat
+[V:1] "D"A>d cd | "Bm"BA FA | "D"DA FA | "Bm"DA B2 |"D"A>d cd | "Bm"BA FD |\
+"Em"E>G "D"FD | "A"A,C "D"D2 :|
+[V:2] [D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[B,,4D4F,4]|\
+[E,2B,2G2][D,2A,2F2]|[A,,2E2C2][D,2A,2F2]:|
+%
+[V:1] "A"E>A ce |"A"ae cA|"A"E>A ce|"G"gf "E"e2|"A"E>A ce|"A"ae ce|"D"f>e dA|\
+"G"Bc "D"d2 :|
+[V:2] [A,,4C4E,4]|[A,4C,4E4]|[A,,4C4E,4]|[G,,2D2B,2][E,,2B,2^G,2]|\
+[A,,4C4E,4]|[A,4C,4E4]|[D,4A,4F4]|[G,,2D2B,2][D,2A,2F2]:|
+%
+[V:1] "D"dA FA|"D"dA FD|"A"A,>C EF|"G"GF "A"E2|"D"dA FA|"D"dA FD|\
+"A"A,>C EG |1 "D" FE "D"D2 :|2 "D" FE "D"D2-|D4|z4||
+[V:2] [D,4A,4F4]|[D4A4F,4]|[A,4C,4E4]|[G,2D2B2][A,,2E,2C2]|\
+[D,4A,4F4]|[D4A4F,4]|[A,4C,4E4]|1 D,2 D,,2 :|2 D,2 D,,2-|D,,4|z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87116
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

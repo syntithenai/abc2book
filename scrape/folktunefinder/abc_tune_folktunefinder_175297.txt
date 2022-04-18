@@ -1,0 +1,59 @@
+X:3556
+T:Menuet
+T:(Minuet) BWV Anh. 121
+C:Johann Sebastian Bach
+R:Minuet
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva121/bwva121.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:3/4
+L:1/8
+Q:1/4=132
+K:Cm
+V:1
+c2c2d2|e2e2f2|g2g2a2|T^f4g2-|
+V:2
+C,4 z2|C,2C,2D,2|E,2E,2C,2|D,2C,2=B,,2|
+%
+V:1
+ga=f=ef2-|fg_ede2|c=Bc2d2|G6:|
+V:2
+_B,,4=A,,2|_A,,4G,,2|A,,4F,,2|G,,2G,F,E,D,:|
+%
+V:1
+|:G2G2A2|BAGAB2|C2=E2(3GAB|AGF4|
+V:2
+|:C,2-[C,2-=E,2][C,2F,2]|G,2=E,2C,2|=E,2C,2E,2|F,3G,F,_E,|
+%
+V:1
+F2F2G2|AGFGA2|B,2D2(3FGA|GFE4|
+V:2
+D,2-[D,2B,,2]E,2|F,2D,2C,2|D,2B,,2D,2|E,3F,E,D,|
+%
+V:1
+G2A2=A2|B2=B2c2|=B2c2d2|e2=e2f2|
+V:2
+C,2F,2E,2|D,2G,2E,2|D,2C,2=B,,2|C,2_B,,2=A,,2|
+%
+V:1
+d2_e2=e2|f2^f2g2|G2=fede|c6:|
+V:2
+=B,,2C,2_B,,2|=A,,2_A,,2G,,2|E,2F,2G,2|C,6:|
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/175297
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwva121/bwva121.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwva121/bwva121.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwva121/bwva121.abc
+% Rhythm Minuet
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

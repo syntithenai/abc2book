@@ -1,0 +1,29 @@
+X:003
+U: ~ = !turn!
+%%topmargin 3cm
+T:Arboe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Na Fili
+R:Reel
+L:1/8
+M:C|
+K:G
+d2 BG dGBG | ~G2 Bd ef ((3gfe) | d2 BG dGBG | ABcd edBc :|
+g2 bg ((3efg) dg | ((3efg) dg edBd | g2 bg ((3efg) dB | ABcd edBd |
+g2 bg ((3efg) dg | ((3efg) dg edBd | ga ((3bag) ef ((3gfd) | dega bage |]
+S:https://www.folktunefinder.com/tunes/94601
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Arboe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Arboe_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

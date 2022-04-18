@@ -1,0 +1,28 @@
+X:1
+T:Ancient sports of the glen, The
+T:Sealg a's S\`ugradh nan gleann
+R:Slow Air
+S:Simon Fraser Collection
+N:No.221
+O:Scottish
+M:3/4
+L:1/8
+Q:1/4=90
+K:D
+d>c|(BA) F2A2|(f2 c2) B>c|d2F2A2|B3z d>c|BA F2A2|(f2 e2)B>c|
+d2F2A2|B3z||d>e|f2d2c2|(e2 c2) d<e|f2d2B2|c3z a>e|f2B2c2|
+(A2 B2) d>c|(BA) F2A2|B3 z||
+S:https://www.folktunefinder.com/tunes/96014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/flutesong.naturalscotland.co.uk/FC-Flute.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/hans.members.beeb.net/Tunes/FC-Flute.abc
+% Rhythm Slow air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

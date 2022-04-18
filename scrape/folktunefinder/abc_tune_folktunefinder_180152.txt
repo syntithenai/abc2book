@@ -1,0 +1,26 @@
+X:1315
+T:"The Old Pensioner"   (reel)    1315
+C:after Mr. McFadden
+N:Changed fermata to Fine Command
+N:Changed plain Segno to D.S.Al Fine command
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+(3ABc"^Segno"|d2 (3cBA BEEG| (3(FED) (AD) FABc|dB  (3(cBA) BEEA|Bged cABc|
+ (3ABc d2 (3cBA BEEG|(3(FED) (AD) FABc|dB  (3(cBA) BEEA|Bgec d2"^Fine"||
+(3(ABc)|d2(fd) adfd|ddfd cdec|d2(fd) adfd|dBAF EFAc|
+d2(fd) adfd| (3ddd (fd) cdec|defd cdec|dBAF EF  (3(AB"^D. S. al Fine"c)|]
+S:https://www.folktunefinder.com/tunes/180152
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1301-1400/1315-OldPensioner.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

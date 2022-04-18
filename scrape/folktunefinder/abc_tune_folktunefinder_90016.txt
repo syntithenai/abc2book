@@ -1,0 +1,33 @@
+X:29
+T:Duke of York March
+M:C|
+L:1/8
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2 D>D F2 F>F|A>F A>F D2 A2|d>A d>A DA FD|A2 A>A A2 z2|a3 f d2 d2|e2 e>g f3 a|a3 f fd gf|
+e2 e>e e2 z2::A2 A>A (Ae f)g|A2 A>A (Ad f)a|(ge) ee (fd) dd|b(a gf) (f2 e2)|d3 f/e/ dA B=c|
+=cB B4 (c/d/e/f/)|.g.g .f.f .e.e .d.d|e2 e>e e2 z2|D2 D>D F2 F>F|AF AF D2 g2|(fa) (af) (ge) (dc)|d2 d>d d2 z2:|
+%P:2nd fife
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2 D>D F2 F>F|A>F A>F D2 A2|d>A d>A DA FD|A2 A>A A2 z2|(DF) .A.A (DF) .A.A|(EG) .A.A (DF) Ad|
+f3 d (dB) (ed)|A2 A>A A2 z2::A2 A>A (Ac d)e|A2 A>A AF (Ad)|(cA) AA dd dd|(gf) ed (d2 c2)|F8|
+G6 (A/B/c/d/)|.e.e .d.d .c.c .B.B|A2 A>A A2 z2|D2 D>D F2 F>F|AF AF D2 B2|A4 BG FE|F2 F>F F2 z2:|
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90016
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

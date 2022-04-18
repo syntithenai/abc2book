@@ -1,0 +1,22 @@
+X: 1
+T:Melange
+S:Trad, arr Phil Rowe
+M:6/8
+K:A
+B|"A"c3 "D"A2F|"A"EAc e2f|"A"e2c "F#7"f2c|"Bm"def B2c|"E"d3 b2a|
+"E"g2f e2B|"A"c3 -"Adim"cd^d|"E"efe "E7"e^d=d|"A"c3 "D"A2F|"A"EAc e2f|
+"A"e2c "F#7"f2c|"Bm"def B2c|"E"d3 b2a|g2f e3-|"E7"efe dcB|"A"A3
+|:"E7"e3 |"A"cde "Adim"^def|"A"e2c A3|"F#m"a3 agf|"Bm"d3 -d2c|
+"E"Bcd "Edim"cde|"E"d2b b2a| [1"E"g2g "Eaug"gfe|"A"A3 c3 :|
+ [2"E7"gbg ebg|"A"a3 -a2||
+S:https://www.folktunefinder.com/tunes/175243
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/me/Melange_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

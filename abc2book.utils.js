@@ -189,7 +189,7 @@ function progressDown(songNumber) {
 
 
 function makeEditable(selector) {
-   console.log("make editable",$(selector))
+   //console.log("make editable",$(selector))
    
    $(selector).prop({tabindex: 1, contenteditable: true}).on({
 
@@ -206,13 +206,45 @@ function makeEditable(selector) {
       
       if (this.__html === data.html) return;  // Nothing has changed.
       
-      console.log(data); // Something changed, send data to server.
+      //console.log(data); // Something changed, send data to server.
     }
     
   })
   
 }
 
-function showElement(id) {
-  $('#'+id).show()
+
+
+function addTitleNumbering(abc) {
+  //return abc
+  //var tunebook = abc2Tunebook(abc)
+  //console.log(tunebook)
+  //throw "dddd"
+  //var final = tunebook.map(function(tune, key) {
+  var tuneParts = abc.split("X:").slice(1)
+  //console.log("PPPPP",tuneParts)
+  tuneParts.forEach(function(tunePartDirty, partKey) {
+    if (tunePartDirty && tunePartDirty.trim && tunePartDirty.trim().length > 0) {
+      //var tunePartDirty = tuneParts[partKey]
+      //console.log("PPPPP",partKey, "::::", tunePartDirty)
+      var tunePart = "X:" + tunePartDirty
+      var tune = singleAbc2json(tunePart)
+      var songNumber = tune.songNumber ? tune.songNumber : partKey + 1
+      var parts = tunePartDirty.split("T:")
+      if (parts.length > 0) {
+        var iParts = parts[1].split("\n")
+        var title = iParts[0]
+        iParts[0] = songNumber + '. ' + title
+        parts[1] = iParts.join("\n")
+        tuneParts[partKey] = parts.join("T:")
+      } 
+    }
+  })
+  
+    return "X:" + tuneParts.join("X:")
+      //tune.meta['T'] = (parseInt(songNumber) ) + ". " + tune.name
+      //tune.name = (parseInt(songNumber) ) + ". " + tune.name
+      //return json2abc(parseInt(songNumber), tune)
+  //}).join("\n")
+  //return final
 }

@@ -1,0 +1,24 @@
+X:90
+T: Betty Ann Daly's
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+D |"G"GFG "D"Adc | "Em"BEE EDB, | "G"DGB "Am"ABc | "Em"edB e2 f |
+"C"gfe "D"dBA | "Bm"BAF "Em"GEE | "C"CEG "D"Fdc | "G"BGF G2 :|
+A|"G"BdB "C"cec | "D"dfa "G"gdB | "Em"efg dBG | "Am"AGA "Em"B2E|
+"G"Bcd "C"cde | "D"def "G"gab | "D"afd "C"gec |"D"dAF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86427
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

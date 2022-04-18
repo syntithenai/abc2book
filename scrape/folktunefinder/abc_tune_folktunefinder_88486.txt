@@ -1,0 +1,31 @@
+X:1645
+T:Duke Marlborough's March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001265.html
+%%ID:00001265
+K:D
+A2 | \
+d2dd dddd | d6     cB | AGFG   AGFG | A4 D2de | \
+f2ff ffff | f6     gf | edcd   edcd | e6 A2 |
+d2df e2ef | d2df e2ef | {a}fedc B3A | A6 :: \
+E2 | \
+A2AA AAAA | A6   A2 | ! dcde d2A2 | d6 e2 |\
+ffff eeee | ffff eeee | fgfg g2fg | a6 ag |
+fedc A2dc | BAGF E2E2 | e6 ef |\
+g4   fefd | efed c2BA | d2ef B2c2 | d6 |]
+%%newpage
+%page 131
+S:https://www.folktunefinder.com/tunes/88486
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

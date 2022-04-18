@@ -1,0 +1,29 @@
+X: 1
+T: Niel Gow's Lament
+T: Niel Gow's Lament for the Death of His Second Wife
+C: Niel Gow
+R: waltz, air
+Z: John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+P: waltz, air
+vD/uB,/ \
+|: "D"vA,>MB,-MD "Bm"D>E-D | "Em"E>F-A "G"{A}B2{c}d | "D"A>MF-MD "Em"E>MD-ME | "Bm"{DE}F>D-B, "G"vB,2 uD/-B,/ |
+|  "D"A,>B,D "Bm"D>ED | "Em"EFA "G"{c}d2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 :|
+(3A/B/c/ \
+[| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "D"{DE}FED | "Bm"{DE}F>DB, "G"B,2 (3A/B/c/ |
+|  "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "Bm"{DE}F>DB, | "D"A,<D"(G)"D "D"D2 (3A/B/c/ |
+|  "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | F/D/A/F/d/A/ "Bm"B/A/G/F/E/D/ | "Em"FEE "A7"E2D/B,/ |
+|  "D"A,>B,D "Bm"D>ED | "Em"EFA "G"Hd2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 |]
+S:https://www.folktunefinder.com/tunes/178708
+S:http://trillian.mit.edu/~jc/music/book/500/NielGowsLamentForHis2ndWife.abc
+S:http://trillian.mit.edu/~jc/music/book/500/NielGowsLamentForTheDeathOfHis2ndWife.abc
+% Rhythm Waltz, air
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

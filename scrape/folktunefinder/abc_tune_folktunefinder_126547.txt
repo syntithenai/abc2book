@@ -1,0 +1,36 @@
+X:8168
+T:Johnnie Cope
+R:hornpipe
+H:See also "The Drunken Sailor", #63
+D:Planxty
+D:Fintan Vallely: Traditional Irish Flute Music
+D:Noel Hill & Tony Linnane
+D:Seamus Ennis: The Fox Chase
+Z:id:hn-hornpipe-29
+M:C|
+K:Ador
+EG|:A2AB A2Bd|efed B2AG|EGGF G2GB|BAGB dBAG|
+A2AB A2Bd|efed B2d2|(3efg fa gedB|1 BAAB AGEG:|2 BAAG A2AB||
+|:cBcd c2AG|cdef gedB|cBAc e2ed|cdec dBGB|
+cBcd c2AG|cdef gedg|eaag (3efg dB|BAAG A2AB:|
+|:cdcB ABAG|ABcd (3efg dc|BG~G2 dG~G2|cdec dBGB|
+cdcB ABAG|ABcd (3efg dg|eaag (3efg dB|1 BAAG A2AB:|2 BAAG A2 (3Bcd||
+|:eaag a2ga|bgaf g2ed|eggf gaba|gabg aged|
+eaag a2ga|bgaf g2ge|d2ef gedB|1 BAAG A2 (3Bcd:|2 BAAB A2ag||
+|:e2 (3eee feed|e2~e2 fedB|d3e dBAB|defd edBd|
+e3e fedB|eaae fedB|ABdf efdB|1 BAAB A2ag:|2 BAAB A2 (3efg||
+|:a2e2 efge|a2e2 efag|f2d2 d^cde|fdd^c d2 (3efg|
+a2e2 efge|a2e2 efdB|ABdf efdB|1 BAAB A2 (3efg:|2 BAAB AG||
+S:https://www.folktunefinder.com/tunes/126547
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

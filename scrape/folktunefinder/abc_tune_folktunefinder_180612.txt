@@ -1,0 +1,22 @@
+X: 1
+T: Orleans Baffled [D]
+O: Playford 1721
+M: 3/2
+L: 1/4
+B: The Round Band Book of Playford
+B: Barnes "English Country Dace Tunes" p.93
+K: D
+[|"D"d2 a2 f2 | "G(Em)"gb2 B "A7"cA \
+| "D"dc/d/ "A7"ed/e/ "D"fe/f/ | "G"gf/g/ "A7"ea "D"fd |
+| "A"A2 e2 c2 | "D(Bm)"df2 F "E7"^GE \
+| "A"A^G/A/ "E7"BA/B/ "A"cB/c/ | "D"dc/d/ "E7"Be "A"cA |
+| "D"Ad "D7"d=c "G"BG | "E"Be "E7"ed "A"cA \
+| "D(Bm)"dc/d/ "A7"eA "D"fA | "G(Em)"gB "A7"ec "D"d2 |]
+S:https://www.folktunefinder.com/tunes/180612
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/OrleansBaffled_D.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

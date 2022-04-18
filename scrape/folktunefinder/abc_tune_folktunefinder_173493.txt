@@ -1,0 +1,24 @@
+X:1
+P: The MacNeils of Ugadale
+C: P.M. John Mackenzie
+C: from Ceol Na Fidhle/Matt Petrie, arr. T. Traub 2-24-2004
+R: Jig
+M: 6/8
+K: A
+L: 1/8
+|: a|"A"c>dB A>AA|c<ee e>cA|"D"f>ec "A"e>fa|"Bm"a>ec "E"B2 a|"A"c>dB A>AA|c<ee e>cA|"Bm"c<dB "E"e>fc|"A"A>AA A2 :|
+e|"D"a>gf "A"e2 a|"A"e>fe e>cA|"D"a>gf "A"e2 a|"Bm"a>ec "E"B2 e|"D"a>gf "A"e2 a|"A"e>fe e>cA|"Bm"c<dB "E"e>fc|"A"A>AA A2||
+e|"D"a>gf "A"e2 a|"A"e>fe e>cA|"D"a>gf "A"e2 a|"Bm"a>ec "E"B2 e|"A"c>dB A>AA|c<ee e>cA|"Bm"c<dB "E"e>fc|"A"A>AA A2||
+|: e|"A"c3 A3|c<ee e>cA|"D"f3 d2 a|"A"a>ec "E"B2 a|"A"c3 A3|c<ee e>cA|"Bm"c<dB "E"e>fc|"D"A>AA "A"A2 :|
+e|"D"f2 a d2 a|"A"e>fe e>cA|"D"f2 a d2 a|"A"a>ec "E"B2 e|"D"f2 a d2 a|"A"e>fe e>cA|"Bm"c<dB "E"e>fc|"A"A>AA A2||
+e|"D"f2 a d2 a|"A"e>fe e>cA|"D"f2 a d2 a|"A"a>ec "E"B2 e|"A"c>dB e>fc|"D"a>gf "A"e>cA|"Bm"c<dB "E"e>fc|"D"A>AA "A"A2 |]
+S:https://www.folktunefinder.com/tunes/173493
+S:http://terrytraub.org/abc/MacNeilsOfUgadaleJ.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MacNeilsOfUgadaleJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

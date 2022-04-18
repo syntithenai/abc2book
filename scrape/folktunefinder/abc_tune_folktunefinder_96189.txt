@@ -1,0 +1,28 @@
+X: 38
+T:Minuett. TBe.038
+M:3/4
+L:1/4
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:minuet
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:C major
+c/d/ ed | c/d/ ed | c/d/ ed | cag | a>ag |\
+ a>ag | a a/g/f/e/ |  ""d3 ||!
+d/e/fe | d/e/fe | dgf |  ""e2d | cc'b |\
+ agf | e (f/e/)d/e/ | c3 ||
+S:https://www.folktunefinder.com/tunes/96189
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Minuet
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

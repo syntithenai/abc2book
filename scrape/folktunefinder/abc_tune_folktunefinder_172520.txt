@@ -1,0 +1,28 @@
+X:0139
+T:"The Little Swallow "        (air)          0139
+C:Unattributed
+C:tenderly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=80
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_vb"(3d/2e/2f/2 gG|(GF) (ED) .G.G|.B(B/2c/2) .d(d/4e/4f/2) gd|ec .A(F/2A/2) .G.G|G2-G/2(G/2B/2d/2) gG|
+(GF) (ED) .G.G|.B(B/2c/2) .d  (3(d/2e/2f/2) .g(g/2d/2)|(ed/2c/2) (B/2A/2G/2F/2) GG|G3(G/2A/2) Bd|
+g2.f(a/2g/2) (f/2e/2g/2e/2)|d3/2B/2 .G(G/2A/2) Bd|g2(f/2a/2g/2f/2) ee|e2(e/2d/2)(e/2f/2) gG|
+(GF) (ED) .G.G|B3/2c/2 .d(d/4e/4f/2) g3/2d/2|(f/2e/2d/2c/2) (B/2A/2G/2F/2) (.G.G)|G2-G(G/2A/2) (Bd)|
+g2f(a/2g/2) (f/2e/2g/2e/2)|{^c}d3/2 B/2 .G(G/2A/2) (Bd)|g2(f/2a/2g/2f/2) ee|e2(e/2d/2e/2f/2) gG|
+(GF) (ED) .G.G|B3/2c/2 .d(d/4e/4f/2) gd|ec .A(F/2A/2) GG|G2-G zz2||
+TRg2({fg}a/2g/2)e/2d/2 ({ef}ed/2B/2)|{^c}d2 (e/2d/2B/2A/2) ({Bc}BA/2G/2)|TRG2(G/2E/2)(D/2E/2) .G.G|G2-G2|]
+S:https://www.folktunefinder.com/tunes/172520
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/139-LittleSwallow.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/139-LittleSwallow.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

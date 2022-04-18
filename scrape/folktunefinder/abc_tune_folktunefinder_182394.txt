@@ -1,0 +1,24 @@
+X:1
+T:Pigalle
+C:As played by Francis Darizcuren
+R:waltz
+M:3/4
+K:Gm
+L: 1/4
+G B| "Gm" e2 d-|"Gm"d G B| "Gm"e2 d-|"Gm"d2 B| "Cm"c c c | "Cm7"d c B | "D" A3-|"D"A ^F A| "D" e2 d-|"D"d F A| "D"e2 d-|"D"d3 | "Cm"c c d | "D7"c B A | "Gm" G3-|"Gm" G3|
+"F" fff| "F" cde| "Bb" d B2-|"Bb" B3| "F" fff| "F" cde| "Bb" d3-| "Bb" d3|"Cm" eee| "D" cBA| "Gm" d B2-|"Gm" B G A | "Gdim" BAB |"Cm" cBc | "D" d3-|d3-|d3-|d3||
+K:G
+"G" ddd| "G/F#" ddd| "G/E" ddd| "G/F#" ddd | "G" d^cd| "G" g2 d|"D" c A2-|"D" A3|"D/A" ddd| "D/G#" ddd| "D/G" ddd| "D/F#" ddd | "D" d^cd| "D" g2 d|"G" B G2-|"G" G3|
+"G7" gde | "G7" =fed| "G7" gde |=fed| "C" e3| "C" =B3| "C" A3|"A7" aef | gfe | aef | ga=b| "Am" a3| e3| "D" d3-| d3|
+"G" ddd| "G/F#" ddd| "G/E" ddd| "G/F#" ddd | "G" d^cd| "G" g2 d|"D" c A2-|"D" A3|"D/A" ddd| "D/G#" ddd| "D/G" ddd| "D/F#" ddd | "D" d^cd| "D" a2 b|"G" a g2-|"G" g3|]
+S:https://www.folktunefinder.com/tunes/182394
+S:http://terrytraub.org/abc/pigalle.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/pigalle.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

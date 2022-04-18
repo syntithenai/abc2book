@@ -1,0 +1,21 @@
+X: 1
+T: Poor Man's Fortune, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmix
+FDEF D2 de | fdec dcAB | c2 dc BG G2 | EDCD EAGE |
+FDEF D2 de | fdec dcAB | c2 dc BG G2 |1 EDCE DBAG :|2 EDCE DGAB ||
+|:c2 ge aege | Gceg agfe | d2 ad bdad | Adfa bafd |
+c2 ge aege | afge defg | afge fded |1 c2 dc BABB :|2 c3 d cBAG|
+S:https://www.folktunefinder.com/tunes/183516
+S:http://www.thesession.org/tunes/display/8722
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

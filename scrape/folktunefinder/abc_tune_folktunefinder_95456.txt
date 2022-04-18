@@ -1,0 +1,24 @@
+X:750
+T:Innes's Jig
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000226.html
+%%ID:00000226
+K:G
+D|\
+GAG BAG| d2G e2g| edc BAG| EAA A2B|\
+GAG BAG| d2G e2G| gfe dec| BGG G2::
+d|\
+gdB GAG| DED GAG| edc BAG| EAA "tr"A2f|\
+gdB GAG| ecA FED| gfe dec| BGG G2:|
+S:https://www.folktunefinder.com/tunes/95456
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

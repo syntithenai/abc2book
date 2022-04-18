@@ -1,0 +1,25 @@
+X:026
+%%topmargin 3cm
+T:Caber Feidh
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Reel
+L:1/8
+M:2C|
+K:DDor
+G | c2 ed c2 GB | c2 (GF) ECCA | defe d2 A^c | d2 AG (FD)DB |
+c2 ed c2 GB | c2 GF (EC)CE | DEFG ABcA | {/^c}d2 AG (FD) D ||
+f | ecgc acgc | GAcd eccg | fdad bdad | fgag fddf |
+ecgc acgc | GAcd eccg | afge fde^c | d2 AG (FD) D |]
+S:https://www.folktunefinder.com/tunes/91956
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Caber_Feidh.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

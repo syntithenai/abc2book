@@ -1,0 +1,31 @@
+X:064
+U: ~ = !turn!
+%%topmargin 3cm
+T:Eileen O'Callaghan
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Na Fili
+R:Reel
+L:1/8
+M:C|
+K:G
+G2 BG DGBG | GABd cAFA | GB ~B2 dcBc | defd ((3cBA) FA |
+G2 BG DGBG | GABd cAFA | GB ~B2dB ~B2 | defd ((3cBA) FA ::
+dg{/a}gf Pg2 fg | ad ~d2 ad gd | dg{/a}gf Pg2 fe | defd ((3cBA) FA |
+dg{/a}gf Pg2 fg | Ja2 ag agfe | dg ~g2 bg ~g2 | defd ((3cBA) FA :|]
+S:https://www.folktunefinder.com/tunes/94661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Eileen_OCallaghan_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Eileen_OCallaghan_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Eileen_OCallaghan_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Eileen_OCallaghan_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

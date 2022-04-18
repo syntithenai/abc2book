@@ -1,0 +1,68 @@
+X:148
+T:Handel's Gavot, with Variations
+M:C|
+L:1/4
+Q:1/2=80
+K:D
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:A|d2fd|dAGF|Ee-ed|dcBA|d2fd|B2ge|fagf|fedc|d2fd|dAGF|
+Ee2d|dcBA|G2(3BGE|F2(3AFD|E2c2|d3::A|dfad|dcBA|Gb2d|dcBA|
+Gb2G|Fa2F|Eg2f|fedc|dfBf|AdFd|Ee2d|dcBA|G2(3BGE|
+F2(3AFD|E2c2|d3::"^Var. 1st."A|dfBd|AdFd|Ee2d|dcBA|dbca|BgAg|fab/a/g/f/|
+fedc|d/e/f/d/ B/c/d/B/|A/B/A/G/ Fd|Ee2d|dcBA|G2(3BGE|F2(3AFD|E2c2|d3::
+[L:1/8]"^Var. 2d."A2|defd BcdB|ABAG GFED|E2e4d2|d2c2B2A2|dcdf b2d2|cAce a2A2|BABd gfed|
+d2c2B2A2|dfBd Ad Dd|ceAd FADd|E2e4d2|d2c2B2A2|GFGA BABG|FEFG AGAF|E4 c4|d6::
+"^Var. 3d."A2|dfad ceaA|BdgB BAGF|G2b4d2|dced dcBA|dAdA b2d2|cAcA a2A2|BGAB cdef|
+gfed dcBA|defd BGdB|AFdA GFED|c/A/B/c/d/e/f/^g/ a2 d2|dcec A2F2|G4 BGdG|F4 AFdF|E4c4|d6::
+[L:1/4]"^Var. 4th."A|(3def (3Bcd|(3AdA (3FGA|(3Eee (3efd|(3cec A>c|(3daa a>d|(3 caa a>A|(3Bcd (3efg|(3fed (3cBA|
+(3def (3Bcd|(3ABG (3FGA|(3Eee e2|(3cec (3AGF|G>B (3eGE|F>A (3dFD|E2 c2|d3::
+[L:1/8]"^Var. 5th."A2|dfa2 cea2|Bdg2 Adf2|GBe2 FAd2|d2c2 f/(e/d/c/)B2|GBe2 FAd2|GBe2 FAd2|
+GBe2 FAd2|d2c2B2A2|dfa2 cea2|Bdg2 Adf2|GBe2 FAd2|FAe2 AFG2|G4 (e/d/).c/.B/.A/.G/.F/.E/|
+F4 (d/c/)B/A/G/F/.E/.D/|E4 c4|d6::"^Var. 6th."A2|dfBd AdFd|GdFd EdDd|ceAe ceAe|
+ceAa A2a2|dbca BgAf|GeFd GeFd|dAeA aA cA|d2c2B2A2|dfBd AdFd|GdFd Ed Dd|cAeA aA cA|
+d2c2B2A2|dbed ceAc|df AG FADF|E4 c4|d6::[L:1/32]"^Var. 7th."A8|d'24 d'c'bagfed|
+b24 bagfedcB|g24 gfedcBAG|[L:1/16]d2f2A2d2 F2A2D2d2|dABcdef^a b4d4|
+cABcdef^g a4A4|BGAB cdef gaba gfed|cdef edcB ABAG GFED|
+[L:1/32]d'24 d'c'bagfed|b24 bagfedcB|g24 gfedcBAG|
+[L:1/16]d4 {e}c3dB3c A4|BGABcdef bagf edcB|AFGA Bcde fedc BAGF|E8 c8|d12::
+[L:1/4]"^Var. 8th."A|dbca|BgAf|GeFd|dcBA|[L:1/16]d4 Tb3a/b/ c2a2 Ta3g/a/|
+B2g2 Tg3f/g/ A2f2 f3d/e/|B2e2 Te3d/e/ F2d2 Td3c/d/|[L:1/4]dcBA|dbca|BgAf|
+GeFd|dcBA|[L:1/16]G3G TG3F/G/ gfed cBAG|F3F TF3E/F/ fedc BAGF|E8 c8|d12:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+L:1/4
+|:A|F2AF|F2ED|GG2F|E2GF|F2AF|G2Bc|dfed|A2FE|F2AF|F2ED|GG2F|E2GF|E2E2|
+D2DF|G2E2|F3::A|FAFB|BAGF|EG2^G|A2GF|EG2E|DF2D|GB2A|AGFE|FAGB|
+FADF|GG2^G|A2GF|E2E2|D2DF|G2E2|F3::A|FAGB|F2DF|GG2^G|A2GF|
+FGEF|DBCE|DFGG|A3G|F/G/A/F/ G/A/B/G/|F/G/F/E/DF|GG2^G|A2GF|E2E2|D2DF|G2E2|F3::
+[L:1/8]A2|FGAF GABG|FGFE EDGF|G2G4^G2|A4G2F2|F2A2G2B2|A2G2F2F2|G4 BAGF|F2E2G2F2|FAGB FAFA|
+G2F2D2F2|G2G4^G2|A4G2F2|EDEF GFGE|DCDE FEFD|G4E4|F6::A2|FAFA GAGA|GBEG GFED|
+E2G4^G2|A4 z2GF|F2F4F2|G2G4F2|G4A4|B4A2GF|FGAF GEBG|FDAF EDGF|
+E2B2A2F2|E2E2A2D2|E4E2E2|D4D2D2|G4E4|F6::[L:1/4]A|(3FGA (3GAB|(3FAF (3DEF|(3GGG (3GGG|
+A2 z2|(3FGG G>F|(3EFF F>F|(3GGF (3GFE|(3AGF E>A|(3FGA (3GAB|(3FGE (3DEF|(3GGG ^G2|
+A2zD|E2 (3GEC|D2 (3FAF|G2E2|F3::[L:1/8]A2|FAFA GAGA|GBEB FADA|EGBG DFAF|F2E2 d/c/B/A/G2|
+EGBG DFAF|EGBG DFAF|EGBG DFAF|B2A2G2F2|FAFA GAGA|GBEB FADA|EGBG DFAF|DFA2 FDE2|
+E4 E4|D4 D4|G4 E4|F6::[L:1/4]A|F/FFFF/|.B.A.G.F|AcAc|AcAe|
+gfed|cdcd|AcAc|^GAEA|F/FFFF/|.B.A.G.F|AccA/A/|
+BA^GA|[L:1/8]BGGF GG2G|FDFE DFFA|G4 E4|F6::[L:1/16]z4|DFAF DFAF DFAF DFAF|DGBG DGBG DGBG DGBG|EGBG EGBG EGBG EGBG|
+[L:1/4]F/FF/ D/FF/|F/FF/DF|E/ED/CF|GABB//A//G//F//|E^GAz|
+[L:1/16]DFAF DFAF DFAF DFAF|DGBG DGBG DGBG DGBG|EGBG EGBG EGBG EGBG|^G4A4E4A4|G2G4F2 gfed cBAG|
+F2F4F2 dcBA GFED|G8 E8|F12::[L:1/4]z|FGAF|GEFD|ECDd|BAGF|[L:1/16]B2G2 TG3F/G/ A2F2 TF3E/F/|G2E2 TE3D/E/ F2E2 TD3C/D/|
+D2G2 TG3F/G/ D2F2 TF3E/F/|[L:1/4]BAGF|GBAF|GEFD|DCDF|BAGF|[L:1/16]E3E TE3D/E/ BAGF AGFE|D3D TD3C/D/ dcBA GFED|G8 E8|F12:|
+S:https://www.folktunefinder.com/tunes/90135
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:165
+T:Black Jock
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:none
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e0a.html
+%%ID:00000e0a
+K:G
+D |\
+D2G GFG | ABA AGA | BcB AGF | ABA AGE | G3 E2D | DEF G2 ||
+c |\
+B2c ded | ece d2c | BGB def | gfe dcB |
+c2a B2g | ABA AGA | Bdg dBG | AGA EBG | G3 E2D | DEF G2 ::
+%page:22
+S:https://www.folktunefinder.com/tunes/95664
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

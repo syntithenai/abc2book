@@ -1,0 +1,44 @@
+X:14
+T:Mystre du Calvaire - H44
+C:H.L. Hassler (1564-1612)
+L:1/4
+%%staves [(1 2) (3 4)]
+M:C
+K:Am
+V:1 treble
+%%MIDI program 17
+E!coda!|AGFE|D2!breath!EB|ccBB|A3:|
+V:2 treble
+%%MIDI program 17
+C|CCDG,|(A,G,)G,E|EEE(E/D/)|C3:|
+V:3 bass
+%%MIDI program 17
+G,|F,G,(A,/B,/)C|(CB,)CB,|B,A,A,^G,|A,3:|
+V:4 bass
+%%MIDI program 17
+C,|F,E,D,C,|(F,,G,,)C,^G,,|(A,,/B,,/) (C,/D,/)E,E,,|A,,3:|
+V:1
+c|BGAB|c2!breath!cG|AGFF|E3
+V:2
+E|^DECF|FDCB,|^CEDB,|E3
+V:3
+A,|A,B,=F,G,|A,F,E,G,|G,_B,A,^G,|A,3
+V:4
+=G,|^F,E,E,D,|G,,2A,,E,|E,^C,D,D,|^C,3
+V:1
+c|BdcB|A2!breath!BE|FEDG|1-2HE3E!coda!y||3HE3||
+V:2
+^D|E=FFF|EGFB,|B,A,^F,^C|D=C=B,E||D=CB,||
+V:3
+A,|B,B,CD|CB,A,A,|^G,A,A,A,|=B,^F,^G,C|B,^F,^G,||
+V:4
+^F,,|=G,,^G,,A,,B,,|C,^C,^D,E,|=D,=C,B,,A,,|E,3A,|E,A,,E,,||
+S:https://www.folktunefinder.com/tunes/88133
+S:http://moinejf.free.fr/messe/messeM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

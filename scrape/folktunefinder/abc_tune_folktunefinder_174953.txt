@@ -1,0 +1,24 @@
+X: 1
+T: Mazurka de Gilles Chabenat 
+M: 3/4
+L: 1/8
+R: Mazurka
+C: Gilles Chabenat
+K: Dm
+|: D E>D |
+A2 A>B c>d | A2-A>A B>A | G2 A>G F>E | F2 D>D E>D |
+A2 A>B c>d | A2-A>A B>A | G2 A>G F>G | E2-E :|
+|: A d>c |
+B2 B>A B>c | d2-d>d c>B | A2 A>G A>B | A2-A>B d>c |
+B2 B>A B>c | d2-d>d c>B | A2 G>F E>F |[1 E2-E :|[2 D2-D ||
+S:https://www.folktunefinder.com/tunes/174953
+S:http://www.thesession.org/tunes/display/7854
+% Rhythm Mazurka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

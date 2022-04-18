@@ -1,0 +1,26 @@
+X: 089
+T: Fall River (jig)
+N: 060449
+C: BB
+M: 6/8
+Q: 340
+L: 1/8
+R: jig
+K: G
+D|"G"GDG "C"EFG | "Am"AcB ABc | "G"d2B "Am"cBA | "G"GAG "D"FED |
+"G"GDG "C"EFG | "Am"AcB ABc | "G"dgd "Am"ecA | "D"AGF "G"G2 :|
+e|"G"gfg "Em"edB | "G"BAB GAB | "G"gfg "C"efg | "Am"ea^g "D"a2 a |
+"G"bag "D7"agf | "C"gfg "Em"edB | "G"GBd "Am"cBA |"D"AGF "G"G2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86707
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

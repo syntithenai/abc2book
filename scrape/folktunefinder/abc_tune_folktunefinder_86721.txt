@@ -1,0 +1,24 @@
+X: 128
+T: Halfway to Kerry (slide)
+N: 080051
+C: BB
+R: slide
+Q: 400
+M: 12/8
+L: 1/8
+K: G
+A | "G"B2 A "C"c2 A "G"B2 G "G"G2 d | "G"g2 d "Am"A2 B "C"c3 "G"B2 A |
+"G"B2 A "C"c2 A "G"B2 G "G"G2 d | "D"ABA DEF "G"G3-G2 :|
+A | "G"d^cd g2 d "D"a2 d "Em"b3 | "G"g2 d "Am"A2 B "C"c3 "G"B2 A |
+"G"d^cd g2 d "D"a2 d "Em"b3 | "D"agf def "G"g3-g2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86721
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

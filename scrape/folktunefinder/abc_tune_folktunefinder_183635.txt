@@ -1,0 +1,18 @@
+X:1
+T:Poverty Knock
+M:3/4
+L:1/4
+K:F
+ A A A| A A G| F z2| z2 z/2 F/2| B B B| B/2 d3/2 c| c3| A A A| A A G|\
+ F z2| d/2 d3/2 d| d/2 d3/2 d| c3| A A A| A A A| F z2| d d d| d d d|\
+ c3| z2 F| c c c| c/2 c3/2 A| B B B| B c B| A c A| G A G| F z2| A/2 A3/2 A|\
+ A A A| F3| z2 z/2 F/2| B B B| B/2 d3/2 c| c3| c3/2 c/2 c| c- B A|\
+ B B B| B c B| A c A| G A3/2 G/2| F3|
+S:https://www.folktunefinder.com/tunes/183635
+S:http://back.numachi.com:8000/dtrad/abc/POVKNOCK.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

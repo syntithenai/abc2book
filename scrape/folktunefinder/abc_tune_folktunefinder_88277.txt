@@ -1,0 +1,36 @@
+X:600
+T:Mc Cann's
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+N:Title not clear. Looks like M superscript B Cann's
+N:bars 5 and 6 of 3rd part are dotted minims with bar on stem -
+N: I presume these are repeated quavers
+O:England
+Z:Richard Robinson 
+%%RRN:"A good tune"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef1.html
+%%ID:00000ef1
+K:Eb
+[E2G,2] [E2G,2] [E2G,2] | [E2G,2] [E2G,2]  fg |\
+(3egf (3edc (3BcA | (3BcB (3AGF (3EDC |\
+[D2B,2] [D2B,2] [D2B,2] | [D2B,2] [D2B,2]  ga |\
+(3gag (3fgf (3efe | (3ded (3cBA (3GAF ::
+EB gBgB | EB gBbB | DB fBfB | DB fBaB |\
+EB gBgB | EB gBbB | agfedf | e2 A2 ::
+B,2 |\
+B,AFD B,2 | EeBG E2 | B,AFD B,2 | EeBG E2 | \
+[aB][aB][aB][aB][aB][aB] | [gB][gB][gB][gB][gB][gB] | f2e2d2 | [e4G4] ::
+%%newpage
+%page 37
+S:https://www.folktunefinder.com/tunes/88277
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

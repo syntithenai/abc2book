@@ -1,0 +1,23 @@
+X: 1
+T: Neck Belly
+M: 4/4
+L: 1/8
+R: reel
+K: Fmaj
+|:c3d ~c3d|cBAG AFAB|cFdF cFdF|cBAF GABd|
+cBAB cBAB|cBAG AFAB|cf~f2 fcdf|1cBAG F2AB:|2cBAG F2gf||
+|:ga~a2 a2ga|gfdc d2fg|fdcA ~c3d|cdfa gafg|
+a2gf a2gf|gfdc ~d2fg|fdcA ~c3d|1cdfg f2fg:|2fdcA F4||
+|:d4 d4|cAGA F2CF|DF~F2 FAcd|cdfg afga|
+fd~d2 d2fd|cAGA F2CF|DF~F2 FAcd|1cdfg f4:|2cdfg f2AB||
+S:https://www.folktunefinder.com/tunes/178308
+S:http://www.thesession.org/tunes/display/8616
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

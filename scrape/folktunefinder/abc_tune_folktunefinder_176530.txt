@@ -1,0 +1,23 @@
+X: 1
+T: MOLL ROE'S -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 9/8
+L: 1/8
+Z: Contributed 20010701013610 by John Chambers jmchambers:rcn.net
+K: Gm
+uD \
+| DGG ABG FGA | BGB cAB c2A | DGG ABG FGA | ded cAF G2 :|
+|: d \
+| dBd cAG FGA | dBd cAB c2e | dBd cAG FGA | BdB cAF G2 :|
+S:https://www.folktunefinder.com/tunes/176530
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/MollRoesJig.abc
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Tunes/MollRoesJig.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

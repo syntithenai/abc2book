@@ -1,0 +1,23 @@
+X:10772
+T:Mike's Fancy
+R:Jig
+C:Jerry Holland
+Z:Added by Alf Warnock
+M:6/8
+L:1/8
+K:G % 1 sharps
+c|:Bd^c dBG|Bdg dBG|EA=c cBc|FAd d2c|
+Bd^c dBG|Bdg dBG|EAG FEF|1 G3 G2=c:|2 G3 G2C|
+|:D3 DB,G,|CEG EDC|D3 DGB|=cBc ADC|
+D3 DB,G,|CEG EDC|B,DG FEF|G3 G2z:|
+S:https://www.folktunefinder.com/tunes/98554
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

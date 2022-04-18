@@ -1,0 +1,33 @@
+X: 2
+T: March of Saint Timothy
+% Nottingham Music Database
+C: Judi Morningstar, 1992
+D: "Michigan Spring" from the Detroit Country Dancers
+M: 2/4
+L: 1/4
+K: A
+| "A"c3/4d/4 e/c/ | "E"B3/4c/4 d/B/ \
+| "Fm"A3/4B/4 c/A/ | "Cm"A/G/ F/E/ \
+| "D"F3/4G/4 A/F/ | "A"E/A/ c/e/ \
+|[1"Bm"d3/4c/4 "B7"B/A/ | "E7"G/B/ E/d/ \
+:|2"Bm"d/4c/4B/ "E7"G/B/ | "A"A3/ ||
+e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/e/ A/c/ | E/A/ C/e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/E/ F/G/ | A/B/ c/ ||
+e/4e/4 \
+| "E7"d/e/ B/d/ | G/B/ E/e/4e/4 \
+| "A"c/e/ A/c/ | E/A/ C/E/ \
+| "D"F3/4G/4 A/F/ | "A"E/A/ c/e/ \
+| "Bm"d/4c/4B/ "E7"G/B/ | "A"A2 |]
+%%sep 8 8 8cm
+S:https://www.folktunefinder.com/tunes/174285
+S:http://trillian.mit.edu/~jc/music/abc/Contra/KC/SaintTimothy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

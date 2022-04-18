@@ -1,0 +1,33 @@
+X:1
+T:Morning Star
+M:2/4
+C:
+S:Chingford MM
+N:
+A:Chingford
+O:English
+R:Reel
+%P:A.(AB)$^5$
+P:A.(AB)5
+K:G
+I:speed 400
+P:A
+|:\
+   BcBG  E2FG | ABAF D2GA  | BcBA E2AF | D2G2 G4  :|\
+P:B
+   GABc  d2d2 | egfe dcBA  | B2Bc d2d2 | efge d4  |\
+   GABc  d2d2 | egfe dcBA  | B2Bc d2d2 | efge d4  |\
+   GABc  d2d2 | egfe dcBA  | B2Bc d2d2 | efge d4  |\
+   GABc  d2d2 | egfe dBG2  | ABcA FGAF | D2G2 G4  ||
+S:https://www.folktunefinder.com/tunes/176916
+S:http://www.ucolick.org/~sla/morris/music/Chingford/mornstar.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

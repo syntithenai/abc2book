@@ -1,0 +1,25 @@
+X:11037
+T:Moar Nein I Giberlan
+M:2/4
+L:1/8
+K:ADor
+A2A>B| e2d>B| A2d2| B>GE2|\
+G>AG>B| d2 "tr"BG| E2GA| GEDE| \
+G2G2| g2d>g| e2gf| e>dB2| d>eg>f| 
+"tr"e2 d<B| A2d2 |1BAA2 :|2BAA|: \
+B|\
+A/A/A A>B| e2dB| A<A A>d| BAAB| 
+d(B"tr"AG)| {GA}B2 "tr"AG| E2GA| GEDE|\
+.G2 .G2| g2dg| e2(gf)| (ed) "tr"B2|\
+d>eg>f| "tr"e2 d<B| A2d2 |1 BAA :|2 BAA2|]
+S:https://www.folktunefinder.com/tunes/98819
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

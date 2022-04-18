@@ -1,0 +1,22 @@
+X: 202262
+T: Tawnamullagh Jig
+T: (for Alan Morrisroe)
+C: BB 01/09
+M: 6/8
+R: jig
+L: 1/8
+Q: 330
+K: D
+A | "D" d2A FEF | DFA dAF | "C" G2=c cBc | "G" GAB "C"=cGE |
+"D" FEF dAF | "C"E=CE =cGE | "D" FAB "C"=cGE | "D" FDD "D"D2 :|
+A |"D" def a2b | a2b afd | "C"=cef g2a|"C"g2a ge=c|
+"D" def a2f | "C"=cef g2e |"D"faf "C"ge=c | "A" edc "D"d2 :|
+S:https://www.folktunefinder.com/tunes/97574
+S:http://www.qmcorp.net/webabc/t/202262.abc
+% Rhythm Jig
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

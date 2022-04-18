@@ -1,0 +1,179 @@
+X:1
+T:Put it where you want it
+M:4/4
+L:1/8
+Q: "Med. Funk/Rock" 1/4=126  
+C:Joe Sample
+C:(As Played by The Crusaders)
+Z:Luis Pablo Gasparotto
+K:C
+V:1 name="Alto 1"
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI program 67
+V:5 name="Guitar"
+%%MIDI program 29
+V:6 name="Piano"
+%%MIDI program 1
+%
+[V:1] "Piano-fill"z8 |: z8                | z8       | z8               | z8 |
+[V:2] "Piano-fill"z8 |: z8                | z8       | z8               | z8 |
+[V:3] "Piano-fill"z8 |: z8                | z8       | z8               | z8 |
+[V:4] "Piano-fill"z8 |: z8                | z8       | z8               | z8 |
+[V:5] "Piano-fill"z8 |: _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "Piano-fill"z8 |: "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       | z8               | z8 |
+[V:2] z8                | z8       | z8               | z8 |
+[V:3] z8                | z8       | z8               | z8 |
+[V:4] z8                | z8       | z8               | z8 |
+[V:5] _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       | z8               | z8 |
+[V:2] z8                | z8       | z8               | z8 |
+[V:3] z8                | z8       | z8               | z8 |
+[V:4] z8                | z8       | z8               | z8 |
+[V:5] _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       |1 z8               | z8                        ||
+[V:2] z8                | z8       |1 z8               | z _ed.c {^c}d2 Ac-         ||
+[V:3] z8                | z8       |1 z8               | z _ED.C {^C}D2 A,C-        ||
+[V:4] z8                | z8       |1 z8               | z _E,D,.C, {^C,}D,2 A,,C,- ||
+[V:5] _B c2 c- c B2 _e- | e c3- c4 |1 _E F2 F- F E2 C- | C8                        ||
+[V:6] "D7"z8            | z8       |1 "D7"z8           | z8                        ||
+%
+[V:1] z8     | z8                        | z8     | z8                        |
+[V:2] c8     | z _ed.c {^c}d2 Ac-         | c8     | z _ed.c {^c}d2 =ec-        |
+[V:3] C8     | z _ED.C {^C}D2 A,C-        | C8     | z _ED.C {^C}D2 =EC-        |
+[V:4] C,8    | z _E,D,.C, {^C,}D,2 A,,C,- | C,8    | z _E,D,.C, {^C,}D,2 =E,C,- | 
+[V:5] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z4 "E7"z4             |
+[V:6] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z4 "E7"z4             |
+%
+[V:1] z8     | z8                        | z8     | z8     :|2
+[V:2] c8     | z _ed.c {^c}d2 Ac-         | c8     | z8     :|2
+[V:3] C8     | z _ED.C {^C}D2 A,C-        | C8     | z8     :|2
+[V:4] C,8    | z _E,D,.C, {^C,}D,2 A,,C,- | C,8    | z8     :|2
+[V:5] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z8 :|2
+[V:6] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z8 :|2
+%
+[V:1] z8               | z8                        ||
+[V:2] z8               | z _ed.c {^c}d2 Ac-         ||
+[V:3] z8               | z _ED.C {^C}D2 A,C-        ||
+[V:4] z8               | z _E,D,.C, {^C,}D,2 A,,C,- ||
+[V:5] _E F2 F- F E2 C- | C8                        ||
+[V:6] "D7"z8           | z8                        ||
+%
+[V:1] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z4 "E7"z4             |
+[V:2] c8     | z _ed.c {^c}d2 Ac-         | c8     | z _ed.c {^c}d2 =ec-        |
+[V:3] C8     | z _ED.C {^C}D2 A,C-        | C8     | z _ED.C {^C}D2 =EC-        |
+[V:4] C,8    | z _E,D,.C, {^C,}D,2 A,,C,- | C,8    | z _E,D,.C, {^C,}D,2 =E,C,- | 
+[V:5] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z4 "E7"z4             |
+[V:6] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z4 "E7"z4             |
+%
+[V:1] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z8 |
+[V:2] c8     | z _ed.c {^c}d2 Ac-         | c8     | z8     |
+[V:3] C8     | z _ED.C {^C}D2 A,C-        | C8     | z8     |
+[V:4] C,8    | z _E,D,.C, {^C,}D,2 A,,C,- | C,8    | z8     |
+[V:5] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z8 |
+[V:6] "D9"z8 | "F9"z8                    | "C7"z8 | "C7"z8 |
+%
+[V:1] z4 Acdc- | c3 A GA _E/D/C | C3 C {D}_E2 z2 | Acdc _ecdc |:
+[V:2] E8       |  E8            | _E8            | D8         |:
+[V:3] C8       |  C8            | C8             | C8         |:
+[V:4] A,8      | _B,8           | A,8            | A,8        |:
+[V:5] "Am"z8   | "C7/G"z8       | "F7"z8         | "D7"z8     |:
+[V:6] "Am"z8   | "C7/G"z8       | "F7"z8         | "D7"z8     |:
+%
+[V:1] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:2] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 | 
+[V:3] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:4] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:5] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:6] "C7"z8 | "F7"z8 | "C7"z8 | "F7"z8 |
+%
+[V:1] "C7"_Bc z2 z4    | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:2] "C7"_Bc z2 z4    | "F7"z8 | "C7"z8 | "F7"z8 | 
+[V:3] "C7"_B,C z2 z4   | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:4] "C7"_B,,C, z2 z4 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:5] "C7"z8           | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:6] "C7"z8           | "F7"z8 | "C7"z8 | "F7"z8 |
+%
+[V:1] "C7"_Bc z2 z4    | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:2] "C7"_Bc z2 z4    | "F7"z8 | "C7"z8 | "F7"z8 | 
+[V:3] "C7"_B,C z2 z4   | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:4] "C7"_B,,C, z2 z4 | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:5] "C7"z8           | "F7"z8 | "C7"z8 | "F7"z8 |
+[V:6] "C7"z8           | "F7"z8 | "C7"z8 | "F7"z8 |
+%
+[V:1] "Am"E8      | "C7/G"E8       | "F7"_E8     |1 "D7"D8      :|2
+[V:2] "Am"[C8E8]  | "C7/G"[C8E8]   | "F7"[C8_E8] |1 "D7"[C8D8]  :|2
+[V:3] "Am"[A,8C8] | "C7/G"[_B,8C8] | "F7"[A,8C8] |1 "D7"[A,8C8] :|2
+[V:4] "Am"A,8     | "C7/G"_B,8     | "F7"A,8     |1 "D7"A,8     :|2
+[V:5] "Am"z8      | "C7/G"z8       | "F7"z8      |1 "D7"z8      :|2
+[V:6] "Am"z8      | "C7/G"z8       | "F7"z8      |1 "D7"z8      :|2
+%
+[V:1] "D7"D8      |]
+[V:2] "D7"[C8D8]  |]
+[V:3] "D7"[A,8C8] |]
+[V:4] "D7"A,8     |]
+[V:5] "D7"z8      |]
+[V:6] "D7"z8      |]
+%% text Play Ending 1 till last solo
+%% text 
+[V:1] "Piano-fill"z8 || z8                | z8       | z8               | z8 |
+[V:2] "Piano-fill"z8 || z8                | z8       | z8               | z8 |
+[V:3] "Piano-fill"z8 || z8                | z8       | z8               | z8 |
+[V:4] "Piano-fill"z8 || z8                | z8       | z8               | z8 |
+[V:5] "Piano-fill"z8 || _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "Piano-fill"z8 || "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       | z8               | z8 |
+[V:2] z8                | z8       | z8               | z8 |
+[V:3] z8                | z8       | z8               | z8 |
+[V:4] z8                | z8       | z8               | z8 |
+[V:5] _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       | z8               | z8 |
+[V:2] z8                | z8       | z8               | z8 |
+[V:3] z8                | z8       | z8               | z8 |
+[V:4] z8                | z8       | z8               | z8 |
+[V:5] _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8 |
+[V:6] "D7"z8            | z8       | "D7"z8           | z8 |
+%
+[V:1] z8                | z8       | z8               | z _ed.c {^c}d2 Ac-  ||
+[V:2] z8                | z8       | z8               | z _ed.c {^c}d2 AE-  ||
+[V:3] z8                | z8       | z8               | z _ED.C {^C}D2 A,D- ||
+[V:4] z8                | z8       | z8               | z _ED.C {^C}D2 A,C- ||
+[V:5] _B c2 c- c B2 _e- | e c3- c4 | _E F2 F- F E2 C- | C8                 ||
+[V:6] "D7"z8            | z8       | "D7"z8           | z8                 ||
+%
+[V:1] c8     | z _ed.c {^c}d2 Ac-   | c8     | z _ed.c {^c}d2 =ec-  |
+[V:2] E8     | z _ed.c {^c}d2 AE-   | E8     | z _ed.c {^c}d2 =eE-  |
+[V:3] D8     | z _ED.C {^C}D2 A,D-  | D8     | z _ED.C {^C}D2 =ED-  |
+[V:4] C8     | z _ED.C {^C}D2 A,C-  | C8     | z _ED.C {^C}D2 =E,C- | 
+[V:5] "D9"z8 | "F9"z8              | "C9"z8 | "C7"z4 "E7"z4       |
+[V:6] "D9"z8 | "F9"z8              | "C9"z8 | "C7"z4 "E7"z4       |
+%
+[V:1] c8     | z _ed.c {^c}d2 Ac-  | c8     | "Piano-fill"z8 | H_B8   |] 
+[V:2] E8     | z _ed.c {^c}d2 AE-  | E8     | "Piano-fill"z8 | HE8    |]
+[V:3] D8     | z _ED.C {^C}D2 A,D- | D8     | "Piano-fill"z8 | HD8    |]
+[V:4] C8     | z _ED.C {^C}D2 A,C- | C8     | "Piano-fill"z8 | HC8    |]
+[V:5] "D9"z8 | "F9"z8             | "C9"z8 | "Piano-fill"z8 | "C9"z8 |]
+[V:6] "D9"z8 | "F9"z8             | "C9"z8 | "Piano-fill"z8 | "C9"z8 |]
+S:https://www.folktunefinder.com/tunes/184159
+S:http://abcmr.sourceforge.net/putitwhere.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

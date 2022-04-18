@@ -1,0 +1,59 @@
+X: 9089
+T: Ladies on the Road 2.0 (with piano acc.)
+C: BB
+R: hornpipe
+Q: 1/8=320
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: D
+[V:1] (3ABc|"Bm"dBFA "G"B3 D|"A7"GFEA "D"FD (3DED|"Em"EGBc "Bm"dfdB|\
+"D"AdAF "A"E2 (3ABc|
+[V:2] z2|B,,2[F2B2D2]G,,2[G2B2D2]|A,,2[G2C2E2]D,2[A2D2F2]|E,2[E2B2G2]B,,2[F2B2D2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"dBFA "G"B3 D|"A7"GFEA "Bm"FB (3BcB|"D"DF"Em"EG "D"FA"G"GB|\
+"A"Acec "D"d2 :|
+[V:2] B,,2[F2B2D2]G,,2[G2B2D2]|A,,2[G2C2E2]B,,2[F2B2D2]|[D,2F,2A,2][E,2G,2B,2]\
+[D2F,2A,2][G,2B,2D2]|A,,2[A2C2E2][D,2F,2A,2]:|
+%
+[V:1] A2|"Bm"FB (3BAB "F#m"cA (3ABA|"G"dBgf "A"ecAG|"D"F2 Ad "G"Bdgb|\
+"D"af (3dcB "A"A2 AG |
+[V:2] z2|B,,2[F2B2D2]F,,2[A2C2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"FB (3BAB "F#m"cA (3ABA|"G"dBgf "A"ecAG|"D"FAdf "G"gB (3BAB|"A"Acec "D"d2 :|
+[V:2] B,,2[F2B2D2]F,,2[A2C2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+A,,2[A2C2E2][D,2F,2A,2] :|
+%%%%%%tune repeat
+[V:1] (3ABc|"Bm"dBFA "G"B3 D|"A7"GFEA "D"FD (3DED|"Em"EGBc "Bm"dfdB|\
+"D"AdAF "A"E2 (3ABc|
+[V:2] z2|B,,2[F2B2D2]G,,2[G2B2D2]|A,,2[G2C2E2]D,2[A2D2F2]|E,2[E2B2G2]B,,2[F2B2D2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"dBFA "G"B3 D|"A7"GFEA "Bm"FB (3BcB|"D"DF"Em"EG "D"FA"G"GB|\
+"A"Acec "D"d2 :|
+[V:2] B,,2[F2B2D2]G,,2[G2B2D2]|A,,2[G2C2E2]B,,2[F2B2D2]|[D,2F,2A,2][E,2G,2B,2]\
+[D2F,2A,2][G,2B,2D2]|A,,2[A2C2E2][D,2F,2A,2]:|
+%
+[V:1] A2|"Bm"FB (3BAB "F#m"cA (3ABA|"G"dBgf "A"ecAG|"D"F2 Ad "G"Bdgb|\
+"D"af (3dcB "A"A2 AG |
+[V:2] z2|B,,2[F2B2D2]F,,2[A2C2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Bm"FB (3BAB "F#m"cA (3ABA|"G"dBgf "A"ecAG|"D"FAdf "G"gB (3BAB|1\
+"A"Acec "D"d2 :|2 "A"Acec d4-|d4 z4||
+[V:2] B,,2[F2B2D2]F,,2[A2C2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|1\
+A,,2[A2C2E2][D,2F,2A,2] :|2 A,,2[A2C2E2][D,4-F,4-A,4-]|[D,4F,4A,4] z4 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87174
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

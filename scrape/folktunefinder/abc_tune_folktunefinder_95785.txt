@@ -1,0 +1,28 @@
+X:770
+T:the Sutors of Selkirk
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e66.html
+%%ID:00000e66
+K:G
+A2 |\
+Bcd2e2 | d2B2g2 | edcBAG | Bcd2e2 | d2B2g2 | Tf4A2 ||
+Bcd2e2 | d2B2g2 | edcBAG | c3de2  | d2B2g2 | Tf4A2 ::
+"^brisk" \
+g2G2B2 | g2agfe | d2cBAG | g2G2B2 | g2agfe | f4A2 ||
+g2G2B2 | g2agfe | dgdBAG | c3de2  | d2B2g2 | f4A2 ::
+%page:89
+S:https://www.folktunefinder.com/tunes/95785
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

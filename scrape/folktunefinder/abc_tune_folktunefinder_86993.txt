@@ -1,0 +1,38 @@
+X:540
+T: Mick O'Grady's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 program 1 00 clef=bass m=D
+K: D
+[V:1] A|"D"FEFG AB (3BAB|"G"GB (3BAB "D"AddA|"D"FEFG ABcA|"Bm"dBAF "G"G2 AG |
+[V:2] z|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]D,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+B,,2[F2B2D2]G,,2[G2B2D2]|
+%
+[V:1] "D"FEFG AB (3BAB|"D"Ad (3dcd "Em"effg|"D"a2 fa "Bm"bafe|"D"dFFA "G"B3 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]E,2[E2B2G2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+D,2[A2D2F2][G,,3B,3D,3]:|
+%
+[V:1] c|"D"defe defg|"D"a2 fa "Bm"bafe|"D"fddc "Bm"B2 fB|"D"ABde fddc |
+[V:2] z|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]B,,2[F2B2D2]|D,2[A2D2F2]B,,2[F2B2D2]|\
+D,2[A2D2F2]A,,2[A2D2F2]|
+%
+[V:1] "D"defe defg|"F#m"affe "Bm"dBBF|"G"GB (3BAB "D"Ad (3dcd|"A7"AGEF "D"D3 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|F,,2[A2C2F2]B,,2[F2B2D2]|G,,2[G2B2D2]D,2[A2D2F2]|
+A,,2[G2C2E2][D,3F3A,3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86993
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

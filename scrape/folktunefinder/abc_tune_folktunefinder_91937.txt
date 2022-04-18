@@ -1,0 +1,25 @@
+X:006
+%%topmargin 3cm
+T:House of Gray
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:ADor
+e | AAA c2 e | dBG dBG | AAA c2 d | ece ecA |
+gag f2 e | dBg dBG | AAA cde | dBG A2 ::
+B | ccc g2 c | ece dBG | ccc g2 c | (ece) (geg) |
+(aga) g2 e | dBg dBG | AAA cde | dBG A2 :|]
+S:https://www.folktunefinder.com/tunes/91937
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/House_of_Gray.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

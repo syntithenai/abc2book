@@ -1,0 +1,27 @@
+X:040
+%%topmargin 3cm
+T:The Ballysloughgutthery Fluter
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:G
+((3FGA) | G2BG FAce | d2gf Bde=f | e2c((3c/2B/2c/2) d2B((3B/2^A/2B/2) | cA^GA EcBA |
+G2BG FAce | d2gd Bdef | agfg ecAF | G2B2 G2 ::
+(de) | Bdef gGBd | eDFA G2Bd | ecge dBgB | ((3ABc)BA GFED |
+Bdef gGBd | ecfd gdBc | dgbg afdf | g2b2 g2 :|]
+S:https://www.folktunefinder.com/tunes/91970
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Ballysloughgutthery_Fluter.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

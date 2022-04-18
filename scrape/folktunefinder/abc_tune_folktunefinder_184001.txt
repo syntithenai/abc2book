@@ -1,0 +1,39 @@
+X:1
+T:Princess Royal
+M:6/8
+C:
+S:Berkeley Morris 1988 May 1 sunrise video tape
+N:Berkeley (ex Bampton)
+A:Field Town
+O:IrishE
+R:J
+Z:Seems most closely related to the Bampton version in Bacon
+%:NoTeX
+%:NoWWW
+%P:A.AB(CB)$^2$
+P:A.AB(CB)2
+K:Gm
+I:speed 600
+P:A
+d2c | B3A3   | G3d2c  | B3A3    | G3d3  | e3c3   | c2de2c | d3d2c  | B3d3 |\
+      c3B3   | A3G3   | F2GF2E  | D3d2c | B3A2G  | F3D3   | G6     | G3   ||\
+P:B
+z3  | b3b3   | b3a2b  | c'3f3   | f6    | b2ag2f | e2dc2B | A2BA2G | F6   |\
+      G2FG2A | B2AB2c | d3d3    | g4g2  | f3d3   | e4e2   | d3G3   | c6   |\
+      d2cB2A | G2AB2c | d3D3    | D3d2c | B3A2G  | d3D3   | G6     | G3   ||\
+P:C
+d2c | B6      | A6     | G6     | d4c2  | B6     | A6     | G6     | d6   |\
+      e6      | c6     | c4d2   | e4c2  | d6     | d4c2   | B6     | B4d2 |\
+      c3B3    | A3G3   | F2GF2E | D3d2c | B3A2G  | F3D3   | G6     | G6   ||
+S:https://www.folktunefinder.com/tunes/184001
+S:http://www.ucolick.org/~sla/morris/music/FieldTown/prj.bk.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

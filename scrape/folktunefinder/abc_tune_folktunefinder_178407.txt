@@ -1,0 +1,35 @@
+X:1
+T:Neu-Katholischer
+C:traditionell
+N:volkstanz
+A:Tirol
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:nach: K.Horak, "Instrumentale Volksmusik aus Tirol" Institut f. Tiroler Volksmusikforschung
+N:im buch einstimmig
+N:im buch s. 129 nr. 116
+N:im buch ganz in C erster ton c''
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+c'2 c'2 | b4 | a2 a2 | g2 ze |\
+fa df | eg ce | df Bd | c2 z2 :|
+|:\
+e>g c2 | e>g c2 | eg ag | gf/e/ fz |\
+fa d>f | eg c>e | d>f ed | cccz :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178407
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/neu-katholisch.tirol_horak.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

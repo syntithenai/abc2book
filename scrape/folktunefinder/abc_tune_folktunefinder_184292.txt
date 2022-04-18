@@ -1,0 +1,37 @@
+X:1
+T:Quetschbuehl
+C:traditionell
+A:Deutschland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Pijpersboek, Mart Heijmans, Muziekuitgeverij van Teeseling, Nijmegen, 1980
+N:im buch nr 52
+N:im buch ganz in C  1. ton g'
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:C
+G2 |:\
+c2 cB cd | e2 c2 e2 | d2 B2 d2 | cB cd e2 |\
+c2 cB cd | e2 c2 e2 | d2 B2 d2 |1 c4 G2 :|\
+                               [2 c4 z2 ||
+|:\ 
+f2 f2 f2 | e3 f g2 | d2 c2 B2 | cB cd e2 |\ 
+f2 f2 f2 | e3 f g2 | d3 c B2 | c6 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/184292
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_andere_taenze/quetschbuehl_heijmans.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

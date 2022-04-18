@@ -1,0 +1,26 @@
+X: 1
+T: LEAPFROG
+S: Carey(MSS) (from Trafford)
+O: Headington
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: G
+P: A
+  GFGA G2B2 | AGFG A4 | GFGA G2B2 | AGGFE D4 |
+  G2GE D2G2 | F2E2 D2c2 | B2G2 A2F2 | G4 G2 ||
+P: B [Play 3 times, slowly ......]
+|: ((3DEF) |\
+  G2 ((3DEF) G2D2 | B,2 ((3G,A,B,) D2 :| ((3DEF) | G2 ((3DEF) G2 G2 | "a tempo"AGAc B3A G2 ||
+S:https://www.folktunefinder.com/tunes/171659
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Leapfrog_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

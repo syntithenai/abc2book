@@ -1,0 +1,57 @@
+X: 168
+T: Parisian thoroughfare
+T: (Between the Devil and the deep blue sea)
+M: 4/4
+L: 1/8
+C: Bud Powell
+Q: 1/4=220
+K: F
+%%staves (chords melody)
+%%text (up)
+%%vskip 20
+%%text intro
+P: Intro
+V: chords
+"Fmaj7"x4 "Gm7"x2"Am7"x2 | x2"Bb6"x2 x4 | "Am7"x4 "Gm7"x2 "Fmaj7"x2 | x8 |
+x2"Fmaj7"x4 "Gm7"x2 | "Am7"x4"Bb6"x4 | "Am7"x4 "Gm7"x2 "Fmaj7"x2 | x8 ||
+V: melody
+A,4 B,2C2- | C2D4E2 | C4(3B,CB, A,2 -| A,8 |
+z2A,4 B,2 | C4D2E2 | C4(3B,CB, A,2 -| A,8 ||
+P: A
+V: chords
+x2 || "F6"x4 "Gm7"x2"Am7"x2 | x4 "Bb6"x4 | "Am7"x3"D7"x x2"Gm7"x2 | x4 "C7"x4 |
+"F6"x4 "Gm7"x2"Am7"x2 | x"Bb6"x3 "C7"x4 | "F6"x4 "Dm7"x4 | "Gm7"x4 "C7"x4 ||
+V: melody
+(3cde || (3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | D8 |zC (3DEF (3GAB (3cde |
+(3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | F8 |zC (3DEF (3GAB (3cde ||
+P: A
+V: chords
+"F6"x4 "Gm7"x2"Am7"x2 | x4 "Bb6"x4 | "Am7"x3"D7"x x2"Gm7"x2 | x4 "C7"x4 |
+"F6"x4 "Gm7"x2"Am7"x2 | x"Bb6"x3 "C7"x4 | "F6"x4 x4 | "Bm7b5"x4 "E7"x4 ||
+V: melody
+(3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | D8 |zC (3DEF (3GAB (3cde |
+(3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | F8 | z8 ||
+P: B
+V: chords
+"Amaj7"x4 x4 | "Bm7"x4 "E7"x4 | "Amaj7"x4 x4 | "Bb7"x3"Am7"x2"Ab7"x3 |
+"C/G"x4 x4 | "Dm7"x4 "G7"x4 | "Gm7"x4 x4 | "C7"x4 x4 ||
+V: melody
+z2E^F ^GA=B^c | d=B^ce-e2(3dcB | ^c2zA =BAED | G2GEz4 |
+z2GA =Bcde | fdeg-g2(3fed | eGA_B- Bc/B/ AG | c_G3 z2 (3cde ||
+P: A
+V: chords
+"F6"x4 "Gm7"x2"Am7"x2 | x4 "Bb6"x4 | "Am7"x3"D7"x x2"Gm7"x2 | x4 "C7"x4 |
+"F6"x4 "Gm7"x2"Am7"x2 | x"Bb6"x3 "C7"x4 | "F6"x4 "Dm7"x4 | "Gm7"x4 "C7"x4 |]
+V: melody
+(3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | D8 |zC (3DEF (3GAB (3cde |
+(3fed (3cBA G2 d2- | dc zd (3cBA (3GFE | F8 |]
+S:https://www.folktunefinder.com/tunes/87669
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

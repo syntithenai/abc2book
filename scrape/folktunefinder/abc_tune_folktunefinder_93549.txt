@@ -1,0 +1,28 @@
+X:250
+T: Blackwater
+M: 4/4
+L: 1/8
+S: Luke O'Malley Volume 1
+Z: B.Black
+R: reel
+K: G
+DGBG A2BA | GEED cEE2 | DGBG AcBA | GEDB DEGA |
+BcBG AcBA | (3GFE cE dEcE | DEGB AGBA |\
+GEED EG G2 :|
+G2 (3Bcd efge | dBB2 dBAB | GA (3Bcd edge |\
+dBAG EG G2 |
+GA (3Bcd edge | dBB2 dega | (3bag ag efge |\
+dBAG EG G2 :|
+S:https://www.folktunefinder.com/tunes/93549
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:135
+T:Christmas Eve
+R:Reel
+C:Tommy Coen
+S:arr. Paddy O'Brien
+Z:Set: Christmas Eve/Bunker Hill/Hunter's Purse
+E:9
+M:C|
+L:1/8
+Q:1/4=200
+K:G
+|:GE|~D2DE GFGA|~B2dB ABGB|ABGE DB,DE|~G2BG ABGE|
+DB,DE GFGA|~B2dB ABGA|BA~A2 GEBG|ABGE ~G2:|
+|:GA|BABd edeg|abae ~g2eg|abag gfge|dedB ~A2GA|
+BABd edeg|abge ~g2eg|aege ~d2BG|ABGE G2:|
+|:dc|BG~G2 DGBd|eg~g2 egdc|BG~G2 dGBG|EA~A2 DAFA|
+BGGF ~G2Bd|eg~g2 egdg|bgag egdB|ABGE G2:|
+S:https://www.folktunefinder.com/tunes/90483
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

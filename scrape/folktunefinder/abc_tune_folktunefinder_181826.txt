@@ -1,0 +1,23 @@
+X: 1
+T: Pat The Budgie
+M: 4/4
+L: 1/8
+R: reel
+K: Cmaj
+C3E ~G3E|~F3A dedc|BG~G2 ^FGAB|c3d ecGE|
+~C3E ~G3E|FEFA d2^cd|BG~G2 ^FGAB|1 c2dB cAGE:|2 c2dB c2eg||
+|:~f3e f2gf|eccB c2dc|~B3G ^FGAB|c2dg ecde|
+~f3e f2gf|eccB cedc|~B3G ^FGAB|1 c2dB c2eg:|2 c2dB cde^f||
+|:gc~c2 ac~c2|gage c2dc|BG~G2 ^FGAB|c3d ede^f|
+~g3e ~a3e|gage cedc|BG~G2 ^FGAB|1 c2Bd cde^f:|2 c2Bd cAGE||
+S:https://www.folktunefinder.com/tunes/181826
+S:http://www.thesession.org/tunes/display/2952
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

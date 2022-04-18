@@ -1,0 +1,57 @@
+X: 1
+%%scale 0.65
+T:Pas de sept : Une drle de noce
+Z:Roger Ngaret (Octobre 2000)
+R:
+C:Trad.
+S:
+A:Bretagne
+M:2/4
+L:1/8
+K:G
+%%rm
+BB BG | Ac BG | BB BG | AA B2 ::
+GB AG | FG A2 |1 d2 BA | A2 G2 :|2 d>e dB | cA G2 |]
+%%rm Coq'licot maria sa fille          ]
+%%rm Grosse et grasse et bien gentille ] bis
+%%rm La maria avec Pierrot, Oh! beurdinguette
+%%rm La maria avec Pierrot, 
+%%it Beurdinguette et beurdingot
+%%rm
+%%rm Quand ce ft pour dire la messe  ]
+%%rm Pas un cierge n'avait de mche,  ] bis
+%%rm On allumit quat' fagots, Oh! beurdinguette
+%%rm On allumit quat' fagots,
+%%it Beurdinguette et beurdingot
+%%rm
+%%rm Quand ce ft pour le potage      ]
+%%rm Les pous faisaient du tapage    ] bis
+%%rm Et les puces sautaient en haut, Oh! beurdinguette
+%%rm Et les puces sautaient en haut,
+%%it Beurdinguette et beurdingot
+%%rm
+%%rm La belle mre qu'tait canaille  ]
+%%rm Du leu brlit toute la paille    ] bis
+%%rm I n'resteu pu qu'les ridiaux, Oh! beurdinguette
+%%rm I n'resteu pu qu'les ridiaux,
+%%it Beurdinguette et beurdingot
+%%rm
+%%rm La marieu la veuyant jalouse     ]
+%%rm Dans l'purin et dans la bouse    ] bis
+%%rm Y trempit ses deux sabiots, Oh! beurdinguette
+%%rm Y trempit ses deux sabiots,
+%%it Beurdinguette et beurdingot
+%%rm
+%%rm La belle mre toute en colre    ]
+%%rm S'en ft chez le commissaire     ] bis
+%%rm Tu n'as qu' l'cheu tes sabiots, Oh! beurdinguette
+%%rm Tu n'as qu' l'cheu tes sabiots,
+%%it Beurdinguette et beurdingot
+S:https://www.folktunefinder.com/tunes/181676
+S:http://termen.free.fr/danses/termen/PasdeseptUnedroledenoce.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

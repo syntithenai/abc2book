@@ -1,0 +1,92 @@
+X:1
+T:Mr. Clean
+M:C|
+L:1/8
+Q:"Half-Time Funk/Rock" 1/2=82
+C:Weldon Irvine
+Z:Luis Pablo Gasparotto
+K:Ab
+V:1 name="Alto 1"
+%%MIDI channel 2
+%%MIDI program 65
+V:2 name="Alto 2"
+%%MIDI channel 3
+%%MIDI program 65
+V:3 name="Tenor"
+%%MIDI channel 4
+%%MIDI program 66
+V:4 name="Baritone"
+%%MIDI channel 5
+%%MIDI program 67
+V:5 name="Piano"
+%%MIDI channel 6
+%%MIDI program 1
+%
+[V:1] Z15 | z6 z c  !segno!|: ffef     z4 | z4 cBAF        | BAFE-         E4-   | E4    z2 c  |
+[V:2] Z15 | z6 z F  !segno!|: ccBc     z4 | z4 FEDC        | EDCC-         C4-   | C4    z2 F  |
+[V:3] Z15 | z6 z C  !segno!|: FFEF     z4 | z4 CB,A,F,     | B,A,F,F,-     F,4-  | F,4   z2 C  |
+[V:4] Z15 | z6 z C, !segno!|: F,F,E,F, z4 | z4 C,B,,A,,F,, | B,,A,,F,,A,,- A,,4- | A,,4  z2 C, |
+[V:5] Z15 | z8      !segno!|: "Fm7"z8     | "Fm7"z8        | "Fm7"z8             | "Fm7"z8     |
+%
+[V:1] ffef     z2 a2-  | a2  _g=e   g2  ed   | ed_cA-      A4   | B_cBA        FAB=c        |
+[V:2] ccBc     z2 d2-  | d2   d_c   d2  cA   | BA_GE-      E4   | E_GED        B,DEF        |
+[V:3] FFEF     z2 F2-  | F2  _G=E   G2  ED   | ED_CA,-     A,4  | B,_CB,A,     F,A,B,=C     |
+[V:4] F,F,E,F, z2 A,2- | A,2 _G,=E, G,2 E,D, | E,D,_C,A,,- A,,4 | B,,_C,B,,A,, F,,A,,B,,=C, |
+[V:5] "Fm7"z8          | "Db/F"z8            | "Db/F"z8         | "Db/F"z8                  |
+%
+[V:1] ffef     z4 | z4 cBAF        | BAFE-         E4-   | E4    z4 |
+[V:2] ccBc     z4 | z4 FEDC        | EDCC-         C4-   | C4    z4 |
+[V:3] FFEF     z4 | z4 CB,A,F,     | B,A,F,F,-     F,4-  | F,4   z4 |
+[V:4] F,F,E,F, z4 | z4 C,B,,A,,F,, | B,,A,,F,,A,,- A,,4- | A,,4  z4 |
+[V:5] "Fm7"z8     | "Fm7"z8        | "Fm7"z8             | "Fm7"z8  |
+%
+[V:1] FBce       fafe     | BceA-       A4  | EE   z E z  A  .F2  !fine!|1 z6 z c          :|2
+[V:2] CFGB       cecB     | FGBE-       E4  | CC   z C z  E  .C2  !fine!|1 z6 z F          :|2
+[V:3] F,B,CE     FAFE     | B,CEC-      C4  | A,A, z A, z C  .A,2 !fine!|1 z6 z C          :|2
+[V:4] F,,B,,C,E, F,A,F,E, | B,,C,E,F,-  F,4 | E,E, z E, z A, .F,2 !fine!|1 z6 z C,         :|2
+[V:5] "N.C."z8            | z8              | EE   z E z  A  .F2  !fine!|1 .E2 FE B,=B, C2 :|2
+%
+[V:1] z8              |:
+[V:2] z8              |:
+[V:3] z8              |:
+[V:4] z8              |:
+[V:5] .E2 FE B,=B, C2 |:
+%
+[V:1] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:2] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:3] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:4] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:5] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+%
+[V:1] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:2] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:3] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:4] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:5] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+%
+[V:1] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:2] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:3] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:4] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+[V:5] "Fm7"z8 | "Fm7"z8 | "Fm7"z8 | "Fm7"z8 |
+%
+[V:1] FBce       fafe     | BceA-       A4  | EE   z E z  A  .F2  |1 z8              :|2
+[V:2] CFGB       cecB     | FGBE-       E4  | CC   z C z  E  .C2  |1 z8              :|2
+[V:3] F,B,CE     FAFE     | B,CEC-      C4  | A,A, z A, z C  .A,2 |1 z8              :|2
+[V:4] F,,B,,C,E, F,A,F,E, | B,,C,E,F,-  F,4 | E,E, z E, z A, .F,2 |1 z8              :|2
+[V:5] "N.C."z8            | z8              | EE   z E z  A  .F2  |1 .E2 FE B,=B, C2 :|2
+%
+[V:1] z6 z c          !D.S.!|]
+[V:2] z6 z F          !D.S.!|]
+[V:3] z6 z C          !D.S.!|]
+[V:4] z6 z C,         !D.S.!|]
+[V:5] .E2 FE B,=B, C2 !D.S.!|]
+S:https://www.folktunefinder.com/tunes/177349
+S:http://abcmr.sourceforge.net/mrclean.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

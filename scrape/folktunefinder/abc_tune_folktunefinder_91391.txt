@@ -1,0 +1,22 @@
+X:1270
+T:Mason's Apron No. 2
+M:C|
+L:1/8
+K:A
+eg|:aA A2 cBAF|EFAB cABc|dB B2 BcBA|Bcde fefg|
+aA A2 cBAF|EFAB cABc|dcde fgaf|1 ecBc A2 eg:|2 ecBc A2 AB ||
+c2 ec fcec|c2 ec fcec|d2 fd gdfd|d2 fd gfed|
+c2 ec fcec|c2 ec fedc|dcde fgaf|1 ecBc A2 AB:|2 ecBc A2 eg ||
+P:Variation to B Part
+c2 ec fece|c2 ec fedc|=c2 ec fcec|=c2 ec fcec|
+c2 ec fcec|c2 ec fedc|dcBc dfaf|ecBc A2 eg ||
+S:https://www.folktunefinder.com/tunes/91391
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

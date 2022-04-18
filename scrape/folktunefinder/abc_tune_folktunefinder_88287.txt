@@ -1,0 +1,30 @@
+X:650
+T:Slow March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C|
+N:Clarinetto Primo
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000efa.html
+%%ID:00000efa
+K:C
+A2 | \
+c2c>c c3e | g2ab c'3g | a2g2 f2e2 | d2d>d d2e>f |
+g2c'>a g2c'>a | g>fe>d e2d>c | B>dgc B2A2 | G2G>G G2 ::
+G>G |\
+d2d>d d2g>f | e>def  e>agf | e2a2   g2f2   | e2e>e e2c>e      |
+d>cde d2g>f | e2d2   e2d2  | c>de>f g>ag^f | g2g>g g2c/d/e/f/ |
+g3f   e2e2  | f>gf>e d2d>f | e>dc>a g2fe | d2d>d d2e>f |
+g2b>a g2c'>a | g>fed e2c>d | e>gc'>f e2 d/c/d/e/ | c2c>c c2 |]
+S:https://www.folktunefinder.com/tunes/88287
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

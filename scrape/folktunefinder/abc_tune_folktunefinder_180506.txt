@@ -1,0 +1,211 @@
+X:1762
+T:Sonatina
+T:Op. 36 no. 1
+C:Muzio Clementi
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/clementi-muzio/clementi-op36-1/clementi-op36-1.abc
+V:1 Program 1 0 %Piano
+V:2 Program 1 0 bass %Piano
+M:C|
+L:1/8
+Q:1/2=112
+K:C
+V:1 
+"^1. Spiritoso"c2ecG2G2|c2ecG2g2|fedc BcBc|dcBAG2z2| 
+V:2 
+C,2z2z4|C,2z2z4|C,2z2C,2z2|G,,2z2G,F,E,D,| 
+% 
+V:1 
+c2ecG2G2|e2gec2ec|dBcA BGA^F|GABc de^fg| 
+V:2 
+C,2z2z4|C2z2z2^F,2|G,2C,2D,2D,,2|G,,2z2z4| 
+% 
+V:1 
+A2a2a2a2|Bcde ^fgab|c2c'2c'2c'2|dgbd' c'bag| 
+V:2 
+^F,DA,D F,DA,D|G,2z2z4|A,DCD A,DCD|B,2z2z4| 
+% 
+V:1 
+^fegf agfe|edcB dcBA|G4z4| 
+V:2 
+C2z2C,2z2|D,2z2D,,2z2|G,,B,,D,G,G,,2z2| 
+% 
+V:1 
+B2dBG2G2|c2_ecG2g2|f2d2_e2c2|BcdBG2G2|gGgG gGgG| 
+V:2 
+F8|_E8|B,4C4|G,4z4|F2G,2D2G,2| 
+% 
+V:1 
+gGgG gGgG|d_efd fedc|[B2g2]z2z4|C2ECG,2G,2|C2ECG,2G2| 
+V:2 
+_E2G,2C2G,2|B,2z2C2z2|G,2G,,2G,F,E,D,|C,2z2z4|C,2z2z4| 
+% 
+V:1 
+FEDC B,CB,C|DCB,A,G,2z2|C2G,CE2E2 |E2CEG2c2|[E2G2][D2F2][C2E2][B,2D2]| 
+V:2 
+C,2z2C,2z2|G,,2z2G,,F,,E,,D,,|C,,2z2z4|C,2z2z4|G,2z2G,,2z2| 
+% 
+V:1 
+CDEF GABc|D2d2d2d2|EFGA Bcde|F2f2f2f2| 
+V:2 
+C,2z2z4|B,,G,D,G, B,,G,D,G,|C,2z2z4|D,G,F,G, D,G,F,G,| 
+% 
+V:1 
+Gceg fedc|agfe dcBA|GAFG EFDE|C4z4|] 
+V:2 
+E,2z2z4|F,2z2F,2z2|G,2z2G,,2z2|C,,E,,G,,C,C,,2z2|] 
+V:1 
+M:3/4 
+L:1/8 
+Q:1/4=66 
+K:F 
+"^2. Andante"c4f2|A4c2|F4G2| 
+V:2 
+M:3/4 
+L:1/8 
+Q:1/4=66 
+K:F 
+(3F,A,C (3F,A,C (3F,A,C| (3F,A,C (3F,A,C (3F,A,C|(3C,F,A, (3C,F,A, (3C,E,G,| 
+% 
+V:1 
+A2 (3FAc (3fff|d2(3FBd (3fff|c2 (3agf (3edc| 
+V:2 
+(3F,A,C z2 z2|(3F,B,D z2 z2|(3F,A,C (3F,A,C (3F,A,C| 
+% 
+V:1 
+(3cEG (3cFA (3cFA|c>AG2z2 |(3[df][df][df] (3[ce][ce][ce] (3[=Bd][Bd][Bd]| 
+V:2 
+B,2A,2F,2|(3C,F,A, (3C,E,G, (3C,E,G,|G,,4F,2| 
+% 
+V:1 
+g2 (3GA=B (3cde|(3Afd (3[Ec][Ec][Ec] (3[D=B][DB][DB]|[F4d4][E2c2]| 
+V:2 
+(3E,G,C E,4|F,2G,2G,,2|C,,2G,,2C,2| 
+% 
+V:1 
+(3ccc (3_edc (3BAG|(3^FAD (3GBD (3AcD|(3BBB (3dcB (3AGF| 
+V:2 
+z6|C2B,2^F,2|G,2z2z2| 
+% 
+V:1 
+(3EGC (3FAc (3[Ac][GB][FA]|[F2A2] (3[EG][Ac][Ac] (3[Ac][GB][FA]|[F2A2][E2G2]z2| 
+V:2 
+B,2A,2F,2|(3C,CC C2 z2|(3C,CC (3CDC (3B,A,G,| 
+% 
+V:1 
+c4f2|A4c2|_E4E2|(3DFB (3ddd d2| 
+V:2 
+(3F,A,C (3F,A,C (3F,A,C|(3F,A,C (3F,A,C (3F,A,C|(3F,A,C (3F,A,C (3F,A,C|B,4z2| 
+% 
+V:1 
+(3[GB][GB][GB] (3[FA][FA][FA] (3[EG][EG][EG]|c>F (3fed (3cBA|(3GBd F2 G2|F6|] 
+V:2 
+C,,4B,,2|(3A,,C,F, (3A,,C,F, (3A,,C,F,|(3B,,D,G, (3C,F,A, (3C,E,G,|(3F,,A,,C, (3F,C,A,, F,,2|] 
+V:1 
+M:3/8 
+L:1/8 
+Q:3/8=96 
+K:C 
+"^3. Vivace"e/d/cc|g2f/e/|dfB|cGG| 
+V:2 
+M:3/8 
+L:1/8 
+Q:3/8=96 
+K:C 
+C,E,G,|C,E,G,|C,D,F,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|d/e/f/e/f/d/|c z z| 
+V:2 
+C,E,G,|C,E,G,|G,,D,G,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|dfB|cGG| 
+V:2 
+C,E,G,|C,E,G,|C,D,F,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|d/e/f/e/f/d/|c z z| 
+V:2 
+C,E,G,|C,E,G,|G,,D,G,|C,E,G,| 
+% 
+V:1 
+G/F/EE|A/G/FF|D/F/B/F/B/F/|EGc|G/F/EE| 
+V:2 
+C2 z|C2 z|CCC|CCC|C2 z| 
+% 
+V:1 
+e/d/cc|^F/G/A/B/c/A/|G z b/c'/| 
+V:2 
+[A,2C2] z|[D,A,][D,A,][D,A,]|[G,B,][G,B,][G,B,]| 
+% 
+V:1 
+d'/c'/b/a/g/^f/|e/d/c/B/A/G/|^F/G/A/B/c/A/|G z b/c'/| 
+V:2 
+[G,B,][G,B,][G,B,]|[G,C][G,C][G,C]|[G,C][G,C][G,C]|[G,B,][G,][G,B,]| 
+% 
+V:1 
+d'/c'/b/a/g/^f/|=ff d'/b/|ff d'/b/|f z z|d z z|B/G/A/B/c/d/| 
+V:2 
+[G,B,][G,B,][G,B,]|[G,B,] z z|[G,B,] z z|G,B,D|G,B,D|G,2 z| 
+% 
+V:1 
+e/d/cc|g2f/e/|dfB|cGG| 
+V:2 
+C,E,G,|C,E,G,|C,D,F,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|d/e/f/e/f/d/|c z z| 
+V:2 
+C,E,G,|C,E,G,|G,,D,G,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|dfB|cGG| 
+V:2 
+C,E,G,|C,E,G,|C,D,F,|C,E,G,| 
+% 
+V:1 
+e/d/cc|g2f/e/|d/e/f/e/f/d/|c z z| 
+V:2 
+C,E,G,|C,E,G,|G,,D,G,|C,E,G,| 
+% 
+V:1 
+G/F/EE|A/G/FF|D/F/B/F/B/F/|E z e/f/| 
+V:2 
+C2 z|C2 z|CCC|CG,E,| 
+% 
+V:1 
+g/f/e/d/c/B/|A/G/F/E/D/C/|B,/C/D/E/F/D/|C2 z| 
+V:2 
+C,D,E,|F,2 z|G,,2 z|C,E,G,| 
+% 
+V:1 
+G/F/EE|A/G/FF|D/F/B/F/B/F/|E z e/f/| 
+V:2 
+C2 z|C2 z|CCC|CG,E,| 
+% 
+V:1 
+g/f/e/d/c/B/|A/G/F/E/D/C/|B,/C/D/E/F/D/|C z  z| 
+V:2 
+C,D,E,|F,F,F,|G,,G,,G,,|C,E,G,| 
+% 
+V:1 
+[EG] z z|[EGc] z z|[eg] z z|[e2g2c'2] z|] 
+V:2 
+C,E,G,|C,E,G,|C,E,G,|C,2 z|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180506
+S:http://abc.musicaviva.com/tunes/clementi-muzio/clementi-op36-1/clementi-op36-1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/clementi-muzio/clementi-op36-1/clementi-op36-1.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 3/4
+% Time_signature 3/8
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

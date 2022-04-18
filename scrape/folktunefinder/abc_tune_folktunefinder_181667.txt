@@ -1,0 +1,51 @@
+X:1
+T:Pasch-Polka
+C:traditionell, satz von Walter Deutsch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:'s erste Notenbuechl aus Oesterreich- 12 Stuecke aus den Oesterreichischen Bundeslaendern, dreistimmig und vierstimmig gesetzt, Walter Deutsch, Musikverlag Josef Preissler, Muenchen 1966
+N:N-Gm/11
+N:im Buch ganz in F, dreistimmig mit ausgeschriebener gitarre-begleitung
+%%endtext
+Z:abc transcription Simon Wascher
+L:1/8
+M:2/4
+K:F
+V:1
+f>A cf | e2 z2 | e>G Bd | c2 z2 |
+V:2
+c>F Ac | c2 z2 | c>E GB | A2 z2 |
+V:3
+A>C FA | G2 z2 | G>C EG | F2 z2 |
+%
+V:1
+A2 GA | BB A2 |1 B2 GB | dd c :|2 cB/c/ d/c/d/e/ | f2a2f2 ||
+V:2
+F2 EF | GG E2 |1 G2 EG | BB A :|2 AG/A/ B/A/B/c/ | c2f2c2 ||
+V:3
+C2 CC | EE C2 |1 E2 CE | FF F :|2 EC EG | A2c2A2 ||
+%
+V:1
+|: c/c/ | cfA c/c/ | cfA c/c/ | Bfed | cfA c/c/ |
+V:2
+|: A/A/ | AcF A/A/ | AcF A/A/ | GdcB | BcE B/B/ |
+V:3
+|: F/F/ | FAC F/F/ | FAC F/F/ | CBGF | EGC E/E/ |
+%
+V:1
+cfA c/c/ | cfA c/c/ |1 cfed | cfA :|2 cede | fa/g/d z |]
+V:2
+BcE B/B/ | BcE B/B/ |1 BdcB | AcF :|2 BcBc | cf/c/c z |]
+V:3
+EGC E/E/ | EGC E/E/ |1 EBGE | FAC :|2 EGEG | Ac/B/A z |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181667
+S:http://simonwascher.info/TradArchiv_polka/pasch-polka.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

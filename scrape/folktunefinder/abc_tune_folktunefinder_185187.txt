@@ -1,0 +1,24 @@
+X:1
+T:Reel St Marc
+Z:robin.beech@mcgill.ca
+S:Laurence Beaudry
+R:reel
+M:4/4
+L:1/8
+K:C
+c2Ac BABc | defg fedc | c2Ac BAEG | ABcd edcB |
+c2Ac BABc | defg fedc | cBAc BAEG | Aaec A2 :| 
+c2ec fcec | dedc Bcde | d2gd bdgd | ag^fa gedB |
+c2ec fcec | dedc Bcde | fedc BAGF | EGAB c4 :|
+S:https://www.folktunefinder.com/tunes/185187
+S:http://music.gordfisch.net/tradmusic/pub/cache/Reel_St_Marc_10d371.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

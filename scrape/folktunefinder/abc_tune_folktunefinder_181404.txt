@@ -1,0 +1,23 @@
+X:3
+T:Paddy's Trip to Scotland
+M:C|
+L:1/8
+Q:1/2=120
+S:Altan
+R:reel
+K:D
+(3ABc|dA ~A2 BAGF|GABd cABc|~d2 ed cABc|dfed cABc|dA ~A2 BAGF|GABd
+ cABc|~d2 ed cABc| dfec d2 :: FG |
+ Adfd Adfd|Adfd dcBA|Acec Acec|Acec dcBG|Adfd Adfd|Adfd dcB^g|aA ~A2
+dcBA|1(3Bcd ec dAFG :|(3Bcd ec d2 ||
+S:https://www.folktunefinder.com/tunes/181404
+S:http://ale.physics.sunysb.edu/~mcgrew/music/reel/PaddysTripToScotland.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

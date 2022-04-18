@@ -1,0 +1,17 @@
+X:1
+T:Paul Jones
+M:3/4
+L:1/4
+K:D
+ D/2 D3.99999962500005/11.9999985000002 D3.99999962500005/11.9999985000002 D3.99999962500005/11.9999985000002|\
+ D B B| B A F3/4 E/4| E D D| D2 D/2D/2| E E F| G- F E/2E/2| D A A|\
+ A2 A| B B A3/4 A/4| d c B| A F D| E2 D/2D/2| B B B| B A F| E D D|\
+ D3/2||
+S:https://www.folktunefinder.com/tunes/181841
+S:http://back.numachi.com:8000/dtrad/abc/PAULJON2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

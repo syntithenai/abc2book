@@ -1,0 +1,29 @@
+X:740
+T:la Bissette
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e60.html
+%%ID:00000e60
+K:G
+B2cB/c/ | d2zd | efge | eddc |\
+B2cB/c/ | d2zd | ecAF | G2G2 ||
+Dddc | cBAG | BAGF | G/F/G/A/ GG |\
+Dddc | cBAG | BAGF | G2G2 ::
+B2B2 | BA       A2 | c2c2 | cBc2 |\
+Bddd | e/d/e/f/ gd | fdcB | B2A2 ::
+BdBd | cece | dfdf | g/f/e/d/ c/B/A/G/ | \
+BdBd | cece | dfdf | g2g2 ::
+%page:86
+S:https://www.folktunefinder.com/tunes/95779
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

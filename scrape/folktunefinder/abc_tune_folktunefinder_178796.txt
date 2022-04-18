@@ -1,0 +1,42 @@
+X:1
+T:Ninawalzer
+C:Simon Wascher
+R:walzer
+A:Oesterreich
+N:fuer Nina zu weihnachten 01
+L:1/8
+M:3/4
+Q:111
+K:G
+V:1
+"G"d2 "(C)"ef "em"gf | "G"B2 "hm"d4 | "am"e2 cB AG | "hm(D)"A2 yy"(G)"Bc "(C)"de |\
+"G"d2 "am"ef "em"gf | "hm"B2 d4 | "D"f2 "em"g4 | "C"e6 :|
+V:2
+B2 cd ed | G2 B4 | c2 AG FE | F2yy GA Bc |\
+B2 cd ed | G2 B4 | A2 B4 | c6 :|
+V:1
+"am"g2 c4 | "hm"f2 B4 | "C"d3 e c2 | "hm"A2 Bc d2 |\
+"am"g2 c4 | "hm"f2 B4 | "am"A6 | "hm"GA Bc de :|
+V:2
+e2 A4 | d2 G4 | B3 c A2 | F2 GA B2 |\
+e2 A4 | d2 G4 | c6 | Bc de fg :|
+V:1
+P:letzter schluss
+"am"g2 c4 | "hm"f2 B4 | "am"A6 | "hm"GA Bc de || "G"d6 |]
+V:2
+e2 A4 | d2 G4 | F6 | EF GA Bc || d6 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178796
+S:http://simonwascher.info/TradArchiv_walzer/ninawalzer.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

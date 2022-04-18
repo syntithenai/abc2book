@@ -1,0 +1,22 @@
+X:100
+T: Swinging on a Gate
+M: C|
+L: 1/8
+R:reel
+K: G
+|:"G"gedB G2AB | "Am"cABG AGEF | "G"G2Bd "C"g2fg | "D"eaag fdef |
+| "G"gedB G2AB | "C"cABG AGEG | "Am"cABG "G"AGEG |1 "D"DGGF "G"G2 z2 :|2"D"DGGF "G"G2 Bd |
+|:"G"~g2ga bgaf | "Em"gfed B2AG | "Am"EAAB cBAG | EAAB "D"cdef |
+| "G"~g2ga bgaf | "Em"gfed B2AB | "Am"cABG "G"AGEG |1 "D"DGGF "G"G2 Bd :|2 "D"DGGF "G"G2 z2 :|
+S:https://www.folktunefinder.com/tunes/96640
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/mast_collection.abc
+S:http://www2.redhawk.org:8080/irish/other/mast_collection.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

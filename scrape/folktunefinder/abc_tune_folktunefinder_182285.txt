@@ -1,0 +1,79 @@
+X:88
+T:Praeludia 89
+L:1/4
+M:C|
+K:F frenchtab
+%%stretchlast true
+%%staffsep 45pt
+{a}1[cdda] {,,a}[acd,a] |\
+{,a}1[,daac] [,cd,,c][,aba,d] |\
+[,,daa{a}1],,b/.,,a ,,,c.,,,a,,,,e.,,,,c |\
+[,cdc{,,a}/].,da.,,b ,,a.,d,,,c.,,,a |\
+[,cdca1][,da] [,c,c][,a,a] |\
+[,cdc{,,a}/].,d,c.,a ,,,,a//.,c,d.,c ,d.,c,a.,c |
+% Takt 7
+[,daa{a}1] ,c//.f:d.f ,a.d:c.d ,,d.c:a.c |\
+,,b//.a:c.a ,,a.,d:,c.,d ,,,c.,c:,a.,c ,,a.,d:,c.,d |\
+,,b//.a:c.a ,,a.,d,,,c.,,,a ,,,c.,c,d.,c ,d.,c,a.,c |
+% Takt 10
+[,d,a//].,a,,b.,,d ,a.,c,d.,a ,,,,e.,,d,,c.,,d ,,a.,,c,,d.,,a |\
+,,,,c//.,,b,,a.,,b ,,d.,,b,,a.,,b ,,,,a.,,a,,b.,,a ,,b.,,a,,,c.,,,a |\
+,,,,,d//.,,,c,,,a.,,,c ,,,,,c.,,,a,,,c.,,,a ,,,,,a.,,,a,,,,e.,,,,c ,,,,f.,,,,e,,,,c.,,,,e |
+% Takt 13
+[,,aa{a}//].,,,c,,a.,,b ,,a.,,b,,d.,,a [,,b,,a].,,d:,a.,,b [,,d,,c].,a:,c.,,d |\
+[,a,,,d//].,,d:,a.,c [,d,,c].a:c.,d [a,,,a].,d:,c.,a [,c,c].,d:a.,c |\
+[,daa{a}1] ,c//.d:f/ ,a//.c:d/ ,,d//.a:c/ |\
+,,b//.c:a/ ,,a//.,c:,d/ ,,,c//.,a:,c/ ,,a//.,c:,d/ |
+% Takt 17
+,,b//.c:a/ ,,a//.,c:,d/ ,,,c//.,c,d.,c ,d.,c,a.,c |\
+[,daa{a}//].,,,c,,,a.,,,c ,,a.,,b,,d.,,b [,,aa].,,b:,,d.,,a [,,bc].,,d:,a.,,b |\
+[,,de//].,a:,c.,,d [,ab].,c:,d.,a [,cd].,a:,c.,d :a.c:d.a |
+% Takt 20
+M:3
+[f,a//].dc.a ,d.,c,a.,,d ,,b.,a,c.,d |\
+,,d//.,a,c.,d a.,c,d.,c ,,a.,a,c.,d |\
+,,b//.,a,c.,d a.,d,c.,a ,,,c.,,b,,a.,,b |\
+% Takt 23
+,,,e//.,,d,,c.,,d ,,a.,,c,,d.,,a [,a,a].,,d,,b.,,a |
+[,,bc//].,,a,,b.,,d ,a.,,b,,d.,,b ,,,,e.,,,c,,,a.,,,c |\
+,,,,f//.,,,e,,,c.,,,e ,,,a.,,,c,,,e.,,,a ,,,,,d.,,,c,,,a.,,,c |\
+,,,,,f//.,,,,e,,,,c.,,,,e ,,,,a.,,,,c,,,,e.,,,,a ,,,,,c.,,,,c,,,,e.,,,,c |\
+% Takt 27
+,,,,,d//.,,,,a,,,,c.,,,,a ,,,,c.,,,,a,,,,c.,,,,a ,,,,,d.,,,,a,,,,c.,,,,a |
+,,,,,c//.,,,,f,,,,e.,,,,f ,,,,,a.,,,,f,,,,e.,,,,c ,,,,f///.,,,,e,,,,f.,,,,e,,,,f.,,,,e,,,,c.,,,,e |\
+M:C
+[,,aa{a}//].,,b:,,d.,,a [,,b,,a].,,d:,a.,,b [,,d,,c].,a:,c.,,d [,a,,,d].,c:,d.,a |\
+% Takt 30
+[,c,,a//].,d:a.,c [,d,,c].a:c.,d [a,,,e].c:d.a [c,,a].d:f.c |
+[d,,c//].c:a.,d [a,,,e].c:d.a [c,,a].d:c.a [,d,,c].a:c.,d |\
+[a,,,e//].c:a.,d [,c,,a].,d:a.,c [,d,,c].a:,d.,c [,a,,,d].,c:,d.,a |\
+% Takt 33
+[,c,,a//].,d:,c.,a [,,d,,c].,a:,c.,,d [,a,,,d].,b:,a.,,d [,,b,,a].,,d:,a.,,b |
+[,,d,,c//].,a:,,d.,,b [,,aa{a}].,,b:,,d.,,a [,,b,,a].,,a,,,c.,,a ,,b.,,d,a.,,b |\
+[,,d,,c//].,,,,,d,,,,a.,,,,,c [,a,,,d].,,,,a,,,,c.,,,,,d [,c,,a].,,,,c,,,,e.,,,,a [,d,,c].,,,,e,,,a.,,,,c |\
+% Takt 36
+[a,,,e//].,,,a,,,c.,,,,e [c,,a].,,,c,,,e.,,,a [d,,c],,,a,,,,d.,,,,c [a,,,d].,,,a,,,c.,,,,d |
+[c,,a//].,,,,d,,,,c.,,,,a [,d,,c].,,,,d,,,a.,,,,c [a,,,d].,,,a,,,,d.,,,,c [,b,,a].,,,,c,,,,d.,,,,a |\
+[,d,,c//].,,,,d,,,,c.,,,,a [,a,,,d].,,,,a,,,,c.,,,,,d [,c,,a].,,,,,d,,,,,c.,,,,,a [,,d,,c].,,,,,d,,,,a.,,,,,c |\
+% Takt 39
+[,a,,,d//].,,,,a,,,,c.,,,,,d [,,b,,a].,,,,,c,,,,,d.,,,,,a [,,d,,c].,,,,,d,,,,,c.,,,,,a [,,aa{a}].,,,,,a,,,,,c.{a} |
+[,,d{,,a}//].,a,c.,d a.cd.f ,d.ac.d ,c.,da.c |\
+,a//.,c,d.,f ,,d.,a,c.,d ,,b.,,d,a.,c ,,a.,,b,,d.,a |\
+% Takt 42
+,,,c//.,,a,,b.,,d ,,,a,,,c,,a.,,b ,,,,e.,,,a,,,c.,,,e ,,,,c.,,,,e,,,a.,,,c |
+,,,,a//.,,,,c,,,,e.,,,a ,,,,,d.,,,,a,,,,c.,,,,e ,,,,,c.,,,,,d,,,,a.,,,,c ,,,,,a.,,,,,c,,,,,d.,,,,a |\
+{a}//.,,,,,a,,,,,c.,,,,,d ,,,,a.,,,,c,,,,e.,,,a ,,,c.,,a,,b.,,d ,a.,c,d///.ac.d |\
+% Takt 45
+.f/>.,,,c ,,a/.,,b ,,d//.,a,c.,d a.cd.f |
+h/>.,,b ,,d/.,a ,c//.,da.c d.fh.k |\
+l//.hk.l n.lh.k l.kl.k l.kh.k |\
+[l{a}/]>.f d.ca.,d ,c.,a,,d.,,b ,,a.,,,c,,,a/ |]
+S:https://www.folktunefinder.com/tunes/182285
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prel73_90.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

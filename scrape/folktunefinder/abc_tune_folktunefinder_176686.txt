@@ -1,0 +1,28 @@
+X:1
+T:Monika Altenstetter's Farewell to the Skyscrapers
+R:Strathspey
+C:Anselm Lingnau
+G:SSL 9
+S:25 May 1994
+K:G
+M:C
+E:6
+(3DEF|"G"G2 D>B d>B G2|"Am"(3ABc A>G "D"F<A D2|\
+"C"E2 (3EFG "G/B"D<G G>B|"Am"(3edc (3BAG "D"F<A A2|
+"G"G2 D>B d>B G2|"Am"(3ABc (3ecA "D"(3FGA (3DEF|\
+"G"G2 B>G "Am"E<A A>B|"D"c>A (3DEF "G"G2||(3GAB|
+"G"d2 B>d "C"e>d "G/B"B<G|"Am"(3cde (3ABc "D"A>G F<D|\
+"G"G2 B>d "C"e>d "G/B"B<G|"Am"(3edc (3BAG "D"F<A A2|
+"G"d2 g>f "C"(3efg "G"d>B|"Am"c2 e>c "D"A>G F<A|\
+"Em"G2 B>G "Am"E<A (3ABc|"D"c>A (3DEF "G"G2|]
+S:https://www.folktunefinder.com/tunes/176686
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tm.informatik.uni-frankfurt.de/9monika.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

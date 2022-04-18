@@ -1,0 +1,24 @@
+X: 1
+T: 's Luada [C]
+R: zweifacher
+M: 43/44
+L: 1/8
+K: C
+|: z2 \
+| "C"[G4E4] [E4C4] | "G7" [EC][FD] [FD][CE] [D2B,2] | "C"[DB,][EC] [EC][DB,] C2 \
+| "C"[G4E4] [E4C4] | "G7" [EC][FD] [FD][CE] [D2B,2] | "C"C2 z2 :|
+|: [c2E2] \
+| "G7"[B2G2] [B2G2] [A2F2] [A2F2] | "C"[G2E2] [G2E2] [E4C4] \
+| "G7"[F2D2] [F2D2] [D2B,2] [D2B,2] | "C"[EC][DB,] [EC][FD] [G2E2] [c2E2] \
+| "G7"[B2G2] [B2G2] [A2F2] [A2F2] | "C"[G2E2] [G2E2] [E4C4] \
+| "F"[A2F2] [A2F2] "G7"[B3D3] [BD] | "C"[c2E] [c2E] [c2E] :|
+S:https://www.folktunefinder.com/tunes/173269
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Luada_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Luada_C.abc
+% Rhythm Zweifacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

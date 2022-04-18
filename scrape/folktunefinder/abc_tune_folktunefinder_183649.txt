@@ -1,0 +1,28 @@
+X:1234
+T:Praeambulum
+T:(Prelude) BWV 930
+C:Johann Sebastian Bach
+O:Germany
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0930/bwv930.abc
+V:1 Program 1 6 up %Harpsichord
+V:2 Program 1 6 merge down %Harpsichord
+V:3 Program 1 6 bass up %Harpsichord
+V:4 Program 1 6 bass merge down %Harpsichord
+M:3/4
+L:1/8
+K:Gm
+V:1
+zDGBGD|x4x2|x4x2|x4x2|GBGEeG|
+S:https://www.folktunefinder.com/tunes/183649
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0930/bwv930.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0930/bwv0930.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0930/bwv0930.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

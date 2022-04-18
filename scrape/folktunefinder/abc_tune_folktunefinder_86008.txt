@@ -1,0 +1,31 @@
+X: 138
+T:ROND DE PLOEUC 2
+M:4/4
+L:1/4
+Q:1/4=120
+Z:Yves BELOTTEAU
+K:G
+% Last note suggests Phrygian mode tune
+|dded cBAB|cdec d3/2 z/2 G3/2 z/2 |dded cBAB|cdec d3/2 z/2 G3/2 z/2 |
+B3/2 z/2 AG FGA3/2 z/2 |Addc/2B/2 AcBG|B3/2 z/2 AG FGA3/2 z/2 |Addc/2B/2
+ ABG3/2 z/2 |
+B3/2 z/2 AG FGA3/2 z/2 |Addc/2B/2 AcBG|B3/2 z/2 AG FGA3/2 z/2 |Addc/2B/2
+ ABG3/2 z/2 |
+GBd3/2 z/2 e3/2 z/2 d3/2 z/2 |BdcB AcBG|GBd3/2 z/2 e3/2 z/2 d3/2 z/2 |Bd
+cB ABG3/2 z/2 |
+GBd3/2 z/2 e3/2 z/2 d3/2 z/2 |BdcB AcBG|GBd3/2 z/2 e3/2 z/2 d3/2 z/2 |Bd
+cB ABG3/2 z/2 |
+GBGB GBA3/2 z/2 |AcAc AcB3/2 z/2 |GBGB GBA3/2 z/2 |FAFA FAG3/2 z/2 |
+GBGB GBA3/2 z/2 |AcAc AcB3/2 z/2 |GBGB GBA3/2 z/2 |FAFA FAG3/2 z/2 |
+GB|
+W:
+W: From "Falaleiro" http://home.t-online.de/home/pheld/homepage.htm
+S:https://www.folktunefinder.com/tunes/86008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/galouvielle.free.fr/france1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

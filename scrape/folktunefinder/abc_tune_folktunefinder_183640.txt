@@ -1,0 +1,23 @@
+X: 1
+T: Powell's Fancy
+M: 9/8
+L: 1/8
+R: slip jig
+K: Fmaj
+|: f2 d cAF cAF | f2 d c>AF BAG | f2 d cAF cAF | GAB AGF EDC :|
+|: f2 a afa afa | f2 a afa gec | f2 a afa afa | gab agf edc :|
+K: Gmaj
+|: g2 e dBG dBG | g2 e dB/A/G c2 A | g2 e dBG dBG | A>Bc BAG FED :|
+|: g2 b bgb bgb | g2 b bgb afd | g2 b bg/a/b bgb | aa/b/c' bag fed :|
+|: g2 e dBG dBG | g2 e dBG c2 A | g2 e dBG d2 G | A>Bc BB/A/G FED :|
+|:G2 B BGB BGB | GBB BGB A>FD | G2 B BGB B2 G | AA/B/c BAG FED :|
+S:https://www.folktunefinder.com/tunes/183640
+S:http://www.thesession.org/tunes/display/6350
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

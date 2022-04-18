@@ -1,0 +1,25 @@
+X:65
+T:Capt. Liphson's Whim
+B:Aird's Airs and Melodies vol 3
+L:1/8
+M:2/4
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000019d.html
+%%ID:0000019d
+K:G
+d|\
+B(B/c/) .B.B| d2 "tr"cB| (AG)(AB)| (G/F/G/A/) .Gc|\
+B(B/c/) .B.B| d2 "tr"cB| (AG)(AB)| G2 G:|
+B|\
+"tr"(AG)(AB)| c2Bd| cBAG| (A/G/A/B/) .AB|\
+"tr"(AG)(AB)| c2Bd| cBAG| (d2d)|]
+S:https://www.folktunefinder.com/tunes/95319
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

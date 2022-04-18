@@ -1,0 +1,25 @@
+X:185
+T:King of the Clans
+S:Trad, arr. Paddy O'Brien
+Z:Set: King of the Clan's/My Love is in America/Flogging
+R:reel
+E:9
+I:speed 350
+M:C|
+K:G
+c|:~d2GA Bdge|dedB AGEG|DGBG dGBG|cege dcBc|\
+dGBd gdBd|gabg agef|gf (3gfe dBge|dBAc BG G2:|\
+f|:~g2bg (3efg de|gdBG AGEG|DGBG dGBd|cege dcBd|\
+~g2bg edge|dBGB AGEG|DGBd gece|dBAc BG G2:|**
+S:https://www.folktunefinder.com/tunes/90308
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/other/OBrien.abc
+S:http://www2.redhawk.org:8080/irish/other/OBrien.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

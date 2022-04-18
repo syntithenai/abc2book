@@ -1,0 +1,27 @@
+X:32
+T:Portland Fancy
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:A
+|:E|\
+"A"E2A E2A|EAB c2c|"D"dcd "E"Bcd|"A"f2e cBA|
+"A"E2A E2A|EAB c2c|"D"edc dcB|"E"EFG "A"A2:|
+e|\
+"F#m"a2a agf|"A"eae c2A|"D"Bcd dcB|"E"cde f2e|
+"F#m"a2a agf|"A"eae c2A|"D"dfd "A"cee|"E"efg "A"a2F/=G/|
+"D"ABc d2e|f2=g a3|"A"ef=g Ace|"D"fdB A2F/=G/|
+"D"ABc d2e|f2=g a3|"A"ef=g Ace|d2f d2|]
+S:https://www.folktunefinder.com/tunes/125705
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

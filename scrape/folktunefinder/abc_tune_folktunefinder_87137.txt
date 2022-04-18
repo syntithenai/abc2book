@@ -1,0 +1,46 @@
+X: 9052
+T: Frankie O'Neill's (with piano acc.)
+C: BB
+Q: 1/8=320
+L: 1/8
+M: 6/8
+R: jig
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Ddor
+[V:1] "Dm"DEF Ddc|"Am"ABc "C"GEC|"Dm"DEF Ddc|"Am7"AGA "C"c3|
+[V:2] D,2[AFD]F,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]F,2[AFD]|A,,2[ECA]C,2[CGE]|
+%
+[V:1] "Dm"DEF Ddc|"Am7"AGE "C"GAc|"Dm"ded "C"cGE|"Dm"FDD D3 :|
+[V:2] D,2[AFD]F,,2[AFD]|A,,2[ECA]C,2[CGE]|D,2[AFD]C,2[CGE]|D,2[AFD]A,,2[AFD]:|
+%
+[V:1] "Dm"dAd fed|"C"cGc edc|"Dm"dAd fga|"C"gfe dcA|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|
+%
+[V:1] "Dm"dAd fed|"C"cGc edc|"Am7"ABc "C"GFE|"Dm"FDD D3 :|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|A,,2[ECA]C,2[CGE]|F,2[AFD][D,3F,3A,,3]:|
+%tune repeat
+[V:1] "Dm"DEF Ddc|"Am"ABc "C"GEC|"Dm"DEF Ddc|"Am7"AGA "C"c3|
+[V:2] D,2[AFD]A,,2[AFD]|A,,2[AEC]C,2[CGE]|D,2[AFD]F,2[AFD]|A,,2[ECA]C,2[CGE]|
+%
+[V:1] "Dm"DEF Ddc|"Am7"AGE "C"GAc|"Dm"ded "C"cGE|"Dm"FDD D3 :|
+[V:2] D,2[AFD]A,,2[AFD]|A,,2[ECA]C,2[CGE]|D,2[AFD]C,2[CGE]|D,2[AFD]A,,2[AFD]:|
+%
+[V:1] "Dm"dAd fed|"C"cGc edc|"Dm"dAd fga|"C"gfe dcA|
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|
+%
+[V:1] "Dm"dAd fed|"C"cGc edc|"Am7"ABc "C"GFE|1 "Dm"FDD D3 :|2 "Dm" FDD D3-|D3 z3||
+[V:2] D,2[AFD]A,,2[AFD]|C,2[CGE]G,2[CGE]|A,,2[ECA]C,2[CGE]|1 F,2[AFD][D,,3F,3A,3]:|2\
+F,2[AFD][D,,3-F,3-A,3-]|[D,,3F,3A,3]z3||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87137
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

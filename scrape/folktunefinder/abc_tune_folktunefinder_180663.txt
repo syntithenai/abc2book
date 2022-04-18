@@ -1,0 +1,23 @@
+X: 1
+T: Osprey, The
+M: 2/4
+L: 1/8
+R: polka
+K: Gmaj
+|: E>G | A2 A>B | A2 B>d | e2 e>f | e2 d>B | G2 G>F |
+G2 G>A | c>B A>B | E2 E>G | A2 A>B | A2 B>d |
+e>f g>e | a2 e>f | g2 e>d | B2 E>G | A4 | A2 :|
+|: e>f | g2 f>e | a2 e>f | g2 f>e | a2 d>c |
+B2 A>B | E2 E>G | B2 A>B | d2 e>f | g2 f>e | a2 e>f |
+g2 f>e | a2 e>f | g2 e>d | B2 E>G | A4 | A2 :|
+S:https://www.folktunefinder.com/tunes/180663
+S:http://www.thesession.org/tunes/display/6892
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

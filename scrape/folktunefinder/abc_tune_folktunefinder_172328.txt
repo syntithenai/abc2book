@@ -1,0 +1,38 @@
+X:55
+T:Lisa gikk til skolen (1)
+C:anon., arr. Frank Nordberg
+O:Norway
+R:Nursery song
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/norway/lisa-gikk-a/lisa-gikk-a-gtr1.abc
+V:1 Program 1 24 up %Classical guitar
+V:2 Program 1 24 merge down %Classical guitar
+M:C
+L:1/4
+Q:1/4=108
+K:A -8va
+V:1
+ABcd|e2e2|ffff|e4|
+V:2
+A,4|A,4|D4|A,4|
+%
+V:1
+dddd|c2c2|BBBB|A4|]
+V:2
+E,4|A,4|E,4|A,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/172328
+S:http://abc.musicaviva.com/tunes/norway/lisa-gikk-a/lisa-gikk-a-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/norway/lisa-gikk-a/lisa-gikk-a-gtr1.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/norway/lisa-gikk-a/lisa-gikk-a-gtr1.abc
+% Rhythm Nursery song
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

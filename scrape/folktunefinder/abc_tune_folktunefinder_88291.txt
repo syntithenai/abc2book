@@ -1,0 +1,35 @@
+X:670
+T:Clarinett
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000efe.html
+%%ID:00000efe
+K:C
+c2A>B  c2c2 | c>def  c2zA |   B2B>c  {B}A2A>B | {A}G2G>G G2z2 |\
+c2 A>B c2c2 | c>de>f cagf | ! e>gf>d c>ed>^B  | c2c>c    c2 :: \
+%
+g>ag>f e2z2  | b>c'b>a g2z2    | a>ba>g f>fe>f | (a4 g2)dc   |
+B2G>G  G2cB  | A2F>F   F2f>_e  | d2d>d  b>ag>f | e2e4  f2    | g3a/b/ f2e2  |
+f2c>c  g2c>c  | a3g    f2zc   | g2c>c a2c>c | b3a    g2c>c | \
+c'3b  a>gf>_e | d2d>d  d2(gf) |! c2c>c c2a>f | dd'c'>b a2g2  | \
+c2A>B c2c2    | c>de>f c2c'>b | a2a>a g2g>g | f2f>f Hf2 ::
+%
+e3e c2c>c | f3f d2d>d |    g>cd>e   f2e2 | d2d>d d2G2 |\
+e3e c2c>c | f3f a2a>a | {a}g2fe  {e}dcde | c2c>c c2::
+%
+f2e>e d2z2  | g2f>f e2z2  | f2e>e   d2c>c | B2A>A G>B c>d |\
+e3e   c2c>c | f3f   d2d>d | g2ce {e}dcde  | c2c>c c2::
+%%newpage
+%page 46
+S:https://www.folktunefinder.com/tunes/88291
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

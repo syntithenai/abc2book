@@ -1,0 +1,30 @@
+X: 1
+T: Red Wing
+R: reel
+M: C|
+L: 1/8
+K: G
+D2F2 \
+|: "G"G3G G2B2 | d6 B2 | "C"c-de2 g2e2 | "G"d6 B2 |
+   "C"c3B "(D7)"A2c2 | "G"B3A "(Em)"G2B2 |\
+[1 "A"A2E2 F2G2 | "D"ABA(G FED2) :|\
+[2 "A"A2E2 "D"F2D2 | "G"G2g2 f2=f2 ||
+|: "C"e4 e3e | e2g2 ((3fgf e2) | "G"d4 B4 | z2d2 e2d2 |
+   "D"d4 A4- |\
+[1 A2d2 e2d2 | "G"d4 B4- | B2f2- "G7"g2f2 :|\
+[2 A2(Ac BA)F2 | "G"G8 | G4 D2F2 |]
+N:Fiddlers Fakebook, pg 228 - adapted by Peter Ostapenko.
+N:Last update - PO 2/24/2008.
+N:G Major
+S:https://www.folktunefinder.com/tunes/184970
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/RedWing.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,31 @@
+X:009
+%%topmargin 3cm
+T:Rum and Onions
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:G
+{Bc}dGG GFG | Bcd dBG | {AB}cAA FGA | ABc cBA |
+{Bc}dGG GFG | Bcd dBG |\
+M:2/4
+.A.A/2.A/2 .A/2.d/2.c/2.A/2 | .G.B.G z ::
+M:6/8
+{df}gee e^de | bee efg | {de}fdd d^cd | add def |
+{ef}gee e^de | bee efg|\
+M:2/4
+.f.f/2.f/2 .f/2.e/2.e/2.g/2 | .e.g.e z :|]
+S:https://www.folktunefinder.com/tunes/91939
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Rum_and_Onions.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

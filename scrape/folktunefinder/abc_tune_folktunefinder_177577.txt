@@ -1,0 +1,23 @@
+X: 4
+T: The Mug of Brown Ale
+M: 6/8
+L: 1/8
+R: jig
+K: G Major
+|: G |\
+EAA ABd | edB c2 A | BGG DGG | Bdc BAG |
+EAA ABd | ede a2 e | edc Bcd | ecA A2 :|
+|: e/f/ |\
+gef g2 a | gef g2 d |  BGG DGG | B/c/dc BAG |
+[1 gef g2 a | gef g2 d | edc Bcd | ecA A2 :|
+[2 EAA ABd | ede a2 e | edc Bcd | ecA A2 |]
+S:https://www.folktunefinder.com/tunes/177577
+S:http://www.thesession.org/tunes/display/2200
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

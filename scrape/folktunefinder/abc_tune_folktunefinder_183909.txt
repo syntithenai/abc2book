@@ -1,0 +1,37 @@
+X:1
+T:Prince Albert's Farewell
+M:6/8
+C:
+S:Chingford MM
+N:based on The Barley Mow
+A:Chingford
+O:English
+R:Jig
+%P:A.(AB)$^4$.A
+P:A.(AB)4.A
+K:G
+I:speed 300
+P:A
+|:\
+   d | gag fgf  | efe d2 B | cBc  def  | g3-g2 :|\
+M:2/2
+L:1/4
+P:B
+d | B c d2 | B c d2 | B A G2 |\
+M:6/8
+g3  d2 B | cBc def  | g2 d B2 d | cBc def | [G3g3] [G2g2] ||
+S:https://www.folktunefinder.com/tunes/183909
+S:http://www.ucolick.org/~sla/morris/music/Chingford/palbert.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

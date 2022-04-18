@@ -1,0 +1,23 @@
+X:19106
+T:Xirandiya (CT 37)
+C:Trad.
+D:Felpeyu: Tierra
+Z:Cancioneru de Torner 37
+Z:en los compases 8,16,24 puede facese una pausa
+M:2/4
+L:1/8
+Q:1/4=200
+K:D
+ | ec e c | d3 c | B2 A B | c2 A2 | ec e c | d3 c | B2 e e | A4 |
+ |: A2 B c | d3 c | B2 A B | c2 A2 | A2 B c | d3 c | B2 e e | A4 :|
+S:https://www.folktunefinder.com/tunes/94397
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

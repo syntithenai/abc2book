@@ -1,0 +1,31 @@
+X:19
+T: Lough erne shore, S. 68
+N: I0518
+O: Irland
+S: O BOYLE, Sean: 25 Irish Folksongs, Dublin 1976]
+N: Zeilen wegen berlange geteilt
+R: "Reverdie", Liebeslied]
+M: 3/4
+L: 1/16
+K: D
+A,2=C2 | D4D4=F4 | G2A2=F4
+D4 | =F4G4A4 | =c4d6A2 | G2A2=F4D4 | =C6z2
+A,2C2 | D4D4=F4 | G2A2=F4D4 | =F4G4A4
+=c4d6A2 | G2A2=F4D4 | D8
+A2=c2 | d4d6=cA | =c4=F6A2
+G4F6Ac | d4d6=cA | G2A2=F4D4 | =C6z2
+C2A,2 | D4D4=F4 | G2A2=F4D4 | =F4G4A4
+=c4d6A2 | G2A2F4D4 | D8
+S:https://www.folktunefinder.com/tunes/93190
+S:http://ifdo.ca/~seymour/runabc/esac/IRL.abc
+% Rhythm %22reverdie%22, liebeslied]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

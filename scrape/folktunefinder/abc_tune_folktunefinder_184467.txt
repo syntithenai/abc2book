@@ -1,0 +1,27 @@
+X: 1
+T:Ragtime Annie
+Z:Nigel Gatherer
+M:4/4
+L:1/8
+K:D
+FE|DFBF AFBF|DFBF A2FE|DEFG ABAF|A2c2c2CB|
+ABcA B2cB|ABcA BAcB|ABcdegfe|d2dc d2:|]
+fg|a2ab afd2|A6 fg|a2ab agf2|g6 ef|
+gfef gfef|gagf e2ef|gagf edcB|A6 fg|
+a2ab afdB|A2AB A2 A2Ad4 =c4|B6 A2|B2 b2 b2ag|
+f2a2 a2gf|A2ef gfec|d2=c2 B2A2||
+K:G
+:G6 AB|c6 cB|
+A2f2 f2ef|gfga gedc|D2B2 B2AB|E2 c2 c2cB|A2f2 f2ef|
+gfga g2:|
+S:https://www.folktunefinder.com/tunes/184467
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ra/Ragtime_Annie_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

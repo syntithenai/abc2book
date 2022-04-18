@@ -1,0 +1,25 @@
+X:10367
+T:Marquis of Lorne
+M:4/4
+L:1/8
+C:Kevin Briggs
+S:Nottingham Music Database
+R:Hornpipe
+K:G
+ba|"G"gfge B2ed|"Am"cBcA E2AG|"D7"FGAB cedc|"G" Bcde "D7"d2ba|
+"G"gfge "Em"B2ed|"Am"cBcA E2AG|"D7"FGAB cdef|"G"g2b2 g2:|
+Bc|dBgB dBgB|(3dcB gB d2cB|"Am"cafd cafd|cafd "D7"c2Bc|
+"G"(3dcB gB (3dcB gB|(3dcB gB "Em"d2cB|"Am"cafd "D7"^cdef|"G"g2b2 g2:|
+S:https://www.folktunefinder.com/tunes/98149
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:1
+Z:Cameron Workshop, June 9, 2002
+P:Marquis of Huntly's Highland Fling
+C:18th Cent. dance tune, attributed to George Jenkins, 
+C:Similar to the mouth music "'S ann an Ile" - "It is an island"
+C:The Athole Collection
+R:Strathspey
+Z:arr. Terry Traub 6-6-02
+M:4/4
+K:D
+L: 1/8
+|: A| "D" d<df>d "G"{a}g>e"D"f>d| "Em" Bd "A" c<AA>c| \
+  "D" d<df>d "G"{a}g>e"D"f>d| "Em" B>e "A" d/c/B/A/ "D" d2 d :|
+|:B | "D" A>D{G}F>D A>Bd>e| "D"{g}f<d{f}g>f "G"e>d B<d| \
+  "D"A>D{G}F>D "G"A>B df "D"d2 d :|
+S:https://www.folktunefinder.com/tunes/174435
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MarquisOfHuntlysFlingS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X: 1
+T: Planxty Brown
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+|:g | 
+dBG GAB | E3 E2 c | AFD DEF | G3 G2 g |
+dBG Bcd | E3 E2 c | AFD DEF | G3 G2 :|
+|:g/a/ | 
+bgb afd | efg gfe | dBg dBG | AFD D2 g/a/ |
+bgb afd | efg gfe | faf ge^c |d3 de=f |
+ece dBd | cac BgB | Ace dBG | F2 F DEF |
+GAB EFG | ABc def | gdB cAF | G3 G2 :|
+S:https://www.folktunefinder.com/tunes/173598
+S:http://www.thesession.org/tunes/display/1149
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

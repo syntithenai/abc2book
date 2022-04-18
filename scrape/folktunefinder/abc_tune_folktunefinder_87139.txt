@@ -1,0 +1,45 @@
+X: 9054
+T: Gene Preston's Flute (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] "G"GFG dcB|"G"dcB "C"efg|"G"GFG dcB|"Am7"ABG "D"FED|
+[V:2] G,,2[GBD]D,,2[GBD]|G,,2[GDB]C,2[CGE]|G,,2[GBD]D,,2[GBD]|A,,2[GCE]D,2[AFD]|
+%
+[V:1] "G"GFG dcB|"G"dcB "C"efg|"G"bgg "D"aff|"G"ged "D7"cBA :|
+[V:2] G,,2[GBD]D,,2[GBD]|G,,2[GDB]C,2[CGE]|G,,2[GDB]D,2[AFD]|G,,2[GDB]D,2[AFC]:|
+%
+[V:1] "G"DGG dGG|"C"eGG "G"dGG|"A"EAA ^cAA|"A"eAA ^cAA|
+[V:2] G,,2[GBD]D,,2[GBD]|C,2[CGE]G,,2[GDB]|A,,2[A^CE] E,,2[ACE]|A,,2[A^CE] E,,2[ACE]|
+%
+[V:1] "D"Fdd fdd|"D"add fdd|"G"gfe "D7"dcB|1 "Am7"ABG "D"FGA :|2 "D" AFA G3 ||
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD] A,,2[AFD]|G,,2[GDB]D,2[AFC]|1 A,,2[GCE]D,2[AFD]:|2\
+D,2[AFD]G,,2[GDB]||
+%%%%%%tune repeat
+[V:1] "G"GFG dcB|"G"dcB "C"efg|"G"GFG dcB|"Am7"ABG "D"FED|
+[V:2] G,,2[GBD]D,,2[GBD]|G,,2[GDB]C,2[CGE]|G,,2[GBD]D,,2[GBD]|A,,2[GCE]D,2[AFD]|
+%
+[V:1] "G"GFG dcB|"G"dcB "C"efg|"G"bgg "D"aff|"G"ged "D7"cBA :|
+[V:2] G,,2[GBD]D,,2[GBD]|G,,2[GDB]C,2[CGE]|G,,2[GDB]D,2[AFD]|G,,2[GDB]D,2[AFC]:|
+%
+[V:1] "G"DGG dGG|"C"eGG "G"dGG|"A"EAA ^cAA|"A"eAA ^cAA|
+[V:2] G,,2[GBD]D,,2[GBD]|C,2[CGE]G,,2[GDB]|A,,2[A^CE] E,,2[ACE]|A,,2[A^CE] E,,2[ACE]|
+%
+[V:1] "D"Fdd fdd|"D"add fdd|"G"gfe "D7"dcB|1 "Am7"ABG "D"FGA :|2 "D" AFA G3-|G3 z3||
+[V:2] D,2[AFD]A,,2[AFD]|D,2[AFD] A,,2[AFD]|G,,2[GDB]D,2[AFC]|1 A,,2[GCE]D,2[AFD]:|2\
+D,2[AFD][G,,3-D3-B,3-]|[G,,3D3B,3] z3||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87139
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

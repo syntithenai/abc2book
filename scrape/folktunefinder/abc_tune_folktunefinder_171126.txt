@@ -1,0 +1,25 @@
+X:0433
+T:"Lament For Sarsfield"           (air)             0433
+C:Unattributed
+C:distinctly
+Q:1/4=90
+I:abc2nwc
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+M:C
+L:1/8
+K:G
+"_vb"BA|G2GG GG G2|AAAB cBAB|G2GG GBdg|fdcA B2BA|
+G2GG G2GG|ABcd cBAB|cdef g2dc|B2GG G2z||
+d|defg edcB|defg e2d3/2B/2|d3/2e/2ge dBAG|B2A3/2A/2 A2AB|
+c2cd ef g2|B2AG G3B|cege d2BG|A2GG G2|]
+S:https://www.folktunefinder.com/tunes/171126
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0401-0500/0433-LamentSarsfield.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0401-0500/0433-LamentSarsfield.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

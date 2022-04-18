@@ -1,0 +1,25 @@
+X: 100
+T: South of the Shannon (jig)
+N: 190430
+C: BB
+R: jig
+Q: 1/8=340
+M: 6/8
+L: 1/8
+K: A
+e|"A"ecA EAc | "E7"dBG EFG | "F#m"AFA "D"dcd | "A"ecA "E7"Bcd |
+"A"ecA EAc | "E7"dBG EFG | "A"ABc "D"dfe | "E7"dBG "A"A2 :|
+e|"E7"edB bge | "A"aga "A"ecA | "F#m"FAc "D"dfa | "A"ecA "E7"Bcd |
+"A"cAc "Bm"dBd | "A"ece "D"agf | "A"ece "Bm"fdB |"E"GAB "A"A2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86818
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

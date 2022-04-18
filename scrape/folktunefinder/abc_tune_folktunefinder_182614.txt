@@ -1,0 +1,26 @@
+X: 1
+T: Pippa Sandford's
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+|: A, | D>ED F>EF | BAF E>DE | FAB A>FD | FED E>CA, |
+D>ED F>ED | FAB A>dB | AFD E>DB, | A,DD D2 :|
+|: A | B>cB Bcd | c>BA AFE | A>BA A>cd | ecA c>BA |
+F2 B Bcd | c>BA Bcd | edB AFD | E>DC D2 :|
+K: Gmaj
+|: D | G2 G B^AB | edB A2 D | GBe dBG | BA^G A2 D |
+G2 G B^AB | GB/c/d g2 e | dBG AGE | D>GF G2 :|
+|: d | e2 e efg | f>eA d2 A | d2 d d>fg | af/e/d e2 d |
+B2 e ee/f/g | f>ed e2 g | age dBG | A>GF G2 :|
+S:https://www.folktunefinder.com/tunes/182614
+S:http://www.thesession.org/tunes/display/7141
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

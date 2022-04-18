@@ -1,0 +1,37 @@
+X:75
+T: Big (*) Deal (with piano acc.)
+C: BB
+M: 2/4
+L: 1/8
+Q: 300
+R: polka
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] "G"B>A GA|"Em"Be "D"dA|"G"B>A GD|"C"EG "D"A2|"G"B>A GA|"Em"Bg ed|\
+"G"(3Bcd "Am"cA|"G"BG G2 :|
+[V:2] [G,,4D,4B,4]|[E,2B,2G2][D,2A,2F2]|[G,,4D,4B,4]|[C,2G,2E2][D,2A,2F2]|\
+[G,,4D,4B,4]|[E,4B,4G4]|[G,2D2B2][A,,2E,2C2]|[G,,4D,4B,4] :|
+%
+[V:1] "G"g>e de|"Em"gb "D"af|"G"g>e dg|"C"eg "D"a2|"G"g>e de|"Em"gb "D"af|\
+"G"gd "Am"cA | "G"BG GB |
+[V:2] [G,,4D,4B,4]|[E,2B,2G2][D,2A,2F2]|[G,,4D,4B,4]|[C,2G,2E2][D,2A,2F2]|\
+[G,,4D,4B,4]|[E,2B,2G2][D,2A,2F2]|[G,2D2B2][A,,2E,2C2]|[G,,4D,4B,4]|
+%
+[V:1] "G"g>e de|"Em"gb "D"af|"G"g>e dg|"C"eg "D"a2|"G"bg "D"af|"Em"(3efg dB|\
+"Am"Ac BA |"G"BG G2 ||
+[V:2] [G,,4D,4B,4]|[E,2B,2G2][D,2A,2F2]|[G,,4D,4B,4]|[C,2G,2E2][D,2A,2F2]|\
+[G,2D2B2][D,2A,2F2]|[E,4B,4G4]|[A,,4E,4C4]|[G,,4D,4B,4] ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86900
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

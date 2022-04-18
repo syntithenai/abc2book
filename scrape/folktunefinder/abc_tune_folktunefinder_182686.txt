@@ -1,0 +1,27 @@
+X:0671
+T:"Planxty Charles Coote"         0671
+C:Turlough  O' Carolan
+C:lively
+Q:1/4=110
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 editionl
+N:(#018 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:C
+"^vb"GF|(E2G2)(D2G2)|(FEDC) E2G2|(AB) c2(dedc)|cBAB G2(ed)|
+c2g2(ga)(gf)|(ed)(ef) g2(fe)|.f(edc) .c(BAB)|{B}c4c2:|
+(cd)|.e2.g2.g(agf)|efge c'2c2|.e(fge) .c'(bag)|.a(gfe) d2z2|
+{g}f(efe) d2(eg)|.f(edc) .c(BAB)|.c(Bce) .d(BGB)|[E4c4][E2c2]|]
+S:https://www.folktunefinder.com/tunes/182686
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/671-PlanxtyCharlesCoote.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

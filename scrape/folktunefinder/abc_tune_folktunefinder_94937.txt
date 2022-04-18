@@ -1,0 +1,39 @@
+X: 25
+T:Hunsup Through The Wood. BF13.024
+M:6/8
+L:1/8
+Q:120
+S:J.Lishman()MS,c1825,Lakes,Browne Coll.
+R:Jig
+O:England
+A:Lakes
+N:In the fifth bar before the end, this may or may not be a dotted note
+N:-
+N:there are a lot of extraneous blodges on the page
+Z:vmp.Cherri Graebe.
+K:A major
+c2e cde|c2e cde|fed cAc|BGB dcB|!
+c2e cde|c2e cde|fed cAc|"crots"B3 f3|!
+B2cd2e|fga fed|cAc BGB|"crots"A3e3|!
+B2c d2e|fga fed|e2a gfg|"crots"a3 efg|!
+|:a2e cde|"bar not in ms"a2e cde|fed cAc|"NB"BAB dcB|!
+a2e cde|a2e cde|fed cAc|"crots"B3f3|!
+B2c d2e|fga fed |cBc BGB|"A2e2d2 in ms"A3e2d|!
+B2cd2e|fga fed|e2a gfg|1"NB"a3 efg:|2a3e2d|!
+|:cAA eAA| cAA eAA|fed cAc|BAB dcB|!
+cAA "d in ms"eAA| eAA eAA|fed cAc|"crots"B3f3|!
+B2c d2e|fga fed|cAc BGB |"crots"A3 e3|!
+B2c d2e|fga fed|cAc BGB|"crots"A3A3:|]
+W:Bars1920 (fed cAc) dcB in ms.Bars32,33 (a2efg||e2d) in ms.CGP.||
+S:https://www.folktunefinder.com/tunes/94937
+S:http://www.village-music-project.org.uk/abc/browne13.ABC
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,24 @@
+X:20
+T:Green Slee'ves
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e85.html
+%%ID:00000e85
+K:A min
+c2c cde | d2B G2B | c2A ABc | B2G E2B |\
+c2c cde | d2B G2B | cBA BAG | A3 A3 ::
+g2g gfe | d2B G2f | g2g gfe | a2f d2f |\
+g2g gfe | d2B G2B | cBA BAG | A3 A3 :|
+S:https://www.folktunefinder.com/tunes/88161
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 21
+T:Gavot. TBe.021
+M:2/2
+L:1/8
+Q:120
+S:Thomas Bennet MS,1718, VWML
+R:Gavot
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:D minor
+F2c2A2d2 | c2f2e2c2 | fefc dgfg | efge f4 |!
+a2z2g2z2 | f2z2e2z2 | fedc =B2 c2 | "="c3"#"=B c4 ||!
+c2g2e2a2 | g2 fe f4 | fgef dfef | ""f2 (ed) d4 |!
+d2 (d/e/f) B2d2 | e2 e/f/g) c2 e2 |\
+ ""f2 (f/g/a) d2 g2 | ""e4 f4 ||
+S:https://www.folktunefinder.com/tunes/96172
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Gavot
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

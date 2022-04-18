@@ -1,0 +1,26 @@
+X:86
+T:Over the Waterfall
+C: Southern Trad.
+R: reel
+M: C|
+L:1/8
+%% Q: 1/2=108
+K: Dmix
+de \
+|: "D"f2a2 "A"gfe2 | "D"d2B2 A4 | "D"f2a2 "A"gfe2 | "D"d4 d2de |
+| "D"f2a2 "A"gfe2 | "D"d2B2 A3B | "C"c2c2 B2A2 | "G"G4 G4 :|
+|: "D"A2A2 "G"B2B2 | "D"ABAG F4 | "D"A2d2 "A"cde2 | "D"f4 z4 |
+| "D"A2A2 "G"B2B2 | "D"ABAG F2FG | "D"A2A2 "A7"GFE2 | "D"D4 D4 :||
+%%text
+%%text
+S:https://www.folktunefinder.com/tunes/180875
+S:http://users.rcn.com/ladysmyth/tunes/OverWaterfall.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

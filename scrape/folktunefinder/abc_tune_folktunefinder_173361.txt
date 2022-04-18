@@ -1,0 +1,28 @@
+X: 1
+T: LUMPS OF PLUM PUDDING
+S: MDT
+O: Bampton
+P: A.(AB)2.A2
+Q: 3/8=100
+B: Morris Ring
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+P: A
+d | B>AG g>fg | d>ed G2A  | B>AG G>AB | A>FD D3  |
+    B>AG g>fg | d>ef g>dB | c>AF G>Bc | d2B  G2 ||
+P: D
+d | B>dg B>dg | d>cd G2B  | A>ce A>ce | B>dB G2d |
+    B>dg B>dg | d>ef g>dB | c>AF G>Bc | d2B  G2 ||
+S:https://www.folktunefinder.com/tunes/173361
+S:http://trillian.mit.edu/~jc/music/abc/England/MorrisRing/Lumps_of_Plum_Pudding_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

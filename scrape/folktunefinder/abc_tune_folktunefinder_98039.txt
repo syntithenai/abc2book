@@ -1,0 +1,37 @@
+X:10257
+T:March in Lavanda. BC.17
+M:C|
+L:1/4
+Q:80
+S:Benjamin Cooke MS.circa 1770, F.Kidson Coll.
+R:March
+O:England
+A:x
+N:Bars 19.20.21.22.In the original these four bars are written as two and
+N:marked "Bis" with a bracket;
+N:The eight quavers in the first bar  are written incorrectly as
+N:crotchets
+Z:John Bagnall
+K:D
+F/G/ | A A A B/c/ | d2 A2 | A/d/c/d/  A/d/c/d/ | A G F z |
+ A/d/c/d/ A/d/c/d/  |!
+ A G F z/ d/ | c d e f | g2a2 |f/e/d/f/ A c | d3 |!|
+d/e/ | f f f e/d/ | e f/^g/ a c | d d d c/B/ | c d/e/ f A | B B B/d/c/B/
+ |!
+ A A A/c/B/A/ | G G G/B/A/G/ |F E/F/ D z |  "*" A/d/c/d/  A/d/c/d/ |"*"
+A G F z/ d/ |!
+  A/d/c/d/  A/d/c
+/d/ | A G F z/ d/ | c d e f | g2 a2 | f/e/d/f/ A c | d3 ||
+S:https://www.folktunefinder.com/tunes/98039
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

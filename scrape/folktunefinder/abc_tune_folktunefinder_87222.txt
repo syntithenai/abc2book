@@ -1,0 +1,53 @@
+X: 9137
+T: Brave Lads of Tyrone (with piano acc.)
+C: BB
+L: 1/8
+Q: 1/8=350
+M: 4/4
+R: reel
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Amix
+[V:1] AF |"A"EAcA eAcA | "G"GABd edBG | "A"EAcA "D"FAdf | "A"efec "E"B2 AF |
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+A,,2[A2C2E2]E,2[E2B2^G2]|
+%
+[V:1] "A"EAcA eAcA | "G"GABd "Em"edeg | "A"aece "G"dcBG |"E"EAcB "A"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]E,2[E2B2G2]|A,,2[A2C2E2]G,,2[G2B2D2]|\
+E,2[E2B2^G2][A,2C2E2]:|
+%
+[V:1] cd|"A"eaaf "G"gfed|"A"eaab "G"g2 ed | "A"eaaf "G"gedB |"A"ce "E"dB "A"A2 ed |
+[V:2] z2 |A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|\
+[A,2C2E2][E,2^G,2B,2][A,,4C4E,4]|
+%
+[V:1] "A"eaaf "G"gfed | "A"eaab "G"g2 ed | "A"cdec "Bm"BcdB |"A"Ac "E"B^G "A"A2 :|
+[V:2] A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]B,,2[F2B2D2]|
+[A,2C,2E2][E,2^G,2B,2][A,,2C2E,2] :|
+%%%%%tune repeat
+[V:1] AF |"A"EAcA eAcA | "G"GABd edBG | "A"EAcA "D"FAdf | "A"efec "E"B2 AF |
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]D,2[G2B2D2]|A,,2[A2C2E2]D,2[A2D2F2]|\
+A,,2[A2C2E2]E,2[E2B2^G2]|
+%
+[V:1] "A"EAcA eAcA | "G"GABd "Em"edeg | "A"aece "G"dcBG |"E"EAcB "A"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|G,,2[G2B2D2]E,2[E2B2G2]|A,,2[A2C2E2]G,,2[G2B2D2]|\
+E,2[E2B2^G2][A,2C2E2]:|
+%
+[V:1] cd|"A"eaaf "G"gfed|"A"eaab "G"g2 ed | "A"eaaf "G"gedB |"A"ce "E"dB "A"A2 ed |
+[V:2] z2 |A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|\
+[A,2C2E2][E,2^G,2B,2][A,,4C4E,4]|
+%
+[V:1] "A"eaaf "G"gfed | "A"eaab "G"g2 ed | "A"cdec "Bm"BcdB |1 "A"Ac "E"B^G "A"A2 :|2\
+"A"Ac "E"B^G "A"HA4 ||
+[V:2] A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]B,,2[F2B2D2]|1\
+[A,2C,2E2][E,2^G,2B,2][A,,2C2E,2] :|2 [A,2C,2E2][E,2^G,2B,2]H[A,,4C4E,4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87222
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

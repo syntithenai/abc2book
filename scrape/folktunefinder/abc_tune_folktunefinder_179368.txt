@@ -1,0 +1,32 @@
+X:0633
+T:"O'Carolan's Concerto"  (Mrs. Power)        0633
+C:Turlough O'Carolan
+C:animated
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:#154 in O'Sullivan's book    http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+Q:1/4=110
+M:2/4
+L:1/16
+K:D
+"^vb"ABc|d2dd d2cB|ABGA F2A2|E2A2 D2A2|Bcde dcBA|
+d2a2 fgaf|efge fgaf|gabg fdfa|gfed dcBA|
+BdBd gBgB|AdAd fAfA|GBGB efed|{d}c2Bc A3G|
+FGAF EFGE|FGAF GABG|A2d2 fedc|d6:|
+z2|d2b2 agfe|d2a2 c2a2|B2gB ABcd|ecBA d2df|
+edcB caaa|Bggg Afff|edcB caaa|Bggg bgbg|
+afaf edcB|cABG AFGE|DAFA DAFA|GEBE GEBE|
+FAdc BAGF|EFGA Bcde|A2d2 fedc|d6:|
+S:https://www.folktunefinder.com/tunes/179368
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/anon/OCarolansConcertoMrsPower0633.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/OCarolansConcertoMrsPower0633.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/633-OCarolansConcerto.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

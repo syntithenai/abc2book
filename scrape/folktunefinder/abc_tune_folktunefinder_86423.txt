@@ -1,0 +1,24 @@
+X:70
+T: Arnold's Duck
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: D
+A |"D"d2 F AFE | "Bm"DFB AFE | "D"dcd FAd | "Bm"BAF "A"E2 A |
+"D"d2 F AFE | "Bm"DEF ABA | "D"dfa "G"gfe | "Bm"dBB B2 :|
+A|"Bm"BFF "A"cAA | "D"dcd "Em"efe | "Bm"fBB "G"gBB | "A"afe cBA |
+"Bm"BFF "A"cAA |"D"dcd "Em"efg |"D"faf "A"ece|"Bm"dBB B2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86423
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

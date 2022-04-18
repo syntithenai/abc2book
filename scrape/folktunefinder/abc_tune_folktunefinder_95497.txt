@@ -1,0 +1,24 @@
+X:955
+T:Air de Chasse
+B:Aird's Airs and Melodies vol 3
+M:6/8
+N:repeat A::B||
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000024f.html
+%%ID:0000024f
+K:A
+c|\
+A2c A2c| (e2d) B3| c2c BAB| A3 A2:|
+B|\
+B2c A2B| (d2c) B3| cde edc| c3 B2c|\
+A2c A2c| e2d B3| c2c BAB| A3 A2|]
+S:https://www.folktunefinder.com/tunes/95497
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

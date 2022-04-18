@@ -1,0 +1,27 @@
+X: 3
+T: New Land, The
+M: 3/4
+L: 1/8
+R: waltz
+K: Bmin
+|: FE |\ 
+D2- DC DE | FA- A2 B2 | A2- AF E2 | D2- DG FE |
+G2- GF EF | GB- B2 d2 | B2- BG F2 | E2- EG FE |
+F2- FD FD | FA- A2 de | f2- fe d2 | B4 de |
+f2- fe df | ec- c2 c2 | B2- BA Bc | B4 :|
+|: de |\ 
+f2- fe fg | f2 e2 d2 | G2- GF GA | G2 A2 B2 |
+e2- ed ef | e2 d2 c2 | F2- FE FG | F2 G2 A2 |
+d2- dc de | d2 c2 B2 | E2- ED EF | E2 D2 B,2 |
+AF- F2 D2 | EC- C2 C2 | B,2- B,A, B,C | B,4 :|
+S:https://www.folktunefinder.com/tunes/178533
+S:http://www.thesession.org/tunes/display/3912
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,31 @@
+X:10
+T:Oh Callar Spirlings (variation 9)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass
+M:3/4
+L:1/16
+Q:1/4=84
+K:D Minor
+[V:1] "^P."A2|(3dfa (3dfa (3dfa (3dfa (3ega  (3ega|(3dfa (3dfa (3dfa  (3dfa  (3dfg   (3dfg  |
+[V:2]      z2|  D4          D4         ^C4        |  D4          D4           =B,4          |
+%
+[V:1]         (3ceg (3ceg (3ceg (3ceg (3dga  (3dga|(3ceg (3ceg (3ceg  (3ceg  (3ega   (3ega  |
+[V:2]           C4          C4         =B,4       |  C4          C4           ^C4           |
+%
+[V:1]         (3dfa (3dfa (3dfa (3dfa (3ega  (3ega|(3dfa (3dfa (3fad' (3fad' (3ad'f' (3ad'f'|
+[V:2]           D4          D4         ^C4        |  D4          D4            F4           |
+%
+[V:1] "^F."   (3bge (3bge (3afd (3afd (3ge^c (3gec|(3dAF (3AFD (3FDA, (3DA,F,  D,2         ||
+[V:2]           G4          A4          A,4       |  D,4         z4            D,,2        ||
+S:https://www.folktunefinder.com/tunes/179711
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Oh_Callar_Spirlings_variation_9_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

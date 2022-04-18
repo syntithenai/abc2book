@@ -1,0 +1,33 @@
+X: 1
+T: Merry Maid's Wedding, The
+M: 4/4
+L: 1/8
+R: strathspey
+K: Ador
+|: A>f | 
+e>A (3AAA e>d (3Bcd | e<AA>B G>AB>d |
+e>AA<f e>dB<d | e<gd>B A2- :|
+|: A<g | 
+e>de<g a>ba>g | e<gd<B e>gd>g |
+[1 e>d (3efg a>ba>g |e<gd>B A2- :|
+2 e>de>f g>ab>a | g<ed>B A2 ||
+K: Edor
+|: (3edc | 
+B<EE>=c B>A (3FGA | B<E (3EEE D>EF>A |
+B<EE>=c B>AF<A | B<Ad>F E2 :|
+|: d>c | 
+B>A (3Bcd e>fd<B | A>BA>F A>Bd<A |
+[1 B>AB<d e2 (3dcB |A>BA<F E2 :|
+2 B2 B>c d2 f<e | d>BA<F E2 ||
+S:https://www.folktunefinder.com/tunes/175442
+S:http://www.thesession.org/tunes/display/6035
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

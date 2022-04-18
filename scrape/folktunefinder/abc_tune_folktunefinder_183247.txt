@@ -1,0 +1,29 @@
+X: 1
+T: Polska efter Alfred Eriksson
+S: efter Alfred Eriksson, Gtstorp, rila
+B: http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=S%F65&bildnr=00002|SMUS - katalog S 5 bild 2 
+B: Jmfr http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=S%F69&bildnr=00023|SMUS - katalog S 9 bild 23 efter Emil Sderqvist frn Flen.
+O: Sdermanland
+R: Polska
+Z: Nils L, 2008-12-16
+M: 3/4
+L: 1/16
+K: Dm
+{AB=c} | S d4 D4 E4 | F2FE F2A2 ^C2E2 | D2D^C D2F2 E2G2 | F2FE F2A2 ^C2E2 |
+D4 f4 e2d2 | ^cdec d4 D4 :: \
+K:Am \
+a4 A4 B4 | c2cB c2e2 ^G2B2 |
+A2A^G A2c2 B2d2 | c2cB c2e2 ^G2B2 | A4 c'4 b2a2 | e2a2 (^ga)bg a4 ||
+A2a2 a2^ga =b2a2 | A2g2 g2^fg a2g2 | f2ef g2f2 e2d2 | ^c2_B2 A2G2 F2E S||
+S:https://www.folktunefinder.com/tunes/183247
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_Alfred_Eriksson_76175d.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

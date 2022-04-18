@@ -1,0 +1,151 @@
+X:708
+T:Preludio
+T:(Prelude) BWV 846a
+C:Johann Sebastian Bach
+O:Germany
+B:From "Notenbuch der Anna Magdalena Bach".
+N:This prelude also appears in "Das Wohltemperierte Klavier"
+N:(book 1 no. 1) and in various other keyboard manuscript from the
+N:period.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0846a/bwv0846a-pno2.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 %Harpsichord
+V:3 Program 1 6 bass merge down %Harpsichord
+M:C
+L:1/16
+K:C
+V:1
+z2Gc eGce z2Gc eGce|z2Ad fAdf z2Ad fAdf|
+V:2
+zE3-E4zE3-E4|zD3-D4zD3-D4|
+V:3
+C8C8|C8C8|
+%
+V:1
+z2Gd fGdf z2Gd fGdf|z2Gc eGce z2Gc eGce|
+V:2
+zD3-D4zD3-D4|zE3-E4zE3-E4|
+V:3
+B,8B,8|C8C8|
+%
+V:1
+z2Ae aAea z2Ae aAea|z2^FA dFAd z2FA dFAd|
+V:2
+zE3-E4zE3-E4|zD3-D4zD3-D4|
+V:3
+C8C8|C8C8|
+%
+V:1
+z2Gd gGdg z2Gd gGdg|z2EG cEGc z2EG cEGc|
+V:2
+zD3-D4zD3-D4|zC3-C4zC3-C4|
+V:3
+B,8B,8|B,8B,8|
+%
+V:1
+z2EG cEGc z2EG cEGc|z2D^F cDFc z2DF cDFc|
+V:2
+zC3-C4zC3-C4|zA,3-A,4zA,3-A,4|
+V:3
+A,8A,8|D,8D,8|
+%
+V:1
+z2DG BDGB z2DG BDGB|z2EG ^cEGc z2EG cEGc|
+V:2
+zB,3-B,4zB,3-B,4|z_B,3-B,4zB,3-B,4|
+V:3
+G,8G,8|G,8G,8|
+%
+V:1
+z2DA dDAd z2DA dDAd|z2DF BDFB z2DF BDFB|
+V:2
+zA,3-A,4zA,3-A,4|z_A,3-A,4zA,3-A,4|
+V:3
+F,8F,8|F,8F,8|
+%
+V:1
+z2CG cCGc z2CG cCGc|z2A,C FA,CF z2A,C FA,CF|
+V:2
+zG,3-G,4zG,3-G,4|zF,3-F,4zF,3-F,4|
+V:3
+E,8E,8|E,8E,8|
+%
+V:1
+z2A,C FA,CF z2A,C FA,CF|z2G,B, FG,B,F z2G,B, FG,B,F|
+V:2
+zF,3-F,4zF,3-F,4|zD,3-D,4zD,3-D,4|
+V:3
+D,8D,8|G,,8G,,8|
+%
+V:1
+z2G,C EG,CE z2G,C EG,CE|z2_B,C EB,CE z2B,C EB,CE|
+V:2
+zE,3-E,4zE,3-E,4|zG,3-G,4zG,3-G,4|
+V:3
+C,8C,8|C,8C,8|
+%
+V:1
+z2A,C EA,CE z2A,C EA,CE|z2A,C _EA,CE z2A,C EA,CE|
+V:2
+zF,3-F,4zF,3-F,4|zC,3-C,4zC,3-C,4|
+V:3
+F,,8F,,8|^F,,8F,,8|
+%
+V:1
+z2B,C DB,CD z2B,C DB,CD|z2G,B, DG,B,D z2G,B, DG,B,D|
+V:2
+zF,3-F,4zF,3-F,4|zF,3-F,4zF,3-F,4|
+V:3
+_A,,8A,,8|G,,8G,,8|
+%
+V:1
+z2G,C EG,CE z2G,C EG,CE|z2G,C FG,CF z2G,C FG,CF|
+V:2
+zE,3-E,4zE,3-E,4|zD,3-D,4zD,3-D,4|
+V:3
+G,,8G,,8|G,,8G,,8|
+%
+V:1
+z2G,B, FG,B,F z2G,B, FG,B,F|z2A,C ^FA,CF z2A,C FA,CF|
+V:2
+zD,3-D,4zD,3-D,4|z_E,3-E,4zE,3-E,4|
+V:3
+G,,8G,,8|G,,8G,,8|
+%
+V:1
+z2G,C GG,CG z2G,C GG,CG|z2G,C FG,CF z2G,C FG,CF|
+V:2
+z=E,3-E,4zE,3-E,4|zD,3-D,4zD,3-D,4|
+V:3
+G,,8G,,8|G,,8G,,8|
+%
+V:1
+z2G,B, FG,B,F z2G,B, FG,B,F|z2G,_B, EG,B,E z2G,B, EG,B,E|
+V:2
+zD,3-D,4zD,3-D,4|zC,3-C,4zC,3-C,4|
+V:3
+G,,8G,,8|C,,8C,,8|
+%
+V:1
+z2F,A, CFCA, CA,F,A, F,D,F,D,|z2GB dfdB dBGB DFED|[E16G16c16]|]
+V:2
+zC,3-C,4-C,8|zB,,3-B,,4-B,,8|C,16|]
+V:3
+C,,16|C,,16|C,,16|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183703
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0846a/bwv0846a-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0846a/bwv0846a-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0846a/bwv0846a-pno2.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

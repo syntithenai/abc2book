@@ -1,0 +1,40 @@
+X: 3
+%%leftmargin     2.0cm
+%%staffwidth     17.5cm
+T: Beer Barrel Polka
+I: Beer Barrel PolkaS-BBb/Ebsquare
+C: S-B
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: Bb
+F=E| "Bb"F2 D4 F=E| F2 D4 F=E| F2B2 c3B| "F7"B2 A4 A_A| \
+         A2B2 c2B2| B2 A4 AB| A2 G4 GA| "Bb"G2 F4 F=E|
+     "Bb"F2 D4 F=E| F2 D4 F=E| F2B2 c2B2| "F7"B2 A6| \
+         c3c c3B| B2 A4 G2| F2_G2 =G2A2| "Bb"B2=E2 F2_G2|]
+|:\
+"F7"G4 _G2=G2| G2E2 D2C2| G8-| G2D2 E2=E2| \
+"Bb"F4 =E2F2-| F2D2 C2B,2| F8-| F2B2 c2B2|
+"F7"A6 c2| G6 F2| A8-| A2B2 c2B2| \
+    A4 c4 |1 G4 ^F4| "Bb"F8-| F2=E2 F2_G2 :|2 "F7"G4 A4| "Bb"B8-| B2B2 c2d2|] \K:Eb\
+\
+"Eb"e4 c4|B4 G4| E4 C4| B,4 G,4| B8| B6 =A2| B2 c6-| c8|
+"Eb"B2 c4 B2| c2 B4 =A2| "Bb7"A8-| A8| c8| c6 =B2| c2 d6-| d8|
+"Bb7"c2 d4 c2| d2 c4 =B2| "Eb"B8-| B2G2 A2=A2| B8| B6 =A2| B2 c6-| c8|
+"Eb7"B2 c4 B2| c2 B4 E2| "Ab"c8-| "C7"c8| \
+"Gm"F2G2 A2B2| "Bb7"d6 c2| "Eb"c2 B6-| B4 =A2B2|\
+"F7"c8| "Bb7"d8| "Eb"e3c B2G2| E2 z4|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/97284
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

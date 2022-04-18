@@ -1,0 +1,24 @@
+X:1
+T:Reel of Tully
+R:reel
+A:18th Century Scottish
+B:Grier Mss, 19th century Irish
+D:Leitrim's Hidden Treasure, The McNamara Family
+Z:Paul Stewart Cranford (P.S.C.), <http://www.cranfordpub.com>
+Q:300
+M:C|
+K:Amix
+c|e2 cA eAAc|eAcA BEEc|e/e/e cA eAcA|BEEc d2 cd|
+e/e/e cA eAAc|eAcA BEEc|eA (3(cBA) eA (3(cBA)|BEEc d2 cB||
+||cA (3(cde) cAAd|cA (3(cde) BEEd|cA (3(cde) cAAc|BEEc d2 cB|
+cA (3(cde) cAAd|cA (3(cde) BEEd|cEeE dEcE|BEEc d2 cd|]
+% if none of this makes sense, go to http://www.cranfordpub.com/tunes/abcs
+S:https://www.folktunefinder.com/tunes/185160
+S:http://www.cranfordpub.com/tunes/abcs/Reel_of_Tully.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

@@ -1,0 +1,18 @@
+X:1
+T:Old Gospel Ship (The)
+C:Arr: Alphus Lefevre
+M:2/4
+L:1/8
+K:F
+%%staves{RH1 RH2}
+V:RH1 clef=treble
+|"^VERSES"A|"F"c c c3/2 A/2|c3 c|"Bb"d d "C"c A|"F"F2 C C|F3 A|("Bb"d "F"c2)
+S:https://www.folktunefinder.com/tunes/179953
+S:http://gulfweb.net:34043/~rlwalker/abc/gospelshipf.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gulfweb.net:34043/~rlwalker/abc/gospelshipf.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

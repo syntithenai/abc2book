@@ -1,0 +1,49 @@
+X: 119
+T: Just you, just me
+M: 4/4
+L: 1/4
+C: J. Greer
+Q: 1/4=180
+%%staves (chords melody)
+K: Eb
+%%text (medium)
+%%vskip 20
+P: A
+V: chords
+"Ebmaj7"x2 "(Db7)"x2 | "C7"x2 x2 | "Fm"x2 "(B7)"x2 | "Bb7"x2 x2 |
+"Eb6"x2 "Eb7"x2 | "Abmaj7"x2 "Db7"x2 | "Ebmaj7"x2 "Bb7"x2 | "Eb6"x2 x2 ||
+V: melody
+z2B2 | c4 | z2A2 | B4 |
+zGGG | GBA2 | zG F/E/F | E4 ||
+P: A
+V: chords
+"Ebmaj7"x2 "(Db7)"x2 | "C7"x2 x2 | "Fm"x2 "(B7)"x2 | "Bb7"x2 x2 |
+"Eb6"x2 "Eb7"x2 | "Abmaj7"x2 "Db7"x2 | "Ebmaj7"x2 "Bb7"x2 | "Eb6"x2 x2 ||
+V: melody
+z2B2 | c4 | z2A2 | B4 |
+zGGG | GBA2 | zG F/E/F | E4 ||
+P: B
+V: chords
+"Bbm7"x2 x2 | "Eb7"x2 x2 | "Abmaj7"x2 x2 | "Db7"x2 x2 |
+"Eb6"x2 x2 | "Cm7"x2 x2 | "F7"x2 x2 | "Bb7"x2 x2 ||
+V: melody
+z2e2 | f4 | ecAG- | GzF2 |
+zeBG | F2E2 | zdcd | fdc_c ||
+P: A
+V: chords
+"Ebmaj7"x2 "(Db7)"x2 | "C7"x2 x2 | "Fm"x2 "(B7)"x2 | "Bb7"x2 x2 |
+"Eb6"x2 "Eb7"x2 | "Abmaj7"x2 "Db7"x2 | "Ebmaj7"x2 "Bb7"x2 | "Eb6"x2 x2 |]
+V: melody
+z2B2 | c4 | z2A2 | B4 |
+zGGG | GBA2 | zG F/E/F | E4 |]
+S:https://www.folktunefinder.com/tunes/87620
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

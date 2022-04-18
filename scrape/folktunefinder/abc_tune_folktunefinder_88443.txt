@@ -1,0 +1,23 @@
+X:1430
+T:Kings Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001224.html
+%%ID:00001224
+K:C lydian
+cdefga | aggfg2 | c'geceg | gfd4 | cdefga | aggfg2 | c'gecdB | c3 ::
+G/B/d/ g3 g/e/c/ | gf d4 | cBcegc' | abc'ag2 | G/B/d/ g3 g/e/c/ | gf d4 | cdefgB | c3 ::
+gGeGcG | gGeGcG | dGBGBG | cGEGce | gGeGcG | dGBGBd | c3 |]
+S:https://www.folktunefinder.com/tunes/88443
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,16 @@
+X:1
+T:The Ploughboy
+M:6/8
+L:1/8
+K:F
+ C| F2 F F2 G| F3 C2 C| A2 G A2 B| c3- c2 d| B2 B B2 c| A3 F2 F| A2 c B2 A|\
+ G3- G2 G| c2 cc-B A| B2 c d2c/2-B/2| A2 A AGF| G2 C C2 C| F2 FA-G A|\
+ B2 cd-c B| A3 G2 G| F3- F2||
+S:https://www.folktunefinder.com/tunes/182912
+S:http://back.numachi.com:8000/dtrad/abc/PLOWBOY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

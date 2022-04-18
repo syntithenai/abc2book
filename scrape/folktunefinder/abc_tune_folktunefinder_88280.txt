@@ -1,0 +1,25 @@
+X:615
+T:Off She Goes
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ef4.html
+%%ID:00000ef4
+K:D
+F2A G2B | ABc d3 | F2A G2B | AGF E3 | \
+F2A G2B | ABc d3 | f2d g2e | edc d3 ::
+faf def | eae cde | faf def | ecA A3 |\
+faf def | eae cde | faf gec | ddd d3 ::
+S:https://www.folktunefinder.com/tunes/88280
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

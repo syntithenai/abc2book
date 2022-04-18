@@ -1,0 +1,41 @@
+X:55
+T:the sky Lark
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+N:the mss is clear to read (except that someone seems to have tried to "adjust"
+N:the barlines) - the note lengths are all as written. Your guesses are
+N:probably as good as mine.
+O:England
+Q:Allegro
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dfb.html
+%%ID:00000dfb
+K:D
+%%graceslurs 0
+a2a2a2a2 | a4 f2z2 | d4 Te4{de} | f4 z4   | \
+g2g2g2g2 | g4 e2z2 | c4 Td4{cd} | e4 z2e2 |
+"_cres" \
+(fd)(af) (d'c'ba) | (gaba) (gfge) | fdaf d'c'ba | gaba gfge |\
+fdfd Ta4 | fdfd Ta4 | ecec Tg4 | ecec Tg4 ||
+f3e decd | B2d2e2f2 | g3f efde | c2c2d2e2 |\
+.f2g2a2a2 | (a2b2)d'2.f2 | .e3fg2g2 | (g2c'2)e'2g2 ||
+(f/g/a/g/ f/e/d/c/) (B/c/d/c/ B/A/G/F/) | \
+g/a/b/a/ g/f/e/d/ c/d/e/d/ c/B/A/G/ | \
+(FD)(AF) Td4 | AFdA Tf4 | dAfd Ta4 | fdaf Hd'4 ||
+.g2.b2 Td4 | .g2.b2 Td4 | .a2.c'2 d4 | .a2.c'2 d4 |\
+.b2.d'2 Td4 | b2d'2 g3b | abga fgef | decd BcAB |
+GDBG GDGB | GDGB | FDFA |  FDFA | \
+GDGB | GDGB | GEGg | decd BcAB | G4 z2 |]
+%page:9
+S:https://www.folktunefinder.com/tunes/95642
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

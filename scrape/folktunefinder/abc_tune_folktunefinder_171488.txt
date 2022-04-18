@@ -1,0 +1,23 @@
+X: 3
+T: Lass On The Strand, The
+M: 4/4
+L: 1/8
+R: hornpipe / schottische
+K: Gmaj
+|: ga |\
+bgdB GBdg | f2 e2 c3 e | dcAF D2 EF | GABc d2 ga |
+bgdB G2 dg | f2 e2 E2 ^DE | DdcA FDEF | G2 g2 G2 :|
+|: DG |\
+FGAB c2 EF | GABc d2 BG | A^GAB c2 EF | GABc d3 g |
+bgdB GBdg | fecA e2 ^de | dcAF DcBA | G2 D2 G2 :|
+S:https://www.folktunefinder.com/tunes/171488
+S:http://www.thesession.org/tunes/display/5241
+% Rhythm Hornpipe / schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

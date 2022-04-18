@@ -1,0 +1,28 @@
+X: 1
+T:O'Keefe's Slide
+M:12/8
+L:1/8
+Q:120
+C:Traditional
+S:RWW 47
+R:Slide
+N:First in a set with "Road to Lisdoonvarna" and "Trip t Sligo"
+K:Am
+|:"Am"A2 e e2 d "G"BAB d2 B|"Am"A2 e e2 d "Em"B2 G G^FG|
+"Am"A2 e e2 d "G"BAB d3|"Em"BAB d2 e "Am"B2 A A3:|!
+|:"Am"e2 a a2 b "G"a2 g e2 d|"Am"e2 a a2 b"Em"a2 g e2 ^f|
+"C"g2 ag2 e "G"dBA G3|"Em"BAB d2 e"Am"B2 AA3:|!
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/179796
+S:http://www.blackflute.com/music/tunes/jigs/okeefe.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 12/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords Has chords

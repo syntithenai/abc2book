@@ -1,0 +1,26 @@
+X:2
+T:Old Age and Young
+Z:Jack Campin 1997 <http://www.purr.demon.co.uk/jack/>
+S:Dow MS, fiddle part (1746)
+N:published by Anderson 1790
+N:written as 6/4 in MS
+N:first note in bar 2 of third section is missing in MS, my guess
+N:third note in bar 3 of third section is missing in MS, my guess
+M:3/2
+L:1/4
+Q:1/2=100 % my guess
+K:GDor
+G2  B>c d(c/B/)|A  FF c A(G/F/) |G2  B>c d(c/B/)|A G2 g A(G/F/) :|
+ga  gG  A2     |F  f2 F A/B/c/A/|g>a gG  A2     |G g2 G A/B/c/A/:|
+G>A GG, B,2    |G, D2 B AG/F/   |G>A GG, B,2    |D g2 B AG/F/   :|
+S:https://www.folktunefinder.com/tunes/179819
+S:http://trillian.mit.edu/~jc/music/abc/mirror/scots-l/OldAgeAndYoung_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

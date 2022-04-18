@@ -1,0 +1,28 @@
+X: 022136
+T: Bilberry Time
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+L: 1/8
+M: 4/4
+R: reel
+Q: 1/4 = 180
+K: G
+dc | BGGG BGAc | BGFE FGAc | BGGG BGBc | defg fdcA |
+BGGG BGcA | BGFD FGBc | defg fdcA | GBAF G2 dc ||
+BGGG BGcA | BGBd cAFA | B2 AF GABc | defg fdcA |
+G3B dGBG | F2 CD FGAc | fgag fdcA | GBAF G2 |: Bc |
+dg (3agf dcBc | dBfB gBfB | dg (3agf gfdc | BdcA BG G2 |
+gage fgfd | c2 AG FGAc | fgag fdcA | GBAF G2 :|
+%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88100
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

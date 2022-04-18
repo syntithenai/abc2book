@@ -1,0 +1,27 @@
+X: 1
+T:Rakish Paddy
+R:reel
+H:The tune comes from the Scottish tune "Cabar Feidh" (The Deer's Antlers).
+H:It is related to "The Copperplate", #308.
+H:This is the standard version with variations.
+H:See also #54 (4-part version), #647 (Donegal version)
+Z:id:hn-reel-53
+M:C|
+K:Dmix
+c3B c2AB|cBAG EG~G2|Add^c de=fe|dcAG FGAB|
+c3B c2AB|cBAG EFGE|DEFG ABcA|1 dcAG FGAB:|2 dcAG FDD2||
+|:eg~g2 ag~g2|eg~g2 edBd|ea~a2 bgag|eaag edBd|
+eg~g2 ag~g2|egge defg|afge fde^c|1 dcAG FDD2:|2 dcAG FGAB||
+S:https://www.folktunefinder.com/tunes/184595
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ra/Rakish_Paddy_5.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement has only stepwise movement
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

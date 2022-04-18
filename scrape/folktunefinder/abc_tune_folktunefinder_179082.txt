@@ -1,0 +1,22 @@
+X: 1
+T: North Brig o' Edinburgh, The
+Z: Hiroyuki Yamada
+R: strathspey
+M: 4/4
+L: 1/8
+D: Sileas "Delighted with Harps"
+Z: Contributed 20040611225131 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Bmin
+B>A|B2 B>F B>B d2|c>BA>c e>cB>c|B2 B>F B>B d2|d>B c<A B2:|
+B>c|d2 d>f d>df>d|c>BA>c e>cB>c|d2 d>f d>d d2|d>B c<A B2 B>c|
+d2 d>f d>df>d|c>BA>c e>cB>c|d2 d>B A>ce>c|d>B c<A B2||
+S:https://www.folktunefinder.com/tunes/179082
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/NorthBrigoEdinburghThe.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/NorthBrigoEdinburghThe.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

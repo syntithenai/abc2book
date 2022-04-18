@@ -1,0 +1,50 @@
+X:1
+T:Mo Chail\'in Rua
+M:4/4
+C:Traditional
+B:A St\'or 's a St\'or\'in
+K:F
+C|C2CDF2FF|G2DD DC3|
+B2BBA2GF|G2ABc4|
+cd2cc3F|F2DE FGAB|
+c2GG AA FF|D2C2C4||
+W:
+W: D\'a mbeinnse i mbliana mar bh\'i m\'e anuraidh
+W: Toigh beag 'bheith agam i gcois an chuain
+W: Chuirfinn mo bh\'ad amach ar a' tSionainn
+W: Agus bh\'earfainn abhaile liom mo chail\'in rua.
+W:
+W: Curf\'a:
+W:
+W: Thug m\'e liom \'i \'o bhaile go baile
+W: Fr\'id Bhaile 'Cliath 'un na geafta\'i crua
+W: Chan fhuil* aon mh\'ile \'o d'fh\'ag m\'e an baile
+W: Nach dtug m\'e deoch leanna do mo chail\'in rua.
+W:
+W: Bh\'i ceann gruaige l\'ei s\'ios go taltmh
+W: 'Gus barra na finne go dtug s\'i l\'ei
+W: Ba mh\'eanar don fhear \'og a gheobhadh \'i le mealladh
+W: Rogha na gcail\'in\'i mo chail\'in rua.
+W:
+W: Curf\'a
+W:
+W: D\'a mbeinn chomh saibhir is a bh\'i m\'e anuraidh
+W: Th\'ogfainn toigh m\'or ar an chnoc \'uda\'i thall
+W: F\'ion agus \'or 'siad bh\'eafainn do mo st\'or
+W: Is bhein a' gabh\'ail ceoil le mo chail\'in rua.
+W:
+W: Curf\'a
+W:
+W: *Chan fhuil=n\'il (This looks to me like a Scots Gaelic form, which would
+W: make sense since since this is an Ulster song.  I don't know whether this
+W: is a common form in Ulster Irish, of if this is just a Scots-ism that
+W: crept into this song.  If anyone would like to enlighten me, please do...)
+S:https://www.folktunefinder.com/tunes/176460
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/mochailin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/gaelsong/mochailin.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

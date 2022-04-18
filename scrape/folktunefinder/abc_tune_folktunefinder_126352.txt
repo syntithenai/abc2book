@@ -1,0 +1,22 @@
+X:7973
+T:Jig of Slurs
+M:6/8
+L:1/8
+R:Jig
+K:D
+|:B|A>dd d>cd|B>dd A>dd|B>dd A>dd|c>ee e>dB|A>dd d>cd|B>dd A>dd|B>dd c
+>de|f>dd d2:|:B|A>ff f>ef|a>ff f>ed|B>ee e>de|f>ee e>dB|A>ff f>ef|a
+>ff f>ed|B>dd c>de|f>ddd2:|
+|:A|G>gg g>fg|a>ge g>dB|G>gg g>fg|a>ge g2B|G>gg g>fg|a>gf g>dB|B>ee e
+>fg|f>ed e2:|:A|G>AB B>dd|d>ee e>dB|G>BB B>dd|d>ee e>gg|G>BB B>dd|d
+>ee e>dB|B>ee e>fg|f>dde2:|
+S:https://www.folktunefinder.com/tunes/126352
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

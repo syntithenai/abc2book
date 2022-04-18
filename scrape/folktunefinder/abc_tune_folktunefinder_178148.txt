@@ -1,0 +1,56 @@
+X:512
+T:N\aa er frelsens dag opprunnet
+C:Ludvig Mathias Lindeman
+O:Norway
+R:Hymn
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/lindeman-ludvig-mathias/naa-er-frelsens-01/naa-er-frelsens-01-pno2.abc
+V:1 Program 1 19 up %Church organ
+V:2 Program 1 19 merge down %Church organ
+V:3 Program 1 19 bass up %Church organ
+V:4 Program 1 19 bass merge down %Church organ
+M:C
+K:Eb
+V:1
+G>EBB,|CDFE|A>GFE|DEF2|G>EBB,|
+V:2
+B,>CB,B,|A,A,A,G,|C>B,A,G,|B,B,B,2|B,>CEB,-|
+V:3
+E,>G,F,G,|E,F,D,E,|E,>E,D,E,|F,E,D,2|E,>G,G,D,|
+V:4
+E,>C,D,E,|C,C,=B,,C,|A,,>B,,=B,,C,|_B,, G,,/E,,/ B,,2|E,>C,B,,A,,|
+%
+V:1
+CDFE|A>GFE|DEF2|F>GAF|cBA2|A>BcB|
+V:2
+B,A,A,G,|A,>_B,CC|B,G,B,2|C>B,A,F|E_DC2|A>GAG|
+V:3
+E,F,B,,E,|E,>E,E,_G,|F,E,D,2|C,>=E,F,A,|A,G,A,2|E>_DCE|
+V:4
+G,,F,,E,,E,,|C,>_B,,A,,=A,,|B,,C,B,,2|A,,>G,,F,,_D,|_E,E,A,,2|C,>B,,A,,_D,|
+%
+V:1
+ecB2|B>AGF|EFDB,|EGBe|c2(BA)|(G2F2)|E4|]
+V:2
+AAF2|E>DED|CCB,_A,|G,B,DE|E>AGF|E2D2|B,4|]
+V:3
+EE=D2|B,>B,B,B,|G,F,F,D,|E,E,F,B,|C2C2|B,2A,2|G,4|]
+V:4
+C,A,,A,2|G,>F,E,B,,|B,,=A,,B,,B,,|C,B,,A,,G,,|A,,2A,,2|B,,4|E,,4|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/178148
+S:http://abc.musicaviva.com/tunes/lindeman-ludvig-mathias/naa-er-frelsens-01/naa-er-frelsens-01-pno2.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/lindeman-ludvig-mathias/naa-er-frelsens-01/naa-er-frelsens-01-pno2.abc
+% Rhythm Hymn
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D-sharp
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

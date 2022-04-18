@@ -1,0 +1,22 @@
+X: 1
+T:Poppy Leaf, The
+R:hornpipe
+Z:id:hn-hornpipe-11
+M:C|
+K:G
+(3CB,A,|G,B,DG B,DGB|DGBd GBdg|edcB cBAG|FGAF (3DED (3CB,A,|
+G,B,DG B,DGB|DGBd GBdg|edcB cDEF|G2B2 G2:|
+|:Bc|dBGB dBgd|bagf edcB|cAFA cAfg|agfe dcBA|
+(3BAB (3GAB (3cBc (3ABc|(3dcd (3Bcd e2dc|BgdB cAFA|G2B2 G2:|
+S:https://www.folktunefinder.com/tunes/183539
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/po/Poppy_Leaf_The_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

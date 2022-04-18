@@ -1,0 +1,28 @@
+X:2
+T: CUCA 1
+N: T0008
+O: Amerika, Mittelamerika, Mexiko
+N: erste Fassung aus der Mex. Revolution. Die Zeilen 1 und 2 (REFRAIN)
+N: k\^innen wiederholt werden. - Text = beliebige Strophe.
+R: Corrido, gesungene Zeitung
+M: 3/4
+L: 1/8
+K: F
+CCC | F2ACCC | F2A4
+FFEEDD | C3
+CCC | E2GCCC | E2G4
+cdcBAG | F4z2
+CCFFAA | c2A4
+cdcBAc | B2G4
+CCEEGG | B2G4
+cdcBAG | A2F
+S:https://www.folktunefinder.com/tunes/97551
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Corrido, gesungene zeitung
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

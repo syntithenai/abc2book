@@ -1,0 +1,67 @@
+X:1228
+T:Praeambulum
+T:(Prelude) BWV 924
+C:Johann Sebastian Bach
+O:Germany
+B:From "Klavierb\"uchlein f\"ur Wilhelm Friedemann Bach".
+N:This prelude may have been written by Wilhelm Friedemann Bach.
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0924/bwv0924.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+U: O = uptrill
+U: J = downtrill
+I:This abc file is formatted for BarFly 1d24. It uses
+I:some features that has not at the moment (August 1999)
+I:been standarized in abc. Because of that some modifications
+I:might be necessary to display or play it with other abc programs.
+M:C
+L:1/16
+K:C
+V:1
+zGce zGce zGcd zBdg|zAdg zAdf zAde zcea|zBea zBeg zcef zGdf|
+V:2
+C,4E,4PG,4G,,4|PD,4F,4PA,4A,,4|E,4PE4A,4JB,4|
+%
+V:1
+zGde zGce zAcd zEBd|zEBc zEAc zFA_B zCGB|zCGA zCFA zDFB zEGc|
+V:2
+C4E,4^F,4O^G,4|A,4C,4D,4JE,4|F,4E,4MD,4C,4|
+%
+V:1
+zDGc zDGB zCGB zC^FA|zB,DA zB,DG zA,CG zA,C=F|[B,4D4F4]z4x8|
+V:2
+PG,4G,,4PG,4G,,4|PG,4G,,4PG,4G,,4|PG,4z4zG,,B,,D, F,G,B,D|
+%
+V:1
+z4FGBd BGBd fgbf|ec'gf ec'ge dc'fe dbfd|cbed caec Badc BgdB|
+V:2
+B, G,B,Dx12|[G,,16-G,16-]|[G,,16-G,16-]|
+%
+V:1
+AgcB A^fcA B=fdc BfdB|GecB AecA ^FdBA GdBG|\
+EcAG ^FcAF DcMBA BGd=F|
+V:2
+[G,,16-G,16-]|[G,,16-G,16-]|[G,,16-G,16-]|
+%
+V:1
+GEFd cBAG fd_ec ^Fedc|BdBG _A=FGD _E^F=Ac D-[Dc-][=F-c][FB]|\
+H[C16E16G16c16]|]
+V:2
+[G,,16-G,16-]|[G,,16G,16]|HC,16|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183647
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0924/bwv0924.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0924/bwv0924.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0924/bwv0924.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

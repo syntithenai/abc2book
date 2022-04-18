@@ -1,0 +1,25 @@
+X:245
+T: Mrs.O'Sullivan's
+Z: B.Black
+M: 6/8
+L: 1/8
+R: jig
+S: Patrick Street
+K: D
+D | FAA AFE | FAA d2 c | BcB BAB | def f2 e |
+def a2 b | afe d2 e | fbb fge | dBA B2 :|
+e | faa afe | faa a2 e | fbb bab | c'ba b2 e |
+faa a2 b | afe d2 e | fbb fge | dBA B2 :|
+S:https://www.folktunefinder.com/tunes/93717
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

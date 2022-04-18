@@ -1,0 +1,29 @@
+X:169
+U: ~ = !turn!
+%%topmargin 3cm
+T:Portroe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:G
+D2 B {/d}BAG | B/2c/2dB ABA | GED G2 A | BdB AGE |
+D2 B {/d}BAG | B/2c/2dB ABA | GED G2 A | [1 BGF GFE :|] [2 BGF GBd |]
+|: ege {/f}edB | ege {/f}edB "(A"| ~d3 dBA | ~d3 dBA "A)"|
+G2 A B2 d | ege dBA | GED G2 A | [1 BGG GBd :|] [2 BGG G3 |]
+xxxx "(A"|| ~d3 def | gfe dBA "A)"|| xxxx xxxx [|] xxxx
+S:https://www.folktunefinder.com/tunes/94765
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Portroe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Portroe_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

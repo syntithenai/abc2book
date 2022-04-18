@@ -1,0 +1,165 @@
+X:1
+T:Agnus BWV 232 - (Missa in B mol)
+C:J.S. Bach
+L:1/8
+M:C
+%%header "Agnus$P / 4"
+%%vocalfont Times-Roman 13
+%%staves {(1 2) 3}
+K:Gm
+V:1
+%%MIDI channel 1
+%%MIDI program 16
+z2 zD (B/G/C2) (G/B/)|(A/^F/)c2 (B/A/) (B/G/_A2) G|(^F=ED)(A B)(^FG)(D|
+V:2
+%%MIDI channel 1
+x8|x8|x8|
+V:3
+%%MIDI channel 1
+[G,B,]z [^F,A,]z [G,B,]z [=E,G,]z|[^F,C]z [D,F,D]z [G,D]z [C,E,]z|[D,A,]z [^F,A,]z [G,D]z [B,D]z|
+V:1
+^C)(BA)(^c d)A TF=E/D/|D2 z[F=c] (=B/d/f2) (_e/d/)|(e/c/A2) G (^F/A/c2) (B/A/)|
+V:2
+x2=Ez F2 D^C|D2x6|x8|
+V:3
+A,z [G,^C]z [=F,A,]D,A,[A,,G,]|([D,F,][=E,G,][F,A,]_A,) [G,D]z [=B,,D,G,]z|[C,G,]z [E,C]z [D,A,C]z [^F,A,E]z|
+%%staves a {(1 2) 3}
+%%continueall 1
+%%maxshrink 0.8
+V:a
+%%MIDI channel 2
+%%MIDI program 56
+z8|z8|[P:A](dc) (AB) B4-|
+w:A -gnus*De-|
+V:1
+(B/G/^C2)D (=E/G/B2) (A/G/)|(^F/A/e2) (d/c/) BA/G/ [B,D][A,C^F]|[B,2D2G2] Az B4-|
+V:2
+x8|x8|x4 (G=F)(DE)|
+V:3 bass
+[G,D]z [B,,G,]z [^C,=E,]z [A,,C,G,]z|[D,A,]z [^F,A,C]z G,B,,D,D,,|G,z [^F,D]z G,z [G,,G,]z|
+V:a
+BA ^F G G4-|G=F D E E4-|E D (D4 C2)|[P:B]D2 z D (B/G/) C2 B|
+w:--i qui tol-|--lis pec-ca-|-ta mun -|di qui tol -lis pec-|
+V:1
+(BA^FG) G4-|G=FDE E4-|(ED) zc (BG)(^FG)|^F2 z2 z2 (B/G/C)|
+V:2
+E4-ED(=B,C)|C4- C_B,(G,A,)|A,2 (D4 C2)|(DA,D)C B,z x2|
+V:3
+[C,G,]z [A,,C]z [=B,,G,]z [=F,G,]z|[E,G,]z [^F,,A,]z [G,,G,]z C,z|^F,,z [^F,A,]z G,z E,z|\
+x2D,2- [G,,D,]z [E,G,]z\
+&D,C,B,,^F,, x4|
+V:a
+(A/^F/) c z D (B/G/ _A2) G|(^F=E) D (AB) ^F G2-|G3 A/B/ A/=F/ =E/D/ (FE)|
+w:ca -ta, pec-ca --ta|mun -di, mi -se-re-|-----re*no -|
+V:1
+z2A/^F/c z2 zG|[A,^F]z [DA]z [DB]z Gz|Gx3 x4|
+V:2
+[A,D]z Dz [B,D]z (E/C/=A,)|x6 D(D|^C)(BA)([G^c] [Ad])[D=EB][DFA][GA^c]|
+V:3
+[^F,,D,]z [D,,D,]z [G,,G,]z [C,E,]z|D,z ^F,z G,z B,z|A,z z=E, F,G,A,A,,|
+%
+V:a
+D A,D F =B,D G2-|G=E (D^C) (DB) (^FG)|G3 ^F/=E/ (F/A/ c2) B/A/|
+w:bis, mi -se-re --|--re*no -bis,*|mi-se -re --re*|
+V:1
+[FAd]z z!f!A (f/d/)G2 (d/f/)|(=e/^c/g2) (f/e/) (f/d/_e2)d|(^c=BA)z z(G^F)(=c|
+V:2
+x8|x8|x6 Dz|
+V:3
+D,z [F,A,D]z [G,=B,D]z [_B,D]z|[^C,B,]z [A,,=E,A,]z [D,A,]z [B,,G,]z|[A,,=E,G,]z [^C,E,A,]z [D,^F,A,]z [D,,D,]z|
+V:a
+dc B A B3 A/ G/|(F=E) D A (^G/=B/ D2) ^C/=B,/|^C/=E/ G z F/ E/ F A (FE/D/)|
+w:no -bis, qui tol-lis pec-|ca -ta, pec-ca --ta*|mun -di, mi-se-re-re no --|
+V:1
+B)(AG)D (^C/=E/)G2 (F/E/)|(F/D/^G)z2 z(A^G)(f|=e)(_BA) ^c dA F=E/D/|
+V:2
+Dz Dz x4|x6 =Ez|=Gz G G F2D^C|
+V:3
+[D,G,]z =F,z [=E,G,]z [^C,E,]z|[D,A,]z [=B,,^G,]z [=E,G,=B,]z [=E,,E,]z|[A,,=E,]z [^C,E,]z D,F,A,[A,,G,]|
+V:a
+D2 z2 z4|z8|z8|
+w:bis.|||
+V:1
+D2 zA, (F/D/G,2) (D/F/)|(=E/^C/G2) (F/E/) (F/D/_E2) D|(^C=B,A,)(=E F)(^CD)(=c|
+V:2
+x8|x6B,z|x8|
+V:3
+[D,F,]z [^C,=E,]z D,z [=B,,G,]z|[^C,G,]z [A,,C,=E,A,]z [D,F,A,]z [G,,_E,]z|[A,,=E,A,]z [^C,E,]z [D,A,]z [F,A,]z|
+V:a
+z8|[P:C](AG) (=EF) F4-|F_A G F =E^FG=A|BA ^F G G4-|
+w:A -gnus*De-|--i qui tol ---|--lis pec-ca-|
+V:1
+B)(^FG)(^c d)A F=E/D/|D2 =Ez (d=c)(A=B)|=B2 _B2- [=EB][^FA]([=EG][^FA])|[GB]z ^Fz G4-|
+V:2
+x4 ^F2 D^C|x4 F4-|F(_AGF) x4|x4 (G_E)(^CD)|
+V:3
+[G,D]z [=E,G,^C]z F,D,A,[A,,G,]|[D,F,]z [^C,A,]z [D,A,]z [D,,D,]z|[G,,D,]z [G,D]z C,C[B,D][A,C]|\
+[G,B,]z [A,C]z B,z [=E,G,]z|
+V:a
+GB AG ^F=E D2|(dc) (AB) B4-|BA ^F G G4-|G=F D E E4-|
+w:--ta*mun -di,|a -gnus*De-|--i qui tol-|--lis pec-ca-|
+V:1
+(GBAG) ^F2 z2|z4 B4-|BA^FG G4-|G=FDE E4-|
+V:2
+^C4 DA,D=C|B,z A,z (GF)(DE)|E4- ED(=B,C)|C4- C_B,(G,A,)|
+V:3
+A,z [A,,=E,A,]z [D,A,]C,B,,A,,|[G,,D,]z [^F,,D,]z [G,,D,G,]z [G,B,]z|[C,C]z [A,,E,]z [=B,,D,]z [F,G,]z|\
+[E,G,]z [^F,,A,]z [G,,G,]z C,z|
+%
+V:a
+E HD z D B/G/ C2 B|(A/^F/) c z D (B/G/ _A2) G|^F=E D C (=B,/D/ =F2) _E/ D/|
+w:-ta, qui tol -lis pec-|ca -ta, pec-ca --ta|mun -di, qui tol --lis pec-|
+V:1
+EHDz2 z2 (B/G/C)|z2 (A/^F/c) z2 zG|^Fz Dz z(C=B,)(_A|
+V:2
+HA,2 x6|x6 (E/C/=A,)|x7(=F|
+V:3
+H^F,,2 z[^F,A,] [G,B,]z [=E,G,]z|[^F,A,]z [D,F,A,]z [G,B,]z [C,E,]z|[D,A,]z [^F,A,]z [G,=B,]z [G,,G,]z|
+V:a
+[P:D]E/D/ C z2 z_A2 G/F/|ED C _B, (A,/=E/ G2) F/ E/|F/=E/ D z B2 D ^C/=E/ A/G/|
+w:ca -ta, mi-se -|re -re, qui tol --lis pec-|ca -ta, mi-se-re -re*|
+V:1
+G)(FE)C (=B,/D/F2) (E/D/)|G(=B,C)z z(F=E)[(G(B]|[F)A)](GF)D (^C/=E/G2) (F/E/)|
+V:2
+E)x7|x8|x6 Cz|
+V:3
+G,z _A,z [D,G,]z [G,=B,]z|([C,C][D,_A,][E,G,][D,F,]) ([^C,=E,][=B,,D,][C,E,])^C|D(B,A,^G,) A,z [A,,=E,A,]z|
+V:a
+^F=E D (EF) A d2-|de (^FG) (GE) (=B,C)|(C c2) (_B/A/) d/B/ (A/G/) (BA)|
+w:no -bis, mi -se-re-|--re*no -bis,*|mi -se -re -re*no -|
+V:1
+A(^CD)=c'- (c'/a/d2) (g/b/)|(a/^f/c2) (B/A/) (B/G/_A2) G|(^F=ED) D [Gd][G-c][GB][^FA]|
+V:2
+D x7|x6 ([=B,E][CE])|A,z x6|
+V:3
+[D,^F,][=E,G,][^F,A,][G,B,] [A,C][G,B,][F,A,][E,D]|[^F,D]z [D,F,D]z [G,D]z [_E,G,]z|\
+D,z [^F,A,]z [B,,G,][E,G,-][C,G,][D,C]|
+V:a
+G_A2 G/F/ (E_B,C) G|^F/G/ A z E/ D/ {c}B A/G/ ^F3/G/|G2 z2 z4|
+w:bis, mi-se -re --re|no -bis, mi-se-re-re*no -|bis.|
+V:1
+G_A2(=B c)z [Gc]z|A (ed)(^f g)ed[DF]|[B,DG]z zC (=B,/D/F2) (E/D/)|
+V:2
+G(_ED) (G/F/)Ez x2|^FADc BG^FC|x4 =B,CD=B,|
+V:3
+[E,B,][D,/=B,/][C,/C/] [=B,,F,][G,,G,] [C,G,]z [E,G,]z|[D,A,][C,^F,][_B,,G,][A,,D,-] [G,,D,][C,A,-][D,A,]D,,|\
+G,,[G,B,][F,A,][E,G,] G,4\
+&x4 D,C,=B,,G,,|
+%%staves {1 2 3}
+V:1
+(E/C/A,2) G (^F/A/c2) (B/A/)|(B/G/^c2) d (=e/g/b2) a/g/|(^f/A/_E2) (D/C/) B,[Dd][B,D][A,D^F]|\
+G,2 z2 z4|]
+V:2
+x3E D4-|DG2B Ad^ce|Ax4G,-G,2|x8|]
+V:3
+[C,G,][D,F,][E,G,][C,C] [D,A,][=E,G,][^F,A,][D,F,]|[G,B,][A,=E2]B,[G,D] [^CE][DF][=EG][CE]|\
+D[A,=C][^F,A,][D,F,A,] G,B,,/C,/ D,[D,,D,]|G,,2 z2 z4|]
+S:https://www.folktunefinder.com/tunes/88508
+S:http://moinejf.free.fr/abc/agnus.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

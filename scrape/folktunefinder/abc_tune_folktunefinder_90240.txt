@@ -1,0 +1,31 @@
+X:23
+T:Bunker Hill
+S:Trad, arr. Paddy O'Brien 
+R:reel
+E:9
+I:speed 350
+M:C|
+K:DMix
+cA|GE~E2 ~D2DG|EGAB ~c2Bc|ABAG EF~G2|ABcA ~d2cA|\
+GE~E2 ~D2 DG|EGAB ~c2Bc|*ABAG EF~G2|ABcA d2||\
+cA|Gc ~c2 ec~c2|GccB cBAG|Ad~d2 fd~d2|AddB cBAG|*
+(3EFG AB cAdB|cAdB ~c2Bc|dBcA BG~G2|ABcAd2||\
+eg|fd~d2 fdad|fadf ~a2 gf|*ge~e2 gebe|gbeg ~b2 ag|\
+fd~d2 fdad|dcAB ~c2 Bc|dBcA BG~G2|ABcA d2||**
+S:https://www.folktunefinder.com/tunes/90240
+S:http://ceolas.org/pub/tunes/abc.tunes/OBrien.abc
+S:http://gradcenter.marlboro.edu/~mahoney/abc/abc/OBrien.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.ceolas.org/OBrien.abc
+S:http://www.ceolas.org/pub/tunes/abc.tunes/OBrien.abc
+S:http://www.firepowr.com/abc/OBrien.abc
+S:http://www.gradcenter.marlboro.edu/~mahoney/abc/abc/OBrien.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

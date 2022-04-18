@@ -1,0 +1,25 @@
+X:0317
+T:"A Maid Without A Gown"       (air)       0317
+C:after Chief F. O'Neill
+C:slow
+N:12 bars
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:G
+"_vb"(G3/2A/2)|(B2c2).B2|({G}B2A2)(AG)|(F2G2)({F}G3/2A/2)|(B2d2)({d}cA G)|A2G2G2|G4"_Fine"||
+G3/2F/2|(G2B2).d2|d2e2(cB)|(c2A2).A2|(G2B2).c2|(d2B2)(cd/2e/2)|"_Da Capo al Fine"d4|]
+S:https://www.folktunefinder.com/tunes/173905
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0317-MaidGown.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:16
+T:Scottisch de Rousset
+R:Scottisch
+C:Trad.
+A:Champsaur - Hautes-Alpes - France
+B:Rpertoire du "Pays Gavot"
+G:Accordion
+%%MIDI program 21 %Accordian
+M:2/4
+L:1/8
+Q:220
+K:G
+|:[GG,][AD,][BG,][A/D,/]G/|[FD,][ED,][DG,]G,|[D/G,/]E/[F/D,/]G/[AD,][AD,]|[G/G,/]F/[G/G,/]A/[BG,][GG,]|[GG,][AD,][BG,][A/D,/]G/|[FD,][ED,][DG,]G,| \
+[D/G,/]E/[F/D,/]G/[AD,][A/D,/]F/|[DG,][AD,][GG,]G,|[B,G,][CD,][DG,][E/D,/]F/|[GG,][ED,][DG,]G,|[B,G,][CD,][A,D,][B,/G,/]C/|[D/G,/]C/[B,/G,/]A,/[CD,][B,G,]| \
+[B,G,][CD,][DG,][E/D,/]F/|[GG,][ED,][AD,]D,|[B/G,/]A/[G/G,/]E/[DG,][E/D,/]F/|[GG,][AD,][GG,]G,:| \
+K:F
+Z:Transcrit avec l'aide de TablEdit http://www.tabledit.com/
+S:https://www.folktunefinder.com/tunes/96976
+S:http://ocoronel.club.fr/musique/partitions/alpin.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/perso.club-internet.fr/ocoronel/alpin.abc
+% Rhythm Scottisch
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

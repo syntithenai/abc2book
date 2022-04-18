@@ -1,0 +1,24 @@
+X:5
+T: Steven Prior's
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: G
+"G"G,B,D "F"=FEF | "G"G,B,D GFG | "G"G,B,D "F"=FGA | "G"dBc "D"AFD |
+"G"G,B,D "F"=FEF | "G"G,B,D GFG | "G"dBc "Am"AGE | "D"DEF "G"G3 :|
+"G"gab "Am"age | "G"d^cd "F"=f2 A | "Dm"=FEF AFA | "G"dBc "D"AFD |
+"G"gab "Am"age | "G"d^cd "F"=fga | "G"gfd "Am"ecA |"D"dAF "G"G3 :|
+S:https://www.folktunefinder.com/tunes/89641
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

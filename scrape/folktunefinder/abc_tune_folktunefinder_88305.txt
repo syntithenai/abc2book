@@ -1,0 +1,27 @@
+X:740
+T:Captain  Harshaw's Quick March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001066.html
+%%ID:00001066
+K:F
+c | \
+c2f {g/}f>ef | a2f {g/}f>ef | {e/}d^cd d>ed |  g>af {g/}fed |
+c2f {g/}f>ef | a2f {g/}f>ef | {e/}d^cd e<ge | e>ff f2 ::
+c |\
+cBA    AGA | AGA    Acf | BAG GFG | GFG G2c |
+f/g/af fef | g/a/bg gfg | cfa dbg | ece g2f :|
+%%newpage
+%page 56
+S:https://www.folktunefinder.com/tunes/88305
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

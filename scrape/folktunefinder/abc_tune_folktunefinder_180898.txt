@@ -1,0 +1,44 @@
+X:3150
+T:O weh der Zeit
+C:Georg Forster, arr. Georg Rhau
+O:Germany
+B:From Georg Rhau: "Bicinia gallica, latina, germanica.." (1545)
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/forster-georg/o-weh-der-zeit/o-weh-der-zeit-2m.abc
+M:3/4
+L:1/4
+K:F
+V:1
+F|F2F|A2F|A2B|c2c|A2d|
+V:2
+F|F2F|F2F|F3/E/D|C2C|F2B,|
+%
+V:1
+c2B|AG/F/G|F2:|F|A2A|G3/A/B|c2=B|
+V:2
+C3/D/E|D/E/FC|F2:|F|F2F|C/D/E/F/G|FD2|
+%
+V:1
+c2c|c2c|d2d|cB/A/B|A2A|A2F|
+V:2
+C2F|FE/D/E|D2D|F2G|D2F|F2D|
+%
+V:1
+G2c|d2d|c3/B/ A/G/|FB2|AG2|HF2|]
+V:2
+C2C|B,2B,|F2F|DB,/C/D/E/|FC2|HF2|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/180898
+S:http://abc.musicaviva.com/tunes/forster-georg/o-weh-der-zeit/o-weh-der-zeit-2m.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/forster-georg/o-weh-der-zeit/o-weh-der-zeit-2m.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

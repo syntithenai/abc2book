@@ -1,0 +1,54 @@
+X: 9133
+T: Rathsallagh (with piano acc.)
+C: BB
+M: 4/4
+Q: 1/8=330
+L: 1/8
+R: hornpipe
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] D2|"D"FGAB AFDF|"D"Addc "Bm"B2 Bc|"D"defd "Em"efdB|"D"Addc "Bm7"BAFE|
+[V:2] z2|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]B,,2[F2B2D2]|D,2[A2D2F2]E,2[E2B2G2]|\
+D,2[A2D2F2]B,,2[F2B2D2]|
+%
+[V:1] "D"FGAB AFDF|"D"Addc d2 de|"Bm"fagf "Em7"edBG|"A"Adce "D"d2 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]E,2[D2B2G2]|\
+A,,2[A2C2E2][D,2F,2A,2]:|
+%
+[V:1] de|"D"fedf "A"edce|"D"dcAF A2 AB|"C"=cGEG cedc|"A"AFEF "D"D2 de|
+[V:2] z2|D,2[A2D2F2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|=C,2[E2G2=C2]G,,2[E2=C2G2]|\
+A,,2[A2^C2E2]D,2[A2D2F2]|
+%
+[V:1] "D"fedf "A"edce|"D"defg a4|"G"bg"D"af "Em7"(3efg dB|"A"AFEF "D"D2 :|
+[V:2] D,2[A2D2F2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[D2F2A2]E,2[E2G2B2]|\
+A,,2[A2C2E2][D,2F2A,2] :|
+%%%%%tune repeat
+[V:1] D2|"D"FGAB AFDF|"D"Addc "Bm"B2 Bc|"D"defd "Em"efdB|"D"Addc "Bm7"BAFE|
+[V:2] z2|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]B,,2[F2B2D2]|D,2[A2D2F2]E,2[E2B2G2]|\
+D,2[A2D2F2]B,,2[F2B2D2]|
+%
+[V:1] "D"FGAB AFDF|"D"Addc d2 de|"Bm"fagf "Em7"edBG|"A"Adce "D"d2 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2D2F2]|B,,2[F2B2D2]E,2[D2B2G2]|\
+A,,2[A2C2E2][D,2F,2A,2]:|
+%
+[V:1] de|"D"fedf "A"edce|"D"dcAF A2 AB|"C"=cGEG cedc|"A"AFEF "D"D2 de|
+[V:2] z2|D,2[A2D2F2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|=C,2[E2G2=C2]G,,2[E2=C2G2]|\
+A,,2[A2^C2E2]D,2[A2D2F2]|
+%
+[V:1] "D"fedf "A"edce|"D"defg a4|"G"bg"D"af "Em7"(3efg dB|1 "A"AFEF "D"D2 :|2\
+"A"AFEF "D"HD4 ||
+[V:2] D,2[A2D2F2]A,,2[A2C2E2]|D,2[A2D2F2]A,,2[A2D2F2]|G,,2[D2F2A2]E,2[E2G2B2]|1\
+A,,2[A2C2E2][D,2F2A,2] :|2 A,,2[A2C2E2]HD,,4 ||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87218
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

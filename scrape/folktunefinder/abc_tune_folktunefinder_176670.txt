@@ -1,0 +1,38 @@
+X:8253
+T:MonferrIan
+T:Monferrina Ian Roberts
+C:Steve Mansfield
+O:England
+N:A monferrina composed in honour of the attainment by Mr Ian Roberts
+N:of a first class honours degree from the University of Oxford.
+N:Composed July 2000.
+R:Jig
+Z:Steve Mansfield 8/7/2000
+F:http://abc.musicaviva.com/tunes/mansfield-steve/monferrian.abc
+%Posted October 16th 2001 at abcusers by the composer.
+M:6/8
+L:1/8
+Q:3/8=135
+K:C
+G | GAG GAG | c2 G EFG | A2 F DEF | GE(C C2)E |
+DEF EFG | ^FGA dcB | ABA cBA |1(G3 G2) :|2 G3 |:CDE |
+F2 D E2 C | D2(G, G,)EF | G2 E F2 D | E2(C C2)G |
+A2c Bcd | c2 G EFG | AGF EFD |1C3 :|2 (C3 C2) ||
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/176670
+S:http://abc.musicaviva.com/tunes/mansfield-steve/monferrian.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/mansfield-steve/monferrian.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/mansfield-steve/monferrian.abc
+% Rhythm Jig
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

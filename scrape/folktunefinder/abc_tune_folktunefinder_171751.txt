@@ -1,0 +1,29 @@
+X: 1
+T: Leben Zol Palestina
+T: Smokin' Bulgar
+R: bulgar
+D: DRK-204 "Git Azoy" the 12 Corners Klezmer Band
+M: 4/4
+L: 1/8
+K: Ddor
+z3 \
+|  "Dm"zA AA c/B/A A2 | zF FF A/^G/F F2 | zD DD F/E/D ^C/D/E | D2 A2 (3A^GF (3FED |
+|  "Dm"zA AA c/B/A d2 | zF FF A/^G/F A2 | zD DD F/E/D ^C/D/E | D4 z :|
+|: "A7"(AB^c \
+| "Dm"d)c BA ^GA Bc | {c/}BA {A/}^GF EF ^GA | {c/}BA {A/}^GF {A/}^GF {F/}ED | (^GA7) |
+| "Dm"dc BA ^GA Bc | {c/}BA {A/}^GF EF ^GA | {c/}BA {A/}^GF {A/}^GF {F/}ED | D4 z :|
+K:D
+|: "A7"Ade \
+| "D"f4- fdag | f4- ffed | "A7"efga fdec |1,3 "D"a2 z3 :|2,4 "D"d4 z :|
+S:https://www.folktunefinder.com/tunes/171751
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/C/LebenZolPalestina_Dm.abc
+S:http://trillian.mit.edu/~jc/music/abc/Klezmer/tune/LebenZolPalestina_Dm.abc
+% Rhythm Bulgar
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,22 @@
+X: 166
+T: Mrs. Campbell
+T: Jig, D
+L: 1/16
+M: 6/8
+K: D
+|: B2| A2F2B2 A4F2| D6 D4B2| A2F2A2 d4e2| f6 f2g2a2|
+ g2f2g2 B2e2d2| c6 c4B2| [1 A2c2e2 a2f2d2| f6 f4:| [2 A2c2e2 g2f2e2| d6 d4|]
+|: g2| f2e2d2 c2B2A2| f6 f2a2g2| f2e2d2 c2B2A2| F6 F2G2F2| E2F2G2 E2F2G2| B2e2e2 e4d2| c2B2A2 A2B2c2| d6 d4:| 
+|: G2| F2A2A2 B2A2G2| F2A2d2 f2d2A2| B2G2B2 g2e2d2| B6 B2A2G2| F2A2A2 B2A2G2| F2A2d2 f4a2| g2f2g2 A2B2c2| d6 d4:| 
+|: a2| a2^g2b2 a2f2d2| A6 A4B2| A2d2f2 a2f2d2| e6 e4f2| 
+g2f2g2 B2e2d2| c6 c4B2| [1 A2c2e2 a2f2d2| f6 f4:| [2 A2c2e2 g2f2e2| d6 d4|]
+D: Wendy MacIsaac, That's What You Get, WMT004
+S:https://www.folktunefinder.com/tunes/94089
+S:http://www4.ncsu.edu/unity/users/p/pfackler/www/Music/CBTunes.abc
+S:http://www4.ncsu.edu/~pfackler/Music/CBTunes.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

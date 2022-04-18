@@ -1,0 +1,25 @@
+X: 187
+T: Arnold's Duck (jig)
+N: 010052
+C: BB
+R: jig
+Q: 340
+M: 6/8
+L: 1/8
+K: D
+A |"D"d2 F AFE | "Bm"DFB AFE | "D"dcd FAd | "Bm"BAF "A"E2 A |
+"D"d2 F AFE | "Bm"DEF ABA | "D"dfa "G"gfe | "Bm"dBB B2 :|
+A|"Bm"BFF "A"cAA | "D"dcd "Em"efe | "Bm"fBB "G"gBB | "A"afe cBA |
+"Bm"BFF "A"cAA |"D"dcd "Em"efg |"D"faf "A"ece|"Bm"dBB B2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86665
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

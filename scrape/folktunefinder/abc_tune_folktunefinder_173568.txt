@@ -1,0 +1,22 @@
+X: 1
+T: Mad Robin (G)
+O: 1686
+M: C|
+L: 1/8
+K: G
+|: d2 \
+| "G"d2 B4 "(C)"e2 | "G"d2 G4 A2 | "G"B2cB "(Em)"A2G2 | "D7(Am)"AGFE "D7"D4 \
+| "G"d2 B4 "(C)"e2 | "G"d2 G4 A2 | "G"B2cB "D7"A3G | "G"G6 :|
+|: d2 \
+| "Em"g3f "(Bm)"e2d2 | "Em"e2 B4 ^c2 | "B7"B2e2 e3^d | "Em"e6 d2 \
+| "C"d2 c2- "D7"c2B2 | "G"d2 B4 AG | "D7"F2E2 A3G | "G"G6 :|
+S:https://www.folktunefinder.com/tunes/173568
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Mad_Robin_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

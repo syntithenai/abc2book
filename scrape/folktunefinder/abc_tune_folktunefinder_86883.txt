@@ -1,0 +1,25 @@
+X: 229
+T: Brant Point (jig)
+C: BB 5/06
+N: 022171
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=170
+K: D
+D | "D"DFA dcd | "D"dfe dAF | "Em"EGB ede | "A7"egf ecA |
+"D"DFA dcd | "Em"Bef gfg | "D"afd "G"Bcd | "A"edc "D"d2 :|
+A | "Em"Bee gfe | "Bm"fdB "A"ecA | "Em"Bef g2a | "Bm7"baf "A"e2d |
+"Em"Bee gfe | "D"fda fga | "Em"bag "D"fdf | "A"edc "D"d2 :|
+%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86883
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

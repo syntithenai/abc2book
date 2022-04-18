@@ -1,0 +1,33 @@
+X:70
+T: Betty Ann Daly's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] D |"G"GFG "D"Adc | "Em"BEE EDB, | "G"DGB "Am"ABc | "Em"edB e2 f |
+[V:2] z|G,,2[GBD]D,2[AFD]|E,2[EGB]B,,2[EGB]|G,,2[GBD]A,,2[ACE]|E,2[EGB]B,,2[EGB]|
+%
+[V:1] "C"gfe "D"dBA | "Bm"BAF "Em"GEE | "C"CEG "D"Fdc | "G"BGF G2 :|
+[V:2] C,2[CGE]D,2[AFD]|B,,2[BFD]E,2[EBG]|C,2[EGC]D,2[AFD]|G,,B,,D, G,2 :|
+%
+[V:1] A|"G"BdB "C"cec | "D"dfa "G"gdB | "Em"efg dBG | "Am"AGA "Em"B2E|
+[V:2] z|G,,2[GBD]C,2[EGC]|D,2[AFD]G,,2[GBD]|E,2[EGB]B,,2[EGB]|A,,2[ACE]E,2[EGB]|
+%
+[V:1] "G"Bcd "C"cde | "D"def "G"gab | "D"afd "C"gec |"D"dAF "G"G2 :|
+[V:2] G,,2[GBD]C,2[EGC]|D,2[AFD]G,,2[GBD]|D,2[AFD]C,2[EGC]|D,2[DFA][G,,2B,2D,2]:|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86899
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

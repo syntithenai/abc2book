@@ -1,0 +1,28 @@
+X:1
+T:Larid de Kervignac
+C:Traditionnel, fichier abc : Bernard Loffet
+L:1/8
+Q:350
+M:2/2
+K:C
+|: [c2C,,2][cC,]d [e2C,,2][g2C,2] | [d2G,,2][d2G,2] [e2C,,2][cC,]d | [e2C,,2]C,g [d2G,,2]G,2 :| [g2C,,2][gC,]g [g2F,,2]F,a | \
+ [g2C,,2][g2C,2] [e2C,,2][gC,]f | [e2F,,2][d2F,2] [g2G,,2][g2G,2] |: [c2C,,2][cC,]d [e2C,,2][dC,]c | \
+ [d2G,,2]G,2 [g2F,,2][gF,]f | [e2G,,2][d2G,2] [g2C,,2][g2C,2] | [c2C,,2][cC,]d [e2C,,2][dC,]c | \
+ [d2G,,2]G,2 [g2F,,2][gF,]f | [e2G,,2]G,d [c2C,,2]C,2 :| \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/171281
+S:http://diato.ifrance.com/diato/tablat/128.abc
+S:http://diato.ifrance.com/tablat/128.abc
+S:http://diato.org/tablat/128.abc
+S:http://perso.orange.fr/diato/tablat/128.abc
+S:http://perso.wanadoo.fr/diato/tablat/128.abc
+S:http://pro.wanadoo.fr/diato/tablat/128.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/128.abc
+S:http://www.diatonique.net/tablat/128.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

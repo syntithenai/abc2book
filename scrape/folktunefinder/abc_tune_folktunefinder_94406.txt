@@ -1,0 +1,56 @@
+X:19115
+T:Xiringosa (CT 048)
+R:Xiringosa
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Cancin de baile, transcrita en Uviu.
+N:Se conoce este baile con el nombre de La Xiringosa, y se ejecuta del modo siguiente:
+N:colocados en crculo hombres y mujeres, sin que sea precisa una distribucin alternativa, comienzan a cantar, acompandose con un golpe de palmas en cada parte del comps.
+N:En el centro del crculo se encuentra ya de antemano una persona, hombre o mujer, la cual ejecuta un baile de movimientos sencillos:
+N:da un pequeo salto a cada golpe de palmas, llevando los brazos en alto y produciendo con los dedos un sonido que imita a las castauelas.
+N:Al decir los cantadores buscan compaa, el bailador designa a una de las personas que forman el corro, avanzando sta hacia el centro del crculo, a la vez que los cantadores dicen salga ust, don Jos (igual si es hombre que mujer).
+N:Al cantar el verso djalo solo (o djala sola) si se refiere a mujer), abandona el centro del crculo el primer bailador, unindose al corro.
+N:Queda bailando sola la nueva persona y se repite la diversin en la misma forma.
+O:Uviu
+A:Asturies
+Z:Cancioneru de Torner 048
+M:6/8
+L:1/8
+Q:3/8=116
+W:Que la quiero ver bailar,
+W:saltar y brincar,
+W:dar vueltas al aire,
+W:con la geringosa de un fraile,
+W:con su geringosa,
+W:por lo bien que bailas,
+W:hermosa, busca compaa.
+W:
+W:Salga ust, don Jos,
+W:que lo quiero ver bailar,
+W:saltar y brincar,
+W:dar vueltas al aire,
+W:con la geringosa de un fraile,
+W:con su geringosa,
+W:por lo bien que lo bailas, hermosa,
+W:djalo solo, solo, solo.
+K:C
+Bc
+|d2 d d2 B|G2 G AAA|G2 G AAA|BB z2 Bc|
+d2 d dBA|GGG AAA|BB z2 Bc|
+ddd dBA|G2 G AAA|G2 G A2 A|G3 A2 A|G2 z2 Bc|
+d2 d d2 B|G2 G AAA|G2 G AAA|BB z2 Bc|
+d2 d dBA|GGG AAA|BB z2 Bc|
+ddd dBA|G2 G AAA|G2 G A2 A|GG z4 :||
+S:https://www.folktunefinder.com/tunes/94406
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiringosa
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

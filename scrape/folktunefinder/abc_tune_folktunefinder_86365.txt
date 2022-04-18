@@ -1,0 +1,28 @@
+X:230
+T:Blueberry Picker's Clog
+R:Clog
+C:Bruce Osborne  --  May 26 1991
+M:2/4
+L:1/8
+Z:abc by Bruce Osborne - bosborne@kos.net
+K:G
+B,>C|D>E D>C|B,>D G>A|B>c B>G|D>G B>G|!
+A>B A>F|D>F A>F|G>F G>E|(3DED B,>C|!
+D>E D>C|B,>D G>A|B>c B>G|D>G B>G|!
+A>B A>F|D>F A>F|G>B A>F|G2:|!
+|:B,>C|D>G B>d|g>d B>d|c>B c>d|e>g f>e|!
+d>B G>B|d>B G>B|(3ABA (3GFE|D2 B,>C|!
+D>G B>d|g>d B>d|c>B c>d|e>g f>e|!
+d>B G>B|(3cBA F>D|G>B A>F|G2:|!
+S:https://www.folktunefinder.com/tunes/86365
+S:http://www2.redhawk.org:8080/irish/warnock/abc/osbcomp.abc
+% Rhythm Clog
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

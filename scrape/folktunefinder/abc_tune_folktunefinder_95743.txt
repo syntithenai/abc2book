@@ -1,0 +1,29 @@
+X:560
+T:the Physiognomist
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e3f.html
+%%ID:00000e3f
+K:Bb
+de | \
+.f2.f2.f2.f2 | (f2gf edcB) | .A2.A2.A2B2 | c2F2.F2 de | \
+.f2.f2.f2.f2 | (f2gf edcB) | A2B2c2f2    | d2B2B2 ||
+c2 |\
+fcac fcac | bagf =e2c2 | fcac fcac | gfedc2 c2 | \
+fcac fcac | bagf =e2c2 | fcac fcac | g2e2f2 ||
+f2 |\
+b2d'2b2d'2 | d'2c'2c'2b2 | a2d'2b2d'2 | c'2b2b2 f2 |\
+b2d'2b2d'2 | d'2c'2c'2b2 | a2c'2a2c'2 | c'2b2b2 ||
+%page:66
+S:https://www.folktunefinder.com/tunes/95743
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

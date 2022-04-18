@@ -1,0 +1,31 @@
+X:1
+T:Vlierbessenmars
+T:mars
+C:Jan Alexander STRYCKERS
+O:Lier VL-B
+Z:jan.stryckers@lycos.nl
+N:= sambukbera marsxo / elderberry march
+R:march
+L:1/4
+M:2/2
+P:(AABB)n
+K:G
+|: GA/B/AG | dB/c/de/d/ | gd/e/dc/B/ | [M:6/8] AG/AB/ |\
+ [M:2/4] A2 | [M:2/2][L:1/4] GA/B/AG | dB/c/de/f/ | gd/e/fe | d4 :|
+|: de/f/ed | Ac/B/AG/A/ | B/c/d/e/dc/B/ | A2A2 |\
+ de/f/ed | Bc/d/ GA/B/ | cB/A/BA/G/ | d4 |
+ GA/B/AG | dB/c/de/d/ | gd/e/dc/B/ | [M:6/8] AG/AB/ |\
+ [M:2/4] A2 | [M:2/2][L:1/4] GA/B/AG | dB/c/de/f/ | g/d/c/B/A>G | G4 :|
+S:https://www.folktunefinder.com/tunes/174463
+S:http://music.gordfisch.net/tradmusic/pub/cache/Vlierbessenmars_a93561.abc
+% Rhythm March
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Time_signature 6/8
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

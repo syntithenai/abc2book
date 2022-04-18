@@ -1,0 +1,18 @@
+X: 1
+T:the Major
+M:6/8
+L:1/8
+K:Hp
+cBA ABA|ecA Bcd|cBA ABA|dBG Bcd::
+c2e efe|efg aga|c2e efg|fdB Bcd::
+cBA a3 |ecA Bcd|cBA gfg|dBG Bcd:|
+S:https://www.folktunefinder.com/tunes/173963
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Major_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:42
+T: Shishu maque
+N: C1540
+O: China,Fujian, Pucheng
+S: II, 617]
+R: Xiaodiao, Erge]
+M: 2/4
+L: 1/16
+K: G
+E2G2E2G2 | GAdBA2z2
+E3GE3G | GAB2A2z2
+d2d2egd2 | BAG2A2z2
+E3GE3G | ABG2A2z2
+d2d2e2d2 | BAG2A2z2
+E3GE3G | ABG2A2z2
+A2BdA2B2 | z2B2z2e2 | B2d2d2z2
+e2egedB2 | dBA4z2
+E2G2E2G2 | GAB2A2z2
+A3BA2G2 | EDE2D2D2
+EGB,2D2z2
+EGB,2D2z2
+A2BdA2B2- | B2BBB2z2 | e3BdBd2
+G3AGED2 | E2z2
+G2AB | G2D2E2AB | G2D2E4- | E4z4
+S:https://www.folktunefinder.com/tunes/92065
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, erge]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

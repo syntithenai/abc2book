@@ -1,0 +1,27 @@
+X: 1
+T: Mug of Brown Ale, The
+C: J-50
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+K: Am
+G| "Am"EAA Acd| edB c2A| "G"BGG dGG| Bdc BAG|
+   "Am"EAA Acd| ede a2g| edc "E7"Bcd| "Am"ecA A2:|
+\
+f| "Em"gef g2a| gef g2d/c/| "G"BGG dGG| BdB BAG|
+   "Em"gef g2a| gef g2d| "Am"edc "E7"Bcd| "Am"ecA A2f|
+   "Em"gef g2a| gef g2d/c/| "G"BGG dGG| BdB BAG|
+   "Am"EAA Acd| ede a2e| edc "E7"Bcd| "Am"ecA A2|]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/177578
+S:http://roaringjelly.org/music/jig/J050_Mug_of_Brown_Ale_The.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J050_Mug_of_Brown_Ale_The.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J050_Mug_of_Brown_Ale_The.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

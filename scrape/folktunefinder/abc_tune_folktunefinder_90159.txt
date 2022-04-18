@@ -1,0 +1,31 @@
+X:7
+T:Air du branle coupp appell Charlotte.
+R:Branle coup
+C:Trad.
+S:Thoinot Arbeau
+N:vrifier 3me mesure : cABc ou c3/2 ABc 
+N:0154.gif
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z:<anamnese@laposte.net> -- http://anamnese.fr.st
+Z:Transcrit et/ou corrig par Michel BELLON - 2006-11-25
+Z:Pour toute observation mailto:galouvielle@free.fr
+M:8/4
+L:1/4
+Q:1/4=200
+K:F
+GGBB ccd2 | gz dz | cABc d2 G2 :: Gddd cdB2 | dz cz |
+GABc AG   | dz cz | GABc AG | dz ez | dcBB AA G2 ||
+%%footer $D   Galouvielle-MBe 2007 \nBranle coup (France)
+S:https://www.folktunefinder.com/tunes/90159
+S:http://michel.bellon.free.fr/Musique/abc/DanseCompagnonsdeRoland.abc
+% Rhythm Branle coup
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key F
+% Time_signature 8/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

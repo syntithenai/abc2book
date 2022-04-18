@@ -1,0 +1,30 @@
+X:0697
+T:"Planxty Madam Crofton"         0697
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(#024 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C
+L:1/8
+K:G
+"^vb"egfe d zB z|cBAc B zA z|BGAF GEF^D|EFGA B2-B z|
+Be^de f zf z|edcB g zg z|agfg a za z|baga b zb z|
+(bc')(a^d') (e'b)(c'b)|(ab)(ga) (fg)(af)|(gb)(ac') (bd')(e'c')|b2 TRa3/2g/2 g2za|
+(gc')(ba) (ga)(gf)|(eg)(fe) =d zB z|(cB)(Ac) (B^d)(e3/2B/2)|(AG){G}(TRF3/2E/2) E2E z:|
+|:B zA zG zF z|EFGA B2B z|(Be)(^df) (eg)(fa)|{ga}b3a g2za|
+{g}b z{g}b2 BGEG|{b}d' z{b}d'2dBGB|{f}a z{f}a2AFDF|gfe3/2f/2 d2ze|
+d zb2(agfe)|d zb2(agfe)|^d^cBd eBGB|AGF3/2E/2 E2z2:|
+S:https://www.folktunefinder.com/tunes/182783
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/697-PlanxtyMadamCrofton.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

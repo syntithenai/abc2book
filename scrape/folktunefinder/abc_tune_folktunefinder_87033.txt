@@ -1,0 +1,38 @@
+X:740
+T: Sean at the Wheel (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: Dm
+[V:1] "Dm"DA,A,F "C"EDCE|"Dm"DEFG Ad^cd|"Dm"fd (3ded "Am"ecAc|"Dm"d2 cA "C"GEFE|
+[V:2] D,2[A2D2F2]C,2[E2G2C2]|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2C2E2]|\
+D,2[A2D2F2]C,2[E2G2C2]|
+%
+[V:1] "Dm"DA,A,F "C"EDCE|"Dm"DEFG Ad^cd|"Dm"fd (3ded "Am"edcA|"C7"GcBc "Dm"ED D2 :|
+[V:2] D,2[A2D2F2]C,2[E2G2C2]|D,2[A2D2F2]A,,2[A2D2F2]|D,2[A2D2F2]A,,2[A2C2E2]|\
+C,2[E2G2B2]D,2[A2D2F2]:|
+%
+[V:1] "Dm"dAcA "Dm7"dAcA|"Dm"defa "C"gefe|"Dm7"dAcA "Dm"daag|"Dm"fdef "Am"eAce|
+[V:2] D,2[A2D2F2]A,,2[A2C2F2]|D,2[A2D2F2]C,2[E2G2C2]|D,2[A2D2F2]A,,2[A2D2F2]|\
+D,2[A2D2F2]A,,2[A2C2E2]|
+%
+[V:1] "Dm"dAcA "Dm7"dAcA|"Dm"defd "C"efge|"Dm"fd (3ded "Am"edcA|"C7"GcBc "Dm"ED D2 :|
+[V:2] D,2[A2D2F2]A,,2[A2C2F2]|D,2[A2D2F2]C,2[E2G2C2]|D,2[A2D2F2]A,,2[A2C2E2]|\
+C,2[E2G2B2][D,4A,4F4] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87033
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

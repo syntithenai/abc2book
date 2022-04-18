@@ -1,0 +1,36 @@
+X:900
+T:Through the Wood Laddie
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+N:version of Carolan's "Quarrel with the landlady" 
+O:England
+Z:Richard Robinson 
+%%RRN:"an Ould way of playing it"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000061d.html
+%%ID:0000061d
+K:F lydian
+FC | \
+D2 F2 G2 | A4   (fe) | d2 (fd)(cA)  | G4    FG  | \
+A3  B AG | A2 F2 FG  | AGABAG       | A2 F2 C2  |
+D2 F2 G2 | A4   (fg) | (ag)(fd)(cA) | G4   (Bc) | \
+d2 fdcA  | c2 dcBA   | B2   D2  E2  | F4 ::
+(fe) |\
+d2 f2 g2 | a4    (fg) | a2 bagf  | g4    fg | \
+a3  b ag | a2 f2 (fg) | agabag   | a2 f2 c2 |
+d2 f2 g2 | a4    (fg) | agfdcA   | G4 Bc | \
+d2 fdcA  | c2dcBA     | B2 D2 E2 | F4 |]
+%%newpage
+%page 72
+S:https://www.folktunefinder.com/tunes/88337
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

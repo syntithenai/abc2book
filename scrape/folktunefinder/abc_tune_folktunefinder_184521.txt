@@ -1,0 +1,22 @@
+X:1
+N: Rakes of Glasgow
+N: 8 x 32S3C (RSCDS Book 11)
+P: Rakes of Glasgow
+C: RSCDS Book 11
+C: Arr. T. Traub 8-18-2003, based on Paddledoo 4-part arr.
+K: C
+M: 4/4
+L: 1/8
+|: G|"C"c>d c>G E>C E<G|"F"A>c G<E "G"g>e d>e|"C"c>d e>c "F"A<c "C"G>c|"G"B>d G>d "C"e<c c :|
+|: G|"F"A2 "G"G>F "C"E<C E2|"C"g>e "F"f>d "G"B/c/d/B/ G2|"F"A2 "G"G>F "C"E<C E<c|"G"B/c/d/B/ G>d "C"e<c c :|
+|: d|"C"e2 c>g e<c g>c|"Dm"d2 "C"e2 "G"g/f/e/f/ d2|"C"e2 c>g "Am"e<c g>c|"G"B/c/d/B/ G>g "C"e<c c :|
+|: G|"F"A2 "G"G>F "C"E<C E2|"C"g>e "F"f>d "G"B/c/d/B/ G2|"F"A2 "G"G>F "C"E<C E<c|"G"B/c/d/B/ G>d "C"e<c c :|
+S:https://www.folktunefinder.com/tunes/184521
+S:http://terrytraub.org/abc/RakesOfGlasgowS.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

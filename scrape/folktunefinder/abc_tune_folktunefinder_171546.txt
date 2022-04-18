@@ -1,0 +1,22 @@
+X:1
+T:Twirling Dervish
+C:copyright 1998 Kaubells
+E:12                   % note spacing
+M:C
+K:DMix
+d2|:"D"a2ag fgaf|"G"gagf efge|"D"fgag fedf|"C"edcd A2b2|
+"D"a2ag fgaf|"G"gagf efge|"D"fedf "C"edc2|1"D"d2zed2A2:|2"D"d4z2d2||
+E:18                   % note spacing
+|:"A"e2A2A2e2|"D"f2A2A2f2|"C"e2G2"Am"G2e2|"D"fgfe d2f2|
+E:22                   % note spacing
+"A"e2A2A2e2|"D"f2A2A2f2|"C"e2G2"Am"c2e2|"D"d4z2d2:|
+\bigskip              % a bit of space
+S:https://www.folktunefinder.com/tunes/171546
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/twirling.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

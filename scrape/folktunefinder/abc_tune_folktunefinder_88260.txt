@@ -1,0 +1,24 @@
+X:515
+T:Bridge of Lodi
+T:Manchester Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed8.html
+%%ID:00000ed8
+K:C
+GE |\
+C2c2 c2Bc | dBGB c2cd | ecec fdfd | gece dBGE |\
+C2c2 c2Bc | dBGB c2cd | ecec BAG^F | G2G2 G2 ::
+ef | gfed cBAG | A2F2 F2fg | agfe dcBA | B2G2 G2 ef |\
+gege afaf | gege afaf | geaf ecdB | c2c2 c2 ::
+S:https://www.folktunefinder.com/tunes/88260
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

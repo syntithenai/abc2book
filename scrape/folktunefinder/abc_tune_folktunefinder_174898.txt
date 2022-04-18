@@ -1,0 +1,31 @@
+X:1
+T:Mazurka
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gehoert von Werner Schoenfeldinger
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+d2 |
+BGB2d2 | AFA2de | d3cBA | B2G2d2|
+BGB2d2 | AFA2de | d3cBA | G4 ||
+D2 |
+GFGABG | A2A2de | d3cBA | B2G2D2|
+GFGABG | A2A2de | d3cBA | G4 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174898
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.BGB2d2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

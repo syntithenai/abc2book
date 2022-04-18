@@ -1,0 +1,30 @@
+X:1
+T:The Maid of Australia
+M:6/8
+L:1/8
+K:Bb
+ D| F2 F FDE|
+M:9/8
+ FDB, B3 z Bc|
+M:6/8
+ d3/2 d/2 c BAG| FGE D3/2 F/2F/2 F/2| GGG GFF|
+M:9/8
+ FDB, B3 z Bc|
+M:6/8
+ ddc BAG| FGE DEF| GCC| CDE|
+M:9/8
+ G2 G F3 B2 A|
+M:6/8
+ GFE DEF|B-c d edc| cBG FGA| B3- B2||
+S:https://www.folktunefinder.com/tunes/173771
+S:http://back.numachi.com:8000/dtrad/abc/MAIDAUST.abc
+S:http://sniff.numachi.com/abc/MAIDAUST.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MAIDAUST.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 6/8
+% Time_signature 9/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X: 1
+T: Mozart's Upside-down Canon
+C: W.A.Mozart
+L: 1/8
+M: 4/4
+%%indent 20
+K: G
+[| z2d2 | g4 d2B2 | G2[g2B2D2] [g2B2D2]d'2 | bbgg ddd2 | g2z2 z2d2 | eege ddgd |
+ccAA BzB2 | ccec BBdB | AAFF G2z2 | d4 edcB | Bc^cd A4 | B4 cBAG |
+G4 F4 | c4 GA^AB | BAGF G4 | e4 d4 | dcBA B4 | z2b2 c'c'aa |
+gdgg fdff | g2zd eecc | BGBB AFAA | G2[g2B2D2] [g2B2D2]d2 | g2gg ddBB | G2[g2B2D2] [g2B2D2]d'2 |
+b2g2 d4 | g2z2 z2d2 | g2b2 d'2b2 | g4 d4 | B2G2 B2d2 | g2z2 z2b2 |
+a2 g4 f2 | g2z2 z2d2 | ec G4 ce | dB G4 Bd | ccac BBgB | A4 B4 |
+ccac BBgB | AFAA A4 | e4 eege | dBdd cAcc | ddgd eege | dBdd cAcc |
+B2[g2B2D2] [g2B2D2]z2 | z2[f2A2D2] [f2A2D2]z2 | z2[g2B2D2] [g2B2D2]z2 | c2 B4 A2 | G2[g2B2D2] [g2B2D2]d2 |
+g2b2 d'2b2 | g4 d4 | B2G2 B2d2 | g2z2 z2d2 | g4 d2B2 | G2[g2B2D2] [g2B2D2]d'2 |
+bbgg ddd2 | g2z2 z2d2 | eege ddgd | ccAA BzB2 | ccec BBdB |
+AAFF G2z2 | d4 edcB | Bc^cd A4 | B4 cBAG | G4 F4 | c4 GA^AB |
+BAGF G4 | e4 d4 | dcBA B4 | z2b2 c'c'aa | gdgg fdff | gzd2 eecc |
+BGBB AFAA | G2[g2B2D2] [g2B2D2]B2 | g2gg ddBB | G2[g2B2D2] [g2B2D2]d'2 | b2g2 d4 | g2z2 |] y8
+S:https://www.folktunefinder.com/tunes/177330
+S:http://trillian.mit.edu/~jc/music/abc/by/Mozart/UpsideDownCanon_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/classical/Mozart/UpsideDownCanon_G.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

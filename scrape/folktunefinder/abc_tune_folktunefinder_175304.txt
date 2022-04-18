@@ -1,0 +1,21 @@
+X: 1
+T: Menuett Fr\aan Karleby
+T: Menuetti Kokkolasta
+B: "Hembygdsmelodier fr\aan Karlebynejden", Lennart Witting ed.
+M: 3/4
+L: 1/16
+K: G
+V: 1
+|: "G"d4 g4 b4 | bagf g2d2 B2d2 | "C"g3f e2eg f2e2 | "D7"d3f a2af "G"g4 :|
+|: "G"{g}b2bg {g}b2bg b2fg | "D"a2gf "A7"agfe "D"d2d2 | "G"{g}b2bg {g}b2bg b2fg | "D"a2gf "D7"e2ef "G"[g4B4] :|
+V: 2
+|: "G"B4 B4 d4 | "G"dcBA B2B2 G2B2 | "C"[e3c3]d c2ce d2c2 | "D7"c3c c2cA "G"B4 :|
+|: "G"{B}d2dB {B}d2dB d2de | "D"f2ed "A7"^cccc "D"d2d2 | "G"dddd "B"^dddd "Em"e2de | "D"f2ed "D7"c2c2 "G"B4 :|
+S:https://www.folktunefinder.com/tunes/175304
+S:http://trillian.mit.edu/~jc/music/abc/Finland/minuet/MenuettFrKarleby_G.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/minuet/MenuettFrKarleby_G.abc
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,21 @@
+X: 10
+T: VALSE ECOSSAISE 1
+M: 3/4
+L: 1/8
+Q:1/4=120
+K:G
+|G3/2A/2B d3/2 z/2 d|edB dBA|G3/2A/2B d3/2 z/2 d|edB A3/2 z/2 D|
+G3/2A/2B d3/2 z/2 d|edB d3/2 z/2 B|deg B3/2 z/2 A|B/2A/2G2 G3/2 z/2 g3/2
+|
+f/2gd3/2 z/2 de|dBd B/2d/2B/2d/2g3/2|f/2gd3/2 z/2 de|dBA3/2 z/2 DG3/2|
+A/2Bd3/2 z/2 de|dBd3/2 z/2 Bd|egB3/2 z/2 AB/2A/2|G2G3/2|
+S:https://www.folktunefinder.com/tunes/86088
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/nantais.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:1045
+T:Rickers Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000060f.html
+%%ID:0000060f
+K:D
+fg |\
+afaf d2fd | ecec A2GF | GABc defg | ecAc e2fg |
+afaf d2fd | ecec A2GF | Ggbg fdec | d2d2 d2 ::
+de |\
+fde=c B2ga | b2e2 e2=cd | e=cdB A2fg | a2d2 d3A |
+BcdB AFAF | BcdB AFAF | Ggbg fdec | d2d2 d2:|
+S:https://www.folktunefinder.com/tunes/88366
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

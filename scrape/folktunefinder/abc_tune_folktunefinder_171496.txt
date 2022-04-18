@@ -1,0 +1,25 @@
+X:1
+T:"Last Chance  Bourree"
+C:Michel Pichon
+N:"based around a tune called 'Il n'est plus temps' written by .... Michel Pichon"[Blowzabella]
+A:France
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:Dm
+F2 A2 | d3f | e3/2d/2 cB | dc BA |\
+F2 A2 | dA2f | e3/2d/2 Bd |1 A4 :|\
+                          [2 A/2G/2A3 ||
+|:\
+dc2d- | d3A | G3/2A/2 GA | GA GF |\
+dc2d | F3B | AF BA | FB A2 :|
+S:https://www.folktunefinder.com/tunes/171496
+S:http://simonwascher.info/TradArchiv_bourree_2/last_chance__bourree.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

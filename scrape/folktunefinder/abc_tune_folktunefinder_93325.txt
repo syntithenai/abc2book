@@ -1,0 +1,25 @@
+X:310
+T: Peter Walsh's
+M: 6/8
+L: 1/8
+S: B.Flaherty
+Z: B.Black
+R: jig
+K: G
+B/c/ | d2 e dBB | dBA GED | EGE DB,D | DED GED |
+d2 e dBB | dBA GED | EGE DB,D | DED G2 :|
+G/A/ | BdB dcd | edB AGA | B2 d dcd | edB A2 A |
+BdB dcd | edB AFD | E2 E DB,D | DED G2 :|
+S:https://www.folktunefinder.com/tunes/93325
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

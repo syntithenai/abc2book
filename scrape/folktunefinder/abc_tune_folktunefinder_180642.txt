@@ -1,0 +1,23 @@
+X: 1
+T: Orsapolska
+O: Orsa, Dalarna
+R: Polska
+Z: Hkan Lidn, 2009-02-02
+M: 3/4
+L: 1/8
+K: Ador
+A>B cG | A<c e4 | e>f g2 f>e | d<e c2 B2 | 
+A>B cG | A<c e4 | e>g b>b a>a | g2 e4 :|
+|: (3:2:4z2 g2 fg a>g | (3g2 e2 c2 d2- | dc/d/ ec A>B | (3:2:5 c2 Bc BG A2- | 
+(3:2:4A2 g2 fg a>g | (3g2 e2 c2 d2- | dc/d/ ec A>B | cB/c/ dc B>A | ^G<B A4 :|
+S:https://www.folktunefinder.com/tunes/180642
+S:http://www.folkwiki.se/pub/cache/_Orsapolska_23055e.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

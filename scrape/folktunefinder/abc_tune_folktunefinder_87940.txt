@@ -1,0 +1,23 @@
+X:115
+T: Gallope (An)
+S: "Traditional Irish Music" (K.Tweed)
+Z: B.Black
+L: 1/8
+M: 2/4
+R: polka
+K: D
+D2 FD/F/|AF/A/ dF|AG GE|BA FA|
+D2 FD/F/|AF/A/ dF|AG GE|ED DA :|
+AG-GE|BA F>A|AG-GE|BA FA|
+DA,/D/ FD/F/|AF/A/ dF|AG GE|ED D2 :|
+S:https://www.folktunefinder.com/tunes/87940
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/g.abc
+S:http://www2.redhawk.org:8080/irish/zouki/g.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

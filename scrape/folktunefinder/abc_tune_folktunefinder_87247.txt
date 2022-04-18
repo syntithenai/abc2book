@@ -1,0 +1,47 @@
+X: 9162
+T: Trim Castle (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"GFG dcB | "D7"DED cBA | "G"GFG d2 e | "A"^c2 e "D"d2 d |
+[V:2] z|G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[GBD]|A,,2[A^CE]D,2[AFD]|
+%
+[V:1] "G"GFG dcB | "D7"DED cBA | "Em"BGD "C"E2 c | "D"AFA "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|E,2[EBG]C,2[CGE]|D,2[AFD][G,,2D,2B,2]:|
+%
+[V:1] d|"G"gfg d2 B | "C"cde "G"dBG | "C"cde "Am7"eag | "D"fd^c d2 e |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]G,,2[GDB]|C,2[CGE]A,,2[GCE]|D,2[AFD]A,2[AFD]|
+%
+[V:1] "Em"gfe "G"dcB | "C"cde "G"dBG | "Em"EFG "Am"ABc |"D"AFA "G"G2 :|
+[V:2] E,2[EBG]G,,2[GDB]|C,2[CGE]G,,2[GDB]|E,2[EBG]A,,2[AEC]|D,2[AFD][G,,2D,2B,2]:|
+%%%%%%%%%tune repeat
+[V:1] D|"G"GFG dcB | "D7"DED cBA | "G"GFG d2 e | "A"^c2 e "D"d2 d |
+[V:2] z|G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|G,,2[GBD]D,2[GBD]|A,,2[A^CE]D,2[AFD]|
+%
+[V:1] "G"GFG dcB | "D7"DED cBA | "Em"BGD "C"E2 c | "D"AFA "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|D,2[AFD]A,,2[AFD]|E,2[EBG]C,2[CGE]|D,2[AFD][G,,2D,2B,2]:|
+%
+[V:1] d|"G"gfg d2 B | "C"cde "G"dBG | "C"cde "Am7"eag | "D"fd^c d2 e |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]G,,2[GDB]|C,2[CGE]A,,2[GCE]|D,2[AFD]A,2[AFD]|
+%
+[V:1] "Em"gfe "G"dcB | "C"cde "G"dBG | "Em"EFG "Am"ABc |1 "D"AFA "G"G2 :|2\
+ "D"AFA "G"HG3||
+[V:2] E,2[EBG]G,,2[GDB]|C,2[CGE]G,,2[GDB]|E,2[EBG]A,,2[AEC]|1 D,2[AFD][G,,2D,2B,2]:|2\
+D,2[AFD]H[G,,3D,3B,3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87247
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

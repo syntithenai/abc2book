@@ -1,0 +1,23 @@
+X: 39
+T: RORY O'MORE -- JIG
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: jig
+M: 6/8
+L: 1/8
+Z: Contributed 20000421030321 by John Chambers jcsd:world.std.com
+K: A
+uf \
+| eAA cAA | eAA A2f | edc cBA | GBB Bcd |
+| eAA cAA | eAA fed | cde efg | aAA A2 :|
+|: ua \
+| agf fcc | dcB A2G | FGA ABc | cfe e>fg |
+| agf fcc | dcB A2G | FGA ABc | cfe e2 :|
+S:https://www.folktunefinder.com/tunes/177175
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/QR.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X: 1
+T: Lament For Owen Roe O'Neill
+M: 4/4
+L: 1/8
+R: reel
+K: Gmin
+(GABc) d3 c|(Bcd=e) f2 (ef)|(gd)(dc) ~B2 (AG)|A2 (GF) D2 z2|
+(GA)Bc d2 cB|(cB)(AG) F2 Ac|(B2 AG) (AGAc)|B2 A>G G2 z2|
+(GABc) d3 c|Bcd=e f2 ef|g2 d2 (edcB)|A2 ~G>F F2 z2|
+(d>ed.B) .c.c.c.A|(B>cB).G .A.G.F(D|B3) (G A3) (F|~G)>FD^F G2 z2||
+S:https://www.folktunefinder.com/tunes/171110
+S:http://www.thesession.org/tunes/display/7199
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

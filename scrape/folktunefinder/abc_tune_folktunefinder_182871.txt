@@ -1,0 +1,27 @@
+X:1200
+T:"The Pleasures Of Home"   (reel)  1200
+C:after  Chief  F. O'Neill
+N:Transposed from Eb
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:2/4
+L:1/16
+K:D
+(fe)|dB2B B^ABc|dcde f2(ed)|cA2A A^GAB|c^Bcd e2(fe)|
+dB2A FGAF|Bcde f2(ed)|cAce dBcA|F2B2 B2:|
+|:(Bc)|dcde fgfe|dcde f2(f^g)|abaf efed|cAcd e2(fe)|
+dcdB cB^Ac|Bcde f2(f^g)|afec Acec|d2B2 B2:|
+S:https://www.folktunefinder.com/tunes/182871
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1101-1200/1200-PleasuresHome.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1101-1200/1200-PleasuresHome.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,37 @@
+X:10289
+T:Marcha de l'Alegra (XA 39)
+R:Marcha
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+A:Asturies
+Z:Mtodu de Xuacu Amieva 39
+M:2/4
+L:1/8
+Q:1/4=116
+K:F
+C
+|FC FG|~A2 AB|AG FE|F2 FC|
+|FC FG|~A2 AB|AG FE|F3 C|
+|FG AB|c2 c~d|cB ~AG|F2 FC|
+|FG AB|c2 c~d|c3 ~d|c3 ~d|
+|c~d c~d|c3 ~d|cB ~AG|F2 FG|
+|: AB/A/ GF|~ED EF|GA/G/ FE|~DC FG|
+|AB/A/ GF|~ED EF|G~F ~E~D|[1 C2 FG :|[2 C2 CC|
+[K:C]
+|: EF/E/ DC|~DB, DE|FG/F/ ED|~EC CC|
+|EF/E/ DC|~DB, DD|G~F ~E~D|[1 C2 CC :|[2 C3 z|
+S:https://www.folktunefinder.com/tunes/98071
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

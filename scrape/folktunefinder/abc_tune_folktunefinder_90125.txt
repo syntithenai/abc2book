@@ -1,0 +1,77 @@
+X:138
+T:Themes
+C:A. Terreri
+C:N. J. Col. Militia
+%%staves (1 2)
+U:R=!breath!
+M:2/4
+L:1/8
+K:D
+%P:1812 Overture
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+"^A"dd/e/ f/e/d/e/|f4|ee/f/ g/f/e/f/|g4|ff/g/ a/g/f/g/|a4|e/f/g Ae/f/|
+gA g/f/Re||"^B"dd/e/ f/e/d/e/|fd Rd2|ee/f/ g/f/e/f/|ge Re2|ff/g/ a/g/f/g/|
+af Rf2|e/f/g Ae/f/|gA g/f/e||"^C"dD (D>E)|RF2 (d2|e)E (E>F)|RG2 (e2|f)F F>G|
+RA2 (f2|e/)f/g Ae/f/|gA g/f/Re||"^D"d/e/f/e/ d2|e/f/g/f/ Re2|f/g/a/g/ fg/a/|
+b/a/g g/f/e||\
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+x4|x4|x4|x4|x4|x4|x4|x4||x4|x4|x4|x4|x4|x4|x4|x4||
+x4|x4|x4|x4|x4|x4|x4|x4||x4|x4|x4|x4||
+V:1
+P:Folk (Our Lady)
+|:[M:6/8]!ff!"^E"d>dd e>ee|f/d/z2 zff|Tg2f e>ed|c3-c2 g|g2e efg|
+f2d d2f|Re2e edc|d2e f2g||[1 "^F"Rg2e efg|f2d Rd2f|e2e edc|d3-d2 A:|
+[2 "^G"g2e efg|z3 z2f|f2d def|z3 z2e|e2c cde|f2d f2e|e2c cde|
+Rd3 e3|f3 gfe|d3 e3|Rf3 gfe||\
+V:2
+|:[M:6/8]x6|x6|x6|x3x2!pp!B|B2G GAB|
+A2F F2A|G2G GFE|F2G A2B||[1 B2G GAB|A2F F2A|G2G GFE|F3-F2x:|
+[2 B2G GAB|x3 x2A|A2F FGA|x3 x2G|G2E EFG|A2F A2G|G2E EFG|
+F3 G3|A3 BAG|F3 G3|A3 BAG||
+V:1
+P:Weasel
+"^H"d>dd e>ee|faf Rd2A|
+d>dd e>ea|f3 Rd2A|d>dd e>ee|faf Rd2z||"^I"z2z ee/ R.az/|z2z ee/ .az/||
+|:"^J"fdd gee|aff bag|[1 Aff fed|cAA AAA:|[2 Aff Gee|Fdd ddd||
+V:2
+x6|x6|x6|x6|x6|x6||x6|x6||
+|:x6|x6|[1 x6|x6:|[2 x6|x6||
+V:1
+|:"^K"g3-g>zf/e/|d(3AAA A>AA|g3-g>zf/e/|d3 A3|g3-g>zf/e/|d(3AAA A>AA|z2z A>AA|z2z A>AA:|
+V:2
+|:B3-B>zA/G/|FDD D>DD|B3-B>zA/G/|F3 E3|B3-B>zA/G/|FDD D>DD|x2x D>DD|x2x D>DD:|
+V:1
+M:2/4
+P:British
+"^L"dA de|fg/f/ ef/g/|ad f/e/d/c/|d2-d (3(A/B/c/)|dA de|fg/f/ ez||
+L:1/16
+z4 agfe|daaa ^gaaa|fdd2 gfed|caaa ^gaaa|ec c2 fedc|
+Bbbb ^abbb|fddd edcB|A2a2 A2a2|A2A2 A2dc||
+P:Sailor's
+|:"^M"d2D2 D2AG|FAd2 dfed|e2E2 E2ed|cda2 a4|Bddd Addd|Gddd Fddd|
+BdAd GdFd|[1 F2D2 D2 dc :|[2 F2D2 D4||:"^N"LDddd dd=cd|LBGGG LGGGG|
+LEeee eede|LcAAA AAAA|LFfff ffLBg|gggg caaa|caBg AfGe|
+[1 Fddd dddd:|[2 d2D2 D2AG||[P:Modulation]"^O"FAd2 d2fe|f2D2 D2fe|dfa2 a2gf|
+g2A2 A2ed|cea2 a2 (3(ABc)|d2A2 d2e2|f2gf e2fg|a2d2 fedc|d4-d2 (3(ABc)|
+d2A2 d2e2|f2gf e4|z4 agfe|\
+P:Finale
+=c8-|c4-c3 A|=c8-|c4-c3 .A|c8-|c4 .a.g.f.e|Ld2.d2 z4||
+S:https://www.folktunefinder.com/tunes/90125
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

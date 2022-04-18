@@ -1,0 +1,29 @@
+X:1
+T:Lunzer Boarisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:collection Elisabeth und Christoph Huspeka
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+d2B2 c2A2 | GBD2 G2B2 | FAD2 F2A2 | GBD2 G2B2 |
+d2B2 c2A2 |GBD2 G2B2 | FAD2 F2A2 | G2G2G4 :|
+|:\
+D2B2 A2G2 | F2FAD4 | D2c2 B2A2 | G2GBD4 |
+D2B2 A2G2 | F2FAD4 |F2d2 B2A2 | G2G2G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/173384
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/lunzer_boarisch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

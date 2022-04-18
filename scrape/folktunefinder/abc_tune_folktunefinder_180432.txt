@@ -1,0 +1,19 @@
+X: 1
+T: One Too Many
+M: 6/8
+L: 1/8
+R: jig
+K: Dmix
+&quot;Am&quot; A2 A e2 e | &quot;G&quot; dcB &quot;Am&quot; A2 E | &quot;Am&quot; ABc &quot;G&quot; BAG | &quot;Am&quot; ABc &quot;E&quot; e2 ^d |
+&quot;Am&quot; A2 A e2 e | &quot;G&quot; dcB &quot;Am&quot; A2 E | &quot;Am&quot; ABc &quot;G&quot; BAG | &quot;Am&quot; ~A3 A3 :|
+&quot;Am&quot; e2 e a2 a | &quot;G&quot; gfe d2 A | &quot;D&quot; def gfe | &quot;G&quot; ~g3 g3 |
+&quot;Am&quot; e2 e a2 a | &quot;G&quot; gfe d2 d | &quot;Am&quot; ABc &quot;G&quot; BAG | &quot;Am&quot; ~A3 A3 :|
+S:https://www.folktunefinder.com/tunes/180432
+S:http://www.thesession.org/tunes/display/4060
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

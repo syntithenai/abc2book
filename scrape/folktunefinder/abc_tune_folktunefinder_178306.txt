@@ -1,0 +1,28 @@
+X:1
+T:Near Miss
+C: 1999 Harry Bolick -  harry@bolick.net - www.bolick.net
+R:March
+O:United States
+A:Brooklyn, New York
+M:4/4
+L:1/8
+Q:400
+K:G
+z|:"Bm" B2 F2 B2 d2 | f6 f2 |  e2d2 B2>F2 | "F#m" A6 A2 |\
+"D" B2F2 B2d2 | f2a2 f2f2 | e2d2 ^c2A2  | "F#m" ^c6^c2 |
+"Bm" d2f2 e2d2 | "F#m" ^c2A2 F4 | "G" G2B2 A2G2 | F2D2 "Em"B,4 |\
+"D" A,2>B,2 D2D2 | A,2>B,2 D2 B2 | A2F2E2D2  | "Em" B,8:|
+|: "G" G4 G2   D2 |  E2 D2 B,A, G,2 | "D" A,4  d2>A2 | B2 A2 FE D2 |\
+"G" G4 G2   D2  |  E2 D2 B,A, G,2 | "D" B2A2 F2D2 | "G" G8 |
+G4 G2   D2 |E2 D2 B,A,G,2 | B2d2e2f2  | g2d2B2A2 |\
+G4 G2 D2 | E2 D2 B,A, G,2 |"D" B2A2 F2D2 | "G" G8 :|
+S:https://www.folktunefinder.com/tunes/178306
+S:http://www.bolick.net/sound/NearMiss.txt
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

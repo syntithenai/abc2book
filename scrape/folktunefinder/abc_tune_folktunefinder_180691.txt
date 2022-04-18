@@ -1,0 +1,28 @@
+X:0190
+T:"O! Sweet Adare"             (air)                 0190
+C:Unattributed
+C:slowly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+N:Transposed from "F"
+Q:1/4=70
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"B ef|g2fe e3/2d/2|B3A ^GA|B3/2A/2 ^GB A3/2=G/2|E3B ef|
+g2fe dB|Hb3a gf|e3/2g/2 fe ^df|e3||
+b ba|g3/2a/2 bg ag|f3/2g/2 af gf|e3/2g/2 fe e^d|B3A ^GA|
+B^c dB e^d|e3/2f/2 Hb3/2a/2 gf|e3/2g/2 fe ^df|e3|]
+S:https://www.folktunefinder.com/tunes/180691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/190-SweeAdare.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/190-SweeAdare.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

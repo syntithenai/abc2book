@@ -1,0 +1,24 @@
+X: 1
+T: Aires De Pontevedra
+M: 4/4
+L: 1/8
+R: reel
+K: Amix
+e | a2 e2 c2 de | fedc B3 c | dedc B2 cd | edcB A2 e2 |
+a2 e2 c2 de | fedc B3 c | dcde fecA | edBG A4 |
+M:2/4| A2 :|
+Bc | dcdB cABc | dcdB cABc | ecdB cABc | dGBd cAce |g4 gfge |
+agfe dcde | Addc dcde | agfe dcde |c2 cB cBce | agfe dcde |
+M:2/4 B4 |  cecA cecA | BdBG B2 e2 | A4 :|
+S:https://www.folktunefinder.com/tunes/95831
+S:http://www.thesession.org/tunes/display/4587
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

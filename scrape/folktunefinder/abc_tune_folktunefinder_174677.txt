@@ -1,0 +1,25 @@
+X: 15
+T: Trip to Duro
+I: Trip to DuroR-89Dreel
+M: C|
+R: reel
+K: D
+"D"D2FD A2FA| defe "Bm"B2Bc| "G"dBBA "Bm"dBBA| "D"FADE "A7"FEE2|
+"D"D2FD A2FA| defd "G"B2Bc|  dBBA "D"FAdB| "A"AFGE "D"FDD2 :|
+\
+"D"d2de f2fg| afdf "G"gfed| "A"cdef "Em"gebe| "G"gebe "A"gfec|
+"D"d2de f2fg| afdf "G"gfed| "A"cdef "G"gbag| "A"fdec "D"d3e|
+"D"fdec "G"d3e| "D"fded "Bm"B2Bc| dBBA "G"dBBA| "D"FADE "A7"FEE2|
+"D"D2FD A2FA| defd "G"B2Bc| dBBA "D"FAdB| "A"AFGE "D"FDD2|]
+%%text Roaring Jelly  R-89
+S:https://www.folktunefinder.com/tunes/174677
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set28.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set28.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

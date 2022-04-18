@@ -1,0 +1,25 @@
+X:1
+T:La Reine du Bal ("Jesus Christ Superstar")
+A:France 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+D2G2 B3A | GFGED4 | c2cA B2G2 | A2GF E2D2 |
+D2G2 B3A | GFGED4 | c2cA B2G2 | A2F2G4 :|
+|:\
+A3FD4 | B3GD4 | c2Ac B2G2 | A3FD4 |
+A3FD4 | B3GD4 | c2Ac B2G2 | A2F2G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/185225
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/la_reine_du_bal.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

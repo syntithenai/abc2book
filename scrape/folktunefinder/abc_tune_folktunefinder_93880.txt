@@ -1,0 +1,23 @@
+X:1070
+T: Man in the Moon
+S: "Roche Collection of Traditional Irish Music" [II/22/245]
+L: 1/8
+M: 2/4
+Q: 275
+R: polka
+K: D
+D/E/ |: F>A dA | BA dA | Bc/d/ AG | E2 E2 |
+F>A dA | BA dA | Bc/d/ AF |1 D2 D>E :|2 D2 D2 ||
+e>f ff/f/ | ef df | g>a fd | fe e2 |
+e>f ff/f/ | ed ef | a>f dB |1 AF D2 :|2 AF DE ||
+S:https://www.folktunefinder.com/tunes/93880
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

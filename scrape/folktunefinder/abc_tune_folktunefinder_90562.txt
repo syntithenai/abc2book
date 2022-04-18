@@ -1,0 +1,23 @@
+X:530
+T:Musical Priest
+R:Reel
+D:Matt Molloy: Stony Steps.
+Z:id:hn-reel-44
+M:C|
+L:1/8
+Q:1/4=200
+K:Bm
+|FBBA ~B3d|cBAf ecBA|FBBA BcdB|[1 cBAc ~B3A:|[2 cBAc ~B3c||
+|:d2dc dfed|(3cBA eA fAeA|dcBc defb|afec ~B3c:|
+|:dB~B2 bafb|afec ABce|dB~B2 bafb|[1 afec ~B3c:|[2 afec ~B3A|]
+S:https://www.folktunefinder.com/tunes/90562
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

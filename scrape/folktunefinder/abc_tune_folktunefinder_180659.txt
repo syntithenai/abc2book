@@ -1,0 +1,43 @@
+X:1
+T:Osmica
+O:Romania
+C:Trad.
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:3/8=120
+M:6/8
+L:1/8
+K:G
+%%MIDI channel 1
+%%MIDI program 1 110
+%%MIDI chordprog 42
+%%MIDI bassprog 34
+%%MIDI bassvol 125
+%%MIDI gchord f2zf2z
+"Am"[A3D3]~e3 | [ed][ec][eB] [e2A2]G |"G"[ec]G[ec] [ec]G[ec] | [e2B2]A [e2G2] D |
+"Am" G3 ~e3   | dcB [e2A2]G          |"G"[ec]G[ec] [ec]G[ec] | [e2B2]A G2 z ||
+Q:3/8=135
+M:7/8
+%%MIDI gchord fzfzf2z
+"G"D2 G2 ~G3 | [f2B2] [g2c2] [a3d3D3] |"Am"[e2d2] [ec]B [e2A2]G | [eA]c B[eA] (4G-GFG |
+"G"D2 G2 ~G3 | [f2B2] [g2c2] [a3d3D3] |"Am"[e2d2] [ec]B [eA][fB]G |\
+%%MIDI gchord f2z5
+ [e2A2D2] z2 z3 ||
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/180659
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Osmica.abc
+S:http://people.csail.mit.edu/jaffer/Music/Osmica.abc
+S:http://voluntocracy.org/Music/Osmica.abc
+S:http://www.voluntocracy.org/Music/Osmica.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

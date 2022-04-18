@@ -1,0 +1,26 @@
+X:1
+T:Lucky Ducky
+N:To be played after ``Measured Steps''
+C:copyright 1997 Kaubells
+R:Reel
+E:12
+M:C
+K:G
+\bigskip
+"G"G2 d2 .b3a|g/a/ged BABG|"C6"=CDEC AGEC|"D13"DEFD BAEF|
+"G"G2 d2 .b3a|g/a/ged BABG|"C"CDEC "D7"AGEF|1"...G"G4 D4:|2"...G"G6 z2|]
+K:D
+|:"D"A/B/AFA d/e/dBd|AFAd fbag|"A7"az az ABcA|"A"az az BceB|
+"D"A/B/AFA d/e/dBd|AFAd fbag|"A"az az ABcA|"D"dBAF D4:|
+S:https://www.folktunefinder.com/tunes/173292
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/kaubells/lucky-ducky.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:141
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Musical Priest
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:Bm
+BA | FBBA (3.B.B.B Bd | dBAf ecBA | FB{/c}BA (3.B.B.B Bd | cBAc {Bc}B2 ::
+Bc | d2 {/e}dc dfed | cAeg faec | dcBc defb | afec B2 :|]
+Bc | dB (3.B.B.B bafb | afec ABce | dB (3.B.B.B bafb | afec B2Bc |
+dB (3.B.B.B bafb | afec ABce | dcBc defb | afec B2 |]
+S:https://www.folktunefinder.com/tunes/94737
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Musical_Priest_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Musical_Priest_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key B
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

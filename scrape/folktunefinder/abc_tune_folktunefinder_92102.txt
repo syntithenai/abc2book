@@ -1,0 +1,28 @@
+X:79
+T: Sipan
+N: C1576B
+O: China,Shandong, Rizhao
+S: III, 393]
+R: Xiaodiao, Dieduanqiao]
+M: 2/4
+L: 1/16
+K: E
+F2F4BG | F2E2C2E2 | F2F4G2 | F8
+B2B2cecG | B3cB2GF | E3FG2G2 | F2E2C2B,C | E4E4
+F2EFG2F2 | E6F2 | E8
+B2e2c2B2 | G8 | B2e2c2G2 | B2c2B2GF | E3FG2G2 | F2E2C2B,C | E4E4
+F2FEC2CE | F6G2 | B2c2B2G2 | F2G2B2G2 | F2G2F2E2 | C8
+F2G2E2C2 | B,4B,3C | E2F2E2C2 | B,6C2 | B,8
+S:https://www.folktunefinder.com/tunes/92102
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, dieduanqiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

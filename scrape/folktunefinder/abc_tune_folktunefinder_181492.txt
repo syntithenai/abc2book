@@ -1,0 +1,29 @@
+X: 1
+T:Pagans and Puritans
+M:6/8
+C:Stacy Trevenon
+S:Roll Out the Bear'Ale
+N:obtain permission to perform from Pipe \& Bowl
+A:Chipping Under Oakwood
+O:Renaissance Pleasure Faire
+R:J
+%P:A.(AB)$^3$.A
+P:A(AB)3A
+I:speed 200
+K:D
+P:A
+|: d | D2 F  G2 B  | AFG  A2 A  | e>=fd =cde  | Adc d2  :|\
+%
+P:B
+|: d | g>=fe def   | g>ed =cde  | e>=fd =cde  | Adc d2  :|
+S:https://www.folktunefinder.com/tunes/181492
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pa/Pagans_and_Puritans_2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

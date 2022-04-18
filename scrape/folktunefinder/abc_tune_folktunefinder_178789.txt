@@ -1,0 +1,22 @@
+X:1
+T:Nils Holgerson
+C:(Lied zu Kindersendung)
+Z:abc transcription Helmut Eberl
+M:3/4
+L:1/4
+K:C
+Gcd | eg>c' | bf2- | f3 |\
+c'b>f | a3 |1 ag>c | e3 :|\
+           [2 ag>B | c3- | c3 ||
+c3 | c'2 a | g3- | g3 | gag | fef |1 g3- | g3 :|\
+                                  [2 ga_b | b3 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178789
+S:http://simonwascher.info/TradArchiv_walzer/nils_holgerson.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

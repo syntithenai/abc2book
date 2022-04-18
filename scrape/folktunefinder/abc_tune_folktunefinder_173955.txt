@@ -1,0 +1,20 @@
+X: 1
+T: Maison De Glace
+M: 6/8
+L: 1/8
+R: jig
+K: Dmaj
+D3 DEF|ABA AFA|(AB)B Bcd|cBA GFE|D2A, DEF|
+ABA AFA|1(AB)B BAG|F3 EFE:|2(AB)B Bcd|c3 cAF||
+B3 Bcd|(AB)B Bcd|fed edc|dcA dcA|
+(AB)B Bcd|(AB)B Bcd|fed edc|1Adc (d2c):|2Adc d3||
+S:https://www.folktunefinder.com/tunes/173955
+S:http://www.thesession.org/tunes/display/9002
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,36 @@
+X:1
+T:"Palee"
+C:traditionell
+A:Pabneukirchen, Oberoesterreich
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:nach J. Prandstetter 1865
+%%endtext 
+F:http://simonwascher.info 
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+ded | c3 | cdc | B3 |\
+ded | c3 | cdc | B2B/c/ |
+dBG | dBG | ded | c2z |\
+cAF | cAF | cdc | B2B ||
+|:\
+BA/B/c/d/ | edB | dcA | cBG |\
+BA/B/c/d/ | edB | dcA |1 B2B :|\
+                      [2 G2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/181516
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_walzer/palee.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

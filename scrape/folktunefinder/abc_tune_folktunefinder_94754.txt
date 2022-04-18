@@ -1,0 +1,30 @@
+X:158
+U: ~ = !turn!
+%%topmargin 3cm
+T:Paddy Hughes Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Na Fili
+R:Jig
+L:1/8
+M:6/8
+K:G
+ABG AGA | BGE ~G3 | ABA GBd | e/2f/2gd edB |
+ABG AGA | BGE G2 D | GBA G2 B | dBG B/2c/2dB ::
+GBd ~g3 | {/a}gba ~g3 | GBd Pg2 d | e/2f/2gd edB|
+GBd ~g3 | {/a}gba ~g3 | abg age e/2f/2gd edB :|]
+S:https://www.folktunefinder.com/tunes/94754
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Paddy_Hughes_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Paddy_Hughes_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

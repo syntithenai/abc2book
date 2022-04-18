@@ -1,0 +1,24 @@
+X:4
+T:The Major's Jig
+F:http://www.hiico.com/.abc/majors_jig.abc
+O:Scotland
+K:D
+M:6/8
+L:1/8
+Z:Lee Wenzbauer lee@hiico.com 24 August, 2004
+A |: "D" d3 ABc | dAG FED | d3 Bcd | "A" efd cBA | "D" d3 Adc | BAG FED | "G" GFG "A" EAG | "D" FDD DzA :|
+|: "D" FED AFD | "G" GBd dBG | "D" FED AGF |[1 "A" E3 A2G | "D" FED AFD
+| "G" GBd dBG | "A7" Ace gfe | "D"  fdd dzA :|[2 "E" {EFEFEF}E3 "A7" A2G | "D" FED "Em" GFE | "D" AGF "G" BAG | "A7" Aag fge | "D" fdd dz2
+S:https://www.folktunefinder.com/tunes/173994
+S:http://www.hiico.com/.abc/majors_jig.abc
+S:http://www.hiico.com/.abc/majors_jig.abc
+S:http://www.hiico.com/.abc/majors_jig.abc
+% Link Link to ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

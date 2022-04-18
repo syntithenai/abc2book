@@ -1,0 +1,31 @@
+X:020
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Burying Poteen
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Sean McGuire
+R:Reel
+L:1/8
+M:C|
+K:D
+AG |: F4 E4 | DB, ~B,2 DB,A,C | B,E ~E2 FEDE | FABc dcdA |
+FEDF EDFE | DB, ~B,2 DB,A,C | B,E ~E2 FEDE | FB{/c}BA B2 AG ::
+{/G}FEFG A3 d | cdeg fedf | ((3baf) af eg{/g}fe | dfed B2 AG |
+{/G}FDFG A3 d | cdeg fedf | af ~f2 dg{/g}fe | dfed B2 AG :|]
+S:https://www.folktunefinder.com/tunes/94618
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Burying_Poteen_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Burying_Poteen_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

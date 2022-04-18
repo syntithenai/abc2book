@@ -1,0 +1,22 @@
+X: 130217
+T: Mike's Jig
+C: L.Mallette
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: G
+D | G3 ABA | G3 geB | d3 edB | A3 ABA |
+G3 ABA | GBd g2 e | d3 ABA | G3-G2 :|
+B | c3 Ace | B3 GBd | A3 BAG | E3 D2 D |
+G3 ABA | GBd g2 e | d3 EBA | G3-G2 :|
+S:https://www.folktunefinder.com/tunes/175707
+S:http://www.qmcorp.net/webabc/m/130217.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:0951
+T:"Owen Malone"         (jig)     0951
+C:after Mr. Dunlap
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+(B/2c/2)|dBG Gge|dBG Gge|dcB dcB|ABA {B}ABc|
+dBG Gge|dBG Gge|def gdB|G3/2A/2G G2:|
+|:Bdd Add|gag f2d|Bdd Add|ge^c de=c|
+Bdd Add|gag f2e|def gdB|G3/2A/2G G2:|
+S:https://www.folktunefinder.com/tunes/180904
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-0901-1000/0951-OwenMalone.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-0901-1000/0951-OwenMalone.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

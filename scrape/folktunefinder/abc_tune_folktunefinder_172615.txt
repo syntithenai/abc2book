@@ -1,0 +1,24 @@
+X:1
+T:Lnsboda-schottis
+C:Eric Welander
+R:Schottis
+Z:2008-11-27, Patrik Mnsson
+O:Lnsboda, Skne
+M:2/4
+L:1/16
+K:D
+|: (A>F)(Ad) (B>G)(Bd) | (AFAd) f2f2 | g2 (ge) (cA)(Bc) |
+(de)(fe) A2 z2 | (A>F)(Ad) (B>G)(Bd) | (AFAB) f2f2 | g2 (ge) 
+c2 (Bc) | d2d2 d2 z2 :: B2 (Bd) g2g2 | A2 (Ad) f2f2 | g6 (ge) |
+(cA)(Bc) | (d>efd) A2 z2 | (BABd) g2g2 | (AFAd) f2f2 |
+S:https://www.folktunefinder.com/tunes/172615
+S:http://www.folkwiki.se/pub/cache/L%f6nsbodaschottis_314b71.latin.abc
+S:http://www.folkwiki.se/pub/cache/L%f6nsbodaschottis_314b71.abc
+S:http://www.folkwiki.se/pub/cache/L%f6nsbodaschottis_314b71.abcm.abc
+% Rhythm Schottis
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

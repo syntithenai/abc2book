@@ -1,0 +1,28 @@
+X:525
+T: Scully Casey's Jig #2
+T: Port Ciarra\'ioch
+S: B.Breathnach:"Ceol Rince na hEireann" III/38
+Z: B.Black
+L: 1/8
+M: 12/8
+Q: 360
+R: slide
+K: G
+d3 AGE F2G A2B|cBc A2B cBc ABc|
+d3 AGE F2G A2g|1fed ed^c d2e f2e :|2\
+fed ed^c d3 d2||
+A|d3 f3 aba afd|1 Bcd e2f gaf gec|d3 f3 a3 agf|
+e^cA Ace d3 d2 :|2 Bcd e2f g3 g3|agf gfe fed ed^c|\
+B/B/^cA ABc d2e f2e ||
+S:https://www.folktunefinder.com/tunes/89745
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Slide
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

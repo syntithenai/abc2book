@@ -1,0 +1,24 @@
+X:810
+T:Nottingham Castle
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005d8.html
+%%ID:000005d8
+K:G
+gfga b2g2 | dedc B2AG | G2G2 AGAB | c2B2B2A2 | \
+gfga b2g2 | d2dc B2AG | D2G2 Bedc | B2G2 G4 H::
+B2AG c2c2 | B2AG A2D2 | g2g2 fafd| egec d2D2 | \
+BdBG c2c2 | BdBG A2D2 | g2g2 fafd | egec d4 !D.C.! ::
+S:https://www.folktunefinder.com/tunes/95793
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

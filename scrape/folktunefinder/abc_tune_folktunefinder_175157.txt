@@ -1,0 +1,21 @@
+X: 60
+T:McQuillen's Squeezebox
+C:Ralph Page
+M:4/4
+L:1/4
+K:C
+EF |"C"G3/2A/2 GF|EG cA|"C"G3/2A/2 GF|E2 DE|
+"G"F3/2G/2 FE|DG Bd|[1"F"c3/2d/2 "Am"cA|"G7"G2 :|[2"F"c3/2d"G"cB|"C"c2 ||
+|:cd |"C"e3/2f/2 ed|cG cd|"C (E7)"e3/2f/2 ed|"C (Am)"c2 Bc|
+"G"d3/2e/2 fe|dG Bc| [1"G"d3/2e/2 "G/dim""c#"fe|"G"d2 :|[2"G7"dc ed|"C "c2 |]
+S:https://www.folktunefinder.com/tunes/175157
+S:http://users.rcn.com/ladysmyth/tunes/McQuillens.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

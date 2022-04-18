@@ -1,0 +1,25 @@
+X:41
+T:Premier Divertissement - Jupiter modrment (version de travail)
+C:Forqueray
+O:France
+Z:<[EMAIL PROTECTED]> -- <a  href="http://anamnese.fr.st">http://anamnese.fr.st
+M:C
+L:1/8
+Q:1/4=147
+K:Dm bass
+%%MIDI transpose -24
+GFE |: DFEF AFED | ^CA,^CE AGFE | FDFA dfed | ^cd^cB ABAG | 
+FAdf  agfe | GBdg bagf | ed^cB  Aeae | fgfe dGFE | 
+DFEF AFED | ^CA,^CE AGFE | FDFA dfed | ^cd^cB ABAG |
+FAdf  agfe | GBdg bagf | ed^cB  AGFE | FGFE DGFE |
+S:https://www.folktunefinder.com/tunes/183718
+S:http://www.mail-archive.com/abcusers@argyll.wisemagic.com/msg05238.html
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X:70
+T:Loch Leven Castle
+T:Humours of Tuaimgreine
+R:Reel
+O:Ireland
+M:4/4
+L:1/8
+Q:1/4=200
+K:Am
+cB|A2AB AGEG|AGAB cBcd|eaga gede|c2G2 G2cB|
+A2AB AGEG|AGAB cBcd|eaga gede|c2A2 A2:|
+eg|a2ab ageg|agab a2ge|dega gede|c2G2 G2eg|
+a2ab ageg|agab a2ge|dega gede|c2A2 A2eg|
+a2ab ageg|agab age^f|g^fga gede|c2G2 G2cB|
+A2AB AGEG|AGAB cBcd|ea^ga =gede|c2A2 A2|]
+S:https://www.folktunefinder.com/tunes/90470
+S:http://www2.redhawk.org:8080/irish/warnock/abc/alfreel.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

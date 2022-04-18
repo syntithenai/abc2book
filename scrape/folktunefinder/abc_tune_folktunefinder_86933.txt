@@ -1,0 +1,36 @@
+X:240
+T: Father Stewart's (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 40 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Dmix
+[V:1] ^c | "D"dAA "Am"cAA | "C"cde "D"f2 g | "Am7"agf "C"efe | "D"ded "Am7"cAG |
+[V:2] z|D,2[AFD]A,,2[AEC]|C,2[CGE]D,2[AFD]|A,,2[ECG]C,2[CGE]|D,2[AFD]A,,2[ECG]|
+%
+[V:1] "D"dAA "Am"cAA | "C"cde "D"fga | "G"ged "C"cAG | "A"A3 "A"A2 :|
+[V:2] D,2[AFD]A,,2[AEC]|C,2[CGE]D,2[AFD]|G,,2[GDB]C,2[CGE]|[A,,3^C3E3] A,,2 :|
+%
+[V:1] e|"D"faa "C"gfe | "D"dAB "Am7"c2 g | "D"agf "C"efe | "D"ded "Am"cde |
+[V:2] z|D,2[AFD]C,2[CGE]|D,2[AFD]A,,2[CGE]|D,2[AFD]C,2[CGE]|D,2[AFD]A,,2[CAE]|
+%
+[V:1] "D"faa "C"gfe | "D"dAB "Am"cde |1 "G"ged "Am7"cAG |"A"A3 A2 :|2\
+"G"gdB "Am7"AGE |"D"D3-D2||
+[V:2] D,2[AFD]C,2[CGE]|D,2[AFD]A,,2[CAE]|1 G,,2[GBD]C,2[AEG]|[A,,3^C3E3] A,,2 :|2\
+G,,2[GDB]A,,2[GEC]|[D,3-F3-A,3-][D,2F2A,2]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86933
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:204
+U: ~ = !turn!
+%%topmargin 3cm
+T:Tom Steele
+M:C|
+R:Reel
+S: Sean Ryan
+B: Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+K:D
+dD ((3.D.D.D) FD ((3FGA) | dfaf {/a}gfec | dD ((3.D.D.D) FAAF | ((3Bcd) AF EDB,D |
+dD ((3.D.D.D) FD ((3FGA) | dfaf {/a}gfec | d2 ((3edc) dBAF | ((3.G.G.G) EF GABc :|]
+d2fd Adfd | ((3.d.d.d) fd BAFA | ((3.d.d.d) fd Adfd | ((3Bcd) AF EDB,D |
+d2fd Adfd | cdef g2fg | ((3agf) ((3gfe) fdec |((3dcB) AF EDB,D |
+d2fd Adfd | ((3.d.d.d) fd BAFA | ((3.d.d.d) fd Adfd | ((3Bcd) AF EDB,D |
+((3agf) ab agfa | g2 (3{/a}(gfg) gage | faeg fdAF | ((3.G.G.G) EF GABc |]
+S:https://www.folktunefinder.com/tunes/94799
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Tom_Steele_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Tom_Steele_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

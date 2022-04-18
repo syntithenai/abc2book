@@ -1,0 +1,32 @@
+X: 1
+T:Pam's Fancy
+C:Bryon Bonnett
+M:3/4
+L:1/4
+K:G
+V:1
+"G"BD/2E/2 G/2B/2|"C7"_B3|"G"BD/2E/2 G/2B/2|"Gdim"_B3|"G"Bed|"G"B2G|"C"E2^E|"D7"FED|
+V:2
+B2B|CEG|B2B|^CEG|BcB|GAB|c2A|dcA|
+V:1
+"G"BD/2E/2 G/2B/2|"C7"_B3|"G"BD/2E/2 G/2B/2|"Gdim"_B3|"G"Bed|"G"BG/2F/2=F|"C"E"D7"FD|"G"G3:|
+V:2
+B2B|CEG|B2B|^CEG|BcB|G2B|c2c|BdB:|
+V:1
+|:"C"eG/2A/2 c/2e/2|"G"d3|"D7"cD/2E/2 F/2A/2|"G"B3|"A"gfe|"A7"A^ce|"D"d^c/2d/2 =c/2d/2|"D7"A/2d/2 F/2d/2D|
+V:2
+|:c2A|B2G|A2F|GBG|ed^c|A2G|F2A|c3|
+V:1
+"G"BD/2E/2 G/2B/2|"C7"_B3|"G"BD/2E/2 G/2B/2|"Gdim"_B3|"G"Bed|"G"BG/2F/2=F|"C"E"D7"FD|"G"G3:|
+V:2
+B2B|CEG|B2B|^CEG|BcB|G2B|cAF|D3:|
+S:https://www.folktunefinder.com/tunes/181539
+S:http://users.rcn.com/ladysmyth/tunes/PamsFancy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

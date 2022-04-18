@@ -1,0 +1,30 @@
+X:1655
+T:Copenhagen Waltz
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001267.html
+%%ID:00001267
+K:D
+fa | \
+g<b f<a e<g | f<a d2 d<e | e<g A2 c<e | d<f A2 f<a | \
+g<b f<a e<g | f<a d2 d<f | e<g A2 c<e | d4 ::
+d<f |\
+d<g  A2 c<e | d<f A2 d<f | e<g A2 c<e | d<f A2 f<a | \
+g<c' f<a e<g | f<g d2 d<f | e<g A2 c<e | d4 ::
+[L:1/8] \
+a |\
+baf | d2 a | c'af | e2 a | baf | d/c/d/f/a/f/ | e/d/e/g/f/e/ | d2 :|
+%%newpage
+%page 132
+S:https://www.folktunefinder.com/tunes/88488
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

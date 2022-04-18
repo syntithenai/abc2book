@@ -1,0 +1,28 @@
+X:004
+%%topmargin 3cm
+T:The Munster Lass
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:F
+C | FAc {/g}fef | g>fe f3 | FAc f>ed| c>BA G2 A |
+FAc {/g}fef | gfe fga | g>fe fed | cBA G2 ::
+b | agf gfe | fcA F2 b | agf gBA | {/c}B>AB G2 b |
+agf gfe | fed cBA | Bdg Acf | {/f}ede f2 :|]
+S:https://www.folktunefinder.com/tunes/91935
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Munster_Lass.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

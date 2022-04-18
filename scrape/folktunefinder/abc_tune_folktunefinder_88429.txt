@@ -1,0 +1,29 @@
+X:1360
+T:Geeho Dobbin
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:See also a version in John Winder, which also has the extra bar in B part
+O:England
+Z:Richard Robinson 
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005c2.html
+%%ID:000005c2
+K:D mixolydian
+A | \
+FED AGF | BAG A2A | dcd Bcd | ecA d2 ::
+d | \
+def Bcd | ecA B3 | d3 A>BA | A>GF (GE)F | \
+G3 F3 | A2 F<D G2 | B2 G<E F2 | A3 GFE | Ddc d4 ::
+S:https://www.folktunefinder.com/tunes/88429
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

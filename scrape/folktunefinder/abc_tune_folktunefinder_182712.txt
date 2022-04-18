@@ -1,0 +1,28 @@
+X: 2
+T: Planxty Drury 
+C: Turlough  O'Carolan
+B: &quot;O'Neill's Music Of Ireland&quot;, 1903, page 127, tune #691
+M: 6/8
+L: 1/8
+R: Planxty
+K: D Major
+|: A |\
+ded dcB | A2 G F2 G | E2 e efd | c2 B AFG | 
+A2 f fgf | e2 d cBA | f2 g afd | c2 d c2 B | 
+ABA AFA | Bcd ecA | afa gec | d3 d2 :|
+|: A |\
+ABA GAG | FGF E2 E | E2E E2 G | FDG F/G/AF | 
+D3 d3 | efe ecA | A3 def | g2 f edc |
+d2 d ded | BAG Bcd | e2 e egf | efd cBA |
+d2 F G2 B | ABG FGA | BAG FGE |D3 D2 :|
+S:https://www.folktunefinder.com/tunes/182712
+S:http://www.thesession.org/tunes/display/8264
+% Rhythm Planxty
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

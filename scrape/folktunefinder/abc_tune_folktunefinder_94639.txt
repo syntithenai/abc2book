@@ -1,0 +1,31 @@
+X:041
+U: ~ = !turn!
+%%topmargin 3cm
+T:Crowley's #2
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Reel
+L:1/8
+M:C|
+K:D
+fd (3.d.e.d eB (3.B.c.B | ((3 dcB) ((3cBA) BAFA | JB2 AF AFDF | ((3GFE) ((3FED) EB, B,2 |
+fd (3.d.e.d eB (3.B.c.B | ((3 dcB) ((3cBA) BAFA | JB2 AF AFDF | ((3EFG) AG FD D2 ||
+|: d2 {/e}dc dAFA | ((3Bcd) Bd cAFA | BdAF GBFA | EFGA FD D2 :|]
+S:https://www.folktunefinder.com/tunes/94639
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Crowleys_2_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Crowleys_2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Crowleys_2_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Crowleys_2_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

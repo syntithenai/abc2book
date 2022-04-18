@@ -1,0 +1,36 @@
+X:1
+T:Old Joe's
+S:Liam O'Flynn Wash.Sq Methodist Church,NYC Oct 1971
+Z:Eric Smith 10/3/2004
+N:Pop the F cut in bar 4 (and repeats of this phrase)
+N:Fnat grace on bar 5 is a slide
+N:Swell the dotted crotchet F in bar 29
+N:To play in ABCMus, leave Rhythm blank, use concertina MIDI
+M:6/8
+L:1/8
+Q:3/8=110
+K:Dmaj
+|:{g}fAA {B}AFA | {c}BAF A{B}A{G}A | ((3Bcd)B {B}AFA |Bcd {f}ede |
+{=f}fAA {B}AFA | {d}BAF A{B}A{G}A |1 ((3Bcd)B {B}AFA  | Bdc d2 e :|2 B{c}B{A}B {B}AFA | Bdc d2 e ||
+|: f{a}f{e}f efe | dBA d2e | {afe}f2a {b}afe |fa{b}a ((3bc'b) a |
+|1((3.f.g.a)f efe | dBA d2e | fAA {B}AFA | {c}Bdc d3 :|
+|2 f{a}f{e}f efe | dBA d2e | fAA {B}AFA | {c}Bdc d2 e ||
+{g}fAA {B}AFA | {c}BAF A{B}A{G}A | B{c}B{A}B {B}AFA |Bcd {f}ede |
+{=f}fAA {B}AFA | {d}BAF A{B}A{G}A | ((3Bcd)B {B}AFA  | Bdc d2 e |
+{g}fAA {B}AFA | {c}BAF A{B}A{G}A | B{c}B{A}B A{B}A{G}A |B2d {f}ede |
+{=f}f3 A{B}A{G}A  | {d}BAF A{B}A{G}A | B{c}B{A}B {B}AFA  | Bdc d2 e |
+|: f{a}f{e}f efe | dBA d2e | {afe}f2a {b}afe |fa{b}a ((3bc'b) a |
+|1((3.f.g.a)f efe | dBA d2e | fAA {B}AFA | {c}Bdc d3 :|
+|2 f{a}f{e}f efe | dBA d2e | fAA {B}AFA | {c}Bdc d3 ||
+S:https://www.folktunefinder.com/tunes/180035
+S:http://www.thesession.org/tunes/display/1732
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,45 @@
+X:19061
+T:Xiraldilla (CT 346)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Teresa Prez Cuenya, de cincuenta y dos aos, de Bedriana, ayuntamiento de Maliayo.
+O:Bedriana (Maliayo)
+A:Asturies
+Z:Cancioneru de Torner 346
+M:2/4
+L:1/8
+Q:1/4=90
+W:Al serongo, serongo,
+W:el sombrero me pongo
+W:al uso de Madrid.
+W:Que no es as,
+W:que no es as.
+W:Ya se acab la salsa,
+W:la salsa, el perejil,
+W:perejil con que lo baila Antn,
+W:chiribirib,
+W:morena, reasalada,
+W:me muero por t.
+W:Se mueren los franceses
+W:que no son de aqu.
+K:G
+D
+|GG FF|G G2 D|GG FF|GG zB|
+BB AB|c>B Ac|B>A GB|B2 zG|
+BB AB|c2 Ac|BA GF|GG/G/ FF|GG/G/ FF|GG/G/ FF|G2 zD|
+GG GA|BB Bc|B2 A2|G2 zD|
+GG GA|BB dc|B2 A2|G2||
+S:https://www.folktunefinder.com/tunes/94352
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

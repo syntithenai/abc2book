@@ -1,0 +1,32 @@
+X:10299
+T:Marcha Procesional (Llanes) (Arrg. D)
+R:marcha
+S:Versin recoya en Llanes
+Z:Mtodu de Gaita
+M:6/8
+L:1/8
+Q:3/8=80
+K:D
+A|:"F#m"F2 G "D"F/2E/2DE|"F#m"F2 E "D"D2 D|
+"A7"E2 F "A7"GFE|"A"A3- "A"A2A|
+"F#m"F2 G "D"F/2E/2DE|"F#m"F2 E "D"D2 D|
+"A7"E2 F "A7"GFE|[1 "D"D3- "D"D2 A:|[2 "D"D6||
+"D"A2 F "D"A2 F|"G"GAB "A"A3|
+"A7"G2 E "A7"G2 E|"D"FGA "F#m"F3|
+"D"A2 F "D"A2 F|"G"GAB "A"A3|
+|:"D"d2 c "Bm"B2 A|
+[1 "A7"GFE "D"D3:|[2 "A7"GFE "D"D3-|
+"D"D3 z3||
+S:https://www.folktunefinder.com/tunes/98081
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

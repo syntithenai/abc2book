@@ -1,0 +1,34 @@
+X:130
+T: Castle View (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 105 %banjo
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Am
+[V:1] E | "Am"EcA "Em"B2 c | "G"ded BAG | "Am"EcA "G"Bcd | "Em"ecB "Am"A2 G |
+[V:2] z|A,,2[ACE]E,2[EGB]|G,,2[GBD]D,,2 [GBD]|A,,2[ACE]G,,2[GBD]|E,2[EBG]A,,2[ACE]|
+%
+[V:1] "Am"EcA "Em"B2 c | "G"ded "Am"cBA | "G"GAB "F"FAc | "Em"BGE "Am"A2 :|
+[V:2] A,,2[ACE]E,2[EGB]|G,,2[GBD]A,,2[ACE]|G,,2[GBD]F,2[FAC]|E,2[EBG]A,,2:|
+%
+[V:1] e | "Am"ea^f "Em"g2 a | "G"bag "D"^fed | "Am"ea^f "G"gab | "Am"age a2 e |
+[V:2] z|A,,2[ACE]E,2[EGB]|G,,2[GBD]D,2[A^FD]|A,,2[ACE]G,,2[GBD]|A,,2[ACE] E,,2[ACE]|
+%
+[V:1] "Am"eaa "Em"b2 a | "G"g^fe "Am"cBA | "G"GAB "F"=FAc | "Em"BGE "Am"A2 :|
+[V:2] A,,2[ACE]E,2[EGB]|G,,2[GBD]A,,2[ACE]|G,,2[GBD]F,2[FAC]| E,2[EBG]A,,2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86911
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

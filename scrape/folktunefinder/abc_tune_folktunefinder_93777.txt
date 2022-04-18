@@ -1,0 +1,25 @@
+X:545
+T: Moinfheir (An)
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+N: name = 'meadow' (pronounced MOHN-yair)
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: D
+d2 AG FA D2|A,D D2 dcAG|Ad d2 A=fed|=c2 Gc EcGc|
+d2 AG FADB|A,D D2 dcAG|Ad d2 AdFA|G=CEG FD D2 :|
+d2 fd adfa|g=ced ^cABc|d2 Ad FADF|G2 FA =c2 Bc|
+Ad d2 Adfd|cdef g2 fg|a2 ea caec|dcAG FA D2 :|
+S:https://www.folktunefinder.com/tunes/93777
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

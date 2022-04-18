@@ -1,0 +1,22 @@
+X: 1
+T: A Reel In The Style Of Redican
+M: 4/4
+L: 1/8
+R: reel
+K: Fmaj
+B |: AFcA BGE2 | FEFC DB,G,B, | (3A,B,C FA c=Bdc | BGEG (3cdc =Bc |
+A~c3 BGEG | FEFC DB,G,B, | (3A,B,C FA c=Bdc |1 BGEG ~F3 B :|2 BGEG F3 G, ||
+(3A,B,C FA cfaf | gbeg fcAc | dFBd cFAc | (3BcB GF ECB,G, |
+(3A,B,C FA cfaf | gbeg fcAc | (3Bcd ga bgeg |1 fcAG F3 G, :|2 fcAG [F3A,3] B ||
+S:https://www.folktunefinder.com/tunes/185118
+S:http://www.thesession.org/tunes/display/4283
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

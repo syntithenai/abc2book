@@ -1,0 +1,28 @@
+X:207
+U: ~ = !turn!
+%%topmargin 3cm
+T:Tone Rowe's Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+M:6/8
+L:1/8
+K:D
+E | JF2 F {/B}AFE | {/F}EDB, A,CD | FDF {/A}GFG | ABF AGE |
+DFF {/B}AFE | {/F}EDB, A,CD | FAF {/A}GFG | [1 AGE D2 :|] [2 AGE D ||
+|: ag | f2 d {/e}dcd | edc B/2c/2de | Pf2 f ded | ABG Aag |
+f2 d {/e}dcd | edc Bag | f/2g/2af gec | [1 dAF D :|] [2 dAF D2 |]
+S:https://www.folktunefinder.com/tunes/94802
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Tone_Rowes_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Tone_Rowes_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

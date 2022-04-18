@@ -1,0 +1,22 @@
+X: 1
+T: Long Note, The
+M: 12/8
+L: 1/8
+R: slide
+K: Dmix
+DED D2A A2G E2F|G2E EDE cBA B2G|DED D2A A2G E2G|ABA G2A E2D D3:|
+ded d2B c2A d2B|cBA d2B c2A G3|ded d2B c2A Bcd|e2a a2g e2d d3|
+ded d2B c2A d2B|c2A d2B c2A GFE|D2E F2G A2d d2^c|ABA G2A E2D D3||
+aba a2b a2f def|g2f g2a g2e ^c3|aba a2b a2f def|e2a a2g e2d d3|
+aba a2b a2f d2f|gfe f2d e2d ^c2B|A2B ^c2d e2d d2c|ABA G2A E2D D3||
+S:https://www.folktunefinder.com/tunes/172860
+S:http://www.thesession.org/tunes/display/1682
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

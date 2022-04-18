@@ -1,0 +1,27 @@
+X:1
+T:P'tit lapin plein d'poils
+C:Comptine..., fichier abc : Bernard Loffet
+L:1/8
+Q:350
+K:C
+M:2/2
+ z6[DG,]D | [D2G,,2][B2G,2] [G2G,,2][DG,]D | [D2G,,2][B2G,2] [G2G,,2][DG,]D | [D2G,,2][B2G,2] [G2G,,2][B2G,2] | \
+ [d2D,,2]D,2 D,,2[dD,]d | [d2D,,2][DD,]D [D2D,,2][dD,]d | [d2D,,2][DD,]D [D2D,,2][dD,]d | \
+ [d2D,,2][c2D,2] [B2D,,2][A2D,2] | [G2G,,2]G,2 G,,4 | \
+W:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/184076
+S:http://diato.ifrance.com/diato/tablat/195.abc
+S:http://diato.ifrance.com/tablat/195.abc
+S:http://diato.org/tablat/195.abc
+S:http://perso.orange.fr/diato/tablat/195.abc
+S:http://perso.wanadoo.fr/diato/tablat/195.abc
+S:http://pro.wanadoo.fr/diato/tablat/195.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/195.abc
+S:http://www.diatonique.net/tablat/195.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

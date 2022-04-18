@@ -1,0 +1,25 @@
+X: 5
+T: Lady Madelina Sinclair
+S: Nigel Gatherer, transposed from A to G
+M: 4/4
+L: 1/8
+R: starthspey
+K: G Major
+|: e |
+d>GB>G (3Bcd e2 | d<GB>G A2 A>e |
+d>GB>G (3Bcd g2 | G<GB>A G2 G :|
+f |
+g>fe>d e<gf>e | g/f/e/d/ g>B A2 A>f |
+g>fe>d e<gf>e | (3gfe (3def g2 d>f |
+(3geg (3fdf (3ece (3dBd | c>aB>g A2 A>c |
+(3Bcd e2 (bcd g2 | G<GB>A G2 G |]
+S:https://www.folktunefinder.com/tunes/170934
+S:http://www.thesession.org/tunes/display/7585
+% Rhythm Starthspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

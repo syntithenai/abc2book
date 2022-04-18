@@ -1,0 +1,37 @@
+X: 1
+T: Marschlek f\"or Leksands kompani
+O: Sweden
+R: gaanglaat
+Z: John Chambers <jc@trillian.mit.edu>
+S: handwritten MS of unknown origin labelled "S-3-A-12"
+M: 2/4
+L: 1/16
+K: D
+V: 1
+A2 \
+| "D"d3e dcde | d2c2 B2A2 | "G"B3d "A7"c2Bc | "D"d2AG F2D2 \
+| "D"d3e dcde | d2c2 B2A2 | "G"B3d "A7"c2Bc | "D"d6 :|
+|: A2 \
+| "D"A2d2 f2e2 | d2ed c2dc | "Em"B3e g2f2 | e4 "D"f4 \
+| "Em"B3e g2f2 | "A7"e2ed cBce | A3d c2Bc | "D"d6 :|
+V: 2
+D2 \
+|  F3G FEFG | F2E2 D2DF | G2G2 A2AG | F2FE D2A,2 \
+|  F3G FEFG | F2E2 D2DF | G2G2 A2G2 | F6 :|
+|: D2 \
+| F2FA d2c2 | B2cB ABAF | GFGB e2d2 | c4 {c}d4 \
+| G3B e2d2 | cdcB ABAG | E2E2 G2AG | F6 :|
+S:https://www.folktunefinder.com/tunes/174473
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Marschlek_LeksandsKompani_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scand/snoa/Marschlek_LeksandsKompani_D_2V.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/snoa/Marschlek_LeksandsKompani_D_2V.abc
+% Rhythm Gaanglaat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

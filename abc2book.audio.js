@@ -88,7 +88,7 @@ function addAudioControls(element, visualObj, songNumber, tune) {
   var tList = $('<ul class="wrong_tune_selector_items" style="min-width: 600px" class="list-group"   ></ul>')
   //sc.map(function(v) {
     //if (v) {
-      //tList.append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'</a></li>')
+      //tList.append('<li class="list-group-item tune_selector_option" ><a  href="#" onClick="updateTuneId(' + songNumber + ', ' + v.id + '); return false;" >'+v.name+'<b>'+v.type+'</b></a></li>')
     //}
     //return false
   //})
@@ -266,17 +266,17 @@ function initialiseEditor (abc, songNumber) {
   $("#editor").val(abc)
   $("#editor").keyup(function(e) {
       // debounce
-       console.log('keyup' )
+       //console.log('keyup' )
       if (abcEditorTimeout) clearTimeout(abcEditorTimeout)
       abcEditorTimeout = setTimeout(function() {
-        console.log('keyup GO' )
-        console.log(e.target.value)
+        //console.log('keyup GO' )
+        //console.log(e.target.value)
         var tunes = loadLocalObject('abc2book_tunes')
         if (tunes[songNumber] ) {   
           //var notes = getNotesFromAbc(e.target.value)
           //console.log('set tune setting abc', meta)
           tunes[songNumber] =  singleAbc2json(e.target.value)
-          console.log('SAVE TUNES', tunes)
+          //console.log('SAVE TUNES', tunes)
           saveLocalObject('abc2book_tunes',tunes)
           generateAndRenderSingle(songNumber,tunes[songNumber])
 
@@ -348,7 +348,7 @@ function playSongNumber(songNumber)  {
 }
 
 function finishPlaying(songNumber) {
-  console.log('FINISH ',songNumber)
+  //console.log('FINISH ',songNumber)
   if ($('#forcestop').val() !== "true") {
     // start next track after delay to avoid double callback
     //console.log('MPW PLAY '+(songNumber + 1))
@@ -356,13 +356,13 @@ function finishPlaying(songNumber) {
     var found = null
     var count = songNumber + 1
     while (found === null && count < songlist.length) {
-      console.log('FINISH check',count)
+      //console.log('FINISH check',count)
       if (!$('#music_'+count).is(':hidden')) {
         found = count
       }
       count++ 
     }
-    console.log('FINISH found',found)
+    //console.log('FINISH found',found)
     
     if (found != null && found < songlist.length) {
       playSongNumber(parseInt(found) )
@@ -393,7 +393,7 @@ function startPlaying(visualObj, songNumber) {
       // HACK onEnded is called twice so skip first invocation
       var count = 0
       var onEnded = function(d) {
-        console.log('ONENDED ',d)
+        //console.log('ONENDED ',d)
         count = count + 1;
         // TODO USE THIS HOOK TO START NEXT TRACK IF PLAY ALL trackId IS ACTIVE
         //if (count > 1) {
@@ -466,7 +466,7 @@ function playAll() {
     }
     count++ 
   }
-  console.log('play',count)
+  //console.log('play',count)
   playSongNumber(count-1)
   $('#forcestop').val('')
 

@@ -1,0 +1,27 @@
+X: 1
+T:Paddy Fahy's 1
+R:Reel
+C:Paddy Fahy
+S:Paddy Fahy & Cathleen Collins
+M:4/4
+L:1/8
+K:Dm
+D2 A,D FEFG| Adce d3 e | f2df edcA | d2AG  FDEC |
+D2 A,D FEFG | Adce d4  | fedf edcA | d2 AG  FDD2 |
+D A,~A,2  FEFG | Adce d3 e | fedf edcA | d2 AG  FDEC |
+D2A,D FEFG | Adce d3 e | f2df edcA | dc AG  FD{E}D2 |
+A d (3ddd  adBd | c3G EFGB | Adcd adBd  c3 d edcB |
+a2ga ABcA | dcAG FDEC | D2A,D FEFG | Adce d4 |
+Adcd adBd | c3 G EFGB | Adcd adBd | c2 d edcB |
+aaga ABcA | dcAG FDEC | D2A,D FEFG | Adce d4 |
+S:https://www.folktunefinder.com/tunes/181088
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pa/Paddy_Fahys_1_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

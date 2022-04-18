@@ -1,0 +1,31 @@
+X:1020
+T:Quick March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001112.html
+%%ID:00001112
+K:D
+(fg) | \
+a2f2 g2e2 | (dcde) d2(ef) | g2e2 f2d2 | e6 fg | \
+a2f2 g2e2 | (ecde)  d2b2  | a3b  agfe | d2d2d2 ::
+f2 | \
+e3fg2e2 | f2.a2.d2.f2 | e3f g2e2 | .f2.a2 z2f2 | \
+e3fg2e2 | .f2.a2 .d2.f2 | e2e2 e2f^g | a3b (agfg) |
+a2f2 g2e2 | (dcde) d2ef | g2e2 f2d2 | e6 fg | \
+a2f2 g2e2 | (dcde) d2b2 | agfe | d2d2d2 :|
+%%newpage
+%page 84
+S:https://www.folktunefinder.com/tunes/88361
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

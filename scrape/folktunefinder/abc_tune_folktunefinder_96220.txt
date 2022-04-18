@@ -1,0 +1,41 @@
+X: 69
+T:Untitled. TBe.069
+M:C|
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:air
+O:England
+N:No title - not a continuation of previous tune, as different time
+N:signature, also it has his end of tune squiggle.  I think this is a
+N:complete but untitled tune.
+N:1 - Shown as D flat, but flat is probably to
+N:make it this is not sharp - see general notes re accidentals.
+N:2 - Shown as
+N:flat, but see preceding
+H:171
+Z:vmp.C. Graebe..
+K:E minor
+B | efg^d eB zc | BA G>"qu"F GE zE |\
+ A>B cA FG Ad | cB e>"qu"f ^"undotted"d3 f |!
+gf b^d e3 f | gf/e/ dc B3 c | dc/B/ e2 fe/d/ g2-|g/b/a/g/ f>g g3 f |\
+ (fe) (ed) (dc) (cB) |!
+ef/g/ f>e ^d3 || f | f2 g^d e3e | e"1"d fe c3e |\
+eA Ad d^G G>"qu"G | A/B/A/B/ B>A A3 B |!
+cA Fd/c/ B3b | bg e/g/f/g/ a3a | af ^d/f/e/f/g3f |\
+ ed ^c>B B3 "2"=c | !
+dB ^Ge c3c |cA Fd B3 b |\
+ bg e/g/f/g/ a>b a/g/f/e/ | ^d/B/e/f/ f>e e3 ||
+S:https://www.folktunefinder.com/tunes/96220
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key E
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

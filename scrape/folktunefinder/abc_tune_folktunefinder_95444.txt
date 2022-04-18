@@ -1,0 +1,24 @@
+X:690
+T:the New Spa Dance
+B:Aird's Airs and Melodies vol 3
+M:2/4
+N:repeats A::B||
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000021a.html
+%%ID:0000021a
+K:G
+B3c dcBA| G2G2 A4| B2BG c2cA| B2BG A4|\
+B3c dcBA| G2G2 A4| B2G2c2A2| G2F2 G4::
+B3cd2e2| f2g2 d4| g2gf e2ed| c2cB A4|\
+B3c d2e2| f2g2 d4| g2gf e2d2| Bd^ce| "Da Capo"d4|]
+S:https://www.folktunefinder.com/tunes/95444
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

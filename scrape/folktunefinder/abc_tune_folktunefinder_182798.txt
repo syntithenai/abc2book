@@ -1,0 +1,28 @@
+X:0666
+T:"Planxty Mrs. O'Conor"          0666
+C:Turlough  O' Carolan
+C:spirited
+Q:1/4=130
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:(See #124 in O'Sullivan's Collection ):  http://www.sosyourmom.com/occ/tunes.html
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:G
+"^vb"G2G FED|E2F G2A|B2G c2A|B2G c2A|Bcd EFG|ABG FED|
+EFG AFD|G3G2A|Bcd EFG|ABG FED|EFG AFD|G3G2z||
+d2d def|g3g3|B2B Bcd|e3e3|dcB c2e|d^cd D2D|
+EFG AFD|G3G2z|dcB c2e|d^cd D2D|EFG AFD|G3G3||
+BGE EGE|AFD DFD|EFG ABG|F3D2|ded dBG|efe efg|
+dcB AGF|G3G2z|ded dBG|efe efg|dcB AGF|G3G2z|]
+S:https://www.folktunefinder.com/tunes/182798
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/666-PlanxtyMrsOConor.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

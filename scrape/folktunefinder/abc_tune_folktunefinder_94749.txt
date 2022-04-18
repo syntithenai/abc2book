@@ -1,0 +1,30 @@
+X:153
+U: ~ = !turn!
+%%topmargin 3cm
+T:Over the Moor to Maggie
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+N:Played by Jean Carignan.
+R:Reel
+M:C|
+L:1/8
+K:A
+A2 AB cBce | ((3faf) af ecPBA | FB (3.B.B.B BcPBA | BABc BAFE |
+A2 AB PcBce | faaf ecPBA | FA (3.A.A.A ABAF | [1 EAAB A4 :| [2 EAAB A3 ||
+|: B | c2 c2 B2 ((3BcB) | ((3ABA) ((3FAF) ((3EFE) CE | FB (3.B.B.B BcBA | FBBF ((3BcB) AB |
+c2 c2 B2 ((3BcB) | ((3ABA) ((3FAF) ((3EFE) CE | FA (3.A.A.A ABAF | EAAB A2 z :|]
+S:https://www.folktunefinder.com/tunes/94749
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Over_the_Moor_to_Maggie_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Over_the_Moor_to_Maggie_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

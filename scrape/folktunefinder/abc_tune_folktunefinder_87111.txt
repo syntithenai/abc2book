@@ -1,0 +1,39 @@
+X: 9026
+T: Christmas at the Mahers' (with piano acc.)
+C: BB
+R: slip jig
+Q: 1/8=320
+M: 9/8
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: G
+[V:1] E|"G"DGB "D"Adc "G"BGG|"G"DGB "D"ded "Am"A2 E|"G"DBG "D"Adc "G"BGD|\
+"C"ECE "D"DEF "G"G2 :|
+[V:2] z|G,,2[GDB]D,2[AFD]G,,2[GDB]|G,,2[GDB]D,2[AFD]A,,2[AEC]|\
+G,,2[GDB]D,2[AFD]G,,2[GDB]|C,2[CGE]D,2[AFD][G,2D2B2]:|
+%
+[V:1] e|"G"gdg "C"ece "G"dBG|"G"gfg "C"efg "Am"a2 e|"G"gdg "Am"ecA "Em"BGE|\
+"G"DGB "D"AFA "G"G2 :|
+[V:2] [G,DB]|G,,2[GDB]C,2[CGE]G,,2[GDB]|G,,2[GDB]C,2[CGE]A,,2[AEC]|\
+G,,2[GDB]A,,2[AEC]E,2[EBG]|G,,2[GDB]D,2[AFD][G,2D2B2]:|
+%%%%%%tune repeats
+[V:1] E|"G"DGB "D"Adc "G"BGG|"G"DGB "D"ded "Am"A2 E|"G"DBG "D"Adc "G"BGD|\
+"C"ECE "D"DEF "G"G2 :|
+[V:2] z|G,,2[GDB]D,2[AFD]G,,2[GDB]|G,,2[GDB]D,2[AFD]A,,2[AEC]|\
+G,,2[GDB]D,2[AFD]G,,2[GDB]|C,2[CGE]D,2[AFD][G,2D2B2]:|
+%
+[V:1] e|"G"gdg "C"ece "G"dBG|"G"gfg "C"efg "Am"a2 e|"G"gdg "Am"ecA "Em"BGE|1\
+"G"DGB "D"AFA "G"G2 :|2 "G"DGB "D"AFA "G"HG3||
+[V:2] [G,DB]|G,,2[GDB]C,2[CGE]G,,2[GDB]|G,,2[GDB]C,2[CGE]A,,2[AEC]|\
+G,,2[GDB]A,,2[AEC]E,2[EBG]|1 G,,2[GDB]D,2[AFD][G,2D2B2]:|2 G,,2[GDB]D,2[AFD]H[G,3D3B3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87111
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

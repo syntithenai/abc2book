@@ -1,0 +1,28 @@
+X:084
+U: ~ = !turn!
+%%topmargin 3cm
+T:Gun in the Thatch
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Sean McGuire
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+dc | BGAF DG G2 | gfge fdcd | BG (3.G.G.G DGFG | FGAB c2 dc |
+BGAF DG G2 | gfge fdcd | BGAF DG (3.G.G.G | FGAB c2 Bc ||
+dg{/a}gf (3.g.g.g bg | dgbg fgaf | dg{/a}gf (3.g.g.g dg | bgaf gfef |
+dg{/a}gf (3.g.g.g bg | dgbg fgaf | dg{/a}gf (3.g.g.g dg | bgaf gedc |]
+S:https://www.folktunefinder.com/tunes/94681
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Gun_in_the_Thatch_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Gun_in_the_Thatch_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

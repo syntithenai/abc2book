@@ -1,0 +1,25 @@
+X:300
+T:Trip to Paris
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000005be.html
+%%ID:000005be
+K:A
+E| \
+A2A Ace | A2A ABc | d2B BcA | G2E EFG | \
+A2A e2c | A2A f2d | F2B GFG | A3 A2 ::
+A|\
+a2A g2A | f2A e2A | F2B BcA | G2B B2e |\
+afa geg | fdf ecA | FdB GEG | A3 A2::
+S:https://www.folktunefinder.com/tunes/95691
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

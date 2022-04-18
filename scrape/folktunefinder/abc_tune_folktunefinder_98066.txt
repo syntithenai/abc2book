@@ -1,0 +1,33 @@
+X:10284
+T:Marcha Celta
+R:marcha
+Z:Mtodu de Gaita
+P:ABA
+M:2/4
+L:1/8
+Q:1/4=120
+K:C
+P:A
+|C2 D2|E3 D/2E/2|FE/2F/2 G/2F/2E/2F/2|D4|
+B,2 C2|D3 C/2D/2|ED/2E/2 F/2E/2D/2E/2|C4:|
+|:AG FE|DD/2E/2 D/2C/2D/2E/2|DD/2E/2 D/2C/2D/2E/2|D3 E/2F/2|
+GAFG|E3 E/2F/2|GA FG|E3/2E/2 E/2D/2E/2F/2|
+D3/2D/2D/2C/2D/2E/2|C4:|
+P:B
+E2 F2|G3 F/2G/2|AG/2A/2 B/2A/2G/2A/2|F4|
+D2 E2|F3 E/2F/2|GF/2G/2 A/2G/2F/2G/2|E4:|
+|:(cB)(AG)|FF/2G/2 F/2E/2F/2G/2|FF/2G/2 F/2E/2F/2G/2|F3 G/2A/2|
+(Bc)(AB)|G3 G/2A/2|(Bc)(AB)|G3/2G/2G/2F/2G/2A/2|
+F3/2F/2 F/2E/2F/2G/2|E4:|
+S:https://www.folktunefinder.com/tunes/98066
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/m.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/m.abc
+% Rhythm Marcha
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

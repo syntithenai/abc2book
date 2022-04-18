@@ -1,0 +1,24 @@
+X:46
+T:Peacocks Tune
+C:John Peacock
+S:Northumbrian Minstrelsy
+M:6/8
+L:1/8
+K:G
+B/c/ | d>ed d>cB | gfg d2 B/c/ | d>ed dcB |
+AAA A2 B/c/ | d>ed d>cB | gfg d2c |
+Bcd BcA | GGG G2 :: GA | BAB cBc |
+dcd ede | fef gdB | AAA A2 d/c/ |
+BAB cBc | def Hg2 f/e/ | dec  BcA | GGG G2 :|
+S:https://www.folktunefinder.com/tunes/181916
+S:http://trillian.mit.edu/~jc/music/book/NorthumbrianMinstrelsy/Peacocks_Tune.abc
+S:http://music.gordfisch.net/oregans/assets/abc/minstrelsy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,40 @@
+X: 62
+T:Round O Jigg, A. TBe.062
+M:6/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:jigg
+O:England
+N:1 - last bar missing - edge of page missing Something appears to
+N:have
+N:been written on the very edge of the page between the two staves
+H:1718
+Z:vmp.C. Graebe..
+K:BB major
+B | B2cB2"cr"_A | G/A/BG E2 e | c2fd2e | fdB B2B |\
+B2cB2_A | G/A/BG Eed | cfe dcd | e3-e2) ||\
+g | g2_ag2f |e2d c>de | "dotted"f2e d>ec |\
+=B2d g3-|g>fe f3-|f>ed e3-|e>fe d2c | c3-c2 g |\
+g2_a bag |_a3-a2 f | f2g _agf | g3-g2 f | g2_a ba"1"g |] !
+zzzz | zzzz | zzzz ||!
+"Tune with possible ending.C.Gr."B | B2cB2"cr"_A | \
+G/A/BG E2 e | c2fd2e | fdB B2B |\
+B2cB2_A | G/A/BG Eed | cfe dcd | e3-e2) ||\
+g | g2_ag2f |e2d c>de | "dotted"f2e d>ec |\
+=B2d g3-|g>fe f3-|f>ed e3-|e>fe d2c | c3-c2 g |\
+g2_a bag |_a3-a2 f | f2g _agf | g3-g2 f | g2_a bag | \
+^ f2g _agf | cfe dcd | e3-e2) ||
+S:https://www.folktunefinder.com/tunes/96213
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key B
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

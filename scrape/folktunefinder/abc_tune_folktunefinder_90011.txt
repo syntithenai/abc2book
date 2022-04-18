@@ -1,0 +1,28 @@
+X:24
+T:Duke of York (Short Troop)
+M:3/8
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+(3(def)|g2d2d2|d3(edc)|B2G2G2|G3(BAG)|(F2A2)A2|(G2B2)d2|(d2c2)B2|{B}A3 (def)|g2d2d2|d3(edc)|
+B2G2G2|G4 d2|e2(ge)(ge)|d2(Bd)(Bd)|c2(AF)(AF)|G4::G2|(F2A2).A2|(G2B2).B2|(A2c2).c2|B3(dBG)|
+F2(AF)(AF)|G2(BG)(BG)|A2(cA)(cA)|B4 (3(def)|g2d2d2|d3(edc)|B2G2G2|G4d2|(ed)(ef)(ge)|
+(fg)(af)(gd)|.c2.A2.F2|G4::z2|(B2d2)d2|(^d2e2)e2|(A2c2).c2|(^c2d2)d2|G4 (FA)|G2B2d2|(gd)(gd).B.G|D6|
+(B2d2)d2|(^d2e2)e2|(A2c2).c2|(^c2d2)d2|(gf)(gf)(e^d)|(ed)(cB)(AG)|(ce)(dB)(cA)|G4:|
+P:2nd fife
+z2|B2B2B2|B3(cBA)|G2G2G2|G3(GFE)|(D2F2).F2|(D2G2).B2|B2A2G2|{G}F2z2|B2B2B2|B3(cBA)|G2G2G2|
+G4 B2|c2(ec)(ec)|B2(GB)(GB)|A2(FD)(FD)|G4::z2|D2D2D2|D2D2D2|D2D2D2|G4z2|D2D2D2|D2D2D2|D2D2D2|G4z2|B2B2B2|
+B3(cB)A|G2G2G2|G4B2|c6|(ABc)A3|.A2.F2.A2|G4::z2|(G2B2).B2|(B2c2).d2|(F2A2).A2|(^A2B2).B2|B4 (AF)|
+G4 G2|B4 G2|D6|(G2B2)B2|B2c2c2|(F2A2)A2|(^A2B2)B2|B4G2|(cB)(AG)(FE)|(Ac)(BG)(AF)|G4:|
+S:https://www.folktunefinder.com/tunes/90011
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

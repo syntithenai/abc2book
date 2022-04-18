@@ -1,0 +1,31 @@
+X: 12
+T:Prelude by Dean(12). TBe.012
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:Key signature is shown as 3 sharps - F,C and G, and every D has an
+N:accidental sharp, so I have shown the key signature in the conventional
+N:way...
+H:1718
+Z:vmp.C. Graebe..
+K:E major
+"NB re key"e4B4G4E4 | f2g2f2e2 d2c2d2B2 |\
+ e2f2e2d2 c2B2c2A2 | e2g2b2e2 d2f2b2f2 | !
+b2f2g2e2 G2F2G2E2 | egbg dfbf egbg dfbf | egbg egbg E8 ||
+S:https://www.folktunefinder.com/tunes/96163
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key E
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

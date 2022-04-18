@@ -1,0 +1,28 @@
+X:25
+T:O! Twine a Wreath
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:The 1st Lady & 2d Gent: change places, 2d Lady & 1st Gent: do the same
+%%Dancenotes:lead down the middle, up again & right & left
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ddd.html
+%%ID:00000ddd
+K:G
+d/c/ |\
+Bdgf | agec | edBG | A2z d/c/ |\
+Bdgf | (ag)ec | Be/d/ c/B/c/A/ | G2 z ||!\
+B|\
+Ac ed/c/ | Bdg B | Ac ed/c/ | B2 zd | \
+^cBA g | fed (3b/g/e/ | d>d ^c/d/e/c/ | d2z !D.C.!|]
+S:https://www.folktunefinder.com/tunes/88138
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

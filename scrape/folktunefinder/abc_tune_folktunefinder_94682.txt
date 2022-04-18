@@ -1,0 +1,30 @@
+X:085
+U: ~ = !turn!
+%%topmargin 3cm
+T:Hitler's Downfall
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Martin Byrnes
+R:Jig
+L:1/8
+M:6/8
+K:BLoc
+PcAB PcAG | ~E3 GAB | PcAB PcAG | EAG A2 B |
+ced cAG | ~E3 GAB | cde fed | cAG A2 B ::
+gea ged | cAB c2 d | eaa {/b}age | edc def |
+gea ged | cAB cde | fed cBG | EAG A2 B :|]
+S:https://www.folktunefinder.com/tunes/94682
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Hitlers_Downfall_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Hitlers_Downfall_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

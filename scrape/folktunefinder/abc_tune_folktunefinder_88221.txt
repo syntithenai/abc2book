@@ -1,0 +1,34 @@
+X:320
+T:Duke of York March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/16
+M:3/8
+O:England
+Z:Richard Robinson 
+%%RRN:"a nother way"
+%%TranscriptionNotes:Slightly edited for clarity
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000eb8.html
+%%ID:00000eb8
+K:C
+gbc' |\
+d'2g2g2 | g3agf  | e2c2c2 | c3edc | |\
+B2d2d2  | c2e2g2 | g2f2e2 | d3gab |\
+d'2g2g2 | g3agf  | e4dc   | c4g2 |
+a2baba  | g2egeg | f2d2B2 | c4 :: \
+c2 |\
+B2d2d2  | c2e2e2    | c2f2f2 | e2gec |
+B2dBdB  | c2ecec    | d2fdfd | e3gab |\
+c'2g2g2 | g3agf     | e2c2c2 | c4 g2 |\
+agabc'a | a2c'd'bc' | f2d2B2 | c4 |]
+%%newpage
+%page 20
+S:https://www.folktunefinder.com/tunes/88221
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/8
+% Has_accompaniment_chords No chords

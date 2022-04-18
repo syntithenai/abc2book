@@ -1,0 +1,25 @@
+X: 154
+T:Paddy's Trip to Scotland
+R:Reel
+D:Altan: Horse with a Heart
+D:Dervish: The Boys of Sligo
+Z:id:hn-reel-189
+M:C|
+L:1/8
+Q:1/4=200
+K:D
+|:dA~A2 BAGF|GABd cABc|d2ed cABc|dfed cABc|
+dA~A2 BAGF|GABd cABc|d2ed cABc|[1 dfec d2dc:|[2 dfec d2dB||
+|:Adfd Adfd|~g3f edcB|Acec Acec|~f3e dcBc|
+Adfd Adfd|~g3f efge|aA~A2 BABc|[1 dfec d2dB:|[2 dfec dABc|]
+S:https://www.folktunefinder.com/tunes/90808
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

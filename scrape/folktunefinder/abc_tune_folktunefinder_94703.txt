@@ -1,0 +1,31 @@
+X:107
+U: ~ = !turn!
+%%topmargin 3cm
+T:Killimore Jig
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Sean Ryan
+R:Jig
+L:1/8
+M:6/8
+K:G
+DEF ~G3 | BAG ABc | ~d3 f/2g/2af | ded cAF |
+DEF ~G3 | BAG ABc | ~d3 fed | cAF G2 E ::
+GBd ~g3 | dgb gdB | GBd ~g3 | fed cAF |
+GBd ~g3 | [Bd]gb gdB | GBd fed | eAF G2 E :|]
+S:https://www.folktunefinder.com/tunes/94703
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Killimore_Jig_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Killimore_Jig_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

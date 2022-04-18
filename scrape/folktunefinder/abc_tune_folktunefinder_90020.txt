@@ -1,0 +1,24 @@
+X:33
+T:Ah, Ca Ira
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+d2(de) d2(de)|d2(de) d4|defg a2(ba)|(ag)(gf) (f2e2)|d2(de) d2(de)|d2(de) d4|defg a2ba|
+f2Te2 d4!fine!:||f2af gfed|cdec d2A2|f2af gfed|def^g a4|A2AB A2AB|A2AB A4|
+ABcd e2(fe)|(ed)(dc) c2B2|A2AB A2AB|A2AB A4|ABcd ecfd|c2A2 A4|
+agfe ^d2d2|^d2d2 e4|gfed c2c2|c2c2 d4|e2f2 g2gf|g2a2 f2d2|e2f2 g2gf|edcB A4!D.C.!||
+S:https://www.folktunefinder.com/tunes/90020
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

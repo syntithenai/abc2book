@@ -1,0 +1,23 @@
+X: 20
+T:Music in the Glen
+R:reel
+M:4/4
+L:1/8
+Q:1/4=200
+K:G
+|:G2BG  (3EFG DC|B,DGB A2AB|c2AB cBAG|AcBA GEDE|
+G2BG  (3EFG DC|B,DGB AGAB|cdef gage|[1 dcBA G2DE:|[2 dcBA G2GA|
+|:BGdG eGdG|(3BAG dB cAFA|(3BAG dG edef|
+gedB AGEA|(3BAG dG edef|~g3b agef|
+(3gag  (3fgf efdB|[1 cABG AGEG:|[2 cABG AGEF|]
+S:https://www.folktunefinder.com/tunes/90674
+S:http://www.alfwarnock.info/alfs/abc/alfreel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

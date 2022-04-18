@@ -1,0 +1,27 @@
+X:845
+T:Knights of Snowdon
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001087.html
+%%ID:00001087
+K:C
+(c/d/) | \
+e2e edc | B2G GAB | c2c cde | gfe d2(c/d/) | \
+e2e edc B2G GAB | c2c dcd | e2c c2 ::
+(B/c/) | \
+d2d d2d | def fga | (ag).g (gfe) | ed.d d2(B/c/) | \
+d2d d2d | def fga | agf    fed   | cag fed |
+cde e2e | efg g2g | gc'a gc'a | gaf e2d | \
+cde e2e | efg g2g | gc'a gaf | e2c c2 ::
+S:https://www.folktunefinder.com/tunes/88326
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

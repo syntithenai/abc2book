@@ -1,0 +1,42 @@
+X: 9164
+T: Tripping at the Truck Stop (with piano acc.)
+C: BB
+R: polka
+Q: 300
+M: 2/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A|"D"dA FA|"Bm"BA FA|"D"dA FD|"G"GF "A"E2|"D"dA FA|"G"B>c de|"D"(3fga "G"gf|\
+"A"ec "D"d :|
+[V:2] z|[D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[G,,2D2B,2][A,,2E2C2]|[D,4A,4F4]|[G,,4D4B,4]|\
+[D,2A,2F2][G,2D2B2]|[A,2E2c2][D,A,F]:|
+%
+[V:1] e|"D"fa fa | "Em"b>a ge | "D"fa af | "G"gf "A"e2 |"D"fa fa | "Em"b>a ge |\
+"D"(3fga "G"gf |"A"ec "D"d :|
+[V:2] z |[D,4A,4F4]|[B,4E,4G4]|[D,4A,4F4]|[G,,2D2B,2][A,,2E2C2]|\
+[D,4A,4F4]|[B,4E,4G4]|[D,2A,2F2][G,,2D,2B,2]|[A,,2E,2C2][D,A,F]:|
+%%%%%%%%%%tune repeat
+[V:1] A|"D"dA FA|"Bm"BA FA|"D"dA FD|"G"GF "A"E2|"D"dA FA|"G"B>c de|"D"(3fga "G"gf|\
+"A"ec "D"d :|
+[V:2] z|[D,4A,4F4]|[B,,4D4F,4]|[D,4A,4F4]|[G,,2D,2B,2][A,,2E,2C2]|[D,4A,4F4]|[G,,4D,4B,4]|\
+[D,2A,2F2][G,,2D,2B,2]|[A,,2E,2C2][D,A,F]:|
+%
+[V:1] e|"D"fa fa | "Em"b>a ge | "D"fa af | "G"gf "A"e2 |"D"fa fa | "Em"b>a ge |\
+"D"(3fga "G"gf |1 "A"ec "D"d :|2 "A"ec "D"d2-|d4||
+[V:2] z |[D,4A,4F4]|[B,4E,4G4]|[D,4A,4F4]|[G,,2D,2B,2][A,,2E,2C2]|\
+[D,4A,4F4]|[B,4E,4G4]|[D,2A,2F2][G,,2D,2B,2]|1 [A,,2E,2C2][D,A,F]:|2 [A,,2E,2C2][D,2-A,2-F2-]|\
+[D,4A,4F4]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87249
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

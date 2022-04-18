@@ -1,0 +1,25 @@
+X:535
+T:Winter
+B:Aird's Airs and Melodies vol 3
+M:6/8
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001fb.html
+%%ID:000001fb
+K:C
+"Slow" e/d/|\
+c2G cde| f2e def| gag {g}f2e| {e}d3 z2e/d/|\
+c2G cde| f2e def| gag efd| c3 z2::
+B/c/|\
+dec dac| egc def| efg age| {e}d3 z2e/f/|\
+g2a g2c'| g2f efg| abc' efd| c4 z:|
+S:https://www.folktunefinder.com/tunes/95413
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

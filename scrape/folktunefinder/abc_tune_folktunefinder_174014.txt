@@ -1,0 +1,26 @@
+X: 1
+T:Malbrouke
+M:6/8
+R:Jig
+K:G
+G|\
+B2B B2A| c3 B>cB| \
+A2A A>GA| {G/A/}B3 G2A|\
+B2B BAB| c3 B2d|
+B2G A>GA| G3-G2::\
+d|\
+d2B e2e| d3-d2d| \
+d2Be2e| d3-d2G|
+B2B BAB| c3 B>cB| \
+A2A A>GA| B3 G2G|\
+B2B B2A| c3 B2d| \
+B2G A>GA| G3 G2:|
+S:https://www.folktunefinder.com/tunes/174014
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Malbrouke_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

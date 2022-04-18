@@ -1,0 +1,56 @@
+X:1
+T:Ol\'ahos
+%T:Olhos
+O:Hungary
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+Q:1/4=110
+M:2/4
+L:1/8
+K:Ddor
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 1
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord fcfc
+|: "Dm"A,D/E/ F/E/D | A,D/E/ F/E/D | AA "E"^GF | "A"E2 E2 :|
+|: "F"A>B cc | dc Bc | "Dm"BA F<D | "A"E2 E2 |
+   "F"A>B cc | dc Bc | "A7"BA FE | "Dm"D2 D2 :|
+%X:2
+T:
+%O:Hungary
+Q:1/4=110
+M:2/4
+L:1/8
+K:Dmin
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 1
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord fcfc
+ "Dm"dc BA | GA F2 | "C"GG FG | "A"A2 A2 |
+ "Dm"dc BA | GA F2 | "C"DE F<E | "Dm"D2 D2 |
+|: "C"GG AG | "F"FF C2 | "C"GG F<G | "F"A2 "A"A2 |
+   "Dm"dc BA | GA F2 | "C"DE F<E | "Dm"D2 D2 :|
+W:Arrangement Copyright (C) 2007 Voluntocracy.
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/179812
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Olahos.abc
+S:http://people.csail.mit.edu/jaffer/Music/Olahos.abc
+S:http://voluntocracy.org/Music/Olahos.abc
+S:http://www.voluntocracy.org/Music/Olahos.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

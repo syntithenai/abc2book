@@ -1,0 +1,36 @@
+X:1
+T:Plaetschertanz
+C:traditionell
+R:polka
+A:'Bandrow', Galizien (Ukraine)
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:Deutsche Volkstaenze, Heft 48/49, Deutsche Volkstaenze aus dem Karpatenraum, Karl Horak, Baerenreiter, Basel, London, New York 1961
+N:im buch s. 25
+N:im buch ganz in G, einstimmig, 1. ton g', ambitus d' - e''
+S:im buch mit der angabe: S. a. Scharlach, Schwaebische Volkstaenze aus Galizien, Nr. 10
+%%endtext
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+G>A BG | c2 B2 | A>G FG | AF D2 |\
+G>A BG | c2 B2 | A>G FA | G2 z2 :|
+Bd ^cd | e2 z(A/B/) | =cc BA | d2 zB |\
+dd ^cd | ee d=c | B2 A2 | G2 zD |\
+BB AB | cc BA | G2 F2 |G2 z2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/182651
+S:http://simonwascher.info/TradArchiv_polka/plaetschertanz.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

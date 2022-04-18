@@ -1,0 +1,25 @@
+X: 14
+T: Zante
+O: Greece
+M: 4/4
+L: 1/4
+K: Dm
+"Dm"A2 A G/F/ | "Bb"ED "A"^CE | "Dm"D4-|D4 |\
+ "A"E2 E>F | "Gm"G>A B2 | "Dm"A4-|A4 ||
+"Bb"d2 dc | "Gm"B2-BA | GA B2 | "Dm"A4 |\
+"Bb"F2 FG | "A"F E/D/ ^CE | "Dm"D4-|D4 ||
+"Dm"f2 f>f | "Gm"eg "A"f>^c | "Dm"d4-|d4 |\
+"Bb"d2 de | dc "C"G>B | "F"A4-|"A"A4 ||
+"Bb"d2 "C"cB | "Dm"A>D EF | "Gm"GA B-B/c/4B/4 | "Dm"A4 |\
+"Dm"f2 "Gm"fg | "A"f e/d/ ^ce | "Dm"d4-|d4 ||
+S:https://www.folktunefinder.com/tunes/92023
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/20011216.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/Zante.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,27 @@
+X:1234
+T:"Over the Bridge To Peggy"  (reel) 1234
+C:after Mr. Ennis
+N:Replaced plain Segno at end with correct D.S. command for Noteworthy.  No repeats or special endings, so Bob's Yer Uncle!
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:C|
+L:1/8
+K:D
+dB"^Segno"|AFdB AFDF|AFdB A2dB|AFdB ABde|fedf e2dB|
+AFdB AFDF|AFdB A2de|faaf gece|dBAF D2z2||
+defg abaf|gage abaf|defg abaf|bgaf e2d2|
+defg a2af|bagb a2af|gfeg f2fd|egfd efd"^Dal Segno"B|]
+S:https://www.folktunefinder.com/tunes/180831
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1201-1300/1234-Over...Peggy.abc
+S:http://www.oldmusicproject.com/AA2ABC/1201-1800/Abc-1201-1300/1234-Over...Peggy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

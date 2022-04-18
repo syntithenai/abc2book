@@ -1,0 +1,45 @@
+X:1046
+T:"Morgan Rattler"   (doublejig)  1046   ABC
+C:after  Sgt. J. O'Neill
+N:This thing sounds like a master-class test for Uilleann pipers !
+Q:1/4=180
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN July 2003 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:6/8
+L:1/8
+K:C
+"_vb"c|GFE DEF|EDE C2c|GFE DEG|A2G ABc|
+GFE DEF|EDE C2f|e(c/2B/2c) dBG|A2G ABc:|
+|:c3ecA|B2-~B dBG|c3ceA|afd efg|
+c3ecA|(B/2A/2B)c dBG|c2-~c BAG|A2G ABc:|
+|:cBA BAG|cGF EDC|cBA BAG|A2G ABc|
+cBA BAG|cGF EcA|GFE DEG|A2G ABc:|
+c3c3|ceg dBG|c3/2c/2c ceg|afd efg|
+c3c3|ceg dBG|c2-~c BGE|A2G ABc|
+c3c3|ceg dBG|c3/2c/2c ceg|afd efg|
+cd(e/2f/2) gfe|dec BAG|c2-~c BGE|A2G ABc||
+|:ceg ceg|ceg dBG|ceg ceg|afd efg|
+g/2g/2ge f/2f/2fd|e/2e/2ec d/2d/2dB|c/2c/2cA B/2B/2BG|A2G ABc:|
+|:GEE CEE|CEE CEE|GEE CEE|A2G ABc|
+GEE CEE|CEE C2f|e(c/2B/2c) dBG|A2G ABc:|
+|:(c3/2d/2e/2f/2) {a}g2e|a2f {a}g2e|(c3/2d/2e/2f/2) g2e|dBG ABc|
+(c3/2d/2e/2f/2) {a}gfe|dec BAG|c2-~c BAG|(A/2B3/2)G ABc:|
+|:(c3/2d/2e/2f/2) {a}gdB|cGE C2c|(c3/2d/2e/2f/2) {a}gdB|dBG ABc|
+(c3/2d/2e/2f/2) {a}gdB|cGF EcA|GFE DEG|A/2B3/2G ABc:|
+|:EDE C/2C/2CC|C/2C/2CC C/2C/2CC|EDE C/2C/2CC|A2G ABc|
+EDE C/2C/2CC|C/2C/2CC C2f|e(c/2B/2c) d B G|A2G ABc:|
+|:C2c {d}cBc|D2d {e}dcd|C2c {d}cBc|A2G ABc|
+C2c {d}cBc|D2d def|{a}gfe dcB|A2G ABc:|
+S:https://www.folktunefinder.com/tunes/176849
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-1001-1100/1046-MorganRattler.abc
+S:http://www.oldmusicproject.com/AA2ABC/0701-1200/Abc-1001-1100/1046-MorganRattler.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

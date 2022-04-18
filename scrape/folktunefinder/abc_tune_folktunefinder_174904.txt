@@ -1,0 +1,36 @@
+X:1
+T:Mazurka
+C:Horst Grimm
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gelernt von Elisabeth und Christoph Huspeka
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+B2A2G2 | F3/2G/2A2A2 | c2B2A2 | G3/2A/2B2B2 |
+B2A2G2 | F3/2G/2A2A2 | c2B2A2 | G2Gz2 :|
+|:\
+F2G2A2 | B3/2B/2B2G2 | A3/2A/2A2F2 | G2A2B2 |
+F2G2A2 | B3/2B/2B2G2 | A3/2A/2A2F2 | G2G2z2 :|
+K:C
+|:\
+G3AGA | G3AGc | c3/2B/2B2d2 | d3/2c/2c2e2 |
+G3AGA | G3AGc | c3/2B/2B2d2 | c2c4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174904
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.B2A2G2F_GA2A2.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

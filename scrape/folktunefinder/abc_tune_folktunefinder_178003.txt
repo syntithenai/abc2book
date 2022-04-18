@@ -1,0 +1,86 @@
+X:1
+%
+%%titleleft 1
+%%topmargin 3.0cm
+%%topspace -1.2cm
+%%staffsep 30pt
+%
+T:My Lord Willoughby's Welcome Home
+C:William Byrde
+Z:abc transcription by Christoph Dalitz
+Z:library inventar number of manuscript source unknown; any hints welcome
+L:1/8
+M:C
+K:CM frenchtab
+%
+%%tabaddflags 0
+%%tabfontsize 11
+%%tabfontscale 1.2
+%%tabflagspace 2
+%
+[abd2] f | [da,c1]>b a1 b/d | [f,,d1] ,,d ,,g ,d |\
+[aacc1]>,a ,,,c1 ,,c | [,bd,a1] a f [e,f,,a] |\
+[f,g,a1] [e,f,,a] [f,g,a] ,,d |\
+[,bd,a/] ,a ,,d ,a [,b,d] ,a ,b ,d |
+[aac,,a1]>,,,c ,,,,c1 ,,,c |\
+[,aba,d1]>,b ,d1 [,b,,,d/] ,d |\
+[abb,d1] [,db,c] [abb,d] [,db,c] | [abb,d1] [,db,c] [abd,a] c |\
+[ddf,,d1]>,,,f ,,,,f1 ,,,f | [abd,a1] ,,,,d [cd,,c] e |
+[fcd,a1]>,d [af1] [ab,,d] | [,dfa1] [,bd] [,adc,a] ,,c |\
+[,,d,ef1]>,,,a ,,,c2 | [,aba,d1]>,b ,d1 [,b,,,d/] ,d |\
+[abb,d1] [,db,c] [abb,d] [,db,c] | [a,,,d/] c [dd,,c1] [db,,a] c |
+[ddf,,d1]>,,,f ,,,,f1 ,,,f | [abdca1] [a,,,d] [cd,,c] e |\
+[fcd,a1] d/c [a,,,d] ,d a1 | [,daa3/2] ,b/ [,acc] ,,d ,a1 |\
+[,,dca1] ,,c/,,a,,,c,,,a ,,,c1 ||
+%second variation
+[,,dca/]abd f,,d,b,d | [a,,,,a/]cd,,,c ,,b,,d [,a,,,d],b |\
+[,d,,,b/],,,a,,,d,,b ,,d,a,b,d | [a,,,,a/],,,c,,c,,d ,a,,c,,d,a |\
+[abd/],,,,a,,,,d,,,a [f,,,a],,,,d [ea,a],,,c |
+[f,,,d/],,,,a [ea,a],,,c [f,,,a],,d,c,d | [a,,,a/],b,da [,,d,,b],a,b,d |\
+[a,,,,a/],,c,,d,a [,,cc2] |\
+[,aba,d1]>[,b,,a] [,d,,c1] [,b,,a/] [,d,,,d] |\
+[a,b,d1] [,d,,c] [a,b,d] [,d,,c/],,,d |
+[a,,cd/]c [d,,,,d],b [,dda1] c/,b | [da,a,d1] ,d/,b [,ab1]>,,a |\
+[a,bc1] [,,da/] ,,,,d [c,,a1] [ea,,c] |\
+[ffg,a1]>,d [ab,,d1] ,a/,,d | [,dfa1] ,,d/,b [,a,c,a1] ,,c/,,,a |
+[,,d,ef1] ,,,,c/,,,,a [,,d,ef2] |\
+[,ab/],,,,,d,,,a[,b,,d] [,d,,c],,,,,d[,b,c][,d,a] |\
+[a,b,d/],b[d,,,c]b [a,b,d],b[d,,,c]b |\
+[a,b/],,,,d[d,,c],,,a [,,d,d],,,,a[c,,a],,,,d |
+%%newpage
+[d,,,cd/],,b,d,b ,a,,ba[,d,d] | [,b,ca/],a[a,d],b [ca,a],,,,c[e,,c],,,a |\
+[f,g,a/],a,,d,a [aa,,,e],a[,b,,a],,d |\
+[,df/],,,a[,bdd],,,a [,a,c],,,a[,,c,c],,,c |
+[,,d,e/],,,,,f[,,,ef],,,,c [,,,ce1] ,,,,,f ||\
+%third variation
+[abd/],,,,a,,,,d,,,,c [f,,,a],,,,c,,,,d,,,a |\
+[da,c/],,,,,a,,b,,a ,,,c,,a[a,b],,,c |\
+[f,,d/],,d,,g,,f ,,d,,f,,g,d |
+[a,,,,a/],,c,a,,d [,,cc],,d,a,,c |\
+[abd/],,,,a,,,,d,,,,c [f,,,d],,,,a[e,,c],,,,,a |\
+[f,,,d/],,,,a[e,,c],,,,,a [f,,,a],,d,b,d |\
+[,bd,a/],,da,,d [,bdd],a,b,d | [aac,,a/],a,,c,,d ,a,b ,a1 |
+[,ab,,d3/2] ,b/ ,d,a[,b,,,d],d | [a,,,d/]cd,d [a,,,d]c[d,,,c],d |\
+[a,,,d/],,,a[d,,c],,,,c ,,,,d,,,,a [c,,a1] |\
+[dab,,d3/2] ,,,,a/ ,,,,c,,,,d,,,a,,,,c |
+[a,d,d/],,,,a,,,,c,,,,d [ca,b],,,,c [ea,c1] |\
+[fcd,a1] d/b [a,,,d],da,,d | [,dfa/],,d,,f,,a [,acc],,,a,,,c,,,,c |\
+[,,dce/],,,,a [,,def1] [,,d,ef2] |
+[,aba,d3/2] ,d/ ,a,b,d[,a,,,d] |\
+[a,,,d/]d[,d,,c]b [a,,,d]d[,d,,c]b |\
+[a,,,d/],,,c[,d,,c],,,a [a,,,d],,,,a [c,,a1] |\
+[d,,,,d/],a,d,b [da],,,,c,,,c,,,a |\
+[ab,,d/],,,,c,,,,a,,,,d [c,,,c],d[eff,,a],d |
+[f,g,a/],a,,d,a ,b,d[a,,,d],d |\
+[,dfa/],,d,,c,,a [,acc],,d,,,,,a,,c |\
+[,,dca/],,b,,a,,,c ,,,a,,,c,,a,,c |\
+[acd,a/],d,c,a ,,d,a,c,d | H[acdca4] |]
+S:https://www.folktunefinder.com/tunes/178003
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Byrde/willoughby_wb.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Byrde/willoughby_wb.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

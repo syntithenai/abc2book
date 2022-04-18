@@ -1,0 +1,33 @@
+X: 022087
+T: Belhavel Trio (The)
+C: Joe Liddy
+Z: BB
+S: "The Leitrim Fiddler" (Dublin 1981)
+N: Uses dotted rhythm; repeats missing from original
+L: 1/8
+M: 4/4
+R: hornpipe
+Q: 1/4 = 160
+K: G
+dc | BGGF GFDF | BGFG Bcdf | gfdB cfdc | BGAF GFDF |
+GBAF DEFD | BGFG Bcdf | gfdc BGFG | D2 G2 G2 :|
+dc|BG (3AGF DEFD | BGFG Bcdf | gfdB c2 Bc | (3dcB cB GFDF |
+GABG DEFD | BGAF GABc | dgfd cBGF | D2 G2 G2 :|
+Bc | dg (3agf dcBc | dBfB GBFB | dgfd cdBc | d2 g2 g2 a2 |
+(3bag af gfdc | BcAB GABc | dgfd cBGF | D2 G2 G2 :|
+Bc | dg (3agf dcBc | dBfB FBDB | dgfd cdBc | dg (3agf g2 ga |
+[1 bgaf gagf | dfcd Bcdf | gfdc BGFG | D2 G2 G2 :|
+[2 (3bag af gagf | dfcd BcAB | GABc dcBG | D2 G2 G4 ||
+%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/88106
+S:http://www.qmcorp.net/webabc/collections/liddy/liddy_bigfile.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

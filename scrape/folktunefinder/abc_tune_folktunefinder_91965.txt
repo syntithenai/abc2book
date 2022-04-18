@@ -1,0 +1,27 @@
+X:035
+%%topmargin 3cm
+T:Mountain Ranger
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:Bb
+FE | DFBc d2cd | edcB G2FE | DFBc d((3B/2c/2B/2)AB | gfdB c2FE |
+DFBc d2cd | edcB G2FE | DFBd cBAc | B2d2 B2 ::
+Bc | d((3B/2c/2B/2)AB GBFB | CFBc d((3B/2c/2B/2)AB | gBfB edcB | GccB ABce |
+d((3B/2c/2B/2)AB GBFB | DFBc d((3B/2c/2B/2)AB | gBfB edcB | AFGA B2 :|]
+S:https://www.folktunefinder.com/tunes/91965
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Mountain_Ranger.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

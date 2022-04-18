@@ -1,0 +1,33 @@
+X:1
+T:The Lollipop Man
+M:6/8
+N:Seabright
+S:Ducklington
+O:English
+R:Reel
+%:NoTeX
+%:NoWWW
+%P:A.(AB$^3$)$^3$.A
+P:A.(AB3)3.A
+K:G
+I:speed 250
+L:1/16
+P:A
+B2A  | G2B  D3 D3  D2E | G3 G3 G4 z A  | B2A G2A  B3 A2G  | B3 E3 E3 \
+B2 A | G2B  D3 D3  D2E | G3 G3 G4 z d  | e2d e2f  g3 d2c  | B3 G3 G6 ||\
+P:B
+d6             g2f e2g | B3 d3 d3 c2 B | A2GA2B   c2BA2G  | B3 E3 E3 \
+B2 A | G2B  D3 D3  D2E | G3 G3 G4 z d  | e2d e2f  g3 d2c  | B3 G3 G6 ||
+S:https://www.folktunefinder.com/tunes/172734
+S:http://www.ucolick.org/~sla/morris/music/Adderbury/lolli.sms6.abc
+S:http://www.ucolick.org/%7Esla/morris/music.old/Adderbury/lolli.sms6.abc
+S:http://www.ucolick.org/%7Esla/morris/music/Adderbury/lolli.sms6.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

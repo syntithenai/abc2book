@@ -1,0 +1,62 @@
+X:1
+T:Pieces de Theorbe
+C:R. de Vis\'ee (1716)
+Z:abc transcription Christoph Dalitz (dalitz@infotech.de)
+L:1/4
+M:C|
+K:AM frenchtab
+%
+%%tabrhstyle modern
+%%staffsep 70pt
+%
+Q:"Allemande"
+%
+a/ | [aabcc{6}2] z/ ,e/a,,a | \
+    '[da,,,a1] ,,a/a #,,f1 {,,a} | \
+    {,a}1 ,,f/a #,,d1 {,,,a} | \
+    {,,a}1 ,,,b/,,d ,,,c,,b {4}1 | \
+    {,,,a}/ (,,d,,b) ,,a '[,,a{,,a}3/2] ,,,c//,,a |
+% bar 6
+[,,,c,a1] {6}/>,,f/ '[,,fg,a1]>,,f | \
+    [,,gh{,,,a}1] {4}/>,,g/ '[,,gh{5}1]>,,f | \
+    [,,ff{4}1] ,,f/-,,d ,,,f-,,a a,d | \
+    '[,c{,,,a}1] ,,d/d ,,aa ,,,a,c | \
+    '[,e{,,a}1] ,c/-,a
+% bar 10
+,c-,e a,,a | \
+    [da,,,a1] {a}/{,a}{,,a}{,,,a}{4}{5} | \
+    {6}/d ,,ad '[da,,,a3/2] ,,a//d | \
+    ,,a1 {,,a} ,,,,c ,,,b | \
+    [caabc1]>{,,,a} {4}1 {5}/ || \
+    [caabc3] z/ ||
+% bar 15
+c/ | [caabc{,,a}2] z/ ,,b-,,aa | \
+    '[,e{,,a}1] ,a ,,f/ ,,g-,,f ,,,h | \
+    '[,,,g,a1] {a}/>,,,g/ [,,,h{,a}1] [,,fg{,,a}] | \
+    '[,,gh{,,,a}1] {7}/>,,f/ '[,,f{6}3/2] ,,,h//,,f | 
+% bar 18
+[,,,h{,,,a}/],,f ,,g-,,f ,,,h-,,,f ,,aa | \
+    [,,aa{a}1] {,a}/>,,b/ '[,,b{,,a}]>,,a | \
+    [a{,a}1] ,,g/a {a}1 ,,,e/,,g | \
+    #[,,ff{4}3/2] ,,d/ '[,,de{7}3/2] ,,,f//,,d |
+% bar 22
+[,,,f{4}1] ,,,k/,,i ,,,h,,g ,,,f,,f | \
+    [,,de{a}1] ,,,f/,,f ,,,e,,d ,,,c,,b  | \
+    [,,aa{7}1] {a}{,a}{,,a} | \
+    {,,,a}1 {,,a}/>,,a/ '[,,a{,,,a}1] {4}/>,,b/ | \
+    [,,d{5}1] ,,,a3/2 ,,a/,,,f,,d |
+% bar 27
+[,,ff{4}1] [a,g{,,,a}/] ,,f-,,d ,,,f-,,a a | \
+    '[,e{,,a}1] {,,,a}/>,e/ [a(e{4}/][,f)] [,,ab{5}1] | \
+    '[,,bc{6}1] {,,,a}/>,,a/ '[,,a{,,a}3/2] ,,,c//,,a | \
+    ,,,c1 {6} ,,,,,a ,,,,c | \
+    [aabcc3] z/ |]
+S:https://www.folktunefinder.com/tunes/182382
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Visee/Allemande.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Visee/Allemande.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

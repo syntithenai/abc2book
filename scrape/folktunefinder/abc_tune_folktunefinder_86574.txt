@@ -1,0 +1,24 @@
+X:825
+T: Tidewater
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: G
+E|"G"DEGA "Em"BGBd|"C"g2 dc "G"Bd"Am"cA|"Em"Bdef "G"gdBd|"Am"cA"G"BG "D"AcBA|
+"G"DEGA "Em"BGBd|"C"g2 dc "G"Bd"Am"cA|"Em"Bdef "G"gdBG|"D7"FADF "G"G3 :|
+A|"D"dfaf "C"g2 dc|"G"Bd"Am"cA "Em"BE (3EDE|"G"BGBd "C"g2 fe|"D"dcAF "G"G3 B |
+"D"dfaf "G"gbbg|"C"ecef "G"gdBG|"G"DEGA "Em7"BedB|"D"AFDF "G"G3 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86574
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

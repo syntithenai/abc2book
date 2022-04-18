@@ -1,0 +1,21 @@
+X:1
+T:Maison de Glace
+M:6/8
+L:1/8
+R:jig
+K:D
+D3 DEF | A3 AFA | B3 Bcd | cBA GFE |
+D3 DEF | A3 AFA |1 B3 BAG | F2A E2A :|2 B3 Bcd | c3-c2A |:
+B3 Bcd | B3 Bcd | fed edc | dcB cBA |
+B3 Bcd | B3 Bcd | fed edc |1 Adc d2A :|2 Adc dAF |]
+S:https://www.folktunefinder.com/tunes/173952
+S:http://music.gordfisch.net/tradmusic/pub/cache/Maison_de_Glace_c0560c.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

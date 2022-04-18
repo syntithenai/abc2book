@@ -1,0 +1,30 @@
+X:20
+T:Air de la gaillarde appellee L'ennuy qui me tourmente.
+R:Gaillarde
+C:Trad.
+S:Thoinot Arbeau
+B:Orchesographie (1589)
+O:France
+A:Champaigne
+Z: Eric Forgeot - http://anamnese.online.fr
+M:6/2
+L:1/2
+Q:1/2=150
+K:C
+DDD FFF | FGG AzF |\
+K:F
+AAA AAG | FFE FzF |
+K:C
+FFG AAF | AAA GzE | GGG FFD | AGF EzE |
+FFG AAF/F/ | A/A/AA GzE | GAG FFE/E/ | D/D/DC DzD ||
+S:https://www.folktunefinder.com/tunes/95568
+S:http://anamnese.online.fr/site2/abc/arbeau_ps.abc
+% Rhythm Gaillarde
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Key F
+% Time_signature 6/2
+% Text Has source text
+% Has_accompaniment_chords No chords

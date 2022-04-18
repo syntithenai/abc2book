@@ -1,0 +1,26 @@
+X:1
+T:Portsmouth
+O:Stanton Harcourt
+R:reel
+M:4/4
+L:1/4
+K:G
+P:A
+D|G A B/A/G/F/|E2 e2|d B c/B/A/G/|A3 D|
+  G A B/A/G/F/|E2 e2|d B c/B/A/B/|G3  |]
+P:B
+d|g a b/a/g/f/|g d B d|g d c/B/A/G/|A3 D|
+  G A B/A/G/F/|E2  e2 |d B c/B/A/B/|G3  |]
+</abc>
+S:https://www.folktunefinder.com/tunes/183595
+S:http://www.tomkeays.com/morris/wiki/doku.php?id=cotswold:stanton_harcourt:portsmouth&do=edit&rev=
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

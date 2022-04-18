@@ -1,0 +1,48 @@
+X: 9116
+T: Ordination (The) (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: A
+[V:1] c|"A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afe "A"ABc|"Bm"BFF F2 c|
+[V:2] z|A,,2[ACE]B,,2[FDA]|F,,2[EAC]E,,2[EGB]|D,2[AFD]A,,2[ACE]|\
+B,,2[BDF]F,,2[BDF]|
+%
+[V:1] "A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afd "E7"Bed|"A"cAG "A"A2 :|
+[V:2] A,,2[ACE]B,,2[BDF]|F,,2[EAC]E,,2[EGB]|D,2[AFD]E,2[DGB]|A,,2[ACE][A,2C2E2]:|
+%
+[V:1] e|"A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"A"ece "D"fga|"Bm"fBB "E"B2 e|
+[V:2] z|A,,2[ACE]B,,2[BDF]|A,,2[ACE]B,,2[BDF]|A,,2[ACE]D,2[AFD]|\
+B,,2[BDF]E,2[EGB]|
+%
+[V:1] "A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"D"afd "E7"Bed|"A"cAG "A"A2 :|
+[V:2] A,,2[ACE]B,,2[BDF]|A,,2[ACE]B,,2[BDF]|D,2[AFD]E,2[DGB]|A,,2[ACE][A,2C2E2]:|
+%%%%%%%tune repeat
+[V:1] c|"A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afe "A"ABc|"Bm"BFF F2 c|
+[V:2] z|A,,2[ACE]B,,2[BDF]|F,,2[EAC]E,,2[EGB]|D,2[AFD]A,,2[ACE]|\
+B,,2[BDF]F,,2[BDF]|
+%
+[V:1] "A"A2 c "Bm"BAB|"F#m"eaf "E"efg|"D"afd "E7"Bed|"A"cAG "A"A2 :|
+[V:2] A,,2[ACE]B,,2[BDF]|F,,2[EAC]E,,2[EGB]|D,2[AFD]E,2[DGB]|A,,2[ACE][A,2C2E2]:|
+%
+[V:1] e|"A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"A"ece "D"fga|"Bm"fBB "E"B2 e|
+[V:2] z|A,,2[ACE]B,,2[BDF]|A,,2[ACE]B,,2[BDF]|A,,2[ACE]D,2[AFD]|B,,2[BDF]E,2[EGB]|
+%
+[V:1] "A"ecA "Bm"B2 A|"A"c2 A "Bm"B2 A|"D"afd "E7"Bed|1 "A"cAG "A"A2 :|2\
+"A"cAG "A"HA3 ||
+[V:2] A,,2[ACE]B,,2[BDF]|A,,2[ACE]B,,2[BDF]|D,2[AFD]E,2[DGB]|1 A,,2[ACE][A,2C2E2]:|2\
+A,,2[ACE]H[A,,3C,3E,3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87201
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

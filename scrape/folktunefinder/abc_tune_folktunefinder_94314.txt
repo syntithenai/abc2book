@@ -1,0 +1,50 @@
+X:19023
+T:Xiraldilla (CT 243)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, dictada por Leandra Gonzlez Zuazua, de cincuenta aos, de Uviu, quien dice la aprendi en Bayn, ayuntamiento de Grau.
+O:Bayn (Grau)
+A:Asturies
+Z:Cancioneru de Torner 243
+M:2/4
+L:1/8
+Q:1/4=160
+W:-Vironme la mio gallina
+W:-Por aqu pas.
+W:-Yo nun siento la gallina,
+W:nin lo que cost.
+W:Siento los probes pitinos
+W:que quedaron piquiinos
+W:cantando el po, po,
+W:po, po, po;
+W:cantando el po, po,
+W:po, se acab.
+W:
+W:Crami isti didu, ceruxanu,
+W:crami isti didu de la manu.
+W:Ai! yo morrer, morreri,
+W:ensin saber cundo nin de qui.
+W:Crami isti didu, ceruxanu,
+W:crami isti didu de la manu.
+K:G
+|c3 c|cc cc|cc Bc|(d>c) (BA)|B4|B3 G|AG AB|cd cB|A2 G2|G2 z2|
+c2 cc|cc cc|cc cc|cc BA|B2 BG|
+|: FG AB|c2 B2|AG GG|[1 G2 zG :|[2 G2 z2|
+|: FG AB|dc BA|G2 G2 :|
+c2 cB|d2 dc|(d>c B2)|GA Bc|cB BA|G2 G2|
+|: FG AB|dc BA|G2 G2 :||
+S:https://www.folktunefinder.com/tunes/94314
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

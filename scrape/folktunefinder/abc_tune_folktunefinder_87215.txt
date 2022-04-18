@@ -1,0 +1,45 @@
+X: 9130
+T: Prunes for Breakfast (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] A | "Bm"dBc "A"A2 A | "G"BGd "D"AFD | "G"BGd "D"fda | "E"^gdB "A"AEA |
+[V:2] z|B,,2[BDF]A,,2[ACE]|G,,2[GBD]D,2[AFD]|G,,2[GBD]D,2[AFD]|E,2[E^GB] A,,2[ACE]|
+%
+[V:1] "Bm"dBc "D"AFA | "G"Bcd "D"FED | "Em"EBB "A"cBc | "D"dFE "D"D2 :|
+[V:2] B,,2[BDF]D,2[AFD]|G,,2[GBD]D,2[AFD]|E,2[EGB]A,,2[ACE]|D,2[AFD][D,2F,2A,2]:|
+%
+[V:1] A | "D"dcd aba | "C"=cBc gag | "D"fdd "G"gdd | "E"^gdb "A"a2 a |
+[V:2] z|D,2[AFD]A,,2[AFD]|=C,2[EG=C]G,,2[EG=C]|D,2[AFD]G,,2[GBD]|E,2[E^GB] A,,2[ACE]|
+%
+[V:1] "G"bag "D"fed |"C"=cgc "A"e^cA | "Bm"dBc "A"AEA |"D"dFE "D"D2 :|
+[V:2] G,,2[GBD]D,2[AFD]|=C,2[EG=C]A,,2[A^CE]|B,,2[BDF]A,,2[ACE]|D,2[AFD][D,2F,2A,2]:|
+%%%%%tune repeat
+[V:1] A | "Bm"dBc "A"A2 A | "G"BGd "D"AFD | "G"BGd "D"fda | "E"^gdB "A"AEA |
+[V:2] z|B,,2[BDF]A,,2[ACE]|G,,2[GBD]D,2[AFD]|G,,2[GBD]D,2[AFD]|E,2[E^GB] A,,2[ACE]|
+%
+[V:1] "Bm"dBc "D"AFA | "G"Bcd "D"FED | "Em"EBB "A"cBc | "D"dFE "D"D2 :|
+[V:2] B,,2[BDF]D,2[AFD]|G,,2[GBD]D,2[AFD]|E,2[EGB]A,,2[ACE]|D,2[AFD][D,2F,2A,2]:|
+%
+[V:1] A | "D"dcd aba | "C"=cBc gag | "D"fdd "G"gdd | "E"^gdb "A"a2 a |
+[V:2] z|D,2[AFD]A,,2[AFD]|=C,2[EG=C]G,,2[EG=C]|D,2[AFD]G,,2[GBD]|E,2[E^GB] A,,2[ACE]|
+%
+[V:1] "G"bag "D"fed |"C"=cgc "A"e^cA | "Bm"dBc "A"AEA |1 "D"dFE "D"D2 :|2\
+"D"dFE "D"HD3 ||
+[V:2] G,,2[GBD]D,2[AFD]|=C,2[EG=C]A,,2[A^CE]|B,,2[BDF]A,,2[ACE]|\
+[1 D,2[AFD][D,2F,2A,2]:|2\ D,2[AFD]H[D,3F,3A,3]||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87215
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

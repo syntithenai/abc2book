@@ -1,0 +1,26 @@
+X: 12
+T: Swallow's Nest, The
+I: Swallow's Nest, TheJ-57DjigSet 45
+M: 6/8
+R: jig
+K: D
+A/c/| "D"dcd fdc| dAG FED| FAd "A"cAF| E=CE "A7"GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg| "D"f/f/df "A7"gec| edc "D"d2 :|
+|:\
+f/g/| "D"a>ba fdf| "A7"gag ecA| "D"fef "A7"gfg| ecA GFE|
+      "D"DFA dAF| "Em"EGB "A7"efg |1 "D"f/f/df "A7"gec| edc "D"d2 :|2\
+      "D"f2f "A"gec| edc "D"d2 :|
+%%text Roaring Jelly J-57
+%%vskip 6pt
+S:https://www.folktunefinder.com/tunes/183554
+S:http://roaringjelly.org/music/sets/Set45.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/Set45.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/Set45.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

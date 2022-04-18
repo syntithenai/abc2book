@@ -1,0 +1,19 @@
+X:1
+T:A New England Ballad
+M:3/4
+L:1/4
+K:G
+ d/2c/2| B3/2 c/2 B| A2 B| E3/2 F/2 G| F2 G| A3/2 B/2 ^c| d2 A| F2 E/2D/2|\
+ D2 A| A3/2 B/2 c| d d A| B3/2 A/2 B| E2 c| d3/2 c/2 B| e3/2 d/2 c|\
+ B3/2 A/2 G| G2 c| d3/2 c/2 B| e3/2 d/2 c| B3/2 A/2 G| G2||
+S:https://www.folktunefinder.com/tunes/178498
+S:http://back.numachi.com:8000/dtrad/abc/NEBALLAD.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/NEBALLAD.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

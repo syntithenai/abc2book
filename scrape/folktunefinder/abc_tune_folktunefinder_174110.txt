@@ -1,0 +1,24 @@
+X: 3
+T: Man In A Brown Hat
+C: Cliff Stapleton
+M: 2/2
+L: 1/8
+R: schottische
+K: d minor
+|: F2 FG E2 D2 | F2 G2 A4 | A2 AB G2 d2 | cdcd AcFc |
+F2 FG E2 D2 | F2 G2 A4 | A2 AB AGFG | E4 D4 :|
+K: D Dorian
+|: defe d2 A2 | c2 B2 A4 | DEFG A2 d2 | cdcd ABcA |
+defe d2 A2 | c2 B2 A4 | DEFG AGFG | E4 D4 :|
+S:https://www.folktunefinder.com/tunes/174110
+S:http://www.thesession.org/tunes/display/7851
+% Rhythm Schottische
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

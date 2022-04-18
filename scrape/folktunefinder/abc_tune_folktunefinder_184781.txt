@@ -1,0 +1,31 @@
+X: 11
+T: Rdn
+O: Jmtland
+Z: Hkan Lidn, 2008-09-27
+Q: 3/8=106
+N: Hoven Droven (osker p skiva)
+R: Pols
+M: 9/8
+L: 1/4
+K: D
+V:1
+B/| "D" A G/ F/ A d d/ | "D" e/a/ f d "G" B b/ | "A" g f/ e/ d c e/ | "A" e/a/ "D" f d "G" d/c/B/ | 
+"D" A G/ F/ A d d/ | "D" e/a/ f d "G" B b/ | "A" g f/ e/ d c d/ | "A" e/c/e/ "D" d3/2-d :|
+|: f/ | "Em" g a/ b/g/b/ "D" a3/2 | "A" e f/ g/e/g/ "D" f3/2- | "A" f/g/f/ e/a/f/ "D" d d/ | "A" c/A/c/ "G" B/G/B/ "A" A G/ | 
+"D" F/G/ A F D3/2 | "D" d e/ f/ d "G" B b/ | "A" g f/ e/ d c d/ | "A" e/c/e/ "D" d3/2-d :|
+V:2
+F/-| F D/ A,/ D F F/ | D E F G A/ | B A/ G/ F E F/ | G/B/ A F G/F/E/ | 
+D A, D F F/ | D E F G A/ | B A/ G/ F E F/ | G/E/G/ F3/2-F :|
+|: ^d/ | e f/ g/e/g/ f3/2 | c d/ e/c/e/ d3/2- | d/e/d/ c/e/c/ A D/ | E E/ D/B,/D/ C C/ |
+D/E/ F D A,3/2 | D E/ F/ D G A/ | B A/ G/ F E F/ | G/E/G/ F3/2-F :|
+S:https://www.folktunefinder.com/tunes/184781
+S:http://www.folkwiki.se/pub/cache/_R%F6d%F6n_f3be8f.abc
+% Rhythm Pols
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

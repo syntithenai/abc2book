@@ -1,0 +1,27 @@
+X: 1
+T:Rakes of Mallow
+M:2/4
+L:1/8
+R:polka
+K:G
+(3D/E/F/ \
+|: "G"GB GB | GB c/B/A/G/ | "D7"FA FA | FA d/c/B/A/ |
+   "G"GB GB | "C"G/A/B/c/ "G"dB | "D7"c/B/A/G/ F/G/A/c/ |\
+  [1 "G"BG G (3D/E/F/ :|[2 "G"BG G2 ||
+|: "G"gf/e/ "C"dc | "G"Bc d2 | gf/e/ "C"dc | "G"Bd "D7"A2 |
+   "G"gf/e/ "C"dc | "G"Bc dB | "D7"c/B/A/G/ F/G/A/c/ |\
+  [1 "G"BG G2 :|[2 "G"BG G (3D/E/F/ |]
+N:HOI - abc by Peter Ostapenko 5/12/2007
+N:G Major
+S:https://www.folktunefinder.com/tunes/184564
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/RakesOfMallow.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,60 @@
+X:57
+T:Tenting To-Night
+C:Harmony by J. McDonagh
+M:C
+L:1/8
+K:D treble
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|f2 f>e d2 d>c|B2 d2  A2 z2|A A2 A G3  F |F6  A2|f2 f>e d3 c|B2 d2  A3 A|c3 c B2 A2|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|A2 A>G F2 F>F|G2 G2  F2 z2|F F2 F E3  D |D6  A2|A2 A>G F3 F|G2 G2  G3 F|G3 G G2 G2|
+V:3
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|D2 D>D D2 D>D|E2 B,2 D2 z2|D D2 D C3 A,|A,6 A2|D2 D>D D3 D|E2 B,2 D3 D|E3 E D2 E2|
+V:4
+K:treble-8
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose -4
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A2|F2 F>F A2 A>A|E2 G2  D2 z2|D D2 D A3  D |D6  A2|F2 F>G A3 A|E2 G2  D3 D|A3 A G2 c2|
+V:1
+d6 z2|A<A A>A A2 GA|B B2 B B4|AAAA d3 d|E6 z2|f<f f>e d2 d>c|Bd A3 d|
+V:2
+A6 z2|F<F F>F F2 EF|G G2 G G4|FFFF A3 A|A6 z2|A<A A>A A2 A>A|G<G G>G F3 B|
+V:3
+F6 z2|D<D D>D D2 DD|D D2 D D4|DDDD F3 F|G6 z2|F<F F>F F2 F>F|D<D D>D D3 D|
+V:4
+d6 z2|D8           |G8       |AAAA d3 d|c6 z2|D8            |G6        G2|
+V:1
+f3 f f3 e|d6 z2|A A2 A A4|B B2 B B4|AAAA B2 c2|A6 z2|]
+V:2
+A3 A A3 A|A6 z2|F F2 F F4|G G2 G G4|GGGG G2 G2|F6 z2|]
+V:3
+D3 D D3 G|F6 z2|D D2 D D4|D D2 D D4|EEEE D2 E2|D6 z2|]
+V:4
+D3 F A3 c|d6 z2|D D2 D D4|G G2 G G4|cccc G2 c2|D6 z2|]
+%%%newpage
+S:https://www.folktunefinder.com/tunes/90044
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

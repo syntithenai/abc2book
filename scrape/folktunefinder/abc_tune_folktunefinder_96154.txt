@@ -1,0 +1,36 @@
+X: 3
+T:Prelude by Dean(03). TBe.003
+M:4/4
+L:1/16
+Q:200
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:
+H:1718
+Z:C, Graebe
+K:A minor
+"Are natural=A minor.No time sig."\
+A4B4c4A4 | ^G4B4e4B4 | c4A4a4e4 | ^d4B4b4^f4 |!
+^g4e4 E2F2G2E2 | e2E2G2E2 A2B2c2A2 | a2A2c2A2 B2A2^G2E2 |!
+a2g2f2d2 g2f2e2c2 | f2e2d2B2 e2d2c2A2 | d2c2B2G2 c2B2A2F2 |!
+B2A2^G2E2 agfd gfec | fedB edcA dcBG cBAF |!
+agfe defd gfed cdec | fedc BcdB edcB ABcA |!
+BcBA ^G^FGE ABcA BcdB |\ 
+cdec defd efge fgaf |! 
+^g6 ^fg a2A2c2e2 | a8 ||
+S:https://www.folktunefinder.com/tunes/96154
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

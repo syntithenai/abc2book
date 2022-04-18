@@ -1,0 +1,26 @@
+X:160
+T:Dan the Cobbler
+M:6/8
+L:1/8
+Q:120
+S:THSP
+R:jig
+D:
+Z:
+K:D
+"D"DFA B2A|def gfe|"G"~f3 ecA|"A"~B3 AFE|
+"D"DFA B2A|def gfe|"G"~f3 ecB|1 "A"Adc "D"d3:|2 "A"Adc "D"d2d||:
+"D"fad fad|faa agf|"C"eg=c eg=c|egg gfe|"D"~f3 "G"gfg|
+"D"agf efg|fed cAG|1 "A"Adc "D"d2d:|2 "A"Adc "D"d3|]
+S:https://www.folktunefinder.com/tunes/97376
+S:http://www2.redhawk.org:8080/irish/irishtradmusic.org/100jigsreels.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,35 @@
+X:25
+T:Morpeth Rant
+C:Traditional
+S:The Fiddle Player's Tunebook 1
+M:4/4
+L:1/8
+K:D
+Q:120
+A2/3B2/3c2/3 |\
+"D"d2 AG FDFA |\
+"G"BGBd "A"cAce |\
+"D"f2 df "G"gfed |\
+"A"c2 e2 A2 A2/3B2/3c2/3 |\
+"D"d2 AG FDFA |\
+"G"BGBd "A"cAce |\
+"D"f2 df "A"gfec |\
+"D"A2 d4 :: A2 |\
+"D"dfaf dfaf |\
+"G"gfef "Em"g2 ef |\
+"A"gfed cdeg |\
+"D"fefg "A"f2 e2 |\
+"D"dfaf dfaf |\
+"G"gfef "Em"g2 ef |\
+"A"gfed ceag |\
+"D"f2 d2 d2 :|
+S:https://www.folktunefinder.com/tunes/176958
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ChrisWhistler/MorpethRant.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

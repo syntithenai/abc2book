@@ -1,0 +1,20 @@
+X:127
+T:Southern Rose Polka
+M:2/4
+L:1/16
+K:G
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+!ff!D2DDD2 z2|F2FFF2 z2|A2AAA2 z2|"^ad lib"Hd4-d2^cded cded =c2A2F2HD2 ^cded cded =c2A2F2HD2
+z2D2 F2>F2 A2>A2 d2>d2 f2>f2 a2>a2 Hd'4 D2F2A2d2 HTd4 D2F2A2d2 HTd4 ^cdfe =cAEF \
+S:https://www.folktunefinder.com/tunes/90114
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

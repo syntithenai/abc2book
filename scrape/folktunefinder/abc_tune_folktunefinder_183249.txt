@@ -1,0 +1,27 @@
+X: 1
+T: Polska efter August Bohlin
+O: Uppland
+R: Polska
+S: utlrd av Cajsa Ekstav p Ekebyholmskursen 2008
+S: efter Sture Sahlstrm
+S: efter Curt Tallroth
+S: efter August Bohlin
+Z: Nils L, 2008-09-03
+M: 3/4
+K: G
+L: 1/16
+d2>e2 d4 c4 | TB2>A2 B4 G4 | A2>c2 A2<F2 D2>F2 | G2A2 B2>c2 d4- |
+d2>e2 d4 c4 | TB2>A2 B4 G4 | A2>c2 A2<F2 D2>F2 | G4 G8 ::
+    A4 A2<F2 D2>G2 | {/G}B4 B2<G2 D2>D2 | c4 c2>B2 A2>G2 | d4 B2<G2 D2>F2 |
+{/F}A4 A2<F2 D2>G2 | {/G}B4 B2<G2 D2>D2 | c4 c2>B2 A2>G2 | d4 D4 E2>F2 |
+G4 G8 :|
+S:https://www.folktunefinder.com/tunes/183249
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_August_Bohlin_35bb54.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

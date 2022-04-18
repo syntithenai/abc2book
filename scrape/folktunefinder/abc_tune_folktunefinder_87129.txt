@@ -1,0 +1,47 @@
+X: 9044
+T: Eblana's Fair Daughters (with piano acc.)
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+V: 1 program 1 110 %fiddle
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] D|"G"B,DE B,DE | "C"GFG "Am"AGE | "G"B,DE B,DE | "C"GFE "D"DB,A, |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]A,,2[AEC]|G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|
+%
+[V:1] "G"B,DE B,DE | "C"GFG "Am"ABc | "G"BcB "Am"AGA | "G"BGF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|C,2[CGE]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|G,,2[GBD][G,2D2B2]:|
+%
+[V:1] A|"G"BGG dGG | "C"gfe "D"dBA | "G"BGB deg | "Em"BAG "D"A2 A |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|G,,2[GBD]D,2[GBD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "G"BGG dGG | "C"gfe "D"def | "G"gdB "Am"Adc |"G"BGF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|G,,2[GDB]A,,2[AEC]|G,2[GBD]G,,2 :|
+%%%%%%%tune repeat
+[V:1] D|"G"B,DE B,DE | "C"GFG "Am"AGE | "G"B,DE B,DE | "C"GFE "D"DB,A, |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]A,,2[AEC]|G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|
+%
+[V:1] "G"B,DE B,DE | "C"GFG "Am"ABc | "G"BcB "Am"AGA | "G"BGF "G"G2 :|
+[V:2] G,,2[GBD]D,2[GBD]|C,2[CGE]A,,2[AEC]|G,,2[GDB]A,,2[AEC]|G,,2[GBD][G,2D2B2]:|
+%
+[V:1] A|"G"BGG dGG | "C"gfe "D"dBA | "G"BGB deg | "Em"BAG "D"A2 A |
+[V:2] z|G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|G,,2[GBD]D,2[GBD]|E,2[EBG]D,2[AFD]|
+%
+[V:1] "G"BGG dGG | "C"gfe "D"def | "G"gdB "Am"Adc |1 "G"BGF "G"G2 :|2\
+"G"BGF "G"G3-|G3 z3||
+[V:2] G,,2[GBD]D,2[GBD]|C,2[CGE]D,2[AFD]|G,,2[GDB]A,,2[AEC]|1 G,2[GBD]G,,2 :|2\
+G,2[GBD] [G,,3-D3-B,3-]|[G,,3D3B,3] z3||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87129
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

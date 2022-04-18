@@ -1,0 +1,45 @@
+X:750
+T: Seventh City (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 01
+K: Am
+[V:1] cd|"Am"eAcB AE (3EDE|"Am"Aece Aece|"F"cA (3A^GA "C"=GECE|"Dm"AFAc "G"B2 cd|
+[V:2] z2|A,,2[A2C2E2] C,2[E2G2C2]|A,,2[A2C2E2]E,,2[E2C2A2]|F,,2[A2C2F2]C,2[E2G2C2]|\
+D,2[A2D2F2]G,,2[G2B2D2]|
+%
+[V:1] "Am"eAcB AE (3EDE|"Am"Aece Aece|"Dm7"afdc "G"BGBd|"F"cA"G"BG "Am"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]E,,2[E2C2A2]|\
+D,2[A2C2F2]G,,2[G2B2D2]|[F,2A,2C2][G,2B,2D2][A,2C2E2]:|
+%
+[V:1] AB|"C"cG (3G^FG EGGA|"C"cdeg "Am"aged|"C"cG (3G^FG "Em"EDEG|"Am"ABcB A3 B|
+[V:2] z2|C,2[E2G2C2]G,,2[E2C2G2]| C,2[E2G2C2]A,,2[A2C2E2]| C,2[E2G2C2]E,2[E2B2G2]|\
+A,,2[A2C2E2] C,2[E2G2C2]|
+%
+[V:1] "C"cG (3G^FG EGGA|"C"cBcd "Em"edeg|"Am"a2 ba "G"gedB|"F"cA"G"BG "Am"A2 :|
+[V:2] C,2[E2G2C2]G,,2[E2C2G2]| C,2[E2G2C2] E,2[E2B2G2]|\
+A,,2[A2C2E2]G,,2[G2B2D2]|[F,,2A,2C2][G,,2B,2D2][A,,2C2E2]:|
+%
+[V:1] eg|"Am"ae (3efe aebe|"Am"ae (3efe "G"gedg|"Am"ae (3efe "Em"gedB|"Am"AGAc "G"B2 eg|
+[V:2] z2|A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]G,,2[G2B2D2]|A,,2[A2C2E2]E,2[E2B2G2]|\
+A,,2[A2C2E2]G,,2[G2B2D2]|
+%
+[V:1] "Am"ae (3efe aebe|"Am"ae (3efe "Em"gedB|"C"cdeg "Am7"aged|"F"cA"G"BG "Am"A2 :|
+[V:2] A,,2[A2C2E2]E,,2[E2C2A2]|A,,2[A2C2E2]E,2[E2B2G2]|\
+C,2[E2G2C2]A,,2[G2C2E2]|[F,,2A,2C,2][G,,2B,2D,2][A,,2C2E,2] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87035
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

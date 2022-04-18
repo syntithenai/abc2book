@@ -1,0 +1,24 @@
+X: 1
+T: The Pleasures of Youth
+R: reel
+Z: 2005 John Chambers <jc@trillian.mit.edu>
+M: 2/4
+L: 1/8
+K: A
+ "E7"c>d \
+| "A"e>d cd | e2 aa | "E7"ag/a/ bb | "(A)"ba "E7"cd \
+| "A"e>d cd | e2 cA | "D"DA "E7"EG | "A"A2 :|
+|: "A"aa \
+| "E7"ge "A"aa | "E7"ge "A"aa | "E"gg "B"ff | "E"e2 "E7"cd \
+| "A"e>d cd | e2 cA | "D"DA "E7"EG | "A"A2 :|
+S:https://www.folktunefinder.com/tunes/182883
+S:http://trillian.mit.edu/~jc/music/abc/AmRev/tune/Pleasures_of_Youth_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/England/tune/Pleasures_of_Youth_A.abc
+S:http://trillian.mit.edu/~jc/music/abc/Vintage/tune/Pleasures_of_Youth_A.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

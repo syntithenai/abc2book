@@ -1,0 +1,23 @@
+X: 1
+T: Maple Sugar
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+Bc|:d2 de dcBA|B2 Bc B2 cB| BAAB c2 BA|cBBA B2 Bc|
+d2 de dcBA|B2 Bc B2 cB| BAAB c2 BA|1GDEF G2 Bc:|2GDEF G2 FG||
+K: Dmaj
+A2 AB AFAd| f2 fe d2 cd|e2 ed c2 Bc|d2 cB AFGB|
+A2 AB AFAd| f2 fe d2 cd|e2 ed c2 Bc|1d2 dc d2 FG:|2d2 dc d2||
+S:https://www.folktunefinder.com/tunes/174207
+S:http://www.thesession.org/tunes/display/6924
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

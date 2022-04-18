@@ -1,0 +1,44 @@
+X:1
+T:Ochsenfelder Schottisch
+C:Sepp Rubenberger 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+L:1/16
+M:2/4
+K:G
+V:1
+d2de d2B2 | d2c2 c4 | c2cd c2A2 | c2B2 B4 |
+d2de d2B2 | d2c2 c4 | c2dc B2A2 | G6 z2:|
+V:2
+K:G
+B2Bc B2G2 | B2A2 A4 | A2AB A2F2 | A2G2 G4 |
+B2Bc B2G2 | B2A2 A4 | A2BA G2F2 | D6 z2:|
+V:1
+A2AB c4 | B2Bc d4 | e2ed c2e2 | d2dc B4 |
+A2AB cBA2 | B2Bc dcB2 | d3d c2F2 | G6 z2 :|
+V:2
+F2FG A4 | G2GA B4 | c2cB A2c2 | B2BA G4 |
+F2FG AGF2 | G2GA BAG2 | B3B A2D2 | D6 z2 :|
+V:1
+P:Trio
+K:C
+c3c c2G2 | e3e e2c2 | d2e2 f2B2 | c2e2 G4 |
+c3c c2G2 | e3e e2c2 | def2 G2B2 | c2c2c2 z2 :|
+V:2
+K:C
+G3G G2E2 | c3c c2G2 | B2c2 d2G2 | G2c2 E4 |
+G3G G2E2 | c3c c2G2 | Bcd2 G2G2 | G2G2G2 z2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179404
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/ochsenfelder_schottisch.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

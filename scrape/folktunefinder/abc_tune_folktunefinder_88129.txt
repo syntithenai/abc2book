@@ -1,0 +1,30 @@
+X:10
+T:Messe No 4
+T:Saint le Seigneur
+M:C|
+L:1/4
+K:D
+F2F2|A4|D2D2|F4|B2E2|A2DG|F2E2|D4||
+FFFF|AAAA|D2DD|F2-F2|B2E2|A2DG|F2E2|D4||
+T:Anamnse
+M:12/8
+L:1/8
+K:C
+C2D E2F E2D C3|E2G A2G E2F G3|G2c cBA G2F E3|
+E2F EDC B,2C D3|G2C FED E2D C3||
+T:Agneau de Dieu - AL2
+C:L.Deiss
+M:none
+K:Dm
+F FG A2 AA AA AA cc AG F2[1,2GF DF G3|[3GF DC D3||
+S:https://www.folktunefinder.com/tunes/88129
+S:http://moinejf.free.fr/messe/messeM.abc
+% Transcriptions Only 1 transcription
+% Mode minor
+% Mode major
+% Key C
+% Key D
+% Time_signature 4/4
+% Time_signature 12/8
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

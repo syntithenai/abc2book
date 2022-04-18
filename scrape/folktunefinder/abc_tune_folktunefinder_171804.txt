@@ -1,0 +1,23 @@
+X: 1
+T:Sailor's Wife
+T:Leith County Dance
+M:6/8
+L:1/8
+C:Trad.
+R:Double Jig
+K:Dm
+|:DEF ~E2D|Ade f2g|agf edc|AcA GEC|!
+DEF ~E2D|Ade f2g|agf ed^c|1 d3 dAF:|2 d3 d2e|!
+|:fga fga|f~f2 agf|ecg ecg|e2e gfe|!
+fga agf|efg gfg|def ed^c|1 d3 d2e:|2 d3 dAF|!
+S:https://www.folktunefinder.com/tunes/171804
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/sa/Sailors_Wife_3.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/sa/Sailors_Wife_4.abc
+% Rhythm Double jig
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

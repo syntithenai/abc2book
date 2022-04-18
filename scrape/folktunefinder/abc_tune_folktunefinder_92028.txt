@@ -1,0 +1,26 @@
+X:5
+T: Yao xue la zhu yi tiao xin
+N: C1505
+O: China,Sichuan, Wushan
+S: II, 252]
+R: Xiaodiao, Fengsuge, Zimeige, Pipa yun. Hunjia yishi shang chang]
+M: 2/4
+L: 1/32
+K: F
+d4c4d4c4f12d4 | d4f4d2f2d2c2A4c4A4c4
+d4f4d2f2c2d2A8d6f2 | A6G2G8 | A4c4G4G4A8
+d6c2d4f4d6f2d3fc4 | A4c4G4G4A6
+c2 | d4c4f4d8c4 | c4A8c4d6f2d2f2d2c2 | A8d6f2F12
+D4 | c4A4d4G4A8A4G2F2 | F4D4G4A4D16
+S:https://www.folktunefinder.com/tunes/92028
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao, fengsuge, zimeige, pipa yun. hunjia yishi shang chang]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

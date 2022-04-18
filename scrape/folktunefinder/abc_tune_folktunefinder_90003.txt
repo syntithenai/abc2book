@@ -1,0 +1,21 @@
+X:16
+T:Slow March 4/4
+M:4/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F>G|A4 BcdB|A2 d>d d2e2|f2 e>f g2f2|e2e>e e2F>G|A4 BcdB|A2d>d d2e2|
+fage d2c2|d2d>dd2::a>g|fd/d/dd dfaf|g2A>A A2g>f|eA/A/AA Aceg|
+f2d>d d2F>G|A4 BcdB|A2d>d d2e2|fage d2c2|d2d>dd2:|
+S:https://www.folktunefinder.com/tunes/90003
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

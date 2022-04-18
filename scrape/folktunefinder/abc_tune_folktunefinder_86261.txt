@@ -1,0 +1,20 @@
+X: 55
+T: TROMPEUSE DE DINAN
+M: 4/4
+L: 1/8
+Q:1/4=60
+K:C
+|Gcde f/2e/2de/2d/2c|Gcde f/2e/2d2.g2|cdef/2e/2 de/2d/2cG|cdef/2e/2 d2.g
+2|
+efgg/2g/2 gagf|deff/2f/2 fgfe|dcd2 d2.g2|efgg/2g/2 gagf|
+deff/2f/2 fgfe|dcd2 d2.g2|g2c/2|
+% Output from ABC2Win  Version 2.1 f on 13/01/99
+S:https://www.folktunefinder.com/tunes/86261
+S:http://perso.wanadoo.fr/yves.belotteau/Musique/penthievre.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

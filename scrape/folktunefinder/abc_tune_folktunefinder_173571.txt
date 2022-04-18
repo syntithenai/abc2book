@@ -1,0 +1,27 @@
+X: 1
+T: Mad Turk, The
+M: 4/4
+L: 1/8
+R: reel
+K: Gmaj
+M: 6/4
+|: FAAF A2 FA _BdBA |FAAF A2 FD C3 B,1/2 |
+M: 8/4
+| C2 CB, C3 B, CGBG ABAG |FAAF A2 FA ded^c d2d2 :|
+M: 4/4
+K: D
+cd | eA A1/2A1/2A GAAG | A2 GA cdcd | eA A1/2A1/2A GAcd | egfe- egfg |
+eA A1/2A1/2A GAAG | A2 GA cdcd | eA A1/2A1/2A GAcd | cAFG- G2 z2 |]
+S:https://www.folktunefinder.com/tunes/173571
+S:http://www.thesession.org/tunes/display/1931
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Time_signature 8/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

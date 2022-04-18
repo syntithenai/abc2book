@@ -1,0 +1,28 @@
+X:199
+U: ~ = !turn!
+%%topmargin 3cm
+T:Spanish Lady Polka
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Polka
+L:1/8
+M:C|
+K:AMix
+AG | FA AB/2c/2 d>e de/2f/2 | ge fd BA AA/2G/2 | FA AB/2c/2 d>e de/2f/2 | ge fd BA A ::
+e | fa af ed d>e | fa af ed e>g | fa af ed de/2f/2 | ge fd BA A :|]
+S:https://www.folktunefinder.com/tunes/94794
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Spanish_Lady_Polka_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Spanish_Lady_Polka_1.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

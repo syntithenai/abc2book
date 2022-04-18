@@ -1,0 +1,26 @@
+X:390
+T: Clog (The)
+S: "100 Enduring Irish Session Tunes" ("Mally")
+Z: B.Black
+L: 1/8
+M: 12/8
+R: slide
+K: G
+B|ABA A2 G F2 G A2 B|cBc e2 d B3 B2 G|\
+ABA A2 G F2 G A2 B|cBc e2 d G3 G2 :|
+B|d2 g gfg f2 A A2 B|cBc e2 d B3 B2 c|\
+d2 g gfg f2 A A2 B|cBc e2 d G3 G2 B|
+d2 g gfg f2 A A2 B|cBc e2 d B3 B2 G|\
+ABA A2 G F2 G A2 B|cBc e2 d G3 G2 ||
+S:https://www.folktunefinder.com/tunes/88590
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/c.abc
+S:http://www2.redhawk.org:8080/irish/zouki/c.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has source text
+% Has_accompaniment_chords No chords

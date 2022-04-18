@@ -1,0 +1,27 @@
+X:70
+T:Three sheep skins
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+O:England
+Z:Richard Robinson 
+%%RRN:"Learners begins with 3 sheep skins"
+%%RRN:Don't trust a note of this, it's more or less impossible to make out
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e8f.html
+%%ID:00000e8f
+K:C
+d2 fg a2 gf | ag fe a4 :: \
+fddf ecdf | edcB c2A2 |]
+%%newpage
+% page 5 missing
+%page 6
+S:https://www.folktunefinder.com/tunes/88171
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,34 @@
+X:1
+T:Modder Witsch
+C:traditionell
+A:Mecklenburg, Deutschland
+R:schottisch
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:gehoert von Ralf Gehler
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher (gedaechtnis-protokoll)
+M:2/4
+L:1/16
+K:G
+Bc |\
+d2Bc dcB2 | e2A2A2 AB | c2ABcBA2 | d2G2 G4 |
+G2GA B4 | cBcd e4 | d2fe dcBA | G2B2 G4 :|
+G2GAB2G2 | BABc d4 | (e2A2 A2)(f2 | g2B2 d4 ) |
+G2GAB2G2 | BABc d4 | d2fe dcBA | G2B2 G4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/176467
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/modder_witsch.abc
+% Rhythm Schottisch
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

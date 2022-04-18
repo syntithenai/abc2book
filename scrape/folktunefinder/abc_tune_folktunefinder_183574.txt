@@ -1,0 +1,29 @@
+X:3
+T: Portland Fancy
+I: Portland FancyJ-42A/Djig
+M: 6/8
+R: jig
+K: A
+"A"E2A E2A| EAB c2c| "D"dcd "E"Bcd| "D"f2e "E"cAF|
+"A"E2A E2A| EAB c2c| "D"dcd "E"EFG|1 "A"AcB AGF:|2 "A"AcB Ace|]
+|:"A"a2a gag| "D"fdf e2c| dcd "E"Bcd| "A"cde "E"f2e|
+"A"a2a gag| "D"fdf e2c| dcd "E"EFG|1 "A"AcB Ace:|2 "A"AcB AF=G |] [K:D]|:"D"ABc d2e| f2g a3| "G"efg "A"Ade| "D"f2d "A"AFG|
+"D"ABc d2e| f2g a3| "A"efg ABc| "D"d2f d3:|
+|:"D"F2A F2A| FAd f3| "A"ece gec| "D"dfe dAG|
+"D"F2A F2A| FAd f3| "A"ece gec| "D"d3 d3:|
+%%text Roaring Jelly  J-42
+%%text 08/29/98
+S:https://www.folktunefinder.com/tunes/183574
+S:http://roaringjelly.org/music/jig/J042_Portland_Fancy.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J042_Portland_Fancy.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J042_Portland_Fancy.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

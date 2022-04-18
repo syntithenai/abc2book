@@ -1,0 +1,28 @@
+X:0389
+T:"A Mother's Lamentation"         (air)         0389
+C:Unattributed
+C:slow
+N:>>>>>>>>>>>>>>>Nine bars per section<<<<<<<<<<<<<<<<<<<<<
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN June 2003 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+"_vb"(D3/2F/2) (A2B3/2A/2)|Ad F2E3/2E/2|(DF A2)(B3/2c/2)|
+d4(f3/2d/2)|(A2d2)(d3/2c/2)|(B3c) (B3/2A/2)|
+(AFAB) Hd3/2B/2|A3/2F/2 E3/2D/2 EE|DD D4||
+(FD) (FA) B2|(A3/2F/2) d2(A3/2F/2)|(E3/2D/2 FA) d3/2d/2|
+e4(fd|e4)(f3/2d/2)|e2c2d3/2B/2|
+(AFAB) Hd3/2d/2|B3/2A/2 FD E3/2F/2|DD D4|]
+S:https://www.folktunefinder.com/tunes/177089
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0301-0400/0389-MothersLamentation.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

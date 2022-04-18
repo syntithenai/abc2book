@@ -1,0 +1,26 @@
+X:825
+T:French Air
+B:Aird's Airs and Melodies vol 3
+M:C|
+N:repeats A:|B:|
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000235.html
+%%ID:00000235
+K:A
+"Amoroso" A2c2|\
+(BAGA) (BcdB)| (AG)(FE) AGA=G| F2dB A2G2 |1 A4 :|2 A6||\
+B2|\
+B2GB BAGF| GAB2 z2c2|
+{c}B2GB BAGF| HE4 zEFG|\
+A4 BcdB| AGFE AGA=G| {^E}F2 dB {B}A2{A}G2| A6 |]
+S:https://www.folktunefinder.com/tunes/95471
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has notes text
+% Has_accompaniment_chords No chords

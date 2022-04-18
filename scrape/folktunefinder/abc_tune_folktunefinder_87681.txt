@@ -1,0 +1,77 @@
+X: 180
+T: Sail away
+M: 4/4
+L: 1/4
+C: Tom Harrell
+Q: 1/4=120
+%%staves (chords melody)
+K: C
+%%text (medium bossa)
+%%vskip 20
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Em7"x2 x2 | "A7"x2 x2 | "Dm7"x2 x2 | "Dm7b5/G"x2 "G7"x2 |
+"Bdim7/C"x2 "Cmaj7"x2 | "Am7"x2 "-/G"x2 | "F#m7b5"x2 x2 | "G7/F"x2 x2 ||
+V: melody
+z2 (3zGG | G2- (3GGG | G>F EG/F/- | F2- F>D |
+F>E DF/E/- | E3C | D4 | z4 ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Em7"x2 x2 | "A7"x2 x2 | "Dm7"x2 x2 | "Dm7b5/G"x2 "G7"x2 |
+"Bdim7/C"x2 "Cmaj7"x2 | "Am7"x2 "-/G"x2 | "Fm7"x2 x2 | "Bb7"x2 x2 ||
+V: melody
+z2 (3zGG | G2- G>G | G/FE/- EG | F2 z2 |
+z2 F/E/D/F/ | E3C | _B4 | G2_A2 ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Gm7"x2 x2 | "C7"x2 x2 | "Fm7"x2 x2 | "Fm7b5/Bb"x2 "Bb7"x2 |
+"Ddim7/Eb"x2 "Ebmaj7"x2 | "Cm7"x2 "-/Bb"x2 | "Am7"x2 x2 | "D7"x2 x2 ||
+V: melody
+_B2- BB | _B>_A G_B/_A/- | A3 z/F/ |
+_A>G F_A/G/- | G2- G<_E | d4- | d2z2 ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: B
+V: chords
+"Gmaj7/D"x2 x2 | "Dm6"x2 x2 | "A/C#"x2 x2 | "F#m7b5/B"x2 "B7"x2 |
+"Emaj7"x2 x2 | "Amaj7"x2 x2 | "Ebm7"x2 x2 | "Ab7"x2 "Adim7"x2 ||
+V: melody
+z2 (3zBB | B2- B/A/G/B/ | B//^c//A/A- A>E | E/^F/F zE/F/ |
+^G4 | z>^G AB | ^G4- | G2- (3GAB ||
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: B
+V: chords
+"Bb7"x2 x2 | "Eb7"x2 x2 | "Em7"x2 x2 | "E7"x2 x2 |
+"Amaj7"x2 x2 | "F#m7"x2 "-/E"x2 | "Dm7"x2 "Cm7"x2 | "Bbm7"x2 "G7"x2 ||
+V: melody
+^c2- c>c | ^cB/^A/- A^F | B>B- B2 | Bz3 |
+z2 z>B | BA ^GE | B2 A2 | G2 F2 ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Em7"x2 x2 | "A7"x2 x2 | "Dm7"x2 x2 | "Dm7b5/G"x2 "G7"x2 |
+"Bdim7/C"x2 "Cmaj7"x2 | "Am7"x2 x2 | "F#m7"x2 x2 | "B7"x2 x2 ||
+V: melody
+G4- | G2 (3zGG | G>F EG/F/- | F2 z2 |
+z>D (3:2:4FED/F/ | E2 z>C | A>G ^FA/G/- | G2 z>^F ||
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+P: A
+V: chords
+"Em7"x2 x2 | "A7"x2 x2 | "Dm7"x2 x2 | "G7sus"x2 "G7"x2 |
+"C/G"x2 x2 | "Dm7/G"x2 x2 | "C/G"x2 x2 | "Dm7/G"x2 "G7/F"x2 |]
+V: melody
+G4- | G2 z>G | G>F EF | D2 E2 |
+C4- | C4- | C4 | z4 |]
+S:https://www.folktunefinder.com/tunes/87681
+S:http://trillian.mit.edu/~jc/music/book/jazz/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/Book.abc
+S:http://trillian.mit.edu/~jc/music/book/AtteJensen/jazz/Book.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,26 @@
+X:32
+T: Changgong ge
+N: C1530
+O: China,Fujian, Quanzhou
+S: II, 594]
+R: Xiaodiao. Changgong ku]
+M: 2/4
+L: 1/16
+K: E
+B2B4c2 | B4G2F2 | E2F4G2 | F8
+B2B4c2 | B4G2F2 | E2F4G2 | F3G
+E2F2 | E3GFGE2 | z2E4C2 | B,4
+F2G2 | E3GF2E2 | z2E4C2 | B,8
+S:https://www.folktunefinder.com/tunes/92055
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao. changgong ku]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key E
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

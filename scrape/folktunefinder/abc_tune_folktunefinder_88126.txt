@@ -1,0 +1,137 @@
+X:7
+T:Messe "Jsus, ma joie"
+L:1/4
+%%staves [(1 2) (3 4)]
+M:C
+K:Am
+T:Seigneur, prends piti ("Jesu, meine Freude", 1653)
+V:1
+EEDC|B,B,!breath!A,2|E^FGE|
+AA!breath!^G2|A/B/cBB|A4||
+V:2
+CB,(A,/^G,/)A,|A,^G,E,2|(C/B,/)A,=G,G,|
+w:Dieu le P-re,*|prends pi-ti!|Fils*U-ni-que,|
+(C/D/)EE2|C/D/EE(E/D/)|C4|
+w:prends*pi-ti!|Es-prit Saint, prends pi-*|ti!|
+V:3
+A,E,(F,/B,,/)C,|F,(E,/D,/)C,2|(A,/G,/) (^F,/E,/)D,(C,/D,/)|
+E,CB,2|A,/A,/ A,A,^G,|E,4|
+V:4
+A,,G,,F,,(F,,/E,,/)|D,,E,,A,,2|A,,(D,/C,/)B,,(C,/B,,/)|
+(A,,/B,,/) (C,/D,/)E,2|F,/F,/ (E,/D,/)E,E,,|A,,4|
+T:Gloire  Dieu ("Lobe, den Herren", 1665)
+V:1
+M:3/4
+K:F
+FFc|A3/G/F|EDC|DEF|G3|!breath!F3|
+FFc|A3/G/F|EDC|DEF|G3|!breath!F3||
+ccc|d3|ABc|c3/B/A|
+G3|CDE|FGA|G3|F3:|
+V:2
+M:3/4
+K:F
+CCC|C3/C/D|G,B,G,|CCC|E3|C3|
+w:Gloire et lou-|ange  Dieu,|et paix aux|hom-mes qu'il|ai-|me!|
+w:Sei-gneur J-|sus, Sau-veur,|A-gneau de|Dieu, Fils du|P-|re,|
+w:O Dieu, Toi|seul es saint,|Toi seul as|fait des mer-|veil-|les;|
+CCC|C3/C/D|G,B,G,|CCC|E3|C3|
+w:Gloire et lou-|ange  Dieu,|et paix aux|hom-mes qu'il|ai-|me!|
+w:Toi qui por-|tas sur Toi|le p-ch|de no-tre|mon-|de|
+w:Toi seul, Sei-|gneur J-sus,|a-vec l'Es-|prit de lu-|mi-|re.|
+FEC|F3|FF(E/D/)|(CF/)F/D|
+w:Nous T'a-do-|rons,|nous Te lou-*|ons,*Sei-gneur|
+w:Nous T'en pri-|ons,|prends en pi-*|ti*tes en-|
+w:Nous T'ac-cla-|mons,|Ver-be du*|Pre*-ter-|
+E3|CG,B,|DCC|(C2B,)|A,3|
+w:Dieu.|P-re, nous|Te ren-dons|gr-*|ce!|
+w:fants:|-cou-te|no-tre pri-|-*|re|
+w:nel,|dans tous les|si-cles des|si-*|cles!|
+V:3
+M:3/4
+K:F
+A,A,G,|F,3/G,/ (A,/=B,/)|C_B,E,|F,G,A,|(C2B,)|A,3|
+A,A,G,|F,3/G,/ (A,/=B,/)|C_B,E,|F,G,A,|(C2B,)|A,3|
+A,B,C|B,3|CDG,|(G,F,/)F,/F,|
+C3|F,(E,/D,/)G,|A,G,F,|(F,E,2)|F,3|
+V:4
+M:3/4
+K:F
+F,F,E,|F,3/E,/D,|C,G,,B,,|A,,G,,F,,|C,3|F,3|
+F,F,E,|F,3/E,/D,|C,G,,B,,|A,,G,,F,,|C,3|F,3|
+F,G,A,|B,3|F,(E,/D,/) (C,/B,,/)|A,,3/A,,/B,,|
+C,3|A,,=B,,^C,|D,E,F,|C,3|F,,3|
+T:Je crois ("Valet will ich", 1614)
+V:1
+M:C
+K:A
+A,|EEFG|A2!breath!Ac|BAAG|A3:|
+V:2
+M:C
+K:A
+A,|A,CDC|C2CF|FDCB,|C3|
+w:Je|crois que Dieu est|P-re, A-|mour et V-ri-|t.|
+w:Je|crois au Fils U-|ni-que, J-|sus, le seul Sau-|veur.|
+w:Je|crois  son E-|gli-se, vi-|van-te par l'Es-|prit.|
+w:Je|crois au seul Bap-|t-me, |la R-sur-rec-|tion.|
+V:3
+M:C
+K:A
+C,|E,A,A,G,|F,2F,A,|F,F,E,E,|E,3|
+V:4
+M:C
+K:A
+A,,|C,A,,D,^E,,|F,,2F,,F,|D,B,,E,E,,|A,,3|
+T:Prire universelle ("Herzlich tut mich verlangen", 1601)
+V:1
+M:C
+K:Am
+E|AGFE|D2EB|cc(B/A/)B|A3|]
+V:2
+M:C
+K:Am
+C|CCDG,|(A,G,)G,E|EEE(E/D/)|C3|
+w:J-|sus, Sau-veur du|mon-*de, -|coute et prends pi-*|ti!|
+V:3
+M:C
+K:Am
+G,|F,G,(A,/B,/)C|(CB,)CB,|B,A,A,^G,|A,3|
+V:4
+M:C
+K:Am
+C,|F,E,D,C,|(F,,G,,)C,^G,,|(A,,/B,,/) (C,/D,/)E,E,,|A,,3|
+T:Agneau de Dieu ("Wer nur den lieben", 1657)
+V:1
+M:C
+K:G
+B,|EFGF|EF^D2|!breath!B,=DDC|B,EE^D|E3:|
+F|GABB|AA!breath!GB|AGFE/F/|GFE2|]
+V:2
+M:C
+K:G
+G,|B,B,B,B,|G,CB,2|F,B,B,A,|G,(G,/A,/)B,B,|B,3|
+w:1\-2.~A-|gneau de Dieu, le|Fils du P-|re, -cou-te|nous et*prends pi-|ti!|
+^D|E=DDE|EDDD|^DE(E/D/) E/E/|E^DB,2|
+w:3.~A-|gneau de Dieu, J-|sus Sau-veur, nous|T'en pri-ons,*don-ne|nous la paix!|
+V:3
+M:C
+K:G
+E,|G,F,E,^D,|E,A,F,2|^D,F,G,=D,|D,(E,/F,/)G,F,|G,3|
+B,|B,A,G,G,|G,F,B,G,|A,B,(C/B,//A,//) G,/A,/|B,(B,/A,/)G,2|
+V:4
+M:C
+K:G
+E,,|E,^D,E,B,,|C,A,,B,,2|B,,B,,E,,F,,|G,,C,B,,B,,|E,,3|
+B,,|E,F,G,E,|C,D,G,,G,|F,E,(A,,/B,,/) C,/C,/|(B,,/A,,/)B,,E,,2|
+S:https://www.folktunefinder.com/tunes/88126
+S:http://moinejf.free.fr/messe/messeM.abc
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key G
+% Key F
+% Key A
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

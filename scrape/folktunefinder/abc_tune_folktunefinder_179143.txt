@@ -1,0 +1,24 @@
+X: 1
+P: North's Hornpipe
+C: By David Knight (c) 2002
+C: arr. T. Traub 8-22-2004
+R: Reel
+M: 4/4
+L: 1/8
+K: Gm
+bg| "Gm"d2 B2-Bcdc|BAG^F G2 AB|"C"cG=EG "Cm"_EGcG|"Gm"B2 G2-G2 AB|"Am"c2 A2-A2 A=B|"A"^c2 A2-A2 =Bc|
+"D"d^cd=e ^fefg|ag^fe d2 bg || "Gm"d2 B2-Bcdc|BAG^F G2 AB|"C"cG=EG "Cm"_EGcG|"Gm"B2 G2-G2 cd|
+"Adim"ecAc "Ab"_Acec|"Gm"dBGB D2 Bc|"D7"d^cde "D"d=cBA|"Gm"G2 g2 G2 D2||"Gm"G,B,D^F GABd|g2 g^f g2 ga|
+"Gm"ba^ga "D"^f2 f=g|"A7"ag^f=e "D"d2 D2|"D"^CD^FA ^cd^fg|a2 a2 a2 ab|"D"c'2 c'2 b2 a2|d'2 d2 d2 D2|"Gm"G,B,D^F GABd|
+g2 g^f g2 ga|"Eb"b2 g2 e2 ^c|"Gm"d6 d2|"Adim"ecAc "Ab"_Acec|"Gm"dBGB D2 Bc|"D7"d^cde "D"d=cBA|"Gm"G2 g2 G2 |]
+S:https://www.folktunefinder.com/tunes/179143
+S:http://terrytraub.org/abc/NorthsHornpipeR.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/NorthsHornpipeR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

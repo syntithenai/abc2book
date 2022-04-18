@@ -1,0 +1,25 @@
+X:1
+T:Madam, Will You Walk
+M:4/4
+L:1/8
+K:D
+ A2| B2 BB G2 GB| A2 AG F3 A| G2 GF E2 EG| F2 FE D2| z2| A/2 A3/2 AF B4|\
+M:6/4
+ G/2 F3/2 ED A4 A4|
+M:4/4
+ D6 z2| B3/2 B/2 B3/2 B/2 G2 GB| A2 AG F3 A| G2 GF E2 EG| F2 FE D2 z2|\
+ A3/2 A/2 AF B4|
+M:6/4
+ G3/2 F/2 ED A4 A4|
+M:4/4
+ D6|| D3/2 C/2 DF A2 F2| D3/2 C/2 D3/2 F/2 A2 F3/2 F/2| B3 F A3 G|\
+ F3/2 F/2 E2 D2||
+S:https://www.folktunefinder.com/tunes/173538
+S:http://back.numachi.com:8000/dtrad/abc/PAPRPIN3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Time_signature 6/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:875
+T:Rondo D'Henry 4th
+B:Aird's Airs and Melodies vol 3
+M:C
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000023f.html
+%%ID:0000023f
+K:G
+g2g2|\
+d2d2 e2ce| d2d2 c2Ac| B2g2 A2f2| g4:|\
+d2g2|\
+f2g2 a2c2| B2c2 d4| e2d2 c2B2| A3G c2B2|
+A2GG e2d2| {d}c2B2 {a}g2fe| d2B2 c2A2| G4 {a}g2fe| d2g2 a2f2| g4|]
+S:https://www.folktunefinder.com/tunes/95481
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

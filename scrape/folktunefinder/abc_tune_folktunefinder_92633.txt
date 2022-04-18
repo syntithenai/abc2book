@@ -1,0 +1,27 @@
+X:610
+T: Yibeizi wangbuliao maozedong
+N: C2128
+O: China,Hubei Suixian
+S: I, 362]
+R: Xiaodiao]
+M: 2/4
+L: 1/8
+K: A
+e2cB | e2cB | A3c | B2AF
+FF2A | BFE2 | FAFE | EC3
+FEF2 | FEF2 | A3c | BAF2
+FF2A | BFE2 | FAFE | EC3
+AA2c | BA2F | FF2A | BAFE | FAFE | EC3
+S:https://www.folktunefinder.com/tunes/92633
+S:http://ifdo.ca/~seymour/runabc/esac/HAN2.abc
+% Rhythm Xiaodiao]
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

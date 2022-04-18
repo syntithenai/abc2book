@@ -1,0 +1,30 @@
+X:490
+T:Bell-side -- Minuet
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:3/4
+O:England
+Z:Richard Robinson 
+%%RRN:"A very good way of playing it"
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000ed5.html
+%%ID:00000ed5
+K:G
+G4 A2  | B4 de   | d2 c2B2 | A4 B2 |\
+c2ecAc | B2 dBGB | cd ecAc | Bc dBGB | A2G2F2 | G6 ||
+d2g2f2 | g2 a2b2 | a2 g2f2 | e4 f2 |\
+g2bgeg | f2 gfdf | ga bgeg | fg afdf | e2d2c2 | d6 |
+d2g4   | cd ecAc | cc dBGB | A2D4 |\
+G4A2   | BA BcdB | G4 A2   | BA BcdB | g2 B2A2 | G6 |
+%%newpage
+%page 30
+S:https://www.folktunefinder.com/tunes/88255
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

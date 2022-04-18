@@ -1,0 +1,30 @@
+X:1
+T:Mazurka
+C:nach einer Mazurka von Gilles Chabenat
+A:France 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:Dm
+DED |\
+A2AB cd | A4BA | G2AG FE | FE DE FD |
+A2AB cd | A4BA | G2AG FG | E3 :|
+|: zdc |\
+B2BA Bc | d4cB | A2AG AB | A4dc |
+B2BA Bc | d4cB | A2GF EF |1 E3 :|\
+                         [2 D3 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/174899
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/mazurka.A2ABcd.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

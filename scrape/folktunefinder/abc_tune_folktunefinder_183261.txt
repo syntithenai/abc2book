@@ -1,0 +1,25 @@
+X: 1
+T: Polska efter Byss-Kalle (nr 25)
+S: efter Byss-Kalle
+O: Uppland
+R: Slngpolska
+D: Skivan "Byss-Calle" med Nyckelharporkestern utgiven p Drone, spr 11
+M: 3/4
+K: G
+L: 1/16
+Q:80
+d4 (d^c)de (dc)de | d2>c2 {cd}(c2B2) B2g2 | (ge)ce (ed)Bd (cB)AG | (FG)AB (AG)FE D2GB |
+d4 (d^c)de (dc)de | d2>c2 {cd}(c2B2) B2g2 | (ge)ce (ed)Bd (cB)AG | (FG)AF G8 :|
+|: D2FA (cB)AG (FG)AF | D2GB d2BG (DG)BG | D2FA (cB)AG (FG)AF | D2GB d2BG (DG)Bd |
+g2>e2 (e2c2) c4 | g2>d2 (d2B2) B4 | e2>d2 (c2B2) A2FA | (cA)FA G8 :|
+S:https://www.folktunefinder.com/tunes/183261
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_ByssKalle_nr_25_e564b3.abc
+% Rhythm Slngpolska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

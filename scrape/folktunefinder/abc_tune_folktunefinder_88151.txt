@@ -1,0 +1,29 @@
+X:90
+T:Old Ebony
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:The 1st Lady & 2d Gent: change places, 2d Lady & 1st Gent: do the same,
+%%Dancenotes:lead down the middle, up again & right & left
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000dec.html
+%%ID:00000dec
+K:Bb
+F |\
+BB/c/ dB | edcB | A/B/c/A/ FF | A/B/c/A/ FG/A/ |\
+BB/c/ dB | edcB | A/B/c/A/ FA | B2z ||
+d/e/ |\
+.f(f/g/) .f(f/g/) | fbag | fd Bd | c/B/A/B/ cd/e/ |\
+.f(f/g/) .f(f/g/) | fbag | f>g f/d/e/c/ | BbB |]
+\newpage
+%page 10
+S:https://www.folktunefinder.com/tunes/88151
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A-sharp
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

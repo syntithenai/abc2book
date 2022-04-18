@@ -1,0 +1,32 @@
+X:1
+T:Radio Shetland
+C:Steven Spence
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+S:collection Stephan Steiner
+%%endtext 
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/16
+K:G
+GA |\
+B2BG A2AF | GAGE D2GA | B2BG ABAF | A<d-d2 d3D |
+G2AG F2AF | EFGE D2GA | B2BG ABAF | D<G-G2G2 :|
+|: Bc |\
+d2dB G2GD | EDEG D2GA | B2BG ABAF | A<d-d2 d3D |
+G2AG F2AF | EFGE D2GA | B2BG ABAF | D<G-G2G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/184437
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_schottisch/radio_shetland.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

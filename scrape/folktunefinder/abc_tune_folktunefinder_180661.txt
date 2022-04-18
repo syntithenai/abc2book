@@ -1,0 +1,28 @@
+X: 1
+T:Osogovsko Oro
+O:Macedonia
+M:11/16
+Q:1/8=176
+P:ABACACABACA
+K:Bbm
+P:A
+=GAB2 B2A BAGF|=GAB2 c2A B2B2|\
+=GAB2 B2A BAGF|=GAB2 c2A B2B2 ::\
+P:B
+d2d2 dcB cB2A|f2B2 B2A BABc|\
+d2d2 dcB c2BA|e2B2 B3 B2B2::\
+P:C
+K:Bb
+e2d2 c2B d2d2|e2d2 c2B B2B2|\
+e2d2 c2B d2d2|e2d2 c2B B2B2:|
+S:https://www.folktunefinder.com/tunes/180661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/os/Osogovsko_Oro_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A-sharp
+% Time_signature 11/16
+% Has_accompaniment_chords No chords

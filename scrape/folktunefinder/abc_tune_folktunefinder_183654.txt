@@ -1,0 +1,74 @@
+X:1
+%
+T:Praeludium 15
+C:from Elias Mertel (1615)
+C:Hortus musicalis novus
+Z:abc transcription by Christoph Dalitz
+L:1/4
+M:C|
+K:C frenchtab
+%
+[abd2] ,,,,a |\
+ [a,,,d2] [,dda] |\
+ [,,cc1] .,d [,bd2] |\
+ [aabc2] ,,c1 .,d |\
+ [,bd,a2] ,,d1 .,a |\
+ [,b,,a1] [,d,,c] [a,,,d] [c,,a] |\
+ [d,,c1] .a [ff,,e2] |
+%staff 2
+[,a,a1] e/ .c [ea,c2] |\
+ [f,,,a1] d/ .b a .,d ,b .,a |\
+ [,,d,a/] .,a ,b .,a ,,d .,,b ,,,d .,,,c |\
+ [,,,d{a}1] .,,,a [,,dd] [,ab] |\
+ [,bdca1] .,,d [,b,,a] [,d,,,d/] ,,,,,b |\
+ [aab,,a1] ,,,c [d,,c] [c,,b] |
+%staff 3
+[,abc1] .a [,,a,c] [,dc] |\
+ [,bd,a/] .,,,,c ,,,,d .,,,a [,a,c] .,,,e ,,,f .,,,c |\
+ [,,dd/] .,,b ,,d .,a [,b,c] .,a "(1)"[,b,a] .,d |\
+ [a,,,d/] .,d [a,,a] .c [d,,c] ,,,a [c,,c] [a,,e] |\
+ [,d,f/] .,a [,b,d] ,,,c [b,,a] ,,,c [a,,d] [,db] |
+%staff 4
+[abd/] ,,,,a ,,,,d ,,,a [,abc] .a [,da] .,b |\
+ "(2)"[,ac,,a1] ,,,c/ .,,a [,,c,,a1] [,,d,,c] |\
+ [,a,,,e1] [,b,,a] [,a,,c] [,,d,d] |\
+ [aad,,a1] [,,c,a/] .,,a [,,c,c] .,d ,a1 |\
+ [,b,,a/] .,,,,c ,,,,d .,,,a [,a,c] .,,,e ,,,f .,,,c |
+%staff 5
+[,,dd/] .,,,c ,,,d .,,,a [,,bc] .,,,a ,,,c .,,,,d |\
+ [,,aa/] .,,,,d ,,,a .,,,,c [,,,cd] .,,a ,,b .,,,c |\
+ [,,aa/] [,,bc] [,,dd] [,,aa]  [,,cc] ,,,a [,,d,d] ,,,a |\
+ [,,c,ca1] [,,d,a] [aad,,a] ,,c/ .,d |\
+ [,b,,a/] .a f ,,,,,d ,,,,,b .d b ,,,,,a |
+%staff 6
+{a}/ .a ,d .,b [,a,,,a] .a d ,,,a |\
+ ,,,,d/ .b a ,,,,c ,,,,a .,d ,b .,a |\
+ [,,d,,b/] .,b b ,,,,,a {a} .a ,d .,b |\
+ [,a,,,a/] .,,c ,,,c .,,a ,,c1 [,,d,,a/] ,,,,,c |\
+ [,a,,,e1] [,b,,a] [,a,,c] [,,d,d] |
+%staff 7
+[aac,,a1] .c [e,,c,a] [f,,e] |\
+ [h,,g,a1] [i,,h] [h,f,,a] [f,g] |\
+ [eff,,a/] .a [f,,,d] ,,,a [,a,c] .c e .,d |\
+ "(3)"[fc,,a2] .a1 ,,,,,d |\
+ [bbd,,b2] [,cdca1] ,,,,,d |\
+ [,dd,,b2] [aab,,a1] .,c |
+%staff 8
+[bdd{a}1] [,,b,,a] [,,d,,b] [,a,,,d] |\
+ [,c,,a1] ,,,c [,d,d/] [,c,c] [,d,d] [,a,a] |\
+ [,cdca/] ,a// .,c ,d .a c .e f/ {,,a} [ac] [,df] |\
+ [acd,a1] {,,a} [c,,a/] ,,,,e [,da,c] .,,c |\
+ [,cdca2] {,,a} |]
+%
+W:(1) orig. 4d instead of 4a
+W:(1) orig. 5c instead of 2a
+W:(3) orig. 2c missing
+S:https://www.folktunefinder.com/tunes/183654
+S:http://staff.science.uva.nl/~walstra/ABCArchive/Mertel/prael_015.abc
+S:http://www.science.uva.nl/~walstra/ABCArchive/Mertel/prael_015.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

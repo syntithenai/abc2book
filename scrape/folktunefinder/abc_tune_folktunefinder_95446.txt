@@ -1,0 +1,26 @@
+X:700
+T:New Stepney March
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:for G. Flute
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/0000021c.html
+%%ID:0000021c
+K:D
+"Moderato" f/g/|\
+afd d'2b| c'2a b2g| afd afd| cee e2f/g/|\
+afd d'2b| c'2a b2g| afg afb| fge d2::
+A/G/|\
+F2A d2f| ceg dfa| g2b afd| cee e2A/G/|\
+F2A d2f| ceg dfg| afg afd'| fge d2:|
+S:https://www.folktunefinder.com/tunes/95446
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

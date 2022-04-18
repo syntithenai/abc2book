@@ -1,0 +1,18 @@
+X:1
+T:One Ship Drives East
+M:6/8
+L:1/8
+K:F
+ c| F2 G A2 c/2c/2| A2 G F2 F/2F/2| A2 c d2 e| f3 c2 c| def G2 A| B2 G c3-|\
+ c3- c2 B| ABc D2 E| F2 D G3-| G3- G2 C| FGA B2 G| c2 A dcB| ABc A2 G|\
+ F3 z2||
+S:https://www.folktunefinder.com/tunes/180428
+S:http://back.numachi.com:8000/dtrad/abc/SHPDRVES.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,21 @@
+X:19208
+T:Yellow Wattle
+Z: id:dc-slide-36
+M:6/8
+L:1/8
+K:D Mixolydian
+dcA AGE|ABA AB^c|dcA AB^c|dcA GED|!
+dcA AGE|ABA AGE|DED cde|dcA GED:|!
+ded c3|d^cd =c3|d^cd =cde|dcA GED|!
+ded c3|d^cd d2=c|ABA A^cd|dcA GED:|!
+S:https://www.folktunefinder.com/tunes/94499
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

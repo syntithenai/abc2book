@@ -1,0 +1,34 @@
+X: 1
+T:Pinch of Snuff, The
+R:reel
+H:There are two other versions of this tune, #36 and #634.
+H:There is a different tune by the same name, #441.
+Z:id:hn-reel-236
+M:C|
+K:D
+|:F2DF EFDE|F2DF EFGE|F2DF EFDF|G2BG EFGE:|
+|:DFAF BFAF|DFAF EFGE|DFAF BFAF|1 G2BG EFGE:|2 G2BG EFGA||
+K:G
+|:B2GB ABGA|B2GB ABcA|B2GB ABGB|c2ec ABcA:|
+|:GBdB eBdB|GBdB ABcA|GBdB eBdB|c2ec ABcA:|
+K:A
+|:c2Ac BcAB|c2Ac BcdB|c2Ac BcAc|d2fd BcdB:|
+|:Acec fcec|Acec BcdB|Acec fcec|1 d2fd BcdB:|2 d2fd Bcde||
+K:D
+|:f2df efde|f2df efge|f2df efdf|g2bg efge:|
+|:dfaf bfaf|dfaf efge|dfaf bfaf|g2bg efge:|
+|:fgfe dcdB|AF~F2 AFA=c|BGBd =cBcG|E=C~C2 ECEG:|
+S:https://www.folktunefinder.com/tunes/182497
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pi/Pinch_of_Snuff_The_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Key A
+% Key D
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:885
+T:Fairies Revels
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:6/8
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e75.html
+%%ID:00000e75
+K:C
+G |\
+c2c TcBc | ABc def | e2c TcBc | B2G GAB |\
+c2c TcBc | ABc def | Adc TBAG | c3-c2 ::
+c |\
+g2g gfe | fga a2c' | gec TcBc | d2G GAB |\
+EGc TcBc | Acf fga | g2c dcd | e2c c2 ::
+%page:103
+S:https://www.folktunefinder.com/tunes/95808
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

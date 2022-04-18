@@ -1,0 +1,22 @@
+X:810
+T:Let me alone
+B:Aird's Airs and Melodies vol 3
+M:C|
+Z:Richard Robinson 
+%RRN:An English Ballad
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000232.html
+%%ID:00000232
+K:A
+"Andante" E|\
+A2ce {A}G2FE| F2dB {A}G2zA| B2GB e2BA| {A}G2{B}A{G}F E3::
+e|\
+ecA>=G {GF}F2d>e| (f<d)BA {A}G3E| A>cB>d cafd| c2{e}d{c}B A3:|
+S:https://www.folktunefinder.com/tunes/95468
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

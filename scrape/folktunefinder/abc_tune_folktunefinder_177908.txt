@@ -1,0 +1,26 @@
+X:0016
+T:"My Darling I Am Fond Of You"      (air)       0016
+B:O'Neill's Music Of Ireland (the 1850) Lyon & Healy, Chicago; 1903 ed.
+C:after Chief F. O'Neill
+C:tenderly
+Q:1/4=80
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:D
+"_vb"d2|(A4B2)|G4A2|F6|(E4D2)|(D4E2)|(F4G2)|(A4d2)|(d4c2)|
+(A4B2)|(G4A2)|F6|(E4D2)|(D4E2)|(F4A2)|(E4D2)|D4||
+D2|F4G2|A2B2c2|d4e2|f4e2|d4c2|(A4G2)|(A4d2)|(d4c2)|
+(A4B2)|(G4A2)|F6|E4D2|D4E2|(F4G2)|(A4d2)|(d4c2)|
+A4B2|(G4A2)|F6|(E4D2)|D4E2|(F4A2)|(E4D2)|D4|]
+S:https://www.folktunefinder.com/tunes/177908
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc-1-100/16-DarlingFond.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0001-100/16-DarlingFond.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

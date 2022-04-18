@@ -1,0 +1,36 @@
+X:118
+U: ~ = !turn!
+%%topmargin 3cm
+T:Lord Inchiquin
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Chieftains
+Z:Transcribed by Ralph Palmer
+R:Waltz
+M:3/4
+L:1/8
+K:D
+Jd2 de fe | d2 ed cB | A2 F2 A2 | f3 g fe |
+d2 ed dB | A2 G2 F2 | G2 BA GF | E4 ag |
+f3 e d2 | d2 c2 B2 | A2 F2 A2 | f3 g fe |
+d2 ed cB | Ad z2 F2 | E3 F D2 | [1 D6 :|] [2 D4 A2 |
+|: AB cd e2 | e2 d2 e2 | f2 de fd | e4 fe |
+de fg a2 | a2 b2 g2 | f2 d2 f2 | e3 g fe |
+de fg a2 | a2 b2 g2 | f3 g e2 | d4 f2 |
+gf e2 e2 | e2 f2 d2 | c3 d B2 | A4 ag |
+f3 e d2 | d2 c2 B2 | A2 F2 A2 | g4 fe |
+d3 ed cB | Ad z2 F2 | E3 F D2 | D6 :|]
+S:https://www.folktunefinder.com/tunes/94714
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Lord_Inchiquin_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Lord_Inchiquin_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords No chords

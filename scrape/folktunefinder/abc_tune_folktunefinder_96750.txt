@@ -1,0 +1,22 @@
+X: 12
+T:O Jenny Come Down to Jock
+M:6/8
+L:1/8
+S:Oswald's Caledonian Pocket Companion #67
+Z:PS
+K:G
+D|GAG g2a|fed e2d|e/f/gB ABc|BAG G2||
+B/c/|ded dBg| GAB A2g|fga efg|e2d d2f|g/a/bg a2d|e/f/gB ABc|Bcd dBg |A2G
+ G2||
+% Output from ABC2Win  Version 2.1 f on 27/11/2002
+S:https://www.folktunefinder.com/tunes/96750
+S:http://www.goodbagpipes.co.uk/pipetunes/abctunes/weddingtunes.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

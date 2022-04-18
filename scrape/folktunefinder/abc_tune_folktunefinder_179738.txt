@@ -1,0 +1,46 @@
+X:1
+T:Ohlstadter Dreher Nr.2
+R:dreher
+A:Ohlstadt, Bayern
+C:
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:
+N:dort auf seite 34 - 35 in D mit zwei weiteren stimmen und harmonie-buchstaben, in der quelle einstimmig
+S:mit der angabe: Ein seltenes stueck, das Xaver Andrae in Ohlstadt um 1850 aufgeschrieben hat - das einstimmige original befindet sich in der handschriften-abteilung der Bayerischen Staatsbibliothek Muenchen. (49 89.28638-2263) 
+%%endtext
+F:http://simonwascher.info
+Z:abc transcription Simon Wascher
+N:noten-material von Stefan Straubinger
+M:2/4
+L:1/16
+K:C %Transposed from D
+G2ce G2ce | f2B2 d4 | G2Bd G2Bd | e2G2 c4 |
+G2ce G2ce | f2B2 d4 | G2Bd G2Bd |1 c4 z4 :|\
+                                [2 c4 z2 ||
+c2 |\
+c2BA G2c2 | c2BA G2c2 | B2G2 d2B2 | c2G2e2 c2 |
+c2BA G2c2 | c2BA G2c2 | B2G2 d2B2 | c4 z2 ||
+e2 |\
+f2e2 ^d2=d2 | e2g2 c2g2 | d2g2 B2g2 | e2g2c2 e2 |
+f2e2 ^d2=d2 | e2g2 c2g2 | d2g2 B2g2 | c4 z2 :|
+c2 |\
+c2BA G2c2 | c2BA G2c2 | B2G2 d2B2 | c2G2e2 c2 |
+c2BA G2c2 | c2BA G2c2 | B2G2 d2B2 | c4 z4 ||
+G2ce G2ce | f2B2 d4 | G2Bd G2Bd | e2G2 c4 |
+G2ce G2ce | f2B2 d4 | G2Bd G2Bd | c4 z4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/179738
+S:http://simonwascher.info
+S:http://simonwascher.info/TradArchiv_dreher/ohlstadter_dreher_nr.2.abc
+% Rhythm Dreher
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

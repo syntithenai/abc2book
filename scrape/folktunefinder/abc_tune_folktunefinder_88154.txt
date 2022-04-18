@@ -1,0 +1,30 @@
+X:105
+T:the Crusaders
+B:Goulding and d'Almaine's Twenty-four Country Dances For the year 1826.
+L:1/16
+M:2/4
+N:Repeat marks i 1st and last bars are 4 dots vertically.
+N:Those in the middle are the usual 2
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Change sides, back again, lead down the middle & pousette
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000def.html
+%%ID:00000def
+K:C
+ed |: S \
+c2F2F2 ed | c2G2G2 (gf) | e2c2 c2e2 | dcBc d2 ed |\
+c2G2G2 ed | c2G2G2 gf | e2c2 d2B2 | c4 z2 ::
+Bc |\
+d2de f2d2 | e2ef g2c2 | d2de fedc | B2c2d2 Bc |\
+d2de f2d2 | e2e^f g2e2 | d3e dBcA | G2G2A2B2 S !D.C.! :|
+S:https://www.folktunefinder.com/tunes/88154
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Goulding_and_dAlmaine/Goulding_and_dAlmaine.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,39 @@
+X:15
+T: Muaschah "Imla-li"
+N: C0000
+O: Asien, Vorderer Orient, Syrien ()
+N: Die b werden hier oft als weiter erniedrigt angegeben.
+N: Die Zeilen 1 bis 10 werden wiederholt.
+R: Vokalform in der Kunstmusik
+M: none
+L: 1/32
+K: D
+D8=F4E2F2D2E2=CD2_B,2C2A,2C2A,2B,2G,4
+C4B,4C4D2E2D2E2F2G2F2E2D8B,2C2
+D6C2B,2C2D4G4-G2G2F2G2A2G2G2F2F2E2
+G2F2F2E2E2D2E2D2C2F2-^F2E4=F2G2F2E2D2D4
+A6G2A2G2-G2G2F2G2F2E2D2E2F8E4
+F2G2F4E4F2G2F2E2F2G2F2E2F2G2F4G4
+G2F2E2D2D4A2G2F2G2F2E2D2E2F12
+C8B,4C2D2C2B,2C4D2D2F4F2E2E2D2
+D2C2C2B,2B,2A,2A,4zG2-GG2F2E2A2G2G2F2F2E2
+G2F2F2E2E2D2E3DC2F2-^F2E4=F2G2F2E2D2D4
+D6G2F2G2A8G3AG2A2A8A4
+A8A4B3AG2c2-^c2B2=c2d2c2B2A2A4
+A8A4G8A2B2c2d2c2B2A2G2F2E2
+D4z2A2B2c2d8c2d2B2c2d8d4
+c4B4A3BA2G2c2-^c2A4A2G8A4
+F8F2E2F8A2G2F2G2A2G2G2F2F2E2
+G2F2F2E2E2D2E3D=C2F2-^F2E4=F2G2F2E2D2D4
+S:https://www.folktunefinder.com/tunes/97564
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Vokalform in der kunstmusik
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

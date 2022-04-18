@@ -1,0 +1,32 @@
+X:13
+T: Muwaschah Lamma Bada
+N: C0000
+O: Asien, Vorderer Orient, \'egypten(), Spanien()
+N: Die ersten vier Zeilen werden wiederholt.
+R: Textgebundene Musik
+M: none
+L: 1/16
+K: G
+d2 | g4a_bcbbaaggfg4ab
+c4d2b3aaggfg4ag
+f4g2_e3dedefd4ed
+c4d2B3AAAGGFG4d2
+g4abcbbaaggfg4d2
+g4a2b4b2acb4g2
+d4c2cbbaagg=fg2abf2
+g4a2b4b2acb4ab
+c4d2b3aagg^fg4ag
+f4g2f=e_ededefd4ed
+c4d2B3AAGGFG4AB
+c4d2B3AAGGFG4z2
+S:https://www.folktunefinder.com/tunes/97562
+S:http://ifdo.ca/~seymour/runabc/esac/test0.abc
+% Rhythm Textgebundene musik
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

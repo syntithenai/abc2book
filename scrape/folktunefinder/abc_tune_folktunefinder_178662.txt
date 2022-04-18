@@ -1,0 +1,23 @@
+X: 1
+T: New Wedding -- Reel
+B: Ryan's Mammoth Collection of Fiddle Tunes
+R: reel
+M: 2/4
+L: 1/16
+Z: Contributed 20000418141150 by John Chambers jchambers:casc.com
+K: G
+c2 "Segno"|\
+BGAF BGAF | .G2(Bd) gedc | BGAF BGAF | FDEF G2c2 |
+BGAF BGAF | .G2(Bd) gedc | BGAF BGAF | FDEF G2G2 H:|
+|: gfge fgaf | .g2(bg) afdf | gfge fgaf | bgef g2g2 |
+   gfge fgaf | .g2(bg) afdf | gfge fgaf | bgeg gedc "Segno"[|]:|
+S:https://www.folktunefinder.com/tunes/178662
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Entry/jc:trillian.mit.edu/NewWeddingReel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

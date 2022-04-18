@@ -1,0 +1,32 @@
+X: 1
+T:Off to California (Traditional)
+M:4/4
+L:1/8
+Q:160
+C:Traditional
+R:Hornpipe
+N:This is the traditional arrangement. We play the Williamson version
+N:unless playing with folks who know this
+K:G
+(3DEF|:"G"GFGB AG (3DEF|"G"GBdg "C"e3 f|
+"G"(3gag fg "Em"edBG|"Am"ABAG E2"D"(3DEF|!
+"G"GFGB AG (3DEF|"G"GBdg "C"e3 f|
+"G"(3gag fg "C"edBG|1"D"A4"G"G2 (3DEF:|2"D"A4 "G"G2 (3def|!
+|:"G"gfeg "D"fedf|"Em"edef ed B2|
+"G"gfgd edBG|"Am"ABAG "D"(3EFE D2  |!
+"G"(3GAG BG "D"AGED|"G"GBdg "C"e3 f|
+"G"(3gag fg "C"edBG|1"D"A4"G"G2 (3def:|2"D"A4 "G"G2 (3DEF||
+% Output from ABC2Win  Version 2.1  on 2/11/98
+S:https://www.folktunefinder.com/tunes/179615
+S:http://www.blackflute.com/music/tunes/hornpipes/calif.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords Has chords

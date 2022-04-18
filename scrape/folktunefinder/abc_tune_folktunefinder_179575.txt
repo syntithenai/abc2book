@@ -1,0 +1,27 @@
+X: 1
+T: Off She Goes
+O: Trad
+R: single jig
+M: 6/8
+L: 1/8
+K: D
+ A |: "D"F2A "G"G2B | "A"ABc "D"d2A | F2A "G"GAB | "D"AFD "A"E2D |
+      "D"F2A "G"G2B | "A"ABc "D"d2e | f2d "G"gfe |\
+[1 "A"cAc "D"d2A :|[2 "A"cAc "D"d2e ||
+|: "D"faf def | "G"gbg efg | "D"faf def | "A"ecA A2g |
+   "D"faf def | "G"gbg efg | "D"f2d "G"gfe |\
+[1 "A"cAc "D"d2e :|[2 "A"cAc "D"d2A |]
+N:Fiddlers Fakebook pg 204 - abc by Peter Ostapenko 3/27/2007
+N:D Major
+S:https://www.folktunefinder.com/tunes/179575
+S:http://www.pirkadat.org/sdfh_cb/tunes/abc/OffSheGoes.abc
+% Rhythm Single jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

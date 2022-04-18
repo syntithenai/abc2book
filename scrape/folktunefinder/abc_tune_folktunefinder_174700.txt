@@ -1,0 +1,26 @@
+X: 1
+T:Mason's Apron, The
+R:reel
+H:A four-part version, which is often played in sessions. See also #643, #645, #646
+Z:id:hn-reel-644
+M:C|
+K:A
+eg|:aA~A2 ABAF|EFAB cABc|dB~B2 BcBA|Bcde fefg|
+aA~A2 ABAF|EFAB cABc|dcde fgaf|1 ecBc A2eg:|2 ecBc A2AB||
+|:c2ec fcec|c2ec fcec|d2fd gdfd|d2fd gfed|
+c2ec fcec|c2ec fedc|dcde fgaf|1 ecBc A2AB:|2 ecBc A2eg||
+|:ae~e2 fece|a2ga fece|bf~f2 bfga|b2fb gefg|
+ae~e2 fece|a2ga fece|~a3e fecA|1 BABc A2eg:|2 BABc A2AB||
+|:c2Ac eAce|AceA ceA2|d2Ad fAdf|AdfA dfA2|
+c2Ac eAce|AceA ceAc|dcde f2af|1 ecBc A2AB:|2 ecBc A2||
+S:https://www.folktunefinder.com/tunes/174700
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Masons_Apron_The_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/2
+% Text Has history text
+% Has_accompaniment_chords No chords

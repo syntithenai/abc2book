@@ -1,0 +1,30 @@
+X:7701
+T:J. Scott Skinner
+Z:Jack Campin <http://www.purr.demon.co.uk/jack/> version 1.0 September 2001
+C:Geo. S. McLennan
+S:G.S. McLennan, Highland Bagpipe Music book 1, 1929
+B:NLS MH.s.234
+R:Reel
+M:C|
+L:1/8
+Q:1/2=88
+N:first melody note printed as a quaver in the book
+K:Hp
+  {d}B/|{gAGAG}A3 a/e/   {g}c<e{A}ec |  {g}Bd{g}c{d}A    {g}B2{GdGe}G>B    |
+        {gAGAG}A3 a/e/   {g}c<e{A}ec |  {g}df{g}eg          a2{AGAG}A3/   :|
+     g/|       a2{AGAG}Aa   gf{gef}ec|  {g}Bd{g}c{d}A    {g}B2{GdGe}G3/[1g/|
+               a2{AGAG}Aa   gf{gef}ec|  {g}df{g}eg          a2{AGAG}A3/   :|
+[2{d}B/|{gAGAG}Aa{eg}ed  {g}cd{gef}ec|{Gdc}de{g}fg          a2{AGAG}A3/   |]
+S:https://www.folktunefinder.com/tunes/126080
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

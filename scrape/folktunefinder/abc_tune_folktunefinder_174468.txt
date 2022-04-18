@@ -1,0 +1,34 @@
+X: 1
+T: Marsch efter Karl Lindblad
+O: H\"alsingland
+S: Lena Jonsson, workshop in Arlington, Massachusetts, Oct 2008
+R: march, ganglat
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Ador
+%%slurgraces 1
+[c2E2G,2] \
+| ([BDG,]G)(Bd) c2 ((3cdc) | (BG)(Bd) c2(cg) \
+| (fd)(fa) g2(dg) | (fd)(fa) g2(dg) \
+| f2{gf}(e^d) f3e | [M:3/2] e2e2 e4- e2 :|
+|:[M:C] AB \
+| c4 c2-(c/d/c/B/ | c2)a2 ^g2a2 \
+| B4 (Bc)BA | B2d2 c2B2 \
+| A2^GA B2AB |
+| c2Bc d2cd \
+| e4 (ef)e^d | e2g2 f2(e^d) \
+| e2c2 (Bd)B"(#)"G | A6 :|
+S:https://www.folktunefinder.com/tunes/174468
+S:http://trillian.mit.edu/~jc/music/abc/Scand/ganglat/Marsch_KarlLindblad_Am.abc
+S:http://trillian.mit.edu/~jc/music/abc/Sweden/ganglat/Marsch_KarlLindblad_Am.abc
+% Rhythm March, ganglat
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Time_signature 3/2
+% Text Has source text
+% Has_accompaniment_chords No chords

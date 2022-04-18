@@ -1,0 +1,27 @@
+X: 1
+T:Madame Del Caro's Hornpipe. WM070a
+M:2/4
+L:1/8
+Q:280
+S:Wm.Mittell,1799
+R:Hornpipe
+O:England
+A:Kent
+Z:C.G.P
+K:A
+A>ce>a|g>fe>f|e>dc>B|c>de2|A>ce>a|g>fe>d|c>BA>G|A2A2:|!
+|:A>ce>a|(f/g/a) (f/g/a)|E>GB>d|(c/d/e) (c/d/e)|A>ce>a|(f/g/a) (f/g/a)|c
+>BA>G|A2A2:|]
+S:https://www.folktunefinder.com/tunes/173527
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Madame_Del_Caros_Hornpipe_WM070a_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/kirby98.fsnet.co.uk/ma/Madame_Del_Caros_Hornpipe_WM070a_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

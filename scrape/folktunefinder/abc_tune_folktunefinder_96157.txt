@@ -1,0 +1,33 @@
+X: 6
+T:Prelude by Dean(06). TBe.006
+M:4/4
+L:1/8
+Q:120
+C:Mr. Thomas Dean
+S:Thomas Bennet MS,1718, VWML
+R:misc.
+O:England
+N:Heading is 'Bmi Sharp'.  With all the accidentals it appears to be in
+N:B major, but I have left the key signature and accidentals as shown, as
+N:otherwise I have to put a lot of naturals in and it is better to leave
+N:it as it is.
+H:1718
+Z:vmp.C. Graebe..
+K:D major
+"Bmi sharp.see notes.No time sig."\
+B2c2d2B2 | f2^g2a2b2 | ba^gf edcB |\
+^Acfc dfgd |!
+ eG cB ^Acfe | ^db dB d/f/b/f/ d/f/b/f/ |\
+gdec ^AF^DF | BB,DF B4 ||
+S:https://www.folktunefinder.com/tunes/96157
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Misc.
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Text Has history text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X: 3
+T: Triumphal March
+S: a notebook full of ABC transcriptions, 70s
+M: 4/4
+L: 1/8
+R: march
+K: Dmaj
+|: (3ABc |\
+d2 d>d dA FD | A2 A>A A2 FG | AD FA BA GF | E2 A>B A2 (3ABc |
+d2 d>d dA FD | A2 A>A A2 FG | (3AFD (3BGE d2 c2 | d2 d>c d2 :|
+|: EF |\
+G2 G>D GB AG | F2 F>D F2 (3ABc | dG BA GF ED | E2 A>B A2 (3ABc |
+d2 d>c dA FD | A2 A>B A2 FG | (3AFD (3BGE d2 c2 | d2 d>c d2 :|
+EF |\
+GA cA eA cA | FA dA fA dA | GA cA eA cA | FA dA fA dA |
+B2 B>G Bd/c/ e/d/c/B/ | A2 A>F A2 g2 | f>a ge d2 c2 | d>A FE D2 EF |
+GE cA eA cA | FD dA fA dA | GE cA eA cA | FD dA fA dA |
+B2 B>E Gd/c/ e/d/c/B/ | A2 A>D F2 g2 | f2 (3age d2 c2 | d2 d>c d2 |]
+S:https://www.folktunefinder.com/tunes/177723
+S:http://www.thesession.org/tunes/display/8779
+% Rhythm March
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

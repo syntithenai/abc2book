@@ -1,0 +1,27 @@
+X:150
+T: Chalk and Cheese
+C: BB
+H: Dedicated with love to my two sons, Tedd and Chris!
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+K: C
+(3G,A,B,|"C"C2 EC "Dm"DEFA|"D"^FAdA "G"G2 AB|"C"c2 Bc "Am"AG (3G^FG|\
+"Dm7"FDEC "G"DG (3G^FG|
+"C"C2 EC "Dm"DEFA| "D"^FAdA "G"G2 AB|"C"cE (3EDE "F"FA (3AGA|"G"GEDB, "C"C2 :|
+zD|"C"EGAB cege|"D"d^faf "G"g2 g=f|"C"ecBc "Am"acBc|"Dm"efdc "G"BGAB |
+"C"c2 ec gcec|"Am"ag^fa "G"g2 g=f|"C"ec (3cBc "F"AF (3FEF|"G"GEDB, "C"C2 :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86439
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes1.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

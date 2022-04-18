@@ -1,0 +1,32 @@
+X: 155
+T: Poziv Kolo
+S: Ciga Ivon Despotovic, Radio-Televizija Beograd
+M: 2/4
+L: 1/8
+Q: 1/4=180
+P:AABBCC
+K: Emix
+%%MIDI gchord fzfz
+P:A
+|:"d" D2 D2|"a"B=cBA   |"d" BA"a"G=F |"a" GA=FA      |\
+  "e"BAG=F |"a" GA=FA  |"a" G=F "e"ED|[1 "e" E=FEA,  :|[2 "e" E2 E2|
+P:B
+%%MIDI gchord fz
+|:"d" =FED2|"e" DCD2   |"a"D2=F2     |"d" G2ED       |\
+  "e" E=FG2|"a" .G2.=F2|G=FED        |[1CB,CA,       :|[2CB,CE     |
+P:C
+%%MIDI gchord zf
+|:"a" E2E2-|EFED       |^CB,3        |"e" F,G,A,B,   |"e"CD2C      |\
+  "b"FEDC  |[1 B,2EF   |G2A2         :|[2 B,4        |
+S:https://www.folktunefinder.com/tunes/183644
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Balkan/Poziv_Kolo.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/SeymourShlien/Intl/Poziv_Kolo.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

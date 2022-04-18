@@ -1,0 +1,24 @@
+X:2
+T:*  The Old Grand Spey (C whistle 1 note hi)
+M:4/4
+L:1/8
+S:L. Nugent W_GAP Trk 4
+R:slow reel
+Z:Ed Wosika
+K:C
+F| EGAG cGAG |  EGAG EDD2 | EGAG cGAG | (3EFE DF ECC2 |
+EGAG cGAG | EGAG EDD2 | EGAG cdef  | (3gag ed ecc :||
+d| e3d c3G | ~A2Gc ~A2Gd| e3d c3G | (3ABc GE EDD2|
+   e3d c3G | ~A2Gc ~A2Gd| eaag eGAB| cAGF ECC:|
+S:https://www.folktunefinder.com/tunes/179954
+S:http://trillian.mit.edu/~jc/music/abc/mirror/wosikae:sbcglobal.net/TheOldGrandSpeyCwhistle1notehi_1.abc
+% Rhythm Slow reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

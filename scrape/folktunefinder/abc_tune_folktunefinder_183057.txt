@@ -1,0 +1,29 @@
+X: 1
+T: Polka from Gaite Parisienne
+C: R-119
+C: Offenbach
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: polka
+K: D
+A| "D"ADDE "A"DCCB| BEEF "D"EDDd| dcc=c cBB^A| "A"^A=AAB BAAA|
+   "D"ADDE "A"DCCB| BEEF "D"EDDF| "G"GABc "D"dAFG| "A"^GABc "D"d2D2|] \K:G\
+|:\
+"G"G4 "D"AcBA| "G"d2d2 deBc| "D"A2A2 AcBA|1 "G"Ggfe "D"dcBA :|2 "G"Gd"D"AB "G"G3A |] \K:D\
+\
+"D"ADDE "A"DCCB| BEEF "D"EDDd| dcc=c cBB^A| "A"^A=AAB BAAA|
+"D"ADDE "A"DCCB| BEEF "D"EDDF| "G"GABc "D"dAFG| "A"^GABc "D"d3E |] \K:A\
+|:\
+"A"A2B2 c4| "E"dcB2 dcB2| "A"c2d2 e3e|1 "E"gf^ef =edcB :|2 "E"gedB "A"A3 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/183057
+S:http://roaringjelly.org/music/polka/R119_Polka_from_Gaite_Parisienne.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/polka/R119_Polka_from_Gaite_Parisienne.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/polka/R119_Polka_from_Gaite_Parisienne.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

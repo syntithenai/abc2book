@@ -1,0 +1,26 @@
+X:30
+T: International [The]
+M: 4/4
+L: 1/8
+R: reel
+S: Brian Conway
+N: from Andy McGann and ultimately from Sean Maguire
+Z: B.Black
+K: C
+B, | CEEF E2 eg | fedB cBcA | GFEG A2 Gc | ecAG EA,A,B, |
+CEEF E2 eg | fedB cBcA | GFEG (3ABc GE | FEDF EC C :|
+A | c2 ec gceb | ad d2 eEED | CEGc AF (3FEF | EGAc ecAB |
+c2 ec gceb | ad d2 eEED | CEGE FEDc | Bg (3g^fg ec c :|
+S:https://www.folktunefinder.com/tunes/96128
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/i.abc
+S:http://www2.redhawk.org:8080/irish/zouki/i.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

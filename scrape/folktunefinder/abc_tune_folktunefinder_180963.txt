@@ -1,0 +1,23 @@
+X: 1
+T: Pachabel's Frolics
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+(3ABc|:d2 dc defg|a2 ab agfe|A~B3 dcdB|ABGA FDEF|
+|GFGA ~B3c|dcde f2 fa|gfed cdef|1 ~g3f gfec:|2 gece d3 e||
+|fdAd fdAd|ecAc ecAc|dBFB dBFB|AGAB =cAFA|
+|GFGA ~B3^c|dcde ~f3 a|gfed cdef|~g3f gfeg|
+|fd (3ddd fd (3ddd|ec (3ccc ec (3ccc|dB (3BBB dB (3BBB|
+|AGAB =cAFA|G2 GF GAB^c|dcde f2 fa|gfed cdef|gece d2 (3ABc|
+S:https://www.folktunefinder.com/tunes/180963
+S:http://www.thesession.org/tunes/display/487
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

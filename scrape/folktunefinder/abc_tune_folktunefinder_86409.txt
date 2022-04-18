@@ -1,0 +1,33 @@
+X: 010311
+T: After the Blizzard
+C: BB
+R: jig
+Q: 320
+M: 6/8
+L: 1/8
+%: 1 volume=50
+V: 2 volume=50 clef=bass m=D
+K: D
+[V:1] A | "D"ded "Bm"BAF | "D"ADD D2 A | "D"ded "A"cBA | "D"FAd "Bm"B2 A |
+[V:2] z|[D,3A,3F3][B,3F3d3]|[D,6A,6F6]|[D,3A,3F3][A,3E3c3]|[D,3A,3F3][B,3F3d3]|
+%
+[V:1] "D"ded "A"cdc | "Bm"Bcd "A"ABc | "D"dAF "A"EDE | "D"FDD D2 :|
+[V:2] [D,3A,3F3][A,3E3c3]|[B,3F3d3][A,3E3c3]|[D,3A,3F3][A,3E3c3]|[D,4-A,4-F4-][D,A,F]:|
+%
+[V:1] A | "D"dff "G"dcB | "D"Add FED | DFA def | "BM"baf "A"e2 A |
+[V:2] [D,A,F]|[D,3A,3F3][G,3D3B3]|[D,6A,6F6]|[D,6A,6F6]|[B,3F3^d3][A,3E3c3]|
+%
+[V:1] "D"dff "G"dcB | "D"Add FED | DFA "Em"BGE | "D"FDD D2 :|
+[V:2] [D,3A,3F3][G,3D3B3]|[D,6A,6F6]|[D,3A,3F3][E,3B,3G3]|[D,4-A,4-F4-][D,A,F]:|
+S:https://www.folktunefinder.com/tunes/86409
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20061101/abc/V_AfterTheBlizzard.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps-20070110/abc/V_AfterTheBlizzard.abc
+S:http://trillian.mit.edu/~jc/music/abc/src/jcabc2ps/abc/V_AfterTheBlizzard.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

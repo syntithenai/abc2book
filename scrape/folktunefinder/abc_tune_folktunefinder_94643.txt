@@ -1,0 +1,31 @@
+X:045
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Dark Girl
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+C:contributed by Rod Miller
+R:Reel
+L:1/8
+M:C
+K:D
+F2 A2 A2 d2 | Bc dB A3 G | F2 B2 A2 FA | B2 E2 GF ED |
+F2 A2 A2 d2 | Bc dB A3 G | F2 B2 AB AG | PF2 D2 D4 ::
+F2 A2 AB de | (f3 d) e2 d2 | Bc dB A2 FA | B2 E2 GF ED |
+F2 A2 AB de | (f3 d) e2 d2 | Bc dB AB AG | PF2 D2 D4 :|]
+S:https://www.folktunefinder.com/tunes/94643
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Dark_Girl_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Dark_Girl_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Dark_Girl_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Dark_Girl_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

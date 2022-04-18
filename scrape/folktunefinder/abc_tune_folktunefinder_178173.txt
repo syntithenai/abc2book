@@ -1,0 +1,30 @@
+X:1
+T:Nae Luck about the House
+S:NLS MS.21733
+Z:Jack Campin 2003
+B:Jack Campin: "Old Scottish Flute Music" CD-ROM, <http://www.campin.me.uk/flute/>
+M:2/4
+L:1/16
+Q:1/4=112
+K:D
+[V:1] d3e| f3f    f3d  | g3g    g3e   |f3f   f3d  |   e6 d2| f3f   f3d  |(g3a)   b3b    | a3(g   f3e) |d4
+[V:2] z4 | d3d    d3d  | e3e    e3e   |d3d   d3d  |   A6 z2| d3d   d3d  | e3f    g3g    | f3e    d3A  |F4
+%
+[V:1] d3e| f3f    f3d  | g3g    g3e   |f3f   f3d  |   e6 e2| f3f   f3d  | g3a    b3b    | a3(g   f3)e |d6||
+[V:2] z4 | d3d    d3d  | e3e    e3e   |d3d   d3d  |   A6 z2| d3d   d3d  | e3f    g3g    | f3e    d3A  |F6||
+%
+[V:1]  b2|(d'3b)  a3(f | g3)a   b3c'  |d'3b  a3f  |{f}e6 a2|(d'3b) a3(f | g3)a   b3b    | a3g    f3e  |d6
+[V:2]  z2| f4     f3d  | e3f    g3g   |f4    d3d  |   A6 z2| f4    f3d  | e3f    g3g    | f3e    d3A  |F6
+%
+[V:1]  b2| d'3b  (bagf)|(gfga) (babc')|d'3b (bagf)|   e6 a2| d'3b (bagf)|(gfg)(a bc'd'b)|(abag) (fgfe)|d4|]
+[V:2]  z2| f8          | e2(f2  g4)   |f4    d4   |   A6 z2| f8         |(e3f    g4)    | f3e    d3A  |F4|]
+S:https://www.folktunefinder.com/tunes/178173
+S:http://www.campin.me.uk/Flute/NL.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

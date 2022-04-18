@@ -1,0 +1,23 @@
+X: 1
+T: Mickey Docherty's
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+(3ABc|:d2fa gfed|cA (3AAA cdec|d2fa gfed|cABc dABc|d2fa gfed|
+cA (3AAA cdec|d2fa gfed|1cABc d2 (3ABc:|2cABc d2 FD||
+K: D Mixolydian
+|:(3EFG AB cAGE|D2FD ADFD|FGAB cAGc|BdcA GEFD|
+(3EFG AB cAGE|D2FD ADFD|FGAB cAGc|1BdcA G3 D:|2BdcA G3||
+S:https://www.folktunefinder.com/tunes/175605
+S:http://www.thesession.org/tunes/display/2291
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

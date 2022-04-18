@@ -1,0 +1,29 @@
+X: 1
+%%topspace .2cm
+T: Mrs. MacDonal Grant
+C: R-79
+C: Niel Gow
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: reel
+K: F
+"F"ABc2 c2A2| "Bb"B2d2 d4| "F"ABc2 A2F2| "C7"E2G2 G4|
+"F"ABc2 c2A2| "Bb"Bcde f2ed| "F"c2A2 "C7"B2G2|1 "F"F4 F4 :|2 "F"F4 F2 f2|]
+\
+"C7"g4 "F"a4| f2c2 f2a2| "C7"g2fg "F"a2f2| "C7"e2g2 g2a2|
+"C7"g4 "F"a4| f2c2 "C7"f2ed| "F"c2A2 "C7"B2G2| "F"F4 F2 f2|
+"C7"g4 "F"a4| f2c2 f2a2| "C7"g2fg "F"a2f2| "C7"e2g2 g2fg|
+"F"a2f2 "Bb"d2f2| "C7"e2c2 "Fdim"f2ed| "F"c2A2 "C7"B2AG| "F"F4 F4 |]
+%%text 9/1/98
+S:https://www.folktunefinder.com/tunes/177467
+S:http://roaringjelly.org/music/reel/R079_Mrs_MacDonal_Grant.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/reel/R079_Mrs_MacDonal_Grant.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/reel/R079_Mrs_MacDonal_Grant.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

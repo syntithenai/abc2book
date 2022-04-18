@@ -1,0 +1,20 @@
+X: 1
+T: Laxo Burn
+C: Arthur Scott Robertson (1984)
+M: C|
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu> from handwritten MS (by Barbara McOwen)
+K: D
+ AG | "D"FD~D2 FGA=c | "G"BG~G2 GABd | "A7"^cA~A2 cdeg | "D"fdcd "G"Bd"A"Ad |
+ y4 | "D"FD~D2 FGA=c | "G"BG~G2 GABd | "A7"^cA~A2 cdeg | "D"fddc d2 |]
+ zg | "D"f2df Afdf | "Em"g2eg Bgeg | "E7"^g2eg Bgeg | "A"a2ea "A7"ceA=g |
+ y4 | "D"f2df Afdf | "Em"g2eg "E7"Bge^g | "A7"aA~A2 cde=g | "D"fddc d2 |]
+S:https://www.folktunefinder.com/tunes/171625
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LaxoBurn_D4.abc
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/r16/LaxoBurn_D4_16.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

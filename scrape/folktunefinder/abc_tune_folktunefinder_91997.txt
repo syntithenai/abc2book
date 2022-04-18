@@ -1,0 +1,27 @@
+X:1
+T:Ah !  Vous dirais-je, maman 
+C:Un thme bien connu de W.A. Mozart, fichier abc : Bernard Loffet
+L:1/8
+Q:260
+M:2/2
+K:C
+ [G2G,2][G2G,2] [d2G,2][d2G,2] | [e2D,2][e2D,2] [d2G,2]G,2 | [c2D,2][c2D,2] [B2G,2][B2G,2] | \
+ [A2D,2][A2D,2] [G2G,2]G,2 | [d2G,2][d2G,2] [c2D,2][c2D,2] | [B2G,2][B2G,2] [B2G,2][A2D,2] | \
+ [d2G,2][d2G,2] [c2D,2][c2D,2] | [B2G,2][B2G,2] [A2D,2]D,2 | [G2G,2][G2G,2] [d2G,2][d2G,2] | \
+ [e2D,2][e2D,2] [d2G,2]G,2 | [c2D,2][c2D,2] [B2G,2][B2G,2] | [A2D,2][A2D,2] [G2G,2]G,2 | \
+Z:Created with TablEdit http://www.tabledit.com/ by Bernard Loffet
+S:https://www.folktunefinder.com/tunes/91997
+S:http://diato.ifrance.com/diato/tablat/111.abc
+S:http://diato.ifrance.com/tablat/111.abc
+S:http://diato.org/tablat/111.abc
+S:http://perso.orange.fr/diato/tablat/111.abc
+S:http://perso.wanadoo.fr/diato/tablat/111.abc
+S:http://pro.wanadoo.fr/diato/tablat/111.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/ifrance.com/diato/tablat/111.abc
+S:http://www.diatonique.net/tablat/111.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

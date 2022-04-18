@@ -1,0 +1,21 @@
+X:725
+T:Pachelbel Reel
+M:4/4
+K:AMix
+L:1/8
+fA (3AAA f2 ef|gB (3BBB g2 ge| fA (3AAA f ef|gfed cBce|
+fA (3AAA f2 ef|gB (3BBB gegg | fgaf g2 eg|edce d2 de :|
+|: ff d2 ff d2 |f/f/ece fece|dfBf dfBA|GFGA BAFA|
+(3GFG GF GABc|dcde f2 ef|gfed cdeg|gece dcde :|
+P:Variation for A part
+fABA fABA|gABA gABA|fgaf g2 eg|edce d2 de :|
+S:https://www.folktunefinder.com/tunes/91282
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/pubscout/reels.abc
+S:http://www2.redhawk.org:8080/irish/pubscout/reels.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X: 1
+T: MacArthur Road
+M: 4/4
+L: 1/8
+R: reel
+K: Dmaj
+|: dA A2 ABde | f2 fd edBd | e2 ef edBd | effd edBe |
+dA A2 ABde | f2 fd edBd | e2 ef edBA | Bdde d3e  :|
+|: fA A2 fAgA | fAgA fdBd | e2 ef edBd | effd edBe |
+fA A2 fAgA | fAgA fdBd | e2 ef edBA | Bdde d3e |
+fA A2 fAgA | fAgA fdBd | e2 ef edBd | effd edBe |
+dA A2 ABde | f2 fd edBd | e2 ef edBA | Bdde d3e ||
+S:https://www.folktunefinder.com/tunes/173440
+S:http://www.thesession.org/tunes/display/2221
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

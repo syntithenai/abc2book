@@ -1,0 +1,28 @@
+X:22
+T:York Fusiliers
+M:2/4
+L:1/16
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+D4 F2A2|d2ef g2e2|f2d2 c2d2|edcB AGFE|D4 F2A2|d2ef g2e2|f2d2 cdec|d8::
+f2e2 e4|f2a2 a4|f2a2 f2d2|edcB ABcd|f2e2 e4|f2a2 a4|f2a2 f2d2|e8::
+D2A2 A4|D2B2 B4|A2B2 AGFE|D2d2 c2d2|D2A2 A4|D2B2 B4|A2B2 AGFE|TE4 D4::
+A2>G2 F2d2|A2>G2 F2d2|B2A2 G2F2|EDEF E4|A2>G2 F2d2|A2>G2 F2d2|B2b2 fdec|d2d2 d4:|
+P:2nd Fife
+D2F2 D2F2|F2Ad e2c2|d4 e2f2|gfed fedc|d2F2 D2F2|F2Ad e2c2|d2F2 EFGE|F8::
+d2c2 A2c2|d2f2 f4|d2f2 a2f2|gfed cdef|d2c2 A2c2|d2f2 f4|d2f2 a2fd|c8::
+dfef dfef|dfge d2g2|e2d2 fedc|d2f2 e2f2|dfef dfef|dfge d2g2|e2d2 fedc|Tc4 d4::
+F2>E2 D2F2|F2>E2 D2F2|G2F2 E2D2|cdcd c4|f2>e2 d2f2|f2>e2 d2f2|B2ge dBcA|f2f2f4:|
+S:https://www.folktunefinder.com/tunes/90009
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

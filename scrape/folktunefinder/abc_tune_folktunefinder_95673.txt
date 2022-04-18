@@ -1,0 +1,29 @@
+X:210
+T:Sandy o'er the Lee
+A:Wyresdale, Lancashire
+B:H.S.J. Jackson, 1823
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000e0f.html
+%%ID:00000e0f
+K:G
+D |\
+G>AGB | dBdB | ABAc | e2 ef/g/ | GAGB  | dB de/f/ | gedB | G3 ::
+B |\
+A>GAd | BGGB  | A>GAd | TB2 GB | \
+A>GAd | B^cdg | fdef  | d2 e(d//c//B//A//) |
+G>AGB | dBdB  | A>BAc | e2 ef/g/ |\
+G>AGB | dBd>Hg | A>GAd | G3 ::
+%page:27
+S:https://www.folktunefinder.com/tunes/95673
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_2_HSJJ/Winder_2_HSJJ.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

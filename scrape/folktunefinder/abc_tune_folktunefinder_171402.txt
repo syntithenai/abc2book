@@ -1,0 +1,27 @@
+X: 1
+T: Larry O'Gaff
+C: J-11
+C: Irish, New England
+M: 6/8
+Z: Transcribed to abc by Mary Lou Knack
+R: jig
+% %staffwidth 12cm
+K: G
+(3d/e/f/| "G"g2G BAG| d>ed dBG| "C"c>ec "G"B>dB| "D"ABc def|
+          "G"g2G BAG| d>ed dBG| "C"c>ec "G"B>dB| "D"AGA "G"G2 :|
+|:\
+d| "G"dgg gfg| gfg "A7"afd| "D"daa aga| aga "G"b2a|
+   "G"gba "C"gfe| "G"dge dBG| "C"c>ec "G"B>dB| "D"AGA "G"G2 :|
+%%text 12/03/98
+S:https://www.folktunefinder.com/tunes/171402
+S:http://roaringjelly.org/music/jig/J011_Larry_OGaff.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/jig/J011_Larry_OGaff.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/jig/J011_Larry_OGaff.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

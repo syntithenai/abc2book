@@ -1,0 +1,29 @@
+X:102
+U: ~ = !turn!
+%%topmargin 3cm
+T:Kathleen's Fiddle
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Andy McGann
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:F
+Ac (3{/d}(cBc) AF (3{/G}(FEF) | DGGA G2 FD | CFAF CFAF | G2 FG AGFG |
+Jc2 cd cdcA | GFAF GFDF | CFAF CFAF | G2 FG AF F2 ||
+Ac (3{/d}(cBc) dcAc | dggf gfdc | fgfd {cd}c2 Ac | fefg agfg |
+{fg}f2 df c2 Ac | dgga gfdc | fgfd {cd}c2 Ac | fefg afgf |]
+S:https://www.folktunefinder.com/tunes/94698
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Kathleens_Fiddle_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Kathleens_Fiddle_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

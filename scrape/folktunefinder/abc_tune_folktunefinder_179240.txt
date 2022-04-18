@@ -1,0 +1,27 @@
+X: 1
+T: N\"udli
+R: zwiefacher
+M: none
+K: C
+(3GAB \
+|[M:2/4][L:1/8]"C"c2 G2 | "G7"d2 G2 \
+|[M:3/4][L:1/8]"C"Ge e2 "G7"d2 | "C"c2 BA "G7"G2 \
+|[M:2/4][L:1/8]"C"c2 G2 | "G7"d2 G2 \
+|[M:3/4][L:1/8]"C"Ge ec "G7"dB | "C"c3 z :|
+|: "G7"cd \
+|[M:2/4][L:1/8]"C"e2 c2 | "Dm"f2 d2 \
+|[M:3/4][L:1/8]"G7"g2 ga gf | "G7"d2 dB G2 \
+|[M:2/4][L:1/8]"C"e2 c2 | "Dm"f2 d2 \
+|[M:3/4][L:1/8]"G7"g2 ga ge | "C"c3 z :|
+S:https://www.folktunefinder.com/tunes/179240
+S:http://trillian.mit.edu/~jc/music/abc/Germany/zweif/Nuedli_C.abc
+S:http://trillian.mit.edu/~jc/music/abc/Intl/zweif/Nuedli_C.abc
+% Rhythm Zwiefacher
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

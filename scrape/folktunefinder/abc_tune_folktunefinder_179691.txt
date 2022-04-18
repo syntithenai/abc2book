@@ -1,0 +1,25 @@
+X:1
+T:Oh Callar Spirlings (theme)
+C:Domenico Corri
+S:Jack Campin <abc:purr.demon.co.uk> abcusers 2004-12-6
+V:1
+V:2 bass transpose -24 middle = d
+M:3/4
+L:1/16
+Q:1/4=96 "Andante"
+K:D Minor
+[V:1] "^P."A2|[d4F4]   [d4F4]   [^c4G4]  |[d8F8]    [=B4F4]|[c4G4]          [c4E4] [=B4G4F4]        |[c8E8]    [^c4G4E4] |
+[V:2]      z2| d4       d'4       a4     | d'4 d4     g4   | e4              c4      g4              | c'4  c4   a4      |
+%
+[V:1]         [d4A4F4] [d4A4F4] [^c4G4E4]|[d8A8F8]   [a4f4]|"^F."[a3f3][ge] [f4d4]   f/e/f/e/f/e/d/e/| d4   D4   z2     ||
+[V:2]          f4       d4        a4     | d'4 d4     f4   |      g4         a4     [A4^c4e4g4]      | d2A2`F2A2 D2     ||
+S:https://www.folktunefinder.com/tunes/179691
+S:http://trillian.mit.edu/~jc/music/abc/mirror/abcusers/Oh_Callar_Spirlings_theme_.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

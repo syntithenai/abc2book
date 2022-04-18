@@ -1,0 +1,24 @@
+X:1305
+T:the Moneymusk
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001204.html
+%%ID:00001204
+K:G
+e | \
+d>GB>G d>Gc>e | d>GB>G AB/A/ c>e | c>GB>G Bc/d/ dg | e>cB>c BGG ::
+e/f/ | \
+g>dB>g d>gB>g | g>dc>g B>gA>f | g>de>g d>gB>g | e>cA>d BGG e/f/ |
+g>dc>g d>gB>f | g>dc>f B>gA>f | g>de>g d>gc>g | B>gA>f BGG |]
+S:https://www.folktunefinder.com/tunes/88418
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

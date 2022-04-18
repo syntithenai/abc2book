@@ -1,0 +1,31 @@
+X:037
+U: ~ = !turn!
+%%topmargin 3cm
+T:Cooley's Hornpipe
+B: Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S: Sean Ryan
+R:Hornpipe
+L:1/8
+M:C|
+K:G
+((3def) | gG (3{/A}(GFG) ((3EFG) DC | B,G,B,D GBdB | ((3cdc) Ac ((3BcB) GB | cBAG A2 ((3def) |
+gG (3{/A}(GFG) ((3EFG) DC | B,G,B,D GBdB | cBAG Fedc | {Bc}B2G2 G2 ::
+[|: (3.d.d.c | BGBd edBd | g2 (3{/a}(gfg) egdB | dg (3{/a}(gfg) dBGB | cBAG Fedc|
+BG (3{/A}(GFG) (3{/F}(EDE) cE | (3{/F}(EDE) eE DGBd | gage dcBA | {Bc}B2G2 G2 :|]
+S:https://www.folktunefinder.com/tunes/94635
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Cooleys_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Cooleys_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Cooleys_Hornpipe_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Cooleys_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,29 @@
+X:174
+U: ~ = !turn!
+%%topmargin 3cm
+T:Richard Brennan's Favorite
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Jig
+L:1/8
+M:6/8
+K:D
+A,2 F FED | FAF ~F3 | DFA dAF | A,CE A,CE |
+F3 FED | FAF ~F3 | DFA dAF | [1 DCE DCB, :| [2 DCE D3 ||
+|:fed edc | dcB AFA | fed edc | dfb a2 g |
+fed edc | dcB AFA | DFA dAF | DCE D3 :|]
+S:https://www.folktunefinder.com/tunes/94770
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Richard_Brennans_Favorite_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Richard_Brennans_Favorite_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

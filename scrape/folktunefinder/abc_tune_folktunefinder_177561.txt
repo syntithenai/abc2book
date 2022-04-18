@@ -1,0 +1,39 @@
+X:1
+T:Muehlviertler Waldjaeger
+C:traditionell
+R:volkstanz
+A:Muehlviertel
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"(1.) Spielheft fuer Okarina", Volker Derschmidt, Oberoesterreichische Landesarbeitsgemeinschaft fuer Volkslied/Volksmusik/Volkstanz, Linz 1992
+%%endtext
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:G
+dd/e/ dd | ee d2 | BB/c/ BA/B/ | dd c2 |
+dd/e/ de | ff e2 |1 ff E>F | ee/f/ d2 :|\
+                 [2 f>f f/d/c/d/ | Bd/c/ B2 ||
+|:\
+dc/d/ ed/c/ | dd B2 | dc/d/ ed/B/ | dd c2 |
+dc/d/ fd/f/ | c'c' f2 |1 a>g f/e/d/c/ | BB/c/ d2 :|\
+                      [2 a>g f/e/d/f/ | gb/a/ g2 ||
+|:\
+gg/a/ gg | aa g2 | ee/=f/ ed/e/ | gg =f2 |
+gg/a/ ga | bb a2 |1 bb A>B | aa/b/ g2 :|\
+                 [2 b>b b/g/=f/g/ | eg/=f/ e2 |]
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177561
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_figuren-taenze/muehlviertler_waldjaeg.abc
+% Rhythm Volkstanz
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

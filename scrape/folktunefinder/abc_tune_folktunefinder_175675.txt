@@ -1,0 +1,37 @@
+X:1
+T:Mi Go Zatvorile
+R:lesnoto
+C:Trad.
+O:Macedonia
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:IV2IV2IV2
+Q:3/8=90
+M:7/8
+L:1/8
+K:D
+P:I
+%%MIDI channel 1
+%%MIDI program 1 71
+%%MIDI chordprog 42
+%%MIDI chordvol 50
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord f3c2c2
+|: "D"([FD][GE][AF]) ([FD][GE]) ([AF][BG]) | "G"([dB][cA][BG]) "D"([AF][GE]) [FD]z\
+ | "D"([FD][GE][AF]) ([FD][GE] [AF][BG]) | "G"([dB][cA][BG]) "A"[c2A2] z2 |
+   "A"([cA][dB][ec]) "G"([dB][cA][BG][dB]) | "A"([c2A2][BG]) "D"([AF][GE] [FD]) z\
+ | "G"([dB][cA][BG]) "A"([AF][BG][AF][GC]) | "D"[F3D3] z2 z2 :|
+P:V
+   "D"[FD][F2D2] [A2F2] [A2F2] | "A"([G2E2][FD]) "D"[F2D2] z2\
+S:https://www.folktunefinder.com/tunes/175675
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/MiGoZatvorile.abc
+S:http://people.csail.mit.edu/jaffer/Music/MiGoZatvorile.abc
+S:http://voluntocracy.org/Music/MiGoZatvorile.abc
+S:http://www.voluntocracy.org/Music/MiGoZatvorile.abc
+% Rhythm Lesnoto
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 7/8
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,29 @@
+X:129
+U: ~ = !turn!
+%%topmargin 3cm
+T:Mo Bhaidin
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Mary O'Hara
+R:Air
+L:1/8
+M:C
+K:D
+D2 DD D2 FG | A2 FF F4 | d2 ed c2 dc | Bc BA F3 E |
+D2 DD D2 FG | A2 FF B4 | A2 F2 D2 E2 | D4 D4 ||
+D4 D2 FG | A2 F2 F4 | E4 c2 A2 | B4 A4 |
+d2 ed c2 dc | Bc BA F2 B2 | A2 F2 D2 E2 | D4 D4 |]
+S:https://www.folktunefinder.com/tunes/94725
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Mo_Bhaidin_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Mo_Bhaidin_1.abc
+% Rhythm Air
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,27 @@
+X: 18
+T:Bass Rigadoon. TBe.018
+M:6/8
+L:1/8
+Q:80
+S:Thomas Bennet MS,1718, VWML
+R:Rigadoon
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:F Major
+c | A>GA B2 B, | c2C d2D | e>de fAB | c2CF2 ||\
+g/f/ | e>de f2F |!
+ g2G a2A | a>ga b2a | g>ag/f/ e>dc |\
+def f2e | f3-f2 ||
+S:https://www.folktunefinder.com/tunes/96169
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Rigadoon
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

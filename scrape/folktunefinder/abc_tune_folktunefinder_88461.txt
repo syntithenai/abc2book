@@ -1,0 +1,28 @@
+X:1520
+T:the Frisky
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:There is a minim B after the last repeat-bar. I'm not clear why
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001241.html
+%%ID:00001241
+K:A
+c>de e>dc | B>cd c2A | c>de e>dc | B>AG A2 :: \
+d | \
+c>Bc c>Bc | ded c2A | {d}cBc cBc | dBG | A2 ::
+a>ba g>ag | f>gf {g}f>ed | c>de f>ed | c>dB A3 :: \
+E>CE F>DF | Bcd cBA | E>CE F>DF | dBG A3 :|
+S:https://www.folktunefinder.com/tunes/88461
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

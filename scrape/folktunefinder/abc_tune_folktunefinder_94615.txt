@@ -1,0 +1,26 @@
+X:017
+U: ~ = !turn!
+%%topmargin 3cm
+T:Boys of the 25
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:D
+A | =cAAF G2 AB | =cABG Ad d2 | =cAAF G2 ag | fded Ad d ::
+e | f3 g a3 g | fefg af d2 | f3 g a3 g | fded Ad d2 |
+f3 g a3 g | fefg af d2 | ~g3 f g2 ag | fded Ad d2 |]
+S:https://www.folktunefinder.com/tunes/94615
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Boys_of_the_25_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Boys_of_the_25_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

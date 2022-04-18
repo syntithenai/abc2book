@@ -1,0 +1,27 @@
+X:51
+T:Miss Kinloch's Reel
+S:Petrie's Third Collection of Strathspey Reels and Country Dances &c.
+Z:Steve Wyrick , 7/31/05
+N:Petrie's Third Collection, page 20
+L:1/8
+M:C
+R:Reel
+K:D
+B|:.A(FED) EB,B,B|A(FED) B2 (Bc/d/)|.A (FED) EB,B,c|(d/c/B/A/) dF D2(Df):|
+|:dfaf beef|dfaf g2gb|afdf edBe|(d/c/B/A/) dF D2Dz:|]
+% In the 2nd measure Petrie notated the last 3 notes as a 16th followed by 2 32nd notes,
+% leaving the bar one 8th note too short.  Also he omitted the repeat sign at the
+% beginning of bar 1 (standard practice) and the rest at the end of bar 12 so it's unclear
+% if he wanted the pickup to bar 5 to be an F or a B, and whether he wanted a pickup note
+% on bar 13. -SW
+S:https://www.folktunefinder.com/tunes/176158
+S:http://trillian.mit.edu/~jc/music/abc/mirror/RobertPetrie/Miss_Kinlochs_Reel.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

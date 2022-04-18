@@ -1,0 +1,42 @@
+X:1
+T:Branles doubles sur des chansons du XVIe sicle
+T:Sur toutes demoiselles
+M:
+L:1/4
+K:C
+c2AA GGFD G2FG AFG2 :: _BBAB
+cc_B2 :: _BBAB ccdd GGFG AAG2 :|
+T:Baise-moi
+_BAGd dcdc _BAGd c2d2 :|
+deff/e/ dd/c/ _Bffe dc _B2A2 |:
+_B>cdB c/_B/A/B/Gc cdc_B A2G2 :|
+T:Dans notre bois
+_BAGd fed2 : _BAGd e/f/g/f/ed :|
+ddgd dc_B2 A/_B/ccd dc/_B/AG |:
+Bcd2 dgf2 : dd_BA/B/ c/d/c/_B/AG :|
+T:Oh gentil marinier
+B : BAGA B/A/B/c/ AB : BAGA B2A :|
+A : ABAG ^FEDA A^FGA B2A2 |:
+B2AG ^FEDD : E/^F/G/A/BB A2G2 :|
+T:La rouse
+edcB/c/ d/c/d/B/A2 : BAGc d/c/d/e/c2 :|
+edcd e/f/gdd : edcd e/f/gd2 :
+edcd d/c/B/A/GG : cBcd efd2 |
+T:Belle hlas
+dd/c/_BB c/d/_e/c/d2 : dd/c/_BB c/d/_e/c/d2 :|
+def/e/d c/_B/cB2 : ddG/A/_B A2G2 |:
+dd/c/_BB c/d/_e/c/d2 : dc/_B/ A/B/c/B/ A2G2 :|
+T:Amour n'a point
+G |:c/d/ | eeff e>dcd/e/ | fedc d3 ::
+d | ddcB A2BB | GccB 
+%%begintext
+S:https://www.folktunefinder.com/tunes/90143
+S:http://michel.bellon.free.fr/Musique/abc/CaveSaintSabin.abc
+% Titles Over five titles
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

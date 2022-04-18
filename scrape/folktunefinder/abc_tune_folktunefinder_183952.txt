@@ -1,0 +1,27 @@
+X: 1
+T:Princess Beatrice
+R:Hornpipe
+O:Scotland
+M:4/4
+C:W. B. Laybourn
+K:Gm
+dc| \
+BDGB AD^FA| GDGB dcBA| Bdgf edcB| AGFE DcBA| \
+BDGB AD^FA|
+GDGB dcBA| \
+f=e_ec AD^FA| GBdg G2 ::\
+FE |\
+DBEB FBEB| DFBd fbfd|
+Ec=Ec FcGc| Acec AFEC|\
+DBEB FBEB| DFBd fbfd| f=e_ed cBAG| FEDC[B,2D2]\
+:|
+S:https://www.folktunefinder.com/tunes/183952
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/pr/Princess_Beatrice_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode minor
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

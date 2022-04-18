@@ -1,0 +1,24 @@
+X: 1
+T: A Lullagy
+B: O'Neill's 233
+N: "Moderate"
+N: "Collected by F.O'Neill"
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: D
+  d2f afd | Bcd A2F | ABc d2e | {g}fed e2z \
+| d2f afd | Bcd A>GF | A>Bc d2(e/g/) | f2e d2(d/e/) ||
+|| (f2e/c/) (A2d/B/) | (G2A/F/) D3 | (ceg) (fdB) | A>Bc d2(d/e/) \
+|  (f2e/c/) (A2d/B/) | (G2A/F/) D3 | ceg fdB | A>Bc d2 ||
+S:https://www.folktunefinder.com/tunes/173350
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/jig/Lullagy.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

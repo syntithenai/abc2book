@@ -1,0 +1,26 @@
+X:470
+T:Big Bowwow
+B:Aird's Airs and Melodies vol 3
+M:6/8
+R:Jig
+Z:Richard Robinson 
+%RRN:New Set
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001ee.html
+%%ID:000001ee
+K:G
+c|\
+B2G GAB| c2c c2d| "tr"B2G GAB| A2A A2c| \
+B2G GAB| c2d e2g| edc BcA| G2G G2 ::
+f|\
+gag gdB| c2c c2e| gag gdB| A2A A2f| \
+gag gdB| c2d e2g| edc BcA| G2G G2:|
+S:https://www.folktunefinder.com/tunes/95400
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:690
+T:Planxty Drew
+C:O'Carolan
+B:O'Neill's 690
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+N:"Spirited"
+M:6/8
+L:1/8
+K:Gm
+(G/A/) \
+| BAG Bcd | (cd)B (AG)F | GDG G2A | BGG G2(G/A/) |
+| BAG Bcd | (cd)B (AG)F | (Gg)g (a/g/f).d | cA^F G2 ||
+(B/A/) \
+| GDG Bcd | Ggg gaf | gfd (c/B/A).G | Fff f2(f/g/) |
+| .a(f/g/a/f/) .g(=e/f/g/e/) | .f(d/=e/f/d/) .c(A/=B/c/A/) | Ggg (a/g/f).d | cA^F G2 |]
+S:https://www.folktunefinder.com/tunes/182707
+S:http://trillian.mit.edu/~jc/music/book/oneills/1850/X/0690_jc.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X: 1
+T:The Old Reel
+C:Trad
+R:Reel
+M:C
+Z:From Ossian again, they do it in the same set as
+Z:'The Sound of Sleat'.
+K:GDor
+L:1/8
+F |: DGGA G^FGA | BGdG _eGdG | CFFG FEFG |AFcF dFcF |
+ DGGA G^FGA | BABc dcde | fgfd cAFA | BGAF DG G2 :|
+|: dgga g^fga | bgga bg g2 | cffg fefg | affg af f2 |
+ dgga bagb | abag fedc | defd cAFA | BGAF DG G2 :|
+S:https://www.folktunefinder.com/tunes/180178
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ol/Old_Reel_3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

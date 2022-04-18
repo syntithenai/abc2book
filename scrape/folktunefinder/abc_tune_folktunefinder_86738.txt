@@ -1,0 +1,26 @@
+X: 243
+T: East of Killarney (slide)
+C: BB 11/06
+N: 052186
+L: 1/8
+M: 12/8
+R: jig
+Q: 1/4=180
+K: G
+D| "Am"EcB "D"AFA "C"c2B "G"B2G | "Em"EFG "Am7"AGA "D7"dcA "G"B2D |
+"Am"EcB "D"AFA "C"c2B "G"B2c | "D7"ded cAF "G"G3 G2 :|
+e|"Em"edB "D"def "G"g2d d^cd | "Am"=cBc a2a "G"BAB g3 |
+"Em"edB "D"def "G"g2a b2g | "D"fef def "G"g3 g2 :|
+%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86738
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 12/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,18 @@
+X:1
+T:The Mermaid
+M:4/4
+L:1/8
+K:C
+ z4 z2 G,2| E E2- D C2B,-C|D-CB,-A, G,2 G, G,| A,2 C2 B,2 DD| C4 z2 G, G,|\
+ E E2 D C2B,-C|D-C B,A, G,2 G, G,| A,2 CC B,2 DD| C4 z2 G, G,| G,3 G, A,2 G,2|\
+ C4- C z CD| E3 E G2 E2| D4- D z D2| E2 E2 C E2 E| DC B,A, G,2 G, G,|\
+ A,2 CC B,2 DD| CD EF G2 G, G,| A,2 CC B,2 DD| C6 z2|
+S:https://www.folktunefinder.com/tunes/175325
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/MERMDFRI.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

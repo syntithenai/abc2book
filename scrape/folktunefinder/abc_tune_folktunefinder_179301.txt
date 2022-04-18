@@ -1,0 +1,27 @@
+X:1
+T:Nylandspojkarnas polska (nedifrn)
+R:polska J
+C:Bingsj, Dalarna, Sweden
+Z:Transcribed by David Lamb
+M:3/4
+L:1/16
+Q:1/4=120
+K:A
+P:A
+|: "A"A,2CE A4 c4|e2a2 f2ed c4|"E"B3(c d2)(fd) "A"c2(ec)|"E"(EG)BG "A"A2AE C2(EC)|A,2CE A4 c4\
+|  e2a2 f2ed c4|"E"B3(c d2)(fd) "A"c2(ec)|"E"(EG)BG ["A"A8A8]:|
+P:B
+|: ("A"(AB)cd e2ae c2(ec)|(AB)cd e2ce a2[A2a2]|("D"Ad)(fd) (Ad)(fd) (Ad)(fd)\
+|  ("A"Ac)(ec) (Ac)(ec) (Ac)(ec)|("D"Ad)(fd) (Ad)(fd) (Ad)(fd)\
+|  ("A"Ac)(ec) (Ac)(ec) (Ac)(ec)|(cd)cB A4 [E4A,4]-|A2A2 B2(AB) c4\
+|  "D"{c}B3(c d2)e2f2a2|"E"(ga)bg ["A"A8a8]:||
+S:https://www.folktunefinder.com/tunes/179301
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/Nedifran.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/skandia-folkdance.org/spelmanslag/Nedifran.abc
+% Rhythm Polska j
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

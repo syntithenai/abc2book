@@ -1,0 +1,25 @@
+X: 141386
+T: Navvy on the Line
+S: "Music from Ireland 3" (Bulmer & Sharpley)
+N: incorrectly listed as "Navvy on the Shore"
+R: reel 
+M: 4/4
+L: 1/8
+K: G
+(3DEF|G2 ge dBGB|AGBG AGEF|G2 ge dBGB|AGAB A2 GA|
+G2 ge dBGB|AGBG AGEG|g2 gd edBG|AGEF G2 :|
+Bd|g2 dB GABd|eBdB GABd|g2 dB GABd|eBdB AG E2|
+g2 dB GABd|edBA GABd|g2 gd edBG|AGEF G2 :|
+S:https://www.folktunefinder.com/tunes/178289
+S:http://www.qmcorp.net/webabc/n/141386.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

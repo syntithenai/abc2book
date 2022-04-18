@@ -1,0 +1,26 @@
+X:1
+T:One More Time
+C:John Wobus
+S:John Wobus composed 3/22/2004
+M:2/4
+R:reel
+K:A
+|:e3A cAeA | cAeA cAeA | cAeA dcBA | BcBA F2E2 |
+ e3A cAeA | cAeA cAeA | cAeA dcBA | BcBG A4 :|
+|: EFED CA,CE | FEFG AGAB | cAeA cAeA | BcBA F2E2 |
+ EFED CA,CE | FEFG AGAB | cAeA dcBA | BcBG A4 :|
+W:Copyright 2004 John Wobus, PGTPPCATPL AORR
+S:https://www.folktunefinder.com/tunes/180412
+S:http://www.contranella.com/tunes/2004/onemoretime.abc
+S:http://www.contranella.com/tunes/onemoretime.abc
+S:http://www.vaporia.com/contranella/tunes/2004/onemoretime.abc
+S:http://www.vaporia.com/contranella/tunes/onemoretime.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

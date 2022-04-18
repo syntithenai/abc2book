@@ -1,0 +1,35 @@
+X: 1
+T: Miss Admiral Gordon's Strathspey
+T: Of a' the airts the wind can blaw
+C: William Marshall (c.1775)
+R: strathspey
+Z: 2008 John Chambers <jc:trillian.mit.edu>
+B: Marshall's Scottish Melodies
+B: Marshall's Strathspey Reels (1781)
+M: C
+L: 1/16
+K: A
+V: 1
+E2 \
+| "A"AAA2 .A.A3 A3E Af3 | "A"(ec3) (TB3A) "D"{G}F4 (F3E) \
+| "A"AAA2 .A2.A2 A3E Af3 | "A"e3f ac3 "E7"e4 (e3f) |
+| "A"e3f ac3 (ec3) (TB3A) | "E7"TB3c (dc)(BA) "D"{G}F4 (F2E2) \
+| "A"AAA2 (.[A2C2].A2) [A3C3]E Af3 | "E7"ec3 TB3c [A4C4] [A2C2]E2 |]
+[|"A"(C3E) (A3E) "D"(TF3E) "A"(A3E) | "A"(~c3e) (dc)(BA) "D"{G}F4 (F2E2) \
+| "A"(C3E) (A3E) "D"(TF3E) "A"(A3E) | "A"~c3d (ef)(ga) "E7"{f}e4 (e3g) |
+| "A"(a3g) (Tf3e) (Tf3e) (d3c) | "E7"TB3c (dc)(BA) "D"{G}F4 F2E2 \
+| "A"AAA2 (.[A2C2].A2) [A3C3]E Af3 | "E7"ec3 TB3c [A4C4] [A2C2] |]
+V: 2 clef=bass middle=d
+z2 \
+| A4 a4 A4 c2d2 | A4 B2c2 d4 D4 | A4 a4 A4 a4 | A4 a4 A2a2 c'2d'2 |
+| c'2d'2 c'4 a4 d'2c'2 | g2a2 b2c'2 d'4 d4 | A4 a4 A4 c2d2 | e4 E4 A4 a2z2 |]
+[| [A4A16-] c4 d4 c4 | A4 B2c2 d4 D4 | [A4A16-] c4 d4 c4 | A4 a4 g4 e2e'2 |
+| f'2e'2 d'2c'2 d'2c'2 b2a2 | g2a2 b2c'2 d'4 d4 | A4 a4 A4 c2d2 | e4 E4 A4 a2 |]
+S:https://www.folktunefinder.com/tunes/175966
+S:http://trillian.mit.edu/~jc/music/abc/Scotland/strathspey/MissAdmiralGordonsStr1_A.abc
+% Rhythm Strathspey
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

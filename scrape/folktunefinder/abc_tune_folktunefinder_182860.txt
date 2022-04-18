@@ -1,0 +1,28 @@
+X:1
+T:Pleasant and Delightful
+M:4/4
+L:1/8
+K:C
+ z4 E3/2 F/2| G2 c2 Bd| c2 G2E-F| G2 c2 B2| c4 cd| e2 c2f-f| e2 d2 cc|\
+ c2 B2 A2| G4 cd| e2 c2f-f|e-d c2 gf|e-d c2 e2| d4 ef| g3 fe d| cA f2 gf|\
+ ed c2 B2| c4 cB| A2 F2 dc|
+M:4/4
+ BA G4 cd| e3 gf e
+M:4/4
+| ed d4 ef|
+M:3/4
+ g3 fe d|
+M:4/4
+ cA f4 gf|e d c2 B2 c4|||
+S:https://www.folktunefinder.com/tunes/182860
+S:http://back.numachi.com:8000/dtrad/abc/PLESDELT.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/PLESDELT.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/4
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

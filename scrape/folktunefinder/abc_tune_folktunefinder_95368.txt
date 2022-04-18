@@ -1,0 +1,26 @@
+X:310
+T:Mary & Donald
+B:Aird's Airs and Melodies vol 3
+M:C|
+R:Strathspey
+Z:Richard Robinson 
+%RRN:A Strathspey
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/000001ce.html
+%%ID:000001ce
+K:D dorian
+e|\
+c/c/c c>A G>Ac>E| G>B (cd/e/) f>(de>d)|\
+c/c/c c>A (G>Ac)>.e| G>Ac>d e<d d::
+e|\
+d>eg>a g<ee>c| d>eg>a e/e/e d>c|\
+d>eg>a g>ed>e| c>ed>f e<d d|]
+S:https://www.folktunefinder.com/tunes/95368
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Aird3/Aird3.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

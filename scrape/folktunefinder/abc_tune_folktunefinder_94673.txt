@@ -1,0 +1,32 @@
+X:076
+U: ~ = !turn!
+%%topmargin 3cm
+T:Galtee Mountains
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Paddy Cronin
+R:Reel
+L:1/8
+M:C|
+K:D
+dB |: AF{/G}FE EJFDE | F2 {/G}FE FAdB | AF{/G}FE EJFDE | FB ~B2 FEEF |
+AF{/G}FE EFDE | F2 {/G}FE FAdB | AF{/G}FE EFDE | ((3FED) EG FD D2 ::
+A3 B AF ~F2 | ABde {/g}feeg | fded Bd ~d2 | ABde fddB |
+A3 B AF ~F2 | ABde {/g}feeg | fded Bd ~d2 | ABde fd ~d2 :|]
+S:https://www.folktunefinder.com/tunes/94673
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Galtee_Mountains_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Galtee_Mountains_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Galtee_Mountains_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Galtee_Mountains_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords No chords

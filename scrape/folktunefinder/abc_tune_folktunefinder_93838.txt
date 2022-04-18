@@ -1,0 +1,32 @@
+X:850
+T: Moneen
+S: B.Breathnach: "Ceol Rince na hEireann" II/187 (gan ainm)
+Z: B.Black
+L: 1/8
+M: 4/4
+R: reel
+K: G
+(3BcB Ac BG G2|BGdG BGDG|B2 Ac BGAG|(3Bcd ef gfed|
+(3BcB Ac BG (3BAG|BGDG BG Gz|(3BcB Ac BG G2|(3Bcd ef g2 ||
+fg|a2 za a2 ag|fgab (3c'ba (3bag|a2 za a2 ag|fd (3Bcd g2 fg|
+a2 za a2 ag|fgab c'2 bc'|d'2 (3c'ba bgag|g2 af gfed ||
+W:
+P: same tune, lower key
+K: D
+(3FGF EG FD D2|FDAD FDA,D|F2 EG FDED|(3FGA Bc dcBA|
+(3FGF EG FD (3FED|FDA,D FD Dz|(3FGF EG FD D2|(3FGA Bc d2 ||
+cd|e2 ze e2 ed|cdef (3gfe (3fed|e2 ze e2 ed|cA (3FGA d2 cd|
+e2 ze e2 ed|cdef g2 fg|a2 (3gfe fded|d2 ec dcBA ||
+S:https://www.folktunefinder.com/tunes/93838
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

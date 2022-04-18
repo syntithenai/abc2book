@@ -1,0 +1,26 @@
+X:96
+T:The Londonderry Hornpipe      Allan's    #96  pp24
+C:Trad/Anon
+B:Allan's Irish Fiddler (pub. Mozart Allen,  Glascow) date unknown
+Z:FROM ALLAN'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE
+BRENNAN Dec. 2002 (HTTP://WWW.SOSYOURMOM.COM)
+I:abc2nwc
+M:4/4
+L:1/8
+K:D
+(A3/2G/2)|F2A3/2d/2 f3/2d/2A3/2F/2|G2B3/2d/2 g3/2d/2B3/2G/2|F2A3/2d/2 f3/2d/2A3/2F/2|E2A3/2c/2 e3/2c/2A3/2G/2|
+F2A3/2d/2 f3/2d/2A3/2F/2|G2B3/2d/2 g3/2b/2a3/2g/2|f3/2a/2f3/2d/2 B3/2g/2e3/2c/2|d2f2d2:|
+|:f3/2g/2|a2f3/2d/2 A3/2d/2f3/2a/2|g2e3/2c/2 A3/2d/2f3/2g/2|a2f3/2d/2 A3/2d/2g3/2f/2| (3(efe)  (3(dcB) A2f3/2g/2|
+a2f3/2d/2 A3/2d/2f3/2a/2|g3/2f/2e3/2f/2 g3/2b/2a3/2g/2| (3(fgf) d3/2f/2  (3(efe) c3/2e/2|d3/2f/2e3/2c/2 d2:|
+|:(f3/2g/2)|a3/2^g/2a3/2b/2 a3/2f/2d3/2f/2|g3/2f/2g3/2a/2 g3/2e/2c3/2A/2|a3/2^g/2a3/2b/2 a3/2f/2d3/2f/2| (3(efe)  (3(dcB)A2(f3/2g/2)|
+a3/2^g/2a3/2b/2 a3/2f/2d3/2f/2|g3/2f/2e3/2d/2 c3/2b/2a3/2g/2|f3/2a/2f3/2d/2 e3/2g/2e3/2c/2|d2f2d2:|
+S:https://www.folktunefinder.com/tunes/172750
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Allans/ABCtxt/096-londonderry.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

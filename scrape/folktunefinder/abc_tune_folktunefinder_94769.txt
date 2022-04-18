@@ -1,0 +1,28 @@
+X:173
+U: ~ = !turn!
+%%topmargin 3cm
+T:Reel of Rio
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Reel
+M:C|
+L:1/8
+K:G
+DEGA BABd | eg (3{/a}(gfg) agea | gede gedB | ((3cBA) ((3cBA) GE (3{/F}(EDE) |
+DEGA {Bc}BABd | eg (3{/a}(gfg) agea | gfaf gedB | AGBA G2 z2 ::
+dg (3{/a}(gfg) ag (3{/a}(gfg) | bg (3{/a}(gfg) edBd | eB (3.B.B.B {/c}BABd | gedB AE (3{/G}(EDE)|
+DEGA {Bc}BABd | eg (3.g.g.g agea | gbaf gedB | AGBA G2 z2 :|]
+S:https://www.folktunefinder.com/tunes/94769
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Reel_of_Rio_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Reel_of_Rio_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords No chords

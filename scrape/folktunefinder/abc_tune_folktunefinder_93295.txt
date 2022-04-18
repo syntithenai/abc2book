@@ -1,0 +1,29 @@
+X:160
+T: Paddy Kelly's (B)
+S: M.Mulhaire
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: Dmix
+AD D2 (3DEF GA | cAGE CDEG | AD D2 (3DEF GA |\
+c2 ec dcAG |
+AD D2 (3DEF GA | cAGE CDEG | AD D2 (3DEF GA |\
+cAGE ED D2 :|
+K: D
+fd (3dcd Adfd | e=c (3cBc efge | fd (3dcd Adfd |\
+g2 eg fd d2 |
+fd (3dcd Adfd | e=c (3cBc efge | afge fd (3Bcd |\
+eaag fd d2 :|
+S:https://www.folktunefinder.com/tunes/93295
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/p.abc
+S:http://www2.redhawk.org:8080/irish/zouki/p.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Key D
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

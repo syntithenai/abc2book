@@ -1,0 +1,55 @@
+X:1245
+T:Pr\"aludium
+T:(Prelude) BWV 942
+C:Johann Sebastian Bach
+O:Germany
+Z:Transcribed by Frank Nordberg - http://www.musicaviva.com
+F:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0942/bwv0942.abc
+V:1 Program 1 6 %Harpsichord
+V:2 Program 1 6 bass %Harpsichord
+M:9/8
+L:1/8
+K:Am
+V:1
+aef ade ace|aBc A3/c/B/A/ ^dcB|g^de c'g^f b^fe|a^f^d g^f/e/^d/e/ g=d^c|
+V:2
+A,2zC2zF2z|E2zC2zA,2z|EB,C EA,B, EG,A,|E^F,G, E,3/G,/F,/E,/ ^C^A,=A,|
+%
+V:1
+=f^cd fe/d/^c/d/ e=cB|eBc eAB eGA|e^FG E3/G/^F/E/ ^c_BA|
+V:2
+DE,F, D,3/F,/E,/D,/ =B,_A,G,|C^G,A, B,^F,=G, A,E,F,|G,^D,E,^C2zA,2z|
+%
+V:1
+dE=F D3/F/E/D/ ^GFE|=c^GA dGA eGA|\
+F/=G/F/E/D/E/ F/G/A/B/c/d/ e/^f/^g/a/b/c'/|
+V:2
+=F,^C,D,^G,2zE,2z|A,2zB,2z=C2z|D,3z2zz2z|
+%
+V:1
+de=f e^ga BcA|^Gfe Aed Bdc|cBA fc^G e=G^F|d=FE c^GA ^F^GA|
+V:2
+B,,C,/B,,/A,,/B,,/ C,D,/C,/B,,/C,/ D,E,/D,/C,/D,/|E,3z2zz2z|\
+A,E,F, A,D,E, A,^C,D,|A,B,,C, A,,3/C,/B,,/A,,/ ^D,C,B,,|
+%
+V:1
+^G/e/d/c/B/A/ G/^F/E/D/C/B,/ xx2|x2x/E/ A/c/e/B/c/A/ EA^G|\
+A=G/=F/E/D/ C/B,/A,/^G,/A,/E,/ xx2|]
+V:2
+E,2zz2zA,/^G,/^F,/E,/F,/G,/|A,/ C,/E,/A,/C/z/ z2D,E,2E,,|A,,2zz2zA,,2x|]
+W:
+W:
+W:  From Musica Viva - http://www.musicaviva.com
+W:  the Internet center for free sheet music downloads.
+S:https://www.folktunefinder.com/tunes/183680
+S:http://abc.musicaviva.com/tunes/bach-johann-sebastian/bwv0942/bwv0942.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/bach-johann-sebastian/bwv0942/bwv0942.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/bach-johann-sebastian/bwv0942/bwv0942.abc
+% Link Link to ABC
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode minor
+% Key A
+% Time_signature 9/8
+% Has_accompaniment_chords Has chords

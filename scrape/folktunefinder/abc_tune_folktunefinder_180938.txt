@@ -1,0 +1,19 @@
+X:1
+T:Oyster River
+M:2/4
+L:1/16
+K:D
+ d2| g2b2 ba ga| b2e'2 e'f' g'e'| d'2b2 b2 ga| bc' ba gf ed| g2b2 ba ga|\
+ b2e'2 e'f' g'e'| d'2b2 a2 ga| b2g2 g2| a2| d'3 e'd' c'b a| d'2d'2 e'2 d'e'|\
+ f'2f'2 e'2 d'e'| f'2 f'e' d'c' ba| bc' d'e' d'c' ba| d'2d'2 e'2 d'e'|\
+ f'2f'2 e'2 d'e'| f'2d'2 d'2|
+S:https://www.folktunefinder.com/tunes/180938
+S:http://back.numachi.com:8000/dtrad/abc/OYSTRIVR.FIF.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

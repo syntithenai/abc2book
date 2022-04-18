@@ -1,0 +1,30 @@
+X: 1
+T:My Polly
+M:3/4
+L:1/8
+S:Harry Schaefer (1879-1954)
+R:Waltz
+A:Forbes, New South Wales, Australia
+N:From the Schaefer manuscripts held in the National Library of Australia
+N:A popular tune often used for the first part of the Jolly Miller Waltz
+Z:Transcribed into ABC by John Furlonger
+K:D
+d4 c2|B6|sB4 sA2|F6|A2 F2 D2|A,4 B,2|C6-|C4 z2|
+E4 ^D2|E6|sF4 s^E2|F6|sF4 sd2|c4 B2|A6-|A2 B2 c2|
+d4 c2|B6|sB4 sA2|F6|sF2 E2 sD2|sF2 G2 sA2|B6-|B2 sB2 sc2|
+sd4 sB2|sG4 sE2|A6-|A2 s^G2 sA2| B6|c6|d6|d2 z4|:(3ded|
+c2 z2 g2|g2 z2 (3BcB|A2 z2 f2|f2 z2 (3ABA|G2 z2 e2|e2 z2 (3GAG|F2 B2 F2|
+A2 z2 (3ded|
+c2 z2 f2| f2 z2 (3BcB|A2 z2 f2| f2 z2 f2|ee e2 c2|dd d2 ^G2|A6|1A2 z2:|2
+"        D.C."A2 z4||
+S:https://www.folktunefinder.com/tunes/178101
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/my/My_Polly_1.abc
+% Rhythm Waltz
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

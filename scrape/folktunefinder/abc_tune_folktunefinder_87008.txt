@@ -1,0 +1,38 @@
+X:615
+T: Patrick Keane's (with piano acc.)
+C: BB
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 21 %acc
+V: 2 volume=70 clef=bass m=D program 1 00
+K: G
+[V:1] A|"Em"BGDE "G"G3 A|"Bm7"BdAB "G"GABd|"C"edef "Am7"gage|"G"dedB "D"A2 ^GA|
+[V:2] z|E,2[E2B2G2]G,,2[G2B2D2]|B,,2[F2A2D2]G,,2[G2B2D2]|C,2[E2G2C2]A,,2[G2C2E2]|\
+G,,2[G2B2D2]D,2[A2D2F2]|
+%
+[V:1] "Em"BGDE "G"G3 A|"Bm7"BdAB "G"GFED|"Em"B,EEF GABe|"D"dBAF "G"G3 :|
+[V:2] E,2[E2B2G2]G,,2[G2B2D2]|B,,2[F2A2D2]G,,2[G2B2D2]|E,2[E2B2G2]B,,2[E2G2B2]|\
+D,2[A2D2F2][G,3B,3D3]:|
+%
+[V:1] d|"Em"edBd "C"efge|"Em"edBd "D7"cBAF|"G"G2 Bd gdBd|"C"edeg "D"a2 ^ga|
+[V:2] z|E,2[E2B2G2]C,2[E2G2C2]|E,2[E2B2G2]D,2[A2C2F2]|G,,2[G2B2D2]D,2[G2B2D2]|
+C,2[E2G2C2]D,2[A2D2F2]|
+%
+[V:1] "Em"bg (3gfg "C"efgf|"Em"edBA "G"GABc|"G"Bd (3d^cd "Em"gbge|"D"dBAF "G"G3 :|
+[V:2] E,2[E2B2G2]C,2[E2G2C2]|E,2[E2B2G2]B,,2[G2B2D2]|G,,2[G2B2D2]E,2[E2B2G2]|
+D,2[A2D2F2][G,3B,3D3] :|
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87008
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

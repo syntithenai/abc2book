@@ -1,0 +1,21 @@
+X: 1
+T: Reel Como
+M: 4/4
+L: 1/8
+R: reel
+K: Cmaj
+G,2 C2Cz  |: G2GG  FFDG | E2C2 CG,CE | DB,DD B,DDF | ECDB, C2CE |
+[1 G2GG AGAB | cBAG C2CE ::[2 G2GG AGAB | c2Gc e2ce |
+dBcB ABcA | GFEC G,CCE | G2GG AGAB | cBAG e2ce |
+dBcB ABcA | GFEC G,CCE | G2GG AGAB | cBAG C2CE |
+G2GG FFDG | E2C2 CG,CE | DB,DD B,DDF | ECDB, C2CE |
+G2GG FFDG | E2C2 CG,CE | DB,DD B,DDF | ECDB, C2CE :|
+S:https://www.folktunefinder.com/tunes/185011
+S:http://www.thesession.org/tunes/display/5190
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

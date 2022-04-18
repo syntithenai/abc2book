@@ -1,0 +1,45 @@
+X:19051
+T:Xiraldilla (CT 307)
+R:Xiraldilla
+C:Tradicional
+S:Msica Tradicional Asturiana, (C) Tello & Tito. Asturies, 2001.
+S:http://pagina.de/MusTradAst <telloytito@asturies.org>
+N:Xiraldilla, transcrita en Muriellos, ayuntamiento de Riosa.
+O:Muriellos (Riosa)
+A:Asturies
+Z:Cancioneru de Torner 307
+M:2/4
+L:1/8
+Q:1/4=160
+W:Ai! por entrar,
+W:por entrar y por salir,
+W:ai! por entrar
+W:por entrar en tu jardn.
+W:
+W:Por entrar en tu jardn,
+W:me moj las zapatillas,
+W:por no te pisar las flores
+W:que tienes a las orillas.
+W:
+W:Ai! por entrar,
+W:por entrar y por salir,
+W:ai! por entrar
+W:por entrar en tu jardn.
+K:G
+|c2 BA|B2 AG|AA GF|[1 G4 :|[2 G2 z2|
+|: GA Bc|d3 e|(=f2 d2)|de dc|B3 c|A2 G2 :|
+|c2 BA|B2 AG|AA GF|[1 G4 :|[2 G2 z2||
+S:https://www.folktunefinder.com/tunes/94342
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/x-y-z.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/x-y-z.abc
+% Rhythm Xiraldilla
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

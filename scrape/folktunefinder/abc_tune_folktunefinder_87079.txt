@@ -1,0 +1,38 @@
+X:970
+T: Ballybay Tailor (with piano acc.)
+C: BB
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/4=160
+V: 1 program 1 73
+V: 2 bass volume = 70 program 1 01 m=D
+K: G
+[V:1] D|"G"DGB "D"ABA|"G"GBd "Em"e2f|"G"gfg "C"edc|"G"BdB "D7"cAF|
+[V:2] z|G,,2[GBD]D,2[AFD]|G,,2[GBD]E,2[EGB]|G,,2[GBD]C,2[EGC]|\
+G,,2[GBD]D,2[AFC]|
+%
+[V:1] "G"DGB "D"ABA|"G"GBd "Em"efg|"Am"age "D"dBA|"G"G3 G2 :|
+[V:2] G,,2[GBD]D,2[AFD]|G,,2[GBD]E,2[EGB]|A,,2[ACE]D,2[AFD]|\
+[G,,3D,3B,3]G,,2:|
+%
+[V:1] e|"Em"gfe "D"dfa|"G"gfg "Am"a^ga|"Em"b2g "D"afd|"C"ece "D"dBA|
+[V:2] z|E,2[EGB]D,2[AFD]|G,,2[GBD]A,,2[ACE]|E,2[EGB]D,2[AFD]|\
+C,2[EGC]D,2[AFD]|
+%
+[V:1] "G"DGB "D"ABA|"G"GBd "C"e2f|"G"gdB "D"AFD|"G"G3 G2 :|
+[V:2] G,,2[GBD]D,2[AFD]|G,,2[GBD]E,2[EGB]|G,,2[GBD]D,2[AFD]|\
+[G,,3D,3B,3]G,,2:|
+%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87079
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/bbtunes2.abc
+S:http://www2.redhawk.org:8080/irish/zouki/bbtunes2.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

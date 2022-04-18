@@ -1,0 +1,28 @@
+X: 48
+T: ROY'S WIFE OF ALDIVALLOCH.
+R:strat:hspey
+N:ROY'S WIFE. -- First couple join right hands and balance, [4 bars],
+N:down the centre [4 bars], balance at: the foot [4 bars],
+N:cross 4 hands with second couple, back with left hands [3 bars]
+B:Coles pg 26.7
+Z:John B. Walsh, <walsh:mat:h.ubc.ca> 5/17/02
+M:2/4
+L:1/8
+K:G
+ue|:(dA|B>A (B<"4"e)|(dG|A>G (A<B)|
+(dA|e>a b>a|g>e d>B|A>G (A<B):|
+|:(vde/f/) g>b| (a/g/a/b/) g2|(vde/f/) g>B|A>G (A<B)|
+(de/f/) g>b| (a/g/c'/b/) ua(ug/a/)|b>a g>B|A>G (A<B):|
+S:https://www.folktunefinder.com/tunes/177184
+S:http://trillian.mit.edu/~jc/music/book/ryan-cole/Sets/QR.abc
+% Rhythm Strat:hspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

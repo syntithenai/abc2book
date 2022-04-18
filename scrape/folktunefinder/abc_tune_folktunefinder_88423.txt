@@ -1,0 +1,28 @@
+X:1330
+T:Holeywels Hornpipe
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:4/4
+N:The endings need a bit of changing to make it playable
+N:(I'd want to fiddle with the last few bars of the B part)
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000611.html
+%%ID:00000611
+K:G
+d2(dg) edcB | d2dg edcA | DGBG DGBG | DGBG cBAG | \
+d2dg edcB | d2dg edcB | gfga ecAF | G2GG ::
+d2de dBGB | c2e2 e2AB | c2cd cBAG | cdef g2ga | \
+fdeg fdeg | gfga gfgg | ecAF G2GG | G4 :|
+%%newpage
+%page 109
+S:https://www.folktunefinder.com/tunes/88423
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,33 @@
+X: 2
+T:Stone's Rag
+M:4/4
+L:1/8
+S:Fiddler's Fake Book
+R:Rag
+K:C
+"C" cdeg- g(ag)(e | "C" a)(ge)g- g(ag)e | "F" FGAc- c(dc)A | "D" d(cA)c-
+ c(dc)(A |!
+ "G" B)(dB)G- G^FGA | "G" B(dB)G- G(^F G2) |1 "C" cdeg- g(ag)e | "G" g6
+e2 :||2 g(eg)a- a(g e2) | "C" c6 g2 ||!
+ "A" a(ge)a- a(g e2) | "A" a(ge)a- ag e2) | "D" d(cA)d- d(c A2) | "D" d(
+cA)d- d(c A2) |!
+ "G" B(dB)G- G^F(GA | "G" B)(dB)G- G(^F G2) | "C" cdeg- g(ag)(e | "C" g4
+) "E" ^g4 |!
+ "A" a(ge)a- ag e2 | "A" a(gea- ag e2 | "D" d(cA)d- dc A2 | "D" d(cA)d-
+dc A2 |!
+ "F" c'4 a4 | "C" g(ag)(e "A" e)(dc)(A | "D" G)(Ac)"G"e- e(c d2) | "C" c
+8 ||
+% Output from ABC2Win  Version 2.1 i on 12/16/2004
+S:https://www.folktunefinder.com/tunes/171663
+S:http://internet.cybermesa.com/~keating/music_abc/LEAPSTON.ABC
+% Rhythm Rag
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

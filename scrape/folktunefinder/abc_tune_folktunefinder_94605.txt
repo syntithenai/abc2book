@@ -1,0 +1,33 @@
+X:007
+U: ~ = !turn!
+%%topmargin 3cm
+T:Bantry Bay Hornpipe
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+S:Martin Byrnes
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+M:C|
+L:1/8
+K:G
+GA| BGAG EG ((3DEF) | G2 ((3AGF) GBAG | EGAB cBAG | ((3ABA) GB A2 AB |
+{cd}c3 A {Bc}B3 G | ABAG EGDG | {Bc}B2 BG AGEG | ((3FED) B,D G2 GA |
+BGAG EG ((3DEF) | G2 ((3AGF) GBAG | EGAB cBAG | ((3ABA) GB A2 AB |
+cecA BdBG | ABAG EGDG | {Bc}B2 BG AGEG | ((3FED) B,D G2 AB ||
+|: d2 dB dBGB | ((3efe) df e2 ef | {a}gfed BABd | ((3gag) fa g2 ef |
+ga ((3bag) efed "(A"|{Bc}BAGB AGEG "A)"| {Bc}B2 BG AGEG | ((3FED) B,D G2 :|]
+xxxx xxxx "(A"| {Bc}B2 G2 EGDG "A)"| xxxx xxxx [|] xxxx xxxx [|]
+S:https://www.folktunefinder.com/tunes/94605
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Bantry_Bay_Hornpipe_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Bantry_Bay_Hornpipe_1.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Text Has source text
+% Has_accompaniment_chords Has chords

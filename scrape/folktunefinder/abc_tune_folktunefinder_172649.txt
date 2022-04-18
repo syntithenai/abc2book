@@ -1,0 +1,22 @@
+X:1
+P: Loch Leven Castle
+C: From John Chambers, arr. T. Traub 6-25-03
+R: reel
+M:4/4
+K: Am
+L: 1/8
+|: cB \
+| "Am"A2AB AGEG | "Am"AGAB cBcd | "C"e^fga gede | "G"c2 G2 G2 cB | "Am"A2AB AGEG |"Am" AGAB cBcd | "Am"eaga "Em"gede | "Am"c2 A2 A2 :| 
+eg | "Am"a2 ab ageg | "Am"a^gab "Am"a2=ge | "G"dega gede | "C"c2 G2 G2 eg | "Am"a2 ab ageg | "Am"a^gab a2=ge | "Dm"dega "Em"gede | "Am"c2A2 A2 eg ||
+"Am"a2 ab ageg | "Am"a^gab a=ge^f | "Em"g^fga gede | "C"c2G2 G2cB | "Am"A2AB AGEG | "Am"AGAB cBcd | "Am"eaga "E7"gede | "Am"c2A2 A2 |]
+S:https://www.folktunefinder.com/tunes/172649
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/LochLevenCastleR.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

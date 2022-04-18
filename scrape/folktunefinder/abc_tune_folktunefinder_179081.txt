@@ -1,0 +1,25 @@
+X:171
+%%topmargin 3cm
+U:~=!turn!
+T:North Bridge of Edinburgh
+C:
+O:Scotland
+B:Keith Norman MacDonald : "The Skye collection of the best reels & strathspeys extant" : 1887
+Z:Ralph Palmer
+R:Strathspey
+M:C
+L:1/8
+K:B Aeolian
+B | F>BB>F B/B/B {/c}d2 | {/d}c>BAc e/d/c/B/ Ac | F>BB>F B/B/B {/c}d2 | {/d}c>Bc>^A B2 B, ::
+c | d2 d>f d/d/d f>d | {/d}c>BAe c>Ae>c | {/^c}d2 d>f d/d/d f>d | {/d}c>Bc^A B2 Bc |
+d2 d>f d/d/d fd | {/d}c>BAe cAec | dfdf cAec | d>Bc>^A B2 B, :|
+S:https://www.folktunefinder.com/tunes/179081
+S:http://trillian.mit.edu/~jc/music/book/skye/T/North_Bridge_of_Edinburgh.abc
+S:http://trillian.mit.edu/~jc/music/book/skye/X/0171.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key B
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

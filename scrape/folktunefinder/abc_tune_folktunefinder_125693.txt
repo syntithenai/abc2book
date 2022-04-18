@@ -1,0 +1,25 @@
+X:20
+T:Ingonish Jig
+C:Mike McDougall
+S:Bernie Waugh
+R:Jig
+M:6/8
+L:1/8
+K:E minor
+|:A|\
+"Em"B/B/ee efg|"Bm"fef dBA|"Em"B/B/ee efg|"D"afe d2A|
+"Em"Bee efg|"Bm"f/f/ef dBA|"G"B/^c/dB "D"AFD|"Em"EFE E2:|
+|:B|\
+"Em"BEG BEB|"D"AFD DFA|"C"BEE BEE|"Bm"FDF Ad^c|
+"Am"BEE BEB|"D"AFD DFA|"G"AB^c dAF|"A"EFE E2:|
+S:https://www.folktunefinder.com/tunes/125693
+S:http://math.dartmouth.edu/~doyle/docs/waugh/w3.abc
+S:http://math.dartmouth.edu/%7Edoyle/docs/waugh/w3.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode minor
+% Key E
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords Has chords

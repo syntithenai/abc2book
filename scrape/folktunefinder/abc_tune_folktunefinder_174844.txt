@@ -1,0 +1,23 @@
+X:1
+T:May Irwin's "Frog" Song
+M:2/4
+L:1/8
+K:F
+ c| c2 c3/2 A/2| c c2 A| c c2 A| c2 z A| G2 D2| G3 D| G2 D2| G2 z2|\
+ C2 C2| E2 G2| B B3| A3 _A| A8-| A2 z2| z2A-B| c2 A2| c2 A2| c2 A2|\
+ c2 A3/2 F/2| G/2 G3/2 D2| G2 DD| G2 D2| G2 z2| C2 C2| E2 G2| B B3|\
+ A3 G| F8-| F2 z2| z2||
+M:2/4
+ A/2B/2| cc =Bc| dc _BA| G/2B/2 D3-| D2 zG/2-A/2| BB AB| cB AG| F/2A/2 C3-|\
+ C2 z A/2B/2| cc =Bc| dc BA| G_G =GB| D2 _D2| C3/2 C/2 EG| B/2 B3/2 A3/2 G/2|\
+ F4-| F z z||
+S:https://www.folktunefinder.com/tunes/174844
+S:http://back.numachi.com:8000/dtrad/abc/FROGSONG.abc
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/FROGSONG.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

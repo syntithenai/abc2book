@@ -1,0 +1,28 @@
+X:037
+%%topmargin 3cm
+T:Ulster
+C:Arranged by N. F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:G
+(dc) | BGFG DGBd | cBAG F2Bd | gfed BAGB | c2A2 A2(dc) |
+BGFG DGBd | cBAG E2Ac | Bgfe dcAc | B2G2 G2 ::
+(dc) | BGBd gabg | abc'a gfed | ((3dfg) ((3fga) ((3gab) ((3abc') | bgfg e2(fg)|
+bgfg egBd | FGAB cAGF | [1 GBdB egdc | B2G2 G2 :|] [2 GBdB egfa | b2g2 g2 |]
+S:https://www.folktunefinder.com/tunes/91967
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/Ulster.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

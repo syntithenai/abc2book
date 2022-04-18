@@ -1,0 +1,28 @@
+X:1015
+T:March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001111.html
+%%ID:00001111
+K:D
+A2 | \
+e4 e4 | f>ef>g a2g2 | f2(ed) a2(gf) | e4 z2A2 | \
+d4 e4 | f>ef>g a2g2 | f2d2    e2c2  | d2d>d d2 ::
+fg | \
+a2a2 a2d'c' | b2b2 a3g | g2b2   f2a2  | e2e>e e2fg | \
+a2a2 a2d'c' | b2b2 a3g | f>ga>g fge>f | d2d>d d2 ::
+%%newpage
+%page 83
+S:https://www.folktunefinder.com/tunes/88360
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

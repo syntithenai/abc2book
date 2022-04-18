@@ -1,0 +1,35 @@
+X:1
+T:Nachtanz zu "Grean ist die Hollerstauden"
+A:Neustift bei Schlaining, 1800-1840
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:"Wer tanzt nach meiner Pfeife", Sepp Pichler, Herausgeber Steirisches Volksliedwerk, Graz o.J., 
+S:im buch mit der Angabe: Sammlung K. Horak, 1929, OeVLA Wien, E75
+N:Quelle ist einstimmig
+%%endtext 
+F:http://simonwascher.info/
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/8
+K:G
+Bcded2 | Bcded2 | d2c2c2 | e2d2d2 |
+Bcded2 | Bcded2 | d2c2c2 | B4 :|
+|: d2 |\
+d2B2d2 | d2B2d2 | c2A2c2 | BABcd2 |
+d2B2d2 | d2B2d2 | c2A2c2 | B4 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/178166
+S:http://simonwascher.info/
+S:http://simonwascher.info/TradArchiv_mazurka/hollerstauden.abc
+% Link Link to Webpage
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

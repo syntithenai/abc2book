@@ -1,0 +1,17 @@
+X:1
+T:Peg o' Ramsay
+M:2/4
+L:1/8
+K:D
+ AB =cA|B-G GB| AD DE| F2 G2| AB =cA|B-G GB|A-D DE| F2- G2|F-D DF|\
+ EA, A,C| D2 DE| F2 G2|F-D DF| EA, A,C| DD DE| F2 GG| FD DF| EA, A,C|\
+ DD DE| F2- G2| FD DF|E-A, A,C| DD DE| F2 GG| FD DF| EA, A,C| DD DE|\
+ F2- G2| FD DF|E-A, A,C| DD DE| F2- G2|
+S:https://www.folktunefinder.com/tunes/182034
+S:http://back.numachi.com:8000/dtrad/abc/PEGRAMSY.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

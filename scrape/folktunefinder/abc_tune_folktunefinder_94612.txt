@@ -1,0 +1,27 @@
+X:014
+U: ~ = !turn!
+%%topmargin 3cm
+T:The Border Collie
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+C:Randy Miller
+R:Reel
+L:1/8
+M:C|
+K:A
+A "(A"| BF (3.F.F.F BFcF | BF (3.F.F.F AdcA "A)"| BF (3.F.F.F BFBc | dfbf afec :|
+A2 ((3cBA) eA ((3cBA) | EABF AFEF | A2 ((3cBA) eA ((3cBA) | fdfb afec |
+A2 ((3cBA) eA ((3cBA) | EFAc BABc | dcde fdfb | afec Bcdc |]
+x4 x4 "(A"|| BF (3.F.F.F DF (3.F.F.F | CF (3.F.F.F Bcdc "A)"|| x8 x8 [|] x8 x8 [|] x8 x8 [|]
+S:https://www.folktunefinder.com/tunes/94612
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Border_Collie_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Border_Collie_1.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

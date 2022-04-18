@@ -1,0 +1,24 @@
+X:5
+T: Maam Cross
+C: BB
+R: jig
+Q: 1/8=320
+M: 6/8
+L: 1/8
+K: Am
+E| "Am"ABc AGE | "Dm"FAd "E"B^GE | "Dm"FED "E"^GBd | "Am"cBA "E"B2 e |
+"Am"a^ga "Dm"fed |"G7"Bdf "Am"ecA |"E"B^GB "Dm"AFD | "E"E^GB "Am"A2 :|
+[K:A] e | "A"aga "D"fdf | "A"ece "Bm"dcB |"A"Ace aga | "Bm"fBB "E"B2e |
+"A"a2e "D"f2d | "A"ecA "Bm"dcB | "D"AFD "A"Edc |"E"BAG "A"A2 :|
+S:https://www.folktunefinder.com/tunes/93669
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords Has chords

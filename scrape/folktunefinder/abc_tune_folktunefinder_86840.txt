@@ -1,0 +1,27 @@
+X: 136
+T: Sweet Skies of Louth 
+N: 191995
+C: BB
+N: First tune of "Sandy's Jig Set"
+L: 1/8
+M: 6/8
+R: jig
+Q: 1/8=340
+K: D
+D|"D"DFE DFA | "F#m"AFA "Bm"B3 | "D"d2f "A"edc | "G"B2d "A"AFE |
+"D"DFE DFA | "F#m"AFA "Bm"Bcd | "Em"efd "A"BAc | "D"d3 d2 :|
+e|"D"a2f "G"g2e |"D"def "Bm"dcB | "D"AFA "Bm"Bcd | "Em"ede "D"f2g |
+"D"agf "G"gfe | "D"def "Bm"dcB | "D"AFA "Bm"dcB |"A"AFE "D"D2 :|
+%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/86840
+S:http://www.qmcorp.net/webabc/collections/bb_bigfile.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

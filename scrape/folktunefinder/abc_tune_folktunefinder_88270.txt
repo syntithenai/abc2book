@@ -1,0 +1,28 @@
+X:565
+T:St. Patrick's day in the Morning
+T:Barbary Bells
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:See other version X:105
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000edd.html
+%%ID:00000edd
+K:C
+GAG GAB | ded dBG | BAB BGE | EFE E2D | \
+GAG GAB | ded dBG | BAB BGE | E3 G3 ::
+def g2e | f2d e2c | def g2e | f2d e3 | \
+def g2e | efg def | g2e f2d | e6 |
+dBG GAB | ded dBG | BAB BGE | EFE E2D |\
+GAG GAB | ded dBG | BAB BGE | E3 G3 |]
+S:https://www.folktunefinder.com/tunes/88270
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

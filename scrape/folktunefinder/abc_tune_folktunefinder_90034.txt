@@ -1,0 +1,22 @@
+X:47
+T:Kingdom Coming
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+F/E/|DF FA|Af Lf/e/d/B/|Ad dF|E2-E (F/E/)|DF FA|
+Af Lf/e/d/B/|Ad e>d|d2-d||A|B>B Bd|A>B A/G/F/G/|AF dF|
+E2-E F/E/|DF FA|Af Lf/e/d/B/|Ad e>d|d2-d|:!ff!A|B>c d>c|
+d2-d B|A>B A>F|A2-A A|LDF/F/ LFA/A/|LALf Lf/e/d/B/|Ad Le>d|d2-d:|
+S:https://www.folktunefinder.com/tunes/90034
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

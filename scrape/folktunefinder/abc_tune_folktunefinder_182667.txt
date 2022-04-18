@@ -1,0 +1,32 @@
+X: 1
+T: Plains Of Kildare
+M: 6/8
+L: 1/8
+R: jig
+K: Edor
+A,|[M:15/8] B,CD EFG ABd D2 E2zA,| B,CD EFG ABd D2 E2zA,|
+[M:14/8] B,CD EFG ABd E2 E3|[M:6/8]AE D2 D2|[M:6/8] G2E FED|
+E2E EFG|FE2 E2A|ABA GFE|D2E E2D|
+E2E EFG|FE2 E2G|BdB AGF|GFE FED|
+E2E EFG|F2E E2A|[M:9/8] BAG ABd e2e|
+[M:6/8]fee e2d|BAB d3|D2E F2E|[M:3/8]FED|
+[M:15/8] B,CD EFG ABd D2 E2zA,|B,CD EFG ABd D2 E2zA,|[M:13/8]B,CD EFG ABd E2 E2|[M:7/8]DCD2 D2-D|
+[M:11/8]GFE FED E2 E2-E|
+S:https://www.folktunefinder.com/tunes/182667
+S:http://www.thesession.org/tunes/display/4600
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 13/8
+% Time_signature 15/8
+% Time_signature 6/8
+% Time_signature 11/8
+% Time_signature 7/8
+% Time_signature 3/8
+% Time_signature 9/8
+% Time_signature 14/8
+% Has_accompaniment_chords No chords

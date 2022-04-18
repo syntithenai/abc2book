@@ -1,0 +1,53 @@
+X: 9139
+T: Lady and the Piper (with piano acc.)
+C: BB
+L: 1/8
+M: 4/4
+Q: 1/8=350
+R: reel
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 00
+K: D
+[V:1] "D" A2 FA DAFA|"G"GB (3BAB "A"ABce|"D"df (3fef "Em" efge|"G"dedc "A"A2 GE|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]E,2[E2B2G2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|
+%
+[V:1] "D" D2 FA D2 FA |"G"GB (3BAB "A"ABcA|"G"dB"A"cA "Bm7"BAFB|"A7"AGEF "D"D4 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[A,2E2C,2]B,,2[F2D2A2]|\
+A,,2[G2C2E2][D,4A,4F4]:|
+%
+[V:1] "D" Ad (3dcd "G"Bg (3gfg|"D"afdf "A7"gece|"D"Ad (3dcd "G"BGGB|"Bm7"ABAF "A"E2 EG|
+[V:2] D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[G2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+B,,2[F2D2A2]A,,2[G2C2E2]|
+%
+[V:1] "D" FAdA "G"Bdgb|"D"afdf "A7"gecA|"Bm7"FABc dBFB|"A7"AGEF "D"D4 :|
+[V:2] D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[G2C2E2]|B,,2[F2D2A2]F,,2[F2D2B2]|\
+A,,2[G2C2E2][D,4A,4F4]:|
+%%%%%%%%%%%tune repeat
+[V:1] "D" A2 FA DAFA|"G"GB (3BAB "A"ABce|"D"df (3fef "Em" efge|"G"dedc "A"A2 GE|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|D,2[A2D2F2]E,2[E2B2G2]|\
+G,,2[G2B2D2]A,,2[A2C2E2]|
+%
+[V:1] "D" D2 FA D2 FA |"G"GB (3BAB "A"ABcA|"G"dB"A"cA "Bm7"BAFB|"A7"AGEF "D"D4 :|
+[V:2] D,2[A2D2F2]A,,2[A2D2F2]|G,,2[G2B2D2]A,,2[A2C2E2]|G,,2[A,2E2C,2]B,,2[F2D2A2]|\
+A,,2[G2C2E2][D,4A,4F4]:|
+%
+[V:1] "D" Ad (3dcd "G"Bg (3gfg|"D"afdf "A7"gece|"D"Ad (3dcd "G"BGGB|"Bm7"ABAF "A"E2 EG|
+[V:2] D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[G2C2E2]|D,2[A2D2F2]G,,2[G2B2D2]|\
+B,,2[F2D2A2]A,,2[G2C2E2]|
+%
+[V:1] "D" FAdA "G"Bdgb|"D"afdf "A7"gecA|"Bm7"FABc dBFB|1 "A7"AGEF "D"D4 :|2\
+"A7"AGEF "D"D4-|D4 z4||
+[V:2] D,2[A2D2F2]G,,2[G2B2D2]|D,2[A2D2F2]A,,2[G2C2E2]|B,,2[F2D2A2]F,,2[F2D2B2]|1\
+A,,2[G2C2E2][D,4A,4F4]:|2 A,,2[G2C2E2][D,4-A,4-F4-]|[D,4A,4F4] z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87224
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

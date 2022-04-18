@@ -1,0 +1,26 @@
+X:0140
+T:"Margaret Lavin"        (air)          0140
+C:Unattributed
+C:moderate
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Q:1/4=90
+I:abc2nwc
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+M:3/4
+L:1/8
+K:G
+"_vb"(G7/4E/4)|D zD2(D/2E/2G)|A z"^>"A2(G/2A/2B)|c2B2({AB}A7/4G/4)|E4({A}G7/4E/4)|
+D z"^>"D2(D/2E/2G)|A2B2(A7/4G/4)|(E2D2).D2|D4||
+(G/2A/2B)|c z"^>"c2({c}B3/2A/2)|B z"^>"B2({B}A3/2G/2)|c2B2({B}A3/2G/2)|"^>"E4(G/2A/2B)|
+c zc2({c}B3/2A/2)|(G3/2B/2) d2(B3/2A/2)|(G3/2E/2) (C3/2D/2) (E3/2C/2)|D2-D z|]
+S:https://www.folktunefinder.com/tunes/174315
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/ABC-101-200/140-MargaretLavin.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0101-200/140-MargaretLavin.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:1 % 4
+T:Pflindsberger
+C:traditionell
+R:Jodler
+B:"Pfeiermusik aus dem Salzkammergut", zus. A.Ruttner durch V.Derschmidt revidierte Ausgabe, Verlag E. Friedhuber, Wels, 2000
+Z:abc transcripton Simon Wascher
+M:3/4
+L:1/8
+K:G 
+V:1
+(GD)G3G | (F2d2)c2 | (FD)F3F | G2d2B2 |: (GD)G3G |\
+(F2d2)c2 | (FD)F3F |1 G2d2B2 :|\
+                   [2 G4z2 |]
+V:2
+z6 | z6 | (cF)c3c | (B2g2)d2 |: (BG)B3B |\
+(A2f2)e2 | (cF)c3c |1 (B2g2)d2 :|\
+                   [2 B4z2 |]
+V:3
+z6 | z6 | z6 | z6 |: (dB)d2ed |\
+d2(c'a)f2 | (dc)d2ed |1 d2(ba)g2 :|\
+                   [2 g4z2 |]
+S:https://www.folktunefinder.com/tunes/182281
+S:http://simonwascher.info/TradArchiv_iodler/pflindsberger.abc
+% Rhythm Jodler
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords Has chords

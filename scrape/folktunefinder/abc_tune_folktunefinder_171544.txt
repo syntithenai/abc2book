@@ -1,0 +1,25 @@
+X:2
+T:Piglet's Blanket Harmony
+C:copyright 1998 Jim Thompson 
+N:Flute part for Kaubells' tune "Piglet's Blanket"
+R:Reel
+E:16
+M:4/4
+K:A
+|:e2e'2c'2a2|fgfg f4|gaga g4|a4c'4|
+|e2e'2c'2a2|fgfg f4|gfga g2b2|1 e8:|2 e'8||
+E:28
+|:E4A4|B4e4|E4A4|B4e4|
+|E4A4|B4e4|f2^d2B2d2|B8:|
+T:Last time
+|E4A4|B4e4|f2^d2B2d2|c8|]
+S:https://www.folktunefinder.com/tunes/171544
+S:http://www.cs.utexas.edu/~kaufmann/kaubells/notation/harmonies/twirling-harmony.abc
+% Rhythm Reel
+% Transcriptions Only 1 transcription
+% Movement Never repeats a note
+% Mode major
+% Key A
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

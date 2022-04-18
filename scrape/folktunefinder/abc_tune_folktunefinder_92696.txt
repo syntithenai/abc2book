@@ -1,0 +1,16 @@
+X:1
+T:Aiken Drum
+M:2/4
+L:1/8
+K:C
+ z2 G2| E3/2 E/2 EC| F3/2 F/2 FC| E3/2 E/2 EC| D3/2 D/2 DF| E/2 E3/2 EC|\
+ F3/2 F/2 F F/2F/2| EE DD| C2 GG| EE EC| F2 FC| E2 EC| D2 DF| E3/2 E/2 EC|\
+ F2 F F/2F/2| EE DD| C2 z2|
+S:https://www.folktunefinder.com/tunes/92696
+S:http://sniff.numachi.com/~rickheit/dtrad/abc/AIKDRUM.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,26 @@
+X:0207
+T:"Peggy Bawn"                 (air)                0207
+C:Unattributed
+C:slowly
+B:O'Neill's Music Of Ireland (The 1850)   Lyon & Healy, Chicago   1903 ed.
+Z:FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=70
+I:abc2nwc
+M:3/4
+L:1/8
+K:D
+"_VB"A2|d2(fd) (ec)|d3/2B/2 AG FE|D2FA Bc|d4A2|
+d2fd ec|d3/2B/2 G2FE|D3/2E/2 FA Bc|d4||
+d3/2e/2|f2f2ge|fd B2c3/2d/2|eB gf ed|d2c2(AB/2c/2)|
+d2fd ec|d3/2B/2 (AG FE)| HD2FA Bc|Hd4|]
+S:https://www.folktunefinder.com/tunes/182010
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/Abc0201-0300/0207-PeggyBawn.abc
+S:http://www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0207-PeggyBawn.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

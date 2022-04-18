@@ -1,0 +1,39 @@
+X:660
+T:New sheep () Quick March
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:6/8
+N:hard to read. I don't believe this, but can't see what else it might be.
+O:England
+U:W=!wedge!
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00000efc.html
+%%ID:00000efc
+K:F
+cd/e/ |\
+f2c cAc | f2g a2b | c'2a fga | b2g g2a | \
+f2c cAc | f2g a2b | c'2a gfg | a2f f2 ::
+c |\
+f2f {f}ede | fcA FAc | f2f {f}ede | f2a f2c |\
+f2f {f}ede | fcA FAc | f2f {f}ede | f3 f2 ::
+c |\
+d2d fed | d2c c2A | G2A BAG | A2B c2c |\
+d2d fed | d2c c2B | A2A GFG | F3 F2 ::
+c |\
+Wf2z Wf2z | g3- g2g | e2e {f}ede | f2g a2c |\
+Wf2z Wf2z | g3- g2g | e2e {f}ede | f3- f2c |
+Wf2z Wf2z | g3- g2g | e2e {f}ede | f2g a2c |\
+Wf2z Wf2z | g3- g2g | e2e {f}ede | f3 f3 |]
+%%newpage
+%page 44
+S:https://www.folktunefinder.com/tunes/88289
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key F
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords No chords

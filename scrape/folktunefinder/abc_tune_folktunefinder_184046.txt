@@ -1,0 +1,46 @@
+X:1
+T:Promoroaca
+C:Trad.
+O:Romania
+S:Susan Worland, 1987
+Z:http://swiss.csail.mit.edu/~jaffer/Music
+P:B(AB)
+Q:1/8=145
+M:2/4
+L:1/8
+K:Am
+%%MIDI channel 1
+%%MIDI program 1 15
+%%MIDI beat 120 110 95 1
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
+%%MIDI bassvol 50
+%%MIDI gchord fcfc
+P:A
+|: "Am"ae ae |"D"ae a2 | "G"gd de |"C"dc c2 :|
+P:B
+%%MIDI program 1 15
+ "E"B/c/d dd |"Am"e>d c/B/A | "Dm"A/>f/e/d/ "E"c/>B/c/d/ |"Am"e>d c/B/A |
+ "E"B/c/d dd |"Am"e>d c/B/A | "Dm"c/>B/d/B/ "E"c/>A/B/^G/ |"Am"A4 ||
+W:
+W:
+W:Arrangement Copyright (C) 1999 Voluntocracy.
+W:
+W:Permission is granted to copy and distribute modified or unmodified versions of this music
+W:provided the copyright notice and this permission notice are preserved on all copies and the
+W:entire such work is distributed under the terms of a permission notice identical to this one.
+S:https://www.folktunefinder.com/tunes/184046
+S:http://groups.csail.mit.edu/mac/users/jaffer/Music/Promoroaca.abc
+S:http://people.csail.mit.edu/jaffer/Music/Promoroaca.abc
+S:http://voluntocracy.org/Music/Promoroaca.abc
+S:http://www.voluntocracy.org/Music/Promoroaca.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key A
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords Has chords

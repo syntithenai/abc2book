@@ -1,0 +1,25 @@
+X: 1
+T: Polska efter Erlandsson
+B: http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=Up4&bildnr=00012
+S: efter Carl Herman Erlandsson
+N: i uppteckningen str: Erlandsson har lrt sig lten av en spelman vid namn Bjrk frn Vattholma. 
+O: Uppland
+R: Polska
+M: 3/4
+K: Dm
+L: 1/16
+A2=B^c |: d2[D2A,2] [D2A,2][D2A,2] [A,2D2] fg | f2e2 A2A2 A4 | fefg a2f2 e2d2 | d2^cd e2c2 A2=B^c |
+|1 (^cd)ec d4 A2=B^c :|2 (^cd)ec d6fg |: a4 ((3f2g2a2) ((3f2g2a2) |
+ g2>e2 (ce)ge ceg2 | (fe)fg a2f2 e2d2 |1 d2^cd e2c2 A4 :|2 (^cd)ec d6 |]
+S:https://www.folktunefinder.com/tunes/183283
+S:http://www.folkwiki.se/pub/cache/_Polska_efter_Erlandsson_901142.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,25 @@
+X: 1
+T: Lord Seaforth
+S: Claire Mann "Claire Mann"
+Z: Hiroyuki Yamada
+R: strathspey
+M: 4/4
+L: 1/8
+Z: Contributed 20040611225808 by Hiroyuki Yamada slainte_mha@infoseek.jp
+K: Gmaj
+F|GE G>AB>d|c>AB<G E3A|GE G>AB>e|d>BA<B G3:|
+g|(3efg d>g B>gd>B|c>AB<G E3g|(3efg d>g B>gd>B|c>Ad<B G3g|
+(3efg d>b c>aB>g|c>AB<G E3A|GE G>AB>e|d>BA<B G3||
+S:https://www.folktunefinder.com/tunes/173036
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Entry/slainte_mha:infoseek.jp/LordSeaforth.abc
+S:http://trillian.mit.edu/~jc/music/abc/contrib/Tunes/LordSeaforth.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has source text
+% Has_accompaniment_chords No chords

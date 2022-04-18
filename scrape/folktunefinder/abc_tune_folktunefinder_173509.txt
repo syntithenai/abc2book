@@ -1,0 +1,22 @@
+X: 130203
+T: Mac's Fancy
+S: De Danann
+Z: B.Black
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+ADD BAG | ADD EFG | ADD c2 A | GEC CEG |
+ADD BAG | ADD EFG | AdB cBA | GEC CEG :|
+Add ^cdd | Add dAB | c2 c cBA | GEC CEG |
+Add ^cdd | Add dAB | cde dcA | GEC CEG :|
+S:https://www.folktunefinder.com/tunes/173509
+S:http://www.qmcorp.net/webabc/m/130203.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,22 @@
+X:105
+T: Scattery Island
+Z: B.Black
+R: slide
+M: 12/8
+L: 1/8
+K: D
+F2 A dcd F2 A dcd | e2 A cBA e2 A cBA |
+F2 A dcd F2 A dcd | e2 A cBA B2 c d3 :|
+a3 f2 e d2 d def | g2 g fgf e3 efg |
+a3 f2 e d2 d def | e2 A cBA B2 c d3 :|
+S:https://www.folktunefinder.com/tunes/89661
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/s.abc
+S:http://www2.redhawk.org:8080/irish/zouki/s.abc
+% Rhythm Slide
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 12/8
+% Has_accompaniment_chords No chords

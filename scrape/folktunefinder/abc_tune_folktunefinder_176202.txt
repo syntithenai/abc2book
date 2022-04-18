@@ -1,0 +1,24 @@
+X:1
+P:Miss Maxwell
+C:William Shepherd (1760-1812), pub. 1793
+C:from B. Mcowen, from J. Holland
+R:strathspey
+M:4/4
+K:D
+L: 1/8
+|: (3GFE|"D"D3 F A2 Bc|"D"d3 e dcBA| "Em" B2 ef "G"gfed|"A"c3 d e2 (3GFE|"D"D3 F A2Bc|
+"D"dcde "Bm"dcBA|[1 "G"BcdB "A"c<eA>c|"D"d2 D2 D2 (3GFE :| [2 "G"BcdB "A"c<ea>g|"D"f2 d2 d2 (3gfe|
+"D"d2 a2 fgaf |"D"d2 aA GFED|"G"GBeG "D"FAdf|"Em"g2 e2 "A"e2 (3gfe|"D"d2 a2 fgaf |
+"D"d2 a2 "G"bagf|"Em"(3gab ed "A"(3cde (3ABc|"D"d2 D2 D2 (3gfe||"D"d2 a2 fgaf |"D"d2 aA GFED|
+"G"GBeG "D"FAdf|"Em"g2 e2 "A"e2 (3GFE|"D"D3 F "A"A2 Bc|"D"dcde "Bm"dcBA|"G"BcdB "A"c<eA>c|"D"d2 D2 D2|]
+S:https://www.folktunefinder.com/tunes/176202
+S:http://trillian.mit.edu/~jc/music/abc/mirror/tastysoftware.com/abc/MissMaxwellS.abc
+% Rhythm Strathspey
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

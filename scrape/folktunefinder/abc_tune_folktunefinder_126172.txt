@@ -1,0 +1,22 @@
+X:7793
+T:Jackson's Bottle of Brandy
+Z: id:dc-jig-60
+M:6/8
+L:1/8
+K:G Major
+G2e dBG|B3 dBA|G2e dBG|A3 BGE|!
+G2e dBG|B3 def|gfe dBG|A3 BGE:|!
+g3 f3|e3 def|g3 efg|a3 bge|!
+g3 f3|e3 def|gfe dBG|A3 BGE:|!
+S:https://www.folktunefinder.com/tunes/126172
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/i-j.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/i-j.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

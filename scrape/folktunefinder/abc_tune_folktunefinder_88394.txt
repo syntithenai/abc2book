@@ -1,0 +1,28 @@
+X:1185
+T:the Huntsman's Chorus
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:2/4
+O:England
+Z:Richard Robinson 
+%%Dancenotes:Hands across, lead down the middle and swing corners at top
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001164.html
+%%ID:00001164
+K:C
+G | \
+c2  c/d/e/f/ | g2    ee | dg dg | e/f/e/d/ cG | \
+c2  c/d/e/f/ | g2    ee | dg ba | g2 z       ::
+d | \
+e2    ee | c2    cc | f2       ff | d2  dd | \
+ee/e/ ee | cc/c/ cc | ff/f/    fe | d2  zG |
+e2    ee | {g}f2 ee | d2 e/d/c/d/ | (e2 c)G | \
+e2    ee | (gf)  ed | e/d/c/d/ ed | c2 z::
+S:https://www.folktunefinder.com/tunes/88394
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

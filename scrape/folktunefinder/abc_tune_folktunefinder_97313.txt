@@ -1,0 +1,29 @@
+X: 32
+%%staffwidth     14.50cm
+T: My Little Girl
+I: My Little GirlS-MGsquare
+C: S-M
+M: C|
+Z: Transcribed to abc by Mary Lou Knack
+R: square
+K: G
+B,C^C| "G"D4- DDEF| A2G4FG| A2G2 D2E2| "D7"F4 zA,A,B,|
+       "D7"C4- CDEF| B2A4^GA| B2A2 F2 E2| "G"D4 zB,C^C|
+       "G"D4- DDEF| A2G4FG| "G7"A2G2 B2A2| "C"E4 zE^DE|
+       "E75"c4- cB^GE| "A7"B2A4^GA| "D7"B2A2 F2D2| "G"G4 z|]
+%%text 9/1/98.  Formerly W-16
+%%newpage
+% ---------- N ----------
+S:https://www.folktunefinder.com/tunes/97313
+S:http://roaringjelly.org/music/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/music/abc/Contra/RJ/sets/RJ_Squares.abc
+S:http://trillian.mit.edu/~jc/org/RJ/music/sets/RJ_Squares.abc
+% Rhythm Square
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/2
+% Has_accompaniment_chords Has chords

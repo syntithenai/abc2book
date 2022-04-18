@@ -1,0 +1,21 @@
+X: 1
+N: Lamb Skinnet Jig
+N: 8x32J 3C (RSCDS Bk 14)
+P: Lamb Skinnet
+R: Jig
+C: arr. Terry Traub 4-17-03, from B. McOwen
+M: 6/8
+K: A
+L: 1/8
+|: e|"A" Ace ecA|"D"d2 f f2 a|"A"Ace ecA|"E"G2 B B2 c|"A" Ace ecA|"D"d2 f f2 a|"E"gfe "B7"fe^d|"E"e3 E2 :|
+|: g|"A"aec aec|"D"d2 f f2 a|"A"ecA ecA|"E"G2 B Bcd|"A"ecA ecA|"D"d2 f fga|"A"ecA "E"eBG|"A"A3 A2 :|
+S:https://www.folktunefinder.com/tunes/171102
+S:http://terrytraub.org/abc/LambSkinnetJ.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key A
+% Time_signature 6/8
+% Text Has notes text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,28 @@
+X: 1
+T:Mr Isaac's Maggot
+M:3/2
+L:1/4
+Q:200
+B:The Round Band Book of Playford
+K:C
+"C"g2 e2 "Dm"d2 | "C"c/2d/2e "Dm"dc "G"dG | \
+"C"G c2B "F"A2 | "Dm"A d2A "G"BG | \
+"C"g2 e2 "G"d2 | "Am7"c/2d/2e "Dm"dc "G"dG | \
+"C"Gc2B "F"Af/2e/2 | "Dm"dc "G7"dB "C"c2 || \
+"C"EG2 "G7"A "C"G2 | "C"EG2 "F"A/2B/2 "C"cG | \
+"Am"EG2 "G7"A "C"G2 | "Am"EG2 A/2B/2 "C"c "G"G | \
+L:1/8
+"C"g3f/2g/2 "F"a3g/2f/2 "C"g3f/2g/2 | "Am"agfe "Dm7"fedc "G"d2G2 |
+"C"g3f/2g/2 "Am"a3g/2f/2 "Em"g3f/2g/2 | "F"agfe "G7"defg "C"e2c2 | \
+"Am"e4 "F"f3e/2f/2 "C"g4 | "Am"cde2 "Dm"d2c2 "G7" d2G2 | \
+"C"e4 "G7"f3e/2f/2 "C"g4 | "C"G2c2 "Dm7"cde2 "G"d2"(C)"c2 ||
+S:https://www.folktunefinder.com/tunes/177364
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/mr/Mr_Isaacs_Maggot_1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 3/2
+% Has_accompaniment_chords Has chords

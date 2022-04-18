@@ -1,0 +1,30 @@
+X:1
+T:Pas de sept : P'tit bonhomme
+E:12
+Z:Roger Ngaret (94-95)
+R:scottish
+C:Trad.
+S:
+A:Bretagne
+M:4/4
+L:1/16
+K:C
+Q:1/4=180
+"C"G4 A4 G4 A4 | G4 c2d2 e4 c4 | G4 A4 G4 A4 | G4 e2d2 c8 ::\
+e2d2 e2f2 e4 d4 | "G"d2c2 d2e2 d4 c4 | \
+"C"G2G2 A2B2 c2e2 G4 | G2G2 A2B2 c8 :|
+%%rm
+%%rm  D'o viens-tu, viens-tu p'tit bonhomme,
+%%rm  D'o viens-tu, viens-tu p'tit bossu 
+%%rm  Je viens de la noce, j'ai rempli ma bosse,
+%%rm  J'ai tant bu et tant mang qu'ma bosse est perce.
+S:https://www.folktunefinder.com/tunes/181674
+S:http://termen.free.fr/danses/rennais/PasdeseptPtitbonhomme.abc
+% Rhythm Scottish
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 4/4
+% Has_accompaniment_chords Has chords

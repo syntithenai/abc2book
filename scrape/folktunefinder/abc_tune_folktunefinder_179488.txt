@@ -1,0 +1,24 @@
+X: 1
+T: O'Donnell's
+M: 4/4
+L: 1/8
+R: hornpipe
+K: Gmaj
+Bc |: (3dcB ge dBed | BGDG ABAG | FGAB cBcg | 
+(3agf (3gfe dcBc | (3dcB ge dBed | BGDG ABAG |
+FGAB cdef |1 (3gfg ba g2 Bc:|2 (3gfg ba g2 (3def ||
+|: gbag fagf | ef (3gfe fdBd |gbag fagf |
+ ef (3gfe fdBd | c2 Ac B2 GB | AGFA GFEc | 
+DEFG AB (3cBA |1 (3d^cd ba g2 (3def :|2 (3d^cd ba g4 ||
+S:https://www.folktunefinder.com/tunes/179488
+S:http://www.thesession.org/tunes/display/7139
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Movement Never repeats a note
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

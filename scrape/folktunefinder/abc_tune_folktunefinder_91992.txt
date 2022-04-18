@@ -1,0 +1,27 @@
+X:061
+%%topmargin 3cm
+T:High C's
+C:Newton F. Tolman
+B:The Nelson Music Collection
+N:Newton F. Tolman & K. Dep. Gilbert
+Z:Transcribed by Ralph Palmer
+R:Hornpipe
+L:1/16
+M:2/4
+K:C
+G2 | ((3cdc)Bc ecGE | CEGc e2dc | ddfd BBdB | GGBG D2GF |
+EcBc EG^FG | CEGc EGce | g^fag =fedc | BGAB c2 ::
+(cd) | e2g2 c'2a2 | ((3gag) ((3fed) c2de | fdBG ^FGBd | fedc BdG2 |
+EGcG AFAc | BGBd cBAG | defd BGAB | c2c2 c2 :|]
+S:https://www.folktunefinder.com/tunes/91992
+S:http://trillian.mit.edu/~jc/music/book/Nelson/nelson.abc
+S:http://trillian.mit.edu/~jc/music/book/Nelson/High_Cs.abc
+% Rhythm Hornpipe
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key C
+% Time_signature 2/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

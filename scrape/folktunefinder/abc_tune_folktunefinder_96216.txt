@@ -1,0 +1,29 @@
+X: 65
+T:Jigg. TBe.065
+M:9/8
+L:1/8
+Q:100
+S:Thomas Bennet MS,1718, VWML
+R:jigg
+O:England
+H:1718
+Z:vmp.C. Graebe..
+K:C minor
+C2G FGE DEC | AGF EDC =B,2G, | CEG =B,DF CDE | FGA G2G, C3 ||!
+c2g fge dec | agf edc =B2d | ceg =Bdf ceg | (g/f/)(e/d/)c =BGB c3 ||!
+E2G GFE GBE | D2F FED FBF | C2E EDC FGA | GFE B2B,E3 ||!
+e2g gfe g>be | d2f f>ed fad | c2e e>dc fga | gfe dBd e2 g/a/ ||! 
+b2g ece ecA | a2f dBd dBG | g2e cAc cAF | f2e ded/c/ =B2d ||!
+g2z e2z cfg | a2zd2c =B>AG | c>de f>ga gfe | dec =BGB c3 ||
+S:https://www.folktunefinder.com/tunes/96216
+S:http://www.village-music-project.org.uk/abc/bennet.abc
+% Rhythm Jigg
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode minor
+% Key C
+% Time_signature 9/8
+% Text Has source text
+% Text Has history text
+% Has_accompaniment_chords No chords

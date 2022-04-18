@@ -1,0 +1,22 @@
+X: 25
+T:Bruneau's Jig
+M:6/8
+L:1/8
+S:Phillippe Bruneau
+O:Canada
+Z:C.G.P
+K:G
+|:A,|G,B,D GDB,|G,B,D GDB,|G,B,D GFG|AGA BAB|c2e edc|!B2d dcd|fed
+cBA|G3 G2:||:A|B2A B2G|D3 D2C|B,DG BdB|A3 A2B|!c2e edc|1 B2d 
+d^cB|^c2c cBA|d2^c=c2A: |2 B2d dcd|fed cBA|G3G2|]
+% Output from ABC2Win  Version 2.1 h on 26/01/2001
+S:https://www.folktunefinder.com/tunes/97693
+S:http://www.kennaquhair.com/tunes/tradtunes1.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Text Has source text
+% Has_accompaniment_chords No chords

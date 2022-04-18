@@ -1,0 +1,29 @@
+X:8730
+T:Kolomiyka
+S:A. Humenyuk
+Q:140
+O:Ukraine
+M:2/4
+L:1/8
+A:Ukraine
+K:GMin
+P: Vocal Melody
+G A B A | B A B A | G A B A | B G2 z | \
+G A B A | B A B A | B d D D | G G2 z |]
+P: Fiddle Melody
+M: 2/4
+ga {c'}ba | {c'}ba {c'}ba \
+|1 ga {c'}ba | b a2 z \
+:|2 b{^c'}d' dd | {^f}g g2 z |]
+S:https://www.folktunefinder.com/tunes/91789
+S:http://trillian.mit.edu/~jc/music/abc/mirror/www.terra.es/personal8/niltoni/k.abc
+S:http://www.novosaires.com/Partituras%20y%20midis/abc/k.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode minor
+% Key G
+% Time_signature 2/4
+% Text Has source text
+% Has_accompaniment_chords No chords

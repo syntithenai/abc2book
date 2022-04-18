@@ -1,0 +1,27 @@
+X:135
+U: ~ = !turn!
+%%topmargin 3cm
+T:Mug of Brown Ale
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+R:Jig
+L:1/8
+M:6/8
+K:ADor
+eAA fAA | Pgfg age | dBA G2 A | ~B3 dBd |
+eAA fAA | Pgfg age | dBB gBB | [1 {/c}BAG Agf :| [2 {/c}BAG A2 ||
+|: d | efg ~a3 | aba {/b}age | dBd ~g3 | gag {/a}ged |
+efg ~a3 | aba {/b}age | dBB gBB | [1 {/c}BAG A2 :| [2 {/c}BAG Agf |]
+S:https://www.folktunefinder.com/tunes/94731
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Mug_of_Brown_Ale_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Mug_of_Brown_Ale_1.abc
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

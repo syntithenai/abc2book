@@ -1,0 +1,24 @@
+X: 1
+T: Pibroch Of Donald Dhu
+M: 6/8
+L: 1/8
+R: jig
+K: Amaj
+|:ecc fga|ecc cBA|ecc fga|ecA B2A|
+ecc fga|ecc cBA|B2c def|ecA B2A:|
+|:ecc fdd|ecc cBA|ecc fdd|ecA B2A|
+ecc fdd|ecc cBA|B2c def|ecA B2A:|
+|:e2e f2f|e2e cBA|e2e f2f|ecA B2A|
+e2e f2f|e2e cBA|B2c def|ecA B2A:|
+|:a2e a2f|a2e cBA|a2e a2f|ecA B2A|
+a2e a2f|a2e cBA|B2c def|ecA B2A:|
+S:https://www.folktunefinder.com/tunes/182353
+S:http://www.thesession.org/tunes/display/6009
+% Rhythm Jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 6/8
+% Has_accompaniment_chords No chords

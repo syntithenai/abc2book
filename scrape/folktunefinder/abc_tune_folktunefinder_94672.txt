@@ -1,0 +1,29 @@
+X:075
+U: ~ = !turn!
+%%topmargin 3cm
+T:Foxhunter's
+B:Traditional Irish Fiddle Tunes. Randy Miller and Jack Perron.
+Z:Transcribed by Ralph Palmer
+S:Michael Coleman
+R:Slip Jig
+L:1/8
+M:9/8
+K:D
+B3 {/c}B2 A F2 A | B2 E E2 F G2 A | B3 kB2 A F2 A | d2 D D2 F E2 D ::
+f3 ~f3 g2 e | f3 ~f3 e2 d | d2 f ~f3 g2 e | afd d2 f e2 d :|]
+S:https://www.folktunefinder.com/tunes/94672
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/irish_trad_fidd_music.abc
+S:http://trillian.mit.edu/~jc/music/abc/mirror/Perron-Miller/Foxhunters_1.abc
+S:http://trillian.mit.edu/~jc/music/book/Perron-Miller/Foxhunters_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/abc/mirror/Perron-Miller/Foxhunters_1.abc
+S:http://trillian.mit.edu/%7Ejc/music/book/Perron-Miller/Foxhunters_1.abc
+% Rhythm Slip jig
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 9/8
+% Text Has source text
+% Has_accompaniment_chords No chords

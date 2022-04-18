@@ -1,0 +1,30 @@
+X:1
+T:Polska (262)
+R:Polska
+Z:2007-09-05
+O:Vxj, Smland
+S:Magnus Theorin
+B:Smlndsk musiktradition 
+N:Se ocks http://www.smus.se/earkiv/fmk/browselarge.phplang=sw&katalogid=Ma15&bildnr=00004|SMUS
+M:3/4
+L:1/8
+K:D
+B2A2B2|df ed/2c/2 cd|BB AA BB|df ed/2c/2 d2|
+FG/2A/2 BA/2B/2 cB/2c/2|dc/2d/2 ec/2B/2 AF|FG/2A/2 BA/2B/2 cB/2c/2|dc/2d/2 ed/2c/2 AF|
+FG/2A/2 Bc dB|cB/2A/2 B4::[K:A]f2e2f2|ga ba/2g/2 ga|
+ff ee ff|ga ba/2g/2 a2|cd/2e/2 fe/2f/2 gf/2g/2|ag/2a/2 b/2a/2g/2f/2 ec|
+cd/2e/2 fe/2f/2 gf/2g/2|ag/2a/2 b/2a/2g/2f/2 ec|cd/2e/2 fg af|gf/2e/2 f4:|
+S:https://www.folktunefinder.com/tunes/183206
+S:http://www.folkwiki.se/pub/cache/Polska_262_f60124.abc
+% Rhythm Polska
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 3/4
+% Text Has source text
+% Text Has notes text
+% Has_accompaniment_chords No chords

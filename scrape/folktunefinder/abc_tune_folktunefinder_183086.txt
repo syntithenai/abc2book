@@ -1,0 +1,38 @@
+X:1
+T:Polka nr. 43
+C:traditionell
+R:polka
+A:Egerland
+%%textfont Helvetica-Narrow 10pt
+%%begintext align
+B:E.Baumann, Alt-Egerlaender Taenze
+%%endtext
+Z:abc transcription Simon Wascher
+M:2/4
+L:1/8
+K:C
+E/E/ |\
+E/G/G G/c/c | cB/B/ BB | E/F/F F/B/B | AG/G/ GG |
+E/G/G G/e/e | e/d/c/d/ A2 | c/B/A/B/ F2 | A/G/F/G/ E2 |
+E/G/G G/c/c | cB/B/ BB | E/F/F F/B/B | AG/G/ GG |
+E/G/G G/e/e | e/d/c/d/ A2 | c/B/A/G/ F/G/A/B/ | cc c :|
+|: G/G/ |\
+Ge e>d | d/c/B/c/ G2 | A/F/A/c/ c/G/B/d/ | c/B/c/d/ eG/G/ |
+Ge e>d | d/c/B/c/ G2 | A/F/A/c/ B/G/B/d/ | cc c :|
+P:Trio
+|: G |\
+G2 A2 | G3g/g/ | g>e e>c | cB BG |
+G2 A2 | G3g/g/ | g>f f>B | dc cG |
+G2 A2 | G3g/g/ | g>e e>c | cA A2 |
+A2 A/B/c/d/ | e2 d/c/B/A/ | GA/G/ F/G/A/B/ | cc c :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/183086
+S:http://simonwascher.info/TradArchiv_polka/polka_nr._43.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

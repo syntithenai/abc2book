@@ -1,0 +1,54 @@
+X: 9022
+T: Camel's Hump (with piano acc.)
+C: BB
+H: Thanks to Skip Healy for recording this on his "Purgatory Chasm" CD!
+R: reel
+Q: 1/8=350
+M: 4/4
+L: 1/8
+V: 1 program 1 73 %flute
+V: 2 volume=70 clef=bass m=D program 1 01
+K: C
+[V:1] "E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"B,E E2 "E"B,E^GA|"Bb"_BAFD "E"E2 ED|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|E,2[E2B2^G2]_B,,2[_B2=F2D2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+_B,,2[_B2=F2D2]E,2[E2=B2^G2]|
+%
+[V:1] "E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"FE (3EDE ^GE (3EDE|"Bb"_BAFD "E"E4 :|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|E,2[E2B2^G2]_B,,2[_B2=F2D2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+_B,,2[_B2=F2D2][E,4=B,4^G4] :|
+%
+[V:1] "E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"eB (3B^AB ^gB (3BAB|"Am"afef e2 fe|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+A,,2[A2C2E2]E,,2[E2C2A2]|
+%
+[V:1] "E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"B^G G2 "F"AF F2|"Bdim"BA^GF "E"E4 :|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|A,,2[A2C2E2]E,,2[E2C2A2]|E,2[E2B2^G2]F,2[A2C2F2]|\
+B,,2[F2D2^G2][E,4B,4^G4] :|
+%%%%%%%tune repeat
+[V:1] "E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"B,E E2 "E"B,E^GA|"Bb"_BAFD "E"E2 ED|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|E,2[E2B2^G2]_B,,2[_B2=F2D2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+_B,2[_B2=F2D2]E,2[E2=B2^G2]|
+%
+[V:1] "E"B,E E2 "E"B,E^GE|B,E^GA "Bb"_BAFD|"E"FE (3EDE ^GE (3EDE|"Bb"_BAFD "E"E4 :|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|E,2[E2B2^G2]_B,,2[_B2=F2D2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+_B,,2[_B2=F2D2][E,4=B,4^G4] :|
+%
+[V:1] "E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"eB (3B^AB ^gB (3BAB|"Am"afef e2 fe|
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|A,,2[A2C2E2]C,2[E2C2A2]|E,2[E2B2^G2]B,,2[E2^G2B2]|\
+A,,2[A2C2E2]E,,2[E2C2A2]|
+%
+[V:1] "E"eB (3B^AB ^gB (3BAB|"Am"(3c=BA eA fAeA|"E"B^G G2 "F"AF F2|1 "Bdim"BA^GF "E"E4 :|2\
+"Bdim"BA^GF "E"E4-|E4 z4||
+[V:2] E,2[E2B2^G2]B,,2[E2^G2B2]|A,,2[A2C2E2]E,,2[E2C2A2]|E,2[E2B2^G2]F,2[A2C2F2]|1\
+B,,2[F2D2^G2][E,4B,4^G4] :|2 B,2[F2D2^G2][E,4B,4^G4]|E,,4 z4||
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+S:https://www.folktunefinder.com/tunes/87107
+S:http://trillian.mit.edu/~jc/music/abc/by/BillBlack/bigfat3.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 4/4
+% Text Has history text
+% Has_accompaniment_chords Has chords

@@ -1,0 +1,46 @@
+X:1
+T:Marachine : Le cerisier
+E:12
+Z:Roger Ngaret (94-95)
+R:maraichine
+C:Trad.
+S:
+A:Vende
+M:2/4
+L:1/16
+K:C
+Q:1/4=130
+"G"d4 B2d2 | "D"c2B2 A4 | "G"D2D2 G2G2 |1 "D"A2GA B2G2 :|2\
+A2BA G4 |: "G"D2D2 G2G2 | "D"A2GA B2G2 | "G"D2D2 G2G2 | "D"A2BA G4 :|
+%%rm
+%%rm  1. Et derrire chez mon pre
+%%it     N'entends-tu pas dingue ding ma belle
+%%rm     Il y'a t'un cerisier
+%%it     N'entends-tu pas le renard chanter
+%%rm
+%%it     Entends-tu dingue ding ma belle  ]
+%%it     Entends-tu le renard chanter     ] bis
+%%rm
+%%rm  2. Les fleurs en sont si belles
+%%rm     Et le fruit en est doux
+%%rm
+%%rm  3. Que tous les fiancs
+%%rm     Viennent t'y faire l'amour
+%%rm
+%%rm  4. Et quand viendra l't
+%%rm     J'irais m'y marier
+%%rm
+%%rm  5. Avec la plus belle fille
+%%rm     Qui voudra bien m'aimer
+%%rm
+%%rm  6. Et derrire chez mon pre
+%%rm     Il y'a t'un cerisier
+S:https://www.folktunefinder.com/tunes/174212
+S:http://termen.free.fr/danses/autres/MaraichineLecerisier.abc
+% Rhythm Maraichine
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key C
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

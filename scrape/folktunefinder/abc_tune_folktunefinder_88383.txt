@@ -1,0 +1,25 @@
+X:1130
+T:Trip to the Paris
+A:Wyresdale, Lancashire
+B:E and J Winder, 1835-41
+L:1/8
+M:C
+N:"Parish"
+O:England
+Z:Richard Robinson 
+%%TUNEURL: http://www.leeds.ac.uk/music/Info/RRTuneBk/gettune/00001154.html
+%%ID:00001154
+K:G
+G2 (Bd) cAFD | GBdf d2 cB | ceAc BdGB | AcAF G2 G2 ::
+gbeg fadf | egfe d2d2 | ceAc BdGB | AcAF G2 G2 :|
+%%newpage
+%page 94
+S:https://www.folktunefinder.com/tunes/88383
+S:http://www2.redhawk.org:8080/irish/RRTuneBk/Winder_3_EJW/Winder_3_EJW.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

@@ -1,0 +1,30 @@
+X:0631
+T:"O'Carolan's Devotion" 2nd Setting) 0631
+C:Turlough O'Carolan
+C:animated
+N:Transposed from Bb
+B:O'Neill's Music Of Ireland (The 1850) Lyon & Healy, Chicago, 1903 edition
+N:TRANSCRIBED FROM O'NEILL'S TO NOTEWORTHY, FROM NOTEWORTHY TO ABC, MIDI AND .TXT
+N:BY VINCE BRENNAN 6-21-03 (HTTP://WWW.SOSYOURMOM.COM)
+Q:1/4=110
+I:abc2nwc
+M:3/4
+L:1/8
+K:A
+"Piano"(f3/2g/2)| ">"a2(a/4g/4e3/2) (e/4f/4g3/2)|{f} ">"e2(c3/2d/2 ">"e2)|(cBAG) TR(F3/2E/2)|">"E4(F3/2G/2|
+A2A/4B/4c3/2) (c/4B/4A3/2)|">"B2(c^efc)|(.B.A.G.F) (.F3/2.F/2)|">"F4:|
+TR(F3/2E/2)|(C2E2).E2|">"(E3/2F/2) "Piano"(ED) TR(C3/2B,/2)|"Forte"(C2F2) ">"F2|"Piano"(F3/2G/2) (FE) TR(^D3/2C/2)|"Forte"(C2A2).A2|(A3/2B/2)(A3/2G/2F3/2G/2)|(E2e2).e2| ">"e4(f3/2g/2)|
+a2(a3/2g/2f3/2g/2)|(a2c2).c2|(c3/2B/2) (A3/2B/2c3/2^d/2)|"Piano"(e2G2).G2|
+(A3/2G/2) (F3/2G/2A3/2B/2)|c2G2(G3/2F/2)|(FE) TR(^D3/2C/2)(C3/2E/2)|C4(c^d)|
+"Forte"e2(e/4f/4g3/2) (e/4f/4g3/2)|f zf2(ec)|"Piano"(BGAG) TR(F3/2E/2)|E4(F3/2G/2)|
+A2(A/4B/4c3/2) "Forte"(c/4B/4A3/2)|B2(c^e)(f3/2c/2)|(.B.A.G.F) "Piano"(.F3/2.F/2)|F4|]
+S:https://www.folktunefinder.com/tunes/179370
+S:http://trillian.mit.edu/~jc/music/abc/mirror/sosyourmom.com/onoc/ABC/631-OCarolansDevotion-2nd_setting.txt
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Time_signature 3/4
+% Text Has notes text
+% Has_accompaniment_chords No chords

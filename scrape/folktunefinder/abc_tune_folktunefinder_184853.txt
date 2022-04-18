@@ -1,0 +1,29 @@
+X: 1
+T:the Redesdale hornpipe
+T:the Underhand hornpipe
+R:Hornpipe
+O:England
+M:4/4
+C:James Hill
+A:Northumberland
+K:G
+(3def |\
+gd Bd GB (3def| gd Bd G2 AB |\
+cA FA DF Ac | ed ^cd B2 (3def|\
+gd Bd GB (3def |
+gd Bd G2 AB | \
+cA FA DF AB | A2 G2 G2 :: GA |\
+BG FG DG FG | BG FG D2 AB | \
+cA FA DF Ac |
+ed ^cd B2 GA | \
+BG FG DG FG | BG FG D2 AB |\
+cA FA DF AB | A2 G2 G2 :|
+S:https://www.folktunefinder.com/tunes/184853
+S:http://trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/re/Redesdale_hornpipe_1.abc
+% Rhythm Hornpipe
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

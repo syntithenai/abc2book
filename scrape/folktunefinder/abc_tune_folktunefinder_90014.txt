@@ -1,0 +1,35 @@
+X:27
+T:Oswestry Volunteers March
+M:2/4
+L:1/16
+Q:1/4=70
+K:G
+V:1
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:GA|B2B>B B2G2|.G.F.G.A Bcdc|B2B>B B2A2|G2G>G G2gg|(gG)AB cdec|Bdef gf/e/dc|
+BB/c/dB AcBA|{A}G2GG G2::Bc|d2d>d d2(ed)|d2AA A2ag|gfed edef|g2gg g2fe|
+d4 cBcA|B4 AGAF|G>AB>c (de)(cA)|G2G>G G2::!p!Bc|.d.d(dB) .c.c(cA)|B2GG G2gf|
+e2ee egfe|dcBc d2c2|BB/c/dB edcB|AA/B/cA dcBA|GABc decA|G2GG G2:|
+V:2
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+|:D2|G2G>G G2D2|GDEF GABA|G2GG G2D2|G2GG G2BB|B2AG ABcA|B2A2G2F2|
+GG/A/BG FAGF|G2GG G2::^GA|B2^GG B2cB|A2AA A2c>B|BAGF GFED|G2GG G2A2|
+B4 AGAF|d4 cBcA|G>AB>c BcAF|G2GG G2::!p!GA|.B.B(BG) .A.A(AF)|G2GG G2B2|
+c2cc cedc|BAGA B2A2|GG/A/BG cBAG|FF/G/AF BAGF|GFGA BcAF|G2GG G2:|
+S:https://www.folktunefinder.com/tunes/90014
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key G
+% Time_signature 2/4
+% Has_accompaniment_chords Has chords

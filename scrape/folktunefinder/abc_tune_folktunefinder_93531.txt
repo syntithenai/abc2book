@@ -1,0 +1,33 @@
+X:160
+T: Brosna Reel
+C: Eamon Flynn
+Z: B.Black
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+P: First setting
+ED | B,E (3EDE FEDE | (3FGA Bc dBcd | BeeB dBAF |\
+(3GFE FD EDB,A, |
+B,E (3EDE FEDE | (3FGA Bc dBcd | BeeB dBAF |\
+(3GFE FD E2 :|
+FA | Beed edef | gefd edBd | AFAB dcBe | fdef d2 cd |
+Beed edef | gefd edBd | BA (3FGA dBAF | (3GFE FD E2 :|
+W:
+P: Alternate B part
+FA | Be (3eee Bgfe | dAeA dBAd | BA (3FGA dcdf |\
+edBc (3dcd cd |
+Be (3eee Bgfe | dAeA dBAd | BA (3FGA dBAF |\
+(3GFE FD E2 :|
+S:https://www.folktunefinder.com/tunes/93531
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/b.abc
+S:http://www2.redhawk.org:8080/irish/zouki/b.abc
+% Rhythm Reel
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has lots of stepwise movement
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

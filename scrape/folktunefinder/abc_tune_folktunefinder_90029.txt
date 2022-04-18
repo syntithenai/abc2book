@@ -1,0 +1,21 @@
+X:42
+T:Willie Weaver
+M:2/4
+L:1/8
+K:D
+%%MIDI channel 1
+%%MIDI program 72
+%%MIDI transpose 8
+%%MIDI grace 1/8
+%%MIDI ratio 3 1
+A|dd cd|ef d2|a>b ag|fga A/A/|dd cd|ef d2|e>d ce|d2 Ld::
+A/A/|defg|(Laf) d2|e>d ef|gfe A/A/|defg|(Laf)d Ld|Le>d ce|d2 Ld:|
+S:https://www.folktunefinder.com/tunes/90029
+S:http://members.cox.net/chrismyers/CFD_Vol2.abc
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,28 @@
+X:1
+T:Mrs. Elders Welcome
+R:walzer
+Z:abc transcription Simon Wascher
+M:3/4
+L:1/4
+K:G
+D |\
+B2A | G2F | EFG | D2D |\
+B2A | G2F | EFG | A2D |
+B2A | G2F | E>FG | DGF |\
+EAG | FBA | GF/G/B/A/ | G2 :|
+|: D |\
+B/B/BD | B/B/BD | BdB | G2D |\
+A/A/AD | A/A/AD | AGA | BGD |
+B2A | G2F | EFG | D2D |\
+EAG | FBA | GF/G/ B/A/ | G2 :|
+%%wordsfont Times-Italic 11pt
+W:aus Simon Waschers TradArchiv
+S:https://www.folktunefinder.com/tunes/177425
+S:http://simonwascher.info/TradArchiv_walzer/mrs._elders_welcome.abc
+% Rhythm Walzer
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 3/4
+% Has_accompaniment_chords No chords

@@ -1,0 +1,23 @@
+X:1
+T:Limerick's Lamentation
+Q:1/4=95
+I:abc2nwc
+L:1/8
+K:G
+G3A B2[D4B4]({de)}d B2({Bc)}B A2AG A2[D4A4]({AB)}A G2G8|
+G3A B2[D4B4]({de)}d B2B A2({AB)}AG A2A2[D4A4]({AB)}AG|
+G2A2({Bc)}B G4B ({cd)}c A2[D2A2]A/2B/2c/2B/2 G2({GA)}G E2E2({D}E4)|
+G3A B2[D4B4](B/2d/2B/2) G2G4A2({AB)}A G2G4:|
+|:G3A B2[D4B4]d8({ef}e2)d2d4d/2e/2d/2c/2 ({B}c)d Bc c/2d/2c/2B/2 A [D2A2]A/2B/2A/2 G F G2G4|
+({f}g2)[B4g4]a2a/2b/2a/2g/2f/2g/2a/2 g4:|
+d2e2({=fg}=f) e2({=fg}=f2)({ga}g2)({gb)}a2({eg}=f2)({ef}e) d2({eg}=f2)({a}g2)g/2b/2 a/2g/2e/2d d2e^fg g2B2({Bc}B) A2({AB}A)GA[D4A4][D2A2]({AB}A) G2G4|
+A2A/2c/2B/2 G2B({cd}c) A2(A/2 B/2A/2 G2)G2E2({EF}E) DE E4|
+G3A/2B/2c/2B/2[D2B2]B/2d/2B/2 G2G4A({AB}A) G/2F/2G/2 G4|]
+S:https://www.folktunefinder.com/tunes/172267
+S:http://www.stolaf.edu/people/hend/LamentForLimerick.ABC
+% Titles One title
+% Transcriptions Only 1 transcription
+% Mode major
+% Key G
+% Time_signature 4/4
+% Has_accompaniment_chords No chords

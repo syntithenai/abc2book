@@ -1,0 +1,25 @@
+X:150
+T: Maids of Ardagh
+Z: B.Black
+R: polka
+M: 2/4
+L: 1/8
+K: D
+FA BA | de f2 | fe/f/ ge | ed BA |
+FA BA | de f2 | fe/f/ ge | ed d2 :|
+K: A
+ee ce | fe a2 | ee/e/ ce | fe c/B/A |
+ee ce | fe a2 | ee/e/ dB |1 BA A2 :|2\
+BA A=G ||
+S:https://www.folktunefinder.com/tunes/93698
+S:http://trillian.mit.edu/~jc/music/abc/mirror/redhawk.org/zouki/m.abc
+S:http://www2.redhawk.org:8080/irish/zouki/m.abc
+% Rhythm Polka
+% Titles One title
+% Transcriptions Only 1 transcription
+% Movement Has some stepwise movement
+% Mode major
+% Key A
+% Key D
+% Time_signature 2/4
+% Has_accompaniment_chords No chords
