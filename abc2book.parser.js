@@ -544,6 +544,7 @@ function getTuneMeter(tune) {
     //}
 //}
 function cleanMetaData(meta) {
+    return meta
     var final = {}
     if (meta) Object.keys(meta).forEach(function(key) {
       var required = ['W','X','K','M','L','T','R']
