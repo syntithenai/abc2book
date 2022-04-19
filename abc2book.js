@@ -1,4 +1,6 @@
 var renderResult = null
+var requiredHeaders = ['X','K','M','L','T','R']
+
 
 $.fn.sortChildren = function(sortCb){
     this.children().detach().sort(sortCb).appendTo(this);
@@ -192,10 +194,13 @@ function generateAndRenderSingle(songNumber, tune) {
       //if (errors.hasOwnProperty(rk)) {
         //addErrorControls('#music_'+rk, errors[rk])
       //} else { 
-        addAudioControls('#music_'+rk, rr, rk, tune)
+        addAudioControls('#music_'+songNumber, rr, songNumber, tune)
       //}
       $('.abcjs-rhythm tspan').attr('y','20')
       makeEditable(".abcjs-title tspan")
+      preventClickThrough()
+      $('#stopplayingbutton').hide()
+      $('#stopplayingallbutton').hide()
     })
   }
   // indexes TODO

@@ -44,10 +44,11 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
                 + "T: " + getTuneName(tune) + "\n" //songNumberForDisplay(songNumber) + ". "  + 
                 + "M:"+getTuneMeter(tune)+ "\n" 
                 + "L:" + getTuneNoteLength(tune) + "\n" 
-                + renderOtherHeaders(tune)
-                + "K:"+setting.key+ "\n" 
                 + "R: "+  getTuneType(tune) + "\n" 
-                + aliasText + abc  + "\n" 
+                + renderOtherHeaders(tune)
+                + aliasText 
+                + "K:"+setting.key+ "\n" 
+                + abc  + "\n" 
                 // add song number to title
                 +
                 "% abc-sessionorg_id " + tune.id + "\n" + 
@@ -65,13 +66,18 @@ function json2abc(songNumber, tune) { //abc, songNumber, name, forceTitle, key, 
   }
 }
 
+
 function renderOtherHeaders(tune) {
   if (tune && tune.meta) {
     return Object.keys(tune.meta).map(function(key) {
       // exclude required headers
-      var required = ['X','N','K','M','L','T','S','R']
-      if (required.indexOf(key) === -1) {
-        return key + ": "+tune.meta[key] + "\n"
+      if (requiredHeaders.indexOf(key) === -1) {
+        return tune.meta[key].split("\n").map(function(metaLine) {
+          return key + ": "+metaLine + "\n"
+        }).join("")
+        //return key + ": "+tune.meta[key] + "\n"
+      } else {
+        return ''
       }
     }).join("")
   } else {

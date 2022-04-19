@@ -4,7 +4,7 @@ var midiBuffer = null
 
 function addAudioControls(element, visualObj, songNumber, tune) {
   // PLAYBACK CONTROLS
-  //console.log('add audio', searchString)
+  console.log('add audio', songNumber, element, visualObj,  tune)
   var boost = tune.boost > 0 ? tune.boost : 0
   //getMetaValueFromSongline('B',searchString)
   //boost = boost > 0 ? boost : 0

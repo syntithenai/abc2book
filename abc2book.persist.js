@@ -135,7 +135,7 @@ function updateTuneAbc(songNumber, tuneIds) {
       abcTexts.forEach(function(abcText) {
         if (tune === null)  {
           tune = singleAbc2json(abcText) 
-          tune.meta = cleanMetaData(tune.meta)
+          //tune.meta = cleanMetaData(tune.meta)
           tune.id = ''
           tune.settings[0].id = ''
           tune.songNumber = songNumber

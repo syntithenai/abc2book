@@ -418,6 +418,7 @@ var reviewRenderResult=null
 var stopPlayingHook = null
 var startsPlayingHook = null
 var timingCallbacks = null
+
 function renderReviewMusic() {
   var tune = getCurrentReviewTune()
   if (tune) {

@@ -97,16 +97,27 @@ function isMetaLine(line) {
 function getMetaFromAbc(abc) {
   var parts = abc.split("\n")
   var meta = {}
+  function stashMeta(key,val) {
+      if (meta.hasOwnProperty(key)) {
+          meta[key] = meta[key] + "\n" + val
+      } else {
+          meta[key] = val
+      }
+  }
+  
   parts.map(function(part) {
     if (isMetaLine(part) && !isAliasLine(part)) {
         if (part[0] === 'T') {
-            meta[part[0]] = stripLeadingNumber(part.slice(2).trim())
+            stashMeta(part[0],stripLeadingNumber(part.slice(2).trim()))
+            //meta[part[0]] = stripLeadingNumber(part.slice(2).trim())
         } else {
-            meta[part[0]] = part.slice(2).trim()
+            stashMeta(part[0],part.slice(2).trim())
+            //meta[part[0]] = part.slice(2).trim()
         }
        
     }
   })
+  console.log('GET META FROM ABC',abc,meta)
   return meta
   
 }
@@ -544,11 +555,9 @@ function getTuneMeter(tune) {
     //}
 //}
 function cleanMetaData(meta) {
-    return meta
     var final = {}
     if (meta) Object.keys(meta).forEach(function(key) {
-      var required = ['W','X','K','M','L','T','R']
-      if (required.indexOf(key) !== -1) {
+      if (requiredHeaders.indexOf(key) !== -1) {
           final[key] = meta[key]
       }
     })
