@@ -232,7 +232,12 @@ function domInit() {
  
  resetSearchTexts()
  
-  const registerServiceWorker = async () => {
+  
+
+  
+}
+
+const registerServiceWorker = async () => {
     if ('serviceWorker' in navigator) {
       try {
         const registration = await navigator.serviceWorker.register(
@@ -253,10 +258,6 @@ function domInit() {
       }
     }
   };
-
-  
-}
-
 
 function showElement(id) {
   $('#'+id).show()

@@ -220,7 +220,9 @@
 
     </div>
     <div class="playblock"  style="float: right">
+<!--
          <button   id="playallbutton" class="headerbutton" style="float: right; margin-right: 0.2em;"  onClick="playAll()" ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Play All</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16.394 12L10 7.737v8.526L16.394 12zm2.982.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/></svg></button>
+-->
       <button  class="headerbutton"  id="stopplayingallbutton" style="float: right; margin-right: 0.2em; display: none" class="stopplayingbutton"  onClick="stopPlaying()" ><svg role="img"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>
       <input type='hidden' id="playallvalue" value="" />
       
@@ -425,7 +427,7 @@
   <p style='page-break-before: always'></p>
   <div id="welcometext" style="margin-bottom: 1em; font-size: 0.9em"  >
   <h3 style="" >Learn session tunes here !</h3> 
-  <div style="display: inline"  >Try a curated tunebook. <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen')" >Begged Borrowed and Stolen</button> </div>
+  <div style="display: inline"  >Try a curated tunebook. <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen 1')" >Begged Borrowed and Stolen 1</button> <button style="font-size: 0.7em" onClick="selectSongList('begged borrowed and stolen 2')" >Begged Borrowed and Stolen 2</button> </div>
   <div style="margin-top:0.5em" >If you know what you want you can <button style="font-size: 0.7em" id="welcomeimportbutton" >Load an ABC Tunebook</button>, <button style="font-size: 0.7em" id="welcomecreatenewbutton" >Import a list of names</button> or <button style="font-size: 0.7em" id="welcomeaddtunebutton" >Add a Tune</button> and use the edit, link or search tools to find the music.</div>
   <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along. Boost affects review order and tempo.</div>
   <div style="margin-top:0.5em" ><button style="font-size: 0.7em" id="welcomedownloadbutton" >Download</button> or <button style="font-size: 0.7em" onClick="printPage()" >Print</button> your tunebook to share with other people and devices.</div>

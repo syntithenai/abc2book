@@ -4,7 +4,7 @@ function getSongList(key) {
 
 function getSongLists() {
     return {
-        'begged borrowed and stolen': `
+        'begged borrowed and stolen 1': `
  
 X: 1
 T: Amazing Grace
@@ -662,6 +662,10 @@ K:Dmajor
 % abc-boost 0
 
 
+        `,
+        'begged borrowed and stolen 2':
+        `
+        
 X: 31
 T: The Rocky Road To Dublin
 M:9/8
@@ -1286,8 +1290,6 @@ B|"D" A2 D EFD E2 A A2 f|"G" g2 e "(D)" f2 d "A" e2 d Bcd|
 % abc-sessionorg_setting 0
 % abc-sessionorg_setting_id 35527
 % abc-boost 0
-
-
 
 
         `

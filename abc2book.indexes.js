@@ -10,7 +10,7 @@ function generateIndexesFromTunes() {
       var tune = tunes[k]
       if (tune) {
         var setting = tune && tune.settings && tune.settings.length > tune.useSetting ? tune.settings[tune.useSetting] : {}
-        addTuneToIndexes(k, tune, setting, tune.forceTitle, index, keyIndex, typeIndex)
+        addTuneToIndexes(k, tune, setting, tune.name, index, keyIndex, typeIndex)
       }
     })
     saveLocalObject('abc2book_index', index)
@@ -27,7 +27,7 @@ function generateIndexesFromTunes() {
  */
 function addTuneToIndexes(songNumber, tune, setting, tuneName, index, keyIndex, typeIndex) {
   if (setting && setting.key) {
-    //console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
+    console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
     //var index = loadLocalObject('abc2book_index')
     //var keyIndex = loadLocalObject('abc2book_indexbykey')
     //var typeIndex = loadLocalObject('abc2book_indexbytype')
@@ -131,7 +131,7 @@ function renderIndexByTypeFromTunes() {
  * */
 function addToCollation(collationId, key,keyText, value) {
     var useKey = stripText(key)
-    //console.log('ADD TO COLL',key, useKey)
+   // console.log('ADD TO COLL',key, useKey, keyText, value )
     if (key && key.trim().length > 0) {
       var container = $("#"+collationId)
       var keyContainer = $("#"+useKey, container)

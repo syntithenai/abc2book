@@ -162,10 +162,10 @@ function isChord(chord) {
 
 function progressUp(songNumber) {
     var tunes = loadLocalObject('abc2book_tunes')
+    console.log("UP",songNumber, tunes)
     if (Object.keys(tunes).length > songNumber) {
       var tune = tunes[songNumber]
-      var boost = tune ? tune.boost : 0
-      boost = boost > 0 ? boost : 0
+      var boost = tune && tune.boost > 0 ? parseInt(tune.boost) : 0
       tune.boost = boost + 1
       tunes[songNumber] = tune
       saveLocalObject('abc2book_tunes',tunes)
@@ -177,7 +177,7 @@ function progressDown(songNumber) {
     var tunes = loadLocalObject('abc2book_tunes')
     if (Object.keys(tunes).length > songNumber && tunes[songNumber]) {
       var tune = tunes[songNumber]
-      var boost = tune.boost
+      var boost = parseInt(tune.boost)
       boost = boost > 0 ? boost : 0
       var newBoost = boost - 1
       tune.boost = newBoost
