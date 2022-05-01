@@ -27,7 +27,7 @@ function generateIndexesFromTunes() {
  */
 function addTuneToIndexes(songNumber, tune, setting, tuneName, index, keyIndex, typeIndex) {
   if (setting && setting.key) {
-    console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
+    //console.log('addTuneToIndexes',songNumber, tune, setting, tuneName)
     //var index = loadLocalObject('abc2book_index')
     //var keyIndex = loadLocalObject('abc2book_indexbykey')
     //var typeIndex = loadLocalObject('abc2book_indexbytype')
@@ -159,20 +159,29 @@ function sortAndCollateMainIndex() {
         }
     })
     var sorted = []
-    var sortedKeys = Object.keys(lookups).sort()
+    var sortedKeys = Object.keys(lookups).sort(function(a,b) {
+     if (a && b && a.trim().toLowerCase().replace("the ",'') < b.trim().toLowerCase().replace("the ",'') ) {
+       return -1
+     } else {
+       return 1
+     }
+    })
     sortedKeys.map(function(a) {
       sorted.push(lookups[a])
     })  
+    //console.log('SORTED KEYS', sortedKeys, sorted)
     
     $('#index').html(sorted.map(function(a) {
       var parts = a.split('.')
       var link = $(`<a href='#'>`+a+"</a>")
       link.click(function(e) {
         e.stopPropagation()
-        $('#music').show()
+        //$('#music').show()
         $('.controls').show()
         //console.log('click',parts, parseInt(parts[0]))
         showContentSection('music')
+        setCurrentSong((parseInt(parts[0]) -1))
+        renderMusicFromLongAbc()
         setTimeout(function() {
           scrollTo("controls_"+(parseInt(parts[0]) -1))
         }, 300)

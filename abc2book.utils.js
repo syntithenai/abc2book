@@ -125,6 +125,7 @@ function getMetaValueFromSongline(key,songline) {
         return null
     }
 }
+
 function isChord(chord) {
   var chordMatches = [
       'A','B','C','D','E','F','G',  

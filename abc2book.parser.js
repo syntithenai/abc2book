@@ -117,7 +117,7 @@ function getMetaFromAbc(abc) {
        
     }
   })
-  console.log('GET META FROM ABC',abc,meta)
+  //console.log('GET META FROM ABC',abc,meta)
   return meta
   
 }
@@ -199,11 +199,11 @@ function getMetaValueFromAbc(key,abc) {
         for (var partKey in parts) {
             var part = parts[partKey]
             if (part.startsWith(key + ':')) {
-                if (part[0] === 'T') {
-                    found = stripLeadingNumber(part.slice(2).trim())
-                } else {
+                //if (part[0] === 'T') {
+                    //found = stripLeadingNumber(part.slice(2).trim())
+                //} else {
                     found = part.slice(2).trim()
-                }
+                //}
                 break;
             }
         }
@@ -216,7 +216,7 @@ function getMetaValueFromAbc(key,abc) {
 function getKeyedCommentFromAbc(key,abc) {
     if (!abc) return ''
     var first = abc.indexOf('% abc-'+key)
-    if (first !== -1) {
+    if (first === 0) {
         var parts = abc.slice(first + 6 + key.length).split("\n")
         return ensureText(parts[0].trim())
     } else {
@@ -244,7 +244,7 @@ function getKeyedCommentFromAbc(key,abc) {
  
 function removeAbcInnerStrings(abc) {
   if (abc) {
-        // remove strings from abc
+        // remove strings from abc notes
       abc = abc.trim()
       var next = abc.indexOf('"')
       while (next !== -1) {

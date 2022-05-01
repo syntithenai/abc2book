@@ -30,7 +30,7 @@ function updateTunesFromLongAbc() {
     console.log('TIMER gen abc', (new Date().getTime() - start))
     generateShortAbcFromTunes()
     console.log('TIMER gen short abc', (new Date().getTime() - start))
-    renderCheetsheetFromShortAbc()
+    //renderCheetsheetFromShortAbc()
     console.log('TIMER render cheetsheet', (new Date().getTime() - start))
     renderMusicFromLongAbc()
     console.log('TIMER render music', (new Date().getTime() - start))
@@ -128,7 +128,7 @@ function generateAndRender() {
   console.log('TIMER gen abc', (new Date().getTime() - start))
   generateShortAbcFromTunes()
   console.log('TIMER gen short abc', (new Date().getTime() - start))
-  renderCheetsheetFromShortAbc()
+  //renderCheetsheetFromShortAbc()
   console.log('TIMER render cheetsheet', (new Date().getTime() - start))
   renderMusicFromLongAbc()
   console.log('TIMER render music', (new Date().getTime() - start))
@@ -177,33 +177,33 @@ function generateAndRenderSingle(songNumber, tune) {
     $('#longabc').val("X:" + longParts.join(("X:")))
     
     // render cheetsheet
-    var shortkey = 'cheatsheet_music_'+songNumber
-    $('#'+shortkey).html('')
-    var renderResultCheat = window.ABCJS.renderAbc([shortkey], shortabc , getCheatSheetRendererSettings());
+    //var shortkey = 'cheatsheet_music_'+songNumber
+    //$('#'+shortkey).html('')
+    //var renderResultCheat = window.ABCJS.renderAbc([shortkey], shortabc , getCheatSheetRendererSettings());
     // render song
     var longkey = 'music_'+songNumber
-    //console.log('render into  ',longkey)
+    console.log('render into  ',longkey)
     $('#'+longkey).html('')
     //var searchStrings = $('#songlist').val().split("\n")
     var renderResultSingle = window.ABCJS.renderAbc([longkey], addTitleNumbering(longabc) , getMainRendererSettings());
     renderResultSingle.map(function(rr,rk) {
+      console.log('SINGLE RENDER RES',rk, rr)
       // update cache 
-      renderResult[songNumber] = rr
-      var searchString = ''
+      //renderResult[songNumber] = rr
+      //var searchString = ''
       //searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
       //if (errors.hasOwnProperty(rk)) {
         //addErrorControls('#music_'+rk, errors[rk])
       //} else { 
         addAudioControls('#music_'+songNumber, rr, songNumber, tune)
       //}
-      $('.abcjs-rhythm tspan').attr('y','20')
-      makeEditable(".abcjs-title tspan")
+      tweakMusicRendering()
+      //makeEditable(".abcjs-title tspan")
       preventClickThrough()
       $('#stopplayingbutton').hide()
       $('#stopplayingallbutton').hide()
     })
   }
-  // indexes TODO
   generateIndexesFromTunes()
   renderIndexes()
   
@@ -241,37 +241,44 @@ function renderCheetsheetFromShortAbc() {
  * Render all tunes from complete abclong
  */
 function renderMusicFromLongAbc() {
-  if ($('#longabc').val().trim().length === 0) return
-  var errors = loadErrors()  
-  var tuneBook = new window.ABCJS.TuneBook($('#longabc').val())
-  
-  var targetArray = []
-  var row = null;  
-  tuneBook.tunes.map(function(v,k) {
-    $('#music').append('<div id="music_'+k+'" ></div>')
-    targetArray.push('music_'+k)
-  })
-  //var p = new Promise()
-  renderResult = window.ABCJS.renderAbc(targetArray, addTitleNumbering($('#longabc').val()) , getMainRendererSettings());
-  //var searchStrings = $('#songlist').val().split("\n")
-  renderResult.map(function(rr,rk) {
-    //console.log('RR',rr,rk)
-    //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
-    //if (errors.hasOwnProperty(rk)) {
-      //addErrorControls('#music_'+rk, errors[rk])
-    //} else { 
-    var tune = getTuneFromCache(rk)
-    addAudioControls('#music_'+rk, rr, rk, tune)
-      
-      //}
-  })
-  
-  $('.abcjs-rhythm tspan').attr('y','20')
-  $('#downloadlongabc').css('display','block')
-  $('#downloadshortabc').css('display','block')
-  $('#printbutton').css('display','block')
-  makeEditable(".abcjs-title tspan")
-  
+  var currentSong = getCurrentSong()
+  console.log('render all  ',currentSong)
+  if (haveCurrentSong()) {
+    var tunes = loadLocalObject('abc2book_tunes')
+    $('#music').html('')
+    $('#music').append('<div id="music_'+currentSong+'" ></div>')
+    if (tunes[currentSong]) {
+      generateAndRenderSingle(currentSong, tunes[currentSong])
+    }
+  // render all (can be slow especially on mobile)
+  } else {
+    if ($('#longabc').val().trim().length === 0) return
+    var errors = loadErrors()  
+    var tuneBook = new window.ABCJS.TuneBook($('#longabc').val())
+    
+    var targetArray = []
+    var row = null;  
+    tuneBook.tunes.map(function(v,k) {
+      $('#music').append('<div id="music_'+k+'" ></div>')
+      targetArray.push('music_'+k)
+    })
+    //var p = new Promise()
+    renderResult = window.ABCJS.renderAbc(targetArray, addTitleNumbering($('#longabc').val()) , getMainRendererSettings());
+    //var searchStrings = $('#songlist').val().split("\n")
+    renderResult.map(function(rr,rk) {
+      //console.log('RR',rr,rk)
+      //var searchString = searchStrings.length > rk && searchStrings[rk] ? searchStrings[rk] : ''
+      //if (errors.hasOwnProperty(rk)) {
+        //addErrorControls('#music_'+rk, errors[rk])
+      //} else { 
+      var tune = getTuneFromCache(rk)
+      addAudioControls('#music_'+rk, rr, rk, tune)
+        
+        //}
+    })
+    tweakMusicRendering()
+    makeEditable(".abcjs-title tspan")
+  }
 }
 
 function generateAbcFromTunes() {

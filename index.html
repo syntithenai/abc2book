@@ -9,9 +9,12 @@
   <title>ABC2Book</title>
   <link href="bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
   <link href="abcjs-audio.css" media="all" rel="stylesheet" type="text/css" />
+<!--
 	<link rel="manifest" href="./manifest.json">
+-->
 </head>
 <body>
+  
   <div id="pagewrapper"  style="position:relative">
  <a id="topofpage" ></a>
   
@@ -102,7 +105,7 @@
 
 <div id="controls"  style="width: 100%; z-index: 3;  background-image: linear-gradient(to right , #d8d5f9, #6254f5);
   position: fixed; top: 0; left: 0;  padding: 0em" >
-  <span id="waiting" ><img src="waiting.gif" style="position: fixed; top: 10em; left: 8em; height: 18em; opacity: 1"  ></span>
+  <span id="waiting" ><img src="waiting.gif" style="display: none; position: fixed; top: 10em; left: 8em; height: 18em; opacity: 1"  ></span>
   
   <a onClick="showContentSection('home')" href="#" style="float: left;  margin-right: 0.2em" >
     <button id="homebutton" style="z-index: 10"  ><img class="button" style="opacity: 0.9"  src="home.png"   ></button>
@@ -128,17 +131,20 @@
   <div style="position: relative; width: 100%; " >
     <div id="buttonblock" style="float: left;" >
      
-      
+      <button id="indexbutton" class="headerbutton" onClick="showContentSection('indexes_wrap')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Show Index</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"/></svg></button>
+         
       <button style="float:left; margin-right: 0.2em;"  id="moremenubutton" ><svg xmlns="http://www.w3.org/2000/svg" role="image" viewBox="0 0 24 24" class="button" ><title>File</title><path fill="none" d="M0 0h24v24H0z"/><path d="M13.414 5H20a1 1 0 0 1 1 1v1H3V4a1 1 0 0 1 1-1h7.414l2 2zM3.087 9h17.826a1 1 0 0 1 .997 1.083l-.834 10a1 1 0 0 1-.996.917H3.92a1 1 0 0 1-.996-.917l-.834-10A1 1 0 0 1 3.087 9z"/></svg></button> 
 
-
+  
+<!--
       <button id="showviewoptionsbutton" style="float: left; margin-right: 0.2em;  " ><svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>View</title><path fill="none" d="M0 0h24v24H0z"/><path d="M22 12.999V20a1 1 0 0 1-1 1h-8v-8.001h9zm-11 0V21H3a1 1 0 0 1-1-1v-7.001h9zM11 3v7.999H2V4a1 1 0 0 1 1-1h8zm10 0a1 1 0 0 1 1 1v6.999h-9V3h8z"/></svg></button>
+      
       <div id="viewoptions" class="overlay" style="display: none; position: fixed; top: 2.5em; left: 1em; min-width: 10em; min-height: 5em" >
-        <button id="indexbutton" class="headerbutton" onClick="showContentSection('indexes')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Show Index</title><path fill="none" d="M0 0h24v24H0z"/><path d="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zm-1-2V4H5v16h14zM8 7h8v2H8V7zm0 4h8v2H8v-2zm0 4h8v2H8v-2z"/></svg></button>
-         
-         <button id="cheatsheetbutton" class="headerbutton" onClick="showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
+        
+        
       </div>
     
+-->
        
    
 <button   id="reviewbutton"  class="headerbutton" style="float: left; margin-right: 0.2em;"  >
@@ -197,7 +203,7 @@
 </g>
 </svg></button>
 
-<button id="helpbutton" style="float: left"  onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
+
 
 
     <div  id="moremenu" class="overlay" style="display: none; position: fixed; top: 2.5em; left: 1em; min-width: 10em; min-height: 5em" >
@@ -215,6 +221,10 @@
       <button id="printbutton" style="margin-right: 0.2em; float: left"   onClick="printPage(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Print</title><path fill="none" d="M0 0h24v24H0z"/><path d="M6 19H3a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm0-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1h2V9H4v8h2zM8 4v3h8V4H8zm0 13v3h8v-3H8zm-3-7h3v2H5v-2z"/></svg></button>
       
       <button style="margin-right: 0.2em; float: left"   onClick="resetTunebook(); return false"  ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Delete all tunes</title><path fill="none" d="M0 0h24v24H0z"/><path d="M17 6h5v2h-2v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V8H2V6h5V3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3zm1 2H6v12h12V8zm-9 3h2v6H9v-6zm4 0h2v6h-2v-6zM9 4v2h6V4H9z"/></svg></button>
+      
+       <button id="cheatsheetbutton" style="margin-right: 0.2em; float: left"  class="headerbutton" onClick="renderCheetsheetFromShortAbc() ; showContentSection('cheatsheet_music_container')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Cheat Sheet</title><path fill="none" d="M0 0h24v24H0z"/><path d="M16 8v2h-3v4.5a2.5 2.5 0 1 1-2-2.45V8h4V4H5v16h14V8h-3zM3 2.992C3 2.444 3.447 2 3.999 2H16l5 5v13.993A1 1 0 0 1 20.007 22H3.993A1 1 0 0 1 3 21.008V2.992z"/></svg></button>
+       
+       <button id="helpbutton" style="float: left"  onClick="showContentSection('help')"   ><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><title>Help</title><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 0 1 1-1 1.5 1.5 0 1 0-1.471-1.794l-1.962-.393A3.501 3.501 0 1 1 13 13.355z"/></svg></button>
       
     </div>
 
@@ -308,11 +318,13 @@
 <div id="mastercontainer" >
 
   <div id="help" style="display: none" >
-    <a style="float: right; margin-top: 1.5em; margin-right: 1.5em" target="_new" href="https://github.com/syntithenai/abc2book/issues"><button>Submit a Bug</button></a>
+    <a style="float: right; margin-top: 1.5em; margin-right: 1.5em" target="_new" href="https://github.com/syntithenai/abc2book/issues"><button>Problems or suggestions ?</button></a>
     <br/>
     <div style="clear: both" >This tool helps you to find, collect, print and memorise tunes. It includes features to
     <ul>
       <li>Search and import tunes from thesession.org.</li>
+      <li>Search and import tunes from the included database of abc format tunes scraped from the web.</li>
+      <li>Switch quickly between various settings/arrangments of the same tune.</li>
       <li>Simplify submission of updates and new tunes to thesession.org.</li>
       <li>Edit tunes using <a target="_new" href="http://www.lesession.co.uk/abc/abc_notation.htm">ABC Notation</a> with immediate visual feedback and audio support.</li>
       <li>Generate a clickable index of all the tunes in a book</li>
@@ -361,53 +373,42 @@
       <input id="stopbuttonvalue"  type='hidden' value="true" />
       
       <input type="file"  id="uploadbutton" class="headerbutton" value="Load File" />
-      
-<script>
-  const fileSelector = document.getElementById('uploadbutton');
-  fileSelector.addEventListener('change', (event) => {
-    const fileList = event.target.files;
-    //console.log('FILES',fileList);
-    function readFile(){
-        var file = document.getElementById("uploadbutton").files[0];
-        var reader = new FileReader();
-        reader.onloadend = function(){
-          var lines = reader && reader.result ? reader.result.split("\n") : []
-          if (confirm('Do you really want to replace your current tune book with this list of '+lines.length+' search items ?')) {
-              $('#songlist').val(reader.result) 
-              saveSongList()
-              generateMusic()
-          }
-          //console.log("reader end",reader.result)
-            //document.getElementById('profile-upload').style.backgroundImage = "url(" + reader.result + ")";        
-        }
-        if(file){
-            reader.readAsText(file);
-        }else{
-        }
-    }
-    readFile()
-  });
-</script>
-      
     </div>
+    
+    
     <div id="processingstatus" ></div>
     <textarea  style="clear: both; float: left; width: 100%" rows=10  id="songlist" onKeyUp="saveSongList()" ></textarea>
     
   </div>
   
-  <div id="indexes" style="display: none; margin-left: 1em">
-    <h1>Tune Index</h1>
-    <div id="index"   ></div>
-    <p style='page-break-before: always'><br/></p>
+  <div id="indexes_wrap" >
+    <div style="width: 100%; margin-top: 4em" id="musiclistbuttons"  >
+        
+        <input type="text" style="width: 60%" id="musicsearchfilter"  />
+        <button id="searchfilterbutton" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>
+        <button id="searchfilterresetbutton" style="display: none" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg></button>
+        
+        <button style="float: right;" id="addtunebutton" >
+        <svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Add a Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>
+        
+      </div>
+      
+    <div id="indexes" style="margin-left: 1em">
+      <h1>Tune Index</h1>
+      
+      
+      <div id="index"   ></div>
+      <p style='page-break-before: always'><br/></p>
 
-    <h3 style="margin-top: 4em" >Index By Key Signature</h3>
-    <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbykey"   ></div>
-    <p style='page-break-before: always'><br/></p>
+      <h3 style="margin-top: 4em" >Index By Key Signature</h3>
+      <div style="width: 100%; clear: both; padding-bottom: 2em; " id="indexbykey"   ></div>
+      <p style='page-break-before: always'><br/></p>
 
-    <h3 style="margin-top: 4em">Index By Tune Type</h3>
-    <div style="width: 100%; clear: both; padding-bottom: 2em;" id="indexbytype"   ></div>
-  </div>
-
+      <h3 style="margin-top: 4em">Index By Tune Type</h3>
+      <div style="width: 100%; clear: both; padding-bottom: 2em;" id="indexbytype"   ></div>
+    </div>
+  </div> 
+  
   <span style="display: none;">
     <h1>Short</h1>
     <input id="reloadbutton" style="float: left ;margin-right: 2em" type='button' onClick="renderCheetsheetFromShortAbc();" value="Render" />
@@ -432,17 +433,7 @@
   <div style="margin-top:0.5em" >Boost some tunes and use the review tool to play along. Boost affects review order and tempo.</div>
   <div style="margin-top:0.5em" ><button style="font-size: 0.7em" id="welcomedownloadbutton" >Download</button> or <button style="font-size: 0.7em" onClick="printPage()" >Print</button> your tunebook to share with other people and devices.</div>
   </div>
-  <div style="width: 100%" id="musiclistbuttons"  >
-    <input type="text" style="width: 60%" id="musicsearchfilter"  />
-    <button id="searchfilterbutton" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><path fill="none" d="M0 0h24v24H0z"/><path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"/></svg></button>
-    <button id="searchfilterresetbutton" style="display: none" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg></button>
-    
-    
-    
-    <button style="float: right;" id="addtunebutton" >
-    <svg role="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Add a Tune</title><path fill="none" d="M0 0h24v24H0z"/><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"/></svg></button>
-    
-  </div>
+  
   <div style="width: 100%; clear: both; padding-bottom: 2em;margin-bottom: 5em; margin-left: 0px; margin-right: 0px" class="music"  id="music"   ></div>
   <br/>
   <br/>

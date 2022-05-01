@@ -16,25 +16,58 @@ function preventClickThrough() {
 }
 
 
+function enableUploadTunebookButton() {
+    const fileSelector = document.getElementById('uploadbutton');
+    fileSelector.addEventListener('change', (event) => {
+    const fileList = event.target.files;
+    //console.log('FILES',fileList);
+    function readFile(){
+        var file = document.getElementById("uploadbutton").files[0];
+        var reader = new FileReader();
+        reader.onloadend = function(){
+          var lines = reader && reader.result ? reader.result.split("\n") : []
+          if (confirm('Do you really want to replace your current tune book with this list of '+lines.length+' search items ?')) {
+              $('#songlist').val(reader.result) 
+              saveSongList()
+              generateMusic()
+          }
+          //console.log("reader end",reader.result)
+            //document.getElementById('profile-upload').style.backgroundImage = "url(" + reader.result + ")";        
+        }
+        if(file){
+            reader.readAsText(file);
+        }else{
+        }
+    }
+    readFile()
+  });
+}
+
 function domInit() {
     if (window.mobileAndTabletCheck()) {
     $("#pagewrapper").addClass('is_mobile')
   } 
   
   //loadSongList()
-  $("#stopbutton").show()
+  //$("#stopbutton").show()
+  $('#waiting').hide()
+  
   //$('#songlistmanager').hide()
   //$("#helpbutton").hide()
   //$("#reviewbuttons").hide()
   generateAndRender()
+  renderSonglistPicker()
+  preventClickThrough() 
+  resetSearchTexts() 
+  enableUploadTunebookButton()
   // hide overlays on bg click
   $('body').click(function() {
     $('.overlay').hide()
   })
-  $('#waiting').hide()
-  renderSonglistPicker()
   $('.stopplayingbutton').hide()
   $('#stopbutton').hide()
+  
+  
   $('#downloadbutton').click(function(e) {
     e.stopPropagation()
     $('#downloadselector').show()
@@ -101,7 +134,6 @@ function domInit() {
      $('#musicsearchfilter').focus()
    })
        
-  preventClickThrough() 
    $('#showwizardsbutton').click(function(e) {
      //console.log('#showwizardsbutton')
     e.stopPropagation()
@@ -230,7 +262,7 @@ function domInit() {
     ns.enable();
   }, false);  
  
- resetSearchTexts()
+ 
  
   
 
@@ -238,6 +270,7 @@ function domInit() {
 }
 
 const registerServiceWorker = async () => {
+    return 
     if ('serviceWorker' in navigator) {
       try {
         const registration = await navigator.serviceWorker.register(
@@ -292,9 +325,11 @@ function download(filename, text) {
 
 function printPage() {
   if ($("#longabc").val().trim().length > 0) {
-          filterMusicList('')
+      setCurrentSong(null)
+      renderMusicFromLongAbc()
+      filterMusicList('')
       $('#musicsearchfilter').val()
-      $('#indexes').show()
+      $('#indexes_wrap').show()
       $('#music').show()
       $('#cheatsheet_music_container').show()
       $('#songlistmanager').show()
@@ -325,7 +360,7 @@ function hideTuneControls() {
 }
 
 function showContentSection(contentId) {
-    var contentTypes = ['cheatsheet_music_container','indexes','music','help','review','edit','songlistmanager','welcometext','longabcwrapper']
+    var contentTypes = ['cheatsheet_music_container','indexes_wrap','music','help','review','edit','songlistmanager','welcometext','longabcwrapper']
     $(".overlay").hide()
     if (contentId === 'review') {
       $('#reviewbuttons').show()
@@ -335,7 +370,7 @@ function showContentSection(contentId) {
     $("#reviewbuttons").hide()
     $('#buttonblock').show()
     $('.playblock').show()
-    if (contentId === 'music') {
+    if (contentId === 'indexes_wrap') {
       $('#musiclistbuttons').show()
     } else {
       $('#musiclistbuttons').hide()
@@ -444,4 +479,13 @@ function fixNotesBang() {
           $('#wizards').hide()
         })
       }
+}
+
+
+function tweakMusicRendering() {
+    $('.abcjs-rhythm tspan').attr('y','20')
+    $('#downloadlongabc').css('display','block')
+    $('#downloadshortabc').css('display','block')
+    $('#printbutton').css('display','block')
+    
 }

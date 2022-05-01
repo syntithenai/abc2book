@@ -655,3 +655,29 @@ function resetSearchText(songNumber) {
     saveLocalObject('abc2book_searchtexts',st)
     saveLocalObject('abc2book_abcsearchtexts',ast)
 }
+
+function setCurrentSong(songNumber) {
+  localStorage.setItem('abc2book_currentsong',songNumber)
+}
+
+function getCurrentSong() {
+  var item = localStorage.getItem('abc2book_currentsong')
+  console.log('GCS:'+item)
+  if (item === null || item === undefined || item === "") {
+    return -1
+  } else return item
+}
+
+function haveCurrentSong() {
+  var item = localStorage.getItem('abc2book_currentsong')
+  if (item === null || item === undefined || item === "") {
+    return false
+  } else return true
+}
+
+function nextSong() {
+  var item = getCurrentSong()
+  var nextItem = parseInt(item,10) + 1
+  localStorage.setItem(nextItem)
+}
+

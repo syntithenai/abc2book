@@ -4,7 +4,7 @@ var midiBuffer = null
 
 function addAudioControls(element, visualObj, songNumber, tune) {
   // PLAYBACK CONTROLS
-  console.log('add audio', songNumber, element, visualObj,  tune)
+  //console.log('add audio', songNumber, element, visualObj,  tune)
   var boost = tune.boost > 0 ? tune.boost : 0
   //getMetaValueFromSongline('B',searchString)
   //boost = boost > 0 ? boost : 0
@@ -21,7 +21,7 @@ function addAudioControls(element, visualObj, songNumber, tune) {
     
     //startPlaying(visualObj)
   })
-  var stopButton = $('<button  style="float: right" class="button stopplayingbutton actionbutton stop-audio"  ><svg class="button" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>')
+  var stopButton = $('<button  style="float: right; display: none;" class="button stopplayingbutton actionbutton stop-audio"  ><svg class="button" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button" ><title>Stop Playing</title><path fill="none" d="M0 0h24v24H0z"/><path d="M7 7v10h10V7H7zM6 5h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg></button>')
   stopButton.click(function() { 
     $(".playbutton").show(); 
     $("#playallbutton").show()
